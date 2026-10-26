@@ -4,7 +4,7 @@ Lane document: [`docs/agents/lanes/tareq-al-suwaidan.md`](../agents/lanes/tareq-
 
 ## Next step
 
-Series `administrative-processus-abilities`: ep01–ep02 written and merged; transcribe ep03–ep05 and write their content, while phase A downloads continue down the series list.
+Series `administrative-processus-abilities`: ep01–ep03 written and merged; transcribe ep04–ep05 and write their content, while phase A downloads continue down the series list.
 
 ## Done
 
@@ -21,7 +21,8 @@ Series `administrative-processus-abilities`: ep01–ep02 written and merged; tra
 | Recording | Duration | Prose | Persons | Places | Events | Other entities | Claims verified | Commit |
 |---|---|---|---|---|---|---|---|---|
 | administrative-processus-abilities/ep01 | 1:55:16 | 40 files (ar/en/ur) | 6 new (sun-tzu, adam-smith, henry-ford, frederick-taylor, elton-mayo, abraham-maslow) + tariq-al-suwaidan extended | — | — | 5 concepts + 2 works | ~70 cited windows | 97f215e69 (PR #2024) |
-| administrative-processus-abilities/ep02 | 1:36:15 | 12 files (ar/en/ur) + person ext | tariq-al-suwaidan extended | — | — | 4 concepts (al-ruya-wa-al-risala, kpi-muashirat, strategic-business-unit, al-sharikat-al-ailiyya [contested]) | ~55 cited windows | pending |
+| administrative-processus-abilities/ep02 | 1:36:15 | 12 files (ar/en/ur) + person ext | tariq-al-suwaidan extended | — | — | 4 concepts (al-ruya-wa-al-risala, kpi-muashirat, strategic-business-unit, al-sharikat-al-ailiyya [contested]) | ~55 cited windows | d7fc78d6a (PR #2025) |
+| administrative-processus-abilities/ep03 | 2:01:42 | 33 files (ar/en/ur) + person ext | 4 new (pareto, welch, oncken, blanchard) + tariq-al-suwaidan ext | — | — | 6 concepts + 1 work | ~85 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -38,3 +39,4 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-admin-3` — ep03 (6 concepts: leadership six roles, Pareto, monkey laws, situational leadership, DISC, experience-vs-service; 4 persons: pareto, welch, oncken, blanchard; 1 work: one-minute-manager-meets-the-monkey; speaker's servant-employment rant labelled opinion).

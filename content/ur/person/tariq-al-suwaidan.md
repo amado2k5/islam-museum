@@ -45,5 +45,11 @@ translators: []
 ان کے بقول الرسالة چینل کا سٹریٹجک منصوبہ ان کے ماڈل پر ایک ہی دن میں — صبح نو سے رات نو بجے تک — نومینل گروپ کے طریقے سے لکھا گیا۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:29:00}
 ان کے انعام کے اصولوں میں: منتظم کا منافع میں حصہ عموماً تین تا پانچ فیصد، درج شدہ کمپنیوں میں آدھے تا ایک فیصد، اور جسے پورا کاروبار سونپا جائے اس کے لیے دس فیصد سے نہیں بڑھتا (needs_source: اعداد ان کے تجربے سے ہیں)۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:59:00}
 
+## اس کے دروس سے: قیادت
+تیسری قسط میں سویدان قیادت کے اپنے ذاتی اصول پیش کرتے ہیں: قائد کام کے وقت کے پچاس فیصد سے زیادہ حاضر نہیں ہوتا؛ وہ اپنے لیے کوئی ملازمت کی وضاحت قبول نہیں کرتا تاکہ وہ مرجع بنا رہے جسے جب چاہے مداخلت کا حق ہو؛ اور وہ مالی فیصلہ — چیک پر دستخط — اپنے پاس رکھتا ہے کیونکہ پیسے کی نگرانی سے اسے ہر چیز معلوم ہوتی ہے۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:53:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:57:30}
+وہ بتاتے ہیں کہ انہوں نے کین بلانچارڈ کے ہاں تعلیم لی، اور اپنی زندگی میں تقریباً ستر منصوبے چلائے — سب دوسروں کے پیسے سے، اپنے سے نہیں — جن میں کچھ کامیاب ہوئے اور کچھ خسارے میں گئے۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:27:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:26:30}
+ان کے اعلان کردہ ذاتی اصولوں میں: اپنی اکیڈمی میں وہ ان عرب امیدواروں کو مسترد کرتے جن کا تجربہ دس سال سے زیادہ ہو، ان کے ہاں خود ترقی کے نظام کی عدم موجودگی کی وجہ سے؛ اور اس نے اپنی بیٹی کو «یہ تمہارا بندر ہے» کے اصول سے ہوم ورک کی ذمہ داری سنبھالنا سکھائی بجائے اس کے لیے حل کرنے کے۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:37:30}
+اور وہ صراحت کرتے ہیں کہ ڈسک تجزیے میں ان کی اپنی طرز «با» ہے — مؤثر، لوگوں کی اہتمام کرنے والا اور تیز — دوسرے حرف سے پندرہ نکات آگے۔ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 01:37:30}
+
 ## ماخذ
 - اوپر حوالہ دیے گئے متعین ماخذ، جو `data/source/` میں درج ہیں۔
