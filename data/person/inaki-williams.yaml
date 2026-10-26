@@ -1,0 +1,36 @@
+id: person/inaki-williams
+class: person
+label: { ar: "إينياكي وليمز", en: "Iñaki Williams", ur: "ایناکی ولیمز" }
+names:
+  - { value: "Iñaki Williams Arthuer", kind: full }
+  - { value: "Iñaki Williams", kind: alternate }
+  - { value: "إينياكي وليمز", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم محترف (وُلد سنة 1994 في بلباو لأبوين غانيين)، مهاجم قضى مسيرته الكاملة مع أثلتيك بلباو وفاز معه بكأس الملك 2023–24، لعب مباراة واحدة مع إسبانيا سنة 2016 ثم مثّل غانا دوليا منذ 2022."
+  en: "Professional footballer (born 1994 in Bilbao to Ghanaian parents). A forward who has spent his entire senior career at Athletic Bilbao, winning the 2023–24 Copa del Rey, he played once for Spain in 2016 before representing Ghana internationally from 2022."
+  ur: "پیشہ ور فٹبالر (پیدائش 1994، بلباؤ، گھانائی والدین کے ہاں)۔ فارورڈ جنہوں نے اپنا پورا سینئر کیریئر ایتھلیٹک بلباؤ میں گزارا اور 2023–24 کوپا دل رے جیتا؛ 2016 میں اسپین کے لیے ایک میچ کھیلا اور 2022 سے غانا کی نمائندگی کر رہے ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1994-06-15"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 15 June 1994, born in Bilbao, Spain. There is no place entity for Bilbao, so no born_in edge is written. Hijri year 1415 derived from the Gregorian date."
+  sources: [source/wikipedia-inaki-williams-en, source/wikipedia-inaki-williams-ar, source/wikidata-inaki-williams]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for Williams, and no source makes any statement of his own religion. The English article's only religious reference is to Caritas, the Catholic charity whose Bilbao volunteer he was named after for helping his refugee parents — a fact about his name, not his faith. The Arabic article has no religion field and is silent; the short Urdu stub is likewise silent. Wikidata (Q18608497) carries no religion (P140) value at all. His parents' Ghanaian origin is background, never an attestation, so the value is unknown."
+    sources: [source/wikipedia-inaki-williams-en, source/wikipedia-inaki-williams-ar, source/wikipedia-inaki-williams-ur, source/wikidata-inaki-williams]
+external_ids: { wikidata: "Q18608497" }
+sources: [source/wikipedia-inaki-williams-en, source/wikipedia-inaki-williams-ar, source/wikipedia-inaki-williams-ur, source/wikidata-inaki-williams]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381904364 of 25 October 2026), Arabic Wikipedia (revision 76143874 of 8 August 2026), Urdu Wikipedia (revision 11530283 of 11 July 2026) and Wikidata Q18608497, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for him existed in data/person/ under williams or any spelling checked (the existing paul-williams is a different man), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

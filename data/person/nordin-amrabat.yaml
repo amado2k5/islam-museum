@@ -1,0 +1,38 @@
+id: person/nordin-amrabat
+class: person
+label: { ar: "نور الدين أمرابط", en: "Nordin Amrabat", ur: "نور الدین امرابط" }
+names:
+  - { value: "Noureddine Amrabat", kind: full }
+  - { value: "Nordin Amrabat", kind: alternate }
+  - { value: "نور الدين أمرابط", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مغربي محترف (وُلد سنة 1987 في ناردن بهولندا لأبوين من الريف المغربي)، جناح لعب لأيندهوفن وغلطة سراي وواتفورد والنصر السعودي وأيك أثينا وغيرها، وخاض 64 مباراة دولية مع المغرب وشارك في كأس العالم 2018، وهو الأخ الأكبر لسفيان أمرابط."
+  en: "Moroccan professional footballer (born 1987 in Naarden, Netherlands, to Moroccan-Riffian parents). A winger who played for PSV, Galatasaray, Watford, Al-Nassr and AEK Athens among others, winning 64 caps for Morocco and playing at the 2018 World Cup; the elder brother of Sofyan Amrabat."
+  ur: "مراکشی پیشہ ور فٹبالر (پیدائش 1987، ناردن، نیدرلینڈز، مراکشی ریفی والدین کے ہاں)۔ ونگر جو پی ایس وی، غلطہ سرائے، واٹفورڈ، النصر اور اے ای کے ایتھنز سمیت کئی کلبوں کے لیے کھیلے، مراکش کے لیے 64 بین الاقوامی میچ کھیلے اور 2018 ورلڈ کپ میں شرکت کی؛ صوفیان امرابط کے بڑے بھائی ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1987-03-31"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 31 March 1987, born in Naarden, Netherlands. There is no place entity for Naarden, so no born_in edge is written. Hijri year 1407 derived from the Gregorian date."
+  sources: [source/wikipedia-nordin-amrabat-en, source/wikipedia-nordin-amrabat-ar, source/wikidata-nordin-amrabat]
+relations:
+  - { type: sibling_of, target: person/sofyan-amrabat, sources: [source/wikipedia-nordin-amrabat-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school of Islam for Nordin Amrabat. The English article makes no statement of his religion at all; its personal-life section records only that his younger brother Sofyan is also a professional footballer. The Arabic article's infobox has no religion field and its text is silent. Wikidata (Q374523) gives Islam (Q432), generic — a single structured value naming no school. His Moroccan-Riffian parentage is background, never an attestation, so the value is unknown."
+    sources: [source/wikipedia-nordin-amrabat-en, source/wikipedia-nordin-amrabat-ar, source/wikidata-nordin-amrabat]
+external_ids: { wikidata: "Q374523" }
+sources: [source/wikipedia-nordin-amrabat-en, source/wikipedia-nordin-amrabat-ar, source/wikidata-nordin-amrabat]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381285415 of 21 October 2026), Arabic Wikipedia (revision 76193319 of 13 August 2026) and Wikidata Q374523, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. RELATION DIRECTION: Nordin Amrabat is the elder brother of Sofyan Amrabat (the English article calls Sofyan his younger brother, and Sofyan's own record calls Nordin his elder brother); the sibling edge is written once, here in Nordin's record, as Nordin Amrabat sibling_of Sofyan Amrabat, and is not duplicated in Sofyan's record. No earlier record for Nordin existed in data/person/ (the fragment search found only sofyan-amrabat), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
