@@ -1,0 +1,38 @@
+id: person/aghasi-mammadov
+class: person
+label: { ar: "أغاسي مامادوف", en: "Aghasi Mammadov", ur: "اغاسی ممادوف" }
+names:
+  - { value: "Aghasi Aghagul oghlu Mammadov", kind: full }
+  - { value: "Aghasi Mammadov", kind: full }
+  - { value: "أغاسي مامادوف", kind: full }
+  - { value: "Aghasi Aghaguloghlu", kind: alternate }
+gender: male
+summary:
+  ar: "ملاكم أذربيجاني، وُلد في باكو سنة 1980. مثّل تركيا لسنوات، ففاز ببطولة أوروبا سنة 2000 وبفضية بطولة العالم سنة 2001، ثم عاد إلى أذربيجان فأحرز لقب العالم في وزن البانتام سنة 2003 وبرونزية أولمبياد أثينا 2004."
+  en: "Azerbaijani boxer, born in Baku in 1980. He competed for Turkey for several years, winning the European title in 2000 and world silver in 2001, then returned to Azerbaijan and won the world bantamweight title in 2003 and bronze at the Athens 2004 Olympics."
+  ur: "آذربائیجانی باکسر، 1980 میں باکو میں پیدا ہوئے۔ کئی برس ترکیہ کی نمائندگی کی، 2000 میں یورپی ٹائٹل اور 2001 میں عالمی چاندی جیتی، پھر آذربائیجان لوٹ کر 2003 میں عالمی بینٹم ویٹ ٹائٹل اور ایتھنز 2004 اولمپکس میں کانسی کا تمغہ جیتا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1980-06-01"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 June 1980 in Baku, Azerbaijan, as the English and Arabic articles and Wikidata agree. Baku has no place entity in the museum, so the birthplace is carried here only. The Hijri year 1400 is derived from the Gregorian date on the tabular calendar."
+  sources: [source/wikipedia-aghasi-mammadov-en, source/wikipedia-aghasi-mammadov-ar, source/wikidata-aghasi-mammadov]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or a school for him. The English article speaks only of his career for Turkey and Azerbaijan; the Arabic stub likewise; the Urdu stub is a translation of the English article (the same source family); Wikidata (Q246560) carries no religion value at all. His Azerbaijani origin is national background, which never counts, and no 'Shia' claim exists in any source for the founder's mapping rule to engage. The value stays unknown on complete absence of evidence, stated here rather than by default."
+    sources: [source/wikipedia-aghasi-mammadov-en, source/wikipedia-aghasi-mammadov-ar, source/wikipedia-aghasi-mammadov-ur, source/wikidata-aghasi-mammadov]
+external_ids: { wikidata: "Q246560" }
+sources: [source/wikipedia-aghasi-mammadov-en, source/wikipedia-aghasi-mammadov-ar, source/wikipedia-aghasi-mammadov-ur, source/wikidata-aghasi-mammadov]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1363030799 of 7 July 2026), Arabic Wikipedia (revision 72999817 of 1 January 2026), Urdu Wikipedia (revision 11991753 of 20 September 2026) and Wikidata Q246560, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Aghasi Mammadov existed in data/person/ (name-fragment sweeps under Mammadov and Mamedov found only other people), and Q246560 was searched across data/person/ and data/source/ with no hit; this is a new build. The QID was pinned by biography — boxer born 1 June 1980 in Baku, Olympic bronze medallist of 2004 — which distinguishes him from the queue's other boxing Mammadovs, Teymur Mammadov among them; the sources do not conflate them. Wikidata's description calls him a Turkish boxer; the English article's account, that he competed for Turkey for several years before returning to Azerbaijan, is followed, and his record carries both phases. No relations are written: Baku has no place entity in the museum, so his birthplace is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

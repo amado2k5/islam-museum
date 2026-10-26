@@ -336,11 +336,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Riddick Bowe — 1967–Living
 - [x] Dwight Muhammad Qawi — 1953–Living
 - [x] Eddie Mustafa Muhammad — 1952–Living
-- [ ] Matthew Saad Muhammad — 1954–2014
-- [ ] Mustafa Hamsho — 1953–Living
+- [x] Matthew Saad Muhammad — 1954–2014
+- [x] Mustafa Hamsho — 1953–Living
 - [ ] Suleyman Mammadov — 1992–Living
-- [ ] Rafael Aghayev — 1985–Living
-- [ ] Aghasi Mammadov — 1980–Living
+- [x] Rafael Aghayev — 1985–Living
+- [x] Aghasi Mammadov — 1980–Living
 - [ ] Togrul Asgarov — 1992–Living
 - [ ] Sharif Sharifov — 1988–Living
 - [ ] Hazrat Inayat Khan — 1882–1927
