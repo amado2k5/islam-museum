@@ -1,0 +1,49 @@
+id: person/thami-el-glaoui
+class: person
+label: { ar: "التهامي الكلاوي", en: "Thami El Glaoui", ur: "تہامی الکلاوی" }
+names:
+  - { value: "التهامي المزواري الكلاوي", kind: full }
+  - { value: "Thami El Mezouari El Glaoui", kind: full }
+  - { value: "Thami El Glaoui", kind: alternate }
+gender: male
+summary:
+  ar: "باشا مراكش (1879 – 23 يناير 1956)، آخر كبار قادة الأطلس وأشهرهم؛ خلف أخاه المدني على رأس أسرة الكلاوي سنة 1918، وحكم الجنوب المغربي حليفًا للحماية الفرنسية، وتآمر على عزل السلطان محمد الخامس سنة 1953، ثم قبل عودته واستقلال المغرب في أكتوبر 1955 قبل وفاته بأسابيع."
+  en: "Pasha of Marrakesh (1879 – 23 January 1956), the last and most famous of the great caids of the Atlas. He succeeded his brother Madani as head of the Glaoui family in 1918, ruled southern Morocco as an ally of the French protectorate, conspired in the deposition of Sultan Mohammed V in 1953, then accepted his restoration and Moroccan independence in October 1955, weeks before his death."
+  ur: "مراکش کے پاشا (1879 – 23 جنوری 1956)، اطلس کے عظیم قائدوں میں آخری اور مشہور ترین؛ 1918 میں اپنے بھائی مدنی کے جانشین بن کر الکلاوی خاندان کے سربراہ ہوئے، فرانسیسی زیرِ حمایت نظام کے حلیف کے طور پر جنوبی مراکش پر حکمرانی کی، 1953 میں سلطان محمد پنجم کی معزولی کی سازش میں شریک رہے، پھر اکتوبر 1955 میں ان کی بحالی اور مراکش کی آزادی قبول کی۔"
+roles: [politician]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1879"
+  hijri: "1296"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Telouet in the High Atlas. The English, French, Arabic and Urdu article texts all give 1879; Wikidata item Q559183 gives 1870, so the year is recorded as debated with the article tradition followed. Telouet has no place entity, so no born_in edge is written. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikipedia-thami-el-glaoui-ur, source/wikidata-thami-el-glaoui]
+died:
+  edtf: "1956-01-23"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Marrakech. The English, French and Urdu articles give 23 January 1956 and the Arabic infobox places his death at Marrakech; Wikidata gives 12 January 1956, so the day is recorded as debated with the article tradition followed. The French lead loosely places his death at Telouet; the record follows the English and Arabic articles and Wikidata's death place, Marrakech. The Hijri year is the tabular conversion."
+  sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikipedia-thami-el-glaoui-ur, source/wikidata-thami-el-glaoui]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for him personally. No edition read gives him a religion value in text or infobox: the Arabic and Urdu articles carry no religion field for him, the French and English texts name none, and Wikidata item Q559183 carries no religion value (P140). His offices (caid, then Pasha of Marrakesh) and Morocco's Maliki rite are context, not attestations."
+    sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikidata-thami-el-glaoui]
+relations:
+  - { type: sibling_of, target: person/madani-el-glaoui, sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr] }
+  - { type: died_in, target: place/marrakesh, sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-ar, source/wikidata-thami-el-glaoui] }
+external_ids: { wikidata: "Q559183" }
+sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikipedia-thami-el-glaoui-ur, source/wikidata-thami-el-glaoui]
+provenance:
+  layer: own-research
+  source: "English, French, Arabic and Urdu Wikipedia articles on Thami El Glaoui, each fetched by its recorded revision id (EN 1371241789, FR 238186818, AR 76152248, UR 9068956) with the returned id asserted equal before use, and Wikidata item Q559183 (revision 2557690946; the sparse duplicate item Q1529269 was not used). Existence checks by name fragments (Glaoui, el-Glaoui, الكلاوي) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1879–1956, matching the article texts; Wikidata's birth year 1870 and death day 12 January 1956 conflict with all four texts and are disclosed as debated. The sibling edge to his elder brother Madani is written once, here in Thami's record, pointing to Madani."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

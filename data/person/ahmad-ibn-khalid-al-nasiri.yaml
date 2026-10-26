@@ -1,0 +1,48 @@
+id: person/ahmad-ibn-khalid-al-nasiri
+class: person
+label: { ar: "أحمد بن خالد الناصري", en: "Ahmad ibn Khalid al-Nasiri", ur: "احمد بن خالد ناصری" }
+names:
+  - { value: "أبو العباس أحمد بن خالد الناصري السلاوي الجعفري", kind: full }
+  - { value: "Abu al-Abbas Ahmad ibn Khalid al-Nasiri al-Salawi", kind: full }
+  - { value: "أبو العباس", kind: kunya }
+  - { value: "شهاب الدين", kind: laqab }
+  - { value: "الناصري السلاوي", kind: nisba }
+gender: male
+summary:
+  ar: "مؤرخ مغربي من سلا (1835–1897)، يُعد أكبر مؤرخي المغرب في القرن التاسع عشر؛ تولى مناصب مخزنية في الأحباس والمراسي، وألف «الاستقصا لأخبار دول المغرب الأقصى» في تاريخ المغرب والغرب الإسلامي، وله «تعظيم المنة بنصرة السنة» في نقد البدع والتصوف عصره."
+  en: "Moroccan historian from Salé (1835–1897), considered the greatest Moroccan historian of the 19th century. He held Makhzen posts over endowments and ports, and wrote the Kitab al-Istiqsa, a multi-volume history of Morocco and the Islamic west, and Ta'zim al-minna bi-nusrat al-sunna, against the innovations and Sufism of his time."
+  ur: "سلا کے مراکشی مؤرخ (1835–1897)، جنہیں انیسویں صدی کا مراکش کا سب سے بڑا مؤرخ سمجھا جاتا ہے؛ مخزن کے اوقاف و بندرگاہوں کے عہدوں پر فائز رہے، اور «الاستقصا لأخبار دول المغرب الأقصى» نامی کثیر الجلدی تاریخِ مراکش لکھی، نیز اپنے دور کی بدعات و تصوف کے رد میں «تعظيم المنة بنصرة السنة» تصنیف کی۔"
+roles: [historian, scholar, writer]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1835-04-20"
+  hijri: "1250"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Salé. The English infobox and body, the Arabic infobox and Wikidata give 20 April 1835; the Arabic lead gives 22 March 1835 and the English body also names 22 March as the alternative, so the day is recorded as debated. The Arabic article's categories give his birth year as 1250 AH. Salé has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ahmad-ibn-khalid-al-nasiri-en, source/wikipedia-ahmad-ibn-khalid-al-nasiri-ar, source/wikidata-ahmad-ibn-khalid-al-nasiri]
+died:
+  edtf: "1897-10-13"
+  hijri: "1315"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Salé. The English article, the Arabic infobox and Wikidata give 13 October 1897; the Arabic lead gives 12 October 1897, so the day is recorded as debated. The Arabic article's categories give his death year as 1315 AH. Salé has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-ahmad-ibn-khalid-al-nasiri-en, source/wikipedia-ahmad-ibn-khalid-al-nasiri-ar, source/wikidata-ahmad-ibn-khalid-al-nasiri]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a madhhab or a settled personal affiliation for him. The English, French and Urdu texts describe him as a member of the family that founded the Nasiriyya Sufi order in the 17th century, which is family background. The Arabic text goes further in both directions: it records his youthful attachment to the family's Nasiriyya zawiya at Tamkrout, and then his public turn against Sufism, teaching and writing against it, above all in his Ta'zim al-minna bi-nusrat al-sunna (1311/1893) against innovations. A youthful affiliation later repudiated in print is not two sources naming a current school, and neither a sufi nor any other value is recorded; the full configuration is preserved here."
+    sources: [source/wikipedia-ahmad-ibn-khalid-al-nasiri-ar, source/wikipedia-ahmad-ibn-khalid-al-nasiri-en, source/wikipedia-ahmad-ibn-khalid-al-nasiri-fr, source/wikipedia-ahmad-ibn-khalid-al-nasiri-ur]
+external_ids: { wikidata: "Q2827465" }
+sources: [source/wikipedia-ahmad-ibn-khalid-al-nasiri-en, source/wikipedia-ahmad-ibn-khalid-al-nasiri-fr, source/wikipedia-ahmad-ibn-khalid-al-nasiri-ar, source/wikipedia-ahmad-ibn-khalid-al-nasiri-ur, source/wikidata-ahmad-ibn-khalid-al-nasiri]
+provenance:
+  layer: own-research
+  source: "English, French, Arabic and Urdu Wikipedia articles on Ahmad ibn Khalid al-Nasiri, each fetched by its recorded revision id (EN 1364908920, FR 213433693, AR 76077414, UR 6756156) with the returned id asserted equal before use, and Wikidata item Q2827465 (revision 2550446672). Existence checks by name fragments (al-Nasiri, an-Nasiri, الناصري) and by QID across data/person and data/source found no prior record for him (other al-Nasiri records are different people). The lane queue gives 1835–1897, confirmed; the day-level variants inside the Arabic article (22 March birth, 12 October death) are disclosed as debated. No family edge is written: his Nasiriyya ancestors have no records and descent is carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
