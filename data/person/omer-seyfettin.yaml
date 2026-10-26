@@ -1,0 +1,47 @@
+id: person/omer-seyfettin
+class: person
+label: { ar: "عمر سيف الدين", en: "Ömer Seyfettin", ur: "عمر سیف الدین" }
+names:
+  - { value: "عمر سيف الدين", kind: full }
+  - { value: "Ömer Seyfettin", kind: full }
+gender: male
+summary:
+  ar: "كاتب وضابط ومعلم تركي، وُلد في غونن سنة 1884 وتوفي في إسطنبول سنة 1920 بالسكري عن ستة وثلاثين عامًا. تخرج في المدرسة الحربية وخدم على حدود الدولة الغربية وأُسر في حرب البلقان، وشارك زيا كوك ألب وعلي جانيب في إصدار مجلة «كنج قلملر» سنة 1911، ويُعد من مؤسسي القصة القصيرة التركية الحديثة ومن رواد تبسيط اللغة التركية."
+  en: "Turkish writer, officer and teacher, born at Gönen in 1884 and died of diabetes at Istanbul in 1920, aged thirty-six. He graduated from the Military Academy, served on the empire's western borders and was a prisoner of war in the Balkan War; in 1911 he co-founded the magazine Genç Kalemler with Ziya Gökalp and Ali Canip, and he is counted a founder of the modern Turkish short story and a pioneer of simplifying the Turkish language."
+  ur: "ترک مصنف، فوجی افسر اور استاد، 1884ء میں گونن میں پیدا ہوئے اور 1920ء میں استنبول میں ذیابیطس سے وفات پائی۔ 1911ء میں ضیا گوک الپ کے ساتھ «گنج قلملر» جاری کیا؛ جدید ترک افسانے کے بانیوں اور زبان کی سادگی کے علمبرداروں میں شمار ہوتے ہیں۔"
+roles: [writer, teacher, military]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1884-03-11"
+  hijri: "1301"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Gönen, Balıkesir, on 11 March 1884: the English and Arabic articles and Wikidata give this day; the Turkish article confirms Gönen and 1884. The Hijri year 1301 is the tabular conversion of 11 March 1884 (13 Jumada al-Ula 1301) and is marked derived. Gönen has no place entity in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-omer-seyfettin-en, source/wikipedia-omer-seyfettin-tr, source/wikipedia-omer-seyfettin-ar, source/wikidata-omer-seyfettin]
+died:
+  edtf: "1920-03-06"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Istanbul on 6 March 1920 of diabetes: the English, Turkish and Arabic articles and Wikidata agree. The Hijri year 1338 is the tabular conversion of 6 March 1920 (15 Jumada al-Akhira 1338) and is marked derived."
+  sources: [source/wikipedia-omer-seyfettin-en, source/wikipedia-omer-seyfettin-tr, source/wikipedia-omer-seyfettin-ar, source/wikidata-omer-seyfettin]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 6 March 1920 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-omer-seyfettin-en, source/wikidata-omer-seyfettin] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no source names a school for Ömer Seyfettin himself. The English and Turkish articles carry no religion field and their texts do not discuss his personal religion; the Arabic article's infobox religion field (الديانة) is present but left empty. Wikidata gives his religion (P140) only as the generic item Islam (Q432) — one structured-data value naming no school. His nationalism and his writings on Turks and Islam as themes are literary and political positions, not an attestation of a school. Under the two-source rule and the doubt rule his school is therefore left unknown, with these readings preserved here."
+    sources: [source/wikipedia-omer-seyfettin-en, source/wikipedia-omer-seyfettin-tr, source/wikipedia-omer-seyfettin-ar, source/wikidata-omer-seyfettin]
+external_ids: { wikidata: "Q297504" }
+sources: [source/wikipedia-omer-seyfettin-en, source/wikipedia-omer-seyfettin-tr, source/wikipedia-omer-seyfettin-ar, source/wikidata-omer-seyfettin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ömer Seyfettin' (revision 1371896291), Turkish Wikipedia 'Ömer Seyfettin' (revision 37816061) and Arabic Wikipedia 'عمر سيف الدين حتيقوه' (revision 72788171, reached through the redirect from 'عمر سيف الدين'), read on 26 October 2026, with Wikidata item Q297504. The harvest queue's years (1884–1920) are confirmed, and the sources are in full agreement on his dates. No record of this person existed in the museum under any spelling, fragment or QID before this build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
