@@ -1,0 +1,48 @@
+id: person/zeenat-mahal
+class: person
+label: { ar: "زينت محل", en: "Zeenat Mahal", ur: "زینت محل" }
+names:
+  - { value: "Zinat Mahal", kind: alternate }
+  - { value: "Padshah Begum", kind: laqab }
+gender: female
+summary:
+  ar: "ملكة المغول (1823–1886)، زوجة الإمبراطور بهادر شاه ظفر المقرّبة والحاكمة الفعلية باسمه من 1840 إلى 1857. سعت إلى تنصيب ابنها مرزا جوان بخت وليًّا للعهد، وفي ثورة 1857 أبعدته عن الثوار حفاظًا على عرشه، ثم نُفيت مع زوجها إلى رانغون بعد سقوط دلهي، وتوفيت هناك سنة 1886."
+  en: "Mughal empress consort (1823–1886), the favoured wife of the emperor Bahadur Shah Zafar and de facto regent of the empire from 1840 to 1857. She worked to have her son Mirza Jawan Bakht named heir, kept him away from the rebels in 1857 to protect his claim, and was exiled with her husband to Rangoon after Delhi fell, dying there in 1886."
+  ur: "مغل ملکہ (1823ء–1886ء)، شہنشاہ بہادر شاہ ظفر کی چہیتی زوجہ اور 1840ء سے 1857ء تک عملاً سلطنت کی حکمران۔ انھوں نے اپنے بیٹے مرزا جواں بخت کو ولی عہد بنانے کی کوشش کی، 1857ء میں اس کے دعوے کی حفاظت کے لیے اسے باغیوں سے دور رکھا، اور دہلی کے سقوط کے بعد شوہر کے ساتھ رنگون جلاوطن ہوئیں جہاں 1886ء میں ان کا انتقال ہوا۔"
+roles: [ruler]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1823"
+  hijri: "1238"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on the year 1823. The Urdu article's text states she was born at Delhi; the English article's infobox leaves the birth place blank. The Hijri year is derived by tabular conversion (1823 CE spans 1238–1239 AH; the greater part of it falls in 1238)."
+  sources: [source/wikipedia-zeenat-mahal-en, source/wikipedia-zeenat-mahal-ur, source/wikidata-zeenat-mahal]
+died:
+  edtf: "1886-07-17"
+  hijri: "1303"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Urdu article's infobox and Wikidata give 17 July 1886 at Rangoon, and the English article gives the same day in its text (there marked as needing a citation); she was buried beside her husband's tomb in Yangon, near the Shwedagon Pagoda. The Hijri year is derived by tabular conversion. Rangoon has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-zeenat-mahal-en, source/wikipedia-zeenat-mahal-ur, source/wikidata-zeenat-mahal]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-zeenat-mahal-ur] }
+  - { type: spouse_of, target: person/bahadur-shah-zafar, sources: [source/wikipedia-zeenat-mahal-en, source/wikipedia-zeenat-mahal-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school, order or branch for her. The English article makes no statement of her own religion in its text; the Urdu article likewise names none; Wikidata gives Islam only. Her marriage into the Mughal house is not an attestation of her own affiliation, and no text describes her personal practice. Under the doubt rule the value is recorded unknown."
+    sources: [source/wikipedia-zeenat-mahal-en, source/wikipedia-zeenat-mahal-ur, source/wikidata-zeenat-mahal]
+external_ids: { wikidata: "Q204281" }
+sources: [source/wikipedia-zeenat-mahal-en, source/wikipedia-zeenat-mahal-ur, source/wikidata-zeenat-mahal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zeenat Mahal' (revision 1376787863), Urdu Wikipedia 'زینت محل' (revision 11801109) and Wikidata item Q204281 (item revision 2553980368), read via the MediaWiki API on 26 October 2026; both articles were fetched by their recorded revision ids and the returned ids asserted equal before any claim was drawn. No Arabic Wikipedia article on her exists, so the Arabic prose is the museum's own, written from the English and Urdu articles; her Arabic label follows the standard Arabic rendering of her name. The spouse_of relation is written here, in her record, pointing at her husband Bahadur Shah Zafar, and nowhere else. Existence was checked by filename fragments, by Arabic label and by the QID route; no earlier record exists (khas-mahal is a different Mughal consort)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,46 @@
+id: person/ahmadullah-shah
+class: person
+label: { ar: "أحمد الله شاه", en: "Ahmadullah Shah", ur: "احمد اللہ شاہ" }
+names:
+  - { value: "Sikandar Shah", kind: alternate }
+  - { value: "Danka Shah", kind: laqab }
+  - { value: "Nakkar Shah", kind: laqab }
+gender: male
+summary:
+  ar: "عالم وزعيم هندي (1787–1858)، عُرف بمولوي فيض آباد، وكان من أبرز قادة ثورة الهند سنة 1857 في منطقة أوده. طاف بمدن الهند يحرّض على الثورة قبل اندلاعها، وقاد المقاومة في لكناو وما حولها، ولم يتمكن البريطانيون من أسره حيًّا حتى قُتل عند شاه جهان بور سنة 1858."
+  en: "Indian scholar and rebel leader (1787–1858), known as the Maulvi of Faizabad and a leading figure of the Indian Rebellion of 1857 in Awadh. He travelled between Indian cities preparing the rising before it broke out, led the resistance around Lucknow, and was never taken alive; he was killed at Shahjahanpur in 1858."
+  ur: "ہندوستانی عالم اور رہنما (1787ء–1858ء)، جو مولوی فیض آباد کے نام سے مشہور ہوئے اور 1857ء کی جنگ آزادی میں اودھ کے مرکزی رہنما تھے۔ بغاوت سے پہلے وہ ہندوستان کے شہروں میں گھوم کر لوگوں کو تیار کرتے رہے، لکھنؤ کے اطراف میں مزاحمت کی قیادت کی، انگریز انھیں زندہ کبھی نہ پکڑ سکے، اور وہ 1858ء میں شاہجہان پور کے قریب مارے گئے۔"
+roles: [scholar, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1787"
+  hijri: "1201"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on the year 1787, and the English article's infobox gives Faizabad in the Oudh State as his birthplace; the family was originally from Gopamau village in Hardoi district. No source read gives a month or day. The Hijri year is derived by tabular conversion (1787 CE spans 1201–1202 AH; the greater part of it falls in 1201). Faizabad has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-ahmadullah-shah-en, source/wikipedia-ahmadullah-shah-ur, source/wikidata-ahmadullah-shah]
+died:
+  edtf: "1858-06-05"
+  hijri: "1274"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death on 5 June 1858 at Shahjahanpur: Raja Jagannath Singh of Powayan killed and beheaded him and presented the head to the British for the announced reward of 50,000 pieces of silver. Wikidata gives the same day. The Hijri year is derived by tabular conversion. Shahjahanpur has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-ahmadullah-shah-en, source/wikidata-ahmadullah-shah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article states in its text: 'The Maulvi was a Sunni Muslim', and the Urdu article states, at the matching point in its own text, that he belonged to Ahl al-Sunna. The Urdu article follows the English article's structure, wording and citations (the National Book Trust biography and the Tribune) so closely that the two are treated here as one attestation family, not as two independent sources. Wikidata gives Islam only, and no source read names a legal school for him; his categories file him among 'Sunni Sufis' and 'Indian Sufi religious leaders', which are filings, not attestations. The single text family's Sunni statement is preserved here; under the doubt rule the value is recorded unknown."
+    sources: [source/wikipedia-ahmadullah-shah-en, source/wikipedia-ahmadullah-shah-ur, source/wikidata-ahmadullah-shah]
+external_ids: { wikidata: "Q43052444" }
+sources: [source/wikipedia-ahmadullah-shah-en, source/wikipedia-ahmadullah-shah-ur, source/wikidata-ahmadullah-shah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmadullah Shah' (revision 1369380825), Urdu Wikipedia 'احمد اللہ شاہ' (revision 6755592) and Wikidata item Q43052444 (item revision 2504703351), read via the MediaWiki API on 26 October 2026; both articles were fetched by their recorded revision ids and the returned ids asserted equal before any claim was drawn. No Arabic Wikipedia article on him exists, so the Arabic prose is the museum's own, written from the English and Urdu articles; his Arabic label follows the standard Arabic rendering of his name. Existence was checked by filename fragments under all spellings, by Arabic label and by the QID route; no earlier record exists (the wave-66 record khan-bahadur-khan-rohilla is a different man, his fellow rebel of 1857, and the Deoband-era Ahmadullahs are different men again)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
