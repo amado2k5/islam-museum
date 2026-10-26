@@ -1,0 +1,36 @@
+id: person/wahbi-khazri
+class: person
+label: { ar: "وهبي خزري", en: "Wahbi Khazri", ur: "وہبی خزری" }
+names:
+  - { value: "وهبي خزري", kind: full }
+  - { value: "Wahbi Khazri", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم تونسي سابق (وُلد سنة 1991 في أجاكسيو بفرنسا)، لاعب وسط مهاجم لعب لباستيا وبوردو وسندرلاند وسانت إتيان ومونبلييه، وقاد منتخب تونس في 74 مباراة دولية سجل فيها 25 هدفًا، ثم عمل محللًا تلفزيونيًا."
+  en: "Former Tunisian footballer (born 1991 in Ajaccio, France), an attacking midfielder who played for Bastia, Bordeaux, Sunderland, Saint-Étienne and Montpellier and captained Tunisia, winning 74 caps and scoring 25 goals; he later worked as a television analyst."
+  ur: "سابق تیونسی فٹبالر (پیدائش 1991، اژاکسیو، فرانس)، حملہ آور مڈفیلڈر جو باستیا، بوردو، سنڈرلینڈ، سینٹ ایٹیئن اور مونٹپیلیئر کے لیے کھیلے اور تیونس کی کپتانی کی؛ انہوں نے 74 بین الاقوامی میچوں میں 25 گول کیے اور بعد میں ٹیلی ویژن تجزیہ کار کے طور پر کام کیا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb, andalus-europe]
+born:
+  edtf: "1991-02-08"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 8 February 1991, born in Ajaccio, France. No museum place entity exists for Ajaccio, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1411 is derived from the Gregorian date."
+  sources: [source/wikipedia-wahbi-khazri-en, source/wikipedia-wahbi-khazri-ar, source/wikidata-wahbi-khazri]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one source family names any affiliation: the Arabic article's infobox gives his religion as Islam, generic, naming no school. The English article makes no statement of his religion in its text or infobox and files him under no religious category, and Wikidata (Q27794) carries no religion value at all. One infobox alone cannot settle an affiliation (the Sami Frashëri near-miss), so the value is unknown, with the Arabic infobox reading preserved here."
+    sources: [source/wikipedia-wahbi-khazri-en, source/wikipedia-wahbi-khazri-ar, source/wikidata-wahbi-khazri]
+external_ids: { wikidata: "Q27794" }
+sources: [source/wikipedia-wahbi-khazri-en, source/wikipedia-wahbi-khazri-ar, source/wikidata-wahbi-khazri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377232922 of 28 September 2026), Arabic Wikipedia (revision 75517387 of 15 June 2026) and Wikidata Q27794, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Khazri existed in data/person/ (no hit under 'khazri'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — Ajaccio has no place entity in the graph, and no family target exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

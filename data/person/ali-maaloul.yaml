@@ -1,0 +1,39 @@
+id: person/ali-maaloul
+class: person
+label: { ar: "علي معلول", en: "Ali Maâloul", ur: "علی معلول" }
+names:
+  - { value: "علي معلول", kind: full }
+  - { value: "Ali Maâloul", kind: full }
+  - { value: "Ali Maaloul", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب كرة قدم تونسي (وُلد سنة 1990 في صفاقس)، ظهير أيسر بدأ مع النادي الرياضي الصفاقسي ثم لعب للأهلي المصري من 2016 إلى 2025 قبل أن يعود إلى الصفاقسي، وخاض نحو تسعين مباراة دولية مع تونس."
+  en: "Tunisian footballer (born 1990 in Sfax), a left-back who began with CS Sfaxien, played for Egypt's Al Ahly from 2016 to 2025, then returned to Sfaxien; he has won around ninety caps for Tunisia."
+  ur: "تیونسی فٹبالر (پیدائش 1990، صفاقس)، لیفٹ بیک جو سی ایس صفاقسیئن سے شروع ہوئے، 2016 سے 2025 تک مصر کے ال اہلی کے لیے کھیلے اور پھر صفاقسیئن واپس آئے؛ انہوں نے تیونس کے لیے تقریباً نوے بین الاقوامی میچ کھیلے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb, egypt-nile]
+born:
+  edtf: "1990-01-01"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 1 January 1990, born in Sfax, Tunisia. The Hijri year 1410 is derived from the Gregorian date."
+  sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar, source/wikidata-ali-maaloul]
+relations:
+  - { type: born_in, target: place/sfax, sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Complete absence: no source says anything at all about Ali Maâloul's religion. The English article's text, infobox and categories carry no religion field and no statement of religion; the Arabic article is likewise silent; Wikidata (Q2836275) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar, source/wikidata-ali-maaloul]
+external_ids: { wikidata: "Q2836275" }
+sources: [source/wikipedia-ali-maaloul-en, source/wikipedia-ali-maaloul-ar, source/wikidata-ali-maaloul]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373102392 of 4 September 2026), Arabic Wikipedia (revision 76163908 of 9 August 2026) and Wikidata Q2836275, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Maâloul existed in data/person/ (no hit under 'maaloul' or 'maâloul'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: Ali Maâloul was born in Sfax; the birthplace edge is written once, here in his own record, as Ali Maâloul born_in place/sfax (the place entity exists in the graph). No other relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
