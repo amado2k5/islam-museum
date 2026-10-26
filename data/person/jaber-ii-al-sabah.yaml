@@ -1,0 +1,49 @@
+id: person/jaber-ii-al-sabah
+class: person
+label: { ar: "جابر بن مبارك الصباح", en: "Jaber bin Mubarak Al-Sabah", ur: "جابر بن مبارک الصباح" }
+names:
+  - { value: "جابر بن مبارك بن صباح الصباح", kind: full }
+  - { value: "Jaber bin Mubarak bin Sabah Al-Sabah", kind: full }
+  - { value: "جابر الثاني", kind: alternate }
+  - { value: "Jaber II Al-Sabah", kind: alternate }
+gender: male
+summary:
+  ar: "جابر بن مبارك الصباح، المعروف بجابر الثاني (وُلد سنة 1860 – توفي في الكويت في 5 فبراير 1917)، حاكم الكويت الثامن، وأكبر أبناء مبارك الكبير من زوجته شيخة دعيج الصباح. كان الساعد الأيمن لأبيه: شاركه في قتل عميه محمد وجراح سنة 1896، وكان نائبه في الكويت أثناء حملة الصريف، وقاد جيش الكويت في معركتي جو لبن سنة 1904 وهدية سنة 1910. تولى الحكم بعد وفاة أبيه في 28 نوفمبر 1915، فألغى ضريبة الثلث على العقارات التي أثقل بها أبوه كاهل الناس وأعاد البيوت المصادرة ووزّع الأموال، فأحبّه الشعب؛ وخالف أباه في الحرب العالمية الأولى فمال إلى العثمانيين وسهّل قوافل الإمداد إليهم، فاحتجّ البريطانيون واجتمع به بيرسي كوكس في نوفمبر 1916 دون حسم. توفي بحمّى لم تمهله طويلًا وخلفه أخوه سالم، وهو جدّ فرع آل جابر في الأسرة، وابنه أحمد صار حاكم الكويت العاشر."
+  en: "Jaber bin Mubarak Al-Sabah, known as Jaber II (born in 1860 – died at Kuwait on 5 February 1917), was the eighth ruler of Kuwait and the eldest son of Mubarak the Great by his wife Sheikha Duaij Al-Sabah. He was his father's right hand: he took part with him in the killing of his uncles Muhammad and Jarrah in 1896, deputised for him in Kuwait during the Sarif campaign, and commanded Kuwait's army at Ju Lubn in 1904 and Hadiya in 1910. Succeeding his father on 28 November 1915, he abolished the one-third property tax with which his father had burdened the people, returned confiscated houses and distributed money, and was loved for it; in the First World War he broke with his father's policy, leaned toward the Ottomans and facilitated supply caravans to them, drawing British protests and an inconclusive meeting with Percy Cox in November 1916. He died of a fever after a short reign and was succeeded by his brother Salim; he is the ancestor of the Al-Jaber branch of the family, and his son Ahmad became Kuwait's tenth ruler."
+  ur: "جابر بن مبارک الصباح، جابر ثانی (ولادت: 1860ء – وفات: کویت، 5 فروری 1917ء)، کویت کے آٹھویں حکمران اور مبارک الکبیر کے سب سے بڑے بیٹے تھے۔ وہ والد کے دستِ راست تھے، 28 نومبر 1915ء کو حکمران بنے، جائیداد پر ثلث ٹیکس ختم کر کے عوام میں مقبول ہوئے، اور مختصر عہد کے بعد انتقال کر گئے؛ ان کے بعد ان کے بھائی سالم حکمران بنے۔"
+roles: [ruler]
+wings: [people]
+born:
+  edtf: "1860"
+  hijri: "1276"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1860, the year given by the English, Arabic and Urdu articles and by Wikidata (which also carries a second value of 1873 that no article read supports and which the record does not follow). The Arabic article calls him Mubarak's eldest son by Sheikha Duaij Al-Sabah. Wikidata gives the birthplace as Kuwait (Q817) and the death place as Kuwait City (Q35178); the museum has no place entity for Kuwait, so no born_in edge is written. The Hijri year (1276) is derived by tabular conversion: the Gregorian year 1860 spans 1276–1277 AH and its mid-year falls in 1276."
+  sources: [source/wikipedia-jaber-ii-al-sabah-en, source/wikipedia-jaber-ii-al-sabah-ar, source/wikipedia-jaber-ii-al-sabah-ur, source/wikidata-jaber-ii-al-sabah]
+died:
+  edtf: "1917-02-05"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Kuwait on 5 February 1917, of a fever that gave him little respite (Arabic article), the date given by the English article, the Arabic article's lead and death section, and Wikidata (place Kuwait City, Q35178). The Arabic article dates it 13 Rabi' al-Thani 1335 AH, where tabular conversion of 5 February 1917 gives 12 Rabi' al-Thani 1335 — a one-day converter difference, stated rather than merged — and its First World War section separately says he 'died in January 1917', against its own lead; the record follows 5 February. The Hijri year (1335) is derived by tabular conversion."
+  sources: [source/wikipedia-jaber-ii-al-sabah-en, source/wikipedia-jaber-ii-al-sabah-ar, source/wikipedia-jaber-ii-al-sabah-ur, source/wikidata-jaber-ii-al-sabah]
+relations:
+  - { type: child_of, target: person/mubarak-al-sabah, note: "He was the eldest son of Mubarak Al-Sabah (English and Arabic articles; Wikidata father Q388730); the edge is written here, in the son's record, and his father's record, built in this same group, carries none back.", sources: [source/wikipedia-jaber-ii-al-sabah-en, source/wikipedia-jaber-ii-al-sabah-ar, source/wikidata-jaber-ii-al-sabah] }
+  - { type: member_of, target: group/al-sabah, note: "Eighth ruler of the house and ancestor of its Al-Jaber branch (English article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-jaber-ii-al-sabah-en, source/wikipedia-jaber-ii-al-sabah-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or a school for Jaber himself. The English, Arabic and Urdu articles state no religion for him at all, and his Wikidata item — unlike those of the other rulers in this group — carries no religion (P140) value whatever, an absence the record states rather than fills. His father's and his family's milieu is family background and never counts. With no source naming a school for the man himself, let alone two independent sources naming the same school, his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified')."
+    sources: [source/wikipedia-jaber-ii-al-sabah-en, source/wikipedia-jaber-ii-al-sabah-ar, source/wikipedia-jaber-ii-al-sabah-ur, source/wikidata-jaber-ii-al-sabah]
+external_ids: { wikidata: "Q26919" }
+sources: [source/wikipedia-jaber-ii-al-sabah-en, source/wikipedia-jaber-ii-al-sabah-ar, source/wikipedia-jaber-ii-al-sabah-ur, source/wikidata-jaber-ii-al-sabah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jaber II Al-Sabah' (revision 1299122555), Arabic Wikipedia 'جابر المبارك الصباح' (revision 76470948) and Urdu Wikipedia 'جابر مبارک الصباح' (revision 5770087), read on 25 October 2026, with Wikidata item Q26919. This Jaber is Jaber II, Mubarak's eldest son — not Jaber I (r. 1813–1859, his great-grandfather's generation) and not the later emir Jaber III (r. 1977–2006), his great-nephew of the same branch. The sources' disagreements are stated in the notes and prose rather than merged: the Arabic article's 'January 1917' death against its own 5 February dating, its 13 Rabi' al-Thani against tabular 12 Rabi' al-Thani, Wikidata's unsupported second birth year 1873, and the Urdu stub's misdated accession (28 February 1915 for 28 November 1915). No place edges are written, because the museum has no place entity for Kuwait City; his brother and successor Salim and his son Ahmad, the tenth ruler, have no museum person records in this run, so no sibling or parent-of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
