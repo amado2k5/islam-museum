@@ -1116,3 +1116,26 @@ describe("E5 step 5 — librarians page + video specs", () => {
     expect(d.includes("QR")).toBe(true);
   });
 });
+
+describe("E5 embeds — fact and trail widget pages", () => {
+  for (const slug of ["embed/fact", "embed/trail-of-the-week"]) {
+    it(`/${slug}/ is a tiny standalone page: inline CSS, no scripts, no cookies, links home`, () => {
+      const f = `site/src/pages/[lang]/${slug}/index.astro`;
+      expect(existsSync(f), f).toBe(true);
+      const p = readFileSync(f, "utf8");
+      expect(p.includes("<style>")).toBe(true);
+      for (const bad of ["<script", "fetch(", "XMLHttpRequest", "sendBeacon", "localStorage", "sessionStorage", "cookie", "iframe"])
+        expect(p.includes(bad), bad).toBe(false);
+      expect(p.includes("islam.museum")).toBe(true);
+      expect(p.includes("<meta name=\"robots\" content=\"noindex\">")).toBe(true);
+      expect(Buffer.byteLength(p, "utf8")).toBeLessThan(15000);
+    });
+  }
+  it("embed strings ship trilingual", () => {
+    for (const l of ["ar", "en", "ur"]) {
+      const d = parse(readFileSync(`i18n/${l}.yaml`, "utf8")).edu;
+      for (const k of ["embed_fact_title", "embed_trail_week", "embed_from"])
+        expect(typeof d[k] === "string" && d[k].length > 0, `${l}.${k}`).toBe(true);
+    }
+  });
+});
