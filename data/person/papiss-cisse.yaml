@@ -1,0 +1,36 @@
+id: person/papiss-cisse
+class: person
+label: { ar: "بابيس سيسيه", en: "Papiss Cissé", ur: "پاپیس سیسے" }
+names:
+  - { value: "Papiss Demba Cissé", kind: full }
+  - { value: "بابيس سيسيه", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم سنغالي معتزل، وُلد في داكار بالسنغال سنة 1985. مهاجم سجل 22 هدفًا مع فرايبورغ في موسم 2010–11 بالدوري الألماني — رقمًا قياسيًا آنذاك للاعب أفريقي في موسم واحد — ثم لعب لنيوكاسل يونايتد وشاندونغ لونينغ وفنربخشة وغيرها، وخاض 36 مباراة وسجل 17 هدفًا مع منتخب السنغال. مسلم ممارس معروف بأداء السجود عند الاحتفال بالأهداف."
+  en: "Senegalese retired footballer, born in Dakar, Senegal in 1985. A forward who scored 22 goals for SC Freiburg in the 2010–11 Bundesliga — then a single-season record for an African player — before spells at Newcastle United, Shandong Luneng, Fenerbahçe and other clubs; he won 36 caps and scored 17 goals for Senegal. A practising Muslim, he is known for performing the sujud when celebrating goals."
+  ur: "سینیگالی ریٹائرڈ فٹبالر، 1985 میں سینیگال کے ڈاکار میں پیدا ہوئے۔ فارورڈ جنہوں نے 2010–11 بنڈس لیگا میں ایس سی فرائیبرگ کے لیے 22 گول کیے — اس وقت کسی افریقی کھلاڑی کا ایک سیزن کا ریکارڈ — پھر نیو کیسل یونائیٹڈ، شانڈونگ لونینگ اور فنربخشے سمیت کئی کلبوں کے لیے کھیلے؛ سینیگال کے لیے 36 میچوں میں 17 گول کیے۔ باعمل مسلمان ہیں اور گول کے جشن میں سجدہ کرنے کے لیے معروف ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1985-06-03"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 3 June 1985 in Dakar, Senegal, as given by the English Wikipedia article's infobox and by Wikidata Q309628, which agree. No place entity for Dakar exists in data/place/, so no born_in edge is written. The Hijri year (1405) is derived by tabular conversion."
+  sources: [source/wikipedia-papiss-cisse-en, source/wikipedia-papiss-cisse-ar, source/wikidata-papiss-cisse]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or madhhab for Cissé personally. The English Wikipedia article calls him a practicing Muslim and records his sujud goal celebration and his objection, with Newcastle's other Muslim players, to the club's Wonga shirt sponsorship — observed practice and public stance, not a school attestation. The French article records that in 2012 he stated, as a Muslim, that he could not wear the sponsored shirt. The Arabic article's text makes no statement of his religion at all, filing him only under the category “Senegalese Muslims”. Wikidata Q309628 gives his religion as Islam (Q432), generically. Generic identification and observed practice are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with what each source gives documented here and in the prose."
+    sources: [source/wikipedia-papiss-cisse-en, source/wikipedia-papiss-cisse-fr, source/wikipedia-papiss-cisse-ar, source/wikidata-papiss-cisse]
+external_ids: { wikidata: "Q309628" }
+sources: [source/wikipedia-papiss-cisse-en, source/wikipedia-papiss-cisse-fr, source/wikipedia-papiss-cisse-ar, source/wikidata-papiss-cisse]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Papiss Cissé' (revision 1378888351 of 6 October 2026), French Wikipedia 'Papiss Cissé' (revision 239787521 of 24 September 2026), Arabic Wikipedia «بابيس سيسيه» (revision 74955363 of 3 June 2026) and Wikidata Q309628, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Dakar, has no entity in data/place/. No earlier record for him existed in data/person/ under cisse or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

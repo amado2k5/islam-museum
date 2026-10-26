@@ -266,11 +266,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Lakhdar Belloumi — 1958–Living
 - [x] Lassana Diarra — 1985–Living
 - [x] Nicolas Anelka — 1979–Living
-- [ ] Eric Abidal — 1979–Living
-- [ ] Franck Ribéry — 1983–Living
-- [ ] Demba Ba — 1985–Living
-- [ ] Papiss Cissé — 1985–Living
-- [ ] Yaya Touré — 1983–Living
+- [x] Eric Abidal — 1979–Living
+- [x] Franck Ribéry — 1983–Living
+- [x] Demba Ba — 1985–Living
+- [x] Papiss Cissé — 1985–Living
+- [x] Yaya Touré — 1983–Living
 - [ ] Kolo Touré — 1981–Living
 - [ ] Gervinho — 1987–Living
 - [ ] Wilfried Zaha — 1992–Living
