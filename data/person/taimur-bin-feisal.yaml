@@ -1,0 +1,84 @@
+id: person/taimur-bin-feisal
+class: person
+label:
+  ar: "تيمور بن فيصل آل سعيد"
+  en: "Taimur bin Feisal"
+  ur: "تیمور بن فیصل"
+summary:
+  ar: "تيمور بن فيصل آل سعيد (وُلد في مسقط سنة 1886 – توفي في بومباي في 28 يناير 1965)، سلطان عُمان من أكتوبر 1913 إلى 10 فبراير 1932، وابن السلطان فيصل بن تركي من زوجته الأولى علياء بنت ثويني؛ شهد عهده معاهدة السيب سنة 1920 وأول مجلس وزراء، وتنازل لابنه الأكبر سعيد، وهو جد السلطانين قابوس وهيثم."
+  en: "Taimur bin Feisal Al Said (born at Muscat in 1886 – died at Bombay on 28 January 1965), Sultan of Oman from October 1913 to 10 February 1932 and the son of Sultan Faisal bin Turki by his first wife Aliyah bint Thuwaini; his reign saw the 1920 Treaty of Seeb and the first council of ministers, he abdicated in favour of his eldest son Said, and he was the grandfather of Sultans Qaboos and Haitham."
+  ur: "تیمور بن فیصل آل سعید (پیدائش: مسقط، 1886ء – وفات: بمبئی، 28 جنوری 1965ء)، اکتوبر 1913ء سے 10 فروری 1932ء تک سلطانِ عمان اور سلطان فیصل بن ترکی کے بیٹے؛ ان کے عہد میں 1920ء کا معاہدۂ سیب اور پہلی وزراء کونسل قائم ہوئی، وہ بڑے بیٹے سعید کے حق میں دستبردار ہوئے، اور سلطان قابوس و سلطان ہیثم کے دادا تھے۔"
+names:
+  - { value: "تيمور بن فيصل آل سعيد", kind: full }
+  - { value: "Taimur bin Feisal Al Said", kind: full }
+  - { value: "الواثق باللہ المجید", kind: regnal }
+wings:
+  - people
+regions:
+  - arabia
+roles:
+  - ruler
+born:
+  edtf: "1886"
+  hijri: "1303"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "A year only in every source consulted: the English and Urdu articles and Wikidata all give 1886, with Muscat as birthplace in the English and Arabic infoboxes and in Wikidata. The Hijri year 1303 is the tabular conversion of mid-1886."
+  sources:
+    - source/wikipedia-taimur-bin-feisal-en
+    - source/wikidata-taimur-bin-feisal
+died:
+  edtf: "1965-01-28"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (infobox and text) gives 28 January 1965 at Bombay and Wikidata's day-precision value agrees; the Arabic infobox names Mumbai as the place but its own death template computes 1 January 1965, a minority reading stated here and not followed. Hijri year 1384 is the tabular conversion of 28 January 1965."
+  sources:
+    - source/wikipedia-taimur-bin-feisal-en
+    - source/wikipedia-taimur-bin-feisal-ar
+    - source/wikidata-taimur-bin-feisal
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English infobox's religion field reads 'Ibadi Islam', uncited and nowhere discussed for Taimur himself — the article's section headed 'Ibadism' treats the interior imamate's role in his era, not his personal religion; the Arabic infobox reads 'Ibadi, Islam', the Urdu categories file him among Ibadi Muslims, and Wikidata's only religion value is the generic item Islam, naming no school. The attestation is one Wikipedia family's uncited infobox fields and categories plus a generic structured value — the configuration recorded as unknown for his grandfather Turki bin Said and his father Faisal bin Turki — so his school is recorded unknown with the readings preserved here."
+    sources:
+      - source/wikipedia-taimur-bin-feisal-en
+      - source/wikipedia-taimur-bin-feisal-ar
+      - source/wikidata-taimur-bin-feisal
+relations:
+  - type: child_of
+    target: person/faisal-bin-turki-al-busaidi
+    note: "Taimur was the son of Sultan Faisal bin Turki by his first wife Aliyah bint Thuwaini, herself a daughter of Sultan Thuwaini bin Said; Wikidata's father value is Faisal's own item."
+    sources:
+      - source/wikipedia-taimur-bin-feisal-en
+      - source/wikidata-taimur-bin-feisal
+  - type: member_of
+    target: group/al-bu-said
+    note: "A sultan of the Al Bu Said dynasty, which he headed from his accession in October 1913 until his abdication on 10 February 1932."
+    sources:
+      - source/wikipedia-taimur-bin-feisal-en
+      - source/wikipedia-taimur-bin-feisal-ar
+  - type: born_in
+    target: place/muscat
+    note: "Born at Muscat in 1886 per the English and Arabic infoboxes and Wikidata."
+    sources:
+      - source/wikipedia-taimur-bin-feisal-en
+      - source/wikidata-taimur-bin-feisal
+sources:
+  - source/wikipedia-taimur-bin-feisal-en
+  - source/wikipedia-taimur-bin-feisal-ar
+  - source/wikipedia-taimur-bin-feisal-ur
+  - source/wikidata-taimur-bin-feisal
+status:
+  review: published
+  completeness: 3
+  generated_by: "Muse (Muse Spark 1.3)"
+provenance:
+  layer: own-research
+  source: "Wikipedia (EN/AR/UR) and Wikidata Q888278 revisions consulted 26 October 2026. No Bombay place entity exists in the museum, so his death place is carried in the died note rather than a died_in relation; his regnal style rests on the Urdu article's lead alone, as stated in that source entity; his son Said's record, if built later, carries the child_of edge to this record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-26

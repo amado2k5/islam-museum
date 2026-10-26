@@ -1,0 +1,77 @@
+id: person/jassim-bin-mohammed-al-thani
+class: person
+label:
+  ar: "جاسم بن محمد آل ثاني"
+  en: "Jassim bin Mohammed Al Thani"
+  ur: "جاسم بن محمد الثانی"
+summary:
+  ar: "جاسم بن محمد بن ثاني (وُلد نحو 1825 في فويرط – توفي في لوسيل في 17 يوليو 1913)، الحاكم الثاني لقطر من 18 ديسمبر 1878 حتى وفاته ومؤسس دولتها الحديثة، والابن الأكبر لمحمد بن ثاني؛ وحّد قطر وصدّ العثمانيين في الوجبة سنة 1893، وترك إدارة البلاد لأخيه أحمد سنواته الأخيرة، وخلفه ابنه عبد الله."
+  en: "Jassim bin Mohammed bin Thani (born circa 1825 at Fuwayrit – died at Lusail on 17 July 1913), the second ruler of Qatar from 18 December 1878 until his death and the founder of its modern state, the eldest son of Mohammed bin Thani; he unified Qatar, defeated the Ottomans at Al Wajbah in 1893, left the country's running to his brother Ahmed in his last years, and was succeeded by his son Abdullah."
+  ur: "جاسم بن محمد بن ثانی (پیدائش تقریباً 1825ء فویرط – وفات 17 جولائی 1913ء لوسیل)، 18 دسمبر 1878ء سے وفات تک قطر کے دوسرے حکمران اور اس کی جدید ریاست کے بانی، محمد بن ثانی کے بڑے بیٹے؛ انہوں نے قطر کو متحد کیا، 1893ء میں الوجبہ میں عثمانیوں کو شکست دی، آخری برسوں میں انتظام بھائی احمد کے سپرد کیا، اور ان کے بیٹے عبد اللہ جانشین بنے۔"
+names:
+  - { value: "جاسم بن محمد بن ثاني", kind: full }
+  - { value: "Jassim bin Mohammed Al Thani", kind: full }
+  - { value: "The Founder", kind: laqab }
+  - { value: "راع العليا", kind: laqab }
+  - { value: "أخو روضة", kind: kunya }
+  - { value: "Qasim bin Mohammed Al Thani", kind: alternate }
+wings:
+  - people
+regions:
+  - arabia
+roles:
+  - ruler
+born:
+  edtf: "1825~"
+  hijri: "1240"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article gives circa 1825 in text and infobox and the Urdu article gives 1825; the Arabic infobox prints a full date, 5 January 1826, that no article's text supports and that the record states but does not follow, and Wikidata carries two conflicting values (1825 with a Julian-calendar model, and 1821). Birthplace Fuwayrit follows the English and Arabic infoboxes (the English text says he was raised there) against the Urdu infobox and Wikidata, which give Doha; Fuwayrit has no museum place entity, so no born_in relation is written. The Hijri year 1240 is the tabular conversion of mid-1825."
+  sources:
+    - source/wikipedia-jassim-bin-mohammed-al-thani-en
+    - source/wikipedia-jassim-bin-mohammed-al-thani-ar
+    - source/wikidata-jassim-bin-mohammed-al-thani
+died:
+  edtf: "1913-07-17"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata agree on 17 July 1913; the place is Lusail per the English text and infobox, the Urdu infobox and Wikidata, while the Arabic infobox prints Doha, a minority reading stated here. The English article adds burial in Lusail Cemetery; Lusail has no museum place entity, so no died_in relation is written. The Arabic lead gives his death in Hijri as 13 Sha'ban 1331, consistent with the tabular Hijri year 1331."
+  sources:
+    - source/wikipedia-jassim-bin-mohammed-al-thani-en
+    - source/wikipedia-jassim-bin-mohammed-al-thani-ur
+    - source/wikidata-jassim-bin-mohammed-al-thani
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English infobox's religion field reads the generic 'Islam'; the Arabic infobox leaves the religion field empty; the Urdu infobox reads 'Ahl al-Sunna wa'l-Jama'a' (the Sunni community broadly), an uncited value of that one article which in any case names no school or madhhab; and Wikidata carries no religion value at all. His founding of kuttab schools and his financing of printed religious books are patronage and practice, not an attestation of a school, and no independent source names a school for Jassim himself, so his school is recorded unknown with the readings preserved here."
+    sources:
+      - source/wikipedia-jassim-bin-mohammed-al-thani-en
+      - source/wikipedia-jassim-bin-mohammed-al-thani-ar
+      - source/wikipedia-jassim-bin-mohammed-al-thani-ur
+      - source/wikidata-jassim-bin-mohammed-al-thani
+relations:
+  - type: member_of
+    target: group/al-thani
+    note: "Head of the House of Thani from his accession on 18 December 1878 until his death, and the house's founder-figure in Qatar."
+    sources:
+      - source/wikipedia-jassim-bin-mohammed-al-thani-en
+      - source/wikipedia-jassim-bin-mohammed-al-thani-ar
+sources:
+  - source/wikipedia-jassim-bin-mohammed-al-thani-en
+  - source/wikipedia-jassim-bin-mohammed-al-thani-ar
+  - source/wikipedia-jassim-bin-mohammed-al-thani-ur
+  - source/wikidata-jassim-bin-mohammed-al-thani
+status:
+  review: published
+  completeness: 3
+  generated_by: "Muse (Muse Spark 1.3)"
+provenance:
+  layer: own-research
+  source: "Wikipedia (EN/AR/UR) and Wikidata Q4116076 revisions consulted 26 October 2026. His father Mohammed bin Thani has no museum record, so no child_of relation is written from this record; his son Abdullah's record, built in the same run, carries the child_of edge to this record. Neither Fuwayrit nor Lusail has a museum place entity, so birth and death places are carried in the notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-26
