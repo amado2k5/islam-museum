@@ -173,11 +173,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Baaba Maal — 1953–Living
 - [x] Youssou N'Dour — 1959–Living
 - [x] Ismaël Lô — 1956–Living
-- [ ] Alpha Blondy — 1953–Living
-- [ ] Akon (Aliaune Badara Akon Thiam) — 1973–Living
-- [ ] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
-- [ ] Busta Rhymes (Trevor George Smith Jr.) — 1972–Living
-- [ ] Big Dad RZA / RZA (Robert Fitzgerald Diggs) — 1969–Living
+- [x] Alpha Blondy — 1953–Living
+- [x] Akon (Aliaune Badara Akon Thiam) — 1973–Living
+- [x] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
+- [x] Busta Rhymes (Trevor George Smith Jr.) — 1972–Living
+- [x] Big Dad RZA / RZA (Robert Fitzgerald Diggs) — 1969–Living
 - [ ] Brother Ali (Ali Newman) — 1977–Living
 - [ ] Q-Tip (Kamaal Ibn John Fareed) — 1970–Living
 - [ ] Ali Shaheed Muhammad — 1968–Living

@@ -1,0 +1,36 @@
+id: person/akon
+class: person
+label: { ar: "إيكون", en: "Akon", ur: "ایکن" }
+names:
+  - { value: "Aliaune Damala Bouga Time Puru Nacka Lu Lu Lu Badara Akon Thiam", kind: full }
+  - { value: "Aliaune Badara Akon Thiam", kind: alternate }
+  - { value: "Akon", kind: pen }
+gender: male
+summary:
+  ar: "مغنٍّ وكاتب أغانٍ سنغالي-أمريكي، وُلد في سانت لويس بولاية ميزوري في 16 أبريل 1973 لأسرة سنغالية، وحقّق انطلاقته بألبوم «ترابل» (2004)، وأسس شركتي «كونفيكت ميوزيك» و«كونلايف»، وأطلق سنة 2014 مبادرة «إيكون لايتينغ أفريقيا» لإيصال الكهرباء إلى بلدان أفريقية، ثم أُعلن سنة 2025 التخلي عن مشروع مدينته المستقبلية «إيكون سيتي» في السنغال."
+  en: "Senegalese-American singer and songwriter, born at St. Louis, Missouri, on 16 April 1973 to a Senegalese family. He broke through with the album Trouble (2004), founded the labels Konvict Muzik and KonLive Distribution, launched the Akon Lighting Africa electricity initiative in 2014, and saw his planned Senegalese futuristic city, Akon City, officially abandoned in 2025."
+  ur: "سینیگالی-امریکی گلوکار و گیت نگار، جو 16 اپریل 1973 کو سینٹ لوئس، میزوری میں سینیگالی خاندان میں پیدا ہوئے۔ انہیں البم «ٹرابل» (2004) سے شہرت ملی، انہوں نے «کونوکٹ میوزک» اور «کون لائیو» لیبل قائم کیے، 2014 میں افریقہ میں بجلی کی فراہمی کی مہم «ایکن لائٹنگ افریقہ» شروع کی، اور سینیگال میں ان کے مجوزہ شہر «ایکن سٹی» کا منصوبہ 2025 میں باضابطہ ترک کر دیا گیا۔"
+roles: [singer, songwriter, producer, businessman]
+wings: [people, living]
+born:
+  edtf: "1973-04-16"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at St. Louis, Missouri, United States. The Hijri year (1393) is derived by tabular conversion. St. Louis has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-akon-en, source/wikidata-akon]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The sources attest a Muslim identity generically but name no school for him. The English article records that he was born to a Muslim family (family background, which never counts) and states in its personal-life section that 'Akon is a Muslim', citing a 2009 magazine piece; the Arabic article likewise gives his birth into a Muslim family. Wikidata's religion value is the generic item 'Muslim' — one structured-data value naming no school. No source names a madhhab for him, so his faith is recorded as unknown."
+    sources: [source/wikipedia-akon-en, source/wikipedia-akon-ar, source/wikidata-akon]
+external_ids: { wikidata: "Q32849" }
+sources: [source/wikipedia-akon-en, source/wikipedia-akon-ar, source/wikipedia-akon-ur, source/wikidata-akon]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Akon' (revision 1379954705 of 12 October 2026), Arabic Wikipedia «إيكون» (revision 75980284 of 23 July 2026), Urdu Wikipedia «ایکن» (revision 10518425 of 20 May 2026), and Wikidata Q32849 read through the Wikidata API, all checked 26 October 2026. No earlier record existed in data/person/ under any spelling (Thiam/Akon variants searched); this is a new build, not an enrichment. No relations are written: St. Louis has no place entity in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-26
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
