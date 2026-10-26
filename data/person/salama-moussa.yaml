@@ -1,0 +1,49 @@
+id: person/salama-moussa
+class: person
+label: { ar: "سلامة موسى", en: "Salama Moussa", ur: "سلامہ موسیٰ" }
+names:
+  - { value: "سلامة موسى", kind: full }
+  - { value: "Salama Moussa", kind: full }
+  - { value: "Salama Musa", kind: alternate }
+  - { value: "رائد الاشتراكية المصرية", kind: laqab }
+gender: male
+summary:
+  ar: "صحفي وكاتب ومفكر مصري (1887-1958)، من روّاد الاشتراكية في مصر، وعلماني صريح عرّف القرّاء المصريين بداروين ونيتشه وفرويد. أسّس مجلتي «المستقبل» و«المجلة الجديدة»، وألّف نحو خمسة وأربعين كتابًا منها سيرته «تربية سلامة موسى»، وكان أستاذًا لنجيب محفوظ في مطلع حياته الأدبية."
+  en: "Egyptian journalist, writer and thinker (1887-1958), a pioneer of socialism in Egypt and an avowed secularist who introduced Egyptian readers to Darwin, Nietzsche and Freud. He founded the magazines al-Mustaqbal and al-Majalla al-Jadida, wrote some forty-five books including his autobiography Tarbiyat Salama Musa, and mentored the young Naguib Mahfouz."
+  ur: "مصری صحافی، ادیب اور مفکر (1887-1958)، مصر میں اشتراکیت کے اولین علم برداروں میں سے اور ایک اعلانیہ سیکولر، جنہوں نے مصری قارئین کو ڈارون، نطشے اور فرائڈ سے متعارف کرایا۔ انہوں نے «المستقبل» اور «المجلۃ الجدیدہ» رسالے نکالے، تقریباً پینتالیس کتابیں لکھیں جن میں ان کی خود نوشت «تربیۃ سلامہ موسیٰ» بھی ہے، اور نوجوان نجیب محفوظ کے استاد رہے۔"
+roles: [writer, philosopher, activist]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1887-02-04"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 4 February 1887 in the village of Bahnaba'i, seven kilometres from Zagazig (the Arabic article's infobox and text; the French article gives Zagazig). The English article's infobox gives Cairo, against its own text, which names a village near Zagazig — called Kafr al-Afi there — and says his family came originally from al-Bayadiyya in Asyut. No place entity exists for Zagazig, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar, source/wikipedia-salama-moussa-fr, source/wikidata-salama-moussa]
+died:
+  edtf: "1958-08-04"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 4 August 1958 (all three articles and Wikidata agree)."
+  sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar, source/wikidata-salama-moussa]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two different things are documented and neither settles a personal affiliation. (1) His background: the English article (citing Goldschmidt) says he was born into a Coptic family, the French article says a Coptic Orthodox family, and the Arabic article says he was born to two Coptic parents; family background is never attestation, and no text names him personally as a Christian believer. (2) His own published position: the English article, on scholarly sources, calls him an avowed secularist who campaigned against traditional religions, and the Arabic article, summarising his books, records his doctrine that religion is a human product, that nothing in it is sacred, and his 1912 book on the origin of the idea of God written from a material basis — but the same Arabic account records that he preached a natural unity of God and the universe and rejected Nietzsche's 'death of God', and no source records him describing himself as an atheist. That falls short of the documented-unbelief bar, so neither christian nor atheist-or-sceptic is recorded. Wikidata carries no religion value for him."
+    sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar, source/wikipedia-salama-moussa-fr, source/wikidata-salama-moussa]
+external_ids: { wikidata: "Q368209" }
+sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar, source/wikipedia-salama-moussa-fr, source/wikidata-salama-moussa]
+provenance:
+  layer: own-research
+  source: "English, Arabic and French Wikipedia and Wikidata Q368209, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
