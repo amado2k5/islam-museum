@@ -1,0 +1,39 @@
+id: person/zaid-shakir
+class: person
+label: { ar: "زيد شاكر", en: "Zaid Shakir", ur: "زید شاکر" }
+names:
+  - { value: "زيد شاكر", kind: full }
+  - { value: "Zaid Shakir", kind: full }
+  - { value: "Ricky Daryl Mitchell", kind: alternate }
+  - { value: "Zaid Salim Shakir", kind: alternate }
+gender: male
+summary:
+  ar: "عالم إسلامي أمريكي، وُلد باسم ريكي داريل ميتشل في بيركلي بكاليفورنيا سنة 1956؛ اعتنق الإسلام سنة 1977، ونال شهادات من الجامعة الأمريكية وروتجرز، ودرس سبع سنوات في سوريا وتخرج في جامعة أبو النور سنة 2001، وشارك في تأسيس كلية الزيتونة في بيركلي حيث يعمل عضوا أول في هيئتها التدريسية."
+  en: "American Islamic scholar, born Ricky Daryl Mitchell in Berkeley, California, in 1956; he converted to Islam in 1977, took degrees at American University and Rutgers, studied for seven years in Syria and graduated from Abu Nour University in 2001, and co-founded Zaytuna College in Berkeley, where he is a senior faculty member."
+  ur: "امریکی ماہرِ اسلامیات، 1956 میں برکلے، کیلیفورنیا میں رکی ڈیرل مچل کے نام سے پیدا ہوئے؛ انہوں نے 1977 میں اسلام قبول کیا، امریکن یونیورسٹی اور رٹگرز سے ڈگریاں لیں، سات برس شام میں تعلیم حاصل کر کے 2001 میں جامعہ ابو النور سے فارغ ہوئے، اور برکلے میں زیتونہ کالج کی تاسیس میں شریک ہوئے جہاں وہ سینئر فیکلٹی رکن ہیں۔"
+roles: [scholar, author, teacher]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1956-05-24"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Berkeley, California birthplace from the English Wikipedia article, where the date is referenced to The Muslim 500's profile of him. The Hijri year 1375 is converter-derived."
+  sources: [source/wikipedia-zaid-shakir-en]
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "Two independent sources name the school for him personally. The English Wikipedia infobox gives his denomination as Sunni and his jurisprudence as Shafi'i, and both values are referenced in the article: the denomination to an academic handbook chapter (Howe 2020) and the jurisprudence to a peer-reviewed journal article (Malik 2013) which states in terms that he represents the Shafi'i school of jurisprudence. Independently, The Halal Life's scholar profile gives the same two structured values, denomination Sunni and jurisprudence Shafi'i. The two sources conflict on creed — Wikipedia gives Ash'ari, The Halal Life gives Maturidi — so no creed is recorded and no compound value is used."
+    sources: [source/wikipedia-zaid-shakir-en, source/halallife-zaid-shakir]
+sources: [source/wikipedia-zaid-shakir-en, source/halallife-zaid-shakir, source/listennotes-zaid-shakir]
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article (read in full), The Halal Life's scholar profile and Muslim Central's podcast listing, consulted 26 October 2026; the reading tools in this run exposed no revision id or Wikidata identifier, so none is recorded. No relation to a Zaytuna College entity is recorded because no group entity for the college was found in data/group. The citation gate is data/source entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-46"
+status:
+  review: published
+  completeness: 3
