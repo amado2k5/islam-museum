@@ -1,4 +1,5 @@
 ---
+import A11yPrefs from "../components/A11yPrefs.astro";
 import "../styles/global.css";
 import { ui, LANGS, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
@@ -95,24 +96,7 @@ const EXPLORE = explorePages(lang);
           <a class="kids-back" href={`/${lang}/`}>
             <span aria-hidden="true">🏛</span> {T.kids.back_to_museum}
           </a>
-          <details class="a11y-prefs" id="a11y-prefs">
-            <summary class="chip">{T.a11y.prefs}</summary>
-            <div class="a11y-panel" role="group" aria-label={T.a11y.prefs}>
-              <div class="a11y-row">
-                <span>{T.a11y.prefs_text}</span>
-                <span class="a11y-ctl">
-                  <button type="button" data-ts="-" aria-label={T.a11y.prefs_smaller}>A−</button>
-                  <output data-ts-out aria-live="polite">100%</output>
-                  <button type="button" data-ts="+" aria-label={T.a11y.prefs_larger}>A+</button>
-                </span>
-              </div>
-              <label class="a11y-row"><span>{T.a11y.prefs_leading}</span><input type="checkbox" data-pref="leading" /></label>
-              <label class="a11y-row"><span>{T.a11y.prefs_contrast}</span><input type="checkbox" data-pref="contrast" /></label>
-              <label class="a11y-row"><span>{T.a11y.prefs_motion}</span><input type="checkbox" data-pref="motion" /></label>
-              <label class="a11y-row"><span>{T.a11y.prefs_links}</span><input type="checkbox" data-pref="links" /></label>
-              <p class="a11y-note muted">{T.a11y.prefs_note}</p>
-            </div>
-          </details>
+          <A11yPrefs {T} />
         </div>
         <script src="../scripts/classroom.ts"></script>
       ) : (
@@ -164,24 +148,7 @@ const EXPLORE = explorePages(lang);
           )}
           <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
-          <details class="a11y-prefs" id="a11y-prefs">
-            <summary class="chip">{T.a11y.prefs}</summary>
-            <div class="a11y-panel" role="group" aria-label={T.a11y.prefs}>
-              <div class="a11y-row">
-                <span>{T.a11y.prefs_text}</span>
-                <span class="a11y-ctl">
-                  <button type="button" data-ts="-" aria-label={T.a11y.prefs_smaller}>A−</button>
-                  <output data-ts-out aria-live="polite">100%</output>
-                  <button type="button" data-ts="+" aria-label={T.a11y.prefs_larger}>A+</button>
-                </span>
-              </div>
-              <label class="a11y-row"><span>{T.a11y.prefs_leading}</span><input type="checkbox" data-pref="leading" /></label>
-              <label class="a11y-row"><span>{T.a11y.prefs_contrast}</span><input type="checkbox" data-pref="contrast" /></label>
-              <label class="a11y-row"><span>{T.a11y.prefs_motion}</span><input type="checkbox" data-pref="motion" /></label>
-              <label class="a11y-row"><span>{T.a11y.prefs_links}</span><input type="checkbox" data-pref="links" /></label>
-              <p class="a11y-note muted">{T.a11y.prefs_note}</p>
-            </div>
-          </details>
+          <A11yPrefs {T} />
         </div>
       </div>
       )}
@@ -203,125 +170,10 @@ const EXPLORE = explorePages(lang);
       </div>
     </footer>
     <script is:inline>
-      (function () {
-        // Phone menu: a button opens the full list; Escape closes it and returns focus to the button.
-        var mb = document.getElementById("menu-btn"), nav = document.getElementById("site-nav");
-        if (mb && nav) {
-          var setOpen = function (open, back) {
-            nav.classList.toggle("open", open);
-            // the panel scrolls within the screen below the header, whatever the header's height
-            if (open) {
-              var below = nav.getBoundingClientRect().top, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
-              nav.style.maxHeight = Math.max(160, Math.floor(view - below - 8)) + "px";
-            } else nav.style.maxHeight = "";
-            mb.setAttribute("aria-expanded", String(open));
-            if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
-          };
-          mb.addEventListener("click", function () { setOpen(!nav.classList.contains("open"), false); });
-          document.addEventListener("keydown", function (e) {
-            if (e.key !== "Escape") return;
-            if (nav.classList.contains("open")) setOpen(false, true);
-            nav.querySelectorAll("details[open]").forEach(function (d) { d.removeAttribute("open"); var s = d.querySelector("summary"); if (s && d.contains(document.activeElement)) s.focus(); });
-          });
-          // one dropdown open at a time; a click elsewhere closes it
-          nav.querySelectorAll("details[data-dd]").forEach(function (d) {
-            d.addEventListener("toggle", function () {
-              if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); });
-              // a desktop dropdown scrolls within the window below where it starts, so it never runs off the bottom
-              var m = d.querySelector(".dd-menu");
-              if (d.open && m && getComputedStyle(m).position === "absolute") {
-                var top = d.querySelector("summary").getBoundingClientRect().bottom + 8, view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
-                m.style.maxHeight = Math.max(160, Math.floor(view - top - 12)) + "px";
-              }
-            });
-          });
-          document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
-          // Wing counts: one static JSON for the whole site (api/v1/meta/counts.json, cached an hour by its Cache-Control), fetched
-          // the first time the wings menu opens and written into the "{n} events" templates. Decorative: nothing else depends on it.
-          var slots = nav.querySelectorAll("[data-wing-count]"), wingsDd = slots.length ? slots[0].closest("details") : null;
-          if (wingsDd) {
-            var fill = function () {
-              if (!wingsDd.open) return;
-              wingsDd.removeEventListener("toggle", fill);
-              var lang = document.documentElement.lang, nf = new Intl.NumberFormat(lang === "ar" ? "ar-EG-u-nu-latn" : "en-GB");
-              fetch("/api/v1/meta/counts.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (c) {
-                if (!c || !c.wings) return;
-                slots.forEach(function (s) { var n = c.wings[s.dataset.wingCount]; if (typeof n === "number") s.textContent = s.dataset.tpl.replace("{n}", nf.format(n)) + " — "; });
-              }).catch(function () {});
-            };
-            wingsDd.addEventListener("toggle", fill);
-          }
-        }
-      })();
-      (function () {
-        // Arabic body font: Amiri / Noto Naskh (default) or Cairo (sans). Remembered per viewer; nothing breaks without storage.
-        var fb = document.getElementById("font-toggle"), root = document.documentElement;
-        if (fb) {
-          var sync = function () { fb.setAttribute("aria-pressed", String(root.getAttribute("data-font") === "sans")); };
-          sync();
-          fb.addEventListener("click", function () {
-            var next = root.getAttribute("data-font") === "sans" ? null : "sans";
-            if (next) root.setAttribute("data-font", next); else root.removeAttribute("data-font");
-            try { if (next) localStorage.setItem("font", next); else localStorage.removeItem("font"); } catch (e) {}
-            sync();
-          });
-        }
-      })();
-      (function () {
-        var el = document.documentElement, b = document.getElementById("theme");
-        if (!b) return;
-        // The accessible name names the action: "switch to light" while the dark theme is showing.
-        var isDark = function () { return el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
-        var sync = function () { b.setAttribute("aria-label", isDark() ? b.dataset.toLight : b.dataset.toDark); };
-        sync();
-        b.addEventListener("click", function () {
-          var next = isDark() ? "light" : "dark";
-          el.setAttribute("data-theme", next);
-          try { localStorage.setItem("theme", next); } catch (e) {}
-          sync();
-        });
-      })();
-      (function () {
-        // Accessibility preferences: text size, line spacing, contrast, motion, underlined links.
-        // Stored on the device only (localStorage), exactly like the theme — no cookie, nothing sent.
-        var det = document.getElementById("a11y-prefs"), root = document.documentElement;
-        if (!det) return;
-        var store = {
-          get: function (k) { try { return localStorage.getItem("a11y:" + k); } catch (e) { return null; } },
-          set: function (k, v) { try { if (v == null) localStorage.removeItem("a11y:" + k); else localStorage.setItem("a11y:" + k, v); } catch (e) {} }
-        };
-        var SIZES = [100, 110, 125, 150];
-        var size = parseInt(store.get("textsize") || "100", 10);
-        if (SIZES.indexOf(size) < 0) size = 100;
-        var out = det.querySelector("[data-ts-out]");
-        var applySize = function (v) {
-          if (v > 100) root.style.fontSize = v + "%"; else root.style.fontSize = "";
-          if (out) out.textContent = v + "%";
-          store.set("textsize", v > 100 ? String(v) : null);
-        };
-        applySize(size);
-        det.querySelectorAll("[data-ts]").forEach(function (b) {
-          b.addEventListener("click", function () {
-            var i = SIZES.indexOf(size) + (b.dataset.ts === "+" ? 1 : -1);
-            size = SIZES[Math.max(0, Math.min(SIZES.length - 1, i))];
-            applySize(size);
-          });
-        });
-        var attrs = { leading: "roomy", contrast: "high", motion: "reduce", links: "underline" };
-        det.querySelectorAll("[data-pref]").forEach(function (c) {
-          var key = c.dataset.pref, val = attrs[key], name = "data-" + key;
-          var apply = function (on) {
-            if (on) root.setAttribute(name, val); else root.removeAttribute(name);
-            store.set(key, on ? val : null);
-          };
-          var on = store.get(key) === val;
-          c.checked = on;
-          apply(on);
-          c.addEventListener("change", function () { apply(c.checked); });
-        });
-        det.addEventListener("keydown", function (e) { if (e.key === "Escape") { det.open = false; var s = det.querySelector("summary"); if (s) s.focus(); } });
-        document.addEventListener("click", function (e) { if (det.open && !det.contains(e.target)) det.open = false; });
-      })();
+      (function(){var mb=document.getElementById("menu-btn"),nav=document.getElementById("site-nav");if(mb&&nav){var setOpen=function(o,b){nav.classList.toggle("open",o);if(o){var w=window.visualViewport?window.visualViewport.height:window.innerHeight;nav.style.maxHeight=Math.max(160,Math.floor(w-nav.getBoundingClientRect().top-8))+"px"}else nav.style.maxHeight="";mb.setAttribute("aria-expanded",String(o));if(o){var f=nav.querySelector("a");if(f)f.focus()}else if(b)mb.focus()};mb.addEventListener("click",function(){setOpen(!nav.classList.contains("open"),false)});document.addEventListener("keydown",function(e){if(e.key!=="Escape")return;if(nav.classList.contains("open"))setOpen(false,true);nav.querySelectorAll("details[open]").forEach(function(d){d.removeAttribute("open");var s=d.querySelector("summary");if(s&&d.contains(document.activeElement))s.focus()})});nav.querySelectorAll("details[data-dd]").forEach(function(d){d.addEventListener("toggle",function(){if(d.open)nav.querySelectorAll("details[data-dd]").forEach(function(o){if(o!==d)o.removeAttribute("open")});var m=d.querySelector(".dd-menu");if(d.open&&m&&getComputedStyle(m).position==="absolute"){var v=window.visualViewport?window.visualViewport.height:window.innerHeight;m.style.maxHeight=Math.max(160,Math.floor(v-d.querySelector("summary").getBoundingClientRect().bottom-8-12))+"px"}})});document.addEventListener("click",function(e){if(!nav.contains(e.target))nav.querySelectorAll("details[data-dd][open]").forEach(function(d){d.removeAttribute("open")})});var slots=nav.querySelectorAll("[data-wing-count]"),wdd=slots.length?slots[0].closest("details"):null;if(wdd){var fill=function(){if(!wdd.open)return;wdd.removeEventListener("toggle",fill);var lang=document.documentElement.lang,nf=new Intl.NumberFormat(lang==="ar"?"ar-EG-u-nu-latn":"en-GB");fetch("/api/v1/meta/counts.json").then(function(r){return r.ok?r.json():null}).then(function(c){if(!c||!c.wings)return;slots.forEach(function(s){var n=c.wings[s.dataset.wingCount];if(typeof n==="number")s.textContent=s.dataset.tpl.replace("{n}",nf.format(n))+" — "})}).catch(function(){})};wdd.addEventListener("toggle",fill)}}})();
+      (function(){var fb=document.getElementById("font-toggle"),root=document.documentElement;if(fb){var sy=function(){fb.setAttribute("aria-pressed",String(root.getAttribute("data-font")==="sans"))};sy();fb.addEventListener("click",function(){var nx=root.getAttribute("data-font")==="sans"?null:"sans";if(nx)root.setAttribute("data-font",nx);else root.removeAttribute("data-font");try{if(nx)localStorage.setItem("font",nx);else localStorage.removeItem("font")}catch(e){}sy()})}})();
+      (function(){var el=document.documentElement,b=document.getElementById("theme");if(!b)return;var dk=function(){return el.getAttribute("data-theme")?el.getAttribute("data-theme")==="dark":matchMedia("(prefers-color-scheme: dark)").matches},sy=function(){b.setAttribute("aria-label",dk()?b.dataset.toLight:b.dataset.toDark)};sy();b.addEventListener("click",function(){var nx=dk()?"light":"dark";el.setAttribute("data-theme",nx);try{localStorage.setItem("theme",nx)}catch(e){}sy()})})();
+      (function(){var d=document.getElementById("a11y-prefs"),r=document.documentElement;if(!d)return;var g=function(k){try{return localStorage.getItem("a11y:"+k)}catch(e){return null}},st=function(k,v){try{if(v==null)localStorage.removeItem("a11y:"+k);else localStorage.setItem("a11y:"+k,v)}catch(e){}};var S=[100,110,125,150],z=parseInt(g("textsize")||"100",10);if(S.indexOf(z)<0)z=100;var o=d.querySelector("[data-ts-out]"),A=function(v){r.style.fontSize=v>100?v+"%":"";if(o)o.textContent=v+"%";st("textsize",v>100?String(v):null)};A(z);d.querySelectorAll("[data-ts]").forEach(function(b){b.addEventListener("click",function(){var i=S.indexOf(z)+(b.dataset.ts=="+"?1:-1);z=S[Math.max(0,Math.min(S.length-1,i))];A(z)})});var M={leading:"roomy",contrast:"high",motion:"reduce",links:"underline"};d.querySelectorAll("[data-pref]").forEach(function(c){var k=c.dataset.pref,v=M[k],n="data-"+k,a=function(f){if(f)r.setAttribute(n,v);else r.removeAttribute(n);st(k,f?v:null)},f=g(k)===v;c.checked=f;a(f);c.addEventListener("change",function(){a(c.checked)})});d.addEventListener("keydown",function(e){if(e.key==="Escape"){d.open=false;var m=d.querySelector("summary");if(m)m.focus()}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false})})();
     </script>
   </body>
 </html>
