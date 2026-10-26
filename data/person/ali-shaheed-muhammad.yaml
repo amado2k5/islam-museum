@@ -1,0 +1,36 @@
+id: person/ali-shaheed-muhammad
+class: person
+label: { ar: "علي شهيد محمد", en: "Ali Shaheed Muhammad", ur: "علی شہید محمد" }
+names:
+  - { value: "Ali Shaheed Muhammad", kind: full }
+  - { value: "علي شهيد محمد", kind: full }
+  - { value: "Mr. Muhammad", kind: alternate }
+gender: male
+summary:
+  ar: "منسّق موسيقى ومنتج أمريكي، وُلد في بروكلين بنيويورك سنة 1970، وهو عضو مؤسس لفريق «أ ترايب كولد كويست» وعضو فريق الآر أند بي «لوسي بيرل». عمل منذ سنة 2013 مع المنتج أدريان يونج على موسيقى مسلسل «لوك كيج» وسلسلة «الجاز ميت» (Jazz Is Dead)، وتنصّ مقالته على أنه مسلم."
+  en: "American DJ and record producer, born in Brooklyn, New York City, in 1970, a founding member of A Tribe Called Quest and a member of the R&B group Lucy Pearl. Since 2013 he has worked with producer Adrian Younge on the Luke Cage soundtracks and the Jazz Is Dead series; his article states that he is a Muslim."
+  ur: "امریکی ڈی جے و ریکارڈ پروڈیوسر، جو 1970 میں بروکلن، نیویارک میں پیدا ہوئے؛ وہ «اے ٹرائب کالڈ کوئسٹ» کے بانی رکن اور آر اینڈ بی گروپ «لوسی پرل» کے رکن ہیں۔ 2013 سے وہ پروڈیوسر ایڈرین یانگ کے ساتھ «لوک کیج» کی موسیقی اور «جاز از ڈیڈ» سلسلے پر کام کر رہے ہیں، اور ان کے مضمون میں درج ہے کہ وہ مسلمان ہیں۔"
+roles: [producer, rapper, musician]
+wings: [people, living]
+born:
+  edtf: "1970-08-11"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Brooklyn, New York City, and raised in Bedford-Stuyvesant. The Hijri year (1390) is derived by tabular conversion. Brooklyn has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-ali-shaheed-muhammad-en, source/wikidata-ali-shaheed-muhammad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article states a single sentence — that Muhammad is a Muslim — citing a forum page that is now a dead link, and files him in the categories Converts to Islam and African-American Muslims. That is a generic attestation of the man himself, not the naming of a school: no source names a madhhab for him, and there is no Arabic or Urdu article. Wikidata's only religion value is Islam (Q432) generically — one structured-data value in any case. His faith is therefore recorded as unknown, with the attestation stated exactly as the sources give it."
+    sources: [source/wikipedia-ali-shaheed-muhammad-en, source/wikidata-ali-shaheed-muhammad]
+external_ids: { wikidata: "Q579206" }
+sources: [source/wikipedia-ali-shaheed-muhammad-en, source/wikidata-ali-shaheed-muhammad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali Shaheed Muhammad' (revision 1367217607 of 1 August 2026) and Wikidata Q579206 read through the Wikidata API, checked 26 October 2026; there is no Arabic or Urdu article. The century-additions queue gives his birth year as 1968; the article and Wikidata both give 11 August 1970, which the record follows. No earlier record existed in data/person/ under any spelling; this is a new build, not an enrichment. No relations are written: Brooklyn has no place entity in the museum, and no group entity exists for A Tribe Called Quest."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
