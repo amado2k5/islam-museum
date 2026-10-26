@@ -1,0 +1,49 @@
+id: person/amir-meenai
+class: person
+label: { ar: "أمير مينائي", en: "Amir Meenai", ur: "امیر مینائی" }
+names:
+  - { value: "امیر احمد مینائی", kind: full }
+  - { value: "Amir Ahmad Meenai", kind: full }
+  - { value: "Ameer Minai", kind: alternate }
+  - { value: "Amir", kind: pen }
+gender: male
+summary:
+  ar: "شاعر أردي من لكهنؤ (1828–1900) ولغوي وصاحب معجم. تعلّم في فرنكي محل، وخدم في رامبور رئيسًا لمكتبتها وأستاذًا شعريًا لحاكمها خلفًا لغالب، ومات في حيدر آباد وهو يسعى لنشر معجمه «أمير اللغات». عُدّ رائد شعر النعت بالأردية، وله أكثر من أربعين كتابًا."
+  en: "Lucknow Urdu poet (1828–1900), linguist and lexicographer. Educated at Farangi Mahal, he served at Rampur as head of the state library and as the ruler's poetic mentor, succeeding Ghalib in that post, and died at Hyderabad while seeking support to publish his dictionary Ameer-ul-Lughaat. He is counted a pioneer of Urdu naat poetry and wrote over forty books."
+  ur: "لکھنؤ کے اردو شاعر (1828ء–1900ء)، ماہر لسانیات و لغت نگار۔ فرنگی محل سے تعلیم پائی، رام پور میں ریاست کی لائبریری کے نگران اور نواب کے استاد مقرر ہوئے، غالب کے بعد یہ منصب انہیں ملا، اور لغت «امیر اللغات» کی اشاعت کی کوشش میں حیدر آباد گئے جہاں انتقال ہوا۔ اردو نعت کے اولین شعرا میں شمار ہوتے ہیں اور چالیس سے زائد کتابیں چھوڑیں۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1828-02-21"
+  hijri: "1243"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Urdu article's text and Wikidata give 21 February 1828, at Lucknow; the English article, following a Dawn profile, gives 1829 in its lead and infobox, while its own death-date template computes his age from 1828. The record follows 1828 on the two agreeing sources and marks the year debated. The Hijri year is derived by tabular conversion. No place entity exists for Lucknow, so no born_in edge is written."
+  sources: [source/wikipedia-amir-meenai-ur, source/wikidata-amir-meenai, source/wikipedia-amir-meenai-en]
+died:
+  edtf: "1900-10-13"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on 13 October 1900, at Hyderabad, where he is buried, barely a month after his arrival. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-amir-meenai-en, source/wikipedia-amir-meenai-ur, source/wikidata-amir-meenai]
+relations:
+  - { type: died_in, target: place/hyderabad-deccan, sources: [source/wikipedia-amir-meenai-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — one text attestation of personal Sufi discipleship, one short of the two-source bar. The Urdu article states in its text that he held bay'ah (the discipleship oath) from Hazrat Amir Shah, the sajjada-nashin of the Sabiri Chishti family — a Chishti-Sabiri discipleship, attested in that one text only. The English article makes no statement of affiliation: it lists 'mysticism' among the subjects of his poetry, which is a theme and never an attestation, and his pioneering of the naat genre is likewise a literary fact, not an affiliation. Wikidata's religion value is Islam only. Recorded unknown under the doubt rule (the one-attestation configuration of Muhammad Ayyub and Samir Mustafa); the discipleship text is preserved here, and one founder word promotes him to sufi/documented if a single text attestation of bay'ah should suffice."
+    sources: [source/wikipedia-amir-meenai-ur, source/wikipedia-amir-meenai-en, source/wikidata-amir-meenai]
+external_ids: { wikidata: "Q4746598" }
+sources: [source/wikipedia-amir-meenai-en, source/wikipedia-amir-meenai-ur, source/wikidata-amir-meenai]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Amir Meenai' (revision 1371879352), Urdu Wikipedia 'امیر مینائی' (revision 11801393) and Wikidata item Q4746598 (item revision 2556800185), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. There is no Arabic Wikipedia article, so the Arabic prose is written from the English and Urdu sources. Existence was checked by filename fragments under all spellings (meenai, minai, meenai), by Arabic label and by the QID route across data/person/; no earlier record of the poet exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
