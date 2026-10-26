@@ -1,0 +1,53 @@
+id: person/raghib-al-nashashibi
+class: person
+label:
+  ar: "راغب النشاشيبي"
+  en: "Raghib al-Nashashibi"
+summary:
+  ar: "سياسي فلسطيني (1881–1951) تولّى رئاسة بلدية القدس من 1920 إلى 1935 وقاد حزب الدفاع الوطني منافسًا لآل الحسيني."
+  en: "Palestinian politician (1881–1951) who served as mayor of Jerusalem from 1920 to 1935 and led the National Defence Party in rivalry with the Husayni family."
+names:
+  - { value: "Raghib al-Nashashibi", kind: full }
+  - { value: "راغب النشاشيبي", kind: full }
+  - { value: "Raghib", kind: given }
+born:
+  edtf: "1881"
+  hijri: "1298"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born in Jerusalem in 1881, the year given by the English article and Wikidata {cite:wikipedia-raghib-al-nashashibi-en} {cite:wikidata-raghib-al-nashashibi}; the Arabic article's lead gives 1880 {cite:wikipedia-raghib-al-nashashibi-ar}. The year 1881 is recorded with the conflict stated."
+  sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
+died:
+  edtf: "1951-04"
+  hijri: "1370"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: false
+  note: "Died of illness in April 1951; the place is contested — the English article gives the Augusta Victoria Hospital in East Jerusalem {cite:wikipedia-raghib-al-nashashibi-en}, while Wikidata's place-of-death value is Jordan {cite:wikidata-raghib-al-nashashibi}. Because the two conflict, no died_in relation is written and the place is carried in this note and the prose only."
+  sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikidata-raghib-al-nashashibi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither article's text or infobox states his religion {cite:wikipedia-raghib-al-nashashibi-en} {cite:wikipedia-raghib-al-nashashibi-ar}. Wikidata's religion field gives Islam, one structured-data value {cite:wikidata-raghib-al-nashashibi}. Under the lane rule the affiliation stays unknown."
+    sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
+roles: [politician, engineer]
+wings: [people]
+regions: [levant-iraq]
+relations:
+  - type: born_in
+    target: place/jerusalem
+    note: "Born in Jerusalem, then in the Ottoman Empire {cite:wikipedia-raghib-al-nashashibi-en} {cite:wikipedia-raghib-al-nashashibi-ar}."
+    sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
+external_ids: { wikidata: "Q1362338" }
+sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and Wikidata Q1362338, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+  created: "2026-10-26"
+  note: "Built 2026-10-26 (wave 53, group B) from the English article (revision 1381190195), the Arabic article (revision 76846710) and Wikidata item Q1362338. Existence checked both routes: no al-Nashashibi person record by name fragments, and no record citing Q1362338; the existing person/rami-nashashibi is a different, modern bearer of the family name. The queue line's spelling 'Raghib' is followed; the articles' 'Raghib' matches it."

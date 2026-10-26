@@ -1,0 +1,54 @@
+id: person/izz-ad-din-al-qassam
+class: person
+label:
+  ar: "عز الدين القسام"
+  en: "Izz ad-Din al-Qassam"
+summary:
+  ar: "داعية مسلم وقائد مقاومة سوري المولد (1882–1935) قاتل الفرنسيين في سوريا ونظّم المقاومة المسلحة للحكم البريطاني والاستيطان الصهيوني في فلسطين، حيث قتلته القوات البريطانية عام 1935."
+  en: "Syrian-born Muslim preacher and resistance leader (1882–1935) who fought the French in Syria and organised armed resistance to British rule and Zionist settlement in Palestine, where British forces killed him in 1935."
+names:
+  - { value: "Izz ad-Din al-Qassam", kind: full }
+  - { value: "عز الدين القسام", kind: full }
+  - { value: "محمد عز الدين بن عبد القادر بن مصطفى بن يوسف بن محمد القسام", kind: nasab }
+  - { value: "Izz al-Din al-Qassam", kind: alternate }
+born:
+  edtf: "1882-12-19"
+  hijri: "1300"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born in Jableh, in the Syrian province of the Ottoman Empire; no place entity for Jableh exists in the museum, so the birth place is carried in this note and the prose only. The day and year are contested: the English article's lead gives '1881 or 19 December 1882' and its infobox 19 December 1882, the date followed here {cite:wikipedia-izz-ad-din-al-qassam-en}; the Urdu article likewise gives 19 December 1882, citing Kramer and Guidere {cite:wikipedia-izz-ad-din-al-qassam-ur}; the Arabic article's lead gives 1883 {cite:wikipedia-izz-ad-din-al-qassam-ar}; Wikidata carries 19 November 1882 and the year 1882 {cite:wikidata-izz-ad-din-al-qassam}."
+  sources: [source/wikipedia-izz-ad-din-al-qassam-en, source/wikipedia-izz-ad-din-al-qassam-ar, source/wikipedia-izz-ad-din-al-qassam-ur, source/wikidata-izz-ad-din-al-qassam]
+died:
+  edtf: "1935-11-20"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Killed by British forces on 20 November 1935 near Sheikh Zeid (Nazlet Zeid), in the Jenin subdistrict, after a manhunt that followed the killing of a British policeman attributed to his followers {cite:wikipedia-izz-ad-din-al-qassam-en} {cite:wikipedia-izz-ad-din-al-qassam-ar}. No place entity for Jenin or Nazlet Zeid exists in the museum, so the death place is carried in this note and the prose only."
+  sources: [source/wikipedia-izz-ad-din-al-qassam-en, source/wikipedia-izz-ad-din-al-qassam-ar, source/wikidata-izz-ad-din-al-qassam]
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "FLAG — founder ruling invited. Two families name the school for him personally. (1) A scholarly text tradition: the English article's text, citing Schleifer in Burke (ed.) 1993, p. 166, states that al-Qassam followed the Hanafi school of Sunni Islam {cite:wikipedia-izz-ad-din-al-qassam-en}. The Urdu article's identical sentence carries the same Schleifer citation and is a translation of the same passage, so it is the same source family, not a second attestation {cite:wikipedia-izz-ad-din-al-qassam-ur}. (2) The infobox family: the English infobox gives Sunni Islam and Hanafi, and the Arabic infobox describes him as a Sunni Muslim {cite:wikipedia-izz-ad-din-al-qassam-ar}; Wikidata's religion field likewise gives Sunni Islam, a structured value of the same family {cite:wikidata-izz-ad-din-al-qassam}. Recorded documented on the Sattar Khan and Ali Daei configuration (text tradition plus infobox family); under the stricter doubt-rule reading the infobox family does not count and the value would be unknown — both readings are preserved here. No sufi segment is recorded: the Qadiriyya evidence is his father's local leadership of the order, his own teaching post at a Qadiriyya madrasa where he taught its mystical practices (Schleifer, p. 167), and the infobox tariqa field — family background, teaching activity and one infobox field, which do not attest his personal membership by two sources."
+    sources: [source/wikipedia-izz-ad-din-al-qassam-en, source/wikipedia-izz-ad-din-al-qassam-ar, source/wikipedia-izz-ad-din-al-qassam-ur, source/wikidata-izz-ad-din-al-qassam]
+roles: [scholar, activist]
+wings: [people]
+regions: [levant-iraq]
+relations:
+  - type: lived_in
+    target: place/haifa
+    note: "Based in Haifa from the early 1920s until his death in 1935: imam of the al-Istiqlal Mosque, a waqf official and marriage registrar, and president of the Haifa branch of the Young Men's Muslim Association {cite:wikipedia-izz-ad-din-al-qassam-en} {cite:wikipedia-izz-ad-din-al-qassam-ar}."
+    sources: [source/wikipedia-izz-ad-din-al-qassam-en, source/wikipedia-izz-ad-din-al-qassam-ar]
+external_ids: { wikidata: "Q471099" }
+sources: [source/wikipedia-izz-ad-din-al-qassam-en, source/wikipedia-izz-ad-din-al-qassam-ar, source/wikipedia-izz-ad-din-al-qassam-ur, source/wikidata-izz-ad-din-al-qassam]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q471099, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+  created: "2026-10-26"
+  note: "Built 2026-10-26 (wave 53, group B) from the English article (revision 1363225949), the Arabic article (revision 74107388), the Urdu article (revision 10019401, a rendering of the English article) and Wikidata item Q471099. His al-Azhar years are dated differently by the articles — sometime between 1902 and 1905 in the English article, a journey in 1896 aged fourteen with graduation in 1906 in the Arabic article — and the prose states both traditions without choosing. The faith segment is flagged in its own note: the Hanafi attestation is one scholarly text tradition (Schleifer) plus the infobox family, the configuration on which the founder's mapping-rule ruling is pending for the earlier records."
