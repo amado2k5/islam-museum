@@ -236,11 +236,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Djamel Belmadi — 1976–Living
 - [x] Ali Daei — 1969–Living
 - [x] Mehdi Taremi — 1992–Living
-- [ ] Sardar Azmoun — 1995–Living
-- [ ] Hakan Çalhanoğlu — 1994–Living
-- [ ] Arda Güler — 2005–Living
-- [ ] Ilkay Gündoğan — 1990–Living
-- [ ] Emre Can — 1994–Living
+- [x] Sardar Azmoun — 1995–Living
+- [x] Hakan Çalhanoğlu — 1994–Living
+- [x] Arda Güler — 2005–Living
+- [x] Ilkay Gündoğan — 1990–Living
+- [x] Emre Can — 1994–Living
 - [ ] Sami Khedira — 1987–Living
 - [ ] Granit Xhaka — 1992–Living
 - [ ] Xherdan Shaqiri — 1991–Living
