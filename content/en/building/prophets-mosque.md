@@ -20,3 +20,12 @@ The Companions built it of mud brick on a foundation of stone about three cubits
 Its qibla was at first toward Jerusalem. When the qibla was changed, the back door was closed and a door opened opposite it. It has three doors, one known as the Gate of Atika, which is the Gate of Mercy, and the Gate of the House of Uthman. {cite:samhudi-wafa-al-wafa p. 334-349}
 
 It was not roofed at first. When the heat grew fierce it was shaded with palm trunks and fronds, and then plastered with mud. The report says that the Prophet said he wished for a shelter like the shelter of Moses. {cite:samhudi-wafa-al-wafa p. 334-349}
+
+## For Sprouts
+The Prophet's Mosque in Medina is the mosque the Prophet and his companions built when they arrived in 622 CE. Its first walls were mud brick and its roof was palm leaves, and in it the Prophet taught and prayed with his companions. Muslims still visit it today.
+
+## For Explorers
+The Prophet founded his mosque in Medina in 622 CE, right after the Hijra, on land that had been a drying yard for dates, bought from two orphans of Banu al-Najjar. The first building was simple: mud-brick walls, a roof of palm fronds on palm trunks, and three doors. The mosque held prayer, teaching and the community's affairs together, and one part — the Suffa — housed poor emigrants. The Prophet and the Rightly Guided caliphs enlarged it, then the Umayyad, Abbasid and Ottoman caliphs. Today it contains the Prophet's grave in Aisha's chamber and the Rawda between his grave and his pulpit.
+
+## For Scholars
+The Prophet's Mosque (al-Masjid al-Nabawi) in Medina was founded in 1 AH (622 CE) directly after the Hijra, on a date-drying yard bought from two orphans of Banu al-Najjar — tradition says the camel knelt there and the spot was chosen. The Prophet and his companions built a simple mosque of mud brick with a palm-frond roof on trunk pillars and three doors; its first qibla faced Jerusalem before being turned to the Ka'ba. The mosque was the community's whole centre — prayer, teaching, judgement and war planning — with the Suffa bench lodging the poorest companions. It was enlarged under the Prophet and the Rightly Guided caliphs, rebuilt by al-Walid ibn Abd al-Malik around 88 AH to absorb the Mothers of the Believers' chambers, and expanded again under Abbasid, Mamluk, Ottoman and Saudi patronage. The Prophet was buried in Aisha's adjoining chamber in 11 AH, with Abu Bakr and Umar beside him, and the Rawda between his grave and pulpit remains the 'garden of Paradise' of the hadith.
