@@ -1,0 +1,60 @@
+id: person/abu-usamah
+class: person
+label:
+  ar: "أبو أسامة الذهبي"
+  en: "Abu Usamah at-Thahabi"
+  ur: "ابو اسامہ الذہبی"
+summary:
+  ar: "إمام أمريكي في مسجد غرين لين في برمنغهام بإنجلترا. وُلد في نيوجيرسي سنة 1964، واعتنق الإسلام سنة 1986، ودرس ثماني سنوات في الجامعة الإسلامية بالمدينة المنورة وتخرج في كلية الدعوة وأصول الدين، وتولى الإمامة في مدن أمريكية عدة ثم في بريطانيا. اشتهر عالميًا بعد برنامج «المسجد المتخفي» على القناة الرابعة سنة 2007. لا تنشر المصادر الموثوقة اسمًا مدنيًا له؛ فهو موثّق في كل مكان بهذا الاسم."
+  en: "An American imam at Green Lane Masjid in Birmingham, England. Born in New Jersey in 1964, he embraced Islam in 1986 and studied for eight years at the Islamic University of Madinah, graduating from its College of Da'wah and Usul al-Din; he held imam posts in several American cities before posts in Britain. He became internationally known after Channel 4's 2007 'Undercover Mosque' programme. No trusted source publishes a civil name for him; he is documented everywhere under this name."
+  ur: "برمنگھم، انگلستان کی گرین لین مسجد کے امریکی امام۔ 1964 میں نیوجرسی میں پیدا ہوئے، 1986 میں اسلام قبول کیا، اور جامعہ اسلامیہ مدینہ منورہ میں آٹھ سال تعلیم حاصل کرکے کلیۃ الدعوہ و اصول الدین سے فارغ التحصیل ہوئے؛ امریکہ کے کئی شہروں کے بعد برطانیہ میں امام رہے۔ 2007 میں چینل 4 کے پروگرام «انڈرکور مسجد» کے بعد عالمی شہرت ملی۔ معتبر ذرائع ان کا کوئی مدنی نام شائع نہیں کرتے؛ ہر جگہ وہ اسی نام سے موثق ہیں۔"
+names:
+  - value: "Abu Usamah at-Thahabi"
+    kind: full
+  - value: "أبو أسامة الذهبي"
+    kind: full
+  - value: "Abu Usamah"
+    kind: kunya
+  - value: "at-Thahabi"
+    kind: nisba
+  - value: "Abu Usamah ad-Dhahabi"
+    kind: alternate
+gender: male
+roles:
+  - preacher
+wings:
+  - people
+  - living
+regions:
+  - andalus-europe
+  - americas-oceania
+external_ids: { wikidata: Q4115630 }
+born:
+  edtf: "1964"
+  hijri: "1383"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in New Jersey, United States, in 1964 (year only), per his own ecosystem's biography on Huda TV; the English Wikipedia article's categories likewise file him under 1964 births. Wikidata carries a day-precision date, 10 March 1964, which no text source supports and which is not followed. The Hijri year is converter-derived."
+  sources: [source/huda-tv-abu-usamah, source/wikidata-abu-usamah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown. The English Wikipedia article calls the Islamic University of Madinah, where he studied, 'Salafi-oriented' — a description of the institution, not a school named for him; the Huda TV biography describes his studies and posts and names no school; Wikidata's religion value is Islam (Q432), generic. No source consulted names a legal school for him personally, the faith enum has no Salafi value in any case, and his teachers and institution never attest. Under the two-source rule and the doubt rule no faith value is recorded; the movement picture the sources do give is preserved in this note."
+    sources:
+      - source/wikipedia-abu-usamah-en
+      - source/huda-tv-abu-usamah
+      - source/wikidata-abu-usamah
+sources:
+  - source/wikipedia-abu-usamah-en
+  - source/wikidata-abu-usamah
+  - source/huda-tv-abu-usamah
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "He is the preacher named at §2 row 280 of the handoff ('Abu Usamah At-Thahabi'). Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (abu-usamah / usamah / thahabi / dhahabi) returned no record of him — data/person/al-dhahabi.yaml is the classical scholar of a similar nisba, a different man. The English Wikipedia article was read in full on 26 October 2026 by its recorded revision (oldid=1372667156; revision equality asserted), and the Wikidata item Q4115630 was verified the same day via Special:EntityData. IDENTITY: he is recorded under the public name borne in every trusted source. Searches on 26 October 2026 for a civil name — the Wikipedia article and Wikidata item, his Huda TV biography, press coverage of the 2007 Undercover Mosque affair, and the website the article links as his own — found none published anywhere trusted; the additional element 'Khalifah' attached to his kunya appears only on polemical opponent websites (manhaj.com, abukhadeejah.com), which are not relied on. Unlike an anonymous channel persona, the referent is unique and stable: an encyclopedia article, a Wikidata item and two decades of press and regulatory record attach to this one man, so the row is built under his documented public name rather than logged; the point is flagged in the batch report for a founder ruling, and the fallback is withdrawal to logged. No relations are recorded: Green Lane Masjid has no entity in the graph. His faith is recorded unknown: see the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-51"
