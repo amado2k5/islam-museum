@@ -356,11 +356,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Habib Umar bin Hafiz — 1963–Living
 - [x] Sheikh Habib Ali al-Jifri — 1971–Living
 - [ ] Shaykh Said Ramadan al-Bouti — 1929–2013
-- [ ] Shaykh Wahba Zuhayli — 1932–2015
-- [ ] Sheikh Mustafa al-Zarqa — 1904–1999
-- [ ] Sheikh Abd el-Halim Mahmud — 1910–1978
-- [ ] Sheikh Mohamed Siddiq El-Minshawi — 1920–1969
-- [ ] Sheikh Mahmoud Khalil Al-Hussary — 1917–1980
+- [x] Shaykh Wahba Zuhayli — 1932–2015
+- [x] Sheikh Mustafa al-Zarqa — 1904–1999
+- [x] Sheikh Abd el-Halim Mahmud — 1910–1978
+- [x] Sheikh Mohamed Siddiq El-Minshawi — 1920–1969
+- [x] Sheikh Mahmoud Khalil Al-Hussary — 1917–1980
 - [ ] Sheikh Mustafa Ismail — 1905–1978
 - [ ] Sheikh Muhammad Rifat — 1882–1950
 - [ ] Sheikh Abdul Rahman Al-Sudais — 1960–Living
