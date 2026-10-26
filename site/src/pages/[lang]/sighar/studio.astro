@@ -1,0 +1,113 @@
+---
+// Little Studio (E5 step 4): four make-and-remix tools — girih tile painting,
+// calligraphy tracing, design-a-coin, design-a-manuscript-page. All drawing is
+// client-side canvas/SVG; export downloads a PNG/SVG; nothing is uploaded and
+// nothing is stored per visitor. No-JS: descriptive text still renders.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+const brand = "islam.museum — Little Studio";
+const colors = ["#2e6f8e", "#b5482f", "#3f7d4e", "#8a6d3b", "#6b4f8e", "#c9a227"];
+const straps = { "#8a6d3b": "gold", "#1d3a6e": "blue", "#3d3527": "ink" };
+// Tracing words: city names and virtues only — never Qur'an text.
+const words = ["بغداد", "قرطبة", "سمرقند", "علم", "سلام"];
+---
+<BaseLayout lang={lang} title={t.studio_title} description={t.studio_lede} path={`/${lang}/sighar/studio/`} kids={true}>
+  <div class="kids studio" id="top">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{t.studio_title}</span>
+    </nav>
+    <h1><span aria-hidden="true">🎨</span> {t.studio_title}</h1>
+    <p class="lede">{t.studio_lede}</p>
+    <p class="studio-note">{t.studio_note}</p>
+    <noscript><p class="studio-note">{t.studio_nojs}</p></noscript>
+
+    <section class="studio-tool">
+      <h2>{t.studio_girih_title}</h2>
+      <p>{t.studio_girih_lede}</p>
+      <div class="studio-controls">
+        <span>{t.studio_pick_color}:</span>
+        {colors.map((c) => (
+          <button type="button" class="swatch" data-girih-color={c} style={`background:${c}`} aria-label={c}></button>
+        ))}
+        <label>{t.studio_strap}
+          <select id="girih-strap">
+            {Object.entries(straps).map(([v, label]) => <option value={v}>{label}</option>)}
+          </select>
+        </label>
+        <button type="button" id="girih-clear" class="kids-btn">{t.studio_clear}</button>
+        <button type="button" id="girih-png" class="kids-btn">{t.studio_export_png}</button>
+        <button type="button" id="girih-svg" class="kids-btn">{t.studio_export_svg}</button>
+      </div>
+      <canvas id="studio-girih" width="640" height="640" data-brand={brand} tabindex="0" role="application" aria-label={t.studio_girih_title}></canvas>
+    </section>
+
+    <section class="studio-tool">
+      <h2>{t.studio_trace_title}</h2>
+      <p>{t.studio_trace_lede}</p>
+      <div class="studio-controls">
+        <label>{t.studio_trace_word}
+          <select id="trace-word">
+            {words.map((w) => <option value={w}>{w}</option>)}
+          </select>
+        </label>
+        <button type="button" id="trace-clear" class="kids-btn">{t.studio_clear}</button>
+        <button type="button" id="trace-png" class="kids-btn">{t.studio_export_png}</button>
+      </div>
+      <canvas id="studio-trace" width="640" height="320" data-brand={brand} tabindex="0" role="application" aria-label={t.studio_trace_title}></canvas>
+    </section>
+
+    <section class="studio-tool">
+      <h2>{t.studio_coin_title}</h2>
+      <p>{t.studio_coin_lede}</p>
+      <div class="studio-controls">
+        <label>{t.studio_name_label} <input id="coin-name" type="text" maxlength="24" /></label>
+        <label>{t.studio_date_label} <input id="coin-date" type="text" maxlength="16" /></label>
+        <label>{t.studio_coin_motif}
+          <select id="coin-motif">
+            <option value="star">{t.studio_motif_star}</option>
+            <option value="crescent">{t.studio_motif_crescent}</option>
+            <option value="rays">{t.studio_motif_rays}</option>
+          </select>
+        </label>
+        <button type="button" id="coin-png" class="kids-btn">{t.studio_export_png}</button>
+      </div>
+      <canvas id="studio-coin" width="480" height="480" data-brand={brand}></canvas>
+    </section>
+
+    <section class="studio-tool">
+      <h2>{t.studio_ms_title}</h2>
+      <p>{t.studio_ms_lede}</p>
+      <div class="studio-controls">
+        <label>{t.studio_name_label} <input id="ms-name" type="text" maxlength="30" /></label>
+        <label>{t.studio_date_label} <input id="ms-date" type="text" maxlength="16" /></label>
+        <label>{t.studio_ms_border}
+          <select id="ms-border">
+            <option value="double">{t.studio_border_double}</option>
+            <option value="zigzag">{t.studio_border_zigzag}</option>
+            <option value="corners">{t.studio_border_corners}</option>
+          </select>
+        </label>
+        <button type="button" id="ms-png" class="kids-btn">{t.studio_export_png}</button>
+      </div>
+      <canvas id="studio-manuscript" width="480" height="640" data-brand={brand}></canvas>
+    </section>
+  </div>
+</BaseLayout>
+<script src="../../../scripts/studio.ts"></script>
+<style>
+.studio-tool { margin-block: 28px; }
+.studio-controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-block: 10px; }
+.studio-controls label { display: inline-flex; gap: 6px; align-items: center; }
+.studio-tool canvas { display: block; max-width: 100%; border: 2px solid #c9a227; border-radius: 12px; background: #fdfbf5; touch-action: none; }
+.swatch { width: 34px; height: 34px; border-radius: 50%; border: 2px solid #3332; cursor: pointer; }
+.studio-note { font-size: .9rem; opacity: .8; }
+</style>

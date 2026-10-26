@@ -1,0 +1,47 @@
+id: person/nariman-narimanov
+class: person
+label: { ar: "ناريمان ناريمانوف", en: "Nariman Narimanov", ur: "نریمان نریمانوف" }
+names:
+  - { value: "Nariman Karbalayi Najaf oghlu Narimanov", kind: full }
+  - { value: "Nəriman Kərbəlayi Nəcəf oğlu Nərimanov", kind: full }
+gender: male
+summary:
+  ar: "كاتب وطبيب وثوري بلشفي ورجل دولة أذربيجاني (1870–1925)، من رواد الأدب الأذربيجاني الحديث ومؤسس أول مكتبة قراءة عامة في باكو (1894)، رأس حكومة جمهورية أذربيجان السوفيتية (1920–1922) ثم صار أحد رؤساء اللجنة التنفيذية المركزية للاتحاد السوفيتي، وتوفي في موسكو ودُفن عند جدار الكرملين."
+  en: "Azerbaijani writer, physician, Bolshevik revolutionary and statesman (1870–1925), a pioneer of modern Azerbaijani literature who founded Baku's first public reading room in 1894. He headed the government of the Azerbaijan Soviet Republic (1920–1922) and became a chairman of the Central Executive Committee of the USSR; he died in Moscow and is buried by the Kremlin Wall."
+  ur: "آذربائیجانی ادیب، طبیب، بالشویک انقلابی اور سیاست دان (1870–1925)، جدید آذربائیجانی ادب کے بانیوں میں سے ایک اور باکو کے پہلے عوامی کتب خانے کے بانی (1894)۔ وہ آذربائیجان سوویت جمہوریہ کی حکومت کے سربراہ رہے (1920–1922) اور پھر سوویت یونین کی مرکزی ایگزیکٹو کمیٹی کے صدور میں شامل ہوئے؛ ماسکو میں وفات پائی اور کریملن کی دیوار کے پاس دفن ہوئے۔"
+roles: [writer, politician, physician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1870-04-14"
+  hijri: "1287"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tiflis (present-day Tbilisi), in the Russian Empire, into an Azerbaijani merchant family. The English article gives 14 April [O.S. 2 April] 1870; the Azerbaijani and Russian articles and Wikidata give 14 April 1870. The Hijri year 1287 is the tabular conversion."
+  sources: [source/wikipedia-nariman-narimanov-en, source/wikipedia-nariman-narimanov-az, source/wikipedia-nariman-narimanov-ru, source/wikidata-nariman-narimanov]
+died:
+  edtf: "1925-03-19"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Moscow on 19 March 1925 and was buried in Mass Grave No. 7 of the Kremlin Wall Necropolis, Red Square. All articles and Wikidata agree on the date and place; they differ on the circumstance — the English article reports a heart attack, while the Azerbaijani and Arabic articles call the death mysterious — and the record discloses that split rather than choosing. The Hijri year 1343 is the tabular conversion. The museum has no place entity for Moscow, so no died_in edge is written."
+  sources: [source/wikipedia-nariman-narimanov-en, source/wikipedia-nariman-narimanov-az, source/wikipedia-nariman-narimanov-ru, source/wikidata-nariman-narimanov]
+relations:
+  - { type: born_in, target: place/tiflis, sources: [source/wikipedia-nariman-narimanov-en, source/wikidata-nariman-narimanov] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. What each source gives, stated exactly: the English article says his early novels advocated 'the abandonment of tired customs and religious superstitions' — an attributed literary position; the Russian article calls one of his works a model of agitational, anti-religious propaganda literature — a characterisation of a work, and recounts the Sheikh-ul-Islam's denunciation of his Baku library, which is clerical opposition to him, not his own attestation; the Azerbaijani article records the other side of the ledger — under his government religious and traditional holidays were official non-working days, and as a medical student he wrote a treatise titled 'Medicine and Islam', which the Arabic article also lists among his works. The name-element Karbalayi is his father's pilgrim title — family background. None of this is two independent attestations of a school, nor two independent attestations of personal atheism (the wave-32 Akhundov precedent sets that bar), so under the doubt rule his faith is recorded unknown, with the positions preserved here as positions."
+    sources: [source/wikipedia-nariman-narimanov-en, source/wikipedia-nariman-narimanov-az, source/wikipedia-nariman-narimanov-ru, source/wikidata-nariman-narimanov]
+external_ids: { wikidata: "Q1956360" }
+sources: [source/wikipedia-nariman-narimanov-en, source/wikipedia-nariman-narimanov-az, source/wikipedia-nariman-narimanov-ru, source/wikipedia-nariman-narimanov-ar, source/wikidata-nariman-narimanov]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nariman Narimanov' (revision 1375167959), Azerbaijani Wikipedia 'Nəriman Nərimanov' (9094879), Russian Wikipedia 'Нариманов, Нариман Наджаф оглы' (155414781) and Arabic Wikipedia 'نريمان نريمانوف' (76480392), all read on 26 October 2026, with Wikidata item Q1956360. The queue gives 1870–1925, confirmed exactly. The born_in edge to place/tiflis is written because that place entity exists; no died_in edge is written for Moscow, which has none. The articles' split over the circumstance of his death (heart attack in the English article, 'mysterious' in the Azerbaijani and Arabic) is disclosed in the died note and prose. His faith is recorded unknown: the sources give attributed positions on religion, in both directions, and no attestation of a school or of personal unbelief, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-34
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

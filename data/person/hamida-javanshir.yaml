@@ -1,0 +1,49 @@
+id: person/hamida-javanshir
+class: person
+label: { ar: "حميدة جوانشير", en: "Hamida Javanshir", ur: "حمیدہ جوانشیر" }
+names:
+  - { value: "Hamida Ahmad bey qizi Javanshir", kind: full }
+  - { value: "Həmidə Əhməd bəy qızı Məmmədquluzadə-Cavanşir", kind: full }
+  - { value: "Hamida Mammadguluzadeh", kind: alternate }
+  - { value: "Hamida Khanum Javanshir", kind: alternate }
+gender: female
+summary:
+  ar: "مربية وناشطة ومحسنة أذربيجانية (1873–1955)، من أوائل المتنوّرات في أذربيجان، زوجة الكاتب الساخر جليل محمد قلي زاده وشريكته في مجلة «ملا نصر الدين»، أسست في قريتها كهريزلي مدرسة مختلطة ومستشفى، وشاركت في تأسيس جمعية نساء القوقاز المسلمات الخيرية، وخلّفت مذكرات نُشرت بعد وفاتها."
+  en: "Azerbaijani educator, activist and philanthropist (1873–1955), one of the first enlightened women of Azerbaijan; wife and working partner of the satirist Jalil Mammadguluzadeh on the magazine Molla Nasreddin. She founded a coeducational school and a hospital in her home village of Kahrizli, co-founded the Caucasian Muslim Women's Benevolent Society, and left memoirs published after her death."
+  ur: "آذربائیجانی معلمہ، سماجی کارکن اور صاحبِ خیر (1873–1955)، آذربائیجان کی اولین روشن خیال خواتین میں سے ایک؛ طنز نگار جلیل محمد قلی زادہ کی اہلیہ اور رسالے «ملا نصرالدین» میں ان کی شریکِ کار۔ انہوں نے اپنے گاؤں کہریزلی میں مخلوط تعلیم کا اسکول اور اسپتال قائم کیا، قفقازی مسلم خواتین کی فلاحی انجمن کی بانیوں میں شامل ہوئیں، اور ان کی یادداشتیں ان کی وفات کے بعد شائع ہوئیں۔"
+roles: [activist, writer, philanthropist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1873-01-19"
+  hijri: "1289"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at her family's ancestral estate in the village of Kahrizli, Shusha uyezd, Elizavetpol Governorate (now Aghjabadi district). The English, Azerbaijani and Arabic articles and Wikidata give 19 January 1873; the Russian article gives the year only. The Hijri year 1289 is the tabular conversion. The museum has no place entity for Kahrizli, so no born_in edge is written."
+  sources: [source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ar, source/wikidata-hamida-javanshir]
+died:
+  edtf: "1955-02-06"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Baku on 6 February 1955; the English, Azerbaijani and Arabic articles and Wikidata agree, the Russian article giving the year only. The Azerbaijani and Russian articles state she was buried in the Alley of Honours at Baku beside her husband Jalil Mammadguluzadeh. The Hijri year 1374 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
+  sources: [source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ru, source/wikidata-hamida-javanshir]
+relations:
+  - { type: spouse_of, target: person/jalil-mammadguluzadeh, sources: [source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ru] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article in any language names a school for her. Wikidata's single religion value is Shia Islam (Q9585), and its only reference is 'imported from English Wikipedia' (P143) — yet the English article makes no statement about her religion at all, so the value is a lone imported structured value with no article behind it; under the lane's two-source rule it cannot carry a segment (compare wave 33's Mukhtarov record, where a lone imported value was likewise preserved and not followed). What the articles record is context, not attestation: she was one of the founders of the Caucasian Muslim Women's Benevolent Society, an organisation; her memoir appeared in English under the translators' title 'Awake: A Moslem Woman's Rare Memoir'; and her Javanshir family of Karabakh is milieu and descent. Her faith is therefore recorded unknown, with the Wikidata value preserved here in full: two independent sources naming a school for Hamida Javanshir personally would change this value."
+    sources: [source/wikidata-hamida-javanshir, source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ru]
+external_ids: { wikidata: "Q5644681" }
+sources: [source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ru, source/wikipedia-hamida-javanshir-ar, source/wikipedia-hamida-javanshir-ur, source/wikidata-hamida-javanshir]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hamida Javanshir' (revision 1379011308), Azerbaijani Wikipedia 'Həmidə Məmmədquluzadə' (9062485), Russian Wikipedia 'Мамедкулизаде, Гамида' (152757061), Arabic Wikipedia 'حميدة جوانشير' (75268238) and Urdu Wikipedia 'حمیدہ جوانشیر' (11111742), all read on 26 October 2026, with Wikidata item Q5644681. The queue gives 1873–1955, confirmed exactly. The spouse_of edge to person/jalil-mammadguluzadeh is written in her record only, as the lane writes each edge once. Article splits disclosed in the prose rather than merged: her Kahrizli school is dated 1908 (English), 1909 (Russian) and 1912 (Azerbaijani); the benevolent society's founding is dated 1910 by the English article and placed in 1906–1917 by the Russian; her first husband's death is implied as 1901 by the English article and given as 1902 by the Russian. Her faith is recorded unknown: no article names a school for her, and Wikidata's lone Shia Islam value is import-referenced only, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-34
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
