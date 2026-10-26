@@ -15,7 +15,10 @@
 //   kind_event, kind_place, kind_time,
 //   jp_title, jp_sub, jp_close, jc_back,
 //   enter_title, enter_lede (plain text, \n for line breaks),
-//   enter_button, logo_alt, loading, failed
+//   enter_button, logo_alt, loading, failed,
+//   stop_of ("{n} / {total}"), stop_prev, stop_next, near_prompt, near_prompt_touch,
+//   help_button, help_title, help_walk, help_look, help_go, help_stops, help_esc, help_close, canvas_label
+// exhibits: Objects-hall stops from tour/exhibits.yaml, joined to their object records in 3d.astro.
 // journeys[].kind must be one of: "event" | "place" | "time".
 import { ARABIC_SCRIPT, type Lang } from "../lib/i18n";
 interface JourneyView {
@@ -26,17 +29,28 @@ interface JourneyView {
   sub: string;
   lines: string[];
 }
+interface ExhibitView {
+  id: string;
+  build: string;
+  label: string;
+  desc: string;
+  material: string;
+  museum: string;
+  date: string;
+  href: string;
+}
 interface Props {
   lang: Lang;
   t: Record<string, string>;
   journeys: JourneyView[];
+  exhibits: ExhibitView[];
   wingTitles: Record<string, string>;
 }
-const { lang, t, journeys, wingTitles } = Astro.props;
+const { lang, t, journeys, exhibits, wingTitles } = Astro.props;
 const dir = ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr";
 // Defensive: journeys carry no HTML, but never let a stray "<" break the
 // JSON script block (in particular "</script>").
-const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/</g, "\\u003c");
+const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).replace(/</g, "\\u003c");
 ---
 <div id="tour3d-root" dir={dir} lang={lang}>
   <div id="app"></div>
@@ -45,6 +59,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/<
     <div id="topbar">
       <div id="brand">🏛️ {t.brand_name}<small id="wingLabel">{t.hall_sub}</small></div>
       <div id="topBtns">
+        <button type="button" id="helpBtn" aria-haspopup="dialog" aria-controls="helpPanel">{t.help_button}</button>
         <button type="button" id="journeyBtn" aria-label={t.journey_button}>{t.journey_button}</button>
         <button type="button" id="exitBtn" aria-label={t.exit_button}>{t.exit_button}</button>
       </div>
@@ -56,11 +71,17 @@ const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/<
 
   <div id="joy" aria-label={t.joy_label}><div id="joyKnob"></div></div>
 
-  <div id="panel" role="dialog" aria-live="polite" aria-labelledby="panelTitle">
-    <h2 id="panelTitle"></h2>
+  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelDesc">
+    <div class="count" id="panelCount"></div>
+    <h2 id="panelTitle" tabindex="-1"></h2>
+    <p id="panelMeta" class="meta"></p>
     <p id="panelDesc"></p>
+    <div class="row nav">
+      <button type="button" id="panelPrev">{t.stop_prev}</button>
+      <button type="button" id="panelNext">{t.stop_next}</button>
+    </div>
     <div class="row">
-      <a id="panelLink" class="more" href="#" target="_blank" rel="noopener">{t.panel_more}</a>
+      <a id="panelLink" class="more" href="#">{t.panel_more}</a>
       <button type="button" id="panelClose" class="close" aria-label={t.panel_close}>{t.panel_close}</button>
     </div>
   </div>
@@ -75,6 +96,18 @@ const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/<
   <div id="journeyCard" role="dialog" aria-live="polite" aria-labelledby="jTitle">
     <h2 id="jTitle"></h2><div class="jsub" id="jSub"></div><div id="jLines"></div>
     <button type="button" id="jBack">{t.jc_back}</button>
+  </div>
+
+  <div id="helpPanel" role="dialog" aria-labelledby="helpTitle">
+    <h2 id="helpTitle" tabindex="-1">{t.help_title}</h2>
+    <ul>
+      <li>{t.help_walk}</li>
+      <li>{t.help_look}</li>
+      <li>{t.help_go}</li>
+      <li>{t.help_stops}</li>
+      <li>{t.help_esc}</li>
+    </ul>
+    <button type="button" id="helpClose" class="close">{t.help_close}</button>
   </div>
 
   <div id="toast" role="status"></div>
@@ -112,6 +145,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/<
 body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #app { position: absolute; inset: 0; }
 #tour3d-root #app canvas { display: block; }
+#tour3d-root #app canvas:focus-visible { outline: 3px solid #f5d67b; outline-offset: -3px; }
 #tour3d-root button { font-family: inherit; }
 #tour3d-root button:focus-visible,
 #tour3d-root a:focus-visible {
@@ -130,14 +164,21 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #brand { color: #f5d67b; font-weight: 800; font-size: 1.05rem; text-shadow: 0 2px 8px #000; }
 #tour3d-root #brand small { display: block; color: #cfe0f5; font-weight: 400; font-size: .75rem; }
 #tour3d-root #exitBtn,
+#tour3d-root #helpBtn,
 #tour3d-root #journeyBtn {
   pointer-events: auto; cursor: pointer;
   border: 2px solid #d4a017; border-radius: 999px;
   background: rgba(10,18,34,.8); color: #f5d67b;
   font-weight: 700; font-size: .9rem; padding: 8px 18px;
 }
-#tour3d-root #exitBtn:hover,
-#tour3d-root #journeyBtn:hover { background: #d4a017; color: #1a1206; }
+@media (hover: hover) {
+  #tour3d-root #exitBtn:hover,
+  #tour3d-root #helpBtn:hover,
+  #tour3d-root #journeyBtn:hover { background: #d4a017; color: #1a1206; }
+}
+#tour3d-root #exitBtn:active,
+#tour3d-root #helpBtn:active,
+#tour3d-root #journeyBtn:active { background: #d4a017; color: #1a1206; }
 #tour3d-root #topBtns { display: flex; gap: 8px; }
 #tour3d-root #hint {
   position: absolute; bottom: 14px; right: 50%; transform: translateX(50%);
@@ -183,6 +224,31 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #panel h2 { color: #f5d67b; font-size: 1.25rem; margin: 0 0 6px; }
 #tour3d-root #panel p { font-size: .95rem; line-height: 1.8; color: #dbe4f5; margin: 0 0 12px; }
 #tour3d-root #panel .row { display: flex; gap: 10px; }
+#tour3d-root #panel .row.nav { margin-bottom: 10px; }
+#tour3d-root #panel .row.nav button {
+  flex: 1; border: 1.5px solid #5a6b8c; background: rgba(30,44,74,.8); color: #eef2fb;
+  border-radius: 12px; padding: 8px 12px; cursor: pointer; font-weight: 700;
+}
+#tour3d-root #panel .count { color: #aeb9d4; font-size: .8rem; margin-bottom: 2px; }
+#tour3d-root #panel h2:focus { outline: none; }
+#tour3d-root #panel h2:focus-visible { outline: 3px solid #f5d67b; outline-offset: 2px; }
+#tour3d-root #panel p.meta { color: #f0d9a0; font-size: .85rem; line-height: 1.7; margin: 0 0 6px; }
+#tour3d-root #panel p.meta:empty { display: none; }
+#tour3d-root #helpPanel {
+  position: absolute; z-index: 32; top: 64px; right: 50%;
+  transform: translateX(50%) translateY(-12px);
+  width: min(440px, calc(100vw - 32px)); max-height: calc(100vh - 140px); overflow: auto;
+  background: rgba(13,22,40,.96); border: 2px solid #d4a017; border-radius: 18px;
+  padding: 18px 20px; color: #f2f5fc;
+  opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .3s, transform .3s, visibility .3s;
+}
+#tour3d-root #helpPanel.show { opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(50%) translateY(0); }
+#tour3d-root #helpPanel h2 { color: #f5d67b; font-size: 1.2rem; margin: 0 0 8px; }
+#tour3d-root #helpPanel ul { margin: 0 0 12px; padding-inline-start: 1.2em; line-height: 1.9; font-size: .92rem; color: #dbe4f5; }
+#tour3d-root #helpPanel .close {
+  width: 100%; border: 2px solid #5a6b8c; background: transparent;
+  color: #dbe4f5; border-radius: 12px; padding: 10px; cursor: pointer; font-weight: 700;
+}
 #tour3d-root #panel a.more {
   flex: 1; text-align: center; background: #d4a017; color: #1a1206; font-weight: 800;
   text-decoration: none; padding: 10px; border-radius: 12px;
@@ -290,6 +356,8 @@ body.touch #tour3d-root #hint { bottom: 200px; }
 @media (prefers-reduced-motion: reduce) {
   #tour3d-root #loading .cube { animation: none; }
   #tour3d-root #fade,
+  #tour3d-root #panel,
+  #tour3d-root #helpPanel,
   #tour3d-root #enterCard { transition: none; }
   #tour3d-root #enterBtn:hover { transform: none; }
 }

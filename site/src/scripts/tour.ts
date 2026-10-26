@@ -5,8 +5,8 @@
 // gets a light page with zero WebGL cost.
 //
 // All user-facing strings come from the JSON payload rendered by the component
-// (data.t / data.journeys / data.wingTitles). Only exhibit copy is hardcoded
-// bilingually below. All wing links are relative (/${lang}/${wing}/).
+// (data.t / data.journeys / data.exhibits / data.wingTitles); exhibit labels come
+// from tour/exhibits.yaml joined to their object records. All links are relative.
 
 export {}; // keep this file a module: no globals leak across bundled scripts
 
@@ -19,10 +19,22 @@ interface JourneyView {
   lines: string[];
 }
 
+interface ExhibitData {
+  id: string;
+  build: string; // key into exhibitBuilders
+  label: string;
+  desc: string;
+  material: string;
+  museum: string;
+  date: string;
+  href: string; // the object record page
+}
+
 interface TourData {
   lang: "ar" | "en" | "ur";
   t: Record<string, string>;
   journeys: JourneyView[];
+  exhibits: ExhibitData[];
   wingTitles: Record<string, string>;
 }
 
@@ -73,13 +85,13 @@ function wireStatic(root: HTMLElement, data: TourData): void {
   };
 
   // Wired once; each successful entry replaces the teardown below.
-  // Exit returns to the museum home (two-way nav), after disposing the scene.
+  // Exit asks first; only a confirmed exit disposes the scene and returns to the
+  // museum home (two-way nav). Cancel leaves the visitor where they were.
   let teardown: (() => void) | null = null;
   exitBtn.addEventListener("click", () => {
+    if (!window.confirm(t.exit_confirm || "Leave the 3D tour?")) return;
     teardown?.();
-    if (window.confirm(t.exit_confirm || "Leave the 3D tour?")) {
-      window.location.href = `/${data.lang}/`;
-    }
+    window.location.href = `/${data.lang}/`;
   });
 
   enterBtn.addEventListener("click", async () => {
@@ -139,7 +151,6 @@ function init(
 
   const wingTitle = (id: string): string => data.wingTitles[id] || id;
   const wingHref = (id: string): string => `/${lang}/${id}/`;
-  const objectsHref = `/${lang}/objects/`;
 
   // Listeners registered here are removed by teardown().
   const cleanups: Array<() => void> = [];
@@ -153,7 +164,7 @@ function init(
     cleanups.push(() => el.removeEventListener(type, fn, opts));
   }
 
-  /* ---------------- wings & exhibits (copy lives in code) ---------------- */
+  /* ---------------- wings & exhibits ---------------- */
   interface Wing {
     id: string;
     color: number;
@@ -170,67 +181,12 @@ function init(
     { id: "made", color: 0x9a7b4f },
   ];
 
-  interface Exhibit {
-    id: string;
-    build: string;
-    ar: string;
-    en: string;
-    descAr: string;
-    descEn: string;
+  interface Exhibit extends ExhibitData {
+    x: number;
     spinObj?: THREE.Object3D;
   }
-  const EXHIBITS: Exhibit[] = [
-    {
-      id: "astrolabe",
-      build: "astrolabe",
-      ar: "أسطرلاب",
-      en: "Astrolabe",
-      descAr:
-        "آلة فلكية من النحاس الأصفر — بها قاس العلماء مواقع النجوم وحددوا الأوقات والاتجاهات.",
-      descEn:
-        "A brass instrument for reading the stars — scholars used it to measure positions and find times and directions.",
-    },
-    {
-      id: "manuscript",
-      build: "manuscript",
-      ar: "مخطوطة مزخرفة",
-      en: "Illuminated manuscript",
-      descAr:
-        "صفحات نُسخت بخط جميل وزُيّنت بالذهب — هكذا حُفظ العلم وتناقلته الأجيال.",
-      descEn:
-        "Pages copied in beautiful script and adorned with gold — this is how knowledge was preserved and passed down.",
-    },
-    {
-      id: "vase",
-      build: "vase",
-      ar: "مزهرية خزفية",
-      en: "Glazed vase",
-      descAr: "خزف ملوّن بأيدي حرفيين مهرة — جمال يستعمل في الحياة اليومية.",
-      descEn:
-        "Colored ceramics shaped by skilled hands — beauty made for everyday life.",
-    },
-    {
-      id: "dinar",
-      build: "dinar",
-      ar: "دينار ذهبي",
-      en: "Gold dinar",
-      descAr: "عملة ذهبية من عصور التجارة المزدهرة التي ربطت المشرق بالمغرب.",
-      descEn:
-        "A gold coin from the age of thriving trade that linked East and West.",
-    },
-    {
-      id: "lamp",
-      build: "lamp",
-      ar: "مصباح زيتي",
-      en: "Oil lamp",
-      descAr: "نور البيوت والمساجد قبل الكهرباء — زيت وزجاج ولهب هادئ.",
-      descEn:
-        "The light of homes and mosques before electricity — oil, glass, and a quiet flame.",
-    },
-  ];
-  const exName = (ex: Exhibit): string => (lang === "en" ? ex.en : ex.ar);
-  const exDesc = (ex: Exhibit): string =>
-    lang === "en" ? ex.descEn : ex.descAr;
+  // Stops in order; labels, dates and record links come from the page data.
+  const EXHIBITS: Exhibit[] = (data.exhibits || []).map((e) => ({ ...e, x: 0 }));
 
   /* ---------------- renderer / scene / camera / lights ---------------- */
   const app = $("#app");
@@ -862,10 +818,10 @@ function init(
     v.position.y = -0.55;
     return v;
   }
-  function buildDinar(): THREE.Object3D {
+  function buildDirham(): THREE.Object3D {
     const d = new THREE.Mesh(
       new THREE.CylinderGeometry(0.34, 0.34, 0.06, 28),
-      goldM
+      new THREE.MeshStandardMaterial({ color: 0xc9ccd2, metalness: 0.85, roughness: 0.3 })
     );
     d.rotation.x = Math.PI / 2;
     return d;
@@ -895,15 +851,17 @@ function init(
     astrolabe: buildAstrolabe,
     manuscript: buildManuscript,
     vase: buildVase,
-    dinar: buildDinar,
+    dirham: buildDirham,
     lamp: buildLamp,
   };
   const pedMat = new THREE.MeshStandardMaterial({
     color: 0x6e5b3e,
     roughness: 0.7,
   });
+  const EX_GAP = 6;
   EXHIBITS.forEach((ex, i) => {
-    const x = -12 + i * 6;
+    const x = (i - (EXHIBITS.length - 1) / 2) * EX_GAP;
+    ex.x = x;
     const p = new THREE.Mesh(
       new THREE.CylinderGeometry(0.9, 1.05, 1.2, 20),
       pedMat
@@ -918,7 +876,7 @@ function init(
     });
     gallery.add(art);
     ex.spinObj = art;
-    const label = textSprite(exName(ex), { px: 56 });
+    const label = textSprite(ex.label, { px: 56 });
     label.position.set(x, 3.35, -2);
     gallery.add(label);
     const hit = new THREE.Mesh(
@@ -1389,7 +1347,15 @@ function init(
   }
 
   type SceneName = "hall" | "gallery" | "journey";
-  function setScene(name: SceneName, ref?: Wing | JourneyView): void {
+  // Stop links: #objects, #objects/<exhibit>, #journey/<id>; the hall clears the hash.
+  function setHash(h: string): void {
+    try {
+      history.replaceState(null, "", h ? `#${h}` : location.pathname + location.search);
+    } catch {
+      /* sandboxed or file: URL — links just don't update */
+    }
+  }
+  function setScene(name: SceneName, ref?: Wing | JourneyView, stop?: number): void {
     fade.style.opacity = "1";
     window.setTimeout(
       () => {
@@ -1398,9 +1364,13 @@ function init(
         gallery.visible = name === "gallery";
         player.scene = name;
         player.target = null;
-        panel.classList.remove("show");
+        closePanel(false);
         journeyCard.classList.remove("show");
+        nearEx = null;
+        stopIdx = -1;
+        setHint(null);
         if (name === "hall") {
+          setHash("");
           player.pos.set(0, 1.7, 16);
           player.yaw = 0;
           player.pitch = 0;
@@ -1415,6 +1385,8 @@ function init(
           wingLabel.textContent = (t.gallery_sub || "{wing}")
             .replace("{wing}", wt)
             .replace("{tour}", t.hall_sub || "");
+          setHash(ref.id);
+          if (stop !== undefined && EXHIBITS[stop]) placeAtStop(stop);
         } else if (name === "journey" && ref && "lines" in ref) {
           const builder = JOURNEY_BUILDERS[ref.build];
           if (!builder) return;
@@ -1428,6 +1400,7 @@ function init(
           }
           if (built.sun !== undefined) sun.intensity = built.sun;
           if (built.hemi !== undefined) hemi.intensity = built.hemi;
+          setHash(`journey/${ref.id}`);
           player.pos.set(0, 1.7, 16);
           player.yaw = 0;
           player.pitch = 0;
@@ -1483,11 +1456,77 @@ function init(
     });
   }
 
+  // Label card: one stop at a time, "n of N" with previous/next. Focus moves into
+  // the card when it opens and returns to where it was when it closes.
+  // Western digits, as the record dates use.
+  const numFmt = { format: (n: number): string => String(n) };
+  let stopIdx = -1;
+  let panelReturn: HTMLElement | null = null;
   function showPanel(ex: Exhibit): void {
-    $("#panelTitle").textContent = exName(ex);
-    $("#panelDesc").textContent = exDesc(ex);
-    ($<HTMLAnchorElement>("#panelLink")).href = objectsHref;
+    stopIdx = EXHIBITS.indexOf(ex);
+    $("#panelCount").textContent = (t.stop_of || "{n} / {total}")
+      .replace("{n}", numFmt.format(stopIdx + 1))
+      .replace("{total}", numFmt.format(EXHIBITS.length));
+    $("#panelTitle").textContent = ex.label;
+    $("#panelMeta").textContent = [ex.date, ex.material, ex.museum].filter(Boolean).join(" · ");
+    $("#panelDesc").textContent = ex.desc;
+    ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
+    if (!panel.classList.contains("show")) {
+      const active = document.activeElement as HTMLElement | null;
+      panelReturn = active && active !== document.body && !panel.contains(active) ? active : null;
+    }
     panel.classList.add("show");
+    setHash(`objects/${ex.id}`);
+    if (!panel.contains(document.activeElement)) $("#panelTitle").focus({ preventScroll: true });
+  }
+  function closePanel(restore = true): void {
+    if (!panel.classList.contains("show")) return;
+    panel.classList.remove("show");
+    if (player.scene === "gallery") setHash("objects");
+    if (restore && panel.contains(document.activeElement)) {
+      (panelReturn && root.contains(panelReturn) ? panelReturn : renderer.domElement).focus({ preventScroll: true });
+    }
+    panelReturn = null;
+  }
+  // Stand in front of exhibit i and open its label.
+  function placeAtStop(i: number): void {
+    const n = EXHIBITS.length;
+    const ex = EXHIBITS[((i % n) + n) % n];
+    player.pos.set(ex.x, 1.7, 2.6);
+    player.yaw = 0;
+    player.pitch = 0;
+    player.target = null;
+    showPanel(ex);
+  }
+  function stepStop(delta: number): void {
+    if (player.scene !== "gallery" || !EXHIBITS.length) return;
+    placeAtStop(stopIdx < 0 ? (delta > 0 ? 0 : EXHIBITS.length - 1) : stopIdx + delta);
+  }
+
+  // Walking up to an exhibit offers its label (keyboard: Enter).
+  const hintEl = $("#hint");
+  const baseHint = (): string =>
+    (document.body.classList.contains("touch") ? t.hint_touch : t.hint_desktop) || "";
+  let nearEx: Exhibit | null = null;
+  function setHint(ex: Exhibit | null): void {
+    const touchUi = document.body.classList.contains("touch");
+    hintEl.textContent = ex
+      ? `${ex.label} · ${(touchUi ? t.near_prompt_touch : t.near_prompt) || ""}`
+      : baseHint();
+  }
+
+  const helpPanel = $("#helpPanel");
+  let helpReturn: HTMLElement | null = null;
+  function openHelp(): void {
+    helpReturn = document.activeElement as HTMLElement | null;
+    helpPanel.classList.add("show");
+    requestAnimationFrame(() => $("#helpTitle").focus({ preventScroll: true }));
+  }
+  function closeHelp(): void {
+    if (!helpPanel.classList.contains("show")) return;
+    helpPanel.classList.remove("show");
+    (helpReturn && root.contains(helpReturn) ? helpReturn : $("#helpBtn")).focus({ preventScroll: true });
+    helpReturn = null;
   }
 
   /* ---------------- journey chooser ---------------- */
@@ -1548,8 +1587,12 @@ function init(
   listen(window, "keydown", ((e: KeyboardEvent) => {
     if (e.key === "Escape") {
       // Escape closes open panels — focus is never trapped.
+      if (helpPanel.classList.contains("show")) {
+        closeHelp();
+        return;
+      }
       if (panel.classList.contains("show")) {
-        panel.classList.remove("show");
+        closePanel();
         return;
       }
       if (journeyPanel.classList.contains("show")) {
@@ -1562,6 +1605,18 @@ function init(
       }
       return;
     }
+    const onControl = !!(e.target as HTMLElement | null)?.closest?.("button, a, input, select, textarea");
+    if (player.scene === "gallery" && !e.altKey && !e.ctrlKey && !e.metaKey) {
+      if (e.key === "]") return stepStop(1);
+      if (e.key === "[") return stepStop(-1);
+      const digit = /^Digit([1-9])$/.exec(e.code);
+      if (digit && Number(digit[1]) <= EXHIBITS.length) return placeAtStop(Number(digit[1]) - 1);
+      if (e.key === "Enter" && !onControl && nearEx) {
+        e.preventDefault();
+        return showPanel(nearEx);
+      }
+    }
+    if (onControl && (e.code === "Space" || e.key === "Enter")) return;
     keys[e.code] = true;
     if (
       ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "Space"].includes(
@@ -1752,6 +1807,14 @@ function init(
       );
       if (player.pos.z > G_D / 2 - 2.4 && Math.abs(player.pos.x) < 3)
         setScene("hall");
+      let near: Exhibit | null = null;
+      for (const ex of EXHIBITS) {
+        if (Math.abs(player.pos.x - ex.x) < EX_GAP / 2 && player.pos.z < 4.5) near = ex;
+      }
+      if (near !== nearEx) {
+        nearEx = near;
+        setHint(near);
+      }
     } else {
       const r = Math.hypot(player.pos.x, player.pos.z);
       const max = 21;
@@ -1765,8 +1828,12 @@ function init(
   }
 
   /* ---------------- panel / journey UI wiring ---------------- */
-  listen($<HTMLButtonElement>("#panelClose"), "click", (() =>
-    panel.classList.remove("show")) as EventListener);
+  listen($<HTMLButtonElement>("#panelClose"), "click", (() => closePanel()) as EventListener);
+  listen($<HTMLButtonElement>("#panelPrev"), "click", (() => stepStop(-1)) as EventListener);
+  listen($<HTMLButtonElement>("#panelNext"), "click", (() => stepStop(1)) as EventListener);
+  listen($<HTMLButtonElement>("#helpBtn"), "click", (() =>
+    helpPanel.classList.contains("show") ? closeHelp() : openHelp()) as EventListener);
+  listen($<HTMLButtonElement>("#helpClose"), "click", (() => closeHelp()) as EventListener);
   listen($<HTMLButtonElement>("#journeyBtn"), "click", (() =>
     journeyPanel.classList.add("show")) as EventListener);
   listen($<HTMLButtonElement>("#journeyClose"), "click", (() =>
@@ -1813,7 +1880,23 @@ function init(
   player.yaw = 0;
   camera.position.copy(player.pos);
   camera.rotation.set(0, 0, 0);
+  renderer.domElement.setAttribute("role", "img");
+  renderer.domElement.tabIndex = 0;
+  renderer.domElement.setAttribute("aria-label", t.canvas_label || "");
   animate();
+
+  // Open at the stop named in the link, if any.
+  {
+    const [kind, id] = decodeURIComponent(location.hash.slice(1)).split("/");
+    const objectsWing = WINGS.find((w) => w.id === "objects")!;
+    if (kind === "objects") {
+      const i = EXHIBITS.findIndex((e) => e.id === id);
+      setScene("gallery", objectsWing, i >= 0 ? i : undefined);
+    } else if (kind === "journey") {
+      const j = data.journeys.find((x) => x.id === id);
+      if (j) setScene("journey", j);
+    }
+  }
 
   /* ---------------- teardown (Exit button) ---------------- */
   let exited = false;
@@ -1848,6 +1931,7 @@ function init(
     journeyPanel.classList.remove("show");
     journeyCard.classList.remove("show");
     panel.classList.remove("show");
+    helpPanel.classList.remove("show");
     $("#toast").classList.remove("show");
     enterCard.classList.remove("hide");
     enterBtn.disabled = false;
