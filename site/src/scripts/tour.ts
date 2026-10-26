@@ -2096,9 +2096,13 @@ function init(
   function handleTap(x: number, y: number): void {
     ndc.set((x / innerWidth) * 2 - 1, -(y / innerHeight) * 2 + 1);
     ray.setFromCamera(ndc, camera);
+    // Only objects still attached to the scene and in a visible room are targets.
     const shown = (o: THREE.Object3D | null): boolean => {
-      for (; o; o = o.parent) if (!o.visible) return false;
-      return true;
+      for (; o; o = o.parent) {
+        if (!o.visible) return false;
+        if (o === scene) return true;
+      }
+      return false;
     };
     const targets = interact
       .filter((i) => shown(i.obj))
