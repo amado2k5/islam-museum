@@ -140,3 +140,6 @@ Al-Suwaidan steered the women's-empowerment episode with polls — the standout:
 
 ## In 'Al-Wasatiyya' — the women-and-conventions episode
 Al-Suwaidan steered the Arab-woman-and-international-conventions episode, closing with his rule: take what lifts injustice from women, reject what collides with religion — 'and this is the wasatiyya' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## In 'Al-Wasatiyya' — the female-symbols episode
+Al-Suwaidan steered the episode on the scarcity of female symbols across history — stressing the aim was not to weaken woman but to explore how the barrier is broken {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.
