@@ -122,3 +122,6 @@ In the takfir sequel al-Suwaidan steered 'is the ruling open or closed' with thr
 
 ## In 'Al-Wasatiyya' — the wala' and bara' episode
 Al-Suwaidan steered the wala'-and-bara'-among-Muslims episode — the concept's most sensitive application — with several polls including disavowal of peace-with-Israel advocates (63%) and the need to regulate the concept (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. The episode distilled its rule: bara' from the act, not the person {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
+
+## In 'Al-Wasatiyya' — the human-rights episode
+Al-Suwaidan steered the Arab-world human-rights episode with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — the standouts: 69% judged the covenants worthless and only 9% endorsed international intervention.
