@@ -17,7 +17,7 @@ sources: [source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
 issue:
   ar: "هل يعاني شباب الأمة أزمة قراءة حقيقية، وما حجمها وأسبابها، وكيف تعالج؟"
 perspectives:
-- tradition: other
+- tradition: sunni
   id: crisis-in-numbers
   stance:
     ar: "أزمة موثقة بالأرقام — 5% من العالم و1% من كتبه"
@@ -26,8 +26,10 @@ perspectives:
   holders: []
   evidence:
   - ref: source/assabile-tareq-al-suwaidan
-    note: al-wassitiya ep19, 00:31:30-00:53:30
-- tradition: other
+    note:
+      ar: "الوسطية، الحلقة 19، 00:31:30–00:53:30"
+      en: "al-wassitiya ep19, 00:31:30-00:53:30"
+- tradition: sunni
   id: bad-writing-not-busyness
   stance:
     ar: "السبب الأكبر سوء الكتابة العربية لا الانشغال"
@@ -36,6 +38,8 @@ perspectives:
   holders: []
   evidence:
   - ref: source/assabile-tareq-al-suwaidan
-    note: al-wassitiya ep19, 00:36:00-00:42:00
+    note:
+      ar: "الوسطية، الحلقة 19، 00:36:00–00:42:00"
+      en: "al-wassitiya ep19, 00:36:00-00:42:00"
 provenance: { layer: copyrighted-reference, source: "Assabile, al-fawzu-al-moubeen (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-al-fawzu-1 }
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run omar-abdelkafy-al-fawzu-1; extended by Devin (SWE-2 High) run devin-tareq-al-suwaidan-wassitiya-19" }
