@@ -1,7 +1,8 @@
 # Objects-hall exhibits for the 3D tour (/{lang}/3d/). Each exhibit is a stop:
 # `build` picks the procedural mesh in site/src/scripts/tour.ts, `record` is the
 # object entity whose page the label links to and whose `made` date it shows.
-# Short labels and one-line descriptions are written from those records.
+# Short labels and one-line descriptions are written from those records and cite
+# the same sources (`sources`).
 status:
   review: published
 provenance:
@@ -13,6 +14,7 @@ exhibits:
   - id: astrolabe
     build: astrolabe
     record: object/astrolabe-umar-ibn-yusuf
+    sources: [source/met-open-access]
     label:
       ar: أسطرلاب عمر بن يوسف
       en: Astrolabe of Umar ibn Yusuf
@@ -32,6 +34,7 @@ exhibits:
   - id: manuscript
     build: manuscript
     record: object/mushaf-birmingham
+    sources: [source/wikidata]
     label:
       ar: مصحف برمنغهام
       en: Birmingham Qur'an manuscript
@@ -51,6 +54,7 @@ exhibits:
   - id: vase
     build: vase
     record: object/qarura-izniq
+    sources: [source/vam-collection]
     label:
       ar: قارورة إزنيقية
       en: Iznik bottle
@@ -70,6 +74,7 @@ exhibits:
   - id: dirham
     build: dirham
     record: object/duranir-andalusiyya
+    sources: [source/vam-collection]
     label:
       ar: دراهم أموية أندلسية
       en: Umayyad coins of al-Andalus
@@ -85,6 +90,7 @@ exhibits:
   - id: lamp
     build: lamp
     record: object/mosque-lamp-va-79400
+    sources: [source/vam-collection]
     label:
       ar: قنديل مسجد من مصر
       en: Mosque lamp from Egypt

@@ -19,7 +19,7 @@ const journeys = viewJourneys(loadJourneys(), lang);
 const exhibits = viewExhibits(loadExhibits(), lang).map((e) => {
   const n = byId.get(e.record);
   if (!n) throw new Error(`tour/exhibits.yaml: record ${e.record} is not in the graph`);
-  return { ...e, date: formatDate(n.data?.made, lang).text.replace(/†/g, ""), href: href(lang, e.record) };
+  return { ...e, date: formatDate(n.data?.made, lang).text, href: href(lang, e.record) };
 });
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 ---
