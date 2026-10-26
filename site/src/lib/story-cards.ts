@@ -21,6 +21,7 @@ export interface StoryCardFile {
   slug: string;
   title: Tri;
   lede: Tri;
+  sources: string[];
   cards: StoryCard[];
 }
 
@@ -39,6 +40,8 @@ export function loadStoryCards(slug: string): StoryCardFile {
   const d = parse(readFileSync(`${DIR}/${slug}.yaml`, "utf8")) as StoryCardFile;
   if (d.slug !== slug) throw new Error(`${where}: slug mismatch`);
   tri(d.title, `${where}: title`); tri(d.lede, `${where}: lede`);
+  if (!Array.isArray(d.sources) || d.sources.length === 0 || d.sources.some((s) => typeof s !== "string"))
+    throw new Error(`${where}: sources must be a non-empty list of source ids`);
   if (!Array.isArray(d.cards) || d.cards.length !== 12)
     throw new Error(`${where}: a story is exactly 12 cards`);
   d.cards.forEach((c, i) => {
