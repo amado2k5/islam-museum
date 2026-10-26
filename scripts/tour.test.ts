@@ -355,3 +355,31 @@ describe("3d tour: daytime look and lighter graphics", () => {
     }
   });
 });
+
+describe("3d tour: close-up viewer", () => {
+  const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+  const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+  const page = readFileSync("site/src/pages/[lang]/3d.astro", "utf8");
+  it("the I key, the closer link and every control are wired", () => {
+    expect(src).toContain('e.code === "KeyI"');
+    expect(src).toContain("/closer`");
+    expect(src).toMatch(/sub === "closer"/);
+    for (const id of ["closerLeft", "closerRight", "closerUp", "closerDown", "closerIn", "closerOut", "closerReset", "closerBack", "panelCloser"]) {
+      expect(comp, id).toMatch(new RegExp(`id="${id}"[^>]*>\\{t\\.\\w+\\}<`));
+      expect(src, id).toContain(`["${id}",`);
+    }
+  });
+  it("only stops with a model or an illustration get Look closer", () => {
+    expect(src).toMatch(/return !!ex && \(!!exhibitBuilders\[ex\.build\] \|\| !!ex\.art\)/);
+    expect(src).toContain('$("#panelCloser").hidden = !canCloser(ex)');
+  });
+  it("models say they are stand-ins and real photographs are only linked", () => {
+    expect(src).toContain("t.closer_note");
+    expect(page).toMatch(/photos: n\.data\?\.iiif_manifest \? href\(lang, e\.record\) : ""/);
+    expect(src).not.toMatch(/iiif|fetch\(/i);
+  });
+  it("the close-up scene is freed on close, scene change and exit", () => {
+    expect(src).toMatch(/function closeCloser[\s\S]*?disposeCloseScene\(\)/);
+    expect((src.match(/closeCloser\(false\)/g) || []).length).toBeGreaterThanOrEqual(2);
+  });
+});

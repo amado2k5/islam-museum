@@ -31,6 +31,7 @@ interface ExhibitData {
   href: string; // the record page
   art?: string; // framed site illustration URL; "" or absent = name plaque
   artAlt?: string;
+  photos?: string; // the record page, when it has zoomable museum photographs
 }
 
 interface TourData {
@@ -1638,6 +1639,7 @@ function init(
     }
   }
   function setScene(name: SceneName, ref?: Wing | JourneyView, stop?: number): void {
+    closeCloser(false);
     fade.style.opacity = "1";
     window.setTimeout(
       () => {
@@ -1781,6 +1783,7 @@ function init(
     $("#panelArt").textContent = ex.art ? [t.art_note, ex.artAlt].filter(Boolean).join(": ") : "";
     $("#panelDesc").textContent = ex.desc;
     ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
+    $("#panelCloser").hidden = !canCloser(ex);
     if (!panel.classList.contains("show")) {
       const active = document.activeElement as HTMLElement | null;
       panelReturn = active && active !== document.body && !panel.contains(active) ? active : null;
@@ -1859,6 +1862,174 @@ function init(
     (helpReturn && root.contains(helpReturn) ? helpReturn : $("#helpBtn")).focus({ preventScroll: true });
     helpReturn = null;
   }
+
+  /* ---------------- close-up viewer ---------------- */
+  // "Look closer": an exhibit's model alone in a small studio scene, or a stop's
+  // illustration full screen. Both are freed on close.
+  const closer = $("#closer");
+  const closerStage = $("#closerStage");
+  const closerImg = $<HTMLImageElement>("#closerImg");
+  const closeCam = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 0.05, 50);
+  let closeScene: THREE.Scene | null = null;
+  let closeObj: THREE.Object3D | null = null;
+  let closerEx: Exhibit | null = null;
+  let closerReturn: HTMLElement | null = null;
+  const cv = { yaw: 0, pitch: 0.15, zoom: 1, r: 1, panX: 0, panY: 0 };
+  const resetView = (): void => void Object.assign(cv, { yaw: 0, pitch: 0.15, zoom: 1, panX: 0, panY: 0 });
+  function canCloser(ex: Exhibit | null | undefined): ex is Exhibit {
+    return !!ex && (!!exhibitBuilders[ex.build] || !!ex.art);
+  }
+  const keepMats = new Set<THREE.Material>([brass, goldM, creamM, stoneMat]);
+  function disposeCloseScene(): void {
+    closeScene?.traverse((o) => {
+      const m = o as THREE.Mesh;
+      if (!m.isMesh) return;
+      m.geometry.dispose();
+      (Array.isArray(m.material) ? m.material : [m.material]).forEach((x) => {
+        if (!keepMats.has(x)) x.dispose();
+      });
+    });
+    closeCam.clear();
+    closeCam.removeFromParent();
+    closeScene = null;
+    closeObj = null;
+  }
+  function closerView(): void {
+    const z = numFmt.format(Math.round(cv.zoom * 10) / 10);
+    let text: string;
+    if (closeObj) {
+      const q = ((Math.round(cv.yaw / (Math.PI / 2)) % 4) + 4) % 4;
+      const side = cv.pitch > 0.6 ? t.closer_above : [t.closer_front, t.closer_side_r, t.closer_rear, t.closer_side_l][q];
+      text = (t.closer_view || "").replace("{side}", side || "").replace("{z}", z);
+    } else {
+      text = (t.closer_zoom || "").replace("{z}", z);
+      closerImg.style.transform = `translate(${cv.panX}px, ${cv.panY}px) scale(${cv.zoom})`;
+    }
+    $("#closerView").textContent = text;
+  }
+  function openCloser(ex: Exhibit): void {
+    if (!canCloser(ex)) return;
+    closeMap(false);
+    helpPanel.classList.remove("show");
+    closerEx = ex;
+    if (!closer.contains(document.activeElement)) closerReturn = document.activeElement as HTMLElement | null;
+    resetView();
+    disposeCloseScene();
+    const model = exhibitBuilders[ex.build] as (() => THREE.Object3D) | undefined;
+    if (model) {
+      closeScene = new THREE.Scene();
+      closeScene.background = new THREE.Color(P.bg);
+      closeScene.add(new THREE.HemisphereLight(0xfff6e0, 0x3a2c18, 1.1));
+      const key = new THREE.DirectionalLight(0xffffff, 1.6);
+      key.position.set(2, 3, 4);
+      closeScene.add(key);
+      // a soft light from the viewer, so every side turned to the front is lit
+      const fill = new THREE.PointLight(0xffffff, 1.1, 0, 0);
+      closeCam.add(fill);
+      closeScene.add(closeCam);
+      closeObj = model();
+      const box = new THREE.Box3().setFromObject(closeObj);
+      closeObj.position.sub(box.getCenter(new THREE.Vector3()));
+      cv.r = box.getSize(new THREE.Vector3()).length() / 2;
+      closeScene.add(closeObj);
+      closerImg.hidden = true;
+      closerImg.removeAttribute("src");
+    } else {
+      closerImg.src = ex.art || "";
+      closerImg.alt = ex.artAlt || "";
+      closerImg.hidden = false;
+    }
+    closer.classList.toggle("img", !model);
+    for (const id of ["closerLeft", "closerRight", "closerUp", "closerDown"]) $(`#${id}`).hidden = !model;
+    $("#closerTitle").textContent = ex.label;
+    $("#closerNote").textContent = model ? t.closer_note || "" : [t.art_note, ex.artAlt].filter(Boolean).join(": ");
+    const photos = $<HTMLAnchorElement>("#closerPhotos");
+    photos.hidden = !ex.photos;
+    if (ex.photos) photos.href = ex.photos;
+    closerView();
+    closer.classList.add("show");
+    root.classList.add("closing");
+    setHash(`${curWing.id}/${ex.id}/closer`);
+    requestAnimationFrame(() => $("#closerTitle").focus({ preventScroll: true }));
+  }
+  function closeCloser(restore = true): void {
+    if (!closer.classList.contains("show")) return;
+    closer.classList.remove("show");
+    root.classList.remove("closing");
+    disposeCloseScene();
+    closerImg.removeAttribute("src");
+    if (closerEx && player.scene === "gallery")
+      setHash(panel.classList.contains("show") ? `${curWing.id}/${closerEx.id}` : curWing.id);
+    closerEx = null;
+    if (restore)
+      (closerReturn && root.contains(closerReturn) && closerReturn.offsetParent ? closerReturn : renderer.domElement).focus({
+        preventScroll: true,
+      });
+    closerReturn = null;
+  }
+  const turn = (dy: number, dp: number): void => {
+    cv.yaw += dy;
+    cv.pitch = Math.max(-0.6, Math.min(1.2, cv.pitch + dp));
+    closerView();
+  };
+  const zoomBy = (f: number): void => {
+    cv.zoom = Math.max(1, Math.min(closeObj ? 3 : 4, cv.zoom * f));
+    if (cv.zoom === 1) cv.panX = cv.panY = 0;
+    closerView();
+  };
+  const pan = (dx: number, dy: number): void => {
+    if (cv.zoom === 1) return;
+    cv.panX += dx;
+    cv.panY += dy;
+    closerView();
+  };
+  const STEP = Math.PI / 8;
+  const closerCtl: Array<[string, () => void]> = [
+    ["closerLeft", () => turn(-STEP, 0)],
+    ["closerRight", () => turn(STEP, 0)],
+    ["closerUp", () => turn(0, 0.2)],
+    ["closerDown", () => turn(0, -0.2)],
+    ["closerIn", () => zoomBy(1.25)],
+    ["closerOut", () => zoomBy(0.8)],
+    ["closerReset", () => (resetView(), closerView())],
+    ["closerBack", () => closeCloser()],
+    ["panelCloser", () => EXHIBITS[stopIdx] && openCloser(EXHIBITS[stopIdx])],
+  ];
+  for (const [id, fn] of closerCtl) listen($(`#${id}`), "click", (() => fn()) as EventListener);
+  // Drag turns the model or moves the picture; two fingers or the wheel zoom.
+  const pts = new Map<number, { x: number; y: number }>();
+  let pinch = 0;
+  listen(closerStage, "pointerdown", ((e: PointerEvent) => {
+    closerStage.setPointerCapture(e.pointerId);
+    pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  }) as EventListener);
+  listen(closerStage, "pointermove", ((e: PointerEvent) => {
+    const p = pts.get(e.pointerId);
+    if (!p) return;
+    const dx = e.clientX - p.x;
+    const dy = e.clientY - p.y;
+    p.x = e.clientX;
+    p.y = e.clientY;
+    if (pts.size === 2) {
+      const [a, b] = [...pts.values()];
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (pinch) zoomBy(d / pinch);
+      pinch = d;
+      return;
+    }
+    if (closeObj) turn(dx * 0.008, dy * 0.006);
+    else pan(dx, dy);
+  }) as EventListener);
+  const lift = ((e: PointerEvent) => {
+    pts.delete(e.pointerId);
+    pinch = 0;
+  }) as EventListener;
+  listen(closerStage, "pointerup", lift);
+  listen(closerStage, "pointercancel", lift);
+  listen(closerStage, "wheel", ((e: WheelEvent) => {
+    e.preventDefault();
+    zoomBy(e.deltaY < 0 ? 1.1 : 0.9);
+  }) as EventListener, { passive: false });
 
   /* ---------------- overview map ---------------- */
   // A 2D plan with the entrance at the bottom (+x right, +z down). The drawing
@@ -2088,6 +2259,10 @@ function init(
   listen(window, "keydown", ((e: KeyboardEvent) => {
     if (e.key === "Escape") {
       // Escape closes open panels — focus is never trapped.
+      if (closer.classList.contains("show")) {
+        closeCloser();
+        return;
+      }
       if (mapPanel.classList.contains("show")) {
         closeMap();
         return;
@@ -2110,7 +2285,29 @@ function init(
       }
       return;
     }
+    // In the close-up view, arrows turn the model (or move the picture) and + / - zoom.
+    if (closer.classList.contains("show")) {
+      const k = e.key;
+      const arrows: Record<string, [number, number, number, number]> = {
+        ArrowLeft: [-STEP, 0, 40, 0],
+        ArrowRight: [STEP, 0, -40, 0],
+        ArrowUp: [0, 0.2, 0, 40],
+        ArrowDown: [0, -0.2, 0, -40],
+      };
+      if (arrows[k]) {
+        e.preventDefault();
+        const [y, p, x, v] = arrows[k];
+        return closeObj ? turn(y, p) : pan(x, v);
+      }
+      if (k === "+" || k === "=") return zoomBy(1.25);
+      if (k === "-" || k === "\u2212") return zoomBy(0.8);
+      return;
+    }
     const onControl = !!(e.target as HTMLElement | null)?.closest?.("button, a, input, select, textarea");
+    if (e.code === "KeyI" && !e.altKey && !e.ctrlKey && !e.metaKey && player.scene === "gallery") {
+      const ex = panel.classList.contains("show") ? EXHIBITS[stopIdx] : nearEx;
+      if (canCloser(ex)) return openCloser(ex);
+    }
     if (player.scene === "gallery" && !e.altKey && !e.ctrlKey && !e.metaKey) {
       if (e.key === "]") return stepStop(1);
       if (e.key === "[") return stepStop(-1);
@@ -2416,7 +2613,27 @@ function init(
     }
     updatePlayer(dt);
     if (mapPanel.classList.contains("show")) updateMapDot();
-    renderer.render(scene, camera);
+    if (closeScene) {
+      // Centre the model in the space above the control bar and fit it there:
+      // the camera frames a taller virtual view whose middle is that space.
+      const w = innerWidth;
+      const h = innerHeight;
+      const bar = Math.min($("#closerBar").offsetHeight + 14, h * 0.6);
+      const half = Math.tan(THREE.MathUtils.degToRad(20));
+      const fit = Math.min(Math.atan(half), Math.atan((half * w) / (h - bar)));
+      const d = ((cv.r / Math.sin(fit)) * 1.1) / cv.zoom;
+      closeCam.position.set(
+        Math.sin(cv.yaw) * Math.cos(cv.pitch) * d,
+        Math.sin(cv.pitch) * d,
+        Math.cos(cv.yaw) * Math.cos(cv.pitch) * d
+      );
+      closeCam.lookAt(0, 0, 0);
+      closeCam.fov = 2 * THREE.MathUtils.radToDeg(Math.atan((half * (h + bar)) / (h - bar)));
+      closeCam.aspect = w / (h + bar);
+      closeCam.setViewOffset(w, h + bar, 0, bar, w, h);
+      closeCam.updateProjectionMatrix();
+      renderer.render(closeScene, closeCam);
+    } else renderer.render(scene, camera);
     if (fpsWatch && !lite && !document.hidden) {
       // Measure frames between 1 s and 5 s after the first one.
       if (tsec > 1) fpsFrames++;
@@ -2443,11 +2660,12 @@ function init(
 
   // Open at the stop named in the link, if any.
   {
-    const [kind, id] = decodeURIComponent(location.hash.slice(1)).split("/");
+    const [kind, id, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
     const wing = WINGS.find((w) => w.id === kind);
     if (wing && stopsOf(wing.id).length) {
       const i = stopsOf(wing.id).findIndex((e) => e.id === id);
       setScene("gallery", wing, i >= 0 ? i : undefined);
+      if (sub === "closer" && i >= 0) window.setTimeout(() => openCloser(stopsOf(wing.id)[i]), 800);
     } else if (kind === "journey") {
       const j = data.journeys.find((x) => x.id === id);
       if (j) setScene("journey", j);
@@ -2465,6 +2683,7 @@ function init(
   function teardown(): void {
     if (exited) return;
     exited = true;
+    closeCloser(false);
     cancelAnimationFrame(raf);
     cleanups.forEach((fn) => fn());
     // Free GPU resources so a later re-entry starts clean.

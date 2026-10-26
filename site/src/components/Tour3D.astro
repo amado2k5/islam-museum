@@ -18,7 +18,9 @@
 //   enter_button, logo_alt, loading, failed,
 //   stop_of ("{n} / {total}"), stop_prev, stop_next, near_prompt, near_prompt_touch,
 //   help_button, help_title, help_walk, help_look, help_go, help_stops, help_esc, help_close, canvas_label,
-//   look_day, help_light, lite_label, lite_offer, lite_offer_btn
+//   look_day, help_light, lite_label, lite_offer, lite_offer_btn, help_closer,
+//   closer_button, closer_back, closer_note, closer_photos, closer_left/right/up/down/in/out/reset,
+//   closer_view, closer_zoom, closer_front, closer_side_r, closer_rear, closer_side_l, closer_above
 // halls: the other eight wings' stops (tour/halls.yaml), same shape as exhibits plus
 //   art/artAlt (an existing site illustration, or "" for a name plaque); t.art_note labels illustrations.
 // exhibits: Objects-hall stops from tour/exhibits.yaml, joined to their object records in 3d.astro.
@@ -92,6 +94,9 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTit
       <button type="button" id="panelNext">{t.stop_next}</button>
     </div>
     <div class="row">
+      <button type="button" id="panelCloser" aria-haspopup="dialog" aria-controls="closer" hidden>{t.closer_button}</button>
+    </div>
+    <div class="row">
       <a id="panelLink" class="more" href="#">{t.panel_more}</a>
       <button type="button" id="panelClose" class="close" aria-label={t.panel_close}>{t.panel_close}</button>
     </div>
@@ -109,6 +114,28 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTit
     <button type="button" id="jBack">{t.jc_back}</button>
   </div>
 
+  <div id="closer" role="dialog" aria-labelledby="closerTitle" aria-describedby="closerNote closerView">
+    <div id="closerStage"><img id="closerImg" alt="" hidden /></div>
+    <div id="closerBar">
+      <h2 id="closerTitle" tabindex="-1"></h2>
+      <p id="closerNote" class="note"></p>
+      <p id="closerView" class="note" aria-live="polite"></p>
+      <div class="ctl">
+        <button type="button" id="closerLeft">{t.closer_left}</button>
+        <button type="button" id="closerRight">{t.closer_right}</button>
+        <button type="button" id="closerUp">{t.closer_up}</button>
+        <button type="button" id="closerDown">{t.closer_down}</button>
+        <button type="button" id="closerIn">{t.closer_in}</button>
+        <button type="button" id="closerOut">{t.closer_out}</button>
+        <button type="button" id="closerReset">{t.closer_reset}</button>
+      </div>
+      <div class="row">
+        <a id="closerPhotos" class="more" href="#" hidden>{t.closer_photos}</a>
+        <button type="button" id="closerBack" class="close">{t.closer_back}</button>
+      </div>
+    </div>
+  </div>
+
   <div id="helpPanel" role="dialog" aria-labelledby="helpTitle">
     <h2 id="helpTitle" tabindex="-1">{t.help_title}</h2>
     <ul>
@@ -116,6 +143,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTit
       <li>{t.help_look}</li>
       <li>{t.help_go}</li>
       <li>{t.help_stops}</li>
+      <li>{t.help_closer}</li>
       <li>{t.help_map}</li>
       <li>{t.help_light}</li>
       <li>{t.help_esc}</li>
@@ -419,6 +447,57 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root[data-look="day"] #loading { background: #f1e6cf; color: #5a3d0c; }
 #tour3d-root[data-look="day"] #loading p { color: #3d3324; }
 #tour3d-root[data-look="day"] #fade { background: #f1e6cf; }
+/* ---------- close-up viewer ---------- */
+#tour3d-root #panel #panelCloser {
+  flex: 1; min-height: 44px; margin-bottom: 10px; cursor: pointer; background: rgba(212,160,23,.14); color: #f5d67b;
+  border: 1px solid #d4a017; border-radius: 10px; font-weight: 800;
+}
+#tour3d-root #panel #panelCloser[hidden] { display: none; }
+#tour3d-root[data-look="day"] #panel #panelCloser { background: #f5e3b3; color: #3d2a06; border-color: #a8741a; }
+#tour3d-root #closer { position: absolute; inset: 0; z-index: 35; display: none; }
+#tour3d-root #closer.show { display: block; }
+#tour3d-root.closing > :is(#hud, #joy, #panel, #strip, #toast, #journeyPanel) { visibility: hidden; }
+#tour3d-root #closer.img { background: #0b1424; }
+#tour3d-root #closerStage {
+  position: absolute; inset: 0; touch-action: none; cursor: grab; overflow: hidden;
+  display: flex; align-items: center; justify-content: center; padding-bottom: 180px;
+}
+#tour3d-root #closerImg { max-width: 92vw; max-height: 62vh; transform-origin: center; user-select: none; -webkit-user-drag: none; }
+#tour3d-root #closerBar {
+  position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%);
+  width: min(600px, calc(100vw - 20px)); max-height: 46vh; overflow-y: auto; box-sizing: border-box;
+  background: rgba(13,22,40,.95); border: 1px solid #d4a017; border-radius: 14px; padding: 12px 16px; color: #dbe4f5;
+}
+#tour3d-root #closerBar h2 { color: #f5d67b; font-size: 1.15rem; margin: 0 0 4px; }
+#tour3d-root #closerBar h2:focus { outline: none; }
+#tour3d-root #closerBar h2:focus-visible { outline: 3px solid #f5d67b; outline-offset: 2px; }
+#tour3d-root #closerBar p.note { color: #c9d3d6; font-size: .82rem; line-height: 1.6; margin: 0 0 6px; }
+#tour3d-root #closerBar p.note:empty { display: none; }
+#tour3d-root #closerBar .ctl { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+#tour3d-root #closerBar .ctl button {
+  flex: 1 1 auto; min-height: 40px; cursor: pointer; background: rgba(255,255,255,.06); color: #dbe4f5;
+  border: 1px solid #5a6a8a; border-radius: 10px; padding: 6px 10px; font-size: .85rem; font-weight: 700;
+}
+#tour3d-root #closerBar .ctl button:active { border-color: #d4a017; }
+@media (hover: hover) { #tour3d-root #closerBar .ctl button:hover { border-color: #d4a017; } }
+#tour3d-root #closerBar .row { display: flex; gap: 10px; }
+#tour3d-root #closerBar a.more {
+  flex: 1; text-align: center; background: #d4a017; color: #1a1206; border-radius: 10px;
+  padding: 10px; font-weight: 800; text-decoration: none;
+}
+#tour3d-root #closerBar .close {
+  flex: 1; min-height: 44px; cursor: pointer; background: transparent; color: #dbe4f5;
+  border: 1px solid #5a6a8a; border-radius: 10px; font-weight: 700;
+}
+#tour3d-root #closerBar :is(button, a):focus-visible { outline: 3px solid #f5d67b; outline-offset: 2px; }
+#tour3d-root[data-look="day"] #closer.img { background: #f1e6cf; }
+#tour3d-root[data-look="day"] #closerBar { background: rgba(251,247,238,.97); color: #2a2113; border-color: #a8741a; }
+#tour3d-root[data-look="day"] #closerBar h2 { color: #5a3d0c; }
+#tour3d-root[data-look="day"] #closerBar p.note { color: #4a3f2c; }
+#tour3d-root[data-look="day"] #closerBar :is(.ctl button, .close) { background: #fffaf0; color: #2a2113; border-color: #8a7a5c; }
+#tour3d-root[data-look="day"] #closerBar :is(button, a, h2):focus-visible { outline-color: #5a3d0c; }
+html[data-contrast="high"] #tour3d-root #closerBar { background: #0d1628; }
+html[data-contrast="high"] #tour3d-root[data-look="day"] #closerBar { background: #ffffff; }
 /* High-contrast preference: solid panels in both looks. */
 html[data-contrast="high"] #tour3d-root :is(#panel, #helpPanel, #mapPanel, #journeyPanel, #journeyCard, #toast) { background: #0d1628; }
 html[data-contrast="high"] #tour3d-root[data-look="day"] :is(#panel, #helpPanel, #mapPanel, #journeyPanel, #journeyCard, #toast) { background: #ffffff; }
