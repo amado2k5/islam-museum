@@ -72,11 +72,5 @@ He says the Prophet gave signs toward Abu Bakr but left the choice to the Compan
 - **other view: not yet sourced**: not yet attributed.
 :::
 
-## For Sprouts
-After the Prophet's death and before his burial, a party of the Ansar gathered to Sa'd ibn Ubada at the Saqifa of Banu Sa'ida in Medina; Abu Bakr, Umar and Abu Ubayda went to them, and the meeting ended in pledging to Abu Bakr, then a general pledge the next day.
-
-## For Explorers
-After the Prophet's death and before his burial a band of the Ansar drew aside to Sa'd ibn Ubada at the Saqifa of Banu Sa'ida; Ali, al-Zubayr and Talha kept apart in Fatima's house, and the rest of the Muhajirun gathered to Abu Bakr. Word came that the Ansar were with Sa'd and the matter unsettled, so they went. The details come from Umar's sermon in Medina on his last Hajj, told by Ibn Abbas from Abd al-Rahman ibn Awf — prompted by a man calling Abu Bakr's pledge 'a slip that got through'. Abu Bakr argued the Arabs would accept rule only from that clan of Quraysh, 'the middlemost of the Arabs'; the cry 'an emir from us and one from you' was answered until the meeting ended in pledging to Abu Bakr, then a general pledge the next day.
-
 ## For Scholars
 After the Prophet's death and before his burial a party of the Ansar gathered to Sa'd ibn Ubada at the Saqifa of Banu Sa'ida; Ali ibn Abi Talib, al-Zubayr and Talha kept apart in Fatima's house, and the rest of the Muhajirun drew to Abu Bakr with Usayd ibn Hudayr. A messenger told them the Ansar were with Sa'd and the Prophet had left the matter unsettled. The details come from Umar's sermon on his last Hajj, told by Ibn Abbas from Abd al-Rahman ibn Awf, prompted by a man calling the pledge 'a slip that got through'. The Ansar's speaker called them 'God's helpers and the battalion of Islam', saying the others meant 'to cut us from our root'; Umar had prepared a speech but Abu Bakr said every word of it or better. Abu Bakr argued the Arabs would accept rule only from that clan of Quraysh, 'the middlemost of the Arabs in lineage and location', taking the hands of Umar and Abu Ubayda — the one thing Umar disliked, preferring beheading to ruling a people among whom was Abu Bakr. Whoever pledges without the Muslims' consultation has no pledge, he said. The meeting ended in pledging to Abu Bakr, then a general pledge the next day.
