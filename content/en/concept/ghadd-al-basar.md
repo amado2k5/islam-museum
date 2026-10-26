@@ -21,3 +21,28 @@ The Sheikh holds that a passing thought should be rejected from the start. If it
 
 ## Insight of the heart
 The Sheikh says that whoever lowers his gaze, God gives him insight (needs_source: the saying is not sourced in the recording). {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:30:30}
+
+## Guarding the gaze among speech, steps and thoughts
+The Sheikh says that scholars warned about four things: speech, the gaze, the steps and the thoughts. He cites the hadith of the night journey, in which a large bull is seen coming out of the eye of a needle and cannot return, and says that a spoken word cannot be taken back. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:24:00}
+
+## Lowering the gaze as insight and trust
+The Sheikh refers to the Qur'anic command to believers to lower their gaze, and says the gaze must avoid what is forbidden and must not be used to look down on people. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:15:00}
+He says that lowering the gaze brings insight and a sense of God's presence, and notes that the Qur'anic address covers believing men and women. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:15:30}
+He cites a hadith on theft from one's prayer, and says that lowering the gaze is also a trust. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:05:30}
+
+## Looking at people and their faults
+The Sheikh criticises looking down on people for their class, rank or status. He says that Islam equalises people and that only piety distinguishes them. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:12:30}
+He cites a verse that warns against dwelling on the worldly goods that others have, and says that God's provision is better and more lasting. He says that whoever is dazzled by the wealthy has lost two-thirds of his faith (needs_source: the fraction given by the speaker is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:13:00}
+He quotes the sages: whoever wants a friend without fault must live alone, and since everyone has faults, people should be judged by balance. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:27:30}
+He cites a hadith about a man who looked through a gap in a door into a house, and the hadith shows strong disapproval of his act. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:35:30}
+
+## Screens and the gaze
+The Sheikh criticises children who sit before the television for hours. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:17:00} He says that eye doctors hold that an hour before a screen equals eight hours of reading (needs_source: the speaker attributes this figure to doctors and it is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:17:00}
+He says that the eyes should be used for what benefits, warns children against wasting their gaze on the internet, and holds that using useful information is a form of obedience. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:16:30}
+
+## The speaker's view: the gaze at home and outside
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: He criticises the husband who looks at other women in front of his wife, and the husband who threatens to take another wife. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:28:30} He urges men to lower their gaze, says a woman should dress modestly when she goes out, and holds that each person's gaze is a trust. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:06:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::

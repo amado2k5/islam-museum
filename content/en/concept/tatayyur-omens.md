@@ -18,3 +18,9 @@ A good omen is lawful; it is hope in God, while tiyara is ill opinion of God, an
 
 ## Reference
 The detail is in the entry on evil omen (shu'm). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5348}
+
+## Tatayyur in the speaker's account
+The speaker describes the omens the Arabs took from birds before Islam, by the direction in which the bird flew, and says that Islam replaced them with the prayer of istikhara. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:04:30}
+
+## The speaker's view: superstition and the renewal of the nation
+The speaker says that Muslims should stop laughing at people and give up the superstitions that hold the nation back, while other nations build their societies and cure their diseases; religion, he says, addresses enlightened minds. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:31:00} He says that the nation's renewal is not achieved by sorcery, by asking about someone's mother, or by claims that an uncle of someone envies him, and that the Companions did not resort to any of these. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:33:00}

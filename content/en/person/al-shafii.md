@@ -35,3 +35,37 @@ Abu Abdullah Muhammad ibn Idris al-Shafi'i (150–204 AH), the imam of the Shafi
 
 ## For Scholars
 Muhammad ibn Idris al-Shafi'i al-Qurashi al-Muttalibi (150–204 AH) is the imam of the Shafi'i school and the first to compose a separate book on legal theory. Born in Gaza, he was brought to Mecca as a child, memorized the Qur'an and the Muwatta, and travelled for hadith between the Hijaz, Iraq and Yemen; he kept close to Malik in Medina until his death, and argued with the Hanbalis, Muhammad ibn al-Hasan and the Iraqis, taking and replying. He settled in Baghdad then Egypt, where his school took its final form and he dictated the 'new' versions of his books. His works include al-Risala — the first known written treatise on usul al-fiqh — al-Umm, the Mukhtasar of al-Muzani and the Sunan, and fine verses on asceticism are told of him. He laid a method joining the people of hadith and opinion, building on Book, Sunna, consensus and analogy; among his students are al-Rabi' al-Muzani and al-Buwayti. He died in Fustat in 204 AH and is buried there, and his school spread through Egypt, Syria, Yemen and Southeast Asia.
+
+## From Sheikh Omar Abdelkafy's lectures: Memorisation and sin
+
+The Sheikh recounts that al-Shafi'i lost his memorisation after glancing at a woman and regained it after repentance; he would cover the left-hand page while memorising, and the Sheikh applies this to students (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:19:30} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep04 00:19:30}
+
+## From Sheikh Omar Abdelkafy's lectures: Verse and attributed sayings
+
+He quotes verses by al-Shafi'i on envy and on God's giving (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:21:00}
+
+He quotes a saying attributed to al-Shafi'i in which he thanks God for giving him Islam without his asking, and asks for paradise (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:31:30}
+
+He says that in prisons people say they are free, and at graves one remembers that life endures; he cites a verse attributed to al-Shafi'i on holding fast to a sincere friend (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:35:00}
+
+He recites a verse of Imam al-Shafi'i: he loves the righteous though he is not one of them, hoping to share their intercession, and he dislikes those who trade in sins. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:35:00}
+
+He quotes al-Shafi'i saying that a free person, when found, should be held on to, because free people are few (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:26:00}
+
+## From Sheikh Omar Abdelkafy's lectures: Calm in prayer
+
+He cites a hadith about the man who prayed hastily and was told to pray with calm, and he says that the school named after al-Shafi'i counts calm in bowing and prostration as a pillar of prayer (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:16:00}
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The Sheikh criticises the raising of children to hurry (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:16:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::
+
+## From Sheikh Omar Abdelkafy's lectures: Knowledge and fairness
+
+He describes Imam al-Shafi'i as having filled the earth with knowledge, as the founder of the principles of jurisprudence, as from the Quraysh, and as a student of Malik, who was himself a teacher of Ahmad ibn Hanbal, as the Sheikh puts it (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:02:30}
+
+He mentions illnesses that families conceal, and recounts the story of Imam al-Shafi'i who disclosed a defect in goods he sold, and he gives a figure for the sale price (needs_source: the figure is not clear in the transcript). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:25:30}
+
+He asks listeners to write down "the eight" that he mentions, and he praises the wisdom of al-Shafi'i's sayings (needs_source: what "the eight" are is not clear in the transcript). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:05:30}

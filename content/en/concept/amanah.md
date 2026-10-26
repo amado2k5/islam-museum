@@ -32,3 +32,37 @@ He says that money and self are a trust held by a person; he asks who wastes the
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From the series Al Naba Al Safi: speech as a trust
+The Sheikh cites a saying that a single word can weigh a person down or lift him up, and treats speech as a trust that is weighed. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:00:30}
+He warns that the tongue can bring its owner to ruin, and he treats false witness and false oaths as grave. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:18:00}
+
+## Secrets, homes and gatherings
+The Sheikh cites a saying that among the gravest betrayals is a spouse telling the other's private matters to outsiders, and he says that this applies to husbands as much as to wives. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:22:00}
+He holds that homes and gatherings have their secrets, and that a person should not carry the news of a gathering outside it. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:23:00}
+He advises a husband to guard his wife's secrets and honour, and to be cheerful at home rather than frowning over his work. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:21:30}
+He says that what is shared in a gathering is a trust, and that only useful knowledge may be repeated. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:07:30}
+He cites a saying that among the greatest betrayals is a husband confiding a secret to his wife and her spreading it, and he gives the wives of Noah and Lot as examples of betraying secrets. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:08:00}
+The speaker's view is that people should be left to worship God and live as they choose, and that interrogating people about their private matters pushes them to lie. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:09:30}
+
+## Trust in office
+The Sheikh recounts that Umar sent away a man who sought office, and later found him on all fours with his children on his back. Umar said that one who is not merciful at home cannot be merciful to the public (needs_source: the anecdote is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:05:30}
+He recounts that Umar ibn Abd al-Aziz, on taking office, asked people not to praise him or approach him with flattery. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:13:00}
+He says that zakat is a duty, that the trust also covers office and administration, and that a manager is answerable for those under him. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:12:30}
+He says that blessings and office depart from rulers who do not fear God or who use their position for their own gain, and that the rights of the weak must be restored. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:14:30}
+He cites a saying that the loss of trust is a sign of the Hour, and says that trust is wider than the keeping of money. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:03:00}
+He recounts a saying about one who lost his trust and is thrown into a pit of the Fire at the bridge. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:17:00}
+He says that provision comes from God and not from a department or a salary office, and cites a verse (sura not named) that provision is in heaven. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:18:00}
+The speaker's view is that the trust of the media is among the greatest trusts. Those who run it should invite people who keep nations safe, avoid stirring up sects, and unite rather than divide. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:40:00}
+
+## Trust in worship
+He cites a verse (sura not named) about the trust offered to the heavens, the earth and the mountains, which declined to carry it, and which humans took up. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:03:30}
+He explains the trust as worship of God, by keeping His commands and avoiding His prohibitions, and says that the heavens and the earth said they came in obedience without being ordered. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:04:00}
+He says that acts of worship such as ablution and humility in prayer are trusts. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:05:00}
+
+## Trust of self and property
+He says that the believer is responsible for upholding and practising his religion, and that everything given to him is a trust. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:08:00}
+He says that when God takes a part of the body, the believer who sees the owner's right to take should not grieve. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:08:30}
+He cites a saying that a people who do not keep God's blessings close will lose them, and that once lost they rarely return. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:16:00}
+He says that keeping people's money, secrets and honour makes a person safe, and that a Muslim is one from whose tongue and hands people are safe. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:17:30}
+He recounts that Jabir's wife returned a deposit to its owners the same morning, and he praises her faith (needs_source: the story is not sourced in the recording, and part of the account is unclear). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:18:00}

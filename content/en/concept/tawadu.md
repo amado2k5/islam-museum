@@ -38,3 +38,28 @@ The Sheikh depicts a scene of young men each boasting of his father, in which th
 He then cites lines of verse about graves, in which the poet reflects that the ground he walks on is made of the remains of people, and says he asked himself among the graves where rest and safety lie, and was answered by what he saw of worms playing in the eye sockets of the dead (the Sheikh's own use of the poem to teach humility) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:57:00}.
 
 The verses end by saying that the slave and the king are equal in the grave; the Sheikh then says everyone here is waiting for permission to go to God, and returns to his account of Musa and Harun, who were sent to Pharaoh {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:57:30}.
+
+## The speaker's view: humility and arrogance
+He hopes to see humble people, and defines arrogance as despising the opinions of others and believing oneself the cleverest and best. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:18:00}
+
+He says that the more God's blessing grows upon a person, the more humble he should become, and he criticises those who boast of knowledge, wealth or status. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:41:30}
+
+He compares boasting about wealth to the conduct of a wealthy uncle towards his orphaned nephews, and notes that the man of wealth forgot that God gave him what he owns. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:19:00}
+
+He holds that arrogance toward others is a serious flaw, even in people who call themselves Muslim. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:17:00}
+
+He criticises the arrogant person who believes he is of a different substance and a different mind from other people. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:26:00}
+
+## Humility before God and in need
+He cites a Qur'anic passage that help came when the believers were in a state of weakness and humbling, and says that a sick person should be humble before God, since humility is a door through which prayers are answered. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:22:00}
+
+He says the ignorant take the modest needy for the rich, that investigating their cases and giving to them with dignity is better, and he cites a Qur'anic verse on the modest. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:43:30}
+
+## From the Prophet's life and the sayings of the early generations
+He cites a hadith that modesty is part of faith, and that every religion has a character, the character of Islam being modesty. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:32:00}
+
+He cites a hadith that all people descend from Adam; he recounts the humility of Umar ibn Abd al-Aziz when a man addressed him, and says humility raises a person in the eyes of others. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:04:00}
+
+He says the Prophet had no fixed seat and sat wherever the gathering ended; a Bedouin visitor openly asked which of them was Muhammad. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:19:00}
+
+He says humility is something practised rather than only spoken, and cites a saying of al-Shafi'i that he wished God would show the truth through the other person's tongue (needs_source: the saying attributed to al-Shafi'i). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:25:30}

@@ -32,3 +32,27 @@ The Sheikh cites a saying in which the Prophet says that he does not fear povert
 The Sheikh holds, as his own opinion, that worldly fortune is divided as a test and the fortune of the Hereafter as a reward, and that success must be met with gratitude {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:45:00}. He describes the world, for those who seek it, as a carcass, while the righteous see it for what it is {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:30}.
 
 The Sheikh holds, as his own view, that when the Companions honoured the Hereafter the world served them rather than ruling them, and that a person should use the world rather than serve it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:49:00}. He quotes the saying: "O world, serve whoever serves you" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:51:00}.
+
+## From the series Al Naba Al Safi: the swift passing of time
+The Sheikh says that time has several properties, and that the first is its swift passing. He cites a hadith that the removal of blessing from time is a sign of the Hour. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:04:30}
+He presents swift passing as the first property of time, promises to discuss the others later, and says that its speed is a sign of the Hour's nearness without meaning that people should give up their work. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep07 00:07:30}
+
+## The world is a house of trial, not of rest
+The Sheikh says that the world is a house of test, not a house of honour, and that people are tested so that it may be seen who gives thanks and who is patient. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:11:30}
+He says the world is no place of rest. He cites a saying that a son of Adam who had a valley of gold would want a second, and he likens love of the world to seawater, which only increases thirst. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:21:00}
+He likens the world to the passing shade of a traveller who rests under a tree, and says that trials are met with thanks because one's faith is intact. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:04:30}
+He cites a verse that thanks God for removing sorrow, and says that there is no sorrow in Paradise. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:16:30}
+
+## The world as a loan, not a possession
+He says that scholars called the world a loan to be returned, like a borrowed book, and that God lends a person his life, his wealth and his health. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:07:30}
+He says that people speak of owning land, cars and money as though these were theirs, and that this is a manner of speech. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:05:30}
+He recounts a saying that people left the world without tasting its sweetest part, which is contentment with God. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:23:00}
+He says that the greedy person is never satisfied by the world. Like one who drinks seawater, he drinks more and thirsts more. Blessing comes from God, so one should spend on others. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:11:30}
+
+## The speaker's view: joy and grief in the world
+The speaker's view is that the blameworthy joy is worldly joy linked to pride and boasting, and that it is not the same as a smile or happiness. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:11:00}
+He warns against being deceived by the world's smiles or grieving over its frowns, and calls this alternation a sunna of God who gives provision to whom He wills. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:01:30}
+He says there is no good in grieving over youth that has passed, and raises a question about why the early generations endured while later ones did not. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:09:00}
+
+## The speaker's view: wealth and zakat
+The Sheikh says that 24 percent of the world's poor live in Muslim countries because wealthy people withhold zakat (needs_source: the figure is not sourced in the recording), and that large fortunes need to be audited. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:27:00}

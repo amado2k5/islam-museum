@@ -87,3 +87,39 @@ In the thirteenth episode he holds that religion is easy but people have complic
 On [[concept/huquq-wal-wajibat|rights and duties]], he holds that the loss of rights stands in the way of al-Fawz al-Mubin. He calls the viewer to consider what others are owed according to one's role, such as son, father, husband, neighbour and employer. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep08 00:00:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep08 00:48:00}
 
 He speaks of his own experience in America in the 1970s and 1980s, when hotel signs urged that life is worth more than money. He sees in Mecca a spiritual safety in which the pilgrim feels at ease in worship (needs_source: personal-recollection). {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep12 00:40:00}
+
+## The series Al Naba Al Safi: an overview
+The Assabile index lists the series Al Naba' Al Safi among its video series, with 24 lessons. {cite:assabile-omar-abdelkafy series-list}
+
+In the first episode a caller says that music channels are no real threat, but religious programmes should not feature disputes or become a platform for argument. This is the caller's view, not the Sheikh's. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep01 00:38:00}
+
+In the eleventh and twelfth episodes the Sheikh tells the story of Hatim and his eight lessons. He says Hatim stated that he learned only eight things (needs_source: Hatim's statement of how many things he learned), and that the first is that every person has something he loves. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:07:00}
+
+The third lesson concerns people who gather wealth by any means, lawful or unlawful. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:18:00}
+
+On the lesson of trust in God's provision, he summarises that Hatim saw people hoarding worldly goods and taught contentment, because what is with God endures. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:26:30}
+
+The fifth lesson is that people envy and backbite one another; since division is by God, one should neither envy nor hate others. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:33:00} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:37:00}
+
+He cites a Qur'anic verse that the provision of every creature on earth is with God, and says people kill one another over provision that is already written. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:40:30}
+
+He closes the lessons by saying that Shaqiq told Hatim to go and teach what he had learned, and he sums up the eight lessons. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:44:30} In the twelfth episode he summarises the lessons: sovereignty belongs to God and what people hold of it is temporary; life and wealth are trusts; and the Hereafter belongs to God alone. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:43:30}
+
+## The speaker's view: positions and criticism in the lessons
+These are the Sheikh's own views and criticisms as they appear in the lessons; each is attributed to him alone.
+
+He holds that disputes multiply among people: he describes cases in courts and police stations over divorce, theft and property, and says people have become enemies of one another. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:37:30}
+
+He says people waste their time quarrelling with one another and over minor matters, and that the real enemy is Satan. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:39:00}
+
+He holds that people rely on uncles, relatives and officials, while Hatim relies on God alone. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:42:30}
+
+He holds that religious lessons are worthless unless they benefit the community. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:09:30}
+
+He offers a view he presents as weak: that a person who wants to change wrong should change it within his own sphere, for example by founding a school or institution on his own method, and not by force or destruction. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:43:00}
+
+:::perspectives
+- **Sunni view (not yet sourced)**: The Sunni position on this question has not yet been sourced.
+- **The speaker's view (personal opinion)**: The Sheikh holds that wrong is changed within one's own sphere, by founding a school or institution on one's method rather than by force or destruction, and he presents this as a weak view. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:43:00}
+- **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
+:::

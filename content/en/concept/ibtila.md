@@ -23,3 +23,29 @@ The Sheikh explains that the original sense of fitna is putting a piece of gold 
 He relates that the Companions asked the Prophet to pray for them, and that he told them one of those before them would be sawn from the parting of his hair to his heels and it would not turn him from saying there is no god but God; the Sheikh asks whether we took the religion with such hardship {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:32:30}.
 
 He recounts from Sa'd about the expedition to Tabuk that they marched until they ate the qatad, a thorny desert tree, and when their provisions ran out they would pound its thorns with stones, swallow them and drink water over them {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:33:00}.
+
+## The speaker's view: the world as a house of trial
+He says that the world is a house of trial, not of honour, and that people are tested to see who gives thanks and who is patient. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:11:30}
+He likens God's trial to a loving father's surgery on his child, which the child may see as harm but which is mercy. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:18:00}
+He holds that trial comes from the Creator, the Wise, the All-Knowing, who lifts it only by His decree. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:27:00}
+He says that God tests a servant in order to bring him back to Himself, and contrasts this with Pharaoh's arrogance. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:28:30}
+
+## The speaker's view: rejoicing in trial and degrees of gratitude
+He tells every afflicted person not to think that he alone is afflicted, to rejoice in trial as nearness to God, and to know that the angels say amen to his prayer. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:38:00}
+He cites a hadith that the prophets are tested most, then the righteous, and that trial is in proportion to a person's faith. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:08:00}
+He distinguishes the one who gives thanks in ease from the one who gives thanks in trial, and holds the second to be of higher rank. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:18:30}
+He holds that the portions are apportioned in advance, and that the rich are tested with gratitude and the poor with patience. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:35:30}
+He says that God tests people with wealth and poverty, health and illness, and that calamities may remove sins. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:21:30}
+He says that life never lacks the alternation of ease and hardship, so one should thank God in ease and be patient in hardship. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:01:00}
+
+## The speaker's view: illness and trial
+He calls the belief that illness brings death closer, and that health keeps it away, a mistaken belief. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:03:00} He says that illness does not bring death, and that the afflicted should rejoice in God's favour and know that God loves him. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:38:30}
+He says that the illness of a relative brings the family together, so that those who were separated draw close and visit the sick. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:14:00}
+He says that a child's illness may be a test or a purification, and that a parent should not assume the illness is the final word. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:21:30}
+He cites a hadith on visiting the sick, in which the visitor is enveloped in mercy. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:20:00}
+He says that the sick person is nearer to God, and cites a hadith that one should supplicate with humility rather than with conditions. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:26:30}
+
+## The speaker's view: trials of everyday life
+He lists the trials of everyday life: a disobedient child, a spouse with a harsh tongue, a difficult neighbour, and an oppressive boss. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:25:30}
+He mentions the trials people face from others' tongues, from unjust employers, and from neighbours who hide good and spread evil. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
+He holds that a narrowed livelihood teaches a person to call on God, unlike a secure salary, which makes its owner forget his Lord. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
