@@ -95,3 +95,6 @@ In the opening of his programme 'Al-Mubdi'un', al-Suwaidan says he lived with th
 
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
+
+## The 'Al-Wasatiyya' programme — its method
+For the first episode on 'Islamophobia' al-Suwaidan hosted experts resident in the West — Adel Darwish, Azzam al-Tamimi, Oraib al-Rantawi, Emad Hussein, Ali al-Sawa and researcher Nur Issa — running the debate by his method: audience votes on the phenomenon, then its greatest cause, then Arab media's role {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:45:30}. The results: 51% judged it real; 55% named 'Jewish fingers' the greatest cause — surprising him; and 57% saw Arab media improving {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:49:30}.

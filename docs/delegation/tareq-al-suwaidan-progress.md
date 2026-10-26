@@ -53,7 +53,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep26 | 0:25:53 | al-farabi ext ×3 | — | — | 1 misquote flagged (death 950->339 AH) | person ext + sources | ~22 cited windows | f8fb680bf (PR #2128) |
 | al-mubdioune/ep27 | 0:26:22 | ibn-sina ext ×3 | — | — | — | person ext + sources | ~30 cited windows | 09674745f (PR #2132) |
 | al-mubdioune/ep28 | 0:26:11 | al-ghazali-abu-hamid ext ×3 (pt 1) | — | — | — | person ext + sources | ~28 cited windows | 4dfceab68 (PR #2134) |
-| al-mubdioune/ep29 | 0:25:55 | al-ghazali-abu-hamid ext ×3 (pt 2) | — | — | — | person ext | ~26 cited windows | pending |
+| al-mubdioune/ep29 | 0:25:55 | al-ghazali-abu-hamid ext ×3 (pt 2) | — | — | — | person ext | ~26 cited windows | d2bde39d6 (PR #2139) |
+| al-wassitiya/ep01 | 1:21:33 | islamufubiya NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -78,6 +79,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-01` — al-wassitiya ep01 (الوسطية panel show! ep01=Islamophobia: NEW concept/islamufubiya with 3 panel perspectives + tariq ext; votes 51% real / 55% jewish-fingers surprise / 57% arab-media-improving; Runnymede origin, Crusade-committee quote, US stats 2%/10%/25%).
 - `devin-tareq-al-suwaidan-mubdioune-29` — al-mubdioune ep29 (al-ghazali pt2: Munqidh-style crisis narrative, tongue bound, 11-year seclusion, Nizamiyya return under Fakhr al-Mulk, Tus khanqah, Fada'ih al-Batiniyya 487 AH commission, the doubt-method to certain knowledge). SERIES COMPLETE 29/29.
 - `devin-tareq-al-suwaidan-mubdioune-28` — al-mubdioune ep28 (al-ghazali pt1: closing figure, the praying father, the highwayman's lesson, Nizamiyya/Juwayni 'drowning sea', Baghdad chair at 34, the four-sect quest, doubt, 10-year seclusion, Ihya begun at Dome of the Rock).
 - `devin-tareq-al-suwaidan-mubdioune-27` — al-mubdioune ep27 (ibn-sina ext: Safar 370 birth, rejects Isma'ili family creed, medicine at 16 'not a hard science', Metaphysics 40x -> al-Farabi key, mosque prayer when stuck, Mansur b. Nuh cure -> library, hidden retreat at Ibn Ghalib's, Jubba'i language challenge, medical firsts, education theory, Qanun to 17th c., death 428 self-refusal).

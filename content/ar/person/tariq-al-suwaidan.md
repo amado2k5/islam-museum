@@ -95,3 +95,6 @@ translators: []
 
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.
+
+## برنامج «الوسطية» — أسلوب البرنامج
+استضاف السويدان في حلقته الأولى عن «الإسلاموفوبيا» نخبة من المقيمين في الغرب — عادل درويش وعزام التميمي وعريب الرنتاوي وعماد حسين وعلي صوا والباحثة نور عيسى — وأدار النقاش بطريقته: تصويت الجمهور على الظاهرة ثم على سببها الأكبر ثم على دور الإعلام العربي {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:45:30}. وكانت النتائج: 51% يرون الظاهرة حقيقية، و55% يرون «الأصابع اليهودية» سببها الأكبر — ما فاجأه — و57% يرون الإعلام العربي في تحسن {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:49:30}.
