@@ -1,0 +1,49 @@
+id: person/hassanein-makhlouf
+class: person
+label: { ar: "حسنين محمد مخلوف", en: "Hassanein Muhammad Makhlouf", ur: "حسنین محمد مخلوف" }
+names:
+  - { value: "حسنين محمد مخلوف", kind: full }
+  - { value: "Hassanein Muhammad Makhlouf", kind: full }
+gender: male
+summary:
+  ar: "عالم أزهري مصري (1890–1990)؛ وُلد في القاهرة في أسرة من بني عدي بصعيد مصر، وتخرج في مدرسة القضاء الشرعي سنة 1914، وعمل قاضيًا شرعيًا، وتولى منصب مفتي الديار المصرية مرتين (1946–1950 و1952–1954)، ورأس لجنة الفتوى بالأزهر، ومن مؤلفاته «كلمات القرآن تفسير وبيان» و«صفوة البيان لمعاني القرآن»."
+  en: "Egyptian Azhari scholar (1890–1990). Born in Cairo to a family from Bani Adi in Upper Egypt, he graduated from the School of Sharia Judiciary in 1914, served as a sharia judge, held the office of Grand Mufti of Egypt twice (1946–1950 and 1952–1954), headed al-Azhar's fatwa committee, and wrote Kalimat al-Qur'an Tafsir wa-Bayan and Safwat al-Bayan li-Ma'ani al-Qur'an."
+  ur: "مصری ازہری عالم (1890–1990)؛ قاہرہ میں پیدا ہوئے، ان کا خاندان صعید مصر کے بنی عدی سے تھا، 1914 میں مدرسہ قضائے شرعی سے فارغ ہوئے، شرعی قاضی رہے، دو بار مفتیِ دیارِ مصر بنے (1946–1950 اور 1952–1954)، الازہر کی لجنۃ الفتویٰ کی صدارت کی، اور ان کی تصانیف میں «کلمات القرآن تفسیر و بیان» اور «صفوۃ البیان لمعانی القرآن» شامل ہیں۔"
+roles: [scholar, jurist]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1890-05-06"
+  hijri: "1307"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bab al-Futuh, Cairo, on 16 Ramadan 1307 AH / 6 May 1890; his family came from Bani Adi (Manfalut, Asyut) in Upper Egypt. The Hijri date is given by the Arabic article itself; the year conversion is derived."
+  sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikidata-hassanein-makhlouf]
+died:
+  edtf: "1990-04-15"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 19 Ramadan 1410 AH / 15 April 1990. The Hijri date is given by the Arabic article itself; the year conversion is derived."
+  sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikidata-hassanein-makhlouf]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-hassanein-makhlouf-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-hassanein-makhlouf-ar] }
+  - { type: student_of, target: person/muhammad-bakhit-mutii, sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikipedia-hassanein-makhlouf-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a legal school for him personally. The Arabic article gives his Azhar education, his sharia judgeship and his two terms as Grand Mufti of Egypt — offices that do not attest a school; its only Maliki passage describes the townsman Ali al-Sa'idi al-Adawi, not Makhlouf. The Urdu article's infobox religion field is blank, and Wikidata's single religion value is 'Islam' with no school. His teacher Muhammad Bakhit al-Muti'i's school is likewise not transferable."
+    sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikipedia-hassanein-makhlouf-ur, source/wikidata-hassanein-makhlouf]
+external_ids: { wikidata: "Q12208062" }
+sources: [source/wikipedia-hassanein-makhlouf-ar, source/wikipedia-hassanein-makhlouf-ur, source/wikidata-hassanein-makhlouf]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia (revision 76918643) and Urdu Wikipedia (revision 9661604), each fetched by revision id and asserted, and Wikidata item Q12208062 verified by biography (former Grand Mufti of Egypt, 1890–1990); existence checks by name fragments, by QID sweep and by biography found no earlier record"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

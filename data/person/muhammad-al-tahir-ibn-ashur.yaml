@@ -1,0 +1,48 @@
+id: person/muhammad-al-tahir-ibn-ashur
+class: person
+label: { ar: "محمد الطاهر بن عاشور", en: "Muhammad al-Tahir ibn Ashur", ur: "محمد طاہر بن عاشور" }
+names:
+  - { value: "محمد الطاهر بن محمد بن محمد الطاهر بن عاشور", kind: full }
+  - { value: "Muhammad al-Tahir ibn Ashur", kind: full }
+  - { value: "Mohamed Tahar Ben Achour", kind: latinized }
+gender: male
+summary:
+  ar: "عالم ومفسِّر وفقيه تونسي (1879–1973)؛ تعلّم في جامع الزيتونة ودرّس فيه طوال حياته وتولى مشيخته، وحمل لقب شيخ الإسلام سنة 1932، واشتهر بتفسيره «التحرير والتنوير» وكتابه «مقاصد الشريعة الإسلامية»، وبموقفه الرافض طلبَ بورقيبة فتوى تبيح إفطار رمضان."
+  en: "Tunisian scholar, exegete and jurist (1879–1973). Educated at the Zaytuna, where he taught all his life and whose rectorship he held, he received the title Shaykh al-Islam in 1932; he is best known for his Qur'an commentary al-Tahrir wa'l-Tanwir and his Maqasid al-Shari'ah al-Islamiyyah, and for refusing President Bourguiba's request for a fatwa permitting the abandonment of the Ramadan fast."
+  ur: "تونسی عالم، مفسر اور فقیہ (1879–1973)؛ جامع زیتونہ میں تعلیم پائی اور عمر بھر وہیں پڑھایا اور اس کی مشیخت سنبھالی، 1932 میں شیخ الاسلام کا لقب ملا؛ وہ اپنی تفسیر «التحریر والتنویر» اور کتاب «مقاصد الشریعۃ الاسلامیہ» کے لیے مشہور ہیں، اور اس بات کے لیے بھی کہ انھوں نے صدر بورقیبہ کی رمضان کے روزے ترک کرنے کی فتویٰ طلبی مسترد کر دی۔"
+roles: [scholar, jurist, theologian, teacher]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1879"
+  hijri: "1296"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Tunis in 1296 AH / 1879, into a scholarly family of Andalusi origin; the Arabic article gives the Hijri year and Wikidata gives September 1879. No source consulted gives a birth day."
+  sources: [source/wikipedia-ibn-ashur-ar, source/wikipedia-ibn-ashur-en, source/wikidata-ibn-ashur]
+died:
+  edtf: "1973-08-12"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at La Marsa on 13 Rajab 1393 AH / 12 August 1973. La Marsa has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-ibn-ashur-ar, source/wikipedia-ibn-ashur-fr, source/wikidata-ibn-ashur]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-ibn-ashur-en, source/wikipedia-ibn-ashur-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one source names a school for him personally, and only in its infobox: the English article's infobox gives denomination 'Sunni' and jurisprudence 'Maliki', citing M. Nafi (2005), p. 12 (and creed 'Ash'ari', p. 22). A single infobox, even a referenced one, does not meet the two-source rule. The Arabic and French articles describe the rite-specific offices he held — Maliki qadi (1911/1913), Maliki mufti (1923), Maliki bach mufti (1927) and the newly created Maliki Shaykh al-Islam post (1932), the French article calling the bach mufti post the highest religious dignity of the Maliki rite — but office-holding does not attest a personal school, and neither text names one for him outside those office descriptions. The Urdu article names nothing; Wikidata's single religion value is 'Islam'. Readings preserved here for the record: infobox (Nafi 2005) — Sunni, Maliki, Ash'ari; Arabic and French texts — holder of the Maliki rite's judgeship, muftiship and Shaykh al-Islam office."
+    sources: [source/wikipedia-ibn-ashur-en, source/wikipedia-ibn-ashur-ar, source/wikipedia-ibn-ashur-fr, source/wikidata-ibn-ashur]
+external_ids: { wikidata: "Q3318841" }
+sources: [source/wikipedia-ibn-ashur-en, source/wikipedia-ibn-ashur-ar, source/wikipedia-ibn-ashur-fr, source/wikipedia-ibn-ashur-ur, source/wikidata-ibn-ashur]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibn Ashur' (revision 1359259712), Arabic (74555084), French (236444426) and Urdu (12109576) Wikipedia articles, each fetched by revision id and asserted, and Wikidata item Q3318841 verified by biography (Zitouna rector, 1879–1973; the similarly named Q3318839 is his grandfather, 1815–1868); existence checks by name fragments, by QID sweep and by biography found no earlier record"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
