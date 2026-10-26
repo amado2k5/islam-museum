@@ -1,0 +1,50 @@
+id: person/abd-al-rahman-shahbandar
+class: person
+label: { ar: "عبد الرحمن الشهبندر", en: "Abd al-Rahman Shahbandar", ur: "عبد الرحمٰن الشہبندر" }
+names:
+  - { value: "عبد الرحمن صالح الشهبندر", kind: full }
+  - { value: "Abd al-Rahman Salih al-Shahbandar", kind: full }
+  - { value: "Abdul Rahman Shahbandar", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وسياسي وكاتب سوري (1879–1940)، من أبرز زعماء الحركة الوطنية في دمشق زمن الانتداب الفرنسي، أسس حزب الشعب سنة 1925 وساعد في تنظيم الثورة السورية الكبرى، واغتيل في دمشق في 6 يوليو 1940."
+  en: "Syrian physician, politician and writer (1879–1940), a leading Damascene nationalist of the French Mandate period; he founded the People's Party in 1925, helped spread the Great Syrian Revolt beyond the Druze Mountain, and was assassinated at Damascus on 6 July 1940."
+  ur: "شامی طبیب، سیاست دان اور مصنف (1879–1940)، فرانسیسی مینڈیٹ کے دور میں دمشق کی قومی تحریک کے نمایاں رہنما؛ انہوں نے 1925 میں حزب الشعب کی بنیاد رکھی، عظیم شامی بغاوت کے پھیلاؤ میں حصہ لیا، اور 6 جولائی 1940 کو دمشق میں قتل کر دیے گئے۔"
+roles: [physician, politician, writer]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1879-11-06"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Damascus on 6 November 1879 (both articles' infoboxes and text). Wikidata carries a variant birth date, 6 November 1880, which is not followed."
+  sources: [source/wikipedia-abd-al-rahman-shahbandar-en, source/wikipedia-abd-al-rahman-shahbandar-ar, source/wikidata-abd-al-rahman-shahbandar]
+died:
+  edtf: "1940-07-06"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated at Damascus on 6 July 1940 (both articles); the Arabic article's infobox also gives Damascus as his burial place."
+  sources: [source/wikipedia-abd-al-rahman-shahbandar-en, source/wikipedia-abd-al-rahman-shahbandar-ar, source/wikidata-abd-al-rahman-shahbandar]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-abd-al-rahman-shahbandar-en, source/wikipedia-abd-al-rahman-shahbandar-ar] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-abd-al-rahman-shahbandar-en, source/wikipedia-abd-al-rahman-shahbandar-ar] }
+  - { type: buried_in, target: place/damascus, sources: [source/wikipedia-abd-al-rahman-shahbandar-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox alone gives his religion as Islam and his madhhab as Ahl al-Sunna wa-l-Jama'a. The English article's text makes no statement of his religion, the Urdu article is a stub with no statement, and Wikidata carries no religion (P140) value. One infobox never settles an affiliation, so the value is unknown."
+    sources: [source/wikipedia-abd-al-rahman-shahbandar-ar, source/wikipedia-abd-al-rahman-shahbandar-en, source/wikidata-abd-al-rahman-shahbandar]
+external_ids: { wikidata: "Q4664585" }
+sources: [source/wikipedia-abd-al-rahman-shahbandar-en, source/wikipedia-abd-al-rahman-shahbandar-ar, source/wikipedia-abd-al-rahman-shahbandar-ur, source/wikidata-abd-al-rahman-shahbandar]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q4664585, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
