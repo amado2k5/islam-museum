@@ -1,0 +1,35 @@
+id: person/mishari-al-kharraz
+class: person
+label: { ar: "مشاري الخراز", en: "Mishari Al-Kharraz", ur: "مشاری الخراز" }
+names:
+  - { value: "مشاري سليمان الخراز", kind: full }
+  - { value: "Mishari Sulayman Al-Kharraz", kind: full }
+gender: male
+summary:
+  ar: "داعية كويتي وُلد سنة 1985، يعمل إماما وخطيبا في وزارة الأوقاف والشؤون الإسلامية بالكويت، عُرف بدروسه في مسجد الكويت الكبير حول التلذذ بالصلاة، وبسلسلتيه التلفزيونيتين «كيف تتلذذ بالصلاة» و«كيف تتعامل مع الله» اللتين حضر محاضرتهما الأصلية عشرات الألوف."
+  en: "Kuwaiti preacher born in 1985, an imam and khatib at Kuwait's Ministry of Awqaf and Islamic Affairs, known for his lessons at Kuwait's Grand Mosque on savouring prayer and for his television series 'How to Savour Prayer' and 'How to Deal with Allah', whose original lecture drew tens of thousands."
+  ur: "کویتی مبلغ، جو 1985 میں پیدا ہوئے اور کویت کی وزارتِ اوقاف و اسلامی امور میں امام و خطیب ہیں؛ وہ کویت کی جامع مسجد میں نماز سے لذت اٹھانے پر اپنے دروس اور اپنی ٹیلی ویژن سلسلوں «نماز سے کیسے لذت اٹھائیں» اور «اللہ سے کیسے معاملہ کریں» کے لیے جانے جاتے ہیں، جن کے اصل خطاب میں دسیوں ہزار افراد شریک ہوئے۔"
+roles: [preacher]
+wings: [people, living]
+born:
+  edtf: "1985"
+  hijri: "1405"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year and country only, from the Arabic Wikipedia article's infobox and lead; the Hijri year is derived from the Gregorian year."
+  sources: [source/wikipedia-mishari-al-kharraz-ar, source/wikidata-mishari-al-kharraz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic Wikipedia infobox gives his religion as 'Muslim' only, and no source consulted names a school of law or a creed for him; the article's placement in the category 'Kuwaiti Sunni religious scholars' is a Wikipedia category, not an attestation by a source. Not recorded as sunni."
+    sources: [source/wikipedia-mishari-al-kharraz-ar]
+external_ids: { wikidata: "Q6857360" }
+sources: [source/wikipedia-mishari-al-kharraz-ar, source/wikidata-mishari-al-kharraz, source/youtube-mesharialkharaz]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia's article on him (oldid 74681639), citing an MBC profile, and his own YouTube channel @mesharialkharaz, whose series uploads name his official accounts, both checked 26 October 2026. Wikidata item Q6857360 was verified through the API on 26 October 2026: its Arabic label is his name, its occupation value is imam, and its date of birth agrees with the article's year 1985; the item's day-level value (31 December 1985) is not followed, the article giving the year only, so the born block is year precision. No Kuwait place entity exists in the museum's data, so no born_in relation is written. Checked 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
