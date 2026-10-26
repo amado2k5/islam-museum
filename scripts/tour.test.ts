@@ -308,3 +308,50 @@ describe("3d tour: halls.yaml", () => {
     expect(readFileSync("site/src/pages/[lang]/3d.astro", "utf8")).toContain("t.nojs_halls");
   });
 });
+
+describe("3d tour: daytime look and lighter graphics", () => {
+  const src = () => readFileSync("site/src/scripts/tour.ts", "utf8");
+  const comp = () => readFileSync("site/src/components/Tour3D.astro", "utf8");
+  it("both looks define every palette colour", () => {
+    const s = src();
+    const keys = [...(/interface Palette \{([\s\S]*?)\n  \}/.exec(s)?.[1] ?? "").matchAll(/(\w+):/g)].map((m) => m[1]);
+    expect(keys.length).toBeGreaterThan(20);
+    for (const look of ["evening", "day"]) {
+      const body = new RegExp(`\\n    ${look}: \\{([\\s\\S]*?)\\n    \\}`).exec(s)?.[1] ?? "";
+      const got = [...body.matchAll(/(\w+):/g)].map((m) => m[1]).sort();
+      expect(got, look).toEqual([...keys].sort());
+    }
+  });
+  it("the look button, L key and lighter-graphics switches are wired", () => {
+    const s = src();
+    const c = comp();
+    for (const id of ["lookBtn", "liteEnter", "liteHelp"]) expect(c).toContain(`id="${id}"`);
+    expect(s).toContain('e.code === "KeyL"');
+    expect(s).toMatch(/function setLite\(on: boolean\)/);
+    expect(s).toMatch(/renderer\.shadowMap\.enabled = !on/);
+    expect(s).toContain("offerLite()");
+    expect(s).toContain("applyLight()");
+  });
+  it("daytime overlay colours keep 4.5:1 contrast", () => {
+    const lum = (h: string): number => {
+      const [r, g, b] = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255)
+        .map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
+      return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    };
+    const ratio = (a: string, b: string): number => {
+      const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p);
+      return (x + 0.05) / (y + 0.05);
+    };
+    const c = comp();
+    // [text, background]: panel text, headings, notes, buttons, gold buttons, focus outline.
+    const pairs: Array<[string, string]> = [
+      ["#2a2113", "#fbf7ee"], ["#5a3d0c", "#fbf7ee"], ["#4a3f2c", "#fbf7ee"], ["#7a5410", "#fbf7ee"],
+      ["#2a2113", "#fffaf0"], ["#3d2a06", "#f5e3b3"], ["#5a3d0c", "#faf5e9"], ["#1a1206", "#d4a017"],
+      ["#2a2113", "#faf5e9"], ["#3d3324", "#f1e6cf"], ["#5c1a0a", "#fbe3d6"],
+    ];
+    for (const [fg, bg] of pairs) {
+      expect(c, fg).toContain(fg);
+      expect(ratio(fg, bg), `${fg} on ${bg}`).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+});
