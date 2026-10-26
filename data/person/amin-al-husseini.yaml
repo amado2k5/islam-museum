@@ -1,0 +1,58 @@
+id: person/amin-al-husseini
+class: person
+label:
+  ar: "أمين الحسيني"
+  en: "Amin al-Husseini"
+summary:
+  ar: "قائد قومي عربي ومسلم فلسطيني (نحو 1897–1974) تولّى منصب مفتي القدس من 1921 إلى 1937 وقاد اللجنة العربية العليا، وقضى الحرب العالمية الثانية في أوروبا المحور، وبقي شخصية مركزية مختلفًا عليها في السياسة الفلسطينية حتى 1948 وبعدها."
+  en: "Palestinian Arab nationalist and Muslim leader (c. 1897–1974) who served as Grand Mufti of Jerusalem from 1921 to 1937, led the Arab Higher Committee, spent the Second World War in Axis Europe, and remained a central, contested figure in Palestinian politics until 1948 and after."
+names:
+  - { value: "Mohammed Amin al-Husseini", kind: full }
+  - { value: "محمد أمين الحسيني", kind: full }
+  - { value: "Haj Amin al-Husseini", kind: alternate }
+  - { value: "Amin", kind: given }
+born:
+  edtf: "1897"
+  hijri: "1314"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born in Jerusalem. His birth year is genuinely uncertain: the English article, citing Mattar, notes that he himself wrote both 1895 and 1896 on official documents between 1921 and 1934, that proposed dates range from 1893 to 1897, and adopts circa 1897, the year recorded here {cite:wikipedia-amin-al-husseini-en}. The Arabic article's lead and the Urdu article give 1895, and Wikidata likewise gives 1895 {cite:wikipedia-amin-al-husseini-ar} {cite:wikipedia-amin-al-husseini-ur} {cite:wikidata-amin-al-husseini}."
+  sources: [source/wikipedia-amin-al-husseini-en, source/wikipedia-amin-al-husseini-ar, source/wikipedia-amin-al-husseini-ur, source/wikidata-amin-al-husseini]
+died:
+  edtf: "1974-07-04"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 4 July 1974 in Beirut, where he was buried three days later after Israel refused permission to bury him on the Haram ash-Sharif in Jerusalem {cite:wikipedia-amin-al-husseini-en} {cite:wikipedia-amin-al-husseini-ar}. No place entity for Beirut exists in the museum, so the death place is carried in this note and the prose only."
+  sources: [source/wikipedia-amin-al-husseini-en, source/wikipedia-amin-al-husseini-ar, source/wikidata-amin-al-husseini]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent texts name a school for him personally. The English article's infobox gives his religion as Islam, denomination Sunni and school Hanafi — a single infobox family, the only school statement in that article {cite:wikipedia-amin-al-husseini-en}. The Arabic article files him under the category «حنفية» (Hanafis), a category filing, which never attests {cite:wikipedia-amin-al-husseini-ar}. Wikidata's religion field gives Islam, one structured-data value {cite:wikidata-amin-al-husseini}. His Grand Mufti office is a role, and his teacher Rashid Rida's Salafism is a teacher's school; neither counts. This is the Amr Khaled configuration, and under the lane rule the affiliation stays unknown."
+    sources: [source/wikipedia-amin-al-husseini-en, source/wikipedia-amin-al-husseini-ar, source/wikidata-amin-al-husseini]
+roles: [scholar, politician]
+wings: [people]
+regions: [levant-iraq]
+relations:
+  - type: born_in
+    target: place/jerusalem
+    note: "Born in Jerusalem, then in the Ottoman Empire {cite:wikipedia-amin-al-husseini-en} {cite:wikipedia-amin-al-husseini-ar}."
+    sources: [source/wikipedia-amin-al-husseini-en, source/wikipedia-amin-al-husseini-ar, source/wikidata-amin-al-husseini]
+  - type: student_of
+    target: person/rashid-rida
+    note: "Direction: al-Husseini is the student and Rashid Rida the teacher. In 1912 he studied sharia briefly at al-Azhar and at Rida's Dar al-Da'wa wa-l-Irshad in Cairo; the English article describes Rida as his mentor until 1935 {cite:wikipedia-amin-al-husseini-en} {cite:wikipedia-amin-al-husseini-ar}."
+    sources: [source/wikipedia-amin-al-husseini-en, source/wikipedia-amin-al-husseini-ar]
+external_ids: { wikidata: "Q164745" }
+sources: [source/wikipedia-amin-al-husseini-en, source/wikipedia-amin-al-husseini-ar, source/wikipedia-amin-al-husseini-ur, source/wikidata-amin-al-husseini]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q164745, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+  created: "2026-10-26"
+  note: "Built 2026-10-26 (wave 53, group B) from the English article (revision 1380474163), the Arabic article (revision 76366075), the Urdu stub (revision 9909547) and Wikidata item Q164745. The English article is very long; the record and prose draw on its lead, infobox, early-life, muftiate, revolt, wartime and post-war sections, keeping its attributions — in particular its statement that historians dispute whether his opposition to Zionism was grounded in nationalism or antisemitism, or both — and offer no museum verdict. His father Tahir and his half-brother Kamil, both muftis of Jerusalem, have no museum records, so their kinship is carried in the prose only."
