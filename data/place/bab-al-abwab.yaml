@@ -1,7 +1,7 @@
 id: place/bab-al-abwab
 class: place
 kind: town
-label: { ar: "الباب والأبواب", en: "Bab wa-l-Abwab (Derbent)" }
+label: { ar: "الباب والأبواب", en: "Bab wa-l-Abwab (Derbent)", ur: "باب و الابواب (دربند)" }
 summary:
   ar: "الباب والأبواب مدينة بناها أنوشروان كسرى بن قباذ وسمّيت أبواباً لأنها بنيت على مضايق؛ وبنى قبلها أبوه قباذ سد اللبن بين أرض شروان وباب اللان وعليه ثلاثمائة وستين مدينة خربت بعد بناء الباب والأبواب؛ وحائط أنوشروان بُني بالصخر والرصاص من قبل البحر عرضه ثلاثمائة ذراع ملحق برؤوس الجبال وقاد في البحر ثلاثة أميال على حجارة أُغرقت في سفن وعلى مدخله أبواب حديد ووُكّل به مائة فارس بعد خمسين ألف جند وعليه دبّابة — وذلك بحيلة سلام على ملك الترك."
   en: "Bab wa-l-Abwab (Derbent), the city Anushirwan Kisra ibn Qubadh built, named 'gates' for the narrows on which it stands; before it his father Qubadh had built the wall of al-Lubn between Shirwan's land and Bab al-Lan with three hundred and sixty cities upon it, ruined after Bab wa-l-Abwab's building; Anushirwan's wall was built of rock and lead at the sea's edge, three hundred cubits wide, joined to the mountain-tops, running three miles into the sea over ship-sunk stones, iron gates hung at its entry, a hundred riders posted where fifty thousand soldiers had been needed, with an armoured redoubt upon it — all through the peace he feigned with the Turk king."
@@ -9,11 +9,11 @@ wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 relations:
-  - { type: site_of, target: event/khosrow-derbent-wall, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/khosrow-derbent-wall, sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273–276"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
