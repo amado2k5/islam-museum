@@ -1,0 +1,51 @@
+id: person/kazim-karabekir
+class: person
+label: { ar: "كاظم قرة بكر", en: "Kâzım Karabekir", ur: "کاظم قرہ بکر" }
+names:
+  - { value: "Musa Kâzım Karabekir", kind: full }
+  - { value: "كاظم قرة بكر", kind: full }
+  - { value: "Kâzım Karabekir", kind: alternate }
+  - { value: "Kâzım Zeyrek", kind: alternate }
+  - { value: "Şark Fatihi", kind: laqab }
+  - { value: "Alçıtepe Kahramanı", kind: laqab }
+gender: male
+summary:
+  ar: "جنرال ورجل دولة تركي، قائد الجبهة الشرقية في حرب الاستقلال التركية الذي استعاد سارقاميش وقارص ووقّع معاهدتي ألكسندروبول (1920) وقارص (1921)، واشتهر أيضًا بعنايته بآلاف أيتام الحرب في الشرق. أسس سنة 1924 أول حزب معارضة في الجمهورية، فحُلّ حزبه وحُوكم وبُرّئ، ثم عاد رئيسًا للبرلمان من 1946 حتى وفاته في المنصب."
+  en: "Turkish general and politician, commander of the Eastern Front in the Turkish War of Independence, who retook Sarıkamış and Kars and signed the Treaties of Alexandropol (1920) and Kars (1921); he is also remembered for his care for thousands of war orphans in the east. In 1924 he founded the Republic's first opposition party; the party was closed and he was tried and acquitted. He returned as Speaker of the Grand National Assembly from 1946 until his death in office."
+  ur: "ترک جنرل اور سیاست دان، جنگِ آزادی میں مشرقی محاذ کے کمانڈر جنہوں نے سارقامش اور قارص واپس لیے اور معاہدۂ الیگزینڈروپول (1920) اور معاہدۂ قارص (1921) پر دستخط کیے؛ وہ مشرق میں ہزاروں جنگی یتیموں کی کفالت کے لیے بھی مشہور ہیں۔ 1924 میں انہوں نے جمہوریہ کی پہلی حزبِ اختلاف کی بنیاد رکھی؛ جماعت بند کر دی گئی، ان پر مقدمہ چلا اور وہ بری ہوئے، پھر 1946 سے وفات تک قومی مجلس کے صدر رہے۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1882-07-23"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Turkish article's infobox gives the full date 23 July 1882 at Kocamustafapaşa, Istanbul, and one of Wikidata's two birth values agrees with it; the English article gives only the year 1882 at Kocamustafapaşa, and Wikidata's other value is the year alone. The day-precision reading is followed, the granularity difference recorded here. Wikidata names the birthplace Küçükmustafapaşa, the quarter adjoining Kocamustafapaşa; both are in Istanbul, so the born_in edge is unaffected. He was a son of the general Mehmet Emin Pasha. The Hijri year 1299 is the derived conversion of 1882."
+  sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr, source/wikidata-kazim-karabekir]
+died:
+  edtf: "1948-01-26"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 26 January 1948 at Ankara; the English article adds that he died in office, as Speaker, after a heart attack, and that his remains were later relocated to the Turkish State Cemetery in Ankara. Ankara has no place entity in the museum, so his death and burial places are carried here and in the prose, with no died_in or buried_in edge. The Hijri year 1367 is the derived conversion of 1948."
+  sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr, source/wikidata-kazim-karabekir]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Kâzım Karabekir personally, and the value is recorded unknown under the doubt rule. The English article's infobox has no religion field; its text discusses his political position on the timing of the caliphate's abolition — a position on policy, not an attestation of a school — and its categories file him under 'Turkish Muslims', a category filing. The Turkish article's infobox gives Islam, generically, and the value itself carries the article's 'citation needed' tag. Wikidata gives Islam (Q432), generically — one structured-data family. None of this meets the two-independent-sources standard, so no value is recorded."
+    sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr, source/wikidata-kazim-karabekir]
+external_ids: { wikidata: Q269182 }
+sources: [source/wikipedia-kazim-karabekir-en, source/wikipedia-kazim-karabekir-tr, source/wikidata-kazim-karabekir]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kâzım Karabekir' (revision 1381121992 of 20 October 2026), Turkish Wikipedia 'Kâzım Karabekir' (revision 38328625 of 25 October 2026) and Wikidata item Q269182 (item revision 2551717180 of 1 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Only one edge is written: born_in to place/istanbul, an existing entity. Ankara has no place entity, so his death there and his burial in its Turkish State Cemetery are carried in the date note and prose only. His succession by Ali Fuat Cebesoy as Speaker in January 1948 is likewise prose only: Cebesoy's record was written in this same run and did not yet exist when this record was written. His father Mehmet Emin Pasha has no record, so no child_of edge is written. His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
