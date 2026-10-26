@@ -18,3 +18,12 @@ Hunayn, the battle most mentioned in Surat al-Tawba, became in Islamic moral tea
 
 ## In the introduction to al-Raheeq al-Makhtum
 Hawazin is of Qays Aylan ibn [[group/mudar-ibn-nizar|Mudar]], along with Banu Sulaym and Ghatafan {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}. Hawazin settled to the east of Mecca in the area of [[place/awtas|Awtas]], on the road between Mecca and Basra {cite:mubarakpuri-raheeq p.22} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/15-16}.
+
+## For Sprouts
+Hawazin, a large Adnani tribal confederation west of the Hijaz; it fought the Muslims at Hunayn in 630 CE, then its proudest sons entered the Companions' register.
+
+## For Explorers
+Hawazin, a large Adnani tribal confederation west of the Hijaz — Quraysh's old foe at Ajjaz. With Thaqif it led the war of Hunayn in 630 CE after the conquest's bay'a, under Malik ibn Awf's banner; the confederation broke after the volley of arrows in the valley. In the Sunni tradition the Prophet is said to have chosen Hawazin's lands on the day of division over Quraysh's 'because they are closer to the nursing' — Halima al-Sa'diyya, his wet-nurse, was of them. Malik and her leaders then entered Islam, becoming riders of the Ridda and the openings under Abu Bakr. Hawazin is of Qays Aylan ibn Mudar with Banu Sulaym and Ghatafan, and lived east of Mecca around Awtas on the Mecca–Basra road.
+
+## For Scholars
+Hawazin, a large Adnani tribal confederation west of the Hijaz — Quraysh's old foe at Ajjaz — which fought the Muslims at Hunayn then entered the Companions' register with its proudest sons. With Thaqif it led the war of Hunayn in 630 CE after the conquest's bay'a, under Malik ibn Awf's banner; the confederation broke after the volley of arrows in the valley. In the Sunni tradition the Prophet is said to have chosen Hawazin's lands on the day of division over Quraysh's 'because they are closer to the nursing' — Halima al-Sa'diyya, his wet-nurse, was of them. Malik and her leaders then entered Islam, becoming riders of the Ridda and the openings under Abu Bakr. Hunayn — the battle most named in Surat al-Tawba — became in the Islamic lesson the parable of pride in numbers before victory, and to historians the last serious military attempt by the Bedouin tribes against the new state. Hawazin is of Qays Aylan ibn Mudar with Banu Sulaym and Ghatafan, and lived east of Mecca around Awtas, on the road between Mecca and Basra.

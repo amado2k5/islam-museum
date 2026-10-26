@@ -15,3 +15,12 @@ He subdued the independent emirates, stood with [[person/abu-hasun-al-wattasi|Bu
 
 ## Oran and death
 When Ottoman intelligence uncovered the Sa'di-Spanish talks, Süleyman ordered Oran attacked and sent forty ships; Salih gathered about seventy ships and forty thousand men, meaning to march on Marrakesh — but plague took him in Rajab 963/1556 {cite:dawlat-uthmaniyya-salabi p. 243}.
+
+## For Sprouts
+Salih Reis, beylerbey of Algiers from 960 AH until his death of plague in 963 AH; he unified Algiers' parts and entered Fez in 964 AH.
+
+## For Explorers
+Salih Reis, beylerbey of Algiers from Safar 960 AH (January 1552 CE) to his death of plague in Rajab 963 AH (1556 CE) at seventy. He worked on unity between Algiers' parts and subduing the rest of the Sahara, with three external aims: removing the Spanish from Algerian soil, ending Sa'di harassment, and marching on al-Andalus. He subdued the independent emirates, stood with Abu Hassun al-Wattasi — the Sa'di forces were beaten near Badis, Taza fell, and he entered Fez in Safar 964 AH (January 1554 CE) where the sermon went to the Ottoman sultan and Morocco's annexation was declared. Sultan Suleiman ordered him against Oran and sent forty ships; he gathered some seventy ships and forty thousand soldiers but died of plague before marching.
+
+## For Scholars
+Salih Reis, beylerbey of Algiers from Safar 960 AH (January 1552 CE) to his death of plague in Rajab 963 AH (1556 CE) at seventy. Internally he worked for full unity between Algiers' parts and subduing the rest of the Sahara to free himself for al-Andalus; externally he had three aims: removing the Spanish for good, setting a boundary against Sa'di harassment, and declaring the general jihad levy, marching by land and sea to al-Andalus. He subdued the independent emirates, stood with Abu Hassun al-Wattasi — the Sa'di forces were beaten near Badis, Taza fell, and after the battle of Kadiyat al-Mukhala he entered Fez on 3 Safar 964 AH (8 January 1554 CE), where the sermon went to the Ottoman sultan and the Sublime Porte declared Morocco annexed; he stayed four months, retaking Badis from the Spanish. When Ottoman intelligence uncovered Sa'di-Spanish talks, Sultan Suleiman ordered him to attack Oran and sent forty ships; he gathered some seventy ships and forty thousand soldiers intending Marrakesh, but died of plague in Rajab 963 AH.

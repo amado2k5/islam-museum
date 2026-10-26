@@ -16,3 +16,12 @@ The letter of the kings of Himyar reached the Prophet on his return from Tabuk. 
 
 ## For young visitors
 The kings of Yemen sent the Prophet a letter announcing their entry into Islam. He wrote back to them and sent them a teacher to teach them their religion.
+
+## For Sprouts
+The kings of Yemen of Himyar sent the Prophet a letter after his return from Tabuk announcing their entry into Islam; he wrote them a letter and sent them a teacher.
+
+## For Explorers
+The kings of Himyar — al-Harith ibn Abd Kulal, Nu'aym ibn Abd Kulal and al-Nu'man, qayl of Dhu Ru'ayn, Hamdan and Ma'afir — wrote to the Prophet after his return from Tabuk announcing their Islam and their leaving polytheism; their messenger was Malik ibn Murra al-Rahawi. The Prophet wrote them a letter setting out what the believers have and owe, giving the covenant-bound among them God's and His messenger's dhimma if they paid the jizya, and sent men of his Companions led by Mu'adh ibn Jabal. The letter mentions what they owe of prayer, zakat, the fifth of spoils and the ordained alms, and that whoever stayed on his Judaism or Christianity would not be turned from it, owing the jizya of a dinar per adult.
+
+## For Scholars
+The kings of Himyar wrote to the Prophet after his return from Tabuk announcing their Islam and their leaving polytheism; he answered with a letter on what the believers have and owe, and sent a mission led by Mu'adh ibn Jabal. Their letter arrived — the kings being al-Harith ibn Abd Kulal, Nu'aym ibn Abd Kulal and al-Nu'man, qayl of Dhu Ru'ayn, Hamdan and Ma'afir — after the Prophet's return from Tabuk. Their messenger was Malik ibn Murra al-Rahawi, sent with their Islam and their leaving of polytheism and its people. The Prophet wrote them a letter setting out what the believers have and owe, and gave the covenant-bound among them God's and His messenger's dhimma if they paid the jizya owed; and he sent men of his Companions led by Mu'adh ibn Jabal. Ibn Ishaq records that Zur'a Dhu Yazan sent Malik ibn Murra al-Rahawi with their Islam, and that the letter mentioned meeting their messenger in Medina on his return from the Romans' land, what they owed of prayer, zakat, the fifth of spoils and the ordained alms, and that whoever stayed on his Judaism or Christianity would not be turned from it, owing a dinar's jizya per adult — then commends to Zur'a Dhu Yazan his messengers and their leader Mu'adh ibn Jabal.

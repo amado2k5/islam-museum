@@ -27,3 +27,12 @@ Safiyya relates, on the authority of her father Huyayy ibn Akhtab and her uncle 
 The Sheikh relates that Aisha and Hafsa called Safiyya a daughter of a Jewess, and that her mother was Jewish and her father was Huyayy ibn Akhtab, one of the leaders of the Jews (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:46:30}.
 
 He says that the Prophet comforted her and told her that if she was spoken to in this way she should say that her father is Harun, her uncle is Musa and her husband is Muhammad (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:48:00}.
+
+## For Sprouts
+Safiyya bint Huyayy, daughter of Banu al-Nadir's chief; she lost everything in a war then began a wholly new life — she was freed, the Prophet married her, and she became one of the Mothers of the Believers.
+
+## For Explorers
+Safiyya bint Huyayy, daughter of Huyayy ibn Akhtab, chief of the Jewish tribe Banu al-Nadir. Born around 610 CE, she grew up among Banu al-Nadir, the tribe exiled from Medina to Khaybar. When Khaybar fell in 628 CE — her father dead earlier, her husband executed after the settlement — she was brought a captive; the Prophet freed her and married her, her freedom being her bride-gift, and she entered Islam and became one of the Mothers of the Believers in Medina. She died around 670 CE.
+
+## For Scholars
+Safiyya bint Huyayy, daughter of Huyayy ibn Akhtab, chief of the Jewish tribe Banu al-Nadir; she was taken captive the day Khaybar fell in 628 CE, freed and married to the Prophet, in one of the first community's most delicate crossings. Born around 610 CE, she grew up among Banu al-Nadir, the Jewish tribe exiled from Medina to the oasis of Khaybar. When Khaybar fell — her father killed earlier, her husband executed after the settlement — she was brought a captive to the Prophet. The sources say the Prophet freed her and married her, her freedom being her bride-gift, and that she entered Islam and became one of the Mothers of the Believers in Medina; she died around 670 CE. Her life stands at the seam of two communities: Jewish-born, a war captive, wife of the Prophet; the account keeps her pain when her co-wives reminded her of her origin, and the Prophet's answer naming her father a prophet's descendant and her husband a prophet.
