@@ -1,0 +1,34 @@
+id: person/sardar-azmoun
+class: person
+label:
+  ar: "سردار آزمون"
+  en: "Sardar Azmoun"
+  ur: "سردار آزمون"
+summary:
+  ar: "لاعب كرة قدم إيراني محترف (وُلد سنة 1995 في كنبد كاووس). مهاجم من أصل تركماني صار أصغر لاعب إيراني في الدوري الروسي الممتاز مع روبين قازان، وتألق مع روستوف وزينيت سانت بطرسبرغ — حيث أنهى موسم 2020–21 هدافًا مشاركًا للدوري وأفضل لاعب فيه — ثم لعب لباير ليفركوزن وروما قبل انضمامه إلى شباب الأهلي سنة 2024؛ دولي إيراني منذ 2014 سجّل أكثر من خمسين هدفًا دوليًا."
+  en: "Iranian professional footballer (born 1995 in Gonbad-e Kavus). A striker of Turkmen origin who became Iran's youngest player in the Russian Premier League with Rubin Kazan and starred for Rostov and Zenit Saint Petersburg — finishing as the league's co-top scorer and Player of the Season in 2020–21 — before playing for Bayer Leverkusen and Roma and joining Shabab Al Ahli in 2024; an Iran international since 2014 with more than fifty international goals."
+  ur: "ایرانی پیشہ ور فٹبالر (پیدائش 1995، گنبد کاووس)۔ ترکمان نژاد اسٹرائیکر جو روبن قازان کے ساتھ روسی پریمیئر لیگ کھیلنے والے کم عمر ترین ایرانی بنے، روستوف اور زینیٹ سینٹ پیٹرزبرگ کے لیے نمایاں رہے — 2020–21 میں لیگ کے مشترکہ ٹاپ اسکورر اور سیزن کے بہترین کھلاڑی — پھر بائر لیورکوزن اور روما کے بعد 2024 میں شباب الاہلی میں شامل ہوئے؛ 2014 سے ایران کے بین الاقوامی کھلاڑی، پچاس سے زائد بین الاقوامی گول کر چکے ہیں۔"
+names:
+  - { value: "Sardar Azmoun", kind: full }
+  - { value: "سردار آزمون", kind: full }
+  - { value: "Iranian Messi", kind: laqab }
+born:
+  edtf: "1995-01-01"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles both give 1 January 1995, born in Gonbad-e Kavus, Iran. There is no place entity for Gonbad-e Kavus, so no born_in edge is written. Hijri year 1415 derived from the Gregorian date."
+  sources: [source/wikipedia-sardar-azmoun-en, source/wikipedia-sardar-azmoun-ar]
+gender: male
+roles: [athlete]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for Azmoun personally, and the wordings are preserved here in full. The Arabic article describes him in its lead, in the article's own voice, as an Iranian footballer 'of the Turkmen and Ahl al-Sunna' (من ترکمن و اهل سنت), and its infobox gives his religion as 'Sunni Muslim' (مسلم سني) — but the lead and the infobox of a single article are ONE source family, not two independent attestations. The English article's only religion statement is of a different kind: its Personal life section states, citing a reference, that 'Azmoun was born into a Sunni family of Turkmen origin' — a statement about his family background, which under the lane rule never counts as an attestation for the person himself, however suggestive. One article family naming Sunni for him personally, plus a family-background statement in the other article (the two plausibly resting on the same underlying reporting about his Turkmen Sunni background), does not meet the two-independent-source rule, so the value is unknown. If a second independent source naming Sunni for Azmoun personally is produced, the record can be settled sunni/documented on that basis."
+    sources: [source/wikipedia-sardar-azmoun-en, source/wikipedia-sardar-azmoun-ar]
+wings: [people, living]
+sources: [source/wikipedia-sardar-azmoun-en, source/wikipedia-sardar-azmoun-ar]
+provenance: { layer: own-research, source: "English Wikipedia and Arabic Wikipedia articles, read in full on 26 October 2026 (the English article's entire text searched for any religion statement); the reading route did not expose revision ids, so consultation dates are recorded in the source files in place of revisions (the wave-33 section A, Batch 40 and wave-37 precedent). No Wikidata item id could be grounded through the reading route available, so no wikidata source or external id is recorded (the Hasim Rahman precedent). No earlier record for him existed in data/person/ under sardar-azmoun or any other spelling checked (fragment azmoun searched across data/person/); this is a new build, not an enrichment.", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-38" }
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
