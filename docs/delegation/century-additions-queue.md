@@ -371,11 +371,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Ali Al-Hudhaify — 1947–Living
 - [x] Sheikh Abdul Bari Al-Thubaiti — 1960–Living
 - [x] Sheikh Salah Al-Budair — 1970–Living
-- [ ] Sheikh Hussein Al-Sheikh — 1964–Living
-- [ ] Qari Abdul Basit — 1927–1988
-- [ ] Qari Waheed Zafar Qasmi — 1953–Living
-- [ ] Qari Syed Sadaqat Ali — 1952–Living
-- [ ] Nasser Al-Qatami — 1980–Living
+- [x] Sheikh Hussein Al-Sheikh — 1964–Living
+- [x] Qari Abdul Basit — 1927–1988
+- [x] Qari Waheed Zafar Qasmi — 1953–Living
+- [x] Qari Syed Sadaqat Ali — 1952–Living
+- [x] Nasser Al-Qatami — 1980–Living
 - [ ] Yasser Al-Qurashi — 1976–Living
 - [ ] Hazaa Al-Balushi — 1995–Living
 - [ ] Fatih Seferagic — 1995–Living
