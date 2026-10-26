@@ -271,11 +271,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Demba Ba — 1985–Living
 - [x] Papiss Cissé — 1985–Living
 - [x] Yaya Touré — 1983–Living
-- [ ] Kolo Touré — 1981–Living
-- [ ] Gervinho — 1987–Living
-- [ ] Wilfried Zaha — 1992–Living
-- [ ] Sebastien Haller — 1994–Living
-- [ ] Salif Keïta (Footballer) — 1946–2023
+- [x] Kolo Touré — 1981–Living
+- [x] Gervinho — 1987–Living
+- [x] Wilfried Zaha — 1992–Living
+- [x] Sebastien Haller — 1994–Living
+- [x] Salif Keïta (Footballer) — 1946–2023
 - [ ] Frederic Kanoute — 1977–Living
 - [ ] Seydou Keita — 1980–Living
 - [ ] Mahamadou Diarra — 1981–Living

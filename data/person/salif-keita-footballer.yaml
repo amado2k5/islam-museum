@@ -1,0 +1,46 @@
+id: person/salif-keita-footballer
+class: person
+label: { ar: "ساليف كيتا", en: "Salif Keïta", ur: "سالیف کیتا" }
+names:
+  - { value: "Salif Keïta Traoré", kind: full }
+  - { value: "ساليف كيتا", kind: full }
+  - { value: "Black Panther", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مالي (1946–2023)، وُلد وتوفي في باماكو. مهاجم بدأ مع ريال باماكو وستاد ماليان، ثم صار أيقونة سانت إتيان بطلًا لفرنسا ثلاث مرات وفائزًا بكأسها مرتين، ولعب لمرسيليا وفالنسيا وسبورتينغ لشبونة، وكان أول فائز بجائزة أفضل لاعب أفريقي سنة 1970، ولُقّب بـ«النمر الأسود». وهو غير الموسيقي ساليف كيتا (مواليد 1949)."
+  en: "Malian footballer (1946–2023), born and died in Bamako. A striker who began with Real Bamako and Stade Malien, became an icon at Saint-Étienne — three French league titles and two French Cups — and played for Marseille, Valencia and Sporting CP; he was the first winner of the African Footballer of the Year award in 1970 and was nicknamed the 'Black Panther'. He is not the musician Salif Keita (born 1949)."
+  ur: "مالی کے فٹبالر (1946–2023)، باماکو میں پیدا ہوئے اور وہیں وفات پائی۔ اسٹرائیکر جنہوں نے ریال باماکو اور ستاد مالین سے آغاز کیا، پھر سینٹ ایٹیئن کے نمایاں کھلاڑی بنے — تین فرانسیسی لیگ خطاب اور دو فرانسیسی کپ — اور مارسیلی، ویلنسیا اور اسپورٹنگ لزبن کے لیے کھیلے؛ 1970 میں افریقہ کے بہترین فٹبالر کا ایوارڈ پانے والے پہلے کھلاڑی تھے اور «بلیک پینتھر» کہلائے۔ وہ موسیقار سلیف کیتا (پیدائش 1949) نہیں ہیں۔"
+roles: [athlete]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1946-12-06"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Bamako, Mali. The day is debated: the English article (citing a 1968 Africana Publishing volume) and the French article give 6 December 1946, followed here; the Arabic article gives 12 December 1946; Wikidata Q964530 carries all three values — the 6th, 8th and 12th. The year 1946, the birthplace Bamako and the death date are not in dispute. No place entity for Bamako exists in data/place/, so no born_in edge is written. The Hijri year (1366) is derived by tabular conversion from the followed date."
+  sources: [source/wikipedia-salif-keita-footballer-en, source/wikipedia-salif-keita-footballer-fr, source/wikipedia-salif-keita-footballer-ar, source/wikidata-salif-keita-footballer]
+died:
+  edtf: "2023-09-02"
+  hijri: "1445"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 2 September 2023 in Bamako, as given by the French Wikipedia article and Wikidata Q964530, which agree; the English article gives the same date. No place entity for Bamako exists in data/place/, so no died_in edge is written. The Hijri year (1445) is derived by tabular conversion."
+  sources: [source/wikipedia-salif-keita-footballer-en, source/wikipedia-salif-keita-footballer-fr, source/wikidata-salif-keita-footballer]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Keïta's religion at all. The English, French and Arabic Wikipedia articles on the footballer were each read in full: none mentions religion in its text or categories. Wikidata Q964530 carries no religion (P140) value. This is complete absence, not a conflict: no source names even a generic affiliation for him personally, let alone a school. (Statements in the record of his namesake, the musician Salif Keita, person/salif-keita, concern a different man and are not transferred.) Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-salif-keita-footballer-en, source/wikipedia-salif-keita-footballer-fr, source/wikipedia-salif-keita-footballer-ar, source/wikidata-salif-keita-footballer]
+external_ids: { wikidata: "Q964530" }
+sources: [source/wikipedia-salif-keita-footballer-en, source/wikipedia-salif-keita-footballer-fr, source/wikipedia-salif-keita-footballer-ar, source/wikidata-salif-keita-footballer]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salif Keïta (Malian footballer)' (revision 1382014578 of 26 October 2026), French Wikipedia 'Salif Keita (football, 1946)' (revision 240510405 of 19 October 2026), Arabic Wikipedia «ساليف كيتا» (revision 77067084 of 25 October 2026) and Wikidata Q964530, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn, and the QID was grounded through the Wikipedia API and Special:EntityData (Wikidata describes Q964530 as 'Malian footballer (1946–2023)'). Identity caution: person/salif-keita already exists but is the MUSICIAN Salif Keita (born 1949, Q313318); the queue line 'Salif Keïta (Footballer) — 1946–2023' is this different man, so he is built here under the distinguishing slug salif-keita-footballer and the musician's record is untouched. His Arabic label «ساليف كيتا» is the same string as the musician's Arabic label — the committer should expect the validator's homonym check to ask for the pair to be listed in data/_homonyms.yaml, as in batch 49. No relation edge is written: Bamako has no entity in data/place/."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

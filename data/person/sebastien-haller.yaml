@@ -1,0 +1,36 @@
+id: person/sebastien-haller
+class: person
+label: { ar: "سيباستيان هالير", en: "Sébastien Haller", ur: "سیبسٹین ہالر" }
+names:
+  - { value: "Sébastien Romain Teddy Haller", kind: full }
+  - { value: "سيباستيان هالير", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم عاجي، وُلد في ري أورانجي بفرنسا سنة 1994. مهاجم لعب لأوتريخت وآينتراخت فرانكفورت ووست هام وأياكس الذي فاز معه بالدوري الهولندي، ثم بوروسيا دورتموند؛ شُخّصت إصابته بورم خبيث في الخصية سنة 2022 فعاد إلى اللعب بعد العلاج، وسجل هدف الفوز لساحل العاج في نهائي كأس أمم أفريقيا 2023. مثّل فرنسا في الفئات السنية ثم اختار منتخب ساحل العاج سنة 2020."
+  en: "Ivorian footballer, born in Ris-Orangis, France in 1994. A striker who played for Utrecht, Eintracht Frankfurt, West Ham United and Ajax — winning the Eredivisie with Ajax — then Borussia Dortmund; diagnosed with a malignant testicular tumour in 2022, he returned to play after treatment, and scored Ivory Coast's winning goal in the 2023 Africa Cup of Nations final. He represented France at youth level before switching to Ivory Coast in 2020."
+  ur: "آئیوریائی فٹبالر، 1994 میں فرانس کے ری اورانژی میں پیدا ہوئے۔ اسٹرائیکر جو اتریخت، آئنٹراخٹ فرینکفرٹ، ویسٹ ہیم اور ایجیکس کے لیے کھیلے — ایجیکس کے ساتھ ایریڈیویزی جیتی — پھر بوروسیا ڈورٹمنڈ؛ 2022 میں خصیے کے مہلک رسولے کی تشخیص کے بعد علاج کروا کر کھیل میں واپس آئے، اور آئیوری کوسٹ کے لیے 2023 افریقہ کپ آف نیشنز کے فائنل میں فاتحانہ گول کیا۔ نوجوانوں کی سطح پر فرانس کی نمائندگی کے بعد 2020 میں آئیوری کوسٹ اختیار کیا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [andalus-europe, west-africa-sahel]
+born:
+  edtf: "1994-06-22"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 22 June 1994 in Ris-Orangis, Essonne, France, as given by the English Wikipedia article's infobox and Wikidata Q7665927, which agree. No place entity for Ris-Orangis exists in data/place/, so no born_in edge is written. The Hijri year (1415) is derived by tabular conversion."
+  sources: [source/wikipedia-sebastien-haller-en, source/wikipedia-sebastien-haller-fr, source/wikipedia-sebastien-haller-ar, source/wikidata-sebastien-haller]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Haller's religion at all. The English, French and Arabic Wikipedia articles were each read in full: none mentions religion in its text or categories. Wikidata Q7665927 carries no religion (P140) value. This is complete absence, not a conflict: no source names even a generic affiliation for him personally, let alone a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-sebastien-haller-en, source/wikipedia-sebastien-haller-fr, source/wikipedia-sebastien-haller-ar, source/wikidata-sebastien-haller]
+external_ids: { wikidata: "Q7665927" }
+sources: [source/wikipedia-sebastien-haller-en, source/wikipedia-sebastien-haller-fr, source/wikipedia-sebastien-haller-ar, source/wikidata-sebastien-haller]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sébastien Haller' (revision 1380888670 of 18 October 2026), French Wikipedia 'Sébastien Haller' (revision 239812547 of 25 September 2026), Arabic Wikipedia «سيباستيان هالير» (revision 77056729 of 24 October 2026) and Wikidata Q7665927, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Ris-Orangis, has no entity in data/place/. No earlier record for him existed in data/person/ under haller or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
