@@ -11,10 +11,43 @@ summary:
 wings: [ideas]
 themes: [law-and-courts, creed]
 external_ids: { wikidata: "Q962658" }
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/assabile-tareq-al-suwaidan]
 provenance:
   layer: own-research
   source: "wikidata-import deferred Q962658; Kuwaiti Fiqh Encyclopedia takfir section verified in OCR (lines 23181, 23804-6)"
   generated_by: "Devin (SWE-2 Medium)"
   run: wd-deferred-8
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+issue:
+  ar: "ما الفرق بين الكفر والتكفير، وهل يجب تكفير من صدر منه ما يدل على الكفر، ولمن إصدار الحكم؟"
+perspectives:
+- tradition: sunni
+  id: act-versus-person
+  stance:
+    ar: "نكفّر الفعل لا الفاعل — والعذر بالجهل"
+  summary:
+    ar: "في حلقة «الوسطية»: الضابط «تكفير المعين» مقابل تكفير التصرف — نقول «هذا الفعل كفر» دون الحكم على فاعله الذي قد يجهل أو يتأول؛ ومثلُه حوار الشافعي وأحمد في ترك الصلاة. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:17:00} وأمية العرب 70 مليوناً فما بالك بأمية الدين — لا نُسرع بالحكم. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:14:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:15:00}"
+  holders: []
+  evidence:
+  - ref: source/assabile-tareq-al-suwaidan
+    note: al-wassitiya ep07, 00:13:30-00:17:30
+- tradition: sunni
+  id: defined-exits-exhausting-means
+  stance:
+    ar: "نواقض محددة — ولا حكم إلا بعد استنفاد الوسائل"
+  summary:
+    ar: "حصّر المتحاورون ما يُكفَّر به في إنكار «معلوم من الدين بالضرورة» — الأصول القطعية بلا خلاف — واشترطوا بيان الشبهة والاستتابة وإمهال الفرصة. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:19:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:24:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:18:30}"
+  holders: []
+  evidence:
+  - ref: source/assabile-tareq-al-suwaidan
+    note: al-wassitiya ep07, 00:18:00-00:25:00
+- tradition: other
+  id: ridda-freedom-debate
+  stance:
+    ar: "جدل حرية الردة — والأصل لا تصادم"
+  summary:
+    ar: "دافع أحد المتحاورين عن إتاحة حرية الردة قناةً لدخول الناس الإسلام، وردّ آخر بأن النصوص تخص المنافقين المحاربين؛ وختم المقدم: الاستثناءات لا تلغي الأصل — الإسلام لا يصادم الحرية الدينية. {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:19:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:20:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30}"
+  holders: []
+  evidence:
+  - ref: source/assabile-tareq-al-suwaidan
+    note: al-wassitiya ep07, 01:19:00-01:22:30
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium); extended by Devin (SWE-2 High) run devin-tareq-al-suwaidan-wassitiya-07" }

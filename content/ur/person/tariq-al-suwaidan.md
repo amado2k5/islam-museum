@@ -81,3 +81,6 @@ translators: []
 
 ## «الوسطیہ» میں — وطن پرستی کی قسط
 سویدان نے وطن پرستی اور قومیت کی قسط تین ماہرین اور تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}۔ اختتام پر انہوں نے اپنی عروبت پر ذاتی فخر کا اعتراف کیا — «میں قرآن سمجھتا ہوں» — اور قسط کا اصول قائم کیا: تعصب کے بغیر تضاد نہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}۔
+
+## «الوسطیہ» میں — کفر و تکفیر کی قسط
+سویدان نے پروگرام کی سب سے حساس قسط — کفر اور تکفیر — عقیدہ کے علماء اور دعاۃ کے ساتھ اور دو ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}۔ انہوں نے اختتام پر زور دیا: استثناء اصول کو ختم نہیں کرتے — اسلام مذہبی آزادی سے نہیں ٹکراتا، اور ثابت نص کی عزت اور استطاعت کے ادب سے اطلاق {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}۔
