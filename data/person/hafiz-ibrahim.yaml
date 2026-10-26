@@ -1,0 +1,50 @@
+id: person/hafiz-ibrahim
+class: person
+label: { ar: "حافظ إبراهيم", en: "Hafiz Ibrahim", ur: "حافظ ابراہیم" }
+names:
+  - { value: "محمد حافظ إبراهيم", kind: full }
+  - { value: "Mohamed Hafez Ibrahim", kind: full }
+  - { value: "شاعر النيل", kind: laqab }
+  - { value: "شاعر الشعب", kind: laqab }
+gender: male
+summary:
+  ar: "شاعر مصري (1872–1932)، لُقّب بـ«شاعر النيل» و«شاعر الشعب» لأن شعره عبّر عن هموم المصريين البسطاء: حقوق المرأة والفقر والتعليم ومقاومة الاحتلال البريطاني. من أعلام إحياء الشعر العربي الكلاسيكي، رأس القسم الأدبي بدار الكتب المصرية منذ 1911، وترجم «البؤساء» لفيكتور هوغو إلى العربية."
+  en: "Egyptian poet (1872–1932), dubbed 'Poet of the Nile' and 'Poet of the People' because his poetry voiced the concerns of ordinary Egyptians: women's rights, poverty, education and resistance to the British occupation. A leading figure of the neoclassical revival of Arabic poetry, he headed the literary section of Egypt's national library from 1911 and translated Victor Hugo's Les Misérables into Arabic."
+  ur: "مصری شاعر (1872–1932)، جنہیں «شاعر النیل» اور «شاعر الشعب» کہا گیا کیونکہ ان کی شاعری عام مصریوں کے مسائل — خواتین کے حقوق، غربت، تعلیم اور برطانوی قبضے کی مخالفت — کی آواز بنی۔ عربی شاعری کے کلاسیکی احیا کے نمایاں نام، 1911 سے مصر کے قومی کتب خانے کے ادبی شعبے کے سربراہ رہے اور وکٹر ہیوگو کے ناول «بد نصیب» کا عربی ترجمہ کیا۔"
+roles: [poet, writer, translator]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1872-02-24"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 24 February 1872 at Dayrut in Asyut (all three articles' infoboxes; the Arabic article pairs the date with 14 Dhu al-Hijja 1288 AH). The year is contested: the English and Urdu leads span 1871-1932, the Urdu text gives 1871, and Wikidata carries both 1872-02-24 and a year-precision 1871. No place entity exists for Dayrut, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-hafiz-ibrahim-en, source/wikipedia-hafiz-ibrahim-ar, source/wikipedia-hafiz-ibrahim-ur, source/wikidata-hafiz-ibrahim]
+died:
+  edtf: "1932-06-21"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 21 June 1932 (all three articles) and was buried in the Sayyida Nafisa cemeteries there (Arabic article). Wikidata's alternative death value of 31 July 1932 conflicts with the articles and is not followed."
+  sources: [source/wikipedia-hafiz-ibrahim-en, source/wikipedia-hafiz-ibrahim-ar, source/wikipedia-hafiz-ibrahim-ur, source/wikidata-hafiz-ibrahim]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-hafiz-ibrahim-en, source/wikipedia-hafiz-ibrahim-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hafiz-ibrahim-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives his religion as Islam, Ahl al-Sunna wa-l-Jama'a (Sunni). That is one infobox in one tradition: the English and Urdu articles make no statement of his religion at all, and Wikidata carries no religion (P140) value. A single infobox never settles a school, so the value is unknown."
+    sources: [source/wikipedia-hafiz-ibrahim-ar, source/wikipedia-hafiz-ibrahim-en, source/wikidata-hafiz-ibrahim]
+external_ids: { wikidata: "Q2993475" }
+sources: [source/wikipedia-hafiz-ibrahim-en, source/wikipedia-hafiz-ibrahim-ar, source/wikipedia-hafiz-ibrahim-ur, source/wikidata-hafiz-ibrahim]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q2993475, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

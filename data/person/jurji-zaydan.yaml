@@ -1,0 +1,48 @@
+id: person/jurji-zaydan
+class: person
+label: { ar: "جرجي زيدان", en: "Jurji Zaydan", ur: "جرجی زیدان" }
+names:
+  - { value: "جرجي حبيب زيدان", kind: full }
+  - { value: "Jurji Habib Zaydan", kind: full }
+  - { value: "Jorge Zaydan", kind: alternate }
+gender: male
+summary:
+  ar: "روائي وصحفي ومحرر ومعلم لبناني (1861–1914) استقر في القاهرة، فأسّس مجلة «الهلال» (1892) ودار الهلال للنشر، وكتب ثلاثًا وعشرين رواية تاريخية قرّبت التاريخ الإسلامي والعربي إلى جمهور واسع. من أعلام النهضة، ألّف «تاريخ التمدن الإسلامي» و«تاريخ آداب اللغة العربية» وساهم في صياغة نظرية القومية العربية."
+  en: "Lebanese novelist, journalist, editor and teacher (1861–1914) who settled in Cairo, founded the magazine Al-Hilal (1892) and the Dar al-Hilal publishing house, and wrote twenty-three historical novels that carried Islamic and Arab history to a mass readership. A leading Nahda thinker, he wrote multi-volume histories of Islamic civilisation and of Arabic literature and helped formulate the theory of Arab nationalism."
+  ur: "لبنانی ناول نگار، صحافی، مدیر اور معلم (1861–1914) جو قاہرہ میں آباد ہوئے، رسالہ «الہلال» (1892) اور دار الہلال کی بنیاد رکھی، اور تئیس تاریخی ناول لکھے جنہوں نے اسلامی و عرب تاریخ کو وسیع قارئین تک پہنچایا۔ نہضہ کے نمایاں مفکر، «تاریخ التمدن الاسلامی» اور «تاریخ آداب اللغۃ العربیہ» کے مصنف اور عرب قومیت کے نظریے کے اولین مرتبین میں سے تھے۔"
+roles: [writer, novelist, journalist, teacher]
+wings: [people]
+regions: [levant-iraq, egypt-nile]
+born:
+  edtf: "1861-12-14"
+  hijri: "1278"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Beirut on 14 December 1861 (both articles and Wikidata; the Arabic article pairs the date with 10 Jumada al-Akhira 1278 AH). No place entity exists for Beirut, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar, source/wikidata-jurji-zaydan]
+died:
+  edtf: "1914-07-21"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 21 July 1914 (both articles and Wikidata; the Arabic article pairs the date with 27 Sha'ban 1332 AH and says he died suddenly among his books and papers)."
+  sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar, source/wikidata-jurji-zaydan]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling; both readings preserved. The Christian evidence is framed as origins and family in every text: the English article (citing Philipp and Booth) says he was born to an Eastern Orthodox Christian family, the Arabic article says he was born to a poor Christian family from Ain Aanoub, and the English article records that in 1910 the Muslim public objected to his Christian origins and secular leanings. No text records a personal profession or practice by him. Wikidata carries a single religion value, Eastern Orthodoxy — one structured-data value, never sufficient — and the Arabic and Urdu articles file him under Christian categories, which never attest. Family background alone does not settle a personal affiliation (the Salama Moussa configuration, wave 49), so the value is unknown; a founder ruling could record christian on the origins evidence."
+    sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar, source/wikipedia-jurji-zaydan-ur, source/wikidata-jurji-zaydan]
+external_ids: { wikidata: "Q1262212" }
+sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar, source/wikipedia-jurji-zaydan-ur, source/wikidata-jurji-zaydan]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q1262212, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
