@@ -19,7 +19,8 @@ const journeys = viewJourneys(loadJourneys(), lang);
 const exhibits = viewExhibits(loadExhibits(), lang).map((e) => {
   const n = byId.get(e.record);
   if (!n) throw new Error(`tour/exhibits.yaml: record ${e.record} is not in the graph`);
-  return { ...e, date: formatDate(n.data?.made, lang).text, href: href(lang, e.record) };
+  const d = formatDate(n.data?.made, lang);
+  return { ...e, date: d.text, note: d.derived ? T.entity.dagger : "", href: href(lang, e.record) };
 });
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 ---
@@ -45,6 +46,7 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
         <li><a href={e.href}>{e.label}</a>{e.date ? ` (${e.date})` : ""} — {e.desc}</li>
       ))}
     </ul>
+    {exhibits.some((e) => e.note) && <p>{T.entity.dagger}</p>}
     <h2>{t.nojs_journeys}</h2>
     <ul>
       {journeys.map((j) => (
