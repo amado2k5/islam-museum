@@ -1,0 +1,47 @@
+id: person/sattar-khan
+class: person
+label: { ar: "ستار خان", en: "Sattar Khan", ur: "ستار خان" }
+names:
+  - { value: "ستارخان", kind: full }
+  - { value: "Sattar Khan", kind: full }
+  - { value: "Sardar-e Melli", kind: laqab }
+gender: male
+summary:
+  ar: "قائد عسكري للثورة الدستورية الإيرانية (1868–1914) من أذربيجان الإيرانية، قاد دفاع تبريز ضد قوات محمد علي شاه في 1908-09 فنال لقب «سردار ملي» (القائد الوطني)، وجُرح في واقعة حديقة أتابك بطهران سنة 1910 وبقي عاجزًا حتى وفاته، ودُفن في مرقد شاه عبد العظيم بالري."
+  en: "Military leader of the Iranian Constitutional Revolution (1868–1914) from Iranian Azerbaijan. He led the defence of Tabriz against Mohammad Ali Shah's forces in 1908-09 and was awarded the title Sardar-e Melli, 'National Commander'; wounded at the Atabak Park incident in Tehran in 1910, he remained disabled until his death and was buried at the Shah-Abdol-Azim shrine in Ray."
+  ur: "ایرانی آئینی انقلاب کے عسکری رہنما (1868–1914)، ایرانی آذربائیجان سے؛ انہوں نے 1908-09 میں تبریز کا محمد علی شاہ کی فوجوں سے دفاع کیا اور «سردارِ ملی» کا خطاب پایا؛ 1910 میں تہران کے اتابک پارک واقعے میں زخمی ہو کر عمر بھر معذور رہے اور وفات کے بعد ری کے شاہ عبد العظیم مزار میں دفن ہوئے۔"
+roles: [general, activist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1868"
+  hijri: "1285"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born in Azerbaijan, the third son of Haj Hasan Bazzaz, a cloth merchant of Qaradagh. The Encyclopaedia Iranica gives Janali village and the year 1868, and the English Wikipedia text agrees with 1868 ('some time in 1868'); the English article's infobox and lead instead give 20 October 1866, the infobox naming Sardar Kandy as the birthplace. The record follows the scholarly tradition (1868, Janali) and discloses the infobox reading in full. The Hijri year 1285 is the derived conversion of 1868."
+  sources: [source/iranica-sattar-khan, source/wikipedia-sattar-khan-en]
+died:
+  edtf: "1914-11-09"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Tehran, disabled since the leg wound he received at the Atabak Park incident of August 1910, and was buried in the Shah-Abdol-Azim shrine cemetery at Shahr-e Ray. The day is split across the sources: the Encyclopaedia Iranica gives 9 November 1914 and the English Wikipedia text, citing Berberian, agrees; the English article's infobox and lead give 17 November 1914, and the Russian infobox gives 15 November 1914. The record follows the Iranica reading and discloses the others. The Hijri year 1332 is the derived conversion."
+  sources: [source/iranica-sattar-khan, source/wikipedia-sattar-khan-en, source/wikipedia-sattar-khan-ru]
+relations:
+  - { type: buried_in, target: place/rayy, sources: [source/wikipedia-sattar-khan-en] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the SHIA-MAPPING RULE, with the mapping stated. Two independent traditions attest Shia for him personally. (1) The Persian tradition: the Persian Wikipedia article's text places him personally among the Sheikhi lutis of Tabriz — 'he was among the Sheikhi lutis', the city's lutis following two currents, the Sheikhiyya and the Shar'iyya — and the Persian historiography behind it (Kasravi, in the accounts quoted from him) describes his personal Twelver devotion: a banner raised in the name of the Master of the Age, the Twelfth Imam, oaths sworn by Abu'l-Fadl, mourning assemblies for al-Husayn that he himself held, and his self-description as the executor of the Najaf ulama's fatwas. (2) The infobox tradition: the Russian Wikipedia infobox gives his confession for him personally as 'Shia Islam'; the Hebrew infobox and an older English infobox ('Twelver Shi'a Islam') carry the same value and are counted as that one family, not as further sources. MAPPING: 'Shia' attested by both traditions, with the branch-supporting context Twelver throughout — a Sheikhi affiliation (the Sheikhiyya is a Twelver current) and Twelfth-Imam devotion — so the value is recorded shia-twelver. The Encyclopaedia Iranica names no school; it records only his 1894-95 pilgrimage to the Atabat and his defence of the Shi'ite pilgrims at Samarra, practice and context that support but do not carry the attestation."
+    sources: [source/wikipedia-sattar-khan-fa, source/wikipedia-sattar-khan-ru, source/iranica-sattar-khan]
+sources: [source/wikipedia-sattar-khan-en, source/iranica-sattar-khan, source/wikipedia-sattar-khan-fa, source/wikipedia-sattar-khan-ru]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sattar Khan', the Encyclopaedia Iranica entry 'SATTAR KHAN' by Anja Pistor-Hatam (published 20 July 2009; last updated 26 October 2012), and the Persian and Russian Wikipedia articles, all read on 26 October 2026; the reading route did not expose revision ids, so consultation dates are recorded in the source files and no revision id is invented. No Wikidata item could be grounded through the available routes, so no Wikidata source or external id is recorded (wave-33 precedent). Both dates are debated across the sources and are recorded at the Iranica readings with all variants disclosed (birth 1868 against the infoboxes' 20 October 1866; death 9 November 1914 against 15 and 17 November). His faith is shia-twelver/documented under the Shia-mapping rule, the mapping and both attesting traditions stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-36
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
