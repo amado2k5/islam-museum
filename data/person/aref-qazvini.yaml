@@ -1,0 +1,49 @@
+id: person/aref-qazvini
+class: person
+label:
+  en: "Aref Qazvini"
+  ar: "عارف قزوینی"
+summary:
+  ar: "شاعر وموسيقي إيراني (1882–1934) اسمه الكامل ابوالقاسم عارف قزوینی، عُرف بـ«شاعر ملی» أي شاعر إيران الوطني؛ كانت تصانيفه الوطنية والسياسية أناشيد الثورة الدستورية، وقضى سنواته الأخيرة فقيرًا في همدان."
+  en: "Iranian poet, lyricist and musician (1882-1934), full name Abolqasem Aref Qazvini, known as Iran's 'national poet'; his patriotic and political tasnifs were the songs of the Constitutional Revolution, and he spent his last years in poverty at Hamadan."
+names:
+  - { value: "Abolqasem Aref Qazvini", kind: full }
+  - { value: "ابوالقاسم عارف قزوینی", kind: full }
+  - { value: "National Poet", kind: laqab }
+  - { value: "شاعر ملی", kind: laqab }
+  - { value: "Aref Ghazvini", kind: alternate }
+gender: male
+roles: [poet, musician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1882"
+  hijri: "1300"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Qazvin. The year is not settled: English Wikipedia gives circa 1882, following the 1300 AH date on the cover of his Divan as published in his lifetime, while the Persian infobox gives 1259 SH (1880-81) and other accounts cited in the English article's note give 1295 AH and about 1297 AH. The Hijri year follows the Divan cover and is marked derived against the recorded year."
+  sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/wikidata-aref-qazvini]
+died:
+  edtf: "1934-01-21"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Hamadan; buried at the Avicenna Mausoleum. Persian Wikipedia gives 1 Bahman 1312 SH, Encyclopaedia Iranica gives 1 Bahman 1312 = 21 January 1934, and Wikidata gives 21 January 1934; the English article's text allows that he died about 12:30 a.m. on 20 January or in the early hours of 21 January. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/iranica-aref-qazvini, source/wikidata-aref-qazvini]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read attests a faith or a school for him personally. English Wikipedia records that his ancestors two generations back were Zoroastrians - family background, which never counts - and that as a youth his father made him attend sermons, perform noha recitation and wear a turban, all of which he dropped on his father's death: practice imposed in youth, not attestation. Encyclopaedia Iranica records that a takfir was issued against him by others and describes his drinking and profligacy; others' judgements and a man's conduct are not attestation in any direction. Persian Wikipedia makes no statement of his religion and Wikidata carries no religion value."
+    sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/iranica-aref-qazvini, source/wikidata-aref-qazvini]
+relations:
+  - { type: born_in, target: place/qazvin, sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa] }
+  - { type: died_in, target: place/hamadan, sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/iranica-aref-qazvini] }
+  - { type: buried_in, target: building/avicenna-mausoleum, sources: [source/wikipedia-aref-qazvini-en, source/iranica-aref-qazvini] }
+external_ids: { wikidata: Q2654962 }
+sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/wikidata-aref-qazvini, source/iranica-aref-qazvini]
+provenance: { layer: own-research, source: "Lane brief century-additions-40 (group Z2); grounded from English Wikipedia revision 1353224006, Persian Wikipedia revision 44707374, the Encyclopaedia Iranica entry by Matini, and Wikidata item Q2654962 (revision 2543721141), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-40 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
