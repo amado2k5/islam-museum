@@ -1,0 +1,37 @@
+id: person/lassana-diarra
+class: person
+label: { ar: "لاسانا ديارا", en: "Lassana Diarra", ur: "لاسانا دیارا" }
+names:
+  - { value: "Lassana Diarra", kind: full }
+  - { value: "لاسانا ديارا", kind: full }
+  - { value: "Lass", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم فرنسي معتزل من أصل مالي، وُلد في باريس سنة 1985. لاعب وسط مدافع لعب للوهافر وتشيلسي وأرسنال وبورتسموث وريال مدريد وأنجي ماخاتشكالا ولوكوموتيف موسكو وأولمبيك مرسيليا وباريس سان جيرمان، وخاض 34 مباراة دولية مع منتخب فرنسا بين 2007 و2016 قبل اعتزاله سنة 2019."
+  en: "French retired footballer of Malian descent, born in Paris in 1985. A defensive midfielder who played for Le Havre, Chelsea, Arsenal, Portsmouth, Real Madrid, Anzhi Makhachkala, Lokomotiv Moscow, Olympique de Marseille and Paris Saint-Germain, he won 34 caps for France between 2007 and 2016 before retiring in 2019."
+  ur: "مالی نژاد فرانسیسی ریٹائرڈ فٹبالر، 1985 میں پیرس میں پیدا ہوئے۔ دفاعی مڈفیلڈر جنہوں نے لوہاور، چیلسی، آرسنل، پورٹسماؤت، ریال میڈرڈ، انژی، لوکوموتیو ماسکو، مارسیل اور پیرس سینٹ جرمین کے لیے کھیلا؛ 2007 سے 2016 کے درمیان فرانس کے لیے 34 میچ کھیلے اور 2019 میں ریٹائر ہوئے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1985-03-10"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 March 1985 in Paris, France, as given by the English Wikipedia article's infobox and early-life section (born in Paris to Malian parents and raised in Belleville). Wikidata Q485196 gives the birthplace as Le Blanc-Mesnil, a commune in the Paris suburbs; the article's reading is followed and the difference, one of municipal granularity within the same metropolitan area, is disclosed here and in the Wikidata source's reliability note. No place entity for Paris exists in data/place/, so no born_in edge is written. The Hijri year (1405) is derived by tabular conversion."
+  sources: [source/wikipedia-lassana-diarra-en, source/wikipedia-lassana-diarra-ar, source/wikipedia-lassana-diarra-fr, source/wikidata-lassana-diarra]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Diarra himself. The English Wikipedia article's personal-life section states that “Diarra is a practising Muslim” — a generic identification joined to a report of practice, in one article family — and its categories file him under “French Muslims”. The Arabic article makes no statement of his religion, the French article makes none in its text, and Wikidata Q485196 gives his religion as Islam (Q432), generically. A generic identification, a category filing and one structured-data value are a single attestation family, not two independent sources naming a school; his Malian family background may not be counted either. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-lassana-diarra-en, source/wikipedia-lassana-diarra-ar, source/wikipedia-lassana-diarra-fr, source/wikidata-lassana-diarra]
+external_ids: { wikidata: "Q485196" }
+sources: [source/wikipedia-lassana-diarra-en, source/wikipedia-lassana-diarra-ar, source/wikipedia-lassana-diarra-fr, source/wikidata-lassana-diarra]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Lassana Diarra' (revision 1381398494 of 22 October 2026), Arabic Wikipedia «لاسانا ديارا» (revision 77067295 of 25 October 2026), French Wikipedia 'Lassana Diarra' (revision 239577759 of 17 September 2026) and Wikidata Q485196, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Diarra's birthplace, Paris, has no entity in data/place/. No earlier record for him existed in data/person/ under diarra or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

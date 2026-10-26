@@ -1,0 +1,38 @@
+id: person/hassan-shehata
+class: person
+label: { ar: "حسن شحاتة", en: "Hassan Shehata", ur: "حسن شحاتہ" }
+names:
+  - { value: "Hassan Hassan Shehata", kind: full }
+  - { value: "حسن حسن شحاتة", kind: full }
+  - { value: "The Master", kind: laqab }
+  - { value: "المعلم", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم ومدرب مصري، وُلد في كفر الدوار بمحافظة البحيرة سنة 1947. مهاجم لعب للزمالك وكاظمة الكويتي وخاض 52 مباراة دولية مع منتخب مصر، ويُعد من أفضل مهاجمي أفريقيا. اشتهر مدربًا بقيادة منتخب مصر إلى ثلاثة ألقاب متتالية في كأس الأمم الأفريقية (2006 و2008 و2010)، وهو أول مدرب يحقق ثلاثة ألقاب متتالية في البطولة."
+  en: "Egyptian footballer and manager, born in Kafr El Dawwar, Beheira in 1947. A forward who played for Zamalek and Kuwait's Kazma and won 52 caps for Egypt, he is regarded as one of Africa's finest forwards. As a manager he led Egypt to three consecutive Africa Cup of Nations titles (2006, 2008, 2010), the first coach to win three AFCON titles in a row."
+  ur: "مصری فٹبالر اور مینیجر، 1947 میں کفر الدوار، بحیرہ میں پیدا ہوئے۔ فارورڈ کے طور پر زمالک اور کویت کے کاظمہ کے لیے کھیلے اور مصر کے لیے 52 بین الاقوامی میچ کھیلے۔ بطور مینیجر انہوں نے مصر کو لگاتار تین افریقہ کپ آف نیشنز (2006، 2008، 2010) جتوائے، اور وہ لگاتار تین خطاب جیتنے والے پہلے کوچ بنے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1947-06-19"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 19 June 1947 in Kafr El Dawwar, Beheira, Egypt, as given by the English Wikipedia article's infobox and lead and by the Arabic article. Wikidata Q734006 gives 19 June 1949, which neither article supports; it is disclosed here and in the Wikidata source's reliability note and is not followed. No place entity for Kafr El Dawwar exists in data/place/, so no born_in edge is written. The Hijri year (1366) is derived by tabular conversion."
+  sources: [source/wikipedia-hassan-shehata-en, source/wikipedia-hassan-shehata-ar, source/wikidata-hassan-shehata]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Shehata himself, and none states any religion for him at all. The English Wikipedia article makes no statement of his religion in its text and files him under no religion category; its hatnote distinguishing him from a Shia Muslim cleric of a similar name is a statement about the namesake, not about him. The Arabic article contains no mention of religion, and Wikidata Q734006 carries no religion value at all. Nationality and Egypt's milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-hassan-shehata-en, source/wikipedia-hassan-shehata-ar, source/wikidata-hassan-shehata]
+external_ids: { wikidata: "Q734006" }
+sources: [source/wikipedia-hassan-shehata-en, source/wikipedia-hassan-shehata-ar, source/wikidata-hassan-shehata]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hassan Shehata' (revision 1381395075 of 22 October 2026), Arabic Wikipedia «حسن شحاتة» (revision 76841097 of 3 October 2026) and Wikidata Q734006, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Shehata's birthplace, Kafr El Dawwar, has no entity in data/place/. No earlier record for him existed in data/person/ under shehata or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
