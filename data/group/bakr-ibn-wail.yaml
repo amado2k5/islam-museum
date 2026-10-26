@@ -22,3 +22,6 @@ provenance:
   run: "raheeq-prose-batch-1a"
 sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 20–22, 45" }
+education:
+  levels: [sprouts, explorers, scholars]
+  provenance: { generated_by: "Devin", model: "unknown", run: "education-E5-leveled-b8-levels-fix", note: "Declares the levels whose leveled sections batch 8 added to content/ (the records had no education.levels)." }

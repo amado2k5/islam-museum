@@ -26,3 +26,6 @@ relations:
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237; al-Raheeq al-Makhtum p. 449", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 235-237" }
+education:
+  levels: [sprouts, explorers, scholars]
+  provenance: { generated_by: "Devin", model: "unknown", run: "education-E5-leveled-b8-levels-fix", note: "Declares the levels whose leveled sections batch 8 added to content/ (the records had no education.levels)." }

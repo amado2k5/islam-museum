@@ -11,3 +11,6 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 sources: [source/mubarakpuri-raheeq, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+education:
+  levels: [sprouts, explorers, scholars]
+  provenance: { generated_by: "Devin", model: "unknown", run: "education-E5-leveled-b8-levels-fix", note: "Declares the levels whose leveled sections batch 8 added to content/ (the records had no education.levels)." }
