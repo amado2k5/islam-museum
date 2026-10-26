@@ -146,3 +146,6 @@ Al-Suwaidan steered the episode on the scarcity of female symbols across history
 
 ## In 'Al-Wasatiyya' — the resistance-and-terrorism episode
 Al-Suwaidan steered the resistance-versus-terrorism episode, closing with his equation: the right to resist occupation is undisputed, while aiming weapons at civilians is terrorism — 'a cause of God's anger before the West's curse' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.
+
+## In 'Al-Wasatiyya' — the youth-culture-crisis episode
+Al-Suwaidan steered the youth cultural crisis episode with polls and figures — 71% a real crisis, and the 47%/43% split on the satellites-and-internet effect {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.

@@ -114,3 +114,6 @@ translators: []
 
 ## «الوسطیہ» میں — مزاحمت اور دہشت گردی کی قسط
 سویدان نے مزاحمت بمقابلہ دہشت گردی کی قسط چلائی اور اپنے معادلے پر اختتام کیا: قبضے کے خلاف مزاحمت کا حق غیر متنازع، جب کہ شہریوں پر ہتھیار دہشت گردی ہے — «مغرب کی لعنت سے پہلے اللہ کا غضب» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}۔
+
+## «الوسطیہ» میں — ثقافتی بحران کی قسط
+سویدان نے نوجوانوں کے ثقافتی بحران کی قسط ووٹوں اور اعداد کے ساتھ چلائی — 71% حقیقی بحران، اور سیٹلائٹ و انٹرنیٹ کے اثر پر 47%/43% کی تقسیم {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}۔

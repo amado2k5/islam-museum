@@ -146,3 +146,6 @@ translators: []
 
 ## في «الوسطية» — حلقة المقاومة والإرهاب
 أدار السويدان حلقة المقاومة والإرهاب وختم بمعادلته: حق المقاومة للمحتل لا يجادل فيه اثنان، وتوجيه السلاح للمدنيين إرهاب — «سبب غضب من الله قبل لعنة الغرب» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.
+
+## في «الوسطية» — حلقة أزمة الثقافة
+أدار السويدان حلقة أزمة الثقافة لدى الشباب باستطلاعات وأرقام — 71% أزمة حقيقية، وانقسام 47%/43% على أثر الفضائيات والإنترنت {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.
