@@ -1,3 +1,10 @@
+---
+id: concept/azmat-al-thaqafa-al-shabab
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # نوجوانوں کا ثقافتی بحران
 
 ## قسط اور ووٹ

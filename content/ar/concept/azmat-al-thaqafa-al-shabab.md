@@ -1,3 +1,10 @@
+---
+id: concept/azmat-al-thaqafa-al-shabab
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # أزمة الثقافة لدى الشباب
 
 ## الحلقة والتصويت

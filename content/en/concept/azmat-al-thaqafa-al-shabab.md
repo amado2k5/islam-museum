@@ -1,3 +1,10 @@
+---
+id: concept/azmat-al-thaqafa-al-shabab
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # The youth cultural crisis
 
 ## The episode and the votes
