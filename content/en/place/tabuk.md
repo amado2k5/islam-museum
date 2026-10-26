@@ -28,3 +28,12 @@ The museum's material on this place includes events that took place here: 10.
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. A description of the place and its history will be added from primary sources in the coming batches.
+
+## For Sprouts
+Tabuk, a town in the northwest of the Arabian Peninsula, the farthest point the Prophet's campaign reached toward the Byzantine border in 630 CE.
+
+## For Explorers
+Tabuk, a town in the northwest of the Arabian Peninsula, the farthest point the Prophet's campaign reached toward the Byzantine border in 630 CE. Its rough coordinates are 28.38 north, 36.57 east.
+
+## For Scholars
+Tabuk, a town in the northwest of the Arabian Peninsula, the farthest point the Prophet's campaign reached toward the Byzantine border in 630 CE. Its rough coordinates are 28.38 north, 36.57 east.

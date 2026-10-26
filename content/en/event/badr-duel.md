@@ -22,3 +22,12 @@ Ali used to swear that the verse about the two opponents who dispute concerning 
 
 ## In The Sealed Nectar (pp. 216–217)
 Utba, Shayba and al-Walid ibn Utba came out to duel. 'Awf and Mu'awwidh, the sons of 'Afra', and Abdullah ibn Rawaha came out to meet them. They said they wanted their equals from Quraysh. Then Ubayda ibn al-Harith, Hamza and Ali rose. Hamza killed Utba, and Ali killed al-Walid. Ubayda and Shayba each crippled the other, and then they killed him ([[event/badr-battle-day|the day of Badr]]) {cite:mubarakpuri-raheeq p.216} {cite:mubarakpuri-raheeq p.217}.
+
+## For Sprouts
+The duel of Badr: the opening combat on 17 Ramadan 2 AH — three of Quraysh's chiefs against three of the Muslims, ending with the three Qurayshis fallen.
+
+## For Explorers
+The opening duel of Badr on 17 Ramadan 2 AH: the first to kindle the battle was al-Aswad ibn Abd al-Asad al-Makhzumi, who swore to drink from the Muslims' cistern or wreck it — Hamza felled him at the cistern. Then three of Quraysh's finest riders of one family — Utba and Shayba the sons of Rabi'a and al-Walid ibn Utba — came out asking single combat. Three Ansari youths stepped out first — Awf and Mu'awwadh the sons of al-Harith and Abdullah ibn Rawaha; asked who they were, they said a party of the Ansar, and the Qurayshis answered 'fine peers, we have no need of you' and called 'Muhammad, send us our peers of our own people' — so the Prophet ordered Ubayda ibn al-Harith, Hamza and Ali forward. The duel ended with the three Qurayshis fallen and a fatal wound to one Muslim.
+
+## For Scholars
+The opening duel of Badr on 17 Ramadan 2 AH: three of Quraysh's chiefs against three of the Muslims, ending with the three Qurayshis killed and a fatal wound to one Muslim. The first slain man to kindle the battle was al-Aswad ibn Abd al-Asad al-Makhzumi, who swore to drink from the Muslims' cistern or wreck it — Hamza killed him at the cistern. Then three of Quraysh's finest riders of one family — Utba and Shayba the sons of Rabi'a and al-Walid ibn Utba — came out asking single combat. Three Ansari youths stepped out first — Awf and Mu'awwadh the sons of al-Harith and Abdullah ibn Rawaha; asked who they were, they said a party of the Ansar, and the Qurayshis answered 'fine peers, we have no need of you' and called 'Muhammad, send us our peers of our own people' — so the Prophet ordered Ubayda ibn al-Harith, Hamza and Ali forward.

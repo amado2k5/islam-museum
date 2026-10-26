@@ -14,3 +14,12 @@ His name is linked with [[event/muthanna-commission|the commission of al-Muthann
 
 ## In al-Tabari
 His name appears in the index of the third volume of al-Tabari together with Abu Ubayd ibn Mas'ud, in the reports of the year 13 AH, under the title "The report of al-Muthanna ibn Haritha and Abu Ubayd ibn Mas'ud". {cite:tabari-tarikh-abu-al-fadl j.3 p.630}
+
+## For Sprouts
+Al-Muthanna ibn Haritha al-Shaybani, one of the commanders of the opening of Iraq, whom al-Baladhuri counts the first conqueror of the Sawad; he called his people and they entered Islam, and he met Khalid at al-Nibaj.
+
+## For Explorers
+Al-Muthanna ibn Haritha ibn Salama ibn Damdam al-Shaybani, one of the commanders of the opening of Iraq, whom al-Baladhuri counts the first conqueror of the Sawad. He raided the Sawad with men of his tribe Banu Shayban, so Abu Bakr wrote him a writ over those of them who entered Islam to fight the Persians; he camped at Khaffan, called his people and they entered Islam. Then Abu Bakr wrote him to hear and obey Khalid ibn al-Walid — he met him at al-Nibaj and met Jabban at the river. His name ties to Muthanna's writ and the opening of al-Hira, and he appears in the contents of al-Tabari's third volume with Abu Ubayd ibn Mas'ud under the year 13 AH.
+
+## For Scholars
+Al-Muthanna ibn Haritha ibn Salama ibn Damdam al-Shaybani, one of the commanders of the opening of Iraq, whom al-Baladhuri counts the first conqueror of the Sawad. Al-Baladhuri says he raided the Sawad with men of his tribe Banu Shayban; Abu Bakr wrote him a writ over those of them who entered Islam to fight the Persians. He camped at Khaffan, called his people and they entered Islam. Then Abu Bakr wrote him to hear and obey Khalid ibn al-Walid — he met him at al-Nibaj, and met Jabban at the Dam river (nahr al-dam). His name ties to Muthanna's writ and the opening of al-Hira. He appears in the contents of al-Tabari's third volume with Abu Ubayd ibn Mas'ud under the year 13 AH, under the heading 'the account of al-Muthanna ibn Haritha and Abu Ubayd ibn Mas'ud'.

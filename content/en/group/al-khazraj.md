@@ -19,3 +19,12 @@ The pledges of al-Aqaba and the support of al-Khazraj for the Prophet after the 
 
 ## For young visitors
 Al-Khazraj are a tribe of Medina, originally from Yemen. Together with al-Aws they became the "Ansar", the helpers who welcomed the Prophet.
+
+## For Sprouts
+Khazraj, one of Yathrib's two tribes with the Aws, of the Qahtani clans of Kahlan — two sons of Haritha ibn Tha'laba ibn Amr of Azd, who settled Medina after Azd's migration from Yemen.
+
+## For Explorers
+Khazraj, one of Yathrib's two tribes with the Aws; the Raheeq counts them among the Qahtani clans of Kahlan and makes them two sons of Haritha ibn Tha'laba ibn Amr of Azd, who settled Medina after Azd's migration from Yemen. The author transmits that Sulayman al-Nadwi preferred that the Ansar of Aws and Khazraj descend from the house of Nabit ibn Isma'il, not Qahtan. And the author takes Aws and Khazraj as his example that rivalry in honor often ended in wars between tribes sharing one father.
+
+## For Scholars
+Khazraj, one of Yathrib's two tribes with the Aws; the Raheeq counts them among the Qahtani clans of Kahlan and makes them two sons of Haritha ibn Tha'laba ibn Amr of Azd, who settled Medina after Azd's migration from Yemen. The author transmits that Sulayman al-Nadwi preferred that the Ansar of Aws and Khazraj descend from the house of Nabit ibn Isma'il, not Qahtan. And the author takes Aws and Khazraj as his example that rivalry in honor often ended in wars between tribes sharing one father.

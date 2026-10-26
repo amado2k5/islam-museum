@@ -22,3 +22,12 @@ Ibn Ishaq names him among the eight men of Tamim who rode to the Prophet concern
 
 ## His defence of Muhallam ibn Jaththama
 At Hunayn he defended Muhallam ibn Jaththama, who had killed Amir ibn al-Adbat, "for his standing among Khindif," against Uyayna ibn Hisn. He then spoke privately with Qays and said: "You have kept from the Messenger of God a slain man through whom people might be set right." He threatened them with fifty men of Tamim who would swear that the slain man had been killed as an unbeliever, so that his blood would be waived. They accepted the blood-money. See [[event/raid-of-ibn-abi-hadrad-on-batn-idam|the account]]. {cite:ibn-hisham-saqqa 4/276} {cite:ibn-hisham-saqqa 4/277}
+
+## For Sprouts
+Al-Aqra' ibn Habis, chief of Banu Tamim and one of the Arabs' arbitrators; he entered Islam after the conquest of Mecca and received a hundred camels at al-Ji'rana in the reconciled-hearts share.
+
+## For Explorers
+Al-Aqra' ibn Habis, chief of Banu Tamim in the Jahiliyya and one of the Arabs' arbitrators; he entered Islam after the conquest of Mecca and the Prophet gave him a hundred camels of the Hunayn spoils at al-Ji'rana in the reconciled-hearts share — to win his heart and seek the Islam of Tamim's great tribes in Najd. His Islam proved good: he held firm in the Ridda wars with Khalid ibn al-Walid and marched in the openings until he fell in the lands of Jawzjan in Khurasan under Uthman's caliphate.
+
+## For Scholars
+Al-Aqra' ibn Habis, chief of Banu Tamim in the Jahiliyya and one of the Arabs' arbitrators; he entered Islam after the conquest of Mecca and the Prophet gave him a hundred camels at al-Ji'rana in the reconciled-hearts share, becoming thereafter a striving Companion who witnessed the Ridda wars and the openings of Khurasan. The Prophet gave him a hundred camels of the Hunayn spoils to win his heart and seek the Islam of Tamim's great tribes in Najd. His Islam proved good: he held firm in the Ridda wars with Khalid ibn al-Walid and marched in the openings until he fell in the lands of Jawzjan in Khurasan under Uthman's caliphate.

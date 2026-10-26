@@ -12,3 +12,8 @@ relations:
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 1; extended by Devin (SWE-2 High) from Futuh al-Buldan (Maarif 1407), batch 26", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); extended by Devin (SWE-2 High) — Futuh pp. 337–339" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

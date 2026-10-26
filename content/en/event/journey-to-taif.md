@@ -26,3 +26,12 @@ The Prophet returned on the road to Mecca with a broken heart. When he reached Q
 
 ## For young visitors
 The Prophet went to the city of al-Ta'if asking its people to believe, but they refused and pelted him with stones until he was exhausted. He prayed to God with words that showed his sorrow, and God sent to him someone who helped him to bear it with patience.
+
+## For Sprouts
+In Shawwal of the prophethood's tenth year the Prophet walked to Taif with Zayd ibn Haritha, calling to Islam; its chiefs and lowfolk rejected him and he returned broken.
+
+## For Explorers
+In Shawwal of the prophethood's tenth year — late May or early June 619 CE — the Prophet went to Taif, some sixty miles from Mecca, on foot with his freedman Zayd ibn Haritha, calling the tribes on the road and not one answering. He sat with three brothers of Thaqif's chiefs — Abd Yalil, Mas'ud and Habib the sons of Amr — calling them to God and to the aid of Islam, and met mockery and dismissal, rising with the words 'as you have done what you did, keep it from me'. He stayed ten days leaving none of their chiefs unaddressed; they said 'leave our land' and stirred up their lowfolk, who followed him cursing and shouting and throwing stones till they hurt him, Zayd shielding him with his body till his head was cut; he took refuge in an orchard of Utba and Shayba the sons of Rabi'a, some three miles from Taif.
+
+## For Scholars
+In Shawwal of the prophethood's tenth year — late May or early June 619 CE — the Prophet went to Taif, some sixty miles from Mecca, on foot with his freedman Zayd ibn Haritha, calling the tribes on the road and not one answering. He sat with three brothers of its chiefs — Abd Yalil, Mas'ud and Habib the sons of Amr ibn Umayr al-Thaqafi — calling them to God and to the aid of Islam: one said 'He shreds the Ka'ba's cloth if God sent you', another 'did God find no one but you?', the third 'by God I will never speak to you'; so he rose saying 'as you have done what you did, keep it from me'. He stayed in Taif ten days leaving none of their chiefs unaddressed; they said 'leave our land' and stirred up their lowfolk, who followed him cursing and shouting until the people gathered in two rows throwing stones till his sandals were dyed with blood, Zayd shielding him with his body till his head was cut. He took refuge in an orchard of Utba and Shayba the sons of Rabi'a, some three miles from Taif.
