@@ -1,0 +1,49 @@
+id: person/salim-al-mubarak-al-sabah
+class: person
+label: { ar: "سالم المبارك الصباح", en: "Salim Al-Mubarak Al-Sabah", ur: "سالم مبارک الصباح" }
+names:
+  - { value: "سالم المبارك بن صباح الصباح", kind: full }
+  - { value: "Salim Al-Mubarak Al-Sabah", kind: full }
+  - { value: "Salem Mubarak Al-Sabah", kind: alternate }
+  - { value: "Salim I of Kuwait", kind: alternate }
+gender: male
+summary:
+  ar: "سالم المبارك الصباح (وُلد سنة 1864 – توفي في مدينة الكويت في 23 فبراير 1921)، حاكم الكويت التاسع من أسرة آل صباح، والابن الثاني لمبارك الكبير، ومؤسس فرع آل سالم في الأسرة الحاكمة. كان واليًا على مدينة الكويت في 1915–1917 وقائدًا لفرسان الكويت ومشاتها، وخلف أخاه جابر الثاني في 5 فبراير 1917، فشهد عهده القصير بناء سور الكويت الثالث ومعركتي حمض والجهراء (1920) في مواجهة ضغط الإخوان والحدود، وخلفه ابن أخيه أحمد الجابر، ومن أبنائه عبد الله السالم وصباح السالم، أميرا الكويت الحادي عشر والثاني عشر لاحقًا."
+  en: "Salim Al-Mubarak Al-Sabah (born in 1864 – died at Kuwait City on 23 February 1921) was the ninth ruler of Kuwait of the Al-Sabah family, the second son of Mubarak the Great and the progenitor of the family's Al-Salim branch. He was governor of Kuwait City in 1915–1917 and commander of Kuwait's cavalry and infantry, and he succeeded his brother Jaber II on 5 February 1917; his short reign saw the building of Kuwait's third wall and the battles of Hamdh and Jahra (1920) under Ikhwan and frontier pressure. He was succeeded by his nephew Ahmad Al-Jaber; among his sons were Abdullah Al-Salim and Sabah Al-Salim, later the eleventh and twelfth emirs of Kuwait."
+  ur: "سالم المبارک الصباح (پیدائش: 1864ء – وفات: کویت، 23 فروری 1921ء)، کویت کے نویں حکمران اور مبارک الکبیر کے دوسرے بیٹے تھے۔ وہ 1915–1917ء میں کویت شہر کے والی رہے، 5 فروری 1917ء کو بھائی جابر ثانی کے بعد حکمران بنے، ان کے مختصر عہد میں کویت کی تیسری فصیل بنی اور حمض و جہرہ کی لڑائیاں ہوئیں، اور ان کے بیٹے عبد اللہ و صباح بعد میں کویت کے امیر بنے۔"
+roles: [ruler]
+wings: [people]
+born:
+  edtf: "1864"
+  hijri: "1281"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1864 is given by the English, Arabic and Urdu articles and by Wikidata. All sources place the birth at Kuwait (the English infobox gives the Sheikhdom of Kuwait, the Arabic article's categories Kuwait City, and Wikidata Kuwait City, Q35178); the museum has no place entity for Kuwait City, so the place is recorded here and no born_in edge is written. The Hijri year (1281) is derived by tabular conversion: the Gregorian year 1864 spans 1280–1281 AH and its mid-year falls in 1281."
+  sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar, source/wikipedia-salim-al-mubarak-al-sabah-ur, source/wikidata-salim-al-mubarak-al-sabah]
+died:
+  edtf: "1921-02-23"
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "He died at Kuwait City in February 1921, and the day is genuinely split between the sources, so it is recorded as debated rather than merged. The English article's lead, infobox and reign dates, the Arabic article (citing the Kuwait News Agency) and the Urdu stub give 23 February 1921; Wikidata gives 22 February 1921, and the English article's own succession-template line also prints 22 February. The record follows the three articles' 23 February (14 Jumada al-Thani 1339 by tabular conversion; the 22nd would be the 13th). His nephew Ahmad Al-Jaber's accession followed immediately, in February 1921."
+  sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar, source/wikipedia-salim-al-mubarak-al-sabah-ur, source/wikidata-salim-al-mubarak-al-sabah]
+relations:
+  - { type: child_of, target: person/mubarak-al-sabah, note: "He was the second son of Mubarak Al-Sabah (English and Arabic articles; Wikidata father Q388730), by Sheikha Duaij Al-Sabah (Arabic article); the edge is written here, in the son's record, and his father's record carries none back.", sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar, source/wikidata-salim-al-mubarak-al-sabah] }
+  - { type: member_of, target: group/al-sabah, note: "Ninth ruler of the house and progenitor of its Al-Salim branch, from which the later emirs Abdullah and Sabah came (English article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or a school for Salim himself. The English, Arabic and Urdu articles state no religion for him at all, and his Wikidata item carries no religion (P140) value whatever — an absence the record states rather than fills. His father's and his family's milieu is family background and never counts. With no source naming a school for the man himself, let alone two independent sources naming the same school, his faith is left unknown under the two-source rule and the doubt rule ('if we have doubt then unclassified')."
+    sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar, source/wikipedia-salim-al-mubarak-al-sabah-ur, source/wikidata-salim-al-mubarak-al-sabah]
+external_ids: { wikidata: "Q2364766" }
+sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar, source/wikipedia-salim-al-mubarak-al-sabah-ur, source/wikidata-salim-al-mubarak-al-sabah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salim Al-Mubarak Al-Sabah' (revision 1365327909), Arabic Wikipedia 'سالم المبارك الصباح' (revision 73426206) and Urdu Wikipedia 'سالم مبارک الصباح' (revision 6912119), read on 26 October 2026, with Wikidata item Q2364766. The harvest queue's years (1864–1921) are confirmed by all four sources. The one disagreement is the death day — 23 February in the three articles against 22 February in Wikidata and in the English article's succession template — recorded as debated in the died block rather than merged. No place edges are written, because the museum has no place entity for Kuwait City; his brother and predecessor Jaber II has a museum record from wave 24, and the two men's brotherhood is stated in the prose and carried structurally by their shared child_of target."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-25
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
