@@ -311,11 +311,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali Al-Habsi — 1981–Living
 - [x] Younis Mahmoud — 1983–Living
 - [x] Nashat Akram — 1984–Living
-- [ ] Hawar Mulla Mohammed — 1981–Living
-- [ ] Omar Al Somah — 1989–Living
-- [ ] Omar Khribin — 1994–Living
-- [ ] Ismail Matar — 1983–Living
-- [ ] Omar Abdulrahman (Amoory) — 1991–Living
+- [x] Hawar Mulla Mohammed — 1981–Living
+- [x] Omar Al Somah — 1989–Living
+- [x] Omar Khribin — 1994–Living
+- [x] Ismail Matar — 1983–Living
+- [x] Omar Abdulrahman (Amoory) — 1991–Living
 - [ ] Ali Mabkhout — 1990–Living
 - [ ] Khalfan Ibrahim — 1988–Living
 - [ ] Akram Afif — 1996–Living
