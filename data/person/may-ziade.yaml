@@ -1,0 +1,50 @@
+id: person/may-ziade
+class: person
+label: { ar: "مي زيادة", en: "May Ziade", ur: "می زیادہ" }
+names:
+  - { value: "مي إلياس زيادة", kind: full }
+  - { value: "May Elias Ziadeh", kind: full }
+  - { value: "ماري إلياس زيادة", kind: alternate }
+  - { value: "Isis Copia", kind: pen }
+gender: female
+summary:
+  ar: "شاعرة وكاتبة مقالات ومترجمة لبنانية فلسطينية (1886–1941)، وُلدت في الناصرة باسم ماري إلياس زيادة واختارت لنفسها اسم «مي»، وكتبت بالعربية والفرنسية وباسم مستعار هو «إيزيس كوبيا». كان صالونها الأدبي في القاهرة منذ 1921 من أشهر صالونات العالم العربي، وهي من رائدات النسوية العربية، وراسلت جبران خليل جبران تسعة عشر عامًا دون أن تلتقيه قط."
+  en: "Lebanese-Palestinian poet, essayist and translator (1886–1941), born Marie Elias Ziadeh in Nazareth, who wrote in Arabic and French under her chosen name May and the pen name Isis Copia. Her Cairo salon, held from 1921, was among the most famous literary salons of the modern Arab world; a pioneer of Arab feminism, she corresponded for nineteen years with Khalil Gibran, whom she never met."
+  ur: "لبنانی فلسطینی شاعرہ، مضمون نگار اور مترجم (1886–1941)، ناصرہ میں ماری الیاس زیادہ کے نام سے پیدا ہوئیں، «می» کا نام خود منتخب کیا اور «ایزس کوپیا» کے قلمی نام سے عربی و فرانسیسی میں لکھا۔ 1921 سے قاہرہ میں ان کا ادبی صالون عرب دنیا کے مشہور ترین صالونوں میں شمار ہوا؛ عرب نسوانیت کی علم بردار، انہوں نے خلیل جبران سے انیس برس خط کتابت کی، حالانکہ کبھی ملاقات نہ ہوئی۔"
+roles: [poet, writer, translator]
+wings: [people]
+regions: [levant-iraq, egypt-nile]
+born:
+  edtf: "1886-02-11"
+  hijri: "1303"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Nazareth on 11 February 1886 (all three articles and Wikidata; the Arabic article's categories pair the year with 1303 AH). No place entity exists for Nazareth, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ar, source/wikipedia-may-ziade-ur, source/wikidata-may-ziade]
+died:
+  edtf: "1941-10-17"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 17 October 1941 (English and Urdu articles and Wikidata; the Arabic article gives the year 1941)."
+  sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ur, source/wikidata-may-ziade]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-may-ziade-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling; both readings preserved. One text names an affiliation for her personally: the English article's lead calls her a Lebanese-Palestinian Maronite poet. The Arabic article names only her father Elias as a Maronite and files her in the categories 'Lebanese Maronites' and 'Christians from Nazareth'; the Urdu article files her under 'Palestinian Christians' — category filings, which never attest — and Wikidata carries no religion value. Her convent schooling is education, not attestation. One text tradition falls short of the two-independent-source bar, so the value is unknown; a founder ruling could record christian on the English lead plus the filings."
+    sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ar, source/wikipedia-may-ziade-ur, source/wikidata-may-ziade]
+external_ids: { wikidata: "Q2919042" }
+sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ar, source/wikipedia-may-ziade-ur, source/wikidata-may-ziade]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q2919042, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
