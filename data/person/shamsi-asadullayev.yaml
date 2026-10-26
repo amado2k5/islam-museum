@@ -1,0 +1,47 @@
+id: person/shamsi-asadullayev
+class: person
+label: { ar: "شمسي أسد الله يف", en: "Shamsi Asadullayev", ur: "شمسی اسد اللہ یف" }
+names:
+  - { value: "Shamsi Asadulla oghlu Asadullayev", kind: full }
+  - { value: "Şəmsi Əsədulla oğlu Əsədullayev", kind: full }
+  - { value: "Agha Shamsi Asadullayev", kind: alternate }
+  - { value: "Shamsi Assadullayev", kind: alternate }
+gender: male
+summary:
+  ar: "بارون نفط ومحسن أذربيجاني (1840–1913)، فلاح من أميرجان صار من كبار مصدّري نفط باكو وأول من استخدم السفن النهرية لنقله عبر بحر قزوين؛ موّل مبنى مدرسة باكو الحقيقية ومنحًا دراسية ووهب قصره في موسكو لمسلميها (دار أسد الله يف)."
+  en: "Azerbaijani oil baron and philanthropist (1840–1913), a farmer's son from Amirjan who became a leading exporter of Baku oil and the first to ship it out by barge across the Caspian. He funded the Baku Real School building and scholarships, and gave his Moscow mansion to the city's Muslim community as the Asadullayev House."
+  ur: "آذربائیجانی تیل کے بڑے تاجر اور مخیر (1840–1913)؛ امیرجان کے کسان زادے جو باکو کے تیل کے صفِ اول کے برآمد کنندہ بنے اور سب سے پہلے بحرِ قزوین کے راستے کشتیوں سے تیل برآمد کیا؛ باکو ریئل اسکول کی عمارت اور وظائف کے کفیل، اور ماسکو میں اپنا محلہ وہاں کی مسلم برادری کو عطیہ کیا (دارِ اسد اللہ یف)۔"
+roles: [businessman, philanthropist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1840"
+  hijri: "1256"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Amirjan village, Baku, in 1840; the English, Azerbaijani and Russian articles agree on the year, and the Russian article itself notes 'by other data 1841' — Wikidata carries both years. The record follows 1840, the reading of all three articles and of the queue, with 1841 disclosed. The Hijri year 1256 is the tabular conversion of the recorded year. The museum has no place entity for Amirjan or Baku, so no born_in edge is written."
+  sources: [source/wikipedia-shamsi-asadullayev-en, source/wikipedia-shamsi-asadullayev-az, source/wikipedia-shamsi-asadullayev-ru, source/wikidata-shamsi-asadullayev]
+died:
+  edtf: "1913-04-21"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Yalta on 21 April 1913: the Azerbaijani article gives the day and says he died of sunstroke, aged 72; the Russian article and Wikidata agree on the day; the English article gives the year only. The Hijri year 1331 is the tabular conversion. The museum has no place entity for Yalta, so no died_in edge is written."
+  sources: [source/wikipedia-shamsi-asadullayev-az, source/wikipedia-shamsi-asadullayev-ru, source/wikidata-shamsi-asadullayev]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted article names an affiliation for Asadullayev himself: the English, Azerbaijani and Russian texts are all silent on his religion. The English article's categories file him under 'Azerbaijani Shia Muslims' — a category filing, which the lane does not count as an attestation. Wikidata's only religion value is Islam (Q432) in the generic, naming no branch or school. His patronage of Muslim institutions — the Asadullayev House given to the Moscow Muslim community, scholarships for Muslim students, the Baku Real School — is philanthropy, which the lane rule excludes from attestation, and the Azerbaijani Shia milieu is context under the mapping rule, never a basis. Under the two-source rule and the doubt rule his faith is recorded unknown."
+    sources: [source/wikipedia-shamsi-asadullayev-en, source/wikidata-shamsi-asadullayev, source/wikipedia-shamsi-asadullayev-az]
+external_ids: { wikidata: "Q4071118" }
+sources: [source/wikipedia-shamsi-asadullayev-en, source/wikipedia-shamsi-asadullayev-az, source/wikipedia-shamsi-asadullayev-ru, source/wikidata-shamsi-asadullayev]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shamsi Asadullayev' (revision 1340268442), Azerbaijani Wikipedia 'Şəmsi Əsədullayev' (9135000) and Russian Wikipedia 'Асадуллаев, Ага Шамси' (154702714), all read on 26 October 2026, with Wikidata item Q4071118. The queue gives 1840–1913, confirmed (the 1841 alternative for the birth year, disclosed by the Russian article itself, is preserved in the born note). His faith is recorded unknown: no article attests an affiliation, the English article files him only by category, and Wikidata gives only Islam generically, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-33
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
