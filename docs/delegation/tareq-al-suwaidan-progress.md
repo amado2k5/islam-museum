@@ -71,7 +71,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-wassitiya/ep15 | ~1:17 | al-mara-wal-ittifaqiyat-al-dawliyya NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | bfd53c74a (PR #2221) |
 | al-wassitiya/ep16 | ~1:17 | faqr-al-rumuz-al-nisaiyya NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~12 cited windows | 3d06fb29d (PR #2222) |
 | al-wassitiya/ep17 | ~1:19 | al-muqawama-wal-irhab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | 47e4fbd5e (PR #2225) |
-| al-wassitiya/ep18 | ~1:15 | azmat-al-thaqafa-al-shabab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~12 cited windows | pending |
+| al-wassitiya/ep18 | ~1:15 | azmat-al-thaqafa-al-shabab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~12 cited windows | a0459b7ae (PR #2234) |
+| al-wassitiya/ep19 | ~1:23 | al-qiraa-wal-thaqafa EXT + tariq ext ×3 | — | 2 perspectives | — | concept + person ext | ~12 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -96,6 +97,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-19` — al-wassitiya ep19 (reading crisis: EXTENDED concept/al-qiraa-wal-thaqafa (Omar-lane record, reuse-rule); stats 5%/1% books, 150 vs 200 wpm, 14% author royalty; poll 12% busy-excuse vs bad-writing).
 - `devin-tareq-al-suwaidan-wassitiya-18` — al-wassitiya ep18 (youth culture crisis: NEW concept/azmat-al-thaqafa-al-shabab; polls 71% real-crisis, 47/43 net-effect; stats 4% books, 6-8h screens).
 - `devin-tareq-al-suwaidan-wassitiya-17` — al-wassitiya ep17 (resistance vs terrorism: NEW concept/al-muqawama-wal-irhab; MB rep occupation-only-frame; host civilians=terrorism rule; nonviolence forms).
 - `devin-tareq-al-suwaidan-wassitiya-16` — al-wassitiya ep16 (female symbols scarcity: NEW concept/faqr-al-rumuz-al-nisaiyya; 3-cause debate; Promotable Woman study).

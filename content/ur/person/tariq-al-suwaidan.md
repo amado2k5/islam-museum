@@ -117,3 +117,6 @@ translators: []
 
 ## «الوسطیہ» میں — ثقافتی بحران کی قسط
 سویدان نے نوجوانوں کے ثقافتی بحران کی قسط ووٹوں اور اعداد کے ساتھ چلائی — 71% حقیقی بحران، اور سیٹلائٹ و انٹرنیٹ کے اثر پر 47%/43% کی تقسیم {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}۔
+
+## «الوسطیہ» میں — مطالعہ بحران کی قسط
+سویدان نے نوجوانوں کے مطالعہ بحران اور اس کے اعداد کے لیے ایک قسط وقف کی — دنیا کا 5% اور اس کی کتب کا 1% — اور ایک ووٹ جس میں مصروفیت سب سے کمزور عذر (12%) نکلا بمقابلہ خراب تحریر {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}۔

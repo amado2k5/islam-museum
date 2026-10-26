@@ -149,3 +149,6 @@ translators: []
 
 ## في «الوسطية» — حلقة أزمة الثقافة
 أدار السويدان حلقة أزمة الثقافة لدى الشباب باستطلاعات وأرقام — 71% أزمة حقيقية، وانقسام 47%/43% على أثر الفضائيات والإنترنت {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.
+
+## في «الوسطية» — حلقة أزمة القراءة
+خصّص السويدان حلقة لأزمة القراءة لدى الشباب وأرقامها — 5% من العالم و1% من كتبه — واستطلاعاً وجد أن الانشغال أقل الأعذار (12%) مقابل سوء الكتابة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}.
