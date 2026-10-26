@@ -1,0 +1,51 @@
+id: person/deli-fuad-pasha
+class: person
+label: { ar: "دلي فؤاد باشا", en: "Deli Fuad Pasha", ur: "دلی فواد پاشا" }
+names:
+  - { value: "Fuad Pasha", kind: full }
+  - { value: "فؤاد باشا", kind: full }
+  - { value: "Deli Fuad Paşa", kind: alternate }
+  - { value: "دلي فؤاد باشا", kind: alternate }
+  - { value: "Deli", kind: laqab }
+gender: male
+summary:
+  ar: "فؤاد باشا (1835 – 17 أبريل 1931)، المعروف بـ«دلي فؤاد باشا» لجرأته وصراحته، مشير عثماني شركسي الأصل قاتل في حرب 1877–1878 ولقّب بـ«بطل إلينا»، وكان سفير الدولة في برلين (1913–1915) وعضوًا مؤسسًا في حزب الحرية والائتلاف ومن مؤسسي نادي بشكتاش. وهو غير كجه جي زاده فؤاد باشا الصدر الأعظم."
+  en: "Fuad Pasha (1835 – 17 April 1931), known as Deli Fuad Pasha — 'Mad Fuad' — for his boldness and outspokenness, was an Ottoman marshal of Circassian origin who fought in the Russo-Turkish War of 1877–78, where he was hailed as the Hero of Elena. He was ambassador in Berlin (1913–1915), a founding member of the Freedom and Accord Party and a founder of Beşiktaş JK. He is not Keçecizade Fuad Pasha, the grand vizier."
+  ur: "فواد پاشا (1835ء – 17 اپریل 1931ء)، جو اپنی دلیری اور صاف گوئی کی وجہ سے «دلی فواد پاشا» کہلائے، چرکسی الاصل عثمانی مشیر تھے؛ 1877–1878ء کی جنگ میں لڑے اور «ایلینا کے ہیرو» کہلائے، برلن میں سفیر رہے (1913–1915ء)، حزبِ آزادی و ائتلاف کے بانی ارکان اور بشکتاش کلب کے بانیوں میں سے تھے۔ یہ صدرِ اعظم کیچہ جی زادہ فواد پاشا سے مختلف شخص ہیں۔"
+roles: [military, diplomat]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1835"
+  hijri: "1251"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Both articles and Wikidata give the birth year 1835, but the birthplace splits: the English article, citing the Biyografya entry and a 2020 journal article, says he was born in Cairo, while the Turkish article, citing Kuneralp's prosopography, says he was born in Istanbul and spent his youth in Egypt, graduating from the Cairo military school; Wikidata carries both Cairo (Q85) and Istanbul (Q406) as birthplace values. Because the place itself is split, no born_in edge is written. The Hijri year 1251 is the tabular conversion of mid-1835."
+  sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr, source/wikidata-deli-fuad-pasha]
+died:
+  edtf: "1931-04-17"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give his death on 17 April 1931 at Istanbul; the Turkish article specifies the Eyüpsultan district and burial at Eyüp Sultan. The Hijri year 1349 is the tabular conversion of 17 April 1931."
+  sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr, source/wikidata-deli-fuad-pasha]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul (Eyüpsultan) on 17 April 1931.", sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr] }
+  - { type: buried_in, target: place/istanbul, note: "The Turkish article places his grave at Eyüp Sultan in Istanbul.", sources: [source/wikipedia-deli-fuad-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. Neither the English nor the Turkish article names a religion or school for Fuad Pasha personally, neither infobox carries a religion field, and Wikidata (Q5746569) carries no religion (P140) value at all. The Turkish article describes him as an Ottoman soldier of Circassian origin — an ethnic origin, which under the lane rules never counts as an attestation of faith; his sons' deaths as soldiers in 1912–1915, described in the sources with the vocabulary of martyrdom, are their story, not his affiliation. With no source attesting a faith for him personally, the value is recorded unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr, source/wikidata-deli-fuad-pasha]
+external_ids: { wikidata: "Q5746569" }
+sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr, source/wikidata-deli-fuad-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Deli Fuad Pasha' (revision 1184075862 of 8 November 2023), Turkish Wikipedia 'Deli Fuad Paşa' (revision 36974413 of 26 March 2026) and Wikidata item Q5746569 (item revision 2560360671 of 24 October 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. IDENTITY: this is the marshal nicknamed Deli (Wikidata Q5746569), a different man from person/kececizade-fuad-pasha (1814–1869), the grand vizier, and the distinction is written into this record's summary. The harvest queue's years are 1835–1931, confirmed by all sources; the birthplace split (Cairo against Istanbul) is stated as debated in the born note and takes no edge. The died_in and buried_in edges record his death and burial at Istanbul. His founding part in Beşiktaş JK, stated by the Turkish article, takes no founder_of edge because the museum has no group entity for the club. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

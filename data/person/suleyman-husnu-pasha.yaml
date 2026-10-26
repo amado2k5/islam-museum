@@ -1,0 +1,50 @@
+id: person/suleyman-husnu-pasha
+class: person
+label: { ar: "سليمان حسني باشا", en: "Süleyman Hüsnü Pasha", ur: "سلیمان حسنی پاشا" }
+names:
+  - { value: "Süleyman Hüsnü Pasha", kind: full }
+  - { value: "سليمان حسني باشا", kind: full }
+  - { value: "Süleyman Hüsnü Paşa", kind: alternate }
+gender: male
+summary:
+  ar: "سليمان حسني باشا (1838 – 8 أغسطس 1892)، مشير عثماني من إسطنبول، كان القائد العام للعمليات العثمانية في البلقان في صدر حرب 1877–1878 ولقّبه الجمهور بـ«بطل ممر شيبكا»، ثم حوكم ونُفي إلى بغداد فمات فيها. وهو أيضًا معلّم وكاتب من أوائل التركيين العلميين، صاحب «تاريخ عالم» و«إلمحال كبير»."
+  en: "Süleyman Hüsnü Pasha (1838 – 8 August 1892) was an Ottoman field marshal from Istanbul who was chief commander of Ottoman operations in the Balkans in the opening of the Russo-Turkish War of 1877–78 and was popularly hailed as the Hero of Shipka Pass; he was later tried and exiled to Baghdad, where he died. He was also a teacher and writer, among the first scholarly Turkists, and author of Tarih-i Âlem and İlmihal-i Kebir."
+  ur: "سلیمان حسنی پاشا (1838ء – 8 اگست 1892ء)، استنبول سے تعلق رکھنے والے عثمانی مشیر؛ 1877–1878ء کی جنگ کے آغاز میں بلقان میں عثمانی عملیات کے سپہ سالارِ اعلیٰ رہے اور «شپکا درے کے ہیرو» کہلائے، بعد میں مقدمہ چلا اور بغداد جلاوطن ہوئے جہاں وفات پائی۔ وہ معلم اور مصنف بھی تھے اور «تاریخِ عالم» و «علمحالِ کبیر» کے مصنف ہیں۔"
+roles: [military, author]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1838"
+  hijri: "1254"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 1838, at Istanbul; the Turkish article specifies the Molla Gürani quarter in Fatih, where his father Mehmed Hâlet Efendi had served as Janissary Ağa. The Hijri year 1254 is the tabular conversion of mid-1838."
+  sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr, source/wikidata-suleyman-husnu-pasha]
+died:
+  edtf: "1892-08-08"
+  hijri: "1310"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles give his death as 8 August 1892 at Baghdad, where he had lived in exile for fourteen years after his trial; Wikidata's day value is 11 August 1892, which the record does not follow. The Turkish article adds that he was buried in the garden of the Imam Abu Yusuf Mosque in Baghdad. The Hijri year 1310 is the tabular conversion of 8 August 1892."
+  sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr, source/wikidata-suleyman-husnu-pasha]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born at Istanbul in 1838, in the Molla Gürani quarter (Turkish article).", sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr] }
+  - { type: died_in, target: place/baghdad, note: "He died in exile at Baghdad on 8 August 1892.", sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr] }
+  - { type: buried_in, target: place/baghdad, note: "The Turkish article says he was buried in the garden of the Imam Abu Yusuf Mosque in Baghdad.", sources: [source/wikipedia-suleyman-husnu-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. Neither the English nor the Turkish article names a religion or school for Süleyman Hüsnü Pasha personally, neither infobox carries a religion field, and Wikidata (Q924251) carries no religion (P140) value at all. The Turkish article lists among his occupations teaching, religious scholarship and authorship, and his works include a catechism (İlmihal-i Kebir) and a translation of a treatise on particular will — that is his repertoire and his career, which under the lane rules do not attest a school of his own; no source names one. His part in the deposition of Sultan Abdulaziz in 1876 is a political act, not attestation. With no source attesting a faith for him personally, the value is recorded unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr, source/wikidata-suleyman-husnu-pasha]
+external_ids: { wikidata: "Q924251" }
+sources: [source/wikipedia-suleyman-husnu-pasha-en, source/wikipedia-suleyman-husnu-pasha-tr, source/wikidata-suleyman-husnu-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Süleyman Hüsnü Pasha' (revision 1378282613 of 3 October 2026), Turkish Wikipedia 'Süleyman Hüsnü Paşa' (revision 36535850 of 17 December 2025) and Wikidata item Q924251 (item revision 2546571643 of 16 September 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. The harvest queue's years are 1838–1892, confirmed by all three sources; the record follows the two articles' 8 August 1892 death date against Wikidata's 11 August value, as the died note states. The born_in edge records his birth at Istanbul, the died_in and buried_in edges his death and burial at Baghdad. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
