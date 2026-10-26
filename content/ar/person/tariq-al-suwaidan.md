@@ -128,3 +128,6 @@ translators: []
 
 ## في «الوسطية» — حلقة الهجرة إلى الغرب
 أدار السويدان حلقة «الهجرة إلى الغرب: أمل أم ألم» باستطلاعات وإحصاءات عرضها بنفسه عن هجرة العقول {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. وختم بأن الحل بيئة جاذبة لا طاردة — حكم رشيد ودولة قانون ورفاه {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## في «الوسطية» — حلقة الفضائيات العربية
+قيّم السويدان تجربة الفضائيات بإحصاءات عرضها (79 منوعة، 37 حكومية، 52% عنف بفترات الأطفال) واستطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.

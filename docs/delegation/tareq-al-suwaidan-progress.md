@@ -64,7 +64,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-wassitiya/ep08 | ~1:10 | takfir EXT pt2 + tariq ext ×3 | — | +1 perspective | — | concept + person ext | ~20 cited windows | 0262fac25 (PR #2211) |
 | al-wassitiya/ep09 | ~1:05 | al-wala-wal-bara NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~18 cited windows | 161d7bd2e (PR #2212) |
 | al-wassitiya/ep10 | ~1:05 | huquq-al-insan NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | b947d057b (PR #2213) |
-| al-wassitiya/ep11 | ~1:20 | al-hijra-ila-al-gharb NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~15 cited windows | pending |
+| al-wassitiya/ep11 | ~1:20 | al-hijra-ila-al-gharb NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~15 cited windows | 888250d84 (PR #2215) |
+| al-wassitiya/ep12 | ~1:10 | al-fadaiyyat-al-arabiyya NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~14 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -89,6 +90,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-12` — al-wassitiya ep12 (arab satellite channels: NEW concept/al-fadaiyyat-al-arabiyya; polls 75% harmful, 76% moral-oversight; stats 79+37 ch, 52% kids-violence).
 - `devin-tareq-al-suwaidan-wassitiya-11` — al-wassitiya ep11 (emigration/brain drain: NEW concept/al-hijra-ila-al-gharb; polls 34/26/40 accept, 84% dangerous; stats 54% no-return, 50% drs).
 - `devin-tareq-al-suwaidan-wassitiya-10` — al-wassitiya ep10 (human rights Arab world: NEW concept/huquq-al-insan; polls 69% covenants-worthless, 72% arab-worse, 9% intl-intervention; non-political-rights-first).
 - `devin-tareq-al-suwaidan-wassitiya-09` — al-wassitiya ep09 (wala/bara AMONG muslims: NEW concept/al-wala-wal-bara; 60%-islam gradation rule; polls 42% takfir-drift, 63% bara-from-peace-advocates, 63% regulate-vs-10% abolish). BACKLOG: ep10-ep16 transcripts ready on disk awaiting processing.

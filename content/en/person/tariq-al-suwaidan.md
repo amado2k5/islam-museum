@@ -128,3 +128,6 @@ Al-Suwaidan steered the Arab-world human-rights episode with three polls {cite:a
 
 ## In 'Al-Wasatiyya' — the emigration episode
 Al-Suwaidan steered 'emigration to the West: hope or pain' with polls and brain-drain statistics he presented himself {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. He closed with the cure being an attracting, not repelling, environment — good governance, rule of law, welfare {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## In 'Al-Wasatiyya' — the satellite-channels episode
+Al-Suwaidan evaluated the Arab satellite experiment with statistics he presented (79 variety, 37 government, 52% violence in children's slots) and polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
