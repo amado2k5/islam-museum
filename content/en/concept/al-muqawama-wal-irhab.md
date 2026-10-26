@@ -1,3 +1,10 @@
+---
+id: concept/al-muqawama-wal-irhab
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Resistance and terrorism — the dividing line
 
 ## The episode and the question

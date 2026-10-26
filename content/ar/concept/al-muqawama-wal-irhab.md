@@ -1,3 +1,10 @@
+---
+id: concept/al-muqawama-wal-irhab
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # المقاومة والإرهاب — الخط الفاصل
 
 ## الحلقة والسؤال

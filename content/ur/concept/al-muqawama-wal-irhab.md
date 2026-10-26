@@ -1,3 +1,10 @@
+---
+id: concept/al-muqawama-wal-irhab
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # مزاحمت اور دہشت گردی — درمیانی لکیر
 
 ## قسط اور سوال
