@@ -382,4 +382,8 @@ describe("3d tour: close-up viewer", () => {
     expect(src).toMatch(/function closeCloser[\s\S]*?disposeCloseScene\(\)/);
     expect((src.match(/closeCloser\(false\)/g) || []).length).toBeGreaterThanOrEqual(2);
   });
+
+  it("Tab stays inside the viewer", () => {
+    expect(src).toMatch(/listen\(closer, "keydown"[\s\S]*?e\.key !== "Tab"[\s\S]*?preventDefault\(\)/);
+  });
 });

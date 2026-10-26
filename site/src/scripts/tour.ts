@@ -1996,6 +1996,17 @@ function init(
     ["panelCloser", () => EXHIBITS[stopIdx] && openCloser(EXHIBITS[stopIdx])],
   ];
   for (const [id, fn] of closerCtl) listen($(`#${id}`), "click", (() => fn()) as EventListener);
+  // the viewer covers the tour, so Tab cycles inside it instead of reaching hidden controls
+  listen(closer, "keydown", ((e: KeyboardEvent) => {
+    if (e.key !== "Tab") return;
+    const f = [...closer.querySelectorAll<HTMLElement>("button, a[href]")].filter((el) => !el.hidden && el.offsetParent);
+    if (!f.length) return;
+    const i = f.indexOf(document.activeElement as HTMLElement);
+    if (e.shiftKey ? i <= 0 : i === f.length - 1) {
+      e.preventDefault();
+      f[e.shiftKey ? f.length - 1 : 0].focus();
+    }
+  }) as EventListener);
   // Drag turns the model or moves the picture; two fingers or the wheel zoom.
   const pts = new Map<number, { x: number; y: number }>();
   let pinch = 0;
