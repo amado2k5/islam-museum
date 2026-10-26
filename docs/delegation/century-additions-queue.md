@@ -1262,11 +1262,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Begum Hazrat Mahal (1820–1879)
 - [x] Bakht Khan (1779–1859)
 - [x] Khan Bahadur Khan Rohilla (1823–1860)
-- [ ] Maulvi Ahmadullah Shah (1787–1858)
-- [ ] Bahadur Shah Zafar (1775–1862)
-- [ ] Zeenat Mahal (1823–1886)
-- [ ] Mirza Ghalib (1797–1869)
-- [ ] Momin Khan Momin (1800–1851)
+- [x] Maulvi Ahmadullah Shah (1787–1858)
+- [x] Bahadur Shah Zafar (1775–1862)
+- [x] Zeenat Mahal (1823–1886)
+- [x] Mirza Ghalib (1797–1869)
+- [x] Momin Khan Momin (1800–1851)
 - [ ] Mustafa Khan Shefta (1804–1869)
 - [ ] Dagh Dehlvi (1831–1905)
 - [ ] Ameer Meenai (1828–1900)
@@ -1796,7 +1796,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Shah Alam II — 1728–1806
 - [ ] Emperor Ahmad Shah Bahadur — 1725–1775
 - [ ] Akbar II — 1760–1837
-- [ ] Bahadur Shah Zafar — 1775–1862
+- [x] Bahadur Shah Zafar — 1775–1862
 - [ ] Nawab Asaf-ud-Daula — 1748–1797
 - [ ] Nawab Shuja-ud-Daula — 1732–1775
 - [ ] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803

@@ -1,0 +1,50 @@
+id: person/bahadur-shah-zafar
+class: person
+label: { ar: "محمد بهادر شاه", en: "Bahadur Shah Zafar", ur: "بہادر شاہ ظفر" }
+names:
+  - { value: "Abu Zafar Siraj-ud-din Muhammad", kind: full }
+  - { value: "Bahadur Shah II", kind: regnal }
+  - { value: "Zafar", kind: pen }
+gender: male
+summary:
+  ar: "آخر أباطرة المغول في الهند (1775–1862) وشاعر أردي، تربّع على العرش سنة 1837 وكانت سلطته لا تتجاوز مدينة دلهي المسوّرة. في ثورة 1857 أعلنه الثوار إمبراطورًا على الهند، وبعد إخماد الثورة نفاه البريطانيون إلى رانغون حيث توفي. كان صوفيًّا له مريدون، وخلّف ديوان شعر بالأردية جُمع في «كليات ظفر»."
+  en: "The twentieth and last Mughal emperor of India (1775–1862) and an Urdu poet. He succeeded in 1837 with authority confined to the walled city of Delhi; in the rebellion of 1857 the rebels proclaimed him Emperor of India, and after its defeat the British exiled him to Rangoon, where he died. He was a practising Sufi who accepted disciples, and his Urdu ghazals were collected as the Kulliyyat-i-Zafar."
+  ur: "ہندوستان کے بیسویں اور آخری مغل شہنشاہ (1775ء–1862ء) اور اردو کے شاعر۔ وہ 1837ء میں تخت نشین ہوئے مگر ان کی حکومت صرف پرانی دہلی تک محدود تھی؛ 1857ء کی جنگ میں باغیوں نے انھیں ہندوستان کا شہنشاہ قرار دیا، اور شکست کے بعد انگریزوں نے انھیں رنگون جلاوطن کر دیا جہاں ان کا انتقال ہوا۔ وہ ایک صوفی تھے جن کے مرید تھے، اور ان کا اردو کلام «کلیاتِ ظفر» میں جمع ہوا۔"
+roles: [sultan, poet]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1775-10-24"
+  hijri: "1189"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's lead and infobox and Wikidata agree on 24 October 1775, at Delhi; he was the second son of the emperor Akbar II. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-bahadur-shah-zafar-en, source/wikidata-bahadur-shah-zafar]
+died:
+  edtf: "1862-11-07"
+  hijri: "1279"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree on 7 November 1862; he died in exile at Rangoon in British Burma and was buried there the same day. The Hijri year is derived by tabular conversion. Rangoon has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-bahadur-shah-zafar-en, source/wikidata-bahadur-shah-zafar]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-bahadur-shah-zafar-en] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-bahadur-shah-zafar-en] }
+  - { type: student_of, target: person/mirza-ghalib, sources: [source/wikipedia-ghalib-en] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded as Sufi on two article texts. The English article states in its text that he 'was a devout Sufi', was regarded as a Sufi pir and used to accept murids (disciples), quoting the contemporary newspaper Delhi Urdu Akhbaar describing him as 'one of the leading saints of the age'; it further describes his belief in charms and his gifts to Sufi shrines. The Urdu article states in its own text that he was well versed in the Sufi path. His discipleship practice is attested in the texts themselves and is not inferred from his throne. The Sunni value is NOT recorded: it rests on the religion fields of the English and Urdu infoboxes and on Wikidata's 'Sunni Islam' value, which form one structured-data family, and on the filing 'Indian Sunni Muslims' in the articles' categories, which never counts. The Urdu attestation of his Sufism is a statement of his knowledge of the path rather than of discipleship, and is the thinner of the two texts."
+    sources: [source/wikipedia-bahadur-shah-zafar-en, source/wikipedia-bahadur-shah-zafar-ur, source/wikidata-bahadur-shah-zafar]
+external_ids: { wikidata: "Q127369" }
+sources: [source/wikipedia-bahadur-shah-zafar-en, source/wikipedia-bahadur-shah-zafar-ar, source/wikipedia-bahadur-shah-zafar-ur, source/wikidata-bahadur-shah-zafar, source/wikipedia-ghalib-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bahadur Shah Zafar' (revision 1379371513), Arabic Wikipedia 'محمد بهادر شاه' (revision 75597182), Urdu Wikipedia 'بہادر شاہ ظفر' (revision 12133514) and Wikidata item Q127369 (item revision 2557806618), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. The student_of relation to Mirza Ghalib rests on the English Ghalib article (revision 1371879243), which records that the emperor appointed Ghalib his poet tutor in 1854: the edge is written here, in the student's record, and nowhere else. Existence was checked by filename fragments under all spellings (bahadur-shah-i-mughal is his ancestor Bahadur Shah I, a different man), by Arabic label and by the QID route; no earlier record of Bahadur Shah II exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
