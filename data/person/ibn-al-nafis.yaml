@@ -17,12 +17,12 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
-  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab, source/assabile-tareq-al-suwaidan] }
+sources: [source/shadharat-dhahab, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج7، سنة 687)، قراءة آبل فيجن"
+  source: "shadharat al-dhahab; assabile al-mubdioune ep17 lecture (2026-10 transcription)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-134
 external_ids: { wikidata: Q319146 }

@@ -40,7 +40,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep13 | 0:24:59 | al-tabari ext ×3 (pt 1 of 2) | — | — | — | person ext + sources | ~22 cited windows | 6d10608a0 (PR #2100) |
 | al-mubdioune/ep14 | 0:26:07 | al-tabari ext ×3 (pt 2 of 2) | — | — | — | person ext | ~24 cited windows | ee96f496b (PR #2101) |
 | al-mubdioune/ep15 | 0:26:20 | ibn-qayyim-al-jawziyya ext ×3 | — | — | — | person ext + sources | ~26 cited windows | d864928fd (PR #2103) |
-| al-mubdioune/ep16 | 0:26:12 | al-fudayl-ibn-iyad ext ×3 | — | — | — | person ext + sources | ~24 cited windows | pending |
+| al-mubdioune/ep16 | 0:26:12 | al-fudayl-ibn-iyad ext ×3 | — | — | — | person ext + sources | ~24 cited windows | 4f65d0592 (PR #2106) |
+| al-mubdioune/ep17 | 0:25:33 | ibn-al-nafis ext ×3 | — | — | — | person ext + sources | ~24 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -65,6 +66,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-17` — al-mubdioune ep17 (ibn-al-nafis ext: passion-for-field lesson, 629 AH illness -> medicine, Nuri/Nasiri/Qalawun hospitals, Egypt epidemic team, lesser circulation, 80-vol Shamil, wine refusal at death 687 AH).
 - `devin-tareq-al-suwaidan-mubdioune-16` — al-mubdioune ep16 (al-fudayl ext: highwayman-to-ascetic conversion via Hadid 21, scholars' testimony, night worship vs sleep, salvation answer to Ibn Malik, Rashid counsel, jarh-level scrupulousness, errors corrected by Malik).
 - `devin-tareq-al-suwaidan-mubdioune-15` — al-mubdioune ep15 (ibn-qayyim ext: authorship as his gift, Meccan retreat works, 100+ refs per book, triple-divorce fatwa, qabr al-Khalil imprisonment, dawn-dhikr session, authorship method vs ibn-al-jawzi).
 - `devin-tareq-al-suwaidan-mubdioune-14` — al-mubdioune ep14 (al-tabari pt2: take/give life law, coordination gift, tafsir+history as perpetual references, 40 leaves/day = 600k, arud in one night, Abu Kurayb 100k, daily schedule, Dawud rebuttal torn up, full rubaiyyat equation).
