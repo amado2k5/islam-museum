@@ -1,0 +1,51 @@
+id: person/wahba-zuhayli
+class: person
+label: { ar: "وهبة الزحيلي", en: "Wahbah al-Zuhayli", ur: "وہبہ زحیلی" }
+names:
+  - { value: "وهبة بن مصطفى الزحيلي", kind: full }
+  - { value: "Wahbah Mustafa al-Zuhayli", kind: full }
+  - { value: "Wahba Zuhayli", kind: alternate }
+gender: male
+roles: [scholar, jurist, teacher, writer]
+summary:
+  ar: "فقيه سوري (1932–2015) وُلد في دير عطية، وتولى رئاسة قسم الفقه الإسلامي ومذاهبه في كلية الشريعة بجامعة دمشق. ألّف أكثر من مئة وستين كتابا، من أشهرها «الفقه الإسلامي وأدلته» و«التفسير المنير»، وكان من الموقّعين على رسالة عمان ووثيقة كلمة سواء."
+  en: "Syrian Islamic jurist and professor (1932–2015), born at Deir Atiyah and long chairman of Islamic jurisprudence at Damascus University's College of Sharia. He wrote more than 160 works, among them the comparative compendium al-Fiqh al-Islami wa Adillatuhu and the Tafsir al-Munir, and was a signatory of the Amman Message and A Common Word."
+  ur: "سوری فقیہ اور استاد (1932ء–2015ء)، دیر عطیہ میں پیدا ہوئے اور مدت تک جامعہ دمشق کے کلیہ شریعہ میں شعبہ فقہ اسلامی کے سربراہ رہے۔ ان کی تصانیف ایک سو ساٹھ سے زائد ہیں، جن میں «الفقہ الاسلامی و ادلتہ» اور «التفسیر المنیر» مشہور ہیں؛ وہ رسالہ عمان اور دستاویز «کلمہ سواء» کے دستخط کنندگان میں سے تھے۔"
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1932"
+  hijri: "1351"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Deir Atiyah, north of Damascus; the articles give the year 1932 only, and the Hijri year is derived from it. No place entity for Deir Atiyah exists yet, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-wahba-zuhayli-en, source/wikipedia-wahba-zuhayli-ar, source/wikidata-wahba-zuhayli]
+died:
+  edtf: "2015-08-08"
+  hijri: "1436"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Damascus on Saturday 23 Shawwal 1436 AH, 8 August 2015 (Arabic article text and infobox; Wikidata agrees). The English article's biography section says '9 August 2015' against its own lead and infobox, which give 8 August; 8 August is recorded."
+  sources: [source/wikipedia-wahba-zuhayli-ar, source/wikipedia-wahba-zuhayli-en, source/wikidata-wahba-zuhayli]
+relations:
+  - { type: died_in, target: place/damascus, note: "Died at Damascus (Arabic article text; English article and Wikidata agree).", sources: [source/wikipedia-wahba-zuhayli-ar, source/wikipedia-wahba-zuhayli-en] }
+  - { type: lived_in, target: place/damascus, note: "He taught at Damascus University from 1963 and was professor there from 1975, and preached at the Othman Mosque in Damascus (English article).", sources: [source/wikipedia-wahba-zuhayli-en] }
+  - { type: student_of, target: person/mahmud-shaltut, note: "The Arabic article's list of his teachers in Egypt names Shaykh al-Azhar Mahmud Shaltut. The edge is written here, in the student's record, only.", sources: [source/wikipedia-wahba-zuhayli-ar] }
+  - { type: student_of, target: person/muhammad-abu-zahra, note: "The Arabic article's list of his teachers in Egypt names Muhammad Abu Zahra among those from whom he took advanced studies in comparative fiqh and usul al-fiqh. The edge is written here, in the student's record, only.", sources: [source/wikipedia-wahba-zuhayli-ar] }
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "Recorded sunni-shafii on a text-plus-infobox configuration, and flagged as such. The Urdu article's text states in its own words that he was a follower of Shafi'i fiqh, though without the school's stamp on his independent reasoning; the English, Arabic and Urdu infoboxes all give his jurisprudence or madhhab as Shafi'i, and the English and Arabic articles file him among Shafi'is. The Arabic and English texts do not name his madhhab in prose — he wrote primers on all four schools — and the French article is a translation of the English, counted as its family. His Ash'ari creed, given in the English infobox and the articles' filings, is noted only: the faith enum has no Ash'ari compound. The Urdu text's remark that his temperament inclined toward Sufism is a disposition, not an affiliation, and no sufi segment is recorded."
+    sources: [source/wikipedia-wahba-zuhayli-ur, source/wikipedia-wahba-zuhayli-en, source/wikipedia-wahba-zuhayli-ar]
+external_ids: { wikidata: "Q4115989" }
+sources: [source/wikipedia-wahba-zuhayli-en, source/wikipedia-wahba-zuhayli-ar, source/wikipedia-wahba-zuhayli-ur, source/wikipedia-wahba-zuhayli-fr, source/wikidata-wahba-zuhayli]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English, Arabic, Urdu and French Wikipedia articles on Wahbah al-Zuhayli and Wikidata item Q4115989, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn. The French article is a translation of the English and is counted as the same source family."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-62

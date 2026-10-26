@@ -1,0 +1,50 @@
+id: person/mahmoud-khalil-al-hussary
+class: person
+label: { ar: "محمود خليل الحصري", en: "Mahmoud Khalil al-Hussary", ur: "محمود خلیل الحصری" }
+names:
+  - { value: "محمود خليل الحصري", kind: full }
+  - { value: "Mahmoud Khalil al-Hussary", kind: full }
+  - { value: "Al-Hussary", kind: alternate }
+  - { value: "Mahmoud Khalil Al-Husary", kind: alternate }
+gender: male
+roles: [reciter, scholar, writer]
+summary:
+  ar: "قارئ قرآن مصري وعالم بالقراءات (1917–1980) وُلد في قرية شبرا النملة قرب طنطا. كان أول من سجّل المصحف كاملا بالترتيل (رواية حفص، 1961)، وسجّل أيضا روايات ورش وقالون والدوري، وتولى مشيخة عموم المقارئ المصرية، ودرّس في الأزهر وألّف اثني عشر كتابا في علوم القرآن."
+  en: "Egyptian Qur'an reciter and scholar of the recitations (1917–1980), born at Shubra al-Namla near Tanta. The first reciter to record the complete Qur'an in the murattal style (Hafs, 1961), he also recorded the Warsh, Qalun and Duri recitations, served as Shaykh al-Maqari' of Egypt, taught at al-Azhar and wrote twelve books on Qur'anic sciences."
+  ur: "مصری قاری قرآن اور قراءات کے عالم (1917ء–1980ء)، طنطا کے قریب گاؤں شبرا النملہ میں پیدا ہوئے۔ وہ پہلے قاری تھے جنھوں نے مکمل قرآن ترتیل کے انداز میں ریکارڈ کیا (روایت حفص، 1961ء)؛ انھوں نے ورش، قالون اور دوری کی روایات بھی ریکارڈ کیں، مصر کے شیخ المقاری رہے، الازہر میں تدریس کی اور علوم قرآن پر بارہ کتابیں لکھیں۔"
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1917-09-17"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born at Shubra al-Namla village, Tanta, Gharbia, on 1 Dhu al-Hijjah 1335 AH, 17 September 1917 (Arabic article pairs the dates). No place entity for Tanta or the village exists yet, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikidata-mahmoud-khalil-al-hussary]
+died:
+  edtf: "1980-11-24"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on Monday evening 16 Muharram 1401 AH, 24 November 1980 (Arabic article pairs the dates); the English infobox places his death at Cairo."
+  sources: [source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikidata-mahmoud-khalil-al-hussary]
+relations:
+  - { type: died_in, target: place/cairo, note: "The English infobox gives Cairo as his place of death; the Arabic article gives Egypt.", sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar] }
+  - { type: lived_in, target: place/cairo, note: "He moved to Cairo, joined Egypt Radio there, served as reciter of the al-Hussein Mosque from 1955 until his death, and studied and taught at al-Azhar (English article).", sources: [source/wikipedia-mahmoud-khalil-al-hussary-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English infobox gives his denomination as Sunni and the Arabic and Urdu infoboxes give his creed as Ahl al-Sunna wa-l-Jama'a, their madhhab fields left blank; the infoboxes are one structured tradition, no article's text names an affiliation for him personally, and Wikidata gives no religion value at all. No madhhab is named in any source. Recorded unknown on the infobox-alone rule."
+    sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-ur, source/wikidata-mahmoud-khalil-al-hussary]
+external_ids: { wikidata: "Q6734373" }
+sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-ur, source/wikipedia-mahmoud-khalil-al-hussary-fr, source/wikidata-mahmoud-khalil-al-hussary]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English, Arabic, Urdu and French Wikipedia articles on Mahmoud Khalil al-Hussary and Wikidata item Q6734373, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-62
