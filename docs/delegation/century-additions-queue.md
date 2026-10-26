@@ -221,11 +221,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Amir Khan — 1986–Living
 - [x] Artur Beterbiev — 1985–Living
 - [x] Islam Makhachev — 1991–Living
-- [ ] Khamzat Chimaev — 1994–Living
-- [ ] Belal Muhammad — 1988–Living
-- [ ] Kamaru Usman — 1987–Living
-- [ ] Israel Adesanya (Contemporary) — 1989–Living
-- [ ] Demetrious Johnson — 1986–Living
+- [x] Khamzat Chimaev — 1994–Living
+- [x] Belal Muhammad — 1988–Living
+- [x] Kamaru Usman — 1987–Living
+- [x] Israel Adesanya (Contemporary) — 1989–Living
+- [x] Demetrious Johnson — 1986–Living
 - [ ] Kalidou Koulibaly — 1991–Living
 - [ ] Edouard Mendy — 1992–Living
 - [ ] Hakim Ziyech — 1993–Living
