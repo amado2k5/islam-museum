@@ -63,3 +63,6 @@ translators: []
 
 ## ماخذ
 - اوپر حوالہ دیے گئے متعین ماخذ، جو `data/source/` میں درج ہیں۔
+
+## پروگرام «الوسطیہ» — اس کا طریقہ
+پہلی قسط «اسلاموفوبیا» میں سویدان نے مغرب میں مقیم ماہرین — عادل درویش، عزام التمیمی، عریب الرنتاوی، عماد حسین، علی الصویٰ اور محققہ نور عیسیٰ — کی میزبانی کی اور اپنی طرز پر بحث چلائی: سامعین کا ووٹ مظہر پر، پھر اس کے سب سے بڑے سبب پر، پھر عرب میڈیا کے کردار پر {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:45:30}۔ نتائج: 51% نے اسے حقیقی جانا؛ 55% نے «یہودی ہاتھ» کو سب سے بڑا سبب کہا — جس نے انہیں حیران کیا؛ اور 57% نے عرب میڈیا کو بہتر ہوتا دیکھا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:49:30}۔
