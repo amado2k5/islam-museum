@@ -1,3 +1,10 @@
+---
+id: concept/al-fatwa-ala-al-fadaiyyat
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # سیٹلائٹ چینلوں پر فتویٰ — نفع اور نقصان
 
 ## قسط اور سوال

@@ -1,3 +1,10 @@
+---
+id: concept/huquq-al-insan
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Human rights — the violations file in the Arab world
 
 ## The episode and the votes
