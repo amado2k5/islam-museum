@@ -31,3 +31,6 @@ Ibn Taymiyya says: "They testify Paradise for whoever the Messenger of God testi
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad and Ibn Taymiyya's al-Wasitiyya — each attributed to its book. The sayings of the Ash'aris, Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## Encyclopaedia of Islam: the lists
+The term al-'Ashara al-Mubashshara, "the ten to whom Paradise was promised", does not occur in the canonical hadith, although the conception goes back to it. The traditions usually have the form "Ten will be in Paradise", followed by the names, and the lists differ. The names found in the various forms are Abu Bakr, Umar, Uthman, Ali, Talha, al-Zubayr, Abd al-Rahman ibn Awf, Sa'd ibn Abi Waqqas and Sa'id ibn Zayd. In some traditions Muhammad himself is put before these nine (Abu Dawud, Sunna; Ahmad ibn Hanbal); in others Muhammad is absent and the tenth place goes to Abu Ubayda ibn al-Jarrah (Tirmidhi, Manaqib; Ibn Sa'd; Ahmad ibn Hanbal). The entry holds that such conceptions owe their origin to the hierarchic tendencies prominent in the Muslim community, which found expression even in its earliest creeds. {cite:encyclopaedia-of-islam-2 vol. 1 p. 742}
