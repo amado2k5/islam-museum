@@ -1,0 +1,54 @@
+id: person/ibrahim-niass
+class: person
+label: { ar: "إبراهيم إنياس الكولخي", en: "Ibrahim Niass", ur: "ابراہیم انیاس کولخی" }
+names:
+  - { value: "إبراهيم بن الحاج عبد الله إنياس التجاني الكولخي", kind: full }
+  - { value: "Ibrahim ibn al-Hajj Abdullah Niass", kind: full }
+  - { value: "Ibrahima Niasse", kind: alternate }
+  - { value: "Baye Niass", kind: alternate }
+  - { value: "Shaykh al-Islam", kind: laqab }
+gender: male
+summary:
+  ar: "عالم وشيخ صوفي سنغالي (1900–1975)، صاحب «الفيضة» التيجانية ومؤسس مدينة باي في كولخ. أعلن سنة 1929 أنه خليفة الشيخ التيجاني في الطريقة، فصار فرعه أكبر فروع التيجانية في العالم، وامتد أتباعه في غرب إفريقيا كلها ولا سيما شمال نيجيريا."
+  en: "Senegalese scholar and Sufi shaykh (1900-1975), bearer of the Tijani Fayda ('flood') and founder of Medina Baye at Kaolack. In 1929 he announced that he had become khalifa of Shaykh Tijani in the order; his branch became the largest of the Tijaniyya worldwide, with followers across West Africa and especially in northern Nigeria."
+  ur: "سینیگال کے عالم اور صوفی شیخ (1900ء–1975ء)، تیجانی «فیضہ» کے حامل اور کولخ میں مدینہ بائے کے بانی۔ 1929ء میں انہوں نے اعلان کیا کہ وہ طریقے میں شیخ تیجانی کے خلیفہ بن گئے ہیں؛ ان کی شاخ تیجانیہ کی دنیا بھر میں سب سے بڑی شاخ بن گئی اور ان کے پیروکار پورے مغربی افریقہ، خاص طور پر شمالی نائجیریا، میں پھیل گئے۔"
+roles: [scholar, mystic, writer]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1900-11-08"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English and French articles and Wikidata give 8 November 1900, at Tayba Ñaseen (Taïba Niassène) near Kaolack. The Arabic article's lead gives 7 November 1900, but its text dates his birth to Thursday 15 Rajab 1318 AH, which converts to 8 November 1900 — the Hijri year recorded here (1318) is the Arabic article's own, not a conversion. No place entity exists for Tayba Niassène or Kaolack, so no born_in edge is written."
+  sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-fr, source/wikipedia-ibrahim-niass-ar, source/wikidata-ibrahim-niass]
+died:
+  edtf: "1975-07-26"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and French articles and Wikidata agree on 26 July 1975, in London, where he was being treated; he was buried at Medina Baye near Kaolack. The Arabic article gives 15 Rajab 1395 AH, which converts to 24 July 1975 — two days earlier; the record follows the three agreeing sources. The Hijri year 1395 is common to both traditions. No place entity exists for London in the museum, so no died_in edge is written."
+  sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-fr, source/wikipedia-ibrahim-niass-ar, source/wikidata-ibrahim-niass]
+relations:
+  - { type: student_of, target: person/ahmed-skirej, sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-ar] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent TEXTS state his own affiliation and practice, not only his office. The English article's lead calls him 'a Senegalese major leader of the Tijānī Sufi order of Islam in West Africa', and its biography recounts his own path in the order: taught by his father, the order's chief representative in the Saloum, he announced in 1929 that he had been given the key to the secrets of divine knowledge and had become khalifa of Shaykh Tijani in the Tijaniyya, and his own writings (Kashif al-ilbas on the Fayda) expound the order's doctrine. The French article, independent of the English, calls him in its lead 'un maître soufi renommé, ainsi qu'un chef spirituel au sein de la confrérie Tijaniyya' and describes him initiating disciples into the Tarbiyya, the mystic initiation of his branch. The English infobox likewise gives his tariqa as Tijani. This is the two-text configuration, so the value is recorded documented and unflagged."
+    sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-fr]
+  - value: sunni-maliki
+    basis: documented
+    note: "FLAGGED — referenced infobox plus second-edition infobox (the Bin Bayyah configuration); one founder word downgrades this segment to the note, with the readings preserved here. The English article's infobox gives jurisprudence Maliki and creed Ash'ari, both referenced to Brigaglia 2013 in the Journal of Qur'anic Studies, and denomination Sunni unreferenced. The Arabic article's infobox independently gives his jurisprudence as Maliki (مالكي المذهب) and his creed as of Ahl al-Sunna wa'l-Jama'a, the Ash'aris. No article TEXT names a madhhab for him, and Wikidata's structured value is Islam only, so the segment rests on the two infoboxes, one of them referenced to scholarship. There is no sunni-ashari compound in the enum, so the Ash'ari creed attested by both infoboxes is recorded in this note rather than in the value."
+    sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-ar, source/wikidata-ibrahim-niass]
+external_ids: { wikidata: "Q655781" }
+sources: [source/wikipedia-ibrahim-niass-en, source/wikipedia-ibrahim-niass-ar, source/wikipedia-ibrahim-niass-fr, source/wikipedia-ibrahim-niass-ur, source/wikidata-ibrahim-niass]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibrahim Niass' (revision 1380735707), Arabic Wikipedia 'إبراهيم إنياس الكولخي' (revision 74247962), French Wikipedia 'Ibrahim Niasse' (revision 237932029), Urdu Wikipedia 'ابراہیم انیاس کولخی' (revision 9437697) and Wikidata item Q655781 (item revision 2553094551), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (niass, niasse), by Arabic label and by the QID route across data/person/; no earlier record of him exists, despite the brief's expectation. His father Abdullah Niass has no museum record, so no child_of edge is written; the student_of edge to Ahmed Skirej rests on the English infobox's disciple_of field and on the Arabic article's ijaza list, which records Skirej's authorisation of him."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
