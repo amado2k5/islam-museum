@@ -1,0 +1,38 @@
+id: person/atiku-abubakar
+class: person
+label: { ar: "أتيكو أبو بكر", en: "Atiku Abubakar", ur: "اتیکو ابوبکر" }
+names:
+  - { value: "Atiku Abubakar", kind: full }
+  - { value: "أتيكو أبو بكر", kind: full }
+  - { value: "Waziri of Adamawa", kind: laqab }
+  - { value: "Turaki of Adamawa", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي ورجل أعمال نيجيري وُلد في جادا سنة 1946. عمل في مصلحة الجمارك عشرين عاما، ثم صار نائب رئيس نيجيريا في عهد أوباسانجو (1999–2007)، وخاض سباق الرئاسة ست مرات دون أن يفوز، وانضم سنة 2025 إلى المؤتمر الديمقراطي الأفريقي."
+  en: "Nigerian politician and businessman born in Jada in 1946. He worked in the Nigeria Customs Service for twenty years, then served as vice president under Olusegun Obasanjo (1999–2007), ran for the presidency six times without winning it, and joined the African Democratic Congress in 2025."
+  ur: "نائجریائی سیاست دان اور تاجر، 1946 میں جادا میں پیدا ہوئے۔ انھوں نے نائجریا کسٹمز سروس میں بیس برس گزارے، پھر اوباسانجو کے نائب صدر رہے (1999ء–2007ء)، چھ بار صدارت کے امیدوار بنے مگر کامیاب نہ ہوئے، اور 2025 میں افریقی جمہوری کانگریس میں شامل ہوئے۔"
+roles: [politician, businessman]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1946-11-25"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata agree on his birth on 25 November 1946 in Jada, then part of the British Cameroons; the Hijri year (1366) is a conversion."
+  sources: [source/wikipedia-atiku-abubakar-en, source/wikipedia-atiku-abubakar-ar, source/wikidata-atiku-abubakar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's text attests once that he is a Muslim, in its account of his marriages — a fourth wife was 'the maximum permitted him as a Muslim' — and the Arabic article's text says nothing, filing him only in the category 'Nigerian Muslims'; Wikidata gives a single structured value, Islam. That is one text family plus its structured echo: Muslim is attested, but no source in any language names a school for him, so there is no value the two-source rule can record. The segment stays unknown, unflagged: the plain Khan configuration, a Muslim politician with no school attested."
+    sources: [source/wikipedia-atiku-abubakar-en, source/wikipedia-atiku-abubakar-ar, source/wikidata-atiku-abubakar]
+external_ids: { wikidata: "Q755878" }
+sources: [source/wikipedia-atiku-abubakar-en, source/wikipedia-atiku-abubakar-ar, source/wikidata-atiku-abubakar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Atiku Abubakar' (revision 1376644386), Arabic Wikipedia «أتيكو أبو بكر» (revision 72831379) and Wikidata item Q755878 (item revision 2527644190), read via the MediaWiki API on 26 October 2026, each article fetched by its recorded revision id with the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (atiku, abubakar), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; he is not Abubakar Gumi, and none of his sons has a record. No place entity exists for Jada, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

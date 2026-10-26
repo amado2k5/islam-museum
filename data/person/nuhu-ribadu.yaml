@@ -1,0 +1,38 @@
+id: person/nuhu-ribadu
+class: person
+label: { ar: "نوهو ريبادو", en: "Nuhu Ribadu", ur: "نوہو ریبادو" }
+names:
+  - { value: "Nuhu Ribadu", kind: full }
+  - { value: "نوهو ريبادو", kind: full }
+  - { value: "Mallam Nuhu Ribadu", kind: alternate }
+  - { value: "Sardauna of Adamawa", kind: laqab }
+gender: male
+summary:
+  ar: "محام وشرطي متقاعد وسياسي نيجيري وُلد في يولا سنة 1960. أسّس رئاسة لجنة الجرائم الاقتصادية والمالية (2003–2007) وذاع صيته محاربا للفساد، ثم فُصل من الشرطة ولجأ إلى المنفى قبل أن يعود ويرشّح نفسه للرئاسة سنة 2011، وعُيّن مستشارا للأمن القومي سنة 2023."
+  en: "Nigerian lawyer, retired police officer and politician born in Yola in 1960. He was the founding chairman of the Economic and Financial Crimes Commission (2003–2007) and became known as an anti-corruption campaigner; he was later dismissed from the police and lived in exile before returning to run for president in 2011, and was appointed National Security Adviser in 2023."
+  ur: "نائجریائی وکیل، ریٹائرڈ پولیس افسر اور سیاست دان، 1960 میں یولا میں پیدا ہوئے۔ وہ اقتصادی و مالی جرائم کمیشن کے بانی چیئرمین رہے (2003ء–2007ء) اور بدعنوانی کے خلاف آواز کے طور پر معروف ہوئے؛ بعد میں پولیس سے برطرفی اور جلاوطنی کے بعد وطن لوٹے، 2011 میں صدارت کے امیدوار بنے اور 2023 میں قومی سلامتی کے مشیر مقرر ہوئے۔"
+roles: [politician, lawyer]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1960-11-21"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 21 November 1960 in Yola; the Hijri year (1380) is a conversion."
+  sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article makes no statement of his religion anywhere in its text and files him only in the category 'Nigerian Muslims' — a category filing, which never counts. Wikidata gives a single structured value, Islam, with no school. No source used names an affiliation beyond that or a school at all, so under the two-source rule the value stays unknown, unflagged: this is the plain configuration in which even 'Muslim' rests on a filing and a structured value, and no reading stands one attestation short."
+    sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
+external_ids: { wikidata: "Q551605" }
+sources: [source/wikipedia-nuhu-ribadu-en, source/wikidata-nuhu-ribadu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nuhu Ribadu' (revision 1375910472) and Wikidata item Q551605 (item revision 2550177789), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (ribadu, nuhu), by Arabic label and by the QID route across data/person/ — no earlier record exists, and he is not the Ghanaian chief imam Osman Nuhu Sharubutu. No place entity exists for Yola and no person record exists for his father Ahmadu Ribadu, so no born_in or child_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
