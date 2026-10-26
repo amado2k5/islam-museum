@@ -1,0 +1,48 @@
+id: person/ahmed-cevdet-pasha
+class: person
+label: { ar: "أحمد جودت باشا", en: "Ahmed Cevdet Pasha", ur: "احمد جودت پاشا" }
+names:
+  - { value: "أحمد جودت باشا", kind: full }
+  - { value: "Ahmed Cevdet Pasha", kind: full }
+  - { value: "Ahmet Cevdet Pasha", kind: alternate }
+  - { value: "Lofçalı Ahmed Cevdet Paşa", kind: alternate }
+gender: male
+summary:
+  ar: "أحمد جودت باشا (وُلد في لوفجا سنة 1822 – توفي في إسطنبول في مايو 1895)، عالم ومؤرخ وفقيه ورجل دولة عثماني، ترأس لجنة مجلة الأحكام العدلية التي دوّنت الفقه الإسلامي في قانون مدني من 1851 مادة صدرت أجزاؤها حتى 1876، وألّف «تاريخ جودت» في اثني عشر مجلدًا و«قصص الأنبياء»، وتولى نظارات الحقانية والمعارف والأوقاف والداخلية والتجارة مرات، وهو أبو فاطمة عالية أول روائية تركية."
+  en: "Ahmed Cevdet Pasha (born at Lovech in 1822 – died in Istanbul in May 1895) was an Ottoman scholar, historian, jurist and statesman who chaired the commission of the Mecelle, the codification of Islamic law in a civil code of 1,851 articles completed in 1876; he wrote the twelve-volume Tarih-i Cevdet and the Kısas-ı Enbiya, held the ministries of justice, education, pious foundations, interior and commerce in turn, and was the father of Fatma Aliye, the first Turkish woman novelist."
+  ur: "احمد جودت پاشا (پیدائش: لوفچہ، 1822ء – وفات: استنبول، مئی 1895ء)، عثمانی عالم، مورخ، فقیہ اور سیاست دان، مجلہ احکامِ عدلیہ کی تدوین کرنے والے کمیشن کے سربراہ، «تاریخِ جودت» کے مصنف اور کئی وزارتوں کے ناظر رہے۔"
+roles: [historian, jurist, statesman, writer]
+wings: [people]
+born:
+  edtf: "1822-03-22"
+  hijri: "1237"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives 22 March 1822 at Lofça (Lovech), and Wikidata's day-precision value agrees. The Turkish article gives 27 March 1822 in both its lead and its infobox, and even computes his death age from 26 March; the record follows the English article with Wikidata and states the Turkish reading here. The Arabic article dates him 1237 AH – 1312 AH, and 1237 is also the tabular conversion of 22 March 1822. No born_in edge is written: the museum has no place entity for Lovech."
+  sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikipedia-ahmed-cevdet-pasha-ar, source/wikidata-ahmed-cevdet-pasha]
+died:
+  edtf: "1895-05-25"
+  hijri: "1312"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives 25 May 1895 at Constantinople, and one of Wikidata's two death values agrees. The Turkish article gives 26 May 1895, and Wikidata's second death value repeats it; the record follows the English article and states the split. The Arabic article's Hijri year 1312 matches the tabular conversion of 25 May 1895. The English article adds that he is buried in the graveyard of the Fatih Mosque in Istanbul (its sentence carries a citation-needed tag)."
+  sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikipedia-ahmed-cevdet-pasha-ar, source/wikidata-ahmed-cevdet-pasha]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died in Constantinople on 25 May 1895 by the English article (Turkish article: 26 May; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikidata-ahmed-cevdet-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. The English article's religious-biography infobox gives religion Islam, denomination Sunni and jurisprudence Hanafi, the jurisprudence field citing Kızılkaya's 2011 article on the historical evolution of qawāʿid literature; but the article's text nowhere names his personal school — 'Hanafi' appears in that article only in the infobox and in its Hanafi-scholars and Maturidi navboxes, all one article, one family. The Turkish article's text says that Cevdet and those who thought like him defended systematising and codifying Hanafi fiqh, a branch of Islamic law — a statement about the code he championed. The Arabic article's text likewise says his draft legislation rested on Hanafi fiqh, going beyond the ideas Âli Pasha favoured. Wikidata carries no religion (P140) value at all. Under the lane brief the Mecelle is his professional scholarship, and a school is recorded only when two independent sources name it as his own; under the doubt rule his faith is therefore left unknown, with all the readings preserved here for any future sourced enrichment."
+    sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikipedia-ahmed-cevdet-pasha-ar, source/wikidata-ahmed-cevdet-pasha]
+external_ids: { wikidata: "Q401209" }
+sources: [source/wikipedia-ahmed-cevdet-pasha-en, source/wikipedia-ahmed-cevdet-pasha-tr, source/wikipedia-ahmed-cevdet-pasha-ar, source/wikidata-ahmed-cevdet-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Cevdet Pasha' (revision 1362560284), Turkish Wikipedia 'Ahmed Cevdet Paşa' (revision 37932449) and Arabic Wikipedia 'أحمد جودت باشا' (revision 72788223), read on 26 October 2026, with Wikidata item Q401209. The harvest queue's years (1822–1895, under its spelling Ahmet) are confirmed. The disagreements are stated in the notes and prose rather than merged: the Turkish article's days for both birth (27 March) and death (26 May) against the English article's (22 March, 25 May, each with one Wikidata value); and the Arabic article's claim of a ten-day grand vizierate in 1879, which neither the English nor the Turkish article carries and which the record does not follow. His daughter Fatma Aliye has a museum record (person/fatma-aliye-topuz), but a child_of edge is written in the child's record, not here, so no edge to her is written; the patronage edge to Mustafa Reşid Pasha is likewise written once, in Reşid's record. His faith is left unknown under the brief's Mecelle rule and the doubt rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
