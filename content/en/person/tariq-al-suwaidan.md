@@ -143,3 +143,6 @@ Al-Suwaidan steered the Arab-woman-and-international-conventions episode, closin
 
 ## In 'Al-Wasatiyya' — the female-symbols episode
 Al-Suwaidan steered the episode on the scarcity of female symbols across history — stressing the aim was not to weaken woman but to explore how the barrier is broken {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.
+
+## In 'Al-Wasatiyya' — the resistance-and-terrorism episode
+Al-Suwaidan steered the resistance-versus-terrorism episode, closing with his equation: the right to resist occupation is undisputed, while aiming weapons at civilians is terrorism — 'a cause of God's anger before the West's curse' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.

@@ -111,3 +111,6 @@ translators: []
 
 ## «الوسطیہ» میں — خاتون علامتوں کی قلت کی قسط
 سویدان نے تاریخ میں خاتون علامتوں کی قلت کی قسط چلائی — زور دیتے ہوئے کہ مقصد خاتون کو کمزور کرنا نہیں بلکہ رکاوٹ توڑنے کا مطالعہ ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}۔
+
+## «الوسطیہ» میں — مزاحمت اور دہشت گردی کی قسط
+سویدان نے مزاحمت بمقابلہ دہشت گردی کی قسط چلائی اور اپنے معادلے پر اختتام کیا: قبضے کے خلاف مزاحمت کا حق غیر متنازع، جب کہ شہریوں پر ہتھیار دہشت گردی ہے — «مغرب کی لعنت سے پہلے اللہ کا غضب» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}۔
