@@ -82,6 +82,8 @@ describe("3d tour: exhibits.yaml", () => {
       expect(["astrolabe", "manuscript", "vase", "dirham", "lamp"]).toContain(e.build);
       expect(e.record).toMatch(/^object\/[a-z0-9-]+$/);
       expect(existsSync(`data/${e.record}.yaml`), `${e.id}: ${e.record} exists`).toBe(true);
+      expect(Array.isArray(e.sources) && e.sources.length > 0, `${e.id} cites sources`).toBe(true);
+      for (const src of e.sources) expect(existsSync(`data/${src}.yaml`), `${e.id}: ${src} exists`).toBe(true);
       for (const k of ["label", "desc", "material", "museum"]) {
         if (k !== "label" && k !== "desc" && e[k] === undefined) continue;
         for (const l of ["ar", "en", "ur"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true);

@@ -78,6 +78,7 @@ export interface Exhibit {
   id: string;
   build: string;
   record: string;
+  sources: string[];
   label: Trilingual;
   desc: Trilingual;
   material?: Trilingual;
@@ -109,6 +110,8 @@ export function loadExhibits(): Exhibit[] {
     const where = `tour/exhibits.yaml: exhibit ${e.id || "?"}`;
     if (!e.id || !EXHIBIT_BUILDS.includes(e.build)) throw new Error(`${where} has a missing id or unknown build`);
     if (!/^object\/[a-z0-9-]+$/.test(e.record || "")) throw new Error(`${where} needs an object/<slug> record`);
+    if (!Array.isArray(e.sources) || !e.sources.length || e.sources.some((x) => !/^source\/[a-z0-9-]+$/.test(x)))
+      throw new Error(`${where} needs sources: [source/<slug>, ...]`);
     if (!full(e.label) || !full(e.desc)) throw new Error(`${where} needs label and desc in ar, en and ur`);
     for (const k of ["material", "museum"] as const)
       if (e[k] !== undefined && !full(e[k])) throw new Error(`${where}: ${k} must have ar, en and ur`);

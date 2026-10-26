@@ -1367,6 +1367,7 @@ function init(
         closePanel(false);
         journeyCard.classList.remove("show");
         nearEx = null;
+        stopIdx = -1;
         setHint(null);
         if (name === "hall") {
           setHash("");
@@ -1481,6 +1482,7 @@ function init(
   function closePanel(restore = true): void {
     if (!panel.classList.contains("show")) return;
     panel.classList.remove("show");
+    if (player.scene === "gallery") setHash("objects");
     if (restore && panel.contains(document.activeElement)) {
       (panelReturn && root.contains(panelReturn) ? panelReturn : renderer.domElement).focus({ preventScroll: true });
     }
