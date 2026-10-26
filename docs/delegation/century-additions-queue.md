@@ -251,11 +251,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fatih Terim — 1953–Living
 - [x] Mustafa Denizli — 1949–Living
 - [x] Şenol Güneş — 1952–Living
-- [ ] Majed Abdullah — 1959–Living
-- [ ] Sami Al-Jaber — 1972–Living
-- [ ] Saeed Al-Owairan — 1967–Living
-- [ ] Yasser Al-Qahtani — 1982–Living
-- [ ] Salem Al-Dawsari — 1991–Living
+- [x] Majed Abdullah — 1959–Living
+- [x] Sami Al-Jaber — 1972–Living
+- [x] Saeed Al-Owairan — 1967–Living
+- [x] Yasser Al-Qahtani — 1982–Living
+- [x] Salem Al-Dawsari — 1991–Living
 - [ ] Mohamed Aboutrika — 1978–Living
 - [ ] Mido (Ahmed Hossam) — 1983–Living
 - [ ] Essam El Hadary — 1973–Living
