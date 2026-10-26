@@ -1,0 +1,53 @@
+id: person/huseyin-rauf-orbay
+class: person
+label: { ar: "حسين رؤوف أورباي", en: "Hüseyin Rauf Orbay", ur: "حسین رؤف اوربے" }
+names:
+  - { value: "Hüseyin Rauf Orbay", kind: full }
+  - { value: "حسين رؤوف أورباي", kind: full }
+  - { value: "Rauf Orbay", kind: alternate }
+  - { value: "Mehmed Muzaffer oğlu Hüseyin Rauf", kind: alternate }
+  - { value: "Hero of Hamidiye", kind: laqab }
+  - { value: "Hamidiye Kahramanı", kind: laqab }
+gender: male
+summary:
+  ar: "ضابط بحري ورجل دولة تركي من أصل أبخازي، ذاع صيته قائدًا للطراد حميدية في حروب البلقان فعُرف بـ«بطل حميدية»، وكان ناظر البحرية الذي وقّع هدنة مودروس سنة 1918، ثم رئيس حكومة أنقرة في حرب الاستقلال (1922–1923). حُوكم في قضية مؤامرة إزمير وحُكم عليه غيابيًا فقضى سنوات في المنفى، ثم أعيد اعتباره وعاد نائبًا وسفيرًا في لندن."
+  en: "Turkish naval officer and statesman of Abkhaz origin who won fame as captain of the cruiser Hamidiye in the Balkan Wars — the 'Hero of Hamidiye' — signed the Armistice of Mudros as Minister of the Navy in 1918, and served as Prime Minister of the Ankara government during the War of Independence (1922–1923). Sentenced in absentia in the İzmir plot trial, he spent years in exile before his rehabilitation, returning as a deputy and ambassador to London."
+  ur: "ابخاز نژاد ترک بحری افسر اور مدبر، جو بلقان جنگوں میں کروزر حمیدیہ کے کپتان کی حیثیت سے شہرت پا کر «حمیدیہ کے ہیرو» کہلائے، 1918 میں وزیرِ بحریہ کی حیثیت سے معاہدۂ مودروس پر دستخط کیے، اور جنگِ آزادی میں انقرہ حکومت کے وزیرِ اعظم رہے (1922–1923)۔ ازمیر سازش مقدمے میں غیر حاضری میں سزا پا کر برسوں جلاوطن رہے، پھر بحالی کے بعد رکنِ پارلیمان اور لندن میں سفیر بنے۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1881-07-27"
+  hijri: "1298"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The day-precision date 27 July 1881 at Constantinople is unanimous across the English article (lead, infobox and text: the Cibali district of Fatih), the Turkish article's infobox, and Wikidata's referenced value, and is followed. Two official Turkish publications cited or linked by the articles — the Atatürk Research Center journal article of 2004 and the Atatürk Encyclopedia entry — print his years in their titles as 1880–1964; that variant is preserved here but not followed, the precise date resting on the articles' own cited biographies. The Hijri year 1298 is the derived conversion of 1881."
+  sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr, source/wikidata-huseyin-rauf-orbay]
+died:
+  edtf: "1964-07-16"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 16 July 1964 at Istanbul; the English article adds that he died of a heart attack and that his grave is in the Sahrayıcedit Cemetery at Erenköy, Istanbul, which the Turkish article's infobox confirms as his resting place. The Hijri year 1384 is the derived conversion of 1964."
+  sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr, source/wikidata-huseyin-rauf-orbay]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Hüseyin Rauf Orbay personally, and the value is recorded unknown under the doubt rule. The English article's infobox has no religion field and its text names no religion — it records his Abkhaz family origin, which never counts. The Turkish article's infobox gives his religion as Islam, generically, and its text makes no statement. Wikidata gives Sunni Islam (Q483654), but that value's sole reference is 'imported from Wikimedia project' pointing to the Turkish Wikipedia — the same infobox family, and broader than the infobox's own generic value. One family only (configuration iii) does not meet the two-independent-sources standard, so no sunni value is recorded."
+    sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr, source/wikidata-huseyin-rauf-orbay]
+external_ids: { wikidata: Q282179 }
+sources: [source/wikipedia-huseyin-rauf-orbay-en, source/wikipedia-huseyin-rauf-orbay-tr, source/wikidata-huseyin-rauf-orbay]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rauf Orbay' (revision 1378250259 of 3 October 2026), Turkish Wikipedia 'Rauf Orbay' (revision 38241385 of 13 October 2026) and Wikidata item Q282179 (item revision 2556850549 of 14 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed (the museum's Hasan Rami Pasha record, written in the same run, recounts Orbay's criticism of him). Three edges are written, all to place/istanbul, an existing entity: he was born in Constantinople's Cibali district, he died in Istanbul, and he is buried in its Sahrayıcedit Cemetery. His succession of Fevzi Çakmak as prime minister in July 1922 is carried in prose only: Çakmak's record was written in this same run and did not yet exist when this record was written, so no successor_of edge is written, on the lane's link-only-to-existing-entities rule. His father Mehmet Muzaffer Pasha has no record, so no child_of edge is written. His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

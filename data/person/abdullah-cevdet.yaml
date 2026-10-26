@@ -1,0 +1,51 @@
+id: person/abdullah-cevdet
+class: person
+label: { ar: "عبد الله جودت", en: "Abdullah Cevdet", ur: "عبد اللہ جودت" }
+names:
+  - { value: "Abdullah Cevdet", kind: full }
+  - { value: "عبد الله جودت", kind: full }
+  - { value: "Ömer Cevdet", kind: pen }
+  - { value: "Bir Kürd", kind: pen }
+  - { value: "Goril", kind: pen }
+  - { value: "Abdullah Cevdet Karlıdağ", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وشاعر ومفكر كردي تركي (1869–1932)، أحد طلاب الطبية الخمسة الذين أسسوا جمعية الاتحاد العثماني سنة 1889، نواة جمعية الاتحاد والترقي. من أبرز دعاة التغريب في أواخر الدولة العثمانية؛ ترجم بوخنر ودولباخ، وأصدر مجلة «إجتهاد» من 1904 حتى وفاته، وحُوكم مرارًا بسبب كتابات عدّها خصومه كفرًا؛ وأقرّ أتاتورك بأن عددًا من مقترحاته كان في أصل إصلاحاته."
+  en: "Kurdish-Turkish physician, poet and thinker (1869–1932), one of the five medical students who founded the Ottoman Union Committee in 1889, the nucleus of the Committee of Union and Progress. A leading Westernist of the late Ottoman Empire, he translated Büchner and d'Holbach, published the journal İctihad from 1904 until his death, and was repeatedly prosecuted over writings his opponents called blasphemous; Atatürk acknowledged several of his proposals among the ideas behind the Turkish reforms."
+  ur: "کرد ترک طبیب، شاعر اور مفکر (1869–1932)، طب کے ان پانچ طلبہ میں سے ایک جنھوں نے 1889 میں جمعیتِ اتحادِ عثمانی کی بنیاد رکھی جو آگے چل کر جمعیت اتحاد و ترقی بنی۔ متاخر عثمانی دور کے نمایاں مغربیت پسند؛ انھوں نے بوخنر اور دولباخ کا ترجمہ کیا، 1904 سے وفات تک رسالہ «اجتہاد» جاری رکھا، اور اپنی تحریروں پر بارہا مقدمات کا سامنا کیا؛ اتاترک نے اقرار کیا کہ ان کی کئی تجاویز ان کی اصلاحات کے پسِ پشت تھیں۔"
+roles: [physician, writer, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1869-09-09"
+  hijri: "1286"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Arapgir in Malatya province, son of Hacı Ömer Vasfi Efendi, a battalion clerk at Diyarbakır; he described himself as a Turk of Kurdish origin. The day date is given by both articles, by Hanioğlu's TDV İslâm Ansiklopedisi entry and by the referenced Wikidata value; the English article's early-life text also notes a variant birth year of 1867 in one thesis (Alpay, 2007), which is not followed. There is no place entity for Arapgir, so no born_in edge is written. The Hijri year 1286 is the derived conversion of 1869."
+  sources: [source/wikipedia-abdullah-cevdet-en, source/wikipedia-abdullah-cevdet-tr, source/wikidata-abdullah-cevdet]
+died:
+  edtf: "1932-11-29"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack at Istanbul and was buried at Merkezefendi Cemetery, Istanbul; there is no entity for the cemetery, so no buried_in edge is written. The Hijri year 1351 is the derived conversion of 1932."
+  sources: [source/wikipedia-abdullah-cevdet-en, source/wikipedia-abdullah-cevdet-tr, source/wikidata-abdullah-cevdet]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-abdullah-cevdet-en, source/wikipedia-abdullah-cevdet-tr, source/wikidata-abdullah-cevdet] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No school is at issue; the live question is whether he is documented as an atheist, and that does not meet the lane's bar of two independent scholarly traditions attesting a man's own unbelief (the Akhundov standard). What the sources give is this. The English article's text says he was initially a pious Muslim who received a religious education and was turned by Western materialist philosophies against institutionalized religion; quoting Hanioğlu, it says he thought that 'although the Muslim God was of no use in the modern era, Islamic society must preserve Islamic principles', that he wanted to discard God but keep religion as a social force, styled himself a 'materialist mujtahid', turned to the Bektashi and then defended the Baháʼí Faith as 'an intermediary step between Islam and the final abandonment of religious belief', and wrote in one poem 'We are pious infidels'. The same article records that at his funeral 'nobody claimed his coffin due to his alleged atheism', and its categories file him under 'Kurdish atheists' and 'Turkish atheists' — category filings, not text attestation. The Turkish article's infobox leaves its religion field blank; its text calls him 'accused of irreligion' (Dinsizlikle suçlanan) in the funeral account, and its categories likewise file him among atheist writers. Wikidata's only religion value is atheism (Q7066), a single unreferenced structured-data value. Hanioğlu's TDV İslâm Ansiklopedisi entry, read for this check, documents the same pattern — the Dozy translation made him known as an enemy of religion, İctihad published articles against religion, and in 1922 he recommended that Baháʼísm be accepted as a new religion — without settling him as an atheist. The atheist reading thus rests on category filings, one structured value and the accusations of his religious opponents, while the fullest scholarly tradition documents a project of fusing Islam with materialism; that is doubt, and under the doubt rule no atheist-or-sceptic value is recorded. Both readings are preserved here and in the prose."
+    sources: [source/wikipedia-abdullah-cevdet-en, source/wikipedia-abdullah-cevdet-tr, source/wikidata-abdullah-cevdet]
+external_ids: { wikidata: Q317592 }
+sources: [source/wikipedia-abdullah-cevdet-en, source/wikipedia-abdullah-cevdet-tr, source/wikidata-abdullah-cevdet]
+provenance:
+  layer: own-research
+  source: "Lane brief century-additions-42 (group Z2); grounded from English Wikipedia revision 1381120760 of 20 October 2026, Turkish Wikipedia revision 37867216 of 1 September 2026, and Wikidata item Q317592 (item revision 2560202032 of 24 October 2026), resolved via the Wikipedia API pageprops and Special:EntityData and re-fetched by revision id with content verified identical. M. Şükrü Hanioğlu's TDV İslâm Ansiklopedisi entry 'Abdullah Cevdet' (1988, vol. 1, pp. 90-93) was also read in full for the faith check. He is a different man from Ahmed Cevdet Pasha and from Ahmed Cevdet Oran (wave 41); nothing is read across from their records. The one edge written here is his death at Istanbul; Arapgir and the Merkezefendi Cemetery have no place entities, so birth and burial are carried in the notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-42
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

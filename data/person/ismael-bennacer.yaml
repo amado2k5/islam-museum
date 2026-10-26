@@ -1,0 +1,36 @@
+id: person/ismael-bennacer
+class: person
+label: { ar: "إسماعيل بن ناصر", en: "Ismaël Bennacer", ur: "اسماعیل بن ناصر" }
+names:
+  - { value: "Ismaël Bennacer", kind: full }
+  - { value: "إسماعيل بن ناصر", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم جزائري محترف (وُلد سنة 1997 في آرل بفرنسا لأب مغربي وأم جزائرية)، لاعب وسط دفاعي لعب لأرسنال وإمبولي وميلان الذي فاز معه بالدوري الإيطالي سنة 2022، وخاض أكثر من خمسين مباراة دولية مع الجزائر وفاز بكأس الأمم الأفريقية 2019 واختير أفضل لاعب في تلك البطولة."
+  en: "Algerian professional footballer (born 1997 in Arles, France, to a Moroccan father and an Algerian mother). A defensive midfielder who played for Arsenal, Empoli and AC Milan — winning Serie A with Milan in 2022 — he has won over fifty caps for Algeria, won the 2019 Africa Cup of Nations with them and was named that tournament's Player of the Tournament."
+  ur: "الجزائری پیشہ ور فٹبالر (پیدائش 1997، آرل، فرانس، مراکشی والد اور الجزائری والدہ کے ہاں)۔ دفاعی مڈفیلڈر جو آرسنل، ایمپولی اور اے سی میلان کے لیے کھیلے — میلان کے ساتھ 2022 میں سیری اے جیتی — انہوں نے الجزائر کے لیے پچاس سے زائد بین الاقوامی میچ کھیلے، 2019 افریقہ کپ آف نیشنز جیتا اور اس ٹورنامنٹ کے بہترین کھلاڑی قرار پائے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb, andalus-europe]
+born:
+  edtf: "1997-12-01"
+  hijri: "1418"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 1 December 1997, born in Arles, France. There is no place entity for Arles, so no born_in edge is written. Hijri year 1418 derived from the Gregorian date."
+  sources: [source/wikipedia-ismael-bennacer-en, source/wikipedia-ismael-bennacer-ar, source/wikidata-ismael-bennacer]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school of Islam for Ismaël Bennacer. The English article's personal-life text states that he is a Muslim and reports his observance of the Ramadan fast while at Milan — an affiliation at the generic level and practice reporting, naming no school. The Arabic article has no religion field and its text makes no statement of his religion. Wikidata (Q20740627) has no religion value at all. One article's generic statement plus practice reports, with no second source and no school named anywhere, do not meet the two-source bar, so the value is unknown."
+    sources: [source/wikipedia-ismael-bennacer-en, source/wikipedia-ismael-bennacer-ar, source/wikidata-ismael-bennacer]
+external_ids: { wikidata: "Q20740627" }
+sources: [source/wikipedia-ismael-bennacer-en, source/wikipedia-ismael-bennacer-ar, source/wikidata-ismael-bennacer]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378686506 of 5 October 2026), Arabic Wikipedia (revision 77066760 of 25 October 2026) and Wikidata Q20740627, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Bennacer existed in data/person/ (no hit under 'bennacer'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. No relations are written: no place entity exists for Arles, and no family member has a record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-48
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,37 @@
+id: person/mahmoud-el-khatib
+class: person
+label: { ar: "محمود الخطيب", en: "Mahmoud El Khatib", ur: "محمود الخطيب" }
+names:
+  - { value: "Mahmoud Ibrahim Ibrahim El Khatib", kind: full }
+  - { value: "محمود إبراهيم إبراهيم الخطيب", kind: full }
+  - { value: "Bibo", kind: laqab }
+  - { value: "بيبو", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مصري معتزل وإداري، وُلد في قرية قرقيرة بمركز السنبلاوين في محافظة الدقهلية سنة 1954 ويُلقب بـ«بيبو». مهاجم قضى مسيرته اللعبية كلها مع النادي الأهلي (1972–1988) فسجل 109 أهداف في الدوري، ونال جائزة أفضل لاعب أفريقي سنة 1983، وفاز مع منتخب مصر بكأس الأمم الأفريقية 1986. وهو رئيس النادي الأهلي منذ 1 ديسمبر 2017."
+  en: "Egyptian retired professional footballer and football administrator, born in Qarqirah, El Senbellawein, Dakahlia in 1954 and nicknamed 'Bibo'. A forward who spent his entire playing career at Al Ahly (1972–1988), scoring 109 league goals, he was named African Footballer of the Year in 1983 and won the 1986 Africa Cup of Nations with Egypt. He has served as president of Al Ahly since 1 December 2017."
+  ur: "مصری ریٹائرڈ پیشہ ور فٹبالر اور فٹبال منتظم، 1954 میں دقہلیہ کے علاقے السنبلاوين کے گاؤں قرقیرہ میں پیدا ہوئے اور «بيبو» کے لقب سے مشہور ہیں۔ فارورڈ جنہوں نے اپنا پورا کھیل کیریئر ال اہلی میں گزارا (1972–1988) اور لیگ میں 109 گول کیے؛ 1983 میں افریقہ کے سال کے بہترین فٹبالر قرار پائے اور مصر کے ساتھ 1986 کا افریقہ کپ آف نیشنز جیتا۔ وہ یکم دسمبر 2017 سے ال اہلی کے صدر ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1954-10-30"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 30 October 1954 in the village of Qarqirah, El Senbellawein, Dakahlia Governorate, Egypt, as given by the English Wikipedia article; the Arabic article likewise gives 30 October 1954 and a village under El Senbellawein in Dakahlia, adding that the family moved to Cairo in his childhood; Wikidata Q981909 agrees on the date. No place entity for Qarqirah, El Senbellawein or Dakahlia exists in data/place/, so no born_in edge is written. The Hijri year (1374) is derived by tabular conversion."
+  sources: [source/wikipedia-mahmoud-el-khatib-en, source/wikipedia-mahmoud-el-khatib-ar, source/wikidata-mahmoud-el-khatib]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record makes any statement of El Khatib's religion at all. Neither the English nor the Arabic Wikipedia article mentions a religion for him anywhere in its text or categories, and Wikidata Q981909 carries no religion value. A faith value cannot be built on complete absence, and Egypt's Shafi'i and Hanafi milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-mahmoud-el-khatib-en, source/wikipedia-mahmoud-el-khatib-ar, source/wikidata-mahmoud-el-khatib]
+external_ids: { wikidata: "Q981909" }
+sources: [source/wikipedia-mahmoud-el-khatib-en, source/wikipedia-mahmoud-el-khatib-ar, source/wikidata-mahmoud-el-khatib]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mahmoud El Khatib' (revision 1380611295 of 16 October 2026), Arabic Wikipedia «محمود الخطيب» (revision 77010648 of 18 October 2026) and Wikidata Q981909, read on 26 October 2026 and checked against the recorded revisions; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace has no entity in data/place/. No earlier record for him existed in data/person/ under khatib as this man (fragment search returned only classical Khatibs and other namesakes; the QID search was negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-42
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

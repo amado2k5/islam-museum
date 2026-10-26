@@ -1,0 +1,29 @@
+id: person/shoaib-hussain
+class: person
+label: { ar: "شعيب حسين", en: "Shoaib Hussain", ur: "شعیب حسین" }
+names:
+  - { value: "شعيب حسين", kind: full }
+  - { value: "Shoaib Hussain", kind: full }
+  - { value: "The Sunnah Guy", kind: alternate }
+gender: male
+summary:
+  ar: "صانع محتوى عُرف باسم «فتى السنة» (The Sunnah Guy). بعد فترة من الشك في أواخر مراهقته عاد إلى الممارسة الدينية — وكانت رسالة مرئية شخصية من بلال أسد نقطة تحوّل في قصته — ثم انتقل من الدعوة الميدانية إلى المقاطع القصيرة أثناء جائحة كورونا، وبنى جمهوراً قُدّر بنحو 2.9 مليون متابع سنة 2025."
+  en: "Content creator known as The Sunnah Guy. After a period of doubt in his late teens he returned to religious practice — a personal video message from Bilal Assad was the turning point in his account — moved from street dawah to short-form video during the COVID-19 pandemic, and built an audience reported at 2.9 million followers in 2025 around short reminder reels addressed to a general audience."
+  ur: "مواد ساز جو The Sunnah Guy کے نام سے جانے جاتے ہیں۔ نوجوانی کے اواخر میں شکوک کے ایک دور کے بعد وہ دینی عمل کی طرف لوٹے — بلال اسد کا ایک ذاتی ویڈیو پیغام ان کی کہانی کا موڑ تھا — پھر کرونا وبا کے دوران گلی دعوت سے مختصر ویڈیوز کی طرف آئے اور 2025 میں تقریباً 2.9 ملین فالوورز تک پہنچے۔"
+roles: [preacher]
+wings: [people, living]
+regions: [andalus-europe]
+relations:
+  - { type: influenced_by, target: person/belal-assaad }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him: the OnePath Network profile presents him as a dawah content creator with no school attribution, and his own channel states none. His dawah milieu is not attestation; he stays unknown."
+    sources: [source/onepath-the-sunnah-guy, source/youtube-the-sunnah-guy]
+sources: [source/youtube-the-sunnah-guy, source/onepath-the-sunnah-guy]
+provenance:
+  layer: own-research
+  source: "Row 270 of the handoff section-2 list (The Sunnah Guy, a persona brand), resolved to Shoaib Hussain: OnePath Network's profile names him outright (Shoaib Hussain, better known as The Sunnah Guy), as do the Towards Eternity, IlmFeed and 5Pillars podcast descriptions consulted. The influenced_by edge to person/belal-assaad rests on OnePath's account — he listened to Assad's lectures, received a personal video message from him through a family connection in Melbourne, and met him years later; that is influence, not formal study, so no student_of edge is written. No birth date appears in any consulted source. Follower figures are platform claims as reported by OnePath in July 2025."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-50"
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

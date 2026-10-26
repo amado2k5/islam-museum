@@ -1,0 +1,52 @@
+id: person/fevzi-cakmak
+class: person
+label: { ar: "فوزي جاكماق", en: "Fevzi Çakmak", ur: "فوزی چکمک" }
+names:
+  - { value: "Mustafa Fevzi Çakmak", kind: full }
+  - { value: "فوزي جاكماق", kind: full }
+  - { value: "Fevzi Çakmak", kind: alternate }
+  - { value: "Kavaklı Fevzi", kind: laqab }
+  - { value: "Mareşal", kind: laqab }
+gender: male
+summary:
+  ar: "مشير (مارشال) ورجل دولة تركي، أحد مشيرَي تركيا الاثنين إلى جانب مصطفى كمال أتاتورك. قاد الفيلق الخامس في غاليبولي، وتولى رئاسة الأركان ونظارة الحربية في الدولة العثمانية، ثم كان وزير دفاع حكومة أنقرة ورئيس حكومتها، فرئيس أركان الجمهورية الأول من 1921 إلى 1944. وبعد تقاعده دخل البرلمان وشارك في تأسيس حزب الأمة، وتوفي في إسطنبول سنة 1950 فشيّعته جنازة شعبية حاشدة."
+  en: "Turkish field marshal and statesman, with Mustafa Kemal Atatürk one of Turkey's only two marshals. He commanded the V Corps at Gallipoli, served as Ottoman Chief of the General Staff and Minister of War, then as the Ankara government's Minister of Defense and Prime Minister, and as the Republic's first Chief of the General Staff from 1921 to 1944. After retiring he sat in parliament and co-founded the Nation Party; his death at Istanbul in 1950 drew a vast popular funeral."
+  ur: "ترک فیلڈ مارشل اور مدبر، مصطفی کمال اتاترک کے ساتھ ترکی کے صرف دو مارشلوں میں سے ایک۔ انہوں نے گیلی پولی میں پانچویں کور کی قیادت کی، عثمانی چیف آف جنرل سٹاف اور وزیرِ حرب رہے، پھر انقرہ حکومت کے وزیرِ دفاع اور وزیرِ اعظم بنے، اور 1921 سے 1944 تک جمہوریہ کے پہلے چیف آف جنرل سٹاف رہے۔ ریٹائرمنٹ کے بعد وہ پارلیمان کے رکن اور نیشن پارٹی کے شریک بانی رہے؛ 1950 میں اسطنبول میں ان کی وفات پر ایک عظیم عوامی جنازہ نکلا۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1876-01-12"
+  hijri: "1292"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The date 12 January 1876 is unanimous across both articles and Wikidata. The birthplace district is given three ways, all within Istanbul: the English article's infobox and body give Cihangir, citing the TBMM archive biography through Gök's monograph, and that reading is followed; the Turkish article's lead gives Anadolu Kavağı; Wikidata gives Rumelikavağı, the Bosphorus village the family moved to in 1879, from which his army name 'Kavaklı Fevzi' derives. The born_in edge to Istanbul is unaffected by the district disagreement. The Hijri year 1292 is the derived conversion of 1876."
+  sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr, source/wikidata-fevzi-cakmak]
+died:
+  edtf: "1950-04-10"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 10 April 1950 at Istanbul: the English article says he died at his house in Teşvikiye, the Turkish article at the Teşvikiye nursing home (Sağlık Yurdu) — the same district, a detail-level difference. His funeral service was held at the Beyazıt Mosque and he was buried in the family plot at Eyüp Cemetery, Istanbul, on 12 April 1950; his family refused a later transfer to the Turkish State Cemetery in Ankara. The Hijri year 1369 is the derived conversion of 1950."
+  sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr, source/wikidata-fevzi-cakmak]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted attests a school or a Sufi order for Fevzi Çakmak personally, and the value is recorded unknown under the doubt rule. The English article names no religion for him in its text or infobox. The Turkish article's infobox gives Islam, generically, and its text names no school and no order. Wikidata gives Islam (Q432), generically, its reference an import from a Wikimedia project — one family. His personal piety is a standing topic in Turkish popular writing: the Turkish article cites, for the crowds at his funeral prayer, a 2001 Hürriyet column titled 'Was Fevzi Çakmak a Naqshbandi?' — but a question posed in a newspaper column is a discussion, not an attestation, and no second independent text tradition in the sources consulted attests any affiliation for him personally; a funeral prayer held for him at the Beyazıt Mosque is an event, not an attestation. On the standing rule that office, milieu and reputation are not attestation, no sufi or school value is recorded, and the Naqshbandi discussion is preserved here for the record."
+    sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr, source/wikidata-fevzi-cakmak]
+external_ids: { wikidata: Q328331 }
+sources: [source/wikipedia-fevzi-cakmak-en, source/wikipedia-fevzi-cakmak-tr, source/wikidata-fevzi-cakmak]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fevzi Çakmak' (revision 1376191202 of 22 September 2026), Turkish Wikipedia 'Fevzi Çakmak' (revision 38099171 of 1 October 2026) and Wikidata item Q328331 (item revision 2534925079 of 22 August 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Three edges are written, all to place/istanbul, an existing entity: born (district readings differ, city agreed), died at Teşvikiye, and buried at Eyüp Cemetery. His succession by Rauf Orbay as prime minister in July 1922 is carried in prose only: Orbay's record was written in this same run and did not yet exist when this record was written, so no succession edge is written, on the lane's link-only-to-existing-entities rule. His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

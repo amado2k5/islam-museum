@@ -17,7 +17,10 @@
 //   enter_title, enter_lede (plain text, \n for line breaks),
 //   enter_button, logo_alt, loading, failed,
 //   stop_of ("{n} / {total}"), stop_prev, stop_next, near_prompt, near_prompt_touch,
-//   help_button, help_title, help_walk, help_look, help_go, help_stops, help_esc, help_close, canvas_label
+//   help_button, help_title, help_walk, help_look, help_go, help_stops, help_esc, help_close, canvas_label,
+//   look_day, help_light, lite_label, lite_offer, lite_offer_btn
+// halls: the other eight wings' stops (tour/halls.yaml), same shape as exhibits plus
+//   art/artAlt (an existing site illustration, or "" for a name plaque); t.art_note labels illustrations.
 // exhibits: Objects-hall stops from tour/exhibits.yaml, joined to their object records in 3d.astro.
 // journeys[].kind must be one of: "event" | "place" | "time".
 import { ARABIC_SCRIPT, type Lang } from "../lib/i18n";
@@ -39,19 +42,22 @@ interface ExhibitView {
   date: string;
   note: string;
   href: string;
+  art?: string;
+  artAlt?: string;
 }
 interface Props {
   lang: Lang;
   t: Record<string, string>;
   journeys: JourneyView[];
   exhibits: ExhibitView[];
+  halls: Array<{ wing: string; stops: ExhibitView[] }>;
   wingTitles: Record<string, string>;
 }
-const { lang, t, journeys, exhibits, wingTitles } = Astro.props;
+const { lang, t, journeys, exhibits, halls, wingTitles } = Astro.props;
 const dir = ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr";
 // Defensive: journeys carry no HTML, but never let a stray "<" break the
 // JSON script block (in particular "</script>").
-const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).replace(/</g, "\\u003c");
+const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTitles }).replace(/</g, "\\u003c");
 ---
 <div id="tour3d-root" dir={dir} lang={lang}>
   <div id="app"></div>
@@ -61,6 +67,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
       <div id="brand">🏛️ {t.brand_name}<small id="wingLabel">{t.hall_sub}</small></div>
       <div id="topBtns">
         <button type="button" id="mapBtn" aria-haspopup="dialog" aria-controls="mapPanel">{t.map_button}</button>
+        <button type="button" id="lookBtn" aria-pressed="false">{t.look_day}</button>
         <button type="button" id="helpBtn" aria-haspopup="dialog" aria-controls="helpPanel">{t.help_button}</button>
         <button type="button" id="journeyBtn" aria-label={t.journey_button}>{t.journey_button}</button>
         <button type="button" id="exitBtn" aria-label={t.exit_button}>{t.exit_button}</button>
@@ -73,11 +80,12 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
 
   <div id="joy" aria-label={t.joy_label}><div id="joyKnob"></div></div>
 
-  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelNote panelDesc">
+  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelNote panelArt panelDesc">
     <div class="count" id="panelCount"></div>
     <h2 id="panelTitle" tabindex="-1"></h2>
     <p id="panelMeta" class="meta"></p>
     <p id="panelNote" class="note"></p>
+    <p id="panelArt" class="note"></p>
     <p id="panelDesc"></p>
     <div class="row nav">
       <button type="button" id="panelPrev">{t.stop_prev}</button>
@@ -109,8 +117,10 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
       <li>{t.help_go}</li>
       <li>{t.help_stops}</li>
       <li>{t.help_map}</li>
+      <li>{t.help_light}</li>
       <li>{t.help_esc}</li>
     </ul>
+    <label class="lite"><input type="checkbox" id="liteHelp" /> {t.lite_label}</label>
     <button type="button" id="helpClose" class="close">{t.help_close}</button>
   </div>
 
@@ -136,6 +146,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
       <p class="lede">{t.enter_lede}</p>
       <p class="fail" data-fail role="alert" hidden></p>
       <button type="button" id="enterBtn">{t.enter_button}</button>
+      <label class="lite"><input type="checkbox" id="liteEnter" /> {t.lite_label}</label>
     </div>
   </div>
 
@@ -181,6 +192,7 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #brand small { display: block; color: #cfe0f5; font-weight: 400; font-size: .75rem; }
 #tour3d-root #exitBtn,
 #tour3d-root #mapBtn,
+#tour3d-root #lookBtn,
 #tour3d-root #helpBtn,
 #tour3d-root #journeyBtn {
   pointer-events: auto; cursor: pointer;
@@ -191,11 +203,13 @@ body:has(#tour3d-root) { overflow: hidden; }
 @media (hover: hover) {
   #tour3d-root #exitBtn:hover,
   #tour3d-root #mapBtn:hover,
+  #tour3d-root #lookBtn:hover,
   #tour3d-root #helpBtn:hover,
   #tour3d-root #journeyBtn:hover { background: #d4a017; color: #1a1206; }
 }
 #tour3d-root #exitBtn:active,
 #tour3d-root #mapBtn:active,
+#tour3d-root #lookBtn:active,
 #tour3d-root #helpBtn:active,
 #tour3d-root #journeyBtn:active { background: #d4a017; color: #1a1206; }
 #tour3d-root #topBtns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
@@ -204,6 +218,7 @@ body:has(#tour3d-root) { overflow: hidden; }
   #tour3d-root #topBtns { gap: 6px; }
   #tour3d-root #exitBtn,
   #tour3d-root #mapBtn,
+  #tour3d-root #lookBtn,
   #tour3d-root #helpBtn,
   #tour3d-root #journeyBtn { font-size: .8rem; padding: 6px 12px; }
 }
@@ -351,6 +366,62 @@ body:has(#tour3d-root) { overflow: hidden; }
 }
 #tour3d-root #toast.show { opacity: 1; pointer-events: auto; transform: translateX(50%) translateY(0); }
 #tour3d-root #toast a { color: #f5d67b; font-weight: 800; }
+#tour3d-root #toast button {
+  margin-top: 8px; cursor: pointer; background: #d4a017; color: #1a1206; border: none;
+  border-radius: 999px; padding: 8px 18px; font-weight: 800;
+}
+#tour3d-root #lookBtn[aria-pressed="true"] { background: #d4a017; color: #1a1206; }
+#tour3d-root label.lite {
+  display: flex; align-items: center; justify-content: center; gap: 8px; margin: 14px 0 0;
+  font-size: .9rem; color: #dbe4f5; cursor: pointer;
+}
+#tour3d-root #helpPanel label.lite { justify-content: flex-start; margin: 0 0 12px; }
+#tour3d-root label.lite input { width: 20px; height: 20px; accent-color: #d4a017; margin: 0; }
+
+/* ---------- daytime look: cream panels, dark text (every pair 4.5:1 or more) ---------- */
+#tour3d-root[data-look="day"] { background: #f1e6cf; }
+#tour3d-root[data-look="day"] #topbar { background: linear-gradient(to bottom, rgba(250,245,233,.8), transparent); }
+#tour3d-root[data-look="day"] #brand { color: #5a3d0c; text-shadow: none; }
+#tour3d-root[data-look="day"] #brand small { color: #3d3324; }
+#tour3d-root[data-look="day"] :is(#exitBtn, #lookBtn, #mapBtn, #helpBtn, #journeyBtn) {
+  background: rgba(250,245,233,.94); color: #5a3d0c; border-color: #a8741a;
+}
+#tour3d-root[data-look="day"] #lookBtn[aria-pressed="true"],
+#tour3d-root[data-look="day"] :is(#exitBtn, #lookBtn, #mapBtn, #helpBtn, #journeyBtn):active { background: #d4a017; color: #1a1206; }
+@media (hover: hover) {
+  #tour3d-root[data-look="day"] :is(#exitBtn, #lookBtn, #mapBtn, #helpBtn, #journeyBtn):hover { background: #d4a017; color: #1a1206; }
+}
+#tour3d-root[data-look="day"] :is(#hint, #loc) { color: #2a2113; background: rgba(250,245,233,.9); text-shadow: none; }
+#tour3d-root[data-look="day"] :is(#panel, #helpPanel, #mapPanel, #journeyPanel, #journeyCard, #toast) {
+  background: rgba(251,247,238,.97); color: #2a2113; border-color: #a8741a; box-shadow: 0 18px 50px rgba(60,40,10,.25);
+}
+#tour3d-root[data-look="day"] :is(#panel, #helpPanel, #mapPanel, #journeyPanel, #journeyCard) h2 { color: #5a3d0c; }
+#tour3d-root[data-look="day"] :is(#panel p, #helpPanel ul, #mapHere, #journeyCard p, label.lite) { color: #2a2113; }
+#tour3d-root[data-look="day"] #panel p.meta { color: #5a3d0c; }
+#tour3d-root[data-look="day"] :is(#panel p.note, #panel .count, #journeyPanel .sub, #journeyCard .jsub, .jchip small) { color: #4a3f2c; }
+#tour3d-root[data-look="day"] #journeyPanel h3 { color: #7a5410; }
+#tour3d-root[data-look="day"] :is(#panel .row.nav button, #strip button, .jchip) { background: #fffaf0; color: #2a2113; border-color: #8a7a5c; }
+#tour3d-root[data-look="day"] :is(#panel button.close, #helpPanel .close, #mapPanel .close, #journeyPanel .close) { color: #2a2113; border-color: #8a7a5c; }
+#tour3d-root[data-look="day"] #strip { background: linear-gradient(to top, rgba(250,245,233,.85), transparent); }
+#tour3d-root[data-look="day"] :is(#strip button[aria-current], #strip button:active) { background: #f5e3b3; color: #3d2a06; border-color: #a8741a; }
+@media (hover: hover) {
+  #tour3d-root[data-look="day"] :is(#strip button, .jchip):hover { border-color: #a8741a; color: #3d2a06; }
+}
+#tour3d-root[data-look="day"] #toast a { color: #5a3d0c; }
+#tour3d-root[data-look="day"] :is(button, a, input, canvas):focus-visible { outline-color: #5a3d0c; }
+#tour3d-root[data-look="day"] :is(#panel, #mapPanel, #helpPanel) h2:focus-visible { outline-color: #5a3d0c; }
+#tour3d-root[data-look="day"] #enterCard { background: radial-gradient(ellipse at center, #fbf5e6 0%, #e9dbbd 70%); }
+#tour3d-root[data-look="day"] #enterCard .box { color: #2a2113; }
+#tour3d-root[data-look="day"] #enterCard h1 { color: #5a3d0c; }
+#tour3d-root[data-look="day"] #enterCard p.lede { color: #3d3324; }
+#tour3d-root[data-look="day"] #enterCard p.fail { color: #5c1a0a; background: #fbe3d6; }
+#tour3d-root[data-look="day"] #enterCard .cube img { filter: drop-shadow(0 8px 22px rgba(60,40,10,.3)); }
+#tour3d-root[data-look="day"] #loading { background: #f1e6cf; color: #5a3d0c; }
+#tour3d-root[data-look="day"] #loading p { color: #3d3324; }
+#tour3d-root[data-look="day"] #fade { background: #f1e6cf; }
+/* High-contrast preference: solid panels in both looks. */
+html[data-contrast="high"] #tour3d-root :is(#panel, #helpPanel, #mapPanel, #journeyPanel, #journeyCard, #toast) { background: #0d1628; }
+html[data-contrast="high"] #tour3d-root[data-look="day"] :is(#panel, #helpPanel, #mapPanel, #journeyPanel, #journeyCard, #toast) { background: #ffffff; }
 
 /* ---------- touch joystick ---------- */
 #tour3d-root #joy {

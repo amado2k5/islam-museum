@@ -1,0 +1,37 @@
+id: person/mustafa-denizli
+class: person
+label: { ar: "مصطفى دنيزلي", en: "Mustafa Denizli", ur: "مصطفی دنیزلی" }
+names:
+  - { value: "Mustafa Denizli", kind: full }
+  - { value: "مصطفى دنيزلي", kind: full }
+gender: male
+summary:
+  ar: "مدرب كرة قدم تركي ومهاجم سابق، وُلد في إزمير سنة 1949. قضى سبعة عشر موسمًا مع نادي مدينته آلتاي، وأصبح كمدرب الوحيد في التاريخ الذي فاز بالدوري التركي الممتاز مع أندية إسطنبول الثلاثة الكبرى — غلطة سراي وفنربخشة وبشكتاش — وقاد غلطة سراي إلى نصف نهائي كأس أوروبا 1988–89، وتركيا إلى ربع نهائي يورو 2000، ودرّب أيضًا في ألمانيا وإيران وأذربيجان."
+  en: "Turkish football manager and former forward, born in İzmir in 1949. He spent seventeen seasons as a player with his hometown club Altay, and as a manager became the only coach in history to win the Süper Lig with all three Istanbul giants — Galatasaray, Fenerbahçe and Beşiktaş — took Galatasaray to the 1988–89 European Cup semi-finals and Turkey to the Euro 2000 quarter-finals, and also coached in Germany, Iran and Azerbaijan."
+  ur: "ترک فٹبال مینیجر اور سابق فارورڈ، 1949 میں ازمیر میں پیدا ہوئے۔ کھلاڑی کے طور پر اپنے آبائی شہر کے کلب آلتائے میں سترہ سیزن گزارے، اور مینیجر کے طور پر تاریخ کے واحد کوچ بنے جنہوں نے استنبول کے تینوں بڑے کلبوں — گالاتاسرائے، فینرباخچہ اور بیشکتاش — کے ساتھ سپر لیگ جیتی؛ گالاتاسرائے کو 1988–89 یورپی کپ کے سیمی فائنل اور ترکی کو یورو 2000 کے کوارٹر فائنل تک پہنچایا، اور جرمنی، ایران اور آذربائیجان میں بھی کوچنگ کی۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1949-11-10"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 November 1949 in İzmir, Turkey, as stated by the Arabic Wikipedia article; the English article recounts his seventeen seasons with Altay of İzmir, his hometown club, and Wikidata Q738962 agrees on the date. The Hijri year (1369) is derived by tabular conversion."
+  sources: [source/wikipedia-mustafa-denizli-en, source/wikipedia-mustafa-denizli-ar, source/wikidata-mustafa-denizli]
+relations:
+  - { type: born_in, target: place/izmir, sources: [source/wikipedia-mustafa-denizli-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record states a religion, let alone a school, for Denizli himself. The English Wikipedia article's text, read in full, makes no statement of his religion; its category list files him under 'Cretan Muslims', an ethnic-heritage category reflecting Cretan Muslim family background, which under the lane rule never counts as an attestation of personal faith. The Arabic article makes no statement of his religion, and Wikidata Q738962 carries no religion (P140) value at all. Turkey's historic Hanafi tradition is the country's milieu, which may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-mustafa-denizli-en, source/wikipedia-mustafa-denizli-ar, source/wikidata-mustafa-denizli]
+external_ids: { wikidata: "Q738962" }
+sources: [source/wikipedia-mustafa-denizli-en, source/wikipedia-mustafa-denizli-ar, source/wikidata-mustafa-denizli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mustafa Denizli' (revision 1382014985 of 26 October 2026), Arabic Wikipedia «مصطفى دنيزلي» (revision 75433936 of 13 June 2026) and Wikidata Q738962, read on 26 October 2026 and checked against the recorded revisions. The single born_in edge points from Denizli to place/izmir, which exists in data/place/. No earlier record for him existed in data/person/ under mustafa-denizli or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-40
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

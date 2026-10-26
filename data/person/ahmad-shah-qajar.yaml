@@ -1,0 +1,52 @@
+id: person/ahmad-shah-qajar
+class: person
+label: { ar: "أحمد شاه قاجار", en: "Ahmad Shah Qajar", ur: "احمد شاہ قاجار" }
+names:
+  - { value: "Ahmad Shah Qajar", kind: full }
+  - { value: "احمدشاه قاجار", kind: full }
+  - { value: "Sultan Ahmad Shah", kind: regnal }
+  - { value: "Ahmed Shah Qajar", kind: alternate }
+gender: male
+summary:
+  ar: "الشاه السابع والأخير من الأسرة القاجارية في إيران (حكم من 16 يوليو 1909 إلى 31 أكتوبر 1925)، نُصّب على العرش في الحادية عشرة من عمره بعد خلع أبيه محمد علي شاه. جرى عهده تحت وصاية ثم في ظل انقلاب 1921 وصعود رضا خان، وانتهى بتصويت المجلس على خلع الأسرة القاجارية سنة 1925؛ ومات في فرنسا سنة 1930."
+  en: "Seventh and last shah of Qajar Iran (reigned 16 July 1909 – 31 October 1925), placed on the throne at the age of eleven after his father Mohammad Ali Shah's deposition. His reign ran under regents and then through the 1921 coup and Reza Khan's rise, and ended when the Majlis deposed the Qajar dynasty in 1925; he died in France in 1930."
+  ur: "قاجاری ایران کے ساتویں اور آخری شاہ (دورِ حکومت 16 جولائی 1909 تا 31 اکتوبر 1925)؛ اپنے والد محمد علی شاہ کی معزولی کے بعد گیارہ برس کی عمر میں تخت پر بٹھائے گئے۔ ان کا عہد نائبین کی سرپرستی میں اور پھر 1921 کی بغاوت اور رضا خان کے عروج کے سائے میں گزرا، اور 1925 میں مجلس کے قاجاری خاندان کو معزول کرنے پر ختم ہوا؛ 1930 میں فرانس میں وفات پائی۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1898-01-21"
+  hijri: "1315"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tabriz, son of Mohammad Ali Shah and Malekeh Jahan. The Hijri year 1315 is the derived conversion of 1898."
+  sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar, source/iranica-ahmad-shah-qajar]
+died:
+  edtf: "1930-02-21"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Neuilly-sur-Seine, France — the English article says of influenza at the American Hospital of Paris — four years after his deposition, and was buried, as his will directed, in the family crypt at Karbala. The Hijri year 1348 is the derived conversion of 1930."
+  sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar]
+relations:
+  - { type: child_of, target: person/mohammad-ali-shah-qajar, sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar, source/iranica-ahmad-shah-qajar] }
+  - { type: successor_of, target: person/mohammad-ali-shah-qajar, sources: [source/wikipedia-ahmad-shah-qajar-en, source/iranica-ahmad-shah-qajar] }
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-ahmad-shah-qajar-en] }
+  - { type: buried_in, target: place/karbala, sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Ahmad Shah personally, and the value is recorded unknown under the doubt rule. What exists is one source family only: the English article's infobox carries a religion field reading 'Shia Islam', and Wikidata carries two religion values, Islam (Q432) without a reference and Shia Islam (Q9585) referenced only as imported from the Russian Wikipedia. The second text tradition here, Mohammad Javad Sheikh-ol-Islami's Encyclopaedia Iranica entry, is a political biography and makes no statement of his personal religion anywhere; the English and Persian article texts likewise name no school for him personally. His office as shah of a Twelver state, and the infobox/structured-data family, do not meet the two-independent-sources standard, so no shia-twelver value is recorded."
+    sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar, source/iranica-ahmad-shah-qajar]
+external_ids: { wikidata: Q317799 }
+sources: [source/wikipedia-ahmad-shah-qajar-en, source/wikidata-ahmad-shah-qajar, source/iranica-ahmad-shah-qajar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmad Shah Qajar' (revision 1379367966 of 9 October 2026), Mohammad Javad Sheikh-ol-Islami's Encyclopaedia Iranica entry 'Ahmad Shah Qajar' (published 15 December 1984; last updated 8 June 2018) and Wikidata item Q317799 (item revision 2557611015 of 16 October 2026), read directly on 26 October 2026; the Persian Wikipedia article's text was also read for the faith check and names no school for him personally. A minor split is noted: the English article gives his age at accession as eleven, the Iranica entry as twelve. His faith is unknown: the attestations are the English infobox field 'Shia Islam' and Wikidata's Islam and Russian-Wikipedia-imported Shia Islam values, one source family, and the scholarly text tradition is silent on his religion. Edges written once here: he was the son of Mohammad Ali Shah Qajar and his successor on the throne; his death at Neuilly-sur-Seine takes no place edge, as the museum has no entity for it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-38
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

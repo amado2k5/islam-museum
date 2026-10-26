@@ -42,7 +42,7 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
     <ul class="edu-doors" aria-label={S.sb_bands}>
       {bands.map((b) => (
         <li>
-          <a class={`edu-door pal-${b.palette}`} href={`/${lang}${b.hub}`}>
+          <a class={`edu-door pal-${b.palette}`} href={b.hub}>
             <span class="g" aria-hidden="true">{b.glyph}</span>
             <h2>{b.name}</h2>
             <span class="ages">{meta[b.id]?.ages}</span>

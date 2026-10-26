@@ -1,0 +1,36 @@
+id: person/george-weah
+class: person
+label: { ar: "جورج ويا", en: "George Weah", ur: "جارج ویا" }
+names:
+  - { value: "George Manneh Oppong Weah", kind: full }
+  - { value: "جورج مانيه أوبونغ ويا", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم ليبيري معتزل ورئيس ليبيريا الخامس والعشرون (2018–2024)، وُلد في مونروفيا سنة 1966. الأفريقي الوحيد الفائز بالكرة الذهبية وجائزة أفضل لاعب في العالم من الفيفا (1995 مع ميلان)، وأول لاعب محترف سابق يصبح رئيس دولة؛ انتُخب عضوًا في مجلس الشيوخ قبل رئاسته."
+  en: "Liberian retired footballer and 25th president of Liberia (2018–2024), born in Monrovia in 1966. The only African winner of both the Ballon d'Or and the FIFA World Player of the Year award (both in 1995, at AC Milan), and the first former professional footballer to become a head of state; he served as a senator before his presidency."
+  ur: "لائبیریا کے ریٹائرڈ فٹبالر اور لائبیریا کے 25ویں صدر (2018–2024)، 1966 میں مونروویا میں پیدا ہوئے۔ بیلن ڈی اور اور فیفا ورلڈ پلیئر آف دی ایئر (دونوں 1995، اے سی میلان میں) جیتنے والے واحد افریقی، اور سربراہِ مملکت بننے والے پہلے سابق پیشہ ور فٹبالر؛ صدارت سے پہلے سینیٹر رہے۔"
+roles: [athlete, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1966-10-01"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 October 1966 in Monrovia, Liberia, as given by the English Wikipedia article's infobox and by Wikidata Q173139, which agree. No place entity for Monrovia exists in data/place/, so no born_in edge is written. The Hijri year (1386) is derived by tabular conversion."
+  sources: [source/wikipedia-george-weah-en, source/wikidata-george-weah]
+faith:
+  - value: christian
+    basis: documented
+    note: "Weah's current affiliation is recorded as Christian, on two independent article text traditions. The English Wikipedia article states, citing BBC Sport (18 September 2001), that 'Weah practiced Islam for ten years before converting to Christianity', and its categories file him under Converts to Christianity from Islam and Liberian Christians. The French Wikipedia article states, citing Libération (7 October 2005), that he was born to Christian parents but converted to Islam and afterwards returned to Christianity; it adds that in 1995, while still a Muslim, he described himself as practising that religion and spoke of making up the Ramadan fast after his career (citing L'Humanité), and that in 2019 he inaugurated an evangelical church within his residence (citing BBC Afrique). Wikidata Q173139 gives his religion as Christianity (Q5043), in agreement. The Arabic article makes no statement of his own religion (his devoutly Christian grandmother is family background, and his schooling at Muslim Congress is not attestation). His decade of Islam — roughly the late 1980s to the mid-1990s on the French article's 1995 marker, 'ten years' on the English article's account — is therefore documented here as a period of his life, not recorded as his affiliation: the lane records a convert's current affiliation per the sources, symmetrically in both directions. The two articles differ in emphasis on dates, and both readings are preserved here; they agree on the sequence and on his present Christianity."
+    sources: [source/wikipedia-george-weah-en, source/wikipedia-george-weah-fr, source/wikidata-george-weah]
+external_ids: { wikidata: "Q173139" }
+sources: [source/wikipedia-george-weah-en, source/wikipedia-george-weah-fr, source/wikipedia-george-weah-ar, source/wikidata-george-weah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'George Weah' (revision 1381394168 of 22 October 2026), French Wikipedia 'George Weah' (revision 240267912 of 11 October 2026), Arabic Wikipedia «جورج ويا» (revision 77066948 of 25 October 2026) and Wikidata Q173139, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Monrovia, has no entity in data/place/, and no record for his son Timothy Weah exists in data/person/ (fragment search negative), so no child edge is written either. No earlier record for him existed in data/person/ under weah or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment. The century queue annotates him '(Honored African Icon)'; that annotation is not evidence and played no part in the faith determination, which follows the two-source rule applied to his current affiliation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

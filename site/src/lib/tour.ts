@@ -130,3 +130,52 @@ export function viewExhibits(list: Exhibit[], lang: Lang): ExhibitView[] {
     museum: e.museum?.[lang] ?? "",
   }));
 }
+
+/** One stop in a data-built wing hall: a graph record shown as a framed site
+ *  illustration (`art`) or, for people, ideas, books and practices, a name plaque. */
+export interface HallStop {
+  id: string;
+  record: string;
+  sources: string[];
+  art?: string;
+  label: Trilingual;
+  desc: Trilingual;
+}
+export interface Hall { wing: string; stops: HallStop[] }
+export interface HallStopView { id: string; record: string; art: string; label: string; desc: string }
+export interface HallView { wing: string; stops: HallStopView[] }
+
+/** Every wing but Objects (tour/exhibits.yaml), in the Grand Hall's doorway order. */
+export const HALL_WINGS = ["time", "place", "people", "ideas", "words", "living", "today", "made"];
+export const HALL_STOPS = 6;
+
+export function loadHalls(): Hall[] {
+  const raw = parse(readFileSync(repoPath("tour/halls.yaml"), "utf8")) as { halls?: Hall[] };
+  const list = raw?.halls;
+  if (!list || list.map((h) => h.wing).join() !== HALL_WINGS.join())
+    throw new Error(`tour/halls.yaml: expected one hall per wing, in order: ${HALL_WINGS.join(", ")}`);
+  for (const h of list) {
+    if (!Array.isArray(h.stops) || h.stops.length !== HALL_STOPS)
+      throw new Error(`tour/halls.yaml: hall ${h.wing} needs exactly ${HALL_STOPS} stops`);
+    if (new Set(h.stops.map((s) => s.id)).size !== h.stops.length)
+      throw new Error(`tour/halls.yaml: stop ids in hall ${h.wing} must be unique`);
+    for (const s of h.stops) {
+      const where = `tour/halls.yaml: stop ${h.wing}/${s.id || "?"}`;
+      if (!/^[a-z0-9-]+$/.test(s.id || "")) throw new Error(`${where} needs an id of [a-z0-9-]`);
+      if (!/^[a-z]+\/[a-z0-9-]+$/.test(s.record || "")) throw new Error(`${where} needs a <class>/<slug> record`);
+      if (!Array.isArray(s.sources) || !s.sources.length || s.sources.some((x) => !/^source\/[a-z0-9-]+$/.test(x)))
+        throw new Error(`${where} needs sources: [source/<slug>, ...]`);
+      if (s.art !== undefined && !/^[a-z0-9-]+$/.test(s.art)) throw new Error(`${where}: art must be an illustration slug`);
+      if (s.art && s.record.startsWith("person/")) throw new Error(`${where}: people are shown by name only, never with an illustration`);
+      if (!full(s.label) || !full(s.desc)) throw new Error(`${where} needs label and desc in ar, en and ur`);
+    }
+  }
+  return list;
+}
+
+export function viewHalls(list: Hall[], lang: Lang): HallView[] {
+  return list.map((h) => ({
+    wing: h.wing,
+    stops: h.stops.map((s) => ({ id: s.id, record: s.record, art: s.art ?? "", label: s.label[lang], desc: s.desc[lang] })),
+  }));
+}

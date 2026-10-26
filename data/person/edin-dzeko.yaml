@@ -1,0 +1,39 @@
+id: person/edin-dzeko
+class: person
+label: { ar: "إدين دجيكو", en: "Edin Džeko", ur: "ایدین جیکو" }
+names:
+  - { value: "Edin Džeko", kind: full }
+  - { value: "إدين دجيكو", kind: full }
+  - { value: "Bosnian Diamond", kind: laqab }
+  - { value: "الماسة البوسنية", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم بوسني، وُلد في سراييفو سنة 1986 وعاش طفولته تحت حصارها؛ مهاجم يُلقب بـ«الماسة البوسنية»، بدأ مع زيليزنيكار ثم تألق مع فولفسبورغ ففاز معه بالدوري الألماني (2009) ولقب هدافه (2010)، وفاز مع مانشستر سيتي بالدوري الإنجليزي مرتين، وكان هداف الدوري الإيطالي مع روما (2017)، ولعب بعدها لإنتر ميلان وفنربخشة وفيورنتينا ثم شالكه. الهداف التاريخي لمنتخب البوسنة والهرسك وأكثر لاعبيه مشاركة دولية."
+  en: "Bosnian professional footballer, born in Sarajevo in 1986, whose childhood was spent under the city's siege. A striker nicknamed the 'Bosnian Diamond', he began at Željezničar, starred for VfL Wolfsburg — winning the Bundesliga in 2009 and its top-scorer title in 2010 — won two Premier League titles with Manchester City, finished as Serie A's top scorer with Roma in 2017, and later played for Inter Milan, Fenerbahçe and Fiorentina before joining Schalke 04. He is the all-time top scorer and most-capped player in the history of the Bosnia and Herzegovina national team."
+  ur: "بوسنیائی پیشہ ور فٹبالر، 1986 میں سرائیوو میں پیدا ہوئے اور بچپن شہر کے محاصرے میں گزارا؛ «بوسنیائی ہیرا» کے لقب سے مشہور اسٹرائیکر جنہوں نے زیلیزنیکار سے آغاز کیا، وولفسبرگ کے ساتھ 2009 میں بنڈس لیگا اور 2010 میں اس کے ٹاپ اسکورر کا خطاب جیتا، مانچسٹر سٹی کے ساتھ دو پریمیئر لیگ خطاب جیتے، 2017 میں روما کے ساتھ سیری آ کے ٹاپ اسکورر رہے، اور بعد میں انٹر میلان، فنربخشے اور فیورنٹینا کے بعد شالکے میں شامل ہوئے۔ بوسنیا و ہرزیگووینا کی قومی ٹیم کے تاریخ کے سب سے بڑے گول اسکورر اور سب سے زیادہ میچ کھیلنے والے کھلاڑی ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1986-03-17"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 17 March 1986 in Sarajevo, in what was then SR Bosnia and Herzegovina, SFR Yugoslavia, to Midhat and Belma Džeko, as given by the English Wikipedia article's personal-life section and by Wikidata Q153786. The Hijri year (1406) is derived by tabular conversion."
+  sources: [source/wikipedia-edin-dzeko-en, source/wikipedia-edin-dzeko-ar, source/wikidata-edin-dzeko]
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-edin-dzeko-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Džeko himself. The English Wikipedia article's personal-life section states: 'He is a Muslim, and has dual citizenship of Bosnia and Herzegovina and Croatia.' The Arabic article likewise states «وهو مسلم» ('He is a Muslim'), and Wikidata Q153786 gives his religion as Islam (Q432), generically. Bosnia's historic Hanafi tradition is the region's milieu, which under the lane rule may not be inferred onto an individual, and none of the statements names a school for him. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-edin-dzeko-en, source/wikipedia-edin-dzeko-ar, source/wikidata-edin-dzeko]
+external_ids: { wikidata: "Q153786" }
+sources: [source/wikipedia-edin-dzeko-en, source/wikipedia-edin-dzeko-ar, source/wikidata-edin-dzeko]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Edin Džeko' (revision 1382042395 of 26 October 2026), Arabic Wikipedia «إدين دجيكو» (revision 76925316 of 8 October 2026) and Wikidata Q153786, read on 26 October 2026 and checked against the recorded revisions. The single born_in edge points from Džeko to place/sarajevo, which exists in data/place/. No earlier record for him existed in data/person/ under edin-dzeko or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-39
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,51 @@
+id: person/saad-zaghloul
+class: person
+label: { ar: "سعد زغلول", en: "Saad Zaghloul", ur: "سعد زغلول" }
+names:
+  - { value: "سعد زغلول", kind: full }
+  - { value: "Saad Zaghloul", kind: full }
+  - { value: "زعيم الأمة", kind: laqab }
+  - { value: "Za'im al-Umma", kind: laqab }
+gender: male
+summary:
+  ar: "زعيم وطني مصري وقائد ثورة 1919، درس في الأزهر ومدرسة الحقوق وعمل قاضيًا ووزيرًا للمعارف ثم للحقانية، وقاد الوفد المصري المطالب بالاستقلال فنُفي إلى مالطا وسيشل، ثم صار أول رئيس وزراء من حزب الوفد سنة 1924 ورئيس مجلس النواب حتى وفاته سنة 1927."
+  en: "Egyptian national leader and leader of the 1919 revolution. He studied at al-Azhar and the law school, worked as a judge and as minister of education and then of justice, and led the Egyptian delegation demanding independence, for which he was exiled to Malta and the Seychelles; he became the Wafd's first prime minister in 1924 and president of the Chamber of Deputies until his death in 1927."
+  ur: "مصری قومی رہنما اور 1919 کی بغاوت کے قائد۔ انہوں نے الازہر اور لا اسکول میں تعلیم حاصل کی، جج رہے اور وزیرِ تعلیم اور پھر وزیرِ انصاف ہوئے، آزادی کا مطالبہ کرنے والے مصری وفد کی قیادت کی جس پر انہیں مالٹا اور سیشلز جلاوطن کیا گیا؛ وہ 1924 میں وفد کے پہلے وزیرِ اعظم بنے اور 1927 میں وفات تک ایوانِ نمائندگان کے صدر رہے۔"
+roles: [politician, jurist, activist]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1859-07-01"
+  hijri: "1275"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth date is given four ways, and the conflict is recorded rather than resolved silently. The English article's infobox gives 1 July 1859, at Ibyana in the Kafr el-Sheikh Governorate, and Wikidata's day-precision value is the same, referenced to the BnF authority file; that reading is followed. But the English article's own timeline gives July 1857; the Arabic article's lead dates him from 1858, and its text states that reports conflict — some give July 1857, others July 1858, while the records of the law certificate he obtained make him born in June 1860. Wikidata carries all three years (1857, July 1858, 1 July 1859). No museum place entity exists for Ibyana, so no born_in edge is written. The Hijri year 1275 is the derived conversion of July 1859."
+  sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar, source/wikidata-saad-zaghloul]
+died:
+  edtf: "1927-08-23"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 23 August 1927, at Cairo. The English article gives his resting place as the Mausoleum of Saad Zaghloul in Cairo, where he is buried with his wife Safiya in their mausoleum, Bayt al-Umma (House of the Nation). The Hijri year 1346 is the derived conversion of August 1927."
+  sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar, source/wikidata-saad-zaghloul]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-saad-zaghloul-en] }
+  - { type: sibling_of, target: person/ahmad-fathi-zaghlul, sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources attest a religion or a school for Saad Zaghloul personally, and the value is recorded unknown under the doubt rule. The English article makes no statement of his religion in its text; its categories file him under 'Egyptian Muslims', which is a filing category, not an attestation. The Arabic article's infobox has no religion field and its text names no school. Wikidata carries two religion values — Islam (Q432) and Sunni Islam (Q483654) — but both are referenced only as imported from one and the same Wikimedia project (P143 = Q206855): a single source family copied into structured form, not two independent attestations. His studies at al-Azhar and his formation in the reform circle around Muhammad Abduh are education and association, which never attest a school."
+    sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar, source/wikidata-saad-zaghloul]
+external_ids: { wikidata: "Q328734" }
+sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar, source/wikidata-saad-zaghloul]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Saad Zaghloul' (revision 1347082044 of 4 April 2026), Arabic Wikipedia 'سعد زغلول' (revision 76819162 of 30 September 2026) and Wikidata item Q328734 (item revision 2557112932 of 15 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed (his brother's record, person/ahmad-fathi-zaghlul, did). Three edges are written: died_in and buried_in to place/cairo, an existing entity, and sibling_of to person/ahmad-fathi-zaghlul, an existing record — in words, Saad Zaghloul is the elder brother of Ahmad Fathy Zaghlul — written ONCE, here in Saad's record, since inverses are computed. No born_in edge is written: no museum place entity exists for Ibyana. His birth date is recorded debated (1 July 1859 followed; 1857, 1858 and 1860 readings preserved in the note). His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

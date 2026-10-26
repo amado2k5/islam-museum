@@ -1,0 +1,53 @@
+id: person/abdulmecid-ii
+class: person
+label: { ar: "عبد المجيد الثاني", en: "Abdülmecid II", ur: "عبدالمجید ثانی" }
+names:
+  - { value: "Abdülmecid II", kind: regnal }
+  - { value: "عبد المجید ثانی", kind: regnal }
+  - { value: "Abdülmecid bin Abdülaziz Han", kind: full }
+  - { value: "Abdülmecid Efendi", kind: alternate }
+  - { value: "Abdul Mejid II", kind: alternate }
+gender: male
+summary:
+  ar: "آخر خلفاء الدولة العثمانية (19 نوفمبر 1922 – 3 مارس 1924)، وهو الخليفة الوحيد الذي انتخبه المجلس الوطني التركي الكبير، ورئيس الأسرة العثمانية في المنفى من 1926 حتى وفاته. وهو ابن السلطان عبد العزيز، وكان وليًّا للعهد من 1918؛ وبعد إلغاء الخلافة عاش في سويسرا وفرنسا، ويُذكر أيضًا بوصفه من أهم رسامي أواخر العهد العثماني."
+  en: "Last Ottoman caliph (19 November 1922 – 3 March 1924), the only caliph elected by the Grand National Assembly of Turkey, and head of the Ottoman dynasty in exile from 1926 until his death. A son of Sultan Abdulaziz, he had been crown prince from 1918; after the caliphate was abolished he lived in Switzerland and France, and he is remembered also as one of the most important painters of the late Ottoman period."
+  ur: "آخری عثمانی خلیفہ (19 نومبر 1922 تا 3 مارچ 1924)، واحد خلیفہ جو ترکیہ کی مجلسِ کبیرِ ملی کے منتخب کردہ تھے، اور 1926 سے وفات تک جلاوطنی میں عثمانی خاندان کے سربراہ۔ سلطان عبدالعزیز کے فرزند، 1918 سے ولی عہد رہے؛ خلافت کے خاتمے کے بعد سوئٹزرلینڈ اور فرانس میں رہے، اور آخری عثمانی دور کے اہم ترین مصوروں میں شمار ہوتے ہیں۔"
+roles: [caliph]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1868-05-29"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The birth day is split inside the English article itself: its infobox gives '29/30 May 1868', its lead 29 May and its early-life text 30 May 1868 at Dolmabahçe Palace, both citing the Encyclopaedia Britannica. The record follows 29 May, which the Turkish article and Wikidata also give; the Turkish article likewise places the birth at Dolmabahçe Palace, Beşiktaş, Istanbul. He was a son of Sultan Abdulaziz and Hayranidil Kadın. The Hijri year 1285 is the derived conversion of 1868."
+  sources: [source/wikipedia-abdulmecid-ii-en, source/wikipedia-abdulmecid-ii-tr, source/wikidata-abdulmecid-ii]
+died:
+  edtf: "1944-08-23"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack at Paris on 23 August 1944, during the liberation of the city. The Turkish government refused burial in Turkey; his body lay at the Grand Mosque of Paris for ten years and was buried at Jannat al-Baqi in Medina on 30 March 1954. The Hijri year 1363 is the derived conversion of 1944."
+  sources: [source/wikipedia-abdulmecid-ii-en, source/wikipedia-abdulmecid-ii-tr, source/wikidata-abdulmecid-ii]
+relations:
+  - { type: child_of, target: person/abd-al-aziz-uthmani, sources: [source/wikipedia-abdulmecid-ii-en, source/wikidata-abdulmecid-ii] }
+  - { type: successor_of, target: person/muhammad-vi-uthmani, sources: [source/wikipedia-abdulmecid-ii-en] }
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-abdulmecid-ii-en, source/wikipedia-abdulmecid-ii-tr] }
+  - { type: buried_in, target: place/baqi-al-gharqad, sources: [source/wikipedia-abdulmecid-ii-en, source/wikipedia-abdulmecid-ii-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Abdülmecid II in its text, and the value is recorded unknown under the doubt rule and the dynasty precedent. What exists is one structured-data family only: the English article's infobox carries a religion field reading 'Sunni Islam', uncited; the Turkish article's infobox carries the same value ('Sünni İslam'), uncited; and Wikidata carries Sunni Islam (Q483654) without references. Neither article's text attests a school for him personally: the texts describe the caliphate he held — an office, which the dynasty precedent does not count — his protest that the abolition of the caliphate was contrary to Sharia, and his Friday prayers at the Grand Mosque of Paris in exile, which are position and practice, not an attestation of a school. One infobox family, repeated across two editions and a structured-data item, does not meet the two-independent-sources standard, so no sunni value is recorded."
+    sources: [source/wikipedia-abdulmecid-ii-en, source/wikipedia-abdulmecid-ii-tr, source/wikidata-abdulmecid-ii]
+external_ids: { wikidata: Q203768 }
+sources: [source/wikipedia-abdulmecid-ii-en, source/wikipedia-abdulmecid-ii-tr, source/wikidata-abdulmecid-ii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdülmecid II' (revision 1378684453 of 5 October 2026), Turkish Wikipedia 'Abdülmecid Efendi' (revision 38113292 of 2 October 2026) and Wikidata item Q203768 (item revision 2556155997 of 12 October 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. The successor_of edge records that he succeeded his cousin Mehmed VI (person/muhammad-vi-uthmani) as caliph on 19 November 1922 — he later succeeded him again as head of the dynasty in 1926 — and the child_of edge his descent from Sultan Abdulaziz, whose record person/abd-al-aziz-uthmani exists. His death place, Paris, has no place entity in the museum, so it is carried in the died note only. His faith is unknown: the only attestations are the two articles' uncited infobox fields and Wikidata's unreferenced Sunni Islam value, one source family, and his caliphate is office, not personal attestation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

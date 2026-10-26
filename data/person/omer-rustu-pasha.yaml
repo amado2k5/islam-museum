@@ -1,0 +1,50 @@
+id: person/omer-rustu-pasha
+class: person
+label: { ar: "عمر رشدي باشا", en: "Ömer Rüştü Pasha", ur: "عمر رشدی پاشا" }
+names:
+  - { value: "Ömer Rüşdü Paşa", kind: full }
+  - { value: "عمر رشدي باشا", kind: full }
+  - { value: "Ömer Rüştü Paşa", kind: alternate }
+  - { value: "Mekkelizâde", kind: alternate }
+gender: male
+summary:
+  ar: "عمر رشدي باشا (1843 – 23 يوليو 1922)، مشير عثماني من كوتاهية خدم في الجيش أكثر من نصف قرن، وقاد الجيش الخامس في الشام وقوات الاحتياط في حرب 1897، وصار بعد إنشاء وزارة الحرب سنة 1908 أول وزرائها ثم عضوًا في مجلس الأعيان."
+  en: "Ömer Rüşdü Pasha (1843 – 23 July 1922) was an Ottoman field marshal from Kütahya who served in the army for over half a century, commanded the Fifth Army at Damascus and the reserve forces in the Greco-Turkish War of 1897, and in 1908 became the first Minister of War after the ministry replaced the Seraskerlik; he later sat in the Senate."
+  ur: "عمر رشدی پاشا (1843ء – 23 جولائی 1922ء)، کوتاہیہ سے تعلق رکھنے والے عثمانی مشیر؛ نصف صدی سے زائد فوج میں رہے، دمشق میں پانچویں فوج اور 1897ء کی جنگ میں احتیاطی افواج کی کمان کی، اور 1908ء میں وزارتِ جنگ کے قیام پر اس کے پہلے وزیر بنے، بعد ازاں مجلسِ اعیان کے رکن ہوئے۔"
+roles: [military, vizier]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1843"
+  hijri: "1259"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Turkish article, citing the Osmanlılar Ansiklopedisi, and Wikidata both give 1843, at Kütahya; his father was Mehmed and his grandfather Ali, and the family was nicknamed Mekkelizâde. Kütahya has no place entity in the museum, so no born_in edge is written. The Hijri year 1259 is the tabular conversion of mid-1843."
+  sources: [source/wikipedia-omer-rustu-pasha-tr, source/wikidata-omer-rustu-pasha]
+died:
+  edtf: "1922-07-23"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Turkish article gives his death on 23 July 1922 at Istanbul, at his son-in-law Hüsamettin Pasha's mansion, aged 79, and his burial in Maçka Cemetery; Wikidata gives the death year 1922 at Istanbul. The Hijri year 1340 is the tabular conversion of 23 July 1922."
+  sources: [source/wikipedia-omer-rustu-pasha-tr, source/wikidata-omer-rustu-pasha]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 23 July 1922.", sources: [source/wikipedia-omer-rustu-pasha-tr] }
+  - { type: buried_in, target: place/istanbul, note: "He was buried in Maçka Cemetery, Istanbul.", sources: [source/wikipedia-omer-rustu-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. Only one article exists, the Turkish one, and it names no religion or school for Ömer Rüşdü Pasha personally; its infobox carries no religion field, and Wikidata (Q6027690) carries no religion (P140) value at all. The article records his family's nickname Mekkelizâde, earned because an ancestor moved from Kütahya to the Hejaz and lived long in Mecca — that is family history, and under the lane rules family background never counts as the man's own attested affiliation. His ministry, his Senate seat and his vote in the Council of the Sultanate in 1920 are offices and acts, not attestation. With no source attesting a faith for him personally, the value is recorded unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-omer-rustu-pasha-tr, source/wikidata-omer-rustu-pasha]
+external_ids: { wikidata: "Q6027690" }
+sources: [source/wikipedia-omer-rustu-pasha-tr, source/wikidata-omer-rustu-pasha]
+provenance:
+  layer: own-research
+  source: "Turkish Wikipedia 'Ömer Rüşdü Paşa' (revision 37836371 of 26 August 2026) and Wikidata item Q6027690 (item revision 2523636401 of 27 July 2026), read directly on 26 October 2026 and the article re-fetched by revision id with content verified identical. No English Wikipedia article exists: the item's only sitelink is trwiki, and the museum's record therefore rests on the Turkish article with Wikidata, which the publication standard allows (one defined source suffices for a fact). The harvest queue's years are 1843–1922, confirmed by both sources; the queue spells his middle name Rüştü while the article's title spells it Rüşdü, and both spellings are recorded in his names. The died_in and buried_in edges record his death and burial at Istanbul; his birthplace Kütahya has no place entity, so it is carried in the born note only. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,37 @@
+id: person/gervinho
+class: person
+label: { ar: "جرفينيو", en: "Gervinho", ur: "جروینیو" }
+names:
+  - { value: "Gervais Lombe Yao Kouassi", kind: full }
+  - { value: "Gervinho", kind: alternate }
+  - { value: "جرفينيو", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم عاجي معتزل، وُلد في أنياما بساحل العاج سنة 1987. مهاجم فاز مع ليل بثنائية الدوري والكأس في فرنسا 2010–11، ولعب لأرسنال وروما وخبي الصين وبارما وطرابزون سبور الذي فاز معه بالدوري التركي 2021–22، وخاض أكثر من 80 مباراة مع منتخب ساحل العاج سجل فيها 23 هدفًا وفاز بكأس أمم أفريقيا 2015."
+  en: "Ivorian retired footballer, born in Anyama, Ivory Coast in 1987. A forward who won the French league-and-cup double with Lille in 2010–11, played for Arsenal, Roma, Hebei China Fortune, Parma and Trabzonspor — winning the Turkish Süper Lig with the last in 2021–22 — and won over 80 caps for Ivory Coast, scoring 23 goals and lifting the 2015 Africa Cup of Nations."
+  ur: "آئیوریائی ریٹائرڈ فٹبالر، 1987 میں آئیوری کوسٹ کے انیاما میں پیدا ہوئے۔ فارورڈ جنہوں نے لیل کے ساتھ 2010–11 میں فرانسیسی لیگ اور کپ کا دوہرا خطاب جیتا، آرسنل، روما، ہیبے چائنا فارچیون، پارما اور ترابزون سپور کے لیے کھیلے — آخری ٹیم کے ساتھ 2021–22 میں ترک سپر لیگ جیتی — اور آئیوری کوسٹ کے لیے 80 سے زائد میچوں میں 23 گول کیے اور 2015 افریقہ کپ آف نیشنز جیتا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1987-05-27"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 27 May 1987 in Anyama, Ivory Coast, as given by the English Wikipedia article's infobox and Wikidata Q208025, which agree. No place entity for Anyama exists in data/place/, so no born_in edge is written. The Hijri year (1407) is derived by tabular conversion."
+  sources: [source/wikipedia-gervinho-en, source/wikipedia-gervinho-fr, source/wikipedia-gervinho-ar, source/wikidata-gervinho]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Gervinho's religion at all. The English, French and Arabic Wikipedia articles were each read in full: none mentions religion in its text or categories. Wikidata Q208025 carries no religion (P140) value. This is complete absence, not a conflict: no source names even a generic affiliation for him personally, let alone a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-gervinho-en, source/wikipedia-gervinho-fr, source/wikipedia-gervinho-ar, source/wikidata-gervinho]
+external_ids: { wikidata: "Q208025" }
+sources: [source/wikipedia-gervinho-en, source/wikipedia-gervinho-fr, source/wikipedia-gervinho-ar, source/wikidata-gervinho]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Gervinho' (revision 1379640784 of 11 October 2026), French Wikipedia 'Gervinho' (revision 239281483 of 6 September 2026), Arabic Wikipedia «جرفينيو» (revision 75058792 of 5 June 2026) and Wikidata Q208025, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: his birthplace, Anyama, has no entity in data/place/. No earlier record for him existed in data/person/ under gervinho, kouassi or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

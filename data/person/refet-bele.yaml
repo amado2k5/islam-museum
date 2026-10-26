@@ -1,0 +1,50 @@
+id: person/refet-bele
+class: person
+label: { ar: "رفعت بيله", en: "Refet Bele", ur: "رفت بیلے" }
+names:
+  - { value: "İbrahim Refet Bele", kind: full }
+  - { value: "إبراهيم رفعت بيله", kind: full }
+  - { value: "Refet Bey", kind: alternate }
+  - { value: "Refet Pasha", kind: alternate }
+gender: male
+summary:
+  ar: "قائد عسكري ورجل دولة تركي. خدم في الجيش العثماني في فلسطين، ثم كان من قادة حرب الاستقلال التركية، فتولى وزارة الداخلية مرتين ووزارة الدفاع الوطني في حكومة أنقرة، وجلس في البرلمان لأعوام طويلة عن إزمير ثم إسطنبول. توفي في إسطنبول سنة 1963 ودُفن في مقبرة زينجيرليكويو."
+  en: "Turkish military commander and statesman. He served in the Ottoman army in Palestine, became one of the commanders of the Turkish War of Independence, held the Ankara government's Ministry of the Interior twice and its Ministry of National Defence, and sat in parliament for many years for İzmir and then Istanbul. He died at Istanbul in 1963 and was buried at Zincirlikuyu Cemetery."
+  ur: "ترک فوجی کمانڈر اور مدبر۔ انہوں نے فلسطین میں عثمانی فوج میں خدمات انجام دیں، ترک جنگِ آزادی کے کمانڈروں میں سے ایک بنے، انقرہ حکومت کی وزارتِ داخلہ دو بار اور وزارتِ دفاعِ ملی سنبھالی، اور کئی برس ازمیر اور پھر اسطنبول سے پارلیمان کے رکن رہے۔ 1963 میں اسطنبول میں وفات پائی اور زینجیرلی کویو قبرستان میں دفن ہوئے۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1881"
+  hijri: "1298"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both articles give his birth in the year 1881 at Thessaloniki, and Wikidata's birth value is likewise 1881 at year precision; no source consulted gives a month or day. No museum place entity exists for Thessaloniki, so the birthplace is carried in this note and in prose only, with no born_in edge. Wikidata's birthplace value is Istanbul (Q406), which is not followed against both articles. The Hijri year 1298 is the derived conversion of 1881."
+  sources: [source/wikipedia-refet-bele-en, source/wikipedia-refet-bele-tr, source/wikidata-refet-bele]
+died:
+  edtf: "1963-10-03"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The day of his death is given two ways, and the conflict is recorded rather than resolved silently. The English article gives 3 October 1963 at Istanbul, and Wikidata gives the same date; the Turkish article gives 2 October 1963, citing the TBMM Album. This record follows 3 October 1963, the reading of two of the three sources. Both articles agree that he was buried at Zincirlikuyu Cemetery, Istanbul, and that by his wish and his family's the grave was not transferred to the State Cemetery. The Hijri year 1383 is the derived conversion of 1963."
+  sources: [source/wikipedia-refet-bele-en, source/wikipedia-refet-bele-tr, source/wikidata-refet-bele]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-refet-bele-en, source/wikipedia-refet-bele-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-refet-bele-en, source/wikipedia-refet-bele-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted attests any religion for Refet Bele at all, and the value is recorded unknown under the doubt rule. The English article names no religion for him in its text or infobox. The Turkish article's infobox has a religion field (dini) and leaves it blank, and its text names no religion, school or order. Wikidata carries no religion statement (P140) for him. With a complete absence of attestation in all three sources, no value can be recorded; his Ottoman and republican offices and commands are service facts, not attestation."
+    sources: [source/wikipedia-refet-bele-en, source/wikipedia-refet-bele-tr, source/wikidata-refet-bele]
+external_ids: { wikidata: Q1422996 }
+sources: [source/wikipedia-refet-bele-en, source/wikipedia-refet-bele-tr, source/wikidata-refet-bele]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Refet Bele' (revision 1381367098 of 21 October 2026), Turkish Wikipedia 'Refet Bele' (revision 38308273 of 22 October 2026) and Wikidata item Q1422996 (item revision 2554084777 of 6 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; the only refet fragment hit, ahmet-refet-efendi, is a calligrapher of 1873–1949 (Q130266408), a different man, and no record for this person existed. Two edges are written, both to place/istanbul, an existing entity: died there, and buried at Zincirlikuyu Cemetery there. No born_in edge is written because no museum place entity exists for Thessaloniki. The death day is debated between the sources (3 October against the Turkish article's TBMM-cited 2 October) and is recorded as such. His faith is unknown, for the reasons stated in the faith note: no source attests any religion for him."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
