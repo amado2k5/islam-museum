@@ -13,6 +13,29 @@ summary:
 wings: [living]
 themes: [education]
 regions: [global]
-sources: [source/assabile-omar-abdelkafy]
+sources: [source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
+issue:
+  ar: "هل يعاني شباب الأمة أزمة قراءة حقيقية، وما حجمها وأسبابها، وكيف تعالج؟"
+perspectives:
+- tradition: other
+  id: crisis-in-numbers
+  stance:
+    ar: "أزمة موثقة بالأرقام — 5% من العالم و1% من كتبه"
+  summary:
+    ar: "عرضت حلقة «الوسطية» حجم الأزمة: العرب 5% من سكان العالم وينتجون 1% من كتبه، وإحصائية عناوين 29 مقابل 726، و20 ألمانياً يقرأون 140 كتاباً سنوياً؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} ومتوسط سرعة القراءة العربي 150 كلمة/دقيقة مقابل 200 عالمياً بفهم 75% {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}."
+  holders: []
+  evidence:
+  - ref: source/assabile-tareq-al-suwaidan
+    note: al-wassitiya ep19, 00:31:30-00:53:30
+- tradition: other
+  id: bad-writing-not-busyness
+  stance:
+    ar: "السبب الأكبر سوء الكتابة العربية لا الانشغال"
+  summary:
+    ar: "صوّت الشباب أن الانشغال أقل الأسباب عذراً (12%) بينما الأكبر سوء الكتابة العربية؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:37:00} ومن اقتصاد الكتاب: المؤلف يأخذ 14% من الإيراد و86% للناشر والموزع والطباعة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:30}."
+  holders: []
+  evidence:
+  - ref: source/assabile-tareq-al-suwaidan
+    note: al-wassitiya ep19, 00:36:00-00:42:00
 provenance: { layer: copyrighted-reference, source: "Assabile, al-fawzu-al-moubeen (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-al-fawzu-1 }
-status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run omar-abdelkafy-al-fawzu-1; perspectives block for the contested figures; figures are the speaker's, not sourced; needs_source annotations in prose" }
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run omar-abdelkafy-al-fawzu-1; extended by Devin (SWE-2 High) run devin-tareq-al-suwaidan-wassitiya-19" }
