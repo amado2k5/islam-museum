@@ -1,0 +1,31 @@
+id: person/omar-abdulrahman
+class: person
+label: { ar: "عمر عبد الرحمن", en: "Omar Abdulrahman", ur: "عمر عبد الرحمن" }
+names:
+  - { value: "Omar Abdulrahman Ahmed Al Raaki Al Amoudi", kind: full }
+  - { value: "عمر عبد الرحمن أحمد الراقي العمودي", kind: full }
+  - { value: "عمر عبد الرحمن احمد الراقی العمودي", kind: full }
+  - { value: "عموري", kind: laqab }
+  - { value: "Amoory", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب وسط مهاجم إماراتي معتزل وُلد في الرياض سنة 1991 لأبوين يمنيين. نال جائزة لاعب العام في آسيا سنة 2016، وقضى معظم مسيرته مع العين، وخاض 74 مباراة دولية مع الإمارات. يُعرف بلقب «عموري»."
+  en: "Emirati former attacking midfielder born in Riyadh in 1991 to Yemeni parents. He was the Asian Footballer of the Year in 2016, spent most of his career at Al Ain, and won 74 caps for the United Arab Emirates. He is known by the nickname Amoory."
+  ur: "اماراتی سابق حملہ آور مڈفیلڈر، 1991 میں ریاض میں یمنی والدین کے ہاں پیدا ہوئے۔ وہ 2016 میں ایشین فٹبالر آف دی ایئر رہے، ان کا بیشتر کیریئر العین کے ساتھ گزرا، اور انہوں نے امارات کے لیے 74 میچ کھیلے۔ وہ «عموری» کے لقب سے معروف ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [arabia]
+born: { edtf: "1991-09-20", hijri: "1412", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 20 September 1991 in Riyadh, Saudi Arabia, to Yemeni parents of the Hadhrami Al-Amoudi family; the English article's infobox cites the Global Sports Archive for the date and place. No place entity for Riyadh exists in the museum, so the birthplace is carried here only. The Arabic article's categories pair his birth year with 1412 AH.", sources: [source/wikipedia-omar-abdulrahman-en, source/wikipedia-omar-abdulrahman-ar, source/wikidata-omar-abdulrahman] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: neither article makes any statement of his religion in its text or categories, and Wikidata has no religion value for him at all — a complete absence, not a near miss. The Hadhrami lineage the English article gives his Al-Amoudi family, including descent from a Sufi saint of the thirteenth century, is ancestry, not an attestation of his own affiliation, and never counts."
+    sources: [source/wikipedia-omar-abdulrahman-en, source/wikipedia-omar-abdulrahman-ar, source/wikidata-omar-abdulrahman]
+external_ids: { wikidata: Q2652388 }
+sources: [source/wikipedia-omar-abdulrahman-en, source/wikipedia-omar-abdulrahman-ar, source/wikidata-omar-abdulrahman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379234404 of 8 October 2026), Arabic Wikipedia (revision 77009000 of 18 October 2026) and Wikidata Q2652388, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Omar Abdulrahman existed in data/person/ (name-fragment sweep: abdulrahman hits are other people; omar- files are all other people), and Q2652388 was searched across data/person/ and data/source/ with no hit; this is a new build. The QID was pinned by biography — Emirati footballer, born 20 September 1991 in Riyadh — against the Wikidata disambiguation page of the same name (Q12228452) and other namesakes. No relations are written: his birthplace, Riyadh, has no place entity, and his brothers Mohammed and Khaled, also footballers, have no museum entities, so no sibling edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

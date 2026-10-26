@@ -1,0 +1,31 @@
+id: person/hawar-mulla-mohammed
+class: person
+label: { ar: "هوار ملا محمد", en: "Hawar Mulla Mohammed", ur: "ہوار ملا محمد" }
+names:
+  - { value: "Hawar Mulla Mohammed Taher Zebari", kind: full }
+  - { value: "هوار ملا محمد طاهر زيباري", kind: full }
+  - { value: "ہوار ملا محمد طاہر زیباری", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم عراقي كردي معتزل، جناح وُلد في الموصل سنة 1981. خاض 113 مباراة دولية مع العراق بين 2001 و2012 مسجلاً 20 هدفاً، وكان في الفريق الفائز بكأس آسيا 2007. تنقّلت مسيرته بين أندية العراق ولبنان وقبرص والإمارات وقطر وإيران قبل اعتزاله سنة 2015."
+  en: "Kurdish Iraqi former professional footballer, a winger born in Mosul in 1981. He won 113 caps for Iraq between 2001 and 2012, scoring 20 goals, and was part of the team that won the 2007 AFC Asian Cup. His club career took him from Al-Quwa Al-Jawiya to clubs in Lebanon, Cyprus, the Emirates, Qatar and Iran before he retired in 2015."
+  ur: "کرد عراقی سابق پیشہ ور فٹبالر، ونگر، 1981 میں موصل میں پیدا ہوئے۔ انہوں نے 2001 سے 2012 کے درمیان عراق کے لیے 113 بین الاقوامی میچ کھیلے، 20 گول کیے، اور 2007 کے اے ایف سی ایشیائی کپ کی فاتح ٹیم کا حصہ تھے۔ ان کا کلب کیریئر عراق، لبنان، قبرص، امارات، قطر اور ایران کے کلبوں پر محیط رہا اور وہ 2015 میں ریٹائر ہوئے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [levant-iraq]
+born: { edtf: "1981-06-01", hijri: "1401", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 1 June 1981 in Mosul, Iraq; the English article's infobox cites the Global Sports Archive for the date and place, and the Arabic article cites National Football Teams. Wikidata carries a second, unsupported birth-date value (12 September 1982), not followed. The Arabic article's categories pair his birth year with 1401 AH.", sources: [source/wikipedia-hawar-mulla-mohammed-en, source/wikipedia-hawar-mulla-mohammed-ar, source/wikidata-hawar-mulla-mohammed] }
+relations:
+  - { type: born_in, target: place/mosul, sources: [source/wikipedia-hawar-mulla-mohammed-en, source/wikipedia-hawar-mulla-mohammed-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: neither article makes any statement of his religion in its text or categories, and Wikidata has no religion value for him at all — a complete absence, not a near miss. His Kurdish ethnicity, which both articles record, is not an attestation of any affiliation and never counts."
+    sources: [source/wikipedia-hawar-mulla-mohammed-en, source/wikipedia-hawar-mulla-mohammed-ar, source/wikidata-hawar-mulla-mohammed]
+external_ids: { wikidata: Q368870 }
+sources: [source/wikipedia-hawar-mulla-mohammed-en, source/wikipedia-hawar-mulla-mohammed-ar, source/wikidata-hawar-mulla-mohammed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1358626161 of 9 June 2026), Arabic Wikipedia (revision 70122669 of 4 April 2025) and Wikidata Q368870, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Hawar Mulla Mohammed existed in data/person/ (name-fragment sweep: mulla/mohammed/hawar hits are all other people), and Q368870 was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: born_in points from Hawar Mulla Mohammed to the place he was born in — he was born in Mosul (place/mosul), and the edge is written once, here in his own record. His brother Halkord is also a footballer, but no museum entity exists for him, so no sibling edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

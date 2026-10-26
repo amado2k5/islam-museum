@@ -1,0 +1,33 @@
+id: person/omar-al-somah
+class: person
+label: { ar: "عمر السومة", en: "Omar Al Somah", ur: "عمر السومہ" }
+names:
+  - { value: "Omar Jehad Al Somah", kind: full }
+  - { value: "عمر جهاد السومة", kind: full }
+  - { value: "عمر جہاد السومہ", kind: full }
+  - { value: "العكيد", kind: laqab }
+  - { value: "Al ʿAggied", kind: laqab }
+gender: male
+summary:
+  ar: "مهاجم سوري وُلد في دير الزور سنة 1989. تصدّر هدافي الدوري السعودي ثلاث سنوات متتالية (2015 و2016 و2017) مع الأهلي وفاز معه بلقب الدوري سنة 2016، وخاض مع سوريا 47 مباراة دولية مسجلاً 23 هدفاً. عاد سنة 2026 إلى الوحدة الدمشقي."
+  en: "Syrian striker born in Deir ez-Zor in 1989. He finished as the Saudi Pro League's top scorer in three straight seasons (2015, 2016 and 2017) with Al-Ahli, winning the 2016 league title, and has won 47 caps for Syria, scoring 23 goals. In 2026 he returned to Al-Wahda of Damascus."
+  ur: "شامی اسٹرائیکر، 1989 میں دیر الزور میں پیدا ہوئے۔ وہ الاہلی کے ساتھ لگاتار تین سیزن (2015، 2016، 2017) سعودی پرو لیگ کے ٹاپ اسکورر رہے اور 2016 میں لیگ خطاب جیتا، اور شام کے لیے 47 میچوں میں 23 گول کیے۔ 2026 میں وہ دمشق کے الوحدہ واپس آئے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [levant-iraq]
+born: { edtf: "1989-03-23", hijri: "1409", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 23 March 1989 in Deir ez-Zor, Syria; the English article's infobox cites FIFA's Club World Cup 2025 squad list for the date and the Global Sports Archive for the place. No place entity for Deir ez-Zor exists in the museum, so the birthplace is carried here only. The Arabic article's categories pair his birth year with 1409 AH.", sources: [source/wikipedia-omar-al-somah-en, source/wikipedia-omar-al-somah-ar, source/wikidata-omar-al-somah] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-omar-al-somah-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: the English article makes no statement of his religion anywhere in its text — a search for religion terms returns nothing — neither article files him under any religion category, and Wikidata has no religion value for him at all. A complete absence, not a near miss."
+    sources: [source/wikipedia-omar-al-somah-en, source/wikipedia-omar-al-somah-ar, source/wikidata-omar-al-somah]
+external_ids: { wikidata: Q7089627 }
+sources: [source/wikipedia-omar-al-somah-en, source/wikipedia-omar-al-somah-ar, source/wikidata-omar-al-somah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381831443 of 25 October 2026), Arabic Wikipedia (revision 77022012 of 19 October 2026) and Wikidata Q7089627, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Omar Al Somah existed in data/person/ (name-fragment sweep: somah hits are none; omar- files are all other people), and Q7089627 was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: lived_in points from Omar Al Somah to the place he resides in — the Arabic article's infobox gives his residence as Damascus (place/damascus), and the edge is written once, here in his own record. His birthplace, Deir ez-Zor, has no place entity, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
