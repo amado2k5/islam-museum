@@ -1,0 +1,49 @@
+id: person/rizaeddin-bin-fakhraddin
+class: person
+label: { ar: "رضاء الدين فخر الدين", en: "Rizaeddin bin Fakhraddin", ur: "رضاء الدين فخر الدين" }
+names:
+  - { value: "Rizaeddin bin Fakhreddin", kind: full }
+  - { value: "Ризаэтдин Фәхретдин", kind: full }
+  - { value: "Ризаитдин Фахретдинович Фахретдинов", kind: full }
+  - { value: "رضاء الدين فخر الدين", kind: full }
+  - { value: "Rizaeddin bin Fakhraddin", kind: alternate }
+  - { value: "Rizaetdin Fäxretdin", kind: alternate }
+gender: male
+summary:
+  ar: "عالم ومؤلف تتري وباشكيري (1859–1936)، من أكثر كتّاب حركة الجديد إنتاجًا. كان قاضيًا في الإدارة الدينية للمسلمين بأوفا منذ 1891، وحرّر صحيفة «وقت» وأسس مجلة «شورى» (1908–1918)، وصار مفتي روسيا الأوروبية من مطلع عشرينيات القرن العشرين حتى وفاته، وأشهر أعماله مصنّف التراجم «آثار»."
+  en: "Tatar and Bashkir scholar and publicist (1859–1936), one of the most productive authors of the Jadid movement. A qadi of the Muslim religious administration at Ufa from 1891, he edited the newspaper Waqt and founded the journal Shura (1908–1918), and was mufti of European Russia from the early 1920s until his death; his best-known work is the biographical compendium Asar."
+  ur: "تاتاری اور باشقیر عالم اور مصنف (1859–1936)، تحریکِ جدید کے سب سے زیادہ لکھنے والے مصنفین میں سے ایک۔ 1891 سے اوفا کی مسلم دینی انتظامیہ کے قاضی رہے، اخبار «وقت» کے مدیر اور مجلہ «شورا» (1908–1918) کے بانی، اور 1920 کی دہائی کے اوائل سے وفات تک یورپی روس کے مفتی؛ ان کا مشہور ترین کام سوانحی مجموعہ «آثار» ہے۔"
+roles: [scholar, writer, editor]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1859-01-13"
+  hijri: "1275"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at the village of Kichuchat in Samara gouvernement (now in Tatarstan), the son of the village mullah. The day and year are split across the sources and no reading is followed silently. The Arabic and Urdu articles both give 13 January 1859; the English article's lead gives 12 January 1858, and the monographic literature follows the earlier year in places (Türkoğlu's study is titled with the dates 1858–1936); Wikidata carries 4 January 1859. The record follows 13 January 1859, the reading of two articles, at day precision and marked debated; the queue also gives 1859. The Hijri year 1275 is the tabular conversion of 13 January 1859. The museum has no place entity for Kichuchat, so no born_in edge is written."
+  sources: [source/wikipedia-rizaeddin-bin-fakhraddin-ar, source/wikipedia-rizaeddin-bin-fakhraddin-ur, source/wikipedia-rizaeddin-bin-fakhraddin-en, source/wikidata-rizaeddin-bin-fakhraddin]
+died:
+  edtf: "1936-04-12"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Ufa on 12 April 1936, per the Arabic and Urdu articles (the Urdu article adds that he was buried on 15 April in the city's Muslim cemetery). Wikidata carries two death values, 11 and 12 April 1936; the record follows 12 April with the articles and the second value is stated here. The Hijri year 1355 is the tabular conversion. The museum has no place entity for Ufa, so no died_in edge is written."
+  sources: [source/wikipedia-rizaeddin-bin-fakhraddin-ar, source/wikipedia-rizaeddin-bin-fakhraddin-ur, source/wikidata-rizaeddin-bin-fakhraddin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic, and no article names a school for him. He served the empire's Muslim religious administration (the Orenburg Mohammedan Spiritual Assembly, the Sobranie) as qadi from 1891 and as mufti of European Russia from the early 1920s; those are offices within an institution of the Hanafi milieu, not a personal attestation of a school, and his Jadid reformism is a movement affiliation. Under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikidata-rizaeddin-bin-fakhraddin, source/wikipedia-rizaeddin-bin-fakhraddin-en, source/wikipedia-rizaeddin-bin-fakhraddin-ur]
+external_ids: { wikidata: "Q4481567" }
+sources: [source/wikipedia-rizaeddin-bin-fakhraddin-en, source/wikipedia-rizaeddin-bin-fakhraddin-ar, source/wikipedia-rizaeddin-bin-fakhraddin-ur, source/wikidata-rizaeddin-bin-fakhraddin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rizaeddin bin Fakhreddin' (revision 1371547546), Arabic Wikipedia 'رضاء الدين فخر الدين' (revision 73914856) and Urdu Wikipedia 'رضاء الدين فخر الدين' (revision 8514523), read on 26 October 2026, with Wikidata item Q4481567. The queue gives his years as 1859–1936: the death year is confirmed by all sources and the birth year by two articles and Wikidata against the English article's 1858, with the day readings and Wikidata's split death values preserved in the date notes. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-31
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

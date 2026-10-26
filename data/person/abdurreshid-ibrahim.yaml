@@ -1,0 +1,49 @@
+id: person/abdurreshid-ibrahim
+class: person
+label: { ar: "عبد الرشيد إبراهيم", en: "Abdurreshid Ibrahim", ur: "عبد الرشید ابراہیم" }
+names:
+  - { value: "Abdurreshid Ibrahim", kind: full }
+  - { value: "Абдурашид Гумерович Ибрагимов", kind: full }
+  - { value: "Габдрәшит Ибраһимов", kind: full }
+  - { value: "عبد الرشيد إبراهيم", kind: full }
+  - { value: "Abderrashid Ibrahim", kind: alternate }
+  - { value: "Abdürreşid İbrahim", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وصحفي ورحّالة تتري (1857–1944)، وُلد في تارا بسيبيريا. كان قاضيًا في جمعية أورنبورغ الإسلامية، ومن قادة «اتفاق المسلمين»، وجاب أوروبا وآسيا داعيًا إلى وحدة المسلمين، ودون رحلاته في «عالم إسلام»، ثم عاد إلى اليابان سنة 1933 فبنى مسجد طوكيو وصار أول إمام له، وتوفي في طوكيو."
+  en: "Tatar scholar, journalist and traveller (1857–1944), born at Tara in Siberia. He served as qadi of the Orenburg Muslim Spiritual Assembly, became a leader of Ittifaq al-Muslimin, travelled across Europe and Asia advocating Muslim unity and recorded his journeys in Alem-i Islam ('The World of Islam'), and in 1933 returned to Japan, where he built the Tokyo Mosque, became its first imam, and died at Tokyo."
+  ur: "تاتار عالم، صحافی اور سیاح (1857–1944)، سائبیریا کے قصبے تارا میں پیدا ہوئے۔ اورنبرگ مسلم اسمبلی کے قاضی رہے، «اتفاق المسلمین» کے رہنماؤں میں شامل ہوئے، یورپ و ایشیا کا سفر کر کے مسلم اتحاد کی دعوت دی اور اپنے سفرنامے «عالمِ اسلام» میں قلم بند کیے، پھر 1933 میں جاپان لوٹ کر ٹوکیو مسجد بنائی اور اس کے پہلے امام بنے؛ وہیں وفات پائی۔"
+roles: [scholar, journalist, writer]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1857-04-23"
+  hijri: "1273"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at the town of Tara, then in Tobolsk gouvernement, Siberia (now Omsk oblast), into a family of Siberian Bukharan descent; the English and Turkish articles both give 23 April 1857. A calendar split attaches to the date and is disclosed, not silently resolved: Wikidata stores its day-precision value under the Julian calendar model (alongside a year-only Gregorian value), so the date as transmitted is Old Style, whose New Style equivalent is 5 May 1857; the Arabic article gives his birth year in Hijri as 1273, which the tabular conversion of 23 April 1857 confirms. The Hijri year 1273 is that conversion. The museum has no place entity for Tara, so no born_in edge is written."
+  sources: [source/wikipedia-abdurreshid-ibrahim-en, source/wikipedia-abdurreshid-ibrahim-tr, source/wikidata-abdurreshid-ibrahim, source/wikipedia-abdurreshid-ibrahim-ar]
+died:
+  edtf: "1944-08-31"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Tokyo in August 1944 and was buried in the Muslim cemetery at Tamareien near the city. The day is split and no reading is followed silently: Wikidata gives 31 August 1944, the Turkish article 17 August 1944, and the Arabic article only the year. The record follows Wikidata's 31 August at day precision, marked debated, with the Turkish reading stated here. The Hijri year 1363 is the tabular conversion of 31 August 1944; the Arabic article's pairing of his death with 1364 AH is loose and is not followed. The museum has no place entity for Tokyo, so no died_in edge is written."
+  sources: [source/wikidata-abdurreshid-ibrahim, source/wikipedia-abdurreshid-ibrahim-tr, source/wikipedia-abdurreshid-ibrahim-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic, and no article names a school for him. His service as qadi of the Orenburg Muslim Spiritual Assembly in 1892–1894 is an office; his pan-Islamic advocacy and his Jadid formation are ideology and movement; his late imamate of the Tokyo Mosque is a post. Under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikidata-abdurreshid-ibrahim, source/wikipedia-abdurreshid-ibrahim-en, source/wikipedia-abdurreshid-ibrahim-tr, source/wikipedia-abdurreshid-ibrahim-ar]
+external_ids: { wikidata: "Q117114" }
+sources: [source/wikipedia-abdurreshid-ibrahim-en, source/wikipedia-abdurreshid-ibrahim-ar, source/wikipedia-abdurreshid-ibrahim-tr, source/wikidata-abdurreshid-ibrahim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdurreshid Ibrahim' (revision 1366938567), Arabic Wikipedia 'عبد الرشيد إبراهيم' (revision 75597038) and Turkish Wikipedia 'Abdürreşid İbrahim' (revision 37043556), read on 26 October 2026, with Wikidata item Q117114. The queue gives his years as 1857–1944, confirmed by all sources; the Old Style storage of his birth date and the split August 1944 death day are preserved in the date notes, and the Arabic article's inflated claims (twenty years in the Hijaz; death at nearly a hundred) are flagged in its reliability note and not followed. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-31
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

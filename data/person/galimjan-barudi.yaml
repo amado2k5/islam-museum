@@ -1,0 +1,49 @@
+id: person/galimjan-barudi
+class: person
+label: { ar: "غليمجان بارودي", en: "Galimjan Barudi", ur: "غلیم جان بارودی" }
+names:
+  - { value: "Galimjan Barudi", kind: full }
+  - { value: "Галимҗан Мөхәммәтҗан улы Галиев", kind: full }
+  - { value: "Галимджан Мухаметжанович Галеев", kind: full }
+  - { value: "Ğalimcan Barudi", kind: latinized }
+  - { value: "Galimjan Galeyev", kind: alternate }
+  - { value: "Alimcan Barudi", kind: alternate }
+gender: male
+summary:
+  ar: "عالم دين ومربٍّ تتري (1857–1921)، اسمه الحقيقي غالييف. درس في قازان وبخارى، وأسس مدرسة «محمدية» في قازان سنة 1882 فصارت أكبر مدارس الجديد، وحرّر مجلة «الدين والأدب»، ونُفي بتهمة الجامعة الإسلامية، ثم انتُخب سنة 1917 مفتيًا للإدارة الدينية المركزية لمسلمي روسيا، وتوفي في موسكو أثناء عمله في إغاثة المجاعة."
+  en: "Tatar theologian and educator (1857–1921), born with the surname Galeyev. Educated in Kazan and Bukhara, in 1882 he founded the Muhammadiya madrasa in Kazan, which became the largest Jadid school in Russia; he edited the journal ad-Din wa-l-adab, was exiled on pan-Islamism charges, and in 1917 was elected mufti of the central spiritual administration of Russia's Muslims, dying at Moscow during famine-relief work."
+  ur: "تاتار عالمِ دین اور ماہرِ تعلیم (1857–1921)، ولدیت کا نام غالییف۔ قازان اور بخارا میں تعلیم پائی، 1882 میں قازان میں مدرسہ «محمدیہ» قائم کیا جو روس کا سب سے بڑا جدید مدرسہ بنا؛ مجلہ «الدین و الادب» نکالا، جامعہ اسلامیہ کے الزام میں جلاوطن ہوئے، اور 1917 میں روس کے مسلمانوں کی مرکزی دینی انتظامیہ کے مفتی منتخب ہوئے؛ قحط زدگان کی امداد کے کام کے دوران ماسکو میں وفات پائی۔"
+roles: [theologian, scholar, teacher, editor]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1857-02-17"
+  hijri: "1273"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in a merchant's family at the village the Tatar article calls Keche Kaval, the Russian article Malye Kovali and Wikidata Keche Qawal, in Kazan district and gouvernement; both articles and Wikidata agree on 17 February 1857. The family moved to Kazan when he was three. The Hijri year 1273 is the tabular conversion. The museum has no place entity for the village or for Kazan, so no born_in edge is written."
+  sources: [source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt, source/wikidata-galimjan-barudi]
+died:
+  edtf: "1921-12-06"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Moscow on 6 December 1921 — the Tatar article adds that he died on his way to a sitting of the committee for aid to the famine-stricken of the Volga-Ural region — and was buried at the Novo-Tatar cemetery in Kazan; both articles and Wikidata agree. The Hijri year 1340 is the tabular conversion. The museum has no place entity for Moscow, so no died_in edge is written."
+  sources: [source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt, source/wikidata-galimjan-barudi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic, and neither article names a school for him. He was elected mufti of the Central Spiritual Administration of Russia's Muslims in May 1917 — an office — and his life's work was Jadid educational reform, a method and movement, not a school attestation. A 2011 magazine article cited among the Russian article's links frames him 'through the prism of Sufism': that is one later article's interpretive framing, not two independent sources attesting an affiliation. Under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikidata-galimjan-barudi, source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt]
+external_ids: { wikidata: "Q7305831" }
+sources: [source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt, source/wikidata-galimjan-barudi]
+provenance:
+  layer: own-research
+  source: "Russian Wikipedia 'Баруди, Галимджан' (revision 151934850) and Tatar Wikipedia 'Галимҗан Баруди' (revision 5839999), read on 26 October 2026, with Wikidata item Q7305831. There is no English, Arabic or Urdu Wikipedia article on him. The queue gives his years as 1857–1921, confirmed exactly by both articles and Wikidata, as are the day dates. His birth surname Galeyev is recorded in the names. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-31
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
