@@ -1,3 +1,10 @@
+---
+id: concept/faqr-al-rumuz-al-nisaiyya
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # فقر الرموز النسائية عبر التاريخ
 
 ## الحلقة والسؤال

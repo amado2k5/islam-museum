@@ -1,3 +1,10 @@
+---
+id: concept/al-mara-wal-ittifaqiyat-al-dawliyya
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # المرأة العربية والاتفاقيات الدولية
 
 ## الحلقة والتصويت
