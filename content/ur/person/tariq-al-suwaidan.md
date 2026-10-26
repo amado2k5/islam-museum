@@ -93,3 +93,6 @@ translators: []
 
 ## «الوسطیہ» میں — انسانی حقوق کی قسط
 سویدان نے عرب دنیا میں انسانی حقوق کے ملف کی قسط تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — نمایاں نتائج: 69% نے معاہدوں کو بے قیمت اور صرف 9% نے بین الاقوامی مداخلت کی تائید کی۔
+
+## «الوسطیہ» میں — مغرب کی طرف ہجرت کی قسط
+سویدان نے «مغرب کی طرف ہجرت: امید یا درد» کی قسط ووٹوں اور دماغی ہجرت کے ان کے اپنے پیش کردہ اعداد کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}۔ انہوں نے اختتام کیا کہ علاج ایک کھینچنے والا ماحول ہے نہ کہ رجھانے والا — رشید حکومت، قانون کی حکمرانی، رفاہ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}۔

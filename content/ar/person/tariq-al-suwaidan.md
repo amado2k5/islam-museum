@@ -125,3 +125,6 @@ translators: []
 
 ## في «الوسطية» — حلقة حقوق الإنسان
 أدار السويدان حلقة ملف حقوق الإنسان في العالم العربي بثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — وكانت الأبرز: 69% يرون المواثيق بلا قيمة و9% فقط يؤيدون التدخل الدولي.
+
+## في «الوسطية» — حلقة الهجرة إلى الغرب
+أدار السويدان حلقة «الهجرة إلى الغرب: أمل أم ألم» باستطلاعات وإحصاءات عرضها بنفسه عن هجرة العقول {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. وختم بأن الحل بيئة جاذبة لا طاردة — حكم رشيد ودولة قانون ورفاه {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
