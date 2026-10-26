@@ -21,6 +21,7 @@ Citation form for every family: `{cite:<family-id> <anchor>}`, where the anchor 
 | Met Open Access | `source/met-open-access` | CC0 object records (kind: reference_data) | Cite by object id |
 | Tanzil | `source/tanzil-quran`, `source/tanzil-translations` | The frozen Qur'an corpus | The **only** source of Qur'an text; never typed by hand |
 | Assabile lecture archive (Omar Abdelkafy, 25 series, about 620 lessons, audio and video) | `source/assabile-omar-abdelkafy` | The speaker's own recorded lessons: what he teaches, narrates and says, with dates he gives as his statements | Treated exactly like a book (founder, 25 Oct 2026): full details and full prose, in the museum's own words, cited by series/episode + timestamp. Audio and transcripts never republished. Method: `audio-video-harvest.md` |
+| Assabile lecture archive (Tareq al-Suwaidan, 23 series, about 402 lessons, video) | `source/assabile-tareq-al-suwaidan` | The speaker's own recorded lessons: what he teaches, narrates and says, with dates he gives as his statements | Treated exactly like a book (founder, 25 Oct 2026): full details and full prose, in the museum's own words, cited by series/episode + timestamp. Video, audio and transcripts never republished. Method: `audio-video-harvest.md` |
 
 Pleiades (ancient places gazetteer, CC BY 3.0) is in the harvest registry and `docs/attribution.md` as a pointer, but has no `data/source/` entity yet — register one before citing it.
 
