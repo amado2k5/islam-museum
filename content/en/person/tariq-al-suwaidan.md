@@ -134,3 +134,6 @@ Al-Suwaidan evaluated the Arab satellite experiment with statistics he presented
 
 ## In 'Al-Wasatiyya' — the satellite-fatwa episode
 Al-Suwaidan steered the satellite-fatwa episode with scholars and polls — noting the surprise that only 15% turn to the channels' most-learned versus 42% to the academies {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
+
+## In 'Al-Wasatiyya' — the women's-empowerment episode
+Al-Suwaidan steered the women's-empowerment episode with polls — the standout: only 35% fully endorsed government support while most confined it outside politics {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
