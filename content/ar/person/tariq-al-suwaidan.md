@@ -140,3 +140,6 @@ translators: []
 
 ## في «الوسطية» — حلقة المرأة والاتفاقيات
 أدار السويدان حلقة المرأة العربية والاتفاقيات الدولية وختم بقاعدته: نأخذ ما يرفع الظلم عن المرأة ونرفض ما يصادم الدين — «وهذه الوسطية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## في «الوسطية» — حلقة فقر الرموز النسائية
+أدار السويدان حلقة فقر الرموز النسائية عبر التاريخ — مؤكداً أن الهدف ليس إضعاف المرأة بل استكشاف كسر الحاجز {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.

@@ -108,3 +108,6 @@ translators: []
 
 ## «الوسطیہ» میں — خاتون اور معاہدوں کی قسط
 سویدان نے عرب خاتون اور بین الاقوامی معاہدوں کی قسط چلائی اور اپنے اصول پر اختتام کیا: ظلم اٹھانے والا حصہ لیں اور دین سے ٹکرانے والا رد کریں — «اور یہی وسطیہ ہے» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}۔
+
+## «الوسطیہ» میں — خاتون علامتوں کی قلت کی قسط
+سویدان نے تاریخ میں خاتون علامتوں کی قلت کی قسط چلائی — زور دیتے ہوئے کہ مقصد خاتون کو کمزور کرنا نہیں بلکہ رکاوٹ توڑنے کا مطالعہ ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}۔
