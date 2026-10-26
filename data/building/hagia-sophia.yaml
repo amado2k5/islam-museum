@@ -33,12 +33,13 @@ external_ids:
   wikidata: Q12506
 sources:
 - source/wikidata
+- source/encyclopaedia-of-islam-2
 provenance:
   layer: cc0
-  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: building-wikidata-1
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; Encyclopaedia of Islam 2, vol. 1 pp. 823-824 (AYA SOFYA), rewritten in the museum's own words
+  generated_by: Claude Haiku 5.5 (ei2 lane)
+  model: claude-haiku-5-5
+  run: ei2-b013-part72
 education:
   did_you_know:
     ar: "آيا صوفيا بإسطنبول أُرِّخ بناؤها سنة ٥٣٢م، وصارت مع فتح القسطنطينية سنة ٨٥٧هـ مسجداً."
@@ -49,6 +50,6 @@ education:
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
   generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative
