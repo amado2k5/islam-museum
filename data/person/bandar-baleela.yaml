@@ -1,0 +1,40 @@
+id: person/bandar-baleela
+class: person
+label: { ar: "بندر بليلة", en: "Bandar Baleela", ur: "بندر بلیلہ" }
+names:
+  - { value: "بندر بن عبد العزيز بن سراج بن عبد الملك بليلة", kind: full }
+  - { value: "Bandar bin Abdul Aziz bin Siraj bin Abdul Malik Baleela", kind: full }
+  - { value: "بندر بليلة", kind: alternate }
+  - { value: "Bandar Baleela", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن سعودي وإمام وخطيب المسجد الحرام بمكة. وُلد بمكة سنة 1975 (1395هـ)، وحفظ القرآن صغيرًا، ودرس الفقه بجامعة أم القرى والجامعة الإسلامية بالمدينة حتى نال الدكتوراه سنة 2008. عُيّن إمامًا رسميًا للحرم سنة 2013 وخطيبًا بأمر ملكي سنة 2019، وصار عضوًا في هيئة كبار العلماء سنة 2020، وألقى خطبة يوم عرفة سنة 2021."
+  en: "Saudi Qur'an reciter and imam and khatib of Masjid al-Haram in Mecca. Born in Mecca in 1975 (1395 AH), he memorised the Qur'an as a boy and studied fiqh at Umm al-Qura University and the Islamic University of Madinah, taking his doctorate in 2008. He was appointed an official imam of the Haram in 2013 and a khatib by royal decree in 2019, joined the Council of Senior Scholars in 2020, and delivered the Arafat sermon in 2021."
+  ur: "سعودی قاریِ قرآن اور مکہ میں مسجد حرام کے امام و خطیب۔ 1975ء (1395ھ) میں مکہ میں پیدا ہوئے، بچپن میں قرآن حفظ کیا، جامعہ ام القریٰ اور جامعہ اسلامیہ مدینہ میں فقہ کی تعلیم حاصل کی اور 2008ء میں ڈاکٹریٹ مکمل کی۔ 2013ء میں حرم کے باقاعدہ امام اور 2019ء میں شاہی فرمان سے خطیب مقرر ہوئے، 2020ء میں مجلسِ کبار علما کے رکن بنے اور 2021ء میں خطبۂ عرفات دیا۔"
+roles: [reciter]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1975"
+  hijri: "1395"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year only. The English article pairs his Mecca birth in 1975 with 1395 AH in its text, and Wikidata gives the year 1975 at Mecca; the Urdu and French articles narrow the birth to June 1975, a month the record does not carry at year precision."
+  sources: [source/wikipedia-bandar-baleela-en, source/wikipedia-bandar-baleela-ar, source/wikidata-bandar-baleela]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-bandar-baleela-en, source/wikidata-bandar-baleela] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The English article's infobox, uncited, gives his jurisprudence as Hanbali, and the Urdu article files him in its Hanbalis category; the French infobox gives only Islam (Sunnism) generically, the Arabic infobox names no school, and Wikidata's religion claim is Islam (Q432) alone. An infobox value, a category filing and their structured echoes are one tradition family, and his imamate of the Haram does not attest a school; not recorded until two independent sources name one for him."
+    sources: [source/wikipedia-bandar-baleela-en, source/wikipedia-bandar-baleela-ar, source/wikidata-bandar-baleela]
+external_ids: { wikidata: "Q12199312" }
+sources: [source/wikipedia-bandar-baleela-en, source/wikipedia-bandar-baleela-ar, source/wikidata-bandar-baleela]
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article 'Bandar Baleela' at revision 1363382948 and the Arabic article «بندر بليلة» at revision 76396562, each fetched by revision id through the MediaWiki API with the returned revid asserted equal before use, and Wikidata item Q12199312, all read on 26 October 2026. Identity is grounded on the full name (Bandar bin Abdul Aziz bin Siraj bin Abdul Malik Baleela), the 1975 Mecca birth and the Haram imamate, matching the queue line 'Bandar Baleela — 1975–Living'. Existence was checked by filename fragments, by Arabic label and by QID across data/person/ before writing; the similarly named ahmad-bukhatir is a different man. The English article's claim of a 2026 appointment as Mufti of the Makkah Province rests on one weak news site and is not carried; the Arabic article's narrower fatwa-commissioner appointment is what the record states."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

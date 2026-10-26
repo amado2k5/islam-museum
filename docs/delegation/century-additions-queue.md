@@ -381,10 +381,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fatih Seferagic — 1995–Living
 - [x] Idrees Abkar — 1975–Living
 - [x] Khalid Al-Jaleel — 1963–Living
-- [ ] Salah Bukhatir — 1970–Living
-- [ ] Bandar Baleela — 1975–Living
-- [ ] Abdullah Awad Al-Juhany — 1976–Living
-- [ ] Al-Hassan Al-Daddow — 1963–Living
+- [x] Salah Bukhatir — 1970–Living
+- [x] Bandar Baleela — 1975–Living
+- [x] Abdullah Awad Al-Juhany — 1976–Living
+- [x] Al-Hassan Al-Daddow — 1963–Living
 - [ ] Sheikh Omar Al-Khabsawi — 1950–Living
 - [ ] Sheikh Ahmed Raissouni — 1953–Living
 - [ ] Sheikh Hassan El-Kettani — 1964–Living
