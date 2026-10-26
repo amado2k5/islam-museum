@@ -291,11 +291,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ismaël Bennacer — 1997–Living
 - [x] Ramy Bensebaini — 1995–Living
 - [x] Yacine Brahimi — 1990–Living
-- [ ] Islam Slimani — 1988–Living
-- [ ] Wahbi Khazri — 1991–Living
-- [ ] Youssef Msakni — 1990–Living
-- [ ] Ali Maâloul — 1990–Living
-- [ ] Tarak Dhiab — 1954–Living
+- [x] Islam Slimani — 1988–Living
+- [x] Wahbi Khazri — 1991–Living
+- [x] Youssef Msakni — 1990–Living
+- [x] Ali Maâloul — 1990–Living
+- [x] Tarak Dhiab — 1954–Living
 - [ ] Chokri El Ouaer — 1966–Living
 - [ ] Badou Zaki — 1959–Living
 - [ ] Mustapha Hadji — 1971–Living

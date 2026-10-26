@@ -1,0 +1,38 @@
+id: person/islam-slimani
+class: person
+label: { ar: "إسلام سليماني", en: "Islam Slimani", ur: "اسلام سلیمانی" }
+names:
+  - { value: "إسلام سليماني", kind: full }
+  - { value: "Islam Slimani", kind: full }
+gender: male
+summary:
+  ar: "مهاجم كرة قدم جزائري (وُلد سنة 1988 في مدينة الجزائر)، وهو الهداف التاريخي لمنتخب الجزائر بأهدافه الستة والأربعين في أكثر من مئة مباراة دولية. لعب لسبورتينغ لشبونة وليستر سيتي وأندية أخرى في أوروبا، وفاز مع الجزائر بكأس الأمم الأفريقية 2019."
+  en: "Algerian football striker (born 1988 in Algiers), Algeria's all-time top scorer with 46 goals in over a hundred internationals. He played for Sporting CP, Leicester City and other European clubs and won the 2019 Africa Cup of Nations with Algeria."
+  ur: "الجزائری فٹبال اسٹرائیکر (پیدائش 1988، الجزائر شہر)، سو سے زائد بین الاقوامی میچوں میں 46 گول کے ساتھ الجزائر کے آل ٹائم ٹاپ اسکورر۔ وہ اسپورٹنگ سی پی، لیسٹر سٹی اور دیگر یورپی کلبوں کے لیے کھیلے اور الجزائر کے ساتھ 2019 افریقہ کپ آف نیشنز جیتا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1988-06-18"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 18 June 1988, born in Algiers, Algeria. The Hijri year 1408 is derived from the Gregorian date; the Arabic article's categories likewise file him under births of 1408 AH."
+  sources: [source/wikipedia-islam-slimani-en, source/wikipedia-islam-slimani-ar, source/wikidata-islam-slimani]
+relations:
+  - { type: born_in, target: place/algiers, sources: [source/wikipedia-islam-slimani-en, source/wikipedia-islam-slimani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article names a school or affiliation for Slimani. The English article makes no statement of his religion in its text, has no religion field in its infobox, and files him under no religious category; the Arabic article is likewise silent, with no religion field. Wikidata (Q1347269) carries Islam (Q432), generic — a single structured value, which never counts alone. His given name is a name, not an attestation. The value is therefore unknown."
+    sources: [source/wikipedia-islam-slimani-en, source/wikipedia-islam-slimani-ar, source/wikidata-islam-slimani]
+external_ids: { wikidata: "Q1347269" }
+sources: [source/wikipedia-islam-slimani-en, source/wikipedia-islam-slimani-ar, source/wikidata-islam-slimani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380432068 of 15 October 2026), Arabic Wikipedia (revision 74230908 of 10 April 2026) and Wikidata Q1347269, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Slimani existed in data/person/ (no hit under 'slimani'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: Islam Slimani was born in Algiers; the birthplace edge is written once, here in his own record, as Islam Slimani born_in place/algiers (the place entity exists in the graph). No other relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
