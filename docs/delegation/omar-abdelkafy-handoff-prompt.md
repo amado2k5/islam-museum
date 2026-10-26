@@ -45,6 +45,8 @@ Founder's decisions, 25 October 2026. Each one is also recorded in the progress 
 
 18. **Video lessons: extract the audio and harvest it.** Video episodes are MP4 files; prepare each one with `scripts/harvest/audio/prep_video.sh` (download, extract the MP3 audio track with ffmpeg, transcribe with the working engine into the series' `pass5-qwen` folder). The queue skips episodes already transcribed. Harvest the audio, never the picture.
 
+19. **Storage and deletion.** Downloads live on the microSD: `~/islam-museum-harvest` links to `/Volumes/exmicroSD/islam-museum-harvest`. Once a series is fully harvested (transcripts complete, content merged, no pending write-up), delete its MP3, MP4 and extracted audio files; keep the manifests, `SHA256SUMS`, transcripts and metadata. Deleted so far: the four completed series Aadau Al Islam, Al Hoquq, Tafsir Al Quran Al Qareem and Al Fawzu Al Moubeen (33 files, about 450 MB). Sharh Ketab Al Fawaed and Al Dinu Al Qayem keep their media until their write-ups are finished.
+
 ## 3. Where everything is (the Mac that did the work)
 
 - **Repository (this worktree):** `/Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/harvest-omar-abdel-kafi-content-81375c`, branch `claude/harvest-omar-abdel-kafi-content-81375c`. The merged work is on `main` (PRs #1591, #1604, #1616, #1651).

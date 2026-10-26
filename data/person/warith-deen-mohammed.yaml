@@ -1,0 +1,48 @@
+id: person/warith-deen-mohammed
+class: person
+label:
+  ar: "وارث الدين محمد"
+  en: "Warith Deen Mohammed"
+  ur: "وریتھ دین محمد"
+summary:
+  ar: "قائد ديني أمريكي (1933–2008)، ابن إلايجا محمد زعيم «أمة الإسلام»، خلف والده سنة 1975 فحوّل الحركة نحو الإسلام بصورته السائدة، فرفض تأليه مؤسسها وقَدَّم أركان الإسلام الخمسة وقَبِل البيض في جماعته، وأعاد تسمية جماعته مرات حتى استقرت على «الجمعية الأمريكية للمسلمين»."
+  en: "American religious leader (1933–2008), son of Elijah Muhammad, leader of the Nation of Islam. He succeeded his father in 1975 and moved the movement toward mainstream Islam: he rejected the deification of its founder, introduced the Five Pillars, and admitted whites as fellow worshippers, renaming his community several times before it settled as the American Society of Muslims."
+  ur: "امریکی مذہبی رہنما (1933–2008)، نیشن آف اسلام کے رہنما ایلیاہ محمد کے بیٹے۔ وہ 1975 میں اپنے والد کے جانشین بنے اور تحریک کو مرکزی دھارے کے اسلام کی طرف لے گئے: انہوں نے اس کے بانی کی دیوتایت کو مسترد کیا، اسلام کے پانچ ستون متعارف کرائے اور گوروں کو ساتھی عبادت گزاروں کے طور پر قبول کیا، اور اپنی جماعت کا نام کئی بار بدل کر آخر میں امریکن سوسائٹی آف مسلمز رکھا۔"
+names:
+  - { value: "Warith Deen Mohammed", kind: full }
+  - { value: "وارث الدين محمد", kind: full }
+  - { value: "Wallace D. Muhammad", kind: alternate }
+  - { value: "Warith Deen Muhammad", kind: alternate }
+born:
+  edtf: "1933-10-30"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give 30 October 1933, born in Hamtramck, Michigan. There is no place entity for Hamtramck, so no born_in edge is written. Hijri year 1352 derived from the Gregorian date; the Arabic article's categories likewise file him under births of 1352 AH."
+  sources: [source/wikipedia-warith-deen-mohammed-en, source/wikidata-warith-deen-mohammed]
+died:
+  edtf: "2008-09-09"
+  hijri: "1429"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give 9 September 2008, in Chicago, Illinois; he was buried at Mount Glenwood Memory Gardens South in Glenwood, Illinois. There is no place entity for Chicago or Glenwood, so no died_in edge is written. Hijri year 1429 derived from the Gregorian date; the Arabic article's categories likewise file him under deaths of 1429 AH."
+  sources: [source/wikipedia-warith-deen-mohammed-en, source/wikidata-warith-deen-mohammed]
+gender: male
+roles: [imam, scholar]
+relations:
+  - { type: child_of, target: person/clara-muhammad, sources: [source/wikipedia-warith-deen-mohammed-en, source/wikidata-warith-deen-mohammed] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources name Sunni Islam for Mohammed himself. The English article, drawing on the New York Times obituary, states that it was his goal to align American Muslims with Sunni Islam and that in 1976 he transformed the Nation of Islam into an orthodox, mainstream Islamic movement, introducing the Five Pillars and rejecting the deification of Wallace Fard Muhammad. The Arabic article independently says he replaced the Nation's teachings with ideas close to the Sunni Islam widespread in the East, and files him under the category 'American Sunni Muslims'. Wikidata's religion values are Islam (Q432) and Sunni Islam (Q483654). No source names a specific madhhab for him: the English article records that he questioned importing the geographically formed classical schools and in a 2008 interview spoke of a distinct American sense of madhhab developing, so the value recorded is sunni only. His birth into the Nation of Islam and his father's leadership of it are family background and are not the basis of this value."
+    sources: [source/wikipedia-warith-deen-mohammed-en, source/wikipedia-warith-deen-mohammed-ar, source/wikidata-warith-deen-mohammed]
+wings: [people]
+regions: [americas-oceania]
+external_ids: { wikidata: "Q2030011" }
+sources: [source/wikipedia-warith-deen-mohammed-en, source/wikipedia-warith-deen-mohammed-ar, source/wikipedia-warith-deen-mohammed-ur, source/wikidata-warith-deen-mohammed]
+provenance: { layer: own-research, source: "Wikipedia (EN/AR/UR) and Wikidata Q2030011, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-32" }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,39 @@
+id: person/mike-tyson
+class: person
+label:
+  ar: "مايك تايسون"
+  en: "Mike Tyson"
+  ur: "مائیک ٹائسن"
+summary:
+  ar: "ملاكم أمريكي محترف سابق (وُلد سنة 1966 في بروكلين بمدينة نيويورك). صار أصغر بطل للوزن الثقيل في التاريخ في العشرين من عمره سنة 1986، وأول ملاكم وزن ثقيل يجمع ألقاب رابطة الملاكمة العالمية والمجلس العالمي للملاكمة والاتحاد الدولي للملاكمة في وقت واحد. امتدت مسيرته من 1985 إلى 2005 مع نزال عودة سنة 2024، وسجله 50 فوزاً (44 بالضربة القاضية) و7 هزائم."
+  en: "American former professional boxer (born 1966 in Brooklyn, New York City). He became the youngest heavyweight champion in history at 20 in 1986 and the first heavyweight to hold the WBA, WBC and IBF titles simultaneously. His career ran from 1985 to 2005, with a comeback bout in 2024; his record is 50 wins (44 by knockout) and 7 losses."
+  ur: "امریکی سابق پیشہ ور باکسر (پیدائش 1966، بروکلین، نیویارک شہر)۔ وہ 1986 میں 20 سال کی عمر میں تاریخ کے سب سے کم عمر ہیوی ویٹ چیمپئن بنے اور پہلے ہیوی ویٹ تھے جنہوں نے ڈبلیو بی اے، ڈبلیو بی سی اور آئی بی ایف ٹائٹل ایک ساتھ رکھے۔ ان کا کیریئر 1985 سے 2005 تک رہا، 2024 میں ایک واپسی مقابلے کے ساتھ؛ ریکارڈ 50 فتوحات (44 ناک آؤٹ) اور 7 شکستیں۔"
+names:
+  - { value: "Mike Tyson", kind: full }
+  - { value: "مايك تايسون", kind: full }
+  - { value: "Michael Gerard Tyson", kind: alternate }
+  - { value: "Iron Mike", kind: laqab }
+  - { value: "Kid Dynamite", kind: laqab }
+  - { value: "The Baddest Man on the Planet", kind: laqab }
+born:
+  edtf: "1966-06-30"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give 30 June 1966, born in Brooklyn, New York City. There is no place entity for Brooklyn or New York City, so no born_in edge is written. Hijri year 1386 derived from the Gregorian date."
+  sources: [source/wikipedia-mike-tyson-en, source/wikidata-mike-tyson]
+gender: male
+roles: [boxer]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for Tyson. The English article records that he was raised Catholic, was baptized as a Baptist in 1988, and later converted to Islam, stating that he converted before entering prison; it also records his Umrah journeys of 2010 and 2022 and his December 2013 statement that he was very grateful to be a Muslim. The Arabic article gives his religion as Islam in its infobox and repeats the same account; the Urdu article states that he accepted Islam following Muhammad Ali. Wikidata's item likewise names no school. Conversion reporting and public practice are not a school attestation, so the value is unknown. The English and Arabic articles both state that media claims that he converted in prison and took the Muslim name Malik Abdul Aziz are false and that he never changed his given name; that name, which Wikidata's item lists among his aliases and which the Urdu article gives in the form Malik Umar bin Abdul Aziz, is therefore not carried in this record's names."
+    sources: [source/wikipedia-mike-tyson-en, source/wikipedia-mike-tyson-ar, source/wikipedia-mike-tyson-ur, source/wikidata-mike-tyson]
+wings: [people, living]
+regions: [americas-oceania]
+external_ids: { wikidata: "Q79031" }
+sources: [source/wikipedia-mike-tyson-en, source/wikipedia-mike-tyson-ar, source/wikipedia-mike-tyson-ur, source/wikidata-mike-tyson]
+provenance: { layer: own-research, source: "Wikipedia (EN/AR/UR) and Wikidata Q79031, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-33" }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

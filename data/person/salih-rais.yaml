@@ -6,8 +6,8 @@ names:
 gender: male
 roles: [military, ruler]
 summary:
-  ar: "بكلربك الجزائر من صفر ٩٦٠هـ/يناير ١٥٥٢م خلفاً لحسن بن خير الدين. عمل داخلياً على تحقيق الوحدة التامة بين أجزاء الجزائر وإخضاع الصحراء إليها ليتفرغ للأندلس، وخارجياً على إبعاد الأسبان نهائياً ووضع حد لمشاغبات الدولة السعدية وإعلان الجهاد العام نحو الأندلس. فأخضع الإمارات المستقلة، ووقف مع أبي حسون الوطاسي ضد السعديين فدخلت القوات العثمانية فاس في ٣ صفر ٩٦٤هـ/٨ يناير ١٥٥٤م وأعلن الباب العالي ضم المغرب، ومكث في فاس أربعة أشهر استرجع خلالها باديس من الأسبان وحاول استبدال بوحسون بالشريف الإدريسي مولاي بوبكر قبل أن تضطره ثورة الأهالي لإعادته بشروط الحفاظ على السيادة العثمانية. ولما اكتشفت المخابرات العثمانية مؤامرة السعديين مع أسبانيا أرسل السلطان أربعين سفينة وأمر بمهاجمة وهران؛ استعد لها بنحو سبعين سفينة وأربعين ألف جند لكنه توفي بالطاعون في رجب ٩٦٣هـ/١٥٥٦م عن سبعين سنة {cite:dawlat-uthmaniyya-salabi p. 235-243}."
-  en: "Beylerbey of Algiers from Safar 960/January 1552. Internally he sought complete unity of all Algeria, the Sahara included, to be free for al-Andalus; externally to expel Spain, fence off Sa'di trouble, and proclaim general jihad toward al-Andalus. Backing the Wattasid Bu Hasun, Ottoman forces entered Fez 3 Safar 964/8 January 1554 and the Porte declared Morocco annexed; in four months there he recovered Badis from Spain and tried replacing Bu Hasun with the Idrisi sharif Mawlay Bu Bakr before the people's rising forced him back under Ottoman suzerainty terms. When Ottoman intelligence uncovered the Sa'di-Spanish plot, Süleyman sent forty ships and ordered Oran attacked; Salih readied seventy ships and forty thousand men, but died of plague in Rajab 963/1556, aged seventy {cite:dawlat-uthmaniyya-salabi p. 235-243}."
+  ar: "بكلربك الجزائر من صفر ٩٦٠هـ/يناير ١٥٥٢م خلفاً لحسن بن خير الدين. عمل داخلياً على تحقيق الوحدة التامة بين أجزاء الجزائر وإخضاع الصحراء إليها ليتفرغ للأندلس، وخارجياً على إبعاد الأسبان نهائياً ووضع حد لمشاغبات الدولة السعدية وإعلان الجهاد العام نحو الأندلس. فأخضع الإمارات المستقلة، ووقف مع أبي حسون الوطاسي ضد السعديين فدخلت القوات العثمانية فاس في ٣ صفر ٩٦١هـ/٨ يناير ١٥٥٤م (النص المطبوع «٩٦٤هـ») وأعلن الباب العالي ضم المغرب، ومكث في فاس أربعة أشهر استرجع خلالها باديس من الأسبان وحاول استبدال بوحسون بالشريف الإدريسي مولاي بوبكر قبل أن تضطره ثورة الأهالي لإعادته بشروط الحفاظ على السيادة العثمانية. ولما اكتشفت المخابرات العثمانية مؤامرة السعديين مع أسبانيا أرسل السلطان أربعين سفينة وأمر بمهاجمة وهران؛ استعد لها بنحو سبعين سفينة وأربعين ألف جند لكنه توفي بالطاعون في رجب ٩٦٣هـ/١٥٥٦م عن سبعين سنة {cite:dawlat-uthmaniyya-salabi p. 235-243}."
+  en: "Beylerbey of Algiers from Safar 960/January 1552. Internally he sought complete unity of all Algeria, the Sahara included, to be free for al-Andalus; externally to expel Spain, fence off Sa'di trouble, and proclaim general jihad toward al-Andalus. Backing the Wattasid Bu Hasun, Ottoman forces entered Fez 3 Safar 961/8 January 1554 (the printed text reads 964) and the Porte declared Morocco annexed; in four months there he recovered Badis from Spain and tried replacing Bu Hasun with the Idrisi sharif Mawlay Bu Bakr before the people's rising forced him back under Ottoman suzerainty terms. When Ottoman intelligence uncovered the Sa'di-Spanish plot, Süleyman sent forty ships and ordered Oran attacked; Salih readied seventy ships and forty thousand men, but died of plague in Rajab 963/1556, aged seventy {cite:dawlat-uthmaniyya-salabi p. 235-243}."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
@@ -31,4 +31,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: salabi-uthmani-batch12
+  note: "Fez entry year corrected to 961 AH (the printed text reads 964) — Devin (Cognition), education-E5 review, 2026-10-26."
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

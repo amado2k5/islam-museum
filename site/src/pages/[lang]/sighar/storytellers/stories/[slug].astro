@@ -1,0 +1,37 @@
+---
+// One story in 12 cards (E5): the narrated player page.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import StoryCards from "../../../../../components/StoryCards.astro";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { listStoryCards, loadStoryCards } from "../../../../../lib/story-cards";
+import "../../../../../styles/kids.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    listStoryCards().map(({ slug }) => ({ params: { lang, slug }, props: { lang, slug } })));
+}
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const t = T.storycards;
+const story = loadStoryCards(slug);
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+const bandName = T.kids.band_storytellers ?? "Storytellers";
+const controls = { play: t.play, stop: t.stop, prev: t.prev, next: t.next, all_cards: t.all_cards };
+---
+<BaseLayout lang={lang} title={L(story.title)} description={L(story.lede)} path={`/${lang}/sighar/storytellers/stories/${slug}/`} kids={true}>
+  <div class="kids" id="top">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{T.kids.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/storytellers/`}>{bandName}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/storytellers/stories/`}>{t.title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{L(story.title)}</span>
+    </nav>
+    <h1><span aria-hidden="true">🎴</span> {L(story.title)}</h1>
+    <p class="lede">{L(story.lede)}</p>
+    <StoryCards story={story} lang={lang} t={controls} />
+  </div>
+</BaseLayout>

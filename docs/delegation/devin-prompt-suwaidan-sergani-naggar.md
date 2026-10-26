@@ -12,13 +12,13 @@ Work exactly as the Claude session does for Omar Abdelkafy. That session's docum
 
 Another agent is working on this same Mac, on the same repository, right now. You must not touch its work.
 
-- **Your own repository checkout.** Do not use `/Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/harvest-omar-abdel-kafi-content-81375c` (the Claude worktree) and do not check out or push its branch `claude/harvest-omar-abdel-kafi-content-81375c`. Create your own clone or worktree: `git clone` of the repository into `~/devin-harvest/repo-suwaidan` (or `git worktree add ~/devin-harvest/repo-suwaidan -b devin/suwaidan-<date> origin/main`). Your branch is `devin/suwaidan-<yyyy-mm-dd>`, then `devin/sergani-…`, then `devin/naggar-…`.
-- **Your own harvest workspace (not in git).** Use `~/devin-harvest/` only. Do not use `~/islam-museum-harvest` (the Claude session's folder). Your layout:
-  - `~/devin-harvest/raw/assabile/<speaker>/` — downloaded MP4 files, extracted MP3 audio, manifests.
-  - `~/devin-harvest/books/assabile/<speaker>/<series>/pass5-qwen/` — transcripts.
-  - `~/devin-harvest/logs/` — your logs.
-  - `~/devin-harvest/scratch/` — your temporary folders. Never write to `/tmp` shared paths used by others; use `~/devin-harvest/scratch/`.
-  - `~/devin-harvest/.venv-audio/` — your own Python environment (create it; do not reuse the Claude session's venv, so a broken install of one cannot break the other).
+- **Your own repository checkout.** Do not use `/Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/harvest-omar-abdel-kafi-content-81375c` (the Claude worktree) and do not check out or push its branch `claude/harvest-omar-abdel-kafi-content-81375c`. Create your own clone or worktree: `git clone` of the repository into `/Volumes/exmicroSD/devin-harvest/repo-suwaidan` (or `git worktree add /Volumes/exmicroSD/devin-harvest/repo-suwaidan -b devin/suwaidan-<date> origin/main`). Your branch is `devin/suwaidan-<yyyy-mm-dd>`, then `devin/sergani-…`, then `devin/naggar-…`.
+- **Your own harvest workspace (not in git), on the microSD.** All downloaded files go to the microSD (`/Volumes/exmicroSD/`, which has about 370 GB free). Use `/Volumes/exmicroSD/devin-harvest/` only. Do not use `~/islam-museum-harvest` (the Claude session's folder). Your layout:
+  - `/Volumes/exmicroSD/devin-harvest/raw/assabile/<speaker>/` — downloaded MP4 files, extracted MP3 audio, manifests.
+  - `/Volumes/exmicroSD/devin-harvest/books/assabile/<speaker>/<series>/pass5-qwen/` — transcripts.
+  - `/Volumes/exmicroSD/devin-harvest/logs/` — your logs.
+  - `/Volumes/exmicroSD/devin-harvest/scratch/` — your temporary folders. Never write to `/tmp` shared paths used by others; use `/Volumes/exmicroSD/devin-harvest/scratch/`.
+  - `/Volumes/exmicroSD/devin-harvest/.venv-audio/` — your own Python environment (create it; do not reuse the Claude session's venv, so a broken install of one cannot break the other).
 - **Processes.** Start only the processes you start. Never run `pkill` or `killall` with a broad pattern; to stop your own process, use its PID from `$!` or `pgrep -f "devin-harvest"`. Never touch processes whose command line contains `islam-museum-harvest` (that is the Claude session's queue).
 - **GPU.** The speech engine runs on the Mac GPU, which the Claude session also uses. Run **one** transcription process at a time, from your own queue. Expect slower transcription while the Claude session is busy; that is normal. Do not start a second transcription process.
 - **Git.** Never force-push. Never reset, rebase or rewrite a branch someone else pushed. Before every push: `git fetch origin && git merge --no-edit origin/main`. If a merge conflicts, resolve it by keeping both sides' content (for prose, keep both sections; for YAML, keep both keys, never duplicate a key), then validate. Never commit `node_modules`, audio, video, transcripts or model weights.
@@ -53,6 +53,10 @@ In your clone, read completely:
 16. **Batches:** at most 25 new entities per commit; the commit message names the batch.
 17. **Attribution trailers** on every commit: `AI-Agent: Devin`, `AI-Model: <the model you run as>`, `AI-Editor: Devin` (truthful values).
 
+## 3a. Storage and deletion (founder, 25 Oct 2026)
+
+18. **Delete the media once a series is fully harvested.** When a series' transcripts exist and its content is merged to `main`, delete its MP3, MP4 and extracted audio files (keep the manifests, `SHA256SUMS`, the transcripts and their metadata). Do not delete media for a series whose write-up is still pending.
+
 ## 4. Order of work, and what "done" means
 
 Three speakers, one after another. Do not start a speaker until the previous one is finished.
@@ -71,22 +75,22 @@ Note: the archive's own lesson counts may differ slightly from the transcripts y
 
 Set the environment once:
 ```
-cd ~/devin-harvest/repo-suwaidan   # your clone
-export HARVEST=~/devin-harvest
+cd /Volumes/exmicroSD/devin-harvest/repo-suwaidan   # your clone
+export HARVEST=/Volumes/exmicroSD/devin-harvest
 export SPEAKER=tareq-al-suwaidan   # then ragheb-el-sergani, then zaghloul-el-naggar
-python3 -m venv ~/devin-harvest/.venv-audio && ~/devin-harvest/.venv-audio/bin/pip install -U mlx-audio torch torchaudio librosa "transformers>=5.13" accelerate mistral-common soundfile
+python3 -m venv /Volumes/exmicroSD/devin-harvest/.venv-audio && /Volumes/exmicroSD/devin-harvest/.venv-audio/bin/pip install -U mlx-audio torch torchaudio librosa "transformers>=5.13" accelerate mistral-common soundfile
 ```
 (If `pip` fails on an optional package, install the rest and record what failed in the progress file; the speech engine needs `torch`, `transformers` and `librosa`.)
 
 **A. Discover the episodes** (once per series; it writes a manifest):
 ```
-~/devin-harvest/.venv-audio/bin/python scripts/harvest/audio/discover_series.py --speaker $SPEAKER --series <slug> --out $HARVEST/raw/assabile/$SPEAKER/manifests
+/Volumes/exmicroSD/devin-harvest/.venv-audio/bin/python scripts/harvest/audio/discover_series.py --speaker $SPEAKER --series <slug> --out $HARVEST/raw/assabile/$SPEAKER/manifests
 ```
 Video series: the series page lists no media; the script fetches each episode page (about 2 seconds each). Respect `robots.txt` (the script checks it). Never fetch faster than one page every two seconds.
 
 **B. Download each episode's MP4** (polite, resumable, with SHA-256):
 ```
-~/devin-harvest/.venv-audio/bin/python scripts/harvest/audio/download.py --out $HARVEST/raw/assabile/$SPEAKER --manifest $HARVEST/raw/assabile/$SPEAKER/manifests/<slug>.manifest.tsv
+/Volumes/exmicroSD/devin-harvest/.venv-audio/bin/python scripts/harvest/audio/download.py --out $HARVEST/raw/assabile/$SPEAKER --manifest $HARVEST/raw/assabile/$SPEAKER/manifests/<slug>.manifest.tsv
 ```
 
 **C. Extract the audio** (phase A of the mission: all the videos first). `scripts/harvest/audio/prep_video.sh` does B, C and D for a series in one run; to run only the extraction for every series, call the ffmpeg step directly:
@@ -97,7 +101,7 @@ into `$HARVEST/raw/assabile/$SPEAKER/<series>/audio/epNN.mp3`. The transcription
 
 **D. Transcribe** (phase B: one process, one file at a time, on the Mac):
 ```
-~/devin-harvest/.venv-audio/bin/python scripts/harvest/audio/transcribe_qwen.py --out $HARVEST/books/assabile/$SPEAKER/<series>/pass5-qwen <audio files…>
+/Volumes/exmicroSD/devin-harvest/.venv-audio/bin/python scripts/harvest/audio/transcribe_qwen.py --out $HARVEST/books/assabile/$SPEAKER/<series>/pass5-qwen <audio files…>
 ```
 It writes `epNN.json` (segments with start and end seconds), `epNN.txt` (lines `[hh:mm:ss] text`) and `epNN.meta.json`. It skips episodes already transcribed. Measured speed: about 7 to 10 times real time when the Mac is free, about 3 times when busy. A 60-minute lesson takes roughly 6 to 20 minutes. Expect days for the whole mission; that is normal.
 
@@ -107,7 +111,7 @@ Use `scripts/harvest/audio/run_queue.sh` if you prefer one queue that does A to 
 
 **F. Regenerate the recording map** for your speaker whenever a manifest is added or changed (rule 15):
 ```
-bash scripts/harvest/audio/regen_map.sh ~/devin-harvest "$PWD" $SPEAKER
+bash scripts/harvest/audio/regen_map.sh /Volumes/exmicroSD/devin-harvest "$PWD" $SPEAKER
 ```
 It writes `site/src/data/recordings.json`. Note: today the map is keyed for one speaker; if you need the site to link recordings of more than one speaker, extend `site/src/lib/recordings.ts` (`SPEAKER_BY_SOURCE`) and generate one map per speaker (for example `recordings-<speaker>.json`), keeping the existing Omar map working. Make that change as its own commit, keep it small, and test that the Omar references still resolve.
 
