@@ -15,6 +15,18 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 530, lib-mawsuat-a3lam" }
+sources:
+- source/mawsuat-a3lam-ulama-adaba
+- source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص530", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+
+died:
+  edtf: "1499"
+  hijri: "0905"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives death at Cairo in 905 AH (1499)."
