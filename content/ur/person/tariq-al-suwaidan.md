@@ -84,3 +84,6 @@ translators: []
 
 ## «الوسطیہ» میں — کفر و تکفیر کی قسط
 سویدان نے پروگرام کی سب سے حساس قسط — کفر اور تکفیر — عقیدہ کے علماء اور دعاۃ کے ساتھ اور دو ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}۔ انہوں نے اختتام پر زور دیا: استثناء اصول کو ختم نہیں کرتے — اسلام مذہبی آزادی سے نہیں ٹکراتا، اور ثابت نص کی عزت اور استطاعت کے ادب سے اطلاق {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}۔
+
+## «الوسطیہ» میں — تکفیر کی دوسری قسط
+تکفیر کے تتمہ میں سویدان نے «حکم کھلا یا بند» کی بحث تین ووٹوں کے ساتھ چلائی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — نمایاں نتیجہ: 88% تکفیر کا حکم ایک سرکاری شرعی ادارے تک محدود رکھتے ہیں، نہ منفرد عالم نہ قاضی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}۔

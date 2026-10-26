@@ -116,3 +116,6 @@ Al-Suwaidan steered the patriotism-and-nationalism episode with three specialist
 
 ## In 'Al-Wasatiyya' — the takfir episode
 Al-Suwaidan steered the programme's most sensitive episode — kufr and takfir — with aqida scholars and du'at, and two polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. He closed affirming: the exceptions do not cancel the rule — Islam does not collide with religious freedom, and the established text is revered and applied with the etiquette of capability {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
+
+## In 'Al-Wasatiyya' — the second takfir episode
+In the takfir sequel al-Suwaidan steered 'is the ruling open or closed' with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — the standout result: 88% confine issuing takfir to an official sharia body, not a single scholar or judge {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
