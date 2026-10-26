@@ -163,11 +163,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Arshad Nadeem — 1997–Living
 - [x] Mutaz Essa Barshim — 1991–Living
 - [x] Sufi Abu Taleb — 1925–2008
-- [ ] Hamza El Din — 1929–2006
-- [ ] Ali Farka Touré — 1939–2006
-- [ ] Vieux Farka Touré — 1981–Living
-- [ ] Salif Keita — 1949–Living
-- [ ] Oumou Sangaré — 1968–Living
+- [x] Hamza El Din — 1929–2006
+- [x] Ali Farka Touré — 1939–2006
+- [x] Vieux Farka Touré — 1981–Living
+- [x] Salif Keita — 1949–Living
+- [x] Oumou Sangaré — 1968–Living
 - [ ] Ballaké Sissoko — 1967–Living
 - [ ] Toumani Diabaté — 1965–2024
 - [ ] Baaba Maal — 1953–Living

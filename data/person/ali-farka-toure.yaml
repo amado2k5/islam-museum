@@ -1,0 +1,45 @@
+id: person/ali-farka-toure
+class: person
+label: { ar: "علي فاركا توري", en: "Ali Farka Touré", ur: "علی فارکا تورے" }
+names:
+  - { value: "علي إبراهيم توري", kind: full }
+  - { value: "Ali Ibrahim Touré", kind: full }
+  - { value: "Farka", kind: laqab }
+gender: male
+summary:
+  ar: "مغنٍّ وعازف غيتار مالي، وُلد سنة 1939 في قرية كاناو بمنطقة تمبكتو وتوفي في باماكو سنة 2006. مزج الموسيقى المالية التقليدية بالبلوز حتى لُقّب بـ«جون لي هوكر الأفريقي»، وسجّل مع راي كودر وتاج محل وتوماني دياباتي، وفاز بثلاث جوائز غرامي إحداها بعد وفاته، وصار عمدة لبلدته نيافونكي سنة 2004."
+  en: "Malian singer and guitarist, born in 1939 in the village of Kanau in the Timbuktu region and died at Bamako in 2006. He fused traditional Malian music with the blues — he was called 'the African John Lee Hooker' — recorded with Ry Cooder, Taj Mahal and Toumani Diabaté, won three Grammy Awards, one of them posthumously, and became mayor of his home town of Niafunké in 2004."
+  ur: "مالی کے گلوکار اور گٹار نواز، جو 1939 میں ٹمبکٹو کے علاقے کے گاؤں کاناؤ میں پیدا ہوئے اور 2006 میں بماکو میں وفات پائی۔ انہوں نے روایتی مالی موسیقی کو بلوز کے ساتھ جوڑا، رائی کوڈر، تاج محل اور تومانی دیاباتے کے ساتھ ریکارڈنگ کی، تین گریمی ایوارڈز جیتے جن میں سے ایک ان کی وفات کے بعد ملا، اور 2004 میں اپنے قصبے نیافنکے کے میئر بنے۔"
+roles: [singer, musician]
+wings: [people]
+born:
+  edtf: "1939-10-31"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the village of Kanau, on the Niger River in Gourma-Rharous Cercle, Tombouctou region; 31 October 1939 is given by all three Wikipedia articles and Wikidata. Wikidata's place-of-birth claim is Timbuktu city, which the articles do not support — Kanau lies some 65 km from Timbuktu — so no born_in relation is written. The Hijri year (1358) is derived by tabular conversion."
+  sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikidata-ali-farka-toure]
+died:
+  edtf: "2006-03-07"
+  hijri: "1427"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Bamako of bone cancer. The day is disputed between the sources and is recorded as debated: the French and Arabic Wikipedia articles give 7 March 2006 (the French article adds that he was buried at Niafunké), while the English article gives 6 March 2006, the day it says the Malian Ministry of Culture announced his death; Wikidata carries both the 6 March and the 7 March claims. This record follows 7 March, on the two independent language editions. The Hijri year (1427) is derived by tabular conversion and is the same on either day."
+  sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikidata-ali-farka-toure]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school for him. The English, French and Arabic Wikipedia articles are all silent on his personal religion, and Wikidata (Q334947) carries no religion claim at all. His Songhai (Arma) family background, his upbringing in the Muslim Sahel and the traditional Songhai 'wallahidu' repertoire he sang are background and work, not an attestation of a personal school; a musician's repertoire is not a faith attestation. Under the two-source rule his faith is recorded as unknown."
+    sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikidata-ali-farka-toure]
+external_ids: { wikidata: "Q334947" }
+sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikipedia-ali-farka-toure-ur, source/wikidata-ali-farka-toure]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali Farka Touré' (revision 1376522862 of 24 September 2026), French Wikipedia 'Ali Farka Touré' (revision 235727310 of 30 April 2026), Arabic Wikipedia «علي فاركا توري» (revision 75253904 of 9 June 2026), the Urdu stub «علی فارکا تورے» (revision 10130444 of 28 April 2026), and Wikidata Q334947 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (toure / touré / farka variants searched); this is a new build, not an enrichment. His son's record (person/vieux-farka-toure, same run) carries the child_of edge pointing here; no relation is written in this record because his birthplace Kanau, his home Niafunké and his death place Bamako have no place entities in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-24
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
