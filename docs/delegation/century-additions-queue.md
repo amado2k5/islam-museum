@@ -212,10 +212,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
 - [x] Shareef Abdur-Rahim — 1976–Living
 - [ ] Gilles Sissoko — 1978–Living
-- [ ] Kareem Abdul-Jabbar — 1947–Living
-- [ ] Bernard Hopkins — 1965–Living
-- [ ] Mike Tyson (Malik Abdul Aziz) — 1966–Living
-- [ ] Hasim Rahman — 1972–Living
+- [x] Kareem Abdul-Jabbar — 1947–Living
+- [x] Bernard Hopkins — 1965–Living
+- [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
+- [x] Hasim Rahman — 1972–Living
 - [ ] Nazim Richardson — 1965–2020
 - [ ] Naseem Hamed (Prince Naseem) — 1974–Living
 - [ ] Amir Khan — 1986–Living
