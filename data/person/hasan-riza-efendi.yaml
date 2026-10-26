@@ -1,0 +1,51 @@
+id: person/hasan-riza-efendi
+class: person
+label: { ar: "حسن رضا أفندي", en: "Hasan Rıza Efendi", ur: "حسن رضا آفندی" }
+names:
+  - { value: "حسن رضا أفندي", kind: full }
+  - { value: "Hasan Rıza Efendi", kind: full }
+  - { value: "Hacı Hasan Rızâ Efendi", kind: alternate }
+gender: male
+summary:
+  ar: "خطاط عثماني (1849–1920) اشتُهر بمصحفه «آية بركنار»؛ كتب تسعة عشر مصحفًا انتشرت طبعاتها في العالم الإسلامي، ونسخ صحيح البخاري في ثمانية مجلدات للسلطان محمد الخامس، وأخذ التعليق عن سامي أفندي والخط عن محمد شفيق بك، ودرّس في مدرسة الخطاطين من سنة 1914."
+  en: "Ottoman calligrapher (1849–1920) famed for his Ayet Berkenar mushaf. He wrote nineteen mushafs whose printed editions spread across the Muslim world, copied Sahih al-Bukhari in eight volumes for Sultan Mehmed V, took ta'liq from Sami Efendi and calligraphy from Mehmed Şefik Bey, and taught at the School of Calligraphers from 1914."
+  ur: "عثمانی خطاط (1849–1920) جو اپنے «آیت برکنار» مصحف کے لیے مشہور ہیں۔ انہوں نے انیس مصاحف لکھے جن کے مطبوعہ نسخے عالم اسلام میں پھیلے، سلطان محمد خامس کے لیے صحیح بخاری آٹھ جلدوں میں نقل کی، سامي آفندی سے تعلیق اور محمد شفیق بے سے خط سیکھا، اور 1914 سے مدرسۂ خطاطین میں پڑھایا۔"
+roles: [calligrapher, teacher]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1849"
+  hijri: "1265"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Üsküdar, Istanbul, in 1849 (1265 AH), as both the Arabic article and the TDV İslâm Ansiklopedisi entry record; his father Ahmed Nazif Efendi was an official in the household of Grand Vizier Mustafa Reşid Pasha. The Hijri year 1265 is the Arabic article's own."
+  sources: [source/wikipedia-hasan-riza-efendi-ar, source/tdv-hasan-riza-efendi]
+died:
+  edtf: "1920-03-01"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died at his home in Rumelihisarı, Istanbul, on 10 Jumada al-Akhira 1338; the TDV entry converts that Hijri date to 1 March 1920 while the Arabic article gives 2 March 1920 — conversion variants of the same Hijri date, both disclosed. He was buried in the cemetery beside Rumeli Hisarı fortress. The Hijri year 1338 is the sources' own."
+  sources: [source/tdv-hasan-riza-efendi, source/wikipedia-hasan-riza-efendi-ar, source/wikidata-hasan-riza-efendi]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hasan-riza-efendi-ar, source/tdv-hasan-riza-efendi] }
+  - { type: died_in, target: place/istanbul, sources: [source/tdv-hasan-riza-efendi] }
+  - { type: student_of, target: person/sami-efendi, sources: [source/tdv-hasan-riza-efendi, source/wikipedia-hasan-riza-efendi-ar] }
+  - { type: student_of, target: person/mehmed-sefik-calligrapher, sources: [source/tdv-hasan-riza-efendi, source/wikipedia-hasan-riza-efendi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school, legal tradition or Sufi order for Hasan Rıza Efendi personally. The Arabic article and the TDV İslâm Ansiklopedisi entry give his craft lineage and offices only — his calligraphy teachers, his imamate of the imperial band (mızıka-i hümayun) from 1871 and his hajj of 1876 — and an office or a pilgrimage is not an attestation of school. The TDV entry notes that he also wrote some Sufi-themed poems; poems are works, in one source, not a documented affiliation. Wikidata carries only the generic value Islam (Q432), sourced to the TDV entry. A person's school is therefore not recorded."
+    sources: [source/wikipedia-hasan-riza-efendi-ar, source/tdv-hasan-riza-efendi, source/wikidata-hasan-riza-efendi]
+external_ids: { wikidata: "Q108298487" }
+sources: [source/wikipedia-hasan-riza-efendi-ar, source/wikidata-hasan-riza-efendi, source/tdv-hasan-riza-efendi]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia 'حسن رضا أفندي' (revision 75262673 of 9 June 2026) — the only Wikipedia article on him in any language — and the TDV İslâm Ansiklopedisi entry 'Hasan Rızâ Efendi, Hacı' by M. Uğur Derman (print 1997; online version read 26 October 2026), both read in full on 26 October 2026 and checked against the recorded revision, with Wikidata item Q108298487. The queue gives his years as 1849–1920; the death day is split (1 March 1920 in the TDV conversion of 10 Jumada al-Akhira 1338, 2 March 1920 in the Arabic article) and is recorded debated at 1 March. His faith is unknown: no source names a school or order for him personally."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-35
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
