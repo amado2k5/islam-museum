@@ -1,0 +1,37 @@
+id: person/badou-zaki
+class: person
+label: { ar: "بادو الزاكي", en: "Badou Zaki", ur: "بادو زکی" }
+names:
+  - { value: "بادو الزاكي", kind: full }
+  - { value: "Ezzaki Badou", kind: full }
+  - { value: "Badou Zaki", kind: alternate }
+gender: male
+summary:
+  ar: "مدرب كرة قدم مغربي وحارس مرمى سابق (وُلد سنة 1959 في سيدي قاسم)، اختير أفضل لاعب أفريقي سنة 1986 وكان ضمن منتخب المغرب الذي بلغ ثمن نهائي كأس العالم 1986، وقاد مدرباً منتخب المغرب إلى نهائي كأس الأمم الأفريقية 2004 ثم تولى تدريب منتخب الأردن سنة 2026."
+  en: "Moroccan football coach and former goalkeeper (born 1959 in Sidi Kacem), named African Footballer of the Year in 1986 and a member of the Morocco team that reached the 1986 World Cup round of 16; as a coach he led Morocco to the 2004 Africa Cup of Nations final and took charge of Jordan in 2026."
+  ur: "مراکشی فٹبال کوچ اور سابق گول کیپر (پیدائش 1959، سیدی قاسم)، جنہیں 1986 میں افریقی فٹبالر آف دی ایئر منتخب کیا گیا اور جو 1986 کے ورلڈ کپ کے راؤنڈ آف 16 تک پہنچنے والی مراکش ٹیم کے رکن تھے؛ کوچ کی حیثیت سے انہوں نے مراکش کو 2004 کے افریقا کپ آف نیشنز کے فائنل تک پہنچایا اور 2026 میں اردن کی ذمہ داری سنبھالی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1959-04-02"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and French articles and Wikidata (Q264657) all give 2 April 1959, born in Sidi Kacem, Morocco. No museum place entity exists for Sidi Kacem, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1378 is derived from the Gregorian date."
+  sources: [source/wikipedia-badou-zaki-en, source/wikipedia-badou-zaki-ar, source/wikipedia-badou-zaki-fr, source/wikidata-badou-zaki]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for Zaki. None of the English, Arabic or French articles carries a religion field or any statement of his religion, and Wikidata (Q264657) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-badou-zaki-en, source/wikipedia-badou-zaki-ar, source/wikipedia-badou-zaki-fr, source/wikidata-badou-zaki]
+external_ids: { wikidata: "Q264657" }
+sources: [source/wikipedia-badou-zaki-en, source/wikipedia-badou-zaki-ar, source/wikipedia-badou-zaki-fr, source/wikidata-badou-zaki]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378886968 of 6 October 2026; the article is titled 'Ezzaki Badou'), Arabic Wikipedia (revision 76345539 of 26 August 2026), French Wikipedia (revision 240071328 of 4 October 2026) and Wikidata Q264657, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Zaki existed in data/person/ (no hit under 'zaki' as a person slug; the Zaki hits are medieval namesakes and Zakir Naik), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Sidi Kacem, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
