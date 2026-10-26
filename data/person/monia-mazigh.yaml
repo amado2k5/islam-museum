@@ -1,0 +1,39 @@
+id: person/monia-mazigh
+class: person
+label:
+  ar: "منية مازيغ"
+  en: "Monia Mazigh"
+  ur: "مونیہ مزئگ"
+summary:
+  ar: "أكاديمية ومؤلفة كندية من أصل تونسي، زوجة ماهر عرار، قادت حملة عامة لإطلاق سراحه من سجنه في سوريا، ثم عملت منسّقة وطنية لمجموعة مراقبة الحريات المدنية الدولية وكتبت كتبًا عن تجربتها."
+  en: "Tunisian-born Canadian academic and author, the wife of Maher Arar, who campaigned publicly for his release from imprisonment in Syria, later served as national coordinator of the International Civil Liberties Monitoring Group, and wrote books about the experience."
+  ur: "تیونس نژاد کینیڈین ماہر تعلیم و مصنفہ، ماہر ارار کی اہلیہ، جنہوں نے شام میں ان کی قید سے رہائی کے لیے عوامی مہم چلائی، بعد میں انٹرنیشنل سول لبرٹیز مانیٹرنگ گروپ کی قومی رابطہ کار رہیں اور اپنے تجربے پر کتابیں لکھیں۔"
+names:
+  - { value: "Monia Mazigh", kind: full }
+  - { value: "منية مازيغ", kind: full }
+born:
+  edtf: "1970-07-10"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English article and Wikidata agree on 10 July 1970; the Arabic article gives the year 1970 only. All three say she was born in Tunisia (the country); no source names a city, and there is no place entity for Tunisia or a Tunisian city of her birth, so no born_in edge is written. Hijri year 1390 derived from the Gregorian date."
+  sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-monia-mazigh-ar, source/wikidata-monia-mazigh]
+gender: female
+roles: [writer, academic]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for Mazigh herself. The Arabic article's infobox gives her religion with the single generic word 'Islam' (الإسلام), and Wikidata's only religion value is Islam (Q432); the English article makes no statement of her religion in its text and files her only under the category 'Canadian Muslims', and the Urdu stub does the same. A generic attestation, one infobox and one structured-data value never suffice."
+    sources: [source/wikipedia-monia-mazigh-ar, source/wikidata-monia-mazigh, source/wikipedia-monia-mazigh-en, source/wikipedia-monia-mazigh-ur]
+relations:
+  - type: spouse_of
+    target: person/maher-arar
+    note: "Married to Maher Arar in 1994 (per his Arabic article's infobox); the English article on Mazigh states the marriage and her campaign for his release, and both Wikidata items name each other as spouse. The edge is written here only, in the wife's record."
+    sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-maher-arar-ar]
+wings: [people, living]
+external_ids: { wikidata: Q3320709 }
+sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-monia-mazigh-ar, source/wikipedia-monia-mazigh-ur, source/wikidata-monia-mazigh]
+provenance: { layer: own-research, source: "Wikipedia (EN/AR/UR) and Wikidata Q3320709, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-28" }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

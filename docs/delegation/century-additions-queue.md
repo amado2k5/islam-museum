@@ -183,11 +183,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali Shaheed Muhammad — 1968–Living
 - [x] French Montana (Karim Kharbouch) — 1984–Living
 - [x] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
-- [ ] Maher Arar — 1970–Living
-- [ ] Monia Mazigh — 1970–Living
-- [ ] Omar Khadr — 1986–Living
-- [ ] Naheed Nenshi — 1972–Living
-- [ ] Salma Lakhani — 1952–Living
+- [x] Maher Arar — 1970–Living
+- [x] Monia Mazigh — 1970–Living
+- [x] Omar Khadr — 1986–Living
+- [x] Naheed Nenshi — 1972–Living
+- [x] Salma Lakhani — 1952–Living
 - [ ] Omar Alghabra — 1969–Living
 - [ ] Maryam Monsef — 1985–Living
 - [ ] Ahmed Hussen — 1975–Living
