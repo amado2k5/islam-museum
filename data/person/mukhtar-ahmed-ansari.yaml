@@ -1,0 +1,48 @@
+id: person/mukhtar-ahmed-ansari
+class: person
+label: { ar: "مختار أحمد الأنصاري", en: "Mukhtar Ahmed Ansari", ur: "مختار احمد انصاری" }
+names:
+  - { value: "Mukhtar Ahmed Ansari", kind: full }
+  - { value: "Mukhtar Ahmad Ansari", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وقائد وطني هندي (1880–1936)، تخرج في مدراس ودرّس الجراحة في لندن وإدنبرة ومارسها رائدًا في جراحة المسالك. ترأس المؤتمر الوطني الهندي (1927) والرابطة الإسلامية، وقاد البعثة الطبية الهندية في حروب البلقان، وكان من مؤسسي الجامعة الملية الإسلامية ومستشارها (1928–1936) بعد حكيم أجمل خان."
+  en: "Indian physician and nationalist leader (1880–1936), trained at Madras and in London and Edinburgh, where he was a pioneer of urological surgery. He presided over the Indian National Congress (1927) and the Muslim League, led the Indian medical mission to the Balkan Wars, and was a founder of Jamia Millia Islamia and its chancellor (1928–1936) after Hakim Ajmal Khan."
+  ur: "ہندوستانی طبیب اور قوم پرست رہنما (1880ء–1936ء)، مدراس، لندن اور ایڈنبرا سے تعلیم یافتہ، یورولوجی کے ابتدائی ماہر جراح۔ انھوں نے انڈین نیشنل کانگریس (1927ء) اور مسلم لیگ کی صدارت کی، بلقان جنگوں میں ہندوستانی طبی مشن کی قیادت کی، اور جامعہ ملیہ اسلامیہ کے بانی اور حکیم اجمل خان کے بعد اس کے شیخ الجامعہ (1928ء–1936ء) رہے۔"
+roles: [physician, politician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1880-12-25"
+  hijri: "1298"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata all give 25 December 1880, at Mohammadabad in Ghazipur district; no place entity exists for Mohammadabad or Ghazipur, so no born_in edge is written. The date falls in Muharram 1298 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-mukhtar-ahmed-ansari-en, source/wikipedia-mukhtar-ahmed-ansari-ar, source/wikipedia-mukhtar-ahmed-ansari-ur, source/wikidata-mukhtar-ahmed-ansari]
+died:
+  edtf: "1936-05-10"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The three articles agree that he died of a heart attack on 10 May 1936, on a train travelling from Mussoorie to Delhi; the infoboxes name Delhi as the place of death, and he was buried within the premises of Jamia Millia Islamia in Delhi. The date falls in 1355 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-mukhtar-ahmed-ansari-en, source/wikipedia-mukhtar-ahmed-ansari-ar, source/wikipedia-mukhtar-ahmed-ansari-ur]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-mukhtar-ahmed-ansari-en, source/wikipedia-mukhtar-ahmed-ansari-ar] }
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-mukhtar-ahmed-ansari-en, source/wikipedia-mukhtar-ahmed-ansari-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English and Arabic articles describe his family, the Ansaris of Yusufpur, as descended from the Sufi saint Abdullah Ansari of Herat; that is family descent, which never counts as the man's own affiliation. No article text, infobox or structured value names a school for Ansari himself, and Wikidata records his religion as Islam only. His Khilafat advocacy and his Congress and Muslim League presidencies are political offices. The value therefore stays unknown, with the family tradition preserved here."
+    sources: [source/wikipedia-mukhtar-ahmed-ansari-en, source/wikipedia-mukhtar-ahmed-ansari-ar, source/wikipedia-mukhtar-ahmed-ansari-ur, source/wikidata-mukhtar-ahmed-ansari]
+external_ids: { wikidata: "Q3595718" }
+sources: [source/wikipedia-mukhtar-ahmed-ansari-en, source/wikipedia-mukhtar-ahmed-ansari-ar, source/wikipedia-mukhtar-ahmed-ansari-ur, source/wikidata-mukhtar-ahmed-ansari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mukhtar Ahmed Ansari' (revision 1376439790), Arabic Wikipedia 'مختار أحمد الأنصاري' (revision 74079118), Urdu Wikipedia 'مختار احمد انصاری' (revision 11800428) and Wikidata item Q3595718 (item revision 2551270621), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the item was checked against the biography (physician born 1880 at Ghazipur, died 1936) — not his grandson Mukhtar Ansari the Uttar Pradesh politician. Existence was checked by filename fragments under all spellings, by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No group record exists for Jamia Millia Islamia, so no founder_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

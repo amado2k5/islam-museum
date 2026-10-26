@@ -1,0 +1,48 @@
+id: person/saifuddin-kitchlew
+class: person
+label: { ar: "سيف الدين كتشلو", en: "Saifuddin Kitchlew", ur: "سیف الدین کچلو" }
+names:
+  - { value: "Saifuddin Kitchlew", kind: full }
+  - { value: "Saifuddin Kitchlu", kind: alternate }
+  - { value: "Saif-ud-Din Kitchlew", kind: alternate }
+gender: male
+summary:
+  ar: "محامٍ ومناضل استقلال هندي (1888–1963) من أمريتسار، درس في كامبريدج وألمانيا. قاد احتجاجات البنجاب ضد قانون رولات، واعتُقل مع ستيابال في أبريل 1919 فكانت مسيرة جليانوالا باغ ومذبحتها، وقضى نحو أربعة عشر عامًا في السجون البريطانية. كان من مؤسسي الجامعة الملية الإسلامية، وعارض تقسيم الهند، ونال جائزة ستالين للسلام 1952."
+  en: "Indian barrister and independence activist (1888–1963) from Amritsar, educated at Cambridge and in Germany. He led the Punjab protests against the Rowlatt Act; his arrest with Satyapal in April 1919 set off the Jallianwala Bagh gathering and massacre, and he spent some fourteen years in British prisons in all. He was a founding member of Jamia Millia Islamia, opposed the Partition of India, and received the Stalin Peace Prize in 1952."
+  ur: "امرتسر کے ہندوستانی بیرسٹر اور مجاہد آزادی (1888ء–1963ء)، کیمبرج اور جرمنی سے تعلیم یافتہ۔ انھوں نے رولٹ ایکٹ کے خلاف پنجاب کی تحریک کی قیادت کی؛ اپریل 1919ء میں ستیاپال کے ساتھ ان کی گرفتاری جلیانوالہ باغ کے اجتماع اور قتل عام کا سبب بنی، اور وہ مجموعی طور پر تقریباً چودہ برس برطانوی جیلوں میں رہے۔ وہ جامعہ ملیہ اسلامیہ کے بانی ارکان میں سے تھے، تقسیم ہند کے مخالف تھے، اور 1952ء میں اسٹالن امن انعام ملا۔"
+roles: [jurist, politician, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1888-01-15"
+  hijri: "1305"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles both give 15 January 1888, at Amritsar; no place entity exists for Amritsar, so no born_in edge is written. The date falls in 1305 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur, source/wikidata-saifuddin-kitchlew]
+died:
+  edtf: "1963-10-09"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles both give his death at Delhi (New Delhi) on 9 October 1963. The date falls in 1383 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur, source/wikidata-saifuddin-kitchlew]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article records that his family were Kashmiri Pandits of Baramulla who had converted to Islam generations before his birth — the conversion is his ancestors', family history that never counts as the man's own school. The articles file him as a Kashmiri and Indian Muslim and the Urdu article calls him a leader of Muslim nationalism in South Asia; no text, infobox or structured value names a school, and Wikidata records his religion as Islam only. The value therefore stays unknown, with the family history preserved here."
+    sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur, source/wikidata-saifuddin-kitchlew]
+external_ids: { wikidata: "Q4222507" }
+sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur, source/wikidata-saifuddin-kitchlew]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Saifuddin Kitchlew' (revision 1376371857), Urdu Wikipedia 'سیف الدین کچلو' (revision 11800922) and Wikidata item Q4222507 (item revision 2515743301), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. The item has no Arabic Wikipedia sitelink, so the Arabic prose is written from the English and Urdu articles. Existence was checked by filename fragments under both spellings (kitchlew, kitchlu), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No group record exists for Jamia Millia Islamia, so no founder edge is written; Satyapal has no record, so no relation to him is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,51 @@
+id: person/hakim-ajmal-khan
+class: person
+label: { ar: "حكيم أجمل خان", en: "Hakim Ajmal Khan", ur: "حکیم اجمل خان" }
+names:
+  - { value: "محمد أجمل خان", kind: full }
+  - { value: "Mohammad Ajmal Khan", kind: full }
+  - { value: "Masih-ul-Mulk", kind: laqab }
+  - { value: "Haziq-ul-Mulk", kind: laqab }
+gender: male
+summary:
+  ar: "طبيب يوناني هندي (1868–1927) من دلهي، من أسرة أطباء خدمت البلاط المغولي، لُقّب بـ«مسيح الملك». أسس كلية الطبية في دلهي وكان من مؤسسي الجامعة الملية الإسلامية وأول مستشار لها (1920–1927)، وترأس المؤتمر الوطني الهندي والرابطة الإسلامية ولجنة الخلافة."
+  en: "Indian Unani physician of Delhi (1868–1927), from a family of physicians who had served the Mughal court, honoured as Masih-ul-Mulk, 'Healer of the Nation'. He founded the Tibbia College in Delhi, was a founder of Jamia Millia Islamia and its first chancellor (1920–1927), and presided over the Indian National Congress, the Muslim League and the Khilafat Committee."
+  ur: "دہلی کے ہندوستانی یونانی طبیب (1868ء–1927ء)، اطبا کے اس خاندان سے تھے جو مغل دربار سے وابستہ رہا، ’مسیح الملک‘ کہلائے۔ انھوں نے دہلی میں طبیہ کالج قائم کیا، جامعہ ملیہ اسلامیہ کے بانیوں میں سے تھے اور اس کے پہلے شیخ الجامعہ (1920ء–1927ء) رہے، اور انڈین نیشنل کانگریس، مسلم لیگ اور خلافت کمیٹی کی صدارت کی۔"
+roles: [physician, politician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1868-02-11"
+  hijri: "1284"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The year is contested. The Arabic article pairs the date itself — 11 February 1868 with 17 Shawwal 1284 AH — and the Urdu article gives 12 February 1868; the English article's text (citing an India Post profile) and Wikidata give 11 February 1864; the Arabic and Urdu articles' birth categories file him under 1863, and the Indian National Congress's own profile is titled 'Hakim Ajmal Khan (1863–1927)'. The record follows the Arabic article's internally paired date; the day and month of 11 February are common to the Arabic, English and Wikidata readings. He was born at Delhi."
+  sources: [source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-ur, source/wikipedia-hakim-ajmal-khan-en, source/wikidata-hakim-ajmal-khan]
+died:
+  edtf: "1927-12-29"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English lead and death section, the Arabic and Urdu articles and Wikidata all give his death from heart trouble on 29 December 1927; the English article's embedded infobox template internally prints 20 December 1927 against its own text — an internal slip, not followed. The date falls in 1346 AH; the Hijri year is a conversion. He died at Delhi and was buried near the Tibbia College at Karol Bagh in Delhi, as the Arabic article states."
+  sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-ur, source/wikidata-hakim-ajmal-khan]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ur] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ar] }
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school or an order affiliation for the man himself. The English article's infobox lists 'Sufi Mystic' among his occupations — a single structured descriptor, with no text in any article describing an initiation, discipleship or order membership for him — and Wikidata records his religion as Islam only. His childhood study of traditional Islamic knowledge and his family's hereditary standing as Unani physicians are formation and family background, which never count. The value therefore stays unknown, with the infobox descriptor preserved here."
+    sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-ur, source/wikidata-hakim-ajmal-khan]
+external_ids: { wikidata: "Q3595817" }
+sources: [source/wikipedia-hakim-ajmal-khan-en, source/wikipedia-hakim-ajmal-khan-ar, source/wikipedia-hakim-ajmal-khan-ur, source/wikidata-hakim-ajmal-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hakim Ajmal Khan' (revision 1380005142), Arabic Wikipedia 'حكيم أجمل خان' (revision 76756909), Urdu Wikipedia 'حکیم اجمل خان' (revision 11801231) and Wikidata item Q3595817 (item revision 2518867560), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (ajmal, hakim-ajmal), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; muhammad-ajmal-raza-qadri is a different, living preacher. No group record exists for Jamia Millia Islamia or the Tibbia College, so no founder_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
