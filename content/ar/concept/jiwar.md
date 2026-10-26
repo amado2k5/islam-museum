@@ -39,3 +39,20 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يتساءل الشيخ: هل الجار هو الفرد الملاصق، أم الجماعة، أم الدولة؟ ويقول إن الجار في العصر القديم كان هو الملاصق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:19:00}. ويصف ثلاثة أنواع من الجيران: الجار المسلم القريب له ثلاثة حقوق، هي حق الجوار وحق القرابة وحق الإسلام، والجار الذي له حقان، والجار الذي له حق واحد {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:19:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:20:00}.
+
+ويقول الشيخ إن الجار يبقى جارا وإن ظلم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00}. وينقل قصة أبي حنيفة مع جاره الذي كان يشرب الخمر ويغني بالليل، فلما افتقده ذهب إلى مخفر الشرطة يشفع له، فأُفرج عنه، ثم تاب وصلى خلف أبي حنيفة بحسب روايته {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
+
+ويرى الشيخ أن حق الجار ألا يؤذيه الإنسان ولا يظلمه، وأن يشاركه حزنه وفرحه، وأن يسأل عنه قبل أن تأتيه مشكلته، لأن حقه عظيم عند الله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:57:30}. ويذكر أن سعدا دعا على جارته التي نسبت إليه ما ليس فيه بأن يُصيبها الله بالعمى (needs_source: تفاصيل الواقعة) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:00}.
+
+ويرى الشيخ، وهو رأي شخصي له، أن الجيرة اليوم تشمل الغني والفقير، وأن الجار لا ينبغي أن يخفي عن جيرانه ما عنده {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:27:00}. ويقول إذا لم يرتدع الجار ولم يقبل النصيحة، فعلى الإنسان أن يصبر عليه، ويزوره، وينصحه بلين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن حق الجار يشمل ألا يؤذى، وأن تُقدَّم النصيحة له بلين، وأن الجيرة اليوم تشمل الغني والفقير {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:57:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:27:00}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

@@ -19,3 +19,11 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 10)
 
 ينقل الشيخ عن الإمام الشافعي أنه كان يرى أن الشعر يقلل من هيبة العلماء، ويذكر أن العرب قالت إن أبلغ الشعر أكذبه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:30}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ أن أحمد بن حنبل كان يدعو للشافعي بعد كل صلاة (needs_source: رواية يذكرها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:00}، ويذكر أن الشافعي كان يُعاب عليه كثرة زيارته لأحمد، فأجاب بأن الفضل في الزيارتين معًا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:30}.
+
+ويروي الشيخ أن أحمد مرض، فخاف الشافعي أن يموت أحمد ويموت معه العلم الذي عنده، فمرض الشافعي من خوفه، ثم تحامل أحمد على نفسه وزاره (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:00}. ويروي بيتين للشافعي في هذا المعنى، ويرى فيهما أن الحبيب يُبرئ بزيارة الحبيب (needs_source: الأبيات كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.
+
+ويروي الشيخ أن الشافعي كان في نحو التاسعة من عمره يحضر مجلس مالك في المسجد النبوي، وأن رجلًا حلف بالطلاق على زوجته ثم سأل مالكًا، فأجاب الشافعي الفتى، وقضى مالك بعدم وقوع الطلاق (needs_source: الجواب والحكم غير واضحين في النسخة الآلية) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:30}.

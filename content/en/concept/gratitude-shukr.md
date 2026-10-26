@@ -28,3 +28,9 @@ It is recommended to renew thanks aloud at each new favour, by praise, and by an
 
 ## Thanking people for a kindness
 Thanking a benefactor is approved by all sensible people, even for a small favour, since whoever does not thank the little does not thank the much, and whoever does not thank people does not thank God. Thanks in deed is the root, paying a kindness with a kindness; if that is not possible, a good word is enough. Asking the beneficiary for thanks is disliked. The Qur'an praises those who feed the poor for the love of God without wanting reward or thanks. Al-Razi held that doing good for other than God's sake is either for reward or for praise, and that a deliberate association in intention voids the act of worship. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10153} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10154} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10155}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh contrasts a miser who keeps all his wealth with a grateful rich man who sees the poor's right in it, and gives an example with sums of money (needs_source: the figures) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:08:30}. He says that the sincere believer sees what he holds as others' rights, while one who only claims faith sees what is taken from him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:09:00}.
+
+The Sheikh holds, as his own opinion, that worldly fortune is a test, that success is met with gratitude, and that whoever does not give thanks loses what he has {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:45:00}. He recalls the parable of a town that was secure and at peace, its provision coming in abundance, which then showed ingratitude, and so hunger and fear came upon it (needs_source: the interpretation) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:17:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:18:30}.

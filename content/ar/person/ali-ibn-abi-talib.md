@@ -164,3 +164,22 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
 
 يروي الشيخ أن عليا صرع خصمه، فبصق الخصم في وجهه فلم يقتله، فلما سُئل قال إنه خشي أن يكون القتل انتقاما لنفسه لا لله (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:30}
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ علي بن أبي طالب في سياق الشورى التي جعلها عمر في ستة. يروي أن الخيار ضاق بين عثمان وعلي، وأن عبد الرحمن بن عوف هو من يختار بينهما (needs_source: الترتيب كما يسوقه الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:00}، وأن عليًّا قال إنه يحكم بالكتاب والسنة، وإن لكل من الصاحبين طريقه، وإن له طريقه (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:43:00}.
+
+ويروي الشيخ أن عبد الرحمن بن عوف سأل عليًّا أن يسير في الناس بالكتاب والسنة وسيرة أبي بكر وعمر، فأبى علي ووافق عثمان (needs_source: الحوار مشوش في النسخة الآلية) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:30}. ويذكر أن طلحة والزبير وسعدًا تنحّوا، فبقي عبد الرحمن مع علي وعثمان {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00}. ويرى الشيخ، وهذا رأيه، أن كلام علي في هذا الموضع منطقي ومقبول {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00}.
+
+ويروي الشيخ قولًا لعلي أن الصديق لا يترك لصاحبه قول الحق، ويرى، وهذا رأيه، أن الحق قد لا يكون مقبولًا عند الناس {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:28:30}. ويروي أن عليًّا أمر خادمه بإبعاد السراج حين جاءه رجل يطلب صدقة، ليكون طلبه خاصًّا، ثم أعطاه ما طلب (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:19:30}.
+
+ويروي الشيخ أن عمر قال: لولا أبو الحسن لهلكنا، بعد أن سأل علي هل يحتاج أمير المؤمنين إلى شهود بعينهم في مسألة القذف (needs_source: الرواية مشوشة) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:27:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:27:30}. ويذكر الشيخ في عرضه لفتوح الصحابة الفتوحات العلوية، ويصف عليًّا بأنه كان مقاتلًا من الدرجة الأولى (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}، ويذكره أحد الخطباء بأنه مزيل الشرك ومكسّر الأوثان (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:20:30}.
+
+ويروي الشيخ أن عليًّا مرّ مع الحسن والحسين بحمار ميت وعلّق على الدنيا، والتعليق غير واضح في النسخة الآلية (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن كلام علي في شروط الحكم منطقي ومقبول، وأن الحق لا يُترك لصاحبه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:28:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

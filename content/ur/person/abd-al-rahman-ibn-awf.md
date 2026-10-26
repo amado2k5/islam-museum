@@ -16,3 +16,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## چھوٹے قارئین کے لیے
 عبدالرحمن بن عوف ان ابتدائی لوگوں میں سے ہیں جو پیغمبرِ اسلام پر ایمان لائے۔ ان کے دوست ابوبکر نے انھیں دعوت دی تو وہ مسلمان ہو گئے، اور وہ ان آٹھ افراد میں سے تھے جو لوگوں سے پہلے اسلام لائے۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ بیان کرتے ہیں کہ عمر نے شوریٰ کو چھ افراد پر مشتمل کیا، اور عبدالرحمن بن عوف کے ذمے تھا کہ عثمان اور علی میں سے انتخاب کریں (needs_source: ترتیب شیخ کے بیان کے مطابق ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:41:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:00}۔ وہ بیان کرتے ہیں کہ عبدالرحمن نے عثمان سے کہا کہ وہ لوگوں میں کتاب اللہ، سنت اور دونوں صاحبین کی سیرت کے مطابق حکومت کریں گے، تو عثمان نے قبول کیا، اور علی سے یہی بات کہی گئی تو انہوں نے انکار کیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:30}۔ وہ بتاتے ہیں کہ طلحہ، زبیر اور سعد دستبردار ہو گئے، تو عبدالرحمن علی اور عثمان کے ساتھ رہ گئے؛ پھر انہوں نے عثمان کا ہاتھ بلند کیا اور عثمان نے امت کی شرائط قبول کیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00}۔
+
+شیخ بیان کرتے ہیں کہ عبدالرحمن بن عوف نے اپنی بہن کا نکاح بلال بن رباح سے کرنے کی پیشکش کی (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:18:30}۔ وہ بتاتے ہیں کہ عبدالرحمن نے عمر پر حملہ کرنے والے شخص پر اپنی چادر ڈال دی، تو اس نے خود کو مار لیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:30}۔
+
+شیخ انہیں صحابہ میں تاجر کے طور پر شمار کرتے ہیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:53:00}۔ وہ بتاتے ہیں کہ ان کی وفات کے بعد ان کا مال ورثاء میں تقسیم ہوا، اور ان کے قافلے کا آغاز مدینہ میں تھا، باقی روایت خودکار نقل میں مبہم ہے (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:55:30}۔

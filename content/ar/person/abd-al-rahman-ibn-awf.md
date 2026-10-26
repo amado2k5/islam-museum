@@ -16,3 +16,11 @@ translators: []
 
 ## للزوار الصغار
 عبد الرحمن بن عوف من أوائل من آمن بالنبي، دعاه صديقه أبو بكر فأسلم، وكان من الثمانية الذين سبقوا الناس إلى الإسلام.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ أن عمر جعل الشورى في ستة، وأن عبد الرحمن بن عوف هو من يختار بين عثمان وعلي (needs_source: الترتيب كما يسوقه الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:41:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:00}. ويروي أنه سأل عثمان أن يسير في الناس بالكتاب والسنة وسيرة الصاحبين، فوافق عثمان، وسأل عليًّا فأبى (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:30}. ويروي أن طلحة والزبير وسعدًا تنحّوا، فبقي عبد الرحمن مع علي وعثمان، ثم رفع يد عثمان وقبل عثمان شروط الأمة (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00}.
+
+ويروي الشيخ أن عبد الرحمن بن عوف عرض أخته على بلال بن رباح للزواج (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:18:30}. ويروي أن عبد الرحمن ألقى ثوبه على من هاجم عمر، فطعن الرجل نفسه (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:30}.
+
+ويذكره الشيخ في عداد الصحابة بوصف التاجر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:53:00}. ويروي أن ماله قُسم على ورثته بعد وفاته، وأن أول قافلته كان في المدينة، وأن بقية الرواية مشوشة في النسخة الآلية (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:55:30}.

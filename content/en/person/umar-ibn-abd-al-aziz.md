@@ -53,3 +53,11 @@ He says the man asked him, are you blind, and Umar answered no; the members of h
 ## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
 
 The Sheikh narrates an anecdote: a boy went in to Umar ibn Abd al-Aziz, and the caliph told him to leave speaking to someone older. The boy replied that if the matter depended on age, someone in the gathering would be older than the caliph and more entitled to the command of the believers (needs_source: anecdote with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:04:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:05:00}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy says that when Umar ibn Abd al-Aziz governed Egypt on behalf of his father, he secured the people's religion and their livelihood {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:43:30}. He cites Umar's letter to his governor of Egypt: "Reform their hereafter, and their world will be reformed" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:25:30}.
+
+He describes an assembly of Umar ibn Abd al-Aziz, who held five sessions a week, one of them a session on literature, poetry and proverbs, in which Umar wept when a verse from the Mu'allaqa of Tarafa was recited before him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:31:00}. He says Umar listened to those who chose the finest speech, as one picks the finest fruit, and walked among the people at night {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:32:30}.
+
+He recounts that when Umar sent officials to collect zakat in Africa, they returned saying they had found no poor person to take it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:10:00}. He says Umar returned to officials the gifts they offered him, and did not take them for himself {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}.

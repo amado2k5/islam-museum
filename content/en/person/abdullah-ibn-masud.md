@@ -30,3 +30,15 @@ He found Abu Jahl with a last breath left in him. He cut off his head and brough
 The Sheikh narrates that Ibn Mas'ud sat in a square reciting the Qur'an and that people of the village beat him (needs_source: a narration the lecture gives without a source). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:08:00}
 
 The Sheikh quotes a saying he attributes to Ibn Mas'ud: that if he mocked a dog he would fear becoming one (needs_source: attributed saying with no chain given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:25:30}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy names Abdullah ibn Mas'ud in several places. In his list of the fruits of Dar al-Arqam, he names Ibn Mas'ud as the reciter of the Qur'an, truthful to the Book of God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:14:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:15:00}. He says each Companion had a dominant quality: Abu Bakr self-denial, Umar truth-telling, and Ibn Mas'ud the Qur'an {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:47:30}.
+
+He recounts a saying of the Prophet that whoever wishes to hear the Qur'an as it was revealed should listen to Ibn Mas'ud, and says he was the only Companion permitted to enter the Prophet's presence at any time without asking leave {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:27:00}. He describes Ibn Mas'ud as small in stature and says that on the Day of Judgement he will weigh more than a mountain {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:26:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:27:00} (needs_source).
+
+He attributes to Ibn Mas'ud the saying that he would receive ten or twenty questions for fatwa each day (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:54:00}.
+
+Sheikh Omar Abdelkafy holds, as his own opinion, that many people speak loudly and issue fatwas without knowledge, and that Ibn Mas'ud and Ibn Abbas would have hesitated many times before answering such questions {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:09:00}.
+
+He recounts that some Companions followed Ibn Mas'ud, and that he told them to go back; Ibn Mas'ud is quoted as saying that his followers are a shade of error for them and a trial for him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:30:00}. Sheikh Omar Abdelkafy holds, as his own opinion, that a preacher who seeks followers and popularity may mislead people {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30}.

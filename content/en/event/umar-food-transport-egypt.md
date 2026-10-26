@@ -15,3 +15,17 @@ The transport was cut off in the first strife, then carried in the days of Mu'aw
 
 ## The poll tax
 The people of Egypt who paid the poll tax were made a peace in place of the wheat, oil, honey and vinegar at two dinars each, so that each man paid four dinars; the book says that they accepted this. {cite:futuh-buldan-maarif-1407 p.303}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker's view (opinion) likens the superpower of today to Qarun, who dumps food into the sea while people starve in Africa {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:09:30}.
+
+He recounts that the famine lasted nine months without rain in Medina, Mecca and the Peninsula, and that the Companions slaughtered sheep and rejected the meat for its poor quality (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:10:00}.
+
+He recounts that Amr ibn al-As promised Umar a caravan from Egypt in that famine, saying that believers are brothers who share with one another {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:11:30}. He says Umar began distributing the caravan when it arrived {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:21:00}.
+
+He recounts that merchants offered Umar a hundred thousand, then two hundred thousand, then four hundred thousand for the caravan. Umar asked, "Will anyone give me ten?" They asked, "Who?" He said, "God" (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:22:30}.
+
+He recounts that Umar gave up eating meat and lived on bread and oil, and that his servant did the same {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:13:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:20:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:20:30}. He recounts that Umar took a melon from a child and asked, "Would you eat while the poor Muslims have not yet been fed?" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:13:30}.
+
+The speaker's view (opinion): one who takes up an office bears its burden in proportion to what he gains from it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:14:00}. He recounts Umar's saying that if a sheep stumbled at the Euphrates he would fear God's account for it, and the speaker's view (opinion) extends this to everyone with charge over others: each of you is a shepherd and answerable for those under his hand {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:22:00}.

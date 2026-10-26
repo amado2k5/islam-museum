@@ -16,3 +16,9 @@ translators: []
 
 ## للقارئ
 هذا رأي المؤلف، وبعض مواضعه في النسخة الرقمية مشوّش ويُراجع بالنسخة المطبوعة. ولم يُضف بعد تعريف الشرك عند العلماء عامة، وهو يحتاج مصادره الخاصة.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يروي الشيخ أن النبي أمر بقطع شجرة الرضوان، لقطع ذرة الشرك التي قد تأتي يوما فيجلس الناس تحتها ويقولون: هنا جلس رسول الله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:38:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:39:00}. ويحكي قصة عمر في الجاهلية وصنم كان يعبده، وصبيّ سخر من صنم لا يأكل ولا يجيب (needs_source: تفاصيل القصة) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:37:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:38:00}.
+
+ويذكر الشيخ أن إبراهيم كان يسخر ممن يشتري ما لا ينفع ولا يضر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:10:00}. ويقول إن الله لا يغفر الشرك، ويغفر ما دونه لمن يشاء {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:17:30}.

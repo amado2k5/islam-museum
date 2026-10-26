@@ -37,3 +37,9 @@ Most jurists and exegetes hold that minor sins are expiated by avoiding major on
 
 ## Intercession
 The Prophet has a special intercession for people who deserved the Fire by their deeds, so they will not enter it. The people of the Sunna cite the hadith "my intercession is for the people of major sins among my community", which al-Tirmidhi calls good and sound {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13181}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that whatever harms a person's outcome in this world and the next is a sin, and that whoever exceeds God's limits has sinned, whether the sin is small or great {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:04:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:04:30}. He says that a major sin becomes graver through persistence, and that the gravity of a sin is judged by the greatness of the one disobeyed {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}.
+
+He says that the scholars divide sins into minor and major {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}, and that the gravity of a sin depends on whom it wrongs, an offence against God being weighty {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:08:00}.

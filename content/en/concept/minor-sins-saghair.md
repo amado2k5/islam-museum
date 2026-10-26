@@ -22,3 +22,7 @@ A minor sin becomes grave through persistence and habit, through treating the si
 The Sheikh divides sins into major and minor, and names major sins of the eyes, of the heart, of the private parts and of the belly (his view) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:21:30}.
 The Sheikh says that one should not look at the smallness of a sin but at the greatness of the One who is disobeyed (his view) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}.
 He says that no minor sin remains minor when it is persisted in, and that no major sin is beyond God's forgiveness when it is followed by seeking forgiveness (his view) (needs_source: the wording in the transcript is garbled and needs checking against the recording) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:29:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that a small sin becomes great when one persists in it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}. He says that the scholars divide sins into minor and major, and that minor faults (lamam) are lighter than major sins {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}. He relays a saying to the effect that there is no minor sin with persistence {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:07:00}.

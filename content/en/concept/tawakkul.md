@@ -47,3 +47,9 @@ He says that trust alongside taking the means means trusting the Causer of cause
 He says that the reality of trust is the heart's reliance on God alone, and that taking the means does not harm it while the heart does not lean on them {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:21:00}.
 
 He says one should not rely on a person who may die, leave or forget, but on God, who endures and does not pass away; he quotes a verse, not named by him {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that a person is at his best in relief when he despairs of worldly means and entrusts his affair to God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:10:30}. He recounts that Umar ibn al-Khattab slept under a palm tree, safe and at ease, and he takes this as a sign of trust in God {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:52:00}.
+
+The Sheikh holds that the more certain a servant is of his Lord, the more he takes up the causes while not letting his heart rest on them (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 01:17:00}. He holds, as his own opinion, that prayer alone is not enough, and that the servant must begin with action and the taking of means {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:25:00}.

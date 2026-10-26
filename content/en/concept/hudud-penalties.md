@@ -25,3 +25,20 @@ The speaker discusses the hadd for highway robbery (hiraba), the hadd for drinki
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh presents the chapter on the prescribed penalties (hudud) as the law for those who leave God's method, given to regulate human life {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:24:30}. The presenter asks about the severity of the penalties, such as stoning, flogging and amputation, and whether they can regulate life; these questions belong to the presenter, not to the Sheikh {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:28:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:28:30}.
+
+The Sheikh holds that carrying out one legal penalty on earth benefits the community more than a long spell of rain, and he illustrates this with a salary stolen from a man on his way home {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:00}. He distinguishes a petty thief from one who takes public funds or accepts bribes, and recounts an anecdote about al-Hasan al-Basri and a governor (needs_source: the details of the anecdote) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
+
+He says that retribution preserves life, because a would-be killer who knows he will be retaliated against is deterred, and a would-be thief who knows his hand will be cut is restrained {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:30:00}. He gives the saying that whoever feels safe from punishment does not do good {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:31:00}.
+
+The Sheikh holds that the climate and the environment must be prepared before penalties are applied, and that people must understand the law before it is enforced; he notes that some critics object on grounds related to human rights (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:32:00}. He cites the cases of Ma'iz and the Ghamidi woman, who confessed before the Prophet and then had the penalty applied to them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:33:00}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (opinion)**: The Sheikh holds that the penalties protect rights and life through deterrence, and that they should not be applied before society is prepared and the law is explained to people {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:30:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:32:00}.
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

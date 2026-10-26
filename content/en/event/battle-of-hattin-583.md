@@ -16,3 +16,7 @@ Ibn al-Athir relates, quoting [[person/al-malik-al-afdal-ali|al-Malik al-Afdal]]
 The king was captured, with his brother and the prince Reynald [[person/raynald-de-chatillon|(Renaud de Chatillon)]], and a number of the Templars and Hospitallers, and the Muslims took their great cross. Ibn al-Athir says that Salah al-Din struck Reynald's neck with his own hand, saying that he had vowed to kill him. He ordered about two hundred of the Templars and Hospitallers put to death. {cite:kamil-ibn-al-athir p. 146-149}
 
 The source also mentions [[person/taqi-al-din-umar|Taqi al-Din Umar]] as commander of one wing of the army. {cite:kamil-ibn-al-athir p. 146-149}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts a man who gathered dust from the battlefield at Hattin into a bag, and asked that it be placed under his head when he died {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:15:00}.

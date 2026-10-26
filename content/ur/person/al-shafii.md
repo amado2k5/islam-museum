@@ -19,3 +19,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 10)
 
 شیخ امام شافعی سے نقل کرتے ہیں کہ وہ سمجھتے تھے کہ شاعری علماء کے وقار کو کم کرتی ہے، اور ذکر کرتے ہیں کہ عربوں نے کہا کہ سب سے بلیغ شعر سب سے زیادہ جھوٹا ہوتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:30:30}۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ بیان کرتے ہیں کہ احمد بن حنبل ہر نماز کے بعد شافعی کے لیے دعا کیا کرتے تھے (needs_source: شیخ کی بیان کردہ روایت) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:00}۔ وہ بتاتے ہیں کہ شافعی پر تنقید ہوتی تھی کہ وہ احمد کے پاس بار بار جاتے ہیں، تو انہوں نے جواب دیا کہ فضیلت دونوں ملاقاتوں میں ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:18:30}۔
+
+شیخ بیان کرتے ہیں کہ احمد بیمار ہوئے تو شافعی کو خوف ہوا کہ اگر احمد فوت ہو گئے تو ان کا علم ان کے ساتھ جاتا رہے گا، اور اسی خوف سے شافعی خود بیمار ہو گئے، پھر احمد نے خود پر زور ڈال کر ان کی عیادت کی (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:00}۔ وہ شافعی کے اس موضوع پر دو اشعار سناتے ہیں جن میں بیمار دوست کی صحت دوست کو دیکھنے سے بیان ہوئی ہے (needs_source: اشعار شیخ کے پڑھنے کے مطابق ہیں) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}۔
+
+شیخ بیان کرتے ہیں کہ نو سال کے قریب عمر کے شافعی مسجد نبوی میں مالک کی مجلس میں حاضر ہوتے تھے۔ ایک شخص نے اپنی بیوی کو طلاق کی قسم کھائی اور مالک سے پوچھا؛ کم عمر شافعی نے پہلے جواب دیا، اور مالک نے فیصلہ دیا کہ طلاق واقع نہیں ہوئی (needs_source: جواب اور فیصلہ خودکار نقل میں واضح نہیں) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:46:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:47:30}۔

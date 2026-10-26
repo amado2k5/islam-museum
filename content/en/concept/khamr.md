@@ -14,3 +14,13 @@ In a gathering held for al-Mustakfi, al-Masudi reports that wine took the excell
 *Duha al-Islam* notes that the three imams, Malik, al-Shafi'i, and Ahmad, defined wine to include every intoxicating drink, and held that all of them are wine and forbidden. Abu Hanifa defined it as the juice of grapes on the basis of the language, and permitted some drinks if they were boiled and a quantity was drunk that does not intoxicate. He notes that he followed in this Ibn Mas'ud and the majority of the Successors from the people of Kufa, and that Abd Allah ibn Idris was the only one among the jurists of Kufa who forbade it. {cite:duha-islam p. 119-120}
 
 This presentation is only Ahmad Amin's view. It needs a further source from the books of jurisprudence themselves.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh recounts the revelation on wine, saying that it has some benefit for people but that its sin outweighs its benefit, and that Umar asked the Prophet for a clear ruling {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:28:30}. He reports that Abu Bakr said he had never drunk wine, neither in the Jahiliyya nor after Islam {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:29:00}. He says that the Qur'anic term for avoidance in prohibitions appears only in connection with idolatry and wine (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:30:00}.
+
+He recounts Anas going through Medina announcing the ban on wine, and the Muslims pouring out the wine jars into the streets of the city; he says the smell lingered there for many days (needs_source: the duration) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:31:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:32:00}.
+
+The Sheikh recounts Umar ibn al-Khattab rebuking men who drank behind a closed door, asking them whether they thought God did not see them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:42:00}. He tells, in his own account, of the son of Umar who was accused of drinking in private and brought to Amr ibn al-As, who applied the prescribed penalty {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:26:30}.
+
+The Sheikh holds, as his own opinion, that the Western permissiveness towards wine does harm, and cites the case of a pilot who was drunk {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:03:30}.

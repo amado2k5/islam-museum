@@ -34,3 +34,11 @@ The Sheikh relates that Abu Dharr said, in the year 36 AH, that the time that ha
 The Sheikh narrates that Abu Dharr recited Sura al-Zalzala to a Bedouin until its end. The Bedouin wept and asked whether God would not hold them to account for the weight of an atom on the Day of Resurrection, and Abu Dharr said yes (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:21:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
 
 The Sheikh holds that knowledge is of benefit only when it is put into practice. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that Abu Dharr and Abu al-Darda bought a house outside Medina, and that the seller, a Christian woman, told him to purify his heart and pray wherever he wished (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:44:30}.
+
+The sheikh describes Abu Dharr's hot temper in a dispute held in the mosque, and mentions a remark alluding to the origins of one of the disputants, which the sheikh counts as an insult; the words are not repeated here (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:00}. He recounts that the Prophet told Abu Dharr that he was weak in leadership, though not in character, because of his fiery temper (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:00}. Sheikh Omar Abdelkafy holds, as his own opinion, that hot temper ruins an institution that is led by it, and that a preacher must not be hot-tempered (speaker's view, opinion) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:30}.
+
+The sheikh describes Abu Dharr's earlier life as including highway robbery, and says that no one is free from error except the Prophet and no one is sanctified (needs_source: the description is the sheikh's) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:31:00}. He cites a saying that Abu Dharr walks alone, dies alone, and will be raised alone as a community (needs_source: the saying is paraphrased and its source is not given in this episode) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:35:30}.

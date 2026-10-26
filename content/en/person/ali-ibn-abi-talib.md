@@ -93,3 +93,22 @@ The Sheikh relates that before Ibn Umm Maktum gave the call to prayer, Ali would
 ## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
 
 The Sheikh narrates that Ali threw down an enemy who then spat in his face, and Ali did not kill him. Asked why, he said he feared the killing would be for his own anger rather than for God (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:42:30}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy mentions Ali ibn Abi Talib in the context of the council that Umar set up with six members. He recounts that the choice narrowed to Uthman and Ali, and that Abd al-Rahman ibn Awf was to choose between them (needs_source: the order is as the sheikh gives it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:42:00}, and that Ali said he would rule by the Qur'an and the Sunna, but that each of the two predecessors had his own way and he had his (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:43:00}.
+
+The sheikh recounts that Abd al-Rahman ibn Awf asked Ali to govern the people by the Qur'an, the Sunna and the conduct of Abu Bakr and Umar; Ali refused and Uthman agreed (needs_source: the exchange is garbled in the automatic transcript) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:30}. He says Talha, al-Zubayr and Sa'd withdrew, leaving Abd al-Rahman with Ali and Uthman {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00}. Sheikh Omar Abdelkafy holds that Ali's words on this point were logical and acceptable (speaker's view, opinion) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00}.
+
+He recounts a saying of Ali that a friend leaves no truth unspoken, and holds that the truth may not be welcome to people (speaker's view, opinion) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:28:30}. He recounts that Ali told his servant to move the lamp away when a man came asking for charity, so that the request was made privately, and then gave the man what he asked for (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:19:30}.
+
+He recounts that Umar said that without Abu al-Hasan (Ali) they would have been destroyed, after Ali asked whether the Commander of the Faithful needed the same witnesses in a matter of slander (needs_source: the account is garbled in the automatic transcript) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:27:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:27:30}. In his survey of the conquests of the Companions he lists Ali's conquests and calls him a first-rank fighter (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}, and a preacher's invocation names him as the breaker of idols (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:20:30}.
+
+He recounts Ali walking with Hasan and Husayn past a dead donkey and remarking on the world; the remark is unclear in the automatic transcript (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:45:30}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (opinion)**: Sheikh Omar Abdelkafy holds that Ali's words on the conditions of rule were logical and acceptable, and that the truth should not be left unspoken by a friend {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:52:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:28:30}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

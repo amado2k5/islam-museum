@@ -21,3 +21,19 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## خفیہ دعوت کے زمانے میں (الرحیق المختوم، صفحہ 76)
 کتاب انہیں ان لوگوں میں شمار کرتی ہے جو [[person/abu-bakr|ابو بکر]] کی دعوت پر [[event/al-dawa-al-sirriyya|خفیہ دعوت]] کے برسوں میں اسلام لائے، اور ان آٹھ افراد میں سے ایک تھے جو لوگوں سے پہلے ایمان لائے اور ابتدائی گروہ اور اسلام کا ہراول بنے {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. کتاب انہیں ان کی زہری نسبت کے ساتھ ذکر کرتی ہے {cite:mubarakpuri-raheeq p.76}.
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ عمر عبدالکافی سعد بن ابی وقاص کا ذکر سلسلے کے مختلف مقامات پر کرتے ہیں۔ وہ بیان کرتے ہیں کہ سعد نے لوگوں سے اللہ کی قسم دے کر پوچھا کہ مدائن کا وہ نقب کس نے کھولا تھا، تو وہ شخص معلوم نہ ہو سکا کیونکہ نقب کھول کر وہ غائب ہو گیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:20:00}۔
+
+شیخ قادسیہ میں عمر بن الخطاب کے سعد کے نام خط سے استدلال کرتے ہیں: مسلمانوں کی مدد اللہ کی اطاعت سے ہوتی ہے اور دشمن کی نافرمانی سے، اور لشکر کے گناہ اس کے دشمن سے زیادہ خطرناک ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:25:00}۔ شیخ کے نزدیک (ان کی ذاتی رائے)، یہ خط بتاتا ہے کہ دین ہر چیز کو شامل ہے اور سیاست سے جدا نہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:26:00}۔
+
+شیخ کہتے ہیں کہ سعد عربوں میں اپنی بہادری کے لیے معروف تھے، کہ وہ اسلام لانے والے پانچویں شخص تھے، اور ان کا اسلام ابوبکر کے ذریعے ہوا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:40:30} (needs_source)۔
+
+شیخ فتوحات کے بیان میں سعد کی قادسیہ کی قیادت کا ذکر کرتے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}، قادسیہ سے پہلے سعد کے نماز پڑھنے کا منظر بیان کرتے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:07:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:08:00}، اور عمر کے اس قول پر لوٹتے ہیں کہ فتح اللہ کی اطاعت سے ملتی ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:13:00}۔
+
+شیخ بیان کرتے ہیں کہ نبی نے سعد سے فرمایا «فداك أبي وأمي»، اور یہ جملہ سعد کے سوا صرف ایک اور صحابی کے لیے کہا گیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:52:00}۔ وہ بیان کرتے ہیں کہ عمر نے سعد کو ان چھ افراد میں شامل کیا جن میں سے جنت کی بشارت پانے والے دس میں سے ایک کو خلیفہ چننا تھا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:49:30}، اور یہ کہ سعد طلحہ اور زبیر کے ساتھ خلافت سے دستبردار ہوئے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00}۔
+
+شیخ بیان کرتے ہیں کہ عراق میں سعد نے اس شخص کے خلاف دعا کی جو ان پر جھوٹا الزام لگا رہا تھا کہ اگر وہ جھوٹا ہے تو اللہ کوئی نشانی دکھائے، تو ایک اونٹنی نے اسے گھسیٹ کر ہلاک کر دیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:40:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:40:30}۔ انہوں نے یہ بھی بیان کیا کہ سعد نے اپنی ایک پڑوسن کے خلاف دعا کی جو ان کے بارے میں جھوٹی باتیں پھیلا رہی تھی، وہ کنویں میں گر کر مر گئی {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:30} (needs_source)۔ شیخ کے نزدیک (ان کی ذاتی رائے)، مظلوم کی دعا رد نہیں ہوتی {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:30}۔
+
+شیخ کا ذاتی خیال ہے کہ اگر سعد آج ہوتے تو مسلمانوں کے لیے اسلحہ بنانے کے کارخانے قائم کرتے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:17:00}۔

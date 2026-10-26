@@ -20,3 +20,13 @@ Al-Salabi says that he left Kairouan in 93 AH, took Carmona, Seville and Merida,
 
 ## Removal and death
 Al-Walid summoned him to Damascus. Then Sulayman removed him and imprisoned him and fined him money, and then was pleased with him and drew him near. {cite:salabi-umayyad-state-2020 p.75-79} He died in 97 AH on his way to the pilgrimage with Sulayman; Maslama ibn Abd al-Malik prayed over him, and he was about seventy-eight years old. {cite:salabi-umayyad-state-2020 p.81} According to al-Hajjari he died in Wadi al-Qura. {cite:nafh-tib-maqqari p.319-321}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that Musa ibn Nusayr, as an envoy, refused to bow before a king, saying he bows only to God, and that the others present tried to persuade him (needs_source: the king is not named in this account) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:09:00}.
+
+He recounts that Musa prayed for martyrdom and for death in the city of the Prophet, as Umar ibn al-Khattab used to pray (needs_source: the account as the sheikh gives it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:09:30}. He says Musa was born in 19 AH by the sheikh's dating, and that his father Nusayr learned horsemanship and taught it to his son (needs_source: the dates are the sheikh's) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:09:00}.
+
+He recounts that Musa performed the Hajj with Abd al-Malik ibn Marwan, visited the grave of the Prophet, and was buried in al-Baqi' while seeking martyrdom (needs_source: the year is as the sheikh gives it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:10:00}. He dates a campaign he describes to 12 AH, in which a fortress with a church was taken (needs_source: the date has not been checked) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:07:00}. He recounts that Khalid swore to kill the people of a fortress, and that in a locked room of captives was Nusayr, Musa's father (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:07:30}.
+
+Sheikh Omar Abdelkafy holds, as his own opinion, that the community should study its own history, and asks why the history of Musa ibn Nusayr has not been written (speaker's view, opinion) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:16:00}.

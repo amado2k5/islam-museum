@@ -27,3 +27,13 @@ translators: []
 يرى الشيخ أن الفتوى الضارة التي يصدرها عالم زلّ تبقى في ميزان سيئاته بعد موته، فلا تموت ذنوبه بموته، ويقابل ذلك بمن عمل خيراً يستمر أجره (رأي الشيخ) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:46:30}.
 
 ويقول إنه كلما رأى مصرياً يصلي أو يصوم أو يحج أو يزكي أو يتصدق أو يعلّم أو يتعلّم تذكّر عمرو بن العاص، لأنه أدخل الإسلام إلى هذه الأرض، ويرى أن كل هذه الأعمال في ميزانه (رأي الشيخ) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:46:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:47:00}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يروي الشيخ أن عمر كتب إلى عمرو بن العاص وهو عند العريش يأمره بالانتظار حتى يأتيه الأمر (needs_source: نص الكتاب مروي بالمعنى) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:19:00}. فلما وصل إليه الكتاب عبر العريش ودخل حدود مصر، ثم طلب المدد، فأرسل إليه عمر أربعة من أهل بدر، والشيخ يذكر أرقامًا متضاربة لقيمتهم (needs_source: الأرقام لم تُراجع) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:21:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:21:30}.
+
+ويذكر الشيخ كتاب عمر إلى عمرو يعاتبه فيه على الجلوس متكئًا في مجلس الحكم، ويوصيه بالتواضع بين الناس (needs_source: نص الكتاب مروي بالمعنى) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:18:30}. ويروي أن عثمان عزله عن مصر وولّى عبد الله بن أبي السرح، فلما هجم الروم استعان عبد الله بعمرو (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:17:30}.
+
+ويروي الشيخ أن عمر استغاث بعمرو في عام المجاعة، فقال عمرو إنه سيرسل قافلة لأمير المؤمنين (needs_source: عدد الأشهر كما ذكره الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:10:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:11:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 01:21:00}. ويروي أن أقباط مصر لجأوا إليه، وقالوا إن المسلمين أرحم بهم من الروم (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 01:01:00}.
+
+ويروي الشيخ أن عمرو سأل النبي عمّا يصنعه الله معه فيما سلف من ذنوبه قبل إسلامه، فأجابه النبي بأن الإسلام يجب ما قبله (needs_source: الحوار مشوش في النسخة الآلية) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:09:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:11:00}. ويروي أن عمرو أقام الحد على ابن عمر بعد أن بلغ عمر الخبر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:26:30}.

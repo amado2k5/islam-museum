@@ -18,3 +18,9 @@ He recalls that the Prophet praised a man of Abd al-Qays for forbearance and del
 He tells of people who wagered that they could provoke an Arab man: they slaughtered a sheep and skinned it before him, and he stayed still (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:42:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:42:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:43:00}
 He says that they offered him a hundred camels and then named sums reaching thousands, and that the man was not provoked (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:42:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:44:30}
 He says that favour belongs to God and not to oneself (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:44:00}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh recounts that God describes what the idolaters said of the Prophet, calling him mad, a sorcerer, a soothsayer and a poet, and that the Prophet bore it patiently and did not answer in kind {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:40:00}. The Sheikh holds, as his own opinion, that people need softness of heart, that harshness towards a father, a brother or a neighbour gains nothing, and that a harsh neighbour hides good and spreads evil {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:34:30}.
+
+He recounts that Umar ibn al-Khattab kept silent towards Abbas when Abbas angered him, and that later Abbas gave his house to the House of God (needs_source: the details of the episode) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:54:00}. He says that if a neighbour does not refrain or accept counsel, one should bear with him and advise him gently {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 01:14:00}.

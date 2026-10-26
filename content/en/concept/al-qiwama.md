@@ -18,3 +18,18 @@ If discord is feared, an arbiter from each family is sent, with the aim of recon
 
 ## Not checked here
 This is a sensitive entry. No academic reading and no contrary contemporary reading is set out in these pages (needs_source). It needs Tier A review before publication.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh explains guardianship (qiwama) by spending, and says that men are favoured over women in some matters and women over men in others {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:44:00}. He holds, as his own opinion, that guardianship must be exercised with ethics and faith and not for display, and that bearing the burdens of the household is a mark of true manliness {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:45:30}.
+
+He says that guardianship is a respect for a woman's humanity, and that misunderstanding it and putting it in the wrong place is injustice {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:48:00}; he holds that a husband who understands guardianship in a balanced way does not belittle his wife's humanity {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:49:30}. He notes that a husband may err when he assumes his wife is like himself {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:37:00}.
+
+He says, as his own view, that a woman bears pregnancy and nursing and stays at home, and he cites what the Qur'an says about the male not being like the female (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:46:30}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet sourced.
+- **speaker's view (opinion)**: The Sheikh holds that guardianship is spending and bearing responsibility, exercised with ethics; that misusing it is injustice to the woman; and that a woman bears pregnancy, nursing and the home {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:44:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:45:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:46:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:48:00}.
+- **academic view: not yet sourced**: not yet sourced.
+- **other view: not yet sourced**: not yet sourced.
+:::

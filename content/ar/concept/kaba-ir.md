@@ -40,3 +40,9 @@ translators: []
 
 ## الشفاعة
 للنبي شفاعة خاصة في قوم استوجبوا النار بأعمالهم فلا يدخلونها، ويستدل أهل السنة لها بحديث «شفاعتي لأهل الكبائر من أمتي» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13181}. وقد خفي ذلك عن الخوارج والمعتزلة، بحسب قول ابن أبي العز {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13181}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يقول الشيخ إن كل ما يسوء الإنسان عاقبته في الدنيا والآخرة فهو ذنب، ومن تجاوز حدود الله فقد أذنب، صغيرا كان الذنب أو كبيرا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:04:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:04:30}. ويقول إن الكبيرة تعظم بالإصرار عليها، وإن عظم الذنب يُنظر فيه إلى من عُصي {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}.
+
+ويذكر الشيخ أن العلماء يقسمون الذنوب إلى صغيرة وكبيرة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}، ويقول إن عظم الذنب يُقدَّر بحسب من وقع في حقه، وإن المعصية في حق الله عظيمة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:08:00}.

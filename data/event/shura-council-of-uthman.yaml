@@ -1,5 +1,6 @@
 id: event/shura-council-of-uthman
 class: event
+sensitivity: contested
 kind: council
 label: { ar: "الشورى في خلافة عثمان", en: "The shura council in the caliphate of Uthman" }
 summary:
@@ -7,6 +8,6 @@ summary:
   en: "Umar made the succession a shura among six of the Prophet's Companions. Sa'd ibn Abi Waqqas and Ali spoke; Umar mentioned Talha by name and entrusted the matter to Abd al-Rahman ibn Awf {cite:tabari-tarikh-abu-al-fadl j.4 p.236}. The volume's index names 'the story of the shura' under the events of the year 23 AH {cite:tabari-tarikh-abu-al-fadl j.4 p.579}."
 date:
   start: { hijri: "0023", precision: year, status: historical, note: "فهرس الجزء الرابع (ص579)، والكلام في ص236", sources: [source/tabari-tarikh-abu-al-fadl] }
-sources: [source/tabari-tarikh-abu-al-fadl, source/sallabi-ali-vol1]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1", sources: [source/tabari-tarikh-abu-al-fadl] }
+sources: [source/tabari-tarikh-abu-al-fadl, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]
+provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1", sources: [source/tabari-tarikh-abu-al-fadl, source/assabile-omar-abdelkafy] }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan (printed page = scan page)" }

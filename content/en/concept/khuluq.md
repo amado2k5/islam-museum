@@ -17,3 +17,9 @@ He says that its aim, as God described the pious, is to give generously and to b
 He relates from Imam Ahmad that good character is not becoming angry, and in another report, bearing with what comes from people. From Ishaq ibn Rahawayh: openness of countenance and not becoming angry. He relates from some scholars: swallowing anger for God's sake, showing cheerfulness, and pardoning those who slip, except for discipline or the application of a legal penalty. {cite:ibn-rajab-jami-ulum-hikam p. 428-430}
 
 See [[concept/adab|good manners]].
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that a person is known by his character: his neighbours at home, his companions on journeys and those he deals with in the markets are where it is seen {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:05:00}. He says that the word for travel (safar) derives from unveiling (isfar), and that character shows on journeys (needs_source: the derivation) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:06:00}.
+
+The Sheikh holds, as his own opinion, that separating economics, art, poetry and literature from religion has produced discourtesy, deviation in conduct and backbiting {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:52:00}, and that the nation has lost its identity in its character and conduct {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 01:11:30}.

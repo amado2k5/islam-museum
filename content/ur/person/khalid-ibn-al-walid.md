@@ -26,3 +26,24 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## طالبِ علم کے لیے
 ابو سلیمان خالد بن الولید مخزومی ملقب بہ سیف اللہ المسلول (وفات 21 ہجری / 642 عیسوی) تاریخ کے عظیم ترین عسکری عباقرہ میں سے ایک ہیں۔ 8 ہجری میں فتح مکہ سے قبل قبولِ اسلام کیا اور غزوۂ موتہ میں بہترین تزویراتی مہارت کے مظاہرے پر نبی نے انہیں سیف اللہ کا خطاب دیا۔ فتوحاتِ عراق اور فتحِ شام میں الیرموک (15 ہجری) جیسی تاریخی معرکوں کی قیادت کی اور کبھی کوئی جنگ نہیں ہاری۔ حمص میں وفات پائی اور خلیفہ عمر کے حکمِ معزولی کو بطیبِ خاطر قبول کر کے فوجی نظم و ضبط کی اعلیٰ مثال قائم کی۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+وہ بتاتے ہیں کہ عمر بن الخطاب نے خالد کو قیادت سے ہٹایا، اور یہ کہ فتح کسی ایک سپہ سالار پر موقوف نہیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:10:30}۔
+
+وہ بیان کرتے ہیں کہ خالد نے قسم کھائی کہ اگر قلعہ فتح ہوا تو اس کے لوگوں کو قتل کریں گے، اور قیدیوں کے ایک بند کمرے میں موسیٰ بن نصیر کے والد نصیر بھی تھے (needs_source: قصہ شیخ کے بیان کے مطابق ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:07:30}۔ وہ بتاتے ہیں کہ خالد نے فارسیوں کا پانی کا راستہ بند کیا، اور ابوبکر نے انہیں حکم دیا کہ اپنا لشکر شام کی طرف لے جائیں (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:40:00}، اور صحرا کے سفر میں اونٹوں کو باری باری پانی پلایا گیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:40:30}۔
+
+وہ بیان کرتے ہیں کہ احد میں تیراندازوں نے وہ درہ چھوڑ دیا جس سے خالد نے فائدہ اٹھایا، اور پھر نبی زخمی ہوئے (needs_source: روایت خودکار نقل میں مبہم ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}۔ شیخ کہتے ہیں کہ خالد جہاد اور اسلام میں سو لڑائیوں میں شریک ہوئے اور کسی ایک میں بھی شکست نہ کھائی، اور مؤتہ کے اعداد کی تصدیق ضروری ہے (needs_source: اعداد کی تصدیق نہیں ہوئی) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:46:30}۔
+
+وہ بتاتے ہیں کہ مؤتہ میں تین بڑے قائد شہید ہوئے تو خالد کو، جو حال ہی میں مسلمان ہوئے تھے، قیادت سونپی گئی؛ انہوں نے کہا کہ وہ نئے نئے مسلمان ہیں، پھر جھنڈا اٹھا لیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:00}۔ وہ بیان کرتے ہیں کہ خالد نے رات کو لشکر کی ترتیب بدلی، پچھلے دستے کو آگے اور آگے والے کو پیچھے کیا تاکہ دشمن کو دھوکا ہو (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:30}، اور ان کی واپسی ایک منصوبے کے تحت تھی جس نے بقیہ لشکر کو بچایا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:00}۔
+
+وہ بتاتے ہیں کہ ابوبکر نے خالد کو اللہ کی مسلول تلوار کہا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}۔ وہ کہتے ہیں کہ اسلام کے بعد خالد کبھی میدان میں نہیں ہارے، اور وہ تقریباً تیس برس کے تھے جب صحابہ جوان تھے، اور اس پر زور دیتے ہیں کہ صحابہ کی زندگیوں کا مطالعہ کیا جائے (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:49:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}۔ وہ بیان کرتے ہیں کہ یرموک کی جنگ میں خالد کی ٹوپی گر گئی جس میں نبی کا ایک بال تھا، تو انہوں نے میدان اور قیادت چھوڑ کر اسے تلاش کیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:15:30}۔
+
+وہ بیان کرتے ہیں کہ خالد تقریباً اکیس برس کی عمر میں عکرمہ کے ساتھ مسلمان ہوئے اور نبی نے ان کا استقبال کیا؛ اور شیخ یہ بھی کہتے ہیں کہ خالد کے قبول اسلام کے وقت ان کی عمر تیس کے لگ بھگ تھی، اور نبی نے فرمایا کہ مکہ نے اپنے قیمتی لوگ ان کے حوالے کیے، جن میں خالد اور عکرمہ شامل تھے (needs_source: شیخ دو مختلف عمریں بتاتے ہیں) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:10:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:10:30}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (opinion)**: شیخ کے نزدیک خالد سپہ سالار تھے، محض کرائے کے سپاہی نہیں، مؤتہ سے ان کی واپسی درست تھی، اور امت کو ان کی اور صحابہ کی زندگیوں کا مطالعہ کرنا چاہیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}۔
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: شیخ بیان کرتے ہیں کہ خالد کو کرائے کا سپاہی کہا گیا، اور وہ اس لقب کو رد کرتے ہیں (needs_source: لقب شیخ کے بیان سے ہے) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}۔
+:::

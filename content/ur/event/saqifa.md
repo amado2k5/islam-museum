@@ -52,3 +52,18 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - سقیفہ کا واقعہ عمر سے ابن عباس اور ابن عوف کی سند سے آتا ہے، اور ابن اسحاق زہری سے اور وہ عروہ سے روایت کرتے ہیں؛ دونوں اسناد کے مآخذ متعدد ہیں۔ {cite:ibn-hisham-saqqa 4/307}
 - طبعہ میں ایک حاشیہ ہے جو «التغرۃ» کی تفسیر کرتا ہے کہ دونوں کے قتل کا خوف تھا کیونکہ وہ جماعت سے الگ ہو گئے تھے۔ {cite:ibn-hisham-saqqa 4/309}
 - پہلے نسخے میں «زاغت» کی جگہ «زلّت» ہے، اور حواشی میں «المرجب» کا لفظ رجبہ سے بتایا گیا ہے۔ {cite:ibn-hisham-saqqa 4/308}
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ بیان کرتے ہیں کہ نبی کی وفات کے بعد ابو بکر اور عمر سقیفہ بنی ساعدہ گئے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:08:00}۔
+
+وہ بتاتے ہیں کہ عمر نے ابو بکر کو بیعت کی دعوت دی، اور ابو بکر نے کہا کہ بیعت عمر کریں؛ ہر ایک نے دوسرے کی فضیلت کو مقدم رکھا: عمر نے کہا کہ ابو بکر ان سے بہتر ہیں، اور ابو بکر نے کہا کہ ان کی فضیلت عمر کی قوت کی وجہ سے ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 01:08:30}۔
+
+شیخ بیان کرتے ہیں کہ نبی نے ابو بکر کی طرف اشارے کیے، مگر انتخاب صحابہ پر چھوڑ دیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:34:30}۔ وہ بتاتے ہیں کہ جب انصار نے اپنے میں سے خلیفہ چاہا تو ابو بکر نے ان سے کہا کہ تم پہلے ایمان لانے والے اور آخر میں بدلنے والے نہ بنو، اور اسی لمحے معاملہ طے ہو گیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:35:00}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (Omar Abdelkafy)**: شیخ کے بیان کے مطابق نبی نے ابو بکر کی طرف اشارے کیے اور انتخاب صحابہ پر چھوڑا، اور ابو بکر کی انصار سے کہی ہوئی بات نے معاملہ پہلے لمحے میں طے کر دیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:34:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:35:00}۔
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::

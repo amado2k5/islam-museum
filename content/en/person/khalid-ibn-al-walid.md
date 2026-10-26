@@ -27,3 +27,24 @@ Khalid ibn al-Walid was a brilliant military strategist and commander renowned f
 
 ## For Scholars
 Abu Sulayman Khalid ibn al-Walid (d. 21 AH / 642 CE), celebrated as the 'Drawn Sword of God' (Sayf Allah al-Maslul), stands among the most brilliant military commanders in history. Accepting Islam in 8 AH prior to the conquest of Mecca alongside Amr ibn al-As, the Prophet bestowed his honorific title following his tactical withdrawal of the Muslim army at Mut'ah. Entrusted with key commands during the Ridda campaigns and early expeditions in Iraq and Syria, his maneuvers at the decisive Battle of Yarmouk (15 AH) demonstrated supreme strategic mastery. Undefeated in battle, he spent his final years in Homs, embodying military discipline upon accepting Caliph Umar's administrative decisions.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+He recounts that Umar ibn al-Khattab removed Khalid from command, and that victory does not depend on one commander (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:10:30}.
+
+He recounts that Khalid swore to kill the people of a fortress if it was taken, and that in a locked room of captives was Nusayr, the father of Musa ibn Nusayr (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:07:30}. He recounts that Khalid cut off the water supply of the Persians, and that Abu Bakr told him to move his forces to Syria (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:40:00}, and that on the desert crossing the camels were watered in turns (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:40:30}.
+
+He recounts that at Uhud the archers left the gap which Khalid exploited, and that the Prophet was then wounded (needs_source: the account is garbled in the automatic transcript) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}. He says Khalid entered a hundred battles in jihad and Islam without being defeated in any of them, and that the figures for Mu'ta need checking (needs_source: the figures have not been checked) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:46:30}.
+
+He recounts that after the three commanders fell at Mu'ta, Khalid, who had recently become Muslim, was chosen to lead; he said he was a recent convert, and then took up the banner (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:00}. He recounts that Khalid reorganised the army at night, moving the rear to the front to deceive the enemy (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:30}, and that his withdrawal was planned and preserved the army (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:00}.
+
+He recounts that Abu Bakr called Khalid the drawn sword of God (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}. He says Khalid was never defeated in battle after Islam, and was about thirty while the Companions were young, urging that their lives be studied (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:49:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}. He recounts that Khalid's cap, in which he kept a hair of the Prophet, fell during the battle of Yarmuk, and that he left the battle and the command to search for it (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:15:30}.
+
+He recounts that Khalid converted at about twenty-one, with Ikrima, and the Prophet welcomed them; the sheikh also says Khalid was in his thirties when he converted, and that the Prophet remarked that Mecca had given him its precious men, among them Khalid and Ikrima (needs_source: the sheikh gives two ages) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:10:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:10:30}.
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (opinion)**: Sheikh Omar Abdelkafy holds that Khalid was a commander and not a mere mercenary, that his withdrawal at Mu'ta was right, and that the community should study his life and the lives of the Companions {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: The sheikh reports that Khalid was called a mercenary, and rejects that label (needs_source: the label is reported by the speaker) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}.
+:::

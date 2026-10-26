@@ -22,3 +22,19 @@ translators: []
 
 ## في الدعوة السرية (الرحيق المختوم ص76)
 يعدّه الكتاب فيمن أسلم بدعوة [[person/abu-bakr|أبي بكر]] في سنوات [[event/al-dawa-al-sirriyya|الدعوة السرية]]، أحدَ الثمانية الذين سبقوا الناس فكانوا الرعيل الأول وطليعة الإسلام {cite:mubarakpuri-raheeq p.76} {cite:ibn-hisham-sira 1/245-262}. ويذكره الكتاب بنسبته الزهري {cite:mubarakpuri-raheeq p.76}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ سعد بن أبي وقاص في مواضع متفرقة من السلسلة. يروي أن سعدًا استحلف الناس بالله أن يُظهر من فتح النقب الذي دخل منه الجيش إلى المدائن، فلم يُعرف الرجل بعد أن فتح النقب واختفى {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:20:00}.
+
+يستشهد الشيخ برسالة عمر بن الخطاب إلى سعد في القادسية، وفيها أن المسلمين يُنصرون بطاعتهم لله ومعصية أعدائه له، وأن ذنوب الجيش أخوف عليه من عدوه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:25:00}. ويرى الشيخ، رأيًا شخصيًا، أن هذه الرسالة تدل على أن الدين يشمل كل شيء ولا ينفصل عن السياسة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:26:00}.
+
+يقول الشيخ إن سعدًا كان معروفًا بين العرب ببأسه، وإنه كان الخامس في الإسلام، وإنه أسلم على يد أبي بكر {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:40:30} (needs_source).
+
+يذكر الشيخ قيادة سعد لجيش القادسية ضمن سرد الفتوحات {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}، ويصف سعدًا وهو يصلي قبل القادسية {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:07:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:08:00}، ثم يعود إلى رسالة عمر إليه بأن النصر بطاعة الله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:13:00}.
+
+يذكر الشيخ أن النبي قال لسعد: «فداك أبي وأمي»، وأن هذه العبارة لم تُقل إلا لسعد ولرجل آخر من الصحابة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:52:00}. ويذكر أن عمر جعل سعدًا من الستة الذين يختارون الخليفة من بينهم، وهم من العشرة المبشرين بالجنة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:49:30}، وأن سعدًا تنحى عن الخلافة مع طلحة والزبير {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:51:00}.
+
+يروي الشيخ أن سعدًا في العراق دعا على رجل كان يطعن فيه أن يُري الله آية إن كان كاذبًا، فخرجت ناقة فجرّت الرجل حتى قُتل {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:40:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:40:30}. وروى كذلك أنه دعا على جارة له نشرت عليه كلامًا باطلًا، فأصابها ما دعا به ووقعت في بئر وماتت {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:30} (needs_source). ويعلّق الشيخ، رأيًا شخصيًا، بأن دعوة المظلوم لا تُرد {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:41:30}.
+
+ويتصور الشيخ، رأيًا شخصيًا، أن سعدًا لو كان في زماننا لأقام مصانع للسلاح يصنعها للمسلمين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:17:00}.

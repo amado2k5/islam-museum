@@ -34,3 +34,9 @@ When news of the defeat reached him, his wife, Umm al-Fadl, struck him with a po
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 06)
 
 The Sheikh mentions Abu Lahab as the man about whom revelation came, reports on the Prophet's tongue a complaint of being hurt through his family, and says that Abu Lahab was the Prophet's uncle and a disbeliever, yet the Prophet did not like to harm anyone (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:34:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts remarks by Abu Lahab about the Prophet, and notes that his people had known the Prophet for forty years before the mission (needs_source: the exchange is garbled in the automatic transcript, and Abu Lahab's words are not repeated here) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:12:30}.
+
+He recounts that Abu Lahab, the Prophet's uncle, confronted him sharply; the sheikh describes this as an attack made with heat, which is his own judgement, and the Prophet's reply is not clear in the automatic transcript (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:34:30}.

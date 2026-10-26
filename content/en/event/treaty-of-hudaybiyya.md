@@ -20,3 +20,13 @@ The Prophet and his companions set out for Mecca to perform Umrah, and they did 
 
 ## For Scholars
 In Dhu al-Qa'da of the sixth year after the Hijra the Prophet set out with about fourteen hundred companions to perform Umrah, seeking no war. When Quraysh blocked them at al-Hudaybiyya, talks were held through Suhayl ibn Amr and ended in a ten-year truce, with a clause that people coming from Mecca as Muslims without their guardian's permission would be returned. The Qur'an, in surat al-Fath, calls it a clear victory. The reports say some companions objected to its terms at first. This entry presents the treaty as the sources give it, and makes no judgement on what the negotiators felt.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts Suhayl ibn Amr, the orator of the Arabs, who was writing down the treaty's terms. He objected to the word "the Merciful" in the basmala, said he did not know it, and asked that it be written "in your name, O God" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:36:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:37:00}.
+
+He recounts a clause on returning people who passed from one side to the other, which he calls an unjust condition. Umar objected to it and left the tent of negotiation, while Abu Bakr stood guard at the tent {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:39:30}.
+
+He recounts that the Prophet said to Umar, "Calm down, O Umar," and Umar, not at peace, went to Abu Bakr for support {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:40:30}.
+
+He says Suhayl ibn Amr later became Muslim. He recounts that Umar had proposed, when Suhayl was a captive, that his front tooth be knocked out so that he could not stand up as an orator against the Prophet; Umar then said the Arabs need an eloquent orator, and that Suhayl might one day have a stand that would matter {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:45:30}. After the Prophet's death, he says, Suhayl preached in Mecca and brought back those who had wavered into apostasy {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:46:00}.

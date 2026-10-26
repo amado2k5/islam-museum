@@ -22,3 +22,7 @@ translators: []
 شیخ گناہوں کو دو حصوں میں تقسیم کرتے ہیں: کبائر اور صغائر، اور آنکھوں، دل، شرمگاہ اور پیٹ کے کبائر کا ذکر کرتے ہیں (شیخ کی رائے) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:21:30}۔
 شیخ کہتے ہیں کہ انسان گناہ کے چھوٹے ہونے کو نہ دیکھے، بلکہ اس ذات کی عظمت کو دیکھے جس کی نافرمانی ہوئی (شیخ کی رائے) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}۔
 شیخ کہتے ہیں کہ اصرار کے ساتھ صغیرہ صغیرہ نہیں رہتا، اور توبہ و استغفار کے ساتھ کبیرہ بھی مغفرت سے مانع نہیں ہوتا (شیخ کی رائے) (needs_source: متن کی عبارت مبہم ہے اور ریکارڈنگ سے تصدیق ضروری ہے) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:29:30}۔
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+شیخ کہتے ہیں کہ چھوٹا گناہ اصرار کے ساتھ بڑا بن جاتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}۔ وہ کہتے ہیں کہ علماء گناہوں کو چھوٹے اور بڑے میں تقسیم کرتے ہیں، اور لمم (معمولی کوتاہیاں) بڑے گناہ سے ہلکے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}۔ وہ ایک قول نقل کرتے ہیں کہ اصرار کے ساتھ کوئی گناہ چھوٹا نہیں رہتا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:07:00}۔

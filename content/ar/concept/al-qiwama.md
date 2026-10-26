@@ -18,3 +18,18 @@ translators: []
 
 ## ما لم يُعرض هنا
 هذه مادة حساسة. لم يُعرض في هذه الصفحات رأي أكاديمي ولا تفسير معاصر مخالف، ويحتاج الباب إلى مراجعة من الفئة A قبل النشر (needs_source).
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يشرح الشيخ القوامة بالإنفاق، ويقول إن الرجل مفضّل على المرأة في بعض الأمور، والمرأة مفضلة عليه في بعض الأمور أخرى {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:44:00}. ويرى، وهذا رأي شخصي له، أن القوامة تُمارَس بالخلق والدين لا بالتباهي، وأن تحمّل تبعات البيت من علامات الرجولة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:45:30}.
+
+ويقول الشيخ إن القوامة احترام لآدمية المرأة، وإن إساءة فهمها ووضعها في غير موضعها ظلم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:48:00}، ويرى أن الرجل الذي يفهم القوامة فهما متوازنا لا يحقّر إنسانية زوجته {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:49:30}. ويذكر أن الزوج قد يخطئ حين يظن أن زوجته مثله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:37:00}.
+
+ويقول الشيخ، رأيا شخصيا، إن المرأة تتحمل الحمل والإرضاع وتلزم البيت، ويستشهد بما في القرآن من أن الذكر ليس كالأنثى (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:46:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن القوامة إنفاق وتحمّل مسؤولية تُمارَس بالخلق، وأن إساءة فهمها ظلم للمرأة، وأن المرأة تتحمل الحمل والإرضاع ولزوم البيت {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:44:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:45:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:46:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:48:00}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::

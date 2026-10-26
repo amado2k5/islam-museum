@@ -27,3 +27,24 @@ translators: []
 
 ## للدارسين
 أبو سليمان خالد بن الوليد بن المغيرة المخزومي القرشي الملقب بـ«سيف الله المسلول» (توفي 21هـ / 642م)، أحد أبرز القادة العسكريين في التاريخ الإنساني قاطبة. أسلم في صفر سنة 8هـ قبيل فتح مكة مع عمرو بن العاص وعثمان بن طلحة. منحه النبي لقب سيف الله تقديراً لحنكته في إنقاذ جيش المسلمين في غزوة مؤتة (8هـ). قاد معارك كبرى في حروب الردة وفي فتوحات العراق والشام في عهدي أبي بكر وعمر، وبرزت عبقريته الفذة في معركة اليرموك الفاصلة (15هـ) ومسيره الأسطوري عبر بادية السماوة. عُرف بعدم هزيمته في معركة قط، وتوفي بحمص ضارباً مثلاً في الانضباط العسكري والطاعة حين امتثل لقرار الخليفة عمر بعزله دون تردد.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ أن عمر بن الخطاب عزله عن القيادة، وأن النصر لا يتوقف على قائد واحد (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:10:30}.
+
+ويروي الشيخ أن خالدًا أقسم على قتل أهل حصن إن فتحه، وأن غرفة مغلقة فيها أسرى كان فيها نصير والد موسى بن نصير (needs_source: القصة كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:07:30}. ويروي أن خالدًا قطع إمداد الماء عن الفرس، وأن أبا بكر أمره أن ينقل جنده إلى الشام (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:40:00}، وأنه قطع الصحراء والإبل تُسقى بالتناوب (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:40:30}.
+
+ويروي الشيخ أن الرماة في أحد تركوا الثغرة التي استغلها خالد، ثم أصيب النبي (needs_source: الرواية مشوشة) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:30}. ويذكر أن خالدًا دخل مئة معركة في الجهاد والإسلام ولم يُهزم في واحدة منها، وأن الأرقام في مؤتة تحتاج إلى مراجعة (needs_source: الأرقام لم تُراجع) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:46:30}.
+
+وينقل الشيخ أنه بعد مقتل القادة الثلاثة في مؤتة اختير خالد للقيادة، وهو حديث عهد بالإسلام، فقال إنه حديث عهد بالإسلام، ثم أخذ الراية (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:00}. ويروي أنه أعاد ترتيب الجيش ليلًا، فجعل المقدمة في المؤخرة والمؤخرة في المقدمة ليخدع العدو (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:47:30}، وأن انسحابه كان مخططًا وحفظ بقية الجيش (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:00}.
+
+ويروي الشيخ أن أبا بكر وصفه بأنه سيف الله المسلَّط (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}. ويروي أن خالدًا لم يُهزم بعد الإسلام، وأنه كان نحو الثلاثين والصحابة شباب، وأن ذلك يدعو إلى دراسة سيرتهم (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:49:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}. ويروي أن قلنسوته التي فيها شعرة من النبي سقطت في معركة اليرموك فترك القيادة ليبحث عنها (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:15:30}.
+
+ويروي الشيخ أن خالدًا أسلم وعمره نحو الحادية والعشرين، مع عكرمة، وأن النبي قال إن مكة ألقت إليه بفلذات أكبادها، ومنهم خالد وعكرمة (needs_source: الشيخ يذكر عمرًا آخر في موضع لاحق، وهو الثلاثينات) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:10:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:10:30}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن خالدًا كان قائدًا لا مرتزقًا مجرّدًا، وأن انسحابه في مؤتة كان صوابًا، وأن الأمة تحتاج إلى دراسة سيرته وسيرة الصحابة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:48:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: يذكر الشيخ أن خالدًا وُصف بالمرتزق، ويرفض الشيخ هذا الوصف (needs_source: الوصف منقول عن المتحدث) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:50:00}.
+:::

@@ -29,3 +29,15 @@ In another episode, again in a linguistic context unrelated to the Trench, the S
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 5)
 The Sheikh relates that the night at the Trench was so bitterly cold that two of the Companions wrapped themselves in a single garment, and that the Prophet said: who will cross the trench and bring me news of the enemy, without causing any incident? No one answered him (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:52:30}. He says the Prophet repeated the request, that the night was at the end of the month and the place was dark, and that the Companion crossed and Abu Sufyan passed in front of him at a very short distance (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:53:00}. He mentions that the Companion thought that Abu Sufyan was the head of the group and that killing him might end the matter, but remembered the Prophet's words not to start anything, so he held back his sword and stopped at the limits set by God (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:53:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker names the Battle of the Confederates, also called the Trench, and mentions Ghatafan in its context. He holds (speaker's view, opinion) that the present day resembles it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:14:30}.
+
+The speaker's view (opinion): Muslims today do not learn the language, the thinking or the view of others toward them. He says that at the Battle of the Confederates God sent a wind and hosts that they did not see, and the matter ended {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:15:00}.
+
+He says the Qur'an describes that battle in an extraordinary way: the believers were shaken, hearts reached the throats, until God's help came {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:15:30}.
+
+He recounts Hudhayfa ibn al-Yaman's account of a freezing night, when the Prophet asked who would go to the enemy and bring back news without starting anything. Hudhayfa rose into the dark {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:16:00}. Hudhayfa says Abu Sufyan was close to him, within a spear's thrust, and he held back because he remembered the Prophet's charge not to start anything against them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:17:00}.
+
+The speaker's view (opinion): one man's deed is better than a thousand men's speeches, and the Battle of the Confederates is a model of the Muslims' victory through "there is no god but God" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 01:00:30}.

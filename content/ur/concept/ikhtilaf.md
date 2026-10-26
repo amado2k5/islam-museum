@@ -63,3 +63,16 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **شیخ عمر عبد الکافی کی رائے (ذاتی رائے)**: شیخ کی رائے ہے کہ جس مسئلے میں اختلاف ہو وہ دوسروں پر لازم حکم نہیں بنتا، چنانچہ نہ ابو حنیفہ کی رائے لازم ہے نہ شافعی کی، اور کسی کو اس سے زیادہ کا پابند نہیں کیا جاتا جو واضح آیت سے ثابت ہو؛ وہ مزید کہتے ہیں کہ محدثین بعض احادیث کو ضعیف قرار دیتے ہیں اور عقائد کے لیے کتاب اللہ سے ثابت چیز درکار ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:27:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:28:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:28:30}۔
 - **علمی اور دیگر آراء (ابھی ماخذ شامل نہیں)**: علمی اور دیگر آراء ابھی ماخذ کے ساتھ شامل نہیں کی گئیں۔
 :::
+
+## شیخ عمر عبدالکافی کے درس سے: الدین القیم
+
+میزبان سوال کرتے ہیں کہ فقہاء کے اختلاف اور بعض کا بعض کو غلط ٹھہرانے کے معاملے کو کیسے سنبھالا جائے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:16:30}۔ شیخ اپنی ذاتی رائے کے طور پر کہتے ہیں کہ عالم کو دلیل کے ساتھ بحث کرنے کی اجازت ہے، اور بحث بذاتِ خود ممنوع نہیں، اور وہ کہتے ہیں کہ عربوں نے اپنے بچوں کو اختلاف اور مکالمے کے آداب نہیں سکھائے (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:17:00}۔
+
+شیخ یہ سوال اٹھاتے ہیں کہ کیا عراق میں مسلمانوں کی شکست کا سبب سازش ہے یا مومنین کے اندرونی اختلافات (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:39:00}۔
+
+:::perspectives
+- **Sunni view: not yet sourced**: ابھی منسوب نہیں۔
+- **speaker's view (opinion)**: شیخ کی رائے ہے کہ علماء کے اختلاف کا علاج دلیل اور مکالمے سے ہونا چاہیے، مخالف کو غلط ٹھہرانے سے نہیں، اور عالم کے لیے دلیل کے ساتھ بحث جائز ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:17:00}۔
+- **academic view: not yet sourced**: ابھی منسوب نہیں۔
+- **other view: not yet sourced**: ابھی منسوب نہیں۔
+:::

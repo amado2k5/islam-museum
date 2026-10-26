@@ -1,0 +1,29 @@
+---
+id: concept/hadaya-al-ummal
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+شیخ عمر عبدالکافی کے نزدیک سرکاری مال حاکم اور اہلکار کے ہاتھ میں امانت ہے، اور منصب کی وجہ سے تحفے قبول کرنا رشوت کے قریب ہے۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:15:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:57:30}
+
+## سرکاری مال امانت ہے
+شیخ کی رائے ہے کہ حاکم رعایا کے مال کا امین ہے، مالک نہیں، اور سرکاری مال کو کبھی لوٹا نہیں جا سکتا۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:15:30}
+وہ ایک قول کا ذکر کرتے ہیں جو نبی سے منسوب ہے کہ مالدار پرہیز کرے اور فقیر معروف کے مطابق لے (needs_source: یہ قول ریکارڈنگ میں ماخوذ نہیں)۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:15:30}
+
+## اہلکار کو دیے جانے والے تحفے
+شیخ بیان کرتے ہیں کہ ایک سرکاری اہلکار تحفے کے نام پر وہ کچھ لے سکتا ہے جو درحقیقت رشوت کی کہانیوں میں شمار ہوتا ہے۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:55:30}
+وہ بتاتے ہیں کہ انگلستان میں تحفوں کی اجازت 80 پاؤنڈ کی حد تک ہے (needs_source: یہ رقم ریکارڈنگ میں ماخوذ نہیں)، اور اس سے زیادہ کی رقم حکومت کو لوٹا دی جاتی ہے اور اہلکار اپنے پاس نہیں رکھتا۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:55:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}
+
+## شیخ کی رائے تحفوں پر (opinion)
+شیخ کی رائے (opinion): سال کے آخر میں شاگرد اپنے استادوں کو جو تحفے دیتے ہیں وہ رشوت بن سکتے ہیں اگر ان سے مقصد کسی کی طرف داری حاصل کرنا ہو۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:57:30}
+وہ یہ بھی کہتے ہیں کہ عمال کو دیے گئے تحفے غلول ہیں، اور اس قول کا ماخذ ریکارڈنگ میں نہیں (needs_source)۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:57:30}
+
+## چھپی ہوئی رشوت اور ٹیوشن
+شیخ کی رائے (opinion): والدین پر ابتزاز کے طور پر مسلط کی گئی خصوصی ٹیوشن ایک چھپی ہوئی رشوت ہے، جس میں اللہ برکت نہیں دیتا۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:07:30}
+وہ کہتے ہیں کہ رشوت سے حاصل ہونے والی آمدنی میں برکت نہیں، اور حرام کمائی صاحبِ مال کی بھلائی کو ضائع کر دیتی ہے۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:52:30}
+
+## محاسبہ اہلکاروں کا
+شیخ بیان کرتے ہیں کہ عمر بن الخطاب حج سے واپسی پر بیت المال کے ذمہ دار سے حج کے خرچ پر مشورہ کرتے تھے۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:13:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:13:30}
+وہ بتاتے ہیں کہ عمر نے ابوہریرہ کی گورنری کے دوران تجارت کی خبر کی تحقیق کی، اور ان کی براءت ثابت ہونے پر انہیں اپنے عمل پر واپس آنے کو کہا گیا۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:17:30}
+شیخ کی رائے ہے کہ اہلکاروں کے محاسبے میں نرمی انحراف کی علامت ہے۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:17:00}

@@ -32,3 +32,9 @@ He recounts that a man told the Prophet he had ten children (needs_source: the n
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
 
 The Sheikh urges a person to put himself in another's place when he sees someone weeping bitterly, for example someone dismissed from his job, and says our problem is that none of us puts himself in anyone else's place {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:28:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh describes the Prophet as compassionate towards the believers, and distinguishes compassion (ra'fa) from mercy (rahma): in his account, ra'fa is fear for the believers' hardship, and rahma is prayer for them (needs_source: the distinction) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:38:30}. He describes the believers who spend in ease and in hardship, restrain their anger and pardon people, and he notes that God loves the good-doers {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:21:00}.
+
+The Sheikh holds, as his own opinion, that the sinner relies on God's mercy, and that his hope in God's pardon can exceed his hope in his deeds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:51:30}. He says that Suhayl rejected the word "the Merciful" at the opening of the document, and compares this with the disputes of Abraham (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:37:00}.

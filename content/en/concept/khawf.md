@@ -23,3 +23,9 @@ He gives the sense of a saying whose speaker is not named in this passage (needs
 
 ## From Sheikh Omar Abdelkafy's Sharh Ketab al-Fawaed lectures (episode 5)
 The Sheikh holds that fear and hope are directed only to the One in whose hand the whole matter is, since created beings own neither harm nor benefit for themselves, and God alone disposes of everything (his view) (needs_source: he uses wording close to a verse that he does not name) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:19:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh says that fear and hope balance each other, and that good comes between them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:08:00}. He holds that a believer who feels God's presence does not fear anyone else, and that security settles within him through faith {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:12:00}.
+
+The Sheikh holds, as his own opinion, that a person who fears dismissal from work when he tries to enjoin good and forbid evil needs patience and resolve, and he counts this as a price that must be paid {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:11:00}. He says that provision comes from God, not from the employer or the spouse, so fear of losing a job is misplaced {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:23:00}.

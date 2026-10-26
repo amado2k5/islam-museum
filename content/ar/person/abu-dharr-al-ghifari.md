@@ -35,3 +35,12 @@ translators: []
 يروي الشيخ أن أبا ذر قرأ على أعرابي سورة الزلزلة حتى بلغ آخرها، فبكى الأعرابي وسأله أفلا يحاسبنا الله على وزن الذرة يوم القيامة، فأجابه بنعم (needs_source: رواية يرويها الشيخ دون مصدر في الدرس). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:21:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
 
 ويرى الشيخ أن العلم لا ينفع إلا إذا عُمل به. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:22:00}
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يروي الشيخ أن أبا ذر وأبا الدرداء اشتريا بيتًا خارج المدينة، وأن البائعة كانت امرأة نصرانية قالت له إنه يطهّر قلبه ويصلي حيث شاء (needs_source: القصة كما يرويها الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:44:30}.
+
+يصف الشيخ حدّة أبي ذر في خلاف وقع في المسجد، ويذكر لفظًا فيه إشارة إلى أصل أحد المتخاصمين يعدّه الشيخ إهانة، ولا تُنقل ألفاظه هنا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:00}. وينقل الشيخ أن النبي قال لأبي ذر إنه ضعيف في الإمارة لا في شخصيته، لما فيه من حدة وثورة (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:00}. ويرى الشيخ، وهذا رأيه، أن الحدّة في إدارة المؤسسة تُضيّعها، وأن الداعية لا يصح أن يكون عصبيًّا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:21:30}.
+
+ويصف الشيخ ماضي أبي ذر بأنه كان قاطع طريق في حياته الأولى، ويقول إن الإنسان ليس معصومًا إلا الأنبياء، ولا قداسة لأحد (needs_source: الوصف كما يرويه الشيخ) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:31:00}. وينقل قولًا في أن أبا ذر يمشي وحده ويموت وحده ويُبعث أمة وحده (needs_source: القول مروي بالمعنى دون مصدر في هذه الحلقة) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:35:30}.
+

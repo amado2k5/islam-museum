@@ -44,3 +44,19 @@ In Ramadan of the second year after the Hijra, the Muslims of Medina met Quraysh
 
 ## For Scholars
 The first major battle between the Muslims of Medina and Quraysh of Mecca, fought at the wells of Badr on Friday 17 Ramadan of the second year after the Hijra. It began as a pursuit of Abu Sufyan's caravan and ended with the defeat of the Meccan army. The sources give its details through men who took part, and their accounts differ on the numbers and the names, so each number and each name needs a source. In the sira Badr marks a turning point for the young community, and this entry gives the events only as far as the sources report them, without exaggeration.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker sets Badr out as the first of the images of victory and defeat that he compares, and makes it the starting point of his search for a single cause {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:02:00}.
+
+He gives the number of Muslims at Badr as about three hundred and thirteen, and of the people of Mecca as about a thousand (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:02:30}. He says Abu Sufyan secured the caravan by another route while Abu Jahl pressed on to Badr, and that Abu Sufyan had sent a man calling for help for the caravan {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:03:30}.
+
+He recounts pledges made at Badr. One companion told the Prophet that they would not say to him what the Children of Israel said to Moses, "go you and your Lord and fight"; they would fight with him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:04:30}.
+
+He says Gabriel descended with five thousand angels to guard the Prophet at Badr (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:09:30}.
+
+He says Umar sent four veterans of Badr as reinforcements to Amr ibn al-As in Egypt, each to be counted as a thousand, and that Umar reckoned by faith and not by numbers. The figures he gives for this are inconsistent (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:21:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:21:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:22:30}. He returns to the reckoning and says that each of the four Badr veterans was a community in himself {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:14:00}.
+
+He recounts the Prophet's dealings with Abbas after Badr, and Abbas's remark that a groan kept him awake at night. The transcript does not make clear whose groan it was (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:28:30}.
+
+In the judge's sermon that the speaker recites, "the days of Badr" are listed among the battles that the judge enumerates {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}.

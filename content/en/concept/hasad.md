@@ -30,3 +30,7 @@ The Sheikh contrasts the emotions of this world with those of the afterlife. He 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 6)
 
 The Sheikh jokes that if he became a manager his first decision would be to jail the employee who informs on colleagues to the boss, and then adds that the universe is not in a person's hands {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:24:30}. In the same jest he imagines the air tanks placed in his hands so that he rations air among his family and relatives, with the mother-in-law mentioned at the end of the scene, and then stresses that sustenance comes from God's bounty alone {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:25:30}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The Sheikh holds, as his own opinion, that many people spend their lives seeking money and rank, and in resentment and envy of others, instead of asking what they have given to God's cause {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:13:30}. He says that the story of Qarun repeats throughout history, since people today look at the world's billionaires and wish for what they have been given {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:15:00}.

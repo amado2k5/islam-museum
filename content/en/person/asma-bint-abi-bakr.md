@@ -15,3 +15,11 @@ She brought the Prophet and her father their provisions when they set out from t
 
 ## Afterwards
 She lived until her son Abdullah ibn al-Zubayr was killed in 73 AH, and died after him, past a hundred on the well-known account {cite:tabaqat-ibn-sad}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that Asma bint Abi Bakr, about twelve years old, stood before her father, who struck her (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:13:00}.
+
+He recounts that Hajjaj crucified her son Abdullah ibn al-Zubayr for three days in the heat of Mecca (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:17:30}.
+
+Sheikh Omar Abdelkafy holds, as his own opinion, that children should be raised on the heritage of their forebears, and he names the family of al-Qa'qa' ibn Amr, calling Asma their grandmother {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:00}.

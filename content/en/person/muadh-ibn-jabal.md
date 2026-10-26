@@ -23,3 +23,9 @@ The Prophet sent Mu'adh, while he was still young, to teach a whole country. His
 
 ## In Ibn Hisham's Sira
 The Prophet's letter to the kings of Himyar names him as the commander of its envoys to them: "Their commander is Mu'adh ibn Jabal, and he shall not return except content" {cite:ibn-hisham-saqqa 4/236}. Ibn Ishaq relates, on the authority of Abdullah ibn Abi Bakr, the Prophet's instruction to him when he sent him: make things easy and do not make them hard; give good news and do not drive people away; and the answer to give the People of the Book when they ask about the key to Paradise. See [[event/mission-of-muadh-to-yemen|Mu'adh's mission to Yemen]] {cite:ibn-hisham-saqqa 4/237}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts that the Prophet described Mu'adh as filled with faith to the marrow of his heart {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:07:00}.
+
+He recounts that Mu'adh, on returning from Persia, bowed before the Prophet, and Sheikh Omar Abdelkafy holds, as his own opinion, that only God is to be bowed to, which is the dignity of the believer {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:08:30}.

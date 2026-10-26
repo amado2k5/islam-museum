@@ -47,3 +47,9 @@ translators: []
 ويقول إن حقيقة التوكل اعتماد القلب على الله وحده، فلا يضره مباشرة الأسباب ما دام القلب لا يركن إليها {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:21:00}.
 
 ويقول إنه لا ينبغي الاتكال على إنسان قد يموت أو يغيب أو ينسى، وإنما على الله الباقي الذي لا يفنى، ويستشهد بآية لم يسمّها {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep03 01:02:30}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يقول الشيخ إن أفضل حال المرء في الفرج إذا يئس من الأسباب الدنيوية وسلّم أمره لله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:10:30}. ويذكر أن عمر بن الخطاب نام تحت النخل آمنا مطمئنا، ويعدّ ذلك علامة على ثقته بالله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:52:00}.
+
+ويرى الشيخ أن زيادة يقين العبد بربه تجعله يأخذ بالأسباب ولا يتعلق قلبه بها (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 01:17:00}. ويرى، وهذا رأي شخصي له، أن الدعاء وحده لا يكفي، وأن على العبد أن يبدأ بالفعل والأخذ بالأسباب {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:25:00}.

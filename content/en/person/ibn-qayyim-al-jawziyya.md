@@ -18,3 +18,11 @@ He is counted among the teachers of [[person/ibn-rajab|Ibn Rajab]]. {cite:ibn-ra
 The Sheikh explains that the nisba al-Jawziyya comes from a city of that name, and that Ibn al-Qayyim's father was its custodian (qayyim), which is why he was known as Ibn al-Qayyim (the Sheikh's explanation; needs_source: no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:03:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:04:00}
 
 The Sheikh holds that the choice fell on Ibn al-Qayyim's book al-Fawa'id because of its influence on the souls of many readers, the Sheikh among them. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:25:00}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy says that neglecting the obligations loses the voluntary acts, which are the cause of the servant's love for his Lord, and he attributes to Ibn al-Qayyim a saying on this (needs_source: the attribution is as the sheikh gives it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:10:30}. He recounts from Ibn al-Qayyim that the road back to the Paradise from which humanity was expelled passes through the valley of those who pray at night (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:11:00}.
+
+He recounts that Ibn al-Qayyim described his teacher Ibn Taymiyya as one who subdued his desire until desire no longer ruled him (needs_source: the description is paraphrased) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 01:13:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:39:00}.
+
+He recounts that when Ibn al-Qayyim was asked how one can know that a speech is true, he answered that truth has a radiance of its own (needs_source: the answer as the sheikh gives it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:47:00}.

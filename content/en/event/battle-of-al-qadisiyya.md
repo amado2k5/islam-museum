@@ -19,3 +19,15 @@ The account mentions the dispatch of al-Mughira ibn Shu'ba to Rustam, and then o
 al-Mas'udi named its days and nights: the day of Aghwath, the night of al-Harir, the night of al-Sawad, the day of 'Amas, and the night of al-Qadisiyya. {cite:muruj-al-dhahab p.609-613}
 
 It needs an additional source for the numbers of the two armies and the names of the slayers.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts Umar's letter to Sa'd at Qadisiyya: the Muslims are given victory through their obedience to God and their enemy's disobedience, and if both sides are equal in disobedience, the enemy prevails by numbers and arms {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:13:00}.
+
+He says that the sins of an army are more to be feared for it than its enemy {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:25:30}. The speaker's view (opinion): religion does not separate from politics, religion covers everything, and Umar's letter to Sa'd expresses this principle {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:26:00}.
+
+He recounts Sa'd ibn Abi Waqqas praying before Qadisiyya, and the story of the companion Sawad ibn Abdullah, whom the Prophet struck on the back with a stick while straightening the rows, and who spoke to him about it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:08:00}.
+
+In the judge's sermon as the speaker recites it, Qadisiyya is listed among the battles, under Sa'd's command {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}.
+
+He recalls that Abu Lu'lu'a passed Persian captives in the days of Qadisiyya, in the context of his account of Umar's death (partly unclear) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}.

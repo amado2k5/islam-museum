@@ -25,3 +25,20 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يعرض الشيخ باب الحدود بوصفه القانون الذي يُطبَّق على من خرج عن منهج الله، وقد جاء ليضبط حياة الإنسان {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:24:30}. ويطرح المقدّم في البرنامج أسئلة عما في الحدود من قسوة، كالرجم والجلد وقطع اليد، وهل تضبط هذه الحدود إيقاع الحياة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:28:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:28:30}، وهذه الأسئلة للمقدّم لا للشيخ.
+
+يرى الشيخ أن إقامة حدٍّ واحد في الأرض أنفع للأمة من أن ينزل عليها مطر طويل، ويضرب مثلا براتب سرقه لص من جيب صاحبه في الطريق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:00}. ويفرّق بين سارق صغير ومن يسرق المال العام أو يرتشي، ويذكر خبرا عن الحسن البصري مع أحد الولاة (needs_source: تفاصيل الخبر) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
+
+ويقول الشيخ إن القصاص فيه حياة، لأن من يعلم أنه سيُقتص منه يزدجر عن القتل، وإن من ينوي السرقة يعلم أن يده ستُقطع فيُردع {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:30:00}. وينقل قول «من أمن العقاب لم يحسن العمل» {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:31:00}.
+
+ويرى الشيخ أنه لا بد من تهيئة المناخ والبيئة قبل إقامة الحدود، فلا تبدأ بالحدود قبل أن يفهم الناس ما هو القانون، ويذكر أن بعض النقاد يعترضون عليها بحجج تتصل بحقوق الإنسان (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:32:00}. ويستشهد بقصة ماعز والمرأة الغامدية، اللذين اعترفا عند النبي ثم أُقيم عليهما الحد {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:33:00}.
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (opinion)**: يرى الشيخ أن الحدود تحفظ الحقوق والحياة بالردع، وأنها لا تُطبَّق قبل تهيئة المجتمع وبيان القانون للناس {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:30:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:32:00}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::
