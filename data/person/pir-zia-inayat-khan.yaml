@@ -1,0 +1,39 @@
+id: person/pir-zia-inayat-khan
+class: person
+label: { ar: "ضياء عنايت خان", en: "Zia Inayat Khan", ur: "ضیاء عنایت خان" }
+names:
+  - { value: "Zia Inayat Khan", kind: full }
+  - { value: "Pir Zia Inayat Khan", kind: alternate }
+  - { value: "ضياء عنايت خان", kind: full }
+gender: male
+summary:
+  ar: "عالم ومعلّم للتصوف (مواليد 1971)، وُلد في نوفاتو بكاليفورنيا؛ ابن ولاية عنايت خان وحفيد عنايت خان مؤسس الطريقة في الغرب، أُكّد خليفةً روحيًا لوالده سنة 2001 فصار رئيس الطريقة العنايتية، وأسّس أكاديمية سلوك للدراسات التأملية، وله كتب في التصوف منها «فرسان سراسان» و«قافلة الأرواح» و«مياه مختلطة»."
+  en: "Scholar and teacher of Sufism (born 1971) in Novato, California. A son of Vilayat Inayat Khan and grandson of Inayat Khan, founder of the order in the West, he was confirmed as his father's spiritual successor in 2001 and heads the Inayatiyya; he founded Suluk Academy, a school of contemplative study, and his Sufi books include Saracen Chivalry, Caravan of Souls and Mingled Waters."
+  ur: "تصوف کے عالم اور استاد (پیدائش 1971)، نوواٹو، کیلیفورنیا میں پیدا ہوئے؛ ولایت عنایت خان کے بیٹے اور عنایت خان کے پوتے، 2001 میں اپنے والد کے روحانی جانشین مقرر ہوئے اور عنایتی سلسلے کے سربراہ ہیں، انھوں نے سلک اکیڈمی قائم کی اور ان کی صوفی کتب میں «کاروانِ ارواح» شامل ہے۔"
+roles: [mystic, teacher, writer]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1971"
+  hijri: "1391"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1971 in Novato, California (English and Arabic articles' texts and the English infobox; Wikidata gives the year only). Novato has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar, source/wikidata-pir-zia-inayat-khan]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two article texts name his Sufi affiliation personally, beyond his succession to his father, which is office and is not relied on. The English lead calls him a scholar and teacher of Sufism in the lineage of his grandfather Inayat Khan, and its biography records that his father instructed him in meditation and spiritual retreat. The Arabic lead likewise calls him a scholar and teacher of Sufism (tasawwuf) in his grandfather's lineage. His presidency of the Inayatiyya, to which he was confirmed as spiritual successor in 2001, is recorded as his work, not as the basis of this segment. Wikidata carries no religion value for him; the English infobox's religion and order fields are one infobox and are not relied on."
+    sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar]
+relations:
+  - { type: child_of, target: person/vilayat-inayat-khan, sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar, source/wikidata-pir-zia-inayat-khan] }
+external_ids: { wikidata: "Q2477253" }
+sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar, source/wikidata-pir-zia-inayat-khan]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Zia Inayat Khan, each fetched by its recorded revision id (EN 1333148756, AR 75831454) with the returned id asserted equal before use, and Wikidata item Q2477253 (revision 2528207784). No Urdu Wikipedia article exists for him; the Urdu prose is written from the English and Arabic sources. Existence checks by name fragments (Pir Zia, Zia Inayat Khan, ضياء عنايت) and by QID across data/person and data/source found no prior record. He is a son of Vilayat Inayat Khan, built in wave 59; the child_of edge is written here, in the child's record, once. A successor_of edge is not written: the lane's pattern records for his father and for Idris of Libya likewise record succession in prose only. The lane queue gives 1971–living; the sources agree."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

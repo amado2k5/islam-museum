@@ -1,0 +1,48 @@
+id: person/nazim-al-haqqani
+class: person
+label: { ar: "محمد ناظم الحقاني", en: "Nazim Al-Haqqani", ur: "محمد ناظم حقانی" }
+names:
+  - { value: "Muhammad Nazim Adil al-Qubrusi al-Haqqani", kind: full }
+  - { value: "Mehmet Nâzım Âdil", kind: alternate }
+  - { value: "Nazim al-Qubrusi", kind: alternate }
+  - { value: "Shaykh Nazim", kind: alternate }
+  - { value: "محمد ناظم عادل القبرصي الحقاني النقشبندي", kind: full }
+gender: male
+summary:
+  ar: "قائد صوفي تركي قبرصي (1922–2014)، شيخ الفرع الحقاني من الطريقة النقشبندية؛ وُلد في لارنكا بقبرص، ودرس الهندسة الكيميائية والشريعة في إسطنبول، وبُويع في النقشبندية وتدرّب على يد عبد الله الفائز الداغستاني حتى صار مرشده الرئيس، وبعد وفاة مرشده سنة 1973 عُدّ خليفته، فانتشرت دعوته في أوروبا الغربية وأمريكا الشمالية، وتوفي في نيقوسيا الشمالية ودُفن في لفكه."
+  en: "Turkish Cypriot Sufi leader (1922–2014), Grand Shaykh of the Haqqani branch of the Naqshbandi order. Born in Larnaca, Cyprus, he studied chemical engineering and sharia in Istanbul, was initiated into the Naqshbandi order and trained under Abdullah al-Faiz ad-Daghistani, his principal guide; after his guide's death in 1973 he was regarded as his successor, and his teaching spread through Western Europe and North America. He died in North Nicosia and was buried at Lefke."
+  ur: "ترک قبرصی صوفی رہنما (1922–2014)، سلسلہ نقشبندیہ کی حقانی شاخ کے شیخ؛ لارنکا میں پیدا ہوئے، استنبول میں کیمیائی انجینئرنگ اور شریعت پڑھی، عبد اللہ الفائز داغستانی سے بیعت و تربیت پائی، 1973 میں ان کے جانشین مانے گئے، وفات شمالی نیکوسیا میں ہوئی اور لفکے میں دفن ہوئے۔"
+roles: [mystic, scholar, teacher]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1922-04-21"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article and Wikidata give 21 April 1922 at Larnaca, Cyprus, and are followed. The Arabic and Urdu articles give 23 April 1922, the Arabic pairing the day with 26 Sha'ban 1340 AH; the tabular conversion of 26 Sha'ban 1340 is 24 April 1922, so the Arabic pairing is internally inconsistent. All witnesses agree on the year and on Larnaca. Larnaca has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-nazim-al-haqqani-en, source/wikipedia-nazim-al-haqqani-ar, source/wikipedia-nazim-al-haqqani-ur, source/wikidata-nazim-al-haqqani]
+died:
+  edtf: "2014-05-07"
+  hijri: "1435"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 7 May 2014 at the Near East University Hospital in North Nicosia, where he had been admitted from his home in Lefke (English article, whose own Hijri correspondence for the day is 8 Rajab 1435; the tabular conversion is 7 Rajab). He is buried at his dergah in Lefke, Cyprus. Nicosia and Lefke have no place entities, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-nazim-al-haqqani-en, source/wikidata-nazim-al-haqqani]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent article texts name his Sufi affiliation personally, in the Idris Senussi pattern of membership stated in text rather than office alone. The English text states that he was initiated in the Naqshbandi Sufi order by Sulayman Arzarumi and trained in Damascus under Abdullah ad-Daghistani, who became his principal murshid (spiritual guide), and its lead calls him a Sufi Muslim leader and Grand Shaykh of the Haqqani branch. The Arabic text states personally that he received the Qadiri order from his father and the Mawlawi order from his maternal grandfather, calls him one of the authorities of Naqshbandi Sufism, and narrates his taking the principles of the path from ad-Daghistani; the Urdu text agrees. No sunni or sunni-hanafi segment is recorded: Sunni denomination and Hanafi jurisprudence appear only in the English infobox, and one infobox never counts; Wikidata gives his religion as Sufism and Islam."
+    sources: [source/wikipedia-nazim-al-haqqani-en, source/wikipedia-nazim-al-haqqani-ar, source/wikipedia-nazim-al-haqqani-ur]
+external_ids: { wikidata: "Q1275426" }
+sources: [source/wikipedia-nazim-al-haqqani-en, source/wikipedia-nazim-al-haqqani-ar, source/wikipedia-nazim-al-haqqani-ur, source/wikidata-nazim-al-haqqani]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Nazim Al-Haqqani, each fetched by its recorded revision id (EN 1381916390, AR 71032250, UR 12109753) with the returned id asserted equal before use, and Wikidata item Q1275426 (revision 2554347805). Existence checks by name fragments (Nazim, al-Haqqani, al-Qubrusi, Kıbrısî, ناظم الحقاني) and by QID across data/person and data/source found no prior record for him; the existing records haqqani-mehmed-bey, nazim-mustafa-efendi and nazim-poet are different, earlier people. No relations are written: his teachers Abdullah ad-Daghistani and Jamal al-Din al-Alsuni have no records, and Larnaca, Nicosia and Lefke have no place entities; place/qubrus is a classical-era island entity and no person record uses it. The lane queue gives 1922–2014; the sources agree on the years, with the birth day contested between 21 and 23 April and recorded as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
