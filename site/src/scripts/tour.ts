@@ -1621,14 +1621,14 @@ function init(
       ? { x0: -G_W / 2, z0: -G_D / 2, w: G_W, h: G_D }
       : { x0: -HALL_R - 1, z0: -HALL_R - 1, w: 2 * HALL_R + 2, h: 2 * HALL_R + 2 };
   }
-  function mapMark(x: number, z: number, text: string, name: string, current: boolean, act: () => void): void {
+  function mapMark(x: number, z: number, text: string, name: string, key: string, act: () => void): void {
     const b = mapBox();
     const el = document.createElement("button");
     el.type = "button";
     el.className = "mk";
     el.textContent = text;
     if (name !== text) el.setAttribute("aria-label", name);
-    if (current) el.setAttribute("aria-current", "location");
+    el.dataset.k = key;
     el.style.left = `${((x - b.x0) / b.w) * 100}%`;
     el.style.top = `${((z - b.z0) / b.h) * 100}%`;
     el.addEventListener("click", () => {
@@ -1665,23 +1665,36 @@ function init(
       `<g fill="rgba(30,44,74,.6)" stroke="#d4a017" stroke-width="0.3">${shape}</g>` +
       `<g data-dot><circle r="1" fill="#f5d67b" stroke="#0d1b2e" stroke-width="0.3"/>` +
       `<path d="M0 -2.8 L1 -1 L-1 -1 Z" fill="#f5d67b"/></g></svg>`;
-    let here = "";
     if (gal) {
-      const cur = curStop();
       EXHIBITS.forEach((ex, i) =>
-        mapMark(ex.x, -2, numFmt.format(i + 1), stopName(i), ex === cur, () => placeAtStop(i))
+        mapMark(ex.x, -2, numFmt.format(i + 1), stopName(i), ex.id, () => placeAtStop(i))
       );
       const back = t.gallery_back || "";
-      mapMark(0, G_D / 2 - 2, back, back, false, () => setScene("hall"));
-      here = cur ? stopName(EXHIBITS.indexOf(cur)) : locEl.textContent || "";
+      mapMark(0, G_D / 2 - 2, back, back, "back", () => setScene("hall"));
     } else {
       WINGS.forEach((w, i) =>
-        mapMark(hallWps[i].x, hallWps[i].z, wingTitle(w.id), doorName(w), w === nearDoor, () => jumpTo(hallWps[i]))
+        mapMark(hallWps[i].x, hallWps[i].z, wingTitle(w.id), doorName(w), w.id, () => jumpTo(hallWps[i]))
       );
-      here = nearDoor ? doorName(nearDoor) : t.loc_hall || "";
     }
-    $("#mapHere").textContent = (t.map_here || "{place}").replace("{place}", here);
+    syncMap();
     updateMapDot();
+  }
+  // Keep the location line and the current marker in step as you move.
+  function syncMap(): void {
+    const cur = player.scene === "hall" ? nearDoor : curStop();
+    mapPlan.querySelectorAll<HTMLButtonElement>(".mk").forEach((b) => {
+      if (cur && b.dataset.k === cur.id) b.setAttribute("aria-current", "location");
+      else b.removeAttribute("aria-current");
+    });
+    const here =
+      player.scene === "gallery"
+        ? nearEx
+          ? stopName(EXHIBITS.indexOf(nearEx))
+          : locEl.textContent || ""
+        : nearDoor
+          ? doorName(nearDoor)
+          : t.loc_hall || "";
+    $("#mapHere").textContent = (t.map_here || "{place}").replace("{place}", here);
   }
   function openMap(): void {
     if (player.scene === "journey") return;
@@ -1748,6 +1761,7 @@ function init(
       if (cur && b.dataset.k === cur) b.setAttribute("aria-current", "location");
       else b.removeAttribute("aria-current");
     });
+    if (mapPanel.classList.contains("show")) syncMap();
   }
   listen(stripToggle, "click", (() => {
     const open = stripItems.hidden;
