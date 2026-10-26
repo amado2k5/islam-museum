@@ -40,9 +40,9 @@ export const BUDGETS: Budget[] = [
   { family: "weekly sheet", route: "/ar/learn/parents/weekly/", html: 260 * KB, js: 8 * KB },
   // E3 step 1: the classroom quiz. Calibrated 24 October 2026 from the first build with the page (113.1 KB HTML, the shared
   // BaseLayout alone is about 92 KB); the plan §3 ceiling of 80 KB cannot be met with the shared layout (the parent hub is
-  // 86.9 KB under the same layout). Recalibrated 25 October 2026 to 128 KB: shared chrome grew (accessibility preferences
-  // menu, easy-read link, other lanes' header/footer work) and the page measured 120.9 KB, still a hard ceiling.
-  { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 128 * KB, js: 15 * KB },
+  // 86.9 KB under the same layout). 25 October 2026: shared chrome was slimmed (compact preferences menu markup,
+  // minified prefs script) so the original 120 KB ceiling is kept per the never-raise-the-budget rule.
+  { family: "classroom quiz", route: "/ar/learn/teachers/quiz/g11-chw3m-rise-of-islam/", html: 120 * KB, js: 15 * KB },
   // E3 step 2: the daily challenge (Century Challenge, five rounds a day) at the child-activity ceiling of plan §3
   { family: "daily challenge", route: "/ar/learn/daily/", html: 120 * KB, js: 12 * KB },
   { family: "listing", route: "/ar/learn/facts/", html: 600 * KB, js: 10 * KB },
