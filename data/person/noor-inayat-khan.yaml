@@ -1,0 +1,49 @@
+id: person/noor-inayat-khan
+class: person
+label: { ar: "نور النساء عنايت خان", en: "Noor Inayat Khan", ur: "نور النساء" }
+names:
+  - { value: "Noor-un-Nisa Inayat Khan", kind: full }
+  - { value: "نور النساء عنايت خان", kind: full }
+  - { value: "Nora Baker", kind: alternate }
+  - { value: "Madeleine", kind: alternate }
+gender: female
+summary:
+  ar: "كاتبة بريطانية هندية وعميلة في منظمة العمليات الخاصة البريطانية خلال الحرب العالمية الثانية (1914–1944)، وُلدت في موسكو ونشأت في لندن وسوريسن قرب باريس؛ أول مشغّلة لاسلكي تُرسل إلى فرنسا المحتلة، اعتُقلت وأُعدمت في معسكر داخاو، ومُنحت بعد وفاتها وسام صليب جورج وصليب الحرب الفرنسي."
+  en: "British-Indian writer and agent of the Special Operations Executive in the Second World War (1914–1944), born in Moscow and raised in London and Suresnes near Paris. The first female wireless operator sent into occupied France, she was captured and executed at Dachau concentration camp, and was posthumously awarded the George Cross and the French Croix de Guerre."
+  ur: "برطانوی ہندوستانی مصنفہ اور دوسری جنگ عظیم میں برطانوی اسپیشل آپریشنز ایگزیکٹو کی ایجنٹ (1914–1944)، ماسکو میں پیدا ہوئیں اور لندن و پیرس کے قریب سریسنیس میں پلی بڑھیں؛ مقبوضہ فرانس بھیجی جانے والی پہلی خاتون وائرلیس آپریٹر، گرفتار ہو کر داخاؤ کیمپ میں قتل کی گئیں اور بعد از وفات جارج کراس اور فرانسیسی صلیبِ جنگ سے نوازی گئیں۔"
+roles: [writer, poet]
+wings: [people]
+regions: [andalus-europe]
+born:
+  edtf: "1914-01-01"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 January 1914 in Moscow, Russian Empire (all three articles and Wikidata). Moscow has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikidata-noor-inayat-khan]
+died:
+  edtf: "1944-09-13"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Executed at Dachau concentration camp on 13 September 1944 (English and Arabic articles; the Arabic article's categories give the Hijri year 1363). Dachau has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikidata-noor-inayat-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Attested as a Muslim personally, but no source names a school or tradition for her personally, so no faith value can be recorded. The Arabic text's lead calls her personally a Muslim; the Urdu text describes her London memorial as the first in England for a Muslim woman; the English text cites press headlines (the Guardian, Sky News, NPR) calling her a Muslim heroine. Sufi is attached to her only in category filings (British Sufis, Inayati Sufis, Sufi poets) and in the subtitle of Arthur Magida's 2021 biography, A Sufi Spy — filings and one book subtitle are not two text attestations. Her upbringing in her father's Sufi household, including the nonviolence teaching she and her brother discussed, is family background and formation, which never attests; Wikidata's religion value is Islam only, without a branch."
+    sources: [source/wikipedia-noor-inayat-khan-ar, source/wikipedia-noor-inayat-khan-ur, source/wikipedia-noor-inayat-khan-en, source/wikidata-noor-inayat-khan]
+relations:
+  - { type: child_of, target: person/hazrat-inayat-khan, sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikidata-noor-inayat-khan] }
+external_ids: { wikidata: "Q464957" }
+sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikipedia-noor-inayat-khan-ur, source/wikidata-noor-inayat-khan]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Noor Inayat Khan, each fetched by its recorded revision id (EN 1382074574, AR 75475651, UR 11800229) with the returned id asserted equal before use, and Wikidata item Q464957 (revision 2557302300). Existence checks by name fragments (Noor Inayat Khan, نور النساء, نور عنایت) and by QID across data/person and data/source found no prior record. She is a daughter of Hazrat Inayat Khan, built in this same wave; the child_of edge is written here, in the child's record, once. The lane queue gives 1914–1944; the sources agree."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
