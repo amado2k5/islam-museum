@@ -29,3 +29,12 @@ Ibn Ishaq gives this clan in the lists of the Abyssinian emigrants by its lineag
 
 ## Among the allies at Hilf al-Fudul (al-Raheeq al-Makhtum, p. 60)
 Al-Raheeq al-Makhtum counts this clan among the "allies" against whom a man of Zubayd (al-Zubaydi) sought redress when [[person/al-as-ibn-wail|al-As ibn Wa'il]] withheld his right. They were Abd al-Dar, Makhzum, Jumah, Sahm and Adi, and they paid him no heed. That was the cause of [[event/hilf-al-fudul|the Pact of al-Fudul]], which Banu Hashim, Banu al-Muttalib, Asad, Zuhra and Taym formed {cite:mubarakpuri-raheeq p.60} {cite:mukhtasar-sirat-al-rasul-al-najdi p.30-31}.
+
+## For Sprouts
+Banu Sahm is a Quraysh clan descended from Sahm ibn Amr ibn Husays ibn Ka'b; among its Abyssinia emigrants was Abdullah ibn Hudhafa al-Sahmi, the Prophet's envoy to Khusraw.
+
+## For Explorers
+Banu Sahm ibn Amr ibn Husays ibn Ka'b, a Quraysh clan Ibn Ishaq lists in the Abyssinia emigration rolls. Carried on the two ships: Mahmiyya ibn al-Jaz; and among the rest of the emigrants: Abdullah ibn al-Harith the poet, Qays ibn Hudhafa, Abu Qays ibn al-Harith, Abdullah ibn Hudhafa al-Sahmi, al-Harith ibn al-Harith al-Sahmi and Ma'mar ibn al-Harith al-Sahmi — among them Abdullah ibn Hudhafa, whom the Prophet sent with his letter to Khusraw of Persia.
+
+## For Scholars
+Banu Sahm ibn Amr ibn Husays ibn Ka'b, a Quraysh clan Ibn Ishaq lists in the Abyssinia emigration rolls by its line 'Sahm ibn Amr ibn Husays ibn Ka'b'. Carried on the two ships: Mahmiyya ibn al-Jaz. Among the rest of the Abyssinia emigrants: Abdullah ibn al-Harith the poet, Qays ibn Hudhafa, Abu Qays ibn al-Harith, Abdullah ibn Hudhafa al-Sahmi, al-Harith ibn al-Harith al-Sahmi and Ma'mar ibn al-Harith al-Sahmi — and of this clan is Abdullah ibn Hudhafa, whom the Prophet sent with his letter to Khusraw of Persia.

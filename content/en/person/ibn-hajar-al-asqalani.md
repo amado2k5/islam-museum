@@ -13,3 +13,12 @@ Al-Suyuti says that he composed his well-known poem in praise of the caliph al-M
 
 ## His works
 Haji Khalifa attributes to him [[work/ilam-bi-man-wala-misr|Al-I'lam bi-man Wali Misr]] (Informing about Those Who Governed Egypt), [[work/raf-al-isr-qudat-misr|Raf' al-Isr 'an Qudat Misr]] (Lifting the Burden from the Judges of Egypt) and [[work/al-isaba-fi-tamyiz-al-sahaba|al-Isaba fi Tamyiz al-Sahaba]] (The Hit: Distinguishing the Companions). {cite:kashf-zunun-furqan}
+
+## For Sprouts
+Al-Hafiz Shaykh al-Islam Ahmad ibn Ali Ibn Hajar al-Asqalani, author of 'Inba al-Ghumr'. He composed his famous poem praising the caliph al-Musta'in on his accession, and died in the days of al-Mustakfi II.
+
+## For Explorers
+Al-Hafiz Shaykh al-Islam Ahmad ibn Ali Ibn Hajar al-Asqalani, author of 'Inba al-Ghumr'. Al-Suyuti records that he composed his famous poem praising the caliph al-Musta'in on his accession to the sultanate, and al-Suyuti relied on him for events down to 850 AH; he died in the days of al-Mustakfi II. Hajji Khalifa attributes to him 'al-I'lam bi-man Wala Misr' (the rulers of Egypt), 'Raf' al-Isr an Qudat Misr' (its judges), and 'al-Isaba fi Tamyiz al-Sahaba' (distinguishing the Companions).
+
+## For Scholars
+Al-Hafiz Shaykh al-Islam Ahmad ibn Ali Ibn Hajar al-Asqalani, author of 'Inba al-Ghumr'. Al-Suyuti records that he composed his famous poem praising the caliph al-Musta'in on his accession to the sultanate, and al-Suyuti relied on him for events down to 850 AH; he died in the days of al-Mustakfi II. Hajji Khalifa attributes to him 'al-I'lam bi-man Wala Misr' (the rulers of Egypt), 'Raf' al-Isr an Qudat Misr' (its judges), and 'al-Isaba fi Tamyiz al-Sahaba' (distinguishing the Companions).

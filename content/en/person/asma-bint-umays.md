@@ -27,3 +27,12 @@ Asma daughter of Umays was among the early Muslim women. She emigrated with her 
 - The statement "it is said that she embraced Islam before the House of al-Arqam" is given by al-Dhahabi in the hedged form; it is recorded as a report.
 - Ibn Sa'd, al-Isti'ab and al-Isaba are mentioned in al-Dhahabi's footnote to the entry; their texts have not yet been compared.
 - The date of the emigration to Medina as "the seventh year" is given on al-Dhahabi's authority; a second source is needed before it is relied on.
+
+## For Sprouts
+Asma bint Umays al-Khat'amiyya, Umm Abd Allah, among the first women emigrants; she emigrated to Abyssinia with her husband Ja'far ibn Abi Talib, then married Abu Bakr al-Siddiq after him, then Ali ibn Abi Talib.
+
+## For Explorers
+Asma bint Umays al-Khat'amiyya, Umm Abd Allah, among the first women emigrants. It is said she entered Islam before the Prophet entered Dar al-Arqam, and her husband Ja'far ibn Abi Talib emigrated with her to Abyssinia where she bore him Abd Allah, Muhammad and Awn; when she emigrated to Medina in year seven Ja'far had fallen at Mu'ta. She told Umar — when he said 'O Abyssinian, we outdid you in the Hijra' — the sense that the Abyssinia emigrants had been with the Prophet feeding their hungry and teaching their ignorant, and reported it to the Prophet, who said 'the people have one hijra; you have two'. She bore Muhammad ibn Abi Bakr at Dhu al-Hulayfa on the way to the Farewell Pilgrimage, and on the Prophet's ruling was told to bathe and enter ihram. After Ja'far she married Abu Bakr al-Siddiq then Ali ibn Abi Talib.
+
+## For Scholars
+Asma bint Umays al-Khat'amiyya, Umm Abd Allah, among the first women emigrants; it is said she entered Islam before the Prophet entered Dar al-Arqam, and her husband Ja'far ibn Abi Talib emigrated with her to Abyssinia where she bore him Abd Allah, Muhammad and Awn, and when she emigrated to Medina in year seven Ja'far had fallen at Mu'ta. She told Umar ibn al-Khattab — when he said 'O Abyssinian, we outdid you in the Hijra' — the sense that the emigrants to Abyssinia had been with the Prophet feeding their hungry and teaching their ignorant, and reported it to the Prophet, who said 'the people have one hijra; you have two'. She bore Muhammad ibn Abi Bakr at Dhu al-Hulayfa while they intended the Farewell Pilgrimage, and Abu Bakr told her to bathe then enter ihram for the Hajj after asking the Prophet, who had so ordered her. After Ja'far she married Abu Bakr al-Siddiq then Ali ibn Abi Talib.

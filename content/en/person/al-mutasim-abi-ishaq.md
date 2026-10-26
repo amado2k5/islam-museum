@@ -25,3 +25,12 @@ He gathered Turks and bought them until they reached four thousand. When they ha
 
 ## His death
 He died on the Tigris in his palace known as al-Khaqani on Thursday, eighteen nights before the end of Rabi al-Awwal 227 AH, at the age of forty-eight. He was born in al-Khuld in Baghdad in 180 AH. {cite:muruj-al-dhahab p. 453}
+
+## For Sprouts
+Al-Mu'tasim Billah, Abu Ishaq Muhammad ibn Harun al-Rashid, eighth of the Abbasid caliphs, the caliph of the Amorium campaign; he died in 227 AH.
+
+## For Explorers
+Al-Mu'tasim Billah, Abu Ishaq Muhammad ibn Harun al-Rashid, eighth of the Abbasid caliphs, died in 227 AH. Al-Baladhuri records that in his caliphate the Romans went out to Zibatra and ruined it, which angered him into campaigning until he reached Amorium, besieged it till he opened it, then laid it waste — ordering Zibatra rebuilt and fortified. Al-Suyuti records al-Ma'mun naming him for the caliphate in letters sent to the lands before his death. He was called 'al-Muthamman' (the Eighter): eighth Abbasid caliph, eighth of al-Rashid's sons, ruled eight years, eight months and eight days, lived forty-eight years, and is credited with eight conquests and eight sons; his seal bore 'Praise be to God, nothing is like unto Him'.
+
+## For Scholars
+Al-Mu'tasim Billah, Abu Ishaq Muhammad ibn Harun al-Rashid, eighth of the Abbasid caliphs, died in 227 AH. Al-Baladhuri records that in his caliphate the Romans went out to Zibatra, killed the men, took the women captive and ruined it, which angered him into campaigning until he reached Amorium, besieged it till he opened it, then laid it waste — ordering Zibatra rebuilt and fortified; son of Harun al-Rashid, he took part in the Zibatra affair and the opening of Amorium. Al-Suyuti records al-Ma'mun naming him for the caliphate in letters sent to the lands before his death — said to be by al-Ma'mun's command, said to be written when a faint struck him. Al-Suyuti tells he was called 'al-Muthamman' (the Eighter): eighth Abbasid caliph, eighth of al-Rashid's sons, ruled eight years, eight months and eight days, lived forty-eight years, and is credited with eight conquests and eight sons. His seal bore 'Praise be to God, nothing is like unto Him'.
