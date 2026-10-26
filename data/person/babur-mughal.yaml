@@ -3,17 +3,36 @@ class: person
 label:
   ar: "ظهير الدين بابر"
   en: "Babur (Zahir al-Din Muhammad)"
+  ur: "ظہیر الدین بابر"
 names:
   - { kind: full, lang: ar, value: "ظهير الدين محمد بابر" }
 roles: [sultan, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لظهير الدين بابر، مؤسس دولة المغول في الهند، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Zahir al-Din Babur, founder of the Mughal empire in India, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "ظهير الدين محمد بابر، أول سلاطين المغول في الهند، ولد في 6 محرم 888هـ/14 فبراير 1483م، استرد كابل وكندهار ثم هزم إبراهيم لودي في بانيبت سنة 932هـ/1526م وأسس سلطنته، وتوفي في آغرة سنة 937هـ/1530م {cite:encyclopaedia-of-islam-2 vol. 1 p. 904-905}."
+  en: "Zahir al-Din Muhammad Babur, first Mughal ruler in India, born 6 Muharram 888/14 February 1483; after losing and retaking Samarkand he secured Kabul and Qandahar, destroyed Ibrahim Lodi at Panipat in 932/1526 and died at Agra in 937/1530 {cite:encyclopaedia-of-islam-2 vol. 1 p. 904-905}."
 wings: [people]
 regions: [persia-central-asia, south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim, source/akbarnama]
+born:
+  edtf: "1483-02-14"
+  hijri: "0888-01-06"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2: born 6 Muharram 888/14 February 1483."
+died:
+  edtf: "1530-12-26"
+  hijri: "0937-05-06"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2: died 6 Jumada I 937/26 December 1530 at Agra; body later moved to its present grave."
+sources: [source/tarikh-islam-hasan-ibrahim, source/akbarnama, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q797848
 provenance:
@@ -23,5 +42,5 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-0002
 status:
-  review: draft
+  review: published
   completeness: 1
