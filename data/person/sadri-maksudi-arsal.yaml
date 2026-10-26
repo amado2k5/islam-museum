@@ -1,0 +1,50 @@
+id: person/sadri-maksudi-arsal
+class: person
+label: { ar: "صدري مقصودي أرسال", en: "Sadri Maksudi Arsal", ur: "صدری مقصودی ارسل" }
+names:
+  - { value: "Sadri Maksudi Arsal", kind: full }
+  - { value: "صدري مقصودي أرسال", kind: full }
+  - { value: "Sadreddīn Nizāmeddin al-Maqsūdī", kind: alternate }
+  - { value: "Садретдин Низаметдинович Максудов", kind: alternate }
+  - { value: "Садри Максуди", kind: alternate }
+gender: male
+summary:
+  ar: "حقوقي وسياسي وعالم تاتاري (1878–1957)، وُلد في طاشسو قرب قازان وتوفي في إسطنبول. كان نائبًا عن قازان في مجلس الدوما الروسي الثاني والثالث، ورئيسًا لدولة إيديل أورال قصيرة العمر سنة 1918، ثم هاجر بعد انتصار البلاشفة فصار أستاذًا لتاريخ الحقوق في أنقرة وإسطنبول ونائبًا لثلاث دورات في البرلمان التركي."
+  en: "Tatar jurist, politician and scholar (1878–1957), born at Taşsu near Kazan and died at Istanbul. He sat for Kazan in the second and third Russian State Dumas and was president of the short-lived Idel-Ural State in 1918; after the Bolshevik victory he emigrated, becoming a professor of legal history at Ankara and Istanbul and a deputy for three terms in the Turkish parliament."
+  ur: "تاتار قانون دان، سیاست دان اور عالم (1878–1957)، جو قازان کے قریب طاشسو میں پیدا ہوئے اور استنبول میں وفات پائے۔ روسی دوما کے دوسرے اور تیسرے اجلاس میں قازان کے نائب رہے اور 1918 میں قلیل مدتی ریاستِ ادیل اورال کے صدر بنے؛ بالشویکوں کی کامیابی کے بعد ہجرت کر کے انقرہ اور استنبول میں تاریخِ قانون کے استاد اور ترک پارلیمان میں تین مدتوں تک نائب رہے۔"
+roles: [jurist, politician, writer, scholar]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1878-07-23"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Turkish article and Wikidata give 23 July 1878, born at the village of Taşsu near Kazan; the English article gives the year 1878. The harvest queue's 1879 is supported by no source and is not followed. The Hijri year 1295 is the tabular conversion. No born_in edge is written: the museum has no place entity for Taşsu or Kazan."
+  sources: [source/wikipedia-sadri-maksudi-arsal-tr, source/wikipedia-sadri-maksudi-arsal-en, source/wikidata-sadri-maksudi-arsal]
+died:
+  edtf: "1957-02-20"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Turkish articles agree he died at Istanbul on 20 February 1957; Wikidata gives the place of death as Turkey (Q406). The Hijri year 1376 is the tabular conversion."
+  sources: [source/wikipedia-sadri-maksudi-arsal-en, source/wikipedia-sadri-maksudi-arsal-tr, source/wikidata-sadri-maksudi-arsal]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 20 February 1957.", sources: [source/wikipedia-sadri-maksudi-arsal-en, source/wikipedia-sadri-maksudi-arsal-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic. Neither the English nor the Turkish article names a school for Arsal in its text; the Turkish article records that his father was the village imam, which is family background and never counts, and his membership of the Islamic Constitutional Party and the Ittifaq milieu is party affiliation, not a personal attestation of a school. Under the two-source rule and the doubt rule his faith is recorded unknown."
+    sources: [source/wikidata-sadri-maksudi-arsal, source/wikipedia-sadri-maksudi-arsal-en, source/wikipedia-sadri-maksudi-arsal-tr]
+external_ids: { wikidata: "Q983294" }
+sources: [source/wikipedia-sadri-maksudi-arsal-en, source/wikipedia-sadri-maksudi-arsal-tr, source/wikidata-sadri-maksudi-arsal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sadri Maksudi Arsal' (revision 1372184010) and Turkish Wikipedia 'Sadri Maksudi Arsal' (revision 38015283), read on 26 October 2026, with Wikidata item Q983294. The harvest queue gives his years as 1879–1957: the death year is confirmed, but the birth year 1879 is supported by no source — the Turkish article and Wikidata give 23 July 1878 and the English article 1878 — and the record follows the sources. His faith is left unknown under the two-source rule, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-30
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,51 @@
+id: person/sefika-gasprinskaya
+class: person
+label: { ar: "شفيقة غسبرينسكايا", en: "Şefika Gasprinskaya", ur: "شفیقہ گاسپرنسکایا" }
+names:
+  - { value: "Şefiqa Gaspıralı", kind: full }
+  - { value: "شفيقة إسماعيلوفنا غسبرينسكايا", kind: full }
+  - { value: "Шефика Исмаиловна Гаспринская", kind: full }
+  - { value: "Şefika Gaspıralı", kind: alternate }
+  - { value: "Shefika Ismailovna Gasprinskaya", kind: latinized }
+gender: female
+summary:
+  ar: "محررة وناشرة وناشطة قرِمية تاتارية في حقوق المرأة، وُلدت في باغچه سراي سنة 1886 وتوفيت في إسطنبول سنة 1975. هي ابنة إسماعيل غسبرينسكي، وقد رأسَت تحرير مجلة «عالم نسوان» (عالم النساء) أول مجلة نسائية تركية في روسيا، وكانت عضوة في هيئة رئاسة الكورولتاي القِرمي ونائبة لدورتين في جمهورية القرم الشعبية سنة 1917، وحملت أرشيفًا وثائقيًا كبيرًا للحركة المسلمة في روسيا إلى منفاها في تركيا."
+  en: "Crimean Tatar editor, publisher and women's-rights leader, born at Bakhchysarai in 1886 and died at Istanbul in 1975. The daughter of Ismail Gasprinsky, she was editor-in-chief and publisher of Alem-i Nisvan (Women's World), the first Turkic women's magazine in Russia, sat on the Presidency Council of the Crimean Kurultai and served two terms as a deputy of the Crimean People's Republic in 1917, and carried a large documentary archive of the Muslim movement in Russia into her Turkish exile."
+  ur: "قریمی تاتار مدیرہ، ناشر اور خواتین کے حقوق کی رہنما، جو 1886 میں باغچہ سرائے میں پیدا ہوئیں اور 1975 میں استنبول میں وفات پائیں۔ اسماعیل گاسپرنسکی کی صاحبزادی تھیں؛ روس کے پہلے ترک خواتین کے رسالے «عالمِ نسوان» کی مدیرہ و ناشر رہیں، 1917 میں قریمی قورولتائی کی صدارتی مجلس کی رکن اور دو مدتوں تک نائب رہیں، اور روس کی مسلم تحریک کا بڑا دستاویزی ذخیرہ اپنے ساتھ ترکی جلاوطنی میں لے گئیں۔"
+roles: [editor, journalist, activist, teacher]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1886-10-14"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article and Wikidata give 14 October 1886, born at Bakhchysarai in Crimea; the Turkish article gives the day as '14 October or 21 November 1886', an alternative no other source carries, so the day is recorded debated with both readings stated. The Hijri year 1304 is the tabular conversion. No born_in edge is written: the museum has no place entity for Bakhchysarai."
+  sources: [source/wikipedia-sefika-gasprinskaya-en, source/wikipedia-sefika-gasprinskaya-tr, source/wikidata-sefika-gasprinskaya]
+died:
+  edtf: "1975-08-31"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Turkish articles agree she died at Istanbul on 31 August 1975; Wikidata gives the place of death as Turkey (Q406) and the burial place as Zincirlikuyu Cemetery (Q29635). The Hijri year 1395 is the tabular conversion."
+  sources: [source/wikipedia-sefika-gasprinskaya-en, source/wikipedia-sefika-gasprinskaya-tr, source/wikidata-sefika-gasprinskaya]
+relations:
+  - { type: child_of, target: person/ismail-gasprinsky, note: "Şefika was the daughter of Ismail Gasprinsky; the edge is written here, in the child's record.", sources: [source/wikipedia-sefika-gasprinskaya-en, source/wikipedia-sefika-gasprinskaya-tr, source/wikidata-sefika-gasprinskaya] }
+  - { type: died_in, target: place/istanbul, note: "She died at Istanbul on 31 August 1975.", sources: [source/wikipedia-sefika-gasprinskaya-en, source/wikipedia-sefika-gasprinskaya-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for Gasprinskaya herself. Wikidata's only religion value is Islam (Q432), generic; neither the English nor the Turkish article states her religion in its text. Her editorial and political work belonged to the Muslim reform milieu of the Russian Empire, which is context, not a personal attestation of a school, and under the two-source rule and the doubt rule her faith is recorded unknown."
+    sources: [source/wikidata-sefika-gasprinskaya, source/wikipedia-sefika-gasprinskaya-en, source/wikipedia-sefika-gasprinskaya-tr]
+external_ids: { wikidata: "Q3760333" }
+sources: [source/wikipedia-sefika-gasprinskaya-en, source/wikipedia-sefika-gasprinskaya-tr, source/wikidata-sefika-gasprinskaya]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Şefiqa Gaspıralı' (revision 1380500392) and Turkish Wikipedia 'Şefika Gaspıralı' (revision 37874125), read on 26 October 2026, with Wikidata item Q3760333. The harvest queue's years (1886–1975) are confirmed; the birth day splits between 14 October (English article, Wikidata) and '14 October or 21 November' (Turkish article) and is recorded debated. Her husband Nasib bey Yusifbeyli (Q2660781) has no museum record, so no spouse_of edge is written; her child_of edge to her father is written in this, the child's, record. Her faith is left unknown under the two-source rule, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-30
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
