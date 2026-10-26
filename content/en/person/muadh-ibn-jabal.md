@@ -23,3 +23,12 @@ The Prophet sent Mu'adh, while he was still young, to teach a whole country. His
 
 ## In Ibn Hisham's Sira
 The Prophet's letter to the kings of Himyar names him as the commander of its envoys to them: "Their commander is Mu'adh ibn Jabal, and he shall not return except content" {cite:ibn-hisham-saqqa 4/236}. Ibn Ishaq relates, on the authority of Abdullah ibn Abi Bakr, the Prophet's instruction to him when he sent him: make things easy and do not make them hard; give good news and do not drive people away; and the answer to give the People of the Book when they ask about the key to Paradise. See [[event/mission-of-muadh-to-yemen|Mu'adh's mission to Yemen]] {cite:ibn-hisham-saqqa 4/237}.
+
+## For Sprouts
+Mu'adh ibn Jabal was a young man of the Ansar who accepted Islam early and loved the Qur'an until he became among the most learned Companions. The Prophet sent him as a teacher to Yemen, and he served in the conquests in Syria until he died young of the plague.
+
+## For Explorers
+Mu'adh ibn Jabal ibn Amr al-Awsi al-Khazraji of the Ansar accepted Islam young at the second pledge of Aqaba and witnessed Badr, Uhud and every event. He was famed for his knowledge of the Qur'an and the lawful and unlawful — the Prophet said he was the most learned of his community in halal and haram — and he was among the scribes of revelation. The Prophet sent him to Yemen as teacher and judge; in the conquests he was among the leaders and scholars of the Syrian armies, and he died in the plague of Amwas in 18 AH, a young man of about thirty-eight, and was buried in Jordan.
+
+## For Scholars
+Mu'adh ibn Jabal ibn Amr al-Awsi al-Khazraji is among the most learned of the Ansar: he accepted Islam young at the second pledge of Aqaba, among its youngest witnesses, and witnessed Badr, Uhud and every event; he was among the scribes of revelation and those who collected the Qur'an in the Prophet's era. His standing in knowledge is famous — the Prophet called him the most learned of his community in the lawful and unlawful — and the Prophet sent him to Sanaa and its neighbours to teach. He was sent to Yemen as teacher, judge and collector, and he taught, judged and collected in his charge; the sira books preserve the famous account of his dispatch and his reports on the night prayer. In the conquests he was among the senior scholars and leaders of Syria; he died in the plague of Amwas in 18 AH, about thirty-eight, and was buried in a Jordan valley — the biographical works give his life, reports and virtues in detail.

@@ -31,3 +31,12 @@ It appears to the author that news of the call reached Quraysh during this stage
 
 ## For young visitors
 In the first three years, the Prophet called people to Islam in secret. The first to believe in him were his wife Khadija, his friend Abu Bakr, his young cousin Ali and his freedman Zayd. Then others believed, one after another, and they prayed far from people's eyes.
+
+## For Sprouts
+At first the Prophet called people to God secretly for three years, and a small group believed at home: Khadija, Ali, Abu Bakr, Zayd and Bilal. They met quietly in the house of al-Arqam to pray and learn, until God told them to declare the call openly.
+
+## For Explorers
+The secret call was the first three years of the Prophet's mission (about 610–613 CE): he called people privately among those he trusted of his family and intimates, and Khadija believed first, then Ali, Abu Bakr, Zayd ibn Haritha, Bilal and others. The group met secretly in the house of al-Arqam ibn Abi al-Arqam by al-Safa, learning the Qur'an and praying away from Quraysh's eyes, until God ordered the open call in the verse 'declare what you are commanded', and the Prophet climbed al-Safa and called out to Quraysh. Historians count these years the building of the first Muslim nucleus.
+
+## For Scholars
+The secret call (the concealed call) is the first years of the prophetic mission, from the start of revelation around 610 CE until the command to proclaim around 613 CE. The sira books record that the Prophet called in secret his inner circle: Khadija the first Muslim, then Ali ibn Abi Talib, Abu Bakr and Zayd ibn Haritha, and with them entered some of the weak — Bilal, Ammar, Sumayya. Their council was the house of al-Arqam ibn Abi al-Arqam by al-Safa, where they met to learn the Qur'an and pray hidden from Quraysh, and the sources preserve meetings the early ones described, like those of Talha ibn Ubaydullah, al-Zubayr and Abd al-Rahman ibn Awf. The command to proclaim came in 'declare what you are commanded and turn away from the polytheists', and the Prophet called Quraysh from al-Safa clan by clan, beginning a new era with the start of harm. Concealed stories from that era are told, like the Islam of Abu Dharr and al-Zubayr, and early Meccan suras are dated to it. Historians read these years as the founding phase that built the community's nucleus before confrontation.

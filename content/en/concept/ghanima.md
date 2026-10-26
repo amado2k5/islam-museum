@@ -18,3 +18,6 @@ According to Rida, the majority hold that the verse on the fifth was revealed at
 
 ## A note on the report
 Rida gives the report of Ali about the old she-camel from the fifth, and holds that it shows the spoils of Badr included a fifth. He presents Ibn Hajar's attempt to reconcile the two reports. {cite:tafsir-manar-v10 p.5}
+
+## For Scholars
+Ghanima, in Islamic jurisprudence, is property taken from the polytheists in war by force; for some scholars it is broader than 'spoils' and for others narrower. Sura al-Anfal fixes its division: 'Know that whatever you take as spoils, one fifth is for God, the Messenger, near kin, orphans, the needy and the wayfarer' — the jurists split that fifth among these heads and gave four fifths to the fighters: three shares to a horseman and one to a footman for the majority. The fiqh books record detailed rulings: Khalid ibn al-Walid's share at Mu'tah, the division of the Hunayn spoils at al-Ji'rana, the gradation of shares, and the imam's power to grant extra awards before division for merit. Immovable and movable property, animals and weapons all fall within it, while what came without fighting — like jizya and kharaj — counts as fay' instead.

@@ -20,3 +20,12 @@ Abu Sufyan fought the Muslims for six years. Then he made peace, joined them, an
 
 ## The Rabigh detachment (The Sealed Nectar, p.198)
 [[person/ubayda-ibn-al-harith|Ubayda ibn al-Harith]] met him at Batn Rabigh with two hundred men, and no fighting took place ([[event/expedition-of-rabigh|the Rabigh detachment]]) {cite:mubarakpuri-raheeq p.198}.
+
+## For Sprouts
+Abu Sufyan Sakhr ibn Harb was a chief of Quraysh who led its caravans and armies against the Muslims at Badr and the Trench. He accepted Islam at the conquest of Mecca, witnessed Hunayn and Ta'if with the Muslims, lost his eye at the Yarmuk, and died an old man in Medina.
+
+## For Explorers
+Abu Sufyan Sakhr ibn Harb al-Umawi was a chief and trader of Quraysh who led Quraysh's great caravan — the cause of Badr — and carried the polytheists' banner at Uhud and the Trench. He stood at the head of the first feud against the call, then accepted Islam in 8 AH just before the conquest of Mecca — some say willingly, some by circumstance — and the Prophet received him and told the Meccans that whoever entered Abu Sufyan's house was safe. He witnessed Hunayn with the Muslims and was given from the share of 'those whose hearts are to be reconciled'; at the Yarmuk he lost his second eye, having lost the first earlier. He was Mu'awiya's father and grandfather of Yazid and Mu'awiya II, and died an old man in Medina around 32 AH.
+
+## For Scholars
+Abu Sufyan Sakhr ibn Harb ibn Umayya al-Umawi was a chief and merchant of Quraysh and the most visible leader of the feud against the call in its two decades. The sira books record him as commander of Quraysh's great caravan — whose escape caused the march to Badr — and as banner-bearer of the polytheists at Uhud and the Trench and leader of the Confederates; his stand against the call is the frame history records before his Islam. He accepted Islam in 8 AH at the stage before the conquest of Mecca — the reports differ on how willing he was — and the Prophet received him and told the Meccans that whoever entered Abu Sufyan's house was safe, appointing him over some affairs in some accounts. He witnessed Hunayn and received shares of the reconciled hearts' money, and at the Yarmuk lost his second eye after losing the first earlier. Father of Mu'awiya, founder of the Umayyad state, and grandfather of Yazid and Mu'awiya II, he died an old man in Medina around 32 AH. Historians read him as a model of Qurashi statesmen who moved from leading the feud into building Islamic rule.
