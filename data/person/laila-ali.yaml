@@ -1,0 +1,41 @@
+id: person/laila-ali
+class: person
+label: { ar: "ليلى علي", en: "Laila Ali", ur: "لیلیٰ علی" }
+names:
+  - { value: "Laila Amaria Ali", kind: full }
+  - { value: "Laila Ali", kind: full }
+  - { value: "ليلى أماريا علي", kind: full }
+  - { value: "She Bee Stingin'", kind: laqab }
+  - { value: "Madame Butterfly", kind: laqab }
+gender: female
+summary:
+  ar: "ملاكمة محترفة أمريكية سابقة وشخصية تلفزيونية، وُلدت في ميامي بيتش سنة 1977، وهي ابنة الملاكم محمد علي. اعتزلت بلا هزيمة بسجل 24 فوزاً منها 21 بالضربة القاضية، حاملة ألقاب المجلس العالمي والرابطة الدولية واتحاد WIBA في وزن فوق المتوسط، ثم عملت مقدّمة ومشاركة في برامج تلفزيونية منها «الرقص مع النجوم» و«المصارعون الأمريكيون»."
+  en: "American retired professional boxer and television personality, born in Miami Beach in 1977, the daughter of the boxer Muhammad Ali. She retired undefeated with 24 wins, 21 by knockout, holding the WBC, WIBA, IWBF and IBA super middleweight titles, and later worked in television, including Dancing with the Stars and American Gladiators."
+  ur: "امریکی سابق پیشہ ور باکسر اور ٹیلی ویژن شخصیت، 1977 میں میامی بیچ میں پیدا ہوئیں، باکسر محمد علی کی بیٹی ہیں۔ وہ 24 فتوحات (21 ناک آؤٹ) کے ساتھ ناقابل شکست ریٹائر ہوئیں، ڈبلیو بی سی، ڈبلیو آئی بی اے، آئی ڈبلیو بی ایف اور آئی بی اے سپر مڈل ویٹ ٹائٹل اپنے نام کیے، اور بعد میں ٹیلی ویژن میں کام کیا، جس میں «ڈانسنگ ود دی سٹارز» اور «امریکن گلیڈی ایٹرز» شامل ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1977-12-30"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 30 December 1977 in Miami Beach, Florida, the daughter of Muhammad Ali and Veronica Porché Ali. The date and place are given by the English, Arabic and Urdu articles and by Wikidata. Miami Beach has no place entity in the museum, so the birthplace is carried here only. The Hijri year 1398 is derived from the Gregorian date on the tabular calendar."
+  sources: [source/wikipedia-laila-ali-en, source/wikipedia-laila-ali-ar, source/wikidata-laila-ali]
+relations:
+  - { type: child_of, target: person/muhammad-ali, sources: [source/wikipedia-laila-ali-en, source/wikidata-laila-ali] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No current affiliation is recorded, and no school is recorded. The English article's text, citing two independent reports — WBUR (16 June 2017) and Nine.com.au (28 June 2019) — states that she was raised as a Muslim but later left Islam despite her father's initial disapproval, and the Nine interview quotes her own words: 'My father was Muslim, I'm not.' The Urdu article repeats the same reports (a translated edition, the same source family), and the Arabic article's infobox religion field is blank. Her father's Islam is family background and is not attestation for her. The English article's categories, African-American former Sunni Muslims and American former Sunni Muslims, are filings, which never count, and the Sunni element rests on them alone. Wikidata (Q255099) still gives her religion as Islam (P140) — a single structured value, contradicted by the article texts. No source names a present affiliation for her, so under the doubt rule the value stays unknown, with the reported upbringing and departure preserved here."
+    sources: [source/wikipedia-laila-ali-en, source/wikipedia-laila-ali-ur, source/wikipedia-laila-ali-ar, source/wikidata-laila-ali]
+external_ids: { wikidata: "Q255099" }
+sources: [source/wikipedia-laila-ali-en, source/wikipedia-laila-ali-ar, source/wikipedia-laila-ali-ur, source/wikidata-laila-ali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376660472 of 25 September 2026), Arabic Wikipedia (revision 75386203 of 12 June 2026), Urdu Wikipedia (revision 11291131 of 27 June 2026) and Wikidata Q255099, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Laila Ali existed in data/person/ (name-fragment sweeps found only classical namesakes), and Q255099 was searched across data/person/ and data/source/ with no hit; this is a new build. The QID was pinned by biography — American retired boxer, born 30 December 1977, daughter of Muhammad Ali (Q36107). The child_of edge to person/muhammad-ali is written here, in her record, pointing to her father; his record exists and was not edited."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-57
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
