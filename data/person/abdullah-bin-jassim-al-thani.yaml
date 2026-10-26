@@ -1,0 +1,79 @@
+id: person/abdullah-bin-jassim-al-thani
+class: person
+label:
+  ar: "عبد الله بن جاسم آل ثاني"
+  en: "Abdullah bin Jassim Al Thani"
+  ur: "عبداللہ بن جاسم الثانی"
+summary:
+  ar: "عبد الله بن جاسم آل ثاني، أبو علي (وُلد في الدوحة في 11 فبراير 1880 – توفي في 25 أبريل 1957)، أمير قطر من 1913 إلى 1949 وابن جاسم بن محمد مؤسس الدولة؛ شهد عهده المعاهدة مع بريطانيا سنة 1916 وامتياز النفط الأول سنة 1935 واكتشاف النفط في دخان سنة 1940، وتنازل مرتين قبل أن يعتزل نهائيًا لابنه علي."
+  en: "Abdullah bin Jassim Al Thani, Abu Ali (born at Doha on 11 February 1880 – died on 25 April 1957), Emir of Qatar from 1913 to 1949 and the son of Jassim bin Mohammed, the state's founder; his reign saw the 1916 treaty with Britain, the first oil concession in 1935 and the discovery of oil at Dukhan in 1940, and he abdicated twice before finally retiring in favour of his son Ali."
+  ur: "عبداللہ بن جاسم الثانی، ابو علی (پیدائش: دوحہ، 11 فروری 1880ء – وفات: 25 اپریل 1957ء)، 1913ء سے 1949ء تک امیرِ قطر اور ریاست کے بانی جاسم بن محمد کے بیٹے؛ ان کے عہد میں 1916ء کا برطانوی معاہدہ، 1935ء کا پہلا تیل امتیاز اور 1940ء میں دخان میں تیل کی دریافت ہوئی، اور وہ دو بار دستبردار ہونے کے بعد بالآخر بیٹے علی کے حق میں سبکدوش ہوئے۔"
+names:
+  - { value: "عبد الله بن جاسم آل ثاني", kind: full }
+  - { value: "Abdullah bin Jassim Al Thani", kind: full }
+  - { value: "أبو علي", kind: kunya }
+  - { value: "Abdullah bin Qassim Al Thani", kind: alternate }
+wings:
+  - people
+regions:
+  - arabia
+roles:
+  - ruler
+born:
+  edtf: "1880-02-11"
+  hijri: "1297"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (infobox and text) gives 11 February 1880 at Doha and the Arabic and Urdu articles give the year 1880; Wikidata carries two birth values, 1880-02-11 at day precision agreeing with the article and a stray 1855 that the record rejects. The additions queue's 1871 rests only on an Urdu '1871 births' category that contradicts the Urdu article itself and is wrong. Doha has no museum place entity, so no born_in relation is written. Hijri year 1297 is the tabular conversion of 11 February 1880."
+  sources:
+    - source/wikipedia-abdullah-bin-jassim-al-thani-en
+    - source/wikidata-abdullah-bin-jassim-al-thani
+died:
+  edtf: "1957-04-25"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata agree on 25 April 1957; the Arabic infobox places the death at Doha and gives the cause as a heart attack, while the English article records burial at Al Rayyan Cemetery. Neither Doha nor Al Rayyan has a museum place entity, so no died_in or buried_in relation is written. Hijri year 1376, which the Arabic categories also give, is the tabular conversion of 25 April 1957."
+  sources:
+    - source/wikipedia-abdullah-bin-jassim-al-thani-en
+    - source/wikipedia-abdullah-bin-jassim-al-thani-ar
+    - source/wikidata-abdullah-bin-jassim-al-thani
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English infobox's religion field reads 'Sunni Islam' uncited, the Urdu infobox reads 'Sunni', the Arabic infobox reads only the generic 'Islam', and Wikidata's only religion value is the generic item Islam; no article's text discusses his religion and no source anywhere names a madhhab for him. The Sunni readings are one Wikipedia family's uncited infobox fields, contradicted in scope by the family's own Arabic member — under the two-source rule they do not record a school, so his school is recorded unknown with the readings preserved here."
+    sources:
+      - source/wikipedia-abdullah-bin-jassim-al-thani-en
+      - source/wikipedia-abdullah-bin-jassim-al-thani-ar
+      - source/wikidata-abdullah-bin-jassim-al-thani
+relations:
+  - type: child_of
+    target: person/jassim-bin-mohammed-al-thani
+    note: "Abdullah was a son of Sheikh Jassim bin Mohammed Al Thani, founder of Qatar, whom he succeeded on his death on 17 July 1913; Wikidata's father value is Jassim's own item."
+    sources:
+      - source/wikipedia-abdullah-bin-jassim-al-thani-en
+      - source/wikidata-abdullah-bin-jassim-al-thani
+  - type: member_of
+    target: group/al-thani
+    note: "Head of the House of Thani and Emir of Qatar from 1913 until his final abdication in August 1949."
+    sources:
+      - source/wikipedia-abdullah-bin-jassim-al-thani-en
+      - source/wikipedia-abdullah-bin-jassim-al-thani-ar
+sources:
+  - source/wikipedia-abdullah-bin-jassim-al-thani-en
+  - source/wikipedia-abdullah-bin-jassim-al-thani-ar
+  - source/wikipedia-abdullah-bin-jassim-al-thani-ur
+  - source/wikidata-abdullah-bin-jassim-al-thani
+status:
+  review: published
+  completeness: 3
+  generated_by: "Muse (Muse Spark 1.3)"
+provenance:
+  layer: own-research
+  source: "Wikipedia (EN/AR/UR) and Wikidata Q4116065 revisions consulted 26 October 2026; the queue's name form 'Abdallah bin Qasim' is attested as this man's alternate name in the English article's lead and is carried in his names, while the record itself follows the articles' and Wikidata's 'bin Jassim' form. Neither Doha nor Al Rayyan has a museum place entity, so birth, death and burial places are carried in the notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-26
