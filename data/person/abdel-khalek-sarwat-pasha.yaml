@@ -1,0 +1,50 @@
+id: person/abdel-khalek-sarwat-pasha
+class: person
+label: { ar: "عبد الخالق ثروت", en: "Abdel Khalek Sarwat Pasha", ur: "عبد الخالق ثروت" }
+names:
+  - { value: "عبد الخالق ثروت باشا", kind: full }
+  - { value: "Abdel Khalek Sarwat", kind: full }
+  - { value: "Abdel Khaliq Sarwat", kind: alternate }
+  - { value: "ʿAbd al-Khāliq Tharwat", kind: latinized }
+gender: male
+summary:
+  ar: "سياسي وقاضٍ مصري، أول نائب عام مصري منذ الاحتلال البريطاني، ووزير العدل ثم الداخلية، ورئيس الوزراء مرتين: سنة 1922 حين صدر إعلان استقلال مصر الأحادي، وسنة 1927–1928 حين سقط مشروعه للمعاهدة مع بريطانيا فاستقال، وتوفي في باريس سنة 1928 ودُفن في القاهرة."
+  en: "Egyptian politician and jurist, the first Egyptian attorney general since the British occupation, minister of justice and then of the interior, and prime minister twice: in 1922, when Britain's Unilateral Declaration of Egyptian Independence was issued, and in 1927–1928, when his draft treaty with Britain was rejected and he resigned; he died at Paris in 1928 and was buried at Cairo."
+  ur: "مصری سیاست دان اور منصف، برطانوی قبضے کے بعد پہلے مصری اٹارنی جنرل، وزیرِ انصاف اور پھر وزیرِ داخلہ، اور دو بار وزیرِ اعظم: 1922 میں جب مصر کی آزادی کا یکطرفہ اعلان جاری ہوا، اور 1927–1928 میں جب برطانیہ سے ان کا مسودۂ معاہدہ مسترد ہوا اور انہوں نے استعفیٰ دیا؛ وہ 1928 میں پیرس میں انتقال کر گئے اور قاہرہ میں دفن ہوئے۔"
+roles: [politician, jurist]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1873"
+  hijri: "1290"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1873 is what the English article's infobox and Wikidata give, and it is followed at year precision. The English article's early-life text gives a fuller reading — born at Cairo on 31 March 1873 — which no second source consulted confirms at day precision; it is recorded here rather than promoted, under the doubt rule. Wikidata gives the place as Cairo. The Hijri year 1290 covers most of the Gregorian year 1873 and is the derived conversion."
+  sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha]
+died:
+  edtf: "1928-09-22"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article contradicts itself on his death, and both of its readings are preserved. Its narrative summary says he died at Paris on 22 September 1928; its dedicated death section says he died of a heart attack, while on a personal visit to Paris, on 22 November 1928, with his wife and his son Mustapha present, and was buried at Cairo after national funerals. Wikidata carries the year 1928 and, at day precision, 22 September 1928 at Paris, stated in external authority databases; the September reading — the one two of the three statements agree on — is followed, and the date is marked debated. No museum place entity exists for Paris, so no died_in edge is written. The Hijri year 1347 is the derived conversion of September 1928."
+  sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikidata-abdel-khalek-sarwat-pasha] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted attests a religion or a school for Abdel Khalek Sarwat personally, and the value is recorded unknown under the doubt rule — complete absence, as with Adly Yakan. The English article has no religion field; its text mentions religious officials and the religious establishment only as actors in the politics of the 1920s, never as his affiliation, and its categories file him only by office and period. The Arabic article's infobox carries no religion field and its text names no school. Wikidata has no religion (P140) value at all. His career in the Egyptian judiciary and cabinets is office, which never attests."
+    sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikipedia-abdel-khalek-sarwat-pasha-ar, source/wikidata-abdel-khalek-sarwat-pasha]
+external_ids: { wikidata: "Q4116115" }
+sources: [source/wikipedia-abdel-khalek-sarwat-pasha-en, source/wikipedia-abdel-khalek-sarwat-pasha-ar, source/wikidata-abdel-khalek-sarwat-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdel Khalek Sarwat Pasha' (revision 1369774205 of 17 August 2026), Arabic Wikipedia 'عبد الخالق ثروت' (revision 76819175 of 30 September 2026) and Wikidata item Q4116115 (item revision 2551948862 of 1 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. The article's own title spelling 'Abdel Khalek' is followed for the slug; 'Abdel Khaliq' and 'Tharwat' are carried as name variants. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Two edges are written, born_in and buried_in, both to place/cairo, an existing entity. No died_in edge is written: no museum place entity exists for Paris. His death date is recorded debated (22 September 1928 followed; the English article's own alternative of 22 November 1928 preserved in the note), and his birth is recorded at year precision with the article text's 31 March 1873 reading preserved in the note. His faith is unknown — complete absence in all sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
