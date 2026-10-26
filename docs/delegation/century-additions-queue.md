@@ -226,16 +226,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Kamaru Usman — 1987–Living
 - [x] Israel Adesanya (Contemporary) — 1989–Living
 - [x] Demetrious Johnson — 1986–Living
-- [ ] Kalidou Koulibaly — 1991–Living
-- [ ] Edouard Mendy — 1992–Living
-- [ ] Hakim Ziyech — 1993–Living
-- [ ] Achraf Hakimi — 1998–Living
-- [ ] Yassine Bounou (Bono) — 1991–Living
-- [ ] Sofyan Amrabat — 1996–Living
-- [ ] Walid Regragui — 1975–Living
-- [ ] Djamel Belmadi — 1976–Living
-- [ ] Ali Daei — 1969–Living
-- [ ] Mehdi Taremi — 1992–Living
+- [x] Kalidou Koulibaly — 1991–Living
+- [x] Edouard Mendy — 1992–Living
+- [x] Hakim Ziyech — 1993–Living
+- [x] Achraf Hakimi — 1998–Living
+- [x] Yassine Bounou (Bono) — 1991–Living
+- [x] Sofyan Amrabat — 1996–Living
+- [x] Walid Regragui — 1975–Living
+- [x] Djamel Belmadi — 1976–Living
+- [x] Ali Daei — 1969–Living
+- [x] Mehdi Taremi — 1992–Living
 - [ ] Sardar Azmoun — 1995–Living
 - [ ] Hakan Çalhanoğlu — 1994–Living
 - [ ] Arda Güler — 2005–Living
@@ -1103,16 +1103,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sami Efendi (1838–1912)
 - [x] Hasan Riza Efendi (1849–1920)
 - [ ] Mehmed Şevket Eygi (Ancestors) (1880–1940)
-- [ ] Sheikh Fazlollah Nouri (1843–1909)
-- [ ] Sayyid Jamal al-Din Va'iz (1862–1908)
-- [ ] Mirza Jahangir Khan (1870–1908)
-- [ ] Sattar Khan (1866–1914)
-- [ ] Bagher Khan (1870–1916)
+- [x] Sheikh Fazlollah Nouri (1843–1909)
+- [x] Sayyid Jamal al-Din Va'iz (1862–1908)
+- [x] Mirza Jahangir Khan (1870–1908)
+- [x] Sattar Khan (1866–1914)
+- [x] Bagher Khan (1870–1916)
 - [ ] Morgan Shuster's Iranian Deputies (1880–1920)
-- [ ] Mirza Kuchik Khan (1880–1921)
-- [ ] Sheikh Mohammad Khiabani (1880–1920)
-- [ ] Hassan Taghizadeh (1878–1970)
-- [ ] Mirza Malkam Khan (1833–1908)
+- [x] Mirza Kuchik Khan (1880–1921)
+- [x] Sheikh Mohammad Khiabani (1880–1920)
+- [x] Hassan Taghizadeh (1878–1970)
+- [x] Mirza Malkam Khan (1833–1908)
 - [ ] Mohammad Ali Shah Qajar (1872–1925)
 - [ ] Naser al-Din Shah Qajar (1831–1896)
 - [ ] Amir Kabir (Mirza Taghi Khan) (1807–1852)

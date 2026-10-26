@@ -11,7 +11,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources:
+- source/al-aalam
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q4115269
 provenance:
@@ -20,6 +22,22 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0032
-status:
-  review: draft
-  completeness: 1
+status: { review: published, completeness: 2 }
+born:
+  edtf: "1704-06-29"
+  hijri: "1116"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 25 Safar 1116 AH (29 June 1704) at Bilgram."
+died:
+  edtf: "1786"
+  hijri: "1200"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 1200 AH (1786) at Awrangabad."

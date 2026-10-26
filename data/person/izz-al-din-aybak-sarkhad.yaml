@@ -10,8 +10,10 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 142)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
+  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 142)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org؛ Encyclopaedia of Islam, 2nd ed., vol. 1 p. 829, entry AYBAK (in the seq 438 row)"
+  generated_by: "Devin (SWE-2 High) from djvu OCR text; enriched by Claude Code (claude-haiku-5-5), EI2 vol. 1 pp. 829-832, batch ei2-b018"
   run: lib-wafayat-batch-15
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources:
+- source/wafayat-ayan
+- source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }

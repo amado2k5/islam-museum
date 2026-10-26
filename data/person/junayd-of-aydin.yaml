@@ -6,20 +6,20 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لجنيد بك الآيديني، أمير آيدن الذي قاد الفترة العثمانية الأولى حتى قُتل سنة ١٤٢٥م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Junayd Bey al-Aydini, the beğ of Aydin during the Ottoman interregnum, killed in 1425; the dynastic handbook entry is not yet checked on the page."
+  ar: "جنيد بك، آخر أمراء آيدين أوغلو (808-828هـ)، هزمه مراد الثاني وأُعدم مع أسرته سنة 829هـ (1425-1426م) {cite:encyclopaedia-of-islam-2 vol. 1 p. 832}."
+  en: "Junayd, last ruler of the Aydın-oghlu (808-828 AH), defeated by Murad II and executed with his family in 829 AH (1425-6) {cite:encyclopaedia-of-islam-2 vol. 1 p. 832}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources:
+- source/bosworth-new-islamic-dynasties-1996
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q4887644
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996); Encyclopaedia of Islam, 2nd ed., vol. 1 p. 832, entry AYDIN-OGHLU (queue seq 440)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (claude-haiku-5-5), EI2 vol. 1 pp. 829-832, batch ei2-b018"
   model: "SWE-2 High"
   run: wikidata-import-0035
-status:
-  review: draft
-  completeness: 1
+status: { review: published, completeness: 2 }

@@ -1,0 +1,50 @@
+id: person/bagher-khan
+class: person
+label: { ar: "باقر خان", en: "Bagher Khan", ur: "باقر خان" }
+names:
+  - { value: "باقرخان", kind: full }
+  - { value: "Bagher Khan", kind: full }
+  - { value: "Baqer Khan", kind: alternate }
+  - { value: "Baqir Khan", kind: alternate }
+  - { value: "Salar-e Melli", kind: laqab }
+gender: male
+summary:
+  ar: "قائد دستوري من تبريز (نحو 1870–1916)، بنّاء صار كبير لوطيي حي خيابان، ونال بصفته نائب ستارخان في دفاع تبريز 1908-09 لقب «سالار ملي» التشريفي؛ وبعد نفيه الفعلي إلى طهران عقب سنة 1910 انضم إلى لجنة الدفاع الوطني سنة 1915 وقُتل قرب قصر شيرين في نوفمبر 1916."
+  en: "Constitutional-revolution commander of Tabriz (c. 1870–1916), a bricklayer who became chief luti of the Khiaban quarter and, as Sattar Khan's deputy in the defence of Tabriz in 1908-09, received the honorary title Salar-e Melli, 'National Chieftain'. Exiled in effect to Tehran after 1910, he joined the Committee for National Defence in 1915 and was murdered near Qasr-e Shirin in November 1916."
+  ur: "تبریز کے آئینی انقلابی کمانڈر (تقریباً 1870–1916)؛ ایک معمار جو خیابان محلے کے لوطیوں کے سردار بنے اور 1908-09 میں تبریز کے دفاع میں ستار خان کے نائب کی حیثیت سے «سالارِ ملی» کا اعزازی خطاب پایا؛ 1910 کے بعد عملاً تہران میں جلا وطن رہے، 1915 میں قومی دفاع کمیٹی میں شامل ہوئے اور نومبر 1916 میں قصرِ شیرین کے قریب قتل ہوئے۔"
+roles: [general, activist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1870"
+  hijri: "1287"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Tabriz, son of Haj Reza, a bricklayer. The Encyclopaedia Iranica gives 'born in Tabriz in the 1870s' and the English article 'c. 1870'; against them the Persian article's lead dates him from 1240 Solar Hijri (1861/62) and Wikidata carries 1861 and 1862. The record follows the scholarly tradition (about 1870) and discloses the Persian readings in full. The Hijri year 1287 is the derived conversion of 1870."
+  sources: [source/iranica-bagher-khan, source/wikipedia-bagher-khan-en, source/wikipedia-bagher-khan-fa]
+died:
+  edtf: "1916-11"
+  hijri: "1335"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Murdered in Muharram 1335 (November 1916) while wandering in the border villages near Qasr-e Shirin: after the 1915 Mohajarat he had joined the Committee for National Defence, skirmished with Russian forces, and retreated through Kermanshah to Kirkuk and Mosul; the Kurdish bandit Mohammad-Amin Talebani offered him overnight shelter and killed him and all his party the same night. The Persian article adds that his remains were brought back to Tabriz in 1354 Solar Hijri (1975/76) and buried in the family plot beside his daughter. The Hijri date is the sources' own."
+  sources: [source/iranica-bagher-khan, source/wikipedia-bagher-khan-en, source/wikipedia-bagher-khan-fa]
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/iranica-bagher-khan, source/wikipedia-bagher-khan-en] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the SHIA-MAPPING RULE, with the mapping stated. Two independent traditions place Bagher Khan personally in the Mutasharri'a, the shari'a-minded of the two Twelver currents of Tabriz's lutis — the Mutasharri'a and the Sheikhiyya. (1) The Persian tradition: the Persian Wikipedia text states it of him personally — 'Bagher Khan, unlike Sattar Khan who was a Sheikhi, was of the Mutasharre'a, and sided with and respected the anti-constitutionalist ulama who were of the Mutasharre'a.' (2) The scholarly tradition: Abbas Amanat's Encyclopaedia Iranica entry says 'being himself from an orthodox (motasharreʿ) background but with an inclination to the pro-Constitution Shaikhi leader Seqat al-Eslam' — an inclination toward a Shaikhi leader, not a Shaikhi affiliation of his own. MAPPING: membership of the Mutasharri'a is attested by both traditions; the Mutasharri'a are a Twelver current (their Tabriz rivals the Sheikhiyya are the other, as the companion record of Sattar Khan sets out), so the value is recorded shia-twelver. Wikidata's single structured value (Shia Islam) is consistent and is not counted as a further attestation. No source names a legal school (madhhab) for him."
+    sources: [source/wikipedia-bagher-khan-fa, source/iranica-bagher-khan, source/wikidata-bagher-khan]
+external_ids: { wikidata: Q799913 }
+sources: [source/wikipedia-bagher-khan-en, source/wikipedia-bagher-khan-fa, source/iranica-bagher-khan, source/wikidata-bagher-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Baqir Khan' (revision 1378195526 of 3 October 2026), the Persian Wikipedia article (revision 44795649 of 21 October 2026), Abbas Amanat's Encyclopaedia Iranica entry 'Baqer Khan Salar-e Melli' (published 15 December 1988; last updated 28 October 2016), and Wikidata item Q799913, all read directly on 26 October 2026. The birth year is debated (Iranica and the English article, the 1870s, against the Persian article's 1240 Solar Hijri and Wikidata's 1861/1862) and is recorded at about 1870 with all readings disclosed; the death (Muharram 1335/November 1916) is given by the sources in both calendars. His faith is shia-twelver/documented under the Shia-mapping rule, the mapping and both attesting traditions stated in the faith note. The companion edge to Sattar Khan is not written: companionship is not a predicate in schema/predicates.yaml, and no other predicate fits it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-37
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

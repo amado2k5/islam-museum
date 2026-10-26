@@ -1,0 +1,50 @@
+id: person/mohammad-khiabani
+class: person
+label: { ar: "محمد خياباني", en: "Mohammad Khiabani", ur: "شیخ محمد خیابانی" }
+names:
+  - { value: "محمد خیابانی", kind: full }
+  - { value: "Mohammad Khiabani", kind: full }
+  - { value: "Shaikh Mohammad Khiabani", kind: alternate }
+  - { value: "Mohammad Khiyabani", kind: alternate }
+  - { value: "Shaikh Mohammad Khiabani Tabrizi", kind: alternate }
+gender: male
+summary:
+  ar: "رجل دين شيعي وسياسي دستوري من تبريز (1880–1920)، تأهل للاجتهاد وأمّ المصلين في مسجد المدينة الجامع، وجلس في المجلس الثاني، وأحيا حزب أذربيجان الديمقراطي، ورأس سنة 1920 حكومة «آزاديستان» قصيرة العمر احتجاجًا على الاتفاقية الإنجليزية الفارسية حتى قُتل عند سقوطها."
+  en: "Shia cleric and constitutionalist politician of Tabriz (1880–1920) who qualified for ijtihad, led prayers at the city's Jameh mosque, sat in the Second Majles, revived the Democrat Party of Azerbaijan, and in 1920 headed the short-lived Azadistan government in protest against the Anglo-Persian Agreement, until he was killed as it fell."
+  ur: "تبریز کے شیعہ عالم اور آئینی سیاست دان (1880–1920)؛ اجتہاد کی اہلیت حاصل کی، شہر کی جامع مسجد میں امامت کی، دوسری مجلس میں بیٹھے، آذربائیجان کی ڈیموکریٹ پارٹی کو زندہ کیا، اور 1920 میں اینگلو-فارسی معاہدے کے خلاف احتجاجاً «آزادیستان» کی قلیل مدتی حکومت کی سربراہی کی، یہاں تک کہ اس کے سقوط پر قتل ہوئے۔"
+roles: [jurist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1880"
+  hijri: "1297"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Khameneh, a town of the Shabestar district near Tabriz, son of Haji Abdolhamid, a merchant of Khameneh long engaged in Russian trade. The Encyclopaedia Iranica dates the birth 'ca. 1297/1879-80'; the English and Persian articles and Wikidata give 1880 — but Wikidata's birthplace value (Najaf) is an error against all three text sources and is not followed. The Hijri year 1297 is the Iranica entry's own. There is no museum place entity for Khameneh, so no born_in edge is written."
+  sources: [source/iranica-khiabani, source/wikipedia-mohammad-khiabani-en, source/wikidata-mohammad-khiabani]
+died:
+  edtf: "1920-09-14"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Killed at Tabriz on the morning of 14 September 1920, found in a neighbour's basement after the Cossack suppression of his Azadistan government, which had run from 7 April to 13 September 1920; the English article gives only 'the late summer of 1920' and reports Hedayat's claim that he had committed suicide. The Persian article dates the killing Monday 22 Shahrivar 1299, corresponding to 29 Dhu'l-Hijja 1338 — the same day. The Hijri year 1338 is the Persian article's own."
+  sources: [source/iranica-khiabani, source/wikipedia-mohammad-khiabani-en, source/wikipedia-mohammad-khiabani-fa]
+relations:
+  - { type: died_in, target: place/tabriz, sources: [source/iranica-khiabani, source/wikidata-mohammad-khiabani] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the SHIA-MAPPING RULE, with the mapping stated. (1) The English Wikipedia lead attests it for him personally: he 'was an Iranian Shia cleric, political leader, and representative to the parliament'. (2) The Encyclopaedia Iranica (Bonakdarian) frames his formation wholly inside Twelver Shi'ism: he completed his religious studies 'at the seminary (see EDUCATION v. THE MADRASA IN SHIʿITE PERSIA)' under Mirza Abu'l-Hasan Angaji, 'qualified for ejtehad' under Sayyed Hosayn Khamena'i, prayer leader of Tabriz's Jameh mosque, himself led that mosque's noon prayers for nearly three years, and is counted among the city's clerics in the entry's contrast that 'many Shiʿi clerics in the city denounced the insurgency' while Khiabani supported it. The Persian article corroborates the curriculum — jurisprudence and its principles 'to near the level of ijtihad' — and his office as cleric of the Jameh mosque. MAPPING: 'Shia' is attested for him personally by the English article and by the Iranica entry's framing; the branch context is Twelver throughout — the Usuli seminary system in which ijtihad is the qualifying degree, and the Jameh-mosque imamate — so the value is recorded shia-twelver. Wikidata's single structured value (Shia Islam) is consistent and is not counted as a further attestation."
+    sources: [source/wikipedia-mohammad-khiabani-en, source/iranica-khiabani, source/wikipedia-mohammad-khiabani-fa]
+external_ids: { wikidata: Q2658388 }
+sources: [source/wikipedia-mohammad-khiabani-en, source/wikipedia-mohammad-khiabani-fa, source/iranica-khiabani, source/wikidata-mohammad-khiabani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Khiabani' (revision 1372095899 of 30 August 2026), the Persian Wikipedia article (revision 44796181 of 21 October 2026), Mansour Bonakdarian's Encyclopaedia Iranica entry 'Khiabani, Shaikh Mohammad' (published 27 September 2022; last updated 11 October 2022), and Wikidata item Q2658388, all read directly on 26 October 2026. The birth year is debated (Iranica's ca. 1297/1879-80 against 1880 elsewhere) and Wikidata's birthplace value (Najaf) is an error recorded in its source file and not followed. His faith is shia-twelver/documented under the Shia-mapping rule, the mapping and both attesting traditions stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-37
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,33 @@
+id: person/mehdi-taremi
+class: person
+label:
+  ar: "مهدي طارمي"
+  en: "Mehdi Taremi"
+  ur: "مہدی طارمی"
+summary:
+  ar: "لاعب كرة قدم إيراني محترف (وُلد سنة 1992 في بوشهر). مهاجم برز مع برسيبوليس هدافًا للدوري الإيراني مرتين، ثم لعب لريو آفي وبورتو — حيث اختير هدفه المقصي ضد تشيلسي أجمل أهداف دوري الأبطال 2021 — وإنتر ميلان وأولمبياكوس قبل الوصل سنة 2026؛ دولي إيراني منذ 2015 شارك في ثلاث كؤوس عالم."
+  en: "Iranian professional footballer (born 1992 in Bushehr). A striker who twice finished as the Iranian league's top scorer with Persepolis before playing for Rio Ave and Porto — where his bicycle kick against Chelsea was voted UEFA's goal of the season — Inter Milan and Olympiacos, joining Al Wasl in 2026; an Iran international since 2015 who played at three World Cups."
+  ur: "ایرانی پیشہ ور فٹبالر (پیدائش 1992، بوشہر)۔ اسٹرائیکر جو پرسپولیس کے ساتھ دو بار ایرانی لیگ کے ٹاپ اسکورر رہے، پھر ریو آوے اور پورٹو کے لیے کھیلے — چیلسی کے خلاف ان کا بائیسکل کک گول یوئیفا کا سیزن گول قرار پایا — انٹر میلان اور اولمپیاکوس کے بعد 2026 میں الوصل میں شامل ہوئے؛ 2015 سے ایران کے بین الاقوامی کھلاڑی، تین ورلڈ کپ کھیلے۔"
+names:
+  - { value: "Mehdi Taremi", kind: full }
+  - { value: "مهدي طارمي", kind: full }
+born:
+  edtf: "1992-07-18"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles both give 18 July 1992, born in Bushehr, Iran. There is no place entity for Bushehr, so no born_in edge is written. Hijri year 1413 derived from the Gregorian date."
+  sources: [source/wikipedia-mehdi-taremi-en, source/wikipedia-mehdi-taremi-ar]
+gender: male
+roles: [athlete]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one attestation family exists, which does not engage the Shia-mapping rule. The English article makes no statement of his religion anywhere — neither 'Muslim' nor 'Shia' occurs in its text. The Arabic article's infobox gives his religion, uncited, as 'Muslim Shia' (مسلم شيعي), a value drawn from Wikidata — one source family only, the Hamida Javanshir configuration. The one Arabic web page devoted to the question (the almrj3 Q&A site) states expressly that his religion 'is not known', adding only that he is believed to follow Islam according to the Shia school — a hedge, not an attestation; a Persian biography site calls him devout in generic terms only. One infobox family plus an explicitly hedged belief do not meet the two-source rule, so the value is unknown and the infobox wording is preserved here."
+    sources: [source/wikipedia-mehdi-taremi-en, source/wikipedia-mehdi-taremi-ar]
+wings: [people, living]
+sources: [source/wikipedia-mehdi-taremi-en, source/wikipedia-mehdi-taremi-ar]
+provenance: { layer: own-research, source: "English Wikipedia and Arabic Wikipedia articles, read on 26 October 2026 (the Arabic article in full; the English article's full text searched for any religion statement, with its biography and career read); the reading route did not expose revision ids, so consultation dates are recorded in the source files in place of revisions (the wave-33 section A and Batch 40 precedent). No Wikidata item id could be grounded through the reading route available, so no wikidata source or external id is recorded even though the Arabic infobox value derives from Wikidata (the Hasim Rahman precedent); that derivation is stated in the faith note and the Arabic source's reliability note. No earlier record for him existed in data/person/ under mehdi-taremi or any other spelling checked (fragment taremi searched across data/ and content/); this is a new build, not an enrichment.", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-37" }
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
