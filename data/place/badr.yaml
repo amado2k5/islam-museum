@@ -13,3 +13,8 @@ coordinate_note: "GeoNames places the modern town (Badr Hunayn) 1.4 km away; the
 external_ids: { geonames: "107744" }
 sources: [source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b5", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
