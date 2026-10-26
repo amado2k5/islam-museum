@@ -1,0 +1,47 @@
+id: person/hasrat-mohani
+class: person
+label: { ar: "حسرت موهاني", en: "Hasrat Mohani", ur: "حسرت موہانی" }
+names:
+  - { value: "سيد فضل الحسن", kind: full }
+  - { value: "Syed Fazl-ul-Hasan", kind: full }
+  - { value: "حسرت موهاني", kind: pen }
+  - { value: "Hasrat Mohani", kind: pen }
+gender: male
+summary:
+  ar: "شاعر أردي ومناضل استقلال هندي (1875–1951)، اسمه سيد فضل الحسن وتخلّصه «حسرت». كان أول من طالب بالاستقلال التام للهند في مؤتمر أحمد آباد 1921، وصاحب شعار «انقلاب زنده باد»، وترأس الرابطة الإسلامية 1919، وشارك في تأسيس الحزب الشيوعي الهندي، وبقي في الهند بعد التقسيم وعضوًا في الجمعية التأسيسية."
+  en: "Urdu poet and Indian independence activist (1875–1951), born Syed Fazl-ul-Hasan, with the pen name Hasrat. He was the first to demand complete independence for India, at the Ahmedabad Congress of 1921, coined the slogan 'Inquilab Zindabad', presided over the Muslim League in 1919, helped found the Communist Party of India, and after Partition remained in India as a member of its Constituent Assembly."
+  ur: "اردو شاعر اور ہندوستانی مجاہد آزادی (1875ء–1951ء)، اصل نام سید فضل الحسن اور تخلص ’حسرت‘۔ وہ پہلے شخص تھے جنھوں نے 1921ء کے احمد آباد کانگریس اجلاس میں ہندوستان کی مکمل آزادی کا مطالبہ کیا، ’انقلاب زندہ باد‘ کا نعرہ انھی کی تخلیق ہے، 1919ء میں مسلم لیگ کے صدر رہے، کمیونسٹ پارٹی آف انڈیا کے بانیوں میں شامل ہوئے، اور تقسیم کے بعد ہندوستان ہی میں رہے اور دستور ساز اسمبلی کے رکن بنے۔"
+roles: [poet, politician, activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1875"
+  hijri: "1292"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The birth date is contested in every direction. The English article's infobox and lead give 1 January 1875, while its biography warns that many books give his birth year as 1880 or 1881; the Urdu article gives 4 October 1875; the Arabic article gives 14 October 1878; Wikidata gives the year 1875 only. The record keeps the majority year 1875 at year precision, at Mohan in Unnao district; no place entity exists for Mohan, so no born_in edge is written. The Hijri year 1292, in which most of 1875 fell, is a conversion."
+  sources: [source/wikipedia-hasrat-mohani-en, source/wikipedia-hasrat-mohani-ur, source/wikipedia-hasrat-mohani-ar, source/wikidata-hasrat-mohani]
+died:
+  edtf: "1951-05-13"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles all give his death at Lucknow on 13 May 1951; Wikidata carries a second, year-only 1951 death value beside the day value. No place entity exists for Lucknow, so no died_in edge is written. The date falls in Sha'ban 1370 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-hasrat-mohani-en, source/wikipedia-hasrat-mohani-ar, source/wikipedia-hasrat-mohani-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article calls him personally 'a religious practicing Muslim' who had performed Hajj several times and stayed in mosques when in Delhi; the Arabic and Urdu articles name no school, and Wikidata records his religion as Islam only. His founding role in the Communist Party of India is a political affiliation, not a faith attestation, and no source describes him as an unbeliever, so the bar for atheist-or-sceptic is not engaged. His ghazals expressing love for Krishna are poetry, not an affiliation. The value therefore stays unknown: a Muslim attested in text, with no school named anywhere."
+    sources: [source/wikipedia-hasrat-mohani-en, source/wikipedia-hasrat-mohani-ar, source/wikipedia-hasrat-mohani-ur, source/wikidata-hasrat-mohani]
+external_ids: { wikidata: "Q3764778" }
+sources: [source/wikipedia-hasrat-mohani-en, source/wikipedia-hasrat-mohani-ar, source/wikipedia-hasrat-mohani-ur, source/wikidata-hasrat-mohani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hasrat Mohani' (revision 1379039816), Arabic Wikipedia 'حسرت موهاني' (revision 75608995), Urdu Wikipedia 'حسرت موہانی' (revision 11801244) and Wikidata item Q3764778 (item revision 2530121690), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (mohani, hasrat, fazl), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. His wife Nishatunnisa Mohani and his poetry teachers Tasleem Lucknawi and Naseem Dehlvi have no records, so no spouse_of or student_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

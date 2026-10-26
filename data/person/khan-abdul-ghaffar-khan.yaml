@@ -1,0 +1,48 @@
+id: person/khan-abdul-ghaffar-khan
+class: person
+label: { ar: "عبد الغفار خان", en: "Khan Abdul Ghaffar Khan", ur: "خان عبد الغفار خان" }
+names:
+  - { value: "Khan Abdul Ghaffar Khan", kind: full }
+  - { value: "Abdul Ghaffar Khan", kind: alternate }
+  - { value: "Bacha Khan", kind: laqab }
+  - { value: "Badshah Khan", kind: laqab }
+  - { value: "Frontier Gandhi", kind: laqab }
+gender: male
+summary:
+  ar: "زعيم بشتوني ومناضل لاعنفي (1890–1988) من أوتمانزاي في هشتنگار، عُرف بـ«باشا خان» و«غاندي الحدود». أسس حركة «خُداي خدمتگار» (القمصان الحمر) سنة 1929 لمقاومة الحكم البريطاني باللاعنف، وعارض تقسيم الهند، وقضى سنوات طويلة في سجون بريطانيا ثم باكستان، ودُفن بوصيته في جلال آباد بأفغانستان."
+  en: "Pashtun leader and nonviolent activist (1890–1988) from Utmanzai in Hashtnagar, known as Bacha Khan and the 'Frontier Gandhi'. In 1929 he founded the Khudai Khidmatgar ('Servants of God', the Red Shirts) to resist British rule nonviolently; he opposed the Partition of India, spent long years in British and then Pakistani prisons, and by his will was buried at Jalalabad in Afghanistan."
+  ur: "ہشٹنگر کے اتمانزئی سے تعلق رکھنے والے پشتون رہنما اور عدم تشدد کے علمبردار (1890ء–1988ء)، ’باچا خان‘ اور ’سرحدی گاندھی‘ کہلائے۔ انھوں نے 1929ء میں برطانوی راج کے خلاف عدم تشدد کی مزاحمت کے لیے ’خدائی خدمتگار‘ تحریک (سرخ پوش) قائم کی، تقسیم ہند کی مخالفت کی، برطانوی اور پھر پاکستانی جیلوں میں طویل عرصہ گزارا، اور وصیت کے مطابق جلال آباد، افغانستان میں دفن ہوئے۔"
+roles: [politician, activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1890-02-06"
+  hijri: "1307"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata all give 6 February 1890, at Utmanzai in Hashtnagar; no place entity exists for Utmanzai or Charsadda, so no born_in edge is written. The date falls in Rajab 1307 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-khan-abdul-ghaffar-khan-en, source/wikipedia-khan-abdul-ghaffar-khan-ar, source/wikipedia-khan-abdul-ghaffar-khan-ur, source/wikidata-khan-abdul-ghaffar-khan]
+died:
+  edtf: "1988-01-20"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata all give his death at Peshawar on 20 January 1988; following his will he was buried at his house in Jalalabad, Afghanistan. No place entities exist for Peshawar or Jalalabad, so no died_in or buried_in edge is written. The date falls in 1408 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-khan-abdul-ghaffar-khan-en, source/wikipedia-khan-abdul-ghaffar-khan-ar, source/wikipedia-khan-abdul-ghaffar-khan-ur, source/wikidata-khan-abdul-ghaffar-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Sunni reading stands one attestation short, for the founder's word. The English article's lead calls the man himself 'a devout Muslim', and its biography says he was born into 'a prosperous Sunni Muslim Muhammadzai Pashtun family': the word Sunni there describes the family he was born into, and family background never counts as the man's own attestation. The Arabic article's infobox gives his religion as Islam; the Urdu article names no school (it records his campaign, through the Anjuman-e Islah, against un-Islamic customs among Muslims); Wikidata records his religion as Islam only. No source names a school for Ghaffar Khan himself, so the value stays unknown with the Sunni family reading preserved here."
+    sources: [source/wikipedia-khan-abdul-ghaffar-khan-en, source/wikipedia-khan-abdul-ghaffar-khan-ar, source/wikipedia-khan-abdul-ghaffar-khan-ur, source/wikidata-khan-abdul-ghaffar-khan]
+external_ids: { wikidata: "Q312966" }
+sources: [source/wikipedia-khan-abdul-ghaffar-khan-en, source/wikipedia-khan-abdul-ghaffar-khan-ar, source/wikipedia-khan-abdul-ghaffar-khan-ur, source/wikidata-khan-abdul-ghaffar-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Ghaffar Khan' (revision 1380553168), Arabic Wikipedia 'عبد الغفار خان' (revision 75594268), Urdu Wikipedia 'خان عبد الغفار خان' (revision 12145211) and Wikidata item Q312966 (item revision 2561036664), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (ghaffar, abdul-ghaffar, bacha, badshah), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; the classical abd-al-ghaffar records are different men. No group record exists for the Khudai Khidmatgar, and his father Abdul Bahram Khan, his brother Khan Abdul Jabbar Khan and his sons have no person records, so no founder_of, child_of or sibling_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
