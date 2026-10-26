@@ -22,11 +22,5 @@ Umayya tortured his slave because of his faith. Today the slave's name is rememb
 ## At the torture of Bilal (The Sealed Nectar p.90)
 He used to throw [[person/bilal-ibn-rabah|Bilal]] down in the open ground of Mecca at the heat of midday and place a rock on his chest, until [[person/abu-bakr|Abu Bakr]] bought him. {cite:mubarakpuri-raheeq p.90}.
 
-## For Sprouts
-Umayya ibn Khalaf, a chief of Banu Jumah who harmed his slave Bilal on Mecca's scorching ground until Abu Bakr bought him and freed him. He fell at Badr.
-
-## For Explorers
-Umayya ibn Khalaf, a chief of Banu Jumah. The sources keep for him above all one scene: his slave Bilal stretched on the scorching ground with the rock on his chest, until Abu Bakr came and bought him for the dearest price and freed him — he used to throw Bilal on Mecca's open ground in the noon heat and lay the rock on his chest. At Badr he marched with Mecca's chiefs and fell; the account says the Ansari youths held him to account for the burning-ground morning.
-
 ## For Scholars
 Umayya ibn Khalaf, a chief of Banu Jumah — the master who tortured his slave Bilal on Mecca's scorching ground, and one of the chiefs killed at Badr. The sources keep Umayya above all in one scene: his slave Bilal stretched on the scorching ground with the rock on his chest, until Abu Bakr came and bought him for the dearest price and freed him — one of the earliest documented confrontations of the story: a master against a believer, wealth against faith. At Badr he marched with Mecca's chiefs and was killed; the account says the Ansari youths held him to account for the burning-ground morning.

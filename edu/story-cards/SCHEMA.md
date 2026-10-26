@@ -6,14 +6,16 @@ no external media, no people), one narration line (~15–25 words).
 
 Trilingual (ar/en/ur) at every text field. `status.review: published` with a
 `provenance` block naming the generator and the source tradition the cards were
-restated from. No typed honorifics, no Qur'an text, no inline citations in the
-cards (the provenance carries the sources).
+restated from, plus a `sources:` list of defined source ids (`data/source/`).
+No typed honorifics, no Qur'an text, no inline citations in the cards (the
+sources list carries the citations).
 
 ```yaml
 slug: the-hijra-route
 title: { ar: "...", en: "...", ur: "..." }
 lede: { ar: "...", en: "...", ur: "..." }
 status: { review: published }
+sources: [source/ibn-hisham-saqqa]
 provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-story-cards", source: "..." }
 cards:
   - title: { ar: "...", en: "...", ur: "..." }
