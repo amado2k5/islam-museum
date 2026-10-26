@@ -46,7 +46,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep19 | 0:26:18 | nur-al-din ext ×3 (pt 2 of 2) | — | — | — | person ext | ~26 cited windows | 568ebc819 (PR #2112) |
 | al-mubdioune/ep20 | 0:25:21 | abd-al-qadir-al-jilani ext ×3 | — | — | — | person ext + sources | ~24 cited windows | c1212164d (PR #2113) |
 | al-mubdioune/ep21 | 0:26:22 | ibn-taymiyya ext ×3 (pt 1 of 2) | — | — | — | person ext + sources | ~24 cited windows | 6d06d7e1a (PR #2116) |
-| al-mubdioune/ep22 | 0:25:35 | ibn-taymiyya ext ×3 (pt 2 of 2) | — | — | — | person ext | ~26 cited windows | pending |
+| al-mubdioune/ep22 | 0:25:35 | ibn-taymiyya ext ×3 (pt 2 of 2) | — | — | — | person ext | ~26 cited windows | c07a08293 (PR #2118) |
+| al-mubdioune/ep23 | 0:26:12 | yusuf-ibn-tashfin ext ×3 (pt 1 of 2) | — | — | — | person ext + sources | ~24 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -71,6 +72,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-23` — al-mubdioune ep23 (yusuf-ibn-tashfin pt1: 'sixth rightly-guided caliph', Amazigh context + Almoravids, Abdallah b. Yasin ribat 443 AH, Abu Bakr's abdication, Marrakesh 454 AH, asceticism under vast rule, refuses caliphal title, taifa kings + Toledo 476 AH).
 - `devin-tareq-al-suwaidan-mubdioune-22` — al-mubdioune ep22 (ibn-taymiyya pt2: Tatar jihad + Akka, 'station of death', 21 imprisonments, pardoning Nasr's foes, oath-by-divorce + triple-divorce fatwas, works incl 37-vol fatawa + Sarim, citadel death 728 AH + 82 khatmas).
 - `devin-tareq-al-suwaidan-mubdioune-21` — al-mubdioune ep21 (ibn-taymiyya pt1: named for grandmother Taymiyya, >90% family-environment stat labelled, 661 AH Harran birth, 200 shaykhs, fatwa at 20, Bazzar/Daqiq/Suyuti/Dhahabi testimony, dawn-dhikr session, boy refuses Quran wages, garment to beggar, generous answers).
 - `devin-tareq-al-suwaidan-mubdioune-20` — al-mubdioune ep20 (abd-al-qadir-al-jilani ext: Hasani/Husayni/Siddiqi lineage, 470 AH Gilan birth, mother's 40 dinars + bandit-chief conversion, Baghdad hardship, Ghazali method, 521 AH preaching + 70k estimate, mufti on two madhhabs, Nawawi/Ibn Taymiyya/Nadwi testimony).
