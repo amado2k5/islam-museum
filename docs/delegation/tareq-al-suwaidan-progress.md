@@ -25,7 +25,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | administrative-processus-abilities/ep03 | 2:01:42 | 33 files (ar/en/ur) + person ext | 4 new (pareto, welch, oncken, blanchard) + tariq-al-suwaidan ext | — | — | 6 concepts + 1 work | ~85 cited windows | cc6b2c5eb (PR #2038) |
 | administrative-processus-abilities/ep04 | 2:31:23 | 12 files (ar/en/ur) + 3 ext | 1 new (stephen-covey) + tariq ext | — | — | 3 concepts (al-tahfiz, musfafa-ittikhadh-al-qarar, taghyir-al-munazzamat) + ruya/ailiyya ext | ~90 cited windows | 5b40fa6e3 (PR #2058) |
 | administrative-processus-abilities/ep05 | 2:13:57 | 15 files (ar/en/ur) + 2 ext | 1 new (abdel-rahman-al-sumait) + tariq ext | — | — | 4 concepts (idarat-al-hayat, idarat-al-waqt, fariq-al-amal, al-majmua-al-shakliyya) + taghyir ext | ~75 cited windows | 7ffda64e4 (PR #2073) |
-| al-mubdioune/ep01 | 0:25:22 | 6 files (ar/en/ur) + person ext | tariq ext | — | — | 1 concept (rubaiyyat-sinaat-al-mubdiin) + 1 work (al-mubdioune-program) | ~45 cited windows | pending |
+| al-mubdioune/ep01 | 0:25:22 | 6 files (ar/en/ur) + person ext | tariq ext | — | — | 1 concept (rubaiyyat-sinaat-al-mubdiin) + 1 work (al-mubdioune-program) | ~45 cited windows | 13a147b65 (PR #2076) |
+| al-mubdioune/ep02 | 0:28:38 | jafar-al-sadiq ext ×3 | — | — | — | person ext only | ~20 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
