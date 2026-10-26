@@ -1,0 +1,36 @@
+---
+id: person/mirsaid-sultan-galiev
+lang: en
+source_lang: ar
+translators: []
+---
+
+# Mirsaid Sultan-Galiev
+
+## Summary
+Mirsaid Sultan-Galiev (13 July 1892 – 28 January 1940) was a Tatar Bolshevik revolutionary and theorist, the architect of Muslim "national communism". {cite:wikipedia-mirsaid-sultan-galiev-en} He chaired the Central Muslim Military Collegium, worked at the centre of the Soviet nationalities apparatus, and argued that the colonised peoples of the East needed their own autonomous communist movement — a position the party condemned as nationalist, pan-Islamic and pan-Turkic deviation. {cite:wikipedia-mirsaid-sultan-galiev-en} Arrested in 1923, 1928 and 1937, he was executed at Moscow in 1940 and posthumously rehabilitated in 1990. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru}
+
+## Career
+He was born in a schoolteacher's family in the village of Elembet'evo in Ufa gouvernement, Bashkiria — Wikidata also carries Karmaskaly, where a memorial stele stands, as a birthplace value, and the record follows the village both article texts name — and he learned Tatar and Arabic, history, geography and mathematics, with a basic understanding of the Quran and Sharia, at his father's new-method maktab. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikidata-mirsaid-sultan-galiev} {cite:wikipedia-mirsaid-sultan-galiev-ru} He graduated from the Kazan Tatar Teachers' School in 1911 and worked as a village schoolteacher and librarian in Bashkiria and Baku, publishing in Russian and Tatar newspapers, at first under pseudonyms such as Sukhoi and Syn naroda ("Son of the People"), and from 1914 under his own name. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru}
+
+In May 1917 he took part in the All-Russian Muslim congress in Moscow and was elected to the All-Russia Muslim Council; in July, at Kazan, he helped Mullanur Waxitov set up the Muslim Socialist Committee, and in November 1917 he joined the Bolsheviks. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru} He became the party's representative in the Central Commissariat of Muslim Affairs (Muskom), chaired the Central Muslim Military Collegium from 1918, and from 1919 to 1921 chaired the Central Bureau of Communist Organisations of the Peoples of the East. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru} During the Civil War he organised the defence of Kazan in August 1918 and was instrumental in bringing the Bashkir forces of Zeki Velidi Togan over to the Bolshevik side. {cite:wikipedia-mirsaid-sultan-galiev-en} In March 1921 he was sent to Crimea, where, the Russian article reports the historian T. B. Bykova's judgement, he made a key contribution to halting the Red Terror; his own report to Moscow put the number shot in Crimea at 20,000–25,000. {cite:wikipedia-mirsaid-sultan-galiev-ru}
+
+In December 1917, answering Tatars who accused him of betraying his people, he published his explanation: he went to the Bolsheviks not from sycophancy but from love of his people and belief in their cause, since only they had stopped the war, declared war on English and French imperialism, and proclaimed that Istanbul must be in Muslim hands. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ar}
+
+In 1923, during Lenin's illness, he was arrested and expelled from the party as a nationalist deviationist; released in 1924, he lost his protector with Lenin's death and lived watched by the security organs, working for the Hunting Union and writing reviews and translations. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru} Rearrested in 1928, he was sentenced to be shot in July 1930; the sentence was commuted in January 1931 to ten years' hard labour; released in 1934 to live in Saratov oblast, he was arrested again in 1937 and, after a forced confession, convicted of leading an anti-Soviet nationalist group aiming, on the basis of pan-Turkism and pan-Islamism, at a bourgeois-democratic Turan state. {cite:wikipedia-mirsaid-sultan-galiev-en} The death sentence of December 1939 was carried out on 28 January 1940 in Moscow; the Arabic article's lead misprints the execution date as 28 June 1940, an error the record notes rather than follows. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru} {cite:wikipedia-mirsaid-sultan-galiev-ar} He was posthumously rehabilitated in 1990, and a square in Kazan's historic centre has borne his name since 1992. {cite:wikipedia-mirsaid-sultan-galiev-ru}
+
+## Works
+Most of his writings, speeches and essays were destroyed after his fall; a selection survives as Izbrannye trudy ("Selected Works", Kazan, 1998). {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru} The Russian article's bibliography also lists his piece "Methods of Anti-Religious Propaganda among Muslims", which the Arabic article says he wrote in 1921 on the executive committee's commission and published first in Zhizn' Natsional'nostei. {cite:wikipedia-mirsaid-sultan-galiev-ru} {cite:wikipedia-mirsaid-sultan-galiev-ar}
+
+## Positions and criticism
+This section sets out positions as reported in the sources; it is not a verdict by the museum.
+
+**National communism.** His theory held that the world was divided into an exploiting metropolitan half and an exploited colonial half, that the proletariat of the imperial core would go on oppressing the colonies even after a revolution at home, and that the Muslim masses therefore had to be united in a communist movement of their own — with a "Colonial International" and what he called energetic materialism as its instruments. {cite:wikipedia-mirsaid-sultan-galiev-en} The Russian article describes his doctrine as an Islamic-socialist ideology joining elements of Marxism and Islam, which later found some echo in Muslim countries. {cite:wikipedia-mirsaid-sultan-galiev-ru}
+
+**The party's verdict on him.** The Bolsheviks thought him excessively tolerant of nationalism and religion, and in 1923 he was accused of nationalist, pan-Islamic and pan-Turkic deviations; the security organs then fabricated the "Sultan-Galiyev case" against him and at least 23 of his associates, and "Sultangaliyevshchina" became the label for the alleged deviation. {cite:wikipedia-mirsaid-sultan-galiev-en} {cite:wikipedia-mirsaid-sultan-galiev-ru}
+
+**His personal belief.** The sources do not settle it, and the museum records the conflict rather than choosing: Wikidata's only religion value is the generic Islam; the Arabic article calls him a leader of the Muslim Tatars and records his commissioned 1921 article on anti-religious propaganda among Muslims; the English article records his Quran-and-Sharia schooling and his self-presentation as a servant of the Muslim peoples; no source names a school for him, and none makes a settled attestation of atheism. His faith is therefore recorded as unknown in his data record. {cite:wikidata-mirsaid-sultan-galiev} {cite:wikipedia-mirsaid-sultan-galiev-ar} {cite:wikipedia-mirsaid-sultan-galiev-en}
+
+## Sources
+- The defined source entities cited above, recorded in `data/source/`.
+- Revisions of this article must be dated, and must name the source that changed each fact.
