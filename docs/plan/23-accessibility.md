@@ -21,11 +21,11 @@ The museum is for everyone, so accessibility is a property of the site, not a fe
 | A10 | Easy-read link on entity pages flagged for the Kids' Wing even without leveled sections (WCAG 3.1.5 stretch) |
 | A11 (CI) | `npm run axe` — @axe-core/playwright over a route matrix in ar/en/ur, serious/critical fails CI; Lighthouse extended to en/ur |
 
-## Pending — needs people or budget
+## Future roadmap — needs people or budget (planned, not scheduled)
 
-- **A5 — wider braille/EPUB coverage.** Shipped for pathways, Kids' Wing reads and the statement; extending `/{lang}/books/` to every entity's prose is a volume/hosting question (72k files — R2, not Pages).
-- **A9 — sign-language videos** (welcome + wing tours). Requires Deaf signers and recording: budget/partner decision for the founder.
-- **External audit + ACR/VPAT** (VPAT 2.5 INT: WCAG + 508 + EN 301 549) and a paid user-testing panel of blind, Deaf, deafblind, motor-impaired and neurodivergent users — required before the statement can say "conformant" and before award submissions (Museums + Heritage, UNESCO routes). Track in `docs/outreach/`.
+- **A5 (later increment) — wider braille/EPUB coverage.** Shipped for pathways, Kids' Wing reads and the statement; extending `/{lang}/books/` to every entity's prose is a volume/hosting question (72k files — R2, not Pages).
+- **A9 — sign-language videos** (welcome + wing tours). Planned; requires Deaf signers (ASL, LSQ, BSL, International Sign, Arabic and Pakistani sign languages) and recording — budget/partner decision for the founder.
+- **External audit + ACR/VPAT** (planned on the roadmap) (VPAT 2.5 INT: WCAG + 508 + EN 301 549) and a paid user-testing panel of blind, Deaf, deafblind, motor-impaired and neurodivergent users — required before the statement can say "conformant" and before award submissions (Museums + Heritage, UNESCO routes). Track in `docs/outreach/`.
 
 ## Governance
 
