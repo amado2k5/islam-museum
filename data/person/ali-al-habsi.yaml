@@ -1,0 +1,37 @@
+id: person/ali-al-habsi
+class: person
+label: { ar: "علي الحبسي", en: "Ali Al-Habsi", ur: "علی الحبسی" }
+names:
+  - { value: "Ali Abdullah Harib Al-Habsi", kind: full }
+  - { value: "علي عبد الله بن حارب الحبسي", kind: full }
+  - { value: "علی الحبسی", kind: full }
+gender: male
+summary:
+  ar: "حارس مرمى عُماني وُلد سنة 1981، وأول لاعب عُماني يبني مسيرة احترافية في أوروبا: لين النرويجي، وبولتون واندررز، وويغان أثلتيك الذي فاز معه بكأس الاتحاد الإنجليزي سنة 2013، وريدينغ، والهلال السعودي، ووست بروميتش ألبيون. كان حارس عُمان الأول لنحو عقدين، وفاز معها بكأس الخليج سنة 2009 ونال لقب أفضل حارس في البطولة أربع مرات، واعتزل سنة 2020."
+  en: "Omani goalkeeper, born in 1981, and the first Omani footballer to build a career in Europe: Lyn in Norway, Bolton Wanderers, Wigan Athletic — with whom he won the FA Cup in 2013 — Reading, Al-Hilal in Saudi Arabia and West Bromwich Albion. Oman's first-choice goalkeeper for nearly two decades, he won the Arabian Gulf Cup with Oman in 2009 and was named the tournament's best goalkeeper four times. He retired in 2020."
+  ur: "عمانی گول کیپر، 1981 میں پیدا ہوئے، اور یورپ میں کریئر بنانے والے پہلے عمانی فٹبالر: ناروے کے لین، بولٹن وانڈررز، ویگن ایتھلیٹک — جن کے ساتھ انہوں نے 2013 میں ایف اے کپ جیتا — ریڈنگ، سعودی الہلال اور ویسٹ برومویچ البیون۔ تقریباً دو دہائیوں تک عمان کے پہلے پسندیدہ گول کیپر رہے، 2009 میں عمان کے ساتھ عربین گلف کپ جیتا اور چار بار ٹورنامنٹ کے بہترین گول کیپر قرار پائے۔ 2020 میں ریٹائر ہوئے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1981-12-30"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata (Q312062) all give 30 December 1981. The birthplace is contested between the traditions: the English article's infobox and Wikidata give Muscat, while the Arabic article's infobox gives Al-Mudhaibi (المضيبي), the town of his first club. Because the traditions conflict, no born_in edge is written and both places are carried here and in the prose. The Hijri year 1402 is the tabular conversion of the Gregorian date."
+  sources: [source/wikipedia-ali-al-habsi-en, source/wikipedia-ali-al-habsi-ar, source/wikidata-ali-al-habsi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The sources name Islam for Al-Habsi generically and describe his practice, but none names a school. The English article's personal-life section calls him a practising Muslim, citing The Guardian (9 December 2011), and says his faith plays a big part in his life, citing his 2012 interview for the Association of Muslim Footballers; the Arabic article says he is a committed Muslim («مسلم ملتزم»), citing the same Guardian article — one source family, not two independent ones. No source names an Ibadi affiliation for him, and his Omani nationality alone never counts. Wikidata gives only generic Islam. His faith is therefore recorded as unknown."
+    sources: [source/wikipedia-ali-al-habsi-en, source/wikipedia-ali-al-habsi-ar, source/wikidata-ali-al-habsi]
+external_ids: { wikidata: "Q312062" }
+sources: [source/wikipedia-ali-al-habsi-en, source/wikipedia-ali-al-habsi-ar, source/wikidata-ali-al-habsi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381382822 of 22 October 2026), Arabic Wikipedia (revision 74571580 of 12 May 2026) and Wikidata Q312062, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Al-Habsi existed in data/person/ (no hit under 'habsi' in data/person/ or data/source/), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace is contested between Muscat (English article, Wikidata) and Al-Mudhaibi (Arabic article), so it is carried in the born note and the prose only, rather than asserted as an edge to either place."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

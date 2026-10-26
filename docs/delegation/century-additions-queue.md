@@ -306,11 +306,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hassan El Fakiri — 1977–Living
 - [x] Zesh Rehman — 1983–Living
 - [x] Hamza Choudhury — 1997–Living
-- [ ] Yan Dhanda — 1998–Living
-- [ ] Zidane Iqbal — 2003–Living
-- [ ] Ali Al-Habsi — 1981–Living
-- [ ] Younis Mahmoud — 1983–Living
-- [ ] Nashat Akram — 1984–Living
+- [x] Yan Dhanda — 1998–Living
+- [x] Zidane Iqbal — 2003–Living
+- [x] Ali Al-Habsi — 1981–Living
+- [x] Younis Mahmoud — 1983–Living
+- [x] Nashat Akram — 1984–Living
 - [ ] Hawar Mulla Mohammed — 1981–Living
 - [ ] Omar Al Somah — 1989–Living
 - [ ] Omar Khribin — 1994–Living
