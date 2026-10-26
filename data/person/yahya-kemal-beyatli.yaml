@@ -1,0 +1,53 @@
+id: person/yahya-kemal-beyatli
+class: person
+label: { ar: "يحيى كمال بياتلي", en: "Yahya Kemal Beyatlı", ur: "یحییٰ کمال بیاتلی" }
+names:
+  - { value: "يحيى كمال بياتلي", kind: full }
+  - { value: "Yahya Kemal Beyatlı", kind: full }
+  - { value: "Ahmet Âgâh", kind: alternate }
+  - { value: "Yahya Kemal", kind: pen }
+  - { value: "Agâh Kemal", kind: pen }
+  - { value: "Esrar", kind: pen }
+  - { value: "Mehmet Agâh", kind: pen }
+  - { value: "Süleyman Sadi", kind: pen }
+gender: male
+summary:
+  ar: "شاعر وكاتب وسياسي ودبلوماسي تركي، وُلد في سكوبيه سنة 1884 وتوفي في إسطنبول سنة 1958. عاش في باريس شابًا، وعاد إلى إسطنبول سنة 1912 أستاذًا وشاعرًا معروفًا، وكان نائبًا في البرلمان وسفيرًا لتركيا في بولندا والبرتغال وباكستان، وجعل شعره مبنيًا على النغم والإيقاع الداخلي ومشحونًا بحنين الحضارة العثمانية ومدينة إسطنبول."
+  en: "Turkish poet, author, politician and diplomat, born at Skopje in 1884 and died at Istanbul in 1958. He spent his youth in Paris, returned to Istanbul in 1912 as a known poet and professor, sat as a deputy in parliament and served as Turkey's ambassador to Poland, Portugal and Pakistan; his poetry is built on melody and inner rhythm and is charged with longing for Ottoman civilisation and for Istanbul."
+  ur: "ترک شاعر، مصنف، سیاست دان اور سفارت کار، 1884ء میں سکوپیے میں پیدا ہوئے اور 1958ء میں استنبول میں وفات پائی۔ جوانی پیرس میں گزاری، 1912ء میں استنبول لوٹے، رکنِ پارلیمان رہے اور پولینڈ، پرتگال اور پاکستان میں ترکی کے سفیر رہے؛ ان کی شاعری نغمے اور عثمانی تہذیب کی یاد سے بھرپور ہے۔"
+roles: [poet, writer, politician, diplomat]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1884-12-02"
+  hijri: "1302"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Skopje on 2 December 1884: the English, Turkish and Arabic articles and Wikidata all give this day. The Hijri year 1302 is the tabular conversion of 2 December 1884 (13 Safar 1302) and is marked derived. Skopje has no place entity in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikidata-yahya-kemal-beyatli]
+died:
+  edtf: "1958-11-01"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Istanbul on 1 November 1958: the English, Turkish and Arabic articles agree. Wikidata carries two death values, 1 and 2 November 1958; the record follows the articles' 1 November and states the second value here. The Hijri year 1378 is the tabular conversion of 1 November 1958 (18 Rabi al-Thani 1378) and is marked derived."
+  sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikidata-yahya-kemal-beyatli]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 1 November 1958 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikidata-yahya-kemal-beyatli] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no source names a school for Yahya Kemal himself. The English article's infobox carries no religion field, and its text says only that his poetry shows a sensibility towards Islam, that his first religion lessons came from his mother and that he grew up in a household where hymns and chants were sung — upbringing and poetic theme, not attestation. The Turkish article likewise carries no religion field and names no school. The Arabic article's infobox religion field (الديانة) is present but left empty. Wikidata gives his religion (P140) only as the generic item Islam (Q432) — one structured-data value naming no school. Under the two-source rule and the doubt rule his school is therefore left unknown, with these readings preserved here."
+    sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikipedia-yahya-kemal-beyatli-ur, source/wikidata-yahya-kemal-beyatli]
+external_ids: { wikidata: "Q607246" }
+sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikipedia-yahya-kemal-beyatli-ur, source/wikidata-yahya-kemal-beyatli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Yahya Kemal Beyatlı' (revision 1371893164), Turkish Wikipedia 'Yahya Kemal Beyatlı' (revision 37016276), Arabic Wikipedia 'يحيى كمال بياتلي' (revision 75530277) and Urdu Wikipedia 'یحییٰ کمال بیاتلی' (revision 12070305), read on 26 October 2026, with Wikidata item Q607246. The harvest queue's years (1884–1958) are confirmed. The disagreements are stated in the notes rather than merged: Wikidata's second death value (2 November 1958) against the articles' 1 November. No record of this person existed in the museum under any spelling, fragment or QID before this build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
