@@ -69,7 +69,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-wassitiya/ep13 | ~1:10 | al-fatwa-ala-al-fadaiyyat NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~10 cited windows | 0a0d16714 (PR #2217) |
 | al-wassitiya/ep14 | ~1:00 | tamkin-al-mara NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~8 cited windows | 061d947e0 (PR #2219) |
 | al-wassitiya/ep15 | ~1:17 | al-mara-wal-ittifaqiyat-al-dawliyya NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | bfd53c74a (PR #2221) |
-| al-wassitiya/ep16 | ~1:17 | faqr-al-rumuz-al-nisaiyya NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~12 cited windows | pending |
+| al-wassitiya/ep16 | ~1:17 | faqr-al-rumuz-al-nisaiyya NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~12 cited windows | 3d06fb29d (PR #2222) |
+| al-wassitiya/ep17 | ~1:19 | al-muqawama-wal-irhab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -94,6 +95,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-17` — al-wassitiya ep17 (resistance vs terrorism: NEW concept/al-muqawama-wal-irhab; MB rep occupation-only-frame; host civilians=terrorism rule; nonviolence forms).
 - `devin-tareq-al-suwaidan-wassitiya-16` — al-wassitiya ep16 (female symbols scarcity: NEW concept/faqr-al-rumuz-al-nisaiyya; 3-cause debate; Promotable Woman study).
 - `devin-tareq-al-suwaidan-wassitiya-15` — al-wassitiya ep15 (arab woman + intl conventions: NEW concept/al-mara-wal-ittifaqiyat-al-dawliyya; polls 8% worse-globally, 32% worse-than-world; host rule: take-what-lifts-injustice).
 - `devin-tareq-al-suwaidan-wassitiya-14` — al-wassitiya ep14 (women's empowerment: NEW concept/tamkin-al-mara; polls 53% participation, 35/10/55 govt-support).

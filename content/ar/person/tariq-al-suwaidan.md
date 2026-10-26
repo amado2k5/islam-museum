@@ -143,3 +143,6 @@ translators: []
 
 ## في «الوسطية» — حلقة فقر الرموز النسائية
 أدار السويدان حلقة فقر الرموز النسائية عبر التاريخ — مؤكداً أن الهدف ليس إضعاف المرأة بل استكشاف كسر الحاجز {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.
+
+## في «الوسطية» — حلقة المقاومة والإرهاب
+أدار السويدان حلقة المقاومة والإرهاب وختم بمعادلته: حق المقاومة للمحتل لا يجادل فيه اثنان، وتوجيه السلاح للمدنيين إرهاب — «سبب غضب من الله قبل لعنة الغرب» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.
