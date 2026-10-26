@@ -77,5 +77,15 @@ translators: []
 ويذكر أن خطة قناة الرسالة الاستراتيجية كُتبت على نموذجه في يوم واحد من التاسعة صباحاً إلى التاسعة مساءً بطريقة المجموعة الشكلية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:29:00}
 ومن قواعده في المكافآت أن نسبة المدير من الأرباح عادة ثلاثة إلى خمسة في المئة، وفي الشركات المدرجة نصف إلى واحد في المئة، ولا تتجاوز عشرة في المئة لمن يُسلَّم العمل كله (needs_source: النسب من خلاصة خبرته). {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:59:00}
 
+## من دروسه: القيادة
+في الحلقة الثالثة يقدّم السويدان قواعده الشخصية في القيادة: أن القائد لا يداوم أكثر من خمسين في المئة من وقت العمل، وأنه لا يقبل توصيفاً وظيفياً لنفسه ليبقى مرجعاً له حق التدخل في كل شيء، وأنه يحتفظ بالقرار المالي — توقيع الشيكات — لأن متابعة المال تكشف له كل ما يجري. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:53:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:57:30}
+ويذكر أنه درس عند كين بلانشارد، وأنه أدار نحو سبعين مشروعاً في حياته كلها بأموال الآخرين لا بماله، منها ما ربح ومنها ما خسر. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:27:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:26:30}
+ومن قواعده الشخصية المعلنة: أنه كان في أكاديميته يرفض توظيف العرب ممن تجاوزت خبرتهم عشر سنوات لغياب نظام التطوير الذاتي عندهم، وأنه درّب ابنته على تحمّل مسؤولية واجبها بقاعدة «القرد قردك» لا أن يحل عنها. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:37:30}
+ويصرّح أن نمطه في تحليل ديسك هو «باء» — مؤثر يهتم بالناس وسريع — بفارق خمس عشرة نقطة عن الثانية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 01:37:30}
+
+## من دروسه: التحفيز وتغيير المنظمات
+في الحلقة الرابعة يذكر السويدان عن نفسه: أنه لا يكافئ أولاده على النجاح في لحظته بل يربطهم بالفكرة والهدف؛ وأنه صنع في أكاديمية الإبداع «بنك نقاط» للطلبة — نقاط على الدرجات والسلوك والنشاط تُستبدل بجوائز بينها تذاكر سفر وأسهم، مع مكافأة لأكثر طالب تطوراً — بديلاً عن تكريم المتفوقين وحدهم؛ وأنه غيّر هيكل الأكاديمية ست مرات في ثلاث سنوات لتجاوز النتائج الخطة؛ وأنه تعلّم نقد «الموظف المثالي» من ستيفن كوفي. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:42:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:00}
+ويحكي أنه في الخدمة العسكرية رفض أن يُسبّ من ضابط وأخبره أن من يسبه سيُسبّ مثله فقضى خدمته دون إهانة (قصة شخصية). {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:27:30}
+
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.

@@ -1,0 +1,48 @@
+id: person/mirza-jahangir-khan
+class: person
+label: { ar: "ميرزا جهانغير خان", en: "Mirza Jahangir Khan", ur: "مرزا جہانگیر خان" }
+names:
+  - { value: "میرزا جهانگیرخان", kind: full }
+  - { value: "Mirza Jahangir Khan Shirazi", kind: full }
+  - { value: "Jahangir-Khan-e Sur-e Esrafil", kind: laqab }
+  - { value: "Mirza Jahangir Khan", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب وصحفي إيراني (نحو 1870 أو 1875–1908) من شيراز، مؤسس أسبوعية «صور إسرافيل» التقدمية سنة 1907 ومحررها، ومن أعمدة الثورة الدستورية؛ أعدمه محمد علي شاه في باغ شاه بطهران بعد انقلاب يونيو 1908، مع ملك المتكلمين."
+  en: "Iranian writer and journalist (c. 1870 or 1875–1908) from Shiraz, founder and editor of the progressive weekly Sur-e Esrafil from 1907 and a pillar of the Constitutional Revolution. Mohammad Ali Shah had him executed at Bagh-e Shah in Tehran after the June 1908 coup, together with Malek al-Motakallemin."
+  ur: "ایرانی مصنف و صحافی (تقریباً 1870 یا 1875–1908)، اہل شیراز، ترقی پسند ہفت روزہ «صور اسرافیل» کے بانی و مدیر (1907 سے) اور آئینی انقلاب کے ستون۔ جون 1908 کی بغاوت کے بعد محمد علی شاہ نے انہیں ملک المتکلمین کے ساتھ تہران کے باغ شاہ میں قتل کرایا۔"
+roles: [writer, activist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1870"
+  hijri: "1287"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Shiraz to a relatively impoverished family; his father was Rajab-Ali Shirazi. English Wikipedia gives his birth only as '1870 or 1875' — its lead marks it circa and its sources divide between the two years (Rozaneh Magazine's age of 32 at death implies 1875 or 1876; other accounts give 38 at death, implying 1870) — so the year is recorded debated at 1870, the first of the article's two readings, and the Hijri year 1287 is the derived conversion of 1870."
+  sources: [source/wikipedia-mirza-jahangir-khan-en]
+died:
+  edtf: "1908-06-23"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Executed at Bagh-e Shah, Tehran, in the presence of Mohammad Ali Shah, together with Malek al-Motakallemin, after the coup of June 1908. English Wikipedia's lead and infobox give 23 June 1908, the day of the bombardment of the Majles, and the record follows them; the same article's biography, citing Rozaneh Magazine, says he was arrested and executed on 'Thursday 4 June 1908 (14 Khordad 1287)', a date before the coup the article itself describes — both readings are disclosed. He was strangled and stabbed in the heart, and is reported to have said 'Long live the constitutional government' before his death. The Hijri year 1326 is the derived conversion."
+  sources: [source/wikipedia-mirza-jahangir-khan-en]
+relations:
+  - { type: born_in, target: place/shiraz, sources: [source/wikipedia-mirza-jahangir-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school of Islam for him. English Wikipedia states in its text 'it is known that Mirza Jahangir Khan was an Azali Babi', citing Nikki Keddie (Modern Iran, Yale University Press, 2003, pp. 70, 179, 180), and records that he and Malek al-Motakallemin 'were Babis and thus apostates in the eyes of many of their contemporaries', which is why Amin ad-Dauleh refused them sanctuary before their arrest. Mangol Bayat (Iran's First Revolution, 1991, p. 43) supports only a pathway — that he very likely became a Babi in Tehran through his devotion to Haj Sheikh Hadi Najmabadi, himself 'declared heretical for his alleged Azali Babist sympathies'. The Babi attestation thus rests on ONE scholarly tradition (Keddie), with Bayat circumstantial; it does not meet the two-independent-sources bar for any value, and the faith enum carries no Babi value of its own. Under the doubt rule the value stays unknown, with the attestation preserved here in full."
+    sources: [source/wikipedia-mirza-jahangir-khan-en]
+sources: [source/wikipedia-mirza-jahangir-khan-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mirza Jahangir Khan', read in full on 26 October 2026; the reading route did not expose a revision id, so the consultation date is recorded in the source file and no revision id is invented. No Wikidata item could be grounded through the available routes, so no Wikidata source or external id is recorded (wave-33 precedent). Both dates are debated in the single article tradition: birth 1870 or 1875, death 23 June 1908 in the lead against 4 June 1908 in the biography; his faith is unknown — the Azali Babi attestation rests on Keddie alone and is preserved in the faith note, not applied."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-36
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

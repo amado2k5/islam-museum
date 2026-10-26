@@ -216,21 +216,21 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Bernard Hopkins — 1965–Living
 - [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
 - [x] Hasim Rahman — 1972–Living
-- [ ] Nazim Richardson — 1965–2020
-- [ ] Naseem Hamed (Prince Naseem) — 1974–Living
-- [ ] Amir Khan — 1986–Living
-- [ ] Artur Beterbiev — 1985–Living
-- [ ] Islam Makhachev — 1991–Living
-- [ ] Khamzat Chimaev — 1994–Living
-- [ ] Belal Muhammad — 1988–Living
-- [ ] Kamaru Usman — 1987–Living
-- [ ] Israel Adesanya (Contemporary) — 1989–Living
-- [ ] Demetrious Johnson — 1986–Living
-- [ ] Kalidou Koulibaly — 1991–Living
-- [ ] Edouard Mendy — 1992–Living
-- [ ] Hakim Ziyech — 1993–Living
-- [ ] Achraf Hakimi — 1998–Living
-- [ ] Yassine Bounou (Bono) — 1991–Living
+- [x] Nazim Richardson — 1965–2020
+- [x] Naseem Hamed (Prince Naseem) — 1974–Living
+- [x] Amir Khan — 1986–Living
+- [x] Artur Beterbiev — 1985–Living
+- [x] Islam Makhachev — 1991–Living
+- [x] Khamzat Chimaev — 1994–Living
+- [x] Belal Muhammad — 1988–Living
+- [x] Kamaru Usman — 1987–Living
+- [x] Israel Adesanya (Contemporary) — 1989–Living
+- [x] Demetrious Johnson — 1986–Living
+- [x] Kalidou Koulibaly — 1991–Living
+- [x] Edouard Mendy — 1992–Living
+- [x] Hakim Ziyech — 1993–Living
+- [x] Achraf Hakimi — 1998–Living
+- [x] Yassine Bounou (Bono) — 1991–Living
 - [ ] Sofyan Amrabat — 1996–Living
 - [ ] Walid Regragui — 1975–Living
 - [ ] Djamel Belmadi — 1976–Living
@@ -1087,26 +1087,26 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Jalil Mammadguluzadeh (1866–1932)
 - [x] Mirza Alakbar Sabir (1862–1911)
 - [x] Mammed Amin Rasulzade (1884–1955)
-- [ ] Fatali Khan Khoyski (1875–1920)
-- [ ] Nasib Bey Yusifbeyli (1881–1920)
-- [ ] Zeynalabdin Taghiyev (1823–1924)
-- [ ] Murtuza Mukhtarov (1865–1920)
-- [ ] Shamsi Asadullayev (1840–1913)
-- [ ] Hamida Javanshir (1873–1955)
-- [ ] Khurshidbanu Natavan (1832–1897)
-- [ ] Sultan Majid Afandiyev (1887–1938)
-- [ ] Nariman Narimanov (1870–1925)
-- [ ] Behbud Khan Javanshir (1878–1921)
-- [ ] Alimardan Topchubashev (1862–1934)
-- [ ] Uzeyir Hajibeyov (1885–1948)
+- [x] Fatali Khan Khoyski (1875–1920)
+- [x] Nasib Bey Yusifbeyli (1881–1920)
+- [x] Zeynalabdin Taghiyev (1823–1924)
+- [x] Murtuza Mukhtarov (1865–1920)
+- [x] Shamsi Asadullayev (1840–1913)
+- [x] Hamida Javanshir (1873–1955)
+- [x] Khurshidbanu Natavan (1832–1897)
+- [x] Sultan Majid Afandiyev (1887–1938)
+- [x] Nariman Narimanov (1870–1925)
+- [x] Behbud Khan Javanshir (1878–1921)
+- [x] Alimardan Topchubashev (1862–1934)
+- [x] Uzeyir Hajibeyov (1885–1948)
 - [ ] Sheikh Hamdullah Efendi (1850–1922)
-- [ ] Sami Efendi (1838–1912)
-- [ ] Hasan Riza Efendi (1849–1920)
+- [x] Sami Efendi (1838–1912)
+- [x] Hasan Riza Efendi (1849–1920)
 - [ ] Mehmed Şevket Eygi (Ancestors) (1880–1940)
-- [ ] Sheikh Fazlollah Nouri (1843–1909)
-- [ ] Sayyid Jamal al-Din Va'iz (1862–1908)
-- [ ] Mirza Jahangir Khan (1870–1908)
-- [ ] Sattar Khan (1866–1914)
+- [x] Sheikh Fazlollah Nouri (1843–1909)
+- [x] Sayyid Jamal al-Din Va'iz (1862–1908)
+- [x] Mirza Jahangir Khan (1870–1908)
+- [x] Sattar Khan (1866–1914)
 - [ ] Bagher Khan (1870–1916)
 - [ ] Morgan Shuster's Iranian Deputies (1880–1920)
 - [ ] Mirza Kuchik Khan (1880–1921)

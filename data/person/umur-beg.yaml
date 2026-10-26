@@ -6,20 +6,21 @@ label:
 roles: [ruler, military]
 gender: male
 summary:
-  ar: "بطاقة أولية لعمر بك بن آيدين، أمير إمارة آيدين البحري والمجاهد في إزمير وبحر الروم الذي عاون الباب العالي في الفترة البينية، توفي سنة ١٣٤٨م؛ تذكره معاجم الدول وكتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Umur Beg ibn Aydin, the seafaring emir of Aydin and ally of John VI Kantakouzenos, d. 1348; the dynastic handbook entry is not yet checked on the page."
+  ar: "عمر بك بن آيدين، أمير الإمارة البحري وحليف يوحنا السادس كانتاكوزينوس، قُتل سنة 1348م وهو يحاول استرداد قلعة إزمير {cite:encyclopaedia-of-islam-2 vol. 1 p. 832}."
+  en: "Umur Beg ibn Aydin, seafaring emir of the Aydın-oghlu and ally of John VI Cantacuzenus, killed in 1348 while trying to retake the fortress of İzmir {cite:encyclopaedia-of-islam-2 vol. 1 p. 832}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996, source/dawlat-uthmaniyya-salabi]
+sources:
+- source/bosworth-new-islamic-dynasties-1996
+- source/dawlat-uthmaniyya-salabi
+- source/encyclopaedia-of-islam-2
 external_ids:
   wikidata: Q717084
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book sources: Bosworth, The New Islamic Dynasties (1996); al-Sallabi, al-Dawla al-Uthmaniyya — entries not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
+  source: "Wikidata candidate; book sources: Bosworth, The New Islamic Dynasties (1996); al-Sallabi, al-Dawla al-Uthmaniyya; Encyclopaedia of Islam, 2nd ed., vol. 1 p. 832, entry AYDIN-OGHLU (queue seq 440)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (claude-haiku-5-5), EI2 vol. 1 pp. 829-832, batch ei2-b018"
   model: "SWE-2 High"
   run: wikidata-import-0020
-status:
-  review: draft
-  completeness: 1
+status: { review: published, completeness: 2 }

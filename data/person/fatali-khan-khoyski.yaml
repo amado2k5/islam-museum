@@ -1,0 +1,48 @@
+id: person/fatali-khan-khoyski
+class: person
+label: { ar: "فتح علي خان خويسكي", en: "Fatali Khan Khoyski", ur: "فتح علی خان خوئیسکی" }
+names:
+  - { value: "Fatali Khan Iskandar Khan oghlu Khoyski", kind: full }
+  - { value: "Fətəli xan İsgəndər xan oğlu Xoyski", kind: full }
+  - { value: "Fatali Khan Khoisky", kind: alternate }
+  - { value: "Fath Ali Khan Khoisky", kind: alternate }
+  - { value: "Fatali Khan Khoysky", kind: alternate }
+gender: male
+summary:
+  ar: "محامٍ وسياسي أذربيجاني (1875–1920)، نائب في مجلس الدوما الثاني، وأول رئيس لمجلس وزراء جمهورية أذربيجان الديمقراطية (1918–1919)، شغل أيضًا وزارات الداخلية والدفاع والعدل والخارجية؛ اغتيل في تفليس سنة 1920."
+  en: "Azerbaijani lawyer and statesman (1875–1920), deputy of the Second State Duma and the first chairman of the Council of Ministers (prime minister) of the Azerbaijan Democratic Republic (1918–1919), who also held the interior, defence, justice and foreign portfolios; assassinated at Tiflis in 1920."
+  ur: "آذربائیجانی وکیل اور سیاست دان (1875–1920)، دوسرے ریاستی دوما کے رکن اور آذربائیجان جمہوری جمہوریہ کے پہلے وزیرِ اعظم (1918–1919)؛ داخلہ، دفاع، عدل اور خارجہ کے وزیر بھی رہے؛ 1920 میں تفلس میں قتل ہوئے۔"
+roles: [lawyer, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1875-12-07"
+  hijri: "1292"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Nukha (present-day Shaki), in the Elizavetpol Governorate of the Russian Empire. The English article gives 7 December [O.S. 25 November] 1875; Wikidata stores the same day on the Julian calendar model (25 November 1875). The Hijri year 1292 is the tabular conversion. The museum has no place entity for Shaki, so no born_in edge is written."
+  sources: [source/wikipedia-fatali-khan-khoyski-en, source/wikipedia-fatali-khan-khoyski-az, source/wikidata-fatali-khan-khoyski]
+died:
+  edtf: "1920-06-19"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated at Tiflis (present-day Tbilisi) on 19 June 1920, shot near Erivansky Square by Aram Yerganian in Operation Nemesis, per the English article; the Azerbaijani article names a second gunman, Misak Grigoryan. His funeral was arranged by the Persian consulate at Tiflis and he was buried in the city's old Muslim cemetery, beside Mirza Fatali Akhundov. The Hijri year 1338 is the tabular conversion. The museum has no place entity for Tbilisi, so no died_in edge is written."
+  sources: [source/wikipedia-fatali-khan-khoyski-en, source/wikipedia-fatali-khan-khoyski-az, source/wikidata-fatali-khan-khoyski]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two articles make the same statement: the Azerbaijani article says, in its Personal life section, 'by religious belief, Fatali Khan Khoyski was a Shia Muslim', and the Russian article says 'by confession, Fatali Khan Khoyski belonged to the Shia Muslims'. But both cite ONE AND THE SAME source — the documentary volume Fətəli Xan Xoyski: həyat və fəaliyyəti: sənəd və materiallar (Baku: Azərbaycan, 1998), the Russian article at page 21 — so they are a single source family, not two independent attestations, and under the lane's two-source rule the Shia-mapping rule does not engage; under the doubt rule the value stays unknown. The Russian article adds that the prayers performed over him at birth were those required by the Shia board of the Caucasus — a family rite reported by the same article. The English and Arabic articles make no statement about his religion in their text and file him only by category ('Azerbaijani Shia Muslims'); Wikidata carries no religion value at all. His faith is therefore recorded unknown, with the single-family Shia attestation preserved here in full: one genuinely independent second source naming Shia for him would flip this record to shia-twelver/documented under the mapping rule."
+    sources: [source/wikipedia-fatali-khan-khoyski-az, source/wikipedia-fatali-khan-khoyski-ru, source/wikipedia-fatali-khan-khoyski-en, source/wikidata-fatali-khan-khoyski]
+external_ids: { wikidata: "Q984384" }
+sources: [source/wikipedia-fatali-khan-khoyski-en, source/wikipedia-fatali-khan-khoyski-az, source/wikipedia-fatali-khan-khoyski-ru, source/wikipedia-fatali-khan-khoyski-ar, source/wikidata-fatali-khan-khoyski]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Fatali Khan Khoyski' (revision 1380805907), Azerbaijani Wikipedia 'Fətəli xan Xoyski' (9062483), Russian Wikipedia 'Хойский, Фатали Хан Искендер оглы' (154703195) and Arabic Wikipedia 'فتح علي خان خويسكي' (76476793), all read on 26 October 2026, with Wikidata item Q984384; the Persian and Urdu articles were also checked and carry no religion statement. The queue gives 1875–1920, confirmed exactly. His two premiership readings agree (28 May 1918 – 14 April 1919 in the English and Arabic articles); the Azerbaijani article's infobox gives 14 March 1919 for the end of the premiership, which is its foreign-ministry date and is not followed. His faith is recorded unknown: the only Shia attestations, in the Azerbaijani and Russian articles, both cite the same 1998 Baku documentary volume and are therefore one source family, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-33
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
