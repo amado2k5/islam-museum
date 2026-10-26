@@ -1,0 +1,47 @@
+id: person/ibrahim-edhem-pasha
+class: person
+label: { ar: "إبراهيم أدهم باشا", en: "Ibrahim Edhem Pasha", ur: "ابراہیم ادہم پاشا" }
+names:
+  - { value: "إبراهيم أدهم باشا", kind: full }
+  - { value: "Ibrahim Edhem Pasha", kind: full }
+  - { value: "İbrahim Edhem Paşa", kind: alternate }
+gender: male
+summary:
+  ar: "إبراهيم أدهم باشا (وُلد في جزيرة خيوس سنة 1818 أو 1819 – توفي في إسطنبول في مارس 1893)، رجل دولة عثماني من أصل يوناني، نشأ في كنف الصدر الأعظم خسرو باشا وتعلّم هندسة المناجم في باريس فكان أول مهندس مناجم تركي بالمعنى الحديث، وتولّى الصدارة العظمى بين فبراير 1877 ويناير 1878 في صدر الحرب الروسية العثمانية، وهو والد عثمان حمدي بك مؤسس متاحف الآثار في إسطنبول."
+  en: "Ibrahim Edhem Pasha (born on Chios in 1818 or 1819 – died at Istanbul in March 1893) was an Ottoman statesman of Greek origin, raised in the household of Grand Vizier Hüsrev Pasha and trained as a mining engineer in Paris — the first Turkish mining engineer in the modern sense. He was Grand Vizier from February 1877 to January 1878, at the opening of the Russo-Turkish War, and the father of Osman Hamdi Bey."
+  ur: "ابراہیم ادہم پاشا (پیدائش: خیوس، 1818ء یا 1819ء – وفات: استنبول، مارچ 1893ء)، یونانی الاصل عثمانی سیاست دان؛ صدرِ اعظم خسرو پاشا کے گھر پرورش پائی، پیرس میں کان کنی کی انجینئرنگ پڑھی، فروری 1877ء سے جنوری 1878ء تک صدرِ اعظم رہے؛ عثمان حمدی بے کے والد۔"
+roles: [statesman, diplomat, engineer]
+wings: [people]
+born:
+  edtf: "1818"
+  hijri: "1233"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The Turkish article and Wikidata's year-precision value give 1818; the English article gives 1819 in its lead, infobox and birth category — the harvest queue's 1819 follows the English article. The record follows the Turkish article, which cites the standard prosopographies (İnal's Son Sadrazamlar; Kuneralp), with Wikidata, and states the split. The Hijri year 1233 is the tabular conversion of mid-1818. No born_in edge is written: the museum has no place entity for Chios."
+  sources: [source/wikipedia-ibrahim-edhem-pasha-en, source/wikipedia-ibrahim-edhem-pasha-tr, source/wikidata-ibrahim-edhem-pasha]
+died:
+  edtf: "1893-03-20"
+  hijri: "1310"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Turkish article gives 20 March 1893 at Istanbul; Wikidata's day-precision value gives 19 March 1893; the English article gives only the year 1893. The record follows the Turkish article. The Hijri year 1310 is the tabular conversion of 20 March 1893."
+  sources: [source/wikipedia-ibrahim-edhem-pasha-en, source/wikipedia-ibrahim-edhem-pasha-tr, source/wikidata-ibrahim-edhem-pasha]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul in March 1893 (Turkish article: 20 March; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-ibrahim-edhem-pasha-tr, source/wikidata-ibrahim-edhem-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. The English article's text, citing Wendy Shaw's Possessors and Possessed, says he was born in a Christian Greek Orthodox village on Chios to Greek parents, was orphaned in the 1822 Chios massacre, sold into slavery, brought to Constantinople and adopted and raised by the grand vizier Hüsrev Pasha — that is his birth and upbringing, which under the lane rules never counts as the man's own attested affiliation. The English article's categories file him under 'Converts to Sunni Islam from Eastern Orthodoxy' and 'Greek Muslims', and the Urdu article repeats the former-Christian classification, but no article's text discusses his personal religion or practice. The Turkish article's infobox religion field is empty and its categories call him only an ethnic Greek Muslim; the Arabic article's infobox gives Islam generically; Wikidata's religion (P140) value is the generic item Islam (Q432). So the school 'Sunni' is named only inside one Wikipedia family (the English article's categories and their derivatives), and under the two-source rule and the doubt rule his faith is recorded unknown, with the readings preserved here: born Greek Orthodox, raised in a Muslim grandee's household, and classified by that one family as a Sunni convert."
+    sources: [source/wikipedia-ibrahim-edhem-pasha-en, source/wikipedia-ibrahim-edhem-pasha-tr, source/wikipedia-ibrahim-edhem-pasha-ar, source/wikidata-ibrahim-edhem-pasha]
+external_ids: { wikidata: "Q343262" }
+sources: [source/wikipedia-ibrahim-edhem-pasha-en, source/wikipedia-ibrahim-edhem-pasha-tr, source/wikipedia-ibrahim-edhem-pasha-ar, source/wikipedia-ibrahim-edhem-pasha-ur, source/wikidata-ibrahim-edhem-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibrahim Edhem Pasha' (revision 1380229399), Turkish Wikipedia 'İbrahim Edhem Paşa' (revision 37483515), Arabic Wikipedia 'إبراهيم أدهم باشا' (revision 74716032) and Urdu Wikipedia 'ابراہیم ادہم پاشا' (revision 11393002), read on 26 October 2026, with Wikidata item Q343262. The harvest queue's years are 1819–1893: the death year is confirmed by all sources, but the birth year splits — the Turkish article and Wikidata give 1818, the English article 1819 — and the record follows the Turkish article with the split stated in the born note. His son Osman Hamdi Bey has a museum record (person/osman-hamdi-bey), but a child_of edge is written in the child's record, not here. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-28
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

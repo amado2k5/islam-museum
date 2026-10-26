@@ -1,0 +1,48 @@
+id: person/ibrahim-sinasi
+class: person
+label: { ar: "إبراهيم شناسي", en: "İbrahim Şinasi", ur: "ابراہیم شناسی" }
+names:
+  - { value: "إبراهيم شناسي", kind: full }
+  - { value: "İbrahim Şinasi", kind: full }
+  - { value: "Şinasi", kind: pen }
+gender: male
+summary:
+  ar: "إبراهيم شناسي (وُلد في إسطنبول في 5 أغسطس 1826 – توفي فيها في 13 سبتمبر 1871)، أديب وصحفي ومترجم عثماني رائد، صاحب أول مسرحية عثمانية حديثة «زواج شاعر» (1859)، ومؤسس صحيفتي «ترجمان أحوال» و«تصوير أفكار»، وداعية تبسيط اللغة التركية والكتابة للجمهور الواسع، ومن قادة جمعية العثمانيين الجدد."
+  en: "İbrahim Şinasi (born in Istanbul on 5 August 1826 – died there on 13 September 1871) was a pioneering Ottoman writer, journalist, translator and playwright: author of The Wedding of a Poet (1859), the first widely recognised Ottoman play in the modern European manner, founder of the newspapers Tercüman-ı Ahvâl and Tasvîr-i Efkâr, advocate of a simplified Turkish written for the general public, and a leader of the Young Ottomans."
+  ur: "ابراہیم شناسی (پیدائش: استنبول، 5 اگست 1826ء – وفات: استنبول، 13 ستمبر 1871ء)، عثمانی ادیب، صحافی، مترجم اور ڈراما نویس؛ پہلے جدید عثمانی ڈرامے «شاعر کی شادی» (1859ء) کے مصنف اور «ترجمانِ احوال» و «تصویرِ افکار» کے بانی، سادہ ترکی زبان اور عوامی ادب کے داعی۔"
+roles: [journalist, playwright, poet, writer]
+wings: [people]
+born:
+  edtf: "1826-08-05"
+  hijri: "1242"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article and Wikidata give 5 August 1826. The Turkish article's text warns that the birth date is not certainly documented: researchers have given 1824, 1826 or 1827, his friend and biographer Ebüzziya Tevfik stated 1826, and two document-grade sources support 1826, but no document fixes the exact day. The record follows the English article with Wikidata and Ebüzziya's testimony. The tabular conversion of 5 August 1826 falls at the very opening of 1242 AH (astronomical reckonings place the day in late 1241)."
+  sources: [source/wikipedia-ibrahim-sinasi-en, source/wikipedia-ibrahim-sinasi-tr, source/wikidata-ibrahim-sinasi]
+died:
+  edtf: "1871-09-13"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Turkish articles and Wikidata give 13 September 1871 at Istanbul (the English article adds that he died of a brain tumour). The Hijri year 1288 is the tabular conversion of 13 September 1871."
+  sources: [source/wikipedia-ibrahim-sinasi-en, source/wikipedia-ibrahim-sinasi-tr, source/wikidata-ibrahim-sinasi]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born at Istanbul (English and Turkish articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-ibrahim-sinasi-en, source/wikipedia-ibrahim-sinasi-tr, source/wikidata-ibrahim-sinasi] }
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 13 September 1871 (English and Turkish articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-ibrahim-sinasi-en, source/wikipedia-ibrahim-sinasi-tr, source/wikidata-ibrahim-sinasi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him. Neither the English nor the Turkish article's text or infobox gives any religion, and the Arabic article gives none either; Wikidata's only religion (P140) value is the generic item Islam (Q432) — one structured-data value, which never counts. His membership of the Société Asiatique, his Enlightenment advocacy and his Young Ottoman politics are intellectual positions, not a school attestation. Under the doubt rule his faith is recorded unknown."
+    sources: [source/wikipedia-ibrahim-sinasi-en, source/wikipedia-ibrahim-sinasi-tr, source/wikidata-ibrahim-sinasi]
+external_ids: { wikidata: "Q390560" }
+sources: [source/wikipedia-ibrahim-sinasi-en, source/wikipedia-ibrahim-sinasi-tr, source/wikipedia-ibrahim-sinasi-ar, source/wikidata-ibrahim-sinasi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'İbrahim Şinasi' (revision 1374628875), Turkish Wikipedia 'Şinâsi' (revision 38068836) and Arabic Wikipedia 'إبراهيم شناسي' (revision 72788214), read on 26 October 2026, with Wikidata item Q390560. No Urdu Wikipedia article exists. The harvest queue's years (1826–1871) are the record's readings, with the Turkish article's birth-date debate stated in the born note rather than merged. His patron Mustafa Reşid Pasha has a museum record (person/rashid-pasha-mustafa), but a patron_of edge is written in the patron's record, not here. His faith is left unknown under the doubt rule, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-28
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

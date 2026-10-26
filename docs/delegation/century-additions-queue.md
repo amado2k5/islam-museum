@@ -183,11 +183,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali Shaheed Muhammad — 1968–Living
 - [x] French Montana (Karim Kharbouch) — 1984–Living
 - [x] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
-- [ ] Maher Arar — 1970–Living
-- [ ] Monia Mazigh — 1970–Living
-- [ ] Omar Khadr — 1986–Living
-- [ ] Naheed Nenshi — 1972–Living
-- [ ] Salma Lakhani — 1952–Living
+- [x] Maher Arar — 1970–Living
+- [x] Monia Mazigh — 1970–Living
+- [x] Omar Khadr — 1986–Living
+- [x] Naheed Nenshi — 1972–Living
+- [x] Salma Lakhani — 1952–Living
 - [ ] Omar Alghabra — 1969–Living
 - [ ] Maryam Monsef — 1985–Living
 - [ ] Ahmed Hussen — 1975–Living
@@ -1057,16 +1057,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Imam Azzan bin Qais (1840–1871)
 - [x] Sheikh Abdallah bin Qasim Al Thani (1871–1957)
 - [x] Sheikh Jassim bin Mohammed Al Thani (1825–1913)
-- [ ] Mustafa Reşid Pasha (1800–1858)
-- [ ] Mehmed Emin Âli Pasha (1815–1871)
-- [ ] Keçecizade Fuad Pasha (1814–1869)
-- [ ] Ahmet Cevdet Pasha (1822–1895)
-- [ ] Ahmed Rıza (1858–1930)
-- [ ] Prince Sabahaddin (1879–1948)
-- [ ] Ibrahim Edhem Pasha (1819–1893)
-- [ ] Ibrahim Şinasi (1826–1871)
-- [ ] Tevfik Fikret (1867–1915)
-- [ ] Cenap Şahabettin (1870–1934)
+- [x] Mustafa Reşid Pasha (1800–1858)
+- [x] Mehmed Emin Âli Pasha (1815–1871)
+- [x] Keçecizade Fuad Pasha (1814–1869)
+- [x] Ahmet Cevdet Pasha (1822–1895)
+- [x] Ahmed Rıza (1858–1930)
+- [x] Prince Sabahaddin (1879–1948)
+- [x] Ibrahim Edhem Pasha (1819–1893)
+- [x] Ibrahim Şinasi (1826–1871)
+- [x] Tevfik Fikret (1867–1915)
+- [x] Cenap Şahabettin (1870–1934)
 - [ ] Yahya Kemal Beyatlı (1884–1958)
 - [ ] Ömer Seyfettin (1884–1920)
 - [ ] Halit Ziya Uşaklıgil (1866–1945)

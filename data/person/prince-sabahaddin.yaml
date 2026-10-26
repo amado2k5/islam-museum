@@ -1,0 +1,49 @@
+id: person/prince-sabahaddin
+class: person
+label: { ar: "الأمير محمد صباح الدين", en: "Prince Sabahaddin", ur: "شہزادہ محمد صباح الدین" }
+names:
+  - { value: "محمد صباح الدين", kind: full }
+  - { value: "Mehmed Sabahaddin", kind: full }
+  - { value: "Sultanzade Mehmed Sabahaddin", kind: alternate }
+  - { value: "Prens Sabahaddin", kind: alternate }
+  - { value: "الأمير صباح الدين", kind: alternate }
+gender: male
+summary:
+  ar: "الأمير محمد صباح الدين (وُلد في إسطنبول في 13 فبراير 1879 – توفي في نوشاتيل بسويسرا في 30 يونيو 1948)، أمير عثماني وعالم اجتماع ومفكر ليبرالي، ابن السلطانة سنيحة بنت السلطان عبد المجيد الأول، أسّس جمعية التشبّث الشخصي وعدم المركزية وحزب الأحرار، وقاد المعارضة الليبرالية للاتحاد والترقي، ونُفي عن بلاده مرات."
+  en: "Prince Mehmed Sabahaddin (born in Istanbul on 13 February 1879 – died at Neuchâtel, Switzerland, on 30 June 1948) was an Ottoman prince, sociologist and liberal thinker, son of Seniha Sultan, daughter of Sultan Abdülmecid I. He founded the League of Private Initiative and Decentralization and the Liberty Party, led the liberal opposition to the Committee of Union and Progress, and was repeatedly exiled."
+  ur: "شہزادہ محمد صباح الدین (پیدائش: استنبول، 13 فروری 1879ء – وفات: نوشاتیل، سوئٹزرلینڈ، 30 جون 1948ء)، عثمانی شہزادے، ماہرِ سماجیات اور لبرل مفکر؛ سلطان عبدالمجید اول کی صاحبزادی سنیحہ سلطان کے بیٹے؛ «تشبُّثِ شخصی و عدمِ مرکزیت» کی انجمن اور احرار پارٹی کے بانی، اتحاد و ترقی کے لبرل مخالف اور بارہا جلاوطن رہے۔"
+roles: [sociologist, politician, writer]
+wings: [people]
+born:
+  edtf: "1879-02-13"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Turkish articles both give 13 February 1879 at Istanbul, and one of Wikidata's two birth values agrees. Wikidata's second value gives 13 February 1877, and the English article's own birth category files him under 1878 births; the record follows the two articles. The Hijri year 1296 is the tabular conversion of 13 February 1879."
+  sources: [source/wikipedia-prince-sabahaddin-en, source/wikipedia-prince-sabahaddin-tr, source/wikidata-prince-sabahaddin]
+died:
+  edtf: "1948-06-30"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Turkish articles and Wikidata's day-precision value give 30 June 1948 at Neuchâtel, Switzerland; Wikidata also carries a year-precision 1948 value. The Hijri year 1367 is the tabular conversion of 30 June 1948. No died_in edge is written: the museum has no place entity for Neuchâtel."
+  sources: [source/wikipedia-prince-sabahaddin-en, source/wikipedia-prince-sabahaddin-tr, source/wikidata-prince-sabahaddin]
+relations:
+  - { type: born_in, target: place/istanbul, note: "He was born at Istanbul on 13 February 1879 (English and Turkish articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-prince-sabahaddin-en, source/wikipedia-prince-sabahaddin-tr, source/wikidata-prince-sabahaddin] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. The English article's royalty infobox has a religion field reading 'Sunni Islam', uncited and nowhere discussed in the article's text. The Arabic article's infobox religion field is empty; the Turkish article has no religion field; the Urdu article, a derivative of the English one, gives none. Wikidata's religion (P140) value is the generic item Islam (Q432), naming no school. So the school 'Sunni' rests on one infobox field in one article family, and under the two-source rule and the doubt rule his faith is recorded unknown, with the reading preserved here."
+    sources: [source/wikipedia-prince-sabahaddin-en, source/wikipedia-prince-sabahaddin-ar, source/wikidata-prince-sabahaddin]
+external_ids: { wikidata: "Q2110643" }
+sources: [source/wikipedia-prince-sabahaddin-en, source/wikipedia-prince-sabahaddin-tr, source/wikipedia-prince-sabahaddin-ar, source/wikipedia-prince-sabahaddin-ur, source/wikidata-prince-sabahaddin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mehmed Sabahaddin' (revision 1366283212), Turkish Wikipedia 'Prens Sabahaddin' (revision 38154315), Arabic Wikipedia 'الأمير صباح الدين' (revision 76802711) and Urdu Wikipedia 'محمد صباح الدین' (revision 6549877), read on 26 October 2026, with Wikidata item Q2110643. The harvest queue's years (1879–1948) are confirmed by the two main articles. The disagreements are stated in the notes rather than merged: Wikidata's second birth value (13 February 1877) and the English article's 1878-births category against the articles' 13 February 1879. No child_of edge is written: neither his mother Seniha Sultan nor his father Mahmud Celaleddin Pasha has a museum record. No member_of edge is written: the museum has no House of Osman group entity. His faith is left unknown under the two-source rule, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-28
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
