@@ -1,0 +1,48 @@
+id: person/mohammad-taqi-bahar
+class: person
+label:
+  en: "Mohammad-Taqi Bahar"
+  ar: "محمدتقی بهار"
+summary:
+  ar: "شاعر وعالم وصحفي وسياسي إيراني (1886–1951) لُقّب بملک‌الشعراء؛ من رجال الثورة الدستورية ومحرّري صحفها ونوّاب المجلس، صار أستاذًا للأدب الفارسي في جامعة طهران وألّف «سبک‌شناسی» في تاريخ أساليب النثر الفارسي وحرّر نصوصًا تاريخية كبرى."
+  en: "Iranian poet, scholar, journalist and politician (1886-1951), titled Malek osh-Sho'ara ('king of poets'); a constitutionalist newspaper editor and Majlis deputy who became professor of Persian literature at Tehran University, wrote Sabk-shenasi, the standard history of Persian prose styles, and edited major historical texts."
+names:
+  - { value: "Mohammad-Taqi Bahar", kind: full }
+  - { value: "محمدتقی بهار", kind: full }
+  - { value: "Malek osh-Sho'ara", kind: laqab }
+  - { value: "ملک‌الشعراء", kind: laqab }
+  - { value: "Bahar", kind: pen }
+  - { value: "Malek osh-Sho'ara Bahar", kind: alternate }
+gender: male
+roles: [poet, scholar, journalist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1886-12-10"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Mashhad. Persian Wikipedia gives his birth as Thursday 12 Rabi' al-awwal 1304 AH = 18 Azar 1265 SH, and English Wikipedia gives 10 December 1886; the Hijri year is the Persian article's own, not a conversion. Wikidata gives 7 November 1886, which neither article supports and which is not followed."
+  sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/wikidata-mohammad-taqi-bahar]
+died:
+  edtf: "1951-04-21"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Tehran, of tuberculosis; buried in the Zahir-od-dowleh cemetery. The day is split: Persian Wikipedia gives 1 Ordibehesht 1330 SH (= 21 April 1951) and the English article's text also gives 21 April, while its lead and infobox give 22 April and Wikidata carries both values; Encyclopaedia Iranica dates the death only to April 1951. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/wikidata-mohammad-taqi-bahar, source/iranica-mohammad-taqi-bahar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes a statement of his religion for him personally. English Wikipedia records only that at 18 he worked for a time as a preacher and clergyman and held the poet-laureateship of the Mashhad shrine before laying down his clerical activities in 1918 - an office and an occupation, not an attestation - and Encyclopaedia Iranica discusses his religious poems as part of his output, which is repertoire. Persian Wikipedia makes no statement of his religion, and Wikidata carries no religion value at all."
+    sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/iranica-mohammad-taqi-bahar, source/wikidata-mohammad-taqi-bahar]
+relations:
+  - { type: born_in, target: place/mashhad, sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa] }
+external_ids: { wikidata: Q1393466 }
+sources: [source/wikipedia-mohammad-taqi-bahar-en, source/wikipedia-mohammad-taqi-bahar-fa, source/wikidata-mohammad-taqi-bahar, source/iranica-mohammad-taqi-bahar]
+provenance: { layer: own-research, source: "Lane brief century-additions-40 (group Z2); grounded from English Wikipedia revision 1381169111, Persian Wikipedia revision 44817357, the Encyclopaedia Iranica entry by Loraine and Matini, and Wikidata item Q1393466 (revision 2556751510), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-40 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,40 @@
+id: person/bilal-philips
+class: person
+label: { ar: "بلال فيليبس", en: "Bilal Philips", ur: "بلال فلپس" }
+names:
+  - { value: "Abu Ameenah Bilal Philips", kind: full }
+  - { value: "Bilal Philips", kind: full }
+  - { value: "بلال فيليبس", kind: full }
+  - { value: "Dennis Bradley Philips", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وداعية كندي وُلد في كينغستون بجامايكا سنة 1947 باسم دنيس برادلي فيليبس، ونشأ مسيحيا ثم اعتنق الإسلام سنة 1972؛ نال البكالوريوس من الجامعة الإسلامية بالمدينة المنورة (1979) والماجستير من جامعة الملك سعود (1985) والدكتوراه من جامعة ويلز، وهو مؤسس الجامعة الإسلامية المفتوحة عبر الإنترنت (International Open University) ومستشارها، ويقيم في قطر، وله أكثر من خمسين كتابا مترجمة إلى لغات عدة."
+  en: "Canadian Islamic scholar and preacher born Dennis Bradley Philips in Kingston, Jamaica, in 1947; raised Christian, he converted to Islam in 1972, took a bachelor's degree at the Islamic University of Madinah (1979), a master's at King Saud University (1985) and a PhD at the University of Wales, and is the founder and chancellor of the International Open University (Islamic Online University); he lives in Qatar and has written, translated and commented on over fifty books."
+  ur: "کینیڈین ماہرِ اسلامیات و مبلغ، 1947 میں کنگسٹن، جمیکا میں ڈینس بریڈلی فلپس کے نام سے پیدا ہوئے؛ مسیحی ماحول میں پرورش پائی اور 1972 میں اسلام قبول کیا، جامعہ اسلامیہ مدینہ منورہ سے بیچلر (1979)، جامعہ شاہ سعود سے ماسٹرز (1985) اور جامعہ ویلز سے پی ایچ ڈی کی، اور وہ انٹرنیشنل اوپن یونیورسٹی (اسلامک آن لائن یونیورسٹی) کے بانی و چانسلر ہیں؛ وہ قطر میں مقیم ہیں اور ان کی پچاس سے زائد کتابیں کئی زبانوں میں ترجمہ ہو چکی ہیں۔"
+roles: [scholar, teacher, writer]
+wings: [people, living]
+regions: [americas-oceania, arabia]
+external_ids: { wikidata: Q860317 }
+born:
+  edtf: "1947-07-17"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Kingston, Jamaica birthplace from the English Wikipedia article, where the date is referenced to his official biography at bilalphilips.com. Wikidata (Q860317) gives the year 1947 only. The Hijri year 1366 is converter-derived."
+  sources: [source/wikipedia-bilal-philips-en, source/wikidata-bilal-philips]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent sources name his tradition for him personally. The English Wikipedia article's infobox gives his denomination as Sunni and his movement as Salafi, and its lead describes him as a Salafi, citing Duderija and Rasool's 2019 peer-reviewed study. Independently, the Eaalim Institute's profile calls him a Sunni scholar and states in terms that he 'works within the Salafi-leaning Sunni tradition'. Duderija and Rasool analyse him as a proponent of neo-traditional Salafism within the Sunni Islamic tradition. No source names a legal school (madhhab) for him, and the museum's faith enum has no Salafi value, so the tradition value sunni is recorded and the Salafi movement is stated here rather than encoded."
+    sources: [source/wikipedia-bilal-philips-en, source/eaalim-bilal-philips, source/duderija-rasool-bilal-philips-2019]
+sources: [source/wikipedia-bilal-philips-en, source/wikidata-bilal-philips, source/duderija-rasool-bilal-philips-2019, source/eaalim-bilal-philips]
+provenance:
+  layer: own-research
+  source: "§2 row 243 of the handoff ('Bilal Philips'), a named-person channel row. The English Wikipedia article was verified at revision 1377270324 of 28 September 2026 and the Wikidata item Q860317 was read directly; the Duderija and Rasool study (Religions 10(6):371, 2019) and the Eaalim Institute profile were read in full, all on 26 October 2026. The Eaalim profile conflicts with Wikipedia on two details (it gives his birth as 6 January 1947 and his PhD year as 1994) and is not used for dates; the Wikipedia date, referenced to his official biography, is followed. No place entity for Kingston and no group entity for the International Open University were found in the museum, so no born_in or founder_of relation is recorded. Faith mapping note: the two-source test is met for the Sunni tradition (Wikipedia infobox plus the independent Eaalim profile, with the peer-reviewed study situating his Salafism inside the Sunni tradition); because the enum has no Salafi value, the movement is carried in the faith note, and the founder may prefer unknown under a stricter reading — the readings are preserved in the note either way."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-47"
+status:
+  review: published
+  completeness: 3

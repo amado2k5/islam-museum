@@ -1,0 +1,36 @@
+id: person/muhammad-ibn-adam-al-kawthari
+class: person
+label: { ar: "محمد بن آدم الكوثري", en: "Muhammad ibn Adam Al-Kawthari", ur: "محمد بن آدم الكوثري" }
+names:
+  - { value: "محمد بن آدم الكوثري", kind: full }
+  - { value: "Muhammad ibn Adam Al-Kawthari", kind: full }
+  - { value: "أبو عبد الله", kind: kunya }
+  - { value: "Abu Abdullah", kind: kunya }
+gender: male
+summary:
+  ar: "فقيه ومفتٍ بريطاني من مدينة ليستر، مؤسس دار الإفتاء فيها وكبير مفتييها ومدرّس بجامعة علوم القرآن فيها. وُلد سنة 1976، وتخرّج في دار العلوم ببري، ثم درس في كراتشي ودمشق، وله مؤلفات في الفقه والعلاقات الزوجية."
+  en: "British jurist and mufti from Leicester, founder and Chief Mufti of Darul Ifta Leicester and a teacher at Jamiah Uloom-ul-Quran in the same city. Born in 1976, he graduated from Darul Uloom Bury and studied further in Karachi and Damascus; his books include works on jurisprudence and marital relations."
+  ur: "لیسٹر سے تعلق رکھنے والے برطانوی فقیہ و مفتی، دار الافتاء لیسٹر کے بانی و سربراہ مفتی اور جامعہ علوم القرآن میں مدرس۔ 1976 میں پیدا ہوئے، دار العلوم بری سے فارغ ہوئے، پھر کراچی و دمشق میں تعلیم حاصل کی؛ فقہ اور ازدواجی تعلقات پر ان کی تصانیف ہیں۔"
+roles: [scholar, jurist, writer]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1976"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Year and Leicester birthplace from the English Wikipedia article (revision 1369939541 of 18 August 2026). The Wikidata item Q93293002 records no birth date or place."
+  sources: [source/wikipedia-muhammad-ibn-adam-al-kawthari-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia article is the only independent source naming a school for him: its infobox gives denomination Sunni, jurisprudence Hanafi and movement Deobandi, and its lead calls him a Sunni scholar. The Wikidata item records no religion at all. Everything else that names a school is his own ecosystem — Darul Iftaa Leicester, the institute he founded, publishes his fatwas reasoning within the Hanafi school, and his best-known Arabic work comments on a Deobandi creed text — or describes his schooling, as Denis MacEoin's 2009 report does in calling him a graduate of the Deobandi Darul Uloom in Bury. One independent source plus his own institution does not meet the two-source rule, so he is not recorded as sunni-hanafi; the case is flagged in the batch 50 report."
+    sources: [source/wikipedia-muhammad-ibn-adam-al-kawthari-en, source/wikidata-muhammad-ibn-adam-al-kawthari]
+external_ids: { wikidata: "Q93293002" }
+sources: [source/wikipedia-muhammad-ibn-adam-al-kawthari-en, source/wikidata-muhammad-ibn-adam-al-kawthari]
+provenance:
+  layer: own-research
+  source: "Row 265 of the handoff section-2 list (Muhammad Ibn Adam Al-Kawthari (Mufti)). English Wikipedia, fetched by revision 1369939541 of 18 August 2026, and Wikidata item Q93293002, both consulted 26 October 2026; his own Darul Iftaa biography gives the same education narrative without naming a school. No Arabic Wikipedia article exists (API returned missing on 26 October 2026). He is not the historical scholar Muhammad Zahid al-Kawthari (person/muhammad-zahid-al-kawthari)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-50"
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

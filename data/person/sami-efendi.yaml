@@ -1,0 +1,51 @@
+id: person/sami-efendi
+class: person
+label: { ar: "سامي أفندي", en: "Sami Efendi", ur: "سامی آفندی" }
+names:
+  - { value: "سامي أفندي", kind: full }
+  - { value: "Sami Efendi", kind: full }
+  - { value: "İsmâil Hakkı", kind: alternate }
+  - { value: "Mehmed Sami", kind: alternate }
+  - { value: "Sâmi", kind: pen }
+gender: male
+summary:
+  ar: "خطاط عثماني (1838–1912)، من آخر كبار أساتذة الجلي تعليق والجلي ثلث؛ أعطى طغراء السلطان صورتها النهائية في عصر عبد الحميد الثاني، ودرّس الخط سنوات طويلة في قصر طوب قابي، ومن تلاميذه كامل أكديك وحسن رضا أفندي."
+  en: "Ottoman calligrapher (1838–1912), the last great master of jali ta'liq and jali thuluth. He gave the sultan's tughra its definitive form in the reign of Abdülhamid II, taught calligraphy for many years at the Topkapi Palace, and counted Kâmil Akdik and Hasan Rıza Efendi among his students."
+  ur: "عثمانی خطاط (1838–1912)، جلی تعلیق اور جلی ثلث کے آخری بڑے استاد۔ انہوں نے عبد الحمید ثانی کے دور میں سلطان کے طغرا کو اس کی نهایی صورت دی، برسوں طوپ قاپی محل میں خطاطی سکھائی، اور کامل آکدک اور حسن رضا آفندی ان کے شاگردوں میں سے تھے۔"
+roles: [calligrapher, teacher]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1838-03-13"
+  hijri: "1253"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born in the Haydarhâne quarter of Fatih, Istanbul, on 16 Dhu al-Hijja 1253, which the TDV İslâm Ansiklopedisi entry converts to 13 March 1838; the English article's text and Wikidata agree. The Turkish article gives 1837 and the Arabic article glosses the same Hijri date as 1837, and the English article's lead line misprints his years as 1858–1912. The record follows 1838, the conversion of the recorded Hijri date given by the scholarly entry, with the 1837 gloss disclosed. The Hijri year 1253 is the sources' own."
+  sources: [source/tdv-sami-efendi, source/wikipedia-sami-efendi-en, source/wikipedia-sami-efendi-tr, source/wikipedia-sami-efendi-ar, source/wikidata-sami-efendi]
+died:
+  edtf: "1912-07-01"
+  hijri: "1330"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at his home in Horhor, Fatih, Istanbul, on 1 July 1912, after a final year of paralysis, and was buried the next day in the hazire of the Fatih Mosque, as the TDV entry records; his tombstone inscription was written by his student Hacı Kâmil Efendi (Akdik). The Hijri year 1330 is the Arabic article's own."
+  sources: [source/tdv-sami-efendi, source/wikipedia-sami-efendi-en, source/wikipedia-sami-efendi-ar, source/wikidata-sami-efendi]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/tdv-sami-efendi, source/wikipedia-sami-efendi-en] }
+  - { type: died_in, target: place/istanbul, sources: [source/tdv-sami-efendi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school, legal tradition or Sufi order for Sami Efendi personally. The TDV İslâm Ansiklopedisi entry, the four Wikipedia articles and Wikidata give his craft lineage only — his teachers and students in calligraphy — and a calligrapher's silsila is a craft lineage, not an attestation of school. The TDV entry records that he learned ebru (marbling) from Edhem Efendi, the Naqshbandi shaykh of the Üsküdar Özbekler Tekkesi (in one narration, from his ta'liq teacher instead); that is his teacher's affiliation, not his own, and it appears in one source only. Wikidata carries only the generic value Islam (Q432), sourced to the TDV entry. A person's school is therefore not recorded."
+    sources: [source/tdv-sami-efendi, source/wikipedia-sami-efendi-en, source/wikipedia-sami-efendi-ar, source/wikidata-sami-efendi]
+external_ids: { wikidata: "Q7409361" }
+sources: [source/wikipedia-sami-efendi-en, source/wikipedia-sami-efendi-tr, source/wikipedia-sami-efendi-ar, source/wikipedia-sami-efendi-ur, source/wikidata-sami-efendi, source/tdv-sami-efendi]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi entry 'Sâmi Efendi, İsmâil Hakkı' by M. Uğur Derman (print 2009; online version read 26 October 2026), English Wikipedia 'Sami Efendi' (revision 1380812874 of 18 October 2026), Turkish Wikipedia 'Sami Efendi' (35490916 of 17 June 2025), Arabic Wikipedia 'سامي أفندي' (75941251 of 19 July 2026) and Urdu Wikipedia 'سامی آفندی' (6764959 of 21 February 2025), all read on 26 October 2026 and checked against the recorded revisions, with Wikidata item Q7409361. The queue gives his years as 1838–1912; the birth year is glossed 1837 in the Turkish and Arabic articles but the recorded Hijri date (16 Dhu al-Hijja 1253) converts to 13 March 1838, which the record follows, marking the date debated. His faith is unknown: no source names a school or order for him personally."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-35
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

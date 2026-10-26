@@ -1,0 +1,48 @@
+id: person/ebuzziya-tevfik
+class: person
+label:
+  en: "Ebüzziya Tevfik"
+  ar: "أبو الضيا توفيق"
+summary:
+  ar: "كاتب وناشر وخطاط عثماني (1849–1913)، من العثمانيين الشباب، صاحب «مطبعة أبو الضيا» و«مجموعة أبو الضيا»، أوّل من أخرج مختارات من الأدب العثماني على الطريقة الغربية، نُفي إلى رودس وقونية، وجلس في البرلمان العثماني عن أنطاليا بعد 1908."
+  en: "Ottoman writer, publisher and calligrapher (1849-1913), a Young Ottoman who ran the Matbaa-i Ebüzziya press and the Mecmua-i Ebüzziya journal, produced the first Western-style anthology of Ottoman literature, was exiled to Rhodes and Konya, and sat in the Ottoman parliament for Antalya after 1908."
+names:
+  - { value: "Ebüzziya Mehmed Tevfik", kind: full }
+  - { value: "ابو الضيا محمد توفيق بك", kind: full }
+  - { value: "Mehmed Tevfik", kind: given }
+  - { value: "Ebüzziya", kind: kunya }
+  - { value: "Ebüzziya Tevfik Bey", kind: alternate }
+gender: male
+roles: [writer, calligrapher, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1849-02-17"
+  hijri: "1265"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Istanbul; the Turkish article specifies the Sultanahmet district and names his father as Hasan Kamil Efendi, a finance-ministry scribe from Sereflikochisar. The day-precision date is the Turkish article's lead and infobox and Wikidata's referenced value; the English article gives only the year 1849. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik]
+died:
+  edtf: "1913-01-27"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Istanbul; the Turkish infobox specifies Kadikoy as the place of death within the city, and both articles give burial in the family plot at Bakirkoy Cemetery, for which there is no entity, so no buried_in edge is written. He died on the day he issued Tasvir-i Efkar for the last time. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Ebüzziya Tevfik personally. The Turkish infobox has a religion (din) field and leaves it blank, the English article makes no statement of his religion, and Wikidata's only religion value is Islam (Q432), generic - one structured-data value naming no school, which never suffices on its own. His Kufic calligraphy for the Yildiz Hamidiye Mosque and the Zuhtupasa Mosque is his craft, and his Young Ottoman journalism is his work; neither is attestation of a personal affiliation or school."
+    sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik] }
+  - { type: died_in, target: place/istanbul, note: "The Turkish infobox specifies Kadikoy, Istanbul.", sources: [source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik] }
+external_ids: { wikidata: Q4115430 }
+sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik]
+provenance: { layer: own-research, source: "Lane brief century-additions-41 (group Z2); grounded from English Wikipedia revision 1366124810, Turkish Wikipedia revision 37820813, and Wikidata item Q4115430 (revision 2521628527), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-41 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

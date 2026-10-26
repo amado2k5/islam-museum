@@ -11,12 +11,12 @@ periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 died: { edtf: "0950~", hijri: "0339", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 339هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 290}." }
 relations:
-  - { type: authored, target: work/ara-ahl-al-madina-al-fadila, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/ara-ahl-al-madina-al-fadila, sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan] }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 290 مدخل 526"
+  source: "kashf al-zunun; assabile al-mubdioune ep26 lecture (2026-10 transcription)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-14
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 external_ids: { wikidata: Q160460 }

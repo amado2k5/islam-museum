@@ -5,21 +5,37 @@ label:
   en: "Badr al-Din al-Ayni"
 roles: [scholar, writer]
 gender: male
+born:
+  edtf: "1361-07-21"
+  hijri: "0762"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 17 Ramadan 762 AH (21 July 1361) at 'Aynṭab."
+died:
+  edtf: "1451-12-28"
+  hijri: "0855"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 4 Dhu l-Hijja 855 AH (28 December 1451). An earlier unverified draft card gave 1453; that date is not kept as a primary account."
 summary:
-  ar: "بطاقة أولية لبدر الدين محمود بن أحمد العيني، فقيه حنفي القاهرة صاحب شرح صحيح البخاري «عمدة القاري»، توفي سنة ١٤٥٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Badr al-Din Mahmud ibn Ahmad al-Ayni, the Cairene Hanafi scholar author of the Sahih al-Bukhari commentary Umdat al-Qari, d. 1453; the biographical entry is not yet checked on the page."
+  ar: "بدر الدين محمود بن أحمد العيني، فقيه حنفي وقاضي قضاة الحنفية في القاهرة، ومحتسبها وناظر أحباسها، وصاحب «عمدة القاري» شرح صحيح البخاري، وُلد بعينتاب سنة 762هـ (1361م) وتوفي سنة 855هـ (1451م) {cite:encyclopaedia-of-islam-2 vol. 1 p. 839-840}."
+  en: "Badr al-Din Mahmud b. Ahmad al-'Ayni, Hanafi scholar, chief Hanafi qadi and muhtasib of Cairo, and author of the commentary on al-Bukhari, 'Umdat al-Qari. Born at 'Aynṭab in 762 AH (1361), he died in 855 AH (1451) {cite:encyclopaedia-of-islam-2 vol. 1 p. 839-840}."
 wings: [people]
 regions: [egypt-nile, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab]
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
 external_ids:
   wikidata: Q257745
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 839-840, entry 'AL-'AYNI' (signed W. Marçais; queue seq 445, batch ei2-b018); earlier Wikidata candidate and Ibn al-Imad, Shadharat al-Dhahab (entry not read on the page)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (claude-haiku-5-5), EI2 vol. 1 pp. 839-840, batch ei2-b018"
   model: "SWE-2 High"
   run: wikidata-import-0018
-status:
-  review: draft
-  completeness: 1
+status: { review: published, completeness: 3 }

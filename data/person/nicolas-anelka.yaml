@@ -1,0 +1,37 @@
+id: person/nicolas-anelka
+class: person
+label: { ar: "نيكولا أنيلكا", en: "Nicolas Anelka", ur: "نکولا انیلکا" }
+names:
+  - { value: "Nicolas Sébastien Anelka", kind: full }
+  - { value: "نيكولا أنيلكا", kind: full }
+  - { value: "Abdul-Salam Bilal", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب كرة قدم فرنسي معتزل ومدرب، وُلد في لي شيناي بفرنسا سنة 1979. مهاجم بدأ مع باريس سان جيرمان ثم تألق مع أرسنال (ثنائية الدوري والكأس 1998) وريال مدريد، ولعب لمانشستر سيتي وفنربخشة وتشيلسي — حيث فاز بالحذاء الذهبي للدوري الإنجليزي 2009 — وأندية أخرى، وخاض 69 مباراة مع منتخب فرنسا. اعتنق الإسلام سنة 2004 في الإمارات واتخذ اسم عبد السلام بلال."
+  en: "French retired footballer and manager, born in Le Chesnay, France in 1979. A forward who began at Paris Saint-Germain and rose with Arsenal (the 1998 league and cup double) and Real Madrid, he played for Manchester City, Fenerbahçe, Chelsea — where he won the 2009 Premier League Golden Boot — and other clubs, and won 69 caps for France. He converted to Islam in 2004 in the United Arab Emirates, taking the name Abdul-Salam Bilal."
+  ur: "فرانسیسی ریٹائرڈ فٹبالر اور مینیجر، 1979 میں فرانس کے لی شینے میں پیدا ہوئے۔ فارورڈ جنہوں نے پیرس سینٹ جرمین سے آغاز کیا، آرسنل (1998 کی لیگ و کپ ثنائی) اور ریال میڈرڈ سے شہرت پائی، اور مانچسٹر سٹی، فنربخشے اور چیلسی — جہاں 2009 کا پریمیئر لیگ گولڈن بوٹ جیتا — سمیت کئی کلبوں کے لیے کھیلے؛ فرانس کے لیے 69 میچ کھیلے۔ انہوں نے 2004 میں متحدہ عرب امارات میں اسلام قبول کیا اور عبد السلام بلال نام اختیار کیا۔"
+roles: [athlete]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1979-03-14"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 14 March 1979 in Le Chesnay, Yvelines, France, as given by the English Wikipedia article's infobox, the French article and Wikidata Q1939, which agree. No place entity for Le Chesnay exists in data/place/, so no born_in edge is written. The Hijri year (1399) is derived by tabular conversion."
+  sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Anelka's conversion to Islam is documented, but no source read names a school or madhhab for him personally. The English Wikipedia article, citing The Guardian of 14 February 2007, records that after discussing religion with childhood friends he converted to Islam in 2004 in the United Arab Emirates, taking the Muslim name Abdul-Salam Bilal, and quotes his own account of fasting in Ramadan and later relaxing his observance after injuries; its categories file him under “Converts to Islam” and “French Muslims”. The Arabic article likewise recounts his embrace of Islam, deepening at Fenerbahçe, the French article describes him as converted to Islam in 2004, and Wikidata Q1939 gives his religion as Islam (Q432), generically. Lane practice does not record a convert's former faith, so no christian segment is written; and a documented conversion plus generic identifications are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with the conversion itself documented here and in the prose."
+    sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
+external_ids: { wikidata: "Q1939" }
+sources: [source/wikipedia-nicolas-anelka-en, source/wikipedia-nicolas-anelka-ar, source/wikipedia-nicolas-anelka-fr, source/wikidata-nicolas-anelka]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nicolas Anelka' (revision 1382001088 of 26 October 2026), Arabic Wikipedia «نيكولا أنيلكا» (revision 75948620 of 19 July 2026), French Wikipedia 'Nicolas Anelka' (revision 240177657 of 8 October 2026) and Wikidata Q1939, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Anelka's birthplace, Le Chesnay, has no entity in data/place/. No earlier record for him existed in data/person/ under anelka or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

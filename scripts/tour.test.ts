@@ -247,7 +247,7 @@ describe("3d tour: map, floor waypoints, room strip", () => {
     // One star per doorway, one at the hall centre, one per exhibit stop.
     expect(src).toContain("hallWps.push(wp);");
     expect(src).toContain('addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });');
-    expect(src).toContain('addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });');
+    expect(src).toContain('addStar(objectsRoom, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });');
     expect(src).toContain('kind === "hall"');
     expect(src).toContain("`hall/${door.id}`");
     expect(src).toContain('e.code === "KeyM"');
@@ -259,3 +259,131 @@ describe("3d tour: map, floor waypoints, room strip", () => {
   });
 });
 
+
+describe("3d tour: halls.yaml", () => {
+  const HALLS = "tour/halls.yaml";
+  it.skipIf(!existsSync(HALLS))("8 halls x 6 stops, real records and illustrations, ar/en/ur, published with provenance", () => {
+    const raw = parse(readFileSync(HALLS, "utf8")) as {
+      status: { review: string }; provenance: Record<string, string>;
+      halls: Array<{ wing: string; stops: Array<{ id: string; record: string; sources: string[]; art?: string; label: Record<string, string>; desc: Record<string, string> }> }>;
+    };
+    expect(raw.status.review).toBe("published");
+    for (const k of ["generated_by", "model", "run", "source"]) expect(raw.provenance[k], k).toBeTruthy();
+    expect(raw.halls.map((h) => h.wing)).toEqual(["time", "place", "people", "ideas", "words", "living", "today", "made"]);
+    const art = new Set((JSON.parse(readFileSync("site/src/data/architecture-art.json", "utf8")) as Array<{ slug: string }>).map((a) => a.slug));
+    for (const h of raw.halls) {
+      expect(h.stops.length, h.wing).toBe(6);
+      expect(new Set(h.stops.map((s) => s.id)).size, h.wing).toBe(6);
+      for (const s of h.stops) {
+        const where = `${h.wing}/${s.id}`;
+        const [cls, slug] = s.record.split("/");
+        expect(existsSync(`data/${cls}/${slug}.yaml`), `${where} record`).toBe(true);
+        const rec = parse(readFileSync(`data/${cls}/${slug}.yaml`, "utf8")) as { sources?: string[] };
+        expect(s.sources, `${where} sources match the record`).toEqual(rec.sources);
+        if (s.art) expect(art.has(s.art), `${where} art`).toBe(true);
+        if (cls === "person") expect(s.art, `${where}: no illustration for a person`).toBeUndefined();
+        for (const l of ["ar", "en", "ur"]) {
+          expect(s.label[l], `${where} label.${l}`).toBeTruthy();
+          expect(s.desc[l], `${where} desc.${l}`).toBeTruthy();
+        }
+        const text = JSON.stringify([s.label, s.desc]);
+        expect(HONORIFIC.test(text), `${where} typed honorific`).toBe(false);
+        expect(/[﴿﴾]/.test(text), `${where} typed Quran text`).toBe(false);
+      }
+    }
+  });
+  it.skipIf(!existsSync(HALLS))("loadHalls / viewHalls select the page language", async () => {
+    const { loadHalls, viewHalls } = await import("../site/src/lib/tour");
+    const v = viewHalls(loadHalls(), "ur");
+    expect(v).toHaveLength(8);
+    expect(v[1].stops[0].label).toBe("مکہ مکرمہ");
+    expect(v[1].stops[0].art).toBe("masjid-al-haram-kaaba");
+    expect(v[2].stops.every((s) => s.art === "")).toBe(true);
+  });
+  it("every wing doorway opens a hall and stop links name the wing", () => {
+    const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+    expect(src).toContain("if (stopsOf(wing.id).length)");
+    expect(src).toContain("setHash(`${curWing.id}/${ex.id}`)");
+    expect(src).toContain("freeHallRoom()");
+    expect(readFileSync("site/src/pages/[lang]/3d.astro", "utf8")).toContain("t.nojs_halls");
+  });
+});
+
+describe("3d tour: daytime look and lighter graphics", () => {
+  const src = () => readFileSync("site/src/scripts/tour.ts", "utf8");
+  const comp = () => readFileSync("site/src/components/Tour3D.astro", "utf8");
+  it("both looks define every palette colour", () => {
+    const s = src();
+    const keys = [...(/interface Palette \{([\s\S]*?)\n  \}/.exec(s)?.[1] ?? "").matchAll(/(\w+):/g)].map((m) => m[1]);
+    expect(keys.length).toBeGreaterThan(20);
+    for (const look of ["evening", "day"]) {
+      const body = new RegExp(`\\n    ${look}: \\{([\\s\\S]*?)\\n    \\}`).exec(s)?.[1] ?? "";
+      const got = [...body.matchAll(/(\w+):/g)].map((m) => m[1]).sort();
+      expect(got, look).toEqual([...keys].sort());
+    }
+  });
+  it("the look button, L key and lighter-graphics switches are wired", () => {
+    const s = src();
+    const c = comp();
+    for (const id of ["lookBtn", "liteEnter", "liteHelp"]) expect(c).toContain(`id="${id}"`);
+    expect(s).toContain('e.code === "KeyL"');
+    expect(s).toMatch(/function setLite\(on: boolean\)/);
+    expect(s).toMatch(/renderer\.shadowMap\.enabled = !on/);
+    expect(s).toContain("offerLite()");
+    expect(s).toContain("applyLight()");
+  });
+  it("daytime overlay colours keep 4.5:1 contrast", () => {
+    const lum = (h: string): number => {
+      const [r, g, b] = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255)
+        .map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
+      return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    };
+    const ratio = (a: string, b: string): number => {
+      const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p);
+      return (x + 0.05) / (y + 0.05);
+    };
+    const c = comp();
+    // [text, background]: panel text, headings, notes, buttons, gold buttons, focus outline.
+    const pairs: Array<[string, string]> = [
+      ["#2a2113", "#fbf7ee"], ["#5a3d0c", "#fbf7ee"], ["#4a3f2c", "#fbf7ee"], ["#7a5410", "#fbf7ee"],
+      ["#2a2113", "#fffaf0"], ["#3d2a06", "#f5e3b3"], ["#5a3d0c", "#faf5e9"], ["#1a1206", "#d4a017"],
+      ["#2a2113", "#faf5e9"], ["#3d3324", "#f1e6cf"], ["#5c1a0a", "#fbe3d6"],
+    ];
+    for (const [fg, bg] of pairs) {
+      expect(c, fg).toContain(fg);
+      expect(ratio(fg, bg), `${fg} on ${bg}`).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+});
+
+describe("3d tour: close-up viewer", () => {
+  const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+  const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+  const page = readFileSync("site/src/pages/[lang]/3d.astro", "utf8");
+  it("the I key, the closer link and every control are wired", () => {
+    expect(src).toContain('e.code === "KeyI"');
+    expect(src).toContain("/closer`");
+    expect(src).toMatch(/sub === "closer"/);
+    for (const id of ["closerLeft", "closerRight", "closerUp", "closerDown", "closerIn", "closerOut", "closerReset", "closerBack", "panelCloser"]) {
+      expect(comp, id).toMatch(new RegExp(`id="${id}"[^>]*>\\{t\\.\\w+\\}<`));
+      expect(src, id).toContain(`["${id}",`);
+    }
+  });
+  it("only stops with a model or an illustration get Look closer", () => {
+    expect(src).toMatch(/return !!ex && \(!!exhibitBuilders\[ex\.build\] \|\| !!ex\.art\)/);
+    expect(src).toContain('$("#panelCloser").hidden = !canCloser(ex)');
+  });
+  it("models say they are stand-ins and real photographs are only linked", () => {
+    expect(src).toContain("t.closer_note");
+    expect(page).toMatch(/photos: n\.data\?\.iiif_manifest \? href\(lang, e\.record\) : ""/);
+    expect(src).not.toMatch(/iiif|fetch\(/i);
+  });
+  it("the close-up scene is freed on close, scene change and exit", () => {
+    expect(src).toMatch(/function closeCloser[\s\S]*?disposeCloseScene\(\)/);
+    expect((src.match(/closeCloser\(false\)/g) || []).length).toBeGreaterThanOrEqual(2);
+  });
+
+  it("Tab stays inside the viewer", () => {
+    expect(src).toMatch(/listen\(closer, "keydown"[\s\S]*?e\.key !== "Tab"[\s\S]*?preventDefault\(\)/);
+  });
+});

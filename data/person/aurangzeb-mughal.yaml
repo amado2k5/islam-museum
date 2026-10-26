@@ -7,21 +7,23 @@ names:
   - { kind: full, lang: ar, value: "محيي الدين محمد أورنكزيب عالمكير" }
 roles: [sultan]
 gender: male
+born: { edtf: "1618-11-03", hijri: "1027", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2: born 15 Dhu al-Qa'da 1027 AH (3 November 1618) at Dhod in Malwa, third son of Shahjahan and Mumtaz Mahal {cite:encyclopaedia-of-islam-2 vol. 1 p. 817}." }
+died: { edtf: "1707-03-02", hijri: "1118", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2: died 2 March 1707 (1118 AH) {cite:encyclopaedia-of-islam-2 vol. 1 p. 817}." }
 summary:
-  ar: "بطاقة أولية لأورنكزيب عالمكير، سادس ملوك دولة المغول في الهند، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Aurangzeb Alamgir, sixth Mughal emperor, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "أورنغزيب عالمكير، أبو المظفر محيي الدين محمد، الابن الثالث لشاه جهان وممتاز محل، وُلد سنة 1027هـ (1618م) في دهود بمالوا، وحكم سنة 1068هـ (1658م) بعد حرب الخلافة التي هزم فيها أخاه دارا شكوه، وتوفي سنة 1118هـ (1707م) {cite:encyclopaedia-of-islam-2 vol. 1 p. 817}."
+  en: "Aurangzeb 'Alamgir, Abu al-Muzaffar Muhammad Muhyi al-Din, the third son of Shahjahan and Mumtaz Mahal, born at Dhod in Malwa in 1027 AH (1618) and emperor from 1068 AH (1658) after the war of succession in which he defeated his brother Dara Shukoh. He died in 1118 AH (1707) {cite:encyclopaedia-of-islam-2 vol. 1 p. 817}."
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q485547
 provenance:
   layer: own-research
-  source: "Wikidata Q485547 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
+  source: "Wikidata Q485547 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim); Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 817, entry AWRANGZIB (unsigned in the harvest; batch ei2-b013 part 67, seq 430)"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0002
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

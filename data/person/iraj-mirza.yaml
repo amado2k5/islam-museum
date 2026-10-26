@@ -1,0 +1,47 @@
+id: person/iraj-mirza
+class: person
+label:
+  en: "Iraj Mirza"
+  ar: "ایرج میرزا"
+summary:
+  ar: "أمير قاجاري وشاعر فارسي (1874–1926) لُقّب بجلال‌الممالک؛ من روّاد الشعر بالعامية الفارسية، اشتهر بهجائه الاجتماعي اللاذع وبمنظومتَي «عارف‌نامه» و«زهره و منوچهر» وبقصيدته «قلب مادر»."
+  en: "Qajar prince and Persian poet (1874-1926), titled Jalal-ol-Mamalek; a pioneer of colloquial Persian verse famed for his biting social satire, the Arefnameh and Zohreh-o Manuchehr verse tales, and the poem 'Mother's Heart'."
+names:
+  - { value: "Iraj Mirza", kind: full }
+  - { value: "ایرج میرزا", kind: full }
+  - { value: "Jalal-ol-Mamalek", kind: laqab }
+  - { value: "جلال‌الممالک", kind: laqab }
+  - { value: "Prince Iraj Mirza", kind: alternate }
+gender: male
+roles: [poet, writer]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1874-10"
+  hijri: "1291"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Tabriz. Persian Wikipedia and Encyclopaedia Iranica both give Ramadan 1291 AH (October 1874), and English Wikipedia and Wikidata give October 1874; the Hijri year is the sources' own, not a conversion."
+  sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/iranica-iraj-mirza, source/wikidata-iraj-mirza]
+died:
+  edtf: "1926-03-14"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Tehran, of a heart attack; buried in the Zahir-od-dowleh cemetery. English Wikipedia and Wikidata give 14 March 1926, and the Persian infobox pairs its Solar Hijri date with 14 March; but Encyclopaedia Iranica gives 27 Sha'ban 1344 = 12 March 1926, and the Persian date itself (22 Esfand 1304) converts to 12 March, so the day is genuinely split. The Hijri year is Iranica's own (the Persian infobox's '1343' is a slip)."
+  sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/iranica-iraj-mirza, source/wikidata-iraj-mirza]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His affiliation is contested in the sources and is not recorded. English Wikipedia's text makes no statement of his religion, though the article is filed under the category 'Iranian atheists' - a category is not an attestation. The Persian infobox hedges 'Islam at first, probably later godless', citing a single 2023 web article whose title poses the question ('Iraj Mirza: atheist poet or believer'); the Persian article's religious-views section sets his devotional verse - a na't of the Prophet, Ashura elegies, verses in praise of Ali - against an inference of unbelief drawn from his anti-clerical satire and the alleged deliberate weakness of his three religious odes. Encyclopaedia Iranica says nothing of his personal belief, and Wikidata carries no religion value. Verse is repertoire and counts in neither direction, and the unbelief claim rests on one tradition plus inference from the satire, below the bar for atheist-or-sceptic."
+    sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/iranica-iraj-mirza, source/wikidata-iraj-mirza]
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/iranica-iraj-mirza] }
+external_ids: { wikidata: Q983413 }
+sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/wikidata-iraj-mirza, source/iranica-iraj-mirza]
+provenance: { layer: own-research, source: "Lane brief century-additions-40 (group Z2); grounded from English Wikipedia revision 1372400850, Persian Wikipedia revision 44660499, the Encyclopaedia Iranica entry by Mahmoodi-Bakhtiari, and Wikidata item Q983413 (revision 2556599074), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-40 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

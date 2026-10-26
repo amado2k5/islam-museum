@@ -1,0 +1,51 @@
+id: person/naser-al-din-shah-qajar
+class: person
+label: { ar: "ناصر الدين شاه قاجار", en: "Naser al-Din Shah Qajar", ur: "ناصر الدین شاہ قاجار" }
+names:
+  - { value: "Naser al-Din Shah Qajar", kind: full }
+  - { value: "ناصرالدین‌شاه قاجار", kind: full }
+  - { value: "Nasser al-Din Shah", kind: alternate }
+  - { value: "Nasir al-Din Shah", kind: alternate }
+  - { value: "Nasereddin Shah", kind: alternate }
+gender: male
+summary:
+  ar: "الشاه الرابع من الأسرة القاجارية في إيران (حكم من 5 سبتمبر 1848 إلى 1 مايو 1896)، وثالث أطول ملوك إيران حكمًا. بدأ عهده بإصلاحات وزيره الأول أمير كبير ثم إعدامه سنة 1852، وشهد أول رحلات رسمية لملك فارسي إلى أوروبا (1873 و1878 و1889) واحتجاج التبغ (1890-92)، وانتهى باغتياله في مرقد الشاه عبد العظيم بالري."
+  en: "Fourth shah of Qajar Iran (reigned 5 September 1848 – 1 May 1896), the third-longest-reigning monarch in Iranian history. His reign opened with the reforms of his first minister Amir Kabir and that minister's execution in 1852, saw the first formal European tours by a Persian monarch (1873, 1878 and 1889) and the Tobacco Protest of 1890-92, and ended with his assassination at the Shah Abdol-Azim Shrine in Ray."
+  ur: "قاجاری ایران کے چوتھے شاہ (دورِ حکومت 5 ستمبر 1848 تا 1 مئی 1896) اور ایرانی تاریخ کے تیسرے طویل ترین حکمران۔ ان کا عہد ان کے پہلے وزیر امیر کبیر کی اصلاحات اور 1852 میں اسی وزیر کے قتل سے شروع ہوا، کسی فارسی بادشاہ کے پہلے باقاعدہ یورپی دوروں (1873، 1878، 1889) اور تمباکو احتجاج (1890-92) کا گواہ بنا، اور رے میں شاہ عبد العظیم کے مزار پر ان کے قتل پر ختم ہوا۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1831-07-16"
+  hijri: "1247"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The day and the precise birthplace are split across the sources. Wikidata's birth value, 16 July 1831, rests on authority-file references and agrees with older readings of the English article, which gave Tabriz; the current English article gives 17 July 1831 at Kahnamu, a village near Tabriz, which is also Wikidata's place of birth. The record follows the referenced authority reading and discloses the other. He was the eldest son of Mohammad Shah Qajar and Malek Jahan Khanom (Mahd-e Olia). The Hijri year 1247 is the derived conversion of 1831."
+  sources: [source/wikipedia-naser-al-din-shah-qajar-en, source/wikidata-naser-al-din-shah-qajar]
+died:
+  edtf: "1896-05-01"
+  hijri: "1313"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated by Mirza Reza Kermani while visiting and praying at the Shah Abdol-Azim Shrine in Ray on 1 May 1896, and buried in the same shrine. The Hijri year 1313 is the derived conversion of 1896."
+  sources: [source/wikipedia-naser-al-din-shah-qajar-en, source/wikidata-naser-al-din-shah-qajar]
+relations:
+  - { type: died_in, target: place/rayy, sources: [source/wikipedia-naser-al-din-shah-qajar-en] }
+  - { type: buried_in, target: place/rayy, sources: [source/wikipedia-naser-al-din-shah-qajar-en, source/wikidata-naser-al-din-shah-qajar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Naser al-Din Shah personally, and the value is recorded unknown under the doubt rule. What exists is one source family only: the English article's infobox carries a religion field reading 'Shia Islam', and Wikidata carries two religion values, Islam (Q432) and Twelver Shiism (Q269785), both without references. The article's text names no school for him personally: its mentions of Shia Islam are institutional (the Shia call to prayer ordered after the capture of Herat in 1856; the zakat restrictions that left those funds with the ulama), and the one personal note it quotes, his margin note after Herat thanking 'Murtaza Ali' for the victory, is devotion, not an attestation of a school; the Persian article's text likewise speaks of his patronage of Shia shrines and of Shia ulama, never of a school of his own. His office as shah of a Twelver state, and the infobox/structured-data family, do not meet the two-independent-sources standard, so no shia-twelver value is recorded."
+    sources: [source/wikipedia-naser-al-din-shah-qajar-en, source/wikidata-naser-al-din-shah-qajar]
+external_ids: { wikidata: Q159416 }
+sources: [source/wikipedia-naser-al-din-shah-qajar-en, source/wikidata-naser-al-din-shah-qajar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Naser al-Din Shah Qajar' (revision 1380949513 of 19 October 2026) and Wikidata item Q159416 (item revision 2558930492 of 19 October 2026), read directly on 26 October 2026; the Persian Wikipedia article's text was also read for the faith check and names no school for him personally. No standalone Encyclopaedia Iranica biography of him was located. The birth day is debated (16 July on referenced authority values against the current article's 17 July) and is recorded at 16 July with both readings disclosed. His faith is unknown: the only attestations are the English infobox field 'Shia Islam' and Wikidata's unreferenced Islam and Twelver Shiism values, one source family. No family or succession edge is written: his father and predecessor Mohammad Shah Qajar has no record in the museum, so the descent is carried in prose only; the place edges record his assassination at, and burial in, the Shah Abdol-Azim Shrine in Ray."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-38
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

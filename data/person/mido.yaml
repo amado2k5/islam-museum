@@ -1,0 +1,40 @@
+id: person/mido
+class: person
+label: { ar: "ميدو", en: "Mido", ur: "میڈو" }
+names:
+  - { value: "Ahmed Hossam Hussein Abdel Hamid Wasfi", kind: full }
+  - { value: "أحمد حسام حسين عبد الحميد وصفي", kind: full }
+  - { value: "Ahmed Hossam", kind: alternate }
+  - { value: "Mido", kind: laqab }
+  - { value: "ميدو", kind: laqab }
+gender: male
+summary:
+  ar: "مدرب كرة قدم مصري ومهاجم سابق، وُلد في القاهرة سنة 1983 ويُعرف عالميًا باسم «ميدو». بدأ مع الزمالك، وفاز بجائزة الحذاء الأبنوسي مع غينت البلجيكي، ثم تنقل بين أندية أوروبية عديدة منها أياكس ومرسيليا وروما وتوتنهام هوتسبير وميدلزبره، وخاض مع منتخب مصر 51 مباراة دولية سجل فيها 19 هدفًا وفاز معه بكأس الأمم الأفريقية 2006. اعتزل سنة 2013 واتجه إلى التدريب فتولى الزمالك والإسماعيلي ووادي دجلة والوحدة السعودي ومصر المقاصة، إلى جانب عمله التلفزيوني."
+  en: "Egyptian football manager and former striker, born in Cairo in 1983 and known universally as Mido. A Zamalek youth product, he won the Belgian Ebony Shoe with Gent, then played for Ajax, Marseille, Roma, Tottenham Hotspur and Middlesbrough among many clubs in a much-travelled career; he won 51 caps and scored 19 goals for Egypt, winning the 2006 Africa Cup of Nations. After retiring at Barnsley in 2013 he became a coach, managing Zamalek, Ismaily, Wadi Degla, Saudi club Al Wehda and Misr Lel Makkasa, alongside television work."
+  ur: "مصری فٹبال مینیجر اور سابق اسٹرائیکر، 1983 میں قاہرہ میں پیدا ہوئے اور عالمی طور پر «میڈو» کے نام سے جانے جاتے ہیں۔ زمالک کی یوتھ ٹیم سے نکلے، جینٹ کے ساتھ بیلجیئم کا ایبونی شو ایوارڈ جیتا، پھر ایاکس، مارسی، روما، ٹوٹنہم ہاٹسپر اور مڈلز برا سمیت کئی کلبوں میں کھیلے؛ مصر کے لیے 51 میچوں میں 19 گول کیے اور 2006 کا افریقہ کپ آف نیشنز جیتا۔ 2013 میں بارنزلے سے ریٹائر ہونے کے بعد کوچ بنے اور زمالک، اسماعیلی، وادی دجلہ، سعودی کلب الوحدہ اور مصر المقاصہ کی تربیت کی، ساتھ ہی ٹیلی ویژن پر بھی کام کیا۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1983-02-23"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 23 February 1983 in Cairo, Egypt, as given by the English Wikipedia article's infobox and by Wikidata Q294387; the Arabic article gives the same birth date and its categories file him under births in Cairo. The Hijri year (1403) is derived by tabular conversion and agrees with the Arabic article's birth-year category (births in 1403 AH)."
+  sources: [source/wikipedia-mido-en, source/wikipedia-mido-ar, source/wikidata-mido]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-mido-en, source/wikidata-mido] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Mido personally. The English Wikipedia article makes no statement of his religion in its text: it reports that during a 2007 match at Newcastle he was reportedly subjected to Islamophobic abuse from some supporters, which the Football Association investigated, and it files him under the category 'Egyptian Muslims'. The Arabic article likewise files him under the category of Egyptian Muslims and repeats the Newcastle abuse report. Wikidata Q294387 gives his religion as Islam (Q432), generically. Abuse directed at a man perceived as Muslim, a category filing and a generic structured value are not attestations of a school, and Egypt's Shafi'i and Hanafi milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-mido-en, source/wikipedia-mido-ar, source/wikidata-mido]
+external_ids: { wikidata: "Q294387" }
+sources: [source/wikipedia-mido-en, source/wikipedia-mido-ar, source/wikidata-mido]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mido (footballer)' (revision 1382008416 of 26 October 2026), Arabic Wikipedia «أحمد حسام ميدو» (revision 77066679 of 25 October 2026) and Wikidata Q294387, read on 26 October 2026 and checked against the recorded revisions; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. The single born_in edge points from Mido to place/cairo, which exists in data/place/, and is written once, in this record. No earlier record for him existed in data/person/ under mido, hossam or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-42
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

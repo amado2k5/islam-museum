@@ -1,0 +1,36 @@
+id: person/seydou-keita
+class: person
+label: { ar: "سيدو كيتا", en: "Seydou Keita", ur: "سیدو کیتا" }
+names:
+  - { value: "Seydou Keita", kind: full }
+  - { value: "سيدو أحمد كييتا", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مالي معتزل، وُلد في باماكو سنة 1980. لاعب وسط لعب في فرنسا لمرسيليا ولوريان ولانس، ثم لإشبيلية وبرشلونة في إسبانيا — وكان أول لاعب مالي يمثّل برشلونة — ولاحقًا لروما الإيطالي، ومثّل منتخب مالي سنوات طويلة."
+  en: "Malian retired footballer, born in Bamako in 1980. A midfielder who played in France for Marseille, Lorient and Lens, then for Sevilla and Barcelona in Spain — he was the first Malian to play for Barcelona — and later for Roma in Italy; he represented Mali for many years."
+  ur: "مالی کے ریٹائرڈ فٹبالر، 1980 میں باماکو میں پیدا ہوئے۔ مڈفیلڈر جو فرانس میں مارسیلے، لوریاں اور لانس کے لیے، پھر اسپین میں سیویلا اور بارسلونا کے لیے کھیلے — بارسلونا کے لیے کھیلنے والے پہلے مالی کھلاڑی — اور بعد میں اٹلی میں روما کے لیے؛ برسوں مالی کی نمائندگی کی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1980-01-16"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 16 January 1980 in Bamako, Mali, as given by the English Wikipedia article's infobox and by Wikidata Q191080, which agree. No place entity for Bamako exists in data/place/, so no born_in edge is written. The Hijri year (1400) is derived by tabular conversion."
+  sources: [source/wikipedia-seydou-keita-en, source/wikidata-seydou-keita]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Seydou Keita's religion. The English, French and Arabic Wikipedia articles, each read in full, contain no mention of his religion in their text or categories, and Wikidata Q191080 carries no religion (P140) value at all. His Malian nationality and his formation at the Centre Salif Keita are not attestation. Under the two-source rule and the doubt rule, his faith is recorded as unknown on complete absence, exactly as the sources leave it."
+    sources: [source/wikipedia-seydou-keita-en, source/wikipedia-seydou-keita-fr, source/wikipedia-seydou-keita-ar, source/wikidata-seydou-keita]
+external_ids: { wikidata: "Q191080" }
+sources: [source/wikipedia-seydou-keita-en, source/wikipedia-seydou-keita-fr, source/wikipedia-seydou-keita-ar, source/wikidata-seydou-keita]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Seydou Keita' (revision 1376298475 of 23 September 2026), French Wikipedia 'Seydou Keita (football)' (revision 240670313 of 24 October 2026), Arabic Wikipedia «سيدو كيتا» (revision 77067124 of 25 October 2026) and Wikidata Q191080, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Identity is pinned by QID: he is neither Salif Keïta the musician (person/salif-keita) nor Salif Keïta the footballer (person/salif-keita-footballer), whose records exist and are untouched; his youth formation at the Centre Salif Keita is a namesake institution, not a relation, and no edge is written. No relation edge is written: his birthplace, Bamako, has no entity in data/place/. No earlier record for him existed in data/person/ under keita or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-46
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

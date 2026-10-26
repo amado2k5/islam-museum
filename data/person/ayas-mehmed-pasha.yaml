@@ -5,21 +5,36 @@ label:
   en: "Ayas Mehmed Pasha"
 roles: [grand-vizier]
 gender: male
+born:
+  edtf: "1482~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 886-7 AH with a query for the birth; the CE year is the approximate equivalent of 886 AH."
+died:
+  edtf: "1539-07-13"
+  hijri: "0946"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 26 Safar 946 AH as 13 July 1539 (EI2 note 1 on the date of his death)."
 summary:
-  ar: "بطاقة أولية لأياس محمد باشا، الصدر الأعظم في عهد سليمان القانوني، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الدولة العثمانية للصلابي على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ayas Mehmed Pasha, grand vizier under Suleiman the Magnificent, named from an open reference description (Wikidata); his entry in al-Salabi's history of the Ottoman state is not yet checked on the page, so no dates are given."
+  ar: "أياس باشا، ويُعرف أيضاً بأياس محمد باشا، ألباني من منطقة هيمارا جُنّد بنظام الدفشرمة، وصار آغا الإنكشارية وبيلربك الأناضول ووالي دمشق، ثم الصدر الأعظم للسلطان سليمان القانوني من 1536م إلى وفاته سنة 946هـ (1539م) {cite:encyclopaedia-of-islam-2 vol. 1 p. 827-829}."
+  en: "Ayas Pasha, also known as Ayas Mehmed Pasha, an Albanian from the Himara region who was recruited through the devshirme and rose to agha of the Janissaries, beglerbeg of Anatolia and governor of Damascus. He served as grand vizier of Suleyman I from 1536 until his death in 946 AH (1539) {cite:encyclopaedia-of-islam-2 vol. 1 p. 827-829}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2016684
 provenance:
   layer: own-research
-  source: "Wikidata Q2016684 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0010
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 827-829, entry 'AYAS PASHA' (queue seq 436, batch ei2-b018), which is the same person as this record's Wikidata draft (Q2016684); the al-Salabi entry is not yet checked on the page"
+  generated_by: "Claude Code (claude-haiku-5-5)"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

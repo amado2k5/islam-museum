@@ -27,3 +27,12 @@ Muhammad Husain Azad died in Lahore on 22 January 1910 at the age of 79. {cite:w
 
 ## References
 - The defined sources cited above, registered in `data/source/`.
+
+## Azad in the Encyclopaedia of Islam
+Muhammad Husayn Azad, an Indian Muslim writer and poet who wrote in Urdu, is known for the unique charm of his pleasant and picturesque style and for his important role in literature and education. He was born in Delhi about 1834, the son of Mawlawi Muhammad Baqir, himself a pioneer of journalism in northern India. After the upheaval of 1857 he left Delhi, and after several years of wandering reached Lahore in 1864. He spent the rest of his life there in the education department of the Government of the Punjab, writing among other things textbooks for the study of Urdu and Persian. He made journeys to Persia and Central Asia and died at Lahore in 1910. {cite:encyclopaedia-of-islam-2 vol. 1 p. 856-857}
+
+## His works
+His best-known work is the Ab-i Hayat, a history of Urdu poetry with an introduction on the history of the Urdu language, celebrated for its subject-matter and its vivid style. Others are the Sukhandan-i Pars, on Persian philology and the development of Persian prose; the Nigaristan-i Pars, on Persian poets of India and Persia; the Nairang-i Khayal, a collection of allegorical essays translated or adapted from English; the Darbar-i Akbari, on the reign of Akbar and his court; and the Qisas-i Hind, stories from Indian history. He also collected and edited the poems of his master, Muhammad Ibrahim Zawq. {cite:encyclopaedia-of-islam-2 vol. 1 p. 857}
+
+## Place in Urdu poetry
+He used Azad as his pen-name. Together with Altaf Husayn Hali he is regarded as a pioneer of the new school of Urdu poetry, marked by naturalness, greater breadth of subject and treatment, and attention to thought and matter rather than language and form. {cite:encyclopaedia-of-islam-2 vol. 1 p. 857}

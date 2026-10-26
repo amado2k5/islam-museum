@@ -1,0 +1,34 @@
+id: person/imran-ibn-mansur
+class: person
+label: { ar: "عمران بن منصور", en: "Imran ibn Mansur", ur: "عمران بن منصور" }
+names:
+  - { value: "عمران بن منصور", kind: full }
+  - { value: "Imran ibn Mansur", kind: full }
+  - { value: "Dawah Man", kind: alternate }
+gender: male
+summary:
+  ar: "داعية بريطاني من لندن عُرف باسم «رجل الدعوة» (Dawah Man). بنى قناته على يوتيوب — التي بدأت باسم «جلسات النصيحة» (Naseeha Sessions) — على تذكرات مباشرة بأسلوب شبابي يجيب فيها عن أسئلة المشاهدين، ثم اعتزل شخصية «رجل الدعوة» وتحوّل إلى تدريب روّاد الأعمال المسلمين، وتعمل القناة اليوم باسم «شاي مع أخي»."
+  en: "British dawah preacher from London known as Dawah Man. He built his YouTube channel — launched as Naseeha Sessions — on direct, street-style reminders answering viewers' questions, was profiled in academic studies of online preaching, and later retired the Dawah Man persona to coach Muslim entrepreneurs; the channel now runs as Chai With My Bhai."
+  ur: "لندن سے تعلق رکھنے والے برطانوی مبلغ جو Dawah Man کے نام سے مشہور ہوئے۔ انہوں نے اپنی یوٹیوب چینل — جو Naseeha Sessions کے نام سے شروع ہوئی — نوجوانوں کے انداز میں براہ راست نصیحتوں پر قائم کی، پھر Dawah Man کی شخصیت ترک کر کے مسلم کاروباری افراد کی تربیت کی طرف متوجہ ہوئے؛ چینل اب Chai With My Bhai کے نام سے چلتی ہے۔"
+roles: [preacher]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1990"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Year from The Revealer's profile of the January 2016 Mawlid video debate, which gives him as also born in 1990, alongside his opponent. No fuller date in any consulted source."
+  sources: [source/therevealer-digital-islam-new-sheikhs]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The consulted academic profile describes his preaching, not a legal school for him personally: The Revealer calls him a Salafi YouTube evangelizer and treats his output as a Salafi phenomenon inside contemporary Sunni Islam. That is a movement description of his dawah; the faith enum has no Salafi value, no source names a madhhab for him, and labels from critics (such as Madkhali, in a polemical Substack) are opponents' labels, not attestation. Under the doubt rule he stays unknown; the batch 50 report flags the case against the Bilal Philips pattern."
+    sources: [source/therevealer-digital-islam-new-sheikhs, source/youtube-naseeha-sessions]
+sources: [source/youtube-naseeha-sessions, source/therevealer-digital-islam-new-sheikhs, source/freshly-grounded-imran-ibn-mansur]
+provenance:
+  layer: own-research
+  source: "Row 266 of the handoff section-2 list names the channel Naseeha Sessions with the gloss (Sheikh Abu Abdullah); no source found ties any Abu Abdullah to this channel, and the gloss is reported as a brief correction. The channel's documented author is Imran ibn Mansur: The Revealer's academic profile analyses his Naseeha Sessions videos (including The Ending of the Mawlid Debate) as his channel's output; a 2015 Student Room post links the replacement Naseeha Sessions channel (UCKGeFv3Gaho3bD4-hoUx4eg), which today is named Chai With My Bhai and still carries his Dawah Man videos; the Digital British Islam project records his rebrand of the channel from Naseeha Sessions to Righteous and Rich; and in Freshly Grounded episode 401 (2025) he discusses retiring the Dawah Man persona himself."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-50"
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

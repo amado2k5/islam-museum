@@ -1,0 +1,53 @@
+id: person/mammed-amin-rasulzade
+class: person
+label: { ar: "محمد أمين رسول زاده", en: "Mammed Amin Rasulzade", ur: "محمد امین رسول زادہ" }
+names:
+  - { value: "Mahammad Amin Akhund Haji Molla Alakbar oghlu Rasulzade", kind: full }
+  - { value: "Məhəmməd Əmin Rəsulzadə", kind: full }
+  - { value: "Mammad Amin Rasulzade", kind: alternate }
+  - { value: "Muhammad Amin Rasulzadeh", kind: alternate }
+  - { value: "Mehmed Emin Resulzade", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي وصحفي أذربيجاني (1884–1955)، مؤسس حركة «مساوات» ورئيس المجلس الوطني الأذربيجاني الذي أعلن جمهورية أذربيجان الديمقراطية في 28 مايو 1918؛ قضى بقية حياته في المنفى بين إيران وتركيا وأوروبا، وتوفي في أنقرة."
+  en: "Azerbaijani politician and journalist (1884–1955), founder of the Musavat movement and chairman of the Azerbaijani National Council, which proclaimed the Azerbaijan Democratic Republic on 28 May 1918. After its fall in 1920 he spent the rest of his life in exile in Iran, Turkey and Europe, and died in Ankara."
+  ur: "آذربائیجانی سیاست دان اور صحافی (1884–1955)، تحریکِ «مساوات» کے بانی اور آذربائیجانی قومی کونسل کے صدر، جس نے 28 مئی 1918 کو آذربائیجان جمہوری جمہوریہ کا اعلان کیا؛ بقیہ زندگی جلاوطنی میں گزری اور انقرہ میں وفات پائی۔"
+roles: [politician, writer, activist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1884-01-31"
+  hijri: "1301"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Novkhany, near Baku, on 31 January 1884; the English, Azerbaijani, Russian and Arabic articles and Wikidata agree. The Hijri year 1301 is the tabular conversion. The museum has no place entity for Novkhany, so no born_in edge is written."
+  sources: [source/wikipedia-mammed-amin-rasulzade-en, source/wikipedia-mammed-amin-rasulzade-az, source/wikipedia-mammed-amin-rasulzade-ru, source/wikidata-mammed-amin-rasulzade]
+died:
+  edtf: "1955-03-06"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Ankara on 6 March 1955 and was buried in the Cebeci Asri Cemetery there; the English, Azerbaijani, Russian and Arabic articles and Wikidata agree. The Hijri year 1374 is the tabular conversion. The museum has no place entity for Ankara, so no died_in edge is written."
+  sources: [source/wikipedia-mammed-amin-rasulzade-en, source/wikipedia-mammed-amin-rasulzade-az, source/wikipedia-mammed-amin-rasulzade-ru, source/wikidata-mammed-amin-rasulzade]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted article names an affiliation for Rasulzade himself: the English, Azerbaijani, Russian, Turkish, Persian and Arabic articles are all silent on his religion. Wikidata's only religion value is Shia Islam (Q9585), a single structured-data value with no article behind it, which under the two-source rule and the doubt rule cannot carry a value. His father was an akhund — a cleric — which is family background, recorded in the prose as such; the Musavat programme and his national ideology are politics, not attestation; and the Caucasus milieu is context, never a basis for mapping. His faith is therefore recorded unknown, with the single Wikidata value preserved here."
+    sources: [source/wikidata-mammed-amin-rasulzade, source/wikipedia-mammed-amin-rasulzade-en, source/wikipedia-mammed-amin-rasulzade-az]
+relations:
+  - type: lived_in
+    target: place/istanbul
+    note: "Exile base in Istanbul from late 1922, per the Azerbaijani article: he began his activity in Istanbul at the end of 1922 and from 16 September 1923 edited the journal Yeni Kafkasya (New Caucasus) there, until the Turkish government banned it in 1927 at Moscow's demand. The English article confirms the Turkish exile and his editorship of Yeni Kafkasya in 1923–1927. Direction: this edge is written once, in Rasulzade's own record, pointing from him to Istanbul as a place he lived in."
+    sources: [source/wikipedia-mammed-amin-rasulzade-az, source/wikipedia-mammed-amin-rasulzade-en]
+external_ids: { wikidata: "Q361311" }
+sources: [source/wikipedia-mammed-amin-rasulzade-en, source/wikipedia-mammed-amin-rasulzade-az, source/wikipedia-mammed-amin-rasulzade-ru, source/wikidata-mammed-amin-rasulzade]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mahammad Amin Rasulzade' (revision 1381637423), Azerbaijani Wikipedia 'Məhəmməd Əmin Rəsulzadə' (9099756) and Russian Wikipedia 'Расулзаде, Мамед Эмин' (154703214), all read on 26 October 2026, with Wikidata item Q361311; the Turkish, Persian and Arabic articles were also consulted and are silent on religion. The queue's spelling 'Mammed Amin Rasulzade' is kept as the record's English label and slug; the sources' fuller forms (Mahammad Amin, Məhəmməd Əmin) are in the names. The queue gives 1884–1955, confirmed exactly. His faith is recorded unknown: no article attests an affiliation and Wikidata's single Shia Islam value cannot carry one, as the faith note sets out. The exile-period attempt at a strategic alliance with Germany, recorded in the English article, is reported in the prose as that article reports it, attributed, with no museum verdict."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-32
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

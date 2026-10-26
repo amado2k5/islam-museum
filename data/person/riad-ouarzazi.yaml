@@ -1,0 +1,48 @@
+id: person/riad-ouarzazi
+class: person
+label:
+  ar: "رياض الورزازي"
+  en: "Riad Ouarzazi"
+  ur: "ریاض الورزازی"
+summary:
+  ar: "داعية ومدرّس مغربي المولد مقيم في تورونتو بكندا. وُلد في الدار البيضاء ونال شهادات في التعليم الإسلامي من جامعة عبد الله هناك، وانتقل إلى الولايات المتحدة سنة 1988 فدرس الإدارة الدولية ونظم المعلومات الحاسوبية في جامعة غولدن غيت، ثم انتقل إلى كندا سنة 2001 وأخذ يلقي المحاضرات وخطب الجمعة في مساجد منطقة تورونتو الكبرى. وهو عضو في مجلس الأئمة الكندي ومدير الشؤون الدينية في ICNA كندا، ودرّس في معهد المغرب، وتنتشر محاضراته المسجلة في بودكاست مسلم سنترال منذ سنة 2012."
+  en: "A Moroccan-born dawah speaker and teacher based in Toronto, Canada. Born in Casablanca, he took Islamic education degrees at Abdullah University there, moved to the United States in 1988 — where he read international management and computer information systems at Golden Gate University — and moved to Canada in 2001, giving lectures and Friday sermons in the mosques of the Greater Toronto Area. He is a member of the Canadian Council of Imams, serves as Director of Religious Affairs at ICNA Canada, has taught with AlMaghrib Institute, and his recorded lectures circulate as a Muslim Central podcast running since 2012."
+  ur: "مراکش میں پیدا ہونے والے داعی اور مدرس، کینیڈا کے شہر ٹورنٹو میں مقیم۔ کاسا بلانکا میں پیدا ہوئے اور وہیں عبد اللہ یونیورسٹی سے اسلامی تعلیم کی اسناد حاصل کیں، 1988 میں امریکا منتقل ہوئے جہاں گولڈن گیٹ یونیورسٹی سے انٹرنیشنل مینجمنٹ اور کمپیوٹر انفارمیشن سسٹمز کی تعلیم لی، پھر 2001 میں کینیڈا آ گئے اور گریٹر ٹورنٹو ایریا کی مساجد میں محاضرات اور خطباتِ جمعہ دینے لگے۔ کینیڈین کونسل آف امامز کے رکن اور ICNA کینیڈا کے ڈائریکٹر آف ریلیجس افیئرز ہیں، المغرب انسٹی ٹیوٹ میں تدریس کر چکے ہیں، اور ان کی ریکارڈ شدہ محاضرات 2012 سے مسلم سینٹرل پوڈکاسٹ میں جاری ہیں۔"
+names:
+  - value: "Riad Ouarzazi"
+    kind: full
+  - value: "رياض الورزازي"
+    kind: full
+gender: male
+roles:
+  - preacher
+  - teacher
+wings:
+  - people
+  - living
+regions:
+  - maghreb
+  - americas-oceania
+relations:
+  - type: student_of
+    target: person/waleed-basyouni
+    note: "Direction: Ouarzazi is the student. The Muslim Central biography records that he studied Aqeedah under Waleed Basyouni; the edge is written once, here in Ouarzazi's own record, as the predicates registry directs. The same biography names Waleed Idrees as his Fiqh teacher; no record for Idrees exists in data/person/, so no second edge is written."
+    sources: [source/listennotes-riad-ouarzazi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown. The Muslim Central biography names the teachers he studied under — Aqeedah under Waleed Basyouni and Fiqh under Waleed Idrees — and a teacher's school never attests a student's. The Muslim Agent profile names his offices — Director of Religious Affairs at ICNA Canada, member of the Canadian Council of Imams, teacher with AlMaghrib Institute — and an institution's character never attests its office-holder's school. No source consulted names a legal school or theological affiliation for him personally, so under the two-source rule no faith value is recorded."
+    sources:
+      - source/listennotes-riad-ouarzazi
+      - source/muslimagent-riad-ouarzazi
+sources:
+  - source/listennotes-riad-ouarzazi
+  - source/muslimagent-riad-ouarzazi
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  source: "He is the speaker named at §2 row 284 of the handoff ('Sheikh Riad Ouarzazi' / 'Riad Ouarzazi'); the honorific in the row's styling is not carried into the record. Existence checks first, all on 26 October 2026: name-fragment searches over data/person/ and data/source/ (ouarzazi / warzazi / riad) returned no record of him; the English Wikipedia API reports no article for him (missing title), and a Wikidata entity search returns no item, so no external_ids are recorded. Identification rests on two independent profiles consulted 26 October 2026: the Muslim Central biography carried by Listen Notes (born Casablanca; degrees at M. Abdullah University; United States 1988; Canada 2001; Greater Toronto Area lectures and sermons) and the Muslim Agent speaker profile (Toronto-based; ICNA Canada's Director of Religious Affairs; Canadian Council of Imams member; degrees dated 1987, 1994 and 1996) — independent texts with differing detail, agreeing on the man. His lectures circulate on a YouTube channel under his own name, the row's channel; no channel URL was independently verified in this run, so no YouTube source file is registered. No trusted source gives a birth date, so no born block is recorded. His faith is recorded unknown: see the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-batch-52"

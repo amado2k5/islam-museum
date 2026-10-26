@@ -1,0 +1,49 @@
+id: person/adly-yakan-pasha
+class: person
+label: { ar: "عدلي يكن", en: "Adly Yakan Pasha", ur: "عدلی يکن" }
+names:
+  - { value: "Adly Yakan", kind: full }
+  - { value: "عدلي يكن باشا", kind: full }
+  - { value: "Adly Yeghen Pasha", kind: alternate }
+  - { value: "Adli Yakan Paşa", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي مصري من أسرة محمد علي — كان ابن أخت مؤسس الأسرة، ومنه لقبه «يكن» أي ابن الأخت بالتركية — تولى رئاسة الوزراء ثلاث مرات بين 1921 و1930، ووزارات الخارجية والمعارف والداخلية، وأسس حزب الأحرار الدستوريين وكان أول رئيس له، وتفاوض مع اللورد كورزون سنة 1921."
+  en: "Egyptian politician of the Muhammad Ali family — he was a sister's son of the dynasty's founder, whence his name 'Yakan', Turkish for a sister's son — prime minister three times between 1921 and 1930, minister of foreign affairs, education and the interior, founder and first president of the Liberal Constitutional Party, and negotiator with Lord Curzon in 1921."
+  ur: "محمد علی خاندان کے مصری سیاست دان — وہ خاندان کے بانی کے بھانجے تھے، اسی سے ان کا نام «يکن» یعنی ترکی میں بہن کا بیٹا — 1921 اور 1930 کے درمیان تین بار وزیرِ اعظم، وزیرِ خارجہ، تعلیم اور داخلہ رہے، لبرل کانسٹیٹیوشنل پارٹی کے بانی اور پہلے صدر تھے، اور 1921 میں لارڈ کرزن سے مذاکرات کیے۔"
+roles: [politician]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1864-01-18"
+  hijri: "1280"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth day is given two ways. The English article and Wikidata give 18 January 1864, at Cairo, and that reading is followed; the Arabic article's infobox gives 24 January 1864. The year and the city agree in all three. The Hijri year 1280 is the derived conversion of January 1864."
+  sources: [source/wikipedia-adly-yakan-pasha-en, source/wikipedia-adly-yakan-pasha-ar, source/wikidata-adly-yakan-pasha]
+died:
+  edtf: "1933-10-22"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 22 October 1933, at Paris. No museum place entity exists for Paris, so no died_in edge is written; the place of death is carried here and in the prose. The Hijri year 1352 is the derived conversion of October 1933."
+  sources: [source/wikipedia-adly-yakan-pasha-en, source/wikipedia-adly-yakan-pasha-ar, source/wikidata-adly-yakan-pasha]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-adly-yakan-pasha-en, source/wikidata-adly-yakan-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted attests a religion or a school for Adly Yakan personally, and the value is recorded unknown under the doubt rule — this is complete absence, not a near miss. The English article has no religion field and its text makes no statement of his religion; its categories record Turkish descent and offices held, and descent never attests. The Arabic article's infobox carries a religion field and leaves it empty, and its text names no school. Wikidata has no religion (P140) value at all. His descent from the family of Muhammad Ali, and the Muslim milieu of the Egyptian state he served, are family background and office, which never count."
+    sources: [source/wikipedia-adly-yakan-pasha-en, source/wikipedia-adly-yakan-pasha-ar, source/wikidata-adly-yakan-pasha]
+external_ids: { wikidata: "Q358528" }
+sources: [source/wikipedia-adly-yakan-pasha-en, source/wikipedia-adly-yakan-pasha-ar, source/wikidata-adly-yakan-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Adly Yakan Pasha' (revision 1286503156 of 20 April 2025), Arabic Wikipedia 'عدلي يكن' (revision 76819181 of 30 September 2026) and Wikidata item Q358528 (item revision 2536785751 of 26 August 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. One edge is written, born_in to place/cairo, an existing entity. No died_in edge is written: no museum place entity exists for Paris. His birth day is recorded debated (18 January 1864 followed; the Arabic article's 24 January preserved in the note). His faith is unknown — complete absence in all sources, as stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

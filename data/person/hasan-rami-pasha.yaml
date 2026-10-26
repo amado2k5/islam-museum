@@ -1,0 +1,50 @@
+id: person/hasan-rami-pasha
+class: person
+label: { ar: "حسن رامي باشا", en: "Hasan Rami Pasha", ur: "حسن رامی پاشا" }
+names:
+  - { value: "Hasan Rami Pasha", kind: full }
+  - { value: "حسن رامي باشا", kind: full }
+  - { value: "Hasan Râmi Paşa", kind: alternate }
+  - { value: "Hasan Rami", kind: alternate }
+  - { value: "Harami Pasha", kind: laqab }
+gender: male
+summary:
+  ar: "أميرال ورجل دولة عثماني، قائد الأسطول العثماني ثم ناظر البحرية في عهد عبد الحميد الثاني. اشتهر بتقريره الصريح إلى السلطان عن الأسطول المتداعي الذي كُلف بقيادته إلى الدردنيل سنة 1897؛ وبعد ثورة 1908 عُزل وحُوكم وخُفّضت رتبته، وقضى سنواته الأخيرة في إسطنبول، ونُشرت مذكراته سنة 2013 مقرونة بنقد رؤوف أورباي له."
+  en: "Ottoman admiral and naval minister under Abdul Hamid II. He is remembered for his blunt report to the Sultan on the decayed state of the fleet he was ordered to take to the Dardanelles in 1897; after the 1908 revolution he was dismissed, tried and downgraded, spent his last years in Istanbul, and his memoirs were republished in 2013 together with Rauf Orbay's criticisms of him."
+  ur: "عثمانی امیر البحر اور عبد الحمید ثانی کے دور میں وزیرِ بحریہ۔ وہ 1897 میں دردنيل لے جائے جانے والے بیڑے کی خستہ حالی پر سلطان کو دی گئی اپنی صاف گو رپورٹ کے لیے مشہور ہیں؛ 1908 کے انقلاب کے بعد وہ معزول، مقدمے کے کٹہرے میں اور رتبہ گھٹا کر رکھے گئے، آخری برس اسطنبول میں گزارے، اور ان کی یادداشتیں 2013 میں رؤوف اوربے کے ان پر تنقید سمیت دوبارہ شائع ہوئیں۔"
+roles: [military]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1842"
+  hijri: "1258"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both articles give only the year 1842 and the place Selanik (Thessaloniki): the English article's infobox and text, the latter adding that he was born to a Turkish family there, and Wikidata's referenced values agree. No source consulted gives a day or month. Thessaloniki has no place entity in the museum, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1258 is the derived conversion of 1842."
+  sources: [source/wikipedia-hasan-rami-pasha-en, source/wikipedia-hasan-rami-pasha-tr, source/wikidata-hasan-rami-pasha]
+died:
+  edtf: "1923"
+  hijri: "1341"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both articles give only the year 1923; the English article states that he spent his last years in Istanbul and died there in 1923, and Wikidata's death value is Istanbul, so the died_in edge is written on that agreement. No source consulted gives a day or month. The Hijri year 1341 is the derived conversion of 1923."
+  sources: [source/wikipedia-hasan-rami-pasha-en, source/wikipedia-hasan-rami-pasha-tr, source/wikidata-hasan-rami-pasha]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-hasan-rami-pasha-en, source/wikidata-hasan-rami-pasha] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted states any religion for Hasan Rami Pasha, and the value is recorded unknown under the doubt rule. The English article's infobox has no religion field and its text says only that he was born to a Turkish family — family background, which never counts. The Turkish article has no infobox at all and makes no statement. Wikidata carries no religion (P140) value at all. There is thus not one attestation of any school, let alone the two independent sources the lane requires."
+    sources: [source/wikipedia-hasan-rami-pasha-en, source/wikipedia-hasan-rami-pasha-tr, source/wikidata-hasan-rami-pasha]
+external_ids: { wikidata: Q6039694 }
+sources: [source/wikipedia-hasan-rami-pasha-en, source/wikipedia-hasan-rami-pasha-tr, source/wikidata-hasan-rami-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hasan Rami Pasha' (revision 1380311301 of 15 October 2026), Turkish Wikipedia 'Hasan Râmi Paşa' (revision 36700142 of 24 January 2026) and Wikidata item Q6039694 (item revision 2545522210 of 14 September 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Only one edge is written: he died in Istanbul (place/istanbul, an existing entity) on the English article's statement and Wikidata's agreement; Thessaloniki has no place entity, so his birthplace is carried in the date note and prose only. The two articles disagree on his naval ministry (the English article gives appointment in 1906, its succession box 1906–1907; the unsourced Turkish article gives 1903–1908), and the prose states both readings rather than choosing. His soldiers' nickname Harami Pasha is recorded as a laqab on the Turkish article's statement. His faith is unknown: no source states any religion for him at all."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

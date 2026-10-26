@@ -1,0 +1,50 @@
+id: person/talat-pasha
+class: person
+label: { ar: "محمد طلعت باشا", en: "Mehmed Talat Pasha", ur: "محمد طلعت پاشا" }
+names:
+  - { value: "Mehmed Talat Paşa", kind: full }
+  - { value: "محمد طلعت باشا", kind: full }
+  - { value: "Mehmed Talat", kind: given }
+  - { value: "Talaat Pasha", kind: alternate }
+  - { value: "Talât Paşa", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي عثماني، أحد «الباشوات الثلاثة» في جمعية الاتحاد والترقي وناظر الداخلية ثم الصدر الأعظم من 1917 إلى 1918. أصدر أوامر اعتقال القادة الأرمن في أبريل 1915 وقانون التهجير، وفرّ إلى برلين بعد الهزيمة فحُكم عليه غيابيًا بالإعدام واغتيل سنة 1921، وأُعيد دفن رفاته في إسطنبول سنة 1943."
+  en: "Ottoman politician, one of the 'Three Pashas' of the Committee of Union and Progress, minister of the interior and then grand vizier from 1917 to 1918. He issued the orders for the April 1915 arrests of Armenian leaders and the deportation law, fled to Berlin after the defeat, was sentenced to death in absentia and was assassinated in 1921; his remains were reburied at Istanbul in 1943."
+  ur: "عثمانی سیاست دان، جمعیتِ اتحاد و ترقی کے «تین پاشاؤں» میں سے ایک، وزیرِ داخلہ اور پھر 1917 سے 1918 تک صدرِ اعظم۔ انہوں نے اپریل 1915 میں آرمینی رہنماؤں کی گرفتاری کے احکامات اور جلاوطنی کا قانون جاری کیا، شکست کے بعد برلن فرار ہوئے، غیر حاضری میں سزائے موت پائی اور 1921 میں قتل ہوئے؛ ان کی باقیات 1943 میں اسطنبول میں دوبارہ دفن ہوئیں۔"
+roles: [politician, vizier]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1874-09-01"
+  hijri: "1291"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata agree on 1 September 1874, at Kırcaali (Kardzhali) in the Adrianople (Edirne) Vilayet. No museum place entity exists for Kardzhali, so no born_in edge is written; the birthplace is carried here and in the prose. The Hijri year 1291 is the derived conversion of September 1874."
+  sources: [source/wikipedia-talat-pasha-en, source/wikipedia-talat-pasha-tr, source/wikidata-talat-pasha]
+died:
+  edtf: "1921-03-15"
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 15 March 1921: he was shot dead outside his flat in Hardenbergstraße, Berlin, by Soghomon Tehlirian, under Operation Nemesis. He was first buried at the Alter St.-Matthäus-Kirchhof in Berlin; in 1943 his remains were brought to Turkey and reburied at the Monument of Liberty (Abide-i Hürriyet) cemetery in Istanbul with a state funeral, on 25 February 1943. No museum place entity exists for Berlin, so no died_in edge is written. The Hijri year 1339 is the derived conversion of March 1921."
+  sources: [source/wikipedia-talat-pasha-en, source/wikipedia-talat-pasha-tr, source/wikidata-talat-pasha]
+relations:
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-talat-pasha-en] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded sufi on the strength of his attested membership of the Bektashi order, a Sufi order — no Sunni madhhab is named for him anywhere. The English article states in its text that he was a member of the Bektashi order, citing two scholarly works for the statement: Hans-Lukas Kieser's biography of him (2018, p. 44) and M. Şükrü Hanioğlu's entry in the TDV İslâm Ansiklopedisi. The Turkish article reports the same membership in its text, hedged as 'according to some sources' and citing the same TDV entry, and its infobox gives his religion as Islam with the Bektashi affiliation cited to a third scholarly work, Feroz Ahmad's İttihat ve Terakki (5th ed., p. 222). Membership in the order is thus attested for him personally in article text resting on independent scholarship, not by an infobox alone. Wikidata gives only Islam (Q432), imported from the Turkish Wikipedia's infobox — one generic value in the same family — and names no school. His family's Romani, Turkish and Pomak descent (English article) is origin, and is not the basis of this value."
+    sources: [source/wikipedia-talat-pasha-en, source/wikipedia-talat-pasha-tr, source/wikidata-talat-pasha]
+external_ids: { wikidata: "Q315888" }
+sources: [source/wikipedia-talat-pasha-en, source/wikipedia-talat-pasha-tr, source/wikidata-talat-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Talaat Pasha' (revision 1381426039 of 22 October 2026), Turkish Wikipedia 'Talat Paşa' (revision 38228593 of 12 October 2026) and Wikidata item Q315888 (item revision 2556308096 of 12 October 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. One edge is written, to place/istanbul, an existing entity: buried there at the Monument of Liberty cemetery since the 1943 reburial. No born_in or died_in edge is written: no museum place entity exists for Kardzhali or Berlin. His faith is recorded sufi/documented on his attested Bektashi order membership, for the reasons stated in the faith note; the 1915 material is presented factually and attributed in the prose, following the articles."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

@@ -28,7 +28,10 @@ interface ExhibitData {
   museum: string;
   date: string;
   note: string; // derived-date legend, when the date carries †
-  href: string; // the object record page
+  href: string; // the record page
+  art?: string; // framed site illustration URL; "" or absent = name plaque
+  artAlt?: string;
+  photos?: string; // the record page, when it has zoomable museum photographs
 }
 
 interface TourData {
@@ -36,6 +39,7 @@ interface TourData {
   t: Record<string, string>;
   journeys: JourneyView[];
   exhibits: ExhibitData[];
+  halls?: Array<{ wing: string; stops: ExhibitData[] }>;
   wingTitles: Record<string, string>;
 }
 
@@ -62,6 +66,15 @@ function wireStatic(root: HTMLElement, data: TourData): void {
   // Reveal the fullscreen overlay. Without JS it stays display:none and the
   // page's own fallback content is what visitors see.
   root.style.display = "block";
+
+  // The tour starts in the look that matches the site theme.
+  const theme = document.documentElement.getAttribute("data-theme");
+  const dark = theme ? theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.setAttribute("data-look", dark ? "evening" : "day");
+  // Lighter graphics start on when the browser asks to save data or reports little memory.
+  const nav = navigator as Navigator & { connection?: { saveData?: boolean }; deviceMemory?: number };
+  const liteEnter = root.querySelector<HTMLInputElement>("#liteEnter");
+  if (liteEnter) liteEnter.checked = !!nav.connection?.saveData || (nav.deviceMemory !== undefined && nav.deviceMemory <= 2);
 
   const touch = matchMedia("(pointer: coarse)").matches;
   if (touch) {
@@ -187,20 +200,55 @@ function init(
     spinObj?: THREE.Object3D;
   }
   // Stops in order; labels, dates and record links come from the page data.
-  const EXHIBITS: Exhibit[] = (data.exhibits || []).map((e) => ({ ...e, x: 0 }));
+  // EXHIBITS is the stop list of the hall the visitor is in (Objects or a data-built hall).
+  const OBJECT_EXHIBITS: Exhibit[] = (data.exhibits || []).map((e) => ({ ...e, x: 0 }));
+  const HALL_STOPS = new Map<string, Exhibit[]>(
+    (data.halls || []).map((h) => [h.wing, h.stops.map((s) => ({ ...s, x: 0 }))])
+  );
+  const stopsOf = (id: string): Exhibit[] => (id === "objects" ? OBJECT_EXHIBITS : HALL_STOPS.get(id) || []);
+  let curWing: Wing = WINGS.find((w) => w.id === "objects")!;
+  let EXHIBITS: Exhibit[] = OBJECT_EXHIBITS;
+
+  /* ---------------- looks: daytime and evening ---------------- */
+  type Look = "day" | "evening";
+  interface Palette {
+    bg: number; fog: [number, number]; hemiSky: number; hemiGround: number; hemi: number; sun: number;
+    floor: string; grid: string; gold: string; wall: string; niche: string; band: string; dome: string; rib: string;
+    girih: string; girihFill: string; starHole: string; plaqueBg: string; plaqueFg: string; panelGlow: number;
+    stone: number; hallPed: number; rings: [number, number]; gFloor: number; gWall: number; gCeil: number; back: number; ped: number;
+  }
+  const LOOKS: Record<Look, Palette> = {
+    evening: {
+      bg: 0x0d1b2e, fog: [30, 95], hemiSky: 0xbcd0f0, hemiGround: 0x3a2c18, hemi: 0.55, sun: 1.15,
+      floor: "#1b2b4a", grid: "rgba(212,160,23,.16)", gold: "#d4a017", wall: "#22345c", niche: "#182747", band: "#2a3f6e",
+      dome: "#1d2c4f", rib: "rgba(212,160,23,.4)", girih: "#131e38", girihFill: "rgba(212,160,23,.12)",
+      starHole: "rgba(13,27,46,.9)", plaqueBg: "#0e1830", plaqueFg: "#f5d67b", panelGlow: 0.35,
+      stone: 0x9a8a68, hallPed: 0x8a6f4d, rings: [0x9a7f58, 0x8a6f4d], gFloor: 0x2b3a58, gWall: 0x24345a, gCeil: 0x182442, back: 0x0e1830, ped: 0x6e5b3e,
+    },
+    day: {
+      bg: 0xf1e6cf, fog: [45, 140], hemiSky: 0xfff6e0, hemiGround: 0xb89a6a, hemi: 0.95, sun: 1.5,
+      floor: "#d9c7a3", grid: "rgba(122,86,30,.22)", gold: "#a8741a", wall: "#e6d6b4", niche: "#d2bc92", band: "#c9ad7c",
+      dome: "#efe2c4", rib: "rgba(150,105,30,.45)", girih: "#e9dcbf", girihFill: "rgba(168,116,26,.14)",
+      starHole: "rgba(90,61,12,.85)", plaqueBg: "#f5eedd", plaqueFg: "#5a3d0c", panelGlow: 0.08,
+      stone: 0xd8c8a4, hallPed: 0xb59a70, rings: [0xd6c098, 0xc8b088], gFloor: 0xcdb994, gWall: 0xeadcbf, gCeil: 0xf3ead6, back: 0xd9c6a0, ped: 0xa88c62,
+    },
+  };
+  let look: Look = root.getAttribute("data-look") === "day" ? "day" : "evening";
+  let P: Palette = LOOKS[look];
+  let lite = !!root.querySelector<HTMLInputElement>("#liteEnter")?.checked;
 
   /* ---------------- renderer / scene / camera / lights ---------------- */
   const app = $("#app");
   const renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.setPixelRatio(lite ? 1 : Math.min(devicePixelRatio, 2));
   renderer.setSize(innerWidth, innerHeight);
-  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.enabled = !lite;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   app.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x0d1b2e);
-  const fog = new THREE.Fog(0x0d1b2e, 30, 95);
+  scene.background = new THREE.Color(P.bg);
+  const fog = new THREE.Fog(P.bg, P.fog[0], P.fog[1]);
   scene.fog = fog;
 
   const camera = new THREE.PerspectiveCamera(
@@ -211,9 +259,10 @@ function init(
   );
   camera.rotation.order = "YXZ";
 
-  const hemi = new THREE.HemisphereLight(0xbcd0f0, 0x3a2c18, 0.55);
+  const hemi = new THREE.HemisphereLight(P.hemiSky, P.hemiGround, P.hemi);
+  if (lite) hemi.intensity += 0.4;
   scene.add(hemi);
-  const sun = new THREE.DirectionalLight(0xffe9b8, 1.15);
+  const sun = new THREE.DirectionalLight(0xffe9b8, P.sun);
   sun.position.set(6, 26, 4);
   sun.castShadow = true;
   sun.shadow.mapSize.set(1024, 1024);
@@ -225,7 +274,7 @@ function init(
 
   // Shared materials used by several builders.
   const stoneMat = new THREE.MeshStandardMaterial({
-    color: 0x9a8a68,
+    color: P.stone,
     roughness: 0.8,
   });
   const brass = new THREE.MeshStandardMaterial({
@@ -279,6 +328,24 @@ function init(
     draw(c.getContext("2d")!, w, h);
     const tex = new THREE.CanvasTexture(c);
     tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }
+  // Textures drawn from the palette; a look switch redraws them on the same canvas.
+  const repaints: Array<() => void> = [];
+  function lookTex(
+    w: number,
+    h: number,
+    draw: (g: CanvasRenderingContext2D, w: number, h: number) => void,
+    list: Array<() => void> = repaints
+  ): THREE.CanvasTexture {
+    const tex = canvasTex(w, h, draw);
+    list.push(() => {
+      const g = (tex.image as HTMLCanvasElement).getContext("2d")!;
+      g.setTransform(1, 0, 0, 1, 0, 0);
+      g.clearRect(0, 0, w, h);
+      draw(g, w, h);
+      tex.needsUpdate = true;
+    });
     return tex;
   }
   const FONT = (px: number): string =>
@@ -351,10 +418,10 @@ function init(
     return new THREE.ExtrudeGeometry(s, { depth: 1.1, bevelEnabled: false });
   }
   function girihTexture(): THREE.CanvasTexture {
-    return canvasTex(512, 512, (g, w, h) => {
-      g.fillStyle = "#131e38";
+    return lookTex(512, 512, (g, w, h) => {
+      g.fillStyle = P.girih;
       g.fillRect(0, 0, w, h);
-      g.strokeStyle = "#d4a017";
+      g.strokeStyle = P.gold;
       g.lineWidth = 4;
       const n = 4;
       const s = w / n;
@@ -373,16 +440,16 @@ function init(
           }
           g.closePath();
           g.stroke();
-          g.fillStyle = "rgba(212,160,23,.12)";
+          g.fillStyle = P.girihFill;
           g.fill();
         }
     });
   }
   const girihTex = girihTexture();
-  const domeTex = canvasTex(1024, 512, (g, w, h) => {
-    g.fillStyle = "#1d2c4f";
+  const domeTex = lookTex(1024, 512, (g, w, h) => {
+    g.fillStyle = P.dome;
     g.fillRect(0, 0, w, h);
-    g.strokeStyle = "rgba(212,160,23,.4)";
+    g.strokeStyle = P.rib;
     g.lineWidth = 3;
     for (let i = 0; i <= 32; i++) {
       const x = (i / 32) * w;
@@ -391,7 +458,7 @@ function init(
       g.lineTo(w / 2 + (x - w / 2) * 0.12, h);
       g.stroke();
     }
-    g.strokeStyle = "#d4a017";
+    g.strokeStyle = P.gold;
     g.lineWidth = 6;
     g.beginPath();
     g.arc(w / 2, h, 70, 0, 7);
@@ -443,7 +510,7 @@ function init(
     | { obj: THREE.Object3D; kind: "waypoint"; wp: Waypoint };
   const interact: Interactable[] = [];
   const starMat = new THREE.MeshBasicMaterial({
-    map: canvasTex(256, 256, (g, w, h) => {
+    map: lookTex(256, 256, (g, w, h) => {
       g.translate(w / 2, h / 2);
       g.fillStyle = "rgba(245,214,123,.9)";
       for (const r of [0, Math.PI / 4]) {
@@ -452,7 +519,7 @@ function init(
         g.fillRect(-72, -72, 144, 144);
         g.restore();
       }
-      g.fillStyle = "rgba(13,27,46,.9)";
+      g.fillStyle = P.starHole;
       g.beginPath();
       g.arc(0, 0, 40, 0, Math.PI * 2);
       g.fill();
@@ -471,10 +538,10 @@ function init(
   }
   const HALL_R = 26;
 
-  const floorTex = canvasTex(1024, 1024, (g, w, h) => {
-    g.fillStyle = "#1b2b4a";
+  const floorTex = lookTex(1024, 1024, (g, w, h) => {
+    g.fillStyle = P.floor;
     g.fillRect(0, 0, w, h);
-    g.strokeStyle = "rgba(212,160,23,.16)";
+    g.strokeStyle = P.grid;
     g.lineWidth = 2;
     for (let i = 0; i <= 16; i++) {
       const p = (i / 16) * w;
@@ -489,7 +556,7 @@ function init(
     }
     g.save();
     g.translate(w / 2, h / 2);
-    g.strokeStyle = "#d4a017";
+    g.strokeStyle = P.gold;
     g.lineWidth = 10;
     g.beginPath();
     for (let i = 0; i < 32; i++) {
@@ -522,11 +589,11 @@ function init(
   floor.receiveShadow = true;
   hall.add(floor);
 
-  const wallTex = canvasTex(1024, 256, (g, w, h) => {
-    g.fillStyle = "#22345c";
+  const wallTex = lookTex(1024, 256, (g, w, h) => {
+    g.fillStyle = P.wall;
     g.fillRect(0, 0, w, h);
     for (let x = 0; x < w; x += 128) {
-      g.fillStyle = "#182747";
+      g.fillStyle = P.niche;
       g.beginPath();
       g.moveTo(x + 16, h - 58);
       g.lineTo(x + 16, h - 140);
@@ -535,7 +602,7 @@ function init(
       g.lineTo(x + 112, h - 58);
       g.closePath();
       g.fill();
-      g.strokeStyle = "#d4a017";
+      g.strokeStyle = P.gold;
       g.lineWidth = 3;
       g.stroke();
       g.fillStyle = "rgba(212,160,23,.45)";
@@ -543,7 +610,7 @@ function init(
       g.arc(x + 64, h - 120, 8, 0, 7);
       g.fill();
     }
-    g.fillStyle = "#2a3f6e";
+    g.fillStyle = P.band;
     g.fillRect(0, h - 58, w, 58);
     g.strokeStyle = "rgba(212,160,23,.6)";
     g.lineWidth = 2;
@@ -556,7 +623,7 @@ function init(
       g.closePath();
       g.stroke();
     }
-    g.strokeStyle = "#d4a017";
+    g.strokeStyle = P.gold;
     g.lineWidth = 5;
     g.beginPath();
     g.moveTo(0, 8);
@@ -617,7 +684,7 @@ function init(
   // Central medallion with the museum mark.
   const ped = new THREE.Mesh(
     new THREE.CylinderGeometry(1.6, 2, 1.1, 24),
-    new THREE.MeshStandardMaterial({ color: 0x8a6f4d, roughness: 0.7 })
+    new THREE.MeshStandardMaterial({ color: P.hallPed, roughness: 0.7 })
   );
   ped.position.y = 0.55;
   ped.castShadow = ped.receiveShadow = true;
@@ -666,6 +733,7 @@ function init(
       opacity: 0.55,
     })
   );
+  dust.visible = !lite;
   hall.add(dust);
 
   /* ---------------- the nine wing portals ---------------- */
@@ -703,6 +771,12 @@ function init(
   });
   addStar(hall, { scene: "hall", x: 0, z: 6, yaw: 0 });
 
+  // Materials whose colour comes from the palette.
+  const tints: Array<[THREE.MeshStandardMaterial, (q: Palette) => number]> = [
+    [stoneMat, (q) => q.stone],
+    [ped.material as THREE.MeshStandardMaterial, (q) => q.hallPed],
+  ];
+
   /* ---------------- columns + muqarnas cornice ---------------- */
   {
     const colGeo = new THREE.CylinderGeometry(0.55, 0.68, 9, 12);
@@ -728,35 +802,51 @@ function init(
       const ring = new THREE.Mesh(
         new THREE.CylinderGeometry(r, r - 1.4, 1.1, 48, 1, true),
         new THREE.MeshStandardMaterial({
-          color: i % 2 ? 0x8a6f4d : 0x9a7f58,
+          color: P.rings[i % 2],
           side: THREE.DoubleSide,
           roughness: 0.8,
         })
       );
       ring.position.y = 12.4 - i * 1.05;
       hall.add(ring);
+      tints.push([ring.material as THREE.MeshStandardMaterial, (q) => q.rings[i % 2]]);
     }
   }
 
-  /* ---------------- the objects gallery (one wing, 3D) ---------------- */
+  /* ---------------- wing halls: one room shape for all nine wings ----------------
+     Objects keeps its procedural exhibits; the other eight halls are built from
+     the page data when entered and freed when left. */
   const gallery = new THREE.Group();
   gallery.visible = false;
   scene.add(gallery);
   const G_W = 34;
   const G_D = 20;
   const G_H = 8;
+  const trimM = new THREE.MeshStandardMaterial({ color: 0xd4a017, emissive: 0x6b4d08, emissiveIntensity: 0.4 });
+  const backM = new THREE.MeshStandardMaterial({ color: P.back, emissive: 0xd4a017, emissiveIntensity: 0.25 });
+  tints.push([backM, (q) => q.back]);
+  // The wing's colour on the cornice trim and the way back.
+  function paintGallery(w: Wing): void {
+    trimM.color.setHex(w.color);
+    trimM.emissive.setHex(w.color).multiplyScalar(0.5);
+    backM.emissive.setHex(w.color);
+  }
+  const objectsRoom = new THREE.Group();
+  gallery.add(objectsRoom);
   {
     const gf = new THREE.Mesh(
       new THREE.PlaneGeometry(G_W, G_D),
-      new THREE.MeshStandardMaterial({ color: 0x2b3a58, roughness: 0.6 })
+      new THREE.MeshStandardMaterial({ color: P.gFloor, roughness: 0.6 })
     );
+    tints.push([gf.material as THREE.MeshStandardMaterial, (q) => q.gFloor]);
     gf.rotation.x = -Math.PI / 2;
     gf.receiveShadow = true;
     gallery.add(gf);
     const wallM = new THREE.MeshStandardMaterial({
-      color: 0x24345a,
+      color: P.gWall,
       roughness: 0.9,
     });
+    tints.push([wallM, (q) => q.gWall]);
     const mkWall = (
       w: number,
       h: number,
@@ -776,29 +866,16 @@ function init(
     mkWall(G_D, G_H, G_W / 2, G_H / 2, 0, -Math.PI / 2);
     const ceil = new THREE.Mesh(
       new THREE.PlaneGeometry(G_W, G_D),
-      new THREE.MeshStandardMaterial({ color: 0x182442 })
+      new THREE.MeshStandardMaterial({ color: P.gCeil })
     );
+    tints.push([ceil.material as THREE.MeshStandardMaterial, (q) => q.gCeil]);
     ceil.rotation.x = Math.PI / 2;
     ceil.position.y = G_H;
     gallery.add(ceil);
-    const trim = new THREE.Mesh(
-      new THREE.BoxGeometry(G_W, 0.3, G_D),
-      new THREE.MeshStandardMaterial({
-        color: 0xd4a017,
-        emissive: 0x6b4d08,
-        emissiveIntensity: 0.4,
-      })
-    );
+    const trim = new THREE.Mesh(new THREE.BoxGeometry(G_W, 0.3, G_D), trimM);
     trim.position.y = G_H - 0.4;
     gallery.add(trim);
-    const back = new THREE.Mesh(
-      new THREE.PlaneGeometry(5, 7.4),
-      new THREE.MeshStandardMaterial({
-        color: 0x0e1830,
-        emissive: 0xd4a017,
-        emissiveIntensity: 0.25,
-      })
-    );
+    const back = new THREE.Mesh(new THREE.PlaneGeometry(5, 7.4), backM);
     back.position.set(0, 3.7, G_D / 2 - 0.05);
     back.rotation.y = Math.PI;
     gallery.add(back);
@@ -900,9 +977,10 @@ function init(
     lamp: buildLamp,
   };
   const pedMat = new THREE.MeshStandardMaterial({
-    color: 0x6e5b3e,
+    color: P.ped,
     roughness: 0.7,
   });
+  tints.push([pedMat, (q) => q.ped]);
   const EX_GAP = 6;
   EXHIBITS.forEach((ex, i) => {
     const x = (i - (EXHIBITS.length - 1) / 2) * EX_GAP;
@@ -913,30 +991,148 @@ function init(
     );
     p.position.set(x, 0.6, -2);
     p.castShadow = p.receiveShadow = true;
-    gallery.add(p);
+    objectsRoom.add(p);
     const art = exhibitBuilders[ex.build]();
     art.position.set(x, 2.15, -2);
     art.traverse((o) => {
       if ((o as THREE.Mesh).isMesh) (o as THREE.Mesh).castShadow = true;
     });
-    gallery.add(art);
+    objectsRoom.add(art);
     ex.spinObj = art;
     const label = textSprite(ex.label, { px: 56 });
     label.position.set(x, 3.35, -2);
-    gallery.add(label);
+    objectsRoom.add(label);
     const hit = new THREE.Mesh(
       new THREE.BoxGeometry(2.2, 2.6, 2.2),
       new THREE.MeshBasicMaterial({ visible: false })
     );
     hit.position.set(x, 2, -2);
-    gallery.add(hit);
+    objectsRoom.add(hit);
     interact.push({ obj: hit, kind: "exhibit", ex });
-    addStar(gallery, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
+    addStar(objectsRoom, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
     const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
+    spot.visible = !lite;
     spot.position.set(x, 7.4, 1);
     spot.target.position.set(x, 1.6, -2);
-    gallery.add(spot, spot.target);
+    objectsRoom.add(spot, spot.target);
   });
+
+  // A data-built hall: a stop with `art` frames a site illustration on the back
+  // wall; any other stop shows its name on a plaque under a geometric panel.
+  const frameM = new THREE.MeshStandardMaterial({ color: 0x8a6a2a, metalness: 0.6, roughness: 0.4 });
+  const panelM = new THREE.MeshStandardMaterial({
+    map: girihTex,
+    emissive: 0xffffff,
+    emissiveMap: girihTex,
+    emissiveIntensity: P.panelGlow,
+    roughness: 0.8,
+  });
+  const SHARED = new Set<unknown>([girihTex, starMat, starGeo, pedMat, frameM, panelM]);
+  const texLoader = new THREE.TextureLoader();
+  let roomRepaints: Array<() => void> = [];
+  function plaqueTex(text: string, color: number): THREE.CanvasTexture {
+    return lookTex(1024, 360, (g, w, h) => {
+      g.fillStyle = P.plaqueBg;
+      g.fillRect(0, 0, w, h);
+      g.strokeStyle = "#" + color.toString(16).padStart(6, "0");
+      g.lineWidth = 14;
+      g.strokeRect(14, 14, w - 28, h - 28);
+      let px = 120;
+      g.font = FONT(px);
+      while (px > 40 && g.measureText(text).width > w - 110) g.font = FONT((px -= 6));
+      g.fillStyle = P.plaqueFg;
+      g.textAlign = "center";
+      g.textBaseline = "middle";
+      g.direction = lang === "en" ? "ltr" : "rtl";
+      g.fillText(text, w / 2, h / 2 + px * 0.08);
+    }, roomRepaints);
+  }
+  let hallRoom: THREE.Group | null = null;
+  function freeHallRoom(): void {
+    if (!hallRoom) return;
+    const room = hallRoom;
+    hallRoom = null;
+    roomRepaints = [];
+    gallery.remove(room);
+    for (let i = interact.length - 1; i >= 0; i--) {
+      let o: THREE.Object3D | null = interact[i].obj;
+      while (o && o !== room) o = o.parent;
+      if (o) interact.splice(i, 1);
+    }
+    room.traverse((o) => {
+      const m = o as THREE.Mesh;
+      if (!m.isMesh && !(o as THREE.Sprite).isSprite) return;
+      if (!SHARED.has(m.geometry)) m.geometry?.dispose();
+      const mat = m.material as THREE.MeshStandardMaterial;
+      if (!mat || SHARED.has(mat)) return;
+      if (mat.map && !SHARED.has(mat.map)) mat.map.dispose();
+      mat.dispose();
+    });
+  }
+  function buildHallRoom(w: Wing, stops: Exhibit[]): void {
+    const room = new THREE.Group();
+    stops.forEach((ex, i) => {
+      const x = (i - (stops.length - 1) / 2) * EX_GAP;
+      ex.x = x;
+      let hitY = 2;
+      let hitZ = -2;
+      if (ex.art) {
+        const z = -G_D / 2 + 0.1;
+        const frame = new THREE.Mesh(new THREE.BoxGeometry(4.3, 3.0, 0.14), frameM);
+        frame.position.set(x, 3.6, z);
+        const tex = texLoader.load(ex.art);
+        tex.colorSpace = THREE.SRGBColorSpace;
+        const pic = new THREE.Mesh(
+          new THREE.PlaneGeometry(3.9, 2.6),
+          new THREE.MeshStandardMaterial({ map: tex, roughness: 0.9 })
+        );
+        pic.position.set(x, 3.6, z + 0.08);
+        room.add(frame, pic);
+        const label = textSprite(ex.label, { px: 56 });
+        label.position.set(x, 5.75, z + 0.3);
+        room.add(label);
+        hitY = 3.6;
+        hitZ = z + 1;
+      } else {
+        const pnl = new THREE.Mesh(new THREE.PlaneGeometry(3.6, 3.6), panelM);
+        pnl.position.set(x, 4.6, -G_D / 2 + 0.06);
+        const plinth = new THREE.Mesh(new THREE.BoxGeometry(2.2, 1.1, 1.1), pedMat);
+        plinth.position.set(x, 0.55, -2);
+        plinth.castShadow = plinth.receiveShadow = true;
+        const plaque = new THREE.Mesh(
+          new THREE.PlaneGeometry(2.6, 0.92),
+          new THREE.MeshStandardMaterial({ map: plaqueTex(ex.label, w.color), roughness: 0.5 })
+        );
+        plaque.position.set(x, 1.65, -1.75);
+        plaque.rotation.x = -0.35;
+        room.add(pnl, plinth, plaque);
+      }
+      const hit = new THREE.Mesh(
+        new THREE.BoxGeometry(ex.art ? 4.4 : 2.6, ex.art ? 3.2 : 2.6, 2.2),
+        new THREE.MeshBasicMaterial({ visible: false })
+      );
+      hit.position.set(x, hitY, hitZ);
+      room.add(hit);
+      interact.push({ obj: hit, kind: "exhibit", ex });
+      addStar(room, { scene: "gallery", x, z: 2.6, yaw: 0, stop: i });
+      const spot = new THREE.SpotLight(0xffe9b8, 60, 12, 0.5, 0.5);
+      spot.visible = !lite;
+      spot.position.set(x, 7.4, 1);
+      spot.target.position.set(x, ex.art ? 3.4 : 1.6, ex.art ? -G_D / 2 : -2);
+      room.add(spot, spot.target);
+    });
+    gallery.add(room);
+    hallRoom = room;
+  }
+  // Show wing w's hall: its stops, its colour, and only its own room contents.
+  function openWingRoom(w: Wing): void {
+    freeHallRoom();
+    curWing = w;
+    EXHIBITS = stopsOf(w.id);
+    objectsRoom.visible = w.id === "objects";
+    if (w.id !== "objects") buildHallRoom(w, EXHIBITS);
+    paintGallery(w);
+  }
 
   /* ---------------- time journeys: imagined scenes ----------------
      Architecture and places only — no depictions of people.        */
@@ -1379,21 +1575,62 @@ function init(
   const journeyCard = $("#journeyCard");
 
   let journeyGroup: THREE.Group | null = null;
+  // Museum lighting for the current look; journeys bring their own.
+  function applyLight(): void {
+    (scene.background as THREE.Color).setHex(P.bg);
+    fog.color.setHex(P.bg);
+    fog.near = P.fog[0];
+    fog.far = P.fog[1];
+    sun.intensity = P.sun;
+    hemi.color.setHex(P.hemiSky);
+    hemi.groundColor.setHex(P.hemiGround);
+    // Lighter graphics swap the stop spotlights for brighter even light.
+    hemi.intensity = P.hemi + (lite ? 0.4 : 0);
+  }
+  function setLook(next: Look): void {
+    look = next;
+    P = LOOKS[look];
+    root.setAttribute("data-look", look);
+    lookBtn.setAttribute("aria-pressed", String(look === "day"));
+    for (const [m, pick] of tints) m.color.setHex(pick(P));
+    panelM.emissiveIntensity = P.panelGlow;
+    repaints.forEach((f) => f());
+    roomRepaints.forEach((f) => f());
+    if (!journeyGroup) applyLight();
+  }
+  function setLite(on: boolean): void {
+    lite = on;
+    for (const el of liteBoxes) el.checked = on;
+    renderer.shadowMap.enabled = !on;
+    renderer.setPixelRatio(on ? 1 : Math.min(devicePixelRatio, 2));
+    renderer.setSize(innerWidth, innerHeight);
+    dust.visible = !on;
+    scene.traverse((o) => {
+      if ((o as THREE.SpotLight).isSpotLight) o.visible = !on;
+      const m = (o as THREE.Mesh).material;
+      if (m) (Array.isArray(m) ? m : [m]).forEach((x) => (x.needsUpdate = true));
+    });
+    if (!journeyGroup) applyLight();
+  }
+  const lookBtn = $<HTMLButtonElement>("#lookBtn");
+  lookBtn.setAttribute("aria-pressed", String(look === "day"));
+  listen(lookBtn, "click", (() => setLook(look === "day" ? "evening" : "day")) as EventListener);
+  const liteBoxes = [$<HTMLInputElement>("#liteEnter"), $<HTMLInputElement>("#liteHelp")];
+  for (const el of liteBoxes) {
+    el.checked = lite;
+    listen(el, "change", (() => setLite(el.checked)) as EventListener);
+  }
   function clearJourney(): void {
     if (journeyGroup) {
       scene.remove(journeyGroup);
       journeyGroup = null;
     }
-    fog.color.setHex(0x0d1b2e);
-    fog.near = 30;
-    fog.far = 95;
-    sun.intensity = 1.15;
-    hemi.intensity = 0.55;
+    applyLight();
     journeyCard.classList.remove("show");
   }
 
   type SceneName = "hall" | "gallery" | "journey";
-  // Stop links: #objects, #objects/<exhibit>, #journey/<id>; the hall clears the hash.
+  // Stop links: #<wing>, #<wing>/<stop>, #journey/<id>, #hall/<wing>; the hall clears the hash.
   function setHash(h: string): void {
     try {
       history.replaceState(null, "", h ? `#${h}` : location.pathname + location.search);
@@ -1402,10 +1639,13 @@ function init(
     }
   }
   function setScene(name: SceneName, ref?: Wing | JourneyView, stop?: number): void {
+    closeCloser(false);
     fade.style.opacity = "1";
     window.setTimeout(
       () => {
         clearJourney();
+        if (name === "gallery" && ref && "color" in ref) openWingRoom(ref);
+        else freeHallRoom();
         hall.visible = name === "hall";
         gallery.visible = name === "gallery";
         player.scene = name;
@@ -1493,8 +1733,28 @@ function init(
     toastTimer = window.setTimeout(() => el.classList.remove("show"), 5000);
   }
 
+  // Offer lighter graphics once, with a button, when the first seconds run slowly.
+  function offerLite(): void {
+    const el = $("#toast");
+    el.textContent = "";
+    const span = document.createElement("span");
+    span.textContent = t.lite_offer || "";
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = t.lite_offer_btn || "";
+    b.addEventListener("click", () => {
+      setLite(true);
+      el.classList.remove("show");
+      renderer.domElement.focus({ preventScroll: true });
+    });
+    el.append(span, document.createElement("br"), b);
+    el.classList.add("show");
+    window.clearTimeout(toastTimer);
+    toastTimer = window.setTimeout(() => el.classList.remove("show"), 12000);
+  }
+
   function enterPortal(wing: Wing): void {
-    if (wing.id === "objects") {
+    if (stopsOf(wing.id).length) {
       setScene("gallery", wing);
       return;
     }
@@ -1519,21 +1779,24 @@ function init(
     $("#panelTitle").textContent = ex.label;
     $("#panelMeta").textContent = [ex.date, ex.material, ex.museum].filter(Boolean).join(" · ");
     $("#panelNote").textContent = ex.note || "";
+    // Illustrated stops: the AI-illustration note plus the illustration's alt text.
+    $("#panelArt").textContent = ex.art ? [t.art_note, ex.artAlt].filter(Boolean).join(": ") : "";
     $("#panelDesc").textContent = ex.desc;
     ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
+    $("#panelCloser").hidden = !canCloser(ex);
     if (!panel.classList.contains("show")) {
       const active = document.activeElement as HTMLElement | null;
       panelReturn = active && active !== document.body && !panel.contains(active) ? active : null;
     }
     panel.classList.add("show");
-    setHash(`objects/${ex.id}`);
+    setHash(`${curWing.id}/${ex.id}`);
     refreshStrip();
     if (!panel.contains(document.activeElement)) $("#panelTitle").focus({ preventScroll: true });
   }
   function closePanel(restore = true): void {
     if (!panel.classList.contains("show")) return;
     panel.classList.remove("show");
-    if (player.scene === "gallery") setHash("objects");
+    if (player.scene === "gallery") setHash(curWing.id);
     if (restore && panel.contains(document.activeElement)) {
       (panelReturn && root.contains(panelReturn) ? panelReturn : renderer.domElement).focus({ preventScroll: true });
     }
@@ -1599,6 +1862,185 @@ function init(
     (helpReturn && root.contains(helpReturn) ? helpReturn : $("#helpBtn")).focus({ preventScroll: true });
     helpReturn = null;
   }
+
+  /* ---------------- close-up viewer ---------------- */
+  // "Look closer": an exhibit's model alone in a small studio scene, or a stop's
+  // illustration full screen. Both are freed on close.
+  const closer = $("#closer");
+  const closerStage = $("#closerStage");
+  const closerImg = $<HTMLImageElement>("#closerImg");
+  const closeCam = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 0.05, 50);
+  let closeScene: THREE.Scene | null = null;
+  let closeObj: THREE.Object3D | null = null;
+  let closerEx: Exhibit | null = null;
+  let closerReturn: HTMLElement | null = null;
+  const cv = { yaw: 0, pitch: 0.15, zoom: 1, r: 1, panX: 0, panY: 0 };
+  const resetView = (): void => void Object.assign(cv, { yaw: 0, pitch: 0.15, zoom: 1, panX: 0, panY: 0 });
+  function canCloser(ex: Exhibit | null | undefined): ex is Exhibit {
+    return !!ex && (!!exhibitBuilders[ex.build] || !!ex.art);
+  }
+  const keepMats = new Set<THREE.Material>([brass, goldM, creamM, stoneMat]);
+  function disposeCloseScene(): void {
+    closeScene?.traverse((o) => {
+      const m = o as THREE.Mesh;
+      if (!m.isMesh) return;
+      m.geometry.dispose();
+      (Array.isArray(m.material) ? m.material : [m.material]).forEach((x) => {
+        if (!keepMats.has(x)) x.dispose();
+      });
+    });
+    closeCam.clear();
+    closeCam.removeFromParent();
+    closeScene = null;
+    closeObj = null;
+  }
+  function closerView(): void {
+    const z = numFmt.format(Math.round(cv.zoom * 10) / 10);
+    let text: string;
+    if (closeObj) {
+      const q = ((Math.round(cv.yaw / (Math.PI / 2)) % 4) + 4) % 4;
+      const side = cv.pitch > 0.6 ? t.closer_above : [t.closer_front, t.closer_side_r, t.closer_rear, t.closer_side_l][q];
+      text = (t.closer_view || "").replace("{side}", side || "").replace("{z}", z);
+    } else {
+      text = (t.closer_zoom || "").replace("{z}", z);
+      closerImg.style.transform = `translate(${cv.panX}px, ${cv.panY}px) scale(${cv.zoom})`;
+    }
+    $("#closerView").textContent = text;
+  }
+  function openCloser(ex: Exhibit): void {
+    if (!canCloser(ex)) return;
+    closeMap(false);
+    helpPanel.classList.remove("show");
+    closerEx = ex;
+    if (!closer.contains(document.activeElement)) closerReturn = document.activeElement as HTMLElement | null;
+    resetView();
+    disposeCloseScene();
+    const model = exhibitBuilders[ex.build] as (() => THREE.Object3D) | undefined;
+    if (model) {
+      closeScene = new THREE.Scene();
+      closeScene.background = new THREE.Color(P.bg);
+      closeScene.add(new THREE.HemisphereLight(0xfff6e0, 0x3a2c18, 1.1));
+      const key = new THREE.DirectionalLight(0xffffff, 1.6);
+      key.position.set(2, 3, 4);
+      closeScene.add(key);
+      // a soft light from the viewer, so every side turned to the front is lit
+      const fill = new THREE.PointLight(0xffffff, 1.1, 0, 0);
+      closeCam.add(fill);
+      closeScene.add(closeCam);
+      closeObj = model();
+      const box = new THREE.Box3().setFromObject(closeObj);
+      closeObj.position.sub(box.getCenter(new THREE.Vector3()));
+      cv.r = box.getSize(new THREE.Vector3()).length() / 2;
+      closeScene.add(closeObj);
+      closerImg.hidden = true;
+      closerImg.removeAttribute("src");
+    } else {
+      closerImg.src = ex.art || "";
+      closerImg.alt = ex.artAlt || "";
+      closerImg.hidden = false;
+    }
+    closer.classList.toggle("img", !model);
+    for (const id of ["closerLeft", "closerRight", "closerUp", "closerDown"]) $(`#${id}`).hidden = !model;
+    $("#closerTitle").textContent = ex.label;
+    $("#closerNote").textContent = model ? t.closer_note || "" : [t.art_note, ex.artAlt].filter(Boolean).join(": ");
+    const photos = $<HTMLAnchorElement>("#closerPhotos");
+    photos.hidden = !ex.photos;
+    if (ex.photos) photos.href = ex.photos;
+    closerView();
+    closer.classList.add("show");
+    root.classList.add("closing");
+    setHash(`${curWing.id}/${ex.id}/closer`);
+    requestAnimationFrame(() => $("#closerTitle").focus({ preventScroll: true }));
+  }
+  function closeCloser(restore = true): void {
+    if (!closer.classList.contains("show")) return;
+    closer.classList.remove("show");
+    root.classList.remove("closing");
+    disposeCloseScene();
+    closerImg.removeAttribute("src");
+    if (closerEx && player.scene === "gallery")
+      setHash(panel.classList.contains("show") ? `${curWing.id}/${closerEx.id}` : curWing.id);
+    closerEx = null;
+    if (restore)
+      (closerReturn && root.contains(closerReturn) && closerReturn.offsetParent ? closerReturn : renderer.domElement).focus({
+        preventScroll: true,
+      });
+    closerReturn = null;
+  }
+  const turn = (dy: number, dp: number): void => {
+    cv.yaw += dy;
+    cv.pitch = Math.max(-0.6, Math.min(1.2, cv.pitch + dp));
+    closerView();
+  };
+  const zoomBy = (f: number): void => {
+    cv.zoom = Math.max(1, Math.min(closeObj ? 3 : 4, cv.zoom * f));
+    if (cv.zoom === 1) cv.panX = cv.panY = 0;
+    closerView();
+  };
+  const pan = (dx: number, dy: number): void => {
+    if (cv.zoom === 1) return;
+    cv.panX += dx;
+    cv.panY += dy;
+    closerView();
+  };
+  const STEP = Math.PI / 8;
+  const closerCtl: Array<[string, () => void]> = [
+    ["closerLeft", () => turn(-STEP, 0)],
+    ["closerRight", () => turn(STEP, 0)],
+    ["closerUp", () => turn(0, 0.2)],
+    ["closerDown", () => turn(0, -0.2)],
+    ["closerIn", () => zoomBy(1.25)],
+    ["closerOut", () => zoomBy(0.8)],
+    ["closerReset", () => (resetView(), closerView())],
+    ["closerBack", () => closeCloser()],
+    ["panelCloser", () => EXHIBITS[stopIdx] && openCloser(EXHIBITS[stopIdx])],
+  ];
+  for (const [id, fn] of closerCtl) listen($(`#${id}`), "click", (() => fn()) as EventListener);
+  // the viewer covers the tour, so Tab cycles inside it instead of reaching hidden controls
+  listen(closer, "keydown", ((e: KeyboardEvent) => {
+    if (e.key !== "Tab") return;
+    const f = [...closer.querySelectorAll<HTMLElement>("button, a[href]")].filter((el) => !el.hidden && el.offsetParent);
+    if (!f.length) return;
+    const i = f.indexOf(document.activeElement as HTMLElement);
+    if (e.shiftKey ? i <= 0 : i === f.length - 1) {
+      e.preventDefault();
+      f[e.shiftKey ? f.length - 1 : 0].focus();
+    }
+  }) as EventListener);
+  // Drag turns the model or moves the picture; two fingers or the wheel zoom.
+  const pts = new Map<number, { x: number; y: number }>();
+  let pinch = 0;
+  listen(closerStage, "pointerdown", ((e: PointerEvent) => {
+    closerStage.setPointerCapture(e.pointerId);
+    pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  }) as EventListener);
+  listen(closerStage, "pointermove", ((e: PointerEvent) => {
+    const p = pts.get(e.pointerId);
+    if (!p) return;
+    const dx = e.clientX - p.x;
+    const dy = e.clientY - p.y;
+    p.x = e.clientX;
+    p.y = e.clientY;
+    if (pts.size === 2) {
+      const [a, b] = [...pts.values()];
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (pinch) zoomBy(d / pinch);
+      pinch = d;
+      return;
+    }
+    if (closeObj) turn(dx * 0.008, dy * 0.006);
+    else pan(dx, dy);
+  }) as EventListener);
+  const lift = ((e: PointerEvent) => {
+    pts.delete(e.pointerId);
+    pinch = 0;
+  }) as EventListener;
+  listen(closerStage, "pointerup", lift);
+  listen(closerStage, "pointercancel", lift);
+  listen(closerStage, "wheel", ((e: WheelEvent) => {
+    e.preventDefault();
+    zoomBy(e.deltaY < 0 ? 1.1 : 0.9);
+  }) as EventListener, { passive: false });
 
   /* ---------------- overview map ---------------- */
   // A 2D plan with the entrance at the bottom (+x right, +z down). The drawing
@@ -1828,6 +2270,10 @@ function init(
   listen(window, "keydown", ((e: KeyboardEvent) => {
     if (e.key === "Escape") {
       // Escape closes open panels — focus is never trapped.
+      if (closer.classList.contains("show")) {
+        closeCloser();
+        return;
+      }
       if (mapPanel.classList.contains("show")) {
         closeMap();
         return;
@@ -1850,7 +2296,29 @@ function init(
       }
       return;
     }
+    // In the close-up view, arrows turn the model (or move the picture) and + / - zoom.
+    if (closer.classList.contains("show")) {
+      const k = e.key;
+      const arrows: Record<string, [number, number, number, number]> = {
+        ArrowLeft: [-STEP, 0, 40, 0],
+        ArrowRight: [STEP, 0, -40, 0],
+        ArrowUp: [0, 0.2, 0, 40],
+        ArrowDown: [0, -0.2, 0, -40],
+      };
+      if (arrows[k]) {
+        e.preventDefault();
+        const [y, p, x, v] = arrows[k];
+        return closeObj ? turn(y, p) : pan(x, v);
+      }
+      if (k === "+" || k === "=") return zoomBy(1.25);
+      if (k === "-" || k === "\u2212") return zoomBy(0.8);
+      return;
+    }
     const onControl = !!(e.target as HTMLElement | null)?.closest?.("button, a, input, select, textarea");
+    if (e.code === "KeyI" && !e.altKey && !e.ctrlKey && !e.metaKey && player.scene === "gallery") {
+      const ex = panel.classList.contains("show") ? EXHIBITS[stopIdx] : nearEx;
+      if (canCloser(ex)) return openCloser(ex);
+    }
     if (player.scene === "gallery" && !e.altKey && !e.ctrlKey && !e.metaKey) {
       if (e.key === "]") return stepStop(1);
       if (e.key === "[") return stepStop(-1);
@@ -1869,6 +2337,8 @@ function init(
         return enterPortal(nearDoor);
       }
     }
+    if (e.code === "KeyL" && !e.altKey && !e.ctrlKey && !e.metaKey && !(e.target as HTMLElement | null)?.closest?.("input"))
+      return setLook(look === "day" ? "evening" : "day");
     if (e.code === "KeyM" && !e.altKey && !e.ctrlKey && !e.metaKey && player.scene !== "journey")
       return mapPanel.classList.contains("show") ? closeMap() : openMap();
     if (onControl && (e.code === "Space" || e.key === "Enter")) return;
@@ -1971,7 +2441,16 @@ function init(
   function handleTap(x: number, y: number): void {
     ndc.set((x / innerWidth) * 2 - 1, -(y / innerHeight) * 2 + 1);
     ray.setFromCamera(ndc, camera);
+    // Only objects still attached to the scene and in a visible room are targets.
+    const shown = (o: THREE.Object3D | null): boolean => {
+      for (; o; o = o.parent) {
+        if (!o.visible) return false;
+        if (o === scene) return true;
+      }
+      return false;
+    };
     const targets = interact
+      .filter((i) => shown(i.obj))
       .filter((i) =>
         i.kind === "waypoint"
           ? i.wp.scene === player.scene
@@ -2124,6 +2603,8 @@ function init(
   const clock = new THREE.Clock();
   let raf = 0;
   let firstFrame = true;
+  let fpsWatch = !lite;
+  let fpsFrames = 0;
   function animate(): void {
     raf = requestAnimationFrame(animate);
     const dt = Math.min(clock.getDelta(), 0.05);
@@ -2143,7 +2624,35 @@ function init(
     }
     updatePlayer(dt);
     if (mapPanel.classList.contains("show")) updateMapDot();
-    renderer.render(scene, camera);
+    if (closeScene) {
+      // Centre the model in the space above the control bar and fit it there:
+      // the camera frames a taller virtual view whose middle is that space.
+      const w = innerWidth;
+      const h = innerHeight;
+      const bar = Math.min($("#closerBar").offsetHeight + 14, h * 0.6);
+      const half = Math.tan(THREE.MathUtils.degToRad(20));
+      const fit = Math.min(Math.atan(half), Math.atan((half * w) / (h - bar)));
+      const d = ((cv.r / Math.sin(fit)) * 1.1) / cv.zoom;
+      closeCam.position.set(
+        Math.sin(cv.yaw) * Math.cos(cv.pitch) * d,
+        Math.sin(cv.pitch) * d,
+        Math.cos(cv.yaw) * Math.cos(cv.pitch) * d
+      );
+      closeCam.lookAt(0, 0, 0);
+      closeCam.fov = 2 * THREE.MathUtils.radToDeg(Math.atan((half * (h + bar)) / (h - bar)));
+      closeCam.aspect = w / (h + bar);
+      closeCam.setViewOffset(w, h + bar, 0, bar, w, h);
+      closeCam.updateProjectionMatrix();
+      renderer.render(closeScene, closeCam);
+    } else renderer.render(scene, camera);
+    if (fpsWatch && !lite && !document.hidden) {
+      // Measure frames between 1 s and 5 s after the first one.
+      if (tsec > 1) fpsFrames++;
+      if (tsec > 5) {
+        fpsWatch = false;
+        if (fpsFrames / (tsec - 1) < 24) offerLite();
+      }
+    }
     if (firstFrame) {
       firstFrame = false;
       loading.style.display = "none";
@@ -2162,11 +2671,12 @@ function init(
 
   // Open at the stop named in the link, if any.
   {
-    const [kind, id] = decodeURIComponent(location.hash.slice(1)).split("/");
-    const objectsWing = WINGS.find((w) => w.id === "objects")!;
-    if (kind === "objects") {
-      const i = EXHIBITS.findIndex((e) => e.id === id);
-      setScene("gallery", objectsWing, i >= 0 ? i : undefined);
+    const [kind, id, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
+    const wing = WINGS.find((w) => w.id === kind);
+    if (wing && stopsOf(wing.id).length) {
+      const i = stopsOf(wing.id).findIndex((e) => e.id === id);
+      setScene("gallery", wing, i >= 0 ? i : undefined);
+      if (sub === "closer" && i >= 0) window.setTimeout(() => openCloser(stopsOf(wing.id)[i]), 800);
     } else if (kind === "journey") {
       const j = data.journeys.find((x) => x.id === id);
       if (j) setScene("journey", j);
@@ -2184,6 +2694,7 @@ function init(
   function teardown(): void {
     if (exited) return;
     exited = true;
+    closeCloser(false);
     cancelAnimationFrame(raf);
     cleanups.forEach((fn) => fn());
     // Free GPU resources so a later re-entry starts clean.

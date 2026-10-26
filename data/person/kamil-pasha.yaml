@@ -1,0 +1,48 @@
+id: person/kamil-pasha
+class: person
+label: { ar: "محمد كامل باشا", en: "Mehmed Kâmil Pasha", ur: "محمد کامل پاشا" }
+names:
+  - { value: "Mehmed Kâmil Pasha", kind: full }
+  - { value: "محمد كامل پاشا", kind: full }
+  - { value: "Kâmil Pasha", kind: alternate }
+  - { value: "Kıbrıslı Mehmed Kâmil Paşa", kind: alternate }
+  - { value: "İngiliz Kâmil", kind: laqab }
+gender: male
+summary:
+  ar: "رجل دولة عثماني من أصل قبرصي تركي، تولى الصدارة العظمى أربع مرات بين 1885 و1913، وهو من أطول صُدور عبد الحميد الثاني خدمة، ثم صار منافسًا ليبراليًّا لجمعية الاتحاد والترقي. عُرف بـ«كامل الإنجليزي» لميله إلى بريطانيا، وانتهت وزارته الأخيرة حين أجبره ضباط اتحاديون على الاستقالة تحت تهديد السلاح في اقتحام الباب العالي في 23 يناير 1913."
+  en: "Ottoman statesman of Turkish Cypriot origin who served four times as Grand Vizier between 1885 and 1913, among the longest-serving grand viziers of Abdul Hamid II and later a liberal rival of the Committee of Union and Progress. Known as 'English Kâmil' for his Anglophilia, his last ministry ended when Unionist officers forced his resignation at gunpoint in the raid on the Sublime Porte of 23 January 1913."
+  ur: "ترک قبرصی نژاد عثمانی مدبر جنھوں نے 1885 اور 1913 کے درمیان چار مرتبہ صدارتِ عظمیٰ سنبھالی؛ عبدالحمید ثانی کے طویل خدمت کرنے والے صدورِ اعظم میں سے اور بعد ازاں جمعیتِ اتحاد و ترقی کے آزاد خیال حریف۔ برطانیہ سے لگاؤ کی وجہ سے «انگریز کامل» کہلائے؛ ان کی آخری وزارت 23 جنوری 1913 کو بابِ عالی پر دھاوے میں اتحادی افسروں کے بندوق کی نوک پر استعفے پر مجبور کرنے پر ختم ہوئی۔"
+roles: [vizier]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1833"
+  hijri: "1248"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born in Cyprus in 1833, a son of the artillery captain Salih Agha of Pyrogi. The place is split in small compass: the English article gives Nicosia, the Turkish article gives Gaziler (Gâziler), a village in the Nicosia district. The year is debated: both articles give 1833, but the Ankara doctoral thesis the English article cites for his early life is titled 'Sadrazam Kıbrıslı Mehmed Kamil Paşa: 1832-1913' and Wikidata carries an 1832 value beside 1833; the record follows 1833 with the variant disclosed. The Hijri year 1248 is the derived conversion of 1833."
+  sources: [source/wikipedia-kamil-pasha-en, source/wikipedia-kamil-pasha-tr, source/wikidata-kamil-pasha]
+died:
+  edtf: "1913-11-14"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Nicosia, Cyprus, on 14 November 1913, the reading of both articles and of Wikidata's day-precision value. Wikidata also carries two unreferenced death values — the year 1912 and 24 January 1913 — and a stray Istanbul place of death; none is followed. The Hijri year 1331 is the derived conversion of 1913."
+  sources: [source/wikipedia-kamil-pasha-en, source/wikipedia-kamil-pasha-tr, source/wikidata-kamil-pasha]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a religion or a school for Kâmil Pasha personally, and the value is recorded unknown under the doubt rule. The English article has no religion field and names no religion for him anywhere in its text; the Turkish article's infobox leaves the religion field (dini) blank and its text is likewise silent. The only attestation anywhere is Wikidata's religion value of Islam (Q432), generic, naming no school, carried without references — a single structured-data value, which never counts. Nothing attests a school for him personally, so no value beyond unknown is recorded."
+    sources: [source/wikipedia-kamil-pasha-en, source/wikipedia-kamil-pasha-tr, source/wikidata-kamil-pasha]
+external_ids: { wikidata: Q367997 }
+sources: [source/wikipedia-kamil-pasha-en, source/wikipedia-kamil-pasha-tr, source/wikidata-kamil-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kâmil Pasha' (revision 1366144008 of 26 July 2026), Turkish Wikipedia 'Kâmil Paşa' (revision 38070976 of 26 September 2026) and Wikidata item Q367997 (item revision 2559112478 of 20 October 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. No relations are written: neither Nicosia nor Cyprus has a place entity in the museum, so his birth and death places are carried in the date notes and prose only, and the two office successions that touch this batch — Hüseyin Hilmi Pasha succeeding him in February 1909 and Mahmud Shevket Pasha succeeding him in January 1913 — are likewise carried in prose, since neither man had a record in the museum when this record was written. The birth year is debated (1833 against the 1832 of the cited Ankara thesis and one Wikidata value) and is recorded at 1833 with both readings disclosed. His faith is unknown: the sole attestation is Wikidata's generic, unreferenced Islam value."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

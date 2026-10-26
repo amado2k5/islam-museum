@@ -1,0 +1,52 @@
+id: person/mozaffar-ad-din-shah-qajar
+class: person
+label: { ar: "مظفر الدين شاه قاجار", en: "Mozaffar ad-Din Shah Qajar", ur: "مظفر الدین شاہ قاجار" }
+names:
+  - { value: "Mozaffar ad-Din Shah Qajar", kind: full }
+  - { value: "مظفرالدین‌شاه قاجار", kind: full }
+  - { value: "Muzaffar al-Din Shah", kind: alternate }
+  - { value: "Mozaffar od-Din Shah", kind: alternate }
+  - { value: "Mozaffar al-Din Shah", kind: alternate }
+gender: male
+summary:
+  ar: "الشاه الخامس من الأسرة القاجارية في إيران (حكم من 1 مايو 1896 إلى يناير 1907)، ابن ناصر الدين شاه وخليفته. بعد خمسة وثلاثين عامًا وليًّا للعهد وحاكمًا لأذربيجان، شهد عهده امتياز دارسي النفطي سنة 1901، ثم منحه الدستور في ديسمبر 1906 تحت ضغط الثورة الدستورية، قبل أيام من وفاته."
+  en: "Fifth shah of Qajar Iran (reigned 1 May 1896 – January 1907), son and successor of Naser al-Din Shah. After thirty-five years as crown prince and governor of Azerbaijan, his reign brought the D'Arcy oil concession of 1901 and, under the pressure of the Constitutional Revolution, his grant of a constitution in December 1906, days before his death."
+  ur: "قاجاری ایران کے پانچویں شاہ (دورِ حکومت 1 مئی 1896 تا جنوری 1907)؛ ناصر الدین شاہ کے بیٹے اور جانشین۔ ولی عہد اور آذربائیجان کے گورنر کی حیثیت سے پینتیس برس گزارنے کے بعد ان کے عہد میں 1901 کی ڈارسی تیل رعایت آئی اور آئینی انقلاب کے دباؤ پر انہوں نے دسمبر 1906 میں، اپنی وفات سے چند روز قبل، آئین عطا کیا۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1853-03-23"
+  hijri: "1269"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran, fourth son of Naser al-Din Shah and Shokouh al-Saltaneh. The English article gives 23 March 1853; Wikidata also carries 25 March 1853, referenced to Brill's Encyclopaedia of Islam. The record follows the English article and discloses the variant. The Hijri year 1269 is the derived conversion of 1853."
+  sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar]
+died:
+  edtf: "1907-01-03"
+  hijri: "1324"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The day of his death in January 1907 is split across the sources. The current English article gives 8 January 1907, resting on a New York Times obituary reporting that the news of the Shah's death was kept from the people; Wikidata carries 3 January 1907 imported from an earlier English reading, 9 January referenced to the Bibliothèque nationale de France, and 6 January from a further reference work; and his son Mohammad Ali Shah's reign is dated from 3 January 1907. The record follows 3 January, the accession-consistent reading, with the whole split disclosed. He died days after granting the constitution and was buried in the Imam Husayn Shrine at Karbala. The Hijri year 1324 is the derived conversion of 1907."
+  sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar]
+relations:
+  - { type: child_of, target: person/naser-al-din-shah-qajar, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar] }
+  - { type: successor_of, target: person/naser-al-din-shah-qajar, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en] }
+  - { type: buried_in, target: place/karbala, sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Mozaffar ad-Din Shah personally in any text, and the value is recorded unknown under the doubt rule. His is the strongest infobox case of this run: the English article's infobox carries a religion field reading 'Twelver Shia Islam', naming the branch itself, and Wikidata carries two religion values, Islam (Q432) and Twelver Shiism (Q269785), both without references — but an infobox and its structured-data echo are one source family, and the article's text makes no statement of his personal religion (its character sketch calls him gentle and superstitious, which is colour, not attestation). The Persian article's text contains no statement about his religion at all. One source family only, so no shia-twelver value is recorded; had a second, independent text tradition named the school for him personally, the mapping rule would have applied, and none was found."
+    sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar]
+external_ids: { wikidata: Q467021 }
+sources: [source/wikipedia-mozaffar-ad-din-shah-qajar-en, source/wikidata-mozaffar-ad-din-shah-qajar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mozaffar ad-Din Shah Qajar' (revision 1381847904 of 25 October 2026) and Wikidata item Q467021 (item revision 2553927125 of 6 October 2026), read directly on 26 October 2026; the Persian Wikipedia article's text was also read for the faith check and makes no statement about his religion. No Encyclopaedia Iranica biography of him was located. The birth day carries a Brill Encyclopaedia of Islam variant (25 March 1853) disclosed in the note; the death day is debated across 3, 6, 8 and 9 January 1907 and is recorded at 3 January with all readings disclosed. His faith is unknown: the attestations are the English infobox field 'Twelver Shia Islam' and Wikidata's unreferenced Islam and Twelver Shiism values, one source family. Edges written once here: he was the son of Naser al-Din Shah Qajar and his successor on the throne, and he is buried at Karbala; his birth and death at Tehran take no place edge, as the museum has no Tehran place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-38
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

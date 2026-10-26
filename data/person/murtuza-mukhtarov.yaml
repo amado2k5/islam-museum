@@ -1,0 +1,46 @@
+id: person/murtuza-mukhtarov
+class: person
+label: { ar: "مرتضى مختاروف", en: "Murtuza Mukhtarov", ur: "مرتضیٰ مختاروف" }
+names:
+  - { value: "Murtuza Mukhtar oghlu Mukhtarov", kind: full }
+  - { value: "Murtuza Muxtarov", kind: full }
+  - { value: "Murtuza Muhtarov", kind: alternate }
+gender: male
+summary:
+  ar: "صناعي نفط ومليونير أذربيجاني (1857–1920؛ تعطي الروسية وويكيبيانات 1855)، مهندس حفر عصامي صاحب براءات اختراع، بنى قصر مختاروف في باكو وموّل مسجد أميرجان ومسجد فلاديقفقاز وأعمالًا خيرية واسعة؛ مات في قصره يوم دخول الجيش الأحمر باكو سنة 1920."
+  en: "Azerbaijani oil industrialist and millionaire (1857–1920; the Russian article and Wikidata give 1855), a self-taught drilling engineer with patents to his name, who built the Mukhtarov Palace in Baku and funded the Amirjan mosque, the Vladikavkaz mosque and wide philanthropy; he died at his palace on the day the Red Army took Baku in 1920."
+  ur: "آذربائیجانی تیل صنعت کار اور کروڑ پتی (1857–1920؛ روسی مضمون اور ویکی ڈیٹا 1855 دیتے ہیں)؛ خود آموز ڈرلنگ انجینئر، باکو میں مختاروف محل کے بانی اور امیرجان و ولادی قفقاز کی مساجد کے کفیل؛ 1920 میں باکو پر سرخ فوج کے قبضے کے دن اپنے محل میں انتقال ہوا۔"
+roles: [businessman, philanthropist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1857"
+  hijri: "1273"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Amirjan village near Baku into a poor family. The year is split: the English and Azerbaijani articles give 1857 (the English article itself prints the year queried, '1857?'), while the Russian article and Wikidata give 1855. The record follows 1857, the reading of two of the three articles, with 1855 disclosed; the queue's 1865 is given by NO consulted source and is not followed. The Hijri year 1273 is the tabular conversion of the recorded year. The museum has no place entity for Amirjan or Baku, so no born_in edge is written."
+  sources: [source/wikipedia-murtuza-mukhtarov-en, source/wikipedia-murtuza-mukhtarov-az, source/wikipedia-murtuza-mukhtarov-ru, source/wikidata-murtuza-mukhtarov]
+died:
+  edtf: "1920-04-28"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at his Baku palace on 28 April 1920: as Red Army soldiers entered the residence during the Bolshevik takeover of Azerbaijan he shot several of them and then himself, per the English article. Wikidata gives only the month (April 1920). The Hijri year 1338 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
+  sources: [source/wikipedia-murtuza-mukhtarov-en, source/wikidata-murtuza-mukhtarov]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted article names an affiliation for Mukhtarov himself: the English, Azerbaijani and Russian texts are all silent on his personal religion. Wikidata's only religion value is the Bahá'í Faith (Q22679), and it is referenced ONLY as imported from a Wikimedia project — no article in any consulted language attests it, for or against; an isolated structured value of that kind cannot carry a segment under the lane's two-source rule and doubt rule, and it is preserved here precisely so the anomaly is on record rather than silently dropped or silently followed. The Russian article describes the Vladikavkaz mosque he financed as a Sunni mosque and quotes a decision of that mosque's Sunni parish — the affiliation of an institution he patronised, not of the man; his mosque-building at Amirjan and Vladikavkaz and his dome over a scholar's grave are patronage, which the lane rule excludes. His faith is therefore recorded unknown."
+    sources: [source/wikidata-murtuza-mukhtarov, source/wikipedia-murtuza-mukhtarov-ru, source/wikipedia-murtuza-mukhtarov-en]
+external_ids: { wikidata: "Q4309013" }
+sources: [source/wikipedia-murtuza-mukhtarov-en, source/wikipedia-murtuza-mukhtarov-az, source/wikipedia-murtuza-mukhtarov-ru, source/wikidata-murtuza-mukhtarov]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Murtuza Mukhtarov' (revision 1372860532), Azerbaijani Wikipedia 'Murtuza Muxtarov' (9135014) and Russian Wikipedia 'Мухтаров, Муртуза Мухтар оглы' (152346266), all read on 26 October 2026, with Wikidata item Q4309013 (its religion value's label and reference re-verified the same day). BRIEF CORRECTION: the queue gives his years as 1865–1920; no consulted source gives 1865 — the articles split between 1857 (English, Azerbaijani) and 1855 (Russian, Wikidata) — and the record follows 1857 at debated status, as the born note sets out. His faith is recorded unknown; Wikidata's anomalous Bahá'í value is preserved in the faith note, not followed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-33
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

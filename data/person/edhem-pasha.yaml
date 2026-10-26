@@ -1,0 +1,51 @@
+id: person/edhem-pasha
+class: person
+label: { ar: "أدهم باشا", en: "Edhem Pasha", ur: "ادہم پاشا" }
+names:
+  - { value: "Edhem Pasha", kind: full }
+  - { value: "أدهم باشا", kind: full }
+  - { value: "Ethem Paşa", kind: alternate }
+  - { value: "Gazi Edhem Paşa", kind: alternate }
+  - { value: "غازي أدهم باشا", kind: alternate }
+  - { value: "Gazi", kind: laqab }
+gender: male
+summary:
+  ar: "أدهم باشا (1844 – 17 ديسمبر 1909)، المعروف أيضًا بغازی أدهم باشا، مشير عثماني كان نائب عثمان نوري باشا في دفاع بلفنة سنة 1877، ثم قاد الجيش العثماني الذي هزم اليونان على جبهة تساليا في حرب 1897 فمنحه السلطان عبد الحميد الثاني لقب «غازي»، وتولّى وزارة الحرب أسبوعين سنة 1909 قبل أن يموت في مصر في العام نفسه. وهو غير إبراهيم أدهم باشا الصدر الأعظم."
+  en: "Edhem Pasha (1844 – 17 December 1909), also known as Gazi Edhem Pasha, was an Ottoman field marshal who was Osman Nuri Pasha's deputy at the defence of Plevna in 1877 and then commanded the army that defeated Greece on the Thessalian front in the Greco-Turkish War of 1897, for which Sultan Abdul Hamid II gave him the title Gazi. He was Minister of War for two weeks in 1909 and died in Egypt later that year. He is not Ibrahim Edhem Pasha, the grand vizier."
+  ur: "ادہم پاشا (1844ء – 17 دسمبر 1909ء)، جو غازی ادہم پاشا بھی کہلائے، عثمانی مشیر تھے؛ 1877ء میں پلیونہ کے دفاع میں عثمان نوری پاشا کے نائب رہے، پھر 1897ء کی جنگ میں تھیسالی محاذ پر یونان کو شکست دینے والی فوج کے سپہ سالار ہوئے جس پر سلطان عبدالحمید ثانی نے انھیں «غازی» کا لقب دیا۔ 1909ء میں دو ہفتے وزیرِ جنگ رہے اور اسی سال مصر میں وفات پائی۔ یہ صدرِ اعظم ابراہیم ادہم پاشا سے مختلف شخص ہیں۔"
+roles: [military]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1844"
+  hijri: "1260"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The birth year splits. Both articles give 1844 — the Turkish one resting on the TDV İslâm Ansiklopedisi entry Gazi Edhem Paşa — and the record follows them; but Wikidata's description styles him '(1851–1909)', one of its two birth-year values is 1851, and the English infobox's death-age template likewise implies 1851 against the 1844 of its own birth field. The birthplace also splits: the English article gives Trabzon, the Turkish article (with the TDV entry) Istanbul, where his father was a customs official; Wikidata's birthplace value is Trabzon (Q45301). Because the birthplace itself is split, no born_in edge is written. The Hijri year 1260 is the tabular conversion of mid-1844."
+  sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr, source/wikidata-edhem-pasha]
+died:
+  edtf: "1909-12-17"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Turkish article, citing the TDV İslâm Ansiklopedisi, gives his death on 17 December 1909 in Egypt, whither he had gone for his health after two weeks as Minister of War, and his burial at Eyüp Cemetery in Istanbul; the English article's text agrees that he died in Egypt and was buried at Constantinople in 1909, though its infobox gives Constantinople as the death place against its own text, and Wikidata's death-place value is likewise Istanbul. Egypt has no place entity in the museum, so no died_in edge is written. The Hijri year 1327 is the tabular conversion of 17 December 1909."
+  sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr, source/wikidata-edhem-pasha]
+relations:
+  - { type: buried_in, target: place/istanbul, note: "His body was brought from Egypt and buried at Eyüp Cemetery in Istanbul.", sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly. The English article's text says Edhem was born to a Muslim Turkish family — at Trabzon in its reading — which is his family background, and under the lane rules family background never counts as the man's own attested affiliation. Neither the English nor the Turkish article names a religion or school for him personally beyond that, neither infobox carries a religion field, and Wikidata (Q2749858) carries no religion (P140) value at all. His title Gazi, conferred for the 1897 victory, is an honour, not attestation. With no source attesting a faith for him personally, the value is recorded unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr, source/wikidata-edhem-pasha]
+external_ids: { wikidata: "Q2749858" }
+sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr, source/wikidata-edhem-pasha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Edhem Pasha' (revision 1379838743 of 12 October 2026), Turkish Wikipedia 'Edhem Paşa' (revision 36898106 of 13 March 2026) and Wikidata item Q2749858 (item revision 2528276660 of 6 August 2026), all read directly on 26 October 2026 and the articles re-fetched by revision id with content verified identical. IDENTITY: this is the field marshal (Wikidata Q2749858, described there as 'Ottoman Empire Field Marshal (1851–1909)'), a different man from person/ibrahim-edhem-pasha (1818/1819–1893), the grand vizier, from whom the English article's own hatnote distinguishes him; the distinction is also written into this record's summary. The harvest queue's line reads 'Edhem Pasha (1851–1909)': its death year 1909 is confirmed by all sources, but its birth year 1851 is only one of the readings — both articles and the TDV encyclopedia give 1844 — so the record follows 1844 with the split stated as debated in the born note. The buried_in edge records his burial at Eyüp Cemetery in Istanbul; his death in Egypt has no place entity to link, and his split birthplace takes no edge. His faith is left unknown under the two-source rule, as the faith note sets out in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-44
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

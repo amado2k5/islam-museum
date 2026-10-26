@@ -206,101 +206,101 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Dr. Tahir-ul-Qadri — 1951–Living
 - [x] Javed Ahmad Ghamidi — 1951–Living (built under Batch 7 O1, Ghamidi Center channel)
 - [x] Omar Suleiman — 1986–Living
-- [ ] Suhaib Webb — 1972–Living
-- [ ] Warith Deen Mohammed — 1933–2008
-- [ ] Clara Muhammad — 1899–1972
-- [ ] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
-- [ ] Shareef Abdur-Rahim — 1976–Living
+- [x] Suhaib Webb — 1972–Living
+- [x] Warith Deen Mohammed — 1933–2008
+- [x] Clara Muhammad — 1899–1972
+- [x] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
+- [x] Shareef Abdur-Rahim — 1976–Living
 - [ ] Gilles Sissoko — 1978–Living
-- [ ] Kareem Abdul-Jabbar — 1947–Living
-- [ ] Bernard Hopkins — 1965–Living
-- [ ] Mike Tyson (Malik Abdul Aziz) — 1966–Living
-- [ ] Hasim Rahman — 1972–Living
-- [ ] Nazim Richardson — 1965–2020
-- [ ] Naseem Hamed (Prince Naseem) — 1974–Living
-- [ ] Amir Khan — 1986–Living
-- [ ] Artur Beterbiev — 1985–Living
-- [ ] Islam Makhachev — 1991–Living
-- [ ] Khamzat Chimaev — 1994–Living
-- [ ] Belal Muhammad — 1988–Living
-- [ ] Kamaru Usman — 1987–Living
-- [ ] Israel Adesanya (Contemporary) — 1989–Living
-- [ ] Demetrious Johnson — 1986–Living
-- [ ] Kalidou Koulibaly — 1991–Living
-- [ ] Edouard Mendy — 1992–Living
-- [ ] Hakim Ziyech — 1993–Living
-- [ ] Achraf Hakimi — 1998–Living
-- [ ] Yassine Bounou (Bono) — 1991–Living
-- [ ] Sofyan Amrabat — 1996–Living
-- [ ] Walid Regragui — 1975–Living
-- [ ] Djamel Belmadi — 1976–Living
-- [ ] Ali Daei — 1969–Living
-- [ ] Mehdi Taremi — 1992–Living
-- [ ] Sardar Azmoun — 1995–Living
-- [ ] Hakan Çalhanoğlu — 1994–Living
-- [ ] Arda Güler — 2005–Living
-- [ ] Ilkay Gündoğan — 1990–Living
-- [ ] Emre Can — 1994–Living
-- [ ] Sami Khedira — 1987–Living
-- [ ] Granit Xhaka — 1992–Living
-- [ ] Xherdan Shaqiri — 1991–Living
-- [ ] Miralem Pjanić — 1990–Living
-- [ ] Edin Džeko — 1986–Living
-- [ ] Asmir Begović — 1987–Living
-- [ ] Nuri Şahin — 1988–Living
-- [ ] Fatih Terim — 1953–Living
-- [ ] Mustafa Denizli — 1949–Living
-- [ ] Şenol Güneş — 1952–Living
-- [ ] Majed Abdullah — 1959–Living
-- [ ] Sami Al-Jaber — 1972–Living
-- [ ] Saeed Al-Owairan — 1967–Living
-- [ ] Yasser Al-Qahtani — 1982–Living
-- [ ] Salem Al-Dawsari — 1991–Living
-- [ ] Mohamed Aboutrika — 1978–Living
-- [ ] Mido (Ahmed Hossam) — 1983–Living
-- [ ] Essam El Hadary — 1973–Living
-- [ ] Wael Gomaa — 1975–Living
-- [ ] Mahmoud El Khatib (Bibo) — 1954–Living
-- [ ] Hassan Shehata — 1947–Living
-- [ ] Rabah Madjer — 1958–Living
-- [ ] Lakhdar Belloumi — 1958–Living
-- [ ] Lassana Diarra — 1985–Living
-- [ ] Nicolas Anelka — 1979–Living
-- [ ] Eric Abidal — 1979–Living
-- [ ] Franck Ribéry — 1983–Living
-- [ ] Demba Ba — 1985–Living
-- [ ] Papiss Cissé — 1985–Living
-- [ ] Yaya Touré — 1983–Living
-- [ ] Kolo Touré — 1981–Living
-- [ ] Gervinho — 1987–Living
-- [ ] Wilfried Zaha — 1992–Living
-- [ ] Sebastien Haller — 1994–Living
-- [ ] Salif Keïta (Footballer) — 1946–2023
-- [ ] Frederic Kanoute — 1977–Living
-- [ ] Seydou Keita — 1980–Living
-- [ ] Mahamadou Diarra — 1981–Living
-- [ ] George Weah (Honored African Icon) — 1966–Living
-- [ ] Tarik Elyounoussi — 1988–Living
-- [ ] Omar Elabdellaoui — 1991–Living
-- [ ] Ansu Fati — 2002–Living
-- [ ] Adama Traoré — 1996–Living
-- [ ] Iñaki Williams — 1994–Living
-- [ ] Nordin Amrabat — 1987–Living
-- [ ] Munir El Haddadi — 1995–Living
-- [ ] Noussair Mazraoui — 1997–Living
-- [ ] Ismaël Bennacer — 1997–Living
-- [ ] Ramy Bensebaini — 1995–Living
-- [ ] Yacine Brahimi — 1990–Living
-- [ ] Islam Slimani — 1988–Living
-- [ ] Wahbi Khazri — 1991–Living
-- [ ] Youssef Msakni — 1990–Living
-- [ ] Ali Maâloul — 1990–Living
-- [ ] Tarak Dhiab — 1954–Living
-- [ ] Chokri El Ouaer — 1966–Living
-- [ ] Badou Zaki — 1959–Living
-- [ ] Mustapha Hadji — 1971–Living
-- [ ] Noureddine Naybet — 1970–Living
-- [ ] Marouane Chamakh — 1984–Living
+- [x] Kareem Abdul-Jabbar — 1947–Living
+- [x] Bernard Hopkins — 1965–Living
+- [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
+- [x] Hasim Rahman — 1972–Living
+- [x] Nazim Richardson — 1965–2020
+- [x] Naseem Hamed (Prince Naseem) — 1974–Living
+- [x] Amir Khan — 1986–Living
+- [x] Artur Beterbiev — 1985–Living
+- [x] Islam Makhachev — 1991–Living
+- [x] Khamzat Chimaev — 1994–Living
+- [x] Belal Muhammad — 1988–Living
+- [x] Kamaru Usman — 1987–Living
+- [x] Israel Adesanya (Contemporary) — 1989–Living
+- [x] Demetrious Johnson — 1986–Living
+- [x] Kalidou Koulibaly — 1991–Living
+- [x] Edouard Mendy — 1992–Living
+- [x] Hakim Ziyech — 1993–Living
+- [x] Achraf Hakimi — 1998–Living
+- [x] Yassine Bounou (Bono) — 1991–Living
+- [x] Sofyan Amrabat — 1996–Living
+- [x] Walid Regragui — 1975–Living
+- [x] Djamel Belmadi — 1976–Living
+- [x] Ali Daei — 1969–Living
+- [x] Mehdi Taremi — 1992–Living
+- [x] Sardar Azmoun — 1995–Living
+- [x] Hakan Çalhanoğlu — 1994–Living
+- [x] Arda Güler — 2005–Living
+- [x] Ilkay Gündoğan — 1990–Living
+- [x] Emre Can — 1994–Living
+- [x] Sami Khedira — 1987–Living
+- [x] Granit Xhaka — 1992–Living
+- [x] Xherdan Shaqiri — 1991–Living
+- [x] Miralem Pjanić — 1990–Living
+- [x] Edin Džeko — 1986–Living
+- [x] Asmir Begović — 1987–Living
+- [x] Nuri Şahin — 1988–Living
+- [x] Fatih Terim — 1953–Living
+- [x] Mustafa Denizli — 1949–Living
+- [x] Şenol Güneş — 1952–Living
+- [x] Majed Abdullah — 1959–Living
+- [x] Sami Al-Jaber — 1972–Living
+- [x] Saeed Al-Owairan — 1967–Living
+- [x] Yasser Al-Qahtani — 1982–Living
+- [x] Salem Al-Dawsari — 1991–Living
+- [x] Mohamed Aboutrika — 1978–Living
+- [x] Mido (Ahmed Hossam) — 1983–Living
+- [x] Essam El Hadary — 1973–Living
+- [x] Wael Gomaa — 1975–Living
+- [x] Mahmoud El Khatib (Bibo) — 1954–Living
+- [x] Hassan Shehata — 1947–Living
+- [x] Rabah Madjer — 1958–Living
+- [x] Lakhdar Belloumi — 1958–Living
+- [x] Lassana Diarra — 1985–Living
+- [x] Nicolas Anelka — 1979–Living
+- [x] Eric Abidal — 1979–Living
+- [x] Franck Ribéry — 1983–Living
+- [x] Demba Ba — 1985–Living
+- [x] Papiss Cissé — 1985–Living
+- [x] Yaya Touré — 1983–Living
+- [x] Kolo Touré — 1981–Living
+- [x] Gervinho — 1987–Living
+- [x] Wilfried Zaha — 1992–Living
+- [x] Sebastien Haller — 1994–Living
+- [x] Salif Keïta (Footballer) — 1946–2023
+- [x] Frederic Kanoute — 1977–Living
+- [x] Seydou Keita — 1980–Living
+- [x] Mahamadou Diarra — 1981–Living
+- [x] George Weah (Honored African Icon) — 1966–Living
+- [x] Tarik Elyounoussi — 1988–Living
+- [x] Omar Elabdellaoui — 1991–Living
+- [x] Ansu Fati — 2002–Living
+- [x] Adama Traoré — 1996–Living
+- [x] Iñaki Williams — 1994–Living
+- [x] Nordin Amrabat — 1987–Living
+- [x] Munir El Haddadi — 1995–Living
+- [x] Noussair Mazraoui — 1997–Living
+- [x] Ismaël Bennacer — 1997–Living
+- [x] Ramy Bensebaini — 1995–Living
+- [x] Yacine Brahimi — 1990–Living
+- [x] Islam Slimani — 1988–Living
+- [x] Wahbi Khazri — 1991–Living
+- [x] Youssef Msakni — 1990–Living
+- [x] Ali Maâloul — 1990–Living
+- [x] Tarak Dhiab — 1954–Living
+- [x] Chokri El Ouaer — 1966–Living
+- [x] Badou Zaki — 1959–Living
+- [x] Mustapha Hadji — 1971–Living
+- [x] Noureddine Naybet — 1970–Living
+- [x] Marouane Chamakh — 1984–Living
 - [ ] Medhi Benatia — 1987–Living
 - [ ] Mbark Boussoufa — 1984–Living
 - [ ] Hassan El Fakiri — 1977–Living
@@ -1082,104 +1082,104 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdurreshid Ibrahim (1857–1944)
 - [x] Mirsaid Sultan-Galiev (1892–1940)
 - [x] Ahmet Ağaoğlu (1869–1939)
-- [ ] Mirza Fatali Akhundov (1812–1878)
-- [ ] Hasan Bey Zardabi (1837–1907)
-- [ ] Jalil Mammadguluzadeh (1866–1932)
-- [ ] Mirza Alakbar Sabir (1862–1911)
-- [ ] Mammed Amin Rasulzade (1884–1955)
-- [ ] Fatali Khan Khoyski (1875–1920)
-- [ ] Nasib Bey Yusifbeyli (1881–1920)
-- [ ] Zeynalabdin Taghiyev (1823–1924)
-- [ ] Murtuza Mukhtarov (1865–1920)
-- [ ] Shamsi Asadullayev (1840–1913)
-- [ ] Hamida Javanshir (1873–1955)
-- [ ] Khurshidbanu Natavan (1832–1897)
-- [ ] Sultan Majid Afandiyev (1887–1938)
-- [ ] Nariman Narimanov (1870–1925)
-- [ ] Behbud Khan Javanshir (1878–1921)
-- [ ] Alimardan Topchubashev (1862–1934)
-- [ ] Uzeyir Hajibeyov (1885–1948)
+- [x] Mirza Fatali Akhundov (1812–1878)
+- [x] Hasan Bey Zardabi (1837–1907)
+- [x] Jalil Mammadguluzadeh (1866–1932)
+- [x] Mirza Alakbar Sabir (1862–1911)
+- [x] Mammed Amin Rasulzade (1884–1955)
+- [x] Fatali Khan Khoyski (1875–1920)
+- [x] Nasib Bey Yusifbeyli (1881–1920)
+- [x] Zeynalabdin Taghiyev (1823–1924)
+- [x] Murtuza Mukhtarov (1865–1920)
+- [x] Shamsi Asadullayev (1840–1913)
+- [x] Hamida Javanshir (1873–1955)
+- [x] Khurshidbanu Natavan (1832–1897)
+- [x] Sultan Majid Afandiyev (1887–1938)
+- [x] Nariman Narimanov (1870–1925)
+- [x] Behbud Khan Javanshir (1878–1921)
+- [x] Alimardan Topchubashev (1862–1934)
+- [x] Uzeyir Hajibeyov (1885–1948)
 - [ ] Sheikh Hamdullah Efendi (1850–1922)
-- [ ] Sami Efendi (1838–1912)
-- [ ] Hasan Riza Efendi (1849–1920)
+- [x] Sami Efendi (1838–1912)
+- [x] Hasan Riza Efendi (1849–1920)
 - [ ] Mehmed Şevket Eygi (Ancestors) (1880–1940)
-- [ ] Sheikh Fazlollah Nouri (1843–1909)
-- [ ] Sayyid Jamal al-Din Va'iz (1862–1908)
-- [ ] Mirza Jahangir Khan (1870–1908)
-- [ ] Sattar Khan (1866–1914)
-- [ ] Bagher Khan (1870–1916)
+- [x] Sheikh Fazlollah Nouri (1843–1909)
+- [x] Sayyid Jamal al-Din Va'iz (1862–1908)
+- [x] Mirza Jahangir Khan (1870–1908)
+- [x] Sattar Khan (1866–1914)
+- [x] Bagher Khan (1870–1916)
 - [ ] Morgan Shuster's Iranian Deputies (1880–1920)
-- [ ] Mirza Kuchik Khan (1880–1921)
-- [ ] Sheikh Mohammad Khiabani (1880–1920)
-- [ ] Hassan Taghizadeh (1878–1970)
-- [ ] Mirza Malkam Khan (1833–1908)
-- [ ] Mohammad Ali Shah Qajar (1872–1925)
-- [ ] Naser al-Din Shah Qajar (1831–1896)
-- [ ] Amir Kabir (Mirza Taghi Khan) (1807–1852)
-- [ ] Mozaffar al-Din Shah Qajar (1853–1907)
-- [ ] Ahmad Shah Qajar (1898–1930)
-- [ ] Bibi Khatoon Astarabadi (1858–1921)
-- [ ] Mastoureh Ardalan (1805–1848)
-- [ ] Sheikh Mohammad Khiabani (1880–1920)
-- [ ] Sayyid Hassan مدرس (Modarres) (1870–1937)
-- [ ] Mirza Husayn Khan Moshir al-Dowleh (1828–1881)
+- [x] Mirza Kuchik Khan (1880–1921)
+- [x] Sheikh Mohammad Khiabani (1880–1920)
+- [x] Hassan Taghizadeh (1878–1970)
+- [x] Mirza Malkam Khan (1833–1908)
+- [x] Mohammad Ali Shah Qajar (1872–1925)
+- [x] Naser al-Din Shah Qajar (1831–1896)
+- [x] Amir Kabir (Mirza Taghi Khan) (1807–1852)
+- [x] Mozaffar al-Din Shah Qajar (1853–1907)
+- [x] Ahmad Shah Qajar (1898–1930)
+- [x] Bibi Khatoon Astarabadi (1858–1921)
+- [x] Mastoureh Ardalan (1805–1848)
+- [x] Sheikh Mohammad Khiabani (1880–1920)
+- [x] Sayyid Hassan مدرس (Modarres) (1870–1937)
+- [x] Mirza Husayn Khan Moshir al-Dowleh (1828–1881)
 - [ ] Adib Peshawari (1844–1930)
-- [ ] Mohammad-Taqi Bahar (1886–1951)
-- [ ] Iraj Mirza (1874–1926)
-- [ ] Parvin E'tesami (1907–1941)
-- [ ] Ali-Akbar Dehkhoda (1879–1956)
-- [ ] Arif Qazvini (1882–1934)
-- [ ] Abolqasem Lahouti (1887–1957)
+- [x] Mohammad-Taqi Bahar (1886–1951)
+- [x] Iraj Mirza (1874–1926)
+- [x] Parvin E'tesami (1907–1941)
+- [x] Ali-Akbar Dehkhoda (1879–1956)
+- [x] Arif Qazvini (1882–1934)
+- [x] Abolqasem Lahouti (1887–1957)
 - [~] Said Halim Pasha (1865–1921)
-- [ ] Ahmed Cevdet Oran (1862–1935)
-- [ ] Ebüzziya Tevfik (1849–1913)
-- [ ] Ali Suavi (1839–1878)
-- [ ] Mizancı Murad (1854–1917)
-- [ ] Abdullah Cevdet (1869–1932)
-- [ ] Şerafettin Mağmumi (1869–1927)
-- [ ] Bahaeddin Şakir (1874–1922)
-- [ ] Mehmed Reşad (Mehmed V) (1844–1918)
-- [ ] Mehmed VI (Vahideddin) (1861–1926)
-- [ ] Abdülmecid II (1868–1944)
-- [ ] Şehzade Yusuf Izzeddin (1857–1916)
-- [ ] Mahmud Shevket Pasha (1856–1913)
-- [ ] Kâmil Pasha (1833–1913)
-- [ ] Hüseyin Hilmi Pasha (1855–1922)
-- [ ] Gazi Osman Pasha (1832–1900)
-- [ ] Süleyman Hüsnü Pasha (1838–1892)
-- [ ] Edhem Pasha (1851–1909)
-- [ ] Fuad Pasha (Deli) (1835–1931)
-- [ ] Ömer Rüştü Pasha (1843–1922)
-- [ ] Hasan Rami Pasha (1842–1923)
-- [ ] Hüseyin Rauf Orbay (1881–1964)
-- [ ] Fevzi Çakmak (1876–1950)
-- [ ] Kâzım Karabekir (1882–1948)
-- [ ] Ali Fuat Cebesoy (1882–1968)
-- [ ] Refet Bele (1881–1963)
-- [ ] Nuri Killigil (Nuri Pasha) (1889–1949)
-- [ ] Fahreddin Pasha (1868–1948)
-- [ ] Ahmed Cemal Pasha (1872–1922)
-- [ ] Ismail Enver Pasha (1881–1922)
-- [ ] Mehmed Talat Pasha (1874–1921)
-- [ ] Yacoub Artin Pasha (1842–1919)
-- [ ] Saad Zaghloul (1859–1927)
-- [ ] Adly Yakan Pasha (1864–1933)
-- [ ] Abdel Khalek Sarwat Pasha (1873–1928)
-- [ ] Hussein Rushdi Pasha (1863–1928)
-- [ ] Muhammad Tawfiq Pasha (1852–1892)
-- [ ] Abbas II of Egypt (1874–1944)
-- [ ] Hussein Kamel of Egypt (1853–1917)
-- [ ] King Fuad I (1868–1936)
-- [ ] Abdullah al-Nadim (1845–1896)
-- [ ] Ahmed Lutfi al-Sayyid (1872–1963)
-- [ ] Abbas al-Aqqad (1889–1964)
-- [ ] Salama Moussa (1887–1958)
-- [ ] Mustafa Sadiq al-Rafi'i (1880–1937)
-- [ ] Hafiz Ibrahim (1872–1932)
-- [ ] Ahmed Shawqi (1868–1932)
-- [ ] Jurji Zaydan (1861–1914)
-- [ ] May Ziade (1886–1941)
-- [ ] Labiba Ahmad (1870–1951)
+- [x] Ahmed Cevdet Oran (1862–1935)
+- [x] Ebüzziya Tevfik (1849–1913)
+- [x] Ali Suavi (1839–1878)
+- [x] Mizancı Murad (1854–1917)
+- [x] Abdullah Cevdet (1869–1932)
+- [x] Şerafettin Mağmumi (1869–1927)
+- [x] Bahaeddin Şakir (1874–1922)
+- [x] Mehmed Reşad (Mehmed V) (1844–1918)
+- [x] Mehmed VI (Vahideddin) (1861–1926)
+- [x] Abdülmecid II (1868–1944)
+- [x] Şehzade Yusuf Izzeddin (1857–1916)
+- [x] Mahmud Shevket Pasha (1856–1913)
+- [x] Kâmil Pasha (1833–1913)
+- [x] Hüseyin Hilmi Pasha (1855–1922)
+- [x] Gazi Osman Pasha (1832–1900)
+- [x] Süleyman Hüsnü Pasha (1838–1892)
+- [x] Edhem Pasha (1851–1909)
+- [x] Fuad Pasha (Deli) (1835–1931)
+- [x] Ömer Rüştü Pasha (1843–1922)
+- [x] Hasan Rami Pasha (1842–1923)
+- [x] Hüseyin Rauf Orbay (1881–1964)
+- [x] Fevzi Çakmak (1876–1950)
+- [x] Kâzım Karabekir (1882–1948)
+- [x] Ali Fuat Cebesoy (1882–1968)
+- [x] Refet Bele (1881–1963)
+- [x] Nuri Killigil (Nuri Pasha) (1889–1949)
+- [x] Fahreddin Pasha (1868–1948)
+- [x] Ahmed Cemal Pasha (1872–1922)
+- [x] Ismail Enver Pasha (1881–1922)
+- [x] Mehmed Talat Pasha (1874–1921)
+- [x] Yacoub Artin Pasha (1842–1919)
+- [x] Saad Zaghloul (1859–1927)
+- [x] Adly Yakan Pasha (1864–1933)
+- [x] Abdel Khalek Sarwat Pasha (1873–1928)
+- [x] Hussein Rushdi Pasha (1863–1928)
+- [x] Muhammad Tawfiq Pasha (1852–1892)
+- [x] Abbas II of Egypt (1874–1944)
+- [x] Hussein Kamel of Egypt (1853–1917)
+- [x] King Fuad I (1868–1936)
+- [x] Abdullah al-Nadim (1845–1896)
+- [x] Ahmed Lutfi al-Sayyid (1872–1963)
+- [x] Abbas al-Aqqad (1889–1964)
+- [x] Salama Moussa (1887–1958)
+- [x] Mustafa Sadiq al-Rafi'i (1880–1937)
+- [x] Hafiz Ibrahim (1872–1932)
+- [x] Ahmed Shawqi (1868–1932)
+- [x] Jurji Zaydan (1861–1914)
+- [x] May Ziade (1886–1941)
+- [x] Labiba Ahmad (1870–1951)
 - [ ] Maryana Marrash (1848–1919)
 - [ ] Francis Marrash (1836–1874)
 - [ ] Shakib Arslan (1869–1946)
@@ -1196,7 +1196,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Musa al-Husayni (1853–1934)
 - [ ] Amin al-Husseini (1897–1974)
 - [ ] Khalil al-Sakakini (1878–1953)
-- [ ] May Ziade (1886–1941)
+- [x] May Ziade (1886–1941)
 - [ ] Sulaiman al-Boustani (1856–1913)
 - [ ] Ibrahim al-Yazigi (1847–1906)
 - [ ] Adib Ishaq (1856–1885)

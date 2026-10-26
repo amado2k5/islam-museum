@@ -1,0 +1,52 @@
+id: person/abdullah-al-nadim
+class: person
+label: { ar: "عبد الله النديم", en: "Abdullah al-Nadim", ur: "عبد اللہ الندیم" }
+names:
+  - { value: "عبد الله بن مصباح بن إبراهيم النديم", kind: full }
+  - { value: "Abdullah bin Mesbah bin Ibrahim al-Nadim", kind: full }
+  - { value: "Abdullah an-Nadeem", kind: alternate }
+  - { value: "خطيب الثورة العرابية", kind: laqab }
+gender: male
+summary:
+  ar: "كاتب وخطيب وشاعر مصري، وُلد في الإسكندرية سنة 1845، وكان أبرز خطباء الثورة العرابية وأشهر كتّابها؛ أصدر صحيفتي «التنكيت والتبكيت» و«الطائف» ومجلة «الأستاذ»، ونُفي إلى يافا ثم إلى الآستانة، وتوفي في إسطنبول سنة 1896."
+  en: "Egyptian writer, orator and poet, born in Alexandria in 1845. He was the leading orator of the Urabi revolt and one of its best-known writers; he published the newspapers al-Tankit wa-l-Tabkit and al-Ta'if and the magazine al-Ustadh, was exiled to Jaffa and then to Istanbul, and died at Istanbul in 1896."
+  ur: "مصری ادیب، خطیب اور شاعر، جو 1845 میں اسکندریہ میں پیدا ہوئے۔ وہ عرابی بغاوت کے نمایاں ترین خطیب اور اس کے معروف مصنفین میں سے تھے؛ انہوں نے «التنكيت والتبكيت» اور «الطائف» اخبارات اور «الأستاذ» رسالہ جاری کیا، یافا اور پھر استنبول جلاوطن ہوئے اور 1896 میں استنبول ہی میں وفات پائی۔"
+roles: [writer, poet, activist]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1845-12-10"
+  hijri: "1261"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth year is contested in the sources themselves. Wikidata carries the day-precision values 10 December 1842 and 10 December 1845; the Arabic article's lead pairs 1261 AH with 1842 while its text gives 1845, and the English article gives 1843. The year 1845 (1261 AH) is followed. The leads of both articles and Wikidata place his birth at Alexandria; one unsourced passage of the Arabic article says he was born in the village of al-Tiba in al-Sharqiyya and raised at Alexandria."
+  sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar, source/wikidata-abdullah-al-nadim]
+died:
+  edtf: "1896-10"
+  hijri: "1314"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Died at Istanbul in October 1896 (1314 AH per the Arabic article). Wikidata gives the day both as 10 October and as 13 October, so the day is not recorded. The English article records his burial in the Yahya Efendi cemetery in Besiktas, Istanbul."
+  sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar, source/wikidata-abdullah-al-nadim]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-abdullah-al-nadim-en] }
+  - { type: student_of, target: person/jamal-al-din-al-afghani, sources: [source/wikipedia-abdullah-al-nadim-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school or affiliation for al-Nadim personally. The English article records that he memorised the Qur'an as a boy and studied fiqh, logic and grammar at a mosque school in Alexandria, and the Arabic article records that he founded the Islamic Charitable Society; schooling and organisational work are not attestation. Wikidata carries no religion value for him."
+    sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar, source/wikidata-abdullah-al-nadim]
+external_ids: { wikidata: "Q11041703" }
+sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar, source/wikidata-abdullah-al-nadim]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and Wikidata Q11041703, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

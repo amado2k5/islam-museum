@@ -1,0 +1,39 @@
+id: person/tarak-dhiab
+class: person
+label: { ar: "طارق ذياب", en: "Tarak Dhiab", ur: "طارق ذیاب" }
+names:
+  - { value: "طارق ذياب", kind: full }
+  - { value: "Tarak Dhiab", kind: full }
+  - { value: "إمبراطور كرة القدم", kind: laqab }
+gender: male
+summary:
+  ar: "لاعب كرة قدم تونسي سابق وسياسي (وُلد سنة 1954 في تونس العاصمة)، صانع ألعاب اختير أفضل لاعب أفريقي سنة 1977 وقاد تونس في كأس العالم 1978 حين حققت أول فوز أفريقي في تاريخ المونديال، ثم تولى وزارة الشباب والرياضة من 2011 إلى 2014."
+  en: "Tunisian former footballer and politician (born 1954 in Tunis), a playmaker named African Footballer of the Year in 1977 who played at the 1978 World Cup, where Tunisia became the first African team to win a World Cup match; he later served as Minister of Youth and Sports from 2011 to 2014."
+  ur: "تیونسی سابق فٹبالر اور سیاست دان (پیدائش 1954، تیونس شہر)، پلے میکر جنہیں 1977 میں افریقی فٹبالر آف دی ایئر منتخب کیا گیا اور جو 1978 کے ورلڈ کپ میں کھیلے جب تیونس ورلڈ کپ میچ جیتنے والی پہلی افریقی ٹیم بنی؛ بعد میں وہ 2011 سے 2014 تک وزیرِ نوجوانان و کھیل رہے۔"
+roles: [athlete, politician]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1954-01-15"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and Arabic articles give 15 January 1954, born in Tunis, Tunisia. The French article (revision 238405063 of 6 August 2026) and Wikidata (Q958968) give 15 July 1954. The January date, attested by two article traditions, is followed and the day is recorded as debated, with the July reading preserved here; the Hijri year 1373, derived from the Gregorian date, covers both readings."
+  sources: [source/wikipedia-tarak-dhiab-en, source/wikipedia-tarak-dhiab-ar, source/wikipedia-tarak-dhiab-fr, source/wikidata-tarak-dhiab]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-tarak-dhiab-en, source/wikipedia-tarak-dhiab-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Complete absence: no source names a school or affiliation for Dhiab. The English, Arabic and French articles carry no religion field and no statement of his religion, and Wikidata (Q958968) has no religion value at all. His ministerial office dealt with state institutions, which never attests a personal affiliation. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-tarak-dhiab-en, source/wikipedia-tarak-dhiab-ar, source/wikipedia-tarak-dhiab-fr, source/wikidata-tarak-dhiab]
+external_ids: { wikidata: "Q958968" }
+sources: [source/wikipedia-tarak-dhiab-en, source/wikipedia-tarak-dhiab-ar, source/wikipedia-tarak-dhiab-fr, source/wikidata-tarak-dhiab]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381599453 of 23 October 2026), Arabic Wikipedia (revision 76297818 of 22 August 2026), French Wikipedia (revision 238405063 of 6 August 2026, consulted for the birth-date conflict) and Wikidata Q958968, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Dhiab existed in data/person/ (no hit under 'dhiab'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: Tarak Dhiab was born in Tunis; the birthplace edge is written once, here in his own record, as Tarak Dhiab born_in place/tunis (the place entity exists in the graph). No other relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

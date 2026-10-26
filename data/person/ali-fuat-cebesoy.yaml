@@ -1,0 +1,50 @@
+id: person/ali-fuat-cebesoy
+class: person
+label: { ar: "علي فؤاد باشا", en: "Ali Fuat Cebesoy", ur: "علی فواد جیبےسوئے" }
+names:
+  - { value: "Ali Fuat Cebesoy", kind: full }
+  - { value: "علي فؤاد جيبسوي", kind: full }
+  - { value: "Ali Fuad Cebesoy", kind: alternate }
+  - { value: "Salacaklı Ali Fuat", kind: laqab }
+gender: male
+summary:
+  ar: "جنرال ورجل دولة تركي، زميل مصطفى كمال أتاتورك في الدراسة العسكرية، ومن أوائل منظّمي المقاومة الوطنية في غرب الأناضول. كان أول سفير لحكومة أنقرة في موسكو ووقّع معاهدة موسكو سنة 1921، ثم شارك في تأسيس أول حزب معارضة في الجمهورية وحُوكم وبُرّئ، وتولى وزارتي الأشغال والنقل، ورئاسة البرلمان سنة 1948، وبقي نائبًا حتى انقلاب 1960."
+  en: "Turkish general and politician, a military-college classmate of Mustafa Kemal Atatürk and one of the first organisers of the national resistance in western Anatolia. As the Ankara government's first ambassador to Moscow he signed the Treaty of Moscow in 1921; he later co-founded the Republic's first opposition party, was tried and acquitted, served as Minister of Public Works and of Transport, and was Speaker of the Parliament in 1948, remaining a deputy until the 1960 coup."
+  ur: "ترک جنرل اور سیاست دان، مصطفی کمال اتاترک کے عسکری کالج کے ہم جماعت اور مغربی اناطولیہ میں قومی مزاحمت کے ابتدائی منتظمین میں سے ایک۔ انقرہ حکومت کے ماسکو میں پہلے سفیر کی حیثیت سے انہوں نے 1921 میں معاہدۂ ماسکو پر دستخط کیے؛ بعد میں وہ جمہوریہ کی پہلی حزبِ اختلاف کے شریک بانی رہے، مقدمے میں بری ہوئے، وزیرِ تعمیرات و نقل و حمل رہے، 1948 میں پارلیمان کے صدر بنے اور 1960 کی فوجی بغاوت تک رکن رہے۔"
+roles: [military, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1882-09-23"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles give 23 September 1882, and one of Wikidata's two birth values agrees (its other value is the year alone). The Turkish article adds the district: Salacak, Üsküdar, Istanbul — whence his nickname Salacaklı Ali Fuat; the English article gives Istanbul alone. He was a son of İsmail Fazıl Pasha and of Zekiye Hanım, a daughter of Müşir Mehmed Ali Pasha. The Hijri year 1299 is the derived conversion of 1882."
+  sources: [source/wikipedia-ali-fuat-cebesoy-en, source/wikipedia-ali-fuat-cebesoy-tr, source/wikidata-ali-fuat-cebesoy]
+died:
+  edtf: "1968-01-10"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata give 10 January 1968 at Istanbul. His burial is genuinely split in the sources and no buried_in edge is written: the English article states that in accordance with his will he was buried in the yard of a mosque near Geyve station, and adds that his remains were later moved to the Turkish State Cemetery in Ankara — a claim the article itself flags as needing citation; the Turkish article's infobox still gives his resting place as the Merkez Mosque at Alifuatpaşa, Geyve. Both readings are preserved here. The Hijri year 1387 is the derived conversion of 1968."
+  sources: [source/wikipedia-ali-fuat-cebesoy-en, source/wikipedia-ali-fuat-cebesoy-tr, source/wikidata-ali-fuat-cebesoy]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ali-fuat-cebesoy-en, source/wikipedia-ali-fuat-cebesoy-tr] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ali-fuat-cebesoy-en, source/wikipedia-ali-fuat-cebesoy-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for Ali Fuat Cebesoy personally, and the value is recorded unknown under the doubt rule. The English article's infobox has no religion field and its text names no religion for him — his descent (German and Circassian, with a grandfather of Huguenot French origin) is family background, which never counts, and his burial by his own will in a mosque's yard is a burial wish, not an attestation of a school. The Turkish article has no religion field and makes no statement of his religion at all. Wikidata gives Islam (Q432), generically, with one reference — one structured-data family. None of this meets the two-independent-sources standard, so no value is recorded."
+    sources: [source/wikipedia-ali-fuat-cebesoy-en, source/wikipedia-ali-fuat-cebesoy-tr, source/wikidata-ali-fuat-cebesoy]
+external_ids: { wikidata: Q983601 }
+sources: [source/wikipedia-ali-fuat-cebesoy-en, source/wikipedia-ali-fuat-cebesoy-tr, source/wikidata-ali-fuat-cebesoy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali Fuat Cebesoy' (revision 1373172982 of 4 September 2026), Turkish Wikipedia 'Ali Fuat Cebesoy' (revision 38106220 of 1 October 2026) and Wikidata item Q983601 (item revision 2538699341 of 31 August 2026), all read directly on 26 October 2026 and both articles re-fetched by revision id with content verified identical. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. He is kept distinct from person/kececizade-fuad-pasha, a different Ottoman statesman, on the wave 44 precedent. Two edges are written, both to place/istanbul, an existing entity: born (at Salacak, Üsküdar) and died. No buried_in edge is written because the burial readings conflict, as stated in the died note; neither Geyve nor Ankara has a place entity in any case. His succession of Kâzım Karabekir as Speaker in January 1948 is prose only: Karabekir's record was written in this same run and did not yet exist when this record was written. His father İsmail Fazıl Pasha and his grandfather Müşir Mehmed Ali Pasha have no records, so no child_of edge is written. His faith is unknown, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-45
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

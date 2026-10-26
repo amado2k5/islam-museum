@@ -1,0 +1,36 @@
+id: person/mustapha-hadji
+class: person
+label: { ar: "مصطفى حجي", en: "Mustapha Hadji", ur: "مصطفی حجی" }
+names:
+  - { value: "مصطفى حجي", kind: full }
+  - { value: "Mustapha Hadji", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مغربي سابق ومدرب (وُلد سنة 1971 في إفران الأطلس الصغير)، لاعب وسط اختير أفضل لاعب أفريقي سنة 1998 بعد مشاركته في كأسَي العالم 1994 و1998، ولعب في فرنسا والبرتغال وإسبانيا وإنجلترا والإمارات وألمانيا ولوكسمبورغ، ثم عمل مساعداً لمدرب منتخب المغرب."
+  en: "Moroccan former footballer and coach (born 1971 in Ifrane Atlas-Saghir), a midfielder named African Footballer of the Year in 1998 after playing at the 1994 and 1998 World Cups; he played in France, Portugal, Spain, England, the Emirates, Germany and Luxembourg, and later served as Morocco's assistant coach."
+  ur: "مراکشی سابق فٹبالر اور کوچ (پیدائش 1971، افران اطلس صغیر)، مڈفیلڈر جنہیں 1994 اور 1998 کے ورلڈ کپ میں کھیلنے کے بعد 1998 میں افریقی فٹبالر آف دی ایئر منتخب کیا گیا؛ وہ فرانس، پرتگال، اسپین، انگلینڈ، امارات، جرمنی اور لکسمبرگ میں کھیلے اور بعد میں مراکش کے اسسٹنٹ کوچ رہے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1971-11-16"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and French articles and Wikidata (Q311344) give 16 November 1971, born in Ifrane Atlas-Saghir, Morocco; the Arabic article gives the same date but names the birthplace loosely as Ifrane. No museum place entity exists for Ifrane Atlas-Saghir, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1391 is derived from the Gregorian date."
+  sources: [source/wikipedia-mustapha-hadji-en, source/wikipedia-mustapha-hadji-ar, source/wikipedia-mustapha-hadji-fr, source/wikidata-mustapha-hadji]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for Hadji. None of the English, Arabic or French articles carries a religion field or any statement of his religion, and Wikidata (Q311344) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-mustapha-hadji-en, source/wikipedia-mustapha-hadji-ar, source/wikipedia-mustapha-hadji-fr, source/wikidata-mustapha-hadji]
+external_ids: { wikidata: "Q311344" }
+sources: [source/wikipedia-mustapha-hadji-en, source/wikipedia-mustapha-hadji-ar, source/wikipedia-mustapha-hadji-fr, source/wikidata-mustapha-hadji]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382002657 of 26 October 2026), Arabic Wikipedia (revision 76193314 of 13 August 2026), French Wikipedia (revision 240595396 of 22 October 2026) and Wikidata Q311344, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Hadji existed in data/person/ (no hit under 'hadji'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Ifrane Atlas-Saghir, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

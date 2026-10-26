@@ -1,0 +1,51 @@
+id: person/yacoub-artin
+class: person
+label: { ar: "يعقوب آرتين", en: "Yacoub Artin", ur: "یعقوب آرتین" }
+names:
+  - { value: "Yacoub Artin Tcherakian", kind: full }
+  - { value: "يعقوب آرتين تشراكيان", kind: full }
+  - { value: "Yacoub Artin Pasha", kind: alternate }
+  - { value: "Yacoub Artin Pacha", kind: alternate }
+gender: male
+summary:
+  ar: "معلّم وباحث مصري من أصل أرمني، وكيل نظارة المعارف المصرية من 1884 إلى 1906، ومن أوائل الداعين إلى إنشاء جامعة مصرية، وأول من كتب الحكايات الشعبية المصرية ودوّنها، ورئيس المعهد المصري. كان مسيحيًا، ولاحظت صحافة عصره أن «غير مسلم» يتولى تعليم بلد أغلب أهله مسلمون."
+  en: "Egyptian educator and scholar of Armenian origin, undersecretary of the Egyptian Ministry of Public Instruction from 1884 to 1906, among the first advocates of an Egyptian university, the first to write down and record Egyptian folk tales, and president of the Institut Égyptien. He was a Christian, and the press of his day noted that a 'non-Muslim' was in charge of education in a majority-Muslim country."
+  ur: "آرمینی نژاد مصری معلم اور محقق، 1884 سے 1906 تک مصری وزارتِ تعلیم کے وکیل، مصری یونیورسٹی کے قیام کے اولین حامیوں میں سے، مصری لوک کہانیوں کو تحریر و تدوین کرنے والے پہلے شخص، اور مصری انسٹی ٹیوٹ کے صدر۔ وہ مسیحی تھے، اور ان کے زمانے کے اخبارات نے نوٹ کیا کہ ایک «غیر مسلم» اکثریتی مسلم ملک کی تعلیم کا نگران ہے۔"
+roles: [teacher, scholar, writer]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1842-04-15"
+  hijri: "1258"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata agree on 15 April 1842. The French article and Wikidata give the place as Cairo; the English and Arabic articles give no birthplace in their text. The Hijri year 1258 is the derived conversion of April 1842."
+  sources: [source/wikipedia-yacoub-artin-en, source/wikipedia-yacoub-artin-ar, source/wikipedia-yacoub-artin-fr, source/wikidata-yacoub-artin]
+died:
+  edtf: "1919-01-21"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata agree on 21 January 1919; the French article and Wikidata give the place as Cairo. The French article adds that he was buried with other members of the Tcherakian family in the Armenian Catholic cemetery in Old Cairo. The Hijri year 1337 is the derived conversion of January 1919."
+  sources: [source/wikipedia-yacoub-artin-en, source/wikipedia-yacoub-artin-ar, source/wikipedia-yacoub-artin-fr, source/wikidata-yacoub-artin]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-yacoub-artin-fr, source/wikidata-yacoub-artin] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-yacoub-artin-fr, source/wikidata-yacoub-artin] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-yacoub-artin-fr] }
+faith:
+  - value: christian
+    basis: documented
+    note: "Recorded christian on two independent text traditions, which diverge on the branch. The English article states in its text that he was an Armenian Apostolic Christian, and records that a French newspaper in 1888 noted him among the 'non-Muslim' Egyptians in government service, and that in 1895 it was again noted that a 'non-Muslim' was in charge of education for a predominantly Muslim population. The French article describes the Tcherakian family as an Armenian Catholic family from Sivas, and states that he was buried with his family in the Armenian Catholic cemetery in Old Cairo. Each tradition thus names him personally a Christian — the English text by denomination, the French by his family's church and his burial in its cemetery — but they do not agree on whether that church was the Armenian Apostolic or the Armenian Catholic church, so christian is recorded without a branch, under the doubt rule. The Arabic article names no religion for him, and Wikidata carries no religion value at all. His Armenian descent alone would not have been a basis for this value; the two text attestations are."
+    sources: [source/wikipedia-yacoub-artin-en, source/wikipedia-yacoub-artin-fr, source/wikipedia-yacoub-artin-ar, source/wikidata-yacoub-artin]
+external_ids: { wikidata: "Q1466028" }
+sources: [source/wikipedia-yacoub-artin-en, source/wikipedia-yacoub-artin-ar, source/wikipedia-yacoub-artin-fr, source/wikidata-yacoub-artin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Yacoub Artin' (revision 1364907417 of 19 July 2026), Arabic Wikipedia 'يعقوب آرتين' (revision 73770866 of 7 March 2026), French Wikipedia 'Yacoub Artin' (revision 237926980 of 18 July 2026) and Wikidata item Q1466028 (item revision 2557100555 of 15 October 2026), all read directly on 26 October 2026 and all three articles re-fetched by revision id with content verified identical. The English article title is 'Yacoub Artin'; 'Pasha' is his rank, carried as a name variant. Existence was checked by name fragments over data/person/ and by the grounded QID over data/person/ and data/source/ before building; no record existed. Three edges are written, all to place/cairo, an existing entity: born there and died there on the French article and Wikidata, and buried there in the Armenian Catholic cemetery of Old Cairo on the French article. His faith is recorded christian/documented, without a branch, for the reasons stated in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-47
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

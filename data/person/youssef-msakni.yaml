@@ -1,0 +1,38 @@
+id: person/youssef-msakni
+class: person
+label: { ar: "يوسف المساكني", en: "Youssef Msakni", ur: "یوسف مساکنی" }
+names:
+  - { value: "يوسف المساكني", kind: full }
+  - { value: "Youssef Msakni", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم تونسي سابق (وُلد سنة 1990 في تونس العاصمة)، جناح لعب للترجي الرياضي التونسي وللدحيل القطري سنوات طويلة، وخاض 104 مباريات دولية مع تونس سجل فيها 23 هدفًا بين 2010 و2024."
+  en: "Former Tunisian footballer (born 1990 in Tunis), a winger who played for Espérance de Tunis and, for a decade, Al Duhail in Qatar; he won 104 caps for Tunisia, scoring 23 goals, between 2010 and 2024."
+  ur: "سابق تیونسی فٹبالر (پیدائش 1990، تیونس شہر)، ونگر جو ایسپیرانس تیونس اور قطر کے الدحیل کے لیے طویل عرصہ کھیلے؛ انہوں نے 2010 سے 2024 تک تیونس کے لیے 104 میچ کھیلے اور 23 گول کیے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1990-10-28"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 28 October 1990, born in Tunis, Tunisia. The Hijri year 1411 is derived from the Gregorian date."
+  sources: [source/wikipedia-youssef-msakni-en, source/wikipedia-youssef-msakni-ar, source/wikidata-youssef-msakni]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-youssef-msakni-en, source/wikipedia-youssef-msakni-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Complete absence: no source says anything at all about Youssef Msakni's religion. The English article's text, infobox and categories carry no religion field and no statement of religion; the Arabic article is likewise silent; Wikidata (Q2409513) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-youssef-msakni-en, source/wikipedia-youssef-msakni-ar, source/wikidata-youssef-msakni]
+external_ids: { wikidata: "Q2409513" }
+sources: [source/wikipedia-youssef-msakni-en, source/wikipedia-youssef-msakni-ar, source/wikidata-youssef-msakni]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376296884 of 23 September 2026), Arabic Wikipedia (revision 76175433 of 10 August 2026) and Wikidata Q2409513, each read in full on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Msakni existed in data/person/ (no hit under 'msakni'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: Youssef Msakni was born in Tunis; the birthplace edge is written once, here in his own record, as Youssef Msakni born_in place/tunis (the place entity exists in the graph). No other relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

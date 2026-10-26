@@ -1,0 +1,53 @@
+id: person/ahmed-lutfi-al-sayyid
+class: person
+label: { ar: "أحمد لطفي السيد", en: "Ahmed Lutfi al-Sayyid", ur: "احمد لطفی سید" }
+names:
+  - { value: "أحمد لطفي السيد", kind: full }
+  - { value: "Ahmed Lutfi al-Sayyid", kind: full }
+  - { value: "Ahmed Lutfi el-Sayed", kind: alternate }
+  - { value: "أستاذ الجيل", kind: laqab }
+  - { value: "أبو الليبرالية المصرية", kind: laqab }
+gender: male
+summary:
+  ar: "مفكر وسياسي مصري (1872-1963)، مؤسس صحيفة «الجريدة» وحزب الأمة سنة 1907، ورئيس دار الكتب المصرية ثم أول رئيس للجامعة المصرية. لُقّب «أستاذ الجيل»، وكان من أبرز منظّري القومية المصرية والليبرالية، وصاحب القول المشهور «الاختلاف في الرأي لا يفسد للود قضية»."
+  en: "Egyptian intellectual and politician (1872-1963), founder of the newspaper al-Jarida and of Hizb al-Umma in 1907, director of the National Library and first president of the Egyptian University. Known as 'Professor of the Generation', he was a leading theorist of Egyptian nationalism and liberalism."
+  ur: "مصری مفکر اور سیاست دان (1872-1963)، اخبار «الجریدہ» اور حزب الامہ (1907) کے بانی، دار الکتب مصریہ کے سربراہ اور مصری جامعہ کے پہلے صدر۔ انہیں «استادِ نسل» کہا جاتا ہے اور وہ مصری قومیت اور لبرل ازم کے نمایاں نظریہ ساز تھے۔"
+roles: [writer, politician, philosopher, teacher]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1872-01-15"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the village of Berqin, near al-Sinbillawayn in al-Daqahliyya, on 15 January 1872 (the English and Arabic articles agree; the Arabic article's categories pair the year with 1288 AH). Wikidata also carries a year-only value of 1870, not followed. No place entity exists for Berqin, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-ahmed-lutfi-al-sayyid-en, source/wikipedia-ahmed-lutfi-al-sayyid-ar, source/wikidata-ahmed-lutfi-al-sayyid]
+died:
+  edtf: "1963-03-05"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 5 March 1963 (the Arabic article states the place; Wikidata gives Cairo as place of death; the Arabic article's categories pair the year with 1382 AH)."
+  sources: [source/wikipedia-ahmed-lutfi-al-sayyid-en, source/wikipedia-ahmed-lutfi-al-sayyid-ar, source/wikidata-ahmed-lutfi-al-sayyid]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-ahmed-lutfi-al-sayyid-ar, source/wikidata-ahmed-lutfi-al-sayyid] }
+  - { type: student_of, target: person/muhammad-abduh, sources: [source/wikipedia-ahmed-lutfi-al-sayyid-en, source/wikipedia-ahmed-lutfi-al-sayyid-ar] }
+  - { type: student_of, target: person/jamal-al-din-al-afghani, sources: [source/wikipedia-ahmed-lutfi-al-sayyid-ar, source/wikipedia-ahmed-lutfi-al-sayyid-ur] }
+  - { type: influenced, target: person/salama-moussa, sources: [source/wikipedia-salama-moussa-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school or personal affiliation for Lutfi al-Sayyid. The English article describes him as an architect of Egyptian secularism and liberalism who held that religion should not be a basis for nationhood, and the Arabic article records his opposition to religious schools; that is political doctrine, not personal attestation, and secularism as doctrine is not documented unbelief. The Urdu article's infobox has a religion field and leaves it blank. Wikidata carries no religion value."
+    sources: [source/wikipedia-ahmed-lutfi-al-sayyid-en, source/wikipedia-ahmed-lutfi-al-sayyid-ar, source/wikipedia-ahmed-lutfi-al-sayyid-ur, source/wikidata-ahmed-lutfi-al-sayyid]
+external_ids: { wikidata: "Q2319701" }
+sources: [source/wikipedia-ahmed-lutfi-al-sayyid-en, source/wikipedia-ahmed-lutfi-al-sayyid-ar, source/wikipedia-ahmed-lutfi-al-sayyid-ur, source/wikidata-ahmed-lutfi-al-sayyid, source/wikipedia-salama-moussa-en]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia, Wikidata Q2319701, and the English Wikipedia article on Salama Moussa for the influence edge, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
