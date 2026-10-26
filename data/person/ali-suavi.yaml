@@ -1,0 +1,47 @@
+id: person/ali-suavi
+class: person
+label:
+  en: "Ali Suavi"
+  ar: "علي سعاوي"
+summary:
+  ar: "صحفي ومربٍّ ومصلح ديني عثماني (1839–1878)، من العثمانيين الشباب، حرّر «مخبر» في لندن ودعا إلى إصلاح ديني وقراءة الخطبة بلغة كل قوم، وقُتل وهو يقتحم قصر جراغان ليعيد مراد الخامس إلى العرش."
+  en: "Ottoman journalist, educator and religious reformer (1839-1878), a Young Ottoman who edited Muhbir in London, preached at the Sehzade Mosque, argued for religious reform and for the khutba in each nation's own language, and was killed raiding Ciragan Palace to restore Murad V."
+names:
+  - { value: "Ali Suavi", kind: full }
+  - { value: "علی سعاوی", kind: full }
+  - { value: "Sarıklı İhtilalci", kind: laqab }
+  - { value: "Hacı Ali Suavi", kind: alternate }
+gender: male
+roles: [writer, teacher, theologian]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1839-12-08"
+  hijri: "1255"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Istanbul, where both article texts agree he was born on 8 December 1839, the son of Hüseyin Ağa, a paper merchant from Çankırı (the English article's category 'People from Çankırı' reflects the family's origin, not his birthplace). Wikidata's day-precision value of 27 November 1839 agrees with neither article and is not followed. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-ali-suavi-en, source/wikipedia-ali-suavi-tr, source/wikidata-ali-suavi]
+died:
+  edtf: "1878-05-20"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Istanbul, killed by blows from Yedi Sekiz Hasan Pasha's club while leading the Ciragan Palace raid of 20 May 1878; the Turkish article gives his burial near Yildiz Palace. Wikidata's death value is year-precision only. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-ali-suavi-en, source/wikipedia-ali-suavi-tr, source/wikidata-ali-suavi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Suavi personally. The English article calls him a theologian and reformer who preached at the Sehzade Mosque and contributed to the pan-Islamist Basiret, and the Turkish article tells that he performed the Hajj with his father at seventeen, took Islam as his reference, and argued for reform in religion and for the khutba in each nation's own tongue - practice, office and published positions, none of which names a madhhab for the man himself. His works on Abu Hanifa's counsels and his translation of Ghazali are repertoire, not attestation. Wikidata's only religion value is Islam (Q432), generic, naming no school, and one structured-data family never suffices on its own."
+    sources: [source/wikipedia-ali-suavi-en, source/wikipedia-ali-suavi-tr, source/wikidata-ali-suavi]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ali-suavi-en, source/wikipedia-ali-suavi-tr, source/wikidata-ali-suavi] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ali-suavi-en, source/wikipedia-ali-suavi-tr, source/wikidata-ali-suavi] }
+external_ids: { wikidata: Q4725236 }
+sources: [source/wikipedia-ali-suavi-en, source/wikipedia-ali-suavi-tr, source/wikidata-ali-suavi]
+provenance: { layer: own-research, source: "Lane brief century-additions-41 (group Z2); grounded from English Wikipedia revision 1371331637, Turkish Wikipedia revision 38101546, and Wikidata item Q4725236 (revision 2521425943), resolved via the Wikipedia API pageprops and Special:EntityData.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-41 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
