@@ -1,0 +1,29 @@
+id: person/syed-sadaqat-ali
+class: person
+label: { ar: "سيد صداقت علي", en: "Syed Sadaqat Ali", ur: "سید صداقت علی" }
+names:
+  - { value: "قاری سید صداقت علی", kind: full }
+  - { value: "Qari Syed Sadaqat Ali", kind: full }
+gender: male
+summary:
+  ar: "قارئ قرآن باكستاني ومدرّس للتلاوة، تتلمذ على القارئ المصري عبد الباسط عبد الصمد. اشتهر ببرنامجه التعليمي «القرآن» على تلفزيون باكستان منذ 1992 لتعليم الأطفال القراءة والنطق، وهو من القراء الرسميين في الجلسات الافتتاحية لمجلس البنجاب الإقليمي، وحاصل على هلال الامتياز (2020) وستارة الامتياز (2015) وفخر الأداء."
+  en: "Pakistani Qur'an reciter and teacher of recitation who studied under the Egyptian reciter Abdul Basit 'Abd us-Samad. He is known for AlQuran, the PTV programme teaching children reading and pronunciation since 1992; he is an official reader at the inaugural sessions of the Punjab Provincial Assembly and holds the Hilal-i-Imtiaz (2020), Sitara-i-Imtiaz (2015) and Pride of Performance."
+  ur: "پاکستانی قاریِ قرآن اور قراءت کے استاد، جنھوں نے مصری قاری عبد الباسط عبد الصمد سے تعلیم حاصل کی۔ وہ 1992ء سے پی ٹی وی کے تعليمی پروگرام «القرآن» کے ذریعے بچوں کو قراءت و تلفظ سکھانے کے لیے مشہور ہیں؛ وہ پنجاب اسمبلی کے افتتاحی اجلاسوں کے سرکاری قاری ہیں اور ہلالِ امتیاز (2020ء)، ستارۂ امتیاز (2015ء) اور تمغائے حسنِ کارکردگی کے حامل ہیں۔"
+roles: [reciter, teacher]
+wings: [people, living]
+regions: [south-asia]
+relations:
+  - { type: student_of, target: person/abdul-basit-abd-us-samad, note: "The English article states that one of his teachers was the renowned Abdul Basit 'Abd us-Samad (1927–1988) of Egypt, citing Arab News profiles of December 2013; the Arabic article, a translation of the English, repeats it with the teacher's dates. Sadaqat Ali is the student; Abdul Basit is the teacher.", sources: [source/wikipedia-syed-sadaqat-ali-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for him. The Urdu article's categories file him among Hanafis, Sunni Muslim personalities and the Qadiriyya order — category filings, which never attest; the English and Arabic articles name no school, and Wikidata gives religion as Islam only. That his famous teacher was Egyptian and that his own recitation follows the Egyptian style are training and repertoire, which never attest. Not recorded as any school until two independent sources name one."
+    sources: [source/wikipedia-syed-sadaqat-ali-en, source/wikipedia-syed-sadaqat-ali-ar, source/wikipedia-syed-sadaqat-ali-ur, source/wikidata-syed-sadaqat-ali]
+external_ids: { wikidata: "Q16319311" }
+sources: [source/wikipedia-syed-sadaqat-ali-en, source/wikipedia-syed-sadaqat-ali-ar, source/wikipedia-syed-sadaqat-ali-ur, source/wikidata-syed-sadaqat-ali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Qari Syed Sadaqat Ali' (revision 1378865376 of 6 October 2026), Arabic Wikipedia «سيد صداقت علي» (revision 77057736 of 24 October 2026), Urdu Wikipedia «قاری سید صداقت علی» (revision 10402803 of 14 May 2026) and Wikidata Q16319311 (item revision 2468662274 of 2 March 2026), each fetched by its recorded revision id with the returned revision asserted equal before any claim was drawn, checked 26 October 2026. No source read gives a birth date or year — the English article files him under 'Year of birth missing (living people)' and Wikidata carries no birth value — so, following the lane's precedent for undated living figures, no born block is recorded; the harvest queue's 1952 is supported by no source read."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

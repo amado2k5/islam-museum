@@ -1,0 +1,40 @@
+id: person/hussein-al-sheikh
+class: person
+label: { ar: "حسين بن عبد العزيز آل الشيخ", en: "Hussein Al-Sheikh", ur: "حسین بن عبد العزیز آل شیخ" }
+names:
+  - { value: "حسين بن عبد العزيز بن حسن آل الشيخ", kind: full }
+  - { value: "Husayn ibn Abd al-Aziz ibn Hasan Aal al-Sheikh", kind: full }
+  - { value: "Hussain Al-Sheikh", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وقاضٍ سعودي، إمام وخطيب المسجد النبوي بالمدينة المنورة. من نسل محمد بن عبد الوهاب، درس الشريعة بالرياض ونال الماجستير والدكتوراه من المعهد العالي للقضاء، وتولى القضاء في نجران والرياض والمدينة، وعُيّن إماماً وخطيباً للمسجد النبوي بأمر سامٍ، وكان الخطيب التاسع لعرفة في العهد السعودي."
+  en: "Saudi scholar and judge, imam and khatib of the Prophet's Mosque in Medina. A descendant of Muhammad ibn Abd al-Wahhab, he studied Sharia in Riyadh, took a master's and a doctorate at the Higher Institute of Judiciary, served as a judge in Najran, Riyadh and Medina, and was appointed imam and khatib of the Prophet's Mosque by royal decree; he was the ninth preacher of Arafat in the Saudi era."
+  ur: "سعودی عالم اور قاضی، مدینہ منورہ میں مسجد نبوی کے امام و خطیب۔ وہ محمد بن عبد الوہاب کی نسل سے ہیں، ریاض میں شریعت کی تعلیم حاصل کی، المعہد العالی للقضاء سے ماسٹرز اور ڈاکٹریٹ کیا، نجران، ریاض اور مدینہ میں قاضی رہے، اور شاہی فرمان سے مسجد نبوی کے امام و خطیب مقرر ہوئے؛ وہ سعودی دور کے نویں خطیبِ عرفات شمار ہوتے ہیں۔"
+roles: [reciter, scholar, teacher]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1964"
+  hijri: "1384"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Both articles give the Hijri year only: born 1384 AH. That year runs from May 1964 to May 1965, so the Gregorian year 1964 is the conversion and is marked derived. Neither article gives a birthplace (the Arabic infobox leaves the field blank) and Wikidata carries no birth value at all, so no born_in edge is written."
+  sources: [source/wikipedia-hussein-al-sheikh-ar, source/wikipedia-hussein-al-sheikh-ur]
+relations:
+  - { type: lived_in, target: place/medina, note: "Transferred to Medina's Grand Court on 25 Sha'ban 1418 AH and later appointed imam and khatib of the Prophet's Mosque there by royal decree, a post he still holds.", sources: [source/wikipedia-hussein-al-sheikh-ar] }
+  - { type: student_of, target: person/ibn-baz-abd-al-aziz, note: "The Arabic article lists his teachers — Fahd al-Humayd for tawhid, Abdullah al-Jibreen for fiqh and hadith, Abd al-Aziz al-Dawud for fiqh, Abdullah al-Ghudayyan for legal theory — and adds that he attended the lessons of Abd al-Aziz ibn Baz; of these only Ibn Baz has a museum record, so only that edge is written. Hussein is the student; Ibn Baz is the teacher.", sources: [source/wikipedia-hussein-al-sheikh-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. The Arabic article leaves its infobox religion field blank; its text gives only his descent from Muhammad ibn Abd al-Wahhab — family background, which never attests — and his teachers and posts. The Arabic categories file him among Hanbalis and Saudi Sunni scholars, and the Urdu article, a translation of the Arabic and so the same source family, files him the same way; category filings never attest. Wikidata gives religion as Islam and Muslim only. His imamate of the Prophet's Mosque is an office, which never attests. Not recorded as any school until two independent sources name one."
+    sources: [source/wikipedia-hussein-al-sheikh-ar, source/wikipedia-hussein-al-sheikh-ur, source/wikidata-hussein-al-sheikh]
+external_ids: { wikidata: "Q12208175" }
+sources: [source/wikipedia-hussein-al-sheikh-ar, source/wikipedia-hussein-al-sheikh-ur, source/wikidata-hussein-al-sheikh]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «حسين بن عبد العزيز آل الشيخ» (revision 76728224 of 24 September 2026), Urdu Wikipedia «حسین بن عبد العزیز آل شیخ» (revision 9371297 of 31 January 2026) and Wikidata Q12208175 (item revision 2462491411 of 11 February 2026), each fetched by its recorded revision id with the returned revision asserted equal before any claim was drawn, checked 26 October 2026. No English article exists for him; the English article titled 'Hussain Al-Sheikh' is a footballer born in 1990 (Q22812674), a different man, and no record of this imam existed under any spelling or under his QID."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
