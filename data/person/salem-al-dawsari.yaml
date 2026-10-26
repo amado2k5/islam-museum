@@ -1,0 +1,38 @@
+id: person/salem-al-dawsari
+class: person
+label: { ar: "سالم الدوسري", en: "Salem Al-Dawsari", ur: "سالم الدوسری" }
+names:
+  - { value: "Salem Mohammed Shafi Al-Dawsari", kind: full }
+  - { value: "سالم محمد شافي الدوسري", kind: full }
+  - { value: "Salem Al-Dawsari", kind: alternate }
+gender: male
+summary:
+  ar: "جناح سعودي محترف، وُلد في جدة سنة 1991 لأسرة من الأفلاج، وهو قائد نادي الهلال ومنتخب السعودية. قضى مسيرته كلها مع الهلال باستثناء إعارة قصيرة إلى فياريال الإسباني سنة 2018. اشتهر عالميًا بهدف الفوز على الأرجنتين في كأس العالم 2022، وعادل بسجله في كؤوس العالم (ثلاثة أهداف) رقم سامي الجابر القياسي سعوديًا."
+  en: "Saudi Arabian professional footballer (left winger), born in Jeddah in 1991 to a family from Al-Aflaj, who captains both Al-Hilal and the Saudi Arabia national team. He has spent his whole career at Al-Hilal apart from a short loan at Villarreal in Spain in 2018. He is best known worldwide for the winning goal against Argentina at the 2022 FIFA World Cup, and his three World Cup goals equal Sami Al-Jaber's Saudi record."
+  ur: "سعودی پیشہ ور فٹبالر (بائیں ونگر)، 1991 میں جدہ میں الافلاج سے تعلق رکھنے والے خاندان میں پیدا ہوئے؛ وہ الہلال اور سعودی عرب کی قومی ٹیم دونوں کے کپتان ہیں۔ انہوں نے اپنا پورا کیریئر الہلال میں گزارا سوائے 2018 میں اسپین کے ویاریال میں مختصر قرض کے۔ وہ 2022 فیفا ورلڈ کپ میں ارجنٹائن کے خلاف جیت کا گول کرنے کے لیے دنیا بھر میں مشہور ہیں، اور ان کے تین ورلڈ کپ گول سامی الجابر کے سعودی ریکارڈ کے برابر ہیں۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1991-08-19"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 19 August 1991 in Jeddah, Saudi Arabia, as given by both the English and the Arabic Wikipedia articles; the Arabic article adds that his father worked as a teacher, that he was the third son after two brothers, and that the family comes from Al-Aflaj, some 300 kilometres south of Riyadh, moving to Riyadh when he was in the sixth grade. Wikidata Q3945419 agrees on the date but gives his birthplace as Riyadh, which neither article supports and which is not followed. The Hijri year (1412) is derived by tabular conversion."
+  sources: [source/wikipedia-salem-al-dawsari-en, source/wikipedia-salem-al-dawsari-ar, source/wikidata-salem-al-dawsari]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-salem-al-dawsari-en, source/wikipedia-salem-al-dawsari-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Al-Dawsari himself, and none states his religion. The English Wikipedia article makes no statement of his religion anywhere in its text; its early and personal life section covers his Jeddah birth, his family's origin in Al-Aflaj and his joining Al-Hilal at nineteen. The Arabic article likewise makes no statement of his religion. Wikidata Q3945419 carries no religion value at all. Saudi Arabia's Hanbali tradition is the country's milieu, which under the lane rule may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-salem-al-dawsari-en, source/wikipedia-salem-al-dawsari-ar, source/wikidata-salem-al-dawsari]
+external_ids: { wikidata: "Q3945419" }
+sources: [source/wikipedia-salem-al-dawsari-en, source/wikipedia-salem-al-dawsari-ar, source/wikidata-salem-al-dawsari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salem Al-Dawsari' (revision 1381634151 of 23 October 2026), Arabic Wikipedia «سالم الدوسري» (revision 77012724 of 19 October 2026) and Wikidata Q3945419, read on 26 October 2026 and checked against the recorded revisions. The born_in edge to place/jeddah is written once, in this record. No earlier record for him existed in data/person/ under salem-al-dawsari or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-41
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

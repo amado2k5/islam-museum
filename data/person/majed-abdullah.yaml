@@ -1,0 +1,39 @@
+id: person/majed-abdullah
+class: person
+label: { ar: "ماجد عبد الله", en: "Majed Abdullah", ur: "ماجد عبد اللہ" }
+names:
+  - { value: "Majed Ahmed Abdullah", kind: full }
+  - { value: "ماجد أحمد محمد عبد الله", kind: full }
+  - { value: "Majed Abdullah", kind: alternate }
+  - { value: "The Arabian Pelé", kind: laqab }
+gender: male
+summary:
+  ar: "مهاجم سعودي معتزل، وُلد في جدة سنة 1959 لأسرة من أصل سوداني، وقضى مسيرته كلها مع نادي النصر. هو الهداف التاريخي لمنتخب السعودية برصيد 72 هدفًا في 117 مباراة، والهداف التاريخي للنصر وللدوري السعودي، وقاد بلاده إلى كأس آسيا 1984 و1988، واعتزل سنة 1998. لُقّب «بيليه العرب»، وجاء ثالثًا في تصويت الاتحاد الدولي لتاريخ وإحصاءات كرة القدم على لاعب القرن في آسيا."
+  en: "Saudi Arabian former professional footballer (striker), born in Jeddah in 1959 to a family of Sudanese origin, who spent his entire club career at Al-Nassr. He is Saudi Arabia's all-time leading scorer with 72 goals in 117 internationals, Al-Nassr's record scorer and the Saudi Pro League's all-time top scorer; he led his country to the AFC Asian Cup titles of 1984 and 1988 and retired in 1998. Nicknamed 'the Arabian Pelé', he finished third in the IFFHS vote for Asia's Player of the Century."
+  ur: "سعودی سابق پیشہ ور فٹبالر (اسٹرائیکر)، 1959 میں جدہ میں سوڈانی نژاد خاندان میں پیدا ہوئے اور اپنا پورا کلب کیریئر النصر میں گزارا۔ وہ 117 بین الاقوامی میچوں میں 72 گول کے ساتھ سعودی عرب کے ہمہ وقتی سرفہرست گول اسکورر، النصر کے ریکارڈ اسکورر اور سعودی پرو لیگ کے ہمہ وقتی سرفہرست اسکورر ہیں؛ انہوں نے اپنے ملک کو 1984 اور 1988 کے اے ایف سی ایشین کپ جتوائے اور 1998 میں ریٹائر ہوئے۔ انہیں «عرب پیݪے» کہا جاتا تھا اور وہ آئی ایف ایف ایچ ایس کے ایشیا کے صدی کے بہترین کھلاڑی کے ووٹ میں تیسرے نمبر پر رہے۔"
+roles: [athlete]
+wings: [people, living]
+born:
+  edtf: "1959-01-11"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 11 January 1959 in Jeddah, Saudi Arabia, as given by both the English and the Arabic Wikipedia articles; the Arabic article adds that his family was of Sudanese origin and the English article that he was born in the Al-Baghdadia district of Jeddah, second son of Ahmed Abdullah, and that the family moved to Riyadh in the mid-1960s. Wikidata Q446181 carries three mutually inconsistent birth-date values — 11 January 1959, which agrees with both articles, and 1 November 1959 and 6 June 1958, which neither article supports and which are not followed. The Hijri year (1378) is derived by tabular conversion."
+  sources: [source/wikipedia-majed-abdullah-en, source/wikipedia-majed-abdullah-ar, source/wikidata-majed-abdullah]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-majed-abdullah-en, source/wikipedia-majed-abdullah-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Abdullah himself, and none states his religion in so many words. The English Wikipedia article makes no statement of his religion anywhere in its text. The Arabic article likewise makes no statement of his religion; its only religion-adjacent passage recounts that, after his father's death, he stayed behind from Al-Nassr's trip to the 2000 Club World Championship and performed Umrah on his father's behalf during the last ten days of Ramadan — a reported act of practice which the Arabic article itself flags as needing a source, and which in any case names no school. Wikidata Q446181 carries no religion value at all. Saudi Arabia's Hanbali tradition is the country's milieu, which under the lane rule may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-majed-abdullah-en, source/wikipedia-majed-abdullah-ar, source/wikidata-majed-abdullah]
+external_ids: { wikidata: "Q446181" }
+sources: [source/wikipedia-majed-abdullah-en, source/wikipedia-majed-abdullah-ar, source/wikidata-majed-abdullah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Majed Abdullah' (revision 1381399191 of 22 October 2026), Arabic Wikipedia «ماجد عبد الله» (revision 77048829 of 23 October 2026) and Wikidata Q446181, read on 26 October 2026 and checked against the recorded revisions. The born_in edge to place/jeddah is written once, in this record. No earlier record for him existed in data/person/ under majed-abdullah or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-41
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
