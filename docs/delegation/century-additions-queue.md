@@ -396,11 +396,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Ibrahim Niass — 1900–1975
 - [x] Serigne Babacar Sy — 1885–1957
 - [x] Serigne Fallou Mbacké — 1888–1968
-- [ ] Serigne Abdou Ahad Mbacké — 1914–1989
-- [ ] Serigne Saliou Mbacké — 1915–2007
-- [ ] Serigne Mountakha Mbacké — 1933–Living
-- [ ] Sheikh Osman Nuhu Sharubutu — 1919–Living
-- [ ] Sheikh Aminu Daurawa — 1969–Living
+- [x] Serigne Abdou Ahad Mbacké — 1914–1989
+- [x] Serigne Saliou Mbacké — 1915–2007
+- [x] Serigne Mountakha Mbacké — 1933–Living
+- [x] Sheikh Osman Nuhu Sharubutu — 1919–Living
+- [x] Sheikh Aminu Daurawa — 1969–Living
 - [ ] Sheikh Isa Ali Pantami — 1972–Living
 - [ ] Sheikh Ja'afar Mahmud Adam — 1960–2007
 - [ ] Sheikh Kabir Gombe — 1968–Living
