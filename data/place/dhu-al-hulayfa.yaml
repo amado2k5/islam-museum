@@ -12,6 +12,8 @@ coordinate_precision: locality
 external_ids: { geonames: "110367" }
 sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames; أبيار علي (GeoNames)، مكان ذي الحليفة بحسب التحديد المعروف؛ التحديد يحتاج مراجعة الدارسين." }
+
 education:
   levels: [sprouts, explorers, scholars]
-  provenance: { generated_by: "Devin", model: "unknown", run: "education-E5-leveled-b8-levels-fix", note: "Declares the levels whose leveled sections batch 8 added to content/ (the records had no education.levels)." }
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

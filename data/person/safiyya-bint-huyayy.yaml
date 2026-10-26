@@ -41,6 +41,8 @@ provenance:
   generated_by: "Devin; Claude Sonnet (subagent) for the lecture section"
   model: "unknown"
   run: omar-tafsir-bundle-9
+
 education:
   levels: [sprouts, explorers, scholars]
-  provenance: { generated_by: "Devin", model: "unknown", run: "education-E5-leveled-b8-levels-fix", note: "Declares the levels whose leveled sections batch 8 added to content/ (the records had no education.levels)." }
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
