@@ -22,3 +22,8 @@ provenance:
   run: "raheeq-prose-batch-1a"
 sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 20–22, 45" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

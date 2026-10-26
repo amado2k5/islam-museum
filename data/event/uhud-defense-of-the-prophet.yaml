@@ -27,3 +27,8 @@ relations:
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim]
 provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
 status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 267-273" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
