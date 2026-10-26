@@ -22,3 +22,12 @@ The author cites Ibn Hajar that the cessation of revelation for days was meant t
 
 ## For young visitors
 After the first time revelation came down, it stopped for days, and the Prophet was very sad. Then the angel Gabriel returned and reassured him, and new verses came down ordering him to stand up and call people.
+
+## For Sprouts
+The pause of revelation: its ceasing after the first descent at Hira — the book prefers days, not years — then Gabriel came again with the opening of al-Muddaththir.
+
+## For Explorers
+The pause of revelation: the revelation's ceasing after its first descent at Hira. The Raheeq prefers Ibn Sa'd's report from Ibn Abbas that it was days, and holds the famed three years or two and a half unsound; then Gabriel came to him a second time with the opening of Surat al-Muddaththir. He spent the pause sorrowful and grieving, puzzlement and wonder coming over him; the author retails Bukhari's report that his grief sent him out time after time to throw himself down from the mountain peaks, and each time he reached a summit Gabriel appeared telling him he was truly God's messenger, so his breast calmed and he returned.
+
+## For Scholars
+The pause of revelation: the revelation's ceasing after its first descent at Hira; the Raheeq prefers Ibn Sa'd's report from Ibn Abbas that it was days, and holds the famed three years or two and a half unsound. Then Gabriel came to him a second time with the opening of Surat al-Muddaththir. Ibn Sa'd reports from Ibn Abbas what means the pause was days, which the author prefers — indeed fixes on after turning the question from every side — while the famed duration of three years or two and a half he holds in no way sound. He spent the pause sorrowful and grieving, puzzlement and wonder coming over him; the author retails Bukhari's report in the Book of Interpretation: that his grief sent him out time after time to throw himself down from the mountain peaks, and each time he reached a summit Gabriel appeared telling him he was truly God's messenger, so his breast calmed and he returned — and when the pause lengthened he did the like again.

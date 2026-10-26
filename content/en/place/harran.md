@@ -12,3 +12,12 @@ In it are Tall Afra, the land of Tall Mudhaba, and the prayer ground. In its out
 Ibn Fadl Allah al-Umari reports from al-Bakri that on the gate of Harran is an inscription in Syriac attributed to Plato, and that the rest of the temples of the Sabians is a house known as Mu'allaniyusha, which for them is the temple of Azar, the father of Abraham. {cite:umari-masalik-1924 p.225-226}
 
 See [[event/conquest-of-harran|the conquest of Harran]].
+
+## For Sprouts
+Harran, one of the Jazira's cities; its people made terms with Iyad ibn Ghanam like those of al-Ruha — it holds the mound of Afra' and the field of the place of prayer.
+
+## For Explorers
+Harran, one of the Jazira's cities. Its people made terms with Iyad ibn Ghanam like those of al-Ruha; it is told they moved into it before his arrival and sued for terms on their town from inside, the Harranians and the Christians competing over the reconciliation, per al-Baladhuri. In it are the mound of Afra', the land of Tall Madhaba and the field of the place of prayer, and meadows in its outskirts for al-Ghamr ibn Yazid ibn Abd al-Malik. Ibn Fadlallah al-Umari transmits from al-Bakri that Harran's gate bore a Syriac inscription attributed to Plato, and that what survives of the Sabians' temples is a house called Ma'lnisha — among them the temple of Azar, Abraham's father.
+
+## For Scholars
+Harran, one of the Jazira's cities. Its people made terms with Iyad ibn Ghanam like those of al-Ruha; it is told they moved into it before his arrival and sued for terms on their town from inside, the Harranians and the Christians competing over the reconciliation, per al-Baladhuri. In it are the mound of Afra', the land of Tall Madhaba and the field of the place of prayer, and meadows in its outskirts for al-Ghamr ibn Yazid ibn Abd al-Malik. Ibn Fadlallah al-Umari transmits from al-Bakri that Harran's gate bore a Syriac inscription attributed to Plato, and that what survives of the Sabians' temples is a house called Ma'lnisha — among them the temple of Azar, Abraham's father.

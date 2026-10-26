@@ -26,3 +26,12 @@ Then revelation came down to settle the matter, in the verse [[passage/quran-2-2
 
 ## In The Sealed Nectar (pp.200–201)
 The Prophet sent Abdullah ibn Jahsh with twelve of the Muhajirun to Nakhla, and ordered him not to look at the letter until he had gone two days. He did so, and they met a Quraysh caravan on the last day of Rajab, killed Amr ibn al-Hadrami and captured two men. The Prophet disapproved, released the two captives and paid the blood-money for the slain man, and revelation came down about the sacred month. {cite:mubarakpuri-raheeq p.200} {cite:mubarakpuri-raheeq p.201}.
+
+## For Sprouts
+In Rajab 2 AH the Prophet sent Abdullah ibn Jahsh with twelve of the Emigrants to Nakhla between Mecca and Taif to watch Quraysh's caravan.
+
+## For Explorers
+In Rajab 2 AH (January 624 CE) the Prophet sent Abdullah ibn Jahsh al-Asadi with twelve of the Emigrants, each pair taking turns on a camel, writing him a letter he ordered him not to read until he had marched two days — then to do his task and force none of his companions. Abdullah read it after two days: 'when you have read this letter of mine, go on till you camp at Nakhla between Mecca and Taif, watch Quraysh's caravan there and bring us news of them'; he told his companions and they all rose. On the way Sa'd ibn Abi Waqqas and Utba ibn Ghazwan lost a camel they were sharing and stayed behind seeking it, while the rest of the party went on and camped at Nakhla.
+
+## For Scholars
+In Rajab 2 AH (January 624 CE) the Prophet sent Abdullah ibn Jahsh al-Asadi with twelve of the Emigrants, each pair taking turns on a camel, writing him a letter he ordered him not to read until he had marched two days — then to do his task and force none of his companions. Abdullah read it after two days: 'when you have read this letter of mine, go on till you camp at Nakhla between Mecca and Taif, watch Quraysh's caravan there and bring us news of them'; he told his companions and they all rose. On the way Sa'd ibn Abi Waqqas and Utba ibn Ghazwan lost a camel they were sharing and stayed behind seeking it, while the rest of the party went on and camped at Nakhla.

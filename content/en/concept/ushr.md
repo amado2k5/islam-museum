@@ -24,3 +24,6 @@ The tithe lapses on conversion, and the imam may waive it for goods the Muslims 
 
 ## Where to look further
 Fay' is treated under «fay'», and zakat under «zakat» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11609}.
+
+## For Scholars
+Ushr in the language is one part in ten. This entry is confined to the ushr of trade — what is levied on the goods of the protected people kept for trade when they carry them from town to town within the lands of Islam. The ushr is taken on non-Muslims' trade when they bring it into the abode of Islam, the jurists arguing it by sunna, consensus and reason; nothing is taken on Muslims' trade but the zakat. It is taken from the safe-conducted and the dhimmis, and the schools differ on the conditions of obligation: the Hanafis require maturity and reason, the Hanbalis do not; Abu Ya'la required maleness, the rest did not. And the ushr falls only on wealth kept for trade — the Hanafis and Hanbalis require the threshold, and some require being clear of debt.

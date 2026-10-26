@@ -40,3 +40,12 @@ The lists above are the most prominent and most frequently appearing items in th
 
 ## Notes for researchers
 The era's boundaries are the museum's own organising convention and are approximate. For the wider history of this period, see {cite:hodgson-1974} {cite:hourani-1991}.
+
+## For Sprouts
+The Rashidun era: the rule of the first four caliphs after the Prophet — Abu Bakr, Umar, Uthman and Ali — when the community spread from the Peninsula to Syria, Iraq, Egypt and Iran, roughly 632 to 661 CE.
+
+## For Explorers
+The Rashidun era: the rule of the first four caliphs after the Prophet — Abu Bakr, Umar, Uthman and Ali — when the community spread from the Peninsula to Syria, Iraq, Egypt and Iran. The museum bounds it roughly from 632 to 661 CE; those bounds are the museum's organizing choice, not definitive.
+
+## For Scholars
+The Rashidun era: the rule of the first four caliphs after the Prophet — Abu Bakr, Umar, Uthman and Ali — when the community spread from the Peninsula to Syria, Iraq, Egypt and Iran. The museum bounds it roughly from 632 to 661 CE; those bounds are the museum's organizing choice, not definitive.

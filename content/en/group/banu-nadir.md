@@ -21,3 +21,12 @@ Al-Raheeq al-Makhtum counts this tribe among the well-known Jewish tribes when I
 
 ## In Medina at the Hijra (al-Raheeq al-Makhtum, p. 180)
 It was one of the three Jewish tribes of Yathrib. It stirred up wars between the Aws and the Khazraj through incitement, and its people lent money to the Arabs at interest ([[concept/medina-society-at-hijra|Medina's society at the time of the Hijra]]) {cite:mubarakpuri-raheeq p.180}.
+
+## For Sprouts
+Banu al-Nadir — the farming Jews of Yathrib — were exiled in 625 CE after a plot accusation; many of them ended at Khaybar.
+
+## For Explorers
+Banu al-Nadir — the farming Jews of Yathrib, the wealthiest of them in houses and property — were exiled in the chosen exile of 625 CE after an accusation of a killing plot, their lot ending at Khaybar and the settling that came after. In the years following Uhud Medina accused their chief Huyayy ibn Akhtab of arranging the Prophet's assassination by inviting him to his assembly; the armies besieged them until they left with six hundred loads, whatever the camels bore — arms excepted. Many settled at Khaybar and Huyayy became the leader of the Jewish front against the state until he fell after its fall. Their land — the Fadak groves and the Nadir holdings — became in the tradition the Prophet's own booty, and from it his endowment.
+
+## For Scholars
+Banu al-Nadir — the farming Jews of Yathrib, the wealthiest of them in houses and property — were exiled in the chosen exile of 625 CE after an accusation of a killing plot, their lot ending at Khaybar and the settling that came after. In the years following Uhud Medina accused their chief Huyayy ibn Akhtab of arranging the Prophet's assassination by inviting him to his assembly; the armies besieged them until they left with six hundred loads, whatever the camels bore — arms excepted. Many settled at Khaybar and Huyayy became the leader of the Jewish front against the state until he was killed after its fall. Their land — the Fadak groves and the Nadir holdings — became in the tradition the Prophet's own booty, and from it his endowment.

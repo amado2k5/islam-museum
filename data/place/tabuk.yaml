@@ -13,3 +13,8 @@ coordinate_note: "Agrees with GeoNames within 2.2 km."
 external_ids: { geonames: "101628" }
 sources: [source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
