@@ -71,5 +71,11 @@ translators: []
 ويصف طريقته في الاستشارات: أسئلة يجمع إجاباتها من الناس في المنظمة، ثم يعيد صياغتها في نموذج بتشخيص وحلول وخطوات تنفيذ ومؤشرات؛ ويقول إن الإجابات والحلول تأتي من الناس أنفسهم. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:22:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:23:30}
 ويذكر أن له كتاباً وألبوماً في موضوع «المنظمة المتعلمة»، وأن الدورة قدّمها بعد عودته من كندا، ومن سياقها — ذكر كتاب «Know How» الصادر في 2007 والإعلان عن الآيفون قبل أيام — أنها تعود إلى نحو سنة 2007. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:01:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:34:30}
 
+## من دروسه: الرؤية والرسالة
+في الحلقة الثانية من «الإدارة العملية» يذكر السويدان أنه كان يدير «أكاديمية الإبداع الأمريكية» في الكويت، وهي مدرسة من الابتدائية إلى الثانوية رسالتها «أفضل تعليم في الشرق الأوسط في بيئة أخلاقية وإبداعية»، وأن كتابة هذه الجملة استغرقت ستة أسابيع بدأت بجملة من نصف صفحة. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:35:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:38:00}
+ويحكي أن شركة لإدارة الأموال كان يعمل فيها اشترت شركة أخشاب رابحة في ماليزيا فخسرتها خلال سنة لأنها خارج صلب عملهم، فباعوها بخسارة عشرة في المئة «ليتأدبوا»، وخلاصته: لا تدخل في عمل لا تفهمه. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:52:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:58:00}
+ويذكر أن خطة قناة الرسالة الاستراتيجية كُتبت على نموذجه في يوم واحد من التاسعة صباحاً إلى التاسعة مساءً بطريقة المجموعة الشكلية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:29:00}
+ومن قواعده في المكافآت أن نسبة المدير من الأرباح عادة ثلاثة إلى خمسة في المئة، وفي الشركات المدرجة نصف إلى واحد في المئة، ولا تتجاوز عشرة في المئة لمن يُسلَّم العمل كله (needs_source: النسب من خلاصة خبرته). {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:59:00}
+
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.
