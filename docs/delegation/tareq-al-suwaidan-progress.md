@@ -36,7 +36,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep09 | 0:26:52 | al-bukhari ext ×3 (pt 1 of 2) | — | — | — | person ext only | ~22 cited windows | 1f49f5288 (PR #2091) |
 | al-mubdioune/ep10 | 0:26:39 | al-bukhari ext ×3 (pt 2 of 2) | — | — | — | person ext only | ~24 cited windows | 69ccd5090 (PR #2094) |
 | al-mubdioune/ep11 | 0:25:42 | al-nawawi ext ×3 | — | — | — | person ext only | ~24 cited windows | 053dd31dc (PR #2095) |
-| al-mubdioune/ep12 | 0:28:14 | ibn-al-jawzi ext ×3 (+sources fix) | — | — | 2 labelled speaker-opinions (wa'z-vs-ilm assessment; self-admiration note) | person ext only | ~26 cited windows | pending |
+| al-mubdioune/ep12 | 0:28:14 | ibn-al-jawzi ext ×3 (+sources fix) | — | — | 2 labelled speaker-opinions (wa'z-vs-ilm assessment; self-admiration note) | person ext only | ~26 cited windows | a698dc31f (PR #2097) |
+| al-mubdioune/ep13 | 0:24:59 | al-tabari ext ×3 (pt 1 of 2) | — | — | — | person ext + sources | ~22 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -61,6 +62,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-mubdioune-13` — al-mubdioune ep13 (al-tabari ext pt1: civilizational-history note, Quran at 7/hadith at 9, Abu Jafar kunyah w/o children, grand tour — Rayy/Baghdad/Basra/Wasit/Kufa/Sham/Beirut/Egypt, Ahmad missed 241 AH).
 - `devin-tareq-al-suwaidan-mubdioune-12` — al-mubdioune ep12 (ibn-al-jawzi ext: orphan/aunt care, Sayd al-Khatir quote, 86 shaykhs, critical read on wa'z vs ilm, 100k estimate flagged, caliph quote + Wasit house arrest, 900+ works, 5 madrasas, 597 AH funeral).
 - `devin-tareq-al-suwaidan-mubdioune-11` — al-mubdioune ep11 (al-nawawi ext: 12 daily lessons 7 yrs, 400 readings of al-Wasit, slept on books, Baybars tax-levy refusal, works list, one meal/day).
 - `devin-tareq-al-suwaidan-mubdioune-10` — al-mubdioune ep10 (al-bukhari pt2: 18-night-risings, Baghdad 100-swapped-isnad test, jarh scrupulousness, 11-yr isnad correction, scholars' testimony, 'one book immortalises').
