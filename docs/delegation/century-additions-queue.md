@@ -316,11 +316,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Omar Khribin — 1994–Living
 - [x] Ismail Matar — 1983–Living
 - [x] Omar Abdulrahman (Amoory) — 1991–Living
-- [ ] Ali Mabkhout — 1990–Living
-- [ ] Khalfan Ibrahim — 1988–Living
-- [ ] Akram Afif — 1996–Living
-- [ ] Almoez Ali — 1996–Living
-- [ ] Abderrazak Hamdallah — 1990–Living
+- [x] Ali Mabkhout — 1990–Living
+- [x] Khalfan Ibrahim — 1988–Living
+- [x] Akram Afif — 1996–Living
+- [x] Almoez Ali — 1996–Living
+- [x] Abderrazak Hamdallah — 1990–Living
 - [ ] Badr Hari — 1984–Living
 - [ ] Rico Verhoeven (Contemporary) — 1989–Living
 - [ ] Gökhan Saki — 1983–Living

@@ -1,0 +1,29 @@
+id: person/akram-afif
+class: person
+label: { ar: "أكرم عفيف", en: "Akram Afif", ur: "اکرم عفیف" }
+names:
+  - { value: "Akram Afif", kind: full }
+  - { value: "Akram Hassan Afif Yahya Afif", kind: full }
+  - { value: "أكرم حسن عفيف يحيى عفيف", kind: full }
+gender: male
+summary:
+  ar: "جناح قطري وُلد في الدوحة سنة 1996 ويلعب للسد. نال جائزة أفضل لاعب في آسيا مرتين (2019 و2023)، وصنع عشرة أهداف قياسية في كأس آسيا 2019، وكان هداف كأس آسيا 2023 بثمانية أهداف، وهو أول لاعب مولود في قطر يوقّع في الدوري الإسباني."
+  en: "Qatari winger born in Doha in 1996 who plays for Al Sadd. He won the Asian Footballer of the Year award twice (2019 and 2023), set a tournament record of 10 assists at the 2019 AFC Asian Cup, finished top scorer of the 2023 AFC Asian Cup with eight goals, and was the first Qatari-born signing in La Liga history."
+  ur: "قطری ونگر، 1996 میں دوحہ میں پیدا ہوئے، السد کے لیے کھیلتے ہیں۔ انہوں نے دو بار ایشین فٹبالر آف دی ایئر جیتا (2019 اور 2023)، 2019 اے ایف سی ایشین کپ میں ریکارڈ 10 اسسٹ کیے، اور 2023 ایشین کپ میں آٹھ گولوں کے ساتھ ٹاپ اسکورر رہے؛ وہ لا لیگا میں دستخط کرنے والے قطر میں پیدا ہونے والے پہلے کھلاڑی تھے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [arabia]
+born: { edtf: "1996-11-18", hijri: "1417", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 18 November 1996 in Doha, Qatar; the English article's personal-life section states the Doha birth and Wikidata gives the same date and place. The Hijri year is a tabular conversion. The museum has no place entity for Doha, so no born_in edge is written.", sources: [source/wikipedia-akram-afif-en, source/wikidata-akram-afif] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: none of the English, Arabic or Urdu articles states his religion in text or categories, and Wikidata has no religion value for him at all. His Yemeni, Tanzanian and Somali descent is family background and ethnicity, which never attests a personal affiliation, and no source names a school for him."
+    sources: [source/wikipedia-akram-afif-en, source/wikipedia-akram-afif-ar, source/wikipedia-akram-afif-ur, source/wikidata-akram-afif]
+external_ids: { wikidata: "Q19882804" }
+sources: [source/wikipedia-akram-afif-en, source/wikipedia-akram-afif-ar, source/wikipedia-akram-afif-ur, source/wikidata-akram-afif]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378390465 of 4 October 2026), Arabic Wikipedia (revision 76137134 of 7 August 2026), Urdu Wikipedia (revision 11496638 of 8 July 2026, a bot stub) and Wikidata Q19882804, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Existence checked both routes: the name-fragment sweep over data/person/ found only unrelated classical figures named Afif, and Q19882804 was searched across data/person/ and data/source/ with no hit; the QID was pinned by biography (Qatari footballer, born 18 November 1996 at Doha). This is a new build. No relations are written: the museum has no place entity for Doha, and his father Hassan Afif and brother Ali Afif have no person records, so they are carried in the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
