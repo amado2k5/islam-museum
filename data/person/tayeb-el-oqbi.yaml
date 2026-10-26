@@ -1,0 +1,46 @@
+id: person/tayeb-el-oqbi
+class: person
+label: { ar: "الطيب العقبي", en: "Tayeb el-Oqbi", ur: "طیب العقبی" }
+names:
+  - { value: "الطيب بن محمد بن إبراهيم العقبي", kind: full }
+  - { value: "Tayeb el-Oqbi", kind: full }
+  - { value: "Tayeb El Okbi", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وصحفي جزائري (نحو 1890–1961)؛ وُلد بسيدي عقبة وتلقى العلم بالمدينة المنورة ومكة حيث أدار جريدة «القبلة» للشريف حسين، ثم عاد إلى الجزائر 1920 فكان من أبرز دعاة الإصلاح وعضوًا مؤسسًا في جمعية العلماء المسلمين الجزائريين (1931)، واشتهر بمواعظه ومقالاته وفتواه زمن الحرب العالمية الثانية بحماية اليهود."
+  en: "Algerian scholar and journalist (about 1890–1961). Born at Sidi Okba, he studied in Medina and Mecca, where Sharif Hussein put him in charge of the newspaper al-Qibla; back in Algeria from 1920 he became a leading reform preacher and a founding member of the Association of Algerian Muslim Ulama (1931), known for his preaching, his journalism and his wartime fatwa protecting Jews."
+  ur: "جزائری عالم اور صحافی (تقریباً 1890–1961)؛ سیدی عقبہ میں پیدا ہوئے، مدینہ منورہ اور مکہ میں تعلیم پائی جہاں شریف حسین نے انہیں اخبار «القبلہ» کی ادارت سونپی، پھر 1920 میں جزائر لوٹ کر اصلاحی دعوت کے سرکردہ واعظ اور جمعیۃ العلماء المسلمین الجزائریین (1931) کے بانی ارکان میں سے بنے، اور جنگ عظیم دوم کے دوران یہودیوں کے تحفظ کے فتوے سے مشہور ہوئے۔"
+roles: [scholar, writer, teacher]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1890"
+  hijri: "1307"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "His own autobiography, quoted in the Arabic article, gives his birth at Sidi Okba as the night of mid-Shawwal 1307 AH (about June 1890) and adds that it may have been about a year later, there being no birth record; the French article likewise gives 'about 1890' and Wikidata June 1890. The lane queue's 1889, the Gregorian year in which 1307 AH began, is not followed. Sidi Okba has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-tayeb-el-oqbi-ar, source/wikipedia-tayeb-el-oqbi-fr, source/wikidata-tayeb-el-oqbi]
+died:
+  edtf: "1961-05-21"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Arabic article and Wikidata give 21 May 1961. The French article gives May 1960, marks the place of death unknown, and the lane queue follows the French year. The exact-day tradition is followed here with the conflict disclosed; no died_in edge is written."
+  sources: [source/wikipedia-tayeb-el-oqbi-ar, source/wikidata-tayeb-el-oqbi, source/wikipedia-tayeb-el-oqbi-fr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives his school as Maliki and his creed as Ahl al-Sunna wa-l-Jama'a. That is one infobox, which never counts on its own. The French text names no school: it describes a reformist scholar of the Association of Algerian Muslim Ulama who preached against the excesses of the maraboutic Sufi confréries — a position within the reform movement, not a madhhab attestation. Wikidata's religion value is 'Islam' only. Under the doubt rule, and the settled treatment of single-infobox cases, no school is recorded."
+    sources: [source/wikipedia-tayeb-el-oqbi-ar, source/wikipedia-tayeb-el-oqbi-fr, source/wikidata-tayeb-el-oqbi]
+external_ids: { wikidata: "Q617525" }
+sources: [source/wikipedia-tayeb-el-oqbi-fr, source/wikipedia-tayeb-el-oqbi-ar, source/wikidata-tayeb-el-oqbi]
+provenance:
+  layer: own-research
+  source: "French and Arabic Wikipedia articles on Tayeb el-Oqbi, each fetched by its recorded revision id (FR 240223241, AR 75629690) with the returned id asserted equal before use, and Wikidata Q617525; no English article exists. Existence checks by name fragments (el-Oqbi, el Okbi, العقبي) and by QID across data/person and data/source found no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-57
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
