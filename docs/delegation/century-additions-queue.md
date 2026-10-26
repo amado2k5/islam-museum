@@ -296,11 +296,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Youssef Msakni — 1990–Living
 - [x] Ali Maâloul — 1990–Living
 - [x] Tarak Dhiab — 1954–Living
-- [ ] Chokri El Ouaer — 1966–Living
-- [ ] Badou Zaki — 1959–Living
-- [ ] Mustapha Hadji — 1971–Living
-- [ ] Noureddine Naybet — 1970–Living
-- [ ] Marouane Chamakh — 1984–Living
+- [x] Chokri El Ouaer — 1966–Living
+- [x] Badou Zaki — 1959–Living
+- [x] Mustapha Hadji — 1971–Living
+- [x] Noureddine Naybet — 1970–Living
+- [x] Marouane Chamakh — 1984–Living
 - [ ] Medhi Benatia — 1987–Living
 - [ ] Mbark Boussoufa — 1984–Living
 - [ ] Hassan El Fakiri — 1977–Living

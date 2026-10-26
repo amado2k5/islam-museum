@@ -1,0 +1,36 @@
+id: person/noureddine-naybet
+class: person
+label: { ar: "نور الدين النيبت", en: "Noureddine Naybet", ur: "نورالدین النیبیت" }
+names:
+  - { value: "نور الدين النيبت", kind: full }
+  - { value: "Noureddine Naybet", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم مغربي سابق (وُلد سنة 1970 في الدار البيضاء)، مدافع أوسط فاز بالدوري والكأس في إسبانيا مع ديبورتيفو لا كورونيا، وفاز بكأس أفريقيا للأندية البطلة 1992 مع الوداد البيضاوي، وخاض 115 مباراة دولية مع منتخب المغرب."
+  en: "Moroccan former footballer (born 1970 in Casablanca), a centre-back who won the Spanish league and cup with Deportivo La Coruña, won the 1992 African Cup of Champions Clubs with Wydad Casablanca, and earned 115 caps for Morocco."
+  ur: "مراکشی سابق فٹبالر (پیدائش 1970، کاسابلانکا)، سینٹر بیک جنہوں نے دیپورتیوو لا کورونیا کے ساتھ اسپین کی لیگ اور کپ جیتا، وداد کاسابلانکا کے ساتھ 1992 کا افریقی کپ آف چیمپئنز کلبز جیتا، اور مراکش کے لیے 115 بین الاقوامی میچ کھیلے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1970-02-10"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and French articles give 10 February 1970, born in Casablanca, Morocco. Wikidata (Q137899) carries two birth-date values: 10 February 1970 at preferred rank, which is followed, and a stray normal-rank value of 13 November 1970, preserved here. No museum place entity exists for Casablanca, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1389 is derived from the Gregorian date."
+  sources: [source/wikipedia-noureddine-naybet-en, source/wikipedia-noureddine-naybet-ar, source/wikipedia-noureddine-naybet-fr, source/wikidata-noureddine-naybet]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata (Q137899) gives only generic Islam as Naybet's religion — one structured-data value, which never suffices. The English article files him under the category 'Moroccan Muslims' and the Arabic article under the corresponding Arabic category; category filings never attest. The Arabic article's infobox carries a religion field and leaves it empty, and no article text names a school or affiliation for him personally. The value is therefore unknown."
+    sources: [source/wikipedia-noureddine-naybet-en, source/wikipedia-noureddine-naybet-ar, source/wikidata-noureddine-naybet]
+external_ids: { wikidata: "Q137899" }
+sources: [source/wikipedia-noureddine-naybet-en, source/wikipedia-noureddine-naybet-ar, source/wikipedia-noureddine-naybet-fr, source/wikidata-noureddine-naybet]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382011844 of 26 October 2026), Arabic Wikipedia (revision 76193334 of 13 August 2026), French Wikipedia (revision 239301964 of 7 September 2026) and Wikidata Q137899, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Naybet existed in data/person/ (no hit under 'naybet'), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Casablanca, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
