@@ -1,3 +1,10 @@
+---
+id: concept/al-mara-wal-ittifaqiyat-al-dawliyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # The Arab woman and the international conventions
 
 ## The episode and the votes
