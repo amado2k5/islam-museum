@@ -22,3 +22,12 @@ When the Prophet appointed [[person/farwa-ibn-musayk|Farwa ibn Musayk]] over Mur
 
 ## In the delegation of Thaqif
 He walked between the delegation and the Prophet, and he wrote their document with his own hand. They would not eat any food that came to them from the Prophet until Khalid had eaten from it {cite:ibn-hisham-saqqa 4/184}. The document given to Thaqif was written by the Prophet's command: its thorn trees at Wajj and its game are not to be cut {cite:ibn-hisham-saqqa 4/187}. See [[event/delegation-of-thaqif|the delegation of Thaqif]].
+
+## For Sprouts
+Khalid ibn Sa'id ibn al-As was a Companion of Banu Abd Shams who emigrated to Abyssinia with his wife and two sons, returning on the two ships, and fell at Marj al-Saffar in Abu Bakr's caliphate.
+
+## For Explorers
+Khalid ibn Sa'id ibn al-As, a Companion of Banu Abd Shams. Ibn Ishaq counts him among those the Negus carried on the two ships, with his wife Umayma bint Khallaf — or Humayna in one telling — and his sons Sa'id and Umma, born in Abyssinia. When the Prophet appointed Farwa ibn Musayk over Murad, Zubayd and Madhhij, he sent Khalid with him for the sadaqa, and he stayed with him in his land until the Prophet died. He fell at Marj al-Saffar in Syria in Abu Bakr's caliphate; his father Sa'id ibn al-As perished at al-Zariba near Taif, and his brother Aban ibn Sa'id addressed Khalid and Umar in verse when they entered Islam, Khalid answering in verse.
+
+## For Scholars
+Khalid ibn Sa'id ibn al-As, a Companion of Banu Abd Shams. Ibn Ishaq counts him among the Banu Abd Shams whom the Negus carried on the two ships, with his wife Umayma bint Khallaf — Ibn Hisham noting 'it is also said: Humayna bint Khallaf' — and his sons Sa'id and Umma, born in the land of Abyssinia. When the Prophet appointed Farwa ibn Musayk over Murad, Zubayd and Madhhij he sent Khalid ibn Sa'id with him for the sadaqa, and he remained with him in his land until the Prophet died. He fell at Marj al-Saffar in the land of Syria in Abu Bakr's caliphate; his father Sa'id ibn al-As perished at al-Zariba on the Taif side, and his brother Aban ibn Sa'id addressed Khalid and Umar in verse when they entered Islam, and Khalid answered him in verse.

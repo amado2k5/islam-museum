@@ -13,3 +13,8 @@ coordinate_note: "Agrees with GeoNames within 0.4 km."
 external_ids: { geonames: "107968" }
 sources: [source/geonames-gazetteer, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

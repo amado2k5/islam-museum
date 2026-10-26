@@ -62,15 +62,19 @@ export function buildSchedule(pool: PoolEvent[]): Schedule {
       const e = at(k);
       const correct = century(e.year);
       const options = [correct];
-      // Three distractors: the centuries of other pool events at fixed hash-ordered offsets; each must be new.
-      for (let j = 1; options.length < CHOICES; j++) {
-        if (j > N) throw new Error(`no ${CHOICES} distinct centuries for ${e.id}`);
-        // The hash stride alone can revisit a handful of residues (e.g. when N is a multiple
-        // of it); after those, fall back to a linear walk so every pool position is scanned.
-        const step = j <= 8 ? j * 37 + 1 : j - 7;
+      // Three distractors: the centuries of other pool events at fixed offsets; each must be new.
+      // The hash stride alone can revisit a handful of residues (when N is a multiple of it), so the
+      // offset list opens with the hashed strides then falls back to a linear walk that scans every
+      // pool position — deterministic, and it always reaches a distinct century when one exists.
+      const offsets: number[] = [];
+      for (let t = 1; t <= 8; t++) offsets.push(t * 37 + 1);
+      for (let t = 1; t < N; t++) if (!offsets.includes(t)) offsets.push(t);
+      for (const step of offsets) {
+        if (options.length >= CHOICES) break;
         const c = century(at(k + step).year);
         if (!options.includes(c)) options.push(c);
       }
+      if (options.length < CHOICES) throw new Error(`no ${CHOICES} distinct centuries for ${e.id}`);
       // Present the four choices in hash order of (id, century), so the correct answer is not always in one place.
       const choices = options.sort((a, b) => fnv1a(`${e.id}:${a}`) - fnv1a(`${e.id}:${b}`));
       rounds.push({ id: e.id, label: e.label, year: e.year, century: correct, choices });

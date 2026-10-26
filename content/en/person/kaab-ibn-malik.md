@@ -18,3 +18,12 @@ In his account he mentions that he witnessed Aqaba with the Prophet when they pl
 
 ## For young visitors
 The Prophet's truthful poet, of Medina's people; he defended the truth with his fine verse and eloquent tongue, and witnessed with the Prophet the greatest stands.
+
+## For Sprouts
+Ka'b ibn Malik was one of the Prophet's three poets and a knight of the Ansar from Banu Salama of the Khazraj. He witnessed the second Aqaba pledge and defended Islam with his poems at Hunayn and the siege of Taif, and he was one of the three whose repentance was deferred after Tabuk.
+
+## For Explorers
+Ka'b ibn Malik of Banu Salama of the Khazraj, one of the Prophet's three poets and a knight of the Ansar; he witnessed the second Aqaba pledge and the battles, and defended Islam with his poems at Hunayn and the siege of Taif — at Hunayn he spoke his famous ode describing the Muslims' heroism and the rout of the polytheist hordes. He stayed back from Tabuk 'without doubt or hypocrisy' in Ibn Ishaq's phrase, becoming one of the three left behind with Murara ibn al-Rabi' and Hilal ibn Umayya; he told the story himself: his delayed preparations, his truthfulness to the Prophet, the fifty-night boycott, then his repentance accepted and his vow of truthfulness.
+
+## For Scholars
+Ka'b ibn Malik of Banu Salama of the Khazraj, one of the Messenger's three poets and a knight of the Ansar; he witnessed the second Aqaba pledge and the battles and defended Islam with his poems at Hunayn and the siege of Taif — at Hunayn he spoke his famous ode opening 'She said: will you not weep for her brother', describing the Muslims' heroism, the rout of the polytheist hordes, the falling of Taif's forts and the defiance of Thaqif. He stayed back from Tabuk 'without doubt or hypocrisy' in Ibn Ishaq's phrase, becoming one of the three left behind with Murara ibn al-Rabi' and Hilal ibn Umayya; he told the story himself through Ibn Ishaq's chain from al-Zuhri: his delayed preparations, his truthfulness to the Prophet, the fifty-night boycott, then his repentance accepted and his vow of truthfulness. He noted in his account that he witnessed Aqaba when they covenanted on Islam and that before Tabuk only Badr had he missed.

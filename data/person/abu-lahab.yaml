@@ -40,3 +40,8 @@ provenance:
   source: "Original entry: the sources listed in sources (Ibn Sa'd, Ibn Ishaq, al-Mubarakpuri, others); lecture addition: Sheikh Omar Abdelkafy, Tafsir al-Quran al-Qareem, episode 6"
   generated_by: "Devin; 2026-10-11 (original entry); Claude Sonnet (subagent), run omar-tafsir-bundle-6 (lecture section)"
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
