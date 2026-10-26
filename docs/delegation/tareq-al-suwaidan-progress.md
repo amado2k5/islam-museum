@@ -55,7 +55,8 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep28 | 0:26:11 | al-ghazali-abu-hamid ext ×3 (pt 1) | — | — | — | person ext + sources | ~28 cited windows | 4dfceab68 (PR #2134) |
 | al-mubdioune/ep29 | 0:25:55 | al-ghazali-abu-hamid ext ×3 (pt 2) | — | — | — | person ext | ~26 cited windows | d2bde39d6 (PR #2139) |
 | al-wassitiya/ep01 | 1:21:33 | islamufubiya NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | 14c78afbf (PR #2148) |
-| al-wassitiya/ep02 | 1:08:10 | al-khitab-al-islami NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | pending |
+| al-wassitiya/ep02 | 1:08:10 | al-khitab-al-islami NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | ec8d1a9e8 (PR #2156) |
+| al-wassitiya/ep03 | 1:18:00 | al-dimuqratiyya-wal-sharia NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -80,6 +81,7 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-03` — al-wassitiya ep03 (democracy-vs-sharia: NEW concept/al-dimuqratiyya-wal-sharia with 3 perspectives + tariq ext; polls 16/42/42 conflict, 40/60 islamist success; Tamimi procedural-vs-philosophical, Bayati adopt-vs-engage).
 - `devin-tareq-al-suwaidan-wassitiya-02` — al-wassitiya ep02 (Islamic discourse mature/reactive: NEW concept/al-khitab-al-islami with 3 perspectives + tariq ext; 4 polls 51/49, 67/33 content, 51/49 internal, 76/24 two-discourses; Jurshi's 4 defects, Rashdan's optimism, mosque/official discourse critique).
 - `devin-tareq-al-suwaidan-wassitiya-01` — al-wassitiya ep01 (الوسطية panel show! ep01=Islamophobia: NEW concept/islamufubiya with 3 panel perspectives + tariq ext; votes 51% real / 55% jewish-fingers surprise / 57% arab-media-improving; Runnymede origin, Crusade-committee quote, US stats 2%/10%/25%).
 - `devin-tareq-al-suwaidan-mubdioune-29` — al-mubdioune ep29 (al-ghazali pt2: Munqidh-style crisis narrative, tongue bound, 11-year seclusion, Nizamiyya return under Fakhr al-Mulk, Tus khanqah, Fada'ih al-Batiniyya 487 AH commission, the doubt-method to certain knowledge). SERIES COMPLETE 29/29.
