@@ -1,0 +1,36 @@
+id: person/lakhdar-belloumi
+class: person
+label: { ar: "لخضر بلومي", en: "Lakhdar Belloumi", ur: "لخضر بلومی" }
+names:
+  - { value: "Lakhdar Belloumi", kind: full }
+  - { value: "لخضر بلومي", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم جزائري معتزل، وُلد في معسكر سنة 1958، ويُعد على نطاق واسع أعظم لاعب جزائري في التاريخ. لاعب وسط مهاجم قضى معظم مسيرته مع غالي معسكر ومولودية وهران، وسجل هدف فوز الجزائر الشهير على ألمانيا الغربية في كأس العالم 1982، وشارك في كأسي العالم 1982 و1986 وأولمبياد 1980."
+  en: "Algerian retired footballer, born in Mascara in 1958, widely considered the greatest Algerian player of all time. An attacking midfielder who spent most of his career at GC Mascara and MC Oran, he scored the winning goal in Algeria's famous 2–1 victory over West Germany at the 1982 World Cup, and played at the 1982 and 1986 World Cups and the 1980 Olympics."
+  ur: "الجزائری ریٹائرڈ فٹبالر، 1958 میں معسکر میں پیدا ہوئے اور عموماً الجزائر کے عظیم ترین کھلاڑی سمجھے جاتے ہیں۔ حملہ آور مڈفیلڈر جنہوں نے زیادہ تر کیریئر غالی معسکر اور مولودیہ وہران میں گزارا؛ 1982 ورلڈ کپ میں مغربی جرمنی کے خلاف الجزائر کی مشہور 2–1 فتح کا جیتنے والا گول انہی کا تھا، اور انہوں نے 1982 و 1986 ورلڈ کپ اور 1980 اولمپکس میں شرکت کی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1958-12-29"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 29 December 1958 in Mascara, Algeria, as given by the English Wikipedia article's infobox, the Arabic article and Wikidata Q176426, which all agree. No place entity for Mascara exists in data/place/, so no born_in edge is written. The Hijri year (1378) is derived by tabular conversion."
+  sources: [source/wikipedia-lakhdar-belloumi-en, source/wikipedia-lakhdar-belloumi-ar, source/wikidata-lakhdar-belloumi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read for this record names a school or madhhab for Belloumi himself, and none states any religion for him at all. Neither the English nor the Arabic Wikipedia article makes any statement of his religion in its text or categories — the word for Muslim does not occur in the Arabic article — and Wikidata Q176426 carries no religion value at all. Nationality and Algeria's milieu may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
+    sources: [source/wikipedia-lakhdar-belloumi-en, source/wikipedia-lakhdar-belloumi-ar, source/wikidata-lakhdar-belloumi]
+external_ids: { wikidata: "Q176426" }
+sources: [source/wikipedia-lakhdar-belloumi-en, source/wikipedia-lakhdar-belloumi-ar, source/wikidata-lakhdar-belloumi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Lakhdar Belloumi' (revision 1376009842 of 21 September 2026), Arabic Wikipedia «لخضر بلومي» (revision 76082084 of 3 August 2026) and Wikidata Q176426, read on 26 October 2026; each article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No relation edge is written: Belloumi's birthplace, Mascara, has no entity in data/place/. No earlier record for him existed in data/person/ under belloumi or any other spelling checked (fragment and QID searches both negative); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-43
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

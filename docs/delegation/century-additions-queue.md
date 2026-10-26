@@ -261,11 +261,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Essam El Hadary — 1973–Living
 - [x] Wael Gomaa — 1975–Living
 - [x] Mahmoud El Khatib (Bibo) — 1954–Living
-- [ ] Hassan Shehata — 1947–Living
-- [ ] Rabah Madjer — 1958–Living
-- [ ] Lakhdar Belloumi — 1958–Living
-- [ ] Lassana Diarra — 1985–Living
-- [ ] Nicolas Anelka — 1979–Living
+- [x] Hassan Shehata — 1947–Living
+- [x] Rabah Madjer — 1958–Living
+- [x] Lakhdar Belloumi — 1958–Living
+- [x] Lassana Diarra — 1985–Living
+- [x] Nicolas Anelka — 1979–Living
 - [ ] Eric Abidal — 1979–Living
 - [ ] Franck Ribéry — 1983–Living
 - [ ] Demba Ba — 1985–Living
