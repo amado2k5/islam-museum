@@ -14,6 +14,9 @@ translators: []
 والرأي السائد الذي ينقله: أن يُغيَّر كل شيء دفعة واحدة لا محوراً محوراً، لأن أجزاء العمل مترابطة؛ وأن التغيير الكبير المفاجئ أكثر فعالية من المتدرج لأن ثلثي عمليات التغيير تفشل بالمقاومة الداخلية، والتدرج يمنحها فرصة تنظيم صفوفها (needs_source: الرقم كما أورده) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:23:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:25:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:26:00}.
 وأي خطأ رئيسي في خطوة من خطوات التغيير قد يدمر العملية كلها، لذا تُخطَّط بعمق {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:27:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:31:00}.
 
+## أسئلة المستشارين الثمانية
+في تشخيص منظمة قبل التغيير يعطي السويدان الأسئلة الثمانية التي يطرحها المستشارون — مقابلة خمسة عشر إلى خمسة وعشرين شخصاً من القيادات لا الموظفين: ما أهم المشاكل التي تواجهكم؟ من السبب فيها؟ من أطرافها؟ لماذا بدأت؟ ما اقتراحاتكم للحل؟ كيف يمكن أن تتطوروا زيادة على حل المشاكل؟ ما أهم الخدمات أو المنتجات التي يمكن أن تضيفوها؟ وماذا يمكن أن تتعلموا من منافسيكم؟ — ويقول إن علم الاستشارة في كيفية السؤال وتوقيته وإعادة صياغته {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 00:02:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 00:04:30}.
+
 ## مقاومة المقاومة
 تُعلَّن النتائج المبكرة ولو كانت صغيرة، فالنجاح المعلن — ولو اثنان في المئة — يقطع على المقاومة حجتها {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:35:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:36:00}.
 والتغيير ليس هدفاً بذاته بغضّ النظر عن التكلفة؛ فإن لم يحقق في النهاية إنتاجية وأثراً وأرباحاً أوضح فلا فائدة منه {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:38:00}.
