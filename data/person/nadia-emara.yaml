@@ -1,0 +1,27 @@
+id: person/nadia-emara
+class: person
+label: { ar: "نادية عمارة", en: "Nadia Emara", ur: "نادیہ عمارہ" }
+names:
+  - { value: "نادية عمارة", kind: full }
+  - { value: "Nadia Emara", kind: full }
+gender: female
+summary:
+  ar: "داعية إسلامية مصرية وخبيرة في فقه النساء ومقدمة برامج تلفزيونية؛ حاصلة على الدكتوراه في التفسير القرآني من كلية الآداب بجامعة الإسكندرية، تتلمذت على محمد متولي الشعراوي وياسين رشدي."
+  en: "Egyptian Islamic preacher, specialist in women's fiqh and television presenter; she holds a doctorate in Qur'anic exegesis from the Faculty of Arts, Alexandria University, studied under Muhammad Metwalli al-Sha'rawi and Yasin Rushdi, and became known presenting Qulub 'Amira on Al-Hayah TV."
+  ur: "مصری مبلغہ، فقہِ نسواں کی ماہر اور ٹیلی ویژن میزبان؛ جامعہ اسکندریہ کے کلیہ الآداب سے تفسیرِ قرآن میں ڈاکٹریٹ یافتہ، محمد متولی الشعراوی اور یاسین رشدی کی شاگرد، اور الحیاۃ ٹی وی کے پروگرام «قلوب عامرہ» کی میزبانی سے معروف ہوئیں۔"
+roles: [preacher, presenter]
+wings: [people, living]
+relations:
+  - { type: student_of, target: person/muhammad-mutawalli-al-shaarawi, sources: [source/wikipedia-nadia-emara-ar, source/mawdoo3-nadia-emara] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Arabic Wikipedia's infobox gives her religion only as Muslim. The Egyptian Arabic (arz) edition's infobox gives Ahl al-Sunna wa'l-Jama'a — a broad affiliation that names no school — and arz is a derived edition of the same article family, so it is not a second independent source; Mawdoo3's biography names no school, and the schools of her teachers are not hers. A single infobox family never counts (the al-Shathri precedent, batch 28). Not recorded as sunni."
+    sources: [source/wikipedia-nadia-emara-ar, source/mawdoo3-nadia-emara]
+sources: [source/wikipedia-nadia-emara-ar, source/mawdoo3-nadia-emara, source/goodreads-nadia-emara]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia's article on her (revision consulted 26 October 2026), the Mawdoo3 biography (whose text menaviral.com repeats verbatim — one family) and her Goodreads author page, all checked 26 October 2026. No trusted source publishes a birth date: the arz edition's claim of 1 January 2000 is impossible for a woman who graduated in 1998 and is recorded nowhere. The relation records that Nadia Emara (subject) studied under Muhammad Metwalli al-Sha'rawi (target); the edge is written once, here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-30
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
