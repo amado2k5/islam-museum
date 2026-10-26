@@ -19,3 +19,12 @@ Umar's treaty with Taghlib, with a reduced alms tax, is covered in this entry's 
 
 ## For young visitors
 Taghlib were a tribe who lived in the north of Iraq on the Euphrates, and most of them were Christian before Islam.
+
+## For Sprouts
+Taghlib, a tribe of Rabi'a ibn Nizar that settled the Euphrates Jazira, mostly Christian before Islam.
+
+## For Explorers
+Taghlib, one of Wa'il's two sons with Bakr, of Rabi'a ibn Nizar; it settled the Euphrates Jazira, with clans that neighbored Bakr. The Raheeq records that Christianity was embraced among the Arabs by the Ghassanids and the tribes of Taghlib, Tayy and others for living beside the Romans. The author takes the wars of Bakr and Taghlib as his example that rivalry in honor and supremacy often ended in wars between tribes sharing one father.
+
+## For Scholars
+Taghlib, one of Wa'il's two sons with Bakr, of Rabi'a ibn Nizar; it settled the Euphrates Jazira, with clans that neighbored Bakr. The Raheeq records that Christianity was embraced among the Arabs by the Ghassanids and the tribes of Taghlib, Tayy and others for living beside the Romans. The author takes the wars of Bakr and Taghlib as his example that rivalry in honor and supremacy often ended in wars between tribes sharing one father. And Umar's settlement with Taghlib at double the alms is in this entry's records of the conquests.
