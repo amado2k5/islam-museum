@@ -1,0 +1,26 @@
+id: person/abdullah-al-shanqeeti
+class: person
+label: { ar: "عبد الله بن محمد الأمين الشنقيطي", en: "Abdullah ibn Muhammad al-Amin al-Shanqiti" }
+summary:
+  ar: "عالم تفسير سعودي من أصل موريتاني، ابن الشيخ محمد الأمين الشنقيطي صاحب «أضواء البيان»؛ تولى رئاسة قسم التفسير بالجامعة الإسلامية بالمدينة المنورة، وله دروس في التفسير يتداولها طلابه."
+  en: "A Saudi scholar of tafsir of Mauritanian origin, son of Muhammad al-Amin al-Shinqiti, author of 'Adwa al-Bayan'. He headed the Department of Tafsir at the Islamic University of Madinah, and students circulate notes of his tafsir lessons."
+names:
+  - { value: "عبد الله بن محمد الأمين الشنقيطي", kind: full }
+  - { value: "Abdullah ibn Muhammad al-Amin al-Shanqiti", kind: latinized }
+  - { value: "عبد الله الشنقيطي", kind: alternate }
+  - { value: "Abdullah Al-Shanqeeti", kind: alternate }
+roles: [scholar]
+regions: [arabia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school of law for him. Al-Daleel Online's biography of his father presents him only as the shaykh's son and a narrator from him; the mirrored biography of Muhammad Husayn Yaqub lists him as a teacher and head of the Tafsir Department at the Islamic University of Madinah; a student's notes record his tafsir lessons. His father's school is family background and never counts, and holding a university chair never counts."
+    sources: [source/aldaleelonline-muhammad-al-amin-al-shinqiti, source/univanet-yaqub-biography, source/alukah-abdullah-al-shanqeeti-luqman]
+relations:
+  - type: child_of
+    target: person/muhammad-al-amin-al-shinqiti
+    sources: [source/aldaleelonline-muhammad-al-amin-al-shinqiti]
+sources: [source/aldaleelonline-muhammad-al-amin-al-shinqiti, source/univanet-yaqub-biography, source/alukah-abdullah-al-shanqeeti-luqman]
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+provenance: { layer: own-research, source: "§3 row 85 of muse_ai_handoff.md (Abdullah Al-Shanqeeti, عبد الله الشنقيطي); the row itself records 'searched, no matching channel' and no channel of his was pinned, so the record is pinned by biography: Al-Daleel Online's biography of his father Muhammad al-Amin al-Shinqiti quoting his son Abdullah; the mirrored biography of Muhammad Husayn Yaqub listing Abdullah among his teachers as head of the Tafsir Department at the Islamic University of Madinah; a student's notes of his tafsir of Surat Luqman at Alukah Majlis. He is not the Saudi judge Muhammad Abdullah ibn Muhammad al-Amin al-Shanqiti, a different man with an Arabic Wikipedia article. No consulted source publishes a birth date for him, so no born block is recorded", generated_by: "Muse (Muse Spark 1.3)", run: modern-figures-batch-78 }
