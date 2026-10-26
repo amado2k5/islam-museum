@@ -1,0 +1,50 @@
+id: person/fatma-nsoumer
+class: person
+label: { ar: "لالة فاطمة نسومر", en: "Lalla Fatma N'Soumer", ur: "فاطمہ نسومر" }
+names:
+  - { value: "Fadhma Si Ahmed Ou Méziane", kind: full }
+  - { value: "لالة فاطمة نسومر", kind: full }
+  - { value: "Lalla Fatma N'Soumer", kind: full }
+  - { value: "Lalla N'Ouerdja", kind: alternate }
+  - { value: "Faḍma n Sumer", kind: alternate }
+gender: female
+summary:
+  ar: "قائدة مقاومة قبائلية جزائرية (نحو 1830–1863)؛ من ورجة ببلاد القبائل، قادت مع الشريف بوبغلة مقاومة الغزو الفرنسي في جرجرة، وأُسرت في 11 يوليو 1857 فسُجنت في زاوية العيساوية ببني سليمان حتى وفاتها."
+  en: "Algerian Kabyle resistance leader (c. 1830–1863). From Ouerdja in Kabylie, she led, alongside Cherif Boubaghla, the resistance to the French conquest in the Djurdjura; captured on 11 July 1857, she was imprisoned in the El-Aissaouia zawiya at Beni Slimane until her death."
+  ur: "جزائری قبائلی مزاحمتی رہنما (تقریباً 1830–1863)؛ ورجہ، قبائلیہ کی رہنے والی، انہوں نے شریف بوبغلة کے ساتھ جرجرة میں فرانسیسی قبضے کی مزاحمت کی قیادت کی؛ 11 جولائی 1857 کو گرفتار ہوئیں اور بنی سلیمان کی زاویہ عیساویہ میں وفات تک قید رہیں۔"
+roles: [activist]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1830~"
+  hijri: "1246"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born about 1830 at Ouerdja (Werja), in the commune of Abi Youcef near Aïn El Hammam in Kabylie; the articles agree on the circa year and the Arabic article gives about 1246 AH. Wikidata's precise 10 July 1830 is not supported by any article text and is not followed. No place entity exists for the birthplace, so no born_in edge is written."
+  sources: [source/wikipedia-fatma-nsoumer-en, source/wikipedia-fatma-nsoumer-fr, source/wikipedia-fatma-nsoumer-ar]
+died:
+  edtf: "1863-09"
+  hijri: "1280"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "The Arabic article gives September 1863, at Beni Slimane, where she had been held in the El-Aissaouia zawiya after her capture on 11 July 1857. The English article gives the year 1863 and names Tablat — the town some 15 km from Beni Slimane, per the Arabic article — as her place of death in its infobox. Neither Beni Slimane nor Tablat has a place entity, so no died_in edge is written. She was first buried near Beni Slimane; her remains were transferred in 1995 to the El Alia Cemetery in Algiers (Arabic article)."
+  sources: [source/wikipedia-fatma-nsoumer-ar, source/wikipedia-fatma-nsoumer-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The French article's biographical section states of her personally that she belonged to the Rahmaniyya confrérie and was considered a Berber prophetess, a guide of a Sufi tariqa, citing Émile Carrey's Récits de Kabylie (1858). That is one personal attestation in one article's text. The Arabic article gives formation, not membership: her religious and social upbringing was in the Rahmaniyya way, her grandfather was a Rahmaniyya muqaddam, and her brother was muqaddam of the Rahmaniyya zawiya where she studied. The English article likewise gives only her father's madrasa attached to a Rahmaniyya zawiya — family and schooling, which never count. Wikidata carries no religion value. With a single personal attestation, and under the doubt rule, sufi is not recorded; the French reading is preserved here in full."
+    sources: [source/wikipedia-fatma-nsoumer-fr, source/wikipedia-fatma-nsoumer-ar, source/wikipedia-fatma-nsoumer-en, source/wikidata-fatma-nsoumer]
+relations:
+  - { type: buried_in, target: place/algiers, sources: [source/wikipedia-fatma-nsoumer-ar] }
+external_ids: { wikidata: "Q2636619" }
+sources: [source/wikipedia-fatma-nsoumer-fr, source/wikipedia-fatma-nsoumer-ar, source/wikipedia-fatma-nsoumer-en, source/wikipedia-fatma-nsoumer-ur, source/wikidata-fatma-nsoumer]
+provenance:
+  layer: own-research
+  source: "English, French, Arabic and Urdu Wikipedia articles on Lalla Fatma N'Soumer, each fetched by its recorded revision id (EN 1377224839, FR 239875114, AR 76786452, UR 6810687) with the returned id asserted equal before use, and Wikidata item Q2636619 (revision 2551937671). Existence checks by name fragments (N'Soumer, Nsoumer, نسومر, فاطمة نسومر) and by QID across data/person and data/source found no prior record. The lane queue gives 1830–1863, which the sources confirm as circa dates."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
