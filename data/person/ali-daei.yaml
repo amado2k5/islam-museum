@@ -1,0 +1,35 @@
+id: person/ali-daei
+class: person
+label:
+  ar: "علي دائي"
+  en: "Ali Daei"
+  ur: "علی دایی"
+summary:
+  ar: "لاعب كرة قدم إيراني سابق ومدرب (وُلد سنة 1969 في أردبيل). مهاجم وقائد للمنتخب الإيراني سجّل 108 أهداف دولية، وهو رقم قياسي عالمي احتفظ به حتى سنة 2021، وأول رجل يبلغ مائة هدف دولي؛ لعب لبرسيبوليس وبايرن ميونخ وهيرتا برلين، وصار أول آسيوي يلعب ويسجل في دوري أبطال أوروبا، ثم درّب المنتخب الإيراني وأندية عدة."
+  en: "Iranian former footballer and manager (born 1969 in Ardabil). A striker who captained Iran and scored 108 international goals — a world record he held until 2021 and the first man to reach a hundred — he played for Persepolis, Bayern Munich and Hertha Berlin, becoming the first Asian to play and score in the UEFA Champions League, and later managed the Iranian national team and several clubs."
+  ur: "ایرانی سابق فٹبالر اور مینیجر (پیدائش 1969، اردبیل)۔ اسٹرائیکر جنہوں نے ایران کی کپتانی کی اور 108 بین الاقوامی گول کیے — عالمی ریکارڈ جو 2021 تک ان کے پاس رہا اور سو گول کرنے والے پہلے کھلاڑی — پرسپولیس، بائرن میونخ اور ہرتھا برلن کے لیے کھیلے، یوئیفا چیمپیئنز لیگ کھیلنے اور گول کرنے والے پہلے ایشیائی بنے، اور بعد میں ایران کی قومی ٹیم اور کئی کلبوں کی کوچنگ کی۔"
+names:
+  - { value: "Ali Daei", kind: full }
+  - { value: "علي دائي", kind: full }
+born:
+  edtf: "1969-03-21"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles both give 21 March 1969, born in Ardabil, Iran; a born_in edge to the existing place entity for Ardabil is written below. Hijri year 1389 derived from the Gregorian date."
+  sources: [source/wikipedia-ali-daei-en, source/wikipedia-ali-daei-ar]
+gender: male
+roles: [athlete]
+relations:
+  - { type: born_in, target: place/ardabil, sources: [source/wikipedia-ali-daei-en, source/wikipedia-ali-daei-ar] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the SHIA-MAPPING RULE, with the mapping stated. Two independent source families attest 'Shia' for Daei personally. (1) The English article's text tradition: its Religion section states in the article's own voice, 'Daei is a follower of Shia Islam', citing The Irish Times of 7 November 2001 for the accompanying account of his refusing, while at Bayern Munich, to hold a glass of beer for an Erdinger advertisement because alcohol is forbidden in his religion; the refusal itself is practice and is not used as evidence — the article's own-voice statement is. (2) The infobox tradition: the Arabic article's infobox gives his religion for him personally as al-Shi'a (الشيعة); the same value, carried from Wikidata, appears in the Hebrew and Catalan infoboxes and is counted as that one family, not as further sources. MAPPING: neither family names a branch, but the branch-supporting context is Twelver throughout — Daei is an Iranian from Ardabil, Iran's Shia mainstream is Twelver, and no source suggests an Ismaili or Zaydi affiliation — so the value is recorded shia-twelver. This is the same configuration as the Sattar Khan record (wave 36), on which this mapping was applied."
+    sources: [source/wikipedia-ali-daei-en, source/wikipedia-ali-daei-ar]
+wings: [people, living]
+sources: [source/wikipedia-ali-daei-en, source/wikipedia-ali-daei-ar]
+provenance: { layer: own-research, source: "English Wikipedia and Arabic Wikipedia articles, read in full on 26 October 2026; the reading route did not expose revision ids, so consultation dates are recorded in the source files in place of revisions (the wave-33 section A and Batch 40 precedent). No Wikidata item id could be grounded through the reading route available, so no wikidata source or external id is recorded even though the infobox tradition derives from Wikidata (the Hasim Rahman precedent); that derivation is stated in the faith note and the Arabic source's reliability note. No earlier record for him existed in data/person/ under ali-daei or any other spelling checked (fragment daei searched across data/ and content/); this is a new build, not an enrichment.", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-37" }
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

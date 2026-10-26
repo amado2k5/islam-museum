@@ -231,11 +231,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hakim Ziyech — 1993–Living
 - [x] Achraf Hakimi — 1998–Living
 - [x] Yassine Bounou (Bono) — 1991–Living
-- [ ] Sofyan Amrabat — 1996–Living
-- [ ] Walid Regragui — 1975–Living
-- [ ] Djamel Belmadi — 1976–Living
-- [ ] Ali Daei — 1969–Living
-- [ ] Mehdi Taremi — 1992–Living
+- [x] Sofyan Amrabat — 1996–Living
+- [x] Walid Regragui — 1975–Living
+- [x] Djamel Belmadi — 1976–Living
+- [x] Ali Daei — 1969–Living
+- [x] Mehdi Taremi — 1992–Living
 - [ ] Sardar Azmoun — 1995–Living
 - [ ] Hakan Çalhanoğlu — 1994–Living
 - [ ] Arda Güler — 2005–Living
