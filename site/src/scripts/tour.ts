@@ -1615,7 +1615,7 @@ function init(
       .replace("{label}", EXHIBITS[i].label)
       .replace("{n}", numFmt.format(i + 1))
       .replace("{total}", numFmt.format(EXHIBITS.length));
-  const curStop = (): Exhibit | null => nearEx ?? (stopIdx >= 0 ? EXHIBITS[stopIdx] : null);
+  const curStop = (): Exhibit | null => nearEx;
   function mapBox(): { x0: number; z0: number; w: number; h: number } {
     return player.scene === "gallery"
       ? { x0: -G_W / 2, z0: -G_D / 2, w: G_W, h: G_D }
