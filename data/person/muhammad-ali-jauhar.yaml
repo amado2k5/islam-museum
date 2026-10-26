@@ -1,0 +1,50 @@
+id: person/muhammad-ali-jauhar
+class: person
+label: { ar: "محمد علي جوهر", en: "Muhammad Ali Jauhar", ur: "محمد علی جوہر" }
+names:
+  - { value: "محمد علي جوهر", kind: full }
+  - { value: "Mohammad Ali Jauhar", kind: full }
+  - { value: "Muhammad Ali Jouhar", kind: alternate }
+  - { value: "Jauhar", kind: pen }
+gender: male
+summary:
+  ar: "سياسي وصحفي وشاعر هندي (1878–1931)، من مؤسسي العصبة الإسلامية لعموم الهند والجامعة الملية الإسلامية، ومن أبرز قادة حركة الخلافة. تعلم في عليكرة وكلية لينكولن بأكسفورد، وأسس أسبوعية «كومريد» الإنجليزية (1911) ويومية «همدرد» الأردية (1913)، وتولى رئاسة المؤتمر الوطني الهندي سنة 1923. سُجن مرارًا، آخرها بتهمة خطاب في مؤتمر الخلافة، ومثل العصبة في مؤتمر المائدة المستديرة الأول بلندن سنة 1930، وتوفي فيها ودُفن في القدس."
+  en: "Indian politician, journalist and poet (1878–1931), a co-founder of the All-India Muslim League and of Jamia Millia Islamia and a leading figure of the Khilafat movement. Educated at Aligarh and Lincoln College, Oxford, he launched the English weekly The Comrade (1911) and the Urdu daily Hamdard (1913), and was president of the Indian National Congress in 1923. Repeatedly imprisoned, lastly for a speech at the Khilafat Conference, he represented the League at the first Round Table Conference in London in 1930, died there, and was buried in Jerusalem."
+  ur: "ہندوستانی سیاست دان، صحافی اور شاعر (1878ء–1931ء)، آل انڈیا مسلم لیگ اور جامعہ ملیہ اسلامیہ کے بانیوں میں سے اور تحریک خلافت کے سرکردہ رہنما۔ علی گڑھ اور لنکن کالج، آکسفورڈ سے تعلیم پائی، انگریزی ہفت روزہ «کامریڈ» (1911ء) اور اردو روزنامہ «ہمدرد» (1913ء) جاری کیا، اور 1923ء میں انڈین نیشنل کانگریس کے صدر رہے۔ بارہا قید ہوئے، آخری بار خلافت کانفرنس کی تقریر پر، 1930ء میں لندن کی پہلی گول میز کانفرنس میں لیگ کی نمائندگی کی، وہیں انتقال ہوا اور بیت المقدس میں دفن ہوئے۔"
+roles: [politician, activist, writer, poet]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1878-12-10"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from the English and Arabic articles and Wikidata; the Hijri year is a conversion, marked derived. He was born at Rampur; no place entity exists for Rampur, so no born_in edge is written."
+  sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ar, source/wikidata-muhammad-ali-jauhar]
+died:
+  edtf: "1931-01-04"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from all three articles and Wikidata; the Hijri year is a conversion, marked derived. He died of a stroke in London; no place entity exists for London, so no died_in edge is written. His burial in Jerusalem is written as an edge below."
+  sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ur, source/wikidata-muhammad-ali-jauhar]
+relations:
+  - { type: sibling_of, target: person/shaukat-ali, sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-shaukat-ali-en] }
+  - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration: the articles' texts attest the man as a Muslim — the English article presents an Indian Muslim activist whose life was the Khilafat cause, the Arabic article calls him an Indian Muslim leader, journalist and poet, the Urdu article likewise, and both the English and Arabic infoboxes give his religion as Islam — but no source read names a legal school, order or branch for him, and Wikidata gives Islam only. His Khilafat and Muslim League leadership are political and never attest a school; the verses quoted in the Urdu article are poetry, not affiliation."
+    sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ar, source/wikipedia-muhammad-ali-jauhar-ur, source/wikidata-muhammad-ali-jauhar]
+external_ids: { wikidata: "Q3241714" }
+sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ar, source/wikipedia-muhammad-ali-jauhar-ur, source/wikidata-muhammad-ali-jauhar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Ali Jauhar' (revision 1379554233), Arabic Wikipedia 'محمد علي جوهر' (revision 68527802), Urdu Wikipedia 'محمد علی جوہر' (revision 11800679) and Wikidata item Q3241714 (item revision 2528537323), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (jauhar/jouhar, muhammad/mohammad ali), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; the corpus's many other Muhammad Alis are different men. The sibling edge to Shaukat Ali is written once, here in the younger brother's record, pointing at the elder."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
