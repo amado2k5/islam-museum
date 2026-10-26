@@ -1,0 +1,49 @@
+id: person/salim-al-bishri
+class: person
+label: { ar: "سليم البشري", en: "Salim al-Bishri", ur: "سلیم البشری" }
+names:
+  - { value: "سليم بن أبي فراج بن سليم بن أبي فراج البشري", kind: full }
+  - { value: "Salim al-Bishri", kind: full }
+  - { value: "Salīm al-Bishrī", kind: latinized }
+gender: male
+summary:
+  ar: "عالم أزهري مصري (1832–1917)؛ وُلد في محلة بشر بالبحيرة ودرس في الأزهر، وتولى مشيخة الأزهر مرتين (1899–1903 ومن 1909 حتى وفاته)، وكان من فقهاء المالكية ورئيس علمائهم في الأزهر، وله مؤلفات في النحو والتوحيد والأدب، وتوفي في القاهرة ودُفن في مدفن السادة المالكية بقرافة السيدة نفيسة."
+  en: "Egyptian Azhari scholar (1832–1917). Born at Mahallat Bishr in Beheira and educated at al-Azhar, he served twice as Shaykh al-Azhar (1899–1903 and 1909 until his death); he was a Maliki jurist and head of the Maliki scholars at al-Azhar, wrote on grammar, theology and literature, and died in Cairo, where he was buried in the Maliki cemetery in the Qarafa of Sayyida Nafisa."
+  ur: "مصری ازہری عالم (1832–1917)؛ بحیرہ کے گاؤں محلہ بشر میں پیدا ہوئے اور الازہر میں تعلیم پائی، دو بار شیخ الازہر بنے (1899–1903 اور 1909 سے وفات تک)؛ وہ مالکی فقیہ اور الازہر میں مالکی علما کے سربراہ تھے، نحو و عقائد و ادب پر کتابیں لکھیں، اور قاہرہ میں انتقال کر کے قرافہ سیدہ نفیسہ کے مالکی قبرستان میں دفن ہوئے۔"
+roles: [scholar, jurist, teacher]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1832"
+  hijri: "1248"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Mahallat Bishr (Shubrakhit, Beheira) in 1248 AH; the English article gives the Gregorian year 1832. The village has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-salim-al-bishri-ar, source/wikipedia-salim-al-bishri-en]
+died:
+  edtf: "1917"
+  hijri: "1335"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Died in Cairo in Dhu al-Hijja 1335 AH and was buried in the Maliki cemetery in the Qarafa of Sayyida Nafisa. That Hijri month falls in September–October 1917, and the Arabic article dates his second term as Shaykh al-Azhar 'to the year of his death, 1917'. The English article gives 1916 instead, and the lane queue follows it; the Arabic Hijri datum is the more specific evidence and is followed here, with the conflict disclosed."
+  sources: [source/wikipedia-salim-al-bishri-ar, source/wikipedia-salim-al-bishri-en]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-salim-al-bishri-ar, source/wikipedia-salim-al-bishri-en] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-salim-al-bishri-ar] }
+  - { type: student_of, target: person/al-bajuri-ibrahim-ibn-muhammad, sources: [source/wikipedia-salim-al-bishri-en] }
+faith:
+  - value: sunni-maliki
+    basis: documented
+    note: "Two independent texts name the affiliation for him personally. The English article calls him an 'Egyptian Sunni religious scholar' and 'a significant Maliki scholar' who headed the Maliki scholars at al-Azhar; the Arabic article independently calls him 'one of the Maliki jurists', and its infobox gives his creed as Ahl al-Sunna wa-l-Jama'a. The record rests on those texts, not on his office: holding the Azhar shaykhdom would not by itself attest a school."
+    sources: [source/wikipedia-salim-al-bishri-en, source/wikipedia-salim-al-bishri-ar]
+sources: [source/wikipedia-salim-al-bishri-en, source/wikipedia-salim-al-bishri-ar]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Salim al-Bishri, each read in full on the public site on 26 October 2026 (Wikipedia API unavailable; no revision ids recorded — see the source files)"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-55
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,47 @@
+id: person/marun-al-naqqash
+class: person
+label: { ar: "مارون النقاش", en: "Marun al-Naqqash", ur: "مارون النقاش" }
+names:
+  - { value: "مارون بن الياس بن ميخائيل النقاش", kind: full }
+  - { value: "Marun al-Naqqash", kind: full }
+  - { value: "Mārūn al-Naqqāsh", kind: latinized }
+gender: male
+summary:
+  ar: "تاجر وكاتب مسرحي لبناني (1817–1855)؛ وُلد في صيدا ونشأ في بيروت، وعمل رئيسًا لكُتّاب الجمارك وعضوًا في غرفة التجارة، وسافر إلى إيطاليا سنة 1846 فعاد ليقدّم «البخيل» المأخوذة عن موليير (نُشرت 1847 وعُرضت 1848)، وهي أول عرض مسرحي معروف بالعربية، ثم مسرحيتين أصليتين، وتوفي بالحمى في طرسوس سنة 1855."
+  en: "Lebanese merchant and playwright (1817–1855). Born at Sidon and raised in Beirut, he worked as chief clerk of the Beirut customs and sat on the city's chamber of commerce; a business journey to Italy in 1846 led him to stage Al-bakhil, his Arabic adaptation of Molière's Miser (published 1847, performed 1848) — the first known theatre performance in Arabic — followed by two original plays. He died of fever at Tarsus in 1855."
+  ur: "لبنانی تاجر اور ڈراما نگار (1817–1855)؛ صیدا میں پیدا ہوئے اور بیروت میں پلے بڑھے، کسٹمز کے چیف کلرک اور ایوان تجارت کے رکن رہے؛ 1846 میں اٹلی کے سفر کے بعد انہوں نے مولییر کے ڈرامے سے ماخوذ «البخیل» پیش کیا (شائع 1847، پیشکش 1848)، جو عربی زبان کی پہلی معروف تھیٹر پیشکش شمار ہوتی ہے، اور دو مزید ڈرامے لکھے؛ 1855 میں طرسوس میں بخار سے انتقال ہوا۔"
+roles: [writer, merchant]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1817-02-09"
+  hijri: "1232"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Sidon on 9 February 1817 (English article, citing Moosa 1972); the Arabic article gives the year and the place only. Sidon has no place entity, so no born_in edge is written. The Hijri year is derived from the Gregorian date."
+  sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar]
+died:
+  edtf: "1855-06-01"
+  hijri: "1271"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of fever at Tarsus on 1 June 1855, aged 38, while there on business; both articles agree on the day. The Hijri year is derived."
+  sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar]
+relations:
+  - { type: died_in, target: place/tarsus, sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — Christian-evidence configuration (ii): one personal text attestation. The English article's lead calls him personally a 'Sidon-born Maronite merchant', and its early-life section says he was born into a Maronite family, citing Moosa (1972). The Arabic article names no religion for him, but records his own act: pressed by the objections of conservatives and men of religion, he turned his theatre into a church shortly before his death. One independent text naming his affiliation personally, together with family framing and a religious act, is below the two-attestation bar at which christian/documented has been recorded in this lane (Yacoub Artin; Khalil Sakakini), so the value stays unknown and both readings are preserved here for the founder's ruling on the configuration."
+    sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar]
+sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Marun al-Naqqash, each read in full on the public site on 26 October 2026 (Wikipedia API unavailable; no revision ids recorded — see the source files)"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-55
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
