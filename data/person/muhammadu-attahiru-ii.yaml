@@ -1,0 +1,44 @@
+class: person
+id: person/muhammadu-attahiru-ii
+label:
+  ar: "محمد الطاهر الثاني"
+  en: "Muhammadu Attahiru II"
+  ur: "محمد الطاهر ثانی"
+summary:
+  ar: "السلطان الثالث عشر لخلافة صكتو في غرب أفريقيا، حكم من 1903 إلى 1915 بعد أن عيّنه البريطانيون إثر احتلالهم صكتو، فكان أول سلطان يحكم تحت السلطة الاستعمارية. وهو حفيد حفيد مؤسس الخلافة عثمان بن فودي، وابن السلطان الرابع علي بابا بن بلو."
+  en: "The thirteenth Sultan of the Sokoto Caliphate in West Africa, reigning from 1903 to 1915 after the British appointed him on their conquest of Sokoto; he was the first Sultan to rule under colonial authority. He was a great-grandson of the Caliphate's founder Usman dan Fodio and a son of the fourth Sultan, Ali Babba bin Bello."
+  ur: "مغربی افریقہ کی خلافت سوکوتو کے تیرہویں سلطان، جن کا دورِ حکومت 1903 سے 1915 تک رہا، جب انگریزوں نے سوکوتو کی فتح کے بعد انہیں مقرر کیا؛ وہ نوآبادیاتی اقتدار کے تحت حکومت کرنے والے پہلے سلطان تھے۔ وہ خلافت کے بانی عثمان بن فودیو کے پڑپوتے اور چوتھے سلطان علی بابا بن بیلو کے بیٹے تھے۔"
+names:
+  - { value: "Muhammadu Attahiru II", kind: full }
+  - { value: "محمد الطاهر الثاني", kind: full }
+  - { value: "Muhammad Attahiru II", kind: alternate }
+gender: male
+wings: [people]
+roles: [sultan]
+regions: [west-africa-sahel]
+died:
+  edtf: "1915"
+  hijri: "1333"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree that he died in 1915; the article's infobox places his death at Sokoto, and Wikidata's place-of-death value is Sokoto. No birth year is recorded in any source consulted: the English article files him under 'Year of birth missing' and Wikidata carries no birth-date value at all, so the queue line's 1870 is not carried, being grounded in no source read. The museum holds no place entity for Sokoto, so no died_in edge is written."
+  sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither source names a school, madhhab or branch for Attahiru II personally. The English article identifies him by descent — great-grandson of Usman dan Fodio and son of Ali Babba bin Bello, the fourth Sultan — and by his office as thirteenth Sultan; descent and office never attest a school. The article makes no statement of his religion in its text or infobox, and Wikidata carries no religion value for him. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
+relations:
+  - { type: ruler_of, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammadu-attahiru-ii-en] }
+  - { type: successor_of, target: person/muhammadu-attahiru-i, sources: [source/wikipedia-muhammadu-attahiru-ii-en] }
+sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
+external_ids:
+  wikidata: "Q6932917"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Muhammadu Attahiru II' (revision 1358816351 of 11 June 2026) and Wikidata item Q6932917 (item revision 2450688920 of 10 August 2025), each fetched by revision id and asserted, and read in full on 26 October 2026. Wikidata sitelinks checked: no Arabic, Urdu or French article exists (the item carries an Arabic label only). The museum holds no record for his father Ali Babba bin Bello, so that descent is carried in prose; the succession edge to Muhammadu Attahiru I is written once, here in the successor's own record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-62
