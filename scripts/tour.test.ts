@@ -215,6 +215,7 @@ describe("3d tour: page, component and nav", () => {
     expect(src).toContain("wingHref(lang, w)");
     expect(src).toContain("T.wings[w].title");
     expect(src).toContain("t.nojs_objects");
+    expect(src).toContain("T.entity.dagger");
     expect(src).toContain("e.href");
   });
 

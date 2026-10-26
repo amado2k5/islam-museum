@@ -27,6 +27,7 @@ interface ExhibitData {
   material: string;
   museum: string;
   date: string;
+  note: string; // derived-date legend, when the date carries †
   href: string; // the object record page
 }
 
@@ -1469,6 +1470,7 @@ function init(
       .replace("{total}", numFmt.format(EXHIBITS.length));
     $("#panelTitle").textContent = ex.label;
     $("#panelMeta").textContent = [ex.date, ex.material, ex.museum].filter(Boolean).join(" · ");
+    $("#panelNote").textContent = ex.note || "";
     $("#panelDesc").textContent = ex.desc;
     ($<HTMLAnchorElement>("#panelLink")).href = ex.href;
     if (!panel.classList.contains("show")) {

@@ -37,6 +37,7 @@ interface ExhibitView {
   material: string;
   museum: string;
   date: string;
+  note: string;
   href: string;
 }
 interface Props {
@@ -71,10 +72,11 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, wingTitles }).
 
   <div id="joy" aria-label={t.joy_label}><div id="joyKnob"></div></div>
 
-  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelDesc">
+  <div id="panel" role="dialog" aria-labelledby="panelTitle" aria-describedby="panelMeta panelNote panelDesc">
     <div class="count" id="panelCount"></div>
     <h2 id="panelTitle" tabindex="-1"></h2>
     <p id="panelMeta" class="meta"></p>
+    <p id="panelNote" class="note"></p>
     <p id="panelDesc"></p>
     <div class="row nav">
       <button type="button" id="panelPrev">{t.stop_prev}</button>
@@ -234,6 +236,8 @@ body:has(#tour3d-root) { overflow: hidden; }
 #tour3d-root #panel h2:focus-visible { outline: 3px solid #f5d67b; outline-offset: 2px; }
 #tour3d-root #panel p.meta { color: #f0d9a0; font-size: .85rem; line-height: 1.7; margin: 0 0 6px; }
 #tour3d-root #panel p.meta:empty { display: none; }
+#tour3d-root #panel p.note { color: #c9d3d6; font-size: .8rem; line-height: 1.6; margin: 0 0 6px; }
+#tour3d-root #panel p.note:empty { display: none; }
 #tour3d-root #helpPanel {
   position: absolute; z-index: 32; top: 64px; right: 50%;
   transform: translateX(50%) translateY(-12px);
