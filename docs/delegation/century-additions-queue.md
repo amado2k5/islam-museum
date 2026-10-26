@@ -241,11 +241,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Arda Güler — 2005–Living
 - [x] Ilkay Gündoğan — 1990–Living
 - [x] Emre Can — 1994–Living
-- [ ] Sami Khedira — 1987–Living
-- [ ] Granit Xhaka — 1992–Living
-- [ ] Xherdan Shaqiri — 1991–Living
-- [ ] Miralem Pjanić — 1990–Living
-- [ ] Edin Džeko — 1986–Living
+- [x] Sami Khedira — 1987–Living
+- [x] Granit Xhaka — 1992–Living
+- [x] Xherdan Shaqiri — 1991–Living
+- [x] Miralem Pjanić — 1990–Living
+- [x] Edin Džeko — 1986–Living
 - [ ] Asmir Begović — 1987–Living
 - [ ] Nuri Şahin — 1988–Living
 - [ ] Fatih Terim — 1953–Living
