@@ -1,0 +1,38 @@
+id: person/q-tip
+class: person
+label: { ar: "كيو-تيب", en: "Q-Tip", ur: "کیو ٹپ" }
+names:
+  - { value: "Kamaal Ibn John Fareed", kind: full }
+  - { value: "كمال بن جون فريد", kind: full }
+  - { value: "Jonathan William Davis", kind: alternate }
+  - { value: "Q-Tip", kind: pen }
+  - { value: "The Abstract", kind: pen }
+gender: male
+summary:
+  ar: "مغنّي راب ومنتج أمريكي، وُلد باسم جوناثان وليام ديفيس في مانهاتن بنيويورك سنة 1970، وهو الصوت الرئيس والمنتج الأساس لفريق «أ ترايب كولد كويست». اعتنق الإسلام في منتصف التسعينيات واتخذ اسم كمال بن جون فريد، وأصدر ألبومات منفردة منها «المضخّم» (1999) و«النهضة» (2008)، ودخل قاعة مشاهير الروك آند رول مع فريقه سنة 2024."
+  en: "American rapper and record producer, born Jonathan William Davis in Manhattan, New York City, in 1970, the lead MC and main producer of A Tribe Called Quest. He converted to Islam in the mid-1990s, taking the name Kamaal Ibn John Fareed, released solo albums including Amplified (1999) and The Renaissance (2008), and was inducted into the Rock and Roll Hall of Fame with his group in 2024."
+  ur: "امریکی ریپر و ریکارڈ پروڈیوسر، جو 1970 میں مین ہیٹن، نیویارک میں جوناتھن ولیم ڈیوس کے نام سے پیدا ہوئے؛ وہ «اے ٹرائب کالڈ کوئسٹ» کے مرکزی ایم سی اور اصل پروڈیوسر ہیں۔ انہوں نے نوے کی دہائی کے وسط میں اسلام قبول کر کے کمال بن جون فرید نام اختیار کیا، سولو البم «ایمپلیفائیڈ» (1999) اور «دی رینیسانس» (2008) جاری کیے، اور 2024 میں اپنے گروپ کے ساتھ راک اینڈ رول ہال آف فیم میں شامل ہوئے۔"
+roles: [rapper, producer, actor]
+wings: [people, living]
+born:
+  edtf: "1970-04-10"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Manhattan, New York City. The Hijri year (1390) is derived by tabular conversion. Manhattan has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-q-tip-en, source/wikidata-q-tip]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article states that he converted to Islam in the mid-1990s, changing his name to Kamaal Ibn John Fareed, citing Time magazine (6 December 1999), and that the lyrical themes of the group's 1996 album Beats, Rhymes and Life were inspired by his recent conversion. That is an attestation of conversion, not of a school: no source names a madhhab for him. The Arabic article is a stub that states nothing about his faith; its categories file him among converts to Islam and African-American Muslims. Wikidata's only religion value is Islam (Q432) generically. His faith is therefore recorded as unknown, with the attestations stated exactly as the sources give them."
+    sources: [source/wikipedia-q-tip-en, source/wikipedia-q-tip-ar, source/wikidata-q-tip]
+external_ids: { wikidata: "Q42025" }
+sources: [source/wikipedia-q-tip-en, source/wikipedia-q-tip-ar, source/wikidata-q-tip]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Q-Tip (musician)' (revision 1379996032 of 13 October 2026), Arabic Wikipedia «كيو-تيب» (revision 75980251 of 23 July 2026, titled «ويليام ديفيس (ممثل)»), and Wikidata Q42025 read through the Wikidata API, all checked 26 October 2026. No earlier record existed in data/person/ under any spelling (Davis/Fareed/Q-Tip variants searched); this is a new build, not an enrichment. No relations are written: Manhattan and Queens have no place entities in the museum, and no group entity exists for A Tribe Called Quest."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

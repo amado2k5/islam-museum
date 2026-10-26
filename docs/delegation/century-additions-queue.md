@@ -178,11 +178,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Swizz Beatz (Kasseem Daoud Dean) — 1978–Living
 - [x] Busta Rhymes (Trevor George Smith Jr.) — 1972–Living
 - [x] Big Dad RZA / RZA (Robert Fitzgerald Diggs) — 1969–Living
-- [ ] Brother Ali (Ali Newman) — 1977–Living
-- [ ] Q-Tip (Kamaal Ibn John Fareed) — 1970–Living
-- [ ] Ali Shaheed Muhammad — 1968–Living
-- [ ] French Montana (Karim Kharbouch) — 1984–Living
-- [ ] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
+- [x] Brother Ali (Ali Newman) — 1977–Living
+- [x] Q-Tip (Kamaal Ibn John Fareed) — 1970–Living
+- [x] Ali Shaheed Muhammad — 1968–Living
+- [x] French Montana (Karim Kharbouch) — 1984–Living
+- [x] DJ Khaled (Khaled Mohamed Khaled) — 1975–Living
 - [ ] Maher Arar — 1970–Living
 - [ ] Monia Mazigh — 1970–Living
 - [ ] Omar Khadr — 1986–Living

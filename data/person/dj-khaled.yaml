@@ -1,0 +1,37 @@
+id: person/dj-khaled
+class: person
+label: { ar: "دي جي خالد", en: "DJ Khaled", ur: "ڈی جے خالد" }
+names:
+  - { value: "Khaled Mohammed Khaled", kind: full }
+  - { value: "خالد محمد خالد", kind: full }
+  - { value: "DJ Khaled", kind: pen }
+  - { value: "Arab Attack", kind: pen }
+gender: male
+summary:
+  ar: "منسّق موسيقى ومنتج أمريكي من أصل فلسطيني، وُلد باسم خالد محمد خالد في نيو أورليانز سنة 1975. اشتهر مذيعًا في إذاعة ميامي ثم منتجًا مع جماعة «تيرور سكواد»، وأصدر ألبومات تصدرت قوائم بيلبورد منها «مفتاح النجاح» (Major Key) سنة 2016، ووصف نفسه سنة 2014 بأنه مسلم متدين وأدّى العمرة في ديسمبر 2022."
+  en: "American DJ and record producer of Palestinian descent, born Khaled Mohammed Khaled in New Orleans in 1975. He rose as a Miami radio host and a producer with Terror Squad, and released chart-topping albums including Major Key (2016); in 2014 he described himself as a devout Muslim, and in December 2022 he performed the Umrah."
+  ur: "فلسطینی نژاد امریکی ڈی جے و ریکارڈ پروڈیوسر، جو 1975 میں نیو اورلینز میں خالد محمد خالد کے نام سے پیدا ہوئے۔ وہ میامی ریڈیو میزبان اور «ٹیرر اسکواڈ» کے پروڈیوسر کے طور پر مشہور ہوئے اور «میجر کی» (2016) سمیت چارٹ پر اول آنے والے البم جاری کیے؛ 2014 میں انہوں نے خود کو ایک مذہبی مسلمان کہا اور دسمبر 2022 میں عمرہ ادا کیا۔"
+roles: [producer, rapper, musician]
+wings: [people, living]
+born:
+  edtf: "1975-11-26"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in New Orleans, Louisiana, to Palestinian immigrant parents. The Hijri year (1395) is derived by tabular conversion. New Orleans has no place entity in the museum (place/orleans is Orléans in France), so no born_in relation is written."
+  sources: [source/wikipedia-dj-khaled-en, source/wikidata-dj-khaled]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article states that in 2014 he described himself as a devout Muslim (in his Larry King interview) and that in December 2022 he visited Mecca with Mike Tyson to perform the Umrah, citing The New Arab; the Arabic article repeats both points, and the Urdu article is a short derivative stub whose categories file him among the Muslims of Florida and of Louisiana. A self-description of devotion and the performance of a pilgrimage attest identity and practice, not a school: no source names a madhhab for him. Wikidata's only religion value is Islam (Q432) generically. His faith is therefore recorded as unknown, with the attestations stated exactly as the sources give them."
+    sources: [source/wikipedia-dj-khaled-en, source/wikipedia-dj-khaled-ar, source/wikipedia-dj-khaled-ur, source/wikidata-dj-khaled]
+external_ids: { wikidata: "Q80805" }
+sources: [source/wikipedia-dj-khaled-en, source/wikipedia-dj-khaled-ar, source/wikipedia-dj-khaled-ur, source/wikidata-dj-khaled]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'DJ Khaled' (revision 1380073328 of 13 October 2026), Arabic Wikipedia «دي جي خالد» (revision 76085048 of 3 August 2026), Urdu Wikipedia «ڈی جے خالد» (revision 10497246 of 19 May 2026), and Wikidata Q80805 read through the Wikidata API, all checked 26 October 2026. The Arabic article's added name element \"Abadi\" appears in no other source and is not carried into the names. No earlier record existed in data/person/ under any spelling; this is a new build, not an enrichment. No relations are written: New Orleans has no place entity in the museum, and no group entity exists for Terror Squad."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-27
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
