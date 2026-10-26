@@ -1,3 +1,10 @@
+---
+id: concept/al-khitab-al-islami
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الخطاب الإسلامي المعاصر — النضج والانفعال
 
 ## الحلقة والتعريف

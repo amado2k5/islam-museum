@@ -1,3 +1,10 @@
+---
+id: concept/islamufubiya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # Islamophobia (the phobia of Islam)
 
 ## The 'Al-Wasatiyya' episode — debating the phenomenon and the term

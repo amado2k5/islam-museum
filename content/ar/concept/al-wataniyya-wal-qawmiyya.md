@@ -1,3 +1,10 @@
+---
+id: concept/al-wataniyya-wal-qawmiyya
+lang: ar
+source_lang: ar
+translators: []
+---
+
 # الوطنية والقومية والعروبة — الحد الفاصل مع الإسلام
 
 ## الحلقة والتصويت
