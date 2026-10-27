@@ -1,0 +1,44 @@
+id: person/atupele-muluzi
+class: person
+label:
+  ar: "أتوبيلي مولوزي"
+  en: "Atupele Muluzi"
+  ur: "اٹوپیلے مولوزی"
+names:
+  - { value: "Atupele Austin Muluzi", kind: full }
+  - { value: "أتوبيلي أوستن مولوزي", kind: full }
+  - { value: "اٹوپیلے آسٹن مولوزی", kind: full }
+gender: male
+summary:
+  ar: "سياسي مالاوي (مواليد 1978) نجل الرئيس باكيلي مولوزي. انتُخب نائبا عن ماشينغا الشمالية الشرقية سنة 2004 وبقي حتى 2019، وقاد الجبهة الديمقراطية للوحدة، واعتُقل سنة 2012 إثر تجمع للمعارضة، وتولى حقائب وزارية في حكومتي جويس باندا وبيتر موثاريكا بينها التخطيط الاقتصادي والموارد الطبيعية والداخلية والأراضي والصحة، وترشح للرئاسة سنة 2019 وكان مرشح موثاريكا لمنصب نائب الرئيس سنة 2020."
+  en: "Malawian politician (born 1978), the son of President Bakili Muluzi. He was elected MP for Machinga North East in 2004 and held the seat until 2019, led the United Democratic Front, was arrested in 2012 after an opposition rally, and held ministerial portfolios under Presidents Joyce Banda and Peter Mutharika — economic planning, natural resources, home affairs, lands and health — stood for the presidency in 2019 and was Mutharika's running mate in 2020."
+  ur: "ملاوی کے سیاست دان (پیدائش 1978ء)، صدر بکیلی مولوزی کے بیٹے۔ وہ 2004ء میں ماشینگا شمال مشرق سے رکنِ پارلیمنٹ منتخب ہوئے اور 2019ء تک رہے، یونائیٹڈ ڈیموکریٹک فرنٹ کی قیادت کی، 2012ء میں ایک اپوزیشن ریلی کے بعد گرفتار ہوئے، اور صدور جوائس بانڈا اور پیٹر موتھاریکا کی حکومتوں میں اقتصادی منصوبہ بندی، قدرتی وسائل، داخلہ، اراضی اور صحت کی وزارتیں سنبھالیں، 2019ء میں صدارتی امیدوار بنے اور 2020ء میں موتھاریکا کے نائب صدارتی امیدوار تھے۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1978-08-06"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 6 August 1978 at Kamuzu Central Hospital in Lilongwe, to Bakili Muluzi and Annie Chidzira Muluzi. No place entity for Lilongwe exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English article's text states 'He is a Muslim' in its personal-life section, citing the Palgrave Handbook of Islam in Africa (2020) — an attestation of Muslim identity from one text family, naming no school — and files him under Malawian Muslims; Wikidata gives his religion (P140) as Islam, with no branch, the same family's structured echo. His father's Muslim identity, attested in his father's record, is family background and never counts for the son. The value stays unknown."
+    sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi]
+relations:
+  - type: child_of
+    target: person/bakili-muluzi
+    sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi]
+external_ids: { wikidata: "Q4823200" }
+sources: [source/wikipedia-atupele-muluzi-en, source/wikidata-atupele-muluzi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1378405787 of 4 October 2026, fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q4823200 revision 2558952462 of 19 October 2026, read from the Wikidata API the same way. No Arabic or Urdu Wikipedia article exists for him (the item's sitelinks were checked; its only Arabic-script sitelink is the Egyptian Arabic article under his middle name Austin), so the Arabic and Urdu prose are written from the English article and Wikidata and say so in their text. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q4823200; his Arabic label أتوبيلي مولوزي collides with no existing record's label. Relations written: child_of his father Bakili Muluzi (built in this same batch; the edge is written here, in the child's record, and no parent_of edge is written in the father's). No other edge is written: no place entity covers Lilongwe."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

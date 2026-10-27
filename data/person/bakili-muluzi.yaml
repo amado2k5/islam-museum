@@ -1,0 +1,40 @@
+id: person/bakili-muluzi
+class: person
+label:
+  ar: "باكيلي مولوزي"
+  en: "Bakili Muluzi"
+  ur: "بکیلی مولوزی"
+names:
+  - { value: "Elson Bakili Muluzi", kind: full }
+  - { value: "باكيلي مولوزي", kind: full }
+  - { value: "بکیلی مولوزی", kind: full }
+gender: male
+summary:
+  ar: "سياسي مالاوي (مواليد 1943) عمل وزيرا وأمينا عاما لحزب المؤتمر في حكومة هاستينغز باندا ثم قاد المعارضة في الجبهة الديمقراطية للوحدة، ففاز بأول انتخابات تعددية سنة 1994 منهيًا حكم باندا الذي دام ثلاثة عقود، وأعيد انتخابه سنة 1999، وسلّم السلطة سنة 2004 بعد فشل مسعى الولاية الثالثة. لاحقته فضيحة بيع احتياطي الذرة واعتقالات وتهم فساد، ومُنع من الترشح سنة 2009، واعتزل السياسة النشطة في ديسمبر 2009. وهو أول رئيس مسلم لمالاوي ووالد أتوبيلي مولوزي."
+  en: "Malawian politician (born 1943) who served as a minister and as secretary general of the Malawi Congress Party in Hastings Banda's government, then led the opposition United Democratic Front and won the first multiparty election of 1994, ending Banda's three decades of rule; he was re-elected in 1999 and handed over power in 2004 after the third-term bid failed. His later years brought the maize-reserve scandal, arrests and corruption charges, a court bar on his 2009 candidacy, and retirement from active politics in December 2009. He was Malawi's first Muslim president and the father of Atupele Muluzi."
+  ur: "ملاوی کے سیاست دان (پیدائش 1943ء) جو ہیسٹنگز بانڈا کی حکومت میں وزیر اور ملاوی کانگریس پارٹی کے سیکرٹری جنرل رہے، پھر یونائیٹڈ ڈیموکریٹک فرنٹ کی قیادت میں اپوزیشن کے رہنما بنے اور 1994ء کے پہلے کثیر الجماعتی انتخابات جیت کر بانڈا کی تین دہائیوں کی حکمرانی ختم کی؛ 1999ء میں دوبارہ منتخب ہوئے اور تیسری مدت کی کوشش ناکام ہونے کے بعد 2004ء میں اقتدار منتقل کیا۔ بعد کے برسوں میں مکئی کے ذخیرے کا اسکینڈل، گرفتاریاں اور بدعنوانی کے الزامات آئے، 2009ء میں عدالت نے ان کی امیدواری روک دی اور دسمبر 2009ء میں وہ فعال سیاست سے ریٹائر ہو گئے۔ وہ ملاوی کے پہلے مسلم صدر اور اٹوپیلے مولوزی کے والد تھے۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1943-03-17"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth on 17 March 1943 at Machinga, Nyasaland (present-day Malawi). No place entity for Machinga exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-bakili-muluzi-en, source/wikipedia-bakili-muluzi-ar, source/wikidata-bakili-muluzi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English article's text calls him 'Malawi's first Muslim president' — an attestation of Muslim identity, naming no school — and files him under Malawian Muslims; the Arabic article's text is silent on religion and carries the same filing; Wikidata gives his religion (P140) as Islam, with no branch. One text family attesting identity is the Khan configuration: the value stays unknown."
+    sources: [source/wikipedia-bakili-muluzi-en, source/wikidata-bakili-muluzi, source/wikipedia-bakili-muluzi-ar]
+external_ids: { wikidata: "Q317107" }
+sources: [source/wikipedia-bakili-muluzi-en, source/wikipedia-bakili-muluzi-ar, source/wikidata-bakili-muluzi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1365850371 of 24 July 2026 and Arabic revision 76470198 of 8 September 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q317107 revision 2557806649 of 17 October 2026, read from the Wikidata API the same way. No Urdu Wikipedia article exists for him (the item's sitelinks were checked), so the Urdu prose is written from the English and Arabic articles and Wikidata and says so in its text. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q317107; his Arabic label باكيلي مولوزي collides with no existing record's label. No relations are written: he succeeded Hastings Banda and was succeeded by Bingu wa Mutharika, and neither man has a museum record, so the succession edges belong to records that do not exist; his son Atupele's child_of edge to him is written in Atupele's record (same batch), not here; and no place entity covers Machinga."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

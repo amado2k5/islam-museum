@@ -1,0 +1,53 @@
+id: person/abeid-karume
+class: person
+label:
+  ar: "عبيد كرومي"
+  en: "Abeid Karume"
+  ur: "عبید کرومی"
+names:
+  - { value: "Abeid Amani Karume", kind: full }
+  - { value: "عبيد أماني كرومي", kind: full }
+  - { value: "عبید امانی کرومی", kind: full }
+gender: male
+summary:
+  ar: "سياسي تنزاني (1905–1972) عمل بحارا ثم قاد حزب أفروشيرازي، وصار بعد ثورة يناير 1964 أول رئيس لزنجبار، ووافق بعد ثلاثة أشهر على اتحادها مع تنجانيقا فنشأت تنزانيا وصار أول نائب لرئيسها. أمم الأراضي وأقام التعليم والصحة المجانيين، واغتاله أربعة مسلحين في مدينة زنجبار في 7 أبريل 1972 وهو يلعب الباو في مقر حزبه. وهو والد الرئيس السادس لزنجبار أماني عبيد كرومي."
+  en: "Tanzanian politician (1905–1972) who worked as a seaman, led the Afro-Shirazi Party and, after the revolution of January 1964, became the first president of Zanzibar; three months later he agreed its union with Tanganyika, creating Tanzania, and became its first vice-president. He nationalised land and established free education and health services, and was shot dead by four gunmen in Zanzibar Town on 7 April 1972 while playing bao at his party's headquarters. He was the father of Zanzibar's sixth president, Amani Abeid Karume."
+  ur: "تنزانیہ کے سیاست دان (1905ء–1972ء) جو ملاح رہے، پھر افروشیرازی پارٹی کی قیادت کی اور جنوری 1964ء کے انقلاب کے بعد زنجبار کے پہلے صدر بنے؛ تین ماہ بعد انہوں نے ٹینگانیکا کے ساتھ اتحاد پر رضامندی ظاہر کی جس سے تنزانیہ وجود میں آیا، اور وہ اس کے پہلے نائب صدر بنے۔ انہوں نے زمینوں کو قومی تحویل میں لیا اور مفت تعلیم و صحت قائم کی، اور 7 اپریل 1972ء کو زنجبار شہر میں پارٹی دفتر میں باؤ کھیلتے ہوئے چار مسلح افراد نے انہیں گولی مار کر ہلاک کر دیا۔ وہ زنجبار کے چھٹے صدر امانی عبید کرومی کے والد تھے۔"
+roles: [politician]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1905-08-04"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (citing Uwechue, Makers of Modern Africa, 1991) and Wikidata give his birth on 4 August 1905, but the place is disputed: the English article reports Nyasaland (present-day Malawi) and, alternatively, the village of Mwera in Zanzibar, while the Arabic and Urdu articles state his own claim to have been born at Mwera. No born_in relation is written, because the sources do not settle the place. The Hijri year is derived by tabular conversion and matches the Arabic article's birth category (مواليد 1323 هـ)."
+  sources: [source/wikipedia-abeid-karume-en, source/wikidata-abeid-karume, source/wikipedia-abeid-karume-ar]
+died:
+  edtf: "1972-04-07"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata agree that he was assassinated by gunmen in Zanzibar Town (Zanzibar City) on 7 April 1972, so a died_in relation to the museum's Zanzibar place record is written. The Hijri year is derived by tabular conversion and matches the Arabic article's death category (وفيات 1392 هـ)."
+  sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikidata-abeid-karume]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him, and no article text states his religion: the English, Arabic and Urdu articles carry only category filings (Tanzanian Muslims), the Arabic infobox religion field is empty, and the Urdu article follows the Arabic account, so the filings are one family. Wikidata gives his religion (P140) as Islam, with no branch — a single structured value. The English article's only sect content concerns the Persian Twelver Shia families in a 1970 episode, which is about other people, not his affiliation. The value stays unknown."
+    sources: [source/wikidata-abeid-karume, source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikipedia-abeid-karume-ur]
+relations:
+  - type: died_in
+    target: place/zanzibar
+    sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar]
+external_ids: { wikidata: "Q318310" }
+sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikipedia-abeid-karume-ur, source/wikidata-abeid-karume]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1376190564 of 22 September 2026, Arabic revision 76851538 of 4 October 2026 and Urdu revision 11994684 of 20 September 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q318310 revision 2557345493 of 15 October 2026, read from the Wikidata API the same way. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q318310; his Arabic labels عبيد كرومي and عبيد أماني كرومي collide with no existing record's label. Relations written: died_in Zanzibar Town only. His son Amani's child_of edge to him is written in Amani's record (same batch), not here. No succession edge arises from his own record: he was the first holder of the Zanzibar presidency, and his successor Aboud Jumbe, who would carry the edge, has no museum record; his birthplace is disputed between Nyasaland and Mwera, so no born_in is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
