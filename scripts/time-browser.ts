@@ -61,17 +61,28 @@ export function positionOf(n: GraphNode, byId: Map<string, GraphNode>): Position
   return null
 }
 
+// Take `count` items spread evenly across the sorted timeline, so one batch
+// covers the whole range instead of only the earliest years (DESIGN §8).
+export function spreadAcrossTime<T>(sorted: T[], count: number): T[] {
+  if (sorted.length <= count) return sorted
+  const picked: T[] = []
+  for (let i = 0; i < count; i++) {
+    picked.push(sorted[Math.round((i * (sorted.length - 1)) / (count - 1))])
+  }
+  return picked
+}
+
 export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
   const byId = new Map(nodes.map((n) => [n.id, n]))
   const pool = nodes
     .filter((n) => n.class === topic)
     .filter((n) => (n.data?.sources ?? []).length > 0)
+    .filter((n) => Boolean(n.label.ar) && Boolean(n.label.en))
     .map((n) => ({ n, pos: positionOf(n, byId) }))
     .filter((x): x is { n: GraphNode; pos: Position } => x.pos !== null)
     .sort((a, b) => (a.pos.earliest - b.pos.earliest) || a.n.id.localeCompare(b.n.id))
-    .slice(0, LAUNCH_PER_TOPIC)
-
-  return pool.map(({ n, pos }) => {
+  const records = spreadAcrossTime(pool, LAUNCH_PER_TOPIC)
+  return records.map(({ n, pos }) => {
     const summary: Record<string, string> = { ar: n.summary.ar ?? '', en: n.summary.en ?? '' }
     if (n.summary.ur) summary.ur = n.summary.ur
     return {
