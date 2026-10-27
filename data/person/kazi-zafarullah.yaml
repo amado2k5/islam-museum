@@ -1,0 +1,37 @@
+id: person/kazi-zafarullah
+class: person
+label: { ar: "قاضي ظفر الله", en: "Kazi Zafarullah", ur: "قاضی ظفر اللہ" }
+names:
+  - { value: "Kazi Zafarullah", kind: full }
+  - { value: "কাজী জাফরুল্লাহ", kind: full }
+  - { value: "قاضي ظفر الله", kind: full }
+  - { value: "قاضی ظفر اللہ", kind: full }
+gender: male
+summary:
+  ar: "صناعي وسياسي بنغلاديشي، وُلد في أبريل 1947. عضو هيئة رئاسة حزب رابطة عوامي الحاكم سابقًا ونائب سابق عن دائرة فريدبور-5، أُصيب في هجوم القنابل على تجمع للرابطة سنة 2004، واعتُقل خلال حالة الطوارئ سنة 2007، وبُرّئ من تهم فساد سنة 2009، وذُكر اسمه واسم أسرته في تسريبات أوراق بنما."
+  en: "Bangladeshi industrialist and politician, born in April 1947. A presidium member of the Awami League and a former member of parliament for Faridpur-5, he was injured in the 2004 grenade attack on an Awami League rally, arrested during the 2007 state of emergency, cleared of corruption charges in 2009, and named with his family in the Panama Papers reporting."
+  ur: "بنگلہ دیشی صنعت کار اور سیاست دان، جو اپریل 1947ء میں پیدا ہوئے۔ وہ عوامی لیگ کے پریزیڈیم کے رکن اور فریدپور-5 سے سابق رکن پارلیمنٹ ہیں؛ 2004ء کے گرینیڈ حملے میں زخمی ہوئے، 2007ء کی ایمرجنسی میں گرفتار ہوئے، 2009ء میں بدعنوانی کے الزامات سے بری ہوئے، اور ان کا اور ان کے خاندان کا نام پانامہ پیپرز میں آیا۔"
+roles: [politician]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1947-04"
+  hijri: "1366"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born in April 1947, per the English Wikipedia article (infobox and early-life text), the eldest son of Kazi Mahbubullah and Begum Zebunnessa. The article states no birthplace for him, so no born_in edge is written. A celebrity-listing claim of 1 April 1949 is a content-farm error and is not used. The Hijri year 1366 is derived from the Gregorian date."
+  sources: [source/wikipedia-kazi-zafarullah-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, unflagged — absence: the English Wikipedia article read for this record contains no religion field, no statement of his own affiliation, and no religion content about him at all. His membership of a political party and his family's history are not attestations."
+    sources: [source/wikipedia-kazi-zafarullah-en]
+sources: [source/wikipedia-kazi-zafarullah-en]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 111 §A of the century-additions queue from the English Wikipedia article named in the sources list, read in full on 27 October 2026 through the browser search/open route. IDENTITY: the queue's 'Kazi Zafarullah — 1947–Living' is pinned by biography to the Bangladeshi industrialist and Awami League presidium member of that name, born April 1947, former MP for Faridpur-5, of the Kazis of Tungipara, Gopalganj; he is a different person from Muhammad Zafarullah Khan (1893–1985), from Zafrullah Chowdhury (1941–2023) and from his own wife Nilufer Zafar. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers and no Wikidata item for this article, so the source is recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented, and the grounded-QID existence route could not be run for the same reason. Existence checked before building by name-fragment greps (kazi-zafarullah, zafarullah) across all of data/person/ — no record for him. No relations are written: the article states no birthplace, his brother Kazi Shahidullah and his wife Nilufer Zafar have no person entities, and the Awami League has no group entity. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-111
+status: { review: published }

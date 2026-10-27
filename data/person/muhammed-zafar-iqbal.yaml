@@ -1,0 +1,41 @@
+id: person/muhammed-zafar-iqbal
+class: person
+label: { ar: "محمد ظفر إقبال", en: "Muhammed Zafar Iqbal", ur: "محمد ظفر اقبال" }
+names:
+  - { value: "Muhammed Zafar Iqbal", kind: full }
+  - { value: "মুহম্মদ জাফর ইকবাল", kind: full }
+  - { value: "محمد ظفر إقبال", kind: full }
+  - { value: "محمد ظفر اقبال", kind: full }
+  - { value: "Muhammad Zafar Iqbal", kind: alternate }
+  - { value: "M. Zafar Iqbal", kind: alternate }
+gender: male
+summary:
+  ar: "فيزيائي وكاتب بنغلاديشي، وُلد في سيلهيت سنة 1952. من رواد أدب الخيال العلمي باللغة البنغالية وكاتب غزير الإنتاج للأطفال والناشئة، عمل باحثًا في الولايات المتحدة ثمانية عشر عامًا ثم عاد إلى بنغلاديش أستاذًا في جامعة شاه جلال للعلوم والتكنولوجيا. هو الشقيق الأصغر للكاتب همايون أحمد، ونجا من محاولة اغتيال سنة 2018."
+  en: "Bangladeshi physicist and writer, born in Sylhet in 1952. A pioneer of science fiction in the Bengali language and a prolific author for children and teenagers, he worked as a scientist in the United States for eighteen years before returning to Bangladesh as a professor at Shahjalal University of Science and Technology. He is the younger brother of the writer Humayun Ahmed, and survived an assassination attempt in 2018."
+  ur: "بنگلہ دیشی ماہر طبیعیات اور مصنف، جو 1952ء میں سلہٹ میں پیدا ہوئے۔ وہ بنگالی زبان میں سائنس فکشن کے بانیوں میں سے ہیں اور بچوں اور نوجوانوں کے لیے کثیر التصانیف مصنف ہیں؛ انہوں نے اٹھارہ سال امریکہ میں بطور سائنس دان کام کیا، پھر بنگلہ دیش واپس آ کر شاہ جلال یونیورسٹی آف سائنس اینڈ ٹیکنالوجی میں پروفیسر بنے۔ وہ مصنف ہمایوں احمد کے چھوٹے بھائی ہیں اور 2018ء میں قاتلانہ حملے میں بچ گئے۔"
+roles: [scientist, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1952-12-23"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 December 1952 at Sylhet, then in East Pakistan, per the English Wikipedia article (infobox and early-life text, citing Bangladeshi press profiles). Sylhet has no place entity, so no born_in edge is written. The Hijri year 1372 is derived from the Gregorian date."
+  sources: [source/wikipedia-muhammed-zafar-iqbal-en]
+relations:
+  - { type: sibling_of, target: person/humayun-ahmed, sources: [source/wikipedia-muhammed-zafar-iqbal-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, unflagged — absence: the English Wikipedia article read for this record gives no religion field and no statement of his own affiliation anywhere in its text or infobox. What the article does contain is religion-adjacent politics only: his stance against the Islamist party Jamaat-e-Islami, the 2018 attack in which the attacker claimed Iqbal was an 'enemy of Islam', and an open letter by Shah Ahmad Shafi criticising him. Labels applied by opponents and political positions are not attestations of a person's own affiliation, and science advocacy does not engage the atheist bar, which in any case needs sustained first-person self-identification across sources — none is quoted in any source read. A content-farm biography site's bare claim that he 'identifies as Muslim' is not a usable source and was not counted."
+    sources: [source/wikipedia-muhammed-zafar-iqbal-en]
+sources: [source/wikipedia-muhammed-zafar-iqbal-en]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 111 §A of the century-additions queue from the English Wikipedia article named in the sources list, read in full on 27 October 2026 through the browser search/open route. ENVIRONMENT LIMITATION: that route exposes no revision identifiers and no Wikidata item for this article, so the source is recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented, and the grounded-QID existence route could not be run for the same reason. Existence checked before building by name-fragment greps (zafar-iqbal, zafar iqbal, জাফর) across all of data/person/ — no record for him; a biographical match confirmed the near-name files (muhammad-zafrullah-khan, zafrullah-chowdhury) are different people. One relation is written: sibling_of Humayun Ahmed, whose person entity exists and whom the article names as his elder brother. Sylhet has no place entity, so no born_in edge is written. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-111
+status: { review: published }
