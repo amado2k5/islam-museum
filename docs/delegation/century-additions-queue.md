@@ -441,11 +441,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdou Diouf — 1935–Living
 - [x] Abdoulaye Wade — 1926–Living
 - [x] Macky Sall — 1961–Living
-- [ ] Bassirou Diomaye Faye — 1980–Living
-- [ ] Ousmane Sonko — 1974–Living
-- [ ] Siad Barre — 1919–1995
-- [ ] Aden Adde — 1908–2007
-- [ ] Abdirashid Ali Shermarke — 1919–1969
+- [x] Bassirou Diomaye Faye — 1980–Living
+- [x] Ousmane Sonko — 1974–Living
+- [x] Siad Barre — 1919–1995
+- [x] Aden Adde — 1908–2007
+- [x] Abdirashid Ali Shermarke — 1919–1969
 - [ ] Hassan Sheikh Mohamud — 1955–Living
 - [ ] Mohamed Abdullahi Mohamed (Farmaajo) — 1962–Living
 - [ ] Sharif Sheikh Ahmed — 1964–Living
