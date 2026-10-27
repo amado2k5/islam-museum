@@ -1,0 +1,38 @@
+id: person/ghada-al-samman
+class: person
+label: { ar: "غادة السمان", en: "Ghada al-Samman", ur: "غادہ سمان" }
+names:
+  - { value: "غادة أحمد السمان", kind: full }
+  - { value: "Ghada Ahmad al-Samman", kind: full }
+  - { value: "Ghadah Al-Samman", kind: alternate }
+gender: female
+summary:
+  ar: "كاتبة وصحفية وروائية سورية وُلدت في دمشق سنة 1942 لأسرة دمشقية مرموقة، ودرست في الجامعة السورية والجامعة الأمريكية في بيروت. من أعمالها «عيناك قدري» (1962) و«لا بحر في بيروت» (1965) وروايتا «بيروت 75» و«كوابيس بيروت»، وتعيش في باريس منذ منتصف الثمانينيات."
+  en: "Syrian writer, journalist and novelist born in Damascus in 1942 to a prominent Damascene family; she studied at the Syrian University and the American University of Beirut. Her works include Your Eyes Are My Destiny (1962), No Sea in Beirut (1965) and the novels Beirut 75 and Beirut Nightmares. She has lived in Paris since the mid-1980s."
+  ur: "سوری مصنفہ، صحافی اور ناول نگار، جو 1942 میں دمشق کے ایک ممتاز خاندان میں پیدا ہوئیں اور شامی یونیورسٹی اور امریکن یونیورسٹی آف بیروت میں تعلیم پائی۔ ان کی تصانیف میں «عيناك قدري» (1962)، «لا بحر في بيروت» (1965) اور ناول «بيروت 75» اور «كوابيس بيروت» شامل ہیں۔ وہ 1980 کی دہائی کے وسط سے پیرس میں رہ رہی ہیں۔"
+roles: [writer, novelist, journalist]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1942"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Arabic articles and Wikidata give only the year 1942, at Damascus. No Hijri pairing is attested in any source and the year spans two Hijri years (1360–1361), so no hijri value is carried."
+  sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikidata-ghada-al-samman]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikidata-ghada-al-samman] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (the Qabbani configuration, wave 95 section A). No article text names her religion or any school: the English text (a translation of the Arabic, one family) calls her family prominent and conservative, the Arabic text calls it a bourgeois Damascene family, and neither names a faith for her personally. Wikidata's religion value is Islam in general — a single structured value, and generic rather than a school. The English article's categories file her under 'Syrian Muslims' and the Urdu article's under 'Syrian Muslim personalities'; category filings never count. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikipedia-ghada-al-samman-ur, source/wikidata-ghada-al-samman]
+external_ids: { wikidata: "Q2612563" }
+sources: [source/wikipedia-ghada-al-samman-en, source/wikipedia-ghada-al-samman-ar, source/wikipedia-ghada-al-samman-ur, source/wikidata-ghada-al-samman]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Ghada al-Samman, each fetched by its recorded revision id (EN 1369585068, AR 72935183, UR 12139351) with the returned id asserted equal before use, and Wikidata item Q2612563 (item revision 2555663911, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin fragments (Samman) and Arabic fragments (غادة السمان) across data/person, by the grounded QID across all person files, and by biography found no prior record — azhar-al-samman and ibn-al-samman-of-damascus are different people. No lived_in edge is written: Beirut and Paris have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

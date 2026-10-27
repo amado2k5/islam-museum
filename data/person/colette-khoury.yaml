@@ -1,0 +1,50 @@
+id: person/colette-khoury
+class: person
+label: { ar: "كوليت الخوري", en: "Colette Khoury", ur: "کولیت خوری" }
+names:
+  - { value: "كوليت الخوري", kind: full }
+  - { value: "Colette Khoury", kind: full }
+  - { value: "Kulit Khuri", kind: alternate }
+  - { value: "Colette Khuri", kind: alternate }
+gender: female
+summary:
+  ar: "روائية وشاعرة سورية (توفيت 2026)، حفيدة رئيس الوزراء فارس الخوري وابنة الوزير سهيل الخوري. رائدة من رائدات الأدب النسوي العربي، اشتهرت بروايتها «أيام معه» (1961)، وكانت عضوًا في مجلس الشعب ومستشارة أدبية لرئيس الجمهورية."
+  en: "Syrian novelist and poet (died 2026), granddaughter of prime minister Fares al-Khoury and daughter of the minister Suhail al-Khoury. A pioneer of Arab feminist literature, she became known for her novel Days With Him (1961), sat in the People's Council, and served as literary adviser to the president."
+  ur: "سوری ناول نگار اور شاعرہ (وفات 2026)، وزیرِ اعظم فارس الخوری کی پوتی اور وزیر سہیل الخوری کی بیٹی۔ عرب نسوانی ادب کی پیش رو، وہ اپنے ناول «أيام معه» (1961) سے مشہور ہوئیں، مجلس الشعب کی رکن رہیں اور صدر کی ادبی مشیر بھی۔"
+roles: [writer, poet, politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1935"
+  hijri: "1354"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The year is contested and is carried as debated. The Arabic article gives 1354 AH / 1935 CE at Damascus and calls this the correct year by her own statement in a press interview, as recorded in Nizar Abaza's dictionary of notable Syrian women (p. 113) and Abd al-Ghani al-Atri's Hadith al-Abqariyat (p. 328), whose first-named source was an autobiography she supplied herself, with al-Sawaf's Encyclopedia of Damascene Families (1/780) agreeing; Abd al-Qadir Ayyash's dictionary of Syrian authors gives 1936. Against this the English article and Wikidata give 1931, and the news report of her death gives her age as 95. The Arabic article's self-stated reading is followed, and all readings are preserved here and in the prose. The Hijri year 1354 is the Arabic article's own pairing, not a conversion."
+  sources: [source/wikipedia-colette-khoury-ar, source/wikipedia-colette-khoury-en, source/wikidata-colette-khoury]
+died:
+  edtf: "2026-04-10"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic article gives her death at Damascus on Friday 22 Shawwal 1447 AH, corresponding to 10 April 2026, after an illness; the English article gives 10 April 2026, citing a news agency report of the same day, and Wikidata agrees on the date and gives Damascus as the place of death. The Hijri year 1447 is the Arabic article's own pairing."
+  sources: [source/wikipedia-colette-khoury-ar, source/wikipedia-colette-khoury-en, source/wikidata-colette-khoury]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-colette-khoury-ar, source/wikipedia-colette-khoury-en, source/wikidata-colette-khoury] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-colette-khoury-ar, source/wikidata-colette-khoury] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (Christian-evidence family (i): family origins only). Her grandfather Fares al-Khoury's documented Christianity is her family background and never counts for her. The Arabic article says she was born to a notable Christian family of the Greek Orthodox community — family framing in one text; no text names her own affiliation, practice or statement, and neither article records a church funeral or burial. The English article names no religion for her and files her under the category 'Syrian Christians', and category filings never count. Wikidata records no religion value for her at all. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-colette-khoury-ar, source/wikipedia-colette-khoury-en, source/wikidata-colette-khoury]
+external_ids: { wikidata: "Q4118522" }
+sources: [source/wikipedia-colette-khoury-en, source/wikipedia-colette-khoury-ar, source/wikidata-colette-khoury]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Colette Khoury, each fetched by its recorded revision id (EN 1379702929, AR 74711623) with the returned id asserted equal before use, and Wikidata item Q4118522 (item revision 2557374582, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic article's pageprops. No Urdu article exists; the Urdu prose is written from the English and Arabic articles and says so. Existence checks by Latin fragments (Khoury, Khuri) and Arabic fragments (كوليت الخوري) across data/person, by the grounded QID across all person files, and by biography found no prior record. BRIEF CORRECTION: the wave brief gave her as living; she died on 10 April 2026, so she is built deceased with no living wing. No edge to her grandfather Fares al-Khoury (whose record exists) is written: schema/predicates.yaml has no grandchild predicate, and child_of is not used for a grandparent; the descent is stated in prose. No family edges are written to her father Suhail al-Khoury or her husbands: none has a record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

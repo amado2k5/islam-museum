@@ -526,11 +526,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hafez al-Assad — 1930–2000
 - [x] Fares al-Khoury (Contemporary Statesman) — 1877–1962
 - [x] Nizar Qabbani — 1923–1998
-- [ ] Adonis (Ali Ahmad Said Esber) — 1930–Living
-- [ ] Ghada al-Samman — 1942–Living
-- [ ] Colette Khoury — 1931–Living
-- [ ] Zakaria Tamer — 1931–Living
-- [ ] Saddam Hussein — 1937–2006
+- [x] Adonis (Ali Ahmad Said Esber) — 1930–Living
+- [x] Ghada al-Samman — 1942–Living
+- [x] Colette Khoury — 1931–Living
+- [x] Zakaria Tamer — 1931–Living
+- [x] Saddam Hussein — 1937–2006
 - [ ] King Faisal II — 1935–1958
 - [ ] Nuri al-Said — 1888–1958
 - [ ] Abdul Karim Qasim — 1914–1963
