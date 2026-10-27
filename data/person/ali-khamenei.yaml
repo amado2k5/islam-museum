@@ -1,0 +1,51 @@
+id: person/ali-khamenei
+class: person
+label: { ar: "علي خامنئي", en: "Ali Khamenei", ur: "علی خامنہ ای" }
+names:
+  - { value: "Ali Khamenei", kind: full }
+  - { value: "علي خامنئي", kind: full }
+  - { value: "Ali Hosseini Khamenei", kind: alternate }
+  - { value: "سید علی حسینی خامنه‌ای", kind: alternate }
+gender: male
+summary:
+  ar: "علي خامنئي (1939–2026)، رجل دين شيعي وسياسي إيراني، رئيس إيران من 1981 إلى 1989 ثم مرشدها الأعلى الثاني من 1989 حتى اغتياله في 28 شباط 2026 في غارات إسرائيلية خلال حرب إيران 2026، وهو أطول مرشد أعلى بقاءً في المنصب. وُلد في مشهد ودرس في قم على يد روح الله الخميني، وكان من وجوه الثورة الإيرانية، وخلفه في القيادة ابنه مجتبى خامنئي."
+  en: "Ali Khamenei (1939–2026) was an Iranian Shia cleric and politician, president of Iran from 1981 to 1989 and then its second supreme leader from 1989 until his assassination on 28 February 2026 in Israeli airstrikes during the 2026 Iran war — the longest tenure of any supreme leader. Born at Mashhad, he studied at Qom in the classes of Ruhollah Khomeini and was a mainstream figure of the Iranian Revolution; his son Mojtaba Khamenei was chosen to succeed him as supreme leader."
+  ur: "علی خامنہ ای (1939ء–2026ء) ایرانی شیعہ عالمِ دین اور سیاست دان تھے، 1981ء سے 1989ء تک ایران کے صدر اور پھر 1989ء سے 28 فروری 2026ء کو ایران جنگ 2026ء کے دوران اسرائیلی فضائی حملوں میں اپنے قتل تک اس کے دوسرے رہبرِ اعلیٰ رہے — یہ کسی بھی رہبرِ اعلیٰ کی طویل ترین مدت ہے۔ وہ مشہد میں پیدا ہوئے، قم میں روح اللہ خمینی کے دروس میں شریک ہوئے اور انقلابِ ایران کی نمایاں شخصیات میں سے تھے؛ ان کے بیٹے مجتبیٰ خامنہ ای کو ان کا جانشین چنا گیا۔"
+roles: [scholar, jurist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1939-04-19"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Mashhad on 19 April 1939, the date carried by the English article's lead and infobox (citing the Great Islamic Encyclopedia) and by Wikidata. The Persian article records a genuine dispute: his identity certificate gives 24 Tir 1318, corresponding to 16 July 1939, while Khamenei himself held the correct date to be 29 Farvardin 1318, corresponding to 18–19 April 1939. The articles' and Wikidata's reading is carried, with the dispute stated. The Hijri year (1358) is derived by tabular conversion and is the same for both readings."
+  sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-fa, source/wikidata-khamenei]
+died:
+  edtf: "2026-02-28"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated at Tehran on 28 February 2026, killed by Israeli airstrikes during the 2026 Iran war: the English article's lead states the fact and the manner, the Arabic article's lead gives the date and the war, the Persian article's infobox ends his leadership on 9 Esfand 1404 (28 February 2026) and names his son Mojtaba as successor, and Wikidata's death value agrees. Tehran has no place entity, so no died_in edge is written. The queue line that commissioned this record described him as living; every source read records his death, and he is built as deceased. The Hijri year (1447) is derived by tabular conversion."
+  sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-ar, source/wikidata-khamenei]
+relations:
+  - { type: born_in, target: place/mashhad, sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-fa] }
+  - { type: successor_of, target: person/ruhollah-khomeini, sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-ar, source/wikipedia-khamenei-ur] }
+  - { type: student_of, target: person/ruhollah-khomeini, sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-fa] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the Shia-mapping rule, with the mapping stated. No article text names a branch for him personally; two independent texts attest 'Shia' of him — the English article's lead calls him an Iranian politician and Shia cleric, and the Urdu article's lead calls him an Iranian Shia cleric and politician counted among the world's prominent Shia marja's. The branch-supporting context is specific: the English infobox gives his denomination as Twelver Shi'a, the English text discusses his standing precisely within Twelver Shi'ism (that he was not yet a marja', a senior clerical authority in Twelver Shi'ism, when the constitution required one), he was formed at the Qom hawza in Khomeini's classes, and he headed the Islamic Republic, whose constitution establishes Twelver Ja'fari Shi'ism. Wikidata carries only Islam (Q432) and Shia Islam in general (Q9585). On that configuration — two texts attesting 'Shia' plus this context — the value is recorded as shia-twelver/documented, the mapping being the museum's stated rule rather than a textual naming of the branch."
+    sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-ur, source/wikidata-khamenei]
+external_ids: { wikidata: "Q57336" }
+sources: [source/wikipedia-khamenei-en, source/wikipedia-khamenei-fa, source/wikipedia-khamenei-ar, source/wikipedia-khamenei-ur, source/wikidata-khamenei]
+provenance:
+  layer: own-research
+  source: "English, Persian, Arabic and Urdu Wikipedia articles on Ali Khamenei, each fetched by its recorded revision id (EN 1381224008, FA 44807818, AR 77056872, UR 12160343) with the returned id asserted equal before use, and Wikidata item Q57336 (item revision 2558852262; the claims used were read twice with identical results), the QID grounded through the English article's pageprops and confirmed through the other articles' langlinks. Existence checks by Latin, Arabic and Persian fragments and by all likely slug variants across data/person, by the grounded QID across all person files, and by biography found no prior record. The commissioning queue line described him as living; all four articles and Wikidata record his assassination on 28 February 2026, so the record is built as deceased, with no living wing — reported as a brief correction. The successor_of edge (supreme leadership, 1989) and the student_of edge (his Qom studies in Khomeini's classes) are written here, in the subject's own record, both targets built in the same run; no died_in edge is written because Tehran has no place entity, and no ruler_of edge because no Islamic Republic of Iran polity entity exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

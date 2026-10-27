@@ -1,0 +1,50 @@
+id: person/akbar-hashemi-rafsanjani
+class: person
+label: { ar: "أكبر هاشمي رفسنجاني", en: "Akbar Hashemi Rafsanjani", ur: "اکبر ہاشمی رفسنجانی" }
+names:
+  - { value: "Akbar Hashemi Rafsanjani", kind: full }
+  - { value: "أكبر هاشمي رفسنجاني", kind: full }
+  - { value: "اکبر هاشمی رفسنجانی", kind: full }
+  - { value: "Ali Akbar Hashemi Bahramani", kind: alternate }
+gender: male
+summary:
+  ar: "أكبر هاشمي رفسنجاني (1934–2017)، رجل دين شيعي وسياسي إيراني من مؤسسي الجمهورية الإسلامية. درس في حوزة قم على يد بروجردي والخميني، ورأس البرلمان من 1980 إلى 1989 وكان القائد الفعلي في حرب العراق، ثم رئيسًا لإيران من 1989 إلى 1997، ورأس مجلس تشخيص مصلحة النظام حتى وفاته ومجلس الخبراء من 2007 إلى 2011. وُلد في بهرمان قرب رفسنجان وتوفي في طهران في 8 كانون الثاني 2017."
+  en: "Akbar Hashemi Rafsanjani (1934–2017) was an Iranian Shia cleric and politician and a founding figure of the Islamic Republic. Trained at the Qom seminary under Borujerdi and Khomeini, he was speaker of parliament from 1980 to 1989 and acting commander-in-chief during the war with Iraq, then president of Iran from 1989 to 1997; he chaired the Expediency Discernment Council until his death and the Assembly of Experts from 2007 to 2011. Born at Bahreman near Rafsanjan, he died in Tehran on 8 January 2017."
+  ur: "اکبر ہاشمی رفسنجانی (1934ء–2017ء) ایرانی شیعہ عالمِ دین اور سیاست دان اور اسلامی جمہوریہ کے بانیوں میں سے تھے۔ انہوں نے قم کے حوزے میں بروجردی اور خمینی سے تعلیم پائی، 1980ء سے 1989ء تک پارلیمنٹ کے اسپیکر اور عراق جنگ میں قائم مقام سپہ سالار رہے، پھر 1989ء سے 1997ء تک ایران کے صدر رہے؛ وہ وفات تک مصلحت کونسل کے چیئرمین اور 2007ء سے 2011ء تک مجلسِ خبرگان کے چیئرمین رہے۔ وہ رفسنجان کے قریب بہرمان میں پیدا ہوئے اور 8 جنوری 2017ء کو تہران میں وفات پائی۔"
+roles: [scholar, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1934-08-25"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bahreman, near Rafsanjan in Kerman province, on 25 August 1934; the articles and Wikidata agree. Neither Bahreman nor Rafsanjan has a place entity, so no born_in edge is written. The Hijri year (1353) is derived by tabular conversion."
+  sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-ar, source/wikidata-rafsanjani]
+died:
+  edtf: "2017-01-08"
+  hijri: "1438"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Tajrish in Tehran on 8 January 2017, of a heart attack; the English infobox gives Tajrish and the Arabic infobox Tehran, and Wikidata agrees on the date. Tehran has no place entity, so no died_in edge is written. The Hijri year (1438) is derived by tabular conversion."
+  sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-ar, source/wikidata-rafsanjani]
+relations:
+  - { type: successor_of, target: person/ali-khamenei, sources: [source/wikipedia-rafsanjani-ar, source/wikipedia-rafsanjani-ur] }
+  - { type: student_of, target: person/ruhollah-khomeini, sources: [source/wikipedia-rafsanjani-fa] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the Shia-mapping rule, with the mapping stated. Two independent texts attest 'Shia' of him personally: the English article's lead calls him an Iranian Shia cleric and politician, and the Persian article's lead calls him a Shia cleric and Iranian politician. Neither text names a branch, and the Arabic and Urdu texts name no affiliation; Wikidata carries Shia Islam in general (Q9585) only. The branch-supporting context is specific and clerical: formation at the Qom hawza under Hossein Borujerdi and Ruhollah Khomeini, appointment by Khomeini as Tehran's Friday-prayer imam, and the chairmanship of the Assembly of Experts, the Twelver clerical body that elects and supervises the supreme leader. On that configuration — two texts attesting 'Shia' plus this context — the value is recorded as shia-twelver/documented, the mapping being the museum's stated rule rather than a textual naming of the branch."
+    sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-fa, source/wikidata-rafsanjani]
+external_ids: { wikidata: "Q186111" }
+sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-fa, source/wikipedia-rafsanjani-ar, source/wikipedia-rafsanjani-ur, source/wikidata-rafsanjani]
+provenance:
+  layer: own-research
+  source: "English, Persian, Arabic and Urdu Wikipedia articles on Akbar Hashemi Rafsanjani, each fetched by its recorded revision id (EN 1376927336, FA 44849809, AR 76465072, UR 9443670) with the returned id asserted equal before use, and Wikidata item Q186111 (item revision 2557705997; the claims used were read twice with identical results), the QID grounded through the English article's pageprops and confirmed through the other articles' langlinks. Existence checks by Latin, Arabic and Persian fragments and by all likely slug variants across data/person, by the grounded QID across all person files, and by biography found no prior record. The successor_of edge is written here for the presidency (he succeeded Ali Khamenei in 1989), attested by the Arabic and Urdu infoboxes, its target built in the same run; the student_of edge rests on the Persian article's list of his Qom teachers, which includes Khomeini. No born_in or died_in edge is written (Bahreman and Tehran have no place entities) and no member_of edge (the Assembly of Experts and the Expediency Council have no group entities)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

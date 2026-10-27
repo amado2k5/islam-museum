@@ -1,0 +1,46 @@
+id: person/mohammad-mosaddegh
+class: person
+label: { ar: "محمد مصدق", en: "Mohammad Mosaddegh", ur: "محمد مصدق" }
+names:
+  - { value: "Mohammad Mosaddegh", kind: full }
+  - { value: "محمد مصدق", kind: full }
+  - { value: "Mirza Mohammad-Khan Mossadegh-ol-Saltaneh", kind: alternate }
+gender: male
+summary:
+  ar: "محمد مصدق (1882–1967)، محامٍ وسياسي إيراني، رئيس وزراء إيران من 1951 إلى 1953. درس الحقوق في فرنسا وسويسرا ونال الدكتوراه، وقاد تأميم شركة النفط الأنجلو-إيرانية فأطاح به انقلاب آب 1953 المدعوم أمريكيًا وبريطانيًا، وحُوكم أمام محكمة عسكرية ثم عاش تحت الإقامة الجبرية في أحمد آباد حتى وفاته في 5 آذار 1967."
+  en: "Mohammad Mosaddegh (1882–1967) was an Iranian lawyer and politician, prime minister of Iran from 1951 to 1953. Educated in law in France and Switzerland, where he took a doctorate, he led the nationalisation of the Anglo-Iranian Oil Company, was overthrown in the August 1953 coup backed by the United States and Britain, tried before a military court, and lived under house arrest at Ahmadabad until his death on 5 March 1967."
+  ur: "محمد مصدق (1882ء–1967ء) ایرانی وکیل اور سیاست دان تھے، 1951ء سے 1953ء تک ایران کے وزیرِ اعظم رہے۔ انہوں نے فرانس اور سوئٹزرلینڈ میں قانون کی تعلیم اور ڈاکٹریٹ حاصل کی، اینگلو-ایرانین آئل کمپنی کی قومی تحویل کی قیادت کی، اگست 1953ء کی امریکی و برطانوی حمایت یافتہ بغاوت میں معزول ہوئے، فوجی عدالت میں مقدمہ چلا اور 5 مارچ 1967ء کو وفات تک احمد آباد میں نظر بند رہے۔"
+roles: [politician, jurist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1882-06-16"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran on 16 June 1882; the English article (citing Britannica) and the other articles agree. Wikidata carries a second value, 19 May 1882, which no article supports and which is not followed. Tehran has no place entity, so no born_in edge is written. The Hijri year (1299) is derived by tabular conversion."
+  sources: [source/wikipedia-mosaddegh-en, source/wikidata-mosaddegh]
+died:
+  edtf: "1967-03-05"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Najmieh Hospital in Tehran on 5 March 1967 — the Persian article gives 14 Esfand 1345, the same day — after years of house arrest at Ahmadabad, where he was buried; neither Tehran nor Ahmadabad has a place entity, so no died_in or buried_in edge is written. Wikidata also carries a stray 4 March 1967 value, not followed. The Hijri year (1386) is derived by tabular conversion."
+  sources: [source/wikipedia-mosaddegh-en, source/wikipedia-mosaddegh-fa, source/wikidata-mosaddegh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (one personal attestation, in his own words, carried by a single text). The Persian article quotes verbatim, from Jalil Bozorgmehr's published record of his military trial (Mosaddegh dar Mahkame-ye Nezami, p. 413), his declaration at the trial's seventeenth session, on 7 Azar 1332 (28 November 1953), made while emphasising his religious beliefs: that he confessed himself a Muslim and a Twelver Shia, whose path was the path of Husayn. That is a first-person self-declaration naming the branch — but it reaches the museum through one text only, a single attestation chain. No other edition carries it: the English and Arabic texts name no affiliation for him (the Arabic text's Shia are clerics who withdrew support from him), and the Urdu stub names none. Wikidata carries Shia Islam in general (Q9585), which names no branch and does not independently corroborate the branch the quotation names. His Neuchâtel doctorate on wills in Islamic law and the Shia school is an academic subject, not an attestation. One source family short of the two-text bar. Recorded unknown with the attestation preserved here in full."
+    sources: [source/wikipedia-mosaddegh-fa, source/wikipedia-mosaddegh-en, source/wikidata-mosaddegh]
+external_ids: { wikidata: "Q123037" }
+sources: [source/wikipedia-mosaddegh-en, source/wikipedia-mosaddegh-fa, source/wikipedia-mosaddegh-ar, source/wikipedia-mosaddegh-ur, source/wikidata-mosaddegh]
+provenance:
+  layer: own-research
+  source: "English, Persian, Arabic and Urdu Wikipedia articles on Mohammad Mosaddegh, each fetched by its recorded revision id (EN 1378744044, FA 44449707, AR 76014607, UR 9443968) with the returned id asserted equal before use, and Wikidata item Q123037 (item revision 2558176296; the claims used were read twice with identical results), the QID grounded through the English article's pageprops and confirmed through the other articles' langlinks. Existence checks by Latin, Arabic and Persian fragments and by all likely slug variants (Mosaddegh/Mossadegh spellings) across data/person, by the grounded QID across all person files, and by biography found no prior record. No relations are written: Tehran and Ahmadabad have no place entities; his predecessor as prime minister, Hossein Ala', and his successor after the 1953 coup, Fazlollah Zahedi, both named in the articles, have no museum records, and an edge is never written to a record that does not exist; the succession is stated in the prose instead. No unbelief attestation exists in any source read, so no atheist-or-sceptic question arises; his secular nationalism is a political position, not an attestation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
