@@ -66,3 +66,7 @@ Rules: a record enters only when its source entity is `review: published` and ha
 5. Logging: every run appends to `.time-browser-logs/<agent>.log` (git-ignored). On request the agent tails the log and reports the latest step and what remains. Progress is also a PR comment at each merge.
 
 Still open: the Urdu name needs a native reviewer. Exact batch counts per type are set in the first batch PR.
+
+## 9. Status notes (append only)
+- 2026-10-27, Claude (TB0): lane doc `docs/agents/lanes/time-browser.md` added. Prose counts per class and language are recorded there. `theme` has 0 records in `content/` and `data/`, so the theme launch batch needs preparation before TB1. Devin: do not assume theme records exist when wiring media.
+- 2026-10-27, Claude (TB0): **Pages vs R2 is still open.** The launch JSON (about 30 to 40 files) fits on Pages, but the founder has not yet recorded the choice in §8. TB1 writes to the Pages output path until then. Devin: keep media ids independent of the JSON location.
