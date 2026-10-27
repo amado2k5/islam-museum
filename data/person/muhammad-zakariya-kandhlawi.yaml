@@ -1,0 +1,57 @@
+id: person/muhammad-zakariya-kandhlawi
+class: person
+label: { ar: "محمد زكريا الكاندهلوي", en: "Muhammad Zakariya Kandhlawi", ur: "محمد زکریا کاندھلوی" }
+names:
+  - { value: "Muhammad Zakariya Kandhlawi", kind: full }
+  - { value: "محمد زكريا الكاندهلوي", kind: full }
+  - { value: "محمد زکریا کاندھلوی", kind: full }
+  - { value: "Muhammad Zakariya Siddiqi Kandhlawi Saharanpuri Muhajir Madani", kind: alternate }
+  - { value: "Shaykh al-Hadith", kind: laqab }
+  - { value: "شيخ الحديث", kind: laqab }
+  - { value: "Kandhlawi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم ومحدّث هندي (1898–1982) من كاندهلة، شيخ الحديث في مظاهر علوم سهارانبور وابن أخي محمد إلياس الكاندهلوي مؤسس جماعة التبليغ. بايع خليل أحمد السهارنبوري ونال منه الخلافة، وألّف «أوجز المسالك» و«فضائل أعمال» التي صارت نصاب جماعة التبليغ، وجاور في أواخر حياته المدينة المنورة ودُفن في البقيع."
+  en: "Indian scholar and hadith master (1898–1982) of Kandhla, Shaykh al-Hadith of Mazahir Uloom Saharanpur and the nephew of Muhammad Ilyas Kandhlawi, founder of the Tablighi Jamaat. He gave bay'ah to Khalil Ahmad Saharanpuri and received khilafah from him, wrote Awjaz al-Masalik and the Fada'il-e-A'mal that became the Tablighi Jamaat's curriculum, and spent his last years in Medina, where he was buried in al-Baqi."
+  ur: "بھارتی عالم اور محدث (1898ء–1982ء) جن کا تعلق کاندھلہ سے تھا، مظاہر علوم سہارنپور کے شیخ الحدیث اور تبلیغی جماعت کے بانی محمد الیاس کاندھلوی کے بھتیجے۔ خلیل احمد سہارنپوری سے بیعت کی اور ان سے خلافت حاصل کی، «اوجز المسالک» اور «فضائل اعمال» تصنیف کیں جو تبلیغی جماعت کا نصاب بنی، اور آخری عمر مدینہ منورہ میں گزاری اور جنت البقیع میں دفن ہوئے۔"
+roles: [scholar, mystic, writer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1898-02-02"
+  hijri: "1315"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Kandhla on 2 February 1898, which the English biography text and the Arabic article both pair with 11 Ramadan 1315 AH. The English article's age template computes from 3 February instead, and Wikidata carries competing values of 3 and 12 February; neither is followed against the two texts' explicit Hijri pairing. Kandhla has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en, source/wikipedia-muhammad-zakariya-kandhlawi-ar, source/wikidata-muhammad-zakariya-kandhlawi]
+died:
+  edtf: "1982-05-24"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Medina on 24 May 1982 and was buried the same day in Jannat al-Baqi, as the English article's death account states in detail; the Arabic article confirms his residence in Medina at the end of his life. Wikidata also carries a 24 May 1983 value, which is not followed. The Hijri year is a conversion."
+  sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en, source/wikipedia-muhammad-zakariya-kandhlawi-ar, source/wikidata-muhammad-zakariya-kandhlawi]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal bay'ah and khilafa, which is the lane's test for a sufi segment. The English text states that in 1333 AH (1915) he gave bay'ah at the hand of Khalil Ahmad Saharanpuri, taking him as his spiritual guide, and that his shaykh later conferred khilafah on him in four silsilas — Chishtiyya, Suhrawardiyya, Qadiriyya and Naqshbandiyya — on the Encyclopaedia of Islam's authority as cited there. The Arabic text, independently written, states that he kept to his shaykh Khalil Ahmad, who granted him a general ijaza and made him his khalifa. A Sunni-Hanafi reading is preserved but not recorded as a segment: the English lead calls him a Sunni Hanafi hadith scholar of the Deobandi school, and his student rule of testing hadith against Hanafi fiqh appears in the same article, but no second independent text names Sunni or Hanafi for him — the Urdu and Arabic texts name neither — so the naming rests on one text and stands one attestation short. His tariqa affiliation and his school are kept separate, neither inferred from the other."
+    sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en, source/wikipedia-muhammad-zakariya-kandhlawi-ar]
+relations:
+  - { type: student_of, target: person/khalil-ahmad-al-saharanpuri, sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en, source/wikipedia-muhammad-zakariya-kandhlawi-ar] }
+  - { type: related_to, target: person/muhammad-ilyas-kandhlawi, sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en, source/wikipedia-muhammad-zakariya-kandhlawi-ur] }
+  - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en] }
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en] }
+  - { type: died_in, target: place/medina, sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en] }
+  - { type: buried_in, target: place/medina, sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en] }
+external_ids: { wikidata: "Q658773" }
+sources: [source/wikipedia-muhammad-zakariya-kandhlawi-en, source/wikipedia-muhammad-zakariya-kandhlawi-ur, source/wikipedia-muhammad-zakariya-kandhlawi-ar, source/wikidata-muhammad-zakariya-kandhlawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zakariyya Kandhlawi' (revision 1378132773), Urdu Wikipedia 'محمد زکریا کاندھلوی' (revision 12034805) and Arabic Wikipedia 'محمد زكريا الكاندهلوي' (revision 76114765), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q658773 (item revision 2557102877). The three articles are independently written. Existence checks by name fragments (zakariya, zakariyya, زکریا, زكريا), by Arabic label across data/person, by biography and by QID found no prior record for this man. The student_of edge follows the two texts' bay'ah and ijaza statements toward Khalil Ahmad Saharanpuri, whose record exists as person/khalil-ahmad-al-saharanpuri. The related_to edge records the kinship the English lead and the Urdu text state: he is the nephew of Muhammad Ilyas Kandhlawi — Zakariya is Ilyas's nephew — and the target record, person/muhammad-ilyas-kandhlawi, is written in this same run (wave 78 §B); the edge is written once, here, and is not reciprocated in the uncle's record. The member_of edge to group/chishtiyya follows the khilafah attested in the English text, his defining tariqa identity as the Chishti Sabiri-Imdadi line; the four-silsila khilafah is carried in the faith note rather than as four group edges. Kandhla and Saharanpur have no place entities. The lane queue gives 1898–1982, which the article texts confirm against Wikidata's split values, as the date notes record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

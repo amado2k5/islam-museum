@@ -1,0 +1,49 @@
+id: person/manzoor-nomani
+class: person
+label: { ar: "منظور النعماني", en: "Manzoor Nomani", ur: "منظور نعمانی" }
+names:
+  - { value: "Muhammad Manzoor Nomani", kind: full }
+  - { value: "محمد منظور النعماني", kind: full }
+  - { value: "محمد منظور نعمانی", kind: full }
+  - { value: "Nomani", kind: nisba }
+gender: male
+summary:
+  ar: "عالم هندي (1905–1997) من سنبهل، محدّث ديوبندي صاحب «معارف الحديث». تخرج في دار العلوم ديوبند سنة 1927 ودرّس الحديث في ندوة العلماء أربع سنوات، وكان عضواً مؤسساً في الجماعة الإسلامية ونائب أميرها ثم استقال منها سنة 1942 وانتسب إلى جماعة التبليغ، وكان عضواً في مجلس شورى دار العلوم ديوبند ورابطة العالم الإسلامي."
+  en: "Indian scholar (1905–1997) of Sambhal, the Deobandi hadith scholar of Maariful Hadith. He graduated from Darul Uloom Deoband in 1927, taught hadith at Nadwatul Ulama for four years, was a founding member and deputy amir of Jamaat-e-Islami before resigning in 1942 and affiliating with the Tablighi Jamaat, and sat on the Majlis-e-Shura of Darul Uloom Deoband and in the Muslim World League."
+  ur: "بھارتی عالم (1905ء–1997ء) جن کا تعلق سنبھل سے تھا، دیوبندی محدث اور «معارف الحدیث» کے مصنف۔ 1927ء میں دار العلوم دیوبند سے فارغ ہوئے، ندوۃ العلماء میں چار سال حدیث کی تدریس کی، جماعت اسلامی کے بانی رکن اور نائب امیر رہے، پھر 1942ء میں الگ ہو کر تبلیغی جماعت سے وابستہ ہو گئے، اور دار العلوم دیوبند کی مجلسِ شوریٰ اور رابطۂ عالم اسلامی کے رکن رہے۔"
+roles: [scholar, writer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1905-12-15"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 15 December 1905 at Sambhal, which the English biography gives paired with 18 Shawwal 1323 AH and cites to Rizvi's History of the Dar al-Ulum Deoband; the English infobox marks the day circa, and Wikidata gives the same date. Sambhal has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-manzoor-nomani-en, source/wikipedia-manzoor-nomani-ur, source/wikidata-manzoor-nomani]
+died:
+  edtf: "1997-05-04"
+  hijri: "1418"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lucknow on 4 May 1997 and was buried at Aishbagh, as the English biography states, citing Asir Adrawi and a Data India notice of the same date; Wikidata gives 5 May 1997, a one-day variant that is not followed against the two textual notices. Lucknow has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-manzoor-nomani-en, source/wikipedia-manzoor-nomani-ar, source/wikidata-manzoor-nomani]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: the lane's bar of two independent texts naming a school personally is not met, and the readings are preserved here. The English infobox carries denomination Sunni and jurisprudence Hanafi and lists him as a disciple of Abdul Qadir Raipuri and Husain Ahmad Madani, but infobox fields never count as text attestations. The Arabic article's lead calls him a Sunni scholar, but the Arabic article is a translation of the English, rendering the same material, and is the same text family. The Urdu text, independently written, names no school and states no bay'ah. His Deoband teaching posts and council seat, his founding membership of Jamaat-e-Islami (resigned 1942) and his Tablighi Jamaat affiliation are movement and office facts, not attestations of his own madhhab or tariqa. The Sunni, Hanafi and discipleship readings each stand one independent text short."
+    sources: [source/wikipedia-manzoor-nomani-en, source/wikipedia-manzoor-nomani-ar, source/wikipedia-manzoor-nomani-ur]
+relations:
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-manzoor-nomani-en] }
+external_ids: { wikidata: "Q6753547" }
+sources: [source/wikipedia-manzoor-nomani-en, source/wikipedia-manzoor-nomani-ur, source/wikipedia-manzoor-nomani-ar, source/wikidata-manzoor-nomani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Manzoor Nomani' (revision 1375637432), Urdu Wikipedia 'منظور نعمانی' (revision 8244981) and Arabic Wikipedia 'منظور النعماني' (revision 72185340), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6753547 (item revision 2521334880). The Arabic article is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (nomani, نعمانی, النعماني), by Arabic label across data/person, by biography and by QID found no prior record for this man; the existing records abdul-batin-nomani, abdul-haleem-chishti-nomani and shibli-nomani are three different men. The member_of edge to group/deobandiyya is written once, here, from the English text's account of his Deoband graduation, teaching and Majlis-e-Shura seat. No student_of edge is written: the teachers named in the English text — Anwar Shah Kashmiri, Azizur Rahman Usmani and Siraj Ahmad Rashidi — have no person records in the consulted state of the graph, and the discipleship under Husain Ahmad Madani appears in the infobox only. No group entity exists for Jamaat-e-Islami, the Tablighi Jamaat or the Muslim World League. Sambhal and Lucknow have no place entities. The lane queue gives 1905–1997, which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

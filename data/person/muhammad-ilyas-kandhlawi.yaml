@@ -1,0 +1,53 @@
+id: person/muhammad-ilyas-kandhlawi
+class: person
+label: { ar: "محمد إلياس الكاندهلوي", en: "Muhammad Ilyas Kandhlawi", ur: "محمد الیاس کاندھلوی" }
+names:
+  - { value: "Muhammad Ilyas ibn Muhammad Ismail Kandhlawi Dihlawi", kind: full }
+  - { value: "محمد إلياس بن محمد إسماعيل الكاندهلوي الدهلوي", kind: full }
+  - { value: "محمد الیاس بن محمد اسماعیل کاندھلوی دہلوی", kind: full }
+  - { value: "Akhtar Ilyas", kind: alternate }
+  - { value: "Kandhlawi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم هندي (1885–1944) من كاندهلة، من علماء الحركة الديوبندية ومؤسس جماعة التبليغ. درس عند رشيد أحمد الكنكوهي وفي دار العلوم ديوبند عند محمود حسن الديوبندي، وفي أوائل عشرينيات القرن العشرين أعدّ خريجين من ديوبند وسهارانبور وأرسلهم إلى ميوات لتأسيس شبكة من المساجد والمدارس، فنشأت منها جماعة التبليغ التي صارت من أوسع حركات الدعوة في العالم."
+  en: "Indian scholar (1885–1944) of Kandhla, a scholar of the Deobandi movement and the founder of the Tablighi Jamaat. He studied under Rashid Ahmad Gangohi and, at Darul Uloom Deoband, under Mahmud Hasan Deobandi, and in the early 1920s he prepared graduates of Deoband and Saharanpur and sent them to Mewat to build a network of mosques and schools, from which the Tablighi Jamaat grew into one of the world's most widespread preaching movements."
+  ur: "بھارتی عالم (1885ء–1944ء) جن کا تعلق کاندھلہ سے تھا، دیوبندی تحریک کے عالم اور تبلیغی جماعت کے بانی۔ رشید احمد گنگوہی سے اور دار العلوم دیوبند میں محمود حسن دیوبندی سے تعلیم حاصل کی، اور 1920ء کی دہائی کے اوائل میں دیوبند و سہارنپور کے فارغین کو تیار کر کے میوات بھیجا تاکہ مساجد و مدارس کا جال قائم ہو، جس سے تبلیغی جماعت وجود میں آئی جو دنیا کی وسیع ترین دعوتی تحریکوں میں سے ایک بن گئی۔"
+roles: [scholar, preacher, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1885~"
+  hijri: "1303"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "His birth year rests on the chronogram of his birth name Akhtar Ilyas. The English body text, the Arabic article and the Urdu article give 1303 AH (1885/1886) at Kandhla in Muzaffarnagar district, which the record follows; the English infobox gives 1302 AH instead. The lane queue gives 1885. Kandhla has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en, source/wikipedia-muhammad-ilyas-kandhlawi-ur, source/wikipedia-muhammad-ilyas-kandhlawi-ar, source/wikidata-muhammad-ilyas-kandhlawi]
+died:
+  edtf: "1944-07-13"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Delhi on 13 July 1944, as the English and Arabic articles and Wikidata agree; the English article gives the Hijri year as 1363 AH."
+  sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en, source/wikipedia-muhammad-ilyas-kandhlawi-ar, source/wikidata-muhammad-ilyas-kandhlawi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: the lane's bar of two independent texts naming a school personally is not met, and the readings are preserved here. The English infobox carries denomination Sunni and jurisprudence Hanafi and a disciple-of list naming Rashid Ahmad Gangohi, his father Muhammad Ismail, Khalil Ahmad Saharanpuri and Muhammad Yahya Kandhlawi, but infobox fields never count as text attestations. The English body text states only that he lived with and studied under Gangohi and studied under Mahmud Hasan Deobandi — study, not an initiation statement. The Urdu article is a short stub naming no school and no bay'ah, and the Arabic text names no school in its prose. Wikidata's religion values (Islam, Sunni Islam, Sufism) are structured values of the same family as the infobox. Founding the Tablighi Jamaat is office, not attestation of his own school. The Sunni, Hanafi and Sufi readings each stand one independent text short."
+    sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en, source/wikipedia-muhammad-ilyas-kandhlawi-ur, source/wikipedia-muhammad-ilyas-kandhlawi-ar, source/wikidata-muhammad-ilyas-kandhlawi]
+relations:
+  - { type: student_of, target: person/rashid-ahmad-gangohi, sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en, source/wikipedia-muhammad-ilyas-kandhlawi-ar] }
+  - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en, source/wikipedia-muhammad-ilyas-kandhlawi-ur] }
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en] }
+external_ids: { wikidata: "Q659028" }
+sources: [source/wikipedia-muhammad-ilyas-kandhlawi-en, source/wikipedia-muhammad-ilyas-kandhlawi-ur, source/wikipedia-muhammad-ilyas-kandhlawi-ar, source/wikidata-muhammad-ilyas-kandhlawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ilyas Kandhlavi' (revision 1367849658), Urdu Wikipedia 'محمد الیاس کاندھلوی' (revision 11800536) and Arabic Wikipedia 'محمد إلياس الكاندهلوي' (revision 71117141), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q659028 (item revision 2556891499). The three articles are independently written; the Urdu is a short stub. Existence checks by name fragments (kandhlawi, kandhlavi, کاندھلوی, الكاندهلوي), by Arabic label across data/person, by biography and by QID found no prior record for this man. The student_of edges follow the texts' study statements: the English and Arabic texts state that he studied under Rashid Ahmad Gangohi, and the English and Urdu texts that he studied under Mahmud Hasan Deobandi at Deoband. The member_of edge to group/deobandiyya follows the English lead's description of him as a scholar of the Deobandi movement. No group entity exists for the Tablighi Jamaat, so his founding of it is stated in prose only; Kandhla has no place entity. His nephew Muhammad Zakariya Kandhlawi's record, written in the same run, carries the kinship edge toward him; no outward kin edge is written here. The lane queue gives 1885–1944, which the articles confirm with the birth-year caveat in the born note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
