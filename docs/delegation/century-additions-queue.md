@@ -426,11 +426,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Moussa Traoré — 1936–2020
 - [x] Alpha Oumar Konaré — 1946–Living
 - [x] Ibrahim Boubacar Keïta — 1945–2022
-- [ ] Assimi Goïta — 1983–Living
-- [ ] Ahmed Sékou Touré — 1922–1984
-- [ ] Lansana Conté — 1934–2008
-- [ ] Alpha Condé — 1938–Living
-- [ ] Mamady Doumbouya — 1980–Living
+- [x] Assimi Goïta — 1983–Living
+- [x] Ahmed Sékou Touré — 1922–1984
+- [x] Lansana Conté — 1934–2008
+- [x] Alpha Condé — 1938–Living
+- [x] Mamady Doumbouya — 1980–Living
 - [ ] Cellou Dalein Diallo — 1952–Living
 - [ ] Sidya Touré — 1945–Living
 - [ ] Moktar Ould Daddah — 1924–2003
