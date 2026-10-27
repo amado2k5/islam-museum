@@ -1,0 +1,47 @@
+id: person/sikandar-begum
+class: person
+label: { ar: "سكندر بيگم", en: "Sikandar Begum", ur: "نواب سکندر بیگم" }
+names:
+  - { value: "Sikandar Begum", kind: full }
+  - { value: "نواب سکندر بیگم", kind: full }
+  - { value: "Sikander Begum", kind: alternate }
+gender: female
+summary:
+  ar: "بيغوم بوبال في وسط الهند: وصية على ابنتها شاه جهان بيكم من سنة 1844، واعتُرف بها نوابًا باسمها سنة 1860، وحكمت حتى وفاتها سنة 1868. ثبّتت بوبال في صف البريطانيين سنة 1857، وأدّت الحج سنة 1863 — أول حاكم هندي يؤديه بحسب مقالة ويكيبيديا الإنجليزية — وكتبت مذكرات عنه، وسدّدت دين الدولة، وأسست دار سكة وأمانة سر ومجلس شورى وقضاءً حديثًا."
+  en: "Begum of Bhopal in central India: regent for her daughter Shah Jahan Begum from 1844, recognised as nawab in her own right in 1860, and ruler until her death in 1868. She held Bhopal for the British side in 1857, performed the Hajj in 1863 — the first Indian ruler to do so, per the English article — and wrote a memoir of it, repaid the state debt, and founded a mint, a secretariat, a council and a modern judiciary."
+  ur: "وسط ہندوستان کی ریاست بھوپال کی بیگم: 1844 سے اپنی بیٹی شاہ جہاں بیگم کی نائب السلطنت رہیں اور 1860 میں باقاعدہ نواب تسلیم کی گئیں، 1868 میں وفات تک حکمران رہیں۔ انہوں نے 1857 میں بھوپال کو برطانوی صف میں رکھا، 1863 میں حج کیا — انگریزی مقالے کے مطابق یہ فریضہ ادا کرنے والی وہ پہلی ہندوستانی حکمران تھیں — اور اس کی یادداشتیں لکھیں، ریاست کا قرض ادا کیا، اور ٹکسال، سیکرٹریٹ، مجلس اور جدید عدلیہ قائم کیں۔"
+roles: [ruler, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1817-09-10"
+  hijri: "1232"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born at Gauhar Mahal, Bhopal, on 10 September 1817, per the English article; the Urdu article pairs the date with 28 Shawwal 1232. Wikidata Q2285532 also carries a stray 1818-01-01 value, which is not followed. Bhopal has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-sikandar-begum-en, source/wikipedia-sikandar-begum-ur, source/wikidata-sikandar-begum]
+died:
+  edtf: "1868-10-30"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Moti Mahal, Bhopal, on 30 October 1868, per the English article; the Urdu article pairs the date with 13 Rajab 1285. Wikidata Q2285532 also carries a stray 1868-11-30 value, which is not followed. Bhopal has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-sikandar-begum-en, source/wikipedia-sikandar-begum-ur, source/wikidata-sikandar-begum]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Urdu article's infobox alone gives her religion as Ahl-e-Sunnat (Sunni). The English article's infobox gives Islam, its text calls her a devout Muslim and records her Hajj of 1863 — practice, not a school attestation — and Wikidata records no religion for her. One infobox inside one article is not two independent attestations. Headship case: the value stays unknown, with the Sunni reading preserved here."
+    sources: [source/wikipedia-sikandar-begum-en, source/wikipedia-sikandar-begum-ur, source/wikidata-sikandar-begum]
+external_ids: { wikidata: "Q2285532" }
+sources: [source/wikipedia-sikandar-begum-en, source/wikipedia-sikandar-begum-ur, source/wikidata-sikandar-begum]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sikandar Begum' (revision 1358943347), Urdu Wikipedia 'نواب سکندر بیگم' (revision 6641568) and Wikidata item Q2285532 (item revision 2559572266), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the revision dates re-verified in a second pass on 27 October 2026. No Arabic Wikipedia article exists for her, so the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (sikandar, begum), by Arabic label across data/person, by biography and by QID found no prior record; she is the Bhopal ruler of 1817–1868, not an earlier namesake. No relations are written in her record: her husband Jahangir Mohammad Khan and her mother Qudsia Begum have no person records, and the kinship and succession edges to her daughter are written once, in the daughter's record (person/shah-jahan-begum)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
