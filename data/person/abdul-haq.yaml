@@ -1,0 +1,47 @@
+id: person/abdul-haq
+class: person
+label: { ar: "مولوي عبد الحق", en: "Abdul Haq", ur: "مولوی عبد الحق" }
+names:
+  - { value: "مولوی عبد الحق", kind: full }
+  - { value: "Abdul Haq", kind: full }
+  - { value: "بابائے اردو", kind: laqab }
+  - { value: "Baba-e-Urdu", kind: laqab }
+gender: male
+summary:
+  ar: "لغوي وعالم وناقد أدبي أردي (1870–1961)، يُلقب بـ«أبو الأردية» (بابائے اردو). شغل أمانة «أنجمن ترقي اردو» عقودا، وألّف قاموسا معياريا إنجليزيا–أرديا، وكان من أبرز المطالبين بجعل الأردية اللغة الوطنية لباكستان."
+  en: "Urdu linguist, scholar and literary critic (1870–1961), known as Baba-e-Urdu ('Father of Urdu'). He was for decades secretary of the Anjuman-i Taraqqi-i Urdu, compiled a standard English–Urdu dictionary, and campaigned for Urdu to be made the national language of Pakistan."
+  ur: "اردو کے ماہر لسانیات، عالم اور ادبی نقاد (1870ء–1961ء)، جو «بابائے اردو» کے لقب سے مشہور ہیں۔ وہ برسوں انجمن ترقی اردو کے سیکرٹری رہے، ایک معیاری انگریزی–اردو لغت مرتب کی اور اردو کو پاکستان کی قومی زبان بنانے کے بڑے داعی تھے۔"
+roles: [scholar, writer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1870-04-20"
+  hijri: "1287"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (citing Pakistan Post and Dawn), the Urdu article and the Arabic stub agree on 20 April 1870; the Urdu article places the birth at Sarawan near Hapur, the English at Hapur. Wikidata carries the same day-precision date and also a redundant year-only value of 1869, which no article follows. The Hijri year (1287) is a conversion. No place entity exists for Hapur or Sarawan, so no born_in edge is written."
+  sources: [source/wikipedia-abdul-haq-en, source/wikipedia-abdul-haq-ur, source/wikipedia-abdul-haq-ar, source/wikidata-abdul-haq]
+died:
+  edtf: "1961-08-16"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Urdu and Arabic articles and Wikidata agree: died 16 August 1961 at Karachi, of cancer, and he is buried on the Abdul Haq campus of the Federal Urdu University there. The Hijri year (1381) is a conversion. No place entity exists for Karachi, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-abdul-haq-en, source/wikipedia-abdul-haq-ur, source/wikidata-abdul-haq]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school. The English text makes no statement of his religion at all; the Urdu text records the family history — his ancestors were Hindu Kayasths of Hapur who converted to Islam in the Mughal era — which is family background, and describes his life's work for Urdu; the Arabic stub names no religion; Wikidata gives a single structured value, Islam only. His leadership of the Anjuman-i Taraqqi-i Urdu and of the campaign for Urdu in Pakistan is activity and affiliation, not a school attestation. Under the lane's two-source rule nothing more can be recorded."
+    sources: [source/wikipedia-abdul-haq-en, source/wikipedia-abdul-haq-ur, source/wikipedia-abdul-haq-ar, source/wikidata-abdul-haq]
+external_ids: { wikidata: "Q2993002" }
+sources: [source/wikipedia-abdul-haq-en, source/wikipedia-abdul-haq-ur, source/wikipedia-abdul-haq-ar, source/wikidata-abdul-haq]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Haq (Urdu scholar)' (revision 1377534830), Urdu Wikipedia 'مولوی عبد الحق' (revision 9370473), Arabic Wikipedia 'مولوي عبد الحق' (revision 75454459) and Wikidata item Q2993002 (item revision 2561055100, confirmed by two agreeing reads), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (abdul-haq, haq), by Arabic label, by biography and by the QID route across data/person/ — the museum's abdul-haq-baloch and abdul-haq-nafay-kakakhail are different men (a Baloch scholar and a Kakakhail scholar), identified by biography; neither carries the exact Arabic label مولوي عبد الحق, so no homonym entry is needed. No founder_of or member_of edge is written for the Anjuman-i Taraqqi-i Urdu: no group entity for it exists; his secretaryship from 1912 is stated in the prose instead."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/firaq-gorakhpuri
+class: person
+label: { ar: "فراق جوراخبوري", en: "Firaq Gorakhpuri", ur: "فراق گورکھپوری" }
+names:
+  - { value: "رگھوپتی سہائے", kind: full }
+  - { value: "Raghupati Sahay", kind: full }
+  - { value: "فراق گورکھپوری", kind: pen }
+  - { value: "Firaq Gorakhpuri", kind: pen }
+gender: male
+summary:
+  ar: "شاعر وناقد أردي هندي (1896–1982)، اسمه الأصلي رگھوپتی سہائے من غوراخبور. درّس الأدب الإنجليزي في جامعة الله آباد، وكان أول أديب أردي ينال جائزة جنانبيث (1969) عن ديوانه «گل نغمہ»."
+  en: "Indian Urdu poet and critic (1896–1982), whose birth name was Raghupati Sahay, of Gorakhpur. He taught English literature at Allahabad University and was the first Urdu writer to receive the Jnanpith Award (1969), for his collection Gul-e-Naghma."
+  ur: "ہندوستانی اردو شاعر اور نقاد (1896ء–1982ء)، جن کا اصل نام رگھوپتی سہائے تھا اور جن کا تعلق گورکھپور سے تھا۔ وہ الہ آباد یونیورسٹی میں انگریزی ادب کے استاد رہے اور اپنے مجموعے «گل نغمہ» پر گیان پیٹھ انعام (1969ء) پانے والے پہلے اردو ادیب تھے۔"
+roles: [poet, writer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1896-08-28"
+  hijri: "1314"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree: born 28 August 1896 at Banwarpar village in Gorakhpur district. The Hijri year (1314) is a conversion. No place entity exists for Gorakhpur, so no born_in edge is written."
+  sources: [source/wikipedia-firaq-gorakhpuri-en, source/wikipedia-firaq-gorakhpuri-ur, source/wikidata-firaq-gorakhpuri]
+died:
+  edtf: "1982-03-03"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree: died 3 March 1982 at New Delhi after a long illness; the Urdu article adds that his body was taken to Allahabad and cremated at the confluence of the Ganga and the Jamuna. The Hijri year (1402) is a conversion."
+  sources: [source/wikipedia-firaq-gorakhpuri-en, source/wikipedia-firaq-gorakhpuri-ur, source/wikidata-firaq-gorakhpuri]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-firaq-gorakhpuri-en, source/wikipedia-firaq-gorakhpuri-ur, source/wikidata-firaq-gorakhpuri] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — he was not a Muslim, and this record does not present him as one; he stands in the queue on the Urdu canon by association. The open question is only whether his own Hindu affiliation is attested twice over, and under the lane's rule it falls one attestation short. What the sources give, exactly: the English text says he was born in a 'well-to-do and educated Hindu Kayastha family' — family background, which never counts. The Urdu text, citing Malik Ram's biographical Tazkira, records that after his death his body was taken to Allahabad and cremated at the confluence of the Ganga and the Jamuna — a Hindu funerary rite performed for him personally: practice evidence, not a named attestation. Both articles file him under 'Hindu poets' categories (filings), and Wikidata's single structured religion value is Hinduism. The faith enum does define the value hindu. If the founder counts the Urdu text's cremation account together with the structured value as two attestations of his own affiliation, this segment settles as hindu/documented; on the texts alone, no source names his affiliation in so many words, so the value stays unknown."
+    sources: [source/wikipedia-firaq-gorakhpuri-en, source/wikipedia-firaq-gorakhpuri-ur, source/wikidata-firaq-gorakhpuri]
+external_ids: { wikidata: "Q82071" }
+sources: [source/wikipedia-firaq-gorakhpuri-en, source/wikipedia-firaq-gorakhpuri-ur, source/wikidata-firaq-gorakhpuri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Firaq Gorakhpuri' (revision 1381919219), Urdu Wikipedia 'فراق گورکھپوری' (revision 11870169) and Wikidata item Q82071 (item revision 2558960702, confirmed by two agreeing reads), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (firaq, gorakhpuri, sahay, raghupati), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; the museum's qamruddin-ahmad-gorakhpuri is a different man, a Deobandi scholar of a later generation. No Arabic Wikipedia article exists for him (the Egyptian-dialect arz article is not used); the Arabic prose is written from the English and Urdu sources and says so. The died_in edge points to place/delhi, the museum's Delhi entity, for the sources' New Delhi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

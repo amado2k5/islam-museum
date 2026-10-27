@@ -1,0 +1,49 @@
+id: person/josh-malihabadi
+class: person
+label: { ar: "جوش مليح آبادي", en: "Josh Malihabadi", ur: "جوش ملیح آبادی" }
+names:
+  - { value: "شبیر حسن خان", kind: full }
+  - { value: "Shabbir Hasan Khan", kind: full }
+  - { value: "جوش ملیح آبادی", kind: pen }
+  - { value: "Josh Malihabadi", kind: pen }
+  - { value: "شاعر انقلاب", kind: laqab }
+  - { value: "Shayar-e-Inqalab", kind: laqab }
+gender: male
+summary:
+  ar: "شاعر أردي (1898–1982)، وُلد باسم شبير حسن خان في مليح آباد، وعُرف بلقب «شاعر الثورة». كان من أبرز أصوات حركة الكتاب التقدميين، وهاجر إلى باكستان سنة 1956، وترك أكثر من مئة ألف بيت من الشعر."
+  en: "Urdu poet (1898–1982), born Shabbir Hasan Khan in Malihabad and known as Shayar-e-Inqalab ('Poet of the Revolution'). A leading voice of the Progressive Writers' Movement, he migrated to Pakistan in 1956 and left more than 100,000 couplets."
+  ur: "اردو کے شاعر (1898ء–1982ء)، جو ملیح آباد میں شبیر حسن خان کے نام سے پیدا ہوئے اور «شاعر انقلاب» کے لقب سے مشہور ہوئے۔ وہ ترقی پسند تحریک کے نمایاں شاعر تھے، 1956ء میں پاکستان ہجرت کر گئے اور ایک لاکھ سے زائد اشعار چھوڑے۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1898-12-05"
+  hijri: "1316"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Urdu and Arabic articles and Wikidata agree: born 5 December 1898 at Malihabad near Lucknow. The Hijri year (1316) is a conversion. No place entity exists for Malihabad, so no born_in edge is written."
+  sources: [source/wikipedia-josh-malihabadi-en, source/wikipedia-josh-malihabadi-ur, source/wikidata-josh-malihabadi]
+died:
+  edtf: "1982-02-22"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Urdu and Arabic articles and Wikidata agree: died 22 February 1982 at Islamabad. The Hijri year (1402) is a conversion. No place entity exists for Islamabad, so no died_in edge is written."
+  sources: [source/wikipedia-josh-malihabadi-en, source/wikipedia-josh-malihabadi-ur, source/wikidata-josh-malihabadi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Shia reading is carried only by the two classes of evidence the lane never counts, and no text attests it. What the sources give, exactly: the English text says he was born to an Urdu-speaking Muslim family of Afridi Pashtun origin in Malihabad — family background. No text in the English, Urdu or Arabic articles names his school or branch. Wikidata's single structured religion value is Shia Islam, and the Urdu article files him in its 'Pakistani Shia' category — one structured value and one category filing. The Shia-mapping rule requires two sources attesting 'Shia' with branch-supporting context; neither of these carriers is a text, so the mapping cannot be made. His marsiyas and the poem 'Hussain aur Inquilab' are literary works, not attestations. If the founder accepts the structured value together with the category filing as the two attestations, this segment settles as shia-twelver/documented under the mapping rule, with the mapping stated; as the sources stand, the value stays unknown."
+    sources: [source/wikipedia-josh-malihabadi-en, source/wikipedia-josh-malihabadi-ur, source/wikipedia-josh-malihabadi-ar, source/wikidata-josh-malihabadi]
+external_ids: { wikidata: "Q3631671" }
+sources: [source/wikipedia-josh-malihabadi-en, source/wikipedia-josh-malihabadi-ur, source/wikipedia-josh-malihabadi-ar, source/wikidata-josh-malihabadi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Josh Malihabadi' (revision 1376672530), Urdu Wikipedia 'جوش ملیح آبادی' (revision 9395694), Arabic Wikipedia 'جوش مليح آبادي' (revision 76641933) and Wikidata item Q3631671 (item revision 2561076063, confirmed by two agreeing reads), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (josh, malihabadi, shabbir), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. Wikidata's place claims for him carry stray values alongside the correct ones (Uttar Pradesh and British Raj as birthplaces, Pakistan as a death place); the record follows the three articles' agreement on Malihabad and Islamabad, and no place edges are written because no entities exist for either."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
