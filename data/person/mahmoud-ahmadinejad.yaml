@@ -1,0 +1,45 @@
+id: person/mahmoud-ahmadinejad
+class: person
+label:
+  ar: "محمود أحمدي نجاد"
+  en: "Mahmoud Ahmadinejad"
+summary:
+  ar: "محمود أحمدي نجاد (وُلد 28 تشرين الأول 1956، واسمه عند الولادة محمود صباغيان) سياسي ومهندس إيراني، رئيس إيران من 3 آب 2005 إلى 3 آب 2013 وعمدة طهران قبلها (2003–2005). في شباط 2026 ضُرب بيته في طهران في أول أيام حرب إيران 2026 وأُشيع مقتله، ثم أظهرت تقارير لاحقة أنه حي."
+  en: "Mahmoud Ahmadinejad (born 28 October 1956, birth name Mahmoud Sabbaghian) is an Iranian politician and engineer who served as president of Iran from 3 August 2005 to 3 August 2013, after serving as mayor of Tehran (2003–2005). In February 2026 his Tehran house was struck on the first day of the 2026 Iran war and he was erroneously reported killed; later reports established that he had survived."
+names:
+  - { value: "Mahmoud Ahmadinejad", kind: full }
+  - { value: "محمود أحمدي نجاد", kind: full }
+  - { value: "محمود احمدی‌نژاد", kind: full }
+  - { value: "Mahmoud Sabbaghian", kind: alternate }
+gender: male
+roles: [politician, engineer]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1956-10-28"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Aradan in Semnan province on 28 October 1956; the English article and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
+  sources: [source/wikipedia-ahmadinejad-en, source/wikidata-ahmadinejad]
+relations:
+  - type: successor_of
+    target: person/mohammad-khatami
+    note: "He succeeded Mohammad Khatami as president of Iran in August 2005; the English and Persian article infoboxes name Khatami as his predecessor."
+    sources: [source/wikipedia-ahmadinejad-en, source/wikipedia-ahmadinejad-fa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any edition names an affiliation for him personally. The English article's text calls his father Ahmad 'a religious Shia Muslim' who taught the Quran — family background, which never attests the son. The Arabic infobox gives his religion as Islam (Twelver Shia) and Wikidata carries Shia Islam in general (Q9585): one structured family, which does not meet the bar of two independent texts. His public advocacy of the Mahdi is political speech, not a school attestation. The value is recorded as unknown with the evidence preserved here."
+    sources: [source/wikipedia-ahmadinejad-en, source/wikipedia-ahmadinejad-ar, source/wikidata-ahmadinejad]
+external_ids:
+  wikidata: "Q34448"
+sources: [source/wikipedia-ahmadinejad-en, source/wikipedia-ahmadinejad-fa, source/wikipedia-ahmadinejad-ar, source/wikipedia-ahmadinejad-ur, source/wikidata-ahmadinejad]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 100 §A of the century-additions queue (queue lines 549-553) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Wikidata item Q34448 — grounded through the English article pageprops and confirmed through every edition sitelink and the item own claims — appears in no existing person record. He is built as LIVING, and the point is documented here because the Urdu article, frozen at its 1 March 2026 revision, dates him 1956–2026: on the first day of the 2026 Iran war his house in Narmak, Tehran, was struck, three of his IRGC bodyguards were killed, and he was originally reported killed; the English article (revision of 27 October 2026) records that later reports contradicted the report of his death, the Arabic infobox leaves his death fields blank, and Wikidata carries no death value. The Urdu death date is an uncorrected early-report artefact and is not followed. No born_in relation is written: he was born at Aradan, for which the museum holds no place entity. The successor_of relation to Mohammad Khatami is attested by the English and Persian article infoboxes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
+status: { review: published }
