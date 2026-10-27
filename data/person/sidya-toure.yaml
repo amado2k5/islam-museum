@@ -1,0 +1,46 @@
+id: person/sidya-toure
+class: person
+label: { ar: "سيديا توري", en: "Sidya Touré", ur: "سیدیا تورے" }
+names:
+  - { value: "Sidya Touré", kind: full }
+  - { value: "سيديا توري", kind: full }
+  - { value: "سیدیا تورے", kind: full }
+gender: male
+summary:
+  ar: "سياسي غيني (1945–2026) وُلد في ديمبوكرو، مفتش خزانة ومنفيّ سابق في ساحل العاج، عيّنه الرئيس لانسانا كونتي رئيسا لوزراء غينيا في 9 يوليو 1996 — أول من شغل المنصب منذ 1984 — حتى إقالته في 8 مارس 1999؛ ثم قاد اتحاد القوى الجمهورية المعارض، وأُصيب إصابة خطيرة في احتجاج 28 سبتمبر 2009، وحلّ ثالثا في الانتخابات الرئاسية سنة 2010، وتوفي في منفاه بمستشفى في باريس في 25 سبتمبر 2026."
+  en: "Guinean politician (1945–2026) born at Dimbokro, a treasury inspector and former exile in Côte d'Ivoire whom President Lansana Conté appointed Prime Minister of Guinea on 9 July 1996 — the first holder of the office since 1984 — until his dismissal on 8 March 1999; he then led the opposition Union of Republican Forces (UFR), was seriously injured in the 28 September 2009 stadium protest, placed third in the 2010 presidential election, and died in exile at a Paris hospital on 25 September 2026."
+  ur: "گنی سیاست دان (1945ء–2026ء)، دیمبوکرو میں پیدا ہوئے؛ خزانہ انسپکٹر اور کوٹ ڈی آئیور میں جلاوطنی گزارنے والے؛ صدر لانسانا کونتے نے انھیں 9 جولائی 1996ء کو گنی کا وزیرِ اعظم مقرر کیا — 1984ء کے بعد اس عہدے کے پہلے حامل — حتیٰ کہ 8 مارچ 1999ء کو برطرف ہوئے؛ پھر حزبِ اختلاف اتحادِ افواجِ جمہوریہ (UFR) کی قیادت کی، 28 ستمبر 2009ء کے سٹیڈیم احتجاج میں شدید زخمی ہوئے، 2010ء کے صدارتی انتخاب میں تیسرے نمبر پر رہے، اور 25 ستمبر 2026ء کو پیرس کے ایک اسپتال میں جلاوطنی میں انتقال ہوا۔"
+roles: [politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1945-08-15"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (citing rulers.org), the French article and Wikidata give his birth on 15 August 1945 at Dimbokro in French West Africa, now Côte d'Ivoire; the Historical Dictionary of Guinea entry cited by the French article gives his birth year as 1946 — the variant is recorded here and the day-level date followed. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-sidya-toure-en, source/wikipedia-sidya-toure-fr, source/wikidata-sidya-toure]
+died:
+  edtf: "2026-09-25"
+  hijri: "1448"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (citing Guinee Live of 26 September 2026), the French article (citing Africa Guinée and Jeune Afrique's obituary) and Wikidata give his death at a hospital in Paris on 25 September 2026, aged 81; the French article adds that he was buried at the Williamsville cemetery in Côte d'Ivoire. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-sidya-toure-en, source/wikipedia-sidya-toure-fr, source/wikidata-sidya-toure]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration. The French article's infobox names Islam; the English and Arabic articles have no religion content of any kind, and Wikidata carries no religion value. A single infobox is one family and never counts, so his Muslim identity is unattested in text and no school is named anywhere; under the doubt rule the value stays unknown with the reading preserved here (the single-infobox configuration)."
+    sources: [source/wikipedia-sidya-toure-en, source/wikipedia-sidya-toure-ar, source/wikipedia-sidya-toure-fr, source/wikidata-sidya-toure]
+external_ids: { wikidata: "Q324899" }
+sources: [source/wikipedia-sidya-toure-en, source/wikipedia-sidya-toure-ar, source/wikipedia-sidya-toure-fr, source/wikidata-sidya-toure]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sidya Touré' (revision 1379161670 of 8 October 2026), Arabic Wikipedia 'سيديا توري' (revision 76861607 of 4 October 2026), French Wikipedia 'Sidya Touré' (revision 240262944 of 11 October 2026) and Wikidata item Q324899 (item revision 2556510978 of 13 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (toure — the hits are Ahmed Sékou Touré, the Touré musicians and the footballers, all different men), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. The queue line reads '1945–Living', but he died on 25 September 2026, so the record carries a died block and wings [people] without living; the correction is recorded here. The Arabic article of 4 October 2026 does not yet record the death and is not used for it. No Urdu article exists, so the Urdu prose is written from the English, Arabic and French sources and says so. No place entity exists for Dimbokro or Paris, so no born_in or died_in edge is written; no successor_of edge is written — he was a prime minister, not head of state, the office had been abolished before him, and his successor as prime minister, Lamine Sidimé, has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
