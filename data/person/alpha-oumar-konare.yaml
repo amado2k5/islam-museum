@@ -1,0 +1,36 @@
+id: person/alpha-oumar-konare
+class: person
+label: { ar: "ألفا عمر كوناري", en: "Alpha Oumar Konaré", ur: "الفا عمر کونارے" }
+names:
+  - { value: "Alpha Oumar Konaré", kind: full }
+  - { value: "ألفا عمر كوناري", kind: full }
+gender: male
+summary:
+  ar: "سياسي وأكاديمي مالي (وُلد 1946) من كايس، مؤرخ وعالم آثار درس في باماكو ووارسو وجنيف ودرّس التاريخ وترأس المجلس الدولي للمتاحف (1989–1992)، ثم صار رئيس مالي لولايتين منتخبتين (1992–2002) — وفي أيامه الأخيرة في المنصب عفا عن موسى تراوري — ثم رئيس مفوضية الاتحاد الإفريقي (2003–2008)."
+  en: "Malian politician and academic (born 1946) from Kayes, a historian and archaeologist educated in Bamako, Warsaw and Geneva who taught history and presided over the International Council of Museums (1989–1992), then served two elected terms as President of Mali (1992–2002) — pardoning Moussa Traoré in his last days in office — and chaired the African Union Commission (2003–2008)."
+  ur: "مالی سیاست دان و ماہرِ تعلیم (پیدائش 1946ء)، کایس سے؛ مورخ و ماہرِ آثارِ قدیمہ، باماکو، وارسا اور جنیوا میں تعلیم پائی، تاریخ پڑھائی اور عجائب گھروں کی بین الاقوامی کونسل کے صدر رہے (1989ء–1992ء)، پھر مالی کے دو منتخب ادوار کے صدر (1992ء–2002ء) بنے — آخری دنوں میں موسی تراورے کو معافی دی — اور افریقی یونین کمیشن کے چیئرمین (2003ء–2008ء) رہے۔"
+roles: [politician, historian]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1946-02-02"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 2 February 1946 in Kayes, then French Sudan; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-alpha-oumar-konare-en, source/wikidata-alpha-oumar-konare]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Azad configuration (wave 70 §B): no text in the English or Arabic article names his religion, the Arabic article's infobox religion field is blank, and there are no religion category filings. The only attestation anywhere is Wikidata's single structured value, Sunni Islam — one structured value, which never counts. The Sunni reading is preserved here; the value stays unknown, one full source family short of sunni/documented."
+    sources: [source/wikipedia-alpha-oumar-konare-en, source/wikipedia-alpha-oumar-konare-ar, source/wikidata-alpha-oumar-konare]
+external_ids: { wikidata: "Q313239" }
+sources: [source/wikipedia-alpha-oumar-konare-en, source/wikipedia-alpha-oumar-konare-ar, source/wikidata-alpha-oumar-konare]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Alpha Oumar Konaré' (revision 1378221082 of 3 October 2026), Arabic Wikipedia 'ألفا عمر كوناري' (revision 72815313 of 19 December 2025) and Wikidata item Q313239 (item revision 2557722676 of 16 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (konare, konaré), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Kayes, so no born_in edge is written; he took office in 1992 succeeding a transitional government whose head, Amadou Toumani Touré, has no person record, so no successor_of edge is written (an edge to Moussa Traoré would misstate the succession)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
