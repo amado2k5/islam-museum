@@ -1,0 +1,48 @@
+id: person/ma-fulu
+class: person
+label:
+  ar: "ما فولو"
+  en: "Ma Fulu"
+  ur: "ما فولو"
+summary:
+  ar: "جنرال مسلم صيني (1854–1900)، ابن الجنرال ما تشيانلينغ وشقيق ما فوشيانغ. نال شهادة «جينشي» العسكرية وخدم حارسًا للإمبراطور في شبابه، ثم قاد قوات الهوي ضمن «شجعان قانسو» في قمع ثورة الدونغان 1895–1896، وقُتل سنة 1900 وهو يدافع عن بوابة تشنغيانغ في بكين ضد تحالف الدول الثماني أثناء ثورة الملاكمين."
+  en: "A Chinese Muslim general (1854–1900), son of General Ma Qianling and brother of Ma Fuxiang. He took the military jinshi degree and served as an imperial guard in his youth, then led Hui troops among the Kansu Braves in suppressing the Dungan revolt of 1895–1896, and was killed in 1900 defending the Zhengyang Gate in Peking against the Eight-Nation Alliance during the Boxer Rebellion."
+  ur: "ایک چینی مسلمان جنرل (1854ء–1900ء)، جنرل ما چیان لنگ کے بیٹے اور ما فو شیانگ کے بھائی۔ انہوں نے عسکری جن شی کی ڈگری حاصل کی اور جوانی میں شہنشاہ کے محافظ رہے، پھر 1895ء–1896ء کی دونغان بغاوت کو کچلنے میں «کانسو بہادر» فوج میں ہوئی دستوں کی قیادت کی، اور 1900ء میں باکسر بغاوت کے دوران آٹھ ملکی اتحاد کے خلاف پیکنگ کے ژینگ یانگ دروازے کا دفاع کرتے ہوئے قتل ہوئے۔"
+names:
+  - { value: "馬福祿", kind: full }
+  - { value: "Ma Fulu", kind: full }
+  - { value: "Shousan", kind: alternate }
+  - { value: "Zhonglie", kind: alternate }
+gender: male
+roles: [general]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1854"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Chinese articles and Wikidata give 1854, at Linxia County, Gansu (the Chinese article: Yangwashan, Hanjiaji township, in the same county). No day and no Hijri pairing are attested, so no hijri key is carried; no museum place record exists for Linxia, so no born_in relation is written."
+  sources: [source/wikipedia-ma-fulu-en, source/wikipedia-ma-fulu-zh, source/wikidata-ma-fulu]
+died:
+  edtf: "1900"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Killed in action at the Zhengyang Gate in Peking (Beijing) during the Battle of Peking in the Boxer Rebellion: the English article and Wikidata give the year 1900 at year precision. The Chinese article's data template files the death day as 13 August 1900, but its text cites no source for the day, so year precision is recorded and the day is carried in this note only. No Hijri pairing is attested, so no hijri key is carried; no museum place record exists for Beijing, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-ma-fulu-en, source/wikipedia-ma-fulu-zh, source/wikidata-ma-fulu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or an order for him. The English and Chinese articles call him a Chinese Muslim (Hui) general who fought alongside and against other Muslims as Qing service required; Wikidata gives Islam (Q432) in general. His father Ma Qianling's Hezhou milieu and his family's later prominence are background, not attestation, and the English article's categories (Chinese Muslims, Qing dynasty Muslims) are filings. Generic only: unknown."
+    sources: [source/wikipedia-ma-fulu-en, source/wikipedia-ma-fulu-zh, source/wikidata-ma-fulu]
+external_ids: { wikidata: "Q6720729" }
+sources: [source/wikipedia-ma-fulu-en, source/wikipedia-ma-fulu-zh, source/wikidata-ma-fulu]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Fulu' (revision 1380324173 of 15 October 2026), Chinese Wikipedia '馬福祿' (revision 94826389 of 7 October 2026) and Wikidata item Q6720729 (item revision 2520158898 of 20 July 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese article's. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q6720729; the English article's hatnote distinguishes him from the Peking opera actor Ma Fulu, a different man with no museum record, and no Arabic label is shared, so no homonym entry is required. No relations are written: his father Ma Qianling, his brother Ma Fuxiang and his son Ma Hongbin have no museum records, no museum place record exists for Linxia or Beijing, and no Qing polity entity exists. The two articles disagree on his reburial — the English article says his remains were moved to Yangzhushan in Linxia County in 1995, the Chinese article that his son Ma Hongbin brought them home in 1950 — and the discrepancy is carried unresolved in the prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
