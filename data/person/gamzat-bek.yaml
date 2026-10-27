@@ -1,0 +1,58 @@
+id: person/gamzat-bek
+class: person
+label:
+  ar: "حمزة بك الهوتسالي"
+  en: "Gamzat-bek"
+  ur: "حمزہ بیگ"
+summary:
+  ar: "غمزت بك (حمزة بك) بن إسكندر بك (1789–1834)، ثاني أئمة داغستان (1832–1834) وخليفة غازي محمد؛ قائد آواري من أسرة نبيلة قاد قوات الإمام الأول، فلما قُتل غازي محمد في غيمري انتُخب إماما، فأخضع معظم الهضبة الآوارية واستولى على خونزاخ عاصمة خانات الآفار وأباد أسرتها الحاكمة، ثم اغتاله في مسجد خونزاخ في 19 سبتمبر (1 أكتوبر) 1834 حاجي عثمان، أخو حاجي مراد، ثأرا للأسرة."
+  en: "Gamzat-bek (Hamzat Bek) ibn Iskandar-Bek (1789–1834) was the second Imam of Dagestan (1832–1834) and the successor of Ghazi Muhammad. An Avar commander of noble birth who had led the first imam's forces, he was proclaimed imam on Ghazi Muhammad's death at Gimry, subjugated most of the Avar plateau and captured Khunzakh, capital of the Avar Khanate, destroying its ruling family; he was assassinated in the Khunzakh mosque on 19 September (1 October) 1834 by Hajji Uthman, brother of Hajji Murad, in revenge for the family."
+  ur: "غمزت بیک (حمزہ بیک) بن اسکندر بیک (1789–1834) داغستان کے دوسرے امام (1832–1834) اور غازی محمد کے جانشین تھے۔ آوار اشرافیہ سے تعلق رکھنے والے اس سپہ سالار نے پہلے امام کی فوجوں کی قیادت کی؛ غازی محمد کی گمری میں شہادت پر وہ امام منتخب ہوئے، بیشتر آوار سطح مرتفع کو مطیع کیا اور آوار خانات کے دارالحکومت خونزاخ پر قبضہ کر کے اس کے حکمران خاندان کو ختم کر دیا؛ 19 ستمبر (1 اکتوبر) 1834 کو خونزاخ کی مسجد میں حاجی مراد کے بھائی حاجی عثمان نے خاندان کے انتقام میں انہیں قتل کر دیا۔"
+names:
+  - { value: "Gamzat-bek ibn Iskandar-Bek al-Gotsatli", kind: full }
+  - { value: "حمزة بك بن علي إسكندر بك الهوتسالي", kind: full }
+  - { value: "ХIамзат Бек", kind: full }
+  - { value: "Гамзат-бек", kind: full }
+  - { value: "Hamzat Bek", kind: alternate }
+  - { value: "Hamza Bek", kind: alternate }
+gender: male
+born:
+  edtf: "1789"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The birth year 1789 is given by the English and Russian articles' leads and by Wikidata. He was born at Gotsatl (Hutsal) in the Avar Khanate, to Aliskender-Bek, a commander and counsellor of the Avar khans, and a commoner mother, which made him a member of the janka class. No entity exists for Gotsatl, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru, source/wikidata-gamzat-bek]
+died:
+  edtf: "1834-10-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated in front of (English article) / inside (Russian article) the Friday mosque of Khunzakh on 19 September 1834 by the Julian calendar then in use in Russia — the same day as 1 October Gregorian, the dual form the English article gives; the Gregorian day is carried. Wikidata carries both calendar values of the same day. The assassin, Hajji Uthman, a relative of the Avar ruling family and brother of Hajji Murad, acted in revenge for Gamzat-bek's destruction of that family and was killed immediately after. Gamzat-bek was buried at Khunzakh; no entity exists for Khunzakh, so no died_in or buried_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru, source/wikidata-gamzat-bek]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [emir, scholar]
+relations:
+  - { type: successor_of, target: person/ghazi-muhammad, sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for Gamzat-bek personally, and the strongest text expressly separates him from the order his predecessor and successor belonged to: the English article states in its lead that, unlike Ghazi Muhammad and Shamil, he 'was not a member of the Naqshbandiyya-Khalidiyya Sufi order', and in its early-life section that 'he never joined the Naqshbandiyya-Khalidiyya Sufi order, of which Ghazi Muhammad and the third imam Shamil were members'. The Russian article likewise claims no order membership for him. Against this, the short Arabic stub describes him as having learned from the sheikhs of the Sufi orders and become 'a devoted follower of theirs', and the short Urdu stub calls him a follower of a Sufi order (silsila); both are brief, lightly sourced stubs (the Urdu one cites Kaziev's Imam Shamil; the Arabic one is unsourced and even misnumbers him as the third imam) and neither names an order. His English-article education 'in Shafi'i Islamic law and Arabic' is schooling, not a recorded personal affiliation, and Wikidata's religion value is Islam in general. The Sufi-follower reading is therefore contested by the scholarly text's express denial, and under the doubt rule it is not recorded: the segment stays unknown, flagged, with both readings preserved here. No member_of edge is written."
+    sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru, source/wikipedia-gamzat-bek-ar, source/wikipedia-gamzat-bek-ur, source/wikidata-gamzat-bek]
+external_ids:
+  wikidata: Q2737419
+sources:
+  - source/wikipedia-gamzat-bek-en
+  - source/wikipedia-gamzat-bek-ru
+  - source/wikipedia-gamzat-bek-ar
+  - source/wikipedia-gamzat-bek-ur
+  - source/wikidata-gamzat-bek
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English ('Hamzat Bek'), Russian ('Гамзат-бек'), Arabic and Urdu Wikipedia articles on Gamzat-bek and Wikidata item Q2737419, each read at a recorded revision (article extracts and revision ids returned in single API responses, so each text read is its recorded revision; the Wikidata item read twice with identical claims). Existence checked both ways before building: name fragments (gamzat, hamzat, гамзат) across data/person found no record of him — only his mention inside ghazi-muhammad's record and the unrelated modern fighter Khamzat Chimaev — and Q2737419 — grounded through the Russian article's page properties and confirmed by the item's sitelinks, since the English title 'Gamzat-bek' is a redirect — grepped across all data/person files with zero hits. Relations refused, with reasons: a member_of edge to group/naqshbandiyya — the English text expressly denies his membership of the order, so the edge would be false; born_in and died_in edges to Gotsatl and Khunzakh — no place entities exist. The edge the other way, Imam Shamil's succession to Gamzat-bek, belongs in Shamil's existing record and is not edited in this batch. His Arabic label (حمزة بك الهوتسالي) is the Arabic article's title and shares no exact string with any existing record's label; it was checked against the labels of imam-shamil's family records and of the two Muhammad records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-107
