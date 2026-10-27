@@ -1,0 +1,45 @@
+id: person/najm-al-din-akhundzada
+class: person
+label:
+  ar: "نجم الدين آخوندزاده"
+  en: "Najm al-Din Akhundzada"
+  ur: "نجم الدین آخوندزادہ"
+summary:
+  ar: "پير صوفي أفغاني من هده في ننغرهار (ت 1902)، تلميذ آخوند سوات عبد الغفور وخليفته، عُرف بملا هده وصاحب هده. أرسله شيخه إلى هده لنشر الإسلام والطريقة فبنى فيها مسجدا وخانقاه، وامتدت شبكة خلفائه وتلاميذه عبر قبائل الحدود فكان المنظّم الديني الأبرز لثورة 1897 ضد البريطانيين، وظل معارضا لسياسات الأمير عبد الرحمن الذي حاول استمالته فرفض."
+  en: "Afghan Sufi pir of Hadda in Nangarhar (died 1902), disciple and deputy of the Akhund of Swat, 'Abd al-Ghafur, known as the Mulla of Hadda and Hadda Sahib. Sent by his teacher to Hadda to propagate Islam and the Sufi path, he built a mosque and hospice there, and his network of deputies and disciples across the frontier tribes made him the central religious organiser of the 1897 uprising against the British; he also resisted the attempts of Amir 'Abd al-Rahman to co-opt him."
+  ur: "ننگرہار کے علاقے ہدہ کے افغان صوفی پیر (وفات 1902ء)، آخوندِ سوات عبدالغفور کے شاگرد اور خلیفہ، جو ملا ہدہ اور صاحبِ ہدہ کے نام سے مشہور ہوئے۔ ان کے استاد نے انہیں ہدہ بھیجا تاکہ اسلام اور طریقت کی تبلیغ کریں؛ وہاں انہوں نے مسجد اور خانقاہ بنائی، اور سرحدی قبائل میں ان کے خلفاء و مریدین کے جال نے انہیں 1897ء کی انگریز مخالف بغاوت کا مرکزی دینی منتظم بنا دیا۔"
+names:
+  - { value: "Najmuddin Akhundzada", kind: full }
+  - { value: "نجم الدين آخوندزاده", kind: full }
+  - { value: "Mulla of Hadda", kind: laqab }
+  - { value: "Hadda Mullah", kind: laqab }
+  - { value: "Hadda Sahib", kind: laqab }
+  - { value: "Mulla Najmuddin", kind: alternate }
+gender: male
+died:
+  edtf: "1902"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The International Encyclopedia of the First World War gives his death as 1902, the year the harvest queue also carries. Edwards, whose account rests on the oral histories of his disciples' descendants, calls him 'an old man at his death in 1903'. The encyclopedia's 1902 is carried, marked debated. No source read gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/encyclopedia-1914-1918-afghanistan, source/edwards-heroes-of-the-age-1996]
+roles: [activist]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts attest a personal Sufi affiliation, not merely an office or a title. Edwards, from the oral histories of his disciples' descendants, recounts that he became the Akhund of Swat's disciple, performed the zikr — 'the spiritual exercises of the Sufi order' — was sent by the Akhund to settle at Hadda 'to propagate Islam and tariqat [the Sufi path]', and himself stood at the head of a line of disciples and deputies (the Hazrat of Butkhak, the Haji of Turangzai, the Ustad of Hadda and others). The Tribal Analysis Center report, drawing on Sana Haroon's Frontier of Faith, independently states that he received permission from the Akhund of Swat to teach all four prominent Sufi schools from Hadda — a personal teaching authorisation. No single named order is attested for him personally: his teacher was himself authorised in the Naqshbandi, Qadiri, Chishti and Suhrawardi orders, and the sources do not tie Najmuddin to one of them, so the generic value sufi is recorded and no order value is asserted."
+    sources: [source/edwards-heroes-of-the-age-1996, source/tribal-analysis-center-mad-mullahs]
+sources:
+  - source/edwards-heroes-of-the-age-1996
+  - source/tribal-analysis-center-mad-mullahs
+  - source/encyclopedia-1914-1918-afghanistan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "David B. Edwards' Heroes of the Age (1996), the Tribal Analysis Center report 'Mad Mullahs, Opportunists and Family Connections' (drawing on Sana Haroon's Frontier of Faith) and the 'Afghanistan' article of 1914-1918-online, all read on 27 October 2026. No Wikipedia article in any language was found for him. Existence was checked by name-fragment greps under all spellings (Najmuddin/Najm al-Din/Akhundzada/Hadda) and by biographical match; the grounded-QID grep route could not be run and that limitation is stated here. SLUG: the record is built under his documented personal name, najm-al-din-akhundzada, rather than the queue's style 'Ghazi Saheb of Hadda'; the choice is flagged in the writer's report. NO BORN BLOCK is written: no source read gives a birth date or year — Edwards supposes he was in Kabul around 1850 and was an old man at his death, and the queue's 1825 is attested nowhere — under the standing no-born-block precedent. No relations are written: his teacher the Akhund of Swat has no person record (a student_of edge is therefore impossible), and neither Hadda nor Jalalabad has a place entity. The roles value [activist] follows the wave 114–115 precedent for religious resistance organisers and is flagged in the writer's report."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116

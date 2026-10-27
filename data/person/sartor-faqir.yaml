@@ -1,0 +1,43 @@
+id: person/sartor-faqir
+class: person
+label:
+  ar: "سرتور فقير"
+  en: "Sartor Faqir"
+  ur: "سرتور فقیر"
+summary:
+  ar: "فقير متجول پشتوني من قرية ريغا في وادي بونير (ت 1917)، اسمه سعيد الله خان، عُرف بملا مستان أي «الثمل بالله». في يوليو 1897 أعلن الجهاد وقاد آلاف المقاتلين القبليين لمهاجمة حصني ملاكند وچاكدرّه البريطانيين، فكان شرارة ثورة الحدود الكبرى تلك السنة؛ ثم خفت حركته بعد الثورة وتفرّقت بوفاته سنة 1917."
+  en: "Pashtun religious mendicant of Rega in the Buner Valley (died 1917), born Saidullah Khan and known as Mullah Mastan, 'the God-intoxicated'. In July 1897 he proclaimed jihad and led thousands of tribesmen against the British posts at Malakand and Chakdara, setting off the great frontier uprising of that year; his movement faded after the rising and broke up on his death in 1917. The names 'Mad Mullah' and 'Mad Faqir', by which British writers called him, are colonial labels and are recorded as such."
+  ur: "وادیِ بونیر کے گاؤں ریگا کے پشتون درویش (وفات 1917ء)، اصل نام سعید اللہ خان، جو ملا مستان یعنی «خدا میں مست» کے نام سے مشہور ہوئے۔ جولائی 1897ء میں انہوں نے جہاد کا اعلان کیا اور ہزاروں قبائلیوں کی قیادت میں ملاکنڈ اور چکدرہ کی برطانوی چوکیوں پر حملہ کیا، جس سے اس سال کی عظیم سرحدی بغاوت بھڑک اٹھی؛ ان کی تحریک بغاوت کے بعد ماند پڑ گئی اور 1917ء میں ان کی وفات پر بکھر گئی۔"
+names:
+  - { value: "Saidullah Khan", kind: full }
+  - { value: "سرتور فقير", kind: full }
+  - { value: "Mullah Mastan", kind: laqab }
+  - { value: "Saadullah Khan", kind: alternate }
+  - { value: "Lewanai Faqir", kind: alternate }
+gender: male
+died:
+  edtf: "1917"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives his death as 1917, with 1918 as a variant in its infobox; 1917 is carried, marked debated. No source read gives a Hijri pairing for this date, so none is recorded, and no died_in relation is written: no source read names a place of death that a place entity covers."
+  sources: [source/wikipedia-sartor-faqir-en]
+roles: [activist]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no text names a school or a Sufi order for him. The English article has no religion field; Edwards, who studied him at length, presents an independent religious mendicant who had abandoned home and family, with no teacher, initiation or order attested — his followers' belief in his miraculous powers is a public role, not an affiliation. The only school-word found in any source read is a Churchill Society magazine's unattributed statement that he 'shared close affinity with the extremist Wahhabi sect of Arabia': a modern restatement of colonial-era framing, offered without a source, and never evidence under the lane's rules; it is preserved here so the question stays visible. Under the two-source rule and the doubt rule the value stays unknown."
+    sources: [source/wikipedia-sartor-faqir-en, source/edwards-heroes-of-the-age-1996]
+sources:
+  - source/wikipedia-sartor-faqir-en
+  - source/edwards-heroes-of-the-age-1996
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Sartor Faqir and David B. Edwards' Heroes of the Age (1996), chapter 5, both read on 27 October 2026. No Arabic, Urdu or Pashto Wikipedia article was found for him. The fetch route available to this writer exposed no revision id or Wikidata identifier, so the Wikipedia source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings (Sartor/Saidullah/Saadullah/Mastan) and by biographical match; the grounded-QID grep route could not be run and that limitation is stated here. NO BORN BLOCK is written: the English article gives no birth date at all — only his birthplace, Rega in the Buner Valley — and the queue's 1830 is attested nowhere, under the standing no-born-block precedent. The article's statement that he settled for ten years at Mazar-i-Sharif yields NO relation: place/mazar is the Andalusian Mazara, not Mazar-i-Sharif, and no Mazar-i-Sharif place entity exists. The British epithets 'Mad Mullah' and 'Mad Faqir' are handled in prose as attributed colonial labels only and are not entered as names. The roles value [activist] follows the wave 114–115 precedent and is flagged in the writer's report."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116

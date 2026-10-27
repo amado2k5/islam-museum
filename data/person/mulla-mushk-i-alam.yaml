@@ -1,0 +1,51 @@
+id: person/mulla-mushk-i-alam
+class: person
+label:
+  ar: "ملا مشک عالم"
+  en: "Mulla Mushk-i-Alam"
+  ur: "ملا مشک عالم"
+summary:
+  ar: "زعيم ديني أفغاني من قسم أندر من قبيلة غلزاي (1790–نحو 1885)، واسمه الأصلي دين محمد ولقّبه معلّمه ملا عبد الحكيم بـ«مشك العالم». كان الزعيم الروحي لثورة 1879–1880 ضد البريطانيين في الحرب الإنجليزية الأفغانية الثانية وأبرز قادة «الحزب الوطني» الذين حاصروا معسكر شيرپور، فاعتُقل في عهد الأمير عبد الرحمن بتهمة التآمر لإعادة أيوب خان وقُتل في حبسه، فخلفه ابنه عبد الكريم بيرا وأصدر فتوى ضد الأمير سنة 1885."
+  en: "Afghan religious leader of the Andar section of the Ghilzai tribe (1790–c. 1885), born Din Mohammad and given the laqab Mushk-i-'Alam ('perfume of the universe') by his teacher Mulla 'Abd al-Hakim. He was the spiritual leader of the 1879–80 rising against the British in the Second Anglo-Afghan War and the most influential of the 'National Party' leaders who besieged the Sherpur cantonment. Arrested under Amir 'Abd al-Rahman on a charge of plotting Ayub Khan's restoration, he was killed in custody; his son 'Abd al-Karim succeeded him as pir and issued a fatwa against the Amir in 1885."
+  ur: "غلزئی قبیلے کے اندر طبقے کے افغان دینی رہنما (1790ء–تقریباً 1885ء)، اصل نام دین محمد، جنہیں ان کے استاد ملا عبدالحکیم نے «مشکِ عالم» کا لقب دیا۔ وہ دوسری اینگلو افغان جنگ میں 1879–80ء کی بغاوت کے روحانی رہنما اور شیرپور چھاؤنی کا محاصرہ کرنے والے «قومی جماعت» کے سب سے بااثر قائد تھے۔ امیر عبدالرحمٰن کے دور میں ایوب خان کی بحالی کی سازش کے الزام میں گرفتار ہو کر قید میں قتل ہوئے؛ ان کے بیٹے عبدالکریم ان کے جانشین پیر بنے۔"
+names:
+  - { value: "Mulla Mushk-i-Alam", kind: full }
+  - { value: "ملا مشک عالم", kind: full }
+  - { value: "Din Mohammad", kind: full }
+  - { value: "Mushk-i-Alam Akhundzada", kind: alternate }
+gender: male
+born:
+  edtf: "1790"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Kakar's thesis alone gives his birth year: 'he was too old (b. 1790) to be able to lead the struggle personally'. No other source read gives a birth date, and the single-source year is therefore carried as debated. No source read gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/kakar-consolidation-abd-al-rahman-1968]
+died:
+  edtf: "1885"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Lee recounts that he was arrested with others accused of plotting the restoration of Ayub Khan and was poisoned in prison or put to death, and that by the end of 1885 his eldest son had succeeded him as pir and issued a fatwa against the Amir — so he died in or before 1885. The harvest queue gives 1886, which no source read supports; 1885 is carried, marked debated. No source read gives a Hijri pairing, so none is recorded. No died_in relation is written: Lee places the killings of the group near Kabul but does not name his individual place of death."
+  sources: [source/lee-afghanistan-history-2018]
+roles: [activist]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no source names a Sufi order or a school of law for him. Edwards, in one scholarly text, numbers him among the 'Sufi masters intimately familiar with the mystic realm' who led the resistance of the Second Anglo-Afghan War — a single text, which by itself is one source family. Lee presupposes that he was a pir: his eldest son 'succeeded him as pir', a succession after death that attests his standing as a pir but is order headship passing within a family, which the headship line does not count as a personal affiliation attestation. Kakar describes his religious learning, the madrasas he founded and the laqab his teacher gave him, and names no order. Under the two-source rule and the doubt rule the value therefore stays unknown, with the Edwards attestation preserved here; a founder word accepting the single Edwards text, or a second text naming his affiliation, would settle sufi."
+    sources: [source/edwards-heroes-of-the-age-1996, source/lee-afghanistan-history-2018, source/kakar-consolidation-abd-al-rahman-1968]
+sources:
+  - source/kakar-consolidation-abd-al-rahman-1968
+  - source/lee-afghanistan-history-2018
+  - source/edwards-heroes-of-the-age-1996
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "M. Hasan Kakar's SOAS MPhil thesis of 1968 (chapter 1), Jonathan L. Lee's Afghanistan: A History from 1260 to the Present (2018) and David B. Edwards' Heroes of the Age (1996), all read on 27 October 2026. No Wikipedia article in any language was found for him. Existence was checked by name-fragment greps under all spellings (Mushk/Moshk/Mushk-i-Alam) and by biographical match; the grounded-QID grep route could not be run — no Wikidata item was identified for him — and that limitation is stated here. His faith is unknown FLAGGED: one scholarly text (Edwards) calls him a Sufi master, which is a single source family. The roles value [activist] is a judgment call on the wave 114–115 precedent for resistance leaders whose work was preaching and mobilisation rather than battlefield command (Kakar says he was too old to lead the struggle personally); it is flagged in the writer's report. No relations are written: the places of his activity (Ghazni, Andar) have no place entities, and his son Abd al-Karim, who succeeded him as pir, has no person record, so no parent_of edge can be written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116
