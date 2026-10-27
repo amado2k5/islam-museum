@@ -1,0 +1,41 @@
+id: person/datu-ali
+class: person
+label:
+  ar: "داتو علي"
+  en: "Datu Ali"
+  ur: "داتو علی"
+summary:
+  ar: "راجا بويان (1902–1905) وآخر زعماء المورو الكبار الذين قاوموا الحكم الأمريكي في منداناو. كان راجا مودا تينونغكوب وابن عم داتو أوتو الذي خلفه، وقاتل الإسبان منذ 1886، وقاد منذ 1903 نحو ثلاثة آلاف مقاتل ضد الولايات المتحدة، رافضًا التخلي عن استقلاله أو تحرير عبيده بموجب قانون إلغاء الرق سنة 1903. قُتل في معركة نهر مالالا في 22 تشرين الأول 1905."
+  en: "Rajah of Buayan (1902–1905) and the last major Moro chieftain to resist American rule in Mindanao. Rajahmuda of Tinungkup and cousin of Datu Uto, whom he succeeded, he had fought the Spanish from 1886 and from 1903 led some 3,000 followers against the United States, refusing to yield his independence or free his slaves under the 1903 anti-slavery law. He was killed at the Battle of the Malala River on 22 October 1905."
+  ur: "راجا بویان (1902ء–1905ء) اور منداناؤ میں امریکی حکومت کی مزاحمت کرنے والے آخری بڑے مورو سردار۔ تینونگکوپ کے راجا مودا اور داتو اوتو کے چچا زاد بھائی، جن کے جانشین بنے؛ 1886ء سے ہسپانویوں سے لڑے اور 1903ء سے تقریباً تین ہزار پیروکاروں کے ساتھ امریکا کے خلاف جنگ کی، اپنی خودمختاری چھوڑنے یا 1903ء کے انسدادِ غلامی قانون کے تحت غلام آزاد کرنے سے انکار کیا۔ 22 اکتوبر 1905ء کو دریائے مالالا کی جنگ میں مارے گئے۔"
+names:
+  - { value: "Rajamuda Datu Ali bin Sultan Bayao bin Sultan Maitum", kind: full }
+  - { value: "Datu Ali", kind: full }
+gender: male
+roles: [emir, general]
+wings: [people]
+regions: [southeast-asia]
+died:
+  edtf: "1905-10-22"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's infobox and text give 22 October 1905, killed at the Battle of the Malala River in Maguindanao; Wikidata gives the year 1905. The Hijri year 1323 is the conversion of the Gregorian date, hence derived. No place entity exists for the Malala River or Maguindanao, so no died_in relation is written."
+  sources: [source/wikipedia-datu-ali-en, source/wikidata-datu-ali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school reading exists in exactly one infobox: the English article's infobox gives his religion as Sunni Islam. Wikidata gives Islam (Q432) in general; the article's text names no school — it frames his wars against Spain and the United States, and his refusal of the 1903 anti-slavery law, in political and economic terms, and resistance leadership is not affiliation. One infobox family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-datu-ali-en, source/wikidata-datu-ali]
+relations:
+  - { type: successor_of, target: person/datu-uto, sources: [source/wikipedia-datu-ali-en, source/wikipedia-datu-uto-en] }
+external_ids: { wikidata: "Q48805464" }
+sources: [source/wikipedia-datu-ali-en, source/wikidata-datu-ali]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Datu Ali' (revision 1375862161 of 20 September 2026) and Wikidata item Q48805464 (item revision 2553334995 of 5 October 2026), fetched through the MediaWiki/Wikidata APIs on 27 October 2026, the article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical revision and claims. The QID was grounded through the English article's page properties. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic fragments or the QID Q48805464, and no shared Arabic label requires a homonym entry. This record carries NO born block: no source read gives him a birth date at all — the queue's 1860 is unattested in any of them. The successor_of edge is written here, in his own record: his article's infobox names Datu Uto as predecessor and its text states he succeeded his cousin Uto as Rajah of Buayan on Uto's death in 1902 (citing Fulton 2009 and the National Historical Commission's study), and Uto's article likewise lists Ali among his successors; Uto's record is built in this same run. His father Sultan Bayao has no museum record, so no child_of edge is written, and no Buayan polity entity exists for a ruler_of edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96
