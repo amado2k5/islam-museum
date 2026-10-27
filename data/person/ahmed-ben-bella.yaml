@@ -1,0 +1,53 @@
+id: person/ahmed-ben-bella
+class: person
+label: { ar: "أحمد بن بلة", en: "Ahmed Ben Bella", ur: "احمد بن بیلا" }
+names:
+  - { value: "أحمد بن بلة", kind: full }
+  - { value: "Ahmed Ben Bella", kind: full }
+  - { value: "Ahmad ibn Billah", kind: alternate }
+gender: male
+summary:
+  ar: "أحمد بن بلة (1916–2012)، سياسي وثوري جزائري من قادة جبهة التحرير الوطني في حرب الاستقلال؛ كان أول رئيس حكومة للجزائر المستقلة (1962–1963) ثم أول رئيس للجمهورية (1963–1965)، حتى أطاح به انقلاب هواري بومدين، فبقي رهن الاعتقال والمنفى سنوات طويلة قبل أن يعود إلى الجزائر."
+  en: "Ahmed Ben Bella (1916–2012) was an Algerian politician and revolutionary, a leader of the National Liberation Front in the war of independence. He was the first head of government of independent Algeria (1962–1963) and then its first president (1963–1965), until Houari Boumédiène's coup overthrew him; he spent long years detained and exiled before returning to Algeria."
+  ur: "احمد بن بیلا (1916ء–2012ء) جزائری سیاست دان اور انقلابی تھے، جنگ آزادی میں جبهة التحرير الوطني کے رہنما؛ وہ آزاد جزائر کے پہلے سربراہ حکومت (1962ء–1963ء) اور پھر پہلے صدر (1963ء–1965ء) بنے، یہاں تک کہ ہواری بومدین کی بغاوت نے انھیں ہٹا دیا، اور وہ طویل عرصے تک قید اور جلاوطنی میں رہے۔"
+roles: [politician]
+born:
+  edtf: "1916-12-25"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Arabic article and Wikidata give 25 December 1916 at Maghnia, in the west of French Algeria, to a family that had come from Marrakech. The day is recorded as debated: the English article gives the year 1916 only and warns in a note that the exact date is not known, that some sources state 1918, that his father antedated his birth by two years, and that Ben Bella himself said in a 2002 interview that he was probably born in 1916. The Hijri year 1335 is a tabular conversion of the followed date, marked derived. Maghnia has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-ahmed-ben-bella-en, source/wikipedia-ahmed-ben-bella-ar, source/wikipedia-ahmed-ben-bella-ur, source/wikidata-ahmed-ben-bella]
+died:
+  edtf: "2012-04-11"
+  hijri: "1433"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at his family home in Algiers on 11 April 2012; his body lay in state on 12 April and his funeral was held at El Alia Cemetery on 13 April, where the Arabic article places his burial in the Martyrs' Square. The Hijri year 1433 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-ahmed-ben-bella-en, source/wikipedia-ahmed-ben-bella-ar, source/wikidata-ahmed-ben-bella]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or madhhab for the man. FLAGGED for the founder: the Sunni reading rests on one structured-data value alone — Wikidata's religion value is Sunni Islam (Q483654), while the Urdu infobox gives Islam in general and the English and Arabic infoboxes carry no religion field at all. No article text corroborates the Sunni value, and one family never attests a school on its own (the el-Sisi and Marzouki configuration). The articles' accounts of his Arab socialism and of Islam in his political thought are politics and state policy, not a personal attestation; his early schooling in the Qur'anic zawiya where his father was muqaddam is formation and family background, expressly not counted."
+    sources: [source/wikipedia-ahmed-ben-bella-en, source/wikipedia-ahmed-ben-bella-ar, source/wikipedia-ahmed-ben-bella-ur, source/wikidata-ahmed-ben-bella]
+relations:
+  - { type: died_in, target: place/algiers, sources: [source/wikipedia-ahmed-ben-bella-en, source/wikipedia-ahmed-ben-bella-ar, source/wikidata-ahmed-ben-bella] }
+  - { type: buried_in, target: place/algiers, sources: [source/wikipedia-ahmed-ben-bella-en, source/wikipedia-ahmed-ben-bella-ar] }
+wings: [people]
+regions: [maghreb]
+external_ids: { wikidata: "Q179908" }
+sources:
+  - source/wikipedia-ahmed-ben-bella-en
+  - source/wikipedia-ahmed-ben-bella-ar
+  - source/wikipedia-ahmed-ben-bella-ur
+  - source/wikidata-ahmed-ben-bella
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Ahmed Ben Bella in English (revision 1381382192 of 22 Oct 2026), Arabic (revision 77066676 of 25 Oct 2026) and Urdu (revision 11276372 of 26 Jun 2026) and the Wikidata item Q179908 (item revision 2557611503 of 16 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q179908). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: he was the first holder of the presidency, an office created in 1963 — the English infobox's predecessor field for it is empty, and Ferhat Abbas, who has a record, headed the Provisional Government of the Algerian Republic (1958–1961), a different office; the English text's remark that Ben Bella succeeded Abbas describes the headship of the state, not succession within the presidency."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

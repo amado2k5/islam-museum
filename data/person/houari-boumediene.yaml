@@ -1,0 +1,56 @@
+id: person/houari-boumediene
+class: person
+label: { ar: "هواري بومدين", en: "Houari Boumédiène", ur: "ہوارى بومدین" }
+names:
+  - { value: "هواري بومدين", kind: full }
+  - { value: "Houari Boumédiène", kind: full }
+  - { value: "محمد بن إبراهيم بوخروبة", kind: alternate }
+  - { value: "Mohammed ben Brahim Boukharouba", kind: alternate }
+  - { value: "Boumediene", kind: alternate }
+  - { value: "Boumedienne", kind: alternate }
+gender: male
+summary:
+  ar: "هواري بومدين (1932–1978)، ضابط وسياسي جزائري، اسمه عند الولادة محمد بن إبراهيم بوخروبة؛ قاد الجناح العسكري لجبهة التحرير الوطني في حرب الاستقلال، وصار وزيرا للدفاع بعد الاستقلال، ثم أطاح بأحمد بن بلة سنة 1965 وحكم الجزائر رئيسا لمجلس الثورة ثم رئيسا للجمهورية حتى وفاته في المنصب."
+  en: "Houari Boumédiène (1932–1978) was an Algerian officer and politician, born Mohammed ben Brahim Boukharouba. He commanded the FLN's military wing in the war of independence, became minister of defence after independence, then overthrew Ahmed Ben Bella in 1965 and ruled Algeria, as chairman of the Revolutionary Council and then as president, until his death in office."
+  ur: "ہواری بومدین (1932ء–1978ء) جزائری افسر اور سیاست دان تھے، پیدائشی نام محمد بن ابراہیم بوخروبہ؛ جنگ آزادی میں جبهة التحرير الوطني کے عسکری ونگ کے کمانڈر رہے، آزادی کے بعد وزیر دفاع بنے، پھر 1965ء میں احمد بن بیلا کو ہٹا کر مجلسِ ثورہ کے چیئرمین اور پھر صدر کی حیثیت سے وفات تک جزائر پر حکمران رہے۔"
+roles: [politician]
+born:
+  edtf: "1932-08-23"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Most sources give 23 August 1932, the date his father confirmed as his in a 1965 interview, and the Arabic article gives that date with the birthplace as Medjaz Amar in Guelma province. The date is recorded as debated: the English article reports his birthplace variously as Guelma, the nearby village of Clauzel, or Héliopolis, and his birth date as 16 August 1925, 23 August 1927, or, in most sources, 1932, and Wikidata carries both 1932 and 1927 values. The Hijri year 1351 is a tabular conversion of the followed date, marked derived. None of Guelma, Héliopolis or Medjaz Amar has a place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikidata-houari-boumediene]
+died:
+  edtf: "1978-12-27"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died in office in Algiers on 27 December 1978; all the articles and Wikidata agree on the date and place. The Hijri year 1399 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikidata-houari-boumediene]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or madhhab for the man. FLAGGED for the founder: no school reading exists anywhere. The only religion datum is Wikidata's single religion value, Islam (Q432) in general — one structured-data family (the Erekat configuration); the Urdu article's categories file him under Algerian Muslims and Islamic socialists, which are category filings, not attestations. His studies at the Islamic Institute in Constantine and at al-Azhar are formation, his father's strict Islam is family background, and his constitutional making of Islam the state religion is state policy; none of these attests a personal school."
+    sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikipedia-houari-boumediene-ur, source/wikidata-houari-boumediene]
+relations:
+  - { type: successor_of, target: person/ahmed-ben-bella, sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar] }
+  - { type: died_in, target: place/algiers, sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikidata-houari-boumediene] }
+wings: [people]
+regions: [maghreb]
+external_ids: { wikidata: "Q310855" }
+sources:
+  - source/wikipedia-houari-boumediene-en
+  - source/wikipedia-houari-boumediene-ar
+  - source/wikipedia-houari-boumediene-ur
+  - source/wikidata-houari-boumediene
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Houari Boumédiène in English (revision 1377701693 of 30 Sep 2026), Arabic (revision 77068306 of 25 Oct 2026) and Urdu (revision 12066613 of 29 Sep 2026) and the Wikidata item Q310855 (item revision 2557925371 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q310855). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. The successor_of edge to Ahmed Ben Bella is written because both the English and Arabic infoboxes name Ben Bella as his predecessor as head of state: he took power from Ben Bella on 19 June 1965 as chairman of the Revolutionary Council, the presidency itself being restored only in December 1976, so the edge is scoped to the headship of the state across that office change. No buried_in edge is written: his burial at El Alia Cemetery in Algiers is carried only by an Arabic article category filing, not by any article text."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

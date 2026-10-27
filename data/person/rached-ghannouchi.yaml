@@ -1,0 +1,44 @@
+id: person/rached-ghannouchi
+class: person
+label: { ar: "راشد الغنوشي", en: "Rached Ghannouchi", ur: "راشد الغنوشی" }
+names:
+  - { value: "راشد الغنوشي", kind: full }
+  - { value: "Rached Ghannouchi", kind: full }
+  - { value: "Rashad Khriji", kind: alternate }
+  - { value: "راشد الخريجي", kind: alternate }
+  - { value: "Rachid al-Ghannouchi", kind: alternate }
+  - { value: "Rached el-Ghannouchi", kind: alternate }
+gender: male
+summary:
+  ar: "راشد الغنوشي (ولد سنة 1941)، سياسي ومفكر تونسي، شريك مؤسس لحركة النهضة وقائدها منذ سنة 1991؛ سُجن في عهدي بورقيبة وبن علي وعاش منفيا في لندن اثنين وعشرين عاما، ثم عاد بعد ثورة 2011 وصار رئيسا لمجلس نواب الشعب (2019–2021)، وهو مسجون في تونس منذ سنة 2023."
+  en: "Rached Ghannouchi (born 1941) is a Tunisian politician and thinker, co-founder of the Ennahda Movement and its leader since 1991. Imprisoned under Bourguiba and Ben Ali and exiled in London for twenty-two years, he returned after the 2011 revolution, became Speaker of the Assembly of the Representatives of the People (2019–2021), and has been imprisoned in Tunisia since 2023."
+  ur: "راشد الغنوشی (پیدائش 1941ء) تیونس کے سیاست دان اور مفکر ہیں، النہضہ تحریک کے شریک بانی اور 1991ء سے اس کے رہنما؛ بورقیبہ اور بن علی کے عہد میں قید رہے اور لندن میں بائیس سال جلاوطن رہے، پھر 2011ء کے انقلاب کے بعد واپس آئے، پارلیمنٹ کے اسپیکر بنے (2019ء–2021ء)، اور 2023ء سے تیونس میں قید ہیں۔"
+roles: [politician, writer]
+born:
+  edtf: "1941-06-22"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 22 June 1941 at El Hamma in the province of Gabès, in the French protectorate of Tunisia; all three articles and Wikidata agree on the date, and the English article cites Tamimi's biography for the village near El Hamma. The Hijri year 1360 is a tabular conversion, marked derived. El Hamma has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-rached-ghannouchi-en, source/wikipedia-rached-ghannouchi-ar, source/wikipedia-rached-ghannouchi-ur, source/wikidata-rached-ghannouchi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or madhhab for the man. FLAGGED for the founder: this is the movement-without-school configuration. All three articles attest at length that he co-founded and leads the Ennahda Movement and that he writes and speaks on Islam and democracy — a movement and a body of public thought, never a school. The only religion datum is general: the Arabic infobox gives Islam (الإسلام), and Wikidata's single religion value is Islam (Q432) in general — one source family carrying no school value at all. A movement never attests a school on its own (the Ahmed Yassin and Mohamed Morsi precedents), so nothing is recorded beyond this note."
+    sources: [source/wikipedia-rached-ghannouchi-en, source/wikipedia-rached-ghannouchi-ar, source/wikipedia-rached-ghannouchi-ur, source/wikidata-rached-ghannouchi]
+wings: [people, living]
+regions: [maghreb]
+external_ids: { wikidata: "Q360792" }
+sources:
+  - source/wikipedia-rached-ghannouchi-en
+  - source/wikipedia-rached-ghannouchi-ar
+  - source/wikipedia-rached-ghannouchi-ur
+  - source/wikidata-rached-ghannouchi
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Rached Ghannouchi in English (revision 1378171789 of 3 Oct 2026), Arabic (revision 76846060 of 3 Oct 2026) and Urdu (revision 10607756 of 25 May 2026) and the Wikidata item Q360792 (item revision 2558219571 of 18 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q360792). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No relations are written: El Hamma, his birthplace, has no place entity, and the museum has no group entity for the Ennahda Movement, so neither a born_in nor a founder_of or member_of edge can be written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,52 @@
+id: person/liamine-zeroual
+class: person
+label: { ar: "اليمين زروال", en: "Liamine Zéroual", ur: "الیمین زروال" }
+names:
+  - { value: "اليمين زروال", kind: full }
+  - { value: "Liamine Zéroual", kind: full }
+  - { value: "El-Yamine Zeroual", kind: alternate }
+  - { value: "Lyamin Ẓerwal", kind: alternate }
+gender: male
+summary:
+  ar: "اليمين زروال (1941–2026)، ضابط وسياسي جزائري من مجاهدي حرب الاستقلال؛ كان وزيرا للدفاع ثم رئيسا للدولة سنة 1994 خلفا للمجلس الأعلى للدولة، وانتُخب رئيسا للجمهورية سنة 1995 فحكم حتى سنة 1999 في قلب العشرية السوداء، وتوفي في الجزائر العاصمة في 28 مارس 2026."
+  en: "Liamine Zéroual (1941–2026) was an Algerian officer and politician, a veteran of the war of independence. He was minister of defence, then head of state in 1994 in succession to the High Council of State, and was elected president in 1995, ruling until 1999 in the midst of the civil war; he died in Algiers on 28 March 2026."
+  ur: "الیمین زروال (1941ء–2026ء) جزائری افسر اور سیاست دان تھے، جنگ آزادی کے مجاہد؛ وہ وزیر دفاع رہے، پھر 1994ء میں مجلسِ اعلیٰ ریاست کے بعد سربراہ ریاست بنے، اور 1995ء میں صدر منتخب ہو کر 1999ء تک خانہ جنگی کے عروج میں حکمران رہے۔ وہ 28 مارچ 2026ء کو الجزائر شہر میں وفات پا گئے۔"
+roles: [politician]
+born:
+  edtf: "1941-07-03"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 July 1941 at Batna, in French Algeria; both articles and Wikidata agree on the date and place. The Hijri year 1360 is a tabular conversion, marked derived. Batna has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-liamine-zeroual-en, source/wikipedia-liamine-zeroual-ar, source/wikidata-liamine-zeroual]
+died:
+  edtf: "2026-03-28"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at the Aïn Naâdja Military Hospital in Algiers on 28 March 2026, aged 84, after a long illness; the Arabic article itself dates the death to 9 Shawwal 1447, so the Hijri year 1447 is the article's own pairing as well as a tabular conversion. He was buried in the central cemetery at Bouzourane in Batna, after lying in state at the People's Palace in Algiers; Batna has no place entity, so no buried_in relation is written. The queue line's description of him as living is outdated: both articles and Wikidata record the death."
+  sources: [source/wikipedia-liamine-zeroual-en, source/wikipedia-liamine-zeroual-ar, source/wikidata-liamine-zeroual]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in either article names a school or madhhab for the man, and neither infobox carries a religion field. FLAGGED for the founder: no school reading exists anywhere. The only religion datum is Wikidata's single religion value, Islam (Q432) in general — one structured-data family (the Erekat configuration). His conduct of the state during the civil war against armed Islamist groups is state politics, not a personal attestation."
+    sources: [source/wikipedia-liamine-zeroual-en, source/wikipedia-liamine-zeroual-ar, source/wikidata-liamine-zeroual]
+relations:
+  - { type: died_in, target: place/algiers, sources: [source/wikipedia-liamine-zeroual-en, source/wikipedia-liamine-zeroual-ar, source/wikidata-liamine-zeroual] }
+wings: [people]
+regions: [maghreb]
+external_ids: { wikidata: "Q327127" }
+sources:
+  - source/wikipedia-liamine-zeroual-en
+  - source/wikipedia-liamine-zeroual-ar
+  - source/wikidata-liamine-zeroual
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Liamine Zéroual in English (revision 1380581617 of 16 Oct 2026) and Arabic (revision 76464011 of 7 Sep 2026) and the Wikidata item Q327127 (item revision 2558119195 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both editions agree on Q327127). No Urdu Wikipedia article on him exists; several spellings were searched on 27 October 2026 and all were missing, so the Urdu prose is written from the English and Arabic articles and says so. Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: his predecessor as head of state, Ali Kafi, chaired the High Council of State, a collective interim body rather than the presidency, and Kafi has no record in the museum; Zéroual was appointed head of state on 31 January 1994 and only became president on election in November 1995."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
