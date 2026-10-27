@@ -60,3 +60,4 @@ The Pages file limit is far above the launch size, so Pages can hold the launch 
 Append one line per merged PR, newest last:
 
 - 2026-10-27 TB0 started: design confirmed on origin/main; counts measured; Pages vs R2 open for the founder.
+- 2026-10-27 TB0 merged (PR #2382): lane doc with prose counts; DESIGN §9 notes for Devin. Next: TB1, blocked on Pages vs R2 (DESIGN §8).
