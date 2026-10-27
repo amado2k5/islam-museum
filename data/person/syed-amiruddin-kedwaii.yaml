@@ -1,0 +1,49 @@
+id: person/syed-amiruddin-kedwaii
+class: person
+label: { ar: "سيد أمير الدين كيدواي", en: "Syed Amir-uddin Kedwaii", ur: "سید امیر الدین قدوائی" }
+names:
+  - { value: "Syed Amir-uddin Kedwaii", kind: full }
+  - { value: "سيد أمير الدين كيدواي", kind: full }
+  - { value: "سید امیر الدین قدوائی", kind: full }
+  - { value: "Syed Ameer ud din Kedwaii", kind: alternate }
+gender: male
+summary:
+  ar: "محامٍ وناشط باكستاني (نحو 1901–1973)، من أبناء حركة باكستان ومصمّم علمها الوطني. بدأ نشاطه في حركة الخلافة، وشارك رفاقه في عليكرة في صياغة «مخطط باكستان»، ثم هاجر إلى لاهور سنة 1947 ومارس المحاماة ودرّس في كلية الحقوق بجامعة البنجاب، وكان من مؤسسي جمعية علماء باكستان."
+  en: "Pakistani barrister and activist (c. 1901–1973), a figure of the Pakistan Movement and the designer of Pakistan's national flag. He began in the Khilafat movement, helped draft the 'Pakistan Scheme' with his Aligarh companions, migrated to Lahore in 1947, practised law and taught at the University of the Punjab's law college, and was a founding member of Jamiat Ulema-e-Pakistan."
+  ur: "پاکستانی وکیل اور کارکن (تقریباً 1901ء–1973ء)، تحریکِ پاکستان کی شخصیت اور پاکستان کے قومی پرچم کے خالق۔ انھوں نے تحریکِ خلافت سے آغاز کیا، علی گڑھ کے ساتھیوں کے ساتھ «پاکستان اسکیم» کا مسودہ تیار کیا، 1947ء میں لاہور ہجرت کی، وکالت کی اور جامعہ پنجاب کے لا کالج میں تدریس کی، اور جمعیت علمائے پاکستان کے بانی ارکان میں سے تھے۔"
+roles: [activist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1901"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1901 at Barabanki in the North-Western Provinces of British India: the English article's infobox marks the year circa, the Arabic and Urdu articles give the year plainly, and Wikidata gives the year at year precision. No consulted source gives an exact day or a Hijri pairing (the year spans 1318–1319 AH), so the block is year-precision and carries no hijri value. Barabanki has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-syed-amiruddin-kedwaii-en, source/wikipedia-syed-amiruddin-kedwaii-ar, source/wikipedia-syed-amiruddin-kedwaii-ur, source/wikidata-syed-amiruddin-kedwaii]
+died:
+  edtf: "1973-08-21"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 21 August 1973, as all three articles and Wikidata agree. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-syed-amiruddin-kedwaii-en, source/wikipedia-syed-amiruddin-kedwaii-ar, source/wikipedia-syed-amiruddin-kedwaii-ur, source/wikidata-syed-amiruddin-kedwaii]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-syed-amiruddin-kedwaii-en, source/wikipedia-syed-amiruddin-kedwaii-ur] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-syed-amiruddin-kedwaii-en, source/wikipedia-syed-amiruddin-kedwaii-ar, source/wikipedia-syed-amiruddin-kedwaii-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a religious school for him. The English article records his activism in the Khilafat movement and the Khuddam-e-Ka'aba Association, his membership of the All-India Muslim League and his role as a founding member and vice-president of Jamiat Ulema-e-Pakistan; the Urdu article records the same organisational roles, and the Arabic stub names none. Party and movement offices are political facts, not a school attestation, and his reported spiritual attachment to Ali Hujwiri of Lahore is personal devotion, not an affiliation. Wikidata carries no religion value at all."
+    sources: [source/wikipedia-syed-amiruddin-kedwaii-en, source/wikipedia-syed-amiruddin-kedwaii-ur, source/wikipedia-syed-amiruddin-kedwaii-ar, source/wikidata-syed-amiruddin-kedwaii]
+external_ids: { wikidata: "Q7660302" }
+sources: [source/wikipedia-syed-amiruddin-kedwaii-en, source/wikipedia-syed-amiruddin-kedwaii-ar, source/wikipedia-syed-amiruddin-kedwaii-ur, source/wikidata-syed-amiruddin-kedwaii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Syed Amir-uddin Kedwaii' (revision 1372424250), Arabic Wikipedia 'سيد أمير الدين كيدواي' (revision 76765791) and Urdu Wikipedia 'سید امیر الدین قدوائی' (revision 6545496), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q7660302 (item revision 2529578460), whose recorded identifiers were confirmed identical on two separate reads. Existence checks by name fragments (kedwaii, قدوائي, كيدواي), by Arabic label across data/person, by biography and by QID found no prior record for him; Rafi Ahmed Kidwai and Abu al-Faiz Faizi are different men and were not touched. Relations written: lived_in and died_in to place/lahore, which exists; born_in is skipped because Barabanki has no place entity. The lane queue gives 'Syed Amir-uddin Kedwaii (1901–1973)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-83
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

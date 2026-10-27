@@ -1,0 +1,51 @@
+id: person/abdur-rahman-chughtai
+class: person
+label: { ar: "عبد الرحمن الجغتي", en: "Abdur Rahman Chughtai", ur: "عبد الرحمٰن چغتائی" }
+names:
+  - { value: "Abdur Rahman Chughtai", kind: full }
+  - { value: "عبد الرحمن الجغتي", kind: full }
+  - { value: "عبد الرحمٰن چغتائی", kind: full }
+  - { value: "عبد الرحمن جغتاي", kind: alternate }
+gender: male
+summary:
+  ar: "رسام باكستاني (1897–1975) يُعدّ الفنان الوطني لباكستان ومؤسس «أسلوب الجغتي» المتأثر بالفن المغولي والفارسي والمنمنمات والتقاليد الإسلامية. وُلد وتوفي في لاهور، وأنتج نحو ألفي لوحة مائية ومئات النقوش، وصمّم طوابع باكستانية وشعار التلفزيون الباكستاني، ونال ألقاباً وجوائز بريطانية وباكستانية."
+  en: "Pakistani painter (1897–1975), regarded as the national artist of Pakistan and founder of the 'Chughtai style', influenced by Mughal and Persian art, miniature painting and Islamic art traditions. Born and deceased in Lahore, he produced some two thousand watercolours and hundreds of etchings, designed Pakistani postage stamps and the Pakistan Television logo, and received British and Pakistani titles and awards."
+  ur: "پاکستانی مصور (1897ء–1975ء)، جنھیں پاکستان کا قومی فنکار اور «چغتائی اسلوب» کا بانی سمجھا جاتا ہے، جو مغلیہ و فارسی فن، منی ایچر اور اسلامی فنّی روایات سے متاثر تھا۔ وہ لاہور میں پیدا ہوئے اور وہیں وفات پائی، انھوں نے تقریباً دو ہزار آبی رنگ کی تصاویر اور سینکڑوں نقوش بنائے، پاکستانی ڈاک ٹکٹ اور پاکستان ٹیلی وژن کا لوگو ڈیزائن کیا، اور برطانوی و پاکستانی القابات و اعزازات پائے۔"
+roles: [artist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1897-09-21"
+  hijri: "1315"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Lahore on 21 September; the day and month agree in every reading but the year is contested inside the sources themselves. The followed year is 1897: the English article's infobox birth field and its early-life section both give 21 September 1897, citing the Encyclopaedia Britannica profile, and the Urdu article's body likewise gives 1897. Against it, the English article's lead, short description and birth category give 1894, the Arabic article (a translation of the English, one source family) repeats both figures in the same places, the Urdu article's lead gives 1894 while its categories file him under both years, and Wikidata carries two conflicting birth values, 21 September 1894 and the year 1899, neither followed. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ar, source/wikipedia-abdur-rahman-chughtai-ur, source/wikidata-abdur-rahman-chughtai]
+died:
+  edtf: "1975-01-17"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 17 January 1975, as all three articles agree; Wikidata carries both 1 and 17 January 1975, and the articles' day (17) is followed. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ar, source/wikipedia-abdur-rahman-chughtai-ur, source/wikidata-abdur-rahman-chughtai]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ur] }
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ur] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ur, source/wikidata-abdur-rahman-chughtai] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a religious school for him. The English article, quoting Iftikhar Dadi's Modernism and the art of Muslim South Asia (2010), calls him 'the first significant modern Muslim artist from Pakistan' — a description of his place in art history, not a school attestation — and describes his father Karim Bukhsh's family as a prominent Punjabi Muslim family of artists, which is family background and never counts. The Arabic article follows the English (one source family); the Urdu article names no affiliation; Wikidata carries no religion value at all. His Islamic subject matter is his work, not an attestation."
+    sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ar, source/wikipedia-abdur-rahman-chughtai-ur, source/wikidata-abdur-rahman-chughtai]
+external_ids: { wikidata: "Q28483" }
+sources: [source/wikipedia-abdur-rahman-chughtai-en, source/wikipedia-abdur-rahman-chughtai-ar, source/wikipedia-abdur-rahman-chughtai-ur, source/wikidata-abdur-rahman-chughtai]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdur Rahman Chughtai' (revision 1378463554), Arabic Wikipedia 'عبد الرحمن الجغتي' (revision 73925201) and Urdu Wikipedia 'عبد الرحمٰن چغتائی' (revision 9341674), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q28483 (item revision 2558875873), whose recorded identifiers were confirmed identical on two separate reads. Existence checks by name fragments (chughtai, الجغتي, چغتائی), by Arabic label across data/person, by biography and by QID found no prior record for him. Relations written: born_in, lived_in and died_in to place/lahore, which exists; no buried_in edge is written because no consulted source states a burial place. The lane queue gives 'Abdur Rahman Chughtai (1897–1975)'; the 1897 birth year is the Britannica-cited reading followed here, with the 1894 reading preserved in the born note and the record marked debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-83
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
