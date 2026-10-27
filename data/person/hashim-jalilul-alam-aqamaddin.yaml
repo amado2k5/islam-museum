@@ -1,0 +1,50 @@
+id: person/hashim-jalilul-alam-aqamaddin
+class: person
+label:
+  ar: "هاشم جليل العالم أقام الدين"
+  en: "Hashim Jalilul Alam Aqamaddin"
+  ur: "ہاشم جلیل العالم اقام الدین"
+summary:
+  ar: "السلطان الخامس والعشرون لبروناي (1885–1906)، ابن عمر علي سيف الدين الثاني. وإزاء توسّع تشارلز بروك من ساراواك طلب الحماية البريطانية، فجاءت اتفاقية الحماية سنة 1888 ثم الاتفاقية التكميلية 1905–1906 التي أتت بمقيم بريطاني. توفي في 10 أيار 1906 وخلفه ابنه محمد جمال العالم الثاني."
+  en: "The 25th Sultan of Brunei (1885–1906), son of Omar Ali Saifuddien II. Facing Charles Brooke's expansion from Sarawak, he sought British protection: the Protectorate Agreement of 1888 and the Supplementary Agreement of 1905–06, which brought a British Resident, followed. He died on 10 May 1906 and was succeeded by his son Muhammad Jamalul Alam II."
+  ur: "برونائی کے پچیسویں سلطان (1885ء–1906ء)، عمر علی سیف الدین دوم کے بیٹے۔ ساراواک سے چارلس بروک کی توسیع کے مقابل انہوں نے برطانوی تحفظ طلب کیا: 1888ء کا معاہدۂ تحفظ اور پھر 1905ء–1906ء کا اضافی معاہدہ ہوا جس سے برطانوی ریزیڈنٹ آیا۔ 10 مئی 1906ء کو وفات پائی اور ان کے بیٹے محمد جمال عالم دوم جانشین ہوئے۔"
+names:
+  - { value: "Hashim Jalilul Alam Aqamaddin ibni Omar Ali Saifuddin II", kind: full }
+  - { value: "هاشم جليل العالم أقام الدين", kind: full }
+  - { value: "Pengiran Anak Hashim", kind: alternate }
+  - { value: "Pengiran Temenggong Sahibul Bahar Pengiran Anak Hashim", kind: alternate }
+gender: male
+roles: [sultan]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1825"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English article's text, citing Halim (2002), and its infobox, the Malay article and Wikidata all give 1825, at the Istana Kampong Ayer (Malay article), to Sultan Omar Ali Saifuddien II and Tuan Zaidah. No day and no Hijri pairing are attested, so no hijri key is carried; the palace has no museum place record, so no born_in relation is written."
+  sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]
+died:
+  edtf: "1906-05-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "All three sources agree on 10 May 1906; the Malay article places his death at the Istana Kampong Ayer and his burial at the Royal Mausoleum (Kubah Makam Diraja), Bandar Seri Begawan. No Hijri pairing is attested, so no hijri key is carried; neither the palace nor Bandar Seri Begawan has a museum place record, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school reading exists in exactly one infobox: the English article's infobox gives his religion as Sunni Islam. The Malay article's infobox gives Islam in general, the English article's text names no school, and Wikidata gives Islam (Q432) only. Crown headship of the Brunei sultanate and royal descent do not attest a personal school. One infobox family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]
+relations:
+  - { type: child_of, target: person/omar-ali-saifuddien-ii, sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin] }
+external_ids: { wikidata: "Q40101" }
+sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hashim Jalilul Alam Aqamaddin' (revision 1371663611 of 27 August 2026), Malay Wikipedia 'Sultan Hashim Jalilul Alam Aqamaddin' (revision 6893733 of 7 July 2026) and Wikidata item Q40101 (item revision 2554295227 of 7 October 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026 with the recorded revision ids asserted equal on a second read. The QID was grounded through the English article's page properties and confirmed through the Malay article's. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic fragments or the QID Q40101, and no shared Arabic label requires a homonym entry. No Arabic or Urdu article exists, so the Arabic and Urdu prose are written from the English, Malay and Wikidata sources and say so. His child_of edge is written here, in the son's record, to person/omar-ali-saifuddien-ii, built in this same run: the English article's text and infobox and the Malay article's infobox name Omar Ali Saifuddin II as his father, and his Wikidata item's father value is Q40107, the item his father's record carries. His predecessor Abdul Momin and his own succession by his son are handled in prose and in his son's record respectively; no Brunei polity entity exists for a ruler_of edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95
