@@ -1,0 +1,53 @@
+id: person/jamaat-ali-shah
+class: person
+label: { ar: "جماعة علي شاه", en: "Jamaat Ali Shah", ur: "جماعت علی شاہ" }
+names:
+  - { value: "Syed Jamaat Ali Shah", kind: full }
+  - { value: "سيد جماعة علي شاه", kind: full }
+  - { value: "Ameer-e-Millat", kind: laqab }
+  - { value: "امیر ملت", kind: laqab }
+gender: male
+summary:
+  ar: "عالم ومتصوف باكستاني (1834–1951) من علي بور سيدان في سيالكوت، من الطريقة النقشبندية. ترأس مؤتمر عموم الهند السني وأُعلن أمير الملة سنة 1935، وقاد حركة مسجد شهيد غنج في لاهور، وكان من قادة حركة باكستان المقربين من محمد علي جناح، وأسس جمعيات ومدارس ومئات المساجد."
+  en: "Pakistani scholar and Sufi (1834–1951) of Alipur Sayyidan in Sialkot, of the Naqshbandi order. He presided over the All India Sunni Conference and was declared Ameer-e-Millat in 1935, led Lahore's Shaheed Ganj Mosque movement, was a leader of the Pakistan Movement close to Muhammad Ali Jinnah, and founded societies, madrasas and hundreds of mosques."
+  ur: "پاکستانی عالم اور صوفی بزرگ (1834ء–1951ء) جن کا تعلق علی پور سیداں، ضلع سیالکوٹ سے تھا اور جو سلسلہ نقشبندیہ سے وابستہ تھے۔ آل انڈیا سنی کانفرنس کے صدر رہے اور 1935ء میں امیر ملت قرار پائے، لاہور کی مسجد شہید گنج تحریک کی قیادت کی، تحریکِ پاکستان کے قائدین میں سے تھے اور محمد علی جناح کے قریب رہے، اور انھوں نے انجمنیں، مدارس اور سیکڑوں مساجد قائم کیں۔"
+roles: [scholar, mystic, writer, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1834"
+  hijri: "1250"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "All three article texts give his birth in 1834 at Alipur (Sayyidan), Sialkot district, which the record follows; Wikidata and the lane queue give 1841. The Urdu article also carries a parenthetical alternative tradition (1320 AH / 1902) that is impossible against its own narrative — he presided over a conference in 1925 — and is not followed. Alipur has no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed year."
+  sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ar, source/wikipedia-jamaat-ali-shah-ur, source/wikidata-jamaat-ali-shah]
+died:
+  edtf: "1951-08-30"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 30 August 1951, which the Urdu article gives as 26 Dhu al-Qa'da 1370 AH and Wikidata confirms; the English article gives the year 1951 and places his death and tomb at Alipur, Narowal district. Alipur has no place entity, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ur, source/wikidata-jamaat-ali-shah]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal initiation and work in the Naqshbandi order, which is the lane's test for a sufi segment. The English text calls him a Sufi saint of the Naqshbandi order and states that he was authorised to accept murids into many Sufi orders but worked in the Naqshbandi order of Sufism, with over a million murids estimated. The Urdu text, independently written, states that he entered the Naqshbandi silsila at the hand of Faqir Muhammad Churahi and was at once granted the khirqa of khilafa, and that he also took spiritual benefit from Muhammad Channan Shah Nuri of Allo Mahar."
+    sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ur]
+  - value: sunni
+    basis: documented
+    note: "Two independent texts name his Sunni affiliation personally. The Urdu text states directly that his affiliation was with the maslak of Ahl-e-Sunnat wa Jama'at, the teachers he studied under being named in the same passage. The English text states that he presided over the All India Sunni Conference — elected its president at its founding in 1925 and declared Ameer-e-Millat at its 1935 session — and led its Sunni scholarly cause against the movements it opposed. No madhhab is named for him in any consulted text, so the segment is sunni without a school suffix; Wikidata's single religion value (Sunni Islam) is a structured value and is not counted."
+    sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ur]
+relations:
+  - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ur] }
+external_ids: { wikidata: "Q7496292" }
+sources: [source/wikipedia-jamaat-ali-shah-en, source/wikipedia-jamaat-ali-shah-ar, source/wikipedia-jamaat-ali-shah-ur, source/wikidata-jamaat-ali-shah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jamaat Ali Shah' (revision 1375555858), Arabic Wikipedia 'جماعة علي شاه' (revision 74033756) and Urdu Wikipedia 'جماعت علی شاہ' (revision 12168051), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q7496292 (item revision 2527012395). The Arabic article is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (jamaat, jammat, جماعت علي شاه), by Arabic label across data/person, by biography and by QID found no prior record for this man. No person record exists for his teacher Faqir Muhammad Churahi or for Muhammad Ali Jinnah in the consulted state of the graph, so no student_of or correspondence edge is written; the member_of edge to group/naqshbandiyya is written once, here, in the subject's own record. The lane queue gives 1841–1951; all three article texts give 1834, which the record follows with the conflict stated in the born note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
