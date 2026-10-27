@@ -1,0 +1,58 @@
+id: person/abdirashid-ali-shermarke
+class: person
+label:
+  ar: "عبد الرشيد علي شرماركي"
+  en: "Abdirashid Ali Shermarke"
+  ur: "عبدالرشید علی شرمارکی"
+names:
+  - { value: "Abdirashid Ali Shermarke", kind: full }
+  - { value: "Abdirashid Ali Sharmarke", kind: alternate }
+  - { value: "Cabdirashiid Cali Sharmaarke", kind: alternate }
+  - { value: "عبد الرشيد علي شرماركي", kind: full }
+  - { value: "عبدالرشید علی شرمارکی", kind: full }
+gender: male
+summary:
+  ar: "سياسي صومالي (1919–1969) من حررطيري، أول رئيس وزراء للصومال (1960–1964) ثم رئيسه الثاني (1967–1969) بعد فوزه على آدم عدي في انتخابات 1967؛ اغتاله أحد حراسه في لاس عانود في 15 أكتوبر 1969، فمهد اغتياله لانقلاب محمد سياد بري بعد ستة أيام."
+  en: "Somali politician (1919–1969) from Harardhere, the first prime minister of Somalia (1960–1964) and then its second president (1967–1969) after defeating Aden Adde in the 1967 election; he was assassinated by one of his own bodyguards at Las Anod on 15 October 1969, and his killing was followed six days later by Siad Barre's coup."
+  ur: "صومالی سیاست دان (1919ء–1969ء) جن کا تعلق ہراردھیرے سے تھا؛ صومالیہ کے پہلے وزیر اعظم (1960ء–1964ء) اور پھر 1967ء کے انتخاب میں آدم عدی کو شکست دے کر اس کے دوسرے صدر (1967ء–1969ء) بنے؛ 15 اکتوبر 1969ء کو لاس عنود میں ان کے ایک محافظ نے انھیں قتل کر دیا، اور چھ دن بعد سیاد باری کی بغاوت ہوئی۔"
+roles: [politician]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1919-06-08"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article's text and infobox give his birth on 8 June 1919 at Harardhere in the Mudug region, citing Rulers.org; the Arabic article gives 16 October 1919, and Wikidata carries both values. The English date is followed and the variant recorded here. No place entity for Harardhere exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-abdirashid-ali-shermarke-en, source/wikipedia-abdirashid-ali-shermarke-ar, source/wikidata-abdirashid-ali-shermarke]
+died:
+  edtf: "1969-10-15"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and French articles and Wikidata agree that he was assassinated by one of his own bodyguards at Las Anod on 15 October 1969, while on an official visit to the drought-stricken north. No place entity exists for Las Anod, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-abdirashid-ali-shermarke-en, source/wikipedia-abdirashid-ali-shermarke-ar, source/wikipedia-abdirashid-ali-shermarke-fr, source/wikidata-abdirashid-ali-shermarke]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for him. The French infobox gives his religion as Islam, and Wikidata carries Islam and Sunni Islam on the single item — one structured family, which never counts. The English text records only that he attended Qur'anic schools as a boy in Mogadishu — childhood formation, which never counts (the alauddin-khan / formation line of the earlier waves). Structured-only Sunni; the value stays unknown with the Sunni reading preserved here."
+    sources: [source/wikipedia-abdirashid-ali-shermarke-en, source/wikipedia-abdirashid-ali-shermarke-fr, source/wikidata-abdirashid-ali-shermarke]
+relations:
+  - type: successor_of
+    target: person/aden-adde
+    sources: [source/wikipedia-abdirashid-ali-shermarke-en, source/wikipedia-abdirashid-ali-shermarke-ar]
+  - type: lived_in
+    target: place/mogadishu
+    sources: [source/wikipedia-abdirashid-ali-shermarke-en]
+external_ids: { wikidata: "Q308215" }
+sources: [source/wikipedia-abdirashid-ali-shermarke-en, source/wikipedia-abdirashid-ali-shermarke-ar, source/wikipedia-abdirashid-ali-shermarke-fr, source/wikidata-abdirashid-ali-shermarke]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdirashid Shermarke' revision 1382113065 of 26 October 2026 (the queue's title 'Abdirashid Ali Shermarke' is a redirect to it), Arabic revision 76851531 of 4 October 2026 and French revision 237292434 of 23 June 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q308215 revision 2525915069 of 1 August 2026, read from the Wikidata API. The slug follows the queue's spelling 'Shermarke'; the English article's spelling 'Sharmarke' is recorded as an alternate name. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q308215. There is no Urdu article, so the Urdu prose is written from the English, Arabic and French and says so in its text. His succession from Aden Adde (he succeeded Adde as president on 6 July 1967) and his upbringing in Mogadishu (place record exists) are written as relations; the Arabic article's variant dates (birth 16 October 1919; presidency from 10 June 1967) are recorded in the notes, not followed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,51 @@
+id: person/siad-barre
+class: person
+label:
+  ar: "محمد سياد بري"
+  en: "Siad Barre"
+  ur: "محمد سیاد بری"
+names:
+  - { value: "Mohamed Siad Barre", kind: full }
+  - { value: "Maxamed Siyaad Barre", kind: alternate }
+  - { value: "محمد سياد بري", kind: full }
+  - { value: "محمد زياد بري", kind: alternate }
+  - { value: "محمد سیاد بری", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي صومالي (نحو 1919–1995) قاد انقلاب 1969 العسكري وترأس الصومال من 21 أكتوبر 1969 إلى 26 يناير 1991 على رأس مجلس ثوري ثم حزب اشتراكي حاول التوفيق بين الاشتراكية العلمية والمبادئ الإسلامية؛ خاض حرب أوغادين (1977–1978) وقمعا واسعا، وأُطيح به في 1991 فمات في المنفى في لاغوس بنيجيريا."
+  en: "Somali military officer and politician (c. 1919–1995) who led the 1969 military coup and ruled Somalia from 21 October 1969 to 26 January 1991, first through a revolutionary council and then a socialist party that tried to reconcile scientific socialism with Islamic principles; he fought the Ogaden War (1977–1978), ruled repressively, was overthrown in 1991 and died in exile in Lagos, Nigeria."
+  ur: "صومالی فوجی افسر و سیاست دان (تقریباً 1919ء–1995ء) جنھوں نے 1969ء کی فوجی بغاوت کی قیادت کی اور 21 اکتوبر 1969ء سے 26 جنوری 1991ء تک صومالیہ پر حکومت کی، پہلے انقلابی کونسل اور پھر ایک اشتراکی پارٹی کے ذریعے جس نے سائنسی اشتراکیت اور اسلامی اصولوں میں مطابقت پیدا کرنے کی کوشش کی؛ اوگادن جنگ (1977ء–1978ء) لڑی، جابرانہ حکومت کی، 1991ء میں ہٹائے گئے اور نائجیریا کے لاگوس میں جلاوطنی میں وفات پائی۔"
+roles: [general, politician]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1919~"
+  hijri: "1338"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "No birth records existed in the Somalia of his birth and the English article records speculation ranging from 1909 to 1921; the conventional date, circa 6 October 1919, is carried by the English infobox, the French article and Wikidata. His unofficial birthplace is Shilabo in the Ogaden (Ethiopia); his official birthplace is recorded as Garbaharey in Gedo. No place entity exists for either, so the places are carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion from the conventional date."
+  sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre]
+died:
+  edtf: "1995-01-02"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and French articles give his death of a heart attack on 2 January 1995 in Lagos, Nigeria, where he lived in exile after his overthrow; his body was flown to Garbaharey for burial. Wikidata also carries a second death value, 2 February 1995, which the articles and the January 1995 obituaries contradict; it is not followed. No place entity exists for Lagos, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for Barre personally. The French infobox gives his religion as Islam and Wikidata's single religion value is Islam; the Urdu stub files him under Somali Muslims and Islamic socialists — structure and filings, which never count. What the texts discuss is his regime: the Somali Revolutionary Socialist Party's attempt to reconcile scientific socialism with the Islamic tenets of the official state religion, and his January 1975 execution of ten sheikhs who had opposed the new family law's inheritance provisions. A state's Islamisation programme and its clash with clerics are the record of a government, not the man's attested school (the brief's Siad Barre weighing). Structured values, filings and programme only; the value stays unknown."
+    sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-ar, source/wikipedia-siad-barre-ur, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre]
+external_ids: { wikidata: "Q209828" }
+sources: [source/wikipedia-siad-barre-en, source/wikipedia-siad-barre-ar, source/wikipedia-siad-barre-ur, source/wikipedia-siad-barre-fr, source/wikidata-siad-barre]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1381727709 of 24 October 2026, Arabic revision 76941715 of 10 October 2026, Urdu revision 11538630 of 12 July 2026 and French revision 238278900 of 1 August 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q209828 revision 2558176355 of 18 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q209828. No successor_of relation is written: the French infobox itself lists his immediate predecessor as Sheikh Mukhtar Mohamed Hussein, acting president for the six days between Shermarke's assassination and the coup, who has no person record — and Barre in any case took power by the coup of 21 October 1969, not by succession, so an edge to Shermarke would misstate it. No place entities exist for Shilabo, Garbaharey or Lagos, so no place relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
