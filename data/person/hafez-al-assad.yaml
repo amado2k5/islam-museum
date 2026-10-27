@@ -1,0 +1,48 @@
+id: person/hafez-al-assad
+class: person
+label: { ar: "حافظ الأسد", en: "Hafez al-Assad", ur: "حافظ الاسد" }
+names:
+  - { value: "حافظ الأسد", kind: full }
+  - { value: "Hafez al-Assad", kind: full }
+  - { value: "Hafiz al-Assad", kind: alternate }
+gender: male
+summary:
+  ar: "ضابط وسياسي سوري من القرداحة (1930–2000)، رئيس سوريا من 1971 إلى وفاته. صعد عبر سلاح الجو وحزب البعث، وقاد «الحركة التصحيحية» في نوفمبر 1970، وحكم سوريا ثلاثة عقود حتى وفاته في دمشق سنة 2000، فخلفه ابنه بشار."
+  en: "Syrian officer and politician from Qardaha (1930–2000), president of Syria from 1971 until his death. He rose through the air force and the Ba'ath Party, led the 'Corrective Movement' of November 1970, and ruled Syria for three decades until his death at Damascus in 2000, when his son Bashar succeeded him."
+  ur: "قرداحہ سے تعلق رکھنے والے سوری افسر اور سیاست دان (1930–2000)، جو 1971 سے اپنی وفات تک سوریہ کے صدر رہے۔ وہ فضائیہ اور بعث پارٹی کے ذریعے آگے بڑھے، نومبر 1970 کی «اصلاحی تحریک» کی قیادت کی، اور 2000 میں دمشق میں وفات تک تین دہائیوں تک سوریہ پر حکومت کی، جب ان کے بیٹے بشار جانشین بنے۔"
+roles: [general, politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1930-10-06"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 6 October 1930 at Qardaha. The Hijri year (1349) is derived from the Gregorian date. No born_in edge is written: Qardaha has no place entity."
+  sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad]
+died:
+  edtf: "2000-06-10"
+  hijri: "1421"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death from a heart attack at Damascus on 10 June 2000; the Arabic article and Wikidata agree. The Hijri year (1421) is derived from the Gregorian date. He was buried beside his son Bassel in the family mausoleum at Qardaha; the mausoleum was burned in December 2024 and his remains were exhumed in 2025. No buried_in edge is written: neither Qardaha nor the mausoleum has an entity."
+  sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His Alawite affiliation is attested personally and in full: the English article records his birth into an Alawite peasant family of the Kalbiyya tribe and, citing scholarship (Seale, Batatu, Hinnebusch), treats his rule throughout as that of an Alawite president heading an Alawite-dominated security state; the Arabic article likewise records his birth to a poor Alawite family of the Alawite sect and calls him the first Alawite Ba'athist president in Syrian history; Wikidata's religion value is the Alawites item itself, and the Arabic infobox gives Islam in general. The faith enum has no Alawite value, and a distinct named tradition is not mapped onto any other value, so the segment is recorded unknown with the attestation preserved here entire (FLAGGED for a founder ruling, on the no-enum-value precedent of Agus Salim's Mu'tazilite reading, wave 91 section B)."
+    sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad]
+external_ids: { wikidata: "Q118725" }
+sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikipedia-hafez-al-assad-ur, source/wikidata-hafez-al-assad]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Hafez al-Assad, each fetched by its recorded revision id (EN 1381977449, AR 76471348, UR 9130098) with the returned id asserted equal before use, and Wikidata item Q118725 (item revision 2557904775, read twice with identical revision and claims), the QID grounded through the English article's pageprops. Existence checks by Latin fragments (Assad) and Arabic fragments (حافظ الأسد) across data/person, by the grounded QID across all person files, and by biography found no prior record — asma-al-assad is his daughter-in-law, a different person. His succession from Nureddin al-Atassi is prose only: al-Atassi has no record (hashim-al-atassi is an earlier, different president). Any edge for his son Bashar's succession would live in Bashar's record; Bashar has no record in the graph, so nothing is written here. No member_of edge is written for the Ba'ath Party: no group entity for it exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
