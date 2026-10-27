@@ -1,0 +1,46 @@
+id: person/umaru-musa-yaradua
+class: person
+label: { ar: "عمر يارادوا", en: "Umaru Musa Yar'Adua", ur: "عمر موسی یارادوا" }
+names:
+  - { value: "Umaru Musa Yar'Adua", kind: full }
+  - { value: "عمر موسى يارادوا", kind: full }
+  - { value: "Umaru Yar'Adua", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي نيجيري (1951–2010) من كاتسينا، درس الكيمياء في جامعة أحمدو بيلو وزاريا وعمل معلّما ومحاضرا ثم في قطاع الشركات، فحكم ولاية كاتسينا عن حزب الشعب الديمقراطي (1999–2007) وفي عهده اعتمدت الولاية الشريعة سنة 2000، ثم صار رئيس نيجيريا في 29 مايو 2007 فمات في منصبه في أبوجا في 5 مايو 2010 ودُفن دفنا إسلاميا في كاتسينا، فخلفه نائبه غودلاك جوناثان."
+  en: "Nigerian politician (1951–2010) from Katsina who studied chemistry at Ahmadu Bello University, Zaria, worked as a teacher and lecturer and then in business, governed Katsina State for the Peoples Democratic Party (1999–2007) — the state adopted sharia under him in 2000 — and became president of Nigeria on 29 May 2007. He died in office in Abuja on 5 May 2010, received an Islamic burial in Katsina, and was succeeded by his vice-president Goodluck Jonathan."
+  ur: "نائجریائی سیاست دان (1951ء–2010ء)، کاتسینا سے تعلق؛ احمدو بیلو یونیورسٹی زاریا میں کیمیا پڑھی، مدرس و محاضر رہے پھر کاروبار کیا؛ پیپلز ڈیموکریٹک پارٹی سے ریاست کاتسینا کے گورنر رہے (1999ء–2007ء) — ان کے دور میں ریاست نے 2000 میں شریعت اختیار کی — پھر 29 مئی 2007 کو نائجریا کے صدر بنے؛ 5 مئی 2010 کو ابوجا میں منصب پر وفات پائی اور کاتسینا میں اسلامی طریقے سے دفن ہوئے۔"
+roles: [politician, teacher]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1951-08-16"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 16 August 1951 in Katsina; the Arabic article files him under births of 1370 AH, the Hijri year used here."
+  sources: [source/wikipedia-umaru-musa-yaradua-en, source/wikidata-umaru-musa-yaradua]
+died:
+  edtf: "2010-05-05"
+  hijri: "1431"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death at Aso Villa, Abuja, on 5 May 2010; the Arabic article files him under deaths of 1431 AH. The English article records an Islamic burial in Katsina on 6 May 2010."
+  sources: [source/wikipedia-umaru-musa-yaradua-en, source/wikidata-umaru-musa-yaradua]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Thinner than the Khan configuration, unflagged. No consulted text calls Yar'Adua personally a Muslim at all: the English article's religion material is his state government's adoption of sharia in Katsina in August 2000 (a policy decision taken under public pressure from Muslim groups, which counts as neither attestation nor practice of the man) and his Islamic burial in Katsina on 6 May 2010 (funeral practice). The Arabic article files him under 'Nigerian Muslims' (a category filing) and Wikidata gives a single structured value, Islam. No source used names a school or madhhab, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-umaru-musa-yaradua-en, source/wikipedia-umaru-musa-yaradua-ar, source/wikidata-umaru-musa-yaradua]
+external_ids: { wikidata: "Q104705" }
+sources: [source/wikipedia-umaru-musa-yaradua-en, source/wikipedia-umaru-musa-yaradua-ar, source/wikidata-umaru-musa-yaradua]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Umaru Musa Yar'Adua' (revision 1378276154), Arabic Wikipedia 'عمر يارادوا' (revision 75254577) and Wikidata item Q104705 (item revision 2561110432), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (yaradua, yar-adua, umaru), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and the Arabic label matches no existing record's label. No Urdu article exists for him (Wikidata links the English, Arabic and Hausa articles), so the Urdu prose is written from the English and Arabic articles and Wikidata. No place entity exists for Katsina or Abuja, so no born_in or died_in edge is written; he succeeded Olusegun Obasanjo in 2007 and was succeeded by Goodluck Jonathan, but neither has a person record, so no successor_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
