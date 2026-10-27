@@ -1,0 +1,50 @@
+id: person/deni-arsanov
+class: person
+label:
+  ar: "ديني أرسانوف"
+  en: "Deni Arsanov"
+  ur: "دینی ارسانوف"
+summary:
+  ar: "ديني أرسانوف (1851–1917)، شيخ صوفي شيشاني، مؤسس أحد أكبر الإخوانيات الويناخية (الوِرد) المنتمية إلى التيار النقشبندي؛ بنى مدرسة عربية في غروزني سنة 1904، وكان من أبرز مندوبي رجال الدين في مؤتمرات الشيشان سنة 1917، وقُتل مع أكثر من ثلاثين من مريديه في غروزني في 27 ديسمبر 1917 أثناء مهمة صلحية خلال الاشتباكات بين القوزاق والشيشان."
+  en: "Deni Arsanov (1851–1917) was a Chechen Sufi sheikh, founder of one of the largest Vainakh brotherhoods (virds), belonging to the Naqshbandi current. He built an Arabic school at Grozny in 1904, was a leading clerical delegate at the Chechen congresses of 1917, and was killed with more than thirty of his murids at Grozny on 27 December 1917 while on a peacemaking mission during Cossack–Chechen clashes."
+  ur: "دینی ارسانوف (1851–1917) چیچن صوفی شیخ تھے، جو نقشبندی سلسلے سے منسوب سب سے بڑی ویناخ برادریوں (وردوں) میں سے ایک کے بانی تھے۔ انہوں نے 1904 میں گروزنی میں ایک عربی اسکول بنایا، 1917 کی چیچن کانگریسوں میں نمایاں مذہبی مندوب رہے، اور 27 دسمبر 1917 کو قزاق-چیچن جھڑپوں کے دوران امن مشن پر گروزنی میں اپنے تیس سے زائد مریدوں سمیت قتل کیے گئے۔"
+names:
+  - { value: "Deni Arsanov", kind: full }
+  - { value: "Дени Арсанов", kind: full }
+  - { value: "Deni", kind: given }
+gender: male
+born:
+  edtf: "1851"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1851 at Zebir-Yurt in the Terek Oblast, as the Russian article and Wikidata agree at year precision; no source read gives a day or month. No entity exists for Zebir-Yurt, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-deni-arsanov-ru, source/wikidata-deni-arsanov]
+died:
+  edtf: "1917-12-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Killed on 27 December 1917 at the Groznenskaya stanitsa in Grozny, during his peacemaking mission, as the Russian article's text — which expressly corrects a 1918 dating found in the literature — and Wikidata agree. No entity exists for Grozny, so no died_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-deni-arsanov-ru, source/wikidata-deni-arsanov]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [mystic, politician]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Naqshbandi Sufi reading rests on ONE text. The Russian article's lead names Arsanov founder of one of the largest Vainakh brotherhoods (virds) belonging to the Naqshbandi current of Sufi Islam, the scholarship it cites is devoted to him as a Naqshbandi sheikh (Akaev, 2004), and its text records his murids and his final mission with 53 of them. But no second independent text was available to this build: the Russian article is the only encyclopaedia article on him in any language and Wikidata carries no religion value, so under the two-text rule the segment is unknown, with the reading preserved here. No member_of edge to the Naqshbandiyya is written, for the same reason."
+    sources: [source/wikipedia-deni-arsanov-ru, source/wikidata-deni-arsanov]
+external_ids:
+  wikidata: Q4069909
+sources:
+  - source/wikipedia-deni-arsanov-ru
+  - source/wikidata-deni-arsanov
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "Russian Wikipedia article on Deni Arsanov and Wikidata item Q4069909, each read at a recorded revision (no article in any other language is linked from the item, and searches of the Chechen Wikipedia found no article on him); existence checked both ways before building — name fragments (arsanov, арсанов) across data/person found no record, and Q4069909, grounded through the Russian article's page properties, grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and the article was fetched by its recorded revid with equality asserted. No relations are written in this record: his son and spiritual successor Bahauddin Arsanov has no record, and no place entities exist for Zebir-Yurt or Grozny."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106

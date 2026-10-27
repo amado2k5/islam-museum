@@ -1,0 +1,52 @@
+id: person/ali-mitayev
+class: person
+label:
+  ar: "علي ميتاييف"
+  en: "Ali Mitayev"
+  ur: "علی میتاییف"
+summary:
+  ar: "علي بامات غيرييفيتش ميتاييف (1881–1925)، شيخ صوفي شيشاني وقائد سياسي وعسكري؛ خلف والده الشيخ بامات غيري حاجي ميتاييف في المشيخة سنة 1914، وأسس مدرسة في قريته أفتوري، وقاد الفوج الشرعي في الحرب الأهلية الروسية، وصار عضوًا في اللجنة الثورية لمنطقة الشيشان ذاتية الحكم، ثم اعتُقل سنة 1924 وأُعدم رميًا بالرصاص في روستوف على الدون في سبتمبر 1925."
+  en: "Ali Bamat-Gireyevich Mitayev (1881–1925) was a Chechen Sufi sheikh and political and military leader. He succeeded his father, Sheikh Bamat-Girey-Hajji Mitayev, as sheikh in 1914, founded a madrasa at his native Avtury, led the Sharia Regiment in the Russian Civil War, sat on the revolutionary committee of the Chechen Autonomous Oblast, and was arrested in 1924 and shot at Rostov-on-Don in September 1925."
+  ur: "علی بامات گیریئیوچ میتاییف (1881–1925) چیچن صوفی شیخ اور سیاسی و عسکری رہنما تھے۔ وہ 1914 میں اپنے والد شیخ بامات گیرے حاجی میتاییف کے جانشین کے طور پر شیخ بنے، اپنے آبائی گاؤں افتوری میں مدرسہ قائم کیا، روسی خانہ جنگی میں شرعی رجمنٹ کی قیادت کی، چیچن خودمختار اوبلاست کی انقلابی کمیٹی کے رکن رہے، اور 1924 میں گرفتار ہو کر ستمبر 1925 میں روستوف-نا-دونو میں گولی مار کر ہلاک کیے گئے۔"
+names:
+  - { value: "Ali Bamat-Gireyevich Mitayev", kind: full }
+  - { value: "Али Бамат-Гиреевич Митаев", kind: full }
+  - { value: "Ali", kind: given }
+gender: male
+born:
+  edtf: "1881"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1881 at the aul of Avtury in the Terek Oblast, as the English, Russian and Ukrainian articles and Wikidata agree at year precision; no source read gives a day or month. No entity exists for Avtury, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-ali-mitayev-en, source/wikipedia-ali-mitayev-ru, source/wikidata-ali-mitayev]
+died:
+  edtf: "1925-09"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Shot in September 1925 in the central prison of Rostov-on-Don, as the Russian article (citing Akaev and the Sakharov Centre) and Wikidata's month-precision death value give; the English article gives the year 1925 only. No entity exists for Rostov-on-Don, so no died_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-ali-mitayev-ru, source/wikidata-ali-mitayev]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [mystic, politician]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts attest Mitayev's Sufi sheikhdom personally. The English article's lead calls him 'the sheikh of a Sufi tariqa' and 'one of the most influential Sufi sheikhs in Chechnya and Ingushetia'. The Russian article's text independently records that on his father Bamat-Girey-Hajji's death in 1914 he was proclaimed sheikh and continuer of his father's cause, and that he led thousands of murids — the sheikh-and-disciple structure of a tariqa; the scholarship the Russian article cites names the father a Chechen Sufi (Akaev, 2003). No text read names the order Mitayev headed, so no order is specified and no member_of edge is written. The 'Sunni Islam' of the English article's infobox rests on that infobox alone — Wikidata carries no religion value at all — so no Sunni segment is recorded."
+    sources: [source/wikipedia-ali-mitayev-en, source/wikipedia-ali-mitayev-ru, source/wikidata-ali-mitayev]
+external_ids:
+  wikidata: Q24018195
+sources:
+  - source/wikipedia-ali-mitayev-en
+  - source/wikipedia-ali-mitayev-ru
+  - source/wikipedia-ali-mitayev-uk
+  - source/wikidata-ali-mitayev
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Ukrainian Wikipedia articles on Ali Mitayev and Wikidata item Q24018195, each read at a recorded revision (the Ukrainian article is a translation of the Russian and is counted as the same family); existence checked both ways before building — name fragments (mitayev, mitaev, митаев) across data/person found no record, and Q24018195, grounded through the Russian article's page properties and confirmed through the English article's, grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. No relations are written in this record: his father Bamat-Girey-Hajji Mitayev and his murid Magomed Shataev have no records, so no child_of or teacher edge; the Soviet intelligence claim of his ties to Najmuddin Hotsinsky, which the Russian article reports as a ground for his arrest, is an allegation, not an attested alliance, so no edge is written to person/najmuddin-hotsinsky; no place entities exist for Avtury or Rostov-on-Don."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106
