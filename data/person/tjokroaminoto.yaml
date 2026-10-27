@@ -1,0 +1,48 @@
+id: person/tjokroaminoto
+class: person
+label: { ar: "عمر سعيد تجوكروامينوتو", en: "Oemar Said Tjokroaminoto", ur: "عمر سعید تجوکروامینوتو" }
+names:
+  - { value: "Oemar Said Tjokroaminoto", kind: full }
+  - { value: "Umar Said Cokroaminoto", kind: alternate }
+  - { value: "Oemar Said Cokroaminoto", kind: alternate }
+  - { value: "H.O.S. Tjokroaminoto", kind: alternate }
+  - { value: "عمر سعيد تجوكروامينوتو", kind: full }
+gender: male
+summary:
+  ar: "قومي إندونيسي (1882–1934)، من موظفي الخدمة المدنية في جزر الهند الهولندية ثم شريك مؤسس لشريكة الإسلام ورئيسها الطويل، حوّلها إلى أول حركة جماهيرية في البلاد، وكان بيته في سورابايا مدرسة لقادة الاستقلال ومنهم سوكارنو، ولقّبه الهولنديون «ملك جاوة بلا تاج»، وتوفي في يوجياكارتا سنة 1934."
+  en: "Indonesian nationalist (1882–1934) who left the Dutch East Indies civil service to co-found and long chair Sarekat Islam, turning it into the country's first mass movement; his Surabaya household schooled a generation of independence leaders, among them Sukarno, and the Dutch called him the 'Crownless King of Java'. He died at Yogyakarta in 1934."
+  ur: "انڈونیشی قوم پرست رہنما (1882ء–1934ء)، ولندیزی مشرقی ہند کی سول سروس چھوڑ کر شریکۃ اسلام کے شریک بانی اور طویل عرصے اس کے صدر رہے اور اسے ملک کی پہلی عوامی تحریک بنایا؛ سورابایا میں ان کے گھر نے آزادی کے رہنماؤں کی ایک نسل کو تربیت دی جن میں سوکارنو بھی تھے، ولندیزی انہیں «جاوا کا بے تاج بادشاہ» کہتے تھے؛ 1934ء میں یوگیاکارتا میں وفات پائی۔"
+roles: [politician, activist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1882-08-16"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ponorogo on 16 August 1882: the English and Indonesian articles, the Arabic article and Wikidata agree. The Hijri year 1299 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-tjokroaminoto-en, source/wikipedia-tjokroaminoto-id, source/wikipedia-tjokroaminoto-ar, source/wikidata-tjokroaminoto]
+died:
+  edtf: "1934-12-17"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Yogyakarta on 17 December 1934: the English and Indonesian articles, the Arabic article and Wikidata agree. The Hijri year 1353 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-tjokroaminoto-en, source/wikipedia-tjokroaminoto-id, source/wikipedia-tjokroaminoto-ar, source/wikidata-tjokroaminoto]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for him. What the sources give is practice, office and lineage: he performed the Hajj (public practice), he chaired Sarekat Islam (organisational office), and he descended from Kyai Bagus Kasan Besari of the Tegalsari pesantren (lineage) — none of these ever counts as a personal school attestation. Wikidata gives Islam in general (Q432) with no school. The value stays unknown, unflagged."
+    sources: [source/wikipedia-tjokroaminoto-en, source/wikipedia-tjokroaminoto-id, source/wikidata-tjokroaminoto]
+external_ids: { wikidata: "Q2603591" }
+sources: [source/wikipedia-tjokroaminoto-en, source/wikipedia-tjokroaminoto-id, source/wikipedia-tjokroaminoto-ar, source/wikidata-tjokroaminoto]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Oemar Said Tjokroaminoto' (revision 1320892436), Indonesian Wikipedia 'Oemar Said Tjokroaminoto' (revision 29889102), Arabic Wikipedia 'عمر سعيد تجوكروامينوتو' (revision 76476531) and Wikidata item Q2603591 (item revision 2550969715), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the item was read twice with identical content, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Sarekat Islam chairman (1882–1934), as all four sources agree, matching the queue's years exactly; the Arabic article is a translation of the English one and the Indonesian article shares its main sources, so the three articles are one source family. Existence checks by name fragments (tjokro, cokro, تجوكرو) across data/person, by QID and by biography found no prior record. Relations written: none. A founder_of edge for Sarekat Islam is not written because no group entity for it exists. No born_in, died_in or buried_in edge is written: Ponorogo and Yogyakarta have no place entities, although the articles place his birth at Ponorogo, his death at Yogyakarta and his burial in the Kuncen cemetery there. His father, grandfather and great-grandfather, his wife Suharsikin, his brother and successor in the party Abikusno Tjokrosujoso, and his pupils including Sukarno have no person records in the museum, so no family or teacher edges are written. The two articles disagree on the town of the 1934 congress after which he fell ill (Banjarmasin in the English article, Banjarnegara in the Indonesian); the discrepancy is recorded in the source files and not resolved in the prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-90
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
