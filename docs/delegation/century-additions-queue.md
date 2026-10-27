@@ -644,12 +644,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Burhanuddin Rabbani — 1940–2011
 - [x] Hamid Karzai — 1957–Living
 - [x] Ashraf Ghani — 1949–Living
-- [ ] Abdullah Abdullah — 1960–Living
-- [ ] King Amanullah Khan — 1892–1960
-- [ ] King Zahir Shah — 1914–2007
-- [ ] Mohammed Daoud Khan — 1909–1978
-- [ ] Nur Muhammad Taraki — 1917–1979
-- [ ] Hafizullah Amin — 1929–1979
+- [x] Abdullah Abdullah — 1960–Living
+- [x] King Amanullah Khan — 1892–1960
+- [x] King Zahir Shah — 1914–2007
+- [x] Mohammed Daoud Khan — 1909–1978
+- [x] Nur Muhammad Taraki — 1917–1979
+- [x] Hafizullah Amin — 1929–1979
 - [ ] Babrak Karmal — 1929–1996
 - [ ] Mohammad Najibullah — 1947–1996
 - [ ] Sibghatullah Mojaddedi — 1925–2019

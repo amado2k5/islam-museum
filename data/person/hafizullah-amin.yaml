@@ -1,0 +1,46 @@
+id: person/hafizullah-amin
+class: person
+label: { ar: "حفيظ الله أمين", en: "Hafizullah Amin", ur: "حفیظ اللہ امین" }
+names:
+  - { value: "Hafizullah Amin", kind: full }
+  - { value: "حفيظ الله أمين", kind: full }
+gender: male
+summary:
+  ar: "سياسي شيوعي أفغاني، وُلد في بغمان سنة 1929 وتعلّم في كابل وجامعة كولومبيا. كان الرجل الثاني في حزب الشعب الديمقراطي بعد انقلاب ثور، فأطاح بنور محمد تركي في سبتمبر 1979 وقاد الدولة نحو مئة يوم، حتى اغتاله السوفييت في قصر تاج بيك بكابل في 27 ديسمبر 1979 عند بدء تدخلهم العسكري."
+  en: "Afghan communist politician, born at Paghman in 1929 and educated at Kabul and Columbia University. The PDPA's second man after the Saur Revolution, he overthrew Nur Muhammad Taraki in September 1979 and headed the state for about a hundred days, until Soviet forces assassinated him at the Tajbeg Palace in Kabul on 27 December 1979 at the opening of their intervention."
+  ur: "افغان کمیونسٹ سیاست دان، جو 1929ء میں پغمان میں پیدا ہوئے اور کابل اور کولمبیا یونیورسٹی میں تعلیم پائی۔ ثور انقلاب کے بعد پی ڈی پی اے کے دوسرے بڑے رہنما تھے؛ ستمبر 1979ء میں نور محمد ترہ کئی کو معزول کر کے تقریباً سو دن سربراہِ مملکت رہے، حتیٰ کہ 27 دسمبر 1979ء کو سوویت افواج نے مداخلت کے آغاز پر کابل کے تاج بیک محل میں انھیں قتل کر دیا۔"
+roles: [politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1929-08-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 1 August 1929 at Paghman, as all three articles and Wikidata give. No place entity exists for Paghman, so no born_in relation is written. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-hafizullah-amin-en, source/wikipedia-hafizullah-amin-ar, source/wikipedia-hafizullah-amin-ur, source/wikidata-hafizullah-amin]
+died:
+  edtf: "1979-12-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Assassinated on 27 December 1979 at the Tajbeg Palace in Kabul during the Soviet assault that opened the intervention, as all three articles and Wikidata give; the English article gives his resting place as the Tajbeg Palace grounds. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-hafizullah-amin-en, source/wikipedia-hafizullah-amin-ar, source/wikipedia-hafizullah-amin-ur, source/wikidata-hafizullah-amin]
+relations:
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-hafizullah-amin-en, source/wikidata-hafizullah-amin] }
+  - { type: buried_in, target: place/kabul, sources: [source/wikipedia-hafizullah-amin-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Generic-only configuration: the only religion value anywhere is Wikidata's generic Islam (Q432), which names no school. The English article carries no religion field; the Arabic article's religion field is blank; the Urdu article gives no value. The English text documents his government's campaign to persuade Afghans the regime was not anti-Islamic — mosque repairs, Quran copies distributed to religious groups, references to Allah in his speeches, his claim that the Saur Revolution was 'totally based on the principles of Islam', and the official announcement, following the ulama council's endorsement of 20 September 1979, that Amin was a pious Muslim. That is regime positioning and state policy, and the counter-revolutionary propaganda calling the regime atheist is an accusation; neither is a personal attestation, and no text names a school for him. Under the two-source rule the value stays unknown, unflagged, with the generic attestation preserved here."
+    sources: [source/wikipedia-hafizullah-amin-en, source/wikipedia-hafizullah-amin-ar, source/wikipedia-hafizullah-amin-ur, source/wikidata-hafizullah-amin]
+external_ids: { wikidata: "Q63831" }
+sources: [source/wikipedia-hafizullah-amin-en, source/wikipedia-hafizullah-amin-ar, source/wikipedia-hafizullah-amin-ur, source/wikidata-hafizullah-amin]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Hafizullah Amin and his Wikidata item Q63831 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026, each article fetched by its recorded revision id with equality asserted on a second read; the only religion value anywhere is Wikidata's generic Islam, and the English text's record of his pro-Islam campaign is regime positioning — so his faith is unknown, unflagged (generic-only). No born_in edge is written: no place entity exists for Paghman. No succession edges are written, his overthrow of Taraki and the December 1979 change of regime being office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

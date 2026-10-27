@@ -1,0 +1,45 @@
+id: person/nur-muhammad-taraki
+class: person
+label: { ar: "نور محمد تركي", en: "Nur Muhammad Taraki", ur: "نور محمد ترہ کئی" }
+names:
+  - { value: "Nur Muhammad Taraki", kind: full }
+  - { value: "نور محمد ترکی", kind: full }
+gender: male
+summary:
+  ar: "سياسي شيوعي وكاتب وصحفي أفغاني، وُلد سنة 1917 في ناوا بولاية غزني لأسرة فلاحية بشتونية. أسس حزب الشعب الديمقراطي الأفغاني سنة 1965 وكان أمينه العام، وقاد الدولة بعد انقلاب ثور في أبريل 1978 حتى أطاح به حفيظ الله أمين في سبتمبر 1979 وقُتل في كابل في أكتوبر من السنة نفسها."
+  en: "Afghan communist politician, writer and journalist, born in 1917 at Nawa in Ghazni Province to a Pashtun peasant family. He founded the People's Democratic Party of Afghanistan in 1965 and was its general secretary, and headed the state after the April 1978 Saur Revolution until Hafizullah Amin overthrew him in September 1979; he was murdered at Kabul that October."
+  ur: "افغان کمیونسٹ سیاست دان، ادیب اور صحافی، جو 1917ء میں صوبہ غزنی کے ناوا میں ایک پشتون کسان گھرانے میں پیدا ہوئے۔ انھوں نے 1965ء میں پیپلز ڈیموکریٹک پارٹی آف افغانستان کی بنیاد رکھی اور اس کے جنرل سیکرٹری رہے، اور اپریل 1978ء کے ثور انقلاب کے بعد سربراہِ مملکت بنے حتیٰ کہ ستمبر 1979ء میں حفیظ اللہ امین نے انھیں معزول کیا اور اسی اکتوبر میں کابل میں قتل کر دیا گیا۔"
+roles: [politician, writer, journalist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1917-07-14"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born at Nawa, Ghazni Province, to a Ghilji Pashtun peasant family. The date is carried as debated: the English article gives 14 July 1917 and Wikidata 15 July 1917. The Arabic article named for him gives 15 July 1913, but that article narrates a conflated life and is not used for facts (see provenance). The Urdu article's lead prints his birth year as 1971, an evident typographical error for 1917. No place entity exists for Nawa or Ghazni, so no born_in relation is written. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikipedia-nur-muhammad-taraki-ur, source/wikidata-nur-muhammad-taraki]
+died:
+  edtf: "1979-10-09"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Murdered at Kabul after his overthrow by Amin. The date is carried as debated: the English article's infobox and lead and Wikidata give 9 October 1979, while the English article's body once dates the murder to 8 October and the Urdu article gives 8 October; Kabul press at the time reported a death from illness. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikipedia-nur-muhammad-taraki-ur, source/wikidata-nur-muhammad-taraki]
+relations:
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikidata-nur-muhammad-taraki] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "ABSENCE configuration: no source gives any religion value for him at all. No article in any language carries a religion field for him, and Wikidata has no religion claim. What the sources give is ideology and state activity: the English article documents his communism, his founding and leadership of the Marxist-Leninist PDPA and his regime's policies against the established religious order. Under the lane's precedents (gabiev, buynaksky, seifullin, ikramov), political communism and anti-religious state activity do not engage the atheist-or-sceptic bar, which requires two sources attesting the person's own atheism or self-identification; no text read attests his personal atheism either. His peasant Pashtun family background is background, which never counts. The value therefore stays unknown, unflagged, with the absence stated exactly."
+    sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikipedia-nur-muhammad-taraki-ur, source/wikidata-nur-muhammad-taraki]
+external_ids: { wikidata: "Q299559" }
+sources: [source/wikipedia-nur-muhammad-taraki-en, source/wikipedia-nur-muhammad-taraki-ar, source/wikipedia-nur-muhammad-taraki-ur, source/wikidata-nur-muhammad-taraki]
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia articles on Nur Muhammad Taraki and his Wikidata item Q299559 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), read on 27 October 2026, each article fetched by its recorded revision id with equality asserted on a second read. The Arabic article named for him (revision 74711402) was read and REJECTED for facts: it narrates a conflated life (born 15 July 1913 at Paghman; economics degrees from Columbia and Harvard; the PDPA founded in 1956) that contradicts the English Good Article and Wikidata and appears to conflate him with Hafizullah Amin; it is registered as a source with that caveat and cited for nothing. No source gives any religion value for him — his communism is party ideology and his regime's anti-religious policies are state activity, neither of which engages the atheist-or-sceptic bar — so his faith is unknown, unflagged (absence). His birth and death dates are carried as debated (14 vs 15 July 1917; 9 vs 8 October 1979). No succession edges are written, the Saur Revolution chain being office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

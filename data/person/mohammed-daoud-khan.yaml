@@ -1,0 +1,50 @@
+id: person/mohammed-daoud-khan
+class: person
+label: { ar: "محمد داود خان", en: "Mohammad Daoud Khan", ur: "محمد داؤد خان" }
+names:
+  - { value: "Mohammad Daoud Khan", kind: full }
+  - { value: "محمد داود خان", kind: full }
+  - { value: "Daud Khan", kind: alternate }
+  - { value: "Dawood Khan", kind: alternate }
+  - { value: "Sardar", kind: laqab }
+gender: male
+summary:
+  ar: "ضابط وسياسي أفغاني من الأسرة الملكية الموساهيبانية، وُلد في كابل سنة 1909. تولى رئاسة الحكومة (1953-1963) في عهد ابن عمه الملك ظاهر شاه، ثم أطاح بالملكية في انقلاب 1973 وأعلن الجمهورية وكان أول رؤسائها، حتى اغتيل مع معظم أسرته في انقلاب ثور الشيوعي في 28 أبريل 1978."
+  en: "Afghan military officer and politician of the Musahiban royal family, born at Kabul in 1909. He was prime minister (1953–1963) under his cousin King Zahir Shah, then overthrew the monarchy in the 1973 coup, proclaimed the republic and became its first president, until he was assassinated with most of his family in the communist Saur Revolution on 28 April 1978."
+  ur: "افغان فوجی افسر اور مصاحبان شاہی خاندان کے سیاست دان، جو 1909ء میں کابل میں پیدا ہوئے۔ اپنے چچا زاد بادشاہ ظاہر شاہ کے دور میں وزیرِ اعظم (1953ء–1963ء) رہے، پھر 1973ء کی بغاوت میں بادشاہت ختم کر کے جمہوریہ کا اعلان کیا اور اس کے پہلے صدر بنے، حتیٰ کہ 28 اپریل 1978ء کو ثور انقلاب میں بیشتر خاندان سمیت قتل کر دیے گئے۔"
+roles: [politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1909-07-18"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 18 July 1909 at Kabul, the eldest son of the diplomat Prince Mohammad Aziz Khan, as all three articles and Wikidata give. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-mohammed-daoud-khan-en, source/wikipedia-mohammed-daoud-khan-ar, source/wikipedia-mohammed-daoud-khan-ur, source/wikidata-mohammed-daoud-khan]
+died:
+  edtf: "1978-04-28"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Assassinated on 28 April 1978 at Kabul in the Saur Revolution, as all three articles and Wikidata give. The English article gives his resting place as near Taj Beg hill in Kabul; his body was located in 2008 and he received a state funeral in 2009. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-mohammed-daoud-khan-en, source/wikipedia-mohammed-daoud-khan-ar, source/wikipedia-mohammed-daoud-khan-ur, source/wikidata-mohammed-daoud-khan]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-mohammed-daoud-khan-en, source/wikidata-mohammed-daoud-khan] }
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-mohammed-daoud-khan-en, source/wikidata-mohammed-daoud-khan] }
+  - { type: buried_in, target: place/kabul, sources: [source/wikipedia-mohammed-daoud-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no text names a school for him. The school is named only by one structured family: the Arabic article's infobox value Sunni Islam (Ahl al-Sunna wa'l-Jama'a) and Wikidata's Sunni value (Q483654) — one structured attestation, which never counts twice. The English and Urdu articles carry no religion field. The English text's mentions of Islam are state policy (the 1977 constitution's blend of 'socialism and Islam') and the detail that his body was identified by the small golden Quran he always carried — personal practice, which does not name a school. His royal descent and his headship of state are family and office under the headship line. Under the two-source rule and the doubt rule the value therefore stays unknown, with the structured attestations preserved here."
+    sources: [source/wikipedia-mohammed-daoud-khan-en, source/wikipedia-mohammed-daoud-khan-ar, source/wikipedia-mohammed-daoud-khan-ur, source/wikidata-mohammed-daoud-khan]
+external_ids: { wikidata: "Q310247" }
+sources: [source/wikipedia-mohammed-daoud-khan-en, source/wikipedia-mohammed-daoud-khan-ar, source/wikipedia-mohammed-daoud-khan-ur, source/wikidata-mohammed-daoud-khan]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mohammad Daoud Khan and his Wikidata item Q310247 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026, each article fetched by its recorded revision id with equality asserted on a second read; no text names a school for him — Sunni appears only in one structured family (the Arabic infobox and Wikidata) — so his faith is unknown FLAGGED. No relation is written for his kinship to Zahir Shah: he was the king's cousin and brother-in-law, and no predicate covers cousin or in-law relations; his marriage to the king's sister Zamina Begum is in the prose and she has no record. No spouse edge is written here for that reason. No succession edges are written, the 1973 coup and the Saur Revolution being office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
