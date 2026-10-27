@@ -1,0 +1,38 @@
+id: person/raghuram-rajan
+class: person
+label: { ar: "راغورام راجان", en: "Raghuram Rajan", ur: "رگھورام راجن" }
+names:
+  - { value: "Raghuram Govind Rajan", kind: full }
+  - { value: "راغورام راجان", kind: full }
+  - { value: "Raghuram G. Rajan", kind: alternate }
+gender: male
+summary:
+  ar: "راغورام غوفند راجان (وُلد في 3 فبراير 1963) اقتصادي هندي، شغل منصب كبير اقتصاديي صندوق النقد الدولي (2003–2006) والمستشار الاقتصادي الأول لحكومة الهند (2012–2013) والمحافظ الثالث والعشرين لبنك الاحتياطي الهندي (2013–2016)، وهو أستاذ التمويل في كلية بوث لإدارة الأعمال بجامعة شيكاغو. اشتهر بتحذيره المبكر سنة 2005 من مخاطر النظام المالي، وبكتابيه «إنقاذ الرأسمالية من الرأسماليين» و«خطوط الصدع» الحائز جائزة فايننشال تايمز وغولدمان ساكس لكتاب العام في الأعمال."
+  en: "Raghuram Govind Rajan (born 3 February 1963) is an Indian economist who served as chief economist of the International Monetary Fund (2003–2006), chief economic adviser to the Government of India (2012–2013) and the 23rd governor of the Reserve Bank of India (2013–2016), and is a professor of finance at the University of Chicago Booth School of Business. He is known for his 2005 warning of emerging risks in the financial system, three years before the 2008 crisis, and for the books Saving Capitalism from the Capitalists and Fault Lines."
+  ur: "رگھورام گووند راجن (پیدائش 3 فروری 1963ء) ایک بھارتی ماہر اقتصادیات ہیں جو بین الاقوامی مالیاتی فنڈ کے چیف اکانومسٹ (2003ء–2006ء)، حکومت ہند کے چیف اکنامک ایڈوائزر (2012ء–2013ء) اور بھارتی ریزرو بینک کے 23ویں گورنر (2013ء–2016ء) رہے، اور شکاگو یونیورسٹی کے بوتھ اسکول آف بزنس میں مالیات کے پروفیسر ہیں۔ وہ 2005ء میں مالیاتی نظام کے خطرات پر اپنی ابتدائی وارننگ، اور اپنی کتابوں ”سیونگ کیپٹلزم فرام دی کیپٹلسٹس“ اور ”فالٹ لائنز“ کی وجہ سے جانے جاتے ہیں۔"
+roles: [economist]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+born:
+  edtf: "1963-02-03"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 February 1963 at Bhopal, Madhya Pradesh; the English article's infobox and text and Wikidata agree. No born_in relation is written: Bhopal has no museum place entity. The Hijri year (1382) is derived by tabular conversion."
+  sources: [source/wikipedia-raghuram-rajan-en, source/wikidata-raghuram-rajan]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder — structured-data-only configuration. Wikidata's religion value for him is Hinduism (Q9089), and that is the whole of the attestation: it is one structured-data family, and no text names his affiliation — not the English article (whose only 'Hindu' occurrences are the newspaper The Hindu), not the Arabic article, not the Urdu article. Low-quality celebrity-biography sites found in search describe his family's practice ('Rajan's family practiced Hinduism'), which is family framing in an unreliable text and counts for nothing. One structured value never suffices under the two-source rule. Recorded unknown, flagged, with the Wikidata value preserved here. He is in the queue as a non-Muslim contemporary of the group's subjects, and is built as the person the queue line names, on the Kosta Khetagurov precedent."
+    sources: [source/wikipedia-raghuram-rajan-en, source/wikipedia-raghuram-rajan-ar, source/wikipedia-raghuram-rajan-ur, source/wikidata-raghuram-rajan]
+external_ids: { wikidata: "Q981496" }
+sources: [source/wikipedia-raghuram-rajan-en, source/wikipedia-raghuram-rajan-ar, source/wikipedia-raghuram-rajan-ur, source/wikidata-raghuram-rajan]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 107 §A of the century-additions queue from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Arabic and Urdu articles' pageprops. Existence checked both ways before building: name-fragment greps (rajan, rajan, راجان, راجن) across data/person/ found no record for him (the Rajan fragment hit, ibn-barrajan, is a medieval namesake), and his Q981496 appears in no existing person record. No relation is written: Bhopal has no museum place entity (no born_in — the place is stated in the date note), and his wife has no museum record. His faith is recorded unknown, flagged, on the structured-data-only configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-107
+status: { review: published }
