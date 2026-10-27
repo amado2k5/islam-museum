@@ -1,0 +1,51 @@
+id: person/shah-muhammad-sulaiman
+class: person
+label:
+  ar: "شاه محمد سليمان"
+  en: "Shah Muhammad Sulaiman"
+  ur: "شاہ محمد سلیمان"
+summary:
+  ar: "شاه محمد سليمان (1886–1941) قاضٍ وفيزيائي هندي، أول هندي يرأس محكمة الله آباد العليا (1932–1937)، ثم قاضٍ في المحكمة الاتحادية الهندية ونائب رئيس جامعة عليكرة الإسلامية (1938–1941)."
+  en: "Shah Muhammad Sulaiman (1886–1941) was an Indian judge and physicist, the first Indian Chief Justice of the Allahabad High Court (1932–1937), later a judge of the Federal Court of India and Vice-Chancellor of Aligarh Muslim University (1938–1941)."
+  ur: "شاہ محمد سلیمان (1886ء–1941ء) ہندوستانی منصف اور طبیعیات دان تھے، الہ آباد ہائی کورٹ کے پہلے ہندوستانی چیف جسٹس (1932ء–1937ء)، بعد میں وفاقی عدالت کے جج اور علی گڑھ مسلم یونیورسٹی کے وائس چانسلر (1938ء–1941ء) رہے۔"
+names:
+  - { value: "Shah Muhammad Sulaiman", kind: full }
+  - { value: "شاه محمد سليمان", kind: full }
+  - { value: "شاہ محمد سلیمان", kind: full }
+gender: male
+roles: [jurist, scientist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1886-02-03"
+  hijri: "1303"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 February 1886 at Waleedpur village in Jaunpur district, British India: the English article's lead and infobox give the day (cited there to the Allahabad High Court's official biography), the Urdu article's filing categories confirm the year, and Wikidata gives the same day. The Hijri year is a tabular conversion of the Gregorian date. Jaunpur has no place entity, so no born_in edge is written. The lane queue gives his birth year as 1891, which no consulted source supports; 1886 is followed."
+  sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman]
+died:
+  edtf: "1941-03-12"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 12 March 1941 while a judge of the Federal Court of India: the English article's lead and infobox give the day, the Urdu article's filing categories confirm the year, and Wikidata gives the same day. (Ziauddin Ahmad's English article dates the end of Sulaiman's vice-chancellorship to 13 March 1941, one day later; his own article and Wikidata are followed.) The Hijri year is a tabular conversion of the Gregorian date. The English article gives no death place; it records that he was buried at the Nizamuddin Dargah in Delhi, beside Amir Khusrow, which is written as the buried_in edge to place/delhi."
+  sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him. The English and Urdu article texts name no religion at all; Wikidata gives his religion only as Islam generically (the item for Islam, Q432), a single structured value naming no school; and the English article's filing categories ('19th-century Indian Muslims' and the like) are categories, not attestations. His descent from a family of lawyers and scholars of Jaunpur is family background and never counts. One generic structured value plus filings is not two independent sources naming a school, so the segment stays unknown."
+    sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman]
+relations:
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-shah-muhammad-sulaiman-en] }
+  - { type: successor_of, target: person/ziauddin-ahmad, sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-shah-muhammad-sulaiman-en] }
+sources: [source/wikipedia-shah-muhammad-sulaiman-en, source/wikipedia-shah-muhammad-sulaiman-ur, source/wikidata-shah-muhammad-sulaiman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shah Muhammad Sulaiman' (revision 1369189494) and Urdu Wikipedia 'شاہ محمد سلیمان' (revision 11850188), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q7461315 (item revision 2538115875, queried twice with identical results). Existence checks by name fragments (sulaiman, شاه محمد سليمان, شاہ محمد سلیمان), by biography (Allahabad chief justice, Aligarh vice-chancellor), by QID across data/person, and by record provenances found no prior record for this man; the record shah-sulaiman-nuri is a different person. No Arabic Wikipedia article exists for him (only an Egyptian-dialect sitelink, which this lane does not count as an Arabic article), so the Arabic prose is written from the English and Urdu sources and says so. Two relations are written. First, buried_in to place/delhi, on the English article's statement that he was buried at the Nizamuddin Dargah in Delhi beside Amir Khusrow. Second, successor_of to person/ziauddin-ahmad, built in this same batch, and its direction is stated here in words: Sulaiman SUCCEEDED Ziauddin Ahmad as Vice-Chancellor of Aligarh Muslim University in 1938 — Ziauddin's own English article states that when his first term ended on 30 April 1938 'he was succeeded as Vice-Chancellor by Sir Shah Sulaiman', and Sulaiman's own English article confirms his vice-chancellorship ran 1938–1941. No other edge is written: Jaunpur has no place entity. The lane queue gives 'Sir Shah Sulaiman (1891–1941)': the death year is confirmed, but the birth year is wrong — the articles and Wikidata agree on 1886 (3 February 1886)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-86
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
