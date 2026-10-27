@@ -471,11 +471,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] King Salman bin Abdulaziz — 1935–Living
 - [x] Crown Prince Mohammed bin Salman — 1985–Living
 - [x] Sheikh Zayed bin Sultan Al Nahyan — 1918–2004
-- [ ] Sheikh Rashid bin Saeed Al Maktoum — 1912–1990
-- [ ] Sheikh Khalifa bin Zayed Al Nahyan — 1948–2022
-- [ ] Sheikh Mohamed bin Zayed Al Nahyan — 1961–Living
-- [ ] Sheikh Mohammed bin Rashid Al Maktoum — 1949–Living
-- [ ] Sultan Qaboos bin Said Al Said — 1940–2020
+- [x] Sheikh Rashid bin Saeed Al Maktoum — 1912–1990
+- [x] Sheikh Khalifa bin Zayed Al Nahyan — 1948–2022
+- [x] Sheikh Mohamed bin Zayed Al Nahyan — 1961–Living
+- [x] Sheikh Mohammed bin Rashid Al Maktoum — 1949–Living
+- [x] Sultan Qaboos bin Said Al Said — 1940–2020
 - [ ] Sultan Haitham bin Tarik — 1955–Living
 - [ ] Sheikh Sabah Al-Ahmad Al-Jaber Al-Sabah — 1929–2020
 - [ ] Sheikh Jaber Al-Ahmad Al-Sabah — 1926–2006

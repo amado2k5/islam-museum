@@ -1,0 +1,41 @@
+id: person/mohammed-bin-rashid-al-maktoum
+class: person
+label:
+  ar: "محمد بن راشد آل مكتوم"
+  en: "Mohammed bin Rashid Al Maktoum"
+  ur: "محمد بن راشد آل مکتوم"
+names:
+  - { value: "Mohammed bin Rashid bin Saeed bin Maktoum bin Hasher bin Maktoum bin Butti bin Suhail Al Maktoum", kind: full }
+  - { value: "محمد بن راشد بن سعيد آل مكتوم", kind: full }
+gender: male
+summary:
+  ar: "حاكم دبي ونائب رئيس دولة الإمارات العربية المتحدة ورئيس مجلس وزرائها منذ 2006، ثالث أبناء راشد بن سعيد آل مكتوم. وُلد في دبي سنة 1949، وتدرب في كلية مونز العسكرية البريطانية، وعيّنه والده رئيسًا لشرطة دبي في العشرين من عمره، ثم صار أول وزير للدفاع في الاتحاد سنة 1971 وولي عهد دبي سنة 1995، وخلف أخاه مكتوم في 4 يناير 2006. في عهده صارت دبي مدينة عالمية: طيران الإمارات ودي بي ورلد ومجموعة جميرا، وجزر النخلة وبرج العرب وبرج خليفة أطول مبنى في العالم. وهو فارس معروف ومؤسس إسطبلات غودولفين العالمية لسباقات الخيل."
+  en: "Ruler of Dubai and Vice President and Prime Minister of the United Arab Emirates since 2006, the third son of Rashid bin Saeed Al Maktoum. Born at Dubai in 1949, he trained at the Mons Officer Cadet School in Britain; his father appointed him head of the Dubai Police at twenty, he became the federation's first minister of defence in 1971 and crown prince of Dubai in 1995, and he succeeded his brother Maktoum on 4 January 2006. Under him Dubai became a global city: Emirates airline, DP World and the Jumeirah Group, the Palm Islands, the Burj Al Arab and the Burj Khalifa, the world's tallest building. He is an accomplished equestrian and the founder of the Godolphin thoroughbred racing stable."
+  ur: "دبئی کے حکمران اور 2006ء سے متحدہ عرب امارات کے نائب صدر اور وزیرِ اعظم، راشد بن سعید آل مکتوم کے تیسرے صاحبزادے۔ 1949ء میں دبئی میں پیدا ہوئے، برطانیہ کی مونز آفیسر کیڈٹ اسکول میں تربیت حاصل کی؛ والد نے بیس برس کی عمر میں انہیں دبئی پولیس کا سربراہ مقرر کیا، 1971ء میں وہ وفاق کے پہلے وزیرِ دفاع بنے اور 1995ء میں دبئی کے ولی عہد، اور 4 جنوری 2006ء کو اپنے بھائی مکتوم کے جانشین بنے۔ ان کے دور میں دبئی عالمی شہر بنی: امارات ایئرلائن، ڈی پی ورلڈ اور جمیرہ گروپ، پام جزائر، برج العرب اور دنیا کی بلند ترین عمارت برج خلیفہ۔ وہ ماہر گھڑ سوار اور گھوڑ دوڑ کے عالمی اصطبل گوڈولفن کے بانی ہیں۔"
+roles: [ruler]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1949-07-15"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 15 July 1949 at Dubai — at the family home in Al Shindagha, the Arabic article adds — the third son of Rashid bin Saeed Al Maktoum and Latifa bint Hamdan Al Nahyan (English article, Arabic article and Wikidata agree on the date). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Dubai, so no born_in relation is written."
+  sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikidata-mohammed-bin-rashid-al-maktoum]
+relations:
+  - { type: child_of, target: person/rashid-bin-saeed-al-maktoum, sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikidata-mohammed-bin-rashid-al-maktoum] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder: a Sunni reading exists but rests on the link target of a single infobox parameter. In full: the Urdu stub's infobox religion parameter links to the article 'Ahl-e-Sunnat' (Ahl al-Sunna) while displaying the word 'Islam' — one structured value in one article, the same configuration as Mohammed bin Salman (wave 84: a single infobox, uncorroborated on the branch). It is uncorroborated here too: the English article's infobox religion field reads 'Islam' only, and Wikidata's religion (P140) value is Islam (Q432) only, so no second statement names the branch; the Arabic article's account of his childhood instruction in Arabic and the teachings of Islam is formation, which never counts; no article text names a school for him. The value stays unknown under the two-source rule and the doubt rule, with the Sunni reading preserved here; a second independent source naming his school would be needed to record it."
+    sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikipedia-mohammed-bin-rashid-al-maktoum-ur, source/wikidata-mohammed-bin-rashid-al-maktoum]
+external_ids: { wikidata: "Q57655" }
+sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikipedia-mohammed-bin-rashid-al-maktoum-ur, source/wikidata-mohammed-bin-rashid-al-maktoum]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammed bin Rashid Al Maktoum' (revision 1382159802 of 27 October 2026), Arabic Wikipedia 'محمد بن راشد آل مكتوم' (revision 76758065 of 25 September 2026) and Urdu Wikipedia 'محمد بن راشد آل مکتوم' (revision 12109229 of 7 October 2026), each fetched on 27 October 2026 by its recorded revision id and asserted equal to it, with Wikidata item Q57655 (item revision 2558174197 of 18 October 2026), likewise fetched by revision id and asserted equal. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q57655. His Arabic label محمد بن راشد آل مكتوم collides with no existing record's label. His sonship of Rashid is written here, in the subject's record. No successor_of relation is written: the fetched English article states, in its lead, its infobox (predecessor: Maktoum bin Rashid Al Maktoum) and its Ruler of Dubai section, that he succeeded his brother Maktoum — who ruled Dubai from their father's death in 1990 until his own death on 4 January 2006 — and not Rashid directly; Maktoum has no museum record, so the Dubai succession edge has no existing target and is recorded in this provenance instead. No member_of relation is written, because no group entity for the Al Maktoum family exists, and no place relations, because the museum has no place entity for Dubai."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
