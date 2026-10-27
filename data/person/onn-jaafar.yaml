@@ -1,0 +1,44 @@
+id: person/onn-jaafar
+class: person
+label: { ar: "عون جعفر", en: "Onn Jaafar", ur: "عون جعفر" }
+names:
+  - { value: "Onn bin Jaafar", kind: full }
+  - { value: "عون بن جعفر", kind: full }
+  - { value: "Onn Jaafar", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ملايوي (1895–1962) أسس المنظمة الوطنية للملايويين المتحدين (أمنو) سنة 1946 وقاد المعارضة لاتحاد الملايو البريطاني، فعُدّ رائد القومية الملايوية المنظمة. كان رئيس وزراء جوهر (1947–1950)، ثم غادر أمنو سنة 1951 اعتراضًا على سياساتها العرقية فأسس حزب استقلال الملايو ثم حزب الوطن."
+  en: "Malayan politician (1895–1962) who founded the United Malays National Organisation (UMNO) in 1946 and led the opposition to the Malayan Union, and is regarded as the pioneer of organised Malay nationalism. He was Menteri Besar of Johor (1947–1950), then left UMNO in 1951 over its communal policies and founded the Independence of Malaya Party and later Parti Negara."
+  ur: "ملایہ کے سیاست دان (1895ء–1962ء) جنہوں نے 1946ء میں یونائیٹڈ ملایز نیشنل آرگنائزیشن (امنو) کی بنیاد رکھی اور ملایہ یونین کی مخالفت کی قیادت کی؛ انہیں منظم ملایہ قوم پرستی کا بانی سمجھا جاتا ہے۔ وہ جوہر کے وزیر اعلیٰ (1947ء–1950ء) رہے، پھر 1951ء میں امنو کی فرقہ وارانہ پالیسیوں پر اختلاف کر کے اسے چھوڑ دیا اور انڈیپینڈنس آف ملایہ پارٹی اور بعد میں پارٹی نگارا قائم کی۔"
+roles: [politician, writer]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1895-02-12"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 12 February 1895 at Bukit Gambir, Johor Bahru, Johor: the English and Malay articles and Wikidata agree. No source gives a Hijri pairing, so no hijri key is carried. Johor Bahru has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-onn-jaafar-en, source/wikipedia-onn-jaafar-ms, source/wikidata-onn-jaafar]
+died:
+  edtf: "1962-01-19"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 19 January 1962 at the General Hospital, Johor Bahru, and was buried at the Mahmoodiah Royal Mausoleum there, beside his father Jaafar Muhammad: the English and Malay articles and Wikidata agree on the date. No source gives a Hijri pairing, so no hijri key is carried. Johor Bahru has no place entity, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-onn-jaafar-en, source/wikipedia-onn-jaafar-ms, source/wikidata-onn-jaafar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text or infobox in either edition names a religion or a school for him; the only religion datum anywhere is Wikidata's Islam in general (Q432), a single structured value with no school. His founding and presidency of UMNO is political affiliation, which never counts. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-onn-jaafar-en, source/wikipedia-onn-jaafar-ms, source/wikidata-onn-jaafar]
+external_ids: { wikidata: "Q1058538" }
+sources: [source/wikipedia-onn-jaafar-en, source/wikipedia-onn-jaafar-ms, source/wikidata-onn-jaafar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Onn Jaafar' (revision 1365642360 of 23 July 2026), Malay Wikipedia 'Onn Jaafar' (revision 6983312 of 16 October 2026) and Wikidata item Q1058538 (item revision 2496414210 of 23 May 2026), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the QID was grounded through the English article's page properties and confirmed through the Malay article's. Identity: the queue line 'Dato' Onn Jaafar (1895–1962)' matches the UMNO founder's biography and years exactly in all three sources. Existence checks by name fragments (onn, jaafar, عون, جعفر) across data/person, by QID and by biography found no prior record; the Jaafar-named files on file are other men. No relations are written: his father Jaafar Muhammad, his son Hussein Onn and his grandson Hishammuddin Hussein have no person records, and Johor Bahru and Singapore have no place entities here, so no child_of, born_in, died_in or buried_in edge is possible; UMNO has no group entity, so no founder_of or member_of edge is written — the founding is carried in the prose. No Arabic or Urdu Wikipedia article exists (the item's sitelinks are the English and Malay articles only), so the Arabic and Urdu prose are written from those sources and say so."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

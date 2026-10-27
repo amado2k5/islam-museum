@@ -1,0 +1,49 @@
+id: person/tok-janggut
+class: person
+label: { ar: "حسن بن مات مونس", en: "Tok Janggut", ur: "حسن بن مات مونس" }
+names:
+  - { value: "Hassan bin Mat Munas", kind: full }
+  - { value: "حسن بن مات مونس", kind: full }
+  - { value: "Haji Hassan bin Panglima Mat Munas", kind: alternate }
+  - { value: "Haji Hassan bin Munas", kind: alternate }
+  - { value: "Mat Hassan bin Mat Munas", kind: alternate }
+  - { value: "Tok Janggut", kind: laqab }
+gender: male
+summary:
+  ar: "زعيم انتفاضة كلنتن سنة 1915 ضد الإدارة البريطانية (1853–1915)، اسمه حسن بن مات مونس ويُعرف بتوك جانغوت. تلقى تعليمه الديني في كلنتن ومكة، وقاد أهالي باسير بوتيه في رفض الضرائب البريطانية الجديدة، وأعلن مع زملائه استقلال باسير بوتيه أيامًا، وقُتل في مواجهة القوات البريطانية والهندية سنة 1915."
+  en: "Leader of the 1915 Kelantan rebellion against the British administration (1853–1915), born Hassan bin Mat Munas and known as Tok Janggut. He received his religious education in Kelantan and Mecca, led the people of Pasir Puteh in refusing the new British taxes, briefly proclaimed Pasir Puteh independent with his companions, and was killed fighting British and Indian troops in 1915."
+  ur: "کیلنتن کی 1915ء کی بغاوت کے رہنما (1853ء–1915ء)، اصل نام حسن بن مات مونس، جو ٹوک جانگوت کے نام سے مشہور ہیں۔ انہوں نے کیلنتن اور مکہ میں دینی تعلیم حاصل کی، پاسیر پوتیہ کے لوگوں کی قیادت کرتے ہوئے نئے برطانوی ٹیکسوں سے انکار کیا، ساتھیوں کے ساتھ چند دن پاسیر پوتیہ کی آزادی کا اعلان کیا، اور 1915ء میں برطانوی اور ہندوستانی فوج سے لڑتے ہوئے مارے گئے۔"
+roles: [activist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1853"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1853 at Kampung Jeram, Pasir Puteh, Kelantan (the Malay article specifies Kampung Saring, in the Jeram district of Pasir Puteh): both articles give the year only, citing Cheah Boon Kheng's study of the rebellion and Abdul Latip Talib's biography, and Wikidata agrees. No source gives a day or a Hijri pairing, so no hijri key is carried. Pasir Puteh has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-tok-janggut-en, source/wikipedia-tok-janggut-ms, source/wikidata-tok-janggut]
+died:
+  edtf: "1915-05-25"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Killed in the 1915 Kelantan rebellion. The Malay article's infobox, lead and narrative give 25 May 1915, its narrative placing his death in the battle at Kampung Pupuh; the English article's lead also gives 25 May 1915, but its narrative instead describes a final march on Pasir Puteh on 25 June 1915 in which he was killed, and Wikidata carries 25 June 1915. The 25 May date, attested by both article leads and the fuller Malay narrative, is followed and the status marked debated for the conflict. His body was carried to Kota Bharu, displayed there, and buried at Pasir Pekan (the English article gives Palekbang); no place entity exists for Pasir Puteh, Kota Bharu or Pasir Pekan, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-tok-janggut-en, source/wikipedia-tok-janggut-ms, source/wikidata-tok-janggut]
+relations:
+  - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-tok-janggut-en, source/wikipedia-tok-janggut-ms] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The Malay article calls him an Islamic religious figure and files him under 'Malaysian Muslims', a category filing; the English article records his pondok education in Kelantan and Mecca, which is formation and never counts; Wikidata gives Islam in general (Q432) only. The Malay article's report that tradition made him a pupil of Tok Ku Paloh is a single unattributed tradition about a teacher, which also never counts. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-tok-janggut-en, source/wikipedia-tok-janggut-ms, source/wikidata-tok-janggut]
+external_ids: { wikidata: "Q7813447" }
+sources: [source/wikipedia-tok-janggut-en, source/wikipedia-tok-janggut-ms, source/wikidata-tok-janggut]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Tok Janggut' (revision 1376826188 of 26 September 2026), Malay Wikipedia 'Tok Janggut' (revision 6974605 of 5 October 2026) and Wikidata item Q7813447 (item revision 2525002591 of 31 July 2026), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the QID was grounded through the English article's page properties and confirmed through the Malay article's. Identity: the queue line 'Tok Janggut (Hassan bin Mat Munas) (1853–1915)' matches the Kelantan rebel's biography and years exactly; his name forms vary between the articles (English lead 'Haji Hassan bin Munas', Malay lead 'Haji Hassan bin Panglima Mat Munas', Malay birth name 'Mat Hassan bin Mat Munas') and all attested forms are recorded. Existence checks by name fragments (janggut, hassan) across data/person, by QID and by biography found no prior record; the Hassan-named files on file are other men. One relation is written: traveled_to Mecca, attested by both articles for his education. No other edge is possible: Pasir Puteh, Kota Bharu and Pasir Pekan have no place entities, and his father Panglima Munas has no person record. No Arabic or Urdu Wikipedia article exists (the item's sitelinks are the English and Malay articles only), so the Arabic and Urdu prose are written from those sources and say so."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
