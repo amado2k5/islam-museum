@@ -1,11 +1,22 @@
 import { describe, it, expect } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { buildRecords, TOPICS, LAUNCH_PER_TOPIC, type GraphNode } from './time-browser.ts'
+import { buildRecords, spreadAcrossTime, TOPICS, LAUNCH_PER_TOPIC, type GraphNode } from './time-browser.ts'
 
 const graph = JSON.parse(
   readFileSync(join(process.cwd(), '.cache', 'graph.json'), 'utf8'),
 ) as { nodes: GraphNode[] }
+
+describe('time-browser batch spread', () => {
+  it('spreadAcrossTime takes evenly spaced items across the whole range', () => {
+    const items = Array.from({ length: 1000 }, (_, i) => i)
+    const picked = spreadAcrossTime(items, 50)
+    expect(picked.length).toBe(50)
+    expect(picked[0]).toBe(0)
+    expect(picked[49]).toBe(999)
+    expect(new Set(picked).size).toBe(50)
+  })
+})
 
 describe('time-browser records', () => {
   for (const topic of TOPICS) {
