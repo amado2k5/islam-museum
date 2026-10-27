@@ -1,0 +1,50 @@
+id: person/nuri-al-said
+class: person
+label: { ar: "نوري السعيد", en: "Nuri al-Said", ur: "نوری سعید" }
+names:
+  - { value: "نوري بن سعيد بن صالح ابن الملا طه", kind: full }
+  - { value: "نوري السعيد", kind: full }
+  - { value: "Nuri al-Said", kind: full }
+  - { value: "Nuri Pasha al-Said", kind: alternate }
+gender: male
+summary:
+  ar: "نوري السعيد (ديسمبر 1888 – 15 يوليو 1958)، سياسي عراقي هيمن على الحياة السياسية في العراق الملكي، وتولى رئاسة الوزراء أربع عشرة مرة بين 1930 و1958. كان أبرز وجوه النظام الملكي الهاشمي وحليف بريطانيا الأقرب، وقُتل في بغداد غداة ثورة 14 يوليو 1958 وهو يحاول الفرار من البلاد."
+  en: "Nuri al-Said (December 1888 – 15 July 1958) was an Iraqi politician who dominated political life in Hashemite Iraq, serving fourteen terms as prime minister between 1930 and 1958. The leading figure of the monarchy and Britain's closest Iraqi ally, he was captured and killed at Baghdad the day after the revolution of 14 July 1958 while trying to flee the country."
+  ur: "نوری سعید (دسمبر 1888ء – 15 جولائی 1958ء) ایک عراقی سیاست دان تھے جنہوں نے ہاشمی عراق کی سیاسی زندگی پر غلبہ رکھا اور 1930ء سے 1958ء کے درمیان چودہ مرتبہ وزیرِ اعظم رہے۔ بادشاہت کے نمایاں ترین رہنما اور برطانیہ کے قریب ترین عراقی حلیف، وہ 14 جولائی 1958ء کے انقلاب کے اگلے دن ملک سے فرار کی کوشش کے دوران بغداد میں پکڑے گئے اور قتل ہوئے۔"
+roles: [politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1888-12"
+  hijri: "1306"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born at Baghdad in December 1888; the English article gives the month, the Arabic article the year. Wikidata carries 1 December 1888 and also the year alone; the day-level value is not followed, the articles giving month and year precision. The Hijri year (1306) is derived by tabular conversion of December 1888."
+  sources: [source/wikipedia-nuri-al-said-en, source/wikipedia-nuri-al-said-ar, source/wikidata-nuri-al-said]
+died:
+  edtf: "1958-07-15"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed at Baghdad on 15 July 1958, the day after the revolution that overthrew the monarchy, having been captured while attempting to flee the country; the English and Arabic articles and Wikidata agree. The Hijri year (1377) is derived from the Gregorian date."
+  sources: [source/wikipedia-nuri-al-said-en, source/wikipedia-nuri-al-said-ar, source/wikidata-nuri-al-said]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-nuri-al-said-en, source/wikidata-nuri-al-said] }
+  - { type: died_in, target: place/baghdad, sources: [source/wikipedia-nuri-al-said-en, source/wikipedia-nuri-al-said-ar, source/wikidata-nuri-al-said] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (structured-only Sunni reading). No article text or infobox names his religion at all: the English and Arabic articles are silent on it in both text and infobox. Wikidata alone carries religion values — Islam in general and Sunni Islam — two values on one structured item, a single source family, which never counts. One structured source short of two independent sources naming a school. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-nuri-al-said-en, source/wikipedia-nuri-al-said-ar, source/wikidata-nuri-al-said]
+external_ids: { wikidata: "Q381150" }
+sources: [source/wikipedia-nuri-al-said-en, source/wikipedia-nuri-al-said-ar, source/wikidata-nuri-al-said]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Nuri al-Said, each fetched by its recorded revision id (EN 1380963246, AR 77057654) with the returned id asserted equal before use, and Wikidata item Q381150 (item revision 2558187519, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic article's pageprops. No Urdu Wikipedia article on him exists; the Urdu prose is written from the English and Arabic articles and says so in it. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. No relations beyond birth and death place are written: his fourteen premierships under Kings Ghazi and Faisal II have no predicate in the registry, and no group entity exists for the governments he led."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

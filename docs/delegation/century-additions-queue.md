@@ -531,11 +531,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Colette Khoury — 1931–Living
 - [x] Zakaria Tamer — 1931–Living
 - [x] Saddam Hussein — 1937–2006
-- [ ] King Faisal II — 1935–1958
-- [ ] Nuri al-Said — 1888–1958
-- [ ] Abdul Karim Qasim — 1914–1963
-- [ ] Jalal Talabani — 1933–2017
-- [ ] Fuad Masum — 1938–Living
+- [x] King Faisal II — 1935–1958
+- [x] Nuri al-Said — 1888–1958
+- [x] Abdul Karim Qasim — 1914–1963
+- [x] Jalal Talabani — 1933–2017
+- [x] Fuad Masum — 1938–Living
 - [ ] Barham Salih — 1960–Living
 - [ ] Abdul Latif Rashid — 1944–Living
 - [ ] Haider al-Abadi — 1952–Living

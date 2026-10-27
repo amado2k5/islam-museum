@@ -1,0 +1,40 @@
+id: person/fuad-masum
+class: person
+label: { ar: "فؤاد معصوم", en: "Fuad Masum", ur: "فؤاد معصوم" }
+names:
+  - { value: "محمد فؤاد معصوم هورامي", kind: full }
+  - { value: "Muhammad Fuad Masum Hurami", kind: full }
+  - { value: "فؤاد معصوم", kind: full }
+  - { value: "Fuad Masum", kind: full }
+gender: male
+summary:
+  ar: "محمد فؤاد معصوم (وُلد 1 يوليو 1938)، سياسي كردي عراقي، ثاني رئيس غير عربي لجمهورية العراق، تولى الرئاسة من 2014 إلى 2018 خلفًا لجلال طالباني. نشأ في بيت علم ديني، ودرس القانون والشريعة في بغداد وحصل على الدكتوراه في الفلسفة الإسلامية من الأزهر سنة 1975، وكان من قيادات الاتحاد الوطني الكردستاني ومن أوائل رؤساء وزراء إقليم كردستان."
+  en: "Muhammad Fuad Masum (born 1 July 1938) is an Iraqi Kurdish politician, the second non-Arab president of the Republic of Iraq, holding the presidency from 2014 to 2018 in succession to Jalal Talabani. Raised in a family of religious scholars, he studied law and Sharia at Baghdad and took a doctorate in Islamic philosophy from Al-Azhar in 1975; he was a leading figure of the Patriotic Union of Kurdistan and an early prime minister of the Kurdistan Region."
+  ur: "محمد فؤاد معصوم (پیدائش 1 جولائی 1938ء) ایک عراقی کرد سیاست دان اور جمہوریۂ عراق کے دوسرے غیر عرب صدر ہیں؛ وہ 2014ء سے 2018ء تک جلال طالبانی کے جانشین کے طور پر صدر رہے۔ دینی علماء کے گھرانے میں پرورش پائی، بغداد میں قانون و شریعت کی تعلیم حاصل کی اور 1975ء میں الازہر سے اسلامی فلسفے میں ڈاکٹریٹ کیا؛ وہ پٹریاٹک یونین آف کردستان کے نمایاں رہنما اور کردستان ریجن کے ابتدائی وزرائے اعظم میں سے تھے۔"
+roles: [politician]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1938-07-01"
+  hijri: "1357"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Koya (Koy Sanjaq) in the Kingdom of Iraq on 1 July 1938; the English article gives the full date, citing a Japanese Foreign Ministry statement of 25 July 2014, the Arabic article gives the town and the year, and Wikidata carries the year. Koya has no place entity, so no born_in edge is written. The Hijri year (1357) is derived by tabular conversion of the recorded date."
+  sources: [source/wikipedia-fuad-masum-en, source/wikipedia-fuad-masum-ar, source/wikidata-fuad-masum]
+relations:
+  - { type: successor_of, target: person/jalal-talabani, sources: [source/wikipedia-fuad-masum-en, source/wikipedia-jalal-talabani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (single-infobox-family Sunni reading). The English article's infobox gives his religion as Sunni Islam and Wikidata carries Sunni Islam — the structured echo of the same reading, one source family. The Arabic article's infobox gives Islam in general, and it files him under 'Kurdish Sunni Muslims' and 'Iraqi Sunni Muslims', category filings, which never count. His religious schooling, his law and Sharia studies and his Al-Azhar doctorate in Islamic philosophy are formation, which never counts; his father Mullah Masum Khider's headship of the Association of Muslim Scholars in Kurdistan is his father's office and family background, which never count. One source family short. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-fuad-masum-en, source/wikipedia-fuad-masum-ar, source/wikidata-fuad-masum]
+external_ids: { wikidata: "Q17410819" }
+sources: [source/wikipedia-fuad-masum-en, source/wikipedia-fuad-masum-ar, source/wikipedia-fuad-masum-ur, source/wikidata-fuad-masum]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Fuad Masum, each fetched by its recorded revision id (EN 1378253501, AR 76810767, UR 6720695) with the returned id asserted equal before use, and Wikidata item Q17410819 (item revision 2557888614, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. The successor_of edge to Jalal Talabani is attested at both ends: his own article's infobox names Talabani as predecessor and its lead says he succeeded Talabani, and Talabani's article names Masum as his successor; both records are built in this run (century-additions-97). His own successor Barham Salih has no record, and no edge to him is written here in any case (successor edges live in the successor's record). No member_of edge is written for the Patriotic Union of Kurdistan (no group entity exists) and no ruler_of edge (no modern Iraq polity entity exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

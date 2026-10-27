@@ -1,0 +1,47 @@
+id: person/jalal-talabani
+class: person
+label: { ar: "جلال طالباني", en: "Jalal Talabani", ur: "جلال طالبانی" }
+names:
+  - { value: "جلال حسام الدين نور الله نوري الطالباني", kind: full }
+  - { value: "Jalal Husamuddin Nurallah Nuri al-Talabani", kind: full }
+  - { value: "جەلال تاڵەبانی", kind: full }
+  - { value: "مام جلال", kind: laqab }
+  - { value: "Mam Jalal", kind: laqab }
+gender: male
+summary:
+  ar: "جلال طالباني (1933 – 3 أكتوبر 2017)، سياسي كردي عراقي، مؤسس الاتحاد الوطني الكردستاني وقائده، وأول رئيس غير عربي لجمهورية العراق، إذ تولى الرئاسة من 2005 إلى 2014 بعد عقود من النضال السياسي والعسكري من أجل حقوق الأكراد. عُرف بلقب «مام جلال» أي العم جلال، واشتهر بدور الوسيط الجامع بين الفرقاء العراقيين حتى وفاته في برلين سنة 2017."
+  en: "Jalal Talabani (1933 – 3 October 2017) was an Iraqi Kurdish politician, founder and leader of the Patriotic Union of Kurdistan and the first non-Arab president of the Republic of Iraq, holding the presidency from 2005 to 2014 after decades of political and military struggle for Kurdish rights. Known as 'Mam Jalal' — Uncle Jalal — he was noted as a unifying mediator among Iraq's factions until his death at Berlin in 2017."
+  ur: "جلال طالبانی (1933ء – 3 اکتوبر 2017ء) ایک عراقی کرد سیاست دان، پٹریاٹک یونین آف کردستان کے بانی و رہنما اور جمہوریۂ عراق کے پہلے غیر عرب صدر تھے؛ انہوں نے کرد حقوق کی دہائیوں کی سیاسی و عسکری جدوجہد کے بعد 2005ء سے 2014ء تک صدارت سنبھالی۔ وہ «مام جلال» یعنی چچا جلال کے لقب سے معروف تھے اور 2017ء میں برلن میں وفات تک عراقی دھڑوں کے درمیان مصالحتی واسطے کے طور پر جانے جاتے تھے۔"
+roles: [politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1933"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Kelkan in the Kingdom of Iraq in 1933; the year agrees across all sources. The day is NOT carried: the Arabic article and Wikidata give 12 November 1933, but the English article deliberately gives the year only and carries an editorial warning that the 12 November date was added by a banned account that inserted other fictitious dates and has spread from Wikipedia. No hijri key is carried, because no source the record follows gives a day or a consistent Hijri pairing from which one could be derived. Kelkan has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
+died:
+  edtf: "2017-10-03"
+  hijri: "1439"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Berlin, Germany, on 3 October 2017, of a cerebral haemorrhage; the English and Arabic articles and Wikidata agree. Berlin has no place entity, so no died_in edge is written; he was buried at Dabashan by Sulaymaniyah, which likewise has no entity. The Hijri year (1439) is derived from the Gregorian date."
+  sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (Wikidata-generic-alone configuration, as Nizar Qabbani). No text or infobox names his school. Wikidata gives only Islam in general. The English and Arabic articles file him under 'Iraqi Sunni Muslims' (the Arabic also under 'Iraqi Kurdish Muslims'), category filings, which never count. His public religious observance as a Kurdish leader is practice, which never counts. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
+external_ids: { wikidata: "Q57306" }
+sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Jalal Talabani, each fetched by its recorded revision id (EN 1378210097, AR 76810758) with the returned id asserted equal before use, and Wikidata item Q57306 (item revision 2557948402, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic article's pageprops. No Urdu Wikipedia article on him exists; the Urdu prose is written from the English and Arabic articles and says so in it. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record (reza-talabani is a different, earlier poet). No successor_of edge to Saddam Hussein is written in this record: his articles list Saddam Hussein (1979–2003) and Ghazi Mashal Ajil al-Yawer expressly as acting president between them, and al-Yawer has no record — the refused-succession configuration of the interim cases in earlier waves; the chain is prose only. The one presidential succession edge of this pair is written in Fuad Masum's record, where both articles attest it directly. No member_of edge is written for the Patriotic Union of Kurdistan (no group entity exists) and no ruler_of edge (no modern Iraq polity entity exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
