@@ -511,11 +511,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Houari Boumédiène — 1932–1978
 - [x] Chadli Bendjedid — 1929–2012
 - [x] Liamine Zéroual — 1941–Living
-- [ ] Abdelmadjid Tebboune — 1945–Living
-- [ ] King Mohammed V — 1909–1961
-- [ ] King Hassan II — 1929–1999
-- [ ] King Mohammed VI — 1963–Living
-- [ ] Abderrahmane Youssoufi — 1924–2020
+- [x] Abdelmadjid Tebboune — 1945–Living
+- [x] King Mohammed V — 1909–1961
+- [x] King Hassan II — 1929–1999
+- [x] King Mohammed VI — 1963–Living
+- [x] Abderrahmane Youssoufi — 1924–2020
 - [ ] Aziz Akhannouch — 1961–Living
 - [ ] Muammar Gaddafi — 1942–2011
 - [ ] King Idris I — 1889–1983

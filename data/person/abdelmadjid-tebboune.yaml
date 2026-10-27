@@ -1,0 +1,36 @@
+id: person/abdelmadjid-tebboune
+class: person
+label: { ar: "عبد المجيد تبون", en: "Abdelmadjid Tebboune", ur: "عبد المجید تبون" }
+names:
+  - { value: "عبد المجيد تبون", kind: full }
+  - { value: "Abdelmadjid Tebboune", kind: full }
+gender: male
+summary:
+  ar: "سياسي جزائري، رئيس الجمهورية الجزائرية ووزير الدفاع منذ 19 ديسمبر 2019. وُلد في المشرية سنة 1945، وكان رئيسا للحكومة بين مايو وأغسطس 2017 ووزيرا للسكن لفترتين، ثم فاز في انتخابات ديسمبر 2019 الرئاسية وخلف الرئيس المؤقت عبد القادر بن صالح."
+  en: "Algerian politician, president of Algeria and minister of national defence since 19 December 2019. Born at Mécheria in 1945, he was prime minister from May to August 2017 and twice minister of housing before winning the December 2019 presidential election and succeeding the acting president Abdelkader Bensalah."
+  ur: "الجزائر کے سیاست دان، 19 دسمبر 2019 سے الجزائر کے صدر اور وزیر دفاع۔ وہ 1945 میں مشریہ میں پیدا ہوئے، مئی سے اگست 2017 تک وزیر اعظم اور دو بار وزیر ہاؤسنگ رہے، پھر دسمبر 2019 کے صدارتی انتخاب میں کامیاب ہو کر قائم مقام صدر عبد القادر بن صالح کے جانشین بنے۔"
+roles: [politician]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1945-11-17"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 17 November 1945 at Mécheria (English infobox and article; Arabic lead gives Mécheria, now in Naâma province). The Hijri year 1364 is the pairing carried by the Arabic article's birth category. No place entity for Mécheria exists in the graph, so no born_in relation is written."
+  sources: [source/wikipedia-abdelmadjid-tebboune-en, source/wikipedia-abdelmadjid-tebboune-ar, source/wikidata-abdelmadjid-tebboune]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The Arabic article's infobox gives his religion as Islam in general, and Wikidata (Q2821166) gives Islam (Q432) in general — one generic assertion in one family. The English article carries no religion field and no text in any edition names a school; his early schooling under a sheikh of the Association of Algerian Muslim Ulema, reported by the English article, is formation and does not attest his own school."
+    sources: [source/wikipedia-abdelmadjid-tebboune-ar, source/wikidata-abdelmadjid-tebboune, source/wikipedia-abdelmadjid-tebboune-en]
+external_ids: { wikidata: "Q2821166" }
+sources: [source/wikipedia-abdelmadjid-tebboune-en, source/wikipedia-abdelmadjid-tebboune-ar, source/wikipedia-abdelmadjid-tebboune-ur, source/wikidata-abdelmadjid-tebboune]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abdelmadjid Tebboune, each fetched by its recorded revision id (EN 1381069764, AR 76622819, UR 9677772) with the returned id asserted equal before use, and Wikidata item Q2821166 (item revision 2547393891), the QID grounded through the articles' own page properties — all three editions agree on Q2821166 — and the item read twice with identical claims. Existence checks by name fragments (Tebboune, تبون), by QID and by biography across data/person found no prior record. No successor_of relation is written: the English infobox names Abdelkader Bensalah (acting) as his predecessor as president and the Urdu article calls Bensalah acting head of state, so the interim defeats the edge (Abu Taleb / Bitat precedents)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-93
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

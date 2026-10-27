@@ -1,0 +1,40 @@
+id: person/mohammed-vi-of-morocco
+class: person
+label: { ar: "محمد السادس", en: "Mohammed VI of Morocco", ur: "محمد سادس" }
+names:
+  - { value: "محمد السادس بن الحسن العلوي", kind: full }
+  - { value: "Mohammed ben El Hassan al-Alaoui", kind: full }
+  - { value: "Mohammed VI", kind: regnal }
+gender: male
+summary:
+  ar: "ملك المغرب منذ 23 يوليو 1999. وُلد في الرباط سنة 1963 وهو ابن الحسن الثاني وخلفه على العرش بعد وفاته، درس القانون في جامعة محمد الخامس ونال الدكتوراه من جامعة نيس سنة 1993، وأجرى إصلاحات منها مدونة الأسرة الجديدة، وقاد إعادة هيكلة الحقل الديني في المغرب، ووسّع علاقات بلاده في أفريقيا والعالم ووقّع اتفاق التطبيع مع إسرائيل سنة 2020."
+  en: "King of Morocco since 23 July 1999. Born at Rabat in 1963, the son of Hassan II, whom he succeeded on the throne at his death, he studied law at Mohammed V University and took a doctorate at the University of Nice in 1993, introduced reforms including a new family code, led a restructuring of Morocco's religious field, widened his country's ties across Africa and the world, and signed the 2020 normalisation agreement with Israel."
+  ur: "23 جولائی 1999 سے مراکش کے بادشاہ۔ وہ 1963 میں رباط میں پیدا ہوئے، حسن ثانی کے بیٹے اور ان کی وفات پر ان کے جانشین بنے، جامعہ محمد الخامس سے قانون کی تعلیم حاصل کی اور 1993 میں جامعہ نیس سے ڈاکٹریٹ لی، اصلاحات متعارف کرائیں جن میں نیا عائلی قانون شامل ہے، مراکش کے مذہبی شعبے کی تنظیم نو کی قیادت کی، اور 2020 میں اسرائیل کے ساتھ معمول کے تعلقات کا معاہدہ کیا۔"
+roles: [ruler]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1963-08-21"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 21 August 1963 at Rabat (English and Arabic articles agree). The Hijri year 1383 is the pairing carried by the Arabic article's birth category. No place entity for Rabat exists in the graph, so no born_in relation is written."
+  sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar, source/wikidata-mohammed-vi-of-morocco]
+relations:
+  - { type: child_of, target: person/hassan-ii-of-morocco, sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar] }
+  - { type: successor_of, target: person/hassan-ii-of-morocco, sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The only school attestation anywhere is the single Wikidata value (Q57553, Sunni Islam Q483654); both article infoboxes give only Islam in general, and no text in any edition names a school for him personally. His restructuring of Morocco's religious field and his imam-training programmes are state policy; his Alaouite descent and Commander-of-the-Faithful headship do not attest a personal school."
+    sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar, source/wikidata-mohammed-vi-of-morocco]
+external_ids: { wikidata: "Q57553" }
+sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar, source/wikipedia-mohammed-vi-of-morocco-ur, source/wikidata-mohammed-vi-of-morocco]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mohammed VI of Morocco, each fetched by its recorded revision id (EN 1379000489, AR 76872036, UR 11715562) with the returned id asserted equal before use, and Wikidata item Q57553 (item revision 2558174127), the QID grounded through the articles' own page properties — all three editions agree on Q57553 — and the item read twice with identical claims. Existence checks by name fragments (Mohammed VI, محمد السادس), by QID and by biography across data/person found no prior record; Muhammad VI the Ottoman sultan is a different man. The child_of and successor_of edges to Hassan II rest on the English infobox (father, predecessor) and lead, and on the Arabic lead, which states that he took the rule succeeding his father after his death and was given the bay'a at Rabat on 23 July 1999."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-93
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
