@@ -1,0 +1,53 @@
+id: person/gamal-abdel-nasser
+class: person
+label: { ar: "جمال عبد الناصر", en: "Gamal Abdel Nasser", ur: "جمال عبد الناصر" }
+names:
+  - { value: "Gamal Abdel Nasser Hussein", kind: full }
+  - { value: "جمال عبد الناصر حسين", kind: full }
+gender: male
+summary:
+  ar: "جمال عبد الناصر (15 يناير 1918 – 28 سبتمبر 1970)، ضابط وسياسي مصري قاد تنظيم الضباط الأحرار وثورة يوليو 1952، وتولى رئاسة مصر فأمّم قناة السويس سنة 1956 وواجه العدوان الثلاثي، وأقام الوحدة مع سوريا (1958–1961)، وقاد مشروعا اشتراكيا قوميا عربيا، وخسر حرب 1967 فاستقال ثم عاد بضغط شعبي، وتوفي بنوبة قلبية في ختام قمة عربية سنة 1970، فشيّعه ملايين المصريين ودُفن في مسجده بالقاهرة."
+  en: "Gamal Abdel Nasser (15 January 1918 – 28 September 1970) was an Egyptian officer and politician who led the Free Officers and the July 1952 revolution and ruled Egypt as its second president. He nationalized the Suez Canal in 1956 and faced down the Tripartite Aggression, formed the United Arab Republic with Syria (1958–61), led an Arab nationalist and socialist project, lost the 1967 war, resigned and returned under popular pressure, and died of a heart attack at the close of an Arab summit in 1970; millions mourned him in Cairo, where he was buried at his mosque."
+  ur: "جمال عبد الناصر (15 جنوری 1918ء – 28 ستمبر 1970ء) مصری افسر اور سیاست دان تھے جنہوں نے فری آفیسرز اور جولائی 1952ء کے انقلاب کی قیادت کی اور مصر کے دوسرے صدر بنے۔ انہوں نے 1956ء میں نہر سوئز کو قومی ملکیت میں لیا، شام کے ساتھ اتحاد (1958ء–1961ء) قائم کیا، 1967ء کی جنگ ہارے، استعفیٰ دیا اور عوامی دباؤ پر واپس آئے، اور 1970ء میں دل کے دورے سے وفات پائی۔"
+roles: [politician, military]
+born:
+  edtf: "1918-01-15"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the Bacos district of Alexandria on 15 January 1918; all three articles and Wikidata agree. The Hijri year 1336 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-gamal-abdel-nasser-en, source/wikipedia-gamal-abdel-nasser-ar, source/wikidata-gamal-abdel-nasser]
+died:
+  edtf: "1970-09-28"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on 28 September 1970, of a heart attack suffered hours after the close of the Arab League summit he had hosted; his funeral drew five to six million mourners, and he was buried at the Nasr Mosque in Cairo, afterwards renamed the Abdel Nasser Mosque. The Hijri year 1390 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-gamal-abdel-nasser-en, source/wikidata-gamal-abdel-nasser]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on a single infobox — the Arabic article's infobox religion field reads 'Muslim Sunni' (مسلم سني) — while the English infobox carries no religion field, the Urdu article is silent, and Wikidata gives Islam (Q432) generally. One infobox is one source family and never attests a school on its own. His state policy — the 1961 al-Azhar reforms, the use of al-Azhar against the Muslim Brotherhood, his Arab socialism — is politics recorded in his career, not an affiliation of his own, and is expressly not counted. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-gamal-abdel-nasser-en, source/wikipedia-gamal-abdel-nasser-ar, source/wikipedia-gamal-abdel-nasser-ur, source/wikidata-gamal-abdel-nasser]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-gamal-abdel-nasser-en, source/wikidata-gamal-abdel-nasser] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-gamal-abdel-nasser-en, source/wikidata-gamal-abdel-nasser] }
+  - { type: buried_in, target: place/cairo, sources: [source/wikipedia-gamal-abdel-nasser-en] }
+wings: [people]
+regions: [egypt-nile]
+external_ids: { wikidata: "Q39524" }
+sources:
+  - source/wikipedia-gamal-abdel-nasser-en
+  - source/wikipedia-gamal-abdel-nasser-ar
+  - source/wikipedia-gamal-abdel-nasser-ur
+  - source/wikidata-gamal-abdel-nasser
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Gamal Abdel Nasser in English (revision 1382125122 of 26 Oct 2026), Arabic (revision 76605607 of 16 Sep 2026) and Urdu (revision 12088513 of 3 Oct 2026) and the Wikidata item Q39524 (item revision 2560301995 of 24 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/ (the many Nasir/Nasser hits are other men), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written in this record: he assumed executive office in 1954 over President Mohamed Naguib, who has no museum record; the direct succession from Nasser to Anwar Sadat in 1970 belongs in Sadat's existing record and is not written from here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-89
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

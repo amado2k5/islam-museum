@@ -491,11 +491,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahmoud Abbas — 1935–Living
 - [x] Sheikh Ahmed Yassin — 1936–2004
 - [x] Hanan Ashrawi — 1946–Living
-- [ ] Saeb Erekat — 1955–2020
-- [ ] Faisal Husseini — 1940–2001
-- [ ] Gamal Abdel Nasser — 1918–1970
-- [ ] Hosni Mubarak — 1928–2020
-- [ ] Abdel Fattah el-Sisi — 1954–Living
+- [x] Saeb Erekat — 1955–2020
+- [x] Faisal Husseini — 1940–2001
+- [x] Gamal Abdel Nasser — 1918–1970
+- [x] Hosni Mubarak — 1928–2020
+- [x] Abdel Fattah el-Sisi — 1954–Living
 - [ ] Mohamed Morsi — 1951–2019
 - [ ] Boutros Boutros-Ghali (Contemporary UN Leader) — 1922–2016
 - [ ] Nabil Elaraby — 1935–2024
