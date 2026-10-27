@@ -1,0 +1,54 @@
+id: person/ali-hassan-mwinyi
+class: person
+label:
+  ar: "علي حسن مويني"
+  en: "Ali Hassan Mwinyi"
+  ur: "علی حسن موینی"
+names:
+  - { value: "Ali Hassan Mwinyi", kind: full }
+  - { value: "علي حسن مويني", kind: full }
+  - { value: "علی حسن موینی", kind: full }
+  - { value: "Mzee Rukhsa", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي تنزاني (1925–2024) عمل معلما ومدير مدرسة في زنجبار نحو عقدين، ثم صار رئيس زنجبار سنة 1984 وثاني رئيس لتنزانيا من 5 نوفمبر 1985 إلى 23 نوفمبر 1995 خلفا لجوليوس نيريري. خفف القيود على الاستيراد وشجع المشروعات الخاصة واتفق مع صندوق النقد الدولي سنة 1986، وبدأ في عهده الثاني الانتقال إلى التعددية الحزبية. نال جائزة الملك فيصل العالمية في خدمة الإسلام سنة 2022، ومات في دار السلام سنة 2024."
+  en: "Tanzanian politician (1925–2024) who worked as a teacher and head teacher in Zanzibar for about two decades, then became president of Zanzibar in 1984 and the second president of Tanzania from 5 November 1985 to 23 November 1995, succeeding Julius Nyerere. He relaxed import restrictions, encouraged private enterprise and reached an agreement with the IMF in 1986, and the transition to multi-party politics began in his second term. He received the King Faisal Prize for Service to Islam in 2022 and died at Dar es Salaam in 2024."
+  ur: "تنزانیہ کے سیاست دان (1925ء–2024ء) جو زنجبار میں تقریباً دو دہائیوں تک استاد اور صدر مدرس رہے، پھر 1984ء میں زنجبار کے صدر اور 5 نومبر 1985ء سے 23 نومبر 1995ء تک تنزانیہ کے دوسرے صدر رہے، جولیس نیریرے کے جانشین کے طور پر۔ انہوں نے درآمدی پابندیاں نرم کیں، نجی کاروبار کی حوصلہ افزائی کی اور 1986ء میں آئی ایم ایف سے معاہدہ کیا، اور ان کی دوسری مدت میں کثیر الجماعتی سیاست کی طرف منتقلی شروع ہوئی۔ انہیں 2022ء میں خدمتِ اسلام پر شاہ فیصل عالمی انعام ملا اور 2024ء میں دارالسلام میں ان کا انتقال ہوا۔"
+roles: [politician, teacher]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1925-05-08"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 8 May 1925 in the village of Kivure, Pwani Region, where he was also raised. No place entity for Kivure exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ali-hassan-mwinyi-en, source/wikidata-ali-hassan-mwinyi]
+died:
+  edtf: "2024-02-29"
+  hijri: "1445"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article states that he died of lung cancer at Mzena hospital in Dar es Salaam on 29 February 2024, aged 98; Wikidata agrees on the date and gives Dar es Salaam as the place. No place entity for Dar es Salaam exists in the museum, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ali-hassan-mwinyi-en, source/wikidata-ali-hassan-mwinyi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. Wikidata gives his religion (P140) as Islam, with no branch — a single structured value. The English article's text never calls him a Muslim: its religion content is the 2022 King Faisal Prize for Service to Islam, an honour reported also by the Arabic article, and a category filing (Tanzanian Muslims), which never attests; the Urdu article makes no religion statement. The value stays unknown."
+    sources: [source/wikidata-ali-hassan-mwinyi, source/wikipedia-ali-hassan-mwinyi-en, source/wikipedia-ali-hassan-mwinyi-ar, source/wikipedia-ali-hassan-mwinyi-ur]
+relations:
+  - type: lived_in
+    target: place/zanzibar
+    sources: [source/wikipedia-ali-hassan-mwinyi-en]
+external_ids: { wikidata: "Q361581" }
+sources: [source/wikipedia-ali-hassan-mwinyi-en, source/wikipedia-ali-hassan-mwinyi-ar, source/wikipedia-ali-hassan-mwinyi-ur, source/wikidata-ali-hassan-mwinyi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1376728845 of 25 September 2026, Arabic revision 76623346 of 18 September 2026 and Urdu revision 9909633 of 17 April 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q361581 revision 2557707125 of 16 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q361581. Relations written: he moved to Zanzibar as a boy, was educated there and worked there as a teacher and head teacher, and later served as president of Zanzibar (place record exists). No succession edge is written: he succeeded Julius Nyerere as president of Tanzania and was succeeded by Benjamin Mkapa, and neither man has a museum record. His son Hussein Mwinyi, president of Zanzibar, likewise has no record, so no family edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-81
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
