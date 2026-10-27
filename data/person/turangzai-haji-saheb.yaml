@@ -1,0 +1,55 @@
+id: person/turangzai-haji-saheb
+class: person
+label:
+  ar: "حاجي تورنغزي"
+  en: "Turangzai Haji Saheb"
+  ur: "حاجی صاحب تورنگزئی"
+summary:
+  ar: "فضل وحيد (1858–1937)، عالم ومربٍّ پشتوني من تورنغزي بقضاء چارسده. تلميذ آخوندزاده نجم الدين صاحب هده وخليفته، درس في دار العلوم ديوبند ورافق الشيخ محمود حسن في الحج سنة 1890، وقاتل البريطانيين في ثورة 1897، ثم انصرف إلى التعليم فأسّس مع عبد الغفار خان نحو 120 مدرسة، فلاحقه البريطانيون سنة 1915 ففرّ إلى أراضي مهمند وقاد المقاومة منها حتى وفاته."
+  en: "Fazal Wahid (1858–1937), Pashtun scholar and education campaigner of Turangzai in Charsadda district. A disciple and deputy of Najm al-Din Akhundzada, the Mulla of Hadda, he studied at Darul Uloom Deoband, accompanied Sheikh Mahmud Hasan on the Hajj in 1890, fought the British in the 1897 revolt, then turned to education and, with Khan Abdul Ghaffar Khan, helped found some 120 schools; driven out by a British warrant in 1915, he directed resistance from Mohmand territory until his death."
+  ur: "فضل وحید (1858ء–1937ء)، ضلع چارسدہ کے قصبے تورنگزئی کے پشتون عالم اور تعلیمی رہنما۔ وہ آخوندزادہ نجم الدین صاحبِ ہدہ کے شاگرد اور خلیفہ تھے، دارالعلوم دیوبند میں پڑھے، 1890ء میں شیخ محمود حسن کے ساتھ حج کیا، 1897ء کی بغاوت میں انگریزوں سے لڑے، پھر تعلیم کی طرف متوجہ ہوئے اور عبد الغفار خان کے ساتھ مل کر تقریباً 120 اسکول قائم کیے؛ 1915ء میں برطانوی وارنٹ کے بعد مہمند کے علاقے میں پناہ لی اور وہیں سے مزاحمت جاری رکھی۔"
+names:
+  - { value: "Fazal Wahid", kind: full }
+  - { value: "فضل وحيد", kind: full }
+  - { value: "Haji Sahib of Turangzai", kind: alternate }
+gender: male
+born:
+  edtf: "1858"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article's lead and text give his birth in 1858 at Turangzai in Charsadda district, and Wikidata also gives 1858; but the same article's infobox gives 1842, and its statement that he died aged 81 fits neither year. The lead's 1858, which the harvest queue also carries, is carried at year precision and marked debated. No source read gives a Hijri pairing (1858 spans 1274–1275), so none is recorded. No born_in relation is written: no place entity exists for Turangzai or Charsadda."
+  sources: [source/wikipedia-turangzai-haji-saheb-en, source/wikidata-turangzai-haji-saheb]
+died:
+  edtf: "1937-12-14"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's text and Wikidata agree on 14 December 1937; he died after a long illness in Mohmand territory, where he had settled. The Hijri year is a conversion and is marked derived. No died_in relation is written: no source read names a death place that a place entity covers."
+  sources: [source/wikipedia-turangzai-haji-saheb-en, source/wikidata-turangzai-haji-saheb]
+relations:
+  - { type: student_of, target: person/najm-al-din-akhundzada, sources: [source/edwards-heroes-of-the-age-1996, source/tribal-analysis-center-mad-mullahs] }
+roles: [activist]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts attest a personal Sufi discipleship, not merely a title or office. Edwards, from the oral histories of the disciples' descendants, prints the Mulla of Hadda's network chart with 'Haji Sahib of Turangzai — Disciple of the Mulla of Hadda', calls him one of the Mulla's principal deputies, and preserves the Haji's own narrated account of recognising Hadda Sahib and becoming his disciple. The Tribal Analysis Center report, drawing on Sana Haroon's Frontier of Faith, independently states that Najmuddin's disciple Haji Turangzai inherited his teacher's blend of the four orders' teaching — a personal teaching succession. No single named order is attested for him personally, so the generic value sufi is recorded, exactly as for his teacher (wave 116). His studies at Darul Uloom Deoband and his attachment to Mahmud Hasan, given by the English article, are formation and are not counted, and no source names a legal school for him."
+    sources: [source/edwards-heroes-of-the-age-1996, source/tribal-analysis-center-mad-mullahs, source/wikipedia-turangzai-haji-saheb-en]
+external_ids: { wikidata: "Q5639927" }
+sources:
+  - source/wikipedia-turangzai-haji-saheb-en
+  - source/wikidata-turangzai-haji-saheb
+  - source/edwards-heroes-of-the-age-1996
+  - source/tribal-analysis-center-mad-mullahs
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Haji Sahib of Turangzai' (revision 1380903694 of 18 October 2026) and Wikidata item Q5639927 (item revision 2495218297 of 20 May 2026), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn, and the QID grounded through the article's own page property; David B. Edwards' Heroes of the Age (1996, chapter on the Mulla of Hadda, read in the UC Press E-Books full text on 27 October 2026) and the already-registered Tribal Analysis Center report for the discipleship attestation. No Arabic or Urdu Wikipedia article exists for him; the Arabic and Urdu prose are written from the same sources. Existence was checked all three ways before building: name-fragment greps under all spellings (Turangzai/Turang Zai/Fazal Wahid) — the only hit was his teacher's record, which names him — the grounded QID grepped across all data/person files (no hit), and biographical match. IDENTITY of Edwards' 'Haji Sahib of Turangzai' with this article's Fazal Wahid: same name and seat, same Mohmand theatre, same 1897 revolt, and Edwards' bibliography cites Muhammad Fahim Khan's 1977 biography 'The Life and Times of Hajji Sahib of Turangzai' (Islamic Studies 16) — the match is solid and is stated here. The student_of edge is written once, in his record, on the two texts' attestation; the same two texts carry the sufi segment. His choice by Sahibzada Abdul Qaiyum to inaugurate Islamia College's foundation in 1913, given by his article, fits no relation type and is recorded in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117
