@@ -1,0 +1,47 @@
+id: person/riazuddin
+class: person
+label: { ar: "رياض الدين", en: "Riazuddin", ur: "ریاض الدین" }
+names:
+  - { value: "Riazuddin", kind: full }
+  - { value: "ریاض الدین", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي نظري باكستاني، وُلد في لوديانا سنة 1930 وتوفي في إسلام آباد سنة 2013. تلميذ عبد السلام، نال الدكتوراه من كامبريدج سنة 1959، وشارك في علاقة كي إس آر إف في فيزياء الجسيمات. أدار مجموعة الفيزياء النظرية في هيئة الطاقة الذرية الباكستانية (1974–1984) ويُعدّ من رواد برنامجي الأسلحة النووية والردع الباكستانيين الأوائل. وهو الشقيق التوأم للفيزيائي فياض الدين."
+  en: "Pakistani theoretical physicist, born in Ludhiana in 1930 and died in Islamabad in 2013. A pupil of Abdus Salam, he took his Cambridge PhD in 1959 and co-authored the KSRF relation in particle physics. He directed the Theoretical Physics Group of the Pakistan Atomic Energy Commission (1974–1984) and is counted among the early pioneers of Pakistan's nuclear weapons and deterrence programmes. He was the twin brother of the physicist Fayyazuddin."
+  ur: "پاکستانی نظریاتی طبیعیات دان، جو 1930ء میں لدھیانہ میں پیدا ہوئے اور 2013ء میں اسلام آباد میں وفات پائی۔ عبد السلام کے شاگرد، انھوں نے 1959ء میں کیمبرج سے پی ایچ ڈی کی اور ذرّاتی طبیعیات میں کے ایس آر ایف نسبت کے شریک مصنف رہے۔ وہ پاکستان جوہری توانائی کمیشن کے تھیوریٹیکل فزکس گروپ کے ڈائریکٹر (1974ء–1984ء) رہے اور پاکستان کے جوہری ہتھیار و بازدار پروگراموں کے اولین بانیوں میں شمار ہوتے ہیں۔ وہ طبیعیات دان فیاض الدین کے جڑواں بھائی تھے۔"
+roles: [scientist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1930-11-10"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 November 1930 in Ludhiana, per the English article's infobox and Wikidata. No place entity exists for Ludhiana, so no born_in relation is written. The Hijri year 1349 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-riazuddin-en, source/wikidata-riazuddin]
+died:
+  edtf: "2013-09-09"
+  hijri: "1434"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 9 September 2013 in Islamabad, per the English article's infobox and Wikidata. No place entity exists for Islamabad, so no died_in relation is written. The Hijri year 1434 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-riazuddin-en, source/wikidata-riazuddin]
+relations:
+  - { type: student_of, target: person/abdus-salam, sources: [source/wikipedia-riazuddin-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names any school or affiliation for him. Wikidata's sole religion value is the generic Islam (Q432) — one structured value, which never counts alone. The English, Urdu and Arabic article texts carry no religion content about him at all: their only 'Islam' strings are the place Islamabad and institutions such as the Islamic Academy of Sciences. That his teacher Abdus Salam was an Ahmadi is Salam's attested affiliation, not his pupil's; a teacher's school never transfers. Generic-only configuration: recorded unknown, unflagged."
+    sources: [source/wikipedia-riazuddin-en, source/wikipedia-riazuddin-ur, source/wikipedia-riazuddin-ar, source/wikidata-riazuddin]
+external_ids: { wikidata: "Q7322195" }
+sources: [source/wikipedia-riazuddin-en, source/wikipedia-riazuddin-ur, source/wikipedia-riazuddin-ar, source/wikidata-riazuddin]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 109 §A of the century-additions queue from the English, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it on a second read, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu and Arabic articles' pageprops. Existence checked both ways before building: name-fragment greps (riazuddin, ریاض الدین) across data/person/ found no record for him, and Q7322195 appears in no existing person record. One relation is written: student_of to Abdus Salam, whose doctoral advisorship the English article's infobox and text both attest ('Riazuddin was a pupil of Abdus Salam'). No place relations are written: neither Ludhiana nor Islamabad has a place entity, and his twin brother Fayyazuddin has no record. His faith is recorded unknown, unflagged, on the generic-only configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-109
+status: { review: published }

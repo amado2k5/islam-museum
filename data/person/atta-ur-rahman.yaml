@@ -1,0 +1,38 @@
+id: person/atta-ur-rahman
+class: person
+label: { ar: "عطا الرحمن", en: "Atta-ur-Rahman", ur: "عطا الرحمان" }
+names:
+  - { value: "Atta-ur-Rahman", kind: full }
+  - { value: "عطاالرحمان", kind: full }
+gender: male
+summary:
+  ar: "كيميائي عضوي باكستاني وُلد في دلهي سنة 1942، أستاذ فخري في المركز الدولي للعلوم الكيميائية والبيولوجية بجامعة كراتشي. شغل منصب وزير العلوم والتكنولوجيا الاتحادي (2000–2002) ثم وزير التعليم (2002)، ورأس هيئة التعليم العالي (2002–2008). زميل الجمعية الملكية، ونال نشان الامتياز وجائزة اليونسكو للعلوم سنة 1999، ويُعرف بأبحاثه في كيمياء المنتجات الطبيعية."
+  en: "Pakistani organic chemist born in Delhi in 1942, professor emeritus at the International Center for Chemical and Biological Sciences at the University of Karachi. He served as federal minister of science and technology (2000–2002) and of education (2002), and chaired the Higher Education Commission (2002–2008). A Fellow of the Royal Society, he received the Nishan-e-Imtiaz and the UNESCO Science Prize (1999), and is known for natural-product chemistry."
+  ur: "پاکستانی نامیاتی کیمیا دان جو 1942ء میں دہلی میں پیدا ہوئے، کراچی یونیورسٹی کے بین الاقوامی مرکز برائے کیمیائی و حیاتیاتی علوم میں پروفیسر ایمریٹس ہیں۔ وہ وفاقی وزیر برائے سائنس و ٹیکنالوجی (2000ء–2002ء) اور وزیر تعلیم (2002ء) رہے اور ہائر ایجوکیشن کمیشن کے چیئرمین (2002ء–2008ء) بھی رہے۔ رائل سوسائٹی کے فیلو، نشان امتیاز اور 1999ء میں یونیسکو سائنس پرائز کے حامل، وہ قدرتی مصنوعات کی کیمسٹری کے لیے جانے جاتے ہیں۔"
+roles: [scientist]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1942-09-22"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 22 September 1942 in Old Delhi, per the English article's text and infobox and Wikidata. The Hijri year 1361 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-atta-ur-rahman-en, source/wikidata-atta-ur-rahman]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-atta-ur-rahman-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source gives any religion content for him personally. The English article's text, infobox and categories name none; the Urdu article names none; Wikidata carries no religion value. His presidency of the Network of Academies of Sciences in Islamic Countries and his coordination of the OIC's science committee (COMSTECH) are professional offices, and his academic family background is not evidence about him. Absence configuration: recorded unknown, unflagged."
+    sources: [source/wikipedia-atta-ur-rahman-en, source/wikipedia-atta-ur-rahman-ur, source/wikidata-atta-ur-rahman]
+external_ids: { wikidata: "Q4817859" }
+sources: [source/wikipedia-atta-ur-rahman-en, source/wikipedia-atta-ur-rahman-ur, source/wikidata-atta-ur-rahman]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 109 §A of the century-additions queue from the English and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it on a second read, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu article's pageprops. Existence checked both ways before building: name-fragment greps (atta-ur-rahman, عطا الرحمان) across data/person/ found no record for him, and Q4817859 appears in no existing person record. His faith is recorded unknown on the absence configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-109
+status: { review: published }

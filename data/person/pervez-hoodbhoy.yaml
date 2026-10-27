@@ -1,0 +1,37 @@
+id: person/pervez-hoodbhoy
+class: person
+label: { ar: "برويز هودبوي", en: "Pervez Hoodbhoy", ur: "پرویز ہودبھائی" }
+names:
+  - { value: "Pervez Amirali Hoodbhoy", kind: full }
+  - { value: "Pervez Hoodbhoy", kind: full }
+  - { value: "پرویز ہودبھائی", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي نووي وكاتب باكستاني، وُلد في كراتشي سنة 1950. درّس الفيزياء في جامعة القائد الأعظم من 1973 إلى 2020، واشتُهر بدفاعه العلني عن العلمانية وحرية التعبير والمزاج العلمي في باكستان، وبمعارضته الأسلحة النووية. كتابه «الإسلام والعلم: الأرثوذكسية الدينية والمعركة من أجل العقلانية» (1991) — بمقدمة عبد السلام — من أشهر كتبه، ونال جائزة كالينغا لليونسكو سنة 2003 لتبسيط العلوم."
+  en: "Pakistani nuclear physicist and author, born in Karachi in 1950. He taught physics at Quaid-e-Azam University from 1973 to 2020, and is known for his vocal defence of secularism, freedom of speech and scientific temper in Pakistan, and his opposition to nuclear weapons. His book Islam and Science: Religious Orthodoxy and the Battle for Rationality (1991), with a preface by Abdus Salam, is his best-known work; he received UNESCO's Kalinga Prize in 2003 for the popularisation of science."
+  ur: "پاکستانی جوہری طبیعیات دان اور مصنف، جو 1950ء میں کراچی میں پیدا ہوئے۔ انھوں نے 1973ء سے 2020ء تک قائد اعظم یونیورسٹی میں طبیعیات پڑھائی، اور وہ پاکستان میں سیکولرزم، آزادیٔ اظہار اور سائنسی مزاج کے بھرپور دفاع اور جوہری ہتھیاروں کی مخالفت کے لیے جانے جاتے ہیں۔ ان کی کتاب «اسلام اور سائنس: مذہبی قدامت پسندی اور عقلانیت کی جنگ» (1991ء) — عبد السلام کے دیباچے کے ساتھ — ان کی مشہور ترین تصنیف ہے؛ انھیں 2003ء میں سائنس کی ترویج پر یونیسکو کا کالنگا پرائز ملا۔"
+roles: [scientist, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1950-07-11"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 11 July 1950 in Karachi, per the English article's text and infobox and Wikidata. No place entity exists for Karachi, so no born_in relation is written. The Hijri year 1369 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-pervez-hoodbhoy-en, source/wikidata-pervez-hoodbhoy]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — one first-person attestation verified, the second short of the bar; both readings preserved for the founder. (1) In his own bylined article 'Miracles, Wars, and Politics' (quoted at length by 3 Quarks Daily, November 2005), he writes in the first person: 'atheists such as myself are often driven to hair-pulling exasperation by the seeming irrationality of religious belief' — an explicit atheist self-description in his own words. (2) The English article states that he 'identified as a Humanist' and became an official signatory of Humanist Manifesto III, citing the American Humanist Association's signers list — his own public act of self-identification with a non-theistic life stance, but an act of affiliation, not a first-person atheist statement. Against these: his family background — he was born and raised in a Sindhi Khoja Ismaili Shia family — is family background and never counts; the English article's categories ('Pakistani Ismailis', 'Pakistani humanists', 'Pakistani critics of religions') are filings; the Urdu and Arabic articles name no affiliation; Wikidata carries no religion value; and opponents' attacks calling him an atheist are not self-identification. The Akhundov bar, as met by Rushdie and Tariq Ali on their own first-person statements in two independent places, is met here in one place only, so under the doubt rule the value stays unknown. If the founder rules that the article statement plus the Manifesto signature together meet the bar, this record becomes atheist-or-sceptic, self-identified, on one word."
+    sources: [source/three-quarks-daily-hoodbhoy-2005, source/wikipedia-pervez-hoodbhoy-en, source/wikipedia-pervez-hoodbhoy-ur, source/wikipedia-pervez-hoodbhoy-ar, source/wikidata-pervez-hoodbhoy]
+external_ids: { wikidata: "Q574843" }
+sources: [source/wikipedia-pervez-hoodbhoy-en, source/wikipedia-pervez-hoodbhoy-ur, source/wikipedia-pervez-hoodbhoy-ar, source/wikidata-pervez-hoodbhoy, source/three-quarks-daily-hoodbhoy-2005]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 109 §A of the century-additions queue from the English, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it on a second read, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu and Arabic articles' pageprops; the 3 Quarks Daily page quoting his own article was read on 27 October 2026 and exposes no revision identifier. Existence checked both ways before building: name-fragment greps (hoodbhoy, ہودبھائی) across data/person/ found no record for him, and Q574843 appears in no existing person record. No relations are written: Karachi has no place entity, and no other edge to an existing entity is attested in his own record's sources. His faith is recorded unknown, flagged, on the contested configuration set out in the faith note, with his own first-person statement preserved verbatim."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-109
+status: { review: published }
