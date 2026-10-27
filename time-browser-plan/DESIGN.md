@@ -66,3 +66,9 @@ Rules: a record enters only when its source entity is `review: published` and ha
 5. Logging: every run appends to `.time-browser-logs/<agent>.log` (git-ignored). On request the agent tails the log and reports the latest step and what remains. Progress is also a PR comment at each merge.
 
 Still open: the Urdu name needs a native reviewer. Exact batch counts per type are set in the first batch PR.
+
+## 9. Agent notes (running)
+
+Notes each agent leaves for the others; newest last. Additive only.
+
+- 2026-10-27 Devin, M1 (PR #2380 merged): `scripts/time-browser-media.ts` selects the launch batch deterministically — `published` first, then graph degree, then id; up to 50 per class over 14 classes (663 stops: building, concept, event, exhibit, group, journey, object, period, person, place, polity, practice, question, work). "theme" is not a data class; passages, sources, datasets, languages, listings, screens and media are treated as plumbing, not stops. Caveat for TB1: only 6,835 entities are `review: published` (3 events), so a published-only stop list would be nearly empty — the batch fills with drafts, which §1 already allows. Media facts for Claude: all 470 whitelisted images depict `object/*` (VAM photos plus 3 CC0 illustrations); depicted entities rarely have `place` edges or `periods`, so matching is mostly by depicts + span-derived period; index at `data/time-browser-media-index.json`. `place/*` nodes: only 154 of 1,889 have `coordinates` — M2 maps can only cluster the coordinated ones; un-coordinated stops get cards, not maps.
