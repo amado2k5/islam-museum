@@ -1,0 +1,36 @@
+id: person/demis-hassabis
+class: person
+label: { ar: "ديمس هاسابيس", en: "Demis Hassabis", ur: "ڈیمس ہاسابیس" }
+names:
+  - { value: "Demis Hassabis", kind: full }
+  - { value: "دمیس هاسابیس", kind: full }
+gender: male
+summary:
+  ar: "ديمس هاسابيس (وُلد 27 يوليو 1976 في لندن) باحث بريطاني في الذكاء الاصطناعي ورائد أعمال، شارك في تأسيس ديب مايند سنة 2010، ونال مع جون جامبر جائزة نوبل في الكيمياء سنة 2024 عن أبحاثهما في التنبؤ ببنية البروتين، وأسّس إيسومورفيك لابز ويشغل منصب رئيس مجلس إدارة جوجل ديب مايند وكبير علماء ألفابت."
+  en: "Demis Hassabis (born 27 July 1976 in London) is a British artificial-intelligence researcher and entrepreneur who co-founded DeepMind in 2010, shared the 2024 Nobel Prize in Chemistry with John Jumper for protein-structure prediction, founded Isomorphic Labs, and serves as chairman of Google DeepMind and chief scientist of Alphabet."
+  ur: "ڈیمس ہاسابیس (پیدائش 27 جولائی 1976ء، لندن) برطانوی مصنوعی ذہانت کے محقق اور کارجو ہیں جنہوں نے 2010ء میں ڈیپ مائنڈ کی مشترکہ بنیاد رکھی، پروٹین ساخت کی پیش گوئی پر جان جمپر کے ساتھ 2024ء کا کیمسٹری کا نوبل انعام حاصل کیا، آئسومورفک لیبز قائم کیں، اور گوگل ڈیپ مائنڈ کے چیئرمین اور الفابیٹ کے چیف سائنٹسٹ ہیں۔"
+roles: [scientist, engineer]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1976-07-27"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at London on 27 July 1976 — the date in the English, Arabic, Persian and Urdu articles and Wikidata's value (P19 London). The Hijri year (1396) is derived by tabular conversion. No born_in relation is written: London has no museum place entity."
+  sources: [source/wikipedia-hassabis-en, source/wikipedia-hassabis-ar, source/wikipedia-hassabis-fa, source/wikipedia-hassabis-ur, source/wikidata-hassabis]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names any religious affiliation for him: the English, Arabic, Persian and Urdu articles are silent on religion and Wikidata carries no religion value. This is an absence configuration. His parentage — a Greek Cypriot father and a Chinese Singaporean mother — is family background, not attestation, and his public commentary on philosophy, mind and consciousness in interviews is colour, not an affiliation statement either way; no segment is recorded."
+    sources: [source/wikipedia-hassabis-en, source/wikipedia-hassabis-ar, source/wikipedia-hassabis-fa, source/wikipedia-hassabis-ur, source/wikidata-hassabis]
+external_ids: { wikidata: "Q3022141" }
+sources: [source/wikipedia-hassabis-en, source/wikipedia-hassabis-ar, source/wikipedia-hassabis-fa, source/wikipedia-hassabis-ur, source/wikidata-hassabis]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 103 §A of the century-additions queue (queue line 568) from the English, Arabic, Persian and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q3022141) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and Q3022141 appears in no existing person record. No relations are written: founder_of is refused because DeepMind and Isomorphic Labs have no museum group entities, and born_in is refused because London has no place entity; the foundings are stated in the summary and prose. Region is andalus-europe for the London-born, London-based British subject. The English article as read also records his 2026 move from DeepMind chief executive to chairman of Google DeepMind and chief scientist of Alphabet, which the summary follows."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-103
+status: { review: published }
