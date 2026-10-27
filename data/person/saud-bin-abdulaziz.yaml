@@ -1,0 +1,54 @@
+id: person/saud-bin-abdulaziz
+class: person
+label:
+  ar: "سعود بن عبد العزيز آل سعود"
+  en: "Saud bin Abdulaziz Al Saud"
+  ur: "سعود بن عبدالعزیز آل سعود"
+names:
+  - { value: "Saud bin Abdulaziz bin Abdul Rahman Al Saud", kind: full }
+  - { value: "سعود بن عبد العزيز بن عبد الرحمن آل سعود", kind: full }
+  - { value: "Saud of Saudi Arabia", kind: regnal }
+  - { value: "سعود بن عبدالعزیز آل سعود", kind: full }
+gender: male
+summary:
+  ar: "ثاني ملوك المملكة العربية السعودية (1902–1969)، أكبر أبناء الملك عبد العزيز الباقين عند وفاته، وولي عهده من سنة 1933. اعتلى العرش في 9 نوفمبر 1953، وفي عهده توسّع الحرمان الشريفان وتأسست جامعة الملك سعود، ثم عصفت بالمملكة أزمة مالية وتصدّع داخل الأسرة، فتنازل عن سلطاته لفيصل سنة 1958 ونُقلت إليه كاملة سنة 1964، وخُلع في 2 نوفمبر 1964، وتوفي في أثينا في 23 فبراير 1969 ودُفن في مقبرة العود بالرياض."
+  en: "Second King of Saudi Arabia (1902–1969), the eldest surviving son of King Abdulaziz and his crown prince from 1933. He ascended the throne on 9 November 1953; his reign saw the expansion of the two holy mosques and the founding of King Saud University, then a financial crisis and a rift within the family, the transfer of his powers to Faisal in 1958 and in full in 1964, and his deposition on 2 November 1964. He died in Athens on 23 February 1969 and was buried at Al Oud cemetery in Riyadh."
+  ur: "سعودی عرب کے دوسرے بادشاہ (1902ء–1969ء)، شاہ عبد العزیز کے سب سے بڑے زندہ صاحبزادے اور 1933ء سے ولی عہد۔ 9 نومبر 1953ء کو تخت نشین ہوئے؛ ان کے دور میں حرمین کی توسیع ہوئی اور شاہ سعود یونیورسٹی قائم ہوئی، پھر مالی بحران اور خاندانی اختلاف آیا، 1958ء میں اختیارات فیصل کو منتقل ہوئے اور 1964ء میں مکمل طور پر، اور 2 نومبر 1964ء کو وہ معزول ہوئے۔ 23 فروری 1969ء کو ایتھنز میں وفات پائی اور ریاض کے العود قبرستان میں دفن ہوئے۔"
+roles: [ruler]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1902-01-15"
+  hijri: "1319"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Kuwait City on 15 January 1902 on the English article, the Arabic article and Wikidata; the Arabic article pairs the date with 3 Shawwal 1319 AH, which agrees with tabular conversion, so the Hijri year recorded (1319) is the derived year of the same date. No place entity for Kuwait City exists in the museum, so the place is carried in this note and no born_in relation is written."
+  sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar, source/wikidata-saud-bin-abdulaziz]
+died:
+  edtf: "1969-02-23"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died of a heart attack in Athens on 23 February 1969 (English article; Wikidata place Athens); his body was taken to Mecca, where the funeral ceremony took place at the Great Mosque, and he was buried next to his father's and grandfathers' graves at Al Oud cemetery in Riyadh (English article). No place entity for Athens exists in the museum, so the place is carried in this note and no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikidata-saud-bin-abdulaziz]
+relations:
+  - { type: successor_of, target: person/ibn-saud, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar] }
+  - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikidata-saud-bin-abdulaziz] }
+  - { type: member_of, target: group/al-saud, sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or branch for him. In full: the English article names no religion for him at all; the Arabic article recounts his childhood Qur'anic schooling under Shaykh Abdul Rahman ibn Nasir ibn Mufayrij in Riyadh — formation and upbringing, which never count as an affiliation attestation — and names no madhhab; the Urdu article narrates his reign, including the mosque expansions he ordered as king, which are acts of office, and names no school; Wikidata's only religion value is Islam (Q432) generically. A single structured value naming no branch (the configuration of person/ali-mahdi-muhammad) is not an attestation, so the value stays unknown under the two-source rule and the doubt rule."
+    sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar, source/wikipedia-saud-bin-abdulaziz-ur, source/wikidata-saud-bin-abdulaziz]
+external_ids: { wikidata: "Q244206" }
+sources: [source/wikipedia-saud-bin-abdulaziz-en, source/wikipedia-saud-bin-abdulaziz-ar, source/wikipedia-saud-bin-abdulaziz-ur, source/wikidata-saud-bin-abdulaziz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Saud of Saudi Arabia' (revision 1371033670 of 24 August 2026), Arabic Wikipedia 'سعود بن عبد العزيز آل سعود' (revision 77009555 of 18 October 2026) and Urdu Wikipedia 'سعود بن عبدالعزیز آل سعود' (revision 11104225 of 21 June 2026), each fetched on 27 October 2026 by its recorded revision id and asserted equal to it, with Wikidata item Q244206 (item revision 2558583123 of 19 October 2026), likewise fetched by revision id and asserted equal. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q244206. His Arabic label سعود بن عبد العزيز آل سعود collides with no existing record's label. His kingship succession to his father and his sonship are both written here, in the subject's record, on the English article's infobox (predecessor Abdulaziz) and Wikidata's father value (Q151509); no relations are written for his birth or death places, because the museum has no place entities for Kuwait City or Athens."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-83
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
