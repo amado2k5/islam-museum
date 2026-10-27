@@ -1,0 +1,41 @@
+id: person/yoweri-museveni
+class: person
+label:
+  ar: "يوويري موسيفيني"
+  en: "Yoweri Museveni"
+  ur: "یووری موسیونی"
+names:
+  - { value: "Yoweri Kaguta Museveni Tibuhaburwa", kind: full }
+  - { value: "Yoweri Museveni", kind: full }
+  - { value: "يوويري موسيفيني", kind: full }
+  - { value: "یووری موسیونی", kind: full }
+gender: male
+summary:
+  ar: "سياسي أوغندي وقائد سابق للمتمردين (ولد 1944) صار رئيس أوغندا في 29 يناير 1986 بعد حرب الأدغال، وأعيد انتخابه مرات متتالية كان آخرها انتخابات يناير 2026، فصار من أطول قادة العالم بقاء في الحكم. درس في جامعة دار السلام وأسس جبهة الإنقاذ الوطني ثم الجيش المقاومة الوطني. لم تسمِّ مصادر هذا السجل له انتماء دينيا في نصوصها؛ وتحمل ويكيداتا له قيمتين مسيحيتين (الأنجليكانية والبروتستانتية) على مستوى البيانات المنظمة فقط."
+  en: "Ugandan politician and former rebel leader (born 1944) who became president of Uganda on 29 January 1986 after the Bush War and has been re-elected repeatedly, most recently in the January 2026 election, making him one of the world's longest-serving leaders. He studied at the University of Dar es Salaam and founded the Front for National Salvation and then the National Resistance Army. The texts consulted for this record name no religious affiliation for him; Wikidata carries two Christian values for him (Anglicanism and Protestantism) at the structured-data level only."
+  ur: "یوگنڈا کے سیاست دان اور سابق باغی رہنما (پیدائش 1944ء) جو جنگِ جھاڑی (بش وار) کے بعد 29 جنوری 1986ء کو یوگنڈا کے صدر بنے اور بار بار منتخب ہوتے رہے، آخری بار جنوری 2026ء کے انتخابات میں، یوں وہ دنیا کے طویل ترین عرصے تک حکمران رہنے والوں میں شامل ہیں۔ انہوں نے جامعہ دارالسلام میں تعلیم پائی اور فرنٹ فار نیشنل سالویشن اور پھر نیشنل ریزسٹنس آرمی کی بنیاد رکھی۔ اس ریکارڈ کے لیے دیکھے گئے مصادر اپنے متن میں ان کا کوئی مذہبی انتماء بیان نہیں کرتے؛ ویکیمیڈیا ڈیٹا (ویکی ڈیٹا) میں ان کے لیے صرف ساختی ڈیٹا کی سطح پر دو مسیحی اقدار (انگلیکانیت اور پروٹسٹنٹ ازم) درج ہیں۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1944-09-15"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 15 September 1944 at Ntungamo, in the Uganda Protectorate. No place entity for Ntungamo exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-yoweri-museveni-en, source/wikidata-yoweri-museveni]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A Christian reading exists but rests on one source family. Wikidata carries two religion (P140) values for him, Anglicanism and Protestantism — one structured-data family. The English article's text names no affiliation: it states only that he has no specific place of worship and attends different cathedrals for security reasons (attendance is practice, and the sentence is cited to a low-authority listings site); the Arabic article mentions reported ties to the American Christian organisation The Family, a political association, not the man's affiliation; the Urdu stub files him under Ugandan Anglicans, a category filing, which never attests. A Wikipedia text claim and its Wikidata echo are one family, so no second independent source names a Christian affiliation for him, and the value stays unknown with both readings preserved here."
+    sources: [source/wikidata-yoweri-museveni, source/wikipedia-yoweri-museveni-en, source/wikipedia-yoweri-museveni-ar, source/wikipedia-yoweri-museveni-ur]
+external_ids: { wikidata: "Q57274" }
+sources: [source/wikipedia-yoweri-museveni-en, source/wikipedia-yoweri-museveni-ar, source/wikipedia-yoweri-museveni-ur, source/wikidata-yoweri-museveni]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1381718453 of 24 October 2026, Arabic revision 73772692 of 7 March 2026 and Urdu revision 6539917 of 29 January 2025, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q57274 revision 2558286977 of 18 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q57274. No succession edge is written: he succeeded Tito Okello as president, and Okello has no museum record. No born_in: no place entity exists for Ntungamo."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-81
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

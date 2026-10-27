@@ -451,11 +451,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sharif Sheikh Ahmed — 1964–Living
 - [x] Abdiweli Mohamed Ali — 1965–Living
 - [x] Ali Mahdi Muhammad — 1939–2021
-- [ ] Idi Amin — 1925–2003
-- [ ] Yoweri Museveni (Contemporary Leader) — 1944–Living
-- [ ] Ali Hassan Mwinyi — 1925–2024
-- [ ] Jakaya Kikwete — 1950–Living
-- [ ] Samia Suluhu Hassan — 1960–Living
+- [x] Idi Amin — 1925–2003
+- [x] Yoweri Museveni (Contemporary Leader) — 1944–Living
+- [x] Ali Hassan Mwinyi — 1925–2024
+- [x] Jakaya Kikwete — 1950–Living
+- [x] Samia Suluhu Hassan — 1960–Living
 - [ ] Hussein Mwinyi — 1966–Living
 - [ ] Amani Abeid Karume — 1948–Living
 - [ ] Abeid Karume — 1905–1972

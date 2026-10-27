@@ -1,0 +1,54 @@
+id: person/idi-amin
+class: person
+label:
+  ar: "عيدي أمين"
+  en: "Idi Amin"
+  ur: "عیدی امین"
+names:
+  - { value: "Awon'go Idi Amin Dada Oumee", kind: full }
+  - { value: "Idi Amin Dada", kind: full }
+  - { value: "عيدي أمين", kind: full }
+  - { value: "عیدی امین", kind: full }
+gender: male
+summary:
+  ar: "ضابط عسكري أوغندي (1928–2003) صار ثالث رئيس لأوغندا بانقلاب 25 يناير 1971 وحكمها حتى أُطيح به في 11 أبريل 1979؛ اتسم حكمه بانتهاكات واسعة لحقوق الإنسان وسوء إدارة اقتصادية، وطرد سنة 1972 الآسيويين المقيمين في أوغندا، وانتهى بحرب أوغندا وتنزانيا. نشأ في أسرة مسلمة وحفظ القرآن صبيا، ولم تسمِّ المصادر له مدرسة دينية. مات في منفاه بجدة سنة 2003."
+  en: "Ugandan military officer (1928–2003) who became the third president of Uganda in the coup of 25 January 1971 and ruled until his overthrow on 11 April 1979. His rule was marked by widespread human-rights abuses and economic mismanagement; he expelled Uganda's Asian residents in 1972, and his regime ended with the Uganda–Tanzania War. He was raised in a Muslim family and memorised the Quran as a boy; the sources name no religious school for him. He died in exile at Jeddah in 2003."
+  ur: "یوگنڈا کے فوجی افسر (1928ء–2003ء) جو 25 جنوری 1971ء کی فوجی بغاوت میں یوگنڈا کے تیسرے صدر بنے اور 11 اپریل 1979ء کو معزول ہونے تک حکمران رہے۔ ان کے دور میں انسانی حقوق کی وسیع پامالی اور معاشی بدانتظامی ہوئی؛ 1972ء میں انہوں نے یوگنڈا کے ایشیائی باشندوں کو نکال دیا، اور ان کی حکومت یوگنڈا–تنزانیہ جنگ پر ختم ہوئی۔ وہ ایک مسلمان گھرانے میں پلے بڑھے اور بچپن میں قرآن حفظ کیا؛ مصادر ان کے لیے کوئی مذہبی مکتب فکر بیان نہیں کرتے۔ 2003ء میں جدہ میں جلاوطنی کے دوران ان کا انتقال ہوا۔"
+roles: [general, politician]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1928-05-30"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth date is genuinely disputed and no birth records were kept. Family tradition and the Saudi authorities in Jeddah give 10 Dhu al-Hijja 1346 AH (30 May 1928), at Kampala, and the English article's infobox and lead follow that date; British governmental records give the year 1925, which Wikidata carries as its preferred value at year precision, and Amin himself gave ages implying 1926 or 1928 in different accounts. The day-precision date is recorded here with the dispute stated; no place entity for Kampala exists in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-idi-amin-en, source/wikidata-idi-amin]
+died:
+  edtf: "2003-08-16"
+  hijri: "1424"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died on 16 August 2003 at Jeddah, Saudi Arabia, where he had lived in exile since 1980, and was buried at Ruwais Cemetery in Jeddah. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-idi-amin-en, source/wikidata-idi-amin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His Muslim identity and upbringing are well attested but no source names a school for him. The English article states that he was born to Muslim parents, that he was named after the Eid al-Adha holiday on which he was born, and that he memorised the Quran as a boy at Semuto and Bombo; the Arabic article records that his father converted to Islam in 1910. Upbringing, formation and practice never name a school, and Wikidata sets his religion (P140) explicitly to no value. The value stays unknown."
+    sources: [source/wikipedia-idi-amin-en, source/wikipedia-idi-amin-ar, source/wikidata-idi-amin]
+relations:
+  - type: died_in
+    target: place/jeddah
+    sources: [source/wikipedia-idi-amin-en]
+external_ids: { wikidata: "Q48231" }
+sources: [source/wikipedia-idi-amin-en, source/wikipedia-idi-amin-ar, source/wikipedia-idi-amin-ur, source/wikidata-idi-amin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1382046170 of 26 October 2026, Arabic revision 76391367 of 30 August 2026 and Urdu revision 9684404 of 3 April 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q48231 revision 2557927643 of 17 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q48231. No succession edge is written: he succeeded Milton Obote and was succeeded by Yusuf Lule, and neither man has a museum record. No born_in: no place entity exists for Kampala."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-81
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
