@@ -1,0 +1,59 @@
+id: person/isa-alptekin
+class: person
+label:
+  ar: "عيسى يوسف ألبتكين"
+  en: "Isa Yusuf Alptekin"
+  ur: "عیسیٰ یوسف آلپتکین"
+summary:
+  ar: "سياسي أويغوري خدم حكومة الصين الوطنية (1932–1949) وعارض الجمهوريتين، ثم قاد قضية استقلال تركستان الشرقية من منفاه في تركيا بعد 1949 حتى وفاته في إسطنبول سنة 1995."
+  en: "Uyghur politician who served China's Nationalist government (1932–1949) while opposing both East Turkestan republics, then led the East Turkestan independence cause from exile in Turkey after 1949 until his death at Istanbul in 1995."
+  ur: "اویغور سیاست دان جنہوں نے چین کی قوم پرست حکومت کی خدمت کی (1932ء تا 1949ء) اور پھر 1949ء کے بعد ترکی میں جلاوطنی سے مشرقی ترکستان کی آزادی کی تحریک کی قیادت کی؛ وفات 1995ء میں استنبول میں ہوئی۔"
+names:
+  - { value: "Isa Yusuf Alptekin", kind: full }
+  - { value: "Isa", kind: given }
+  - { value: "Isa Alptekin", kind: alternate }
+born:
+  edtf: "1901"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Yengisar County in Kashgar prefecture, then under Qing rule. The English and Chinese articles and Wikidata all give the year 1901, at year precision; no source read gives a month or day. No source read gives a Hijri pairing for his birth, so no hijri key is carried. No born_in edge is written: he was born in Yengisar County, not in Kashgar city, and no place entity exists for Yengisar."
+  sources: [source/wikipedia-isa-alptekin-en, source/wikipedia-isa-alptekin-zh, source/wikidata-isa-alptekin]
+died:
+  edtf: "1995-12-17"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Istanbul on 17 December 1995, in exile in Turkey, and was buried at Topkapı Cemetery there. The English and Chinese articles and Wikidata agree on the day. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-isa-alptekin-en, source/wikipedia-isa-alptekin-zh, source/wikidata-isa-alptekin]
+wings: [people]
+regions: [china-east-asia]
+roles: [politician, activist]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any source read names a legal school or Sufi order for him. The Chinese article's infobox carries a religion field 'Islam, Sunni school' — one infobox in one source family, uncorroborated by any text; the English article names no school and has no religion field, and Wikidata carries no religion (P140) value at all. His decades of advocacy for a Muslim people's independence are political acts, not attestations of a personal school affiliation, and Hanafi convention among Central Asian Muslims is not an attestation. The single-infobox Sunni reading is preserved here; on the museum's two-source rule his faith segment is unknown."
+    sources: [source/wikipedia-isa-alptekin-zh, source/wikipedia-isa-alptekin-en, source/wikidata-isa-alptekin]
+relations:
+  - type: died_in
+    target: place/istanbul
+    note: "He died at Istanbul on 17 December 1995 and was buried at Topkapı Cemetery there."
+    sources: [source/wikipedia-isa-alptekin-en, source/wikidata-isa-alptekin]
+  - type: lived_in
+    target: place/istanbul
+    note: "After 1949 he lived in exile in Turkey, settling at Istanbul, from where he led the East Turkestan independence cause for the rest of his life."
+    sources: [source/wikipedia-isa-alptekin-en]
+external_ids:
+  wikidata: Q344030
+sources:
+  - source/wikipedia-isa-alptekin-en
+  - source/wikipedia-isa-alptekin-zh
+  - source/wikidata-isa-alptekin
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English and Chinese Wikipedia articles on Isa Alptekin and Wikidata item Q344030, each read at a recorded revision; existence checked both ways before building — name fragments (alptekin, alptek, عيسى يوسف) and slug variants found no person file, and Q344030, grounded through the English article's page properties and confirmed through the Chinese article's, matched no existing record. No born_in edge is written for Yengisar: no place entity exists for it, and his birthplace is the county, not Kashgar city. His son Erkin Alptekin and the officials he served under have no records, so no edges are written to them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100

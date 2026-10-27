@@ -1,0 +1,57 @@
+id: person/mahmut-muhiti
+class: person
+label:
+  ar: "محمود محيطي"
+  en: "Mahmut Muhiti"
+  ur: "محمود محیتی"
+summary:
+  ar: "قائد عسكري أويغوري من توربان؛ قاد قوات خوجة نياز في تمرد كومول، وحكم منطقة كاشغر العسكرية (1934–1937)، وقاد التمرد الإسلامي سنة 1937 ضد شنغ شيتساي، ومات في بكين سنة 1944 بحسب الراجح."
+  en: "Uyghur military commander from Turpan who led Khoja Niyaz's forces in the Kumul Rebellion, held the Kashgar military region (1934–1937), led the Islamic rebellion of 1937 against Sheng Shicai, and died at Beijing, most likely in 1944."
+  ur: "ترپان کے اویغور فوجی کمانڈر؛ خوجہ نیاز کی افواج کی قیادت کی، کاشغر کا عسکری علاقہ سنبھالا (1934ء تا 1937ء)، 1937ء کی اسلامی بغاوت کی قیادت کی، اور غالباً 1944ء میں بیجنگ میں وفات پائی۔"
+names:
+  - { value: "Mahmut Muhiti", kind: full }
+  - { value: "Mahmud Muhiti", kind: alternate }
+  - { value: "Mehmut Muhiti", kind: alternate }
+  - { value: "Mahmut Shizhang", kind: alternate }
+born:
+  edtf: "1887"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Turpan to a rich merchant family. The English article (citing Klimeš 2015, p. 121, and Brophy 2016, p. 240), the Arabic article and Wikidata give 1887; the Chinese article gives '1880s, 1887?', marking the year with a question mark of its own, so the birth is carried as debated on that questioning. The harvest queue's birth year of 1895 appears in no source read. No source read gives a Hijri pairing for his birth, so no hijri key is carried."
+  sources: [source/wikipedia-mahmut-muhiti-en, source/wikipedia-mahmut-muhiti-zh, source/wikipedia-mahmut-muhiti-ar, source/wikidata-mahmut-muhiti]
+died:
+  edtf: "1944"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Died at Japanese-occupied Beijing of a brain hemorrhage and was buried in a Muslim cemetery there. The English article (citing Tuncer 2019, p. 130), the Chinese article and Wikidata give 1944; the Arabic article alone gives 1945, the year the harvest queue carried. The majority reading is followed and the conflict stated, so the death is carried as debated. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-mahmut-muhiti-en, source/wikipedia-mahmut-muhiti-zh, source/wikipedia-mahmut-muhiti-ar, source/wikidata-mahmut-muhiti]
+wings: [people]
+regions: [china-east-asia]
+roles: [general]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school or Sufi order for him, and no Sunni reading of him exists in any source read, so there is nothing to flag. The English article describes him (citing Brophy) as a long-time Jadidist — the Central Asian Muslim modernist movement, a movement descriptor, not a school attestation — and quotes a British consul at Kashgar calling him 'a zealous Mohammedan', a description of personal piety, not of a school; Wikidata's religion (P140) value is 'Islam' in general, and the Arabic and Chinese articles name no school. His command of Muslim troops and his leadership of the 1937 Islamic rebellion are military and political acts, not attestations. His faith segment is therefore unknown, unflagged (generic-only configuration: no school reading exists anywhere)."
+    sources: [source/wikipedia-mahmut-muhiti-en, source/wikipedia-mahmut-muhiti-zh, source/wikipedia-mahmut-muhiti-ar, source/wikidata-mahmut-muhiti]
+relations:
+  - type: lived_in
+    target: place/kashgar
+    note: "He was left in command in Kashgar's Old City in 1934 and then held the region's senior military posts — Kashgar military commander, then commander of the 6th Uyghur Division based there — from 1934 until his flight in 1937."
+    sources: [source/wikipedia-mahmut-muhiti-en]
+external_ids:
+  wikidata: Q6734656
+sources:
+  - source/wikipedia-mahmut-muhiti-en
+  - source/wikipedia-mahmut-muhiti-zh
+  - source/wikipedia-mahmut-muhiti-ar
+  - source/wikidata-mahmut-muhiti
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Chinese and Arabic Wikipedia articles on Mahmut Muhiti and Wikidata item Q6734656, each read at a recorded revision; existence checked both ways before building — name fragments (muhiti, محيطي, 穆依提, shizhang) and slug variants found no person file, and Q6734656, grounded through the English article's page properties and confirmed through the Chinese and Arabic articles', matched no existing record. His queue dates (1895–1945) are attested in no source read — Wikidata agrees with the articles at 1887 and gives 1944 for the death, the Arabic article alone giving 1945 — and were not carried. No born_in or died_in edge is written: no place entity exists for Turpan or Beijing. No edge to Sabit Damolla is written: Muhiti commanded for Khoja Niyaz — the rival pole to the republic Damolla headed — and no attested colleague or succession relationship between the two men is stated in the sources read. His brother Makhsut Muhiti and Khoja Niyaz have no records, so no edges are written to them. His byname 'Shizhang' is the Chinese military styling 师长 ('division commander'), rendered 'Sijan' in the harvest queue."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
