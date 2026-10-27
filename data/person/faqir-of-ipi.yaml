@@ -1,0 +1,49 @@
+id: person/faqir-of-ipi
+class: person
+label:
+  ar: "فقير إيبي"
+  en: "Faqir of Ipi"
+  ur: "فقیر ایپی"
+summary:
+  ar: "زعيم قبلي وديني پشتوني من شمال وزيرستان (نحو 1897–1960)، اسمه حاجي ميرزا علي خان وزير. بعد حجّه سنة 1923 استقر في قرية إيبي وشنّ حرب عصابات على الحكم البريطاني من 1936، ثم أعلن مع حلفائه في قرار بانو سنة 1947 مطلب پشتونستان المستقلة، وواصل المقاومة المسلحة ضد باكستان من قاعدته في غورويك حتى وفاته سنة 1960 دون أن يستسلم قط."
+  en: "Pashtun tribal and religious leader of North Waziristan (c. 1897–1960), born Haji Mirza Ali Khan Wazir. After his Hajj in 1923 he settled at the village of Ipi and from 1936 waged guerrilla war against British rule; in 1947 he and his allies proclaimed the Bannu Resolution demanding an independent Pashtunistan, and he continued armed resistance against Pakistan from his base at Gurwek until his death in 1960, never surrendering."
+  ur: "شمالی وزیرستان کے پشتون قبائلی و دینی رہنما (تقریباً 1897ء–1960ء)، اصل نام حاجی میرزا علی خان وزیر۔ 1923ء میں حج کے بعد ایپی گاؤں میں مقیم ہوئے اور 1936ء سے انگریز حکومت کے خلاف گوریلا جنگ لڑی؛ 1947ء میں بنوں قرارداد کے ذریعے آزاد پختونستان کا مطالبہ کیا اور 1960ء میں وفات تک پاکستان کے خلاف مسلح مزاحمت جاری رکھی، کبھی ہتھیار نہ ڈالے۔"
+names:
+  - { value: "Haji Mirza Ali Khan Wazir", kind: full }
+  - { value: "حاجي میرزا علي خان وزیر", kind: full }
+  - { value: "Mirzali Khan", kind: alternate }
+  - { value: "Mirza Ali Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1897"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives his birth as 'c. 1897', at Shankai Kirta (Kirta Khajuri) near Khajuri in the Tochi Valley of North Waziristan; the year is approximate in the only source read and is therefore carried as debated. No source read gives a Hijri pairing for this date, so none is recorded. No born_in relation is written: neither Mirali nor the Tochi Valley has a place entity."
+  sources: [source/wikipedia-faqir-of-ipi-en]
+died:
+  edtf: "1960-04-16"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 16 April 1960, per the English article, at Kirta Khajuri in North Waziristan, after long suffering from asthma; his funeral prayer was held at Gurwek. No source read gives a Hijri pairing for this date, so none is recorded. No died_in relation is written: no place entity covers Gurwek or Mirali."
+  sources: [source/wikipedia-faqir-of-ipi-en]
+roles: [activist]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no reliable text names a school or a Sufi order for him. The English article has no religion field and names no affiliation; it records his religious studies at Bannu, his standing as a religious figure called Haji Sahab, and his introduction of sharia administration in Waziristan — formation and public role, which never count. The single attestation of an order found anywhere is an uncited local web profile (the FATA Awareness Initiative) listing 'spiritual guidance in Qadiriyya' among his education: one weak, uncorroborated attestation, preserved here but not counted. Under the two-source rule and the doubt rule the value therefore stays unknown."
+    sources: [source/wikipedia-faqir-of-ipi-en]
+sources:
+  - source/wikipedia-faqir-of-ipi-en
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on the Faqir of Ipi, read in full on 27 October 2026. No Arabic or Urdu Wikipedia article was found for him. The fetch route available to this writer exposed no revision id or Wikidata identifier, so the source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings (Mirzali/Mirza Ali/Faqir of Ipi/Ipi) and by biographical match; the grounded-QID grep route could not be run and that limitation is stated here. The article carries banners disputing its factual accuracy, so only facts it anchors in its cited literature are used. No relations are written: his father Sheikh Arslan Khan has no person record, and North Waziristan, Mirali, Bannu and Gurwek have no place entities. The roles value [activist] follows the wave 114–115 precedent for resistance leaders and is flagged in the writer's report."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116

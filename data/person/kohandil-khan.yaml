@@ -1,0 +1,54 @@
+id: person/kohandil-khan
+class: person
+label:
+  ar: "کهندل خان"
+  en: "Kohan Dil Khan"
+  ur: "کهندل خان"
+summary:
+  ar: "سردار باركزاي على قندهار (1830–1839 و1842–1855)، أحد «إخوة دل» الذين حكموا إمارة قندهار جماعيا بعد انفصالها عن الدولة الدرانية، والأخ غير الشقيق لأمير كابل دوست محمد خان. نُفي مع إخوته إلى إيران في الحرب الإنجليزية الأفغانية الأولى ثم عاد فاستعاد قندهار، وأثارت وفاته في هراة سنة 1855 نزاعا على الخلافة مهّد لضمّ دوست محمد قندهار إلى ملكه."
+  en: "Barakzai sardar of Kandahar (1830–1839 and 1842–1855), one of the 'Dil brothers' who ruled the Principality of Kandahar collectively after its break from the Durrani Empire, and a half-brother of the Kabul amir Dost Mohammad Khan. Exiled with his brothers to Persia during the First Anglo-Afghan War, he returned and recovered Kandahar; his death at Herat in 1855 set off a succession struggle that opened the way for Dost Mohammad's conquest of Kandahar."
+  ur: "قندھار کے بارکزئی سردار (1830–1839ء اور 1842–1855ء)، «دل برادران» میں سے ایک جنہوں نے قندھار کی امارت پر مشترکہ حکومت کی، اور کابل کے امیر دوست محمد خان کے سوتیلے بھائی۔ پہلی اینگلو افغان جنگ میں ایران جلاوطن ہوئے، پھر واپس آ کر قندھار دوبارہ حاصل کیا؛ 1855ء میں ہرات میں ان کی وفات سے جانشینی کا تنازع کھڑا ہوا جس سے دوست محمد کی قندھار فتح کی راہ ہموار ہوئی۔"
+names:
+  - { value: "Kohan Dil Khan Barakzai", kind: full }
+  - { value: "کهندل خان بارکزی", kind: full }
+  - { value: "Kohandil Khan", kind: alternate }
+  - { value: "Kuhan Dil Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1792"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article and the Principality of Kandahar list give his birth year as 1792, at Kandahar; the harvest queue gives 1793, the year older versions of the article also carried (the same split as his half-brother Dost Mohammad's). The 1792 of the current article is carried, marked debated. No source read gives a Hijri pairing for this date, so none is recorded. No born_in relation is written: place/kandahar does not exist."
+  sources: [source/wikipedia-kohan-dil-khan-en]
+died:
+  edtf: "1855-08-21"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Herat on 21 August 1855, per the English article, and was buried in the Great Mosque of Herat. No source read gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-kohan-dil-khan-en]
+relations:
+  - { type: sibling_of, target: person/dost-mohammad-khan, sources: [source/wikipedia-kohan-dil-khan-en] }
+  - { type: died_in, target: place/herat, sources: [source/wikipedia-kohan-dil-khan-en] }
+  - { type: buried_in, target: place/herat, sources: [source/wikipedia-kohan-dil-khan-en] }
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text names a school for him. The English article carries no religion field at all; the Ukrainian rendering's infobox gives the generic value Islam, and the Pashto stub names no religion. Generic-only attestations do not name a school, so under the two-source rule and the doubt rule the value stays unknown, unflagged."
+    sources: [source/wikipedia-kohan-dil-khan-en, source/wikipedia-kohan-dil-khan-ps]
+sources:
+  - source/wikipedia-kohan-dil-khan-en
+  - source/wikipedia-kohan-dil-khan-ps
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Kohan Dil Khan and the Pashto Wikipedia stub on Sardar Kohandil Khan, both read on 27 October 2026. The fetch route available to this writer exposed no revision id or Wikidata identifier, so the sources are cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings (Kohandil/Kohan Dil/Kuhandil) and by biographical match; the grounded-QID grep route could not be run and that limitation is stated here. The sibling_of edge to Dost Mohammad Khan is written once, here, on the English article's text statement that Dost Mohammad was a half-brother of the Dil brothers; they shared the father Payandah Khan, who has no person record, and no child_of edge is written for anyone by lane convention. No succession edges to Pur Dil Khan or Rahim Dil Khan are written: the Kandahar sardarship sequence is dynastic office succession. The queue's birth year 1793 is not followed; the article's 1792 is carried as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116
