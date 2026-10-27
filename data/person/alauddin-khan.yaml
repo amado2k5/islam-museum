@@ -1,0 +1,50 @@
+id: person/alauddin-khan
+class: person
+label: { ar: "علاء الدين خان", en: "Alauddin Khan", ur: "علاؤالدین خان" }
+names:
+  - { value: "علاء الدين خان", kind: full }
+  - { value: "Alauddin Khan", kind: full }
+  - { value: "علاؤالدین خان", kind: full }
+  - { value: "Allauddin Khan", kind: alternate }
+  - { value: "Alam", kind: alternate }
+  - { value: "Baba", kind: laqab }
+gender: male
+summary:
+  ar: "عازف سرود ومعلّم موسيقى هندي (نحو 1881–1972)، وُلد في شيببور بالبنغال وتعلّم في رامبور على يد وزير خان، ثم صار موسيقيَّ بلاط مَيهار ومؤسس غرانتها. خرّج جيلا غيّر وجه الموسيقى الهندية، في مقدمته ابنه علي أكبر خان ورافي شنكر ونيكهيل بانرجي، وكان أول موسيقي هندستاني ينال وسام بادما فيبوشان."
+  en: "Indian sarod player and music teacher (circa 1881–1972), born at Shibpur in Bengal and trained at Rampur under Wazir Khan; he became the court musician of Maihar and founder of its gharana. He trained a generation that reshaped Indian music — his son Ali Akbar Khan, Ravi Shankar and Nikhil Banerjee among them — and was the first Hindustani musician to receive the Padma Vibhushan."
+  ur: "ہندوستانی سرود نواز اور موسیقی کے استاد (تقریباً 1881ء–1972ء)، بنگال کے شیب پور میں پیدا ہوئے اور رام پور میں وزیر خان سے تعلیم پائی؛ بعد ازاں مَیہر کے درباری موسیقار اور اس کے گھرانے کے بانی ہوئے۔ ان کے شاگردوں میں ان کے بیٹے علی اکبر خان، روی شنکر اور نکھل بنرجی جیسے نام شامل ہیں جنھوں نے ہندوستانی موسیقی کی صورت بدل دی؛ وہ پدما وبھوشن پانے والے پہلے ہندوستانی موسیقار تھے۔"
+roles: [musician, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1881~"
+  hijri: "1298"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English article states that he has been variously described as born in 1862, 1869, 1871 or 1881, and that on the evidence he was most likely born circa 1881 at Shibpur village, Brahmanbaria, East Bengal; the record follows the article's assessment at year precision with the contest stated — the queue's 1862 is the oldest of the claimed years — and Wikidata likewise gives 1881. The Hijri year (1298) is a conversion. No place entity exists for Shibpur, so no born_in edge is written."
+  sources: [source/wikipedia-alauddin-khan-en, source/wikidata-alauddin-khan]
+died:
+  edtf: "1972-09-06"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree: died 6 September 1972 at Maihar, where a tomb was later built for him and his wife in the premises of his residence. The Hijri year (1392) is a conversion. No place entity exists for Maihar, so no died_in edge is written."
+  sources: [source/wikipedia-alauddin-khan-en, source/wikidata-alauddin-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — for the founder's word, the two readings preserved exactly as the one text gives them. The English article's Religion section attests his personal practice in both directions at once: he performed his daily prayer or namaz, and he was deeply devoted to the Maa Sharda Devi temple atop the Trikuta Hills at Maihar — his disciple Nikhil Banerjee recalled him uttering namaz while crying 'Ma, Ma' to Goddess Saraswati, and directing the student to his own Gayatri Japa; the article calls him broad-minded in religion and records that his burial was attended by Hindus and Muslims alike and by the chief priest of the Maa Sharda temple. No text names an affiliation or a school for him: the devotion to Sharda is attested practice, not a named conversion or affiliation, and the namaz is attested practice, not a named school. The Urdu article is a stub expressly derived from the English one (one family), and Wikidata's single religion value, Islam, is a structured value the lane never counts as a text attestation. So the Muslim identity his name, family and prayer attest is recorded here as evidence with no school named, the Sharda devotion stands beside it exactly as sourced, and the value stays unknown under the two-source rule."
+    sources: [source/wikipedia-alauddin-khan-en, source/wikidata-alauddin-khan]
+external_ids:
+  wikidata: Q2837826
+sources: [source/wikipedia-alauddin-khan-en, source/wikipedia-alauddin-khan-ur, source/wikidata-alauddin-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Allauddin Khan' (revision 1381738581 of 24 October 2026), Urdu Wikipedia 'علاؤالدین خان' (revision 11847393 of 30 August 2026 — a stub expressly derived from the English article, one family with it) and Wikidata Q2837826 (item revision 2537893956 of 29 August 2026), each fetched by its recorded revision and checked against it, read on 26 October 2026. Existence was checked by filename fragments under all spellings (alauddin, allauddin, alam), by Arabic label, by biography and by the Wikidata route (Q2837826) across data/person/ — no earlier record exists; the alauddin-* records on main are Bengal sultans and alauddin-al-attar, and the Wikidata namesakes are a politician and a footballer, all different men. No Arabic Wikipedia article exists for him; the Arabic prose is written from the English source and says so, and the Urdu prose likewise rests on the English article because the Urdu article is a derived stub. No relations are written: his teacher Wazir Khan, his son Ali Akbar Khan, his daughter Annapurna Devi and his disciples Ravi Shankar, Nikhil Banerjee and Pannalal Ghosh have no person records, there is no group entity for the Maihar gharana, and no place entity for Shibpur or Maihar."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
