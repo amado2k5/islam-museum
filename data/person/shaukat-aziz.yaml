@@ -1,0 +1,43 @@
+id: person/shaukat-aziz
+class: person
+label:
+  ar: "شوكت عزيز"
+  en: "Shaukat Aziz"
+  ur: "شوکت عزیز"
+summary:
+  ar: "مصرفي وسياسي باكستاني (وُلد 1949)، رئيس وزراء باكستان من أغسطس 2004 إلى نوفمبر 2007، ووزير المالية (1999–2007)، قضى ثلاثة عقود في سيتي بنك حتى رئاسة «سيتي برايفت بنك» في نيويورك، وقاد برنامج الخصخصة والتحرير الاقتصادي، ثم استقر في لندن بعد ترك المنصب."
+  en: "Pakistani banker and politician (born 1949), prime minister of Pakistan from August 2004 to November 2007 and finance minister (1999–2007), who spent three decades at Citibank up to the presidency of Citi Private Bank in New York, led the privatisation and economic-liberalisation programme, and settled in London after leaving office."
+  ur: "پاکستانی بینکار اور سیاست دان (پیدائش 1949ء)، اگست 2004ء سے نومبر 2007ء تک پاکستان کے وزیرِ اعظم اور وزیرِ خزانہ (1999ء–2007ء)، جنہوں نے سٹی بینک میں تین دہائیاں گزاریں اور نیویارک میں سٹی پرائیویٹ بینک کی صدارت تک پہنچے، نجکاری اور اقتصادی آزاد روی کے پروگرام کی قیادت کی، اور عہدہ چھوڑنے کے بعد لندن میں مقیم ہو گئے۔"
+names:
+  - { value: "Shaukat Aziz", kind: full }
+  - { value: "شوكت عزيز", kind: full }
+  - { value: "شوکت عزیز", kind: full }
+gender: male
+born:
+  edtf: "1949-03-06"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 6 March 1949 at Karachi, as the English and Arabic articles and Wikidata give. No place relation is written because no Karachi place entity exists in the museum yet. No source read gives a Hijri pairing for the date (the Arabic article only files him in a 'born 1368 AH' category), so none is recorded."
+  sources: [source/wikipedia-shaukat-aziz-en, source/wikipedia-shaukat-aziz-ar, source/wikidata-shaukat-aziz]
+roles: [politician]
+wings: [people, living]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: Sunni is named only in structured data. Wikidata's religion claim is Sunni Islam (Q483654); neither article names a religion or school for him — the English article has no religion field and no religion text (his reported remark after the 2004 assassination attempt, that it reinforced his resolve to serve Pakistan and the Islamic world, is public rhetoric, not an attestation), and the Arabic article's infobox has no religion field, its only Islam mention being his party's name. On the wave-114 Ayub Khan and wave-115 Shehbaz Sharif configuration (Sunni named only in structured data) the value stays unknown."
+    sources: [source/wikipedia-shaukat-aziz-en, source/wikipedia-shaukat-aziz-ar, source/wikidata-shaukat-aziz]
+external_ids: { wikidata: "Q223555" }
+sources:
+  - source/wikipedia-shaukat-aziz-en
+  - source/wikipedia-shaukat-aziz-ar
+  - source/wikidata-shaukat-aziz
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 116 §A of the century-additions queue (queue line 640, 'Shaukat Aziz — 1949–Living', verified against the queue copy in the fix clone) from the English Wikipedia article 'Shaukat Aziz' (revision 1373146322 of 4 September 2026), the Arabic article «شوكت عزيز» (revision 76576273 of 15 September 2026) and Wikidata Q223555, each read on 27 October 2026 and each checked against its recorded revision on a second read. No Urdu article exists for him. IDENTITY: pinned by biography to Shaukat Aziz, born 6 March 1949 at Karachi, the Citibank executive who became finance minister in 1999 and prime minister 2004–2007; person/shaukat-ali is a different, historical person and is untouched. EXISTENCE: checked three ways before building — name-fragment greps (shaukat, aziz) across data/person/ returned no file for him; his QID Q223555, grounded through the articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — Sunni named only in Wikidata's structured data (see the faith note). RELATIONS: none written — his birthplace Karachi and his later residence London have no place entities, and all office successions are refused by lane rule. LIVING-PERSON CARE: the reports the article carries are recorded as reports with his responses as the article states them (he was named in a 2009 FIR concerning the Akbar Bugti case and wrote to the Balochistan High Court in 2011 that he learned of the event from television; the 2017 Paradise Papers reports linked him to an Antarctic Trust he had set up and not declared in office, which he told the ICIJ was for estate planning from his Citibank earnings, dismissing allegations of impropriety), never as settled guilt."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116
