@@ -1,0 +1,51 @@
+id: person/sadir-palwan
+class: person
+label:
+  ar: "سادير بالوان"
+  en: "Sadir Palwan"
+  ur: "سادیر پالوان"
+summary:
+  ar: "بطل شعبي وشاعر أويغوري من غولجا (منطقة إيلي)، وأحد قادة انتفاضة الأويغور سنة 1864 في منطقة إيلي ضد حكم أسرة تشينغ؛ وُلد في قرية ملا توختي يوزي قرب غولجا سنة 1798 ومات فيها سنة 1871."
+  en: "Uyghur folk hero and poet of Ghulja (the Ili region), one of the leaders of the 1864 Uyghur uprising in the Ili region against Qing rule; born at Mollatokhtiyuzi near Ghulja in 1798 and died there in 1871."
+  ur: "غولجا (ایلی) کے اویغور لوک ہیرو اور شاعر، 1864ء میں چنگ حکمرانی کے خلاف ایلی خطے کی اویغور بغاوت کے رہنماؤں میں سے ایک؛ 1798ء میں غولجا کے قریب پیدا ہوئے اور 1871ء میں وہیں وفات پائی۔"
+names:
+  - { value: "Sadir Palwan", kind: full }
+  - { value: "Sadir Khoshakhmat", kind: alternate }
+  - { value: "Palwan", kind: laqab }
+born:
+  edtf: "1798"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1798 at the village of Mollatokhtiyuzi near Ghulja (Qulja) in the Ili region of Qing Xinjiang, son of Khoshakhmat, a migrant from Khotan who had moved to Ili in 1766. The Russian, Kazakh and Chinese articles and Wikidata all give the year 1798 at year precision only; no source read gives a month, a day, or a Hijri pairing, so no hijri key is carried."
+  sources: [source/wikipedia-sadir-palwan-ru, source/wikipedia-sadir-palwan-kk, source/wikipedia-sadir-palwan-zh, source/wikidata-sadir-palwan]
+died:
+  edtf: "1871"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died of illness in 1871 at Ghulja and was buried in the Muslim cemetery of his native village, Mollatokhtiyuzi (Russian and Chinese articles). All three articles and Wikidata give 1871 at year precision only; no Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-sadir-palwan-ru, source/wikipedia-sadir-palwan-zh, source/wikidata-sadir-palwan]
+wings: [people]
+regions: [china-east-asia]
+roles: [poet, activist]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names any religious affiliation for him at all. The Russian article records only that he was buried in the Muslim cemetery of his native village at Ghulja; the Kazakh and Chinese articles say nothing about religion, and his Wikidata item carries no religion value. Burial in a Muslim cemetery, and leadership of a rising in a Muslim land, are circumstances, not attestations; no school reading exists anywhere, so the segment is unknown, unflagged (absence configuration)."
+    sources: [source/wikipedia-sadir-palwan-ru, source/wikipedia-sadir-palwan-kk, source/wikipedia-sadir-palwan-zh, source/wikidata-sadir-palwan]
+external_ids:
+  wikidata: Q4404933
+sources:
+  - source/wikipedia-sadir-palwan-ru
+  - source/wikipedia-sadir-palwan-kk
+  - source/wikipedia-sadir-palwan-zh
+  - source/wikidata-sadir-palwan
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "Russian, Kazakh and Chinese Wikipedia articles on Sadir Palwan and Wikidata item Q4404933, each read at a recorded revision; existence checked both ways before building — name fragments (sadir, sadyr, palwan, paluan, baluan) and slug variants across data/person found no person file, and Q4404933, grounded through the Russian article's page properties and confirmed through the Kazakh and Chinese articles' sitelinks, matched no existing record. The harvest queue's framing of him among Kazakh-steppe figures is not what the sources give: all three articles identify a Uyghur of Ghulja in Xinjiang, so his region is china-east-asia, not persia-central-asia. His years (1798–1871) rest on three stub articles (the Russian and Chinese unreferenced on their own wikis) and Wikidata, all agreeing at year precision; they are carried at that precision and no more is claimed. No born_in or died_in edge is written: no place entity exists for Ghulja. His father Khoshakhmat has no record, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101
