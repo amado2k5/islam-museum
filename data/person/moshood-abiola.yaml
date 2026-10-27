@@ -1,0 +1,46 @@
+id: person/moshood-abiola
+class: person
+label: { ar: "ماشود أبيولا", en: "Moshood Abiola", ur: "مشود ابیولا" }
+names:
+  - { value: "Moshood Kashimawo Olawale Abiola", kind: full }
+  - { value: "ماشود كاشيماوو أولاوالي أبيولا", kind: full }
+  - { value: "M. K. O. Abiola", kind: alternate }
+gender: male
+summary:
+  ar: "رجل أعمال وناشر وسياسي نيجيري (1937–1998) من أبيوكوتا، بنى إمبراطورية أعمال وصحف «كونكورد» وترشح لرئاسة نيجيريا عن الحزب الاجتماعي الديمقراطي، ففاز ظاهريا بانتخابات 12 يونيو 1993 التي ألغاها الحاكم العسكري إبراهيم بابانغيدا. أعلن نفسه رئيسا سنة 1994 فاعتُقل، واغتيلت زوجته قديرت سنة 1996، ومات في الاحتجاز بأبوجا في 7 يوليو 1998، ثم كرّمته نيجيريا بعد وفاته بأعلى وسام وجعلت 12 يونيو يوم الديمقراطية."
+  en: "Nigerian businessman, publisher and politician (1937–1998) from Abeokuta who built a business empire and the Concord newspaper group and stood for the presidency on the Social Democratic Party ticket, apparently winning the election of 12 June 1993, which the military ruler Ibrahim Babangida annulled. He declared himself president in 1994 and was detained; his wife Kudirat was assassinated in 1996; he died in custody in Abuja on 7 July 1998. Nigeria later honoured him posthumously with its highest award and made 12 June Democracy Day."
+  ur: "نائجریائی تاجر، ناشر اور سیاست دان (1937ء–1998ء)، ابیوکوتا سے تعلق؛ کاروباری سلطنت اور ’کانکورڈ‘ اخبارات کا سلسلہ قائم کیا اور سوشل ڈیموکریٹک پارٹی کے امیدوار کے طور پر صدارت کے لیے کھڑے ہوئے؛ 12 جون 1993 کے انتخابات میں بظاہر کامیاب ہوئے مگر فوجی حکمران ابراہیم بابانگیدا نے نتیجہ منسوخ کر دیا۔ 1994 میں خود کو صدر اعلان کرنے پر گرفتار ہوئے، ان کی اہلیہ قدیرت 1996 میں قتل ہوئیں، اور وہ 7 جولائی 1998 کو ابوجا میں حراست کے دوران وفات پا گئے؛ بعد از مرگ نائجریا نے انھیں اعلیٰ ترین اعزاز دیا اور 12 جون کو یومِ جمہوریت قرار دیا۔"
+roles: [businessman, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1937-08-24"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 24 August 1937 in Abeokuta; the Hijri year (1356) is a conversion."
+  sources: [source/wikipedia-moshood-abiola-en, source/wikidata-moshood-abiola]
+died:
+  edtf: "1998-07-07"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death in detention in Abuja on 7 July 1998; the Hijri year (1419) is a conversion."
+  sources: [source/wikipedia-moshood-abiola-en, source/wikidata-moshood-abiola]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration, unflagged. The English article's text attests the man personally as a Muslim ('a Southern Muslim' in its election narrative), records his membership of the Ansar-Ud-Deen society, his newspaper's support for Islamic causes and the clerical title Baba Adinni of Yorubaland conferred on him in 1984 — association, activity and title, none of which names a school. Wikidata gives a single structured value, Islam; the article's categories file him under 'Nigerian Muslims'. No source used names a madhhab or affiliation beyond Islam, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-moshood-abiola-en, source/wikidata-moshood-abiola]
+external_ids: { wikidata: "Q1528125" }
+sources: [source/wikipedia-moshood-abiola-en, source/wikidata-moshood-abiola]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Moshood Abiola' (revision 1380572779) and Wikidata item Q1528125 (item revision 2558175885), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (abiola, moshood), by Arabic label and by the QID route across data/person/ — no earlier record exists. No Arabic or Urdu article exists for him (Wikidata links only the English and Hausa articles), so the Arabic and Urdu prose is written from the English article and Wikidata. No place entity exists for Abeokuta or Abuja, so no born_in or died_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

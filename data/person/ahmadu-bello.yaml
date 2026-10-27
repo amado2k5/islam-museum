@@ -1,0 +1,47 @@
+id: person/ahmadu-bello
+class: person
+label: { ar: "أحمدو بلو", en: "Ahmadu Bello", ur: "احمدو بلیو" }
+names:
+  - { value: "Ahmadu Bello", kind: full }
+  - { value: "أحمدو بلو", kind: full }
+  - { value: "Ahmadu Rabah", kind: alternate }
+  - { value: "Sardauna of Sokoto", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي نيجيري (1910–1966) من رابا، سليل عثمان دان فوديو وحامل لقب سردوانة صكتو منذ 1938، قاد مؤتمر الشعب الشمالي وكان أول رئيس لحكومة المنطقة الشمالية ووحيدها (1954–1966)، فهيمن على سياسة نيجيريا حتى اغتياله في كادونا في انقلاب 15 يناير 1966. أسهم في تأسيس جامعة أهل الشمال المسلمين ورابطة العالم الإسلامي، وتُنسَب إليه جامعة أحمدو بلو في زاريا التي تحمل اسمه."
+  en: "Nigerian politician (1910–1966) from Rabah, a descendant of Uthman dan Fodio who held the Sardauna of Sokoto title from 1938. He led the Northern People's Congress and was the first and only Premier of the Northern Region (1954–1966), dominating Nigerian politics until his assassination in Kaduna in the coup of 15 January 1966. He helped found the Jama'atu Nasril Islam and the Muslim World League, and Ahmadu Bello University in Zaria bears his name."
+  ur: "نائجریائی سیاست دان (1910ء–1966ء)، رابا سے تعلق؛ عثمان دان فودیو کی اولاد اور 1938 سے ’سردوانۂ صوکوتو‘ کے لقب کے حامل۔ ناردرن پیپلز کانگریس کی قیادت کی اور شمالی خطے کے پہلے اور واحد وزیرِ اعظم رہے (1954ء–1966ء)؛ 15 جنوری 1966 کی بغاوت میں کادونا میں قتل ہوئے۔ جماعتِ نصر الاسلام اور رابطہ عالم اسلامی کی تاسیس میں شریک رہے، اور زاریا کی احمدو بلیو یونیورسٹی ان کے نام پر ہے۔"
+roles: [politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1910-06-12"
+  hijri: "1328"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article (citing his autobiography My Life) and Wikidata's day-level value give 12 June 1910, at Rabah; the Dictionary of African Biography entry cited in the article is titled 'Bello, Ahmadu (1909–1966)' and Wikidata also carries a 1909 value, a birth-year variant preserved here. The Hijri year (1328) is a conversion."
+  sources: [source/wikipedia-ahmadu-bello-en, source/wikipedia-ahmadu-bello-ar, source/wikidata-ahmadu-bello]
+died:
+  edtf: "1966-01-15"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his assassination in Kaduna on 15 January 1966, in the first Nigerian coup; the Hijri year (1385) is a conversion."
+  sources: [source/wikipedia-ahmadu-bello-en, source/wikipedia-ahmadu-bello-ar, source/wikidata-ahmadu-bello]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Qadiriyya reading stands one attestation short, for the founder's word. The Arabic article's text says he learned in the Qur'anic schools and 'was raised in the zawiyas of the shaykhs of the Sufi orders, men of the Qadiriyya (a Sufi brotherhood)' — a statement of upbringing and formation in one text family, not of his own initiation, discipleship or membership. The English article records only his Islamic education at home (Qur'an, fiqh and Sunnah — formation) and his descent from Uthman dan Fodio (family background); Wikidata gives a single structured value, Islam; both articles' categories file him under 'Nigerian Muslims'. No text states a personal affiliation, so the value stays unknown with the Qadiriyya upbringing preserved here; if the founder accepts the zawiya upbringing as an attestation, a second would still be needed, and the record would settle as it stands."
+    sources: [source/wikipedia-ahmadu-bello-en, source/wikipedia-ahmadu-bello-ar, source/wikidata-ahmadu-bello]
+external_ids: { wikidata: "Q401032" }
+sources: [source/wikipedia-ahmadu-bello-en, source/wikipedia-ahmadu-bello-ar, source/wikidata-ahmadu-bello]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmadu Bello' (revision 1379073436), Arabic Wikipedia 'أحمدو بلو' (revision 76851519) and Wikidata item Q401032 (item revision 2551403727), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (bello, ahmadu), by Arabic label, by biography and by the QID route across data/person/ — lakhdar-belloumi and ahmadu-tall are different men, and no earlier record of the Sardauna exists; the queue line 'Ahmadu Bello's Forebears' is a separate collective line and is not this record. No place entity exists for Rabah or Kaduna, and no person record exists for Uthman dan Fodio or Muhammad Bello, so no born_in, died_in or descent edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
