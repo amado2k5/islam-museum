@@ -591,11 +591,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fazle Hasan Abed — 1936–2019
 - [x] Rizwana Hasan — 1968–Living
 - [x] Mubarak Ahmad Khan — 1958–Living
-- [ ] Atta-ur-Rahman — 1942–Living
-- [ ] Dr. Samar Mubarakmand — 1942–Living
-- [ ] Abdul Qadeer Khan — 1936–2021
-- [ ] Riazuddin — 1930–2013
-- [ ] Pervez Hoodbhoy — 1950–Living
+- [x] Atta-ur-Rahman — 1942–Living
+- [x] Dr. Samar Mubarakmand — 1942–Living
+- [x] Abdul Qadeer Khan — 1936–2021
+- [x] Riazuddin — 1930–2013
+- [x] Pervez Hoodbhoy — 1950–Living
 - [ ] Nergis Mavalvala — 1968–Living
 - [ ] Dr. Tasneem Zehra Husain — 1980–Living
 - [ ] Dr. Burçin Mutlu-Pakdil — 1986–Living

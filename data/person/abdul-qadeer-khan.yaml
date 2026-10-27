@@ -1,0 +1,46 @@
+id: person/abdul-qadeer-khan
+class: person
+label: { ar: "عبد القدير خان", en: "Abdul Qadeer Khan", ur: "عبد القدیر خان" }
+names:
+  - { value: "Abdul Qadeer Khan", kind: full }
+  - { value: "A. Q. Khan", kind: alternate }
+  - { value: "عبد القدیر خان", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي نووي ومهندس معادن باكستاني، وُلد في بهوبال سنة 1936 وتوفي في إسلام آباد سنة 2021. هاجر إلى باكستان سنة 1952، وتدرّب في جامعات أوروبا الغربية، وأسّس سنة 1976 مختبرات الأبحاث الهندسية في كاهوتا — مختبرات خان البحثية لاحقا — التي بنت برنامج تخصيب اليورانيوم الباكستاني بالطرد المركزي. سنة 2004 خضع لاستجواب حول شبكة انتشار نووي واعترف علنا، فعفا عنه الرئيس مشرف ووُضع قيد الإقامة الجبرية سنوات. أُقيمت له جنازة رسمية في مسجد فيصل."
+  en: "Pakistani nuclear physicist and metallurgical engineer, born in Bhopal in 1936 and died in Islamabad in 2021. He emigrated to Pakistan in 1952, trained at Western European universities, and in 1976 founded the Engineering Research Laboratories at Kahuta — later Khan Research Laboratories — which built Pakistan's centrifuge uranium enrichment programme. In 2004 he was debriefed over a nuclear proliferation network and confessed on television; President Musharraf pardoned him and he spent years under house arrest. He was given a state funeral at Faisal Mosque."
+  ur: "پاکستانی جوہری طبیعیات دان اور دھات کاری کے انجینئر، جو 1936ء میں بھوپال میں پیدا ہوئے اور 2021ء میں اسلام آباد میں وفات پائی۔ وہ 1952ء میں پاکستان ہجرت کر آئے، مغربی یورپ کی جامعات سے تربیت پائی، اور 1976ء میں کاہوٹا میں انجینئرنگ ریسرچ لیبارٹریز — بعد میں خان ریسرچ لیبارٹریز — قائم کیں، جنھوں نے پاکستان کا سینٹری فیوج یورینیم افزودگی پروگرام بنایا۔ 2004ء میں ان سے جوہری پھیلاؤ کے نیٹ ورک پر تفتیش ہوئی اور انھوں نے ٹیلی ویژن پر اعتراف کیا؛ صدر مشرف نے انھیں معاف کر دیا اور وہ برسوں نظر بند رہے۔ ان کا جنازہ سرکاری اعزاز کے ساتھ فیصل مسجد میں ادا کیا گیا۔"
+roles: [scientist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1936-04-01"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 April 1936 in Bhopal, per the English article's text and infobox and Wikidata. No place entity exists for Bhopal, so no born_in relation is written. The Hijri year 1355 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-abdul-qadeer-khan-en, source/wikidata-abdul-qadeer-khan]
+died:
+  edtf: "2021-10-10"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 10 October 2021 in Islamabad, after treatment for COVID-19 and lung problems, per the English article and Wikidata. No place entity exists for Islamabad, so no died_in relation is written. The Hijri year 1443 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-abdul-qadeer-khan-en, source/wikidata-abdul-qadeer-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged: generic and practice framing only, no school named anywhere. Wikidata's sole religion value is the generic Islam (Q432) — one structured value, which never counts alone. The English article's personal-life text says he 'maintained a strong religious outlook' and wrote columns on issues affecting Muslim communities, that his mother had 'a very religious mindset', and that he married in a Muslim ceremony in 1963; he was given a state funeral at Faisal Mosque. Personal outlook, family background and public practice attest no school or affiliation, and no source names one for him."
+    sources: [source/wikipedia-abdul-qadeer-khan-en, source/wikipedia-abdul-qadeer-khan-ur, source/wikipedia-abdul-qadeer-khan-ar, source/wikidata-abdul-qadeer-khan]
+external_ids: { wikidata: "Q310773" }
+sources: [source/wikipedia-abdul-qadeer-khan-en, source/wikipedia-abdul-qadeer-khan-ur, source/wikipedia-abdul-qadeer-khan-ar, source/wikidata-abdul-qadeer-khan]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 109 §A of the century-additions queue from the English, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it on a second read, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu and Arabic articles' pageprops. Existence checked both ways before building: name-fragment greps (abdul qadeer khan, عبد القدیر) across data/person/ found no record for him, and Q310773 appears in no existing person record. No relations are written: neither Bhopal nor Islamabad has a place entity, and his wife, named in the English article, has no record. His faith is recorded unknown, flagged, on the generic-only configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-109
+status: { review: published }
