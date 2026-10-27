@@ -1,0 +1,54 @@
+id: person/sikandar-hayat-khan
+class: person
+label:
+  ar: "إسكندر حياة خان"
+  en: "Sikandar Hayat Khan"
+  ur: "سکندر حیات خان"
+summary:
+  ar: "خان بهادر سر سكندر حياة خان (1892–1942) سياسي ورجل دولة من البنجاب، أول رئيس وزراء للبنجاب (1937–1942) عن الحزب الاتحادي، وقّع ميثاق جناح–سكندر سنة 1937 وساند قرار لاهور سنة 1940 مع معارضته تقسيم الهند، وتولى بالوكالة حكم البنجاب مرتين، ودُفن عند أعتاب المسجد البادشاهي في لاهور."
+  en: "Khan Bahadur Sir Sikandar Hayat Khan (1892–1942) was a Punjabi politician and statesman, the first Premier of the Punjab (1937–1942) for the Unionist Party, who signed the Jinnah–Sikandar Pact in 1937 and supported the Lahore Resolution of 1940 while opposing the partition of India, twice served as acting Governor of the Punjab, and was buried at the footsteps of the Badshahi Mosque in Lahore."
+  ur: "خان بہادر سر سکندر حیات خان (1892ء–1942ء) پنجابی سیاست دان اور ریاست کار تھے، یونینسٹ پارٹی کی جانب سے پنجاب کے پہلے وزیراعظم (1937ء–1942ء) رہے، 1937ء میں جناح سکندر معاہدے پر دستخط کیے اور 1940ء کی قراردادِ لاہور کی حمایت کی مگر تقسیمِ ہند کے مخالف رہے، دو بار پنجاب کے قائم مقام گورنر رہے اور لاہور میں بادشاہی مسجد کے قدموں میں دفن ہوئے۔"
+names:
+  - { value: "Sikandar Hayat Khan", kind: full }
+  - { value: "سکندر حیات خان", kind: full }
+  - { value: "إسكندر حياة خان", kind: full }
+  - { value: "Sikandar Hyat Khan", kind: alternate }
+gender: male
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1892-06-05"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 June 1892 at Multan, in the Punjab: the English and Urdu articles and Wikidata agree. The Hijri year 1309 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-sikandar-hayat-khan-en, source/wikipedia-sikandar-hayat-khan-ur, source/wikidata-sikandar-hayat-khan]
+died:
+  edtf: "1942-12-26"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 26 December 1942 at Lahore, of sudden heart failure at his home on the night of 25/26 December: the English, Urdu and Arabic articles and Wikidata agree. The English article, on Malik's biography, records his burial at the footsteps of the Badshahi Mosque in Lahore. The Hijri year 1361 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-sikandar-hayat-khan-en, source/wikipedia-sikandar-hayat-khan-ur, source/wikipedia-sikandar-hayat-khan-ar, source/wikidata-sikandar-hayat-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names any religion or school for him: the English, Urdu and Arabic article texts and infoboxes are silent on religion, and Wikidata carries no religion statement. His leadership of the Unionist Party, his 1937 pact with Jinnah and his support for the Lahore Resolution are political acts, and his Khattar family background is lineage; none of them attests a personal school or affiliation. Nothing here supports any segment beyond unknown."
+    sources: [source/wikipedia-sikandar-hayat-khan-en, source/wikipedia-sikandar-hayat-khan-ur, source/wikipedia-sikandar-hayat-khan-ar, source/wikidata-sikandar-hayat-khan]
+relations:
+  - { type: born_in, target: place/multan, sources: [source/wikipedia-sikandar-hayat-khan-en] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-sikandar-hayat-khan-en] }
+  - { type: buried_in, target: place/lahore, sources: [source/wikipedia-sikandar-hayat-khan-en] }
+external_ids: { wikidata: "Q3249228" }
+sources: [source/wikipedia-sikandar-hayat-khan-en, source/wikipedia-sikandar-hayat-khan-ur, source/wikipedia-sikandar-hayat-khan-ar, source/wikidata-sikandar-hayat-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sikandar Hayat Khan' (revision 1378275310), Urdu Wikipedia 'سکندر حیات خان' (revision 10242734), Arabic Wikipedia 'إسكندر حياة خان' (revision 75985908) and Wikidata item Q3249228 (item revision 2514093165), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the Wikidata item was queried twice with identical item revisions. Existence checks by name fragments (sikandar, hayat-khan) across data/person, by QID and by biography (first Premier of the Punjab, 1892–1942, of Multan and the Khattar tribe — not the later Azad Kashmir politician of the same name, who has a separate article) found no prior record for this man. Relations are limited to his Multan birth and Lahore death and burial: his father Nawab Muhammad Hayat Khan and his children named in the articles have no person records, and his being succeeded as Premier by Khizar Hayat Tiwana is an office succession carried in both men's prose, not a schema relation. The lane queue gives 'Sikandar Hayat Khan (1892–1942)', which the sources confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-88
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
