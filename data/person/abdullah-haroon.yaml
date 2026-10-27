@@ -1,0 +1,53 @@
+id: person/abdullah-haroon
+class: person
+label:
+  ar: "عبد الله هارون"
+  en: "Abdullah Haroon"
+  ur: "عبد اللہ ہارون"
+summary:
+  ar: "سير عبد الله هارون (1872–1942)، سياسي ورجل أعمال من كراتشي في الهند البريطانية، لُقّب «ملك السكر» لنجاحه في تجارة السكر. ترأس لجنة الخلافة في السند والرابطة الإسلامية الإقليمية، ونظّم مؤتمر الرابطة الإسلامية الأول في السند سنة 1938 وأيّد قرار لاهور سنة 1940، وكان محسنًا بنى مدارس ومساجد وملاجئ للأيتام."
+  en: "Sir Abdullah Haroon (1872–1942), a Karachi politician and businessman of British India, called the 'Sugar King' for his success in the sugar trade. He presided over the Sindh Khilafat Committee and the provincial Muslim League, organised the first Sind Provincial Muslim League Conference in 1938 and endorsed the Lahore Resolution in 1940, and was a philanthropist who built schools, mosques and orphanages."
+  ur: "سر عبد اللہ ہارون (1872ء–1942ء)، برطانوی ہند کے کراچی سے تعلق رکھنے والے سیاست دان اور تاجر، جو چینی کی تجارت میں کامیابی پر «شوگر کنگ» کہلائے۔ وہ سندھ خلافت کمیٹی اور صوبائی مسلم لیگ کے صدر رہے، 1938ء میں پہلی سندھ صوبائی مسلم لیگ کانفرنس منعقد کی اور 1940ء میں قرارداد لاہور کی تائید کی، اور مدارس، مساجد اور یتیم خانے بنانے والے صاحب خیر تھے۔"
+names:
+  - { value: "عبداللہ ہارون", kind: full }
+  - { value: "Seth Haji Sir Abdoola Haroon", kind: alternate }
+  - { value: "Sugar King", kind: laqab }
+gender: male
+born:
+  edtf: "1872"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English article's lead gives 1 January 1872, but its infobox gives the year 1872 alone and the Arabic and Urdu articles give the year; the year is carried at year precision. Born at Karachi into a Sindhi Memon family (the Urdu article specifies the Kachhi Memon community). The year spans two Hijri years (1288–1289) and no source gives a pairing, so no Hijri year is recorded. No born_in relation is written: no place entity exists for Karachi."
+  sources: [source/wikipedia-abdullah-haroon-en, source/wikipedia-abdullah-haroon-ar, source/wikipedia-abdullah-haroon-ur, source/wikidata-abdullah-haroon]
+died:
+  edtf: "1942-04-27"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All three articles and Wikidata agree: died 27 April 1942 at Karachi; the Urdu article adds that he is buried at Karachi. The Hijri year is a conversion and is marked derived. No died_in or buried_in relation is written: no place entity exists for Karachi."
+  sources: [source/wikipedia-abdullah-haroon-en, source/wikipedia-abdullah-haroon-ar, source/wikidata-abdullah-haroon]
+roles: [politician, businessman]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Generic only. No article text names a school for him. The English article gives his Sindhi Memon family background and his grandmother's piety (family background), his presidency of the Sindh Khilafat Committee and of the provincial Muslim League (office and movement leadership), and his charitable giving; the Urdu article adds his building of madrasas, mosques and orphanages (philanthropy); the Arabic article frames him generically as a leader of Muslims and files him among the Memon people (a filing). The only structured religion value anywhere, Wikidata's claim, is generic Islam (Q432). Community, family, office and philanthropy never attest a school, and no second source names one, so the value is unknown."
+    sources: [source/wikipedia-abdullah-haroon-en, source/wikipedia-abdullah-haroon-ar, source/wikipedia-abdullah-haroon-ur, source/wikidata-abdullah-haroon]
+external_ids: { wikidata: "Q8704030" }
+sources:
+  - source/wikipedia-abdullah-haroon-en
+  - source/wikipedia-abdullah-haroon-ar
+  - source/wikipedia-abdullah-haroon-ur
+  - source/wikidata-abdullah-haroon
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Abdullah Haroon' (revision 1354443883 of 16 May 2026), Arabic Wikipedia article 'Abdullah Haroon (politician)' (revision 75250490 of 9 June 2026), Urdu Wikipedia article 'Abdullah Haroon' (revision 9562815 of 22 March 2026) and Wikidata item Q8704030 (item revision 2515520842 of 9 July 2026), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn, and the QID grounded through the English article's own page property. Existence was checked all three ways before building: name-fragment greps under all spellings (Haroon/Harun — the many Harun records are other men, and the one string match inside person/harun-ibn-al-munajjim is a nasab chain, not a label), the grounded QID grepped across all data/person files (no hit), and biographical match. His Arabic label عبد الله هارون is not identical to any existing record's label; his wife's label differs from his, and no homonym entry is needed. His marriage is attested by his English infobox ('Spouse: Lady Abdullah Haroon'), by her English article, and by the spouse claims on both Wikidata items; the spouse_of edge itself is written once, in his wife's record, under the brief's direction, and deliberately not duplicated here. No place relations are written: Karachi has no place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
