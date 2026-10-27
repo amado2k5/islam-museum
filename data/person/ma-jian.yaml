@@ -1,0 +1,57 @@
+id: person/ma-jian
+class: person
+label:
+  ar: "محمد ماكين الصيني"
+  en: "Muhammad Ma Jian"
+  ur: "محمد ماکین صینی"
+summary:
+  ar: "عالم ومترجم مسلم صيني من الهوي، من شاديان في يونان (1906–1978)؛ درس عند هو سونغشان ثم في المدرسة الإسلامية النظامية في شنغهاي، وأُوفد سنة 1931 إلى الجامع الأزهر في القاهرة ضمن أول بعثة صينية، ودرّس العربية والدراسات الإسلامية في جامعة بكين منذ 1946، وترجم القرآن الكريم كاملًا إلى الصينية فصارت ترجمته أوسع الترجمات انتشارًا في الصين."
+  en: "Hui Chinese Muslim scholar and translator from Shadian, Yunnan (1906–1978). He studied under Hu Songshan and at the Shanghai Islamic Normal School, was sent to al-Azhar in Cairo in 1931 in the first Chinese government-sponsored group, taught Arabic and Islamic studies at Peking University from 1946, and translated the whole Qur'an into Chinese; his translation remains the most widely used in China."
+  ur: "شادیان، یوننان سے تعلق رکھنے والے ایک ہوئی چینی مسلمان عالم اور مترجم (1906ء–1978ء)؛ انہوں نے ہو سونگ شان اور شنگھائی اسلامی نارمل اسکول میں تعلیم حاصل کی، 1931ء میں پہلے چینی سرکاری گروپ کے ساتھ قاہرہ کی جامعہ ازہر بھیجے گئے، 1946ء سے پیکنگ یونیورسٹی میں عربی اور اسلامی علوم پڑھائے، اور قرآن مجید کا مکمل چینی ترجمہ کیا جو آج بھی چین میں سب سے زیادہ مستعمل ہے۔"
+names:
+  - { value: "馬堅", kind: full }
+  - { value: "马坚", kind: full }
+  - { value: "Muhammad Ma Jian", kind: full }
+  - { value: "Ma Jian", kind: full }
+  - { value: "馬玉書", kind: alternate }
+  - { value: "馬萬清", kind: alternate }
+  - { value: "子實", kind: alternate }
+gender: male
+roles: [scholar, teacher, writer]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1906-06-06"
+  hijri: "1324"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Chinese article gives 6 June 1906, at Shadian village in Gejiu, Yunnan, and Wikidata carries the same day-precision value alongside a year-only value; the English and Arabic articles give the year only. No museum place record exists for Shadian or Gejiu, so no born_in relation is written. The Hijri year is derived by conversion."
+  sources: [source/wikipedia-ma-jian-zh, source/wikidata-ma-jian]
+died:
+  edtf: "1978-08-16"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Chinese article gives 16 August 1978, at Beijing, and Wikidata carries the same day-precision value alongside a year-only value; the English and Arabic articles give the year only. No museum place record exists for Beijing, so no died_in relation is written. The Hijri year is derived by conversion."
+  sources: [source/wikipedia-ma-jian-zh, source/wikidata-ma-jian]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text names a school, order or movement for him. The English article, and the Arabic article translated from it, call him a Hui-Chinese Islamic scholar and translator who stressed the compatibility of Marxism and Islam; the Chinese article calls him a Hui Muslim scholar, and records that as a young man he studied Persian under Hu Songshan and translated the Wiqaya, a Hanafi legal manual, into Chinese — translating a manual is not the attestation of his own school. Wikidata's religion value is Sunni Islam (Q483654), a single structured value: one source family, which does not meet the two-text bar. Unknown, with the Sunni reading preserved here."
+    sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh, source/wikipedia-ma-jian-ar, source/wikidata-ma-jian]
+relations:
+  - { type: student_of, target: person/ha-decheng, sources: [source/wikipedia-ha-decheng-zh, source/wikipedia-ma-jian-zh] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh] }
+  - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-ma-jian-en] }
+external_ids: { wikidata: "Q2474573" }
+sources: [source/wikipedia-ma-jian-en, source/wikipedia-ma-jian-zh, source/wikipedia-ma-jian-ar, source/wikipedia-ma-jian-ur, source/wikidata-ma-jian]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Ma Jian' (revision 1359332475 of 14 June 2026), Chinese Wikipedia '馬堅' (revision 95006671 of 13 October 2026), Arabic Wikipedia 'محمد ماكين الصيني' (revision 75588035 of 19 June 2026 — a translation of the English article, one family with it), Urdu Wikipedia 'محمد ماکین صینی' (revision 9912708 of 17 April 2026, a stub) and Wikidata item Q2474573 (item revision 2554511950 of 7 October 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the articles' page properties: the English title 'Ma Jian' is a disambiguation page whose item, Q1882217, is a different entity, and the translator's item Q2474573 is the one carried by the English 'Muhammad Ma Jian' and the Chinese 馬堅. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q2474573, and no Arabic label is shared with any existing record, so no homonym entry is required. The student_of edge to person/ha-decheng, built in this same run, rests on Ha Decheng's Chinese article, which calls Ma Jian his student — Ha went to Shadian in 1941 to help 'his student Ma Jian' translate the whole Qur'an — and on Ma Jian's Chinese article, which has him enter the Shanghai Islamic Normal School that Ha founded. No student_of edge to Hu Songshan is written, though the English and Chinese articles both attest his study under Hu at Guyuan, because Hu Songshan has no museum record. The lived_in edge to place/cairo is scoped to his study residence of 1931–1939 at al-Azhar, and the traveled_to edge to place/mecca to the hajj delegation of early 1939 attested in the English article."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99

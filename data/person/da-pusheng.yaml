@@ -1,0 +1,50 @@
+id: person/da-pusheng
+class: person
+label:
+  ar: "دا بوشينغ"
+  en: "Da Pusheng"
+  ur: "دا بوشينغ"
+summary:
+  ar: "عالم مسلم صيني من ليوخه في جيانغسو (1874–1965)، عُرف باسمه الديني نور محمد، وكان إمامًا «أهونغ» ومن «الأئمة الأربعة الكبار» في الصين الحديثة؛ درس خليفةً عند الأهونغ وانغ هاوران في مسجد نيوجيه ببكين، وشارك سنة 1928 في إنشاء المدرسة الإسلامية النظامية في شنغهاي وتولّى إدارتها، وبعد 1949 ترأّس وفود الحج الصينية وكان نائب رئيس الجمعية الإسلامية الصينية."
+  en: "Chinese Muslim scholar from Liuhe, Jiangsu (1874–1965), known by his religious name Nur Muhammad, an ahong counted among the four great ahongs of modern China. He studied as a khalifa under the ahong Wang Haoran at Beijing's Niujie Mosque, co-founded the Shanghai Islamic Normal School in 1928 and served as its principal, and after 1949 led China's hajj delegations and was a vice-chairman of the Islamic Association of China."
+  ur: "لیوہے، جیانگسو سے تعلق رکھنے والے ایک چینی مسلمان عالم (1874ء–1965ء)، جن کا دینی نام نور محمد تھا؛ وہ جدید چین کے چار بڑے آہونگوں میں شمار ہوتے تھے۔ انہوں نے بیجنگ کی نیوجیے مسجد میں آہونگ وانگ ہاؤران کے یہاں خلیفہ کے طور پر تعلیم حاصل کی، 1928ء میں شنگھائی اسلامی نارمل اسکول کی تاسیس میں حصہ لیا اور اس کے پرنسپل رہے، اور 1949ء کے بعد چین کے حج وفود کی قیادت کی اور اسلامی ایسوسی ایشن آف چائنا کے نائب صدر رہے۔"
+names:
+  - { value: "達浦生", kind: full }
+  - { value: "达浦生", kind: full }
+  - { value: "Da Pusheng", kind: full }
+  - { value: "鳳軒", kind: alternate }
+  - { value: "奴爾·穆罕默德", kind: alternate }
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1874"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The Chinese article gives 1874, and Wikidata gives the same year at year precision; he was from Liuhe in Jiangsu, now part of Nanjing, of Kipchak descent. No day and no Hijri pairing are attested, so no hijri key is carried; no museum place record exists for Liuhe or Nanjing, so no born_in relation is written."
+  sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng]
+died:
+  edtf: "1965-06-21"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Chinese article gives 21 June 1965 and states that he died at Beijing; Wikidata agrees on the day. No museum place record exists for Beijing, so no died_in relation is written. The Hijri year is derived by conversion."
+  sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The only article, in Chinese, names no school, order or movement for him: it presents him as an Islamic scholar and ahong who studied as a khalifa under the ahong Wang Haoran at Beijing's Niujie Mosque and spent his career founding and leading Muslim schools. Wikidata carries no religion value at all. No school reading exists in any source: unknown."
+    sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng]
+external_ids: { wikidata: "Q15929322" }
+sources: [source/wikipedia-da-pusheng-zh, source/wikidata-da-pusheng]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "Chinese Wikipedia '达浦生' (revision 85222869 of 6 December 2024) and Wikidata item Q15929322 (item revision 2516542508 of 12 July 2026), fetched through the MediaWiki/Wikidata APIs on 27 October 2026, the article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the Chinese article's page properties; he has no English, Arabic or Urdu article. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q15929322, and no Arabic label is shared with any existing record, so no homonym entry is required. No student_of edge to Wang Haoran is written: he has no museum record. No founder_of edge is written for the Shanghai Islamic Normal School, founded in 1928 with Ma Fuxiang as chairman and Da Pusheng as principal, because no group record for the school exists. His appointment by Ma Linyi to direct the Gansu Hui education-promotion office, attested in this article, has no predicate in the registry."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99

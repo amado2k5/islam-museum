@@ -1,0 +1,51 @@
+id: person/ha-decheng
+class: person
+label:
+  ar: "ها ده تشنغ"
+  en: "Ha Decheng"
+  ur: "ها ده تشنغ"
+summary:
+  ar: "عالم مسلم صيني من نانتشنغ في شنشي (1888–1943)، عُرف باسمه الديني هلال الدين، وكان من كبار الأئمة «الأهونغ» في جمهورية الصين وأحد «الأئمة الأربعة الكبار»؛ حجّ سنة 1913، وشارك سنة 1928 في تأسيس المدرسة الإسلامية النظامية في شنغهاي، وترجم الأجزاء الأولى من القرآن إلى الصينية، وقضى سنواته الأخيرة في شاديان يعين تلميذه ما جيان على ترجمة القرآن كاملًا."
+  en: "Chinese Muslim scholar from Nanzheng, Shaanxi (1888–1943), known by his religious name Hilal al-Din, a leading ahong of the Republic of China and one of the four great ahongs of modern China. He performed the hajj in 1913, co-founded the Shanghai Islamic Normal School in 1928, published Chinese translations of the first three volumes of the Qur'an, and spent his last years at Shadian helping his student Ma Jian translate the whole Qur'an."
+  ur: "نن ژینگ، شانشی سے تعلق رکھنے والے ایک چینی مسلمان عالم (1888ء–1943ء)، جن کا دینی نام ہلال الدین تھا؛ جمہوریہ چین کے ممتاز آہونگ اور جدید چین کے چار بڑے آہونگوں میں سے ایک۔ انہوں نے 1913ء میں حج کیا، 1928ء میں شنگھائی اسلامی نارمل اسکول کی تاسیس میں حصہ لیا، قرآن کے پہلے تین اجزا کا چینی ترجمہ شائع کیا، اور اپنی زندگی کے آخری سال شادیان میں اپنے شاگرد ما جیان کی مکمل قرآن کے ترجمے میں مدد کرتے ہوئے گزارے۔"
+names:
+  - { value: "哈德成", kind: full }
+  - { value: "Ha Decheng", kind: full }
+  - { value: "希拉倫丁", kind: alternate }
+  - { value: "國楨", kind: alternate }
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1888"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The Chinese article and Wikidata give 1888; he was a Hui from Nanzheng in Shaanxi who moved to Shanghai with his father as a boy. No day and no Hijri pairing are attested, so no hijri key is carried; no museum place record exists for Nanzheng or Shanghai, so no born_in relation is written."
+  sources: [source/wikipedia-ha-decheng-zh, source/wikidata-ha-decheng]
+died:
+  edtf: "1943-10-25"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Chinese article and Wikidata give 25 October 1943; he died at Shadian in Yunnan, where he had gone in 1941 to help his student Ma Jian with the translation of the whole Qur'an and to teach at the Yangzheng Arabic college. No museum place record exists for Shadian, so no died_in relation is written. The Hijri year is derived by conversion."
+  sources: [source/wikipedia-ha-decheng-zh, source/wikidata-ha-decheng]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The only article, in Chinese, names no school, order or movement for him: it presents him as a leading ahong and an educator in Qur'anic studies, one of the four great ahongs of modern China, who taught himself Arabic, Persian, English and Urdu and translated the Qur'an. Wikidata carries no religion value at all. No school reading exists in any source: unknown."
+    sources: [source/wikipedia-ha-decheng-zh, source/wikidata-ha-decheng]
+relations:
+  - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-ha-decheng-zh] }
+external_ids: { wikidata: "Q30610941" }
+sources: [source/wikipedia-ha-decheng-zh, source/wikidata-ha-decheng]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "Chinese Wikipedia '哈德成' (revision 94697514 of 2 October 2026) and Wikidata item Q30610941 (item revision 2490092933 of 12 May 2026), fetched through the MediaWiki/Wikidata APIs on 27 October 2026, the article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the Chinese article's page properties; he has no English, Arabic or Urdu article. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q30610941, and no Arabic label is shared with any existing record, so no homonym entry is required. The traveled_to edge to place/mecca rests on the hajj of 1913 attested in the Chinese article. No founder_of edge is written for the Shanghai Islamic Normal School, which he co-founded in 1928 with Da Pusheng and others — the Chinese articles of both men attest the founding, and Da Pusheng's article adds Ma Fuxiang's chairmanship — because no group record for the school exists. No edge to Ma Jian is written here: their teacher–student edge is written once, in Ma Jian's own record, on this article's statement that Ma Jian was his student."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
