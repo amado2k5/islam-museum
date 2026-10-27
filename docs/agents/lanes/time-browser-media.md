@@ -28,3 +28,10 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   (98 image / 1,132 card), 10 map clusters, 267 cards. Founder rule change: generated
   SVGs are committed (not git-ignored) and publish to R2; .gitignore excepts
   site/public/media/time-browser/ only.
+- 2026-10-27 — H3 merged (historynavigator PR #2): client reads the real TB1 index
+  (topics map + raw records normalized in src/services/data.ts; fallback real feed ->
+  local /time-browser-data -> sample). public/time-browser-data/{ar,en,ur} carries the
+  TB1 staging output (206 records/lang). Schema deltas vs DESIGN section 3 reported to
+  Claude in DESIGN.md section 9: date is a bare EDTF string; no image/map/card/
+  perspectives fields yet; kids empty; index lacks generated/lang; place/concept/
+  practice/theme produced 0 records.
