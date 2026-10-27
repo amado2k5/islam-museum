@@ -1,0 +1,42 @@
+id: person/rania-al-abdullah
+class: person
+label: { ar: "رانيا العبد الله", en: "Rania Al-Abdullah", ur: "رانیا العبد اللہ" }
+names:
+  - { value: "رانيا فيصل صدقي الياسين", kind: full }
+  - { value: "Rania Al-Yassin", kind: alternate }
+gender: female
+summary:
+  ar: "رانيا العبد الله (وُلدت 31 أغسطس 1970) ملكة الأردن وعقيلة الملك عبد الله الثاني منذ 1999. وُلدت في الكويت باسم رانيا الياسين لأبوين أردنيين من أصل فلسطيني، ودرست إدارة الأعمال في الجامعة الأمريكية بالقاهرة وعملت في سيتي بنك ثم في أبل بعمّان قبل زواجها سنة 1993. أسّست مؤسسة نهر الأردن سنة 1995 قبل اعتلاء زوجها العرش، وعُرفت بعملها في التعليم وحماية الأطفال وتمكين المرأة، وبألّفت ثلاثة كتب للأطفال، وباستخدامها المبكر لوسائل التواصل للحديث عن صورة العرب والمسلمين في العالم."
+  en: "Rania Al-Abdullah (born 31 August 1970) is Queen of Jordan as the wife of King Abdullah II since 1999. Born in Kuwait as Rania Al-Yassin to Jordanian parents of Palestinian origin, she studied business administration at the American University in Cairo and worked for Citibank and then Apple in Amman before her marriage in 1993. She founded the Jordan River Foundation in 1995, before her husband's accession, and is known for her work in education, child protection and women's empowerment, for her three children's books, and for her early use of social media to address stereotypes of Arabs and Muslims."
+  ur: "رانیا العبد اللہ (پیدائش 31 اگست 1970ء) 1999ء سے اردن کی ملکہ اور بادشاہ عبد اللہ دوم کی اہلیہ ہیں۔ کویت میں رانیا الیاسین کے نام سے فلسطینی نژاد اردنی والدین کے ہاں پیدا ہوئیں، قاہرہ کی امریکن یونیورسٹی سے بزنس ایڈمنسٹریشن پڑھی اور 1993ء میں شادی سے قبل سٹی بینک اور اَیپل میں کام کیا۔ 1995ء میں جورڈن رِور فاؤنڈیشن قائم کی اور تعلیم، بچوں کے تحفظ اور خواتین کو بااختیار بنانے کے کام اور بچوں کی تین کتابوں کے لیے معروف ہیں۔"
+roles: [official, writer]
+born:
+  edtf: "1970-08-31"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Rania Al-Yassin in Kuwait City on 31 August 1970 (English and Arabic articles and Wikidata agree), the daughter of Faisal Sidqi Al-Yassin, a physician from Tulkarm, and Ilham Rasekh, from Nablus — Jordanian parents of Palestinian origin who had moved to Kuwait after the 1967 war. Kuwait City has no place entity in the museum, so no born_in relation is written. The Hijri year 1390 is the tabular conversion of the Gregorian date (derived: true); the sources give no independent Hijri date. Neither parent has a museum record, so no child_of relation is written."
+  sources: [source/wikipedia-rania-al-abdullah-en, source/wikipedia-rania-al-abdullah-ar, source/wikidata-rania-al-abdullah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names any school or branch for her. The English article's infobox religion field reads 'Islam' generically, Wikidata's religion value is Islam (Q432) only, the Arabic and Urdu articles carry no religion statement, and the Arabic categories file her as a Jordanian Muslim — a filing, which never attests. Her own widely quoted public statements describe Islam in general terms (she called it 'a religion of peace, tolerance and mercy' in a cited 2016 interview) without naming a school for herself. There is accordingly no school reading to record: the value is unknown not because two sources fell short but because no source attests a school at all, and her affiliation is not inferred from her husband's, whose own record likewise records no school for him. If a source naming her school is later found, this segment is where it belongs."
+    sources: [source/wikipedia-rania-al-abdullah-en, source/wikipedia-rania-al-abdullah-ar, source/wikipedia-rania-al-abdullah-ur, source/wikidata-rania-al-abdullah]
+relations:
+  - { type: spouse_of, target: person/abdullah-ii, sources: [source/wikipedia-rania-al-abdullah-en, source/wikipedia-rania-al-abdullah-ar, source/wikidata-rania-al-abdullah] }
+wings: [people, living]
+regions: [levant-iraq]
+external_ids: { wikidata: "Q200678" }
+sources:
+  - source/wikipedia-rania-al-abdullah-en
+  - source/wikipedia-rania-al-abdullah-ar
+  - source/wikipedia-rania-al-abdullah-ur
+  - source/wikidata-rania-al-abdullah
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Rania Al-Abdullah in English (revision 1381465122 of 22 Oct 2026), Arabic (revision 76850394 of 4 Oct 2026) and Urdu (revision 12150550 of 15 Oct 2026) and the Wikidata item Q200678 (item revision 2551982852 of 2 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of her existed (rania-awaad on file is a different woman). The spouse_of edge to person/abdullah-ii is written in her record, as the run brief directed; that record pre-exists and is untouched. Her English infobox pointedly carries no royal-house entry, so no member_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-87
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

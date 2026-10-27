@@ -1,0 +1,53 @@
+id: person/hussein-bin-talal
+class: person
+label: { ar: "الحسين بن طلال", en: "Hussein bin Talal", ur: "حسین بن طلال" }
+names:
+  - { value: "Hussein bin Talal al-Hashimi", kind: full }
+  - { value: "الحسين بن طلال بن عبد الله الأول الهاشمي", kind: full }
+gender: male
+summary:
+  ar: "الحسين بن طلال (14 نوفمبر 1935 – 7 فبراير 1999) ثالث ملوك المملكة الأردنية الهاشمية، حكم من 1952 حتى وفاته. وُلد في عمّان أكبر أبناء ولي العهد طلال، واعتلى العرش في السابعة عشرة بعد عزل والده لمرضه، فحكم بمجلس وصاية حتى بلوغه. خاض الأردن في عهده حروبًا مع إسرائيل وفقد الضفة الغربية سنة 1967، وطرد المسلحين الفلسطينيين في أيلول 1970، وفكّ الارتباط القانوني والإداري مع الضفة سنة 1988، وأعاد الانتخابات سنة 1989، وعُرف بوساطاته في المنطقة حتى غدت جنازته من أكبر تجمعات قادة العالم في عصره."
+  en: "Hussein bin Talal (14 November 1935 – 7 February 1999) was the third King of Jordan, reigning from 1952 until his death. Born in Amman, the eldest son of Crown Prince Talal, he was enthroned at seventeen after his father's deposition for illness, ruling under a regency until his majority. Under him Jordan fought wars with Israel and lost the West Bank in 1967, expelled Palestinian fighters in Black September 1970, renounced its claim to the West Bank in 1988 and restored elections in 1989; his mediation in the region made his funeral one of the largest gatherings of world leaders of its era."
+  ur: "حسین بن طلال (14 نومبر 1935ء – 7 فروری 1999ء) اردن کے تیسرے بادشاہ تھے اور 1952ء سے وفات تک حکمران رہے۔ عمان میں ولی عہد طلال کے بڑے بیٹے کے طور پر پیدا ہوئے اور والد کی بیماری کی بنا پر معزولی کے بعد سترہ برس کی عمر میں تخت نشین ہوئے۔ ان کے دور میں اردن نے اسرائیل سے جنگیں لڑیں، 1967ء میں مغربی کنارہ کھویا، 1970ء میں فلسطینی مسلح تنظیموں کو نکالا، 1988ء میں مغربی کنارے سے دستبرداری کی اور 1989ء میں انتخابات بحال ہوئے۔"
+roles: [ruler]
+born:
+  edtf: "1935-11-14"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Raghadan Palace in Amman on 14 November 1935 (English and Arabic articles and Wikidata agree), the eldest child of Crown Prince Talal bin Abdullah and Zein al-Sharaf bint Jamil. The Hijri year 1354 is the tabular conversion of the Gregorian date (derived: true); the sources give no independent Hijri date. His father has no museum record, so no child_of relation is written."
+  sources: [source/wikipedia-hussein-bin-talal-en, source/wikipedia-hussein-bin-talal-ar, source/wikidata-hussein-bin-talal]
+died:
+  edtf: "1999-02-07"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Amman on 7 February 1999 (English and Arabic articles and Wikidata agree), three days after returning from treatment for non-Hodgkin lymphoma at the Mayo Clinic, and was buried on 8 February 1999 at Raghadan Palace, Amman (English article infobox). The Hijri year 1419 is the tabular conversion of the Gregorian date (derived: true)."
+  sources: [source/wikipedia-hussein-bin-talal-en, source/wikipedia-hussein-bin-talal-ar, source/wikidata-hussein-bin-talal]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man himself; the English text's statement that the Hashemites descend from the Prophet's family is genealogy, not an affiliation attestation. FLAGGED for the founder: the Sunni reading rests on one structured family — the English article's infobox religion field reads 'Sunni Islam' and Wikidata's religion value is Sunni Islam (Q483654), an article and its item being one family — echoed only by filings (the English categories 'Sunni monarchs' and 'Jordanian Sunni Muslims', the Arabic category 'Jordanian Sunni Muslims'), which never attest; the Urdu stub's infobox gives Islam with no school, and the Arabic article carries no religion field. This is the structured-only configuration of the royal block (waves 83–86): one structured family cannot meet the two-independent-source bar. His headship of the Hashemite house and of the Jordanian state do not attest personal affiliation. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-hussein-bin-talal-en, source/wikipedia-hussein-bin-talal-ar, source/wikipedia-hussein-bin-talal-ur, source/wikidata-hussein-bin-talal]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/wikipedia-hussein-bin-talal-en, source/wikidata-hussein-bin-talal] }
+  - { type: died_in, target: place/amman, sources: [source/wikipedia-hussein-bin-talal-en, source/wikidata-hussein-bin-talal] }
+  - { type: buried_in, target: building/raghadan-palace, sources: [source/wikipedia-hussein-bin-talal-en] }
+wings: [people]
+regions: [levant-iraq]
+external_ids: { wikidata: "Q146906" }
+sources:
+  - source/wikipedia-hussein-bin-talal-en
+  - source/wikipedia-hussein-bin-talal-ar
+  - source/wikipedia-hussein-bin-talal-ur
+  - source/wikidata-hussein-bin-talal
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Hussein bin Talal in English (revision 1382123732 of 26 Oct 2026), Arabic (revision 76672845 of 22 Sep 2026) and Urdu (revision 9024354 of 11 Aug 2025) and the Wikidata item Q146906 (item revision 2557926257 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed; ali-bin-hussein-al-hashimi on file is his great-uncle, a different man. SUCCESSION VERIFIED against the articles, as the run brief required: parliament deposed his father Talal for illness and Hussein acceded on 11 August 1952, a regency council serving until his majority on 2 May 1953 — a regency is not an interim reign, and no other holder intervened. His father has no museum record, so no successor_of or child_of edge can be written. His successor Abdullah II has a record, but the successor_of edge belongs in the successor's own record and is not written from here. No Jordanian Hashemite group entity exists (banu-hashim is the wider clan and hashemite-dynasty-iraq is the Iraqi branch), so no member_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-87
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
