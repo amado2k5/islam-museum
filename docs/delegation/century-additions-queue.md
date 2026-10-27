@@ -496,11 +496,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gamal Abdel Nasser — 1918–1970
 - [x] Hosni Mubarak — 1928–2020
 - [x] Abdel Fattah el-Sisi — 1954–Living
-- [ ] Mohamed Morsi — 1951–2019
-- [ ] Boutros Boutros-Ghali (Contemporary UN Leader) — 1922–2016
-- [ ] Nabil Elaraby — 1935–2024
-- [ ] Amre Moussa — 1936–Living
-- [ ] Ahmed Asmat Abdel-Meguid — 1923–2013
+- [x] Mohamed Morsi — 1951–2019
+- [x] Boutros Boutros-Ghali (Contemporary UN Leader) — 1922–2016
+- [x] Nabil Elaraby — 1935–2024
+- [x] Amre Moussa — 1936–Living
+- [x] Ahmed Asmat Abdel-Meguid — 1923–2013
 - [ ] Habib Bourguiba — 1903–2000
 - [ ] Zine El Abidine Ben Ali — 1936–2019
 - [ ] Moncef Marzouki — 1945–Living

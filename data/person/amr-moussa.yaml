@@ -1,0 +1,44 @@
+id: person/amr-moussa
+class: person
+label: { ar: "عمرو موسى", en: "Amr Moussa", ur: "عمرو موسیٰ" }
+names:
+  - { value: "Amr Mouhammed Moussa Abu-Zeid", kind: full }
+  - { value: "عمرو موسى", kind: full }
+  - { value: "Amre Moussa", kind: alternate }
+  - { value: "Amr Musa", kind: alternate }
+gender: male
+summary:
+  ar: "عمرو موسى (وُلد 3 أكتوبر 1936)، دبلوماسي وسياسي مصري، كان سفير مصر لدى الأمم المتحدة ثم وزير خارجيتها عشر سنوات (1991–2001)، فالأمين العام السادس لجامعة الدول العربية (2001–2011). وبعد ثورة 2011 ترشح لانتخابات الرئاسة سنة 2012، وترأس لجنة الخمسين التي عدّلت الدستور سنة 2013، وما يزال يعمل من مكتبه في القاهرة."
+  en: "Amr Moussa (born 3 October 1936) is an Egyptian diplomat and politician who served as Egypt's ambassador to the United Nations and then as its foreign minister for ten years (1991–2001), and as the sixth Secretary-General of the Arab League (2001–2011). After the 2011 revolution he stood in the 2012 presidential election and chaired the Committee of Fifty that amended the constitution in 2013; he still works from his office in Cairo."
+  ur: "عمرو موسیٰ (پیدائش 3 اکتوبر 1936ء) مصری سفارت کار اور سیاست دان ہیں۔ وہ اقوام متحدہ میں مصر کے سفیر اور پھر دس سال وزیرِ خارجہ (1991ء–2001ء) رہے، اس کے بعد عرب لیگ کے چھٹے سیکرٹری جنرل (2001ء–2011ء) بنے۔ 2011ء کے انقلاب کے بعد وہ 2012ء کے صدارتی انتخاب میں امیدوار بنے اور 2013ء میں آئین میں ترمیم کرنے والی پچاس رکنی کمیٹی کی صدارت کی؛ وہ اب بھی قاہرہ میں اپنے دفتر سے کام کرتے ہیں۔"
+roles: [politician]
+born:
+  edtf: "1936-10-03"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Cairo on 3 October 1936; the English infobox and Wikidata agree, and the Arabic article's lead says he was born in Cairo and moved as a small child to the countryside in Gharbia. The Hijri year 1355 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-amr-moussa-en, source/wikipedia-amr-moussa-ar, source/wikidata-amr-moussa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither article's text names any religion for him, and the Arabic article's infobox carries a religion field that is left empty. FLAGGED for the founder: the only attestation anywhere is the Wikidata item's religion value, Islam in general (Q432) — a single structured value naming no school. One structured value never attests. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-amr-moussa-en, source/wikipedia-amr-moussa-ar, source/wikidata-amr-moussa]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-amr-moussa-en, source/wikipedia-amr-moussa-ar] }
+  - { type: successor_of, target: person/ahmed-asmat-abdel-meguid, sources: [source/wikipedia-amr-moussa-en] }
+wings: [people, living]
+regions: [egypt-nile]
+external_ids: { wikidata: "Q381113" }
+sources:
+  - source/wikipedia-amr-moussa-en
+  - source/wikipedia-amr-moussa-ar
+  - source/wikidata-amr-moussa
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Amr Moussa in English (revision 1378199939 of 3 Oct 2026) and Arabic (revision 76940225 of 10 Oct 2026) and the Wikidata item Q381113 (item revision 2558905649 of 19 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both agree on Q381113). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/ (the Moussa hits are other men — Salama Moussa, Moussa Traoré), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no Urdu sitelink); the Urdu prose is written from the English and Arabic articles and says so. The successor_of edge rests on the English article's infobox, which names Ahmed Abdel-Meguid as his predecessor in both offices he held after him — foreign minister (from 20 May 1991) and Secretary-General of the Arab League (from 1 June 2001) — a direct sequence in the articles for both. The museum has no group entity for the Arab League or the United Nations, so no member_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-90
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
