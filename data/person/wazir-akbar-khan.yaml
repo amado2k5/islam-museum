@@ -1,0 +1,51 @@
+id: person/wazir-akbar-khan
+class: person
+label:
+  ar: "وزير أكبر خان"
+  en: "Wazir Akbar Khan"
+  ur: "وزیر اکبر خان"
+summary:
+  ar: "أمير وجنرال من أسرة بركزاي، ابن الأمير دوست محمد خان؛ أمير كابل من ديسمبر 1842 إلى أبريل 1843، ووزير أبيه ووليه على العهد حتى وفاته. ذاع صيته في معركة جمرود سنة 1837، وقاد الحزب الوطني في كابل أثناء الحرب الإنجليزية الأفغانية الأولى، فأبادت قواته الجيش البريطاني الهندي المنسحب في يناير 1842. توفي بالكوليرا في جلال آباد سنة 1847."
+  en: "Barakzai prince and general, son of Emir Dost Mohammad Khan; Emir of Kabul from December 1842 to April 1843 and his father's vizier and heir apparent until his death. He won fame at the Battle of Jamrud in 1837 and led the Kabul national party in the First Anglo-Afghan War, whose forces destroyed the retreating British-Indian army in January 1842. He died of cholera at Jalalabad in 1847."
+  ur: "بارکزئی شہزادے اور جنرل، امیر دوست محمد خان کے بیٹے؛ دسمبر 1842ء سے اپریل 1843ء تک کابل کے امیر اور وفات تک والد کے وزیر اور ولی عہد۔ 1837ء میں جمرود کی جنگ سے شہرت پائی اور پہلی اینگلو افغان جنگ میں کابل کی قومی جماعت کی قیادت کی، جس کی افواج نے جنوری 1842ء میں پسپا ہوتی برطانوی ہندی فوج کو تباہ کر دیا۔ 1847ء میں جلال آباد میں ہیضے سے وفات پائی۔"
+names:
+  - { value: "Mohammad Akbar Khan Barakzai", kind: full }
+  - { value: "محمد أكبر خان", kind: full }
+  - { value: "Wazir Akbar Khan", kind: alternate }
+  - { value: "Amir Akbar Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1816-10-15"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The Urdu article gives his birth as 15 October 1816, and the English article's text, citing Dalrymple, and the Arabic article give the year 1816, while the English article's infobox gives 11 November 1817 at Mazar-i-Sharif. The 1816 tradition is followed — it is also the museum queue's year — and the infobox variant is recorded here. The place/mazar entity in this museum is a different, Andalusian town of a similar name, so no born_in relation is written. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-wazir-akbar-khan-en, source/wikipedia-wazir-akbar-khan-ar, source/wikipedia-wazir-akbar-khan-ur]
+died:
+  edtf: "1847-12-10"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died on 10 December 1847 at Jalalabad, of cholera, as the English article gives, and the Arabic article's text likewise says he died in 1847 of cholera; the Arabic and Urdu infoboxes nevertheless give the year 1845, and that variant is recorded here. He was buried at the Blue Mosque, the Shrine of Hazrat Ali, in Mazar-i-Sharif. No place entity exists for Jalalabad or for Mazar-i-Sharif, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-wazir-akbar-khan-en, source/wikipedia-wazir-akbar-khan-ar, source/wikipedia-wazir-akbar-khan-ur]
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only attestation naming a school for him is a single structured value: the English article's infobox gives his religion as Sunni Islam. The Arabic article's infobox gives Islam generically, naming no school; the Urdu article carries no religion field; and no article text names a religion or school for him personally. Under the two-source rule and the doubt rule the value therefore stays unknown, with the single infobox attestation preserved here."
+    sources: [source/wikipedia-wazir-akbar-khan-en, source/wikipedia-wazir-akbar-khan-ar, source/wikipedia-wazir-akbar-khan-ur]
+sources:
+  - source/wikipedia-wazir-akbar-khan-en
+  - source/wikipedia-wazir-akbar-khan-ar
+  - source/wikipedia-wazir-akbar-khan-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Wazir Akbar Khan (born Mohammad Akbar Khan), all read on 27 October 2026. The fetch route available to this writer exposed no revision ids or Wikidata identifiers, so every source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings and by biographical match (the QID-grep route could not be run). No relations are written in this record: the parent_of edge to him is carried in his father Dost Mohammad Khan's record, and his birth and burial places (Mazar-i-Sharif) and death place (Jalalabad) have no place entities. His faith is unknown FLAGGED on the single-structured-family configuration. No throne succession edges are written, the Barakzai sequence being dynastic office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-114

@@ -1,0 +1,51 @@
+id: person/mohammad-yaqub-khan
+class: person
+label:
+  ar: "محمد يعقوب خان"
+  en: "Mohammad Yaqub Khan"
+  ur: "محمد یعقوب خان"
+summary:
+  ar: "أمير أفغانستان لأشهر من سنة 1879 (21 فبراير - 12 أكتوبر)، ابن الأمير شير علي خان وحفيد دوست محمد خان. عُيّن واليا على هراة صغيرا، وتمرد على أبيه وسُجن، ثم خلفه في الإمارة أثناء الحرب الإنجليزية الأفغانية الثانية ووقّع معاهدة غاندماك التي منحت بريطانيا السيطرة على العلاقات الخارجية الأفغانية، وتنازل بعد قتل المبعوث البريطاني كافانياري، ونُفي إلى الهند وبقي فيها حتى وفاته سنة 1923."
+  en: "Emir of Afghanistan for a few months of 1879 (21 February – 12 October), a son of Emir Sher Ali Khan and a grandson of Dost Mohammad Khan. Appointed governor of Herat as a young man, he rebelled against his father and was imprisoned; he succeeded him during the Second Anglo-Afghan War and signed the Treaty of Gandamak, which gave Britain control of Afghan foreign relations; after the killing of the British envoy Cavagnari he abdicated, was exiled to India, and remained there until his death in 1923."
+  ur: "افغانستان کے امیر 1879ء کے چند مہینوں کے لیے (21 فروری – 12 اکتوبر)، امیر شیر علی خان کے بیٹے اور دوست محمد خان کے پوتے۔ کم عمری میں ہرات کے گورنر مقرر ہوئے، والد کے خلاف بغاوت کی اور قید ہوئے؛ دوسری اینگلو افغان جنگ کے دوران والد کے جانشین بنے اور گندمک کا معاہدہ کیا جس سے افغانستان کے خارجہ تعلقات کا اختیار برطانیہ کو مل گیا؛ برطانوی ایلچی کاواگنری کے قتل کے بعد دستبردار ہوئے، ہندوستان جلاوطن کیے گئے اور 1923ء میں وفات تک وہیں رہے۔"
+names:
+  - { value: "Mohammad Yaqub Khan Barakzai", kind: full }
+  - { value: "محمد يعقوب خان", kind: full }
+  - { value: "Yakub Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1849"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1849; no source gives a day or month. The English article's infobox places his birth at the Citadel of Ghazni, while the Urdu article gives Kabul; the two conflict, so no born_in relation is written and the split is recorded here. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur]
+died:
+  edtf: "1923-11-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 15 November 1923 in exile in India; the English article gives Shimla as the place of death and the Urdu article Delhi, so no died_in relation is written and the split is recorded here. The Urdu article gives his burial at Kabul. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur]
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: buried_in, target: place/kabul, sources: [source/wikipedia-mohammad-yaqub-khan-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or a school for him at all. Neither the English nor the Urdu article carries a religion value in its infobox, and no text in either names his faith; the English article records his style Commander of the Faithful among his titles, which is a title of office, and his Barakzai descent and his headship of a Muslim state are lineage and office, not attestations of a school. On the absence configuration the value is unknown, unflagged."
+    sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur]
+sources:
+  - source/wikipedia-mohammad-yaqub-khan-en
+  - source/wikipedia-mohammad-yaqub-khan-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia articles on Mohammad Yaqub Khan, both read on 27 October 2026. The fetch route available to this writer exposed no revision ids or Wikidata identifiers, so every source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings (Yaqub/Yakub) and by biographical match, the QID-grep route being runnable only for the companion §B figure Shuja Shah Durrani. Both articles name Sher Ali Khan as his father — he is Dost Mohammad Khan's grandson, not his son — so no child_of edge is written (lane convention) and the parent_of edge to this record belongs in Sher Ali Khan's already-merged record (the wave 114 Sher Ali precedent); it is flagged for the committer in the writer's report. No witness names a religion or school for him, so his faith is unknown on the absence configuration. No throne succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115

@@ -1,0 +1,57 @@
+id: person/sher-ali-khan
+class: person
+label:
+  ar: "شير علي خان"
+  en: "Sher Ali Khan"
+  ur: "شیر علی خان"
+summary:
+  ar: "أمير أفغانستان مرتين (1863-1866 و1868-1879)، أحد أبناء دوست محمد خان مؤسس أسرة بركزاي. ورث الإمارة عن أبيه سنة 1863 ثم خسرها لأخيه محمد أفضل خان في حرب أهلية واستعادها سنة 1868. حاول إصلاح الإدارة والجيش، وأنشأ أول خدمة بريدية وأول مدرسة في أفغانستان، وسعى لحفظ الحياد بين بريطانيا وروسيا حتى انتهى رفضه بعثة بريطانية دائمة إلى الحرب الإنجليزية الأفغانية الثانية، فمات في مزار شريف سنة 1879 وهو في طريقه لطلب العون الروسي."
+  en: "Emir of Afghanistan twice (1863–1866 and 1868–1879), a son of Dost Mohammad Khan, founder of the Barakzai dynasty. He inherited the emirate from his father in 1863, lost it to his brother Mohammad Afzal Khan in a civil war, and regained it in 1868. He tried to reform the administration and the army, created Afghanistan's first postal service and first school, and sought neutrality between Britain and Russia until his refusal of a permanent British mission brought on the Second Anglo-Afghan War; he died at Mazar-e Sharif in 1879 on his way to seek Russian aid."
+  ur: "افغانستان کے دو مرتبہ امیر (1863ء–1866ء اور 1868ء–1879ء)، بارکزئی خاندان کے بانی دوست محمد خان کے ایک بیٹے۔ 1863ء میں والد سے امارت ورثے میں پائی، خانہ جنگی میں بھائی محمد افضل خان سے ہارے اور 1868ء میں دوبارہ حاصل کی۔ انتظام اور فوج کی اصلاح کی کوشش کی، افغانستان کی پہلی ڈاک سروس اور پہلا اسکول قائم کیا اور برطانیہ و روس کے درمیان غیر جانبداری چاہی، حتیٰ کہ مستقل برطانوی مشن سے انکار دوسری اینگلو افغان جنگ کا سبب بنا؛ 1879ء میں روسی مدد حاصل کرنے جاتے ہوئے مزار شریف میں وفات پائی۔"
+names:
+  - { value: "Sher Ali Khan Barakzai", kind: full }
+  - { value: "شېر علي خان", kind: full }
+  - { value: "شیر علی خان بارکزی", kind: full }
+  - { value: "Shir Ali Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1825"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born about 1825 at Kabul, a son of Dost Mohammad Khan and Bibi Khadija Begum, as the English article gives; only the year is documented. Wikidata carries the same year and a second, stray year value of 1823, recorded here and not followed. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-sher-ali-khan-en, source/wikipedia-sher-ali-khan-ar, source/wikidata-sher-ali-khan]
+died:
+  edtf: "1879-02-21"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 21 February 1879 at Mazar-e Sharif, having left Kabul to seek Russian political and military aid during the Second Anglo-Afghan War, as the English article gives; he was buried at the Blue Mosque in Mazar-i-Sharif. Wikidata gives his place of death as Kabul, against the article's narrative; the article is followed and the conflict recorded here. No place entity exists for Mazar-e Sharif, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-sher-ali-khan-en, source/wikipedia-sher-ali-khan-ar, source/wikidata-sher-ali-khan]
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-sher-ali-khan-en] }
+  - { type: parent_of, target: person/mohammad-ayub-khan, sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar] }
+  - { type: parent_of, target: person/mohammad-yaqub-khan, sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only attestation naming a school for him is a single structured value: the English article's infobox gives his religion as Sunni Islam. The Arabic article's infobox religion field is empty and its text names no religion; Wikidata carries no religion value; and no article text names a religion or school for him personally. His coronation in the Great Mosque of Herat, his style Commander of the Faithful and his headship of a Muslim state are rite, title and office, not attestations of a school. Under the two-source rule and the doubt rule the value therefore stays unknown, with the single infobox attestation preserved here."
+    sources: [source/wikipedia-sher-ali-khan-en, source/wikipedia-sher-ali-khan-ar, source/wikidata-sher-ali-khan]
+external_ids: { wikidata: "Q40427" }
+sources:
+  - source/wikipedia-sher-ali-khan-en
+  - source/wikipedia-sher-ali-khan-ar
+  - source/wikipedia-sher-ali-khan-ur
+  - source/wikidata-sher-ali-khan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Sher Ali Khan and his Wikidata item Q40427 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026; the sole religion attestation is the English infobox's Sunni Islam value, with the Arabic infobox field empty and Wikidata carrying no religion value, so his faith is unknown FLAGGED on the single-structured-family configuration. No child_of edge to Dost Mohammad Khan is written: no person entity for him exists yet (queue line 1528). No throne succession edges are written, the Barakzai sequence being dynastic office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-113

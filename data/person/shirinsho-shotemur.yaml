@@ -1,0 +1,45 @@
+id: person/shirinsho-shotemur
+class: person
+label: { ar: "شيرينشو شوتمور", en: "Shirinsho Shotemur", ur: "شیرینشو شوتمور" }
+summary:
+  ar: "سياسي طاجيكي سوفيتي (1899–1937)، ومن مؤسسي طاجيكستان السوفيتية؛ كان من أطلق قيام جمهورية طاجيكستان الاشتراكية السوفيتية ذاتية الحكم سنة 1924 وانفصال جمهورية طاجيكستان الاشتراكية السوفيتية عن جمهورية أوزبكستان سنة 1929، ورئيس اللجنة التنفيذية المركزية لجمهورية طاجيكستان من سنة 1933؛ أُعدم في موسكو في التطهير الكبير، وأُعيد اعتباره سنة 1956، وسُمّي بطل طاجيكستان بعد وفاته سنة 2006."
+  en: "Tajik Soviet politician (1899–1937) and one of the founders of Soviet Tajikistan: a Communist Party official from 1921, he was a main initiator of the Tajik ASSR in 1924 and of the Tajik SSR's separation from the Uzbek SSR in 1929, and chairman of the Central Executive Committee of the Tajik SSR from 1933; executed in Moscow in the Great Purge, rehabilitated in 1956 and posthumously named a Hero of Tajikistan in 2006."
+  ur: "تاجک سوویت سیاست دان (1899ء–1937ء) اور سوویت تاجکستان کے بانیوں میں سے ایک؛ 1921ء سے کمیونسٹ پارٹی کے عہدے دار، وہ 1924ء میں تاجک خودمختار سوویت اشتراکی جمہوریہ کے قیام اور 1929ء میں تاجک سوویت اشتراکی جمہوریہ کی ازبک جمہوریہ سے علیحدگی کے اہم محرک تھے، اور 1933ء سے تاجک جمہوریہ کی مرکزی ایگزیکٹو کمیٹی کے چیئرمین رہے؛ عظیم تطہیر میں ماسکو میں پھانسی دی گئی، 1956ء میں بحالِ عزت ہوئے اور 2006ء میں بعد از مرگ تاجکستان کے ہیرو قرار پائے۔"
+names:
+  - { value: "Shirinsho Shotemur", kind: full }
+  - { value: "Шириншоҳ Шоҳтемур", kind: full }
+  - { value: "Шириншо Шотемор", kind: full }
+  - { value: "Shirinshah Shahtimur", kind: alternate }
+  - { value: "Shirinsho Shotemor", kind: alternate }
+roles: [politician]
+tags: [great-purge]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1899-12-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English Wikipedia article gives 1 December 1899 in the Shughnon District of the Emirate of Bukhara, to a poor farmer family; the Great Soviet Encyclopedia entry on him specifies the kishlak of Parshnev in the same district. No place entity exists for Shughnon or Parshnev, so no born_in relation is written. No Hijri pairing is sourced for this date, so the hijri key is omitted rather than computed (this block's standing practice)."
+  sources: [source/wikipedia-shirinsho-shotemur-en]
+died:
+  edtf: "1937-10-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The article gives his arrest in Moscow in 1937 on a charge of participation in an anti-Soviet nationalist organisation, his death sentence by the Military Collegium of the Supreme Court of the USSR and his execution on 27 October 1937, with posthumous rehabilitation in 1956. No place entity exists for Moscow, so no died_in relation is written, and the article names no burial place. No Hijri pairing is sourced for this date, so the hijri key is omitted."
+  sources: [source/wikipedia-shirinsho-shotemur-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No religious affiliation is recorded for Shotemur in the article: it carries no religion field and its text names no faith for him personally. It presents him as a Pamiri, that is, a man of the Pamir districts — a community and geographic background that does not attest a personal affiliation — and it records his Communist Party membership from 1921 and his Soviet offices; party membership and office never attest personal faith, and Soviet-era office does not engage the atheist bar (the gabiev and buynaksky precedent). With no source naming a school or affiliation for him personally, his affiliation stands unclassified (doubt rule)."
+    sources: [source/wikipedia-shirinsho-shotemur-en]
+sources: [source/wikipedia-shirinsho-shotemur-en]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 112 §B of the century-additions queue (line 1516, 'Shirinsho Shotemur (1899–1937)') from the English Wikipedia article named in the sources list, read in full on 27 October 2026 through the browser search/open route. IDENTITY: pinned by biography to the Tajik Soviet politician of that name, born 1 December 1899 in Shughnon District, a founder of Soviet Tajikistan, executed 27 October 1937; the name-variant spellings (Shirinshah Shahtimur, Shirinsho Shotemor) are the same man per the article's own lead. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers and no Wikidata item for this article, so the source is recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented, and the grounded-QID existence route could not be run for the same reason. Existence checked before building by name-fragment greps (shotemur, shahtemur, shotemor, shote-) across all of data/person/ — no record for him; the fragment hits were near-names for other people only. No relations are written: no place entity exists for Shughnon, Parshnev or Moscow, and his wife Alexandra Kiselyova has no person entity. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-112
+status: { review: published }

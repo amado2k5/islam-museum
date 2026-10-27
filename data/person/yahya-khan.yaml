@@ -1,0 +1,54 @@
+id: person/yahya-khan
+class: person
+label:
+  ar: "يحيى خان"
+  en: "Yahya Khan"
+  ur: "یحییٰ خان"
+summary:
+  ar: "جنرال باكستاني (1917–1980) تولى رئاسة باكستان ثالثا من 1969 إلى 1971 في ظل الأحكام العرفية، وكان القائد العام للجيش الباكستاني من 1966 إلى 1971. أدى رفضه تسليم السلطة لرابطة عوامي الفائزة في انتخابات 1970 إلى حرب أهلية في باكستان الشرقية وقيام بنغلاديش، فاستقال بعدها وظل قيد الإقامة الجبرية حتى 1977."
+  en: "Pakistani general (1917–1980) who served as the third president of Pakistan from 1969 to 1971 under martial law, and as commander-in-chief of the Pakistan Army from 1966 to 1971. His refusal to transfer power to the Awami League, which had won the 1970 election, led to civil war in East Pakistan and the creation of Bangladesh, after which he resigned and remained under house arrest until 1977."
+  ur: "پاکستانی جرنیل (1917ء–1980ء) جو 1969ء سے 1971ء تک مارشل لا کے تحت پاکستان کے تیسرے صدر اور 1966ء سے 1971ء تک پاک فوج کے کمانڈر ان چیف رہے۔ 1970ء کے انتخابات میں کامیاب عوامی لیگ کو اقتدار منتقل کرنے سے ان کے انکار کے نتیجے میں مشرقی پاکستان میں خانہ جنگی اور بنگلہ دیش کا قیام ہوا، جس کے بعد انھوں نے استعفیٰ دیا اور 1977ء تک نظر بند رہے۔"
+names:
+  - { value: "Agha Muhammad Yahya Khan", kind: full }
+  - { value: "آغا محمد يحيى خان", kind: full }
+  - { value: "آغا محمد یحییٰ خان", kind: full }
+gender: male
+born:
+  edtf: "1917-02-04"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 4 February 1917 at Chakwal, Punjab, British India, as the English, Arabic and Urdu articles and Wikidata give. The Arabic article's lead dates his life 1336–1400 AH; the Hijri year recorded here is the Arabic article's 1336 (tabular conversion of the Gregorian date gives 1335, within the accepted tolerance). Chakwal has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-yahya-khan-en, source/wikipedia-yahya-khan-ar, source/wikipedia-yahya-khan-ur, source/wikidata-yahya-khan]
+died:
+  edtf: "1980-08-10"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 10 August 1980 at Rawalpindi and was buried at Peshawar, as all three articles and Wikidata give; the Arabic article's 1400 AH matches the derived conversion. Neither Rawalpindi nor Peshawar has a place entity in the museum yet, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-yahya-khan-en, source/wikipedia-yahya-khan-ar, source/wikipedia-yahya-khan-ur, source/wikidata-yahya-khan]
+roles: [general, politician]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: one source family attests 'Shia' and no second source does. The English article's Personal life has a Religion subsection stating 'He was nominally a Shia Muslim', and the same article quotes Srinath Raghavan (1971: A Global History of the Creation of Bangladesh, Harvard University Press, 2013, p. 24) that Yahya 'was a Shia in the predominantly Sunni officer corps' — two statements inside one article, hence one family, attesting 'Shia' without naming a branch. The Arabic article's infobox gives Islam generically and its category list files him among Pakistani Shias, but a category filing is not an attestation; the Urdu article's infobox likewise gives Islam and its text records only his Qizilbash family origin, which never counts; Wikidata gives Islam (Q432) generically. The founder's Shia-mapping rule requires two independent sources attesting 'Shia', so the value stays unknown; a ruling accepting the English article's attestation would settle shia-twelver with basis documented under that mapping, his Pakistani and Qizilbash context supporting the branch."
+    sources: [source/wikipedia-yahya-khan-en, source/wikipedia-yahya-khan-ar, source/wikipedia-yahya-khan-ur, source/wikidata-yahya-khan]
+external_ids: { wikidata: "Q333981" }
+sources:
+  - source/wikipedia-yahya-khan-en
+  - source/wikipedia-yahya-khan-ar
+  - source/wikipedia-yahya-khan-ur
+  - source/wikidata-yahya-khan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 115 §A of the century-additions queue (queue line 632, 'Yahya Khan — 1917–1980', verified against the queue copy in the fix clone) from the English Wikipedia article 'Yahya Khan' (revision 1381464917 of 22 October 2026), the Arabic article «يحيى خان» (revision 76382498 of 30 August 2026), the Urdu article «یحییٰ خان» (revision 9406519 of 15 February 2026) and Wikidata Q333981, each read on 27 October 2026 and each checked against its recorded revision. IDENTITY: pinned by biography to Agha Muhammad Yahya Khan, born at Chakwal on 4 February 1917, army commander-in-chief 1966–1971 and third president of Pakistan; no other bearer of the name fits, and the many classical Yahya records in the museum are different people. EXISTENCE: checked three ways before building — name-fragment greps (yahya-khan, yahya) across data/person/ returned no file for him; his Wikidata QID Q333981, grounded through the English, Arabic and Urdu articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — the English article alone attests 'Shia' (see the faith note); a founder ruling is needed before the Shia-mapping rule can be applied. RELATIONS: none written, because Chakwal, Rawalpindi and Peshawar have no museum place entities; all presidential and army-command successions are refused by lane rule."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115

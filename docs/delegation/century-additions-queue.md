@@ -596,44 +596,44 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdul Qadeer Khan — 1936–2021
 - [x] Riazuddin — 1930–2013
 - [x] Pervez Hoodbhoy — 1950–Living
-- [ ] Nergis Mavalvala — 1968–Living
-- [ ] Dr. Tasneem Zehra Husain — 1980–Living
-- [ ] Dr. Burçin Mutlu-Pakdil — 1986–Living
-- [ ] Cahit Arf — 1910–1997
-- [ ] Feza Gürsey — 1921–1992
+- [x] Nergis Mavalvala — 1968–Living
+- [x] Dr. Tasneem Zehra Husain — 1980–Living
+- [x] Dr. Burçin Mutlu-Pakdil — 1986–Living
+- [x] Cahit Arf — 1910–1997
+- [x] Feza Gürsey — 1921–1992
 - [ ] Edalji Dinshaw (Contemporary Figure) — 1900–1970
-- [ ] Muhammed Zafar Iqbal — 1952–Living
-- [ ] Jamilur Reza Choudhury — 1943–2020
-- [ ] Maqsudul Alam — 1954–2014
-- [ ] Kazi Zafarullah — 1947–Living
-- [ ] Sheikh Mujibur Rahman — 1920–1975
-- [ ] Sheikh Hasina — 1947–Living
-- [ ] Khaleda Zia — 1945–Living
-- [ ] Tajuddin Ahmad — 1925–1975
-- [ ] Ziaur Rahman — 1936–1981
-- [ ] Hussain Muhammad Ershad — 1930–2019
-- [ ] Shahabuddin Ahmed — 1930–2022
-- [ ] Iajuddin Ahmed — 1931–2012
-- [ ] Abdul Hamid — 1944–Living
-- [ ] Mohammed Shahabuddin — 1949–Living
-- [ ] Dr. Kamal Hossain — 1937–Living
+- [x] Muhammed Zafar Iqbal — 1952–Living
+- [x] Jamilur Reza Choudhury — 1943–2020
+- [x] Maqsudul Alam — 1954–2014
+- [x] Kazi Zafarullah — 1947–Living
+- [x] Sheikh Mujibur Rahman — 1920–1975
+- [x] Sheikh Hasina — 1947–Living
+- [x] Khaleda Zia — 1945–Living
+- [x] Tajuddin Ahmad — 1925–1975
+- [x] Ziaur Rahman — 1936–1981
+- [x] Hussain Muhammad Ershad — 1930–2019
+- [x] Shahabuddin Ahmed — 1930–2022
+- [x] Iajuddin Ahmed — 1931–2012
+- [x] Abdul Hamid — 1944–Living
+- [x] Mohammed Shahabuddin — 1949–Living
+- [x] Dr. Kamal Hossain — 1937–Living
 - [x] Sir Khawaja Nazimuddin — 1894–1964
 - [x] Huseyn Shaheed Suhrawardy — 1892–1963
 - [x] A. K. Fazlul Huq — 1873–1962
-- [ ] Maulana Bhashani — 1880–1976
+- [x] Maulana Bhashani — 1880–1976
 - [x] Liaquat Ali Khan — 1895–1951
 - [ ] Muhammad Ali Jinnah — 1876–1948
-- [ ] Fatima Jinnah — 1893–1967
+- [x] Fatima Jinnah — 1893–1967
 - [x] Khawaja Nazimuddin — 1894–1964
-- [ ] Malik Feroz Khan Noon — 1893–1970
-- [ ] Ibrahim Ismail Chundrigar — 1897–1960
-- [ ] Chaudhry Muhammad Ali — 1905–1982
-- [ ] Ayub Khan — 1907–1974
-- [ ] Yahya Khan — 1917–1980
-- [ ] Zulfikar Ali Bhutto — 1928–1979
-- [ ] Muhammad Zia-ul-Haq — 1924–1988
-- [ ] Shehbaz Sharif — 1951–Living
-- [ ] Asif Ali Zardari — 1955–Living
+- [x] Malik Feroz Khan Noon — 1893–1970
+- [x] Ibrahim Ismail Chundrigar — 1897–1960
+- [x] Chaudhry Muhammad Ali — 1905–1982
+- [x] Ayub Khan — 1907–1974
+- [x] Yahya Khan — 1917–1980
+- [x] Zulfikar Ali Bhutto — 1928–1979
+- [x] Muhammad Zia-ul-Haq — 1924–1988
+- [x] Shehbaz Sharif — 1951–Living
+- [x] Asif Ali Zardari — 1955–Living
 - [ ] Shahid Khaqan Abbasi — 1958–Living
 - [ ] Raja Pervaiz Ashraf — 1950–Living
 - [ ] Yousaf Raza Gillani — 1952–Living
@@ -1502,42 +1502,42 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ahmed-bek Tsalikov (1882–1928)
 - [x] Ayaz Ishaki (1878–1954)
 - [x] Abdullah Tukay (1886–1913)
-- [ ] Galiaskar Kamal (1879–1933)
-- [ ] Majit Gafuri (1880–1934)
-- [ ] Zeki Validi Togan (1890–1970)
-- [ ] Shaikhzada Babich (1895–1919)
+- [x] Galiaskar Kamal (1879–1933)
+- [x] Majit Gafuri (1880–1934)
+- [x] Zeki Validi Togan (1890–1970)
+- [x] Shaikhzada Babich (1895–1919)
 - [x] Mirjaqip Dulatuli (1885–1935)
-- [ ] Saken Seifullin (1894–1938)
-- [ ] Turar Ryskulov (1894–1938)
-- [ ] Sultanbek Khodzhanov (1894–1938)
-- [ ] Fayzulla Khodjayev (1896–1938)
-- [ ] Akmal Ikramov (1898–1938)
-- [ ] Abdullo Rakhimbayev (1896–1938)
-- [ ] Shirinsho Shotemur (1899–1937)
-- [ ] Nusratullo Maksum (1899–1937)
+- [x] Saken Seifullin (1894–1938)
+- [x] Turar Ryskulov (1894–1938)
+- [x] Sultanbek Khodzhanov (1894–1938)
+- [x] Fayzulla Khodjayev (1896–1938)
+- [x] Akmal Ikramov (1898–1938)
+- [x] Abdullo Rakhimbayev (1896–1938)
+- [x] Shirinsho Shotemur (1899–1937)
+- [x] Nusratullo Maksum (1899–1937)
 - [ ] Abdurrahim Hatif (1880–1940)
-- [ ] Berdi Kerbabayev (1894–1974)
+- [x] Berdi Kerbabayev (1894–1974)
 - [ ] Sultan Sanjar's Memory Preservers (1850–1920)
 - [ ] Magtymguly Pyragy Keepers (1820–1920)
 - [ ] Derya Kılıç (Central Asia) (1870–1930)
-- [ ] Emir Habibullah Khan (1872–1919)
-- [ ] King Amanullah Khan (1892–1960)
-- [ ] Queen Soraya Tarzi (1899–1968)
-- [ ] Mahmud Tarzi (1865–1933)
-- [ ] Sher Ali Khan (1825–1879)
-- [ ] Dost Mohammad Khan (1793–1863)
-- [ ] Ayub Khan (1857–1914)
-- [ ] Malalai of Maiwand (1861–1880)
-- [ ] Wazir Akbar Khan (1816–1847)
-- [ ] Prince Nasrullah Khan (1874–1920)
+- [x] Emir Habibullah Khan (1872–1919)
+- [x] King Amanullah Khan (1892–1960)
+- [x] Queen Soraya Tarzi (1899–1968)
+- [x] Mahmud Tarzi (1865–1933)
+- [x] Sher Ali Khan (1825–1879)
+- [x] Dost Mohammad Khan (1793–1863)
+- [x] Ayub Khan (1857–1914)
+- [x] Malalai of Maiwand (1861–1880)
+- [x] Wazir Akbar Khan (1816–1847)
+- [x] Prince Nasrullah Khan (1874–1920)
 - [ ] Abdul Qader Bedil Keepers (1830–1910)
 - [ ] Sayyid Ali at-Tirmidhi (Pirs) (1820–1890)
 - [ ] Ustad Ahmad Lahori Descendants (1820–1890)
-- [ ] Shah Shujah Durrani (1785–1842)
-- [ ] Mohammad Yaqub Khan (1849–1923)
-- [ ] Ghulam Muhammad Tarzi (1830–1900)
-- [ ] Ustad Ghulam Hossein (1870–1950)
-- [ ] Mir Masjidi Khan (1800–1841)
+- [x] Shah Shujah Durrani (1785–1842)
+- [x] Mohammad Yaqub Khan (1849–1923)
+- [x] Ghulam Muhammad Tarzi (1830–1900)
+- [x] Ustad Ghulam Hossein (1870–1950)
+- [x] Mir Masjidi Khan (1800–1841)
 - [ ] Kohandil Khan (1793–1855)
 - [ ] Mulla Mushk-i-Alam (1790–1886)
 - [ ] Ghazi Saheb of Hadda (1825–1902)

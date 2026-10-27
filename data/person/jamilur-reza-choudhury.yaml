@@ -1,0 +1,50 @@
+id: person/jamilur-reza-choudhury
+class: person
+label: { ar: "جاميلور رضا تشودري", en: "Jamilur Reza Choudhury", ur: "جمیل الرضا چودھری" }
+names:
+  - { value: "Jamilur Reza Choudhury", kind: full }
+  - { value: "জামিলুর রেজা চৌধুরী", kind: full }
+  - { value: "جاميلور رضا تشودري", kind: full }
+  - { value: "جمیل الرضا چودھری", kind: full }
+  - { value: "Jamilur Reza Chowdhury", kind: alternate }
+gender: male
+summary:
+  ar: "مهندس مدني وأكاديمي بنغلاديشي، وُلد في سيلهيت سنة 1943 وتوفي في دكا سنة 2020. أستاذ الهندسة الإنشائية في جامعة بنغلاديش للهندسة والتكنولوجيا لعقود، وأول نائب رئيس لجامعة براك، ونائب رئيس جامعة آسيا والمحيط الهادئ حتى وفاته، ومستشار في حكومة تصريف الأعمال سنة 1996، ونال لقب الأستاذ الوطني سنة 2018."
+  en: "Bangladeshi civil engineer and academic, born in Sylhet in 1943 and died in Dhaka in 2020. A professor of structural engineering at BUET for decades, he was the first vice-chancellor of BRAC University and vice-chancellor of the University of Asia Pacific until his death, served as an adviser to the 1996 caretaker government, and was named a National Professor in 2018."
+  ur: "بنگلہ دیشی سول انجینئر اور ماہر تعلیم، جو 1943ء میں سلہٹ میں پیدا ہوئے اور 2020ء میں ڈھاکہ میں وفات پائے۔ وہ کئی دہائیوں تک بویٹ میں اسٹرکچرل انجینئرنگ کے پروفیسر رہے، براک یونیورسٹی کے پہلے وائس چانسلر اور یونیورسٹی آف ایشیا پیسیفک کے وائس چانسلر رہے، 1996ء میں نگران حکومت کے مشیر بنے، اور 2018ء میں انہیں قومی پروفیسر کا خطاب ملا۔"
+roles: [engineer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1943-11-15"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 15 November 1943 at Sylhet, then in Assam Province, British India: the English Wikipedia infobox and its early-life text both give 1943, and Banglapedia agrees. The same article's lead instead prints 15 November 1942 — an internal conflict, disclosed here; 1943 is carried, as the queue also gives. Sylhet has no place entity, so no born_in edge is written. The Hijri year 1362 is derived from the Gregorian date."
+  sources: [source/wikipedia-jamilur-reza-choudhury-en]
+died:
+  edtf: "2020-04-28"
+  hijri: "1441"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 28 April 2020 at his home in Dhanmondi, Dhaka, following a heart attack, per the English Wikipedia article citing the Dhaka Tribune. The Hijri year 1441 is derived from the Gregorian date."
+  sources: [source/wikipedia-jamilur-reza-choudhury-en]
+relations:
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-jamilur-reza-choudhury-en] }
+  - { type: lived_in, target: place/dhaka, sources: [source/wikipedia-jamilur-reza-choudhury-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, unflagged — absence: the English Wikipedia article read for this record contains no religion field and no statement of his own affiliation. Its only religion word concerns his father, described as the first Muslim to graduate from Bengal Engineering and Science University in 1929 — a statement about his father's distinction and his family's background, and family background never counts toward a person's own affiliation. Attendance at a Catholic school (St Gregory's High School, Dhaka) is schooling, not affiliation."
+    sources: [source/wikipedia-jamilur-reza-choudhury-en]
+sources: [source/wikipedia-jamilur-reza-choudhury-en]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 111 §A of the century-additions queue from the English Wikipedia article named in the sources list, read in full on 27 October 2026 through the browser search/open route; Banglapedia's entry was also read through search results and agrees on the 1943 birth year. ENVIRONMENT LIMITATION: that route exposes no revision identifiers and no Wikidata item for this article, so the source is recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented, and the grounded-QID existence route could not be run for the same reason. Existence checked before building by name-fragment greps (jamilur, choudhury) across all of data/person/ — no record for him; the near-name files (hamza-choudhury, zafrullah-chowdhury) are different people. Two relations are written, both to place/dhaka, which exists: died_in (he died at his home in Dhanmondi, Dhaka) and lived_in (his family moved to Dhaka in 1952 and his career at BUET, BRAC University and the University of Asia Pacific was in Dhaka). Sylhet has no place entity, so no born_in edge is written. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-111
+status: { review: published }

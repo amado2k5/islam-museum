@@ -1,0 +1,60 @@
+id: person/zulfikar-ali-bhutto
+class: person
+label:
+  ar: "ذو الفقار علي بوتو"
+  en: "Zulfikar Ali Bhutto"
+  ur: "ذوالفقار علی بھٹو"
+summary:
+  ar: "محامٍ ورجل دولة باكستاني (1928–1979)، مؤسس حزب الشعب الباكستاني، تولى رئاسة باكستان (1971–1973) ثم رئاسة الوزراء (1973–1977) في ظل دستور 1973. أطاح به انقلاب الجنرال ضياء الحق سنة 1977، وحُوكم بتهمة الإذن بقتل معارض سياسي وأُعدم سنة 1979، وهي محاكمة أعلنت المحكمة العليا الباكستانية لاحقا أنها لم تكن عادلة."
+  en: "Pakistani barrister and statesman (1928–1979), founder of the Pakistan People's Party, who served as president of Pakistan (1971–1973) and then as prime minister (1973–1977) under the 1973 constitution. He was deposed in General Zia-ul-Haq's 1977 coup, tried for authorising the murder of a political opponent and executed in 1979 — a trial Pakistan's Supreme Court later declared unfair."
+  ur: "پاکستانی وکیل اور سیاست دان (1928ء–1979ء)، پاکستان پیپلز پارٹی کے بانی، جو صدرِ پاکستان (1971ء–1973ء) اور پھر 1973ء کے آئین کے تحت وزیرِ اعظم (1973ء–1977ء) رہے۔ 1977ء میں جنرل ضیاء الحق کی بغاوت میں معزول ہوئے، ایک سیاسی مخالف کے قتل کی اجازت کے الزام میں مقدمہ چلا اور 1979ء میں پھانسی دی گئی — اس مقدمے کو بعد میں سپریم کورٹ آف پاکستان نے غیر منصفانہ قرار دیا۔"
+names:
+  - { value: "Zulfikar Ali Bhutto", kind: full }
+  - { value: "ذو الفقار علي بوتو", kind: full }
+  - { value: "ذوالفقار علی بھٹو", kind: full }
+  - { value: "Quaid-e-Awam", kind: laqab }
+  - { value: "قائد العوام", kind: laqab }
+gender: male
+born:
+  edtf: "1928-01-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 5 January 1928 at Ratodero near Larkana, Sindh: the English article's infobox gives Ratodero and its text, the Arabic and Urdu articles and Wikidata give Larkana. No source read gives a Hijri pairing for the date, so none is recorded. Neither Ratodero nor Larkana has a place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-zulfikar-ali-bhutto-en, source/wikipedia-zulfikar-ali-bhutto-ar, source/wikipedia-zulfikar-ali-bhutto-ur, source/wikidata-zulfikar-ali-bhutto]
+died:
+  edtf: "1979-04-04"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Executed by hanging on 4 April 1979 at the District Jail, Rawalpindi, after conviction for authorising the murder of political opponent Nawab Muhammad Ahmad Khan Kasuri; buried in the Bhutto family mausoleum at Garhi Khuda Bakhsh. Pakistan's Supreme Court later declared the trial unfair, as all three articles record. No source read gives a Hijri pairing, so none is recorded. Neither Rawalpindi nor Garhi Khuda Bakhsh has a place entity in the museum yet, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-zulfikar-ali-bhutto-en, source/wikipedia-zulfikar-ali-bhutto-ar, source/wikipedia-zulfikar-ali-bhutto-ur, source/wikidata-zulfikar-ali-bhutto]
+roles: [politician, writer]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (contested): the attestations point three ways and no two independent sources name the same school. The English article on his daughter Benazir states that she, 'like her father, professed an adherence to Sufism' — one text attestation, in another person's article. The Arabic article's infobox gives his religion as 'Islam, and Shia' and Wikidata likewise carries Islam and Shia Islam (Q9585), but these are structured values, and the Arabic article is a declared translation-family article, so together they are one structured family, not two sources. The Urdu article files him in Shia categories only, and category filings never attest. His own English article names no religion for him at all, and the daughter's article describes the family as Sunni Muslims of Sindhi and Kurdish origin — a statement about his family, which never counts. Under the two-source rule and the doubt rule the value stays unknown, with all three readings preserved here."
+    sources: [source/wikipedia-zulfikar-ali-bhutto-en, source/wikipedia-zulfikar-ali-bhutto-ar, source/wikipedia-zulfikar-ali-bhutto-ur, source/wikidata-zulfikar-ali-bhutto, source/wikipedia-benazir-bhutto-en]
+relations:
+  - type: parent_of
+    target: person/benazir-bhutto
+    note: "His daughter Benazir Bhutto, twice prime minister of Pakistan; the English article's text and infobox (children: Benazir, Murtaza, Sanam, Shahnawaz) and the Arabic article's family fields attest the relation. Written once, here in the father's record, by lane convention."
+    sources: [source/wikipedia-zulfikar-ali-bhutto-en, source/wikipedia-zulfikar-ali-bhutto-ar]
+external_ids: { wikidata: "Q131355" }
+sources:
+  - source/wikipedia-zulfikar-ali-bhutto-en
+  - source/wikipedia-zulfikar-ali-bhutto-ar
+  - source/wikipedia-zulfikar-ali-bhutto-ur
+  - source/wikidata-zulfikar-ali-bhutto
+  - source/wikipedia-benazir-bhutto-en
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 115 §A of the century-additions queue (queue line 633, 'Zulfikar Ali Bhutto — 1928–1979', verified against the queue copy in the fix clone) from the English Wikipedia article 'Zulfikar Ali Bhutto' (revision 1380182091 of 14 October 2026), the Arabic article «ذو الفقار علي بوتو» (revision 76473409 of 8 September 2026), the Urdu article read at its resolved title «ذو الفقار علی بھٹو» (revision 11588401 of 16 July 2026; the spelling «ذوالفقار علی بھٹو» is a redirect) and Wikidata Q131355, each read on 27 October 2026 and each checked against its recorded revision; the existing English article on his daughter Benazir Bhutto was also read for its statement about his Sufi adherence. IDENTITY: pinned by biography to the PPP founder born 5 January 1928 and executed 4 April 1979; no other bearer of the name fits. EXISTENCE: checked three ways before building — name-fragment greps (bhutto) across data/person/ returned only his daughter's record; his Wikidata QID Q131355, grounded through the articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. His daughter's record (person/benazir-bhutto) already exists and is untouched. FAITH: unknown FLAGGED (contested) — Sufi-adherence text in his daughter's article, Shia structured values in the Arabic infobox and Wikidata, Sunni family framing; see the faith note. RELATIONS: one parent_of to Benazir Bhutto, written here; Ratodero, Larkana, Rawalpindi and Garhi Khuda Bakhsh have no museum place entities, so no place relations are written; all office successions are refused by lane rule."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115
