@@ -1,0 +1,55 @@
+id: person/wang-jingzhai
+class: person
+label:
+  ar: "وانغ جينغ تشاي"
+  en: "Wang Jingzhai"
+  ur: "وانگ جنگژائی"
+summary:
+  ar: "عالم مسلم صيني من تيانجين (1880–1949)، من كبار الأئمة «الأهونغ» في جمهورية الصين وأحد «الأئمة الأربعة الكبار» في الصين الحديثة؛ درس في الجامع الأزهر وحجّ سنة 1923، وأصدر مجلة «إي غوانغ» اثني عشر عامًا، وترجم القرآن الكريم كاملًا إلى الصينية في ثلاث صيغ متعاقبة."
+  en: "Chinese Muslim scholar from Tianjin (1880–1949), a leading ahong of the Republic of China and one of the four great ahongs of modern China. He studied at al-Azhar and performed the hajj in 1923, published the journal Yi Guang for twelve years, and translated the whole Qur'an into Chinese in three successive versions."
+  ur: "تیانجن سے تعلق رکھنے والے ایک چینی مسلمان عالم (1880ء–1949ء)، جمہوریہ چین کے ممتاز آہونگ اور جدید چین کے چار بڑے آہونگوں میں سے ایک؛ انہوں نے جامعہ ازہر میں تعلیم حاصل کی اور 1923ء میں حج کیا، بارہ سال تک رسالہ «ای گوانگ» جاری کیا، اور قرآن مجید کا مکمل چینی ترجمہ تین مسلسل صورتوں میں پیش کیا۔"
+names:
+  - { value: "王靜齋", kind: full }
+  - { value: "王静斋", kind: full }
+  - { value: "Wang Jingzhai", kind: full }
+  - { value: "Wang Chin-tsai", kind: alternate }
+  - { value: "Wang Wenqing", kind: alternate }
+  - { value: "賽爾德·伊利亞斯", kind: alternate }
+gender: male
+roles: [scholar, teacher, writer]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1880-03-12"
+  hijri: "1297"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Chinese article gives 12 March 1880 — the second day of the second lunar month of the Guangxu reign's sixth year — consistent with its statement that he died in 1949 aged seventy by Chinese reckoning; the English and Urdu articles and Wikidata give 1879, year only. The Chinese reading, from the fullest biography, is followed at day precision and the conflict is recorded here. He was born at Tianjin, beside the North Great Mosque, into a family of ahongs; no museum place record exists for Tianjin, so no born_in relation is written. The Hijri year is derived by conversion from the followed reading."
+  sources: [source/wikipedia-wang-jingzhai-zh, source/wikipedia-wang-jingzhai-en, source/wikipedia-wang-jingzhai-ur, source/wikidata-wang-jingzhai]
+died:
+  edtf: "1949-05-25"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Chinese article gives 25 May 1949: he fell ill at Guiyang on his way back from serving as ahong of the Taipei mosque and died there, and was buried in the Hui cemetery at Baihua Mountain outside Guiyang. The English and Urdu articles and Wikidata give the year only. No museum place record exists for Guiyang, so no died_in or buried_in relation is written. The Hijri year is derived by conversion."
+  sources: [source/wikipedia-wang-jingzhai-zh, source/wikidata-wang-jingzhai]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text names a school, order or movement affiliation for him. The Chinese article describes his reform programme — 'following scripture and reforming customs' — his 1933 advocacy of that reform at Tianjin's Sanyizhuang Mosque, the 1934 campaign in which conservative opponents branded his party the 'new practice' and drove his allies from their mosque, and the influence of the Islamic reformist thought he absorbed in Egypt; it nowhere names a movement or school as his affiliation, and advocacy of a reform programme is not one. The English and Urdu articles name no school either. Wikidata's religion value is Sunni Islam (Q483654), a single structured value: one source family, which does not meet the two-text bar. Unknown, with the Sunni reading preserved here."
+    sources: [source/wikipedia-wang-jingzhai-zh, source/wikipedia-wang-jingzhai-en, source/wikipedia-wang-jingzhai-ur, source/wikidata-wang-jingzhai]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-wang-jingzhai-zh, source/wikipedia-wang-jingzhai-en] }
+  - { type: traveled_to, target: place/mecca, sources: [source/wikipedia-wang-jingzhai-zh, source/wikipedia-wang-jingzhai-en] }
+external_ids: { wikidata: "Q1240846" }
+sources: [source/wikipedia-wang-jingzhai-en, source/wikipedia-wang-jingzhai-zh, source/wikipedia-wang-jingzhai-ur, source/wikidata-wang-jingzhai]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Wang Jingzhai' (revision 1286967538 of 23 April 2025), Chinese Wikipedia '王靜齋' (revision 94707739 of 2 October 2026), Urdu Wikipedia 'وانگ جنگژائی' (revision 9962505 of 20 April 2026) and Wikidata item Q1240846 (item revision 2554063659 of 6 October 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese and Urdu articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q1240846, and no Arabic label is shared with any existing record, so no homonym entry is required. The lived_in edge to place/cairo is scoped to his study residence of 1922–1924 at al-Azhar, attested by the Chinese article; the English article likewise has him attend al-Azhar, though it places the attendance after his hajj where the Chinese itinerary places the hajj in the autumn of 1923, between two periods of study. The traveled_to edge to place/mecca rests on that hajj. No student_of edges are written: his teachers — his father Wang Lanting, Yu Mianzhai and the other ahongs named in the Chinese article — have no museum records. The claim in Ma Linyi's English article that Ma Linyi and Ma Fuxiang sponsored his hajj in 1921 is contradicted by this article's itinerary (departure 1922, four named sponsors, hajj autumn 1923) and is written as an edge in neither record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99

@@ -1,0 +1,50 @@
+id: person/ma-linyi
+class: person
+label:
+  ar: "ما ليني"
+  en: "Ma Linyi"
+  ur: "ما ليني"
+summary:
+  ar: "مربٍّ وسياسي مسلم صيني من باوتشينغ في خونان (1864–1938)، من علماء الهوي في الإسلام؛ تولّى إدارة التعليم في قانسو سنة 1912 وأسّس سنة 1918 جمعية تعزيز التعليم الإسلامي في عاصمتها، كما تولّى إدارة التعليم في آنهوي وجلي، وكان نائبًا لوزير التعليم في بكين."
+  en: "Chinese Muslim educator and politician from Baoqing, Hunan (1864–1938), a Hui scholar of Islam. He took charge of education in Gansu in 1912 and in 1918 founded the Association for the Promoting of Islamic Teaching in its capital; he also headed education in Anhui and Zhili and served as vice-minister of education in Beijing."
+  ur: "باؤ چھنگ، ہونان سے تعلق رکھنے والے ایک چینی مسلمان ماہرِ تعلیم اور سیاست دان (1864ء–1938ء)، جو ہوئی مسلم عالم تھے؛ وہ 1912ء میں گانسو کے تعلیمی سربراہ بنے اور 1918ء میں اس کے دار الحکومت میں اسلامی تعلیم کے فروغ کی انجمن قائم کی، آنہوئی اور ژلی کے تعلیمی سربراہ بھی رہے اور بیجنگ میں نائب وزیرِ تعلیم کے منصب پر فائز ہوئے۔"
+names:
+  - { value: "馬鄰翼", kind: full }
+  - { value: "马邻翼", kind: full }
+  - { value: "Ma Linyi", kind: full }
+  - { value: "振吾", kind: alternate }
+  - { value: "振五", kind: alternate }
+gender: male
+roles: [scholar, teacher, politician]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1864"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Chinese articles both give 1864, and the Chinese article places his birth at Baoqing in Hunan; Wikidata carries two year values, 1864 and 1865, of which the articles' 1864 is followed. The queue's 1886 is supported by no source. No day and no Hijri pairing are attested, so no hijri key is carried; no museum place record exists for Baoqing, so no born_in relation is written."
+  sources: [source/wikipedia-ma-linyi-en, source/wikipedia-ma-linyi-zh, source/wikidata-ma-linyi]
+died:
+  edtf: "1938-09-17"
+  hijri: "1357"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Chinese article and Wikidata give 17 September 1938; the English article gives the year only, and the Arabic article's date range misprints the death year as 1838. No source names a place of death, so no died_in relation is written. The Hijri year is derived by conversion."
+  sources: [source/wikipedia-ma-linyi-zh, source/wikidata-ma-linyi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school, order or movement for him. The English article calls him a Chinese Muslim politician, the Chinese article a Hui educator and Islamic scholar, and the Arabic article, a translation of the English, a Chinese Muslim; Wikidata's religion value is Islam in general (Q432). Hui identity and an Islamic-studies career are not the attestation of a school: unknown."
+    sources: [source/wikipedia-ma-linyi-en, source/wikipedia-ma-linyi-zh, source/wikipedia-ma-linyi-ar, source/wikidata-ma-linyi]
+external_ids: { wikidata: "Q15402255" }
+sources: [source/wikipedia-ma-linyi-en, source/wikipedia-ma-linyi-zh, source/wikipedia-ma-linyi-ar, source/wikidata-ma-linyi]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Linyi' (revision 1344335759 of 19 March 2026), Chinese Wikipedia '马邻翼' (revision 94036958 of 25 August 2026), Arabic Wikipedia 'ما ليني' (revision 74677554 of 22 May 2026 — a translation of the English article, one family with it) and Wikidata item Q15402255 (item revision 2494056825 of 18 May 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese and Arabic articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q15402255, and no Arabic label is shared with any existing record, so no homonym entry is required. No patron_of edge to Wang Jingzhai is written: the English article, and its Arabic translation, say that Ma Linyi and Ma Fuxiang sponsored Wang Jingzhai's hajj in 1921, but Wang's own Chinese article dates his journey to 1922–1923, names four different sponsors, and puts his hajj in the autumn of 1923; the claim is contradicted in detail and is reported in the prose only. His appointment of Da Pusheng to direct the Gansu Hui education office, attested in Da Pusheng's Chinese article, has no predicate in the registry."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
