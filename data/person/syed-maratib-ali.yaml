@@ -1,0 +1,46 @@
+id: person/syed-maratib-ali
+class: person
+label: { ar: "سيد مراتب علي", en: "Syed Maratib Ali", ur: "سید مراتب علی" }
+names:
+  - { value: "Syed Maratib Ali", kind: full }
+  - { value: "سید مراتب علی", kind: full }
+  - { value: "سيد مراتب علي", kind: full }
+  - { value: "Sir Syed Maratib Ali", kind: alternate }
+gender: male
+summary:
+  ar: "تاجر وصاحب أعمال لاهوري (1882–1961)، واصل عمل أبيه سيد وزير علي في تموين أفواج الجيش الهندي البريطاني ومتاجر المدينة المسوّرة، واستثمر في أراضي البنجاب، وكان بيته أصل ثروة أبنائه المشاهير: سيد أمجد علي وزير مالية باكستان وسفيرها، وسيد واجد علي رائد التلفزيون فيها، وسيد بابر علي مؤسس جامعة لاهور للإدارة."
+  en: "Lahore businessman and army contractor (1882–1961) who carried on his father Syed Wazir Ali's firm supplying regiments of the British Indian Army, kept shops in the Walled City of Lahore and invested in Punjab land; his house was the foundation of the careers of his famous sons: Syed Amjad Ali, Pakistan's finance minister and ambassador, Syed Wajid Ali, a pioneer of its television, and Syed Babar Ali, founder of the Lahore University of Management Sciences."
+  ur: "لاہور کے تاجر و ٹھیکیدار (1882ء–1961ء) جنہوں نے اپنے والد سید وزیر علی کا کاروبار آگے بڑھایا: برطانوی ہندی فوج کی رجمنٹوں کو رسد کی فراہمی، لاہور کے اندرون شہر میں دکانیں اور پنجاب میں زمینوں کی خرید؛ انہی کے گھرانے سے ان کے مشہور بیٹے آئے: سید امجد علی، پاکستان کے وزیر خزانہ و سفیر، سید واجد علی، ٹیلی وژن کے بانیوں میں سے، اور سید بابر علی، لاہور یونیورسٹی آف مینجمنٹ سائنسز کے بانی۔"
+roles: [merchant]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1882"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year only: the official website of his son Syed Babar Ali's autobiography heads its family page 'Syed Maratib Ali 1882-1961 (Father)'. No consulted source gives a day or month, and no Hijri pairing is offered by any source, so no hijri key is recorded. His birthplace is not stated in any consulted source."
+  sources: [source/learningfromothers-syed-babar-ali-biography]
+died:
+  edtf: "1961"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year only, from the same autobiography website heading (1882–1961). No consulted source gives a day, month or place of death, and no Hijri pairing is offered by any source, so no hijri key is recorded."
+  sources: [source/learningfromothers-syed-babar-ali-biography]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-syed-babar-ali-en, source/learningfromothers-syed-babar-ali-biography] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for Syed Maratib Ali personally. The only religious description anywhere in the material is in his son Syed Babar Ali's English article, which, citing a 2018 Pakistan Today profile, says of Babar Ali that 'His family practices Shia Islam' — a statement about the family's practice, carried by one source family, about the family and not about Maratib Ali himself. Family background never counts, and the Shia-mapping rule requires two sources attesting the person; neither condition is met, so the value stays unknown and the reading is flagged for the founder."
+    sources: [source/wikipedia-syed-babar-ali-en]
+sources: [source/wikipedia-syed-babar-ali-en, source/wikipedia-syed-wajid-ali-en, source/learningfromothers-syed-babar-ali-biography, source/wikipedia-syed-amjad-ali-en, source/wikipedia-mitchells-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Syed Babar Ali' (revision 1379567386) and 'Syed Wajid Ali' (revision 1378869901), the already-defined source English Wikipedia 'Syed Amjad Ali' (revision 1348408869), and the biography page of learningfromothers.org, the official website of Syed Babar Ali's autobiography, read in full on 27 October 2026; article revisions were fetched by revision id through the MediaWiki API with the returned ids asserted equal. Identity: Syed Maratib Ali has NO Wikipedia article of his own in any language (the English title is a redirect to the Mitchell's company article) and NO Wikidata item (Wikidata entity search under Latin and Arabic-script forms returns nothing, and his sons' items carry no father value), so the record is built from his three sons' English articles and the family autobiography site, which agree on the man: a Lahore provisions contractor to the British Indian Army, father of Amjad, Wajid, Babar and Azfal Ali and six daughters. The queue's years (1882–1961) are confirmed exactly by the autobiography site, the only source that dates him. Existence checks by name fragments (maratib, مراتب) across data/person in Latin and Arabic scripts, and by biography, found no prior record: the only file naming him is his son's record, person/syed-amjad-ali, built in wave 89, whose provenance already anticipated this record. Relations written: lived_in Lahore only. No child_of edge is written in this record (edges sit in the child's record): the child_of edge for his eldest son was added to person/syed-amjad-ali in this same run, now that this record exists; his sons Wajid and Babar have no museum records, and his father Syed Wazir Ali has none. His birthplace and death place are unattested, so no born_in or died_in edge is written. The Mitchell's article's statement that Francis Mitchell sold him a majority of the company's shares in 1958 is carried there with a citation-needed tag and is reported in the prose as such."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-90
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

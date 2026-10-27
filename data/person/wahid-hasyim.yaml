@@ -1,0 +1,49 @@
+id: person/wahid-hasyim
+class: person
+label: { ar: "عبد الوحيد هاشم", en: "Wahid Hasyim", ur: "عبد الواحد ہاشم" }
+names:
+  - { value: "Abdul Wahid Hasyim", kind: full }
+  - { value: "Wahid Hasyim", kind: alternate }
+  - { value: "Abdul Wahid Hasjim", kind: alternate }
+  - { value: "عبد الوحيد هاشم", kind: full }
+gender: male
+summary:
+  ar: "عالم وسياسي إندونيسي (1914–1953)، أكبر أبناء هاشم أشعري مؤسس نهضة العلماء، تعلّم في مدارس جاوة الشرعية وحجّ سنة 1932، وصار أول وزير للشؤون الدينية في إندونيسيا سنة 1945 ثم من 1949 إلى 1952، وقاد نهضة العلماء في سنواته الأخيرة، وتوفي في حادث سير سنة 1953؛ وهو والد الرئيس الإندونيسي الرابع عبد الرحمن وحيد."
+  en: "Indonesian ulama and politician (1914–1953), the eldest son of Hasyim Asy'ari, founder of Nahdlatul Ulama. Educated in East Java's pesantrens and on a Hajj study stay in Mecca in 1932–33, he became Indonesia's first Minister of Religious Affairs in 1945 and again from 1949 to 1952, led Nahdlatul Ulama in his final years, and died in a road accident in 1953; he was the father of Indonesia's fourth president, Abdurrahman Wahid."
+  ur: "انڈونیشی عالم و سیاست دان (1914ء–1953ء)، نهضۃ العلماء کے بانی ہاشم اشعری کے بڑے بیٹے؛ مشرقی جاوا کے مدارس میں تعلیم پائی اور 1932ء میں حج و مطالعے کے لیے مکہ گئے، 1945ء میں انڈونیشیا کے پہلے وزیر مذہبی امور بنے اور 1949ء سے 1952ء تک دوبارہ اس عہدے پر رہے، آخری برسوں میں نهضۃ العلماء کی قیادت کی، اور 1953ء میں ایک سڑک حادثے میں وفات پائی؛ وہ انڈونیشیا کے چوتھے صدر عبد الرحمن وحید کے والد تھے۔"
+roles: [scholar, politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1914-06-01"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Jombang, East Java, on 1 June 1914: the English and Indonesian articles, the Arabic stub and Wikidata agree. The Hijri year 1332 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikipedia-wahid-hasyim-ar, source/wikidata-wahid-hasyim]
+died:
+  edtf: "1953-04-19"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 19 April 1953, of injuries from a traffic collision the previous day at Cimindi, Cimahi, West Java: the English and Indonesian articles and Wikidata agree. The Hijri year 1372 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikidata-wahid-hasyim]
+relations:
+  - { type: child_of, target: person/hasyim-asyari, sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikipedia-wahid-hasyim-ar, source/wikidata-wahid-hasyim] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for him. What the sources give is formation and office: a pesantren education at Tebuireng, Siwalan and Lirboyo and a study stay in Mecca (formation, which never counts), membership of Nahdlatul Ulama's executive board and its general chairmanship in 1951–1953, and the Ministry of Religious Affairs (offices, which never count). Wikidata gives Islam in general (Q432) with no school. The value stays unknown, unflagged."
+    sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikidata-wahid-hasyim]
+external_ids: { wikidata: "Q981398" }
+sources: [source/wikipedia-wahid-hasyim-en, source/wikipedia-wahid-hasyim-id, source/wikipedia-wahid-hasyim-ar, source/wikidata-wahid-hasyim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Wahid Hasyim' (revision 1373623089), Indonesian Wikipedia 'Abdul Wahid Hasyim' (revision 30090244), Arabic Wikipedia 'وحيد هاشم' (revision 61658726) and Wikidata item Q981398 (item revision 2546054691), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the item was read twice with identical content, and the QID was grounded through the Indonesian article's page properties. Identity: the queue line's bearer is Indonesia's first Minister of Religious Affairs (1914–1953), as all four sources agree, matching the queue's years exactly. Existence checks by name fragments (wahid-hasyim, وحيد هاشم) across data/person, by QID and by biography found no prior record for him; his father's record person/hasyim-asyari exists and names the family. Relations written: child_of Hasyim Asy'ari in this, the child's, record — attested by all three articles, and the item's father value (Q4202200) is the same QID that person/hasyim-asyari carries. His ministerial and Nahdlatul Ulama successions are portfolio successions and are recorded in the prose only, under this block's practice; the men concerned have no records. No born_in or died_in edge is written: Jombang and Cimahi have no place entities. No member_of edge is written: Nahdlatul Ulama has no group entity. His wife Sholichah and his children, among them Abdurrahman Wahid, have no person records, so no spouse_of or parent edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-90
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/siti-walidah
+class: person
+label: { ar: "سيتي والدة", en: "Siti Walidah", ur: "سیتی والدہ" }
+names:
+  - { value: "Siti Walidah", kind: full }
+  - { value: "Nyai Ahmad Dahlan", kind: alternate }
+  - { value: "سيتي والدة", kind: full }
+  - { value: "نیائی احمد دہلان", kind: alternate }
+gender: female
+summary:
+  ar: "رائدة تحرير المرأة الإندونيسية (1872–1946)، المشهورة بنياي أحمد دحلان، زوجة مؤسس المحمدية أحمد دحلان وابنة قاضٍ وعالم من بلاط يوجياكارتا؛ أسست مجموعة صوبو تريسنو سنة 1914 ثم جمعية العائشية النسائية في 22 نيسان 1917 وقادتها حتى 1934، وترأست مؤتمر المحمدية سنة 1926 كأول امرأة تترأس مؤتمرًا كهذا، وأُعلنت بطلة قومية سنة 1971."
+  en: "Indonesian women's emancipation figure (1872–1946), better known as Nyai Ahmad Dahlan: wife of Muhammadiyah's founder Ahmad Dahlan and daughter of a Yogyakarta court ulama. She founded the Sopo Tresno prayer group in 1914 and the women's organisation Aisyiyah on 22 April 1917, led Aisyiyah until 1934, chaired the Muhammadiyah Congress of 1926 as the first woman to chair such a conference, and was declared a National Hero of Indonesia in 1971."
+  ur: "انڈونیشیا کی خواتین کی آزادی کی رہنما (1872ء–1946ء)، نیائی احمد دہلان کے نام سے مشہور؛ محمدیہ کے بانی احمد دہلان کی اہلیہ اور یوگیاکارتا کے درباری عالم کی بیٹی۔ انہوں نے 1914ء میں سوپو تریسنو کی جماعت اور 22 اپریل 1917ء کو خواتین کی تنظیم عائشیہ کی بنیاد رکھی، 1934ء تک اس کی قیادت کی، 1926ء میں محمدیہ کانگریس کی صدارت کرنے والی پہلی خاتون بنیں، اور 1971ء میں انہیں انڈونیشیا کی قومی ہیرو قرار دیا گیا۔"
+roles: [activist, teacher]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1872-01-03"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Kauman, Yogyakarta, on 3 January 1872: the Indonesian article and Wikidata give the day date; the English article gives the year 1872 only. The Hijri year 1288 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah]
+died:
+  edtf: "1946-05-31"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Kauman, Yogyakarta, on 31 May 1946: the English and Indonesian articles and Wikidata agree; she was buried the same day behind the Great Mosque of Kauman. The Hijri year 1365 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah]
+relations:
+  - { type: spouse_of, target: person/ahmad-dahlan, sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Her school is not recorded: no consulted source names a school for her. What the sources give is Islam in general: the Indonesian infobox's religion field reads Islam (cited to Republika, 2008) and Wikidata gives Islam in general (Q432). Her life's work stood inside Muhammadiyah — she founded and led its women's organisation Aisyiyah — which is organisational affiliation and never counts as a personal school attestation. The value stays unknown, unflagged."
+    sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah]
+external_ids: { wikidata: "Q7070803" }
+sources: [source/wikipedia-siti-walidah-en, source/wikipedia-siti-walidah-id, source/wikidata-siti-walidah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nyai Ahmad Dahlan' (revision 1362649139), Indonesian Wikipedia 'Siti Walidah' (revision 29880195) and Wikidata item Q7070803 (item revision 2561133232), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the item was read twice with identical content, and the QID was grounded through the Indonesian article's page properties. Identity: the queue line's bearer, given in the queue under both her names 'Siti Walidah (Nyai Ahmad Dahlan) (1872–1946)', is the founder of Aisyiyah and wife of Ahmad Dahlan; the articles and the item agree on 1872–1946, the queue's years. Existence checks by name fragments (walidah, والدة) across data/person, by QID and by biography found no prior record. Relations written: spouse_of Ahmad Dahlan in this, her own, record — the marriage is attested by both articles, and the item's spouse value (Q4695300) is the same QID that person/ahmad-dahlan carries, so the edge is grounded at both ends. A founder_of edge for Aisyiyah is not written because no group entity for Aisyiyah exists; neither does one for Muhammadiyah. No born_in, died_in or buried_in edge is written: Kauman and Yogyakarta have no place entities, and the Great Mosque of Kauman has no building entity, although both articles place her birth, death and burial there."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-90
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
