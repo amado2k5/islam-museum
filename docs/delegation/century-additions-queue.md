@@ -602,10 +602,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Cahit Arf — 1910–1997
 - [x] Feza Gürsey — 1921–1992
 - [ ] Edalji Dinshaw (Contemporary Figure) — 1900–1970
-- [ ] Muhammed Zafar Iqbal — 1952–Living
-- [ ] Jamilur Reza Choudhury — 1943–2020
-- [ ] Maqsudul Alam — 1954–2014
-- [ ] Kazi Zafarullah — 1947–Living
+- [x] Muhammed Zafar Iqbal — 1952–Living
+- [x] Jamilur Reza Choudhury — 1943–2020
+- [x] Maqsudul Alam — 1954–2014
+- [x] Kazi Zafarullah — 1947–Living
 - [ ] Sheikh Mujibur Rahman — 1920–1975
 - [ ] Sheikh Hasina — 1947–Living
 - [ ] Khaleda Zia — 1945–Living
