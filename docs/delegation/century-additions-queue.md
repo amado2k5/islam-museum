@@ -606,11 +606,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Jamilur Reza Choudhury — 1943–2020
 - [x] Maqsudul Alam — 1954–2014
 - [x] Kazi Zafarullah — 1947–Living
-- [ ] Sheikh Mujibur Rahman — 1920–1975
-- [ ] Sheikh Hasina — 1947–Living
-- [ ] Khaleda Zia — 1945–Living
-- [ ] Tajuddin Ahmad — 1925–1975
-- [ ] Ziaur Rahman — 1936–1981
+- [x] Sheikh Mujibur Rahman — 1920–1975
+- [x] Sheikh Hasina — 1947–Living
+- [x] Khaleda Zia — 1945–Living
+- [x] Tajuddin Ahmad — 1925–1975
+- [x] Ziaur Rahman — 1936–1981
 - [ ] Hussain Muhammad Ershad — 1930–2019
 - [ ] Shahabuddin Ahmed — 1930–2022
 - [ ] Iajuddin Ahmed — 1931–2012

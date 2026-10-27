@@ -1,0 +1,50 @@
+id: person/tajuddin-ahmad
+class: person
+label: { ar: "تاج الدين أحمد", en: "Tajuddin Ahmad", ur: "تاج الدین احمد" }
+names:
+  - { value: "Tajuddin Ahmad", kind: full }
+  - { value: "তাজউদ্দীন আহমদ", kind: full }
+  - { value: "تاج الدين أحمد", kind: full }
+  - { value: "تاج الدین احمد", kind: full }
+  - { value: "Tajuddin Ahmad Khan", kind: alternate }
+  - { value: "Bangataj", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي بنغلاديشي (23 يوليو 1925 – 3 نوفمبر 1975)، أول رئيس وزراء لبنغلاديش. صاغ المسودة الأولى للنقاط الست، وقاد الحكومة المؤقتة في المنفى أثناء حرب التحرير سنة 1971 بينما كان الشيخ مجيب الرحمن سجينًا، ثم تولى وزارة المالية والتخطيط من 1972 إلى 1974 في حكومة مجيب، واستقال، فاعتُقل بعد اغتيال مجيب سنة 1975 واغتيل داخل سجن دكا المركزي مع ثلاثة من قادة رابطة عوامي."
+  en: "Bangladeshi politician (23 July 1925 – 3 November 1975), the first prime minister of Bangladesh. He drafted the first version of the Six Points, led the provisional government in exile during the 1971 Liberation War while Sheikh Mujibur Rahman was imprisoned, then served as minister of finance and planning from 1972 to 1974 in Mujib's cabinet and resigned, and after Mujib's assassination in 1975 was arrested and assassinated inside Dhaka Central Jail with three other Awami League leaders."
+  ur: "بنگلہ دیشی سیاست دان (23 جولائی 1925ء – 3 نومبر 1975ء)، بنگلہ دیش کے پہلے وزیر اعظم۔ انھوں نے چھ نکات کا پہلا مسودہ تیار کیا، 1971ء کی جنگ آزادی کے دوران شیخ مجیب الرحمان کی قید میں عبوری حکومت کی جلا وطنی میں قیادت کی، پھر 1972ء سے 1974ء تک مجیب کی کابینہ میں وزیر خزانہ و منصوبہ بندی رہے اور استعفیٰ دیا، اور 1975ء میں مجیب کے قتل کے بعد گرفتار ہوئے اور ڈھاکہ مرکزی جیل کے اندر عوامی لیگ کے تین دیگر رہنماؤں سمیت قتل کر دیے گئے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1925-07-23"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 July 1925 at Dardaria village, Kapasia, in what is now Gazipur district, Bengal Presidency, British India; the English article (text) and Banglapedia agree on the date, and the English infobox shortens the birthplace to Kapasia. No born_in relation is written: neither Dardaria, Kapasia nor Gazipur has a museum place entity. The Hijri year (1343) is derived by tabular conversion."
+  sources: [source/wikipedia-tajuddin-ahmad-en, source/banglapedia-tajuddin-ahmad]
+died:
+  edtf: "1975-11-03"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated on 3 November 1975 inside Dhaka Central Jail, where he was held in custody, together with three other senior Awami League leaders (the Jail Killing); the English article and Banglapedia agree. The Hijri year (1395) is derived by tabular conversion."
+  sources: [source/wikipedia-tajuddin-ahmad-en, source/banglapedia-tajuddin-ahmad]
+relations:
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-tajuddin-ahmad-en, source/banglapedia-tajuddin-ahmad] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — family-background configuration. The English article says he was born 'in a conservative, middle-class Muslim family' — family background, which never counts; its current infobox carries no religion field and no text states a personal affiliation or school for him (his Muslim League youth work and his part in the League's secular, pro-democracy faction are politics, and his father's standing as a maulavi is family background). An infobox 'Religion: Islam' survives only in a 2014 mirror copy of a superseded revision of the same English article — the same source family, superseded, and generic in any case. Banglapedia's signed entry, an independent text, covers his career and death and makes no religion statement. The Arabic article is a translation of the English text and adds nothing. No source names a school for him personally, so he is recorded unknown; the family framing is preserved here for a founder ruling."
+    sources: [source/wikipedia-tajuddin-ahmad-en, source/wikipedia-tajuddin-ahmad-ar, source/banglapedia-tajuddin-ahmad]
+sources: [source/wikipedia-tajuddin-ahmad-en, source/wikipedia-tajuddin-ahmad-ar, source/banglapedia-tajuddin-ahmad]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 112 §A of the century-additions queue (queue line 612, 'Tajuddin Ahmad — 1925–1975', verified against the queue copy on origin/main) from the English and Arabic Wikipedia articles and the Banglapedia entry named in the sources list, the English article and the Banglapedia entry read in full and the Arabic article in its lead on 27 October 2026. IDENTITY: pinned by biography to the first prime minister of Bangladesh, born at Dardaria, Kapasia, on 23 July 1925 and assassinated in Dhaka Central Jail on 3 November 1975; he is a different person from Ahmad Tajuddin, the Brunei prince, whose record (person/ahmad-tajuddin) already exists — the similar name is a near-name only, and the exact shared-Arabic-label check against data/_homonyms.yaml returned no entry for either name. EXISTENCE: checked before building — name-fragment greps (tajuddin) across all of data/person/ hit only ahmad-tajuddin, and the biography matches no existing record. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers, and his Wikidata QID could not be grounded through it, so the grounded-QID existence grep could not be run for him and is disclosed as not run; the sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented. RELATIONS: died_in Dhaka is written because place/dhaka exists; no born_in is written because Dardaria, Kapasia and Gazipur have no museum place entities, no member_of because the Awami League has no museum group entity, and no succession edge because the articles attest office succession only (his premiership preceding Sheikh Mujibur Rahman's is an office sequence, not a personal succession). His faith is recorded unknown, flagged, on the family-background configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-112
+status: { review: published }

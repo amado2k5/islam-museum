@@ -1,0 +1,52 @@
+id: person/sheikh-mujibur-rahman
+class: person
+label: { ar: "مجيب الرحمن", en: "Sheikh Mujibur Rahman", ur: "شیخ مجیب الرحمان" }
+names:
+  - { value: "Sheikh Mujibur Rahman", kind: full }
+  - { value: "শেখ মুজিবুর রহমান", kind: full }
+  - { value: "مجيب الرحمن", kind: full }
+  - { value: "شیخ مجیب الرحمان", kind: full }
+  - { value: "Bangabandhu", kind: laqab }
+  - { value: "Sheikh Mujib", kind: alternate }
+  - { value: "Khoka", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي بنغلاديشي (17 مارس 1920 – 15 أغسطس 1975)، مؤسس بنغلاديش وأول رئيس لها، قاد رابطة عوامي إلى فوزها في انتخابات باكستان سنة 1970، وأعلن استقلال بنغلاديش في مارس 1971، فترأس الحكومة المؤقتة أثناء حرب التحرير وهو سجين في باكستان الغربية، ثم ترأس الوزراء من 1972 إلى 1975 ورئاسة الجمهورية سنة 1975، واغتيل مع معظم أسرته في انقلاب عسكري في دكا. ابنته الكبرى شيخة حسينة."
+  en: "Bangladeshi politician (17 March 1920 – 15 August 1975), the founder of Bangladesh and its first president. He led the Awami League to victory in Pakistan's 1970 general election, proclaimed Bangladesh's independence in March 1971 and headed its provisional government during the Liberation War while imprisoned in West Pakistan, then served as prime minister from 1972 to 1975 and as president in 1975, until he was assassinated with most of his family in a military coup at Dhaka. His eldest daughter is Sheikh Hasina."
+  ur: "بنگلہ دیشی سیاست دان (17 مارچ 1920ء – 15 اگست 1975ء)، بنگلہ دیش کے بانی اور اس کے پہلے صدر۔ انھوں نے 1970ء کے پاکستانی عام انتخابات میں عوامی لیگ کو فتح دلائی، مارچ 1971ء میں بنگلہ دیش کی آزادی کا اعلان کیا اور جنگ آزادی کے دوران مغربی پاکستان میں قید رہتے ہوئے عبوری حکومت کی سربراہی کی، پھر 1972ء سے 1975ء تک وزیر اعظم اور 1975ء میں صدر رہے، حتیٰ کہ ڈھاکہ میں ایک فوجی بغاوت میں اپنے بیشتر خاندان سمیت قتل کر دیے گئے۔ ان کی بڑی بیٹی شیخ حسینہ ہیں۔"
+roles: [politician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1920-03-17"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 17 March 1920 at Tungipara village, Gopalganj subdivision, Faridpur district, Bengal Presidency, British India; the English and Arabic articles agree. No born_in relation is written: Tungipara has no museum place entity. The Hijri year (1338) is derived by tabular conversion."
+  sources: [source/wikipedia-sheikh-mujibur-rahman-en, source/wikipedia-sheikh-mujibur-rahman-ar]
+died:
+  edtf: "1975-08-15"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated on 15 August 1975 at his residence in Dhanmondi, Dhaka, in a military coup, together with most of his family; the English and Arabic articles agree. He is buried at Tungipara, in the Mausoleum of Sheikh Mujibur Rahman; no buried_in relation is written because Tungipara has no museum place entity. The Hijri year (1395) is derived by tabular conversion."
+  sources: [source/wikipedia-sheikh-mujibur-rahman-en, source/wikipedia-sheikh-mujibur-rahman-ar]
+relations:
+  - { type: parent_of, target: person/sheikh-hasina, sources: [source/wikipedia-sheikh-mujibur-rahman-en, source/wikipedia-sheikh-hasina-en] }
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-sheikh-mujibur-rahman-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — the reading rests on one structured family plus family background. The Arabic article's infobox names his religion as Ahl al-Sunna wa'l-Jama'a (Sunni), carrying a reference marker whose target was not verified; the same structured value is echoed in other language editions' infoboxes, which is one attestation family, not several independent sources. The English article carries no religion field and no statement of his own affiliation: its lead and family text say he was born into 'an aristocratic Bengali Muslim family' and trace his clan's descent from a Sufi dervish ancestor — family background and ancestry, which never count — and its remaining religion content is his state policy as head of government (the secular constitution of 1972; his public statements that secularism did not mean hostility to religion), which the headship line excludes. No second independent source names a school for him personally, so under the doubt rule the Sunni reading stays unrecorded; it is preserved here in full for a founder ruling."
+    sources: [source/wikipedia-sheikh-mujibur-rahman-en, source/wikipedia-sheikh-mujibur-rahman-ar]
+sources: [source/wikipedia-sheikh-mujibur-rahman-en, source/wikipedia-sheikh-mujibur-rahman-ar]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 112 §A of the century-additions queue (queue line 609, 'Sheikh Mujibur Rahman — 1920–1975', verified against the queue copy on origin/main) from the English and Arabic Wikipedia articles named in the sources list, the English read in full and the Arabic in its infobox and lead on 27 October 2026. IDENTITY: pinned by biography to the founding president of Bangladesh, born at Tungipara on 17 March 1920 and assassinated at Dhaka on 15 August 1975; he is not any other bearer of the name. EXISTENCE: checked three ways before building — name-fragment greps (mujib) across all of data/person/ hit only sufyan-ibn-mujib, a different person, and mentions; his Wikidata QID Q191375, grounded through the authority file of his Wikimedia Commons category, was grepped across all data/person/ files with no match; and the biography matches no existing record. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers, so the sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier was invented. RELATIONS: parent_of is written once here, in the father's record (the inverse is computed, and Sheikh Hasina's record does not repeat it); died_in Dhaka is written because place/dhaka exists; no born_in or buried_in is written because Tungipara has no museum place entity, and no member_of is written because the Awami League has no museum group entity — the places and the party are stated in the notes and prose. No succession edge is written: the articles attest office succession only. His faith is recorded unknown, flagged, on the one-structured-family-plus-family-background configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-112
+status: { review: published }
