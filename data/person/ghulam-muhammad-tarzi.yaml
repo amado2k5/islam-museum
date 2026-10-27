@@ -1,0 +1,53 @@
+id: person/ghulam-muhammad-tarzi
+class: person
+label:
+  ar: "غلام محمد طرزي"
+  en: "Ghulam Muhammad Tarzi"
+  ur: "غلام محمد طرزی"
+summary:
+  ar: "سردار وشاعر أفغاني من بيت محمدزاي في قندهار (1830-1900)، ابن سردار رحيم دل خان. جندي في شبابه ثم شاعر بلاط، شارك في الحرب الإنجليزية الأفغانية الثانية ونفاه الأمير عبد الرحمن سنة 1881، فعاش متنقلا بين كراتشي والهند وبغداد وإسطنبول ودمشق يكتب الشعر الديني والصوفي والدنيوي بلقبه القلمي «طرزي» الذي صار اسم أسرته. وهو والد المفكر والصحفي محمود طرزي وجدّ الملكة ثريا لأبيها."
+  en: "Afghan sardar and poet of the Mohammadzai house of Kandahar (1830–1900), a son of Sardar Rahim Dil Khan. A soldier in his youth and then a court poet, he fought in the Second Anglo-Afghan War and was expelled by Emir Abdur Rahman in 1881; he lived thereafter between Karachi, India, Baghdad, Istanbul and Damascus, writing religious, mystic and secular poetry under the pen name Tarzi, which became his family's name. He was the father of the thinker and journalist Mahmud Tarzi and the grandfather of Queen Soraya."
+  ur: "قندھار کے محمدزئی گھرانے کے افغان سردار اور شاعر (1830ء–1900ء)، سردار رحیم دل خان کے بیٹے۔ جوانی میں سپاہی، پھر درباری شاعر؛ دوسری اینگلو افغان جنگ میں شریک ہوئے اور امیر عبدالرحمن نے 1881ء میں انہیں جلاوطن کر دیا، جس کے بعد وہ کراچی، ہندوستان، بغداد، استنبول اور دمشق کے درمیان رہے اور اپنے قلمی نام «طرزی» سے دینی، صوفیانہ اور دنیوی شاعری کی، جو نام بعد میں ان کے خاندان کا نام بن گیا۔ وہ مفکر و صحافی محمود طرزی کے والد اور ملکہ ثریا کے دادا تھے۔"
+names:
+  - { value: "Ghulam Muhammad Khan Tarzi", kind: full }
+  - { value: "غلام محمد طرزي", kind: full }
+  - { value: "Ghulam Mohammad Tarzi", kind: alternate }
+  - { value: "Tarzi", kind: pen }
+gender: male
+born:
+  edtf: "1830-04-30"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born on 30 April 1830 at Kandahar, as the English article gives; the article itself flags the date as needing a citation, so the block is carried as debated. No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Kandahar, so no born_in relation is written."
+  sources: [source/wikipedia-ghulam-muhammad-tarzi-en]
+died:
+  edtf: "1900-12-08"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died at Damascus; the English article gives 8 December 1900 and, in the same passage, the alternative 5 February 1901, without settling between them, so the block is carried as debated with the earlier date followed. He was buried in the Hazrat Dahdah cemetery in Damascus, as the article gives. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-ghulam-muhammad-tarzi-en]
+roles: [poet]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: parent_of, target: person/mahmud-tarzi, sources: [source/wikipedia-ghulam-muhammad-tarzi-en] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-ghulam-muhammad-tarzi-en] }
+  - { type: buried_in, target: place/damascus, sources: [source/wikipedia-ghulam-muhammad-tarzi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or a school for him at all. The only article, the English one, carries no religion value and no text naming his faith; it says he wrote religious, mystic and secular poetry, which is the subject matter of his verse — repertoire, not an attestation of a personal affiliation — and records his descent from the Mohammadzai house and his service at Muslim courts, which are lineage and office. On the absence configuration the value is unknown, unflagged."
+    sources: [source/wikipedia-ghulam-muhammad-tarzi-en]
+sources:
+  - source/wikipedia-ghulam-muhammad-tarzi-en
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Ghulam Muhammad Tarzi (no Arabic or Urdu article exists), read on 27 October 2026. The fetch route available to this writer exposed no revision id or Wikidata identifier, so the source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings and by biographical match. The parent_of edge to Mahmud Tarzi is written here, in the father's record, only, as both this article and Mahmud Tarzi's own article attest it. The article's birth date carries its own citation-needed flag and its death passage gives two dates, so both blocks are carried as debated. No witness names a religion or school for him, so his faith is unknown on the absence configuration, his religious and mystic poetry being repertoire rather than attestation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115
