@@ -1,0 +1,42 @@
+id: person/abdul-latif-rashid
+class: person
+label: { ar: "عبد اللطيف رشيد", en: "Abdul Latif Rashid", ur: "عبد اللطیف رشید" }
+names:
+  - { value: "عبد اللطيف جمال رشيد", kind: full }
+  - { value: "Abdul Latif Jamal Rashid", kind: full }
+  - { value: "عبد اللطيف رشيد", kind: full }
+  - { value: "Abdul Latif Rashid", kind: full }
+  - { value: "لەتيف ڕەشید", kind: full }
+  - { value: "Letif Reshid", kind: alternate }
+gender: male
+summary:
+  ar: "عبد اللطيف جمال رشيد (وُلد 10 آب 1944)، سياسي كردي عراقي، رئيس جمهورية العراق من تشرين الأول 2022 إلى نيسان 2026 خلفًا لبرهم صالح. مهندس مدني درس في مانشستر وليفربول، كان الناطق باسم الاتحاد الوطني الكردستاني في بريطانيا، وتولى وزارة الموارد المائية من 2003 إلى 2010 ثم عمل مستشارًا أقدم للرئيس قبل انتخابه رئيسًا."
+  en: "Abdul Latif Jamal Rashid (born 10 August 1944) is an Iraqi Kurdish politician who was president of Iraq from October 2022 to April 2026, in succession to Barham Salih. A civil engineer educated at Manchester and Liverpool, he was the Patriotic Union of Kurdistan's spokesman in the United Kingdom, Minister of Water Resources from 2003 to 2010, and a senior presidential adviser before his election as president."
+  ur: "عبد اللطیف جمال رشید (پیدائش 10 اگست 1944ء) ایک عراقی کرد سیاست دان ہیں جو اکتوبر 2022ء سے اپریل 2026ء تک برہم صالح کے جانشین کے طور پر جمہوریۂ عراق کے صدر رہے۔ وہ مانچسٹر اور لیورپول سے تعلیم یافتہ سول انجینئر ہیں، برطانیہ میں پٹریاٹک یونین آف کردستان کے ترجمان رہے، 2003ء سے 2010ء تک وزیرِ آبی وسائل اور پھر صدارتی مشیرِ اعلیٰ رہے۔"
+roles: [politician]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1944-08-10"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Sulaymaniyah in the Kingdom of Iraq on 10 August 1944; the English article gives the date citing his official curriculum vitae, the Arabic article's infobox and the Urdu article give the same date, and Wikidata agrees. The Hijri year (1363) is derived by tabular conversion of the recorded date. Sulaymaniyah has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid]
+relations:
+  - { type: successor_of, target: person/barham-salih, sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (single-infobox-family Sunni reading). The Arabic article's infobox carries a religion field, 'Islam — Ahl al-Sunnah wa'l-Jama'a' (Sunni), and Wikidata carries Sunni Islam, the structured echo of the same reading; the English, Arabic and Urdu articles all file him under 'Iraqi Sunni Muslims', category filings, which never count. No article text names his school. One source family short. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid]
+external_ids: { wikidata: "Q6496078" }
+sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abdul Latif Rashid, each fetched by its recorded revision id (EN 1378210164, AR 76810770, UR 11813650) with the returned id asserted equal before use, and Wikidata item Q6496078 (item revision 2539616970, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. The successor_of edge to Barham Salih is attested at both ends: his own articles name Salih as predecessor (the English lead says he succeeded Salih), and Salih's articles name Rashid as his successor; both records are built in this run (century-additions-98), and the edge is written here, in the successor's record. His own successor Nizar Amidi has no record, and no edge to him is written here in any case. The articles differ by a day on his term's start and end (English: 17 October 2022 – 12 April 2026; Arabic: 13 October 2022 – 11 April 2026), an election-versus-assumption variance recorded in the source files. No member_of edge is written for the Patriotic Union of Kurdistan (no group entity exists), no spouse or in-law edges (Shanaz Ibrahim Ahmed and her father Ibrahim Ahmed have no records; his brother-in-law Jalal Talabani has one, but no predicate covers an in-law relation), and no born_in edge (Sulaymaniyah has no place entity)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

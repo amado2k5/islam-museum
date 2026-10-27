@@ -536,11 +536,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdul Karim Qasim — 1914–1963
 - [x] Jalal Talabani — 1933–2017
 - [x] Fuad Masum — 1938–Living
-- [ ] Barham Salih — 1960–Living
-- [ ] Abdul Latif Rashid — 1944–Living
-- [ ] Haider al-Abadi — 1952–Living
-- [ ] Mustafa Al-Kadhimi — 1967–Living
-- [ ] Mohammed Shia' Al Sudani — 1970–Living
+- [x] Barham Salih — 1960–Living
+- [x] Abdul Latif Rashid — 1944–Living
+- [x] Haider al-Abadi — 1952–Living
+- [x] Mustafa Al-Kadhimi — 1967–Living
+- [x] Mohammed Shia' Al Sudani — 1970–Living
 - [ ] Ayatollah Ruhollah Khomeini — 1902–1989
 - [ ] Ayatollah Ali Khamenei — 1939–Living
 - [ ] Mohammad Reza Pahlavi — 1919–1980
