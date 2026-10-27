@@ -1,0 +1,52 @@
+id: person/shah-jahan-begum
+class: person
+label: { ar: "شاه جهان بيكم", en: "Shah Jahan Begum of Bhopal", ur: "سلطان شاہ جہاں بیگم" }
+names:
+  - { value: "Sultan Shah Jahan Begum", kind: full }
+  - { value: "شاه جهان بيكم", kind: full }
+  - { value: "Shah Jahan Begum", kind: alternate }
+  - { value: "Shirin", kind: pen }
+  - { value: "Tajwar", kind: pen }
+gender: female
+summary:
+  ar: "بيغوم بوبال في وسط الهند — اسميًا من سنة 1844 طفلةً ووالدتها سكندر بيكم تحكم وصيةً عليها، وباسمها من سنة 1868 حتى وفاتها سنة 1901. أصلحت قوانين بوبال وقضاءها وصحتها وماليتها، وبدأت بناء تاج المساجد، وموّلت جزئيًا مسجد شاه جهان في ووكينغ، وطبعت كتبًا دينية في مطبعتها الشاهجهانية، وألّفت «تہذيب النسوان» و«خزينۃ اللغات»."
+  en: "Begum of Bhopal in central India — nominally from 1844 as a child, with her mother Sikandar Begum ruling as regent, and in her own right from 1868 until her death in 1901. She reformed Bhopal's laws, courts, health services and revenue, began the Taj-ul-Masajid, part-funded the Shah Jahan Mosque at Woking, printed religious books at her Shahjahani Press, and wrote Tahdhib al-Niswan and Khazinat al-Lughat."
+  ur: "وسط ہندوستان کی ریاست بھوپال کی بیگم — 1844 میں کم عمری میں رسمی طور پر، والدہ سکندر بیگم کی نیابت میں، اور 1868 سے 1901 میں وفات تک باقاعدہ حکمران۔ انہوں نے بھوپال کے قوانین، عدلیہ، صحت اور مالیات کی اصلاح کی، تاج المساجد کی بنیاد رکھوائی، ووکنگ کی شاہ جہاں مسجد کی جزوی مالی مدد کی، اپنے مطبع شاہجہانی سے دینی کتب شائع کروائیں اور «تہذیب النسواں» اور «خزینۃ اللغات» تصنیف کیں۔"
+roles: [ruler, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1838-07-29"
+  hijri: "1254"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born at Islamnagar, Bhopal. The English and Arabic articles and Wikidata Q2364796 give 29 July 1838; the Urdu article gives 30 July 1838 and pairs it with 6 Jumada al-Awwal 1254. The Hijri year 1254 is the same on either Gregorian reading and is also the Arabic article's filing year for her birth. Bhopal has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ar, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum]
+died:
+  edtf: "1901-06-16"
+  hijri: "1319"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died at Bhopal on 16 June 1901, per the English article's infobox, the Arabic and Urdu articles and Wikidata Q2364796; the Urdu article pairs the date with 28 Safar 1319. The English article's closing paragraph alone says 6 June 1901 — an internal contradiction within that article, recorded here with both readings. Bhopal has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ar, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum]
+relations:
+  - { type: child_of, target: person/sikandar-begum, sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ar, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum] }
+  - { type: successor_of, target: person/sikandar-begum, sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ur] }
+  - { type: spouse_of, target: person/siddiq-hasan-khan, sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox alone gives her religion as Sunni Muslim. The Arabic article's infobox and Wikidata give Islam only, and no text in any of the three articles names her school; her mosque administration and religious publishing were acts of office as ruler of a Muslim princely state, and her second husband Siddiq Hasan Khan's school is a spouse's, not hers. Headship case: the value stays unknown, with the single-infobox Sunni reading preserved here."
+    sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ar, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum]
+external_ids: { wikidata: "Q2364796" }
+sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ar, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shah Jahan Begum of Bhopal' (revision 1372266797), Arabic Wikipedia 'شاه جهان بيكم' (revision 73780552), Urdu Wikipedia 'شاہ جہاں بیگم' (revision 12075494) and Wikidata item Q2364796 (item revision 2559587826), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the revision dates re-verified in a second pass on 27 October 2026; an early read that resolved her name to the disambiguation item Q114344645 was discarded and the correct item re-fetched by its own revision. Existence checks by name fragments (shah-jahan, begum), by Arabic label across data/person, by biography and by QID found no prior record; she is the Bhopal ruler of 1838–1901, not a Mughal-era namesake. Edges are written once, here in her record: child_of and successor_of to her mother Sikandar Begum (same batch) — the successor_of edge records the 1868 succession, her first reign of 1844–1860 having been nominal under her mother's regency — and spouse_of to her second husband Siddiq Hasan Khan (existing record). Her first husband Baqi Muhammad Khan has no record. Her daughter and successor Sultan Jahan has a record (person/sultan-jahan), but the 1901 successor_of edge belongs in that record and it is not edited here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
