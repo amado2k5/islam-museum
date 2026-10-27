@@ -1,0 +1,41 @@
+id: person/datu-uto
+class: person
+label:
+  ar: "داتو أوتو"
+  en: "Datu Uto"
+  ur: "داتو اوتو"
+summary:
+  ar: "السلطان الثامن عشر لبويان في منداناو (حكم 1875–1902)، وُلد باسم أنوار الدين أوتو. بنى تحالفًا عبر حوض نهر بولانغي، وفقد إحدى عينيه في قتال الإسبان سنة 1864، وأبقى بويان عصية على الحملات الإسبانية المتعاقبة، موقّعًا معاهدات سلام مفروضة سنتي 1875 و1887 دون خضوع؛ وامتد نفوذه في ذروته من بحيرة بولوان إلى خليج سارانغاني. توفي في ساباكان في آذار 1902."
+  en: "The 18th Sultan of Buayan in Mindanao (reigned 1875–1902), born Anwarud-din Uto. He built a coalition across the Pulangi River basin, lost an eye fighting the Spanish in 1864, and kept Buayan unconquered through successive Spanish offensives, signing imposed peace treaties in 1875 and 1887 without submitting; at his peak his domain ran from Lake Buluan to Sarangani Bay. He died at Sapakan in March 1902."
+  ur: "منداناؤ میں بویان کے اٹھارویں سلطان (حکومت 1875ء–1902ء)، ولادت کا نام انوار الدین اوتو تھا۔ انہوں نے دریائے پولانگی کے طاس میں اتحاد قائم کیا، 1864ء میں ہسپانویوں سے لڑتے ہوئے ایک آنکھ کھوئی، اور یکے بعد دیگرے ہسپانوی حملوں کے باوجود بویان کو ناقابلِ تسخیر رکھا؛ 1875ء اور 1887ء میں مسلط شدہ امن معاہدے کیے مگر اطاعت نہ کی۔ عروج پر ان کا علاقہ جھیل بولوان سے خلیج سارانگانی تک پھیلا تھا۔ مارچ 1902ء میں ساپاکان میں وفات پائی۔"
+names:
+  - { value: "Anwarud-din Uto", kind: full }
+  - { value: "Sultan Anwarud-din Uto", kind: regnal }
+  - { value: "Utto Anwaruddin", kind: alternate }
+  - { value: "Datu Utto", kind: alternate }
+gender: male
+roles: [sultan]
+wings: [people]
+regions: [southeast-asia]
+died:
+  edtf: "1902-03"
+  hijri: "1319"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "The English article's infobox gives March 1902 at Sapakan, Buayan, its text that he had disappeared from the political scene by 1900 and died two years later, and Wikidata gives the year 1902. The Arabic article, a rendering of the English, carries the older variant readings — a reign ending in 1888 in its lead and death 'c. 1900' in its infobox — which are not followed. The Hijri year 1319 is the conversion of March 1902, hence derived. No place entity exists for Sapakan, so no died_in relation is written."
+  sources: [source/wikipedia-datu-uto-en, source/wikidata-datu-uto, source/wikipedia-datu-uto-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school reading exists in one infobox family: the English article's infobox gives his religion as Sunni Islam, and the Arabic article's infobox — the Arabic rendering of the same article, one source family with it — gives Ahl al-Sunna wa'l-Jama'a, the Sunni community. Wikidata gives Islam (Q432) in general, without a school. No article's text names a school, and sultan headship and descent do not attest one. One infobox family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-datu-uto-en, source/wikipedia-datu-uto-ar, source/wikidata-datu-uto]
+external_ids: { wikidata: "Q27958592" }
+sources: [source/wikipedia-datu-uto-en, source/wikipedia-datu-uto-ar, source/wikidata-datu-uto]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Datu Uto' (revision 1364930395 of 19 July 2026), Arabic Wikipedia 'داتو أوتو' (revision 74709699 of 25 May 2026) and Wikidata item Q27958592 (item revision 2554574868 of 7 October 2026), fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical revision and claims. The QID was grounded through the English article's page properties and confirmed through the Arabic article's. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic fragments or the QID Q27958592, and no shared Arabic label requires a homonym entry. This record carries NO born block: the English article's infobox gives his birth date as 'Unknown' and no trusted source read attests one — the queue's 1830 is unattested anywhere in them (Ileto's study spans his career, 1860–1888, not his life) — and the queue's death year 1888 is likewise not followed, being the year of his collapse in prestige and the Arabic lead's reign end, against the English article and Wikidata's 1902. No relations are written: his father Sultan Bangon, his predecessor Sultan Bayao and his other successors Datu Djimbangan and Datu Piang have no museum records, and no Buayan polity entity and no Sapakan place entity exists. His successor Datu Ali's record, built in this same run, carries the successor_of edge to him."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96
