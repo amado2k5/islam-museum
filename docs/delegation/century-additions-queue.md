@@ -446,11 +446,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Siad Barre — 1919–1995
 - [x] Aden Adde — 1908–2007
 - [x] Abdirashid Ali Shermarke — 1919–1969
-- [ ] Hassan Sheikh Mohamud — 1955–Living
-- [ ] Mohamed Abdullahi Mohamed (Farmaajo) — 1962–Living
-- [ ] Sharif Sheikh Ahmed — 1964–Living
-- [ ] Abdiweli Mohamed Ali — 1965–Living
-- [ ] Ali Mahdi Muhammad — 1939–2021
+- [x] Hassan Sheikh Mohamud — 1955–Living
+- [x] Mohamed Abdullahi Mohamed (Farmaajo) — 1962–Living
+- [x] Sharif Sheikh Ahmed — 1964–Living
+- [x] Abdiweli Mohamed Ali — 1965–Living
+- [x] Ali Mahdi Muhammad — 1939–2021
 - [ ] Idi Amin — 1925–2003
 - [ ] Yoweri Museveni (Contemporary Leader) — 1944–Living
 - [ ] Ali Hassan Mwinyi — 1925–2024

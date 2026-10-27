@@ -1,0 +1,47 @@
+id: person/abdiweli-mohamed-ali
+class: person
+label:
+  ar: "عبد الولي محمد علي"
+  en: "Abdiweli Mohamed Ali"
+  ur: "عبد الولی محمد علی"
+names:
+  - { value: "Abdiweli Mohamed Ali", kind: full }
+  - { value: "Abdiweli Mohamed Ali Gaas", kind: alternate }
+  - { value: "Abdiweli Gaas", kind: alternate }
+  - { value: "Cabdiweli Maxamed Cali", kind: alternate }
+  - { value: "عبد الولي محمد علي غاس", kind: full }
+  - { value: "عبد الولی محمد علی", kind: full }
+gender: male
+summary:
+  ar: "سياسي واقتصادي صومالي (ولد 1965) من دوسمريب، المعروف بغاس، أستاذ اقتصاد مشارك في جامعة نياغرا بنيويورك، صار رئيس وزراء الصومال (2011–2012) خلفا لمحمد عبد الله محمد ووضع «خارطة الطريق لإنهاء المرحلة الانتقالية»، ثم انتُخب رئيسا لبونتلاند (2014–2019)."
+  en: "Somali politician and economist (born 1965) from Dhusamareb, known as Gaas, an associate professor of economics at Niagara University in New York, who became prime minister of Somalia (2011–2012) succeeding Mohamed Abdullahi Mohamed and authored the 'Roadmap for the End of Transition', and was then elected president of Puntland (2014–2019)."
+  ur: "صومالی سیاست دان اور ماہرِ معاشیات (پیدائش 1965ء) جن کا تعلق دوسمارب سے ہے، گاس کے نام سے معروف؛ نیویارک کی نیاگرا یونیورسٹی میں معاشیات کے ایسوسی ایٹ پروفیسر؛ صومالیہ کے وزیر اعظم بنے (2011ء–2012ء) محمد عبد اللہ محمد کے جانشین کے طور پر اور «عبوری مرحلے کے اختتام کا روڈ میپ» مرتب کیا، پھر پونٹ لینڈ کے صدر منتخب ہوئے (2014ء–2019ء)۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1965-07-02"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Arabic article and Wikidata give his birth on 2 July 1965 at Dhusamareb in Galguduud; the English infobox gives 2 July 1967 — a variant recorded here, the Arabic/Wikidata year followed. No place entity for Dhusamareb exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-abdiweli-mohamed-ali-ar, source/wikidata-abdiweli-mohamed-ali, source/wikipedia-abdiweli-mohamed-ali-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text attests his religion personally and no text names a school for him. Wikidata carries Islam on the single item and the Arabic infobox's religion field is empty; nothing else exists in any source. Structured-only (generic Islam, no branch named anywhere); the value stays unknown."
+    sources: [source/wikipedia-abdiweli-mohamed-ali-en, source/wikipedia-abdiweli-mohamed-ali-ar, source/wikidata-abdiweli-mohamed-ali]
+relations:
+  - type: successor_of
+    target: person/mohamed-abdullahi-mohamed
+    sources: [source/wikipedia-abdiweli-mohamed-ali-en]
+external_ids: { wikidata: "Q1777401" }
+sources: [source/wikipedia-abdiweli-mohamed-ali-en, source/wikipedia-abdiweli-mohamed-ali-ar, source/wikipedia-abdiweli-mohamed-ali-so, source/wikidata-abdiweli-mohamed-ali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdiweli Gaas' revision 1343776001 of 4 April 2026, Arabic revision 65205762 of 11 September 2023 and Somali revision 1361711 of 19 February 2025, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q1777401 revision 2539732199 of 3 September 2026, read from the Wikidata API. There is no Urdu article, so the Urdu prose is written from the English, Arabic and Somali and says so in its text. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q1777401. One relation is written: he succeeded Mohamed Abdullahi Mohamed as prime minister of Somalia on 19 June 2011 (the English infobox's predecessor field for the premiership; the edge is the premiership succession, not the presidency). No edge is written for the Puntland presidency he won in 2014: its previous holder, Abdirahman Mohamud Farole, has no museum record. No born_in: no place entity exists for Dhusamareb."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
