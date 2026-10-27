@@ -1,0 +1,48 @@
+id: person/murtala-muhammed
+class: person
+label: { ar: "مورتالا محمد", en: "Murtala Muhammed", ur: "مورتالا محمد" }
+names:
+  - { value: "Murtala Ramat Muhammed", kind: full }
+  - { value: "مورتالا محمد", kind: full }
+  - { value: "Murtala Mohammed", kind: alternate }
+gender: male
+summary:
+  ar: "ضابط وسياسي نيجيري (1938–1976) من كانو، تدرّب في ساندهيرست وقاد الفرقة الثانية في الحرب الأهلية، ثم قاد الانقلاب المضاد في يوليو 1975 وحكم نيجيريا رئيسا للدولة حتى اغتياله في لاغوس في 13 فبراير 1976 أثناء محاولة انقلاب فاشلة. يحمل مطار لاغوس الدولي اسمه."
+  en: "Nigerian officer and politician (1938–1976) from Kano who trained at Sandhurst, commanded the Second Division in the civil war, led the counter-coup of July 1975 and ruled Nigeria as head of state until his assassination in Lagos on 13 February 1976 during a failed coup attempt. Lagos's international airport bears his name."
+  ur: "نائجریائی فوجی افسر اور سیاست دان (1938ء–1976ء)، کانو سے تعلق؛ سینڈہرسٹ میں تربیت پائی، خانہ جنگی میں دوسری ڈویژن کی کمان کی، جولائی 1975 کی جوابی بغاوت کی قیادت کی اور سربراہِ مملکت کے طور پر نائجریا پر حکمرانی کی، حتیٰ کہ 13 فروری 1976 کو لاگوس میں ایک ناکام بغاوت کے دوران قتل ہوئے۔ لاگوس کا بین الاقوامی ہوائی اڈا ان کے نام پر ہے۔"
+roles: [general, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1938-11-08"
+  hijri: "1357"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth on 8 November 1938 in Kano; the Arabic article's categories file him under births of 1357 AH, the Hijri year used here."
+  sources: [source/wikipedia-murtala-muhammed-en, source/wikipedia-murtala-muhammed-ar, source/wikidata-murtala-muhammed]
+died:
+  edtf: "1976-02-13"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his assassination in Lagos on 13 February 1976, in the failed coup attempt led by Bukar Suka Dimka; the Arabic article's categories file him under deaths of 1396 AH."
+  sources: [source/wikipedia-murtala-muhammed-en, source/wikipedia-murtala-muhammed-ar, source/wikidata-murtala-muhammed]
+relations:
+  - { type: born_in, target: place/kano, sources: [source/wikipedia-murtala-muhammed-en, source/wikipedia-murtala-muhammed-ar, source/wikidata-murtala-muhammed] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration, unflagged. The English article's text attests the man personally as a Muslim, quoting Africa Confidential's description of him as 'a northern Muslim from Kano'; its account of his father's family — a line of Kano chief judges learned in fiqh — is family background. The Arabic stub makes no statement of his religion; both articles' categories file him under 'Nigerian Muslims'; Wikidata gives a single structured value, Islam. No source used names a school or madhhab, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-murtala-muhammed-en, source/wikipedia-murtala-muhammed-ar, source/wikidata-murtala-muhammed]
+external_ids: { wikidata: "Q373628" }
+sources: [source/wikipedia-murtala-muhammed-en, source/wikipedia-murtala-muhammed-ar, source/wikidata-murtala-muhammed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Murtala Muhammed' (revision 1378202441), Arabic Wikipedia 'مورتالا محمد' (revision 76851553) and Wikidata item Q373628 (item revision 2555609391), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (murtala, muhammed, mohammed), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. A place entity exists for Kano, so born_in is written; none exists for Lagos, so no died_in edge is written. He succeeded Yakubu Gowon as head of state, but Gowon has no person record, so no successor_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,46 @@
+id: person/abubakar-tafawa-balewa
+class: person
+label: { ar: "أبو بكر تفاوى باعليوه", en: "Abubakar Tafawa Balewa", ur: "ابو بکر طفاوا بلوا" }
+names:
+  - { value: "Abubakar Tafawa Balewa", kind: full }
+  - { value: "أبو بكر تفاوى باعليوه", kind: full }
+  - { value: "Mallam Abubakar", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي نيجيري (1912–1966) من مقاطعة باوتشي، عمل معلّما ومدير مدرسة وكتب رواية «شايحو عمر» (1934)، ثم صار نائبا ووزيرا، فأول رئيس وزراء لنيجيريا عند استقلالها سنة 1960 ووحيد من حمل هذا المنصب. اغتيل في انقلاب 15 يناير 1966 ووُجدت جثته قرب لاغوس فدُفن في باوتشي."
+  en: "Nigerian politician (1912–1966) from Bauchi province who worked as a teacher and headmaster and wrote the novella Shaihu Umar (1934), then became a legislator and minister, and at independence in 1960 Nigeria's first — and only — prime minister. He was murdered in the coup of 15 January 1966; his body was found near Lagos and he was buried in Bauchi."
+  ur: "نائجریائی سیاست دان (1912ء–1966ء)، صوبہ باوچی سے تعلق؛ مدرس اور ہیڈ ماسٹر رہے اور ناولٹ ’شایہو عمر‘ (1934ء) لکھا، پھر رکنِ اسمبلی اور وزیر بنے، اور 1960 میں آزادی کے وقت نائجریا کے پہلے — اور واحد — وزیرِ اعظم مقرر ہوئے۔ 15 جنوری 1966 کی بغاوت میں قتل ہوئے؛ لاش لاگوس کے قریب ملی اور باوچی میں دفن ہوئے۔"
+roles: [politician, teacher, writer]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1912-12"
+  hijri: "1331"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "The English and Arabic articles give his birth in December 1912, in the village of Tafawa Balewa in Bauchi province; Wikidata's values for the year 1912 vary (January, October, December), and December is followed here. The Hijri year (1331) is a conversion."
+  sources: [source/wikipedia-abubakar-tafawa-balewa-en, source/wikipedia-abubakar-tafawa-balewa-ar, source/wikipedia-abubakar-tafawa-balewa-ur, source/wikidata-abubakar-tafawa-balewa]
+died:
+  edtf: "1966-01-15"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his murder in the coup of 15 January 1966, his body discovered at a roadside near Lagos six days later and buried in Bauchi; the Hijri year (1385) is a conversion."
+  sources: [source/wikipedia-abubakar-tafawa-balewa-en, source/wikipedia-abubakar-tafawa-balewa-ar, source/wikidata-abubakar-tafawa-balewa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The plain configuration, thinner than a personal attestation: no article's text states Balewa's own religion in any language used here. The English article records his Bauchi madrasa schooling (formation) and describes the hero of his own novella as 'a pious Muslim' — a statement about a fictional character, not the author. All three articles' categories file him under 'Nigerian Muslims' and Wikidata gives a single structured value, Islam; filings and a structured value never count. No source names a school, so under the two-source rule the value stays unknown, unflagged."
+    sources: [source/wikipedia-abubakar-tafawa-balewa-en, source/wikipedia-abubakar-tafawa-balewa-ar, source/wikipedia-abubakar-tafawa-balewa-ur, source/wikidata-abubakar-tafawa-balewa]
+external_ids: { wikidata: "Q335684" }
+sources: [source/wikipedia-abubakar-tafawa-balewa-en, source/wikipedia-abubakar-tafawa-balewa-ar, source/wikipedia-abubakar-tafawa-balewa-ur, source/wikidata-abubakar-tafawa-balewa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abubakar Tafawa Balewa' (revision 1380522514), Arabic Wikipedia 'أبو بكر تفاوى باعليوه' (revision 76851517), Urdu Wikipedia 'ابو بکر طفاوا بلوا' (revision 6751145) and Wikidata item Q335684 (item revision 2557593641), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (balewa, tafawa), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No place entity exists for Bauchi or Lagos, so no born_in or died_in edge is written; he was the first holder of his office, so there is no predecessor to succeed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

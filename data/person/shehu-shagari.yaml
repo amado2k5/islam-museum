@@ -1,0 +1,46 @@
+id: person/shehu-shagari
+class: person
+label: { ar: "شيخو شاجاري", en: "Shehu Shagari", ur: "شیہو شاگاری" }
+names:
+  - { value: "Shehu Usman Aliyu Shagari", kind: full }
+  - { value: "شيخو شاجاري", kind: full }
+  - { value: "Shehu Shagari", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي نيجيري (1925–2018) من بلدة شاجاري بولاية صكتو، عمل معلّما ثم نائبا في مجلس النواب من 1954 ووزيرا اتحاديا في مناصب متعاقبة، فصار أول رئيس منتخب ديمقراطيا لنيجيريا في الجمهورية الثانية (1979–1983)، وأعيد انتخابه سنة 1983 ثم أطاح به انقلاب نهاية ذلك العام. مات في أبوجا في 28 ديسمبر 2018 عن 93 عاما."
+  en: "Nigerian politician (1925–2018) from the town of Shagari in Sokoto State who worked as a teacher, sat in the House of Representatives from 1954 and held a succession of federal cabinet posts, before becoming Nigeria's first democratically elected president in the Second Republic (1979–1983). Re-elected in 1983, he was overthrown by a coup at the end of that year. He died in Abuja on 28 December 2018, aged 93."
+  ur: "نائجریائی سیاست دان (1925ء–2018ء)، ریاست صوکوتو کے قصبہ شاگاری سے تعلق؛ مدرس رہے، 1954 سے ایوانِ نمائندگان کے رکن اور پے در پے وفاقی وزیر رہے، پھر دوسری جمہوریہ میں نائجریا کے پہلے جمہوری طور پر منتخب صدر بنے (1979ء–1983ء)۔ 1983 میں دوبارہ منتخب ہوئے مگر اسی سال کے اختتام پر بغاوت نے انھیں ہٹا دیا۔ 28 دسمبر 2018 کو ابوجا میں 93 برس کی عمر میں وفات پائی۔"
+roles: [politician, teacher]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1925-02-25"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 25 February 1925 in the town of Shagari, Sokoto; the Arabic article's categories file him under births of 1343 AH, the Hijri year used here."
+  sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
+died:
+  edtf: "2018-12-28"
+  hijri: "1440"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death in Abuja on 28 December 2018; the Arabic article's categories file him under deaths of 1440 AH."
+  sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Sunni reading stands one attestation short, for the founder's word (the family-framing-only configuration of khan-abdul-ghaffar-khan, wave 70 §B). The word 'Sunni' occurs in the English article's text exactly once, attached to his family and not to him: he was 'born ... to a Sunni Muslim Fulani family' — family background, which never counts. The English and Arabic articles file him under 'Nigerian Sunni Muslims' categories (filings), and Wikidata carries a single structured value, Sunni Islam (Q483654), plausibly an echo of the same framing. No independent text names Shagari himself Sunni, so under the two-source rule the value stays unknown with both readings preserved here; one founder word accepts the framing family and settles the segment as sunni/documented."
+    sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
+external_ids: { wikidata: "Q380668" }
+sources: [source/wikipedia-shehu-shagari-en, source/wikipedia-shehu-shagari-ar, source/wikidata-shehu-shagari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shehu Shagari' (revision 1378215348), Arabic Wikipedia 'شيخو شاجاري' (revision 75240505) and Wikidata item Q380668 (item revision 2558235394), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (shagari, shehu), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No place entity exists for Shagari town or Abuja, so no born_in or died_in edge is written; he succeeded Olusegun Obasanjo in 1979, but Obasanjo has no person record, so no successor_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

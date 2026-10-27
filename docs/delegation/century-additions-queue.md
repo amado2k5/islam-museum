@@ -411,11 +411,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Aminu Tambuwal — 1966–Living
 - [x] Bukola Saraki — 1962–Living
 - [x] Atiku Abubakar — 1946–Living
-- [ ] Moshood Abiola — 1937–1998
-- [ ] Ahmadu Bello — 1910–1966
-- [ ] Abubakar Tafawa Balewa — 1912–1966
-- [ ] Murtala Mohammed — 1938–1976
-- [ ] Shehu Shagari — 1925–2018
+- [x] Moshood Abiola — 1937–1998
+- [x] Ahmadu Bello — 1910–1966
+- [x] Abubakar Tafawa Balewa — 1912–1966
+- [x] Murtala Mohammed — 1938–1976
+- [x] Shehu Shagari — 1925–2018
 - [ ] Umaru Musa Yar'Adua — 1951–2010
 - [ ] Muhammadu Buhari — 1942–Living
 - [ ] Ibrahim Babangida — 1941–Living
