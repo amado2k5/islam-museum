@@ -1,0 +1,51 @@
+id: person/hakim-abdul-hameed
+class: person
+label:
+  ar: "حكيم عبد الحميد"
+  en: "Hakim Abdul Hameed"
+  ur: "حکیم عبد الحمید"
+summary:
+  ar: "حكيم عبد الحميد (1908–1999) طبيب هندي في الطب اليوناني، مؤسس مختبرات هامدارد وأمينها الرئيسي، والمستشار المؤسس لجامعة هامدارد، ومستشار جامعة عليكره الإسلامية (1996–1999)، نال جائزتي بادما شري وبادما بوشان."
+  en: "Hakim Abdul Hameed (1908–1999) was an Indian physician of the Unani system of medicine, founder and chief trustee of Hamdard Laboratories, founder chancellor of Jamia Hamdard, and chancellor of Aligarh Muslim University (1996–1999); he received the Padma Shri and the Padma Bhushan."
+  ur: "حکیم عبد الحمید (1908ء–1999ء) ہندوستانی طبیبِ یونانی تھے، ہمدرد لیبارٹریز کے بانی اور چیف ٹرسٹی، جامعہ ہمدرد کے بانی چانسلر اور علی گڑھ مسلم یونیورسٹی کے چانسلر (1996ء–1999ء) رہے؛ انھیں پدم شری اور پدم بھوشن سے نوازا گیا۔"
+names:
+  - { value: "Hakim Abdul Hameed", kind: full }
+  - { value: "حکیم عبد الحمید", kind: full }
+  - { value: "Hakeem Abdul Hameed", kind: alternate }
+gender: male
+roles: [physician, educator]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1908-09-14"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 14 September 1908 at Delhi, in British India: the English article's lead and infobox, confirmed by Wikidata; the Urdu article gives the year and Delhi. The Hijri year 1326 is a tabular conversion, marked derived. His Kashgari ancestry, as the English article gives it, is family background and is recorded in the prose as such; it carries no faith weight."
+  sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed]
+died:
+  edtf: "1999-07-22"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 22 July 1999: the English article's lead and Wikidata agree. The English article's infobox death-date template carries inconsistent parameters (a June month, and a birth date of 8 September inside its age calculation); the lead reading is followed and the template's conflict is disclosed here rather than silently resolved. The Hijri year 1420 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikidata-hakim-abdul-hameed]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names any religion or school for him: the English and Urdu article texts and infoboxes are silent on religion, and Wikidata carries no religion statement. His profession as a Unani physician, his founding of Hamdard and of Jamia Hamdard, and his family's Kashgari Muslim ancestry are profession, institutional work and family background, none of which attests a personal school or affiliation. Nothing here supports any segment beyond unknown."
+    sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-abdul-hameed-en] }
+external_ids: { wikidata: "Q19891676" }
+sources: [source/wikipedia-hakim-abdul-hameed-en, source/wikipedia-hakim-abdul-hameed-ur, source/wikidata-hakim-abdul-hameed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hakim Abdul Hameed' (revision 1362074994), Urdu Wikipedia 'حکیم عبد الحمید' (revision 6880328) and Wikidata item Q19891676 (item revision 2540519610), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the Wikidata item was queried twice with identical item revisions. Existence checks by name fragments (hameed, hamid, hamdard) across data/person, by QID and by biography (Delhi Unani physician, founder of Hamdard, 1908–1999) found no prior record for this man; the Hamdard mentions in the records of Muhammad Ali Jauhar and Shaukat Ali concern their newspaper Hamdard, not this man's institution. No Arabic Wikipedia article exists for him (Arabic search returns only unrelated names), so the Arabic prose is written from the English and Urdu sources and says so. Relations are limited to born_in Delhi: Hamdard and Jamia Hamdard have no group entity, and his younger brother Hakeem Muhammad Saeed, named in the English article, has no person record. The Urdu article calls his Aligarh office vice-chancellor and dates his Padma Bhushan to 1991; the English article (chancellor 1996–1999; Padma Bhushan 1992) is followed on both points, with the variants disclosed in the Urdu source's reliability note. The lane queue gives 'Hakim Abdul Hameed (1908–1999)', which the sources confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-87
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
