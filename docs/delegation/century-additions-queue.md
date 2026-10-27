@@ -571,11 +571,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Salman Rushdie (Historical Literary Figure) — 1947–Living
 - [x] Tariq Ali — 1943–Living
 - [x] Ziauddin Yousafzai — 1969–Living
-- [ ] Asma Jahangir — 1952–2018
-- [ ] Hina Jilani — 1953–Living
-- [ ] Ansar Burney — 1956–Living
-- [ ] Abdul Sattar Edhi — 1928–2016
-- [ ] Bilquis Edhi — 1947–2022
+- [x] Asma Jahangir — 1952–2018
+- [x] Hina Jilani — 1953–Living
+- [x] Ansar Burney — 1956–Living
+- [x] Abdul Sattar Edhi — 1928–2016
+- [x] Bilquis Edhi — 1947–2022
 - [ ] Faisal Edhi — 1975–Living
 - [ ] Dr. Ruth Pfau (Honored Humanitarian) — 1929–2017
 - [ ] Hakim Said — 1920–1998
