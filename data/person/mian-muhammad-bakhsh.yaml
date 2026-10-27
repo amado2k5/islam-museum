@@ -1,0 +1,48 @@
+id: person/mian-muhammad-bakhsh
+class: person
+label: { ar: "ميان محمد بخش", en: "Mian Muhammad Bakhsh", ur: "میاں محمد بخش" }
+names:
+  - { value: "Mian Muhammad Bakhsh", kind: full }
+  - { value: "میاں محمد بخش", kind: full }
+  - { value: "Mian Muhammad Bakhsha", kind: pen }
+gender: male
+summary:
+  ar: "شاعر صوفي بنجابي (حوالي 1830 – 1907) من خاري شريف في كشمير الحرة. أخذ البيعة عن غلام محمد في سلسلة دمريان والي سركار القادرية، وعاش في الخانقاه ولم يتزوج، وكتب ثمانية عشر كتاباً أشهرها «سيف الملوك» (سفر العشق)، المثنوية البنجابية في قصة الأمير سيف الملوك."
+  en: "Punjabi Sufi poet (c. 1830 – 1907) of Khari Sharif in Azad Kashmir. He took bay'ah with Ghulam Muhammad in the Qadiri line of Damriyan Wali Sarkar, lived unmarried in the khanqah, and wrote eighteen books, most famously Saif-ul-Maluk (Safr-ul-Ishq), the Punjabi verse romance of Prince Saiful Maluk."
+  ur: "پنجابی صوفی شاعر (تقریباً 1830ء – 1907ء) کھڑی شریف، آزاد کشمیر سے۔ سلسلہ قادریہ دمڑی والی سرکار میں سائیں غلام محمد سے بیعت ہوئے، عمر بھر خانقاہ میں رہے اور شادی نہ کی، اور اٹھارہ کتابیں لکھیں جن میں سب سے مشہور «سیف الملوک» (سفر العشق) ہے۔"
+roles: [poet, mystic]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1830~"
+  hijri: "1246"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "There is considerable disagreement about his birth year, as both the English and Urdu articles set out: Mahbub Ali Faqir Qadri's biography, printed as an appendix to Saif-ul-Maluk and followed by the Shahkar Islami Encyclopedia, gives 1246 AH (1830 CE); other works suggest 1843; and Bakhsh himself states in Saif-ul-Maluk that he completed the work in Ramadan 1279 AH (1863) at the age of thirty-three, which places his birth in 1829 or 1830. The year 1830 is followed, as in the lane queue; it is approximate. Khari Sharif has no place entity, so no born_in edge is written. The Hijri year is Qadri's biographical date, as reported by the articles."
+  sources: [source/wikipedia-mian-muhammad-bakhsh-en, source/wikipedia-mian-muhammad-bakhsh-ur]
+died:
+  edtf: "1907-01-22"
+  hijri: "1324"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 22 January 1907 at Khari Sharif — the English article gives the day and month and dates it to 7 Dhu al-Hijjah 1324 AH; the Urdu article and Wikidata agree on 1907 and Wikidata's precise value is 22 January 1907 — and he was buried at Khari Sharif near his ancestor Damriyan Wali Sarkar. Khari Sharif has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion, agreeing with the English article's own Hijri date."
+  sources: [source/wikipedia-mian-muhammad-bakhsh-en, source/wikipedia-mian-muhammad-bakhsh-ur, source/wikidata-mian-muhammad-bakhsh]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Independent texts state his personal discipleship and his order affiliation, which is the lane's test for a sufi segment. The English text recounts that his father invested him as khalifa and presented him to Shaikh Abdul Qadir Gilani as his spiritual successor, and that he later took the formal bay'ah with Ghulam Muhammad, khalifa of Baba Baduh Shah Abdal in the line of Damriyan Wali Sarkar. The Urdu text, independently written, states in its silsila section that his chain of tariqa is Qadiri, Qalandari and Hujwiri, and records his bay'ah to Sain Ghulam Muhammad of Kalrodi Sharif. The Arabic text states in its lead that he belonged to the Qadiri Sufi order. The member_of edge is written to the Qadiriyya, the order the texts name first and most plainly. No madhhab is named for him in any consulted text, so no school segment is recorded; Wikidata's single religion value (Islam) is a structured value and is not counted."
+    sources: [source/wikipedia-mian-muhammad-bakhsh-en, source/wikipedia-mian-muhammad-bakhsh-ur, source/wikipedia-mian-muhammad-bakhsh-ar]
+relations:
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-mian-muhammad-bakhsh-ur, source/wikipedia-mian-muhammad-bakhsh-ar] }
+external_ids: { wikidata: "Q6814654" }
+sources: [source/wikipedia-mian-muhammad-bakhsh-en, source/wikipedia-mian-muhammad-bakhsh-ar, source/wikipedia-mian-muhammad-bakhsh-ur, source/wikidata-mian-muhammad-bakhsh]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mian Muhammad Bakhsh' (revision 1373419176), Urdu Wikipedia 'میاں محمد بخش' (revision 11798304) and Arabic Wikipedia 'ميان محمد بخش' (revision 71709580), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6814654 (item revision 2554753981). The three articles rest on different source traditions (the Academy of the Punjab in North America and Shackle for the English; Hashmi's Punjabi Zaban o Adab and the Qadri tazkira tradition for the Urdu; a Rajput history for the Arabic lineage section) and are counted as independent texts. Existence checks by name fragments (bakhsh, muhammad bakhsh, محمد بخش), by Arabic label across data/person, by biography and by QID found no prior record for this man. His murshid Ghulam Muhammad has no person record, so no student_of edge is written; the member_of edge to group/qadiriyya is written once, here, in the subject's own record (Bakhsh member_of the Qadiriyya). The lane queue gives 1830–1907."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

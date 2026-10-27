@@ -1,0 +1,52 @@
+id: person/abdul-aleem-siddiqui
+class: person
+label: { ar: "عبد العليم صديقي", en: "Abdul Aleem Siddiqi", ur: "عبد العلیم صدیقی" }
+names:
+  - { value: "Muhammad Abdul Aleem Siddiqi", kind: full }
+  - { value: "محمد عبد العليم صديقي", kind: full }
+  - { value: "Abdul Aleem Siddiqi", kind: alternate }
+  - { value: "Muballigh-e-Islam", kind: laqab }
+gender: male
+summary:
+  ar: "عالم وداعية متنقل (1892–1954)، وُلد في ميروت بالهند وتوفي في المدينة المنورة ودُفن في البقيع. تلميذ أحمد رضا خان البريلوي وخليفته في الطريقة القادرية الرضوية، جاب العالم أربعين عاماً داعية، فأسس جمعية التبليغ الإسلامي لعموم الملايو في سنغافورة (1932) وأطلق البعثة الإسلامية العالمية في ترينيداد (1950)، وهو والد شاه أحمد نوراني."
+  en: "Scholar and travelling preacher (1892–1954), born at Meerut in India, died in Medina and buried in al-Baqi. A student of Ahmed Raza Khan Barelvi and his khalifa in the Qadiriyya Razviya order, he preached across the world for forty years, founded the All-Malaya Muslim Missionary Society in Singapore (1932) and launched the World Islamic Mission in Trinidad (1950); he was the father of Shah Ahmad Noorani."
+  ur: "عالم اور مبلغ (1892ء–1954ء)، میرٹھ میں پیدا ہوئے اور مدینہ منورہ میں وصال ہوا، جنت البقیع میں مدفون ہیں۔ احمد رضا خان بریلوی کے شاگرد اور سلسلہ قادریہ رضویہ میں ان کے خلیفہ تھے؛ چالیس برس دنیا بھر میں تبلیغ کی، 1932ء میں آل ملایا مسلم مشنری سوسائٹی (سنگاپور) اور 1950ء میں ٹرینیڈاڈ میں ورلڈ اسلامک مشن کی بنیاد رکھی۔ مولانا شاہ احمد نورانی کے والد تھے۔"
+roles: [scholar, preacher, mystic]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1892-04-03"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 3 April 1892 at Meerut (the English article and Wikidata's precise value agree). The Urdu and Arabic articles pair the date with 15 Ramadan 1310 AH, a pairing that does not convert — 3 April 1892 falls in Ramadan 1309 AH, and the Arabic article's own birth category gives 1309 AH — so the Hijri year shown is the conversion, 1309. Meerut has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ur, source/wikipedia-abdul-aleem-siddiqui-ar, source/wikidata-abdul-aleem-siddiqui]
+died:
+  edtf: "1954-08-22"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 22 August 1954 in Medina (all three articles and Wikidata agree), corresponding to 22 Dhu al-Hijjah 1373 AH in the Arabic article, and was buried in Jannat al-Baqi, Medina."
+  sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ur, source/wikipedia-abdul-aleem-siddiqui-ar, source/wikidata-abdul-aleem-siddiqui]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal discipleship in a Sufi order, which is the lane's test for a sufi segment. The English text's 'Ba'at and Khilafat' section states that he became a mureed of Imam Ahmed Raza Khan Barelvi in the Qadiriyya Razviya order and received his khilafat; the Arabic text, independently written, records his spiritual development under the guidance of Maulana Ahmed Raza Khan, and the Urdu text styles him Qadri in its body. A Sunni reading is preserved but not recorded as a segment: the English lead states that he belonged to the Barelvi movement of Sunni Islam, but that is one text, and the Urdu text names Sunni only in its infobox and categories. No madhhab segment is recorded: Hanafi appears only in the English and Urdu infoboxes, and infoboxes never count. His tariqa affiliation and any school question are kept separate, neither inferred from the other."
+    sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ar]
+relations:
+  - { type: student_of, target: person/ahmed-raza-khan-barelvi, sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ar] }
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-abdul-aleem-siddiqui-en] }
+  - { type: died_in, target: place/medina, sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ur] }
+  - { type: buried_in, target: place/medina, sources: [source/wikipedia-abdul-aleem-siddiqui-ar] }
+external_ids: { wikidata: "Q6777232" }
+sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ar, source/wikipedia-abdul-aleem-siddiqui-ur, source/wikidata-abdul-aleem-siddiqui]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Abdul Aleem Siddiqi' (revision 1380189636), Urdu Wikipedia 'عبد العلیم صدیقی' (revision 11800765) and Arabic Wikipedia 'عبد العليم صديق' (revision 76644481), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6777232 (item revision 2561026552). Existence checks by name fragments (siddiqui, aleem, عبد العلیم), by Arabic label across data/person, by biography and by QID found no prior record for this man; person/abdul-aleem-farooqui is a different man. His son Shah Ahmad Noorani has no person record, so no parent edge is written; the relationship is stated in the prose only. Edges written once, here, in the subject's own record: Siddiqui student_of Ahmed Raza Khan Barelvi (he studied under him and took bay'ah from him), Siddiqui member_of the Qadiriyya, and his death and burial in Medina. The founder's flagged question on this record: the Sunni (Barelvi movement) reading rests on the English text alone and is preserved in the faith note. The lane queue gives 1892–1954."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
