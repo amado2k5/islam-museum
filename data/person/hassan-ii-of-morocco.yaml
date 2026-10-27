@@ -1,0 +1,49 @@
+id: person/hassan-ii-of-morocco
+class: person
+label: { ar: "الحسن الثاني", en: "Hassan II of Morocco", ur: "حسن ثانی" }
+names:
+  - { value: "الحسن الثاني بن محمد بن يوسف العلوي", kind: full }
+  - { value: "Hassan bin Mohammed al-Alaoui", kind: full }
+  - { value: "Hassan II", kind: regnal }
+gender: male
+summary:
+  ar: "ملك المغرب من سنة 1961 إلى وفاته سنة 1999. وُلد في الرباط سنة 1929 وهو الابن الأكبر لمحمد الخامس، رافق والده في المنفى وشارك في مفاوضات الاستقلال، وخلفه على العرش سنة 1961، فأصدر أول دستور للمملكة سنة 1962، ونجا من محاولتي انقلاب سنتي 1971 و1972، ونظّم المسيرة الخضراء سنة 1975، وتوفي في الرباط فخلفه ابنه محمد السادس."
+  en: "King of Morocco from 1961 until his death in 1999. Born at Rabat in 1929, the eldest son of Mohammed V, he accompanied his father in exile and took part in the independence negotiations, succeeded him on the throne in 1961, promulgated the kingdom's first constitution in 1962, survived the coup attempts of 1971 and 1972, organized the Green March of 1975, and died at Rabat, succeeded by his son Mohammed VI."
+  ur: "1961 سے 1999 میں اپنی وفات تک مراکش کے بادشاہ۔ وہ 1929 میں رباط میں پیدا ہوئے، محمد الخامس کے سب سے بڑے بیٹے تھے، جلاوطنی میں والد کے ساتھ رہے اور آزادی کے مذاکرات میں شریک ہوئے، 1961 میں ان کے جانشین بنے، 1962 میں مملکت کا پہلا آئین جاری کیا، 1971 اور 1972 کی بغاوتوں سے بچ نکلے، 1975 میں سبز مارچ کا اہتمام کیا، اور رباط میں وفات پائی؛ ان کے جانشین ان کے بیٹے محمد سادس بنے۔"
+roles: [ruler]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1929-07-09"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 9 July 1929 at the Dar al-Makhzen palace in Rabat (English infobox and article; Arabic lead agrees). The Hijri year 1348 is the pairing carried by the Arabic article's birth category. No place entity for Rabat exists in the graph, so no born_in relation is written."
+  sources: [source/wikipedia-hassan-ii-of-morocco-en, source/wikipedia-hassan-ii-of-morocco-ar, source/wikidata-hassan-ii-of-morocco]
+died:
+  edtf: "1999-07-23"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 23 July 1999 at Rabat and was buried on 25 July 1999 in the Royal Mausoleum there. The Hijri year 1420 is the pairing carried by the Arabic article's death category. No place entity for Rabat exists in the graph, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-hassan-ii-of-morocco-en, source/wikipedia-hassan-ii-of-morocco-ar, source/wikidata-hassan-ii-of-morocco]
+relations:
+  - { type: child_of, target: person/mohammed-v-of-morocco, sources: [source/wikipedia-hassan-ii-of-morocco-en, source/wikipedia-hassan-ii-of-morocco-ar] }
+  - { type: successor_of, target: person/mohammed-v-of-morocco, sources: [source/wikipedia-hassan-ii-of-morocco-en, source/wikipedia-hassan-ii-of-morocco-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The Sunni reading rests on a single structured assertion carried in three places that copy one another: the English article's infobox (Sunni Islam), the Arabic article's infobox (Ahl al-Sunna wa'l-Jama'a) and Wikidata (Q69103, Sunni Islam Q483654) — one source family. No text in any edition names a school for him personally; his traditional Islamic instruction at the Royal College is formation, his religious policy as king is state policy, and his Alaouite descent and Commander-of-the-Faithful headship do not attest a personal school."
+    sources: [source/wikipedia-hassan-ii-of-morocco-en, source/wikipedia-hassan-ii-of-morocco-ar, source/wikidata-hassan-ii-of-morocco]
+external_ids: { wikidata: "Q69103" }
+sources: [source/wikipedia-hassan-ii-of-morocco-en, source/wikipedia-hassan-ii-of-morocco-ar, source/wikipedia-hassan-ii-of-morocco-ur, source/wikidata-hassan-ii-of-morocco]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Hassan II of Morocco, each fetched by its recorded revision id (EN 1376878329, AR 76705059, UR 11715569) with the returned id asserted equal before use, and Wikidata item Q69103 (item revision 2560164083), the QID grounded through the articles' own page properties — all three editions agree on Q69103 — and the item read twice with identical claims. Existence checks by name fragments (Hassan II, الحسن الثاني), by QID and by biography across data/person found no prior record; Hassan I of Morocco (Q496845) is his great-grandfather, a different man with his own record. The child_of and successor_of edges to Mohammed V rest on the English infobox (father, predecessor) and text (eldest son; reign from 26 February 1961) and the Arabic article's agreement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-93
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
