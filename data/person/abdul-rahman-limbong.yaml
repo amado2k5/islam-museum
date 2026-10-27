@@ -1,0 +1,52 @@
+id: person/abdul-rahman-limbong
+class: person
+label:
+  ar: "عبد الرحمن ليمبونغ"
+  en: "Abdul Rahman Limbong"
+  ur: "حاجی عبد الرحمان لمبونگ"
+summary:
+  ar: "عالم ملايوي من ترنغانو (1868–1929)، عُرف بحاجي عبد الرحمن ليمبونغ من تعليمه وتجارته في ليمبونغ بكيمامان. قاد مقاومة قوانين الأراضي البريطانية في ترنغانو، ومثّل المزارعين في محاكمتهم سنة 1922 وترأّس انتفاضة أيار 1928؛ نُفي إلى مكة وتوفي فيها سنة 1929."
+  en: "Malay ulama of Terengganu (1868–1929), known as Haji Abdul Rahman Limbong from his teaching and trading at Limbong, Kemaman. He led the resistance to British land laws in Terengganu, represented farmers on trial in 1922 and headed the rising of May 1928; exiled to Mecca, he died there in 1929."
+  ur: "تیرنگانو کے مالے عالم (1868ء–1929ء)، جو لمبونگ، کیمامان میں اپنی تعلیم و تجارت کی وجہ سے حاجی عبد الرحمان لمبونگ کے نام سے مشہور ہوئے۔ انہوں نے تیرنگانو میں برطانوی اراضی قوانین کے خلاف مزاحمت کی قیادت کی، 1922ء میں کسانوں کے مقدمے میں ان کی نمائندگی کی اور مئی 1928ء کی بغاوت کی سربراہی کی؛ مکہ جلاوطن کیے گئے اور 1929ء میں وہیں وفات پائی۔"
+names:
+  - { value: "Haji Abdul Rahman bin Haji Abdul Hamid bin Haji Abdul Qadir", kind: full }
+  - { value: "حاجي عبد الرحمن بن حاجي عبد الحميد", kind: full }
+  - { value: "Abdul Rahman Limbong", kind: alternate }
+  - { value: "Lebai Deraman", kind: alternate }
+gender: male
+roles: [scholar, teacher, merchant, activist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1868"
+  hijri: "1285"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives 1868, born at Telemong (Telemung), Terengganu; the Malay article gives the year as circa 1285 H / 1868 M — the Hijri pairing is the Malay article's own, recorded as attested, and its circa marking is why the status is debated. No source gives a day. Telemong has no museum place record, so no born_in relation is written."
+  sources: [source/wikipedia-abdul-rahman-limbong-en, source/wikipedia-abdul-rahman-limbong-ms, source/wikidata-abdul-rahman-limbong]
+died:
+  edtf: "1929-11-16"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Malay article gives his death at Mecca on 14 Jumada al-Akhirah 1348 H, 16 November 1929, as reported by a telegram sent from Jeddah (Malaysia in History, 1968); the English article and its Urdu translation give the year 1929 and Mecca only. Wikidata carries both 16 November 1929 and a stray 1 January 1929 value. The Hijri pairing is attested in the Malay article itself."
+  sources: [source/wikipedia-abdul-rahman-limbong-ms, source/wikipedia-abdul-rahman-limbong-en, source/wikidata-abdul-rahman-limbong]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "One text names a personal Sufi practice: the Malay article says that, like his teacher Tok Ku Paloh, he was a practitioner of the Sammaniyah order (pengamal Tarikat Sammaniyah), in the passage on his education. That is a single text family. The English article and its Urdu translation name no school or order, and Wikidata records no religion at all. His teaching of Sufi books — the Malay article lists Hidayah al-Salikin and al-Durr al-Nafis among the works he taught — is his teaching, not an attested affiliation, and his teacher's order would in any case be his teacher's. One text family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-abdul-rahman-limbong-ms, source/wikipedia-abdul-rahman-limbong-en, source/wikidata-abdul-rahman-limbong]
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/wikipedia-abdul-rahman-limbong-en, source/wikipedia-abdul-rahman-limbong-ms, source/wikipedia-abdul-rahman-limbong-ur] }
+external_ids: { wikidata: "Q5639866" }
+sources: [source/wikipedia-abdul-rahman-limbong-en, source/wikipedia-abdul-rahman-limbong-ms, source/wikipedia-abdul-rahman-limbong-ur, source/wikidata-abdul-rahman-limbong]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Haji Abdul Rahman Limbong' (revision 1316666654 of 13 October 2025), Malay Wikipedia 'Haji Abdul Rahman Limbong' (revision 6939211 of 25 August 2026), Urdu Wikipedia (revision 9503854 of 15 March 2026) and Wikidata item Q5639866 (item revision 2527808599 of 5 August 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026 with the recorded revision ids asserted equal on a second read. The QID was grounded through the English article's page properties and confirmed through the Malay and Urdu articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Malay fragments or the QID Q5639866, and no shared Arabic label requires a homonym entry. The Urdu article is a translation of the English and counts with its family. His death at Mecca is written as a relation to the existing place/mecca; his Telemong birthplace has no place record, and there is no Malay polity entity for any office relation. The English article's 'Abdul Rahman Limbong' title is a redirect to 'Haji Abdul Rahman Limbong'; the fuller nasab is the Malay article's."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95
