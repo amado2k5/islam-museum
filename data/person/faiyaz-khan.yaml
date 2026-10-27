@@ -1,0 +1,48 @@
+id: person/faiyaz-khan
+class: person
+label: { ar: "فياض خان", en: "Faiyaz Khan", ur: "فیاض خان" }
+names:
+  - { value: "فیاض خان", kind: full }
+  - { value: "Faiyaz Khan", kind: full }
+  - { value: "آفتاب موسیقی", kind: laqab }
+  - { value: "Aftab-e-Mausiqi", kind: laqab }
+  - { value: "پریم پیا", kind: pen }
+  - { value: "Prem Piya", kind: pen }
+gender: male
+summary:
+  ar: "مغنٍّ كلاسيكي هندي (1886–1950)، أبرز أعلام غرانة آغرة في الغناء الهندستاني، وُلد في سكندرا قرب آغرة وتوفي في بارودا. عُرف بلقب «آفتاب موسيقي» (شمس الموسيقى)، وكان موسيقي بلاط بارودا، ولحّن باسم «بريم بيا»، وجمع في أسلوبه بين الدروباد والخيال والثومري."
+  en: "Indian classical vocalist (1886–1950), the leading exponent of the Agra gharana of Hindustani music, born at Sikandara near Agra and died at Baroda. Known as Aftab-e-Mausiqi ('the Sun of Music'), he was court musician of Baroda, composed under the pen name Prem Piya, and blended dhrupad, khyal and thumri in his style."
+  ur: "ہندوستانی کلاسیکی گلوکار (1886ء–1950ء)، آگرہ گھرانے کے سب سے نامور استاد؛ سکندرہ (قرب آگرہ) میں پیدا ہوئے اور بڑودہ میں وفات پائی۔ «آفتابِ موسیقی» کے لقب سے مشہور ہوئے، بڑودہ کے درباری موسیقار رہے، «پریم پیا» کے قلمی نام سے بندشیں بنائیں اور اپنے انداز میں دھرپد، خیال اور ٹھمری کو یکجا کیا۔"
+roles: [musician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1886-02-08"
+  hijri: "1303"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 8 February 1886 at Sikandara near Agra, citing the ITC Sangeet Research Academy tribute; some secondary works contest the year (1888 or 1889 in R. C. Mehta's Eminent Musicians of Yester Years), and the variant is stated here. The Hijri year (1303) is a conversion. Sikandara has no place entity and is not the city of Agra itself, so no born_in edge is written."
+  sources: [source/wikipedia-faiyaz-khan-en]
+died:
+  edtf: "1950-11-05"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death from tuberculosis on 5 November 1950 at Baroda. The Hijri year (1370) is a conversion. No place entity exists for Baroda, so no died_in edge is written."
+  sources: [source/wikipedia-faiyaz-khan-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted text names his religion or any school. The English article gives his musical lineage back through his grandfather Ghulam Abbas to Haji Sujan Khan, his court service at Baroda and his titles — musical facts, never a faith attestation; his given name and family background do not count. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-faiyaz-khan-en]
+sources: [source/wikipedia-faiyaz-khan-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Faiyaz Khan', read on 26 October 2026. The reading route used exposed no revision ids, so the source is recorded in the consultation-date form and no Wikidata source file or external_ids are asserted. Existence was checked by filename fragments under all spellings (faiyaz, fayaz, aftab), by Arabic label, by biography and by the Wikidata route across data/person/ — no earlier record exists. There is no Urdu Wikipedia article for him: the Urdu article 'فیاض خان خیشگی' is a different, living Pakistani musician (Fayaz Khan Kheshgi, b. 1966). No Arabic Wikipedia article exists either; the Arabic and Urdu prose are written from the English source and the Arabic prose says so. No relations are written: Sikandara and Baroda have no place entities, and his teachers (Ghulam Abbas, Mehboob Khan Daraspiya, Natthan Khan, Fida Hussain Khan) and his named students have no person records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
