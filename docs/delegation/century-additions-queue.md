@@ -436,11 +436,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Moktar Ould Daddah — 1924–2003
 - [x] Maaouya Ould Sid'Ahmed Taya — 1941–Living
 - [x] Mohamed Ould Abdel Aziz — 1956–Living
-- [ ] Mohamed Ould Ghazouani — 1956–Living
-- [ ] Lamine Diack — 1933–2021
-- [ ] Abdou Diouf — 1935–Living
-- [ ] Abdoulaye Wade — 1926–Living
-- [ ] Macky Sall — 1961–Living
+- [x] Mohamed Ould Ghazouani — 1956–Living
+- [x] Lamine Diack — 1933–2021
+- [x] Abdou Diouf — 1935–Living
+- [x] Abdoulaye Wade — 1926–Living
+- [x] Macky Sall — 1961–Living
 - [ ] Bassirou Diomaye Faye — 1980–Living
 - [ ] Ousmane Sonko — 1974–Living
 - [ ] Siad Barre — 1919–1995

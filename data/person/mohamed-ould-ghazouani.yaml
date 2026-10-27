@@ -1,0 +1,46 @@
+id: person/mohamed-ould-ghazouani
+class: person
+label:
+  ar: "محمد ولد الغزواني"
+  en: "Mohamed Ould Ghazouani"
+  ur: "محمد ولد غزوانی"
+names:
+  - { value: "Mohamed Ould Ghazouani", kind: full }
+  - { value: "محمد ولد الغزواني", kind: full }
+  - { value: "محمد ولد غزوانی", kind: full }
+  - { value: "Mohamed Ould Cheikh Mohamed Ahmed Ould Ghazouani", kind: full }
+  - { value: "محمد ولد الشيخ محمد أحمد ولد الغزواني", kind: full }
+gender: male
+summary:
+  ar: "عسكري وسياسي موريتاني (وُلد 1956)، قائد عام للجيوش الموريتانية عقدا كاملا ووزير دفاع (2018–2019)، ثم رئيس موريتانيا منذ 1 أغسطس 2019 بعد فوزه بانتخابات 2019، وأُعيد انتخابه سنة 2024؛ خلف محمد ولد عبد العزيز، ورأس الاتحاد الإفريقي (2024–2025)."
+  en: "Mauritanian general and politician (born 1956), chief of staff of the armed forces for a decade and defence minister (2018–2019), then president of Mauritania since 1 August 2019 after winning the 2019 election, re-elected in 2024; he succeeded Mohamed Ould Abdel Aziz and chaired the African Union in 2024–2025."
+  ur: "موریطانیہ کے جرنیل اور سیاست دان (پیدائش 1956ء)، ایک دہائی تک مسلح افواج کے چیف آف اسٹاف اور وزیر دفاع (2018ء–2019ء) رہے، پھر 2019ء کے انتخابات جیت کر یکم اگست 2019ء سے موریطانیہ کے صدر ہیں اور 2024ء میں دوبارہ منتخب ہوئے۔"
+roles: [general, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1956-12-31"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The French and Arabic articles and Wikidata give his birth on 31 December 1956 at Boumdeid in the Assaba region; the English article gives 4 December 1956, citing Al Araby. The majority date is followed and the English variant preserved here. No place entity for Boumdeid exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohamed-ould-ghazouani-fr, source/wikipedia-mohamed-ould-ghazouani-ar, source/wikidata-mohamed-ould-ghazouani, source/wikipedia-mohamed-ould-ghazouani-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "One text family names a school for him personally: the French article, citing La Libre of 2 August 2019 and L'Opinion of 3 October 2021, says he 'defines himself as a Muslim attached to the values of Islam and to the Maliki rite', and the Arabic article carries the same passage on the same citations — an article and its mirror text are one family, so the Maliki reading stands one attestation short of sunni-maliki/documented and is preserved here. The rest never counts: the English and French texts describe his Sufi family lineage (the son of a spiritual leader of the maraboutic Ideiboussat tribe) and note that he memorised the Quran — family background and practice; Wikidata's single religion value is Sufism, a structured value; the English and Urdu articles file him under Mauritanian Sufis; the French infobox gives Islam. Family background, a structured value and filings do not attest a personal affiliation, so the value stays unknown."
+    sources: [source/wikipedia-mohamed-ould-ghazouani-fr, source/wikipedia-mohamed-ould-ghazouani-ar, source/wikipedia-mohamed-ould-ghazouani-en, source/wikidata-mohamed-ould-ghazouani]
+relations:
+  - type: successor_of
+    target: person/mohamed-ould-abdel-aziz
+    sources: [source/wikipedia-mohamed-ould-ghazouani-en, source/wikipedia-mohamed-ould-ghazouani-fr]
+external_ids: { wikidata: "Q12241106" }
+sources: [source/wikipedia-mohamed-ould-ghazouani-en, source/wikipedia-mohamed-ould-ghazouani-ar, source/wikipedia-mohamed-ould-ghazouani-ur, source/wikipedia-mohamed-ould-ghazouani-fr, source/wikidata-mohamed-ould-ghazouani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1369728396 of 16 August 2026, Arabic revision 76479727 of 8 September 2026, Urdu revision 9684401 of 3 April 2026 and French revision 240276624 of 11 October 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q12241106 revision 2528376436 of 7 August 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script, and no museum record carries Q12241106. The Arabic article's Maliki self-definition passage mirrors the French article and its citations and is counted as one family with it. His birth is dated 31 December 1956 (French and Arabic articles, Wikidata) against the English article's 4 December 1956 (Al Araby) — the majority date followed, status debated, variant recorded. No place entity exists for Boumdeid, so no born_in relation; his presidency succession from Mohamed Ould Abdel Aziz (record exists) is written as a relation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
