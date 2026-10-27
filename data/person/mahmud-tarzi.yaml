@@ -1,0 +1,56 @@
+id: person/mahmud-tarzi
+class: person
+label:
+  ar: "محمود طرزي"
+  en: "Mahmud Tarzi"
+  ur: "محمود طرزی"
+summary:
+  ar: "سياسي ومفكر وصحفي أفغاني (1865-1933)، أبو الصحافة الأفغانية. نُفي مع أسرته إلى كراتشي ثم الدولة العثمانية حيث التقى جمال الدين الأفغاني وتأثر بأفكاره الإصلاحية، وعاد إلى أفغانستان سنة 1902 فأسس صحيفة «سراج الأخبار» (1911-1919) لسان حركة الشباب الأفغان، وصار وزيرا للخارجية (1919-1922 و1924-1927) وقاد الوفد الأفغاني في مفاوضات الاستقلال. هو والد الملكة ثريا وصهر الملك أمان الله. مات منفيا في إسطنبول."
+  en: "Afghan statesman, thinker and journalist (1865–1933), the father of Afghan journalism. Exiled with his family to Karachi and then the Ottoman Empire, where he met Jamal al-Din al-Afghani and absorbed his reformist ideas, he returned to Afghanistan in 1902 and founded the newspaper Seraj al-Akhbar (1911–1919), the voice of the Young Afghan movement; he became foreign minister (1919–1922 and 1924–1927) and led the Afghan delegation in the independence negotiations. He was Queen Soraya's father and King Amanullah's father-in-law. He died in exile at Istanbul."
+  ur: "افغان سیاست دان، مفکر اور صحافی (1865ء–1933ء)، افغان صحافت کے بانی۔ خاندان کے ساتھ کراچی اور پھر سلطنتِ عثمانیہ جلاوطن ہوئے، جہاں جمال الدین افغانی سے ملاقات کی اور ان کے اصلاحی خیالات سے متاثر ہوئے؛ 1902ء میں افغانستان واپس آ کر اخبار «سراج الاخبار» (1911ء–1919ء) جاری کیا جو نوجوان افغان تحریک کی آواز تھا، وزیرِ خارجہ بنے (1919ء–1922ء اور 1924ء–1927ء) اور آزادی کی مذاکرات میں افغان وفد کی قیادت کی۔ ملکہ ثریا کے والد اور بادشاہ امان اللہ کے سسر تھے۔ استنبول میں جلاوطنی میں وفات پائی۔"
+names:
+  - { value: "Mahmud Tarzi", kind: full }
+  - { value: "محمود طرزۍ", kind: full }
+  - { value: "Mahmud Beg Tarzi", kind: alternate }
+  - { value: "Allamah", kind: laqab }
+gender: male
+born:
+  edtf: "1865-08-23"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 23 August 1865 at Ghazni, in the Emirate of Afghanistan, a Pashtun of the Mohammadzai house, as the English article and Wikidata give. No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Ghazni, so no born_in relation is written."
+  sources: [source/wikipedia-mahmud-tarzi-en, source/wikidata-mahmud-tarzi]
+died:
+  edtf: "1933-11-22"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 22 November 1933 at Istanbul, Turkey, of liver cancer, in the exile he had followed King Amanullah into after 1929, as the English article and Wikidata give; the article gives Istanbul as his resting place."
+  sources: [source/wikipedia-mahmud-tarzi-en, source/wikidata-mahmud-tarzi]
+roles: [politician, writer]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: parent_of, target: person/soraya-tarzi, sources: [source/wikipedia-mahmud-tarzi-en, source/wikipedia-soraya-tarzi-en] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-mahmud-tarzi-en, source/wikidata-mahmud-tarzi] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-mahmud-tarzi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or a school for him at all. The English article carries no religion value in its infobox and no text naming his faith; there is no Arabic article on him, and Wikidata carries no religion value. The article records his pilgrimage to Mecca, his formation in Damascus and Istanbul, his meeting with Jamal al-Din al-Afghani and the pan-Islamist and modernist ideas he argued for in Seraj al-Akhbar — practice, biography and ideas, none of which attests a school. On the absence configuration the value is unknown, unflagged."
+    sources: [source/wikipedia-mahmud-tarzi-en, source/wikidata-mahmud-tarzi]
+external_ids: { wikidata: "Q153640" }
+sources:
+  - source/wikipedia-mahmud-tarzi-en
+  - source/wikipedia-mahmud-tarzi-ur
+  - source/wikidata-mahmud-tarzi
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia articles on Mahmud Tarzi (no Arabic article exists) and his Wikidata item Q153640 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026; no witness names a religion or school for him, so his faith is unknown on the absence configuration. The parent_of edge to Soraya Tarzi is written here, in the father's record, only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-113

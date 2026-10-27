@@ -1,0 +1,55 @@
+id: person/soraya-tarzi
+class: person
+label:
+  ar: "ثريا طرزي"
+  en: "Soraya Tarzi"
+  ur: "ثریا طرزی"
+summary:
+  ar: "ملكة أفغانستان عقيلة الملك أمان الله خان، وابنة المفكر والسياسي محمود طرزي. وُلدت في دمشق ونشأت فيها، وتزوجت أمان الله سنة 1913 فكانت زوجته الوحيدة خلافا لقرون من التعدد الملكي. قادت مع زوجها إصلاحات تحرير المرأة: أسست أول مجلة نسائية أفغانية «إرشاد النسوان» وأول مدرسة للبنات في كابل، وألقت خطبا عامة، وظهرت معه في أوروبا سنة 1927-1928. عاشت منفية في روما بعد 1929 وتوفيت فيها سنة 1968 ودُفنت في جلال أباد."
+  en: "Queen of Afghanistan as consort of King Amanullah Khan, and daughter of the thinker and statesman Mahmud Tarzi. Born and raised in Damascus, she married Amanullah in 1913 and was his only wife, breaking centuries of royal polygamy. With him she led the women's-emancipation reforms: she founded the first Afghan women's magazine, Irshad al-Naswan, and the first girls' school in Kabul, gave public speeches, and toured Europe with him in 1927–1928. She lived in exile in Rome after 1929, died there in 1968 and was buried at Jalalabad."
+  ur: "افغانستان کی ملکہ، بادشاہ امان اللہ خان کی اہلیہ اور مفکر و سیاست دان محمود طرزی کی بیٹی۔ دمشق میں پیدا ہوئیں اور وہیں پلی بڑھیں؛ 1913ء میں امان اللہ سے شادی ہوئی اور شاہی تعددِ ازواج کی صدیوں پرانی روایت توڑ کر ان کی واحد بیوی رہیں۔ شوہر کے ساتھ خواتین کی آزادی کی اصلاحات کی قیادت کی: خواتین کا پہلا افغان رسالہ «ارشاد النسوان» اور کابل میں لڑکیوں کا پہلا اسکول قائم کیا، عوامی خطبات دیے اور 1927ء–1928ء میں ان کے ساتھ یورپ کا دورہ کیا۔ 1929ء کے بعد روم میں جلاوطنی میں رہیں، 1968ء میں وفات پائی اور جلال آباد میں دفن ہوئیں۔"
+names:
+  - { value: "Soraya Tarzi", kind: full }
+  - { value: "ثريا طرزي", kind: full }
+  - { value: "Suraiya Shahzada Tarzi", kind: alternate }
+gender: female
+born:
+  edtf: "1899-11-24"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born on 24 November 1899 at Damascus, in Ottoman Syria, as the English article's body text gives with a citation, and as the Arabic article and Wikidata also give. The English article's own lead and infobox give 1897 instead; the article is internally split, so the date is carried as debated with the 1899 dating followed (two of the three witnesses, and the cited body text) and the 1897 variant recorded here. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-soraya-tarzi-ar, source/wikidata-soraya-tarzi]
+died:
+  edtf: "1968-04-20"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 20 April 1968 at Rome, Italy, in exile, as both articles and Wikidata give; after a state funeral her body was taken to Afghanistan and buried in the family mausoleum at Jalalabad, beside her husband. No place entity exists for Rome or Jalalabad, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-soraya-tarzi-ar, source/wikidata-soraya-tarzi]
+roles: [official]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-soraya-tarzi-en, source/wikidata-soraya-tarzi] }
+  - { type: spouse_of, target: person/amanullah-khan, sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-amanullah-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Every source gives her religion generically and none names a school. The English article's text calls her the first Muslim consort to appear in public with her husband, its infobox gives her religion as Islam, and Wikidata's religion value is Islam; the Arabic article carries no religion value at all. Her public role as queen consort, her speeches invoking the women of early Islam and her father's family are role, framing and descent, not attestations of a school. The article also records a New York Times report that she and the King had converted to Catholicism, and records that the report was later found to be false; it is preserved here as a refuted report, not an attestation. With no school named anywhere, the value stays unknown on the generic-only configuration."
+    sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-soraya-tarzi-ar, source/wikidata-soraya-tarzi]
+external_ids: { wikidata: "Q2976698" }
+sources:
+  - source/wikipedia-soraya-tarzi-en
+  - source/wikipedia-soraya-tarzi-ar
+  - source/wikipedia-soraya-tarzi-ur
+  - source/wikidata-soraya-tarzi
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Soraya Tarzi and her Wikidata item Q2976698 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026; every witness gives her religion as Islam generically and none names a school, so her faith is unknown on the generic-only configuration. Her birth is debated: the English lead and infobox give 1897 against the cited body text, the Arabic article and Wikidata at 1899, which is followed. The spouse_of edge to Amanullah Khan is written here, in her record, only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-113
