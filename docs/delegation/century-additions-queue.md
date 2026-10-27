@@ -712,7 +712,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Amjad Ali Khan — 1945–Living
 - [ ] Zakir Hussain — 1951–Living
 - [ ] Vilayat Khan — 1928–2004
-- [ ] Bade Ustad Ghulam Ali Khan — 1902–1968
+- [x] Bade Ustad Ghulam Ali Khan — 1902–1968
 - [ ] Begum Akhtar — 1914–1974
 - [ ] Mehdi Hassan — 1927–2012
 - [ ] Ghulam Ali — 1940–Living
@@ -1312,11 +1312,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Josh Malihabadi (1898–1982)
 - [x] Firaq Gorakhpuri (1896–1982)
 - [x] Jigar Moradabadi (1890–1960)
-- [ ] Asghar Gondvi (1884–1936)
+- [x] Asghar Gondvi (1884–1936)
 - [ ] Hasrat Jaipuri (Forebears) (1890–1940)
-- [ ] Bade Ustad Ghulam Ali Khan (1902–1968)
-- [ ] Ustad Faiyaz Khan (1886–1950)
-- [ ] Ustad Abdul Karim Khan (1872–1937)
+- [x] Bade Ustad Ghulam Ali Khan (1902–1968)
+- [x] Ustad Faiyaz Khan (1886–1950)
+- [x] Ustad Abdul Karim Khan (1872–1937)
 - [ ] Ustad Alladiya Khan (1855–1946)
 - [ ] Ustad Bundu Khan (1880–1955)
 - [ ] Ustad Alauddin Khan (1862–1972)

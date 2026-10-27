@@ -1,0 +1,50 @@
+id: person/asghar-gondvi
+class: person
+label: { ar: "أصغر غوندوي", en: "Asghar Gondvi", ur: "اصغر گونڈوی" }
+names:
+  - { value: "اصغر حسین", kind: full }
+  - { value: "Asghar Husain", kind: full }
+  - { value: "اصغر گونڈوی", kind: pen }
+  - { value: "Asghar Gondvi", kind: pen }
+gender: male
+summary:
+  ar: "شاعر أردي (1884–1936)، وُلد باسم أصغر حسين في غوراخبور ونشأ في غوندا فنُسب إليها. تعلّم بنفسه حتى أتقن الأردية والعربية والفارسية، وحرّر مجلة «هندوستاني» في الله آباد سنوات، واشتهر بغزليات ذات نَفَس صوفي وفلسفي جُمعت في «نشاط روح» و«سرود زندگي»."
+  en: "Urdu poet (1884–1936), born Asghar Husain at Gorakhpur and raised at Gonda, from which his pen name Gondvi comes. Largely self-taught to mastery of Urdu, Arabic and Persian, he edited the magazine Hindustani at Allahabad for years and became known for ghazals of a Sufi and philosophical cast, collected as Nishat-e Rooh and Surood-e Zindagi."
+  ur: "اردو کے شاعر (1884ء–1936ء)، جو گورکھپور میں اصغر حسین کے نام سے پیدا ہوئے اور گونڈہ میں پروان چڑھے، اسی نسبت سے گونڈوی کہلائے۔ انھوں نے ذاتی محنت سے اردو، عربی اور فارسی میں مہارت حاصل کی، برسوں الہ آباد سے شائع ہونے والے رسالے «ہندوستانی» کی ادارت کی، اور ان کی صوفیانہ و فلسفیانہ غزلیں «نشاطِ روح» اور «سرودِ زندگی» میں جمع ہوئیں۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1884"
+  hijri: "1301"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 1884 is agreed by the English and Urdu articles, Rekhta and Wikisource. The English article and Rekhta give Gorakhpur as the birthplace, which the record follows; one Urdu literary profile gives Gonda and a 1 March 1884 date, and his family home was Gorakhpur district while his father was posted at Gonda, where the poet was raised and from which his nisba comes. The day-level dates in low-authority sites (6 February) are not recorded. The Hijri year (1301) is a conversion. No place entity exists for Gorakhpur or Gonda, so no born_in edge is written."
+  sources: [source/wikipedia-asghar-gondvi-en, source/wikipedia-asghar-gondvi-ur, source/rekhta-asghar-gondvi]
+died:
+  edtf: "1936"
+  hijri: "1355"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The year 1936 and death by paralysis are agreed by the English and Urdu articles and the podcast tradition. The place is split: the English article gives Allahabad, and the Urdu Paimana-e-Ghazal tradition gives 30 November 1936 with burial at Allahabad in the enclosure of Shaykh Muhibullah's shrine, while the Urdu article's infobox gives Gonda. The record therefore carries the year at year precision with the split stated. The Hijri year (1355) is a conversion. No place entity exists for Allahabad or Gonda, so no died_in edge is written."
+  sources: [source/wikipedia-asghar-gondvi-en, source/wikipedia-asghar-gondvi-ur]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal discipleship, which is the lane's test for a sufi segment. The Urdu article's text states that he formally took bay'ah (the initiation oath) at the hand of Shah Abdul Ghani and remained steeped in tasawwuf. The published Diwan-e-Asghar Gondvi's description states in text that he was a murid (disciple) of Hazrat Abdul Ghani Manglori. The Urdu Ghazal Podcast's synopsis corroborates in weaker words (he was under the spiritual influence of Sayed Abdul Ghani Kazmi and led a life of piety), and Rekhta's statement that his early verse was written under the influence of Sufi poets concerns his poetry and is not counted. No source names a madhhab for him, so no second segment is recorded."
+    sources: [source/wikipedia-asghar-gondvi-ur, source/archive-org-deewan-asghar-gondvi]
+relations:
+  - type: related_to
+    target: person/jigar-moradabadi
+    sources: [source/archive-org-deewan-asghar-gondvi]
+sources: [source/wikipedia-asghar-gondvi-en, source/wikipedia-asghar-gondvi-ur, source/rekhta-asghar-gondvi, source/archive-org-deewan-asghar-gondvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Asghar Gondvi', Urdu Wikipedia 'اصغر گونڈوی', the Rekhta author profile and the Internet Archive item for the Diwan-e-Asghar Gondvi, read on 26 October 2026. The reading route used exposed no revision ids, so the sources are recorded in the consultation-date form and no Wikidata source file or external_ids are asserted. Existence was checked by filename fragments under all spellings (gondvi, gondawi, asghar, husain), by Arabic label, by biography and by the Wikidata route across data/person/ — no earlier record exists; the Asghar who appears in Jigar Moradabadi's record as his friend is this man, and Jigar's record now gains its counterpart edge from this record (the Diwan description calls them pir-bhai, fellow-disciples of Abdul Ghani). No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and says so."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
