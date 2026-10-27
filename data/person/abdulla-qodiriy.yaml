@@ -1,0 +1,49 @@
+id: person/abdulla-qodiriy
+class: person
+label:
+  ar: "عبد الله قادري"
+  en: "Abdulla Qodiriy"
+  ur: "عبداللہ قادری"
+names:
+  - { value: "Abdulla Qodiriy", kind: full }
+  - { value: "Abdullah Qodiriy", kind: alternate }
+  - { value: "Abdullah Kadiri", kind: alternate }
+  - { value: "Абдулла Кадыри", kind: alternate }
+  - { value: "Julqunboy", kind: pen }
+roles: [writer, novelist, poet, playwright, translator]
+summary:
+  ar: "روائي وكاتب مسرحي وشاعر أوزبكي (1894–1938م) من طشقند، مؤسس الرواية الأوزبكية بروايته «الأيام الماضية» (1922م)، كتب باسم مستعار هو جولقونبوي، وأُعدم في التطهير الكبير في 4 أكتوبر 1938م."
+  en: "Uzbek novelist, playwright and poet (1894–1938) from Tashkent, founder of the Uzbek novel with Oʻtgan kunlar (Bygone Days, 1922), who wrote under the pen name Julqunboy and was executed in the Great Purge on 4 October 1938."
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1894-04-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born in Tashkent on 10 April 1894, the date given by the English, Russian and Uzbek articles and by Wikidata. No source consulted gives a Hijri pairing, so no hijri value is recorded."
+  sources: [source/wikipedia-qodiriy-en, source/wikipedia-qodiriy-ru, source/wikipedia-qodiriy-uz, source/wikidata-qodiriy]
+died:
+  edtf: "1938-10-04"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Executed in Tashkent on 4 October 1938 in the Great Purge, the date given by the English, Russian and Uzbek articles and by Wikidata; the Uzbek article states that he was executed together with like-minded colleagues including Cho'lpon and Fitrat. No source consulted gives a Hijri pairing, so no hijri value is recorded."
+  sources: [source/wikipedia-qodiriy-en, source/wikipedia-qodiriy-ru, source/wikipedia-qodiriy-uz, source/wikidata-qodiriy]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school or order for Qodiriy. The Uzbek infobox records Islam in general in its religion field; the English and Russian infoboxes carry no religion field, and Wikidata records no religion value. His schooling at a Muslim school in 1904–1906 is formation, and the Jadid influence on his early work is a movement descriptor, not a school. With no school reading in any source, the value is unknown under the two-source rule (generic-only configuration)."
+    sources: [source/wikipedia-qodiriy-en, source/wikipedia-qodiriy-ru, source/wikipedia-qodiriy-uz, source/wikidata-qodiriy]
+relations:
+  - type: allied_with
+    target: person/abdurauf-fitrat
+    note: "The Uzbek article states that Qodiriy was executed together with his like-minded colleagues (maslakdoshlar), among them Cho'lpon and Abdurauf Fitrat."
+    sources: [source/wikipedia-qodiriy-uz]
+sources: [source/wikipedia-qodiriy-en, source/wikipedia-qodiriy-ru, source/wikipedia-qodiriy-uz, source/wikidata-qodiriy]
+external_ids:
+  wikidata: Q2427335
+status: { review: published }
+provenance: { layer: own-research, source: "English, Russian and Uzbek Wikipedia articles on Abdulla Qodiriy read in full at recorded revisions (Urdu edition also read), and Wikidata item Q2427335 (grounded through the English article's page property, read twice identically), 27 October 2026; Tashkent has no place entity, so no place edges are written", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-103 }

@@ -1,0 +1,48 @@
+id: person/sadriddin-ayni
+class: person
+label:
+  ar: "صدر الدين عيني"
+  en: "Sadriddin Ayni"
+  ur: "صدر الدین عینی"
+names:
+  - { value: "Sadriddin Ayni", kind: full }
+  - { value: "Sadriddin Saidmurodovich Saidmurodov", kind: full }
+  - { value: "Sadriddin Aini", kind: alternate }
+  - { value: "صدرالدین عینی", kind: alternate }
+roles: [writer, poet, historian, scholar]
+summary:
+  ar: "كاتب وشاعر ومؤرخ طاجيكي (1878–1954م) من قرية ساكتاره في إمارة بخارى، من متنوري الجديد تعلم في مدرسة مير عرب في بخارى، ومؤلف «دوخوندا» (1927م) أول رواية طاجيكية، وأول رئيس لأكاديمية علوم طاجيكستان السوفييتية."
+  en: "Tajik writer, poet and historian (1878–1954) from the Bukhara emirate village of Saktare: a Jadid enlightener educated at Bukhara's Mir-i-Arab madrasa, author of Dokhunda (1927), the first Tajik novel, and first president of the Academy of Sciences of the Tajik SSR."
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1878-04-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born in the village of Saktare in the Emirate of Bukhara on 27 April 1878 (New Style), the form given by the Tajik article and used by the English article's own age computation; the English lead and the Uzbek infobox give 15 April 1878, the Julian form of the same day, which Wikidata also carries alongside a year-precision 1878. No source consulted gives a Hijri pairing, so no hijri value is recorded."
+  sources: [source/wikipedia-ayni-en, source/wikipedia-ayni-ru, source/wikipedia-ayni-tg, source/wikidata-ayni]
+died:
+  edtf: "1954-07-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Stalinabad (now Dushanbe) on 15 July 1954, the date given by the English article and by Wikidata's principal value; Wikidata also carries an unsupported 29 December 1954 value, which is not followed. No source consulted gives a Hijri pairing, so no hijri value is recorded."
+  sources: [source/wikipedia-ayni-en, source/wikipedia-ayni-ru, source/wikidata-ayni]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted gives any religion content for Ayni at all: the English, Russian, Tajik, Uzbek, Arabic and Urdu texts name no affiliation, no infobox carries a religion field, and Wikidata records no religion value. His attendance at Bukhara's Mir-i-Arab madrasa is formation, his participation in the jadid enlightenment movement is a movement descriptor, and any Sufi colouring of his family milieu would be family background; none of these is an attestation. The value is unknown under the two-source rule (absence configuration)."
+    sources: [source/wikipedia-ayni-en, source/wikipedia-ayni-ru, source/wikipedia-ayni-tg]
+relations:
+  - type: lived_in
+    target: place/bukhara
+    note: "Orphaned at twelve, Ayni moved to Bukhara and attended the Mir-i-Arab madrasa, where he learned to write in Arabic; he was closely acquainted with Bukhara's intellectuals and took part in the jadid enlightenment movement there."
+    sources: [source/wikipedia-ayni-en]
+sources: [source/wikipedia-ayni-en, source/wikipedia-ayni-ru, source/wikipedia-ayni-tg, source/wikidata-ayni]
+external_ids:
+  wikidata: Q558794
+status: { review: published }
+provenance: { layer: own-research, source: "English, Russian, Tajik and Uzbek Wikipedia articles on Sadriddin Ayni read in full at recorded revisions (Arabic and Urdu editions also read), and Wikidata item Q558794 (grounded through the English article's page property, read twice identically), 27 October 2026; his birth village Saktare has no place entity, so no born_in edge is written", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-103 }
