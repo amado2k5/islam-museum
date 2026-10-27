@@ -1,0 +1,51 @@
+id: person/malalai-of-maiwand
+class: person
+label:
+  ar: "ملالي مايواند"
+  en: "Malalai of Maiwand"
+  ur: "ملالائی میوند"
+summary:
+  ar: "بطلة شعبية وطنية أفغانية، يُروى أنها حثّت المقاتلين الأفغان في معركة مايواند في 27 يوليو 1880 وقُتلت هناك في الثامنة عشرة أو التاسعة عشرة من عمرها. قصتها — ابنة راعٍ رفعت الراية الساقطة وأنشدت أبيات اللانداي التي قلبت مسار المعركة — من التراث الوطني الأفغاني؛ ويشكك باحثون معاصرون في كونها شخصية تاريخية أصلا، ولذلك تُحمل تواريخها في هذا السجل بصفة الأسطورة."
+  en: "National folk heroine of Afghanistan, said to have rallied Afghan fighters at the Battle of Maiwand on 27 July 1880 and to have been killed there, aged eighteen or nineteen. Her story — a shepherd's daughter who raised the fallen standard and sang the landai couplets that turned the battle — is Afghan national tradition; modern scholarship questions whether she was a historical person at all, and this record carries her dates as legend."
+  ur: "افغانستان کی قومی لوک ہیروئن، جن کے بارے میں روایت ہے کہ انہوں نے 27 جولائی 1880ء کو میوند کی جنگ میں افغان جنگجوؤں کو جوش دلایا اور وہیں اٹھارہ یا انیس برس کی عمر میں شہید ہوئیں۔ ان کی کہانی — ایک چرواہے کی بیٹی جس نے گرا ہوا علم اٹھایا اور لانڈائی کے اشعار پڑھ کر جنگ کا رخ موڑ دیا — افغان قومی روایت ہے؛ جدید تحقیق ان کے تاریخی وجود ہی پر سوال اٹھاتی ہے، اس لیے اس ریکارڈ میں ان کی تواریخ اسطوری درجے کے ساتھ درج ہیں۔"
+names:
+  - { value: "Malalai of Maiwand", kind: full }
+  - { value: "ملالي مايواند", kind: full }
+  - { value: "Malala", kind: alternate }
+  - { value: "Malalai Anna", kind: alternate }
+  - { value: "Malalai Noorzai", kind: alternate }
+gender: female
+born:
+  edtf: "1861"
+  calendar: gregorian
+  precision: year
+  status: legend
+  derived: false
+  note: "Born in 1861 at Khig, a village a few miles south-west of Maiwand in Kandahar province, as the tradition recorded in the English and Arabic articles gives; she is described as a shepherd's daughter of the Ishaqzai tribe. The English article itself reports that many scholars question her historicity: no contemporary British account mentions her, local records are missing, and her name first appears in print only in the 1920s–1940s; the date is therefore carried with legend status. No place entity exists for Khig, Maiwand or Kandahar, so no born_in relation is written. No source gives a Hijri pairing, so none is recorded."
+  sources: [source/wikipedia-malalai-of-maiwand-en, source/wikipedia-malalai-of-maiwand-ar]
+died:
+  edtf: "1880-07-27"
+  calendar: gregorian
+  precision: day
+  status: legend
+  derived: false
+  note: "Said to have been killed at the Battle of Maiwand on 27 July 1880, aged eighteen or nineteen, as the English article gives; the Arabic article gives July 1880 only. Her grave at Khig (Karez) is venerated locally as a shrine. The date is carried with legend status for the reasons given in the birth note."
+  sources: [source/wikipedia-malalai-of-maiwand-en, source/wikipedia-malalai-of-maiwand-ar]
+roles: [activist]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only religion attestation in any article read is a single structured value: the Arabic article's infobox gives her religion as Ahl al-Sunna wa'l-Jama'a. The English article names no religion for her, and no article text in any language names a school. Under the two-source rule and the doubt rule the value therefore stays unknown, with the single infobox attestation preserved here; the graver open question about her is her historicity, recorded in the date notes."
+    sources: [source/wikipedia-malalai-of-maiwand-en, source/wikipedia-malalai-of-maiwand-ar]
+sources:
+  - source/wikipedia-malalai-of-maiwand-en
+  - source/wikipedia-malalai-of-maiwand-ar
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Malalai of Maiwand, both read on 27 October 2026; no Urdu article was found. The fetch route available to this writer exposed no revision ids or Wikidata identifiers, so every source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings and by biographical match (the QID-grep route could not be run); she is a different person from Malala Yousafzai, who is named after her. No relations are written: her presence at the Battle of Maiwand, where Mohammad Ayub Khan commanded, is a shared battle presence, not a personal relation, and it is carried in prose only. Her faith is unknown FLAGGED on the single-structured-family configuration, the sole attestation being the Arabic infobox value."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-114

@@ -35,6 +35,7 @@ wings: [people]
 regions: [persia-central-asia]
 relations:
   - { type: born_in, target: place/kabul, sources: [source/wikipedia-sher-ali-khan-en] }
+  - { type: parent_of, target: person/mohammad-ayub-khan, sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar] }
 faith:
   - value: unknown
     basis: unknown

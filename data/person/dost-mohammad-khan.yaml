@@ -1,0 +1,56 @@
+id: person/dost-mohammad-khan
+class: person
+label:
+  ar: "دوست محمد خان"
+  en: "Dost Mohammad Khan"
+  ur: "دوست محمد خان"
+summary:
+  ar: "مؤسس السلالة الباركزائية وأمير أفغانستان (1826-1839 ثم 1843-1863). وحّد كابل وقندهار وهراة في دولة واحدة، وخُلع ونُفي إلى الهند في الحرب الإنجليزية الأفغانية الأولى ثم استعاد عرشه سنة 1843 وحكم حتى وفاته في هراة سنة 1863."
+  en: "Founder of the Barakzai dynasty and Emir of Afghanistan (1826–1839, then 1843–1863). He united Kabul, Kandahar and Herat into a single state, was deposed and exiled to India in the First Anglo-Afghan War, recovered his throne in 1843, and ruled until his death at Herat in 1863."
+  ur: "بارکزئی خاندان کے بانی اور افغانستان کے امیر (1826ء–1839ء، پھر 1843ء–1863ء)۔ انہوں نے کابل، قندھار اور ہرات کو ایک ریاست میں متحد کیا، پہلی اینگلو افغان جنگ میں معزول ہو کر ہندوستان جلاوطن ہوئے، 1843ء میں تخت واپس پایا اور 1863ء میں ہرات میں وفات تک حکمران رہے۔"
+names:
+  - { value: "Amir Dost Mohammad Khan Barakzai", kind: full }
+  - { value: "دوست محمد خان", kind: full }
+  - { value: "Dost Mohammed Khan", kind: alternate }
+  - { value: "the Great Emir", kind: laqab }
+gender: male
+born:
+  edtf: "1792-12-23"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born on 23 December at Kandahar; both articles give the day, but the English article's current text gives the year as 1792 while the Arabic article and the older English tradition give 1793, the year also carried by the museum's queue. The English article's current dating is followed and the split recorded here. No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Kandahar, so no born_in relation is written."
+  sources: [source/wikipedia-dost-mohammad-khan-en, source/wikipedia-dost-mohammad-khan-ar]
+died:
+  edtf: "1863-06-09"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 9 June 1863 at Herat, shortly after taking the city, and was buried at the Shrine of Khwaja Abd Allah (Gazur Gah) there, as the English article gives; the Arabic article agrees on the date and the city."
+  sources: [source/wikipedia-dost-mohammad-khan-en, source/wikipedia-dost-mohammad-khan-ar]
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: parent_of, target: person/sher-ali-khan, sources: [source/wikipedia-dost-mohammad-khan-en, source/wikipedia-dost-mohammad-khan-ar] }
+  - { type: parent_of, target: person/wazir-akbar-khan, sources: [source/wikipedia-dost-mohammad-khan-en, source/wikipedia-dost-mohammad-khan-ar] }
+  - { type: died_in, target: place/herat, sources: [source/wikipedia-dost-mohammad-khan-en, source/wikipedia-dost-mohammad-khan-ar] }
+  - { type: buried_in, target: place/herat, sources: [source/wikipedia-dost-mohammad-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only attestations naming a school for him are structured infobox values: the English article's infobox gives his religion as Sunni Islam and the Arabic article's infobox gives Ahl al-Sunna wa'l-Jama'a. No article text in any language read names a religion or school for him personally, and the Urdu article names none. His style Amir al-Mu'minin (Commander of the Faithful), his headship of a Muslim state and his dynasty's descent are title, office and lineage, not attestations of a school. Under the two-source rule and the doubt rule the value therefore stays unknown, with the structured attestations preserved here."
+    sources: [source/wikipedia-dost-mohammad-khan-en, source/wikipedia-dost-mohammad-khan-ar, source/wikipedia-dost-mohammad-khan-ur]
+sources:
+  - source/wikipedia-dost-mohammad-khan-en
+  - source/wikipedia-dost-mohammad-khan-ar
+  - source/wikipedia-dost-mohammad-khan-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Dost Mohammad Khan, all read on 27 October 2026. The fetch route available to this writer exposed no revision ids or Wikidata identifiers, so every source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings and by biographical match (the QID-grep route could not be run). The school-naming attestations are the English and Arabic infobox values only, so his faith is unknown FLAGGED on the single-structured-family configuration. The parent_of edges to Sher Ali Khan and Wazir Akbar Khan are written here, in the father's record, only. No parent_of edge to Mohammad Ayub Khan is written: the articles document Ayub as the son of Sher Ali Khan, hence Dost Mohammad's grandson, and the schema has no grandparent predicate; the correct parent_of edge belongs in Sher Ali Khan's already-merged record. No throne succession edges are written, the Barakzai sequence being dynastic office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-114
