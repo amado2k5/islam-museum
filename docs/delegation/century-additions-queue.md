@@ -416,11 +416,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abubakar Tafawa Balewa — 1912–1966
 - [x] Murtala Mohammed — 1938–1976
 - [x] Shehu Shagari — 1925–2018
-- [ ] Umaru Musa Yar'Adua — 1951–2010
-- [ ] Muhammadu Buhari — 1942–Living
-- [ ] Ibrahim Babangida — 1941–Living
-- [ ] Sani Abacha — 1943–1998
-- [ ] Abdulsalami Abubakar — 1942–Living
+- [x] Umaru Musa Yar'Adua — 1951–2010
+- [x] Muhammadu Buhari — 1942–Living
+- [x] Ibrahim Babangida — 1941–Living
+- [x] Sani Abacha — 1943–1998
+- [x] Abdulsalami Abubakar — 1942–Living
 - [ ] Kwame Nkrumah (Contemporary Era Leader) — 1909–1972
 - [ ] Modibo Keïta — 1915–1977
 - [ ] Moussa Traoré — 1936–2020

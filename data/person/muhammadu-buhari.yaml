@@ -1,0 +1,47 @@
+id: person/muhammadu-buhari
+class: person
+label: { ar: "محمد بخاري", en: "Muhammadu Buhari", ur: "محمدو بوحاری" }
+names:
+  - { value: "Muhammadu Buhari", kind: full }
+  - { value: "محمد بخاري", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي نيجيري (1942–2025) من دورا بولاية كاتسينا، حكم نيجيريا عسكريا من 31 ديسمبر 1983 حتى أطاح به إبراهيم بابانغيدا في 27 أغسطس 1985 واعتُقل ثلاث سنوات، ثم ترشح للرئاسة ثلاث مرات خاسرا قبل أن يفوز سنة 2015 — أول مرشح معارض يهزم رئيسا في منصبه — ويُعاد انتخابه سنة 2019، فيحكم حتى 2023. مات في عيادة بلندن في 13 يوليو 2025 ودُفن في بيته بدورا."
+  en: "Nigerian officer and politician (1942–2025) from Daura in Katsina State who ruled Nigeria as military head of state from 31 December 1983 until Ibrahim Babangida overthrew him on 27 August 1985 and detained him for three years. He then ran three times for the presidency unsuccessfully before winning in 2015 — the first opposition candidate to defeat a sitting president — and again in 2019, governing until 2023. He died in a London clinic on 13 July 2025 and was buried at his home in Daura."
+  ur: "نائجریائی افسر و سیاست دان (1942ء–2025ء)، ریاست کاتسینا کے دورا سے تعلق؛ 31 دسمبر 1983 سے فوجی سربراہِ مملکت رہے حتیٰ کہ 27 اگست 1985 کو ابراہیم بابانگیدا نے انھیں ہٹا کر تین سال نظر بند رکھا؛ پھر تین بار صدارت کے لیے ناکام رہے، 2015 میں کامیاب ہوئے — برسرِ منصب صدر کو ہرانے والے پہلے اپوزیشن امیدوار — اور 2019 میں دوبارہ منتخب ہو کر 2023 تک حکمران رہے؛ 13 جولائی 2025 کو لندن کے ایک کلینک میں وفات پائی اور دورا میں اپنے گھر دفن ہوئے۔"
+roles: [general, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1942-12-17"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 17 December 1942 in Daura; the Arabic article files him under births of 1361 AH, the Hijri year used here."
+  sources: [source/wikipedia-muhammadu-buhari-en, source/wikidata-muhammadu-buhari]
+died:
+  edtf: "2025-07-13"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death in a clinic in London on 13 July 2025, after travelling there for medical treatment; the Arabic article files him under deaths of 1447 AH. The English article records that his remains were buried at his home in Daura. The queue for this wave still listed him as living; the death is fully attested and recorded here."
+  sources: [source/wikipedia-muhammadu-buhari-en, source/wikidata-muhammadu-buhari]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration, unflagged. The English article's text gives his own public stance — his quoted 2001 words of 'total commitment to the Sharia movement' and his support for the total implementation of sharia, which he defended against charges of a radical Islamist agenda — and notes he was named after the ninth-century scholar Muhammad al-Bukhari and profiles him via The Muslim 500: personal identification with Islam in text, but no school named. The Arabic article says only that he was born 'to a Muslim family' (family background, which never counts) and files him under 'Nigerian Muslims'; Wikidata gives a single structured value, Islam. No source used names a madhhab, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikidata-muhammadu-buhari]
+relations:
+  - { type: successor_of, target: person/shehu-shagari, sources: [source/wikipedia-muhammadu-buhari-en] }
+external_ids: { wikidata: "Q361567" }
+sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikipedia-muhammadu-buhari-ur, source/wikidata-muhammadu-buhari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammadu Buhari' (revision 1378341854), Arabic Wikipedia 'محمد بخاري' (revision 75682247), Urdu Wikipedia 'محمد بخاری' (revision 9776523) and Wikidata item Q361567 (item revision 2558176347), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (buhari), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and the Arabic label matches no existing record's label. The queue listed him as '1942–Living'; the articles and Wikidata record his death in London on 13 July 2025, so the record carries the died block (the Dahiru Bauchi precedent of wave 69 §A). No place entity exists for Daura or London, so no born_in or died_in edge is written; his successor_of edge to Shehu Shagari (head of state, 1983) is written in his own record; for his second presidency he succeeded Goodluck Jonathan, who has no person record, so that edge is skipped."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

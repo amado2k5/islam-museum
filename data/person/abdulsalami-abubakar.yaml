@@ -1,0 +1,38 @@
+id: person/abdulsalami-abubakar
+class: person
+label: { ar: "عبد السلام أبو بكر", en: "Abdulsalami Abubakar", ur: "عبد السلام ابوبکر" }
+names:
+  - { value: "Abdulsalami Abubakar", kind: full }
+  - { value: "عبد السلام أبو بكر", kind: full }
+gender: male
+summary:
+  ar: "جنرال نيجيري (وُلد 1942) من مينا، كان رئيس أركان الدفاع (1997–1998) فتولى حكم نيجيريا في 9 يونيو 1998 بعد وفاة ساني أباتشا، فقاد انتقالا سريعا: دستور جديد وانتخابات متعددة الأحزاب، وسلّم السلطة للرئيس المنتخب أولوسيغون أوباسانجو في 29 مايو 1999. يرأس لاحقا لجنة السلام الوطنية في بلاده."
+  en: "Nigerian general (born 1942) from Minna who was Chief of Defence Staff (1997–1998) and became Nigeria's head of state on 9 June 1998 after the death of Sani Abacha. He ran a swift transition — a new constitution and multiparty elections — and handed power to the elected president Olusegun Obasanjo on 29 May 1999. He later chairs his country's National Peace Committee."
+  ur: "نائجریائی جرنیل (پیدائش 1942ء)، منا سے تعلق؛ چیف آف ڈیفنس اسٹاف رہے (1997ء–1998ء) اور سانی اباچہ کی وفات پر 9 جون 1998 کو نائجریا کے سربراہِ مملکت بنے؛ انھوں نے تیز انتقالِ اقتدار کیا — نیا آئین اور کثیر الجماعتی انتخابات — اور 29 مئی 1999 کو منتخب صدر اولوسے گن اوباسانجو کو اقتدار سونپ دیا؛ بعد میں قومی امن کمیٹی کے چیئرمین رہے۔"
+roles: [general, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1942-06-13"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 13 June 1942 in Minna; the Arabic article files him under births of 1361 AH, the Hijri year used here."
+  sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikidata-abdulsalami-abubakar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Thinner than the Khan configuration, unflagged. No consulted text states Abdulsalami Abubakar's religion at all: the English article says nothing about it anywhere (no text, no infobox value), the Arabic stub's infobox religion field is blank, and the Arabic article files him under 'Nigerian Muslims' (a category filing); Wikidata gives a single structured value, Islam. Filings and a structured value never count, and no source used names a school or madhhab, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar]
+relations:
+  - { type: successor_of, target: person/sani-abacha, sources: [source/wikipedia-abdulsalami-abubakar-en] }
+external_ids: { wikidata: "Q262346" }
+sources: [source/wikipedia-abdulsalami-abubakar-en, source/wikipedia-abdulsalami-abubakar-ar, source/wikidata-abdulsalami-abubakar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdulsalami Abubakar' (revision 1380782590), Arabic Wikipedia 'عبد السلام أبو بكر' (revision 70719735) and Wikidata item Q262346 (item revision 2561155192), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (abdulsalami, abubakar), by Arabic label, by biography and by the QID route across data/person/ — the existing abubakar records are other men (Abubakar Gumi, Abubakar Tafawa Balewa, Atiku Abubakar), and the Arabic label matches no existing record's label. No Urdu article exists for him (Wikidata links the English, Arabic and Hausa articles), so the Urdu prose is written from the English and Arabic articles and Wikidata. No place entity exists for Minna, so no born_in edge is written; his successor_of edge to Sani Abacha is written in his own record on the English article's lead statement that he succeeded Abacha upon the latter's death; he handed over to Olusegun Obasanjo, who has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
