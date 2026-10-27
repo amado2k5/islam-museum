@@ -1,0 +1,49 @@
+id: person/nawab-mohammad-ismail-khan
+class: person
+label: { ar: "نواب محمد إسماعيل خان", en: "Nawab Mohammad Ismail Khan", ur: "نواب محمد اسماعیل خان" }
+names:
+  - { value: "Nawab Mohammad Ismail Khan", kind: full }
+  - { value: "نواب محمد اسماعیل خان", kind: full }
+  - { value: "Mohammad Ismail Khan", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي هندي مسلم من ميروت (آب 1884 – 28 حزيران 1958)، من قادة رابطة مسلمي عموم الهند البارزين ومن آباء حركة باكستان المؤسسين. تعلّم في تونبريدج وكلية سانت جون بكامبريدج وتدرّب محاميًا في المعبد الداخلي، وقاد رابطة البنجاب المتحدة للرابطة من 1930 إلى 1947، وشارك في صياغة قرار باكستان (1940)، وتولّى نيابة رئاسة جامعة عليكرة الإسلامية مرتين، واختار بعد التقسيم البقاء في الهند، ومات في ميروت ودُفن في مقبرة الأسرة عند ضريح نظام الدين في دلهي."
+  en: "Indian Muslim politician of Meerut (August 1884 – 28 June 1958), a leading figure of the All-India Muslim League and a founding father of the Pakistan Movement. Educated at Tonbridge and St John's College, Cambridge and called to the Bar at the Inner Temple, he led the United Provinces Muslim League from 1930 to 1947, helped draft the Pakistan Resolution (1940), twice served as vice-chancellor of Aligarh Muslim University, chose to remain in India after Partition, died at Meerut and was buried in the family graveyard at the Nizamuddin shrine in Delhi."
+  ur: "میرٹھ کے ہندوستانی مسلمان سیاست دان (اگست 1884 – 28 جون 1958)، آل انڈیا مسلم لیگ کے سرکردہ رہنما اور تحریک پاکستان کے بانی اراکین میں سے ایک۔ ٹونبرج اور سینٹ جانز کالج، کیمبرج سے تعلیم پائی اور انر ٹیمپل سے بیرسٹر بنے؛ 1930 سے 1947 تک متحدہ صوبوں کی مسلم لیگ کی قیادت کی، قرارداد پاکستان (1940) کی تدوین میں حصہ لیا، دو مرتبہ علی گڑھ مسلم یونیورسٹی کے وائس چانسلر رہے، تقسیم کے بعد ہندوستان میں رہنے کا فیصلہ کیا، میرٹھ میں وفات پائی اور دہلی میں نظام الدین کے مزار کے پاس خاندانی قبرستان میں دفن ہوئے۔"
+roles: [politician, lawyer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1884-08"
+  hijri: "1301"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born at Meerut in August 1884, per the English article and Wikidata Q6982758, which agree at month precision. No source gives a day, so the Hijri year is derived by tabular conversion. Meerut has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikidata-nawab-mohammad-ismail-khan]
+died:
+  edtf: "1958-06-28"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Meerut on 28 June 1958, per the English article and Wikidata Q6982758. The Hijri year is derived by tabular conversion. Meerut has no place entity in the museum yet, so no died_in relation is written; his burial in the family graveyard at the Nizamuddin shrine is written as a relation to Delhi, which has a place entity."
+  sources: [source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikipedia-nawab-mohammad-ismail-khan-ar, source/wikidata-nawab-mohammad-ismail-khan]
+relations:
+  - { type: successor_of, target: person/syed-ross-masood, sources: [source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikipedia-nawab-mohammad-ismail-khan-ur] }
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-nawab-mohammad-ismail-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text or infobox names a religion or a school for him: the English article and its Arabic translation and the Urdu summary describe his Muslim League, Khilafat and Pakistan Movement leadership — political work, which is not an attestation — and Wikidata carries no religion value (P140) at all. The English article's '19th-century Indian Muslims' and '20th-century Indian Muslims' categories are filings, which do not attest. The value stays unknown with what the sources give recorded here."
+    sources: [source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikipedia-nawab-mohammad-ismail-khan-ar, source/wikipedia-nawab-mohammad-ismail-khan-ur, source/wikidata-nawab-mohammad-ismail-khan]
+external_ids: { wikidata: "Q6982758" }
+sources: [source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikipedia-nawab-mohammad-ismail-khan-ar, source/wikipedia-nawab-mohammad-ismail-khan-ur, source/wikidata-nawab-mohammad-ismail-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nawab Mohammad Ismail Khan' (revision 1378296234), Arabic Wikipedia 'نواب محمد إسماعيل خان' (revision 73580243), Urdu Wikipedia 'محمد اسماعیل خان' (revision 6547087) and Wikidata item Q6982758 (item revision 2519152502), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the Wikidata identifiers confirmed identical on two separate reads on 27 October 2026. The Arabic article is a translation of the English and the Urdu a summary of it — one source family. Existence checks by name fragments (ismail), by Arabic label across data/person, by biography and by QID found no prior record. The successor_of edge records the Aligarh Muslim University vice-chancellorship: both the English and Urdu articles' succession boxes give Ross Masood before him (Ziauddin Ahmad after), and the edge is written once, here in his record; the articles' own term dates for his first tenure wobble (1934–1936 in text, 1935–1937 in the infobox) and are noted in the English source file rather than smoothed. No child_of edge is written: his father Nawab Mohammad Ishak Khan has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

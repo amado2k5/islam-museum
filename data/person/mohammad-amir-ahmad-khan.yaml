@@ -1,0 +1,53 @@
+id: person/mohammad-amir-ahmad-khan
+class: person
+label: { ar: "محمد عامر أحمد خان", en: "Mohammad Amir Ahmad Khan", ur: "راجا صاحب محمود آباد" }
+names:
+  - { value: "Mohammad Amir Ahmad Khan", kind: full }
+  - { value: "محمد عامر احمد خان", kind: full }
+  - { value: "Mohammad Amir Ahmed Khan", kind: alternate }
+  - { value: "Raja Sahib of Mahmudabad", kind: alternate }
+  - { value: "Bahr", kind: pen }
+  - { value: "Mahbub", kind: pen }
+gender: male
+summary:
+  ar: "راجا محمود آباد (5 تشرين الثاني 1914 – 14 تشرين الأول 1973)، سياسي وشاعر وكاتب. ورث إقطاعية أبيه محمد علي محمد خان سنة 1931 وهو قاصر، وأدار مدرسة الواعظين (1940–1944)، وعارض تقسيم الهند أولًا رئيسًا لرابطة جمهور مسلمي عموم الهند ثم صار من قادة حركة باكستان وأسس اتحاد طلبة مسلمي عموم الهند (1937). هاجر إلى العراق (1945) ثم باكستان (1957) ثم لندن، حيث كان أول مدير للمركز الثقافي الإسلامي، ومات فيها ودُفن عند ضريح الإمام الرضا في مشهد."
+  en: "Raja of Mahmudabad (5 November 1914 – 14 October 1973), politician, writer and poet. He inherited his father Mohammad Ali Mohammad Khan's estate in 1931 while still a minor, served as managing trustee of the Madrasatul Waizeen (1940–1944), first opposed the partition of India as president of the All-India Jamhur Muslim League and then became a leader of the Pakistan Movement, founding the All India Muslim Students Federation in 1937. He moved to Iraq (1945), then Pakistan (1957), then London, where he was the first director of the Islamic Cultural Centre; he died in London and was buried at the Imam Reza shrine in Mashhad."
+  ur: "راجا صاحب محمود آباد (5 نومبر 1914 – 14 اکتوبر 1973)، سیاست دان، مصنف اور شاعر۔ 1931 میں کم عمری میں والد محمد علی محمد خان کی جاگیر کے وارث بنے، مدرسۃ الواعظین کے منتظم متولی رہے (1940–1944)، پہلے آل انڈیا جمہور مسلم لیگ کے صدر کی حیثیت سے تقسیم ہند کی مخالفت کی، پھر تحریک پاکستان کے رہنما بنے اور 1937 میں آل انڈیا مسلم اسٹوڈنٹس فیڈریشن قائم کی۔ عراق (1945)، پھر پاکستان (1957) اور پھر لندن منتقل ہوئے، جہاں اسلامک کلچرل سینٹر کے پہلے ڈائریکٹر رہے؛ لندن میں وفات پائی اور مشہد میں مزار امام رضا کے پاس دفن ہوئے۔"
+roles: [politician, writer, poet]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1914-11-05"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 November 1914, per the English article's infobox and Wikidata Q12857694; the English article's infobox gives the United Provinces of Agra and Oudh as the birthplace and the Wikidata item gives Uttar Pradesh, which agree. No place entity exists for it in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohammad-amir-ahmad-khan-en, source/wikidata-mohammad-amir-ahmad-khan]
+died:
+  edtf: "1973-10-14"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in London on 14 October 1973, per the English article and Wikidata Q12857694, and was buried at the Imam Reza shrine in Mashhad, per the English article. London has no place entity in the museum yet, so no died_in relation is written; the burial is written as a relation to Mashhad, which has a place entity. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohammad-amir-ahmad-khan-en, source/wikidata-mohammad-amir-ahmad-khan]
+relations:
+  - { type: child_of, target: person/mohammad-ali-mohammad-khan, sources: [source/wikipedia-mohammad-amir-ahmad-khan-en] }
+  - { type: successor_of, target: person/mohammad-ali-mohammad-khan, sources: [source/wikipedia-mohammad-amir-ahmad-khan-en] }
+  - { type: buried_in, target: place/mashhad, sources: [source/wikipedia-mohammad-amir-ahmad-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A Shia reading exists but rests on a single attestation family — the same configuration as his father's — so it is preserved here unrecorded. Wikidata Q12857694 carries two religion values on the one item — Islam (Q432) and Shia Islam (Q9585) — one structured-data family, not two sources. The English article files him under 'Pakistani Shia Muslims' and the Urdu stub under 'Pakistani Shia' and 'Indian Shia personalities', but category filings never attest. What the English text actually records is office, practice and a devotional burial choice: he was managing trustee (1940–1944) of the Madrasatul Waizeen, the Shia education centre his father founded; he composed salaams and marsiya under the pen names Bahr and Mahbub; and he was buried at the Imam Reza shrine in Mashhad. None of these is a text attesting his own affiliation, so the two-source precondition of the Shia-mapping rule is not met and, under the doubt rule, the value stays unknown."
+    sources: [source/wikipedia-mohammad-amir-ahmad-khan-en, source/wikipedia-mohammad-amir-ahmad-khan-ur, source/wikidata-mohammad-amir-ahmad-khan]
+external_ids: { wikidata: "Q12857694" }
+sources: [source/wikipedia-mohammad-amir-ahmad-khan-en, source/wikipedia-mohammad-amir-ahmad-khan-ur, source/wikidata-mohammad-amir-ahmad-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Amir Ahmed Khan' (revision 1379624610), Urdu Wikipedia 'راجا صاحب محمود آباد' (revision 10950821) and Wikidata item Q12857694 (item revision 2496709031), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the Wikidata identifiers confirmed identical on two separate reads on 27 October 2026. No Arabic Wikipedia article exists for him, so the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (mahmudabad, amir), by Arabic label across data/person, by biography and by QID found no prior record. The English article and the Wikidata item spell his name 'Ahmed'; the lane queue and this record's slug spell it 'Ahmad', and both spellings are carried in the names. Edges are written once, here in his record: child_of and successor_of to his father (same batch) — the succession is the inheritance of the Mahmudabad estate in 1931 on his father's death, when he was still a minor — and buried_in to Mashhad."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,50 @@
+id: person/mian-muhammad-shafi
+class: person
+label: { ar: "محمد شافي", en: "Mian Muhammad Shafi", ur: "میاں محمد شفیع" }
+names:
+  - { value: "Mian Muhammad Shafi", kind: full }
+  - { value: "میاں محمد شفیع", kind: full }
+  - { value: "محمد شافي", kind: alternate }
+gender: male
+summary:
+  ar: "محامٍ وسياسي من لاهور (10 آذار 1869 – 7 كانون الثاني 1932)، من مؤسسي رابطة مسلمي عموم الهند. من أسرة ميان في باغبانبورا، تعلّم في لاهور ولندن وتدرّب في المعبد الأوسط، وأسس فرع البنجاب للرابطة أمينًا عامًا له (1907)، وكان عضوًا في وفد سيملا (1906) وفي المجلس التنفيذي للوالي عضوًا للتعليم ثم القانون (1919–1924). هو والد جهان آرا شاه نواز، ودُفن في مقبرة أسلافه في باغبانبورا."
+  en: "Lahore barrister and politician (10 March 1869 – 7 January 1932), a founding member of the All-India Muslim League. Of the Mian family of Baghbanpura, he was educated at Lahore and London and called to the Bar at the Middle Temple, founded the League's Punjab branch as its general secretary (1907), sat on the Simla Deputation (1906), and served on the Viceroy's Executive Council as member for education and later law (1919–1924). He was the father of Jahanara Shahnawaz, and was buried in his ancestral graveyard at Baghbanpura."
+  ur: "لاہور کے وکیل اور سیاست دان (10 مارچ 1869 – 7 جنوری 1932)، آل انڈیا مسلم لیگ کے بانی ارکان میں سے ایک۔ باغبان پورہ کے میاں خاندان سے تعلق تھا؛ لاہور اور لندن سے تعلیم پائی اور مڈل ٹیمپل سے بیرسٹر بنے، 1907 میں لیگ کی پنجاب شاخ کے جنرل سیکرٹری کی حیثیت سے اس کی بنیاد رکھی، شملہ وفد (1906) کے رکن رہے اور وائسرائے کی ایگزیکٹو کونسل میں تعلیم اور بعد ازاں قانون کے رکن رہے (1919–1924)۔ وہ جہاں آرا شاہ نواز کے والد تھے اور باغبان پورہ کے آبائی قبرستان میں دفن ہوئے۔"
+roles: [lawyer, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1869-03-10"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Baghbanpura, Lahore, on 10 March 1869, per the English, Arabic and Urdu articles; Wikidata Q6932710 gives the year 1869 only. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur, source/wikidata-mian-muhammad-shafi]
+died:
+  edtf: "1932-01-07"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 7 January 1932 and was buried in his ancestral graveyard at Baghbanpura, Lahore, per the English, Arabic and Urdu articles; Wikidata Q6932710 gives the year 1932 only. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur, source/wikidata-mian-muhammad-shafi]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ur] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ur] }
+  - { type: buried_in, target: place/lahore, sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text or infobox names a religion or a school for him. Wikidata Q6932710 carries a single religion value (P140): Islam (Q432), with no branch — one structured value, which does not attest a school. His founding work for the All-India Muslim League and the Punjab Provincial Muslim League is political work, and his family's standing is family background; neither counts. The value stays unknown with what the sources give recorded here. He is not Muhammad Shafee Okarvi, a different man."
+    sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur, source/wikidata-mian-muhammad-shafi]
+external_ids: { wikidata: "Q6932710" }
+sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur, source/wikidata-mian-muhammad-shafi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mian Muhammad Shafi' (revision 1372607093), Arabic Wikipedia 'محمد شافي' (revision 73479217), Urdu Wikipedia 'میاں محمد شفیع' (revision 10475252) and Wikidata item Q6932710 (item revision 2378690354), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the Wikidata identifiers confirmed identical on two separate reads on 27 October 2026. The Urdu article is a translation of the English and the Arabic a condensed rendering of the same sources — one source family. Existence checks by name fragments (shafi, شفیع), by Arabic label across data/person, by biography and by QID found no prior record; he is the Lahore League founder of 1869–1932, not Muhammad Shafee Okarvi (record person/muhammad-shafee-okarvi) nor any other Shafi namesake. No parent edge to his daughter is written here: schema/predicates.yaml defines only child_of (parent_of is its computed inverse, not a writable predicate), so the edge belongs in the child's record (person/jahanara-shahnawaz), which exists and is not edited in this run; the kinship is stated here and in the prose. No child_of edge is written either: his father Mian Din Muhammad has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

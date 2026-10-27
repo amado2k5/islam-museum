@@ -1,0 +1,48 @@
+id: person/qudsia-begum
+class: person
+label: { ar: "قدسية بيكم", en: "Qudsia Begum", ur: "نواب قدسیہ بیگم" }
+names:
+  - { value: "Qudsia Begum", kind: full }
+  - { value: "قدسیہ بیگم", kind: full }
+  - { value: "Gauhar Begum", kind: full }
+  - { value: "گوہر بیگم", kind: alternate }
+gender: female
+summary:
+  ar: "أول نساء بوبال حكمًا في وسط الهند: تزوّجت نضر محمد خان سنة 1817، وخلفته نوابًا في 14 تشرين الثاني 1819، وحكمت حتى تنازلها في 29 تشرين الثاني 1837 لصالح صهرها وابنتها سكندر بيكم. بنت الجامع الكبير في بوبال ومشروع مياه للمدينة، وظلّت مؤثرة في شؤون الدولة في عهود صهرها وابنتها وحفيدتها شاه جهان بيكم. وُلدت باسم گوہر بيكم، وتصفها مقالة الأردية بطول العبادة والكرم."
+  en: "First of the women rulers of Bhopal in central India: she married Nazar Mohammad Khan in 1817, succeeded him as nawab on 14 November 1819, and ruled until her abdication on 29 November 1837 in favour of her son-in-law and her daughter Sikandar Begum. She built Bhopal's great Jama Masjid and a waterworks for the city, and remained influential in state affairs through the reigns of her son-in-law, her daughter and her granddaughter Shah Jahan Begum. Born Gauhar Begum, she is described by the Urdu article as a woman of long devotions and open-handed charity."
+  ur: "وسط ہندوستان کی ریاست بھوپال کی پہلی خاتون حکمران: 1817 میں نواب نذر محمد خان سے شادی ہوئی، 14 نومبر 1819 کو ان کی جانشین بنیں اور 29 نومبر 1837 کو اپنے داماد اور بیٹی سکندر بیگم کے حق میں دستبردار ہونے تک حکمران رہیں۔ انہوں نے بھوپال کی عظیم جامع مسجد اور شہر کے لیے واٹر ورکس بنوایا، اور داماد، بیٹی اور نواسی شاہ جہاں بیگم کے ادوار میں ریاستی امور پر اثر انداز رہیں۔ پیدائشی نام گوہر بیگم تھا؛ اردو مقالہ ان کی طویل عبادت اور سخاوت کا ذکر کرتا ہے۔"
+roles: [ruler]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1801"
+  hijri: "1215"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Bhopal in 1801, per the English article and Wikidata Q18530677; the Urdu article pairs her birth with the year 1215 AH, which is followed for the Hijri year. No source gives a day. Bhopal has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-qudsia-begum-en, source/wikipedia-qudsia-begum-ur, source/wikidata-qudsia-begum]
+died:
+  edtf: "1881-12-17"
+  hijri: "1299"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English article gives only the year 1881 and the Urdu article pairs her death with 1299 AH at about 84 years of age; the exact day, 17 December 1881, rests on Wikidata Q18530677 alone and is recorded from it under the publication standard. Bhopal has no place entity in the museum yet, so no died_in relation is written."
+  sources: [source/wikipedia-qudsia-begum-en, source/wikipedia-qudsia-begum-ur, source/wikidata-qudsia-begum]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names any school for her, and none gives an affiliation at all. The English article names no religion in its text (its 'Muslim monarchs' and '19th-century Indian Muslims' categories are filings, which do not attest) and has no infobox; the Urdu article describes her personal devotion at length — rising at night for prayer and recitation, urging prayer on her household, feeding the poor — which is practice, and her building of Bhopal's Jama Masjid was an act of rule; Wikidata carries no religion value (P140) for her. Headship case, weaker than her daughter's and granddaughter's: Sikandar Begum and Shah Jahan Begum each have a single-infobox Sunni reading preserved in their records, but for Qudsia there is not even an infobox reading to weigh. The value stays unknown."
+    sources: [source/wikipedia-qudsia-begum-en, source/wikipedia-qudsia-begum-ur, source/wikidata-qudsia-begum]
+external_ids: { wikidata: "Q18530677" }
+sources: [source/wikipedia-qudsia-begum-en, source/wikipedia-qudsia-begum-ur, source/wikidata-qudsia-begum]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Qudsia Begum, Begum of Bhopal' (revision 1350837953), Urdu Wikipedia 'نواب قدسیہ بیگم' (revision 11194628) and Wikidata item Q18530677 (item revision 2559562803), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the Wikidata identifiers confirmed identical on two separate reads on 27 October 2026. No Arabic Wikipedia article exists for her, so the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (qudsia, قدسیہ), by Arabic label across data/person, by biography (Bhopal, r. 1819–1837) and by QID found no prior record; she is the Bhopal ruler of 1801–1881, not another begum of the name. No relations are written in her record: her husband and predecessor Nazar Mohammad Khan has no person record, Bhopal has no place or polity entity, and the kinship and succession edges to her daughter belong, under the write-once rule, in the daughter's record (person/sikandar-begum), which is not edited in this run."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

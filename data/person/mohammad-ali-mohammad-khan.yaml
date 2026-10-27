@@ -1,0 +1,48 @@
+id: person/mohammad-ali-mohammad-khan
+class: person
+label: { ar: "محمد علي محمد خان", en: "Mohammad Ali Mohammad Khan", ur: "محمد علی محمد خان" }
+names:
+  - { value: "Mohammad Ali Mohammad Khan", kind: full }
+  - { value: "محمد علی محمد خان", kind: full }
+  - { value: "Mohib", kind: pen }
+  - { value: "Mohammad Ali Khan", kind: alternate }
+gender: male
+summary:
+  ar: "راجا محمود آباد في أوده (4 حزيران 1878 – 23 آذار 1931)، من كبار ملّاك الأراضي والسياسيين في الهند البريطانية. خلف أباه محمد أمير حسن خان سنة 1903 على واحدة من أكبر إقطاعيات المقاطعات المتحدة، وشارك في تأسيس جامعة لكهنؤ، وكان أول نائب رئيس لجامعة عليكرة الإسلامية (1920–1923)، ورأس مؤتمرات رابطة مسلمي عموم الهند (1917 و1918 و1928)، وأسس سنة 1919 مدرسة الواعظين في لكهنؤ — مركزًا للتعليم الإسلامي الشيعي — تخليدًا لذكرى أخيه، وكتب المراثي بتخلّص «محب»."
+  en: "Raja of Mahmudabad in Oudh (4 June 1878 – 23 March 1931), among the largest landholders and a noted politician of British India. He succeeded his father Mohammad Amir Hasan Khan in 1903 to one of the largest estates of the United Provinces, helped found Lucknow University, was the first vice-chancellor of Aligarh Muslim University (1920–1923), presided over Muslim League conferences (1917, 1918, 1928), founded in 1919 the Madrasatul Waizeen in Lucknow — a centre of Shia Islamic education — in memory of his brother, and wrote marsia poetry under the pen name Mohib."
+  ur: "اودھ کے راجا صاحب محمود آباد (4 جون 1878 – 23 مارچ 1931)، برطانوی ہندوستان کے بڑے زمینداروں اور مشہور سیاست دانوں میں سے ایک۔ 1903 میں والد محمد امیر حسن خان کے جانشین بنے؛ لکھنؤ یونیورسٹی کے قیام میں حصہ لیا، علی گڑھ مسلم یونیورسٹی کے پہلے وائس چانسلر رہے (1920–1923)، مسلم لیگ کے اجلاسوں کی صدارت کی، 1919 میں اپنے بھائی کی یاد میں لکھنؤ میں مدرسۃ الواعظین قائم کیا — اہل تشیع کی تعلیم کا مرکز — اور «محب» تخلص سے مرثیے لکھے۔"
+roles: [ruler, politician, poet]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1878-06-04"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 4 June 1878, per the English article's infobox, the Urdu article and Wikidata Q16029940, which agree. The English article places his birth at Mahmudabad in Sitapur district, the Urdu article at the village of Amrota in the same district; neither place has an entity in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohammad-ali-mohammad-khan-en, source/wikipedia-mohammad-ali-mohammad-khan-ur, source/wikidata-mohammad-ali-mohammad-khan]
+died:
+  edtf: "1931-03-23"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 23 March 1931, per the English and Urdu articles and Wikidata Q16029940. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohammad-ali-mohammad-khan-en, source/wikipedia-mohammad-ali-mohammad-khan-ur, source/wikidata-mohammad-ali-mohammad-khan]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A Shia reading exists but rests on a single attestation family, so it is preserved here unrecorded. Wikidata Q16029940 carries two religion values on the one item — Islam (Q432) and Shia Islam (Q9585) — which is one structured-data family, not two sources. The English article files him under 'Indian Shia Muslims' and the Urdu under 'Indian Shia personalities', but category filings never attest. What the article texts actually record is patronage and practice: he founded the Madrasatul Waizeen, a centre of Shia Islamic education, in 1919, and he wrote marsia — the Karbala elegy genre — under the pen name Mohib; neither act names his own affiliation in so many words. With only one family attesting and the doubt rule applying, the value stays unknown; the Shia-mapping rule is not engaged, because its precondition of two independent attestations of 'Shia' is not met."
+    sources: [source/wikipedia-mohammad-ali-mohammad-khan-en, source/wikipedia-mohammad-ali-mohammad-khan-ur, source/wikidata-mohammad-ali-mohammad-khan]
+external_ids: { wikidata: "Q16029940" }
+sources: [source/wikipedia-mohammad-ali-mohammad-khan-en, source/wikipedia-mohammad-ali-mohammad-khan-ur, source/wikidata-mohammad-ali-mohammad-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Ali Mohammad Khan' (revision 1331273915), Urdu Wikipedia 'محمد علی محمد خان' (revision 11800468) and Wikidata item Q16029940 (item revision 1596898699), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the Wikidata identifiers confirmed identical on two separate reads on 27 October 2026. The Urdu article is a translation of the English — one source family. No Arabic Wikipedia article exists for him, so the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (mahmudabad, محمد خان), by Arabic label across data/person, by biography and by QID found no prior record. No relations are written in his record: his father Mohammad Amir Hasan Khan has no person record, and the succession and kinship edges to his son are written once, in the son's record (person/mohammad-amir-ahmad-khan, same batch). His birth year is 1878 in all three sources; the lane queue's '1877–1931' is not followed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
