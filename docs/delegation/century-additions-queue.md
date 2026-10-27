@@ -541,11 +541,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Haider al-Abadi — 1952–Living
 - [x] Mustafa Al-Kadhimi — 1967–Living
 - [x] Mohammed Shia' Al Sudani — 1970–Living
-- [ ] Ayatollah Ruhollah Khomeini — 1902–1989
-- [ ] Ayatollah Ali Khamenei — 1939–Living
-- [ ] Mohammad Reza Pahlavi — 1919–1980
-- [ ] Mohammad Mosaddegh — 1882–1967
-- [ ] Ali Akbar Hashemi Rafsanjani — 1934–2017
+- [x] Ayatollah Ruhollah Khomeini — 1902–1989
+- [x] Ayatollah Ali Khamenei — 1939–Living
+- [x] Mohammad Reza Pahlavi — 1919–1980
+- [x] Mohammad Mosaddegh — 1882–1967
+- [x] Ali Akbar Hashemi Rafsanjani — 1934–2017
 - [ ] Mohammad Khatami — 1943–Living
 - [ ] Mahmoud Ahmadinejad — 1956–Living
 - [ ] Hassan Rouhani — 1948–Living

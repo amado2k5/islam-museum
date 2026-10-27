@@ -1,0 +1,49 @@
+id: person/ruhollah-khomeini
+class: person
+label: { ar: "روح الله الخميني", en: "Ruhollah Khomeini", ur: "روح اللہ خمینی" }
+names:
+  - { value: "Ruhollah Khomeini", kind: full }
+  - { value: "روح الله الخميني", kind: full }
+  - { value: "سید روح‌الله موسوی خمینی", kind: full }
+  - { value: "Ruhollah Mostafavi Musavi Khomeini", kind: alternate }
+gender: male
+summary:
+  ar: "روح الله الخميني (1900/1902–1989)، رجل دين شيعي وسياسي إيراني، قائد الثورة الإيرانية التي أطاحت بالشاه محمد رضا بهلوي ومؤسس الجمهورية الإسلامية ومرشدها الأعلى من 1979 حتى وفاته. فقيه ومرجع تقليد في التشيع الاثني عشري، درّس في قم ونُفي إلى تركيا ثم العراق، وعاد إلى إيران في شباط 1979، وترك كتبًا في الفقه والحكومة الإسلامية منها «الحكومة الإسلامية» و«تحرير الوسيلة»."
+  en: "Ruhollah Khomeini (1900/1902–1989) was an Iranian Shia cleric and politician, the leader of the Iranian Revolution that overthrew Shah Mohammad Reza Pahlavi, founder of the Islamic Republic of Iran and its supreme leader from 1979 until his death. A jurist and marja' in Twelver Shi'ism, he taught at Qom, was exiled to Turkey and then Iraq, returned to Iran in February 1979, and left works on jurisprudence and Islamic government, among them Islamic Government and Tahrir al-Wasila."
+  ur: "روح اللہ خمینی (1900/1902ء–1989ء) ایرانی شیعہ عالمِ دین اور سیاست دان تھے، انقلابِ ایران کے قائد جس نے شاہ محمد رضا پہلوی کا تختہ الٹا، اسلامی جمہوریہ ایران کے بانی اور 1979ء سے وفات تک اس کے رہبرِ اعلیٰ رہے۔ وہ شیعہ اثنا عشریہ کے فقیہ اور مرجع تھے، قم میں تدریس کی، ترکی اور پھر عراق جلاوطن رہے، فروری 1979ء میں ایران واپس آئے اور فقہ و اسلامی حکومت پر کتابیں چھوڑیں، جن میں «حکومتِ اسلامیہ» اور «تحریر الوسیلہ» شامل ہیں۔"
+roles: [scholar, jurist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1900-05-17"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Khomeyn in Qajar Iran. The date is genuinely contested: the English article's lead and infobox follow the date recorded on his birth certificate, 17 May 1900, and one of Wikidata's two day-precision values agrees; his brother Mortaza Pasandideh gave 24 September 1902, the date the Persian article follows (citing the Great Islamic Encyclopaedia) and Wikidata's other value carries. The birth-certificate reading is carried here, with the dispute stated. The Hijri year (1318) is derived by tabular conversion of the carried date; the 1902 reading would convert to 1320."
+  sources: [source/wikipedia-khomeini-en, source/wikipedia-khomeini-fa, source/wikidata-khomeini]
+died:
+  edtf: "1989-06-03"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Tehran on 3 June 1989 and was buried in a mausoleum at Behesht-e Zahra cemetery there; neither Tehran nor the mausoleum has a museum entity, so no died_in or buried_in edge is written. All four articles agree on the date; Wikidata also carries a stray 3 March 1989 value, which no article supports and which is not followed. The Hijri year (1409) is derived by tabular conversion."
+  sources: [source/wikipedia-khomeini-en, source/wikipedia-khomeini-ar, source/wikidata-khomeini]
+relations:
+  - { type: lived_in, target: place/najaf, sources: [source/wikipedia-khomeini-en, source/wikipedia-khomeini-ar] }
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Three independent article texts name Twelver Shi'ism as his own tradition. The English article's text states that he 'became a high-ranking cleric in Twelver Shi'ism, an ayatollah, a marja''; the Arabic article's lead presents him as a religious leader in Twelver Shi'a; the Urdu article's text describes him as a scholar of Usuli Twelver Shia Islam. The Usuli specification — a distinction within Twelver scholarship, not a separate enum value — is recorded here from the Urdu text. The English infobox's sect field and Wikidata's Twelver value (Q269785) are the structured echo of the same tradition and are not counted; the Persian text, which calls him a Shia Islamist, agrees generically."
+    sources: [source/wikipedia-khomeini-en, source/wikipedia-khomeini-ar, source/wikipedia-khomeini-ur, source/wikidata-khomeini]
+external_ids: { wikidata: "Q38823" }
+sources: [source/wikipedia-khomeini-en, source/wikipedia-khomeini-fa, source/wikipedia-khomeini-ar, source/wikipedia-khomeini-ur, source/wikidata-khomeini]
+provenance:
+  layer: own-research
+  source: "English, Persian, Arabic and Urdu Wikipedia articles on Ruhollah Khomeini, each fetched by its recorded revision id (EN 1380195244, FA 44807770, AR 76835426, UR 12093047) with the returned id asserted equal before use, and Wikidata item Q38823 (item revision 2557806234; the claims used were read twice with identical results), the QID grounded through the English article's pageprops and confirmed through the Persian, Arabic and Urdu articles' langlinks. Existence checks by Latin, Arabic and Persian fragments and by all likely slug variants across data/person, by the grounded QID across all person files, and by biography found no prior record for him; the only Khomeini record is a draft card for his son Mostafa (person/mostafa-khomeini, Q5960285), a different person, which is not touched. A lived_in edge to place/najaf is written for his exile years there (1965–1978), attested by the English and Arabic articles; no born_in or died_in edge is written because Khomeyn and Tehran have no place entities, and no ruler_of edge because no Islamic Republic of Iran polity entity exists. His son Mostafa's draft card carries no child_of edge and is outside this record: the edge would belong in the son's record, which this run does not edit."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
