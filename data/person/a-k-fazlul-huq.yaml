@@ -1,0 +1,51 @@
+id: person/a-k-fazlul-huq
+class: person
+label: { ar: "أبو القاسم فضل الحق", en: "A. K. Fazlul Huq", ur: "ابو القاسم فضل الحق" }
+names:
+  - { value: "Abul Kasem Fazlul Huq", kind: full }
+  - { value: "أبو القاسم فضل الحق", kind: full }
+  - { value: "ابو القاسم فضل الحق", kind: full }
+  - { value: "Sher-e-Bangla", kind: laqab }
+  - { value: "Maulvi Fazlul Huq", kind: alternate }
+gender: male
+summary:
+  ar: "رجل دولة بنغالي (1873–1962) لُقّب «شير بنگال»، أول رئيس وزراء للبنغال (1937–1943) ومقدّم قرار لاهور سنة 1940. ترأس رابطة مسلمي عموم الهند وكان أميناً عاماً للمؤتمر الوطني الهندي في آن واحد، وبعد التقسيم صار رئيس وزراء باكستان الشرقية ثم وزير داخلية باكستان ثم حاكم باكستان الشرقية، ودُفن في ضريح القادة الثلاثة في دكا."
+  en: "Bengali statesman (1873–1962) known as Sher-e-Bangla, the first prime minister of Bengal (1937–1943) and the mover of the Lahore Resolution in 1940. He was simultaneously president of the All India Muslim League and general secretary of the Indian National Congress; after partition he served as chief minister of East Bengal, home minister of Pakistan and governor of East Pakistan, and was buried in the Mausoleum of Three Leaders at Dhaka."
+  ur: "بنگالی مدبر (1873ء–1962ء) جو «شیر بنگال» کے لقب سے مشہور ہوئے، بنگال کے پہلے وزیر اعظم (1937ء–1943ء) اور 1940ء میں قراردادِ لاہور کے محرک۔ بیک وقت آل انڈیا مسلم لیگ کے صدر اور انڈین نیشنل کانگریس کے جنرل سیکریٹری رہے؛ تقسیم کے بعد مشرقی بنگال کے وزیر اعلیٰ، پاکستان کے وزیر داخلہ اور مشرقی پاکستان کے گورنر رہے، اور ڈھاکہ میں تین قائدین کے مزار میں دفن ہوئے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1873-10-26"
+  hijri: "1290"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 26 October 1873 at his maternal family home at Saturia in Backergunge District, as the English article states citing Banglapedia; the Arabic article and Wikidata give the same date. Saturia and Backergunge/Barisal have no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-a-k-fazlul-huq-en, source/wikipedia-a-k-fazlul-huq-ar, source/wikidata-a-k-fazlul-huq]
+died:
+  edtf: "1962-04-27"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 27 April 1962 at Dacca, as all three articles and Wikidata agree, and was buried with Khawaja Nazimuddin and Huseyn Shaheed Suhrawardy in the Mausoleum of Three Leaders at Dhaka, as the English article states. The Hijri year is a conversion."
+  sources: [source/wikipedia-a-k-fazlul-huq-en, source/wikipedia-a-k-fazlul-huq-ur, source/wikipedia-a-k-fazlul-huq-ar, source/wikidata-a-k-fazlul-huq]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no text in any language names a school for Huq himself, and the readings are preserved here. The English text's only religion content is family framing — he was 'born in 1873 to a Bengali Muslim family' and 'belonged to a Bengali Muslim family of Qadis' — and family background never counts. The Urdu infobox gives his religion as Islam only, the Arabic infobox's religion field is empty, and Wikidata's single religion value is Islam only; none of these names a branch. His Muslim League presidency, his presenting of the Lahore Resolution and his founding of institutions for Bengali Muslims are Pakistan-movement facts, not attestations of his own school."
+    sources: [source/wikipedia-a-k-fazlul-huq-en, source/wikipedia-a-k-fazlul-huq-ur, source/wikipedia-a-k-fazlul-huq-ar, source/wikidata-a-k-fazlul-huq]
+relations:
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-a-k-fazlul-huq-en, source/wikipedia-a-k-fazlul-huq-ar, source/wikidata-a-k-fazlul-huq] }
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-a-k-fazlul-huq-en] }
+external_ids: { wikidata: "Q3242246" }
+sources: [source/wikipedia-a-k-fazlul-huq-en, source/wikipedia-a-k-fazlul-huq-ur, source/wikipedia-a-k-fazlul-huq-ar, source/wikidata-a-k-fazlul-huq]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'A. K. Fazlul Huq' (revision 1381552542), Urdu Wikipedia 'فضل الحق' (revision 10146271) and Arabic Wikipedia 'أبو القاسم فضل الحق' (revision 75830563), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q3242246 (item revision 2561085991, asserted on fetch). Existence checks by name fragments (fazlul, huq, فضل الحق), by Arabic label across data/person, by biography and by QID found no prior record for this man; the existing fazl-e-haq-khairabadi and fazlur-rahman-khan records are different men. The died_in and buried_in edges to place/dhaka are written here; no born_in edge is written because Saturia and Backergunge have no place entities. He was the first holder of the Bengal premiership, so no successor_of edge arises for him; the edge for his own succession by Khawaja Nazimuddin in 1943 is written in Nazimuddin's record. The lane queue gives 'A. K. Fazlul Huq (1873–1962)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

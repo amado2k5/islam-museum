@@ -617,14 +617,14 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Abdul Hamid — 1944–Living
 - [ ] Mohammed Shahabuddin — 1949–Living
 - [ ] Dr. Kamal Hossain — 1937–Living
-- [ ] Sir Khawaja Nazimuddin — 1894–1964
-- [ ] Huseyn Shaheed Suhrawardy — 1892–1963
-- [ ] A. K. Fazlul Huq — 1873–1962
+- [x] Sir Khawaja Nazimuddin — 1894–1964
+- [x] Huseyn Shaheed Suhrawardy — 1892–1963
+- [x] A. K. Fazlul Huq — 1873–1962
 - [ ] Maulana Bhashani — 1880–1976
-- [ ] Liaquat Ali Khan — 1895–1951
+- [x] Liaquat Ali Khan — 1895–1951
 - [ ] Muhammad Ali Jinnah — 1876–1948
 - [ ] Fatima Jinnah — 1893–1967
-- [ ] Khawaja Nazimuddin — 1894–1964
+- [x] Khawaja Nazimuddin — 1894–1964
 - [ ] Malik Feroz Khan Noon — 1893–1970
 - [ ] Ibrahim Ismail Chundrigar — 1897–1960
 - [ ] Chaudhry Muhammad Ali — 1905–1982
@@ -1346,11 +1346,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Amin Ahsan Islahi (1904–1997)
 - [x] Sayyid Sulaiman Nadvi (1884–1953)
 - [x] Abdul Majid Daryabadi (1892–1977)
-- [ ] Muhammad Ali Bogra (1909–1963)
-- [ ] A. K. Fazlul Huq (1873–1962)
-- [ ] Huseyn Shaheed Suhrawardy (1892–1963)
-- [ ] Sir Khawaja Nazimuddin (1894–1964)
-- [ ] Liaquat Ali Khan (1895–1951)
+- [x] Muhammad Ali Bogra (1909–1963)
+- [x] A. K. Fazlul Huq (1873–1962)
+- [x] Huseyn Shaheed Suhrawardy (1892–1963)
+- [x] Sir Khawaja Nazimuddin (1894–1964)
+- [x] Liaquat Ali Khan (1895–1951)
 - [ ] Muhammad Ali Jinnah (1876–1948)
 - [ ] Fatima Jinnah (1893–1967)
 - [ ] Begum Ra'ana Liaquat Ali Khan (1905–1990)
