@@ -1,0 +1,53 @@
+id: person/habib-bourguiba
+class: person
+label: { ar: "الحبيب بورقيبة", en: "Habib Bourguiba", ur: "حبیب بورقیبہ" }
+names:
+  - { value: "Habib Ben Ali Bourguiba", kind: full }
+  - { value: "الحبيب بن علي بورقيبة", kind: full }
+gender: male
+summary:
+  ar: "الحبيب بورقيبة (1903–2000)، سياسي تونسي قاد حركة الاستقلال عن فرنسا، فكان رئيس وزراء المملكة سنة 1956، ثم أعلن الجمهورية في 25 يوليو 1957 فصار أول رئيس لتونس وحكم ثلاثين عاما، أقرّ فيها مجلة الأحوال الشخصية وبنى دولة الحزب الواحد، حتى عزله رئيس وزرائه زين العابدين بن علي سنة 1987، فأقام تحت الإقامة الجبرية في المنستير حتى وفاته."
+  en: "Habib Bourguiba (1903–2000) was the Tunisian politician who led the independence movement against France, became prime minister of the kingdom in 1956, then proclaimed the republic on 25 July 1957 and served as Tunisia's first president for thirty years, enacting the Code of Personal Status and building a one-party state, until his prime minister Zine El Abidine Ben Ali removed him in 1987; he lived under house arrest at Monastir until his death."
+  ur: "حبیب بورقیبہ (1903ء–2000ء) تیونس کے سیاست دان تھے جنہوں نے فرانس سے آزادی کی تحریک کی قیادت کی، 1956ء میں مملکت کے وزیر اعظم بنے، پھر 25 جولائی 1957ء کو جمہوریہ کا اعلان کر کے تیونس کے پہلے صدر بنے اور تیس برس حکومت کی۔ 1987ء میں ان کے وزیر اعظم زین العابدین بن علی نے انہیں ہٹا دیا، اور وہ وفات تک منستر میں نظر بند رہے۔"
+roles: [politician]
+born:
+  edtf: "1903-08-03"
+  hijri: "1321"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Monastir on 3 August 1903, his official birthdate, which all three articles and Wikidata give; the English article's footnote records that Bourguiba himself stated he was likely born a year earlier, in 1902, or possibly in 1901, so the date is recorded as debated and the official date is followed. The Hijri year 1321 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-habib-bourguiba-en, source/wikipedia-habib-bourguiba-ar, source/wikipedia-habib-bourguiba-ur, source/wikidata-habib-bourguiba]
+died:
+  edtf: "2000-04-06"
+  hijri: "1421"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He left hospital on 13 March 2000 to return to his house at Monastir, where he died on 6 April 2000; he was buried in the mausoleum he had built for himself at Monastir. The Hijri year 1421 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-habib-bourguiba-en, source/wikipedia-habib-bourguiba-ar, source/wikidata-habib-bourguiba]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or personal affiliation for the man. FLAGGED for the founder, on the secularism question rather than on any school reading. What the sources give: the Arabic article's infobox and the Wikidata item give Islam in general (Q432) — one source family carrying no school. The texts document a governing programme, which is state policy and never a personal attestation: he removed religious courts and brought the judiciary under civil courts, enacted the Code of Personal Status, and in February 1961 publicly invited citizens not to fast during Ramadan as a struggle against underdevelopment; the English article records that in 1974 Abd al-Aziz ibn Baz accused him of apostasy over that position, and scholarship cited there (Charfi) holds that his break was more with traditional society than with Islam as such. None of this meets the bar for atheist-or-sceptic (the Akhundov precedent: an explicit self-description or a scholarly consensus of unbelief), and no school reading exists either; both the accusation and the counter-reading are preserved here for the founder's ruling."
+    sources: [source/wikipedia-habib-bourguiba-en, source/wikipedia-habib-bourguiba-ar, source/wikipedia-habib-bourguiba-ur, source/wikidata-habib-bourguiba]
+relations:
+  - { type: born_in, target: place/monastir, sources: [source/wikipedia-habib-bourguiba-en, source/wikidata-habib-bourguiba] }
+  - { type: died_in, target: place/monastir, sources: [source/wikipedia-habib-bourguiba-en, source/wikidata-habib-bourguiba] }
+  - { type: buried_in, target: place/monastir, sources: [source/wikipedia-habib-bourguiba-en] }
+wings: [people]
+regions: [maghreb]
+external_ids: { wikidata: "Q643348" }
+sources:
+  - source/wikipedia-habib-bourguiba-en
+  - source/wikipedia-habib-bourguiba-ar
+  - source/wikipedia-habib-bourguiba-ur
+  - source/wikidata-habib-bourguiba
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Habib Bourguiba in English (revision 1380905603 of 18 Oct 2026), Arabic (revision 76945470 of 11 Oct 2026) and Urdu (revision 9466271 of 7 Mar 2026) and the Wikidata item Q643348 (item revision 2559733542 of 22 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q643348). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: the articles attest that the presidency was a new office proclaimed with the republic on 25 July 1957, before which he served as prime minister under King Muhammad VIII al-Amin, so there is no predecessor in the same office; Muhammad VIII has no person record in any case. No member_of edge is written: the museum has no group entity for the Destour, the Neo Destour or the Socialist Destourian Party."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

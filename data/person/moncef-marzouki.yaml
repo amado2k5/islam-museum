@@ -1,0 +1,40 @@
+id: person/moncef-marzouki
+class: person
+label: { ar: "المنصف المرزوقي", en: "Moncef Marzouki", ur: "منصف مرزوقی" }
+names:
+  - { value: "Mohamed Moncef Marzouki", kind: full }
+  - { value: "محمد المنصف المرزوقي", kind: full }
+gender: male
+summary:
+  ar: "محمد المنصف المرزوقي (وُلد سنة 1945)، طبيب وناشط حقوقي وسياسي تونسي، ترأس الرابطة التونسية للدفاع عن حقوق الإنسان، وأسس حزب المؤتمر من أجل الجمهورية، وانتخبه المجلس التأسيسي رئيسا مؤقتا لتونس في ديسمبر 2011، فشهدت رئاسته صدور دستور 2014، وغادر المنصب في نهاية 2014 بعد خسارته الانتخابات أمام الباجي قائد السبسي."
+  en: "Mohamed Moncef Marzouki (born 1945) is a Tunisian physician, human-rights activist and politician who headed the Tunisian Human Rights League and founded the Congress for the Republic. The Constituent Assembly elected him interim president of Tunisia in December 2011; the 2014 constitution was promulgated under his presidency, and he left office at the end of 2014 after losing the presidential election to Beji Caid Essebsi."
+  ur: "محمد منصف مرزوقی (پیدائش 1945ء) تیونس کے طبیب، انسانی حقوق کے کارکن اور سیاست دان ہیں۔ وہ تیونسی لیگ برائے انسانی حقوق کے صدر رہے اور کانگریس فار دی ریپبلک کی بنیاد رکھی۔ آئین ساز اسمبلی نے دسمبر 2011ء میں انہیں تیونس کا عبوری صدر منتخب کیا؛ ان کے دور میں 2014ء کا آئین جاری ہوا، اور 2014ء کے آخر میں وہ انتخاب ہار کر عہدے سے رخصت ہوئے۔"
+roles: [politician, physician, activist]
+born:
+  edtf: "1945-07-07"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Grombalia on 7 July 1945; all three articles and Wikidata agree. The Hijri year 1364 is a tabular conversion, marked derived. Grombalia has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-moncef-marzouki-en, source/wikipedia-moncef-marzouki-ar, source/wikipedia-moncef-marzouki-ur, source/wikidata-moncef-marzouki]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on a single structured-data value — the Wikidata religion value (Sunni Islam, Q483654) — which no article text, infobox or filing corroborates: the Arabic infobox gives Islam in general, the English infobox carries no religion field, and the Urdu stub is silent. One structured value is one source family and never attests a school on its own. The Arabic text describes his orientation as secular and modernist and reports his position that religion should be separated from the state so as to keep it clear of political conflict, together with his statement that this view is not unbelief or atheism — a political position and a self-defence against an accusation, neither of which names a school, and his decades of human-rights work are expressly not counted."
+    sources: [source/wikipedia-moncef-marzouki-en, source/wikipedia-moncef-marzouki-ar, source/wikipedia-moncef-marzouki-ur, source/wikidata-moncef-marzouki]
+wings: [people, living]
+regions: [maghreb]
+external_ids: { wikidata: "Q4715" }
+sources:
+  - source/wikipedia-moncef-marzouki-en
+  - source/wikipedia-moncef-marzouki-ar
+  - source/wikipedia-moncef-marzouki-ur
+  - source/wikidata-moncef-marzouki
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Moncef Marzouki in English (revision 1378406003 of 4 Oct 2026), Arabic (revision 76312951 of 23 Aug 2026) and Urdu (revision 9466268 of 7 Mar 2026) and the Wikidata item Q4715 (item revision 2558174442 of 18 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q4715). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No relations are written: Grombalia has no place entity, and no successor_of edge is written because both infoboxes mark his predecessor as president as Fouad Mebazaa, expressly acting — an interim holder defeats the direct sequence the predicate requires, and Mebazaa has no person record in any case. No member_of or founder_of edge is written: the museum has no group entity for the Congress for the Republic, Al-Irada or the Tunisian Human Rights League."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
