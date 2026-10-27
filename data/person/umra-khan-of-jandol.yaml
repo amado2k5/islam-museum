@@ -1,0 +1,52 @@
+id: person/umra-khan-of-jandol
+class: person
+label:
+  ar: "عمرة خان"
+  en: "Umra Khan of Jandol"
+  ur: "عمرہ خان"
+summary:
+  ar: "زعيم پشتوني أفغاني (نحو 1860–1904)، خان جندول ثم نواب دير (1890–1895). قتل أخاه وانتزع العرش، وبسط سلطته على باجور، وتدخّله في چترال سنة 1894 جرّ حملة چترال البريطانية سنة 1895، ففُكّت قوته وفرّ إلى أفغانستان ومات في كابل. لقّبه تشرتشل «نابليون أفغانستان»."
+  en: "Afghan Pashtun chief (c. 1860–1904), Khan of Jandol and then Nawab of Dir (1890–1895). He killed his elder brother and seized the throne, held sway over almost the whole of Bajaur, and his interference in Chitral in 1894 brought on the British Chitral Expedition of 1895; broken by it, he fled to Afghanistan and died at Kabul. Churchill called him 'the Afghan Napoleon' — a contemporary's epithet, recorded as such."
+  ur: "افغان پشتون سردار (تقریباً 1860ء–1904ء)، خانِ جندول اور پھر نوابِ دیر (1890ء–1895ء)۔ انھوں نے اپنے بڑے بھائی کو قتل کر کے تخت سنبھالا، باجوڑ پر اپنا اقتدار قائم کیا، اور 1894ء میں چترال کے معاملات میں مداخلت سے 1895ء کی برطانوی چترال مہم کی نوبت آئی؛ شکست کے بعد وہ افغانستان فرار ہوئے اور کابل میں وفات پائی۔ چرچل نے انھیں «افغان نپولین» کہا۔"
+names:
+  - { value: "Khan Umra Khan of Jandol", kind: full }
+  - { value: "عمرة خان", kind: full }
+gender: male
+born:
+  edtf: "1860"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives his birth as circa 1860, and Wikidata also gives 1860, at Jandol. The year is approximate in the article itself, so it is carried at year precision and marked debated. The year 1860 spans two Hijri years (1276–1277) and no source read gives a Hijri pairing, so none is recorded. No born_in relation is written: no place entity exists for Jandol."
+  sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan]
+died:
+  edtf: "1904-09-11"
+  hijri: "1322"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article, following the Encyclopaedia Britannica (1911), gives his death at Kabul on 11 September 1904; Wikidata gives only the year 1903, the year the harvest queue also carries. The article's dated value is carried, marked debated, and the Hijri year is a conversion of the carried date."
+  sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan]
+relations:
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan] }
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or a school for him. The English article has no religion field and its text, drawn from the Encyclopaedia Britannica (1911) and frontier histories, never raises his religion; Wikidata carries no religion value. His honorific Ghazi and his standing as a Pashtun chief are title and office, not attestations, and nothing is inferred from them or from his wars. The segment records an absence, not a choice between attestations."
+    sources: [source/wikipedia-umra-khan-en, source/wikidata-umra-khan]
+external_ids: { wikidata: "Q7881787" }
+sources:
+  - source/wikipedia-umra-khan-en
+  - source/wikidata-umra-khan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Umra Khan' (revision 1339699806 of 21 February 2026) and Wikidata item Q7881787 (item revision 2538106635 of 30 August 2026), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn; the QID was grounded through the article's own page property. No Arabic or Urdu Wikipedia article exists for him (the article has no ar/ur sitelinks); the Arabic and Urdu prose are written from the same sources. Existence was checked all three ways before building: name-fragment greps under all spellings (Umra/Umera/Jandol/Jandul), the grounded QID grepped across all data/person files (no hit), and biographical match. The queue's death year 1903 is Wikidata's year value; the article's dated 11 September 1904 is carried as debated with the variant disclosed. Churchill's epithet 'the Afghan Napoleon' is a contemporary British label and is handled in prose as attributed, not entered as a name, following the wave-116 Sartor Faqir precedent. No predecessor or successor edge is written (office succession), and his resting place at Kabul, given only in the article's infobox, yields no buried_in edge. The roles value [ruler] follows the wave-116 Kohandil Khan precedent for an Afghan frontier chief who held thrones."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117

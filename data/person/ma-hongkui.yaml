@@ -1,0 +1,52 @@
+id: person/ma-hongkui
+class: person
+label:
+  ar: "ما هونغكوي"
+  en: "Ma Hongkui"
+  ur: "ما ہونگ کوئ"
+summary:
+  ar: "جنرال مسلم من الهوي (1892–1970)، ابن ما فوشيانغ وابن أخي ما فولو، ورث جيش أبيه وحكم نينغشيا (1931–1949) حكمًا شديدًا، وقاتل اليابانيين والشيوعيين، فلما انتصر الشيوعيون هاجر إلى الولايات المتحدة وتوفي في لوس أنجلوس ودُفن في مقبرة تايبيه الإسلامية."
+  en: "A Hui Muslim general (1892–1970), the son of Ma Fuxiang and nephew of Ma Fulu, who inherited his father's army and ruled Ningxia with a heavy hand (1931–1949), fought the Japanese and the Communists, and on the Communist victory emigrated to the United States, dying at Los Angeles and being buried in Taipei's Muslim cemetery."
+  ur: "ایک ہوئی مسلمان جنرل (1892ء–1970ء)، ما فو زیانگ کے بیٹے اور ما فولو کے بھتیجے، جنہوں نے اپنے والد کی فوج وراثت میں پائی اور ننگ شیا پر سخت حکومت کی (1931ء–1949ء)، جاپانیوں اور کمیونسٹوں سے لڑے، اور کمیونسٹ فتح پر امریکا ہجرت کر گئے، لاس اینجلس میں وفات پائی اور تائپے کے مسلمان قبرستان میں دفن ہوئے۔"
+names:
+  - { value: "馬鴻逵", kind: full }
+  - { value: "Ma Hongkui", kind: full }
+  - { value: "Shaoyun", kind: alternate }
+  - { value: "Sanyuan", kind: alternate }
+gender: male
+roles: [general, politician]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1892-03-14"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article and Wikidata give 14 March 1892, at Hanchiachi (Hanjiaji) in Linxia County, Gansu; the Chinese article, citing the official Biographies of Senior Generals of the Republic, gives 9 March 1892 at Yangwashan village in the same township. The 14 March date is followed and the day-level conflict is recorded here. The Hijri year 1309 is the conversion of 14 March 1892, hence derived. No museum place record exists for Linxia, so no born_in relation is written."
+  sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui]
+died:
+  edtf: "1970-01-14"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Los Angeles, California, on 14 January 1970 (both articles agree); his remains were flown to Taiwan and buried in the Muslim cemetery at Sanzhangli, Taipei, the English article adding that his sixth wife had arranged the plot where he lies with his eldest son and his fourth wife. The Hijri year 1389 is the conversion of 14 January 1970, hence derived. No museum place record exists for Los Angeles or Taipei, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or an order for him. The Chinese article's lead describes a Muslim who professed Islam while holding that the Hui are part of the Chinese nation and rejecting a separate 'Hui nationality', quoting his own rebuttal recorded by Gu Jiegang; it also lists among his posts a directorship of the China Islamic Association and the chairmanship of its Ningxia branch — organisational office, not a school. The English article records that he cooperated with the Yihewani imam Hu Songshan in founding Sino-Arabic schools in Ningxia in the 1930s and 1940s, and that Hu pronounced takfir on him in 1935 after he arranged Chinese New Year celebrations late in Ramadan and had him removed and exiled — an alliance and its rupture, not a membership. Wikidata carries no religion value at all. No school or order is attested: unknown."
+    sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui]
+relations:
+  - { type: child_of, target: person/ma-fuxiang, sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh] }
+external_ids: { wikidata: "Q715070" }
+sources: [source/wikipedia-ma-hongkui-en, source/wikipedia-ma-hongkui-zh, source/wikidata-ma-hongkui]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Hongkui' (revision 1378314222 of 3 October 2026), Chinese Wikipedia '馬鴻逵' (revision 94879282 of 9 October 2026) and Wikidata item Q715070 (item revision 2525993209 of 25 July 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese article's. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q715070, and no Arabic label is shared with any existing record, so no homonym entry is required. The child_of edge to person/ma-fuxiang, built in this same run, is written here, in the son's record: the English article states 'His father was Gen. Ma Fuxiang' and repeats it from the Who's Who in China volumes, the Chinese article states it throughout, and Ma Fuxiang's own English article names Ma Hongkui as his child. The brief for this record made him a son of Ma Fulu; that is wrong — both articles make Ma Fulu his uncle, Ma Fuxiang's brother — and the correction is recorded here and in the run report. No other relations are written: his sons Ma Dunhou, Ma Dunjing and Ma Dunren and his cousin Ma Hongbin have no museum records, and no museum place record exists for Linxia, Los Angeles or Taipei."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98

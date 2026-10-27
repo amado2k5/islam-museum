@@ -1,0 +1,48 @@
+id: person/mohammed-v-of-morocco
+class: person
+label: { ar: "محمد الخامس", en: "Mohammed V of Morocco", ur: "محمد الخامس" }
+names:
+  - { value: "محمد الخامس بن يوسف بن الحسن العلوي", kind: full }
+  - { value: "Muhammad al-Khamis bin Yusef bin Hassan al-Alawi", kind: full }
+  - { value: "Mohammed V", kind: regnal }
+gender: male
+summary:
+  ar: "حاكم المغرب من سنة 1927 إلى 1961، سلطانا ثم أول ملوك المغرب المستقل. وُلد في فاس سنة 1909 واعتلى العرش خلفا لوالده يوسف، ونفته سلطات الحماية الفرنسية سنة 1953 ثم عاد سنة 1955 وقاد بلاده إلى الاستقلال سنة 1956، واتخذ لقب الملك سنة 1957، وتوفي في الرباط سنة 1961 فخلفه ابنه الحسن الثاني."
+  en: "Ruler of Morocco from 1927 to 1961, as sultan and then as the first king of independent Morocco. Born at Fes in 1909, he succeeded his father Yusef, was exiled by the French protectorate authorities in 1953, returned in 1955 and led his country to independence in 1956, took the title of king in 1957, and died at Rabat in 1961, succeeded by his son Hassan II."
+  ur: "1927 سے 1961 تک مراکش کے حکمران، پہلے سلطان اور پھر آزاد مراکش کے پہلے بادشاہ۔ وہ 1909 میں فاس میں پیدا ہوئے، اپنے والد یوسف کے جانشین بنے، 1953 میں فرانسیسی حکام نے انہیں جلاوطن کیا، 1955 میں واپس آئے اور 1956 میں ملک کو آزادی دلائی، 1957 میں بادشاہ کا لقب اختیار کیا، اور 1961 میں رباط میں وفات پائی؛ ان کے جانشین ان کے بیٹے حسن ثانی بنے۔"
+roles: [ruler]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1909-08-10"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born 10 August 1909 at the sultan's palace in Fes; the Arabic article's lead pairs the date with 1327 AH, which conversion confirms."
+  sources: [source/wikipedia-mohammed-v-of-morocco-en, source/wikipedia-mohammed-v-of-morocco-ar, source/wikidata-mohammed-v-of-morocco]
+died:
+  edtf: "1961-02-26"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died 26 February 1961 at Rabat and buried in the Royal Mausoleum there. The Hijri year 1381 is the pairing given by the Arabic article's lead; conversion of the Gregorian date gives 1380 AH, and the discrepancy is the article's. No place entity for Rabat exists in the graph, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-mohammed-v-of-morocco-en, source/wikipedia-mohammed-v-of-morocco-ar, source/wikidata-mohammed-v-of-morocco]
+relations:
+  - { type: born_in, target: place/fez, sources: [source/wikipedia-mohammed-v-of-morocco-en, source/wikipedia-mohammed-v-of-morocco-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two sources name a school for him. The only school attestation anywhere is the English article's infobox, which gives his religion as Sunni Islam — one infobox. The Arabic article carries no religion field and no text in any edition names a school; Wikidata (Q193874) gives only Islam (Q432) in general. His Alaouite sharifian descent, his title Amir al-Mu'minin and his crown headship of Morocco's religious field are headship and descent, which do not attest a personal school."
+    sources: [source/wikipedia-mohammed-v-of-morocco-en, source/wikipedia-mohammed-v-of-morocco-ar, source/wikidata-mohammed-v-of-morocco]
+external_ids: { wikidata: "Q193874" }
+sources: [source/wikipedia-mohammed-v-of-morocco-en, source/wikipedia-mohammed-v-of-morocco-ar, source/wikipedia-mohammed-v-of-morocco-ur, source/wikidata-mohammed-v-of-morocco]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mohammed V of Morocco (English article title Muhammad V of Morocco), each fetched by its recorded revision id (EN 1378623654, AR 76681200, UR 11265764) with the returned id asserted equal before use, and Wikidata item Q193874 (item revision 2558176211), the QID grounded through the articles' own page properties — all three editions agree on Q193874 — and the item read twice with identical claims. Existence checks by name fragments (Mohammed V, Muhammad V, محمد الخامس), by QID and by biography across data/person found no prior record; the existing Muhammad V records are the Nasrid and Ottoman sultans and Abu Zayyan, different men. No successor_of or child_of relation is written: his predecessor and father Yusef of Morocco has no record in the graph. His 1953–1955 exile and the Ben Aarafa interlude are carried in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-93
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

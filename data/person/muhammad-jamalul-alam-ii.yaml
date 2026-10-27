@@ -1,0 +1,50 @@
+id: person/muhammad-jamalul-alam-ii
+class: person
+label:
+  ar: "محمد جمال العالم الثاني"
+  en: "Muhammad Jamalul Alam II"
+  ur: "محمد جمال عالم دوم"
+summary:
+  ar: "السلطان السادس والعشرون لبروناي (1906–1924)، ابن هاشم جليل العالم أقام الدين. اعتلى العرش في السابعة عشرة تحت مجلس وصاية وتُوّج سنة 1918؛ وهو أول سلطان بروناي يتكلم الإنجليزية، وشجّع الزراعة والطب والتعليم والتعليم الإسلامي في إحدى أفقر فترات بروناي. توفي في أيلول 1924 وخلفه ابنه الأكبر أحمد تاج الدين."
+  en: "The 26th Sultan of Brunei (1906–1924), son of Hashim Jalilul Alam Aqamaddin. He came to the throne aged seventeen under a regency council and was crowned in 1918; the first Bruneian sultan to speak English, he encouraged agriculture, medicine, education and Islamic learning through one of Brunei's poorest periods. He died in September 1924 and was succeeded by his eldest son Ahmad Tajuddin."
+  ur: "برونائی کے چھبیسویں سلطان (1906ء–1924ء)، ہاشم جلیل العالم اقام الدین کے بیٹے۔ سترہ برس کی عمر میں مجلسِ وصایت کے تحت تخت نشین ہوئے اور 1918ء میں تاج پوشی ہوئی؛ وہ انگریزی بولنے والے پہلے برونائی سلطان تھے اور انہوں نے برونائی کے ایک غریب ترین دور میں زراعت، طب، تعلیم اور اسلامی تعلیم کی حوصلہ افزائی کی۔ ستمبر 1924ء میں وفات پائی اور ان کے بڑے بیٹے احمد تاج الدین جانشین ہوئے۔"
+names:
+  - { value: "Muhammad Jamalul Alam II ibni Hashim Jalilul Alam Aqamaddin", kind: full }
+  - { value: "محمد جمال العالم الثاني", kind: full }
+gender: male
+roles: [sultan]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1889"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "All five sources give 1889, at the Istana Kampong Ayer (Malay article), to Sultan Hashim Jalilul Alam Aqamaddin and Pengiran Anak Siti Fatimah. No day and no Hijri pairing are attested, so no hijri key is carried; the palace has no museum place record, so no born_in relation is written."
+  sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikipedia-muhammad-jamalul-alam-ii-ar, source/wikipedia-muhammad-jamalul-alam-ii-ur, source/wikidata-muhammad-jamalul-alam-ii]
+died:
+  edtf: "1924-09-11"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Malay article and Wikidata give 11 September 1924, at the Istana Majalis (Malay article), with burial at the Royal Mausoleum (Kubah Makam Diraja), Bandar Seri Begawan; the English article gives 19 September 1924. The Arabic article's categories file his death under the year 1343 AH, which both September dates fall in; the Hijri year is recorded from that filing, hence derived. Neither the palace nor Bandar Seri Begawan has a museum place record, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikidata-muhammad-jamalul-alam-ii, source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school reading exists in exactly one infobox: the English article's infobox gives his religion as Sunni Islam. The Malay article's infobox gives Islam in general; the Arabic and Urdu articles name no religion; the English article's text names no school; and Wikidata gives Islam (Q432) only, without references. His promotion of Islamic learning, attested in the English article, is state patronage, not a personal school, and crown headship and descent do not attest one either. One infobox family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikipedia-muhammad-jamalul-alam-ii-ar, source/wikidata-muhammad-jamalul-alam-ii]
+relations:
+  - { type: child_of, target: person/hashim-jalilul-alam-aqamaddin, sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikipedia-muhammad-jamalul-alam-ii-ar, source/wikidata-muhammad-jamalul-alam-ii] }
+  - { type: successor_of, target: person/hashim-jalilul-alam-aqamaddin, sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms] }
+external_ids: { wikidata: "Q40110" }
+sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikipedia-muhammad-jamalul-alam-ii-ar, source/wikipedia-muhammad-jamalul-alam-ii-ur, source/wikidata-muhammad-jamalul-alam-ii]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Jamalul Alam II' (revision 1369610251 of 16 August 2026), Malay Wikipedia 'Sultan Muhammad Jamalul Alam II' (revision 6893734 of 7 July 2026), Arabic Wikipedia (revision 71655431 of 9 August 2025), Urdu Wikipedia (revision 8983162 of 2 August 2025) and Wikidata item Q40110 (item revision 2553718938 of 6 October 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026 with the recorded revision ids asserted equal on a second read. The QID was grounded through the English article's page properties and confirmed through the Malay, Arabic and Urdu articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic fragments or the QID Q40110, and no shared Arabic label requires a homonym entry. His child_of and successor_of edges are written here, in the son's record, to person/hashim-jalilul-alam-aqamaddin, built in this same run: his English and Malay infoboxes name Hashim as both father and predecessor, the Arabic and Urdu texts call him Hashim's son, his father's English infobox names him as successor and among the issue, and his Wikidata item's father value is Q40101, the item his father's record carries. His own successor, his eldest son Ahmad Tajuddin, has no museum record and is prose only; no Brunei polity entity exists for a ruler_of edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95

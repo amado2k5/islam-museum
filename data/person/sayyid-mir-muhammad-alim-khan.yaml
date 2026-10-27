@@ -1,0 +1,68 @@
+id: person/sayyid-mir-muhammad-alim-khan
+class: person
+label:
+  ar: "سيد مير محمد عالم خان"
+  en: "Sayyid Mir Muhammad Alim Khan"
+  ur: "سید میر محمد عالم خان"
+summary:
+  ar: "سيد مير محمد عالم خان (1880–1944)، آخر أمراء بخارى من سلالة المنغيط الأوزبكية، حكم من 1911 إلى 1920 رغم كون الإمارة محمية روسية منذ 1873، فأطاح به الجيش الأحمر سنة 1920، ففرّ إلى دوشانبه ثم كابل، حيث توفي سنة 1944."
+  en: "Sayyid Mir Muhammad Alim Khan (1880–1944) was the last Emir of Bukhara of the Uzbek Manghud dynasty, reigning from 1911 to 1920 although the emirate had been a Russian protectorate since 1873. Deposed by the Red Army in 1920, he fled to Dushanbe and then to Kabul, where he died in 1944."
+  ur: "سید میر محمد عالم خان (1880–1944) ازبک منغود خاندان کے آخری امیرِ بخارا تھے؛ انہوں نے 1911 سے 1920 تک حکومت کی حالانکہ امارت 1873 سے روسی محمیہ تھی۔ 1920 میں سرخ فوج نے انہیں معزول کیا تو وہ دوشنبہ اور پھر کابل فرار ہوئے، جہاں 1944 میں ان کا انتقال ہوا۔"
+names:
+  - { value: "Sayyid Mir Muhammad Alim Khan", kind: full }
+  - { value: "سید میر محمد عالم خان", kind: full }
+  - { value: "Сеид Мир Мухаммед ибн Абдулахад Алим-хан", kind: full }
+  - { value: "Mohammed Alim Khan", kind: alternate }
+  - { value: "Said Olimxon", kind: alternate }
+  - { value: "Сеид Алим-хан", kind: alternate }
+gender: male
+born:
+  edtf: "1880-01-03"
+  hijri: "1297"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 January 1880 at Bukhara, as the English and Russian articles and the Uzbek article's lead text give; the Uzbek article's infobox instead names Karmana, which is not followed. The Hijri year 1297 is from the Arabic article's birth category (مواليد 1297 هـ) and is marked derived."
+  sources: [source/wikipedia-alim-khan-en, source/wikipedia-alim-khan-ru, source/wikipedia-alim-khan-uz, source/wikipedia-alim-khan-ar, source/wikidata-alim-khan]
+died:
+  edtf: "1944-04-28"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Kabul on 28 April 1944, as the English, Uzbek, Arabic and Urdu articles and Wikidata give; the Russian article gives 5 May 1944 in both its lead and its infobox, a variant no other source read supports, so the day is carried as debated with the majority form recorded. He was buried in the Shuadoi Solehin cemetery in Kabul; no entity exists for the cemetery, so no buried_in edge is written. The Hijri year 1363 is from the Arabic article's death category (وفيات 1363 هـ) and is marked derived."
+  sources: [source/wikipedia-alim-khan-en, source/wikipedia-alim-khan-uz, source/wikipedia-alim-khan-ar, source/wikipedia-alim-khan-ur, source/wikidata-alim-khan]
+wings: [people]
+regions: [persia-central-asia]
+roles: [emir]
+relations:
+  - type: born_in
+    target: place/bukhara
+    note: "Born at Bukhara, as the English and Russian articles and the Uzbek article's lead text attest."
+    sources: [source/wikipedia-alim-khan-en, source/wikipedia-alim-khan-ru]
+  - type: died_in
+    target: place/kabul
+    note: "Died at Kabul in exile, as the English, Russian, Uzbek, Arabic and Urdu articles attest."
+    sources: [source/wikipedia-alim-khan-en, source/wikipedia-alim-khan-uz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the school readings rest on infoboxes and structured data alone, under the headship line. The Russian article's infobox gives his religion as Islam of the Hanafi madhhab, the only school statement for him in any of the six editions read, referenced to no text; the English article's infobox gives Sunni Islam, likewise a field value; Wikidata's religion values are Islam and Sunni Islam, with no Hanafi value. No text in any edition names his school: the texts attest his throne, his rule over a Muslim state, his early reform edicts and his addition of the title Caliph to his name, which are office, state acts and titles, never a personal attestation, and Hanafi convention in Bukhara is not evidence. One infobox family short of the two-source bar, the segment is unknown, with the Hanafi and Sunni readings preserved here."
+    sources: [source/wikipedia-alim-khan-en, source/wikipedia-alim-khan-ru, source/wikipedia-alim-khan-uz, source/wikidata-alim-khan]
+external_ids:
+  wikidata: Q558626
+sources:
+  - source/wikipedia-alim-khan-en
+  - source/wikipedia-alim-khan-ru
+  - source/wikipedia-alim-khan-uz
+  - source/wikipedia-alim-khan-ar
+  - source/wikipedia-alim-khan-ur
+  - source/wikidata-alim-khan
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Uzbek, Arabic and Urdu Wikipedia articles on Sayyid Mir Muhammad Alim Khan and Wikidata item Q558626, each read at a recorded revision; existence checked both ways before building — name fragments (alim-khan, manghud) and slug variants across data/person found no record for him (the many Salim/Alim namesakes are distinct people), and Q558626, grounded through the English article's page properties and confirmed through the Russian, Uzbek, Arabic and Urdu articles', matched no existing record. His succession is attested — he followed his father 'Abd al-Ahad Khan and the monarchy was abolished at his deposition — but no successor_of edge is written because the museum holds no record for 'Abd al-Ahad Khan, and no ruler_of edge because no polity entity exists for the Emirate of Bukhara. His reign's start is given as 3 January 1911 in the English and Arabic articles; the Uzbek article dates his accession to his father's death in late December 1910."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104

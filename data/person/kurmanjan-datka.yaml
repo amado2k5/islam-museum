@@ -1,0 +1,57 @@
+id: person/kurmanjan-datka
+class: person
+label:
+  ar: "قرمانجان داتقا"
+  en: "Kurmanjan Datka"
+  ur: "قرمانجان داتقا"
+summary:
+  ar: "قرمانجان داتقا (1811–1907)، وُلدت قرمانجان ماماتباي قيزى، حاكمة قرغيز الألاي من 1862 إلى 1876 بلقب «داتقا» الذي منحها إياه خانا بخارى وخوقند، والمعروفة بـ«ملكة الألاي» و«ملكة الجنوب»؛ أقنعت قومها سنة 1876 بقبول السيادة الروسية تفاديًا للدمار، وتوفيت في مادي سنة 1907."
+  en: "Kurmanjan Datka (1811–1907), born Kurmanjan Mamatbay kyzy, was ruler of the Alai Kyrgyz from 1862 to 1876 with the title Datka, granted by the khans of Bukhara and Kokand, and is remembered as the Queen of Alai and the Queen of the South. In 1876 she persuaded her people to accept Russian overlordship rather than face destruction, and she died at Mady in 1907."
+  ur: "قرمانجان داتقا (1811–1907)، اصل نام قرمانجان ماماتبائی قیزی، 1862 سے 1876 تک آلائی کرغیزوں کی حکمران رہیں؛ انہیں بخارا اور خوقند کے خانوں نے «داتقا» کا لقب دیا۔ 1876 میں انہوں نے اپنے لوگوں کو روسی بالادستی قبول کرنے پر آمادہ کیا اور 1907 میں مادی میں وفات پائی۔"
+names:
+  - { value: "Kurmanjan Datka", kind: full }
+  - { value: "Курманжан Датка", kind: full }
+  - { value: "قرمانجان داتقا", kind: full }
+  - { value: "Kurmanjan Mamatbay kyzy", kind: alternate }
+  - { value: "Курманжан Маматбай кызы", kind: alternate }
+  - { value: "Qurbonjon dodxoh", kind: alternate }
+  - { value: "Datka", kind: laqab }
+gender: female
+born:
+  edtf: "1811-05-22"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 22 May 1811 in the Osh region of the Khanate of Kokand, as the English article's lead text, the Russian article's infobox, the Uzbek article and Wikidata give; the English infobox and the Kyrgyz article carry the year only. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-kurmanjan-datka-en, source/wikipedia-kurmanjan-datka-ru, source/wikipedia-kurmanjan-datka-uz, source/wikidata-kurmanjan-datka]
+died:
+  edtf: "1907-02-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 1 February 1907 at her home in Mady, as all four articles and Wikidata agree; the English article records that she was buried at Osh beside her son Kamchibek, executed in 1895. No entity exists for Osh or Mady, so no died_in or buried_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-kurmanjan-datka-en, source/wikipedia-kurmanjan-datka-ru, source/wikipedia-kurmanjan-datka-ky, source/wikidata-kurmanjan-datka]
+wings: [people]
+regions: [persia-central-asia]
+roles: [politician]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the Sunni reading rests on the Russian article's infobox alone (veroisovpovedanie: Sunni Islam), an infobox field referenced to no text. The Russian text itself describes her only generically, as a Muslim woman and as a ruler in the Muslim East; the Uzbek article's infobox gives her religion as Islam in general, which does not corroborate the branch; the English article names no religion in its text and its filing of her under Muslims from the Russian Empire is a category; the Kyrgyz article and Wikidata carry no religion value at all. Her rule, her diplomacy with Bukhara, Kokand and Russia, and her family's story are acts and milieu, not attestations. One infobox short of the two-source bar, the segment is unknown, with the Sunni infobox reading preserved here."
+    sources: [source/wikipedia-kurmanjan-datka-en, source/wikipedia-kurmanjan-datka-ru, source/wikipedia-kurmanjan-datka-uz, source/wikidata-kurmanjan-datka]
+external_ids:
+  wikidata: Q4248572
+sources:
+  - source/wikipedia-kurmanjan-datka-en
+  - source/wikipedia-kurmanjan-datka-ru
+  - source/wikipedia-kurmanjan-datka-ky
+  - source/wikipedia-kurmanjan-datka-uz
+  - source/wikidata-kurmanjan-datka
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Kyrgyz and Uzbek Wikipedia articles on Kurmanjan Datka and Wikidata item Q4248572, each read at a recorded revision; existence checked both ways before building, with particular care over variant spellings — name fragments (kurmanjan, kurman, datka, qurbonjon) and slug variants across data/person found no record for her under any spelling, and Q4248572, grounded through the English article's page properties and confirmed through the Russian, Kyrgyz and Uzbek articles', matched no existing record. No relations are written: her husband Alymbek Datka, whom she married in 1832 and who was murdered in 1862, is queued (century-additions line 1479) but not yet built, and no place entity exists for Osh or Mady."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104

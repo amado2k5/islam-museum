@@ -1,0 +1,40 @@
+id: person/nuh-ha-mim-keller
+class: person
+label: { ar: "نوح حاميم كلر", en: "Nuh Ha Mim Keller", ur: "نوح ہا میم کیلر" }
+names:
+  - { value: "Nuh Ha Mim Keller", kind: full }
+  - { value: "Nuh Keller", kind: alternate }
+  - { value: "نوح حاميم كلر", kind: full }
+  - { value: "نوح كلر", kind: alternate }
+gender: male
+summary:
+  ar: "عالم ومترجم أمريكي مسلم (مواليد 1954) يقيم في عمّان؛ وُلد لأسرة أمريكية من أصل ألماني في ولاية واشنطن، واعتنق الإسلام سنة 1977، وتتلمذ في سوريا على عبد الرحمن الشاغوري وأخذ عنه الطريقة الشاذلية وأُجيز شيخًا سنة 1996، وأسّس زاوية في عمّان، واشتهر بترجمته «عمدة السالك» إلى الإنجليزية وبترجمته للقرآن «القرآن منظورًا» (2022)."
+  en: "American Muslim scholar and translator (born 1954) living in Amman. Born to a German American family in the state of Washington, he converted to Islam in 1977, studied in Syria as a disciple of Abd al-Rahman al-Shaghouri, from whom he took the Shadhili order and his authorization as a shaykh in 1996, and founded a zawiya in Amman; he is known for his English translation of Umdat al-Salik (Reliance of the Traveller) and his 2022 Quran translation, The Quran Beheld."
+  ur: "امریکی مسلم عالم اور مترجم (پیدائش 1954)، عمان میں مقیم؛ ریاست واشنگٹن میں جرمن نژاد امریکی خاندان میں پیدا ہوئے، 1977 میں اسلام قبول کیا، شام میں عبد الرحمن الشاغوری کے شاگرد بن کر ان سے شاذلی سلسلہ لیا اور 1996 میں شیخ کی اجازت پائی، «عمدۃ السالک» کے انگریزی ترجمے اور 2022 کے ترجمۂ قرآن سے مشہور ہیں۔"
+roles: [scholar, teacher, writer]
+wings: [people, living]
+regions: [americas-oceania, levant-iraq]
+born:
+  edtf: "1954"
+  hijri: "1373"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1954 in the United States, in the state of Washington, to a third-generation German American family (English article's text and infobox; Wikidata gives the year only). No place entity covers his birthplace, so no born_in edge is written."
+  sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar, source/wikidata-nuh-ha-mim-keller]
+faith:
+  - value: sufi
+    basis: documented
+    note: "His Shadhili affiliation is attested personally in two independent article texts. The English text states that he joined the Shadhili Sufi order, becoming a disciple of the Sufi poet Abd al-Rahman al-Shaghouri of Damascus, from whom he received his authorization, from 1982 until al-Shaghouri's death in 2004. The Arabic text states that he studied in Syria under al-Shaghouri and took the Shadhili order from him in 1988, and calls him a shaykh of the Shadhili order in the United States; the two texts differ on the year of his taking the order (1982 against 1988) but agree on the discipleship itself. No sunni or sunni-shafii segment is recorded: Sunni denomination, Shafi'i jurisprudence and Ash'ari creed appear only in infoboxes (the English infobox; the Urdu infobox translated from it; the Arabic infobox giving Shafi'i and Ash'ari) and in category filings, and no article text names a school for him personally; his translation of the Shafi'i manual Umdat al-Salik is his scholarly work, not an attestation of his own madhhab. Wikidata gives his religion as Islam generically."
+    sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar]
+relations:
+  - { type: lived_in, target: place/amman, sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar, source/wikipedia-nuh-ha-mim-keller-ur] }
+external_ids: { wikidata: "Q1702471" }
+sources: [source/wikipedia-nuh-ha-mim-keller-en, source/wikipedia-nuh-ha-mim-keller-ar, source/wikipedia-nuh-ha-mim-keller-ur, source/wikidata-nuh-ha-mim-keller]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Nuh Ha Mim Keller, each fetched by its recorded revision id (EN 1367613334, AR 76983384, UR 11483457) with the returned id asserted equal before use, and Wikidata item Q1702471 (revision 2512296671). Existence checks by name fragments (Keller, Nuh Ha Mim, نوح كلر, کیلر) and by QID across data/person and data/source found no prior record. One source conflict is disclosed: the Arabic article says he converted to Islam while studying Arabic at al-Azhar in Egypt, while the English article, citing Hamid (2015), dates his conversion from Roman Catholicism to 1977 during his American studies; the English account is followed in prose. His teacher Abd al-Rahman al-Shaghouri has no record, so no student_of edge is written; his Amman residence, where he established a zawiya in the early 2000s, is written as lived_in to place/amman, which exists. The lane queue gives 1954–living; the sources agree."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

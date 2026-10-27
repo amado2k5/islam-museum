@@ -1,0 +1,49 @@
+id: person/mustafa-al-zarqa
+class: person
+label: { ar: "مصطفى الزرقا", en: "Mustafa al-Zarqa", ur: "مصطفی الزرقا" }
+names:
+  - { value: "مصطفى أحمد الزرقاء", kind: full }
+  - { value: "Mustafa Ahmad al-Zarqa", kind: full }
+  - { value: "Muṣṭafá Aḥmad al-Zarqāʼ", kind: alternate }
+gender: male
+roles: [jurist, scholar, writer, politician]
+summary:
+  ar: "فقيه وقانوني سوري (1904–1999) وُلد في حلب في أسرة علمية، ودرّس الحقوق المدنية والشريعة في جامعتي دمشق والأردنية، وانتُخب نائبا عن حلب وتولى وزارتي العدل والأوقاف. من أشهر كتبه «المدخل الفقهي العام»، ونال جائزة الملك فيصل العالمية في الدراسات الإسلامية عام 1984، وتوفي في الرياض."
+  en: "Syrian jurist and legal scholar (1904–1999), born in Aleppo into a scholarly family. He taught civil law and sharia at the universities of Damascus and Jordan, sat as a deputy for Aleppo and twice held ministerial office; his al-Madkhal al-Fiqhi al-'Amm is a standard modern restatement of Islamic jurisprudence, and he received the King Faisal International Prize for Islamic Studies in 1984. He died in Riyadh."
+  ur: "سوری فقیہ اور قانونی عالم (1904ء–1999ء)، حلب میں ایک علمی خاندان میں پیدا ہوئے۔ دمشق اور اردن کی جامعات میں مدنی قانون اور شریعت کے استاد رہے، حلب سے رکن اسمبلی منتخب ہوئے اور دو بار وزیر رہے؛ ان کی مشہور کتاب «المدخل الفقہی العام» ہے اور انھیں 1984ء میں الدراسات اسلامیہ کا شاہ فیصل عالمی انعام ملا۔ ان کا انتقال ریاض میں ہوا۔"
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1904"
+  hijri: "1322"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Aleppo in 1322 AH / 1904 CE; the Arabic article pairs the two years, so the Hijri year is sourced, not derived."
+  sources: [source/wikipedia-mustafa-al-zarqa-ar, source/wikidata-mustafa-al-zarqa]
+died:
+  edtf: "1999-07-03"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Riyadh on Saturday 19 Rabi' al-Awwal 1420 AH, 3 July 1999 (Arabic article: the lead names Riyadh, the infobox Saudi Arabia; Wikidata gives 3 July 1999). No place entity for Riyadh exists yet, so the place of death is carried here and in the prose."
+  sources: [source/wikipedia-mustafa-al-zarqa-ar, source/wikidata-mustafa-al-zarqa]
+relations:
+  - { type: born_in, target: place/aleppo, note: "Born at Aleppo (Arabic article lead and infobox; Wikidata gives Aleppo as place of birth).", sources: [source/wikipedia-mustafa-al-zarqa-ar, source/wikidata-mustafa-al-zarqa] }
+  - { type: student_of, target: person/badreddin-al-hasani, note: "The Arabic article names the hadith scholar Badr al-Din al-Hasani among the teachers al-Zarqa studied under, in Aleppo and again in Damascus. The edge is written here, in the student's record, only.", sources: [source/wikipedia-mustafa-al-zarqa-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article — the only one on him — presents Hanafi Islam as his family's school and his own formation: his father Ahmad al-Zarqa and his grandfather Muhammad al-Zarqa were leading Hanafi scholars of Aleppo, he studied Hanafi fiqh under them, and its method section speaks of his Hanafi upbringing and deep immersion in that school while stressing that as a mujtahid he did not confine himself to one madhhab. Family background and formation in a subject are not a personal attestation, and no second source names a school for him personally: Wikidata gives only Islam. His school is recorded unknown, with the Hanafi formation preserved here."
+    sources: [source/wikipedia-mustafa-al-zarqa-ar, source/wikidata-mustafa-al-zarqa]
+external_ids: { wikidata: "Q12243342" }
+sources: [source/wikipedia-mustafa-al-zarqa-ar, source/wikidata-mustafa-al-zarqa]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "The Arabic Wikipedia article on Mustafa al-Zarqa — the only Wikipedia article on him in any language — and Wikidata item Q12243342, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-62

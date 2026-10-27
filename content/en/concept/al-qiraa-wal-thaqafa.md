@@ -46,3 +46,12 @@ He advises writing notes in the margin of the book or on a separate sheet, writi
 - **academic view: not yet sourced**: not yet attributed.
 - **other view: not yet sourced**: not yet attributed.
 :::
+
+## The 'Al-Wasatiyya' episode — the youth reading crisis
+An 'Al-Wasatiyya' episode devoted itself to the youth reading crisis — 'the Arabs do not read', so much so that a joke has it you could safely publish your war plan {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:02:00}.
+
+### The scale in numbers
+Arabs are 5% of the world's population yet produce 1% of its books; a title-count puts it at 29 against 726; and twenty Germans read 140 books a year {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00}. Average Arab reading speed is 150 words a minute against a world 200, at 75% comprehension {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:52:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}. The panel's rule: under two books a month leaves you 'on the margin of life', not a cultured person {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:15:00}.
+
+### The causes — bad writing, not busyness
+The youth voted busyness and lack of time the weakest excuse (12%), the biggest cause being bad Arabic writing; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:37:00} and from the book economy: a distinguished author takes 14% of his book's revenue while 86% goes to publisher, distributor and printing {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:30} — with 60% of one house's sales in Saudi Arabia alone {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:00}.

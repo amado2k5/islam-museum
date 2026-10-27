@@ -1,0 +1,45 @@
+id: person/modibo-keita
+class: person
+label: { ar: "موديبو كيتا", en: "Modibo Keïta", ur: "مودیبو کیتا" }
+names:
+  - { value: "Modibo Keïta", kind: full }
+  - { value: "موديبو كيتا", kind: full }
+gender: male
+summary:
+  ar: "سياسي مالي (1915–1977) من باماكو، بدأ معلما ثم شارك في تأسيس الاتحاد السوداني، وصار رئيس وزراء اتحاد مالي سنة 1959 ثم أول رئيس لمالي المستقلة (1960–1968) مطبّقا اشتراكية إفريقية وقائدا في حركة عدم الانحياز ومنظمة الوحدة الإفريقية، حتى أطاح به موسى تراوري سنة 1968 فسُجن ومات في سجنه بباماكو في 16 مايو 1977."
+  en: "Malian politician (1915–1977) from Bamako who began as a teacher, co-founded the Sudanese Union, became prime minister of the Mali Federation in 1959 and then first president of independent Mali (1960–1968), applying African socialism and leading in the Non-Aligned Movement and the Organisation of African Unity, until Moussa Traoré overthrew him in 1968; he was imprisoned and died a prisoner in Bamako on 16 May 1977."
+  ur: "مالی سیاست دان (1915ء–1977ء)، باماکو سے؛ استاد کے طور پر آغاز کیا، سوڈانی یونین کے شریک بانی بنے، 1959ء میں مالی فیڈریشن کے وزیرِ اعظم اور پھر آزاد مالی کے پہلے صدر (1960ء–1968ء) رہے، افریقی سوشلزم نافذ کیا اور غیر وابستہ تحریک اور تنظیمِ وحدتِ افریقہ میں قیادت کی، حتیٰ کہ 1968ء میں موسی تراورے نے انھیں ہٹا دیا؛ قید ہوئے اور 16 مئی 1977ء کو باماکو میں قید ہی میں انتقال ہوا۔"
+roles: [teacher, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1915-06-04"
+  hijri: "1333"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 4 June 1915 in Bamako-Coura, Bamako, then in French Sudan; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-modibo-keita-en, source/wikidata-modibo-keita]
+died:
+  edtf: "1977-05-16"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death on 16 May 1977, still a prisoner after the 1968 coup, and its infobox gives the place as Bamako; Wikidata carries the same date and Bamako among its place-of-death values. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-modibo-keita-en, source/wikidata-modibo-keita]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — family-framing only, for the founder's word (the family-framing configuration of khan-abdul-ghaffar-khan, wave 70 §B, and shehu-shagari, wave 73 §A). The English article's text attaches Islam to his family, not to him: 'His family were Malian Muslims who claimed direct descent from the Keita dynasty.' The Arabic article's text says the same of the family. His political ideology is described as a synthesis including Islamism — a programme, not a personal affiliation. Both articles file him under Malian Muslims and Muslim socialists, and Wikidata gives a single structured value, Islam. No text used attests Keïta himself as a Muslim, and none names a school, so under the two-source rule the value stays unknown with the readings preserved."
+    sources: [source/wikipedia-modibo-keita-en, source/wikipedia-modibo-keita-ar, source/wikidata-modibo-keita]
+external_ids: { wikidata: "Q313240" }
+sources: [source/wikipedia-modibo-keita-en, source/wikipedia-modibo-keita-ar, source/wikidata-modibo-keita]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Modibo Keïta' (revision 1369598901 of 16 August 2026), Arabic Wikipedia 'موديبو كيتا' (revision 76480090 of 8 September 2026) and Wikidata item Q313240 (item revision 2560678819 of 25 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (keita — the hits are the footballers Salif and Seydou Keïta and the musician Salif Keita, different men), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. His Arabic label موديبو كيتا shares only the first name with person/modibo-adama (موديبو أداما) — no exact-label collision, so no homonym entry arises. No place entity exists for Bamako, so no born_in or died_in edge is written; he was Mali's first president, so there is no predecessor person record and no successor_of edge is written in his record (the edge to him is written in Moussa Traoré's record). Wikidata carries two place-of-death values for him; the English article's infobox gives Bamako, which the record follows."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

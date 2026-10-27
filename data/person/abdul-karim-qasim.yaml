@@ -1,0 +1,50 @@
+id: person/abdul-karim-qasim
+class: person
+label: { ar: "عبد الكريم قاسم", en: "Abdul-Karim Qasim", ur: "عبد الکریم قاسم" }
+names:
+  - { value: "عبد الكريم قاسم محمد بكر عثمان الزبيدي", kind: full }
+  - { value: "Abdul-Karim Qasim", kind: full }
+  - { value: "الزعيم", kind: laqab }
+  - { value: "al-Za'im", kind: laqab }
+gender: male
+summary:
+  ar: "عبد الكريم قاسم (21 نوفمبر 1914 – 9 فبراير 1963)، ضابط عراقي قاد ثورة 14 يوليو 1958 التي أطاحت بالملكية الهاشمية، ثم تولى رئاسة الوزراء وقيادة القوات المسلحة في الجمهورية العراقية حتى أطاح به انقلاب البعث في فبراير 1963 فأُعدم بعد محاكمة قصيرة. اتسم حكمه بإصلاحات اجتماعية وأرضية واسعة وبصراع مع التيار القومي العربي ومع الشيوعيين على السواء."
+  en: "Abdul-Karim Qasim (21 November 1914 – 9 February 1963) was an Iraqi army officer who led the revolution of 14 July 1958 that overthrew the Hashemite monarchy, then served as prime minister and commander-in-chief of the Iraqi Republic until the Ba'ath coup of February 1963, after which he was executed following a short trial. His rule brought sweeping social and agrarian reforms and a balancing contest with both the pan-Arab nationalists and the communists."
+  ur: "عبد الکریم قاسم (21 نومبر 1914ء – 9 فروری 1963ء) ایک عراقی فوجی افسر تھے جنہوں نے 14 جولائی 1958ء کے انقلاب کی قیادت کی جس نے ہاشمی بادشاہت کا خاتمہ کیا، پھر جمہوریۂ عراق کے وزیرِ اعظم اور مسلح افواج کے سربراہ رہے یہاں تک کہ فروری 1963ء میں بعث بغاوت نے انہیں ہٹا دیا اور مختصر مقدمے کے بعد انہیں پھانسی دی گئی۔ ان کے دور میں وسیع سماجی و زمینی اصلاحات ہوئیں اور وہ عرب قوم پرستوں اور کمیونسٹوں دونوں کے مقابل توازن برقرار رکھنے کی کوشش کرتے رہے۔"
+roles: [politician, military]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1914-11-21"
+  hijri: "1333"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 November 1914 in the Mahdiyya district of Baghdad; the English and Arabic articles and Wikidata agree. The Hijri year (1333) is derived by tabular conversion of the recorded date."
+  sources: [source/wikipedia-abdul-karim-qasim-en, source/wikipedia-abdul-karim-qasim-ar, source/wikidata-abdul-karim-qasim]
+died:
+  edtf: "1963-02-09"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Executed by firing squad at Baghdad on 9 February 1963, the day after the Ba'ath coup that overthrew his government, following a short trial at the Ministry of Defence; the English article and Wikidata agree on the day, the Arabic article on the year and manner. The Hijri year (1382) is derived from the Gregorian date."
+  sources: [source/wikipedia-abdul-karim-qasim-en, source/wikipedia-abdul-karim-qasim-ar, source/wikidata-abdul-karim-qasim]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-abdul-karim-qasim-en, source/wikipedia-abdul-karim-qasim-ar, source/wikidata-abdul-karim-qasim] }
+  - { type: died_in, target: place/baghdad, sources: [source/wikipedia-abdul-karim-qasim-en, source/wikipedia-abdul-karim-qasim-ar, source/wikidata-abdul-karim-qasim] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (the family-framing-only configuration of Khan Abdul Ghaffar Khan, Shehu Shagari and Saddam Hussein). No source names his own school. The English article, citing Uriel Dann, describes his father as a Sunni Arab and his mother as a Shia Kurd and Qasim himself as of mixed Sunni-Shia parentage; the Arabic article describes his father as a Sunni Muslim and his mother as from a Shia family, adding that the father insisted his sons be schooled in the Sunni rite — statements about his parents and his father's household, which never count. Wikidata gives only Islam in general, and the English article's category 'Iraqi Muslims' is a filing. No source read attests unbelief either; his communist support and his clashes with the religious parties are ideology and politics, which never count in either direction. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-abdul-karim-qasim-en, source/wikipedia-abdul-karim-qasim-ar, source/wikidata-abdul-karim-qasim]
+external_ids: { wikidata: "Q299732" }
+sources: [source/wikipedia-abdul-karim-qasim-en, source/wikipedia-abdul-karim-qasim-ar, source/wikipedia-abdul-karim-qasim-ur, source/wikidata-abdul-karim-qasim]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abdul-Karim Qasim, each fetched by its recorded revision id (EN 1382140681, AR 76685333, UR 10089937) with the returned id asserted equal before use, and Wikidata item Q299732 (item revision 2557615527, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. No successor_of edge to Faisal II is written: the articles do not attest Qasim succeeding Faisal II as head of state — Faisal II's own article names Muhammad Najib ar-Ruba'i, chairman of the Sovereignty Council, as the successor office-holder on the monarchy's abolition, and Qasim's infobox places ar-Ruba'i as president above his premiership; Qasim's succession of Nuri al-Said was in the defence ministry, a portfolio, not headship of state. Both successions are prose only. No member_of edge is written (he was formally an independent; no Ba'ath or Communist Party group entity is used for him) and no ruler_of edge (no modern Iraq polity entity exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

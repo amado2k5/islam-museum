@@ -1,0 +1,20 @@
+---
+id: concept/al-wataniyya-wal-qawmiyya
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
+# وطن پرستی، قوم پرستی اور عروبت — اسلام سے سرحد
+
+## قسط اور ووٹ
+«الوسطیہ» کی چھٹی قسط میں وطن اور عروبت سے وابستگی اور اسلام سے وابستگی کی سرحد پر بحث ہوئی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:01:00}۔ سامعین — ایک پڑھے لکھے نمونہ — نے ووٹ دیا کہ صرف 45% کے پاس وطن پرستی اور قوم پرستی کی واضح تعریف ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:07:00}؛ 78% نے عرب اتحاد کو اسلامی اتحاد کی طرف قدم جانا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00}؛ اور 76% کو اپنی وابستگیوں میں کوئی تضاد محسوس نہیں ہوتا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}۔
+
+## چار الگ تصورات
+سیاسیات کے پروفیسر نے خلط دور کیا: وطن پرستی ایک محدود وطن سے بندھن ہے جس پر حکومت ہے — قانونی فرائض جیسے خدمت اور دفاع، اور حقوق جیسے شہریت اور تعلیم، ساتھ ایک جیتی ہوئی ثقافتی پہلو؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:00} قوم پرستی ثقافتی، لسانی اور تاریخی وحدت اور مشترک خواہش کا احساسِ بندھن ہے جس کی شاید کوئی ایک ریاست نہ ہو؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:30} اور شناخت ایک جماعت سے وابستگی کا احساس ہے جس میں ثقافتی، نظریاتی یا مذہبی التزام ہو — جو امریکا میں عرب کے اپنے معاملے پر کھڑے ہونے میں ظاہر ہوتی ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:13:30}۔
+
+## قومیت سے پہلے عروبت
+وحید عبدالمجید نے بنیادی فرق کیا: عروبت ایک پرانی تاریخی-تہذیبی وابستگی ہے — زبان مشترک تاریخ اور مشترک جذبات بناتی ہے — جب کہ «عرب قومیت» ایک جدید تصور ہے جو انیسویں صدی میں موجود نہ تھا، مغربی قوم پرستی سے متاثر ہوا اور ایک سیاسی مذہب بن گیا جو عربوں کو دین سے قطع نظر ترجیح دیتا ہے — مسیحی عرب اس کے نزدیک مسلمان کے برابر {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:19:00}۔ خالد القاسم نے اضافہ کیا کہ عروبت ایک ناٹوٹنے والی وابستگی ہے — نسل، تاریخ اور مشترک امیدیں — «عرب وہ ہے جو ان امیدوں، اس تہذیب اور اس زبان میں شریک ہو، محض نسل نہیں» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:22:30}۔
+
+## سرحد — وابستگی نہیں، تعصب
+میزبان نے اصول نکالا: انصاف کے اصولوں پر مبنی امتیاز قبول ہے — اپنے ملک کی ملازمتوں میں شہری کو ترجیح کیونکہ وہ بغیر طریقت کے داخل ہوتا ہے — جب کہ اندھا تعصب جو انصاف پر مبنی نہیں مردود ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:13:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:14:00}۔ وطن پرستی ایک کمپنی کی مانند ہے جس میں سب نفع اور نقصان میں شریک ہیں — حقوق اور فرائض {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:17:30}۔ انہوں نے ذاتی فخر کا اعتراف کیا: «میں اللہ کا شکر کرتا ہوں کہ میں عرب ہوں قرآن سمجھتا ہوں — اللہ نے انسانوں میں بنی کنانہ اور ان میں بنی ہاشم کو چنا» — مگر اگر عربوں نے جرمنوں کی طرح اپنی نسل پر فخر کر کے امتوں کو ہلاک کیا «ہم ان کے خلاف کھڑے ہوں گے» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:17:00}۔ اختتام: وطن اور عروبت سے وابستگی اسلام سے متضاد نہیں بشرطیکہ اس میں تعصب، امتیاز، ظلم یا تکبر نہ ہو — «اور یہی وسطیہ ہے» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}۔

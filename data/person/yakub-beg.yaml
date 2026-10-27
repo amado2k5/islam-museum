@@ -1,0 +1,58 @@
+id: person/yakub-beg
+class: person
+label:
+  ar: "محمد يعقوب بك"
+  en: "Yakub Beg"
+  ur: "محمد یعقوب بیگ"
+summary:
+  ar: "أمير دولة يتشهر (كاشغاريا) في سنجان من 1865 إلى 1877 بلقب أطاليق غازي؛ جاء من كوكند، وُلد نحو 1820 في بسكند، ومات في كورلا في أواخر مايو 1877 في ظروف متنازع عليها."
+  en: "Emir of the Yettishar (Kashgaria) state in Xinjiang from 1865 to 1877, under the title Ataliq Ghazi; a Kokandi commander born about 1820 at Pskent who died at Korla in late May 1877 in disputed circumstances."
+  ur: "یتشار (کاشغریا) ریاست کے امیر (1865ء تا 1877ء) بعنوان اطالق غازی؛ کوکند کے سپہ سالار، تقریباً 1820ء میں پسکنت میں پیدا ہوئے اور مئی 1877ء کے اواخر میں کورلا میں متنازع حالات میں وفات پائی۔"
+names:
+  - { value: "Muhammad Yakub Beg", kind: full }
+  - { value: "Yakub Beg", kind: given }
+  - { value: "Yakub Padishah", kind: regnal }
+  - { value: "Ataliq Ghazi", kind: regnal }
+  - { value: "Agubai", kind: alternate }
+born:
+  edtf: "1820~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Pskent in the Khanate of Kokand. The English article's biography gives the year 1820 outright (Kim 2004, p. 77) and its lead 'c. 1820'; the Chinese article's infobox and Wikidata likewise give 1820; the Arabic article gives 1820 or 1825, the 1825 variant recorded here. No source read gives a Hijri pairing for his birth, so no hijri key is carried."
+  sources: [source/wikipedia-yakub-beg-en, source/wikipedia-yakub-beg-ar, source/wikipedia-yakub-beg-zh, source/wikidata-yakub-beg]
+died:
+  edtf: "1877-05"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: false
+  note: "Died at Korla in late May 1877; the day and the manner are both contested in the English article's death section: Sayrami's 28 April is impossible (Przewalski met him on 9 May), Chinese sources usually give 22 May, Kuropatkin thought 29 May (the day Wikidata carries), and Sayrami's tradition gives 30 May (the day the English lead and the Chinese article carry); the manner is given variously as poisoning, suicide, death in battle, or a natural death from a stroke, which modern historians following Kim judge most plausible. The date is therefore carried at month precision as debated. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-yakub-beg-en, source/wikipedia-yakub-beg-zh, source/wikidata-yakub-beg]
+wings: [people]
+regions: [china-east-asia]
+roles: [emir]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school or Sufi order for him. The English article's infobox carries a religion field 'Sunni Islam' — one infobox in one source family, uncorroborated by any text; the Chinese article's infobox and Wikidata (P140) give only 'Islam' in general. His administration of Yettishar enforced Islamic law, dissolved non-Islamic institutions and pressed conversions by decree, but those are acts of state policy by a ruler, not attestations of his personal school affiliation, and his title Ataliq Ghazi ('Champion Father of the Faithful') is a regnal styling, not an attestation. Hanafi convention among Central Asian Muslims is not an attestation. The single-infobox Sunni reading is preserved here; on the museum's two-source rule his faith segment is unknown."
+    sources: [source/wikipedia-yakub-beg-en, source/wikipedia-yakub-beg-zh, source/wikidata-yakub-beg]
+relations:
+  - type: lived_in
+    target: place/kashgar
+    note: "He made Kashgar the seat of his Yettishar state from 1865, and ruled it until his death in 1877."
+    sources: [source/wikipedia-yakub-beg-en]
+external_ids:
+  wikidata: Q558247
+sources:
+  - source/wikipedia-yakub-beg-en
+  - source/wikipedia-yakub-beg-ar
+  - source/wikipedia-yakub-beg-zh
+  - source/wikidata-yakub-beg
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Arabic and Chinese Wikipedia articles on Yakub Beg of Yettishar and Wikidata item Q558247, each read at a recorded revision; existence checked both ways before building — name fragments (yaqub, yakub, kub beg, agubai/agbai, Kashgaria) and slug variants found no person file, and Q558247, grounded through the English article's page properties and confirmed through the Arabic and Chinese articles', matched no existing record; a predecessor record yaqub-beg-aq-qoyunlu (Q6712721) is a different, earlier man. No born_in or died_in edge is written: no place entity exists for Pskent or Korla. A ruler_of edge is refused: no Yettishar polity entity exists. His sons and his successor Haqq Quli Beg have no records, so no edges are written to them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100

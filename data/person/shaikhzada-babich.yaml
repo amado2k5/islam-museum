@@ -1,0 +1,54 @@
+id: person/shaikhzada-babich
+class: person
+label:
+  ar: "شايخزاده بابيتش"
+  en: "Shaikhzada Babich"
+  ur: "شائخزادہ بابچ"
+summary:
+  ar: "شاعر باشكيري (1895–1919)، يُعد من كلاسيكيي الأدب القومي الباشكيري. وُلد في أسيانوفو ابنًا لملّا المحلّة ومدير مدرستها، وتشكّل في مدرسة غاليّة بأوفا، ونشط في الحركة الوطنية الباشكيرية سكرتيرا للشورى المركزية ورئيسا لاتحاد الشباب «تولقن» ومراسلا حربيا، وقُتل على يد جندي من الجيش الأحمر سنة 1919 وهو في الرابعة والعشرين."
+  en: "Bashkir poet (1895–1919), a classic author of Bashkir national literature. Born at Asyanovo, son of the mahalla mullah who directed its madrasa, and formed at the Ğəliyə madrasa in Ufa, he was active in the Bashkir national movement as secretary of the Central Shuro, head of the Tulqın youth union and a war correspondent, and was murdered by a Red Army soldier in 1919, aged twenty-four."
+  ur: "باشقیر شاعر (1895–1919)، باشقیر قومی ادب کے کلاسیکی مصنفین میں شمار ہوتے ہیں۔ اسیانوو میں محلّے کے ملا اور اس کے مدرسے کے نگران کے گھر پیدا ہوئے، اوفا کے غالیہ مدرسے میں تربیت پائی، باشقیر قومی تحریک میں مرکزی شورا کے سیکریٹری، «تولقن» نوجوانان یونین کے سربراہ اور جنگی نمائندے رہے، اور 1919 میں چوبیس برس کی عمر میں لال فوج کے سپاہی کے ہاتھوں قتل ہوئے۔"
+names:
+  - { value: "Şəyexzada Möxəmmətzəkir ulı Babiç", kind: full }
+  - { value: "Шайхзада Мухаметзакирович Бабич", kind: full }
+  - { value: "Шәйехзада Мөхәммәтзакир улы Бабич", kind: full }
+  - { value: "شايخزاده بابيتش", kind: full }
+  - { value: "Shaikhzada Babich", kind: latinized }
+gender: male
+born:
+  edtf: "1895-01-14"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 2 January 1895 (Julian) at the village of Asyanovo in Birsk Uyezd, Ufa Governorate, carried here in the Gregorian form 14 January 1895: the Russian article dual-dates the birth, and the English article and Wikidata carry the Gregorian day. His father Mukhametzakir was the mullah of the Asyanovo mahalla and directed its madrasa. No Hijri pairing is given in any source, so none is recorded. No place entity exists for Asyanovo, so no born_in relation is written."
+  sources: [source/wikipedia-shaikhzada-babich-en, source/wikipedia-shaikhzada-babich-ru, source/wikidata-shaikhzada-babich]
+died:
+  edtf: "1919-03-28"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Murdered on 28 March 1919 at the village of Preobrazhenskoye (now Zilair) by a member of the Red Army during the Bashkir army's transition to the Red side, as both articles record, and buried in a grave on the outskirts of Zilair where a bust of him now stands. No place entity exists for Zilair, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-shaikhzada-babich-en, source/wikipedia-shaikhzada-babich-ru, source/wikidata-shaikhzada-babich]
+tags: [bashkirs, bashkir-literature]
+roles: [poet, writer, politician]
+wings: [people]
+regions: [anatolia-balkans]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names any religion or school for him personally. Neither article's text or infobox (English or Russian) has a religion field or statement, and Wikidata carries no religion value at all: an absence configuration. His father's office as mullah of the Asyanovo mahalla is family background, his own study at the Ğəliyə madrasa in Ufa is formation, and the titles of his poems 'Mulla' and 'To a Muslim' (1917) are works, not attestation. The value therefore stays unknown, unflagged."
+    sources: [source/wikipedia-shaikhzada-babich-en, source/wikipedia-shaikhzada-babich-ru, source/wikidata-shaikhzada-babich]
+external_ids: { wikidata: "Q1048691" }
+sources:
+  - source/wikipedia-shaikhzada-babich-en
+  - source/wikipedia-shaikhzada-babich-ru
+  - source/wikidata-shaikhzada-babich
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Russian Wikipedia articles on Shaikhzada Babich and his Wikidata item Q1048691, all read in full on 27 October 2026; no article or infobox names a religion for him and Wikidata carries no religion value, so his faith is unknown on the absence configuration — his father's mullah office is family background and his madrasa study is formation. No relations are written: no place entity exists for Asyanovo, Ufa or Zilair."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-110

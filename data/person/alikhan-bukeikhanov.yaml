@@ -1,0 +1,52 @@
+id: person/alikhan-bukeikhanov
+class: person
+label:
+  ar: "عليخان بوكيخانوف"
+  en: "Alikhan Bukeikhanov"
+  ur: "علی خان بوکیخانوف"
+summary:
+  ar: "رجل دولة وصحفي وعالم كازاخي (5 مارس 1866 – 27 سبتمبر 1937) قاد حزب ألاش وترأّس حكومة ألاش أوردا الذاتية (1917–1920)؛ اعتُقل في عهد ستالين وأُعدم رميًا في سجن بوتيركا بموسكو، ورُدّ اعتباره سنة 1989."
+  en: "Kazakh statesman, journalist and scholar (5 March 1866 – 27 September 1937) who led the Alash party and chaired the Alash Orda autonomy of 1917–1920; arrested under Stalin and shot in Moscow's Butyrka prison, he was rehabilitated in 1989."
+  ur: "قازق سیاست دان، صحافی اور عالم (5 مارچ 1866ء – 27 ستمبر 1937ء) جنہوں نے علاش پارٹی کی قیادت کی اور علاش اوردا خودمختاری (1917–1920ء) کے صدر رہے؛ اسٹالن کے دور میں گرفتار ہوئے اور ماسکو کی بوتیرکا جیل میں گولی مار کر ہلاک کیے گئے، 1989ء میں باعزت بحال ہوئے۔"
+names:
+  - { value: "Alikhan Bukeikhanov", kind: full }
+  - { value: "Alikhan Nurmukhameduly Bukeikhanov", kind: full }
+  - { value: "Alikhan Bokeikhanov", kind: alternate }
+  - { value: "Älihan Bökeihan", kind: alternate }
+born:
+  edtf: "1866-03-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 5 March 1866 in Tokraunskaya volost, Karkaraly uyezd, Semipalatinsk Oblast, son of Nurmuhammed Bukeikhanov and a descendant, through Barak Sultan, of Genghis Khan. The English, Russian and Kazakh articles all give 5 March 1866; Wikidata carries the same day-precision value beside stray year-precision values of 1869 and 1870 that no article supports and that are not followed. The date is carried as the articles give it; no Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-bukeikhanov-en, source/wikipedia-bukeikhanov-ru, source/wikipedia-bukeikhanov-kk, source/wikidata-bukeikhanov]
+died:
+  edtf: "1937-09-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Shot in the Butyrka prison in Moscow on 27 September 1937, after his arrest in the Great Terror; the English, Russian and Kazakh articles and Wikidata all agree on the day. He was rehabilitated in 1989. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-bukeikhanov-en, source/wikipedia-bukeikhanov-ru, source/wikipedia-bukeikhanov-kk, source/wikidata-bukeikhanov]
+wings: [people]
+regions: [persia-central-asia]
+roles: [politician, writer, scholar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Russian and Kazakh articles' infoboxes both give his religion as Sunni Islam — two infoboxes but one infobox family, neither referenced to any text — while his Wikidata item gives his religion as atheism, a bare structured value that no article text anywhere supports: the two structured readings flatly contradict each other. The English article's text attests only that he was born into a Kazakh Muslim family, which is family background, and its narrative records his criticism of the Muslim clergy and his place among the westernizing intelligentsia, neither of which attests an affiliation or an unbelief. With no text attestation on either side, the segment is unknown, flagged, and both structured readings are preserved here for the founder."
+    sources: [source/wikipedia-bukeikhanov-en, source/wikipedia-bukeikhanov-ru, source/wikipedia-bukeikhanov-kk, source/wikidata-bukeikhanov]
+external_ids:
+  wikidata: Q1045777
+sources:
+  - source/wikipedia-bukeikhanov-en
+  - source/wikipedia-bukeikhanov-ru
+  - source/wikipedia-bukeikhanov-kk
+  - source/wikidata-bukeikhanov
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Kazakh Wikipedia articles on Alikhan Bukeikhanov and Wikidata item Q1045777, each read at a recorded revision; existence checked both ways before building — name fragments (bukeikhan, bokeikhan, bökeihan) and slug variants across data/person found no person file, and Q1045777, grounded through the English article's page properties and confirmed through the Russian and Kazakh articles', matched no existing record. No member_of edge is written: no group entity exists for the Alash party or Alash Orda. No born_in or died_in edge is written: no place entity exists for Tokraunskaya volost, Karkaraly or Moscow. His father Nurmuhammed and his Alash colleagues Akhmet Baitursynov and Mirjaqip Dulatuli have no records, so no family or colleague edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101

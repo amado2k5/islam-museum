@@ -1,0 +1,47 @@
+id: person/sani-abacha
+class: person
+label: { ar: "ساني أباتشا", en: "Sani Abacha", ur: "ثانی اباچہ" }
+names:
+  - { value: "Sani Abacha", kind: full }
+  - { value: "ساني أباتشا", kind: full }
+gender: male
+summary:
+  ar: "ضابط نيجيري (1943–1998) وُلد في كانو لأبوين من الكانوري، صار حاكم نيجيريا العسكري بانقلاب قصري في نوفمبر 1993 فحكم حتى وفاته المفاجئة في أبوجا في 8 يونيو 1998؛ اتسم حكمه بانتهاكات واسعة لحقوق الإنسان وإعدام كين سارو-ويوا واتهامات بنهب مليارات الدولارات. دُفن في اليوم نفسه في كانو وفق التقاليد الإسلامية، وخلفه عبد السلام أبو بكر فمهّد لعودة الحكم المدني."
+  en: "Nigerian officer (1943–1998) born in Kano to Kanuri parents who became Nigeria's military ruler by a palace coup in November 1993 and ruled until his sudden death in Abuja on 8 June 1998. His rule was marked by wide human-rights abuses, the execution of Ken Saro-Wiwa and allegations of looting billions of dollars. He was buried the same day in Kano according to Muslim tradition, and was succeeded by Abdulsalami Abubakar, who led the return to civilian rule."
+  ur: "نائجریائی افسر (1943ء–1998ء)، کانو میں کانوری والدین کے ہاں پیدا ہوئے؛ نومبر 1993 میں محلاتی بغاوت سے نائجریا کے فوجی حکمران بنے اور 8 جون 1998 کو ابوجا میں اچانک وفات تک حکمران رہے؛ ان کے دور پر انسانی حقوق کی وسیع خلاف ورزیوں، کین سارو-ویوا کی پھانسی اور اربوں ڈالر کی لوٹ کے الزامات لگے؛ اسی دن کانو میں مسلم روایت کے مطابق دفن ہوئے اور عبد السلام ابوبکر ان کے جانشین بنے۔"
+roles: [general, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1943-09-20"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 20 September 1943 in Kano; the Arabic article files him under births of 1362 AH, the Hijri year used here."
+  sources: [source/wikipedia-sani-abacha-en, source/wikidata-sani-abacha]
+died:
+  edtf: "1998-06-08"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death at Aso Villa, Abuja, on 8 June 1998; the Arabic article files him under deaths of 1419 AH. The English article records that he was buried the same day in Kano according to Muslim tradition and without an autopsy."
+  sources: [source/wikipedia-sani-abacha-en, source/wikidata-sani-abacha]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration on one text family, unflagged. The English article's text attests the man personally — 'A professed Muslim', cited to a 2005 scholarly chapter — and records his burial according to Muslim tradition (practice). The Arabic article's religion value sits in its infobox (Islam) and the Arabic and Urdu articles file him under 'Nigerian Muslims'; the Urdu article parallels the English one (the translation family — a copied value is one family, not a second attestation); Wikidata gives a single structured value, Islam. No source used names a school or madhhab, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-sani-abacha-en, source/wikipedia-sani-abacha-ar]
+relations:
+  - { type: born_in, target: place/kano, sources: [source/wikipedia-sani-abacha-en, source/wikidata-sani-abacha] }
+external_ids: { wikidata: "Q207942" }
+sources: [source/wikipedia-sani-abacha-en, source/wikipedia-sani-abacha-ar, source/wikipedia-sani-abacha-ur, source/wikidata-sani-abacha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sani Abacha' (revision 1380737839), Arabic Wikipedia 'ساني أباتشا' (revision 75207545), Urdu Wikipedia 'ثانی اباچہ' (revision 9653894) and Wikidata item Q207942 (item revision 2560636706), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (abacha), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and the Arabic label matches no existing record's label. His born_in edge to Kano is written because place/kano exists; Abuja has no place entity, so no died_in edge is written; his direct predecessor as head of state was the interim president Ernest Shonekan, who has no person record, so no successor_of edge is written (he did not succeed Babangida directly — an interim government stood between them)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

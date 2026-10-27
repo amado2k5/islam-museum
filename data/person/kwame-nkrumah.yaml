@@ -1,0 +1,47 @@
+id: person/kwame-nkrumah
+class: person
+label: { ar: "كوامي نكروما", en: "Kwame Nkrumah", ur: "کوامے انکرومہ" }
+names:
+  - { value: "Kwame Nkrumah", kind: full }
+  - { value: "كوامي نكروما", kind: full }
+  - { value: "Francis Nwia Kofi Nkrumah", kind: alternate }
+  - { value: "Osagyefo", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي غاني (1909–1972) من نكروفول في ساحل الذهب، قاد حزب المؤتمر الشعبي إلى استقلال غانا سنة 1957 فصار أول رئيس وزرائها، ثم أول رئيس للجمهورية (1960–1966) وأبرز دعاة الوحدة الإفريقية ومن مؤسسي منظمة الوحدة الإفريقية، حتى أطاح به الجيش سنة 1966 فعاش منفيا في غينيا ومات في بوخارست في 27 أبريل 1972. نشأ كاثوليكيا وتعمّد في الإيمان الكاثوليكي وعلّم في معهد كاثوليكي وفكّر في أن يصير يسوعيا؛ لم ينسبه أي مصدر مستعمل إلى الإسلام قط، وهو يقف في المتحف ضمن قائمة القادة المعاصرين المفوَّضة من المؤسس لا بوصفه مسلما."
+  en: "Ghanaian politician (1909–1972) from Nkroful in the Gold Coast who led the Convention People's Party to Ghana's independence in 1957, becoming its first prime minister and then first president of the republic (1960–1966), a leading Pan-Africanist and a founder of the Organisation of African Unity, until the army overthrew him in 1966; he lived in exile in Guinea and died in Bucharest on 27 April 1972. He was raised Catholic, baptised into the Catholic faith, taught at a Catholic seminary and considered becoming a Jesuit; no source used presents him as a Muslim, and he stands in the museum on the founder's contemporary-leaders queue, not as a Muslim figure."
+  ur: "گھانائی سیاست دان (1909ء–1972ء)، ساحلِ ذہب کے نکروفول سے؛ کنونشن پیپلز پارٹی کو 1957ء میں گھانا کی آزادی تک لے گئے، پہلے وزیرِ اعظم اور پھر جمہوریہ کے پہلے صدر (1960ء–1966ء) بنے، پان افریقی اتحاد کے ممتاز داعی اور تنظیمِ وحدتِ افریقہ کے بانیوں میں سے تھے، یہاں تک کہ 1966ء میں فوج نے انھیں ہٹا دیا؛ گنی میں جلاوطنی گزاری اور 27 اپریل 1972ء کو بخارسٹ میں انتقال ہوا۔"
+roles: [politician, activist]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1909-09-21"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 21 September 1909 at Nkroful in the Gold Coast (now Ghana); the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-kwame-nkrumah-en, source/wikidata-kwame-nkrumah]
+died:
+  edtf: "1972-04-27"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death in Bucharest, Romania, on 27 April 1972, in exile after his 1966 overthrow; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-kwame-nkrumah-en, source/wikidata-kwame-nkrumah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Christian reading stands one attestation short of christian/documented, for the founder's word. No source used presents him as a Muslim at all. The English article's text is one strong text family for a Catholic formation and identity: a Catholic mission elementary school at Half Assini, baptism into the Catholic faith in 1925 while a student-teacher, a teaching post at the Catholic seminary at Amissano in 1933 where he considered becoming a Jesuit, and at Lincoln University a Bachelor of Theology and invitations to preach in Presbyterian churches. Around that one family sit only non-text material: Wikidata's single structured value Christianity (Q5043), and category filings — Ghanaian Roman Catholics and Ghanaian Christian socialists in the English article, Ghanaian Roman Catholics in the Urdu article. The Arabic article is silent on religion. One text family plus a structured value plus filings is one attestation short under the two-source rule, so the value stays unknown with the readings preserved; one founder word accepts the English text with the structured value and settles christian/documented."
+    sources: [source/wikipedia-kwame-nkrumah-en, source/wikipedia-kwame-nkrumah-ar, source/wikipedia-kwame-nkrumah-ur, source/wikidata-kwame-nkrumah]
+external_ids: { wikidata: "Q8620" }
+sources: [source/wikipedia-kwame-nkrumah-en, source/wikipedia-kwame-nkrumah-ar, source/wikipedia-kwame-nkrumah-ur, source/wikidata-kwame-nkrumah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kwame Nkrumah' (revision 1381714011 of 24 October 2026), Arabic Wikipedia 'كوامي نكروما' (revision 76346990 of 26 August 2026), Urdu Wikipedia 'کوامے نکرومہ' (revision 9767878 of 10 April 2026) and Wikidata item Q8620 (item revision 2558104450 of 17 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (nkrumah), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No place entity exists for Nkroful or Bucharest (place/ghana is the medieval city of Ghana, a different entity), so no born_in or died_in edge is written; no predecessor or successor person record exists for his offices, so no succession edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

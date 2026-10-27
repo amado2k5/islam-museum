@@ -1,0 +1,54 @@
+id: person/zayed-bin-sultan-al-nahyan
+class: person
+label:
+  ar: "زايد بن سلطان آل نهيان"
+  en: "Zayed bin Sultan Al Nahyan"
+  ur: "زاید بن سلطان آل نہیان"
+names:
+  - { value: "Zayed bin Sultan bin Zayed bin Khalifa Al Nahyan", kind: full }
+  - { value: "زايد بن سلطان بن زايد بن خليفة آل نهيان", kind: full }
+  - { value: "أبو خليفة", kind: kunya }
+  - { value: "بو خليفة", kind: kunya }
+summary:
+  ar: "مؤسس دولة الإمارات العربية المتحدة وأول رئيس لها (1971–2004) وحاكم أبوظبي (1966–2004)؛ حاكم المنطقة الشرقية (العين) من 1946، وخلف أخاه شخبوط في حكم أبوظبي في 6 أغسطس 1966، وقاد قيام الاتحاد في 2 ديسمبر 1971 وبقي رئيسًا له حتى وفاته في أبوظبي في 2 نوفمبر 2004، حيث دُفن في صحن مسجد الشيخ زايد الكبير الجديد."
+  en: "Founding President of the United Arab Emirates (1971–2004) and ruler of Abu Dhabi (1966–2004). Governor of the Eastern Region (Al Ain) from 1946, he succeeded his brother Shakhbut as ruler of Abu Dhabi on 6 August 1966 and led the creation of the federation on 2 December 1971, remaining its president until his death at Abu Dhabi on 2 November 2004; he is buried in the courtyard of the new Sheikh Zayed Grand Mosque."
+  ur: "متحدہ عرب امارات کے بانی اور پہلے صدر (1971ء–2004ء) اور ابوظبی کے حکمران (1966ء–2004ء)؛ 1946ء سے مشرقی علاقے (العین) کے گورنر رہے، 6 اگست 1966ء کو اپنے بھائی شخبوط کے جانشین بنے، 2 دسمبر 1971ء کو وفاق کے قیام کی قیادت کی اور 2 نومبر 2004ء کو ابوظبی میں وفات تک اس کے صدر رہے؛ نئی شیخ زاید جامع مسجد کے صحن میں مدفون ہیں۔"
+external_ids: { wikidata: Q167846 }
+born:
+  edtf: "1918-05-06"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Abu Dhabi on 6 May 1918 (English article; Wikidata gives the same date and place), a son of Sultan bin Zayed Al Nahyan and Salama bint Butti Al Qubaisi. The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Abu Dhabi, so no born_in relation is written."
+  sources: [source/wikipedia-zayed-bin-sultan-al-nahyan-en, source/wikidata-zayed-bin-sultan-al-nahyan]
+died:
+  edtf: "2004-11-02"
+  hijri: "1425"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Abu Dhabi on 2 November 2004 (English article; Wikidata gives the same date and place). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Abu Dhabi, so no died_in relation is written."
+  sources: [source/wikipedia-zayed-bin-sultan-al-nahyan-en, source/wikidata-zayed-bin-sultan-al-nahyan]
+gender: male
+roles: [ruler]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder. A Sunni reading rests on infoboxes alone: the English article's infobox religion field reads 'Sunni Islam' and the Arabic article's reads 'Muslim Sunni' (مسلم سني) — two editions' structured values for the same claim are one source family, not two attestations (the wave-79 two-infoboxes-one-family precedent). No article text names a school for him; the Urdu stub files him under 'Emirati Sunni Muslims' (اماراتی سنی مسلم), a filing; and Wikidata's religion (P140) value is Islam only, so the structured family does not corroborate the branch on Wikidata either. Nothing here counts as an attestation under the lane's rule, so under the doubt rule the school is left unclassified and the reading is preserved here."
+    sources: [source/wikipedia-zayed-bin-sultan-al-nahyan-en, source/wikipedia-zayed-bin-sultan-al-nahyan-ar, source/wikipedia-zayed-bin-sultan-al-nahyan-ur, source/wikidata-zayed-bin-sultan-al-nahyan]
+sources:
+  - source/wikipedia-zayed-bin-sultan-al-nahyan-ar
+  - source/wikipedia-zayed-bin-sultan-al-nahyan-en
+  - source/wikipedia-zayed-bin-sultan-al-nahyan-ur
+  - source/wikidata-zayed-bin-sultan-al-nahyan
+wings: [people]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "Wikipedia (English), revision 1378232750 of 3 October 2026; Wikipedia (Arabic), revision 76927611 of 9 October 2026; Wikipedia (Urdu), revision 12153620 of 16 October 2026; Wikidata item Q167846, revision 2559431038 of 21 October 2026 — each article fetched by its recorded revision id and asserted equal to it; Wikidata read via its API at the recorded item revision (all read 27 October 2026). No prior museum record: name-fragment, biography, provenance and QID checks across data/person/ found only zayed-bin-khalifa-al-nahyan, his grandfather (d. 1909), a different person. No relations are written: his father Sultan bin Zayed (Q6409495) and his successor as president, Khalifa bin Zayed, have no museum records, no group entity for the Al Nahyan family exists, and there is no place entity for Abu Dhabi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published }

@@ -1,0 +1,39 @@
+id: person/ziauddin-yousafzai
+class: person
+label: { ar: "ضياء الدين يوسفزي", en: "Ziauddin Yousafzai", ur: "ضیاء الدین یوسفزئی" }
+names:
+  - { value: "Ziauddin Yousafzai", kind: full }
+  - { value: "ضیاء الدین یوسفزئی", kind: full }
+  - { value: "ضياء الدين يوسفزي", kind: alternate }
+gender: male
+summary:
+  ar: "ضياء الدين يوسفزي (وُلد 20 أبريل 1969) ناشط تعليمي باكستاني، أسس وأدار سلسلة مدارس خاصة منخفضة الكلفة في سوات فتحت أبوابها للبنات، واشتهر عالميًا والدًا لملالا يوسفزي الحائزة على جائزة نوبل للسلام، إذ شجعها على رفع صوتها دفاعًا عن تعليم البنات في مواجهة طالبان باكستان. شارك في تأسيس صندوق ملالا، وله كتاب «دعها تطير» (2018)."
+  en: "Ziauddin Yousafzai (born 20 April 1969) is a Pakistani education activist who founded and ran a chain of low-cost private schools in Swat open to girls, and who became known worldwide as the father of Nobel Peace Prize laureate Malala Yousafzai, whom he encouraged to speak out for girls' education against the Pakistani Taliban. He is a co-founder of the Malala Fund and the author of Let Her Fly (2018)."
+  ur: "ضیاء الدین یوسفزئی (پیدائش 20 اپریل 1969ء) پاکستانی تعلیمی کارکن ہیں؛ انہوں نے سوات میں کم فیس نجی اسکولوں کا سلسلہ قائم کیا جو لڑکیوں کے لیے بھی کھلا تھا، اور وہ نوبل امن انعام یافتہ ملالہ یوسفزئی کے والد کے طور پر دنیا بھر میں جانے گئے، جنہیں انہوں نے طالبان کے مقابل لڑکیوں کی تعلیم کے لیے آواز اٹھانے کی ترغیب دی۔ وہ ملالہ فنڈ کے شریک بانی اور کتاب «Let Her Fly» (2018ء) کے مصنف ہیں۔"
+roles: [teacher, activist]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+born:
+  edtf: "1969-04-20"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Shangla, North-West Frontier Province (now Khyber Pakhtunkhwa), Pakistan, on 20 April 1969; the English article gives the day, citing Time magazine. Wikidata carries only a month-precision value (January 1969) and the Arabic article only the year 1969; the article's cited day-precision date is the one carried. The Hijri year (1389) is derived by tabular conversion. No born_in relation is written: Shangla has no museum place entity."
+  sources: [source/wikipedia-ziauddin-yousafzai-en, source/wikipedia-ziauddin-yousafzai-ar, source/wikidata-ziauddin-yousafzai]
+relations:
+  - { type: parent_of, target: person/malala-yousafzai, sources: [source/wikipedia-ziauddin-yousafzai-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Generic-only configuration. His Muslim identity is public and generic: Wikidata's religion value is Islam in general (Q3802541), the English article's categories file him under 'Pakistani Sunni Muslims' — a category filing, which never counts — and no text in the English, Arabic or Urdu edition names a school, order or affiliation for him. His father Rohul Amin was a theology teacher and imam of the local mosque; that is his father's record and family background, not an attestation of the son's school. His own public practice and his defence of girls' education name no school either. With no school named anywhere, the value is unknown, unflagged."
+    sources: [source/wikipedia-ziauddin-yousafzai-en, source/wikipedia-ziauddin-yousafzai-ar, source/wikipedia-ziauddin-yousafzai-ur, source/wikidata-ziauddin-yousafzai]
+external_ids: { wikidata: "Q8071389" }
+sources: [source/wikipedia-ziauddin-yousafzai-en, source/wikipedia-ziauddin-yousafzai-ar, source/wikipedia-ziauddin-yousafzai-ur, source/wikidata-ziauddin-yousafzai]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 104 §A of the century-additions queue (queue line 573) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q8071389) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (ziauddin, yousafzai) across data/person/ returned other Ziauddins (Ziauddin Ahmad, Ziauddin Sardar) and his daughter's record, but no record for him — the two namesakes' biographies were read and are different men — and Q8071389 appears in no existing person record. His Arabic label (ضياء الدين يوسفزي) is not shared with any existing record, so no homonym entry is needed. Relation direction checked explicitly: the registry's child_of/parent_of pair is written once, in the parent's record, as type parent_of — as in the existing record of Abadi Bano Begum — so the edge to his daughter Malala (whose record exists) is written here, from him to her, and not in her record. No born_in edge is written (Shangla has no place entity) and no founder_of edge for the Malala Fund (no group entity for it exists); both facts are stated in the summary and prose instead. His faith is recorded unknown, generic-only configuration, as set out in the faith note; his daughter's own record and schooling details are hers, not his attestation. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104
+status: { review: published }

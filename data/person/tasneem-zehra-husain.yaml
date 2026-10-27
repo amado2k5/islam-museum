@@ -1,0 +1,29 @@
+id: person/tasneem-zehra-husain
+class: person
+label: { ar: "تسنيم زهرة حسين", en: "Tasneem Zehra Husain", ur: "تسنیم زہرا حسین" }
+names:
+  - { value: "Tasneem Zehra Husain", kind: full }
+  - { value: "تسنيم زهرة حسين", kind: full }
+  - { value: "تسنیم زہرا حسین", kind: full }
+gender: female
+summary:
+  ar: "فيزيائية نظرية وكاتبة باكستانية، وهي أول باكستانية تعمل في نظرية الأوتار. تعلمت في كلية كينايرد وجامعة القائد الأعظم، ونالت دبلوم المركز الدولي للفيزياء النظرية في ترييستي ودكتوراه جامعة ستوكهولم سنة 2003، وعملت باحثة ما بعد الدكتوراه في هارفارد، ثم صارت عضوا مؤسسا في قسم الفيزياء بجامعة لاهور للعلوم الإدارية. صدرت روايتها «الخيوط الأطول فقط» سنة 2014."
+  en: "Pakistani theoretical physicist and writer, the first Pakistani woman to work in string theory. Educated at Kinnaird College and Quaid-i-Azam University, she took a diploma at the ICTP in Trieste and a PhD at Stockholm University in 2003, held a postdoctoral post at Harvard, and became a founding faculty member of the physics department at the Lahore University of Management Sciences. Her novel Only the Longest Threads appeared in 2014."
+  ur: "پاکستانی نظریاتی طبیعیات دان اور ادیبہ، جو سٹرنگ تھیوری پر کام کرنے والی پہلی پاکستانی خاتون ہیں۔ انہوں نے کنیئرڈ کالج اور قائد اعظم یونیورسٹی سے تعلیم حاصل کی، ٹریسٹے کے بین الاقوامی مرکز برائے نظریاتی طبیعیات سے ڈپلومہ اور 2003ء میں اسٹاک ہوم یونیورسٹی سے پی ایچ ڈی کی، ہارورڈ میں پوسٹ ڈاکٹریٹ رہیں، اور پھر لاہور یونیورسٹی آف مینجمنٹ سائنسز کے شعبۂ طبیعیات کی بانی رکن بنیں۔ ان کا ناول «Only the Longest Threads» 2014ء میں شائع ہوا۔"
+roles: [scientist, writer]
+wings: [people, living]
+regions: [south-asia]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-tasneem-zehra-husain-en, source/wikipedia-tasneem-zehra-husain-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No religion content exists in any source read: neither the English nor the Urdu article carries a religion field or any statement about her beliefs, no structured value and no filing names an affiliation for her, and her writing on science and faith was not found to name an affiliation of her own. Recorded unknown, unflagged (absence configuration)."
+    sources: [source/wikipedia-tasneem-zehra-husain-en, source/wikipedia-tasneem-zehra-husain-ur]
+sources: [source/wikipedia-tasneem-zehra-husain-en, source/wikipedia-tasneem-zehra-husain-ur]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 110 §A of the century-additions queue from the English and Urdu Wikipedia articles named in the sources list, each read on 27 October 2026 through the browser search/open route. ENVIRONMENT LIMITATION: that route exposes no revision identifiers and no Wikidata item for these articles, so both sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented. NO BORN BLOCK IS WRITTEN: no source read gives a birth date — the English infobox gives only 'Born: Lahore, Pakistan', the Urdu infobox only '20th century, Lahore' — and the English text's statement that she completed her PhD in 2003 'at the age of twenty-six' is an age statement, not a birth date, which also does not agree with the queue's 1980; the queue year is therefore not carried (Moslehi/Khwaja precedent: an unattested queue year is not recorded). Existence checked before building by name-fragment greps (tasneem, تسنیم) across all of data/person/ — no record for her; the QID-grep route could not be run for the reason stated, and a biographical match was made against the articles' career details. One relation is written: born_in Lahore, attested by both infoboxes, whose place entity exists. Her doctoral supervisor Ansar Fayyazuddin and her brother Amir Husain have no person entities, so no student_of or sibling_of edge is written. Her faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-110
+status: { review: published }

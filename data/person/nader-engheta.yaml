@@ -1,0 +1,39 @@
+id: person/nader-engheta
+class: person
+label:
+  ar: "نادر انقطاع"
+  en: "Nader Engheta"
+  ur: "نادر انقطاع"
+summary:
+  ar: "نادر انقطاع (وُلد 8 تشرين الأول 1955) عالم ومهندس كهرباء إيراني-أمريكي، أستاذ في جامعة بنسلفانيا ورائد في المواد الخارقة (الميتامواد) والبصريات النانوية والبلازمونيات. أخذ دكتوراه معهد كاليفورنيا للتقانة (كالتك) سنة 1982، ونال ميدالية إسحاق نيوتن 2020 وميدالية فرانكلين 2023."
+  en: "Nader Engheta (born 8 October 1955) is an Iranian-American scientist and electrical engineer, a professor at the University of Pennsylvania and a pioneer of metamaterials, nanophotonics and plasmonics. He took his Caltech doctorate in 1982 and received the 2020 Isaac Newton Medal and the 2023 Franklin Medal."
+names:
+  - { value: "Nader Engheta", kind: full }
+  - { value: "نادر انقطاع", kind: full }
+gender: male
+roles: [engineer, scientist]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1955-10-08"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran on 8 October 1955; the English article and Wikidata agree, and the Persian article gives 16 Mehr 1334, the same day. The Hijri year is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
+  sources: [source/wikipedia-engheta-en, source/wikipedia-engheta-fa, source/wikidata-engheta]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration: no article text, infobox, category filing or Wikidata value names any religion for him in any edition read (English, Persian, and the Urdu stub derived from the English). The segment is recorded as unknown on a complete absence of attestation, not on a reading that fell short."
+    sources: [source/wikipedia-engheta-en, source/wikipedia-engheta-fa, source/wikipedia-engheta-ur, source/wikidata-engheta]
+external_ids:
+  wikidata: "Q6957556"
+sources: [source/wikipedia-engheta-en, source/wikipedia-engheta-fa, source/wikipedia-engheta-ur, source/wikidata-engheta]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 101 §A of the century-additions queue (queue line 557) from the English, Persian and Urdu Wikipedia articles (no Arabic edition exists; the Arabic prose is written from the same sources) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the other editions' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Q6957556 appears in no existing person record. No relations are written: his doctoral advisor Charles H. Papas has no museum record, and Tehran has no place entity. His faith is recorded unknown on the absence configuration, as set out in the faith note. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101
+status: { review: published }

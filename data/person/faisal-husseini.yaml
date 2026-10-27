@@ -1,0 +1,51 @@
+id: person/faisal-husseini
+class: person
+label: { ar: "فيصل الحسيني", en: "Faisal Husseini", ur: "فیصل حسینی" }
+names:
+  - { value: "Faisal Abdel Qader Al-Husseini", kind: full }
+  - { value: "فيصل عبد القادر الحسيني", kind: full }
+gender: male
+summary:
+  ar: "فيصل عبد القادر الحسيني (17 يوليو 1940 – 31 مايو 2001)، سياسي فلسطيني وُلد في بغداد ابنا للقائد عبد القادر الحسيني، وعمل في منظمة التحرير الفلسطينية منذ تأسيسها، وأسس جمعية الدراسات العربية في القدس سنة 1979، وكان أبرز وجه فلسطيني في القدس الشرقية ووزير السلطة الفلسطينية لشؤون القدس حتى وفاته بأزمة قلبية في الكويت، ودُفن في الخاتونية بالقدس."
+  en: "Faisal Abdel Qader al-Husseini (17 July 1940 – 31 May 2001) was a Palestinian politician born in Baghdad, the son of the commander Abd al-Qadir al-Husayni. He worked for the PLO from its founding, founded the Arab Studies Society in Jerusalem in 1979, and was the leading Palestinian figure in East Jerusalem and the Palestinian Authority's Minister for Jerusalem Affairs until his death from a heart attack in Kuwait; he was buried in the Khatuniyya in Jerusalem."
+  ur: "فیصل عبد القادر حسینی (17 جولائی 1940ء – 31 مئی 2001ء) فلسطینی سیاست دان تھے جو بغداد میں پیدا ہوئے اور کمانڈر عبد القادر الحسینی کے بیٹے تھے۔ وہ تنظیم آزادی فلسطین کے ابتدائی کارکن، 1979ء میں یروشلم میں عرب اسٹڈیز سوسائٹی کے بانی اور فلسطینی اتھارٹی کے وزیر برائے یروشلم امور رہے؛ کویت میں دل کے دورے سے وفات پائی اور یروشلم کی خاتونیہ میں دفن ہوئے۔"
+roles: [politician]
+born:
+  edtf: "1940-07-17"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Baghdad, Kingdom of Iraq, where his father was in exile; both articles and Wikidata give 17 July 1940. The Hijri year 1359 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-faisal-husseini-en, source/wikipedia-faisal-husseini-ar, source/wikidata-faisal-husseini]
+died:
+  edtf: "2001-05-31"
+  hijri: "1422"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack in Kuwait on 31 May 2001, while working to mend relations between the Kuwaiti government and the PLO. He was buried in the family tomb in the Khatuniyya in Jerusalem, where his father and grandfather were also buried. The Hijri year 1422 is a tabular conversion, marked derived. Kuwait has no place entity in the museum, so no died_in relation is written."
+  sources: [source/wikipedia-faisal-husseini-en, source/wikidata-faisal-husseini]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration: no text in either article names any religion or affiliation for the man, no infobox carries a religion field, and the Wikidata item carries no religion (P140) value at all. The English article records that in 1982 he became a member of the Supreme Muslim Council in Jerusalem — a public office in his career history, which never attests a personal school or affiliation — and his descent from the Husseini family of Jerusalem notables is family background, not attestation. With no reading in any source, there is nothing to weigh; the silence is recorded as it stands."
+    sources: [source/wikipedia-faisal-husseini-en, source/wikipedia-faisal-husseini-ar, source/wikidata-faisal-husseini]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-faisal-husseini-en, source/wikidata-faisal-husseini] }
+  - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-faisal-husseini-en] }
+wings: [people]
+regions: [levant-iraq]
+external_ids: { wikidata: "Q1371476" }
+sources:
+  - source/wikipedia-faisal-husseini-en
+  - source/wikipedia-faisal-husseini-ar
+  - source/wikidata-faisal-husseini
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Faisal Husseini in English (revision 1351890779 of 30 Apr 2026) and Arabic (revision 76847168 of 3 Oct 2026) and the Wikidata item Q1371476 (item revision 2551270339 of 30 Sep 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. No Urdu article exists (titles and search checked), so the Urdu prose is written from the English and Arabic sources and says so. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/ (the hits are other Husaynis — Musa Kazim and Haj Amin among them), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. His father Abd al-Qadir al-Husayni has no museum record of his own (the Shirazi namesake is a different man), so no child_of edge is written; Kuwait, his place of death, has no place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-89
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

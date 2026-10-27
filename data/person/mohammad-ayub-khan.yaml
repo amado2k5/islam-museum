@@ -1,0 +1,53 @@
+id: person/mohammad-ayub-khan
+class: person
+label:
+  ar: "محمد أيوب خان"
+  en: "Mohammad Ayub Khan"
+  ur: "محمد ایوب خان"
+summary:
+  ar: "أمير من أسرة بركزاي تولى إمارة أفغانستان لفترة وجيزة (1879-1880)، ويُذكر بلقب «منتصر مايواند» لهزيمته جيشا بريطانيا هنديا في معركة مايواند في 27 يوليو 1880 أثناء الحرب الإنجليزية الأفغانية الثانية. هُزم عند قندهار في سبتمبر من العام نفسه، وعاش لاحقا متقاعدا بريطانيا في لاهور حيث توفي سنة 1914."
+  en: "Barakzai prince, briefly Emir of Afghanistan (12 October 1879 – 31 May 1880), remembered as the Victor of Maiwand for defeating a British-Indian army at the Battle of Maiwand on 27 July 1880 during the Second Anglo-Afghan War. Defeated at Kandahar that September, he ended his life as a British pensioner at Lahore, where he died in 1914."
+  ur: "بارکزئی شہزادے، مختصر عرصے کے لیے افغانستان کے امیر (12 اکتوبر 1879ء – 31 مئی 1880ء)، جو دوسری اینگلو افغان جنگ میں 27 جولائی 1880ء کو میوند کی جنگ میں برطانوی ہندی فوج کو شکست دینے پر «فاتحِ میوند» کے لقب سے یاد کیے جاتے ہیں۔ اسی سال ستمبر میں قندھار پر شکست کے بعد وہ برطانوی پنشنر کی حیثیت سے لاہور میں رہے اور 1914ء میں وہیں وفات پائی۔"
+names:
+  - { value: "Ghazi Mohammad Ayub Khan Barakzai", kind: full }
+  - { value: "غازي محمد أيوب خان", kind: full }
+  - { value: "Ayub Khan", kind: alternate }
+  - { value: "Victor of Maiwand", kind: laqab }
+  - { value: "the Afghan Prince Charlie", kind: laqab }
+gender: male
+born:
+  edtf: "1857"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1857 at Kabul, a son of Sher Ali Khan and Qamar Jan, as the English article gives; the Arabic article agrees on the year and city. Only the year is documented. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar]
+died:
+  edtf: "1914-04-07"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 7 April 1914 at Lahore, where he had lived as a British pensioner since 1888, as the English article gives; he was buried at Peshawar, in the Durrani graveyard near the shrine of Sheikh Habib. The Arabic article instead gives Peshawar as his place of death; the English article is followed and the conflict recorded here. No place entity exists for Lahore or Peshawar, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar]
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no article in the museum's languages names a religion for him at all: neither the English nor the Arabic article carries a religion field, and no text names a school. The sole structured attestation seen anywhere is the Russian article's infobox, which gives his religion as Islam of the Sunni tendency. A single structured value is one attestation family; his style Ghazi and his command in the Second Anglo-Afghan War are title and office, not attestations of a school. Under the two-source rule and the doubt rule the value therefore stays unknown, with the Russian infobox attestation preserved here."
+    sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar]
+sources:
+  - source/wikipedia-mohammad-ayub-khan-en
+  - source/wikipedia-mohammad-ayub-khan-ar
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Mohammad Ayub Khan (Afghanistan), both read on 27 October 2026; no Urdu article was found. The fetch route available to this writer exposed no revision ids or Wikidata identifiers, so every source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings and by biographical match (the QID-grep route could not be run; a QID, Q983046, surfaced only as a Commons category authority string in search output and is not recorded, not having been grounded through the article's page properties). He is documented by both articles as the son of Sher Ali Khan — the Arabic text gives his lineage as son of Sher Ali Khan son of Dost Mohammad Khan — so no child_of edge is written here per the lane convention, and the parent_of edge belongs in Sher Ali Khan's already-merged record. His faith is unknown FLAGGED on the single-structured-family configuration, the sole attestation being the Russian infobox value recorded in the faith note. No throne succession edges are written, the Barakzai sequence being dynastic office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-114

@@ -1,0 +1,57 @@
+id: person/ghazi-muhammad
+class: person
+label:
+  ar: "غازي محمد الغيمراوي"
+  en: "Ghazi Muhammad"
+  ur: "قاضی محمد"
+summary:
+  ar: "غازي محمد بن إسماعيل الغيمراوي (1795–1832)، المعروف في المصادر الروسية بقاضي مُلّا، عالم داغستاني وصوفي نقشبندي صار أول أئمة داغستان والشيشان (1829–1832)؛ قاد حملة لإحلال الشريعة محل القانون العرفي (العادات)، وأعلن الغزوات ضد التوسع الروسي سنة 1830، وقُتل عند اقتحام قريته غيمري في 17 (29) أكتوبر 1832."
+  en: "Ghazi Muhammad ibn Ismail al-Gimrawi (1795–1832), called Kazi-Mulla in Russian sources, was a Dagestani scholar and Naqshbandi Sufi who became the first Imam of Dagestan and Chechnya (1829–1832). He campaigned to replace customary law (adat) with sharia, declared ghazavat against Russian expansion in 1830, and was killed at the storming of his native Gimry on 17 (29) October 1832."
+  ur: "غازی محمد بن اسماعیل الغیمراوی (1795–1832)، جو روسی مآخذ میں قاضی مُلّا کے نام سے معروف ہیں، داغستانی عالم اور نقشبندی صوفی تھے جو داغستان و چیچنیا کے پہلے امام بنے (1829–1832)۔ انہوں نے عرفی قانون (عادت) کی جگہ شریعت کے نفاذ کی مہم چلائی، 1830 میں روسی توسیع کے خلاف غزوات کا اعلان کیا، اور 17 (29) اکتوبر 1832 کو اپنے آبائی گاؤں گمری پر حملے میں قتل کیے گئے۔"
+names:
+  - { value: "Ghazi Muhammad ibn Ismail al-Gimrawi al-Dagestani", kind: full }
+  - { value: "ГъазимухӀамад", kind: full }
+  - { value: "Ghazi Muhammad", kind: given }
+  - { value: "Kazi-Mulla", kind: alternate }
+  - { value: "Kazi-Magoma", kind: alternate }
+gender: male
+born:
+  edtf: "1795"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The birth year is debated. Most sources give 1793 or 1795 (the English article's notes, and the Urdu article's 1793 with a question mark); the Russian and Arabic articles and Wikidata give 1795, which is carried; Gammer concludes only that he was born in the early 1790s, a few years older than Shamil, and the English infobox's 'circa 1790' is not followed. He was born at Gimry in Dagestan; no entity exists for Gimry, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-ghazi-muhammad-en, source/wikipedia-ghazi-muhammad-ru, source/wikipedia-ghazi-muhammad-ar, source/wikidata-ghazi-muhammad]
+died:
+  edtf: "1832-10-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed at the storming of Gimry on 17 October 1832 by the Julian calendar then in use in Russia — the same day as 29 October Gregorian, the dual form the English article's infobox gives; the Gregorian day is carried. Wikidata's 1832-10-17 stores the Julian day under a Gregorian calendar model. His body was taken to Tarki and later reburied at Gimry, where a shrine stands over the grave; no entity exists for Gimry, so no died_in or buried_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-ghazi-muhammad-en, source/wikipedia-ghazi-muhammad-ru, source/wikidata-ghazi-muhammad]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [scholar, mystic, emir]
+relations:
+  - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-ghazi-muhammad-en, source/wikipedia-ghazi-muhammad-ru] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts attest Ghazi Muhammad's Naqshbandi affiliation personally. The English article's text records that in 1825 he went to Gazi-Kumukh to visit the sheikhs of the Naqshbandi order, soon 'became a dedicated member', studied under the Naqshbandi sheikh Jamal al-Din al-Ghazi-Ghumuqi and completed his training under the latter's murshid Muhammad al-Yaraghi, who — according to some sources — granted him the title of sheikh and ijaza to initiate new members. The Russian article's text independently records that he entered the Naqshbandi tariqa under Jamal al-Din, who gave him permission to be counted a sheikh; the Arabic article's text adds that he and Shamil both affiliated to the Sufi orders and that al-Yaraghi was his murshid. Membership, discipleship and sheikh-permission attested in independent texts settle the segment as sufi, documented, and the member_of relation to group/naqshbandiyya is written. No madhhab segment is recorded: the 'Sunni Islam' of the English and Arabic infoboxes is one infobox family and Wikidata's religion value is Islam in general; the English text's remark that he favoured the legal norms of the Shafi'i school states the law he enforced as imam, and the Russian text lists Shafi'i law among the subjects of his education — neither is a second independent text naming his own madhhab."
+    sources: [source/wikipedia-ghazi-muhammad-en, source/wikipedia-ghazi-muhammad-ru, source/wikipedia-ghazi-muhammad-ar, source/wikidata-ghazi-muhammad]
+external_ids:
+  wikidata: Q2343038
+sources:
+  - source/wikipedia-ghazi-muhammad-en
+  - source/wikipedia-ghazi-muhammad-ru
+  - source/wikipedia-ghazi-muhammad-ar
+  - source/wikipedia-ghazi-muhammad-ur
+  - source/wikidata-ghazi-muhammad
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Arabic and Urdu Wikipedia articles on Ghazi Muhammad and Wikidata item Q2343038, each read at a recorded revision (the Chechen and Avar articles were not used); existence checked both ways before building — name fragments (ghazi muhammad, gazi-magomed, kazi-mulla) across data/person found no record, and Q2343038, grounded through the English article's page properties, grepped across all data/person files with zero hits; two wrong items returned by early name-based queries (Q2476798, a German literary historian, and — for Shamil's son — Q4206704, a disambiguation page) were rejected on their labels and sitelinks before any use; the Wikidata item was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. Relations refused, with reasons: student_of edges to Jamal al-Din al-Ghazi-Ghumuqi and Muhammad al-Yaraghi — neither teacher has a record (Wikidata's student-of value Q18747992 likewise has none); any edge to Imam Shamil — Shamil was Ghazi Muhammad's murid and close friend, whom he introduced to Jamal al-Din, so the attested direction is Shamil student_of Ghazi Muhammad, an edge that belongs in Shamil's record, which already exists and is not edited in this batch; writing student_of here would reverse the direction; a successor_of edge to Gamzat-bek — his successor as imam is not yet built; died_in and buried_in edges to Gimry — no place entity exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106

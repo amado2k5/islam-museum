@@ -1,0 +1,48 @@
+id: person/ahmad-yar-khan-naimi
+class: person
+label: { ar: "أحمد يار خان النعيمي", en: "Ahmad Yar Khan Naeemi", ur: "احمد یار خان نعیمی" }
+names:
+  - { value: "Ahmad Yar Khan Naeemi", kind: full }
+  - { value: "احمد یار خان نعیمی", kind: full }
+  - { value: "Ahmed Yaar Khan Naeemi", kind: alternate }
+  - { value: "Hakim al-Ummat", kind: laqab }
+  - { value: "Salik", kind: pen }
+gender: male
+summary:
+  ar: "مفسر ومفتٍ وعالم من شبه القارة (1894–1971 على رواية، والخلاف مسجل في محله)، وُلد في أجهاني بقضاء بدايون وتوفي في كجرات بالبنجاب الباكستاني، حيث درّس وأفتى عقوداً. تتلمذ في مدرسة شمس العلوم ببدايون والجامعة النعيمية بمراد آباد، ولقّب بحكيم الأمة، وأشهر آثاره «تفسير نعيمي» في أحد عشر مجلداً و«مرآة المناجيح» شرح مشكاة المصابيح."
+  en: "Qur'an commentator, mufti and scholar of the subcontinent (1894–1971 on the followed reading; the conflict is recorded in the birth note), born at Ujhani in Budaun district and died at Gujrat in Pakistani Punjab, where he taught and issued fatwas for decades. He studied at Madrasa Shamsul Uloom, Budaun, and Jamia Naeemia, Moradabad, was honoured as Hakim al-Ummat, and is known for the eleven-volume Tafsir Naeemi and Mirat al-Manajih, his commentary on the Mishkat al-Masabih."
+  ur: "برصغیر کے مفسر، مفتی اور عالم (1894ء–1971ء، متنازع تاریخِ ولادت اس کے نوٹ میں درج ہے)، اوجھیانی، ضلع بدایوں میں پیدا ہوئے اور گجرات (پنجاب، پاکستان) میں وصال ہوا، جہاں انھوں نے برسوں تدریس و افتا کیا۔ مدرسہ شمس العلوم بدایوں اور جامعہ نعیمیہ مراد آباد سے تعلیم پائی، «حکیم الامت» کا لقب ملا، اور مشہور تصانیف میں «تفسیر نعیمی» (11 جلدیں) اور «مرآۃ المناجیح» شامل ہیں۔"
+roles: [scholar, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1894-03-01"
+  hijri: "1311"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth year is genuinely contested and the record does not smooth it over. The English and Urdu articles headline 1 March 1894, which the record follows, but both pair that date with 4 Jumada al-Ula 1324 AH — a Hijri date that converts to 1906, not 1894. The Urdu article's birth section further records a Shawwal 1314 AH birth from Kokab's Hayat-e-Salik, and a 1324 AH / 1906 CE reading supported by three printed biographies (Hayat-e-Salik; Mehr Ali Shah's Al-Yawaqit al-Mihriyya, 1384/1964; Sharaf Qadri's Tazkira Akabir Ahl-e-Sunnat, 1976). The Arabic article, from the Royal Aal al-Bayt Encyclopaedia of Islamic Civilisation, gives 1324–1391 AH / 1904–1971 CE, and Wikidata likewise gives 1904. The Hijri year shown is the conversion of the followed Gregorian date; the sources' own pairing is 1324. Budaun has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ahmad-yar-khan-naimi-en, source/wikipedia-ahmad-yar-khan-naimi-ur, source/wikipedia-ahmad-yar-khan-naimi-ar, source/wikidata-ahmad-yar-khan-naimi]
+died:
+  edtf: "1971-10-24"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 24 October 1971 at Gujrat, Punjab (the English and Urdu articles date it to 3 Ramadan 1391 AH, and Wikidata agrees on the Gregorian date); his shrine is at Gujrat. Gujrat has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion, agreeing with the articles' own Hijri date."
+  sources: [source/wikipedia-ahmad-yar-khan-naimi-en, source/wikipedia-ahmad-yar-khan-naimi-ur, source/wikidata-ahmad-yar-khan-naimi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Both readings rest on a single text family and are preserved here rather than recorded. The English text's lead calls him a Sunni Islamic scholar, commentator, jurist and Sufi, and its legacy section states that he was the follower and caliph of Syed Naeem-ud-din Qadri Moradabadi; but the English article is one text. Its infobox's fields — Sunni denomination, Hanafi jurisprudence, Maturidi creed, Barelvi movement, Qadri tariqa — are a single infobox and never count. The Urdu text, independently written, names no madhhab for him anywhere, records no bay'ah or khilafa of his own, and mentions Ahl-e-Sunnat only in category filings and in the title of a biographical book that includes him. The Arabic text names no school. One independent attestation is therefore missing for both a sunni segment and a sufi segment, and under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-ahmad-yar-khan-naimi-en, source/wikipedia-ahmad-yar-khan-naimi-ur]
+external_ids: { wikidata: "Q31559" }
+sources: [source/wikipedia-ahmad-yar-khan-naimi-en, source/wikipedia-ahmad-yar-khan-naimi-ar, source/wikipedia-ahmad-yar-khan-naimi-ur, source/wikidata-ahmad-yar-khan-naimi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmad Yar Khan Naeemi' (revision 1371074486), Urdu Wikipedia 'احمد یار خان نعیمی' (revision 9289733) and Arabic Wikipedia 'أحمد يار خان النعيمي' (revision 72341262), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q31559 (item revision 2558716777). Existence checks by name fragments (naimi, naeemi, احمد یار), by Arabic label across data/person, by biography and by QID found no prior record for this man. No relations are written: Budaun and Gujrat have no place entities, and his teacher Syed Naeem-ud-din Muradabadi has no person record (person/mufti-muhammad-naeem is a different man), so no student_of edge is written. The founder's flagged question on this record: the Sunni and Sufi readings each rest on the English text alone (its infobox aside) and are preserved in the faith note; his birth year is likewise unsettled between 1894, 1904 and 1906 across the sources. The lane queue gives 1894–1971 under the spelling 'Naimi'; the articles' 'Naeemi' spelling is recorded as an alternate name."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

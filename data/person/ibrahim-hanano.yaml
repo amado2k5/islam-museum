@@ -1,0 +1,49 @@
+id: person/ibrahim-hanano
+class: person
+label: { ar: "إبراهيم هنانو", en: "Ibrahim Hanano", ur: "ابراہیم ہنانو" }
+names:
+  - { value: "إبراهيم بن سليمان آغا بن محمد هنانو", kind: full }
+  - { value: "Ibrahim Hananu", kind: full }
+  - { value: "Ibrahim Hanano", kind: alternate }
+gender: male
+summary:
+  ar: "قائد وطني سوري من أصل كردي (1869–1935)، موظف بلدي عثماني سابق قاد ثورة الشمال ضد الانتداب الفرنسي في أوائل عشرينيات القرن العشرين، وكان من مؤسسي الكتلة الوطنية وعضوا في الجمعية التأسيسية التي وضعت دستور 1930."
+  en: "Syrian national leader of Kurdish origin (1869–1935), a former Ottoman municipal official who led the revolt of the north against the French Mandate in the early 1920s; a founding figure of the National Bloc and a member of the 1928 constituent assembly that drafted Syria's first republican constitution."
+  ur: "کرد نژاد شامی قومی رہنما (1869–1935)، سابق عثمانی بلدیاتی اہلکار جنہوں نے 1920 کی دہائی کے اوائل میں فرانسیسی مینڈیٹ کے خلاف شمالی بغاوت کی قیادت کی؛ الکتلة الوطنیہ کے بانیوں میں سے اور 1928 کی مجلسِ تأسیسی کے رکن جنہوں نے شام کا پہلا جمہوری آئین تیار کیا۔"
+roles: [activist, politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1869"
+  hijri: "1286"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Kafr Takharim, in what is now Idlib province, and raised at Aleppo; no place entity exists for Kafr Takharim, so the birthplace is carried here and in the prose. The Arabic article pairs 1869 with 1286 AH. The birth year is disputed inside the English article: Keith David Watenpaugh's Being Modern in the Middle East gives 1879, Sami Moubayed's Steel & Silk gives 1869; the Arabic article and Wikidata give 1869, which is followed."
+  sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar, source/wikipedia-ibrahim-hanano-ur, source/wikidata-ibrahim-hanano]
+died:
+  edtf: "1935-11-21"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Aleppo on 21 November 1935, of tuberculosis according to the English article; the Arabic article pairs the date with 24 Sha'ban 1354 AH."
+  sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar, source/wikidata-ibrahim-hanano]
+relations:
+  - { type: lived_in, target: place/aleppo, sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar] }
+  - { type: died_in, target: place/aleppo, sources: [source/wikipedia-ibrahim-hanano-en, source/wikidata-ibrahim-hanano] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names an affiliation for him personally. The English article's text makes no statement of his religion; the Arabic article's infobox has a religion field and leaves it empty; the Urdu article is a stub with no statement; Wikidata carries no religion (P140) value. His Kurdish origin, given by both articles, is an ethnicity, not a faith attestation."
+    sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar, source/wikidata-ibrahim-hanano]
+external_ids: { wikidata: "Q1337578" }
+sources: [source/wikipedia-ibrahim-hanano-en, source/wikipedia-ibrahim-hanano-ar, source/wikipedia-ibrahim-hanano-ur, source/wikidata-ibrahim-hanano]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q1337578, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

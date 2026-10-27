@@ -1,0 +1,45 @@
+id: person/hassan-rouhani
+class: person
+label:
+  ar: "حسن روحاني"
+  en: "Hassan Rouhani"
+summary:
+  ar: "حسن روحاني (وُلد 12 تشرين الثاني 1948، واسمه عند الولادة حسن فريدون) رجل دين وسياسي إيراني، رئيس إيران من 3 آب 2013 إلى 3 آب 2021 خلفًا لمحمود أحمدي نجاد، وهو مجتهد شيعي تشكّل في حوزة قم وشغل قبل رئاسته مناصب برلمانية وأمنية رفيعة."
+  en: "Hassan Rouhani (born 12 November 1948, birth name Hassan Fereydoun) is an Iranian cleric and politician who served as president of Iran from 3 August 2013 to 3 August 2021, succeeding Mahmoud Ahmadinejad. A Shia mujtahid formed at the Qom hawza, he had earlier held senior parliamentary and security posts."
+names:
+  - { value: "Hassan Rouhani", kind: full }
+  - { value: "حسن روحاني", kind: full }
+  - { value: "حسن روحانی", kind: full }
+  - { value: "Hassan Fereydoun", kind: alternate }
+gender: male
+roles: [scholar, jurist, politician]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1948-11-12"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Sorkheh in Semnan province on 12 November 1948; the English article (under his birth name Hassan Fereydoun), the Persian article (21 Aban 1327) and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
+  sources: [source/wikipedia-rouhani-en, source/wikipedia-rouhani-fa, source/wikidata-rouhani]
+relations:
+  - type: successor_of
+    target: person/mahmoud-ahmadinejad
+    note: "He succeeded Mahmoud Ahmadinejad as president of Iran in August 2013; the presidency dates are given by the Arabic article, and the English Ahmadinejad article names him as successor in its infobox."
+    sources: [source/wikipedia-rouhani-ar, source/wikipedia-rouhani-en]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the Shia-mapping rule, with the mapping stated. Two independent texts attest 'Shia' of him personally: the English article's lead states that he 'has also served as a Shia mujtahid (a senior cleric)', and the Arabic article's lead calls him a Shia Islamic scholar (a prominent cleric). Disclosure: the Arabic lead clause closely parallels the English lead and the two may descend from one drafting, though they are differently worded and differently sourced; if the founder treats the two editions as one family here, this segment falls to unknown with the attestations preserved. Neither text names a branch. The branch-supporting context: he is a mujtahid formed at the Qom hawza, the Arabic infobox gives his religion as Islam, Twelver Shia, and the English article files him under its Twelvers category; Wikidata carries Shia Islam in general (Q9585) only. On two attestations of 'Shia' plus this context the value is recorded as shia-twelver/documented, the mapping being the museum's stated rule rather than a textual naming of the branch."
+    sources: [source/wikipedia-rouhani-en, source/wikipedia-rouhani-ar, source/wikidata-rouhani]
+external_ids:
+  wikidata: "Q348144"
+sources: [source/wikipedia-rouhani-en, source/wikipedia-rouhani-fa, source/wikipedia-rouhani-ar, source/wikipedia-rouhani-ur, source/wikidata-rouhani]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 100 §A of the century-additions queue (queue lines 549-553) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Wikidata item Q348144 — grounded through the English article pageprops and confirmed through every edition sitelink and the item own claims — appears in no existing person record. Dates and offices follow the English article. No born_in relation is written: he was born at Sorkheh, for which the museum holds no place entity. The successor_of relation to Mahmoud Ahmadinejad is written as attested by the articles of this group (the English Ahmadinejad infobox names Rouhani as successor; the Arabic Rouhani article gives his presidency from 3 August 2013). The faith segment is recorded under the Shia-mapping rule and the mapping is stated in the faith note. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
+status: { review: published }

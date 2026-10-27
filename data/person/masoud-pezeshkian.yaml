@@ -1,0 +1,39 @@
+id: person/masoud-pezeshkian
+class: person
+label:
+  ar: "مسعود بزشكيان"
+  en: "Masoud Pezeshkian"
+summary:
+  ar: "مسعود بزشكيان (وُلد 29 أيلول 1954) سياسي وطبيب إيراني، جرّاح قلب ووزير صحة سابق ونائب عن تبريز، رئيس إيران منذ 28 تموز 2024. تولّى الرئاسة بعد فترة قام فيها محمد مخبر بأعمال الرئيس بالوكالة إثر وفاة إبراهيم رئيسي في أيار 2024."
+  en: "Masoud Pezeshkian (born 29 September 1954) is an Iranian politician and physician — a cardiac surgeon, former minister of health and long-serving deputy for Tabriz — who has been president of Iran since 28 July 2024. He took office after a period in which Mohammad Mokhber served as acting president following the death of Ebrahim Raisi in May 2024."
+names:
+  - { value: "Masoud Pezeshkian", kind: full }
+  - { value: "مسعود بزشكيان", kind: full }
+  - { value: "مسعود پزشکیان", kind: full }
+gender: male
+roles: [politician, physician]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1954-09-29"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Mahabad in West Azerbaijan province on 29 September 1954; the English and Urdu articles and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
+  sources: [source/wikipedia-pezeshkian-en, source/wikipedia-pezeshkian-ur, source/wikidata-pezeshkian]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any edition names an affiliation for him personally. The English article describes him as a teacher of the Quran and a reciter of Nahj al-balagha, which it calls 'a key text for Shia Muslims' — a description of the book, and of his devotional practice, not an attestation of his school; the Arabic and Urdu texts carry the same passage. The only branch attestation anywhere is structured: Wikidata carries both Twelver Shi'ism (Q269785) and Shia Islam in general (Q9585), a single structured family, which does not meet the bar of two independent texts. The value is recorded as unknown with the evidence preserved here."
+    sources: [source/wikipedia-pezeshkian-en, source/wikipedia-pezeshkian-ar, source/wikidata-pezeshkian]
+external_ids:
+  wikidata: "Q5933752"
+sources: [source/wikipedia-pezeshkian-en, source/wikipedia-pezeshkian-fa, source/wikipedia-pezeshkian-ar, source/wikipedia-pezeshkian-ur, source/wikidata-pezeshkian]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 100 §A of the century-additions queue (queue lines 549-553) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Wikidata item Q5933752 — grounded through the English article pageprops and confirmed through every edition sitelink and the item own claims — appears in no existing person record. He is the sitting president in the current articles (his term began 28 July 2024) and is recorded as living. No born_in relation is written: he was born at Mahabad, for which the museum holds no place entity. The successor_of relation to Ebrahim Raisi is REFUSED and the refusal recorded here: the English article infobox names Raisi as his predecessor, but the same article text states expressly that Mohammad Mokhber served as acting president between Raisi's death and Pezeshkian's inauguration; under the lane acting-president precedent an expressly attested acting interlude breaks the direct edge, so the succession (Raisi, then Mokhber acting, then Pezeshkian inaugurated 28 July 2024) is stated in the prose instead. The English article also records his membership of the Interim Leadership Council of 1-8 March 2026, between Ali Khamenei's assassination and the election of Mojtaba Khamenei."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
+status: { review: published }

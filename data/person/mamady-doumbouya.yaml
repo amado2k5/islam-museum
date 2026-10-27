@@ -1,0 +1,40 @@
+id: person/mamady-doumbouya
+class: person
+label: { ar: "مامادي دومبوي", en: "Mamady Doumbouya", ur: "مامادی دومبویا" }
+names:
+  - { value: "Mamady Doumbouya", kind: full }
+  - { value: "Mamadi Doumbouya", kind: alternate }
+  - { value: "مامادي دومبوي", kind: full }
+  - { value: "مامادی دومبویا", kind: full }
+gender: male
+summary:
+  ar: "جنرال وسياسي غيني من إقليم كانكان، من شعب الماندينكا، خدم في الفيلق الأجنبي الفرنسي وقاد مجموعة القوات الخاصة الغينية، وقاد انقلاب 5 سبتمبر 2021 الذي أطاح بالرئيس ألفا كوندي فصار رئيسا مؤقتا في 1 أكتوبر 2021، ثم فاز بانتخابات ديسمبر 2025 ونُصّب رئيسا مدنيا خامسا لغينيا في 17 يناير 2026. تاريخ ميلاده متنازع عليه: المقالات تعطي 5 ديسمبر 1984، والسيرة الرسمية للرئاسة الغينية تعطي 4 مارس 1980."
+  en: "Guinean general and politician from the Kankan Region, of Mandinka origin, who served in the French Foreign Legion and commanded Guinea's Special Forces Group, led the coup of 5 September 2021 that overthrew President Alpha Condé and became interim president on 1 October 2021, then won the December 2025 election and was inaugurated as Guinea's fifth, civilian president on 17 January 2026. His birth date is disputed: the articles give 5 December 1984, while the Guinean presidency's official biography gives 4 March 1980."
+  ur: "گنی جنرل و سیاست دان، کانکان علاقے سے، ماندینکا اصل سے؛ فرانسیسی فارن لیجن میں خدمت کی اور گنی کی اسپیشل فورسز گروپ کی کمان سنبھالی، 5 ستمبر 2021ء کی بغاوت کی قیادت کی جس نے صدر الفا کوندے کو ہٹایا، 1 اکتوبر 2021ء کو عبوری صدر بنے، پھر دسمبر 2025ء کا انتخاب جیت کر 17 جنوری 2026ء کو گنی کے پانچویں، سویلین صدر کے طور پر حلف اٹھایا۔ ان کی تاریخِ پیدائش متنازع ہے۔"
+roles: [general, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1984-12-05"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth date is contested between the sources themselves. The English and French articles give 5 December 1984, in the Kankan Region, and one of Wikidata's three birth values agrees; but the French article's own note records that the Guinean presidency's official page gives 4 March 1980, confirmed by several independent sources, and Wikidata also carries 4 March 1980 and the bare year 1980. The articles' date is recorded with status debated and both readings preserved; the Hijri year is derived by tabular conversion from the recorded date (the 1980 reading would fall in 1400)."
+  sources: [source/wikipedia-mamady-doumbouya-en, source/wikidata-mamady-doumbouya]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration. The Arabic article records his Mandinka ethnic origin, which is not a religion. What exists is filings and structure: the English article files him under Guinean Muslims, and Wikidata carries the single value Islam. Filings never count and one structured value never counts, so there is no text attestation of even his Muslim identity in the sources used, and no school is named anywhere; the value stays unknown with the readings preserved here (the moussa-traore configuration, wave 75 §A)."
+    sources: [source/wikipedia-mamady-doumbouya-en, source/wikipedia-mamady-doumbouya-ar, source/wikidata-mamady-doumbouya]
+relations:
+  - { type: successor_of, target: person/alpha-conde, sources: [source/wikipedia-mamady-doumbouya-en] }
+external_ids: { wikidata: "Q108418519" }
+sources: [source/wikipedia-mamady-doumbouya-en, source/wikipedia-mamady-doumbouya-ar, source/wikidata-mamady-doumbouya]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mamady Doumbouya' (revision 1377858002 of 1 October 2026), Arabic Wikipedia 'مامادي دومبوي' (revision 74987986 of 4 June 2026) and Wikidata item Q108418519 (item revision 2552269088 of 2 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent); the French article (revision 240516074 of 19 October 2026) was also read, for its note on the disputed birth date. Existence was checked by filename fragments under all spellings (doumbouya, mamady, mamadi), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Kankan, so no born_in edge is written. His successor_of edge to Alpha Condé is written in his own record: Doumbouya succeeded Condé as president of Guinea — his coup of 5 September 2021 deposed Condé and he was sworn in as interim president on 1 October 2021."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

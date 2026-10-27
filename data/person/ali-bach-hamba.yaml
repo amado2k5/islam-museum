@@ -1,0 +1,49 @@
+id: person/ali-bach-hamba
+class: person
+label: { ar: "علي باش حانبة", en: "Ali Bach Hamba", ur: "علی باش حانبہ" }
+names:
+  - { value: "علي باش حانبة", kind: full }
+  - { value: "Ali Bach Hamba", kind: full }
+gender: male
+summary:
+  ar: "صحفي وسياسي تونسي (1876–1918)؛ وُلد في تونس في أسرة من أصل تركي، ودرس القانون في فرنسا، وأسس مع البشير صفر حركة الشباب التونسي وجريدة «التونسي» سنة 1907، ونُفي سنة 1912 بعد مظاهرات الترام، وتوفي في إسطنبول سنة 1918 ودُفن في مقبرة الجلاز بتونس."
+  en: "Tunisian journalist and politician (1876–1918). Born in Tunis into a family of Turkish origin, he studied law in France, co-founded the Young Tunisians movement and the newspaper Le Tunisien with Béchir Sfar in 1907, was exiled in 1912 after the tram boycott protests, and died in Istanbul in 1918; he is buried in the Jellaz cemetery in Tunis."
+  ur: "تونسی صحافی اور سیاست دان (1876–1918)؛ تونس میں ترک نژاد خاندان میں پیدا ہوئے، فرانس میں قانون پڑھا، 1907 میں بشیر صفر کے ساتھ نوجوان تونسی تحریک اور اخبار «التونسی» کی بنیاد رکھی، 1912 میں ٹرام بائیکاٹ کے احتجاج کے بعد جلاوطن ہوئے، اور 1918 میں استنبول میں انتقال ہوا؛ تونس کے جلاز قبرستان میں دفن ہیں۔"
+roles: [politician, writer, activist]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1876"
+  hijri: "1293"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Tunis in 1876, into a well-off family of Turkish origin; his father served the minister Mustafa ben Ismail. No source consulted gives a birth day; the Hijri year is derived."
+  sources: [source/wikipedia-ali-bach-hamba-en, source/wikipedia-ali-bach-hamba-ar, source/wikidata-ali-bach-hamba]
+died:
+  edtf: "1918-10-29"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Constantinople (Istanbul) on 29 October 1918, in 1337 AH (the Arabic article files him under deaths of 1337 AH); he is buried in the Jellaz cemetery in Tunis."
+  sources: [source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr, source/wikidata-ali-bach-hamba]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-ali-bach-hamba-en, source/wikipedia-ali-bach-hamba-ar] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr] }
+  - { type: buried_in, target: place/tunis, sources: [source/wikipedia-ali-bach-hamba-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source states a religion or school for him. The English, Arabic and French articles describe his journalism and nationalist politics only; the movement he co-founded acquired, in the English article's words, 'a religious as well as a constitutional character', which describes the movement, not his affiliation. Wikidata carries no religion value for him."
+    sources: [source/wikipedia-ali-bach-hamba-en, source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr, source/wikidata-ali-bach-hamba]
+external_ids: { wikidata: "Q2836120" }
+sources: [source/wikipedia-ali-bach-hamba-en, source/wikipedia-ali-bach-hamba-ar, source/wikipedia-ali-bach-hamba-fr, source/wikidata-ali-bach-hamba]
+provenance:
+  layer: own-research
+  source: "English (revision 1297284500), Arabic (70721506) and French (236525295) Wikipedia articles, each fetched by revision id and asserted, and Wikidata item Q2836120 verified by biography (Tunisian journalist and politician, 1876–1918); existence checks by name fragments, by QID sweep and by biography found no earlier record. The English article's Aix-Marseille master's and doctorate disagree with the Arabic and French articles' Paris law licence; the record follows the two-article reading"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

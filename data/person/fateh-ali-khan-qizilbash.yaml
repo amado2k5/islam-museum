@@ -1,0 +1,52 @@
+id: person/fateh-ali-khan-qizilbash
+class: person
+label:
+  ar: "فتح علي خان قزلباش"
+  en: "Fateh Ali Khan Qizilbash"
+  ur: "فتح علی خاں قزلباش"
+summary:
+  ar: "نواب سر فتح علي خان قزلباش (1862–1923) جاگیردار من لاهور في البنجاب، خلف عمه سنة 1898 على رأس عشيرة قزلباش، وجلس في المجلس التشريعي للبنجاب ومجلس الهند، وطرح فكرة كلية الشيعة في لكناو وكان من مؤسسيها، ونال وسام قائد فارس للإمبراطورية الهندية سنة 1921، ودُفن في كربلاء."
+  en: "Nawab Sir Fateh Ali Khan Qizilbash (1862–1923) was a Lahore landlord of the Punjab who succeeded his uncle in 1898 as head of the Qizilbash clan, sat on the Punjab Legislative Council and the Council of India, promulgated the idea of Shia College, Lucknow and was among its founders, was made KCIE in 1921, and was buried in Karbala."
+  ur: "نواب سر فتح علی خاں قزلباش (1862ء–1923ء) پنجاب کے لاہوری جاگیردار تھے، 1898ء میں اپنے چچا کے بعد قزلباش قبیلے کے سربراہ بنے، پنجاب لیجسلیٹو کونسل اور کونسل آف انڈیا کے رکن رہے، لکھنؤ کے شیعہ کالج کے بانیان میں شامل تھے، 1921ء میں کے سی آئی ای بنائے گئے اور کربلا میں دفن ہوئے۔"
+names:
+  - { value: "Nawab Sir Fateh Ali Khan Kazilbash", kind: full }
+  - { value: "فتح علی خاں قزلباش", kind: full }
+  - { value: "فتح علي خان قزلباش", kind: full }
+  - { value: "Fateh Ali Khan Qizilbash", kind: alternate }
+gender: male
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1862"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1862: the English and Urdu articles and Wikidata agree on the year; no consulted source gives a day or month, and no source gives a Hijri pairing (the year spans 1278–1279 AH), so the block carries no hijri value. The articles give no birthplace; his career and estates were at Lahore."
+  sources: [source/wikipedia-fateh-ali-khan-qizilbash-en, source/wikipedia-fateh-ali-khan-qizilbash-ur, source/wikidata-fateh-ali-khan-qizilbash]
+died:
+  edtf: "1923-10-28"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 28 October 1923: the English and Urdu articles and Wikidata agree. The Hijri year 1342 is a tabular conversion, marked derived. The Urdu article, on its Bahraich source, records his burial at Karbala, and Wikidata's burial-place value agrees."
+  sources: [source/wikipedia-fateh-ali-khan-qizilbash-en, source/wikipedia-fateh-ali-khan-qizilbash-ur, source/wikidata-fateh-ali-khan-qizilbash]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Neither article uses the word Shia of him in a single sentence, and Wikidata carries no religion statement; what two independent sources attest is his own Shia public work. The English article's text states that in 1914 he promulgated the idea of Shia College, Lucknow, citing Islam and the Modern Age (1992) and Hasan's Vanishing Culture of Lucknow (1990), and cites Rieck's The Shias of Pakistan for his war donation. The Urdu article, resting on a distinct source (a Bahraich biographical compendium, 2008), states that he was among the founders of Shia College, worked beside the Raja of Mahmudabad for Aligarh Muslim University, built an imambargah in Bahraich, and was buried in Karbala; Wikidata's burial-place value (Karbala) agrees. The sources attest 'Shia'; the branch is recorded as Twelver by the founder's mapping rule, the Qizilbash of Lahore being a Twelver community and Karbala burial and an imambargah being Twelver markers. His headship of the Qizilbash clan from 1898 is lineage and office and is not itself used as evidence."
+    sources: [source/wikipedia-fateh-ali-khan-qizilbash-en, source/wikipedia-fateh-ali-khan-qizilbash-ur, source/wikidata-fateh-ali-khan-qizilbash]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-fateh-ali-khan-qizilbash-en] }
+  - { type: buried_in, target: place/karbala, sources: [source/wikipedia-fateh-ali-khan-qizilbash-ur, source/wikidata-fateh-ali-khan-qizilbash] }
+external_ids: { wikidata: "Q12839455" }
+sources: [source/wikipedia-fateh-ali-khan-qizilbash-en, source/wikipedia-fateh-ali-khan-qizilbash-ur, source/wikidata-fateh-ali-khan-qizilbash]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nawab Fateh Ali Khan Kazilbash' (revision 1227267130), Urdu Wikipedia 'فتح علی خاں قزلباش' (revision 6851751) and Wikidata item Q12839455 (item revision 2172418640), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the Wikidata item was queried twice with identical item revisions. Existence checks by name fragments (qizilbash, kazilbash, fateh) across data/person, by QID and by biography (Lahore landlord, head of the Qizilbash clan, 1862–1923) found no prior record for this man; the Qizilbash-named records on file are Safavid-era figures of other centuries. No Arabic Wikipedia article exists for him (the item's sitelinks are English, Urdu, Azerbaijani and Punjabi only), so the Arabic prose is written from the English and Urdu sources and says so. Relations are limited to lived_in Lahore and buried_in Karbala: no place entity exists for Bahraich or Lucknow, and his father Nisar Ali Khan and grandfather Ali Raza Khan have no person records. The lane queue gives 'Sir Fateh Ali Khan Qizilbash (1862–1923)', which the sources confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-88
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

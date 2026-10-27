@@ -1,0 +1,52 @@
+id: person/khwaja-hasan-nizami
+class: person
+label: { ar: "خواجة حسن النظامي", en: "Khwaja Hasan Nizami", ur: "خواجہ حسن نظامی" }
+names:
+  - { value: "Syed Ali Hasan", kind: full }
+  - { value: "سيد علي حسن", kind: full }
+  - { value: "Hasan Nizami", kind: alternate }
+  - { value: "حسن نظامي", kind: alternate }
+gender: male
+summary:
+  ar: "متصوف وأديب أردي هندي (1878–1955)، وُلد في دلهي عند ضريح نظام الدين أولياء وتوفي فيها. من أعلام السلسلة الجشتية النظامية، أدار حلقة للبيعة والإرشاد وكتب مئات المؤلفات في المقالة والفكاهة والتاريخ، ومن أشهرها «بيغمات کے آنسو» في مآسي ثورة 1857، وبعد تقسيم الهند أحيا بنفسه مجالس محرم في دلهي."
+  en: "Indian Sufi and Urdu writer (1878–1955), born in Delhi at the shrine of Nizamuddin Auliya and died there. A figure of the Chishti-Nizami silsila, he kept a circle of initiation and discipleship and wrote hundreds of works of essay, humour and history, among them Begumat Kay Ansoo on the sufferings of 1857; after Partition he personally revived Delhi's Muharram gatherings."
+  ur: "ہندوستانی صوفی اور اردو ادیب (1878ء–1955ء)، دہلی میں نظام الدین اولیاء کی درگاہ پر پیدا ہوئے اور وہیں وفات پائی۔ سلسلہ چشتیہ نظامیہ کے بزرگ تھے، پیری مریدی کا سلسلہ جاری رکھا اور انشا، مزاح اور تاریخ پر سیکڑوں تصانیف چھوڑیں، جن میں «بیگمات کے آنسو» مشہور ہے؛ تقسیم کے بعد دہلی کی مجالسِ محرم انھوں نے خود آباد کیں۔"
+roles: [mystic, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1878-12-26"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives 26 December 1878, which the record follows; the Arabic article, its translation, gives 6 January 1878, and Wikidata gives the year 1873. The Urdu article gives no birth date but places his birth at Nizamuddin Auliya's shrine in Delhi. The year 1878 is common to both article texts and to the lane queue. The Hijri year is a conversion."
+  sources: [source/wikipedia-khwaja-hasan-nizami-en, source/wikipedia-khwaja-hasan-nizami-ar, source/wikipedia-khwaja-hasan-nizami-ur, source/wikidata-khwaja-hasan-nizami]
+died:
+  edtf: "1955-07-31"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 31 July 1955 in Delhi and buried within the enclosure of Nizamuddin Auliya's shrine (Urdu article; the English article and Wikidata agree on the date). The Hijri year is a conversion."
+  sources: [source/wikipedia-khwaja-hasan-nizami-en, source/wikipedia-khwaja-hasan-nizami-ur, source/wikidata-khwaja-hasan-nizami]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal Sufi affiliation and discipleship, which is the lane's test for a sufi segment. The English text calls him an Indian Sufi saint, says that being a Sufi he had many disciples and that it appeared in his literature, and places him in Nizamuddin Auliya's known silsila. The Urdu text, independently written, calls him a Sufi of the Chishti silsila, states that he maintained the practice of piri-muridi (taking disciples) and that countless people entered his circle of discipleship. A Sunni reading is preserved but not recorded as a segment: the English text states, in its account of his Muharram addresses, that he was part of the Ahl us Sannah wal Jammah — but the Arabic article carrying the same statement is a translation of the English, so that attestation rests on one text family, and the Urdu text does not name a school. No madhhab is named for him in any consulted text."
+    sources: [source/wikipedia-khwaja-hasan-nizami-en, source/wikipedia-khwaja-hasan-nizami-ur]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-khwaja-hasan-nizami-ur] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-khwaja-hasan-nizami-ur, source/wikidata-khwaja-hasan-nizami] }
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-khwaja-hasan-nizami-ur] }
+  - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-khwaja-hasan-nizami-ur, source/wikipedia-khwaja-hasan-nizami-en] }
+external_ids: { wikidata: "Q20739148" }
+sources: [source/wikipedia-khwaja-hasan-nizami-en, source/wikipedia-khwaja-hasan-nizami-ar, source/wikipedia-khwaja-hasan-nizami-ur, source/wikidata-khwaja-hasan-nizami]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khwaja Hasan Nizami' (revision 1382092002), Arabic Wikipedia 'خواجة حسن النظامي' (revision 76789162) and Urdu Wikipedia 'حسن نظامی' (revision 5773698), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q20739148 (item revision 2512561910). The Arabic article is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (nizami, hasan nizami, حسن نظامي), by Arabic label across data/person, by biography and by QID found no prior record for this man; person/karamanli-nizami is a different man. The lane queue gives 1878–1955, which the article texts support against Wikidata's 1873 birth year. The founder's flagged question on this record: the Sunni (Ahl us-Sunnah) reading rests on one text family and is preserved in the faith note only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

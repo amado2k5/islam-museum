@@ -1,0 +1,48 @@
+id: person/moussa-traore
+class: person
+label: { ar: "موسى تراوري", en: "Moussa Traoré", ur: "موسی تراورے" }
+names:
+  - { value: "Moussa Traoré", kind: full }
+  - { value: "موسى تراوري", kind: full }
+  - { value: "موسی تراورے", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي مالي (1936–2020) من كايس، قاد انقلاب 1968 الذي أطاح بموديبو كيتا وحكم مالي رئيسا (1968–1991) حتى أطاحت به احتجاجات وانقلاب سنة 1991، فحُوكم وحُكم عليه بالإعدام مرتين ثم خُفف الحكم وعفا عنه الرئيس كوناري سنة 2002 قبل مغادرته، ومات في باماكو في 15 سبتمبر 2020."
+  en: "Malian officer and politician (1936–2020) from Kayes who led the 1968 coup that overthrew Modibo Keïta and ruled Mali as president (1968–1991) until protests and a coup removed him in 1991; he was tried and twice sentenced to death, the sentences were commuted, and President Konaré pardoned him in 2002 shortly before leaving office. He died in Bamako on 15 September 2020."
+  ur: "مالی افسر و سیاست دان (1936ء–2020ء)، کایس سے؛ 1968ء کی بغاوت کی قیادت کی جس نے مودیبو کیتا کو ہٹایا اور مالی کے صدر (1968ء–1991ء) رہے حتیٰ کہ 1991ء میں احتجاج اور بغاوت نے انھیں ہٹا دیا؛ مقدمہ چلا، دو بار سزائے موت ہوئی پھر تخفیف ہوئی اور 2002ء میں صدر کونارے نے معافی دی؛ 15 ستمبر 2020ء کو باماکو میں انتقال ہوا۔"
+roles: [general, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1936-09-25"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 25 September 1936 in Kayes, then French Sudan; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-moussa-traore-en, source/wikidata-moussa-traore]
+died:
+  edtf: "2020-09-15"
+  hijri: "1442"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death in Bamako on 15 September 2020; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-moussa-traore-en, source/wikidata-moussa-traore]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article's text says anything about his religion at all — thinner than the Khan configuration. What exists is filings and structure: the English article files him under Malian Muslims, the Urdu article files him under Malian Muslims, and Wikidata carries two religion values, Islam and Sunni Islam, on the single item. Two values on one structured item are one source family, and filings never count, so the Sunni reading is structured-only and stands one full family short of sunni/documented (the josh-malihabadi configuration, wave 73 §B); the value stays unknown with the reading preserved here."
+    sources: [source/wikipedia-moussa-traore-en, source/wikipedia-moussa-traore-ar, source/wikipedia-moussa-traore-ur, source/wikidata-moussa-traore]
+relations:
+  - { type: successor_of, target: person/modibo-keita, sources: [source/wikipedia-moussa-traore-en] }
+external_ids: { wikidata: "Q313242" }
+sources: [source/wikipedia-moussa-traore-en, source/wikipedia-moussa-traore-ar, source/wikipedia-moussa-traore-ur, source/wikidata-moussa-traore]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Moussa Traoré' (revision 1356533056 of 28 May 2026), Arabic Wikipedia 'موسى تراوري' (revision 76480110 of 8 September 2026), Urdu Wikipedia 'موسی تراورے' (revision 4784691 of 12 October 2021) and Wikidata item Q313242 (item revision 2558175986 of 18 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (traore — the hit is the footballer Adama Traoré, a different man; Wikidata's same-name items are footballers), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No place entity exists for Kayes or Bamako, so no born_in or died_in edge is written; his successor_of edge to Modibo Keïta (head of state, 1968) is written in his own record — the English article's infobox names Keïta as his predecessor."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

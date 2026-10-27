@@ -1,0 +1,51 @@
+id: person/ziauddin-ahmad
+class: person
+label:
+  ar: "ضياء الدين أحمد"
+  en: "Ziauddin Ahmad"
+  ur: "ضیاء الدین احمد"
+summary:
+  ar: "ضياء الدين أحمد (1873–1947) رياضياتي وبرلماني هندي من ميروت، من أركان حركة عليكرة، تولّى نيابة رئاسة جامعة عليكرة الإسلامية فترات عدة — خلفًا لنواب محمد إسماعيل خان في الفترة التي بدأت سنة 1935 — وكان عضوًا في الجمعية التشريعية المركزية حتى 1947."
+  en: "Ziauddin Ahmad (1873–1947) was an Indian mathematician and parliamentarian from Meerut, a central figure of the Aligarh Movement who served several terms as Vice-Chancellor of Aligarh Muslim University — succeeding Nawab Mohammad Ismail Khan for the term beginning in 1935 — and sat in the Central Legislative Assembly until 1947."
+  ur: "ضیاء الدین احمد (1873ء–1947ء) میرٹھ کے ہندوستانی ریاضی دان اور پارلیمنٹیرین تھے، علی گڑھ تحریک کے مرکزی رہنما، جو علی گڑھ مسلم یونیورسٹی کے کئی مدتوں تک وائس چانسلر رہے — نواب محمد اسماعیل خان کے بعد 1935ء سے شروع ہونے والی مدت میں — اور 1947ء تک مرکزی قانون ساز اسمبلی کے رکن رہے۔"
+names:
+  - { value: "Ziauddin Ahmad", kind: full }
+  - { value: "ضياء الدين أحمد", kind: full }
+  - { value: "ضیاء الدین احمد", kind: full }
+  - { value: "Ziauddin Ahmed Zuberi", kind: full }
+gender: male
+roles: [mathematician, politician, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1873-02-13"
+  hijri: "1289"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 13 February 1873 at Meerut, British India, as the English article (cited to the Aligarh Movement profile) and the Arabic article both give, on the same day and month in every source. The year is contested: the Urdu article's infobox and one of Wikidata's two birth-date values give 1878, the reading the lane queue also carries; the 1873 reading of the English and Arabic article texts is followed and the conflict disclosed. The Hijri year is a tabular conversion of the followed Gregorian date. Meerut has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ar, source/wikipedia-ziauddin-ahmad-ur, source/wikidata-ziauddin-ahmad]
+died:
+  edtf: "1947-12-23"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 23 December 1947 in London, of pneumonia following a stroke suffered on a return flight from Australia, as the English, Arabic and Urdu articles and Wikidata all give. His body was taken back to Aligarh at his own request and he was buried beside Sir Syed Ahmad Khan's grave within Aligarh Muslim University. The Hijri year is a tabular conversion of the Gregorian date. London and Aligarh have no place entities, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ar, source/wikipedia-ziauddin-ahmad-ur, source/wikidata-ziauddin-ahmad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him. The English, Arabic and Urdu article texts name no religion; Wikidata gives his religion only as Islam generically (the item for Islam, Q432), a single structured value naming no school; and the articles' filing categories ('19th-century Indian Muslims' and the like) are categories, not attestations. His education — which the English infobox lists as including study at al-Azhar — is formation, not affiliation, and his leadership of the Aligarh and Pakistan movements is institutional and political work; neither counts. One generic structured value plus filings is not two independent sources naming a school, so the segment stays unknown."
+    sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ar, source/wikipedia-ziauddin-ahmad-ur, source/wikidata-ziauddin-ahmad]
+relations:
+  - { type: successor_of, target: person/nawab-mohammad-ismail-khan, sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ur, source/wikipedia-nawab-mohammad-ismail-khan-en, source/wikipedia-nawab-mohammad-ismail-khan-ur] }
+sources: [source/wikipedia-ziauddin-ahmad-en, source/wikipedia-ziauddin-ahmad-ar, source/wikipedia-ziauddin-ahmad-ur, source/wikidata-ziauddin-ahmad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ziauddin Ahmad' (revision 1376353391), Arabic Wikipedia 'ضياء الدين أحمد' (revision 75578459) and Urdu Wikipedia 'ضیاء الدین احمد' (revision 11800816), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q8071382 (item revision 2519018363, queried twice with identical results). Existence checks by name fragments (ziauddin, ضياء الدين, ضیاء الدین), by biography (mathematician, Aligarh vice-chancellor), by QID across data/person, and by record provenances found no prior record for this man; ziauddin-sardar is a different, living person. One relation is written, and its direction is stated here in words: Ziauddin Ahmad SUCCEEDED Nawab Mohammad Ismail Khan as Vice-Chancellor of Aligarh Muslim University for the term that began on 19 April 1935, so this record carries successor_of pointing at person/nawab-mohammad-ismail-khan. The sequence is attested on both sides: Ziauddin's own English and Urdu articles' succession boxes name Ismail Khan immediately before him (and Zahid Hussain after him), and Ismail Khan's English and Urdu articles' boxes name Ziauddin immediately after him (and Ross Masood before Ismail Khan). The fuller history, kept honest rather than smoothed: he had been the university's first pro-vice-chancellor from 1920; his first vice-chancellor term ran 19 April 1935 to 30 April 1938 and was followed by Shah Muhammad Sulaiman (1938–1941); he was appointed again on 24 April 1941, served again thereafter, and resigned in December 1946, after which Ismail Khan held the office a second time (1947–1948) and was in post when Ziauddin died. A loose passage in his own English article ('elected vice-chancellor in 1934, remaining until 1946', with an unresolved clarification flag about 1940) is noted in that source's reliability note; the succession-box sequence on both sides is what the edge rests on. His birth year is contested (1873 in the English and Arabic texts; 1878 in the Urdu infobox and one Wikidata value — the lane queue's 'Dr. Ziauddin Ahmad (1878–1947)' carries the 1878 error; the death year 1947 is confirmed by every source)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-86
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

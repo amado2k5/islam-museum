@@ -1,0 +1,43 @@
+id: person/kais-saied
+class: person
+label: { ar: "قيس سعيد", en: "Kais Saied", ur: "قیس سعید" }
+names:
+  - { value: "Kais Saied", kind: full }
+  - { value: "Kaïs Saïed", kind: alternate }
+  - { value: "قيس سعيد", kind: full }
+gender: male
+summary:
+  ar: "قيس سعيد (وُلد سنة 1958)، فقيه دستوري وسياسي تونسي درّس القانون الدستوري في جامعة تونس وترأس الجمعية التونسية للقانون الدستوري، وفاز بانتخابات 2019 الرئاسية مستقلا فصار رئيسا لتونس في 23 أكتوبر 2019، ثم علّق عمل البرلمان في يوليو 2021 وحكم بالمراسيم، وأقرّ دستور 2022، وأعيد انتخابه سنة 2024."
+  en: "Kais Saied (born 1958) is a Tunisian constitutional jurist and politician who taught constitutional law at the University of Tunis and headed the Tunisian Association of Constitutional Law. Running as an independent, he won the 2019 presidential election and became president of Tunisia on 23 October 2019; in July 2021 he suspended parliament and ruled by decree, carried the 2022 constitution, and was re-elected in 2024."
+  ur: "قیس سعید (پیدائش 1958ء) تیونس کے آئینی فقیہ اور سیاست دان ہیں جنہوں نے جامعہ تیونس میں آئینی قانون پڑھایا اور تیونسی ایسوسی ایشن برائے آئینی قانون کی صدارت کی۔ انہوں نے آزاد امیدوار کے طور پر 2019ء کا صدارتی انتخاب جیتا اور 23 اکتوبر 2019ء کو تیونس کے صدر بنے؛ جولائی 2021ء میں انہوں نے پارلیمنٹ معطل کر دی اور فرمانوں کے ذریعے حکومت کی، 2022ء کا آئین منظور کرایا اور 2024ء میں دوبارہ منتخب ہوئے۔"
+roles: [politician, jurist]
+born:
+  edtf: "1958-02-22"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tunis on 22 February 1958; all three articles and Wikidata agree. The Hijri year 1377 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-kais-saied-en, source/wikipedia-kais-saied-ar, source/wikipedia-kais-saied-ur, source/wikidata-kais-saied]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder (the Erekat configuration): the only attestation anywhere is Islam in general, carried by the Arabic article's infobox religion field and the Wikidata religion value (Q432) — one source family, and a generic value with no school reading to weigh; the Urdu stub only files him under Tunisian Muslims in general, a category filing. The English text records that the Ennahda movement supported his election, that he holds socially conservative positions, and that he did not describe himself as an Islamist — electoral support, political positions and a political self-description, none of which names a school, and his constitutional-law formation is expressly not counted."
+    sources: [source/wikipedia-kais-saied-en, source/wikipedia-kais-saied-ar, source/wikipedia-kais-saied-ur, source/wikidata-kais-saied]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-kais-saied-en, source/wikidata-kais-saied] }
+wings: [people, living]
+regions: [maghreb]
+external_ids: { wikidata: "Q16120878" }
+sources:
+  - source/wikipedia-kais-saied-en
+  - source/wikipedia-kais-saied-ar
+  - source/wikipedia-kais-saied-ur
+  - source/wikidata-kais-saied
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Kais Saied in English (revision 1381282158 of 21 Oct 2026), Arabic (revision 76478240 of 8 Sep 2026) and Urdu (revision 7918593 of 15 Apr 2025) and the Wikidata item Q16120878 (item revision 2558065617 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q16120878). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed, and his Arabic label قيس سعيد collides with no other person's label, so no homonym registration is needed. No successor_of edge is written: the English infobox names his predecessor as president as Mohamed Ennaceur, expressly acting — Ennaceur held the office from Essebsi's death on 25 July 2019 until Saied took office on 23 October 2019, and an interim holder defeats the direct sequence the predicate requires (the Abu Taleb precedent); Ennaceur has no person record in any case."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

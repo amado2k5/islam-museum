@@ -1,0 +1,45 @@
+id: person/mamadou-racine-sy
+class: person
+label: { ar: "مامادو راسين سي", en: "Mamadou Racine Sy", ur: "مامادو راسین سی" }
+names:
+  - { value: "Mamadou Racine Sy", kind: full }
+  - { value: "Mamadou Racine", kind: alternate }
+gender: male
+summary:
+  ar: "ضابط توكولوري في فيلق الرماة السنغاليين (توفي في 24 فبراير 1902)، وأول أفريقي أسود يبلغ رتبة نقيب في الجيش الفرنسي، بمرسوم استثنائي في 19 أكتوبر 1883. وُلد في سويما قرب بودور، وتلقى تكوينًا قرآنيًا في صباه وعلّم الدراسات القرآنية، ثم تطوّع سنة 1860 خلافًا لرغبة أبيه، وحارب ضد سيكو أمادو وساموري توري، وصار قائدًا لمركزي نيامينا وغومبو، وسُمّي «فاما» بامبوك سنة 1899، وتوفي في كيتا أثناء مهمة تجنيد لسكك الحديد."
+  en: "Toucouleur officer of the Senegalese tirailleurs (died 24 February 1902), the first Black African to reach the rank of captain in the French army, by an exceptional decree of 19 October 1883. Born at Souïma near Podor, he was given a Quranic formation as a child and taught Quranic studies, then enlisted in 1860 against his father's wish, campaigned against Seku Amadu and Samori Ture, commanded the posts of Nyamina and Goumbo, was named fama of Bambouck in 1899, and died at Kita on a railway recruitment mission."
+  ur: "سینیگالی تیرایوں کی فوج کے توکولور افسر (وفات 24 فروری 1902ء)، فرانسیسی فوج میں نقيب (کپتان) کے عہدے تک پہنچنے والے پہلے سیاہ فام افریقی، جنہیں 19 اکتوبر 1883ء کو ایک استثنائی فرمان سے یہ رتبہ ملا۔ سويما، بودور کے قریب پیدا ہوئے؛ بچپن میں قرآنی تعلیم پائی اور قرآنی درس دیا، پھر 1860ء میں والد کی خواہش کے خلاف بھرتی ہوئے، سیکو امادو اور ساموری تورے کے خلاف مہموں میں شریک رہے، نیامینا اور گومبو کی چوکیوں کی کمان سنبھالی، 1899ء میں بامبوک کے «فاما» نامزد ہوئے، اور ریلوے بھرتی کی مہم پر کیتا میں وفات پائی۔"
+roles: [military-leader, teacher]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1838~"
+  hijri: "1254"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The French article gives his birth at Souïma, near Podor in Senegal, as 1838 or 28 March 1842, citing Soubrier (2021) and the EHNE encyclopedia, and states that his birth date and place are not known with certainty. Wikidata gives 1838, and the two book-length biographies (Abdoul Sow, 2010; Seydou Madani Sy, 2014) both title him 1838–1902. The record follows c. 1838 and marks the year debated. Souïma and Podor have no place entities in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion of the approximate year."
+  sources: [source/wikipedia-mamadou-racine-fr, source/wikidata-mamadou-racine-sy]
+died:
+  edtf: "1902-02-24"
+  hijri: "1319"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Kita, in present-day Mali, on 24 February 1902, per the French article and Wikidata, while on a railway recruitment mission entrusted to him by the governor-general because of his prestige. Kita has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion (24 February 1902 falls in Dhu al-Qa'da 1319)."
+  sources: [source/wikipedia-mamadou-racine-fr, source/wikidata-mamadou-racine-sy]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The French article attests his Muslim formation and practice: as a child he was trained in the Muslim religion and became an instructor in Quranic studies, and in 1872 he led the prayer at the mosque of Bakel, wearing a boubou, and was reprimanded for it. But no source names a school or order for him personally — the article names none, and Wikidata records no religion value at all. Practice and a Quranic formation are not the naming of a school, so under the doubt rule he is left unclassified, with the attestation of his practice recorded here."
+    sources: [source/wikipedia-mamadou-racine-fr, source/wikidata-mamadou-racine-sy]
+external_ids: { wikidata: "Q19521327" }
+sources: [source/wikipedia-mamadou-racine-fr, source/wikidata-mamadou-racine-sy]
+provenance:
+  layer: own-research
+  source: "French Wikipedia 'Mamadou Racine' (revision 235443036) and Wikidata item Q19521327 (item revision 2513218529), read via the MediaWiki API on 26 October 2026. No English, Arabic or Urdu Wikipedia article on him exists (the item's only sitelink is the French article), so the English, Arabic and Urdu prose are the museum's own, written from the French article. Souïma, Podor and Kita have no place entities in the museum yet, so no born_in or died_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

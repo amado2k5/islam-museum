@@ -1,0 +1,55 @@
+id: person/kosta-khetagurov
+class: person
+label:
+  ar: "كوستا خيتاغوروف"
+  en: "Kosta Khetagurov"
+  ur: "کوسٹا خیتاگوروف"
+summary:
+  ar: "كوستا خيتاغوروف (1859–1906)، وُلد قسطنطين ليفانوفيتش خيتاغوروف، شاعر أوسيتي يُعد مؤسس الأدب الأوسيتي، وكان رسامًا وشخصية عامة؛ نُفي مرتين لانتقاده الحكومة القيصرية، وتوفي في لابا سنة 1906 ودُفن في مقبرة الكنيسة الأوسيتية في فلاديقوقاز."
+  en: "Kosta Khetagurov (1859–1906), born Konstantin Levanovich Khetagurov, was an Ossetian poet regarded as the founder of Ossetian literature, and also a painter and public figure. Twice exiled for his criticism of the tsarist government, he died at Laba in 1906 and was buried in the necropolis of the Ossetian Church in Vladikavkaz."
+  ur: "کوسٹا خیتاگوروف (1859–1906)، اصل نام قسطنطین لیوانووچ خیتاگوروف، آسیتی شاعر تھے جنہیں آسیتی ادب کا بانی سمجھا جاتا ہے؛ وہ مصور اور عوامی شخصیت بھی تھے۔ زار حکومت پر تنقید کی وجہ سے دو بار جلاوطن ہوئے، 1906 میں لابا میں وفات پائی اور ولادیقفقاز کی آسیتی کلیسا کے قبرستان میں دفن ہوئے۔"
+names:
+  - { value: "Kosta Levanovich Khetagurov", kind: full }
+  - { value: "Коста Леванович Хетагуров", kind: full }
+  - { value: "Хетæгкаты Леуаны фырт Къоста", kind: full }
+  - { value: "Konstantin Levanovich Khetagurov", kind: alternate }
+  - { value: "Нарон", kind: pen }
+gender: male
+born:
+  edtf: "1859-10-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 15 October 1859 (Gregorian) at the village of Nar in Ossetia, as the English article gives and the Russian article's two-calendar lead confirms; the Russian and Ossetian articles carry the Julian form, 3 October 1859, and Wikidata carries both calendar models — the two forms are the same day, not a dispute. No entity exists for Nar, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-kosta-khetagurov-en, source/wikipedia-kosta-khetagurov-ru, source/wikipedia-kosta-khetagurov-os, source/wikidata-kosta-khetagurov]
+died:
+  edtf: "1906-04-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 1 April 1906 (Gregorian; 19 March Julian) at Laba, as the English, Russian and Ossetian articles and Wikidata's paired calendar values give — again one day in two calendars. The Russian article records his burial in the necropolis within the fence of the Ossetian Church at Vladikavkaz; no entity exists for Laba or Vladikavkaz, so no died_in or buried_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-kosta-khetagurov-en, source/wikipedia-kosta-khetagurov-ru, source/wikipedia-kosta-khetagurov-os, source/wikidata-kosta-khetagurov]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [poet, writer, artist]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the Christian reading rests on practice-and-rite evidence in one text family, short of two independent texts naming his affiliation. No edition read names Khetagurov an Orthodox Christian in so many words, no infobox carries a religion field, and Wikidata carries no religion (P140) value. The Russian article documents that he attended services at the Ossetian Church in Vladikavkaz, that the Orthodox funeral rite was sung for him there in Russian and Ossetian, and that he was buried in that church's necropolis; the English article — of which the Arabic article is a translation, one family — records only his painting of Saint Nino, a work, and a philosophy of humanism. Church attendance, funeral rites and the Ossetians' historic Orthodoxy are milieu and rite, not two texts naming his own affiliation, so the segment is unknown, with the evidence preserved here."
+    sources: [source/wikipedia-kosta-khetagurov-en, source/wikipedia-kosta-khetagurov-ru, source/wikipedia-kosta-khetagurov-os, source/wikidata-kosta-khetagurov]
+external_ids:
+  wikidata: Q368956
+sources:
+  - source/wikipedia-kosta-khetagurov-en
+  - source/wikipedia-kosta-khetagurov-ru
+  - source/wikipedia-kosta-khetagurov-os
+  - source/wikipedia-kosta-khetagurov-ar
+  - source/wikidata-kosta-khetagurov
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Ossetian and Arabic Wikipedia articles on Kosta Khetagurov and Wikidata item Q368956, each read at a recorded revision; the queue line for him (century-additions line 1495 in the worktree copy) carries the suffix '(Muslim Associates)' but names this documented person, and it is he who is built. Existence checked both ways before building — name fragments (khetagurov, khetagkaty, chetagurov) and slug variants across data/person found no record, and Q368956, grounded through the English article's page properties and confirmed through the Russian, Ossetian and Arabic articles', grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. No relations are written: no entity exists for Nar, Laba or Vladikavkaz, and no person named in the articles has a record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105

@@ -1,3 +1,10 @@
+---
+id: concept/islamufubiya
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
 # اسلاموفوبیا (اسلام کا خوف)
 
 ## «الوسطیہ» کی قسط — مظہر اور اصطلاح پر مباحثہ

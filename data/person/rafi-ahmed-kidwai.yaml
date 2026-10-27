@@ -1,0 +1,47 @@
+id: person/rafi-ahmed-kidwai
+class: person
+label: { ar: "رفيع أحمد قدوائي", en: "Rafi Ahmed Kidwai", ur: "رفیع احمد قدوائی" }
+names:
+  - { value: "رفيع أحمد قدوائي", kind: full }
+  - { value: "Rafi Ahmed Kidwai", kind: full }
+gender: male
+summary:
+  ar: "سياسي هندي (1894–1954) من منطقة بارابانكي. درس في الكلية المحمدية الأنجلو-شرقية، ونشط في حركتي الخلافة وعدم التعاون، وصار وزيرًا في حكومة الولاية ثم أول وزير للاتصالات في الهند المستقلة (1947–1952) ووزير الغذاء والزراعة (1952–1954) أيام نقص الغذاء والحصص التموينية، وتوفي في دلهي وهو في المنصب."
+  en: "Indian politician (1894–1954) from Barabanki district. Educated at the Muhammadan Anglo-Oriental College, he was active in the Khilafat and non-cooperation movements, served as a provincial minister, then as independent India's first Minister of Communications (1947–1952) and as Minister of Food and Agriculture (1952–1954) through the years of food scarcity and rationing, dying in office at Delhi."
+  ur: "ضلع بارہ بنکی کے ہندوستانی سیاست دان (1894ء–1954ء)۔ محمڈن اینگلو اورینٹل کالج سے تعلیم پائی، تحریک خلافت اور عدم تعاون میں سرگرم رہے، صوبائی وزیر بنے، پھر آزاد ہندوستان کے پہلے وزیر مواصلات (1947ء–1952ء) اور وزیر خوراک و زراعت (1952ء–1954ء) رہے، اور دہلی میں عہدے پر رہتے ہوئے وفات پائی۔"
+roles: [politician, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1894-02-18"
+  hijri: "1311"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on 18 February 1894, at Masauli in Barabanki district; no place entity exists for Barabanki, so no born_in edge is written. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-kidwai-en, source/wikipedia-kidwai-ur, source/wikidata-kidwai]
+died:
+  edtf: "1954-10-24"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on 24 October 1954, at Delhi, while he held the food and agriculture portfolio. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-kidwai-en, source/wikipedia-kidwai-ur, source/wikidata-kidwai]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-kidwai-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration: the sources place him in Muslim public life — educated at the Muhammadan Anglo-Oriental College, active in the Khilafat movement from 1920, filed by the English article under Indian Muslims and Muslim socialists, and described by the Urdu article as sometimes called an Islamic socialist — but no source names a denomination or legal school for him: the English officeholder infobox has no religion field, the Urdu text names none, and Wikidata gives Islam only. A political ideology (socialism) and movement participation are not school attestations. The segment therefore stays unknown, unflagged."
+    sources: [source/wikipedia-kidwai-en, source/wikipedia-kidwai-ur, source/wikidata-kidwai]
+external_ids: { wikidata: "Q7282619" }
+sources: [source/wikipedia-kidwai-en, source/wikipedia-kidwai-ur, source/wikidata-kidwai]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rafi Ahmed Kidwai' (revision 1361561296), Urdu Wikipedia 'رفیع احمد قدوائی' (revision 12092956) and Wikidata item Q7282619 (item revision 2553326608), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. No Arabic Wikipedia article exists for this man (the Wikidata item has no Arabic sitelink); the Arabic prose is written from the English and Urdu articles and says so. Existence was checked by filename fragments under all spellings (kidwai, qidwai), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; the museum's mushir-husain-kidwai is a different, earlier bearer of the family name (the Lucknow scholar Mushir Husain Kidwai) and was not touched, and the Wikidata items Q7282620 (the award) and Q68584458 (the Kolkata road) are not the man. No family edges are written: his brothers named in the Urdu article have no records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

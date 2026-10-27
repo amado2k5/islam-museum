@@ -1,0 +1,26 @@
+---
+id: concept/tatbiq-al-sharia
+lang: ur
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
+# شریعت کا نفاذ — کلیت اور مرحلہ وار
+
+## قسط اور ووٹ
+«الوسطیہ» کی چوتھی قسط میں انتخابی نعروں پر لگا «نفاذِ شریعت» کا تصور زیرِ بحث آیا: کیا یہ اپنے داعیوں کے ہاں واضح ہے، اور یہ مکمل نافذ ہوگی یا بتدریج؟ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:02:00} سامعین نے ووٹ دیا: مجموعہ اور تفصیل دونوں میں واضح 28%، مجموعہ میں واضح مگر تفصیل کے بغیر 69%، غیر واضح 3% — علماء نے اسے حقیقت کا عکس کہا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:06:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:07:30}۔
+
+## بنیاد ربانی، تفصیل انسانی
+احمد نوفل نے قاعدہ ایک ایسے فقرے میں سمیٹا جسے میزبان نے «قسط کا شاعر» کہا: «بنیاد ربانی اور تفصیل انسانی» — مجموعہ تو وحی سے واضح ہے (شوریٰ اسلام کا ستون ہے)، مگر کون کس کی نمائندگی کرے، عہدے کی مدت، حلقوں کی شکل — یہ انسانی تفصیلات ہیں جو میدان آزمائے گا؛ درست رہے گی اور ناکام گریز گی جیسے انجینئر کی عمارت تصور اور عمل کے درمیان {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:08:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:10:00}۔ نص یا اجماع سے تفصیل شدہ احکام لازم ہیں؛ باقی اجتہاد کے لیے کھلا ہے — جیسے باپ کی پہلے وفات پر نواسوں کی میراث جسے اردن میں «واجب وصیت» نے طے کیا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:12:00}۔
+
+## قوانین غائب ہیں — اسلام نہیں
+محمد الخطیب نے فرق پر زور دیا: تفصیل سے مراد «قوانین کیسے نافذ ہوں» ہے، اور وہ اسلامی تحریکوں کے اندر غائب ہیں — سوائے مودودی کی اسلامی آئین کی کوشش کے — اور تربیتی، سماجی، معاشی پروگرام شریعت کی روح سے عصری سانچے میں ڈھالنا باقی ہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:13:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:14:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:14:30}۔ اس لیے اجماعی مسائل لازم ہیں اور جمهور کے مسائل ہمیشہ نہیں — مثال طلاقِ ثلاثہ جس میں کئی قوانین نے ابن تیمیہ کی رائے لی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:16:30}۔ غیر مسلموں پر مسلمانوں کے مخصوص احکام لاگو نہیں — مسیحی اپنے گھر میں شراب پی سکتا ہے اور ریاست اس کی فراہمی کی اجازت دے سکتی ہے — مگر عام ریاستی قوانین سب پر لازم ہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:17:30}۔
+
+## تدریج الٰہی سنت ہے
+حمزہ منصور، ہائل عبدالحفیظ اور فخری ابو صفیہ تدریج پر متفق ہوئے: «اسلام ہی حل ہے اس میں شک نہیں، مگر قوانین کسی جماعت کی بنائی ہوئی نہیں — ان کا ایک طویل آئینی طریقہ ہے» — پس ترجیح ہے تعلیم، میڈیا، معیشت سے انسانی بنیاد بنانا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:20:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:21:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:21:30}۔ اور «تدریج الٰہی سنت ہے» جس سے قرآن منجّماً اترا؛ اور عمر بن عبدالعزیز کے بیٹے کی کہانی: «جلدی نہ کر — اللہ نے شراب کی دو بار مذمت کی اور تیسری بار حرام کیا؛ اگر لوگوں پر پورا حق ایک دم لادیں تو وہ اسے ایک دم چھوڑ دیں» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:24:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:26:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:26:30}۔ خلوص کی کسوٹی: ربوی بینکوں سے عارضی بقائے باہمی قبول ہے بشرطیکہ اسلامی متبادل کی سنجیدہ تلاش ہو، ٹال مٹول نہیں {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:22:00}۔
+
+## شریعت ایک کل ہے — راستہ تربیت ہے
+فخری ابو صفیہ نے اصرار کیا کہ شریعت ایک کل ہے — کچھ لو اور کچھ چھوڑو تو آیت ملامت کرتی ہے — اور اسلامی آئین موجود ہے 1200 برس نافذ رہا؛ کمی صرف عصری قانونی صیاغت کی ہے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:05:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:07:30}۔ مگر ان کا راستہ تربیت ہے نہ کہ جبر: «جمهور ایک وادی میں اور میں دوسری» — ہم چاہتے ہیں کہ یہ نبوی صورت میں آئے: ایسی تربیت جو حکمران ریاست پیدا کرے {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:04:30}۔ اور ایک اردنی سروے (1500 سوالنامے) نے پایا کہ 98.4% حدود بحسب نزول نافذ چاہتے ہیں — جلدی کے حامیوں کے لیے عوامی پیاس کا اشارہ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:44:30}۔
+
+## آغاز کہاں سے
+متحاورین مجموعے پر اترے: تربیت اور اداروں سے بنیاد (اسلامی ایگزیکٹو، مقننہ، عدلیہ)، خودکفیلی حاصل کرنا جو بیرونی دباؤ سے بچائے — پھر انجام آئے گا؛ پہلا قدم یعنی بیداری کا پھیلنا مکمل ہوا، دوسرا ابھی باقی {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:12:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:30}۔ میزبان نے اختتام کیا: «کمزور امت فلسفہ بازی نہیں کر سکتی — ہمیں دوبارہ تربیت، قانونی بالادستی اور احکام کے نفاذ کی تربیت چاہیے، لوگوں پر ٹھونسنا نہیں» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:14:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:15:00}۔

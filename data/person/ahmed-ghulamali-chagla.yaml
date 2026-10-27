@@ -1,0 +1,48 @@
+id: person/ahmed-ghulamali-chagla
+class: person
+label: { ar: "أحمد غلام علي شاغلا", en: "Ahmed Ghulamali Chagla", ur: "احمد غلام علی چھاگلہ" }
+names:
+  - { value: "Ahmed Ghulam Ali Chagla", kind: full }
+  - { value: "أحمد غلام علي شاغلا", kind: full }
+  - { value: "احمد غلام علی چھاگلہ", kind: full }
+  - { value: "Ahmed G. Chagla", kind: alternate }
+  - { value: "احمد جی چھاگلہ", kind: alternate }
+gender: male
+summary:
+  ar: "مؤلف موسيقي وكاتب باكستاني (1902–1953) لحّن موسيقى النشيد الوطني الباكستاني سنة 1949. وُلد في كراتشي ودرس أنظمة الموسيقى الشرقية والغربية في الهند ولندن، وجاب بلدان الشرق والغرب باحثاً في تاريخ الموسيقى ونظريتها، وكتب مقالات في الموسيقى والثقافة، وتوفي قبل اعتماد النشيد رسمياً سنة 1954."
+  en: "Pakistani composer and writer (1902–1953) who composed the music of Pakistan's national anthem in 1949. Born in Karachi, he studied Eastern and Western musical systems in India and London, travelled widely in the East and the West researching the history and theory of music, and wrote on music and culture; he died before the anthem was officially adopted in 1954."
+  ur: "پاکستانی موسیقار اور مصنف (1902ء–1953ء) جنھوں نے 1949ء میں پاکستان کے قومی ترانے کی موسیقی ترتیب دی۔ وہ کراچی میں پیدا ہوئے، ہندوستان اور لندن میں مشرقی و مغربی موسیقی کے نظاموں کا مطالعہ کیا، موسیقی کی تاریخ و نظریے کی تحقیق میں مشرق و مغرب کا سفر کیا اور موسیقی و ثقافت پر لکھا؛ وہ ترانے کی سرکاری منظوری (1954ء) سے پہلے وفات پا گئے۔"
+roles: [musician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1902-05-31"
+  hijri: "1320"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 31 May 1902 at Karachi, as all three articles and Wikidata agree. The Hijri year is from the Arabic article's birth category (مواليد 1320 هـ) and agrees with a conversion of the followed date. Karachi has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ahmed-ghulamali-chagla-en, source/wikipedia-ahmed-ghulamali-chagla-ar, source/wikipedia-ahmed-ghulamali-chagla-ur, source/wikidata-ahmed-ghulamali-chagla]
+died:
+  edtf: "1953-02-05"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Karachi on 5 February 1953, as all three articles and Wikidata agree. The Hijri year is from the Arabic article's death category (وفيات 1372 هـ) and agrees with a conversion of the followed date. Karachi has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-ahmed-ghulamali-chagla-en, source/wikipedia-ahmed-ghulamali-chagla-ar, source/wikipedia-ahmed-ghulamali-chagla-ur, source/wikidata-ahmed-ghulamali-chagla]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a religious school for him, and no source attests an affiliation of his own. The English article says he was born into a prominent Khoja Ismaili family in Karachi — family origin, which never counts as a personal attestation — citing Rustomji and Katrak's history of Karachi (2007), and its categories file him among Khoja Ismailis, which is a filing, not an attestation. The same article, followed by the Arabic stub, records that he was an active member of the Theosophical Society, a documented personal affiliation of a different kind that names no Islamic school. The Urdu stub says nothing about his religion, and Wikidata carries no religion value at all. The Ismaili family reading is preserved here rather than recorded, there being no second, personal attestation."
+    sources: [source/wikipedia-ahmed-ghulamali-chagla-en, source/wikipedia-ahmed-ghulamali-chagla-ar, source/wikipedia-ahmed-ghulamali-chagla-ur, source/wikidata-ahmed-ghulamali-chagla]
+external_ids: { wikidata: "Q3246408" }
+sources: [source/wikipedia-ahmed-ghulamali-chagla-en, source/wikipedia-ahmed-ghulamali-chagla-ar, source/wikipedia-ahmed-ghulamali-chagla-ur, source/wikidata-ahmed-ghulamali-chagla]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Ghulam Ali Chagla' (revision 1351747897), Arabic Wikipedia 'أحمد غلام علي شاغلا' (revision 74483531) and Urdu Wikipedia 'احمد غلام علی چھاگلہ' (revision 9397920), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q3246408 (item revision 2551211822), whose recorded identifiers were confirmed identical on two separate reads. Existence checks by name fragments (chagla, شاغلا, چھاگلہ), by Arabic label across data/person, by biography and by QID found no prior record for him. No relations are written: he was born and died in Karachi, which has no place entity. The lane queue gives 'Ahmed Ghulamali Chagla (1902–1953)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-83
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

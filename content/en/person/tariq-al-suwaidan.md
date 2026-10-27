@@ -98,3 +98,57 @@ In the opening of his programme 'Al-Mubdi'un', al-Suwaidan says he lived with th
 
 ## The 'Al-Wasatiyya' programme — its method
 For the first episode on 'Islamophobia' al-Suwaidan hosted experts resident in the West — Adel Darwish, Azzam al-Tamimi, Oraib al-Rantawi, Emad Hussein, Ali al-Sawa and researcher Nur Issa — running the debate by his method: audience votes on the phenomenon, then its greatest cause, then Arab media's role {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:45:30}. The results: 51% judged it real; 55% named 'Jewish fingers' the greatest cause — surprising him; and 57% saw Arab media improving {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:49:30}.
+
+## In 'Al-Wasatiyya' — the discourse episode
+Al-Suwaidan steered the maturity-versus-reactivity episode with a panel — Bassam al-Amoush, Mahmoud Rashdan, Salah al-Din al-Jurshi, Khaled Hroub, Sayyid al-Fayiz, Mahmoud Sayyid Daghim, Ma'mun Jarrar, Ahmad Izz and Samer Khayr — and four audience polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:26:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:45:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:55:00}. He told his famous anecdote: after his first TV programme in 1992 a woman called thanking him 'for speaking of religion while smiling' — he flipped through the channels and found there was indeed a problem of form {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:25:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:26:00}. He concluded that Islam is one with graduated levels of address — as the Prophet sent Mu'adh beginning with tawhid — that the bigger problem lies in content, and that the umma needs a reference gathering its senior scholars {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:06:30}.
+
+## In 'Al-Wasatiyya' — the democracy episode
+Al-Suwaidan steered 'democracy: justice or despotism?' with a panel of practitioners — Ishaq al-Farhan, Munir al-Bayati, Abd al-Latif Arabiyat, Ali al-Atoum, Azzam al-Tamimi and Mahdi al-Dajani — and two polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:30:00}. He noted the shift from the era of 'democracy is unbelief': only 16% now see total conflict {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:10:00}. And he summarised that the dispute, after debate, narrowed to 'parliament's right to legislate' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:29:00}.
+
+## In 'Al-Wasatiyya' — the sharia-implementation episode
+Al-Suwaidan steered 'implementing the sharia: totality or stages?' with a sharia panel — Ahmad Nawfal, Muhammad al-Khatib, Hamza Mansur, Hayil Abd al-Hafiz and Fakhri Abu Sufiya — and two polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:32:00}. He noted the telling result: 69% see the concept clear in general but not in detail {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:06:30}. After the debate he concluded the generalities are agreed, the details need ijtihad and codification, and the path combines tarbiyya with participation {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:14:30}.
+
+## In 'Al-Wasatiyya' — the secularism episode
+Al-Suwaidan steered 'secularism and Islam: conflict or concord?' with a panel — Omar al-Shobaki, Ammar Ali Hassan, Muhammad Jamal Hishma and supporting guests — and four polls including a viewers' SMS vote {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:27:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:45:30}. He closed by concluding the common ground is authentic to Islam, and 'centrist Islam dispenses with secularism' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:20:00}.
+
+## In 'Al-Wasatiyya' — the patriotism episode
+Al-Suwaidan steered the patriotism-and-nationalism episode with three specialists and three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. In closing he confessed personal pride in his Arabness — 'I understand the Qur'an' — fixing the episode's rule: no conflict without fanaticism {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
+
+## In 'Al-Wasatiyya' — the takfir episode
+Al-Suwaidan steered the programme's most sensitive episode — kufr and takfir — with aqida scholars and du'at, and two polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. He closed affirming: the exceptions do not cancel the rule — Islam does not collide with religious freedom, and the established text is revered and applied with the etiquette of capability {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
+
+## In 'Al-Wasatiyya' — the second takfir episode
+In the takfir sequel al-Suwaidan steered 'is the ruling open or closed' with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — the standout result: 88% confine issuing takfir to an official sharia body, not a single scholar or judge {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## In 'Al-Wasatiyya' — the wala' and bara' episode
+Al-Suwaidan steered the wala'-and-bara'-among-Muslims episode — the concept's most sensitive application — with several polls including disavowal of peace-with-Israel advocates (63%) and the need to regulate the concept (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. The episode distilled its rule: bara' from the act, not the person {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
+
+## In 'Al-Wasatiyya' — the human-rights episode
+Al-Suwaidan steered the Arab-world human-rights episode with three polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — the standouts: 69% judged the covenants worthless and only 9% endorsed international intervention.
+
+## In 'Al-Wasatiyya' — the emigration episode
+Al-Suwaidan steered 'emigration to the West: hope or pain' with polls and brain-drain statistics he presented himself {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. He closed with the cure being an attracting, not repelling, environment — good governance, rule of law, welfare {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## In 'Al-Wasatiyya' — the satellite-channels episode
+Al-Suwaidan evaluated the Arab satellite experiment with statistics he presented (79 variety, 37 government, 52% violence in children's slots) and polls {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## In 'Al-Wasatiyya' — the satellite-fatwa episode
+Al-Suwaidan steered the satellite-fatwa episode with scholars and polls — noting the surprise that only 15% turn to the channels' most-learned versus 42% to the academies {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
+
+## In 'Al-Wasatiyya' — the women's-empowerment episode
+Al-Suwaidan steered the women's-empowerment episode with polls — the standout: only 35% fully endorsed government support while most confined it outside politics {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## In 'Al-Wasatiyya' — the women-and-conventions episode
+Al-Suwaidan steered the Arab-woman-and-international-conventions episode, closing with his rule: take what lifts injustice from women, reject what collides with religion — 'and this is the wasatiyya' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## In 'Al-Wasatiyya' — the female-symbols episode
+Al-Suwaidan steered the episode on the scarcity of female symbols across history — stressing the aim was not to weaken woman but to explore how the barrier is broken {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.
+
+## In 'Al-Wasatiyya' — the resistance-and-terrorism episode
+Al-Suwaidan steered the resistance-versus-terrorism episode, closing with his equation: the right to resist occupation is undisputed, while aiming weapons at civilians is terrorism — 'a cause of God's anger before the West's curse' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.
+
+## In 'Al-Wasatiyya' — the youth-culture-crisis episode
+Al-Suwaidan steered the youth cultural crisis episode with polls and figures — 71% a real crisis, and the 47%/43% split on the satellites-and-internet effect {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.
+
+## In 'Al-Wasatiyya' — the reading-crisis episode
+Al-Suwaidan devoted an episode to the youth reading crisis and its figures — 5% of the world and 1% of its books — and a poll finding busyness the weakest excuse (12%) against bad writing {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}.

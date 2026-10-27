@@ -1,0 +1,37 @@
+id: person/aminu-tambuwal
+class: person
+label: { ar: "أمينو وزيري تامبوال", en: "Aminu Tambuwal", ur: "امینو وزیری تامبوال" }
+names:
+  - { value: "Aminu Waziri Tambuwal", kind: full }
+  - { value: "أمينو وزيري تامبوال", kind: full }
+  - { value: "Aminu Tambuwal", kind: alternate }
+gender: male
+summary:
+  ar: "محام وسياسي نيجيري وُلد في تامبوال سنة 1966. مثّل دائرة تامبوال/كيبي في مجلس النواب (2003–2015) وترأس المجلس (2011–2015)، ثم حكم ولاية صكتو (2015–2023)، ويشغل منذ 2023 مقعد صكتو الجنوبية في مجلس الشيوخ."
+  en: "Nigerian lawyer and politician born in Tambuwal in 1966. He represented Tambuwal/Kebbe in the House of Representatives (2003–2015) and was its Speaker (2011–2015), then governed Sokoto State (2015–2023), and has sat in the Senate for Sokoto South since 2023."
+  ur: "نائجریائی وکیل اور سیاست دان، 1966 میں تامبوال میں پیدا ہوئے۔ وہ ایوانِ نمائندگان میں تامبوال/کیبے کے نمائندے رہے (2003ء–2015ء) اور اس کے اسپیکر بنے (2011ء–2015ء)، پھر سوکوٹو ریاست کے گورنر رہے (2015ء–2023ء) اور 2023 سے سینیٹ میں سوکوٹو جنوبی کی نمائندگی کر رہے ہیں۔"
+roles: [politician, lawyer]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1966-01-10"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's infobox and Wikidata give his birth on 10 January 1966 in Tambuwal town; the Hijri year (1385) is a conversion."
+  sources: [source/wikipedia-aminu-tambuwal-en, source/wikidata-aminu-tambuwal]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article makes no statement of his religion anywhere in its text — the one 'Muslim' in its body describes Muhammadu Buhari, his 2019 opponent — and files him only in the category 'Nigerian Muslims', a filing, which never counts. Wikidata gives a single structured value, Islam, with no school. No source used names a school, so under the two-source rule the value stays unknown, unflagged: the plain configuration, with no reading standing one attestation short."
+    sources: [source/wikipedia-aminu-tambuwal-en, source/wikidata-aminu-tambuwal]
+external_ids: { wikidata: "Q4746479" }
+sources: [source/wikipedia-aminu-tambuwal-en, source/wikidata-aminu-tambuwal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Aminu Tambuwal' (revision 1377780696) and Wikidata item Q4746479 (item revision 2537711186), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (tambuwal, aminu, waziri), by Arabic label (the Egyptian Arabic stub امينو وازيرى تامبوال, which adds nothing) and by the QID route across data/person/ — no earlier record exists. No place entity exists for Tambuwal town, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

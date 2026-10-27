@@ -1,0 +1,48 @@
+id: person/tok-kenali
+class: person
+label: { ar: "محمد يوسف بن أحمد", en: "Tok Kenali", ur: "محمد یوسف بن احمد" }
+names:
+  - { value: "Muhammad Yusuf bin Ahmad", kind: full }
+  - { value: "محمد يوسف بن أحمد", kind: full }
+  - { value: "Tok Kenali", kind: laqab }
+  - { value: "Muhammad Yusof", kind: alternate }
+gender: male
+summary:
+  ar: "عالم من كلنتن (نحو 1868–1933)، اسمه محمد يوسف بن أحمد ويُعرف بتوك كنالي. درس في كوتا بهرو ثم في مكة اثنين وعشرين عامًا، وعاد سنة 1909 فأسس مدرسته القرآنية (بوندوق كنالي) سنة 1911 ودرّس في المسجد المحمدي، وكان أول رئيس تحرير لمجلة «بنغاسوه» وعضوًا في مجلس علماء كلنتن ومجلس الشؤون الإسلامية فيها، فصار أبرز ناشر لنظام البوندوق التعليمي في شبه جزيرة الملايو."
+  en: "Kelantan scholar (c. 1868–1933), born Muhammad Yusuf bin Ahmad and known as Tok Kenali. He studied at Kota Bharu and then for twenty-two years in Mecca, returned in 1909, founded his pondok school in 1911 and taught at the Muhammadi Mosque, was the first editor of the magazine Pengasuh and a member of Kelantan's Council of Ulama and its Islamic Religious Council, becoming the leading spreader of the pondok system of Islamic education in the Malay Peninsula."
+  ur: "کیلنتن کے عالم (تقریباً 1868ء–1933ء)، اصل نام محمد یوسف بن احمد، جو ٹوک کنالی کے نام سے مشہور ہیں۔ انہوں نے کوتا بھارو اور پھر بائیس برس مکہ میں تعلیم حاصل کی، 1909ء میں واپس آئے، 1911ء میں اپنا پونڈوق مدرسہ قائم کیا اور محمدی مسجد میں پڑھایا، رسالے «پنگاسوہ» کے پہلے مدیر اور کیلنتن کی مجلس علماء اور مجلس امور اسلامیہ کے رکن رہے، اور جزیرہ نما ملایہ میں پونڈوق نظام تعلیم کے سب سے بڑے ناشر بنے۔"
+roles: [scholar, teacher, writer]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1868~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Kampung Kenali, Kubang Kerian, Kota Bharu, Kelantan, about 1868: the Malay article gives the year as approximate ('sekitar 1868') and pairs it with 1287H. That pairing is internally inconsistent — 1287 AH corresponds to 1870–71 CE, and the article's own portrait file is named with the years 1870–1933 — so no hijri key is carried here (the pairing fails the validator's consistency check in any case); the year is recorded as approximate and its status debated. Wikidata gives 1868 (year only). Kota Bharu has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali]
+died:
+  edtf: "1933-11-19"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on Sunday 19 November 1933 at Kota Bharu, after an illness in his foot, and was buried in the cemetery now known as Kubur Tok Kenali at Kota Bharu: the Malay article, whose quoted obituary in the magazine Pengasuh (11 December 1933) pairs the death with the year 1352H, recorded as the pairing the article carries. Wikidata agrees on the Gregorian day. Kota Bharu has no place entity, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali]
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-tok-kenali-ms] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Malay article's scholar infobox leaves its school (mazhab) field empty, no text in it names a school for him, and Wikidata gives Islam in general (Q432) only. His pondok formation at Kota Bharu and his twenty-two years of study in Mecca never count, and the article's description of him as a wali keramat is reputation, not a documented affiliation with any order — no text attests discipleship, initiation or membership. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali]
+external_ids: { wikidata: "Q12698227" }
+sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali]
+provenance:
+  layer: own-research
+  source: "Malay Wikipedia 'Tok Kenali' (revision 6835450 of 29 April 2026) and Wikidata item Q12698227 (item revision 2528180085 of 6 August 2026), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the QID was grounded through the Malay article's page properties, the item's only Wikipedia sitelink. Identity: the queue line 'Tok Kenali (1868–1933)' matches Muhammad Yusuf bin Ahmad of Kampung Kenali, Kota Bharu, exactly in biography and years. Existence checks by name fragments (kenali, yusuf, يوسف) across data/person, by QID and by biography found no prior record; the Yusuf-named files on file are other men. One relation is written: lived_in Mecca, which the article attests for his study years 1887–1909. No student_of edge is written: his Meccan teacher Wan Ahmad bin Muhammad Zain and his Kota Bharu teachers have no person records. No born_in, died_in or buried_in edge is written: Kota Bharu and Kubang Kerian have no place entities. No English, Arabic or Urdu Wikipedia article exists, so the English prose rests on the Malay article and the item, and the Arabic and Urdu prose are written from those sources and say so."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

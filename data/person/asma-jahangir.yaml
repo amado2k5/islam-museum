@@ -1,0 +1,49 @@
+id: person/asma-jahangir
+class: person
+label: { ar: "أسماء جهانجير", en: "Asma Jahangir", ur: "عاصمہ جہانگیر" }
+names:
+  - { value: "Asma Jilani Jahangir", kind: full }
+  - { value: "أسماء جهانجير جيلاني", kind: full }
+gender: female
+summary:
+  ar: "أسماء جيلاني جهانجير (27 يناير 1952 – 11 فبراير 2018) محامية وناشطة حقوق إنسان باكستانية، شاركت في تأسيس لجنة حقوق الإنسان في باكستان وترأستها، وأسست خلية AGHS للمساعدة القانونية، وشغلت مناصب مقررة خاصة للأمم المتحدة للإعدامات خارج القضاء ولحرية الدين أو المعتقد ولحقوق الإنسان في إيران، وكانت أول امرأة ترأس نقابة محامي المحكمة العليا في باكستان."
+  en: "Asma Jilani Jahangir (27 January 1952 – 11 February 2018) was a Pakistani human-rights lawyer and activist who co-founded and chaired the Human Rights Commission of Pakistan, founded the AGHS Legal Aid Cell, served as United Nations Special Rapporteur on extrajudicial executions, on freedom of religion or belief, and on human rights in Iran, and was the first woman to preside over Pakistan's Supreme Court Bar Association."
+  ur: "عاصمہ جیلانی جہانگیر (27 جنوری 1952ء – 11 فروری 2018ء) پاکستانی انسانی حقوق کی وکیل اور فعالیت پسند تھیں جنھوں نے پاکستان کے انسانی حقوق کمیشن کی مشترکہ بنیاد رکھی اور اس کی سربراہی کی، اے جی ایچ ایس لیگل ایڈ سیل قائم کیا، اقوام متحدہ کی خصوصی نمائندہ برائے ماورائے عدالت قتل، مذہب یا عقیدے کی آزادی اور ایران میں انسانی حقوق کے مناصب سنبھالے، اور پاکستان کی سپریم کورٹ بار ایسوسی ایشن کی پہلی خاتون صدر ہوئیں۔"
+roles: [lawyer, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1952-01-27"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Lahore; the English, Arabic and Urdu articles and Wikidata all give 27 January 1952. The Hijri year (1371) is derived by tabular conversion."
+  sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-asma-jahangir-ar, source/wikipedia-asma-jahangir-ur, source/wikidata-asma-jahangir]
+died:
+  edtf: "2018-02-11"
+  hijri: "1439"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 11 February 2018, of a brain haemorrhage following a stroke; the English and Arabic articles and Wikidata agree. The Hijri year (1439) is derived by tabular conversion."
+  sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-asma-jahangir-ar, source/wikidata-asma-jahangir]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-asma-jahangir-en, source/wikidata-asma-jahangir] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-asma-jahangir-en, source/wikidata-asma-jahangir] }
+  - { type: sibling_of, target: person/hina-jilani, sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-hina-jilani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names any affiliation or school for her, so none is recorded. The English article makes no statement of her own religion anywhere in its text: the religion content is her professional work — she served as the UN Special Rapporteur on Freedom of Religion or Belief (2004–2010), an office, not an affiliation — and William Dalrymple's description of her life's work as fighting 'for a secular civil society', which describes her professional cause, not a personal unbelief attestation, and does not approach the standard for atheist-or-sceptic. The Arabic stub's infobox carries no religion value and its text is likewise silent; the Urdu article is a translation of the English one; her English-article categories file her by profession and ethnicity (Muhajir, Pashtun), not by faith; and Wikidata carries no religion (P140) value at all. Absence configuration: no school reading exists anywhere."
+    sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-asma-jahangir-ar, source/wikipedia-asma-jahangir-ur, source/wikidata-asma-jahangir]
+external_ids: { wikidata: "Q1522527" }
+sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-asma-jahangir-ar, source/wikipedia-asma-jahangir-ur, source/wikidata-asma-jahangir]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 105 §A of the century-additions queue (queue lines 574–578 group) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Arabic and Urdu articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (jahangir, jilani, جهانجير, جہانگیر) across data/person/ found only the Mughal emperor, the Sufi Jilanis and their kin — no record for her — and her Q1522527 appears in no existing person record. Relations written: born_in and died_in to place/lahore, which exists, and sibling_of to person/hina-jilani, written here because her own article's infobox names Hina Jilani as her sister in its relatives field; the parents (Malik Ghulam Jilani, Begum Sabiha Jilani) and her daughter Munizae Jahangir have no museum records, so no child_of or parent_of edge is written. Her faith is recorded unknown (absence configuration) as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105
+status: { review: published }

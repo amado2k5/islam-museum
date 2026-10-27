@@ -1,0 +1,50 @@
+id: person/shah-ahmad-noorani
+class: person
+label: { ar: "شاه أحمد نوراني", en: "Shah Ahmad Noorani", ur: "شاہ احمد نورانی" }
+names:
+  - { value: "Shah Ahmad Noorani Siddiqi", kind: full }
+  - { value: "شاه أحمد نوراني صديقي", kind: full }
+  - { value: "شاہ احمد نورانی صدیقی", kind: full }
+  - { value: "Ahmad Nurani", kind: alternate }
+  - { value: "Siddiqi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم وسياسي باكستاني (1926–2003) من ميروت، ابن محمد عبد العليم صديقي وقائد الحركة البريلوية في باكستان. ترأس جمعية علماء باكستان، وشارك في تأسيس البعثة الإسلامية العالمية بمكة سنة 1972، وكان الرئيس التأسيسي لتحالف مجلس العمل الموحد سنة 2001، وجاب العالم داعية مع أبيه ثم وحده."
+  en: "Pakistani scholar and politician (1926–2003) of Meerut, the son of Muhammad Abdul Aleem Siddiqi and the leader of the Barelvi movement in Pakistan. He presided over Jamiat Ulema-e-Pakistan, co-founded the World Islamic Mission at Mecca in 1972, and was the founding president of the Muttahida Majlis-e-Amal alliance in 2001, having travelled the world on preaching tours with his father and then alone."
+  ur: "پاکستانی عالم اور سیاستدان (1926ء–2003ء) جن کا تعلق میرٹھ سے تھا، محمد عبد العلیم صدیقی کے صاحبزادے اور پاکستان میں بریلوی تحریک کے قائد۔ جمعیۃ علماء پاکستان کے صدر رہے، 1972ء میں مکہ میں عالمی اسلامی مشن کی تاسیس میں شریک ہوئے اور 2001ء میں متحدہ مجلسِ عمل کے بانی صدر بنے، اور اپنے والد کے ساتھ اور پھر تنہا دنیا بھر کے دعوتی دورے کیے۔"
+roles: [scholar, preacher, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1926-04-01"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "His birth date is carried in three readings. The Urdu article and Wikidata give 1 April 1926, which the record follows. The English article's lead and infobox give 1 October 1926 — the Arabic article, a condensed translation of the English, follows it — while the English article's own early-life section gives 31 March 1926, paired there with 17 Ramadan 1344 AH. He was born at Meerut; Meerut has no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani]
+died:
+  edtf: "2003-12-11"
+  hijri: "1424"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack at Islamabad on 11 December 2003 — the Urdu article pairs the date with 17 Shawwal 1424 AH — and was buried at the Abdullah Shah Ghazi mausoleum in Karachi, as all three articles and Wikidata agree on the day. Neither Islamabad nor Karachi has a place entity, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: the lane's bar of two independent texts naming a school personally is not met, and the readings are preserved here. The English text states that his writings were rooted in the Sunni-Hanafi (Maturidi) tradition, defending traditional Barelvi positions, and describes one of his works as upholding what it calls the Sunni belief; but the Arabic article is a condensed translation of the English and is the same text family, so the Sunni-Hanafi naming rests on one text family. The Urdu text, independently written, names no school in its prose: it records his leadership of the Barelvi movement's organisations — movement leadership is office, not attestation of his own school — and gives his spiritual lineage (shajara-e-tariqat) as running to Ahmed Raza Khan Qadri, a lineage statement that names no bay'ah of his own and appears in this one text; its Sunni connection is a category filing, which never counts. Wikidata's single religion value is Islam only. The Sunni-Hanafi reading and the Qadiri-lineage reading each stand one independent text short."
+    sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani]
+relations:
+  - { type: child_of, target: person/abdul-aleem-siddiqui, sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar] }
+external_ids: { wikidata: "Q2275345" }
+sources: [source/wikipedia-shah-ahmad-noorani-en, source/wikipedia-shah-ahmad-noorani-ur, source/wikipedia-shah-ahmad-noorani-ar, source/wikidata-shah-ahmad-noorani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmad Nurani' (revision 1378876181), Urdu Wikipedia 'شاہ احمد نورانی' (revision 9256268) and Arabic Wikipedia 'شاه أحمد نوراني' (revision 75568650), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q2275345 (item revision 2524093875). The Arabic article is a condensed translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (noorani, nurani, نوراني), by Arabic label across data/person, by biography and by QID found no prior record for this man; the only label hit is his father's record, which names him in its summary. The child_of edge to person/abdul-aleem-siddiqui is written here, in the son's record: Noorani is Siddiqui's son, and the father's record deliberately carries no parent_of edge and is not edited. No group entity exists for Jamiat Ulema-e-Pakistan, the World Islamic Mission or the Muttahida Majlis-e-Amal, so his presidencies and co-founding are stated in prose only; Meerut, Islamabad and Karachi have no place entities. The lane queue gives 1926–2003, which the articles confirm as years while conflicting on the birth day, as the born note records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

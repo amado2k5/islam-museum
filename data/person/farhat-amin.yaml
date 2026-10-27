@@ -1,0 +1,37 @@
+id: person/farhat-amin
+class: person
+label: { ar: "فرحات أمين", en: "Farhat Amin", ur: "فرحت امین" }
+names:
+  - { value: "Farhat Amin", kind: full }
+  - { value: "فرحات أمين", kind: full }
+gender: female
+summary:
+  ar: "مؤلفة ومتحدثة بريطانية ومقدمة بودكاست «مسلمة ذكية»، نشأت في لندن وكانت معلمة لغة إنجليزية في مدرسة ثانوية قبل أن تتفرغ للكتابة والبودكاست سنة 2015؛ ألفت كتبًا في الحجاب والزواج وتربية الأبناء منها «مسلمة عزباء ذكية» و«ارفعوا أيديكم عن حجابنا»، وتوفيت سنة 2025 بعد أكثر من ثلاث سنوات مع السرطان."
+  en: "British author, speaker and host of the Smart Muslima podcast. She grew up in London and was a secondary-school English teacher before leaving teaching in 2015 to write and podcast full-time. Her books on hijab, marriage and parenting include Smart Single Muslimah and Hands Off Our Hijab. She died in 2025 after more than three years living with cancer."
+  ur: "برطانوی مصنفہ، مقررہ اور «سمارٹ مسلمہ» پوڈکاسٹ کی میزبان۔ وہ لندن میں پلی بڑھیں اور ثانوی سکول میں انگریزی کی معلمہ تھیں؛ 2015 میں تدریس چھوڑ کر تصنیف و پوڈکاسٹ کو کل وقتی اپنایا۔ ان کی کتابوں میں «سمارٹ سنگل مسلمہ» اور «ہینڈز آف آور حجاب» شامل ہیں۔ وہ 2025 میں تین سال سے زائد کینسر کے ساتھ زندگی گزارنے کے بعد وفات پا گئیں۔"
+roles: [writer, teacher]
+wings: [people]
+regions: [andalus-europe]
+died:
+  edtf: "2025-04-30"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Islam21c's obituary was published on 30 April 2025 carrying her husband Muhammad Jalal's announcement of her death after more than three years living with cancer; podcast listings of her funeral reminder describe her as having passed away on the Wednesday, and 30 April 2025 was a Wednesday. The Hijri year 1446 is the tabular equivalent (2 Dhu al-Qa'dah 1446)."
+  sources: [source/islam21c-farhat-amin-obituary]
+relations:
+  - { type: spouse_of, target: person/muhammad-jalal, sources: [source/islam21c-farhat-amin-obituary] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. Islam21c's obituary and her own site describe her themes — defence of hijab, marriage as an alternative to feminism, advice to women and parents — which are positions and topics, not a school attestation, and no second source names a school for her. Not recorded as sunni or any school."
+    sources: [source/islam21c-farhat-amin-obituary, source/smartmuslima-farhat-amin-about]
+sources: [source/islam21c-farhat-amin-obituary, source/smartmuslima-farhat-amin-about, source/googleplay-farhat-amin-books]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 314 ('Farhat Amin (A Muslim Mindset)') resolved under the no-skip rule to Farhat Amin herself: the author and host of Smart Muslima, identified by Islam21c's obituary of 30 April 2025, her own site's about page and her Google Play Books author page, all checked 26 October 2026. The row's parenthetical 'A Muslim Mindset' could not be verified as the name of any channel of hers in any source consulted — her documented platforms are the Smart Muslima podcast and site — and this is recorded as a brief correction in the batch report. She is the wife of Muhammad Jalal (person/muhammad-jalal); the spouse edge is written once, here in her record. No Wikipedia article or Wikidata item was found for her (the Wikidata API returned 403 in this session, so the QID sweep ran via web search and full-repo fragment sweeps), and no source publishes a birth date, so no born block is written and no external_ids are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

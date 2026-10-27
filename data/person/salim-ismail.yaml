@@ -1,0 +1,36 @@
+id: person/salim-ismail
+class: person
+label: { ar: "سليم إسماعيل", en: "Salim Ismail", ur: "سلیم اسماعیل" }
+names:
+  - { value: "Salim Ismail", kind: full }
+  - { value: "سليم إسماعيل", kind: full }
+gender: male
+summary:
+  ar: "سليم إسماعيل (وُلد 17 مايو 1965 في حيدر آباد بالهند) رائد أعمال تكنولوجي ومؤلف كندي من أصل هندي، كان المدير التنفيذي المؤسس لجامعة التفرد (Singularity University)، وهو المؤلف الرئيسي لكتاب «المنظمات الأسّية» (2014)، وشارك في تأسيس شركات بب صب كونسبتس وكونفاب وأنغسترو، وأسس منصة إكس أو ووركس/أوبن إكس أو."
+  en: "Salim Ismail (born 17 May 1965 in Hyderabad, India) is an Indian-born Canadian technology entrepreneur and author who was the founding executive director of Singularity University, is the lead author of Exponential Organizations (2014), co-founded PubSub Concepts, Confabb and Ångströ, and founded ExO Works/OpenExO."
+  ur: "سلیم اسماعیل (پیدائش 17 مئی 1965ء، حیدر آباد، بھارت) بھارتی نژاد کینیڈی ٹیکنالوجی کارجو اور مصنف ہیں جو سنگولیریٹی یونیورسٹی کے بانی ایگزیکٹو ڈائریکٹر رہے، کتاب «ایکسپونینشل آرگنائزیشنز» (2014ء) کے مرکزی مصنف ہیں، پب سب کانسیپٹس، کونفاب اور آنگسٹرو کے شریک بانی ہیں اور ایکس او ورکس/اوپن ایکس او کے بانی ہیں۔"
+roles: [engineer, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1965-05-17"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Hyderabad, India, on 17 May 1965 — the date and place in the English article's text and Wikidata's value; the Urdu stub files him under 1965 births. The Hijri year (1385) is derived by tabular conversion. No born_in relation is written: Hyderabad has no museum place entity."
+  sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names any religious affiliation for him: the English article and the Urdu stub are silent on religion and Wikidata carries no religion value. This is an absence configuration — nothing attests an affiliation, and nothing attests a departure from one either. His Indian origin and his name are not attestations, and no segment is recorded."
+    sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
+external_ids: { wikidata: "Q18353687" }
+sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 103 §A of the century-additions queue (queue line 564) from the English and Urdu Wikipedia articles (the only two editions) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q18353687) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him (the many other Ismail records are different people), and Q18353687 appears in no existing person record. Identity grounded from the sources against the queue's description: the Singularity University co-founder born in Hyderabad in 1965, raised in Toronto. No relations are written: founder_of is refused because Singularity University, PubSub Concepts, Confabb, Ångströ and ExO Works have no museum group entities, and born_in is refused because Hyderabad has no place entity; the foundings are stated in the summary and prose. Region is south-asia by his Hyderabad birth and origin. No Arabic edition exists; the Arabic prose is written from the English sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-103
+status: { review: published }

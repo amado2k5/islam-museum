@@ -1,0 +1,37 @@
+id: person/isa-ali-pantami
+class: person
+label: { ar: "عيسى علي بنتامي", en: "Isa Ali Pantami", ur: "عیسیٰ علی پنتامی" }
+names:
+  - { value: "Isa Ali Ibrahim", kind: full }
+  - { value: "عيسى علي إبراهيم", kind: full }
+  - { value: "Isa Ali Pantami", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وسياسي نيجيري وُلد في غومبي سنة 1972. درّس في جامعة أبوبكر تافاوا باليوا وفي الجامعة الإسلامية بالمدينة المنورة، وأدار وكالة تطوير تكنولوجيا المعلومات الوطنية (2016–2019)، ثم صار وزيرا للاتصالات والاقتصاد الرقمي (2019–2023). عُرف قبل ذلك واعظا وإماما، وأثارت خطب قديمة له جدلا واسعا سنة 2021 فتنصّل منها علنا."
+  en: "Nigerian scholar and politician born in Gombe in 1972. He lectured at Abubakar Tafawa Balewa University and at the Islamic University of Madinah, directed the National Information Technology Development Agency (2016–2019), and served as Minister of Communications and Digital Economy (2019–2023). He was known earlier as a preacher and imam; sermons from his earlier years resurfaced in 2021 and caused a national controversy, after which he publicly recanted those views."
+  ur: "نائجریائی عالم اور سیاست دان، 1972 میں گومبے میں پیدا ہوئے۔ انھوں نے ابوبکر تافاوا بالیوا یونیورسٹی اور جامعہ اسلامیہ مدینہ منورہ میں تدریس کی، قومی ادارہ برائے ترقیِ اطلاعاتی ٹیکنالوجی کے ڈائریکٹر جنرل رہے (2016ء–2019ء)، پھر وزیرِ مواصلات و ڈیجیٹل اکانومی بنے (2019ء–2023ء)۔ اس سے پہلے وہ مبلغ اور امام کے طور پر معروف تھے؛ 2021 میں ان کے پرانے خطبات پر تنازع کھڑا ہوا جس کے بعد انھوں نے ان خیالات سے علانیہ رجوع کیا۔"
+roles: [scholar, politician, preacher, writer]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1972-10-20"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Hausa article gives his birth on 20 October 1972 in the Pantami ward of Gombe city, citing the Federal Ministry biography and BBC Hausa, and Wikidata gives the same day; the English article leaves its birth-date field empty and is filed under 'Year of birth missing (living people)'. The date falls in Ramadan 1392 AH; the Hijri year is a conversion."
+  sources: [source/wikipedia-isa-ali-pantami-ha, source/wikidata-isa-ali-pantami, source/wikipedia-isa-ali-pantami-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the movement reading stands without a school attestation, for the founder's word. He is briefed to this lane as an Izala-associated scholar, and the configuration is the movement-without-school one of Dedew, El-Kettani and Daurawa: the sources used here situate his preaching personally — he was chief imam of the Abubakar Tafawa Balewa University mosque, his mid-2000s sermons expressed sympathy for the Taliban and al-Qaeda, and he publicly recanted those positions in April 2021 — but no source used names a school for him: the English article never calls him Salafi, never names Izala as his affiliation and names no madhhab; the Hausa article calls him a leading scholar of the Sunnah, a description of orientation, not a school; the Urdu stub, a translation of the English article, names none; Wikidata records Islam only. There is no salafi value in the enum and no madhhab is attested, so the value stays unknown with the movement reading preserved here."
+    sources: [source/wikipedia-isa-ali-pantami-en, source/wikipedia-isa-ali-pantami-ha, source/wikipedia-isa-ali-pantami-ur, source/wikidata-isa-ali-pantami]
+external_ids: { wikidata: "Q42916213" }
+sources: [source/wikipedia-isa-ali-pantami-en, source/wikipedia-isa-ali-pantami-ha, source/wikipedia-isa-ali-pantami-ur, source/wikidata-isa-ali-pantami]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Isa Ali Pantami' (revision 1379762874), Hausa Wikipedia 'Isah Ali Ibrahim Pantami' (revision 641766), Urdu Wikipedia 'عیسیٰ علی پنتامی' (revision 10156066) and Wikidata item Q42916213 (item revision 2556564115), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (pantami, isa-ali, isah), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No place entity exists for Gombe and no group record exists for the Izala Society, and his teachers have no person records, so no born_in, member_of or student_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,40 @@
+id: person/mir-masjidi-khan
+class: person
+label:
+  ar: "مير مسجدي خان"
+  en: "Mir Masjidi Khan"
+  ur: "میر مسجدی خان"
+summary:
+  ar: "زعيم مقاومة أفغاني من سهل شمالي شمال كابل (ت 1841)، من أسرة طاجيكية سيدية عُرفت بالعلم الشرعي والتقوى، أبوه صاحبزاده إسحاق جان خان. قاد مقاومة أهل كوهستان ضد تنصيب البريطانيين شجاع شاه الدراني في الحرب الإنجليزية الأفغانية الأولى، وحصّن وادي نجراب وأباد حملة أُرسلت إلى چاريكار وآوى الأمير المعزول دوست محمد خان، وظل شوكة في جنب حامية كابل حتى مات مسموما على الأرجح سنة 1841. ويُذكَر في أفغانستان غازيا وشهيدا، وباسمه أحد أعلى أوسمة الدولة المدنية."
+  en: "Afghan resistance leader of the Shamali Plain north of Kabul (died 1841), of a Tajik Sayyid family respected for Islamic learning and piety, his father Sahibzada Ishaq Jan Khan. He led the Kohistan resistance to the British installation of Shuja Shah Durrani in the First Anglo-Afghan War, fortified the Nijrab valley, destroyed an expedition sent against Charikar and sheltered the deposed Emir Dost Mohammad Khan, and remained a thorn in the side of the Kabul garrison until his death, probably by poisoning, in 1841. He is remembered in Afghanistan as a Ghazi and a martyr, and one of the state's highest civil awards bears his name."
+  ur: "کابل کے شمال میں شاملی میدان کے افغان مزاحمتی رہنما (وفات 1841ء)، ایک تاجک سید خاندان سے جو اسلامی علم اور تقویٰ کے لیے مشہور تھا، ان کے والد صاحبزادہ اسحاق جان خان تھے۔ انہوں نے پہلی اینگلو افغان جنگ میں انگریزوں کے شجاع شاہ درانی کو تخت پر بٹھانے کے خلاف کوہستان کی مزاحمت کی قیادت کی، نجراب کی وادی کو مضبوط کیا، چاریکار پر بھیجی گئی مہم کو تباہ کیا اور معزول امیر دوست محمد خان کو پناہ دی، اور 1841ء میں غالباً زہر سے وفات تک کابل کی گیریژن کے لیے دردِ سر بنے رہے۔ افغانستان میں وہ غازی اور شہید کے طور پر یاد کیے جاتے ہیں، اور ریاست کے اعلیٰ ترین سول اعزازات میں سے ایک ان کے نام پر ہے۔"
+names:
+  - { value: "Mir Masjidi Khan", kind: full }
+  - { value: "مير مسجدي خان", kind: full }
+  - { value: "Sahibzada Mir Masjidi Khan", kind: alternate }
+gender: male
+died:
+  edtf: "1841"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1841; the English article relates that in early 1841 he fell suddenly ill and died within a day or two, probably poisoned in a plot it attributes to Macnaghten's agent Mohan Lal. No source gives a day or month, and no article gives a place of death that a place entity covers, so no died_in relation is written. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-mir-masjidi-khan-en]
+roles: [activist]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no article text, infobox or structured value names a school for him. The English article gives his family's reputation for Islamic learning and piety, his own study of the Quran and Sharia, and his standing among the religious and spiritual leaders of the revolt — family background, formation and public role, none of which attests a school. One scholarly text does go further: William Dalrymple's Return of a King (cited in the article) describes Mir Masjidi and his brother Mir Haji as hereditary Naqshbandi sheikhs of Kohistan. That is a single text, and a hereditary sheikhdom is order headship by descent, which by itself does not attest a personal affiliation under the lane's headship line. Under the two-source rule and the doubt rule the value therefore stays unknown, with the Dalrymple attestation preserved here."
+    sources: [source/wikipedia-mir-masjidi-khan-en]
+sources:
+  - source/wikipedia-mir-masjidi-khan-en
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Mir Masjidi Khan (no Arabic or Urdu article exists; the Persian article is a rendering of the English one), read on 27 October 2026. The fetch route available to this writer exposed no revision id or Wikidata identifier, so the source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps and by biographical match. NO BORN BLOCK is written: no source read gives him a birth date — the article gives only his death in 1841 — and the queue's birth year (1800) is attested nowhere; the absence is stated here under the standing no-born-block precedent. His faith is unknown FLAGGED: no witness names a school, and the one scholarly description of him as a hereditary Naqshbandi sheikh (Dalrymple) is a single text attesting order headship by descent. The roles value [activist] is a judgment call on the wave 114 Malalai precedent for a resistance leader, general being the alternative; it is flagged in the writer's report."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115

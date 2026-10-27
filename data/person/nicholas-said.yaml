@@ -1,0 +1,52 @@
+class: person
+id: person/nicholas-said
+label:
+  ar: "نيكولاس سعيد"
+  en: "Nicholas Said"
+  ur: "نکولس سعید"
+summary:
+  ar: "رحّالة وكاتب كانوري وُلد باسم محمد علي بن سعيد في كوكاوا بإمبراطورية بورنو نحو سنة 1836، وهو ابن الجنرال باركا غانا. استُعبد صبيا ونُقل عبر الصحراء إلى طرابلس، ثم خدم أسيادا عثمانيين والأمير الروسي منشيكوف، واعتنق المسيحية الأرثوذكسية بعماد في ريغا سنة 1855 واتخذ اسم نيكولاس. أتقن لغات كثيرة وجاب خمس قارات، ثم هاجر إلى الولايات المتحدة وخدم رقيبا في فوج ماساتشوستس الخامس والخمسين أثناء الحرب الأهلية، وكتب سيرته الذاتية."
+  en: "A Kanuri traveller and author born Mohammed Ali ben Said in Kukawa in the Bornu Empire about 1836, the son of the general Barca Gana. Enslaved as a boy and carried across the Sahara to Tripoli, he served Ottoman masters and then the Russian prince Menshikov, was baptised an Orthodox Christian at Riga in 1855 and took the name Nicholas. He mastered many languages and travelled on five continents, then emigrated to the United States, served as a sergeant in the 55th Massachusetts Infantry during the Civil War, and wrote his autobiography."
+  ur: "کانوری سیاح اور مصنف، جو محمد علی بن سعید کے نام سے تقریباً 1836 میں سلطنتِ بورنو کے کوکاوا میں پیدا ہوئے اور جنرل بارکا گانا کے بیٹے تھے۔ لڑکپن میں غلام بنا کر صحارا پار طرابلس لے جائے گئے، عثمانی آقاؤں اور پھر روسی شہزادے منشیکوف کی خدمت کی، 1855 میں ریگا میں بپتسمہ لے کر آرتھوڈوکس مسیحی ہوئے اور نکولس نام اختیار کیا۔ انہوں نے کئی زبانیں سیکھیں، پانچ براعظموں کا سفر کیا، پھر امریکا ہجرت کی، خانہ جنگی میں 55ویں میساچوسٹس رجمنٹ میں سارجنٹ رہے اور اپنی خودنوشت لکھی۔"
+names:
+  - { value: "Nicholas Said", kind: full }
+  - { value: "محمد علي بن سعيد", kind: full }
+  - { value: "Mohammed Ali ben Said", kind: alternate }
+  - { value: "Mohammed Ali Sa'id", kind: alternate }
+gender: male
+wings: [people]
+roles: [traveler, writer]
+regions: [west-africa-sahel, andalus-europe, americas-oceania]
+born:
+  edtf: "1836~"
+  hijri: "1252"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English article gives his birth as about 1836 in Kukawa in the Bornu Empire; the French article gives 1834 or 1836; Wikidata gives 1836, with place of birth Kukawa. The museum holds no place entity for Kukawa, so no born_in edge is written."
+  sources: [source/wikipedia-nicholas-said-en, source/wikipedia-nicholas-said-fr, source/wikidata-nicholas-said]
+died:
+  edtf: "1882"
+  hijri: "1299"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Both articles give 1882 and Brownsville, Tennessee, but the English text says only that one account has him dying there, and the French article marks both the year and the place with a question mark; Wikidata gives 1882 and Brownsville. The museum holds no place entity for Brownsville, so no died_in edge is written."
+  sources: [source/wikipedia-nicholas-said-en, source/wikipedia-nicholas-said-fr, source/wikidata-nicholas-said]
+faith:
+  - value: christian
+    basis: documented
+    note: "Born and raised a Muslim in Bornu, Said performed the pilgrimage to Mecca while enslaved to an Ottoman master, and the English article, drawing on his autobiography, records that in his memoirs he reflected on his conversion from Islam to Christianity in Riga. The French article independently records the same turning point in its text: baptised at Riga on 31 October 1855, he took the name Nicholas and became an Orthodox Christian, a change of name and identity he kept for the rest of his life, through his Russian service, his emigration to America and his Civil War years. Two independent texts therefore attest his current affiliation as Christian, and the museum records the current affiliation, with the full itinerary — Bornu Muslim childhood, the Mecca pilgrimage, the 1855 Riga baptism — preserved here and in the prose. No source read attests a return to Islam, and no source names a Muslim school for him."
+    sources: [source/wikipedia-nicholas-said-en, source/wikipedia-nicholas-said-fr]
+relations: []
+sources: [source/wikipedia-nicholas-said-en, source/wikipedia-nicholas-said-fr, source/wikidata-nicholas-said]
+external_ids:
+  wikidata: "Q62088432"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nicholas Said' (revision 1380111445 of 13 October 2026), French Wikipedia article 'Nicholas Saïd' (revision 240666257 of 24 October 2026) and Wikidata item Q62088432 (item revision 2526093135 of 2 August 2026), each fetched by revision id and asserted, and read in full on 26 October 2026. The museum holds no place entities for Kukawa or Brownsville and no record for his father Barca Gana, so no relations are written and his places and family are carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-63

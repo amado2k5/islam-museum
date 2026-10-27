@@ -1,0 +1,45 @@
+id: person/samia-suluhu-hassan
+class: person
+label:
+  ar: "سامية صلوحي حسن"
+  en: "Samia Suluhu Hassan"
+  ur: "سامیہ صلوحی حسن"
+names:
+  - { value: "Samia Suluhu Hassan", kind: full }
+  - { value: "سامية صلوحي حسن", kind: full }
+  - { value: "سامية حسن", kind: alternate }
+  - { value: "سامیہ حسن", kind: alternate }
+gender: female
+summary:
+  ar: "سياسية تنزانية (ولدت 1960) من زنجبار، وهي سادس رئيس لتنزانيا منذ 19 مارس 2021 وأول امرأة تشغل المنصب. شغلت وزارات في حكومة زنجبار بين 2000 و2010، وكانت عضوة في البرلمان ووزيرة دولة لشؤون الاتحاد، ثم نائبة الرئيس جون ماغوفولي من 2015 حتى وفاته فخلفته في الرئاسة وأعيد انتخابها سنة 2025 في انتخابات متنازع عليها. تنسبها تصنيفات المقالات إلى المسلمين التنزانيين دون أن يسمي نصٌّ مدرستها."
+  en: "Tanzanian politician (born 1960) from Zanzibar who has been the sixth president of Tanzania since 19 March 2021 and the first woman to hold the office. She held ministries in the Zanzibar government between 2000 and 2010, served as a member of parliament and minister of state for union affairs, then as vice-president under John Magufuli from 2015 until his death, when she succeeded him; she was re-elected in 2025 in a contested election. The articles' categories file her among Tanzanian Muslims, but no text names a school for her."
+  ur: "تنزانیہ کی سیاست دان (پیدائش 1960ء) جن کا تعلق زنجبار سے ہے؛ وہ 19 مارچ 2021ء سے تنزانیہ کی چھٹی صدر اور اس عہدے پر فائز ہونے والی پہلی خاتون ہیں۔ وہ 2000ء سے 2010ء تک زنجبار حکومت میں وزیر رہیں، رکنِ پارلیمان اور وزیرِ مملکت برائے یونین امور رہیں، پھر 2015ء سے جان ماگوفولی کی نائب صدر رہیں اور ان کی وفات پر صدر بنیں؛ 2025ء میں متنازع انتخابات میں دوبارہ منتخب ہوئیں۔ مضامین کے زمرے انہیں تنزانیہ کے مسلمانوں میں شمار کرتے ہیں، مگر کوئی متن ان کا مذہبی مکتب فکر بیان نہیں کرتا۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1960-01-27"
+  hijri: "1379"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give her birth on 27 January 1960 at Makunduchi, in what was then the Sultanate of Zanzibar. The Arabic article's categories also file her under births of 1961 — a category filing only, against the day-precision date in the texts and Wikidata, and not followed. Makunduchi has no place entity in the museum; the born_in relation is written to Zanzibar, the island polity named in the sources. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-samia-suluhu-hassan-en, source/wikidata-samia-suluhu-hassan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for her, and no article text states her religion. Wikidata gives her religion (P140) as Islam, with no branch — a single structured value. The English article's text makes no religion statement; its categories file her under Tanzanian Muslims, Muslim socialists and 21st-century Muslims, and the Arabic and Urdu articles carry equivalent filings. Category filings never attest, so the value stays unknown."
+    sources: [source/wikidata-samia-suluhu-hassan, source/wikipedia-samia-suluhu-hassan-en, source/wikipedia-samia-suluhu-hassan-ar, source/wikipedia-samia-suluhu-hassan-ur]
+relations:
+  - type: born_in
+    target: place/zanzibar
+    sources: [source/wikipedia-samia-suluhu-hassan-en, source/wikidata-samia-suluhu-hassan]
+external_ids: { wikidata: "Q16193885" }
+sources: [source/wikipedia-samia-suluhu-hassan-en, source/wikipedia-samia-suluhu-hassan-ar, source/wikipedia-samia-suluhu-hassan-ur, source/wikidata-samia-suluhu-hassan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1379711509 of 11 October 2026, Arabic revision 76474012 of 8 September 2026 and Urdu revision 10976044 of 16 June 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q16193885 revision 2558232899 of 18 October 2026, read from the Wikidata API. She was verified absent from the museum in both directions: no person file matches her name in any script and no museum record carries Q16193885. Relations written: born at Makunduchi in Zanzibar (place record exists; Makunduchi itself has none). No succession edge is written: she succeeded John Magufuli as president on his death, and Magufuli has no museum record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-81
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

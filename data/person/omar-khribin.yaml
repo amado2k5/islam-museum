@@ -1,0 +1,33 @@
+id: person/omar-khribin
+class: person
+label: { ar: "عمر خربين", en: "Omar Khribin", ur: "عمر خربین" }
+names:
+  - { value: "Omar Maher Khribin", kind: full }
+  - { value: "عمر ماهر خربين", kind: full }
+  - { value: "عمر ماہر خربین", kind: full }
+  - { value: "Omar Kharbin", kind: alternate }
+  - { value: "Omar Kh'rbin", kind: alternate }
+gender: male
+summary:
+  ar: "مهاجم سوري وُلد في دمشق سنة 1994. كان أول سوري ينال جائزة لاعب العام في آسيا (2017)، وفاز بدوري أبطال آسيا 2019 مع الهلال، وخاض مع سوريا 70 مباراة دولية مسجلاً 31 هدفاً. يلعب حالياً للوحدة الإماراتي."
+  en: "Syrian forward born in Damascus in 1994. He was the first Syrian to win the Asian Footballer of the Year award (2017), won the 2019 AFC Champions League with Al-Hilal, and has won 70 caps for Syria, scoring 31 goals. He plays for Al-Wahda of Abu Dhabi."
+  ur: "شامی فارورڈ، 1994 میں دمشق میں پیدا ہوئے۔ وہ ایشین فٹبالر آف دی ایئر (2017) جیتنے والے پہلے شامی تھے، الہلال کے ساتھ 2019 کی اے ایف سی چیمپئنز لیگ جیتی، اور شام کے لیے 70 میچوں میں 31 گول کیے۔ وہ ابوظہبی کے الوحدہ کے لیے کھیلتے ہیں۔"
+roles: [athlete]
+wings: [people, living]
+regions: [levant-iraq]
+born: { edtf: "1994-01-15", hijri: "1414", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 15 January 1994 in Damascus, Syria; the English article's infobox cites the Global Sports Archive for the date and place. The Arabic article's categories pair his birth year with 1414 AH.", sources: [source/wikipedia-omar-khribin-en, source/wikipedia-omar-khribin-ar, source/wikidata-omar-khribin] }
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-omar-khribin-en, source/wikipedia-omar-khribin-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: neither article makes any statement of his religion in its text or categories, and Wikidata has no religion value for him at all — a complete absence, not a near miss."
+    sources: [source/wikipedia-omar-khribin-en, source/wikipedia-omar-khribin-ar, source/wikidata-omar-khribin]
+external_ids: { wikidata: Q16236257 }
+sources: [source/wikipedia-omar-khribin-en, source/wikipedia-omar-khribin-ar, source/wikidata-omar-khribin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1360150430 of 19 June 2026), Arabic Wikipedia (revision 76163966 of 9 August 2026) and Wikidata Q16236257, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Omar Khribin existed in data/person/ (name-fragment sweep: khribin/kharbin hits are none; omar- files are all other people), and Q16236257 was searched across data/person/ and data/source/ with no hit; this is a new build. The QID was pinned by biography — Syrian footballer, born 15 January 1994 in Damascus — against the other footballers named Omar built in this group. RELATION DIRECTION: born_in points from Omar Khribin to the place he was born in — he was born in Damascus (place/damascus), and the edge is written once, here in his own record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

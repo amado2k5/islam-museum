@@ -1,0 +1,52 @@
+id: person/hafeez-jullundhri
+class: person
+label: { ar: "حفيظ جالندهري", en: "Hafeez Jullundhri", ur: "حفیظ جالندھری" }
+names:
+  - { value: "Abul Asar Hafeez Jalandhari", kind: full }
+  - { value: "حفيظ جالندهري", kind: full }
+  - { value: "حفیظ جالندھری", kind: full }
+  - { value: "Muhammad Abdul Hafeez", kind: alternate }
+  - { value: "Abu Al-Asar", kind: pen }
+gender: male
+summary:
+  ar: "شاعر باكستاني (1900–1982) كتب كلمات النشيد الوطني الباكستاني (القومي ترانه) ونشيد آزاد كشمير، وصاحب «شاهنامة الإسلام» في أربعة مجلدات. وُلد في جالاندهار وهاجر إلى لاهور سنة 1947، وشغل مناصب ثقافية وإعلامية في الدولة الباكستانية الناشئة، ونال وسامَي فخر الأداء وهلال الامتياز."
+  en: "Pakistani poet (1900–1982) who wrote the lyrics of Pakistan's national anthem (the Qaumi Tarana) and of the anthem of Azad Kashmir, and authored the four-volume Shahnama-e-Islam. Born in Jalandhar, he migrated to Lahore in 1947, held cultural and publicity posts in the new Pakistani state, and received the Pride of Performance and Hilal-i-Imtiaz awards."
+  ur: "پاکستانی شاعر (1900ء–1982ء) جنھوں نے پاکستان کے قومی ترانے اور آزاد کشمیر کے ترانے کے بول لکھے اور چار جلدوں پر مشتمل «شاہنامۂ اسلام» تصنیف کی۔ وہ جالندھر میں پیدا ہوئے، 1947ء میں لاہور آ گئے، نئی پاکستانی ریاست میں ثقافتی و تشہیری مناصب پر فائز رہے اور تمغۂ حسنِ کارکردگی اور ہلالِ امتیاز سے نوازے گئے۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1900-01-14"
+  hijri: "1317"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 14 January 1900 at Jalandhar in the Punjab, as all three articles and Wikidata agree. The Hijri year is from the Arabic article's birth category (مواليد 1317 هـ) and agrees with a conversion of the followed date. Jalandhar has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur, source/wikidata-hafeez-jullundhri]
+died:
+  edtf: "1982-12-21"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 21 December 1982, as all three articles and Wikidata agree. The Hijri year is from the Arabic article's lead and death category (1403 هـ) and agrees with a conversion of the followed date. He was first buried in Model Town, Lahore, and later moved to a tomb built by the Government of Pakistan beside the Minar-e-Pakistan in Lahore, as the English and Urdu articles record; the tomb has no building entity, so the burial edge is written to place/lahore."
+  sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur, source/wikidata-hafeez-jullundhri]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ur] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur] }
+  - { type: buried_in, target: place/lahore, sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a religious school for him. The English article says he was born into a Punjabi Muslim family — family background, which never counts — and, quoting a PoemHunter profile, that he was considered a devout Muslim; his father was a hafiz, again family background. The Arabic article's infobox religion field is empty, the Urdu article names no affiliation, and Wikidata carries no religion value at all. His religious poetry, including the Shahnama-e-Islam, is his work, not a school attestation."
+    sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur, source/wikidata-hafeez-jullundhri]
+external_ids: { wikidata: "Q1593557" }
+sources: [source/wikipedia-hafeez-jullundhri-en, source/wikipedia-hafeez-jullundhri-ar, source/wikipedia-hafeez-jullundhri-ur, source/wikidata-hafeez-jullundhri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hafeez Jalandhari' (revision 1371570605), Arabic Wikipedia 'حفيظ جالندهري' (revision 75730654) and Urdu Wikipedia 'حفیظ جالندھری' (revision 10284430), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q1593557 (item revision 2561060083), whose recorded identifiers were confirmed identical on two separate reads. Existence checks by name fragments (jullundhri, jalandhari, جالندهري, جالندھری), by Arabic label across data/person, by biography and by QID found no prior record for him. Relations written: lived_in, died_in and buried_in to place/lahore, which exists; born_in is skipped because Jalandhar has no place entity. The lane queue gives 'Hafeez Jullundhri (1900–1982)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-83
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

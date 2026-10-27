@@ -1,0 +1,38 @@
+id: person/abdullah-abdullah
+class: person
+label: { ar: "عبد الله عبد الله", en: "Abdullah Abdullah", ur: "عبد اللہ عبد اللہ" }
+names:
+  - { value: "Abdullah Abdullah", kind: full }
+  - { value: "عبد الله عبد الله", kind: full }
+gender: male
+summary:
+  ar: "طبيب عيون وسياسي أفغاني، وُلد في كابل سنة 1960 لأب بشتوني من قندهار وأم طاجيكية من بنشير. كان من كبار قادة التحالف الشمالي ومستشارا لأحمد شاه مسعود، ثم وزيرا للخارجية (2001-2005)، ورئيسا تنفيذيا لأفغانستان (2014-2020)، ورئيسا للمجلس الأعلى للمصالحة الوطنية (2020-2021)، ونافس على الرئاسة ثلاث مرات."
+  en: "Afghan ophthalmologist and politician, born at Kabul in 1960 to a Pashtun father from Kandahar and a Tajik mother from Panjshir. A senior Northern Alliance figure and adviser to Ahmad Shah Massoud, he served as foreign minister (2001–2005), Chief Executive of Afghanistan (2014–2020) and chairman of the High Council for National Reconciliation (2020–2021), and stood for the presidency three times."
+  ur: "افغان ماہرِ چشم اور سیاست دان، جو 1960ء میں کابل میں ایک قندھاری پشتون والد اور پنجشیری تاجک والدہ کے ہاں پیدا ہوئے۔ شمالی اتحاد کے سینئر رہنما اور احمد شاہ مسعود کے مشیر رہے، پھر وزیرِ خارجہ (2001ء–2005ء)، افغانستان کے چیف ایگزیکٹیو (2014ء–2020ء) اور اعلیٰ کونسل برائے قومی مفاہمت کے چیئرمین (2020ء–2021ء) رہے اور تین بار صدارت کے امیدوار بنے۔"
+roles: [politician, diplomat, physician]
+wings: [people, living]
+born:
+  edtf: "1960-09-05"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Karte Parwan, Kabul. The date is carried as debated: the Arabic article (citing Al Jazeera's encyclopedia) and Wikidata give 5 September 1960, and the Urdu article files him under 5 September births, while the English article's lead and infobox give 10 February 1960 with the date marked citation-needed. The Hijri year 1380 is the Arabic article's birth-category pairing for the September dating; on the February variant the year would be 1379."
+  sources: [source/wikipedia-abdullah-abdullah-ar, source/wikipedia-abdullah-abdullah-en, source/wikidata-abdullah-abdullah]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-abdullah-abdullah-en, source/wikipedia-abdullah-abdullah-ar, source/wikidata-abdullah-abdullah] }
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-abdullah-abdullah-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text names a school for him, and no text names his religion at all beyond background. What each source gives: the Urdu article's infobox carries the generic value Islam, and Wikidata carries the same generic value (Q432) — one structured family, and generic values name no school. The Arabic article says he was born to a Muslim family (a Pashtun father from Kandahar and a Tajik mother from Panjshir) and received an Islamic religious education — family background and formation, which never count. The English article carries no religion field and names no religion for him; its one Shia reference concerns his 2009 running mate, and its category filing of him among Afghan Muslims is a filing, which never attests. His mixed parentage is family background. Living-person care: nothing here is an allegation; the configuration is generic-only structured data plus background, so the value stays unknown under the two-source rule."
+    sources: [source/wikipedia-abdullah-abdullah-en, source/wikipedia-abdullah-abdullah-ar, source/wikipedia-abdullah-abdullah-ur, source/wikidata-abdullah-abdullah]
+external_ids: { wikidata: "Q317556" }
+sources: [source/wikipedia-abdullah-abdullah-en, source/wikipedia-abdullah-abdullah-ar, source/wikipedia-abdullah-abdullah-ur, source/wikidata-abdullah-abdullah]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abdullah Abdullah and his Wikidata item Q317556 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026, each article fetched by its recorded revision id with equality asserted on a second read; no text names a school or a religion for him — the generic Islam value appears only in one structured family (Urdu infobox and Wikidata), and the Arabic text gives Muslim family background and Islamic schooling — so his faith is unknown. His birth is carried at 5 September 1960 as debated against the English article's unsourced 10 February 1960. He is a living person; contested matters are carried in the prose only as attributed charges as the English article states them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

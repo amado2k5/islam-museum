@@ -1,0 +1,48 @@
+id: person/lansana-conte
+class: person
+label: { ar: "لانسانا كونتي", en: "Lansana Conté", ur: "لانسانا کونتے" }
+names:
+  - { value: "Lansana Conté", kind: full }
+  - { value: "لانسانا كونتي", kind: full }
+  - { value: "لانسانا کونتے", kind: full }
+gender: male
+summary:
+  ar: "جنرال وسياسي غيني (1934–2008) من موساياه لومبايا قرب دوبريكا، من شعب السوسو، خدم في الجيشين الفرنسي والغيني وقاد انقلاب أبريل 1984 بعد وفاة الرئيس أحمد سيكو توري فصار ثاني رئيس لغينيا (1984–2008) وحكم أولا بالمجلس العسكري ثم بأحزاب متعددة شكلية حتى مات في كوناكري في 22 ديسمبر 2008."
+  en: "Guinean general and politician (1934–2008) from Moussayah Loumbaya near Dubréka, a member of the Susu people, who served in the French and Guinean armies and led the April 1984 coup after President Ahmed Sékou Touré's death, becoming Guinea's second president (1984–2008); he ruled first through a military committee and then under a formally multiparty system until he died in Conakry on 22 December 2008."
+  ur: "گنی جنرل و سیاست دان (1934ء–2008ء)، دوبریکا کے قریب موسایا لومبایا سے، سوسو قوم سے؛ فرانسیسی اور گنی افواج میں خدمت کی اور صدر احمد سیکو تورے کی وفات کے بعد اپریل 1984ء کی بغاوت کی قیادت کر کے گنی کے دوسرے صدر (1984ء–2008ء) بنے، حتیٰ کہ 22 دسمبر 2008ء کو کوناکری میں انتقال ہوا۔"
+roles: [general, politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1934-11-30"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth on 30 November 1934 at Moussayah Loumbaya (Dubréka) in French Guinea; the English article notes that Conté himself estimated his birth date and never knew it exactly. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-lansana-conte-en, source/wikipedia-lansana-conte-ar, source/wikidata-lansana-conte]
+died:
+  edtf: "2008-12-22"
+  hijri: "1429"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his death in Conakry on 22 December 2008, in office; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-lansana-conte-en, source/wikidata-lansana-conte]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "One text attests his Muslim identity personally: the Arabic article states of his Susu roots 'وهو مسلم الديانة' — he is of the Muslim religion — with a citation. The English article's text does not attest his religion: it records his education at a local Qur'anic school, which is formation, and his part in the ruling party's official pilgrimage to Mecca in 1980 as a member of a government delegation, which is practice in an official capacity; neither names a school. The English article files him under Guinean Muslims and Wikidata carries the single value Islam. One text attesting Muslim identity with no school named anywhere is the Khan configuration, so the value stays unknown with the attestation preserved here."
+    sources: [source/wikipedia-lansana-conte-ar, source/wikipedia-lansana-conte-en, source/wikidata-lansana-conte]
+relations:
+  - { type: successor_of, target: person/ahmed-sekou-toure, sources: [source/wikipedia-lansana-conte-en] }
+external_ids: { wikidata: "Q202582" }
+sources: [source/wikipedia-lansana-conte-en, source/wikipedia-lansana-conte-ar, source/wikidata-lansana-conte]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Lansana Conté' (revision 1361944176 of 1 July 2026), Arabic Wikipedia 'لانسانا كونتي' (revision 76080312 of 3 August 2026) and Wikidata item Q202582 (item revision 2558106184 of 17 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (conte, conté — the only hit is the Spanish count conde-de-alcaudete, a different man), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Dubréka or Conakry, so no born_in or died_in edge is written. His successor_of edge to Ahmed Sékou Touré is written in his own record: he succeeded Touré as president of Guinea (the articles count him the second president; Touré died in office on 26 March 1984, and after an eight-day interim under Prime Minister Louis Lansana Beavogui, who has no person record, Conté's coup of 3 April 1984 made him president, proclaimed on 5 April)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

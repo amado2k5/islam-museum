@@ -1,0 +1,51 @@
+id: person/ma-bufang
+class: person
+label:
+  ar: "ما بوفانغ"
+  en: "Ma Bufang"
+  ur: "ما بوفانگ"
+summary:
+  ar: "أمير حرب مسلم من الهوي (1903–1975)، ابن ما تشي مؤسس جيش نينغهاي، حكم تشينغهاي (1938–1949) فقاتل التبتيين واليابانيين والشيوعيين، ثم فرّ سنة 1949 إلى مكة فالقاهرة، وصار أول سفير لجمهورية الصين لدى السعودية (1957–1961)، ونال جنسيتها وبقي فيها حتى وفاته في جدة."
+  en: "A Hui Muslim warlord (1903–1975), son of Ma Qi, founder of the Ninghai Army, who ruled Qinghai (1938–1949) and fought Tibetans, Japanese and Communists, then fled in 1949 to Mecca and Cairo, became the Republic of China's first ambassador to Saudi Arabia (1957–1961), took Saudi citizenship and remained in the kingdom until his death at Jeddah."
+  ur: "ایک ہوئی مسلمان جنگی سردار (1903ء–1975ء)، ننگ ہائی فوج کے بانی ما چی کے بیٹے، جنہوں نے چھنگ ہائی پر حکومت کی (1938ء–1949ء) اور تبتیوں، جاپانیوں اور کمیونسٹوں سے جنگیں لڑیں، پھر 1949ء میں مکہ اور قاہرہ کی طرف فرار ہوئے، سعودی عرب میں جمہوریہ چین کے پہلے سفیر بنے (1957ء–1961ء)، سعودی شہریت حاصل کی اور جدہ میں وفات تک وہیں رہے۔"
+names:
+  - { value: "馬步芳", kind: full }
+  - { value: "Ma Bufang", kind: full }
+  - { value: "Zixiang", kind: alternate }
+  - { value: "Husaini", kind: alternate }
+gender: male
+roles: [general, politician]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1903"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Chinese articles give 1903, at Monigou Township in Linxia County, Gansu (the Chinese article: Hezhou). Wikidata carries a day-precision value, 14 October 1903, which neither article gives and which is not followed. No Hijri pairing is attested, so no hijri key is carried; no museum place record exists for Linxia, so no born_in relation is written."
+  sources: [source/wikipedia-ma-bufang-en, source/wikipedia-ma-bufang-zh, source/wikidata-ma-bufang]
+died:
+  edtf: "1975-07-31"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Jeddah in Saudi Arabia on 31 July 1975, having remained in the kingdom after his dismissal as ambassador in 1961 and taken Saudi citizenship: the English article's infobox and the Chinese article's infobox and Wikidata's death-place value converge on Jeddah, and the Arabic article's categories file his death under the year 1395 AH. The Hijri year 1395 is the conversion of 31 July 1975, hence derived."
+  sources: [source/wikipedia-ma-bufang-en, source/wikipedia-ma-bufang-zh, source/wikipedia-ma-bufang-ar, source/wikidata-ma-bufang]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or an order for him. The English article records that he received an education in Islam and that his father Ma Qi first had him study to become an imam until he was nineteen — an education, not an affiliation — and that he supported the Yihewani imam Hu Songshan, which is patronage, not membership; he also controlled the Great Dongguan Mosque, an office of power. The Chinese article's infobox gives his religion as Islam in general, the Arabic article's religion field is empty, and Wikidata carries no religion value at all; the English categories (Chinese Muslims, Qing dynasty Muslims) are filings. Generic only: unknown."
+    sources: [source/wikipedia-ma-bufang-en, source/wikipedia-ma-bufang-zh, source/wikipedia-ma-bufang-ar, source/wikidata-ma-bufang]
+relations:
+  - { type: died_in, target: place/jeddah, sources: [source/wikipedia-ma-bufang-en, source/wikipedia-ma-bufang-zh, source/wikidata-ma-bufang] }
+external_ids: { wikidata: "Q649596" }
+sources: [source/wikipedia-ma-bufang-en, source/wikipedia-ma-bufang-zh, source/wikipedia-ma-bufang-ar, source/wikidata-ma-bufang]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Bufang' (revision 1378716360 of 5 October 2026), Chinese Wikipedia '马步芳' (revision 91964304 of 20 March 2026), Arabic Wikipedia 'ما بوفانغ' (revision 75265432 of 10 June 2026) and Wikidata item Q649596 (item revision 2566496014 of 21 October 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese and Arabic articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q649596, and the Arabic label is the Arabic article's own title, shared with no existing record, so no homonym entry is required. The died_in edge to place/jeddah is written here. No child_of edge is written: his father Ma Qi has no museum record. One passage of the English article quoting Sven Hedin (1938) calls him an adopted son of Ma Fuxiang; it is contradicted by the article's own account and is not used, and no relation to Ma Fuxiang is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98

@@ -1,0 +1,36 @@
+id: person/samar-mubarakmand
+class: person
+label: { ar: "سمر مبارك مند", en: "Samar Mubarakmand", ur: "ثمر مبارک مند" }
+names:
+  - { value: "Samar Mubarakmand", kind: full }
+  - { value: "ثمر مبارک مند", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي نووي باكستاني وُلد في راولبندي سنة 1942. عمل في هيئة الطاقة الذرية الباكستانية فرأس مجموعة التشخيص المسؤولة عن قياسات الاختبارات الباردة للأجهزة النووية، وأدار مديرية التطوير التقني، وأسّس اللجنة الوطنية للهندسة والعلوم «نسكوم». يُعرف بأبحاثه في مطيافية غاما وبعمله في برنامج الردع النووي والبرنامج المتكامل للصواريخ."
+  en: "Pakistani nuclear physicist born in Rawalpindi in 1942. At the Pakistan Atomic Energy Commission he headed the Diagnostic Group responsible for measurements in the cold tests of nuclear devices, directed the Directorate of Technical Development, and founded the National Engineering and Scientific Commission (NESCOM). He is known for gamma spectroscopy research and his work in the nuclear deterrent and integrated missile programmes."
+  ur: "پاکستانی جوہری طبیعیات دان جو 1942ء میں راولپنڈی میں پیدا ہوئے۔ پاکستان جوہری توانائی کمیشن میں وہ ڈائیگناسٹک گروپ کے سربراہ رہے جو جوہری آلات کے سرد ٹیسٹوں کی پیمائش کا ذمہ دار تھا، ڈائریکٹوریٹ آف ٹیکنیکل ڈویلپمنٹ کے ڈائریکٹر رہے، اور قومی انجینئرنگ و سائنسی کمیشن (نیس کوم) کے بانی ہیں۔ وہ گاما سپیکٹروسکوپی کی تحقیق اور جوہری بازدار و مربوط میزائل پروگراموں میں اپنے کام کے لیے جانے جاتے ہیں۔"
+roles: [scientist]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1942-09-17"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 17 September 1942 in Rawalpindi, per the English article's text and infobox and Wikidata. No place entity exists for Rawalpindi, so no born_in relation is written. The Hijri year 1361 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-samar-mubarakmand-en, source/wikidata-samar-mubarakmand]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged: family background only. The English article says he was born 'into a Muslim family' — a statement about his family, not an attestation of his own affiliation, and family background never counts. The Urdu article's text names no religion for him (its 'Muslim scientists' category is a filing, which never counts); the Arabic article names none; Wikidata carries no religion value. No source names any affiliation for him personally."
+    sources: [source/wikipedia-samar-mubarakmand-en, source/wikipedia-samar-mubarakmand-ur, source/wikipedia-samar-mubarakmand-ar, source/wikidata-samar-mubarakmand]
+external_ids: { wikidata: "Q7408791" }
+sources: [source/wikipedia-samar-mubarakmand-en, source/wikipedia-samar-mubarakmand-ur, source/wikipedia-samar-mubarakmand-ar, source/wikidata-samar-mubarakmand]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 109 §A of the century-additions queue from the English, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it on a second read, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu and Arabic articles' pageprops. Existence checked both ways before building: name-fragment greps (samar mubarakmand, ثمر مبارک) across data/person/ found no record for him, and Q7408791 appears in no existing person record. No relations are written: his birthplace has no place entity and his wife, named in the English infobox, has no record. His faith is recorded unknown, flagged, on the family-background configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-109
+status: { review: published }

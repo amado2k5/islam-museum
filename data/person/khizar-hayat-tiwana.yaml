@@ -1,0 +1,52 @@
+id: person/khizar-hayat-tiwana
+class: person
+label:
+  ar: "خضر حياة تيوانا"
+  en: "Khizar Hayat Tiwana"
+  ur: "ملک خضر حیات ٹوانہ"
+summary:
+  ar: "ملک سر خضر حياة تيوانا (1900–1975) رجل دولة ومالك أراضٍ وضابط من البنجاب، آخر رئيس وزراء للبنجاب الموحدة (1942–1947) عن الحزب الاتحادي، عارض تقسيم الهند ونظرية الدولتين معارضة صريحة، وطُرد من الرابطة الإسلامية، واستقال في آذار 1947 قبيل التقسيم، وهو ابن سر عمر حياة خان تيوانا."
+  en: "Malik Sir Khizar Hayat Tiwana (1900–1975) was a Punjabi statesman, landowner and army officer, the last Premier of the undivided Punjab (1942–1947) for the Unionist Party, who openly opposed the partition of India and the two-nation theory, was expelled from the Muslim League, and resigned in March 1947 shortly before Partition; he was the son of Sir Umar Hayat Khan Tiwana."
+  ur: "ملک سر خضر حیات ٹوانہ (1900ء–1975ء) پنجابی ریاست کار، زمیندار اور فوجی افسر تھے، یونینسٹ پارٹی کی جانب سے متحدہ پنجاب کے آخری وزیراعظم (1942ء–1947ء) رہے، تقسیمِ ہند اور دو قومی نظریے کی کھل کر مخالفت کی، مسلم لیگ سے نکالے گئے اور مارچ 1947ء میں مستعفی ہو گئے؛ وہ سر عمر حیات خان ٹوانہ کے بیٹے تھے۔"
+names:
+  - { value: "Malik Khizar Hayat Tiwana", kind: full }
+  - { value: "ملک خضر حیات ٹوانہ", kind: full }
+  - { value: "خضر حياة تيوانا", kind: full }
+  - { value: "Khizr Tiwana", kind: alternate }
+gender: male
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1900-08-07"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 7 August 1900 at Chak Muzaffarabad, in the Shahpur district of the Punjab: the English and Urdu articles and Wikidata agree. The Hijri year 1318 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana]
+died:
+  edtf: "1975-01-20"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 20 January 1975 at Butte City, California, in the United States: the English and Urdu articles and Wikidata agree; the English article cites the New York Times of 25 January 1975. The Hijri year 1395 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one source speaks to his religion at all, and it does not name a school: the English article's early-life text states, with no citation attached to the sentence, that unlike his father he was a religious person and 'is believed to be a follower of Sufism'. The Urdu article is silent, Wikidata carries no religion statement, and the category filings (including '20th-century Indian Muslims') attest nothing. One uncited belief statement in a single article is one source short of documenting a Sufi affiliation, and no source names a Sunni school either, so the value stands unknown with the Sufi reading preserved here in full."
+    sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana]
+relations:
+  - { type: child_of, target: person/umar-hayat-khan-tiwana, sources: [source/wikipedia-khizar-hayat-tiwana-en] }
+external_ids: { wikidata: "Q6743589" }
+sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khizar Hayat Tiwana' (revision 1369394876), Urdu Wikipedia 'ملک خضر حیات ٹوانہ' (revision 11800932) and Wikidata item Q6743589 (item revision 2498294272), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the Wikidata item was queried twice with identical item revisions. Existence checks by name fragments (khizar, tiwana, hayat-khan) across data/person, by QID and by biography (last Premier of the Punjab, 1900–1975) found no prior record for this man. No Arabic Wikipedia article exists for him, so the Arabic prose is written from the English and Urdu sources and says so. The only relation written is child_of to his father, in this record as the brief directs (the child's record carries child_of); no place entity exists for Chak Muzaffarabad, Butte City or the Kalra Estate, so no place relations are written, and his succession to Sikandar Hayat Khan as Premier is an office succession attested in both men's articles but is not a schema relation and is carried in the prose. The lane queue gives 'Khizar Hayat Tiwana (1900–1975)', which the sources confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-88
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,36 @@
+id: person/dara-khosrowshahi
+class: person
+label: { ar: "دارا خسروشاهي", en: "Dara Khosrowshahi", ur: "دارا خسروشاہی" }
+names:
+  - { value: "Dara Khosrowshahi", kind: full }
+  - { value: "دارا خسروشاهی", kind: full }
+gender: male
+summary:
+  ar: "دارا خسروشاهي (وُلد 28 مايو 1969 في طهران) مدير تنفيذي أمريكي من أصل إيراني، فرّت عائلته من إيران سنة 1978، فنشأ في الولايات المتحدة ودرس الهندسة الكهربائية في جامعة براون. تولّى إدارة إكسبيديا من 2005 إلى 2017، ثم أصبح الرئيس التنفيذي لأوبر في أغسطس 2017 خلفًا لترافيس كالانيك."
+  en: "Dara Khosrowshahi (born 28 May 1969 in Tehran) is an Iranian-American business executive whose family fled Iran in 1978; raised in the United States and trained in electrical engineering at Brown University, he led Expedia as CEO from 2005 to 2017 and became CEO of Uber in August 2017, succeeding Travis Kalanick."
+  ur: "دارا خسروشاہی (پیدائش 28 مئی 1969ء، تہران) ایرانی نژاد امریکی کاروباری ایگزیکٹو ہیں جن کا خاندان 1978ء میں ایران سے فرار ہوا؛ امریکا میں پرورش پائی اور براؤن یونیورسٹی سے برقی انجینئرنگ کی تعلیم حاصل کی۔ 2005ء سے 2017ء تک ایکسپیڈیا کے سی ای او رہے، پھر اگست 2017ء میں ٹریوس کالانک کے جانشین کے طور پر اوبر کے سی ای او بنے۔"
+roles: [engineer]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1969-05-28"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran on 28 May 1969 — the date and place in the English, Arabic and Persian articles and Wikidata's value. The Hijri year (1389) is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
+  sources: [source/wikipedia-khosrowshahi-en, source/wikipedia-khosrowshahi-ar, source/wikipedia-khosrowshahi-fa, source/wikidata-khosrowshahi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names any religious affiliation for him: the English, Arabic and Persian articles are silent on religion and Wikidata carries no religion value. This is an absence configuration. His Iranian birth, his family's flight from Iran in 1978 and his Persian name are biography, not attestation, and no segment is recorded."
+    sources: [source/wikipedia-khosrowshahi-en, source/wikipedia-khosrowshahi-ar, source/wikipedia-khosrowshahi-fa, source/wikidata-khosrowshahi]
+external_ids: { wikidata: "Q5221979" }
+sources: [source/wikipedia-khosrowshahi-en, source/wikipedia-khosrowshahi-ar, source/wikipedia-khosrowshahi-fa, source/wikidata-khosrowshahi]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 103 §A of the century-additions queue (queue line 566) from the English, Arabic and Persian Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q5221979) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and Q5221979 appears in no existing person record. No relations are written: no succession edge is recorded to Travis Kalanick (no succession applies in this group, and the appointment is stated in the summary and prose), his employers Uber and Expedia have no museum group entities, and born_in is refused because Tehran has no place entity. Region is persia-central-asia by his Tehran birth and origin. No Urdu edition exists; the Urdu prose is written from the same sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-103
+status: { review: published }

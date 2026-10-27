@@ -54,7 +54,25 @@ Series `administrative-processus-abilities`: ep01–ep05 written and merged — 
 | al-mubdioune/ep27 | 0:26:22 | ibn-sina ext ×3 | — | — | — | person ext + sources | ~30 cited windows | 09674745f (PR #2132) |
 | al-mubdioune/ep28 | 0:26:11 | al-ghazali-abu-hamid ext ×3 (pt 1) | — | — | — | person ext + sources | ~28 cited windows | 4dfceab68 (PR #2134) |
 | al-mubdioune/ep29 | 0:25:55 | al-ghazali-abu-hamid ext ×3 (pt 2) | — | — | — | person ext | ~26 cited windows | d2bde39d6 (PR #2139) |
-| al-wassitiya/ep01 | 1:21:33 | islamufubiya NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | pending |
+| al-wassitiya/ep01 | 1:21:33 | islamufubiya NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | 14c78afbf (PR #2148) |
+| al-wassitiya/ep02 | 1:08:10 | al-khitab-al-islami NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | ec8d1a9e8 (PR #2156) |
+| al-wassitiya/ep03 | 1:18:00 | al-dimuqratiyya-wal-sharia NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~40 cited windows | e3fc6e937 (PR #2160) |
+| al-wassitiya/ep04 | ~1:16 | tatbiq-al-sharia NEW + tariq ext ×3 | 1 | 3 panel perspectives | — | concept + person ext | ~45 cited windows | ebc6d0731 (PR #2207) |
+| al-wassitiya/ep05 | ~1:20 | al-ilmaniyya-wal-islam NEW + tariq ext ×3 | 1 | 2 panel perspectives | — | concept + person ext | ~45 cited windows | 15bef9638 (PR #2208) |
+| al-wassitiya/ep06 | ~1:19 | al-wataniyya-wal-qawmiyya NEW + tariq ext ×3 | 1 | 2 panel perspectives | — | concept + person ext | ~40 cited windows | 51f010a2e (PR #2209) |
+| al-wassitiya/ep07 | ~1:22 | takfir EXT + tariq ext ×3 | — | 3 panel perspectives | — | concept + person ext | ~35 cited windows | 3a795aa53 (PR #2210) |
+| al-wassitiya/ep08 | ~1:10 | takfir EXT pt2 + tariq ext ×3 | — | +1 perspective | — | concept + person ext | ~20 cited windows | 0262fac25 (PR #2211) |
+| al-wassitiya/ep09 | ~1:05 | al-wala-wal-bara NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~18 cited windows | 161d7bd2e (PR #2212) |
+| al-wassitiya/ep10 | ~1:05 | huquq-al-insan NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | b947d057b (PR #2213) |
+| al-wassitiya/ep11 | ~1:20 | al-hijra-ila-al-gharb NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~15 cited windows | 888250d84 (PR #2215) |
+| al-wassitiya/ep12 | ~1:10 | al-fadaiyyat-al-arabiyya NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~14 cited windows | a1d70da59 (PR #2216) |
+| al-wassitiya/ep13 | ~1:10 | al-fatwa-ala-al-fadaiyyat NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~10 cited windows | 0a0d16714 (PR #2217) |
+| al-wassitiya/ep14 | ~1:00 | tamkin-al-mara NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~8 cited windows | 061d947e0 (PR #2219) |
+| al-wassitiya/ep15 | ~1:17 | al-mara-wal-ittifaqiyat-al-dawliyya NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | bfd53c74a (PR #2221) |
+| al-wassitiya/ep16 | ~1:17 | faqr-al-rumuz-al-nisaiyya NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~12 cited windows | 3d06fb29d (PR #2222) |
+| al-wassitiya/ep17 | ~1:19 | al-muqawama-wal-irhab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | 47e4fbd5e (PR #2225) |
+| al-wassitiya/ep18 | ~1:15 | azmat-al-thaqafa-al-shabab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~12 cited windows | a0459b7ae (PR #2234) |
+| al-wassitiya/ep19 | ~1:23 | al-qiraa-wal-thaqafa EXT + tariq ext ×3 | — | 2 perspectives | — | concept + person ext | ~12 cited windows | pending |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -79,6 +97,24 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
+- `devin-tareq-al-suwaidan-wassitiya-19` — al-wassitiya ep19 (reading crisis: EXTENDED concept/al-qiraa-wal-thaqafa (Omar-lane record, reuse-rule); stats 5%/1% books, 150 vs 200 wpm, 14% author royalty; poll 12% busy-excuse vs bad-writing).
+- `devin-tareq-al-suwaidan-wassitiya-18` — al-wassitiya ep18 (youth culture crisis: NEW concept/azmat-al-thaqafa-al-shabab; polls 71% real-crisis, 47/43 net-effect; stats 4% books, 6-8h screens).
+- `devin-tareq-al-suwaidan-wassitiya-17` — al-wassitiya ep17 (resistance vs terrorism: NEW concept/al-muqawama-wal-irhab; MB rep occupation-only-frame; host civilians=terrorism rule; nonviolence forms).
+- `devin-tareq-al-suwaidan-wassitiya-16` — al-wassitiya ep16 (female symbols scarcity: NEW concept/faqr-al-rumuz-al-nisaiyya; 3-cause debate; Promotable Woman study).
+- `devin-tareq-al-suwaidan-wassitiya-15` — al-wassitiya ep15 (arab woman + intl conventions: NEW concept/al-mara-wal-ittifaqiyat-al-dawliyya; polls 8% worse-globally, 32% worse-than-world; host rule: take-what-lifts-injustice).
+- `devin-tareq-al-suwaidan-wassitiya-14` — al-wassitiya ep14 (women's empowerment: NEW concept/tamkin-al-mara; polls 53% participation, 35/10/55 govt-support).
+- `devin-tareq-al-suwaidan-wassitiya-13` — al-wassitiya ep13 (satellite fatwa: NEW concept/al-fatwa-ala-al-fadaiyyat; polls ease-of-access, 43/42/15 who-to-ask, 31% collective-only).
+- `devin-tareq-al-suwaidan-wassitiya-12` — al-wassitiya ep12 (arab satellite channels: NEW concept/al-fadaiyyat-al-arabiyya; polls 75% harmful, 76% moral-oversight; stats 79+37 ch, 52% kids-violence).
+- `devin-tareq-al-suwaidan-wassitiya-11` — al-wassitiya ep11 (emigration/brain drain: NEW concept/al-hijra-ila-al-gharb; polls 34/26/40 accept, 84% dangerous; stats 54% no-return, 50% drs).
+- `devin-tareq-al-suwaidan-wassitiya-10` — al-wassitiya ep10 (human rights Arab world: NEW concept/huquq-al-insan; polls 69% covenants-worthless, 72% arab-worse, 9% intl-intervention; non-political-rights-first).
+- `devin-tareq-al-suwaidan-wassitiya-09` — al-wassitiya ep09 (wala/bara AMONG muslims: NEW concept/al-wala-wal-bara; 60%-islam gradation rule; polls 42% takfir-drift, 63% bara-from-peace-advocates, 63% regulate-vs-10% abolish). BACKLOG: ep10-ep16 transcripts ready on disk awaiting processing.
+- `devin-tareq-al-suwaidan-wassitiya-08` — al-wassitiya ep08 (takfir pt2 open/closed ruling: EXT takfir again; polls 42/58 ridda-cause, 6/88 who-declares (88%=official body only), 59/41 armed-vs-dialogue).
+- `devin-tareq-al-suwaidan-wassitiya-07` — al-wassitiya ep07 (kufr-vs-takfir: EXTENDED existing concept/takfir (my own thin record) instead of dup; polls 29/71 must-takfir, 76% no-right-to-change; takfir-muayyan vs tasarruf, ma'lum-bil-darura, Shafii-Ahmad story).
+- `devin-tareq-al-suwaidan-wassitiya-06` — al-wassitiya ep06 (patriotism/nationalism/uruba vs Islam: NEW concept/al-wataniyya-wal-qawmiyya + tariq ext; 4-concept framework; polls 45% clear-def, 78% arab-unity-step, 76% no-conflict).
+- `devin-tareq-al-suwaidan-wassitiya-05` — al-wassitiya ep05 (secularism vs Islam: NEW concept/al-ilmaniyya-wal-islam + tariq ext; 3 models FR/AngloSaxon/Turkish; polls 43/57 define, 24/42 spread, 65/35 meet; 'al-islam al-wasati yughnina').
+- `devin-tareq-al-suwaidan-wassitiya-04` — al-wassitiya ep04 (sharia implementation totality-vs-stages: NEW concept/tatbiq-al-sharia + tariq ext; polls 28/69/3 clarity, 3-paths; Nawfal 'ta'sil rabbani tafsil insani', Khatib missing codes, Omar-b-AbdulAziz gradualism story).
+- `devin-tareq-al-suwaidan-wassitiya-03` — al-wassitiya ep03 (democracy-vs-sharia: NEW concept/al-dimuqratiyya-wal-sharia with 3 perspectives + tariq ext; polls 16/42/42 conflict, 40/60 islamist success; Tamimi procedural-vs-philosophical, Bayati adopt-vs-engage).
+- `devin-tareq-al-suwaidan-wassitiya-02` — al-wassitiya ep02 (Islamic discourse mature/reactive: NEW concept/al-khitab-al-islami with 3 perspectives + tariq ext; 4 polls 51/49, 67/33 content, 51/49 internal, 76/24 two-discourses; Jurshi's 4 defects, Rashdan's optimism, mosque/official discourse critique).
 - `devin-tareq-al-suwaidan-wassitiya-01` — al-wassitiya ep01 (الوسطية panel show! ep01=Islamophobia: NEW concept/islamufubiya with 3 panel perspectives + tariq ext; votes 51% real / 55% jewish-fingers surprise / 57% arab-media-improving; Runnymede origin, Crusade-committee quote, US stats 2%/10%/25%).
 - `devin-tareq-al-suwaidan-mubdioune-29` — al-mubdioune ep29 (al-ghazali pt2: Munqidh-style crisis narrative, tongue bound, 11-year seclusion, Nizamiyya return under Fakhr al-Mulk, Tus khanqah, Fada'ih al-Batiniyya 487 AH commission, the doubt-method to certain knowledge). SERIES COMPLETE 29/29.
 - `devin-tareq-al-suwaidan-mubdioune-28` — al-mubdioune ep28 (al-ghazali pt1: closing figure, the praying father, the highwayman's lesson, Nizamiyya/Juwayni 'drowning sea', Baghdad chair at 34, the four-sect quest, doubt, 10-year seclusion, Ihya begun at Dome of the Rock).

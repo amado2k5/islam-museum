@@ -1,0 +1,47 @@
+id: person/muammar-gaddafi
+class: person
+label: { ar: "معمر القذافي", en: "Muammar Gaddafi", ur: "معمر قذافی" }
+names:
+  - { value: "معمر محمد أبو منيار القذافي", kind: full }
+  - { value: "Muammar Muhammad Abu Minyar al-Gaddafi", kind: full }
+  - { value: "Muammar Gaddafi", kind: alternate }
+gender: male
+summary:
+  ar: "ضابط وسياسي ليبي حكم ليبيا من انقلاب 1 سبتمبر 1969 الذي أطاح بالملك إدريس حتى قتله في سرت في 20 أكتوبر 2011. صاحب «الكتاب الأخضر» ونظرية «النظرية العالمية الثالثة»؛ وقاد مجلس قيادة الثورة ثم صار «الأخ القائد ومرشد الثورة» للجماهيرية."
+  en: "Libyan officer and politician who ruled Libya from the coup of 1 September 1969 that overthrew King Idris until he was killed at Sirte on 20 October 2011. Author of The Green Book and its Third International Theory; he chaired the Revolutionary Command Council and then ruled the Jamahiriya as Brotherly Leader and Guide of the Revolution."
+  ur: "لیبیا کے افسر اور سیاست دان، جنہوں نے یکم ستمبر 1969 کی بغاوت میں بادشاہ ادریس کو معزول کر کے اقتدار سنبھالا اور 20 اکتوبر 2011 کو سرت میں قتل ہونے تک لیبیا پر حکومت کی۔ وہ «الکتاب الاخضر» اور اس کی تیسری بین الاقوامی نظریے کے مصنف تھے۔"
+roles: [politician, military, ruler]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1942~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "No trusted source publishes a birth date: the English article's infobox carries an editorial note that his birth date does not appear to have been published in reliable sources, and its lead gives only circa 1942, so the year is recorded at year precision with no day and no Hijri key — no source gives a day or a Hijri pairing that could be trusted. The Arabic and Urdu articles give 7 June 1942, and Wikidata carries two competing day-precision values (7 June and 19 June 1942); none of these day dates is adopted. The English text places his birth near Qasr Abu Hadi, outside Sirte; neither place has a place entity (Misrata, where he later schooled, does, but it is not his birthplace), so no born_in edge is written."
+  sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
+died:
+  edtf: "2011-10-20"
+  hijri: "1432"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed at Sirte on 20 October 2011 (all three articles and Wikidata). Sirte has no place entity, so no died_in edge is written; his burial place was an undisclosed location in the Libyan desert, so no buried_in edge is written either. The Hijri year (1432) is derived from the Gregorian date."
+  sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for him personally. The English text describes his religious ideology — an Islamic revival returning to the Qur'an and rejecting scholarly interpretations and the Hadith, and a modernist, idiosyncratic interpretation subordinating religion to his political system — which is ideology, not a school affiliation. The Arabic infobox gives Sunni Muslim (one infobox). Wikidata carries two religion values in the one item, Quranism and Sunni Islam, a single structured family that contradicts itself. The English and Urdu category filings file him under both Libyan Sunni Muslims and Libyan Quranist Muslims; filings never attest. The Sunni and Quranist readings each rest on one family at most, so no school is recorded."
+    sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
+relations:
+  - { type: successor_of, target: person/idris-senussi, sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar] }
+external_ids: { wikidata: "Q19878" }
+sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Muammar Gaddafi, each fetched by its recorded revision id (EN 1381986370, AR 77075152, UR 9653732) with the returned id asserted equal before use, and Wikidata item Q19878 (revision 2560035785, read twice with identical revisions), the QID grounded through the English article's pageprops. Existence checks by Latin and Arabic name fragments (Gaddafi, Qaddafi, القذافي), by grounded QID across data/person, and by biography found no prior record. The successor_of edge to Idris of Libya (record person/idris-senussi, which already exists from an earlier run) is scoped to the headship of state: the English infobox names Idris I (as King of Libya) as his predecessor in the chairmanship of the Revolutionary Command Council from 1 September 1969, and the Arabic lead states he rose to power in a military coup that deposed King Idris. A coup is not a constitutional succession, and the edge records only that he took the headship of state from Idris. No ruler_of edge is written: no modern Libya polity entity exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

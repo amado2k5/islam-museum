@@ -1,0 +1,48 @@
+id: person/mohamed-bachir-el-ibrahimi
+class: person
+label: { ar: "محمد البشير الإبراهيمي", en: "Mohamed Bachir El Ibrahimi", ur: "محمد بشیر ابراہیمی" }
+names:
+  - { value: "محمد البشير بن محمد السعدي بن عمر بن محمد السعدي بن عبد الله بن عمر الإبراهيمي", kind: full }
+  - { value: "Mohamed Bachir El Ibrahimi", kind: full }
+  - { value: "Muhammad al-Bashir al-Ibrahimi", kind: latinized }
+gender: male
+summary:
+  ar: "عالم وأديب جزائري (1889–1965)؛ درس بالمدينة المنورة ودمشق، وكان رفيق عبد الحميد بن باديس ونائبه في قيادة الحركة الإصلاحية الجزائرية ثم خليفته في رئاسة جمعية العلماء المسلمين الجزائريين (1940)، واشتهر بخطابته ومقالاته في «البصائر» حتى غدا من أبرز أعلام الفكر والأدب في العالم العربي."
+  en: "Algerian scholar and man of letters (1889–1965). Educated in Medina and Damascus, he was Abdelhamid Ben Badis's companion and deputy in the Algerian reform movement and succeeded him as president of the Association of Algerian Muslim Ulama (1940); his sermons and his articles in al-Basa'ir made him one of the leading intellectual figures of the Arab world."
+  ur: "جزائری عالم اور ادیب (1889–1965)؛ مدینہ منورہ اور دمشق میں تعلیم پائی، عبد الحمید بن بادس کے رفیق اور نائب رہے اور جمعیۃ العلماء المسلمین الجزائریین کی صدارت میں ان کے جانشین بنے (1940)؛ اپنے خطبات اور «البصائر» کے مضامین سے عرب دنیا کے ممتاز اہل قلم میں شمار ہوئے۔"
+roles: [scholar, writer, teacher]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1889-06-13"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ouled Brahim (Ras al-Wad, in present-day Bordj Bou Arreridj province) on Thursday 14 Shawwal 1306 AH, corresponding to 13 June 1889; the village has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-bachir-el-ibrahimi-ar, source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-fr]
+died:
+  edtf: "1965-05-20"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Setif while under house arrest, less than a month before the June 1965 coup."
+  sources: [source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-fr, source/wikipedia-bachir-el-ibrahimi-ar]
+relations:
+  - { type: died_in, target: place/setif, sources: [source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-fr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his jurisprudence as Maliki, his creed as Athari and his movement as Salafiyya. That is one infobox, which never counts on its own. The texts record his formation rather than an attestation: the English and French articles say he studied Maliki fiqh texts (mutun) as a boy and the Muwatta and Maliki jurisprudence in Medina — a student's curriculum, not a personal affiliation — and the Arabic article names no school at all. His presidency of the Association of Algerian Muslim Ulama is organisational leadership, not an attestation. Wikidata's religion value is 'Islam' only. Under the doubt rule no value is recorded."
+    sources: [source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-fr, source/wikipedia-bachir-el-ibrahimi-ar, source/wikidata-bachir-el-ibrahimi]
+external_ids: { wikidata: "Q3318383" }
+sources: [source/wikipedia-bachir-el-ibrahimi-en, source/wikipedia-bachir-el-ibrahimi-ar, source/wikipedia-bachir-el-ibrahimi-fr, source/wikidata-bachir-el-ibrahimi]
+provenance:
+  layer: own-research
+  source: "English, Arabic and French Wikipedia articles on Mohamed Bachir El Ibrahimi, each fetched by its recorded revision id (EN 1359330341, AR 76466939 — the article البشير الإبراهيمي, reached by redirect from his full name — FR 240223006) with the returned id asserted equal before use, and Wikidata Q3318383; existence checks by name fragments (Latin and Arabic) and by QID across data/person and data/source found no prior record. The English article's statement that in Damascus he studied 'alongside' Badreddine al-Hasani and Muhammad al-Khidr Hussein was not written as student_of edges: it does not say he studied under them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-57
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

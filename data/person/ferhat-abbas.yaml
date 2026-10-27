@@ -1,0 +1,49 @@
+id: person/ferhat-abbas
+class: person
+label: { ar: "فرحات عباس", en: "Ferhat Abbas", ur: "فرحت عباس" }
+names:
+  - { value: "فرحات عباس", kind: full }
+  - { value: "Ferhat Abbas", kind: full }
+  - { value: "Ferhat Mekki Abbas", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي وكاتب جزائري (1899–1985)؛ صيدلي من سطيف أسس الاتحاد الديمقراطي للبيان الجزائري، وانضم إلى جبهة التحرير الوطني 1956 فكان أول رئيس للحكومة المؤقتة للجمهورية الجزائرية (1958–1961)، ثم أول رئيس للمجلس الوطني التأسيسي بعد الاستقلال."
+  en: "Algerian politician and writer (1899–1985). A pharmacist from Sétif, he founded the Democratic Union of the Algerian Manifesto, joined the FLN in 1956 and became the first president of the Provisional Government of the Algerian Republic (1958–1961), then the first president of the National Constituent Assembly after independence."
+  ur: "جزائری سیاست دان اور مصنف (1899–1985)؛ سطیف کے فارماسسٹ، جنہوں نے جزائری منشور کی جمہوری یونین کی بنیاد رکھی، 1956 میں جبهة التحرير الوطني میں شامل ہوئے اور جمہوریہ جزائر کی عبوری حکومت کے پہلے صدر (1958–1961) بنے، پھر آزادی کے بعد قومی آئین ساز اسمبلی کے پہلے صدر ہوئے۔"
+roles: [politician, writer]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1899-08-24"
+  hijri: "1317"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and French articles and Wikidata give 24 August 1899. The birthplace is given variously as Taher (English article), the douar of Ouadjana in the commune of Taher (French article) and Chahna (Arabic article), all in the Jijel district. The English article notes that some sources — Encyclopaedia Britannica and Chambers Biographical Dictionary — give 24 October 1899 instead. The 24 August date is followed with the variant disclosed. Neither Taher nor Chahna has a place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ferhat-abbas-en, source/wikipedia-ferhat-abbas-fr, source/wikidata-ferhat-abbas, source/wikipedia-ferhat-abbas-ar]
+died:
+  edtf: "1985-12-24"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Algiers on 24 December 1985 (English, French and Arabic articles); Wikidata also carries a 23 December 1985 value alongside the 24th. He is buried in the El Alia Cemetery in Algiers (English article)."
+  sources: [source/wikipedia-ferhat-abbas-en, source/wikipedia-ferhat-abbas-fr, source/wikipedia-ferhat-abbas-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The French article's infobox alone gives his religion as Sunni Islam, and the English article files him in the category 'Algerian Sunni Muslims'; one infobox and a category filing never count. Wikidata's religion value is Sunni Islam — the same single structured-data tradition, not a second independent source. The Arabic article's infobox leaves the religion and madhhab fields blank, and no article text names a school for him personally: the texts record his childhood Qur'an schooling in his father's mosque-school at Taher and his later secular nationalist politics — family background and political outlook, neither of which is a school attestation. Under the doubt rule no affiliation is recorded."
+    sources: [source/wikipedia-ferhat-abbas-fr, source/wikipedia-ferhat-abbas-en, source/wikipedia-ferhat-abbas-ar, source/wikidata-ferhat-abbas]
+relations:
+  - { type: died_in, target: place/algiers, sources: [source/wikipedia-ferhat-abbas-en, source/wikipedia-ferhat-abbas-fr] }
+  - { type: buried_in, target: place/algiers, sources: [source/wikipedia-ferhat-abbas-en] }
+external_ids: { wikidata: "Q193043" }
+sources: [source/wikipedia-ferhat-abbas-fr, source/wikipedia-ferhat-abbas-ar, source/wikipedia-ferhat-abbas-en, source/wikipedia-ferhat-abbas-ur, source/wikidata-ferhat-abbas]
+provenance:
+  layer: own-research
+  source: "English, French, Arabic and Urdu Wikipedia articles on Ferhat Abbas, each fetched by its recorded revision id (EN 1379373039, FR 240644998, AR 74258956, UR 10173982) with the returned id asserted equal before use, and Wikidata item Q193043 (revision 2560308043). Existence checks by name fragments (Ferhat, Abbas, فرحات عباس) and by QID across data/person and data/source found no prior record. The lane queue gives 1899–1985, which the sources confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

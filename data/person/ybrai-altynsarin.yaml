@@ -1,0 +1,51 @@
+id: person/ybrai-altynsarin
+class: person
+label:
+  ar: "إبراي ألتينسارين"
+  en: "Ybrai Altynsarin"
+  ur: "ابرائی التن سارین"
+summary:
+  ar: "مربٍّ وكاتب كازاخي (1 نوفمبر 1841 – 29 يوليو 1889)، أبرز متنوّري الكازاخ في القرن التاسع عشر؛ فتح مدارس كازاخية روسية في منطقة تورغاي، وألّف أول مختارات كازاخية (1879)، ونقل الكازاخية من الأبجدية العربية الفارسية إلى السيريلية."
+  en: "Kazakh educator and writer (1 November 1841 – 29 July 1889), the foremost Kazakh enlightener of the nineteenth century; he opened Kazakh–Russian schools across the Turgay region, wrote the first Kazakh chrestomathy (1879), and carried Kazakh from the Perso-Arabic to the Cyrillic alphabet."
+  ur: "قازق معلم اور مصنف (1 نومبر 1841ء – 29 جولائی 1889ء)، انیسویں صدی کے ممتاز قازق مصلح؛ انہوں نے تورغائی خطے میں قازق–روسی اسکول کھولے، پہلی قازق منتخبات (1879ء) لکھی اور قازق زبان کو فارسی–عربی رسم الخط سے سیریلک میں منتقل کیا۔"
+names:
+  - { value: "Ybrai Altynsarin", kind: full }
+  - { value: "Ibrahim Altynsarin", kind: alternate }
+  - { value: "Ibrai Altynsarin", kind: alternate }
+born:
+  edtf: "1841-11-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 1 November 1841 in the Gregorian reckoning — 20 October 1841 Old Style, the Russian article printing both forms — at Araqaraghai in the Turgay region (now Kostanay Province); after his father's early death he was raised by his grandfather Balgoja, a biy. Wikidata carries Julian and Gregorian values agreeing with the articles, and the museum carries the Gregorian date with the Julian original stated here. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-altynsarin-en, source/wikipedia-altynsarin-ru, source/wikidata-altynsarin]
+died:
+  edtf: "1889-07-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 29 July 1889 in the Gregorian reckoning — 17 July 1889 Old Style — near Kostanay, where he had built a house by the Tobyl river, and was buried beside his father (English article). The Russian article and Wikidata carry both calendar forms in agreement. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-altynsarin-en, source/wikipedia-altynsarin-ru, source/wikidata-altynsarin]
+wings: [people]
+regions: [persia-central-asia]
+roles: [teacher, writer]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's text attests him personally as a Muslim — 'Like all ethnic Kazakhs, Ibrahim was raised in a Muslim family' and 'Being a Muslim, though, he opposed the teaching of Orthodox Christian doctrines to non-Russian Kazakhs' — a generic personal attestation that names no school. The only school-level reading anywhere is the Kazakh article's infobox, whose religion field gives 'Sunni Islam': one infobox in one source family. The Russian article's infobox gives no religion, and his Wikidata item carries no religion value at all. One infobox short of the museum's two-source bar: unknown, flagged, the Sunni reading preserved here."
+    sources: [source/wikipedia-altynsarin-en, source/wikipedia-altynsarin-kk, source/wikipedia-altynsarin-ru, source/wikidata-altynsarin]
+external_ids:
+  wikidata: Q2628401
+sources:
+  - source/wikipedia-altynsarin-en
+  - source/wikipedia-altynsarin-ru
+  - source/wikipedia-altynsarin-kk
+  - source/wikidata-altynsarin
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Kazakh Wikipedia articles on Ybyrai (Ibrahim) Altynsarin and Wikidata item Q2628401, each read at a recorded revision; existence checked both ways before building — name fragments (altynsarin, altinsarin) and slug variants (ybrai, ibrai, ibrahim forms) across data/person found no person file, and Q2628401, grounded through the English article's page properties and confirmed through the Russian and Kazakh articles', matched no existing record. No born_in or died_in edge is written: no place entity exists for Araqaraghai, Kostanay or Orenburg. His grandfather Balgoja has no record, so no family edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101

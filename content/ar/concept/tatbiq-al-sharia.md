@@ -1,0 +1,26 @@
+---
+id: concept/tatbiq-al-sharia
+lang: ar
+source_lang: ar
+translators: []
+---
+
+# تطبيق الشريعة — بين الكلية والمرحلة
+
+## الحلقة والتصويت
+ناقشت الحلقة الرابعة من «الوسطية» مفهوم «تطبيق الشريعة» الذي تحمله الشعارات الانتخابية: هل هو محددٌ عند الداعين إليه، وهل تطبّق كاملةً أو بالتدرج؟ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:02:00} وصوّت الجمهور: واضح في العموم والتفاصيل 28%، واضح في العموم دون تفاصيل 69%، غير واضح 3% — نتيجة رآها العلماء معبّرة عن الواقع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:06:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:07:30}.
+
+## التأصيل رباني والتفصيل إنساني
+لخّص أحمد نوفل القاعدة بعبارة سمّاه المقدم «شاعر الحلقة»: «التأصيل رباني والتفصيل إنساني» — فالعموميات منزّلة واضحة (الشورى عمود الإسلام)، لكن من يمثّل ومن ينتخب ومدة الخدمة وشكل الدوائر تفاصيل بشرية في ضوء النص، يختبرها الميدان فيبقى الصالح ويسقط الفاشل كعمارة المهندس بين التصوّر والتنفيذ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:08:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:10:00}. والأحكام التي فصّلها نصٌّ أو إجماع تلزم؛ ما سواها مفتوح للاجتهاد كمسألة ميراث أولاد الميت قبل جدّهم التي حسمتها «الوصية الواجبة» في الأردن {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:12:00}.
+
+## القوانين غائبة — لا الإسلام
+شدّد محمد الخطيب على التمييز: التفصيل المقصود «القوانين كيف تنفذ»، وهي غائبة عن الحركات الإسلامية — لم يكتبها أحد إلا محاولة المودودي في الدستور الإسلامي — والبرامج التربوية والاجتماعية والاقتصادية تنتظر صياغة بروح الشريعة في قالب العصر {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:13:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:14:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:14:30}. وعليه فقضايا الإجماع تلزم وقضايا الجمهور لا تلزم دائماً — مثاله الطلاق الثلاث الذي أخذت قوانين كثيرة برأي ابن تيمية فيه {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:16:30}. وعلى غير المسلمين لا تطبّق الأحكام الخاصة بالمسلمين — فالمسيحي يشرب الخمر في بيته ويجوز أن تسمح الدولة بإيصالها إليه — بل تلزمهم قوانين الدولة العامة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:17:30}.
+
+## التدرج سنة إلهية
+جمع حمزة منصور وهايل عبد الحفيظ وفخري أبو صفية على التدرج: «الإسلام هو الحل لا شك فيه، لكن القوانين ليست من صنع حزب بل لها آلية دستورية طويلة» — فالأولوية التربية والتعليم والإعلام والاقتصاد لبناء القاعدة البشرية {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:20:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:21:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:21:30}. و«التدرج سنة إلهية» جاء بها القرآن منجّماً؛ وقصة عمر بن عبد العزيز مع ابنه: «لا تعجل عليّ — إن الله ذم الخمر مرتين وحرّمه في الثالثة، ولو حملنا الناس على الحق جملة لتركوه جملة» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:24:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:26:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:26:30}. وشواهد النية: التعايش مع بنوك ربوية مقبول مؤقتاً بشرط جدية طلب البديل الإسلامي لا المماطلة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:22:00}.
+
+## الشريعة كل — والطريق تربية
+أصرّ فخري أبو صفية أن الشريعة كلٌّ لا يؤخذ بعضها ويترك بعضها، والدستور الإسلامي موجود طبّق 1200 سنة — والنقص في الصياغة القانونية المعاصرة فقط {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:05:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:07:30}. لكن طريق التطبيق عنده تربيةٌ لا إكراه: «الجمهور في وادٍ وأنا في واد» — نريد أن يصل الأمر بالصورة النبوية: تربيةٌ تنتج دولةً تحكم {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:04:30}. وشهد استبيان أردني (1500 استبانة) أن 98.4% يريدون تطبيق الحدود كما نزلت — مؤشر التعطش الشعبي عند المؤيدين للإسراع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:44:30}.
+
+## من أين نبدأ
+خلص المتحاورون إلى الجمع: إعداد القاعدة بالتربية والمؤسسات (تنفيذية وتشريعية وقضائية إسلامية)، وتحقيق الاكتفاء الذاتي الذي يقاوم الضغوط الخارجية، ثم يتحقق الإنجاز — والخطوة الأولى تحقّقت بانتشار الصحوة، والثانية لم تدخل بعد {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:12:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:30}. وختم المقدم: «أمة مستضعفة لا تتفلسف — نحتاج إعادة التربية وسيادة قانونية وتدريباً على تطبيق الأحكام، لا إلزاماً للناس بها» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:14:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:15:00}.

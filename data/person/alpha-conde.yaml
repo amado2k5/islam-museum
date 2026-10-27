@@ -1,0 +1,37 @@
+id: person/alpha-conde
+class: person
+label: { ar: "ألفا كوندي", en: "Alpha Condé", ur: "الفا کوندے" }
+names:
+  - { value: "Alpha Condé", kind: full }
+  - { value: "ألفا كوندي", kind: full }
+  - { value: "الفا کوندے", kind: full }
+gender: male
+summary:
+  ar: "سياسي غيني (وُلد 1938) من بوكي، أكاديمي عاش عقودا معارضا لأنظمة غينيا المتعاقبة وخاض انتخابات 1993 و1998 ضد الرئيس لانسانا كونتي وسُجن وحُوكم، ثم انتُخب رئيسا سنة 2010 فصار أول رئيس منتخب بحرية في تاريخ غينيا (2010–2021)، وأعيد انتخابه 2015 و2020 بعد تعديل دستوري مدّد أهليته، حتى أطاح به انقلاب 5 سبتمبر 2021 بقيادة مامادي دومبوي."
+  en: "Guinean politician (born 1938) from Boké, an academic who spent decades in opposition to Guinea's successive regimes, ran against President Lansana Conté in 1993 and 1998 and was imprisoned and tried, then was elected president in 2010 as the first freely elected president in Guinea's history (2010–2021); he was re-elected in 2015 and, after a constitutional reset of his term limits, in 2020, until the coup of 5 September 2021 led by Mamady Doumbouya overthrew him."
+  ur: "گنی سیاست دان (پیدائش 1938ء)، بوکے سے؛ ماہرِ تعلیم جنھوں نے دہائیاں گنی کی یکے بعد دیگرے حکومتوں کی مخالفت میں گزاریں، 1993ء اور 1998ء میں صدر لانسانا کونتے کے خلاف انتخاب لڑا اور قید و مقدمہ بھگتا، پھر 2010ء میں صدر منتخب ہو کر گنی کی تاریخ کے پہلے آزادانہ منتخب صدر (2010ء–2021ء) بنے، حتیٰ کہ 5 ستمبر 2021ء کو مامادی دومبویا کی بغاوت نے انھیں ہٹا دیا۔"
+roles: [politician, writer]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1938-03-04"
+  hijri: "1357"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 4 March 1938 at Boké in Lower Guinea; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-alpha-conde-en, source/wikidata-alpha-conde]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration. What exists is filings and structure: the English article files him under Guinean Muslims and Muslim socialists, and Wikidata carries the single value Islam. Filings never count and one structured value never counts, so there is no text attestation of even his Muslim identity in the sources used, and no school is named anywhere; the value stays unknown with the readings preserved here (the moussa-traore configuration, wave 75 §A)."
+    sources: [source/wikipedia-alpha-conde-en, source/wikipedia-alpha-conde-ar, source/wikipedia-alpha-conde-ur, source/wikidata-alpha-conde]
+external_ids: { wikidata: "Q4413" }
+sources: [source/wikipedia-alpha-conde-en, source/wikipedia-alpha-conde-ar, source/wikipedia-alpha-conde-ur, source/wikidata-alpha-conde]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Alpha Condé' (revision 1376982637 of 27 September 2026), Arabic Wikipedia 'ألفا كوندي' (revision 76465096 of 7 September 2026), Urdu Wikipedia 'الفا کوندے' (revision 6869767 of 8 March 2025) and Wikidata item Q4413 (item revision 2554789348 of 8 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (conde, condé — the only hit is conde-de-alcaudete, a Spanish count, a different man), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No place entity exists for Boké, so no born_in edge is written. No successor_of edge is written: Condé took office on 21 December 2010 succeeding the interim president Sékouba Konaté, who has no person record, after the Camara junta that followed Lansana Conté's death in 2008 — an edge to Conté would misstate the succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/feza-gursey
+class: person
+label: { ar: "فيزا غورسي", en: "Feza Gürsey", ur: "فیزا گورسے" }
+names:
+  - { value: "Feza Gürsey", kind: full }
+  - { value: "Feza Gursey", kind: latinized }
+  - { value: "فيزا غورسي", kind: full }
+  - { value: "فیزا گورسے", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي نظري تركي (1921–1992)، وُلد في إسطنبول وتعلم في ثانوية غلطة سراي وجامعة إسطنبول وكلية إمبريال بلندن (دكتوراه 1950). اشتُهر بنموذجه الكيرالي وبأعماله في تماثل SU(6) وصيغة غورسي–راديكاتي، وأسس قسم الفيزياء النظرية في جامعة الشرق الأوسط التقنية، ثم شغل كرسي غيبس في جامعة ييل. نال جائزة أوبنهايمر سنة 1977 وميدالية فيغنر سنة 1986، ويحمل معهد فيزا غورسي في إسطنبول اسمه."
+  en: "Turkish theoretical physicist (1921–1992), born in Istanbul and educated at Galatasaray, Istanbul University and Imperial College London (PhD 1950). Known for the chiral model, his SU(6) symmetry work and the Gürsey–Radicati formula, he founded the theoretical physics department at the Middle East Technical University and later held the Gibbs chair at Yale. He received the Oppenheimer Prize in 1977 and the Wigner Medal in 1986, and the Feza Gürsey Institute in Istanbul bears his name."
+  ur: "ترکی نظریاتی طبیعیات دان (1921ء–1992ء)، جو استنبول میں پیدا ہوئے اور گلاطہ سرائے، جامعہ استنبول اور امپیریل کالج لندن سے تعلیم حاصل کی (پی ایچ ڈی 1950ء)۔ وہ اپنے کائرل ماڈل، SU(6) تماثل پر کام اور گورسے–رادیکاتی فارمولے کے لیے جانے جاتے ہیں؛ انہوں نے مڈل ایسٹ ٹیکنیکل یونیورسٹی میں نظریاتی طبیعیات کا شعبہ قائم کیا اور پھر ییل یونیورسٹی میں گبز کرسی سنبھالی۔ انہیں 1977ء میں اوپنہائمر پرائز اور 1986ء میں وگنر میڈل ملا، اور استنبول کا فیزا گورسے انسٹی ٹیوٹ ان کے نام پر ہے۔"
+roles: [scientist]
+wings: [people]
+regions: [anatolia-balkans, americas-oceania]
+born:
+  edtf: "1921-04-07"
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 April 1921 at Istanbul (the Turkish article specifies Anadolu Hisarı), per both articles. The Hijri year 1339 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-feza-gursey-en, source/wikipedia-feza-gursey-tr]
+died:
+  edtf: "1992-04-13"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 13 April 1992 at New Haven, Connecticut, per both articles; the Turkish article specifies Yale's hospital and gives prostate cancer as the cause. New Haven has no place entity, so no died_in relation is written. The Hijri year 1412 is derived by conversion from the Gregorian date; no source states a Hijri pairing."
+  sources: [source/wikipedia-feza-gursey-en, source/wikipedia-feza-gursey-tr]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-feza-gursey-en, source/wikipedia-feza-gursey-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-feza-gursey-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No religion content exists in any source read: the English and Turkish articles (and the German article, read in summary) make no statement about his beliefs or affiliation, and no infobox or structured value names one. An archive epithet reported for him, 'Science Dervish', is a metaphor for his devotion to science, and his recorded conversational interests in Yunus Emre and Goethe are culture, not affiliation; neither is attestation. Recorded unknown, unflagged (absence configuration)."
+    sources: [source/wikipedia-feza-gursey-en, source/wikipedia-feza-gursey-tr]
+sources: [source/wikipedia-feza-gursey-en, source/wikipedia-feza-gursey-tr]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 110 §A of the century-additions queue from the English and Turkish Wikipedia articles named in the sources list, each read in full on 27 October 2026 through the browser search/open route, with the German article read in summary. ENVIRONMENT LIMITATION: that route exposes no revision identifiers and no Wikidata item for these articles, so both sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented. Existence checked before building by name-fragment greps (feza, gürsey, gursey) across all of data/person/ — the only match was an unrelated draft card (khalifezade-tahir-efendi, d. 1774), and no record for him; the QID-grep route could not be run for the reason stated, and a biographical match was made against the articles' details. Two relations are written: born_in Istanbul, and buried_in Istanbul — the Turkish article places his burial in the family plot at Anadolu Hisarı Cemetery in Istanbul; the cemetery has no entity, so the city place is the target. The patronage edge from Cahit Arf is written in Arf's record, not here. Refused: died_in (New Haven has no place entity), student_of Harry Jones, child_of his parents Remziye Hisar and Reşit Süreyya Gürsey, and spouse_of Suha Pamir (none has an entity). His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-110
+status: { review: published }

@@ -1,0 +1,55 @@
+id: person/saken-seifullin
+class: person
+label:
+  ar: "ساكن سيفولين"
+  en: "Saken Seifullin"
+  ur: "ساکن سیفولن"
+summary:
+  ar: "شاعر وكاتب قازاقي ورجل دولة (1894–1938)، مؤسس الأدب القازاقي الحديث وأول رئيس لاتحاد كتّاب كازاخستان، وترأس مجلس مفوضي الشعب في جمهورية قيرغيزيا ذاتية الحكم. انضم إلى الحزب الشيوعي سنة 1918، وأعدمه جهاز الأمن السوفييتي في ألما آتا سنة 1938 في التطهير الكبير، ورُدّ اعتباره سنة 1957."
+  en: "Kazakh poet, writer and statesman (1894–1938), founder of modern Kazakh literature and first head of the Union of Writers of Kazakhstan, who chaired the Council of People's Commissars of the Kirghiz ASSR. He joined the Communist Party in 1918, was executed by the NKVD at Almaty in 1938 in the Great Purge, and was rehabilitated in 1957."
+  ur: "قازاق شاعر، ادیب اور سیاست دان (1894–1938)، جدید قازاق ادب کے بانی اور قازاقستان کے ادیبوں کی یونین کے پہلے سربراہ، جنہوں نے قرغیز خودمختار جمہوریہ کے مفوضینِ عوام کی کونسل کی صدارت کی۔ 1918 میں کمیونسٹ پارٹی میں شامل ہوئے، 1938 میں آلماتی میں عظیم تطہیر کے دوران NKVD کے ہاتھوں گولی مار دیے گئے، اور 1957 میں بحالِ حیثیت ہوئے۔"
+names:
+  - { value: "Сакен Сейфоллаевич Сейфуллин", kind: full }
+  - { value: "Сәкен Сейфоллаұлы Сейфуллин", kind: full }
+  - { value: "ساكن سيفولين", kind: full }
+  - { value: "Saken Seifullin", kind: latinized }
+  - { value: "Saken Seyfullin", kind: alternate }
+  - { value: "Saduaqas", kind: given }
+gender: male
+born:
+  edtf: "1894-10-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 15 October 1894 in a nomadic aul (Ortau, in the Russian article) in Akmolinsk Uezd, in what is today the Shet District of Karaganda Region, as both articles and Wikidata give. His given name at birth was Saduaqas. No Hijri pairing is given in any source, so none is recorded. No place entity exists for Ortau, so no born_in relation is written."
+  sources: [source/wikipedia-saken-seifullin-en, source/wikipedia-saken-seifullin-ru, source/wikidata-saken-seifullin]
+died:
+  edtf: "1938-04-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Executed on 25 April 1938 at Alma-Ata (Almaty) by the NKVD, as the Russian article's dates and Wikidata give and the English article narrates; Wikidata also carries a stray additional death value of the year 1939, not followed. He was posthumously rehabilitated in 1957. No place entity exists for Almaty (the existing place/alma is an unrelated medieval city), so no died_in relation is written."
+  sources: [source/wikipedia-saken-seifullin-en, source/wikipedia-saken-seifullin-ru, source/wikidata-saken-seifullin]
+tags: [kazakh-literature, great-purge]
+roles: [poet, writer, politician]
+wings: [people]
+regions: [persia-central-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text names a school or affiliation for him personally. Wikidata gives his religion as Islam, generically: a single structured-data value naming no school (generic-only configuration). The English article's categories 'Kazakhstani Muslims' and 'Muslim socialists' are category filings; his teaching of Russian at a Muslim madrasa before the revolution is a job; his admission to the Communist Party in February 1918 is politics, which by itself does not engage the atheist bar, and no source read makes any first-person statement of unbelief for him. The value therefore stays unknown, unflagged."
+    sources: [source/wikipedia-saken-seifullin-en, source/wikipedia-saken-seifullin-ru, source/wikidata-saken-seifullin]
+external_ids: { wikidata: "Q1046204" }
+sources:
+  - source/wikipedia-saken-seifullin-en
+  - source/wikipedia-saken-seifullin-ru
+  - source/wikidata-saken-seifullin
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Russian Wikipedia articles on Saken Seifullin and his Wikidata item Q1046204, all read in full on 27 October 2026; Wikidata's generic Islam value is matched by no text naming a school, the English article's Muslim categories are filings, his madrasa teaching post is a job and his Communist Party membership is politics, so his faith is unknown on the generic-only configuration. No relations are written: no place entity exists for Ortau or Almaty."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-110

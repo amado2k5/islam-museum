@@ -1,0 +1,41 @@
+id: person/abdullah-awad-al-juhany
+class: person
+label: { ar: "عبد الله الجهني", en: "Abdullah Awad Al-Juhany", ur: "عبد اللہ جہنی" }
+names:
+  - { value: "عبد الله بن عواد بن فهد الذبياني الجهني", kind: full }
+  - { value: "Abdullah ibn Awad ibn Fahd al-Dhubyani al-Juhany", kind: full }
+  - { value: "عبد الله عواد الجهني", kind: alternate }
+  - { value: "Abdullah Awad Al-Juhany", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن سعودي وإمام وخطيب المسجد الحرام بمكة. وُلد بالمدينة المنورة في 13 يناير 1976 (11 محرم 1396هـ)، وحفظ القرآن صغيرًا وفاز بالمركز الأول في مسابقة دولية للقرآن بمكة وهو في السادسة عشرة. درس بالجامعة الإسلامية بالمدينة ثم نال الماجستير والدكتوراه في التفسير بجامعة أم القرى، ويؤم صلاة التراويح بالحرم منذ 2005 وعُيّن إمامًا دائمًا سنة 2007."
+  en: "Saudi Qur'an reciter and imam and khatib of Masjid al-Haram in Mecca. Born in Medina on 13 January 1976 (11 Muharram 1396 AH), he memorised the Qur'an as a boy and took a tied first place in the international Qur'an competition in Mecca at sixteen. He studied at the Islamic University of Madinah and took a master's and a doctorate in tafsir at Umm al-Qura University; he has led the Tarawih prayers at the Haram since 2005 and was appointed a permanent imam in 2007."
+  ur: "سعودی قاریِ قرآن اور مکہ میں مسجد حرام کے امام و خطیب۔ 13 جنوری 1976ء (11 محرم 1396ھ) کو مدینہ منورہ میں پیدا ہوئے، بچپن میں قرآن حفظ کیا اور سولہ برس کی عمر میں مکہ کے بین الاقوامی مقابلۂ قرآن میں مشترکہ اول پوزیشن حاصل کی۔ جامعہ اسلامیہ مدینہ میں تعلیم پائی، پھر جامعہ ام القریٰ سے تفسیر میں ایم اے اور پی ایچ ڈی کی؛ 2005ء سے حرم میں تراویح کی امامت کر رہے ہیں اور 2007ء میں مستقل امام مقرر ہوئے۔"
+roles: [reciter]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1976-01-13"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article pairs Tuesday 11 Muharram 1396 AH with 13 January 1976 at Medina; the English article and Wikidata give 13 January 1976. The Hijri year is carried from that pairing."
+  sources: [source/wikipedia-abdullah-awad-al-juhany-ar, source/wikipedia-abdullah-awad-al-juhany-en, source/wikidata-abdullah-awad-al-juhany]
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikipedia-abdullah-awad-al-juhany-ar, source/wikidata-abdullah-awad-al-juhany] }
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-abdullah-awad-al-juhany-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The English article's infobox, uncited, gives his jurisprudence as Hanbali; the Arabic infobox leaves both its jurisprudence and creed fields empty; the English article's categories file him under Sunni Muslims, a filing only; and Wikidata's religion claim is Islam (Q432) alone. One infobox family cannot attest a school, and his imamate of the Haram does not attest one; not recorded until two independent sources name a school for him."
+    sources: [source/wikipedia-abdullah-awad-al-juhany-en, source/wikipedia-abdullah-awad-al-juhany-ar, source/wikidata-abdullah-awad-al-juhany]
+external_ids: { wikidata: "Q12223339" }
+sources: [source/wikipedia-abdullah-awad-al-juhany-en, source/wikipedia-abdullah-awad-al-juhany-ar, source/wikidata-abdullah-awad-al-juhany]
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article 'Abdullah Awad al-Juhany' at revision 1380581181 and the Arabic article «عبد الله الجهني» at revision 76347081, each fetched by revision id through the MediaWiki API with the returned revid asserted equal before use, and Wikidata item Q12223339, all read on 26 October 2026. Identity is grounded on the full name (Abdullah ibn Awad ibn Fahd al-Dhubyani al-Juhany), the birth on 13 January 1976 at Medina and the Haram imamate, matching the queue line 'Abdullah Awad Al-Juhany — 1976–Living'. Existence was checked by filename fragments, by Arabic label and by QID across data/person/ before writing."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-67
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

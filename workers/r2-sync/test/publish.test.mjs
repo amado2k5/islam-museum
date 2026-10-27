@@ -3,13 +3,19 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads } from "../batch/publish.mjs";
+import { mkdtempSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { tmpdir } from "node:os";
+import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads, loadBatch } from "../batch/publish.mjs";
 
+const dir = mkdtempSync(join(tmpdir(), "publish-test-"));
 const file = (text) => {
   const bytes = Buffer.from(text);
-  return { bytes, sha: createHash("sha256").update(bytes).digest("hex"), cacheControl: "public" };
+  const path = join(dir, createHash("sha256").update(text).digest("hex"));
+  writeFileSync(path, bytes);
+  return { path, sha: createHash("sha256").update(bytes).digest("hex"), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: "public" };
 };
-const md5 = (f) => createHash("md5").update(f.bytes).digest("hex");
+const md5 = (f) => f.md5;
 
 test("diff copies new or changed files and deletes stale ones", () => {
   const desired = new Map([["ar/a/index.html", file("a")], ["ar/b/index.html", file("b")]]);
@@ -46,6 +52,16 @@ test("applyToPrevious records a batch so the next diff skips it", () => {
   applyToPrevious(previous, ops, desired);
   assert.deepEqual(previous, { "ar/a/index.html": a.sha });
   assert.deepEqual(diff(desired, previous), []);
+});
+
+test("diff keeps only paths; loadBatch reads the bytes of a batch's copies", () => {
+  const a = file("aaa");
+  const desired = new Map([["ar/a/index.html", a]]);
+  const ops = diff(desired, { "ar/gone/index.html": "x" });
+  assert.equal(ops[0].localBytes, undefined);
+  const loaded = loadBatch(ops);
+  assert.equal(Buffer.from(loaded[0].localBytes).toString(), "aaa");
+  assert.deepEqual(loaded[1], { op: "DELETE", dst: "ar/gone/index.html" });
 });
 
 test("withRetry repeats a failing step and gives up after the attempts", async () => {

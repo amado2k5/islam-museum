@@ -1,0 +1,45 @@
+id: person/mohammad-khatami
+class: person
+label:
+  ar: "محمد خاتمي"
+  en: "Mohammad Khatami"
+summary:
+  ar: "محمد خاتمي (وُلد 14 تشرين الأول 1943) رجل دين وفيلسوف إصلاحي إيراني، رئيس إيران من 3 آب 1997 إلى 3 آب 2005 خلفًا لأكبر هاشمي رفسنجاني. وزير للثقافة (1982–1992) وصاحب فكرة «حوار الحضارات» التي تبنّتها الأمم المتحدة لسنة 2001، ثم قائد المعسكر الإصلاحي، وهو ابن روح الله خاتمي."
+  en: "Mohammad Khatami (born 14 October 1943) is an Iranian cleric and reformist philosopher who served as president of Iran from 3 August 1997 to 3 August 2005, succeeding Akbar Hashemi Rafsanjani. Minister of culture from 1982 to 1992, he proposed the Dialogue Among Civilizations adopted by the United Nations for 2001 and later led Iran's reformist camp; he is the son of Ruhollah Khatami."
+names:
+  - { value: "Mohammad Khatami", kind: full }
+  - { value: "محمد خاتمي", kind: full }
+  - { value: "سید محمد خاتمی", kind: full }
+  - { value: "Seyyed Mohammad Khatami", kind: alternate }
+gender: male
+roles: [scholar, philosopher, politician]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1943-10-14"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ardakan in Yazd province on 14 October 1943; the English, Persian (21 Mehr 1322) and Arabic articles and Wikidata agree. The Urdu article gives 12 October 1931, an error of that edition recorded in its source file and not followed. The Hijri year is derived by tabular conversion from the Gregorian date."
+  sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikidata-khatami]
+relations:
+  - type: successor_of
+    target: person/akbar-hashemi-rafsanjani
+    note: "He succeeded Akbar Hashemi Rafsanjani as president of Iran in August 1997; the Arabic article infobox names Rafsanjani as his predecessor."
+    sources: [source/wikipedia-khatami-ar, source/wikipedia-khatami-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one independent text attests an affiliation for him personally: the English article's lead calls him 'an Iranian politician and Shia cleric'. The Persian and Arabic texts name no affiliation for him (the Arabic infobox gives Islam in general); the Urdu text calls him a scholar and cleric without naming a tradition, and its categories file him under Shia headings — a filing, not a text. Wikidata carries Shia Islam in general (Q9585) only. Branch-supporting context exists — a hojjat al-Islam formed in the seminaries, son of Grand Ayatollah Ruhollah Khatami, president of a republic whose constitution establishes Twelver Ja'fari Shi'ism — but the Shia-mapping rule requires two independent texts attesting 'Shia', and only one does, so the value is recorded as unknown with the attestation and the context preserved here."
+    sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami]
+external_ids:
+  wikidata: "Q180795"
+sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 100 §A of the century-additions queue (queue lines 549-553) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him (data/person/ruhollah-khatami.yaml is his father, a different person, untouched), and his Wikidata item Q180795 — grounded through the English article pageprops and confirmed through every edition sitelink and the item own claims — appears in no existing person record. Dates and offices follow the English article. No born_in relation is written: he was born at Ardakan, for which the museum holds no place entity. The successor_of relation to Akbar Hashemi Rafsanjani is attested by the Arabic article infobox, which names Rafsanjani as his predecessor. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
+status: { review: published }

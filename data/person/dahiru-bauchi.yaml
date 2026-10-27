@@ -1,0 +1,46 @@
+id: person/dahiru-bauchi
+class: person
+label: { ar: "طاهر عثمان باوتشي", en: "Dahiru Bauchi", ur: "طاہر عثمان باؤچی" }
+names:
+  - { value: "طاهر عثمان باوتشي", kind: full }
+  - { value: "Dahiru Usman Bauchi", kind: full }
+  - { value: "Sheikh Dahiru Bauchi", kind: alternate }
+gender: male
+summary:
+  ar: "عالم نيجيري تيجاني (1927–2025)، من أبرز مشايخ الطريقة التيجانية في نيجيريا. حفظ القرآن على يد والده المقدّم التيجاني، وتلقى الطريقة، ودرّس التفسير عقودًا في باوتشي، وكان نائب رئيس لجنة الفتوى بالمجلس الأعلى للشؤون الإسلامية في نيجيريا."
+  en: "Nigerian Tijani scholar (1927-2025), among the most prominent shaykhs of the Tijaniyya in Nigeria. He memorised the Qur'an under his father, a Tijani muqaddam, received the tariqa, taught tafsir for decades at Bauchi, and served as deputy chair of the Fatwa Committee of Nigeria's Supreme Council for Islamic Affairs."
+  ur: "نائجیریا کے تیجانی عالم (1927ء–2025ء)، نائجیریا میں تیجانیہ کے نمایاں ترین مشائخ میں سے ایک۔ انہوں نے اپنے والد کے پاس، جو تیجانی مقدم تھے، قرآن حفظ کیا، طریقہ حاصل کیا، باؤچی میں دہائیوں تک تفسیر پڑھائی، اور نائجیریا کی سپریم کونسل برائے اسلامی امور کی فتویٰ کمیٹی کے نائب صدر رہے۔"
+roles: [scholar, preacher]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1927-06-29"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The English article's lead and infobox give 29 June 1927, born in Gombe in the Northern Region, and its text states he was born in the Hijri year 1346 — the Hijri year recorded here is the article's own, not a conversion. Wikidata and the Hausa article give 28 June 1927, one day earlier, so the day is marked debated. No place entity exists for Gombe, so no born_in edge is written."
+  sources: [source/wikipedia-dahiru-bauchi-en, source/wikipedia-dahiru-bauchi-ha, source/wikidata-dahiru-bauchi]
+died:
+  edtf: "2025-11-26"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article, cited to the Daily Post of 27 November 2025, and Wikidata agree that he died at home in the early hours of 26 November 2025, aged 98. The Hijri year is derived by tabular conversion. The harvest queue's line for him said '1927-Living'; it is outdated — he died in November 2025."
+  sources: [source/wikipedia-dahiru-bauchi-en, source/wikidata-dahiru-bauchi]
+faith:
+  - value: sufi
+    basis: documented
+    note: "FLAGGED — text plus infobox family (configuration ii); one founder word downgrades this to unknown, with the readings preserved here. The English article states in its lead text that he 'was part of the Islamic Sufi group known as the Tijaniyyah' and in its education section that 'He received the Tijjaniyyah Tariqah' — a personal statement of membership and of initiation, not only of the leadership his honorific claims ('Grand Leader of the Tijaniyya Movement in Nigeria'). Its infobox gives denomination 'Sunni, Sufi' and movement Tijaniyya. The Hausa article calls him a follower of the tariqa in the same terms but follows the English article closely and counts as the same attestation family; Wikidata's structured value is Islam only. His Sunni and Maliki values rest on the infobox alone and are recorded here in the note only: a Maliki segment would need a second source naming the school for him. His father was a Tijani muqaddam who held ijazah in the order; that is family background and is not what this value rests on — it rests on the text's statement about Bauchi himself."
+    sources: [source/wikipedia-dahiru-bauchi-en, source/wikipedia-dahiru-bauchi-ha, source/wikidata-dahiru-bauchi]
+external_ids: { wikidata: "Q65547520" }
+sources: [source/wikipedia-dahiru-bauchi-en, source/wikipedia-dahiru-bauchi-ha, source/wikidata-dahiru-bauchi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Dahiru Usman Bauchi' (revision 1374509330), Hausa Wikipedia 'Dahiru Usman Bauchi' (revision 862772) and Wikidata item Q65547520 (item revision 2550667403), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. There is no Arabic or Urdu Wikipedia article, so the Arabic and Urdu prose are written from the English and Hausa sources. Existence was checked by filename fragments under all spellings (bauchi, dahiru), by Arabic label and by the QID route across data/person/; no earlier record of him exists. His teachers named in the article (his father Alhaji Usman, Shaykh Abubakar Atiku, Shaykh Abdulqadir Zaria) have no museum records and no place entity exists for Gombe, so no relation edges are written; his marriage to a daughter of Ibrahim Niass is stated in the prose, the daughter having no record of her own."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

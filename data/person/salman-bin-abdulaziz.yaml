@@ -1,0 +1,48 @@
+id: person/salman-bin-abdulaziz
+class: person
+label:
+  ar: "سلمان بن عبد العزيز آل سعود"
+  en: "Salman bin Abdulaziz Al Saud"
+  ur: "سلمان بن عبدالعزیز آل سعود"
+names:
+  - { value: "Salman bin Abdulaziz bin Abdul Rahman Al Saud", kind: full }
+  - { value: "سلمان بن عبد العزيز بن عبد الرحمن آل سعود", kind: full }
+  - { value: "Salman of Saudi Arabia", kind: regnal }
+summary:
+  ar: "سابع ملوك المملكة العربية السعودية والحاكم منذ 23 يناير 2015، ابن الملك عبد العزيز وحصة بنت أحمد السديري وأحد «السديريين السبعة»؛ أمير منطقة الرياض نحو 48 عامًا (1963–2011) ثم وزير الدفاع وولي العهد من 2012 حتى خلافة أخيه عبد الله؛ ووالد ولي العهد محمد بن سلمان."
+  en: "Seventh King of Saudi Arabia, reigning since 23 January 2015; a son of King Abdulaziz and Hassa bint Ahmed Al Sudairi and one of the Sudairi Seven. He was governor of Riyadh for some 48 years (1963–2011), then Minister of Defense and Crown Prince from 2012 until he succeeded his half-brother Abdullah. He is the father of Crown Prince Mohammed bin Salman."
+  ur: "سعودی عرب کے ساتویں بادشاہ، 23 جنوری 2015ء سے بر سر اقتدار؛ شاہ عبد العزیز اور حصہ بنت احمد السدیری کے صاحبزادے اور «سدیری سبعہ» میں سے ایک؛ تقریباً 48 برس (1963ء–2011ء) ریاض کے گورنر رہے، پھر 2012ء سے وزیر دفاع اور ولی عہد، اور اپنے سوتیلے بھائی عبداللہ کے جانشین بنے؛ ولی عہد محمد بن سلمان کے والد ہیں۔"
+external_ids: { wikidata: Q367825 }
+born:
+  edtf: "1935-12-31"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Riyadh on 31 December 1935 (English article; Wikidata gives the same date and place). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Riyadh, so no born_in relation is written."
+  sources: [source/wikipedia-salman-bin-abdulaziz-en, source/wikidata-salman-bin-abdulaziz]
+gender: male
+roles: [ruler]
+relations:
+  - { type: successor_of, target: person/abdullah-bin-abdulaziz, sources: [source/wikipedia-salman-bin-abdulaziz-en] }
+  - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-salman-bin-abdulaziz-en, source/wikidata-salman-bin-abdulaziz] }
+  - { type: member_of, target: group/al-saud, sources: [source/wikipedia-salman-bin-abdulaziz-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder. Two readings are preserved, each resting on a single family. The Sunni reading rests on the English article's infobox religion field ('Sunni Islam') together with Wikidata's religion (P140) value Sunni Islam (Q483654) — the infobox and its structured echo are one source family; the Arabic article's infobox has no religion field, no article text names a school for him, and the Arabic 'Saudi Sunni Muslims' category is a filing. The Hanbali reading rests on text alone: the English article's early-life passage says he studied Islam and Arabic 'focusing on sharia in the Wahhabi interpretation under the Hanbali school of jurisprudence' and learned the Quran under a cleric 'in the Wahhabi tradition' — that attests the school of his education, and formation never counts as a personal affiliation. The record therefore carries more paper than Khalid bin Abdulaziz's single Arabic infobox (wave 83, FLAGGED) but the same single family, so under the doubt rule the school is left unclassified."
+    sources: [source/wikipedia-salman-bin-abdulaziz-en, source/wikipedia-salman-bin-abdulaziz-ar, source/wikidata-salman-bin-abdulaziz]
+sources:
+  - source/wikipedia-salman-bin-abdulaziz-ar
+  - source/wikipedia-salman-bin-abdulaziz-en
+  - source/wikipedia-salman-bin-abdulaziz-ur
+  - source/wikidata-salman-bin-abdulaziz
+wings: [people, living]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "Wikipedia (English), revision 1380917929 of 18 October 2026; Wikipedia (Arabic), revision 77025931 of 19 October 2026; Wikipedia (Urdu), revision 6727281 of 17 February 2025; Wikidata item Q367825, revision 2560884115 of 26 October 2026 — each article fetched by its recorded revision id and asserted equal to it; Wikidata read via its API at the recorded item revision (all read 27 October 2026). No prior museum record: name-fragment, biography, provenance and QID checks across data/person/ found only other people — sultan-bin-salman-al-saud is his son, the astronaut, a different person."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published }

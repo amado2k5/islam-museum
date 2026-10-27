@@ -1,0 +1,20 @@
+---
+id: concept/al-wataniyya-wal-qawmiyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
+# Patriotism, nationalism and Arabness — the boundary with Islam
+
+## The episode and the votes
+The sixth 'Al-Wasatiyya' episode debated the boundary between belonging to homeland and Arabness and belonging to Islam {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:01:00}. The audience — an educated sample — voted that only 45% held a clear definition of patriotism and nationalism {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:07:00}; 78% saw Arab unity as a step toward Islamic unity {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00}; and 76% felt no contradiction between their belongings {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}.
+
+## Four distinct concepts
+The political-science professor untangled the confusion: patriotism is a bond to a defined homeland governed by a state — legal duties like service and defence, rights like citizenship and education, plus a lived cultural dimension; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:00} nationalism is a bond of feeling through cultural, linguistic and historical unity and shared aspiration that may have no single state; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:30} identity is the sense of belonging to a community with a cultural, ideological or religious commitment — surfacing in stances like the Arab in America standing with his cause {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:13:30}.
+
+## Arabness before nationalism
+Waheed Abd al-Majeed drew the core distinction: Arabness is an old historical-civilizational belonging — language makes shared history and shared feeling — while 'Arab nationalism' is a modern concept, absent in the nineteenth century, influenced by Western nationalism and become a political doctrine preferring Arabs regardless of religion — the Christian Arab equal to the Muslim in its eyes {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:19:00}. Khaled al-Qasim added that Arabness is an unbreakable belonging — race, history and shared hopes — 'the Arab is whoever shares these hopes, this civilization, this language, not mere race' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:22:30}.
+
+## The boundary — fanaticism, not belonging
+The host concluded the rule: discrimination built on principles of justice is acceptable — preferring the citizen in his country's jobs since he enters without procedures — while blind fanaticism not built on justice is rejected {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:13:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:14:00}. Patriotism is like a company in which all share profit and loss — rights and duties {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:17:30}. He confessed personal pride: 'I thank God I am an Arab who understands the Qur'an — God chose from mankind Banu Kinana and from them Banu Hashim' — but if Arabs boasted as the Germans boasted of their race and destroyed nations 'we would stand against them' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:17:00}. He closed: belonging to homeland and Arabness does not contradict Islam provided it carries no fanaticism, discrimination, injustice or arrogance — 'and this is the wasatiyya' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.

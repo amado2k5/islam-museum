@@ -1,0 +1,51 @@
+id: person/enayet-khan
+class: person
+label: { ar: "عنايت خان", en: "Enayet Khan", ur: "عنایت خان" }
+names:
+  - { value: "عنايت خان", kind: full }
+  - { value: "Enayet Khan", kind: full }
+  - { value: "عنایت خان", kind: full }
+  - { value: "Enayat Khan", kind: alternate }
+  - { value: "Inayat Khan", kind: alternate }
+  - { value: "Nath Singh", kind: alternate }
+  - { value: "Ustad Enayet Khan", kind: alternate }
+gender: male
+summary:
+  ar: "عازف سيتار وسربهار هندي (1894–1938)، وُلد في المقاطعات الشمالية الغربية لأسرة موسيقية، وهو ابن إمداد خان مؤسس غرانة إمدادخاني (إيتاواه). استقر في كلكتا وطوّر أسلوب الغاياكي في العزف على السيتار وثبّت مقاسات الآلة وأضاف إليها القرعة الرنانة العليا، وتوفي شابا عن 43 عاما؛ وابناه ولايت خان وإمرات خان من أشهر عازفي جيلهما."
+  en: "Indian sitar and surbahar player (1894–1938), born in the North-Western Provinces to a family of musicians, son of Imdad Khan, founder of the Imdadkhani (Etawah) gharana. Settled at Calcutta, he developed the gayaki ang in sitar playing, standardised the instrument's dimensions and added the upper resonator gourd; he died at 43, and his sons Vilayat Khan and Imrat Khan became leading players of their generation."
+  ur: "ہندوستانی ستار و سر بہار نواز (1894ء–1938ء)، شمال مغربی صوبوں میں ایک موسیقار گھرانے میں پیدا ہوئے؛ وہ امداد خانی (اٹاوہ) گھرانے کے بانی امداد خان کے بیٹے تھے۔ کلکتہ میں سکونت اختیار کی، ستار میں گائیکی انگ کو ترقی دی، ساز کے پیمانے متعین کیے اور بالائی گونج والا کدّو شامل کیا؛ 43 برس کی عمر میں وفات پائی، اور ان کے بیٹے ولایت خان اور امرت خان اپنے عہد کے بڑے نواز ہوئے۔"
+roles: [musician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1894"
+  hijri: "1311"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English article's infobox and text give 1894, in the North-Western Provinces of British India, into a family of musicians; Wikidata gives 1895 at year precision. The record follows the article with the split stated. The Hijri year (1311) is a conversion. No place entity exists for his birthplace, so no born_in edge is written."
+  sources: [source/wikipedia-enayat-khan-en, source/wikidata-enayat-khan]
+died:
+  edtf: "1938"
+  hijri: "1357"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree: died in 1938, the article placing his death at Calcutta at the age of 43. The Hijri year (1357) is a conversion. No place entity exists for Calcutta, so no died_in edge is written."
+  sources: [source/wikipedia-enayat-khan-en, source/wikidata-enayat-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The structured-only configuration. The English article's text states no religion for him at all — it gives his musician family, his father Imdad Khan's teaching and the Etawah gharana tradition. Wikidata carries a single religion value, Islam, and a single structured value never counts as an attestation; his family's gharana lineage and his marriage name no school either. Under the two-source rule the value stays unknown, with the structured value recorded here."
+    sources: [source/wikipedia-enayat-khan-en, source/wikidata-enayat-khan]
+external_ids:
+  wikidata: Q5375263
+sources: [source/wikipedia-enayat-khan-en, source/wikidata-enayat-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Enayat Khan' (revision 1380758114 of 17 October 2026) and Wikidata Q5375263 (item revision 2554540237 of 7 October 2026), each fetched by its recorded revision and checked against it, read on 26 October 2026. The slug follows the queue's spelling Enayet; the article's spelling is Enayat, and the ITC Sangeet Research Academy tribute the article cites spells Inayat — all three are carried in the names. Existence was checked by filename fragments under all spellings (enayet, enayat, inayat), by Arabic label, by biography and by the Wikidata route (Q5375263) across data/person/ — no earlier record exists; hazrat-inayat-khan is the Sufi teacher Hazrat Inayat Khan, a different man, though the two records SHARE the exact Arabic label 'عنايت خان' — flagged for the committer's data/_homonyms.yaml entry, which this writer does not edit. No Urdu or Arabic Wikipedia article exists for him; the Arabic and Urdu prose are written from the English source and say so. No relations are written: his father Imdad Khan and his sons Vilayat Khan and Imrat Khan have no person records — the only Vilayat record on main is person/vilayat-inayat-khan, the Sufi teacher's son, a different man from the sitarist — and there is no group entity for the Imdadkhani gharana."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

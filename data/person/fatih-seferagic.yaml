@@ -1,0 +1,38 @@
+id: person/fatih-seferagic
+class: person
+label: { ar: "فاتح سفرجيك", en: "Fatih Seferagic", ur: "فاتح سفراگیچ" }
+names:
+  - { value: "Fatih Seferagić", kind: full }
+  - { value: "Фатих Сеферагич", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن ومعلّم بوسني أمريكي وُلد في ألمانيا سنة 1995. نشأ في الولايات المتحدة وحفظ القرآن في الثالثة عشرة في الجمعية الإسلامية ببالتيمور، ودرس العربية في دالاس، ويقيم في هيوستن حيث يعلّم الأطفال تلاوة القرآن وحفظه ويجول في العالم للتعليم والتلاوة؛ وقد حصدت تسجيلات تلاوته عشرات الملايين من المشاهدات."
+  en: "Bosnian-American Qur'an reciter and teacher born in Germany in 1995. Raised in the United States, he completed memorising the Qur'an at thirteen at the Islamic Society of Baltimore, studied Arabic in Dallas, and now lives in Houston, where he teaches children Qur'an recitation and memorisation and tours the world teaching and reciting; his recitation recordings have drawn tens of millions of views."
+  ur: "بوسنیائی نژاد امریکی قاریِ قرآن اور معلم، جو 1995ء میں جرمنی میں پیدا ہوئے۔ وہ امریکا میں پلے بڑھے اور تیرہ سال کی عمر میں بالٹی مور کی اسلامک سوسائٹی میں قرآن حفظ مکمل کیا، ڈیلاس میں عربی کی تعلیم حاصل کی، اور اب ہیوسٹن میں مقیم ہیں جہاں وہ بچوں کو تلاوت و حفظِ قرآن سکھاتے ہیں اور تعلیم و تلاوت کے لیے دنیا کا سفر کرتے ہیں؛ ان کی تلاوت کی ریکارڈنگز کروڑوں بار دیکھی جا چکی ہیں۔"
+roles: [reciter, teacher]
+wings: [people, living]
+regions: [americas-oceania, andalus-europe]
+born:
+  edtf: "1995-03-01"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date and country from the Bashkir Wikipedia article and Wikidata: born 1 March 1995 in Germany, to a Bosniak family that had left Bosnia and later moved on to the United States. The Urdu article says instead that he was born in Bosnia and Herzegovina; the record follows the Bashkir article and Wikidata. The Hijri year (1415) is a conversion of the Gregorian date. Germany has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-fatih-seferagic-ba, source/wikidata-fatih-seferagic, source/wikipedia-fatih-seferagic-ur]
+relations:
+  - { type: student_of, target: person/nouman-ali-khan, sources: [source/wikipedia-fatih-seferagic-ba] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion only as Islam, and neither the Bashkir nor the Urdu article names a school, madhhab or order for him. His Arabic teacher in Dallas was Nouman Ali Khan; a teacher's school is not the student's and never counts. Not recorded until a source names a school for him himself."
+    sources: [source/wikidata-fatih-seferagic, source/wikipedia-fatih-seferagic-ba, source/wikipedia-fatih-seferagic-ur]
+external_ids: { wikidata: "Q135010783" }
+sources: [source/wikipedia-fatih-seferagic-ba, source/wikipedia-fatih-seferagic-ur, source/wikidata-fatih-seferagic]
+provenance:
+  layer: own-research
+  source: "Bashkir Wikipedia «Фатих Сеферагич» revision 1276108 of 24 July 2024 and Urdu Wikipedia «فاتح سفراگیچ» revision 9424854 of 22 February 2026 (both fetched by revision id through the MediaWiki API, returned ids asserted equal; the article titles are the Wikidata sitelinks of his item), and Wikidata item Q135010783 at revision 2556568235 of 13 October 2026, all read on 26 October 2026. His official website fatihseferagic.com (recorded on the Wikidata item) was checked the same day and shows only an account-activation notice, so no facts are taken from it. The student_of relation is written once, here in the student's record: Fatih Seferagic is the student, Nouman Ali Khan the teacher (classical Arabic, Bayyinah Dream programme, Dallas, per the Bashkir article). Houston, Dallas and Baltimore have no place entities in the museum yet, so no lived_in relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

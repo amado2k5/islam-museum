@@ -1,0 +1,56 @@
+id: person/uzun-haji
+class: person
+label:
+  ar: "الحاج أذن خير"
+  en: "Uzun-Haji"
+  ur: "حاجی ازون خیر"
+summary:
+  ar: "أوزون حاجي السالطي (1848–1920)، المعروف في المصادر العربية بالحاج أُذُن خير، شيخ نقشبندي من قرية سالطا في داغستان؛ تتلمذ مريدًا على الشيخ عبد الرحمن حاجي السوغوري وتلقى منه الإجازة، وصار أمير إمارة شمال القوقاز سنة 1919، وتوفي بالتيفوس في فيدينو في 30 مارس 1920."
+  en: "Uzun-Haji Saltinsky (1848–1920), known in Arabic sources as Hajji Udhun Khayr, was a Naqshbandi sheikh from the village of Salta in Dagestan. He studied as a murid under Sheikh Abdurrahman-Hajji as-Suguri and received the ijazah from him, became Emir of the North Caucasian Emirate in 1919, and died of typhus at Vedeno on 30 March 1920."
+  ur: "ازون حاجی سالتنسکی (1848–1920)، جو عربی مآخذ میں حاجی اذن خیر کے نام سے معروف ہیں، داغستان کے گاؤں سالطا سے تعلق رکھنے والے نقشبندی شیخ تھے؛ وہ شیخ عبدالرحمن حاجی السوغوری کے مرید رہے اور ان سے اجازہ پایا، 1919 میں شمالی قفقازی امارت کے امیر بنے، اور 30 مارچ 1920 کو ویدینو میں ٹائیفس سے وفات پائی۔"
+names:
+  - { value: "Uzun-Haji Saltinsky", kind: full }
+  - { value: "Узун-Хаджи Салтинский", kind: full }
+  - { value: "Узун ХӀажи", kind: full }
+  - { value: "الحاج أذن خير", kind: full }
+  - { value: "Узун-Хаир-Хаджи-хан ас-Салти", kind: alternate }
+  - { value: "Uzun", kind: given }
+gender: male
+born:
+  edtf: "1848"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1848 at the village of Salta in Dagestan, then in the Caucasian Imamate, as the English and Russian articles and Wikidata agree at year precision; no source read gives a day or month. No entity exists for Salta, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-uzun-haji-en, source/wikipedia-uzun-haji-ru, source/wikidata-uzun-haji]
+died:
+  edtf: "1920-03-30"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died of typhus on 30 March 1920 at Vedeno, as the English and Russian articles' infoboxes and Wikidata agree. No entity exists for Vedeno, so no died_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-uzun-haji-en, source/wikipedia-uzun-haji-ru, source/wikidata-uzun-haji]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [mystic, emir]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts attest Uzun-Haji's Naqshbandi affiliation personally. The English article's lead calls him the sheikh of a Naqshbandi Sufi tariqa, and its text records that from the age of seven he studied as a murid under Abdurrahman-Hajji as-Suguri, the sheikh of a Naqshbandi tariqa, from whom he obtained an ijazah. The Russian article's text independently records that he was a murid of Sheikh Abdurrahman-Hajji of Sogratl and received from him authorisation for sheikhdom after eleven years of study. Discipleship and order leadership attested in two texts settle the segment as sufi, documented. The further specification 'Sunni' in both articles' infoboxes rests on infoboxes alone — Wikidata's religion value is Islam in general — and no text names his madhhab, so no Sunni segment is recorded."
+    sources: [source/wikipedia-uzun-haji-en, source/wikipedia-uzun-haji-ru, source/wikidata-uzun-haji]
+external_ids:
+  wikidata: Q4469911
+sources:
+  - source/wikipedia-uzun-haji-en
+  - source/wikipedia-uzun-haji-ru
+  - source/wikipedia-uzun-haji-ar
+  - source/wikipedia-uzun-haji-ur
+  - source/wikidata-uzun-haji
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Arabic and Urdu Wikipedia articles on Uzun-Haji and Wikidata item Q4469911, each read at a recorded revision (the Avar article is a stub and was not used); existence checked both ways before building — name fragments (uzun, saltinsky, udhun) and slug variants across data/person found only the unrelated tuzun and uzun-hasan records, and Q4469911, grounded through the English article's page properties and confirmed through the Russian, Arabic and Urdu articles', grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. No relations are written in this record: his teacher Abdurrahman-Hajji as-Suguri has no record, so no student_of edge; the imamate succession between him and Najmuddin Hotsinsky is shown by the English articles as rival and disputed, so no successor edge in either direction; the opposed edge between the two men is written once, in Hotsinsky's record. No place edges are written (no entities for Salta or Vedeno)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105

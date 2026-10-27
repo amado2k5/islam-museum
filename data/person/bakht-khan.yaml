@@ -1,0 +1,45 @@
+id: person/bakht-khan
+class: person
+label: { ar: "بخت خان", en: "Bakht Khan", ur: "بخت خان" }
+names:
+  - { value: "General Bakht Khan", kind: alternate }
+  - { value: "Saheb-e-Alam Bahadur", kind: laqab }
+gender: male
+summary:
+  ar: "قائد عسكري هندي (1797–1859)، صوبدار في مدفعية الخيالة البنغالية بجيش شركة الهند الشرقية بخبرة أربعين سنة. في تمرد 1857 سار بلواء بريلي إلى دلهي، فصار القائد الفعلي لقوات الثورة المدافعة عن المدينة في ظل الإمبراطور المغولي بهادر شاه ظفر، وبعد سقوط دلهي التحق بصفوف الثوار في أوده، وتوفي جريحًا في سهول التراي بنيبال سنة 1859."
+  en: "Indian military commander (1797–1859), a subedar in the Bengal Horse Artillery of the East India Company's army with forty years' service. In the rebellion of 1857 he marched with the Bareilly brigade to Delhi and became the effective commander of the rebel forces defending the city under the Mughal emperor Bahadur Shah Zafar; after Delhi fell he joined the rebels in Awadh, and died of his wounds in the Terai plains of Nepal in 1859."
+  ur: "ہندوستانی عسکری قائد (1797ء–1859ء)، ایسٹ انڈیا کمپنی کی فوج میں بنگال ہارس آرٹلری کے صوبہ دار، چالیس سال کی خدمت کے ساتھ۔ 1857ء کی جنگ میں بریلی بریگیڈ کے ساتھ دہلی پہنچے اور مغل شہنشاہ بہادر شاہ ظفر کے تحت شہر کا دفاع کرنے والی باغی فوج کے اصل سپہ سالار بنے؛ دہلی کے سقوط کے بعد اودھ کے باغیوں سے جا ملے اور 1859ء میں نیپال کے ترائی میدانوں میں زخموں سے وفات پائی۔"
+roles: [general]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1797"
+  hijri: "1212"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English article gives his birth in 1797 in its lead, text and infobox, and Wikidata gives 1797 at year precision; the Urdu article's text gives 1793, at Bareilly, while its own categories file him under both 1797 and 1798 births. The record follows 1797 and marks the year debated. The queue line's 1779 is attested by no source read. His birthplace is given as Bijnor district by the English article and as Bareilly by the Urdu article; neither has a place entity in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-bakht-khan-en, source/wikipedia-bakht-khan-ur, source/wikidata-bakht-khan]
+died:
+  edtf: "1859"
+  hijri: "1275"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died in 1859 in the Terai plains of Nepal, mortally wounded after the fall of Delhi and the loss of Awadh (English article, citing the Express Tribune, 2011, and Mukherjee's Awadh in Revolt). The Urdu article gives a precise day, 13 May 1859, which no other source read states, so the record carries the year, on which all sources agree. The Terai has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-bakht-khan-en, source/wikipedia-bakht-khan-ur, source/wikidata-bakht-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or order for him. What the sources give on his religious identity is this: the English article, citing Iqbal Husain (Proceedings of the Indian History Congress, 1985), reports that Urdu writers describe him as of Rohilla heritage without a clear family background, that one British officer stated him to be from a Hindu family which later converted to Islam, and that Khwaja Hasan Nizami claimed him for the Nawabs of Oudh maternally and for Ghulam Qadir Rohilla paternally, without stating any authority; the Urdu article describes him as a Rohilla Afghan of the Yusufzai tribe; Wikidata gives Islam only. Muslim identity is attested, by conversion on the British officer's account, but no source names a school, so under the doubt rule he is recorded unknown, with the evidence preserved here."
+    sources: [source/wikipedia-bakht-khan-en, source/wikipedia-bakht-khan-ur, source/wikidata-bakht-khan]
+external_ids: { wikidata: "Q3774267" }
+sources: [source/wikipedia-bakht-khan-en, source/wikipedia-bakht-khan-ur, source/wikidata-bakht-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bakht Khan' (revision 1378919804), Urdu Wikipedia 'Bakht Khan' (revision 11801343) and Wikidata item Q3774267 (item revision 2561096812), read via the MediaWiki API on 26 October 2026; both articles were fetched by their recorded revision ids and the returned ids asserted equal before any claim was drawn. No Arabic Wikipedia article on him exists, so the Arabic prose is the museum's own, written from the English and Urdu articles; his Arabic label follows the Urdu form. Existence was checked by filename fragments, by Arabic label and by the QID route: the QID route returns the museum's draft record ahmad-fanakati (Ahmad Fanakati, Kublai Khan's finance minister, killed in 1282), which carries Q3774267 in its external_ids in error — the two men are biographically entirely distinct, and Q3774267's own sitelinks and claims are Bakht Khan's. The queue line's dates (1779–1859) carry a wrong birth year; the sources give 1797 (Urdu text: 1793). Bijnor, Bareilly and the Terai have no place entities in the museum yet, so no born_in or died_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

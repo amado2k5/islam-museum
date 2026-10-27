@@ -1,0 +1,46 @@
+id: person/ibrahim-boubacar-keita
+class: person
+label: { ar: "إبراهيم أبو بكر كيتا", en: "Ibrahim Boubacar Keïta", ur: "ابراہیم بوبکر کیتا" }
+names:
+  - { value: "Ibrahim Boubacar Keïta", kind: full }
+  - { value: "إبراهيم أبو بكر كيتا", kind: full }
+  - { value: "IBK", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي مالي (1945–2022) من كوتيالا، رئيس وزراء مالي (1994–2000) ورئيس الجمعية الوطنية (2002–2007)، أسس حزب التجمع من أجل مالي سنة 2001 وانتُخب رئيسا للجمهورية سنة 2013 وأعيد انتخابه سنة 2018، حتى أجبره انقلاب عسكري على الاستقالة في أغسطس 2020، ومات في بيته بباماكو في 16 يناير 2022."
+  en: "Malian politician (1945–2022) from Koutiala, prime minister of Mali (1994–2000) and president of the National Assembly (2002–2007), who founded the Rally for Mali in 2001 and was elected president in 2013 and re-elected in 2018, until a military coup forced his resignation in August 2020; he died at his home in Bamako on 16 January 2022."
+  ur: "مالی سیاست دان (1945ء–2022ء)، کوٹیالا سے؛ مالی کے وزیرِ اعظم (1994ء–2000ء) اور قومی اسمبلی کے صدر (2002ء–2007ء) رہے، 2001ء میں ریلی فار مالی بنائی اور 2013ء میں صدر منتخب ہوئے، 2018ء میں دوبارہ منتخب ہوئے، حتیٰ کہ اگست 2020ء میں فوجی بغاوت نے انھیں مستعفی ہونے پر مجبور کیا؛ 16 جنوری 2022ء کو باماکو میں اپنے گھر انتقال ہوا۔"
+roles: [politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1945-01-29"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article, the Arabic article and Wikidata give his birth on 29 January 1945 in Koutiala, then French Sudan; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ibrahim-boubacar-keita-en, source/wikipedia-ibrahim-boubacar-keita-ar, source/wikidata-ibrahim-boubacar-keita]
+died:
+  edtf: "2022-01-16"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death at his home in Bamako on 16 January 2022; the Arabic article and Wikidata give the same date. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ibrahim-boubacar-keita-en, source/wikipedia-ibrahim-boubacar-keita-ar, source/wikidata-ibrahim-boubacar-keita]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Khan configuration, unflagged. The English article's text engages his Muslim public identity politically — in the 2002 election he received 'the strong backing of many Muslim leaders and associations', while 'some people doubted that Keïta's policies were particularly compatible with Islam' and opposed his authorisation of casinos and lotteries as prime minister — but endorsements by Muslim leaders are organisational support, the compatibility debate is about policies, and no text names a school. The Arabic article says nothing about his religion; both articles file him under Malian Muslims; Wikidata gives a single structured value, Islam. No source used names a madhhab, so under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-ibrahim-boubacar-keita-en, source/wikipedia-ibrahim-boubacar-keita-ar, source/wikidata-ibrahim-boubacar-keita]
+external_ids: { wikidata: "Q324108" }
+sources: [source/wikipedia-ibrahim-boubacar-keita-en, source/wikipedia-ibrahim-boubacar-keita-ar, source/wikidata-ibrahim-boubacar-keita]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibrahim Boubacar Keïta' (revision 1378246046 of 3 October 2026), Arabic Wikipedia 'إبراهيم أبو بكر كيتا' (revision 76465553 of 7 September 2026) and Wikidata item Q324108 (item revision 2557927395 of 17 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (keita, boubacar — the keita hits are footballers and a musician, different men), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Koutiala or Bamako, so no born_in or died_in edge is written; he took office in 2013 after an interim presidency whose holder has no person record, so no successor_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

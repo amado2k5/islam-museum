@@ -1,0 +1,45 @@
+id: person/blaise-diagne
+class: person
+label: { ar: "بليز دياني", en: "Blaise Diagne", ur: "بلیز دیانیے" }
+names:
+  - { value: "Blaise Diagne", kind: full }
+  - { value: "Galaye M'Baye", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي سنغالي فرنسي (13 أكتوبر 1872 – 11 مايو 1934)، وُلد في غوريه وكان نائبًا عن البلدات الأربع في مجلس النواب الفرنسي من 1914 إلى 1934، وهو أول شخص من أصل غرب أفريقي كامل يُنتخب فيه. صاحب قانون 1916 الذي منح الجنسية الكاملة لسكان البلدات الأربع، وكبير مجنّدي قوات غرب أفريقيا في الحرب العالمية الأولى، ووكيل وزارة المستعمرات 1931–1932، وعمدة داكار 1920–1934."
+  en: "Senegalese-French politician (13 October 1872 – 11 May 1934), born at Gorée, who sat as deputy for the Four Communes in the French Chamber of Deputies from 1914 to 1934, the first person of full West African descent elected to it. He carried the 1916 law granting full citizenship to the residents of the Four Communes, was the leading recruiter of West African troops in the First World War, served as under-secretary of state for the colonies in 1931–1932, and was mayor of Dakar from 1920 to 1934."
+  ur: "سینیگالی فرانسیسی سیاست دان (13 اکتوبر 1872ء – 11 مئی 1934ء)، گورے میں پیدا ہوئے، 1914ء سے 1934ء تک فرانسیسی مجلسِ نائبین میں چار بلدیات کے نائب رہے اور مکمل مغربی افریقی نسل کے پہلے شخص تھے جو اس میں منتخب ہوئے۔ 1916ء کا قانون — جس نے چار بلدیات کے باشندوں کو مکمل شہریت دی — انہی کی کاوش تھا؛ پہلی جنگِ عظیم میں مغربی افریقی فوجیوں کے بڑے بھرتی کار رہے، 1931–1932ء میں نوآبادیات کے نائب وزیر رہے، اور 1920ء سے 1934ء تک ڈاکار کے میئر رہے۔"
+roles: [politician]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1872-10-13"
+  hijri: "1289"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Gorée, Senegal, on 13 October 1872, per both articles and Wikidata. The French article gives his birth name as Galaye M'Baye. Gorée has no place entity in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion (13 October 1872 falls in Sha'ban 1289)."
+  sources: [source/wikipedia-blaise-diagne-en, source/wikipedia-blaise-diagne-fr, source/wikidata-blaise-diagne]
+died:
+  edtf: "1934-05-11"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cambo-les-Bains, France, on 11 May 1934, per both articles and Wikidata; the French article adds that his body was repatriated to Dakar in 1935. Cambo-les-Bains has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion (11 May 1934 falls in Muharram 1353)."
+  sources: [source/wikipedia-blaise-diagne-en, source/wikipedia-blaise-diagne-fr, source/wikidata-blaise-diagne]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a personal religious affiliation for Diagne. What the sources give, in full: he was born Galaye M'Baye to a Lebu father, Niokhor Diagne, a cook and sailor, and a Manjack mother (French article); he was adopted as a child by the Crespin family, Christians of Gorée and Saint-Louis, who baptised him 'Blaise' (English article) and had him educated by the Christian Brothers of Ploërmel (French article); as an adult he was initiated a freemason in September 1899 at Réunion and later became master of a Paris lodge (both articles). A childhood baptism arranged by adoptive parents is upbringing, not an adult attestation of affiliation, and freemasonry is not a faith value; the English article also reports the allegation that he was not buried in the Muslim cemetery of Soumbedioune in Dakar because of his freemasonry. Wikidata records no religion value. Under the doubt rule he is left unclassified."
+    sources: [source/wikipedia-blaise-diagne-en, source/wikipedia-blaise-diagne-fr, source/wikidata-blaise-diagne]
+external_ids: { wikidata: "Q725749" }
+sources: [source/wikipedia-blaise-diagne-en, source/wikipedia-blaise-diagne-fr, source/wikidata-blaise-diagne]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Blaise Diagne' (revision 1360953768), French Wikipedia 'Blaise Diagne' (revision 240149487) and Wikidata item Q725749 (item revision 2560260069), read via the MediaWiki API on 26 October 2026. No Arabic or Urdu Wikipedia article on him exists (the Arabic-script sitelink is the Egyptian Arabic Wikipedia, arz), so the Arabic and Urdu prose are the museum's own, written from the English and French articles. Gorée, Dakar and Cambo-les-Bains have no place entities in the museum yet, so no born_in or died_in relation is written. The queue line's parenthetical '(Muslim associates)' is a gloss with no counterpart in either article; the record is built for Blaise Diagne himself, the person named in the line."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

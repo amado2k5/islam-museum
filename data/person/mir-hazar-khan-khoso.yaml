@@ -1,0 +1,52 @@
+id: person/mir-hazar-khan-khoso
+class: person
+label:
+  ar: "مير هزار خان كهوسو"
+  en: "Mir Hazar Khan Khoso"
+  ur: "میر ہزار خان کھوسو"
+summary:
+  ar: "قاضٍ باكستاني (1929–2021)، رئيس وزراء باكستان المؤقت من مارس إلى يونيو 2013 لإجراء الانتخابات العامة، ورئيس محكمة بلوشستان العليا، ورئيس المحكمة الشرعبة الفدرالية (1992–1994)، وحاكم بلوشستان مرتين لفترتين قصيرتين."
+  en: "Pakistani jurist (1929–2021), caretaker prime minister of Pakistan from March to June 2013 to conduct the general elections, chief justice of the Balochistan High Court, chief justice of the Federal Shariat Court (1992–1994), and twice briefly governor of Balochistan."
+  ur: "پاکستانی جج (1929ء–2021ء)، مارچ سے جون 2013ء تک عام انتخابات کے انعقاد کے لیے پاکستان کے نگراں وزیرِ اعظم، بلوچستان ہائی کورٹ کے چیف جسٹس، وفاقی شرعی عدالت کے چیف جسٹس (1992ء–1994ء)، اور دو بار مختصر مدت کے لیے بلوچستان کے گورنر۔"
+names:
+  - { value: "Mir Hazar Khan Khoso", kind: full }
+  - { value: "Mir Hazar Khan Khosa", kind: alternate }
+  - { value: "مير هزار خان كهوسو", kind: full }
+  - { value: "میر ہزار خان کھوسو", kind: full }
+gender: male
+born:
+  edtf: "1929-09-30"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 30 September 1929 at Goth Azam Khan village in Jaffarabad District, Balochistan, as the English article's text records and Wikidata's Jafarabad place claim supports. No place relation is written because no Jaffarabad place entity exists in the museum yet. No source read gives a Hijri pairing for the date, so none is recorded."
+  sources: [source/wikipedia-mir-hazar-khan-khoso-en, source/wikipedia-mir-hazar-khan-khoso-ar, source/wikidata-mir-hazar-khan-khoso]
+died:
+  edtf: "2021-06-26"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 26 June 2021 at Quetta, as the English article's infobox and Wikidata record (its text gives the date and his age of 91). No place relation is written because no Quetta place entity exists in the museum yet. No source read gives a Hijri pairing for the date, so none is recorded."
+  sources: [source/wikipedia-mir-hazar-khan-khoso-en, source/wikidata-mir-hazar-khan-khoso]
+roles: [jurist, politician]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only religion attestations are generic structured values. The Arabic article's infobox gives Islam generically and Wikidata's religion claim is Islam (Q432), generically; the English article has no religion field and names no religion for him. His chief justiceship of the Federal Shariat Court is judicial office, not an attestation of a school. On the wave-114 Chundrigar configuration (generic Islam only in structured values) the value stays unknown."
+    sources: [source/wikipedia-mir-hazar-khan-khoso-en, source/wikipedia-mir-hazar-khan-khoso-ar, source/wikidata-mir-hazar-khan-khoso]
+external_ids: { wikidata: "Q8168180" }
+sources:
+  - source/wikipedia-mir-hazar-khan-khoso-en
+  - source/wikipedia-mir-hazar-khan-khoso-ar
+  - source/wikidata-mir-hazar-khan-khoso
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 116 §A of the century-additions queue (queue line 641, 'Mir Hazar Khan Khoso — 1929–2021', verified against the queue copy in the fix clone) from the English Wikipedia article 'Mir Hazar Khan Khosa' (revision 1382137209 of 26 October 2026), the Arabic article «مير هزار خان كهوسو» (revision 75459616 of 14 June 2026) and Wikidata Q8168180, each read on 27 October 2026 and each checked against its recorded revision on a second read. No Urdu article exists for him. IDENTITY: pinned by biography to Mir Hazar Khan Khoso, born 30 September 1929, the Balochistan jurist who became caretaker prime minister in 2013 and died 26 June 2021; the English article spells the name 'Khosa' where the queue line and the record's slug spell it 'Khoso', and both spellings are recorded in names. EXISTENCE: checked three ways before building — name-fragment greps (khoso, khosa, hazar) across data/person/ returned no file for him; his QID Q8168180, grounded through the articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — generic Islam only in the Arabic infobox and Wikidata (see the faith note). RELATIONS: none written — neither his birthplace in Jaffarabad District nor his death place Quetta has a place entity, and all office successions are refused by lane rule."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116

@@ -1,0 +1,48 @@
+id: person/iajuddin-ahmed
+class: person
+label: { ar: "عياض الدين أحمد", en: "Iajuddin Ahmed", ur: "عیاض الدین احمد" }
+names:
+  - { value: "Iajuddin Ahmed", kind: full }
+  - { value: "ইয়াজউদ্দিন আহম্মেদ", kind: full }
+  - { value: "عياض الدين أحمد", kind: full }
+  - { value: "عیاض الدین احمد", kind: full }
+gender: male
+summary:
+  ar: "عالم تربة ورجل دولة بنغلاديشي (1 فبراير 1931 – 10 ديسمبر 2012)، أستاذ في جامعة دكا ورئيس قسم علوم التربة فيها، تولى رئاسة بنغلاديش من 2002 إلى 2009، وجمع إليها منصب المستشار الرئيسي للحكومة المؤقتة في 2006–2007 حتى أُعلنت حالة الطوارئ المدعومة عسكريًا في 11 يناير 2007 فاستقال من المنصب الثاني وبقي رئيسًا حتى 2009."
+  en: "Bangladeshi soil scientist and statesman (1 February 1931 – 10 December 2012), a professor and department chairman at the University of Dhaka who served as president of Bangladesh from 2002 to 2009 and, controversially, held the chief advisership of the caretaker government in 2006–07 as well, until the military-backed state of emergency of 11 January 2007 forced him to resign the second post while remaining president until 2009."
+  ur: "بنگلہ دیشی ماہرِ ارضیات اور سیاست دان (1 فروری 1931ء – 10 دسمبر 2012ء)، ڈھاکہ یونیورسٹی کے پروفیسر اور شعبہ علومِ ارضی کے سربراہ، 2002ء سے 2009ء تک بنگلہ دیش کے صدر رہے اور 2006ء–2007ء میں نگراں حکومت کے چیف ایڈوائزر کا عہدہ بھی سنبھالا، حتیٰ کہ 11 جنوری 2007ء کی فوجی حمایت یافتہ ایمرجنسی کے بعد اس دوسرے عہدے سے مستعفی ہوئے۔"
+roles: [politician, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1931-02-01"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 February 1931 at Nayagaon village in Bikrampur, Bengal Presidency, as the English article gives — the dating followed here; the Arabic article gives 28 February 1931, a variant recorded here and not followed (the English dating agrees with the Encyclopaedia Britannica entry cited by the Egyptian-Arabic edition). No born_in relation is written: Bikrampur and Nayagaon have no museum place entity. The Hijri year (1349) is derived by tabular conversion."
+  sources: [source/wikipedia-iajuddin-ahmed-en, source/wikipedia-iajuddin-ahmed-ar]
+died:
+  edtf: "2012-12-10"
+  hijri: "1434"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 10 December 2012 at Bumrungrad International Hospital, Bangkok, after heart surgery and kidney complications; the Arabic article names cardiovascular disease as the cause. His body was flown to Dhaka and he was buried at Banani graveyard after four namaz-e-janaza, as the English article recounts. The Hijri year (1434) is derived by tabular conversion. No died_in relation is written: Bangkok has no museum place entity."
+  sources: [source/wikipedia-iajuddin-ahmed-en, source/wikipedia-iajuddin-ahmed-ar]
+relations:
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-iajuddin-ahmed-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — the reading rests on family background and one structured family, with no second independent source naming a school. The English article carries no religion field and names no affiliation for him: it records that his father was 'the Muslim cleric Maulavi Muhammad Ibrahim' — family background, which never counts — that he was provost of Salimullah Muslim Hall (a university post), and that four namaz-e-janaza were held for him (funeral rites, not an attestation of school). The Arabic article's infobox gives his religion as Islam, generically — the same structured value the Esperanto and Korean editions' infoboxes carry from Wikidata; the Chinese edition's infobox alone specifies 'Sunni Muslim', a single-edition structured value of that same one family, not an independent text. No independent text names a school for him personally, so under the doubt rule the value stays unknown, with the attestations preserved here."
+    sources: [source/wikipedia-iajuddin-ahmed-en, source/wikipedia-iajuddin-ahmed-ar]
+sources: [source/wikipedia-iajuddin-ahmed-en, source/wikipedia-iajuddin-ahmed-ar]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 113 §A of the century-additions queue (queue line 616, 'Iajuddin Ahmed — 1931–2012', verified against the queue copy on origin/main) from the English Wikipedia article read in full and the Arabic article read in its infobox and lead on 27 October 2026. IDENTITY: pinned by biography to the University of Dhaka soil-science professor who was president 2002–2009, born at Bikrampur in 1931 and deceased at Bangkok on 10 December 2012. EXISTENCE: checked three ways before building — name-fragment greps (iajuddin) across all of data/person/ returned no person file and no mention; his Wikidata QID Q165672, grounded through the authority file of his Wikimedia Commons category, was grepped across all data/person/ files with no match; and the biography matches no existing record. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers, so the sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded, although the QID was grounded for the existence check; no revision identifier was invented. RELATIONS: buried_in Dhaka is written because place/dhaka exists and the English article states his burial at Banani graveyard, Dhaka; no born_in (Bikrampur has no entity) and no died_in (Bangkok has no entity). No succession edge is written: the presidential sequence is an office sequence, not personal succession. His faith is recorded unknown, flagged, on the family-background-plus-one-structured-family configuration set out in the faith note. The Arabic article's 28 February 1931 birth variant is disclosed in the born note; the English dating is followed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-113
+status: { review: published }

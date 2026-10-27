@@ -1,0 +1,37 @@
+id: person/said-al-kamali
+class: person
+label: { ar: "سعيد الكملي", en: "Said al-Kamali", ur: "سعید الکملی" }
+names:
+  - { value: "سعيد بن محمد الكملي", kind: full }
+  - { value: "Said bin Muhammad al-Kamali", kind: full }
+  - { value: "Said al-Kamali", kind: latinized }
+gender: male
+summary:
+  ar: "فقيه ومحدث وداعية وأستاذ جامعي مغربي، وُلد في الرباط سنة 1972، يدرّس بجامعة محمد الخامس ويشرف على كرسي الإمام مالك بمسجد السنة بالرباط حيث يشرح الموطأ أسبوعيا، واشتهر بدروسه في الفقه المالكي والحديث المسجلة والمبثوثة."
+  en: "Moroccan jurist, hadith scholar, preacher and university professor, born in Rabat in 1972. He teaches at Mohammed V University and supervises the Imam Malik chair at the al-Sunna Mosque in Rabat, where he explains the Muwatta weekly; he is known for his recorded and broadcast lessons in Maliki jurisprudence and hadith."
+  ur: "مراکشی فقیہ، محدث، مبلغ اور جامعہ کے استاد، جو 1972 میں رباط میں پیدا ہوئے۔ وہ محمد پنجم یونیورسٹی میں پڑھاتے ہیں اور رباط کی مسجد السنہ میں امام مالک کرسی کے نگران ہیں جہاں وہ ہفتہ وار مؤطا کی تشریح کرتے ہیں؛ وہ فقہ مالکی اور حدیث میں اپنے ریکارڈ شدہ اور نشر شدہ دروس کے لیے معروف ہیں۔"
+roles: [scholar, jurist, preacher, teacher, writer]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1972-05-21"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Arabic Wikipedia article gives his birth at Rabat as 8 Rabi' al-Akhir 1392 AH paired with 21 May 1972 CE; Wikidata gives 21 May 1972 at day precision. The article itself pairs the two dates, so the Hijri year is not a conversion."
+  sources: [source/wikipedia-said-al-kamali-ar, source/wikidata-said-al-kamali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic Wikipedia infobox (unreferenced) gives his religion as Islam, his affiliation as Ahl al-Sunna wa-l-Jama'a and his school as Maliki. The Urdu Wikipedia article is a translation of the Arabic one — the same source family — and its infobox likewise gives Maliki. Wikidata records his religion only as Islam (Q432) and names no school. His university teaching of Maliki jurisprudence and his Imam Malik chair, where he teaches the Muwatta and a Maliki textbook, are scholarship and teaching of a school's texts, not an attestation of his own school. Not recorded as sunni-maliki until a second, independent source names his own school."
+    sources: [source/wikipedia-said-al-kamali-ar, source/wikipedia-said-al-kamali-ur, source/wikidata-said-al-kamali]
+external_ids: { wikidata: "Q12216094" }
+sources: [source/wikipedia-said-al-kamali-ar, source/wikipedia-said-al-kamali-ur, source/wikidata-said-al-kamali]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 20 ('Said Al Kamali', §3 of the handoff list). Arabic Wikipedia article «سعيد الكملي» (revision 74208251 of 8 April 2026) and Urdu Wikipedia article «سعید الکملی» (revision 9919321 of 18 April 2026), each fetched by its recorded revision via the MediaWiki API with the returned revid asserted equal before any claim was drawn, and Wikidata item Q12216094 at item revision 2521337299 of 22 July 2026; checked 26 October 2026. Existence checks before building: filename-fragment sweeps over data/person/ (kamali, kamaly, kamli, said-, saeed-) found no record, a grep for Q12216094 across data/person/ found nothing, and the biography (Rabat, born 21 May 1972, Muwatta chair) matched no existing record. No English Wikipedia article exists; the English prose is written from the Arabic and Urdu articles and Wikidata under the Arabic-first house rule. Relations: none written — place/rabat does not exist in the museum, and none of his named teachers (Farouk Hamada, Muhammad al-Hasan al-Dedew, Muhammad al-Amin Bukhabza) has a museum record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

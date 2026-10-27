@@ -1,0 +1,63 @@
+id: person/abdurauf-fitrat
+class: person
+label:
+  ar: "عبد الرؤوف فطرت"
+  en: "Abdurauf Fitrat"
+  ur: "عبدالرؤف فطرت"
+names:
+  - { value: "Abdurauf Fitrat", kind: full }
+  - { value: "عبد الرؤوف بن عبد الرحيم", kind: full }
+  - { value: "Abdurrauf Fitrat", kind: alternate }
+  - { value: "Abdulrauf Fitrat", kind: alternate }
+  - { value: "Abdurauf Abdurahim oʻgʻli", kind: alternate }
+  - { value: "Fitrat", kind: pen }
+  - { value: "Mijmar", kind: pen }
+roles: [scholar, writer, poet, politician, teacher]
+summary:
+  ar: "كاتب وعالم وسياسي أوزبكي من بخارى (1886–1938م)، من أبرز منظّري حركة الجديد في آسيا الوسطى، تولى مناصب في حكومة جمهورية بخارى الشعبية السوفييتية، ودرّس في جامعات طشقند وسمرقند، وأُعدم في التطهير الكبير."
+  en: "Uzbek Jadid writer, scholar and politician from Bukhara (1886–1938), a leading ideologue of the Central Asian jadid movement who served in the government of the Bukharan People's Soviet Republic, taught at universities in Tashkent and Samarkand, and was executed in the Great Purge."
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1886"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born in Bukhara in 1886, the year given by the English, Russian and Uzbek articles. The year is contested: Fitrat himself stated 1884 (reported by the English article from Allworth), the Russian article notes 1885 as an alternative, the Uzbek infobox gives 1887, and Wikidata carries competing year-precision values for 1885 and 1886. No source consulted gives a Hijri pairing, so no hijri value is recorded."
+  sources: [source/wikipedia-fitrat-en, source/wikipedia-fitrat-ru, source/wikipedia-fitrat-uz, source/wikidata-fitrat]
+died:
+  edtf: "1938-10-04"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Executed in Tashkent on 4 October 1938 during the Great Purge. The English article states from archival documents that the execution was carried out on 4 October 1938, the day before his conviction, and the Russian and Uzbek articles concur; Wikidata's 5 October 1938 is not followed. No source consulted gives a Hijri pairing, so no hijri value is recorded."
+  sources: [source/wikipedia-fitrat-en, source/wikipedia-fitrat-ru, source/wikipedia-fitrat-uz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school or order for Fitrat. The English, Russian and Uzbek infoboxes carry no religion field, and Wikidata records only Islam in general. The texts attest his maktab and Mir-i-Arab madrasa formation in Bukhara, a devout Muslim father (family background), early pan-Islamic writings from his Istanbul years, and a later reformist critique of the clerical establishment: in a 1929 autobiographical statement he wrote that he had wanted to separate religion from superstition and had found that nothing remained of religion once it was separated. That statement is a scholarly description of his reform thought in a single tradition, not an affiliation attestation and not a second-source attestation of personal unbelief. Jadidism is a movement, not a school. With no school reading in any source, the value is unknown under the two-source rule (generic-only configuration)."
+    sources: [source/wikipedia-fitrat-en, source/wikipedia-fitrat-ru, source/wikipedia-fitrat-uz, source/wikidata-fitrat]
+relations:
+  - type: born_in
+    target: place/bukhara
+    note: "Born in Bukhara, then in the Emirate of Bukhara."
+    sources: [source/wikipedia-fitrat-en, source/wikipedia-fitrat-ru, source/wikipedia-fitrat-uz]
+  - type: lived_in
+    target: place/istanbul
+    note: "Studied in Istanbul in the early 1910s, attending the Vaizin madrasah founded in December 1912, where contact with Islamic reformism shaped his early essays."
+    sources: [source/wikipedia-fitrat-en]
+  - type: student_of
+    target: person/mahmudkhodja-behbudiy
+    note: "The English article states that Mahmudkhodja Behbudiy was a mentor to Fitrat (Encyclopaedia Iranica); Fitrat published in Behbudiy's journal Oyina, and Behbudiy wrote a foreword to his Bayonoti sayyohi hindi and translated it into Russian."
+    sources: [source/wikipedia-fitrat-en]
+  - type: debated_with
+    target: person/sadriddin-ayni
+    note: "The English article records that Fitrat's advocacy of Latinisation in 1921 provoked resistance from fellow activists including Sadriddin Ayni."
+    sources: [source/wikipedia-fitrat-en]
+sources: [source/wikipedia-fitrat-en, source/wikipedia-fitrat-ru, source/wikipedia-fitrat-uz, source/wikidata-fitrat]
+external_ids:
+  wikidata: Q317907
+status: { review: published }
+provenance: { layer: own-research, source: "English, Russian and Uzbek Wikipedia articles on Abdurauf Fitrat read in full at recorded revisions, and Wikidata item Q317907 (grounded through the English article's page property, read twice identically), 27 October 2026", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-103 }

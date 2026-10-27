@@ -1,0 +1,50 @@
+id: person/haji-misbach
+class: person
+label: { ar: "الحاج مصباح", en: "Haji Misbach", ur: "حاجی مصباح" }
+names:
+  - { value: "Mohammad Misbach", kind: full }
+  - { value: "Mohamad Misbach", kind: alternate }
+  - { value: "Hadji Mohammad Misbach", kind: alternate }
+  - { value: "Haji Misbach", kind: alternate }
+  - { value: "Achmad", kind: alternate }
+  - { value: "Darmodiprono", kind: alternate }
+  - { value: "محمد مصباح", kind: full }
+  - { value: "الحاج مصباح", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وناشط إندونيسي من سوراكارتا (نحو 1876–1926)، تاجر باتيك تعلّم في المعاهد الشرعية وحجّ فتسمّى بالحاج محمد مصباح، ومن قادة الجناح اليساري في شريكة الإسلام ومؤسسي صحافة «مدان مسلمين» و«إسلام برغيراك»، واشتهر بدعوته إلى توافق الإسلام والشيوعية حتى لُقّب «الحاج الأحمر»، ونُفي إلى مانوكواري فمات فيها سنة 1926."
+  en: "Indonesian preacher and activist from Surakarta (c. 1876–1926), a batik trader educated in the pesantren who took the name Haji Mohammad Misbach after his Hajj, a leader of Sarekat Islam's left wing and founder of the journals Medan Moeslimin and Islam Bergerak, famous for arguing that Islam and communism are compatible — the 'Red Haji' — and exiled to Manokwari, where he died in 1926."
+  ur: "سوراکارتا کے انڈونیشی مبلغ اور کارکن (تقریباً 1876ء–1926ء)، باٹک کے تاجر جو مدارس میں پڑھے اور حج کے بعد حاجی محمد مصباح کہلائے، شریکۃ اسلام کے بائیں بازو کے رہنما اور «مدان مسلمین» اور «اسلام برگرک» کے بانی، اسلام اور کمیونزم کی مطابقت کی دعوت سے مشہور ہوئے — «سرخ حاجی» — اور مانوک واری جلاوطن ہوئے جہاں 1926ء میں وفات پائی۔"
+roles: [activist, preacher]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1876~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Kauman, Surakarta, about 1876: the English article (citing Shiraishi and Larson) gives 'around 1876', the Indonesian article and Wikidata give the year 1876, and the English article files him under 'Date of birth uncertain'. No source gives a day or a Hijri pairing, so no hijri key is recorded."
+  sources: [source/wikipedia-haji-misbach-en, source/wikipedia-haji-misbach-id, source/wikidata-haji-misbach]
+died:
+  edtf: "1926-05-24"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Manokwari, in exile, on 24 May 1926: the Indonesian article's infobox and text give the day and place and place his burial in the Fanindi cemetery there, beside his wife; the English article and Wikidata give the year 1926 only. The Hijri year 1344 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-haji-misbach-id, source/wikipedia-haji-misbach-en, source/wikidata-haji-misbach]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school or order for him. What the sources give is formation, practice and description: a pesantren education (formation), his Hajj and his lifelong preaching as a mubaligh (practice), and the Indonesian article's quotation of Shiraishi calling him a pious, orthodox Muslim — a scholarly description of his preaching's content in a single source family (both articles rest on Shiraishi 1990), not a school attestation. His communism is a political commitment: he argued in print that Islam and communism are compatible and remained a preacher to the end, so it does not engage the atheist bar (the Hasrat Mohani precedent: political communism is not unbelief). Wikidata carries no religion value. The value stays unknown, unflagged."
+    sources: [source/wikipedia-haji-misbach-id, source/wikipedia-haji-misbach-en, source/wikidata-haji-misbach]
+external_ids: { wikidata: "Q12485070" }
+sources: [source/wikipedia-haji-misbach-en, source/wikipedia-haji-misbach-id, source/wikidata-haji-misbach]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Misbach' (revision 1279376223), Indonesian Wikipedia 'Haji Misbach' (revision 29829026) and Wikidata item Q12485070 (item revision 2540274428), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the item was read twice with identical content, and the QID was grounded through the English article's page properties and confirmed through the Indonesian article's. Identity: the queue line's bearer is the Surakarta preacher-activist (c. 1876–1926); both articles and the item agree on the biography, and the queue's years match. No Arabic or Urdu Wikipedia article exists (the item's sitelinks are English, Indonesian and Russian), so the Arabic and Urdu prose is written from the English and Indonesian sources and says so. Existence checks by name fragments (misbach, مصباح) across data/person, by QID and by biography found no prior record. Relations written: none. No born_in, died_in or buried_in edge is written: Surakarta and Manokwari have no place entities. No member_of edge is written: no group entity for Sarekat Islam, Muhammadiyah or the Communist Party of Indonesia exists; his closeness to Ahmad Dahlan is recorded in the prose only, since edges are written for membership, not alliance, and no predicate covers it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

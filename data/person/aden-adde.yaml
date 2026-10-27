@@ -1,0 +1,50 @@
+id: person/aden-adde
+class: person
+label:
+  ar: "آدم عبد الله عثمان"
+  en: "Aden Adde"
+  ur: "آدم عبد اللہ عثمان"
+names:
+  - { value: "Aden Abdulle Osman Daar", kind: full }
+  - { value: "Aden Adde", kind: alternate }
+  - { value: "آدم عبد الله عثمان دعر", kind: full }
+  - { value: "آدم عبد اللہ عثمان", kind: full }
+gender: male
+summary:
+  ar: "سياسي صومالي (1908–2007) من بلد وين، قيادي في رابطة الشباب الصومالية ورئيس الجمعية التشريعية، صار أول رئيس للصومال عند الاستقلال (1 يوليو 1960 – 1967) ثم خسر انتخابات 1967 وسلم السلطة سلميا لخلفه المنتخب عبد الرشيد علي شرماركي — أول رئيس أفريقي يتنازل طوعا بعد خسارة انتخابية — ومات في نيروبي عن 98 عاما."
+  en: "Somali politician (1908–2007) from Beledweyne, a leader of the Somali Youth League and speaker of the Legislative Assembly who became the first president of Somalia at independence (1 July 1960 – 1967), then lost the 1967 election and peacefully handed power to his elected successor Abdirashid Ali Shermarke — the first African president to give up office voluntarily after an electoral defeat — and died in Nairobi aged 98."
+  ur: "صومالی سیاست دان (1908ء–2007ء) جن کا تعلق بلدوین سے تھا؛ صومالی یوتھ لیگ کے رہنما اور قانون ساز اسمبلی کے اسپیکر، آزادی پر صومالیہ کے پہلے صدر بنے (1 جولائی 1960ء – 1967ء)، پھر 1967ء کا انتخاب ہار کر اقتدار پُرامن طور پر منتخب جانشین عبدالرشید علی شرمارکی کے حوالے کر دیا — انتخابی شکست کے بعد رضاکارانہ طور پر عہدہ چھوڑنے والے پہلے افریقی صدر — اور 98 برس کی عمر میں نیروبی میں وفات پائی۔"
+roles: [politician]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1908-12-09"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 9 December 1908 at Beledweyne in Italian Somalia; the Arabic article gives the year 1908 only. No place entity for Beledweyne exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-aden-adde-en, source/wikipedia-aden-adde-ar, source/wikidata-aden-adde]
+died:
+  edtf: "2007-06-08"
+  hijri: "1428"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article, with the BBC and Associated Press obituaries of 8 June 2007, the French article and Wikidata give his death in hospital in Nairobi, Kenya, on 8 June 2007, aged 98. The Arabic infobox gives 28 June 2007 — a variant recorded here, not followed. No place entity exists for Nairobi, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-aden-adde-en, source/wikipedia-aden-adde-ar, source/wikipedia-aden-adde-fr, source/wikidata-aden-adde]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text attests his religion personally. The French infobox gives his religion as Islam, the Arabic infobox's religion field is empty, and Wikidata carries Islam and Sunni Islam on the single item — one structured family, which never counts. The English text records only a state act of his presidency: Somalia's hosting of the World Muslim Congress's sixth conference in Mogadishu in 1966. Structured-only Sunni (the abdou-diouf configuration, wave 78 §A); the value stays unknown with the Sunni reading preserved here."
+    sources: [source/wikipedia-aden-adde-en, source/wikipedia-aden-adde-ar, source/wikipedia-aden-adde-fr, source/wikidata-aden-adde]
+external_ids: { wikidata: "Q157197" }
+sources: [source/wikipedia-aden-adde-en, source/wikipedia-aden-adde-ar, source/wikipedia-aden-adde-ur, source/wikipedia-aden-adde-fr, source/wikidata-aden-adde]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1379527079 of 10 October 2026, Arabic revision 76940931 of 10 October 2026, Urdu revision 11924698 of 10 September 2026 and French revision 237292423 of 23 June 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q157197 revision 2554026933 of 6 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q157197. The Arabic article's differing term end (10 June 1967 against the English 6 July 1967) and death date are recorded in the died note and the Arabic source file, not followed. No relations are written: he was the first holder of the Somali presidency, the office being established at independence, and no place entities exist for Beledweyne or Nairobi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

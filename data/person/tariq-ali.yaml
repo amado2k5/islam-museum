@@ -1,0 +1,38 @@
+id: person/tariq-ali
+class: person
+label: { ar: "طارق علي", en: "Tariq Ali", ur: "طارق علی" }
+names:
+  - { value: "Tariq Ali", kind: full }
+  - { value: "طارق علي", kind: full }
+gender: male
+summary:
+  ar: "طارق علي (وُلد 21 أكتوبر 1943) كاتب ومؤرخ وناشط سياسي باكستاني بريطاني. وُلد في لاهور في أسرة سياسية بارزة، ودرس في أكسفورد وترأس اتحاد طلابها سنة 1965، وبرز في حركة اليسار الجديد واحتجاجات حرب فيتنام، وله عشرات الكتب في التاريخ والسياسة منها «صدام الأصوليات» (2002). صرّح بنفسه في مقال باسمه في الغارديان سنة 2006 قائلًا: «أنا ملحد»."
+  en: "Tariq Ali (born 21 October 1943) is a Pakistani-British writer, historian and political activist. Born in Lahore into a prominent political family, he studied at Oxford and was president of the Oxford Union in 1965, rose to prominence in the New Left and the anti-Vietnam War movement, and has written dozens of books on history and politics, including Clash of Fundamentalisms (2002). In his own bylined Guardian column of 2006 he wrote: 'I am an atheist.'"
+  ur: "طارق علی (پیدائش 21 اکتوبر 1943ء) پاکستانی نژاد برطانوی مصنف، مورخ اور سیاسی کارکن ہیں۔ وہ لاہور کے ایک ممتاز سیاسی خاندان میں پیدا ہوئے، آکسفورڈ میں تعلیم پائی اور 1965ء میں آکسفورڈ یونین کے صدر رہے؛ وہ نیو لیفٹ اور ویتنام جنگ مخالف تحریک میں نمایاں ہوئے اور تاریخ و سیاست پر درجنوں کتابیں لکھیں۔ 2006ء میں گارڈین میں اپنے دستخطی کالم میں انہوں نے لکھا: «میں ملحد ہوں»۔"
+roles: [writer, historian, activist]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+born:
+  edtf: "1943-10-21"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Lahore, Punjab, British India (now Pakistan), on 21 October 1943; the English article and Wikidata agree. The Hijri year (1362) is derived by tabular conversion."
+  sources: [source/wikipedia-tariq-ali-en, source/wikidata-tariq-ali]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-tariq-ali-en, source/wikidata-tariq-ali] }
+faith:
+  - value: atheist-or-sceptic
+    basis: self-identified
+    note: "Recorded on two independent textual attestations of his own position. (1) His own bylined column in The Guardian, 13 February 2006, cited in the English article with the quotation: 'I am an atheist and do not know the meaning of the religious pain that is felt by believers…' (2) The English article's personal-life section states that he 'describes himself as an atheist', citing Hunter Davies's interview with him in The Independent (22 February 1994) alongside the Guardian column. Wikidata's religion value (atheism, Q7066) agrees but is a single structured value and is not counted. He grew up in a secular family that was 'more culturally Muslim than religious' — family background, recorded here for completeness, not an attestation. The Arabic article's lead labels him a 'secular Muslim' (مسلم علماني); that is one edition's editorial label, unsupported in its text by any source naming an affiliation, and it is preserved here rather than followed: his own unambiguous first-person words in two independent places meet the lane's bar for documented unbelief."
+    sources: [source/wikipedia-tariq-ali-en, source/wikipedia-tariq-ali-ar, source/wikidata-tariq-ali]
+external_ids: { wikidata: "Q314787" }
+sources: [source/wikipedia-tariq-ali-en, source/wikipedia-tariq-ali-ar, source/wikipedia-tariq-ali-ur, source/wikidata-tariq-ali]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 104 §A of the century-additions queue (queue line 572) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q314787) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (tariq-ali, tariq) across data/person/ returned other Tariqs (Tariq Ramadan, Tariq al-Suwaidan, Tariq ibn Ziyad) and no record for him — his biography (Pakistani-British writer born 1943 in Lahore) matches none of them — and Q314787 appears in no existing person record. His Arabic label (طارق علي) is not shared with any existing record, so no homonym entry is needed. One relation is written: born_in to place/lahore, which exists. No lived_in edge is written for London, where he lives, because London has no museum place entity; no member_of edge is written for the New Left Review's editorial committee because no group entity for it exists. His faith is recorded atheist-or-sceptic on the self-identified basis set out in the faith note, with the Arabic lead's 'secular Muslim' label preserved there. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104
+status: { review: published }

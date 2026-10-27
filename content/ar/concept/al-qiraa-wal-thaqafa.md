@@ -46,3 +46,12 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## حلقة «الوسطية» — أزمة القراءة عند الشباب
+خصّصت حلقة «الوسطية» موضوعها لأزمة القراءة لدى الشباب — «العرب لا يقرؤون» حتى قال قائلهم إنك تستطيع نشر خطتك الحربية بأمان {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:02:00}.
+
+### حجم الأزمة بالأرقام
+العرب 5% من سكان العالم وينتجون 1% من كتبه؛ وفي إحصائية العناوين 29 مقابل 726؛ و20 ألمانياً يقرأون 140 كتاباً سنوياً {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00}. ومتوسط سرعة القراءة العربي 150 كلمة في الدقيقة مقابل 200 عالمياً بفهم 75% {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:52:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}. وقاعدة بلّورها المتحاورون: أقل من كتابين في الشهر تجعلك «على هامش الحياة» لا مثقفاً {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:15:00}.
+
+### الأسباب — سوء الكتابة لا الانشغال
+صوّت الشباب أن الانشغال وعدم الوقت أقل الأسباب عذراً (12%)، بينما السبب الأكبر سوء الكتابة العربية؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:37:00} ومن اقتصاد الكتاب: المؤلف المتميز يأخذ 14% من إيراد كتابه و86% للناشر والموزع والطباعة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:30} — و60% من مبيعات دارٍ عُرضت في السعودية وحدها {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:41:00}.

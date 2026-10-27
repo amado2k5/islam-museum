@@ -1,0 +1,51 @@
+id: person/ma-fuxiang
+class: person
+label:
+  ar: "ما فوشيانغ"
+  en: "Ma Fuxiang"
+  ur: "ما فو زیانگ"
+summary:
+  ar: "عالِم وجنرال وسياسي مسلم من الهوي (1876–1932)، ابن ما تشيانلينغ وشقيق ما فولو وأبو ما هونغكوي، حكم نينغشيا (1912–1920) وسويوان (1921–1925) ورأس لجنة الشؤون المنغولية والتبتية، وأسّس جمعية الصين الإسلامية وموّل المدارس الإسلامية واتخذ موقفًا علنيًا ضد نظام المنحوان والطائفية."
+  en: "A Hui Muslim scholar, general and politician (1876–1932), son of Ma Qianling, brother of Ma Fulu and father of Ma Hongkui, who governed Ningxia (1912–1920) and Suiyuan (1921–1925) and chaired the Mongolian and Tibetan Affairs Commission. He founded the China Islamic Association, financed Muslim schools, and took a public stance against the menhuan system and religious sectarianism."
+  ur: "ایک ہوئی مسلمان عالم، جنرل اور سیاست دان (1876ء–1932ء)، ما چیان لنگ کے بیٹے، ما فولو کے بھائی اور ما ہونگ کوئ کے والد، جنہوں نے ننگ شیا (1912ء–1920ء) اور سوئی یوان (1921ء–1925ء) پر حکومت کی اور منگول و تبتی امور کمیشن کی صدارت کی۔ انہوں نے چین اسلامی انجمن قائم کی، مسلمان اسکولوں کی مالی مدد کی، اور منحوان نظام اور فرقہ واریت کے خلاف عوامی موقف اختیار کیا۔"
+names:
+  - { value: "馬福祥", kind: full }
+  - { value: "Ma Fuxiang", kind: full }
+  - { value: "Yunting", kind: alternate }
+gender: male
+roles: [general, politician, scholar]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1876-02-04"
+  hijri: "1293"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Chinese articles and Wikidata agree on 4 February 1876, at Linxia (Hezhou), Gansu. The Hijri year 1293 is the conversion of 4 February 1876, hence derived. No museum place record exists for Linxia, so no born_in relation is written."
+  sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikidata-ma-fuxiang]
+died:
+  edtf: "1932-08-19"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died on 19 August 1932, aged 56 (57 by Chinese reckoning in the Chinese article): the Chinese article and both infoboxes place the death at Beiping (Beijing), the English article's text says he died near Liangxiang while travelling to Beijing for medical treatment, and the Chinese article on his son Ma Hongkui says he fell ill on a journey undertaken for his son's sake and died at Liulihe, Zhuozhou, on the way — the readings are carried here together. The Hijri year 1351 is the conversion of 19 August 1932, hence derived. No museum place record exists for Beijing, so no died_in relation is written."
+  sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikidata-ma-fuxiang]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or an order as his. The English article records his childhood education in the Qur'an, his founding of the China Islamic Association and other Kuomintang-sponsored Islamic organisations, his patronage of imams and of Muslim schools and publishing — and, decisively, his stance against religious sectarianism and the menhuan (the Sufi order system), which he held to be a cause of violence, promoting education and unity between the sects of Islam in China instead of backing any sect or imam; it also records his enmity with the Jahriyya leader Ma Yuanzhang. The Chinese article records his childhood study at a mosque and his skill at mediating between ethnic groups and between religious sects. The Urdu article, a translation of the English, is one family with it. Wikidata carries no religion value at all. A man the texts place deliberately above the orders has no attested affiliation to record: unknown."
+    sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikipedia-ma-fuxiang-ur, source/wikidata-ma-fuxiang]
+relations:
+  - { type: sibling_of, target: person/ma-fulu, sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fulu-en] }
+external_ids: { wikidata: "Q715098" }
+sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikipedia-ma-fuxiang-ur, source/wikidata-ma-fuxiang]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Fuxiang' (revision 1378176688 of 3 October 2026), Chinese Wikipedia '馬福祥' (revision 92645105 of 13 May 2026), Urdu Wikipedia 'ما فو زیانگ' (revision 10569349 of 23 May 2026) and Wikidata item Q715098 (item revision 2451626093 of 27 April 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese and Urdu articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Chinese fragments or the QID Q715098, the Arabic string occurs only as a mention of him as a brother inside the Ma Fulu record, and no existing record carries his Arabic label as its own, so no homonym entry is required; the English article's hatnote distinguishes him from Ma Fuxing, built in this same run. The sibling_of edge to person/ma-fulu is written here, in the younger brother's record: the English article, citing Lipman (1998, p. 167), names his elder brothers as Ma Fushou, Ma Fulu and Ma Fucai, and Ma Fulu's own English article and record describe Ma Fuxiang as his brother who took over his command. The child_of edge for his son is written in Ma Hongkui's record, built in this same run, per the write-once rule. The two articles differ on his birth order — the Chinese counts him Ma Qianling's third son, the English, citing a genealogy table, his fourth — and the point is not material to any edge. His works, among them the Shuofang Daozhi gazetteer he edited, have no museum work records, so no authored edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98

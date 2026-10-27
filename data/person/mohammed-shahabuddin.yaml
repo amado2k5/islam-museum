@@ -1,0 +1,39 @@
+id: person/mohammed-shahabuddin
+class: person
+label: { ar: "محمد شهاب الدين", en: "Mohammed Shahabuddin", ur: "محمد شہاب الدین" }
+names:
+  - { value: "Mohammed Shahabuddin", kind: full }
+  - { value: "মোহাম্মদ সাহাবুদ্দিন", kind: full }
+  - { value: "محمد شهاب الدين", kind: full }
+  - { value: "محمد شہاب الدین", kind: full }
+  - { value: "Mohammad Shahabuddin Ahmed Chuppu", kind: full }
+  - { value: "Chuppu", kind: alternate }
+gender: male
+summary:
+  ar: "قاضٍ وسياسي بنغلاديشي (وُلد في 10 ديسمبر 1949)، عمل قاضي مقاطعات ومفوضًا في لجنة مكافحة الفساد من 2011 إلى 2016، ثم تولى رئاسة بنغلاديش من 24 أبريل 2023 حتى تنحّيه في 24 يوليو 2026 لأسباب صحية. وهو الرئيس الوحيد الذي أدّت في عهده ثلاث حكومات متعاقبة اليمين: حكومة شيخة حسينة، والحكومة المؤقتة برئاسة محمد يونس، وحكومة طارق رحمن."
+  en: "Bangladeshi jurist and politician (born 10 December 1949) who served as a district and sessions judge and as a commissioner of the Anti-Corruption Commission from 2011 to 2016, and then as president of Bangladesh from 24 April 2023 until he stepped down on 24 July 2026 citing ill health. He is the only president to have administered the oath to three successive governments: Sheikh Hasina's, the interim administration of Muhammad Yunus, and Tarique Rahman's."
+  ur: "بنگلہ دیشی منصف اور سیاست دان (پیدائش 10 دسمبر 1949ء)، ضلعی جج اور 2011ء سے 2016ء تک انسدادِ بدعنوانی کمیشن کے کمشنر رہے، پھر 24 اپریل 2023ء سے 24 جولائی 2026ء کو صحت کی وجوہات سے مستعفی ہونے تک بنگلہ دیش کے صدر رہے۔ وہ واحد صدر ہیں جن کے عہد میں تین یکے بعد دیگرے حکومتوں نے حلف اٹھایا۔"
+roles: [jurist, politician]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1949-12-10"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 10 December 1949 in the Jubilee Tank area of Shivrampur, Pabna District, East Bengal, Dominion of Pakistan; the English and French articles agree. No born_in relation is written: Pabna has no museum place entity. The Hijri year (1369) is derived by tabular conversion."
+  sources: [source/wikipedia-mohammed-shahabuddin-en, source/wikipedia-mohammed-shahabuddin-fr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — the reading rests on one structured family only. The French article's infobox names his religion as 'Islam sunnite' (Sunni Islam), and the Japanese, Korean and Romanian editions' infoboxes give Islam generically — structured values of one attestation family, echoed in no article text. The English article carries no religion field and no statement of his own affiliation anywhere: its only Islam-related content concerning him is his pre-presidency seat on the board of Islami Bank Bangladesh Limited, which is employment, not attestation. No second independent source names a school for him personally, so under the doubt rule the Sunni reading stays unrecorded; it is preserved here in full for a founder ruling. He is a living person, and this note records only what the defined sources state."
+    sources: [source/wikipedia-mohammed-shahabuddin-en, source/wikipedia-mohammed-shahabuddin-fr]
+sources: [source/wikipedia-mohammed-shahabuddin-en, source/wikipedia-mohammed-shahabuddin-fr]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 113 §A of the century-additions queue (queue line 618, 'Mohammed Shahabuddin — 1949–Living', verified against the queue copy on origin/main) from the English Wikipedia article read in full and the French article read in its infobox and lead on 27 October 2026; no Arabic article on him was found, so the French edition — the one whose infobox carries the school-naming structured value — is registered as the second source. IDENTITY: pinned by biography to the judge and Anti-Corruption Commission commissioner who was president 2023–2026, born at Pabna on 10 December 1949; he is not Shahabuddin Ahmed, the subject of the preceding queue line, nor any other bearer of the name. EXISTENCE: checked three ways before building — name-fragment greps (shahabuddin) across all of data/person/ returned no person file for him; his Wikidata QID Q116763154, grounded through the authority file of his Wikimedia Commons category, was grepped across all data/person/ files with no match; and the biography matches no existing record. HOMONYM CHECK: his Arabic label محمد شهاب الدين differs from Shahabuddin Ahmed's شهاب الدين أحمد, matches no entry in data/_homonyms.yaml and no other record's exact Arabic label. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers, so the sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded, although the QID was grounded for the existence check; no revision identifier was invented. RELATIONS: none are written — his birthplace Pabna has no museum place entity, and no member_of is written because the Awami League has no museum group entity. No succession edge is written: the presidential sequence is an office sequence, not personal succession; the brief for this wave refuses office successions between these men. Living-person care: only well-sourced public facts are recorded, and contested claims about his presidency are attributed in the prose. His faith is recorded unknown, flagged, on the one-structured-family configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-113
+status: { review: published }

@@ -1,0 +1,36 @@
+id: person/hassan-el-fakiri
+class: person
+label: { ar: "حسن الفقيري", en: "Hassan El Fakiri", ur: "حسن الفقيري" }
+names:
+  - { value: "حسن الفقيري", kind: full }
+  - { value: "Hassan El Fakiri", kind: full }
+gender: male
+summary:
+  ar: "لاعب كرة قدم نرويجي سابق من أصل مغربي (وُلد سنة 1977 في تمسمان بالمغرب)، لعب لمنتخب النرويج ثماني مباريات، وتنقّل بين لين وبران وموناكو وبوروسيا مونشنغلادباخ، ثم اتجه إلى التدريب فعمل مساعداً في سانت إتيان ومدرباً لتطوير اللاعبين في بران."
+  en: "Former Norwegian footballer of Moroccan origin (born 1977 in Temsamane, Morocco), capped eight times by Norway, who played for Lyn, Brann, Monaco and Borussia Mönchengladbach before moving into coaching, as an assistant at Saint-Étienne and a player development coach at Brann."
+  ur: "مراکشی نژاد سابق نارویجیئن فٹبالر (پیدائش 1977، تیمسامان، مراکش)، جنہوں نے ناروے کے لیے آٹھ بین الاقوامی میچ کھیلے اور Lyn، Brann، Monaco اور Borussia Mönchengladbach کی نمائندگی کی، پھر کوچنگ میں آئے اور Saint-Étienne میں اسسٹنٹ اور Brann میں پلیئر ڈیولپمنٹ کوچ بنے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1977-04-18"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata (Q1349797) all give 18 April 1977. For the birthplace the Arabic and Urdu articles and Wikidata name the commune of Temsamane, Morocco, and the English article's text refines it to Amezzaourou, a town in the commune of Temsamane. No museum place entity exists for Temsamane, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1397 is derived from the Gregorian date."
+  sources: [source/wikipedia-hassan-el-fakiri-en, source/wikipedia-hassan-el-fakiri-ar, source/wikipedia-hassan-el-fakiri-ur, source/wikidata-hassan-el-fakiri]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for El Fakiri. None of the English, Arabic or Urdu articles carries a religion field or any statement of his religion, and Wikidata (Q1349797) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-hassan-el-fakiri-en, source/wikipedia-hassan-el-fakiri-ar, source/wikipedia-hassan-el-fakiri-ur, source/wikidata-hassan-el-fakiri]
+external_ids: { wikidata: "Q1349797" }
+sources: [source/wikipedia-hassan-el-fakiri-en, source/wikipedia-hassan-el-fakiri-ar, source/wikipedia-hassan-el-fakiri-ur, source/wikidata-hassan-el-fakiri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1362368343 of 3 July 2026), Arabic Wikipedia (revision 76591092 of 16 September 2026), Urdu Wikipedia (revision 11300110 of 27 June 2026) and Wikidata Q1349797, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Existence was checked both ways: the only 'fakiri' record in data/person/ is person/fakiri, a sixteenth-century Ottoman writer (Wikidata Q136101772), a different man, and this subject's Q1349797 was searched across data/person/ and data/source/ with no hit; this is a new build under the distinct slug hassan-el-fakiri, and the Arabic labels differ (حسن الفقيري against فقيري), so there is no exact-label collision. RELATION DIRECTION: no relations are written — his birthplace, Temsamane, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

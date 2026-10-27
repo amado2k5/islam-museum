@@ -1,0 +1,57 @@
+id: person/noman-celebicihan
+class: person
+label:
+  ar: "نعمان چلبى جهان"
+  en: "Noman Çelebicihan"
+  ur: "نعمان چلبی جہان"
+summary:
+  ar: "سياسي وكاتب وشاعر تتاري قرمي، أول رئيس لحكومة (مديرية) جمهورية القرم الشعبية ووزير عدلها. انتُخب سنة 1917 رئيسا للجنة التنفيذية المسلمة المؤقتة في القرم ومفتيا مؤقتا لمسلمي القرم وليتوانيا وبولندا وبيلاروس، ونظّم القورولتاي الأول وألّف «أنت أتكنمن» النشيد الوطني للتتار القرم؛ اعتُقل في يناير 1918 وأعدمه بحارة بلاشفة رميا في سيفاستوبول في 23 فبراير 1918."
+  en: "Crimean Tatar politician, writer and poet, the first chairman of the Directory (national government) of the Crimean People's Republic and its head of justice. Elected in March 1917 chairman of the Provisional Crimean Muslim Executive Committee and temporary mufti of the Muslims of Crimea, Lithuania, Poland and Belarus, he organised the first Qurultay and authored 'Ant etkenmen', the Crimean Tatar national anthem; arrested in January 1918, he was shot by Bolshevik sailors at Sevastopol on 23 February 1918."
+  ur: "کریمیائی تاتاری سیاست دان، مصنف اور شاعر؛ جمہوریہ کریمیا کی ڈائریکٹری (قومی حکومت) کے پہلے چیئرمین اور اس کے نظامِ انصاف کے سربراہ۔ مارچ 1917 میں عارضی کریمیائی مسلم ایگزیکٹو کمیٹی کے چیئرمین اور کریمیا، لیتھوانیا، پولینڈ اور بیلاروس کے مسلمانوں کے عارضی مفتی منتخب ہوئے، پہلا قرولتائی منعقد کیا اور کریمیائی تاتاری قومی ترانہ لکھا؛ جنوری 1918 میں گرفتار ہوئے اور 23 فروری 1918 کو سیواستوپول میں بالشویک ملاحوں نے گولی مار کر شہید کیا۔"
+names:
+  - { value: "Noman İbraim oğlu Çelebicihan", kind: full }
+  - { value: "Номан Челебиджихан", kind: full }
+  - { value: "نعمان چلبى جهان", kind: full }
+  - { value: "Noman Chelebidjikhan", kind: latinized }
+  - { value: "Chelebi Chelebiyev", kind: alternate }
+born:
+  edtf: "1885"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1885 at Büyük Sonaq (Biyuk-Sunak) village near Dzhankoy, Crimea (all four articles and Wikidata give the year only). The Russian and Ukrainian articles record that his father İbrahim Çelebi was the village mosque's imam; that is family background and is not used for faith. No Hijri pairing is given in any source, so none is recorded."
+  sources: [source/wikipedia-noman-celebicihan-en, source/wikipedia-noman-celebicihan-ru, source/wikidata-noman-celebicihan]
+died:
+  edtf: "1918-02-23"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Arrested in January 1918, held in the Sevastopol city prison and shot by Black Sea Fleet sailors on 23 February 1918; his body was thrown into the Black Sea (English, Russian and Ukrainian articles). No source gives a Julian/Gregorian dual dating, so the day is carried as stated. No place entity exists for Sevastopol, so no died_in relation is written."
+  sources: [source/wikipedia-noman-celebicihan-en, source/wikipedia-noman-celebicihan-ru, source/wikidata-noman-celebicihan]
+tags: [crimea, crimean-tatars, qurultay]
+roles: [politician, writer, poet]
+wings: [people]
+regions: [anatolia-balkans]
+relations:
+  - { type: allied_with, target: person/cafer-seydamet-kirimer, sources: [source/wikipedia-noman-celebicihan-ru, source/wikipedia-noman-celebicihan-uk] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's religion value for him is Sunni Islam, but that is a single structured-data value: no text read names a school for him personally — the English, Russian, Turkish and Ukrainian articles name none. His election as temporary mufti in 1917 is an office, his father's post as village imam is family background, and his theological education in Istanbul is schooling; none of these counts as attestation, so the value stays unknown pending a second, textual source."
+    sources: [source/wikidata-noman-celebicihan, source/wikipedia-noman-celebicihan-en, source/wikipedia-noman-celebicihan-ru, source/wikipedia-noman-celebicihan-uk]
+external_ids: { wikidata: "Q1124178" }
+sources:
+  - source/wikipedia-noman-celebicihan-en
+  - source/wikipedia-noman-celebicihan-ru
+  - source/wikipedia-noman-celebicihan-tr
+  - source/wikipedia-noman-celebicihan-uk
+  - source/wikidata-noman-celebicihan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Russian, Turkish and Ukrainian Wikipedia articles on Noman Çelebicihan and his Wikidata item Q1124178, all read in full on 27 October 2026; Wikidata's lone religion value (Sunni Islam) is matched by no text, and his muftiate, his father's imamate and his theological schooling do not count as attestation, so his faith is unknown. The allied_with relation to Cafer Seydamet Kırımer is written here once, for their co-founding of the Vatan society and joint leadership work attested in the Russian and Ukrainian articles; no founder_of relation is written for Milliy Fırqa or the Qurultay, as no group entity exists for either, and no died_in relation, as no place entity exists for Sevastopol."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-108

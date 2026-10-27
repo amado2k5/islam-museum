@@ -1,0 +1,38 @@
+id: person/togrul-asgarov
+class: person
+label: { ar: "توغرول أسغاروف", en: "Togrul Asgarov", ur: "توغرول اسگاروف" }
+names:
+  - { value: "Togrul Shahriyar oglu Asgarov", kind: full }
+  - { value: "Toghrul Asgarov", kind: alternate }
+  - { value: "Toğrul Əsgərov", kind: alternate }
+  - { value: "طغرل شهريار أوغلو أصغروف", kind: full }
+gender: male
+summary:
+  ar: "مصارع أذربيجاني في المصارعة الحرة، وُلد في كنجه سنة 1992؛ بطل أولمبي في لندن 2012 (60 كغ) وصاحب فضية ريو 2016 (65 كغ)، وبطل أوروبا 2012 وبطل الألعاب الأوروبية 2015، وأُوقف سنة واحدة في 2017 لمخالفة قواعد المنشطات."
+  en: "Azerbaijani freestyle wrestler, born in Ganja in 1992. Olympic champion at London 2012 (60 kg) and silver medallist at Rio 2016 (65 kg), European champion in 2012 and European Games champion in 2015; he was disqualified for one year in 2017 for a doping-rules violation."
+  ur: "آذربائیجانی فری اسٹائل پہلوان، 1992 میں گنجہ میں پیدا ہوئے؛ لندن 2012 کے اولمپک چیمپئن (60 کلو)، ریو 2016 کے چاندی کے تمغہ یافتہ، 2012 کے یورپی چیمپئن اور 2015 کے یورپی کھیلوں کے چیمپئن؛ 2017 میں ڈوپنگ قوانین کی خلاف ورزی پر ایک سال کے لیے نااہل قرار پائے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1992-09-17"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 17 September 1992 in Ganja, Azerbaijan (all three articles and Wikidata). Ganja has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-togrul-asgarov-en, source/wikipedia-togrul-asgarov-ar, source/wikidata-togrul-asgarov]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names any religious affiliation for him personally. The English, Azerbaijani and Arabic article texts and infoboxes are silent on religion, and Wikidata carries no religion value (P140). The only religion-adjacent signals are his participation in, and category filings for, the Islamic Solidarity Games, which are event participation and filings and never attest. No source makes any Shia claim for him, so the Shia-mapping rule is not engaged."
+    sources: [source/wikipedia-togrul-asgarov-en, source/wikipedia-togrul-asgarov-az, source/wikipedia-togrul-asgarov-ar, source/wikidata-togrul-asgarov]
+external_ids: { wikidata: "Q558630" }
+sources: [source/wikipedia-togrul-asgarov-en, source/wikipedia-togrul-asgarov-az, source/wikipedia-togrul-asgarov-ar, source/wikidata-togrul-asgarov]
+provenance:
+  layer: own-research
+  source: "English, Azerbaijani and Arabic Wikipedia articles on Toghrul Asgarov, each fetched by its recorded revision id (EN 1371553583, AZ 8910268, AR 76944076) with the returned id asserted equal before use, and Wikidata item Q558630 (revision 2518749626). Existence checks by name fragments (Asgarov, Əsgərov, أصغروف, أسغاروف) and by QID across data/person and data/source found no prior record. The lane queue spells the name Togrul Asgarov and gives b. 1992; the sources agree, with the English article title spelling the first name Toghrul."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

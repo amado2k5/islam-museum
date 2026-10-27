@@ -1,0 +1,48 @@
+id: person/bade-ghulam-ali-khan
+class: person
+label: { ar: "بادي غلام علي خان", en: "Bade Ghulam Ali Khan", ur: "بڑے غلام علی خان" }
+names:
+  - { value: "غلام علی خان", kind: full }
+  - { value: "Ghulam Ali Khan", kind: full }
+  - { value: "بڑے غلام علی خان", kind: alternate }
+  - { value: "Bade Ghulam Ali Khan", kind: alternate }
+  - { value: "سب رنگ", kind: pen }
+  - { value: "Sabrang", kind: pen }
+gender: male
+summary:
+  ar: "مغنٍّ كلاسيكي هندي (1902–1968) من غرانة قصور–بتيالا، وُلد في قصور وتدرّب على يد عمّه وأبيه، وذاع صيته بصوت امتد ثلاث طبقات وبأسلوب جمع بين الدروباد وجيبور وغواليور. غنّى أغنيتين لفيلم «مغول الأعظم» (1960) بأجر قياسي، ونال بادما بوشان سنة 1962."
+  en: "Indian Hindustani classical vocalist (1902–1968) of the Kasur Patiala Gharana, born at Kasur and trained by his uncle and his father. Famous for a voice spanning three octaves and a style fusing Dhrupad, Jaipur and Gwalior elements, he sang two songs for the film Mughal-e-Azam (1960) at a record fee and received the Padma Bhushan in 1962."
+  ur: "ہندوستانی کلاسیکی گلوکار (1902ء–1968ء) جن کا تعلق قصور پٹیالہ گھرانے سے تھا؛ قصور میں پیدا ہوئے، چچا اور والد سے تربیت پائی۔ تین اوکٹیو پر پھیلی آواز اور دھرپد، جے پور اور گوالیار کے امتزاج سے مشہور ہوئے، فلم «مغلِ اعظم» (1960ء) کے لیے دو گانے ریکارڈ کیے اور 1962ء میں پدم بھوشن پایا۔"
+roles: [musician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1902-04-02"
+  hijri: "1319"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles agree: born 2 April 1902 at Kasur in Punjab, British India. The Hijri year (1319) is a conversion. No place entity exists for Kasur, so no born_in edge is written."
+  sources: [source/wikipedia-bade-ghulam-ali-khan-en, source/wikipedia-bade-ghulam-ali-khan-ur]
+died:
+  edtf: "1968-04-23"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The place, Hyderabad, is agreed. The day is split: the English article's text and infobox and the Urdu article's infobox give 23 April 1968, which the record follows, while the Urdu article's lead and the Punjabi article give 25 April. The Hijri year (1388) is a conversion. No place entity exists for Hyderabad, so no died_in edge is written."
+  sources: [source/wikipedia-bade-ghulam-ali-khan-en, source/wikipedia-bade-ghulam-ali-khan-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted text names his religion or any school. The English and Urdu articles give his family, training, career and honours only; his burial at the Daira Mir Momin cemetery in Hyderabad, his name and his family's background are context, never an attestation, and his celebrated singing of bhajans and kafis is repertoire, which never counts. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-bade-ghulam-ali-khan-en, source/wikipedia-bade-ghulam-ali-khan-ur]
+sources: [source/wikipedia-bade-ghulam-ali-khan-en, source/wikipedia-bade-ghulam-ali-khan-ur]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bade Ghulam Ali Khan' and Urdu Wikipedia 'بڑے غلام علی خان', read on 26 October 2026. The reading route used exposed no revision ids, so the sources are recorded in the consultation-date form and no Wikidata source file or external_ids are asserted. Existence was checked by filename fragments under all spellings (ghulam, bade, sabrang), by Arabic label, by biography and by the Wikidata route across data/person/ — no earlier record exists; the Ghulam Ali of the queue's other line (a living ghazal singer, b. 1940) is a different man and is not this record. No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and says so. No relations are written: Kasur and Hyderabad have no place entities, and his teachers (his father Ali Baksh Khan and his uncle Kale Khan) and his sons have no person records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

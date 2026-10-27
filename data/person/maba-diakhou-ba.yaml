@@ -1,0 +1,47 @@
+id: person/maba-diakhou-ba
+class: person
+label: { ar: "مابا دياخو با", en: "Maba Diakhou Bâ", ur: "مابا دیاخو با" }
+names:
+  - { value: "Maba Diakhou Bâ", kind: full }
+  - { value: "Mamadu Diakhou Bâ", kind: alternate }
+  - { value: "Amath Ba", kind: alternate }
+  - { value: "Ma Ba Jaxu", kind: alternate }
+gender: male
+summary:
+  ar: "مرابط سنغامبي وألمامي (1809 – 18 يوليو 1867)، معلّم قرآن من الريب (باديبو) من نسل الدنيانكي، صار تلميذًا للطريقة التيجانية ولقي الحاج عمر تال سنة 1846 فسمّاه قائدًا تيجانيًا للمنطقة. حكم الريب من 1861 ثم معظم سالوم، وأسس نيورو دو ريب، وأدخل لات ديور وألبوري ندياي في الإسلام، وهزم الفرنسيين في باثي باديان سنة 1865، وقُتل في معركة فاندان-تيوتيون (سومب) في 18 يوليو 1867؛ وقبره في فاندين مزار يُحجّ إليه."
+  en: "Senegambian marabout and Almami (1809 – 18 July 1867), a Quran teacher of the Rip (Badibu) of Denianke descent who became a disciple of the Tijaniyya, met El Hadj Umar Tall in 1846 and was named by him Tijani leader for the region. From 1861 he ruled the Rip and then most of Saloum, founded Nioro du Rip, converted Lat Dior and Alboury Ndiaye, defeated the French at Pathé Badiane in 1865, and was killed at the battle of Fandane-Thiouthioune (Somb) on 18 July 1867; his tomb at Fandène is a place of pilgrimage."
+  ur: "سینیگامبی مرابط اور المامی (1809ء – 18 جولائی 1867ء)، ریب (بادیبو) کے قرآن کے استاد اور دنیانکے نسل سے تھے؛ طریقہ تیجانیہ کے مرید بنے، 1846ء میں الحاج عمر تال سے ملاقات ہوئی جنہوں نے انہیں علاقے کا تیجانی قائد مقرر کیا۔ 1861ء سے ریب اور پھر بیشتر سالوم پر حکومت کی، نیورو دو ریب کی بنیاد رکھی، لات دیور اور البوری ندیائے کو اسلام میں داخل کیا، 1865ء میں پاتھے بادیان میں فرانسیسیوں کو شکست دی، اور 18 جولائی 1867ء کو فاندان-تیوتیون (سومب) کی لڑائی میں مارے گئے؛ فاندین میں ان کا مزار زیارت گاہ ہے۔"
+roles: [ruler, teacher, mystic]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1809"
+  hijri: "1224"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1809, per both articles and Wikidata: the English article says in the region of Rip, also known as Badibu, under the birth name Amath Ba, into a Denianke-descended family who were all teachers of the Quran; the French article's infobox names Tavacaltou as the birthplace. Neither the Rip nor Tavacaltou has a place entity in the museum yet, so no born_in relation is written. The Hijri year is derived by tabular conversion of the year."
+  sources: [source/wikipedia-maba-diakhou-ba-en, source/wikipedia-maba-diakhou-ba-fr, source/wikidata-maba-diakhou-ba]
+died:
+  edtf: "1867-07-18"
+  hijri: "1284"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed on 18 July 1867 at the battle of Fandane-Thiouthioune, commonly called the battle of Somb: the English article dates the battle to 18 July 1867, the French article gives the same date (its infobox names Somb as the place of death), and Wikidata carries 18 July 1867 as one of its two death values. Both articles say he was interred in the village of Fandène (Mbel Fandane), where his tomb has become a place of pilgrimage. Somb and Fandène have no place entities in the museum yet, so no died_in or buried_in relation is written. The Hijri year is derived by tabular conversion (18 July 1867 falls in Rabi' al-Awwal 1284)."
+  sources: [source/wikipedia-maba-diakhou-ba-en, source/wikipedia-maba-diakhou-ba-fr, source/wikidata-maba-diakhou-ba]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent article texts attest his personal membership of the Tijaniyya, in discipleship and not in headship alone. The English article's lead calls him 'a disciple of the Tijaniyya Sufi brotherhood', and its narrative says that in 1846 he likely met El Hadj Umar Tall, 'who named him the Tijani leader for the region'. The French article's lead calls him 'marabout du Rip et membre de la confrérie Tijaniyya' — a marabout of the Rip and a member of the Tijani brotherhood — and its narrative has him rename his capital Nioro du Rip in honour of Umar Tall. On those two texts his personal Tijani affiliation is documented, and the value sufi is recorded. No source read names a madhhab for him, so no second segment is recorded. Wikidata's religion values (Islam; Tijaniyyah) are structured data: they corroborate the two texts but are not themselves counted."
+    sources: [source/wikipedia-maba-diakhou-ba-en, source/wikipedia-maba-diakhou-ba-fr]
+external_ids: { wikidata: "Q3273753" }
+sources: [source/wikipedia-maba-diakhou-ba-en, source/wikipedia-maba-diakhou-ba-fr, source/wikidata-maba-diakhou-ba]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Maba Diakhou Bâ' (revision 1356187759), French Wikipedia 'Maba Diakhou Bâ' (revision 239434650) and Wikidata item Q3273753 (item revision 2533889652), read via the MediaWiki API on 26 October 2026. No Arabic or Urdu Wikipedia article on him exists, so the Arabic and Urdu prose are the museum's own, written from the English and French articles. El Hadj Umar Tall has no person record in the museum yet, so the student_of edge to him cannot be written; the Rip, Saloum, Somb and Fandène have no place or polity entities yet, so no ruler_of, died_in or buried_in relation is written. With this record in place, the converted_under edge from Lat Dior to Maba — noted as unwritable in Lat Dior's provenance (run century-additions-21) — can now be written in Lat Dior's own record by a later run."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-65
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

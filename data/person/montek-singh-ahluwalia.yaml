@@ -1,0 +1,37 @@
+id: person/montek-singh-ahluwalia
+class: person
+label: { ar: "مونتيك سينغ أهلواليا", en: "Montek Singh Ahluwalia", ur: "مونٹیک سنگھ اہلوالیہ" }
+names:
+  - { value: "Montek Singh Ahluwalia", kind: full }
+  - { value: "مونٹیک سنگھ اہلوالیہ", kind: full }
+gender: male
+summary:
+  ar: "مونتيك سينغ أهلواليا (وُلد في 24 نوفمبر 1943) اقتصادي هندي وموظف حكومي، كان نائب رئيس لجنة التخطيط في الهند (2004–2014) برتبة وزير، وأول مدير لمكتب التقييم المستقل في صندوق النقد الدولي (2001–2004)، وشغل أرفع المناصب الاقتصادية في الحكومة الهندية ومنها أمين المالية. حاصل على منحة رودس، التحق بالبنك الدولي سنة 1968 فأصبح أصغر رئيس شعبة فيه، وهو من أبرز وجوه عصر الإصلاح الاقتصادي الهندي، ونال وسام بادما فيبوشان سنة 2011."
+  en: "Montek Singh Ahluwalia (born 24 November 1943) is an Indian economist and civil servant who served as deputy chairman of the Planning Commission of India (2004–2014) with the rank of a cabinet minister, as the first director of the International Monetary Fund's Independent Evaluation Office (2001–2004), and in India's senior economic posts, including finance secretary. A Rhodes scholar who joined the World Bank in 1968 and became its youngest division chief, he is a central figure of India's economic-reform era and received the Padma Vibhushan in 2011."
+  ur: "مونٹیک سنگھ اہلوالیہ (پیدائش 24 نومبر 1943ء) ایک بھارتی ماہر اقتصادیات اور سرکاری افسر ہیں جو ہندوستان کے پلاننگ کمیشن کے نائب صدر (2004ء–2014ء) بطور وفاقی وزیر رہے، بین الاقوامی مالیاتی فنڈ کے آزاد جائزہ دفتر کے پہلے ڈائریکٹر (2001ء–2004ء) رہے، اور بھارتی حکومت کے اعلیٰ اقتصادی عہدوں پر فائز رہے جن میں سیکرٹری خزانہ بھی شامل ہے۔ روڈز اسکالر کی حیثیت سے وہ 1968ء میں عالمی بینک میں شامل ہوئے اور اس کے کم عمر ترین ڈویژن چیف بنے؛ وہ بھارت کے اقتصادی اصلاحات کے دور کی مرکزی شخصیات میں سے ہیں اور 2011ء میں پدم وبھوشن سے نوازے گئے۔"
+roles: [economist, politician]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1943-11-24"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 24 November 1943; the English, Hindi and Urdu-era articles and Wikidata agree on the date. The place is contested: the English article's infobox and early-life text give Rawalpindi, British India, and the Urdu article files him among Rawalpindi people, while the Hindi article and Wikidata give New Delhi. The date is carried as historical with the English place stated here; no born_in relation is written, the place being contested and Rawalpindi having no museum place entity. The Hijri year (1362) is derived by tabular conversion."
+  sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder — attested affiliation with NO enum value, preserved verbatim. The Hindi article's infobox carries the religion field 'सिख धर्म' (Sikhism) for him personally; that is one infobox, one source family, and one infobox never counts. The Hindi text itself says only that he was born into a Punjabi Kalal family — family background. The English and Urdu articles name no religion, and Wikidata carries no religion value. Two further bars apply: first, no second independent text naming his affiliation was found in the sources read; second, schema/enums/faith.yaml contains no Sikh value at all, so even a fully attested Sikh affiliation could not be recorded as a value — under the wave-91 §B no-enum precedent it is preserved here in the note rather than recorded under an improvised value. Recorded unknown, flagged. He is in the queue as a non-Muslim contemporary of the group's subjects, and is built as the person the queue line names, on the Kosta Khetagurov precedent."
+    sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-ur, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
+external_ids: { wikidata: "Q3322629" }
+sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-ur, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 107 §A of the century-additions queue from the English, Urdu and Hindi Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu and Hindi articles' pageprops. Existence checked both ways before building: name-fragment greps (ahluwalia, اہلوالیہ) across data/person/ found no record for him, and his Q3322629 appears in no existing person record. No relation is written: his birthplace is contested between Rawalpindi and New Delhi (see the born note) and Rawalpindi has no museum place entity, and his wife Isher Judge Ahluwalia — herself a notable economist — has no museum record. His faith is recorded unknown, flagged, with the Sikh attestation of the Hindi infobox preserved in the faith note; the faith enum was checked first and contains no Sikh value."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-107
+status: { review: published }

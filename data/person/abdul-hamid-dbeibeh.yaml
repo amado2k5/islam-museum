@@ -1,0 +1,39 @@
+id: person/abdul-hamid-dbeibeh
+class: person
+label: { ar: "عبد الحميد الدبيبة", en: "Abdul Hamid Dbeibeh", ur: "عبدالحمید دبیبہ" }
+names:
+  - { value: "عبد الحميد محمد عبد الرحمن الدبيبة", kind: full }
+  - { value: "Abdul Hamid Muhammad Abdul Rahman al-Dbeibeh", kind: full }
+  - { value: "Abdul Hamid Dbeibeh", kind: alternate }
+  - { value: "Abdul Hamid al-Dabiba", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ورجل أعمال ليبي من مصراتة، رئيس وزراء حكومة الوحدة الوطنية منذ 15 مارس 2021. أدار شركة ليبيا للاستثمار والتنمية في عهد القذافي، وأسّس حراك ليبيا المستقبل سنة 2020، واختاره ملتقى الحوار السياسي الليبي لقيادة الحكومة الموحدة في فبراير 2021."
+  en: "Libyan politician and businessman from Misrata, prime minister of the Government of National Unity since 15 March 2021. He headed the Libyan Investment and Development Company under Gaddafi, founded the Libya Future movement in 2020, and was chosen by the Libyan Political Dialogue Forum in February 2021 to lead the unified government."
+  ur: "مصراتہ سے تعلق رکھنے والے لیبیائی سیاست دان اور تاجر، جو 15 مارچ 2021 سے قومی اتحاد کی حکومت کے وزیرِ اعظم ہیں۔ انہوں نے قذافی کے دور میں لیبیا سرمایہ کاری و ترقی کمپنی کی قیادت کی، 2020 میں لیبیا المستقبل تحریک قائم کی، اور فروری 2021 میں لیبیا کے سیاسی ڈائیلاگ فورم نے انہیں متحدہ حکومت کی قیادت کے لیے منتخب کیا۔"
+roles: [politician, architect]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1959"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The birth year is contested between the two article families: the English article's text and infobox give 'around 1959' at Misrata (citing Al Jazeera), the Arabic lead gives 1959, and Wikidata gives 13 February 1959; against these, the Urdu article gives 13 February 1958, the English article's short description and birth category file 1958, and the Arabic article files him under both the 1958 and the 1959 birth categories. The year 1959 is followed at year precision only. No Hijri year is carried: with the Gregorian year itself contested, no consistent Hijri pairing exists."
+  sources: [source/wikipedia-abdul-hamid-dbeibeh-en, source/wikipedia-abdul-hamid-dbeibeh-ar, source/wikipedia-abdul-hamid-dbeibeh-ur, source/wikidata-abdul-hamid-dbeibeh]
+relations:
+  - { type: born_in, target: place/misrata, sources: [source/wikipedia-abdul-hamid-dbeibeh-en, source/wikidata-abdul-hamid-dbeibeh] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a religion or a school for him. The Arabic infobox gives Islam in general and Wikidata gives Islam (generic) — one source family, no school value anywhere. The generic attestation is one family only, so no school is recorded (the Erekat configuration: structured/infobox generic alone, FLAGGED for the founder)."
+    sources: [source/wikipedia-abdul-hamid-dbeibeh-ar, source/wikidata-abdul-hamid-dbeibeh]
+external_ids: { wikidata: "Q105319569" }
+sources: [source/wikipedia-abdul-hamid-dbeibeh-en, source/wikipedia-abdul-hamid-dbeibeh-ar, source/wikipedia-abdul-hamid-dbeibeh-ur, source/wikidata-abdul-hamid-dbeibeh]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abdul Hamid Dbeibeh, each fetched by its recorded revision id (EN 'Abdul Hamid AL Dabiba' 1382163873, AR 76475064, UR 11411358) with the returned id asserted equal before use, and Wikidata item Q105319569 (item revision 2560359933, read twice with identical revision and claims). The QID was grounded by biography (prime minister of Libya since 2021) through the Arabic and Urdu articles' pageprops and the item's sitelinks: the English title 'Abdul Hamid Dbeibeh' is a redirect and is not itself sitelinked to the item. Existence checks by Latin fragments (Dbeibeh, Dabiba) and Arabic fragments (الدبيبة) across data/person, by the grounded QID across all person files, and by biography found no prior record. The succession from Fayez al-Sarraj (record exists) is prose only: a premiership succession is a portfolio succession, per block practice, and no successor_of edge is written. No member_of edge is written for the Libya Future movement or the Government of National Unity: neither entity exists. His claimed University of Toronto master's degree, denied by the university, is reported in the prose as a claim, not a fact."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

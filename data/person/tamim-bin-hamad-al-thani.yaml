@@ -1,0 +1,44 @@
+id: person/tamim-bin-hamad-al-thani
+class: person
+label: { ar: "تميم بن حمد آل ثاني", en: "Tamim bin Hamad Al Thani", ur: "تمیم بن حمد آل ثانی" }
+names:
+  - { value: "Tamim bin Hamad bin Khalifa Al Thani", kind: full }
+  - { value: "تميم بن حمد بن خليفة آل ثاني", kind: full }
+gender: male
+summary:
+  ar: "تميم بن حمد آل ثاني (وُلد 3 يونيو 1980) أمير قطر منذ 25 يونيو 2013، وثامن أمرائها وأحد أصغر الملوك سنًا في العالم عند تولّيه. تعلّم في بريطانيا وتخرّج في ساندهيرست سنة 1998، وصار وليًا للعهد سنة 2003 بعد تنازل أخيه الأكبر جاسم عن الولاية، ثم تسلّم الحكم بتنازل والده حمد بن خليفة في خطوة غير مسبوقة في الخليج. شهد عهده كأس العالم 2022، والأزمة الدبلوماسية مع جيرانه (2017–2021)، وأول انتخابات لمجلس الشورى سنة 2021، ووساطات قطرية متكررة في نزاعات المنطقة."
+  en: "Tamim bin Hamad Al Thani (born 3 June 1980) is the Emir of Qatar since 25 June 2013, its eighth emir and one of the world's youngest monarchs at his accession. Educated in Britain, he graduated from Sandhurst in 1998, became heir apparent in 2003 after his elder brother Jassim renounced the claim, and received power by his father Hamad bin Khalifa's abdication, a step without Gulf precedent. His reign has seen the 2022 FIFA World Cup, the diplomatic crisis with Qatar's neighbours (2017–2021), the first Shura Council elections in 2021, and repeated Qatari mediation in the region's conflicts."
+  ur: "تمیم بن حمد آل ثانی (پیدائش 3 جون 1980ء) 25 جون 2013ء سے قطر کے امیر ہیں، مملکت کے آٹھویں امیر اور تخت نشینی کے وقت دنیا کے کم عمر ترین بادشاہوں میں سے ایک۔ برطانیہ میں تعلیم پائی اور 1998ء میں سینڈہرسٹ سے فارغ ہوئے، 2003ء میں اپنے بڑے بھائی جاسم کے دستبردار ہونے پر ولی عہد بنے، پھر والد کی دستبرداری سے امیر ہوئے۔ ان کے دور میں 2022ء فیفا عالمی کپ، 2017ء تا 2021ء سفارتی بحران اور 2021ء میں مجلسِ شوریٰ کے پہلے انتخابات ہوئے۔"
+roles: [ruler]
+born:
+  edtf: "1980-06-03"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Doha on 3 June 1980 (English, Arabic and Urdu articles agree; the English lead's biography is cited to Encyclopaedia Britannica). The Wikidata item's birth value reads 25 March 1980, referenced to Britannica, but it is contradicted by all three articles and was not followed — it is recorded as an error in the Wikidata source entity. He is the fourth son of Hamad bin Khalifa Al Thani and the second son of Moza bint Nasser. Doha has no place entity in the museum, so no born_in relation is written. The Hijri year 1400 is the tabular conversion of the Gregorian date (derived: true); the sources give no independent Hijri date."
+  sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikipedia-tamim-bin-hamad-al-thani-ar, source/wikipedia-tamim-bin-hamad-al-thani-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on a single structured value — the Urdu article's infobox religion field reads 'Ahl al-Sunna wa'l-Jama'a' — while the English and Arabic infoboxes carry no religion field, their texts name no affiliation, and Wikidata's religion value is Islam (Q432) only, with no Sunni value; the categories 'Qatari Muslims' are filings, which never attest. This is the single-infobox configuration (the wave-83 Khalid configuration, here carried by the Urdu edition), the same configuration as his father's record in this run: an infobox alone never counts, and one structured family cannot meet the two-independent-source bar. His headship of the Al Thani house and of a state whose constitution names Islam do not attest personal affiliation. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikipedia-tamim-bin-hamad-al-thani-ar, source/wikipedia-tamim-bin-hamad-al-thani-ur, source/wikidata-tamim-bin-hamad-al-thani]
+relations:
+  - { type: child_of, target: person/hamad-bin-khalifa-al-thani, sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikidata-tamim-bin-hamad-al-thani] }
+  - { type: successor_of, target: person/hamad-bin-khalifa-al-thani, sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikipedia-tamim-bin-hamad-al-thani-ar] }
+  - { type: member_of, target: group/al-thani, sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikidata-tamim-bin-hamad-al-thani] }
+wings: [people, living]
+regions: [arabia]
+external_ids: { wikidata: "Q1855372" }
+sources:
+  - source/wikipedia-tamim-bin-hamad-al-thani-en
+  - source/wikipedia-tamim-bin-hamad-al-thani-ar
+  - source/wikipedia-tamim-bin-hamad-al-thani-ur
+  - source/wikidata-tamim-bin-hamad-al-thani
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Tamim bin Hamad Al Thani in English (revision 1381053847 of 19 Oct 2026), Arabic (revision 75879131 of 12 Jul 2026) and Urdu (revision 10118420 of 27 Apr 2026) and the Wikidata item Q1855372 (item revision 2559720679 of 22 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed. SUCCESSION VERIFIED against the articles before the edge was written, as the run brief required: the English infobox names his predecessor as Hamad bin Khalifa and its text states the father handed over power in a televised speech on 25 June 2013; the Arabic infobox names the same predecessor (سبقه); he was the first Al Thani ruler to accede by abdication rather than coup, and no interim holder intervened — so the successor_of edge to person/hamad-bin-khalifa-al-thani (built in this same run) is direct, and the child_of edge rests on the same articles and the Wikidata father claim."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-87
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/sulayman-al-baruni
+class: person
+label: { ar: "سليمان الباروني", en: "Sulayman al-Baruni", ur: "سلیمان البارونی" }
+names:
+  - { value: "سليمان الباروني", kind: full }
+  - { value: "Sulayman al-Baruni", kind: full }
+  - { value: "Sulaiman al-Barouni", kind: alternate }
+  - { value: "Suleyman Al Baruni", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وشاعر ورجل دولة ليبي إباضي (نحو 1870–1940)؛ من جبل نفوسة، درس بالزيتونة والأزهر والمزاب، وكان نائبًا في مجلس المبعوثان العثماني، وقائدًا في مقاومة الغزو الإيطالي، وواليًا على طرابلس الغرب، ثم وزيرًا للمالية في عُمان، وتوفي في مومباي."
+  en: "Libyan Ibadi scholar, poet and statesman (c. 1870–1940). From the Jabal Nafusa, he studied at the Zitouna, al-Azhar and in the M'zab, sat in the Ottoman Chamber of Deputies, fought in the resistance to the Italian invasion, served as wali of Tripolitania and later as finance minister in Oman, and died in Mumbai."
+  ur: "لیبیائی اباضی عالم، شاعر اور ریاستی رہنما (تقریباً 1870–1940)؛ جبل نفوسہ سے تعلق، زیتونہ، الازہر اور مزاب میں تعلیم پائی، عثمانی ایوانِ نمایندگان کے رکن رہے، اطالوی حملے کی مزاحمت میں حصہ لیا، طرابلس کے والی اور بعد میں عمان کے وزیرِ خزانہ رہے؛ وفات ممبئی میں ہوئی۔"
+roles: [scholar, poet, writer, politician]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1870~"
+  hijri: "1287"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English and Arabic articles give about 1870, in the Jabal Nafusa, and the French stub's text likewise gives 1870, though its birth category reads 1872; Wikidata carries both 1872 and 1870. The lane queue's 1872 rests on that category and structured-data tradition and is not followed. Wikidata and the Arabic article's categories place the birth at Jadu in the Jabal Nafusa; Jadu has no place entity, but the Jabal Nafusa does."
+  sources: [source/wikipedia-sulayman-al-baruni-en, source/wikipedia-sulayman-al-baruni-ar, source/wikipedia-sulayman-al-baruni-fr, source/wikidata-sulayman-al-baruni]
+died:
+  edtf: "1940-05-01"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Mumbai (Bombay) on 1 May 1940, per the English and Arabic articles (the Arabic article gives the year as 1359 AH); the French stub gives 30 April 1940. His remains were repatriated in 1970 and buried in the Sidy Moniader Cemetery in Tripoli (English article). Neither Mumbai nor Libyan Tripoli has a place entity — the only Tripoli entity is Tripoli al-Sham in Lebanon, a different city — so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-sulayman-al-baruni-en, source/wikipedia-sulayman-al-baruni-ar, source/wikipedia-sulayman-al-baruni-fr]
+faith:
+  - value: ibadi
+    basis: documented
+    note: "Two independent article texts name his affiliation personally. The English article's lead calls him a Libyan Ibadi scholar, resting on the Encyclopaedia of Islam tradition (Veccia Vaglieri) and modern scholarship (Amal Ghazal, 2014); the French article independently describes him in its text as 'de confession ibadite'. The Arabic article's lead likewise calls him one of the Ibadi Berbers. His Nafusa origin, his family's Ibadi identity and his studies under the Mozabite Ibadi scholar Muhammad ibn Yusuf Atfayyash are context only and are not the basis of this recording."
+    sources: [source/wikipedia-sulayman-al-baruni-en, source/wikipedia-sulayman-al-baruni-fr, source/wikipedia-sulayman-al-baruni-ar]
+relations:
+  - { type: born_in, target: place/jabal-nafusa, sources: [source/wikipedia-sulayman-al-baruni-en, source/wikipedia-sulayman-al-baruni-ar] }
+external_ids: { wikidata: "Q2440021" }
+sources: [source/wikipedia-sulayman-al-baruni-fr, source/wikipedia-sulayman-al-baruni-ar, source/wikipedia-sulayman-al-baruni-en, source/wikidata-sulayman-al-baruni]
+provenance:
+  layer: own-research
+  source: "English, French and Arabic Wikipedia articles on Sulayman al-Baruni (no Urdu article exists; the queue's spelling is Sulaiman al-Barouni), each fetched by its recorded revision id (EN 1373151132, FR 213939849, AR 77028127) with the returned id asserted equal before use, and Wikidata item Q2440021 (revision 2556863625). Existence checks by name fragments (Baruni, Barouni, الباروني) and by QID across data/person and data/source found no prior record. The lane queue gives 1872–1940; the sources support c. 1870 for the birth, recorded as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

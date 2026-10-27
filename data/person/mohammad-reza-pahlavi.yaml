@@ -1,0 +1,48 @@
+id: person/mohammad-reza-pahlavi
+class: person
+label: { ar: "محمد رضا بهلوي", en: "Mohammad Reza Pahlavi", ur: "محمد رضا پہلوی" }
+names:
+  - { value: "Mohammad Reza Pahlavi", kind: full }
+  - { value: "محمد رضا بهلوي", kind: full }
+  - { value: "محمدرضا پهلوی", kind: full }
+gender: male
+summary:
+  ar: "محمد رضا بهلوي (1919–1980)، آخر شاهات إيران، ملك من 1941 حتى أطاحت به الثورة الإيرانية سنة 1979. ابن رضا شاه ومؤسس الدولة البهلوية، قاد برنامج «الثورة البيضاء» للإصلاح واعتمد على النفط وحلفه مع الولايات المتحدة، ثم غادر إيران في كانون الثاني 1979 وتنقّل بين بلدان عدة قبل أن يموت في القاهرة في 27 تموز 1980 ويُدفن في مسجد الرفاعي."
+  en: "Mohammad Reza Pahlavi (1919–1980) was the last shah of Iran, reigning from 1941 until the Iranian Revolution overthrew him in 1979. The son of Reza Shah, founder of the Pahlavi state, he pursued the White Revolution reforms on the strength of oil revenues and the American alliance, left Iran in January 1979, moved between several countries in exile, and died in Cairo on 27 July 1980; he is buried in the al-Rifa'i Mosque there."
+  ur: "محمد رضا پہلوی (1919ء–1980ء) ایران کے آخری شاہ تھے، 1941ء سے 1979ء میں انقلابِ ایران کے ہاتھوں معزولی تک حکمران رہے۔ وہ پہلوی ریاست کے بانی رضا شاہ کے بیٹے تھے، انہوں نے «سفید انقلاب» کی اصلاحات چلائیں، جنوری 1979ء میں ایران چھوڑا، کئی ملکوں میں جلاوطنی گزاری اور 27 جولائی 1980ء کو قاہرہ میں وفات پائی؛ وہ وہیں مسجد الرفاعی میں مدفون ہیں۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1919-10-26"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran on 26 October 1919; all four articles and Wikidata agree. Tehran has no place entity, so no born_in edge is written. The Hijri year (1338) is derived by tabular conversion."
+  sources: [source/wikipedia-pahlavi-en, source/wikidata-pahlavi]
+died:
+  edtf: "1980-07-27"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 27 July 1980, of lymphoma, after exile in Egypt, Morocco, the Bahamas, Mexico, the United States and Panama; he was buried in Cairo's al-Rifa'i Mosque (no building entity exists, so no buried_in edge is written). The articles and Wikidata agree on the date. The Hijri year (1400) is derived by tabular conversion."
+  sources: [source/wikipedia-pahlavi-en, source/wikipedia-pahlavi-ar, source/wikidata-pahlavi]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-pahlavi-en, source/wikipedia-pahlavi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (one infobox family). The English article's infobox gives his religion as Twelver Shia Islam, the Arabic article's infobox gives his school in the same terms, and Wikidata carries the same Twelver value (Q269785) — infobox fields and their structured echo are one source family, not independent attestations. The Persian infobox has no religion field and the Urdu stub names none. No text in any edition names his personal affiliation: the English text quotes the oath he swore as shah to protect Shia Islam, which is a state act of the head of a Shia state, and reports Marvin Zonis's account of his childhood dreams of the Twelve Imams, one scholar's psychological reading. Headship of a Shia state, a coronation oath and a biographer's reading do not attest a personal school. One source family short. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-pahlavi-en, source/wikipedia-pahlavi-ar, source/wikipedia-pahlavi-fa, source/wikidata-pahlavi]
+external_ids: { wikidata: "Q128245" }
+sources: [source/wikipedia-pahlavi-en, source/wikipedia-pahlavi-fa, source/wikipedia-pahlavi-ar, source/wikipedia-pahlavi-ur, source/wikidata-pahlavi]
+provenance:
+  layer: own-research
+  source: "English, Persian, Arabic and Urdu Wikipedia articles on Mohammad Reza Pahlavi, each fetched by its recorded revision id (EN 1381849740, FA 44769138, AR 76729313, UR 9451064) with the returned id asserted equal before use, and Wikidata item Q128245 (item revision 2558176317; the claims used were read twice with identical results), the QID grounded through the English article's pageprops and confirmed through the other articles' langlinks. Existence checks by Latin, Arabic and Persian fragments and by all likely slug variants across data/person, by the grounded QID across all person files, and by biography found no prior record. NO child_of or successor_of edge is written: his father Reza Shah, named throughout the articles as his predecessor on the throne, has no museum record, and an edge is never written to a record that does not exist; the filiation and the 1941 succession are stated in the prose instead. No born_in edge (Tehran has no place entity) and no ruler_of edge (no Pahlavi Iran polity entity exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-99
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,51 @@
+id: person/bundu-khan
+class: person
+label: { ar: "بندو خان", en: "Bundu Khan", ur: "بندو خان" }
+names:
+  - { value: "بندو خان", kind: full }
+  - { value: "Bundu Khan", kind: full }
+  - { value: "Ustad Bundu Khan", kind: alternate }
+gender: male
+summary:
+  ar: "عازف سارنغي (1880–1955)، وُلد في دلهي وتعلّم على يد خاله ممّن خان، وخدم بلاط إندور 27 عاما وكان من أوائل عازفي إذاعة عموم الهند. ألف كتابا في نظرية الموسيقى صدر بالأردية والهندية سنة 1934، وبعد تقسيم الهند هاجر إلى كراتشي وظل يعزف في إذاعات باكستان حتى وفاته."
+  en: "Sarangi player (1880–1955), born at Delhi and trained by his uncle Mamman Khan; he served the court of Indore for 27 years and played on All India Radio from its first Delhi broadcasts. His book on music theory appeared in Urdu and Hindi in 1934; after Partition he moved to Karachi and played on Pakistan's radio stations until his death."
+  ur: "سارنگی نواز (1880ء–1955ء)، دہلی میں پیدا ہوئے اور ماموں ممّن خان سے تعلیم پائی؛ وہ اندور کے دربار سے ستائیس برس وابستہ رہے اور آل انڈیا ریڈیو کے اولین نوازوں میں تھے۔ ان کی موسیقی پر کتاب 1934ء میں اردو اور ہندی میں شائع ہوئی؛ تقسیم کے بعد کراچی آ گئے اور وفات تک پاکستان کے ریڈیو سے سارنگی بجاتے رہے۔"
+roles: [musician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1880"
+  hijri: "1297"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article's infobox and the Urdu article's text agree: born in 1880 at Delhi, into a family of musicians; Wikidata gives the year 1880 at year precision. The Hijri year (1297) is a conversion. A born_in edge to place/delhi is written, the place entity existing."
+  sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur, source/wikidata-bundu-khan]
+died:
+  edtf: "1955-01-13"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree: died 13 January 1955; the English infobox places his death at Karachi and the Urdu article says he is buried there. The Hijri year (1374) is a conversion. No place entity exists for Karachi, so no died_in edge is written."
+  sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur, source/wikidata-bundu-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source states his religion in text. Neither the English nor the Urdu article names any affiliation for him, and Wikidata carries no religion value. The Urdu article records that, after his uncle's teaching, he became a disciple (shagird) of the malang Mian Ahmad Shah, who taught him his knowledge: that is musical tutelage stated in a single text — it names no order, no initiation and no affiliation — and his migration to Pakistan at Partition and his Karachi milieu name no school either. Under the two-source rule the value stays unknown, with the discipleship statement preserved here as the nearest evidence."
+    sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur, source/wikidata-bundu-khan]
+relations:
+  - type: born_in
+    target: place/delhi
+    sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur]
+external_ids:
+  wikidata: Q4997568
+sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur, source/wikidata-bundu-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bundu Khan' (revision 1373850565 of 8 September 2026), Urdu Wikipedia 'بندو خان' (revision 5766846 of 14 January 2024) and Wikidata Q4997568 (item revision 2557031888 of 14 October 2026), each fetched by its recorded revision and checked against it, read on 26 October 2026. Existence was checked by filename fragments under all spellings (bundu, bandu), by Arabic label, by biography and by the Wikidata route (Q4997568) across data/person/ — no earlier record exists; the second Wikidata item of the name is a Kirti Chakra recipient, a different man. No Arabic Wikipedia article exists for him (an Egyptian Arabic stub does and is not used); the Arabic prose is written from the English and Urdu sources and says so. The two articles conflict on his Pride of Performance year — the English says 1985 (posthumous), the Urdu says 1959 — and the record states the split rather than choosing. Relations: only born_in to place/delhi is written; his father Ali Jan Khan, his uncle and teacher Mamman Khan and his sons have no person records, and there is no place entity for Karachi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

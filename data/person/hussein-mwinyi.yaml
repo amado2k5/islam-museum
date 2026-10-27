@@ -1,0 +1,47 @@
+id: person/hussein-mwinyi
+class: person
+label:
+  ar: "حسين مويني"
+  en: "Hussein Mwinyi"
+  ur: "حسین مونی"
+names:
+  - { value: "Hussein Ali Mwinyi", kind: full }
+  - { value: "حسين علي مويني", kind: full }
+  - { value: "حسین علی مونی", kind: full }
+gender: male
+summary:
+  ar: "سياسي وطبيب تنزاني (مواليد 1966) نجل الرئيس التنزاني الأسبق علي حسن مويني. عمل طبيبا ثم نائبا في البرلمان عن ماكورانغا وكوهاني، وتولى حقائب وزارية في تنزانيا آخرها الدفاع والخدمة الوطنية (2014–2020)، ثم صار الرئيس الثامن لزنجبار في 3 نوفمبر 2020 بعد فوزه بانتخابات 2020 بنسبة 76.27 في المئة. اشتهر بحملته على الفساد وببرنامج الاقتصاد الأزرق لزنجبار."
+  en: "Tanzanian politician and physician (born 1966), the son of former Tanzanian president Ali Hassan Mwinyi. He worked as a doctor, then sat in parliament for Mkuranga and Kwahani and held Tanzanian ministerial portfolios, the last of them defence and national service (2014–2020), before becoming the eighth president of Zanzibar on 3 November 2020 after winning the 2020 election with 76.27 percent of the vote. He is known for his anti-corruption drive and for Zanzibar's blue-economy programme."
+  ur: "تنزانیہ کے سیاست دان اور طبیب (پیدائش 1966ء)، سابق تنزانی صدر علی حسن موینی کے بیٹے۔ وہ طبیب رہے، پھر مکورانگا اور کوہانی سے رکنِ پارلیمنٹ بنے اور تنزانیہ میں وزارتی عہدے سنبھالے جن میں آخری دفاع اور قومی خدمت (2014ء–2020ء) تھا، پھر 2020ء کے انتخابات میں 76.27 فیصد ووٹوں سے کامیابی کے بعد 3 نومبر 2020ء کو زنجبار کے آٹھویں صدر بنے۔ وہ بدعنوانی کے خلاف مہم اور زنجبار کے نیلی معیشت پروگرام کے لیے جانے جاتے ہیں۔"
+roles: [politician, physician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1966-12-23"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 23 December 1966 on Unguja, Zanzibar; the Arabic article agrees on the date and island. The museum's Zanzibar place record covers the island, so a born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-hussein-mwinyi-en, source/wikidata-hussein-mwinyi, source/wikipedia-hussein-mwinyi-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. Wikidata gives his religion (P140) as Islam, with no branch — a single structured value. No article text states his religion: the English, Arabic and Urdu articles carry only category filings (Tanzanian Muslims), and the Urdu stub derives from the English article, so there is one family at most. The value stays unknown."
+    sources: [source/wikidata-hussein-mwinyi, source/wikipedia-hussein-mwinyi-en, source/wikipedia-hussein-mwinyi-ar, source/wikipedia-hussein-mwinyi-ur]
+relations:
+  - type: child_of
+    target: person/ali-hassan-mwinyi
+    sources: [source/wikipedia-hussein-mwinyi-en, source/wikidata-hussein-mwinyi, source/wikipedia-hussein-mwinyi-ar]
+  - type: born_in
+    target: place/zanzibar
+    sources: [source/wikipedia-hussein-mwinyi-en, source/wikipedia-hussein-mwinyi-ar]
+external_ids: { wikidata: "Q5018704" }
+sources: [source/wikipedia-hussein-mwinyi-en, source/wikipedia-hussein-mwinyi-ar, source/wikipedia-hussein-mwinyi-ur, source/wikidata-hussein-mwinyi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1378222904 of 3 October 2026, Arabic revision 74550919 of 10 May 2026 and Urdu revision 9961621 of 20 April 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q5018704 revision 2549590599 of 26 September 2026, read from the Wikidata API the same way. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q5018704; his Arabic label حسين مويني collides with no existing record's label. Relations written: child_of his father Ali Hassan Mwinyi (his record exists, wave 81; the edge is written here, in the child's record, and the father's record is not edited), and born_in Zanzibar, where he was born on Unguja. No succession edge is written: his predecessor as president of Zanzibar, Ali Mohamed Shein, has no museum record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

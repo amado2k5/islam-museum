@@ -1,0 +1,42 @@
+id: person/mohammed-shia-al-sudani
+class: person
+label: { ar: "محمد شياع السوداني", en: "Mohammed Shia' Al Sudani", ur: "محمد شیاع السودانی" }
+names:
+  - { value: "محمد شياع صبار حاتم السوداني", kind: full }
+  - { value: "Mohammed Shia' Sabbar al-Sudani", kind: full }
+  - { value: "محمد شياع السوداني", kind: full }
+  - { value: "Mohammed Shia' Al Sudani", kind: full }
+  - { value: "أبو مصطفى", kind: kunya }
+gender: male
+summary:
+  ar: "محمد شياع صبار السوداني (وُلد 4 آذار 1970)، سياسي عراقي، رئيس وزراء العراق من 27 تشرين الأول 2022 إلى 14 أيار 2026 خلفًا لمصطفى الكاظمي. مهندس زراعي من أسرة من ميسان أُعدم والده سنة 1980 لعضويته في حزب الدعوة، وكان محافظًا لميسان 2009–2010 ووزيرًا لحقوق الإنسان 2010–2014 ووزيرًا للعمل والشؤون الاجتماعية 2014–2018 قبل رئاسته للحكومة."
+  en: "Mohammed Shia' Sabbar al-Sudani (born 4 March 1970) is an Iraqi politician who was prime minister of Iraq from 27 October 2022 to 14 May 2026, in succession to Mustafa Al-Kadhimi. An agricultural engineer from a Maysan family whose father was executed in 1980 for Islamic Dawa Party membership, he was governor of Maysan in 2009–2010, Minister of Human Rights in 2010–2014 and Minister of Labour and Social Affairs in 2014–2018 before his premiership."
+  ur: "محمد شیاع صبار السودانی (پیدائش 4 مارچ 1970ء) ایک عراقی سیاست دان ہیں جو 27 اکتوبر 2022ء سے 14 مئی 2026ء تک مصطفى الکاظمی کے جانشین کے طور پر عراق کے وزیرِ اعظم رہے۔ وہ زرعی انجینئر ہیں، میسان کے ایک خاندان سے ہیں جن کے والد کو 1980ء میں حزب الدعوۃ کی رکنیت پر پھانسی دی گئی؛ وہ 2009ء–2010ء میں گورنر میسان، 2010ء–2014ء میں وزیرِ انسانی حقوق اور 2014ء–2018ء میں وزیرِ محنت و سماجی امور رہے۔"
+roles: [politician]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1970-03-04"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Baghdad in the Iraqi Republic on 4 March 1970; the English article's infobox and early-life text and the Arabic article's lead give the full date, and Wikidata agrees. His family hails from Maysan province. The Hijri year (1390) is derived by tabular conversion of the recorded date."
+  sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikidata-mohammed-shia-al-sudani]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikidata-mohammed-shia-al-sudani] }
+  - { type: successor_of, target: person/mustafa-al-kadhimi, sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (infobox-field Shia reading over a family-background text). The English article's text says he was born to a Shia Arab family — family background, citing his official embassy biography, which never counts. The Arabic article's infobox carries a religion field 'Islam' and a separate sect field 'Shia' — infobox fields of one family — and files him under 'Iraqi Shia', a category filing. His Islamic Dawa Party membership from 2003 to 2019, which cost his father his life a generation earlier, is party affiliation and family history, which never count. Wikidata gives Islam in general (Q432) and no school. The element 'Shia'' in his name is his father's given name, Shayya', a personal name and never an attestation of a school. No two independent texts name his personal school. One source family short. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikidata-mohammed-shia-al-sudani]
+external_ids: { wikidata: "Q3700793" }
+sources: [source/wikipedia-mohammed-shia-al-sudani-en, source/wikipedia-mohammed-shia-al-sudani-ar, source/wikipedia-mohammed-shia-al-sudani-ur, source/wikidata-mohammed-shia-al-sudani]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mohammed Shia' al-Sudani, each fetched by its recorded revision id (EN 1381544910, AR 76810838, UR 8167769) with the returned id asserted equal before use, and Wikidata item Q3700793 (item revision 2539616668, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. The successor_of edge to Mustafa Al-Kadhimi is attested at both ends: his own articles name Al-Kadhimi as predecessor in their infoboxes, and Al-Kadhimi's Arabic article names him as successor; both records are built in this run (century-additions-98), and the edge is written here, in the successor's record. His own successor as prime minister, Ali al-Zaidi, named in the articles, has no record, and no edge to him is written here in any case. No member_of edge is written for the Islamic Dawa Party, the Furatayn Movement or the Coordination Framework (no group entities exist) and no ruler_of edge (no modern Iraq polity entity exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,37 @@
+id: person/mbark-boussoufa
+class: person
+label: { ar: "مبارك بوصوفة", en: "Mbark Boussoufa", ur: "مبارک بوصوفہ" }
+names:
+  - { value: "مبارك بوصوفة", kind: full }
+  - { value: "Moubarak Boussoufa", kind: full }
+  - { value: "Mbark Boussoufa", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب وسط مغربي معتزل (وُلد سنة 1984 في أمستردام)، اختير أفضل لاعب في بلجيكا ثلاث مرات مع أندرلخت، ولعب في روسيا والإمارات والسعودية وقطر، ومثّل المغرب في 70 مباراة دولية منها كأس العالم 2018."
+  en: "Retired Moroccan attacking midfielder (born 1984 in Amsterdam), named Belgian Footballer of the Year three times with Anderlecht, who played in Russia, the Emirates, Saudi Arabia and Qatar and won 70 caps for Morocco, including the 2018 World Cup."
+  ur: "مراکش کے ریٹائرڈ حملہ آور مڈفیلڈر (پیدائش 1984، ایمسٹرڈیم)، جو اینڈرلیخٹ کے ساتھ تین مرتبہ بیلجیئم کے بہترین فٹبالر منتخب ہوئے، روس، امارات، سعودی عرب اور قطر میں کھیلے، اور مراکش کے لیے 70 بین الاقوامی میچوں میں شریک رہے جن میں 2018 کا ورلڈ کپ بھی شامل ہے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1984-08-15"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and French articles and Wikidata (Q570109) all give 15 August 1984, born in Amsterdam, Netherlands. No museum place entity exists for Amsterdam, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1404 is derived from the Gregorian date."
+  sources: [source/wikipedia-mbark-boussoufa-en, source/wikipedia-mbark-boussoufa-ar, source/wikipedia-mbark-boussoufa-fr, source/wikidata-mbark-boussoufa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for Boussoufa. None of the English, Arabic or French articles carries a religion field or any statement of his religion, and Wikidata (Q570109) has no religion value at all. With nothing attested anywhere, the value is unknown."
+    sources: [source/wikipedia-mbark-boussoufa-en, source/wikipedia-mbark-boussoufa-ar, source/wikipedia-mbark-boussoufa-fr, source/wikidata-mbark-boussoufa]
+external_ids: { wikidata: "Q570109" }
+sources: [source/wikipedia-mbark-boussoufa-en, source/wikipedia-mbark-boussoufa-ar, source/wikipedia-mbark-boussoufa-fr, source/wikidata-mbark-boussoufa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377828704 of 1 October 2026), Arabic Wikipedia (revision 76172007 of 10 August 2026), French Wikipedia (revision 240648068 of 23 October 2026) and Wikidata Q570109, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Boussoufa existed in data/person/ (no hit under 'boussoufa' in data/person/ or data/source/), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Amsterdam, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

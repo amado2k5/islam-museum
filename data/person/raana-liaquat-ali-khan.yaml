@@ -1,0 +1,51 @@
+id: person/raana-liaquat-ali-khan
+class: person
+label: { ar: "رعنا لياقت علي خان", en: "Ra'ana Liaquat Ali Khan", ur: "رعنا لیاقت علی خان" }
+names:
+  - { value: "Ra'ana Liaquat Ali Khan", kind: full }
+  - { value: "رعنا لياقت علي خان", kind: full }
+  - { value: "رعنا لیاقت علی خان", kind: full }
+  - { value: "Sheila Irene Pant", kind: alternate }
+  - { value: "Gul-i-Rana", kind: alternate }
+  - { value: "Madar-e-Pakistan", kind: laqab }
+gender: female
+summary:
+  ar: "سيدة دولة وخبيرة اقتصاد باكستانية (1905–1990)، زوجة لياقت علي خان وأول سيدة أولى لباكستان (1947–1951). وُلدت شيلا إيرين بانت في ألمورا لأسرة مسیحیة، واعتنقت الإسلام عند زواجها سنة 1932. أسست جمعية المرأة الباكستانية (أبوا) سنة 1949، وكانت أول مندوبة مسلمة لدى الأمم المتحدة (1952) وأول سفيرة لباكستان (هولندا، 1954–1961)، وأول امرأة تتولى حاكمية إقليم باكستاني (السند، 1973–1976)."
+  en: "Pakistani stateswoman and economist (1905–1990), the wife of Liaquat Ali Khan and Pakistan's first First Lady (1947–1951). Born Sheila Irene Pant at Almora into a Christian family, she converted to Islam at her marriage in 1932. She founded the All Pakistan Women's Association (APWA) in 1949, was the first Muslim woman delegate to the United Nations (1952) and Pakistan's first woman ambassador (the Netherlands, 1954–1961), and the first woman governor of a Pakistani province (Sindh, 1973–1976)."
+  ur: "پاکستانی خاتون مدبر اور ماہرِ معاشیات (1905ء–1990ء)، لیاقت علی خان کی اہلیہ اور پاکستان کی پہلی خاتونِ اول (1947ء–1951ء)۔ وہ المورا میں ایک مسیحی خاندان میں شیلا آئرین پنت کے نام سے پیدا ہوئیں اور 1932ء میں اپنی شادی کے موقع پر اسلام قبول کیا۔ انھوں نے 1949ء میں آل پاکستان ویمنز ایسوسی ایشن (اپوا) قائم کی، 1952ء میں اقوامِ متحدہ میں پہلی مسلم خاتون مندوب بنیں، پاکستان کی پہلی خاتون سفیر (ہالینڈ، 1954ء–1961ء) اور کسی پاکستانی صوبے کی پہلی خاتون گورنر (سندھ، 1973ء–1976ء) رہیں۔"
+roles: [politician, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1905-02-13"
+  hijri: "1322"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Sheila Irene Pant on 13 February 1905 at Almora in the United Provinces, as the English article and Wikidata give it; the Arabic article gives February 1905 at month precision. Almora has no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikipedia-raana-liaquat-ali-khan-ar, source/wikidata-raana-liaquat-ali-khan]
+died:
+  edtf: "1990-06-13"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Karachi on 13 June 1990, as the English, Urdu and Arabic articles and Wikidata agree. Karachi has no place entity, so no died_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikipedia-raana-liaquat-ali-khan-ar, source/wikidata-raana-liaquat-ali-khan]
+relations:
+  - { type: spouse_of, target: person/liaquat-ali-khan, sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikidata-raana-liaquat-ali-khan] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Her school is not recorded: no source names a school for her, and the readings are preserved here. Two independent articles attest her conversion to Islam, and neither names a school. The English article states that at her marriage in 1932 she converted to Islam and took the name Begum Ra'ana (Gul-i-Rana) Liaqat Ali Khan, citing Pirbhai and the Indian Express. The Urdu article, on its own tradition, recounts that she was born into a Kumaoni Christian family — the Pants, Brahmins who had accepted Christianity around 1871 — and that at the marriage the imam of the Jama Masjid performed the nikah, Irene accepted Islam and was named Gul-i-Rana. Conversion to Islam is attested; a school is not, so under the lane's two-source rule the value stays unknown. Her founding and leadership of the All Pakistan Women's Association is organisational work, not a school attestation, and Wikidata's single religion value is Islam only."
+    sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikipedia-raana-liaquat-ali-khan-ar, source/wikidata-raana-liaquat-ali-khan]
+external_ids: { wikidata: "Q1951764" }
+sources: [source/wikipedia-raana-liaquat-ali-khan-en, source/wikipedia-raana-liaquat-ali-khan-ar, source/wikipedia-raana-liaquat-ali-khan-ur, source/wikidata-raana-liaquat-ali-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ra'ana Liaquat Ali Khan' (revision 1375912773), Arabic Wikipedia 'رعنا لياقت علي خان' (revision 76272490) and Urdu Wikipedia 'رعنا لیاقت علی خان' (revision 12150674), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q1951764 (item revision 2561028788), whose recorded identifiers were confirmed identical on two separate reads. Existence checks by name fragments (ra'ana, رعنا, لیاقت), by Arabic label across data/person, by biography and by QID found no prior record for her. The spouse_of edge to person/liaquat-ali-khan is written in her record only; his record (built in century-additions-80) is not edited. No founder_of edge for the All Pakistan Women's Association is written because no group entity for APWA exists, and no place edges are written because Almora and Karachi have no place entities. The lane queue gives 'Begum Ra'ana Liaquat Ali Khan (1905–1990)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-81
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

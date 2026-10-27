@@ -1,0 +1,50 @@
+id: person/syed-ross-masood
+class: person
+label: { ar: "راس مسعود", en: "Syed Ross Masood", ur: "راس مسعود" }
+names:
+  - { value: "Syed Ross Masood", kind: full }
+  - { value: "راس مسعود", kind: full }
+  - { value: "Ross Masood", kind: alternate }
+  - { value: "Ross Masud", kind: alternate }
+gender: male
+summary:
+  ar: "مربٍّ هندي تولى نيابة رئاسة جامعة عليكرة الإسلامية من سنة 1929 حتى وفاته سنة 1937. ابن سيد محمود وحفيد السيد أحمد خان، تعلّم في عليكرة وأكسفورد، وأدار التعليم العام في حيدرآباد من 1916 إلى 1928، وشارك في تأسيس الجامعة العثمانية، وكتب «اليابان ونظامها التعليمي» (1923)؛ وأهداه الروائي إ. م. فورستر روايته «ممر إلى الهند»."
+  en: "Indian educationist who served as vice-chancellor of Aligarh Muslim University from 1929 until his death in 1937. Son of Syed Mahmood and grandson of Syed Ahmad Khan, he was educated at Aligarh and Oxford, directed public instruction in Hyderabad from 1916 to 1928, helped found Osmania University, and wrote Japan and its Educational System (1923); E. M. Forster dedicated A Passage to India to him."
+  ur: "ہندوستانی ماہر تعلیم جو 1929 سے 1937 میں وفات تک علی گڑھ مسلم یونیورسٹی کے وائس چانسلر رہے۔ سید محمود کے بیٹے اور سر سید احمد خان کے پوتے تھے؛ علی گڑھ اور آکسفورڈ سے تعلیم پائی، 1916 سے 1928 تک حیدرآباد میں ڈائریکٹر پبلک انسٹرکشن رہے، جامعہ عثمانیہ کے بانیوں میں شامل تھے اور «جاپان اور اس کا تعلیمی نظام» (1923) لکھی؛ ای. ایم. فورسٹر نے اپنا ناول «اے پیسج ٹو انڈیا» ان کے نام منسوب کیا۔"
+roles: [teacher, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1889-02-15"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Delhi on 15 February 1889, per the English and Urdu articles and Wikidata Q7369491. No source gives a Hijri pairing, so the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ross-masood-en, source/wikipedia-ross-masood-ur, source/wikidata-ross-masood]
+died:
+  edtf: "1937-07-30"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Bhopal on 30 July 1937, per the English and Urdu articles and Wikidata Q7369491. Bhopal has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ross-masood-en, source/wikipedia-ross-masood-ur, source/wikidata-ross-masood]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-ross-masood-en, source/wikidata-ross-masood] }
+  - { type: related_to, target: person/syed-ahmad-khan, sources: [source/wikipedia-ross-masood-en, source/wikipedia-ross-masood-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for him. The English article files him under the category Indian Muslims — a filing, which does not attest — and Wikidata records Islam (Q432) only; his grandfather Syed Ahmad Khan's affiliation is a relative's and does not transfer. The value stays unknown with what the sources give recorded here."
+    sources: [source/wikipedia-ross-masood-en, source/wikipedia-ross-masood-ur, source/wikidata-ross-masood]
+external_ids: { wikidata: "Q7369491" }
+sources: [source/wikipedia-ross-masood-en, source/wikipedia-ross-masood-ur, source/wikidata-ross-masood]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ross Masood' (revision 1376155511), Urdu Wikipedia 'راس مسعود' (revision 12092766) and Wikidata item Q7369491 (item revision 2549697543), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the revision dates re-verified in a second pass on 27 October 2026. No Arabic Wikipedia article exists for him (an Egyptian-dialect stub is not counted), so the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (masood, ross), by Arabic label across data/person, by biography and by QID found no prior record for him. Kinship: he was Syed Ahmad Khan's grandson through his father Syed Mahmood; schema/predicates.yaml has no grandparent predicate and child_of would be false, so a single related_to edge to person/syed-ahmad-khan is written, with the exact relation stated here and in the prose. The Aligarh vice-chancellorship succession is not edged: Shah Muhammad Sulaiman (before him) has no record verified in this run, and Nawab Mohammad Ismail Khan (after him) is the next queue line, not this batch."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

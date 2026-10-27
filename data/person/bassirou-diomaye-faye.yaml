@@ -1,0 +1,47 @@
+id: person/bassirou-diomaye-faye
+class: person
+label:
+  ar: "باسيرو ديوماي فاي"
+  en: "Bassirou Diomaye Faye"
+  ur: "بسیرو دیومائے فائے"
+names:
+  - { value: "Bassirou Diomaye Faye", kind: full }
+  - { value: "باسيرو ديوماي فاي", kind: full }
+  - { value: "بشير جوماي فاي", kind: alternate }
+  - { value: "Bassirou Diomaye Diakhar Faye", kind: alternate }
+  - { value: "Diomaye", kind: alternate }
+  - { value: "بسیرو دیومائے فائے", kind: full }
+gender: male
+summary:
+  ar: "سياسي سنغالي (وُلد 1980) من ندياغانياو، مفتش ضرائب سابق والأمين العام لحزب باستيف، سُجن في 2023–2024 ثم فاز بانتخابات 2024 خلفا لمرشح الحزب الممنوع عثمان سونكو، فصار الرئيس الخامس للسنغال في 2 أبريل 2024 وأصغر رؤسائها؛ سمى سونكو رئيسا للوزراء ثم اختلف معه وأقاله في مايو 2026."
+  en: "Senegalese politician (born 1980) from Ndiaganiao, a former tax inspector and general secretary of PASTEF who was imprisoned in 2023–2024 and then won the 2024 presidential election in place of the party's barred candidate Ousmane Sonko, becoming Senegal's fifth and youngest president on 2 April 2024; he appointed Sonko prime minister, then fell out with him and dismissed him in May 2026."
+  ur: "سینیگال کے سیاست دان (پیدائش 1980ء) جن کا تعلق نڈیاگانیاؤ سے ہے؛ سابق ٹیکس انسپکٹر اور پاسٹف کے جنرل سیکرٹری، 2023ء–2024ء میں قید رہے، پھر پارٹی کے نااہل امیدوار عثمان سونکو کی جگہ 2024ء کا صدارتی انتخاب جیت کر 2 اپریل 2024ء کو سینیگال کے پانچویں اور کم عمر ترین صدر بنے؛ سونکو کو وزیر اعظم بنایا، پھر اختلاف کے بعد مئی 2026ء میں انھیں برطرف کر دیا۔"
+roles: [politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1980-03-25"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article, the French article and Wikidata give his birth on 25 March 1980 at Ndiaganiao in the M'bour department; the Arabic article agrees on the date. No place entity for Ndiaganiao exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-bassirou-diomaye-faye-en, source/wikipedia-bassirou-diomaye-faye-ar, source/wikipedia-bassirou-diomaye-faye-fr, source/wikidata-bassirou-diomaye-faye]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text attests his religion personally. What exists is structure and filings, which never count: the French infobox gives his religion as Islam (Sunni); Wikidata's single religion value is Islam; the English article files him under Senegalese Sunni Muslims and the Arabic article under Senegalese Muslims and Senegalese Sunni Muslims. The French text's personal-life section gives the religions of his two wives — the first a Christian, the second a Muslim — which are their affiliations, not his attestation, and the campaign pledge quoted in the French article to harden the law on homosexuality 'par conviction religieuse' is political-religious positioning, not a school attestation. One structured family only, one full family short of sunni/documented (the moussa-traore configuration, waves 75–78 §A); the value stays unknown with the Sunni reading preserved here."
+    sources: [source/wikipedia-bassirou-diomaye-faye-en, source/wikipedia-bassirou-diomaye-faye-ar, source/wikipedia-bassirou-diomaye-faye-fr, source/wikidata-bassirou-diomaye-faye]
+relations:
+  - type: successor_of
+    target: person/macky-sall
+    sources: [source/wikipedia-bassirou-diomaye-faye-en, source/wikipedia-bassirou-diomaye-faye-fr]
+external_ids: { wikidata: "Q124382437" }
+sources: [source/wikipedia-bassirou-diomaye-faye-en, source/wikipedia-bassirou-diomaye-faye-ar, source/wikipedia-bassirou-diomaye-faye-fr, source/wikidata-bassirou-diomaye-faye]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1366649871 of 29 July 2026, Arabic revision 74979521 of 4 June 2026 and French revision 239385744 of 10 September 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q124382437 revision 2547993219 of 20 September 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q124382437. No Urdu article exists (the item's sitelinks give English, Arabic and French only), so the Urdu prose is written from those three and says so in its text. No place entity exists for Ndiaganiao, so no born_in relation; his succession from Macky Sall (record exists, wave 78) is written as a relation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

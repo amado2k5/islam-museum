@@ -1,0 +1,54 @@
+id: person/badreddin-al-hasani
+class: person
+label: { ar: "بدر الدين الحسني", en: "Badreddin al-Hasani", ur: "بدرالدین الحسنی" }
+names:
+  - { value: "محمد بدر الدين بن يوسف الحسني", kind: full }
+  - { value: "Badreddin al-Hasani", kind: full }
+  - { value: "Badr al-Dīn al-Ḥasanī", kind: latinized }
+  - { value: "المحدث الأكبر", kind: laqab }
+gender: male
+summary:
+  ar: "علَّامة ومحدِّث سوري من أصول مغربية (1850–1935)؛ وُلد وتوفي في دمشق، ولُقّب بالمحدِّث الأكبر وشيخ شيوخ الشام. حفظ كتب الحديث الكبرى ودرّس في الجامع الأموي ودار الحديث الأشرفية، وألّف أكثر من أربعين كتابًا قبل الثلاثين، وابنه تاج الدين الحسني رئيس سورية في عهد الانتداب الفرنسي."
+  en: "Syrian scholar and hadith master of Moroccan origin (1850–1935), born and deceased at Damascus, known as al-Muhaddith al-Akbar, 'the greatest hadith scholar', and as shaykh of the shaykhs of Syria. He memorised the major hadith collections, taught at the Umayyad Mosque and the Ashrafiyya Dar al-Hadith, and wrote more than forty works before the age of thirty; his son Taj al-Din al-Hasani became president of Syria under the French Mandate."
+  ur: "مغربی الاصل سوری عالم اور محدث (1850–1935)؛ دمشق میں پیدا ہوئے اور وہیں انتقال ہوا، المحدث الاکبر اور شیخ شیوخ الشام کے لقب سے مشہور ہوئے۔ انہوں نے کتب حدیث کی بڑی کتابیں حفظ کیں، جامع اموی اور دار الحدیث الاشرفیہ میں درس دیا، اور تیس برس کی عمر سے پہلے چالیس سے زائد کتابیں لکھیں؛ ان کے بیٹے تاج الدین الحسنی فرانسیسی انتداب کے دور میں سوریہ کے صدر بنے۔"
+roles: [scholar, teacher]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1850"
+  hijri: "1267"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Damascus in 1267 AH / 1850 CE; the Arabic article and the TDV encyclopedia entry agree on the year. His father Yusuf, a scholar of a Marrakesh family, died when the boy was twelve, and he was raised beside the Ashrafiyya Dar al-Hadith."
+  sources: [source/wikipedia-badreddin-al-hasani-ar, source/tdv-badreddin-al-hasani]
+died:
+  edtf: "1935-06-28"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Damascus and was buried in Bab al-Saghir cemetery. The Arabic article and the Odabasham biography date his death to Friday 27 Rabi' al-Awwal 1354 AH, which corresponds to 28 June 1935; the TDV encyclopedia entry instead gives 13 August 1935. The Arabic tradition's exact Hijri date is recorded and the conflict disclosed."
+  sources: [source/wikipedia-badreddin-al-hasani-ar, source/odabasham-badreddin-al-hasani, source/tdv-badreddin-al-hasani]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-badreddin-al-hasani-ar, source/tdv-badreddin-al-hasani] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-badreddin-al-hasani-ar, source/tdv-badreddin-al-hasani] }
+  - { type: buried_in, target: place/damascus, sources: [source/wikipedia-badreddin-al-hasani-ar, source/odabasham-badreddin-al-hasani] }
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "Two independent Arabic texts name his school for him personally. The Arabic article's lead calls him 'Shafi'i in school, Ash'ari in creed', and its section on his school, citing al-Zirikli's al-A'lam, records the well-known story in which he says in his own words 'I am a Shafi'i' and declines to shorten his prayers on a journey because, in his imam's school, shortening is for a journey of obedience. The Odabasham biography independently states: 'his school — he was Shafi'i in school, like his father.' One modern academic article (Takao, on the Kuftaru genealogy) calls him instead a scholar 'of the Maliki School'; that description conflicts with the Arabic biographical tradition and is not followed, but it is preserved here. His Ash'ari creed, named in the Arabic lead, has no enum value of its own and is recorded in this note only."
+    sources: [source/wikipedia-badreddin-al-hasani-ar, source/odabasham-badreddin-al-hasani, source/doshisha-kuftaru-genealogy]
+  - value: sufi
+    basis: documented
+    note: "Two independent sources attest a personal Sufi-order affiliation, but name different orders. The Arabic article's lead calls him 'a Sufi of the Shadhili path'. Takao's article on the Damascene Sufi networks independently calls him 'a member of the Qadiri Sufi order'. The affiliation itself is attested twice over; which order he belonged to is contested between the two sources, and both readings are preserved here."
+    sources: [source/wikipedia-badreddin-al-hasani-ar, source/doshisha-kuftaru-genealogy]
+sources: [source/wikipedia-badreddin-al-hasani-ar, source/tdv-badreddin-al-hasani, source/odabasham-badreddin-al-hasani, source/doshisha-kuftaru-genealogy]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article, the TDV İslâm Ansiklopedisi entry, the Odabasham biographical entry and Takao's Doshisha article on the Kuftaru genealogy, read on 26 October 2026 (Wikipedia API unavailable; no revision id recorded — see the source files)"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-55
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

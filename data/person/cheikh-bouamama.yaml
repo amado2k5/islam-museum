@@ -1,0 +1,46 @@
+id: person/cheikh-bouamama
+class: person
+label: { ar: "الشيخ بوعمامة", en: "Cheikh Bouamama", ur: "شیخ بوعمامہ" }
+names:
+  - { value: "Mohammed ben Larbi ben Cheikh ben Horma ben Mohammed ben Brahim ben Attaj ben Sidi Cheikh Abdelkader", kind: full }
+  - { value: "الشيخ بوعمامة", kind: full }
+  - { value: "Cheikh Bouamama", kind: full }
+gender: male
+summary:
+  ar: "قائد مقاومة جزائري (مختلف في سنة ميلاده: 1833 أو نحو 1840 – 1908)؛ من أولاد سيدي الشيخ بفجيج، أسس زاويته بمغرار التحتاني وقاد مقاومة الجنوب الوهراني والصحراء ضد الغزو الفرنسي من 1881 حتى وفاته بالعيون سيدي ملوك قرب وجدة."
+  en: "Algerian resistance leader (birth year contested: 1833 or c. 1840 – 1908). Of the Awlad Sidi Shaykh of Figuig, he founded his zawiya at Moghrar Tahtani and led the resistance of the South Oranais and the Sahara to the French conquest from 1881 until his death at El Aioun Sidi Mellouk, near Oujda."
+  ur: "جزائری مزاحمتی رہنما (سالِ ولادت متنازع: 1833 یا تقریباً 1840 – 1908)؛ فجیج کے اولاد سیدی شیخ سے تعلق، مغرار التحتانی میں اپنی زاویہ قائم کی اور 1881 سے وفات تک جنوبی وہران اور صحرا میں فرانسیسی قبضے کی مزاحمت کی قیادت کی؛ وفات العیون سیدی ملوک، وجدة کے قریب ہوئی۔"
+roles: [activist]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1833"
+  hijri: "1249"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The French article gives 1833, citing Hassan Remaoun's L'Algérie: histoire, société et culture (p. 215) and Rachid Benyoub (2002), and the Arabic article's classification agrees. The English article gives 1841, citing Paul Gaffarel (1905); the Arabic article's text places his birth in the 1830s, between 1838 and 1840; Wikidata carries both 1833 and 1840; the lane queue gives 1840. The French article's sourced 1833 is followed. He was born at El-Hammam El-Fougani in the ksar of Figuig (Morocco); Figuig has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-cheikh-bouamama-fr, source/wikipedia-cheikh-bouamama-ar, source/wikipedia-cheikh-bouamama-en, source/wikidata-cheikh-bouamama]
+died:
+  edtf: "1908-10-17"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Arabic article, the French article's infobox and Wikidata give 17 October 1908, at El Aioun Sidi Mellouk near Oujda; the French article's text gives 7 October 1908. The 17 October date, carried by three of the four witnesses, is followed. El Aioun has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-cheikh-bouamama-ar, source/wikipedia-cheikh-bouamama-fr, source/wikidata-cheikh-bouamama, source/wikipedia-cheikh-bouamama-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's text states of him personally that he belonged doctrinally to the Tayyibiyya order, and its infobox names his occupation as shaykh of the Tayyibiyya order — one article's text attestation. The French article records Sufi instruction in his youth, which is formation, and says only in the conditional, while noting the point is contested (the researcher Ahmed Bencherif dates the confrérie to the sixteenth century), that he reportedly founded or revived a Sufi confrérie about 1875–76, his people having previously followed the Cheikhiya. The English article names no affiliation and Wikidata carries no religion value. One unhedged personal attestation with only a hedged and contested second does not meet the two-source bar; under the doubt rule sufi is not recorded, and both readings are preserved here."
+    sources: [source/wikipedia-cheikh-bouamama-ar, source/wikipedia-cheikh-bouamama-fr, source/wikipedia-cheikh-bouamama-en, source/wikidata-cheikh-bouamama]
+external_ids: { wikidata: "Q2962098" }
+sources: [source/wikipedia-cheikh-bouamama-fr, source/wikipedia-cheikh-bouamama-ar, source/wikipedia-cheikh-bouamama-en, source/wikidata-cheikh-bouamama]
+provenance:
+  layer: own-research
+  source: "English, French and Arabic Wikipedia articles on Cheikh Bouamama (no Urdu article exists), each fetched by its recorded revision id (EN 1371941780, FR 239839061, AR 76873614) with the returned id asserted equal before use, and Wikidata item Q2962098 (revision 2550035807). Existence checks by name fragments (Bouamama, بوعمامة, بو عمامة) and by QID across data/person and data/source found no prior record. The lane queue gives 1840–1908; the birth year is contested in the sources and is recorded as debated with all readings in the born note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

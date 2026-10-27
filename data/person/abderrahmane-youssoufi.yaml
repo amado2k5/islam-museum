@@ -1,0 +1,44 @@
+id: person/abderrahmane-youssoufi
+class: person
+label: { ar: "عبد الرحمن اليوسفي", en: "Abderrahmane Youssoufi", ur: "عبدالرحمن یوسفی" }
+names:
+  - { value: "عبد الرحمن اليوسفي", kind: full }
+  - { value: "Abderrahmane Youssoufi", kind: full }
+gender: male
+summary:
+  ar: "سياسي ومحام وناشط حقوقي مغربي، رئيس حكومة المغرب من 4 فبراير 1998 إلى 9 أكتوبر 2002 في حكومة التناوب التوافقي في عهدي الحسن الثاني ومحمد السادس، وقائد الاتحاد الاشتراكي للقوات الشعبية من 1992 إلى 2003. وُلد في طنجة سنة 1924، وشارك في الحركة الوطنية وجيش التحرير، وعاش منفيا في باريس خمسة عشر عاما، وشارك في تأسيس المنظمة العربية لحقوق الإنسان سنة 1983، وتوفي في الدار البيضاء سنة 2020."
+  en: "Moroccan politician, lawyer and human-rights activist, prime minister of Morocco from 4 February 1998 to 9 October 2002, leading the alternance government under Hassan II and Mohammed VI, and leader of the Socialist Union of Popular Forces from 1992 to 2003. Born at Tangier in 1924, he took part in the national movement and the Army of Liberation, lived fifteen years in exile in Paris, co-founded the Arab Organization for Human Rights in 1983, and died at Casablanca in 2020."
+  ur: "مراکش کے سیاست دان، وکیل اور انسانی حقوق کے کارکن، 4 فروری 1998 سے 9 اکتوبر 2002 تک مراکش کے وزیر اعظم رہے اور حسن ثانی و محمد سادس کے عہد میں باری باری حکومت کی قیادت کی، اور 1992 سے 2003 تک سوشلسٹ یونین آف پاپولر فورسز کے رہنما رہے۔ وہ 1924 میں طنجہ میں پیدا ہوئے، 2020 میں دارالبیضاء میں وفات پائی۔"
+roles: [politician, activist]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1924-03-08"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 8 March 1924 at Tangier (English infobox and article; Arabic lead agrees). The Hijri year 1342 is the pairing carried by the Arabic article's birth category. No place entity for Tangier exists in the graph, so no born_in relation is written."
+  sources: [source/wikipedia-abderrahmane-youssoufi-en, source/wikipedia-abderrahmane-youssoufi-ar, source/wikidata-abderrahmane-youssoufi]
+died:
+  edtf: "2020-05-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died 29 May 2020 at Casablanca, of lung cancer, and was buried in the Chouhada (martyrs) cemetery there. No source consulted pairs the death with a Hijri date, so no hijri key is carried. No place entity for Casablanca exists in the graph, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-abderrahmane-youssoufi-en, source/wikipedia-abderrahmane-youssoufi-ar, source/wikidata-abderrahmane-youssoufi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or a school for him in any text or infobox. The only religion datum anywhere is the single Wikidata value (Q470946, Islam Q432) in general — one structured value, with no school. His socialism is his politics, which neither attests nor negates a personal affiliation, and it does not engage the atheist bar."
+    sources: [source/wikidata-abderrahmane-youssoufi, source/wikipedia-abderrahmane-youssoufi-en, source/wikipedia-abderrahmane-youssoufi-ar]
+external_ids: { wikidata: "Q470946" }
+sources: [source/wikipedia-abderrahmane-youssoufi-en, source/wikipedia-abderrahmane-youssoufi-ar, source/wikipedia-abderrahmane-youssoufi-ur, source/wikidata-abderrahmane-youssoufi]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abderrahmane Youssoufi, each fetched by its recorded revision id (EN 1382102603, AR 76817657, UR 9241185) with the returned id asserted equal before use, and Wikidata item Q470946 (item revision 2556389734), the QID grounded through the articles' own page properties — all three editions agree on Q470946 — and the item read twice with identical claims. Existence checks by name fragments (Youssoufi, El Youssoufi, اليوسفي), by QID and by biography across data/person found no prior record; the two al-Yusufi records in the graph are medieval namesakes, different men. No relations are written: his birth, death and burial places (Tangier, Casablanca) and his parties have no entities in the graph, and his premiership succession to and from office-holders without records is prose only, per block practice."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-93
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

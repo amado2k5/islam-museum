@@ -1,0 +1,48 @@
+id: person/zahir-shah
+class: person
+label: { ar: "محمد ظاهر شاه", en: "Mohammad Zahir Shah", ur: "محمد ظاہر شاہ" }
+names:
+  - { value: "Mohammad Zahir Shah", kind: full }
+  - { value: "محمد ظاهر شاه", kind: full }
+  - { value: "Father of the Nation", kind: laqab }
+gender: male
+summary:
+  ar: "آخر ملوك أفغانستان، حكم من 8 نوفمبر 1933 حتى خلعه ابن عمه محمد داود خان في انقلاب 17 يوليو 1973. وُلد في كابل سنة 1914 ابنًا للملك محمد نادر شاه، وعاش منفيا في إيطاليا تسعة وعشرين عاما، ثم عاد إلى أفغانستان سنة 2002 وحمل لقب أب الأمة حتى وفاته في كابل سنة 2007."
+  en: "The last king of Afghanistan, reigning from 8 November 1933 until his cousin Mohammad Daoud Khan deposed him in the coup of 17 July 1973. Born at Kabul in 1914, a son of King Mohammad Nadir Shah, he lived twenty-nine years in exile in Italy, returned to Afghanistan in 2002 and held the title Father of the Nation until his death at Kabul in 2007."
+  ur: "افغانستان کے آخری بادشاہ، جنھوں نے 8 نومبر 1933ء سے 17 جولائی 1973ء میں اپنے چچا زاد محمد داؤد خان کے ہاتھوں معزولی تک حکومت کی۔ 1914ء میں کابل میں بادشاہ محمد نادر شاہ کے بیٹے پیدا ہوئے، اٹلی میں انتیس سال جلاوطنی گزاری، 2002ء میں افغانستان لوٹے اور 2007ء میں کابل میں وفات تک «بابائے قوم» کا لقب رکھا۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1914-10-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 15 October 1914 at Kabul, as the English article (citing Britannica), the Urdu article and Wikidata give. The Arabic article gives 16 October 1914, and the English infobox's own age template also computes from 16 October; the one-day variant is recorded here and the Britannica-backed date is followed. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ar, source/wikipedia-zahir-shah-ur, source/wikidata-zahir-shah]
+died:
+  edtf: "2007-07-23"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 23 July 2007 in the Arg compound at Kabul, as all three articles and Wikidata give, and was buried the next day in the royal mausoleum on Maranjan Hill in eastern Kabul. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ar, source/wikipedia-zahir-shah-ur, source/wikidata-zahir-shah]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-zahir-shah-en, source/wikidata-zahir-shah] }
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-zahir-shah-en, source/wikidata-zahir-shah] }
+  - { type: buried_in, target: place/kabul, sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no text names a school for him. The school is named only by one structured family: the English article's infobox value Sunni Islam, the Urdu article's infobox value Sunni (Ahl al-Sunna) in an article that substantially follows the English one, and Wikidata's Sunni value (Q483654) — copies of one structured attestation, which never counts twice. The Arabic article's infobox gives only generic Islam. The English text quotes his regnal title, which speaks of 'the firm religion of Islam': a throne style, not a school attestation. His descent from Mohammad Nadir Shah, his headship of a Muslim state and his dynasty are family and office under the headship line, and per the wave 113–115 Afghan-ruler precedents a Barakzai king's faith is recorded only on two texts naming his personal school. Under the two-source rule and the doubt rule the value therefore stays unknown, with the structured attestations preserved here."
+    sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ar, source/wikipedia-zahir-shah-ur, source/wikidata-zahir-shah]
+external_ids: { wikidata: "Q152265" }
+sources: [source/wikipedia-zahir-shah-en, source/wikipedia-zahir-shah-ar, source/wikipedia-zahir-shah-ur, source/wikidata-zahir-shah]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Mohammad Zahir Shah and his Wikidata item Q152265 (grounded through the English article's page properties, not by name search, and grepped across all data/person files with no match), all read on 27 October 2026, each article fetched by its recorded revision id with equality asserted on a second read; no text names a school for him — Sunni appears only in one structured family (the English and Urdu infoboxes and Wikidata) and the Arabic infobox gives generic Islam — so his faith is unknown FLAGGED. His birth is carried at the Britannica-backed 15 October 1914 with the Arabic article's 16 October variant disclosed. No child_of edge is written: his father Mohammad Nadir Shah has no person record. No spouse edge is written: Queen Humaira Begum has no record; the marriage is in the prose. No succession edges are written, the 1973 coup and the Barakzai sequence being office succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

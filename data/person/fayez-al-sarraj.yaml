@@ -1,0 +1,37 @@
+id: person/fayez-al-sarraj
+class: person
+label: { ar: "فايز السراج", en: "Fayez al-Sarraj", ur: "فائز السراج" }
+names:
+  - { value: "فايز مصطفى السراج", kind: full }
+  - { value: "Fayez Mustafa al-Sarraj", kind: full }
+  - { value: "Fayez al-Sarraj", kind: alternate }
+gender: male
+summary:
+  ar: "مهندس معماري وسياسي ليبي، وُلد بطرابلس سنة 1960. ترأس المجلس الرئاسي الليبي وحكومة الوفاق الوطني من 2016 إلى 2021 بموجب الاتفاق السياسي الليبي، وسلّم السلطة في مارس 2021 لحكومة الوحدة الوطنية."
+  en: "Libyan architect and politician, born at Tripoli in 1960. He chaired Libya's Presidential Council and headed the Government of National Accord from 2016 to 2021 under the Libyan Political Agreement, handing over power in March 2021 to the Government of National Unity."
+  ur: "لیبیائی معمار اور سیاست دان، جو 1960 میں طرابلس میں پیدا ہوئے۔ وہ 2016 سے 2021 تک لیبیا کی صدارتی کونسل کے چیئرمین اور حکومتِ وفاقِ وطنی کے سربراہ رہے، اور مارچ 2021 میں اقتدار قومی اتحاد کی حکومت کے حوالے کیا۔"
+roles: [politician, architect]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1960-02-20"
+  hijri: "1379"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 20 February 1960, citing Jeune Afrique, and its infobox gives Tripoli as birthplace; the Arabic article agrees on the date and place, Wikidata agrees on the date, and the Urdu stub gives the year only. Tripoli in Libya has no place entity (place/tripoli-al-sham is Tripoli in Lebanon, a different city), so no born_in edge is written. The Hijri year (1379) is derived from the Gregorian date."
+  sources: [source/wikipedia-fayez-al-sarraj-en, source/wikipedia-fayez-al-sarraj-ar, source/wikipedia-fayez-al-sarraj-ur, source/wikidata-fayez-al-sarraj]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a religion or a school for him, and no infobox has a religion field. Wikidata gives Islam (generic) alone. His family's Kouloughli descent and his father's ministry under the Libyan monarchy are family background, which never attests affiliation. No school is recorded."
+    sources: [source/wikidata-fayez-al-sarraj, source/wikipedia-fayez-al-sarraj-en]
+external_ids: { wikidata: "Q21089561" }
+sources: [source/wikipedia-fayez-al-sarraj-en, source/wikipedia-fayez-al-sarraj-ar, source/wikipedia-fayez-al-sarraj-ur, source/wikidata-fayez-al-sarraj]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Fayez al-Sarraj, each fetched by its recorded revision id (EN 1375837236, AR 76784508, UR 6832840) with the returned id asserted equal before use, and Wikidata item Q21089561 (revision 2554220021, read twice with identical revisions), the QID grounded through the English article's pageprops. Existence checks by Latin and Arabic name fragments (Sarraj, السراج), by grounded QID across data/person, and by biography found no prior record — the other Sarraj records in the graph are medieval namesakes. His premiership's successor (Abdul Hamid Dbeibeh) is prose only per block practice and has no record. No member_of edge is written for the Presidential Council or the Government of National Accord: neither entity exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

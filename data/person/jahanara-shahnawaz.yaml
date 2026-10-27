@@ -1,0 +1,51 @@
+id: person/jahanara-shahnawaz
+class: person
+label: { ar: "جهان آرا شاه نواز", en: "Jahanara Shahnawaz", ur: "جہاں آرا شاہ نواز" }
+names:
+  - { value: "Jahanara Shahnawaz", kind: full }
+  - { value: "جهان آرا شاه نواز", kind: full }
+  - { value: "جہاں آرا شاہ نواز", kind: full }
+  - { value: "Jehan Ara Shah Nawaz", kind: alternate }
+gender: female
+summary:
+  ar: "سياسية وناشطة باكستانية من لاهور (1896–1979)، ابنة السير محمد شفيع؛ من أوائل النساء في مجلس البنجاب التشريعي (1937) وأول امرأة في آسيا ترأس جلسة تشريعية. أسست رابطة نساء البنجاب المسلمات (1935)، وكانت من مؤسسي جمعية المرأة الباكستانية (أبوا) ونائبة رئيسها، وقادت احتجاج 1948 الذي أعاد مشروع قانون الفرص الاقتصادية للنساء إلى جدول الأعمال؛ وألّفت رواية «حسن آرا بيغوم» ومذكراتها «أب وابنة»."
+  en: "Pakistani politician and activist of Lahore (1896–1979), the daughter of Sir Muhammad Shafi; among the first women in the Punjab Legislative Assembly (1937) and the first woman in Asia to preside over a legislative session. She founded the Punjab Provincial Women's Muslim League (1935), was a founding member and vice-president of the All Pakistan Women's Association (APWA), and led the 1948 protest that restored a women's economic-opportunities bill to the agenda; she wrote the novel Husn Ara Begum and her memoirs, Father and Daughter."
+  ur: "لاہور سے تعلق رکھنے والی پاکستانی سیاست دان اور سماجی کارکن (1896ء–1979ء)، سر محمد شفیع کی صاحبزادی؛ پنجاب قانون ساز اسمبلی کی اولین خواتین ارکان میں سے ایک (1937ء) اور ایشیا میں کسی قانون ساز اجلاس کی صدارت کرنے والی پہلی خاتون۔ انھوں نے 1935ء میں پنجاب صوبائی ویمنز مسلم لیگ قائم کی، آل پاکستان ویمنز ایسوسی ایشن (اپوا) کی بانی ارکان اور نائب صدر رہیں، اور 1948ء میں خواتین کے معاشی مواقع کے بل کی واپسی کے خلاف احتجاج کی قیادت کی؛ ان کی تصانیف میں ناول «حسن آرا بیگم» اور ان کی سیاسی خودنوشت «Father and Daughter» شامل ہیں۔"
+roles: [politician, activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1896-04-07"
+  hijri: "1313"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 7 April 1896 at Lahore, as the English article and Wikidata give it; the Urdu article gives 7 April 1897 at Baghbanpura, Lahore, so the year is recorded as debated and 1896 is followed. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-jahanara-shahnawaz-en, source/wikipedia-jahanara-shahnawaz-ur, source/wikidata-jahanara-shahnawaz]
+died:
+  edtf: "1979-11-27"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 27 November 1979, as the English article gives it (Wikidata carries the year only); the Urdu article places her death at Lahore and her burial in the family graveyard at Baghbanpura beside her husband Sir Shahnawaz. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-jahanara-shahnawaz-en, source/wikipedia-jahanara-shahnawaz-ur, source/wikidata-jahanara-shahnawaz]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-jahanara-shahnawaz-en, source/wikipedia-jahanara-shahnawaz-ur] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-jahanara-shahnawaz-ur] }
+  - { type: buried_in, target: place/lahore, sources: [source/wikipedia-jahanara-shahnawaz-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Her school — and her religion itself — is not recorded in any consulted text: the English article makes no statement of her religion anywhere in its text or infobox, the Urdu article names none either, and Wikidata carries no religion value (P140) for her at all. Her life's work ran through Muslim organisations — the All India Muslim League, the Punjab Provincial Women's Muslim League she founded in 1935, the All India Muslim Women's Conference and APWA — but organisational membership and leadership are not attestations of a personal school, and family background (the Mian family of Baghbanpura; her father Sir Muhammad Shafi) never counts. With no attestation to weigh, the value is unknown."
+    sources: [source/wikipedia-jahanara-shahnawaz-en, source/wikipedia-jahanara-shahnawaz-ur, source/wikidata-jahanara-shahnawaz]
+external_ids: { wikidata: "Q4880620" }
+sources: [source/wikipedia-jahanara-shahnawaz-en, source/wikipedia-jahanara-shahnawaz-ur, source/wikidata-jahanara-shahnawaz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jahanara Shahnawaz' (revision 1353429164) and Urdu Wikipedia 'جہاں آرا شاہ نواز' (revision 11533391), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q4880620 (item revision 2561040820), whose recorded identifiers were confirmed identical on two separate reads. No Arabic Wikipedia article exists for her; the Arabic prose is written from the English and Urdu articles and says so in its text. Existence checks by name fragments (jahanara, جہاں آرا, جهان آرا), by Arabic label across data/person, by biography and by QID found no prior record for her. No child_of edge to her father Sir Muhammad Shafi and no spouse_of edge to Mian Shah Nawaz is written because neither man has a person record; no founder_of or member_of edges are written because no group entities exist for APWA or the Muslim League. The lane queue gives 'Jahanara Shahnawaz (1896–1979)', which the English article confirms (the Urdu article's 1897 birth-year variant is preserved in the born note)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-81
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

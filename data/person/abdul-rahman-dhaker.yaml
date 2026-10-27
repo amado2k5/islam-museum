@@ -1,0 +1,27 @@
+id: person/abdul-rahman-dhaker
+class: person
+label: { ar: "عبد الرحمن ذاكر الهاشمي", en: "Abdul Rahman Dhaker al-Hashemi", ur: "عبد الرحمن ذاکر الہاشمی" }
+names:
+  - { value: "عبد الرحمن ذاكر الهاشمي", kind: full }
+  - { value: "Abdul Rahman Dhaker al-Hashemi", kind: full }
+  - { value: "عبدالرحمن ذاكر", kind: alternate }
+  - { value: "Abdulrahman Dhaker", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب واستشاري في علم النفس التربوي والعلاج النفسي، صاحب منهج «فقه النفس» التدريبي الذي بدأت رحلته سنة 1417هـ/1997م، والمشرف على مركز مكاني للصحة النفسية، تُبث محاضراته ودروسه عبر قناة مكاني الرسمية على يوتيوب ومنصات المركز."
+  en: "Physician and consultant in educational psychology and psychotherapy, originator of the Fiqh al-Nafs training curriculum — a programme whose journey began in 1417 AH / 1997 CE — and supervisor of the Makani Center for mental health; his lectures and lessons are published through the official Makany YouTube channel and the center's platforms."
+  ur: "ماہرِ تعلیمی نفسیات اور نفسیاتی علاج کے طبیب و مشیر، «فقہ النفس» تربیتی نصاب کے بانی جس کا سفر 1417ھ/1997ء میں شروع ہوا، اور مرکزِ مکانی برائے ذہنی صحت کے نگران؛ ان کے لیکچرز اور دروس سرکاری مکانی یوٹیوب چینل اور مرکز کے پلیٹ فارمز سے شائع ہوتے ہیں۔"
+roles: [physician, teacher]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school or madhhab for him. His official website and his official channel describe his psychological and educational work and name no school. Secondary web biographies describe him in generic terms as a Sunni Muslim, but those pages reproduce a single shared biographical text — one source family — and name no school in any case. Not recorded as any school until two independent sources name his own."
+    sources: [source/makany-official-site, source/youtube-makany-world]
+sources: [source/makany-official-site, source/youtube-makany-world]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 24 ('Abdul Rahman Dhaker', §3 of the handoff list). He has NO Wikipedia article in any language and NO Wikidata item: Arabic Wikipedia's search API returns no article for him, Wikidata's wbsearchentities returns no item for his name in English or Arabic, and web searches in English and Arabic on 26 October 2026 found no encyclopedia or mainstream-press profile. The record is therefore built, under the founder's sourcing ladder, from his official website makany.co (which links his official channel) and his official YouTube channel @MakanyWorld, both read on 26 October 2026. Secondary web biographies (the Manjmy profile of his 'Ma'a Nafsi' series and the Arabic biography-aggregator pages) all reproduce a single shared biographical text — birth in Mosul in 1974, medical and psychology studies in Jordan, psychotherapy specialisation in Beirut in 2000–2002, clinic work in Jordan and Dubai, residence in Jordan — and are not used as sources here; because his own pages publish no birth date, no born block is written (mindful-muslimah precedent, Batch 58). Existence checks before building: filename-fragment sweeps over data/person/ (dhaker, zaker, thaker, hashemi, hashimi) and an Arabic-label grep for «عبد الرحمن ذاكر» found no existing record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-70
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

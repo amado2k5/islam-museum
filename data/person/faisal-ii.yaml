@@ -1,0 +1,50 @@
+id: person/faisal-ii
+class: person
+label: { ar: "فيصل الثاني", en: "Faisal II", ur: "فیصل دوم" }
+names:
+  - { value: "فيصل بن غازي بن فيصل بن حسين بن علي", kind: full }
+  - { value: "Faisal bin Ghazi bin Faisal bin Hussein bin Ali", kind: full }
+  - { value: "فيصل الثاني", kind: regnal }
+  - { value: "Faisal II", kind: regnal }
+gender: male
+summary:
+  ar: "فيصل الثاني (2 مايو 1935 – 14 يوليو 1958)، آخر ملوك العراق من الأسرة الهاشمية. اعتلى العرش طفلًا في الثالثة بعد مقتل أبيه الملك غازي سنة 1939، وحكم تحت وصاية خاله الأمير عبد الإله حتى بلوغه سنة 1953، ثم قُتل مع أفراد من أسرته في قصر الرحاب ببغداد في ثورة 14 يوليو 1958 التي أنهت الملكية وأعلنت الجمهورية."
+  en: "Faisal II (2 May 1935 – 14 July 1958) was the last king of Iraq of the Hashemite dynasty. He acceded at the age of three after his father King Ghazi was killed in 1939, reigned under the regency of his uncle Prince Abd al-Ilah until his majority in 1953, and was killed with members of his family at the Rihab Palace in Baghdad in the revolution of 14 July 1958, which abolished the monarchy and proclaimed the republic."
+  ur: "فیصل دوم (2 مئی 1935ء – 14 جولائی 1958ء) ہاشمی خاندان کے عراق کے آخری بادشاہ تھے۔ وہ 1939ء میں اپنے والد بادشاہ غازی کے قتل کے بعد تین برس کی عمر میں تخت نشین ہوئے، 1953ء میں بالغ ہونے تک اپنے ماموں شہزادہ عبد الالٰہ کی سرپرستی میں رہے، اور 14 جولائی 1958ء کے انقلاب میں بغداد کے قصرِ رحاب میں اپنے خاندان کے افراد سمیت قتل ہوئے؛ اس انقلاب نے بادشاہت ختم کر کے جمہوریہ کا اعلان کیا۔"
+roles: [ruler, politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1935-05-02"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Baghdad on 2 May 1935; the English article and Wikidata agree, and the Arabic article gives the same dates. The Hijri year (1354) is derived by tabular conversion of the recorded date."
+  sources: [source/wikipedia-faisal-ii-en, source/wikidata-faisal-ii]
+died:
+  edtf: "1958-07-14"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed at Baghdad on 14 July 1958, in the revolution that overthrew the Hashemite monarchy; all three articles and Wikidata agree. He was buried in the Iraqi Royal Cemetery at Baghdad; no buried_in edge is written because the cemetery has no entity. The Hijri year (1377) is derived from the Gregorian date."
+  sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikidata-faisal-ii]
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-faisal-ii-en, source/wikidata-faisal-ii] }
+  - { type: died_in, target: place/baghdad, sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikidata-faisal-ii] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (the headship line, with a single-infobox Sunni reading). No two independent sources name his school. The English article's infobox gives his religion as Sunni Islam, citing a 2005 APS news article — one infobox, one source family. Wikidata gives only Islam in general. The Arabic article names no school in its text and files him under 'Iraqi Sunni Muslims', a category filing, which never counts. His descent from the Prophet's house and his crown are headship and descent, which never count. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikidata-faisal-ii]
+external_ids: { wikidata: "Q149724" }
+sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikipedia-faisal-ii-ur, source/wikidata-faisal-ii]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Faisal II, each fetched by its recorded revision id (EN 1380988157, AR 77050184, UR 9724614) with the returned id asserted equal before use, and Wikidata item Q149724 (item revision 2558703347, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. No child_of edge is written: his father King Ghazi (Wikidata Q314784) has no record, and his grandfather Faisal I, who does have a record (person/faisal-i-of-iraq), is a grandfather, for whom child_of is not used. No successor edge is written in this record: successor edges are written in the successor's own record, and his successor as head of state on the monarchy's abolition, Muhammad Najib ar-Ruba'i, has no record. No ruler_of edge is written (no modern Iraq polity entity exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

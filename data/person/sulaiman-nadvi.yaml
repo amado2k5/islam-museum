@@ -1,0 +1,55 @@
+id: person/sulaiman-nadvi
+class: person
+label: { ar: "سيد سليمان الندوي", en: "Sulaiman Nadvi", ur: "سید سلیمان ندوی" }
+names:
+  - { value: "Syed Sulaiman Nadvi", kind: full }
+  - { value: "سيد سليمان الندوي", kind: full }
+  - { value: "سید سلیمان ندوی", kind: full }
+  - { value: "Sulaiman Nadvi", kind: alternate }
+  - { value: "Suleman Nadvi", kind: alternate }
+  - { value: "Abu Najib", kind: kunya }
+  - { value: "Nadvi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم ومؤرخ هندي ثم باكستاني (1884–1953) من ديسنه في بهار، من أبرز تلامذة شبلي النعماني؛ تخرج من دار العلوم ندوة العلماء سنة 1906 ودرّس فيها، وأكمل «سيرة النبي» لشيخه بعد وفاته، وأسس دار المصنفين في أعظم كره وحرّر مجلة «معارف»، وصار في آخر حياته مريدًا وخليفة لأشرف علي التهانوي، وهاجر إلى كراتشي سنة 1950 وتوفي فيها."
+  en: "Indian, then Pakistani, scholar and historian (1884–1953) of Desna in Bihar, among the foremost pupils of Shibli Nomani; he graduated from Darul Uloom Nadwatul Ulama in 1906 and taught there, completed his teacher's Sirat-un-Nabi after Shibli's death, founded Darul Musannifeen at Azamgarh and edited the journal Ma'arif, became in later life a disciple and khalifa of Ashraf Ali Thanwi, moved to Karachi in 1950 and died there."
+  ur: "بھارتی اور پھر پاکستانی عالم و مؤرخ (1884ء–1953ء) جن کا تعلق بہار کے دیسنہ سے تھا، شبلی نعمانی کے ممتاز شاگردوں میں سے تھے؛ 1906ء میں دار العلوم ندوۃ العلماء سے فارغ ہوئے اور وہیں مدرس رہے، استاد کی وفات کے بعد «سیرت النبی» مکمل کی، اعظم گڑھ میں دار المصنفین قائم کیا اور مجلہ «معارف» جاری کیا، آخر عمر میں اشرف علی تھانوی کے مرید و خلیفہ ہوئے، 1950ء میں کراچی منتقل ہوئے اور وہیں انتقال کیا۔"
+roles: [scholar, historian, writer, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1884-11-22"
+  hijri: "1302"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Desna, a village in Nalanda district, Bihar, on 22 November 1884; the Arabic article pairs the date with 23 Safar 1302 AH, and the English and Urdu articles and Wikidata agree on the Gregorian date. Desna has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ur, source/wikipedia-sulaiman-nadvi-ar, source/wikidata-sulaiman-nadvi]
+died:
+  edtf: "1953-11-22"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Karachi on 22 November 1953, his sixty-ninth birthday, as the English article, the Urdu article's death section, the Arabic infobox and Wikidata agree. Two slips are not followed: the Urdu lead gives 23 November 1953 against its own death section, and the Arabic body pairs the death with 1 Rabi' al-akhir 1373 AH but prints the Gregorian date as 2 November 1953 against its own infobox. Karachi has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ur, source/wikipedia-sulaiman-nadvi-ar, source/wikidata-sulaiman-nadvi]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal discipleship and khilafa, which is the lane's test for a sufi segment. The English text states that later in life he formed a close spiritual relation with Ashraf Ali Thanwi and became his disciple. The Arabic text, independently written from Urdu biographical literature, names him in its lead among the foremost students and khulafa of Thanwi and styles him 'al-Naqshbandi al-Mujaddidi'. A Hanafi naming is preserved but not recorded as a segment: the same Arabic lead styles him 'al-Hanafi', but no second independent text names a madhhab for him — the English and Urdu texts name none, and his own risala titled Ahl-us-Sunnah-wal-Jama'ah is a work, not a text naming his school — so the madhhab naming rests on one text and stands one attestation short. His father's being a Sufi is family background and never counts. His tariqa affiliation and his school are kept separate, neither inferred from the other."
+    sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ar]
+relations:
+  - { type: student_of, target: person/shibli-nomani, sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ar] }
+  - { type: student_of, target: person/ashraf-ali-thanwi, sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ar] }
+  - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-sulaiman-nadvi-ar] }
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-sulaiman-nadvi-en] }
+external_ids: { wikidata: "Q4120083" }
+sources: [source/wikipedia-sulaiman-nadvi-en, source/wikipedia-sulaiman-nadvi-ur, source/wikipedia-sulaiman-nadvi-ar, source/wikidata-sulaiman-nadvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sulaiman Nadvi' (revision 1380888180), Urdu Wikipedia 'سید سلیمان ندوی' (revision 11800994) and Arabic Wikipedia 'سيد سليمان الندوي' (revision 68655394), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q4120083 (item revision 2561054534). The three articles are independently written; the English article carries an on-wiki AI-generated-content banner, so its facts are used only where its own citations support them. Existence checks by name fragments (nadvi, nadwi, ندوی, الندوي), by Arabic label across data/person, by biography and by QID found no prior record for this man; the existing Nadwi records (shamail-nadwi, suhail-ahmad-nadwi) are different people. The lane queue carries him twice — 'Suleman Nadvi (1884–1953)' and 'Sayyid Sulaiman Nadvi (1884–1953)' — one man, one record; both queue lines are his. The student_of edges follow the texts: he was Shibli Nomani's pupil (English and Arabic texts) and Thanwi's disciple and khalifa (English text's discipleship statement, Arabic text's khulafa naming). The member_of edge to group/naqshbandiyya follows the Arabic lead's 'al-Naqshbandi al-Mujaddidi' styling, his tariqa through Thanwi; the member_of edge to group/deobandiyya follows the English article's classification of him in the Deobandi movement, including his seat on Darul Uloom Deoband's Majlis-e-Shura (the manzoor-nomani precedent). No founder_of edge is written: no group entity exists for Darul Musannifeen (the Shibli Academy). Desna and Karachi have no place entities. The lane queue gives 1884–1953 under both his lines, which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

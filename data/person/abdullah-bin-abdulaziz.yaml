@@ -1,0 +1,57 @@
+id: person/abdullah-bin-abdulaziz
+class: person
+label:
+  ar: "عبد الله بن عبد العزيز آل سعود"
+  en: "Abdullah bin Abdulaziz Al Saud"
+  ur: "عبداللہ بن عبدالعزیز آل سعود"
+names:
+  - { value: "Abdullah bin Abdulaziz bin Abdul Rahman Al Saud", kind: full }
+  - { value: "عبد الله بن عبد العزيز بن عبد الرحمن آل سعود", kind: full }
+  - { value: "Abdullah of Saudi Arabia", kind: regnal }
+summary:
+  ar: "سادس ملوك المملكة العربية السعودية (2005–2015)، الابن العاشر للملك عبد العزيز من فهدة بنت عاصي الشريم؛ أمين مكة سنة 1961 وقائد الحرس الوطني من 1962 حتى نقل مهامه إلى ابنه سنة 2010، وولي العهد من 13 يونيو 1982 والحاكم الفعلي بعد جلطة الملك فهد سنة 1995، حتى خلفه ملكًا في 1 أغسطس 2005 وبقي حتى وفاته في الرياض في 23 يناير 2015."
+  en: "Sixth King of Saudi Arabia (r. 2005–2015), the tenth son of King Abdulaziz, by Fahda bint Asi Al Shuraim. He was mayor of Mecca in 1961 and commander of the Saudi Arabian National Guard from 1962, a post whose duties he transferred to his son in 2010; Crown Prince from 13 June 1982 and de facto ruler after King Fahd's 1995 stroke, he succeeded as king on 1 August 2005 and reigned until his death at Riyadh on 23 January 2015."
+  ur: "سعودی عرب کے چھٹے بادشاہ (2005ء–2015ء)، شاہ عبد العزیز کے دسویں صاحبزادے، والدہ فہدہ بنت عاصی الشریم؛ 1961ء میں مکہ کے امین اور 1962ء سے نیشنل گارڈ کے کمانڈر رہے جس کی ذمہ داریاں 2010ء میں اپنے بیٹے کو منتقل کیں؛ 13 جون 1982ء سے ولی عہد اور 1995ء میں شاہ فہد کے فالج کے بعد عملی حکمران؛ 1 اگست 2005ء کو بادشاہ بنے اور 23 جنوری 2015ء کو ریاض میں وفات تک حکومت کی۔"
+external_ids: { wikidata: Q57298 }
+born:
+  edtf: "1924-08-01"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Riyadh on 1 August 1924 (English and Arabic articles; Wikidata gives the same date and place). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Riyadh, so no born_in relation is written."
+  sources: [source/wikipedia-abdullah-bin-abdulaziz-en, source/wikipedia-abdullah-bin-abdulaziz-ar, source/wikidata-abdullah-bin-abdulaziz]
+died:
+  edtf: "2015-01-23"
+  hijri: "1436"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Riyadh on 23 January 2015 (English and Arabic articles; Wikidata gives the same date and place). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Riyadh, so no died_in relation is written."
+  sources: [source/wikipedia-abdullah-bin-abdulaziz-en, source/wikipedia-abdullah-bin-abdulaziz-ar, source/wikidata-abdullah-bin-abdulaziz]
+gender: male
+roles: [ruler]
+relations:
+  - { type: successor_of, target: person/fahd-bin-abdulaziz, sources: [source/wikipedia-abdullah-bin-abdulaziz-en] }
+  - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-abdullah-bin-abdulaziz-en, source/wikidata-abdullah-bin-abdulaziz] }
+  - { type: member_of, target: group/al-saud, sources: [source/wikipedia-abdullah-bin-abdulaziz-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder. A Sunni reading rests on one structured source family: Wikidata's religion (P140) value is Sunni Islam (Q483654), and the three articles file him under 'Saudi Sunni Muslims' categories (English, Arabic مسلمون سنة سعوديون, Urdu سعودی سنی مسلم) — filings, which never attest. No article text names a school for him and no infobox carries a religion field. The configuration matches Khalid bin Abdulaziz (wave 83, FLAGGED on a single Arabic infobox), with the single structured carrier here being Wikidata rather than an infobox; one family is not two independent sources, so under the doubt rule the school is left unclassified and the reading is preserved here."
+    sources: [source/wikipedia-abdullah-bin-abdulaziz-en, source/wikipedia-abdullah-bin-abdulaziz-ar, source/wikipedia-abdullah-bin-abdulaziz-ur, source/wikidata-abdullah-bin-abdulaziz]
+sources:
+  - source/wikipedia-abdullah-bin-abdulaziz-ar
+  - source/wikipedia-abdullah-bin-abdulaziz-en
+  - source/wikipedia-abdullah-bin-abdulaziz-ur
+  - source/wikidata-abdullah-bin-abdulaziz
+wings: [people]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "Wikipedia (English), revision 1380159252 of 14 October 2026; Wikipedia (Arabic), revision 76933624 of 9 October 2026; Wikipedia (Urdu), revision 9354328 of 23 January 2026; Wikidata item Q57298, revision 2560643622 of 25 October 2026 — each article fetched by its recorded revision id and asserted equal to it; Wikidata read via its API at the recorded item revision (all read 27 October 2026). No prior museum record: name-fragment, biography, provenance and QID checks across data/person/ found only other people."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published }

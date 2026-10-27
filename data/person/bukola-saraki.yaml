@@ -1,0 +1,38 @@
+id: person/bukola-saraki
+class: person
+label: { ar: "بوكولا ساراكي", en: "Bukola Saraki", ur: "بکولا سارکی" }
+names:
+  - { value: "Abubakar Bukola Saraki", kind: full }
+  - { value: "بوكولا ساراكي", kind: full }
+  - { value: "Olubukola Abubakar Saraki", kind: alternate }
+  - { value: "Bukola Saraki", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وسياسي نيجيري وُلد في لندن سنة 1962، ابن السناتور أولوسولا ساراكي. حكم ولاية كوارا (2003–2011)، ثم دخل مجلس الشيوخ عن كوارا الوسطى وترأسه (2015–2019)، وخاض انتخابات حزبه التمهيدية للرئاسة سنة 2019."
+  en: "Nigerian physician and politician born in London in 1962, son of the senator Olusola Saraki. He governed Kwara State (2003–2011), then sat in the Senate for Kwara Central and presided over it (2015–2019), and contested his party's presidential primary in 2019."
+  ur: "نائجریائی طبیب اور سیاست دان، 1962 میں لندن میں پیدا ہوئے، سینیٹر اولوسولا سارکی کے بیٹے ہیں۔ وہ کوارا ریاست کے گورنر رہے (2003ء–2011ء)، پھر کوارا وسطی سے سینیٹر بنے اور سینیٹ کے صدر رہے (2015ء–2019ء)، اور 2019 میں اپنی جماعت کی صدارتی نامزدگی کے امیدوار بنے۔"
+roles: [politician, physician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1962-12-19"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 19 December 1962 in London; the Hijri year (1382) is a conversion."
+  sources: [source/wikipedia-bukola-saraki-en, source/wikidata-bukola-saraki]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article makes no statement of his religion anywhere in its text and files him only in the category 'Nigerian Muslims', a filing, which never counts. Wikidata gives a single structured value, Islam, with no school. No source used names a school, so under the two-source rule the value stays unknown, unflagged: the plain configuration, with no reading standing one attestation short. His father Olusola Saraki's prominence in Kwara politics is family background and is not counted either."
+    sources: [source/wikipedia-bukola-saraki-en, source/wikidata-bukola-saraki]
+external_ids: { wikidata: "Q4986999" }
+sources: [source/wikipedia-bukola-saraki-en, source/wikidata-bukola-saraki]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Bukola Saraki' (revision 1370250787) and Wikidata item Q4986999 (item revision 2521600092), read via the MediaWiki API on 26 October 2026; the article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (saraki, bukola, olubukola, abubakar), by Arabic label (the Egyptian Arabic stub بوكولا سراكى, which adds nothing), by biography and by the QID route across data/person/ — no earlier record exists; he is distinguished from his father Olusola Saraki and his sister Gbemisola Saraki, who have no records. No place entity exists for London in this repo's place set and no person record exists for his father, so no born_in or child_of edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

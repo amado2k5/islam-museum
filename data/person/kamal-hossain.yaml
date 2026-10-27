@@ -1,0 +1,50 @@
+id: person/kamal-hossain
+class: person
+label:
+  ar: "كمال حسين"
+  en: "Kamal Hossain"
+  ur: "کمال حسین"
+summary:
+  ar: "محامٍ وسياسي بنغلاديشي (وُلد في 20 أبريل 1937 في كلكتا)، من أبرز واضعي دستور بنغلاديش سنة 1972 ويُلقب بأبي الدستور، تولى وزارتي القانون (1972–1973) والخارجية (1973–1975) في حكومات الاستقلال الأولى، وأسس حزب غانو فورم وقاد ائتلاف الجبهة الوطنية المتحدة سنة 2018، واعتزل السياسة في أكتوبر 2023 وبقي رئيسًا فخريًا لحزبه."
+  en: "Bangladeshi jurist and politician (born 20 April 1937 at Calcutta), a principal drafter of Bangladesh's 1972 constitution and styled its father, who served as law minister (1972–1973) and foreign minister (1973–1975) in the first independence governments, founded the Gano Forum, led the Jatiya Oikya Front coalition in 2018, and retired from politics in October 2023, remaining his party's emeritus president."
+  ur: "بنگلہ دیشی منصف اور سیاست دان (پیدائش 20 اپریل 1937ء، کلکتہ)، بنگلہ دیش کے 1972ء کے آئین کے اہم مصنف اور «بابائے آئین» کہلاتے ہیں، پہلی آزادی حکومتوں میں وزیرِ قانون (1972ء–1973ء) اور وزیرِ خارجہ (1973ء–1975ء) رہے، گانو فورم کی بنیاد رکھی، 2018ء میں قومی متحدہ محاذ کی قیادت کی اور اکتوبر 2023ء میں سیاست سے کنارہ کش ہو کر پارٹی کے صدرِ فخری بنے۔"
+names:
+  - { value: "Kamal Hossain", kind: full }
+  - { value: "কামাল হোসেন", kind: full }
+  - { value: "كمال حسين", kind: full }
+  - { value: "کمال حسین", kind: full }
+gender: male
+born:
+  edtf: "1937-04-20"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 20 April 1937 at Calcutta, Bengal Presidency, British India, as the English article and Wikidata give; the family moved to Dhaka in 1949. No Hijri pairing is given in any source, so none is recorded. No place entity exists for Calcutta, so no born_in relation is written."
+  sources: [source/wikipedia-kamal-hossain-en, source/wikidata-kamal-hossain]
+roles: [jurist, politician]
+wings: [people, living]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: family background only. No source names a religion or a school for Kamal Hossain personally: the English article's infobox carries no religion field, Wikidata carries no religion value, and the Arabic and Urdu articles name none. What the English article gives is background — his father Ahmed Hossain described as an early Bengali Muslim physician, and the family's claim of descent from Ali — together with the political description of him as an icon of secular democracy and his drafting of a constitution whose secularism was a state principle. Family background and a politician's secular framing never attest a school, so under the two-source rule and the doubt rule his faith stays unknown, with the family-background reading preserved here for a founder ruling."
+    sources: [source/wikipedia-kamal-hossain-en, source/wikipedia-kamal-hossain-ar, source/wikipedia-kamal-hossain-ur, source/wikidata-kamal-hossain]
+relations:
+  - type: lived_in
+    target: place/dhaka
+    note: "The family moved to Dhaka in 1949; he has headed his Dhaka law chamber since the 1960s, as the English article records."
+    sources: [source/wikipedia-kamal-hossain-en]
+external_ids: { wikidata: "Q327967" }
+sources:
+  - source/wikipedia-kamal-hossain-en
+  - source/wikipedia-kamal-hossain-ar
+  - source/wikipedia-kamal-hossain-ur
+  - source/wikidata-kamal-hossain
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 114 §A of the century-additions queue (queue line 619, 'Dr. Kamal Hossain (1937–Living)', verified against the queue copy in the fix clone) from the English Wikipedia article read in full and the Arabic and Urdu articles and Wikidata item Q327967 read on 27 October 2026, each checked against its recorded revision. IDENTITY: pinned by biography to the jurist born at Calcutta on 20 April 1937, principal drafter of the 1972 constitution and founder of the Gano Forum; no other bearer of the name fits. EXISTENCE: checked three ways before building — name-fragment greps (kamal, hossain) across all of data/person/ returned no person file for him; his Wikidata QID Q327967, grounded through the English article's page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. His faith is unknown FLAGGED on family background alone, as set out in the faith note. RELATIONS: one lived_in to Dhaka is written, on the article's text; no born_in is written because Calcutta has no museum place entity. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-114

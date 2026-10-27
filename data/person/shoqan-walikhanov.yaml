@@ -1,0 +1,58 @@
+id: person/shoqan-walikhanov
+class: person
+label:
+  ar: "شوقان ولي خانوف"
+  en: "Shoqan Walikhanov"
+  ur: "شوقان ولی خانوف"
+summary:
+  ar: "عالم وإثنوغرافي ومؤرخ ورحالة كازاخي (نوفمبر 1835 – 10 أبريل 1865)، أول كازاخي يتكوّن في التقليد العلمي الروسي؛ أسّست رحلته إلى كاشغر (1858–1859) ودراساته عن السهوب الكازاخية علمَي التاريخ والإثنوغرافيا الكازاخيين الحديثين."
+  en: "Kazakh scholar, ethnographer, historian and traveller (November 1835 – 10 April 1865), the first Kazakh trained in the Russian scholarly tradition; his 1858–59 journey to Kashgar and his studies of the Kazakh steppe founded modern Kazakh historiography and ethnography."
+  ur: "قازق عالم، ماہرِ اثنوگرافی، مؤرخ اور سیاح (نومبر 1835ء – 10 اپریل 1865ء)؛ کاشغر کا سفر (1858–59ء) اور قازق میدانوں پر ان کی تحقیقات نے جدید قازق تاریخ نویسی اور اثنوگرافی کی بنیاد رکھی۔"
+names:
+  - { value: "Shoqan Walikhanov", kind: full }
+  - { value: "Chokan Valikhanov", kind: alternate }
+  - { value: "Shokan Walikhanov", kind: alternate }
+  - { value: "Muhammed-Qanafiya Ualihanov", kind: alternate }
+  - { value: "Shoqan", kind: pen }
+born:
+  edtf: "1835-11"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Born in November 1835 at the Kushmurun fort in the Aman-Karagai district (now Kostanay Province), son of the senior sultan Chingis (Shyngys) Walikhanov and a descendant of Ablai Khan; his given name was Muhammed-Qanafiya, and Shoqan, first his pen name, became his official name. The English and Arabic articles give November 1835, Wikidata carries the same month-precision value, and the Russian article's narrative agrees on 1835. No source read gives a day or a Hijri pairing, so no hijri key is carried; the date is carried in the Gregorian reckoning as the articles give it."
+  sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikipedia-walikhanov-ar, source/wikidata-walikhanov]
+died:
+  edtf: "1865-04-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died of tuberculosis on 10 April 1865, aged 29, in the village of Sultan Tezek, and was buried in the nearby cemetery of Kochen-Togan (now Almaty Province). The English article gives the day, the Arabic article agrees, and Wikidata carries the same day-precision value beside a stray month-precision October 1865 value that no article supports and that is not followed. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ar, source/wikidata-walikhanov]
+wings: [people]
+regions: [persia-central-asia]
+roles: [scholar, historian, geographer, traveler]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "He was born into a Muslim Kazakh family and given the Muslim name Muhammed-Qanafiya, and the Russian article records his childhood schooling at Kuntimes in Kazakh, Chagatai, Arabic and Persian; no source read names a school or order for him, and his Wikidata item carries no religion value. The English article's text describes the adult Walikhanov as a staunch proponent of Westernization and 'critical of the influence of Islam in his homeland' — a documented intellectual stance, preserved here — but criticism of Islam's social influence is not an attested personal renunciation of the faith, and under the museum's bar for unbelief (a documented repudiation, as with Akhundov) it does not carry an atheist-or-sceptic segment either. His faith segment is therefore unknown, flagged: if the founder counts the westernizer stance as a departure, the reading to weigh is departure, not any school."
+    sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikidata-walikhanov]
+relations:
+  - type: traveled_to
+    target: place/kashgar
+    note: "His celebrated expedition of 1858–59: travelling in disguise with a merchant caravan that set out on 28 June 1858, he spent about six months in Kashgar recording its towns, markets, languages and customs before suspicion forced the caravan out in April 1859 (English article)."
+    sources: [source/wikipedia-walikhanov-en]
+external_ids:
+  wikidata: Q135392
+sources:
+  - source/wikipedia-walikhanov-en
+  - source/wikipedia-walikhanov-ru
+  - source/wikipedia-walikhanov-ar
+  - source/wikidata-walikhanov
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Arabic Wikipedia articles on Shoqan Walikhanov and Wikidata item Q135392, each read at a recorded revision; existence checked both ways before building — name fragments (walikhanov, valikhanov, shoqan, shokan, chokan) and slug variants across data/person found no person file, and Q135392, grounded through the English article's page properties and confirmed through the Russian and Arabic articles', matched no existing record. The Arabic article is a translation of the English and counts as one family with it. No born_in or died_in edge is written: no place entity exists for Kushmurun or Sultan Tezek. His father Chingis Walikhanov and his friend Dostoevsky have no records in the lane's scope here, so no family or acquaintance edges are written; the traveled_to edge to Kashgar, whose place entity exists, is the one relation attested and writable."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101

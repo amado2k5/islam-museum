@@ -98,3 +98,57 @@ translators: []
 
 ## برنامج «الوسطية» — أسلوب البرنامج
 استضاف السويدان في حلقته الأولى عن «الإسلاموفوبيا» نخبة من المقيمين في الغرب — عادل درويش وعزام التميمي وعريب الرنتاوي وعماد حسين وعلي صوا والباحثة نور عيسى — وأدار النقاش بطريقته: تصويت الجمهور على الظاهرة ثم على سببها الأكبر ثم على دور الإعلام العربي {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:45:30}. وكانت النتائج: 51% يرون الظاهرة حقيقية، و55% يرون «الأصابع اليهودية» سببها الأكبر — ما فاجأه — و57% يرون الإعلام العربي في تحسن {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:49:30}.
+
+## في «الوسطية» — حلقة الخطاب الإسلامي
+أدار السويدان حلقة الخطاب الإسلامي بين النضج والانفعال بنخبة — بسام العموش ومحمود رشدان وصلاح الدين الجورشي وخالد حروب وسيد فايز ومحمود سيد ضغيم ومأمون جرار وأحمد عز وسامر خير — وأربعة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:26:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:45:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:55:00}. وروى طرفته المشهورة: لما قدّم أول برنامج تلفزيوني سنة 1992م اتصلت سيدة تشكره «أنك تتكلم في الدين وتبتسم» — فقلّب القنوات وإذا بمشكلة في الشكل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:25:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:26:00}. وخلص إلى أن الإسلام واحد بمستويات خطاب متدرجة كإرسال النبي معاذاً بالتوحيد أولاً، وأن المشكلة الكبرى في المضمون وأن الأمة تحتاج مرجعية تجمع كبار علمائها {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:06:30}.
+
+## في «الوسطية» — حلقة الديمقراطية
+أدار السويدان حلقة «الديمقراطية: عدالة أم استبداد؟» بنخبة من أصحاب التجربة — إسحق الفرحان ومنير البياتي وعبد اللطيف عربيات وعلي العطوم وعزام التميمي ومهدي الدجاني — واستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:30:00}. واعترف أن النتيجة تغيّرت عن زمن «الديمقراطية كفر»: 16% فقط يرون تعارضاً كاملاً {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:10:00}. ولخّص أن الخلاف انحصر بعد النقاش في «حق البرلمان في التشريع» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:29:00}.
+
+## في «الوسطية» — حلقة تطبيق الشريعة
+أدار السويدان حلقة «تطبيق الشريعة بين الكلية والمرحلة» بنخبة شرعية — أحمد نوفل ومحمد الخطيب وحمزة منصور وهايل عبد الحفيظ وفخري أبو صفية — واستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:32:00}. ولاحظ نتيجة معبّرة: 69% يرون المفهوم واضحاً في العموم دون تفاصيل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:06:30}. وخلص بعد الحوار إلى أن العموميات متفق عليها والتفاصيل تحتاج اجتهاداً وقوانين، وأن الجمع بين التربية والمشاركة هو الطريق {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:14:30}.
+
+## في «الوسطية» — حلقة العلمانية
+أدار السويدان حلقة «العلمانية والإسلام: صدام أم وئام» بنخبة — عمر الشوبكي وعمار علي حسن ومحمد جمال حشمة وضيوف مساندين — وأربعة استطلاعات بينها تصويت المشاهدين بالرسائل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:27:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:45:30}. وخلُص في الختام إلى أن المشترك بين النماذج أصيل في الإسلام، وأن «الإسلام الوسطي يغنينا عن العلمانية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:20:00}.
+
+## في «الوسطية» — حلقة الوطنية والقومية
+أدار السويدان حلقة الوطنية والقومية مقابل الإسلام بثلاثة مختصين وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. واعترف في الختام بفخره الشخصي بعروبته — «أفهم القرآن» — مرسّخاً قاعدة الحلقة: لا تعارض بلا تعصب {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
+
+## في «الوسطية» — حلقة الكفر والتكفير
+أدار السويدان أخطر حلقات البرنامج — الكفر والتكفير — بعلماء عقيدة ودعاة، وباستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. وختم مؤكداً: الاستثناءات لا تلغي الأصل — الإسلام لا يصادم الحرية الدينية، والنص الثابت يُحترم ويُنزَّل على الواقع بأدب الاستطاعة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
+
+## في «الوسطية» — حلقة التكفير الثانية
+في تتمة التكفير أدار السويدان جدل «الحكم مفتوح أم مغلق» وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — وكانت النتيجة الأبرز: 88% يقصرون إصدار حكم التكفير على هيئة شرعية رسمية لا على عالم ولا قاضٍ منفرد {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## في «الوسطية» — حلقة الولاء والبراء
+أدار السويدان حلقة الولاء والبراء بين المسلمين — أخطر تطبيقات المفهوم — بعدة استطلاعات بينها البراء من دعاة السلام مع إسرائيل (63%) والحاجة لضبط المفهوم (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. وبلورت الحلقة قاعدته: البراء من الفعل لا من الشخص {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
+
+## في «الوسطية» — حلقة حقوق الإنسان
+أدار السويدان حلقة ملف حقوق الإنسان في العالم العربي بثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — وكانت الأبرز: 69% يرون المواثيق بلا قيمة و9% فقط يؤيدون التدخل الدولي.
+
+## في «الوسطية» — حلقة الهجرة إلى الغرب
+أدار السويدان حلقة «الهجرة إلى الغرب: أمل أم ألم» باستطلاعات وإحصاءات عرضها بنفسه عن هجرة العقول {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. وختم بأن الحل بيئة جاذبة لا طاردة — حكم رشيد ودولة قانون ورفاه {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## في «الوسطية» — حلقة الفضائيات العربية
+قيّم السويدان تجربة الفضائيات بإحصاءات عرضها (79 منوعة، 37 حكومية، 52% عنف بفترات الأطفال) واستطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## في «الوسطية» — حلقة فتوى الفضائيات
+أدار السويدان حلقة فتوى الفضائيات بعلماء واستطلاعات — ولاحظ مفاجأة أن 15% فقط يرجعون لأعلم الفضائيات مقابل 42% للمجامع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
+
+## في «الوسطية» — حلقة تمكين المرأة
+أدار السويدان حلقة تمكين المرأة باستطلاعات — أبرزها أن 35% فقط يؤيدون الدعم الحكومي مطلقاً والأغلبية قصرته على غير السياسة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## في «الوسطية» — حلقة المرأة والاتفاقيات
+أدار السويدان حلقة المرأة العربية والاتفاقيات الدولية وختم بقاعدته: نأخذ ما يرفع الظلم عن المرأة ونرفض ما يصادم الدين — «وهذه الوسطية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## في «الوسطية» — حلقة فقر الرموز النسائية
+أدار السويدان حلقة فقر الرموز النسائية عبر التاريخ — مؤكداً أن الهدف ليس إضعاف المرأة بل استكشاف كسر الحاجز {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.
+
+## في «الوسطية» — حلقة المقاومة والإرهاب
+أدار السويدان حلقة المقاومة والإرهاب وختم بمعادلته: حق المقاومة للمحتل لا يجادل فيه اثنان، وتوجيه السلاح للمدنيين إرهاب — «سبب غضب من الله قبل لعنة الغرب» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.
+
+## في «الوسطية» — حلقة أزمة الثقافة
+أدار السويدان حلقة أزمة الثقافة لدى الشباب باستطلاعات وأرقام — 71% أزمة حقيقية، وانقسام 47%/43% على أثر الفضائيات والإنترنت {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.
+
+## في «الوسطية» — حلقة أزمة القراءة
+خصّص السويدان حلقة لأزمة القراءة لدى الشباب وأرقامها — 5% من العالم و1% من كتبه — واستطلاعاً وجد أن الانشغال أقل الأعذار (12%) مقابل سوء الكتابة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}.

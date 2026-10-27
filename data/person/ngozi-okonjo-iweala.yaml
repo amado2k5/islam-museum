@@ -1,0 +1,37 @@
+id: person/ngozi-okonjo-iweala
+class: person
+label: { ar: "نجوزي أوكونجو إيويالا", en: "Ngozi Okonjo-Iweala", ur: "نگوزی اوکونجو-ایویلا" }
+names:
+  - { value: "Ngozi Okonjo-Iweala", kind: full }
+  - { value: "نجوزي أوكونجو إيويالا", kind: full }
+  - { value: "Ngozi Okonjo", kind: alternate }
+gender: female
+summary:
+  ar: "اقتصادية نيجيرية أمريكية وُلدت في أوغواشي أوكوو سنة 1954. عملت في البنك الدولي خمسة وعشرين عاما حتى صارت مديرا إداريا للعمليات، وتولت وزارة مالية نيجيريا مرتين وفاوضت على إلغاء قسم كبير من ديونها لدى نادي باريس، ثم صارت سنة 2021 أول امرأة وأول أفريقية تقود منظمة التجارة العالمية."
+  en: "Nigerian-American economist born in Ogwashi-Uku in 1954. She spent twenty-five years at the World Bank, rising to Managing Director for Operations, served twice as Nigeria's finance minister and negotiated the Paris Club deal that wiped out much of Nigeria's debt, and in 2021 became the first woman and the first African to lead the World Trade Organization."
+  ur: "نائجریائی نژاد امریکی ماہرِ معاشیات، 1954 میں اوگواشی اوکو میں پیدا ہوئیں۔ انھوں نے عالمی بینک میں پچیس برس گزارے اور مینیجنگ ڈائریکٹر آپریشنز بنیں، دو بار نائجریا کی وزیرِ خزانہ رہیں اور پیرس کلب سے قرضوں کی بڑی معافی کی بات چیت کی، اور 2021 میں عالمی تجارتی تنظیم کی سربراہ بننے والی پہلی خاتون اور پہلی افریقی بنیں۔"
+roles: [economist, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1954-06-13"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata agree on her birth on 13 June 1954 in Ogwashi-Uku, Delta State; the Hijri year (1373) is a conversion."
+  sources: [source/wikipedia-ngozi-okonjo-iweala-en, source/wikipedia-ngozi-okonjo-iweala-ar, source/wikidata-ngozi-okonjo-iweala]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — one personal attestation plus family framing, for the founder's word, in the Christian-evidence configuration of the earlier waves. Her name stands in this lane's queue, but no source used makes her a Muslim, and list membership is not evidence: the English, Arabic and Urdu articles and Wikidata state no religion for her at all — Wikidata carries no religion value, an unusual silence. Two attestations of a Christian affiliation exist outside them. In October 2017 Vice President Yemi Osinbajo, speaking in Lagos, named her personally: she was 'the first person to sit as a director of the bank' (the Islamic Development Bank), and 'both of them are Christians', reported by Punch and carried by BellaNaija — one attestation of her own affiliation, though secondhand and not her own statement. And on 25 October 2026 the Okonjo family's statement on her mother's death, naming her among the children, said 'we take comfort in our Christian faith' — but that is one family text speaking for the family, carried by many outlets from a single statement, and family framing never counts as a personal attestation. One personal attestation plus family framing stands one short of the two-source bar for christian/documented, so the value stays unknown with both readings preserved; if the founder accepts the two together, the segment settles as christian/documented."
+    sources: [source/wikipedia-ngozi-okonjo-iweala-en, source/wikipedia-ngozi-okonjo-iweala-ar, source/wikipedia-ngozi-okonjo-iweala-ur, source/wikidata-ngozi-okonjo-iweala, source/bellanaija-osinbajo-church-2017, source/businessday-okonjo-mother-2026]
+external_ids: { wikidata: "Q289350" }
+sources: [source/wikipedia-ngozi-okonjo-iweala-en, source/wikipedia-ngozi-okonjo-iweala-ar, source/wikipedia-ngozi-okonjo-iweala-ur, source/wikidata-ngozi-okonjo-iweala, source/bellanaija-osinbajo-church-2017, source/businessday-okonjo-mother-2026]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ngozi Okonjo-Iweala' (revision 1378373879), Arabic Wikipedia «نجوزي أوكونجو إيويالا» (revision 75471226), Urdu Wikipedia «نگوزی اوکونجو-ایویلا» (revision 11948713) and Wikidata item Q289350 (item revision 2559742707), read via the MediaWiki API on 26 October 2026, each article fetched by its recorded revision id with the returned id asserted equal; plus BellaNaija's October 2017 report of Vice President Osinbajo's Lagos address and BusinessDay's 25 October 2026 report of the Okonjo family statement, read in full the same day for the faith determination. Existence was checked by filename fragments under all spellings (okonjo, ngozi, iweala), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No place entity exists for Ogwashi-Uku, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-72
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

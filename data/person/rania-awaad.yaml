@@ -1,0 +1,27 @@
+id: person/rania-awaad
+class: person
+label: { ar: "رانيا عواد", en: "Rania Awaad", ur: "رانیہ عواد" }
+names:
+  - { value: "Rania Awaad", kind: full }
+  - { value: "رانيا عواد", kind: full }
+gender: female
+summary:
+  ar: "طبيبة نفسية مصرية أمريكية في جامعة ستانفورد، حيث تشغل منصب أستاذة سريرية في الطب النفسي وتدير مختبر ستانفورد للصحة النفسية للمسلمين وعلم النفس الإسلامي. وهي رئيسة «مارستان» وإحدى مؤسِّسيها، وهي منظمة غير ربحية للصحة النفسية الشاملة تخدم المجتمعات المسلمة، وكانت المديرة السريرية المؤسِّسة لفرع مركز خليل في منطقة الخليج. وقبل دراسة الطب درست العلوم الشرعية الكلاسيكية في دمشق وتحمل إجازات منها إجازة في القراءات القرآنية العشر."
+  en: "Egyptian-American psychiatrist at Stanford University, where she is a Clinical Professor of Psychiatry and directs the Stanford Muslim Mental Health and Islamic Psychology Lab. She is President and Co-Founder of Maristan, a holistic mental health nonprofit serving Muslim communities, and was the founding Clinical Director of the Khalil Center's Bay Area branch. Before medicine she pursued classical Islamic studies in Damascus and holds ijazas including one in all ten canonical Qur'anic recitations."
+  ur: "اسٹینفورڈ یونیورسٹی میں مصری نژاد امریکی ماہرِ نفسیات؛ وہ نفسیات کی کلینیکل پروفیسر ہیں اور اسٹینفورڈ مسلم مینٹل ہیلتھ و اسلامک سائیکالوجی لیب کی ڈائریکٹر ہیں۔ وہ «مارستان» کی صدر اور شریک بانی ہیں، جو مسلم برادریوں کی خدمت کرنے والا کلی صحتِ نفسی کا غیر منفعتی ادارہ ہے، اور خلیل سینٹر کی خلیجی شاخ کی بانی کلینیکل ڈائریکٹر رہیں۔ طب سے پہلے انہوں نے دمشق میں کلاسیکی اسلامی علوم پڑھے اور دس قرآنی قراءتوں سمیت متعدد اجازے رکھتی ہیں۔"
+roles: [physician, scholar, teacher]
+wings: [people, living]
+regions: [americas-oceania]
+external_ids: { wikidata: "Q112339295" }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. An MCC East Bay biography notes that she has taught Shafi'i fiqh; teaching a school is not a personal attestation, and her ijazas are credentials, not attestations, so no school is recorded."
+    sources: [source/stanford-rania-awaad, source/stanford-health-care-rania-awaad]
+sources: [source/stanford-rania-awaad, source/stanford-health-care-rania-awaad, source/wikidata-rania-awaad]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 335 ('Dr. Rania Awaad (Maristan Platforms)'). FOUNDER chain: the Stanford Islamic Studies profile states that she is 'President and Co-Founder of Maristan', and the Stanford Health Care biography lists her as Maristan's Executive Director (2021 to present). Both pages are Stanford publications, one institutional family, disclosed here; the co-founder statement is a role fact, not a faith fact. Existence checks: name-fragment sweeps over data/person/ and data/source/ found no prior record; the grounded-QID sweep found Wikidata item Q112339295 ('Egyptian-American Islamic scholar', occupation psychiatrist), a biographical match, recorded as external_ids. A second Wikidata item, Q59747619 (researcher, ORCID 0000-0002-6277-3741, employer Stanford University), appears to describe the same person and is noted as a duplicate-item candidate; it is not used. No birth date is published on the consulted pages or the item, so no born block is written. Consulted 26 October 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-58
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

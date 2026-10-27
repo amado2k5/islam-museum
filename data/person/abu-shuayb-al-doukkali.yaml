@@ -1,0 +1,50 @@
+id: person/abu-shuayb-al-doukkali
+class: person
+label: { ar: "أبو شعيب الدكالي", en: "Abu Shu'ayb al-Doukkali", ur: "ابو شعیب دکالی" }
+names:
+  - { value: "أبو شعيب بن عبد الرحمن الصديقي الدكالي", kind: full }
+  - { value: "Abu Shu'ayb ibn Abd al-Rahman al-Sadiqi al-Doukkali", kind: full }
+  - { value: "أبو شعيب", kind: kunya }
+  - { value: "شيخ الإسلام", kind: laqab }
+gender: male
+summary:
+  ar: "عالم مغربي (1878–1937) من دكالة، فقيه ومحدث لُقب بشيخ الإسلام؛ درس بالأزهر على سليم البشري ومحمد بخيت المطيعي ودرّس به وبالزيتونة، وتولى وزارة العدل والتعليم بالمغرب والرياسة العلمية في الدروس السلطانية لثلاثة سلاطين، ويُعد من رواد الإصلاح السلفي بالمغرب."
+  en: "Moroccan scholar (1878–1937) from Doukkala, a jurist and hadith master titled Shaykh al-Islam. He studied at al-Azhar under Salim al-Bishri and Muhammad Bakhit al-Muti'i and taught there and at al-Zaytuna, served as Morocco's minister of justice and of education, and presided over the royal scholarly lessons under three sultans; he is counted a pioneer of Salafi reform in Morocco."
+  ur: "مراکشی عالم (1878–1937) جن کا تعلق دکالہ سے تھا، فقیہ و محدث اور «شیخ الاسلام» کے لقب سے موسوم؛ الازہر میں سلیم البشری اور محمد بخیت المطیعی سے پڑھا اور وہیں اور جامع زیتونہ میں پڑھایا، مراکش کے وزیرِ عدل و تعلیم رہے اور تین سلاطین کے دروسِ سلطانیہ کی علمی صدارت کی؛ مراکش میں سلفی اصلاح کے رواد میں شمار ہوتے ہیں۔"
+roles: [scholar, jurist, teacher, politician]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1878-10-20"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article gives his birth on 25 Dhu al-Qa'da 1295 AH at the village of al-Sadiqat in Doukkala; the French article gives 20 October 1878 at the village of Oulad Amrou in al-Gharbiya, and Wikidata gives the same Gregorian day; the tabular conversion of the Hijri date agrees. Neither village has a place entity, so no born_in edge is written."
+  sources: [source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikidata-abu-shuayb-al-doukkali]
+died:
+  edtf: "1937-07-17"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The French article gives his death at Rabat on 17 July 1937 and Wikidata the same day; the Arabic article's years for him are 1295–1356 AH. Rabat has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikidata-abu-shuayb-al-doukkali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder (movement-without-school configuration). Two independent article texts situate him personally in the Salafi movement: the English text calls him a pioneer of Salafism in Morocco who led a nationalist, reformist Salafi movement, and the French text credits him, with Muhammad ibn al-Arabi al-Alawi, as a founder of neo-Salafism (al-salafiyya al-jadida) and, citing Belhaj, gives his Salafism a reformist, Wahhabi-inflected dimension. But no source names a madhhab for him, and the enum has no salafi value, so no value is recorded (the Abdelaziz Thaalbi pattern of wave 56). What each other source gives: the Arabic text records that he gave fatwa across the four madhhabs, which is an office function, and that his family was affiliated with the Darqawiyya Sufi order, which is family background; the English article files him under Moroccan Sunni Muslim scholars and the Urdu article under Sunni and Salafi categories, all filings; Wikidata carries no religion value."
+    sources: [source/wikipedia-abu-shuayb-al-doukkali-en, source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikipedia-abu-shuayb-al-doukkali-ur, source/wikidata-abu-shuayb-al-doukkali]
+relations:
+  - { type: student_of, target: person/salim-al-bishri, sources: [source/wikipedia-abu-shuayb-al-doukkali-ar] }
+  - { type: student_of, target: person/muhammad-bakhit-mutii, sources: [source/wikipedia-abu-shuayb-al-doukkali-ar] }
+external_ids: { wikidata: "Q2821727" }
+sources: [source/wikipedia-abu-shuayb-al-doukkali-en, source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikipedia-abu-shuayb-al-doukkali-ur, source/wikidata-abu-shuayb-al-doukkali]
+provenance:
+  layer: own-research
+  source: "English, French, Arabic and Urdu Wikipedia articles on Abu Shu'ayb al-Doukkali, each fetched by its recorded revision id (EN 1378833045, FR 240462229, AR 76667540, UR 10683608) with the returned id asserted equal before use, and Wikidata item Q2821727 (revision 2544403728; a sitelink-less duplicate item Q130362601 was not used). Existence checks by name fragments (al-Doukkali, ad-Dukkali, Doukkali, الدكالي, الدوكالي) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1878–1937, confirmed by all sources, with the Arabic article's Hijri dates (25 Dhu al-Qa'da 1295 – 1356 AH) agreeing. The student_of edges to Salim al-Bishri and Muhammad Bakhit al-Muti'i are written here, in the student's record, as the Arabic text names both among his al-Azhar teachers."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

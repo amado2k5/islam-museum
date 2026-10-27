@@ -1,0 +1,49 @@
+id: person/yusuf-al-azma
+class: person
+label: { ar: "يوسف العظمة", en: "Yusuf al-Azma", ur: "یوسف العظمہ" }
+names:
+  - { value: "يوسف بن إبراهيم بن عبد الرحمن بن محمد بن إسماعيل العظمة", kind: full }
+  - { value: "Yusuf al-Azma", kind: full }
+  - { value: "يوسف باشا العظمة", kind: laqab }
+  - { value: "Youssef al-Azma", kind: alternate }
+gender: male
+summary:
+  ar: "ضابط سوري (1883–1920)، وزير الحربية ورئيس أركان الجيش العربي في المملكة السورية، قاد القوات السورية في معركة ميسلون ضد الفرنسيين وقُتل فيها في 24 يوليو 1920، فصار رمزا وطنيا سوريا."
+  en: "Syrian officer (1883–1920), minister of war and chief of general staff of the Arab Army of the Arab Kingdom of Syria, who led the Syrian forces at the Battle of Maysalun against the French and was killed there on 24 July 1920, becoming Syria's supreme national martyr."
+  ur: "شامی افسر (1883–1920)، مملکتِ سوریہ کے وزیرِ حرب اور عرب فوج کے رئیسِ ارکان، جنہوں نے معرکۂ میسلون میں فرانسیسیوں کے خلاف شامی افواج کی قیادت کی اور 24 جولائی 1920 کو وہیں مارے گئے، یوں وہ شام کے عظیم ترین قومی شہید بن گئے۔"
+roles: [general, politician]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1883"
+  hijri: "1300"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Damascus, in the al-Shaghur quarter according to the Arabic article. The year is disputed: the English article, citing Moubayed and Roded, gives 1883, while the Arabic article gives a precise day, 9 April 1884, paired with mid-Rajab 1301 AH and citing a Syrian encyclopedia; Wikidata carries both 1883 and 1884. The 1883 of the English article is followed at year precision, and the Arabic tradition's date is recorded here."
+  sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar, source/wikidata-yusuf-al-azma]
+died:
+  edtf: "1920-07-24"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed in action at Maysalun, west of Damascus, on 24 July 1920, commanding the Syrian forces against the French advance; his tomb stands at Maysalun. No place entity exists for Maysalun, so the place of death and burial is carried here and in the prose."
+  sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar, source/wikipedia-yusuf-al-azma-ur, source/wikidata-yusuf-al-azma]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox alone gives his religion as Sunni Muslim (Muslim Sunni, of Ahl al-Sunna wa-l-Jama'a). The English article's text makes no statement of his religion and only files him under the categories 'Syrian Sunni Muslims' and 'Ottoman Sunni Muslims', which never attest; the Urdu article mirrors those filings; Wikidata's religion (P140) value is generic Islam only. One infobox plus category filings never settle an affiliation, so the value is unknown."
+    sources: [source/wikipedia-yusuf-al-azma-ar, source/wikipedia-yusuf-al-azma-en, source/wikidata-yusuf-al-azma]
+external_ids: { wikidata: "Q1745687" }
+sources: [source/wikipedia-yusuf-al-azma-en, source/wikipedia-yusuf-al-azma-ar, source/wikipedia-yusuf-al-azma-ur, source/wikidata-yusuf-al-azma]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q1745687, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-52
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

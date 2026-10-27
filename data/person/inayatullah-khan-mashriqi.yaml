@@ -1,0 +1,49 @@
+id: person/inayatullah-khan-mashriqi
+class: person
+label: { ar: "عناية الله المشرقي", en: "Inayatullah Khan Mashriqi", ur: "عنایت اللہ خاں مشرقی" }
+names:
+  - { value: "عناية الله خان المشرقي", kind: full }
+  - { value: "Inayatullah Khan Mashriqi", kind: full }
+  - { value: "Allama Mashriqi", kind: laqab }
+  - { value: "علامہ مشرقی", kind: laqab }
+gender: male
+summary:
+  ar: "رياضياتي ومنظّر سياسي هندي ثم باكستاني (1888–1963). درس في كرايستس كوليدج بكمبريدج وحقق مراكز متقدمة في امتحانات الرياضيات، وألّف «تذكرة» الذي رُشّح لجائزة نوبل، وأسّس نحو سنة 1930 حركة الخاكسار شبه العسكرية لنهضة المسلمين وعامة الناس، وسُجن مرارًا في عهد الاستعمار وبعده."
+  en: "Indian, later Pakistani, mathematician and political theorist (1888–1963). He read mathematics at Christ's College, Cambridge, with distinction, wrote the Tazkirah — nominated for the Nobel Prize — and around 1930 founded the paramilitary Khaksar movement for the revival of Muslims and the uplift of the masses; he was imprisoned repeatedly under colonial rule and after it."
+  ur: "ہندوستانی، بعد ازاں پاکستانی، ریاضی دان اور سیاسی مفکر (1888ء–1963ء)۔ انھوں نے کرئسٹس کالج، کیمبرج میں ریاضی پڑھی اور نمایاں کامیابی حاصل کی، «تذکرہ» لکھی جو نوبل انعام کے لیے نامزد ہوئی، اور 1930ء کے لگ بھگ خاکسار تحریک قائم کی؛ استعماری دور اور اس کے بعد بار بار قید ہوئے۔"
+roles: [mathematician, scholar, activist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1888-08-25"
+  hijri: "1305"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata agree on 25 August 1888, at Amritsar; no place entity exists for Amritsar, so no born_in edge is written. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-mashriqi-en, source/wikipedia-mashriqi-ar, source/wikipedia-mashriqi-ur, source/wikidata-mashriqi]
+died:
+  edtf: "1963-08-27"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death at the Mayo Hospital, Lahore, on 27 August 1963, and burial at Ichhra; the Arabic and Urdu articles and Wikidata agree on the date. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-mashriqi-en, source/wikipedia-mashriqi-ar, source/wikipedia-mashriqi-ur, source/wikidata-mashriqi]
+relations:
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-mashriqi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Muslim is attested in the texts — the English article describes his birth into a Punjabi Muslim Rajput family of Amritsar and calls him an Islamic scholar, and the Arabic article calls him an Indian Muslim scholar — but no article text names a legal school for him. The only Sunni attestation is structured: Wikidata's religion value is Sunni Islam, a single structured value, and the Urdu article's categories file him under Pakistani Sunnis, a filing; a copied or filed value is one source family and never counts twice. His Khaksar movement is a movement affiliation, which never counts. What each source gives is stated here exactly, and the segment stays unknown under the two-source rule."
+    sources: [source/wikipedia-mashriqi-en, source/wikipedia-mashriqi-ar, source/wikipedia-mashriqi-ur, source/wikidata-mashriqi]
+external_ids: { wikidata: "Q7537982" }
+sources: [source/wikipedia-mashriqi-en, source/wikipedia-mashriqi-ar, source/wikipedia-mashriqi-ur, source/wikidata-mashriqi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Inayatullah Khan Mashriqi' (revision 1374298391), Arabic Wikipedia 'عناية الله المشرقي' (revision 75610009), Urdu Wikipedia 'عنایت اللہ خاں مشرقی' (revision 11423695) and Wikidata item Q7537982 (item revision 2561057816), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (mashriqi, inayatullah), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No founder_of edge is written: no group record exists for the Khaksar movement (checked data/group/ — only group/deobandiyya is present among movement records relevant here), and no place entity exists for Amritsar, so his birthplace is stated in the born note only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-71
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

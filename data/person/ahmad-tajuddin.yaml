@@ -1,0 +1,53 @@
+id: person/ahmad-tajuddin
+class: person
+label:
+  ar: "أحمد تاج الدين"
+  en: "Ahmad Tajuddin"
+  ur: "احمد تاج الدین"
+summary:
+  ar: "السلطان السابع والعشرون لبروناي (1924–1950)، أكبر أبناء محمد جمال العالم الثاني الباقين. اعتلى العرش في الحادية عشرة من عمره تحت مجلس وصاية، ونُصّب سنة 1931 وتُوّج سنة 1940، واكتُشف النفط في سيريا سنة 1929 في مطلع عهده. طالب بمزيد من الاستقلال المالي والسياسي عن بريطانيا، وبقي سلطانًا طوال الاحتلال الياباني (1941–1945) وإن اقتصرت سلطته على العادات والشؤون الإسلامية، وتوفي في سنغافورة في حزيران 1950 وخلفه شقيقه الأصغر عمر علي سيف الدين الثالث."
+  en: "The 27th Sultan of Brunei (1924–1950), eldest surviving son of Muhammad Jamalul Alam II. He came to the throne aged eleven under a regency council, was installed in 1931 and crowned in 1940; oil was found at Seria in 1929, early in his reign. He pressed for greater financial and political autonomy from Britain, remained sultan through the Japanese occupation (1941–1945) with his authority limited to custom and Islamic affairs, and died in Singapore in June 1950, succeeded by his younger brother Omar Ali Saifuddien III."
+  ur: "برونائی کے ستائیسویں سلطان (1924ء–1950ء)، محمد جمال عالم دوم کے سب سے بڑے زندہ بیٹے۔ گیارہ برس کی عمر میں مجلسِ وصایت کے تحت تخت نشین ہوئے، 1931ء میں تنصیب اور 1940ء میں تاج پوشی ہوئی؛ ان کے عہد کے آغاز میں 1929ء میں سیریا میں تیل دریافت ہوا۔ انہوں نے برطانیہ سے زیادہ مالی و سیاسی خودمختاری کا مطالبہ کیا، جاپانی قبضے (1941ء–1945ء) کے دوران سلطان رہے اگرچہ ان کا اختیار رسم و رواج اور اسلامی امور تک محدود تھا، جون 1950ء میں سنگاپور میں وفات پائی اور ان کے چھوٹے بھائی عمر علی سیف الدین سوم جانشین ہوئے۔"
+names:
+  - { value: "Ahmad Tajuddin Akhazul Khairi Waddien", kind: full }
+  - { value: "أحمد تاج الدين اعكاظ الخير والدين", kind: full }
+  - { value: "Ahmad Tajuddin Akhazul Khairi Waddien ibni Muhammad Jamalul Alam II", kind: full }
+  - { value: "Pengiran Muda Besar Ahmad Tajuddin", kind: alternate }
+gender: male
+roles: [sultan]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1913-08-22"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Day and month agree in every carrier. The year is debated: the Malay, Arabic and Urdu articles and Wikidata give 22 August 1913, the Malay article placing the birth at Istana Pekan, Brunei Town; the English article's lead and infobox give 22 August 1912, though its own note records Bruneian research papers giving 22 August 1913 and the historian Bob Reece giving 2 September 1913. The record follows 1913. The Arabic article files his birth under both 1912 and 1913 and under the year 1331 AH; the Hijri year is recorded from that filing, hence derived. No place entity exists for Brunei Town, so no born_in relation is written."
+  sources: [source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar, source/wikipedia-ahmad-tajuddin-ur, source/wikidata-ahmad-tajuddin, source/wikipedia-ahmad-tajuddin-en]
+died:
+  edtf: "1950-06-04"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English, Malay and Arabic articles give 4 June 1950, at the Singapore General Hospital (Malay article), on a stop in Singapore on his way to England; the Urdu article and Wikidata give 3 June 1950, and the English article's own narrative, citing Sidhu 2009, has him die the day after reaching the hospital, with the funeral on 4 June. The Malay article adds burial at the Royal Mausoleum (Kubah Makam Diraja), Bandar Brunei, on 5 June 1950. The Arabic article files his death under the year 1369 AH, which both June dates fall in; the Hijri year is recorded from that filing, hence derived. No place entity exists for Singapore or the mausoleum, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar, source/wikipedia-ahmad-tajuddin-ur, source/wikidata-ahmad-tajuddin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school reading exists in one infobox family: the English article's infobox religion field links Sunni Islam, displayed as 'Islam', and Wikidata's religion value is Sunni Islam (Q483654), the structured echo of the same reading. The Malay article's infobox gives Islam in general; the Arabic and Urdu articles name no religion; no article's text names a school. His founding of an Islamic school and the Japanese administration's recognition of him as head of the Islamic religion in Brunei are patronage and office, not a personal school, and crown headship and descent do not attest one either. One infobox family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-ahmad-tajuddin-en, source/wikidata-ahmad-tajuddin, source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar]
+relations:
+  - { type: child_of, target: person/muhammad-jamalul-alam-ii, sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikidata-ahmad-tajuddin] }
+  - { type: successor_of, target: person/muhammad-jamalul-alam-ii, sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms] }
+external_ids: { wikidata: "Q40111" }
+sources: [source/wikipedia-ahmad-tajuddin-en, source/wikipedia-ahmad-tajuddin-ms, source/wikipedia-ahmad-tajuddin-ar, source/wikipedia-ahmad-tajuddin-ur, source/wikidata-ahmad-tajuddin]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmad Tajuddin' (revision 1371478797 of 26 August 2026), Malay Wikipedia 'Sultan Ahmad Tajuddin Akhazul Khairi Waddien' (revision 6799030 of 9 March 2026), Arabic Wikipedia 'أحمد تاج الدين' (revision 76194797 of 13 August 2026), Urdu Wikipedia 'احمد تاج الدین' (revision 9689523 of 4 April 2026) and Wikidata item Q40111 (item revision 2516972135 of 13 July 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, every article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical revision and claims. The QID was grounded through the English article's page properties and confirmed through the Malay, Arabic and Urdu articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic fragments or the QID Q40111, and no shared Arabic label requires a homonym entry. His father and predecessor Muhammad Jamalul Alam II's record exists (built in wave 95) and carries Q40110, the very item this record's Wikidata item gives as father, and the father's own record names Ahmad Tajuddin as his successor, so the child_of and successor_of edges are grounded at both ends and are written here, in the son's record. His successor, his younger brother Omar Ali Saifuddien III, has no museum record (the existing omar-ali-saifuddien-ii is the 23rd sultan, of his great-grandfather's generation), and no Brunei polity entity and no Brunei Town, Singapore or Royal Mausoleum place entity exists, so no further successor edge, ruler_of, born_in, died_in or buried_in relation is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96

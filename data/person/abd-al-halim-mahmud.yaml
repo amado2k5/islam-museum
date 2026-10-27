@@ -1,0 +1,48 @@
+id: person/abd-al-halim-mahmud
+class: person
+label: { ar: "عبد الحليم محمود", en: "Abd al-Halim Mahmud", ur: "عبد الحلیم محمود" }
+names:
+  - { value: "عبد الحليم محمود", kind: full }
+  - { value: "Abd al-Halim Mahmud", kind: full }
+  - { value: "Abdel-Halim Mahmoud", kind: alternate }
+gender: male
+roles: [scholar, theologian, philosopher, writer]
+summary:
+  ar: "عالم مصري (1910–1978) تولى مشيخة الأزهر من 1973 حتى وفاته. درس في الأزهر ثم في السوربون حيث نال الدكتوراه في الفلسفة عن الحارث المحاسبي سنة 1940، وله أكثر من ستين مؤلفا كثير منها في التصوف والفلسفة، وعُرف باستعادته مكانة المشيخة ودفاعه عن تطبيق الشريعة في القانون المصري."
+  en: "Egyptian scholar (1910–1978), Grand Imam of al-Azhar from 1973 until his death. Trained at al-Azhar and at the Sorbonne, where his 1940 doctorate treated al-Harith al-Muhasibi, he wrote more than sixty works, many on Sufism and philosophy, and is remembered for restoring al-Azhar's public standing and for arguing that Egypt's civil code should be replaced by sharia."
+  ur: "مصری عالم (1910ء–1978ء) جو 1973ء سے اپنی وفات تک الازہر کے شیخ رہے۔ الازہر اور سوربون سے تعلیم پائی (1940ء میں الحارث المحاسبی پر فلسفے میں ڈاکٹریٹ)، ان کی ساٹھ سے زائد تصانیف ہیں جن میں سے کئی تصوف اور فلسفے پر ہیں؛ وہ الازہر کے عوامی مقام کی بحالی اور مصری قانون میں شریعت کے نفاذ کی حمایت کے لیے یاد کیے جاتے ہیں۔"
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1910-05-12"
+  hijri: "1328"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born at Abu Ahmed hamlet, al-Salam village, Bilbeis, Sharqia, on 2 Jumada al-Awwal 1328 AH, 12 May 1910 (Arabic article pairs the dates; Wikidata gives Bilbeis as place of birth). No place entity for Bilbeis exists yet, so the birthplace is carried here and in the prose."
+  sources: [source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-en, source/wikidata-abd-al-halim-mahmud]
+died:
+  edtf: "1978-10-17"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Cairo on 17 October 1978; the Urdu article pairs the date with 14 Dhu al-Qa'da 1398 AH, so the Hijri year is sourced, not derived."
+  sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikidata-abd-al-halim-mahmud]
+relations:
+  - { type: died_in, target: place/cairo, note: "Died at Cairo (English and Arabic article infoboxes; Wikidata gives Cairo as place of death).", sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikidata-abd-al-halim-mahmud] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No school is recorded, and the question is flagged. Maliki rests on the infobox family alone: the English, Arabic and Urdu infoboxes all give his jurisprudence or madhhab as Maliki, unreferenced, and no article's text names a school for him. Sunni is given by the same infoboxes, by category filings and by Wikidata's religion value (Sunni Islam) — one structured tradition, no text. His Sufism is presented in the English-family text as authorship and advocacy — he is remembered for reviving Sufism through his writings and lectures, and was influenced by the Sudanese Sufi shaykh Muhammad Osman Abduh al-Burhani — and Wikidata's description calls him an Egyptian Sufi, but no text attests personal discipleship or membership in an order. His office as Grand Imam of al-Azhar is never an attestation."
+    sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikipedia-abd-al-halim-mahmud-fr, source/wikidata-abd-al-halim-mahmud]
+external_ids: { wikidata: "Q2820946" }
+sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikipedia-abd-al-halim-mahmud-fr, source/wikidata-abd-al-halim-mahmud]
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English, Arabic, Urdu and French Wikipedia articles on Abd al-Halim Mahmud and Wikidata item Q2820946, each fetched by its recorded revision id and read in full, the returned revision ids asserted equal to the recorded ones before any claim was drawn. The Urdu and French articles follow the English article's text and are counted as its family."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-62

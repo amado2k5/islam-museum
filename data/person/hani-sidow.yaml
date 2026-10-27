@@ -1,0 +1,27 @@
+id: person/hani-sidow
+class: person
+label: { ar: "هاني سيدو", en: "Hani Sidow", ur: "ہانی سیدو" }
+names:
+  - { value: "Hani Sidow", kind: full }
+  - { value: "هاني سيدو", kind: full }
+  - { value: "Hanihanss", kind: alternate }
+gender: female
+summary:
+  ar: "مدونة جمال ومؤلفة بريطانية صومالية معروفة على إنستغرام باسم @hanihanns. بنت جمهورها بالمكياج وتنسيق الموضة المحتشمة للنساء المحجبات، ودرست الإعلان والعلاقات العامة في الجامعة، ونشرت كتابها الأول «إنستا-غلام» (Insta-glam) عن دار أوكتوبوس التابعة لهاشيت، ومقابلة مجلة «ستايلست» معها عند صدوره تصفها بأنها في الثانية والعشرين."
+  en: "British-Somali beauty blogger and author known on Instagram as @hanihanns. She built her following with makeup and modest-fashion styling for hijab-wearing women, studied advertising and public relations at university, and published her first book, Insta-glam, with Hachette's Octopus imprint; Stylist magazine's interview at its release gives her age as 22."
+  ur: "برطانوی صومالی بیوٹی بلاگر اور مصنفہ، جو انسٹاگرام پر @hanihanns کے نام سے معروف ہیں۔ انہوں نے میک اپ اور حجاب پہننے والی خواتین کے لیے مودسٹ فیشن اسٹائلنگ سے اپنا حلقہ بنایا، یونیورسٹی میں ایڈورٹائزنگ اور پبلک ریلیشنز پڑھا، اور اپنی پہلی کتاب «انسٹا-گلیم» (Insta-glam) ہاشیٹ کے اوکٹوپس امپرنٹ سے شائع کی؛ اس کی اشاعت کے وقت «اسٹائلسٹ» میگزین کے انٹرویو میں ان کی عمر 22 برس بتائی گئی۔"
+roles: [artist, writer]
+wings: [people, living]
+regions: [andalus-europe]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. The Stylist interview presents her as a Muslim beauty blogger styling modest fashion for hijab-wearing women, addressing a mainly Somali audience; that presentation is not a school attestation, so no affiliation is recorded."
+    sources: [source/stylist-hani-sidow]
+sources: [source/stylist-hani-sidow, source/hachette-hani-sidow]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 352 ('Hani Sidow'). Existence checks: name-fragment sweeps over data/person/ and data/source/ found no prior record of her (the existing hani-* files are classical namesakes); a grounded-QID sweep via the Wikidata API (wbsearchentities, working this session) returned no item for her, so no external_ids are recorded. Sources: Stylist magazine's interview, read in full on 26 October 2026, and Hachette UK's contributor page for her. The interview gives her age as 22 at her book's release; following the khola-hasan precedent, the age is recorded as the source's statement and is not converted into a birth date, so no born block is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-60
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,35 @@
+id: person/maryam-lemu
+class: person
+label: { ar: "مريم ليمو", en: "Maryam Lemu", ur: "مریم لیمو" }
+names:
+  - { value: "Maryam Lemu", kind: full }
+  - { value: "مريم ليمو", kind: full }
+gender: female
+summary:
+  ar: "متحدثة وميسّرة ندوات نيجيرية وُلدت سنة 1973 للشيخ أحمد ليمو وزوجته البريطانية بريدجت عائشة ليمو؛ تعمل رئيسة للإدارة وإدارة الموارد في كلية نيو هورايزنز بمينا ومديرة في شركة بروستارت للاستشارات، وتقدم البرنامج الحواري «سيسترلي» على قناة أليف وبرامج رمضانية على شبكات عدة، وتنتج سلاسل فيديو وحلقات صوتية في الهوية المسلمة والزواج وتطوير الذات."
+  en: "Nigerian speaker and seminar facilitator, born in 1973 to Sheikh Ahmed Lemu and his British wife Bridget Aisha Lemu. She is Head of Administration and Resource Management at New Horizons College in Minna and a director of ProStart Consultants, hosts the talk show Sisterly on Alif TV and Ramadan shows on several networks, and produces video and podcast series on Muslim identity, marriage and personal development."
+  ur: "نائجیرین مقررہ اور ورکشاپ سہولت کار، 1973 میں شیخ احمد لیمو اور ان کی برطانوی اہلیہ برجٹ عائشہ لیمو کے ہاں پیدا ہوئیں۔ وہ مِنا کے نیو ہورائزنز کالج میں انتظامیہ و وسائل کی سربراہ اور پرو اسٹارٹ کنسلٹنٹس کی ڈائریکٹر ہیں، الف ٹی وی پر ٹاک شو «سسٹرلی» اور کئی نیٹ ورکس پر رمضان پروگرام پیش کرتی ہیں، اور مسلم شناخت، شادی اور ذاتی ترقی پر ویڈیو و پوڈکاسٹ سلسلے بناتی ہیں۔"
+roles: [teacher, activist]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1973-01-29"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date of birth from her official biography as carried by Speakers of Islam and by her Muslim Central podcast page; the Hijri year 1392 is the tabular equivalent. The biography gives no birthplace, so no born_in relation is written."
+  sources: [source/speakersofislam-maryam-lemu, source/muslim-central-maryam-lemu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a madhhab or sect affiliation for her personally. She is the daughter of Sheikh Ahmed Lemu; a father's school or prominence is family background and does not count, and her own biography describes her topics and posts, not an affiliation. Not recorded as sunni or any school."
+    sources: [source/speakersofislam-maryam-lemu, source/muslim-central-maryam-lemu]
+sources: [source/speakersofislam-maryam-lemu, source/muslim-central-maryam-lemu]
+provenance:
+  layer: own-research
+  source: "Channel-batch row 318 ('Ustadha Maryam Lemu') resolved under the no-skip rule to Maryam Lemu herself, on the Speakers of Islam biography and her Muslim Central podcast page, checked 26 October 2026. The two profiles carry the same official biography text (one text family, recorded in both source files), which is enough for the entity facts used here under the publication standard; no fact in this record rests on her faith, which stays unknown. No Wikipedia article or Wikidata item was found for her (the Wikidata API returned 403 in this session, so the QID sweep ran via web search and full-repo fragment sweeps), so no external_ids are recorded. Her father Sheikh Ahmed Lemu has no museum entity, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

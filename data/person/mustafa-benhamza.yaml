@@ -1,0 +1,37 @@
+id: person/mustafa-benhamza
+class: person
+label: { ar: "مصطفى بن حمزة", en: "Mustafa Benhamza", ur: "مصطفیٰ بن حمزہ" }
+names:
+  - { value: "مصطفى بن حمزة", kind: full }
+  - { value: "Mustapha Benhamza", kind: alternate }
+  - { value: "مصطفى بنحمزة", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وفقيه مغربي، وُلد في وجدة في 21 رمضان 1368 (17 يوليو 1949). تتلمذ على الفقيه بنسعيد مهداوي، ونال شهادات من كلية الشريعة بفاس ودار الحديث الحسنية وجامعتي محمد الخامس ومحمد الأول حيث درّس الدراسات الإسلامية. ترأس المجلس العلمي المحلي بوجدة ثم المجلس العلمي الجهوي بجهة الشرق، وهو عضو بالمجلس العلمي الأعلى ومدير معهد البعث الإسلامي بوجدة، وألقى ثلاثة دروس حسنية أمام الملك محمد السادس. له مؤلفات في الفقه واللغة والتربية، منها «شخصية الفقه المالكي»."
+  en: "Moroccan Muslim scholar and jurist, born at Oujda on 21 Ramadan 1368 (17 July 1949). He studied under the jurist Bensaid Mahdawi and took degrees from the Faculty of Sharia at Fez, Dar al-Hadith al-Hassania and the universities Mohammed V and Mohammed I, where he taught Islamic studies. He presided over the local scientific council of Oujda and then over the regional scientific council for the Oriental region, is a member of the Supreme Scientific Council and director of the Baath Islamic Institute at Oujda, and delivered three Ramadan Hassania lectures before King Mohammed VI. His works cover jurisprudence, language and education, among them 'The Character of Maliki Jurisprudence'."
+  ur: "مراکشی مسلمان عالم اور فقیہ، 21 رمضان 1368ھ (17 جولائی 1949ء) کو وجدة میں پیدا ہوئے۔ انھوں نے فقیہ بن سعید مہداوی سے تعلیم حاصل کی اور فاس کی کلیۂ شریعت، دار الحدیث الحسنیہ اور جامعات محمد خامس و محمد اول سے اسناد لیں، جہاں وہ اسلامی مطالعات کی تدریس بھی کرتے رہے۔ وہ وجدة کی مقامی علمی کونسل اور پھر مشرقی خطے کی علاقائی علمی کونسل کے صدر رہے، سپریم سائنٹفک کونسل کے رکن اور وجدة میں معہد البعث الاسلامی کے ڈائریکٹر ہیں، اور شاہ محمد ششم کے سامنے تین دروسِ حسنیہ پیش کر چکے ہیں۔ ان کی تصانیف فقہ، زبان اور تعلیم پر ہیں، جن میں «شخصیتِ فقہِ مالکی» بھی شامل ہے۔"
+roles: [scholar, jurist, writer, teacher]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1949-07-17"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article gives his birth only in Hijri, as 21 Ramadan 1368, at Oujda (its categories give the year 1949 and Oujda); Wikidata gives 17 July 1949, the Gregorian equivalent of that Hijri day, and Oujda as the place of birth. Oujda has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-mustafa-benhamza-ar, source/wikidata-mustafa-benhamza]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. The Arabic article, the only encyclopedia article on him in any language, names no madhhab or creed for him in its text, and its categories file him only among Moroccan jurists and scholars; Wikidata carries no religion claim at all. He presides over a regional scientific council inside Morocco's official religious establishment, but office in a state establishment does not attest a personal affiliation, and his book «شخصية الفقه المالكي» (The Character of Maliki Jurisprudence, 2004) is a work about the Maliki school: authorship about a school is subject expertise, not membership of it. Recorded unknown under the doubt rule."
+    sources: [source/wikipedia-mustafa-benhamza-ar, source/wikidata-mustafa-benhamza]
+external_ids: { wikidata: "Q12243373" }
+sources: [source/wikipedia-mustafa-benhamza-ar, source/wikidata-mustafa-benhamza]
+provenance:
+  layer: own-research
+  source: "The Arabic Wikipedia article «مصطفى بن حمزة» at revision 76346719, fetched by revision id through the MediaWiki API with the returned revid asserted equal before use, and Wikidata item Q12243373 (item revision 2550464098), read on 26 October 2026; no English, French or Urdu article exists, so the English and Urdu prose are written from these two sources. Identity is grounded on the name, the birth at Oujda on 21 Ramadan 1368 (17 July 1949) and the Oujda scientific-council biography, matching the queue line 'Sheikh Mustafa Benhamza — 1949–Living'. Existence was checked before writing by filename fragments (benhamza, ben-hamza, hamza), by Arabic label and by QID across data/person/: no record existed for him. His teacher Bensaid Mahdawi al-Washani has no museum record and Oujda has no place entity, so no relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-68
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

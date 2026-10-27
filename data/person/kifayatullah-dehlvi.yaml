@@ -1,0 +1,52 @@
+id: person/kifayatullah-dehlvi
+class: person
+label: { ar: "كفاية الله الدهلوي", en: "Kifayatullah Dehlvi", ur: "کفایت اللہ دہلوی" }
+names:
+  - { value: "كفاية الله بن عناية الله بن فيض الله الدهلوي", kind: full }
+  - { value: "Kifayatullah Dehlawi", kind: full }
+  - { value: "Mufti Kifayatullah", kind: alternate }
+  - { value: "Kifayatullah Dehlvi", kind: alternate }
+gender: male
+summary:
+  ar: "عالم هندي (1875–1952) عُدّ مفتي الهند الأعظم. تخرج في دار العلوم ديوبند، ودرّس في مدرسة أمينيا بدلهي ثم صار مديرها، وتولى رئاسة جمعية علماء الهند عند تأسيسها ثم رئاستها الثانية (1921–1940)، وكان عضوًا مؤسسًا في الجامعة الملية الإسلامية. عُرف بفتاواه المحررة، وجُمعت في «كفاية المفتي»، وبكتابه التعليمي «تعليم الإسلام»."
+  en: "Indian scholar (1875–1952) regarded as the Grand Mufti of India. A graduate of Darul Uloom Deoband, he taught at Madrasa Aminia in Delhi and became its rector, served as interim president of Jamiat Ulama-e-Hind at its foundation and then as its second president (1921–1940), and was a founding member of Jamia Millia Islamia. He was famed for his carefully evidenced fatwas, collected as Kifayat al-Mufti, and for his primer Ta'limul Islam."
+  ur: "ہندوستانی عالم (1875ء–1952ء) جو مفتی اعظم ہند سمجھے جاتے تھے۔ دار العلوم دیوبند کے فاضل، دہلی کے مدرسہ امینیہ میں مدرس اور پھر اس کے مہتمم ہوئے، جمعیت علماء ہند کے قیام پر عبوری صدر اور پھر دوسرے صدر (1921ء–1940ء) رہے، اور جامعہ ملیہ اسلامیہ کے بانی ارکان میں سے تھے۔ اپنے مدلل فتاویٰ، جو «کفایت المفتی» میں جمع ہوئے، اور درسی کتاب «تعلیم الاسلام» کے لیے مشہور ہوئے۔"
+roles: [scholar, jurist, teacher, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1875"
+  hijri: "1292"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The Urdu article pairs his birth year itself — 1292 AH with 1875 — at Shahjahanpur, and the Arabic article pairs the same years (1292–1372 AH); the Hijri year is the sources' own, not a conversion. He was born at Shahjahanpur; no place entity exists for Shahjahanpur, so no born_in edge is written."
+  sources: [source/wikipedia-kifayatullah-dehlvi-en, source/wikipedia-kifayatullah-dehlvi-ur, source/wikipedia-kifayatullah-dehlvi-ar]
+died:
+  edtf: "1952-12-31"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Urdu article pairs the date itself — 13 Rabi' al-thani 1372 AH with 31 December 1952 — so the Hijri year is the source's own. The English article gives his death at Delhi and his burial at Mehrauli near Qutbuddin Bakhtiar Kaki."
+  sources: [source/wikipedia-kifayatullah-dehlvi-en, source/wikipedia-kifayatullah-dehlvi-ur]
+relations:
+  - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-kifayatullah-dehlvi-ar, source/wikipedia-kifayatullah-dehlvi-ur] }
+  - { type: student_of, target: person/khalil-ahmad-al-saharanpuri, sources: [source/wikipedia-kifayatullah-dehlvi-ar] }
+  - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-kifayatullah-dehlvi-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-kifayatullah-dehlvi-en] }
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "FLAGGED — configuration (ii), text tradition plus infobox family, under the pending founder ruling on whether an infobox family counts as the second attestation. The Hanafi school is named for the man himself in three article TEXTS: the English lead calls him 'a Hanafi jurist', the Urdu lead calls him a Hanafi jurist (حنفی فقیہ), and the Arabic biography gives his lineage as 'Kifayatullah ibn Inayatullah ibn Faidhullah al-Hanafi al-Dehlavi'. The Sunni component rests on the English article's embedded religious-biography infobox (denomination Sunni, jurisprudence Hanafi, creed Maturidi, no citations on those fields) with the articles' category filings under Indian Sunni Muslim scholars; Wikidata gives Islam only. The Maturidi creed rests on that same infobox and on filings alone, with no text attestation, and is preserved here in the note only. His Grand Mufti title and Jamiat Ulama-e-Hind presidencies are offices and were never counted. If the founder rules the infobox family cannot stand beside the texts, this segment downgrades to unknown with all readings preserved."
+    sources: [source/wikipedia-kifayatullah-dehlvi-en, source/wikipedia-kifayatullah-dehlvi-ur, source/wikipedia-kifayatullah-dehlvi-ar, source/wikidata-kifayatullah-dehlvi]
+external_ids: { wikidata: "Q12234997" }
+sources: [source/wikipedia-kifayatullah-dehlvi-en, source/wikipedia-kifayatullah-dehlvi-ur, source/wikipedia-kifayatullah-dehlvi-ar, source/wikidata-kifayatullah-dehlvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kifayatullah Dehlawi' (revision 1373922179), Urdu Wikipedia 'کفایت اللہ دہلوی' (revision 8777354), Arabic Wikipedia 'كفاية الله الدهلوي' (revision 71802662) and Wikidata item Q12234997 (item revision 2514296193), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (kifayat, dehlvi/dehlawi), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. The English article 'Mufti Kifayatullah' and Wikidata item Q108761962 concern a different, Pakistani scholar of the same name (born 1963, died 2025) and were not used."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-69
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

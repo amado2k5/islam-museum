@@ -1,0 +1,49 @@
+id: person/vilayat-inayat-khan
+class: person
+label: { ar: "ولاية عنايت خان", en: "Vilayat Inayat Khan", ur: "ولایت عنایت خان" }
+names:
+  - { value: "Vilayat Inayat Khan", kind: full }
+  - { value: "Pir Vilayat Inayat Khan", kind: alternate }
+  - { value: "ولاية عنايت خان", kind: full }
+gender: male
+summary:
+  ar: "معلّم صوفي (1916–2004)، وُلد في لندن وتوفي قبل يومين من عيد ميلاده الثامن والثمانين؛ ابن عنايت خان وخليفته في قيادة طريقته، درّس التأمل وتقاليد الطريقة الجشتية، وأسس «دار الرسالة» في أمريكا سنة 1975، وله كتب صوفية منها «اليقظة: تجربة صوفية» و«بحثًا عن الكنز الخفي»."
+  en: "Sufi teacher (1916–2004), born in London and died two days before his 88th birthday. A son of Inayat Khan and his successor as head of his order, he taught meditation and the traditions of the Chishti order, founded The Abode of the Message in the United States in 1975, and wrote Sufi books including Awakening: A Sufi Experience and In Search of the Hidden Treasure."
+  ur: "صوفی استاد (1916–2004)، لندن میں پیدا ہوئے؛ عنایت خان کے بیٹے اور ان کے سلسلے میں ان کے جانشین، انھوں نے مراقبے اور چشتی سلسلے کی روایات کی تعلیم دی، 1975 میں امریکا میں «دار الرسالة» قائم کیا، اور ان کی صوفی کتب میں «بیداری: ایک صوفی تجربہ» شامل ہے۔"
+roles: [mystic, teacher, writer]
+wings: [people]
+regions: [andalus-europe]
+born:
+  edtf: "1916-06-19"
+  hijri: "1334"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 19 June 1916 in London (English and Arabic articles' dates, and Wikidata, which gives London as the birthplace). London has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan]
+died:
+  edtf: "2004-06-17"
+  hijri: "1425"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 17 June 2004 (English and Arabic articles; Wikidata gives Suresnes, France, as the place of death). Suresnes has no place entity, so no died_in edge is written. Both articles record that his dargah (shrine) is in Delhi."
+  sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two article texts name his Sufi affiliation personally, beyond his succession to his father, which is office and is not relied on. The English text's description calls him a mystic of the Inayati Order, and its lead calls him a teacher of meditation and of the traditions of the Chishti Order of Sufism who taught in the tradition of Universal Sufism; its bibliography lists his own Sufi books, among them Awakening: A Sufi Experience (1999) and In Search of the Hidden Treasure: A Conference of Sufis (2003). The Arabic text likewise describes him personally as a teacher of meditation and of the traditions of the Chishti Sufi order. Wikidata carries no religion value for him."
+    sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar]
+relations:
+  - { type: child_of, target: person/hazrat-inayat-khan, sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan] }
+  - { type: buried_in, target: place/delhi, sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar] }
+external_ids: { wikidata: "Q721476" }
+sources: [source/wikipedia-vilayat-inayat-khan-en, source/wikipedia-vilayat-inayat-khan-ar, source/wikidata-vilayat-inayat-khan]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Vilayat Inayat Khan, each fetched by its recorded revision id (EN 1377035041, AR 74209882) with the returned id asserted equal before use, and Wikidata item Q721476 (revision 2548785143). No Urdu Wikipedia article exists for him; the Urdu prose is written from the English and Arabic sources. Existence checks by name fragments (Vilayat Inayat Khan, ولاية عنايت) and by QID across data/person and data/source found no prior record; the musician Vilayat Khan is a different person. He is a son of Hazrat Inayat Khan, built in this same wave; the child_of edge is written here, in the child's record, once. The lane queue gives 1916–2004; the sources agree."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,33 @@
+id: person/khalfan-ibrahim
+class: person
+label: { ar: "خلفان إبراهيم", en: "Khalfan Ibrahim", ur: "خلفان ابراہیم" }
+names:
+  - { value: "Khalfan Ibrahim", kind: full }
+  - { value: "Khalfan Ibrahim Khalfan Al Khalfan", kind: full }
+  - { value: "خلفان إبراهيم خلفان آل خلفان", kind: full }
+  - { value: "Maradona of Qatar", kind: laqab }
+  - { value: "مارادونا قطر", kind: laqab }
+  - { value: "Khalfaninho", kind: laqab }
+  - { value: "خلفانينيو", kind: laqab }
+gender: male
+summary:
+  ar: "جناح قطري معتزل وُلد في الدوحة سنة 1988. نال جائزة أفضل لاعب في آسيا سنة 2006 فكان أول قطري يفوز بها، وقضى معظم مسيرته مع السد (2004–2017) الذي فاز معه بدوري أبطال آسيا 2011، ولُقب بمارادونا قطر."
+  en: "Retired Qatari winger born in Doha in 1988. He won the 2006 Asian Player of the Year award, the first Qatari to do so, spent most of his career with Al Sadd (2004–2017), winning the 2011 AFC Champions League, and was dubbed the 'Maradona of Qatar'."
+  ur: "ریٹائرڈ قطری ونگر، 1988 میں دوحہ میں پیدا ہوئے۔ انہوں نے 2006 میں ایشین پلیئر آف دی ایئر جیتا — یہ اعزاز پانے والے پہلے قطری — اور اپنے کیریئر کا بیشتر حصہ السد (2004–2017) کے ساتھ گزارا، جس کے ساتھ 2011 کی اے ایف سی چیمپئنز لیگ جیتی؛ انہیں «قطر کا ماراڈونا» کہا جاتا ہے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [arabia]
+born: { edtf: "1988-02-18", hijri: "1408", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 18 February 1988 in Doha, Qatar, per Wikidata; both articles give the date. The Hijri year is a tabular conversion. The museum has no place entity for Doha, so no born_in edge is written.", sources: [source/wikipedia-khalfan-ibrahim-en, source/wikipedia-khalfan-ibrahim-ar, source/wikidata-khalfan-ibrahim] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded: neither the English nor the Arabic article makes any statement of his religion in its text or categories, and Wikidata has no religion value for him at all — a complete absence, not a near miss."
+    sources: [source/wikipedia-khalfan-ibrahim-en, source/wikipedia-khalfan-ibrahim-ar, source/wikidata-khalfan-ibrahim]
+external_ids: { wikidata: "Q716409" }
+sources: [source/wikipedia-khalfan-ibrahim-en, source/wikipedia-khalfan-ibrahim-ar, source/wikidata-khalfan-ibrahim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1369103891 of 12 August 2026), Arabic Wikipedia (revision 76786629 of 27 September 2026) and Wikidata Q716409, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Existence checked both routes: the name-fragment sweep over data/person/ found no Khalfan record, and Q716409 was searched across data/person/ and data/source/ with no hit; the QID was pinned by biography (Qatari footballer, born 18 February 1988 at Doha). This is a new build. No relations are written: the museum has no place entity for Doha, and his father Ibrahim Khalfan has no person record, so the father is carried in the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-54
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,53 @@
+id: person/chadli-bendjedid
+class: person
+label: { ar: "الشاذلي بن جديد", en: "Chadli Bendjedid", ur: "شاذلی بن جدید" }
+names:
+  - { value: "الشاذلي بن جديد", kind: full }
+  - { value: "Chadli Bendjedid", kind: full }
+  - { value: "Chadli Benjedid", kind: alternate }
+  - { value: "Chadli Ben Djedid", kind: alternate }
+gender: male
+summary:
+  ar: "الشاذلي بن جديد (1929–2012)، ضابط وسياسي جزائري من مقاتلي حرب الاستقلال وعضو مجلس الثورة؛ صار أمينا عاما لجبهة التحرير الوطني ثم ثالث رئيس للجمهورية (1979–1992)، واستقال في يناير 1992 على أبواب الحرب الأهلية، وبقي قيد الإقامة الجبرية حتى سنة 1999."
+  en: "Chadli Bendjedid (1929–2012) was an Algerian officer and politician, a combatant of the war of independence and a member of the Revolutionary Council. He became secretary general of the FLN and then third president of the republic (1979–1992), resigned in January 1992 on the eve of the civil war, and remained under house arrest until 1999."
+  ur: "شاذلی بن جدید (1929ء–2012ء) جزائری افسر اور سیاست دان تھے، جنگ آزادی کے مجاہد اور مجلسِ ثورہ کے رکن؛ وہ جبهة التحرير الوطني کے سیکرٹری جنرل اور پھر تیسرے صدر (1979ء–1992ء) بنے، جنوری 1992ء میں خانہ جنگی کے دہانے پر مستعفی ہوئے، اور 1999ء تک نظر بند رہے۔"
+roles: [politician]
+born:
+  edtf: "1929-04-14"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 14 April 1929 at Bouteldja in El Tarf province, in French Algeria; the English article gives Bouteldja, the Arabic article the province of El Tarf, and Wikidata agrees on the date. The Hijri year 1347 is a tabular conversion, marked derived. Bouteldja has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar, source/wikidata-chadli-bendjedid]
+died:
+  edtf: "2012-10-06"
+  hijri: "1433"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at the Aïn Naâdja military hospital in Algiers on 6 October 2012 and was buried at El Alia Cemetery. The English article reports the cause as cancer and the Arabic infobox as a heart attack; the record adopts neither cause, the two articles agreeing on the date and place. The Hijri year 1433 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar, source/wikidata-chadli-bendjedid]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in either article names a school or madhhab for the man, and neither infobox carries a religion field. FLAGGED for the founder: the Sunni reading rests on one source family — structured data: the Wikidata item carries two religion values, Islam (Q432) and Sunni Islam (Q483654), sitting in the same item. No article text corroborates the Sunni value, and one family never attests a school on its own (the Beji Caid Essebsi configuration exactly). His presidency's dealings with the Islamic Salvation Front are state politics, not a personal attestation."
+    sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar, source/wikidata-chadli-bendjedid]
+relations:
+  - { type: died_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar] }
+  - { type: buried_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en] }
+wings: [people]
+regions: [maghreb]
+external_ids: { wikidata: "Q314688" }
+sources:
+  - source/wikipedia-chadli-bendjedid-en
+  - source/wikipedia-chadli-bendjedid-ar
+  - source/wikidata-chadli-bendjedid
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Chadli Bendjedid in English (revision 1379367609 of 9 Oct 2026) and Arabic (revision 76687349 of 23 Sep 2026) and the Wikidata item Q314688 (item revision 2557835953 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both editions agree on Q314688). No Urdu Wikipedia article on him exists; several spellings were searched on 27 October 2026 and all were missing, so the Urdu prose is written from the English and Arabic articles and says so. Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No successor_of edge is written: both infoboxes name Rabah Bitat, expressly marked interim, as his predecessor as president (Bitat acted as head of state from Boumédiène's death on 27 December 1978 until Bendjedid took office on 9 February 1979), and an interim holder defeats a direct edge (the Sufi Abu Taleb precedent); Bitat also has no record in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

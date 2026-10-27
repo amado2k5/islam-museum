@@ -1,0 +1,55 @@
+id: person/khalid-bin-abdulaziz
+class: person
+label:
+  ar: "خالد بن عبد العزيز آل سعود"
+  en: "Khalid bin Abdulaziz Al Saud"
+  ur: "خالد بن عبدالعزیز آل سعود"
+names:
+  - { value: "Khalid bin Abdulaziz bin Abdul Rahman Al Saud", kind: full }
+  - { value: "خالد بن عبد العزيز بن عبد الرحمن آل سعود", kind: full }
+  - { value: "Khalid of Saudi Arabia", kind: regnal }
+  - { value: "خالد بن عبدالعزیز آل سعود", kind: full }
+gender: male
+summary:
+  ar: "رابع ملوك المملكة العربية السعودية (1913–1982)، ابن الملك عبد العزيز من الجوهرة بنت مساعد آل سعود. زار الولايات المتحدة مع فيصل سنة 1943، وصار نائبًا لرئيس الوزراء سنة 1962 ووليًا للعهد سنة 1965، واعتلى العرش في 25 مارس 1975 بعد اغتيال فيصل، فشهد عهده طفرة النفط وحادثة احتجاز الحرم سنة 1979، وتوفي في الطائف في 13 يونيو 1982 ودُفن في مقبرة العود بالرياض وخلفه أخوه فهد."
+  en: "Fourth King of Saudi Arabia (1913–1982), a son of King Abdulaziz by Al Jawhara bint Musaed Al Saud. He visited the United States with Faisal in 1943, became deputy prime minister in 1962 and crown prince in 1965, and ascended the throne on 25 March 1975 after Faisal's assassination; his reign saw the oil boom and the 1979 Grand Mosque seizure. He died in Taif on 13 June 1982, was buried at Al Oud cemetery in Riyadh, and was succeeded by his half-brother Fahd."
+  ur: "سعودی عرب کے چوتھے بادشاہ (1913ء–1982ء)، شاہ عبد العزیز اور الجوہرہ بنت مساعد آل سعود کے صاحبزادے۔ 1943ء میں فیصل کے ساتھ امریکا کا دورہ کیا، 1962ء میں نائب وزیر اعظم اور 1965ء میں ولی عہد بنے، اور فیصل کے قتل کے بعد 25 مارچ 1975ء کو تخت نشین ہوئے؛ ان کے دور میں تیل کی خوشحالی اور 1979ء میں حرم پر قبضے کا واقعہ پیش آیا۔ 13 جون 1982ء کو طائف میں وفات پائی، ریاض کے العود قبرستان میں دفن ہوئے اور ان کے بعد ان کے سوتیلے بھائی فہد بادشاہ بنے۔"
+roles: [ruler]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1913-02-13"
+  hijri: "1331"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Qasr Al Hukm in Riyadh on 13 February 1913 on the English and Arabic articles; the Arabic article pairs the date with 6 Rabi' al-Awwal 1331 AH, which agrees with tabular conversion, so the Hijri year recorded (1331) is the derived year of the same date. Wikidata carries two conflicting values instead (13 February 1911 and the year 1912), disclosed here and not followed. No place entity for Riyadh exists in the museum, so the place is carried in this note and no born_in relation is written."
+  sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar, source/wikidata-khalid-bin-abdulaziz]
+died:
+  edtf: "1982-06-13"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died of a heart attack on 13 June 1982 in his summer palace in Taif (English article text and infobox), and was buried the same day at Al Oud cemetery in Riyadh after funeral prayers at the Grand Mosque in Mecca (English article). Wikidata places his death at Riyadh instead, a conflicting value disclosed here and not followed. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar, source/wikidata-khalid-bin-abdulaziz]
+relations:
+  - { type: successor_of, target: person/faisal-bin-abdulaziz, sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar] }
+  - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikidata-khalid-bin-abdulaziz] }
+  - { type: member_of, target: group/al-saud, sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar] }
+  - { type: died_in, target: place/taif, sources: [source/wikipedia-khalid-bin-abdulaziz-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder: a Sunni reading exists but rests on a single infobox. In full: the Arabic article's infobox religion field reads 'Muslim Sunni' — one structured-data value in one article, and under the doubt rule the single-infobox cases are settled as unknown. No article text names a school for him: the English article describes him as 'warm, cheerful, attentive and devout', which is piety, not an affiliation; the Arabic article recounts his religious upbringing and Qur'anic memorisation in childhood and the Urdu article his education in the kingdom's religious schools, both formation, which never counts; Wikidata's only religion value is Islam (Q432) generically, the structured echo of the same claim family. The value stays unknown under the two-source rule, with the Sunni reading preserved here; a second independent source naming his school would be needed to record it."
+    sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar, source/wikipedia-khalid-bin-abdulaziz-ur, source/wikidata-khalid-bin-abdulaziz]
+external_ids: { wikidata: "Q208301" }
+sources: [source/wikipedia-khalid-bin-abdulaziz-en, source/wikipedia-khalid-bin-abdulaziz-ar, source/wikipedia-khalid-bin-abdulaziz-ur, source/wikidata-khalid-bin-abdulaziz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khalid of Saudi Arabia' (revision 1375677748 of 19 September 2026), Arabic Wikipedia 'خالد بن عبد العزيز آل سعود' (revision 76847234 of 3 October 2026) and Urdu Wikipedia 'خالد بن عبدالعزیز آل سعود' (revision 6679811 of 11 February 2025), each fetched on 27 October 2026 by its recorded revision id and asserted equal to it, with Wikidata item Q208301 (item revision 2558582258 of 19 October 2026), likewise fetched by revision id and asserted equal. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q208301. His Arabic label خالد بن عبد العزيز آل سعود collides with no existing record's label. His kingship succession to Faisal and his sonship of Abdulaziz are both written here, in the subject's record, on the English article's infobox (predecessor Faisal) and Wikidata's father value (Q151509); no born_in relation is written, because the museum has no place entity for Riyadh."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-83
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

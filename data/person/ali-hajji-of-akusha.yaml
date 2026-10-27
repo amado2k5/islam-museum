@@ -1,0 +1,56 @@
+id: person/ali-hajji-of-akusha
+class: person
+label:
+  ar: "علي حاجي الأكوشي"
+  en: "Ali-Hajji of Akusha"
+  ur: "علی حاجی اکوشا"
+summary:
+  ar: "علي حاجي الأكوشي (1847–1930)، عالم وفقيه داغستاني من أكوشا، صار قاضي مسجدها الجامع ثم انتُخب شيخا للإسلام لشمال القوقاز وداغستان سنة 1918؛ ترأس مجلس الدفاع الذي قاوم اجتياح قوات جنوب روسيا البيضاء لداغستان، وكان له مريدون كثيرون في داغستان الوسطى؛ أيّد البلاشفة أولا طمعا في الشريعة ثم عارض سياستهم المعادية للدين، فأعدم النظام السوفيتي كثيرا من أتباعه وأبنائه سنة 1928 ومات في أكوشا بعد ذلك بقليل."
+  en: "Ali-Hajji of Akusha (1847–1930) was a Dagestani scholar and jurist from Akusha who became qadi of its congregational mosque and was elected shaykh al-Islam of the Northern Caucasus and Dagestan in 1918. He chaired the Security Council that resisted the White invasion of Dagestan, and had a large murid following in central Dagestan. He first supported the Bolsheviks in hope of sharia, then opposed their anti-religious policy; the Soviet regime executed many of his followers and sons in 1928, and he died at Akusha soon after."
+  ur: "علی حاجی اکوشا (1847–1930) اکوشا کے داغستانی عالم اور فقیہ تھے، جو وہاں کی جامع مسجد کے قاضی بنے اور 1918 میں شمالی قفقاز و داغستان کے شیخ الاسلام منتخب ہوئے۔ انہوں نے سلامتی کونسل کی صدارت کی جس نے داغستان پر سفید فوج کے حملے کی مزاحمت کی، اور وسطی داغستان میں ان کے مریدوں کی بڑی تعداد تھی۔ انہوں نے ابتدا میں شریعت کی امید پر بالشویکوں کی حمایت کی، پھر ان کی مذہب دشمن پالیسی کی مخالفت کی؛ سوویت نظام نے 1928 میں ان کے بہت سے پیروکاروں اور بیٹوں کو سزائے موت دی، اور اس کے کچھ عرصے بعد اکوشا میں ان کا انتقال ہوا۔"
+names:
+  - { value: "Ali-Hajji Akushinsky", kind: full }
+  - { value: "Али-Хаджи Акушинский", kind: full }
+  - { value: "Алі-Хаджі Акушинський", kind: full }
+  - { value: "Ali-Hajji of Akusha", kind: alternate }
+  - { value: "Ali-Haji al-Gochobi", kind: alternate }
+gender: male
+born:
+  edtf: "1847"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The birth year 1847 is given by the English and Russian articles and by Wikidata. He was born at Akusha in the Akusha-Dargo Union, the son of Mamma, muezzin (budun) of Akusha's congregational mosque, and was first educated by his father and at the local madrasa. No entity exists for Akusha, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-ali-hajji-of-akusha-en, source/wikipedia-ali-hajji-of-akusha-ru, source/wikidata-ali-hajji-of-akusha]
+died:
+  edtf: "1930-04-08"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "The English article and Wikidata give his death at Akusha on 8 April 1930, and the Russian article's lead gives 1930; the year is carried at day precision on that attestation, but the block is marked debated because the Russian text records that his younger son Ilyas repeatedly wrote that his father died in 1931. He died shortly after the December 1928 OGPU arrests of his alleged 66-person group — all of them arrested except himself, several executed — and was buried in his own house at Akusha; no entity exists for Akusha, so no died_in or buried_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-ali-hajji-of-akusha-en, source/wikipedia-ali-hajji-of-akusha-ru, source/wikidata-ali-hajji-of-akusha]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [scholar, mystic, qadi]
+relations:
+  - { type: allied_with, target: person/uzun-haji, sources: [source/wikipedia-ali-hajji-of-akusha-en, source/wikipedia-ali-hajji-of-akusha-ru] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts attest Ali-Hajji's personal position inside Dagestan's Sufi murid institution. The English text records that Mamma-Hajji was 'a murid of Ali-Hajji', that he used his resources 'to travel with 500 murids to various locations in Dagestan', and that as a young man he was the student of 'tariqa sheikh Abdurrahman-Hajji as-Suguri' among other Dagestani theologians. The Russian text independently records that he 'had many murids' (Имел множество мюридов) in the Temir-Khan-Shura, Dargin and Kaytago-Tabasaran districts, and quotes his own stated aim to make of the people of Akusha 'true servants of God, that is, my murids'. A sheikh personally holding a murid following of his own, attested in two texts, is documented Sufi affiliation of the discipleship kind, and the segment is recorded as sufi, documented. Neither text names his order: as-Suguri was a Naqshbandi sheikh, but a teacher's order is not the pupil's recorded affiliation, so no order is specified and no member_of edge is written. No madhhab segment is recorded: no text names a school for him; his offices of qadi and shaykh al-Islam are office-holding and never count, and Wikidata's religion value is Islam in general."
+    sources: [source/wikipedia-ali-hajji-of-akusha-en, source/wikipedia-ali-hajji-of-akusha-ru, source/wikidata-ali-hajji-of-akusha]
+external_ids:
+  wikidata: Q4062222
+sources:
+  - source/wikipedia-ali-hajji-of-akusha-en
+  - source/wikipedia-ali-hajji-of-akusha-ru
+  - source/wikipedia-ali-hajji-of-akusha-uk
+  - source/wikidata-ali-hajji-of-akusha
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English ('Ali-Hajji of Akusha'), Russian and Ukrainian ('Али-Хаджи Акушинский') Wikipedia articles and Wikidata item Q4062222, each read at a recorded revision (article extracts and revision ids returned in single API responses, so each text read is its recorded revision; the Ukrainian article is a translation of the Russian and is counted as its family; the Wikidata item read twice with identical claims). Existence checked both ways before building: name fragments (gochobi, akushinsky, акуш, ali-hajji) across data/person found no record of him and no mention of him in any other record ('akush' matched only the unrelated al-Marrakushi names), and Q4062222 — grounded through the Russian article's page properties — grepped across all data/person files with zero hits. Identity: the queue line 'Sheikh Ali-Haji al-Gochobi (1847–1922)' resolves to this documented person, the Dagestani scholar of Akusha named in the brief; the nisba 'al-Gochobi' is attested in no source read and is kept only as an alternate name, and the queue's death year 1922 is attested nowhere — every source read gives 1930 (see the died note). Relations refused, with reasons: a student_of edge to Abdurrahman-Hajji as-Suguri — he has no record (his Wikidata item Q112164437 likewise has none); a member_of edge to group/naqshbandiyya — no text names Ali-Hajji's own order; born_in and died_in edges to Akusha — no place entity exists. His Arabic label (علي حاجي الأكوشي) shares no exact string with any existing record's label; it was checked across data/person before building."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-107

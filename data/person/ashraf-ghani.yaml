@@ -1,0 +1,44 @@
+id: person/ashraf-ghani
+class: person
+label:
+  ar: "أشرف غني"
+  en: "Ashraf Ghani"
+  ur: "اشرف غنی"
+summary:
+  ar: "سياسي أفغاني وعالم إنسان واقتصادي، رئيس أفغانستان من 29 سبتمبر 2014 حتى 15 أغسطس 2021 حين غادر البلاد مع سيطرة طالبان على كابل. كان كبير علماء الإنسان في البنك الدولي، وشغل وزارة المالية (2002–2004) ورئاسة جامعة كابل (2004–2008)، وشارك في تأليف كتاب «إصلاح الدول الفاشلة» (2008). انتهت رئاسته وسط انتقادات بأنه تخلى عن البلاد، وتسجل المقالة الإنجليزية اتهامه بالفساد أثناء إدارته؛ وقال إنه غادر حقناً للدماء."
+  en: "Afghan politician, anthropologist and economist, president of Afghanistan from 29 September 2014 until 15 August 2021, when he left the country as the Taliban took Kabul. Formerly the World Bank's lead anthropologist, he served as finance minister (2002–2004) and chancellor of Kabul University (2004–2008), and co-authored Fixing Failed States (2008). His presidency ended amid criticism that he had abandoned the country; the English article records that he was accused of corruption during his administration, and that he said he left to avoid bloodshed."
+  ur: "افغان سیاست دان، ماہر انسانیات اور ماہر معاشیات، 29 ستمبر 2014ء سے 15 اگست 2021ء تک افغانستان کے صدر، جب طالبان کے کابل پر قبضے پر وہ ملک چھوڑ گئے۔ عالمی بنک کے سرکردہ ماہر انسانیات رہنے کے بعد وہ وزیر خزانہ (2002ء–2004ء) اور جامعہ کابل کے چانسلر (2004ء–2008ء) رہے اور «ناکام ریاستوں کی اصلاح» (2008ء) کے شریک مصنف ہیں۔ ان کی صدارت اس تنقید کے درمیان ختم ہوئی کہ انھوں نے ملک چھوڑ دیا، اور انگریزی مضمون درج کرتا ہے کہ ان کے دور حکومت میں ان پر بدعنوانی کا الزام لگا؛ ان کا کہنا تھا کہ وہ خون خرابہ روکنے کے لیے گئے۔"
+names:
+  - { value: "Mohammad Ashraf Ghani Ahmadzai", kind: full }
+  - { value: "محمد أشرف غني أحمد زي", kind: full }
+  - { value: "Ashraf Ghani", kind: alternate }
+gender: male
+born:
+  edtf: "1949-05-19"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 19 May 1949 in Logar Province, as all three articles give; he belongs to the Ahmadzai Pashtun tribe. No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Logar, so no born_in relation is written."
+  sources: [source/wikipedia-ashraf-ghani-en, source/wikipedia-ashraf-ghani-ar, source/wikipedia-ashraf-ghani-ur]
+roles: [politician, economist, academic]
+wings: [people, living]
+regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-ashraf-ghani-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text names a school for him. The English article, read in full, carries no religion content at all; the Arabic and Urdu articles' infoboxes give his religion only as Islam, generically, and neither text names a school. Generic Islam alone does not attest a school, and his presidency's policies are state policy under the headship line. The value is therefore unknown, unflagged (the generic-only configuration)."
+    sources: [source/wikipedia-ashraf-ghani-en, source/wikipedia-ashraf-ghani-ar, source/wikipedia-ashraf-ghani-ur]
+sources:
+  - source/wikipedia-ashraf-ghani-en
+  - source/wikipedia-ashraf-ghani-ar
+  - source/wikipedia-ashraf-ghani-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Ashraf Ghani, all read on 27 October 2026 under the consultation-date fallback (this writer's route exposed no revision ids, so none are asserted). His Wikidata item Q172388, grounded through his Wikimedia Commons category authority file, was grepped across all data/person files with no match. Faith stays unknown, unflagged: the English article has no religion content, and the Arabic and Urdu infoboxes give generic Islam only. No succession edge to or from Hamid Karzai is written: office succession is refused. The criticism of his departure from Kabul and the corruption accusation against his administration are carried in the prose as attributed statements, exactly as the English article states them, not as settled guilt."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117

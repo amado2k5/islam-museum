@@ -1,0 +1,51 @@
+id: person/qaboos-bin-said
+class: person
+label:
+  ar: "قابوس بن سعيد"
+  en: "Qaboos bin Said"
+  ur: "قابوس بن سعید"
+names:
+  - { value: "Qaboos bin Said bin Taimur bin Faisal bin Turki bin Said Al Said", kind: full }
+  - { value: "قابوس بن سعيد بن تيمور آل سعيد", kind: full }
+gender: male
+summary:
+  ar: "سلطان عُمان من 23 يوليو 1970 حتى وفاته سنة 2020، أطول قادة الشرق الأوسط والعالم العربي بقاءً في الحكم عند وفاته. وُلد في صلالة سنة 1940، الابن الوحيد لسعيد بن تيمور، وتخرج في أكاديمية ساندهيرست وخدم في الجيش البريطاني، ثم أطاح بوالده سنة 1970 وأسّس سلطنة عُمان الموحدة، فأنهى عزلتها وقاد نهضتها: التعليم والصحة والبنية التحتية، وإلغاء الرق، وإنهاء تمرد ظفار، ودستور سنة 1996، مع سياسة خارجية محايدة جعلت عُمان وسيطًا إقليميًا. لم يكن له أبناء، فخلفه ابن عمه هيثم بن طارق بحسب رسالة مخفية تركها. توفي في 10 يناير 2020."
+  en: "Sultan of Oman from 23 July 1970 until his death in 2020, the longest-serving leader in the Middle East and the Arab world at his death. Born at Salalah in 1940, the only son of Said bin Taimur, he graduated from Sandhurst, served briefly in the British Army, then overthrew his father in 1970 and founded the unified Sultanate of Oman, ending its isolation and leading its renaissance: schools, hospitals and infrastructure, the abolition of slavery, the end of the Dhofar rebellion, and the 1996 constitution, with a neutral foreign policy that made Oman a regional mediator. He had no children; his cousin Haitham bin Tariq succeeded him under a sealed letter Qaboos had left. He died on 10 January 2020."
+  ur: "عمان کے سلطان، 23 جولائی 1970ء سے 2020ء میں وفات تک، اور وفات کے وقت مشرقِ وسطیٰ اور عرب دنیا کے سب سے طویل عرصے تک حکمران رہنے والے رہنما۔ 1940ء میں صلالہ میں پیدا ہوئے، سعید بن تیمور کے اکلوتے صاحبزادے؛ سینڈہرسٹ سے فارغ التحصیل ہوئے اور برطانوی فوج میں مختصر خدمت کی، پھر 1970ء میں والد کو معزول کر کے متحدہ سلطنتِ عمان قائم کی، اس کی تنہائی ختم کی اور اس کی نشاۃِ ثانیہ کی قیادت کی: تعلیم، صحت اور بنیادی ڈھانچہ، غلامی کا خاتمہ، ظفار بغاوت کا اختتام، اور 1996ء کا آئین، جب کہ غیر جانبدار خارجہ پالیسی نے عمان کو علاقائی ثالث بنایا۔ ان کی کوئی اولاد نہیں تھی؛ ان کے چچازاد ہیتھم بن طارق ان کی چھوڑی ہوئی مہر بند وصیت کے مطابق جانشین بنے۔ 10 جنوری 2020ء کو وفات پائی۔"
+roles: [ruler]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1940-11-18"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Salalah on 18 November 1940 (English article; Wikidata gives the same date and Salalah as the place), the only son of Sultan Said bin Taimur and Mazoon bint Ahmad. The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Salalah, so no born_in relation is written."
+  sources: [source/wikipedia-qaboos-bin-said-en, source/wikidata-qaboos-bin-said]
+died:
+  edtf: "2020-01-10"
+  hijri: "1441"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 10 January 2020 at Seeb (English article's infobox; Wikidata gives the same date and Seeb as the place), and was buried on 11 January 2020 at the Royal Cemetery in Muscat (English article's infobox), which the buried_in relation records. The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Seeb, so no died_in relation is written."
+  sources: [source/wikipedia-qaboos-bin-said-en, source/wikidata-qaboos-bin-said]
+relations:
+  - { type: member_of, target: group/al-bu-said, sources: [source/wikipedia-qaboos-bin-said-en, source/wikidata-qaboos-bin-said] }
+  - { type: buried_in, target: place/muscat, sources: [source/wikipedia-qaboos-bin-said-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder: the Ibadi reading is the strongest in this royal block, and it still falls one text short. In full: the English article's Personal life text states, of the man himself, 'Qaboos was a Muslim of the Ibadi denomination, which has traditionally ruled Oman' — one independent TEXT naming his personal affiliation (its reference is an Indian Express live report of February 2018). Everything around it is structured or less: the same article's infobox reads 'Ibadi Islam'; the Urdu stub's infobox reads 'Ibadiyya' and its categories file him under 'Omani Ibadi Muslim personalities'; the Arabic article's categories file him under 'Ibadis' while its text names no school; and Wikidata's religion (P140) value is Islam (Q432) only, not corroborating the branch. The binding precedent, al-Baruni's ibadi/documented, rests on TWO texts naming the man's own affiliation; state doctrine (Ibadi Islam as Oman's tradition), his dynasty's tradition, and his religious-tolerance policies are not personal attestations, and here only one text names his affiliation — so under the two-source rule he is not recorded ibadi/documented. The value stays unknown, with the Ibadi reading preserved here in full; one further independent text naming his own Ibadi affiliation would settle it."
+    sources: [source/wikipedia-qaboos-bin-said-en, source/wikipedia-qaboos-bin-said-ar, source/wikipedia-qaboos-bin-said-ur, source/wikidata-qaboos-bin-said]
+external_ids: { wikidata: "Q57331" }
+sources: [source/wikipedia-qaboos-bin-said-en, source/wikipedia-qaboos-bin-said-ar, source/wikipedia-qaboos-bin-said-ur, source/wikidata-qaboos-bin-said]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Qaboos bin Said' (revision 1378628450 of 5 October 2026), Arabic Wikipedia 'قابوس بن سعيد' (revision 74536308 of 8 May 2026) and Urdu Wikipedia 'قابوس بن سعید' (revision 12032104 of 26 September 2026), each fetched on 27 October 2026 by its recorded revision id and asserted equal to it, with Wikidata item Q57331 (item revision 2558219214 of 18 October 2026), likewise fetched by revision id and asserted equal. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q57331. His Arabic label قابوس بن سعيد collides with no existing record's label. His membership of the Al Bu Said house (group/al-bu-said exists) and his burial at the Royal Cemetery in Muscat (place/muscat exists) are written here, in the subject's record. No successor_of or child_of relation is written: his father Said bin Taimur (Q879869), whom he overthrew, and his successor and cousin Haitham bin Tariq both have no museum records; no place relations are written for Salalah or Seeb, which have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

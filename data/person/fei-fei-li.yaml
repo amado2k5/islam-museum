@@ -1,0 +1,36 @@
+id: person/fei-fei-li
+class: person
+label: { ar: "في-في لي", en: "Fei-Fei Li", ur: "فی-فی لی" }
+names:
+  - { value: "Fei-Fei Li", kind: full }
+  - { value: "李飞飞", kind: full }
+gender: female
+summary:
+  ar: "في-في لي (وُلدت 3 يوليو 1976) عالمة حاسوب أمريكية من أصل صيني، أستاذة في جامعة ستانفورد ومؤسِّسة قاعدة بيانات إيماج نت التي أحدثت نقلة في الرؤية الحاسوبية والذكاء الاصطناعي. وُلدت في بكين ونشأت في تشنغدو ثم هاجرت إلى الولايات المتحدة مراهقةً، وشاركت في تأسيس معهد ستانفورد للذكاء الاصطناعي المتمحور حول الإنسان ومنظمة AI4ALL، وأسست شركة وورلد لابز سنة 2024."
+  en: "Fei-Fei Li (born 3 July 1976) is a Chinese-American computer scientist, a professor at Stanford University and the creator of ImageNet, the dataset that enabled rapid advances in computer vision and artificial intelligence in the 2010s. Born in Beijing and raised in Chengdu, she emigrated to the United States as a teenager, co-founded the Stanford Institute for Human-Centered Artificial Intelligence and the nonprofit AI4ALL, and founded the spatial-intelligence company World Labs in 2024."
+  ur: "فی-فی لی (پیدائش 3 جولائی 1976ء) چینی نژاد امریکی کمپیوٹر سائنس دان ہیں، اسٹینفورڈ یونیورسٹی کی پروفیسر اور امیج نیٹ کی بانی، جس ڈیٹا سیٹ نے کمپیوٹر وژن اور مصنوعی ذہانت میں تیز پیش رفت ممکن بنائی۔ وہ بیجنگ میں پیدا ہوئیں، چینگدو میں پلی بڑھیں اور نوجوانی میں امریکا منتقل ہو گئیں؛ انہوں نے اسٹینفورڈ کے انسانی محور مصنوعی ذہانت کے ادارے اور غیر منفعتی تنظیم AI4ALL کی شراکت سے بنیاد رکھی اور 2024ء میں ورلڈ لیبز قائم کی۔"
+roles: [scientist]
+wings: [people, living]
+regions: [china-east-asia, americas-oceania]
+born:
+  edtf: "1976-07-03"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Beijing, China, on 3 July 1976; the English article and Wikidata agree, and the Arabic article gives the year 1976 and her upbringing at Chengdu. The Hijri year (1396) is derived by tabular conversion. No born_in relation is written: Beijing has no museum place entity."
+  sources: [source/wikipedia-fei-fei-li-en, source/wikipedia-fei-fei-li-ar, source/wikidata-fei-fei-li]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration. No article text in the English, Arabic or Urdu edition names any religion or affiliation for her, no infobox carries a religion field, and Wikidata carries no religion claim at all (no P140). The only religion-adjacent word in the English article is the journalistic nickname 'Godmother of AI', which is a metaphor about her standing in her field, not an attestation. Her Chinese origin is family background, never an attestation. Nothing exists to record, so the value is unknown, unflagged."
+    sources: [source/wikipedia-fei-fei-li-en, source/wikipedia-fei-fei-li-ar, source/wikipedia-fei-fei-li-ur, source/wikidata-fei-fei-li]
+external_ids: { wikidata: "Q18686107" }
+sources: [source/wikipedia-fei-fei-li-en, source/wikipedia-fei-fei-li-ar, source/wikipedia-fei-fei-li-ur, source/wikidata-fei-fei-li]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 104 §A of the century-additions queue (queue line 569) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q18686107) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (fei-fei, feifei, li-fei) across data/person/ found no record for her, and Q18686107 appears in no existing person record. Her Arabic label (في-في لي) is not shared with any existing record, so no homonym entry is needed. No relations are written: Beijing has no museum place entity, and no founder_of edge is written for World Labs, AI4ALL or the Stanford institute because no group entities for them exist; the foundings are stated in the summary and prose instead. Her faith is recorded unknown, absence configuration, as set out in the faith note. She is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104
+status: { review: published }

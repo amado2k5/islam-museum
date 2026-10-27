@@ -1,0 +1,60 @@
+id: person/mahmudkhodja-behbudiy
+class: person
+label:
+  ar: "محمود خواجه بهبودي"
+  en: "Mahmudkhodja Behbudiy"
+  ur: "محمود خواجہ بہبودی"
+summary:
+  ar: "محمودخوجا بهبودي (1875–1919)، كاتب وناشر أوزبكي من قادة الجديدية في تركستان الروسية، أصدر مجلة «آيينه» وصحيفة «سمرقند» وكتب أول مسرحية عصرية في آسيا الوسطى «بادركوش»، وكان قاضيًا ومفتيًا في سمرقند، فاعتُقل وأُعدم في قرشي سنة 1919."
+  en: "Mahmudkhodja Behbudiy (1875–1919) was an Uzbek writer and publisher, a leader of Jadidism in Russian Turkestan, who issued the magazine Ayina and the newspaper Samarkand, wrote the first modern Central Asian play, Padarkush, served as qadi and mufti in Samarkand, and was arrested and executed at Qarshi in 1919."
+  ur: "محمود خواجہ بہبودی (1875–1919) ازبک مصنف اور ناشر، روسی ترکستان میں جدیدیت کے رہنماؤں میں سے تھے؛ انہوں نے رسالہ «آئینہ» اور اخبار «سمرقند» جاری کیا، وسطی ایشیا کا پہلا جدید ڈراما «پدرکش» لکھا، سمرقند میں قاضی اور مفتی رہے، اور 1919 میں قرشی میں گرفتار کر کے پھانسی دیے گئے۔"
+names:
+  - { value: "Mahmudkhodja Behbudiy", kind: full }
+  - { value: "Маҳмудхўжа Беҳбудий", kind: full }
+  - { value: "Mahmud Khoja Behbudiy", kind: alternate }
+  - { value: "Mahmudkhodja ibn Behbud Khodja", kind: alternate }
+  - { value: "Махмудходжа Бехбуди", kind: alternate }
+born:
+  edtf: "1875-01-20"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 20 January 1875 (new calendar) in the village of Bakhshitepa on the outskirts of Samarkand. The English and Urdu articles, the Russian article's lead text, the Uzbek article and Wikidata all give 20 January; the Russian article's own infobox gives 30 January, an internal inconsistency that is not followed. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-behbudiy-en, source/wikipedia-behbudiy-ru, source/wikipedia-behbudiy-uz, source/wikidata-behbudiy]
+died:
+  edtf: "1919-03-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Executed at Qarshi on 25 March 1919 after his arrest by the last Emir of Bukhara and a period of imprisonment and torture; the English, Russian, Uzbek and Urdu articles and Wikidata all agree on the day (Wikidata also carries a year-precision 1919 value). No place entity exists for Qarshi, so no died_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-behbudiy-en, source/wikipedia-behbudiy-ru, source/wikipedia-behbudiy-uz, source/wikidata-behbudiy]
+wings: [people]
+regions: [persia-central-asia]
+roles: [scholar, writer, activist]
+relations:
+  - type: born_in
+    target: place/samarqand
+    note: "Born in the village of Bakhshitepa on the outskirts of Samarkand, as the English article and the Russian article's lead attest."
+    sources: [source/wikipedia-behbudiy-en, source/wikipedia-behbudiy-ru]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the Hanafi reading rests on one infobox family — the Russian article's infobox gives his religion as Islam (Hanafi madhhab), the only school statement for him in any of the six editions read, referenced to no text. The texts attest his descent from a family of Islamic scholars, his madrasa education, and his offices of qadi (English, Urdu, Uzbek texts) and mufti (Russian and Uzbek texts) — formation and office-holding, which never attest a school; Wikidata's religion value is Islam in general, which does not corroborate the branch, and the Urdu categories' filing of him under muftis is a filing. One infobox short of the two-source bar, the segment is unknown, with the Hanafi infobox reading preserved here."
+    sources: [source/wikipedia-behbudiy-en, source/wikipedia-behbudiy-ru, source/wikipedia-behbudiy-uz, source/wikidata-behbudiy]
+external_ids:
+  wikidata: Q1884979
+sources:
+  - source/wikipedia-behbudiy-en
+  - source/wikipedia-behbudiy-ru
+  - source/wikipedia-behbudiy-uz
+  - source/wikipedia-behbudiy-ur
+  - source/wikipedia-behbudiy-kk
+  - source/wikidata-behbudiy
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Uzbek, Urdu and Kazakh Wikipedia articles on Mahmudkhodja Behbudiy and Wikidata item Q1884979, each read at a recorded revision; existence checked both ways before building — name fragments (behbud, behbudi) and slug variants across data/person found only person/behbud-khan-javanshir, the Azerbaijani statesman Behbud Khan Javanshir (1878–1921), a different person whose biography and provenance were read and confirmed distinct, and Q1884979, grounded through the English article's page properties and confirmed through the Russian, Uzbek, Urdu and Kazakh articles', matched no existing record. A born_in edge to place/samarqand is written; no died_in edge is written because no place entity exists for Qarshi. The Urdu article is a translation of the English and is counted as the same source family."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102

@@ -1,0 +1,40 @@
+id: person/maaouya-ould-sidahmed-taya
+class: person
+label: { ar: "معاوية ولد سيدي أحمد الطايع", en: "Maaouya Ould Sid'Ahmed Taya", ur: "معاویہ ولد سید احمد الطائع" }
+names:
+  - { value: "Maaouya Ould Sid'Ahmed Taya", kind: full }
+  - { value: "Maaouiya Ould Sid'Ahmed Taya", kind: alternate }
+  - { value: "Maouya Ould Sid'Ahmed Taya", kind: alternate }
+  - { value: "معاوية ولد سيدي أحمد الطايع", kind: full }
+  - { value: "معاوية ولد سيد أحمد ولد الطايع", kind: alternate }
+  - { value: "معاویہ ولد سید احمد الطائع", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي موريتاني (وُلد 1941) من أطار، شغل رئاسة وزراء موريتانيا (1981–1984، ومجدّدا بالتزامن مع الرئاسة 1984–1992) ثم رئاسة البلاد من 12 ديسمبر 1984 حتى أطاح به انقلاب عسكري في 3 أغسطس 2005 أثناء وجوده خارج البلاد؛ عُرف بخطّه القومي العربي وصلاته الوثيقة بعراق صدام حسين، واستقرّ منفيا في قطر حيث درّس لاحقا في أكاديمية عسكرية."
+  en: "Mauritanian military officer and politician (born 1941) from Atar who served as Prime Minister of Mauritania (1981–1984 and, concurrently with the presidency, 1984–1992) and as President of Mauritania from 12 December 1984 until a military coup ousted him on 3 August 2005 while he was abroad; noted for an Arab nationalist line and close ties with Saddam Hussein's Iraq, he settled in exile in Qatar, where he later taught at a military academy."
+  ur: "موریتانی فوجی افسر و سیاست دان (پیدائش 1941ء)، اطار سے؛ ملک کے وزیرِ اعظم (1981ء–1984ء، اور صدارت کے ساتھ ساتھ 1984ء–1992ء) اور 12 دسمبر 1984ء تا 3 اگست 2005ء موریتانیہ کے صدر رہے، حتیٰ کہ ان کی غیر حاضری میں فوجی بغاوت نے انھیں ہٹا دیا؛ عرب قوم پرست خط اور صدام حسین کے عراق سے قریبی تعلقات کے لیے معروف؛ قطر میں جلاوطن رہے، جہاں بعد میں ایک فوجی اکادمی میں پڑھایا۔"
+roles: [general, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1941-11-28"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 28 November 1941 at Atar in French Mauritania; the Arabic article gives only the year 1941. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-maaouya-ould-sidahmed-taya-en, source/wikidata-maaouya-ould-sidahmed-taya]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration. Wikidata carries the single value Sunni Islam; the English article files him under Mauritanian Sunni Muslims and the Arabic article under Mauritanian Sunni Muslims and Mauritanian Muslims — filings never count; the French article's infobox names Islam, and the Arabic article's infobox religion field is blank. The Sunni reading is therefore structured-and-filings only, one full family short of sunni/documented (the moussa-traore configuration, wave 75 §A); the value stays unknown with the reading preserved here."
+    sources: [source/wikipedia-maaouya-ould-sidahmed-taya-en, source/wikipedia-maaouya-ould-sidahmed-taya-ar, source/wikipedia-maaouya-ould-sidahmed-taya-fr, source/wikidata-maaouya-ould-sidahmed-taya]
+external_ids: { wikidata: "Q313662" }
+sources: [source/wikipedia-maaouya-ould-sidahmed-taya-en, source/wikipedia-maaouya-ould-sidahmed-taya-ar, source/wikipedia-maaouya-ould-sidahmed-taya-fr, source/wikidata-maaouya-ould-sidahmed-taya]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Maaouya Ould Sid'Ahmed Taya' (revision 1379541047 of 10 October 2026), Arabic Wikipedia 'معاوية ولد سيدي أحمد الطايع' (revision 73470632 of 12 February 2026), French Wikipedia 'Maaouiya Ould Sid'Ahmed Taya' (revision 240276697 of 11 October 2026) and Wikidata item Q313662 (item revision 2528387725 of 7 August 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (taya — the hits are the al-Tayalisi scholars and Ageng Tirtayasa, all different men), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu prose is written from the English, Arabic and French sources and says so. No place entity exists for Atar, so no born_in edge is written; no successor_of edge is written — he took the presidency in the coup of 12 December 1984 from Mohamed Khouna Ould Haidalla, who has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

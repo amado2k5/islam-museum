@@ -1,0 +1,53 @@
+class: person
+id: person/omar-ibn-said
+label:
+  ar: "عمر بن سعيد"
+  en: "Omar ibn Said"
+  ur: "عمر ابن سعید"
+summary:
+  ar: "عالم مسلم فولاني من فوتا تورو في السنغال، طلب العلم الإسلامي خمسة وعشرين عاما قبل أن يُؤسر سنة 1807 ويُنقل عبدا إلى الولايات المتحدة. بقي عبدا بقية حياته في كارولاينا الشمالية، وكتب أربعة عشر مخطوطا بالعربية أشهرها سيرته الذاتية سنة 1831، وهي السيرة العربية الوحيدة المعروفة لشخص مستعبَد في أمريكا."
+  en: "A Fula Muslim scholar from Futa Toro in Senegal who spent twenty-five years in Islamic study before being captured in 1807 and carried enslaved to the United States. He remained enslaved for the rest of his life in North Carolina and wrote fourteen manuscripts in Arabic, the best known his 1831 autobiography, the only known Arabic autobiography by a person enslaved in America."
+  ur: "سینیگال کے فوتا تورو سے تعلق رکھنے والے فولانی مسلمان عالم، جنہوں نے پچیس برس اسلامی علوم حاصل کیے، پھر 1807 میں گرفتار ہو کر غلام بنا کر امریکا منتقل کیے گئے۔ وہ بقیہ زندگی شمالی کیرولائنا میں غلام رہے اور عربی میں چودہ مخطوطے لکھے، جن میں مشہور ترین ان کی 1831 کی خودنوشت ہے، جو امریکا میں کسی غلام کی واحد معلوم عربی خودنوشت ہے۔"
+names:
+  - { value: "Omar ibn Said", kind: full }
+  - { value: "عمر بن سعيد", kind: full }
+  - { value: "Omar ibn Sayyid", kind: alternate }
+  - { value: "Uncle Moreau", kind: alternate }
+  - { value: "Prince Omeroh", kind: alternate }
+gender: male
+wings: [people]
+roles: [scholar, writer]
+regions: [west-africa-sahel, americas-oceania]
+born:
+  edtf: "1770~"
+  hijri: "1183"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article gives his birth as around 1770 in Futa Toro, in present-day Senegal; the Arabic, Urdu and French articles and Wikidata give 1770 without the approximation. The museum holds no place entity for Futa Toro, so no born_in edge is written."
+  sources: [source/wikipedia-omar-ibn-said-en, source/wikipedia-omar-ibn-said-ar, source/wikipedia-omar-ibn-said-fr, source/wikidata-omar-ibn-said]
+died:
+  edtf: "1864"
+  hijri: "1280"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "All four articles and Wikidata give 1864. The English, Arabic and French articles place his death and burial in Bladen County, North Carolina; Wikidata's place-of-death value instead gives Fayetteville, and a North Carolina historic marker styles his years as about 1770 to 1863. Both variants are recorded here; the museum holds no place entity for either place, so no died_in edge is written."
+  sources: [source/wikipedia-omar-ibn-said-en, source/wikipedia-omar-ibn-said-ar, source/wikipedia-omar-ibn-said-fr, source/wikidata-omar-ibn-said]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English and Arabic texts attest Omar ibn Said personally as a Muslim scholar formed by twenty-five years of Islamic study in Futa Toro, and the English article reads his 1831 autobiography as showing steadfast adherence to Islam. The same article reports the claim that he converted to Christianity in 1820 and states that this conversion is disputed: his own writings praise Muhammad, copy Qur'anic chapters as late as 1857, and frame Jesus in Islamic terms. The Urdu text says he was pressed to accept Christianity but kept Islam in his heart, although its categories file him among converts from Islam to Christianity — a category filing, which never counts, and one its own text contradicts. The French article is a declared translation of the English one, and its infobox alone gives his religion as Sunni Islam: a single unreferenced infobox value inside a translation-family article, which is one attestation of the broad value at most and never a second independent source. Wikidata gives Islam only. No source in any language names a madhhab or order for him. Under the doubt rule the value stays unknown, with all readings preserved here."
+    sources: [source/wikipedia-omar-ibn-said-en, source/wikipedia-omar-ibn-said-ar, source/wikipedia-omar-ibn-said-ur, source/wikipedia-omar-ibn-said-fr, source/wikidata-omar-ibn-said]
+relations: []
+sources: [source/wikipedia-omar-ibn-said-en, source/wikipedia-omar-ibn-said-ar, source/wikipedia-omar-ibn-said-ur, source/wikipedia-omar-ibn-said-fr, source/wikidata-omar-ibn-said]
+external_ids:
+  wikidata: "Q2687711"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Omar ibn Said' (revision 1380244455 of 14 October 2026), Arabic Wikipedia article on Omar ibn Said (revision 76846304 of 3 October 2026), Urdu Wikipedia article (revision 6613751 of 4 February 2025), French Wikipedia article 'Omar ibn Saïd' (revision 227463978 of 21 July 2025) and Wikidata item Q2687711 (item revision 2472337431 of 8 October 2025), each fetched by revision id and asserted, and read in full on 26 October 2026. The museum holds no place entities for Futa Toro, Fayetteville or Bladen County and no records for the Owen family, so no relations are written and his places are carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-62

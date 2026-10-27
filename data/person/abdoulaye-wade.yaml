@@ -1,0 +1,45 @@
+id: person/abdoulaye-wade
+class: person
+label:
+  ar: "عبد الله واد"
+  en: "Abdoulaye Wade"
+  ur: "عبد اللہ واد"
+names:
+  - { value: "Abdoulaye Wade", kind: full }
+  - { value: "عبد الله واد", kind: full }
+  - { value: "عبد اللہ واد", kind: full }
+  - { value: "Abdulaay Wàdd", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي سنغالي (وُلد 1926) من كيبيمير، مؤسس الحزب الديمقراطي السنغالي (1974) ورئيس السنغال الثالث (2000–2012) بعد فوزه على عبدو ضيوف، وأُعيد انتخابه سنة 2007 ثم خسر أمام ماكي سال سنة 2012؛ عضو في الطريقة الصوفية المريدية، وبلغ مئة عام في مايو 2026 وهو حي في المصادر كما قُرئت."
+  en: "Senegalese politician (born 1926) from Kébémer; founder of the Senegalese Democratic Party (1974) and third president of Senegal (2000–2012) after defeating Abdou Diouf, re-elected in 2007 and then defeated by Macky Sall in 2012; a member of the Mouride Sufi brotherhood, he turned one hundred in May 2026 and is recorded living in the sources as fetched."
+  ur: "سینیگال کے سیاست دان (پیدائش 1926ء) جن کا تعلق کیبیمیر سے ہے؛ سینیگال جمہوری پارٹی (1974ء) کے بانی اور سینیگال کے تیسرے صدر (2000ء–2012ء) رہے جنھوں نے عبدو ضیوف کو شکست دی، 2007ء میں دوبارہ منتخب ہوئے اور 2012ء میں ماکی سال سے ہار گئے؛ مریدیہ صوفی سلسلے کے رکن ہیں، مئی 2026ء میں سو سال کے ہوئے اور پڑھے گئے مآخذ کے مطابق زندہ ہیں۔"
+roles: [politician, writer]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1926-05-29"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and French articles and Wikidata give his birth on 29 May 1926 at Kébémer; the English article adds that the official date is what is recorded although some claim he was actually born several years earlier and record-keeping of the period is not always reliable. The official date is followed, as on the Senghor record's precedent. No place entity for Kébémer exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-fr, source/wikidata-abdoulaye-wade]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two article texts name his affiliation personally, in independent wording. The English text states: 'Wade, a pious Muslim, is a member of the Sufi Mouride brotherhood', citing Jeune Afrique's account of the Mourides' political influence in Senegal. The French text, in its own voice, calls the Mourides 'sa confrérie religieuse' — his religious brotherhood — when recounting the criticism that he favoured it in office, and adds that he is very close to the brotherhood and donated the land for Dakar's great Massalikul Jinaan Mouride mosque (the donation itself is a patronage act and is not counted). The value recorded is sufi for that documented membership of the Mouride (Muridiyya) Sufi brotherhood. No sunni segment is recorded: Sunni appears for him only as the second of two values on the single Wikidata item and as English and Arabic category filings, neither of which counts; the French infobox's 'Islam mouride' rests on the same Jeune Afrique citation as the English sentence."
+    sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-fr, source/wikidata-abdoulaye-wade]
+relations:
+  - type: successor_of
+    target: person/abdou-diouf
+    sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-fr]
+external_ids: { wikidata: "Q106963" }
+sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-ar, source/wikipedia-abdoulaye-wade-fr, source/wikidata-abdoulaye-wade]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1382134478 of 26 October 2026, Arabic revision 75250491 of 9 June 2026 and French revision 240153127 of 7 October 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q106963 revision 2557344975 of 15 October 2026, read from the Wikidata API. There is no Urdu article and no Urdu sitelink; the Urdu prose and label are written from the English, Arabic and French sources. The man was verified absent from the museum in both directions: no person file matches his name in any script, and no museum record carries Q106963. His living status is taken from the sources as fetched — the English revision of 26 October 2026 lists him among living people with no death recorded, and he turned one hundred on 29 May 2026 — rather than assumed. No place entity exists for Kébémer, so no born_in relation; the museum has no Mouride group entity, so his documented brotherhood membership is carried in the faith note and no member_of relation is written; his succession from Abdou Diouf (written in this same batch) is written as a relation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

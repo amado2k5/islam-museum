@@ -1,0 +1,36 @@
+id: person/medhi-benatia
+class: person
+label: { ar: "المهدي بن عطية", en: "Medhi Benatia", ur: "مہدی بن عطیہ" }
+names:
+  - { value: "المهدي أمين بن عطية المتقي", kind: full }
+  - { value: "Medhi Amine El Mouttaqi Benatia", kind: full }
+gender: male
+summary:
+  ar: "مدافع مغربي معتزل (وُلد سنة 1987 في كوركورون بفرنسا لأب مغربي وأم جزائرية)، لعب لأندية أودينيزي وروما وبايرن ميونخ ويوفنتوس، وقاد منتخب المغرب في كأس العالم 2018، ثم عمل مديراً رياضياً لنادي مرسيليا."
+  en: "Retired Moroccan centre-back (born 1987 in Courcouronnes, France, to a Moroccan father and an Algerian mother) who played for Udinese, Roma, Bayern Munich and Juventus, captained Morocco at the 2018 World Cup, and later served as sporting director of Marseille."
+  ur: "مراکش کے ریٹائرڈ سینٹر بیک (پیدائش 1987، کورکورون، فرانس؛ والد مراکشی اور والدہ الجزائری)، جو اوڈینیزے، روما، بائرن میونخ اور یووینٹس کے لیے کھیلے، 2018 کے ورلڈ کپ میں مراکش کے کپتان رہے، اور بعد میں مارسیلز کے اسپورٹنگ ڈائریکٹر بنے۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1987-04-17"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and French articles and Wikidata (Q462779) all give 17 April 1987, born in Courcouronnes, France; the Arabic article pairs the date with 1407 AH. No museum place entity exists for Courcouronnes, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1407 agrees with the Arabic article's pairing."
+  sources: [source/wikipedia-medhi-benatia-en, source/wikipedia-medhi-benatia-ar, source/wikipedia-medhi-benatia-fr, source/wikidata-medhi-benatia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for Benatia. None of the English, Arabic or French articles makes any statement about his religion, and Wikidata (Q462779) gives only Islam in general (Q432), a single structured-data value. With no text attestation at all, the value is unknown."
+    sources: [source/wikipedia-medhi-benatia-en, source/wikipedia-medhi-benatia-ar, source/wikipedia-medhi-benatia-fr, source/wikidata-medhi-benatia]
+external_ids: { wikidata: "Q462779" }
+sources: [source/wikipedia-medhi-benatia-en, source/wikipedia-medhi-benatia-ar, source/wikipedia-medhi-benatia-fr, source/wikidata-medhi-benatia]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1367108506 of 1 August 2026), Arabic Wikipedia (revision 77066791 of 25 October 2026), French Wikipedia (revision 240473093 of 18 October 2026) and Wikidata Q462779, each read on 26 October 2026; every article fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. No earlier record for Benatia existed in data/person/ (no hit under 'benatia' in data/person/ or data/source/), and his QID was searched across data/person/ and data/source/ with no hit; this is a new build. RELATION DIRECTION: no relations are written — his birthplace, Courcouronnes, has no museum place entity, so it is carried in the born note and the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
