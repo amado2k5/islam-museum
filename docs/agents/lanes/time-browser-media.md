@@ -42,3 +42,5 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   2,083 card), 12 map clusters (~434 KB), 431 shared cards (~214 KB).
 - 2026-10-27 — "add 50 more" (batch 250): 2,780 stops, 10.3% match (287 image /
   2,493 card), 12 map clusters (~435 KB), 494 shared cards (~243 KB).
+- 2026-10-27 — "add 50 more" (batch 300): 3,230 stops, 10.7% match (345 image /
+  2,885 card), 13 map clusters (~497 KB), 559 shared cards (~276 KB).
