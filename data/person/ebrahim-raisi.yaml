@@ -1,0 +1,62 @@
+id: person/ebrahim-raisi
+class: person
+label:
+  ar: "إبراهيم رئيسي"
+  en: "Ebrahim Raisi"
+summary:
+  ar: "إبراهيم رئيسي (14 كانون الأول 1960 – 19 أيار 2024) فقيه وسياسي إيراني، رئيس إيران من 3 آب 2021 خلفًا لحسن روحاني حتى وفاته في تحطم مروحية قرب ورزقان، وقبلها رئيس السلطة القضائية (2019–2021) وعضو مجلس الخبراء وسادن العتبة الرضوية في مشهد حيث وُلد ودُفن."
+  en: "Ebrahim Raisi (14 December 1960 – 19 May 2024) was an Iranian jurist and politician who served as president of Iran from 3 August 2021, succeeding Hassan Rouhani, until his death in a helicopter crash near Varzaqan. He had earlier been chief justice (2019–2021), a member of the Assembly of Experts and custodian of the Imam Reza shrine at Mashhad, where he was born and is buried."
+names:
+  - { value: "Ebrahim Raisi", kind: full }
+  - { value: "إبراهيم رئيسي", kind: full }
+  - { value: "سید ابراهیم رئیسی", kind: full }
+  - { value: "Ebrahim Raisolsadati", kind: alternate }
+gender: male
+roles: [jurist, politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1960-12-14"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the Noghan district of Mashhad on 14 December 1960; the English article, the Persian article (23 Azar 1339) and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
+  sources: [source/wikipedia-raisi-en, source/wikipedia-raisi-fa, source/wikidata-raisi]
+died:
+  edtf: "2024-05-19"
+  hijri: "1445"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in office on 19 May 2024 when his helicopter crashed in mountainous terrain near Varzaqan in East Azerbaijan province on the return from the Azerbaijan border; the English article, the other editions and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
+  sources: [source/wikipedia-raisi-en, source/wikipedia-raisi-ar, source/wikidata-raisi]
+relations:
+  - type: born_in
+    target: place/mashhad
+    note: "Born in the Noghan district of Mashhad."
+    sources: [source/wikipedia-raisi-en, source/wikidata-raisi]
+  - type: buried_in
+    target: place/mashhad
+    note: "Buried at the Imam Reza shrine in Mashhad on 23 May 2024."
+    sources: [source/wikipedia-raisi-en]
+  - type: successor_of
+    target: person/hassan-rouhani
+    note: "He succeeded Hassan Rouhani as president of Iran in August 2021; both the English and the Arabic article leads state the succession in so many words."
+    sources: [source/wikipedia-raisi-en, source/wikipedia-raisi-ar]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Recorded under the Shia-mapping rule, with the mapping stated — and with its second attestation disclosed as structured rather than textual, a weaker form than the Khamenei configuration. The Persian article's lead calls him a 'Shia jurist', a personal textual attestation of 'Shia'. The second attestation is the Arabic article's infobox, which gives his religion as 'Shia Muslim'. The English text nowhere names Shia of him, the Urdu text calls him a Muslim jurist only, and Wikidata carries Islam in general (Q432) — no Shia value at all. The branch-supporting context is extensive: a jurist formed at the Qom hawza, custodian of the Imam Reza shrine at Mashhad (2016–2019), member and first deputy chairman of the Assembly of Experts, and son-in-law of Mashhad's Friday prayer leader Ahmad Alamolhoda. On two independent sources attesting 'Shia' plus this context the value is recorded as shia-twelver/documented under the mapping rule; if the founder requires both attestations to be running text, this record falls to unknown with the evidence preserved here."
+    sources: [source/wikipedia-raisi-fa, source/wikipedia-raisi-ar, source/wikipedia-raisi-en, source/wikidata-raisi]
+external_ids:
+  wikidata: "Q5947347"
+sources: [source/wikipedia-raisi-en, source/wikipedia-raisi-fa, source/wikipedia-raisi-ar, source/wikipedia-raisi-ur, source/wikidata-raisi]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 100 §A of the century-additions queue (queue lines 549-553) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Wikidata item Q5947347 — grounded through the English article pageprops and confirmed through every edition sitelink and the item own claims — appears in no existing person record. Dates and offices follow the English article. He died in office: his helicopter crashed near Varzaqan on 19 May 2024; Varzaqan has no place entity in the museum, so no died_in relation is written, while his birth and burial at Mashhad use the existing place/mashhad entity. The successor_of relation to Hassan Rouhani is attested by the English and Arabic article leads. The faith segment is recorded under the Shia-mapping rule; the faith note discloses that its second attestation is the Arabic infobox rather than running text. No student_of relation is written: the articles name his teachers, and no teacher named in them is a record of this museum that his enrolment with is attested to the lane standard."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
+status: { review: published }

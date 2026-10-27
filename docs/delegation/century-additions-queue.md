@@ -546,11 +546,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mohammad Reza Pahlavi — 1919–1980
 - [x] Mohammad Mosaddegh — 1882–1967
 - [x] Ali Akbar Hashemi Rafsanjani — 1934–2017
-- [ ] Mohammad Khatami — 1943–Living
-- [ ] Mahmoud Ahmadinejad — 1956–Living
-- [ ] Hassan Rouhani — 1948–Living
-- [ ] Ebrahim Raisi — 1960–2024
-- [ ] Masoud Pezeshkian — 1954–Living
+- [x] Mohammad Khatami — 1943–Living
+- [x] Mahmoud Ahmadinejad — 1956–Living
+- [x] Hassan Rouhani — 1948–Living
+- [x] Ebrahim Raisi — 1960–2024
+- [x] Masoud Pezeshkian — 1954–Living
 - [ ] Javad Zarif — 1960–Living
 - [ ] Maryam Mirzakhani — 1977–2017
 - [ ] Cumrun Vafa — 1960–Living
