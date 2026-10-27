@@ -1,0 +1,53 @@
+id: person/ustad-ghulam-hossein
+class: person
+label:
+  ar: "غلام حسین"
+  en: "Ustad Ghulam Hossein"
+  ur: "استاد غلام حسین"
+summary:
+  ar: "موسيقي وملحن ومعلم أفغاني من حي خرابات بكابل (1876-1967)، من أسرة موسيقيين قدمت من البنجاب في عهد شير علي خان. تعلم السارنغي والراغا، وأسس مدرسة موسيقية في خرابات غدت مع مدرسة أستاذ قاسم جو أهم مدرستي كابل، ووضع منهج تعليم الموسيقى في المدارس ودرّس فيها، وانضمت فرقته إلى أوركسترا إذاعة أفغانستان. كان في زمانه أكبر عازفي الهارمونية والبيانو، وخرّج أجيالا من موسيقيي كابل، وواصل ابنه محمد حسين سرآهنگ عمله."
+  en: "Afghan musician, composer and teacher of Kharabat, Kabul (1876–1967), from a family of musicians that had come from the Punjab in Sher Ali Khan's time. Trained in sarangi and raga, he founded a music school in Kharabat that, with Ustad Qasem Jo's, became one of Kabul's two leading schools; he devised the curriculum for music in the state schools and taught in them, and his ensemble was absorbed into the orchestra of Radio Afghanistan. He was the leading harmonium and piano player of his day, trained generations of Kabul musicians, and his son Mohammad Hossein Sarahang continued his work."
+  ur: "کابل کے محلے خرابات کے افغان موسیقار، نغمہ نگار اور استاد (1876ء–1967ء)، موسیقاروں کے ایک خاندان سے جو شیر علی خان کے زمانے میں پنجاب سے آیا تھا۔ سارنگی اور راگ کی تربیت حاصل کی، خرابات میں موسیقی کا مدرسہ قائم کیا جو استاد قاسم جو کے مدرسے کے ساتھ کابل کے دو بڑے مدرسوں میں شمار ہوا، سرکاری اسکولوں کے لیے موسیقی کا نصاب بنایا اور ان میں پڑھایا، اور ان کا دستہ ریڈیو افغانستان کے آرکسٹرا میں شامل ہوا۔ وہ اپنے زمانے کے سب سے بڑے ہارمونیم اور پیانو نواز تھے، کابل کے موسیقاروں کی نسلیں تیار کیں، اور ان کے بیٹے محمد حسین سرآہنگ نے ان کا کام جاری رکھا۔"
+names:
+  - { value: "Ghulam Hossein", kind: full }
+  - { value: "استاد غلام حسین", kind: full }
+  - { value: "Ghulam Hussain", kind: alternate }
+gender: male
+born:
+  edtf: "1876"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born in 1876 at Kharabat, Kabul, as the German article gives, resting on Wahab Madadi's history of Afghan music. The Persian article instead gives his birth year as 1265 Solar Hijri, about 1886/87 — a different calendar and a decade later — so the block is carried as debated with the German article followed; the queue's 1870 is attested in neither. No source gives a lunar Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-ghulam-hossein-de, source/wikipedia-ghulam-hossein-fa]
+died:
+  edtf: "1967-09-18"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died at Kabul in 1967; the German article gives 18 September 1967, while the Persian article gives 27 Tir 1346 Solar Hijri, which is 18 July 1967 — the year and the day of the month agree, the month does not — so the block is carried as debated with the German article followed. No source gives a lunar Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-ghulam-hossein-de, source/wikipedia-ghulam-hossein-fa]
+roles: [musician, teacher]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-ghulam-hossein-de] }
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-ghulam-hossein-de] }
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-ghulam-hossein-de] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or a school for him at all. Neither the German nor the Persian article carries a religion value or any text naming his faith; the German article records only that his family came from the Punjab in Sher Ali Khan's time and settled beside Kabul's Hindu and Sikh quarter, and that conservative opponents attacked music teaching on religious pretexts — family origin and other men's controversies, not attestations of his affiliation. His repertoire, his school's lineage from the Patiala tradition and his court and radio service are work, not attestation. On the absence configuration the value is unknown, unflagged."
+    sources: [source/wikipedia-ghulam-hossein-de, source/wikipedia-ghulam-hossein-fa]
+sources:
+  - source/wikipedia-ghulam-hossein-de
+  - source/wikipedia-ghulam-hossein-fa
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "German and Persian Wikipedia articles on Ustad Ghulam Hossein (no English, Arabic or Urdu article exists), both read on 27 October 2026. The fetch route available to this writer exposed no revision ids or Wikidata identifiers, so every source is cited by consultation date under the consultation-date fallback, no Wikidata source file or external_ids are recorded, and existence was checked by name-fragment greps under all spellings (Hossein/Hussain/Hussein) and by biographical match — he is the Kharabat master who taught Ghulam Dastagir Shaida and fathered Mohammad Hossein Sarahang, not the living rubab player Ghulam Hussain born in 1960. The two articles conflict on his birth year (1876 against 1265 Solar Hijri, about 1886/87) and on his death month (18 September against 27 Tir, 18 July, both in 1967), so both blocks are carried as debated; the queue's dates (1870–1950) are attested in neither article and are not carried. No witness names a religion or school for him, so his faith is unknown on the absence configuration."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115

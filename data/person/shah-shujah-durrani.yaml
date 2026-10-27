@@ -1,0 +1,53 @@
+id: person/shah-shujah-durrani
+class: person
+label:
+  ar: "شجاع شاه دراني"
+  en: "Shah Shujah Durrani"
+  ur: "شجاع شاہ درانی"
+summary:
+  ar: "شاه الإمبراطورية الدرانية الأفغانية على فترتين (1803-1809 ثم 1839-1842)، ابن تيمور شاه الدراني ومن سلالة سدوزاي. خُلع سنة 1809 وعاش منفيا في البنجاب والهند، وتنازل عن ألماسة كوه نور لرانجيت سينغ، ثم أعاده البريطانيون والسيخ إلى عرش كابل سنة 1839 في الحرب الإنجليزية الأفغانية الأولى، واغتيل فيها سنة 1842."
+  en: "Shah of the Afghan Durrani Empire in two reigns (1803–1809 and 1839–1842), a son of Timur Shah Durrani of the Sadozai line. Deposed in 1809, he lived in exile in the Punjab and India and surrendered the Koh-i-Noor diamond to Ranjit Singh; the British and the Sikhs restored him to the throne of Kabul in 1839 during the First Anglo-Afghan War, and he was assassinated there in 1842."
+  ur: "افغان درانی سلطنت کے شاہ دو ادوار میں (1803ء–1809ء، پھر 1839ء–1842ء)، تیمور شاہ درانی کے بیٹے اور سدوزئی نسل سے۔ 1809ء میں معزول ہو کر پنجاب اور ہندوستان میں جلاوطن رہے اور کوہِ نور ہیرا رنجیت سنگھ کے حوالے کیا؛ انگریزوں اور سکھوں نے 1839ء میں پہلی اینگلو افغان جنگ کے دوران انہیں کابل کے تخت پر بحال کیا، اور 1842ء میں وہاں انہیں قتل کر دیا گیا۔"
+names:
+  - { value: "Shuja ul-Mulk Mohammad Mirza Sadozai", kind: full }
+  - { value: "شجاع شاه دراني", kind: full }
+  - { value: "Shuja Shah Durrani", kind: alternate }
+  - { value: "Shah Shuja", kind: alternate }
+gender: male
+born:
+  edtf: "1785-11-04"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 4 November 1785 at Kandahar, as the English and Urdu articles give (the Arabic article gives the year only). No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Kandahar, so no born_in relation is written."
+  sources: [source/wikipedia-shah-shujah-durrani-en, source/wikipedia-shah-shujah-durrani-ur]
+died:
+  edtf: "1842-04-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Assassinated on 5 April 1842 at Kabul, as all three articles give. No source gives a Hijri pairing for this date, so none is recorded."
+  sources: [source/wikipedia-shah-shujah-durrani-en, source/wikipedia-shah-shujah-durrani-ar, source/wikipedia-shah-shujah-durrani-ur]
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-shah-shujah-durrani-en, source/wikipedia-shah-shujah-durrani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only attestations of a religion for him are generic structured values: the Arabic article's infobox gives his religion as Islam, and his Wikidata item likewise carries Islam. The English and Urdu articles carry no religion value, and no article text in any language read names a religion or a school for him personally. His headship of a Muslim empire and his Sadozai descent are office and lineage, not attestations of a school. Under the two-source rule and the doubt rule the value therefore stays unknown, with the generic structured attestations preserved here."
+    sources: [source/wikipedia-shah-shujah-durrani-en, source/wikipedia-shah-shujah-durrani-ar, source/wikipedia-shah-shujah-durrani-ur]
+sources:
+  - source/wikipedia-shah-shujah-durrani-en
+  - source/wikipedia-shah-shujah-durrani-ar
+  - source/wikipedia-shah-shujah-durrani-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Shuja Shah Durrani, all read on 27 October 2026. The fetch route available to this writer exposed no revision ids, so every source is cited by consultation date under the consultation-date fallback and no Wikidata source file is recorded; the Wikidata item Q457944, reached from the English article's search listing, was grepped across all data/person files with no match, and existence was further checked by name-fragment greps under all spellings (Shujah/Shuja/Shoja) and by biographical match — the museum's shah-shuja-mughal and shah-shuja-muzaffari are different men, and the Arabic label used here, شجاع شاه دراني, is shared with no existing record. His faith is unknown FLAGGED on the single-structured-generic configuration: the Arabic infobox and Wikidata give Islam only, and no text names a school. No throne succession edges are written, the Durrani sequence being dynastic office succession, and no parent_of or child_of edge is written, Timur Shah Durrani having no record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115

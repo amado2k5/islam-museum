@@ -36,6 +36,7 @@ regions: [persia-central-asia]
 relations:
   - { type: born_in, target: place/kabul, sources: [source/wikipedia-sher-ali-khan-en] }
   - { type: parent_of, target: person/mohammad-ayub-khan, sources: [source/wikipedia-mohammad-ayub-khan-en, source/wikipedia-mohammad-ayub-khan-ar] }
+  - { type: parent_of, target: person/mohammad-yaqub-khan, sources: [source/wikipedia-mohammad-yaqub-khan-en, source/wikipedia-mohammad-yaqub-khan-ur] }
 faith:
   - value: unknown
     basis: unknown
