@@ -1,0 +1,39 @@
+id: person/adonis
+class: person
+label: { ar: "أدونيس", en: "Adonis", ur: "ادونیس" }
+names:
+  - { value: "علي أحمد سعيد إسبر", kind: full }
+  - { value: "Ali Ahmad Said Esber", kind: full }
+  - { value: "أدونيس", kind: pen }
+  - { value: "Adonis", kind: pen }
+  - { value: "Adunis", kind: alternate }
+gender: male
+summary:
+  ar: "شاعر وناقد سوري وُلد سنة 1930 في قرية القصابين قرب اللاذقية، وقاد ثورة الحداثة في الشعر العربي المعاصر. شارك في تأسيس مجلة «شعر» (1957) وأسّس «مواقف» (1968)، ومن أشهر أعماله «أغاني مهيار الدمشقي» (1961) و«الثابت والمتحول»، ويعيش في باريس."
+  en: "Syrian poet and critic born in 1930 at the village of al-Qassabin near Latakia, who led the modernist revolution in contemporary Arabic poetry. He co-founded the magazine Shi'r (1957) and founded Mawaqif (1968); among his best-known works are The Songs of Mihyar the Damascene (1961) and The Static and the Dynamic. He lives in Paris."
+  ur: "سوری شاعر اور نقاد، جو 1930 میں لاذقیہ کے قریب گاؤں القصابین میں پیدا ہوئے اور جدید عربی شاعری کی جدت پسند تحریک کے قائد بنے۔ انہوں نے مجلہ «شعر» (1957) کی تاسیس میں حصہ لیا اور «مواقف» (1968) جاری کیا؛ ان کی مشہور تصانیف میں «أغاني مهيار الدمشقي» (1961) اور «الثابت والمتحول» شامل ہیں۔ وہ پیرس میں رہتے ہیں۔"
+roles: [poet, writer]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1930-01-01"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata all give 1 January 1930, at the village of al-Qassabin in northwestern Syria. The Hijri year (1348) is derived from the Gregorian date. No born_in edge is written: al-Qassabin has no place entity."
+  sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikidata-adonis]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling (the Bourguiba configuration). The English article records his birth to an Alawite farming family — family background, which never counts. His own religious position is attested in ONE source family only: the English article, quoting his Identité inachevée, records that he describes himself as a 'pagan mystic', elaborating a mysticism of hidden and revealed truth, and that he opposes religion as an institution imposed on the whole of society while supporting individual religious freedom; a 2021 interview quoted in the same article sets religion (an ideology, an answer) against poetry (always a question). The Arabic article carries the same 'pagan mystic' self-description in translation of the same passage — one family, not two. The Arabic article also has a section on his criticism of Salafi-Wahhabism: criticism of a school is not an affiliation. Wikidata carries five mutually contradictory religion values (Islam, nondenominational Muslim, irreligion, paganism, atheism) — a single structured family, internally incoherent, given no weight — and the Urdu stub's categories file him under Syrian Alawites and critics of Islam, and category filings never count. No school is named for him personally by two independent sources, the attested self-description is not an unambiguous statement of unbelief and does not meet the bar for atheist-or-sceptic/documented, and the enum has no value for his self-description; recorded unknown with the attestation preserved entire."
+    sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikipedia-adonis-ur, source/wikidata-adonis]
+external_ids: { wikidata: "Q380787" }
+sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikipedia-adonis-ur, source/wikidata-adonis]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on the poet Adonis, each fetched by its recorded revision id (EN 'Adonis (poet)' 1376675041, AR 75811697, UR 12070375) with the returned id asserted equal before use, and Wikidata item Q380787 (item revision 2557600288, read twice with identical revision and claims). The QID was grounded through the pageprops of the English article 'Adonis (poet)': the bare English title 'Adonis' is the Greek god (Q163920), whose article and item were checked and discarded. Existence checks by Latin fragments (Adonis, Esber, Samman, Khoury, Tamer, Saddam) and Arabic fragments (أدونيس، علي أحمد سعيد) across data/person, by the grounded QID across all person files, and by biography found no prior record. No relations are written: al-Qassabin, Latakia, Tartus, Beirut and Paris have no place entities in the graph."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

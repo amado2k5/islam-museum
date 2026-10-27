@@ -1,0 +1,40 @@
+id: person/zakaria-tamer
+class: person
+label: { ar: "زكريا تامر", en: "Zakaria Tamer", ur: "زکریا تامر" }
+names:
+  - { value: "زكريا تامر", kind: full }
+  - { value: "Zakaria Tamer", kind: full }
+  - { value: "Zakariyya Tamir", kind: alternate }
+  - { value: "Zakariya Tamir", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب قصة وصحفي سوري وُلد في دمشق سنة 1931، بدأ حدّادًا وعلّم نفسه بنفسه، وصار من أكثر كتّاب القصة القصيرة قراءة وترجمة في الأدب السوري الحديث ومن أبرز كتّاب قصص الأطفال بالعربية. يعيش في لندن منذ 1981، ومن مجموعاته «النمور في اليوم العاشر» و«الحصرم»."
+  en: "Syrian short-story writer and journalist born in Damascus in 1931. He began as a blacksmith, educated himself, and became one of the most widely read and translated short-story writers of modern Syrian literature and a foremost author of Arabic children's stories. He has lived in London since 1981; his collections include Tigers on the Tenth Day and Sour Grapes."
+  ur: "سوری افسانہ نگار اور صحافی، جو 1931 میں دمشق میں پیدا ہوئے۔ انہوں نے لوہار کے کام سے آغاز کیا، خود تعلیم حاصل کی، اور جدید سوری ادب کے سب سے زیادہ پڑھے اور ترجمہ ہونے والے افسانہ نگاروں اور عربی بچوں کی کہانیوں کے ممتاز مصنفین میں شمار ہوئے۔ وہ 1981 سے لندن میں رہ رہے ہیں؛ ان کے مجموعوں میں «النمور في اليوم العاشر» اور «الحصرم» شامل ہیں۔"
+roles: [writer, journalist]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1931-01-02"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's text and infobox and Wikidata give 2 January 1931, in the al-Basha district of Damascus; the Arabic article gives the year 1931 and the city only. The Hijri year (1349) is derived from the Gregorian date."
+  sources: [source/wikipedia-zakaria-tamer-en, source/wikipedia-zakaria-tamer-ar, source/wikidata-zakaria-tamer]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-zakaria-tamer-en, source/wikipedia-zakaria-tamer-ar, source/wikidata-zakaria-tamer] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (the Qabbani configuration, wave 95 section A). No article text names his religion or any school; his stories' treatment of authority and taboo is literary subject matter, not evidence of an affiliation in either direction. Wikidata's religion value is Islam in general — a single structured value, and generic rather than a school. The English article's categories file him under 'Syrian Muslims' and the Urdu stub's under 'Syrian Muslim personalities'; category filings never count. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-zakaria-tamer-en, source/wikipedia-zakaria-tamer-ar, source/wikipedia-zakaria-tamer-ur, source/wikidata-zakaria-tamer]
+external_ids: { wikidata: "Q144624" }
+sources: [source/wikipedia-zakaria-tamer-en, source/wikipedia-zakaria-tamer-ar, source/wikipedia-zakaria-tamer-ur, source/wikidata-zakaria-tamer]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Zakaria Tamer, each fetched by its recorded revision id (EN 1380913285, AR 75053468, UR 12139364) with the returned id asserted equal before use, and Wikidata item Q144624 (item revision 2558287384, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin fragments (Tamer, Tamir) and Arabic fragments (زكريا تامر) across data/person, by the grounded QID across all person files, and by biography found no prior record. No lived_in edge is written: London has no place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-96
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
