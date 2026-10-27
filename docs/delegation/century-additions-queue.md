@@ -516,11 +516,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] King Hassan II — 1929–1999
 - [x] King Mohammed VI — 1963–Living
 - [x] Abderrahmane Youssoufi — 1924–2020
-- [ ] Aziz Akhannouch — 1961–Living
-- [ ] Muammar Gaddafi — 1942–2011
-- [ ] King Idris I — 1889–1983
-- [ ] Mahmoud Jibril — 1952–2020
-- [ ] Fayez al-Sarraj — 1960–Living
+- [x] Aziz Akhannouch — 1961–Living
+- [x] Muammar Gaddafi — 1942–2011
+- [x] King Idris I — 1889–1983
+- [x] Mahmoud Jibril — 1952–2020
+- [x] Fayez al-Sarraj — 1960–Living
 - [ ] Abdul Hamid Dbeibeh — 1958–Living
 - [ ] Mustafa Abdul Jalil — 1952–Living
 - [ ] Hafez al-Assad — 1930–2000
