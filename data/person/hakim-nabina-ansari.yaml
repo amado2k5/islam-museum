@@ -1,0 +1,51 @@
+id: person/hakim-nabina-ansari
+class: person
+label:
+  ar: "حكيم عبد الوهاب الأنصاري"
+  en: "Hakim Nabina Ansari"
+  ur: "حکیم نابینا انصاری"
+summary:
+  ar: "حكيم عبد الوهاب أنصاري (1868–1941)، المعروف بحكيم نابينا أنصاري، طبيب يوناني هندي أعمى منذ طفولته، اشتهر بالتشخيص من النبض، ودرس في دار العلوم ديوبند وبايع رشيد أحمد الكنكوهي، وعالج محمد إقبال من حصاة الكلى."
+  en: "Hakim Abdul Wahhab Ansari (1868–1941), known as Hakim Nabina Ansari, was an Indian Unani physician blinded in childhood who became famous for diagnosis by pulse; he studied at Darul Uloom Deoband, took bay'ah with Rashid Ahmad Gangohi, and treated Muhammad Iqbal's kidney stone."
+  ur: "حکیم عبد الوہاب انصاری (1868ء–1941ء)، جو حکیم نابینا انصاری کے نام سے مشہور ہوئے، ہندوستانی طبیبِ یونانی تھے جو بچپن میں بینائی سے محروم ہو گئے تھے اور نبض دیکھ کر تشخیص میں مشہور ہوئے؛ انھوں نے دارالعلوم دیوبند سے تعلیم پائی، رشید احمد گنگوہی سے بیعت کی اور علامہ اقبال کی گردے کی پتھری کا علاج کیا۔"
+names:
+  - { value: "Abdul Wahhab Ansari", kind: full }
+  - { value: "حکیم عبد الوہاب انصاری", kind: full }
+  - { value: "Hakim Nabina Ansari", kind: alternate }
+  - { value: "Luqman-ul-Mulk", kind: laqab }
+gender: male
+roles: [physician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1868"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1868 at Yusufpur, in Ghazipur district in eastern Uttar Pradesh: the Urdu article gives the year and place, and Wikidata gives the same year. No consulted source gives a day or a Hijri pairing (the year spans 1284–1285 AH), so the block carries no hijri value. Neither Yusufpur nor Ghazipur has a place entity, so no born_in edge is written. The lane queue gives this line as 'Hakim Nabina (1860–1920)'; the sources agree on 1868–1941 and the queue's years are not followed, as disclosed in the died note."
+  sources: [source/wikipedia-hakim-nabina-ansari-ur, source/wikidata-hakim-nabina-ansari]
+died:
+  edtf: "1941"
+  hijri: "1360"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died at Delhi in 1941: the Urdu article dates his death to Rabi' al-Thani 1360 AH, corresponding to 1941, and Wikidata gives 1941; the Hijri year here is the article's own, not a conversion. He was buried at Gangoh beside the shrine of Rashid Ahmad Gangohi, in accordance with his will, as the article states; Gangoh has no place entity, so no buried_in edge is written."
+  sources: [source/wikipedia-hakim-nabina-ansari-ur, source/wikidata-hakim-nabina-ansari]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Urdu article states in its text that he took bay'ah (Sufi discipleship) with Rashid Ahmad Gangohi, and that he was buried beside Gangohi's shrine in accordance with his will; that is one text in one source family attesting a personal Sufi affiliation, and no second independent source attests it — Wikidata carries no religion statement and the article's categories ('Muslim physicians', 'Muslim writers' and similar) are filings that never attest. A documented sufi segment requires two independent sources, so the reading stands one source short and the value remains unknown, with the attestation preserved here in full. His graduation from Darul Uloom Deoband and his named teachers are education, which never counts."
+    sources: [source/wikipedia-hakim-nabina-ansari-ur, source/wikidata-hakim-nabina-ansari]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-hakim-nabina-ansari-ur] }
+external_ids: { wikidata: "Q111549961" }
+sources: [source/wikipedia-hakim-nabina-ansari-ur, source/wikidata-hakim-nabina-ansari]
+provenance:
+  layer: own-research
+  source: "Urdu Wikipedia 'حکیم نابینا انصاری' (revision 9218961) and Wikidata item Q111549961 (item revision 2555237581), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the Wikidata item was queried twice with identical item revisions. Existence checks by name fragments (nabina, ansari, wahhab) across data/person, by QID and by biography (blind Unani physician of Ghazipur and Delhi, 1868–1941) found no prior record for this man. No English or Arabic Wikipedia article exists for him (searches in both return no article under 'Hakim Nabina', 'Hakeem Nabina Ansari' or his full name), so the English and Arabic prose are written from the Urdu source and say so. 'Nabina' is his byname, from his loss of sight to smallpox in childhood, as the article explains; his full name is Abdul Wahhab Ansari. His bay'ah to Rashid Ahmad Gangohi (who has a person record) is recorded in the faith note and prose rather than as a relation, because the predicate registry has no discipleship predicate and the registry's student_of would misstate it: the article names other men as his teachers. The lane queue gives 'Hakim Nabina (1860–1920)': both Wikipedia-derived sources agree on 1868–1941, and the record follows them, with the conflict disclosed in the date notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-87
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
