@@ -611,11 +611,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Khaleda Zia — 1945–Living
 - [x] Tajuddin Ahmad — 1925–1975
 - [x] Ziaur Rahman — 1936–1981
-- [ ] Hussain Muhammad Ershad — 1930–2019
-- [ ] Shahabuddin Ahmed — 1930–2022
-- [ ] Iajuddin Ahmed — 1931–2012
-- [ ] Abdul Hamid — 1944–Living
-- [ ] Mohammed Shahabuddin — 1949–Living
+- [x] Hussain Muhammad Ershad — 1930–2019
+- [x] Shahabuddin Ahmed — 1930–2022
+- [x] Iajuddin Ahmed — 1931–2012
+- [x] Abdul Hamid — 1944–Living
+- [x] Mohammed Shahabuddin — 1949–Living
 - [ ] Dr. Kamal Hossain — 1937–Living
 - [x] Sir Khawaja Nazimuddin — 1894–1964
 - [x] Huseyn Shaheed Suhrawardy — 1892–1963
