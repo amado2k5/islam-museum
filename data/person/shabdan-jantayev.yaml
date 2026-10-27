@@ -1,0 +1,52 @@
+id: person/shabdan-jantayev
+class: person
+label:
+  ar: "شبدان جانتاييف"
+  en: "Shabdan Jantayev"
+  ur: "شبدان جانتائیف"
+summary:
+  ar: "شبدان جانتاييف (1839–1912)، المعروف بشبدان باتير، مناب قرغيزي من قبيلة ساريباغيش وبطل عسكري دخل خدمة روسيا بعد ضم شمال قرغيزيا، فصار كبيرًا لمنطقة توكماك وحاز أوسمة روسية؛ عُرف أيضًا بجهوده في تعليم القرغيز، فأسس مدرسة دينية خاصة في كمين سنة 1909."
+  en: "Shabdan Jantayev (1839–1912), known as Shabdan Baatyr, was a Kyrgyz manap of the Sarybagysh tribe and military leader who entered Russian service after the annexation of northern Kyrgyzstan, becoming senior official of the Tokmak district and a holder of Russian decorations. He is also remembered for promoting Kyrgyz schooling, founding a private madrasa at Kemin in 1909."
+  ur: "شبدان جانتائیف (1839–1912)، جو شبدان باتیر کے نام سے مشہور ہیں، ساریباغیش قبیلے کے کرغیز مناپ اور عسکری رہنما تھے؛ شمالی کرغیزستان کے روسی قبضے کے بعد وہ روسی خدمت میں آئے، توقماق ضلع کے بڑے اہلکار بنے اور روسی اعزازات پائے۔ وہ کرغیز تعلیم کے فروغ کے لیے بھی یاد کیے جاتے ہیں؛ 1909 میں انہوں نے کیمین میں نجی مدرسہ قائم کیا۔"
+names:
+  - { value: "Shabdan Jantayev", kind: full }
+  - { value: "Шабдан Джантаев", kind: full }
+  - { value: "Шабдан Жантай уулу", kind: full }
+  - { value: "Shabdan Baatyr", kind: laqab }
+  - { value: "Шабдан-батыр", kind: laqab }
+gender: male
+born:
+  edtf: "1839-10-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 29 October 1839 in the Chong-Kemin valley, as the Russian article's lead and Wikidata agree; the article states the date without an old/new-style marker and it is carried as given. No entity exists for the Kemin district, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-shabdan-jantayev-ru, source/wikidata-shabdan-jantayev]
+died:
+  edtf: "1912-04-06"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 6 April 1912 in the Tokmak district of Semirechensk Oblast, as the Russian article's lead and infobox and Wikidata agree; no style marker is given in the article. No entity exists for Tokmak or Pishpek, so no died_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-shabdan-jantayev-ru, source/wikidata-shabdan-jantayev]
+wings: [people]
+regions: [persia-central-asia]
+roles: [politician, general]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names Shabdan's religion at all: the Russian article — the only article on him in any language — carries no religion field in its infobox and no statement of his affiliation in its text, and Wikidata carries no religion (P140) value. What the text records is milieu and patronage: he petitioned the tsar for Muslim assemblies and for madrasas and schools where Kyrgyz children could learn in their own language, and in 1909 he himself opened a private madrasa at Kemin. Patronage and petitioning are acts, not attestations, and no school reading exists anywhere, so the segment is unknown, unflagged (absence configuration)."
+    sources: [source/wikipedia-shabdan-jantayev-ru, source/wikidata-shabdan-jantayev]
+external_ids:
+  wikidata: Q4159909
+sources:
+  - source/wikipedia-shabdan-jantayev-ru
+  - source/wikidata-shabdan-jantayev
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "Russian Wikipedia article on Shabdan Jantayev and Wikidata item Q4159909, each read at a recorded revision; existence checked both ways before building — name fragments (shabdan, jantayev, jantaev, baatyr) and slug variants across data/person found no record, and Q4159909, grounded through the Russian article's page properties (the item's only Wikipedia sitelink), grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and the article was fetched by its recorded revid with equality asserted. No relations are written: the Russian article reports, as a widespread version, his mediation of the 1876 reconciliation between the Russian authorities and Kurmanjan Datka, but no predicate in the schema fits a mediation contact, and his father Jantay Karabekov has no record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105

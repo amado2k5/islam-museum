@@ -1,0 +1,57 @@
+id: person/najmuddin-hotsinsky
+class: person
+label:
+  ar: "نجم الدين غوتسينسكي"
+  en: "Najmuddin Hotsinsky"
+  ur: "نجم الدین غوتسنسکی"
+summary:
+  ar: "نجم الدين غوتسينسكي (1859–1925)، عالم أفاري من قرية غوتسوب في داغستان، صار مفتي جمهورية شمال القوقاز الجبلية سنة 1917 واعتُرف به إمامًا لداغستان والشيشان سنة 1919؛ قاد انتفاضات متكررة على البلاشفة حتى أُسر وأُعدم رميًا بالرصاص في روستوف على الدون سنة 1925."
+  en: "Najmuddin Hotsinsky (1859–1925), an Avar scholar from the village of Gotsob in Dagestan, became Mufti of the Mountainous Republic of the Northern Caucasus in 1917 and was recognised as Imam of Dagestan and Chechnya in 1919. He led repeated uprisings against the Bolsheviks until his capture and execution by shooting at Rostov-on-Don in 1925."
+  ur: "نجم الدین غوتسنسکی (1859–1925)، داغستان کے گاؤں گوتسوب سے تعلق رکھنے والے آوار عالم تھے؛ 1917 میں شمالی قفقاز کی پہاڑی جمہوریہ کے مفتی بنے اور 1919 میں داغستان و چیچنیا کے امام تسلیم کیے گئے۔ وہ بالشویکوں کے خلاف بار بار بغاوتوں کی قیادت کرتے رہے یہاں تک کہ 1925 میں گرفتار ہو کر روستوف-نا-دونو میں گولی مار کر ہلاک کیے گئے۔"
+names:
+  - { value: "Najmuddin Hotsinsky", kind: full }
+  - { value: "Нажмудин Гоцинский", kind: full }
+  - { value: "ХӀоцоса Нажмудин", kind: full }
+  - { value: "نجم الدين بن محمد بن دنوغونه الحزى الداغستانى", kind: full }
+  - { value: "Najmuddin of Gotzo", kind: alternate }
+  - { value: "Nazhmudin Donogo", kind: alternate }
+gender: male
+born:
+  edtf: "1859"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1859 at the village of Gotsob in the Dagestan Oblast, as the English, Russian and Avar articles and Wikidata agree at year precision; no source read gives a day or month. No entity exists for Gotsob, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-najmuddin-hotsinsky-ru, source/wikipedia-najmuddin-hotsinsky-av, source/wikidata-najmuddin-hotsinsky]
+died:
+  edtf: "1925-09-28"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Executed by shooting at Rostov-on-Don after his capture in September 1925. The day, 28 September 1925, is given by the Avar article's infobox and by Wikidata; the English article gives October 1925 in its infobox and lead, and the Russian article the year only, so the date is carried as debated on the two day-precision sources. No entity exists for Rostov-on-Don, so no died_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-najmuddin-hotsinsky-ru, source/wikipedia-najmuddin-hotsinsky-av, source/wikidata-najmuddin-hotsinsky]
+wings: [people]
+regions: [anatolia-balkans]
+roles: [theologian, politician, poet]
+relations:
+  - { type: opposed, target: person/uzun-haji, sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-uzun-haji-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — two readings, neither reaching the two-text bar. The Sunni reading rests on infoboxes and structured data alone: the Russian and Avar infoboxes give Islam of the Sunni persuasion/madhhab, the English infobox gives religion Sunni Islam, and Wikidata's religion value is Sunni Islam — one family of fields referenced to no text; no article text names his madhhab, and Dagestan's Shafi'i convention is milieu, not an attestation. The Sufi reading is weaker still: the English infobox's denomination and sect fields (Sufism; Naqshbandi) stand against the Russian article's text, which states expressly that although he praised some Sufi sheikhs, he himself did not belong to a tariqa. His offices — mufti of the North Caucasus in 1917, and the imamate of Dagestan and Chechnya recognised at Gunib in 1919 — are offices, and office never counts. The segment is therefore unknown, with both readings preserved here."
+    sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-najmuddin-hotsinsky-ru, source/wikipedia-najmuddin-hotsinsky-av, source/wikidata-najmuddin-hotsinsky]
+external_ids:
+  wikidata: Q4147143
+sources:
+  - source/wikipedia-najmuddin-hotsinsky-en
+  - source/wikipedia-najmuddin-hotsinsky-ru
+  - source/wikipedia-najmuddin-hotsinsky-av
+  - source/wikidata-najmuddin-hotsinsky
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Avar Wikipedia articles on Najmuddin Hotsinsky (English title: Najmuddin of Gotzo) and Wikidata item Q4147143, each read at a recorded revision; existence checked both ways before building — name fragments (hotsinsky, gotsinsky, gotzo, najmuddin, nazhmudin) and slug variants across data/person found no record, and Q4147143, grounded through the English article's page properties and confirmed through the Russian and Avar articles', grepped across all data/person files with zero hits; the Wikidata item was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. The opposed edge to Uzun-Haji is written here, once, on the English articles' attestation that Najmuddin and allied scholars condemned Uzun-Hajji and urged his capture after their 1919 breach. No successor edge is written in either direction: the Avar infobox names Uzun-Hajji as his successor in the imamate, but the English articles show the two men's claims as rival and expressly disputed, so the succession is unverified. No place edges are written (no entities for Gotsob or Rostov-on-Don), and his father Muhammad Donogo and brother Abdulatip have no records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105
