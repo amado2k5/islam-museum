@@ -1,0 +1,47 @@
+id: person/firouz-naderi
+class: person
+label: { ar: "فيروز نادري", en: "Firouz Naderi", ur: "فیروز نادری" }
+names:
+  - { value: "Firouz Michael Naderi", kind: full }
+  - { value: "فیروز نادری", kind: full }
+gender: male
+summary:
+  ar: "فيروز مايكل نادري (25 مارس 1946 – 9 يونيو 2023) مهندس كهرباء ومدير تنفيذي إيراني-أمريكي في وكالة ناسا، قضى 36 عامًا في مختبر الدفع النفاث. أدار برنامج ناسا لاستكشاف المريخ في فترة هبوط المسبارين سبيريت وأوبورتونيتي بنجاح، ثم شغل منصب المدير المساعد للمختبر ومدير استكشاف المجموعة الشمسية، ونال وسام الخدمة المتميزة من ناسا سنة 2005، وسُمي الكويكب 5515 نادري باسمه."
+  en: "Firouz Michael Naderi (25 March 1946 – 9 June 2023) was an Iranian-American electrical engineer and NASA executive who spent 36 years at the Jet Propulsion Laboratory. He directed NASA's Mars Exploration Program through the successful landings of the Spirit and Opportunity rovers, later served as JPL's associate director and as Director for Solar System Exploration, received the NASA Distinguished Service Medal in 2005, and has asteroid 5515 Naderi named for him."
+  ur: "فیروز مائیکل نادری (25 مارچ 1946ء – 9 جون 2023ء) ایرانی نژاد امریکی برقی انجینئر اور ناسا کے ایگزیکٹو تھے جنہوں نے جیٹ پروپلشن لیبارٹری میں 36 برس گزارے۔ انہوں نے ناسا کے مریخ ایکسپلوریشن پروگرام کی قیادت اسپرٹ اور آپرچیونٹی کی کامیاب لینڈنگ کے دور میں کی، بعد ازاں لیبارٹری کے ایسوسی ایٹ ڈائریکٹر اور نظام شمسی کی تحقیق کے ڈائریکٹر رہے، 2005ء میں ناسا کا ڈسٹنگوئشڈ سروس میڈل حاصل کیا، اور سیارچہ 5515 نادری ان کے نام پر رکھا گیا۔"
+roles: [scientist, engineer]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1946-03-25"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Shiraz; the birth was recorded on 25 March 1946, the date carried here — it is the date in the English article's lead, the Arabic article, and the Persian article (5 Farvardin 1325), and Wikidata's value. The English article's early-life section states that he was in fact born on 15 March 1946 and the birth registered ten days later; both March dates fall in the same Hijri year (1365), which is derived by tabular conversion."
+  sources: [source/wikipedia-naderi-en, source/wikipedia-naderi-ar, source/wikipedia-naderi-fa, source/wikidata-naderi]
+died:
+  edtf: "2023-06-09"
+  hijri: "1444"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Los Angeles on 9 June 2023, after a May 2023 fall and cardiac episode left him paralysed; the English article and Wikidata agree, and the item's preferred death-place value is Los Angeles. The Hijri year (1444) is derived by tabular conversion. No died_in relation is written: Los Angeles has no museum place entity."
+  sources: [source/wikipedia-naderi-en, source/wikidata-naderi]
+relations:
+  - { type: born_in, target: place/shiraz, sources: [source/wikipedia-naderi-en, source/wikidata-naderi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No affiliation is recorded, because the sources document an absence of affiliation rather than one. The English article states: 'He had no religious affiliation,' adding that in a 2011 interview he called himself a 'spiritual' person, believing in 'something' beyond himself, 'but not within the framework of any religion.' The Persian article likewise states that he had no religious affiliation and, independently, reports his answer in an interview about Stephen Hawking's view of the non-existence of God — that he believed in no kind of religion or sect, God being for him separate from religion, and his outlook a spiritual one. Two texts thus attest non-affiliation and a spiritual self-description; because he expressly affirmed a God apart from religion, the standard for atheist-or-sceptic is not met, and no enum value records an affiliation he disclaimed. Wikidata carries no religion value."
+    sources: [source/wikipedia-naderi-en, source/wikipedia-naderi-fa, source/wikidata-naderi]
+external_ids: { wikidata: "Q1419231" }
+sources: [source/wikipedia-naderi-en, source/wikipedia-naderi-fa, source/wikipedia-naderi-ar, source/wikidata-naderi]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 102 §A of the century-additions queue (queue line 561) from the English, Persian and Arabic Wikipedia articles (no Urdu edition exists; the Urdu prose is written from the same sources) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Persian and Arabic articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (naderi, firouz, نادری, نادري) across data/person/ found no record for him, and his Q1419231 appears in no existing person record. One relation is written: born_in to place/shiraz, which exists; no died_in edge is written because Los Angeles has no place entity. His faith is recorded unknown on a documented non-affiliation, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102
+status: { review: published }

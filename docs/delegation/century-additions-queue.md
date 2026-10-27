@@ -556,11 +556,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Cumrun Vafa — 1960–Living
 - [x] Nader Engheta — 1955–Living
 - [x] Ali Khademhosseini — 1975–Living
-- [ ] Pardis Sabeti — 1975–Living
-- [ ] Roxana Moslehi — 1970–Living
-- [ ] Firouz Naderi — 1946–2023
-- [ ] Pierre Omidyar — 1967–Living
-- [ ] Arash Fergowsi — 1985–Living
+- [x] Pardis Sabeti — 1975–Living
+- [x] Roxana Moslehi — 1970–Living
+- [x] Firouz Naderi — 1946–2023
+- [x] Pierre Omidyar — 1967–Living
+- [x] Arash Fergowsi — 1985–Living
 - [ ] Salim Ismail — 1965–Living
 - [ ] Shervin Pishevar — 1974–Living
 - [ ] Dara Khosrowshahi — 1969–Living
