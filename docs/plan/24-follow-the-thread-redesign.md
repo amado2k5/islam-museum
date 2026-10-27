@@ -1,5 +1,7 @@
 # 24 — "Follow the thread" redesign (renovation proposal)
 
+> **DO NOT IMPLEMENT — PROPOSAL ONLY.** This document is a design proposal awaiting the founder's phase-by-phase approval. No agent may implement anything described here without an explicit written approval from the founder naming the phase. See `docs/ai-change-gates.md` §1.
+
 Status: **proposal — approved phases TBD**. Inputs: founder's design-review megaplan, his dark-mode/accessibility/audience requirements, a competitor benchmark (Met, Rijksmuseum, Smithsonian Searchable Museum, Google Arts & Culture, Wikipedia), and an identity document setting **"Follow the thread"** as the museum's central promise with an **"illuminated atlas"** art direction.
 
 Gate: `docs/ai-change-gates.md` §1 — nothing lands without an approved written proposal; homepage, header, palette and trust-signal changes are submission-impacting (UNESCO/DPGA evidence updates ride in the same commit).
