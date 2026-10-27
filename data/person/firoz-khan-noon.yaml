@@ -1,0 +1,51 @@
+id: person/firoz-khan-noon
+class: person
+label: { ar: "فيروز خان نون", en: "Firoz Khan Noon", ur: "ملک فیروز خان نون" }
+names:
+  - { value: "Sir Malik Firoz Khan Noon", kind: full }
+  - { value: "فيروز خان نون", kind: full }
+  - { value: "ملک فیروز خان نون", kind: full }
+  - { value: "Feroz Khan Noon", kind: alternate }
+  - { value: "Malik Feroz Khan Noon", kind: alternate }
+  - { value: "Firoz Khan Nun", kind: alternate }
+  - { value: "Malik", kind: laqab }
+  - { value: "Sir", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي وكاتب باكستاني (1893–1970)، سابع رؤساء وزراء باكستان (كانون الأول 1957 – تشرين الأول 1958)، وفي عهده اشترت باكستان غوادر من سلطنة مسقط وعُمان. كان قبلها حاكم بنغال الشرقية (1950–1953)، ورئيس وزراء البنجاب (1953–1955)، ووزير الخارجية في حكومة حسين شهيد سهروردي، وقبل الاستقلال مفوض الهند السامي في لندن وعضو المجلس التنفيذي لنائب الملك."
+  en: "Pakistani politician and writer (1893–1970), the seventh prime minister of Pakistan (December 1957 – October 1958), in whose premiership Pakistan purchased Gwadar from the Sultanate of Muscat and Oman. He had earlier been governor of East Bengal (1950–1953), chief minister of Punjab (1953–1955) and foreign minister in Huseyn Shaheed Suhrawardy's cabinet; before independence he was India's high commissioner in London and a member of the Viceroy's Executive Council."
+  ur: "پاکستانی سیاست دان و مصنف (1893ء–1970ء)، پاکستان کے ساتویں وزیر اعظم (دسمبر 1957ء – اکتوبر 1958ء)، جن کے دور میں پاکستان نے گوادر سلطنت مسقط و عمان سے خریدا۔ اس سے پہلے مشرقی بنگال کے گورنر (1950ء–1953ء)، پنجاب کے وزیر اعلیٰ (1953ء–1955ء) اور حسین شہید سہروردی کی کابینہ میں وزیر خارجہ رہے؛ آزادی سے قبل لندن میں ہندوستان کے ہائی کمشنر اور وائسرائے کی ایگزیکیٹو کونسل کے رکن تھے۔"
+roles: [politician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1893-05-07"
+  hijri: "1310"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The followed date is 7 May 1893: the English article's lead, infobox and early-life text (citing Van der Poel's Smuts Papers selection) give it, and the Arabic and Urdu articles agree. Wikidata, however, carries both 7 May 1893 and 18 June 1893, and the English and Arabic articles' own death-age templates compute his age from 18 June 1893; the variant is preserved here and the date is recorded as debated. He was born at Hamoka village in Khushab District, Punjab (Wikidata's birthplace value is the wider Shahpur District); neither has a place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-firoz-khan-noon-en, source/wikipedia-firoz-khan-noon-ur, source/wikipedia-firoz-khan-noon-ar, source/wikidata-firoz-khan-noon]
+died:
+  edtf: "1970-12-09"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The followed date is 9 December 1970: the English article's lead and infobox, the Urdu article and Wikidata give it. The English article's later-life section, citing Banglapedia, instead gives 7 December 1970 and places his death and burial in his ancestral village of Nurpur Noon in Sargodha District; the variant is preserved here and the date is recorded as debated. Nurpur Noon has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-firoz-khan-noon-en, source/wikipedia-firoz-khan-noon-ur, source/wikipedia-firoz-khan-noon-ar, source/wikidata-firoz-khan-noon]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no text names a school for Noon, and the readings are preserved here. The English article places his birth in a Punjabi Muslim family of Muslim Rajput landowners — family background and ancestry, which never count; Wikidata's single structured religion value is Islam only, naming no school; the Urdu and Arabic articles make no religion statement at all. His official support in 1940 for the Egyptian plan to build a grand mosque in London was an act of his public office, not an attestation of a school. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-firoz-khan-noon-en, source/wikipedia-firoz-khan-noon-ur, source/wikipedia-firoz-khan-noon-ar, source/wikidata-firoz-khan-noon]
+external_ids: { wikidata: "Q1561693" }
+sources: [source/wikipedia-firoz-khan-noon-en, source/wikipedia-firoz-khan-noon-ur, source/wikipedia-firoz-khan-noon-ar, source/wikidata-firoz-khan-noon]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Firoz Khan Noon' (revision 1378237132), Urdu Wikipedia 'ملک فیروز خان نون' (revision 10522962) and Arabic Wikipedia 'فيروز خان نون' (revision 76600980), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q1561693 (item revision 2549881963, asserted on fetch). Existence checks by name fragments (firoz, feroz, فيروز, فیروز), by Arabic label across data/person, by biography and by QID found no prior record for this man. No relations are written in this record. His immediate predecessor as prime minister of Pakistan was I. I. Chundrigar (October–December 1957), as the English article's infobox and succession box and the Arabic infobox record — not Huseyn Shaheed Suhrawardy, whose premiership ended in October 1957 and who was followed by Chundrigar before Noon; Chundrigar has no person record, so no successor_of edge for the premiership can be written, and no edge to Suhrawardy is written because it would misstate the succession. Noon served as foreign minister in Suhrawardy's cabinet (1956–1958), succeeding Hamidul Huq Choudhury, who likewise has no record. His succession as governor of East Bengal by Chaudhry Khaliquzzaman (1953) is written as an edge in Khaliquzzaman's record. His wife Viqar-un-Nisa Noon has no person record, so no spouse_of edge is written. No born_in, died_in or buried_in edge is written because Hamoka and Nurpur Noon have no place entities. The lane queue gives 'Malik Firoz Khan Noon (1893–1970)', which the articles confirm as to the years."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

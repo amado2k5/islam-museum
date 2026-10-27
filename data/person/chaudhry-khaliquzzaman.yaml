@@ -1,0 +1,51 @@
+id: person/chaudhry-khaliquzzaman
+class: person
+label: { ar: "تشودري خليق الزمان", en: "Chaudhry Khaliquzzaman", ur: "چودھری خلیق الزماں" }
+names:
+  - { value: "Chaudhry Khaliquzzaman", kind: full }
+  - { value: "تشودري خليق الزمان", kind: full }
+  - { value: "چودھری خلیق الزماں", kind: full }
+  - { value: "شودري خليق الزمان", kind: alternate }
+  - { value: "تشودري خاليق الزمان", kind: alternate }
+  - { value: "Chaudhry", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي باكستاني (1889–1973) من تشونار، من كبار قادة رابطة مسلمي عموم الهند الذين أيّدوا قرار لاهور سنة 1940، وأحد الآباء المؤسسين لباكستان. كان أول رئيس للرابطة الإسلامية (باكستان) (1948–1950)، وحاكم بنغال الشرقية (1953–1954) خلفاً لفيروز خان نون، وسفير باكستان لدى إندونيسيا والفلبين، وصاحب مذكرات «درب إلى باكستان» (1961)."
+  en: "Pakistani politician (1889–1973) of Chunar, one of the top leaders of the All-India Muslim League who seconded the Lahore Resolution in 1940 and a founding father of Pakistan. He was the first president of the Muslim League (Pakistan) (1948–1950), governor of East Bengal (1953–1954) succeeding Firoz Khan Noon, Pakistan's ambassador to Indonesia and the Philippines, and author of the memoir Pathway to Pakistan (1961)."
+  ur: "پاکستانی سیاست دان (1889ء–1973ء) جن کا تعلق چنار سے تھا؛ آل انڈیا مسلم لیگ کے سرکردہ رہنماؤں میں سے تھے جنھوں نے 1940ء میں قرارداد لاہور کی تائید کی، اور پاکستان کے بانیوں میں شمار ہوتے ہیں۔ مسلم لیگ (پاکستان) کے پہلے صدر (1948ء–1950ء)، مشرقی بنگال کے گورنر (1953ء–1954ء) بطور فیروز خان نون کے جانشین، انڈونیشیا و فلپائن میں پاکستان کے سفیر، اور یادداشت «شاہراہ پاکستان» (1961ء) کے مصنف۔"
+roles: [politician, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1889-12-25"
+  hijri: "1307"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 25 December 1889 at Chunar in the Mirzapur district of the United Provinces, as the English article states citing the Pioneers of Freedom profile, and as the Urdu and Arabic articles and Wikidata agree. Chunar has no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-chaudhry-khaliquzzaman-en, source/wikipedia-chaudhry-khaliquzzaman-ur, source/wikipedia-chaudhry-khaliquzzaman-ar, source/wikidata-chaudhry-khaliquzzaman]
+died:
+  edtf: "1973-05-18"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 18 May 1973, as the English and Urdu articles give it; Wikidata gives Karachi as the place of death. Karachi has no place entity, so no died_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-chaudhry-khaliquzzaman-en, source/wikipedia-chaudhry-khaliquzzaman-ur, source/wikidata-chaudhry-khaliquzzaman]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no article text names a school for Khaliquzzaman, and the readings are preserved here. Wikidata's structured religion value is Sunni Islam, and the categories of the English, Urdu and Arabic articles all file him among Pakistani Sunni Muslims; a structured value and the category filings that echo it are one source family, and filings are not attestations. The Urdu article is a translation of the English and the Arabic a short derivative stub, and none of the three texts discusses his religion at all. His Muslim League leadership is a political role, not a school attestation. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-chaudhry-khaliquzzaman-en, source/wikipedia-chaudhry-khaliquzzaman-ur, source/wikipedia-chaudhry-khaliquzzaman-ar, source/wikidata-chaudhry-khaliquzzaman]
+relations:
+  - { type: successor_of, target: person/firoz-khan-noon, sources: [source/wikipedia-chaudhry-khaliquzzaman-en] }
+external_ids: { wikidata: "Q5088105" }
+sources: [source/wikipedia-chaudhry-khaliquzzaman-en, source/wikipedia-chaudhry-khaliquzzaman-ur, source/wikipedia-chaudhry-khaliquzzaman-ar, source/wikidata-chaudhry-khaliquzzaman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Chaudhry Khaliquzzaman' (revision 1382097381), Urdu Wikipedia 'چودھری خلیق الزماں' (revision 11598904) and Arabic Wikipedia 'شودري خليق الزمان' (revision 75599784), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q5088105 (item revision 2551227453, asserted on fetch). Existence checks by name fragments (khaliquzzaman, خليق الزمان, خلیق الزماں), by Arabic label across data/person, by biography and by QID found no prior record for this man. The successor_of edge to person/firoz-khan-noon is written here, in Khaliquzzaman's record: he succeeded Noon as governor of East Bengal on 31 March 1953, as the English article's infobox and succession box record (Noon's own article likewise names Khaliquzzaman as his successor in that office). No born_in or died_in edge is written because Chunar and Karachi have no place entities. His relation to Muhammad Ali Jinnah, whose movement he served, cannot be written: Jinnah has no person record in the museum, and this batch's brief forbids creating one. The lane queue gives 'Chaudhry Khaliquzzaman (1889–1973)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

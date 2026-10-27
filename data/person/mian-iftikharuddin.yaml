@@ -1,0 +1,51 @@
+id: person/mian-iftikharuddin
+class: person
+label: { ar: "ميان افتخار الدين", en: "Mian Iftikharuddin", ur: "میاں افتخار الدین" }
+names:
+  - { value: "Mian Iftikharuddin", kind: full }
+  - { value: "ميان افتخار الدين", kind: full }
+  - { value: "میاں افتخار الدین", kind: full }
+  - { value: "Mian Iftikhar-ud-Din", kind: alternate }
+  - { value: "Mian", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي وصحفي باكستاني (1907–1962) من أسرة ميان في باغبانبورا بلاهور، أمناء بساتين شاليمار. ترأس فرع حزب المؤتمر في البنجاب ثم انضم إلى الرابطة الإسلامية سنة 1945، وصار وزير البنجاب لإعادة توطين اللاجئين، وأسس عبر «بروغريسيف بيبرز» صحف باكستان تايمز وإمروز وليل ونهار ذات التوجه التقدمي."
+  en: "Pakistani politician and newspaper founder (1907–1962) of Lahore's Mian family of Baghbanpura, custodians of the Shalimar Gardens. He presided over the Punjab Congress, joined the Muslim League in 1945, served as Punjab's minister for the rehabilitation of refugees, and founded the progressive newspapers The Pakistan Times, Imroze and Lail-o-Nahar through Progressive Papers."
+  ur: "پاکستانی سیاست دان و اخبار نویس (1907ء–1962ء) جن کا تعلق لاہور کے باغبانپورہ کے میاں خاندان، شالیمار باغ کے نگرانوں، سے تھا۔ پنجاب کانگریس کے صدر رہے، 1945ء میں مسلم لیگ میں شامل ہوئے، پنجاب کے وزیرِ بحالیاتِ مہاجرین بنے، اور پروگریسو پیپرز کے ذریعے ترقی پسند اخبارات پاکستان ٹائمز، امروز اور لیل و نہار جاری کیے۔"
+roles: [politician, journalist, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1907-04-08"
+  hijri: "1325"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The followed date is 8 April 1907, given by the English and Arabic articles and by Wikidata, at Baghbanpura in Lahore; the born_in edge to Lahore is written below. The Urdu article's text instead gives the year 1908 (though its own category files him under 1907 births and 8 April birthdays); the variant is preserved here and the date is recorded as debated. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-mian-iftikharuddin-en, source/wikipedia-mian-iftikharuddin-ar, source/wikipedia-mian-iftikharuddin-ur, source/wikidata-mian-iftikharuddin]
+died:
+  edtf: "1962-06-06"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack on 6 June 1962 at Lahore, as the English article states citing The Friday Times profile, and as the Arabic article and Wikidata agree (the Urdu article gives the year only); the died_in edge to Lahore is written below. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-mian-iftikharuddin-en, source/wikipedia-mian-iftikharuddin-ar, source/wikipedia-mian-iftikharuddin-ur, source/wikidata-mian-iftikharuddin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school — and any affiliation — is not recorded: no source names a religion for Iftikharuddin, and the readings are preserved here. The English, Arabic and Urdu articles discuss only his politics and his newspapers: Congress presidency, the move to the Muslim League in 1945, his later Azad Pakistan Party committed to liberal secularism, and his solitary Muslim opposition to the Objectives Resolution's wording, on which he nevertheless voted in favour after assurances on minority rights. Political positions are not attestations of personal affiliation, and his family's custodianship of the Shalimar Gardens is background. Wikidata carries no religion value at all. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-mian-iftikharuddin-en, source/wikipedia-mian-iftikharuddin-ar, source/wikipedia-mian-iftikharuddin-ur, source/wikidata-mian-iftikharuddin]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-mian-iftikharuddin-en, source/wikidata-mian-iftikharuddin] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-mian-iftikharuddin-en, source/wikidata-mian-iftikharuddin] }
+external_ids: { wikidata: "Q6827541" }
+sources: [source/wikipedia-mian-iftikharuddin-en, source/wikipedia-mian-iftikharuddin-ar, source/wikipedia-mian-iftikharuddin-ur, source/wikidata-mian-iftikharuddin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mian Iftikharuddin' (revision 1381137076), Arabic Wikipedia 'ميان افتخار الدين' (revision 75907196) and Urdu Wikipedia 'میاں افتخار الدین' (revision 9370474), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q6827541 (item revision 2551214445, asserted on fetch). Existence checks by name fragments (iftikharuddin, افتخار الدين, افتخار الدین), by Arabic label across data/person, by biography and by QID found no prior record for this man; the two files whose names contain 'iftikhar' (al-bukhari-iftikhar-al-din-tahir and iftikhar-al-dawla) are medieval figures, not this politician. The born_in and died_in edges to place/lahore are written. No founder_of edge is written for The Pakistan Times, Imroze or Lail-o-Nahar because no work entities exist for those newspapers; his founding of them is stated in the prose and summary instead. His work under Muhammad Ali Jinnah after 1945 cannot be written as an edge: Jinnah has no person record in the museum, and this batch's brief forbids creating one. The lane queue gives 'Mian Iftikharuddin (1907–1962)', which the English and Arabic articles and Wikidata confirm (the Urdu text's 1908 birth year is preserved as a variant in the born block)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
