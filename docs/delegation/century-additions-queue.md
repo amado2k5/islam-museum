@@ -596,11 +596,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdul Qadeer Khan — 1936–2021
 - [x] Riazuddin — 1930–2013
 - [x] Pervez Hoodbhoy — 1950–Living
-- [ ] Nergis Mavalvala — 1968–Living
-- [ ] Dr. Tasneem Zehra Husain — 1980–Living
-- [ ] Dr. Burçin Mutlu-Pakdil — 1986–Living
-- [ ] Cahit Arf — 1910–1997
-- [ ] Feza Gürsey — 1921–1992
+- [x] Nergis Mavalvala — 1968–Living
+- [x] Dr. Tasneem Zehra Husain — 1980–Living
+- [x] Dr. Burçin Mutlu-Pakdil — 1986–Living
+- [x] Cahit Arf — 1910–1997
+- [x] Feza Gürsey — 1921–1992
 - [ ] Edalji Dinshaw (Contemporary Figure) — 1900–1970
 - [ ] Muhammed Zafar Iqbal — 1952–Living
 - [ ] Jamilur Reza Choudhury — 1943–2020
