@@ -1,0 +1,53 @@
+id: person/chaudhry-muhammad-ali
+class: person
+label:
+  ar: "تشودري محمد علي"
+  en: "Chaudhry Muhammad Ali"
+  ur: "چودھری محمد علی"
+summary:
+  ar: "موظف مدني وسياسي باكستاني (1905–1982)، من مهندسي بيروقراطية باكستان الأولى وميزانيتها، تولى وزارة المالية (1951–1955) ثم رئاسة الوزراء من أغسطس 1955 إلى سبتمبر 1956 فأعلن في عهده أول دستور باكستاني سنة 1956، ثم اعتزل وخلّف كتاب «نشوء باكستان» (1967). توفي في كراتشي في 2 ديسمبر 1982."
+  en: "Pakistani civil servant and politician (1905–1982), a builder of Pakistan's first civil bureaucracy and budgets, who served as finance minister (1951–1955) and then as prime minister from August 1955 to September 1956, promulgating Pakistan's first constitution in 1956, and in retirement wrote The Emergence of Pakistan (1967). He died at Karachi on 2 December 1982."
+  ur: "پاکستانی سرکاری افسر اور سیاست دان (1905ء–1982ء)، پاکستان کی پہلی سول بیوروکریسی اور بجٹ کے معمار، وزیرِ خزانہ (1951ء–1955ء) اور پھر اگست 1955ء سے ستمبر 1956ء تک وزیرِ اعظم رہے جن کے عہد میں 1956ء میں پاکستان کا پہلا آئین نافذ ہوا، ریٹائرمنٹ میں «پاکستان کا ظہور» (1967ء) لکھی۔ 2 دسمبر 1982ء کو کراچی میں وفات پائی۔"
+names:
+  - { value: "Chaudhri Muhammad Ali", kind: full }
+  - { value: "Chaudhry Muhammad Ali", kind: alternate }
+  - { value: "چودھری محمد علی", kind: full }
+  - { value: "تشودري محمد علي", kind: full }
+gender: male
+born:
+  edtf: "1905-07-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 15 July 1905 at Jalandhar, Punjab, into an Arain Punjabi family, as the English article and Wikidata give. No Hijri pairing is given in any source, so none is recorded. No place entity exists for Jalandhar, so no born_in relation is written."
+  sources: [source/wikipedia-chaudhry-muhammad-ali-en, source/wikidata-chaudhry-muhammad-ali]
+died:
+  edtf: "1982-12-02"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died at Karachi on 2 December 1982, of a cardiac arrest, and was buried there, as the English article gives and as the queue line's dates follow. Wikidata carries two death values — 2 December 1980 alongside 2 December 1982 — preserving the split in the reference tradition; the 1980 variant is recorded here rather than suppressed. No place entity exists for Karachi, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-chaudhry-muhammad-ali-en, source/wikidata-chaudhry-muhammad-ali]
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only attestation naming a religion for him is a single structured value — Wikidata gives Islam, generically, naming no school. The English article carries no religion field and no statement of his own affiliation; its faith-adjacent content is his Arain Punjabi family background and his political party after 1956, the Nizam-e-Islam Party, which is an affiliation and never an attestation. The Arabic and Urdu articles name no religion. Under the two-source rule and the doubt rule the value stays unknown, with the single structured attestation preserved here."
+    sources: [source/wikipedia-chaudhry-muhammad-ali-en, source/wikipedia-chaudhry-muhammad-ali-ar, source/wikipedia-chaudhry-muhammad-ali-ur, source/wikidata-chaudhry-muhammad-ali]
+external_ids: { wikidata: "Q284443" }
+sources:
+  - source/wikipedia-chaudhry-muhammad-ali-en
+  - source/wikipedia-chaudhry-muhammad-ali-ar
+  - source/wikipedia-chaudhry-muhammad-ali-ur
+  - source/wikidata-chaudhry-muhammad-ali
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 114 §A of the century-additions queue (queue line 630, 'Chaudhry Muhammad Ali (1905–1982)', verified against the queue copy in the fix clone) from the English Wikipedia article read in full and the Arabic and Urdu articles and Wikidata item Q284443 read on 27 October 2026, each checked against its recorded revision. IDENTITY: pinned by biography to the Indian Civil Service officer who was finance minister 1951–1955 and prime minister 1955–1956, author of The Emergence of Pakistan; he is not Muhammad Ali the boxer, nor Mohammad Ali Bogra, nor any other bearer of the name. EXISTENCE: checked three ways before building — name-fragment greps (chaudhry, chaudhri) across all of data/person/ returned other men (among them Chaudhry Khaliquzzaman, a different person); his Wikidata QID Q284443, grounded through the article's page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. His faith is unknown FLAGGED on the single structured value configuration set out in the faith note. HOMONYM CHECK: his Arabic label تشودري محمد علي is distinctive and matches no other record's exact Arabic label. RELATIONS: none are written — Jalandhar and Karachi have no museum place entities, and the premiership sequence around him is an office sequence, which this wave refuses."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-114

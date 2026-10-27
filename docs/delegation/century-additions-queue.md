@@ -616,19 +616,19 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Iajuddin Ahmed — 1931–2012
 - [x] Abdul Hamid — 1944–Living
 - [x] Mohammed Shahabuddin — 1949–Living
-- [ ] Dr. Kamal Hossain — 1937–Living
+- [x] Dr. Kamal Hossain — 1937–Living
 - [x] Sir Khawaja Nazimuddin — 1894–1964
 - [x] Huseyn Shaheed Suhrawardy — 1892–1963
 - [x] A. K. Fazlul Huq — 1873–1962
-- [ ] Maulana Bhashani — 1880–1976
+- [x] Maulana Bhashani — 1880–1976
 - [x] Liaquat Ali Khan — 1895–1951
 - [ ] Muhammad Ali Jinnah — 1876–1948
-- [ ] Fatima Jinnah — 1893–1967
+- [x] Fatima Jinnah — 1893–1967
 - [x] Khawaja Nazimuddin — 1894–1964
-- [ ] Malik Feroz Khan Noon — 1893–1970
-- [ ] Ibrahim Ismail Chundrigar — 1897–1960
-- [ ] Chaudhry Muhammad Ali — 1905–1982
-- [ ] Ayub Khan — 1907–1974
+- [x] Malik Feroz Khan Noon — 1893–1970
+- [x] Ibrahim Ismail Chundrigar — 1897–1960
+- [x] Chaudhry Muhammad Ali — 1905–1982
+- [x] Ayub Khan — 1907–1974
 - [ ] Yahya Khan — 1917–1980
 - [ ] Zulfikar Ali Bhutto — 1928–1979
 - [ ] Muhammad Zia-ul-Haq — 1924–1988
