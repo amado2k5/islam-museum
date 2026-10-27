@@ -1,0 +1,47 @@
+id: person/abdul-sattar-edhi
+class: person
+label: { ar: "عبد الستار إيدهي", en: "Abdul Sattar Edhi", ur: "عبد الستار ایدھی" }
+names:
+  - { value: "Abdul Sattar Edhi", kind: full }
+  - { value: "عبد الستار ایدھی", kind: full }
+gender: male
+summary:
+  ar: "عبد الستار إيدهي (28 فبراير 1928 – 8 يوليو 2016) فاعل خير باكستاني وُلد في بانتفا بغوجارات في أسرة ميمون مسلمة وهاجر إلى كراتشي بعد تقسيم الهند، فأسس مؤسسة إيدهي التي تدير أكبر شبكة إسعاف تطوعية في العالم وملاجئ ودور أيتام ومراكز تأهيل في أنحاء باكستان، وعاش زاهدًا دون راتب من مؤسسته، ونال جوائز دولية منها جائزة رامون ماغسايساي وجائزة لينين للسلام ونشان الامتياز."
+  en: "Abdul Sattar Edhi (28 February 1928 – 8 July 2016) was a Pakistani humanitarian born at Bantva, Gujarat, into a Memon Muslim family, who migrated to Karachi after Partition and founded the Edhi Foundation, which runs the world's largest volunteer ambulance network together with shelters, orphanages and rehabilitation centres across Pakistan; he lived ascetically, took no salary from his foundation, and received the Ramon Magsaysay Award, the Lenin Peace Prize and the Nishan-e-Imtiaz, among many honours."
+  ur: "عبد الستار ایدھی (28 فروری 1928ء – 8 جولائی 2016ء) پاکستانی فلاحی شخصیت تھے جو گجرات کے بانٹوا میں ایک میمن مسلم خاندان میں پیدا ہوئے اور تقسیم ہند کے بعد کراچی منتقل ہو گئے، انھوں نے ایدھی فاؤنڈیشن قائم کی جو دنیا کا سب سے بڑا رضاکار ایمبولینس نیٹ ورک اور پاکستان بھر میں پناہ گاہیں، یتیم خانے اور بحالی مراکز چلاتی ہے؛ وہ زاہدانہ زندگی گزارتے، فاؤنڈیشن سے تنخواہ نہ لیتے، اور رومن میگسیسی ایوارڈ، لینن امن انعام اور نشان امتیاز سمیت متعدد اعزازات پائے۔"
+roles: [activist, philanthropist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1928-02-28"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bantva, Gujarat, then British India; the English, Arabic (lead) and Urdu articles and Wikidata all give 28 February 1928 (the Arabic article's infobox carries the birth year only). The Hijri year (1346) is derived by tabular conversion. No born_in relation is written: Bantva has no museum place entity."
+  sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-abdul-sattar-edhi-ar, source/wikipedia-abdul-sattar-edhi-ur, source/wikidata-abdul-sattar-edhi]
+died:
+  edtf: "2016-07-08"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Karachi on 8 July 2016; all three articles and Wikidata agree. He received a state funeral, with the Janazah prayer at the National Stadium, Karachi, and was buried at Edhi Village, Karachi; no died_in or buried_in relation is written because Karachi has no museum place entity. The Hijri year (1437) is derived by tabular conversion."
+  sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-abdul-sattar-edhi-ar, source/wikidata-abdul-sattar-edhi]
+relations:
+  - { type: spouse_of, target: person/bilquis-edhi, sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikidata-abdul-sattar-edhi, source/wikipedia-bilquis-edhi-en, source/wikidata-bilquis-edhi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder — a documented non-affiliation, argued in full. The English article states: he was born into a Memon Muslim family (family background, which never counts); he 'publicly expressed that he was not a \"very religious person\", and that he was \"neither for religion or against it\"' (citing the Guardian obituary, 13 July 2016); and on his faith he stated that he was a 'humanitarian', telling others that 'empty words and long phrases do not impress God' and asking them to 'show Him your faith' through action; the same passage quotes the Los Angeles Times profile of 30 March 1993 — 'Edhi says he is a Muslim--but adds that human rights is his real religion.' The Arabic article reproduces this passage sentence for sentence with the same citations and is a translation of the English one, so the attestation stands in ONE text family, not two; the Urdu article, independent, adds only that he never studied at a religious school and disliked religious honorifics — a formation fact. Two conclusions follow. (1) No affiliation can be recorded: the only self-description bearing on affiliation declines one, and no school is named in any text, infobox or filing. (2) atheist-or-sceptic is NOT available on this evidence: the Akhundov standard requires strong, explicit, documented unbelief, and Edhi expressly affirmed God, spoke of faith demonstrated through action, and in the same reporting called himself a Muslim — generic self-identification, no school. The case is the Firouz Naderi configuration of wave 102 §A (documented non-affiliation beside an affirmed God apart from organised religion), and is recorded unknown with the evidence preserved. Wikidata's only religion value is Islam (Q432), generic. His state funeral and Janazah prayer are rites performed for him by the state and community, not attestations of his own affiliation."
+    sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-abdul-sattar-edhi-ar, source/wikipedia-abdul-sattar-edhi-ur, source/wikidata-abdul-sattar-edhi]
+external_ids: { wikidata: "Q317465" }
+sources: [source/wikipedia-abdul-sattar-edhi-en, source/wikipedia-abdul-sattar-edhi-ar, source/wikipedia-abdul-sattar-edhi-ur, source/wikidata-abdul-sattar-edhi]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 105 §A of the century-additions queue from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Arabic and Urdu articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (edhi, إيدهي, ایدھی) across data/person/ found no record for him (only substring hits in other people's files), and his Q317465 appears in no existing person record. One relation is written: spouse_of to person/bilquis-edhi — the marriage (1965) is attested by both articles' infoboxes and by both Wikidata items, and the edge is written here only. Refused: founder_of and member_of (the Edhi Foundation has no museum group entity, so the founding is stated in the summary and prose); parent_of (his children, including Faisal Edhi of queue line 582, have no museum records); born_in, died_in and buried_in (Bantva and Karachi have no museum place entities; the places are stated in the date notes). His faith is recorded unknown, flagged, on a documented non-affiliation, as argued in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105
+status: { review: published }

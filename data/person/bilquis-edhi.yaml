@@ -1,0 +1,46 @@
+id: person/bilquis-edhi
+class: person
+label: { ar: "بلقيس إيدهي", en: "Bilquis Edhi", ur: "بلقیس ایدھی" }
+names:
+  - { value: "Bilquis Bano Edhi", kind: full }
+  - { value: "بلقيس بانو إيدهي", kind: full }
+gender: female
+summary:
+  ar: "بلقيس بانو إيدهي (14 أغسطس 1947 – 15 أبريل 2022) ممرضة وفاعلة خير باكستانية، وُلدت في بانتفا وانتقلت مع أسرتها إلى كراتشي بعد التقسيم، فعملت ممرضة في مستوصف إيدهي بميثادر وتزوجت عبد الستار إيدهي سنة 1965، وشاركته رئاسة مؤسسة إيدهي وقادت مشروع المهد (جھولا) الذي أقام أكثر من 300 مهد لاستقبال الرضّع المتروكين في أنحاء باكستان، ونالت جائزة رامون ماغسايساي للخدمة العامة سنة 1986 وهلال الامتياز."
+  en: "Bilquis Bano Edhi (14 August 1947 – 15 April 2022) was a Pakistani nurse and philanthropist, born at Bantva, who moved with her family to Karachi after Partition, worked as a nurse at the Edhi dispensary in Mithadar, married Abdul Sattar Edhi in 1965, co-chaired the Edhi Foundation with him and led the jhoola cradle project that placed more than 300 cradles for surrendered infants across Pakistan; she received the 1986 Ramon Magsaysay Award for Public Service and the Hilal-i-Imtiaz."
+  ur: "بلقیس بانو ایدھی (14 اگست 1947ء – 15 اپریل 2022ء) پاکستانی نرس اور فلاحی شخصیت تھیں، بانٹوا میں پیدا ہوئیں اور تقسیم کے بعد خاندان کے ساتھ کراچی منتقل ہوئیں، میٹھادر میں ایدھی ڈسپنسری میں نرس کے طور پر کام کیا، 1965ء میں عبد الستار ایدھی سے شادی ہوئی، ان کے ساتھ ایدھی فاؤنڈیشن کی شریک چیئر رہیں اور جھولا منصوبے کی قیادت کی جس نے پاکستان بھر میں چھوڑے گئے نومولودوں کے لیے 300 سے زائد جھولے قائم کیے؛ انھیں 1986ء کا رومن میگسیسی ایوارڈ برائے عوامی خدمت اور ہلال امتیاز ملا۔"
+roles: [nurse, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1947-08-14"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The date, 14 August 1947, is unanimous across the English, Arabic and Urdu articles and Wikidata. The place splits: the English article's infobox and biography, the Arabic article, and the Urdu article's text all give Bantva, then British India — whence her family moved to Karachi after Partition — while Wikidata and the Urdu article's infobox give Karachi; Bantva is carried, as the article texts agree on it. No born_in relation is written: neither Bantva nor Karachi has a museum place entity. The Hijri year (1366) is derived by tabular conversion."
+  sources: [source/wikipedia-bilquis-edhi-en, source/wikipedia-bilquis-edhi-ar, source/wikipedia-bilquis-edhi-ur, source/wikidata-bilquis-edhi]
+died:
+  edtf: "2022-04-15"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at the Aga Khan Hospital, Karachi, on 15 April 2022, of congestive heart failure after a prolonged illness; all three articles and Wikidata agree. Her funeral prayers were offered at New Memon Masjid and she was buried at Mewa Shah Graveyard, Karachi, on 16 April 2022. No died_in or buried_in relation is written: Karachi has no museum place entity. The Hijri year (1443) is derived by tabular conversion."
+  sources: [source/wikipedia-bilquis-edhi-en, source/wikipedia-bilquis-edhi-ar, source/wikidata-bilquis-edhi]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder — family-background-only configuration. The English biography states that she was born 'to Muslims' in Bantva and that, among the mostly Christian and Hindu nurses of the Mithadar dispensary, she was 'unusually, from a Muslim background' — her family's background, not a personal attestation, and family background never counts. The remaining religion material is a rite and a filing: her funeral prayers were offered at New Memon Masjid (a rite performed for her by others, which attests community practice, not her own school), her naming in The Muslim 500 for 2022 (a listing), and Wikidata's generic Islam (Q432) value. No text, infobox or structured source names a school or records any personal statement of affiliation by her. Recorded unknown, flagged, on the Pardis Sabeti family-background precedent of wave 102 §A."
+    sources: [source/wikipedia-bilquis-edhi-en, source/wikipedia-bilquis-edhi-ar, source/wikidata-bilquis-edhi]
+external_ids: { wikidata: "Q4913586" }
+sources: [source/wikipedia-bilquis-edhi-en, source/wikipedia-bilquis-edhi-ar, source/wikipedia-bilquis-edhi-ur, source/wikidata-bilquis-edhi]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 105 §A of the century-additions queue from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Arabic and Urdu articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (bilquis, بلقيس, بلقیس) across data/person/ found no record for her, and her Q4913586 appears in no existing person record. No relation is written in this record: the spouse edge to person/abdul-sattar-edhi is written once, in his record; her four children have no museum records (no parent_of); the Edhi Foundation has no museum group entity (no founder_of or member_of — her co-chairing is stated in the summary and prose); and Bantva and Karachi have no museum place entities (no born_in, died_in or buried_in — the places are stated in the date notes). Her faith is recorded unknown, flagged, on family background only, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105
+status: { review: published }

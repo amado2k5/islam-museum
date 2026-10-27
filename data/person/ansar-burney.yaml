@@ -1,0 +1,36 @@
+id: person/ansar-burney
+class: person
+label: { ar: "انصار برني", en: "Ansar Burney", ur: "انصار برنی" }
+names:
+  - { value: "Ansar Burney", kind: full }
+  - { value: "انصار برنی", kind: full }
+gender: male
+summary:
+  ar: "أنصار برني (وُلد في 14 أغسطس 1956) محامٍ وناشط حقوق إنسان باكستاني من كراتشي، سُجن في عهد الحكم العسكري لنشاطه الطلابي المؤيد للديمقراطية، فأسس عند إطلاقه جمعية مساعدة السجناء ثم صندوق أنصار برني الدولي العامل على تحرير السجناء المظلومين وإنقاذ المخطوفين ومكافحة الاتجار بالبشر، وشغل منصب الوزير الاتحادي لحقوق الإنسان في الحكومة المؤقتة 2007–2008."
+  en: "Ansar Burney (born 14 August 1956) is a Pakistani lawyer and human-rights activist from Karachi who, after imprisonment under martial law for his pro-democracy student activism, founded the Prisoners Aid Society and the Ansar Burney Trust International — working to free wrongfully held prisoners, recover kidnapped children and fight human trafficking — and served as Pakistan's federal minister for human rights in the 2007–2008 caretaker cabinet."
+  ur: "انصار برنی (پیدائش 14 اگست 1956ء) کراچی سے تعلق رکھنے والے پاکستانی وکیل اور انسانی حقوق کے فعالیت پسند ہیں جو مارشل لا دور میں جمہوریت نواز طالب علم سرگرمیوں پر قید رہے، رہائی کے بعد پرزنرز ایڈ سوسائٹی اور انصار برنی ٹرسٹ انٹرنیشنل قائم کیے جو بے گناہ قیدیوں کی رہائی، اغوا شدہ بچوں کی بازیابی اور انسانی اسمگلنگ کے خاتمے کے لیے کام کرتے ہیں، اور 2007ء–2008ء کی نگراں کابینہ میں وفاقی وزیر برائے انسانی حقوق رہے۔"
+roles: [lawyer, activist, politician]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1956-08-14"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Karachi. The day is split: the English article's infobox and lead, the Urdu article and Wikidata all give 14 August 1956, but the English article's own early-life section states 16 August 1956 — an internal contradiction in that one article; the majority reading (14 August) is carried and the split recorded. Both days fall in the same Hijri year (1376), derived by tabular conversion. No born_in relation is written: Karachi has no museum place entity."
+  sources: [source/wikipedia-ansar-burney-en, source/wikipedia-ansar-burney-ur, source/wikidata-ansar-burney]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names any affiliation or school for him, so none is recorded. Neither the English article nor the Urdu article makes any statement of his religion — their content is his legal and humanitarian work, his imprisonments and his awards — and Wikidata carries no religion (P140) value at all. Absence configuration: no religion content exists in any text, infobox, structured data or filing."
+    sources: [source/wikipedia-ansar-burney-en, source/wikipedia-ansar-burney-ur, source/wikidata-ansar-burney]
+external_ids: { wikidata: "Q636168" }
+sources: [source/wikipedia-ansar-burney-en, source/wikipedia-ansar-burney-ur, source/wikidata-ansar-burney]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 105 §A of the century-additions queue from the English and Urdu Wikipedia articles (no Arabic edition of his article exists; the Arabic prose is written from the same sources) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (burney, برني, برنی) across data/person/ found no record for him (the two 'edhi' substring hits were other people), and his Q636168 appears in no existing person record. No relation is written: Karachi has no museum place entity, his father Syed Mukhtar Ahmed Burney and his children have no museum records, and the Ansar Burney Trust International has no museum group entity, so its founding is stated in the summary and prose. His faith is recorded unknown (absence configuration) as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105
+status: { review: published }
