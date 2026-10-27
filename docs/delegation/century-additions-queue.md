@@ -506,11 +506,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Moncef Marzouki — 1945–Living
 - [x] Beji Caid Essebsi — 1926–2019
 - [x] Kais Saied — 1958–Living
-- [ ] Rached Ghannouchi — 1941–Living
-- [ ] Ahmed Ben Bella — 1916–2012
-- [ ] Houari Boumédiène — 1932–1978
-- [ ] Chadli Bendjedid — 1929–2012
-- [ ] Liamine Zéroual — 1941–Living
+- [x] Rached Ghannouchi — 1941–Living
+- [x] Ahmed Ben Bella — 1916–2012
+- [x] Houari Boumédiène — 1932–1978
+- [x] Chadli Bendjedid — 1929–2012
+- [x] Liamine Zéroual — 1941–Living
 - [ ] Abdelmadjid Tebboune — 1945–Living
 - [ ] King Mohammed V — 1909–1961
 - [ ] King Hassan II — 1929–1999
