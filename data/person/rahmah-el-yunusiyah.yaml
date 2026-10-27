@@ -1,0 +1,50 @@
+id: person/rahmah-el-yunusiyah
+class: person
+label:
+  ar: "رحمة اليونسية"
+  en: "Rahmah el Yunusiyah"
+  ur: "رحمہ الیونسیہ"
+summary:
+  ar: "مربّية إندونيسية من بادانغ بانجانغ (1900–1969): أسّست سنة 1923 مدرسة دينية بوتري، أول مدرسة إسلامية للبنات ذات منهاج حديث في إندونيسيا، ووسّعتها إلى روضة ومدرسة للمعلمات وجامعة للنساء، ودخلت مجلس الشعب الاستشاري عن حزب ماشومي، وتُعدّ رائدة تعليم المرأة المسلمة."
+  en: "Indonesian educator from Padang Panjang (1900–1969): in 1923 she founded Diniyah Putri, Indonesia's first Islamic girls' school with a modern curriculum, and expanded it into a kindergarten, a teacher-training school and a women's college; she sat in the People's Consultative Assembly for the Masyumi Party and is counted a pioneer of Muslim women's education."
+  ur: "پاڈانگ پانجانگ سے تعلق رکھنے والی انڈونیشی معلمہ (1900ء–1969ء): 1923ء میں انہوں نے دینیہ پوتری کی بنیاد رکھی، جو جدید نصاب رکھنے والا انڈونیشیا کا پہلا اسلامی لڑکیوں کا مدرسہ تھا، اور اسے کنڈرگارٹن، اساتذہ کی تربیتی درسگاہ اور خواتین کے کالج تک وسعت دی؛ وہ ماشومی پارٹی کی طرف سے مجلس شوری عوامی کی رکن رہیں اور مسلم خواتین کی تعلیم کی بانیوں میں شمار ہوتی ہیں۔"
+names:
+  - { value: "Rahmah el Yunusiyah", kind: full }
+  - { value: "Rachmah el Joenoesijah", kind: alternate }
+  - { value: "Rahmah El Yunusiyyah", kind: alternate }
+  - { value: "رحمة اليونسية", kind: full }
+gender: female
+roles: [teacher, activist, politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1900-10-26"
+  hijri: "1318"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata give 26 October 1900, at Bukit Surungan in Padang Panjang, West Sumatra, the daughter of the qadi Muhammad Yunus. Padang Panjang has no museum place record. The Hijri year is derived by tabular conversion; no source in hand states it."
+  sources: [source/wikipedia-rahmah-el-yunusiyah-en, source/wikipedia-rahmah-el-yunusiyah-id, source/wikipedia-rahmah-el-yunusiyah-ar, source/wikidata-rahmah-el-yunusiyah]
+died:
+  edtf: "1969-02-26"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata agree on 26 February 1969, at Padang Panjang. The lane queue's death year of 1964 is contradicted by all three articles and by Wikidata and is not followed. The Hijri year is derived by tabular conversion; no source in hand states it."
+  sources: [source/wikipedia-rahmah-el-yunusiyah-en, source/wikipedia-rahmah-el-yunusiyah-id, source/wikipedia-rahmah-el-yunusiyah-ar, source/wikidata-rahmah-el-yunusiyah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school of Islam for her. She was born into a family of scholars — her father a qadi, her grandfather Muhammad Rasyad a scholar who led the local Naqshbandi branch — which is family background and lineage, and never counts; her founding and running of an Islamic girls' school is her work, not an affiliation statement. Her Masyumi party membership is affiliation. Wikidata carries no religion value for her at all."
+    sources: [source/wikipedia-rahmah-el-yunusiyah-en, source/wikipedia-rahmah-el-yunusiyah-id, source/wikidata-rahmah-el-yunusiyah]
+external_ids: { wikidata: "Q13257554" }
+sources: [source/wikipedia-rahmah-el-yunusiyah-en, source/wikipedia-rahmah-el-yunusiyah-id, source/wikipedia-rahmah-el-yunusiyah-ar, source/wikidata-rahmah-el-yunusiyah]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rahmah el Yunusiyah' (revision 1380714533 of 17 October 2026), Indonesian Wikipedia 'Rahmah El Yunusiyah' (revision 29908779 of 18 September 2026), Arabic Wikipedia 'رحمة اليونسية' (revision 74338944 of 19 April 2026) and Wikidata item Q13257554 (item revision 2545783964 of 14 September 2026), each fetched by revision id through the MediaWiki/Wikidata APIs on 27 October 2026 with the returned ids asserted equal; the Wikidata item was read twice with identical content. The QID was grounded through the English article's page properties and confirmed through the Indonesian article's; identity is the Padang Panjang founder of Diniyah Putri (1923) who died in 1969 — no other bearer of the name appears. Existence was checked both ways before building: no record under data/person/ carries her name in Latin or Arabic script or the QID Q13257554, and data/_homonyms.yaml holds no shared Arabic label. No Urdu article exists. No relations are written: her birth and death places (Padang Panjang) and her school Diniyah Putri have no museum entities, so founder_of and the place edges are skipped and the facts carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92

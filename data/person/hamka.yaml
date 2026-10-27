@@ -31,6 +31,7 @@ died:
   sources: [source/wikipedia-hamka-en, source/wikidata-hamka]
 relations:
   - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-hamka-en] }
+  - { type: child_of, target: person/abdul-karim-amrullah, sources: [source/wikipedia-hamka-en, source/wikidata-hamka] }
 faith:
   - value: unknown
     basis: unknown
@@ -40,7 +41,7 @@ external_ids: { wikidata: "Q5645435" }
 sources: [source/wikipedia-hamka-en, source/wikipedia-hamka-ar, source/wikidata-hamka]
 provenance:
   layer: own-research
-  source: "English Wikipedia 'Hamka' (revision of 17 October 2026), Arabic Wikipedia «عبد الملك كريم أمر الله» (revision of 20 June 2026), Wikidata Q5645435; checked 24 October 2026"
+  source: "English Wikipedia 'Hamka' (revision of 17 October 2026), Arabic Wikipedia «عبد الملك كريم أمر الله» (revision of 20 June 2026), Wikidata Q5645435; checked 24 October 2026. A child_of edge to his father, person/abdul-karim-amrullah, was added as an enrichment in run century-additions-92, when the father's record was built from the next lines of the century queue: the English article states outright that his father was Abdul Karim Amrullah, also known as Haji Rasul, and the father's Wikidata item carries Hamka's QID as a child value."
   generated_by: "Muse (Muse Spark 1.3)"
   run: modern-figures-batch-1
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

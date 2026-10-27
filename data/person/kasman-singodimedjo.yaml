@@ -1,0 +1,52 @@
+id: person/kasman-singodimedjo
+class: person
+label:
+  ar: "كاسمان سينغوديميدجو"
+  en: "Kasman Singodimedjo"
+  ur: "کاسمان سنگودیمیدجو"
+summary:
+  ar: "سياسي وقانوني إندونيسي من جاوة الوسطى (1904–1982): أول رئيس للجنة الوطنية الإندونيسية المركزية سنة 1945 ونائب عام الجمهورية (1945–1946)، وناشط في المحمدية دافع داخل الجمعية التأسيسية في الخمسينيات عن جعل الإسلام أساسًا للدولة، وسُجن في عهدي سوكارنو وسوهارتو، وسُمّي بطلًا قوميًا سنة 2018."
+  en: "Indonesian politician and lawyer from Central Java (1904–1982): first chairman of the Central Indonesian National Committee in 1945 and attorney general of the republic (1945–1946), a Muhammadiyah activist who argued in the 1950s Constitutional Assembly for Islam as the basis of the state, imprisoned under both Sukarno and Suharto, and named a National Hero in 2018."
+  ur: "وسطی جاوا سے تعلق رکھنے والے انڈونیشی سیاست دان اور قانون دان (1904ء–1982ء): 1945ء میں مرکزی انڈونیشی قومی کمیٹی کے پہلے صدر اور جمہوریہ کے اٹارنی جنرل (1945ء–1946ء)، محمدیہ کے کارکن جنہوں نے پچاس کی دہائی میں دستور ساز اسمبلی کے اندر اسلام کو ریاست کی بنیاد بنانے کی وکالت کی، سوکارنو اور سوہارتو دونوں کے عہد میں قید رہے اور 2018ء میں قومی ہیرو قرار پائے۔"
+names:
+  - { value: "Kasman Singodimedjo", kind: full }
+  - { value: "Kasman Singodimejo", kind: alternate }
+  - { value: "كاسمان سينغوديميدجو", kind: full }
+gender: male
+roles: [politician, writer]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1904-02-25"
+  hijri: "1321"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata all give 25 February 1904 at Purworejo, Central Java. The English article's footnote records that many official records list 1908, because his parents said he entered school late and lied about his year to qualify; the 1904 date the articles and Wikidata follow is recorded. Purworejo has no museum place record. The Hijri year is derived by tabular conversion; no source in hand states it."
+  sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo]
+died:
+  edtf: "1982-10-25"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata agree on 25 October 1982, at Jakarta, and the Indonesian infobox gives his resting place as the Tanah Kusir public cemetery, Jakarta. The Hijri year is derived by tabular conversion; no source in hand states it."
+  sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school of Islam for him. The English article says he was born near Purworejo to a Muslim family and that his father was a local Islamic functionary — family background, which never counts. His Constitutional Assembly argument that the state should be founded on Islam, since most Indonesians were Muslims, is recorded as a political position; his party and organisational work (Muhammadiyah activism, the Indonesian Islamic Party, later Masyumi) is affiliation, which never counts. The Indonesian infobox carries no religion field, and Wikidata carries no religion value at all."
+    sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo]
+relations:
+  - { type: died_in, target: place/jakarta, sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo] }
+  - { type: buried_in, target: place/jakarta, sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id] }
+external_ids: { wikidata: "Q16187634" }
+sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Kasman Singodimedjo' (revision 1365465379 of 22 July 2026), Indonesian Wikipedia 'Kasman Singodimedjo' (revision 30007176 of 30 September 2026) and Wikidata item Q16187634 (item revision 2542231492 of 8 September 2026), each fetched by revision id through the MediaWiki/Wikidata APIs on 27 October 2026 with the returned ids asserted equal; the Wikidata item was read twice with identical content. The QID was grounded through the English article's page properties and confirmed through the Indonesian article's; identity is the Muhammadiyah activist, first KNIP chairman and second attorney general of Indonesia who died at Jakarta in 1982 — no other bearer of the name appears. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic script or the QID Q16187634, and data/_homonyms.yaml holds no shared Arabic label. No Arabic or Urdu article exists. Organisational and portfolio successions (the KNIP chairmanship, the attorney generalship, the Islamic University of Indonesia rectorship, the Konstituante speakership) are left in prose per this block's practice. His Jakarta death and Tanah Kusir burial are written as relations to the existing place/jakarta; his Purworejo birthplace has no place record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92

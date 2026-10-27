@@ -1,0 +1,54 @@
+id: person/abdul-karim-amrullah
+class: person
+label:
+  ar: "عبد الكريم أمر الله"
+  en: "Abdul Karim Amrullah"
+  ur: "عبد الکریم امر اللہ"
+summary:
+  ar: "عالم ومصلح من مينانغكابو (1879–1945)، عُرف بحاجي رسول: درس بمكة على الشيخ أحمد الخطيب المنكباوي، ثم قاد من سوفاي باتانغ وبادانغ بانجانغ تجديدًا تعليميًا عبر مدارس طوالب جمعت العلوم الدينية والعامة، وقاوم الأعراف وفرقة الأمومة وضرائب المستعمر، ومات في جاكرتا، وهو والد حمكا."
+  en: "Minangkabau scholar and reformer (1879–1945), known as Haji Rasul: he studied at Mecca under Sheikh Ahmad Khatib al-Minangkabawi, then led an educational renewal from Sungai Batang and Padang Panjang through the Thawalib schools, which combined religious and general subjects; he opposed adat practices, matrilineal kinship rules and colonial taxes, died at Jakarta, and was the father of Hamka."
+  ur: "مینانگکاباؤ عالم اور مصلح (1879ء–1945ء)، جو حاجی رسول کے نام سے مشہور ہوئے: مکہ میں شیخ احمد خطیب المنانگکباوی سے تعلیم حاصل کی، پھر سنگائی باتانگ اور پاڈانگ پانجانگ سے طوالب مدارس کے ذریعے تعلیمی تجدید کی قیادت کی جن میں دینی اور عام علوم جمع تھے؛ انہوں نے رواجی رسوم، مادری نسبی نظام اور استعماری ٹیکسوں کی مخالفت کی، جکارتہ میں وفات پائی اور حمکا کے والد تھے۔"
+names:
+  - { value: "Abdul Karim Amrullah", kind: full }
+  - { value: "Muhammad Rasul", kind: alternate }
+  - { value: "Haji Rasul", kind: laqab }
+  - { value: "Inyiak Deer", kind: alternate }
+  - { value: "عبد الكريم أمر الله", kind: full }
+gender: male
+roles: [scholar, teacher, activist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1879-02-10"
+  hijri: "1296"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata give 10 February 1879, at Sungai Batang near Maninjau, West Sumatra; his birth name was Muhammad Rasul, and he was the seventh child of the Naqshbandi sheikh Muhammad Amrullah. Sungai Batang has no museum place record. The Hijri year is derived by tabular conversion; no source in hand states it."
+  sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah]
+died:
+  edtf: "1945-06-02"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata agree on 2 June 1945, at Jakarta. He was first buried at Karet Bivak cemetery, Jakarta; in 1975 his remains were moved to Sungai Batang, so no buried_in relation is written — his final resting place has no museum place record. The Hijri year is derived by tabular conversion; no source in hand states it."
+  sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school of Islam for him. The Indonesian infobox gives his religion as Islam and leaves its school (mazhab) field empty; the English article (and its Arabic translation) names none; Wikidata gives Islam in general (Q432). His father Muhammad Amrullah was a Naqshbandi sheikh — the father's affiliation, family background, which never counts. His study under Ahmad Khatib al-Minangkabawi is his formation, and his son Hamka's affiliation is Hamka's own; neither attests his."
+    sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikidata-abdul-karim-amrullah]
+relations:
+  - { type: died_in, target: place/jakarta, sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikidata-abdul-karim-amrullah] }
+  - { type: student_of, target: person/ahmad-khatib-al-minangkabawi, sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id] }
+external_ids: { wikidata: "Q4665472" }
+sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Karim Amrullah' (revision 1346022445 of 29 March 2026), Indonesian Wikipedia 'Abdul Karim Amrullah' (revision 29409328 of 1 July 2026), Arabic Wikipedia 'عبد الكريم أمر الله' (revision 73575997 of 20 February 2026) and Wikidata item Q4665472 (item revision 2532800939 of 18 August 2026), each fetched by revision id through the MediaWiki/Wikidata APIs on 27 October 2026 with the returned ids asserted equal; the Wikidata item was read twice with identical content. The QID was grounded through the English article's page properties and confirmed through the Indonesian article's; identity is the Sungai Batang reformer known as Haji Rasul, father of Hamka (Q5645435, which his item carries as a child value and Hamka's museum record carries as its own QID) — no other bearer of the name appears. Existence was checked both ways before building: no record under data/person/ carries his name in Latin or Arabic script or the QID Q4665472, and data/_homonyms.yaml holds no shared Arabic label. No Urdu article exists; the Arabic article is a translation of the English and counts with its family. His student_of edge is written here, in the student's record, to person/ahmad-khatib-al-minangkabawi, built in this same run: the English article says he went to Mecca in 1894 studying Islamic law under Shaikh Ahmad Khatib, and the Indonesian article independently says the same. His Jakarta death is written as a relation to the existing place/jakarta; his Sungai Batang birthplace has no place record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-92
