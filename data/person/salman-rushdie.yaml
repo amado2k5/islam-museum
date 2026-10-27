@@ -1,0 +1,37 @@
+id: person/salman-rushdie
+class: person
+label: { ar: "سلمان رشدي", en: "Salman Rushdie", ur: "سلمان رشدی" }
+names:
+  - { value: "Salman Rushdie", kind: full }
+  - { value: "Ahmed Salman Rushdie", kind: full }
+  - { value: "سلمان رشدي", kind: full }
+gender: male
+summary:
+  ar: "سلمان رشدي (وُلد 19 يونيو 1947) روائي بريطاني من أصل هندي، صاحب «أطفال منتصف الليل» (1981) الفائزة بجائزة البوكر. أثارت روايته «الآيات الشيطانية» (1988) احتجاجات واسعة وفتوى بإهدار دمه سنة 1989 عاش بعدها سنوات تحت الحماية، ونال لقب فارس سنة 2007، ونجا سنة 2022 من محاولة اغتيال فقد فيها إحدى عينيه. صرّح بنفسه مرارًا عبر عقود بأنه لا يؤمن بقوى غيبية ووصف نفسه بأنه «ملحد متشدد»."
+  en: "Salman Rushdie (born 19 June 1947) is an Indian-born British novelist, author of Midnight's Children (1981), which won the Booker Prize. His novel The Satanic Verses (1988) provoked widespread protests and a 1989 fatwa calling for his death, after which he lived for years under protection; he was knighted in 2007 and survived a 2022 assassination attempt that cost him an eye. Across decades he has stated in his own words that he does not believe in supernatural entities and has called himself a 'hardline atheist'."
+  ur: "سلمان رشدی (پیدائش 19 جون 1947ء) ہندوستانی نژاد برطانوی ناول نگار ہیں، جن کے ناول «مڈنائٹس چلڈرن» (1981ء) نے بکر انعام جیتا۔ ان کے ناول «شیطانی آیات» (1988ء) پر وسیع احتجاج ہوا اور 1989ء میں ان کے قتل کا فتویٰ جاری ہوا، جس کے بعد وہ برسوں حفاظتی تحویل میں رہے؛ 2007ء میں انہیں نائٹ کا خطاب ملا اور 2022ء میں قاتلانہ حملے میں ان کی ایک آنکھ ضائع ہو گئی۔ وہ کئی دہائیوں سے اپنے الفاظ میں کہتے آئے ہیں کہ وہ مافوق الفطرت ہستیوں پر یقین نہیں رکھتے اور خود کو «کٹر ملحد» کہتے ہیں۔"
+roles: [writer]
+wings: [people, living]
+regions: [south-asia, andalus-europe, americas-oceania]
+born:
+  edtf: "1947-06-19"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bombay, British India (now Mumbai), on 19 June 1947; the English article and Wikidata agree. The Hijri year (1366) is derived by tabular conversion. No born_in relation is written: neither Bombay nor Mumbai has a museum place entity."
+  sources: [source/wikipedia-salman-rushdie-en, source/wikidata-salman-rushdie]
+faith:
+  - value: atheist-or-sceptic
+    basis: self-identified
+    note: "Recorded on his own repeated first-person statements in independent places, meeting the lane's bar for documented unbelief. (1) Far Eastern Economic Review, 2 March 1989: 'My point of view is that of a secular human being. I do not believe in supernatural entities, whether Christian, Jewish, Muslim or Hindu.' (2) PBS, Bill Moyers on Faith & Reason, 23 June 2006: he called himself a 'hardline atheist'; the English article's religious-background section likewise states plainly that he is an atheist, and his 2006 Point of Inquiry interview sets out the same secular position. The counter-episode is preserved: on 15 December 1990, under the fatwa, he issued a statement reaffirming his Muslim faith — a statement he said by 1992 he regretted and had not written the language of; his later statements (2006) postdate and supersede it. He came from a liberal Muslim family, which is family background, not an attestation. Labels applied by opponents during the fatwa controversy are not attestations either way, and the Arabic article's 'atheism' portal is an editorial filing. Wikidata carries no religion claim."
+    sources: [source/wikipedia-salman-rushdie-en, source/wikipedia-salman-rushdie-ar, source/wikidata-salman-rushdie]
+external_ids: { wikidata: "Q44306" }
+sources: [source/wikipedia-salman-rushdie-en, source/wikipedia-salman-rushdie-ar, source/wikipedia-salman-rushdie-ur, source/wikidata-salman-rushdie]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 104 §A of the century-additions queue (queue line 571) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q44306) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (rushdie, salman) across data/person/ found no record for him, and Q44306 appears in no existing person record. His Arabic label (سلمان رشدي) is not shared with any existing record, so no homonym entry is needed. No relations are written: Bombay/Mumbai has no museum place entity, and no group or work entities are linked for his books or the fatwa; those facts are stated in the summary and prose instead. His faith is recorded atheist-or-sceptic on the self-identified basis set out in the faith note, with the 1990 statement and its 1992 withdrawal preserved there. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104
+status: { review: published }
