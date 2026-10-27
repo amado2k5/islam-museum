@@ -1,0 +1,49 @@
+id: person/ali-khan
+class: person
+label: { ar: "محمد علي خان", en: "Ali Khan", ur: "محمد علی خان" }
+names:
+  - { value: "Pir-o-Murshid Muhammad Ali Khan", kind: full }
+  - { value: "بير مرشد محمد علي خان", kind: full }
+  - { value: "Mohammed Ali Khan", kind: alternate }
+  - { value: "Ali Khan", kind: alternate }
+gender: male
+summary:
+  ar: "موسيقي ومعلّم صوفي هندي (1881–1958)، وُلد في برودة وتوفي في لاهاي؛ قاد الحركة الصوفية العالمية من سنة 1948 حتى وفاته خلفًا لقريبه عنايت خان، وجمع بين التدريب على الموسيقى الهندية الكلاسيكية والغناء الأوبرالي الأوروبي حتى ظهر على مسرح لا سكالا، واشتهر بين مريديه بموهبة الشفاء."
+  en: "Indian musician and Sufi teacher (1881–1958), born in Baroda and died in The Hague. He led the International Sufi Movement from 1948 until his death, in succession to his cousin Inayat Khan; trained in Indian classical music and in European operatic singing, he appeared on the stage of La Scala, and among his disciples he was known for a gift of healing."
+  ur: "ہندوستانی موسیقار اور صوفی استاد (1881ء–1958ء)، بڑودہ میں پیدا ہوئے اور دی ہیگ میں وفات پائی؛ 1948 سے وفات تک عالمی صوفی تحریک کی قیادت کی، جو ان کے چچا زاد عنایت خان کی تحریک تھی، ہندوستانی کلاسیکی موسیقی اور یورپی اوپیرا گائیکی دونوں کی تربیت حاصل کی اور لا سکالا کے اسٹیج پر بھی نمودار ہوئے، اور اپنے مریدوں میں شفا کی صلاحیت کے لیے مشہور تھے۔"
+roles: [mystic, musician]
+wings: [people]
+regions: [south-asia, andalus-europe]
+born:
+  edtf: "1881-07-07"
+  hijri: "1298"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 July 1881 in Baroda (English article; the Arabic article, its translation, agrees). Baroda has no place entity, so no born_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar]
+died:
+  edtf: "1958-09-29"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 29 September 1958 in The Hague and is buried at the Oud Eik en Duinen cemetery there, his tombstone naming him Pir-o-Murshid Mohammad Ali Khan (English article). The Hague has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — one independent text family short of a sufi segment. The English text states that he was the leader of the International Sufi Movement from 1948 until his death and speaks of his mureeds (disciples) receiving healing from him; but the Arabic article is a translation of the English text, so the two are one text family, and no second independent text naming his Sufi affiliation was consulted. Wikidata's only religion value is Islam (Q432) in general, which names neither Sufism nor a school. His leadership and disciples are therefore recorded as facts, and the faith value stays unknown until a second independent text is cited."
+    sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar, source/wikidata-ali-khan]
+relations:
+  - { type: related_to, target: person/hazrat-inayat-khan, sources: [source/wikipedia-ali-khan-en] }
+external_ids: { wikidata: "Q4724949" }
+sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar, source/wikidata-ali-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ali Khan (Sufi)' (revision 1313674815) and Arabic Wikipedia 'علي خان (صوفي)' (revision 73571226), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q4724949 (item revision 2518938266). The Arabic article is a translation of the English, and is counted as the same text family. Existence checks by name fragments (Ali Khan, Muhammad Ali Khan, محمد علي خان, علي خان), by Arabic label across data/person, and by QID found no prior record for this man; the existing ali-khan records (Bade Ghulam Ali Khan, Hafiz Ali Khan, Nouman Ali Khan and others) are different people. He was a second cousin of Inayat Khan — the grandson of Inayat's grandfather, and so regarded as a brother by Indian custom — and the related_to edge to person/hazrat-inayat-khan is written once, here, in the subject's own record: Ali Khan was Inayat Khan's cousin and later the leader of his movement. No group entity exists for the International Sufi Movement and no place entities exist for Baroda or The Hague, so no member_of, born_in, died_in or buried_in edge is written. Regions: south-asia for his Indian birth and formation, andalus-europe for the Western European base of his movement leadership and musical career. The lane queue gives 1881–1958; the sources agree."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/waris-ali-shah
+class: person
+label: { ar: "وارث علي شاه", en: "Waris Ali Shah", ur: "وارث علی شاہ" }
+names:
+  - { value: "Sayed Waris Ali Shah", kind: full }
+  - { value: "سيد وارث علي شاه", kind: full }
+  - { value: "Haji Waris Ali Shah", kind: alternate }
+  - { value: "حاجی وارث علی شاہ", kind: alternate }
+gender: male
+summary:
+  ar: "متصوف هندي (1817–1905) من ديوا في بره بنكي، مؤسس الطريقة الوارثية. بايع في صباه الشيخ خادم علي شاه ولازمه حتى وفاته، ثم أجاز الناس في طريقته على مذهب متسامح أبقى أتباعه على أديانهم، وسافر إلى مكة وأوروبا فقابل سلطان العثمانيين وبسمارك، وضريحه في ديوا مزار مشهور."
+  en: "Indian Sufi (1817–1905) of Dewa in Barabanki, founder of the Warsi Sufi order. As a boy he became the disciple of Khadim Ali Shah and remained with him until the latter's death; he then admitted people of several faiths to his order without requiring them to change their religion, travelled repeatedly to Mecca and through Europe, where he met the Ottoman sultan and Bismarck, and his shrine at Dewa remains a major place of devotion."
+  ur: "ہندوستانی صوفی بزرگ (1817ء–1905ء) جن کا تعلق دیوا، بارہ بنکی سے تھا اور جو سلسلہ وارثیہ کے بانی تھے۔ لڑکپن میں خادم علی شاہ کے مرید ہوئے اور ان کی وفات تک ان کے مرید و خلیفہ رہے، پھر اپنے سلسلے میں لوگوں کو داخل کیا اور پیروکاروں کو ان کے اپنے مذہب پر قائم رہنے کی اجازت دی؛ بارہا مکہ گئے اور یورپ کے سفر میں عثمانی سلطان اور بسمارک سے ملاقات کی، اور دیوا میں ان کا مزار مشہور ہے۔"
+roles: [mystic]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1817"
+  hijri: "1232"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in 1817 at Dewa Sharif, Barabanki district (English article; the Urdu article gives 1232 AH, corresponding to 1817, and Wikidata gives 1817). The lane queue's 1823 is not supported by any consulted source and is not followed. Dewa has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur, source/wikidata-waris-ali-shah]
+died:
+  edtf: "1905-04-07"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article dates his death to 7 April 1905, which it equates with 1 Safar 1323 AH, and the record follows it; the Urdu article gives 29 Muharram 1323 AH, corresponding to 5 April 1905. Both traditions agree on the Hijri year 1323 and on Dewa as the place; the day is therefore debated. Dewa has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal Sufi discipleship and his founding of an order, which is the lane's test for a sufi segment. The English text states that he was the founder of the Warsi Sufi order, that as a boy he attached himself to Khadim Ali Shah, a dervish of Golaganj, Lucknow, and remained with him until the latter's death, and that he admitted people to his spiritual order. The Urdu text, independently written, states that he founded the Warsiyya silsila, that in boyhood he became the murid of Khadim Ali Shah and remained his murid and khalifa until the latter's death, and that his affiliation was with the Qadiri and Chishti schools of Sufism. No source names a madhhab for him, so no second segment is recorded; Wikidata's religion value is Islam in general."
+    sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur]
+relations:
+  - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-waris-ali-shah-ur] }
+external_ids: { wikidata: "Q7969448" }
+sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur, source/wikidata-waris-ali-shah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Waris Ali Shah' (revision 1379875805) and Urdu Wikipedia 'وارث علی شاہ' (revision 12029121), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q7969448 (item revision 2519164609). No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (waris, وارث علي شاه), by Arabic label across data/person, by biography and by QID found no prior record for this man. No group entity exists for the Warsi order he founded, so no founder_of edge is written; the member_of edge to group/chishtiyya rests on the Urdu text's statement that he stood in the traditional Chishti silsila. The lane queue gives 1823–1905; both article texts and Wikidata give his birth as 1817, which the record follows, with the discrepancy stated in the born note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
