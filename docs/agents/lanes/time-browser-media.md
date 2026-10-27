@@ -48,3 +48,10 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   3,242 card), 14 map clusters (~558 KB), 620 shared cards (~305 KB).
 - 2026-10-27 — "add 50 more" (batch 400): 4,016 stops, 11.2% match (451 image /
   3,565 card), 15 map clusters (~619 KB), 670 shared cards (~328 KB).
+- 2026-10-27 — Gap check: media/illus-event-battle-of-the-trench has no file
+  because the image was withdrawn (2026-10-23, modern-skyline reject under
+  illustrations lane gates) and is queued for regeneration in the
+  illustrations pipeline batch 0 — not a media-index bug. Next: D12 local
+  image generation for TB stops reusing scripts/media/illustrate + SDXL
+  (~/tb-img-venv, M4 Max MPS). 320/321 launch records currently have no
+  image; generation precedes the next "add 50 more" batch per founder.
