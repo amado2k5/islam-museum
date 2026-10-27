@@ -1,0 +1,52 @@
+id: person/ghulam-hussain-hidayatullah
+class: person
+label:
+  ar: "غلام حسين هدايت الله"
+  en: "Ghulam Hussain Hidayatullah"
+  ur: "غلام حسین ہدایت اللہ"
+summary:
+  ar: "سير غلام حسين هدايت الله (1879–1948)، محامٍ وسياسي سندي، أول رئيس وزراء للسند بعد انفصالها عن بومباي (1937–1938) ثم رئيس وزرائها مرة ثانية (1942–1947)، فأول حاكم للسند في باكستان (1947–1948) — الباكستاني الوحيد الذي حكم إقليما عند الاستقلال. أسهم في مشروع سد سكّر وفي إقناع مؤتمرات المائدة المستديرة بجدوى إقليم السند."
+  en: "Sir Ghulam Hussain Hidayatullah (1879–1948), a Sindhi lawyer and politician, the first Premier of Sindh after its separation from Bombay (1937–1938) and again its Premier/Chief Minister (1942–1947), then the first Governor of Sindh in Pakistan (1947–1948) — the only Pakistani provincial governor at independence. He was associated with the Sukkur Barrage project and with persuading the Round Table Conferences that Sindh could sustain itself as a province."
+  ur: "سر غلام حسین ہدایت اللہ (1879ء–1948ء)، سندھی وکیل اور سیاست دان، بمبئی سے علاحدگی کے بعد سندھ کے پہلے وزیر اعلیٰ (1937ء–1938ء) اور پھر دوبارہ وزیر اعلیٰ (1942ء–1947ء)، پھر پاکستان میں سندھ کے پہلے گورنر (1947ء–1948ء) — آزادی کے وقت واحد پاکستانی صوبائی گورنر۔ وہ سکھر بیراج منصوبے اور گول میز کانفرنسوں کو سندھ کی صوبائی صلاحیت پر قائل کرنے سے وابستہ رہے۔"
+names:
+  - { value: "غلام حسين هدايت الله", kind: full }
+  - { value: "Ghulam Hussain Hidayat Ullah", kind: alternate }
+gender: male
+born:
+  edtf: "1879-01"
+  hijri: "1296"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: true
+  note: "The English article, citing the Sindh Archives collection, gives January 1879 at Shikarpur; Wikidata gives February 1879 at month precision. The article's month is carried and the conflict marked debated. The Hijri year is a conversion and is marked derived (both candidate months fall in 1296). No born_in relation is written: no place entity exists for Shikarpur."
+  sources: [source/wikipedia-ghulam-hussain-hidayatullah-en, source/wikidata-ghulam-hussain-hidayatullah]
+died:
+  edtf: "1948-10-04"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article, the Urdu article's own infobox death-date template and Wikidata agree: died 4 October 1948 at Karachi, in office as Governor of Sindh. The Urdu article's prose death section gives '14 October 1948', apparently confusing the date with his assumption of the chief ministership on 14 October 1942; the variant is recorded here and the agreed date followed. The Hijri year is a conversion and is marked derived. No died_in relation is written: no place entity exists for Karachi."
+  sources: [source/wikipedia-ghulam-hussain-hidayatullah-en, source/wikipedia-ghulam-hussain-hidayatullah-ur, source/wikidata-ghulam-hussain-hidayatullah]
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration. No source read names a religion or a school for him: the English and Urdu articles have no religion field or value, and Wikidata has no religion claim at all. His schooling at Sindh Madressah is education, his ministries and governorship are public offices, and his son's marriage to a daughter of Abdullah Haroon is a family connection — none of them attests a school. Nothing is attested, so the value is unknown. (His surname is no evidence either way: he is the Sindhi premier, a different person from Hidayatullah of Banjar, whose record exists separately.)"
+    sources: [source/wikipedia-ghulam-hussain-hidayatullah-en, source/wikipedia-ghulam-hussain-hidayatullah-ur, source/wikidata-ghulam-hussain-hidayatullah]
+external_ids: { wikidata: "Q5557596" }
+sources:
+  - source/wikipedia-ghulam-hussain-hidayatullah-en
+  - source/wikipedia-ghulam-hussain-hidayatullah-ur
+  - source/wikidata-ghulam-hussain-hidayatullah
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ghulam Hussain Hidayatullah' (revision 1351466858 of 28 April 2026), Urdu Wikipedia article 'Ghulam Hussain Hidayatullah' (revision 9475114 of 10 March 2026) and Wikidata item Q5557596 (item revision 2274104491 of 13 November 2024), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn, and the QID grounded through the English article's own page property. No Arabic Wikipedia article exists for him. DISTINGUISHED from person/hidayatullah-i-banjar, a Southeast Asian figure of a similar name: this record is the Sindhi lawyer-politician, premier and governor of Sindh, and the Banjar record was not touched. Existence was checked all three ways before building: name-fragment greps under all spellings (Hidayatullah/Hidayat Ullah — the only hit is the Banjar record, a different person), the grounded QID grepped across all data/person files (no hit), and biographical match. No relations are written: the Sindh premiership successions between him and Allah Bux Soomro are office successions and are refused as relations under the brief's rule, being recorded in prose only; his marriage (to Fatima Sughra Begum in 1940, per the Urdu article) is not written as an edge because she has no person record; Shikarpur, Karachi and Hyderabad (Sindh) have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118

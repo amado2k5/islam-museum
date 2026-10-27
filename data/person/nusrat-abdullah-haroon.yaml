@@ -1,0 +1,54 @@
+id: person/nusrat-abdullah-haroon
+class: person
+label:
+  ar: "نصرت عبد الله هارون"
+  en: "Lady Abdullah Haroon"
+  ur: "نصرت عبداللہ ہارون"
+summary:
+  ar: "نصرت عبد الله هارون (1886–1966)، واسمها الحقيقي نصرت خانم، ناشطة اجتماعية وسياسية سندية وُلدت في إيران واستقرت في كراتشي، حيث تزوجت عبد الله هارون سنة 1914. أسست مدرسة في بيتها وجمعية «أنجمن خواتين» لتعليم نساء السند ورفاههن، ودعمت حركة الخلافة، وانتُخبت سنة 1943 رئيسة لرابطة نساء مسلمي عموم الهند، وكانت نائبة رئيس جمعية نساء عموم باكستان."
+  en: "Nusrat Abdullah Haroon (1886–1966), real name Nusrat Khanum, a Sindhi social and political activist born in Iran who settled in Karachi, where in 1914 she married Abdullah Haroon. She started a school at her home and founded the Anjuman-i-Khawateen for the education and welfare of the women of Sindh, supported the Khilafat Movement, was elected president of the All India Women Muslim League in 1943, and was vice-president of the All Pakistan Women's Association."
+  ur: "نصرت عبداللہ ہارون (1886ء–1966ء)، اصل نام نصرت خانم، ایران میں پیدا ہونے والی سندھی سماجی و سیاسی کارکن جو کراچی میں آباد ہوئیں، جہاں 1914ء میں ان کی شادی عبد اللہ ہارون سے ہوئی۔ انھوں نے اپنے گھر میں مدرسہ قائم کیا اور سندھ کی خواتین کی تعلیم و فلاح کے لیے «انجمن خواتین» بنائی، تحریک خلافت کی حمایت کی، 1943ء میں آل انڈیا ویمن مسلم لیگ کی صدر منتخب ہوئیں، اور آل پاکستان ویمنز ایسوسی ایشن کی نائب صدر رہیں۔"
+names:
+  - { value: "Nusrat Khanum", kind: full }
+  - { value: "نصرت خانم", kind: full }
+  - { value: "Lady Abdullah Haroon", kind: alternate }
+  - { value: "Nusrat Abdullah Haroon", kind: alternate }
+gender: female
+born:
+  edtf: "1886"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English article and Wikidata give the year 1886 alone; the article says she was born in Iran and later settled in Karachi, naming no birthplace. The year spans two Hijri years (1303–1304) and no source gives a pairing, so no Hijri year is recorded. No born_in relation is written: no place is named for her birth in any source."
+  sources: [source/wikipedia-lady-abdullah-haroon-en, source/wikidata-lady-abdullah-haroon]
+died:
+  edtf: "1966"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English article and Wikidata give the year 1966 alone, with no place or exact date in any source read. The year spans two Hijri years (1385–1386), so no Hijri year is recorded. No died_in relation is written: no source names the place."
+  sources: [source/wikipedia-lady-abdullah-haroon-en, source/wikidata-lady-abdullah-haroon]
+relations:
+  - { type: spouse_of, target: person/abdullah-haroon, sources: [source/wikipedia-lady-abdullah-haroon-en, source/wikipedia-abdullah-haroon-en, source/wikidata-lady-abdullah-haroon, source/wikidata-abdullah-haroon] }
+roles: [activist]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED. The English article, citing a single 2003 profile (Story of Pakistan), states that she was 'born in a Shia family in Iran' — a statement about her family of birth, which under the lane rule never counts as her own attestation — and files her in the category 'Pakistani Shia Muslims', while the Urdu article files her in the category 'Pakistani Shia'; category filings are not attestations. Wikidata's religion claim is Shia Islam (Q9585), one unsourced structured value that appears to rest on the same birth-family claim, so it is not a second independent source either. No text read names her own affiliation or practice, her Muslim League women's leadership is a public role, and her faith is assessed on her own attestations, never inferred from her husband's. There are therefore not two independent sources attesting 'Shia' for her personally, the Shia-mapping rule does not engage, and the value stays unknown under the doubt rule, with the attestation preserved here; a founder word accepting the birth-family statement plus the structured value would settle shia-twelver/documented under the mapping rule."
+    sources: [source/wikipedia-lady-abdullah-haroon-en, source/wikipedia-lady-abdullah-haroon-ur, source/wikidata-lady-abdullah-haroon]
+external_ids: { wikidata: "Q6469906" }
+sources:
+  - source/wikipedia-lady-abdullah-haroon-en
+  - source/wikipedia-lady-abdullah-haroon-ur
+  - source/wikidata-lady-abdullah-haroon
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Lady Abdullah Haroon' (revision 1350341103 of 21 April 2026), Urdu Wikipedia article 'Nusrat Abdullah Haroon' (revision 12044750 of 27 September 2026) and Wikidata item Q6469906 (item revision 2550059417 of 27 September 2026), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn, and the QID grounded through the English article's own page property. No Arabic Wikipedia article exists for her. Existence was checked all three ways before building: name-fragment greps under all spellings (Nusrat — the hits are other people, among them Nusrat Fateh Ali Khan), the grounded QID grepped across all data/person files (no hit), and biographical match. Her Arabic label نصرت عبد الله هارون differs from her husband's عبد الله هارون and from every existing record's label; no homonym entry is needed. The marriage is attested four ways: her English article ('in 1914 she married ... Abdullah Haroon', citing the Story of Pakistan profile), his English infobox ('Spouse: Lady Abdullah Haroon'), and the reciprocal spouse claims on both Wikidata items; the spouse_of edge is written once, here in her record, under the brief's direction. Her roles value [activist] is a judgment call, flagged in the writer's report: the sources describe women's-education and welfare organising and Muslim League women's leadership, and no narrower corpus role covers both."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-118
