@@ -1,0 +1,49 @@
+id: person/asif-ali-zardari
+class: person
+label:
+  ar: "آصف علي زرداري"
+  en: "Asif Ali Zardari"
+  ur: "آصف علی زرداری"
+summary:
+  ar: "سياسي باكستاني (وُلد 1955)، الرئيس الرابع عشر لباكستان منذ مارس 2024 وسابقا رئيسها الحادي عشر (2008–2013)، وأول رئيس دولة باكستاني وُلد بعد استقلال البلاد. وهو أرمل رئيسة الوزراء بينظير بوتو، وقد قاد حزب الشعب الباكستاني بعد اغتيالها سنة 2007؛ ولازمته تهم فساد من التسعينيات سجلت المقالات براءته من عدد منها وإسقاط بقيتها."
+  en: "Pakistani politician (born 1955), the fourteenth president of Pakistan since March 2024 and previously its eleventh president (2008–2013), the first Pakistani head of state born after the country's independence. Widower of Prime Minister Benazir Bhutto, he led the Pakistan People's Party after her assassination in 2007; his career has been shadowed by corruption charges of the 1990s, of which the articles record acquittals and dropped charges."
+  ur: "پاکستانی سیاست دان (پیدائش 1955ء)، مارچ 2024ء سے پاکستان کے چودہویں صدر اور اس سے قبل گیارہویں صدر (2008ء–2013ء)، آزادی کے بعد پیدا ہونے والے پاکستان کے پہلے سربراہِ مملکت۔ وزیرِ اعظم بے نظیر بھٹو کے شوہر، ان کے قتل (2007ء) کے بعد پاکستان پیپلز پارٹی کی قیادت سنبھالی؛ ان کے کیریئر پر 1990ء کی دہائی کے بدعنوانی کے الزامات سایہ فگن رہے، جن میں مضامین ان کی بریت اور کئی مقدمات کے خاتمے کو درج کرتے ہیں۔"
+names:
+  - { value: "Asif Ali Zardari", kind: full }
+  - { value: "آصف علي زرداري", kind: full }
+  - { value: "آصف علی زرداری", kind: full }
+gender: male
+born:
+  edtf: "1955-07-26"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 26 July 1955 at Karachi, as the English article's text and infobox and Wikidata give; his family's home district is Nawabshah, where he first stood for election in 1983, but no source read gives Nawabshah as his birthplace. No source read gives a Hijri pairing for the date, so none is recorded. Karachi has no place entity in the museum yet, so no born_in relation is written."
+  sources: [source/wikipedia-asif-ali-zardari-en, source/wikipedia-asif-ali-zardari-ar, source/wikipedia-asif-ali-zardari-ur, source/wikidata-asif-ali-zardari]
+roles: [politician]
+wings: [people, living]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no text names a school for him, and the only structured value is generic. Wikidata gives Islam (Q432) generically; the Urdu article files him in 'Pakistani Shia' and 'Shia politicians' categories, and category filings never attest; neither the English nor the Arabic article has any religion content for him at all — no religion field and no mention in the text. On the wave-114 Chundrigar configuration (a lone structured generic value) the value stays unknown, with the Urdu filings recorded here so a founder can see them."
+    sources: [source/wikipedia-asif-ali-zardari-en, source/wikipedia-asif-ali-zardari-ar, source/wikipedia-asif-ali-zardari-ur, source/wikidata-asif-ali-zardari]
+relations:
+  - type: spouse_of
+    target: person/benazir-bhutto
+    note: "He married Benazir Bhutto on 18 December 1987; she was assassinated on 27 December 2007. The English article's text and infobox and the Arabic article's lead (which calls him her widower) attest the relation. Written once, here in his record; her record carries no relations block and is untouched."
+    sources: [source/wikipedia-asif-ali-zardari-en, source/wikipedia-asif-ali-zardari-ar]
+external_ids: { wikidata: "Q57373" }
+sources:
+  - source/wikipedia-asif-ali-zardari-en
+  - source/wikipedia-asif-ali-zardari-ar
+  - source/wikipedia-asif-ali-zardari-ur
+  - source/wikidata-asif-ali-zardari
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 115 §A of the century-additions queue (queue line 636, 'Asif Ali Zardari — 1955–Living', verified against the queue copy in the fix clone) from the English Wikipedia article 'Asif Ali Zardari' (revision 1379017073 of 7 October 2026), the Arabic article «آصف علي زرداري» (revision 77079594 of 27 October 2026), the Urdu article «آصف علی زرداری» (revision 11900998 of 7 September 2026) and Wikidata Q57373, each read on 27 October 2026 and each checked against its recorded revision. IDENTITY: pinned by biography to the PPP politician born at Karachi on 26 July 1955, widower of Benazir Bhutto; no other bearer of the name fits. EXISTENCE: checked three ways before building — name-fragment greps (zardari) across data/person/ returned no file for him (Benazir Bhutto's record mentions him but is a different person); his Wikidata QID Q57373, grounded through the articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — a lone structured generic value in Wikidata, Shia only as Urdu category filings (see the faith note). RELATIONS: spouse_of Benazir Bhutto, written here in his record only; Karachi has no museum place entity, so no born_in is written; all office successions are refused by lane rule. LIVING-PERSON CARE: only well-sourced public facts are recorded; the corruption and murder charges of the 1990s are recorded as charges and indictments together with the outcomes the articles state (acquittals of bank fraud in 1993 and 1994, other first-term charges dropped, acquittal of various criminal charges in 2008), never as settled guilt."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-115

@@ -629,11 +629,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibrahim Ismail Chundrigar — 1897–1960
 - [x] Chaudhry Muhammad Ali — 1905–1982
 - [x] Ayub Khan — 1907–1974
-- [ ] Yahya Khan — 1917–1980
-- [ ] Zulfikar Ali Bhutto — 1928–1979
-- [ ] Muhammad Zia-ul-Haq — 1924–1988
-- [ ] Shehbaz Sharif — 1951–Living
-- [ ] Asif Ali Zardari — 1955–Living
+- [x] Yahya Khan — 1917–1980
+- [x] Zulfikar Ali Bhutto — 1928–1979
+- [x] Muhammad Zia-ul-Haq — 1924–1988
+- [x] Shehbaz Sharif — 1951–Living
+- [x] Asif Ali Zardari — 1955–Living
 - [ ] Shahid Khaqan Abbasi — 1958–Living
 - [ ] Raja Pervaiz Ashraf — 1950–Living
 - [ ] Yousaf Raza Gillani — 1952–Living
