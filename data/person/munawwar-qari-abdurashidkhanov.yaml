@@ -1,0 +1,58 @@
+id: person/munawwar-qari-abdurashidkhanov
+class: person
+label:
+  ar: "منور قاري عبد الرشيد خانوف"
+  en: "Munawwar Qari Abdurashidkhanov"
+  ur: "منور قاری عبد الرشید خانوف"
+summary:
+  ar: "منوّر قاري عبد الرشيدخانوف (1878–1931)، مربٍّ وكاتب أوزبكي من قادة الجديدية في تركستان، أسّس أول مدرسة بالطريقة الجديدة في طشقند سنة 1901 وألّف كتبًا دراسية وأصدر صحفًا، فقُبض عليه ونُفي سنة 1925 وأُعدم في موسكو سنة 1931."
+  en: "Munawwar Qari Abdurashidkhanov (1878–1931) was an Uzbek educator and writer, a leader of Jadidism in Turkestan, who founded Tashkent's first new-method school in 1901, wrote textbooks and ran newspapers, was arrested and deported in 1925, and was shot in Moscow in 1931."
+  ur: "منور قاری عبد الرشید خانوف (1878–1931) ازبک معلم اور مصنف، ترکستان میں جدیدیت کے رہنماؤں میں سے تھے؛ انہوں نے 1901 میں طشقند کا پہلا جدید طرز کا اسکول قائم کیا، درسی کتابیں لکھیں اور اخبارات نکالے، 1925 میں گرفتار اور جلاوطن ہوئے اور 1931 میں ماسکو میں گولی مار کر ہلاک کیے گئے۔"
+names:
+  - { value: "Munawwar Qari Abdurashidkhanov", kind: full }
+  - { value: "Munavvarqori Abdurashidxon oʻgʻli", kind: full }
+  - { value: "Munawwar Qari", kind: alternate }
+  - { value: "Мунаввар Кары Абдурашидханов", kind: alternate }
+  - { value: "Munavvar Kary Abdurashidkhanov", kind: alternate }
+born:
+  edtf: "1878"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Tashkent in 1878; the English and Russian articles and Wikidata give the year only. The Uzbek article's infobox gives 4 November 1878, a day-precision value carried by no other edition read, so the birth is carried at year precision with that variant stated. No place entity exists for Tashkent, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-munawwar-qari-en, source/wikipedia-munawwar-qari-ru, source/wikipedia-munawwar-qari-uz, source/wikidata-munawwar-qari]
+died:
+  edtf: "1931-05-23"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Shot at Moscow in 1931, in the Butyrka prison, and buried in the Vagankovo cemetery. The day is contested: the Russian article's lead and Wikidata give 23 May 1931, while the Uzbek article's infobox and lead give 23 April 1931 — two encyclopedic traditions in direct conflict. The May reading is carried, with the dispute stated. No place entity exists for Moscow, so no died_in or buried_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-munawwar-qari-ru, source/wikipedia-munawwar-qari-uz, source/wikidata-munawwar-qari]
+wings: [people]
+regions: [persia-central-asia]
+roles: [teacher, scholar, writer, poet]
+relations:
+  - type: lived_in
+    target: place/bukhara
+    note: "He studied at the Mir-i-Arab madrasa in Bukhara in 1885–1890, a five-year residence in childhood, before returning unfinished to Tashkent; the English article attests the study period."
+    sources: [source/wikipedia-munawwar-qari-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or affiliation for him. The English text attests his birth as the youngest child in a family of Islamic scholars, his education at the Yunuskhan madrasa in Tashkent and the Mir-i-Arab madrasa in Bukhara, his Qur'an memorisation under Osman Domla, and his work as an imam and teacher — family background, formation and offices, none of which attests a school; his leadership of an Enlightenment of Islam organisation is an organisational role, not an affiliation statement. Wikidata's religion value is Islam in general, and the category filings (Muslim socialists, Soviet Muslims) are filings. With no school reading in existence, the segment is unknown, unflagged (generic-only configuration)."
+    sources: [source/wikipedia-munawwar-qari-en, source/wikipedia-munawwar-qari-ru, source/wikipedia-munawwar-qari-uz, source/wikidata-munawwar-qari]
+external_ids:
+  wikidata: Q1952656
+sources:
+  - source/wikipedia-munawwar-qari-en
+  - source/wikipedia-munawwar-qari-ru
+  - source/wikipedia-munawwar-qari-uz
+  - source/wikidata-munawwar-qari
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Uzbek Wikipedia articles on Munawwar Qari and Wikidata item Q1952656, each read at a recorded revision; existence checked both ways before building — name fragments (munawwar, munavvar, abdurashidkhan) and slug variants across data/person found no person file, and Q1952656, grounded through the English article's page properties and confirmed through the Russian and Uzbek articles', matched no existing record. A lived_in edge to place/bukhara is written for his attested five years of study there (1885–1890). No born_in, died_in or buried_in edge is written: no place entity exists for Tashkent or Moscow; and his scientific post at the museum in Samarkand attested in the English article does not establish residence there, so no Samarkand edge is written. His father Abdurashidkhan and his brothers A'zamkhon and Muslimkhon have no records, so no family edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102

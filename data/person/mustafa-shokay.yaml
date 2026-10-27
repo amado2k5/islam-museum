@@ -1,0 +1,64 @@
+id: person/mustafa-shokay
+class: person
+label:
+  ar: "مصطفى شوكاي"
+  en: "Mustafa Shokay"
+  ur: "مصطفیٰ شوكاي"
+summary:
+  ar: "مصطفى شوكاي (1890–1941)، سياسي كازاخي ترأّس حكومة تركستان المستقلة (حكومة خوكند) في 1917–1918، وعاش منفيًا من 1921 في إسطنبول وباريس وبرلين مناصرًا لقضية تركستان، ورفض عرض النازيين قيادة الفيلق التركستاني سنة 1941، ومات في برلين في ديسمبر من العام نفسه."
+  en: "Mustafa Shokay (1890–1941) was a Kazakh politician who headed the Turkestan Autonomy (the Kokand government) in 1917–1918, lived in exile from 1921 in Istanbul, Paris and Berlin pleading the Turkestan cause, refused the Nazi offer to lead the Turkestan Legion in 1941, and died in Berlin that December."
+  ur: "مصطفیٰ شوكاي (1890–1941) قازق سیاست دان تھے جنہوں نے 1917–1918 میں ترکستان خودمختاری (خوکند حکومت) کی سربراہی کی، 1921 سے استنبول، پیرس اور برلن میں جلاوطنی کی زندگی گزاری اور ترکستان کے مقدمے کی وکالت کی، 1941 میں نازیوں کی ترکستان لیجن کی قیادت کی پیشکش ٹھکرا دی اور اسی دسمبر میں برلن میں وفات پائی۔"
+names:
+  - { value: "Mustafa Shokay", kind: full }
+  - { value: "Мұстафа Шоқай", kind: full }
+  - { value: "Mustafa Chokay", kind: alternate }
+  - { value: "Mustafa Choqay", kind: alternate }
+  - { value: "Мустафа Шокай", kind: alternate }
+  - { value: "Mustafa Shokayev", kind: alternate }
+  - { value: "Mustafa-bek Shokay-ogly", kind: alternate }
+born:
+  edtf: "1890-12-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 25 December 1890; the English, Russian and Kazakh articles and Wikidata all give this day. The birthplace is stated differently: the English article names the town of Ak-Meshit (present-day Kyzylorda), while the Russian and Kazakh articles name the village of Aulie-Tarangyl in the same district. Neither place has a museum entity, so no born_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-shokay-en, source/wikipedia-shokay-ru, source/wikipedia-shokay-kk, source/wikidata-shokay]
+died:
+  edtf: "1941-12-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died in a Berlin hospital on 27 December 1941; the English, Russian and Kazakh articles and Wikidata all agree on the day. The official report gave blood poisoning against a background of typhus, after his visits to prisoner-of-war camps. No place entity exists for Berlin, so no died_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-shokay-en, source/wikipedia-shokay-ru, source/wikidata-shokay]
+wings: [people]
+regions: [persia-central-asia]
+roles: [politician, activist, writer]
+relations:
+  - type: allied_with
+    target: person/alikhan-bukeikhanov
+    note: "Shokay entered the State Duma's Muslim faction as its secretary and translator on Alikhan Bukeikhanov's recommendation, and the two were fellow leaders of the Kazakh national movement and the Alash party; the working relationship is attested in the English article on Shokay."
+    sources: [source/wikipedia-shokay-en]
+  - type: lived_in
+    target: place/istanbul
+    note: "After the fall of Transcaucasia in February 1921 Shokay emigrated to Istanbul and wrote there for The Times and the Turkish press, before moving to Paris in the summer of 1921; the English article attests the residence."
+    sources: [source/wikipedia-shokay-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the English article's text attests him personally, calling him a practicing Muslim, but names no school; the Sunni specification rests on one infobox family — the Russian and Kazakh articles' infoboxes both give his religion as Islam of the Sunni persuasion, two carriers of one infobox family, neither referenced to any text. His birth into a Muslim family and his childhood Qur'an instruction by a village mullah are background and formation, and Wikidata's religion value is Islam in general, which does not corroborate the branch. One family short of the two-source bar, the segment is unknown, with the Sunni infobox reading preserved here."
+    sources: [source/wikipedia-shokay-en, source/wikipedia-shokay-ru, source/wikipedia-shokay-kk, source/wikidata-shokay]
+external_ids:
+  wikidata: Q2996747
+sources:
+  - source/wikipedia-shokay-en
+  - source/wikipedia-shokay-ru
+  - source/wikipedia-shokay-kk
+  - source/wikidata-shokay
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Kazakh Wikipedia articles on Mustafa Shokay and Wikidata item Q2996747, each read at a recorded revision; existence checked both ways before building — name fragments (shokay, shoqay, chokay, chokaev) and slug variants across data/person found no person file, and Q2996747, grounded through the English article's page properties and confirmed through the Russian and Kazakh articles', matched no existing record. An allied_with edge to person/alikhan-bukeikhanov is written for the attested Duma-faction recommendation and joint Alash leadership, and a lived_in edge to place/istanbul for his attested 1921 residence there. No successor_of or predecessor edges for the Turkestan Autonomy premiership are written: neither Mukhamedzhan Tynyshpaev nor Kichik Ergash has a record. No born_in or died_in edge is written: no place entity exists for Ak-Meshit, Aulie-Tarangyl or Berlin."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102
