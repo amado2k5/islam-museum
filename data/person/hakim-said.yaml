@@ -1,0 +1,49 @@
+id: person/hakim-said
+class: person
+label: { ar: "حكيم محمد سعيد", en: "Hakim Muhammad Said", ur: "حکیم محمد سعید" }
+names:
+  - { value: "Hakim Muhammad Said", kind: full }
+  - { value: "حکیم محمد سعید", kind: full }
+  - { value: "Hakeem Muhammad Saeed", kind: alternate }
+gender: male
+summary:
+  ar: "حكيم محمد سعيد (9 يناير 1920 – 17 أكتوبر 1998) طبيب وباحث وباني مؤسسات باكستاني، وُلد في دلهي لأسرة أردية متعلمة متدينة، فأعاد تأسيس مختبرات همدرد في كراتشي بعد تقسيم الهند سنة 1948 وبنى مؤسسة همدرد وجامعة همدرد ومدينة الحكمة، وألّف وحرّر نحو 200 كتاب في الطب والفلسفة والدين والتعليم، وتولى منصب حاكم السند في 1993–1994، واغتيل في كراتشي سنة 1998."
+  en: "Hakim Muhammad Said (9 January 1920 – 17 October 1998) was a Pakistani physician, researcher and institution-builder, born at Delhi into an educated, religious Urdu-speaking family, who re-established the Hamdard Laboratories at Karachi after Partition in 1948 and built the Hamdard Foundation, Hamdard University and the Madinat-al-Hikmah campus, authored or edited some 200 books on medicine, philosophy, religion and education, served as governor of Sindh in 1993–1994, and was assassinated at Karachi in 1998. 'Hakim' in his name is the professional title of a Unani physician, not a name element."
+  ur: "حکیم محمد سعید (9 جنوری 1920ء – 17 اکتوبر 1998ء) پاکستانی طبیب، محقق اور ادارہ ساز تھے، دہلی میں ایک تعلیم یافتہ مذہبی اردو بولنے والے خاندان میں پیدا ہوئے، تقسیم کے بعد 1948ء میں کراچی میں ہمدرد لیبارٹریز دوبارہ قائم کیں، ہمدرد فاؤنڈیشن، ہمدرد یونیورسٹی اور مدینۃ الحکمہ بنائے، طب، فلسفے، مذہب اور تعلیم پر تقریباً 200 کتب لکھیں و مرتب کیں، 1993ء تا 1994ء گورنر سندھ رہے، اور 1998ء میں کراچی میں شہید کر دیے گئے۔"
+roles: [physician, scholar, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1920-01-09"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Delhi, British India, on 9 January 1920; the English, Urdu and Arabic articles all give 9 January 1920. Wikidata's 20 January 1920 is supported by no article text and is not followed. The Hijri year (1338) is derived by tabular conversion."
+  sources: [source/wikipedia-hakim-said-en, source/wikipedia-hakim-said-ur, source/wikipedia-hakim-said-ar, source/wikidata-hakim-said]
+died:
+  edtf: "1998-10-17"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated at Aram Bagh, Karachi, on 17 October 1998, on his way to the Hamdard Laboratories; all three articles and Wikidata agree. No died_in relation is written: Karachi has no museum place entity. The Hijri year (1419) is derived by tabular conversion."
+  sources: [source/wikipedia-hakim-said-en, source/wikipedia-hakim-said-ur, source/wikipedia-hakim-said-ar, source/wikidata-hakim-said]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-hakim-said-en, source/wikidata-hakim-said] }
+  - { type: sibling_of, target: person/hakim-abdul-hameed, sources: [source/wikipedia-hakim-said-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder — family-background configuration, with scholarly output beside it. The English article states that he was born 'to an educated and religious Urdu-speaking Muhajir family' — his family's background, which never counts — and the Arabic article repeats the same family description. His own record in the texts is of work, not affiliation: some 200 books authored or compiled, among them works on Islam, the journal Hamdard Islamicus which he founded and edited, and a lifetime building Hamdard's Unani-medicine institutions; the Urdu article's devotional framing calls him a martyr and describes his clinic-day fasts. Scholarship on Islam, editing an Islamic-studies journal, and a religious family are none of them an attestation of a school, and no text, infobox or structured source names one: the Wikidata item carries no religion value at all. Recorded unknown, flagged: a public Muslim scholarly identity is visible everywhere in his output, but the lane's two-text school standard is not met by anything the sources say about him personally."
+    sources: [source/wikipedia-hakim-said-en, source/wikipedia-hakim-said-ar, source/wikipedia-hakim-said-ur, source/wikidata-hakim-said]
+external_ids: { wikidata: "Q3695522" }
+sources: [source/wikipedia-hakim-said-en, source/wikipedia-hakim-said-ur, source/wikipedia-hakim-said-ar, source/wikidata-hakim-said]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 106 §A of the century-additions queue from the English, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops (the article is titled 'Hakeem Muhammad Saeed') and confirmed through the Urdu and Arabic articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (hakim-said, hakeem, saeed, سعيد, سعید) across data/person/ found other Hakims but no record for him, and his Q3695522 appears in no existing person record. Two relations are written: born_in to place/delhi (the article texts and Wikidata agree on Delhi, and the place entity exists), and sibling_of to person/hakim-abdul-hameed — the English article states he was the younger brother of Hakim Abdul Hameed, whose record exists and carries no sibling edge, so the pair is written here only. Refused: founder_of (neither the Hamdard Foundation nor Hamdard University has a museum group entity — the founding is stated in the summary and prose) and died_in (Karachi has no museum place entity). 'Hakim' is his professional title as a Unani physician and is not entered as a name element, following the house treatment of Hakim Ajmal Khan's record. His faith is recorded unknown, flagged, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106
+status: { review: published }

@@ -1,0 +1,47 @@
+id: person/mahbub-ul-haq
+class: person
+label: { ar: "محبوب الحق", en: "Mahbub ul Haq", ur: "محبوب الحق" }
+names:
+  - { value: "Mahbub ul Haq", kind: full }
+  - { value: "محبوب الحق", kind: full }
+  - { value: "Mahbub ul-Haq", kind: alternate }
+gender: male
+summary:
+  ar: "محبوب الحق (24 فبراير 1934 – 16 يوليو 1998) اقتصادي باكستاني ومنظّر للتنمية الدولية، وُلد في غورداسبور في أسرة مسلمة بنجابية وهاجر مع أسرته إلى لاهور عند التقسيم، فعمل كبير اقتصاديي لجنة التخطيط في الستينيات واشتهر بخطابه عن «22 أسرة» المهيمنة على اقتصاد باكستان، ثم مديرًا لتخطيط السياسات في البنك الدولي، ووزيرًا للمالية في الثمانينيات، فأنشأ في برنامج الأمم المتحدة الإنمائي تقرير التنمية البشرية ومؤشر التنمية البشرية (HDI) الذي غيّر قياس التنمية عالميًا."
+  en: "Mahbub ul Haq (24 February 1934 – 16 July 1998) was a Pakistani economist and international development theorist, born at Gurdaspur into a Punjabi Muslim family, who migrated with his family to Lahore at Partition, served as chief economist of the Planning Commission in the 1960s — famous for his '22 families' speech on the concentration of Pakistan's wealth — then directed policy planning at the World Bank, served as finance minister in the 1980s, and at the United Nations Development Programme created the Human Development Report and the Human Development Index (HDI), which changed how development is measured worldwide."
+  ur: "محبوب الحق (24 فروری 1934ء – 16 جولائی 1998ء) پاکستانی ماہر اقتصادیات اور بین الاقوامی ترقی کے نظریہ ساز تھے، گورداسپور میں ایک پنجابی مسلم خاندان میں پیدا ہوئے اور تقسیم کے وقت خاندان کے ساتھ لاہور ہجرت کی، 1960ء کی دہائی میں پلاننگ کمیشن کے چیف اکانومسٹ رہے اور اپنی ”22 خاندانوں“ والی تقریر سے مشہور ہوئے، پھر عالمی بینک میں ڈائریکٹر پالیسی پلاننگ، 1980ء کی دہائی میں وزیر خزانہ رہے، اور اقوام متحدہ کے ترقیاتی پروگرام میں انسانی ترقی رپورٹ اور انسانی ترقی اشاریہ (HDI) بنایا جس نے دنیا بھر میں ترقی کی پیمائش بدل دی۔"
+roles: [economist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1934-02-24"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article's detailed biography gives 24 February 1934 at Gurdaspur, Punjab, and is carried. Wikidata gives 22 February 1934, and the Arabic article — a text of the German-article family — likewise gives 22 February and names Jammu as the place; neither is followed against the English biography. The day is therefore recorded debated. No born_in relation is written: Gurdaspur has no museum place entity. The Hijri year (1352) is derived by tabular conversion and covers both February dates."
+  sources: [source/wikipedia-mahbub-ul-haq-en, source/wikipedia-mahbub-ul-haq-ar, source/wikidata-mahbub-ul-haq]
+died:
+  edtf: "1998-07-16"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at New York City on 16 July 1998; the English and Arabic articles and Wikidata agree. No died_in relation is written: New York City has no museum place entity. The Hijri year (1419) is derived by tabular conversion."
+  sources: [source/wikipedia-mahbub-ul-haq-en, source/wikipedia-mahbub-ul-haq-ar, source/wikidata-mahbub-ul-haq]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder — family-background-only configuration. The English article states that he 'was born into a Punjabi Muslim family' — his family's background, not a personal attestation, and family background never counts. Nothing else in any text speaks to his own affiliation: his life in the sources is economics and public office, and no text, infobox or filing names a school. Wikidata's only religion value is Islam (Q432), generic. Recorded unknown, flagged, on the Bilquis Edhi and Pardis Sabeti family-background precedents."
+    sources: [source/wikipedia-mahbub-ul-haq-en, source/wikipedia-mahbub-ul-haq-ur, source/wikipedia-mahbub-ul-haq-ar, source/wikidata-mahbub-ul-haq]
+external_ids: { wikidata: "Q283367" }
+sources: [source/wikipedia-mahbub-ul-haq-en, source/wikipedia-mahbub-ul-haq-ar, source/wikipedia-mahbub-ul-haq-ur, source/wikidata-mahbub-ul-haq]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 106 §A of the century-additions queue from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Arabic and Urdu articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (mahbub, محبوب) across data/person/ found no record for him (the Mahbubs found are medieval namesakes and al-Hasan ibn Mahbub), and his Q283367 appears in no existing person record. No relation is written: Gurdaspur and New York City have no museum place entities (no born_in or died_in — the places are stated in the date notes), and no person edge is attested to an existing record. His faith is recorded unknown, flagged, on family background only, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106
+status: { review: published }

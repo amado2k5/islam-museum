@@ -576,11 +576,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ansar Burney — 1956–Living
 - [x] Abdul Sattar Edhi — 1928–2016
 - [x] Bilquis Edhi — 1947–2022
-- [ ] Faisal Edhi — 1975–Living
-- [ ] Dr. Ruth Pfau (Honored Humanitarian) — 1929–2017
-- [ ] Hakim Said — 1920–1998
-- [ ] Ishrat Husain — 1941–Living
-- [ ] Mahbub ul Haq — 1934–1998
+- [x] Faisal Edhi — 1975–Living
+- [x] Dr. Ruth Pfau (Honored Humanitarian) — 1929–2017
+- [x] Hakim Said — 1920–1998
+- [x] Ishrat Husain — 1941–Living
+- [x] Mahbub ul Haq — 1934–1998
 - [ ] Atif Mian — 1975–Living
 - [ ] Asim Khwaja — 1975–Living
 - [ ] Gita Gopinath (Contemporary Economist) — 1971–Living

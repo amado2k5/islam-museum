@@ -1,0 +1,47 @@
+id: person/ruth-pfau
+class: person
+label: { ar: "روث بفاو", en: "Ruth Pfau", ur: "رتھ فاؤ" }
+names:
+  - { value: "Ruth Katherina Martha Pfau", kind: full }
+  - { value: "رتھ فاؤ", kind: full }
+  - { value: "Ruth Pfau", kind: alternate }
+gender: female
+summary:
+  ar: "روث كاثرينا مارثا بفاو (9 سبتمبر 1929 – 10 أغسطس 2017) طبيبة ألمانية باكستانية وراهبة كاثوليكية في جمعية بنات قلب مريم، وُلدت في لايبزيغ واعتنقت الكاثوليكية الرومانية سنة 1953 وانضمت إلى الجمعية سنة 1957، فأقامت في كراتشي منذ 1960 وأسست مركز ماري أدلايد للجذام وبنت برنامج باكستان الوطني لمكافحة الجذام حتى أعلنت منظمة الصحة العالمية سنة 1996 أن باكستان من أوائل دول آسيا في السيطرة على المرض، ونالت الجنسية الباكستانية وجنازة رسمية عند وفاتها."
+  en: "Ruth Katherina Martha Pfau (9 September 1929 – 10 August 2017) was a German–Pakistani physician and Roman Catholic religious sister of the Society of the Daughters of the Heart of Mary, born at Leipzig, who converted to Roman Catholicism in 1953, joined the society in 1957, settled in Karachi in 1960, founded the Marie Adelaide Leprosy Centre and built Pakistan's national leprosy-control programme until the World Health Organization declared Pakistan in 1996 one of the first Asian countries to have controlled leprosy; she received Pakistani citizenship and a state funeral."
+  ur: "رتھ کیتھرینا مارتھا فاؤ (9 ستمبر 1929ء – 10 اگست 2017ء) جرمن نژاد پاکستانی طبیبہ اور سوسائیٹی آف دی ڈاٹرز آف دی ہارٹ آف میری کی کیتھولک راہبہ تھیں، لائپزگ میں پیدا ہوئیں، 1953ء میں رومن کیتھولک مذہب قبول کیا، 1957ء میں سوسائیٹی میں شامل ہوئیں، 1960ء میں کراچی آئیں، میری ایڈیلیڈ لیپروسی سینٹر قائم کیا اور پاکستان کا قومی انسدادِ جذام پروگرام بنایا حتیٰ کہ 1996ء میں عالمی ادارہ صحت نے پاکستان کو ایشیا کے ان اولین ممالک میں شمار کیا جنھوں نے جذام پر قابو پایا؛ انھیں پاکستانی شہریت اور سرکاری اعزاز کے ساتھ جنازہ ملا۔"
+roles: [physician, writer]
+wings: [people]
+regions: [andalus-europe, south-asia]
+born:
+  edtf: "1929-09-09"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Leipzig, Germany, on 9 September 1929; the English, German and Urdu articles and Wikidata all agree. No born_in relation is written: Leipzig has no museum place entity. The Hijri year (1348) is derived by tabular conversion."
+  sources: [source/wikipedia-ruth-pfau-en, source/wikipedia-ruth-pfau-de, source/wikipedia-ruth-pfau-ur, source/wikidata-ruth-pfau]
+died:
+  edtf: "2017-08-10"
+  hijri: "1438"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at the Aga Khan University Hospital, Karachi, in the early morning of 10 August 2017; all four articles and Wikidata agree. She received a state funeral at St Patrick's Cathedral, Karachi, on 19 August 2017 and was buried at the Gora Qabaristan Christian cemetery, Karachi. No died_in or buried_in relation is written: Karachi has no museum place entity. The Hijri year (1438) is derived by tabular conversion."
+  sources: [source/wikipedia-ruth-pfau-en, source/wikipedia-ruth-pfau-ar, source/wikipedia-ruth-pfau-ur, source/wikidata-ruth-pfau]
+relations: []
+faith:
+  - value: christian
+    basis: documented
+    note: "Two independent article texts name her affiliation outright, and two more corroborate it. The English article's lead calls her a 'Catholic religious sister' and a member of the Society of the Daughters of the Heart of Mary, and its early-life text records that she was baptised as a Protestant in 1951 'before her conversion to Roman Catholicism in 1953' and joined the society at Paris in 1957. The German article, an independent text, opens by calling her a Roman Catholic religious sister ('römisch-katholische Ordensschwester') of the same society and likewise records her 1953 conversion to the Roman Catholic Church. The Urdu article names her a member of the Daughters of the Heart of Mary, and the Arabic article calls her a nun in the Society of the Daughters of Mary. Wikidata's religion value is the Catholic Church (Q9592). Recorded christian/documented on the Fairuz configuration: a current non-Muslim affiliation attested in the texts themselves, not in filings."
+    sources: [source/wikipedia-ruth-pfau-en, source/wikipedia-ruth-pfau-de, source/wikipedia-ruth-pfau-ur, source/wikipedia-ruth-pfau-ar, source/wikidata-ruth-pfau]
+external_ids: { wikidata: "Q77128" }
+sources: [source/wikipedia-ruth-pfau-en, source/wikipedia-ruth-pfau-de, source/wikipedia-ruth-pfau-ur, source/wikipedia-ruth-pfau-ar, source/wikidata-ruth-pfau]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 106 §A of the century-additions queue from the English, German, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the German, Urdu and Arabic articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (pfau, بفاو, فاؤ) across data/person/ found no record for her, and her Q77128 appears in no existing person record. No relation is written: neither Leipzig nor Karachi has a museum place entity (no born_in, died_in or buried_in — the places are stated in the date notes), and neither the Society of the Daughters of the Heart of Mary nor the Marie Adelaide Leprosy Centre has a museum group entity (no member_of or founder_of — both are stated in the summary and prose). Regions are [andalus-europe, south-asia]: born and formed in Germany, her life's work in Pakistan. Her faith is recorded christian/documented, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106
+status: { review: published }
