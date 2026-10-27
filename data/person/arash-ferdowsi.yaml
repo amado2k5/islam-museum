@@ -1,0 +1,36 @@
+id: person/arash-ferdowsi
+class: person
+label: { ar: "أراش فردوسي", en: "Arash Ferdowsi", ur: "آرش فردوسی" }
+names:
+  - { value: "Arash Ferdowsi", kind: full }
+  - { value: "آرش فردوسی", kind: full }
+gender: male
+summary:
+  ar: "أراش فردوسي (وُلد 7 أكتوبر 1985) رجل أعمال أمريكي من أصل إيراني، شارك في تأسيس شركة دروبوكس. وُلد في أوفرلاند بارك بولاية كانساس لأبوين مهاجرين إيرانيين، ودرس الهندسة الكهربائية وعلوم الحاسوب في معهد ماساتشوستس للتقنية، وتركه في فصله الأخير، وأطلق دروبوكس مع درو هيوستن سنة 2007 وشغل منصب مديرها التقني حتى 2016."
+  en: "Arash Ferdowsi (born 7 October 1985) is an American entrepreneur of Iranian descent, a co-founder of Dropbox. Born in Overland Park, Kansas, to Iranian immigrant parents, he studied electrical engineering and computer science at the Massachusetts Institute of Technology, left in his final semester, and launched Dropbox with Drew Houston in 2007, serving as its chief technology officer until 2016."
+  ur: "آرش فردوسی (پیدائش 7 اکتوبر 1985ء) ایرانی نژاد امریکی کاروباری شخصیت اور ڈراپ باکس کے شریک بانی ہیں۔ وہ اوورلینڈ پارک، کنساس میں ایرانی مہاجر والدین کے گھر پیدا ہوئے، ایم آئی ٹی میں برقی انجینئرنگ و کمپیوٹر سائنس پڑھی، آخری سمسٹر میں ادارہ چھوڑا، اور 2007ء میں ڈریو ہیوسٹن کے ساتھ ڈراپ باکس قائم کی، 2016ء تک اس کے چیف ٹیکنالوجی آفیسر رہے۔"
+roles: [engineer]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1985-10-07"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Overland Park, Kansas, on 7 October 1985; the English, Persian and Arabic articles and Wikidata agree. The Hijri year (1406) is derived by tabular conversion. No born_in relation is written: Overland Park has no museum place entity."
+  sources: [source/wikipedia-ferdowsi-en, source/wikipedia-ferdowsi-fa, source/wikipedia-ferdowsi-ar, source/wikidata-ferdowsi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names any affiliation for him; the configuration is structured-only. Wikidata alone carries a religion value for him — Shia Islam in general (Q9585), unqualified — while the English, Persian and Arabic texts, the English categories and every infobox read are silent on religion. A single structured-data value is one source family and does not meet the two-independent-sources standard; and since no text attests 'Shia' of him, the Shia-mapping rule cannot supply a shia-twelver value either. His parents' Iranian origin is family background, not an attestation."
+    sources: [source/wikidata-ferdowsi, source/wikipedia-ferdowsi-en, source/wikipedia-ferdowsi-fa, source/wikipedia-ferdowsi-ar]
+external_ids: { wikidata: "Q4784346" }
+sources: [source/wikipedia-ferdowsi-en, source/wikipedia-ferdowsi-fa, source/wikipedia-ferdowsi-ar, source/wikidata-ferdowsi]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 102 §A of the century-additions queue (queue line 563, which spells his name 'Arash Fergowsi') from the English, Persian and Arabic Wikipedia articles (no Urdu edition exists; the Urdu prose is written from the same sources) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Persian and Arabic articles' pageprops. The queue's 'Fergowsi' is a mis-spelling: no article of that name exists on any edition, and the documented bearer matching the queue's birth year (1985), origin and profile is Arash Ferdowsi, the Dropbox co-founder, who is the person built here. Existence checked both ways before building: name-fragment and slug-variant greps (ferdowsi, fergowsi, arash, فردوسی, فردوسي) across data/person/ found no record for him — the classical namesakes the fragment search returned are different people — and his Q4784346 appears in no existing person record. His Arabic label (أراش فردوسي) is not shared with any existing record, so no homonym entry is needed. No relations are written: Overland Park has no place entity, Drew Houston has no museum record, and no founder_of edge is written for Dropbox because no group entity for Dropbox exists; the founding is stated in the summary and prose instead. His faith is recorded unknown, structured-only configuration, as set out in the faith note. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102
+status: { review: published }
