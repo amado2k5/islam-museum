@@ -1,0 +1,37 @@
+id: person/assimi-goita
+class: person
+label: { ar: "أسيمي غويتا", en: "Assimi Goïta", ur: "آسیمی گوئٹا" }
+names:
+  - { value: "Assimi Goïta", kind: full }
+  - { value: "أسيمي غويتا", kind: full }
+  - { value: "آسیمی گوئٹا", kind: full }
+gender: male
+summary:
+  ar: "جنرال وسياسي مالي (وُلد 1983) من باماكو، قاد انقلاب أغسطس 2020 الذي أطاح بالرئيس إبراهيم أبو بكر كيتا ورأس اللجنة الوطنية لإنقاذ الشعب، ثم صار نائبا مؤقتا للرئيس باه نداو قبل أن يستولي على السلطة في مايو 2021 ويصير رئيسا مؤقتا، ومنذ 2025 رئيسا سادسا لمالي بلا انتخابات؛ وفي عهده انسحبت مالي من الإيكواس وتشكّل تحالف دول الساحل، وقطعت مالي علاقاتها العسكرية مع فرنسا وتحالفت مع روسيا."
+  en: "Malian general and politician (born 1983) from Bamako who led the August 2020 coup that overthrew President Ibrahim Boubacar Keïta and chaired the National Committee for the Salvation of the People, then served as interim vice president under Bah Ndaw before seizing power in May 2021 and becoming interim president; since 2025 he has been Mali's sixth president without an election. Under his rule Mali withdrew from ECOWAS, the Alliance of Sahel States was formed, and Mali cut military ties with France and allied itself with Russia."
+  ur: "مالی جنرل و سیاست دان (پیدائش 1983ء)، باماکو سے؛ اگست 2020ء کی بغاوت کی قیادت کی جس نے صدر ابراہیم بوبکر کیتا کو ہٹایا اور نیشنل کمیٹی فار دی سالویشن آف دی پیپل کی سربراہی کی، پھر باہ نداو کے تحت عبوری نائب صدر رہے، اس کے بعد مئی 2021ء میں اقتدار پر قبضہ کر کے عبوری صدر بنے، اور 2025ء سے مالی کے چھٹے صدر ہیں۔"
+roles: [general, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1983-11-09"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth on 9 November 1983 in Bamako, Mali; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-assimi-goita-en, source/wikipedia-assimi-goita-ar, source/wikidata-assimi-goita]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's text attests his Muslim identity personally, in one sentence of its Personal life section — 'He is Muslim', citing an RFI profile — and describes the July 2021 knife attack on him while he was praying at the Grand Mosque of Bamako during Eid al-Adha, which is practice, not a school attestation. The Arabic article's text says nothing about his religion. No text in any source names a school or branch: the only Sunni material is a filing, the English article's category Malian Sunni Muslims, and Wikidata's single structured value is Islam alone. One text attesting Muslim identity with no school named is the Khan configuration; the Sunni reading rests on a category filing alone, and filings never count, so it is preserved here without settling the value."
+    sources: [source/wikipedia-assimi-goita-en, source/wikipedia-assimi-goita-ar, source/wikidata-assimi-goita]
+external_ids: { wikidata: "Q98497406" }
+sources: [source/wikipedia-assimi-goita-en, source/wikipedia-assimi-goita-ar, source/wikidata-assimi-goita]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Assimi Goïta' (revision 1381864366 of 25 October 2026), Arabic Wikipedia 'أسيمي غويتا' (revision 76465047 of 7 September 2026) and Wikidata item Q98497406 (item revision 2560532600 of 25 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (goita, goïta), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Bamako, so no born_in edge is written. No successor_of edge is written: the president Goïta directly displaced in May 2021 was the interim president Bah Ndaw, who has no person record; Goïta had deposed Ibrahim Boubacar Keïta in August 2020 as junta chairman but assumed the presidency itself only after Ndaw, so an edge to Keïta would misstate the succession of the office."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

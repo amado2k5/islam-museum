@@ -1,0 +1,47 @@
+id: person/ahmed-sekou-toure
+class: person
+label: { ar: "أحمد سيكو توري", en: "Ahmed Sékou Touré", ur: "احمد سیکو تورے" }
+names:
+  - { value: "Ahmed Sékou Touré", kind: full }
+  - { value: "أحمد سيكو توري", kind: full }
+  - { value: "احمد سیکو تورے", kind: full }
+  - { value: "Sheku Turay", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي غيني (1922–1984) من فرانا، زعيم نقابي قاد الحزب الديمقراطي الغيني إلى استقلال غينيا عن فرنسا سنة 1958 فصار أول رئيس لها (1958–1984) وحكم حكما مطلقا بالحزب الواحد حتى مات في كليفلاند بالولايات المتحدة في 26 مارس 1984 أثناء علاج قلبي. وُلد لعائلة مسلمة من الماندينكا ودرس في المدرسة القرآنية، وهو حفيد حفيد ساموري توري مؤسس إمبراطورية واصولو."
+  en: "Guinean politician (1922–1984) from Faranah, a trade-union leader who led the Democratic Party of Guinea to independence from France in 1958 and became Guinea's first president (1958–1984), ruling as a one-party authoritarian until he died in Cleveland, United States, on 26 March 1984 during cardiac treatment. He was born to a Mandinka Muslim family, studied at a Qur'anic school, and was the great-grandson of Samori Ture, founder of the Wassoulou Empire."
+  ur: "گنی سیاست دان (1922ء–1984ء)، فرانا سے؛ مزدور رہنما جنھوں نے ڈیموکریٹک پارٹی آف گنی کو 1958ء میں فرانس سے آزادی تک لے جا کر گنی کے پہلے صدر (1958ء–1984ء) بنے اور یک جماعتی آمرانہ حکمرانی کی، حتیٰ کہ 26 مارچ 1984ء کو کلیو لینڈ، امریکہ میں علاجِ قلب کے دوران انتقال ہوا۔ وہ ماندینکا مسلم خاندان میں پیدا ہوئے، قرآنی مدرسے میں پڑھے، اور ساموری تورے کے پرپوتے تھے۔"
+roles: [politician, activist]
+wings: [people]
+regions: [west-africa-sahel]
+born:
+  edtf: "1922-01-09"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth on 9 January 1922 at Faranah in French Guinea; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ahmed-sekou-toure-en, source/wikipedia-ahmed-sekou-toure-ar, source/wikidata-ahmed-sekou-toure]
+died:
+  edtf: "1984-03-26"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death on 26 March 1984 at the Cleveland Clinic in Cleveland, Ohio, where he had been rushed for emergency heart surgery after being stricken in Saudi Arabia; the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ahmed-sekou-toure-en, source/wikidata-ahmed-sekou-toure]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two independent texts attest his Muslim identity personally: the English article calls him 'a devout Muslim' of the Mandinka people, and the French article states 'De confession musulmane' (of the Muslim confession) before describing his Qur'anic schooling. The Arabic article gives the formation behind it — born to a Muslim family in Faranah and educated at the Qur'anic school — and his descent from Samori Ture, the Muslim founder of the Wassoulou Empire, is family background; al-Azhar's honorary doctorate in Islamic history, which the English article records, is an honour, not an attestation. No source in any language names a school or branch for him, so the value is unknown with the Muslim attestation preserved here (the Khan configuration)."
+    sources: [source/wikipedia-ahmed-sekou-toure-en, source/wikipedia-ahmed-sekou-toure-fr, source/wikipedia-ahmed-sekou-toure-ar, source/wikidata-ahmed-sekou-toure]
+external_ids: { wikidata: "Q155402" }
+sources: [source/wikipedia-ahmed-sekou-toure-en, source/wikipedia-ahmed-sekou-toure-ar, source/wikipedia-ahmed-sekou-toure-fr, source/wikidata-ahmed-sekou-toure]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Sékou Touré' (revision 1377908704 of 1 October 2026), Arabic Wikipedia 'أحمد سيكو توري' (revision 72818106 of 19 December 2025), French Wikipedia 'Ahmed Sékou Touré' (revision 240242317 of 10 October 2026) and Wikidata item Q155402 (item revision 2560545697 of 25 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (sekou, toure — the hits are the musicians Ali Farka Touré, Vieux Farka Touré and the footballers Kolo and Yaya Touré, different men), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English, Arabic and French sources. No place entity exists for Faranah or Cleveland, so no born_in or died_in edge is written; he was Guinea's first president, so no successor_of edge is written in his record — the succession edge lives in Lansana Conté's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-76
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
