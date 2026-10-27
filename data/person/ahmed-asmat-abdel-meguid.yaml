@@ -1,0 +1,53 @@
+id: person/ahmed-asmat-abdel-meguid
+class: person
+label: { ar: "أحمد عصمت عبد المجيد", en: "Ahmed Asmat Abdel-Meguid", ur: "احمد عصمت عبد المجید" }
+names:
+  - { value: "Ahmed Asmat Abdel-Meguid", kind: full }
+  - { value: "أحمد عصمت عبد المجيد", kind: full }
+  - { value: "Esmat Abdel Meguid", kind: alternate }
+  - { value: "Ahmed Esmat Abdel Majid", kind: alternate }
+gender: male
+summary:
+  ar: "أحمد عصمت عبد المجيد (22 مارس 1923 – 21 ديسمبر 2013)، دبلوماسي مصري من الإسكندرية، شارك شابًا في وفد 1957 الذي تفاوض على استئناف العلاقات مع فرنسا، وكان سفير مصر لدى فرنسا ثم وزير خارجيتها (1984–1991)، فالأمين العام الخامس لجامعة الدول العربية (1991–2001) خلفًا للشاذلي القليبي وخلفه عمرو موسى."
+  en: "Ahmed Asmat Abdel-Meguid (22 March 1923 – 21 December 2013) was an Egyptian diplomat from Alexandria who, as a young diplomat, took part in the 1957 delegation that negotiated the resumption of relations with France. He was Egypt's ambassador to France and then its foreign minister (1984–1991), and the fifth Secretary-General of the Arab League (1991–2001), succeeding Chedli Klibi and succeeded by Amr Moussa."
+  ur: "احمد عصمت عبد المجید (22 مارچ 1923ء – 21 دسمبر 2013ء) اسکندریہ سے تعلق رکھنے والے مصری سفارت کار تھے۔ نوجوان سفارت کار کی حیثیت سے انہوں نے 1957ء کے اس وفد میں حصہ لیا جس نے فرانس سے تعلقات کی بحالی پر مذاکرات کیے۔ وہ فرانس میں مصر کے سفیر اور پھر وزیرِ خارجہ (1984ء–1991ء) رہے، اس کے بعد عرب لیگ کے پانچویں سیکرٹری جنرل (1991ء–2001ء) بنے؛ ان کے پیش رو الشاذلی القلیبی اور جانشین عمرو موسیٰ تھے۔"
+roles: [politician]
+born:
+  edtf: "1923-03-22"
+  hijri: "1341"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Alexandria on 22 March 1923; the English article and Wikidata agree (the English text says 'in March 1923'; the day is the infobox and Wikidata value). The Hijri year 1341 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-ahmed-asmat-abdel-meguid-en, source/wikidata-ahmed-asmat-abdel-meguid]
+died:
+  edtf: "2013-12-21"
+  hijri: "1435"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on Saturday 21 December 2013, aged 90; the English and Arabic articles and Wikidata agree. The Hijri year 1435 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-ahmed-asmat-abdel-meguid-en, source/wikipedia-ahmed-asmat-abdel-meguid-ar, source/wikidata-ahmed-asmat-abdel-meguid]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text or infobox in either article makes any statement of his religion. The Arabic article records that his father, Muhammad Fahmi Abdel-Meguid, founded the Islamic Mowasat charitable association in Alexandria — family background, which never counts. FLAGGED for the founder: the only attestation anywhere is the Wikidata item's religion value, Islam in general (Q432) — a single structured value naming no school. One structured value never attests. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-ahmed-asmat-abdel-meguid-en, source/wikipedia-ahmed-asmat-abdel-meguid-ar, source/wikidata-ahmed-asmat-abdel-meguid]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-ahmed-asmat-abdel-meguid-en, source/wikidata-ahmed-asmat-abdel-meguid] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-ahmed-asmat-abdel-meguid-en, source/wikidata-ahmed-asmat-abdel-meguid] }
+wings: [people]
+regions: [egypt-nile]
+external_ids: { wikidata: "Q646776" }
+sources:
+  - source/wikipedia-ahmed-asmat-abdel-meguid-en
+  - source/wikipedia-ahmed-asmat-abdel-meguid-ar
+  - source/wikidata-ahmed-asmat-abdel-meguid
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Ahmed Asmat Abdel-Meguid in English (revision 1366050024 of 26 Jul 2026) and Arabic (revision 76698304 of 23 Sep 2026) and the Wikidata item Q646776 (item revision 2524597880 of 30 Jul 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both agree on Q646776). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no Urdu sitelink); the Urdu prose is written from the English and Arabic articles and says so. No successor_of edge is written: his predecessor as Secretary-General of the Arab League, Chedli Klibi, has no museum record; his succession by Amr Moussa is written in Moussa's record. The museum has no group entity for the Arab League, so no member_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-90
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
