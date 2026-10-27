@@ -1,0 +1,57 @@
+id: person/fayzulla-khodzhayev
+class: person
+label:
+  ar: "فيض الله خوجاييف"
+  en: "Fayzulla Khodzhayev"
+  ur: "فیض اللہ خوجایف"
+summary:
+  ar: "سياسي بخاري وأوزبكي سوفييتي (1896–1938): من قادة الجديديين والبخاريين الشباب، صار أول رئيس لحكومة جمهورية بخارى الشعبية السوفييتية (1920–1924) ثم رئيس مجلس مفوضي الشعب لجمهورية أوزبكستان السوفييتية (1924–1937). أُقيل في يونيو 1937 وقُدّم لمحاكمة الواحد والعشرين وأُعدم في كوموناركا في 15 مارس 1938 ورُدّ اعتباره في الستينيات."
+  en: "Bukharan and Uzbek Soviet politician (1896–1938): a Jadid and Young Bukharan leader who became the first head of government of the Bukharan People's Soviet Republic (1920–1924) and then chairman of the Council of People's Commissars of the Uzbek SSR (1924–1937). Removed in June 1937, he was a defendant at the Trial of the Twenty-One and was shot at Kommunarka on 15 March 1938; he was rehabilitated in the 1960s."
+  ur: "بخاری اور ازبک سوویت سیاست دان (1896–1938): جدیدیوں اور نوجوان بخاریوں کے رہنما، بخارا عوامی سوویت جمہوریہ کی حکومت کے پہلے سربراہ (1920–1924) اور پھر ازبک سوویت جمہوریہ کے مفوضینِ عوام کی کونسل کے صدر (1924–1937) بنے۔ جون 1937 میں برطرف ہوئے، اکیس افراد کے مقدمے میں پیش ہوئے، 15 مارچ 1938 کو کومونارکا میں گولی مار دیے گئے اور 1960 کی دہائی میں بحالِ حیثیت ہوئے۔"
+names:
+  - { value: "Fayzulla Ubaydulloyevich Xoʻjayev", kind: full }
+  - { value: "Файзулла Губайдуллаевич Ходжаев", kind: full }
+  - { value: "Файзулла Убайдуллоевич Хўжаев", kind: full }
+  - { value: "فيض الله خوجاييف", kind: full }
+  - { value: "Fayzulla Khodzhayev", kind: latinized }
+  - { value: "Fayzulla Xoʻjayev", kind: alternate }
+gender: male
+born:
+  edtf: "1896-06-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 1 June 1896 in Bukhara, in the Emirate of Bukhara, in the family of a wealthy Uzbek merchant, as the Russian article and the English article's infobox give; the English text and Wikidata give the year 1896 without the day. His father died in 1912 (the Russian article says on the way to Mecca). No Hijri pairing is given in any source, so none is recorded."
+  sources: [source/wikipedia-fayzulla-khodzhayev-en, source/wikipedia-fayzulla-khodzhayev-ru, source/wikidata-fayzulla-khodzhayev]
+died:
+  edtf: "1938-03-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Sentenced to death at the Trial of the Twenty-One on 13 March 1938 and shot at the Kommunarka shooting ground on 15 March 1938, as the Russian article gives, with the English article's infobox and Wikidata agreeing on 15 March; the English article's body text gives 13 March for the execution itself, a variant not followed, since the Russian article distinguishes the sentencing day from the execution day. He was buried at Kommunarka, as the English article records and Wikidata carries as his place of burial. He was fully rehabilitated in 1965 (Russian article) or 1966 (English article). No place entity exists for Moscow or Kommunarka, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-fayzulla-khodzhayev-en, source/wikipedia-fayzulla-khodzhayev-ru, source/wikidata-fayzulla-khodzhayev]
+tags: [great-purge]
+roles: [politician]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikipedia-fayzulla-khodzhayev-en, source/wikipedia-fayzulla-khodzhayev-ru] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for him personally: neither infobox carries a religion field and Wikidata carries no religion value at all. The English article's category 'Muslim socialists' is a category filing. Andrew D. W. Forbes, cited in the English article, records that among the purge accusations against him was that he had buried his dead brother according to Islamic rites — an accusers' charge about a funeral rite performed for a member of his family, not an attestation of his own affiliation, and it names no school. His Jadid activism and his leadership of the Young Bukharans are political activity; his merchant family and his father's death on the way to Mecca are family background. The value therefore stays unknown, unflagged."
+    sources: [source/wikipedia-fayzulla-khodzhayev-en, source/wikipedia-fayzulla-khodzhayev-ru, source/wikidata-fayzulla-khodzhayev]
+external_ids: { wikidata: "Q559768" }
+sources:
+  - source/wikipedia-fayzulla-khodzhayev-en
+  - source/wikipedia-fayzulla-khodzhayev-ru
+  - source/wikidata-fayzulla-khodzhayev
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Russian Wikipedia articles on Fayzulla Khodzhayev and his Wikidata item Q559768, all read in full on 27 October 2026; no source names a school or affiliation for him personally — only a category filing and a purge-era accusation about his brother's burial rites — so his faith is unknown, unflagged. The born_in relation to Bukhara is written from both articles; no died_in or buried_in relation is written, as no place entity exists for Moscow or Kommunarka, and no office succession is recorded, as the articles attest posts, not personal succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-111

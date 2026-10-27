@@ -1,0 +1,58 @@
+id: person/sultanbek-khodzhanov
+class: person
+label:
+  ar: "سلطان بيك خوجانوف"
+  en: "Sultanbek Khodzhanov"
+  ur: "سلطان بیک خوجانوف"
+summary:
+  ar: "رجل دولة قازاقي سوفييتي وعالم وناشر (1894–1938): مفوض الداخلية (1920) ثم مفوض التعليم (1921) في جمهورية تركستان، وشارك في إقامة حكم تركستان الذاتي سنة 1917، وكان من أبرز العاملين على الترسيم الوطني لآسيا الوسطى واستعادة اسم «القازاق». اعتُقل في يوليو 1937 وأُعدم في سجن بوتيركا بموسكو في 10 فبراير 1938 ورُدّ اعتباره سنة 1957."
+  en: "Kazakh Soviet statesman, scholar and publicist (1894–1938): people's commissar of internal affairs (1920) and then of education (1921) of the Turkestan ASSR, a participant in creating the Turkestan Autonomy in 1917, and a leading worker for the national delimitation of Central Asia and for restoring the name 'Kazakh'. Arrested in July 1937, he was shot in Moscow's Butyrka Prison on 10 February 1938 and rehabilitated in 1957."
+  ur: "قازاق سوویت ریاستی رہنما، عالم اور صحافی (1894–1938): ترکستان جمہوریہ کے مفوضِ داخلہ (1920) اور پھر مفوضِ تعلیم (1921)، 1917 میں ترکستان خودمختاری کے قیام میں شریک، وسطی ایشیا کی قومی حدبندی اور «قازاق» نام کی بحالی کے نمایاں کارکن۔ جولائی 1937 میں گرفتار ہوئے، 10 فروری 1938 کو ماسکو کی بوترکا جیل میں گولی مار دیے گئے اور 1957 میں بحالِ حیثیت ہوئے۔"
+names:
+  - { value: "Султанбек Кожанулы Кожанов", kind: full }
+  - { value: "Сұлтанбек Қожанұлы Қожанов", kind: full }
+  - { value: "Султанбек Ходжанулы Ходжанов", kind: full }
+  - { value: "سلطان بيك خوجانوف", kind: full }
+  - { value: "Sultanbek Khodzhanov", kind: latinized }
+  - { value: "Sultanbek Kozhanov", kind: alternate }
+  - { value: "Sultonbek Xoʻjanov", kind: alternate }
+gender: male
+born:
+  edtf: "1894-09-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 10 September 1894 in the village of Aksumbe, Chimkent Uyezd, Syr-Darya Oblast (in what is today Suzak District of Kazakhstan), of the Qongrat tribe, as both articles and Wikidata give. The Russian article's lead spells his name 'Khodzhanov' (Ходжанов) while its title and the Kazakh article use the form 'Kozhanov' (Кожанов, Қожанов); both spellings are recorded in his names. No Hijri pairing is given in any source, so none is recorded. No place entity exists for Aksumbe, so no born_in relation is written."
+  sources: [source/wikipedia-sultanbek-khodzhanov-ru, source/wikipedia-sultanbek-khodzhanov-kk, source/wikidata-sultanbek-khodzhanov]
+died:
+  edtf: "1938-02-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Arrested on 16 July 1937, sentenced to death on 8 February 1938 and shot in Moscow's Butyrka Prison on 10 February 1938, as the Russian article gives and the Kazakh article and Wikidata confirm for the day; he was posthumously rehabilitated in 1957. No place entity exists for Moscow, so no died_in relation is written."
+  sources: [source/wikipedia-sultanbek-khodzhanov-ru, source/wikipedia-sultanbek-khodzhanov-kk, source/wikidata-sultanbek-khodzhanov]
+tags: [great-purge]
+roles: [politician, writer]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: allied_with, target: person/mustafa-shokay, sources: [source/wikipedia-sultanbek-khodzhanov-ru] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No religion content in any source read: neither article carries an infobox religion field or a text statement about his religion, and Wikidata carries no religion value at all (absence configuration). His schooling at a Russian-Kazakh school and the Tashkent teachers' seminary is formation; his national activity, his commissar posts and his party membership are activity and politics. The value therefore stays unknown, unflagged."
+    sources: [source/wikipedia-sultanbek-khodzhanov-ru, source/wikipedia-sultanbek-khodzhanov-kk, source/wikidata-sultanbek-khodzhanov]
+external_ids: { wikidata: "Q12563924" }
+sources:
+  - source/wikipedia-sultanbek-khodzhanov-ru
+  - source/wikipedia-sultanbek-khodzhanov-kk
+  - source/wikidata-sultanbek-khodzhanov
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Russian and Kazakh Wikipedia articles on Sultanbek Khodzhanov and his Wikidata item Q12563924, all read in full on 27 October 2026; no source names any religion for him in text, infobox or structured data, so his faith is unknown on the absence configuration. The allied_with relation to Mustafa Shokay is written for their joint work in 1917, with others, to create the Turkestan Autonomy in Tashkent, attested in the Russian article; no born_in or died_in relation is written, as no place entity exists for Aksumbe or Moscow."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-111
