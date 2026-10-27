@@ -1,0 +1,49 @@
+id: person/alladiya-khan
+class: person
+label: { ar: "الله ديا خان", en: "Alladiya Khan", ur: "اللہ دیا خان" }
+names:
+  - { value: "الله ديا خان", kind: full }
+  - { value: "Alladiya Khan", kind: full }
+  - { value: "اللہ دیا خان", kind: full }
+  - { value: "Ghulam Ahmad Khan", kind: alternate }
+  - { value: "Ustad Alladiya Khan", kind: alternate }
+gender: male
+summary:
+  ar: "مغنٍّ هندي كلاسيكي (1855–1946)، وُلد في أونيارة بولاية جيبور ونشأ في أسرة موسيقية. أسّس غرانة جايبور-أتراولي المعروفة بإحياء الراغات النادرة وابتكارها وبأسلوبها المركّب في الخيال، وخدم موسيقيَّ بلاطٍ في كولهابور أكثر من ربع قرن، وتخرّج عليه جيل من كبار مغنّي الهند."
+  en: "Indian classical singer (1855–1946), born at Uniara in Jaipur State into a family of musicians. He founded the Jaipur-Atrauli gharana, known for reviving and creating rare ragas and for its intricate khayal style; he served as court musician at Kolhapur for over a quarter of a century and trained a generation of India's leading singers."
+  ur: "ہندوستانی کلاسیکی گلوکار (1855ء–1946ء)، ریاست جے پور کے قصبہ انیارا میں ایک موسیقار گھرانے میں پیدا ہوئے۔ انھوں نے جے پور-اتراؤلی گھرانہ قائم کیا جو نادر راگوں کی تجدید و تخلیق اور خیال کے پیچیدہ انداز کے لیے مشہور ہوا؛ وہ کولہاپور کے دربار سے ربع صدی سے زائد وابستہ رہے اور ہندوستان کے بڑے گلوکاروں کی ایک نسل ان کے شاگردوں میں سے نکلی۔"
+roles: [musician, teacher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1855-08-10"
+  hijri: "1271"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's text and infobox and the Urdu article agree: born 10 August 1855 at Uniara in Tonk, then under Jaipur State; Wikidata gives the same date. His birth name was Ghulam Ahmad Khan, recorded among the names. The Hijri year (1271) is a conversion. No place entity exists for Uniara, so no born_in edge is written."
+  sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan]
+died:
+  edtf: "1946-03-16"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree: died 16 March 1946 at Bombay. The Hijri year (1365) is a conversion. No place entity exists for Bombay, so no died_in edge is written."
+  sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED — the Shia reading stands one attestation short, for the founder's word. The English article's text states, in a single passage, that he was born 'to a Shia Muslim family of musicians' and traces the family's conversion to Islam in the Mughal era: that is family framing in one text, and family background never counts as his own attestation. The Urdu article makes no statement about his religion at all, and Wikidata carries no religion value. Under the founder's mapping rule two sources must attest 'Shia' before a branch can be recorded; here one text attests it of his family only, so the value stays unknown with the reading preserved. No source names a madhhab for him either."
+    sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan]
+external_ids:
+  wikidata: Q4730273
+sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Alladiya Khan' (revision 1381739684 of 24 October 2026), Urdu Wikipedia 'اللہ دیا خان' (revision 6066113 of 17 February 2024) and Wikidata Q4730273 (item revision 2526655719 of 3 August 2026), each fetched by its recorded revision and checked against it, read on 26 October 2026. Existence was checked by filename fragments under all spellings (alladiya, allah-diya, ghulam-ahmad), by Arabic label, by biography and by the Wikidata route (Q4730273) across data/person/ — no earlier record exists; the alauddin-* records are Bengal sultans and alauddin-al-attar, different men. No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and says so. No relations are written: there is no group entity for the Jaipur-Atrauli gharana, no place entity for Uniara or Bombay, and none of his teachers (his uncle Jehangir Khan) or disciples (Kesarbai Kerkar, Mogubai Kurdikar, Bhaskarbuwa Bakhale, Mallikarjun Mansur) has a person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-75
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
