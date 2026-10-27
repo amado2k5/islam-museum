@@ -1,0 +1,47 @@
+id: person/abdul-muis
+class: person
+label: { ar: "عبد المعز", en: "Abdul Muis", ur: "عبد المعز" }
+names:
+  - { value: "Abdul Muis", kind: full }
+  - { value: "Abdoel Moeis", kind: alternate }
+  - { value: "Abdul Moeis", kind: alternate }
+  - { value: "عبد المعز", kind: full }
+  - { value: "عبد المؤيس", kind: alternate }
+gender: male
+summary:
+  ar: "كاتب وصحفي وقومي إندونيسي (1883 أو 1886–1959)، من نشطاء شريكة الإسلام وعضو المجلس الشعبي، وصاحب رواية «صلاح أسوهان» (1928) من أشهر روايات الأدب الإندونيسي الحديث، وأول من سُمّي بطلًا قوميًّا لإندونيسيا. قضى أعوامه الأخيرة في باندونغ مدافعًا عن تطوير جاوة الغربية."
+  en: "Indonesian writer, journalist and nationalist (1883 or 1886–1959), a Sarekat Islam activist and Volksraad member, author of Salah Asuhan (1928), among the most famous novels of modern Indonesian literature, and the first person named a National Hero of Indonesia. He spent his last years in Bandung working for the development of West Java."
+  ur: "انڈونیشی مصنف، صحافی اور قوم پرست (1883ء یا 1886ء–1959ء)، شریکۃ اسلام کے کارکن اور فولکسراد کے رکن، ناول «صلاح اسوہان» (1928ء) کے مصنف جو جدید انڈونیشی ادب کے مشہور ترین ناولوں میں ہے، اور انڈونیشیا کے قومی ہیرو کہلانے والے پہلے شخص۔ آخری برس بانڈونگ میں مغربی جاوا کی ترقی کی کوشش میں گزارے۔"
+roles: [writer, politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1883-07-03"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born at Sungai Puar, Agam. The day and month, 3 July, are agreed by every source; the year is contested. Wikidata gives 1883, as do the official Indonesian biographies the articles cite (the Badan Bahasa page titled 'Abdul Muis (1883–1959)' and the 2021 ministry encyclopedia volume titled 'Abdul Moeis (1883–1959)'), and the Indonesian article's death template silently computes his age from 1883 — the 1883 reading is followed here. The English, Indonesian and Arabic articles' own lead and infobox texts instead give 1886, and the queue line also gives 1883. No Hijri year is recorded: the two candidate years pair with different Hijri years (1300 and 1303), so a pairing would take a side in the dispute."
+  sources: [source/wikidata-abdul-muis, source/wikipedia-abdul-muis-en, source/wikipedia-abdul-muis-id, source/wikipedia-abdul-muis-ar]
+died:
+  edtf: "1959-06-17"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Bandung on 17 June 1959: the Indonesian and Arabic articles give the day, and one of Wikidata's two death values agrees; the item's second value, 17 July 1959, is supported by no article and is not followed. The Indonesian article places his burial at the Cikutra heroes' cemetery in Bandung. The Hijri year 1378 is the pairing the Arabic article's death category carries and a tabular conversion agrees; marked derived."
+  sources: [source/wikipedia-abdul-muis-id, source/wikipedia-abdul-muis-ar, source/wikidata-abdul-muis]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for him. The Arabic article's infobox gives his religion as Islam with its creed and school fields left empty; the English and Indonesian articles make no religion statement at all (his Sarekat Islam membership is organisational affiliation, which never counts); Wikidata carries no religion value. Generic Islam only, so the value stays unknown, unflagged."
+    sources: [source/wikipedia-abdul-muis-ar, source/wikipedia-abdul-muis-en, source/wikidata-abdul-muis]
+external_ids: { wikidata: "Q1401053" }
+sources: [source/wikipedia-abdul-muis-en, source/wikipedia-abdul-muis-id, source/wikipedia-abdul-muis-ar, source/wikipedia-abdul-muis-ur, source/wikidata-abdul-muis]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Muis' (revision 1371328780), Indonesian Wikipedia 'Abdoel Moeis' (revision 29917914), Arabic Wikipedia 'عبد المعز' (revision 73439624), Urdu Wikipedia 'عبد المعز' (revision 11623063) and Wikidata item Q1401053 (item revision 2540251288), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the item was read twice with identical content, and the QID was grounded through the English article's page properties and confirmed through the Indonesian, Arabic and Urdu articles'. Identity: the queue line's bearer is the Sarekat Islam journalist and novelist who died in 1959; all sources agree on the biography. The Arabic and Urdu articles title him 'Abd al-Mu'izz' (عبد المعز), a rendering of his name; the museum's Arabic label follows that rendering and records عبد المؤيس as an alternate. The Urdu stub cites the English article as its source and is counted with that family. Existence checks by name fragments (muis, moeis, مؤيس, معز) across data/person, by QID and by biography found no prior record; the Arabic prose of person/tjokroaminoto mentions him as a fellow Volksraad member but no record existed. Relations written: none. No born_in, died_in or buried_in edge is written: Sungai Puar and Bandung have no place entities. No member_of edge is written: no group entity for Sarekat Islam exists. His birth year is the block's standing dispute (1883 followed, debated; 1886 in the articles' texts) and his queue years (1883–1959) match the followed reading."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
