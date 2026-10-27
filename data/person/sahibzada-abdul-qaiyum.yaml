@@ -1,0 +1,52 @@
+id: person/sahibzada-abdul-qaiyum
+class: person
+label:
+  ar: "صاحبزاده عبد القيوم"
+  en: "Sahibzada Abdul Qaiyum"
+  ur: "صاحبزادہ عبد القیوم"
+summary:
+  ar: "مربٍّ وسياسي پشتوني (1863–1937) من طوبي في صوابي. بدأ موظفا في إدارة الهند البريطانية فصار وكيلا سياسيا في خيبر وچترال، وساعد دوراند في مفاوضات خط دوراند سنة 1893، وأسّس الكلية الإسلامية في بيشاور على نهج السيد أحمد خان، وصار سنة 1937 أول رئيس وزراء لإقليم الحدود الشمالية الغربية، وتوفي بعد أشهر من إسقاط حكومته."
+  en: "Pashtun educationist and politician (1863–1937) of Topi in Swabi. He rose through the British Indian administration to political agent in Khyber and Chitral, assisted Mortimer Durand in the Durand Line negotiations of 1893, founded Islamia College, Peshawar, on Sir Syed Ahmad Khan's model of educating Muslims, and in 1937 became the first Chief Minister of the North-West Frontier Province, dying months after his ministry fell."
+  ur: "طوبی (صوابی) کے پشتون ماہرِ تعلیم اور سیاست دان (1863ء–1937ء)۔ وہ برطانوی ہند کی انتظامیہ میں ترقی کر کے خیبر اور چترال کے پولیٹیکل ایجنٹ بنے، 1893ء میں ڈیورنڈ لائن کے مذاکرات میں مورٹیمر ڈیورنڈ کے معاون رہے، سر سید احمد خان کے نمونے پر پشاور میں اسلامیہ کالج قائم کیا، اور 1937ء میں شمال مغربی سرحدی صوبے کے پہلے وزیرِ اعلیٰ بنے؛ اپنی وزارت کے خاتمے کے چند ماہ بعد وفات پائی۔"
+names:
+  - { value: "Sahibzada Abdul Qayyum Khan Lodi", kind: full }
+  - { value: "صاحبزاده عبد القيوم خان", kind: full }
+  - { value: "Abdul Qayyum Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1863-12-12"
+  hijri: "1280"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree on 12 December 1863, at Topi in Swabi district. The Hijri year is a conversion and is marked derived. No born_in relation is written: no place entity exists for Topi."
+  sources: [source/wikipedia-sahibzada-abdul-qaiyum-en, source/wikidata-sahibzada-abdul-qaiyum]
+died:
+  edtf: "1937-12-04"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article's infobox and lead give his death at Topi on 4 December 1937, and Radio Pakistan marks his death anniversary on 4 December; Wikidata gives 3 December, a value whose only reference is an import from an older revision of the same article — one source family — and the article's own death narrative is internally garbled (a college delegation's visit on 3 December, his collapse, death at about 1:30 the next morning, 'it was 3 December'). The article's 4 December is carried, marked debated, and the Hijri year is a conversion of the carried date. No died_in relation is written: no place entity exists for Topi."
+  sources: [source/wikipedia-sahibzada-abdul-qaiyum-en, source/wikidata-sahibzada-abdul-qaiyum]
+roles: [politician, educator]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: no source read names a school or an order for him. The English article says he was born into a well-known religious family of Topi, traces his paternal line back to the Lodi dynasty and his maternal line to Husayn ibn Ali, and records his schooling at the local madrassah and his founding of Islamia College, Peshawar, for the education of Muslims; Wikidata carries no religion value. Lineage — including the claimed descent from Husayn — a religious family, madrassah schooling and educational work for Muslims are background, descent and public role, never attestations of a school, so the value stays unknown under the two-source rule and the doubt rule, with what each source gives preserved here."
+    sources: [source/wikipedia-sahibzada-abdul-qaiyum-en, source/wikidata-sahibzada-abdul-qaiyum]
+external_ids: { wikidata: "Q69575" }
+sources:
+  - source/wikipedia-sahibzada-abdul-qaiyum-en
+  - source/wikidata-sahibzada-abdul-qaiyum
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Sahibzada Abdul Qayyum' (revision 1372952793 of 3 September 2026) and Wikidata item Q69575 (item revision 2514279910 of 6 July 2026), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn, and the QID grounded through the article's own page property. No Arabic or Urdu Wikipedia article exists for him (no ar/ur sitelinks); the Arabic and Urdu prose are written from the same sources. Existence was checked all three ways before building: name-fragment greps under all spellings (Qaiyum/Qayyum/Qaiyum), the grounded QID grepped across all data/person files (the only substring hit was the unrelated Q6957556 in another record), and biographical match. No relations are written: Topi has no place entity, his chief-ministership is an office (its succession by Dr Khan Sahib is refused under the standing office-succession rule), and no group record exists for Islamia College. His titles (Nawab, Khan Bahadur, KCIE) are honours, not names, and are recorded in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117

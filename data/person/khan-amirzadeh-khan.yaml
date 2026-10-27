@@ -1,0 +1,52 @@
+id: person/khan-amirzadeh-khan
+class: person
+label:
+  ar: "خان أميرزاده خان"
+  en: "Khan Amirzadeh Khan"
+  ur: "خان امیرزادہ خان"
+summary:
+  ar: "محامٍ وسياسي پشتوني باكستاني (1918–1977) من بخښالي في مردان. عضو في حركة خداي خدمتغار منذ شبابه، ثم قيادي في حزب العوامي الوطني، فاز بمقعدي الجمعية الوطنية وجمعية الإقليم سنة 1970، وصار وزير القانون والتعليم في إقليم الحدود، وشارك في لجنة دستور 1973، وكان مرشح المعارضة الموحّد للرئاسة سنة 1973، واعتُقل في قضية مؤامرة حيدرآباد."
+  en: "Pakistani Pashtun lawyer and politician (1918–1977) of Bakhshali in Mardan. A Khudai Khidmatgar member from his student days and then a National Awami Party leader, he won both National and Provincial Assembly seats in 1970, served as the Frontier province's senior minister for law, education and parliamentary affairs, sat on the committee that framed the 1973 constitution, stood as the combined opposition's presidential candidate in 1973, and was tried in the Hyderabad conspiracy case."
+  ur: "بخښالی (مردان) کے پاکستانی پشتون وکیل اور سیاست دان (1918ء–1977ء)۔ وہ طالب علمی سے خدائی خدمت گار تحریک کے رکن اور پھر نیشنل عوامی پارٹی کے رہنما رہے، 1970ء میں قومی و صوبائی اسمبلی دونوں کی نشستیں جیتیں، صوبے کے وزیرِ قانون، تعلیم و پارلیمانی امور بنے، 1973ء کے آئین کی کمیٹی میں بیٹھے، اسی سال اپوزیشن کے متفقہ صدارتی امیدوار ہوئے، اور حیدرآباد سازش کیس میں مقدمہ چلا۔"
+names:
+  - { value: "Khan Amirzadeh Khan", kind: full }
+  - { value: "Khan Amirzadah Khan", kind: alternate }
+  - { value: "Amirzada Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1918-11-15"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree on 15 November 1918, at Bakhshali village in Mardan district. The Hijri year is a conversion and is marked derived. No born_in relation is written: no place entity exists for Bakhshali or Mardan."
+  sources: [source/wikipedia-khan-amirzadeh-khan-en, source/wikidata-khan-amirzadeh-khan]
+died:
+  edtf: "1977-09-13"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives his death at Mardan on 13 September 1977; Wikidata gives 9 January 1977 at Mardan. The article's value is carried, marked debated, and the Hijri year is a conversion of the carried date. No died_in relation is written: no place entity exists for Mardan."
+  sources: [source/wikipedia-khan-amirzadeh-khan-en, source/wikidata-khan-amirzadeh-khan]
+roles: [politician, lawyer]
+wings: [people]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or a school for him. The English article has no religion field and never raises his religion; Wikidata carries no religion value. His movement, the Khudai Khidmatgar, is described by the article itself as a nationalist, secular and socialist organisation, and his party membership is a political affiliation; neither is a personal attestation, and nothing is inferred from his name, family or region. The segment records an absence, not a choice between attestations."
+    sources: [source/wikipedia-khan-amirzadeh-khan-en, source/wikidata-khan-amirzadeh-khan]
+external_ids: { wikidata: "Q6400034" }
+sources:
+  - source/wikipedia-khan-amirzadeh-khan-en
+  - source/wikidata-khan-amirzadeh-khan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Khan Amirzadah Khan' (revision 1377821876 of 1 October 2026) and Wikidata item Q6400034 (item revision 2551228266 of 30 September 2026), each fetched by its recorded revision id via the MediaWiki API on 27 October 2026, the returned id asserted equal before any claim was drawn, and the QID grounded through the article's own page property. No Arabic or Urdu Wikipedia article exists for him; the Arabic and Urdu prose are written from the same sources. QUEUE-DATE DISCREPANCY (brief correction 1 in the writer's report): the harvest queue gives this line as 'Khan Amirzadeh Khan (1890–1950)', dates no documented bearer of the name carries — the only person of this name in any source read is this man (1918–1977), whose biography is incompatible with a 1950 death: he was the combined opposition's presidential candidate in 1973, on the record of the New York Times of 11 August 1973 cited by the article. Searches of English Wikipedia under all spellings (Amirzadeh/Amirzadah/Amirzada/Amirzadeh Khan) return no second bearer, so the record is built for the documented bearer under his documented dates, exactly as the lane has treated other wrong queue dates, and the queue's figures are recorded here and in the report, not carried. Existence was checked all three ways before building: name-fragment greps, the grounded QID grepped across all data/person files (no hit), and biographical match. No relations are written: Bakhshali and Mardan have no place entities, and no group record exists for the Khudai Khidmatgar or the National Awami Party."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117
