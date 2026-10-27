@@ -551,11 +551,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hassan Rouhani — 1948–Living
 - [x] Ebrahim Raisi — 1960–2024
 - [x] Masoud Pezeshkian — 1954–Living
-- [ ] Javad Zarif — 1960–Living
-- [ ] Maryam Mirzakhani — 1977–2017
-- [ ] Cumrun Vafa — 1960–Living
-- [ ] Nader Engheta — 1955–Living
-- [ ] Ali Khademhosseini — 1975–Living
+- [x] Javad Zarif — 1960–Living
+- [x] Maryam Mirzakhani — 1977–2017
+- [x] Cumrun Vafa — 1960–Living
+- [x] Nader Engheta — 1955–Living
+- [x] Ali Khademhosseini — 1975–Living
 - [ ] Pardis Sabeti — 1975–Living
 - [ ] Roxana Moslehi — 1970–Living
 - [ ] Firouz Naderi — 1946–2023

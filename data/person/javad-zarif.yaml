@@ -1,0 +1,42 @@
+id: person/javad-zarif
+class: person
+label:
+  ar: "محمد جواد ظريف"
+  en: "Mohammad Javad Zarif"
+  ur: "محمد جواد ظریف"
+summary:
+  ar: "محمد جواد ظريف (وُلد 7 كانون الثاني 1960) دبلوماسي وأكاديمي إيراني، سفير بلاده لدى الأمم المتحدة 2002–2007، ووزير خارجيتها من 15 آب 2013 إلى 25 آب 2021 في حكومة حسن روحاني حيث قاد المفاوضات التي أنتجت الاتفاق النووي سنة 2015، ثم نائب الرئيس للشؤون الاستراتيجية من آب 2024 إلى آذار 2025."
+  en: "Mohammad Javad Zarif (born 7 January 1960) is an Iranian diplomat and academic: ambassador to the United Nations 2002–2007, foreign minister from 15 August 2013 to 25 August 2021 under Hassan Rouhani, where he led the negotiations that produced the 2015 nuclear agreement, and vice president for strategic affairs from August 2024 to March 2025."
+names:
+  - { value: "Mohammad Javad Zarif", kind: full }
+  - { value: "محمدجواد ظریف", kind: full }
+  - { value: "محمد جواد ظريف", kind: full }
+  - { value: "Javad Zarif", kind: alternate }
+  - { value: "Mohammad Javad Zarif Khansari", kind: alternate }
+gender: male
+roles: [politician, scholar]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1960-01-07"
+  hijri: "1379"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Tehran. The day is contested between the editions: the Persian article gives 17 Dey 1338, the Arabic article gives 7 January 1960 citing the foreign ministry biography, the Urdu infobox gives 7 January 1960, and Wikidata gives 7 January 1960; the English article alone gives 8 January 1960. The majority reading (7 January) is carried, with the English variant stated. The Hijri year is derived by tabular conversion from the carried date. No born_in relation is written: Tehran has no museum place entity."
+  sources: [source/wikipedia-zarif-fa, source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif, source/wikipedia-zarif-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names his school or affiliation. The Persian text says he was born into a religious, conservative and wealthy family — family background, which never attests the person's own affiliation — and cites a 2014 New Republic piece whose headline calls him a religious zealot, a political characterisation rather than a naming of a school. The Arabic infobox gives his religion as Islam and his sect as the Shia in general; the Urdu infobox gives his religion as Twelver Shia; Wikidata carries Shia Islam in general (Q9585) and no branch. These infobox and structured values are one family, not two independent texts, so on the lane's two-source rule and the Shia-mapping rule the value stays unknown, with the readings preserved here."
+    sources: [source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif, source/wikipedia-zarif-fa, source/wikipedia-zarif-en]
+external_ids:
+  wikidata: "Q10296812"
+sources: [source/wikipedia-zarif-en, source/wikipedia-zarif-fa, source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 101 §A of the century-additions queue (queue line 554) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops (after resolving the redirect from 'Javad Zarif' to 'Mohammad Javad Zarif') and confirmed through every edition's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him (the zarif matches are classical namesakes, al-Shab al-Zarif and Çorlulu Zarifi), and his Q10296812 appears in no existing person record. No relations are written: no succession applies in this group, his named predecessor and successor as foreign minister and his spouse have no museum records, and Tehran has no place entity. The faith segment stays unknown on one infobox/structured family, the readings preserved in the faith note. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101
+status: { review: published }
