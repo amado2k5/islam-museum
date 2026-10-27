@@ -1,0 +1,48 @@
+id: person/zainal-abidin-ahmad
+class: person
+label:
+  ar: "زين العابدين بن أحمد"
+  en: "Zainal Abidin Ahmad"
+  ur: "زین العابدین بن احمد"
+summary:
+  ar: "كاتب ولغوي ماليزي (1895–1973) عُرف باسم القلم «زعبا»، حدّث نحو الملايوية وإملاءها بسلسلة «بليتا بهاسا» ونظام زعبا الإملائي، ودرّس في مدارس وكليات تدريب المعلمين في ملايا وسنغافورة ولندن، وترجم أعمالًا لشكسبير، وخدم مدة قصيرة أول أمين عام لمنظمة أمنو سنة 1946."
+  en: "Malaysian writer and linguist (1895–1973), known by his pen name Za'ba, who modernised Malay grammar and spelling through the Pelita Bahasa series and the Za'aba spelling system, taught at schools and teacher-training colleges in Malaya, Singapore and London, translated Shakespeare, and served briefly as the first secretary-general of UMNO."
+  ur: "مالیزیائی مصنف اور ماہر لسانیات (1895ء–1973ء) جو اپنے قلمی نام «زعبا» سے مشہور ہوئے، انہوں نے «پلیتا بہاسا» سلسلے اور زعبا املا نظام کے ذریعے ملائی گرامر اور املا کو جدید بنایا، ملایا، سنگاپور اور لندن میں پڑھایا، شیکسپیئر کا ترجمہ کیا اور مختصر عرصہ امنو کے پہلے سیکرٹری جنرل رہے۔"
+names:
+  - { value: "Zainal Abidin bin Ahmad", kind: full }
+  - { value: "Za'ba", kind: pen }
+  - { value: "Za'aba", kind: alternate }
+  - { value: "زين العابدين أحمد", kind: full }
+gender: male
+roles: [writer, teacher]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1895-09-16"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Both articles and Wikidata give 16 September 1895; the English article gives Batu Kikir, Jempol, Negeri Sembilan, and the Malay article the village, Kampung Bukit Kerdas, Batu Kikir. No source consulted gives a Hijri pairing, so no hijri key is carried. Batu Kikir has no museum place record, so no born_in relation is written."
+  sources: [source/wikipedia-zainal-abidin-ahmad-en, source/wikipedia-zainal-abidin-ahmad-ms, source/wikidata-zainal-abidin-ahmad]
+died:
+  edtf: "1973-10-23"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Both articles and Wikidata give 23 October 1973 at Petaling Jaya, Selangor; the Malay article adds that he died after kidney-stone surgery. Both articles give his burial at the Jalan Ampang Muslim Cemetery, Kuala Lumpur. No source consulted gives a Hijri pairing, so no hijri key is carried. Petaling Jaya and Kuala Lumpur have no museum place records, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-zainal-abidin-ahmad-en, source/wikipedia-zainal-abidin-ahmad-ms, source/wikidata-zainal-abidin-ahmad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school, and no article text discusses his religious affiliation beyond the general. The Malay article's infobox gives his religion as Islam, and Wikidata gives Islam (Q432) in general — one source family, a generic value. The English article's infobox has no religion field and its text none; its categories file him among Malaysian Muslims, a filing only. His father's wish that he study Arabic and fiqh and become an ulama is family background and formation, and his own writings on Islam are scholarship, not a named affiliation. Generic Islam is attested but no school reading exists anywhere, so the record carries unknown, unflagged."
+    sources: [source/wikipedia-zainal-abidin-ahmad-ms, source/wikidata-zainal-abidin-ahmad, source/wikipedia-zainal-abidin-ahmad-en]
+external_ids: { wikidata: "Q8064849" }
+sources: [source/wikipedia-zainal-abidin-ahmad-en, source/wikipedia-zainal-abidin-ahmad-ms, source/wikidata-zainal-abidin-ahmad]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zainal Abidin Ahmad (writer)' (revision 1373324851 of 5 September 2026), Malay Wikipedia 'Zainal Abidin bin Ahmad' (revision 6982573 of 14 October 2026) and Wikidata item Q8064849 (item revision 2550958711 of 29 September 2026), each fetched by revision id through the MediaWiki/Wikidata APIs on 27 October 2026 with the returned ids asserted equal; the Wikidata item was read twice with identical claims. The QID was grounded through the page properties of both articles, which agree on Q8064849; the similarly numbered Q8064844 belongs to the English disambiguation page, which lists three different men of this name, and is not used. Identity is pinned by biography — the linguist Za'ba (1895–1973) — against the Malaysian politician (1939–2010) and the Indonesian politician (1911–1983) of the same name. Existence was checked both ways before building: no record under data/person/ carries his name or pen name in Latin or Arabic form or the QID Q8064849, and data/_homonyms.yaml holds no shared Arabic label. No relations are written: his birthplace, death place and burial place have no place records, and no person target attested in the articles has a record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-93
