@@ -1,0 +1,66 @@
+id: person/mirjaqip-dulatuli
+class: person
+label:
+  ar: "ميرجاقيب دولاتولي"
+  en: "Mirjaqip Dulatuli"
+  ur: "میر جاقیب دولاتولی"
+summary:
+  ar: "ميرجاقيب دولاتولي (1885–1935)، شاعر وكاتب كازاخي وأحد قادة حكومة ألاش أوردا، صاحب أول رواية في الأدب الكازاخي الحديث «باقيتسيز جمال» (1910) وكتاب الشعر «أويان! قازاق» (1909)، اعتُقل سنة 1928 بتهمة القومية ومات في معسكر الاعتقال سنة 1935."
+  en: "Mirjaqip Dulatuli (1885–1935) was a Kazakh poet and writer and a leader of the Alash Orda government, author of the first novel in modern Kazakh literature, Baqytsyz Jamal (1910), and of the poetry book Oyan! Qazaq (1909); arrested on nationalism charges in 1928, he died in a labour camp in 1935."
+  ur: "میر جاقیب دولاتولی (1885–1935) قازق شاعر اور مصنف اور علاش اوردا حکومت کے رہنماؤں میں سے تھے، جدید قازق ادب کے پہلے ناول «باقیتسز جمال» (1910) اور شعری مجموعے «اویان! قازق» (1909) کے مصنف؛ 1928 میں قوم پرستی کے الزام میں گرفتار ہوئے اور 1935 میں مزدور کیمپ میں وفات پائی۔"
+names:
+  - { value: "Mirjaqip Dulatuli", kind: full }
+  - { value: "Міржақып Дулатұлы", kind: full }
+  - { value: "Mirjaqyp Dulatuly", kind: alternate }
+  - { value: "Mirzhakyp Dulatuly", kind: alternate }
+  - { value: "Mir Yakub Dulatov", kind: alternate }
+  - { value: "Миржакип Дулатов", kind: alternate }
+  - { value: "Madiyar", kind: pen }
+  - { value: "Argyn", kind: pen }
+  - { value: "Azamat", kind: pen }
+born:
+  edtf: "1885-11-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 25 November 1885 at Sarikopa, Turgay Oblast; the English, Russian and Kazakh articles all give this day. Wikidata's day-precision value of 25 October 1885 is supported by no article read and is not followed. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-dulatuli-en, source/wikipedia-dulatuli-ru, source/wikipedia-dulatuli-kk, source/wikidata-dulatuli]
+died:
+  edtf: "1935-10-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 5 October 1935 in a Soviet labour camp; the day is agreed by the English, Russian and Kazakh articles and Wikidata, but the place is stated differently — the English and Kazakh articles say the Solovki camp, while the Russian article specifies the Sosnovets camp infirmary in the Belomor district of Karelia. Neither place has a museum entity, so no died_in edge is written. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-dulatuli-en, source/wikipedia-dulatuli-ru, source/wikipedia-dulatuli-kk, source/wikidata-dulatuli]
+wings: [people]
+regions: [persia-central-asia]
+roles: [poet, writer, politician]
+relations:
+  - type: allied_with
+    target: person/alikhan-bukeikhanov
+    note: "Dulatuli met Bukeikhanov and Baitursynuly at Karkaraly in 1904 and developed his reformist politics under their influence; the three led the Alash movement together and co-founded the newspaper Qazaq in 1913, as the English article on Dulatuli and the articles on Baitursynuly attest."
+    sources: [source/wikipedia-dulatuli-en]
+  - type: allied_with
+    target: person/ahmet-baitursynuly
+    note: "The same attested working alliance: Dulatuli met Baitursynuly at Karkaraly in 1904, worked under his influence, and stood with him among the leaders of Alash; the pair's co-founding of the newspaper Qazaq in 1913 is attested in Baitursynuly's articles. This edge and the Bukeikhanov–Dulatuli edge are written here so that each Alash pair is written once."
+    sources: [source/wikipedia-dulatuli-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the Sunni reading rests on one infobox family — the Kazakh article's infobox gives his religion as Sunni Islam, referenced to no text. The English text attests only his birth into a Muslim family and its categories file him under Muslims from the Russian Empire; the Russian article contains no statement of his religion at all (its Kazakh counterpart's one use of the word atheistic concerns Soviet-era researchers' methodology in Abai studies, not Dulatuli); Wikidata carries no religion value. One infobox short of the two-source bar, the segment is unknown, with the Sunni infobox reading preserved here."
+    sources: [source/wikipedia-dulatuli-en, source/wikipedia-dulatuli-ru, source/wikipedia-dulatuli-kk, source/wikidata-dulatuli]
+external_ids:
+  wikidata: Q1045918
+sources:
+  - source/wikipedia-dulatuli-en
+  - source/wikipedia-dulatuli-ru
+  - source/wikipedia-dulatuli-kk
+  - source/wikidata-dulatuli
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian and Kazakh Wikipedia articles on Mirjaqip Dulatuli and Wikidata item Q1045918, each read at a recorded revision; existence checked both ways before building — name fragments (dulat) and slug variants across data/person found no person file (the fragment occurs only as a mention inside person/alikhan-bukeikhanov), and Q1045918, grounded through the English article's page properties and confirmed through the Russian and Kazakh articles', matched no existing record. allied_with edges to person/alikhan-bukeikhanov and person/ahmet-baitursynuly are written here, on the English article's attestation of their 1904 meeting and joint Alash leadership, so that each pair among the three Alash leaders is written exactly once (the Bukeikhanov–Baitursynuly edge stands in Baitursynuly's record). No born_in or died_in edge is written: no place entity exists for Sarikopa, Solovki or Sosnovets. His father Dulat has no record, so no child_of edge is written. The queue file also carries a duplicate line for him, which this build covers."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102

@@ -1,0 +1,59 @@
+id: person/ahmet-baitursynuly
+class: person
+label:
+  ar: "أحمد بايتورسينوف"
+  en: "Ahmet Baitursynuly"
+  ur: "احمد بایتورسینوف"
+summary:
+  ar: "أحمد بايتورسينول (1872–1937)، لغوي وشاعر ومربٍّ كازاخي، أصلح الأبجدية العربية للغة الكازاخية، وشارك مع عليخان بوكيخانوف وميرجاقيب دولاتولي في تأسيس صحيفة «قازاق» سنة 1913 وفي قيادة حركة ألاش، وأُعدم رميًا بالرصاص في ألما آتا في التطهير الكبير سنة 1937."
+  en: "Ahmet Baitursynuly (1872–1937) was a Kazakh linguist, poet and educator who reformed the Arabic-based alphabet for Kazakh, co-founded the newspaper Qazaq in 1913 with Alikhan Bukeikhanov and Mirjaqip Dulatuli, helped lead the Alash movement, and was shot at Alma-Ata in the Great Purge of 1937."
+  ur: "احمد بایتورسینول (1872–1937) قازق ماہرِ لسانیات، شاعر اور معلم تھے جنہوں نے قازق زبان کے لیے عربی رسم الخط کی اصلاح کی، 1913 میں علی خان بوکیخانوف اور میر جاقیب دولاتولی کے ساتھ اخبار «قازق» کی بنیاد رکھی، علاش تحریک کی قیادت میں شریک رہے اور 1937 میں الما آتا میں گولی مار کر ہلاک کیے گئے۔"
+names:
+  - { value: "Ahmet Baitursynuly", kind: full }
+  - { value: "Ахмет Байтұрсынұлы", kind: full }
+  - { value: "Akhmet Baitursynov", kind: alternate }
+  - { value: "Ахмет Байтурсынов", kind: alternate }
+  - { value: "Ahmet Baitursynovich Baitursynov", kind: alternate }
+born:
+  edtf: "1872-09-05"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born at Aqkol in Turgay Oblast. The date is genuinely contested: the English article (which marks it circa), the Russian article and the Kazakh article all give 5 September 1872, and the Russian lead itself records a minority version of 28 January 1872; the Arabic article gives 28 January 1873, the year Wikidata's second, year-precision value carries, while Wikidata's day-precision value is 28 January 1872. The majority reading of three article texts is carried, with the dispute stated. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-baitursynuly-en, source/wikipedia-baitursynuly-ru, source/wikipedia-baitursynuly-kk, source/wikipedia-baitursynuly-ar, source/wikidata-baitursynuly]
+died:
+  edtf: "1937-12-08"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Executed by firing squad at Alma-Ata on 8 December 1937 in the Great Purge; the English, Russian, Kazakh and Arabic articles and Wikidata all agree on the day. No Hijri pairing is attested in the sources read, so no hijri key is carried. Neither Aqkol nor Alma-Ata has a place entity, so no born_in or died_in edge is written."
+  sources: [source/wikipedia-baitursynuly-en, source/wikipedia-baitursynuly-ru, source/wikidata-baitursynuly]
+wings: [people]
+regions: [persia-central-asia]
+roles: [scholar, poet, writer, teacher, politician]
+relations:
+  - type: allied_with
+    target: person/alikhan-bukeikhanov
+    note: "In 1913 Baitursynuly, the former First Duma deputy Alikhan Bukeikhanov and the poet Mirjaqip Dulatuli together founded the Kazakh newspaper Qazaq in Orenburg, with Baitursynuly as chief editor, and the three went on to lead the Alash movement together; the relationship is attested in both the English and Russian articles on Baitursynuly. The Baitursynuly–Dulatuli and Bukeikhanov–Dulatuli edges are written once each in Dulatuli's record."
+    sources: [source/wikipedia-baitursynuly-en, source/wikipedia-baitursynuly-ru]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or affiliation for him. The English text attests his birth into a Muslim Kazakh family, his literacy learned from village mullahs, and a marriage performed in a Muslim mosque; the Russian text adds that the marriage was performed in the Muslim rite and that his wife Alexandra Ivanovna had herself converted to Islam — her conversion and his family background and marriage rite are not attestations of his school. The Arabic article's only religion content is the category filing Muslims from the Russian Empire; no edition's infobox carries a religion field, and Wikidata carries no religion value at all. With no school reading in existence, the segment is unknown, unflagged (generic-only configuration)."
+    sources: [source/wikipedia-baitursynuly-en, source/wikipedia-baitursynuly-ru, source/wikipedia-baitursynuly-ar, source/wikidata-baitursynuly]
+external_ids:
+  wikidata: Q1047477
+sources:
+  - source/wikipedia-baitursynuly-en
+  - source/wikipedia-baitursynuly-ru
+  - source/wikipedia-baitursynuly-kk
+  - source/wikipedia-baitursynuly-ar
+  - source/wikidata-baitursynuly
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Kazakh and Arabic Wikipedia articles on Ahmet Baitursynuly and Wikidata item Q1047477, each read at a recorded revision; existence checked both ways before building — name fragments (baitursyn, baytursyn) and slug variants across data/person found no person file (the fragments occur only as mentions inside person/alikhan-bukeikhanov), and Q1047477, grounded through the English article's page properties and confirmed through the Russian, Kazakh and Arabic articles', matched no existing record. An allied_with edge to person/alikhan-bukeikhanov is written here for their attested co-founding of the newspaper Qazaq in 1913 and joint Alash leadership; the pair edges involving Mirjaqip Dulatuli are written in Dulatuli's record so each pair is written once. No student_of edge to person/ybrai-altynsarin is written: the English article attests only that Altynsarin founded the Orenburg teachers' school Baitursynuly attended, not personal tuition. No born_in or died_in edge is written: no place entity exists for Aqkol or Alma-Ata. His father Baitursyn Shoshakuly has no record, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-102
