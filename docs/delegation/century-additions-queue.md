@@ -466,11 +466,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] King Abdulaziz Al Saud — 1875–1953
 - [x] King Saud bin Abdulaziz — 1902–1969
 - [x] King Khalid bin Abdulaziz — 1913–1982
-- [ ] King Fahd bin Abdulaziz — 1921–2005
-- [ ] King Abdullah bin Abdulaziz — 1924–2015
-- [ ] King Salman bin Abdulaziz — 1935–Living
-- [ ] Crown Prince Mohammed bin Salman — 1985–Living
-- [ ] Sheikh Zayed bin Sultan Al Nahyan — 1918–2004
+- [x] King Fahd bin Abdulaziz — 1921–2005
+- [x] King Abdullah bin Abdulaziz — 1924–2015
+- [x] King Salman bin Abdulaziz — 1935–Living
+- [x] Crown Prince Mohammed bin Salman — 1985–Living
+- [x] Sheikh Zayed bin Sultan Al Nahyan — 1918–2004
 - [ ] Sheikh Rashid bin Saeed Al Maktoum — 1912–1990
 - [ ] Sheikh Khalifa bin Zayed Al Nahyan — 1948–2022
 - [ ] Sheikh Mohamed bin Zayed Al Nahyan — 1961–Living

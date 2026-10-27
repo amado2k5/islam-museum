@@ -1,0 +1,47 @@
+id: person/mohammed-bin-salman
+class: person
+label:
+  ar: "محمد بن سلمان آل سعود"
+  en: "Mohammed bin Salman"
+  ur: "محمد بن سلمان آل سعود"
+names:
+  - { value: "Mohammed bin Salman bin Abdulaziz Al Saud", kind: full }
+  - { value: "محمد بن سلمان بن عبد العزيز آل سعود", kind: full }
+  - { value: "MbS", kind: alternate }
+summary:
+  ar: "ولي عهد المملكة العربية السعودية منذ 21 يونيو 2017 ورئيس مجلس وزرائها منذ 27 سبتمبر 2022، ابن الملك سلمان بن عبد العزيز؛ وزير الدفاع من 2015 إلى 2022 وصاحب برنامج «رؤية السعودية 2030» المعلن سنة 2016، قاد إصلاحات اجتماعية واقتصادية حدّت من نفوذ المؤسسة الدينية في بلاده؛ وهو ولي عهد لا ملك، فلا خلافة ملكية له في هذا السجل."
+  en: "Crown Prince of Saudi Arabia since 21 June 2017 and Prime Minister since 27 September 2022; the son of King Salman. Defence minister from 2015 to 2022 and the author of the Saudi Vision 2030 programme announced in 2016, he has led social and economic reforms that curtailed the religious establishment's role in his country. He is a crown prince, not a king, and no kingship succession is recorded for him."
+  ur: "سعودی عرب کے ولی عہد از 21 جون 2017ء اور وزیر اعظم از 27 ستمبر 2022ء؛ شاہ سلمان بن عبد العزیز کے صاحبزادے؛ 2015ء سے 2022ء تک وزیر دفاع رہے اور 2016ء میں اعلان کردہ «سعودی ویژن 2030» کے بانی ہیں؛ انھوں نے سماجی و معاشی اصلاحات کی قیادت کی جن سے ان کے ملک میں مذہبی ادارے کا کردار محدود ہوا؛ وہ ولی عہد ہیں، بادشاہ نہیں، لہٰذا اس ریکارڈ میں ان کے لیے کوئی بادشاہت کی جانشینی درج نہیں۔"
+external_ids: { wikidata: Q6892571 }
+born:
+  edtf: "1985-08-31"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Riyadh on 31 August 1985 (English article; Wikidata gives the same date and place), the first child of Salman and his third wife Fahda bint Falah Al Hithlain. The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Riyadh, so no born_in relation is written."
+  sources: [source/wikipedia-mohammed-bin-salman-en, source/wikidata-mohammed-bin-salman]
+gender: male
+roles: [politician]
+relations:
+  - { type: child_of, target: person/salman-bin-abdulaziz, sources: [source/wikipedia-mohammed-bin-salman-en, source/wikidata-mohammed-bin-salman] }
+  - { type: member_of, target: group/al-saud, sources: [source/wikipedia-mohammed-bin-salman-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder. A Sunni reading rests on a single structured value: the English article's infobox religion field ('Sunni Islam'). It is not corroborated within its own family — the Arabic article's infobox religion field gives Islam generically and Wikidata's religion (P140) value is likewise Islam (Q432) only — and the 'Saudi Sunni Muslims' categories in the Arabic and Urdu editions and 'Sunni monarchs' filings are filings, which never attest. No article text names a school as his own; his televised remarks of 25 April 2021 criticising devotion to Wahhabi doctrines and saying there are 'no fixed schools of thought' are statements of religious policy, not an attestation of personal affiliation. This is the single-infobox configuration of Khalid bin Abdulaziz (wave 83, FLAGGED), so under the doubt rule the school is left unclassified and the reading is preserved here."
+    sources: [source/wikipedia-mohammed-bin-salman-en, source/wikipedia-mohammed-bin-salman-ar, source/wikipedia-mohammed-bin-salman-ur, source/wikidata-mohammed-bin-salman]
+sources:
+  - source/wikipedia-mohammed-bin-salman-ar
+  - source/wikipedia-mohammed-bin-salman-en
+  - source/wikipedia-mohammed-bin-salman-ur
+  - source/wikidata-mohammed-bin-salman
+wings: [people, living]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "Wikipedia (English), revision 1381622623 of 23 October 2026; Wikipedia (Arabic), revision 76994210 of 17 October 2026; Wikipedia (Urdu), revision 9769198 of 10 April 2026; Wikidata item Q6892571, revision 2558362919 of 18 October 2026 — each article fetched by its recorded revision id and asserted equal to it; Wikidata read via its API at the recorded item revision (all read 27 October 2026). No prior museum record: name-fragment, biography, provenance and QID checks across data/person/ found only other people."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published }

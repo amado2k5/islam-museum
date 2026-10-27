@@ -1,0 +1,56 @@
+id: person/fahd-bin-abdulaziz
+class: person
+label:
+  ar: "فهد بن عبد العزيز آل سعود"
+  en: "Fahd bin Abdulaziz Al Saud"
+  ur: "فہد بن عبدالعزیز آل سعود"
+names:
+  - { value: "Fahd bin Abdulaziz bin Abdul Rahman Al Saud", kind: full }
+  - { value: "فهد بن عبد العزيز بن عبد الرحمن آل سعود", kind: full }
+  - { value: "Fahd of Saudi Arabia", kind: regnal }
+summary:
+  ar: "خامس ملوك المملكة العربية السعودية (1982–2005) وأكبر «السديريين السبعة» أبناء الملك عبد العزيز من حصة بنت أحمد السديري؛ وزير المعارف (1953–1962) ثم وزير الداخلية (1962–1975) ثم ولي العهد (1975–1982)؛ اتخذ لقب «خادم الحرمين الشريفين» سنة 1986 وأصدر النظام الأساسي للحكم سنة 1992، وبعد إصابته بجلطة سنة 1995 صار ولي عهده عبد الله الحاكم الفعلي حتى وفاته في الرياض في 1 أغسطس 2005."
+  en: "Fifth King of Saudi Arabia (r. 1982–2005) and the eldest of the Sudairi Seven, the sons of King Abdulaziz by Hassa bint Ahmed Al Sudairi. He was Minister of Education (1953–1962), Interior Minister (1962–1975) and Crown Prince (1975–1982); as king he adopted the title Custodian of the Two Holy Mosques in 1986 and introduced the Basic Law of Governance in 1992. After his stroke in 1995 Crown Prince Abdullah governed in practice until Fahd's death at Riyadh on 1 August 2005."
+  ur: "سعودی عرب کے پانچویں بادشاہ (1982ء–2005ء) اور شاہ عبد العزیز اور حصہ بنت احمد السدیری کے بیٹوں «سدیری سبعہ» میں سب سے بڑے؛ وزیر تعلیم (1953ء–1962ء)، وزیر داخلہ (1962ء–1975ء) اور ولی عہد (1975ء–1982ء) رہے؛ 1986ء میں «خادم الحرمین الشریفین» کا لقب اختیار کیا اور 1992ء میں نظام اساسی برائے حکمرانی جاری کیا؛ 1995ء میں فالج کے بعد ولی عہد عبداللہ عملی حکمران بن گئے اور فہد 1 اگست 2005ء کو ریاض میں وفات پا گئے۔"
+external_ids: { wikidata: Q183187 }
+born:
+  edtf: "1921"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Birth year disputed across the sources: the English article's lead gives only '1920, 1921 or 1923', its categories file him under births in 1920, and the Urdu article files him under both 1920 and 1921 births, while Wikidata carries all three years. The Arabic article's infobox, citing a book by Fahd bin Abdullah al-Samari and Nasir bin Muhammad al-Juhaimi, gives 16 March 1921 paired with 1340 AH, but that pairing does not convert — 16 March 1921 falls in 1339 AH by tabular conversion — so neither the day nor a Hijri year is recorded from it. Born at Riyadh (English and Arabic articles); the museum has no place entity for Riyadh, so no born_in relation is written. The year 1921 is followed as the year given by the Arabic article's date."
+  sources: [source/wikipedia-fahd-bin-abdulaziz-en, source/wikipedia-fahd-bin-abdulaziz-ar, source/wikipedia-fahd-bin-abdulaziz-ur, source/wikidata-fahd-bin-abdulaziz]
+died:
+  edtf: "2005-08-01"
+  hijri: "1426"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Riyadh on 1 August 2005 (English and Arabic articles; Wikidata gives the same date). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Riyadh, so no died_in relation is written."
+  sources: [source/wikipedia-fahd-bin-abdulaziz-en, source/wikipedia-fahd-bin-abdulaziz-ar, source/wikidata-fahd-bin-abdulaziz]
+gender: male
+roles: [ruler]
+relations:
+  - { type: successor_of, target: person/khalid-bin-abdulaziz, sources: [source/wikipedia-fahd-bin-abdulaziz-en] }
+  - { type: child_of, target: person/ibn-saud, sources: [source/wikipedia-fahd-bin-abdulaziz-en, source/wikidata-fahd-bin-abdulaziz] }
+  - { type: member_of, target: group/al-saud, sources: [source/wikipedia-fahd-bin-abdulaziz-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder. No source names a school for him: no article text states one, neither the English nor the Arabic infobox has a religion field, and Wikidata's religion (P140) value is Islam only. A Sunni reading rests on category filings alone — the Arabic article files him under 'Saudi Sunni Muslims' (مسلمون سنة سعوديون) and the Urdu stub under 'Saudi Sunni Muslims' (سعودی سنی مسلم) — and filings never attest. His adoption of the title Custodian of the Two Holy Mosques is an office he held, which never counts (headship line). This is the same configuration as Faisal bin Abdulaziz (wave 83, FLAGGED on a filing alone) and weaker than a text attestation in every respect; under the doubt rule the school is left unclassified and the reading is preserved here."
+    sources: [source/wikipedia-fahd-bin-abdulaziz-en, source/wikipedia-fahd-bin-abdulaziz-ar, source/wikipedia-fahd-bin-abdulaziz-ur, source/wikidata-fahd-bin-abdulaziz]
+sources:
+  - source/wikipedia-fahd-bin-abdulaziz-ar
+  - source/wikipedia-fahd-bin-abdulaziz-en
+  - source/wikipedia-fahd-bin-abdulaziz-ur
+  - source/wikidata-fahd-bin-abdulaziz
+wings: [people]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "Wikipedia (English), revision 1371397744 of 26 August 2026; Wikipedia (Arabic), revision 76623380 of 18 September 2026; Wikipedia (Urdu), revision 11671458 of 22 July 2026; Wikidata item Q183187, revision 2558582584 of 19 October 2026 — each article fetched by its recorded revision id and asserted equal to it; Wikidata read via its API at the recorded item revision (all read 27 October 2026). No prior museum record: name-fragment, biography, provenance and QID checks across data/person/ found only other people."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published }
