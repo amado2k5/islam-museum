@@ -1,0 +1,36 @@
+id: person/aziz-akhannouch
+class: person
+label: { ar: "عزيز أخنوش", en: "Aziz Akhannouch", ur: "عزیز اخنوش" }
+names:
+  - { value: "عزيز أخنوش", kind: full }
+  - { value: "Aziz Akhannouch", kind: full }
+gender: male
+summary:
+  ar: "رجل أعمال وسياسي مغربي من أصل أمازيغي، وُلد بتافراوت سنة 1961. رئيس مجموعة أكوا، ووزير الفلاحة (2007–2021)، ورئيس حزب التجمع الوطني للأحرار (2016–2026)، ورئيس حكومة المغرب من سبتمبر 2021 إلى سبتمبر 2026."
+  en: "Moroccan businessman and politician of Amazigh origin, born at Tafraout in 1961. Head of the Akwa Group, minister of agriculture (2007–2021), leader of the National Rally of Independents (2016–2026), and prime minister of Morocco from September 2021 to September 2026."
+  ur: "مراکشی تاجر اور سیاست دان، جو 1961 میں تفراوت میں پیدا ہوئے۔ اکوا گروپ کے سربراہ، وزیرِ زراعت (2007–2021)، نیشنل ریلی آف انڈیپنڈنٹس کے رہنما (2016–2026)، اور ستمبر 2021 سے ستمبر 2026 تک مراکش کے وزیرِ اعظم رہے۔"
+roles: [politician, businessman]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1961-08-16"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article (citing Jeune Afrique and the Moroccan government site) and the Arabic article (citing the government biography page) give 16 August 1961; Wikidata agrees. The Urdu stub gives 31 December 1961, cited to TelQuel, which is not followed. The English infobox gives the birthplace as Tafraout; the English text specifies the village of Aguerd Oudad near Tafraout. Neither Tafraout nor Aguerd Oudad has a place entity, so no born_in edge is written. The Hijri year (1381) is derived from the Gregorian date."
+  sources: [source/wikipedia-aziz-akhannouch-en, source/wikipedia-aziz-akhannouch-ar, source/wikipedia-aziz-akhannouch-ur, source/wikidata-aziz-akhannouch]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a religion or a school for him, and no infobox has a religion field. Wikidata gives Islam (generic) alone; the Urdu article's categories file him under Moroccan Muslims. A generic structured value plus a category filing is one attestation short of any school reading, and no school is named anywhere."
+    sources: [source/wikidata-aziz-akhannouch, source/wikipedia-aziz-akhannouch-ur]
+external_ids: { wikidata: "Q1638114" }
+sources: [source/wikipedia-aziz-akhannouch-en, source/wikipedia-aziz-akhannouch-ar, source/wikipedia-aziz-akhannouch-ur, source/wikidata-aziz-akhannouch]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Aziz Akhannouch, each fetched by its recorded revision id (EN 1380769390, AR 76969079, UR 11715565) with the returned id asserted equal before use, and Wikidata item Q1638114 (revision 2556394155, read twice with identical revisions), the QID grounded through the English article's pageprops. Existence checks by Latin and Arabic name fragments (Akhannouch, أخنوش), by grounded QID across data/person, and by biography found no prior record. His premiership is closed (10 September 2021 – 29 September 2026 per both infoboxes); he is living, and the living wing is carried. Succession in the premiership (predecessor Saadeddine Othmani, successor Fatima Ezzahra El Mansouri) is prose only per block practice; neither has a record in any case."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,48 @@
+id: person/mahmoud-jibril
+class: person
+label: { ar: "محمود جبريل", en: "Mahmoud Jibril", ur: "محمود جبریل" }
+names:
+  - { value: "محمود جبريل الورفلي", kind: full }
+  - { value: "Mahmoud Jibril el-Warfally", kind: full }
+  - { value: "Mahmoud Jibril", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ليبي (1952–2020)، خبير تخطيط استراتيجي تدرّب في القاهرة وبيتسبرغ. ترأس مجلسَي التخطيط الوطني والتطوير الاقتصادي في ليبيا (2007–2011)، ثم ترأس المكتب التنفيذي للمجلس الوطني الانتقالي رئيسًا مؤقتًا للوزراء أثناء إسقاط نظام القذافي (2011)، وأسس تحالف القوى الوطنية وقاده حتى وفاته بالقاهرة."
+  en: "Libyan politician (1952–2020), a strategic-planning specialist trained at Cairo and Pittsburgh. He headed Libya's National Planning Council and National Economic Development Board (2007–2011), then chaired the National Transitional Council's executive board as interim prime minister during the overthrow of the Gaddafi regime (2011), and founded and led the National Forces Alliance until his death in Cairo."
+  ur: "لیبیائی سیاست دان (1952–2020)، قاہرہ اور پٹسبرگ سے تعلیم یافتہ اسٹریٹجک منصوبہ بندی کے ماہر۔ انہوں نے لیبیا کی قومی منصوبہ بندی کونسل اور قومی اقتصادی ترقی بورڈ کی سربراہی کی (2007–2011)، پھر قذافی حکومت کے خاتمے کے دوران قومی عبوری کونسل کے ایگزیکٹو بورڈ کے چیئرمین بطورِ عبوری وزیرِ اعظم رہے (2011)، اور وفات تک قومی قوتوں کے اتحاد کی قیادت کی۔"
+roles: [politician]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1952-05-28"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's infobox gives 28 May 1952, citing the Library of Congress authority record, and Bayda as birthplace, citing the University of Pittsburgh and the Daily Telegraph; Wikidata agrees on the date. The Arabic article gives the year only (1952) in its text, and its categories place the birth at Bayda — a filing. Bayda in Libya has no place entity (place/bayda-fars is the Iranian town), so no born_in edge is written. The Hijri year (1371) is derived from the Gregorian date."
+  sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar, source/wikidata-mahmoud-jibril]
+died:
+  edtf: "2020-04-05"
+  hijri: "1441"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on 5 April 2020, after a cardiac arrest on 21 March 2020 and a positive COVID-19 test (English article); the Arabic article likewise gives Cairo, 5 April 2020, from COVID-19 with heart problems. The Hijri year (1441) is derived from the Gregorian date."
+  sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a religion or a school for him, and no infobox has a religion field. Wikidata gives Islam (generic) alone. The only school signal anywhere is the Arabic article's category filing under Libyan Sunni Muslims, and category filings never attest. No school is recorded."
+    sources: [source/wikidata-mahmoud-jibril, source/wikipedia-mahmoud-jibril-ar]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar] }
+external_ids: { wikidata: "Q296724" }
+sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar, source/wikidata-mahmoud-jibril]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Mahmoud Jibril, each fetched by its recorded revision id (EN 1381940297, AR 76479747) with the returned id asserted equal before use, and Wikidata item Q296724 (revision 2554105864, read twice with identical revisions), the QID grounded through the English article's pageprops. No Urdu article exists; the Urdu prose cites the English and Arabic articles and says so. Existence checks by Latin and Arabic name fragments (Jibril, جبريل, Warfally, الورفلي), by grounded QID across data/person, and by biography found no prior record — the other Jibril records in the graph are earlier namesakes and the angel. His interim premiership's predecessor and successor (Baghdadi Mahmudi; Ali Tarhouni acting) are prose only per block practice and have no records in any case. No founder_of or member_of edge is written for the National Forces Alliance or the National Transitional Council: neither group entity exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-94
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
