@@ -1,0 +1,47 @@
+id: person/muhammad-taqi-amini
+class: person
+label: { ar: "محمد تقي الأميني", en: "Muhammad Taqi Amini", ur: "محمد تقی امینی" }
+names:
+  - { value: "محمد تقي الأميني", kind: full }
+  - { value: "Muhammad Taqi Amini", kind: full }
+gender: male
+summary:
+  ar: "عالم هندي سني وفقيه ومؤلف باللغة الأردية (1926–1991). كان عميد كلية اللاهوت في جامعة عليكرة الإسلامية، واشتهر بأعماله في الفقه الإسلامي، ومنها كتابه «فقہ اسلامی کا تاریخی پس منظر»."
+  en: "Indian Sunni Islamic scholar, jurist and Urdu author (1926–1991). He was dean of the Faculty of Theology at Aligarh Muslim University and is known for his works on Islamic jurisprudence, including Fiqh-e-Islami Ka Tareekhi Pas-e-Manzar."
+  ur: "ہندوستانی سنی عالم، فقیہ اور اردو مصنف (1926ء–1991ء)۔ وہ علی گڑھ مسلم یونیورسٹی کے کلیہ دینیات کے ڈین رہے اور فقہ اسلامی پر اپنی تصانیف، خصوصاً «فقہ اسلامی کا تاریخی پس منظر» کے لیے مشہور ہیں۔"
+roles: [scholar, jurist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1926-05-05"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Urdu and Arabic articles and Wikidata agree: born 5 May 1926 at Subeha in Barabanki district. The Hijri year (1344) is a conversion. No place entity exists for Subeha or Barabanki, so no born_in edge is written."
+  sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ur, source/wikidata-muhammad-taqi-amini]
+died:
+  edtf: "1991-01-21"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Urdu and Arabic articles and Wikidata agree: died 21 January 1991 at Aligarh. The Hijri year (1411) is a conversion. No place entity exists for Aligarh, so no died_in edge is written."
+  sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ur, source/wikidata-muhammad-taqi-amini]
+relations:
+  - { type: student_of, target: person/kifayatullah-dehlvi, sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ur] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "FLAGGED — configuration (ii), a text tradition plus one infobox family, the Kifayatullah Dehlvi configuration; one founder word downgrades this segment to unknown. What the sources give, exactly: the lead of the English article calls him an 'Indian Sunni Islamic scholar' and the Urdu article's lead calls him a Sunni scholar in text — the Urdu article follows the English, so the two texts are ONE family. The religious-biography infobox module carried by both the English and Urdu editions (one infobox family) gives denomination Sunni, jurisprudence Hanafi and creed Maturidi. Sunni is therefore named by two families and is recorded documented. The Hanafi school and the Maturidi creed are named ONLY by the infobox family, so no sunni-hanafi segment is recorded and both rest in this note, the Imam Shamil pattern. His Deobandi affiliation is attested at filing level — the Deobandis categories of all three editions and the English article's 'List of Deobandis' see-also — and by his formation under Kifayatullah Dihlawi at Madrasa Aminia in Delhi; a movement affiliation and a formation are not school attestations and were never counted. Wikidata carries no religion value for him at all. If the founder counts only text traditions, this segment falls to unknown."
+    sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ar, source/wikipedia-muhammad-taqi-amini-ur, source/wikidata-muhammad-taqi-amini]
+external_ids: { wikidata: "Q89270817" }
+sources: [source/wikipedia-muhammad-taqi-amini-en, source/wikipedia-muhammad-taqi-amini-ar, source/wikipedia-muhammad-taqi-amini-ur, source/wikidata-muhammad-taqi-amini]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad Taqi Amini' (revision 1379640256), Arabic Wikipedia 'محمد تقي الأميني' (revision 76767711), Urdu Wikipedia 'محمد تقی امینی' (revision 10305956) and Wikidata item Q89270817 (item revision 2514296968, confirmed by two agreeing reads), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (amini, taqi), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists; the museum's muhammad-taqi-amoli, muhammad-taqi-al-majlisi and mohammad-taqi-bahar are different men. The student_of edge follows the texts: the English article states he completed his dars-e-nizami studies under Kifayatullah Dihlawi at Madrasa Aminia, and the target record person/kifayatullah-dehlvi exists. No member_of edge to the Deobandi group is written: the articles attest that affiliation at filing level only, and it is recorded in the faith note instead."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

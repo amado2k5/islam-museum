@@ -1,0 +1,47 @@
+id: person/jigar-moradabadi
+class: person
+label: { ar: "جيجار مورادابادي", en: "Jigar Moradabadi", ur: "جگر مراد آبادی" }
+names:
+  - { value: "علی سکندر", kind: full }
+  - { value: "Ali Sikandar", kind: full }
+  - { value: "جگر مراد آبادی", kind: pen }
+  - { value: "Jigar Moradabadi", kind: pen }
+gender: male
+summary:
+  ar: "شاعر غزل أردي هندي (1890–1960)، وُلد باسم علي سكندر في مراد آباد. كان أستاذا لمجروح سلطانبوري، ونال جائزة أكاديمية ساهيتيا سنة 1958 عن ديوانه «آتش گل»."
+  en: "Indian Urdu ghazal poet (1890–1960), born Ali Sikandar in Moradabad. He was a mentor to Majrooh Sultanpuri and received the Sahitya Akademi Award in 1958 for his collection Atish-e-Gul."
+  ur: "ہندوستانی اردو غزل گو شاعر (1890ء–1960ء)، جو مراد آباد میں علی سکندر کے نام سے پیدا ہوئے۔ وہ مجروح سلطانپوری کے استاد تھے اور انہیں اپنے مجموعے «آتش گل» پر 1958ء میں ساہتیہ اکادمی انعام ملا۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1890-04-06"
+  hijri: "1307"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree: born 6 April 1890 at Moradabad. The English article's lead and the Urdu article give his birth name as Ali Sikandar; the English infobox reverses it as 'Sikander Ali', and the record follows the two texts. The Hijri year (1307) is a conversion. No place entity exists for Moradabad, so no born_in edge is written."
+  sources: [source/wikipedia-jigar-moradabadi-en, source/wikipedia-jigar-moradabadi-ur, source/wikidata-jigar-moradabadi]
+died:
+  edtf: "1960-09-09"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree: died 9 September 1960 at Gonda, where he had settled late in life. The Hijri year (1380) is a conversion. No place entity exists for Gonda, so no died_in edge is written."
+  sources: [source/wikipedia-jigar-moradabadi-en, source/wikipedia-jigar-moradabadi-ur, source/wikidata-jigar-moradabadi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school. The English text makes no statement of his religion, and neither does the Urdu text; the Urdu article files him among 'Indian Muslim personalities' (a category filing) and Wikidata gives a single structured value, Islam only. His Sufi-themed verse, sung by qawwals, is literary work, not an attestation of affiliation. Under the lane's two-source rule nothing more can be recorded."
+    sources: [source/wikipedia-jigar-moradabadi-en, source/wikipedia-jigar-moradabadi-ur, source/wikidata-jigar-moradabadi]
+external_ids: { wikidata: "Q81187" }
+sources: [source/wikipedia-jigar-moradabadi-en, source/wikipedia-jigar-moradabadi-ur, source/wikidata-jigar-moradabadi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Jigar Moradabadi' (revision 1376694115), Urdu Wikipedia 'جگر مراد آبادی' (revision 11801263) and Wikidata item Q81187 (item revision 2517065998, confirmed by two agreeing reads), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (jigar, moradabadi, sikandar), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists. No Arabic Wikipedia article exists for him (the arz article is Egyptian dialect and is not used); the Arabic prose is written from the English and Urdu sources and says so. No relations are written: the poet Asghar Gondvi, his friend at Gonda in the English text, has no record in the museum yet, and Majrooh Sultanpuri's studentship would be written in the student's own record in any case."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-73
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
