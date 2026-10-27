@@ -1,0 +1,50 @@
+id: person/abdul-majid-daryabadi
+class: person
+label: { ar: "عبد الماجد الدريابادي", en: "Abdul Majid Daryabadi", ur: "عبد الماجد دریابادی" }
+names:
+  - { value: "Abdul Majid Daryabadi", kind: full }
+  - { value: "عبد الماجد الدريابادي", kind: full }
+  - { value: "عبد الماجد دریابادی", kind: full }
+  - { value: "Daryabadi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم وكاتب ومفسّر هندي (1892–1977) من درياباد في بارابنكي، صاحب «تفسير ماجدي» بالأردية والإنجليزية ومحرّر أسبوعية «صدق جديد» حتى وفاته. مرّ في شبابه بفترة عقلانية ولاأدرية نحو 1909–1918 ثم عاد إلى الإسلام، وأخذ البيعة عن أشرف علي التهانوي سنة 1928 وجددها عند حسين أحمد المدني، وكتب أكثر من سبعين كتابًا في التفسير والسيرة والفلسفة وعلم النفس."
+  en: "Indian scholar, writer and exegete (1892–1977) of Daryabad in Barabanki district, author of the Tafsir-e-Majidi in Urdu and English and editor of the weekly Sidq-e-Jadid until his death. In his youth he passed through a rationalist and agnostic period, about 1909–1918, then returned to Islam, took the oath of allegiance from Ashraf Ali Thanwi in 1928 and renewed it under Hussain Ahmad Madani, and wrote more than seventy books on exegesis, biography, philosophy and psychology."
+  ur: "بھارتی عالم، ادیب و مفسر (1892ء–1977ء) جن کا تعلق بارہ بنکی کے دریا آباد سے تھا، اردو و انگریزی «تفسیر ماجدی» کے مصنف اور ہفت روزہ «صدق جدید» کے تاحیات مدیر۔ نوجوانی میں تقریباً 1909ء–1918ء عقل پرستی و لاادریت کے دور سے گزرے پھر اسلام کی طرف لوٹ آئے، 1928ء میں اشرف علی تھانوی سے بیعت کی اور حسین احمد مدنی کے ہاتھ پر اس کی تجدید کی، اور تفسیر، سیرت، فلسفہ و نفسیات پر ستر سے زائد کتابیں لکھیں۔"
+roles: [scholar, writer, philosopher]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1892-03-16"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Daryabad, Barabanki district, on 16 March 1892; the Urdu article pairs the date with 16 Sha'ban 1309 AH, and the English article and Wikidata agree on the Gregorian date. Daryabad has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-abdul-majid-daryabadi-en, source/wikipedia-abdul-majid-daryabadi-ur, source/wikidata-abdul-majid-daryabadi]
+died:
+  edtf: "1977-01-06"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died before dawn on 6 January 1977 at Khatun Manzil, Lucknow, as the Urdu article states (15 Muharram 1397 AH) and the English article's narrative of his last days at Khatun Manzil in Lucknow confirms; his body was taken to his ancestral Daryabad and buried in the family graveyard there, as both texts state. The English infobox's Barabanki district death place and Wikidata's Daryabad value name the burial town, not the place of death, and are not followed for the death place. Lucknow has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-abdul-majid-daryabadi-en, source/wikipedia-abdul-majid-daryabadi-ur, source/wikidata-abdul-majid-daryabadi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: the lane's bar of two independent texts naming a school personally is not met, and the readings are preserved here. One text, the English article, names his school in prose — as a follower of Abu Hanifa's teachings his mazhab was Hanafism, and he interpreted his tafsir in the Hanafi school (citing Mabood 2019) — and the same English text states that he took the oath of allegiance from Ashraf Ali Thanwi in 1928 and later renewed it under Hussain Ahmad Madani, which would attest a Sufi affiliation. But both namings rest on that one text family: the Urdu article's prose names no school and records no bay'ah (Hanafi and Maturidi appear only in its category filings), the Arabic stub says only that he was strongly influenced by Thanwi and Madani, which is influence, not initiation, and the English article's own embedded infobox (Sunni, Hanafi, Maturidi fields) is the same family as its text. Wikidata's Sunni Islam value is that family's structured echo. His father's Qadiriyya adherence is family background and never counts. His youthful rationalist period (about 1909–1918) ended six decades before these attestations and does not bear on them; the record assesses his settled, later affiliation, and on that question the Hanafi and the Sufi readings each stand one independent text short."
+    sources: [source/wikipedia-abdul-majid-daryabadi-en, source/wikipedia-abdul-majid-daryabadi-ur, source/wikipedia-abdul-majid-daryabadi-ar, source/wikidata-abdul-majid-daryabadi]
+relations:
+  - { type: student_of, target: person/ashraf-ali-thanwi, sources: [source/wikipedia-abdul-majid-daryabadi-en] }
+  - { type: student_of, target: person/husain-ahmad-madani, sources: [source/wikipedia-abdul-majid-daryabadi-en] }
+external_ids: { wikidata: "Q4665524" }
+sources: [source/wikipedia-abdul-majid-daryabadi-en, source/wikipedia-abdul-majid-daryabadi-ur, source/wikipedia-abdul-majid-daryabadi-ar, source/wikidata-abdul-majid-daryabadi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Majid Daryabadi' (revision 1382180796), Urdu Wikipedia 'عبد الماجد دریابادی' (revision 11800755) and Arabic Wikipedia 'عبد الماجد دريبادي' (revision 73418421), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q4665524 (item revision 2561065232). The three articles are independently written; the Arabic is a short stub. Existence checks by name fragments (daryabadi, دریابادی, الدريابادي), by Arabic label across data/person, by biography and by QID found no prior record for this man. The student_of edges follow the English text's bay'ah statements: Daryabadi took the oath of allegiance from Ashraf Ali Thanwi in 1928 and later renewed it under Hussain Ahmad Madani with Thanwi's permission, and the article's lead calls him a disciple of both men; the edges record initiation, stated here because his faith segment could not be recorded on one text — an edge states the documented relationship, while the faith value awaits a second independent text. Relations to Shibli Nomani are not written: the texts state association and work with him, not study under him. Daryabad and Lucknow have no place entities. The lane queue gives 1892–1977, which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,54 @@
+id: person/hamiduddin-farahi
+class: person
+label: { ar: "حميد الدين الفراهي", en: "Hamiduddin Farahi", ur: "حمید الدین فراہی" }
+names:
+  - { value: "Hamiduddin Farahi", kind: full }
+  - { value: "حميد الدين الفراهي", kind: full }
+  - { value: "حمید الدین فراہی", kind: full }
+  - { value: "Abd al-Hamid al-Farahi", kind: alternate }
+  - { value: "عبد الحميد الفراهي", kind: alternate }
+  - { value: "Hamiduddin", kind: laqab }
+  - { value: "Abu Ahmad", kind: kunya }
+  - { value: "أبو أحمد", kind: kunya }
+  - { value: "Farahi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم ومفسّر هندي (1863–1930) من فريها في قضاء أعظم كره، صاحب نظرية «النظم» أو التماسك في القرآن ومؤسس ما عُرف بالمدرسة الفراهية. تعلّم العربية على ابن خاله شبلي النعماني، ودرّس في كراتشي وكلية عليكره وحيدر آباد، وأدار مدرسة الإصلاح في سراي مير منذ 1925 حيث تخرّج عليه أمين أحسن الإصلاحي، وترك تفسيره «نظام القرآن» غير مكتمل عند وفاته في مثورا."
+  en: "Indian scholar and exegete (1863–1930) of Phariha in Azamgarh district, originator of the theory of nazm, or coherence, in the Qur'an and founder of what became known as the Farahi school. He learned Arabic from his cousin Shibli Nomani, taught at Karachi, the MAO College at Aligarh and Hyderabad, and from 1925 ran Madrasatul Islah at Sara-e-Mir, where Amin Ahsan Islahi trained under him; his commentary Nizam al-Qur'an was left unfinished at his death at Mathura."
+  ur: "بھارتی عالم و مفسر (1863ء–1930ء) جن کا تعلق ضلع اعظم گڑھ کے پھریہا سے تھا، قرآن میں «نظم» یعنی ربط و تناسق کے نظریے کے بانی اور فراہی مکتبِ فکر کے مؤسس۔ اپنے پھوپھی زاد بھائی شبلی نعمانی سے عربی پڑھی، کراچی، علی گڑھ کالج اور حیدر آباد میں تدریس کی، اور 1925ء سے سرائے میر میں مدرسۃ الاصلاح کے منتظم رہے جہاں امین احسن اصلاحی نے ان سے تربیت پائی؛ ان کی تفسیر «نظام القرآن» متھرا میں وفات کے وقت نامکمل رہ گئی۔"
+roles: [scholar, teacher, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1863-11-18"
+  hijri: "1280"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Phariha (Phariya) village in Azamgarh district on 18 November 1863, as the English and Urdu articles give; the Arabic article gives Wednesday 6 Jumada al-akhira 1280 AH, which converts to 18 November, but pairs it in print with 17 November, a one-day slip that is not followed. The Urdu article's own pairing misprints the Hijri year as 1230 for 1280 AH. Phariha has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-hamiduddin-farahi-en, source/wikipedia-hamiduddin-farahi-ur, source/wikipedia-hamiduddin-farahi-ar]
+died:
+  edtf: "1930-11-11"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Mathura on 11 November 1930 after surgery and was buried there, as the Arabic article (19 Jumada al-akhira 1349 AH) and the English article agree. Mathura has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-hamiduddin-farahi-en, source/wikipedia-hamiduddin-farahi-ar, source/wikidata-hamiduddin-farahi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded. The only school naming anywhere is structured: the English infobox carries a Sunni denomination field, the Urdu and Arabic articles file him under Indian Sunni scholars, and Wikidata's single religion value is Islam — infobox fields, category filings and structured values never count as text attestations. The texts that discuss his position at all point the other way on the madhhab question: Taqi al-Din al-Hilali, who met him, is quoted in both the Urdu article (from the journal al-Diya) and the Arabic article (from Ajmal Ayyub Islahi's edition) saying that he was a mujtahid in creed and practice who did not belong to, and disliked attribution to, any fiqh school, but worshipped according to the Hanafi school because he was raised in it — one witness in two transmissions, and in any case an attestation of non-affiliation and of upbringing and practice, which never count. The Urdu article's description of him as 'mujtahid fi al-madhhab' is a single text's rank description set against al-Hilali's statement in the same article. His distinct Qur'anic method — the nazm theory and the Farahi school named after him — is scholarship, not a madhhab attestation. On the evidence the Sunni reading rests on the infobox alone and the Hanafi reading is affirmatively answered against affiliation; both are preserved here."
+    sources: [source/wikipedia-hamiduddin-farahi-en, source/wikipedia-hamiduddin-farahi-ur, source/wikipedia-hamiduddin-farahi-ar, source/wikidata-hamiduddin-farahi]
+relations:
+  - { type: student_of, target: person/shibli-nomani, sources: [source/wikipedia-hamiduddin-farahi-en, source/wikipedia-hamiduddin-farahi-ur, source/wikipedia-hamiduddin-farahi-ar] }
+external_ids: { wikidata: "Q5644718" }
+sources: [source/wikipedia-hamiduddin-farahi-en, source/wikipedia-hamiduddin-farahi-ur, source/wikipedia-hamiduddin-farahi-ar, source/wikidata-hamiduddin-farahi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hamid al-Din Farahi' (revision 1363263698; the title 'Hamiduddin Farahi' is a redirect to it), Urdu Wikipedia 'حمید الدین فراہی' (revision 12091265) and Arabic Wikipedia 'عبد الحميد الفراهي' (revision 66588688), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q5644718 (item revision 2544401439). The three articles are independently written; the Arabic rests on Ajmal Ayyub Islahi's edition of Mufradat al-Qur'an, the Urdu on Yadraftagan and al-Diya. Existence checks by name fragments (farahi, فراہی, الفراهي), by Arabic label across data/person, by biography and by QID found no prior record for this man; the existing Farahi-named records are other people (al-Khalil ibn Ahmad al-Farahidi among them). His birth name was Abd al-Hamid, given by his father; Hamiduddin was a laqab that became his common name, as the Arabic article's note and the Urdu article's naming section state, and he signed his Arabic books 'al-Mu'allim Abd al-Hamid al-Farahi'. The student_of edge follows all three texts: Farahi learned Arabic and read most of the Dars-e-Nizami books under his cousin Shibli Nomani from the age of fourteen. No outward teacher edge is written here for his students: the Arabic article lists Sulaiman Nadvi, Abdul Majid Daryabadi and Amin Ahsan Islahi among them, and the Islahi edge is written once in Islahi's own record in this run. The Farahi school of Qur'anic thought has no group entity, so no member_of or founder edge is written. Phariha and Mathura have no place entities. The lane queue gives 1863–1930, which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

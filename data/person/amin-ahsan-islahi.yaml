@@ -1,0 +1,49 @@
+id: person/amin-ahsan-islahi
+class: person
+label: { ar: "أمين أحسن الإصلاحي", en: "Amin Ahsan Islahi", ur: "امین احسن اصلاحی" }
+names:
+  - { value: "Amin Ahsan Islahi", kind: full }
+  - { value: "أمين أحسن الإصلاحي", kind: full }
+  - { value: "امین احسن اصلاحی", kind: full }
+  - { value: "Islahi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم ومفسّر هندي ثم باكستاني (1904–1997) من بمهور في قضاء أعظم كره، أبرز تلامذة حميد الدين الفراهي وحامل منهجه في نظم القرآن. تخرج من مدرسة الإصلاح بسراي مير سنة 1922 وعمل في الصحافة، ثم تفرّغ منذ 1925 للدرس على الفراهي، وأسس الدائرة الحميدية، وكان عضوًا مؤسسًا في الجماعة الإسلامية وتركها سنة 1958، وأتم تفسيره الأردي «تدبر القرآن» سنة 1980 وتوفي في لاهور."
+  en: "Indian, then Pakistani, scholar and exegete (1904–1997) of Bamhur in Azamgarh district, the leading student of Hamiduddin Farahi and the bearer of his method of Qur'anic coherence. He graduated from Madrasatul Islah at Sara-e-Mir in 1922 and worked in journalism, then from 1925 devoted himself to study under Farahi, founded the Daira-i-Hamidiyyah, was a founder member of Jamaat-e-Islami and left it in 1958, completed his Urdu commentary Tadabbur-i-Qur'an in 1980 and died at Lahore."
+  ur: "بھارتی اور پھر پاکستانی عالم و مفسر (1904ء–1997ء) جن کا تعلق ضلع اعظم گڑھ کے بمہور سے تھا، حمید الدین فراہی کے ممتاز ترین شاگرد اور ان کے نظریۂ نظمِ قرآن کے حامل۔ 1922ء میں مدرسۃ الاصلاح سرائے میر سے فارغ ہوئے اور صحافت سے وابستہ رہے، پھر 1925ء سے فراہی سے درس کے لیے وقف ہو گئے، دائرہ حمیدیہ قائم کیا، جماعت اسلامی کے بانی ارکان میں شامل رہے اور 1958ء میں اس سے علاحدہ ہو گئے، 1980ء میں اپنی اردو تفسیر «تدبر قرآن» مکمل کی اور لاہور میں انتقال ہوا۔"
+roles: [scholar, writer, teacher, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1904"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1904 at Bamhur village in Azamgarh district, as all three articles and Wikidata give; no consulted source gives an exact day or a Hijri pairing (the year spans 1321–1322 AH), so the block is year-precision and carries no hijri value. Bamhur has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-amin-ahsan-islahi-en, source/wikipedia-amin-ahsan-islahi-ur, source/wikipedia-amin-ahsan-islahi-ar, source/wikidata-amin-ahsan-islahi]
+died:
+  edtf: "1997-12-15"
+  hijri: "1418"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 15 December 1997, as the English and Urdu articles give; the Arabic article pairs the date with Monday 15 Sha'ban 1418 AH, and Wikidata gives Lahore as his place of death."
+  sources: [source/wikipedia-amin-ahsan-islahi-en, source/wikipedia-amin-ahsan-islahi-ur, source/wikipedia-amin-ahsan-islahi-ar, source/wikidata-amin-ahsan-islahi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: the lane's bar of two independent texts naming a school personally is not met, and the readings are preserved here. No article text names a school for him. The English infobox carries a Sunni creed field and the Urdu philosopher infobox a school-tradition field 'Sunni (non-muqallid)'; infobox fields are one structured family and never count as text attestations. Category filings (Pakistani Sunni Muslim scholars) never count, and Wikidata's single religion value is Islam. His teacher Farahi's method — and Farahi's own stated dislike of madhhab attribution — are the teacher's, and a teacher's school or stance never counts for the student; his founder membership of Jamaat-e-Islami is organisational office, not a school attestation. The Sunni reading therefore rests on the structured fields alone."
+    sources: [source/wikipedia-amin-ahsan-islahi-en, source/wikipedia-amin-ahsan-islahi-ur, source/wikipedia-amin-ahsan-islahi-ar, source/wikidata-amin-ahsan-islahi]
+relations:
+  - { type: student_of, target: person/hamiduddin-farahi, sources: [source/wikipedia-amin-ahsan-islahi-en, source/wikipedia-amin-ahsan-islahi-ur, source/wikipedia-amin-ahsan-islahi-ar] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-amin-ahsan-islahi-en, source/wikipedia-amin-ahsan-islahi-ar, source/wikidata-amin-ahsan-islahi] }
+external_ids: { wikidata: "Q4746302" }
+sources: [source/wikipedia-amin-ahsan-islahi-en, source/wikipedia-amin-ahsan-islahi-ur, source/wikipedia-amin-ahsan-islahi-ar, source/wikidata-amin-ahsan-islahi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Amin Ahsan Islahi' (revision 1378436588), Urdu Wikipedia 'امین احسن اصلاحی' (revision 10360200) and Arabic Wikipedia 'أمين أحسن إصلاحي' (revision 71213468), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q4746302 (item revision 2561068074). The three articles are independently written. Existence checks by name fragments (islahi, اصلاحی, الإصلاحي), by Arabic label across data/person, by biography and by QID found no prior record for this man. The student_of edge records, in words, that Islahi is Farahi's student: the English text states that in 1925 Farahi invited him to study the Qur'an with him and that he learned Farahi's principles from him; the Urdu text calls him Farahi's special student of his last years and describes his lessons with him; the Arabic text states that he kept to his teacher Farahi and continued studying tafsir with him until Farahi's death in 1930. The edge is written once, here, in the student's record. No member_of edge is written for Jamaat-e-Islami: no such group entity exists, and his founder membership and 1958 departure are stated in prose. Bamhur has no place entity. The lane queue gives 1904–1997, which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-79
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
