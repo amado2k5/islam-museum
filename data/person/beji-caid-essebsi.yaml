@@ -1,0 +1,53 @@
+id: person/beji-caid-essebsi
+class: person
+label: { ar: "الباجي قائد السبسي", en: "Beji Caid Essebsi", ur: "باجی قائد السبسی" }
+names:
+  - { value: "Mohamed Beji Caid Essebsi", kind: full }
+  - { value: "محمد الباجي قائد السبسي", kind: full }
+gender: male
+summary:
+  ar: "محمد الباجي قائد السبسي (1926–2019)، محام وسياسي تونسي امتدت مسيرته من عهد بورقيبة إلى ما بعد ثورة 2011؛ كان وزيرا للخارجية ورئيسا لمجلس النواب، ثم رئيسا للوزراء سنة 2011، فأسس حزب نداء تونس وفاز بانتخابات 2014 فصار رئيسا لتونس، وتوفي في المنصب في 25 يوليو 2019."
+  en: "Mohamed Beji Caid Essebsi (1926–2019) was a Tunisian lawyer and politician whose career ran from Bourguiba's era to after the 2011 revolution: he was foreign minister and speaker of parliament, then prime minister in 2011, founded the Nidaa Tounes party and won the 2014 election to become president of Tunisia, dying in office on 25 July 2019."
+  ur: "محمد باجی قائد السبسی (1926ء–2019ء) تیونس کے وکیل اور سیاست دان تھے جن کا کیریئر بورقیبہ کے عہد سے 2011ء کے انقلاب کے بعد تک پھیلا ہوا تھا؛ وہ وزیر خارجہ اور پارلیمنٹ کے اسپیکر رہے، پھر 2011ء میں وزیر اعظم بنے، نداء تونس پارٹی کی بنیاد رکھی اور 2014ء کا انتخاب جیت کر تیونس کے صدر بنے۔ وہ 25 جولائی 2019ء کو عہدے پر رہتے ہوئے وفات پا گئے۔"
+roles: [politician]
+born:
+  edtf: "1926-11-29"
+  hijri: "1345"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Sidi Bou Said on 29 November 1926, to an elite family originally from Sardinia; all three articles and Wikidata agree on the date and place. The Hijri year 1345 is a tabular conversion, marked derived. Sidi Bou Said has no place entity in the museum, so no born_in relation is written."
+  sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar, source/wikipedia-beji-caid-essebsi-ur, source/wikidata-beji-caid-essebsi]
+died:
+  edtf: "2019-07-25"
+  hijri: "1440"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He was taken to a military hospital in Tunis with a serious illness on 27 June 2019 and died there, still in office, on 25 July 2019, aged 92; he was buried in the Jellaz Cemetery in Tunis. The Hijri year 1440 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar, source/wikidata-beji-caid-essebsi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on one source family — structured data: the Wikidata item carries two religion values, Islam (Q432) and Sunni Islam (Q483654), sitting in the same item, while the Arabic infobox gives Islam in general, the English infobox carries no religion field, and the Urdu stub only files him under Tunisian Muslims in general. No article text corroborates the Sunni value, and one family never attests a school on its own. The English text's descriptions of him as a secular leader and of Nidaa Tounes as a secular party are political descriptions, and his inheritance-equality proposal was state policy; neither is a faith attestation. The English article's account of his Sardinian great-grandfather converting to Islam is an ancestor's history — family background, expressly not counted."
+    sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar, source/wikipedia-beji-caid-essebsi-ur, source/wikidata-beji-caid-essebsi]
+relations:
+  - { type: successor_of, target: person/moncef-marzouki, sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar] }
+  - { type: died_in, target: place/tunis, sources: [source/wikipedia-beji-caid-essebsi-en, source/wikidata-beji-caid-essebsi] }
+  - { type: buried_in, target: place/tunis, sources: [source/wikipedia-beji-caid-essebsi-en] }
+wings: [people]
+regions: [maghreb]
+external_ids: { wikidata: "Q313539" }
+sources:
+  - source/wikipedia-beji-caid-essebsi-en
+  - source/wikipedia-beji-caid-essebsi-ar
+  - source/wikipedia-beji-caid-essebsi-ur
+  - source/wikidata-beji-caid-essebsi
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Beji Caid Essebsi in English (revision 1381069189 of 19 Oct 2026), Arabic (revision 76466920 of 7 Sep 2026) and Urdu (revision 8876658 of 28 Jun 2025) and the Wikidata item Q313539 (item revision 2557808262 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q313539). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. The successor_of edge to Moncef Marzouki is written because both the English and Arabic infoboxes name Marzouki as his direct predecessor as president: Marzouki's term ended and Essebsi's began on 31 December 2014, with no interim holder. No founder_of or member_of edge is written: the museum has no group entity for Nidaa Tounes or for the parties of his earlier career."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -501,11 +501,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nabil Elaraby — 1935–2024
 - [x] Amre Moussa — 1936–Living
 - [x] Ahmed Asmat Abdel-Meguid — 1923–2013
-- [ ] Habib Bourguiba — 1903–2000
-- [ ] Zine El Abidine Ben Ali — 1936–2019
-- [ ] Moncef Marzouki — 1945–Living
-- [ ] Beji Caid Essebsi — 1926–2019
-- [ ] Kais Saied — 1958–Living
+- [x] Habib Bourguiba — 1903–2000
+- [x] Zine El Abidine Ben Ali — 1936–2019
+- [x] Moncef Marzouki — 1945–Living
+- [x] Beji Caid Essebsi — 1926–2019
+- [x] Kais Saied — 1958–Living
 - [ ] Rached Ghannouchi — 1941–Living
 - [ ] Ahmed Ben Bella — 1916–2012
 - [ ] Houari Boumédiène — 1932–1978
