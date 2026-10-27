@@ -1,0 +1,50 @@
+id: person/ma-fuxing
+class: person
+label:
+  ar: "ما فوشينغ"
+  en: "Ma Fuxing"
+  ur: "ما فو شینگ"
+summary:
+  ar: "قائد عسكري مسلم من الهوي (1864–1924) من يونان، خدم في شبابه في قوات «شجعان قانسو»، ثم عيّنه يانغ زنغشين في سنجان فصار تيتاي كاشغر (1916–1924) واشتهر بقسوته حتى استبدّ بها، فلما اشتبه يانغ في مراسلاته أرسل ما شاوو فقتله سنة 1924 وعُرض جسده على صليب."
+  en: "A Hui Muslim military commander (1864–1924) from Yunnan who served in his youth among the Kansu Braves, then was posted by Yang Zengxin to Xinjiang and became Titai of Kashgar (1916–1924). His rule there was notorious for its brutality; when Yang grew suspicious of his correspondence, he sent Ma Shaowu, who shot him in 1924 and displayed his body on a cross."
+  ur: "یوننان سے تعلق رکھنے والے ایک ہوئی مسلمان فوجی کمانڈر (1864ء–1924ء) جو جوانی میں «کانسو بہادر» فوج میں رہے، پھر یانگ زینگ شن نے انہیں سنکیانگ بھیجا اور وہ کاشغر کے تیتائی بنے (1916ء–1924ء)۔ وہاں ان کی حکمرانی اپنی سختی کے لیے بدنام تھی؛ جب یانگ کو ان کی خط کتابت پر شبہ ہوا تو اس نے ما شاوو کو بھیجا، جس نے 1924ء میں انہیں گولی مار دی اور ان کی لاش صلیب پر لٹکا دی۔"
+names:
+  - { value: "馬福興", kind: full }
+  - { value: "Ma Fuxing", kind: full }
+  - { value: "Shenzhi", kind: alternate }
+  - { value: "Ma Fu-hsing", kind: alternate }
+gender: male
+roles: [general]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1864"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article and Wikidata give 1864, in Yunnan (the Chinese article specifies Jianshui County); the Chinese article gives 1866, resting on the Xinjiang literary and historical materials collection. The year 1864 is followed and the conflict is recorded here; no day and no Hijri pairing are attested, so no hijri key is carried. No museum place record exists for Yunnan or Jianshui, so no born_in relation is written."
+  sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing]
+died:
+  edtf: "1924-06"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: false
+  note: "He was shot at Kashgar on Yang Zengxin's orders by Ma Shaowu and his body displayed on a cross. The Chinese article on him gives the killing at Kashgar's north gate on 2 June 1924; the Chinese article on Ma Shaowu dates the assault on Kashgar to 31 May 1924; the English article gives the year 1924 only. Month precision is recorded with the one-day tension between the two Chinese texts stated here. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikipedia-ma-shaowu-zh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school reading exists in exactly one text. The Chinese article's lead calls him a leader of the Khufiyya (虎夫耶) 'old teaching' of Islam, resting on the Xinjiang literary and historical materials collection; the English article names no school and no order for him anywhere, calling him a Yunnanese Muslim and a Hui, and Wikidata carries no religion value at all. The Chinese article on Ma Shaowu records an old feud between the Jahriyya and Ma Fuxing's house — his ancestor had helped bring about Ma Hualong's death — without naming any affiliation of Ma Fuxing himself. A leadership descriptor in a single text is one family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing]
+relations:
+  - { type: died_in, target: place/kashgar, sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh] }
+external_ids: { wikidata: "Q6720734" }
+sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Fuxing' (revision 1347651719 of 7 April 2026), Chinese Wikipedia '马福兴' (revision 92803718 of 26 May 2026) and Wikidata item Q6720734 (item revision 2553624290 of 12 October 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese article's. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q6720734; the English article's hatnote distinguishes him from Ma Fuxiang, who is built in this same run, and no Arabic label is shared with any existing record, so no homonym entry is required. The died_in edge to place/kashgar is written here: both articles place his killing at Kashgar. No other relations are written: no museum place record exists for Yunnan or Jianshui, no Xinjiang polity entity exists for a ruler_of edge, and his commander in the Kansu Braves, Ma Fulu, was his commanding officer, not a relation the predicates express. The queue lines for this group stand in the worktree queue at lines 1458–1462 rather than the brief's 1444–1448; the five names and dates match the brief exactly."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98
