@@ -1,0 +1,44 @@
+id: person/nusratullo-maksum
+class: person
+label: { ar: "نصرت الله مخسوم", en: "Nusratullo Maksum", ur: "نصرت اللہ مخسوم" }
+summary:
+  ar: "سياسي طاجيكي سوفيتي (1881–1937): أول رئيس لحكومة جمهورية طاجيكستان الاشتراكية السوفيتية في 1925–1926، وعضو هيئة رئاسة اللجنة التنفيذية المركزية لعموم روسيا ممثلًا عن طاجيكستان من 1926 إلى 1933؛ أُعدم رميًا بالرصاص في التطهير الكبير، ووُضع رسمه بعد استقلال طاجيكستان على ورقة المئتي صوموني النقدية."
+  en: "Tajik Soviet politician (1881–1937): the first Prime Minister of the Tajik SSR, in 1925–1926, and the Tajik representative on the Presidium of the All-Russian Central Executive Committee from 1926 to 1933; executed by firing squad in the Great Purge; after Tajikistan's independence his portrait was placed on the 200-somoni banknote."
+  ur: "تاجک سوویت سیاست دان (1881ء–1937ء): تاجک سوویت اشتراکی جمہوریہ کے پہلے وزیرِ اعظم، 1925ء–1926ء، اور 1926ء سے 1933ء تک کل روس مرکزی ایگزیکٹو کمیٹی کے پریزیڈیم میں تاجک نمائندے؛ عظیم تطہیر میں گولی مار کر ہلاک کیے گئے؛ تاجکستان کی آزادی کے بعد ان کی تصویر 200 صومونی کے نوٹ پر آئی۔"
+names:
+  - { value: "Nusratullo Maksum", kind: full }
+  - { value: "Нусратулло Махсум", kind: full }
+  - { value: "Nusratullo Lutfullayev", kind: alternate }
+  - { value: "Nusratullo Makhsum", kind: alternate }
+roles: [politician]
+tags: [great-purge]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1881-07-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English Wikipedia article gives 1 July 1881 at Chashma-kuzi in the Gharm District. The century queue line's birth year of 1899 is an error — it duplicates the birth year on the line above it (Shotemur) — and is not followed: the article, the reference tradition and the authority records all give 1881, and no documented source gives 1899 for this man, so the record is built under the true dates (queue-error precedent). No place entity exists for Chashma-kuzi or Gharm, so no born_in relation is written. No Hijri pairing is sourced for this date, so the hijri key is omitted rather than computed (this block's standing practice)."
+  sources: [source/wikipedia-nusratullo-maksum-en]
+died:
+  edtf: "1937-11-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The article gives his execution by firing squad on 1 November 1937, in the Great Purge, with his resting place at the Kommunarka shooting ground. Iraj Bashiri's reference work Prominent Tajik Figures of the Twentieth Century gives a conflicting death date of 15 December 1938; the article's 1937 date, shared by the wider reference tradition, is carried and the variant recorded here. No place entity exists for Kommunarka or Moscow, so no died_in or buried_in relation is written. No Hijri pairing is sourced for this date, so the hijri key is omitted."
+  sources: [source/wikipedia-nusratullo-maksum-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No religious affiliation is recorded for Maksum in the article: it carries no religion field and its text names no faith for him personally; it records his CPSU membership and his Soviet offices, which never attest personal faith, and Soviet-era office does not engage the atheist bar (the gabiev and buynaksky precedent). With no source naming a school or affiliation for him personally, his affiliation stands unclassified (doubt rule)."
+    sources: [source/wikipedia-nusratullo-maksum-en]
+sources: [source/wikipedia-nusratullo-maksum-en]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 112 §B of the century-additions queue (line 1517, 'Nusratullo Maksum (1899–1937)') from the English Wikipedia article named in the sources list, read in full on 27 October 2026 through the browser search/open route. IDENTITY: pinned by biography to the Tajik Soviet politician of that name, also known as Nusratullo Lutfullayev, first Prime Minister of the Tajik SSR, executed in 1937; the queue line's 1899 birth year is a queue error (the documented birth is 1 July 1881) and the record is built under the true dates, the error recorded in the born note. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers and no Wikidata item for this article, so the source is recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented, and the grounded-QID existence route could not be run for the same reason. Existence checked before building by name-fragment greps (maksum, maqsūm, makhsum) across all of data/person/ — the only hit was ali-maksum, a different person. No relations are written: no place entity exists for Chashma-kuzi, Gharm or Kommunarka, and the office successions the article's infobox states (Polat Usmon Khodzhayev as premier; Abdullo Rakhimbayev in the Presidium seat) are office succession, not personal succession, and are not written. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-112
+status: { review: published }

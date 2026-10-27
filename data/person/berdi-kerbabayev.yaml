@@ -1,0 +1,45 @@
+id: person/berdi-kerbabayev
+class: person
+label: { ar: "بيردي كيرباباييف", en: "Berdi Kerbabayev", ur: "بردی کربابائیف" }
+summary:
+  ar: "كاتب تركماني سوفيتي (1894–1974)، من مؤسسي الأدب التركماني السوفيتي: حرّر صحيفة «تركمانستان» ومجلة «توكماك» في العشرينيات، وترأس إدارة العلوم في جمهورية تركمانستان في 1934–1936، وألّف رواية «الخطوة الحاسمة» التي نالت جائزة الدولة للاتحاد السوفيتي سنة 1948 ورواية «نيبيط داغ» سنة 1957؛ كاتب الشعب في جمهورية تركمانستان وعضو أكاديمية علومها."
+  en: "Turkmen Soviet writer (1894–1974), a founder of Turkmen Soviet literature: editor of the newspaper Turkmenistan and the journal Tokmak in the 1920s, head of the Turkmen SSR's science administration in 1934–1936, and author of the novel The Decisive Step, which won the USSR State Prize in 1948, and of Nebit Dag (1957); People's Writer of the Turkmen SSR and an academician of its Academy of Sciences."
+  ur: "ترکمان سوویت ادیب (1894ء–1974ء)، ترکمان سوویت ادب کے بانیوں میں سے ایک: 1920ء کی دہائی میں اخبار «ترکمانستان» اور مجلہ «توکماق» کے مدیر، 1934ء–1936ء میں ترکمان جمہوریہ کی سائنس انتظامیہ کے سربراہ، اور ناول «فیصلہ کن قدم» کے مصنف جسے 1948ء میں سوویت یونین کا ریاستی انعام ملا، اور «نیبط داغ» (1957ء) کے مصنف؛ ترکمان جمہوریہ کے عوامی ادیب اور اس کی اکیڈمی آف سائنسز کے رکن۔"
+names:
+  - { value: "Berdi Kerbabayev", kind: full }
+  - { value: "Berdi Myradowiç Kerbabaýew", kind: full }
+  - { value: "Берды Мурадович Кербабаев", kind: full }
+  - { value: "Berdy Kerbabayev", kind: alternate }
+  - { value: "Berdi Kerbabaev", kind: alternate }
+roles: [writer]
+tags: [turkmen-literature]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1894-03-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The English Wikipedia article gives 3 March 1894 at the village of Kowki-Zeren in the Tejen District of Transcaspia, in the Russian Empire, to a farmer's family. A Turkish academic thesis on his works gives 15 March 1894; the article's date, shared by the Russian reference tradition, is carried and the variant recorded here. No place entity exists for Kowki-Zeren or Tejen, so no born_in relation is written. No Hijri pairing is sourced for this date, so the hijri key is omitted rather than computed (this block's standing practice)."
+  sources: [source/wikipedia-berdi-kerbabayev-en]
+died:
+  edtf: "1974-03-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The article gives his death on 3 March 1974 at Ashkhabad, capital of the Turkmen SSR — his eightieth birthday. No place entity exists for Ashkhabad, so no died_in relation is written. No Hijri pairing is sourced for this date, so the hijri key is omitted."
+  sources: [source/wikipedia-berdi-kerbabayev-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No religious affiliation is recorded for Kerbabayev in the article: it carries no religion field and its text names no faith for him personally. His schooling at a Bukhara madrasa is formation, and his service from 1918 in the Basmachi movement under Eziz-khan Chapyk, which he left in May 1919 to join the Bolsheviks, is political and military activity; neither formation nor activity attests a personal affiliation, and his later Communist Party membership (from 1948) does not engage the atheist bar (the gabiev and buynaksky precedent). With no source naming a school or affiliation for him personally, his affiliation stands unclassified (doubt rule)."
+    sources: [source/wikipedia-berdi-kerbabayev-en]
+sources: [source/wikipedia-berdi-kerbabayev-en]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 112 §B of the century-additions queue (line 1519, 'Berdi Kerbabayev (1894–1974)') from the English Wikipedia article named in the sources list, read in full on 27 October 2026 through the browser search/open route. IDENTITY: pinned by biography to the Turkmen Soviet writer of that name (Turkmen: Berdi Myradowiç Kerbabaýew), born 3 March 1894 at Kowki-Zeren, author of The Decisive Step, died 3 March 1974 at Ashkhabad. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers and no Wikidata item for this article, so the source is recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented, and the grounded-QID existence route could not be run for the same reason. Existence checked before building by name-fragment greps (kerbabayev, kerbabaev, kerbab-) across all of data/person/ — no record for him. No relations are written: no place entity exists for Kowki-Zeren, Tejen or Ashkhabad, and no person entity exists for his Basmachi commander Eziz-khan Chapyk. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-112
+status: { review: published }
