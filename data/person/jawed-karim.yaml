@@ -1,0 +1,36 @@
+id: person/jawed-karim
+class: person
+label: { ar: "جاود كريم", en: "Jawed Karim", ur: "جاوید کریم" }
+names:
+  - { value: "Jawed Karim", kind: full }
+  - { value: "جاوید کریم", kind: full }
+gender: male
+summary:
+  ar: "جاود كريم (وُلد 28 أكتوبر 1979) مهندس برمجيات ورجل أعمال ألماني أمريكي من أصل بنغلاديشي، شارك في تأسيس يوتيوب سنة 2005 وكان أول من رفع مقطع فيديو عليه («أنا في حديقة الحيوان»). وُلد في ميرزه بورغ بألمانيا الشرقية لأب بنغلاديشي وأم ألمانية، وعمل قبل يوتيوب في باي بال حيث صمم أجزاء من نظامها لمكافحة الاحتيال."
+  en: "Jawed Karim (born 28 October 1979) is a German and American software engineer and internet entrepreneur of Bangladeshi descent, a co-founder of YouTube in 2005 and the first person to upload a video to it ('Me at the zoo'). Born in Merseburg, East Germany, to a Bangladeshi father and a German mother, he worked at PayPal before YouTube, where he designed core components including its real-time anti-fraud system."
+  ur: "جاوید کریم (پیدائش 28 اکتوبر 1979ء) جرمن و امریکی سافٹ ویئر انجینئر اور انٹرنیٹ کاروباری شخصیت ہیں، جو بنگلہ دیشی نژاد ہیں؛ وہ 2005ء میں یوٹیوب کے شریک بانی اور اس پر پہلی ویڈیو اپ لوڈ کرنے والے شخص تھے۔ وہ مشرقی جرمنی کے شہر مرسبرگ میں بنگلہ دیشی والد اور جرمن والدہ کے ہاں پیدا ہوئے اور یوٹیوب سے قبل پے پال میں کام کرتے تھے۔"
+roles: [engineer]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1979-10-28"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Merseburg, East Germany (now Saxony-Anhalt, Germany), on 28 October 1979; the English article and Wikidata agree. The Hijri year (1399) is derived by tabular conversion. No born_in relation is written: Merseburg has no museum place entity."
+  sources: [source/wikipedia-jawed-karim-en, source/wikidata-jawed-karim]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration. No article text in the English, Arabic or Urdu edition names any religion or affiliation for him, no infobox carries a religion field, and Wikidata carries no religion claim at all (no P140). His father's Bangladeshi origin and his family name are family background, never attestations. Nothing exists to record, so the value is unknown, unflagged."
+    sources: [source/wikipedia-jawed-karim-en, source/wikipedia-jawed-karim-ar, source/wikipedia-jawed-karim-ur, source/wikidata-jawed-karim]
+external_ids: { wikidata: "Q76694" }
+sources: [source/wikipedia-jawed-karim-en, source/wikipedia-jawed-karim-ar, source/wikipedia-jawed-karim-ur, source/wikidata-jawed-karim]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 104 §A of the century-additions queue (queue line 570) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q76694) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (jawed, karim) across data/person/ returned other Karims and no record for him — his biography (YouTube co-founder, born 1979 in Merseburg) matches none of them — and Q76694 appears in no existing person record. His Arabic label (جاود كريم) is not shared with any existing record, so no homonym entry is needed. No relations are written: Merseburg has no museum place entity, his co-founders Steve Chen and Chad Hurley have no museum records, and no founder_of edge is written for YouTube because no group entity for YouTube exists; the founding is stated in the summary and prose instead. His faith is recorded unknown, absence configuration, as set out in the faith note. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104
+status: { review: published }

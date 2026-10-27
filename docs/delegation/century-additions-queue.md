@@ -566,11 +566,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Dara Khosrowshahi — 1969–Living
 - [x] Mustafa Suleyman — 1984–Living
 - [x] Demis Hassabis (DeepMind Leader) — 1976–Living
-- [ ] Fei-Fei Li (AI Leader Contemporary) — 1976–Living
-- [ ] Jawed Karim — 1979–Living
-- [ ] Salman Rushdie (Historical Literary Figure) — 1947–Living
-- [ ] Tariq Ali — 1943–Living
-- [ ] Ziauddin Yousafzai — 1969–Living
+- [x] Fei-Fei Li (AI Leader Contemporary) — 1976–Living
+- [x] Jawed Karim — 1979–Living
+- [x] Salman Rushdie (Historical Literary Figure) — 1947–Living
+- [x] Tariq Ali — 1943–Living
+- [x] Ziauddin Yousafzai — 1969–Living
 - [ ] Asma Jahangir — 1952–2018
 - [ ] Hina Jilani — 1953–Living
 - [ ] Ansar Burney — 1956–Living
