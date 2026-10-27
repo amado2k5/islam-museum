@@ -1,0 +1,52 @@
+id: person/muhammad-zafrullah-khan
+class: person
+label: { ar: "محمد ظفر الله خان", en: "Muhammad Zafrullah Khan", ur: "محمد ظفر اللہ خان" }
+names:
+  - { value: "Chaudhry Sir Muhammad Zafrullah Khan", kind: full }
+  - { value: "محمد ظفر الله خان", kind: full }
+  - { value: "محمد ظفر اللہ خان", kind: full }
+  - { value: "Zafrulla Khan", kind: alternate }
+  - { value: "Muhammad Zafarullah Khan", kind: alternate }
+  - { value: "Sir", kind: laqab }
+gender: male
+summary:
+  ar: "حقوقي ودبلوماسي باكستاني (1893–1985)، أول وزير خارجية لباكستان (1947–1954)، ورئيس الجمعية العامة للأمم المتحدة (1962–1963) ورئيس محكمة العدل الدولية (1970–1973)، وهو الباكستاني الوحيد الذي تولى أيا من الرئاستين. كان من أبرز أعضاء الجماعة الإسلامية الأحمدية، وترأس فرعها في لاهور، وألّف كتبا كثيرة في الإسلام والأحمدية."
+  en: "Pakistani jurist and diplomat (1893–1985), the first foreign minister of Pakistan (1947–1954), president of the United Nations General Assembly (1962–1963) and president of the International Court of Justice (1970–1973) — the only Pakistani to hold either presidency. He was a leading member of the Ahmadiyya Muslim Community, presided over its Lahore chapter, and authored many books on Islam and Ahmadiyyat."
+  ur: "پاکستانی ماہر قانون و سفارت کار (1893ء–1985ء)، پاکستان کے پہلے وزیر خارجہ (1947ء–1954ء)، اقوام متحدہ کی جنرل اسمبلی کے صدر (1962ء–1963ء) اور عالمی عدالت انصاف کے صدر (1970ء–1973ء) — وہ واحد پاکستانی ہیں جنھوں نے یہ دونوں صدارتیں سنبھالیں۔ جماعت احمدیہ کے ممتاز رکن تھے، اس کی لاہور شاخ کی صدارت کی، اور اسلام و احمدیت پر متعدد کتب لکھیں۔"
+roles: [politician, jurist, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1893-02-06"
+  hijri: "1310"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 6 February 1893, as all three articles and Wikidata agree. The English text places his birth at Sialkot, citing his own memoir My Mother, and Wikidata's values are Sialkot and Sialkot District; the Arabic infobox names Daska, his family's ancestral village in that district, which the Urdu article likewise gives as the family village. Sialkot and Daska have no place entities, so no born_in edge is written. The Hijri year agrees with the Urdu article's birth category (1310ھ) and with a conversion of the followed date."
+  sources: [source/wikipedia-muhammad-zafrullah-khan-en, source/wikipedia-muhammad-zafrullah-khan-ur, source/wikipedia-muhammad-zafrullah-khan-ar, source/wikidata-muhammad-zafrullah-khan]
+died:
+  edtf: "1985-09-01"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 1 September 1985 at Lahore, where he had retired, as all three articles and Wikidata agree; the died_in edge to Lahore is written below. The Urdu article records his burial at the Bahishti Maqbara in Rabwah, the Ahmadiyya community's centre; Rabwah has no place entity, so no buried_in edge is written. The Hijri year agrees with the Arabic article's death category (1405 هـ) and with a conversion of the followed date."
+  sources: [source/wikipedia-muhammad-zafrullah-khan-en, source/wikipedia-muhammad-zafrullah-khan-ur, source/wikipedia-muhammad-zafrullah-khan-ar, source/wikidata-muhammad-zafrullah-khan]
+faith:
+  - value: ahmadiyya
+    basis: documented
+    note: "Recorded as Ahmadiyya on two independent article texts that attest his own affiliation, not merely the politics around him. The English article's Religion section states that, as an Ahmadi Muslim, Zafrullah Khan held the office of Ameer (president) of the Lahore chapter of the Ahmadiyya Community from 1919 to 1935, served as secretary to its second caliph, Mirza Bashir-ud-Din Mahmood Ahmad, at the community's Majlis-e-Shura, and represented the community at the All Parties Conference of 1924; its Legacy section adds that he openly acknowledged that he belonged to the Ahmadiyya Muslim Community. Independently, the Urdu article's religion section states that he belonged to the Ahmadiyya community, himself took bay'ah at the hand of Mirza Ghulam Ahmad, was a confidant of the Ahmadi caliphs and held the community's senior offices; the same article records that the 1953 Lahore riots demanded his resignation as foreign minister because he was an Ahmadi, and that he was buried in the community's Bahishti Maqbara at Rabwah. The Arabic stub's lead likewise describes him as a scholar of the Ahmadiyya Muslim Community. His parents' Ahmadi devotion, which the English article also records, is family background and is not what is counted; the counted attestations are of his own membership, offices and initiation. Wikidata does not record the affiliation (its religion values are a novalue statement and Islam only) and is not counted. Context, recorded without the museum taking a position of its own: in 1974 the National Assembly of Pakistan amended the constitution to declare Ahmadis non-Muslims for the purposes of law; Zafrullah Khan and the Ahmadiyya community continued throughout to profess Islam, and his books present the community's teaching as Islam."
+    sources: [source/wikipedia-muhammad-zafrullah-khan-en, source/wikipedia-muhammad-zafrullah-khan-ur, source/wikipedia-muhammad-zafrullah-khan-ar, source/wikidata-muhammad-zafrullah-khan]
+relations:
+  - { type: successor_of, target: person/liaquat-ali-khan, sources: [source/wikipedia-muhammad-zafrullah-khan-en] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-muhammad-zafrullah-khan-en, source/wikidata-muhammad-zafrullah-khan] }
+external_ids: { wikidata: "Q781138" }
+sources: [source/wikipedia-muhammad-zafrullah-khan-en, source/wikipedia-muhammad-zafrullah-khan-ur, source/wikipedia-muhammad-zafrullah-khan-ar, source/wikidata-muhammad-zafrullah-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Zafrulla Khan' (revision 1380729688), Urdu Wikipedia 'محمد ظفر اللہ خان' (revision 12035452) and Arabic Wikipedia 'محمد ظفر الله خان' (revision 70775193), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and Wikidata item Q781138 (item revision 2561088694, asserted on fetch; its raw religion claims were also inspected separately the same day). Existence checks by name fragments (zafrullah, zafarullah, ظفر الله, ظفر اللہ), by Arabic label across data/person, by biography and by QID found no prior record for this man; the record for the Sufi order of a similar name (badawiyya-ahmadiyya) is a different entity and not his community. Two relations are written. The successor_of edge to person/liaquat-ali-khan is for the foreign-affairs portfolio only: Liaquat held foreign affairs in his own first cabinet from August 1947, and Zafrullah succeeded him in that portfolio on 27 December 1947, as the English article's infobox records (predecessor Liaquat Ali Khan) and its text confirms (foreign minister under the Liaquat administration until 1954); it is not a premiership succession. The died_in edge to place/lahore is written. No other office edge is written: his predecessors and successors at the International Court of Justice (Bustamante y Rivero, Manfred Lachs) and the UN General Assembly (Mongi Slim, Carlos Sosa Rodríguez) have no person records. No born_in or buried_in edge is written because Sialkot, Daska and Rabwah have no place entities. His service under Muhammad Ali Jinnah (who had him present the League's case to the Radcliffe Commission) cannot be written as an edge: Jinnah has no person record in the museum, and this batch's brief forbids creating one. The lane queue gives 'Sir Muhammad Zafrullah Khan (1893–1985)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-82
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
