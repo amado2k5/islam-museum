@@ -9,7 +9,8 @@ site/.astro/
 .venv-harvest/
 __pycache__/
 .venv-media/
-site/public/media/
+site/public/media/*
+!site/public/media/time-browser/
 site/public/search-synonyms*.json
 site/public/edu/daily-schedule.json
 node_modules

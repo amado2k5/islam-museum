@@ -24,3 +24,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
 - 2026-10-27 — historynavigator H1+H2 merged (PR #1): clean React 19/Vite 8/TS 5.9/Tailwind 4
   client, all AI code deleted, reads DATA_BASE/<lang>/index.json with /sample fallback.
   H3 (real feed) is blocked until Claude's TB1 (scripts/time-browser.ts) lands on main.
+- 2026-10-27 — "add 50 more" approved: batch now 100/class -> 1,230 stops, 8% match
+  (98 image / 1,132 card), 10 map clusters, 267 cards. Founder rule change: generated
+  SVGs are committed (not git-ignored) and publish to R2; .gitignore excepts
+  site/public/media/time-browser/ only.
