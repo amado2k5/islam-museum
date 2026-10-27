@@ -1,0 +1,53 @@
+id: person/bekir-coban-zade
+class: person
+label:
+  ar: "بكير جوبان زاده"
+  en: "Bekir Çoban-zade"
+  ur: "بکیر چوبان زادہ"
+summary:
+  ar: "شاعر وعالم تركيات تتاري قرمي، وُلد في قره صوبازار بالقرم سنة 1893 وتعلّم في القرم وإسطنبول وبودابست، وتولى كرسي علم التركيات في جامعة القرم ثم في جامعة باكو الحكومية، وكتب نحو 150 عملا علميا في اللغات التركية وآدابها، وأُعدم في باكو في 13 أكتوبر 1937 في التطهير الكبير ثم رُدّ إليه اعتباره بعد وفاته."
+  en: "Crimean Tatar poet and Turkologist, born at Qarasuvbazar in Crimea in 1893 and educated in Crimea, Istanbul and Budapest. He held the chair of Turkology at the Crimean University and then at Baku State University, wrote some 150 scholarly works on Turkic languages and literature, and was executed at Baku on 13 October 1937 in the Great Purge; he was posthumously rehabilitated."
+  ur: "کریمیائی تاتاری شاعر اور ماہرِ ترکیات، جو 1893 میں کریمیا کے قاراسو بازار میں پیدا ہوئے اور کریمیا، استنبول اور بوڈاپسٹ میں تعلیم پائی۔ وہ کریمیا یونیورسٹی اور پھر باکو اسٹیٹ یونیورسٹی میں ترکیات کے پروفیسر رہے، ترک زبانوں اور ادب پر تقریباً 150 علمی کام لکھے، اور 13 اکتوبر 1937 کو عظیم صفائی (گریٹ پرج) میں باکو میں پھانسی دیے گئے؛ بعد از مرگ ان کی عزت بحال کی گئی۔"
+names:
+  - { value: "Bekir Vaap oğlu Çoban-zade", kind: full }
+  - { value: "Бекир Ваапович Чобан-заде", kind: full }
+  - { value: "بكير جوبان زاده", kind: full }
+  - { value: "Bekir Choban-zade", kind: latinized }
+  - { value: "Bekir Sıtkı Çobanzade", kind: alternate }
+born:
+  edtf: "1893-05-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 15 May 1893 (Julian) at Qarasuvbazar (Karasubazar), Crimea, carried here in the Gregorian form 27 May 1893: the Russian article dual-dates the birth ('15 May (27 May new style) 1893'), the English article's infobox converts by template, and Wikidata carries both dates. His father was a shepherd — çoban in Crimean Tatar — hence the surname, 'son of a shepherd'. No Hijri pairing is given in any source, so none is recorded."
+  sources: [source/wikipedia-bekir-coban-zade-en, source/wikipedia-bekir-coban-zade-ru, source/wikidata-bekir-coban-zade]
+died:
+  edtf: "1937-10-13"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Arrested on 28 January 1937 at Kislovodsk, sentenced to death on 12 September 1937 and executed on 13 October 1937 (Russian article); the English article gives the same death date and Baku as the place of death. A Soviet military court reversed the verdict some twenty years later, on his wife's appeal. No place entity exists for Baku, so no died_in relation is written."
+  sources: [source/wikipedia-bekir-coban-zade-en, source/wikipedia-bekir-coban-zade-ru, source/wikidata-bekir-coban-zade]
+tags: [crimea, crimean-tatars, turkology, great-purge]
+roles: [poet, scholar, writer]
+wings: [people]
+regions: [anatolia-balkans]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or school for him: neither the English nor the Russian article's text or infobox gives one, Wikidata carries no religion value for him, and the English article files him under the category 'Muslims from the Russian Empire', which is a category filing, not attestation. His Istanbul schooling was paid for by his home town's Muslim charitable society, which is patronage, not personal attestation. The value is therefore unknown by absence."
+    sources: [source/wikipedia-bekir-coban-zade-en, source/wikipedia-bekir-coban-zade-ru, source/wikidata-bekir-coban-zade]
+external_ids: { wikidata: "Q2565464" }
+sources:
+  - source/wikipedia-bekir-coban-zade-en
+  - source/wikipedia-bekir-coban-zade-ru
+  - source/wikidata-bekir-coban-zade
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Russian Wikipedia articles on Bekir Çoban-zade (the English article stands at the title 'Bekir Choban-zade'; 'Bekir Çoban-zade' redirects to it and both carry the same Wikidata item) and his Wikidata item Q2565464, all read in full on 27 October 2026; no source names a religion or school for him, so his faith is unknown by absence. No relations are written: no place entity exists for Qarasuvbazar or Baku, and no person entity exists for his teachers at Budapest or his students."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-109
