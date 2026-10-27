@@ -1,0 +1,50 @@
+id: person/huseyn-shaheed-suhrawardy
+class: person
+label: { ar: "حسين شهيد سهروردي", en: "Huseyn Shaheed Suhrawardy", ur: "حسین شہید سہروردی" }
+names:
+  - { value: "Huseyn Shaheed Suhrawardy", kind: full }
+  - { value: "حسين شهيد سهروردي", kind: full }
+  - { value: "حسین شہید سہروردی", kind: full }
+  - { value: "H. S. Suhrawardy", kind: alternate }
+gender: male
+summary:
+  ar: "رجل دولة بنغالي (1892–1963)، آخر رئيس وزراء للبنغال الموحدة (1946–1947) وخامس رئيس وزراء لباكستان (1956–1957). أسس رابطة عوامي وقاد الجبهة المتحدة في باكستان الشرقية، وخلف خواجة ناظم الدين في رئاسة وزراء البنغال، وتوفي في بيروت ودُفن في ضريح القادة الثلاثة في دكا."
+  en: "Bengali statesman (1892–1963), the last prime minister of undivided Bengal (1946–1947) and the fifth prime minister of Pakistan (1956–1957). He founded the Awami League, led the United Front in East Pakistan, and succeeded Khawaja Nazimuddin as prime minister of Bengal; he died at Beirut and was buried in the Mausoleum of Three Leaders at Dhaka."
+  ur: "بنگالی مدبر (1892ء–1963ء)، غیر منقسم بنگال کے آخری وزیر اعظم (1946ء–1947ء) اور پاکستان کے پانچویں وزیر اعظم (1956ء–1957ء)۔ عوامی لیگ کی بنیاد رکھی، مشرقی پاکستان میں متحدہ محاذ کی قیادت کی، اور خواجہ ناظم الدین کے بعد بنگال کے وزیر اعظم بنے؛ بیروت میں انتقال ہوا اور ڈھاکہ میں تین قائدین کے مزار میں دفن ہوئے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1892-09-08"
+  hijri: "1310"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 8 September 1892 at Midnapore in the Bengal Presidency, as the English article and Wikidata agree (Wikidata also carries a year-only 1892 variant). Midnapore has no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikidata-huseyn-shaheed-suhrawardy]
+died:
+  edtf: "1963-12-05"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of a heart attack on 5 December 1963 at Beirut, as the English article states citing the New York Times obituary; Beirut has no place entity, so no died_in edge is written. He was buried at Dhaka beside Khawaja Nazimuddin and A. K. Fazlul Huq in the Mausoleum of Three Leaders, as the English article states. The Hijri year is a conversion."
+  sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikidata-huseyn-shaheed-suhrawardy]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no text names a school for Suhrawardy himself, and the readings are preserved here. The English article's family section traces the Suhrawardy lineage to Shihab al-Din Umar al-Suhrawardi, the twelfth-century Baghdad Sufi; calls the Suhrawardiyya one of the major Sunni orders of Sufism; and describes his grandfather Ubaidullah Al Ubaidi Suhrawardy as a Dhaka-based Sufi leader — all of it family background and ancestry, which never counts as an attestation of the man's own affiliation, and no text states any discipleship, initiation or order membership of his own, so no sufi value is recorded. The Urdu and Arabic articles name no religion for him (the Arabic infobox's religion field is empty), and Wikidata's single religion value is Islam only."
+    sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikipedia-huseyn-shaheed-suhrawardy-ur, source/wikipedia-huseyn-shaheed-suhrawardy-ar, source/wikidata-huseyn-shaheed-suhrawardy]
+relations:
+  - { type: successor_of, target: person/khawaja-nazimuddin, sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en] }
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikidata-huseyn-shaheed-suhrawardy] }
+external_ids: { wikidata: "Q2046354" }
+sources: [source/wikipedia-huseyn-shaheed-suhrawardy-en, source/wikipedia-huseyn-shaheed-suhrawardy-ur, source/wikipedia-huseyn-shaheed-suhrawardy-ar, source/wikidata-huseyn-shaheed-suhrawardy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Huseyn Suhrawardy' (revision 1379419047), Urdu Wikipedia 'حسین شہید سہروردی' (revision 9342123) and Arabic Wikipedia 'حسين شهيد سهروردي' (revision 76731451), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q2046354 (item revision 2561083839, asserted on fetch). Existence checks by name fragments (suhrawardy, سهروردي, سہروردی), by Arabic label across data/person, by biography and by QID found no prior record for this man; the several Suhrawardi records in the graph (Shihab al-Din, Umar, Abu al-Najib and others) are medieval Sufis, his ancestors' namesakes, not this statesman. The successor_of edge to person/khawaja-nazimuddin is written here, in Suhrawardy's record: Suhrawardy succeeded Nazimuddin as prime minister of Bengal on 23 April 1946. The buried_in edge to place/dhaka is written; no died_in edge is written because Beirut has no place entity, and no born_in edge because Midnapore has none. His own successors as prime minister of Pakistan (Chaudhry Mohammad Ali before him, I. I. Chundrigar after) are not in this batch, so no Pakistani-premiership edge is written. The lane queue gives 'Huseyn Shaheed Suhrawardy (1892–1963)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

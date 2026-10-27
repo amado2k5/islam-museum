@@ -1,0 +1,50 @@
+id: person/muhammad-ali-bogra
+class: person
+label: { ar: "محمد علي بوغرا", en: "Mohammad Ali Bogra", ur: "محمد علی بوگرہ" }
+names:
+  - { value: "Syed Mohammad Ali Chowdhury Bogra", kind: full }
+  - { value: "محمد علي بوغرا", kind: full }
+  - { value: "محمد علی بوگرہ", kind: full }
+  - { value: "Muhammad Ali Bogra", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ودبلوماسي باكستاني (1909–1963) من أسرة نواب بكرغانج، رئيس وزراء باكستان الثالث (1953–1955). عمل سفيراً لباكستان لدى بورما وكندا والولايات المتحدة واليابان، واشتهر بـ«صيغة بوغرا» الدستورية وسياسة الوحدة الواحدة، وخلَف خواجة ناظم الدين في رئاسة الوزراء ثم خلَفه تشودري محمد علي."
+  en: "Pakistani politician and diplomat (1909–1963) of the Backergunge nawab family, the third prime minister of Pakistan (1953–1955). He served as Pakistan's ambassador to Burma, Canada, the United States and Japan, and is known for the constitutional Bogra formula and the One Unit policy; he succeeded Khawaja Nazimuddin as prime minister and was succeeded by Chaudhry Muhammad Ali."
+  ur: "پاکستانی سیاستدان اور سفارتکار (1909ء–1963ء) جن کا تعلق بکرگنج کے نواب خاندان سے تھا، پاکستان کے تیسرے وزیر اعظم (1953ء–1955ء)۔ برما، کینیڈا، امریکا اور جاپان میں پاکستان کے سفیر رہے، اور «بوگرہ فارمولا» اور ون یونٹ پالیسی کے لیے مشہور ہوئے؛ خواجہ ناظم الدین کے بعد وزیر اعظم بنے اور ان کے بعد چودھری محمد علی آئے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1909-10-19"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 19 October 1909 at Backergunge (now Barisal), as the English article states citing Hannan's 1967 biographical sketch; Wikidata gives the same date. Backergunge and Barisal have no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra]
+died:
+  edtf: "1963-01-23"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 23 January 1963 at Dacca, as all three articles and Wikidata agree; he was buried at the Nawab Palace in Bogra, which has no place or building entity, so no buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no text in any language names a school for Bogra himself, and the readings are preserved here. The Urdu article's infobox gives his religion as Shia Islam and the article files him under Shia politicians, but an infobox value and a category filing in a single article are structured values, not text attestations, and part of that article's text is a translation of the English; the English text names no religion for him at all, recording only family facts — a grandfather described as the first Bengali Muslim appointed a minister — which are family background and never count. The Arabic infobox's religion field is empty, and Wikidata's single religion value is Islam only, naming no branch, so the founder's Shia-mapping rule is not engaged: it requires two sources attesting Shia in text. The Shia reading rests on one article's structured values alone."
+    sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra]
+relations:
+  - { type: successor_of, target: person/khawaja-nazimuddin, sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur] }
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra] }
+external_ids: { wikidata: "Q469875" }
+sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Ali Bogra' (revision 1376812947), Urdu Wikipedia 'محمد علی بوگرہ' (revision 10086663) and Arabic Wikipedia 'محمد علي بوغرا' (revision 76479672), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q469875 (item revision 2532802821, asserted on fetch). Part of the Urdu article's text is a translation of the English and the two are counted accordingly where they overlap. Existence checks by name fragments (bogra, بوغرا, بوگرہ), by Arabic label across data/person, by biography and by QID found no prior record for this man. The successor_of edge to person/khawaja-nazimuddin is written here, in Bogra's record: Bogra succeeded Nazimuddin as prime minister on 17 April 1953 (and also as Muslim League president and defence minister). The died_in edge to place/dhaka is written; no born_in or buried_in edge is written because Backergunge/Barisal and Bogra have no place entities. The lane queue gives 'Muhammad Ali Bogra (1909–1963)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

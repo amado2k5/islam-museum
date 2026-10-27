@@ -1,0 +1,53 @@
+id: person/khawaja-nazimuddin
+class: person
+label: { ar: "خواجة ناظم الدين", en: "Khawaja Nazimuddin", ur: "خواجہ ناظم الدین" }
+names:
+  - { value: "Khawaja Nazimuddin", kind: full }
+  - { value: "خواجة ناظم الدين", kind: full }
+  - { value: "خواجہ ناظم الدین", kind: full }
+  - { value: "Khwaja Nazimuddin", kind: alternate }
+gender: male
+summary:
+  ar: "رجل دولة باكستاني (1894–1964) من نواب دكا، ثاني حاكم عام لباكستان (1948–1951) وثاني رئيس وزرائها (1951–1953). كان رئيس وزراء البنغال (1943–1945) ثم أول رئيس وزراء لباكستان الشرقية، وخلف محمد علي جناح في الحاكمية العامة ولياقت علي خان في رئاسة الوزراء وأبا القاسم فضل الحق في رئاسة وزراء البنغال، ودُفن في ضريح القادة الثلاثة في دكا."
+  en: "Pakistani statesman (1894–1964) of the Nawabs of Dhaka, Pakistan's second governor-general (1948–1951) and second prime minister (1951–1953). He had been prime minister of Bengal (1943–1945) and then the first chief minister of East Bengal; he succeeded Muhammad Ali Jinnah as governor-general, Liaquat Ali Khan as prime minister and A. K. Fazlul Huq as prime minister of Bengal, and was buried in the Mausoleum of Three Leaders at Dhaka."
+  ur: "پاکستانی مدبر (1894ء–1964ء) جن کا تعلق ڈھاکہ کے نواب خاندان سے تھا، پاکستان کے دوسرے گورنر جنرل (1948ء–1951ء) اور دوسرے وزیر اعظم (1951ء–1953ء)۔ بنگال کے وزیر اعظم (1943ء–1945ء) اور پھر مشرقی بنگال کے پہلے وزیر اعلیٰ رہے؛ محمد علی جناح کے بعد گورنر جنرل، لیاقت علی خان کے بعد وزیر اعظم اور ابو القاسم فضل الحق کے بعد بنگال کے وزیر اعظم بنے، اور ڈھاکہ میں تین قائدین کے مزار میں دفن ہوئے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1894-07-19"
+  hijri: "1312"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 19 July 1894 at Dacca, as all three articles and Wikidata agree. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ur, source/wikipedia-khawaja-nazimuddin-ar, source/wikidata-khawaja-nazimuddin]
+died:
+  edtf: "1964-10-22"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 22 October 1964 at Dacca after a brief illness, as the English article states, and was buried in the Mausoleum of Three Leaders in Dhaka. The Hijri year is a conversion."
+  sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ur, source/wikipedia-khawaja-nazimuddin-ar, source/wikidata-khawaja-nazimuddin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no text in any language names a school for Nazimuddin himself, and the readings are preserved here. The English text's only religion content is family framing — he was 'born into a wealthy Muslim family of the Nawabs of Dhaka' — and family background never counts. The Urdu article files him under the categories Pakistani Shia and Shia politicians, but category filings in a single article are not text attestations, its infobox carries no religion field and its text names no school; the Arabic article names no religion, and Wikidata's single religion value is Islam only, naming no branch, so the founder's Shia-mapping rule is not engaged: it requires two sources attesting Shia in text. The Shia reading rests on one article's category filings alone."
+    sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ur, source/wikipedia-khawaja-nazimuddin-ar, source/wikidata-khawaja-nazimuddin]
+relations:
+  - { type: successor_of, target: person/liaquat-ali-khan, sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ur] }
+  - { type: successor_of, target: person/a-k-fazlul-huq, sources: [source/wikipedia-khawaja-nazimuddin-en] }
+  - { type: born_in, target: place/dhaka, sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ar, source/wikidata-khawaja-nazimuddin] }
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ar, source/wikidata-khawaja-nazimuddin] }
+  - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikidata-khawaja-nazimuddin] }
+external_ids: { wikidata: "Q369988" }
+sources: [source/wikipedia-khawaja-nazimuddin-en, source/wikipedia-khawaja-nazimuddin-ur, source/wikipedia-khawaja-nazimuddin-ar, source/wikidata-khawaja-nazimuddin]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khwaja Nazimuddin' (revision 1380182503), Urdu Wikipedia 'خواجہ ناظم الدین' (revision 9403952) and Arabic Wikipedia 'خواجة ناظم الدين' (revision 76473028), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q369988 (item revision 2553995905, asserted on fetch). Existence checks by name fragments (nazimuddin, ناظم الدين, ناظم الدین), by Arabic label across data/person, by biography and by QID found no prior record for this man. Two successor_of edges are written here, in Nazimuddin's record: he succeeded Liaquat Ali Khan as prime minister of Pakistan on 17 October 1951, and he succeeded A. K. Fazlul Huq as prime minister of Bengal on 29 April 1943. His succession to Muhammad Ali Jinnah as governor-general in 1948 is NOT written as an edge: Jinnah has no person record in the museum, and the brief for this batch forbids creating one. His 1947 succession to Huseyn Shaheed Suhrawardy as chief minister of East Bengal is likewise not written as a separate edge: the office was the renamed Bengal premiership at partition, and the Bengal-premiership succession between the same pair is already carried by the successor_of edge in Suhrawardy's record for 1946; both successions are stated in the prose. The born_in, died_in and buried_in edges to place/dhaka are written. The lane queue gives 'Sir Khawaja Nazimuddin (1894–1964)', which the articles confirm; the queue carries the same man again at line 627 as 'Khawaja Nazimuddin — 1894–1964', a duplicate queue line noted for the committer."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

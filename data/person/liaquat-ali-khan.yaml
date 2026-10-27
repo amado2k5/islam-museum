@@ -1,0 +1,48 @@
+id: person/liaquat-ali-khan
+class: person
+label: { ar: "لياقت علي خان", en: "Liaquat Ali Khan", ur: "لیاقت علی خان" }
+names:
+  - { value: "Nawabzada Liaquat Ali Khan", kind: full }
+  - { value: "لياقت علي خان", kind: full }
+  - { value: "لیاقت علی خان", kind: full }
+  - { value: "Shaheed-e-Millat", kind: laqab }
+  - { value: "Quaid-e-Millat", kind: laqab }
+gender: male
+summary:
+  ar: "رجل دولة باكستاني (1895–1951) من كرنال، أول رئيس وزراء لباكستان (1947–1951) واليد اليمنى لمحمد علي جناح في حركة باكستان. درس في عليكرة وأكسفورد، وكان الأمين العام الفخري للرابطة الإسلامية، واغتيل وهو يخاطب تجمعاً في راولبندي في 16 تشرين الأول 1951 ودُفن في مزار قائد في كراتشي."
+  en: "Pakistani statesman (1895–1951) of Karnal, the first prime minister of Pakistan (1947–1951) and Muhammad Ali Jinnah's right hand in the Pakistan movement. Educated at Aligarh and Oxford and honorary general secretary of the Muslim League, he was assassinated while addressing a gathering at Rawalpindi on 16 October 1951 and buried at Mazar-e-Quaid in Karachi."
+  ur: "پاکستانی مدبر (1895ء–1951ء) جن کا تعلق کرنال سے تھا، پاکستان کے پہلے وزیر اعظم (1947ء–1951ء) اور تحریک پاکستان میں محمد علی جناح کے دستِ راست۔ علی گڑھ اور آکسفورڈ سے تعلیم پائی اور مسلم لیگ کے اعزازی جنرل سیکریٹری رہے؛ 16 اکتوبر 1951ء کو راولپنڈی میں ایک جلسے سے خطاب کے دوران شہید کر دیے گئے اور کراچی میں مزارِ قائد میں دفن ہوئے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1895-10-01"
+  hijri: "1313"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 October 1895 at Karnal in the Punjab, as the English article states citing Kazmi's biography and Lentz's Heads of States and Governments; Wikidata gives the same date. Karnal has no place entity, so no born_in edge is written. The Hijri year is a conversion of the followed date."
+  sources: [source/wikipedia-liaquat-ali-khan-en, source/wikipedia-liaquat-ali-khan-ur, source/wikidata-liaquat-ali-khan]
+died:
+  edtf: "1951-10-16"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated on 16 October 1951: shot twice in the chest while addressing a gathering at Company Bagh, Rawalpindi, as the English article states citing Dawn and the Express Tribune; the assassin, Said Akbar Babrak, was shot dead by police at the scene. Rawalpindi has no place entity, so no died_in edge is written; he was buried at Mazar-e-Quaid in Karachi, and Karachi has no place entity either, so no buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-liaquat-ali-khan-en, source/wikipedia-liaquat-ali-khan-ur, source/wikipedia-liaquat-ali-khan-ar, source/wikidata-liaquat-ali-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no text names a school for Liaquat Ali Khan, and the readings are preserved here. The English text, citing his published correspondence and Kazmi's biography, records his childhood formation and practice: instructed in the Qur'an and hadith at home, he fasted Ramadan from the age of four and participated in, and even organised and led, tazia processions during Muharram. That is one text family attesting personal practice and devotion; practice and formation are not attestations of a school, and the passage names none. The Urdu and Arabic articles name no school for him, and Wikidata's single religion value is Islam only. His sponsorship of the Objectives Resolution's Islamic framing is a state act of his premiership, not an attestation of his own school."
+    sources: [source/wikipedia-liaquat-ali-khan-en, source/wikipedia-liaquat-ali-khan-ur, source/wikipedia-liaquat-ali-khan-ar, source/wikidata-liaquat-ali-khan]
+external_ids: { wikidata: "Q295713" }
+sources: [source/wikipedia-liaquat-ali-khan-en, source/wikipedia-liaquat-ali-khan-ur, source/wikipedia-liaquat-ali-khan-ar, source/wikidata-liaquat-ali-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Liaquat Ali Khan' (revision 1378855861), Urdu Wikipedia 'لیاقت علی خان' (revision 12108183) and Arabic Wikipedia 'لياقت علي خان' (revision 76478687), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q295713 (item revision 2561032020, asserted on fetch). Existence checks by name fragments (liaquat, لياقت, لیاقت), by Arabic label across data/person, by biography and by QID found no prior record for this man. No relations are written: he was the first holder of the Pakistani premiership (the office was established at independence), so no successor_of edge arises for him — the edge for his succession by Khawaja Nazimuddin in 1951 is written in Nazimuddin's record. No born_in, died_in or buried_in edge is written because Karnal, Rawalpindi and Karachi have no place entities. His relation to Muhammad Ali Jinnah — whose deputy and successor in the League leadership he was — cannot be written: Jinnah has no person record in the museum, and the brief for this batch forbids creating one. The lane queue gives 'Liaquat Ali Khan (1895–1951)', which the articles confirm."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
