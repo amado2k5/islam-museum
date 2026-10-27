@@ -1,0 +1,39 @@
+id: person/ishrat-husain
+class: person
+label: { ar: "عشرت حسين", en: "Ishrat Husain", ur: "عشرت حسین" }
+names:
+  - { value: "Ishrat Husain", kind: full }
+  - { value: "عشرت حسین", kind: full }
+  - { value: "Ishrat Hussain", kind: alternate }
+gender: male
+summary:
+  ar: "عشرت حسين (وُلد 1941) اقتصادي ومصرفي وموظف حكومي باكستاني، وُلد في أغرا وانتقل مع أسرته إلى كراتشي بعد التقسيم، فعمل في البنك الدولي نحو عقدين ثم تولى منصب محافظ بنك الدولة الباكستاني في 1999–2006، وعمادة معهد إدارة الأعمال في كراتشي في 2008–2016، ومستشارية رئيس الوزراء للإصلاحات المؤسسية والتقشف في 2018–2022، ونال نشان الامتياز سنة 2015."
+  en: "Ishrat Husain (born 1941) is a Pakistani economist, banker and civil servant, born at Agra, who moved with his family to Karachi after Partition, served some two decades at the World Bank, and then served as governor of the State Bank of Pakistan from 1999 to 2006, dean of the Institute of Business Administration, Karachi, from 2008 to 2016, and advisor to the Prime Minister on Institutional Reforms and Austerity from 2018 to 2022; he received the Nishan-e-Imtiaz in 2015."
+  ur: "عشرت حسین (پیدائش 1941ء) پاکستانی ماہر اقتصادیات، بینکر اور سرکاری افسر ہیں، آگرہ میں پیدا ہوئے اور تقسیم کے بعد خاندان کے ساتھ کراچی منتقل ہوئے، عالمی بینک میں تقریباً دو دہائیاں خدمات انجام دیں، پھر 1999ء تا 2006ء گورنر بینک دولت پاکستان، 2008ء تا 2016ء انسٹیٹیوٹ آف بزنس ایڈمنسٹریشن کراچی کے ڈین، اور 2018ء تا 2022ء وزیر اعظم کے مشیر برائے ادارہ جاتی اصلاحات و کفایت شعاری رہے؛ 2015ء میں نشان امتیاز ملا۔"
+roles: [economist, banker]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1941"
+  hijri: "1360"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English article gives only the year and the place: 'born 1941 in Agra, British India'. Wikidata's day-precision value, 17 June 1941, is supported by no article text and is not carried. The Arabic article gives Allahabad as the birthplace, against the English article and Wikidata (Agra, Q162442); Agra is carried. The Hijri year (1360) is derived by tabular conversion from the year alone."
+  sources: [source/wikipedia-ishrat-husain-en, source/wikipedia-ishrat-husain-ar, source/wikidata-ishrat-husain]
+relations:
+  - { type: born_in, target: place/agra, sources: [source/wikipedia-ishrat-husain-en, source/wikidata-ishrat-husain] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration. No article text in any of the three editions says anything about his religion at all; the only structured value is Wikidata's generic Islam (Q432), which names no school. His chairmanship of IBA's Centre for Excellence in Islamic Finance is a professional post concerning a subject — chairing a centre for the study of Islamic finance is work, not an attestation of personal affiliation, and a subject taught or administered never counts. Recorded unknown, unflagged: no school reading exists anywhere."
+    sources: [source/wikipedia-ishrat-husain-en, source/wikipedia-ishrat-husain-ur, source/wikipedia-ishrat-husain-ar, source/wikidata-ishrat-husain]
+external_ids: { wikidata: "Q14946768" }
+sources: [source/wikipedia-ishrat-husain-en, source/wikipedia-ishrat-husain-ur, source/wikipedia-ishrat-husain-ar, source/wikidata-ishrat-husain]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 106 §A of the century-additions queue from the English, Urdu and Arabic Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops (article title 'Ishrat Husain'; the near-identical title 'Ishrat Hussain' is a separate empty page with no Wikidata item) and confirmed through the Urdu and Arabic articles' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (ishrat, husain, hussain, عشرت) across data/person/ found no record for him (Ishrat Hussain Usmani, the nuclear physicist, is a different person), and his Q14946768 appears in no existing person record. One relation is written: born_in to place/agra, on the English article and Wikidata against the Arabic article's Allahabad. No other place or person edge is attested to an existing entity. His faith is recorded unknown, unflagged, on the absence configuration set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-106
+status: { review: published }
