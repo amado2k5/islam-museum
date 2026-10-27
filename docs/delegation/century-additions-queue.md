@@ -581,11 +581,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hakim Said — 1920–1998
 - [x] Ishrat Husain — 1941–Living
 - [x] Mahbub ul Haq — 1934–1998
-- [ ] Atif Mian — 1975–Living
-- [ ] Asim Khwaja — 1975–Living
-- [ ] Gita Gopinath (Contemporary Economist) — 1971–Living
-- [ ] Raghuram Rajan (Contemporary) — 1963–Living
-- [ ] Montek Singh Ahluwalia (Contemporary) — 1943–Living
+- [x] Atif Mian — 1975–Living
+- [x] Asim Khwaja — 1975–Living
+- [x] Gita Gopinath (Contemporary Economist) — 1971–Living
+- [x] Raghuram Rajan (Contemporary) — 1963–Living
+- [x] Montek Singh Ahluwalia (Contemporary) — 1943–Living
 - [ ] Syed Modasser Ali — 1946–Living
 - [ ] Dr. Zafarullah Chowdhury — 1941–2023
 - [ ] Fazle Hasan Abed — 1936–2019

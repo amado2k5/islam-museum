@@ -1,0 +1,39 @@
+id: person/atif-mian
+class: person
+label: { ar: "عاطف ميان", en: "Atif Mian", ur: "عاطف میاں" }
+names:
+  - { value: "Atif Rehman Mian", kind: full }
+  - { value: "عاطف رحمان میاں", kind: full }
+  - { value: "Atif Mian", kind: alternate }
+gender: male
+summary:
+  ar: "عاطف رحمان ميان (وُلد في 28 يونيو 1975) اقتصادي باكستاني أمريكي، أستاذ الاقتصاد والسياسات العامة والتمويل في جامعة برينستون ومدير مركز جوليس-رابينوفيتش للسياسات العامة والتمويل فيها. تربط أبحاثه بين التمويل والاقتصاد الكلي، وجادل كتابه «بيت الدَّين» (2014، مع أمير صوفي) بأن دَين الأسر هو سبب الركود الكبير. عُيّن في سبتمبر 2018 في المجلس الاستشاري الاقتصادي الباكستاني ثم أُقيل خلال أسبوع بعد حملة استهدفت معتقده الأحمدي، فأثار ذلك إدانة عالمية من الاقتصاديين."
+  en: "Atif Rehman Mian (born 28 June 1975) is a Pakistani-American economist, professor of economics, public policy and finance at Princeton University and director of its Julis-Rabinowitz Center for Public Policy and Finance. His research links finance and the macroeconomy, and his book House of Debt (2014, with Amir Sufi) argued that household debt caused the Great Recession. Appointed to Pakistan's Economic Advisory Council in September 2018, he was removed within a week after a campaign against his Ahmadi faith, an episode condemned by economists worldwide."
+  ur: "عاطف رحمان میاں (پیدائش 28 جون 1975ء) ایک پاکستانی نژاد امریکی ماہر اقتصادیات ہیں، پرنسٹن یونیورسٹی میں اقتصادیات، عوامی پالیسی اور مالیات کے پروفیسر اور اس کے جولس۔رابینووٹز سینٹر برائے عوامی پالیسی و مالیات کے ڈائریکٹر ہیں۔ ان کی تحقیق مالیات اور کلّی معیشت کو جوڑتی ہے، اور ان کی کتاب ”ہاؤس آف ڈیٹ“ (2014ء، عامر صوفی کے ساتھ) کا موقف تھا کہ گھریلو قرضے عظیم کساد بازاری کا سبب بنے۔ ستمبر 2018ء میں وہ پاکستان کی اقتصادی مشاورتی کونسل کے رکن مقرر ہوئے لیکن ان کے احمدی عقیدے کے خلاف مہم کے بعد ایک ہفتے میں ہٹا دیے گئے، جس پر دنیا بھر کے ماہرین اقتصادیات نے مذمت کی۔"
+roles: [economist]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+born:
+  edtf: "1975-06-28"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 28 June 1975; the English article's infobox and text and Wikidata agree on the date. The English article's infobox gives the place as Lahore, and the born_in relation is written on that basis. Wikidata's place-of-birth value points to Nigeria (Q1033) and is not followed — it matches no text. The Hijri year (1395) is derived by tabular conversion."
+  sources: [source/wikipedia-atif-mian-en, source/wikidata-atif-mian]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-atif-mian-en] }
+faith:
+  - value: ahmadiyya
+    basis: documented
+    note: "Two independent article texts name his affiliation personally. The English article's career text states that Prime Minister Imran Khan 'appointed Mian, an Ahmadi Muslim, to serve on the Economic Advisory Council' in September 2018, and that he was forced to resign a week later after a campaign against the appointment. The Urdu article, an independently written text, likewise states in its own words that he 'faces opposition from many circles in Pakistan because he is an Ahmadi' (احمدی ہونے کی وجہ سے). His parents being Ahmadi — stated in the English article's early-life text — is family background and is not relied on; the articles' category filings (American Ahmadis, Pakistani Ahmadis) are likewise not relied on. Wikidata carries no religion value. Recorded ahmadiyya/documented on the Zafrullah Khan configuration: two article texts, English and Urdu, attesting the affiliation personally."
+    sources: [source/wikipedia-atif-mian-en, source/wikipedia-atif-mian-ur, source/wikidata-atif-mian]
+external_ids: { wikidata: "Q30223744" }
+sources: [source/wikipedia-atif-mian-en, source/wikipedia-atif-mian-ur, source/wikidata-atif-mian]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 107 §A of the century-additions queue from the English and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu article's pageprops. Existence checked both ways before building: name-fragment greps (mian, atif, عاطف) across data/person/ found no record for him (the Mian records found are other men), and his Q30223744 appears in no existing person record. One relation is written: born_in Lahore, on the English infobox's statement; no other edge is attested to an existing entity — his wife and children have no museum records, and no group entity is used here for Princeton University. His faith is recorded ahmadiyya/documented, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-107
+status: { review: published }
