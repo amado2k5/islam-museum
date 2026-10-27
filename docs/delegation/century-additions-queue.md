@@ -456,11 +456,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali Hassan Mwinyi — 1925–2024
 - [x] Jakaya Kikwete — 1950–Living
 - [x] Samia Suluhu Hassan — 1960–Living
-- [ ] Hussein Mwinyi — 1966–Living
-- [ ] Amani Abeid Karume — 1948–Living
-- [ ] Abeid Karume — 1905–1972
-- [ ] Bakili Muluzi — 1943–Living
-- [ ] Atupele Muluzi — 1978–Living
+- [x] Hussein Mwinyi — 1966–Living
+- [x] Amani Abeid Karume — 1948–Living
+- [x] Abeid Karume — 1905–1972
+- [x] Bakili Muluzi — 1943–Living
+- [x] Atupele Muluzi — 1978–Living
 - [ ] Bingu wa Mutharika (Contemporary Leader) — 1934–2012
 - [ ] King Faisal bin Abdulaziz Al Saud — 1906–1975
 - [ ] King Abdulaziz Al Saud — 1875–1953
