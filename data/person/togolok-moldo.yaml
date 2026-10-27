@@ -1,0 +1,55 @@
+id: person/togolok-moldo
+class: person
+label:
+  ar: "توغولوق مولدو"
+  en: "Togolok Moldo"
+  ur: "توغولوق مولدو"
+summary:
+  ar: "توغولوق مولدو (1860–1942)، وُلد باسم بايمبت عبد الرحمن أوغلو، شاعر وأقين قرغيزي ومناسشي أدى ملحمة «ماناس» ودوّن روايته منها، وله أيضًا كتاب «سانجيرا» في الأنساب؛ صارت صورته على ورقة العشرين سومًا القرغيزية."
+  en: "Togolok Moldo (1860–1942), born Bayymbet Abdyrahman uulu, was a Kyrgyz poet, akyn and manaschi who performed the Epic of Manas and whose own written version of it was published in 2013; his genealogy Sanjira appeared in 2009. His portrait appears on the Kyrgyz 20 som note."
+  ur: "توغولوق مولدو (1860–1942)، اصل نام بایمبت عبد الرحمن اوغلو، کرغیز شاعر، عقین اور مناسچی تھے جنہوں نے مہاکاوی «ماناس» سنائی اور اس کا اپنا نسخہ بھی قلمبند کیا؛ ان کی تصویر کرغیزستان کے 20 سوم کے نوٹ پر ہے۔"
+names:
+  - { value: "Togolok Moldo", kind: full }
+  - { value: "Тоголок Молдо", kind: full }
+  - { value: "بايمبت عبد الرحمن أوغلو", kind: full }
+  - { value: "Bayymbet Abdyrahman uulu", kind: alternate }
+  - { value: "Байымбет Абдрахман уулу", kind: alternate }
+gender: male
+born:
+  edtf: "1860-06-10"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born on 10 June 1860 at Kurtka, in what is now the Ak-Talaa district of the Naryn region, as the English, Russian, Kyrgyz and Uzbek articles give; the Russian article notes that some data give 17 June, so the day is carried as debated with the majority form recorded. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-togolok-moldo-en, source/wikipedia-togolok-moldo-ru, source/wikipedia-togolok-moldo-ky, source/wikipedia-togolok-moldo-uz, source/wikidata-togolok-moldo]
+died:
+  edtf: "1942-01-04"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 4 January 1942 in the Naryn region, as all four articles and Wikidata agree. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-togolok-moldo-en, source/wikipedia-togolok-moldo-ru, source/wikipedia-togolok-moldo-ky, source/wikidata-togolok-moldo]
+wings: [people]
+regions: [persia-central-asia]
+roles: [poet, musician]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names his religion or any school for him: none of the four articles carries a religion field in its infobox, no text makes a statement of his affiliation, and Wikidata carries no religion value at all — the absence configuration. The Russian article records that from the age of nine he was taught literacy by the village mullah and attended the local Muslim school, which is formation in a Muslim milieu and never an attestation; even his byname Moldo, as the English article explains it, denotes an educated person. The segment is therefore unknown, unflagged."
+    sources: [source/wikipedia-togolok-moldo-en, source/wikipedia-togolok-moldo-ru, source/wikidata-togolok-moldo]
+external_ids:
+  wikidata: Q836856
+sources:
+  - source/wikipedia-togolok-moldo-en
+  - source/wikipedia-togolok-moldo-ru
+  - source/wikipedia-togolok-moldo-ky
+  - source/wikipedia-togolok-moldo-uz
+  - source/wikidata-togolok-moldo
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English, Russian, Kyrgyz and Uzbek Wikipedia articles on Togolok Moldo and Wikidata item Q836856, each read at a recorded revision; existence checked both ways before building — name fragments (togolok, moldo) and slug variants across data/person found no record for him, and Q836856, grounded through the English article's page properties and confirmed through the Russian, Kyrgyz and Uzbek articles', matched no existing record. No relations are written: no place entity exists for Kurtka or the Naryn region."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-104
