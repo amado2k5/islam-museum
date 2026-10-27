@@ -1,0 +1,51 @@
+id: person/ma-zhanao
+class: person
+label:
+  ar: "ما جان آو"
+  en: "Ma Zhan'ao"
+  ur: "ما جان آو"
+summary:
+  ar: "جنرال مسلم صيني من هتشو (1830–1886)، إمام (أهونغ) في شبابه من منحوان هواسي الخفي النقشبندي، قاد ثوّار هتشو في ثورة الدونغان ثم انشقّ إلى أسرة تشينغ سنة 1872 — مرسلًا ابنه ما انليانغ للتفاوض — وساعد تسوو تسونغتانغ في إنهاء الثورة، فصار مؤسس قوة أسرة ما العسكرية في قانسو ووالد الجنرال ما انليانغ."
+  en: "A Chinese Muslim general of Hezhou (1830–1886), an ahong in his youth of the Huasi menhuan of the Khufiyya Naqshbandiyya, who led the Hezhou rebels in the Dungan revolt and then defected to the Qing in 1872 — sending his son Ma Anliang to negotiate — and helped Zuo Zongtang end the rebellion, becoming the founder of the Ma family's military power in Gansu and the father of General Ma Anliang."
+  ur: "ہیچو کے ایک چینی مسلمان جنرل (1830ء–1886ء)، جوانی میں خفیہ نقشبندیہ کے ہواسی منحوان کے اہونگ (امام)، جنہوں نے دونغان بغاوت میں ہیچو کے باغیوں کی قیادت کی اور پھر 1872ء میں چنگ سے جا ملے — اپنے بیٹے ما ان لیانگ کو مذاکرات کے لیے بھیجا — اور زوو زونگ تانگ کی بغاوت ختم کرنے میں مدد کی، یوں وہ گانسو میں ما خاندان کی عسکری طاقت کے بانی اور جنرل ما ان لیانگ کے والد بنے۔"
+names:
+  - { value: "馬占鰲", kind: full }
+  - { value: "Ma Zhan'ao", kind: full }
+  - { value: "Kuifeng", kind: alternate }
+  - { value: "Dingchen", kind: alternate }
+  - { value: "Abdul Aziz", kind: alternate }
+gender: male
+roles: [general, teacher]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1830"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Chinese articles and Wikidata give 1830, at Linxia County, Gansu (the Chinese article: Hejia village, Monigou township, Linxia). No day and no Hijri pairing are attested, so no hijri key is carried; no museum place record exists for Linxia, so no born_in relation is written."
+  sources: [source/wikipedia-ma-zhanao-en, source/wikipedia-ma-zhanao-zh, source/wikidata-ma-zhanao]
+died:
+  edtf: "1886"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Chinese articles and Wikidata give 1886; the Chinese article records that after his defection he eventually retired to Dahejia in Jishishan and served there as ahong. No day and no Hijri pairing are attested, so no hijri key is carried, and no died_in relation is written: the English article states no death place and no museum place record exists for Dahejia."
+  sources: [source/wikipedia-ma-zhanao-en, source/wikipedia-ma-zhanao-zh, source/wikidata-ma-zhanao]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts name his personal membership of a Sufi order. The English article on his son Ma Anliang, citing Dillon (1999, p. 140), states that the Hezhou leaders who defected in 1872 — Ma Zhan'ao expressly named among them — 'belonged to the Huasi menhuan, of the Khafiya Naqshbandi Sufi order'. The Chinese article on Ma Zhan'ao himself, an independent tradition citing Chinese scholarship, states that his family were hereditary Islamic religious leaders, that at twenty he studied at the Great Mosque of Daxuexiang in Xi'an until he received the ahong's vestment, and that he then served as ahong at the Monigou and Dahejia mosques 'belonging to the Huasi menhuan' （屬花寺门宦）, returning to Dahejia as ahong in retirement. His own English article's text names no order, and its categories — and the Chinese article's categories, which file him under the Jahriyya at odds with its own text — are filings and are not counted. Wikidata gives Islam (Q432) in general."
+    sources: [source/wikipedia-ma-anliang-en, source/wikipedia-ma-zhanao-zh, source/wikidata-ma-zhanao]
+relations:
+  - { type: lived_in, target: place/xian, sources: [source/wikipedia-ma-zhanao-zh] }
+external_ids: { wikidata: "Q6720880" }
+sources: [source/wikipedia-ma-zhanao-en, source/wikipedia-ma-zhanao-zh, source/wikidata-ma-zhanao, source/wikipedia-ma-anliang-en]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Zhan'ao' (revision 1367431788 of 3 August 2026), Chinese Wikipedia '馬占鰲' (revision 94824626 of 7 October 2026), English Wikipedia 'Ma Anliang' (revision 1380324136 of 15 October 2026, for the Dillon menhuan sentence naming him) and Wikidata item Q6720880 (item revision 2468719718 of 2 March 2026), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese article's. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q6720880, and no shared Arabic label requires a homonym entry. The lived_in edge to place/xian is written here, in his own record: the Chinese article states that at twenty he went to study at the Great Mosque of Daxuexiang in Xi'an and remained until he received the ahong's vestment at about twenty-four, a study residence of years. His child_of edge is written in his son Ma Anliang's record, built in this same run. His relation to Ma Hualong — fellow rebel leader turned opponent across the revolt's factions — fits no predicate in schema/predicates.yaml exactly and is carried in prose only. No museum place record exists for Linxia (Hezhou), Monigou or Dahejia, and no Qing or Hezhou polity entity exists for a ruler_of or member_of edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97

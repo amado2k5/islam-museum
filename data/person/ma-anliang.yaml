@@ -1,0 +1,54 @@
+id: person/ma-anliang
+class: person
+label:
+  ar: "ما انليانغ"
+  en: "Ma Anliang"
+  ur: "ما انلیانگ"
+summary:
+  ar: "جنرال مسلم صيني (1855–1918)، الابن الأكبر لما جان آو، واسمه الأصلي ما سبعة وخمسة. ذهب صبيًا إلى معسكر تسوو تسونغتانغ للتفاوض على انشقاق والده إلى التشينغ سنة 1872، ثم خدم التشينغ والجمهورية، وصار من 1912 حتى وفاته في هتشو في 24 تشرين الثاني 1918 القائد الفعلي الأعلى لمسلمي شمال غرب الصين."
+  en: "A Chinese Muslim general (1855–1918), the eldest son of Ma Zhan'ao, born with the name Ma Qiwu. As a youth he went to Zuo Zongtang's camp to negotiate his father's defection to the Qing in 1872, then served the Qing and the Republic, and from 1912 until his death at Hezhou on 24 November 1918 he was the de facto senior leader of the Muslims of northwest China."
+  ur: "ایک چینی مسلمان جنرل (1855ء–1918ء)، ما جان آو کے بڑے بیٹے، اصل نام ما چی وو تھا۔ نوجوانی میں وہ 1872ء میں اپنے والد کی چنگ سے وفاداری کے مذاکرات کے لیے زوو زونگ تانگ کے کیمپ گئے، پھر چنگ اور جمہوریہ کی خدمت کی، اور 1912ء سے 24 نومبر 1918ء کو ہیچو میں وفات تک شمال مغربی چین کے مسلمانوں کے درحقیقت سب سے بڑے قائد رہے۔"
+names:
+  - { value: "馬安良", kind: full }
+  - { value: "Ma Anliang", kind: full }
+  - { value: "馬七五", kind: alternate }
+  - { value: "Ma Qiwu", kind: alternate }
+  - { value: "Hanru", kind: alternate }
+  - { value: "Abdul Majid", kind: alternate }
+gender: male
+roles: [general, politician]
+wings: [people]
+regions: [china-east-asia]
+born:
+  edtf: "1855"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The English and Chinese articles and Wikidata give 1855, at Hezhou (modern Linxia), Gansu. No day and no Hijri pairing are attested, so no hijri key is carried; no museum place record exists for Linxia or Hezhou, so no born_in relation is written."
+  sources: [source/wikipedia-ma-anliang-en, source/wikipedia-ma-anliang-zh, source/wikidata-ma-anliang]
+died:
+  edtf: "1918-11-24"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "He died at Hezhou on 24 November 1918 (English article, citing The Far Eastern Review of 1919 and The Moslem World of 1920; Wikidata agrees on the day); the Chinese article gives the year 1918 and that he died of illness at Hezhou. The Hijri year 1337 is the conversion of 24 November 1918, hence derived. No museum place record exists for Hezhou or Linxia, so no died_in relation is written."
+  sources: [source/wikipedia-ma-anliang-en, source/wikipedia-ma-anliang-zh, source/wikidata-ma-anliang]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A personal order-membership reading exists in exactly one text family. The English article, citing Dillon (1999, p. 140), states that the Hezhou leaders who defected in 1872 — Ma Anliang expressly named among them, with his father Ma Zhan'ao — 'belonged to the Huasi menhuan, of the Khafiya Naqshbandi Sufi order'; the Arabic article is a translation of the English, one family with it, and its infobox's 'Sufi Muslim' derives from that same text. The Chinese article, an independent tradition, does not state his membership: it records that in 1911 he used the menhuan network to levy menhuan troops — an organisational use of his family's order, not a statement that he belonged to it — and his tomb at Dahejia is a gongbei, a Sufi tomb shrine, which is veneration, not attestation. His father's documented Huasi membership does not transfer to him, and his campaigns against other Muslim movements (the Yihewani in 1905, the Xidaotang in 1914) are politics, not a school. One text family short of the two-source bar: unknown, flagged."
+    sources: [source/wikipedia-ma-anliang-en, source/wikipedia-ma-anliang-ar, source/wikipedia-ma-anliang-zh, source/wikidata-ma-anliang]
+relations:
+  - { type: child_of, target: person/ma-zhanao, sources: [source/wikipedia-ma-anliang-en, source/wikipedia-ma-anliang-zh] }
+  - { type: traveled_to, target: place/xian, sources: [source/wikipedia-ma-anliang-zh] }
+external_ids: { wikidata: "Q9026427" }
+sources: [source/wikipedia-ma-anliang-en, source/wikipedia-ma-anliang-zh, source/wikipedia-ma-anliang-ar, source/wikidata-ma-anliang]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ma Anliang' (revision 1380324136 of 15 October 2026), Chinese Wikipedia '马安良' (revision 94825065 of 7 October 2026), Arabic Wikipedia 'ما انليانغ' (revision 75948467 of 19 July 2026) and Wikidata item Q9026427 (item revision 2398943835 of 1 September 2025), each fetched through the MediaWiki/Wikidata APIs on 27 October 2026, each article fetched by its recorded revision id with the returned id asserted equal, and the Wikidata item read twice with identical claims and revision. The QID was grounded through the English article's page properties and confirmed through the Chinese and Arabic articles'. Existence was checked both ways before building: no record under data/person/ carries his name in Latin, Arabic or Chinese fragments or the QID Q9026427, and no shared Arabic label requires a homonym entry. The child_of edge to person/ma-zhanao is written here, in the son's record, the father being built in this same run: the English article states 'His father was Ma Zhan'ao', its article on the father names Ma Anliang first among his three sons, and the Chinese article calls him Ma Zhan'ao's eldest son. The traveled_to edge to place/xian is written here: the Chinese article states that after the Empress Dowager and the Guangxu Emperor fled to Xi'an in 1900, Ma Anliang led troops there to escort them. No museum place record exists for Hezhou or Linxia, and his brothers Ma Guoliang and Ma Suiliang and his sons have no museum records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-97
