@@ -421,11 +421,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibrahim Babangida — 1941–Living
 - [x] Sani Abacha — 1943–1998
 - [x] Abdulsalami Abubakar — 1942–Living
-- [ ] Kwame Nkrumah (Contemporary Era Leader) — 1909–1972
-- [ ] Modibo Keïta — 1915–1977
-- [ ] Moussa Traoré — 1936–2020
-- [ ] Alpha Oumar Konaré — 1946–Living
-- [ ] Ibrahim Boubacar Keïta — 1945–2022
+- [x] Kwame Nkrumah (Contemporary Era Leader) — 1909–1972
+- [x] Modibo Keïta — 1915–1977
+- [x] Moussa Traoré — 1936–2020
+- [x] Alpha Oumar Konaré — 1946–Living
+- [x] Ibrahim Boubacar Keïta — 1945–2022
 - [ ] Assimi Goïta — 1983–Living
 - [ ] Ahmed Sékou Touré — 1922–1984
 - [ ] Lansana Conté — 1934–2008
