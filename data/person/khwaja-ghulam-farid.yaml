@@ -1,0 +1,49 @@
+id: person/khwaja-ghulam-farid
+class: person
+label: { ar: "خواجة غلام فريد", en: "Khwaja Ghulam Farid", ur: "خواجہ غلام فرید" }
+names:
+  - { value: "Khwaja Ghulam Farid", kind: full }
+  - { value: "خواجہ غلام فرید", kind: full }
+  - { value: "Khurshid Alam", kind: alternate }
+  - { value: "Ghulam Fareed", kind: latinized }
+gender: male
+summary:
+  ar: "شاعر صوفي سرائكي من البنجاب (1845–1901)، وُلد في تشاتشران بولاية بهاولپور وتوفي فيها ودُفن في ميثانكوت. بايع أخاه الأكبر خواجة فخر جهان في السلسلة الجشتية النظامية وجلس بعده على سجادة الإرشاد، واعتزل ثمانية عشر عاماً في صحراء تشولستان، وخلّف «ديوان فريد» في الكافي السرائيكية وأعمالاً فارسية."
+  en: "Saraiki Sufi poet of the Punjab (1845–1901), born at Chachran in Bahawalpur State, died there and buried at Mithankot. He took bay'ah with his elder brother Khwaja Fakhr Jahan in the Chishti Nizami silsila and succeeded him on the seat of guidance, spent eighteen years in retreat in the Cholistan desert, and left the Diwan-e-Farid of Saraiki kafis and Persian prose works."
+  ur: "پنجاب کے سرائیکی صوفی شاعر (1845ء–1901ء)، چاچڑاں شریف (ریاست بہاولپور) میں پیدا ہوئے، وہیں وصال ہوا اور کوٹ مٹھن میں مدفون ہیں۔ سلسلہ چشتیہ نظامیہ میں اپنے بڑے بھائی خواجہ فخر جہاں سے بیعت ہوئے اور ان کے بعد سجادہ نشین بنے، اٹھارہ برس روہی (چولستان) میں رہے، اور سرائیکی کافیوں کا «دیوان فرید» اور فارسی نثری تصانیف چھوڑیں۔"
+roles: [mystic, poet]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1845-11-25"
+  hijri: "1261"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Urdu article gives the precise date, Tuesday 25 November 1845, corresponding to 25 Dhu al-Qa'da 1261 AH, at Chachran, and Wikidata's first birth value agrees. The English article gives only circa 1841/1845 — one scholarly work it quotes dates him 1841–1901 — and Wikidata carries a second value, 30 December 1845. The Urdu date is followed; the year 1845 is also the lane queue's. Chachran has no place entity, so no born_in edge is written. The Hijri year is a conversion, agreeing with the Urdu article's own Hijri date."
+  sources: [source/wikipedia-khwaja-ghulam-farid-ur, source/wikipedia-khwaja-ghulam-farid-en, source/wikidata-khwaja-ghulam-farid]
+died:
+  edtf: "1901-07-24"
+  hijri: "1319"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 24 July 1901 at Chachran (the English and Urdu articles agree; Wikidata's first death value agrees, its second, 19 June 1901, is not followed) and was buried at Mithankot, where his tomb stands. Neither Chachran nor Mithankot has a place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ur, source/wikidata-khwaja-ghulam-farid]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal Sufi affiliation and discipleship, which is the lane's test for a sufi segment. The English text's lead calls him a Sufi poet and mystic from Bahawalpur belonging to the Chishti Order, resting on Shackle's Encyclopaedia of Islam entry and other scholarship. The Urdu text, independently written from the traditional biographies, states that he belonged to the Chishti Nizami silsila, that at thirteen he took bay'ah with his elder brother Khwaja Fakhr Jahan, and that on his brother's death he succeeded him as sajjada-nashin. No madhhab segment is recorded: an Ahl-e-Sunnat Hanafi reading appears only in the Urdu article's infobox school-of-thought field, and a single infobox never counts; no consulted text names his school. The Arabic article is a translation of the English and is counted as the same text family."
+    sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ur]
+relations:
+  - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ur] }
+external_ids: { wikidata: "Q60803" }
+sources: [source/wikipedia-khwaja-ghulam-farid-en, source/wikipedia-khwaja-ghulam-farid-ar, source/wikipedia-khwaja-ghulam-farid-ur, source/wikidata-khwaja-ghulam-farid]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khwaja Ghulam Farid' (revision 1371956354), Urdu Wikipedia 'خواجہ غلام فرید' (revision 10969815) and Arabic Wikipedia 'خواجة غلام فريد' (revision 76789104), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q60803 (item revision 2554754427). The Arabic article is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (farid, ghulam farid, غلام فرید), by Arabic label across data/person, by biography and by QID found no prior record for this man; person/ibn-al-farid is the classical poet Umar ibn al-Farid, a different man. His teacher and murshid, his elder brother Khwaja Fakhr Jahan, has no person record, so no student_of edge is written; the member_of edge to group/chishtiyya is written once, here, in the subject's own record. The lane queue gives 1845–1901."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

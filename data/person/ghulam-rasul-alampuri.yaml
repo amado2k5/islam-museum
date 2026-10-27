@@ -1,0 +1,48 @@
+id: person/ghulam-rasul-alampuri
+class: person
+label: { ar: "غلام رسول عالم بوري", en: "Ghulam Rasul Alampuri", ur: "غلام رسول عالمپوری" }
+names:
+  - { value: "Ghulam Rasul Alampuri", kind: full }
+  - { value: "غلام رسول عالمپوری", kind: full }
+  - { value: "Ghulam Rasool Alampuri", kind: alternate }
+  - { value: "Ghulam Rasul", kind: alternate }
+  - { value: "Maulvi Ghulam Rasul Alampuri", kind: alternate }
+gender: male
+summary:
+  ar: "شاعر بنجابي (1849–1892) من عالم بور في قضاء هوشياربور، من أسرة غوجرية. علّم في مدارس القرى حتى 1882، واشتهر بملحمته «داستان أمير حمزة» (1869) وبمنظومته «أحسن القصص» (1873) في قصة يوسف وزليخا. وصفه مدخل الموسوعة الإسلامية (EI3) بأنه لم يكن منتسباً إلى أي طريقة صوفية، خلافاً لكثير من شعراء البنجاب."
+  en: "Punjabi poet (1849–1892) of Alampur in Hoshiarpur district, from a Gujjar family. He taught in village schools until 1882 and is known for his epic Dastan-i Amir Hamza (1869) and Ahsan al-Qasas (1873), his verse rendering of Yusuf and Zulaikha. Shackle's Encyclopaedia of Islam entry notes that, unlike many Punjabi poets, he was not affiliated with any Sufi order."
+  ur: "پنجابی شاعر (1849ء–1892ء) عالم پور، ضلع ہوشیارپور سے، گوجر خاندان سے تعلق۔ 1882ء تک دیہی اسکولوں میں پڑھایا؛ مشہور تصانیف «داستان امیر حمزہ» (1869ء) اور «احسن القصص» (1873ء) ہیں، جو یوسف زلیخا کے قصے کی منظوم صورت ہے۔ انسائیکلوپیڈیا آف اسلام (EI3) کے مطابق وہ اکثر پنجابی شعرا کے برعکس کسی صوفی سلسلے سے وابستہ نہ تھے۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1849-01-29"
+  hijri: "1265"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 29 January 1849 at Alampur, Hoshiarpur district (the English article, on Shackle's EI3 entry, and Wikidata agree on the day; the Urdu article gives the year 1849 and the village Alampur Kotla). Alampur has no place entity, so no born_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-ghulam-rasul-alampuri-en, source/wikidata-ghulam-rasul-alampuri]
+died:
+  edtf: "1892-03-07"
+  hijri: "1309"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Alampur in 1892, aged 43. The English article and Wikidata give 7 March 1892, which the record follows; the Urdu article gives 5 March 1892. His shrine stands at Alampur. Alampur has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-ghulam-rasul-alampuri-en, source/wikipedia-ghulam-rasul-alampuri-ur, source/wikidata-ghulam-rasul-alampuri]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two texts state a personal affiliation, and the strongest text states the opposite of order membership. The English article's lead calls him a Sufi poet and author, but its biography, resting on Shackle's Encyclopaedia of Islam (EI3) entry, states expressly that unlike many other Punjabi poets Ghulam Rasool was not affiliated with any Sufi order. The Urdu text says he became a student of the gaddi nashin (custodian) of Khwaja Nizamuddin Auliya's shrine and received advanced education — a single text, framed as study, which does not state initiation into an order. No text names a madhhab or school for him, and Wikidata carries no religion value. The value therefore stays unknown, with the Urdu study report preserved here."
+    sources: [source/wikipedia-ghulam-rasul-alampuri-en, source/wikipedia-ghulam-rasul-alampuri-ur]
+external_ids: { wikidata: "Q20609264" }
+sources: [source/wikipedia-ghulam-rasul-alampuri-en, source/wikipedia-ghulam-rasul-alampuri-ur, source/wikidata-ghulam-rasul-alampuri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ghulam Rasool Alampuri' (revision 1372733843) and Urdu Wikipedia 'غلام رسول عالمپوری' (revision 10761505), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q20609264 (item revision 2554096509). No Arabic article exists for him; the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (alampuri, ghulam rasul, غلام رسول), by Arabic label across data/person, by biography and by QID found no prior record for this man. No relations are written: Alampur has no place entity, his teachers have no person records, and no order edge is written because the EI3-based text expressly denies order affiliation. The founder's flagged question on this record: the Urdu article's report of his study under the Nizamuddin custodian stands against the EI3 denial of any order affiliation; the record follows the denial and stays unknown. The lane queue gives 1849–1892 under the spelling 'Ghulam Rasul'; the English article's 'Rasool' spelling is recorded as an alternate name."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
