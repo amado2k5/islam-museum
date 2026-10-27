@@ -1,0 +1,52 @@
+id: person/khalifa-bin-zayed-al-nahyan
+class: person
+label:
+  ar: "خليفة بن زايد آل نهيان"
+  en: "Khalifa bin Zayed Al Nahyan"
+  ur: "خلیفہ بن زاید آل نہیان"
+names:
+  - { value: "Khalifa bin Zayed bin Sultan bin Zayed bin Khalifa Al Nahyan", kind: full }
+  - { value: "خليفة بن زايد بن سلطان آل نهيان", kind: full }
+  - { value: "أبو سلطان", kind: kunya }
+gender: male
+summary:
+  ar: "ثاني رؤساء دولة الإمارات العربية المتحدة وحاكم أبوظبي (2004–2022)، الابن الأكبر لزايد بن سلطان آل نهيان. وُلد في العين سنة 1948، وكان ممثل والده في المنطقة الشرقية ثم ولي عهد أبوظبي من 1969، ونائب رئيس الوزراء ونائب القائد الأعلى، وتولى بعض مهام الرئاسة فعليًا منذ أواخر التسعينيات، ثم خلف والده في 2 نوفمبر 2004 وانتُخب رئيسًا في اليوم التالي. في عهده صارت الإمارات قوة اقتصادية إقليمية، وأُسست طيران الاتحاد ومتحف اللوفر أبوظبي، وسُمّي برج خليفة باسمه سنة 2010، وبعد إصابته بجلطة سنة 2014 تولى أخوه محمد بن زايد الشؤون اليومية. توفي في 13 مايو 2022."
+  en: "Second President of the United Arab Emirates and ruler of Abu Dhabi (2004–2022), the eldest son of Zayed bin Sultan Al Nahyan. Born at Al Ain in 1948, he was his father's representative in the Eastern Region, crown prince of Abu Dhabi from 1969, deputy prime minister and deputy supreme commander, and carried out some presidential duties de facto from the late 1990s before succeeding his father on 2 November 2004 and being elected president the next day. Under him the UAE became a regional economic powerhouse; Etihad Airways and the Louvre Abu Dhabi were established and the Burj Khalifa was renamed for him in 2010. After a stroke in 2014 his half-brother Mohamed bin Zayed ran day-to-day affairs. He died on 13 May 2022."
+  ur: "متحدہ عرب امارات کے دوسرے صدر اور ابوظبی کے حکمران (2004ء–2022ء)، زاید بن سلطان آل نہیان کے بڑے صاحبزادے۔ 1948ء میں العین میں پیدا ہوئے، اپنے والد کے نمائندے برائے مشرقی علاقہ رہے، 1969ء سے ابوظبی کے ولی عہد، نائب وزیرِ اعظم اور نائب سپریم کمانڈر رہے، اور 1990ء کی دہائی کے آخر سے عملی طور پر صدارت کے بعض امور انجام دیتے رہے، حتیٰ کہ 2 نومبر 2004ء کو والد کے جانشین بنے اور اگلے دن صدر منتخب ہوئے۔ ان کے دور میں امارات علاقائی اقتصادی قوت بنی، اتحاد ایئرویز اور لوور ابوظبی قائم ہوئے اور 2010ء میں برج خلیفہ ان کے نام سے منسوب ہوا۔ 2014ء میں فالج کے بعد ان کے سوتیلے بھائی محمد بن زاید روزمرہ امور چلاتے رہے۔ 13 مئی 2022ء کو وفات پائی۔"
+roles: [ruler]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1948-09-07"
+  hijri: "1367"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 7 September 1948 at Al Muwaiji fort in Al Ain (Arabic and Urdu articles; the English article and Wikidata give Al Ain as the place), the eldest son of Zayed bin Sultan Al Nahyan and Hassa bint Mohammed Al Nahyan, and named for his ancestor Khalifa bin Shakhbut. The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Al Ain, so no born_in relation is written."
+  sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar, source/wikipedia-khalifa-bin-zayed-al-nahyan-ur, source/wikidata-khalifa-bin-zayed-al-nahyan]
+died:
+  edtf: "2022-05-13"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Abu Dhabi on 13 May 2022 (English article and Wikidata) and was buried at Al Bateen Cemetery in Abu Dhabi (English article's infobox). The Hijri year is a tabular conversion of the Gregorian date. The museum has no place entity for Abu Dhabi, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikidata-khalifa-bin-zayed-al-nahyan]
+relations:
+  - { type: successor_of, target: person/zayed-bin-sultan-al-nahyan, sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar] }
+  - { type: child_of, target: person/zayed-bin-sultan-al-nahyan, sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar, source/wikidata-khalifa-bin-zayed-al-nahyan] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder: a Sunni reading exists but rests on one structured family. In full: the English article's infobox religion field reads 'Sunni Islam', and Wikidata's religion (P140) statement carries Sunni Islam (Q483654) alongside Islam (Q432) — but both values sit on the one Wikidata item and the infobox is its structured echo, so this is the wave-84 Abdullah configuration (one structured family, Wikidata as a carrier), not two attestations. The Arabic article's officeholder infobox has no religion field and its text names no school; the Urdu article likewise gives no religion value; no article text anywhere names a school for him, and his presidency of a state whose constitution names Islam is office, not attestation. The value stays unknown under the two-source rule and the doubt rule, with the Sunni reading preserved here; a second independent source naming his school would be needed to record it."
+    sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar, source/wikipedia-khalifa-bin-zayed-al-nahyan-ur, source/wikidata-khalifa-bin-zayed-al-nahyan]
+external_ids: { wikidata: "Q1059948" }
+sources: [source/wikipedia-khalifa-bin-zayed-al-nahyan-en, source/wikipedia-khalifa-bin-zayed-al-nahyan-ar, source/wikipedia-khalifa-bin-zayed-al-nahyan-ur, source/wikidata-khalifa-bin-zayed-al-nahyan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khalifa bin Zayed Al Nahyan' (revision 1382127457 of 26 October 2026), Arabic Wikipedia 'خليفة بن زايد آل نهيان' (revision 77047155 of 22 October 2026) and Urdu Wikipedia 'خلیفہ بن زاید آل نہیان' (revision 9571779 of 23 March 2026), each fetched on 27 October 2026 by its recorded revision id and asserted equal to it, with Wikidata item Q1059948 (item revision 2558082980 of 17 October 2026), likewise fetched by revision id and asserted equal. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q1059948. His Arabic label خليفة بن زايد آل نهيان collides with no existing record's label; the English article's own disambiguation note distinguishes him from Khalifa bin Zayed bin Khalifa Al Nahyan, a different and earlier man, who likewise has no museum record. His succession to his father as ruler of Abu Dhabi (2 November 2004) and president (3 November 2004), and his sonship of Zayed, are both written here, in the subject's record; Zayed's own record (wave 84) is not edited. No member_of relation is written, because no group entity for the Al Nahyan family exists, and no place relations, because the museum has no place entities for Al Ain or Abu Dhabi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-85
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
