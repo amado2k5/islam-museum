@@ -476,11 +476,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Mohamed bin Zayed Al Nahyan — 1961–Living
 - [x] Sheikh Mohammed bin Rashid Al Maktoum — 1949–Living
 - [x] Sultan Qaboos bin Said Al Said — 1940–2020
-- [ ] Sultan Haitham bin Tarik — 1955–Living
-- [ ] Sheikh Sabah Al-Ahmad Al-Jaber Al-Sabah — 1929–2020
-- [ ] Sheikh Jaber Al-Ahmad Al-Sabah — 1926–2006
-- [ ] Sheikh Nawaf Al-Ahmad Al-Jaber Al-Sabah — 1937–2023
-- [ ] Sheikh Mishal Al-Ahmad Al-Jaber Al-Sabah — 1940–Living
+- [x] Sultan Haitham bin Tarik — 1955–Living
+- [x] Sheikh Sabah Al-Ahmad Al-Jaber Al-Sabah — 1929–2020
+- [x] Sheikh Jaber Al-Ahmad Al-Sabah — 1926–2006
+- [x] Sheikh Nawaf Al-Ahmad Al-Jaber Al-Sabah — 1937–2023
+- [x] Sheikh Mishal Al-Ahmad Al-Jaber Al-Sabah — 1940–Living
 - [ ] Sheikh Hamad bin Khalifa Al Thani — 1952–Living
 - [ ] Sheikh Tamim bin Hamad Al Thani — 1980–Living
 - [ ] King Hamad bin Isa Al Khalifa — 1950–Living
