@@ -1,0 +1,36 @@
+id: person/shervin-pishevar
+class: person
+label: { ar: "شروين بيشيفار", en: "Shervin Pishevar", ur: "شروین پیشے ور" }
+names:
+  - { value: "Shervin Kordary Pishevar", kind: full }
+  - { value: "شروین پیشه‌ور", kind: full }
+gender: male
+summary:
+  ar: "شروين كرداري بيشيفار (وُلد 24 مارس 1974 في طهران) رائد أعمال ومستثمر أمريكي من أصل إيراني، شارك في تأسيس شركة شيربا كابيتال للاستثمار المغامر وهايبرلوب ون، وكان من أوائل المستثمرين في أوبر وإير بي إن بي، وعمل مديرًا إداريًا في مينلو فنتشرز، ونال وسام الشرف لجزيرة إليس سنة 2016."
+  en: "Shervin Kordary Pishevar (born 24 March 1974 in Tehran) is an Iranian-American entrepreneur, venture capitalist and philanthropist, co-founder and managing director of Sherpa Capital and co-founder of Hyperloop One; as an angel investor he seeded more than 60 companies and led Menlo Ventures' investments in Uber, Tumblr and Warby Parker, and he received the Ellis Island Medal of Honor in 2016."
+  ur: "شروین کرداری پیشے ور (پیدائش 24 مارچ 1974ء، تہران) ایرانی نژاد امریکی کارجو، وینچر سرمایہ کار اور مخیر ہیں، شیرپا کیپیٹل اور ہائپرلوپ ون کے شریک بانی ہیں؛ فرشتہ سرمایہ کار کی حیثیت سے انہوں نے 60 سے زائد کمپنیوں میں ابتدائی سرمایہ لگایا اور مینلو وینچرز میں اوبر، ٹمبلر اور واربی پارکر کی سرمایہ کاریوں کی قیادت کی، اور 2016ء میں ایلس آئی لینڈ میڈل آف آنر حاصل کیا۔"
+roles: [patron]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1974-03-24"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran on 24 March 1974 — the date and place in the English article and Wikidata's value; the Persian article gives Tehran and the year 1974. The Hijri year (1394) is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
+  sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names any religious affiliation for him: the English and Persian articles are silent on religion and Wikidata carries no religion value. This is an absence configuration. His Iranian birth and family history — his father fled Iran after being placed on an execution list for broadcasting exit instructions to foreign nationals — are biography, not attestation, and no segment is recorded."
+    sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
+external_ids: { wikidata: "Q20987648" }
+sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 103 §A of the century-additions queue (queue line 565) from the English and Persian Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q20987648) grounded through the English article's pageprops. Editions also exist in Egyptian Arabic, Central Kurdish and Ukrainian; they were not read. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and Q20987648 appears in no existing person record. No relations are written: founder_of is refused because Sherpa Capital and Hyperloop One have no museum group entities, and born_in is refused because Tehran has no place entity; the foundings are stated in the summary and prose. Region is persia-central-asia by his Tehran birth and origin. No Arabic or Urdu edition exists; the Arabic and Urdu prose is written from the English and Persian sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-103
+status: { review: published }

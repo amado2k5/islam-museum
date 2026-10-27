@@ -561,11 +561,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Firouz Naderi — 1946–2023
 - [x] Pierre Omidyar — 1967–Living
 - [x] Arash Fergowsi — 1985–Living
-- [ ] Salim Ismail — 1965–Living
-- [ ] Shervin Pishevar — 1974–Living
-- [ ] Dara Khosrowshahi — 1969–Living
-- [ ] Mustafa Suleyman — 1984–Living
-- [ ] Demis Hassabis (DeepMind Leader) — 1976–Living
+- [x] Salim Ismail — 1965–Living
+- [x] Shervin Pishevar — 1974–Living
+- [x] Dara Khosrowshahi — 1969–Living
+- [x] Mustafa Suleyman — 1984–Living
+- [x] Demis Hassabis (DeepMind Leader) — 1976–Living
 - [ ] Fei-Fei Li (AI Leader Contemporary) — 1976–Living
 - [ ] Jawed Karim — 1979–Living
 - [ ] Salman Rushdie (Historical Literary Figure) — 1947–Living
