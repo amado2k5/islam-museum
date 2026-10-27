@@ -20,3 +20,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
 - 2026-10-27 — M3: `scripts/time-browser-cards.ts` generates one shared SVG card per
   (primary period, primary place): 623 card-stops -> 150 cards, 76 KB, under
   `site/public/media/time-browser/cards/`; `data/time-browser-cards.json` maps stop -> card.
+- 2026-10-27 — M2+M3 merged in PR #2381. Next: build step wiring (TB2) or founder direction.
+- 2026-10-27 — historynavigator H1+H2 merged (PR #1): clean React 19/Vite 8/TS 5.9/Tailwind 4
+  client, all AI code deleted, reads DATA_BASE/<lang>/index.json with /sample fallback.
+  H3 (real feed) is blocked until Claude's TB1 (scripts/time-browser.ts) lands on main.
