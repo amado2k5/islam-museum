@@ -3,6 +3,7 @@
 // No model call, no network: the output is deterministic from the graph.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
+import { loadMedia, wireRecord } from './time-browser-wire.ts'
 
 export const TIME_BROWSER_BASE = '/time-browser-data'
 export const TOPICS = [
@@ -104,6 +105,7 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
 export function writeAll(graphPath: string, outDir: string): number {
   const graph = JSON.parse(readFileSync(graphPath, 'utf8')) as { nodes: GraphNode[] }
   let files = 0
+  const media = loadMedia(process.cwd())
   for (const lang of LANGS) {
     const dir = join(outDir, lang)
     mkdirSync(dir, { recursive: true })
@@ -112,6 +114,7 @@ export function writeAll(graphPath: string, outDir: string): number {
       const recs = buildRecords(graph.nodes, t).map((r) => ({
         ...r,
         href: `/${lang}/${r.id}/`,
+        ...wireRecord(r.id, lang, media),
       }))
       topics[t] = recs
       writeFileSync(join(dir, `${t}.json`), JSON.stringify(recs))
