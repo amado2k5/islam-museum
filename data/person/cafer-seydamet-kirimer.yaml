@@ -1,0 +1,57 @@
+id: person/cafer-seydamet-kirimer
+class: person
+label:
+  ar: "جعفر سيدامت قريمر"
+  en: "Cafer Seydamet Kırımer"
+  ur: "جعفر سیدامت قریمر"
+summary:
+  ar: "سياسي وكاتب تتاري قرمي، من قادة الحركة الوطنية التتارية القرمية ومفكريها. تولى وزارة الحربية والخارجية في جمهورية القرم الشعبية سنة 1917 ثم وزارة الخارجية في الحكومة الإقليمية القرمية سنة 1918، وأمضى منفاه في تركيا وأوروبا مناصرا لقضية تتار القرم، واتخذ لقب قريمر سنة 1934، وكتب مطولا عن القرم والثورة الروسية وإسماعيل غاسبرينسكي."
+  en: "Crimean Tatar politician and writer, a leader and ideologist of the Crimean Tatar national movement. Minister of war and foreign affairs in the Crimean People's Republic in 1917 and foreign minister in the Crimean Regional Government in 1918, he spent his exile in Turkey and Europe advocating the Crimean Tatar cause, adopted the surname Kırımer in 1934, and wrote extensively on Crimea, the Russian Revolution and Ismail Gasprinsky."
+  ur: "کریمیائی تاتاری سیاست دان اور مصنف؛ کریمیائی تاتاری قومی تحریک کے رہنما اور نظریہ ساز۔ 1917 میں جمہوریہ کریمیا کے وزیرِ جنگ و خارجہ اور 1918 میں کریمیائی علاقائی حکومت کے وزیرِ خارجہ رہے؛ جلاوطنی ترکی اور یورپ میں کریمیائی تاتاری قضیے کی وکالت میں گزاری، 1934 میں «قریمر» لقب اختیار کیا اور کریمیا، روسی انقلاب اور اسماعیل گاسپرینسکی پر تفصیل سے لکھا۔"
+names:
+  - { value: "Cafer Seydamet Qırımer", kind: full }
+  - { value: "Джафер Сейдамет Кырымер", kind: full }
+  - { value: "Cafer Seydahmet Kırımer", kind: latinized }
+  - { value: "Cafer Seydahmet", kind: alternate }
+born:
+  edtf: "1889-09-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 1 September 1889 at Kızıltaş (Kiziltash) village in the Yalta district of Crimea, into a well-off peasant family (Russian, Ukrainian, English and Turkish articles and Wikidata). No Hijri pairing is given in any source, so none is recorded. No place entity exists for Kızıltaş, so no born_in relation is written."
+  sources: [source/wikipedia-cafer-seydamet-kirimer-ru, source/wikipedia-cafer-seydamet-kirimer-uk, source/wikidata-cafer-seydamet-kirimer]
+died:
+  edtf: "1960-04-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died in Istanbul on 3 April 1960 (English, Russian, Turkish and Ukrainian articles and Wikidata); buried in Feriköy Cemetery, Istanbul (Turkish article)."
+  sources: [source/wikipedia-cafer-seydamet-kirimer-en, source/wikipedia-cafer-seydamet-kirimer-tr, source/wikidata-cafer-seydamet-kirimer]
+tags: [crimea, crimean-tatars, qurultay]
+roles: [politician, writer]
+wings: [people]
+regions: [anatolia-balkans]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-cafer-seydamet-kirimer-en, source/wikipedia-cafer-seydamet-kirimer-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-cafer-seydamet-kirimer-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read contains any statement of his religion or school: the English, Russian, Turkish and Ukrainian articles record only his politics, offices and writings, and Wikidata carries no religion value for him. His books on Turkism and the national movement are political ideology, not attestation."
+    sources: [source/wikipedia-cafer-seydamet-kirimer-en, source/wikipedia-cafer-seydamet-kirimer-ru, source/wikidata-cafer-seydamet-kirimer]
+external_ids: { wikidata: "Q4820547" }
+sources:
+  - source/wikipedia-cafer-seydamet-kirimer-en
+  - source/wikipedia-cafer-seydamet-kirimer-ru
+  - source/wikipedia-cafer-seydamet-kirimer-tr
+  - source/wikipedia-cafer-seydamet-kirimer-uk
+  - source/wikidata-cafer-seydamet-kirimer
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Russian, Turkish and Ukrainian Wikipedia articles on Cafer Seydamet Kırımer and his Wikidata item Q4820547, all read in full on 27 October 2026; no text names a religion or school for him, so his faith is unknown. The allied_with relation from Noman Çelebicihan is written in Çelebicihan's record, not repeated here; the surname Kırımer, adopted in 1934 under the Turkish Surname Law, is recorded in the names list."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-108
