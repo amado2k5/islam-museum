@@ -20,6 +20,7 @@ export interface GraphNode {
   label: Record<string, string>
   summary: Record<string, string>
   span?: { earliest: number; latest: number }
+  periods?: string[]
   display?: { start?: { edtf?: string } }
   data?: {
     sources?: string[]
@@ -32,6 +33,7 @@ export interface Record_ {
   id: string
   kind: Topic
   timelineKey: number
+  derived: boolean
   date: string
   title: Record<string, string>
   summary: Record<string, string>
@@ -43,20 +45,40 @@ export interface Record_ {
 
 // Sorted by earliest year, then id. Contested records (with perspectives) are
 // kept as stops but never listed as kids (DESIGN §3 rule).
+export interface Position { earliest: number; latest: number; derived: boolean }
+
+// A node's place on the timeline (DESIGN §3): its own span, else its founded
+// date (sourced), else the span of its first dated linked period (derived).
+export function positionOf(n: GraphNode, byId: Map<string, GraphNode>): Position | null {
+  if (n.span) return { earliest: n.span.earliest, latest: n.span.latest, derived: false }
+  const founded = (n.data as { founded?: { edtf?: string } } | undefined)?.founded?.edtf
+  const year = founded ? Number.parseInt(founded, 10) : Number.NaN
+  if (!Number.isNaN(year)) return { earliest: year, latest: year, derived: false }
+  for (const pid of n.periods ?? []) {
+    const p = byId.get(pid)
+    if (p?.span) return { earliest: p.span.earliest, latest: p.span.latest, derived: true }
+  }
+  return null
+}
+
 export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
+  const byId = new Map(nodes.map((n) => [n.id, n]))
   const pool = nodes
-    .filter((n) => n.class === topic && n.span)
+    .filter((n) => n.class === topic)
     .filter((n) => (n.data?.sources ?? []).length > 0)
-    .sort((a, b) => (a.span!.earliest - b.span!.earliest) || a.id.localeCompare(b.id))
+    .map((n) => ({ n, pos: positionOf(n, byId) }))
+    .filter((x): x is { n: GraphNode; pos: Position } => x.pos !== null)
+    .sort((a, b) => (a.pos.earliest - b.pos.earliest) || a.n.id.localeCompare(b.n.id))
     .slice(0, LAUNCH_PER_TOPIC)
 
-  return pool.map((n) => {
+  return pool.map(({ n, pos }) => {
     const summary: Record<string, string> = { ar: n.summary.ar ?? '', en: n.summary.en ?? '' }
     if (n.summary.ur) summary.ur = n.summary.ur
     return {
       id: n.id,
       kind: topic,
-      timelineKey: n.span!.earliest,
+      timelineKey: pos.earliest,
+      derived: pos.derived,
       date: n.display?.start?.edtf ?? '',
       title: { ar: n.label.ar ?? '', en: n.label.en ?? '', ...(n.label.ur ? { ur: n.label.ur } : {}) },
       summary,
