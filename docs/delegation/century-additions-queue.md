@@ -481,11 +481,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Jaber Al-Ahmad Al-Sabah — 1926–2006
 - [x] Sheikh Nawaf Al-Ahmad Al-Jaber Al-Sabah — 1937–2023
 - [x] Sheikh Mishal Al-Ahmad Al-Jaber Al-Sabah — 1940–Living
-- [ ] Sheikh Hamad bin Khalifa Al Thani — 1952–Living
-- [ ] Sheikh Tamim bin Hamad Al Thani — 1980–Living
-- [ ] King Hamad bin Isa Al Khalifa — 1950–Living
-- [ ] King Hussein bin Talal — 1935–1999
-- [ ] Queen Rania Al-Abdullah — 1970–Living
+- [x] Sheikh Hamad bin Khalifa Al Thani — 1952–Living
+- [x] Sheikh Tamim bin Hamad Al Thani — 1980–Living
+- [x] King Hamad bin Isa Al Khalifa — 1950–Living
+- [x] King Hussein bin Talal — 1935–1999
+- [x] Queen Rania Al-Abdullah — 1970–Living
 - [ ] Crown Prince Hussein bin Abdullah — 1994–Living
 - [ ] Yasser Arafat — 1929–2004
 - [ ] Mahmoud Abbas — 1935–Living
