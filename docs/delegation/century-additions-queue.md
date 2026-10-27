@@ -586,11 +586,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gita Gopinath (Contemporary Economist) — 1971–Living
 - [x] Raghuram Rajan (Contemporary) — 1963–Living
 - [x] Montek Singh Ahluwalia (Contemporary) — 1943–Living
-- [ ] Syed Modasser Ali — 1946–Living
-- [ ] Dr. Zafarullah Chowdhury — 1941–2023
-- [ ] Fazle Hasan Abed — 1936–2019
-- [ ] Rizwana Hasan — 1968–Living
-- [ ] Mubarak Ahmad Khan — 1958–Living
+- [x] Syed Modasser Ali — 1946–Living
+- [x] Dr. Zafarullah Chowdhury — 1941–2023
+- [x] Fazle Hasan Abed — 1936–2019
+- [x] Rizwana Hasan — 1968–Living
+- [x] Mubarak Ahmad Khan — 1958–Living
 - [ ] Atta-ur-Rahman — 1942–Living
 - [ ] Dr. Samar Mubarakmand — 1942–Living
 - [ ] Abdul Qadeer Khan — 1936–2021

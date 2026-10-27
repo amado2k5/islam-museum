@@ -1,0 +1,36 @@
+id: person/syed-modasser-ali
+class: person
+label: { ar: "سيد مدثر علي", en: "Syed Modasser Ali", ur: "سید مدثر علی" }
+names:
+  - { value: "Syed Modasser Ali", kind: full }
+  - { value: "সৈয়দ মোদাচ্ছের আলী", kind: full }
+gender: male
+summary:
+  ar: "جرّاح عيون بنغلاديشي ورائد طبّ عيون المجتمع، وُلد في غوبالغانج سنة 1946. أسس مستشفى موجيبونيسا للعيون، أول مستشفى عيون مسجّل في بنغلاديش، وكان رئيس التحرير المؤسس لمجلة بنغلاديش لطب العيون. عمل مستشارا لرئيسة الوزراء الشيخة حسينة في الصحة ورعاية الأسرة والرعاية الاجتماعية من 2009 إلى 2013، وخدم ثلاث دورات في المجلس التنفيذي لمنظمة الصحة العالمية، ونال جائزة المنظمة لليوم العالمي بلا تدخين سنة 2010 عن عمله في مكافحة التبغ."
+  en: "Bangladeshi ophthalmic surgeon and pioneer of community ophthalmology, born in Gopalganj in 1946. He founded Mojibunnessa Eye Hospital, the first registered eye hospital in Bangladesh, and was founding editor-in-chief of the Bangladesh Ophthalmic Journal. Health, Family Welfare and Social Welfare adviser to Prime Minister Sheikh Hasina from 2009 to 2013, he served three terms on the WHO Executive Board and received the WHO World No Tobacco Day Award in 2010 for his anti-smoking work."
+  ur: "بنگلہ دیشی ماہر عینیات اور کمیونٹی طبِ چشم کے بانیوں میں سے ایک، جو 1946ء میں گوپال گنج میں پیدا ہوئے۔ انھوں نے موجیب النساء آئی ہسپتال قائم کیا، جو بنگلہ دیش کا پہلا رجسٹرڈ آئی ہسپتال تھا، اور بنگلہ دیش آفتھالمک جرنل کے بانی مدیر اعلیٰ رہے۔ وہ 2009ء سے 2013ء تک وزیر اعظم شیخ حسینہ کے مشیر برائے صحت، خاندانی بہبود اور سماجی بہبود رہے، عالمی ادارہ صحت کے ایگزیکٹو بورڈ کے تین مرتبہ رکن رہے اور 2010ء میں انھیں تنظیم کا عالمی یومِ ترکِ تمباکو ایوارڈ ملا۔"
+roles: [physician, politician]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1946-02-01"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 February 1946 at Gopalganj, then in Faridpur district, Bengal Presidency; the English article's infobox gives the day and place and its text the month, and Wikidata agrees on the date and gives Gopalganj District as the place. No place entity exists for Gopalganj, so no born_in relation is written. The Hijri year (1365) is derived by tabular conversion."
+  sources: [source/wikipedia-syed-modasser-ali-en, source/wikidata-syed-modasser-ali]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source gives any religion content for him. The English article's text, infobox and categories name none; the Urdu stub, derived from the English article, names none; Wikidata carries no religion value. Absence configuration: recorded unknown, unflagged."
+    sources: [source/wikipedia-syed-modasser-ali-en, source/wikipedia-syed-modasser-ali-ur, source/wikidata-syed-modasser-ali]
+external_ids: { wikidata: "Q7660380" }
+sources: [source/wikipedia-syed-modasser-ali-en, source/wikipedia-syed-modasser-ali-ur, source/wikidata-syed-modasser-ali]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 108 §A of the century-additions queue from the English and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu article's pageprops; the Bengali article was also read and agrees on the birth date. Existence checked both ways before building: name-fragment greps (modasser, مدثر) across data/person/ found no record for him, and his Q7660380 appears in no existing person record. No relations are written: his birthplace Gopalganj has no place entity, and his wife and children are named in no source. His faith is recorded unknown on the absence configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-108
+status: { review: published }

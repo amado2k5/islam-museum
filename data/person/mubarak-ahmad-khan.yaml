@@ -1,0 +1,36 @@
+id: person/mubarak-ahmad-khan
+class: person
+label: { ar: "مبارك أحمد خان", en: "Mubarak Ahmad Khan", ur: "مبارک احمد خان" }
+names:
+  - { value: "Mubarak Ahmad Khan", kind: full }
+  - { value: "মোবারক আহমদ খান", kind: full }
+  - { value: "Mubarak Ahmed Khan", kind: alternate }
+gender: male
+summary:
+  ar: "عالم بنغلاديشي تعدّه قاعدة سكوبس من أبرز الباحثين في الجوت في العالم. ارتبط طويلا بهيئة الطاقة الذرية البنغلاديشية وارتقى فيها إلى المدير العام، وهو المستشار العلمي لمؤسسة مصانع الجوت البنغلاديشية. من اختراعاته «سونالي باغ»، بديل قابل للتحلل من سليلوز الجوت لأكياس البوليثين، و«جوتين»، ألواح مموجة مقوّاة بالجوت. نال جائزة الاستقلال، أعلى وسام مدني في بنغلاديش، سنة 2024."
+  en: "Bangladeshi scientist recognised by Scopus as a leading researcher on jute. Long associated with the Bangladesh Atomic Energy Commission, where he rose to director general, he is scientific adviser to the Bangladesh Jute Mills Corporation. His inventions include the Sonali Bag, a biodegradable jute-cellulose alternative to polythene bags, and Jutin, a jute-reinforced corrugated sheet. He received the Independence Award, Bangladesh's highest civilian honour, in 2024."
+  ur: "بنگلہ دیشی سائنس دان جنھیں سکوپس نے پٹ سن (جوٹ) پر دنیا کے نمایاں محققین میں شمار کیا ہے۔ وہ طویل عرصہ بنگلہ دیش جوہری توانائی کمیشن سے وابستہ رہے اور اس کے ڈائریکٹر جنرل بنے؛ اب بنگلہ دیش جوٹ ملز کارپوریشن کے سائنسی مشیر ہیں۔ ان کی ایجادات میں سونالی بیگ، جو پالیتھین تھیلوں کا جوٹ سیلیولوز سے بنا قابلِ تحلیل متبادل ہے، اور جوٹن، جوٹ سے مضبوط نالی دار چادر، شامل ہیں۔ انھیں 2024ء میں بنگلہ دیش کا سب سے بڑا شہری اعزاز، یوم آزادی ایوارڈ، ملا۔"
+roles: [scientist]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1958"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Birth year 1958, carried from Wikidata alone at year precision: the English article gives no birth date or place at all (it files him under 'Year of birth missing' and 'Place of birth missing'), and the Bengali article's infobox birth-date field is empty (only its category filing gives 1958); Wikidata's value carries no references. Wikidata also gives his place of birth as Manikganj, which no article text confirms; no place entity exists for Manikganj, so no born_in relation is written. No Hijri year is recorded: the Gregorian year 1958 spans two Hijri years (1377–1378) and no source gives a consistent pairing."
+  sources: [source/wikidata-mubarak-ahmad-khan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source gives any religion content for him. The English article's text, infobox and categories name none; the Urdu stub, derived from the English article, names none; the Bengali article names none; Wikidata carries no religion value. His visiting professorship at the Islamic University of Technology is a professional post and attests nothing about him. Absence configuration: recorded unknown, unflagged."
+    sources: [source/wikipedia-mubarak-ahmad-khan-en, source/wikipedia-mubarak-ahmad-khan-ur, source/wikidata-mubarak-ahmad-khan]
+external_ids: { wikidata: "Q56907915" }
+sources: [source/wikipedia-mubarak-ahmad-khan-en, source/wikipedia-mubarak-ahmad-khan-ur, source/wikidata-mubarak-ahmad-khan]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 108 §A of the century-additions queue from the English and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu article's pageprops; the Bengali article was also read in full. Existence checked both ways before building: name-fragment greps (mubarak ahmad, مبارک احمد) across data/person/ found no record for him (the many Mubarak records are other men), and Q56907915 appears in no existing person record. No relations are written: no birthplace place entity exists and no other edge is attested to an existing entity. His faith is recorded unknown on the absence configuration, as set out in the faith note; his name was treated as no evidence of anything."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-108
+status: { review: published }
