@@ -461,11 +461,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abeid Karume — 1905–1972
 - [x] Bakili Muluzi — 1943–Living
 - [x] Atupele Muluzi — 1978–Living
-- [ ] Bingu wa Mutharika (Contemporary Leader) — 1934–2012
-- [ ] King Faisal bin Abdulaziz Al Saud — 1906–1975
-- [ ] King Abdulaziz Al Saud — 1875–1953
-- [ ] King Saud bin Abdulaziz — 1902–1969
-- [ ] King Khalid bin Abdulaziz — 1913–1982
+- [x] Bingu wa Mutharika (Contemporary Leader) — 1934–2012
+- [x] King Faisal bin Abdulaziz Al Saud — 1906–1975
+- [x] King Abdulaziz Al Saud — 1875–1953
+- [x] King Saud bin Abdulaziz — 1902–1969
+- [x] King Khalid bin Abdulaziz — 1913–1982
 - [ ] King Fahd bin Abdulaziz — 1921–2005
 - [ ] King Abdullah bin Abdulaziz — 1924–2015
 - [ ] King Salman bin Abdulaziz — 1935–Living
