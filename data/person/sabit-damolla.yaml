@@ -1,0 +1,56 @@
+id: person/sabit-damolla
+class: person
+label:
+  ar: "ثابت داملا عبد الباقي"
+  en: "Sabit Damolla"
+  ur: "ثابت داملا عبد الباقی"
+summary:
+  ar: "عالم وزعيم استقلال أويغوري؛ أول رئيس وزراء لجمهورية تركستان الشرقية الأولى ووحيدها (نوفمبر 1933 – أبريل 1934)، وُلد في يونيو 1883 في أتوش، وأُعدم بحسب الراجح شنقًا في يوليو 1934."
+  en: "Uyghur scholar and independence leader; the first and only prime minister of the First East Turkestan Republic (November 1933 to April 1934), born in June 1883 at Atush and reportedly executed by hanging in July 1934."
+  ur: "اویغور عالم اور رہنما؛ جمہوریہ مشرقی ترکستان کے پہلے اور واحد وزیر اعظم (نومبر 1933ء تا اپریل 1934ء)، جون 1883ء میں آتوش میں پیدا ہوئے اور روایت کے مطابق جولائی 1934ء میں پھانسی دیے گئے۔"
+names:
+  - { value: "Sabit Damolla Abdulbaqi", kind: full }
+  - { value: "Sabit", kind: given }
+  - { value: "Sabit Damulla Abdulbaki", kind: alternate }
+  - { value: "Sabit Damolla Abdulbaki", kind: alternate }
+born:
+  edtf: "1883-06"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Born at Atush (Artux) in the Kashgar vilayet. The English article's infobox gives June 1883; the Chinese article gives the year 1883, and Wikidata likewise carries 1883 at year precision. No source read gives a Hijri pairing for his birth, so no hijri key is carried."
+  sources: [source/wikipedia-sabit-damolla-en, source/wikipedia-sabit-damolla-zh, source/wikidata-sabit-damolla]
+died:
+  edtf: "1934-07"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: false
+  note: "Captured by Khoja Niyaz's forces near Aksu in late April 1934 and handed to Sheng Shicai. The English article's main account, citing Forbes (Warlords and Muslims in Chinese Central Asia, p. 123), gives his execution reportedly by hanging in July 1934 at Aksu; the same article also carries a later allegation that he was instead secretly imprisoned at Ürümqi by Sheng Shicai — a passage internally tied to events of 1944 — and the Chinese article's infobox places his death at Dihua (Ürümqi) in 1934. The month follows Forbes; the place is contested between Aksu and Ürümqi, so the death is carried as debated. Wikidata carries 1934 at year precision, consistent with the Forbes account. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-sabit-damolla-en, source/wikipedia-sabit-damolla-zh, source/wikidata-sabit-damolla]
+wings: [people]
+regions: [china-east-asia]
+roles: [politician, scholar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school or Sufi order for him, and no Sunni reading of him exists in any source read, so there is nothing to flag. The English article states (citing Tursun 2014) that he was a Jadidist — the Central Asian Muslim modernist movement, a movement descriptor, not a school attestation; the Chinese article's infobox gives his religion as 'Islam' in general, and Wikidata's religion (P140) value is likewise 'Islam' in general. His religious education, his teaching, and his very title Damolla (senior mullah) are roles and formation, never attestations of a school. His faith segment is therefore unknown, unflagged (generic-only configuration: no school reading exists anywhere)."
+    sources: [source/wikipedia-sabit-damolla-en, source/wikipedia-sabit-damolla-zh, source/wikidata-sabit-damolla]
+relations:
+  - type: lived_in
+    target: place/kashgar
+    note: "The First East Turkestan Republic was proclaimed at Kashgar on 12 November 1933 with him as prime minister, and he governed from there until the republic's collapse in April 1934."
+    sources: [source/wikipedia-sabit-damolla-en]
+external_ids:
+  wikidata: Q4403513
+sources:
+  - source/wikipedia-sabit-damolla-en
+  - source/wikipedia-sabit-damolla-zh
+  - source/wikidata-sabit-damolla
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English and Chinese Wikipedia articles on Sabit Damolla and Wikidata item Q4403513, each read at a recorded revision; existence checked both ways before building — name fragments (sabit, damol, damul, عبد الباقي) and slug variants found no person file, and Q4403513, grounded through the English article's page properties and confirmed through the Chinese article's, matched no existing record. No born_in or died_in edge is written: no place entity exists for Atush, Aksu or Ürümqi. No edge to Mahmut Muhiti is written: the two men stood on converging but opposed sides of the 1933–34 republic — Muhiti commanded for Khoja Niyaz, whose forces captured Damolla — and no attested colleague or succession relationship between them is stated in the sources read. Khoja Niyaz, Muhammad Amin Bughra and Sheng Shicai have no records, so no edges are written to them; the republic itself has no polity entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-100
