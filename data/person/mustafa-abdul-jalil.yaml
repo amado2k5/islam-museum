@@ -1,0 +1,38 @@
+id: person/mustafa-abdul-jalil
+class: person
+label: { ar: "مصطفى عبد الجليل", en: "Mustafa Abdul Jalil", ur: "مصطفى عبد الجليل" }
+names:
+  - { value: "مصطفى محمد عبد الجليل", kind: full }
+  - { value: "Mustafa Abdul Jalil", kind: full }
+  - { value: "Mustafa Abdel-Jalil", kind: alternate }
+  - { value: "Mustafa Abdul-Jelil", kind: alternate }
+gender: male
+summary:
+  ar: "قاضٍ وسياسي ليبي من البيضاء، وُلد سنة 1952. كان أمين اللجنة الشعبية العامة للعدل في نظام القذافي (2007–2011) فاستقال احتجاجًا في فبراير 2011، ثم ترأس المجلس الوطني الانتقالي من مارس 2011 إلى أغسطس 2012، وكان في تلك الفترة رئيس دولة ليبيا بحكم الواقع."
+  en: "Libyan judge and politician from Bayda, born in 1952. He was Gaddafi's secretary of the General People's Committee for Justice (2007–2011), resigned in protest in February 2011, and then chaired the National Transitional Council from March 2011 to August 2012, when he was Libya's de facto head of state."
+  ur: "بیضاء سے تعلق رکھنے والے لیبیائی قاضی اور سیاست دان، جو 1952 میں پیدا ہوئے۔ وہ قذافی کے دور میں عدل کی عمومی عوامی کمیٹی کے سیکرٹری رہے (2007–2011)، فروری 2011 میں احتجاجاً مستعفی ہوئے، پھر مارچ 2011 سے اگست 2012 تک قومی عبوری کونسل کے چیئرمین رہے، جب وہ لیبیا کے درحقیقت سربراہِ مملکت تھے۔"
+roles: [politician, jurist]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1952-11-06"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 6 November 1952 at Beida, citing a March 2011 news profile; the Arabic infobox gives the same day; Wikidata gives the year 1952 only. The Hijri year (1372) is derived from the Gregorian date. No born_in edge is written: Al Bayda in Libya has no place entity (place/bayda-fars is Bayda in Fars, Iran, a different place)."
+  sources: [source/wikipedia-mustafa-abdul-jalil-en, source/wikipedia-mustafa-abdul-jalil-ar, source/wikidata-mustafa-abdul-jalil]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Sunni reading rests on one structured value alone: Wikidata gives Sunni Islam, while the Arabic infobox gives only 'Muslim' in general and neither article's text names a school. His 1975 degree in Shari'a and law from the University of Libya is formation, which never attests a school. One family short of the two-source bar (FLAGGED for the founder with the structured-only family)."
+    sources: [source/wikidata-mustafa-abdul-jalil, source/wikipedia-mustafa-abdul-jalil-ar, source/wikipedia-mustafa-abdul-jalil-en]
+external_ids: { wikidata: "Q274769" }
+sources: [source/wikipedia-mustafa-abdul-jalil-en, source/wikipedia-mustafa-abdul-jalil-ar, source/wikidata-mustafa-abdul-jalil]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Mustafa Abdul Jalil, each fetched by its recorded revision id (EN 1381711466, AR 77075151) with the returned id asserted equal before use, and Wikidata item Q274769 (item revision 2558176574, read twice with identical revision and claims), the QID grounded through the English article's pageprops. No Urdu article exists. Existence checks by Latin fragments (Abdul Jalil, Abdeljalil) and Arabic fragments (عبد الجليل) across data/person, by the grounded QID across all person files, and by biography found no prior record — the other Abdul Jalil records in the graph are earlier namesakes. The Arabic article's lead gives his full name as مصطفى محمد عبد الجليل while its infobox name field reads مصطفى محمود عبد الجليل; the lead form is followed. His National Transitional Council chairmanship and his succession in Libya's headship of state are prose only: neither the council nor a head-of-state portfolio succession takes an edge under block practice, and no group entity for the council exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,48 @@
+id: person/fares-al-khoury
+class: person
+label: { ar: "فارس الخوري", en: "Fares al-Khoury", ur: "فارس الخوری" }
+names:
+  - { value: "فارس الخوري", kind: full }
+  - { value: "Fares al-Khoury", kind: full }
+  - { value: "Faris al-Khoury", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ورجل دولة سوري (1877–1962) من مؤسسي الجمهورية السورية. شغل وزارة المالية في الحكومات السورية الأولى، وترأس مجلس النواب أربع مرات، ورأس الوزراء مرتين (1944–1945 و1954–1955)، وكان أول مندوب دائم لسوريا لدى الأمم المتحدة، وهو أعلى منصب سياسي بلغه مسيحي سوري."
+  en: "Syrian politician and statesman (1877–1962) and a founding father of the Syrian republic. He was finance minister in the first Syrian governments, president of the Chamber of Deputies four times, prime minister twice (1944–1945 and 1954–1955), and Syria's first permanent representative to the United Nations — the highest political office a Syrian Christian has reached."
+  ur: "سوری سیاست دان اور ریاستی شخصیت (1877–1962) اور سوری جمہوریہ کے بانیوں میں سے ایک۔ وہ پہلی سوری حکومتوں میں وزیرِ خزانہ رہے، چار مرتبہ ایوانِ نمائندگان کے صدر بنے، دو مرتبہ وزیرِ اعظم رہے (1944–1945 اور 1954–1955)، اور اقوامِ متحدہ میں سوریہ کے پہلے مستقل مندوب تھے — یہ سب سے اعلیٰ سیاسی عہدہ ہے جو کسی سوری مسیحی کو ملا۔"
+roles: [politician, jurist]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1877-11-20"
+  hijri: "1294"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 20 November 1877 at Kfeir in the Hasbaya district, with an on-wiki 'citation needed' tag on the date; Wikidata records the same date, and the Arabic article gives the years 1877–1962. The Hijri year (1294) is derived from the Gregorian date. No born_in edge is written: Kfeir has no place entity."
+  sources: [source/wikipedia-fares-al-khoury-en, source/wikipedia-fares-al-khoury-ar, source/wikidata-fares-al-khoury]
+died:
+  edtf: "1962-01-02"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death at Damascus on 2 January 1962, citing Sami Moubayed's 'Steel & Silk' (2006); Wikidata agrees. The Hijri year (1381) is derived from the Gregorian date."
+  sources: [source/wikipedia-fares-al-khoury-en, source/wikidata-fares-al-khoury]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-fares-al-khoury-en, source/wikidata-fares-al-khoury] }
+faith:
+  - value: christian
+    basis: documented
+    note: "Two independent article texts name his own Christian affiliation personally: the English article's lead calls his premiership the highest political office a Syrian Christian has ever reached, and the Arabic article calls him the first Christian to head the legislative authority in Syria. The English article recounts his birth to a Greek Orthodox Christian family and the family's later conversion to Presbyterianism; the Arabic article gives the same family history (his paternal grandfather adopted Protestantism) and its infobox gives his denomination as Protestantism; Wikidata gives Christianity in general. Recorded as christian: the enum carries no denomination value under christian, so the Orthodox-to-Presbyterian history is preserved here. This is the full two-text configuration (the Yacoub Artin and Khalil al-Sakakini precedent), not the flagged Ashrawi variant of one lead descriptor plus a structured value."
+    sources: [source/wikipedia-fares-al-khoury-en, source/wikipedia-fares-al-khoury-ar, source/wikidata-fares-al-khoury]
+external_ids: { wikidata: "Q671162" }
+sources: [source/wikipedia-fares-al-khoury-en, source/wikipedia-fares-al-khoury-ar, source/wikipedia-fares-al-khoury-ur, source/wikidata-fares-al-khoury]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Fares al-Khoury, each fetched by its recorded revision id (EN 1382158241, AR 74236202, UR 11443268) with the returned id asserted equal before use, and Wikidata item Q671162 (item revision 2553958921, read twice with identical revision and claims), the QID grounded through the English article's pageprops. Existence checks by Latin fragments (Khoury, Khuri) and Arabic fragments (فارس الخوري) across data/person, by the grounded QID across all person files, and by biography found no prior record. No family edges are written: his brother Fayez al-Khoury and his granddaughter Colette Khoury, both named in the English article, have no records. No member_of edge is written for the National Bloc or the People's Party: neither group entity exists."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-95
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

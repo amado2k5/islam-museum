@@ -521,11 +521,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] King Idris I — 1889–1983
 - [x] Mahmoud Jibril — 1952–2020
 - [x] Fayez al-Sarraj — 1960–Living
-- [ ] Abdul Hamid Dbeibeh — 1958–Living
-- [ ] Mustafa Abdul Jalil — 1952–Living
-- [ ] Hafez al-Assad — 1930–2000
-- [ ] Fares al-Khoury (Contemporary Statesman) — 1877–1962
-- [ ] Nizar Qabbani — 1923–1998
+- [x] Abdul Hamid Dbeibeh — 1958–Living
+- [x] Mustafa Abdul Jalil — 1952–Living
+- [x] Hafez al-Assad — 1930–2000
+- [x] Fares al-Khoury (Contemporary Statesman) — 1877–1962
+- [x] Nizar Qabbani — 1923–1998
 - [ ] Adonis (Ali Ahmad Said Esber) — 1930–Living
 - [ ] Ghada al-Samman — 1942–Living
 - [ ] Colette Khoury — 1931–Living
