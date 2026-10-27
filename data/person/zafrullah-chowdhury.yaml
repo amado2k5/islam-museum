@@ -1,0 +1,48 @@
+id: person/zafrullah-chowdhury
+class: person
+label: { ar: "ظفر الله تشودري", en: "Zafrullah Chowdhury", ur: "ظفر اللہ چودھری" }
+names:
+  - { value: "Zafrullah Chowdhury", kind: full }
+  - { value: "জাফরুল্লাহ চৌধুরী", kind: full }
+  - { value: "Zafarullah Chowdhury", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وناشط صحي بنغلاديشي (27 ديسمبر 1941 – 11 أبريل 2023). شارك في حرب الاستقلال سنة 1971 وساعد في تشغيل المستشفى الميداني البنغلاديشي، ثم أسس سنة 1972 منظمة غونوشاستايا كندرا للصحة الريفية التي رادت تدريب النساء على الرعاية الصحية الأولية. كان القوة الدافعة وراء السياسة الوطنية للأدوية في بنغلاديش سنة 1982، ونال جائزة الاستقلال سنة 1977 وجائزة رامون ماغسيساي سنة 1985 وجائزة رايت ليفليهود سنة 1992."
+  en: "Bangladeshi physician and public-health activist (27 December 1941 – 11 April 2023). A freedom fighter in the 1971 Liberation War, he helped run the Bangladesh Field Hospital and in 1972 founded Gonoshasthaya Kendra, the rural health organisation that pioneered training women as primary health workers. He was the driving force behind Bangladesh's 1982 National Drug Policy, and received the Independence Award in 1977, the Ramon Magsaysay Award in 1985 and the Right Livelihood Award in 1992."
+  ur: "بنگلہ دیشی طبیب اور عوامی صحت کے کارکن (27 دسمبر 1941ء – 11 اپریل 2023ء)۔ انھوں نے 1971ء کی جنگ آزادی میں حصہ لیا اور بنگلہ دیش فیلڈ ہسپتال چلانے میں مدد کی، پھر 1972ء میں گونوشاستھایا کیندر قائم کیا، جو دیہی صحت کی وہ تنظیم ہے جس نے خواتین کو بنیادی صحت کارکن کے طور پر تربیت دینے کی ابتدا کی۔ وہ 1982ء کی قومی ادویات پالیسی کے اصل محرک تھے اور انھیں 1977ء میں یوم آزادی ایوارڈ، 1985ء میں ریمن میگسیس ایوارڈ اور 1992ء میں رائٹ لائیولی ہڈ ایوارڈ ملا۔"
+roles: [physician, activist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1941-12-27"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 27 December 1941 at Raozan, Bengal Presidency; the English article's infobox gives the day and place and Wikidata agrees. No place entity exists for Raozan, so no born_in relation is written. The Hijri year (1360) is derived by tabular conversion."
+  sources: [source/wikipedia-zafrullah-chowdhury-en, source/wikidata-zafrullah-chowdhury]
+died:
+  edtf: "2023-04-11"
+  hijri: "1444"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 11 April 2023 at Dhaka, at the Gonoshasthaya Nagar Hospital he had founded, after kidney disease, septicaemia and liver problems following COVID-19; the English article's infobox and text and Wikidata agree. The Hijri year (1444) is derived by tabular conversion."
+  sources: [source/wikipedia-zafrullah-chowdhury-en, source/wikidata-zafrullah-chowdhury]
+relations:
+  - { type: died_in, target: place/dhaka, sources: [source/wikipedia-zafrullah-chowdhury-en, source/wikidata-zafrullah-chowdhury] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source gives any religion content for him. The English article's text, infobox and categories name none (its account of his student politics speaks of leftist ideologies, which is politics, not a faith attestation); the Urdu stub, derived from the English article, names none; Wikidata carries no religion value. Absence configuration: recorded unknown, unflagged."
+    sources: [source/wikipedia-zafrullah-chowdhury-en, source/wikipedia-zafrullah-chowdhury-ur, source/wikidata-zafrullah-chowdhury]
+external_ids: { wikidata: "Q8064319" }
+sources: [source/wikipedia-zafrullah-chowdhury-en, source/wikipedia-zafrullah-chowdhury-ur, source/wikidata-zafrullah-chowdhury]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 108 §A of the century-additions queue from the English and Urdu Wikipedia articles and the Wikidata item named in the sources list, each article fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Urdu article's pageprops; the Bengali article was also read and agrees on the birth date and place. Existence checked both ways before building: name-fragment greps (zafarullah, zafrullah, ظفر) across data/person/ found only the record of Muhammad Zafarullah Khan, a different man, and his Q8064319 appears in no existing person record. One relation is written: died_in Dhaka. No founder_of relation is written for Gonoshasthaya Kendra and no spouse_of for Shireen Huq, because neither has a museum entity; his birthplace Raozan likewise has no place entity. His faith is recorded unknown on the absence configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-108
+status: { review: published }
