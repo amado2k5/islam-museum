@@ -1,0 +1,42 @@
+id: person/shahid-khaqan-abbasi
+class: person
+label:
+  ar: "شاهد خاقان عباسي"
+  en: "Shahid Khaqan Abbasi"
+  ur: "شاہد خاقان عباسی"
+summary:
+  ar: "سياسي ورجل أعمال باكستاني (وُلد 1958)، رئيس وزراء باكستان من أغسطس 2017 إلى مايو 2018، ووزير البترول والموارد الطبيعية (2013–2017)، ومؤسس شركة الطيران «إير بلو»، وقائد حزب «عوام باكستان» الذي أسسه سنة 2024."
+  en: "Pakistani politician and businessman (born 1958), prime minister of Pakistan from August 2017 to May 2018, minister for petroleum and natural resources (2013–2017), founder of the airline Airblue, and chairman of the Awaam Pakistan party he founded in 2024."
+  ur: "پاکستانی سیاست دان اور تاجر (پیدائش 1958ء)، اگست 2017ء سے مئی 2018ء تک پاکستان کے وزیرِ اعظم، وزیرِ پٹرولیم و قدرتی وسائل (2013ء–2017ء)، ایئر لائن ایئر بلو کے بانی، اور 2024ء میں قائم کردہ اپنی جماعت عوام پاکستان کے چیئرمین۔"
+names:
+  - { value: "Shahid Khaqan Abbasi", kind: full }
+  - { value: "شاهد خاقان عباسي", kind: full }
+  - { value: "شاہد خاقان عباسی", kind: full }
+gender: male
+born:
+  edtf: "1958-12-27"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 27 December 1958, as the English article and Wikidata give. The English article's text and infobox place his birth at Dewal village, Murree District (the text citing Dawn), while Wikidata's place-of-birth claim is Karachi; the article is followed, and no place relation is written because neither a Murree nor a Karachi place entity exists in the museum yet. No source read gives a Hijri pairing for the date, so none is recorded."
+  sources: [source/wikipedia-shahid-khaqan-abbasi-en, source/wikidata-shahid-khaqan-abbasi]
+roles: [politician, businessman]
+wings: [people, living]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only religion attestation anywhere is a single generic structured value. Wikidata's religion claim is Islam (Q432), generically; the English article — the only article that exists for him in any of the three languages — has no religion field and no religion text at all. On the wave-114 Chundrigar and wave-115 Zardari configuration (generic Islam only in Wikidata) the value stays unknown."
+    sources: [source/wikipedia-shahid-khaqan-abbasi-en, source/wikidata-shahid-khaqan-abbasi]
+external_ids: { wikidata: "Q7461686" }
+sources:
+  - source/wikipedia-shahid-khaqan-abbasi-en
+  - source/wikidata-shahid-khaqan-abbasi
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 116 §A of the century-additions queue (queue line 637, 'Shahid Khaqan Abbasi — 1958–Living', verified against the queue copy in the fix clone) from the English Wikipedia article 'Shahid Khaqan Abbasi' (revision 1376733805 of 25 September 2026) and Wikidata Q7461686, each read on 27 October 2026 and each checked against its recorded revision on a second read. No Arabic or Urdu article exists for him. IDENTITY: pinned by biography to Shahid Khaqan Abbasi, born 27 December 1958, prime minister of Pakistan 2017–2018 and founder of Airblue. EXISTENCE: checked three ways before building — name-fragment greps (abbasi, khaqan) across data/person/ returned no file for him (the abbasi files are classical and unrelated bearers); his QID Q7461686, grounded through the article's page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — generic Islam only as a Wikidata structured value (see the faith note). RELATIONS: none written — his birthplace (Dewal/Murree per the article, Karachi per Wikidata) has no place entity, and all office successions are refused by lane rule. LIVING-PERSON CARE: the cases the article reports are recorded as charges with their outcomes as the article states them (acquitted in the 1999 plane-hijacking case in 2001; acquitted of the PIA computer-purchase corruption charge in 2008; the 2015 NAB LNG investigation closed in December 2016 with the procurement found transparent; arrested in the LNG case in July 2019 and granted bail), never as settled guilt."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116

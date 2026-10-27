@@ -1,0 +1,44 @@
+id: person/raja-pervaiz-ashraf
+class: person
+label:
+  ar: "راجه برويز أشرف"
+  en: "Raja Pervaiz Ashraf"
+  ur: "راجہ پرویز اشرف"
+summary:
+  ar: "سياسي باكستاني (وُلد 1950)، رئيس وزراء باكستان من يونيو 2012 إلى مارس 2013، ووزير المياه والطاقة (2008–2011)، ورئيس الجمعية الوطنية (2022–2024)، ومن قيادات حزب الشعب الباكستاني."
+  en: "Pakistani politician (born 1950), prime minister of Pakistan from June 2012 to March 2013, minister for water and power (2008–2011), speaker of the National Assembly (2022–2024), and a senior leader of the Pakistan Peoples Party."
+  ur: "پاکستانی سیاست دان (پیدائش 1950ء)، جون 2012ء سے مارچ 2013ء تک پاکستان کے وزیرِ اعظم، وزیرِ آب و بجلی (2008ء–2011ء)، قومی اسمبلی کے اسپیکر (2022ء–2024ء)، اور پاکستان پیپلز پارٹی کے سینئر رہنما۔"
+names:
+  - { value: "Raja Pervaiz Ashraf", kind: full }
+  - { value: "Raja Pervez Ashraf", kind: alternate }
+  - { value: "راجه برويز أشرف", kind: full }
+  - { value: "راجہ پرویز اشرف", kind: full }
+gender: male
+born:
+  edtf: "1950-12-26"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 26 December 1950 at Sanghar, Sindh, as the English article's text and infobox, the Arabic article and Wikidata give. No place relation is written because no Sanghar place entity exists in the museum yet. No source read gives a Hijri pairing for the date, so none is recorded."
+  sources: [source/wikipedia-raja-pervaiz-ashraf-en, source/wikipedia-raja-pervaiz-ashraf-ar, source/wikidata-raja-pervaiz-ashraf]
+roles: [politician]
+wings: [people, living]
+regions: [south-asia]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: Sunni is named only in structured data. Wikidata's religion claim is Sunni Islam (Q483654); the Arabic article's infobox gives Islam generically; the English article has no religion field, and its only religion-adjacent text is that he was born to a Punjabi Muslim family — family background, which is not an attestation. No text in any language names a school for him. On the wave-114 Ayub Khan and wave-115 Shehbaz Sharif configuration (Sunni named only in structured data) the value stays unknown."
+    sources: [source/wikipedia-raja-pervaiz-ashraf-en, source/wikipedia-raja-pervaiz-ashraf-ar, source/wikidata-raja-pervaiz-ashraf]
+external_ids: { wikidata: "Q57811" }
+sources:
+  - source/wikipedia-raja-pervaiz-ashraf-en
+  - source/wikipedia-raja-pervaiz-ashraf-ar
+  - source/wikidata-raja-pervaiz-ashraf
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 116 §A of the century-additions queue (queue line 638, 'Raja Pervaiz Ashraf — 1950–Living', verified against the queue copy in the fix clone) from the English Wikipedia article 'Raja Pervez Ashraf' (revision 1376872714 of 26 September 2026), the Arabic article «راجه برويز أشرف» (revision 76473610 of 8 September 2026) and Wikidata Q57811, each read on 27 October 2026 and each checked against its recorded revision on a second read. No Urdu article exists for him. IDENTITY: pinned by biography to Raja Pervez Ashraf, born 26 December 1950 at Sanghar, prime minister of Pakistan 2012–2013; the English article and Wikidata spell the name 'Pervez' where the queue line and the record's slug spell it 'Pervaiz', and both spellings are recorded in names. EXISTENCE: checked three ways before building — name-fragment greps (ashraf, pervaiz, pervez) across data/person/ returned no file for him (the ashraf files are classical Mamluk-era and other unrelated bearers); his QID Q57811, grounded through the articles' page properties, was grepped across all data/person/ files with no match; and the biography matches no existing record. FAITH: unknown FLAGGED — Sunni named only in Wikidata's structured data, with the Arabic infobox generic and the English article giving family background only (see the faith note). RELATIONS: none written — his birthplace Sanghar has no place entity, and all office successions are refused by lane rule. LIVING-PERSON CARE: the rental-power allegations are recorded as allegations with their state as the English article states it (he denied the charges; a Supreme Court arrest order of January 2013 and an accountability-court indictment of January 2014 followed, and the article states that none of the accused in the rental power case has been convicted), never as settled guilt."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-116

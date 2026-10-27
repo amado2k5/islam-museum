@@ -634,11 +634,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Muhammad Zia-ul-Haq — 1924–1988
 - [x] Shehbaz Sharif — 1951–Living
 - [x] Asif Ali Zardari — 1955–Living
-- [ ] Shahid Khaqan Abbasi — 1958–Living
-- [ ] Raja Pervaiz Ashraf — 1950–Living
-- [ ] Yousaf Raza Gillani — 1952–Living
-- [ ] Shaukat Aziz — 1949–Living
-- [ ] Mir Hazar Khan Khoso — 1929–2021
+- [x] Shahid Khaqan Abbasi — 1958–Living
+- [x] Raja Pervaiz Ashraf — 1950–Living
+- [x] Yousaf Raza Gillani — 1952–Living
+- [x] Shaukat Aziz — 1949–Living
+- [x] Mir Hazar Khan Khoso — 1929–2021
 - [ ] Anwaar-ul-Haq Kakar — 1971–Living
 - [ ] Ahmad Shah Massoud — 1953–2001
 - [ ] Burhanuddin Rabbani — 1940–2011
