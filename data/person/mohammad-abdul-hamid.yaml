@@ -1,0 +1,38 @@
+id: person/mohammad-abdul-hamid
+class: person
+label: { ar: "محمد عبد الحميد", en: "Mohammad Abdul Hamid", ur: "محمد عبد الحمید" }
+names:
+  - { value: "Mohammad Abdul Hamid", kind: full }
+  - { value: "মোহাম্মদ আবদুল হামিদ", kind: full }
+  - { value: "محمد عبد الحميد", kind: full }
+  - { value: "محمد عبد الحمید", kind: full }
+  - { value: "Md. Abdul Hamid", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي ومحامٍ بنغلاديشي (وُلد في 1 يناير 1944)، من قدامى رابطة عوامي، انتُخب نائبًا في البرلمان سبع مرات، وتولى رئاسة مجلس الأمة (جاتيا سانغساد) في 2001 ومن 2009 إلى 2013، ثم رئاسة بنغلاديش من 2013 إلى 2023 فكان أطول الرؤساء خدمة في تاريخ البلاد وأول من أعيد انتخابه لولاية ثانية."
+  en: "Bangladeshi politician and lawyer (born 1 January 1944), a lifelong Awami League figure elected to parliament seven times, speaker of the Jatiya Sangsad in 2001 and from 2009 to 2013, and then president of Bangladesh from 2013 to 2023 — the longest-serving president in the country's history and the first to be re-elected to a second term."
+  ur: "بنگلہ دیشی سیاست دان اور وکیل (پیدائش 1 جنوری 1944ء)، عوامی لیگ کے دیرینہ رہنما، سات مرتبہ رکن پارلیمنٹ منتخب ہوئے، 2001ء اور 2009ء تا 2013ء جاتیہ سنگسد کے اسپیکر رہے، پھر 2013ء سے 2023ء تک بنگلہ دیش کے صدر رہے — ملک کے سب سے طویل عرصہ خدمت کرنے والے صدر اور دوسری مدت کے لیے دوبارہ منتخب ہونے والے پہلے صدر۔"
+roles: [politician, jurist]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1944-01-01"
+  hijri: "1362"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 January 1944 at Kamalpur village, Mithamain Upazila, Kishoreganj District, Bengal, British India, as the English article and the Arabic article's lead give. The Arabic article's infobox and the Wikidata-derived data give Dhaka as the birthplace — a structured-data error, recorded here and not followed. No born_in relation is written: Kamalpur, Mithamain and Kishoreganj have no museum place entity. The Hijri year (1362) is derived by tabular conversion."
+  sources: [source/wikipedia-mohammad-abdul-hamid-en, source/wikipedia-mohammad-abdul-hamid-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — the reading rests on one structured family only. The Arabic article's infobox names his religion as 'Islam, and Ahl al-Sunna wa'l-Jama'a' (Sunni), a single structured value; the English article carries no religion field and no statement of his own affiliation anywhere in its text — its only Islam-related content concerning him personally is his proposal, as head of state, of a UN-administered humanitarian corridor for Rohingya Muslims, which is foreign-policy advocacy, not personal attestation — and no second independent source names a school for him. Under the doubt rule the Sunni reading therefore stays unrecorded; it is preserved here in full for a founder ruling. He is a living person, and this note records only what the defined sources state."
+    sources: [source/wikipedia-mohammad-abdul-hamid-en, source/wikipedia-mohammad-abdul-hamid-ar]
+sources: [source/wikipedia-mohammad-abdul-hamid-en, source/wikipedia-mohammad-abdul-hamid-ar]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 113 §A of the century-additions queue (queue line 617, 'Abdul Hamid — 1944–Living', verified against the queue copy on origin/main) from the English Wikipedia article read in full and the Arabic article read in its infobox and lead on 27 October 2026. IDENTITY: pinned by biography to the Awami League speaker who was president 2013–2023, born at Kamalpur on 1 January 1944; he is not any of the classical or Ottoman bearers of the name Abd al-Hamid in the museum, nor the Libyan prime minister Abdul Hamid Dbeibeh. EXISTENCE: checked three ways before building — name-fragment greps across all of data/person/ hit only the pre-modern abd-al-hamid files, abdul-hamid-dbeibeh and unrelated hamid compounds, none of them this man; his Wikidata QID Q3246667, grounded through the authority file of his Wikimedia Commons category, was grepped across all data/person/ files with no match; and the biography matches no existing record. ENVIRONMENT LIMITATION: the reading route exposes no revision identifiers, so the sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded, although the QID was grounded for the existence check; no revision identifier was invented. RELATIONS: none are written — his birthplace has no museum place entity and he holds no relation to an existing entity that the sources attest; no member_of is written because the Awami League has no museum group entity. No succession edge is written: the presidential sequence is an office sequence, not personal succession. Living-person care: only well-sourced public facts are recorded. His faith is recorded unknown, flagged, on the one-structured-family configuration set out in the faith note, the same configuration as Sheikh Mujibur Rahman's in wave 112."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-113
+status: { review: published }
