@@ -1,0 +1,58 @@
+id: person/alymbek-datka
+class: person
+label:
+  ar: "أليمبك داتقا"
+  en: "Alymbek Datka"
+  ur: "أليمبك داتقا"
+summary:
+  ar: "أليمبك داتقا (1799–1862)، وُلد أليمبك أسان بي أوغلو، رجل دولة قرغيزي من ألاي بخانية خوقند؛ حمل لقب «داتقا» من سنة 1831، وحكم ولاية أنديجان، وصار وزيرًا للخانية، وقُتل في انقلاب قصر بخوقند سنة 1862. وهو زوج قرمانجان داتقا التي خلفته في حكم ألاي."
+  en: "Alymbek Datka (1799–1862), born Alymbek Asan biy uulu, was a Kyrgyz statesman of the Alai in the Khanate of Kokand: he held the title Datka from 1831, governed the Andijan vilayet, rose to vizier of the khanate, and was murdered in a palace coup at Kokand in 1862. He was the husband of Kurmanjan Datka, who succeeded him as ruler of the Alai."
+  ur: "أليمبك داتقا (1799–1862)، اصل نام أليمبك أسان بی اولو، خانیت خوقند میں آلائی کے کرغیز ریاستی رہنما تھے؛ 1831 سے «داتقا» کا لقب رکھتے تھے، اندیجان ولایت کے حاکم اور خانیت کے وزیر رہے، اور 1862 میں خوقند میں محلاتی سازش میں قتل ہوئے۔ وہ قرمانجان داتقا کے شوہر تھے۔"
+names:
+  - { value: "Alymbek Datka", kind: full }
+  - { value: "Алымбек датка", kind: full }
+  - { value: "Алымбек Асан бий уулу", kind: full }
+  - { value: "Алымбек-датка", kind: full }
+  - { value: "Alymbek Asan biy uulu", kind: latinized }
+  - { value: "Olimbek dodxoh", kind: alternate }
+  - { value: "Datka", kind: laqab }
+gender: male
+born:
+  edtf: "1799"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born in the Alai Valley in 1799, as the Russian article's biography text, the Kyrgyz article and Wikidata give; the Russian article's infobox and lead also carry 1807 (referenced to Beysembiev's Kokand historiography) and the Uzbek article's lead gives 1799/1800, so the year is carried as debated on the majority reading. No Hijri pairing is attested in the sources read, so no hijri key is carried."
+  sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-ky, source/wikipedia-alymbek-datka-uz, source/wikidata-alymbek-datka]
+died:
+  edtf: "1862"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Murdered by palace conspirators at Kokand in 1862, as the Russian, Kyrgyz and Uzbek articles agree on the year and the manner; the Uzbek article gives '1862 or 1863' and states expressly that the exact date and place of his death are not certain, so the year is debated. Wikidata's day-precision value, 24 February 1862, is not carried: in the Kyrgyz article's text that date is the conspiracy against Malla Khan in which he took part, not a stated death date. No entity exists for Kokand or the Alai Valley, so no died_in or born_in edge is written. No Hijri pairing is attested, so no hijri key is carried."
+  sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-ky, source/wikipedia-alymbek-datka-uz, source/wikidata-alymbek-datka]
+wings: [people]
+regions: [persia-central-asia]
+roles: [politician]
+relations:
+  - { type: spouse_of, target: person/kurmanjan-datka, sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-uz] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the Sunni reading rests on the Russian article's infobox alone (veroisovpovedanie: Sunni Islam), an infobox field referenced to no text — the same configuration as his wife Kurmanjan Datka's record. No article text names his religion: the Kyrgyz article records only that he built a madrasa for children, the Uzbek article that he built mosques and madrasas at Osh, which are patronage and building acts, and Wikidata carries no religion (P140) value at all. One infobox short of the two-source bar, the segment is unknown, with the Sunni infobox reading preserved here."
+    sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-ky, source/wikipedia-alymbek-datka-uz, source/wikidata-alymbek-datka]
+external_ids:
+  wikidata: Q20604212
+sources:
+  - source/wikipedia-alymbek-datka-ru
+  - source/wikipedia-alymbek-datka-ky
+  - source/wikipedia-alymbek-datka-uz
+  - source/wikidata-alymbek-datka
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "Russian, Kyrgyz and Uzbek Wikipedia articles on Alymbek Datka and Wikidata item Q20604212, each read at a recorded revision; existence checked both ways before building — name fragments (alymbek, olimbek, datka) and slug variants across data/person found the name only as a mention inside Kurmanjan Datka's record, and Q20604212, grounded through the Russian article's page properties and confirmed through the Kyrgyz and Uzbek articles', grepped across all data/person files with zero hits; each Wikidata item in this group was read twice with identical revision and claims, and each article was fetched by its recorded revid with equality asserted. The spouse edge to Kurmanjan Datka is written here, in his record, once: her record deliberately carries none, since he was not yet built when it was written. No place edges are written (no entities for Kokand, Osh or the Alai Valley) and no child_of edge (his father Asan-biy has no record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-105
