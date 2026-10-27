@@ -1,0 +1,47 @@
+id: person/mas-mansoer
+class: person
+label: { ar: "ماس منصور", en: "Mas Mansoer", ur: "ماس منصور" }
+names:
+  - { value: "Mas Mansoer", kind: full }
+  - { value: "Mas Mansur", kind: alternate }
+  - { value: "Kiai Haji Mas Mansur", kind: alternate }
+  - { value: "ماس منصور", kind: full }
+gender: male
+summary:
+  ar: "عالم وقائد ديني إندونيسي (1896–1946)، درس في مكة والأزهر، ورأس المحمدية (1937–1942) فأعاد تنظيمها بخطواته الاثنتي عشرة، وشارك في تأسيس مجلس الإسلام الأعلى و«الأربعة المتسلسلين» في عهد الاحتلال الياباني، ومات في سجن كاليسوسوك بسورابايا سنة 1946 فسمّي بطلًا قوميًّا. عُرف بفتاواه التطهيرية ومنها تحريم فائدة البنوك."
+  en: "Indonesian scholar and religious leader (1896–1946) who studied in Mecca and at al-Azhar, chaired Muhammadiyah (1937–1942) and reorganised it with his Twelve Steps, helped found the Majelis Islam A'la Indonesia and served among the 'Four Series' of the Japanese occupation, and died in Kalisosok Prison, Surabaya, in 1946; he was named a National Hero. He was known for purifying rulings, among them the prohibition of bank interest."
+  ur: "انڈونیشی عالم اور مذہبی رہنما (1896ء–1946ء)، مکہ اور الازہر میں پڑھے، محمدیہ کے صدر (1937ء–1942ء) رہے اور اسے اپنے بارہ اقدامات سے منظم کیا، مجلس اسلام اعلیٰ انڈونیشیا کے قیام میں حصہ لیا اور جاپانی قبضے کے «چار سلسلہ» میں شامل رہے، 1946ء میں سورابایا کی کالی سوسوک جیل میں وفات پائی اور قومی ہیرو قرار پائے۔ بینک کے سود کی حرمت سمیت تطہیری فتاوٰی سے مشہور تھے۔"
+roles: [scholar, politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1896-06-25"
+  hijri: "1314"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Kampung Sawahan, Surabaya, on 25 June 1896: the English and Indonesian articles and Wikidata agree. The Hijri year 1314 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-mas-mansoer-en, source/wikipedia-mas-mansoer-id, source/wikidata-mas-mansoer]
+died:
+  edtf: "1946-04-25"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Kalisosok Prison, Surabaya, on 25 April 1946, and was buried at Langgar Gipo in Surabaya: the English and Indonesian articles and Wikidata agree. The Hijri year 1365 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-mas-mansoer-en, source/wikipedia-mas-mansoer-id, source/wikidata-mas-mansoer]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for him. The Indonesian article's infobox leaves its religion and denomination fields empty; the English article names no madhhab — his al-Azhar and Mecca studies are formation, his Muhammadiyah chairmanship is office, and his fatwas (bank interest forbidden; grave pilgrimage and talqin prohibited) are his rulings and purification positions, none of which ever counts as a personal school attestation. Wikidata gives Islam in general (Q432) only. The value stays unknown, unflagged."
+    sources: [source/wikipedia-mas-mansoer-id, source/wikipedia-mas-mansoer-en, source/wikidata-mas-mansoer]
+external_ids: { wikidata: "Q4201161" }
+sources: [source/wikipedia-mas-mansoer-en, source/wikipedia-mas-mansoer-id, source/wikidata-mas-mansoer]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mas Mansoer' (revision 1378207389), Indonesian Wikipedia 'Mas Mansoer' (revision 29762436) and Wikidata item Q4201161 (item revision 2556609196), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the item was read twice with identical content, and the QID was grounded through the English article's page properties and confirmed through the Indonesian article's. Identity: the queue line's bearer is the Muhammadiyah chairman (1896–1946); both articles and the item agree on the biography and the queue's years exactly. No Arabic or Urdu Wikipedia article exists, so the Arabic and Urdu prose is written from the English and Indonesian sources and says so. Existence checks by name fragments (mansoer, mansur, منصور) across data/person, by QID and by biography found no prior record of him (he was mentioned in the prose of person/tjokroaminoto as a fellow pilgrim). Relations written: none in this record. No born_in, died_in or buried_in edge is written: Surabaya has no place entity. No member_of edge is written: no group entity for Muhammadiyah exists. His Muhammadiyah succession — after Hisjam bin Hoesni (who has no record) and before Ki Bagus Hadikusumo — is written as a successor_of edge in Ki Bagus Hadikusumo's record, where the articles attest the direct sequence, and is told in the prose here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-91
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
