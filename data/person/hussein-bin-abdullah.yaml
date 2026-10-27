@@ -1,0 +1,44 @@
+id: person/hussein-bin-abdullah
+class: person
+label: { ar: "الحسين بن عبد الله الثاني", en: "Hussein bin Abdullah", ur: "حسین بن عبد اللہ دوم" }
+names:
+  - { value: "Hussein bin Abdullah Al-Hashimi", kind: full }
+  - { value: "الحسين بن عبد الله الثاني بن الحسين الهاشمي", kind: full }
+gender: male
+summary:
+  ar: "الحسين بن عبد الله الثاني (وُلد 28 يونيو 1994) ولي عهد المملكة الأردنية الهاشمية منذ 2 يوليو 2009، وهو أكبر أبناء الملك عبد الله الثاني والملكة رانيا. وُلد في عمّان، وتخرّج في جامعة جورجتاون سنة 2016 وفي أكاديمية ساندهيرست العسكرية سنة 2017، ويخدم ضابطًا في القوات المسلحة الأردنية. صار سنة 2015 أصغر من ترأّس جلسة لمجلس الأمن الدولي، ويرأس مؤسسة ولي العهد ومبادراتها في التقنية والتعليم والعمل التطوعي."
+  en: "Hussein bin Abdullah (born 28 June 1994) is Crown Prince of the Hashemite Kingdom of Jordan since 2 July 2009, the eldest son of King Abdullah II and Queen Rania. Born in Amman, he graduated from Georgetown University in 2016 and from the Royal Military Academy Sandhurst in 2017, and serves as an officer in the Jordanian Armed Forces. In 2015 he became the youngest person to chair a session of the UN Security Council, and he heads the Crown Prince Foundation and its technology, education and volunteer initiatives."
+  ur: "حسین بن عبد اللہ دوم (پیدائش 28 جون 1994ء) 2 جولائی 2009ء سے اردن کے ولی عہد ہیں، بادشاہ عبد اللہ دوم اور ملکہ رانیا کے سب سے بڑے بیٹے۔ عمان میں پیدا ہوئے، 2016ء میں جارج ٹاؤن یونیورسٹی اور 2017ء میں سینڈہرسٹ سے فارغ ہوئے اور اردنی فوج میں افسر ہیں۔ 2015ء میں وہ اقوامِ متحدہ کی سلامتی کونسل کے اجلاس کی صدارت کرنے والے کم عمر ترین فرد بنے۔"
+roles: [politician]
+born:
+  edtf: "1994-06-28"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at the King Hussein Medical Center in Amman on 28 June 1994 (English and Arabic articles and Wikidata agree). The Arabic article's lead pairs the date with 19 Muharram 1415 AH, which is the source of the Hijri year. He is the eldest child of King Abdullah II and Queen Rania and the namesake of his grandfather, King Hussein."
+  sources: [source/wikipedia-hussein-bin-abdullah-en, source/wikipedia-hussein-bin-abdullah-ar, source/wikidata-hussein-bin-abdullah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on a single structured family — the English article's infobox religion field reads Sunni Islam and the Wikidata item's religion value (P140) is Sunni Islam (Q483654), which are one family, not two sources — while the Arabic and Urdu articles make no religion statement at all and no text in any edition attests an affiliation of his own. This is the structured-only configuration of the Gulf and Jordanian royal records (his father's record likewise stands unknown, on a weaker value still). His Hashemite descent and his headship-in-waiting of a state whose constitution names Islam do not attest personal affiliation. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-hussein-bin-abdullah-en, source/wikipedia-hussein-bin-abdullah-ar, source/wikipedia-hussein-bin-abdullah-ur, source/wikidata-hussein-bin-abdullah]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/wikipedia-hussein-bin-abdullah-en, source/wikidata-hussein-bin-abdullah] }
+  - { type: child_of, target: person/abdullah-ii, sources: [source/wikipedia-hussein-bin-abdullah-en, source/wikidata-hussein-bin-abdullah] }
+  - { type: child_of, target: person/rania-al-abdullah, sources: [source/wikipedia-hussein-bin-abdullah-en, source/wikidata-hussein-bin-abdullah] }
+wings: [people, living]
+regions: [levant-iraq]
+external_ids: { wikidata: "Q981927" }
+sources:
+  - source/wikipedia-hussein-bin-abdullah-en
+  - source/wikipedia-hussein-bin-abdullah-ar
+  - source/wikipedia-hussein-bin-abdullah-ur
+  - source/wikidata-hussein-bin-abdullah
+provenance:
+  layer: own-research
+  source: "Wikipedia articles on Hussein bin Abdullah in English (revision 1382195088 of 27 Oct 2026), Arabic (revision 76469615 of 8 Sep 2026) and Urdu (revision 5932774 of 25 Jan 2024) and the Wikidata item Q981927 (item revision 2495837467 of 22 May 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed (the hussein-al-sheikh and hussein-bin-talal files are other men). No member_of edge is written: neither his father's nor his grandfather's record carries a house-group edge, and following them keeps the family's records consistent. His wife Rajwa has no museum record, so no spouse_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-88
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

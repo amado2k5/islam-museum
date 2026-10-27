@@ -486,11 +486,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] King Hamad bin Isa Al Khalifa — 1950–Living
 - [x] King Hussein bin Talal — 1935–1999
 - [x] Queen Rania Al-Abdullah — 1970–Living
-- [ ] Crown Prince Hussein bin Abdullah — 1994–Living
-- [ ] Yasser Arafat — 1929–2004
-- [ ] Mahmoud Abbas — 1935–Living
-- [ ] Sheikh Ahmed Yassin — 1936–2004
-- [ ] Hanan Ashrawi — 1946–Living
+- [x] Crown Prince Hussein bin Abdullah — 1994–Living
+- [x] Yasser Arafat — 1929–2004
+- [x] Mahmoud Abbas — 1935–Living
+- [x] Sheikh Ahmed Yassin — 1936–2004
+- [x] Hanan Ashrawi — 1946–Living
 - [ ] Saeb Erekat — 1955–2020
 - [ ] Faisal Husseini — 1940–2001
 - [ ] Gamal Abdel Nasser — 1918–1970
