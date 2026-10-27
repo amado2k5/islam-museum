@@ -1,0 +1,55 @@
+id: person/muhammad-shafee-okarvi
+class: person
+label: { ar: "محمد شفيع أوكاروي", en: "Muhammad Shafee Okarvi", ur: "محمد شفیع اوکاڑوی" }
+names:
+  - { value: "Muhammad Shafee Okarvi", kind: full }
+  - { value: "محمد شفيع أوكاروي", kind: full }
+  - { value: "محمد شفیع اوکاڑوی", kind: full }
+  - { value: "Khateeb-e-Pakistan", kind: laqab }
+  - { value: "خطيب باكستان الأعظم", kind: laqab }
+  - { value: "Okarvi", kind: nisba }
+gender: male
+summary:
+  ar: "عالم وخطيب باكستاني (1930–1984) من خيم كاران في البنجاب، هاجر إلى أوكارا سنة 1947 ثم استقر خطيباً في كراتشي. كان من مؤسسي جماعة أهل السنة في باكستان وأول رئيس لها، وأسس الجامعة الحنفية أشرف المدارس في أوكارا، وألقى أكثر من 18,000 خطاب في 38 عاماً، ونال وسام الامتياز (ستارة امتياز) بعد وفاته سنة 1985."
+  en: "Pakistani scholar and orator (1930–1984) of Khem Karan in Punjab, who migrated to Okara in 1947 and settled as a preacher in Karachi. He was one of the founders of Jamaat Ahle Sunnat Pakistan and its first chairman, founded the Jamia Hanafiyya Ashraf-ul-Madaris at Okara, delivered over 18,000 speeches in 38 years, and was awarded the Sitara-i-Imtiaz posthumously in 1985."
+  ur: "پاکستانی عالم اور خطیب (1930ء–1984ء) جن کا تعلق کھیم کرن، پنجاب سے تھا، 1947ء میں اوکاڑہ ہجرت کی اور پھر کراچی میں خطیب کی حیثیت سے آباد ہوئے۔ جماعت اہلِ سنت پاکستان کے بانیان اور اس کے پہلے چیئرمین تھے، اوکاڑہ میں جامعہ حنفیہ اشرف المدارس قائم کیا، 38 برس میں 18,000 سے زائد خطابات کیے اور 1985ء میں بعد از وفات ستارۂ امتیاز سے نوازے گئے۔"
+roles: [scholar, preacher, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1930-02-02"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and Arabic articles and Wikidata give his birth as 2 February 1930 at Khem Karan, East Punjab, which the record follows. The Urdu article's infobox and birth section give the year 1929 — the reading the lane queue carries — but the Urdu infobox's own Hijri pairing, 2 Ramadan 1348 AH, converts to 2 February 1930, so the Urdu article is internally inconsistent and its stated year is not followed. Khem Karan has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-muhammad-shafee-okarvi-en, source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar, source/wikidata-muhammad-shafee-okarvi]
+died:
+  edtf: "1984-04-24"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Karachi on 24 April 1984 after a third heart attack, as all three articles and Wikidata agree, and was buried at Karachi; Karachi has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion."
+  sources: [source/wikipedia-muhammad-shafee-okarvi-en, source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar, source/wikidata-muhammad-shafee-okarvi]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent texts name his Sunni affiliation personally. The Urdu text's lead calls him a distinguished scholar of Ahl-e-Sunnat wa Jama'at and the founder of its central Jamaat Ahle Sunnat. The Arabic text's lead gives, among his well-known titles, 'reviver of the maslak of Ahl al-Sunna' (mujaddid maslak Ahl al-Sunna). The English text corroborates that he founded Jamaat Ahle Sunnat and became its first chairman. No madhhab segment is recorded: Hanafi appears in the English infobox's jurisprudence field and in the names of institutions he founded, such as the Jamia Hanafiyya at Okara, neither of which is a text naming his own madhhab, and the reading is preserved here."
+    sources: [source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar]
+  - value: sufi
+    basis: documented
+    note: "Two independent texts state his personal discipleship and khilafa, which is the lane's test for a sufi segment. The Urdu text's Bay'ah and Iradat section names his pir and murshid as Mian Ghulamullah Sharqpuri (Sani Sahib), of the Naqshbandiyya Mujaddidiyya line of Mian Sher Muhammad Sharqpuri, and states that he held ijaza and khilafa from numerous shaykhs in all the tariqa silsilas and that his murids number in the thousands across the world. The Arabic text states independently that he gained thousands of murids throughout the world. His tariqa affiliation and his school are kept separate, neither inferred from the other."
+    sources: [source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar]
+relations:
+  - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-muhammad-shafee-okarvi-ur] }
+external_ids: { wikidata: "Q4116376" }
+sources: [source/wikipedia-muhammad-shafee-okarvi-en, source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar, source/wikidata-muhammad-shafee-okarvi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shafee Okarvi' (revision 1378880993), Urdu Wikipedia 'محمد شفیع اوکاڑوی' (revision 9375330) and Arabic Wikipedia 'محمد شفيع أوكاروي' (revision 71707653), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q4116376 (item revision 2518987803). The Urdu and Arabic articles are independently written compositions with their own sources. Existence checks by name fragments (okarvi, اوکاڑوی, أوكاروي), by Arabic label across data/person, by biography and by QID found no prior record for this man. The member_of edge to group/naqshbandiyya is written once, here, from the Urdu text's statement of his murshid's line; no group entity exists for Jamaat Ahle Sunnat, so his founding of it is stated in prose only, and no person record exists for his murshid Mian Ghulamullah Sharqpuri or his teacher Pir Muhammad Inayat Ahmad Naqshbandi, so no student_of edge is written. Khem Karan and Karachi have no place entities. The lane queue gives 1929–1984; the birth year is corrected to 1930 on the English and Arabic articles and Wikidata against the Urdu article's internally inconsistent 1929, as the born note records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-78
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
