@@ -1,0 +1,47 @@
+id: person/ahmad-yar-khan-daultana
+class: person
+label: { ar: "أحمد يار خان دولتانة", en: "Ahmad Yar Khan Daultana", ur: "احمد یار خان دولتانہ" }
+names:
+  - { value: "Mian Ahmad Yar Khan Daultana", kind: full }
+  - { value: "أحمد يار خان دولتانة", kind: full }
+  - { value: "احمد یار خان دولتانہ", kind: full }
+  - { value: "Ahmad Yar Khan Daultana", kind: alternate }
+  - { value: "Mian", kind: laqab }
+gender: male
+summary:
+  ar: "رئيس قبيلة دولتانة في لُدّن وسياسي بنجابي (1896–1940)، انتُخب لعضوية مجالس البنجاب التشريعية في 1921 و1926 و1930 ثم مجلس البنجاب التشريعي في 1937، وكان أمين حزب الاتحاد وسكرتيرًا برلمانيًا رئيسًا لحكومة البنجاب، وعُيّن قائدًا في رتبة الإمبراطورية البريطانية سنة 1939. وهو والد ممتاز دولتانة."
+  en: "Chief of the Daultanas of Luddan and a Punjabi politician (1896–1940), elected to the Punjab legislatures in 1921, 1926 and 1930 and to the Punjab Legislative Assembly in 1937, secretary of the Unionist Party and Chief Parliamentary Secretary of the Punjab government, appointed CBE in 1939. He was the father of Mumtaz Daultana."
+  ur: "لدن کے دولتانہ قبیلے کے سردار اور پنجابی سیاست دان (1896ء–1940ء)، جو 1921، 1926 اور 1930 میں پنجاب کی قانون ساز مجالس اور 1937 میں پنجاب قانون ساز اسمبلی کے رکن بنے، یونینسٹ پارٹی کے سیکرٹری اور پنجاب حکومت کے چیف پارلیمانی سیکرٹری رہے، اور 1939 میں سی بی ای بنائے گئے۔ وہ ممتاز دولتانہ کے والد تھے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1896-04-13"
+  hijri: "1313"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Luddan on 13 April 1896: the English article's lead, infobox and early-life text, resting on a 1937 Lahore biographical volume; the Urdu article's categories and Wikidata agree on the year 1896. The Hijri year 1313 is a tabular conversion, marked derived. Luddan has no place entity, so no born_in edge is written. The lane queue gives this line as '(1890–1940)': no consulted source supports 1890, and the article's sourced day-precision date is followed instead."
+  sources: [source/wikipedia-ahmad-yar-khan-daultana-en, source/wikipedia-ahmad-yar-khan-daultana-ur, source/wikidata-ahmad-yar-khan-daultana]
+died:
+  edtf: "1940"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1940: the English article states the year, cited to Carter (2005) and Korson (1974); the Urdu article's categories and Wikidata agree. No consulted source gives a day or month, and no source gives a Hijri pairing (the year spans 1358–1359 AH), so the block carries no hijri value."
+  sources: [source/wikipedia-ahmad-yar-khan-daultana-en, source/wikipedia-ahmad-yar-khan-daultana-ur, source/wikidata-ahmad-yar-khan-daultana]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for him. The English article returns him from constituencies named 'Mohammadan' — the Western Multan Mohammadan constituency and the Punjab Mohammadan landholders — which are categories of the colonial electoral rolls, not statements of his own affiliation; it also records that his father died while performing Hajj, which is his father's practice and family background. His offices (secretary of the Unionist Party, Chief Parliamentary Secretary) are public office. The Urdu article is a stub derived from the English one, and Wikidata carries no religion value at all. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-ahmad-yar-khan-daultana-en, source/wikipedia-ahmad-yar-khan-daultana-ur, source/wikidata-ahmad-yar-khan-daultana]
+external_ids: { wikidata: "Q134951730" }
+sources: [source/wikipedia-ahmad-yar-khan-daultana-en, source/wikipedia-ahmad-yar-khan-daultana-ur, source/wikidata-ahmad-yar-khan-daultana]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmad Yar Khan Daultana' (revision 1373134022), Urdu Wikipedia 'احمد یار خان دولتانہ' (revision 10440255) and Wikidata item Q134951730 (item revision 2513852226), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; every article revision and the item's last revision were re-queried and matched a second time. Existence checks by name fragments (daultana, دولتانہ) across data/person, by QID and by biography (chief of the Daultanas of Luddan, Punjab legislator, 1896–1940) found no prior record for this man. No Arabic Wikipedia article exists for him (the item's sitelinks are English and Urdu only), so the Arabic prose is written from the English and Urdu sources and says so. No relations are written in this record: his son Mumtaz Daultana's record carries the child_of edge to him, his father Mian Ghulam Kadir Khan has no person record, and Luddan has no place entity. The lane queue gives 'Mian Ahmad Yar Khan Daultana (1890–1940)'; the death year is confirmed, but the articles give his birth as 13 April 1896, and that sourced date is followed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-89
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

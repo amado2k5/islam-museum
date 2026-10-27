@@ -1,0 +1,52 @@
+id: person/mumtaz-daultana
+class: person
+label: { ar: "ممتاز دولتانة", en: "Mumtaz Daultana", ur: "ممتاز دولتانہ" }
+names:
+  - { value: "Mian Mumtaz Daultana", kind: full }
+  - { value: "ممتاز دولتانة", kind: full }
+  - { value: "میاں ممتاز دولتانہ", kind: full }
+  - { value: "Mumtaz Daulatana", kind: alternate }
+  - { value: "Mian Muhammad Mumtaz Daultana", kind: alternate }
+  - { value: "Mian", kind: laqab }
+gender: male
+summary:
+  ar: "سياسي باكستاني (1916–1995)، ابن أحمد يار خان دولتانة، وثاني رؤساء وزراء بنجاب الغربية (1951–1953)، استقال بعد أعمال شغب لاهور سنة 1953 حين فُرضت الأحكام العرفية، ثم كان وزيرًا للدفاع في حكومة تشوندريغار (1957)، وسفيرًا لباكستان لدى المملكة المتحدة (1972–1979)."
+  en: "Pakistani politician (1916–1995), the son of Ahmad Yar Khan Daultana and the second chief minister of West Punjab (1951–1953), who resigned after the 1953 Lahore riots and the imposition of martial law, then minister of defence in the Chundrigar government (1957) and Pakistan's high commissioner to the United Kingdom (1972–1979)."
+  ur: "پاکستانی سیاست دان (1916ء–1995ء)، احمد یار خان دولتانہ کے بیٹے اور مغربی پنجاب کے دوسرے وزیر اعلیٰ (1951ء–1953ء)، جو 1953 کے لاہور فسادات اور مارشل لا کے بعد مستعفی ہوئے، پھر چونڈریگر حکومت میں وزیر دفاع (1957ء) اور برطانیہ میں پاکستان کے ہائی کمشنر (1972ء–1979ء) رہے۔"
+roles: [politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1916-02-20"
+  hijri: "1334"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The followed date is 20 February 1916, born at Luddan: the English article's lead, infobox and short description give it, and the Urdu article's categories file him under 1916 births. Wikidata instead carries 20 January 1915, which no article gives; the variant is preserved here and the date is recorded as debated. The Hijri year 1334 is a tabular conversion of the followed date, marked derived. Luddan has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-mumtaz-daultana-en, source/wikipedia-mumtaz-daultana-ur, source/wikidata-mumtaz-daultana]
+died:
+  edtf: "1995-01-30"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Lahore on 30 January 1995: the English article's lead and infobox and Wikidata agree, and the Urdu article's categories file him under 1995 deaths. The Hijri year 1415 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-mumtaz-daultana-en, source/wikipedia-mumtaz-daultana-ur, source/wikidata-mumtaz-daultana]
+relations:
+  - { type: child_of, target: person/ahmad-yar-khan-daultana, sources: [source/wikipedia-mumtaz-daultana-en] }
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-mumtaz-daultana-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His school is not recorded: no consulted source names a school for him. The English article's religion-bearing sentences are political positions — that he joined the Punjab Muslim League in 1942 and held that the Muslims of the Punjab should unite with their co-religionists in the demand for Pakistan — and acts of his office, among them his support as chief minister for the 1951 demands against the Ahmadis and his government's fall in the 1953 Lahore riots; party membership and public office never attest a school. The Urdu article's account of his clan's forebears accepting Islam at the hand of Baba Farid is clan ancestry, and its description of the 1953 protests is again his office. Wikidata carries no religion value at all. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-mumtaz-daultana-en, source/wikipedia-mumtaz-daultana-ur, source/wikidata-mumtaz-daultana]
+external_ids: { wikidata: "Q6935509" }
+sources: [source/wikipedia-mumtaz-daultana-en, source/wikipedia-mumtaz-daultana-ur, source/wikidata-mumtaz-daultana]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mumtaz Daultana' (revision 1373194233), Urdu Wikipedia 'ممتاز دولتانہ' (revision 12111973) and Wikidata item Q6935509 (item revision 2561041861), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; every article revision and the item's last revision were re-queried and matched a second time, and the QID was grounded through the English article's page properties. Existence checks by name fragments (daultana, دولتانہ) across data/person, by QID and by biography (chief minister of West Punjab 1951–1953, son of Ahmad Yar Khan Daultana) found no prior record for this man. No Arabic Wikipedia article exists for him (the item's sitelinks are English and Urdu only), so the Arabic prose is written from the English and Urdu sources and says so. Relations written: child_of his father Ahmad Yar Khan Daultana, whose record is built in this same batch — the edge is written here in the child's record, as the articles attest it in both the infobox parents field and the early-life text — and died_in Lahore. No successor_of edge is written: as chief minister he followed a period of governor's rule (his elected predecessor Iftikhar Hussain Khan Mamdot has no person record), and his defence ministry succeeded Huseyn Shaheed Suhrawardy in 1957, a portfolio succession of the kind this block records in prose only (the Firoz Khan Noon precedent); Feroz Khan Noon's successions of him, as chief minister and as defence minister, belong in Noon's record, which is already on file and is not edited here. The English article calls Chaudhry Sir Shahab-ud-Din his uncle, citing a Friday Times profile; there is no avuncular predicate, so the kinship is carried in the prose only. The lane queue gives 'Mumtaz Daultana (1916–1995)', which the articles confirm as to the years."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-89
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
