@@ -1,0 +1,41 @@
+id: person/cumrun-vafa
+class: person
+label:
+  ar: "كامران وفا"
+  en: "Cumrun Vafa"
+  ur: "کامران وفا"
+summary:
+  ar: "كامران وفا (وُلد 1 آب 1960) فيزيائي نظري إيراني-أمريكي، أستاذ هوليس للرياضيات والفلسفة الطبيعية في جامعة هارفارد ثم أستاذها الجامعي (تيمكين) من 2025. أخذ دكتوراه برينستون بإشراف إدوارد ويتن، وطوّر نظرية F سنة 1997، ونال ميدالية ديراك 2008 وجائزة بريكثرو في الفيزياء الأساسية 2017 وجائزة مصطفى 2021."
+  en: "Cumrun Vafa (born 1 August 1960) is an Iranian-American theoretical physicist, Hollis Professor of Mathematicks and Natural Philosophy at Harvard University and, from 2025, its Timken University Professor. He took his Princeton doctorate under Edward Witten, developed F-theory in 1997, and received the 2008 Dirac Medal, the 2017 Breakthrough Prize in Fundamental Physics and the 2021 Mustafa Prize."
+names:
+  - { value: "Cumrun Vafa", kind: full }
+  - { value: "کامران وفا", kind: full }
+  - { value: "كامران وفا", kind: full }
+  - { value: "Kamran Vafa", kind: alternate }
+gender: male
+roles: [scientist]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1960-08-01"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Tehran on 1 August 1960; the English article and Wikidata's day-precision value agree, the Persian and Arabic articles give the year 1960 only. The Hijri year is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
+  sources: [source/wikipedia-vafa-en, source/wikidata-vafa, source/wikipedia-vafa-fa, source/wikipedia-vafa-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for him; the configuration is generic-only. The Persian article records that in 2021 he received the Mustafa Prize, presented to him among Muslim scientists from the Islamic Republic of Iran — the framing of a prize for scientists of the Muslim world, not a statement of his personal affiliation. The English article lists the same prize among his awards without describing his affiliation; the English and Arabic texts and categories name no religion, and Wikidata carries no religion value."
+    sources: [source/wikipedia-vafa-fa, source/wikipedia-vafa-en, source/wikipedia-vafa-ar, source/wikidata-vafa]
+external_ids:
+  wikidata: "Q1143841"
+sources: [source/wikipedia-vafa-en, source/wikipedia-vafa-fa, source/wikipedia-vafa-ar, source/wikidata-vafa]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 101 §A of the century-additions queue (queue line 556) from the English, Persian and Arabic Wikipedia articles (no Urdu edition exists; the Urdu prose is written from the same sources) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the other editions' pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Q1143841 appears in no existing person record. No relations are written: his doctoral advisor Edward Witten and his doctoral students have no museum records, and Tehran has no place entity. His faith is recorded unknown, generic-only configuration, as set out in the faith note. He is recorded as living; no edition reports a death."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101
+status: { review: published }

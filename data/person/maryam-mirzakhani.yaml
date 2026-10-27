@@ -1,0 +1,49 @@
+id: person/maryam-mirzakhani
+class: person
+label:
+  ar: "مريم ميرزاخاني"
+  en: "Maryam Mirzakhani"
+  ur: "مریم میرزاخانی"
+summary:
+  ar: "مريم ميرزاخاني (12 أيار 1977 – 14 تموز 2017) رياضياتية إيرانية، أول امرأة وأول إيرانية تنال ميدالية فيلدز (2014) عن عملها على ديناميك وهندسة سطوح ريمان. نالت ذهبيتي أولمبياد الرياضيات الدولي، ودكتوراه هارفارد 2004، وكانت أستاذة في جامعة ستانفورد، وتوفيت بسرطان الثدي عن أربعين عامًا."
+  en: "Maryam Mirzakhani (12 May 1977 – 14 July 2017) was an Iranian mathematician, the first woman and first Iranian to win the Fields Medal (2014), for her work on the dynamics and geometry of Riemann surfaces. She won two International Mathematical Olympiad gold medals, took her doctorate at Harvard in 2004, was a professor at Stanford University, and died of breast cancer aged forty."
+names:
+  - { value: "Maryam Mirzakhani", kind: full }
+  - { value: "مریم میرزاخانی", kind: full }
+  - { value: "مريم ميرزاخاني", kind: full }
+gender: female
+roles: [mathematician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1977-05-12"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Tehran. The English article's birth field gives 12 May 1977 (citing MacTutor) and the Persian article gives 22 Ordibehesht 1356, the same day; the Arabic and Urdu articles give 3 May 1977, and the English article's own death-age template internally uses 3 May, while Wikidata carries 12, 3 and 5 May as competing values. The English/Persian reading is carried, the variant stated. The Hijri year is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
+  sources: [source/wikipedia-mirzakhani-en, source/wikipedia-mirzakhani-fa, source/wikipedia-mirzakhani-ar, source/wikidata-mirzakhani]
+died:
+  edtf: "2017-07-14"
+  hijri: "1438"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Stanford Hospital in Stanford, California, of breast cancer diagnosed in 2013. The English article gives 14 July 2017 and the Persian article gives 23 Tir 1396, the same day; the Arabic and Urdu articles give 15 July 2017 (the date as reported in Iran), and Wikidata carries both days. No died_in relation is written: Stanford has no museum place entity."
+  sources: [source/wikipedia-mirzakhani-en, source/wikipedia-mirzakhani-fa, source/wikipedia-mirzakhani-ar, source/wikidata-mirzakhani]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for her; the configuration is generic-only. The Urdu article's text calls her the first Iranian and first Muslim personality to win the Fields Medal — a generic description in one edition. The English, Persian and Arabic texts make no statement of her religion, the English article's categories include no religious filing, and Wikidata carries no religion value. The English article records the posthumous controversy over Iranian newspapers publishing her photograph with her hair uncovered; no inference about her belief is drawn from it, from state honours, or from family background."
+    sources: [source/wikipedia-mirzakhani-ur, source/wikipedia-mirzakhani-en, source/wikipedia-mirzakhani-fa, source/wikidata-mirzakhani]
+external_ids:
+  wikidata: "Q1771279"
+sources: [source/wikipedia-mirzakhani-en, source/wikipedia-mirzakhani-fa, source/wikipedia-mirzakhani-ar, source/wikipedia-mirzakhani-ur, source/wikidata-mirzakhani]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 101 §A of the century-additions queue (queue line 555) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through every edition's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for her, and her Q1771279 appears in no existing person record; her Arabic label collides with no existing record, so no homonym entry arises. No relations are written: her doctoral advisor Curtis T. McMullen, her Sharif advisors and her spouse Jan Vondrák have no museum records, and Tehran and Stanford have no place entities. Her birth and death days are genuinely split between the editions and are carried as debated with both readings stated. Her faith is recorded unknown, generic-only configuration, as set out in the faith note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-101
+status: { review: published }
