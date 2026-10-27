@@ -1,0 +1,43 @@
+id: person/hamid-karzai
+class: person
+label:
+  ar: "حامد كرزاي"
+  en: "Hamid Karzai"
+  ur: "حامد کرزئی"
+summary:
+  ar: "سياسي أفغاني قاد أفغانستان من ديسمبر 2001 إلى سبتمبر 2014: رئيساً للإدارة المؤقتة ثم رئيساً انتقالياً ثم أول رئيس منتخب ديمقراطياً للبلاد (2004، وأعيد انتخابه 2009). من بشتون بوبلزاي الدرانيين، جمع التبرعات للمجاهدين في باكستان في الثمانينيات وكان نائب وزير الخارجية سنة 1992. واجهت رئاسته انتقادات دولية بشأن الفساد وانتخابات 2009 المتنازع عليها، وهي اتهامات تسجل المقالة الإنجليزية رده عليها جزئياً؛ وبقي في كابل بعد سيطرة طالبان سنة 2021."
+  en: "Afghan politician who led Afghanistan from December 2001 to September 2014 — chairman of the interim administration, then interim president, then the country's first democratically elected president (2004, re-elected 2009). A Popalzai Durrani Pashtun, he had been a mujahideen fundraiser in Pakistan in the 1980s and deputy foreign minister in 1992. His presidency drew international criticism over governmental corruption and the disputed 2009 election, criticism the English article records him as answering; he was also accused of corruption. He remained in Kabul after the Taliban takeover of 2021."
+  ur: "افغان سیاست دان جنھوں نے دسمبر 2001ء سے ستمبر 2014ء تک افغانستان کی قیادت کی: عبوری انتظامیہ کے سربراہ، پھر عبوری صدر، پھر ملک کے پہلے جمہوری طور پر منتخب صدر (2004ء، 2009ء میں دوبارہ منتخب)۔ پوپلزئی درانی پشتون، وہ 1980ء کی دہائی میں پاکستان میں مجاہدین کے لیے چندہ اکٹھا کرتے رہے اور 1992ء میں نائب وزیر خارجہ رہے۔ ان کی صدارت کو بدعنوانی اور 2009ء کے متنازع انتخابات پر بین الاقوامی تنقید کا سامنا رہا، جن الزامات کا جواب انھوں نے دیا جیسا کہ انگریزی مضمون درج کرتا ہے؛ ان پر بدعنوانی کا الزام بھی لگا۔ 2021ء میں طالبان کے قبضے کے بعد وہ کابل ہی میں رہے۔"
+names:
+  - { value: "Hamid Karzai", kind: full }
+  - { value: "حامد كرزاي", kind: full }
+gender: male
+born:
+  edtf: "1957-12-24"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 24 December 1957 at Karz, a village near Kandahar, as the English article's text and the Arabic article's text give (their infoboxes shorten the place to Kandahar); the Urdu article gives the date. No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Karz or Kandahar, so no born_in relation is written."
+  sources: [source/wikipedia-hamid-karzai-en, source/wikipedia-hamid-karzai-ar, source/wikipedia-hamid-karzai-ur]
+roles: [politician]
+wings: [people, living]
+regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-hamid-karzai-en, source/wikipedia-hamid-karzai-ar, source/wikipedia-hamid-karzai-ur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the school is named only by one structured family. The Arabic article's infobox gives his religion as Sunni Islam — the same structured value mirrored in other editions' infoboxes, one attestation family. The Urdu article's infobox carries no religion value at all, and neither the English nor the Urdu text names his religion. The English text's religion content concerns his government's Shia Personal Status Law and his description of the Taliban as his brothers — state policy and statecraft under the headship line, which never attest a personal school. Under the two-source rule the value therefore stays unknown, with the structured attestation preserved here."
+    sources: [source/wikipedia-hamid-karzai-en, source/wikipedia-hamid-karzai-ar, source/wikipedia-hamid-karzai-ur]
+sources:
+  - source/wikipedia-hamid-karzai-en
+  - source/wikipedia-hamid-karzai-ar
+  - source/wikipedia-hamid-karzai-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Hamid Karzai, all read on 27 October 2026 under the consultation-date fallback (this writer's route exposed no revision ids, so none are asserted). His Wikidata item Q43944, grounded through his Wikimedia Commons category authority file, was grepped across all data/person files with no match. Faith stays unknown FLAGGED: Sunni Islam is named only by the Arabic article's infobox, one structured family; the English and Urdu texts name no religion, and his government's Islam legislation is state policy. No succession edges are written — his presidency followed Burhanuddin Rabbani's and preceded Ashraf Ghani's, and office succession is refused — and no edge to his father Abdul Ahad Karzai, who has no record. The corruption and electoral-fraud material is carried in the prose as attributed criticism, exactly as the English article states it, not as settled guilt."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117

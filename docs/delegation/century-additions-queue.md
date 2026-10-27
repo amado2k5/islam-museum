@@ -639,11 +639,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Yousaf Raza Gillani — 1952–Living
 - [x] Shaukat Aziz — 1949–Living
 - [x] Mir Hazar Khan Khoso — 1929–2021
-- [ ] Anwaar-ul-Haq Kakar — 1971–Living
-- [ ] Ahmad Shah Massoud — 1953–2001
-- [ ] Burhanuddin Rabbani — 1940–2011
-- [ ] Hamid Karzai — 1957–Living
-- [ ] Ashraf Ghani — 1949–Living
+- [x] Anwaar-ul-Haq Kakar — 1971–Living
+- [x] Ahmad Shah Massoud — 1953–2001
+- [x] Burhanuddin Rabbani — 1940–2011
+- [x] Hamid Karzai — 1957–Living
+- [x] Ashraf Ghani — 1949–Living
 - [ ] Abdullah Abdullah — 1960–Living
 - [ ] King Amanullah Khan — 1892–1960
 - [ ] King Zahir Shah — 1914–2007

@@ -1,0 +1,54 @@
+id: person/ahmad-shah-massoud
+class: person
+label:
+  ar: "أحمد شاه مسعود"
+  en: "Ahmad Shah Massoud"
+  ur: "احمد شاہ مسعود"
+summary:
+  ar: "قائد عسكري وسياسي أفغاني، أبرز قادة المجاهدين في وادي بنجشير ضد الاحتلال السوفيتي (1979–1989)، عُرف بلقب أسد بنجشير. وزير دفاع دولة أفغانستان الإسلامية منذ 1992، قاد الجبهة الإسلامية المتحدة (تحالف الشمال) ضد طالبان من 1996 حتى اغتياله على يد انتحاريي القاعدة في 9 سبتمبر 2001، وسُمّي بعد وفاته بطلاً وطنياً لأفغانستان."
+  en: "Afghan military commander and politician, the foremost mujahideen commander of the Panjshir Valley against the Soviet occupation (1979–1989), known as the Lion of Panjshir. Minister of Defence of the Islamic State of Afghanistan from 1992, he led the United Islamic Front (Northern Alliance) against the Taliban from 1996 until his assassination by al-Qaeda suicide bombers on 9 September 2001. He was posthumously named a national hero of Afghanistan."
+  ur: "افغان عسکری قائد اور سیاست دان، سوویت قبضے (1979ء–1989ء) کے خلاف وادی پنجشیر کے ممتاز ترین مجاہد کمانڈر، جو شیر پنجشیر کے لقب سے معروف ہوئے۔ 1992ء سے اسلامی دولت افغانستان کے وزیر دفاع، انھوں نے 1996ء سے 9 ستمبر 2001ء کو القاعدہ کے خودکش بمباروں کے ہاتھوں اپنے قتل تک طالبان کے خلاف متحدہ اسلامی محاذ (شمالی اتحاد) کی قیادت کی۔ وفات کے بعد انھیں افغانستان کا قومی ہیرو قرار دیا گیا۔"
+names:
+  - { value: "Ahmad Shah Massoud", kind: full }
+  - { value: "أحمد شاه مسعود", kind: full }
+  - { value: "Lion of Panjshir", kind: laqab }
+  - { value: "Ahmad Shah Masoud", kind: alternate }
+gender: male
+born:
+  edtf: "1953"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The sources do not agree on his birth date and none fixes it with confidence. The English article gives only c. 1953; the Urdu article gives 2 September 1953, at Bazarak; the Arabic article's lead and infobox give 2 January 1953 while its body text says 1953 or 1954, and its footnote records that his biographer Michael Barry found the exact birth date was never registered. The year 1953 is therefore recorded at year precision with debated status. No source gives a consistent Hijri pairing, so none is recorded. He was born at Jangalak, Bazarak, in the Panjshir Valley; no place entity exists for Bazarak or the Panjshir, so no born_in relation is written. His father, Colonel Dost Mohammad Khan of the Royal Afghan Army, is not the nineteenth-century emir of the same name whose record exists in the museum; no parent edge is written, the colonel having no record."
+  sources: [source/wikipedia-ahmad-shah-massoud-en, source/wikipedia-ahmad-shah-massoud-ar, source/wikipedia-ahmad-shah-massoud-ur]
+died:
+  edtf: "2001-09-09"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Assassinated on 9 September 2001 at Khwaja Bahauddin, Takhar Province, by two al-Qaeda suicide bombers posing as journalists, as all three articles give; he was buried at Bazarak in the Panjshir Valley. No source gives a Hijri pairing, so none is recorded. No place entity exists for Khwaja Bahauddin, Takhar or Bazarak, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-ahmad-shah-massoud-en, source/wikipedia-ahmad-shah-massoud-ar, source/wikipedia-ahmad-shah-massoud-ur]
+roles: [politician, commander]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/herat, sources: [source/wikipedia-ahmad-shah-massoud-en] }
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-ahmad-shah-massoud-en, source/wikipedia-ahmad-shah-massoud-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: one text names his school. The Urdu article's text states that he was Tajik by descent and Sunni by maslak (school). The English article's text says only that he 'came from a Tajik Sunni Muslim background' — a family-background framing, which never attests. The Arabic article's infobox gives his religion as Sunni Islam, a structured value, and the Urdu article's infobox gives generic Islam. Under the two-text rule — only texts naming his school count, and they must be two — a single qualifying text is not documentation, so the value stays unknown, with the attestations preserved here. A founder word on whether the Urdu text, with the English background framing, suffices would settle sunni/documented."
+    sources: [source/wikipedia-ahmad-shah-massoud-en, source/wikipedia-ahmad-shah-massoud-ar, source/wikipedia-ahmad-shah-massoud-ur]
+sources:
+  - source/wikipedia-ahmad-shah-massoud-en
+  - source/wikipedia-ahmad-shah-massoud-ar
+  - source/wikipedia-ahmad-shah-massoud-ur
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Ahmad Shah Massoud, all read on 27 October 2026 under the consultation-date fallback (this writer's route exposed no revision ids, so none are asserted). His Wikidata item Q200029, grounded through his Wikimedia Commons category authority file, was grepped across all data/person files with no match, and name-fragment searches under Massoud/Masoud/Massood found no existing record. Faith stays unknown FLAGGED: the Urdu text names him Sunni by maslak, the English text frames Sunni as his family background, the Arabic infobox carries the structured value Sunni Islam and the Urdu infobox generic Islam — one qualifying text only. A student_of edge to Burhanuddin Rabbani (built in this batch) was considered and refused: the English article says that while studying engineering at Kabul's Polytechnic Institute he became involved with the Muslim Youth, the student branch of the Jamiat-e Islami whose chairman then was Professor Rabbani — organisational involvement in a movement Rabbani chaired, not study under him; Rabbani taught Islamic law and theology in the Faculty of Sharia, while Massoud studied engineering at the Polytechnic. No office-succession or battle-command relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117

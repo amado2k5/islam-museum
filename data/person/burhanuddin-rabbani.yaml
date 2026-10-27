@@ -1,0 +1,54 @@
+id: person/burhanuddin-rabbani
+class: person
+label:
+  ar: "برهان الدين رباني"
+  en: "Burhanuddin Rabbani"
+  ur: "برہان الدین ربانی"
+summary:
+  ar: "سياسي أفغاني وأستاذ للشريعة الإسلامية، قاد الجمعية الإسلامية الأفغانية منذ 1972 وشغل رئاسة أفغانستان (1992–1996، ثم لفترة وجيزة أواخر 2001 بعد سنوات رئيساً معترفاً به دولياً في المنفى). ترأس لاحقاً الجبهة الوطنية الأفغانية والمجلس الأعلى للسلام، واغتيل في بيته بكابل في 20 سبتمبر 2011، يوم عيد ميلاده الحادي والسبعين، على يد انتحاري تظاهر بأنه مبعوث سلام من طالبان."
+  en: "Afghan politician and professor of Islamic law who led the Jamiat-e Islami from 1972 and served as president of Afghanistan (1992–1996, and briefly again in late 2001 after years as the internationally recognised president in exile). He later headed the Afghanistan National Front and the High Peace Council, and was assassinated at his Kabul home on 20 September 2011, his seventy-first birthday, by a suicide bomber posing as a Taliban peace emissary."
+  ur: "افغان سیاست دان اور شریعت اسلامی کے استاد، جنھوں نے 1972ء سے جمعیت اسلامی کی قیادت کی اور افغانستان کے صدر رہے (1992ء–1996ء، اور پھر 2001ء کے اواخر میں مختصر مدت کے لیے، درمیان کے برسوں میں جلاوطنی میں بین الاقوامی طور پر تسلیم شدہ صدر کی حیثیت سے)۔ بعد ازاں وہ افغانستان نیشنل فرنٹ اور ہائی پیس کونسل کے سربراہ رہے اور 20 ستمبر 2011ء کو، اپنی اکہترویں سالگرہ کے دن، کابل میں اپنے گھر پر طالبان کے امن ایلچی کا روپ دھارے ایک خودکش بمبار کے ہاتھوں قتل ہوئے۔"
+names:
+  - { value: "Burhanuddin Rabbani", kind: full }
+  - { value: "برهان الدين رباني", kind: full }
+  - { value: "برهان الدين رباني بن محمد يوسف", kind: full }
+  - { value: "Martyr of Peace", kind: laqab }
+gender: male
+born:
+  edtf: "1940-09-20"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 20 September 1940 at Yaftal, in the Fayzabad district of Badakhshan, the son of Muhammed Yousuf, as the English article gives; the Arabic article's infobox gives Fayzabad, the district town. No source gives a Hijri pairing for this date, so none is recorded. No place entity exists for Yaftal or Fayzabad, so no born_in relation is written."
+  sources: [source/wikipedia-burhanuddin-rabbani-en, source/wikipedia-burhanuddin-rabbani-ar]
+died:
+  edtf: "2011-09-20"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Assassinated at his home in Kabul on 20 September 2011, his seventy-first birthday, by a suicide bomber posing as a Taliban peace emissary, the explosives hidden in his turban, as the English article gives; the Arabic article agrees on the date and the city. He was buried in the Wazir Akbar Khan cemetery in Kabul, and President Karzai gave him the title Martyr of Peace. No source gives a Hijri pairing, so none is recorded."
+  sources: [source/wikipedia-burhanuddin-rabbani-en, source/wikipedia-burhanuddin-rabbani-ar]
+roles: [politician, scholar]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/kabul, sources: [source/wikipedia-burhanuddin-rabbani-en, source/wikipedia-burhanuddin-rabbani-ar] }
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-burhanuddin-rabbani-en, source/wikipedia-burhanuddin-rabbani-ar] }
+  - { type: buried_in, target: place/kabul, sources: [source/wikipedia-burhanuddin-rabbani-en, source/wikipedia-burhanuddin-rabbani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: his school is named only within one article family. The Arabic article's infobox gives his religion as Sunni Islam and his school of jurisprudence (madhhab) as Hanafi, and its text describes his Yaftali tribe as of Sunni Tajik ethnicity — an ethnic framing, not a personal attestation. His schooling at Kabul's Darul-uloom-e-Sharia (Abu Hanifa) school and his professorship of Islamic law and theology at Kabul University are formation and office, which never attest by themselves. The English article's text names no school: it records his Al-Azhar master's and doctorate, his translations of Sayyid Qutb into Persian and his leadership of Jamiat-e Islami — affiliation and office. No Urdu article on him was found. Under the two-independent-text rule the value therefore stays unknown, with the Arabic attestations preserved here."
+    sources: [source/wikipedia-burhanuddin-rabbani-en, source/wikipedia-burhanuddin-rabbani-ar]
+sources:
+  - source/wikipedia-burhanuddin-rabbani-en
+  - source/wikipedia-burhanuddin-rabbani-ar
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Burhanuddin Rabbani, both read on 27 October 2026 under the consultation-date fallback (this writer's route exposed no revision ids, so none are asserted). The Persian article was also consulted: its infobox carries no religion field and its text names no school. Repeated searches found no Urdu article on him. His Wikidata item Q188667, grounded through his Wikimedia Commons category authority file, was grepped across all data/person files with no match. Faith stays unknown FLAGGED: the school (Sunni; Hanafi madhhab) is named only by the Arabic article's infobox, with an ethnic framing in its text, while the English text names no school — one article family only. No teacher_of edge is written here: edges are written once, in the student's record, and the student_of edge from Ahmad Shah Massoud was refused in his record for the reasons recorded there. His son Salahuddin Rabbani has no record, so no parent_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-117
