@@ -1,0 +1,38 @@
+id: person/mohamed-ould-abdel-aziz
+class: person
+label: { ar: "محمد ولد عبد العزيز", en: "Mohamed Ould Abdel Aziz", ur: "محمد ولد عبد العزیز" }
+names:
+  - { value: "Mohamed Ould Abdel Aziz", kind: full }
+  - { value: "محمد ولد عبد العزيز", kind: full }
+  - { value: "محمد ولد عبد العزيز ولد اعلية", kind: alternate }
+  - { value: "محمد ولد عبد العزیز", kind: full }
+gender: male
+summary:
+  ar: "ضابط وسياسي موريتاني (وُلد 1956) من أكجوجت، شخصية قيادية في انقلاب 2005 الذي أطاح بالرئيس الطايع وقائد انقلاب 2008، ترأّس المجلس الأعلى للدولة (2008–2009) ثم شغل رئاسة موريتانيا من 5 أغسطس 2009 إلى 1 أغسطس 2019 — منهيا ولايته بأول انتقال سلمي للسلطة في تاريخ البلاد — وترأّس الاتحاد الأفريقي في 2014–2015؛ وبعد مغادرته المنصب اتُّهم بالفساد وأُدين في ديسمبر 2023 وحُكم عليه استئنافا في مايو 2025 بالسجن خمس عشرة سنة."
+  en: "Mauritanian military officer and politician (born 1956) from Akjoujt, a leading figure in the 2005 coup that ousted President Taya and the leader of the 2008 coup, who headed the High Council of State (2008–2009) and then served as President of Mauritania from 5 August 2009 to 1 August 2019 — ending in the country's first peaceful transfer of power — and chaired the African Union in 2014–2015; after leaving office he was charged with corruption, convicted in December 2023, and sentenced on appeal in May 2025 to fifteen years in prison."
+  ur: "موریتانی فوجی افسر و سیاست دان (پیدائش 1956ء)، اکجوجت سے؛ 2005ء کی بغاوت — جس نے صدر طايع کو ہٹایا — کی ایک اہم شخصیت اور 2008ء کی بغاوت کے قائد؛ اعلیٰ ریاستی کونسل کے سربراہ (2008ء–2009ء) رہے اور پھر 5 اگست 2009ء تا 1 اگست 2019ء موریتانیہ کے صدر رہے — ان کی مدتِ صدارت ملک میں اقتدار کی پہلی پُرامن منتقلی پر ختم ہوئی — اور 2014ء–2015ء میں افریقی یونین کے چیئرپرسن رہے؛ عہدہ چھوڑنے کے بعد ان پر بدعنوانی کا الزام لگا، دسمبر 2023ء میں مجرم قرار پائے اور مئی 2025ء میں اپیل پر سزا بڑھ کر پندرہ سال قید ہو گئی۔"
+roles: [general, politician]
+wings: [people, living]
+regions: [west-africa-sahel]
+born:
+  edtf: "1956-12-20"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article, the Arabic article and Wikidata give his birth on 20 December 1956 at Akjoujt in French Mauritania; the Arabic article also gives his fuller name at birth, Mohamed Ould Abdel Aziz Ould Eleya. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohamed-ould-abdel-aziz-en, source/wikipedia-mohamed-ould-abdel-aziz-ar, source/wikidata-mohamed-ould-abdel-aziz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration: his stated opposition to Islamic fundamentalism, reported by the English article in the days after the 2008 coup, is political positioning, not a personal attestation. Wikidata carries the single value Sunni Islam, and the articles file him under Mauritanian Muslims, the English and Urdu also under Critics of Islamism — filings never count. The Sunni reading is structured-only, one full family short of sunni/documented (the moussa-traore configuration, wave 75 §A); the value stays unknown with the reading preserved here."
+    sources: [source/wikipedia-mohamed-ould-abdel-aziz-en, source/wikipedia-mohamed-ould-abdel-aziz-ar, source/wikipedia-mohamed-ould-abdel-aziz-ur, source/wikidata-mohamed-ould-abdel-aziz]
+external_ids: { wikidata: "Q294969" }
+sources: [source/wikipedia-mohamed-ould-abdel-aziz-en, source/wikipedia-mohamed-ould-abdel-aziz-ar, source/wikipedia-mohamed-ould-abdel-aziz-ur, source/wikidata-mohamed-ould-abdel-aziz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohamed Ould Abdel Aziz' (revision 1369731466 of 16 August 2026), Arabic Wikipedia 'محمد ولد عبد العزيز' (revision 76965888 of 13 October 2026), Urdu Wikipedia 'محمد ولد عبد العزیز' (revision 6209214 of 29 April 2024) and Wikidata item Q294969 (item revision 2554788893 of 8 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (aziz — dozens of hits, every one a different Abd al-Aziz namesake, verified by biography), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists for this man, and his Arabic label matches no existing record's label despite the many similar names. No place entity exists for Akjoujt, so no born_in edge is written; no successor_of edge is written — the president his 2008 coup deposed, Sidi Ould Cheikh Abdallahi, has no person record, and Aziz's own presidency began only after he headed the interim High Council of State, so an edge would misstate the succession."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-77
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

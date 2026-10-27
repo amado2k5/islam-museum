@@ -431,11 +431,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Lansana Conté — 1934–2008
 - [x] Alpha Condé — 1938–Living
 - [x] Mamady Doumbouya — 1980–Living
-- [ ] Cellou Dalein Diallo — 1952–Living
-- [ ] Sidya Touré — 1945–Living
-- [ ] Moktar Ould Daddah — 1924–2003
-- [ ] Maaouya Ould Sid'Ahmed Taya — 1941–Living
-- [ ] Mohamed Ould Abdel Aziz — 1956–Living
+- [x] Cellou Dalein Diallo — 1952–Living
+- [x] Sidya Touré — 1945–Living
+- [x] Moktar Ould Daddah — 1924–2003
+- [x] Maaouya Ould Sid'Ahmed Taya — 1941–Living
+- [x] Mohamed Ould Abdel Aziz — 1956–Living
 - [ ] Mohamed Ould Ghazouani — 1956–Living
 - [ ] Lamine Diack — 1933–2021
 - [ ] Abdou Diouf — 1935–Living
