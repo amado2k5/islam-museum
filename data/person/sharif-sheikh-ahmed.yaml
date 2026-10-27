@@ -1,0 +1,42 @@
+id: person/sharif-sheikh-ahmed
+class: person
+label:
+  ar: "شريف شيخ أحمد"
+  en: "Sharif Sheikh Ahmed"
+  ur: "شریف شیخ احمد"
+names:
+  - { value: "Sharif Sheikh Ahmed", kind: full }
+  - { value: "Sheikh Sharif Sheikh Ahmed", kind: alternate }
+  - { value: "Shariif Sheekh Axmed", kind: alternate }
+  - { value: "شريف شيخ أحمد", kind: full }
+  - { value: "شریف شیخ احمد", kind: full }
+gender: male
+summary:
+  ar: "سياسي صومالي (ولد 1964) من جوار مهداي، درس القانون والشريعة الإسلامية في السودان وليبيا ودرّس في مقديشو، ترأس اتحاد المحاكم الإسلامية (2004–2007) ثم تحالف إعادة تحرير الصومال، وصار الرئيس السابع للصومال (2009–2012)، وفي عهده طُردت حركة الشباب من مقديشو سنة 2011؛ ثم أسس حزب هميلو قرن وظل فاعلا في المعارضة."
+  en: "Somali politician (born 1964) from near Mahaday, who studied law and Islamic Shariah in Sudan and Libya and taught in Mogadishu, chaired the Islamic Courts Union (2004–2007) and then the Alliance for the Re-liberation of Somalia, and became the seventh president of Somalia (2009–2012), in whose term al-Shabaab was driven from Mogadishu in 2011; he later founded the Himilo Qaran party and remained an opposition figure."
+  ur: "صومالی سیاست دان (پیدائش 1964ء) جن کا تعلق مہادائی کے نواح سے ہے؛ سوڈان اور لیبیا میں قانون اور اسلامی شریعت کی تعلیم حاصل کی اور مقديشو میں تدریس کی؛ اسلامی عدالتی اتحاد (2004ء–2007ء) اور پھر صومالیہ کی آزادیِ نو کے اتحاد کے سربراہ رہے، اور صومالیہ کے ساتویں صدر بنے (2009ء–2012ء)، جن کے دور میں 2011ء میں الشباب کو مقديشو سے نکالا گیا؛ بعد میں انھوں نے ہمیلو قرن پارٹی کی بنیاد رکھی۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1964-07-25"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Arabic article and Wikidata give his birth on 25 July 1964 near Mahaday in Middle Shabelle; the English article gives 25 July 1965 — a variant recorded here, the Arabic/Wikidata year followed. No place entity for Mahaday exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-sharif-sheikh-ahmed-ar, source/wikidata-sharif-sheikh-ahmed, source/wikipedia-sharif-sheikh-ahmed-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for him. What the sources give is: the Arabic infobox's religion field 'Muslim' (generic, one structured value), Sunni only in category filings (English 'Somali Sunni Muslim scholars of Islam', Arabic 'Somali Sunni Muslims'), and Wikidata carries no religion value at all. The texts give his chairmanship of the Islamic Courts Union (2004–2007) and his degree in law and Islamic Shariah — office and movement leadership and education, which the lane rules never count as a personal school attestation — and the Arabic lead places him in a Sufi family, his father a follower of the Idrisiyya order, which is family background and never counts. One structured family only; the value stays unknown with the Sunni reading preserved here."
+    sources: [source/wikipedia-sharif-sheikh-ahmed-en, source/wikipedia-sharif-sheikh-ahmed-ar, source/wikidata-sharif-sheikh-ahmed]
+external_ids: { wikidata: "Q270783" }
+sources: [source/wikipedia-sharif-sheikh-ahmed-en, source/wikipedia-sharif-sheikh-ahmed-ar, source/wikipedia-sharif-sheikh-ahmed-so, source/wikidata-sharif-sheikh-ahmed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1379848834 of 12 October 2026, Arabic revision 76980124 of 12 October 2026 and Somali revision 1473159 of 30 March 2026, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q270783 revision 2544989459 of 13 September 2026, read from the Wikidata API. There is no Urdu article, so the Urdu prose is written from the English, Arabic and Somali and says so in its text. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q270783. NO relations are written: the president he followed, Abdullahi Yusuf Ahmed, has no museum record, and when his own term ended on 20 August 2012 acting presidents (Muse Hassan Abdulle, then Mohamed Osman Jawari) held the office before Hassan Sheikh Mohamud's election, so a successor edge in either direction would misstate the sequence."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

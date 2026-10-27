@@ -1,0 +1,54 @@
+id: person/ali-mahdi-muhammad
+class: person
+label:
+  ar: "علي مهدي محمد"
+  en: "Ali Mahdi Muhammad"
+  ur: "علی مہدی محمد"
+names:
+  - { value: "Ali Mahdi Muhammad", kind: full }
+  - { value: "Cali Mahdi Maxamed", kind: alternate }
+  - { value: "علي مهدي محمد", kind: full }
+  - { value: "علی مہدی محمد", kind: full }
+gender: male
+summary:
+  ar: "سياسي ورجل أعمال صومالي (1939–2021)، رجل أعمال مقديشاوي وقيادي في المؤتمر الصومالي الموحد، أُعلن رئيسا للصومال في 26 يناير 1991 بعد الإطاحة بمحمد سياد بري، فصار رابع رؤساء الصومال (1991–2000) دون أن تتجاوز سلطته أجزاء من العاصمة، منافسا محمد فرح عيديد؛ ومات في نيروبي في 10 مارس 2021 بكوفيد-19."
+  en: "Somali politician and businessman (1939–2021), a Mogadishu-based entrepreneur and United Somali Congress figure who was proclaimed president of Somalia on 26 January 1991 after the overthrow of Mohamed Siad Barre, becoming Somalia's fourth president (1991–2000) without his authority extending beyond parts of the capital, in rivalry with Mohamed Farrah Aidid; he died in Nairobi on 10 March 2021 after contracting COVID-19."
+  ur: "صومالی سیاست دان اور تاجر (1939ء–2021ء)؛ مقديشو کے کاروباری اور متحدہ صومالی کانگریس کے رہنما؛ محمد سیاد باری کی معزولی کے بعد 26 جنوری 1991ء کو صومالیہ کے صدر قرار دیے گئے اور یوں صومالیہ کے چوتھے صدر بنے (1991ء–2000ء)، مگر ان کا اختیار دارالحکومت کے بعض حصوں سے آگے نہ بڑھ سکا اور وہ محمد فرح عیدید کے مدمقابل رہے؛ 10 مارچ 2021ء کو نیروبی میں کووڈ-19 سے وفات پائی۔"
+roles: [politician]
+wings: [people]
+regions: [east-africa]
+born:
+  edtf: "1939"
+  hijri: "1357"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The English article, citing Metz, Somalia: a country study (1993), and Wikidata give his birth in 1939 at Jowhar in Middle Shabelle (the English infobox renders the year as 1 January 1939); the Arabic article gives 1938 and a village of Middle Shabelle. The year is recorded at year precision, the English/Wikidata year followed and the Arabic variant kept here. No place entity for Jowhar exists in the museum, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikipedia-ali-mahdi-muhammad-ar, source/wikidata-ali-mahdi-muhammad]
+died:
+  edtf: "2021-03-10"
+  hijri: "1442"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his death in Nairobi, Kenya, on 10 March 2021, after contracting COVID-19. No place entity exists for Nairobi, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikidata-ali-mahdi-muhammad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text names a school for him. Wikidata carries Islam on the single item — one structured value naming no branch — and the Arabic article's only religious content is family background: he was born into a Sufi family, his father a follower of the Idrisiyya order. Family background never counts as the man's own attestation, and no second source names any affiliation of his own. The value stays unknown, with the family's Sufi background recorded here."
+    sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikipedia-ali-mahdi-muhammad-ar, source/wikidata-ali-mahdi-muhammad]
+relations:
+  - type: successor_of
+    target: person/siad-barre
+    sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikipedia-ali-mahdi-muhammad-ar]
+external_ids: { wikidata: "Q732062" }
+sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikipedia-ali-mahdi-muhammad-ar, source/wikipedia-ali-mahdi-muhammad-so, source/wikidata-ali-mahdi-muhammad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1374609031 of 19 August 2026, Arabic revision 74406335 of 13 November 2025 and Somali revision 1191315 of 26 October 2023, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q732062 revision 2545319172 of 14 September 2026, read from the Wikidata API. There is no Urdu article, so the Urdu prose is written from the English, Arabic and Somali and says so in its text. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q732062. One relation is written: he succeeded Mohamed Siad Barre in the presidency — the English infobox names Barre as his predecessor and the Arabic text records his election as president in 1991 after Barre's overthrow; the circumstances (proclaimed by the United Somali Congress conference as Barre fell, his authority contested from the start) are stated in the prose rather than smoothed into a routine succession. No edge to his own successor: Abdiqasim Salad Hassan, who followed him in 2000, has no museum record, and in any case an edge is written only in the successor's own record. No born_in or died_in: no place entities exist for Jowhar or Nairobi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

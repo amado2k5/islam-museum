@@ -1,0 +1,48 @@
+id: person/hassan-sheikh-mohamud
+class: person
+label:
+  ar: "حسن شيخ محمود"
+  en: "Hassan Sheikh Mohamud"
+  ur: "حسن شیخ محمود"
+names:
+  - { value: "Hassan Sheikh Mohamud", kind: full }
+  - { value: "Xasan Sheekh Maxamuud", kind: alternate }
+  - { value: "حسن شيخ محمود", kind: full }
+  - { value: "حسن شیخ محمود", kind: full }
+gender: male
+summary:
+  ar: "سياسي صومالي (ولد 1955) من جلالاقسي، أكاديمي وناشط مدني شارك في تأسيس جامعة سيماد في مقديشو وأسس حزب السلم والتنمية، صار رئيس الصومال (2012–2017) ثم عاد إلى الرئاسة في 2022 خلفا لمحمد عبد الله محمد — أول رئيس صومالي يخدم فترتين غير متتاليتين — ودافع عن أطروحته للدكتوراه وهو في المنصب؛ ومنذ مايو 2026 تنازع المعارضة استمراره في الرئاسة بعد التعديلات الدستورية."
+  en: "Somali politician (born 1955) from Jalalaqsi, an academic and civil-society figure who co-founded SIMAD University in Mogadishu and founded the Peace and Development Party, who became president of Somalia (2012–2017) and returned to the presidency in 2022 succeeding Mohamed Abdullahi Mohamed — the first Somali president to serve two non-consecutive terms — and defended his doctoral dissertation while in office; since May 2026 the opposition has disputed his continuation as president following constitutional amendments."
+  ur: "صومالی سیاست دان (پیدائش 1955ء) جن کا تعلق جلالاقسی سے ہے؛ ماہرِ تعلیم اور سول سوسائٹی کی شخصیت، مقديشو میں سماد یونیورسٹی کے شریک بانی اور پیس اینڈ ڈیولپمنٹ پارٹی کے بانی؛ صومالیہ کے صدر بنے (2012ء–2017ء) اور پھر 2022ء میں محمد عبد اللہ محمد کے جانشین کے طور پر دوبارہ صدر منتخب ہوئے — دو غیر مسلسل مدتوں تک صدر رہنے والے پہلے صومالی صدر — اور عہدے پر رہتے ہوئے اپنے ڈاکٹریٹ کے مقالے کا دفاع کیا؛ مئی 2026ء سے حزبِ اختلاف آئینی ترامیم کے بعد ان کے استمرار کو متنازع قرار دیتی ہے۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1955-11-29"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 29 November 1955 at Jalalaqsi in the Hiran region. No place entity for Jalalaqsi exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-hassan-sheikh-mohamud-en, source/wikidata-hassan-sheikh-mohamud]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text attests his religion personally, and no text anywhere names a school for him. The English, Arabic and Urdu articles each file him under Somali Muslims — category filings only — and Wikidata carries no religion (P140) value at all, so there is not even a structured Sunni reading to preserve: the value stays unknown."
+    sources: [source/wikipedia-hassan-sheikh-mohamud-en, source/wikipedia-hassan-sheikh-mohamud-ar, source/wikipedia-hassan-sheikh-mohamud-ur, source/wikidata-hassan-sheikh-mohamud]
+relations:
+  - type: successor_of
+    target: person/mohamed-abdullahi-mohamed
+    sources: [source/wikipedia-hassan-sheikh-mohamud-en, source/wikipedia-mohamed-abdullahi-mohamed-en]
+  - type: lived_in
+    target: place/mogadishu
+    sources: [source/wikipedia-hassan-sheikh-mohamud-en]
+external_ids: { wikidata: "Q319153" }
+sources: [source/wikipedia-hassan-sheikh-mohamud-en, source/wikipedia-hassan-sheikh-mohamud-ar, source/wikipedia-hassan-sheikh-mohamud-ur, source/wikipedia-hassan-sheikh-mohamud-so, source/wikidata-hassan-sheikh-mohamud]
+provenance:
+  layer: own-research
+  source: "English Wikipedia revision 1381075295 of 21 October 2026, Arabic revision 74536106 of 29 November 2025, Urdu revision 9667208 of 21 October 2026 and Somali revision 1454817 of 24 October 2025, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q319153 revision 2550591911 of 28 September 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q319153. Relations written: he succeeded Mohamed Abdullahi Mohamed as president, taking office on 23 May 2022 after winning the 15 May 2022 election; and he has lived in Mogadishu since 1978 (place record exists). No succession edge is written for his first accession in 2012: he took office on 16 September 2012 directly from the acting president Mohamed Osman Jawari, who has no record, so an edge to Sharif Sheikh Ahmed would misstate the sequence. No born_in: no place entity exists for Jalalaqsi."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

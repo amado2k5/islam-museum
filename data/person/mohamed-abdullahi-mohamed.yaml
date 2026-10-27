@@ -1,0 +1,50 @@
+id: person/mohamed-abdullahi-mohamed
+class: person
+label:
+  ar: "محمد عبد الله محمد"
+  en: "Mohamed Abdullahi Mohamed"
+  ur: "محمد عبد اللہ محمد"
+names:
+  - { value: "Mohamed Abdullahi Mohamed", kind: full }
+  - { value: "Mohamed Abdullahi Farmajo", kind: alternate }
+  - { value: "Farmaajo", kind: alternate }
+  - { value: "Maxamed Cabdulaahi Farmaajo", kind: alternate }
+  - { value: "محمد عبد الله محمد", kind: full }
+  - { value: "محمد عبد اللہ محمد", kind: full }
+gender: male
+summary:
+  ar: "سياسي صومالي (ولد 1962) من مقديشو، المعروف بفرماجو، درس في جامعة بافالو وعمل موظفا في ولاية نيويورك، صار رئيس وزراء الصومال (2010–2011) ثم استقال تحت ضغط اتفاق كمبالا، وأسس حزب تايو، وانتُخب رئيسا للصومال (2017–2022) خلفا لحسن شيخ محمود الذي خلفه بدوره؛ وشهد عهده أزمة تمديد الولاية سنة 2021."
+  en: "Somali politician (born 1962) from Mogadishu, known as Farmajo, educated at the University at Buffalo and formerly a New York State official, who became prime minister of Somalia (2010–2011) and resigned under the pressure of the Kampala Accord, founded the Tayo party, and was elected president of Somalia (2017–2022), succeeding Hassan Sheikh Mohamud, who in turn succeeded him; his term saw the 2021 term-extension crisis."
+  ur: "صومالی سیاست دان (پیدائش 1962ء) جن کا تعلق مقديشو سے ہے، فرماجو کے نام سے معروف؛ یونیورسٹی ایٹ بفیلو سے تعلیم یافتہ اور نیویارک اسٹیٹ کے سابق اہلکار؛ صومالیہ کے وزیر اعظم بنے (2010ء–2011ء) اور کمپالا معاہدے کے دباؤ پر مستعفی ہوئے، تائیو پارٹی کی بنیاد رکھی، اور صومالیہ کے صدر منتخب ہوئے (2017ء–2022ء) حسن شیخ محمود کے جانشین کے طور پر، اور پھر حسن ہی ان کے جانشین بنے؛ ان کے دور میں 2021ء کا مدتِ توسیع کا بحران آیا۔"
+roles: [politician]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1962-03-11"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata give his birth on 11 March 1962 in Mogadishu; the place record exists, so a born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikidata-mohamed-abdullahi-mohamed]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article text attests his religion personally and no text names a school for him. Wikidata carries Islam on the single item and the English, Arabic and Urdu articles file him under Sunni Muslims (with African-American Muslims) — the structured values and the filings are one structured family, which never counts. Structured-only Sunni (the abdou-diouf configuration, wave 78 §A); the value stays unknown with the Sunni reading preserved here."
+    sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikipedia-mohamed-abdullahi-mohamed-ar, source/wikipedia-mohamed-abdullahi-mohamed-ur, source/wikidata-mohamed-abdullahi-mohamed]
+relations:
+  - type: successor_of
+    target: person/hassan-sheikh-mohamud
+    sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikipedia-hassan-sheikh-mohamud-en]
+  - type: born_in
+    target: place/mogadishu
+    sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikidata-mohamed-abdullahi-mohamed]
+external_ids: { wikidata: "Q558575" }
+sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikipedia-mohamed-abdullahi-mohamed-ar, source/wikipedia-mohamed-abdullahi-mohamed-ur, source/wikipedia-mohamed-abdullahi-mohamed-so, source/wikidata-mohamed-abdullahi-mohamed]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohamed Abdullahi Farmajo' revision 1382237965 of 26 October 2026, Arabic revision 76151203 of 4 September 2026, Urdu revision 11999035 of 4 September 2026 and Somali revision 1346591 of 30 October 2024, each fetched on 27 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q558575 revision 2558173838 of 18 October 2026, read from the Wikidata API. The man was verified absent from the museum in both directions: no person file matches his name in any script and no museum record carries Q558575. Relations written: he succeeded Hassan Sheikh Mohamud as president, taking office on 16 February 2017 (Hassan in turn succeeded him in 2022, recorded in Hassan's record); and he was born in Mogadishu (place record exists). No edge is written for his premiership's end: his own resignation in June 2011 is Abdiweli Mohamed Ali's succession, recorded in Abdiweli's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-80
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
