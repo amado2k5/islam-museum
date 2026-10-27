@@ -35,3 +35,6 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   Claude in DESIGN.md section 9: date is a bare EDTF string; no image/map/card/
   perspectives fields yet; kids empty; index lacks generated/lang; place/concept/
   practice/theme produced 0 records.
+- 2026-10-27 — "add 50 more" (batch 150): 1,780 stops, 8.8% match (157 image /
+  1,623 card), 11 map clusters (~432 KB), 360 shared cards (~179 KB). Stale
+  cluster SVGs from earlier batches now pruned on regeneration.
