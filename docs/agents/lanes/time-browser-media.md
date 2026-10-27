@@ -40,3 +40,5 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   cluster SVGs from earlier batches now pruned on regeneration.
 - 2026-10-27 — "add 50 more" (batch 200): 2,310 stops, 9.8% match (227 image /
   2,083 card), 12 map clusters (~434 KB), 431 shared cards (~214 KB).
+- 2026-10-27 — "add 50 more" (batch 250): 2,780 stops, 10.3% match (287 image /
+  2,493 card), 12 map clusters (~435 KB), 494 shared cards (~243 KB).
