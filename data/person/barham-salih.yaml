@@ -1,0 +1,41 @@
+id: person/barham-salih
+class: person
+label: { ar: "برهم صالح", en: "Barham Salih", ur: "برہم صالح" }
+names:
+  - { value: "برهم أحمد صالح قاسم", kind: full }
+  - { value: "Barham Ahmed Salih", kind: full }
+  - { value: "برهم صالح", kind: full }
+  - { value: "Barham Salih", kind: full }
+  - { value: "بەرھەم ساڵح", kind: full }
+gender: male
+summary:
+  ar: "برهم أحمد صالح (وُلد 8 أيلول 1960)، سياسي كردي عراقي، رئيس جمهورية العراق من 2018 إلى 2022 خلفًا لفؤاد معصوم، ومنذ 1 كانون الثاني 2026 المفوض السامي للأمم المتحدة لشؤون اللاجئين. من قيادات الاتحاد الوطني الكردستاني منذ شبابه، تولى رئاسة وزراء إقليم كردستان 2009–2012 ونيابة رئاسة وزراء العراق، ويحمل شهادات في الهندسة من كارديف وليفربول."
+  en: "Barham Ahmed Salih (born 8 September 1960) is an Iraqi Kurdish politician, president of Iraq from 2018 to 2022 in succession to Fuad Masum, and since 1 January 2026 the United Nations High Commissioner for Refugees. A Patriotic Union of Kurdistan leader since his youth, he was prime minister of the Kurdistan Region in 2009–2012 and a deputy prime minister of Iraq, and holds engineering degrees from Cardiff and Liverpool."
+  ur: "برہم احمد صالح (پیدائش 8 ستمبر 1960ء) ایک عراقی کرد سیاست دان ہیں، 2018ء سے 2022ء تک فؤاد معصوم کے جانشین کے طور پر جمہوریۂ عراق کے صدر رہے، اور 1 جنوری 2026ء سے اقوام متحدہ کے ہائی کمشنر برائے مہاجرین ہیں۔ وہ پٹریاٹک یونین آف کردستان کے رہنما، 2009ء–2012ء میں کردستان ریجن کے وزیرِ اعظم اور عراق کے نائب وزیرِ اعظم رہ چکے ہیں؛ انہوں نے کارڈف اور لیورپول سے انجینئرنگ کی تعلیم حاصل کی۔"
+roles: [politician]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1960-09-08"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Sulaymaniyah in the Iraqi Republic. The day is contested: the English article's lead and infobox and the Arabic article's lead give 8 September 1960 (the English lead citing a UNHCR press release of 18 December 2025), while the Arabic article's infobox and Wikidata give 12 September 1960; month and year agree in every source. The reading of the two article texts, 8 September, is followed and the status is debated. The Hijri year 1380 is derived by tabular conversion of the recorded date (the Arabic article also files his birth under 1380 AH births). Sulaymaniyah has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-barham-salih-en, source/wikipedia-barham-salih-ar, source/wikidata-barham-salih]
+relations:
+  - { type: successor_of, target: person/fuad-masum, sources: [source/wikipedia-barham-salih-en, source/wikipedia-barham-salih-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (structured-only Sunni reading with category filings). No article text names his school: the English and Arabic articles say nothing of his religion in their text, and neither infobox carries a religion field. Wikidata carries a single religion value, Sunni Islam — one structured value. The Arabic article files him under 'Kurdish Muslims' and 'Iraqi Sunni Muslims' and the Urdu article under 'Iraqi Sunni Muslims'; category filings never count. The Sunni reading is one source family short of the bar. Recorded unknown with exactly this stated."
+    sources: [source/wikipedia-barham-salih-en, source/wikipedia-barham-salih-ar, source/wikipedia-barham-salih-ur, source/wikidata-barham-salih]
+external_ids: { wikidata: "Q808173" }
+sources: [source/wikipedia-barham-salih-en, source/wikipedia-barham-salih-ar, source/wikipedia-barham-salih-ur, source/wikidata-barham-salih]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Barham Salih, each fetched by its recorded revision id (EN 1381915717, AR 76810761, UR 6688921) with the returned id asserted equal before use, and Wikidata item Q808173 (item revision 2553830323, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin, Arabic and Kurdish fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. The successor_of edge to Fuad Masum is attested at both ends: his own articles name Masum as predecessor in their infoboxes, and Masum's record (built in century-additions-97) names Salih as his successor; the edge is written here, in the successor's record, per the write-once rule. His own successor Abdul Latif Rashid is built in this same run; the edge to Salih is written in Rashid's record, not here. No member_of edge is written for the Patriotic Union of Kurdistan (no group entity exists) and no ruler_of edge (no modern Iraq polity entity exists). No born_in edge: Sulaymaniyah has no place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-98
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
