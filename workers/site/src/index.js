@@ -15,8 +15,20 @@ const rules = {
   aliases: JSON.parse(aliasesText),
 };
 
-// R2 objects are HTML pages, except the accessibility downloads under /{lang}/books/.
-const R2_CONTENT_TYPES = { ".epub": "application/epub+zip", ".brf": "text/plain; charset=us-ascii" };
+// R2 objects are HTML pages, the accessibility downloads under /{lang}/books/, and the data folders
+// (route.js R2_DATA_DIRS): images, maps, video, JSON and other data.
+const R2_CONTENT_TYPES = {
+  ".epub": "application/epub+zip", ".brf": "text/plain; charset=us-ascii",
+  ".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".gif": "image/gif",
+  ".svg": "image/svg+xml", ".ico": "image/x-icon", ".avif": "image/avif",
+  ".mp4": "video/mp4", ".webm": "video/webm", ".mp3": "audio/mpeg", ".ogg": "audio/ogg",
+  ".json": "application/json; charset=utf-8", ".geojson": "application/geo+json", ".pmtiles": "application/octet-stream",
+  ".xml": "application/xml; charset=utf-8", ".txt": "text/plain; charset=utf-8", ".csv": "text/csv; charset=utf-8",
+  ".pdf": "application/pdf", ".yaml": "text/yaml; charset=utf-8", ".yml": "text/yaml; charset=utf-8",
+  ".woff2": "font/woff2", ".woff": "font/woff", ".css": "text/css; charset=utf-8",
+};
+// Data files change rarely and are not HTML: a day at the edge, then refreshed in the background.
+const DATA_CACHE_CONTROL = "public, max-age=86400, stale-while-revalidate=604800";
 function r2ContentType(pathname) {
   const ext = pathname.slice(pathname.lastIndexOf("."));
   return R2_CONTENT_TYPES[ext] ?? "text/html; charset=utf-8";
@@ -75,7 +87,7 @@ export default {
     object.writeHttpMetadata(headers);
     headers.set("content-type", r2ContentType(url.pathname));
     headers.set("etag", object.httpEtag);
-    headers.set("cache-control", HTML_CACHE_CONTROL);
+    headers.set("cache-control", r2ContentType(url.pathname).startsWith("text/html") ? HTML_CACHE_CONTROL : DATA_CACHE_CONTROL);
     return respond(new Response(request.method === "HEAD" ? null : object.body, { status: 200, headers }));
   },
 };

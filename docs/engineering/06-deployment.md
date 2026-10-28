@@ -8,7 +8,15 @@ workflow files in `.github/workflows/`._
 
 | Environment | Where | Updated by |
 |---|---|---|
-| Production site | Cloudflare Pages, `islam.museum` (+ `www`), paid plan | `deploy.yml`, manual |
+| Production site | Cloudflare (site Worker on R2 + Pages for code), `islam.museum` (+ `www`) | `deploy.yml`, manual |
+
+**What goes where (founder rule, 28 Oct 2026).** Cloudflare Pages and the site Worker's static assets hold only code and logic (scripts, styles and a few root pages); the HTML pages, data, content, maps, images, pictures, video, search indexes and the open-data JSON are on Cloudflare R2, served through the site Worker or at api.islam.museum (founder rule, 28 October 2026).
+
+| Goes to Cloudflare Pages / Worker assets | Goes to Cloudflare R2 |
+|---|---|
+| `_astro/` (built JS and CSS), `vendor/`, `_headers`, `_redirects`, root `index.html` and `404.html` | `ar/`, `en/`, `ur/` (HTML pages), `pagefind-*` (search), `api/` (open data), `media/` (images, maps, cards, Explorer images), `edu/`, `timeline-data/`, `gift-shop/`, `brand/`, `openapi/` |
+
+Adding a new data or media folder: add it to `R2_DATA_DIRS` (`workers/site/src/route.js`), the publish list (`workers/r2-sync/batch/publish.mjs`), `run_worker_first` (`workers/site/wrangler.production.toml`) and both `rm -rf` lines in `deploy.yml`. Root-level data files (sitemaps, favicons, `llms.txt`, `search-synonyms.*.json`, `feed.xml`) still ship with the assets: moving them needs a root publish target and is the next step.
 | Search + API | R2 bucket `islam-museum-search`; `api.islam.museum` custom domain; public R2 URL for pagefind base | r2-sync worker in `deploy.yml` |
 | Fallback mirror | GitHub Pages | `deploy.yml` |
 | CI checks | GitHub Actions `validate.yml` | every PR |

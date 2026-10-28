@@ -22,6 +22,9 @@ const TARGETS = [
   { dir: "pagefind-en", prefix: "pagefind-en", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "pagefind-ur", prefix: "pagefind-ur", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "api", prefix: "api", cacheControl: "public, max-age=3600, stale-while-revalidate=86400" },
+  // Founder rule (28 Oct 2026): data, content, maps, images and video live on R2, not on Pages. Keep in step with
+  // workers/site/src/route.js (R2_DATA_DIRS).
+  ...["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"].map((d) => ({ dir: d, prefix: d, cacheControl: "public, max-age=86400, stale-while-revalidate=604800" })),
 ];
 // HTML pages served by workers/site. Off unless PUBLISH_HTML=1, so the default publish is unchanged.
 const HTML_TARGETS = [

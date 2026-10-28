@@ -5,7 +5,7 @@
 | Component | Provider / plan | Limit that matters | Cost |
 |---|---|---|---|
 | Static hosting | **Cloudflare Pages, paid plan** | file count (the reason it was chosen over GitHub Pages on 18 Oct 2026 — a 60k+ file site) | the only recurring paid item (per-site plan) |
-| Search index + API JSON | Cloudflare R2 | 10 GB free storage, zero egress, 1M writes/10M reads per month free; manifest-diffed sync keeps writes tiny | ~$0 inside free tier |
+| HTML pages, search index, API JSON, data, maps, images and media (founder rule, 28 Oct 2026) | Cloudflare R2 | 10 GB free storage, zero egress, 1M writes/10M reads per month free; manifest-diffed sync keeps writes tiny | ~$0 inside free tier |
 | CDN / DNS / SSL / analytics | Cloudflare free | unlimited bandwidth, cookieless Web Analytics | $0 |
 | Fallback mirror | GitHub Pages | static, rarely hit | $0 |
 | CI | GitHub Actions | generous for public repos; ~35 min builds, PR-validated | $0 |
