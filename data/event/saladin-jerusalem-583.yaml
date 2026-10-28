@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
-  start: { edtf: "1187~", hijri: "0583", calendar: julian, precision: year, status: tradition, derived: true, note: "583؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 692}." }
+  start: { edtf: "1187-10-02", hijri: "0583", calendar: julian, precision: day, status: historical, derived: false, sources: [source/britannica-saladin, source/tarikh-khulafa-minhaj-1434], note: "2 October 1187 (Britannica, Saladin); 583 AH {cite:tarikh-khulafa-minhaj-1434 p. 692}." }
 relations:
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الفاتح", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/jerusalem, sources: [source/tarikh-khulafa-minhaj-1434] }
@@ -18,5 +18,5 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 685–694"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-43
-sources: [source/tarikh-khulafa-minhaj-1434, source/assabile-omar-abdelkafy]
+sources: [source/tarikh-khulafa-minhaj-1434, source/assabile-omar-abdelkafy, source/britannica-saladin]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

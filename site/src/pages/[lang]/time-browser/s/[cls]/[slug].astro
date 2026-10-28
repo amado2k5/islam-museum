@@ -25,6 +25,16 @@ const B = T.time_browser;
 const path = `/${lang}/${"time-browser"}/s/${s.id}/`;
 const m = s.nodes.length;
 
+// The card shows the first one or two sentences; Full details shows the whole text (correction prompt §5 Step 3).
+const short = (t: string) => {
+  const parts = t.match(/[^.!?؟۔]+[.!?؟۔]+["»”)]*\s*/g) ?? [t];
+  let out = parts[0] ?? t;
+  if (parts[1] && (out + parts[1]).length <= 320) out += parts[1];
+  out = out.trim().length < t.trim().length ? out.trim() : t.trim();
+  // A very long first sentence (common in classical Arabic prose) is cut at a word, near 280 characters.
+  if (out.length > 300) out = out.slice(0, out.lastIndexOf(" ", 280)).trim() + "…";
+  return out;
+};
 // One payload per node, already in this page's language and date format.
 const nodes = s.nodes.map((n, i) => {
   const d = nodeDate(n.date, lang);
@@ -35,6 +45,7 @@ const nodes = s.nodes.map((n, i) => {
     titleLang: langOf(n.title, lang),
     summary: pick(n.summary, lang),
     summaryLang: langOf(n.summary, lang),
+    short: short(pick(n.summary, lang)),
     kids: n.kids ? pick(n.kids, lang) : "",
     kidsLang: n.kids ? langOf(n.kids, lang) : lang,
     date: d.text,
@@ -75,7 +86,7 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
             <span class="tbx-chip" data-chip="debated" hidden={!first.debated}>{B.x_debated}</span>
             <span class="tbx-chip" data-chip="preHijra" hidden={!first.preHijra}>{B.x_pre_hijra}</span>
           </p>
-          <p class="tbx-summary" data-summary lang={first.summaryLang}>{first.summary}</p>
+          <p class="tbx-summary" data-summary lang={first.summaryLang}>{first.short}</p>
           <p class="tbx-kidsnote" data-kidsnote hidden></p>
           <p class="tbx-cites" data-cites>{first.sources.map((c) => <a class="tbx-cite" href={c.href}>{c.label}</a>)}</p>
           <div class="tbx-actions">
@@ -203,7 +214,7 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
   .tbx-rail { border-inline-start: 1px solid color-mix(in srgb, var(--x-accent) 30%, transparent); padding: 16px; overflow-y: auto; max-height: calc(100dvh - 64px); }
   .tbx-rail h2 { font-size: 1rem; margin: 14px 0 6px; color: var(--x-accent); }
   .tbx-rail ul { margin: 0; padding-inline-start: 1.1rem; }
-  .tbx-dialog { max-width: 640px; width: calc(100% - 32px); border-radius: 14px; border: 1px solid var(--x-accent, #c9a227); background: var(--bg, #0b1220); color: inherit; }
+  .tbx-dialog { margin: auto; inset: 0; max-height: calc(100dvh - 32px); overflow: auto; max-width: 640px; width: calc(100% - 32px); border-radius: 14px; border: 1px solid var(--x-accent, #c9a227); background: var(--bg, #0b1220); color: inherit; }
   .tbx-dialog::backdrop { background: rgba(0, 0, 0, .55); }
   .tbx-close { float: inline-end; min-width: 44px; min-height: 44px; background: none; border: 0; color: inherit; font-size: 1.6rem; cursor: pointer; }
   .tbx-list { padding-block: 24px; }
@@ -252,7 +263,7 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
       setText("[data-title]", n.title, n.titleLang);
       setText("[data-date]", n.date);
       setText("[data-station]", n.station);
-      setText("[data-summary]", useKids ? n.kids : n.summary, useKids ? n.kidsLang : n.summaryLang);
+      setText("[data-summary]", useKids ? n.kids : n.short, useKids ? n.kidsLang : n.summaryLang);
       const note = $("[data-kidsnote]");
       if (note) { note.hidden = !(kids?.checked && !n.kids); note.textContent = data.t.kidsNone; }
       for (const k of ["approx", "debated", "preHijra"]) { const c = $(`[data-chip="${k}"]`); if (c) c.hidden = !n[k]; }

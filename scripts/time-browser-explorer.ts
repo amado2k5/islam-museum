@@ -7,6 +7,8 @@
 // standard (it cites defined sources), whatever its draft flag; the draft flag is never published.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
+import { existsSync } from 'node:fs'
+import { parse } from 'yaml'
 
 type Lang = 'ar' | 'en' | 'ur'
 type Text = Partial<Record<Lang, string>>
@@ -21,7 +23,7 @@ export interface GNode {
   coordinates?: [number, number]
   data?: Record<string, any>
 }
-export interface GEdge { from: string; to: string; type: string; sources?: string[] }
+export interface GEdge { from: string; to: string; type: string; sources?: string[]; inverse?: boolean }
 
 // The launch subjects (§5 Step 2). Each must reach MIN_NODES dated, cited nodes or it does not ship.
 export const SUBJECTS: { id: string; kind: 'person' | 'era' | 'place' }[] = [
@@ -99,6 +101,13 @@ const plain = (t: Text): Text => {
 const cited = (n: GNode | undefined) => (n?.data?.sources ?? []).length > 0 && !!n?.data?.provenance?.source && !!n?.data?.provenance?.generated_by
 const dateOf = (n: GNode): DateObj | undefined => n.data?.date?.start ?? n.data?.born ?? n.data?.founded
 
+function ownParticipation(id: string): string[] {
+  const file = join(process.cwd(), 'data', `${id}.yaml`)
+  if (!existsSync(file)) return []
+  const rec = parse(readFileSync(file, 'utf8')) as { relations?: { type: string; target: string }[] }
+  return (rec.relations ?? []).filter((r) => r.type === 'participated_in').map((r) => r.target)
+}
+
 export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subject[]; skipped: { id: string; reason: string }[] } {
   const byId = new Map(nodes.map((n) => [n.id, n]))
   const degree = new Map<string, number>()
@@ -130,18 +139,23 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subje
   // A usable event: dated, cited, with an Arabic title.
   const usable = (n: GNode | undefined): n is GNode =>
     !!n && n.class === 'event' && !!n.span && cited(n) && !!n.label?.ar && !!dateOf(n)
-  const pickSpread = (list: GNode[]) => {
+  // Events the subject's own record names come first (they are the curated ones); the rest fill by connections.
+  const pickSpread = (list: GNode[], preferred: Set<string> = new Set()) => {
     const sorted = [...list].sort((a, b) => a.span!.earliest - b.span!.earliest || a.id.localeCompare(b.id))
     if (sorted.length <= MAX_NODES) return sorted
     // Keep the most connected events, then restore time order.
     const deg = (n: GNode) => degree.get(n.id) ?? 0
-    return [...sorted].sort((a, b) => deg(b) - deg(a)).slice(0, MAX_NODES).sort((a, b) => a.span!.earliest - b.span!.earliest)
+    const rank = (n: GNode) => (preferred.has(n.id) ? 1e9 : 0) + deg(n)
+    return [...sorted].sort((a, b) => rank(b) - rank(a)).slice(0, MAX_NODES).sort((a, b) => a.span!.earliest - b.span!.earliest || a.id.localeCompare(b.id))
   }
 
   for (const s of SUBJECTS) {
     const subj = byId.get(s.id)
     if (!subj) { skipped.push({ id: s.id, reason: 'no record' }); continue }
     let events: GNode[] = []
+    // Only the links written in the subject's own record (data/<class>/<slug>.yaml): the graph stores every
+    // participation the same way, whichever record wrote it.
+    const preferred = new Set(ownParticipation(s.id))
     if (s.kind === 'person') {
       const ids = edges
         .filter((e) => (e.type === 'participated_in' && e.from === s.id) || (e.type === 'had_participant' && e.to === s.id))
@@ -156,7 +170,7 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subje
       const ids = edges.filter((e) => e.type === 'occurred_at' && targets.has(e.to)).map((e) => e.from)
       events = [...new Set(ids)].map((id) => byId.get(id)).filter(usable)
     }
-    const nodesOut: ExplorerNode[] = pickSpread(events).map(eventNode)
+    const nodesOut: ExplorerNode[] = pickSpread(events, preferred).map(eventNode)
     if (s.kind === 'person') {
       const born = subj.data?.born
       const died = subj.data?.died
