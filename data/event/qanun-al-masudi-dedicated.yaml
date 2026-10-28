@@ -1,0 +1,23 @@
+id: event/qanun-al-masudi-dedicated
+class: event
+kind: publication
+label: { ar: "إهداء «القانون المسعودي»", en: "The Masʿūdic Canon dedicated" }
+summary:
+  ar: "أهدى البيروني «القانون المسعودي» — موسوعته الفلكية الجامعة — إلى مسعود بن محمود الغزنوي، وجمع فيه علم الهيئة من المجسطي والزيجات مع إضافاته الأصلية {cite:britannica-al-biruni}."
+  en: "Al-Bīrūnī dedicated the Masʿūdic Canon — his encyclopaedic astronomical work gathering and updating Ptolemy's Almagest and Handy Tables with original contributions — to Masʿūd, son of Maḥmūd of Ghazna {cite:britannica-al-biruni}."
+  ur: "بیرونی نے اپنی فلکیاتی موسوع قانون مسعودی — جس میں بطلیموس کے المجسطی اور زیچوں کو جدید بنایا اور اصل اضافے کیے — محمود غزنوی کے بیٹے مسعود کے نام کی {cite:britannica-al-biruni}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1030~", precision: year, status: historical, derived: true, note: "dedicated to Masʿūd (sultan from 1030); recorded as circa 1030" }
+  end: { edtf: "1030~", precision: year, status: historical, derived: true, note: "dedicated to Masʿūd (sultan from 1030); recorded as circa 1030" }
+relations:
+  - { type: occurred_at, target: place/ghazna, sources: [source/britannica-al-biruni] }
+sources: [source/britannica-al-biruni]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Biruni story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-biruni
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

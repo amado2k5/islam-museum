@@ -7,7 +7,7 @@ gender: male
 roles: [scientist, scholar]
 traditions: [sunni]
 born: { edtf: "0973", hijri: "0362", calendar: julian, precision: year, status: tradition, sources: [source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1051", hijri: "0442", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1051", hijri: "0442", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/britannica-al-biruni] }
 summary:
   ar: "ولد بضراحي مدينة خوارزم، من كبار علماء الفلك والرياضيات والجغرافيا والتاريخ في عصره."
   en: "Born in Kath, the old city of Khwarazm. One of the leading astronomers, mathematicians, geographers and historians of his age."
@@ -15,6 +15,14 @@ wings: [people]
 themes: [astronomy-and-timekeeping, geography-and-cartography]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/kath-khwarazm, sources: [source/britannica-al-biruni] }
+  - { type: died_in, target: place/ghazna, sources: [source/britannica-al-biruni] }
+  - { type: participated_in, target: event/al-biruni-flees-to-bukhara, role: "العالم اللاجئ", sources: [source/britannica-al-biruni] }
+  - { type: participated_in, target: event/al-biruni-at-qabus-court-gurgan, role: "المؤلف الضيف", sources: [source/britannica-al-biruni] }
+  - { type: participated_in, target: event/mahmud-summons-al-biruni-to-ghazna, role: "العالم المطلوب", sources: [source/britannica-al-biruni] }
+  - { type: participated_in, target: event/tahqiq-ma-lil-hind-composed, role: "المؤلف", sources: [source/britannica-al-biruni] }
+  - { type: participated_in, target: event/qanun-al-masudi-dedicated, role: "المؤلف", sources: [source/britannica-al-biruni] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]

@@ -1,0 +1,24 @@
+id: event/al-biruni-at-qabus-court-gurgan
+class: event
+kind: gathering
+label: { ar: "البيروني في بلاط قابوس بجرجان", en: "Al-Biruni at Qābūs's court, Gurgān" }
+summary:
+  ar: "نزل البيروني بلاط قابوس بن وشمكير بجرجان على بحر قزوين، فلقي هناك ابن سينا ودار بينهما مراسلات فلسفية، وأهدى إلى قابوس كتابه «الآثار الباقية عن القرون الخالية» {cite:britannica-al-biruni}."
+  en: "At Gurgān near the Caspian al-Bīrūnī joined Qābūs ibn Voshmgīr's court, met Ibn Sīnā there and exchanged a sharp philosophical correspondence with him, and dedicated his Chronology of Ancient Nations to Qābūs {cite:britannica-al-biruni}."
+  ur: "بحیرہ خزر کے کنارے جرجان میں بیرونی قابوس بن وشمگیر کے دربار میں رہا، وہاں ابن سینا سے ملا اور اس سے فلسفیانہ مکاتبہ ہوئی، اور اپنی آثار الباقیہ قابوس کے نام کی {cite:britannica-al-biruni}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1000~", precision: year, status: historical, derived: true }
+  end: { edtf: "1000~", precision: year, status: historical, derived: true }
+relations:
+  - { type: occurred_at, target: place/jurjan, sources: [source/britannica-al-biruni] }
+  - { type: had_participant, target: person/ibn-sina, role: "المناظر", sources: [source/britannica-al-biruni] }
+sources: [source/britannica-al-biruni]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Biruni story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-biruni
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
