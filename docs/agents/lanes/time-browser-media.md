@@ -89,3 +89,8 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   clusters. NOTE: tbgen registration reports 149 this run (was 320 at
   batch-450 regen) — dedup guard skips ids already present as entries;
   image coverage 694. Needs a look next pass.
+- 2026-10-28 — Go-live note in DESIGN.md section 12: deploy checklist
+  (feed JSON to R2, /time-browser-media/ publish path, no third-party
+  requests, kids+related fields, one image-screen pass pending) and
+  verification commands. Batch 1000 merged: 7,856 stops, 1,368 cards,
+  14 clusters, 320 tbgen wired.
