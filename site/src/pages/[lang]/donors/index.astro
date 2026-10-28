@@ -1,0 +1,8 @@
+---
+import FeaturedPage from "../../../components/FeaturedPage.astro";
+import { LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+---
+<FeaturedPage lang={lang} page="donors" slug="donors" />

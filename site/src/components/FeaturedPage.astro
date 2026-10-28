@@ -1,0 +1,37 @@
+---
+// One page of the "featured" set (trustees, roll of honour, donors, press): what the page is, whose names it will
+// show, and how to take part. The names are added later; until then the page invites people to write in.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHeader from "./PageHeader.astro";
+import { ui, type Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; page: "trustees" | "honor" | "donors" | "press"; slug: string }
+const { lang, page, slug } = Astro.props;
+const T = ui(lang);
+const F = T.featured_pages;
+const P = F[page];
+const FEATURED = "featured@islam.museum";
+const PRESS = "press@islam.museum";
+---
+<BaseLayout lang={lang} title={P.title} description={P.lede} path={`/${lang}/${slug}/`}>
+  <PageHeader title={P.title} lede={P.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: P.title }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      {page === "press" ? (
+        <>
+          <section aria-labelledby="cov-h" class="s-sec"><h2 id="cov-h">{P.coverage_title}</h2><p>{P.coverage}</p><p>{P.tip} {F.write_to} <a href={`mailto:${FEATURED}`} dir="ltr">{FEATURED}</a></p></section>
+          <section aria-labelledby="rel-h" class="s-sec"><h2 id="rel-h">{P.releases_title}</h2><p>{P.releases}</p></section>
+          <section aria-labelledby="con-h" class="s-sec"><h2 id="con-h">{P.contact_title}</h2><p>{P.contact} <a href={`mailto:${PRESS}`} dir="ltr">{PRESS}</a></p></section>
+        </>
+      ) : (
+        <>
+          <section aria-labelledby="what-h" class="s-sec"><h2 id="what-h">{F.what_title}</h2><p>{P.what}</p></section>
+          <section aria-labelledby="who-h" class="s-sec"><h2 id="who-h">{F.who_title}</h2><p>{P.who}</p></section>
+          <section aria-labelledby="join-h" class="s-sec"><h2 id="join-h">{F.join_title}</h2><p>{P.join}</p><p>{F.write_to} <a href={`mailto:${FEATURED}`} dir="ltr">{FEATURED}</a></p>
+            {page === "donors" && <p><a href={`/${lang}/support/`}>{P.support_link}</a></p>}
+          </section>
+        </>
+      )}
+    </article>
+  </div>
+</BaseLayout>
