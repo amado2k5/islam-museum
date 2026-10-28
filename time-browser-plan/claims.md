@@ -31,3 +31,9 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | building/bayt-al-hikma | devin | claimed
 2026-10-28 | building/great-mosque-cordoba | devin | claimed
 2026-10-28 | person/tughril-beg | devin | claimed
+2026-10-28 | person/ibn-rushd | devin | done (data); jobs-ibn-rushd.json staged
+2026-10-28 | person/al-biruni-muhammad-ibn-ahmad | devin | done (data); jobs-al-biruni.json staged
+2026-10-28 | person/al-khwarizmi | devin | done (data)
+2026-10-28 | building/bayt-al-hikma | devin | done (data); jobs-bayt-al-hikma.json staged
+2026-10-28 | building/great-mosque-cordoba | devin | done (data)
+2026-10-28 | person/tughril-beg | devin | done (data) — Seljuks story, 13 nodes
