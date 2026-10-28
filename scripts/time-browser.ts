@@ -108,6 +108,26 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
 // over the whole timeline (founder request: go live with a small set first).
 export const LIVE_TOTAL = 10
 
+// Tour stops (DESIGN decision 14): six stops from the live set, in timeline order.
+// The tour reads only these records and never searches.
+export const TOUR_IDS = [
+  'polity/achaemenid-empire',
+  'concept/labba-fiqh',
+  'polity/ghaznavid-empire',
+  'event/salah-al-din-mosul-581',
+  'event/battle-of-ohrid-1464',
+  'event/battle-of-akhaltsikhe-1853',
+]
+
+export function tourSubset(live: Record_[]): Record_[] {
+  const byId = new Map(live.map((r) => [r.id, r]))
+  return TOUR_IDS.map((id) => {
+    const r = byId.get(id)
+    if (!r) throw new Error(`time-browser: tour stop ${id} is not in the live set`)
+    return r
+  })
+}
+
 export function liveSubset(topics: Record<string, Record_[]>): Record_[] {
   const all = Object.values(topics).flat().sort((a, b) => (a.timelineKey - b.timelineKey) || a.id.localeCompare(b.id))
   return spreadAcrossTime(all, LIVE_TOTAL)
@@ -132,7 +152,9 @@ export function writeAll(graphPath: string, outDir: string): number {
       files++
     }
     writeFileSync(join(dir, 'index.json'), JSON.stringify({ base: TIME_BROWSER_BASE, topics }))
-    writeFileSync(join(dir, 'live.json'), JSON.stringify(liveSubset(topics)))
+    const live = liveSubset(topics)
+    writeFileSync(join(dir, 'live.json'), JSON.stringify(live))
+    writeFileSync(join(dir, 'tour.json'), JSON.stringify(tourSubset(live)))
     files++
   }
   return files
