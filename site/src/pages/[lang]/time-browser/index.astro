@@ -1,43 +1,94 @@
 ---
-// Time Browser (TB3): the static list of the live set, readable without JavaScript.
-// The records come from `tsx scripts/time-browser.ts` (live.json). A missing file fails the build.
+// Time Browser front page: every prepared stop, grouped by type, readable without JavaScript.
+// Records come from .cache/time-browser/<lang>/<topic>.json (built by `tsx scripts/time-browser.ts`).
+// A missing file fails the build. Search filters only these prepared records in the page; it makes no request and no model call.
 import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { repoPath } from "../../../lib/paths";
+
+type Stop = {
+  id: string; kind: string; date: string; derived: boolean; draft: boolean; timelineKey: number;
+  title: Record<string, string>; summary: Record<string, string>; sources: string[];
+};
+
+const TOPIC_FILES = ["event", "person", "place", "polity", "period", "theme", "work", "concept", "practice"];
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const B = T.time_browser;
-const records = JSON.parse(
-  readFileSync(repoPath(".cache", "time-browser", lang, "live.json"), "utf8"),
-) as {
-  id: string; kind: string; date: string; derived: boolean; draft: boolean; timelineKey: number;
-  title: Record<string, string>; summary: Record<string, string>; sources: string[];
-}[];
+const dir = repoPath(".cache", "time-browser", lang);
+const groups = TOPIC_FILES.map((t) => ({
+  topic: t,
+  stops: (JSON.parse(readFileSync(join(dir, t + ".json"), "utf8")) as Stop[]).sort((a, b) => a.timelineKey - b.timelineKey),
+})).filter((g) => g.stops.length > 0);
+const tour = JSON.parse(readFileSync(join(dir, "tour.json"), "utf8")) as Stop[];
+const total = groups.reduce((n, g) => n + g.stops.length, 0);
 // Text without a translation falls back to Arabic, and is marked lang="ar" (DESIGN §3).
 const pick = (x: Record<string, string>) => x[lang] ?? x.ar;
 const langOf = (x: Record<string, string>) => (x[lang] ? lang : "ar");
+// Each stop's own page: /<lang>/time-browser/<kind>/<slug>/ (the id is "kind/slug").
+const stopHref = (s: Stop) => `/${lang}/time-browser/${s.id}/`;
 ---
 <BaseLayout lang={lang} title={B.title} description={B.lede} path={`/${lang}/time-browser/`}>
   <div class="wrap" style="padding-block:10px 20px">
     <h1>{B.title}</h1>
     <p style="font-size:1.25rem;max-width:var(--measure)">{B.lede}</p>
     <p style="max-width:var(--measure)">{B.live_note}</p>
-    <ol style="list-style:none;padding:0;display:grid;gap:16px">
-      {records.map((r) => (
-        <li style="border-block-start:1px solid var(--line, #ccc);padding-block-start:12px">
-          <p style="margin:0">
-            <span>{B.kinds[r.kind as keyof typeof B.kinds] ?? r.kind}</span>
-            {r.draft && <span style="margin-inline-start:8px;font-weight:600">{B.draft}</span>}
-          </p>
-          <h2 style="margin:4px 0" lang={langOf(r.title)}><a href={`/${lang}/time-browser/${r.id}/`}>{pick(r.title)}</a></h2>
-          <p style="margin:0"><strong>{B.date_label}:</strong> {r.date || "—"}{r.derived && <span> ({B.derived_label})</span>}</p>
-          <p style="max-width:var(--measure)" lang={langOf(r.summary)}>{pick(r.summary)}</p>
-          <p style="margin:0;font-size:0.9rem"><strong>{B.sources_label}:</strong> {r.sources.join(", ")}</p>
-        </li>
-      ))}
-    </ol>
+    <p><strong>{B.count_label}:</strong> {total}</p>
+
+    <section aria-labelledby="tour-h">
+      <h2 id="tour-h">{B.tour_title}</h2>
+      <ol style="padding-inline-start:1.4rem">
+        {tour.map((s) => (
+          <li><a href={stopHref(s)} lang={langOf(s.title)}>{pick(s.title)}</a> <span>({s.date || "—"})</span></li>
+        ))}
+      </ol>
+    </section>
+
+    <form role="search" onsubmit="return false" style="margin-block:18px">
+      <label for="tb-search"><strong>{B.search_label}</strong></label>
+      <input id="tb-search" type="search" autocomplete="off" placeholder={B.search_placeholder} style="display:block;width:100%;max-width:var(--measure);padding:8px;margin-block-start:6px" />
+      <p id="tb-status" aria-live="polite" style="font-size:0.9rem"></p>
+    </form>
+
+    {groups.map((g) => (
+      <section aria-labelledby={`g-${g.topic}`} data-group>
+        <h2 id={`g-${g.topic}`}>{B.kinds[g.topic as keyof typeof B.kinds] ?? g.topic} ({g.stops.length})</h2>
+        <ul style="list-style:none;padding:0;display:grid;gap:10px">
+          {g.stops.map((s) => (
+            <li data-stop data-text={`${pick(s.title)} ${pick(s.summary)} ${s.date}`.toLowerCase()}>
+              <a href={stopHref(s)} lang={langOf(s.title)}>{pick(s.title)}</a>
+              <span style="font-size:0.9rem"> — {s.date || "—"}{s.derived && <span> ({B.derived_label})</span>}</span>
+              {s.draft && <span style="margin-inline-start:6px;font-weight:600">{B.draft}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p id="tb-none" hidden>{B.not_yet}</p>
   </div>
+  <script>
+    // Progressive enhancement: filter the prepared stops already in this page. No request, no model call.
+    const input = document.getElementById("tb-search") as HTMLInputElement | null;
+    const status = document.getElementById("tb-status");
+    const none = document.getElementById("tb-none");
+    input?.addEventListener("input", () => {
+      const q = input.value.trim().toLowerCase();
+      let shown = 0;
+      document.querySelectorAll<HTMLElement>("[data-stop]").forEach((li) => {
+        const hit = !q || (li.dataset.text ?? "").includes(q);
+        li.hidden = !hit;
+        if (hit) shown++;
+      });
+      document.querySelectorAll<HTMLElement>("[data-group]").forEach((sec) => {
+        sec.hidden = !sec.querySelector("[data-stop]:not([hidden])");
+      });
+      if (status) status.textContent = q ? String(shown) : "";
+      if (none) none.hidden = shown > 0 || !q;
+    });
+  </script>
 </BaseLayout>
