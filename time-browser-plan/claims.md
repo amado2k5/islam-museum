@@ -27,3 +27,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | person/ibn-rushd | devin | claimed
 2026-10-28 | person/al-biruni-muhammad-ibn-ahmad | devin | claimed
 2026-10-28 | person/al-khwarizmi | devin | claimed
+2026-10-28 | person/ibn-khaldun | claude | done (data + 8 images; build not awaited, verified by validate and cite-check)

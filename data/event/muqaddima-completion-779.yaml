@@ -1,0 +1,24 @@
+id: event/muqaddima-completion-779
+class: event
+kind: other
+label: { ar: "إتمام ابن خلدون لكتابه المقدمة", en: "Ibn Khaldun completes the Muqaddima", ur: "ابن خلدون کا مقدمہ مکمل کرنا" }
+summary:
+  ar: "أتم ابن خلدون مقدمته في خمسة أشهر، وانتهى من تأليفها منتصف سنة 779هـ، ثم نقّحها وهذّبها وألحق بها تواريخ العرب والبربر في كتاب العِبر {cite:muqaddima-ibn-khaldun p. 652}."
+  en: "Ibn Khaldun finished composing the Muqaddima in five months, by the middle of 779 AH, then revised it and added the histories of the Arabs and Berbers as the Kitab al-'Ibar {cite:muqaddima-ibn-khaldun p. 652}."
+  ur: "ابن خلدون نے پانچ مہینوں میں مقدمہ مکمل کیا، جو 779ھ کے وسط تک تصنیف ہوا، پھر اس پر نظرِ ثانی کی اور عربوں و بربروں کی تاریخ کتاب العبر کے طور پر شامل کی {cite:muqaddima-ibn-khaldun p. 652}."
+wings: [time]
+themes: [history-writing-and-social-thought]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1377", hijri: "0779", calendar: julian, precision: year, status: historical, derived: true, note: "منتصف سنة 779هـ؛ التحويل مشتق {cite:muqaddima-ibn-khaldun p. 652}." }
+relations:
+  - { type: had_participant, target: person/ibn-khaldun, role: "المؤلف", sources: [source/muqaddima-ibn-khaldun] }
+  - { type: part_of, target: period/mongol-post-mongol }
+sources: [source/muqaddima-ibn-khaldun]
+provenance:
+  layer: own-research
+  source: "مقدمة ابن خلدون، خاتمة المقدمة ص 652"
+  generated_by: "Claude Haiku 5.5 (Claude Code) from the Muqaddima source text"
+  run: timeline-stories-claude-ibn-khaldun
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5" }
