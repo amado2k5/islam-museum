@@ -1,61 +1,36 @@
 ---
-// Time Browser stop page (TB3/TB4): one static page per live stop, at /<lang>/time-browser/<kind>/<slug>/.
-// The record comes from .cache/time-browser/<lang>/live.json, built by `tsx scripts/time-browser.ts`.
-// No runtime AI, no search, and no sign-in.
+// Old per-stop pages (/<lang>/time-browser/<kind>/<slug>/) now send visitors to the real museum entry, so links already
+// shared keep working without a plainer duplicate of each record (correction prompt, addendum). Static: a meta refresh
+// plus a visible link, no script needed.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { LANGS, type Lang } from "../../../../lib/i18n";
 import { repoPath } from "../../../../lib/paths";
 
-type Stop = {
-  id: string; kind: string; date: string; derived: boolean; draft: boolean; timelineKey: number;
-  title: Record<string, string>; summary: Record<string, string>; sources: string[];
-};
-
-// Stop id "polity/achaemenid-empire" becomes kind "polity" and slug "achaemenid-empire".
-const segments = (id: string) => {
-  const i = id.indexOf("/");
-  return { kind: id.slice(0, i), slug: id.slice(i + 1) };
-};
-
-// getStaticPaths is hoisted, so its helpers are defined inside it.
 export function getStaticPaths() {
   const TOPIC_FILES = ["event", "person", "place", "polity", "period", "theme", "work", "concept", "practice"];
-  const segmentsOf = (id: string) => {
-    const i = id.indexOf("/");
-    return { kind: id.slice(0, i), slug: id.slice(i + 1) };
-  };
   return LANGS.flatMap((lang) => {
-    // Every topic file, so any entity page can link to its stop (not only the live set).
     const dir = repoPath(".cache", "time-browser", lang);
-    const all = TOPIC_FILES.flatMap((t) => JSON.parse(readFileSync(join(dir, t + ".json"), "utf8")) as Stop[]);
+    const all = TOPIC_FILES.flatMap((t) => JSON.parse(readFileSync(join(dir, t + ".json"), "utf8")) as { id: string }[]);
     return all.map((r) => {
-      const { kind, slug } = segmentsOf(r.id);
-      return { params: { lang, kind, slug }, props: { lang, record: r } };
+      const i = r.id.indexOf("/");
+      return { params: { lang, kind: r.id.slice(0, i), slug: r.id.slice(i + 1) }, props: { lang, id: r.id } };
     });
   });
 }
-
-const { lang, record } = Astro.props as { lang: Lang; record: Stop };
-const T = ui(lang);
-const B = T.time_browser;
-// Text without a translation falls back to Arabic, and is marked lang="ar" (DESIGN §3).
-const pick = (x: Record<string, string>) => x[lang] ?? x.ar;
-const langOf = (x: Record<string, string>) => (x[lang] ? lang : "ar");
-const { kind, slug } = segments(record.id);
-const path = `/${lang}/time-browser/${kind}/${slug}/`;
+const { lang, id } = Astro.props as { lang: Lang; id: string };
+const target = `/${lang}/${id}/`;
 ---
-<BaseLayout lang={lang} title={pick(record.title)} description={pick(record.summary)} path={path}>
-  <div class="wrap" style="padding-block:10px 20px">
-    <p><a href={`/${lang}/time-browser/`}>{B.title}</a></p>
-    <p>
-      <span>{B.kinds[kind as keyof typeof B.kinds] ?? kind}</span>
-      {record.draft && <span style="margin-inline-start:8px;font-weight:600">{B.draft}</span>}
-    </p>
-    <h1 lang={langOf(record.title)}>{pick(record.title)}</h1>
-    <p><strong>{B.date_label}:</strong> {record.date || "—"}{record.derived && <span> ({B.derived_label})</span>}</p>
-    <p style="font-size:1.15rem;max-width:var(--measure)" lang={langOf(record.summary)}>{pick(record.summary)}</p>
-    <p style="font-size:0.9rem"><strong>{B.sources_label}:</strong> {record.sources.join(", ")}</p>
-  </div>
-</BaseLayout>
+<!doctype html>
+<html lang={lang} dir={lang === "en" ? "ltr" : "rtl"}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>{id}</title>
+  </head>
+  <body>
+    <p><a href={target}>{target}</a></p>
+  </body>
+</html>

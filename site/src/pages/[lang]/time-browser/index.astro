@@ -1,95 +1,118 @@
 ---
-// Time Browser front page: every prepared stop, grouped by type, readable without JavaScript.
-// Records come from .cache/time-browser/<lang>/<topic>.json (built by `tsx scripts/time-browser.ts`).
-// A missing file fails the build. Search filters only these prepared records in the page; it makes no request and no model call.
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+// Timeline Explorer front page (correction prompt §5 Steps 2, 6, 8): subject search, guided journeys, and shelves of
+// people, eras and places. Each subject opens its stage. Prepared data only: no model call and no request from the page.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { repoPath } from "../../../lib/paths";
-
-type Stop = {
-  id: string; kind: string; date: string; derived: boolean; draft: boolean; timelineKey: number;
-  title: Record<string, string>; summary: Record<string, string>; sources: string[];
-};
-
-const TOPIC_FILES = ["event", "person", "place", "polity", "period", "theme", "work", "concept", "practice"];
+import { ui, fmt, LANGS, type Lang } from "../../../lib/i18n";
+import { subjects, subjectHref, pick, langOf, nodeDate, type Subject } from "../../../lib/explorer";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const B = T.time_browser;
-const dir = repoPath(".cache", "time-browser", lang);
-const groups = TOPIC_FILES.map((t) => ({
-  topic: t,
-  stops: (JSON.parse(readFileSync(join(dir, t + ".json"), "utf8")) as Stop[]).sort((a, b) => a.timelineKey - b.timelineKey),
-})).filter((g) => g.stops.length > 0);
-const tour = JSON.parse(readFileSync(join(dir, "tour.json"), "utf8")) as Stop[];
-const total = groups.reduce((n, g) => n + g.stops.length, 0);
-// Text without a translation falls back to Arabic, and is marked lang="ar" (DESIGN §3).
-const pick = (x: Record<string, string>) => x[lang] ?? x.ar;
-const langOf = (x: Record<string, string>) => (x[lang] ? lang : "ar");
-// Each stop's own page: /<lang>/time-browser/<kind>/<slug>/ (the id is "kind/slug").
-const stopHref = (s: Stop) => `/${lang}/time-browser/${s.id}/`;
+const all = subjects();
+const spanOf = (s: Subject) => `${nodeDate(s.nodes[0].date, lang).text} — ${nodeDate(s.nodes[s.nodes.length - 1].date, lang).text}`;
+const card = (s: Subject) => ({
+  href: subjectHref(lang, s.id),
+  title: pick(s.title, lang),
+  titleLang: langOf(s.title, lang),
+  span: spanOf(s),
+  stops: fmt(B.x_stops, { n: String(s.nodes.length) }),
+});
+const journeys = all.filter((s) => s.journey).map(card);
+const shelves = [
+  { title: B.x_persons, items: all.filter((s) => s.kind === "person").map(card) },
+  { title: B.x_eras, items: all.filter((s) => s.kind === "era").map(card) },
+  { title: B.x_places, items: all.filter((s) => s.kind === "place").map(card) },
+].filter((g) => g.items.length > 0);
+// The search index: every subject's title in all three languages, so any spelling finds it.
+const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), label: pick(s.title, lang), keys: Object.values(s.title).join(" ").toLowerCase() }))).replace(/</g, "\\u003c");
 ---
-<BaseLayout lang={lang} title={B.title} description={B.lede} path={`/${lang}/time-browser/`}>
-  <div class="wrap" style="padding-block:10px 20px">
-    <h1>{B.title}</h1>
-    <p style="font-size:1.25rem;max-width:var(--measure)">{B.lede}</p>
-    <p style="max-width:var(--measure)">{B.live_note}</p>
-    <p><a href={`/${lang}/time-browser/guide/`}>{B.guide_link}</a></p>
-    <p><strong>{B.count_label}:</strong> {total}</p>
+<BaseLayout lang={lang} title={B.x_name} description={B.x_lede} path={`/${lang}/time-browser/`}>
+  <div class="wrap tbs">
+    <h1>{B.x_name}</h1>
+    <p class="tbs-lede">{B.x_lede}</p>
 
-    <section aria-labelledby="tour-h">
-      <h2 id="tour-h">{B.tour_title}</h2>
-      <ol style="padding-inline-start:1.4rem">
-        {tour.map((s) => (
-          <li><a href={stopHref(s)} lang={langOf(s.title)}>{pick(s.title)}</a> <span>({s.date || "—"})</span></li>
-        ))}
-      </ol>
-    </section>
-
-    <form role="search" onsubmit="return false" style="margin-block:18px">
-      <label for="tb-search"><strong>{B.search_label}</strong></label>
-      <input id="tb-search" type="search" autocomplete="off" placeholder={B.search_placeholder} style="display:block;width:100%;max-width:var(--measure);padding:8px;margin-block-start:6px" />
-      <p id="tb-status" aria-live="polite" style="font-size:0.9rem"></p>
+    <form role="search" class="tbs-search" onsubmit="return false">
+      <label for="tbs-q">{B.x_search_label}</label>
+      <input id="tbs-q" type="search" autocomplete="off" placeholder={B.x_search_placeholder} aria-describedby="tbs-none" />
+      <ul class="tbs-results" data-results role="list"></ul>
+      <p id="tbs-none" data-none hidden>{B.x_no_subject}</p>
     </form>
 
-    {groups.map((g) => (
-      <section aria-labelledby={`g-${g.topic}`} data-group>
-        <h2 id={`g-${g.topic}`}>{B.kinds[g.topic as keyof typeof B.kinds] ?? g.topic} ({g.stops.length})</h2>
-        <ul style="list-style:none;padding:0;display:grid;gap:10px">
-          {g.stops.map((s) => (
-            <li data-stop data-text={`${pick(s.title)} ${pick(s.summary)} ${s.date}`.toLowerCase()}>
-              <a href={stopHref(s)} lang={langOf(s.title)}>{pick(s.title)}</a>
-              <span style="font-size:0.9rem"> — {s.date || "—"}{s.derived && <span> ({B.derived_label})</span>}</span>
-              {s.draft && <span style="margin-inline-start:6px;font-weight:600">{B.draft}</span>}
+    {journeys.length > 0 && (
+      <section aria-labelledby="tbs-j">
+        <h2 id="tbs-j">{B.x_journeys}</h2>
+        <ul class="tbs-cards" role="list">
+          {journeys.map((c) => (
+            <li class="tbs-card tbs-journey">
+              <a href={c.href}>
+                <strong lang={c.titleLang}>{c.title}</strong>
+                <span>{c.span}</span>
+                <span>{c.stops}</span>
+                <span class="tbs-cta">{B.x_start}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {shelves.map((g, i) => (
+      <section aria-labelledby={`tbs-s${i}`}>
+        <h2 id={`tbs-s${i}`}>{g.title}</h2>
+        <ul class="tbs-cards" role="list">
+          {g.items.map((c) => (
+            <li class="tbs-card">
+              <a href={c.href}>
+                <strong lang={c.titleLang}>{c.title}</strong>
+                <span>{c.span}</span>
+                <span>{c.stops}</span>
+              </a>
             </li>
           ))}
         </ul>
       </section>
     ))}
 
-    <p id="tb-none" hidden>{B.not_yet}</p>
+    <p><a href={`/${lang}/time-browser/guide/`}>{B.guide_link}</a></p>
   </div>
-  <script>
-    // Progressive enhancement: filter the prepared stops already in this page. No request, no model call.
-    const input = document.getElementById("tb-search") as HTMLInputElement | null;
-    const status = document.getElementById("tb-status");
-    const none = document.getElementById("tb-none");
-    input?.addEventListener("input", () => {
-      const q = input.value.trim().toLowerCase();
-      let shown = 0;
-      document.querySelectorAll<HTMLElement>("[data-stop]").forEach((li) => {
-        const hit = !q || (li.dataset.text ?? "").includes(q);
-        li.hidden = !hit;
-        if (hit) shown++;
-      });
-      document.querySelectorAll<HTMLElement>("[data-group]").forEach((sec) => {
-        sec.hidden = !sec.querySelector("[data-stop]:not([hidden])");
-      });
-      if (status) status.textContent = q ? String(shown) : "";
-      if (none) none.hidden = shown > 0 || !q;
-    });
-  </script>
+  <script type="application/json" id="tbs-index" set:html={index}></script>
 </BaseLayout>
+
+<style>
+  .tbs { padding-block: 16px 32px; }
+  .tbs-lede { font-size: 1.2rem; max-width: var(--measure); }
+  .tbs-search { margin-block: 18px; max-width: 560px; }
+  .tbs-search input { display: block; width: 100%; min-height: 44px; padding: 8px 12px; margin-block-start: 6px; }
+  .tbs-results { list-style: none; padding: 0; margin: 6px 0 0; }
+  .tbs-results a { display: block; min-height: 44px; padding: 10px 12px; }
+  .tbs-cards { list-style: none; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .tbs-card a { display: grid; gap: 4px; padding: 14px; min-height: 44px; border: 1px solid color-mix(in srgb, var(--gold, #c9a227) 45%, transparent); border-radius: 12px; text-decoration: none; color: inherit; }
+  .tbs-card strong { font-size: 1.1rem; }
+  .tbs-card span { font-size: .88rem; opacity: .9; }
+  .tbs-cta { color: var(--gold, #c9a227); font-weight: 600; }
+</style>
+
+<script>
+  // Progressive enhancement: suggest subjects as the visitor types. Reads only the index in this page.
+  const input = document.getElementById("tbs-q") as HTMLInputElement | null;
+  const list = document.querySelector<HTMLElement>("[data-results]");
+  const none = document.querySelector<HTMLElement>("[data-none]");
+  const raw = document.getElementById("tbs-index")?.textContent;
+  if (input && list && raw) {
+    const index = JSON.parse(raw) as { href: string; label: string; keys: string }[];
+    input.addEventListener("input", () => {
+      const q = input.value.trim().toLowerCase();
+      const hits = q ? index.filter((s) => s.keys.includes(q)).slice(0, 8) : [];
+      list.replaceChildren(...hits.map((s) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = s.href; a.textContent = s.label; li.append(a); return li;
+      }));
+      if (none) none.hidden = !q || hits.length > 0;
+    });
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { const a = list.querySelector("a"); if (a) location.href = (a as HTMLAnchorElement).href; }
+    });
+  }
+</script>

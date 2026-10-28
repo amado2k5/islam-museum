@@ -1076,6 +1076,10 @@ explore:
       title: Kids' Wing
       desc: 'The museum''s children''s corner: the Word Garden and the Prophet Quest with Hudhud.'
       menu: Interactive kids' corner
+    timeexplorer:
+      title: "Timeline Explorer"
+      desc: "Walk a person's, an era's or a city's story stop by stop on an interactive timeline."
+      menu: "Walk a story through time"
     wander:
       title: Wander
       menu: A random page of the museum
@@ -1999,13 +2003,64 @@ time_browser:
   tour_title: Take the tour
   search_label: Search the Time Browser
   search_placeholder: Type a name, event or place
-  guide_link: What we offer and how to use it
-  guide_title: What we offer
-  guide_lede: The Time Browser lets you move through the museum by date. Every stop is one record from the museum, with its date, a short summary and its sources.
+  guide_link: "What the Timeline Explorer offers, and how to use it"
+  guide_title: "What the Timeline Explorer offers"
+  guide_lede: "The Timeline Explorer lets you pick one subject (a person, an era or a city) and walk its story one stop at a time. Each stop is a record from the museum, with its date in the Hijri and Gregorian calendars, a short text and its sources."
   guide_features_title: What you can do
-  guide_feature_list: "Browse every prepared stop, grouped by type (events, people, places, states, periods, works, concepts and practices).|Search the list by name, event or place. Search works only on the stops already on this page.|Open any stop to read its date, summary and sources, and follow its link to the museum entry.|Take the tour: six or fewer stops in time order, chosen to show the range.|From any entry in the museum that has a stop, press Time-browse this to open it directly."
+  guide_feature_list: "Choose a subject from the shelves, or search for one by name.|Start a guided journey: a set of stops in time order, with Stop 3 of 9 shown as you go.|Move along the timeline with the arrows, by selecting a stop, or with the arrow keys.|Open Full details, see the place On the map where it has one, or follow Context and relations into the museum.|Read the related people, places and sources beside the story; the sources change as you move.|Switch on For kids where a stop has a text written for children."
   guide_usage_title: How to use it
-  guide_usage_list: "Start from the list, or type in the search box.|Select a stop to read it. Each stop has its own address, so you can share it.|Dates marked as derived are placed on the timeline from a linked period, not from a date of their own.|Draft stops are labelled. Drafts are prepared records that are still being checked."
+  guide_usage_list: "Every stop has its own address, so you can share it or come back to it.|Dates marked approximate or debated are shown that way, as the sources give them.|From a museum entry that has a story, press Explore the timeline to open it."
   guide_limits_title: What it does not do
-  guide_limits_list: "It does not use AI when you read it. Everything on the page was prepared in advance.|It does not search the web or other sites. Topics that are not prepared show: Not in the Time Browser yet.|It has no sign-in and keeps no record of you.|Kids text is shown only where it has been written and checked."
-  guide_back: Back to the Time Browser
+  guide_limits_list: "It does not use AI when you read it. Everything on the page was prepared in advance.|It does not search the web. Topics that are not prepared show: Not in the Timeline Explorer yet.|It has no sign-in and keeps no record of you.|Kids text is shown only where it has been written and checked."
+  guide_back: "Back to the Timeline Explorer"
+  x_name: Timeline Explorer
+  x_lede: "Pick a person, an era or a city, and walk its story one stop at a time. Every event comes with its source."
+  x_search_label: Find a subject
+  x_search_placeholder: "Saladin, Baghdad, the Abbasid era…"
+  x_no_subject: "Not in the Timeline Explorer yet."
+  x_journeys: Guided journeys
+  x_persons: People
+  x_eras: Eras
+  x_places: Places
+  x_stops: "{n} stops"
+  x_start: Start the journey
+  x_station: "Stop {n} of {m}"
+  x_prev: Previous event
+  x_next: Next event
+  x_details: Full details
+  x_map: On the map
+  x_context: Context and relations
+  x_share: Share
+  x_copied: Link copied
+  x_back: Back to the timeline
+  x_close: Close
+  x_approx: approximate
+  x_debated: debated
+  x_pre_hijra: before the Hijra
+  x_birth: Birth
+  x_death: Death
+  x_about: About this subject
+  x_rail_persons: Related people
+  x_rail_places: Events and places
+  x_rail_sources: Sources
+  x_rail_more: Explore more
+  x_full_page: Full page
+  x_youtube: Search on YouTube
+  x_wikipedia: Search on Wikipedia
+  x_kids: For kids
+  x_kids_none: "This stop has no kids text yet; you are reading the main text."
+  x_all_stops: All stops in this story
+  x_span: Span
+  x_entity_button: Explore the timeline
+  x_menu_title: Timeline Explorer
+  x_menu_desc: "Walk a person's, an era's or a city's story stop by stop on an interactive timeline."
+  x_menu: Walk a story through time
+  m_eyebrow: New at the museum
+  m_headline: "Travel through time, one story at a time"
+  m_promise: "Pick a person, an era, or a city, and walk its story stop by stop on an interactive timeline — every event backed by its source."
+  m_cta: Start exploring
+  m_chip_1: Saladin
+  m_chip_2: Al-Andalus
+  m_chip_3: Baghdad
+  m_chip_4: The Abbasid Era
+  m_search_hint: "Or search any topic…"
