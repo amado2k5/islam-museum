@@ -65,3 +65,19 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   gaps to file: kids-mode toggle, related-entities sidebar, per-period
   theming, animated placeholder, loading overlay. TB2 items for Claude:
   kids content, related-entity ids.
+- 2026-10-28 — Local SDXL illustrations: queue running on the founder's Mac
+  (/Volumes/exmicroSD/tb-images/, SDXL, no-people/no-text prompts). 153 webp
+  committed at site/public/media/time-browser/images/; 145 stops switched to
+  coverage:image; 21 launch records now wire a real image. NOTE for Claude:
+  scripts/time-browser.ts tourSubset now throws — polity/achaemenid-empire
+  fell out of the live set after the EDTF padding fix moved it to -550.
+  Local feed regenerated skipping tour.json only.
+- 2026-10-28 — "add 50 more" (batch 450): 4,541 stops. Index now auto-registers
+  committed SDXL webp (media/tbgen-*): 149 wired so far — match rate 14%
+  (649 image / 3,989 card), 15+ clusters, cards regenerated.
+- 2026-10-28 — batch 450 merged (PR #2430). Resume runbook written to
+  DESIGN.md section 11 for session restarts.
+- 2026-10-28 — al-Ghazali route map: route-al-ghazali.svg (94 KB) drawn from
+  the MENA basemap — Tus, Nishapur, Jurjan, Baghdad, Damascus, Jerusalem,
+  Mecca, Medina and back (dashed route + labeled dots). Uses the sourced
+  Tus/Jurjan coordinates from PR #2435. Wiring to a journey/record is open.
