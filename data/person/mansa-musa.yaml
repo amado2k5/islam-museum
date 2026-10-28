@@ -10,8 +10,12 @@ gender: male
 roles: [ruler]
 traditions:
 - sunni
+born: { edtf: "1280~", precision: year, status: tradition, derived: true, note: "birth year approximate", sources: [source/tarikh-ibn-khaldun-ibar] }
 died: { edtf: "1337~", hijri: "0737~", calendar: julian, precision: year, status: debated, derived: true, note: "بلغ ابن خلدون أنه توفي بعد خمس وعشرين سنة من ملكه؛ سنة الوفاة محتملة بين ٧٣٧ و٧٣٩هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- { type: participated_in, target: event/mansa-musa-accession-1312, role: "الملك", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: participated_in, target: event/mansa-musa-hajj-724, role: "الحاج الملك", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: participated_in, target: event/djinguereber-built-1327, role: "الآمر بالبناء", sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: ruler_of
   target: polity/mali-empire
   sources:
