@@ -1,7 +1,14 @@
 import { describe, it, expect } from 'vitest'
-import { readFileSync } from 'node:fs'
+import { execSync } from 'node:child_process'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildRecords, spreadAcrossTime, TOPICS, LAUNCH_PER_TOPIC, type GraphNode } from './time-browser.ts'
+
+// The CI test job runs `npm test` without the build, so compile the graph once here when it is missing
+// (the same guard as scripts/edu.test.ts).
+if (!existsSync(join(process.cwd(), '.cache', 'graph.json'))) {
+  execSync('npm run graph', { stdio: 'inherit' })
+}
 
 const graph = JSON.parse(
   readFileSync(join(process.cwd(), '.cache', 'graph.json'), 'utf8'),
