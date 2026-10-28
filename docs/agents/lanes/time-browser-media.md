@@ -77,3 +77,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   (649 image / 3,989 card), 15+ clusters, cards regenerated.
 - 2026-10-28 — batch 450 merged (PR #2430). Resume runbook written to
   DESIGN.md section 11 for session restarts.
+- 2026-10-28 — al-Ghazali route map: route-al-ghazali.svg (94 KB) drawn from
+  the MENA basemap — Tus, Nishapur, Jurjan, Baghdad, Damascus, Jerusalem,
+  Mecca, Medina and back (dashed route + labeled dots). Uses the sourced
+  Tus/Jurjan coordinates from PR #2435. Wiring to a journey/record is open.
