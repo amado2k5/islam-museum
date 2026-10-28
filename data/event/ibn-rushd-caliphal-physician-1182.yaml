@@ -1,0 +1,23 @@
+id: event/ibn-rushd-caliphal-physician-1182
+class: event
+kind: other
+label: { ar: "ابن رشد طبيباً للخليفة (١١٨٢)", en: "Ibn Rushd becomes the caliph's physician (1182)" }
+summary:
+  ar: "خلف ابن رشد ابن طفيل طبيباً للخليفة أبي يعقوب يوسف سنة 1182م ثم لابنه أبي يوسف يعقوب سنة 1184م {cite:britannica-averroes}."
+  en: "In 1182 Ibn Rushd succeeded Ibn Ṭufayl as physician to the caliph Abū Yaʿqūb Yūsuf, and to his son Abū Yūsuf Yaʿqūb in 1184 {cite:britannica-averroes}."
+  ur: "1182ء میں ابن رشد ابن طفیل کے بعد خلیفہ ابو یعقوب یوسف کا طبیب بنا اور 1184ء میں اس کے بیٹے ابو یوسف یعقوب کا {cite:britannica-averroes}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1182", precision: year, status: historical }
+  end: { edtf: "1182", precision: year, status: historical }
+relations:
+  - { type: occurred_at, target: place/marrakesh, sources: [source/britannica-averroes] }
+sources: [source/britannica-averroes]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn Rushd story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-rushd
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

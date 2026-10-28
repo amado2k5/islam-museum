@@ -1,19 +1,18 @@
 id: place/lucena
 class: place
 kind: city
-label: { ar: "لشانة", en: "Lucena" }
+label: { ar: "ليسانة", en: "Lucena" }
 summary:
-  ar: "لشانة (لوشة الصغرى/لوسنة) من مدن كورة قرطبة؛ بقربها أسر السلطان أبو عبد الله محمد بن أبي الحسن صاحب غرناطة في ربيع الأول سنة ثمان وثمانين وثمانمائة حين انكسر جنده في جبال نواحيها وعلم به صاحب لشانة فهرب به ليلاً وبلغه إلى صاحب قشتالة {cite:nafh-tib-maqqari p. 519}."
-  en: "Lucena, in Cordoba's district — beside it Sultan Boabdil's army broke in Rabi I 888 and the sultan himself was taken and spirited to the Castilian king {cite:nafh-tib-maqqari p. 519}."
+  en: "Town south of Córdoba where Ibn Rushd was confined in 1195 during his disgrace."
+  ar: "بلدة جنوب قرطبة حُبس فيها ابن رشد سنة 1195م زمن محنته."
 wings: [place]
-periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
-relations:
-  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+coordinates: [37.4088, -4.4852]
+coordinate_precision: locality
+sources: [source/geonames-gazetteer]
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-nafh-tib-batch-60
-sources: [source/nafh-tib-maqqari]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Ibn Rushd story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-rushd
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

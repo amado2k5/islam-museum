@@ -1,0 +1,23 @@
+id: event/tahafut-al-tahafut-written-575
+class: event
+kind: publication
+label: { ar: "تصنيف تهافت التهافت", en: "Tahāfut al-Tahāfut written" }
+summary:
+  ar: "صنّف ابن رشد سنتي 1179 و1180م ثلاث رسائل مترابطة في الذب عن الفلسفة: «فصل المقال» و«الكشف عن مناهج الأدلة» و«تهافت التهافت» جواباً على الغزالي {cite:britannica-averroes}."
+  en: "In 1179–80 Ibn Rushd composed his three connected treatises in defence of philosophy: Faṣl al-Maqāl, Kashf al-Manāhij, and Tahāfut al-Tahāfut answering al-Ghazali {cite:britannica-averroes}."
+  ur: "1179–80ء میں ابن رشد نے فلسفہ کے دفاع میں تین مربوط رسالے لکھے: فصل المقال، کشف المناہج اور تہافت التہافت بطور جواب غزالی کے {cite:britannica-averroes}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1179/1180", precision: year, status: historical }
+  end: { edtf: "1179/1180", precision: year, status: historical }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/britannica-averroes] }
+sources: [source/britannica-averroes]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn Rushd story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-rushd
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

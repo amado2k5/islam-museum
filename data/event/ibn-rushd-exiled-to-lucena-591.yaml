@@ -1,0 +1,23 @@
+id: event/ibn-rushd-exiled-to-lucena-591
+class: event
+kind: expulsion
+label: { ar: "نفي ابن رشد إلى ليسانة سنة ٥٩١هـ", en: "Ibn Rushd exiled to Lucena, 591 AH" }
+summary:
+  ar: "عزله الخليفة أبو يوسف يعقوب عن مناصبه ونفاه إلى ليسانة سنة 1195م في موسم الجهاد، ثم رضي عنه بعد رجوعه إلى مراكش {cite:britannica-averroes}."
+  en: "The caliph Abū Yūsuf dismissed Ibn Rushd from office and banished him to Lucena in 1195 during the jihad season; after the return to Marrakech he was recalled {cite:britannica-averroes}."
+  ur: "خلیفہ ابو یوسف یعقوب نے جہاد کے موسم میں ابن رشد کو عہدوں سے ہٹا کر 1195ء میں لیسانہ جلاوطن کیا؛ مراکش واپسی پر اسے معاف کر کے بلالیا {cite:britannica-averroes}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1195", hijri: "0591", precision: year, status: historical, derived: true }
+  end: { edtf: "1195", hijri: "0591", precision: year, status: historical, derived: true }
+relations:
+  - { type: occurred_at, target: place/lucena, sources: [source/britannica-averroes] }
+sources: [source/britannica-averroes]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn Rushd story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-rushd
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

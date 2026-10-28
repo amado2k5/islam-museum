@@ -22,7 +22,11 @@ relations:
   - { type: authored, target: work/tahafut-al-tahafut, sources: [source/al-aalam] }
   - { type: authored, target: work/bidayat-al-mujtahid, sources: [source/al-aalam] }
   - { type: critic_of, target: person/al-ghazali-abu-hamid, note: "رد عليه بتهافت التهافت", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/min-al-falsafa-al-yunaniyya-azhar]
+  - { type: participated_in, target: event/ibn-rushd-presented-to-the-caliph, role: "الفيلسوف المقدم", sources: [source/britannica-averroes] }
+  - { type: participated_in, target: event/ibn-rushd-caliphal-physician-1182, role: "طبيب الخليفة", sources: [source/britannica-averroes] }
+  - { type: participated_in, target: event/tahafut-al-tahafut-written-575, role: "المصنف", sources: [source/britannica-averroes] }
+  - { type: participated_in, target: event/ibn-rushd-exiled-to-lucena-591, role: "المنفي", sources: [source/britannica-averroes] }
+sources: [source/al-aalam, source/min-al-falsafa-al-yunaniyya-azhar, source/britannica-averroes]
 provenance:
   layer: own-research
   source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص849"
