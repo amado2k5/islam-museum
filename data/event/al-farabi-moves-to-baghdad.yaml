@@ -1,0 +1,23 @@
+id: event/al-farabi-moves-to-baghdad
+class: event
+kind: other
+label: { ar: "الفارابي يرحل إلى بغداد", en: "Al-Farabi moves to Baghdad" }
+summary:
+  ar: "رحل الفارابي من بلاد ما وراء النهر إلى بغداد فأقام بها وفيها صنّف أكثر كتبه {cite:britannica-al-farabi}."
+  en: "Al-Farabi moved from Central Asia to Baghdad, where he settled and wrote most of his works {cite:britannica-al-farabi}."
+  ur: "فارابی وسط ایشیا سے بغداد آیا جہاں مقیم ہوا اور اپنی بیشتر تصانیف وہیں لکھیं {cite:britannica-al-farabi}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0905~", precision: year, status: historical, derived: true, note: "undated in Britannica; the move precedes his Baghdad works" }
+  end: { edtf: "0905~", precision: year, status: historical, derived: true, note: "undated in Britannica; the move precedes his Baghdad works" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-farabi] }
+sources: [source/britannica-al-farabi]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Farabi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-farabi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

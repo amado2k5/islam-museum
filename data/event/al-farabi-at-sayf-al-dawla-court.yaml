@@ -1,0 +1,23 @@
+id: event/al-farabi-at-sayf-al-dawla-court
+class: event
+kind: other
+label: { ar: "الفارابي في بلاط سيف الدولة بحلب", en: "Al-Farabi at Sayf al-Dawla's court" }
+summary:
+  ar: "نزل الفارابي سنة 942م بلاط الأمير سيف الدولة الحمداني بحلب فبقي بها حتى وفاته {cite:britannica-al-farabi}."
+  en: "In 942 al-Farabi took up residence at the court of the Hamdanid prince Sayf al-Dawla in Aleppo, remaining there until his death {cite:britannica-al-farabi}."
+  ur: "942ء میں فارابی حمدانی امیر سیف الدولہ کے دربار حلب میں مقیم ہوا اور وفات تک وہیں رہا {cite:britannica-al-farabi}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0942", precision: year, status: historical }
+  end: { edtf: "0942", precision: year, status: historical }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/britannica-al-farabi] }
+sources: [source/britannica-al-farabi]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Farabi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-farabi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

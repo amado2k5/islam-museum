@@ -9,14 +9,17 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
+born: { edtf: "0878~", precision: year, status: tradition, derived: true, note: "born c. 878 in Turkistan per Britannica", sources: [source/britannica-al-farabi] }
 died: { edtf: "0950~", hijri: "0339", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 339هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 290}." }
 relations:
-  - { type: authored, target: work/ara-ahl-al-madina-al-fadila, sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan] }
+  - { type: participated_in, target: event/al-farabi-moves-to-baghdad, role: "الفيلسوف", sources: [source/britannica-al-farabi] }
+  - { type: participated_in, target: event/al-farabi-at-sayf-al-dawla-court, role: "الفيلسوف المقيم", sources: [source/britannica-al-farabi] }
+  - { type: authored, target: work/ara-ahl-al-madina-al-fadila, sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi] }
 provenance:
   layer: own-research
   source: "kashf al-zunun; assabile al-mubdioune ep26 lecture (2026-10 transcription)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-14
-sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan]
+sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 external_ids: { wikidata: Q160460 }
