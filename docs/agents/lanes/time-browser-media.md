@@ -97,3 +97,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
 - 2026-10-28 — SDXL round 2 launched: 320 jobs (161 launch-set cards
   first, then a class spread), output to tb/ as before; register on the
   next time-browser-media.ts regen.
+- 2026-10-28 — SDXL round 2 complete: 320/320 generated; 640 webp total
+  now committed (~30 MB). Index registers 640 tbgen entries; image
+  coverage 1,231 of 7,856 (15.5%); all 321 launch-set stops image-covered
+  or card-bearing as wired.
