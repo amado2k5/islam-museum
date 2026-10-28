@@ -55,3 +55,8 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   image generation for TB stops reusing scripts/media/illustrate + SDXL
   (~/tb-img-venv, M4 Max MPS). 320/321 launch records currently have no
   image; generation precedes the next "add 50 more" batch per founder.
+- 2026-10-27 — TB1 launch stops now always in the media index (scripts/
+  time-browser-media.ts merges .cache/time-browser/en/index.json ids). All 50
+  TB1 places covered (was 28); 4,187 stops, 10.9% match, 15 clusters,
+  694 cards. Local SDXL generation for unimaged records running on the
+  founder's Mac (320 queue, /Volumes/exmicroSD/tb-images/).
