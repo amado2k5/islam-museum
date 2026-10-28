@@ -1,0 +1,23 @@
+id: event/djinguereber-built-1327
+class: event
+kind: founding
+label: { ar: "بناء مسجد جنكريبر بتمبكتو", en: "Djinguereber mosque built at Timbuktu" }
+summary:
+  ar: "لما رجع منسا موسى من الحج رافقه المعمار الأندلسي أبو إسحاق الساحلي وبنى له مسجد جنكريبر بتمبكتو سنة 1327م تقريباً {cite:tarikh-ibn-khaldun-ibar}."
+  en: "On Mansa Musa's return from the hajj the Andalusian architect Abu Ishaq al-Sahili came with him and built the Djinguereber mosque at Timbuktu about 1327 {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "حج سے واپسی پر مانسا موسیٰ کے ساتھ اندلسی معمار ابو اسحاق ساحلی آیا جس نے تمبکٹو میں جنکریبر مسجد تقریباً 1327ء میں بنائی {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1327~", precision: year, status: tradition, derived: true }
+  end: { edtf: "1327~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/timbuktu, sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mansa Musa story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mansa-musa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
