@@ -39,3 +39,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | person/tughril-beg | devin | done (data) — Seljuks story, 13 nodes
 2026-10-28 | person/khalid-ibn-al-walid | claude | claimed
 2026-10-28 | person/al-farabi | devin | claimed
+2026-10-28 | person/ibn-al-haytham | devin | claimed
