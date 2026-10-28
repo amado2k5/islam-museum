@@ -25,3 +25,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/delhi | devin | claimed
 2026-10-28 | place/delhi | devin | done (data); image jobs staged at .cache/time-browser/jobs-delhi.json, GPU busy
 2026-10-28 | person/ibn-rushd | devin | claimed
+2026-10-28 | person/al-biruni-muhammad-ibn-ahmad | devin | claimed
