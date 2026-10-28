@@ -131,7 +131,27 @@ for (const n of graph.nodes) {
 //  2. media and stop share a place and a period; or
 //  3. they share a period and at least one tag; or
 //  4. neither has a usable signature anchor, but spans overlap within the same period.
-const stops: Node[] = STOP_CLASSES.flatMap(pickStops);
+// TB1 launch records (the spread batch the browser actually ships) are always
+// stops, so maps and cards cover them even when they rank below the batch cut.
+const stops: Node[] = (() => {
+  const chosen = STOP_CLASSES.flatMap(pickStops);
+  const have = new Set(chosen.map((n) => n.id));
+  const extra: Node[] = [];
+  try {
+    const ix = JSON.parse(readFileSync(".cache/time-browser/en/index.json", "utf8"));
+    const nodeById = byId;
+    for (const recs of Object.values(ix.topics ?? {}) as { id: string }[][]) {
+      for (const r of recs) {
+        if (!have.has(r.id)) {
+          const n = nodeById.get(r.id);
+          if (n) { have.add(n.id); extra.push(n); }
+        }
+      }
+    }
+  } catch { /* no TB1 output yet */ }
+  if (extra.length) console.log(`+ ${extra.length} TB1 launch stops merged into the media index`);
+  return [...chosen, ...extra];
+})();
 const stopSig = new Map(stops.map((s) => [s.id, signature(s)]));
 const stopIndex = new Map(stops.map((s, i) => [s.id, i]));
 
