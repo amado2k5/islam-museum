@@ -107,3 +107,39 @@ Notes each agent leaves for the others; newest last. Additive only.
 - 2026-10-27 Devin: the missing-file gap flagged for illus-event-battle-of-the-trench is intentional — the file was withdrawn (modern skyline, lane reject) and regeneration is queued in the illustrations pipeline's batch 0; media index is correct. Founder confirmed D12 work is mine for the Time Browser: I will generate local SDXL images for TB stops that have no real image (320 of 321 launch records), reusing scripts/media/illustrate gates + approve.py, outputs to /Volumes/exmicroSD/tb-images/ then R2 per D7/D12; next media batch waits until generation for the current batch is done.
 - 2026-10-27 Claude: earlier names checked for Delhi, Kabul, Lahore, Dhaka, Amman, Mogadishu. Rule adopted: a predecessor settlement, a renaming, a capital date or a legend is not the founding of the modern city, so it is not entered as founded. Those cities stay on their derived period position. Delhi (Tomar, c.736 CE), Dhaka (1608 capital), Amman (Philadelphia, Ptolemy II), Mogadishu (c.720 CE, Wikipedia only) were not entered. Kabul and Lahore have no usable founding date. Devin: the TB1 build reads founded only from the modern city record.
 - 2026-10-27 Claude: TB3 live set. Pages /<lang>/time-browser/ render 10 records (ar, en, ur) from .cache/time-browser/<lang>/live.json, built by scripts/time-browser.ts (now in prebuild). Citation markers removed from stop summaries; Arabic fallback text marked lang="ar". Verified in the browser on the dev server (en, ar, ur). Production: the full site build takes about 50 minutes; the founder runs deploy. Deploy workflow must run tsx scripts/time-browser.ts before the site build, and R2 must receive .cache/time-browser (or the page data it needs). Devin: the live set is 10 records; nothing in your media wiring changes.
+
+## 10. Reference-app parity (TimelineThis → Time Browser)
+
+The original app (prompt PDFs reviewed 2026-10-28): a React+Vite SPA where every view calls Gemini at runtime — fetchCivilizationData (Google-Search-grounded research → structured JSON), per-modal detail text, `findImageOnWeb` (search-grounded stock-photo URLs), `generateMapData` (interactive map JSON), `fetchSceneHotspots` (3D panorama hotspots), `fetchAIHistorianResponse` (freeform Q&A), `topicCategory` classifier; 5-min sessionStorage cache per topic×lang×kids; themes.ts per-civilization CSS-variable themes; localStorage mock login/favorites/shares; URL-hash share restoration (`#/share?civilization=…&event=…`); TourGuide auto-demo; 21 locales; SearchableSelect with animated placeholder; Kids mode; collapsible right sidebar (key characters / major wars / cultural topics / sources / favorites / related links); EventBubble center card revealing Read Details / View on Map / Ask AI on hover; bottom dot timeline with tooltip on hover; full-screen loading spinner; footer disclaimer.
+
+Our parity model (same UX, AI at design time instead of runtime):
+
+| Their runtime feature | Ours (prefetched) | Status |
+|---|---|---|
+| fetchCivilizationData research→JSON | TB1 build records from the curated graph | done |
+| 8–12 event timeline per topic | TB1 batches (50/class spread, D11) | done |
+| EventBubble card + hover buttons | detail panel; buttons → "Read" opens panel prose, "Map" opens prepared SVG map | done (no hover reveal — buttons always visible) |
+| findImageOnWeb stock photos | whitelisted media index + local SDXL illustrations | in progress |
+| generateMapData interactive map | prebuilt SVG cluster maps (M2) | done (static, not POI-clickable) |
+| EventDetailsModal prose | record summary + href to museum page | done |
+| Character/War/Culture modal details | related graph entities → deep links | gap: client doesn't list related entities yet |
+| Kids mode | `kids` field exists in schema | gap: no toggle/field rendering in client |
+| Language selector (21) | ar/en/ur (+ Urdu→Arabic fallback) | done (3 langs by design) |
+| Favorites/shares/mock login | none — no accounts | intentional skip |
+| Share URL `#/share?…` | `#kind/slug` deep links | done (simpler) |
+| Take-a-tour auto demo | none | open — could add scripted tour later |
+| themes.ts per-era theming | class/period colors only | gap: no per-era palette (see below) |
+| Animated search placeholder | static placeholder | trivial add |
+| 3D panorama + hotspots | none | open — could be a later static panorama per era |
+| Ask AI | none — no runtime AI | never |
+| Sources from grounding chunks | `sources[]` from the record | done |
+
+Actions from this comparison (Devin, historynavigator):
+1. Add a Kids-mode toggle in the header (per stop kids text where the record has it, hidden otherwise). Needs TB1 to emit `kids` — currently always `[]`.
+2. Add related-entities sidebar section when TB2 can emit links (key characters/wars/topics from graph edges); until then show `sources[]`.
+3. Consider per-period accent theming (like their per-civilization themes.ts) — cheap, big immersion win.
+4. Animated typing placeholder in the search box — small win, match the feel.
+5. Full-screen loading state for index fetch (they show a spinner overlay).
+6. Panorama/hotspots and guided tour: defer — founder decision needed whether worth the offline cost.
+
+Claude: items 1–2 need record/schema support (kids content, related-entity ids) — noting for TB2 planning.
