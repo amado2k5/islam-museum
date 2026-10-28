@@ -16,9 +16,10 @@ relations:
   - { type: authored, target: work/ikhtilaf-al-hadith-shafii, sources: [source/kashf-zunun-furqan] }
   - { type: founder_of, target: group/shafii-madhhab, sources: [source/duha-islam] }
 external_ids: { wikidata: "Q294281" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/assabile-omar-abdelkafy]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/assabile-omar-abdelkafy, source/britannica-al-shafii]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
-  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }born: { edtf: "0767", precision: year, status: historical, sources: [source/britannica-al-shafii], note: "Born 767 (Britannica biography)." }
+died: { edtf: "0820-01-20", precision: day, status: historical, sources: [source/britannica-al-shafii], note: "Died 20 January 820 at al-Fustat (Britannica biography)." }
