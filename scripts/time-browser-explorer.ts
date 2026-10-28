@@ -7,7 +7,7 @@
 // standard (it cites defined sources), whatever its draft flag; the draft flag is never published.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
-import { existsSync } from 'node:fs'
+import { existsSync, readdirSync } from 'node:fs'
 import { parse } from 'yaml'
 
 type Lang = 'ar' | 'en' | 'ur'
@@ -25,40 +25,16 @@ export interface GNode {
 }
 export interface GEdge { from: string; to: string; type: string; sources?: string[]; inverse?: boolean }
 
-// The launch subjects (§5 Step 2). Each must reach MIN_NODES dated, cited nodes or it does not ship.
-export const SUBJECTS: { id: string; kind: 'person' | 'era' | 'place' }[] = [
-  { id: 'person/salah-al-din-yusuf-ibn-ayyub', kind: 'person' },
-  { id: 'person/al-ghazali-abu-hamid', kind: 'person' },
-  { id: 'person/ibn-khaldun', kind: 'person' },
-  { id: 'person/khadija', kind: 'person' },
-  { id: 'person/umar-ibn-al-khattab', kind: 'person' },
-  { id: 'period/prophetic-era', kind: 'era' },
-  { id: 'period/rashidun', kind: 'era' },
-  { id: 'period/umayyad', kind: 'era' },
-  { id: 'period/abbasid-early', kind: 'era' },
-  { id: 'place/al-andalus', kind: 'place' },
-  { id: 'period/crusades-ayyubid-mamluk', kind: 'era' },
-  { id: 'period/gunpowder-empires', kind: 'era' },
-  { id: 'place/mecca', kind: 'place' },
-  { id: 'place/jerusalem', kind: 'place' },
-  { id: 'place/baghdad', kind: 'place' },
-  { id: 'place/cairo', kind: 'place' },
-  { id: 'place/cordoba', kind: 'place' },
-]
-
-// Journeys (§5 Step 6): staged subjects shown as cards. The founder-confirmed tour stops are the seed; the
-// Qutlugh-Khanids of Kirman are replaced by the Crusades era as a stronger flagship (flagged in the PR).
-export const JOURNEYS = [
-  'period/prophetic-era',
-  'period/rashidun',
-  'period/abbasid-early',
-  'period/crusades-ayyubid-mamluk',
-  'person/salah-al-din-yusuf-ibn-ayyub',
-]
-
-// A region subject also takes the events at these places (curated, because the data has no part_of links for it).
-export const REGION_PLACES: Record<string, string[]> = {
-  'place/al-andalus': ['place/cordoba', 'place/seville', 'place/granada', 'place/tulaytula', 'place/valencia', 'place/malaga', 'place/almeria', 'place/murcia'],
+// Subjects live one per file in scripts/explorer-subjects/<class>-<slug>.json, so several sessions can add stories
+// at the same time without editing a shared list: { "id", "kind": "person" | "era" | "place", "journey"?: true,
+// "regionPlaces"?: [place ids], "owner": "claude" | "devin" }. Each must reach MIN_NODES dated, cited nodes or it
+// does not ship.
+export interface SubjectDef { id: string; kind: 'person' | 'era' | 'place'; journey?: boolean; regionPlaces?: string[]; owner?: string }
+export const SUBJECT_DIR = join(process.cwd(), 'scripts', 'explorer-subjects')
+export function loadSubjectDefs(dir = SUBJECT_DIR): SubjectDef[] {
+  if (!existsSync(dir)) return []
+  return readdirSync(dir).filter((f) => f.endsWith('.json')).sort()
+    .map((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')) as SubjectDef)
 }
 
 export const MIN_NODES = 4
@@ -108,7 +84,7 @@ function ownParticipation(id: string): string[] {
   return (rec.relations ?? []).filter((r) => r.type === 'participated_in').map((r) => r.target)
 }
 
-export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subject[]; skipped: { id: string; reason: string }[] } {
+export function buildSubjects(nodes: GNode[], edges: GEdge[], defs: SubjectDef[] = loadSubjectDefs()): { subjects: Subject[]; skipped: { id: string; reason: string }[] } {
   const byId = new Map(nodes.map((n) => [n.id, n]))
   const degree = new Map<string, number>()
   const placeEdge = new Map<string, string>()
@@ -149,7 +125,7 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subje
     return [...sorted].sort((a, b) => rank(b) - rank(a)).slice(0, MAX_NODES).sort((a, b) => a.span!.earliest - b.span!.earliest || a.id.localeCompare(b.id))
   }
 
-  for (const s of SUBJECTS) {
+  for (const s of defs) {
     const subj = byId.get(s.id)
     if (!subj) { skipped.push({ id: s.id, reason: 'no record' }); continue }
     let events: GNode[] = []
@@ -166,7 +142,7 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subje
       events = nodes.filter((n) => usable(n) && (n.periods ?? []).includes(s.id) &&
         (!span || (n.span!.earliest >= span.earliest - 1 && n.span!.earliest <= span.latest + 1)))
     } else {
-      const targets = new Set([s.id, ...(REGION_PLACES[s.id] ?? [])])
+      const targets = new Set([s.id, ...(s.regionPlaces ?? [])])
       const ids = edges.filter((e) => e.type === 'occurred_at' && targets.has(e.to)).map((e) => e.from)
       events = [...new Set(ids)].map((id) => byId.get(id)).filter(usable)
     }
@@ -205,7 +181,7 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[]): { subjects: Subje
     }
     out.push({
       id: s.id, kind: s.kind, title: subj.label, summary: plain(subj.summary), sources: subj.data?.sources ?? [],
-      journey: JOURNEYS.includes(s.id), nodes: nodesOut, persons, places, sourceLabels,
+      journey: !!s.journey, nodes: nodesOut, persons, places, sourceLabels,
     })
   }
   return { subjects: out, skipped }

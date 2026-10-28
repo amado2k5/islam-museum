@@ -9,6 +9,8 @@ import { ui, fmt, LANGS, type Lang } from "../../../../../lib/i18n";
 import { byId, href } from "../../../../../lib/graph";
 import { subjects, pick, langOf, nodeDate, type Subject } from "../../../../../lib/explorer";
 import { formatCE } from "../../../../../lib/dates";
+import { existsSync } from "node:fs";
+import { repoPath } from "../../../../../lib/paths";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) =>
@@ -35,6 +37,17 @@ const short = (t: string) => {
   if (out.length > 300) out = out.slice(0, out.lastIndexOf(" ", 280)).trim() + "…";
   return out;
 };
+// Pre-rendered images (scripts/time-browser-explorer-gen.py): the node's own Explorer image and its kids version,
+// else Devin's illustration for the same record. Only files that exist are used; nothing is fetched or generated.
+const publicFile = (p: string) => existsSync(repoPath("site", "public", p));
+const imagesOf = (n: Subject["nodes"][number]) => {
+  const slug = n.id.replace(/[/#]/g, "-");
+  const own = `/media/time-browser/explorer/${slug}.webp`;
+  const kids = `/media/time-browser/explorer/${slug}-kids.webp`;
+  const record = `/media/time-browser/images/${n.entity.replace("/", "-")}.webp`;
+  const image = publicFile(own) ? own : n.role === "event" && publicFile(record) ? record : "";
+  return { image, kidsImage: publicFile(kids) ? kids : "" };
+};
 // One payload per node, already in this page's language and date format.
 const nodes = s.nodes.map((n, i) => {
   const d = nodeDate(n.date, lang);
@@ -59,6 +72,8 @@ const nodes = s.nodes.map((n, i) => {
     sources: n.sources.map((id) => ({ id, label: s.sourceLabels[id] ?? id, href: href(lang, id) })),
     place: n.place ? { label: pick(n.place.label, lang), href: href(lang, n.place.id), mapped: !!n.place.coordinates } : null,
     entityHref: href(lang, n.entity),
+    ...imagesOf(n),
+    imageAlt: fmt(B.x_img_alt, { title: pick(n.title, lang) }),
     graphHref: `/${lang}/graph/?from=${encodeURIComponent(n.entity)}`,
   };
 });
@@ -76,6 +91,7 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
   <div class={`tbx tbx-${s.kind}`} data-explorer>
     <div class="tbx-main">
       <section class="tbx-stage" aria-live="polite">
+        <div class="tbx-photo" data-photo aria-hidden="true" style={first.image ? `background-image:url(${first.image})` : undefined}></div>
         <div class="tbx-backdrop" aria-hidden="true"></div>
         <p class="tbx-top"><a href={`/${lang}/time-browser/`}>{B.x_name}</a> · <span>{subjectTitle}</span> · <span data-station>{first.station}</span></p>
         <article class="tbx-bubble">
@@ -151,6 +167,7 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
 
   <dialog class="tbx-dialog" data-dialog="details" aria-labelledby="tbx-d-title">
     <form method="dialog"><button class="tbx-close" aria-label={B.x_close}>×</button></form>
+    <img class="tbx-d-img" data-d-img src={first.image || undefined} alt={first.imageAlt} hidden={!first.image} loading="lazy" width="1024" height="640" />
     <h2 id="tbx-d-title" data-d-title lang={first.titleLang}>{first.title}</h2>
     <p data-d-date>{first.date}</p>
     <p data-d-summary lang={first.summaryLang}>{first.summary}</p>
@@ -189,7 +206,9 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
   .tbx-place { --x-accent: #5b8fd6; }
   .tbx-main { display: grid; grid-template-rows: 1fr auto; min-width: 0; }
   .tbx-stage { position: relative; display: grid; grid-template-rows: auto 1fr; justify-items: center; align-items: center; gap: 12px; padding: 12px 16px 24px; overflow: hidden; }
-  .tbx-backdrop { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 35%, color-mix(in srgb, var(--x-accent) 28%, transparent), transparent 70%); transition: opacity .4s; }
+  .tbx-photo { position: absolute; inset: 0; background-size: cover; background-position: center; transition: opacity .5s ease, background-image .5s ease; }
+  .tbx-backdrop { position: absolute; inset: 0; background: linear-gradient(to bottom, color-mix(in srgb, var(--bg, #0b1220) 55%, transparent), color-mix(in srgb, var(--bg, #0b1220) 78%, transparent)), radial-gradient(ellipse at 50% 35%, color-mix(in srgb, var(--x-accent) 22%, transparent), transparent 70%); }
+  .tbx-d-img { display: block; width: 100%; height: auto; border-radius: 10px; margin-block-end: 10px; }
   .tbx-top { position: relative; justify-self: stretch; margin: 0; font-size: .9rem; opacity: .85; }
   .tbx-bubble { position: relative; max-width: 720px; width: 100%; padding: 24px; border: 1px solid color-mix(in srgb, var(--x-accent) 55%, transparent); border-radius: 16px; background: color-mix(in srgb, var(--bg, #0b1220) 82%, transparent); text-align: center; }
   .tbx-title { font-size: clamp(1.6rem, 3.6vw, 2.6rem); margin: 0 0 8px; color: var(--x-accent); }
@@ -224,7 +243,7 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
     .tbx-nodes { grid-column: 1 / -1; order: -1; }
     .tbx-rail { border-inline-start: 0; border-block-start: 1px solid color-mix(in srgb, var(--x-accent) 30%, transparent); max-height: none; }
   }
-  @media (prefers-reduced-motion: reduce) { .tbx-backdrop, .tbx-nodes { transition: none; scroll-behavior: auto; } }
+  @media (prefers-reduced-motion: reduce) { .tbx-photo, .tbx-nodes { transition: none; scroll-behavior: auto; } }
 </style>
 
 <script>
@@ -276,6 +295,15 @@ const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
       const q = encodeURIComponent(`${data.subjectTitle} ${n.title}`);
       const yt = $<HTMLAnchorElement>("[data-yt]"); if (yt) yt.href = "https://www.youtube.com/results?search_query=" + q;
       const wp = $<HTMLAnchorElement>("[data-wp]"); if (wp) wp.href = wp.href.split("search=")[0] + "search=" + q;
+      const photo = $<HTMLElement>("[data-photo]");
+      const src = (kids?.checked && n.kidsImage) || n.image;
+      if (photo) photo.style.backgroundImage = src ? `url(${src})` : "";
+      const dimg = $<HTMLImageElement>("[data-d-img]");
+      if (dimg) { dimg.hidden = !n.image; if (n.image) { dimg.src = n.image; dimg.alt = n.imageAlt; } }
+      for (const k of [current - 1, current + 1]) {
+        const m = nodes[k];
+        if (m) for (const p of [m.image, m.kidsImage]) if (p) { const pre = new Image(); pre.src = p; }
+      }
       setText("[data-d-title]", n.title, n.titleLang);
       setText("[data-d-date]", n.date);
       setText("[data-d-summary]", n.summary, n.summaryLang);
