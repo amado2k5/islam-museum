@@ -1,0 +1,24 @@
+id: event/hunayn-translation-circle-835
+class: event
+kind: gathering
+label: { ar: "حلقة حنين بن إسحاق للترجمة", en: "Ḥunayn ibn Isḥāq's translation circle" }
+summary:
+  ar: "قام حنين بن إسحاق ومن داره من التراجمة بأعظم حركة نقل عن اليونانية إلى العربية في عهد المأمون ومن بعده، حتى صار بيت الحكمة بهم رأس حركة الترجمة {cite:fihrist-ibn-al-nadim}."
+  en: "Ḥunayn ibn Isḥāq and the translators of his circle carried through the greatest rendering of Greek books into Arabic under al-Maʾmūn and after him, making the Bayt al-Ḥikma the head of the translation movement {cite:fihrist-ibn-al-nadim}."
+  ur: "حنین ابن اسحاق اور اس کے حلقے کے مترجمین نے مامون اور اس کے بعد کے عہد میں یونانی سے عربی ترجمے کی سب سے بڑی تحریک چلائی اور بیت الحکمہ اس تحریک کا مرکز بنا {cite:fihrist-ibn-al-nadim}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0835~", precision: year, status: tradition, derived: true, note: "Ḥunayn's floruit under al-Ma'mun and al-Mu'tasim; year approximate" }
+  end: { edtf: "0835~", precision: year, status: tradition, derived: true, note: "Ḥunayn's floruit under al-Ma'mun and al-Mu'tasim; year approximate" }
+relations:
+  - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/fihrist-ibn-al-nadim] }
+  - { type: had_participant, target: person/hunayn-ibn-ishaq, role: "شيخ المترجمين", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer House of Wisdom story from the cited sources"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-bayt-al-hikma
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

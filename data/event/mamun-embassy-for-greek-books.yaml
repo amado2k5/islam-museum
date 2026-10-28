@@ -1,0 +1,26 @@
+id: event/mamun-embassy-for-greek-books
+class: event
+kind: other
+label: { ar: "بعثة المأمون في طلب كتب اليونان", en: "Al-Ma'mun's embassy for the Greek books" }
+summary:
+  ar: "راسل المأمون ملك الروم يستأذنه في إنفاذ ما يختار من العلوم القديمة، فأخرج في طلبها الحجاج بن مطر وابن البطريق وسلماً صاحب بيت الحكمة {cite:duha-islam p. 426-427} {cite:fihrist-ibn-al-nadim}."
+  en: "Al-Maʾmūn wrote to the Byzantine king for leave to fetch the ancient sciences stored in his lands, and sent out for them al-Ḥajjāj ibn Maṭar, Ibn al-Biṭrīq and Salm, master of the Bayt al-Ḥikma {cite:duha-islam p. 426-427} {cite:fihrist-ibn-al-nadim}."
+  ur: "مامون نے بازنطینی بادشاہ سے قدیم علوم کی کتابیں لینے کی اجازت چاہی اور حجاج ابن مطر، ابن البطریق اور بیت الحکمہ کے سردار سلم کو بھیجا {cite:duha-islam p. 426-427} {cite:fihrist-ibn-al-nadim}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0820~", precision: year, status: tradition, derived: true, note: "within al-Ma'mun's caliphate (813-833); year approximate" }
+  end: { edtf: "0820~", precision: year, status: tradition, derived: true, note: "within al-Ma'mun's caliphate (813-833); year approximate" }
+relations:
+  - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/duha-islam] }
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/duha-islam] }
+  - { type: had_participant, target: person/al-hajjaj-ibn-matar, role: "المبعوث", sources: [source/duha-islam] }
+  - { type: had_participant, target: person/salm-sahib-bayt-al-hikma, role: "صاحب بيت الحكمة", sources: [source/duha-islam] }
+sources: [source/duha-islam, source/fihrist-ibn-al-nadim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer House of Wisdom story from the cited sources"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-bayt-al-hikma
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
