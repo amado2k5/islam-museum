@@ -41,7 +41,10 @@ export interface Record_ {
   href: string
   sources: string[]
   draft: boolean
-  kids: string[]
+  // Kids text for ages 6-12, prepared at design time (DESIGN decision 13); null when the record has none.
+  kids: Partial<Record<'ar' | 'en' | 'ur', string>> | null
+  // Ids of other stops this record is linked to in the graph (only stops in the same language set).
+  related: string[]
 }
 
 // Sorted by earliest year, then id. Contested records (with perspectives) are
@@ -99,7 +102,8 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
       href: '',
       sources: n.data!.sources!,
       draft: n.data?.status?.review !== 'published',
-      kids: [],
+      kids: (n.data as { kids?: Partial<Record<'ar' | 'en' | 'ur', string>> } | undefined)?.kids ?? null,
+      related: [],
     }
   })
 }
@@ -108,22 +112,21 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
 // over the whole timeline (founder request: go live with a small set first).
 export const LIVE_TOTAL = 10
 
-// Tour stops (DESIGN decision 14): six stops from the live set, in timeline order.
+// Tour stops (DESIGN decision 14): prepared stops spread across the timeline, present in every language.
 // The tour reads only these records and never searches.
 export const TOUR_IDS = [
-  'polity/achaemenid-empire',
-  'concept/labba-fiqh',
-  'polity/ghaznavid-empire',
-  'event/salah-al-din-mosul-581',
-  'event/battle-of-ohrid-1464',
-  'event/battle-of-akhaltsikhe-1853',
+  'event/ibrahim-visits-ismail-in-mecca',
+  'period/rashidun',
+  'period/abbasid-fragmentation',
+  'polity/qutlughkhanid-kirman',
+  'period/contemporary-era',
 ]
 
-export function tourSubset(live: Record_[]): Record_[] {
-  const byId = new Map(live.map((r) => [r.id, r]))
+export function tourSubset(records: Record_[]): Record_[] {
+  const byId = new Map(records.map((r) => [r.id, r]))
   return TOUR_IDS.map((id) => {
     const r = byId.get(id)
-    if (!r) throw new Error(`time-browser: tour stop ${id} is not in the live set`)
+    if (!r) throw new Error(`time-browser: tour stop ${id} is not a prepared stop`)
     return r
   })
 }
@@ -151,12 +154,23 @@ export function writeAll(graphPath: string, outDir: string): number {
       writeFileSync(join(dir, `${t}.json`), JSON.stringify(recs))
       files++
     }
+    // Related stops: graph edges whose other end is also a stop in this language.
+    const members = new Set(Object.values(topics).flat().map((r) => r.id))
+    const linked = new Map<string, Set<string>>()
+    for (const e of graph.edges ?? []) {
+      if (!members.has(e.from) || !members.has(e.to) || e.from === e.to) continue
+      if (!linked.has(e.from)) linked.set(e.from, new Set())
+      if (!linked.has(e.to)) linked.set(e.to, new Set())
+      linked.get(e.from)!.add(e.to)
+      linked.get(e.to)!.add(e.from)
+    }
+    for (const recs of Object.values(topics)) for (const r of recs) r.related = [...(linked.get(r.id) ?? [])].sort()
     writeFileSync(join(dir, 'index.json'), JSON.stringify({ base: TIME_BROWSER_BASE, topics }))
     // Every record id for this language, so entity pages can link to their stop.
     writeFileSync(join(dir, 'members.json'), JSON.stringify(Object.values(topics).flat().map((r) => r.id)))
     const live = liveSubset(topics)
     writeFileSync(join(dir, 'live.json'), JSON.stringify(live))
-    writeFileSync(join(dir, 'tour.json'), JSON.stringify(tourSubset(live)))
+    writeFileSync(join(dir, 'tour.json'), JSON.stringify(tourSubset(Object.values(topics).flat())))
     files++
   }
   return files

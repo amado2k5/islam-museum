@@ -47,12 +47,20 @@ describe('time-browser records', () => {
       for (const r of recs) expect(r.sources.length).toBeGreaterThan(0)
     })
 
-    it(`${topic}: kids exclude contested records`, () => {
+    it(`${topic}: related stops exclude contested records and self`, () => {
       const contested = new Set(
         graph.nodes.filter((n) => n.data?.perspectives).map((n) => n.id),
       )
       for (const r of recs) {
-        for (const k of r.kids) expect(contested.has(k)).toBe(false)
+        expect(r.related).not.toContain(r.id)
+        for (const k of r.related) expect(contested.has(k)).toBe(false)
+      }
+    })
+
+    it(`${topic}: kids text is null or has non-empty strings`, () => {
+      for (const r of recs) {
+        if (r.kids === null) continue
+        for (const v of Object.values(r.kids)) expect(v?.length ?? 0).toBeGreaterThan(0)
       }
     })
 
