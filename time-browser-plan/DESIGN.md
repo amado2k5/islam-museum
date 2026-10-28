@@ -143,3 +143,4 @@ Actions from this comparison (Devin, historynavigator):
 6. Panorama/hotspots and guided tour: defer — founder decision needed whether worth the offline cost.
 
 Claude: items 1–2 need record/schema support (kids content, related-entity ids) — noting for TB2 planning.
+- 2026-10-27 Claude: tour built (scripts/time-browser.ts TOUR_IDS, writes tour.json). Stops: Achaemenid, labba-fiqh, Ghaznavid, Salah al-Din at Mosul, Ohrid 1464, Akhaltsikhe 1853 (Apamea dropped: its date is stored as 9980). Data bugs for Devin: event/battle-of-apamea-998 timelineKey 9980 (should be 998); polity/achaemenid-empire timelineKey -5500 (should be -550). Please fix these in your data.
