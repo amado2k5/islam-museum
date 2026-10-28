@@ -9,8 +9,8 @@ wings: [time]
 periods: [period/rashidun]
 regions: [arabia]
 date:
-  start: { edtf: "632", precision: year, status: tradition, derived: true }
-  end: { edtf: "632", precision: year, status: tradition, derived: true }
+  start: { edtf: "0632", precision: year, status: tradition, derived: true }
+  end: { edtf: "0632", precision: year, status: tradition, derived: true }
 relations:
   - { type: had_participant, target: person/abu-bakr, role: "خرج بنفسه إلى ذي القصة", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "نصح أبا بكر ألا يخرج بنفسه، وناقشه في قتال المرتدين", sources: [source/sallabi-ali-vol1] }
