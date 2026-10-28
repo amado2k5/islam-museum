@@ -1,0 +1,24 @@
+id: event/aurangzeb-coronation-delhi-1659
+class: event
+kind: other
+label: { ar: "تتويج أورنكزيب بدلهي", en: "Coronation of Aurangzeb at Delhi" }
+summary:
+  ar: "توّج أورنكزيب نفسه سلطاناً على المغول بدلهي سنة 1659م بعد صراع العرش مع إخوته {cite:tarikh-islam-hasan-ibrahim}."
+  en: "Aurangzeb crowned himself Mughal emperor at Delhi in 1659, after the war of succession against his brothers {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "اپنے بھائیوں کے خلاف جانشینی کی جنگ کے بعد اورنگزیب نے 1659ء میں دہلی میں خود کو مغل بادشاہ قرار دیا {cite:tarikh-islam-hasan-ibrahim}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1659", precision: year, status: tradition, derived: true }
+  end: { edtf: "1659", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: had_participant, target: person/aurangzeb-mughal, role: "السلطان المتوج", sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mughal Delhi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mughal-delhi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

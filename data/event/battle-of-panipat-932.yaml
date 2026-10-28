@@ -3,8 +3,12 @@ class: event
 kind: battle
 label: { ar: "معركة باني بت الأولى", en: "First Battle of Panipat" }
 summary:
-  ar: "بطاقة أولية لمعركة باني بت الأولى سنة ٩٣٢هـ/١٥٢٦م، فتح بابر المغولي بها الطريق إلى دلهي بعد هزيمة سلطان اللودي إبراهيم؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the First Battle of Panipat in 932/1526, Babur's victory over Sultan Ibrahim Lodi that opened the road to Delhi and founded Mughal rule; its sources are not yet checked on the page."
+  ar: "هزم السلطان ظهير الدين بابر سلطان دلهي إبراهيم اللودي عند باني بت سنة 932هـ/1526م، ففتح الطريق إلى دلهي وقامت الدولة المغولية في الهند {cite:akbarnama}."
+  en: "At Panipat in 932/1526 Sultan Zahir al-Din Babur broke Ibrahim Lodi, sultan of Delhi, opening the road to Delhi and founding Mughal rule in India {cite:akbarnama}."
+  ur: "پانی پت میں 932ھ/1526ء میں سلطان ظہیر الدین بابر نے دلی کے سلطان ابراہیم لودی کو شکست دی، دہلی کا راستہ کھلا اور ہندوستان میں مغل راج قائم ہوا {cite:akbarnama}."
+relations:
+  - { type: occurred_at, target: place/panipat, sources: [source/akbarnama] }
+  - { type: had_participant, target: person/babur-mughal, role: "الغازي الفاتح", sources: [source/akbarnama] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [south-asia]
