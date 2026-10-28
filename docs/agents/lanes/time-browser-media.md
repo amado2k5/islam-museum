@@ -94,3 +94,6 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   requests, kids+related fields, one image-screen pass pending) and
   verification commands. Batch 1000 merged: 7,856 stops, 1,368 cards,
   14 clusters, 320 tbgen wired.
+- 2026-10-28 — SDXL round 2 launched: 320 jobs (161 launch-set cards
+  first, then a class spread), output to tb/ as before; register on the
+  next time-browser-media.ts regen.
