@@ -1,0 +1,24 @@
+id: event/al-hakam-ii-expands-cordoba-mosque
+class: event
+kind: founding
+label: { ar: "الحكم الثاني يوسع جامع قرطبة ويجمل محرابه", en: "Al-Hakam II's expansion and mihrab" }
+summary:
+  ar: "وسّع الحكم المستنصر جامع قرطبة زيادته المشهورة (961–976م) وأبدع محرابه ومقصورته بقباب متشابكة الأعصاب وفسيفساء أرسل بها ملك الروم {cite:nafh-tib-maqqari}."
+  en: "Al-Hakam al-Mustansir made the mosque's celebrated enlargement (961–976), perfecting the mihrab and maqsura with interlaced ribbed domes and mosaic sent by the Byzantine king {cite:nafh-tib-maqqari}."
+  ur: "حكم المستنصر نے مسجد کی مشہور توسیع کی (961–976ء) اور محراب و مقصورہ کو متشابک پنجر گنبدوں اور بازنطینی بادشاہ کے بھیجے فسائی سے آراستہ کیا {cite:nafh-tib-maqqari}."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0961", precision: year, status: tradition, derived: true, note: "expansion begun 961 per the standard accounts in al-Maqqari" }
+  end: { edtf: "0961", precision: year, status: tradition, derived: true, note: "expansion begun 961 per the standard accounts in al-Maqqari" }
+relations:
+  - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/al-mustansir-hakam, role: "الموسع", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Great Mosque of Cordoba story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-cordoba-mosque
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

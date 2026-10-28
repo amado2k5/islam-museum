@@ -1,0 +1,24 @@
+id: event/abd-al-rahman-i-founds-cordoba-mosque
+class: event
+kind: founding
+label: { ar: "عبد الرحمن الداخل يؤسس جامع قرطبة", en: "Abd al-Rahman I founds the Great Mosque" }
+summary:
+  ar: "شرع عبد الرحمن الداخل في بناء جامع قرطبة سنة 169هـ/785م على موضع كنيسة قديمة اشترى نصيب النصارى منها، وأتمه في زمان قصير {cite:nafh-tib-maqqari}."
+  en: "Abd al-Rahman al-Dakhil began the Great Mosque of Cordoba in 169/785 on the site of the old church whose Christian share he had purchased, completing it quickly {cite:nafh-tib-maqqari}."
+  ur: "عبد الرحمن الداخل نے 169ھ/785ء میں قرطبة کی جامع مسجد کی بنیاد رکھی، اس مقام پر جہاں پرانی گرجا کا مسیحی حصہ اس نے خریدا تھا، اور جلد مکمل کی {cite:nafh-tib-maqqari}."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0785", hijri: "0169", calendar: julian, precision: year, status: tradition, derived: true, note: "169هـ per al-Maqqari; CE conversion derived" }
+  end: { edtf: "0785", hijri: "0169", calendar: julian, precision: year, status: tradition, derived: true, note: "169هـ per al-Maqqari; CE conversion derived" }
+relations:
+  - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abd-al-rahman-al-dakhil, role: "المؤسس", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Great Mosque of Cordoba story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-cordoba-mosque
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

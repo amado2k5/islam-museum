@@ -1,0 +1,23 @@
+id: event/al-mansur-eastern-expansion-cordoba
+class: event
+kind: founding
+label: { ar: "زيادة المنصور الشرقية في جامع قرطبة", en: "Al-Mansur's eastern expansion" }
+summary:
+  ar: "زاد الحاجب المنصور بن أبي عامر في جامع قرطبة زيادته الشرقية الكبرى سنة 987م تقريباً، فتمت بهندسة المسجد على صورتها المعروفة {cite:nafh-tib-maqqari}."
+  en: "The hajib al-Mansur ibn Abi Amir added the great eastern enlargement to the mosque about 987, completing the plan the mosque has kept {cite:nafh-tib-maqqari}."
+  ur: "حاجب منصور ابن ابی عامر نے تقریباً 987ء میں مسجد کی عظیم مشرقی توسیع کی جس سے مسجد کی موجودہ صورت مکمل ہوئی {cite:nafh-tib-maqqari}."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0987~", precision: year, status: tradition, derived: true }
+  end: { edtf: "0987~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Great Mosque of Cordoba story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-cordoba-mosque
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
