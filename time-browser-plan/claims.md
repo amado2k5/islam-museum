@@ -47,3 +47,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | person/ibn-al-haytham | devin | done — 4 nodes (extra)
 2026-10-28 | person/umar-khayyam | devin | done — 4 nodes (extra)
 2026-10-28 | person/mansa-musa | devin | done — 5 nodes (extra)
+2026-10-28 | person/ibn-battuta-muhammad | claude | blocked: record has 2 dated nodes (birth, death); needs 2 cited journey events from source/rihla-ibn-battuta-1958, whose OCR on the drive covers only 9 of 257 pages (jaloute2003), so page numbers cannot be verified; moved to next story
