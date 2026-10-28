@@ -1,0 +1,43 @@
+---
+// Time Browser (TB3): the static list of the live set, readable without JavaScript.
+// The records come from `tsx scripts/time-browser.ts` (live.json). A missing file fails the build.
+import { readFileSync } from "node:fs";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { repoPath } from "../../../lib/paths";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const B = T.time_browser;
+const records = JSON.parse(
+  readFileSync(repoPath(".cache", "time-browser", lang, "live.json"), "utf8"),
+) as {
+  id: string; kind: string; date: string; derived: boolean; draft: boolean; timelineKey: number;
+  title: Record<string, string>; summary: Record<string, string>; sources: string[];
+}[];
+// Text without a translation falls back to Arabic, and is marked lang="ar" (DESIGN §3).
+const pick = (x: Record<string, string>) => x[lang] ?? x.ar;
+const langOf = (x: Record<string, string>) => (x[lang] ? lang : "ar");
+---
+<BaseLayout lang={lang} title={B.title} description={B.lede} path={`/${lang}/time-browser/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <h1>{B.title}</h1>
+    <p style="font-size:1.25rem;max-width:var(--measure)">{B.lede}</p>
+    <p style="max-width:var(--measure)">{B.live_note}</p>
+    <ol style="list-style:none;padding:0;display:grid;gap:16px">
+      {records.map((r) => (
+        <li style="border-block-start:1px solid var(--line, #ccc);padding-block-start:12px">
+          <p style="margin:0">
+            <span>{B.kinds[r.kind as keyof typeof B.kinds] ?? r.kind}</span>
+            {r.draft && <span style="margin-inline-start:8px;font-weight:600">{B.draft}</span>}
+          </p>
+          <h2 style="margin:4px 0" lang={langOf(r.title)}>{pick(r.title)}</h2>
+          <p style="margin:0"><strong>{B.date_label}:</strong> {r.date || "—"}{r.derived && <span> ({B.derived_label})</span>}</p>
+          <p style="max-width:var(--measure)" lang={langOf(r.summary)}>{pick(r.summary)}</p>
+          <p style="margin:0;font-size:0.9rem"><strong>{B.sources_label}:</strong> {r.sources.join(", ")}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</BaseLayout>

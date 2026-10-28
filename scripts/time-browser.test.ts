@@ -33,6 +33,10 @@ describe('time-browser records', () => {
       }
     })
 
+    it(`${topic}: no citation markers in summaries`, () => {
+      for (const r of recs) for (const v of Object.values(r.summary)) expect(v).not.toMatch(/\{cite:/)
+    })
+
     it(`${topic}: sorted by timelineKey`, () => {
       for (let i = 1; i < recs.length; i++) {
         expect(recs[i].timelineKey).toBeGreaterThanOrEqual(recs[i - 1].timelineKey)

@@ -84,8 +84,10 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
     .sort((a, b) => (a.pos.earliest - b.pos.earliest) || a.n.id.localeCompare(b.n.id))
   const records = spreadAcrossTime(pool, LAUNCH_PER_TOPIC)
   return records.map(({ n, pos }) => {
-    const summary: Record<string, string> = { ar: n.summary.ar ?? '', en: n.summary.en ?? '' }
-    if (n.summary.ur) summary.ur = n.summary.ur
+    // Citation markers ({cite:...}) belong to the entity page, not to the stop card.
+    const plain = (x: string) => x.replace(/\{cite:[^}]*\}/g, '').replace(/\s+/g, ' ').trim()
+    const summary: Record<string, string> = { ar: plain(n.summary.ar ?? ''), en: plain(n.summary.en ?? '') }
+    if (n.summary.ur) summary.ur = plain(n.summary.ur)
     return {
       id: n.id,
       kind: topic,
@@ -100,6 +102,15 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
       kids: [],
     }
   })
+}
+
+// Production launch set: this many records in total across every type, spread
+// over the whole timeline (founder request: go live with a small set first).
+export const LIVE_TOTAL = 10
+
+export function liveSubset(topics: Record<string, Record_[]>): Record_[] {
+  const all = Object.values(topics).flat().sort((a, b) => (a.timelineKey - b.timelineKey) || a.id.localeCompare(b.id))
+  return spreadAcrossTime(all, LIVE_TOTAL)
 }
 
 export function writeAll(graphPath: string, outDir: string): number {
@@ -121,6 +132,7 @@ export function writeAll(graphPath: string, outDir: string): number {
       files++
     }
     writeFileSync(join(dir, 'index.json'), JSON.stringify({ base: TIME_BROWSER_BASE, topics }))
+    writeFileSync(join(dir, 'live.json'), JSON.stringify(liveSubset(topics)))
     files++
   }
   return files
