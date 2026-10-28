@@ -75,3 +75,5 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
 - 2026-10-28 — "add 50 more" (batch 450): 4,541 stops. Index now auto-registers
   committed SDXL webp (media/tbgen-*): 149 wired so far — match rate 14%
   (649 image / 3,989 card), 15+ clusters, cards regenerated.
+- 2026-10-28 — batch 450 merged (PR #2430). Resume runbook written to
+  DESIGN.md section 11 for session restarts.
