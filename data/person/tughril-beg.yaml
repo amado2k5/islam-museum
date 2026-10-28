@@ -12,6 +12,7 @@ roles: [ruler, military]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia, levant-iraq]
+born: { edtf: "0993~", precision: year, status: tradition, derived: true, note: "born about 993 per the standard accounts", sources: [source/tarikh-islam-hasan-ibrahim] }
 died: { edtf: "1063~", hijri: "0455~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بالري بعد زواجه بابنة القائم سنة 455هـ {cite:shadharat-dhahab p. 303}", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
@@ -20,5 +21,9 @@ provenance:
   run: lib-shadharat-batch-20
 external_ids:
   wikidata: Q144565
-sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
+relations:
+  - { type: participated_in, target: event/battle-of-dandanqan-1040, role: "القائد الغالب", sources: [source/kamil-ibn-al-athir] }
+  - { type: participated_in, target: event/tughril-enters-baghdad-1055, role: "السلطان الداخل", sources: [source/kamil-ibn-al-athir] }
+  - { type: participated_in, target: event/battle-of-ray-1059, role: "السلطان الغالب", sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tarikh-islam-hasan-ibrahim]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

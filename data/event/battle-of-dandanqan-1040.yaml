@@ -1,0 +1,25 @@
+id: event/battle-of-dandanqan-1040
+class: event
+kind: battle
+label: { ar: "معركة دندانقان (١٠٤٠)", en: "Battle of Dandanqan (1040)" }
+summary:
+  ar: "هزم طغرل بك وأخوه چغري بك جيش السلطان مسعود الغزنوي عند دندانقان قرب مرو سنة 1040م، ففتحت السلاجقة بهذا النصر خراسان وقامت دولتهم {cite:kamil-ibn-al-athir}."
+  en: "Tughril Beg and his brother Chaghri Beg broke Sultan Masʿud of Ghazna's army at Dandanqan near Merv in 1040 — the victory that won the Seljuks Khurasan and founded their state {cite:kamil-ibn-al-athir}."
+  ur: "طغرل بیگ اور اس کے بھائی چغری بیگ نے 1040ء میں مرو کے قریب دندانقان میں سلطان مسعود غزنوی کی فوج کو شکست دی — اس فتح سے سلجوقوں نے خراسان فتح کیا اور ان کی ریاست قائم ہوئی {cite:kamil-ibn-al-athir}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1040", precision: year, status: tradition, derived: true }
+  end: { edtf: "1040", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/merv, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/tughril-beg, role: "القائد الغالب", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/chaghri-beg, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Seljuks story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-seljuks
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

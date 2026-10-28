@@ -5,6 +5,9 @@ label: { ar: "معركة الري (١٠٥٩)", en: "Battle of Ray (1059)" }
 summary:
   ar: "بطاقة أولية لمعركة الري (١٠٥٩)؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Battle of Ray (1059); its sources are not yet checked on the page."
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: had_participant, target: person/tughril-beg, role: "السلطان الغالب", sources: [source/tarikh-islam-hasan-ibrahim] }
 wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
