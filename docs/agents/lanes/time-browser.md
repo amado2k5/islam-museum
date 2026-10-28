@@ -62,33 +62,35 @@ Append one line per merged PR, newest last:
 - 2026-10-27 TB0 started: design confirmed on origin/main; counts measured; Pages vs R2 open for the founder.
 - 2026-10-27 TB0 merged (PR #2382): lane doc with prose counts; DESIGN §9 notes for Devin. Next: TB1, blocked on Pages vs R2 (DESIGN §8).
 
-## Comparison with TimelineThis (observed 27 Oct 2026)
+## Revision after the TimelineThis review (27 Oct 2026)
 
-Observed in Chrome on timelinethis.ai.studio (pre-loaded Ancient Egypt, all seven stops, Kids switch on). Our plan keeps the layout and drops the runtime AI.
+Source: the two original TimelineThis specifications, the live builds, the two demo videos, and the Muse analysis. We keep the stage (topic-first entry, a bottom strip, a central card, a sidebar of people, conflicts and culture, per-era theme). We drop the runtime generator, and we fix the UX faults found in the review.
 
-**Keep**
-- A strip of stops with a next arrow, a card with title, date and one line, and a side panel with key people, wars and cultural topics.
-- A "Read Details" pop-up for the longer text.
-- A Kids switch.
+**Hard rules (unchanged, restated)**
+- No runtime AI: no model call, no AI prompt box, no "Ask AI", no AI chat in the UI, no generated images. The Time Browser only reads prepared records.
+- Search covers prepared records only. Anything else shows "not in the Time Browser yet", and never a raw error.
 
-**Change**
-- Detail prose is generic on TimelineThis ("historical shifts took place…"). Ours is written and cited at design time, with sources on every record.
-- The detail picture is a dark gradient with the label "HISTORICAL ARCHIVES". Ours is a licensed image, a generated card, or no image. Never a placeholder.
-- Stops are unlabelled dots. Ours show the date under each stop, and the stop order follows the dates.
-- Tutankhamun (1323 BCE) comes after Kadesh (1274 BCE) on their strip. Ours sorts by date and checks the order in tests.
-- Kids mode changed only the switch, not the card text. Ours needs its own simpler prose, checked against the same record.
+**Changes to the design**
+1. **Topic-first entry, prepared data.** The header search lists prepared records and era shortcuts. Unknown topics get the "not in the Time Browser yet" message, with links to the normal site search.
+2. **Visible timeline labels.** Every stop shows its date under its dot. Hover and keyboard focus show the title. A stop that has no date is never shown on the strip.
+3. **No hover-only actions.** Read details, Map and Sources are always visible buttons, and work on touch.
+4. **Details must add information.** A detail view shows the cited prose for that record. The card summary is never repeated verbatim as the detail. A test fails the build if a record's detail repeats its summary.
+5. **Kids mode is a separate prepared dataset**, not a toggle over the same text. Each record that has a kids version has its own short prose (ages 6–12), checked by the same citation rule. A record without a kids version shows the adult text with a visible note, and the toggle never looks like it changed nothing.
+6. **Sharing encodes the view.** Each stop has a URL (`/<lang>/time-browser/<kind>/<slug>/`) that opens that exact stop. Share copies that URL, never the root.
+7. **No sign-in.** The Time Browser has no login, no mock accounts and no localStorage identity. Favorites and history are out of scope for TB4 and TB5.
+8. **Clear, user-facing errors only.** Missing images, maps or data show a short sentence in the user's language. No developer or API text reaches the page.
+9. **Every link works.** Contact is a real mailto link (ahamdy@gmail.com, per the footer spec), and the logo links to the home page. No dead controls.
+10. **Images are licensed or generated cards** (decision 12). Where a stop has neither, it shows the period-coloured card, never a placeholder that implies a picture.
+11. **Chronology is checked.** Stops on the strip are sorted by date, and a test fails if the order breaks (as in TB1).
+12. **Tour.** A "Take a tour" button is in TB5: it steps through a fixed list of prepared stops with captions. It makes no searches.
 
-**Leave out**
-- "Ask AI" and anything that calls a model in the browser.
-- Search for new topics. Only prepared records are searchable; anything else shows "not in the Time Browser yet".
+**Changes to the phases**
+- **TB4 (interactive):** items 2, 3, 6 and 8 are required. Keyboard: arrows, Home and End, Enter, Escape. Reduced motion respected. Labels visible at all sizes.
+- **TB5 (entry points):** item 12 (tour) and item 9 (links) are required. The "What we offer" page describes what the Time Browser does and does not do (no AI at runtime).
+- **Not in any phase:** runtime AI, AI image generation in the browser, AI Q&A, login, code obfuscation, rate limits and bot blocking (these only apply to live API calls, and the site is static).
 
-**Observed failures**
-- Searching "Al Ghazali" shows: a valid Gemini API key should be set in deployment settings. Ours has no runtime search of that kind.
-- "View on Map" for Cleopatra VII showed "Could not load the details. Please try again."
+**Existing code (TB1–TB3).** Checked against this revision: no AI UI exists, and the TB3 page is static with no login. Two additions are needed in TB4: visible labels on the strip (item 2) and per-stop URLs (item 6). The TB1 test for chronological order already covers item 11.
 
-**Actions**
-1. Keep the stop strip, card, detail pop-up and Kids switch in TB4.
-2. Date every stop on the strip, and fail the build when the order breaks.
-3. Prepare detail prose and cited sources at design time, and mark the picture source for each record.
-4. Map views come from prepared SVG maps, not from a request at view time.
-5. Test Kids mode with its own prepared prose, not the same text.
+**Open questions for the founder**
+- Kids prose: how many records get a kids version in the launch set?
+- Tour: which 5–7 stops should it step through?
