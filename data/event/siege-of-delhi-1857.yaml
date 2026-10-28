@@ -3,8 +3,12 @@ class: event
 kind: siege
 label: { ar: "حصار دلهي (١٨٥٧)", en: "Siege of Delhi" }
 summary:
-  ar: "بطاقة أولية لحصار دلهي سنة ١٨٥٧م، استرداد البريطانيين للمدينة من الثائرين ونهاية آخر سلاطين المغول؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Delhi in 1857, the British recapture of the city from the rebels and the last Mughal's fall; its sources are not yet checked on the page."
+  ar: "في ثورة 1857م سيطر الثوار على دلهي وأعلنوا بهادر شاه ظفر سلطاناً، فحاصر الإنجليز المدينة شهوراً ثم اقتحموها، وكان ذلك آخر عهد دلهي بالحكم المغولي {cite:tarikh-islam-hasan-ibrahim}."
+  en: "In the 1857 rising the rebels held Delhi and proclaimed Bahadur Shah Zafar emperor; the British besieged the city for months, then stormed it — the end of Mughal rule in Delhi {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "1857ء کی بغاوت میں باغیوں نے دہلی پر قبضہ کیا اور بہادر شاہ ظفر کو بادشاہ قرار دیا؛ انگریزوں نے مہینوں محاصرے کے بعد شہر پر قبضہ کیا — دہلی میں مغل راج کا خاتمہ {cite:tarikh-islam-hasan-ibrahim}."
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: had_participant, target: person/bahadur-shah-zafar, role: "السلطان الاسمي", sources: [source/tarikh-islam-hasan-ibrahim] }
 wings: [time]
 periods: [period/colonial-era]
 regions: [south-asia]

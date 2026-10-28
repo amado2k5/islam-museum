@@ -1,0 +1,24 @@
+id: event/nadir-shah-sack-of-delhi-1739
+class: event
+kind: massacre
+label: { ar: "نادر شاه يدخل دلهي ويقتل أهلها (١٧٣٩)", en: "Nadir Shah sacks Delhi (1739)" }
+summary:
+  ar: "هزم نادر شاه الأفشار جيش المغول عند كرنال ثم دخل دلهي سنة 1739م، فقتل من أهلها خلقاً كثيراً وحمل خزائنها مع تخت الطاووس إلى إيران {cite:tarikh-islam-hasan-ibrahim}."
+  en: "Nadir Shah Afshar broke the Mughal army at Karnal, entered Delhi in 1739, massacred multitudes of its people and carried its treasury, with the Peacock Throne, to Iran {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "نادر شاہ افشار نے کرنال میں مغل فوج کو شکست دی، 1739ء میں دہلی میں داخل ہوا، اس کے باشندوں کا قتلِ عام کیا اور خزانہ سمیت تختِ طاؤس ایران لے گیا {cite:tarikh-islam-hasan-ibrahim}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1739", precision: year, status: tradition, derived: true }
+  end: { edtf: "1739", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: had_participant, target: person/nadir-shah-afshar, role: "الغازي", sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mughal Delhi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mughal-delhi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
