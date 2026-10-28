@@ -10,8 +10,8 @@ wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
 date:
-  start: { edtf: "1153/1169", precision: year, status: historical, derived: true, note: "between 1153 and 1169 per Britannica" }
-  end: { edtf: "1153/1169", precision: year, status: historical, derived: true, note: "between 1153 and 1169 per Britannica" }
+  start: { edtf: "1169~", precision: year, status: historical, derived: true, note: "at some point between 1153 and 1169 per Britannica; recorded as circa 1169" }
+  end: { edtf: "1169~", precision: year, status: historical, derived: true, note: "at some point between 1153 and 1169 per Britannica; recorded as circa 1169" }
 relations:
   - { type: had_participant, target: person/ibn-tufayl, role: "المقدم", sources: [source/britannica-averroes] }
 sources: [source/britannica-averroes]

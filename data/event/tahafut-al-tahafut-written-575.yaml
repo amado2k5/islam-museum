@@ -10,8 +10,8 @@ wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
 date:
-  start: { edtf: "1179/1180", precision: year, status: historical }
-  end: { edtf: "1179/1180", precision: year, status: historical }
+  start: { edtf: "1179~", precision: year, status: historical, note: "composed in 1179-1180 per Britannica" }
+  end: { edtf: "1179~", precision: year, status: historical, note: "composed in 1179-1180 per Britannica" }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/britannica-averroes] }
 sources: [source/britannica-averroes]
