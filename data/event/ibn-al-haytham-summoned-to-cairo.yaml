@@ -1,0 +1,23 @@
+id: event/ibn-al-haytham-summoned-to-cairo
+class: event
+kind: other
+label: { ar: "ابن الهيثم يستدعى إلى القاهرة", en: "Ibn al-Haytham summoned to Cairo" }
+summary:
+  ar: "استدعى الخليفة الفاطمي الحاكم بأمر الله ابن الهيثم من البصرة إلى مصر ليضع مشروعاً لضبط فيضان النيل، فلما عاين الأمر عجز عنه وتحلل بالظهور بمظهر الجنون حتى مات الحاكم سنة 1021م {cite:britannica-ibn-al-haytham}."
+  en: "The Fatimid caliph al-Ḥākim summoned Ibn al-Haytham from Basra to Egypt to devise a regulation of the Nile flood; seeing the task impossible he feigned madness until al-Ḥākim's death in 1021 {cite:britannica-ibn-al-haytham}."
+  ur: "فاطمی خلیفہ حاکم بامر اللہ نے ابن ہیشم کو بصرہ سے مصر بلایا تا کہ نیل کے سیلاب کی ضبط کی تجویز بنائے؛ کام ناممکن دیکھ کر اس نے حاکم کی وفات 1021ء تک پاگل پن کا ڈھونگ کیا {cite:britannica-ibn-al-haytham}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, egypt-sudan]
+date:
+  start: { edtf: "1010~", precision: year, status: historical, derived: true, note: "under al-Ḥākim (r. 996-1021); year approximate" }
+  end: { edtf: "1010~", precision: year, status: historical, derived: true, note: "under al-Ḥākim (r. 996-1021); year approximate" }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
+sources: [source/britannica-ibn-al-haytham]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn al-Haytham story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-al-haytham
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

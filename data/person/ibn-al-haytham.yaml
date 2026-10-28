@@ -12,8 +12,12 @@ summary:
   en: "Arab mathematician and physicist whose Kitab al-Manazir is the principal optical work of the Islamic world. The editor places him in the fifth century AH {cite:manazir-sabra-1983 p.9}."
 wings: [people]
 relations:
+  - { type: born_in, target: place/basra, sources: [source/britannica-ibn-al-haytham] }
+  - { type: died_in, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
+  - { type: participated_in, target: event/ibn-al-haytham-summoned-to-cairo, role: "العالم المستدعى", sources: [source/britannica-ibn-al-haytham] }
+  - { type: participated_in, target: event/kitab-al-manazir-composed, role: "المؤلف", sources: [source/britannica-ibn-al-haytham] }
   - { type: authored, target: work/kitab-al-manazir, sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham] }
-sources: [source/manazir-sabra-1983]
+sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham]
 provenance:
   layer: own-research
   source: "Kitab al-Manazir, Arabic edition by Abd al-Hamid Sabra (Kuwait 1983), editor's preface pp. 9 to 10 (scan pages)"

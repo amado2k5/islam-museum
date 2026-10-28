@@ -1,0 +1,23 @@
+id: event/kitab-al-manazir-composed
+class: event
+kind: other
+label: { ar: "تصنيف «كتاب المناظر»", en: "Kitāb al-Manāẓir composed" }
+summary:
+  ar: "صنّف ابن الهيثم بالقاهرة «كتاب المناظر» في علم البصريات، أعظم كتبه، بُني على التجربة لا على القياس وحده فغيّر علم البصر إلى القرن السابع عشر {cite:britannica-ibn-al-haytham}."
+  en: "In Cairo Ibn al-Haytham composed the Book of Optics, his greatest work — built on experiment rather than conjecture, and it remade the science of vision into the seventeenth century {cite:britannica-ibn-al-haytham}."
+  ur: "قاہرہ میں ابن ہیشم نے بصریات پر «کتاب المناظر» لکھی — تجربے پر مبنی اس کا اہم ترین کام جس نے بصریات کی صنعت سترہویں صدی تک بدل دی {cite:britannica-ibn-al-haytham}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, egypt-sudan]
+date:
+  start: { edtf: "1028~", precision: year, status: historical, derived: true, note: "composed during his Cairo years after 1021; year approximate" }
+  end: { edtf: "1028~", precision: year, status: historical, derived: true, note: "composed during his Cairo years after 1021; year approximate" }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
+sources: [source/britannica-ibn-al-haytham]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn al-Haytham story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-al-haytham
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
