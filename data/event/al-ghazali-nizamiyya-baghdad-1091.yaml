@@ -1,0 +1,17 @@
+id: event/al-ghazali-nizamiyya-baghdad-1091
+class: event
+kind: other
+label: { ar: "الغزالي يتولى التدريس في النظامية ببغداد", en: "al-Ghazali becomes chief professor at the Nizamiyya in Baghdad" }
+summary:
+  ar: "في سنة 484هـ (1091م) عيّنه نظام الملك كبير المدرّسين في المدرسة النظامية ببغداد، وكان يدرّس لأكثر من ثلاثمائة طالب، وكان يقارن ويناقش فلسفة الفارابي وابن سينا. {cite:britannica-al-ghazali}"
+  en: "In 1091 the vizier Nizam al-Mulk appointed al-Ghazali chief professor of the Nizamiyya college in Baghdad, where he lectured to more than 300 students and examined the philosophy of al-Farabi and Avicenna (Britannica)."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1091", hijri: "0484", calendar: julian, precision: year, status: historical, derived: false, note: "Britannica biography, 1091." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-ghazali] }
+  - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "الأستاذ الأول في النظامية", sources: [source/britannica-al-ghazali] }
+sources: [source/britannica-al-ghazali]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }

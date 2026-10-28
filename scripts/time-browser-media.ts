@@ -4,7 +4,7 @@
 // shared period + tags). Maps (M2) and SVG cards (M3) come later and read this index.
 // Usage: npx tsx scripts/time-browser-media.ts [--batch N] [--out data/time-browser-media-index.json]
 // Requires .cache/graph.json (run `npm run graph` first).
-import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 
@@ -203,11 +203,49 @@ const report = {
   })),
 };
 
+// ---- locally generated illustrations (D12) -----------------------------------
+// Webp files committed at site/public/media/time-browser/images/<cls>-<slug>.webp
+// are media records for their same-named stop: media/tbgen-<cls>-<slug>.
+const IMG_DIR = resolve("site/public/media/time-browser/images");
+const slugToStop = (f: string) => f.replace(/\.webp$/, "").replace(/^([a-z]+)-/, "$1/");
+const tbgen: MediaEntry[] = [];
+if (existsSync(IMG_DIR)) {
+  for (const f of readdirSync(IMG_DIR).filter((x) => x.endsWith(".webp"))) {
+    const stopId = slugToStop(f);
+    let st = stopRecords.find((s) => s.id === stopId);
+    if (!st) {
+      // Generated for an entity outside the current batch (e.g. a previous
+      // TB1 selection): still register it so the wire can pick it up later.
+      const n = byId.get(stopId);
+      if (!n) continue;
+      st = { id: stopId, kind: n.class, title: n.label, status: n.data?.status?.review ?? "draft", span: stopSig.get(stopId)?.span ?? null, periods: [], places: [], tags: [], hero: null, candidates: [], coverage: "card" } as any;
+      stopRecords.push(st);
+    }
+    const id = `media/tbgen-${f.slice(0, -5)}`;
+    if (!media.some((m) => m.id === id))
+      tbgen.push({
+        id, kind: "illustration", license: "CC0", generated: true, review: "draft",
+        file: `media/time-browser/images/${f}`,
+        alt: { en: `Locally generated illustration (SDXL) for ${st.title?.en ?? stopId}; no people, no text.` },
+        depicts: [stopId], covers: [stopId],
+        sig: { places: new Set(), periods: new Set(), tags: new Set() },
+      } as MediaEntry);
+    if (st.coverage === "card") { st.coverage = "image"; st.candidates = [id]; }
+  }
+}
+if (tbgen.length) console.log(`+ ${tbgen.length} locally generated illustrations (tbgen)`);
+const matchedTbgen = stopRecords.filter((s) => s.hero || s.candidates.length);
+report.stopsWithImage = matchedTbgen.length;
+report.stopsWithCard = stopRecords.length - matchedTbgen.length;
+report.matchRate = stopRecords.length ? +(matchedTbgen.length / stopRecords.length * 100).toFixed(1) : 0;
+report.mediaTotal += tbgen.length;
+report.mediaUsed += tbgen.length;
+
 const index = {
   generated: new Date().toISOString(),
   rule: "stop batch per class: published first, then degree desc, then id asc; media covers a stop by depicts | shared place+period | shared period+tag",
   report,
-  media: media.map(({ sig, ...m }) => ({ ...m, places: [...sig.places], periods: [...sig.periods], tags: [...sig.tags] })),
+  media: [...media, ...tbgen].map(({ sig, ...m }) => ({ ...m, places: [...sig.places], periods: [...sig.periods], tags: [...sig.tags] })),
   stops: stopRecords,
 };
 mkdirSync(dirname(OUT), { recursive: true });

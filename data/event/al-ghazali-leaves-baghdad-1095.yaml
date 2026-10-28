@@ -1,0 +1,17 @@
+id: event/al-ghazali-leaves-baghdad-1095
+class: event
+kind: other
+label: { ar: "الغزالي يترك بغداد", en: "al-Ghazali leaves Baghdad" }
+summary:
+  ar: "في نوفمبر 1095م ترك الغزالي منصبه وخرج من بغداد بحجة الحج إلى مكة. {cite:britannica-al-ghazali}"
+  en: "In November 1095 al-Ghazali abandoned his post and left Baghdad, on the pretext of a pilgrimage to Mecca (Britannica)."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1095-11", precision: month, status: historical, derived: false, note: "Britannica biography: November 1095." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-ghazali] }
+  - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "ترك منصبه في بغداد", sources: [source/britannica-al-ghazali] }
+sources: [source/britannica-al-ghazali]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }

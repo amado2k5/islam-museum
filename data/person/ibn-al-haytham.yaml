@@ -12,7 +12,7 @@ summary:
   en: "Arab mathematician and physicist whose Kitab al-Manazir is the principal optical work of the Islamic world. The editor places him in the fifth century AH {cite:manazir-sabra-1983 p.9}."
 wings: [people]
 relations:
-  - { type: authored, target: work/kitab-al-manazir, sources: [source/manazir-sabra-1983] }
+  - { type: authored, target: work/kitab-al-manazir, sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham] }
 sources: [source/manazir-sabra-1983]
 provenance:
   layer: own-research
@@ -31,3 +31,5 @@ education:
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }
 external_ids: { wikidata: Q11104 }
+born: { edtf: "0965~", precision: year, status: historical, sources: [source/britannica-ibn-al-haytham], note: "Born c. 965 at Basra (Britannica biography)." }
+died: { edtf: "1040~", precision: year, status: historical, sources: [source/britannica-ibn-al-haytham], note: "Died c. 1040 at Cairo (Britannica biography)." }

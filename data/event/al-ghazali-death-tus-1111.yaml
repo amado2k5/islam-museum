@@ -1,0 +1,17 @@
+id: event/al-ghazali-death-tus-1111
+class: event
+kind: other
+label: { ar: "وفاة الغزالي بطوس", en: "Death of al-Ghazali at Tus" }
+summary:
+  ar: "توفي الغزالي بطوس في 18 ديسمبر 1111م، حيث وُلد. {cite:britannica-al-ghazali}"
+  en: "al-Ghazali died at Tus, where he was born, on 18 December 1111 (Britannica)."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1111-12-18", precision: day, status: historical, derived: false, note: "Britannica biography: 18 December 1111." }
+relations:
+  - { type: occurred_at, target: place/tus, sources: [source/britannica-al-ghazali] }
+  - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "المتوفّى", sources: [source/britannica-al-ghazali] }
+sources: [source/britannica-al-ghazali]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
