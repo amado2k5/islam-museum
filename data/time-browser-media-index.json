@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-28T15:44:22.518Z",
+ "generated": "2026-10-28T19:14:21.600Z",
  "rule": "stop batch per class: published first, then degree desc, then id asc; media covers a stop by depicts | shared place+period | shared period+tag",
  "report": {
   "batchPerClass": 1000,
-  "stopsTotal": 7856,
-  "mediaTotal": 1110,
-  "mediaUsed": 1110,
-  "stopsWithImage": 1231,
-  "stopsWithCard": 6703,
-  "matchRate": 15.5,
+  "stopsTotal": 7857,
+  "mediaTotal": 1239,
+  "mediaUsed": 1239,
+  "stopsWithImage": 1360,
+  "stopsWithCard": 6575,
+  "matchRate": 17.1,
   "perClass": {
    "building": {
     "pool": 5660,
@@ -25,11 +25,11 @@
     "withCard": 1024
    },
    "event": {
-    "pool": 4352,
-    "stops": 1037,
-    "publishedInPool": 3,
+    "pool": 4384,
+    "stops": 1038,
+    "publishedInPool": 7,
     "withImage": 96,
-    "withCard": 941
+    "withCard": 942
    },
    "exhibit": {
     "pool": 313,
@@ -74,7 +74,7 @@
     "withCard": 1045
    },
    "place": {
-    "pool": 1788,
+    "pool": 1797,
     "stops": 1010,
     "publishedInPool": 125,
     "withImage": 7,
@@ -11760,6 +11760,46 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-building-abu-al-hawl",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-abu-al-hawl.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Abu'l-Hawl (the Sphinx); no people, no text."
+   },
+   "depicts": [
+    "building/abu-al-hawl"
+   ],
+   "covers": [
+    "building/abu-al-hawl"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-ahsan-manzil",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-ahsan-manzil.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahsan Manzil; no people, no text."
+   },
+   "depicts": [
+    "building/ahsan-manzil"
+   ],
+   "covers": [
+    "building/ahsan-manzil"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-building-al-aqmar-mosque",
    "kind": "illustration",
    "license": "CC0",
@@ -11774,6 +11814,26 @@
    ],
    "covers": [
     "building/al-aqmar-mosque"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-al-askari-shrine",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-askari-shrine.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for al-Askari shrine (Samarra); no people, no text."
+   },
+   "depicts": [
+    "building/al-askari-shrine"
+   ],
+   "covers": [
+    "building/al-askari-shrine"
    ],
    "places": [],
    "periods": [],
@@ -11800,6 +11860,46 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-building-al-haram-al-ibrahimi",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-haram-al-ibrahimi.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for the Ibrahimi Sanctuary (Haram al-Khalil); no people, no text."
+   },
+   "depicts": [
+    "building/al-haram-al-ibrahimi"
+   ],
+   "covers": [
+    "building/al-haram-al-ibrahimi"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-al-haram-al-sharif",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-haram-al-sharif.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for al-Haram al-Sharif (the Temple Mount esplanade); no people, no text."
+   },
+   "depicts": [
+    "building/al-haram-al-sharif"
+   ],
+   "covers": [
+    "building/al-haram-al-sharif"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-building-al-jami-al-jadid-al-nasiri",
    "kind": "illustration",
    "license": "CC0",
@@ -11814,6 +11914,26 @@
    ],
    "covers": [
     "building/al-jami-al-jadid-al-nasiri"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-al-madrasa-al-bayhaqiyya",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-madrasa-al-bayhaqiyya.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Bayhaqiyya Madrasa of Nishapur; no people, no text."
+   },
+   "depicts": [
+    "building/al-madrasa-al-bayhaqiyya"
+   ],
+   "covers": [
+    "building/al-madrasa-al-bayhaqiyya"
    ],
    "places": [],
    "periods": [],
@@ -11860,6 +11980,66 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-building-al-muwaffaqiyya",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-muwaffaqiyya.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for al-Muwaffaqiyya; no people, no text."
+   },
+   "depicts": [
+    "building/al-muwaffaqiyya"
+   ],
+   "covers": [
+    "building/al-muwaffaqiyya"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-al-qullays",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-qullays.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for al-Qullays (the Yemeni Kaaba); no people, no text."
+   },
+   "depicts": [
+    "building/al-qullays"
+   ],
+   "covers": [
+    "building/al-qullays"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-al-zaytuna-mosque",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-al-zaytuna-mosque.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for al-Zaytuna Mosque; no people, no text."
+   },
+   "depicts": [
+    "building/al-zaytuna-mosque"
+   ],
+   "covers": [
+    "building/al-zaytuna-mosque"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-building-amud-al-sawari",
    "kind": "illustration",
    "license": "CC0",
@@ -11874,6 +12054,46 @@
    ],
    "covers": [
     "building/amud-al-sawari"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-arap-cami-istanbul",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-arap-cami-istanbul.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Arap Camii, Istanbul; no people, no text."
+   },
+   "depicts": [
+    "building/arap-cami-istanbul"
+   ],
+   "covers": [
+    "building/arap-cami-istanbul"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-atik-ali-pasha-mosque",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-atik-ali-pasha-mosque.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Gazi Atik Ali Pasha Mosque, Istanbul; no people, no text."
+   },
+   "depicts": [
+    "building/atik-ali-pasha-mosque"
+   ],
+   "covers": [
+    "building/atik-ali-pasha-mosque"
    ],
    "places": [],
    "periods": [],
@@ -11900,6 +12120,26 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-building-avicenna-mausoleum",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-avicenna-mausoleum.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Avicenna Mausoleum; no people, no text."
+   },
+   "depicts": [
+    "building/avicenna-mausoleum"
+   ],
+   "covers": [
+    "building/avicenna-mausoleum"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-building-bab-i-humayun",
    "kind": "illustration",
    "license": "CC0",
@@ -11914,6 +12154,46 @@
    ],
    "covers": [
     "building/bab-i-humayun"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-badshahi-mosque",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-badshahi-mosque.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Badshahi Mosque; no people, no text."
+   },
+   "depicts": [
+    "building/badshahi-mosque"
+   ],
+   "covers": [
+    "building/badshahi-mosque"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-bayt-al-hikma",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-bayt-al-hikma.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Bayt al-Hikma — the House of Wisdom; no people, no text."
+   },
+   "depicts": [
+    "building/bayt-al-hikma"
+   ],
+   "covers": [
+    "building/bayt-al-hikma"
    ],
    "places": [],
    "periods": [],
@@ -11980,6 +12260,66 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-building-jami-al-qarafa-mosque-cairo",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-jami-al-qarafa-mosque-cairo.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Jami al-Qarafa Mosque, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/jami-al-qarafa-mosque-cairo"
+   ],
+   "covers": [
+    "building/jami-al-qarafa-mosque-cairo"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-juyushi-mosque-cairo",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-juyushi-mosque-cairo.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Juyushi Mosque, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/juyushi-mosque-cairo"
+   ],
+   "covers": [
+    "building/juyushi-mosque-cairo"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-khanqah-of-baybars-al-gashankir",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-khanqah-of-baybars-al-gashankir.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Khanqah of Baybars al-Gashankir; no people, no text."
+   },
+   "depicts": [
+    "building/khanqah-of-baybars-al-gashankir"
+   ],
+   "covers": [
+    "building/khanqah-of-baybars-al-gashankir"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-building-khizanat-al-suruj",
    "kind": "illustration",
    "license": "CC0",
@@ -12000,6 +12340,66 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-building-madrasa-of-al-zahir-baibars",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-madrasa-of-al-zahir-baibars.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Madrasa of al-Zahir Baibars; no people, no text."
+   },
+   "depicts": [
+    "building/madrasa-of-al-zahir-baibars"
+   ],
+   "covers": [
+    "building/madrasa-of-al-zahir-baibars"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-madrasah-al-kamiliya-cairo",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-madrasah-al-kamiliya-cairo.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Madrasah Al Kamiliya, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/madrasah-al-kamiliya-cairo"
+   ],
+   "covers": [
+    "building/madrasah-al-kamiliya-cairo"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-masjid-al-husayn-cairo",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-masjid-al-husayn-cairo.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-Hussein Mosque, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/masjid-al-husayn-cairo"
+   ],
+   "covers": [
+    "building/masjid-al-husayn-cairo"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-building-masjid-amr-fustat",
    "kind": "illustration",
    "license": "CC0",
@@ -12014,6 +12414,106 @@
    ],
    "covers": [
     "building/masjid-amr-fustat"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-masjid-ibn-tulun",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-masjid-ibn-tulun.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Mosque of Ibn Tulun; no people, no text."
+   },
+   "depicts": [
+    "building/masjid-ibn-tulun"
+   ],
+   "covers": [
+    "building/masjid-ibn-tulun"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-masjid-sultan-hasan",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-masjid-sultan-hasan.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Mosque-Madrasa of Sultan Hasan; no people, no text."
+   },
+   "depicts": [
+    "building/masjid-sultan-hasan"
+   ],
+   "covers": [
+    "building/masjid-sultan-hasan"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-mausoleum-of-imam-al-shafii",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-mausoleum-of-imam-al-shafii.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Mausoleum of Imam al-Shafi'i, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/mausoleum-of-imam-al-shafii"
+   ],
+   "covers": [
+    "building/mausoleum-of-imam-al-shafii"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-shajarat-al-durr-tomb",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-shajarat-al-durr-tomb.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Mausoleum of Shajarat al-Durr, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/shajarat-al-durr-tomb"
+   ],
+   "covers": [
+    "building/shajarat-al-durr-tomb"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-building-ulmas-al-hajib-mosque",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/building-ulmas-al-hajib-mosque.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Mosque of Ulmas al-Hajib, Cairo; no people, no text."
+   },
+   "depicts": [
+    "building/ulmas-al-hajib-mosque"
+   ],
+   "covers": [
+    "building/ulmas-al-hajib-mosque"
    ],
    "places": [],
    "periods": [],
@@ -12140,6 +12640,246 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-concept-afyun",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-afyun.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Afyun (opium); no people, no text."
+   },
+   "depicts": [
+    "concept/afyun"
+   ],
+   "covers": [
+    "concept/afyun"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-agadir",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-agadir.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Agadir (Berber collective granary and citadel); no people, no text."
+   },
+   "depicts": [
+    "concept/agadir"
+   ],
+   "covers": [
+    "concept/agadir"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-agha-khan",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-agha-khan.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Agha Khan (title of the Nizari Imams); no people, no text."
+   },
+   "depicts": [
+    "concept/agha-khan"
+   ],
+   "covers": [
+    "concept/agha-khan"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-agha",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-agha.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Agha (Turkic title and term); no people, no text."
+   },
+   "depicts": [
+    "concept/agha"
+   ],
+   "covers": [
+    "concept/agha"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-aghac",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-aghac.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Aghac (tree, wood, and a measure of distance); no people, no text."
+   },
+   "depicts": [
+    "concept/aghac"
+   ],
+   "covers": [
+    "concept/aghac"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahdath",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahdath.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahdath (urban militias of Syria and Upper Mesopotamia); no people, no text."
+   },
+   "depicts": [
+    "concept/ahdath"
+   ],
+   "covers": [
+    "concept/ahdath"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahkam",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahkam.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahkam (rulings and judgments; the five qualifications); no people, no text."
+   },
+   "depicts": [
+    "concept/ahkam"
+   ],
+   "covers": [
+    "concept/ahkam"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahl-al-hadith",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahl-al-hadith.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahl al-hadith (the traditionists); no people, no text."
+   },
+   "depicts": [
+    "concept/ahl-al-hadith"
+   ],
+   "covers": [
+    "concept/ahl-al-hadith"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahl-al-nazar",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahl-al-nazar.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahl al-nazar (those who apply reasoning); no people, no text."
+   },
+   "depicts": [
+    "concept/ahl-al-nazar"
+   ],
+   "covers": [
+    "concept/ahl-al-nazar"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahl-i-waris",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahl-i-waris.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahl-i waris (heir, Indonesian usage); no people, no text."
+   },
+   "depicts": [
+    "concept/ahl-i-waris"
+   ],
+   "covers": [
+    "concept/ahl-i-waris"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahmad",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahmad.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ahmad (a name of the Prophet, and a personal name); no people, no text."
+   },
+   "depicts": [
+    "concept/ahmad"
+   ],
+   "covers": [
+    "concept/ahmad"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-ahwal-al-mumin",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-ahwal-al-mumin.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for States of the believer (ahwal al-mumin); no people, no text."
+   },
+   "depicts": [
+    "concept/ahwal-al-mumin"
+   ],
+   "covers": [
+    "concept/ahwal-al-mumin"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-concept-akdariyya",
    "kind": "illustration",
    "license": "CC0",
@@ -12160,6 +12900,46 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-concept-akhi-baba",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-akhi-baba.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Akhi Baba (title of the guild shaykh and tanners' head); no people, no text."
+   },
+   "depicts": [
+    "concept/akhi-baba"
+   ],
+   "covers": [
+    "concept/akhi-baba"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-akik-cornelian",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-akik-cornelian.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Akik (the cornelian stone, used in seal-rings); no people, no text."
+   },
+   "depicts": [
+    "concept/akik-cornelian"
+   ],
+   "covers": [
+    "concept/akik-cornelian"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-concept-akrabadhin",
    "kind": "illustration",
    "license": "CC0",
@@ -12174,6 +12954,226 @@
    ],
    "covers": [
     "concept/akrabadhin"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-adhwa",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-adhwa.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-Adhwa' (the dhu-lords of Yaman); no people, no text."
+   },
+   "depicts": [
+    "concept/al-adhwa"
+   ],
+   "covers": [
+    "concept/al-adhwa"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-aduww-al-dakhili",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-aduww-al-dakhili.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The inner enemy; no people, no text."
+   },
+   "depicts": [
+    "concept/al-aduww-al-dakhili"
+   ],
+   "covers": [
+    "concept/al-aduww-al-dakhili"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-amir-al-kabir",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-amir-al-kabir.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-amir al-kabir ('the great amir', Mamluk title); no people, no text."
+   },
+   "depicts": [
+    "concept/al-amir-al-kabir"
+   ],
+   "covers": [
+    "concept/al-amir-al-kabir"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-aslah",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-aslah.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-aslah (the 'most fitting' for mankind); no people, no text."
+   },
+   "depicts": [
+    "concept/al-aslah"
+   ],
+   "covers": [
+    "concept/al-aslah"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-bayt-al-muslim",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-bayt-al-muslim.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Muslim home (al-bayt al-muslim); no people, no text."
+   },
+   "depicts": [
+    "concept/al-bayt-al-muslim"
+   ],
+   "covers": [
+    "concept/al-bayt-al-muslim"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-din-al-qayyim",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-din-al-qayyim.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-din al-qayyim (the upright religion); no people, no text."
+   },
+   "depicts": [
+    "concept/al-din-al-qayyim"
+   ],
+   "covers": [
+    "concept/al-din-al-qayyim"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-fadaiyyat-al-arabiyya",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-fadaiyyat-al-arabiyya.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Arab satellite channels — evaluating the experiment; no people, no text."
+   },
+   "depicts": [
+    "concept/al-fadaiyyat-al-arabiyya"
+   ],
+   "covers": [
+    "concept/al-fadaiyyat-al-arabiyya"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-farah-wal-surur",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-farah-wal-surur.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Joy and gladness (al-farah wal-surur); no people, no text."
+   },
+   "depicts": [
+    "concept/al-farah-wal-surur"
+   ],
+   "covers": [
+    "concept/al-farah-wal-surur"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-fatwa-ala-al-fadaiyyat",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-fatwa-ala-al-fadaiyyat.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Fatwa on the satellite channels — its benefit and harm; no people, no text."
+   },
+   "depicts": [
+    "concept/al-fatwa-ala-al-fadaiyyat"
+   ],
+   "covers": [
+    "concept/al-fatwa-ala-al-fadaiyyat"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-fawz-al-mubin",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-fawz-al-mubin.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The manifest triumph (al-fawz al-mubin); no people, no text."
+   },
+   "depicts": [
+    "concept/al-fawz-al-mubin"
+   ],
+   "covers": [
+    "concept/al-fawz-al-mubin"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-concept-al-ghazw-al-fikri",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/concept-al-ghazw-al-fikri.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Intellectual invasion (al-ghazw al-fikri) in the Sheikh's view; no people, no text."
+   },
+   "depicts": [
+    "concept/al-ghazw-al-fikri"
+   ],
+   "covers": [
+    "concept/al-ghazw-al-fikri"
    ],
    "places": [],
    "periods": [],
@@ -13480,6 +14480,46 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-event-amr-dismissal-egypt",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-amr-dismissal-egypt.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Amr's Dismissal and Ibn Abi Sarh's Sole Charge of Egypt; no people, no text."
+   },
+   "depicts": [
+    "event/amr-dismissal-egypt"
+   ],
+   "covers": [
+    "event/amr-dismissal-egypt"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-apostasy-of-amr-ibn-madikarib",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-apostasy-of-amr-ibn-madikarib.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Amr ibn Ma'dikarib's apostasy after the Prophet's death; no people, no text."
+   },
+   "depicts": [
+    "event/apostasy-of-amr-ibn-madikarib"
+   ],
+   "covers": [
+    "event/apostasy-of-amr-ibn-madikarib"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-event-arslan-arghun-killed-490",
    "kind": "illustration",
    "license": "CC0",
@@ -13514,6 +14554,46 @@
    ],
    "covers": [
     "event/ashras-jizya-episode"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-ayn-al-tamr-raid-39",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-ayn-al-tamr-raid-39.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for al-Nuʿmān ibn Bashīr's raid on ʿAyn al-Tamr (39 AH); no people, no text."
+   },
+   "depicts": [
+    "event/ayn-al-tamr-raid-39"
+   ],
+   "covers": [
+    "event/ayn-al-tamr-raid-39"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-ayn-jalut-658",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-ayn-jalut-658.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The battle of Ayn Jalut and the defeat of the Tatars; no people, no text."
+   },
+   "depicts": [
+    "event/ayn-jalut-658"
+   ],
+   "covers": [
+    "event/ayn-jalut-658"
    ],
    "places": [],
    "periods": [],
@@ -13580,6 +14660,26 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-event-baghdad-manifesto-402",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-baghdad-manifesto-402.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Baghdad Attestation on Fatimid Lineage; no people, no text."
+   },
+   "depicts": [
+    "event/baghdad-manifesto-402"
+   ],
+   "covers": [
+    "event/baghdad-manifesto-402"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-event-baghdad-sectarian-war-483",
    "kind": "illustration",
    "license": "CC0",
@@ -13594,6 +14694,26 @@
    ],
    "covers": [
     "event/baghdad-sectarian-war-483"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-bahira-encounter",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-bahira-encounter.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The monk Bahira at Busra; no people, no text."
+   },
+   "depicts": [
+    "event/bahira-encounter"
+   ],
+   "covers": [
+    "event/bahira-encounter"
    ],
    "places": [],
    "periods": [],
@@ -14080,6 +15200,26 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-event-battle-of-marj-al-suffar",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-battle-of-marj-al-suffar.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Battle of Marj al-Suffar; no people, no text."
+   },
+   "depicts": [
+    "event/battle-of-marj-al-suffar"
+   ],
+   "covers": [
+    "event/battle-of-marj-al-suffar"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-event-battle-of-mega-spilaio-1827",
    "kind": "illustration",
    "license": "CC0",
@@ -14214,6 +15354,26 @@
    ],
    "covers": [
     "event/battle-of-petrovaradin-1716"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-battle-of-rayshahr",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-battle-of-rayshahr.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Battle of Rayshahr and Shahrak's Death; no people, no text."
+   },
+   "depicts": [
+    "event/battle-of-rayshahr"
+   ],
+   "covers": [
+    "event/battle-of-rayshahr"
    ],
    "places": [],
    "periods": [],
@@ -14380,6 +15540,66 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-event-battle-of-wadi-al-makhazin-1578",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-battle-of-wadi-al-makhazin-1578.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Battle of Wadi al-Makhazin (986/1578); no people, no text."
+   },
+   "depicts": [
+    "event/battle-of-wadi-al-makhazin-1578"
+   ],
+   "covers": [
+    "event/battle-of-wadi-al-makhazin-1578"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-baya-wilayat-ahd-yazid",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-baya-wilayat-ahd-yazid.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The pledge to Yazid as heir apparent; no people, no text."
+   },
+   "depicts": [
+    "event/baya-wilayat-ahd-yazid"
+   ],
+   "covers": [
+    "event/baya-wilayat-ahd-yazid"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-building-of-al-hashimiyya",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-building-of-al-hashimiyya.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Building of the Hashimite City at Kufa; no people, no text."
+   },
+   "depicts": [
+    "event/building-of-al-hashimiyya"
+   ],
+   "covers": [
+    "event/building-of-al-hashimiyya"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-event-building-of-al-mughitha",
    "kind": "illustration",
    "license": "CC0",
@@ -14394,6 +15614,46 @@
    ],
    "covers": [
     "event/building-of-al-mughitha"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-building-of-masisa",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-building-of-masisa.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Building of the Fortress of Masisa; no people, no text."
+   },
+   "depicts": [
+    "event/building-of-masisa"
+   ],
+   "covers": [
+    "event/building-of-masisa"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-building-of-the-kaaba",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-building-of-the-kaaba.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Raising of the Kaaba’s Foundations; no people, no text."
+   },
+   "depicts": [
+    "event/building-of-the-kaaba"
+   ],
+   "covers": [
+    "event/building-of-the-kaaba"
    ],
    "places": [],
    "periods": [],
@@ -14440,6 +15700,86 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-event-compilation-of-quran",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-compilation-of-quran.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Compilation of the Qur'an under Abu Bakr; no people, no text."
+   },
+   "depicts": [
+    "event/compilation-of-quran"
+   ],
+   "covers": [
+    "event/compilation-of-quran"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-al-anbar",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-al-anbar.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of al-Anbar and the Raid on Baghdad's Market; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-al-anbar"
+   ],
+   "covers": [
+    "event/conquest-of-al-anbar"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-arwad",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-arwad.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of Arwad; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-arwad"
+   ],
+   "covers": [
+    "event/conquest-of-arwad"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-harran",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-harran.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of Harran; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-harran"
+   ],
+   "covers": [
+    "event/conquest-of-harran"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-event-conquest-of-hit",
    "kind": "illustration",
    "license": "CC0",
@@ -14454,6 +15794,46 @@
    ],
    "covers": [
     "event/conquest-of-hit"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-hulwan",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-hulwan.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of Hulwan and Qarmasin; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-hulwan"
+   ],
+   "covers": [
+    "event/conquest-of-hulwan"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-iqritish",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-iqritish.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of Crete; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-iqritish"
+   ],
+   "covers": [
+    "event/conquest-of-iqritish"
    ],
    "places": [],
    "periods": [],
@@ -14500,6 +15880,66 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-event-conquest-of-raqqa",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-raqqa.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of al-Raqqa; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-raqqa"
+   ],
+   "covers": [
+    "event/conquest-of-raqqa"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-ras-al-ayn",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-ras-al-ayn.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of Ra's al-Ayn; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-ras-al-ayn"
+   ],
+   "covers": [
+    "event/conquest-of-ras-al-ayn"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-rhodes",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-rhodes.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Conquest of Rhodes and the Demolition of Its Fort; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-rhodes"
+   ],
+   "covers": [
+    "event/conquest-of-rhodes"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-event-conquest-of-shahrazur",
    "kind": "illustration",
    "license": "CC0",
@@ -14514,6 +15954,66 @@
    ],
    "covers": [
     "event/conquest-of-shahrazur"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-conquest-of-tabaristan",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-conquest-of-tabaristan.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Conquest of Tabaristan; no people, no text."
+   },
+   "depicts": [
+    "event/conquest-of-tabaristan"
+   ],
+   "covers": [
+    "event/conquest-of-tabaristan"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-dar-al-imara-saga",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-dar-al-imara-saga.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Basra Dar al-Imara Saga; no people, no text."
+   },
+   "depicts": [
+    "event/dar-al-imara-saga"
+   ],
+   "covers": [
+    "event/dar-al-imara-saga"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-event-death-al-adil-615",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/event-death-al-adil-615.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Death of al-Malik al-Adil and his sons' succession; no people, no text."
+   },
+   "depicts": [
+    "event/death-al-adil-615"
+   ],
+   "covers": [
+    "event/death-al-adil-615"
    ],
    "places": [],
    "periods": [],
@@ -15620,6 +17120,506 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-exhibit-path-alexandria-city",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-alexandria-city.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Alexandria; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-alexandria-city"
+   ],
+   "covers": [
+    "exhibit/path-alexandria-city"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-alexandria",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-alexandria.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Alexandria; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-alexandria"
+   ],
+   "covers": [
+    "exhibit/path-alexandria"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-algeria",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-algeria.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Algeria; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-algeria"
+   ],
+   "covers": [
+    "exhibit/path-algeria"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-andalus-cities",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-andalus-cities.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Cities of al-Andalus; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-andalus-cities"
+   ],
+   "covers": [
+    "exhibit/path-andalus-cities"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-andalus-emirs",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-andalus-emirs.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Emirs of al-Andalus; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-andalus-emirs"
+   ],
+   "covers": [
+    "exhibit/path-andalus-emirs"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-andalus-thinkers",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-andalus-thinkers.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Minds of al-Andalus; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-andalus-thinkers"
+   ],
+   "covers": [
+    "exhibit/path-andalus-thinkers"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-andalus",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-andalus.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-Andalus: Eight Centuries; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-andalus"
+   ],
+   "covers": [
+    "exhibit/path-andalus"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-ansar",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-ansar.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Ansar; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-ansar"
+   ],
+   "covers": [
+    "exhibit/path-ansar"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-arab-lit",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-arab-lit.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Literary Treasury; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-arab-lit"
+   ],
+   "covers": [
+    "exhibit/path-arab-lit"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-arab-novel",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-arab-novel.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Arabic Novel; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-arab-novel"
+   ],
+   "covers": [
+    "exhibit/path-arab-novel"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-arabia-before",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-arabia-before.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Arabia before Islam; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-arabia-before"
+   ],
+   "covers": [
+    "exhibit/path-arabia-before"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-arbaun",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-arbaun.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Al-Nawawi's Forty; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-arbaun"
+   ],
+   "covers": [
+    "exhibit/path-arbaun"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-arms-armor",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-arms-armor.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Arms in the Heritage; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-arms-armor"
+   ],
+   "covers": [
+    "exhibit/path-arms-armor"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-ascetics-early",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-ascetics-early.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Early Ascetics; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-ascetics-early"
+   ],
+   "covers": [
+    "exhibit/path-ascetics-early"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-ashara",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-ashara.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Ten Promised Paradise; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-ashara"
+   ],
+   "covers": [
+    "exhibit/path-ashara"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-astronomers",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-astronomers.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Astronomers; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-astronomers"
+   ],
+   "covers": [
+    "exhibit/path-astronomers"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-astronomy",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-astronomy.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Astronomy; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-astronomy"
+   ],
+   "covers": [
+    "exhibit/path-astronomy"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-badr",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-badr.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Battle of Badr; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-badr"
+   ],
+   "covers": [
+    "exhibit/path-badr"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-baghdad-sufis",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-baghdad-sufis.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Baghdad Sufis; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-baghdad-sufis"
+   ],
+   "covers": [
+    "exhibit/path-baghdad-sufis"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-banu-qurayza",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-banu-qurayza.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Qurayza; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-banu-qurayza"
+   ],
+   "covers": [
+    "exhibit/path-banu-qurayza"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-barbary-ottomans",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-barbary-ottomans.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Barbary Corsairs; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-barbary-ottomans"
+   ],
+   "covers": [
+    "exhibit/path-barbary-ottomans"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-battuta",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-battuta.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Travels of Ibn Battuta; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-battuta"
+   ],
+   "covers": [
+    "exhibit/path-battuta"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-bayat",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-bayat.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Bay'a; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-bayat"
+   ],
+   "covers": [
+    "exhibit/path-bayat"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-book-arts",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-book-arts.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Arts of the Book; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-book-arts"
+   ],
+   "covers": [
+    "exhibit/path-book-arts"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-exhibit-path-books-shelf",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/exhibit-path-books-shelf.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Great Shelf; no people, no text."
+   },
+   "depicts": [
+    "exhibit/path-books-shelf"
+   ],
+   "covers": [
+    "exhibit/path-books-shelf"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-exhibit-path-fatimid-cairo",
    "kind": "illustration",
    "license": "CC0",
@@ -15694,6 +17694,26 @@
    ],
    "covers": [
     "exhibit/path-sicily-islam"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-abd-al-qays",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-abd-al-qays.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Abd al-Qays; no people, no text."
+   },
+   "depicts": [
+    "group/abd-al-qays"
+   ],
+   "covers": [
+    "group/abd-al-qays"
    ],
    "places": [],
    "periods": [],
@@ -15940,6 +17960,486 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-group-azali",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-azali.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Azali; no people, no text."
+   },
+   "depicts": [
+    "group/azali"
+   ],
+   "covers": [
+    "group/azali"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-azariqa",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-azariqa.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Azariqa; no people, no text."
+   },
+   "depicts": [
+    "group/azariqa"
+   ],
+   "covers": [
+    "group/azariqa"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-ba-abbad",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-ba-abbad.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ba 'Abbad; no people, no text."
+   },
+   "depicts": [
+    "group/ba-abbad"
+   ],
+   "covers": [
+    "group/ba-abbad"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-ba-alawi",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-ba-alawi.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Ba 'Alawi; no people, no text."
+   },
+   "depicts": [
+    "group/ba-alawi"
+   ],
+   "covers": [
+    "group/ba-alawi"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-bab-i-mashikhat",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-bab-i-mashikhat.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Bab-i Mashikhat (office of the Shaykh al-Islam); no people, no text."
+   },
+   "depicts": [
+    "group/bab-i-mashikhat"
+   ],
+   "covers": [
+    "group/bab-i-mashikhat"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-bab-i-seraskeri",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-bab-i-seraskeri.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Bab-i Ser'askeri (Ottoman War Department); no people, no text."
+   },
+   "depicts": [
+    "group/bab-i-seraskeri"
+   ],
+   "covers": [
+    "group/bab-i-seraskeri"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-babai",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-babai.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Babai; no people, no text."
+   },
+   "depicts": [
+    "group/babai"
+   ],
+   "covers": [
+    "group/babai"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-babis",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-babis.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Babis; no people, no text."
+   },
+   "depicts": [
+    "group/babis"
+   ],
+   "covers": [
+    "group/babis"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-al-dil",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-al-dil.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu al-Dil; no people, no text."
+   },
+   "depicts": [
+    "group/banu-al-dil"
+   ],
+   "covers": [
+    "group/banu-al-dil"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-al-harith",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-al-harith.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu al-Harith ibn Fihr; no people, no text."
+   },
+   "depicts": [
+    "group/banu-al-harith"
+   ],
+   "covers": [
+    "group/banu-al-harith"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-asad-tribe",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-asad-tribe.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Asad; no people, no text."
+   },
+   "depicts": [
+    "group/banu-asad-tribe"
+   ],
+   "covers": [
+    "group/banu-asad-tribe"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-asad",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-asad.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Asad ibn Abd al-Uzza; no people, no text."
+   },
+   "depicts": [
+    "group/banu-asad"
+   ],
+   "covers": [
+    "group/banu-asad"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-dubaya-ibn-zayd",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-dubaya-ibn-zayd.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Dubay'a ibn Zayd; no people, no text."
+   },
+   "depicts": [
+    "group/banu-dubaya-ibn-zayd"
+   ],
+   "covers": [
+    "group/banu-dubaya-ibn-zayd"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-dubayb",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-dubayb.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Dubayb of Judham; no people, no text."
+   },
+   "depicts": [
+    "group/banu-dubayb"
+   ],
+   "covers": [
+    "group/banu-dubayb"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-jusham",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-jusham.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Jusham; no people, no text."
+   },
+   "depicts": [
+    "group/banu-jusham"
+   ],
+   "covers": [
+    "group/banu-jusham"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-lakhm",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-lakhm.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Lakhm (the Manadhira); no people, no text."
+   },
+   "depicts": [
+    "group/banu-lakhm"
+   ],
+   "covers": [
+    "group/banu-lakhm"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-salima",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-salima.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Salima; no people, no text."
+   },
+   "depicts": [
+    "group/banu-salima"
+   ],
+   "covers": [
+    "group/banu-salima"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-banu-zubayd",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-banu-zubayd.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Banu Zubayd; no people, no text."
+   },
+   "depicts": [
+    "group/banu-zubayd"
+   ],
+   "covers": [
+    "group/banu-zubayd"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-barmakids",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-barmakids.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Barmakids; no people, no text."
+   },
+   "depicts": [
+    "group/barmakids"
+   ],
+   "covers": [
+    "group/barmakids"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-ismaili-dawa",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-ismaili-dawa.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Ismaili Da'wa; no people, no text."
+   },
+   "depicts": [
+    "group/ismaili-dawa"
+   ],
+   "covers": [
+    "group/ismaili-dawa"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-jurhum",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-jurhum.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Jurhum; no people, no text."
+   },
+   "depicts": [
+    "group/jurhum"
+   ],
+   "covers": [
+    "group/jurhum"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-khazars",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-khazars.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Khazars; no people, no text."
+   },
+   "depicts": [
+    "group/khazars"
+   ],
+   "covers": [
+    "group/khazars"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-kinana",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-kinana.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for Kinana; no people, no text."
+   },
+   "depicts": [
+    "group/kinana"
+   ],
+   "covers": [
+    "group/kinana"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-group-naqshbandiyya",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/group-naqshbandiyya.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The Naqshbandi order; no people, no text."
+   },
+   "depicts": [
+    "group/naqshbandiyya"
+   ],
+   "covers": [
+    "group/naqshbandiyya"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-journey-abwa-first-expedition",
    "kind": "illustration",
    "license": "CC0",
@@ -15960,6 +18460,66 @@
    "tags": []
   },
   {
+   "id": "media/tbgen-journey-aden-to-zaila-battuta",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/journey-aden-to-zaila-battuta.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for From Aden to Zeila by sea on Ibn Battuta's journey; no people, no text."
+   },
+   "depicts": [
+    "journey/aden-to-zaila-battuta"
+   ],
+   "covers": [
+    "journey/aden-to-zaila-battuta"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-journey-al-kudr-expedition",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/journey-al-kudr-expedition.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for The expedition against Banu Sulaym at al-Kudr; no people, no text."
+   },
+   "depicts": [
+    "journey/al-kudr-expedition"
+   ],
+   "covers": [
+    "journey/al-kudr-expedition"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-journey-aydhab-to-jeddah",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/journey-aydhab-to-jeddah.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for From Aydhab to Jeddah on the pilgrimage road; no people, no text."
+   },
+   "depicts": [
+    "journey/aydhab-to-jeddah"
+   ],
+   "covers": [
+    "journey/aydhab-to-jeddah"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
    "id": "media/tbgen-journey-badr-march",
    "kind": "illustration",
    "license": "CC0",
@@ -15974,6 +18534,26 @@
    ],
    "covers": [
     "journey/badr-march"
+   ],
+   "places": [],
+   "periods": [],
+   "tags": []
+  },
+  {
+   "id": "media/tbgen-journey-badr-to-medina-jubayr",
+   "kind": "illustration",
+   "license": "CC0",
+   "generated": true,
+   "review": "draft",
+   "file": "media/time-browser/images/journey-badr-to-medina-jubayr.webp",
+   "alt": {
+    "en": "Locally generated illustration (SDXL) for From Badr to Medina on Ibn Jubayr's road; no people, no text."
+   },
+   "depicts": [
+    "journey/badr-to-medina-jubayr"
+   ],
+   "covers": [
+    "journey/badr-to-medina-jubayr"
    ],
    "places": [],
    "periods": [],
@@ -24853,8 +27433,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-jami-al-qarafa-mosque-cairo"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/juyushi-mosque-cairo",
@@ -24871,8 +27453,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-juyushi-mosque-cairo"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/khanqah-of-baybars-al-gashankir",
@@ -24889,8 +27473,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-khanqah-of-baybars-al-gashankir"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/madrasa-of-al-zahir-baibars",
@@ -24907,8 +27493,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-madrasa-of-al-zahir-baibars"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/madrasah-al-kamiliya-cairo",
@@ -24925,8 +27513,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-madrasah-al-kamiliya-cairo"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/masjid-al-husayn-cairo",
@@ -24943,8 +27533,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-masjid-al-husayn-cairo"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/masjid-ibn-tulun",
@@ -24964,8 +27556,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-masjid-ibn-tulun"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/masjid-sultan-hasan",
@@ -24986,8 +27580,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-masjid-sultan-hasan"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/mausoleum-of-imam-al-shafii",
@@ -25004,8 +27600,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-mausoleum-of-imam-al-shafii"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/shajarat-al-durr-tomb",
@@ -25022,8 +27620,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-shajarat-al-durr-tomb"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/ulmas-al-hajib-mosque",
@@ -25040,23 +27640,25 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-ulmas-al-hajib-mosque"
+   ],
+   "coverage": "image"
   },
   {
-   "id": "building/bayt-al-hikma",
+   "id": "building/great-mosque-cordoba",
    "kind": "building",
    "title": {
-    "ar": "بيت الحكمة (خزانة الحكمة)",
-    "en": "Bayt al-Hikma — the House of Wisdom"
+    "ar": "جامع قرطبة",
+    "en": "Great Mosque of Córdoba"
    },
    "status": "draft",
    "span": null,
    "periods": [
-    "period/abbasid-fragmentation"
+    "period/umayyad"
    ],
    "places": [
-    "place/baghdad"
+    "place/cordoba"
    ],
    "tags": [],
    "hero": null,
@@ -25080,8 +27682,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-abu-al-hawl"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/ahsan-manzil",
@@ -25098,8 +27702,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-ahsan-manzil"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-askari-shrine",
@@ -25116,8 +27722,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-askari-shrine"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-haram-al-ibrahimi",
@@ -25134,8 +27742,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-haram-al-ibrahimi"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-haram-al-sharif",
@@ -25152,8 +27762,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-haram-al-sharif"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-madrasa-al-bayhaqiyya",
@@ -25172,8 +27784,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-madrasa-al-bayhaqiyya"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-muwaffaqiyya",
@@ -25190,8 +27804,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-muwaffaqiyya"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-qullays",
@@ -25210,8 +27826,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-qullays"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/al-zaytuna-mosque",
@@ -25230,8 +27848,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-al-zaytuna-mosque"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/arap-cami-istanbul",
@@ -25250,8 +27870,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-arap-cami-istanbul"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/atik-ali-pasha-mosque",
@@ -25270,8 +27892,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-atik-ali-pasha-mosque"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/avicenna-mausoleum",
@@ -25288,8 +27912,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-avicenna-mausoleum"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/badshahi-mosque",
@@ -25311,8 +27937,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-building-badshahi-mosque"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/bimaristan-al-sayyida",
@@ -25492,26 +28120,6 @@
    ],
    "places": [
     "place/istanbul"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "building/great-mosque-cordoba",
-   "kind": "building",
-   "title": {
-    "ar": "جامع قرطبة",
-    "en": "Great Mosque of Córdoba"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [
-    "place/cordoba"
    ],
    "tags": [],
    "hero": null,
@@ -26124,6 +28732,28 @@
    "hero": null,
    "candidates": [],
    "coverage": "card"
+  },
+  {
+   "id": "building/bayt-al-hikma",
+   "kind": "building",
+   "title": {
+    "ar": "بيت الحكمة (خزانة الحكمة)",
+    "en": "Bayt al-Hikma — the House of Wisdom"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-fragmentation"
+   ],
+   "places": [
+    "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-building-bayt-al-hikma"
+   ],
+   "coverage": "image"
   },
   {
    "id": "building/kaaba",
@@ -43063,8 +45693,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-afyun"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/agadir",
@@ -43079,8 +45711,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-agadir"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/agha-khan",
@@ -43095,8 +45729,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-agha-khan"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/agha",
@@ -43111,8 +45747,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-agha"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/aghac",
@@ -43127,8 +45765,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-aghac"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahdath",
@@ -43145,8 +45785,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahdath"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahkam",
@@ -43161,8 +45803,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahkam"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahl-al-hadith",
@@ -43179,8 +45823,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahl-al-hadith"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahl-al-nazar",
@@ -43195,8 +45841,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahl-al-nazar"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahl-i-waris",
@@ -43212,8 +45860,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahl-i-waris"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahmad",
@@ -43228,8 +45878,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahmad"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/ahwal-al-mumin",
@@ -43245,8 +45897,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-ahwal-al-mumin"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/akhi-baba",
@@ -43263,8 +45917,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-akhi-baba"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/akik-cornelian",
@@ -43279,8 +45935,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-akik-cornelian"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/akrabadhin",
@@ -43315,8 +45973,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-adhwa"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-aduww-al-dakhili",
@@ -43332,8 +45992,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-aduww-al-dakhili"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-amir-al-kabir",
@@ -43350,8 +46012,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-amir-al-kabir"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-aslah",
@@ -43366,8 +46030,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-aslah"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-bayt-al-muslim",
@@ -43383,8 +46049,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-bayt-al-muslim"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-din-al-qayyim",
@@ -43400,8 +46068,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-din-al-qayyim"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-fadaiyyat-al-arabiyya",
@@ -43418,8 +46088,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-fadaiyyat-al-arabiyya"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-farah-wal-surur",
@@ -43435,8 +46107,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-farah-wal-surur"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-fatwa-ala-al-fadaiyyat",
@@ -43453,8 +46127,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-fatwa-ala-al-fadaiyyat"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-fawz-al-mubin",
@@ -43470,8 +46146,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-fawz-al-mubin"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-ghazw-al-fikri",
@@ -43487,8 +46165,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-concept-al-ghazw-al-fikri"
+   ],
+   "coverage": "image"
   },
   {
    "id": "concept/al-hijra-ila-al-gharb",
@@ -60761,6 +63441,100 @@
    "coverage": "image"
   },
   {
+   "id": "event/al-ghazali-death-tus-1111",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة الغزالي بطوس",
+    "en": "Death of al-Ghazali at Tus"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1111.9591093588506,
+    "latest": 1111.9618472658258
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/tus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/al-ghazali-leaves-baghdad-1095",
+   "kind": "event",
+   "title": {
+    "ar": "الغزالي يترك بغداد",
+    "en": "al-Ghazali leaves Baghdad"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1095.8328370876884,
+    "latest": 1095.9149742978661
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/al-ghazali-nizamiyya-baghdad-1091",
+   "kind": "event",
+   "title": {
+    "ar": "الغزالي يتولى التدريس في النظامية ببغداد",
+    "en": "al-Ghazali becomes chief professor at the Nizamiyya in Baghdad"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1091.0004312203537,
+    "latest": 1091.9997672778727
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/muqaddima-completion-779",
+   "kind": "event",
+   "title": {
+    "ar": "إتمام ابن خلدون لكتابه المقدمة",
+    "en": "Ibn Khaldun completes the Muqaddima",
+    "ur": "ابن خلدون کا مقدمہ مکمل کرنا"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1377.0021971703732,
+    "latest": 1378.0015332278922
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/first-raid-on-sicily",
    "kind": "event",
    "title": {
@@ -61043,8 +63817,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-amr-dismissal-egypt"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/apostasy-of-amr-ibn-madikarib",
@@ -61065,8 +63841,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-apostasy-of-amr-ibn-madikarib"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/ayn-al-tamr-raid-39",
@@ -61088,8 +63866,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-ayn-al-tamr-raid-39"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/ayn-jalut-658",
@@ -61112,8 +63892,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-ayn-jalut-658"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/baghdad-manifesto-402",
@@ -61135,8 +63917,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-baghdad-manifesto-402"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/bahira-encounter",
@@ -61159,8 +63943,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-bahira-encounter"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/battle-of-marj-al-suffar",
@@ -61182,8 +63968,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-battle-of-marj-al-suffar"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/battle-of-rayshahr",
@@ -61202,8 +63990,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-battle-of-rayshahr"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/battle-of-wadi-al-makhazin-1578",
@@ -61223,8 +64013,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-battle-of-wadi-al-makhazin-1578"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/baya-wilayat-ahd-yazid",
@@ -61244,8 +64036,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-baya-wilayat-ahd-yazid"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/building-of-al-hashimiyya",
@@ -61265,8 +64059,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-building-of-al-hashimiyya"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/building-of-masisa",
@@ -61288,8 +64084,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-building-of-masisa"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/building-of-the-kaaba",
@@ -61309,8 +64107,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-building-of-the-kaaba"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/compilation-of-quran",
@@ -61327,8 +64127,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-compilation-of-quran"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-al-anbar",
@@ -61351,8 +64153,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-al-anbar"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-arwad",
@@ -61371,8 +64175,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-arwad"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-harran",
@@ -61394,8 +64200,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-harran"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-hulwan",
@@ -61414,8 +64222,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-hulwan"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-iqritish",
@@ -61437,8 +64247,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-iqritish"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-raqqa",
@@ -61460,8 +64272,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-raqqa"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-ras-al-ayn",
@@ -61483,8 +64297,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-ras-al-ayn"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-rhodes",
@@ -61503,8 +64319,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-rhodes"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/conquest-of-tabaristan",
@@ -61523,8 +64341,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-conquest-of-tabaristan"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/dar-al-imara-saga",
@@ -61544,8 +64364,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-dar-al-imara-saga"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/death-al-adil-615",
@@ -61567,8 +64389,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-event-death-al-adil-615"
+   ],
+   "coverage": "image"
   },
   {
    "id": "event/death-bahlawan-582",
@@ -69148,6 +71972,28 @@
    "coverage": "card"
   },
   {
+   "id": "event/al-mansur-eastern-expansion-cordoba",
+   "kind": "event",
+   "title": {
+    "ar": "زيادة المنصور الشرقية في جامع قرطبة",
+    "en": "Al-Mansur's eastern expansion"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 987.0010335598952,
+    "latest": 988.0003696174142
+   },
+   "periods": [
+    "period/umayyad",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/al-uqab-609",
    "kind": "event",
    "title": {
@@ -70030,6 +72876,27 @@
    "coverage": "card"
   },
   {
+   "id": "event/battle-of-arsuf-587",
+   "kind": "event",
+   "title": {
+    "ar": "معركة أرسوف",
+    "en": "Battle of Arsuf"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1190.999746743602,
+    "latest": 1191.999082801121
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/battle-of-azaz-1030",
    "kind": "event",
    "title": {
@@ -70053,6 +72920,48 @@
    "coverage": "card"
   },
   {
+   "id": "event/battle-of-jacobs-ford-1179",
+   "kind": "event",
+   "title": {
+    "ar": "معركة قصر يعقوب",
+    "en": "Battle of Jacob's Ford"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1178.9995003319714,
+    "latest": 1179.9988363894904
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-jaffa-1192",
+   "kind": "event",
+   "title": {
+    "ar": "معركة يافا (١١٩٢)",
+    "en": "Battle of Jaffa"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1191.9990828011528,
+    "latest": 1193.0011567656788
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/battle-of-manzikert-463",
    "kind": "event",
    "title": {
@@ -70067,6 +72976,27 @@
    "periods": [
     "period/abbasid-fragmentation",
     "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-montgisard-573",
+   "kind": "event",
+   "title": {
+    "ar": "معركة تل الجزر",
+    "en": "Battle of Montgisard"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1177.0008282168696,
+    "latest": 1178.0001642743887
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
    ],
    "places": [],
    "tags": [],
@@ -74858,6 +77788,27 @@
    "coverage": "card"
   },
   {
+   "id": "event/siege-of-acre-1189",
+   "kind": "event",
+   "title": {
+    "ar": "حصار عكا (١١٨٩–١١٩١)",
+    "en": "Siege of Acre"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1189.0010746285002,
+    "latest": 1191.999082801121
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/siege-of-baza-894",
    "kind": "event",
    "title": {
@@ -75252,28 +78203,6 @@
    "places": [
     "place/baghdad"
    ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/timur-delhi-801",
-   "kind": "event",
-   "title": {
-    "ar": "أخذ تيمور دلهي سنة 801هـ",
-    "en": "Timur Takes Delhi in 801 AH"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1398.001943913975,
-    "latest": 1399.0012799714941
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -77531,6 +80460,72 @@
    "coverage": "card"
   },
   {
+   "id": "event/abd-al-rahman-i-founds-cordoba-mosque",
+   "kind": "event",
+   "title": {
+    "ar": "عبد الرحمن الداخل يؤسس جامع قرطبة",
+    "en": "Abd al-Rahman I founds the Great Mosque"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 785.0009924912899,
+    "latest": 786.0003285488092
+   },
+   "periods": [
+    "period/umayyad",
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/abd-al-rahman-ii-expands-cordoba-mosque",
+   "kind": "event",
+   "title": {
+    "ar": "عبد الرحمن الثاني يوسع جامع قرطبة",
+    "en": "Abd al-Rahman II enlarges the mosque"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 840.0000684476752,
+    "latest": 841.0021424122012
+   },
+   "periods": [
+    "period/umayyad",
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/abd-al-rahman-iii-minaret-cordoba",
+   "kind": "event",
+   "title": {
+    "ar": "صومعة عبد الرحمن الناصر على جامع قرطبة",
+    "en": "Al-Nasir's minaret on the mosque"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 951.0002943250032,
+    "latest": 951.9996303825224
+   },
+   "periods": [
+    "period/umayyad",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/abdallah-ibn-sawar-qiqan",
    "kind": "event",
    "title": {
@@ -77901,6 +80896,29 @@
    "coverage": "card"
   },
   {
+   "id": "event/al-biruni-flees-to-bukhara",
+   "kind": "event",
+   "title": {
+    "ar": "البيروني يلجأ إلى بخارى",
+    "en": "Al-Biruni takes refuge at Bukhara"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 997.0026078564241,
+    "latest": 998.0019439139433
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/bukhara"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/al-ghazali-damascus-retreat-488",
    "kind": "event",
    "title": {
@@ -77919,6 +80937,28 @@
    "places": [
     "place/damascus"
    ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/al-hakam-ii-expands-cordoba-mosque",
+   "kind": "event",
+   "title": {
+    "ar": "الحكم الثاني يوسع جامع قرطبة ويجمل محرابه",
+    "en": "Al-Hakam II's expansion and mihrab"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 961.0018686215323,
+    "latest": 962.0012046790514
+   },
+   "periods": [
+    "period/umayyad",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -78503,6 +81543,29 @@
    "coverage": "image"
   },
   {
+   "id": "event/aurangzeb-coronation-delhi-1659",
+   "kind": "event",
+   "title": {
+    "ar": "تتويج أورنكزيب بدلهي",
+    "en": "Coronation of Aurangzeb at Delhi"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1659.0011430761754,
+    "latest": 1660.0004791336946
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/delhi"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/azerbaijan-mongols-submit-628",
    "kind": "event",
    "title": {
@@ -78985,6 +82048,52 @@
    "span": null,
    "periods": [],
    "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-panipat-932",
+   "kind": "event",
+   "title": {
+    "ar": "معركة باني بت الأولى",
+    "en": "First Battle of Panipat"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1525.9990964906876,
+    "latest": 1526.998432548207
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/panipat"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-ray-1059",
+   "kind": "event",
+   "title": {
+    "ar": "معركة الري (١٠٥٩)",
+    "en": "Battle of Ray (1059)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1058.999774122672,
+    "latest": 1059.999110180191
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/rayy"
+   ],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -79628,6 +82737,30 @@
    "coverage": "card"
   },
   {
+   "id": "event/conquest-of-trebizond-1461",
+   "kind": "event",
+   "title": {
+    "ar": "فتح طرابزون",
+    "en": "Conquest of Trebizond"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1461.0011841447804,
+    "latest": 1462.0005202022996
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [
+    "place/trebizond"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/conquest-of-tripoli-west",
    "kind": "event",
    "title": {
@@ -79710,6 +82843,27 @@
    },
    "periods": [
     "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/cyprus-library-to-baghdad",
+   "kind": "event",
+   "title": {
+    "ar": "خزانة كتب قبرص إلى بغداد",
+    "en": "The Cyprus library comes to Baghdad"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 830.0012320581532,
+    "latest": 831.0005681156722
+   },
+   "periods": [
+    "period/abbasid-early"
    ],
    "places": [],
    "tags": [],
@@ -81027,6 +84181,29 @@
    "coverage": "card"
   },
   {
+   "id": "event/founding-of-shahjahanabad-1638",
+   "kind": "event",
+   "title": {
+    "ar": "تأسيس شاهجهان آباد",
+    "en": "Founding of Shahjahanabad"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1638.0013963325737,
+    "latest": 1639.0007323900927
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/delhi"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/franks-armenians-fitna-623",
    "kind": "event",
    "title": {
@@ -81740,6 +84917,50 @@
    "coverage": "card"
   },
   {
+   "id": "event/humayun-returns-to-delhi-962",
+   "kind": "event",
+   "title": {
+    "ar": "عودة همايون إلى دلهي سنة ٩٦٢هـ",
+    "en": "Humayun returns to Delhi, 962 AH"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1554.9990075087098,
+    "latest": 1555.998343566229
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/delhi"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/hunayn-translation-circle-835",
+   "kind": "event",
+   "title": {
+    "ar": "حلقة حنين بن إسحاق للترجمة",
+    "en": "Ḥunayn ibn Isḥāq's translation circle"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 835.000650252914,
+    "latest": 835.9999863104333
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/hunin-falls-583",
    "kind": "event",
    "title": {
@@ -81914,6 +85135,74 @@
    "periods": [
     "period/abbasid-early",
     "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/ibn-rushd-caliphal-physician-1182",
+   "kind": "event",
+   "title": {
+    "ar": "ابن رشد طبيباً للخليفة (١١٨٢)",
+    "en": "Ibn Rushd becomes the caliph's physician (1182)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1182.0002464116305,
+    "latest": 1182.9995824691498
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/marrakesh"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/ibn-rushd-exiled-to-lucena-591",
+   "kind": "event",
+   "title": {
+    "ar": "نفي ابن رشد إلى ليسانة سنة ٥٩١هـ",
+    "en": "Ibn Rushd exiled to Lucena, 591 AH"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1194.999828880812,
+    "latest": 1195.9991649383312
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/lucena"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/ibn-rushd-presented-to-the-caliph",
+   "kind": "event",
+   "title": {
+    "ar": "ابن طفيل يقدم ابن رشد إلى الخليفة",
+    "en": "Ibn Ṭufayl presents Ibn Rushd to the caliph"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1169.0006639424491,
+    "latest": 1169.9999999999682
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/buyid-seljuk-fatimid-era"
    ],
    "places": [],
    "tags": [],
@@ -82237,6 +85526,29 @@
    ],
    "places": [
     "place/tiflis"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/jama-masjid-delhi-completed-1656",
+   "kind": "event",
+   "title": {
+    "ar": "اكتمال الجامع المسجد بدلهي",
+    "en": "Completion of the Jama Masjid of Delhi"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1656.000396996516,
+    "latest": 1657.002470961042
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/delhi"
    ],
    "tags": [],
    "hero": null,
@@ -82919,594 +86231,6 @@
    "coverage": "card"
   },
   {
-   "id": "event/killing-of-shihab-al-din-ghuri-602",
-   "kind": "event",
-   "title": {
-    "ar": "قتل شهاب الدين الغوري",
-    "en": "Killing of Shihab al-Din al-Ghuri"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1206.1622757483042,
-    "latest": 1206.2471508654892
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/killing-of-ziri-ibn-manad-360",
-   "kind": "event",
-   "title": {
-    "ar": "مقتل زيري بن مناد الصنهاجي",
-    "en": "Killing of Ziri ibn Manad al-Sanhaji, 360"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 971.0007050110543,
-    "latest": 972.0000410685734
-   },
-   "periods": [
-    "period/abbasid-early",
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/ashir"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/kufa-basra-storm-285",
-   "kind": "event",
-   "title": {
-    "ar": "عاصفة وبرد الكوفة والبصرة سنة ٢٨٥",
-    "en": "Storm and hail at Kufa and Basra, 285"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 898.1641649041389,
-    "latest": 898.2490400213239
-   },
-   "periods": [
-    "period/abbasid-early",
-    "period/abbasid-fragmentation"
-   ],
-   "places": [
-    "place/basra",
-    "place/kufa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/kufa-eid-raid-293",
-   "kind": "event",
-   "title": {
-    "ar": "دخول القرامطة الكوفة يوم عيد الأضحى",
-    "en": "Qarmatian entry into Kufa on the Eid al-Adha, 293"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 905.9398208039863,
-    "latest": 905.9425587109617
-   },
-   "periods": [
-    "period/abbasid-early",
-    "period/abbasid-fragmentation"
-   ],
-   "places": [
-    "place/kufa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/kumashtikin-killed-harim-576",
-   "kind": "event",
-   "title": {
-    "ar": "قتل كمشتكين وحصر الفرنج حارم",
-    "en": "Kumashtakīn killed — the Franks besiege Ḥārim"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1179.998836389522,
-    "latest": 1181.0009103540483
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/harim"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-kumashtikin-killed-harim-576"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/lajin-murder-698",
-   "kind": "event",
-   "title": {
-    "ar": "قتل لاجين وعودة الملك الناصر سنة 698هـ",
-    "en": "Lajin murdered; al-Nasir restored, 698"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1299.0019644482775,
-    "latest": 1299.0868395654625
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mahdi-barid-hijaz",
-   "kind": "event",
-   "title": {
-    "ar": "إقامة البريد من الحجاز إلى العراق",
-    "en": "Establishment of the barid from the Hijaz to Iraq"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 782.0002464116305,
-    "latest": 782.9995824691498
-   },
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [
-    "place/baghdad"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mahdi-haram-enlargement",
-   "kind": "event",
-   "title": {
-    "ar": "الزيادة الكبرى في المسجد الحرام",
-    "en": "The Great Enlargement of the Sacred Mosque"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 782.9995824691814,
-    "latest": 783.9989185267007
-   },
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [
-    "place/mecca"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mahdi-zindiq-inquisition",
-   "kind": "event",
-   "title": {
-    "ar": "تتبع الزنادقة في عهد المهدي",
-    "en": "Pursuit of the zanadiqa under al-Mahdi"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 774.9994181947611,
-    "latest": 775.9987542522802
-   },
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mahdiyya-revolt-594",
-   "kind": "event",
-   "title": {
-    "ar": "عصيان المهدية على الموحدين",
-    "en": "The Mahdiyya revolt (594–595 AH)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1198.0005749604716,
-    "latest": 1198.9999110179906
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mahmud-mirbat-600",
-   "kind": "event",
-   "title": {
-    "ar": "استيلاء محمود الحميري على مرباط",
-    "en": "Mahmud al-Himyari seizes Mirbat in Hadramawt"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1202.9999931552325,
-    "latest": 1203.9993292127515
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/mirbat"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/majus-sack-seville-230",
-   "kind": "event",
-   "title": {
-    "ar": "نزول المجوس بإشبيلية (230هـ)",
-    "en": "Majus landing at Seville, 230 AH"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 844.0001505848854,
-    "latest": 845.0022245494115
-   },
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [
-    "place/seville"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/makkah-khutba-abbasid-462",
-   "kind": "event",
-   "title": {
-    "ar": "خطبة مكة للخليفة العباسي والسلطان السلجوقي",
-    "en": "The Khutba at Mecca for the Abbasid Caliph and the Seljuk Sultan"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1070.0006844767518,
-    "latest": 1071.0000205342708
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/mecca"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/malikshah-baghdad-ultimatum-485",
-   "kind": "event",
-   "title": {
-    "ar": "عزم ملكشاه على إخراج الخليفة من بغداد فمات",
-    "en": "Malikshah Resolves to Expel the Caliph from Baghdad, and Dies"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1091.9997672779045,
-    "latest": 1093.0018412424306
-   },
-   "periods": [
-    "period/abbasid-fragmentation",
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mamun-egypt-entry",
-   "kind": "event",
-   "title": {
-    "ar": "دخول المأمون مصر",
-    "en": "al-Ma'mun Enters Egypt"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 831.000568115704,
-    "latest": 831.9999041732231
-   },
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [
-    "place/egypt"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mangli-fall-612",
-   "kind": "event",
-   "title": {
-    "ar": "قتل منكلي صاحب بلاد الجبل",
-    "en": "The fall and death of Mangli (612 AH)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1215.6655509695613,
-    "latest": 1215.7476881797393
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/marinid-entry-tunis-748",
-   "kind": "event",
-   "title": {
-    "ar": "دخول أبي الحسن المريني إفريقية",
-    "en": "Abu al-Hasan al-Marini's entry into Ifriqiya"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1347.5806484732746,
-    "latest": 1347.6655235904595
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/tunis"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/marwan-caliphate",
-   "kind": "event",
-   "title": {
-    "ar": "خلافة مروان بن الحكم",
-    "en": "The Caliphate of Marwan ibn al-Hakam"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 683.999603003484,
-    "latest": 685.0016769680101
-   },
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/marwan-exhumes-yazid",
-   "kind": "event",
-   "title": {
-    "ar": "نبش يزيد الناقص وصلبه",
-    "en": "Marwan ibn Muhammad Exhumes and Crucifies Yazid al-Naqis"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 745.0001711191878,
-    "latest": 745.9995071767071
-   },
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/masjid-haram-expansion-17",
-   "kind": "event",
-   "title": {
-    "ar": "توسعة المسجد الحرام",
-    "en": "'Umar's expansion of al-Masjid al-Haram (17 AH)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 638.0000273790702,
-    "latest": 638.9993634365892
-   },
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/makkah"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/masjid-nabawi-expansion-29",
-   "kind": "event",
-   "title": {
-    "ar": "الزيادة في مسجد النبي",
-    "en": "'Uthman's expansion of the Prophet's Mosque (29 AH)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 649.0009377331498,
-    "latest": 650.0002737906691
-   },
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/madinat-al-mubarak"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/masmala-tabaristan-disaster",
-   "kind": "event",
-   "title": {
-    "ar": "هلاك مصقلة بطبرستان",
-    "en": "Masmala's Destruction in Tabaristan"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [
-    "place/tabaristan"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mawdud-assassinated-damascus-507",
-   "kind": "event",
-   "title": {
-    "ar": "اغتيال مودود صاحب الموصل بجامع دمشق سنة 507",
-    "en": "The Assassination of Mawdud, Lord of Mosul, in the Great Mosque of Damascus, 507"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1112.9995140215062,
-    "latest": 1113.9988500790255
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/damascus"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mawdud-assassination-507",
-   "kind": "event",
-   "title": {
-    "ar": "قتل مودود صاحب الموصل بجامع دمشق",
-    "en": "The Killing of Mawdud, Lord of Mosul, in the Mosque of Damascus"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1112.9995140215062,
-    "latest": 1113.9988500790255
-   },
-   "periods": [
-    "period/abbasid-fragmentation",
-    "period/buyid-seljuk-fatimid-era",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/damascus"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mecca-medina-war-601",
-   "kind": "event",
-   "title": {
-    "ar": "الحرب بين أميري مكة والمدينة",
-    "en": "The war between the amirs of Mecca and Medina (601 AH)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1205.0014031773412,
-    "latest": 1206.0007392348602
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/mongol-eruption-617",
-   "kind": "event",
-   "title": {
-    "ar": "خروج التتر إلى بلاد الإسلام",
-    "en": "The Mongols Erupt into the Lands of Islam"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1219.9996577616241,
-    "latest": 1221.0017317261502
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "exhibit/path-fatimid-cairo",
    "kind": "exhibit",
    "title": {
@@ -83740,8 +86464,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-alexandria-city"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-alexandria",
@@ -83756,8 +86482,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-alexandria"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-algeria",
@@ -83772,8 +86500,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-algeria"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-andalus-cities",
@@ -83788,8 +86518,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-andalus-cities"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-andalus-emirs",
@@ -83804,8 +86536,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-andalus-emirs"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-andalus-thinkers",
@@ -83820,8 +86554,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-andalus-thinkers"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-andalus",
@@ -83836,8 +86572,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-andalus"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-ansar",
@@ -83852,8 +86590,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-ansar"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-arab-lit",
@@ -83868,8 +86608,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-arab-lit"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-arab-novel",
@@ -83884,8 +86626,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-arab-novel"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-arabia-before",
@@ -83900,8 +86644,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-arabia-before"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-arbaun",
@@ -83916,8 +86662,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-arbaun"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-arms-armor",
@@ -83932,8 +86680,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-arms-armor"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-ascetics-early",
@@ -83948,8 +86698,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-ascetics-early"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-ashara",
@@ -83964,8 +86716,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-ashara"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-astronomers",
@@ -83980,8 +86734,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-astronomers"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-astronomy",
@@ -83996,8 +86752,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-astronomy"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-badr",
@@ -84012,8 +86770,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-badr"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-baghdad-sufis",
@@ -84028,8 +86788,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-baghdad-sufis"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-banu-qurayza",
@@ -84044,8 +86806,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-banu-qurayza"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-barbary-ottomans",
@@ -84060,8 +86824,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-barbary-ottomans"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-battuta",
@@ -84076,8 +86842,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-battuta"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-bayat",
@@ -84092,8 +86860,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-bayat"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-book-arts",
@@ -84108,8 +86878,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-book-arts"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-books-shelf",
@@ -84124,8 +86896,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-exhibit-path-books-shelf"
+   ],
+   "coverage": "image"
   },
   {
    "id": "exhibit/path-botany",
@@ -88812,8 +91586,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-azali"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/azariqa",
@@ -88829,8 +91605,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-azariqa"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/ba-abbad",
@@ -88846,8 +91624,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-ba-abbad"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/ba-alawi",
@@ -88863,8 +91643,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-ba-alawi"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/bab-i-mashikhat",
@@ -88882,8 +91664,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-bab-i-mashikhat"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/bab-i-seraskeri",
@@ -88901,8 +91685,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-bab-i-seraskeri"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/babai",
@@ -88918,8 +91704,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-babai"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/babis",
@@ -88935,8 +91723,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-babis"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-asad-tribe",
@@ -88953,8 +91743,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-asad-tribe"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/abd-al-qays",
@@ -88974,8 +91766,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-abd-al-qays"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-abd-al-ashhal",
@@ -89016,8 +91810,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-al-dil"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-al-harith",
@@ -89034,8 +91830,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-al-harith"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-asad",
@@ -89052,8 +91850,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-asad"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-dubaya-ibn-zayd",
@@ -89070,8 +91870,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-dubaya-ibn-zayd"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-dubayb",
@@ -89088,8 +91890,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-dubayb"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-jusham",
@@ -89106,8 +91910,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-jusham"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-lakhm",
@@ -89124,8 +91930,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-lakhm"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-saida",
@@ -89167,8 +91975,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-salima"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/banu-zubayd",
@@ -89185,8 +91995,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-banu-zubayd"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/barmakids",
@@ -89203,8 +92015,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-barmakids"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/ismaili-dawa",
@@ -89219,8 +92033,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-ismaili-dawa"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/jurhum",
@@ -89239,8 +92055,10 @@
    ],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-jurhum"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/khazars",
@@ -89257,8 +92075,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-khazars"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/kinana",
@@ -89275,8 +92095,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-kinana"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/naqshbandiyya",
@@ -89295,8 +92117,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-group-naqshbandiyya"
+   ],
+   "coverage": "image"
   },
   {
    "id": "group/al-bu-said",
@@ -95942,8 +98766,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-journey-aden-to-zaila-battuta"
+   ],
+   "coverage": "image"
   },
   {
    "id": "journey/al-kudr-expedition",
@@ -95960,8 +98786,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-journey-al-kudr-expedition"
+   ],
+   "coverage": "image"
   },
   {
    "id": "journey/aydhab-to-jeddah",
@@ -95978,8 +98806,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-journey-aydhab-to-jeddah"
+   ],
+   "coverage": "image"
   },
   {
    "id": "journey/badr-to-medina-jubayr",
@@ -95996,8 +98826,10 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [],
-   "coverage": "card"
+   "candidates": [
+    "media/tbgen-journey-badr-to-medina-jubayr"
+   ],
+   "coverage": "image"
   },
   {
    "id": "journey/baghdad-to-damascus-jubayr",
@@ -108512,6 +111344,31 @@
    "coverage": "image"
   },
   {
+   "id": "person/bahadur-shah-zafar",
+   "kind": "person",
+   "title": {
+    "ar": "محمد بهادر شاه",
+    "en": "Bahadur Shah Zafar",
+    "ur": "بہادر شاہ ظفر"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1775.811207622333,
+    "latest": 1862.852009281473
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/delhi"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "person/dost-mohammad-khan",
    "kind": "person",
    "title": {
@@ -108925,17 +111782,23 @@
    "id": "person/salah-al-din-yusuf-ibn-ayyub",
    "kind": "person",
    "title": {
-    "ar": "صلاح الدين يوسف بن أيوب الملك الناصر"
+    "ar": "صلاح الدين الأيوبي",
+    "en": "Saladin (Salah al-Din Yusuf ibn Ayyub)",
+    "ur": "صلاح الدین ایوبی"
    },
    "status": "published",
    "span": {
-    "earliest": 1193.0011567657104,
-    "latest": 1194.0004928232297
+    "earliest": 1137.0000068447675,
+    "latest": 1193.173644907119
    },
    "periods": [
-    "period/crusades-ayyubid-mamluk"
+    "period/crusades-ayyubid-mamluk",
+    "period/buyid-seljuk-fatimid-era"
    ],
-   "places": [],
+   "places": [
+    "place/tikrit",
+    "place/damascus"
+   ],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -111067,6 +113930,27 @@
    "coverage": "card"
   },
   {
+   "id": "person/aurangzeb-mughal",
+   "kind": "person",
+   "title": {
+    "ar": "أورنكزيب عالمكير",
+    "en": "Aurangzeb (Alamgir I)"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1618.838785190661,
+    "latest": 1707.1664031430855
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "person/ayaz-ishaki",
    "kind": "person",
    "title": {
@@ -111112,6 +113996,30 @@
    "places": [
     "place/lahore"
    ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/babur-mughal",
+   "kind": "person",
+   "title": {
+    "ar": "ظهير الدين بابر",
+    "en": "Babur (Zahir al-Din Muhammad)",
+    "ur": "ظہیر الدین بابر"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1483.1207348542407,
+    "latest": 1530.984825150382
+   },
+   "periods": [
+    "period/gunpowder-empires",
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -127060,31 +129968,6 @@
    "coverage": "card"
   },
   {
-   "id": "person/bahadur-shah-zafar",
-   "kind": "person",
-   "title": {
-    "ar": "محمد بهادر شاه",
-    "en": "Bahadur Shah Zafar",
-    "ur": "بہادر شاہ ظفر"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1775.811207622333,
-    "latest": 1862.852009281473
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/gunpowder-empires"
-   ],
-   "places": [
-    "place/delhi"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "person/dagh-dehlvi",
    "kind": "person",
    "title": {
@@ -131616,52 +134499,6 @@
    "coverage": "card"
   },
   {
-   "id": "person/amina-cachalia",
-   "kind": "person",
-   "title": {
-    "ar": "أمينة كاشاليا",
-    "en": "Amina Cachalia",
-    "ur": "امینہ کاشالیا"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1930.486526075142,
-    "latest": 2013.0864425689465
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/contemporary-era",
-    "period/modern-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/amina-wadud",
-   "kind": "person",
-   "title": {
-    "ar": "أمينة ودود",
-    "en": "Amina Wadud",
-    "ur": "امینہ ودود"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1952.7320205069234,
-    "latest": 1952.7347584138988
-   },
-   "periods": [
-    "period/modern-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "place/al-fayyum",
    "kind": "place",
    "title": {
@@ -132009,7 +134846,6 @@
     "place/guadix",
     "place/jerez",
     "place/lisbon",
-    "place/lucena",
     "place/ronda",
     "place/silves",
     "place/tulaytula",
@@ -134027,6 +136863,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/merv",
+   "kind": "place",
+   "title": {
+    "ar": "مرو",
+    "en": "Merv"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/multan",
    "kind": "place",
    "title": {
@@ -134126,22 +136978,6 @@
    "title": {
     "ar": "منى",
     "en": "Mina"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/delhi",
-   "kind": "place",
-   "title": {
-    "ar": "دلهي",
-    "en": "Delhi"
    },
    "status": "draft",
    "span": null,
@@ -134292,22 +137128,6 @@
    "coverage": "card"
   },
   {
-   "id": "place/ghazna",
-   "kind": "place",
-   "title": {
-    "ar": "غزنة",
-    "en": "Ghazna"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "place/iskandariyya",
    "kind": "place",
    "title": {
@@ -134357,6 +137177,22 @@
    "periods": [
     "period/rashidun"
    ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/delhi",
+   "kind": "place",
+   "title": {
+    "ar": "دلهي",
+    "en": "Delhi"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
    "places": [],
    "tags": [],
    "hero": null,
@@ -135597,6 +138433,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/belgrade",
+   "kind": "place",
+   "title": {
+    "ar": "بلغراد",
+    "en": "Belgrade"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/bilad-banu-sad",
    "kind": "place",
    "title": {
@@ -135732,6 +138584,22 @@
    "title": {
     "ar": "قسنطينة",
     "en": "Constantine"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/constantinople",
+   "kind": "place",
+   "title": {
+    "ar": "القسطنطينية",
+    "en": "Constantinople"
    },
    "status": "draft",
    "span": null,
@@ -136449,22 +139317,6 @@
    "coverage": "card"
   },
   {
-   "id": "place/jurjan",
-   "kind": "place",
-   "title": {
-    "ar": "جرجان",
-    "en": "Jurjan"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "place/juzjan",
    "kind": "place",
    "title": {
@@ -136486,6 +139338,22 @@
    "title": {
     "ar": "نهر قلقة",
     "en": "Kalka River"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/kath-khwarazm",
+   "kind": "place",
+   "title": {
+    "ar": "كاث خوارزم",
+    "en": "Kath (Khwarazm)"
    },
    "status": "draft",
    "span": null,
@@ -136612,17 +139480,13 @@
    "id": "place/lucena",
    "kind": "place",
    "title": {
-    "ar": "لشانة",
+    "ar": "ليسانة",
     "en": "Lucena"
    },
    "status": "draft",
    "span": null,
-   "periods": [
-    "period/mongol-post-mongol"
-   ],
-   "places": [
-    "place/al-andalus"
-   ],
+   "periods": [],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [
@@ -136977,6 +139841,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/negroponte",
+   "kind": "place",
+   "title": {
+    "ar": "نجربونت",
+    "en": "Negroponte"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/nekour",
    "kind": "place",
    "title": {
@@ -136998,6 +139878,38 @@
    "title": {
     "ar": "نينوى",
     "en": "Nineveh"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/otranto",
+   "kind": "place",
+   "title": {
+    "ar": "أوترانتو",
+    "en": "Otranto"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/panipat",
+   "kind": "place",
+   "title": {
+    "ar": "باني بت",
+    "en": "Panipat"
    },
    "status": "draft",
    "span": null,
@@ -137240,6 +140152,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/rhodes",
+   "kind": "place",
+   "title": {
+    "ar": "رودس",
+    "en": "Rhodes"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/ronda",
    "kind": "place",
    "title": {
@@ -137442,6 +140370,22 @@
    "places": [
     "place/shabwa"
    ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shkodra",
+   "kind": "place",
+   "title": {
+    "ar": "إشكودرة",
+    "en": "Shkodra"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -137826,6 +140770,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/theodoro",
+   "kind": "place",
+   "title": {
+    "ar": "ثيودورو",
+    "en": "Theodoro"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/timbuktu",
    "kind": "place",
    "title": {
@@ -137876,10 +140836,11 @@
    "coverage": "card"
   },
   {
-   "id": "place/tripoli-al-sham",
+   "id": "place/trebizond",
    "kind": "place",
    "title": {
-    "ar": "طرابلس الشام"
+    "ar": "أطرابزندة",
+    "en": "Ṭrābazanda"
    },
    "status": "draft",
    "span": null,
@@ -137891,11 +140852,10 @@
    "coverage": "card"
   },
   {
-   "id": "place/tus",
+   "id": "place/tripoli-al-sham",
    "kind": "place",
    "title": {
-    "ar": "طوس",
-    "en": "Tus"
+    "ar": "طرابلس الشام"
    },
    "status": "draft",
    "span": null,
@@ -138241,11 +141201,11 @@
    "coverage": "card"
   },
   {
-   "id": "place/bukhara",
+   "id": "place/ghazna",
    "kind": "place",
    "title": {
-    "en": "Bukhara",
-    "ar": "بخارى"
+    "ar": "غزنة",
+    "en": "Ghazna"
    },
    "status": "draft",
    "span": null,
@@ -138305,6 +141265,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/bukhara",
+   "kind": "place",
+   "title": {
+    "en": "Bukhara",
+    "ar": "بخارى"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/hamadan",
    "kind": "place",
    "title": {
@@ -138342,22 +141318,6 @@
    "title": {
     "ar": "مدين",
     "en": "Madyan"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/marrakesh",
-   "kind": "place",
-   "title": {
-    "en": "Marrakesh",
-    "ar": "مراكش"
    },
    "status": "draft",
    "span": null,
@@ -138454,6 +141414,22 @@
    "places": [
     "place/jazira"
    ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/marrakesh",
+   "kind": "place",
+   "title": {
+    "en": "Marrakesh",
+    "ar": "مراكش"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -138780,27 +141756,6 @@
     "place/homs",
     "place/qinnasrin"
    ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/baghdad",
-   "kind": "place",
-   "title": {
-    "en": "Baghdad",
-    "ar": "بغداد"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 761.9998357255795,
-    "latest": 762.9991717830987
-   },
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -139628,6 +142583,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/jurjan",
+   "kind": "place",
+   "title": {
+    "ar": "جرجان",
+    "en": "Jurjan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/jurjuma",
    "kind": "place",
    "title": {
@@ -140230,22 +143201,6 @@
    "coverage": "card"
   },
   {
-   "id": "place/sinjar",
-   "kind": "place",
-   "title": {
-    "ar": "سنجار",
-    "en": "Sinjar"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "place/sumaysat",
    "kind": "place",
    "title": {
@@ -140346,17 +143301,15 @@
    "coverage": "card"
   },
   {
-   "id": "place/tikrit",
+   "id": "place/tus",
    "kind": "place",
    "title": {
-    "ar": "تكريت",
-    "en": "Tikrit"
+    "ar": "طوس",
+    "en": "Tus"
    },
    "status": "draft",
    "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
+   "periods": [],
    "places": [],
    "tags": [],
    "hero": null,
@@ -140508,6 +143461,27 @@
    "coverage": "card"
   },
   {
+   "id": "place/baghdad",
+   "kind": "place",
+   "title": {
+    "en": "Baghdad",
+    "ar": "بغداد"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 761.9998357255795,
+    "latest": 762.9991717830987
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/taif",
    "kind": "place",
    "title": {
@@ -140546,11 +143520,11 @@
    "coverage": "card"
   },
   {
-   "id": "place/cordoba",
+   "id": "place/khaybar",
    "kind": "place",
    "title": {
-    "en": "Cordoba",
-    "ar": "قرطبة"
+    "en": "Khaybar",
+    "ar": "خيبر"
    },
    "status": "draft",
    "span": null,
@@ -140562,11 +143536,11 @@
    "coverage": "card"
   },
   {
-   "id": "place/khaybar",
+   "id": "place/cordoba",
    "kind": "place",
    "title": {
-    "en": "Khaybar",
-    "ar": "خيبر"
+    "en": "Cordoba",
+    "ar": "قرطبة"
    },
    "status": "draft",
    "span": null,
@@ -141159,6 +144133,22 @@
    "coverage": "card"
   },
   {
+   "id": "place/sinjar",
+   "kind": "place",
+   "title": {
+    "ar": "سنجار",
+    "en": "Sinjar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/tarsus",
    "kind": "place",
    "title": {
@@ -141169,6 +144159,24 @@
    "span": null,
    "periods": [
     "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tikrit",
+   "kind": "place",
+   "title": {
+    "ar": "تكريت",
+    "en": "Tikrit"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
    ],
    "places": [],
    "tags": [],
@@ -141704,22 +144712,6 @@
    "title": {
     "ar": "ماردين",
     "en": "Mardin"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/merv",
-   "kind": "place",
-   "title": {
-    "ar": "مرو",
-    "en": "Merv"
    },
    "status": "draft",
    "span": null,
@@ -148504,168 +151496,6 @@
    "title": {
     "ar": "دمرناخ",
     "en": "Dumrunakh"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/dumyra",
-   "kind": "place",
-   "title": {
-    "ar": "دميرة",
-    "en": "Dumyra"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/dunqula",
-   "kind": "place",
-   "title": {
-    "ar": "دنقلة",
-    "en": "Dunqula"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/dutch-east-indies",
-   "kind": "place",
-   "title": {
-    "ar": "الجزائر الهندية الشرقية الهولندية",
-    "en": "The Dutch East Indies"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/colonial-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/esna",
-   "kind": "place",
-   "title": {
-    "ar": "إسنا",
-    "en": "Esna"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/fahraj",
-   "kind": "place",
-   "title": {
-    "ar": "الفهرج",
-    "en": "al-Fahraj"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/fahs-khiraz",
-   "kind": "place",
-   "title": {
-    "ar": "فحص خراز",
-    "en": "Fahs Khiraz"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/falmus",
-   "kind": "place",
-   "title": {
-    "ar": "حصن فلموس",
-    "en": "Ḥiṣn Falmūs"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/fandarina",
-   "kind": "place",
-   "title": {
-    "ar": "فندرينه",
-    "en": "Fandarina"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/fanmark",
-   "kind": "place",
-   "title": {
-    "ar": "فنمارك",
-    "en": "Fanmārk"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/farah",
-   "kind": "place",
-   "title": {
-    "ar": "فرة",
-    "en": "Farah"
    },
    "status": "draft",
    "span": null,
@@ -174171,6 +177001,31 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-battle-of-dalas-1150"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/kumashtikin-killed-harim-576",
+   "kind": "event",
+   "title": {
+    "ar": "قتل كمشتكين وحصر الفرنج حارم",
+    "en": "Kumashtakīn killed — the Franks besiege Ḥārim"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1179.998836389522,
+    "latest": 1181.0009103540483
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/harim"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-kumashtikin-killed-harim-576"
    ],
    "coverage": "image"
   },

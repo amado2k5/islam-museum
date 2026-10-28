@@ -103,3 +103,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   or card-bearing as wired.
 - 2026-10-28 — SDXL round 3 launched: 320 jobs (~25/class), output tb/,
   register at the next regen.
+- 2026-10-28 — SDXL round 3 complete: 320/320; 743 webp committed
+  (~35 MB). Index registers 769 tbgen; image coverage 1,360 of 7,857
+  (17.1%). Note: Claude's Timeline Explorer rebuild (#2459/#2460) uses
+  pre-rendered stage images, not tbgen — cards/index unchanged.
