@@ -152,6 +152,8 @@ export function writeAll(graphPath: string, outDir: string): number {
       files++
     }
     writeFileSync(join(dir, 'index.json'), JSON.stringify({ base: TIME_BROWSER_BASE, topics }))
+    // Every record id for this language, so entity pages can link to their stop.
+    writeFileSync(join(dir, 'members.json'), JSON.stringify(Object.values(topics).flat().map((r) => r.id)))
     const live = liveSubset(topics)
     writeFileSync(join(dir, 'live.json'), JSON.stringify(live))
     writeFileSync(join(dir, 'tour.json'), JSON.stringify(tourSubset(live)))
