@@ -61,3 +61,34 @@ Append one line per merged PR, newest last:
 
 - 2026-10-27 TB0 started: design confirmed on origin/main; counts measured; Pages vs R2 open for the founder.
 - 2026-10-27 TB0 merged (PR #2382): lane doc with prose counts; DESIGN §9 notes for Devin. Next: TB1, blocked on Pages vs R2 (DESIGN §8).
+
+## Comparison with TimelineThis (observed 27 Oct 2026)
+
+Observed in Chrome on timelinethis.ai.studio (pre-loaded Ancient Egypt, all seven stops, Kids switch on). Our plan keeps the layout and drops the runtime AI.
+
+**Keep**
+- A strip of stops with a next arrow, a card with title, date and one line, and a side panel with key people, wars and cultural topics.
+- A "Read Details" pop-up for the longer text.
+- A Kids switch.
+
+**Change**
+- Detail prose is generic on TimelineThis ("historical shifts took place…"). Ours is written and cited at design time, with sources on every record.
+- The detail picture is a dark gradient with the label "HISTORICAL ARCHIVES". Ours is a licensed image, a generated card, or no image. Never a placeholder.
+- Stops are unlabelled dots. Ours show the date under each stop, and the stop order follows the dates.
+- Tutankhamun (1323 BCE) comes after Kadesh (1274 BCE) on their strip. Ours sorts by date and checks the order in tests.
+- Kids mode changed only the switch, not the card text. Ours needs its own simpler prose, checked against the same record.
+
+**Leave out**
+- "Ask AI" and anything that calls a model in the browser.
+- Search for new topics. Only prepared records are searchable; anything else shows "not in the Time Browser yet".
+
+**Observed failures**
+- Searching "Al Ghazali" shows: a valid Gemini API key should be set in deployment settings. Ours has no runtime search of that kind.
+- "View on Map" for Cleopatra VII showed "Could not load the details. Please try again."
+
+**Actions**
+1. Keep the stop strip, card, detail pop-up and Kids switch in TB4.
+2. Date every stop on the strip, and fail the build when the order breaks.
+3. Prepare detail prose and cited sources at design time, and mark the picture source for each record.
+4. Map views come from prepared SVG maps, not from a request at view time.
+5. Test Kids mode with its own prepared prose, not the same text.
