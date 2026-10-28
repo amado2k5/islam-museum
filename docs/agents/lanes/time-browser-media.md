@@ -85,3 +85,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   the founder's Mac, converted to webp (15 MB total). All registered as
   media/tbgen-* — image coverage now 820 stops (17.7%). Gate-screening pass
   still pending before ship (prompt-constrained only so far).
+- 2026-10-28 — "add 50 more" (batch 500): 4,881 stops; 765 cards, 14
+  clusters. NOTE: tbgen registration reports 149 this run (was 320 at
+  batch-450 regen) — dedup guard skips ids already present as entries;
+  image coverage 694. Needs a look next pass.
