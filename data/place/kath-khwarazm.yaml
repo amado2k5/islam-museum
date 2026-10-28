@@ -1,0 +1,18 @@
+id: place/kath-khwarazm
+class: place
+kind: city
+label: { ar: "كاث خوارزم", en: "Kath (Khwarazm)" }
+summary:
+  en: "Old city of Khwārezm on the Oxus, seat of the Afrighid Khwārezm-Shāhs and the birthplace of al-Bīrūnī."
+  ar: "مدينة خوارزم القديمة على جيحون، مقر الأفرغيين شاهات خوارزم، وفيها ولد البيروني."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [41.694, 60.771]
+coordinate_precision: locality
+sources: [source/geonames-gazetteer, source/britannica-al-biruni]
+provenance:
+  layer: own-research
+  source: "GeoNames coordinates (modern Beruni, Uzbekistan); birthplace of al-Biruni per Britannica"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-biruni
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

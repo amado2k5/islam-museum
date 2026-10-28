@@ -1,0 +1,23 @@
+id: event/mahmud-summons-al-biruni-to-ghazna
+class: event
+kind: other
+label: { ar: "محمود الغزنوي يأخذ البيروني إلى غزنة", en: "Maḥmūd takes al-Bīrūnī to Ghazna" }
+summary:
+  ar: "اتخذ السلطان محمود بن سبكتكين غزنة عاصمة سنة 998م وطلب البيروني وابن سينا إلى بلاطه؛ أفلت ابن سينا وأقام البيروني بغزنة بقية عمره إلا ما كان يرافق فيه حملات محمود على شمال الهند {cite:britannica-al-biruni}."
+  en: "Sultan Maḥmūd made Ghazna his capital in 998 and summoned al-Bīrūnī and Avicenna to his court; Avicenna escaped, but al-Bīrūnī lived at Ghazna the rest of his life apart from Maḥmūd's campaigns into northern India {cite:britannica-al-biruni}."
+  ur: "سلطان محمود سبکتگین نے 998ء میں غزنہ کو دارالحکومت بنایا اور بیرونی و ابن سینا کو دربار طلب کیا؛ ابن سینا بچ نکلا مگر بیرونی محمود کی شمالی ہند مہمات کے سوا عمر بھر غزنہ رہا {cite:britannica-al-biruni}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1017~", precision: year, status: historical, derived: true, note: "Mahmud took Ghazna 998 per Britannica and summoned al-Biruni after his Gurgān stay; dated circa 1017 with the annexation of Khwārezm" }
+  end: { edtf: "1017~", precision: year, status: historical, derived: true, note: "Mahmud took Ghazna 998 per Britannica and summoned al-Biruni after his Gurgān stay; dated circa 1017 with the annexation of Khwārezm" }
+relations:
+  - { type: occurred_at, target: place/ghazna, sources: [source/britannica-al-biruni] }
+sources: [source/britannica-al-biruni]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Biruni story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-biruni
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
