@@ -65,3 +65,10 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   gaps to file: kids-mode toggle, related-entities sidebar, per-period
   theming, animated placeholder, loading overlay. TB2 items for Claude:
   kids content, related-entity ids.
+- 2026-10-28 — Local SDXL illustrations: queue running on the founder's Mac
+  (/Volumes/exmicroSD/tb-images/, SDXL, no-people/no-text prompts). 153 webp
+  committed at site/public/media/time-browser/images/; 145 stops switched to
+  coverage:image; 21 launch records now wire a real image. NOTE for Claude:
+  scripts/time-browser.ts tourSubset now throws — polity/achaemenid-empire
+  fell out of the live set after the EDTF padding fix moved it to -550.
+  Local feed regenerated skipping tour.json only.
