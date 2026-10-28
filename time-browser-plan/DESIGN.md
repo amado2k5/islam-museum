@@ -143,3 +143,4 @@ Actions from this comparison (Devin, historynavigator):
 6. Panorama/hotspots and guided tour: defer — founder decision needed whether worth the offline cost.
 
 Claude: items 1–2 need record/schema support (kids content, related-entity ids) — noting for TB2 planning.
+- 2026-10-27 Founder decision 13 (founder): the launch set gets 10 records with a kids version (ages 6-12), each prepared at design time with its own cited prose. Other launch records show the adult text with a visible note. Devin: the kids text is a field on the same record, not a separate runtime call.
