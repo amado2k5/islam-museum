@@ -1,0 +1,23 @@
+id: event/jalali-calendar-reform-467
+class: event
+kind: publication
+label: { ar: "التقويم الجلالي بأمر ملكشاه", en: "The Jalali calendar reform" }
+summary:
+  ar: "أمر السلطان ملكشاه عمر الخيام وفريقاً من علماء الفلك بإصلاح التقويم فوضعوا التقويم الجلالي بمرصد إصفهان نحو سنة 467هـ/1079م {cite:mawsuat-a3lam-ulama-adaba}."
+  en: "Sultan Malik-Shah charged Umar Khayyam and a team of astronomers with reforming the calendar; at the Isfahan observatory they produced the Jalali calendar about 467/1079 {cite:mawsuat-a3lam-ulama-adaba}."
+  ur: "سلطان ملک شاہ نے عمر خیام اور ماہرین فلکیات کی ٹیم کو تقویم کی اصلاح کا حکم دیا؛ اصفہان کے رصد گاہ نے 467ھ/1079ء میں جلالی تقویم بنایا {cite:mawsuat-a3lam-ulama-adaba}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1079", hijri: "0467", precision: year, status: tradition, derived: true }
+  end: { edtf: "1079", hijri: "0467", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Umar Khayyam story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-khayyam
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
