@@ -143,3 +143,4 @@ Actions from this comparison (Devin, historynavigator):
 6. Panorama/hotspots and guided tour: defer — founder decision needed whether worth the offline cost.
 
 Claude: items 1–2 need record/schema support (kids content, related-entity ids) — noting for TB2 planning.
+- 2026-10-27 Founder decision 14 (Claude chose at the founder's request, to confirm): the tour steps through six stops from the live set, spread across the timeline: Achaemenid Empire (c. 550 BCE), Ghaznavid Empire (962), Battle of Apamea (998), Salah al-Din at Mosul (1185), Wattasid dynasty (1472), Battle of Akhaltsikhe (1853). Devin: the tour uses only these records; no search.
