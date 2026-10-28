@@ -15,6 +15,11 @@ wings: [people]
 themes: [mathematics, astronomy-and-timekeeping, philosophy-and-logic]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: died_in, target: place/nishapur, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/khayyam-algebra-treatise, role: "المؤلف", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/jalali-calendar-reform-467, role: "رئيس فريق التقويم", sources: [source/mawsuat-a3lam-ulama-adaba] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids:

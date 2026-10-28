@@ -1,0 +1,23 @@
+id: event/khayyam-algebra-treatise
+class: event
+kind: publication
+label: { ar: "رسالة الخيام في الجبر", en: "Khayyam's algebra treatise" }
+summary:
+  ar: "صنّف عمر الخيام رسالته في البرهان على مسائل الجبر والمقابلة نحو سنة 1070م، وفيه حل المعادلات التكعيبية بالقطوع المخروطية {cite:mawsuat-a3lam-ulama-adaba}."
+  en: "About 1070 Umar Khayyam composed his treatise on the demonstration of problems of algebra, solving cubic equations with conic sections {cite:mawsuat-a3lam-ulama-adaba}."
+  ur: "تقریباً 1070ء میں عمر خیام نے الجبر کے مسائل کے برہان پر رسالہ لکھا جس میں تکعبی مساوات مخروطی قطعات سے حل کی گئیں {cite:mawsuat-a3lam-ulama-adaba}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1070~", precision: year, status: tradition, derived: true, note: "written before his move to Isfahan; year approximate" }
+  end: { edtf: "1070~", precision: year, status: tradition, derived: true, note: "written before his move to Isfahan; year approximate" }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Umar Khayyam story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-khayyam
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
