@@ -1,35 +1,35 @@
 {
- "generated": "2026-10-28T02:50:44.112Z",
+ "generated": "2026-10-28T10:00:51.492Z",
  "rule": "stop batch per class: published first, then degree desc, then id asc; media covers a stop by depicts | shared place+period | shared period+tag",
  "report": {
-  "batchPerClass": 450,
-  "stopsTotal": 4541,
+  "batchPerClass": 500,
+  "stopsTotal": 4881,
   "mediaTotal": 619,
-  "mediaUsed": 559,
-  "stopsWithImage": 649,
-  "stopsWithCard": 3989,
-  "matchRate": 14,
+  "mediaUsed": 603,
+  "stopsWithImage": 694,
+  "stopsWithCard": 4281,
+  "matchRate": 13.9,
   "perClass": {
    "building": {
     "pool": 5660,
-    "stops": 450,
+    "stops": 500,
     "publishedInPool": 24,
     "withImage": 2,
-    "withCard": 448
+    "withCard": 498
    },
    "concept": {
     "pool": 2019,
-    "stops": 494,
+    "stops": 541,
     "publishedInPool": 193,
     "withImage": 2,
-    "withCard": 492
+    "withCard": 539
    },
    "event": {
     "pool": 4352,
-    "stops": 492,
+    "stops": 542,
     "publishedInPool": 3,
     "withImage": 65,
-    "withCard": 427
+    "withCard": 477
    },
    "exhibit": {
     "pool": 313,
@@ -54,10 +54,10 @@
    },
    "object": {
     "pool": 517,
-    "stops": 450,
+    "stops": 500,
     "publishedInPool": 0,
-    "withImage": 407,
-    "withCard": 43
+    "withImage": 451,
+    "withCard": 49
    },
    "period": {
     "pool": 13,
@@ -68,17 +68,17 @@
    },
    "person": {
     "pool": 10238,
-    "stops": 500,
+    "stops": 549,
     "publishedInPool": 1627,
     "withImage": 1,
-    "withCard": 499
+    "withCard": 548
    },
    "place": {
     "pool": 1788,
-    "stops": 478,
+    "stops": 523,
     "publishedInPool": 125,
-    "withImage": 4,
-    "withCard": 474
+    "withImage": 5,
+    "withCard": 518
    },
    "polity": {
     "pool": 180,
@@ -103,10 +103,10 @@
    },
    "work": {
     "pool": 1466,
-    "stops": 461,
+    "stops": 510,
     "publishedInPool": 9,
     "withImage": 2,
-    "withCard": 459
+    "withCard": 508
    }
   }
  },
@@ -233,6 +233,7 @@
     "person/muhammad",
     "place/quba",
     "place/al-ghaba",
+    "place/mount-sal",
     "work/hassan-poem-qawmi-ulaika",
     "work/hassan-elegy-for-the-prophet",
     "event/mutah-return-to-medina",
@@ -348,6 +349,7 @@
     "place/quba",
     "place/al-ghaba",
     "place/al-shaykhan",
+    "place/mount-sal",
     "work/hassan-poem-qawmi-ulaika",
     "work/hassan-elegy-for-the-prophet",
     "event/mutah-return-to-medina",
@@ -10248,7 +10250,9 @@
    "depicts": [
     "object/sprinkler-va-182896"
    ],
-   "covers": [],
+   "covers": [
+    "object/sprinkler-va-182896"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10270,7 +10274,9 @@
    "depicts": [
     "object/sunduq-aj-961"
    ],
-   "covers": [],
+   "covers": [
+    "object/sunduq-aj-961"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era"
@@ -10292,7 +10298,9 @@
    "depicts": [
     "object/sunduq-kitaba"
    ],
-   "covers": [],
+   "covers": [
+    "object/sunduq-kitaba"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -10315,7 +10323,9 @@
    "depicts": [
     "object/sunduq-masri-1238"
    ],
-   "covers": [],
+   "covers": [
+    "object/sunduq-masri-1238"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -10338,7 +10348,9 @@
    "depicts": [
     "object/sunduq-zuhur"
    ],
-   "covers": [],
+   "covers": [
+    "object/sunduq-zuhur"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10360,7 +10372,9 @@
    "depicts": [
     "object/suwar-29-33"
    ],
-   "covers": [],
+   "covers": [
+    "object/suwar-29-33"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -10383,7 +10397,9 @@
    "depicts": [
     "object/suwar-kawakib-met"
    ],
-   "covers": [],
+   "covers": [
+    "object/suwar-kawakib-met"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -10406,7 +10422,9 @@
    "depicts": [
     "object/swan-neck-bottle-met"
    ],
-   "covers": [],
+   "covers": [
+    "object/swan-neck-bottle-met"
+   ],
    "places": [],
    "periods": [],
    "tags": []
@@ -10426,7 +10444,9 @@
    "depicts": [
     "object/taaliq-usmani"
    ],
-   "covers": [],
+   "covers": [
+    "object/taaliq-usmani"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10448,7 +10468,9 @@
    "depicts": [
     "object/tahmuras-div"
    ],
-   "covers": [],
+   "covers": [
+    "object/tahmuras-div"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10470,7 +10492,9 @@
    "depicts": [
     "object/taj-amud-zahra"
    ],
-   "covers": [],
+   "covers": [
+    "object/taj-amud-zahra"
+   ],
    "places": [],
    "periods": [],
    "tags": []
@@ -10490,7 +10514,9 @@
    "depicts": [
     "object/tamthal-taj"
    ],
-   "covers": [],
+   "covers": [
+    "object/tamthal-taj"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era",
@@ -10513,7 +10539,9 @@
    "depicts": [
     "object/tanbur-shami"
    ],
-   "covers": [],
+   "covers": [
+    "object/tanbur-shami"
+   ],
    "places": [],
    "periods": [
     "period/colonial-era",
@@ -10536,7 +10564,9 @@
    "depicts": [
     "object/tankard-va-1177248"
    ],
-   "covers": [],
+   "covers": [
+    "object/tankard-va-1177248"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10558,7 +10588,9 @@
    "depicts": [
     "object/tarbush"
    ],
-   "covers": [],
+   "covers": [
+    "object/tarbush"
+   ],
    "places": [],
    "periods": [
     "period/colonial-era"
@@ -10580,7 +10612,9 @@
    "depicts": [
     "object/tayr-abyad-aswad"
    ],
-   "covers": [],
+   "covers": [
+    "object/tayr-abyad-aswad"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10602,7 +10636,9 @@
    "depicts": [
     "object/tayr-mantiq"
    ],
-   "covers": [],
+   "covers": [
+    "object/tayr-mantiq"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10624,7 +10660,9 @@
    "depicts": [
     "object/tile-va-199695"
    ],
-   "covers": [],
+   "covers": [
+    "object/tile-va-199695"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -10647,7 +10685,9 @@
    "depicts": [
     "object/tile-va-279438"
    ],
-   "covers": [],
+   "covers": [
+    "object/tile-va-279438"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -10670,7 +10710,9 @@
    "depicts": [
     "object/tinni-saz"
    ],
-   "covers": [],
+   "covers": [
+    "object/tinni-saz"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10692,7 +10734,9 @@
    "depicts": [
     "object/tinnin-saz-warq"
    ],
-   "covers": [],
+   "covers": [
+    "object/tinnin-saz-warq"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10714,7 +10758,9 @@
    "depicts": [
     "object/tiraz-va-10"
    ],
-   "covers": [],
+   "covers": [
+    "object/tiraz-va-10"
+   ],
    "places": [],
    "periods": [
     "period/abbasid-fragmentation",
@@ -10737,7 +10783,9 @@
    "depicts": [
     "object/tiraz-zahir"
    ],
-   "covers": [],
+   "covers": [
+    "object/tiraz-zahir"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era",
@@ -10760,7 +10808,9 @@
    "depicts": [
     "object/tughra-ibrahim"
    ],
-   "covers": [],
+   "covers": [
+    "object/tughra-ibrahim"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10782,7 +10832,9 @@
    "depicts": [
     "object/tughra-sulayman-1"
    ],
-   "covers": [],
+   "covers": [
+    "object/tughra-sulayman-1"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10804,7 +10856,9 @@
    "depicts": [
     "object/tughra-sulayman-2"
    ],
-   "covers": [],
+   "covers": [
+    "object/tughra-sulayman-2"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10826,7 +10880,9 @@
    "depicts": [
     "object/ud-shami"
    ],
-   "covers": [],
+   "covers": [
+    "object/ud-shami"
+   ],
    "places": [],
    "periods": [
     "period/colonial-era",
@@ -10849,7 +10905,9 @@
    "depicts": [
     "object/ulba-aj-964"
    ],
-   "covers": [],
+   "covers": [
+    "object/ulba-aj-964"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era"
@@ -10871,7 +10929,9 @@
    "depicts": [
     "object/ulba-aj-969"
    ],
-   "covers": [],
+   "covers": [
+    "object/ulba-aj-969"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era"
@@ -10893,7 +10953,9 @@
    "depicts": [
     "object/ulba-suriyya"
    ],
-   "covers": [],
+   "covers": [
+    "object/ulba-suriyya"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era",
@@ -10916,7 +10978,9 @@
    "depicts": [
     "object/ulbat-morgan"
    ],
-   "covers": [],
+   "covers": [
+    "object/ulbat-morgan"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era",
@@ -10939,7 +11003,9 @@
    "depicts": [
     "object/usturlab-farsi-1600"
    ],
-   "covers": [],
+   "covers": [
+    "object/usturlab-farsi-1600"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10961,7 +11027,9 @@
    "depicts": [
     "object/usturlab-farsi-1667"
    ],
-   "covers": [],
+   "covers": [
+    "object/usturlab-farsi-1667"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -10983,7 +11051,9 @@
    "depicts": [
     "object/usturlab-farsi-17"
    ],
-   "covers": [],
+   "covers": [
+    "object/usturlab-farsi-17"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -11005,7 +11075,9 @@
    "depicts": [
     "object/usturlab-farsi-1715"
    ],
-   "covers": [],
+   "covers": [
+    "object/usturlab-farsi-1715"
+   ],
    "places": [],
    "periods": [
     "period/gunpowder-empires"
@@ -11027,7 +11099,9 @@
    "depicts": [
     "object/wajh-mshatta"
    ],
-   "covers": [],
+   "covers": [
+    "object/wajh-mshatta"
+   ],
    "places": [],
    "periods": [],
    "tags": []
@@ -11047,7 +11121,9 @@
    "depicts": [
     "object/waraqa-diosqurid-1224"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-diosqurid-1224"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -11070,7 +11146,9 @@
    "depicts": [
     "object/waraqa-gulistan"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-gulistan"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -11094,7 +11172,9 @@
    "depicts": [
     "object/waraqa-quran-1180a"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-quran-1180a"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk"
@@ -11116,7 +11196,9 @@
    "depicts": [
     "object/waraqa-quran-1180b"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-quran-1180b"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk"
@@ -11138,7 +11220,9 @@
    "depicts": [
     "object/waraqa-quran-13"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-quran-13"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -11161,7 +11245,9 @@
    "depicts": [
     "object/waraqa-quran-531"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-quran-531"
+   ],
    "places": [],
    "periods": [
     "period/buyid-seljuk-fatimid-era",
@@ -11184,7 +11270,9 @@
    "depicts": [
     "object/waraqa-quran-707"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-quran-707"
+   ],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -11207,7 +11295,9 @@
    "depicts": [
     "object/waraqa-quran-9"
    ],
-   "covers": [],
+   "covers": [
+    "object/waraqa-quran-9"
+   ],
    "places": [],
    "periods": [],
    "tags": []
@@ -22860,6 +22950,906 @@
    "coverage": "card"
   },
   {
+   "id": "building/al-masajid-al-saba",
+   "kind": "building",
+   "title": {
+    "ar": "المساجد السبعة",
+    "en": "The Seven Mosques"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-mimar-mosque-jeddah",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المعمار (جدة)",
+    "en": "al-Mi'mar Mosque, Jeddah"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-mirqab-castle",
+   "kind": "building",
+   "title": {
+    "ar": "قلعة المرقب",
+    "en": "Al-Mirqab Castle"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-morabito-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المرابطون",
+    "en": "al-Morabito Mosque, Córdoba"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-muaazam-fort",
+   "kind": "building",
+   "title": {
+    "ar": "حصن المعظم",
+    "en": "Al-Mua'azam Fort"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-muhdhar-mosque-tarim",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المحضار",
+    "en": "Al-Muhdhar Mosque, Tarim"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-mujaheddin-mosque-selangor",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المجاهدين",
+    "en": "Al Mujaheddin Mosque, Selangor"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-muktafi-billah-shah-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المكتفي بالله شاه",
+    "en": "al-Muktafi Billah Shah Mosque"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-muqaddamiyah-madrasa",
+   "kind": "building",
+   "title": {
+    "ar": "المدرسة المقدمية",
+    "en": "Al-Muqaddamiyah Madrasa, Aleppo"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-murayqib-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المريقب",
+    "en": "Al-Murayqib Mosque"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-mustasim-billah-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد المستعصم بالله",
+    "en": "Al-Musta'sim Billah Mosque, Baghdad"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nabi-mosque-qazvin",
+   "kind": "building",
+   "title": {
+    "ar": "المسجد النبوي (قزوين)",
+    "en": "Al-Nabi Mosque, Qazvin"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-najdi-mosque-farasan",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النجدي (فرسان)",
+    "en": "Al-Najdi Mosque, Farasan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-naqah-mosque-tripoli",
+   "kind": "building",
+   "title": {
+    "ar": "جامع الناقة",
+    "en": "al-Naqah Mosque, Tripoli"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nasir-muhammad-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "جامع الناصر محمد بالقلعة",
+    "en": "al-Nasir Muhammad Mosque, Cairo Citadel"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nejashi-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النجاشي",
+    "en": "Al Nejashi Mosque, Ethiopia"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nilin-mosque-omdurman",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النيلين",
+    "en": "Al-Nilin Mosque, Omdurman"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-noor-mosque-sharjah",
+   "kind": "building",
+   "title": {
+    "ar": "جامع النور (الشارقة)",
+    "en": "Al Noor Mosque, Sharjah"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nour-mosque-algiers",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النور (الجزائر)",
+    "en": "Al-Nour Mosque, Algiers"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nour-mosque-cairo",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النور (القاهرة)",
+    "en": "Al-Nour Mosque, Cairo"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nukhailah-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النخيلة",
+    "en": "al-Nukhailah Mosque, Babylon"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-nuqtah-mosque-aleppo",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد النقطة (حلب)",
+    "en": "Al-Nuqtah Mosque, Aleppo"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-omari-mosque-beirut",
+   "kind": "building",
+   "title": {
+    "ar": "المسجد العمري الكبير (بيروت)",
+    "en": "Al-Omari Grand Mosque, Beirut"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-omari-mosque-daraa",
+   "kind": "building",
+   "title": {
+    "ar": "الجامع العمري (درعا)",
+    "en": "Al-Omari Mosque, Daraa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-omari-mosque-dura",
+   "kind": "building",
+   "title": {
+    "ar": "الجامع العمري (دورا)",
+    "en": "al-Omari Mosque, Dura"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-otrush-mosque-aleppo",
+   "kind": "building",
+   "title": {
+    "ar": "الجامع الأطروش",
+    "en": "al-Otrush Mosque, Aleppo"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qaffar-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القفار التاريخي",
+    "en": "Al-Qaffar Historic Mosque"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qaid-bekhroush-castle",
+   "kind": "building",
+   "title": {
+    "ar": "قلعة القائد بخروش",
+    "en": "Al-Qa'id Bekhroush Castle"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qaiqan-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "جامع القيقان",
+    "en": "al-Qaiqan Mosque, Aleppo"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qalaa-mosque-jerusalem",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القلعة",
+    "en": "al-Qala'a Mosque, Jerusalem"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qantara-mosque-mecca",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القنطرة",
+    "en": "Al Qantara Mosque, Mecca"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qibli-mosque-riyadh",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القبلي",
+    "en": "Al-Qibli Mosque, Riyadh Province"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qirtas-mosque-basra",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القرطاس",
+    "en": "Al-Qirtas Mosque, Basra"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qubba-al-khadra",
+   "kind": "building",
+   "title": {
+    "ar": "القبة الخضراء",
+    "en": "The Green Dome"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qubba-mosque-saudi",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القبة",
+    "en": "al-Qubba Mosque"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-qudaibiya-palace",
+   "kind": "building",
+   "title": {
+    "ar": "قصر القضيبية",
+    "en": "Al-Qudaibiya Palace, Manama"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-quds-mosque-casablanca",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القدس (الدار البيضاء)",
+    "en": "Al-Quds Mosque, Casablanca"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-quds-mosque-hamburg",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد القدس (هامبورغ)",
+    "en": "Al-Quds Mosque, Hamburg"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-raabiya-mosque-mosul",
+   "kind": "building",
+   "title": {
+    "ar": "جامع الرابعية",
+    "en": "Al-Raabiya Mosque, Mosul"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rahmah-mosque-jeddah",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الرحمة (جدة)",
+    "en": "al-Rahmah Mosque, Jeddah"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rahman-mosque-baghdad",
+   "kind": "building",
+   "title": {
+    "ar": "جامع الرحمن (بغداد)",
+    "en": "Al-Rahman Mosque, Baghdad"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rahman-mosque-kuala-lumpur",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الرحمن (كوالالمبور)",
+    "en": "Al-Rahman Mosque, Kuala Lumpur"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rajhi-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الراجحي",
+    "en": "Al Rajhi Mosque, Riyadh"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/contemporary-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-raseef-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الرصيف",
+    "en": "Al Raseef Mosque, Fez"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rashid-al-shamali-mosque-basra",
+   "kind": "building",
+   "title": {
+    "ar": "جامع الراشد الشمالي",
+    "en": "Al-Rashid Al-Shamali Mosque, Basra"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rashid-mausoleum-isfahan",
+   "kind": "building",
+   "title": {
+    "ar": "ضريح الراشد بالله",
+    "en": "al-Rashid Mausoleum, Isfahan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rashid-mosque-edmonton",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الرشيد (إدمونتون)",
+    "en": "Al-Rashid Mosque, Edmonton"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rayah-mosque-mecca",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الراية",
+    "en": "Al-Rayah Mosque, Mecca"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rayah-mosque-medina",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الراية (المدينة)",
+    "en": "Al-Rayah Mosque, Medina"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/al-rukniyah-madrasa",
+   "kind": "building",
+   "title": {
+    "ar": "المدرسة الركنية",
+    "en": "Al-Rukniyah Madrasa, Damascus"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "concept/mirath",
    "kind": "concept",
    "title": {
@@ -30793,6 +31783,925 @@
    "status": "draft",
    "span": null,
    "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/mukataba",
+   "kind": "concept",
+   "title": {
+    "ar": "المُكَاتَبَة",
+    "en": "Contract of manumission by instalments (mukataba)",
+    "ur": "مُکاتَبہ (قسطوں پر آزادی کا معاہدہ)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/nasiha",
+   "kind": "concept",
+   "title": {
+    "ar": "النصيحة",
+    "en": "Nasiha (sincere counsel)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/rada",
+   "kind": "concept",
+   "title": {
+    "ar": "محرمية الرضاع",
+    "en": "Milk-kinship prohibition (rada')"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/tawakkul",
+   "kind": "concept",
+   "title": {
+    "ar": "التوكل",
+    "en": "Trust in God (tawakkul)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/tawba",
+   "kind": "concept",
+   "title": {
+    "ar": "التوبة",
+    "en": "Tawba (repentance)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/zakat",
+   "kind": "concept",
+   "title": {
+    "ar": "الزكاة",
+    "en": "Zakat (alms tax)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ghanima",
+   "kind": "concept",
+   "title": {
+    "ar": "الغنيمة",
+    "en": "Ghanima (spoils of war)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/al-tadamun-al-ijtimai",
+   "kind": "concept",
+   "title": {
+    "ar": "التضامن الاجتماعي والأخوة الدينية",
+    "en": "Social solidarity and religious brotherhood"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ghadab",
+   "kind": "concept",
+   "title": {
+    "ar": "الغضب",
+    "en": "Ghadab (anger)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/haya",
+   "kind": "concept",
+   "title": {
+    "ar": "الحياء",
+    "en": "Haya (modesty)",
+    "ur": "حیا"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/hujjiyyat-al-sunna",
+   "kind": "concept",
+   "title": {
+    "ar": "حجية السنة",
+    "en": "The authority of the Sunna (hujjiyyat al-sunna)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun",
+    "period/umayyad",
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/hums",
+   "kind": "concept",
+   "title": {
+    "ar": "الحُمْس",
+    "en": "al-Hums"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ihtikar",
+   "kind": "concept",
+   "title": {
+    "ar": "الاحتكار",
+    "en": "Hoarding (ihtikar)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ittisal-al-isnad",
+   "kind": "concept",
+   "title": {
+    "ar": "اتصال الإسناد وثبوت اللقي",
+    "en": "Connectedness of the isnad and proven hearing"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/judaism-in-arabia",
+   "kind": "concept",
+   "title": {
+    "ar": "اليهودية في جزيرة العرب قبل الإسلام",
+    "en": "Judaism in Arabia before Islam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [
+    "place/medina",
+    "place/khaybar",
+    "place/tayma",
+    "place/yemen"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/madrasat-al-nahw-al-basriyya-kufiyya",
+   "kind": "concept",
+   "title": {
+    "ar": "مدرستا البصرة والكوفة في النحو",
+    "en": "The Basran and Kufan schools of grammar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/nard",
+   "kind": "concept",
+   "title": {
+    "ar": "النَّرْد",
+    "en": "Backgammon and games of chance (nard)",
+    "ur": "نرد (ایک کھیل)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/niyya",
+   "kind": "concept",
+   "title": {
+    "ar": "النية في الأعمال",
+    "en": "Niyya (intention in deeds)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/shurta",
+   "kind": "concept",
+   "title": {
+    "ar": "الشرطة في خلافة علي",
+    "en": "The police (shurta) under Ali"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/wara",
+   "kind": "concept",
+   "title": {
+    "ar": "الورع",
+    "en": "Wara' (scrupulosity)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/wealth-in-islam",
+   "kind": "concept",
+   "title": {
+    "ar": "المال في الإسلام",
+    "en": "Wealth in Islam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/abawan",
+   "kind": "concept",
+   "title": {
+    "ar": "الأبوان",
+    "en": "Abawan (the two parents)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/abjad-kings-etymology",
+   "kind": "concept",
+   "title": {
+    "ar": "أحرف الجمل على أسماء ملوك مدين",
+    "en": "The abjad letters named for Madyan's kings"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/abkam",
+   "kind": "concept",
+   "title": {
+    "ar": "الأبكم",
+    "en": "The mute person (abkam) in fiqh"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/abraham-and-the-one-who-argued",
+   "kind": "concept",
+   "title": {
+    "ar": "إبراهيم والذي حاجّه في ربه",
+    "en": "Abraham and the one who argued with him about his Lord",
+    "ur": "ابراہیم اور وہ شخص جس نے ان سے رب کے بارے میں حجت کی"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ada-al-dayn",
+   "kind": "concept",
+   "title": {
+    "ar": "أداء الدين",
+    "en": "Ada' al-dayn (paying a debt: its ruling, the manner of payment, insolvency and the debts of the dead)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ada-al-shahada",
+   "kind": "concept",
+   "title": {
+    "ar": "أداء الشهادة",
+    "en": "Ada' al-shahada (performing testimony: the duty on request, the excused witness, and the wording)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ada",
+   "kind": "concept",
+   "title": {
+    "ar": "أداء",
+    "en": "Ada' (performance of an obligation within its time)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/add",
+   "kind": "concept",
+   "title": {
+    "ar": "العَضّ",
+    "en": "Biting and the liability for injury it causes (add)",
+    "ur": "کاٹنا (عض)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adha-fiqh",
+   "kind": "concept",
+   "title": {
+    "ar": "أذى",
+    "en": "Adha (harm of a slight kind: removing harmful things and the duty not to harm)",
+    "ur": "اذی (معمولی تکلیف: نقصان دہ چیزوں کو ہٹانا اور تکلیف نہ دینے کا حکم)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adhan-fiqh",
+   "kind": "concept",
+   "title": {
+    "ar": "أذان",
+    "en": "Adhan (the call to prayer: its ruling, wording, conditions, recommended features and the muezzin)",
+    "ur": "اذان (نماز کی اطلاع: حکم، الفاظ، شرائط، سنتیں اور مؤذن کی صفات)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adhm",
+   "kind": "concept",
+   "title": {
+    "ar": "العَظْم",
+    "en": "Bone (adhm): purity, use and retaliation",
+    "ur": "ہڈی (عظم)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adillat-al-qibla",
+   "kind": "concept",
+   "title": {
+    "ar": "أدلة القبلة: النجوم والرياح والجبال والأنهار",
+    "en": "Qibla-finding by stars, winds, mountains and rivers"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adl-nikah",
+   "kind": "concept",
+   "title": {
+    "ar": "العَضْل",
+    "en": "Obstructing a marriage (adl): the guardian and the husband",
+    "ur": "عضل (نکاح میں رکاوٹ)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adl",
+   "kind": "concept",
+   "title": {
+    "ar": "العَدْل",
+    "en": "Justice and uprightness (adl)",
+    "ur": "عدل"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/adornment-of-desires",
+   "kind": "concept",
+   "title": {
+    "ar": "تزيين الشهوات ومتاع الدنيا",
+    "en": "The adornment of desires and the goods of this world",
+    "ur": "خواہشات کی زینت اور دنیا کا متاع"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/afal",
+   "kind": "concept",
+   "title": {
+    "ar": "العَفَل",
+    "en": "Fleshy growth in the wife's womb and the right to annul (afal)",
+    "ur": "عفل (عورت کا عیب)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/afw",
+   "kind": "concept",
+   "title": {
+    "ar": "العَفْو",
+    "en": "Pardon (afw) in purity, worship, contracts and penalties",
+    "ur": "عفو"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahd-allah",
+   "kind": "concept",
+   "title": {
+    "ar": "عهد الله والأيمان ومَن يشتري بها ثمناً قليلاً",
+    "en": "The covenant of God and oaths, and selling them for a little price"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahd",
+   "kind": "concept",
+   "title": {
+    "ar": "العَهْد",
+    "en": "Covenant (ahd) and the duty to keep it; oath by the covenant of God",
+    "ur": "عہد"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-ahwa",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الأهواء",
+    "en": "Ahl al-Ahwa (the people of deviant opinions in Islam, and the rules on their testimony, narration and prayer behind them)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-dhimma",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الذمة",
+    "en": "Ahl al-Dhimma (the protected non-Muslim subjects of an Islamic state, their covenant, rights, duties and limits)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-diwan",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الديوان",
+    "en": "Ahl al-Diwan (those paid from the state register of soldiers and officers, and the rules of their conditions and distribution)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-hall-wal-aqd",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الحل والعقد",
+    "en": "Ahl al-Hall wa al-Aqd (those who loose and bind: the men of power whose choice confirms the imam)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-harb",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الحرب",
+    "en": "Ahl al-Harb (the people at war with the Muslims, their status and the rules that govern dealings with them)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-kitab",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الكتاب",
+    "en": "Ahl al-Kitab (the People of the Book, their status, and the rules on marriage, food, covenant and dealings)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-mahalla",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل المحلة",
+    "en": "Ahl al-Mahalla (the people of a quarter, their imam, call to prayer, and their part in the oath and blood money where a body is found)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-nasab",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل النسب",
+    "en": "Ahl al-Nasab (the kin by descent, and who counts as kin in bequests and endowments)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahl-al-suffa",
+   "kind": "concept",
+   "title": {
+    "ar": "أهل الصفة",
+    "en": "The people of the bench (ahl al-suffa)",
+    "ur": "اہل صفہ"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "concept/ahliyya",
+   "kind": "concept",
+   "title": {
+    "ar": "الأهلية",
+    "en": "Ahliyya (legal capacity: to have rights and duties, and to act; its stages from the womb to full maturity, and what impairs it)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
    "places": [],
    "tags": [],
    "hero": null,
@@ -41088,6 +42997,1135 @@
    ],
    "places": [
     "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/day-of-habaa",
+   "kind": "event",
+   "title": {
+    "ar": "يوم الهباءة",
+    "en": "The Day of al-Haba'a"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 600.0006160290766,
+    "latest": 600.9999520865956
+   },
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/daylam-islam-utrush-302",
+   "kind": "event",
+   "title": {
+    "ar": "إسلام الديلم على يد الأطروش",
+    "en": "The Conversion of the Daylam at the Hands of al-Utrush"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 914.0002190325606,
+    "latest": 914.9995550900796
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/dayr-atiq-riot-271",
+   "kind": "event",
+   "title": {
+    "ar": "وثبة العامة على الدير العتيق",
+    "en": "The Mob Attack on Dayr al-Atiq"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 884.0009719569875,
+    "latest": 885.0030459215136
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [
+    "place/dayr-al-atiq"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-abd-al-muttalib",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة عبد المطلب وكفالة أبي طالب",
+    "en": "Death of Abd al-Muttalib and Abu Talib's guardianship"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 578.0015332279238,
+    "latest": 579.0008692854431
+   },
+   "periods": [
+    "period/prophetic-era",
+    "period/pre-islamic-arabia"
+   ],
+   "places": [
+    "place/mecca"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-al-mahdi",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة المهدي",
+    "en": "Death of al-Mahdi"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 785.5814287767716,
+    "latest": 785.6663038939566
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-mutasim",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة المعتصم",
+    "en": "Death of al-Mu'tasim"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 842.0973052150284,
+    "latest": 842.1000431220036
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-saladin-589",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة صلاح الدين وتركته",
+    "en": "Death of Salah al-Din and his estate"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1193.0011567657104,
+    "latest": 1194.0004928232297
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-ubayd-allah-al-mahdi",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة المهدي عبيد الله صاحب المغرب",
+    "en": "Death of al-Mahdi Ubayd Allah, ruler of the Maghrib"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 934.0006297186117,
+    "latest": 934.9999657761307
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-umar-ibn-abd-al-aziz",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة عمر بن عبد العزيز",
+    "en": "Death of Umar ibn Abd al-Aziz"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 720.0824794485854,
+    "latest": 720.1618787517566
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-yazid-ibn-abd-al-malik",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة يزيد بن عبد الملك",
+    "en": "Death of Yazid ibn Abd al-Malik"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 723.9976864685791,
+    "latest": 724.0825615857641
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-yazid-ibn-muawiya",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة يزيد بن معاوية",
+    "en": "Death of Yazid ibn Mu'awiya"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 683.8325906760576,
+    "latest": 683.9147278862356
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-yazid-iii",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة يزيد الناقص",
+    "en": "Death of Yazid al-Naqis"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 744.7482836745451,
+    "latest": 744.83315879173
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/demolition-of-husayn-tomb",
+   "kind": "event",
+   "title": {
+    "ar": "هدم قبر الحسين",
+    "en": "Demolition of the tomb of al-Husayn"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 850.0016427442042,
+    "latest": 851.0009788017232
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/digging-of-nahr-ibn-umar",
+   "kind": "event",
+   "title": {
+    "ar": "حفر نهر ابن عمر",
+    "en": "Digging of Nahr Ibn Umar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/basra"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/dinawar-earthquake-398",
+   "kind": "event",
+   "title": {
+    "ar": "زلزلة الدينور العظيمة",
+    "en": "The great earthquake of Dinawar"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1008.2033854220141,
+    "latest": 1008.2061233289894
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/dinawar"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/djerba-capture-683",
+   "kind": "event",
+   "title": {
+    "ar": "استيلاء أسطول الأرغون على جزيرة جربة",
+    "en": "The Aragonese capture of Djerba"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1284.6690212666927,
+    "latest": 1284.7511584768706
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/jarba"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/domestikos-defeat-343",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة سيف الدولة مع الدمستق سنة 343",
+    "en": "Battle of Sayf al-Dawla with the Domesticus in 343"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 954.0010404046626,
+    "latest": 955.0003764621817
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/dujayl-dredging-283",
+   "kind": "event",
+   "title": {
+    "ar": "كري نهر دجيل",
+    "en": "Dredging of the Dujayl river"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 896.5843925611066,
+    "latest": 896.6692676782916
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/dvin-earthquake-280",
+   "kind": "event",
+   "title": {
+    "ar": "زلزلة دبيل",
+    "en": "Earthquake of Dabil"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 894.1640827669289,
+    "latest": 894.2489578841137
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [
+    "place/dabil"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/earthquake-istanbul-bayezid",
+   "kind": "event",
+   "title": {
+    "ar": "الزلزلة الكبرى بالقسطنطينية في عهد بايزيد الثاني",
+    "en": "The great Constantinople earthquake under Bayezid II"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/egypt-earthquake-608",
+   "kind": "event",
+   "title": {
+    "ar": "زلزلة مصر الكبرى سنة 608",
+    "en": "The great earthquake of Egypt, 608 AH"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1211.9994934872038,
+    "latest": 1213.00156745173
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/cairo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/egypt-earthquakes-272",
+   "kind": "event",
+   "title": {
+    "ar": "زلازل مصر",
+    "en": "Earthquakes in Egypt"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 885.8353696516697,
+    "latest": 885.9175068618476
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [
+    "place/misr"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/egypt-famine-plague-695",
+   "kind": "event",
+   "title": {
+    "ar": "قحط مصر ووباؤها سنة 695هـ",
+    "en": "Egypt's famine and epidemic, 695"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1295.0018823110672,
+    "latest": 1296.0012183685863
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/cairo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/end-of-almohads-668",
+   "kind": "event",
+   "title": {
+    "ar": "انقراض دولة بني عبد المؤمن",
+    "en": "The end of the Banu Abd al-Mu'min dynasty"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1269.6680287754025,
+    "latest": 1269.7501659855807
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/euphrates-flood-329",
+   "kind": "event",
+   "title": {
+    "ar": "فيضان الفرات وخراب باب الأنبار",
+    "en": "The Euphrates flood and the ruin of Bab al-Anbar"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 939.9993839709234,
+    "latest": 941.0014579354495
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [
+    "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/execution-said-al-bahili-258",
+   "kind": "event",
+   "title": {
+    "ar": "إعدام سعيد بن أحمد الباهلي",
+    "en": "The execution of Sa'id ibn Ahmad al-Bahili"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 872.2498750829927,
+    "latest": 872.3320122931707
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fake-jesus-damascus-595",
+   "kind": "event",
+   "title": {
+    "ar": "صلب مدعي أنه عيسى بدمشق سنة 595",
+    "en": "The crucifixion of a man who claimed to be Jesus, Damascus, 595 AH"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1198.9999110180224,
+    "latest": 1199.9992470755415
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fakhr-razi-herat-595",
+   "kind": "event",
+   "title": {
+    "ar": "فتنة فخر الدين الرازي بهراة سنة 595",
+    "en": "The Fakhr al-Din al-Razi affair at Herat, 595 AH"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1198.9999110180224,
+    "latest": 1199.9992470755415
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fall-of-algeciras-744",
+   "kind": "event",
+   "title": {
+    "ar": "سقوط الجزيرة الخضراء وكسرة الأسطول",
+    "en": "The fall of al-Jazira al-Khadra and the breaking of the fleet"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1344.1637405285528,
+    "latest": 1344.248615645738
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fall-of-cordoba-636",
+   "kind": "event",
+   "title": {
+    "ar": "استيلاء العدو على قرطبة",
+    "en": "The enemy's capture of Cordoba"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1239.329281230963,
+    "latest": 1239.414156348148
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/cordoba"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fall-of-seville-646",
+   "kind": "event",
+   "title": {
+    "ar": "سقوط إشبيلية صلحاً",
+    "en": "The fall of Seville by treaty"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1248.895528313381,
+    "latest": 1248.8982662203562
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/seville"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fall-of-velez-892",
+   "kind": "event",
+   "title": {
+    "ar": "سقوط بلش مالقة والانهزام قبل الالتحام",
+    "en": "Fall of Velez-Malaga and the rout before contact"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1487.323422109968,
+    "latest": 1487.3261600169433
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/false-alid-claimant-302",
+   "kind": "event",
+   "title": {
+    "ar": "مدعي نسب الرضا العلوي",
+    "en": "The claimant to descent from al-Rida the Alid"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 915.32810393095,
+    "latest": 915.412979048135
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [
+    "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/fida-ransom-283",
+   "kind": "event",
+   "title": {
+    "ar": "الفداء بين المسلمين والروم سنة ٢٨٣",
+    "en": "The ransom exchange between Muslims and Byzantines, 283"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 896.6692676783232,
+    "latest": 896.7514048885014
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-fida-ransom-283"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/fida-ransom-295",
+   "kind": "event",
+   "title": {
+    "ar": "الفداء بين المسلمين والروم سنة ٢٩٥",
+    "en": "The ransom exchange between Muslims and Byzantines, 295"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 906.999390815691,
+    "latest": 907.99872687321
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/first-ashura-matam-baghdad-352",
+   "kind": "event",
+   "title": {
+    "ar": "أول مأتم ببغداد على الحسين",
+    "en": "The first mourning for al-Husayn in Baghdad"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 963.0744642258226,
+    "latest": 963.0772021327979
+   },
+   "periods": [
+    "period/abbasid-fragmentation",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/four-qadis-egypt-663",
+   "kind": "event",
+   "title": {
+    "ar": "تعيين أربعة قضاة للمذاهب بمصر سنة 663هـ",
+    "en": "Four madhhab qadis appointed in Egypt, 663"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1265.0026352354944,
+    "latest": 1266.0019712930134
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/cairo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/franks-antioch-491",
+   "kind": "event",
+   "title": {
+    "ar": "أخذ الفرنج أنطاكية ومقتلة المعرة سنة 491",
+    "en": "The Franks Take Antioch and the Massacre at Ma'arra, 491"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1097.74937199258,
+    "latest": 1097.8342471097653
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/antakiya"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/franks-jerusalem-492",
+   "kind": "event",
+   "title": {
+    "ar": "استيلاء الفرنج على بيت المقدس",
+    "en": "The Franks Seize Bayt al-Maqdis (Jerusalem)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1099.0005954947742,
+    "latest": 1099.9999315522932
+   },
+   "periods": [
+    "period/abbasid-fragmentation",
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/franks-tyre-518",
+   "kind": "event",
+   "title": {
+    "ar": "أخذ الفرنج صور بالأمان سنة 518",
+    "en": "The Franks Take Tyre by Safe-Conduct, 518"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1123.997686468579,
+    "latest": 1124.9997604331052
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/sur-lubnan"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/french-campaign-egypt-1213",
+   "kind": "event",
+   "title": {
+    "ar": "الحملة الفرنسية على مصر وإعلان الجهاد",
+    "en": "The French Campaign on Egypt and the Proclamation of Jihad"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1798.001943913975,
+    "latest": 1799.0012799714941
+   },
+   "periods": [
+    "period/modern-era",
+    "period/colonial-era",
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/georgians-arzan-rum-605",
+   "kind": "event",
+   "title": {
+    "ar": "الكرج يأخذون مدينة بالروم بالسيف سنة 605",
+    "en": "The Georgians Take a City in Rum by the Sword, 605"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1207.9994113499934,
+    "latest": 1209.0014853145196
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/arzan-al-rum"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/georgians-azerbaijan-612",
+   "kind": "event",
+   "title": {
+    "ar": "غارة الكرج على أذربيجان سنة 612",
+    "en": "Georgian Raid on Azerbaijan, 612"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1215.000239566863,
+    "latest": 1215.9995756243823
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/azerbaijan"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-georgians-azerbaijan-612"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/georgians-sack-dvin-599",
+   "kind": "event",
+   "title": {
+    "ar": "ملك الكرج مدينة دوين",
+    "en": "The Georgian sack of Dvin (599 AH)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1202.9999931552325,
+    "latest": 1203.9993292127515
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/ghazan-syria-699",
+   "kind": "event",
+   "title": {
+    "ar": "فتنة غازان بالشام سنة 699هـ",
+    "en": "Ghazan's devastation of Syria, 699"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1299.0019644482775,
+    "latest": 1300.0013005057967
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/ghiyar-decree-235",
+   "kind": "event",
+   "title": {
+    "ar": "الزام النصارى بالعسلي",
+    "en": "Christians Bound to Wear the Honey-Coloured Dress"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 850.0016427442042,
+    "latest": 851.0009788017232
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/ghuzz-sack-mosul-435",
+   "kind": "event",
+   "title": {
+    "ar": "الغز يدخلون الموصل وينهبون دار قرواش",
+    "en": "The Ghuzz enter Mosul and plunder Qarwash's palace"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1042.999445573831,
+    "latest": 1043.99878163135
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/mosul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/godfrey-killed-acre-494",
+   "kind": "event",
+   "title": {
+    "ar": "مقتل كندفري صاحب القدس عند عكا سنة 494",
+    "en": "The Death of Godfrey, Lord of Jerusalem, at Acre, 494"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1099.9999315523248,
+    "latest": 1100.999267609844
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [
+    "place/akka"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/granada-battle-663",
+   "kind": "event",
+   "title": {
+    "ar": "ملحمة غرناطة وكسر الفنش سنة 663هـ",
+    "en": "The great battle of Granada, 663"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1264.0005612709365,
+    "latest": 1265.0026352354625
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/granada"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/great-earthquake-180",
+   "kind": "event",
+   "title": {
+    "ar": "الزلزلة العظمى سنة 180",
+    "en": "The Great Earthquake of 180 AH"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 795.9991649383628,
+    "latest": 797.0012389028889
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [
+    "place/alexandria"
    ],
    "tags": [],
    "hero": null,
@@ -63983,6 +67021,1139 @@
    "coverage": "image"
   },
   {
+   "id": "object/sprinkler-va-182896",
+   "kind": "object",
+   "title": {
+    "ar": "قُمقُم إيران",
+    "en": "Sprinkler (1650-1725)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1687.001718036647,
+    "latest": 1688.001054094166
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-sprinkler-va-182896"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/sunduq-aj-961",
+   "kind": "object",
+   "title": {
+    "ar": "صندوق عاجي من الزهراء (961)",
+    "en": "Madinat al-Zahra Casket, 961–65"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 961.0018686215323,
+    "latest": 966.0012868162615
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-sunduq-aj-961"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/sunduq-kitaba",
+   "kind": "object",
+   "title": {
+    "ar": "صندوق كتابة مملوكي",
+    "en": "Mamluk Writing Box"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1280.0008898197773,
+    "latest": 1290.0024641162745
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-sunduq-kitaba"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/sunduq-masri-1238",
+   "kind": "object",
+   "title": {
+    "ar": "صندوق مصري (1238)",
+    "en": "Enamelled Box, 1238–40"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1230.0012320581532,
+    "latest": 1240.0000684476436
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-sunduq-masri-1238"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/sunduq-zuhur",
+   "kind": "object",
+   "title": {
+    "ar": "صندوق أدراج بزخرفة الزهور",
+    "en": "Flower-Style Box with Drawers"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1599.999247075573,
+    "latest": 1700.0013005057967
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-sunduq-zuhur"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/suwar-29-33",
+   "kind": "object",
+   "title": {
+    "ar": "سور 29–33 من مصحف إيراني",
+    "en": "Surahs 29–33 Qur'an, Iran"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1370.0013689535035,
+    "latest": 1381.0022793075516
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-suwar-29-33"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/suwar-hait-al-kaba",
+   "kind": "object",
+   "title": {
+    "ar": "صور حيطان الكعبة",
+    "en": "The Ka'ba's wall-paintings"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "object/suwar-kawakib-met",
+   "kind": "object",
+   "title": {
+    "ar": "صور الكواكب (متروبوليتان)",
+    "en": "Kitab Suwar al-Kawakib (Met)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1487.0003490831434,
+    "latest": 1487.9996851406625
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-suwar-kawakib-met"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/swan-neck-bottle-met",
+   "kind": "object",
+   "title": {
+    "ar": "قارورة الرقبة البجعية (المتروبوليتان)",
+    "en": "Swan-neck Bottle (Metropolitan Museum)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-swan-neck-bottle-met"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/taaliq-usmani",
+   "kind": "object",
+   "title": {
+    "ar": "معلقة عثمانية",
+    "en": "Ottoman Hanging"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1539.99801501742,
+    "latest": 1700.0013005057967
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-taaliq-usmani"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/taba-hinkelman",
+   "kind": "object",
+   "title": {
+    "ar": "طبعة هينكلمان",
+    "en": "Hinckelmann edition"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1694.0025462535166,
+    "latest": 1695.0018823110356
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "object/taba-maraci",
+   "kind": "object",
+   "title": {
+    "ar": "طبعة مراتشي اللاتينية",
+    "en": "Marracci edition"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1698.0026283907268,
+    "latest": 1699.0019644482459
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "object/table-of-solomon",
+   "kind": "object",
+   "title": {
+    "ar": "مائدة سليمان",
+    "en": "Table of Solomon"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "object/tahmuras-div",
+   "kind": "object",
+   "title": {
+    "ar": "طهمورث يقهر الديفات",
+    "en": "Tahmuras Defeats the Divs"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1524.999760433137,
+    "latest": 1525.999096490656
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tahmuras-div"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/taj-amud-zahra",
+   "kind": "object",
+   "title": {
+    "ar": "تاج عمود من مدينة الزهراء",
+    "en": "Column Capital from Madinat al-Zahra"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 9680.000889819778,
+    "latest": 9690.002464116274
+   },
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-taj-amud-zahra"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tamthal-taj",
+   "kind": "object",
+   "title": {
+    "ar": "تمثال بتاج مرصّع",
+    "en": "Standing Figure with Jeweled Headdress"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1099.9999315523248,
+    "latest": 1199.9992470755415
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tamthal-taj"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tanbur-shami",
+   "kind": "object",
+   "title": {
+    "ar": "طنبور",
+    "en": "Tanbur"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1800.0006160290766,
+    "latest": 1899.9999315522932
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tanbur-shami"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tankard-va-1177248",
+   "kind": "object",
+   "title": {
+    "ar": "كوب بمقبض تركيا",
+    "en": "Tankard (1550-1650)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1599.999247075573,
+    "latest": 1601.0013210400991
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tankard-va-1177248"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tarbush",
+   "kind": "object",
+   "title": {
+    "ar": "طربوش",
+    "en": "Fez (Tarboosh)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1850.0002737907007,
+    "latest": 1899.9999315522932
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tarbush"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tayr-abyad-aswad",
+   "kind": "object",
+   "title": {
+    "ar": "طائر أبيض وأسود",
+    "en": "Black and White Bird Perched on a Shrub"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1651.000978801755,
+    "latest": 1653.002388823832
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tayr-abyad-aswad"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tayr-mantiq",
+   "kind": "object",
+   "title": {
+    "ar": "محفل الطيور",
+    "en": "The Concourse of the Birds"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1599.999247075573,
+    "latest": 1601.0013210400991
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tayr-mantiq"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/thalatha-haqq",
+   "kind": "object",
+   "title": {
+    "ar": "مطبوعة «ثلاثة حقوق»",
+    "en": "Thalatha Haqq (Three Truths)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1991.9990828011526,
+    "latest": 1993.0011567656788
+   },
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "object/tile-va-199695",
+   "kind": "object",
+   "title": {
+    "ar": "بلاطة قونية",
+    "en": "Tile (1381-2)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1380.0002053430255,
+    "latest": 1390.0017796395227
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tile-va-199695"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tile-va-279438",
+   "kind": "object",
+   "title": {
+    "ar": "بلاطة قونية",
+    "en": "Tile (1381-2)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1380.0002053430255,
+    "latest": 1390.0017796395227
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tile-va-279438"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tinni-saz",
+   "kind": "object",
+   "title": {
+    "ar": "تنّين بأسلوب ساز",
+    "en": "'Saz'-Style Drawing of a Dragon"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1545.000171119188,
+    "latest": 1545.999507176707
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tinni-saz"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tinnin-saz-warq",
+   "kind": "object",
+   "title": {
+    "ar": "تنّين ملتف على أوراق ساز",
+    "en": "Dragon Wrapped around Saz Leaves"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1559.998425703471,
+    "latest": 1561.000499667997
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tinnin-saz-warq"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tiraz-va-10",
+   "kind": "object",
+   "title": {
+    "ar": "قطعة طراز (قرن 10)",
+    "en": "Tiraz Fragment, 10th c."
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 900.0013005058283,
+    "latest": 1000.0006160290449
+   },
+   "periods": [
+    "period/abbasid-fragmentation",
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tiraz-va-10"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tiraz-zahir",
+   "kind": "object",
+   "title": {
+    "ar": "طراز الظاهر (996–1021)",
+    "en": "Tiraz of al-Zahir, 996–1021"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1000.0006160290766,
+    "latest": 1099.9999315522932
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tiraz-zahir"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tughra-ibrahim",
+   "kind": "object",
+   "title": {
+    "ar": "طغرا شاه محمد بن إبراهيم",
+    "en": "Tughra of Shah Muhammad ibn Ibrahim"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1648.0002327220955,
+    "latest": 1688.001054094166
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tughra-ibrahim"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tughra-sulayman-1",
+   "kind": "object",
+   "title": {
+    "ar": "طغرا سليمان القانوني (أول)",
+    "en": "Tughra of Süleyman the Magnificent (Met 38.149.1)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1557.0004175308186,
+    "latest": 1557.9997535883376
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tughra-sulayman-1"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/tughra-sulayman-2",
+   "kind": "object",
+   "title": {
+    "ar": "طغرا سليمان القانوني (ثانٍ)",
+    "en": "Tughra of Süleyman the Magnificent (Met 38.149.2)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1557.0004175308186,
+    "latest": 1557.9997535883376
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-tughra-sulayman-2"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/ud-shami",
+   "kind": "object",
+   "title": {
+    "ar": "عود",
+    "en": "Oud"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1800.0006160290766,
+    "latest": 1899.9999315522932
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-ud-shami"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/ukaydir-brocade-qaba",
+   "kind": "object",
+   "title": {
+    "ar": "قباء أكيدر الديباج",
+    "en": "Ukaydir's brocade coat (qaba')"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "object/ulba-aj-964",
+   "kind": "object",
+   "title": {
+    "ar": "علبة عاجية من الزهراء (964)",
+    "en": "Madinat al-Zahra Pyxis, c.964"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 963.9998767941847,
+    "latest": 965.0019507587108
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-ulba-aj-964"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/ulba-aj-969",
+   "kind": "object",
+   "title": {
+    "ar": "علبة عاجية من الزهراء (969)",
+    "en": "Madinat al-Zahra Pyxis, c.969"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 969.0020328959527,
+    "latest": 971.0007050110227
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-ulba-aj-969"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/ulba-suriyya",
+   "kind": "object",
+   "title": {
+    "ar": "علبة أسطوانية",
+    "en": "Pyxis (Cylindrical Container)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1099.9999315523248,
+    "latest": 1100.999267609844
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-ulba-suriyya"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/ulbat-morgan",
+   "kind": "object",
+   "title": {
+    "ar": "علبة مورغان",
+    "en": "Morgan Casket"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1099.9999315523248,
+    "latest": 1100.999267609844
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-ulbat-morgan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/usturlab-farsi-1600",
+   "kind": "object",
+   "title": {
+    "ar": "أسطرلاب فارسي (1600–1700)",
+    "en": "Persian Astrolabe, 1600–1700"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1599.999247075573,
+    "latest": 1700.0013005057967
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-usturlab-farsi-1600"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/usturlab-farsi-1667",
+   "kind": "object",
+   "title": {
+    "ar": "أسطرلاب فارسي (1667)",
+    "en": "Persian Astrolabe, 1667"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1667.0013073505959,
+    "latest": 1668.000643408115
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-usturlab-farsi-1667"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/usturlab-farsi-17",
+   "kind": "object",
+   "title": {
+    "ar": "أسطرلاب فارسي (قرن 17)",
+    "en": "Persian Astrolabe, 17th c."
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1599.999247075573,
+    "latest": 1700.0013005057967
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-usturlab-farsi-17"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/usturlab-farsi-1715",
+   "kind": "object",
+   "title": {
+    "ar": "أسطرلاب فارسي (1715)",
+    "en": "Persian Astrolabe, 1715"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1714.9995550901112,
+    "latest": 1715.9988911476305
+   },
+   "periods": [
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-usturlab-farsi-1715"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/wajh-mshatta",
+   "kind": "object",
+   "title": {
+    "ar": "واجهة قصر مشتى",
+    "en": "The Mshatta Facade"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 7439.998699494172,
+    "latest": 7450.000273790669
+   },
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-wajh-mshatta"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-diosqurid-1224",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة ديسقوريدس (1224)",
+    "en": "Dioscorides Folio, 1224"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1223.9997398988344,
+    "latest": 1225.0018138633604
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-diosqurid-1224"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-gulistan",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مذهّبة من كلستان",
+    "en": "Illuminated Folio from a Gulistan"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1475.0001026715126,
+    "latest": 1500.999267609844
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/gunpowder-empires",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-gulistan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-quran-1180a",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مصحف (نحو 1180)",
+    "en": "Folio from a Qur'an Manuscript (ca. 1180, Met 29.160.23)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1179.998836389522,
+    "latest": 1181.0009103540483
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-quran-1180a"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-quran-1180b",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مصحف (نحو 1180، ب)",
+    "en": "Folio from a Qur'an Manuscript (ca. 1180, Met 29.160.24)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1179.998836389522,
+    "latest": 1181.0009103540483
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-quran-1180b"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-quran-13",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مصحف (أواخر القرن 13)",
+    "en": "Qur'an Folio (late 13th–early 14th c.)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1300.0013005058283,
+    "latest": 1301.0006365633476
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-quran-13"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-quran-531",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مصحف (531هـ)",
+    "en": "Qur'an Folio (531 AH)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1137.0000068447675,
+    "latest": 1137.9993429022866
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-quran-531"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-quran-707",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مصحف (707هـ)",
+    "en": "Qur'an Folio (dated 707 AH)"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1300.0013005058283,
+    "latest": 1310.0001368953185
+   },
+   "periods": [
+    "period/crusades-ayyubid-mamluk",
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-quran-707"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "object/waraqa-quran-9",
+   "kind": "object",
+   "title": {
+    "ar": "ورقة مصحف على رق",
+    "en": "Folio from a Qur'an on Parchment"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 9000.000616029076,
+    "latest": 9009.999452418568
+   },
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/photo-waraqa-quran-9"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "period/crusades-ayyubid-mamluk",
    "kind": "period",
    "title": {
@@ -74853,6 +79024,1202 @@
    "coverage": "card"
   },
   {
+   "id": "person/ahmet-baitursynuly",
+   "kind": "person",
+   "title": {
+    "ar": "أحمد بايتورسينوف",
+    "en": "Ahmet Baitursynuly",
+    "ur": "احمد بایتورسینوف"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1872.6783575295865,
+    "latest": 1937.936371041126
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/al-arqam-ibn-abi-al-arqam",
+   "kind": "person",
+   "title": {
+    "en": "al-Arqam ibn Abi al-Arqam",
+    "ar": "الأرقم بن أبي الأرقم"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/al-khidr",
+   "kind": "person",
+   "title": {
+    "ar": "الخضر",
+    "en": "al-Khidr"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/alboury-ndaye",
+   "kind": "person",
+   "title": {
+    "ar": "البوري ندياي",
+    "en": "Alboury Ndiaye",
+    "ur": "البوری ندیائے"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1847.9988637685922,
+    "latest": 1901.9986036673947
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ali-fuat-cebesoy",
+   "kind": "person",
+   "title": {
+    "ar": "علي فؤاد باشا",
+    "en": "Ali Fuat Cebesoy",
+    "ur": "علی فواد جیبےسوئے"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1882.7264762452344,
+    "latest": 1968.0259690479295
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ali-hassan-mwinyi",
+   "kind": "person",
+   "title": {
+    "ar": "علي حسن مويني",
+    "en": "Ali Hassan Mwinyi",
+    "ur": "علی حسن موینی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1925.3474746230245,
+    "latest": 2024.164014319222
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/zanzibar"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ali-mamlouk",
+   "kind": "person",
+   "title": {
+    "ar": "علي مملوك",
+    "en": "Ali Mamlouk",
+    "ur": "علی مملوک"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1946.1336646200812,
+    "latest": 1946.1364025270566
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ali-suavi",
+   "kind": "person",
+   "title": {
+    "en": "Ali Suavi",
+    "ar": "علي سعاوي"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1839.932989726004,
+    "latest": 1878.3841557321189
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/alija-izetbegovic",
+   "kind": "person",
+   "title": {
+    "ar": "علي عزت بيغوفيتش",
+    "en": "Alija Izetbegović",
+    "ur": "علیجا عزت بیگووچ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1925.5993620676675,
+    "latest": 2003.7994620012414
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/sarajevo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/altaf-hussain-hali",
+   "kind": "person",
+   "title": {
+    "ar": "ألطاف حسين حالي",
+    "en": "Altaf Hussain Hali",
+    "ur": "الطاف حسین حالی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1837.0006913215193,
+    "latest": 1914.9981861365761
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/delhi",
+    "place/lahore"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/amani-abeid-karume",
+   "kind": "person",
+   "title": {
+    "ar": "أماني عبيد كرومي",
+    "en": "Amani Abeid Karume",
+    "ur": "امانی عبید کرومی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1948.833240928972,
+    "latest": 1948.8359788359471
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/zanzibar"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/amanullah-khan",
+   "kind": "person",
+   "title": {
+    "ar": "أمان الله خان",
+    "en": "Amanullah Khan",
+    "ur": "امان اللہ خان"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1892.4159291429667,
+    "latest": 1960.318760823257
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/amin-ahsan-islahi",
+   "kind": "person",
+   "title": {
+    "ar": "أمين أحسن الإصلاحي",
+    "en": "Amin Ahsan Islahi",
+    "ur": "امین احسن اصلاحی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1903.997275782528,
+    "latest": 1997.956768448328
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/lahore"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/amin-al-husseini",
+   "kind": "person",
+   "title": {
+    "ar": "أمين الحسيني",
+    "en": "Amin al-Husseini"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1897.0019233796725,
+    "latest": 1974.5065949334714
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/jerusalem"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/amr-khaled",
+   "kind": "person",
+   "title": {
+    "ar": "عمرو خالد",
+    "en": "Amr Khaled",
+    "ur": "عمرو خالد"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1967.6755169510668,
+    "latest": 1967.678254858042
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [
+    "place/alexandria",
+    "place/cairo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/arslan-arghun",
+   "kind": "person",
+   "title": {
+    "ar": "أرسلان أرغون بن ألب أرسلان"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1097.0019233796725,
+    "latest": 1098.0012594371915
+   },
+   "periods": [
+    "period/buyid-seljuk-fatimid-era",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/aruna-asaf-ali",
+   "kind": "person",
+   "title": {
+    "ar": "أرونا آصف علي",
+    "en": "Aruna Asaf Ali",
+    "ur": "ارونا آصف علی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1909.5360616576659,
+    "latest": 1996.5768633168057
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/delhi"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/asghar-farhadi",
+   "kind": "person",
+   "title": {
+    "ar": "أصغر فرهادي",
+    "en": "Asghar Farhadi",
+    "ur": "اصغر فرہادی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1972.3463863049892,
+    "latest": 1972.3491242119644
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/atiya-fyzee",
+   "kind": "person",
+   "title": {
+    "ar": "عطية فيضي",
+    "en": "Atiya Fyzee",
+    "ur": "عطیہ فیضی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1877.581948979103,
+    "latest": 1967.010205548337
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ayaan-hirsi-ali",
+   "kind": "person",
+   "title": {
+    "ar": "أيان حرسي علي",
+    "en": "Ayaan Hirsi Ali",
+    "ur": "آیان ہرسی علی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1969.8658425566575,
+    "latest": 1969.868580463633
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [
+    "place/mogadishu"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/azzan-bin-qais",
+   "kind": "person",
+   "title": {
+    "ar": "عزان بن قيس",
+    "en": "Azzan bin Qais",
+    "ur": "عزان بن قیس"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1871.0794198375052,
+    "latest": 1871.0821577444806
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/muscat"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ba-lobbo",
+   "kind": "person",
+   "title": {
+    "ar": "با لبو",
+    "en": "Ba Lobbo",
+    "ur": "با لوبو"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/badr-al-mashari",
+   "kind": "person",
+   "title": {
+    "ar": "بدر المشاري",
+    "en": "Badr Al-Mashari",
+    "ur": "بدر المشاری"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1973.0007460796594,
+    "latest": 1974.0000821371784
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/bakili-muluzi",
+   "kind": "person",
+   "title": {
+    "ar": "باكيلي مولوزي",
+    "en": "Bakili Muluzi",
+    "ur": "بکیلی مولوزی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1943.2041041226034,
+    "latest": 1943.2068420295789
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/barham-salih",
+   "kind": "person",
+   "title": {
+    "ar": "برهم صالح",
+    "en": "Barham Salih",
+    "ur": "برہم صالح"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1960.685640362225,
+    "latest": 1960.6883782692005
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/bechir-sfar",
+   "kind": "person",
+   "title": {
+    "ar": "البشير صفر",
+    "en": "Béchir Sfar",
+    "ur": "بشیر صفر"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1856.155088742411,
+    "latest": 1917.163870579104
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/tunis"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/benazir-bhutto",
+   "kind": "person",
+   "title": {
+    "ar": "بينظير بوتو",
+    "en": "Benazir Bhutto",
+    "ur": "بے نظیر بھٹو"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1953.4685174918034,
+    "latest": 2007.9884597219339
+   },
+   "periods": [
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/bilquis-edhi",
+   "kind": "person",
+   "title": {
+    "ar": "بلقيس إيدهي",
+    "en": "Bilquis Edhi",
+    "ur": "بلقیس ایدھی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1947.614872310862,
+    "latest": 2022.2885480194348
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/boutros-boutros-ghali",
+   "kind": "person",
+   "title": {
+    "ar": "بطرس بطرس غالي",
+    "en": "Boutros Boutros-Ghali",
+    "ur": "بطرس بطرس غالی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1922.8669308746928,
+    "latest": 2016.1282572537107
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/cairo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/cahit-arf",
+   "kind": "person",
+   "title": {
+    "ar": "جاهيت عارف",
+    "en": "Cahit Arf",
+    "ur": "جاہت عارف"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1910.8091884159155,
+    "latest": 1997.9868854254048
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/chadli-bendjedid",
+   "kind": "person",
+   "title": {
+    "ar": "الشاذلي بن جديد",
+    "en": "Chadli Bendjedid",
+    "ur": "شاذلی بن جدید"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1929.281846992067,
+    "latest": 2012.7661074491289
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/algiers"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-person-chadli-bendjedid"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "person/colette-khoury",
+   "kind": "person",
+   "title": {
+    "ar": "كوليت الخوري",
+    "en": "Colette Khoury",
+    "ur": "کولیت خوری"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1934.998596822659,
+    "latest": 2026.27494062161
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/deli-fuad-pasha",
+   "kind": "person",
+   "title": {
+    "ar": "دلي فؤاد باشا",
+    "en": "Deli Fuad Pasha",
+    "ur": "دلی فواد پاشا"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1834.9992812994105,
+    "latest": 1931.2914707351647
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ebuzziya-tevfik",
+   "kind": "person",
+   "title": {
+    "en": "Ebüzziya Tevfik",
+    "ar": "أبو الضيا توفيق"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1849.1296193624783,
+    "latest": 1913.0734375106633
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/edward-said",
+   "kind": "person",
+   "title": {
+    "ar": "إدوارد سعيد",
+    "en": "Edward Said",
+    "ur": "ایڈورڈ سعید"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1935.8309205527835,
+    "latest": 2003.7337522330738
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/jerusalem",
+    "place/cairo"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/fahreddin-pasha",
+   "kind": "person",
+   "title": {
+    "ar": "عمر فخر الدين توركان",
+    "en": "Fahreddin Pasha",
+    "ur": "عمر فخرالدین ترکان"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1867.9992744546432,
+    "latest": 1948.8934748830939
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/medina",
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/fairuz",
+   "kind": "person",
+   "title": {
+    "ar": "فيروز",
+    "en": "Fairuz",
+    "ur": "فیروز"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1934.8836047283653,
+    "latest": 1934.8863426353407
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/bayrut"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/faisal-edhi",
+   "kind": "person",
+   "title": {
+    "ar": "فيصل إيدهي",
+    "en": "Faisal Edhi",
+    "ur": "فیصل ایدھی"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/faisal-husseini",
+   "kind": "person",
+   "title": {
+    "ar": "فيصل الحسيني",
+    "en": "Faisal Husseini",
+    "ur": "فیصل حسینی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1940.5401206048036,
+    "latest": 2001.4147449981544
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/baghdad",
+    "place/jerusalem"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/faisal-ii",
+   "kind": "person",
+   "title": {
+    "ar": "فيصل الثاني",
+    "en": "Faisal II",
+    "ur": "فیصل دوم"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1935.3298835705045,
+    "latest": 1958.5336454547005
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/farhat-hashmi",
+   "kind": "person",
+   "title": {
+    "ar": "فرحت هاشمي",
+    "en": "Farhat Hashmi",
+    "ur": "فرحت ہاشمی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1957.9723745182994,
+    "latest": 1957.9751124252748
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/fateh-ali-khan-qizilbash",
+   "kind": "person",
+   "title": {
+    "ar": "فتح علي خان قزلباش",
+    "en": "Fateh Ali Khan Qizilbash",
+    "ur": "فتح علی خاں قزلباش"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1862.0005202023312,
+    "latest": 1923.8224604201002
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/lahore",
+    "place/karbala"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/fawzia-koofi",
+   "kind": "person",
+   "title": {
+    "ar": "فوزیه کوفی",
+    "en": "Fawzia Koofi",
+    "ur": "فوزیہ کوفی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1974.9994181947611,
+    "latest": 1975.9987542522802
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [
+    "place/badakhshan",
+    "place/kabul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/fazlur-rahman-khan",
+   "kind": "person",
+   "title": {
+    "ar": "فضل الرحمن خان",
+    "en": "Fazlur Rahman Khan",
+    "ur": "فضل الرحمان خان"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1929.25173001499,
+    "latest": 1982.2357064142
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/dhaka",
+    "place/jeddah"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ferhat-abbas",
+   "kind": "person",
+   "title": {
+    "ar": "فرحات عباس",
+    "en": "Ferhat Abbas",
+    "ur": "فرحت عباس"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1899.6440036414162,
+    "latest": 1985.9811631997602
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/contemporary-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/algiers"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/fuad-masum",
+   "kind": "person",
+   "title": {
+    "ar": "فؤاد معصوم",
+    "en": "Fuad Masum",
+    "ur": "فؤاد معصوم"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1938.4949040705833,
+    "latest": 1938.4976419775585
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/gazi-osman-pasha",
+   "kind": "person",
+   "title": {
+    "ar": "غازي عثمان باشا",
+    "en": "Gazi Osman Pasha",
+    "ur": "غازی عثمان پاشا"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1831.9985352197514,
+    "latest": 1900.260032717957
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/istanbul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ghazi-muhammad",
+   "kind": "person",
+   "title": {
+    "ar": "غازي محمد الغيمراوي",
+    "en": "Ghazi Muhammad",
+    "ur": "قاضی محمد"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1795.0011978343155,
+    "latest": 1832.8281210428372
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/gunpowder-empires"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ha-decheng",
+   "kind": "person",
+   "title": {
+    "ar": "ها ده تشنغ",
+    "en": "Ha Decheng",
+    "ur": "ها ده تشنغ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1887.9996851406943,
+    "latest": 1943.8146573851302
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/mecca"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/habiba-sarabi",
+   "kind": "person",
+   "title": {
+    "ar": "حبیبه سرابی",
+    "en": "Habiba Sarabi",
+    "ur": "حبیبہ سرابی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1955.9983435662607,
+    "latest": 1957.0004175307868
+   },
+   "periods": [
+    "period/modern-era"
+   ],
+   "places": [
+    "place/kabul"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/al-fayyum",
    "kind": "place",
    "title": {
@@ -82637,6 +88004,886 @@
    "places": [
     "place/al-yamama"
    ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/hilla",
+   "kind": "place",
+   "title": {
+    "ar": "الحلة",
+    "en": "Hilla"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/hulwan",
+   "kind": "place",
+   "title": {
+    "ar": "حلوان",
+    "en": "Hulwan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/izmir",
+   "kind": "place",
+   "title": {
+    "ar": "أزمير",
+    "en": "Izmir"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/jabal-ayr",
+   "kind": "place",
+   "title": {
+    "ar": "جبل عَيْر",
+    "en": "Jabal 'Ayr"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/jazirat-al-arab",
+   "kind": "place",
+   "title": {
+    "ar": "جزيرة العرب",
+    "en": "Jazirat al-Arab (the Arabian Peninsula)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/jundishapur",
+   "kind": "place",
+   "title": {
+    "ar": "جنديسابور",
+    "en": "Jundishapur"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/jurash",
+   "kind": "place",
+   "title": {
+    "ar": "جُرَش",
+    "en": "Jurash"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/yemen"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/jurjuma",
+   "kind": "place",
+   "title": {
+    "ar": "الجرجومة",
+    "en": "al-Jurjuma"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/antakiya"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/jurzan",
+   "kind": "place",
+   "title": {
+    "ar": "جرزان",
+    "en": "Jurzan (Kartli/Iberia)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [
+    "place/armenia"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/kaskar",
+   "kind": "place",
+   "title": {
+    "ar": "كسكر",
+    "en": "Kaskar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/konya",
+   "kind": "place",
+   "title": {
+    "en": "Konya",
+    "ar": "قونية"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/maan",
+   "kind": "place",
+   "title": {
+    "ar": "مَعَان",
+    "en": "Ma'an"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/malang",
+   "kind": "place",
+   "title": {
+    "ar": "مالانج",
+    "en": "Malang"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/java"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/manbij",
+   "kind": "place",
+   "title": {
+    "ar": "منبج",
+    "en": "Manbij"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/qinnasrin"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/marand",
+   "kind": "place",
+   "title": {
+    "ar": "مرند",
+    "en": "Marand"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/marash",
+   "kind": "place",
+   "title": {
+    "ar": "مرعش",
+    "en": "Mar'ash (Germanikeia)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/marj-al-suffar",
+   "kind": "place",
+   "title": {
+    "ar": "مرج الصُّفَّر",
+    "en": "Marj al-Suffar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/marr-al-zahran",
+   "kind": "place",
+   "title": {
+    "en": "Marr al-Zahran",
+    "ar": "مر الظهران"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/mecca"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/marw-al-rudh",
+   "kind": "place",
+   "title": {
+    "ar": "مرو الروذ",
+    "en": "Marw al-Rudh"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/masisa",
+   "kind": "place",
+   "title": {
+    "ar": "المصيصة",
+    "en": "Masisa (Mopsuestia)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/mihran",
+   "kind": "place",
+   "title": {
+    "ar": "مهران",
+    "en": "Mihran"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/mount-sal",
+   "kind": "place",
+   "title": {
+    "ar": "جبل سلع",
+    "en": "Mount Sal'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/illus-event-battle-of-the-trench",
+    "media/illus-event-battle-of-uhud"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "place/najd",
+   "kind": "place",
+   "title": {
+    "en": "Najd",
+    "ar": "نجد"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/nihawand",
+   "kind": "place",
+   "title": {
+    "ar": "نهاوند",
+    "en": "Nihawand"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/nuba",
+   "kind": "place",
+   "title": {
+    "ar": "بلاد النوبة",
+    "en": "Nubia"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/qandahar",
+   "kind": "place",
+   "title": {
+    "ar": "القندهار",
+    "en": "al-Qandahar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/qarn-al-manazil",
+   "kind": "place",
+   "title": {
+    "ar": "قرن المنازل",
+    "en": "Qarn al-Manazil"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/qarqisiya",
+   "kind": "place",
+   "title": {
+    "ar": "قرقيسيا",
+    "en": "Qarqisiya (Circesium)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/jazira"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/qaysariyya",
+   "kind": "place",
+   "title": {
+    "ar": "قيسارية",
+    "en": "Caesarea"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/jerusalem"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/qudayd",
+   "kind": "place",
+   "title": {
+    "ar": "قديد",
+    "en": "Qudayd"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/qumm",
+   "kind": "place",
+   "title": {
+    "ar": "قم",
+    "en": "Qumm"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun",
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/rafiqa",
+   "kind": "place",
+   "title": {
+    "ar": "الرافقة",
+    "en": "al-Rafiqa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [
+    "place/raqqa"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/rudis",
+   "kind": "place",
+   "title": {
+    "ar": "رودس",
+    "en": "Rhodes"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shahrazur",
+   "kind": "place",
+   "title": {
+    "ar": "شهرزور",
+    "en": "Shahrazur"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shakar",
+   "kind": "place",
+   "title": {
+    "ar": "شَكَر",
+    "en": "Shakar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [
+    "place/yemen"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shib-abi-talib",
+   "kind": "place",
+   "title": {
+    "ar": "شعب أبي طالب",
+    "en": "Shi'b Abi Talib"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [
+    "place/mecca"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shimshat",
+   "kind": "place",
+   "title": {
+    "ar": "شمشاط",
+    "en": "Shimshat (Arsamosata)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/jazira"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shiraz",
+   "kind": "place",
+   "title": {
+    "ar": "شيراز",
+    "en": "Shiraz"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/shirwan",
+   "kind": "place",
+   "title": {
+    "ar": "شروان",
+    "en": "Shirwan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [
+    "place/armenia"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/silves",
+   "kind": "place",
+   "title": {
+    "ar": "شلب",
+    "en": "Silves"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [
+    "place/al-andalus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/sinjar",
+   "kind": "place",
+   "title": {
+    "ar": "سنجار",
+    "en": "Sinjar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/sumaysat",
+   "kind": "place",
+   "title": {
+    "ar": "سميساط",
+    "en": "Sumaysat (Samosata)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/jazira"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tabariyya",
+   "kind": "place",
+   "title": {
+    "ar": "طبرية",
+    "en": "Tabariyya (Tiberias)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tarabulus-al-gharb",
+   "kind": "place",
+   "title": {
+    "en": "Tripoli (Libya)",
+    "ar": "طرابلس الغرب"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tarabulus-gharb",
+   "kind": "place",
+   "title": {
+    "ar": "طرابلس (الغرب)",
+    "en": "Tripoli (al-Gharb)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tarim",
+   "kind": "place",
+   "title": {
+    "ar": "تريم",
+    "en": "Tarim"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tayma",
+   "kind": "place",
+   "title": {
+    "ar": "تيماء",
+    "en": "Tayma"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/tikrit",
+   "kind": "place",
+   "title": {
+    "ar": "تكريت",
+    "en": "Tikrit"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/ushrusana",
+   "kind": "place",
+   "title": {
+    "ar": "أشروسنة",
+    "en": "Ushrusana"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/wadi-muhassir",
+   "kind": "place",
+   "title": {
+    "ar": "وادي محسر",
+    "en": "Wadi Muhassir"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -98627,6 +104874,814 @@
    "coverage": "card"
   },
   {
+   "id": "work/al-muqni-ibn-qudama",
+   "kind": "work",
+   "title": {
+    "ar": "المقنع (ابن قدامة)",
+    "en": "Al-Muqni (Ibn Qudama)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-muqni",
+   "kind": "work",
+   "title": {
+    "ar": "المقنع",
+    "en": "Al-Muqni'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-murshid-al-wajiz",
+   "kind": "work",
+   "title": {
+    "ar": "المرشد الوجيز إلى علوم تتعلق بالكتاب العزيز",
+    "en": "Al-Murshid al-Wajiz"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-musnad-work",
+   "kind": "work",
+   "title": {
+    "ar": "المسند",
+    "en": "al-Musnad"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-mutalif-wa-al-mukhtalif",
+   "kind": "work",
+   "title": {
+    "ar": "المؤتلف والمختلف",
+    "en": "Al-Mu'talif wa-l-Mukhtalif"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-mutamad-min-al-mutaqad",
+   "kind": "work",
+   "title": {
+    "ar": "المعتمد من المعتقد",
+    "en": "al-Mutamad min al-Mutaqad"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-mutarjima",
+   "kind": "work",
+   "title": {
+    "ar": "المترجمة",
+    "en": "The Translator"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 1998.9999110180222,
+    "latest": 1999.9992470755415
+   },
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nafha-al-rahmaniyya",
+   "kind": "work",
+   "title": {
+    "ar": "النفحة الرحمانية شرح متن الميدانية في علم التجويد",
+    "en": "al-Nafha al-Rahmaniyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-najm-al-wahhaj",
+   "kind": "work",
+   "title": {
+    "ar": "النجم الوهاج في شرح المنهاج",
+    "en": "al-Najm al-Wahhaj fi Sharh al-Minhaj"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nasiha-fi-al-adiya-al-sahiha",
+   "kind": "work",
+   "title": {
+    "ar": "النصيحة في الأدعية الصحيحة",
+    "en": "Al-Nasiha"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nasikh-wa-al-mansukh",
+   "kind": "work",
+   "title": {
+    "ar": "الناسخ والمنسوخ",
+    "en": "Al-Nasikh wa-al-Mansukh"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nawadir-wa-al-ziyadat",
+   "kind": "work",
+   "title": {
+    "ar": "النوادر والزيادات",
+    "en": "Al-Nawadir wa-l-Ziyadat"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nizam-al-khas",
+   "kind": "work",
+   "title": {
+    "ar": "النظام الخاص لأهل الاختصاص",
+    "en": "Al-Nizam al-Khas li-Ahl al-Ikhtisas"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nukat-al-ziraf",
+   "kind": "work",
+   "title": {
+    "ar": "النكت الظراف على الأطراف",
+    "en": "al-Nukat al-Ziraf ala al-Atraf"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nukat-ala-kitab-ibn-al-salah",
+   "kind": "work",
+   "title": {
+    "ar": "النكات على كتاب ابن الصلاح",
+    "en": "al-Nukat ala Kitab Ibn al-Salah"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nukat-fi-al-masail-al-mukhtalaf-fiha",
+   "kind": "work",
+   "title": {
+    "ar": "النكت في المسائل المختلف فيها بين الشافعي وأبي حنيفة",
+    "en": "Al-Nukat fi al-Masa'il al-Mukhtalaf fiha"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-numaaf-kaatib",
+   "kind": "work",
+   "title": {
+    "ar": "عداء الطائرة الورقية",
+    "en": "The Kite Runner"
+   },
+   "status": "draft",
+   "span": {
+    "earliest": 2002.9999931552325,
+    "latest": 2003.9993292127515
+   },
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nuqul-al-shariyya-radd-wahhabiyya",
+   "kind": "work",
+   "title": {
+    "ar": "النقل الشرعية في الرد على الوهابية",
+    "en": "al-Nuqul al-Shariyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qabas-fi-sharh-muwatta-malik",
+   "kind": "work",
+   "title": {
+    "ar": "القبس في شرح موطأ مالك بن أنس",
+    "en": "Al-Qabas fi Sharh Muwatta' Malik"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qamus-al-muhit",
+   "kind": "work",
+   "title": {
+    "ar": "القاموس المحيط",
+    "en": "al-Qamus al-Muhit"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qasd-al-mujarrad",
+   "kind": "work",
+   "title": {
+    "ar": "القصد المجرد في معرفة الاسم المفرد",
+    "en": "Al-Qasd al-Mujarrad"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qasida-al-hamziyya",
+   "kind": "work",
+   "title": {
+    "ar": "القصيدة الهمزية",
+    "en": "Al-Qasida al-Hamziyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qasida-al-nuniyya-ibn-qayyim",
+   "kind": "work",
+   "title": {
+    "ar": "القصيدة النونية",
+    "en": "al-Qasida al-Nuniyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qawaid-al-muthla",
+   "kind": "work",
+   "title": {
+    "ar": "القواعد المثلى في صفات الله تعالى وأسمائه الحسنى",
+    "en": "Al-Qawa'id al-Muthla"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qawaid-al-nuraniyya",
+   "kind": "work",
+   "title": {
+    "ar": "القواعد النورانية",
+    "en": "Al-Qawa'id al-Nuraniyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qawl-al-mufid-fi-adillat-al-ijtihad-wa-al-taqlid",
+   "kind": "work",
+   "title": {
+    "ar": "القول المفيد في أدلة الاجتهاد والتقليد",
+    "en": "al-Qawl al-Mufid fi Adillat al-Ijtihad wa al-Taqlid"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qawl-al-mukhtasar-mahdi",
+   "kind": "work",
+   "title": {
+    "ar": "القول المختصر في علامات المهدي المنتظر",
+    "en": "Al-Qawl al-Mukhtasar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qistas-al-mustaqim",
+   "kind": "work",
+   "title": {
+    "ar": "القسطاس المستقيم",
+    "en": "Al-Qistas al-Mustaqim"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-qura-al-quraniyya",
+   "kind": "work",
+   "title": {
+    "ar": "القرعة القرآنية بأسماء الخيل",
+    "en": "al-Qura al-Quraniyya bi-Asma al-Khayl"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-radd-ala-al-jahmiyya-darimi",
+   "kind": "work",
+   "title": {
+    "ar": "الرد على الجهمية (الدارمي)",
+    "en": "Al-Radd ala al-Jahmiyya (al-Darimi)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-radd-ala-al-jahmiyya",
+   "kind": "work",
+   "title": {
+    "ar": "الرد على الزنادقة والجهمية",
+    "en": "al-Radd 'ala al-Zanadiqa wa'l-Jahmiyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-radd-ala-al-mutaassib",
+   "kind": "work",
+   "title": {
+    "ar": "الرد على المتعصب العنيد المانع من ذم يزيد",
+    "en": "al-Radd ala al-Mutaassib"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-radd-ala-al-nasara",
+   "kind": "work",
+   "title": {
+    "ar": "الرد على النصارى",
+    "en": "al-Radd ala al-Nasara"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-radd-ala-man-qala-bi-fana-al-janna-wal-nar",
+   "kind": "work",
+   "title": {
+    "ar": "الرد على من قال بفناء الجنة والنار",
+    "en": "Al-Radd 'ala man Qala bi-Fana' al-Janna wa-l-Nar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-radd-ala-wahdat-al-wujud",
+   "kind": "work",
+   "title": {
+    "ar": "الرد على القائلين بوحدة الوجود",
+    "en": "al-Radd 'ala al-Qa'ilin bi-Wahdat al-Wujud"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-rasail-al-khams",
+   "kind": "work",
+   "title": {
+    "ar": "الرسائل الخمس",
+    "en": "al-Rasail al-Khams"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-rawd-al-unuf",
+   "kind": "work",
+   "title": {
+    "ar": "الروض الأنف في شرح السيرة النبوية",
+    "en": "al-Rawd al-Unuf fi Sharh al-Sira al-Nabawiyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-rawdatayn",
+   "kind": "work",
+   "title": {
+    "ar": "الروضتين في أخبار الدولتين",
+    "en": "al-Rawdatayn"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-risala-al-akmaliyya",
+   "kind": "work",
+   "title": {
+    "ar": "الرسالة الأكملية",
+    "en": "Al-Risala al-Akmaliyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-risala-al-arshiyya",
+   "kind": "work",
+   "title": {
+    "ar": "الرسالة العرشية",
+    "en": "al-Risala al-Arshiyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-risala-al-tadmuriyya",
+   "kind": "work",
+   "title": {
+    "ar": "الرسالة التدمرية",
+    "en": "al-Risala al-Tadmuriyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-risala-fi-ajwibat-asilat-al-zaydiyya",
+   "kind": "work",
+   "title": {
+    "ar": "الرسالة في أجوبة أسئلة الزيدية",
+    "en": "al-Risala fi Ajwibat Asilat al-Zaydiyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-risala-shafii",
+   "kind": "work",
+   "title": {
+    "ar": "الرسالة",
+    "en": "Al-Risala"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-riwayatayn-wal-wajhayn",
+   "kind": "work",
+   "title": {
+    "ar": "الروايتين والوجهين",
+    "en": "al-Riwayatayn wal-Wajhayn"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-sabuniyya",
+   "kind": "work",
+   "title": {
+    "ar": "السبعينية",
+    "en": "Al-Sab'uniyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-safdiyya",
+   "kind": "work",
+   "title": {
+    "ar": "الصفدية",
+    "en": "al-Safdiyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-safwa",
+   "kind": "work",
+   "title": {
+    "ar": "الصفوة",
+    "en": "al-Safwa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-sahih-al-musnad-min-dalail-al-nubuwwa",
+   "kind": "work",
+   "title": {
+    "ar": "الصحيح المسند من دلائل النبوة",
+    "en": "al-Sahih al-Musnad min Dalail al-Nubuwwa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-salafiyya-bayna-al-asil-wa-al-dakhil",
+   "kind": "work",
+   "title": {
+    "ar": "السلفية بين الأصيل والدخيل",
+    "en": "Al-Salafiyya bayna al-Asil wa-l-Dakhil"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-sarim-al-maslul",
+   "kind": "work",
+   "title": {
+    "ar": "الصارم المسلول",
+    "en": "As-Sarim al-Maslul"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/battle-of-arzamon-605",
    "kind": "event",
    "title": {
@@ -100330,29 +107385,6 @@
    "coverage": "card"
   },
   {
-   "id": "person/ahmet-baitursynuly",
-   "kind": "person",
-   "title": {
-    "ar": "أحمد بايتورسينوف",
-    "en": "Ahmet Baitursynuly",
-    "ur": "احمد بایتورسینوف"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1872.6783575295865,
-    "latest": 1937.936371041126
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/modern-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "person/khallaf-abd-al-wahhab-ibn-abd-al-wahid",
    "kind": "person",
    "title": {
@@ -100590,26 +107622,6 @@
    "coverage": "card"
   },
   {
-   "id": "place/jurzan",
-   "kind": "place",
-   "title": {
-    "ar": "جرزان",
-    "en": "Jurzan (Kartli/Iberia)"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/pre-islamic-arabia"
-   ],
-   "places": [
-    "place/armenia"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "place/uyun-al-taff",
    "kind": "place",
    "title": {
@@ -100672,26 +107684,6 @@
     "media/illus-event-battle-of-uhud"
    ],
    "coverage": "image"
-  },
-  {
-   "id": "place/shakar",
-   "kind": "place",
-   "title": {
-    "ar": "شَكَر",
-    "en": "Shakar"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [
-    "place/yemen"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
   },
   {
    "id": "place/al-rawha",
@@ -100768,24 +107760,6 @@
    "coverage": "card"
   },
   {
-   "id": "place/hulwan",
-   "kind": "place",
-   "title": {
-    "ar": "حلوان",
-    "en": "Hulwan"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "place/jabbanat-al-sabi",
    "kind": "place",
    "title": {
@@ -100834,44 +107808,6 @@
     "period/rashidun"
    ],
    "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/nihawand",
-   "kind": "place",
-   "title": {
-    "ar": "نهاوند",
-    "en": "Nihawand"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/qarqisiya",
-   "kind": "place",
-   "title": {
-    "ar": "قرقيسيا",
-    "en": "Qarqisiya (Circesium)"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/jazira"
-   ],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -101245,25 +108181,6 @@
    "coverage": "card"
   },
   {
-   "id": "work/al-numaaf-kaatib",
-   "kind": "work",
-   "title": {
-    "ar": "عداء الطائرة الورقية",
-    "en": "The Kite Runner"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 2002.9999931552325,
-    "latest": 2003.9993292127515
-   },
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "work/arbaon-qaida-lil-hubb",
    "kind": "work",
    "title": {
@@ -101295,42 +108212,6 @@
     "latest": 2015.9995756243823
    },
    "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "concept/abjad-kings-etymology",
-   "kind": "concept",
-   "title": {
-    "ar": "أحرف الجمل على أسماء ملوك مدين",
-    "en": "The abjad letters named for Madyan's kings"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/pre-islamic-arabia"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "concept/ada-al-shahada",
-   "kind": "concept",
-   "title": {
-    "ar": "أداء الشهادة",
-    "en": "Ada' al-shahada (performing testimony: the duty on request, the excused witness, and the wording)"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
    "places": [],
    "tags": [],
    "hero": null,
@@ -102009,24 +108890,6 @@
    "coverage": "card"
   },
   {
-   "id": "concept/ittisal-al-isnad",
-   "kind": "concept",
-   "title": {
-    "ar": "اتصال الإسناد وثبوت اللقي",
-    "en": "Connectedness of the isnad and proven hearing"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
    "id": "concept/khiyar-fawat-al-wasf-fiqh",
    "kind": "concept",
    "title": {
@@ -102676,24 +109539,6 @@
    "coverage": "image"
   },
   {
-   "id": "event/fida-ransom-283",
-   "kind": "event",
-   "title": {
-    "ar": "الفداء بين المسلمين والروم سنة ٢٨٣",
-    "en": "The ransom exchange between Muslims and Byzantines, 283"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-fida-ransom-283"
-   ],
-   "coverage": "image"
-  },
-  {
    "id": "event/french-conquest-of-tunisia",
    "kind": "event",
    "title": {
@@ -102726,24 +109571,6 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-french-tripolitania-war-1681"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/georgians-azerbaijan-612",
-   "kind": "event",
-   "title": {
-    "ar": "غارة الكرج على أذربيجان سنة 612",
-    "en": "Georgian Raid on Azerbaijan, 612"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-georgians-azerbaijan-612"
    ],
    "coverage": "image"
   },
@@ -103177,25 +110004,6 @@
    "hero": null,
    "candidates": [
     "media/tbgen-person-brother-ali"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/chadli-bendjedid",
-   "kind": "person",
-   "title": {
-    "ar": "الشاذلي بن جديد",
-    "en": "Chadli Bendjedid",
-    "ur": "شاذلی بن جدید"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-person-chadli-bendjedid"
    ],
    "coverage": "image"
   },
