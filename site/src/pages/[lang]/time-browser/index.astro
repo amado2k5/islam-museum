@@ -4,6 +4,8 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, fmt, LANGS, type Lang } from "../../../lib/i18n";
 import { subjects, subjectHref, pick, langOf, nodeDate, type Subject } from "../../../lib/explorer";
+import { existsSync } from "node:fs";
+import { repoPath } from "../../../lib/paths";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -11,7 +13,16 @@ const T = ui(lang);
 const B = T.time_browser;
 const all = subjects();
 const spanOf = (s: Subject) => `${nodeDate(s.nodes[0].date, lang).text} — ${nodeDate(s.nodes[s.nodes.length - 1].date, lang).text}`;
+// A card shows the first pre-rendered image in its story, if one exists.
+const coverOf = (s: Subject) => {
+  for (const n of s.nodes) {
+    const p = `/media/time-browser/explorer/${n.id.replace(/[/#]/g, "-")}.webp`;
+    if (existsSync(repoPath("site", "public", p))) return p;
+  }
+  return "";
+};
 const card = (s: Subject) => ({
+  cover: coverOf(s),
   href: subjectHref(lang, s.id),
   title: pick(s.title, lang),
   titleLang: langOf(s.title, lang),
@@ -45,7 +56,7 @@ const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), la
         <ul class="tbs-cards" role="list">
           {journeys.map((c) => (
             <li class="tbs-card tbs-journey">
-              <a href={c.href}>
+              <a href={c.href} style={c.cover ? `--cover:url(${c.cover})` : undefined} class={c.cover ? "has-cover" : undefined}>
                 <strong lang={c.titleLang}>{c.title}</strong>
                 <span>{c.span}</span>
                 <span>{c.stops}</span>
@@ -63,7 +74,7 @@ const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), la
         <ul class="tbs-cards" role="list">
           {g.items.map((c) => (
             <li class="tbs-card">
-              <a href={c.href}>
+              <a href={c.href} style={c.cover ? `--cover:url(${c.cover})` : undefined} class={c.cover ? "has-cover" : undefined}>
                 <strong lang={c.titleLang}>{c.title}</strong>
                 <span>{c.span}</span>
                 <span>{c.stops}</span>
@@ -91,6 +102,7 @@ const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), la
   .tbs-card strong { font-size: 1.1rem; }
   .tbs-card span { font-size: .88rem; opacity: .9; }
   .tbs-cta { color: var(--gold, #c9a227); font-weight: 600; }
+  .tbs-card a.has-cover { min-height: 140px; align-content: end; background: linear-gradient(to top, color-mix(in srgb, var(--bg, #0b1220) 92%, transparent) 45%, color-mix(in srgb, var(--bg, #0b1220) 35%, transparent)), var(--cover) center / cover; }
 </style>
 
 <script>
