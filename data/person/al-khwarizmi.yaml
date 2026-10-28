@@ -10,6 +10,11 @@ born: { edtf: "0780", hijri: "0164", calendar: julian, precision: year, status: 
 died: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 themes: [mathematics, astronomy-and-timekeeping, geography-and-cartography]
 regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/britannica-al-khwarizmi] }
+  - { type: participated_in, target: event/kitab-al-jabr-composed-820, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
+  - { type: participated_in, target: event/meridian-degree-sinjar-827, role: "العالم المشارك", sources: [source/britannica-al-khwarizmi] }
+  - { type: participated_in, target: event/surat-al-ard-composed-833, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
@@ -23,7 +28,7 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 519"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-21
-sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba]
+sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi]
 education:
   did_you_know:
     ar: "من كتاب الخوارزمي في الجبر جاءت كلمة algebra، ومن اسمه اللاتيني Algoritmi جاءت كلمة algorithm."
