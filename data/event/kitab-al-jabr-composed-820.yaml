@@ -1,0 +1,23 @@
+id: event/kitab-al-jabr-composed-820
+class: event
+kind: publication
+label: { ar: "تصنيف «الجبر والمقابلة»", en: "The Algebra composed" }
+summary:
+  ar: "صنّف الخوارزمي في بيت الحكمة ببغداد كتابه «المختصر في حساب الجبر والمقابلة» في عهد المأمون، وفيه قواعد حل المعادلات الخطية والتربيعية ببراهين هندسية؛ ومن ترجمته اللاتينية جاءت كلمة algebra {cite:britannica-al-khwarizmi}."
+  en: "At the House of Wisdom in Baghdad under al-Maʾmūn, al-Khwārizmī composed his Algebra — rules and geometric demonstrations for solving linear and quadratic equations; its Latin translation gave Europe the word algebra {cite:britannica-al-khwarizmi}."
+  ur: "بغداد کے دارالحکمہ میں المأمون کے عہد میں خوارزمی نے الجبر کی کتاب لکھی جس میں خطی اور درجہ دوم مساوات کے ہندسی برہان تھے؛ اس کی لاطینی ترجمے سے algebra کا لفظ بنا {cite:britannica-al-khwarizmi}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0825~", precision: year, status: historical, derived: true, note: "composed under al-Maʾmūn (r. 813-833) per Britannica; year approximate" }
+  end: { edtf: "0825~", precision: year, status: historical, derived: true, note: "composed under al-Maʾmūn (r. 813-833) per Britannica; year approximate" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-khwarizmi] }
+sources: [source/britannica-al-khwarizmi]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Khwarizmi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-khwarizmi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/surat-al-ard-composed-833
+class: event
+kind: publication
+label: { ar: "تصنيف «صورة الأرض»", en: "Ṣūrat al-arḍ composed" }
+summary:
+  ar: "وضع الخوارزمي كتاب «صورة الأرض» مبنياً على جغرافية بطليموس مع قيم أصح لطول البحر المتوسط ومواضع مدن آسيا وأفريقيا، وأسهم كذلك في خريطة العالم التي أمر بها المأمون {cite:britannica-al-khwarizmi}."
+  en: "Al-Khwārizmī wrote the Ṣūrat al-arḍ (Image of the Earth), giving coordinates of the known world's localities that corrected Ptolemy's Mediterranean length and Asian and African cities, and he helped build al-Maʾmūn's world map {cite:britannica-al-khwarizmi}."
+  ur: "خوارزمی نے صورة الارض لکھی جس میں معروف دنیا کے مقامات کے محل وقوع دیے اور بطلیموس کی اصلاح کی، نیز المأمون کے حکم پر بننے والی عالمی نقشے میں بھی حصہ لیا {cite:britannica-al-khwarizmi}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0833~", precision: year, status: historical, derived: true, note: "al-Maʾmūn-era work; year approximate" }
+  end: { edtf: "0833~", precision: year, status: historical, derived: true, note: "al-Maʾmūn-era work; year approximate" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-khwarizmi] }
+sources: [source/britannica-al-khwarizmi]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Khwarizmi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-khwarizmi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
