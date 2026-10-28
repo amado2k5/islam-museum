@@ -55,3 +55,13 @@ Agents never start the deploy; when a site change needs to be live, ask the foun
 | Data and content lints | `scripts/validate.ts` |
 | Rendered-output assertions | `scripts/check-site.ts` |
 | UI strings (Arabic first) | `i18n/ar.yaml` (and `i18n/en.yaml` for parity) |
+
+## Time Browser (go-live notes)
+
+- **Data:** `scripts/time-browser.ts` reads `.cache/graph.json` and writes, per language, one JSON file per type, `index.json`, `members.json` (every stop id, used for entity buttons), `live.json` (the front-page set) and `tour.json` (the five tour stops). It runs inside `prebuild`, so `npm run build` includes it.
+- **Pages:** `/<lang>/time-browser/` (all stops, grouped by type, search over the page), `/<lang>/time-browser/guide/` ("What we offer"), `/<lang>/time-browser/<kind>/<slug>/` (one page per stop, generated from every topic file).
+- **Entry points:** a landing-page button after today's date, and a "Time-browse this" button on each entity that has a stop (`site/src/lib/timeBrowser.ts` reads `members.json`).
+- **Rules:** no runtime AI, no AI prompt or chat, no sign-in, no network request from the page. Search filters only the stops already in the page.
+- **Schema:** each record may carry `kids` (localized, optional, ages 6–12); `schema/_base.schema.json` allows it.
+- **Checks before deploy:** `npm run validate`, `npm test` (Time Browser tests in `scripts/time-browser*.test.ts`), `npm run build`, `npm run check:static`, `npm run check:weight`.
+- **Known open items:** kids text for the launch records (content); the two date fixes (Apamea 998, Achaemenid 550 BCE); a native Urdu review of all Time Browser strings.

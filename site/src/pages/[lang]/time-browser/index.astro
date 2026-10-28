@@ -37,6 +37,7 @@ const stopHref = (s: Stop) => `/${lang}/time-browser/${s.id}/`;
     <h1>{B.title}</h1>
     <p style="font-size:1.25rem;max-width:var(--measure)">{B.lede}</p>
     <p style="max-width:var(--measure)">{B.live_note}</p>
+    <p><a href={`/${lang}/time-browser/guide/`}>{B.guide_link}</a></p>
     <p><strong>{B.count_label}:</strong> {total}</p>
 
     <section aria-labelledby="tour-h">

@@ -625,16 +625,29 @@
           "description": "One authored, sourced fact («هل تعلم؟») in the three published languages; at most 40 words each, at least two cited sources (docs/delegation/education-master-plan.md §5 E3).",
           "additionalProperties": false,
           "properties": {
-            "ar": { "type": "string" },
-            "en": { "type": "string" },
-            "ur": { "type": "string" },
+            "ar": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            },
+            "ur": {
+              "type": "string"
+            },
             "sources": {
               "type": "array",
               "minItems": 2,
-              "items": { "type": "string" }
+              "items": {
+                "type": "string"
+              }
             }
           },
-          "required": ["ar", "en", "ur", "sources"]
+          "required": [
+            "ar",
+            "en",
+            "ur",
+            "sources"
+          ]
         },
         "exclude": {
           "type": "boolean"
@@ -687,6 +700,10 @@
           "type": "string"
         }
       }
+    },
+    "kids": {
+      "$ref": "#/$defs/localized",
+      "description": "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text."
     }
   },
   "required": [
