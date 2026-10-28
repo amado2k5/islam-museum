@@ -13,6 +13,7 @@ date:
   start: { edtf: "0825~", precision: year, status: historical, derived: true, note: "composed under al-Maʾmūn (r. 813-833) per Britannica; year approximate" }
   end: { edtf: "0825~", precision: year, status: historical, derived: true, note: "composed under al-Maʾmūn (r. 813-833) per Britannica; year approximate" }
 relations:
+  - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/britannica-al-khwarizmi] }
   - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-khwarizmi] }
 sources: [source/britannica-al-khwarizmi]
 provenance:

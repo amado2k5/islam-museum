@@ -1,0 +1,25 @@
+id: event/rashid-founds-khizanat-al-hikma
+class: event
+kind: founding
+label: { ar: "الرشيد يضع نواة خزانة الحكمة", en: "Al-Rashid lays the nucleus of the House of Wisdom" }
+summary:
+  ar: "وضع هارون الرشيد نواة خزانة الحكمة ببغداد، وولّى يوحنا بن ماسويه ترجمة الكتب الطبية القديمة ورتّب له كتاباً حذاقاً، وكان فيها الفضل بن نوبخت ينقل من الفارسية وعلان الشعوبي ينسخ {cite:duha-islam p. 79-81}."
+  en: "Harun al-Rashid laid the nucleus of the Khizānat al-Ḥikma at Baghdad: Yūḥannā ibn Māsawayh set over the translation of the ancient medical books with skilled scribes, al-Faḍl ibn Nawbakht rendering Persian into Arabic and ʿAllān al-Shuʿūbī copying {cite:duha-islam p. 79-81}."
+  ur: "ہارون الرشید نے بغداد میں خزانۃ الحکمہ کی بنیاد رکھی: یوحنا ابن ماسویہ قدیم طبی کتب کے ترجمے پر مامور، فضل ابن نوبخت فارسی سے ترجمہ کرتا اور علان شعوبی نقل کرتا {cite:duha-islam p. 79-81}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0790~", precision: year, status: tradition, derived: true, note: "within al-Rashid's reign (786-809); year approximate" }
+  end: { edtf: "0790~", precision: year, status: tradition, derived: true, note: "within al-Rashid's reign (786-809); year approximate" }
+relations:
+  - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/duha-islam] }
+  - { type: had_participant, target: person/harun-al-rashid, role: "المؤسس", sources: [source/duha-islam] }
+  - { type: had_participant, target: person/yuhanna-ibn-masawayh, role: "المترجم", sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer House of Wisdom story from the cited sources"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-bayt-al-hikma
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
