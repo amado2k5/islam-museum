@@ -13,6 +13,7 @@ import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, S
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { recordingRef } from "../lib/recordings";
+import { timeBrowserMembers } from "../lib/timeBrowser";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, levelOf, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
@@ -278,6 +279,12 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
             <h2 id="rel">{T.entity.related}</h2>
             <p style="display:flex;flex-wrap:wrap;gap:6px 8px">{relatedIds.map((r, k) => <>{k > 0 && <span class="sr-only">· </span>}<a class="chip" href={href(lang, r)}>{labelOf(byId.get(r)!, lang)}</a></>)}</p>
           </section>
+        )}
+
+        {timeBrowserMembers(lang).has(n.id) && (
+          <p class="ui" style="margin-block:12px">
+            <a class="btn" href={`/${lang}/time-browser/${n.id}/`}>{T.time_browser.entity_button}</a>
+          </p>
         )}
 
         {(citeList.length > 0 || ownSources.length > 0) && (
