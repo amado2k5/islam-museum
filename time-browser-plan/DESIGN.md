@@ -209,3 +209,4 @@ Everything is recoverable. All shared notes live in this file (§9/§10/§11). D
 
 **Verification commands**
 `npx tsx scripts/time-browser-media.ts --batch 1000` | `npx tsx scripts/time-browser-maps.ts` | `npx tsx scripts/time-browser-cards.ts` | `npm run validate` (0 errors) | `npm test` | historynavigator `npm test && npm run build`.
+- 2026-10-28 Devin: second SDXL round launched (320 jobs, local queue on the founder's Mac): 161 launch-set records still on cards get images first, then a spread across the card pool (event 59, person 56, place 49, polity 46, rest). Same rules: no people/faces/text/modern objects, CC0, lands as media/tbgen-* at the next index regen — the wire picks them up with no schema change. Heads-up for Claude: launch-set image coverage goes ~160 → 321.
