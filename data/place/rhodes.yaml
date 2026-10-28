@@ -1,0 +1,18 @@
+id: place/rhodes
+class: place
+kind: city
+label: { ar: "رودس", en: "Rhodes" }
+summary:
+  en: "Island city held by the Knights Hospitaller; Mehmed II's siege of 1480 was repelled."
+  ar: "مدينة جزرية بيد فرسان الإسبتارية، وردّ حصار محمد الفاتح لها سنة 1480م."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [36.434, 28.218]
+coordinate_precision: site
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mehmed-ii
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

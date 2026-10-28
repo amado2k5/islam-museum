@@ -3,14 +3,17 @@ class: event
 kind: conquest
 label: { ar: "فتح نجربونت", en: "Siege of Negroponte" }
 summary:
-  ar: "بطاقة أولية لحصار نجربونت سنة ١٤٧٠م، أخذ محمد الفاتح لجزيرة إيفيا من البندقية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Negroponte in 1470, Mehmed II's capture of Euboea from Venice; its sources are not yet checked on the page."
+  ar: "قاد السلطان محمد الفاتح جيشاً وأسطولاً إلى جزيرة نجربونت البندقية ففتح مدينتها حصنها الشهير بعد حصار شديد {cite:dawlat-uthmaniyya-salabi}."
+  en: "Mehmed II led army and fleet against Venetian Negroponte and took its famed fortress city after a hard siege {cite:dawlat-uthmaniyya-salabi}."
+  ur: "سلطان محمد فاتح فوج اور بحریہ لے کر وینیسی جزیرہ نگروپونتے کے خلاف گیا اور سخت محاصرے کے بعد اس کا مشہور قلعہ شہر فتح کیا {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1470", precision: year, status: tradition, derived: true }
   end: { edtf: "1470", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/negroponte, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3622772

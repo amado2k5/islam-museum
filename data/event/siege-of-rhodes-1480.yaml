@@ -3,14 +3,17 @@ class: event
 kind: siege
 label: { ar: "حصار رودس (١٤٨٠)", en: "Siege of Rhodes" }
 summary:
-  ar: "بطاقة أولية لحصار رودس سنة ١٤٨٠م، الحملة العثمانية التي ردها فرسان الاستشفار؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Rhodes in 1480, the Ottoman expedition repelled by the Knights Hospitaller; its sources are not yet checked on the page."
+  ar: "أرسل السلطان محمد الفاتح أسطولاً بقيادة مصيح باشا لحصار رودس معقل فرسان الإسبتارية، فصمد الحصار وأبحرت الحملة بعد شهور {cite:dawlat-uthmaniyya-salabi}."
+  en: "Mehmed II sent a fleet under Mesih Pasha to besiege Hospitaller Rhodes; the fortress held and the expedition sailed home after months {cite:dawlat-uthmaniyya-salabi}."
+  ur: "سلطان محمد فاتح نے مسیح پاشا کی قیادت میں بحریہ بھیجا تا کہ اسپتاریوں کے گڑھ روڈس کا محاصرہ کرے؛ قلعہ ڈٹا رہا اور مہم مہینوں بعد واپس چلی گئی {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1480", precision: year, status: tradition, derived: true }
   end: { edtf: "1480", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/rhodes, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q701067

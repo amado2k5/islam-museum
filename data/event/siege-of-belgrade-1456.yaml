@@ -3,14 +3,17 @@ class: event
 kind: siege
 label: { ar: "حصار بلغراد", en: "Siege of Belgrade" }
 summary:
-  ar: "بطاقة أولية لحصار بلغراد سنة ١٤٥٦م، حين صد يانوش هونيادي والفرنسيسكان كابيسترانو جيش محمد الفاتح عن المدينة؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Belgrade in 1456, when János Hunyadi and the Franciscan Capistrano turned back Mehmed the Conqueror's army; its sources are not yet checked on the page."
+  ar: "حاصر السلطان محمد الفاتح بلغراد بعد فتح القسطنطينية بثلاث سنين، فصمدت المدينة بقيادة يانوش هونيادي وارتدت عنها الحملة {cite:dawlat-uthmaniyya-salabi}."
+  en: "Three years after Constantinople, Mehmed II besieged Belgrade; the fortress held under John Hunyadi and the campaign withdrew {cite:dawlat-uthmaniyya-salabi}."
+  ur: "قسطنطنیہ کی فتح کے تین سال بعد سلطان محمد فاتح نے بلغراد کا محاصرہ کیا؛ جان ہونیادی کی قیادت میں قلعہ ڈٹ گیا اور مہم لوٹ آئی {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1456", precision: year, status: tradition, derived: true }
   end: { edtf: "1456", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/belgrade, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q244980

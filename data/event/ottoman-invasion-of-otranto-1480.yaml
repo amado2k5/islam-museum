@@ -3,14 +3,17 @@ class: event
 kind: campaign
 label: { ar: "غزو أوترانتو", en: "Ottoman invasion of Otranto" }
 summary:
-  ar: "بطاقة أولية لغزو أوترانتو سنة ١٤٨٠م، الإنزال العثماني على إيطاليا في عهد محمد الفاتح وقتل أهلها الذين امتنعوا؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Ottoman invasion of Otranto in 1480, Mehmed II's landing in Italy and the killing of the town's recusants; its sources are not yet checked on the page."
+  ar: "أنزل كديك أحمد باشا جيشاً عثمانياً بأمر السلطان محمد الفاتح على سواحل إيطاليا فأخذ مدينة أوترانتو، وكان وجوداً قصيراً انقضى بعد وفاة الفاتح {cite:dawlat-uthmaniyya-salabi}."
+  en: "On Mehmed II's order Gedik Ahmed Pasha landed an Ottoman force in Italy and took Otranto — a short foothold that ended after the Conqueror's death {cite:dawlat-uthmaniyya-salabi}."
+  ur: "سلطان محمد فاتح کے حکم پر کدک احمد پاشا نے اٹلی کے ساحل پر عثمانی فوج اتاری اور اوترانتو لیا — مختصر سنگم جو فاتح کی وفات کے بعد ختم ہوا {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1480", precision: year, status: tradition, derived: true }
   end: { edtf: "1481", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/otranto, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q695198

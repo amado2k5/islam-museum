@@ -1,0 +1,18 @@
+id: place/belgrade
+class: place
+kind: city
+label: { ar: "بلغراد", en: "Belgrade" }
+summary:
+  en: "Fortress city on the Sava–Danube confluence; besieged by Mehmed II in 1456 and held."
+  ar: "مدينة حصينة على ملتقى السافا والدانوب، حاصرها محمد الفاتح سنة 1456م وصمدت."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [44.804, 20.465]
+coordinate_precision: site
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mehmed-ii
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

@@ -1,0 +1,18 @@
+id: place/constantinople
+class: place
+kind: city
+label: { ar: "القسطنطينية", en: "Constantinople" }
+summary:
+  en: "Byzantine capital on the Bosporus, taken by Mehmed II in 1453 and made the Ottoman seat, Istanbul."
+  ar: "عاصمة بيزنطة على البوسفور، فتحها محمد الفاتح سنة 1453م وصارت دار السلطنة العثمانية إسطنبول."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.008, 28.978]
+coordinate_precision: site
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mehmed-ii
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

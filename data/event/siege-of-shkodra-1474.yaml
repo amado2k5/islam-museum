@@ -3,14 +3,17 @@ class: event
 kind: siege
 label: { ar: "حصار إشكودرة (١٤٧٤)", en: "Siege of Shkodra" }
 summary:
-  ar: "بطاقة أولية لحصار إشكودرة سنة ١٤٧٤م، الحصار العثماني الأول للمدينة البندقية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Shkodra in 1474, the first Ottoman siege of the Venetian town; its sources are not yet checked on the page."
+  ar: "وجّه السلطان محمد الفاتح حملة عظيمة إلى حصن إشكودرة معقل ألبانيا، فحاصره الحصار الأول وردّ عنه {cite:dawlat-uthmaniyya-salabi}."
+  en: "Mehmed II sent a great expedition against Shkodra, Albania's stronghold; the first siege was thrown back {cite:dawlat-uthmaniyya-salabi}."
+  ur: "سلطان محمد فاتح نے البانیا کے گڑھ اشکودرہ پر بڑی مہم بھیجی؛ پہلا محاصرہ پسپا ہوا {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1474", precision: year, status: tradition, derived: true }
   end: { edtf: "1474", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/shkodra, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q7510401
