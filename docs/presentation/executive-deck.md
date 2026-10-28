@@ -53,7 +53,7 @@ flowchart LR
     Q --> V
 ```
 
-- Host: **Cloudflare Pages** (paid plan — file limit, since 18 Oct 2026).
+- Host: **Cloudflare** — Pages for code and logic only; R2 for the pages, data, maps, images and media (founder rule, 28 Oct 2026).
 - Search index + `api/v1` JSON: **R2** (zero egress).
 - **GitHub Pages kept as fallback mirror.**
 

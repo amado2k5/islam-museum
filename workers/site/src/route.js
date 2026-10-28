@@ -8,8 +8,18 @@ export const LANGS = ["ar", "en", "ur"];
 
 const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
 
+// Founder rule (28 Oct 2026): Cloudflare Pages and the Worker's static assets hold code and logic only. Data,
+// content, maps, images, pictures and video are published to R2 and served from there. These folders are stored in
+// R2 under the same paths (for example "media/time-browser/explorer/x.webp"); keep this list in step with
+// workers/r2-sync/batch/publish.mjs (DATA_TARGETS), wrangler.production.toml (run_worker_first) and deploy.yml.
+export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"];
+const isDataPath = (pathname) => R2_DATA_DIRS.some((d) => pathname.startsWith(`/${d}/`));
+
 // Returns { type: "r2", key } | { type: "redirect", location } | { type: "assets" }.
 export function resolve(pathname) {
+  if (isDataPath(pathname)) {
+    return { type: "r2", key: pathname.endsWith("/") ? pathname.slice(1) + "index.html" : pathname.slice(1) };
+  }
   if (!isLangPath(pathname)) return { type: "assets" };
   if (pathname === "/ar" || pathname === "/en" || pathname === "/ur") {
     return { type: "redirect", location: `${pathname}/` };

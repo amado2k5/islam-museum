@@ -89,6 +89,7 @@ Three physically separate worlds:
 |---|---|---|
 | Knowledge graph in git, not a CMS/DB | Full history, offline work, PR review on facts, zero infra | ADR 0001 |
 | No AI or compute at runtime | Static files only; search/maps/graphs are precomputed or client-side | ADR 0002, plan 03 §13 |
+| Hosting split (28 Oct 2026) | Founder rule: Cloudflare Pages holds code and logic only; HTML pages, data, content, maps, images and media are on R2, served by the site Worker. See `06-deployment.md` "What goes where". |
 | Cloudflare Pages (paid plan) as host | GitHub Pages' file-count/soft limits could not hold a 60k+ file site; CF Pages chosen 18 Oct 2026 for its limit; GitHub Pages kept as fallback mirror | AGENTS.md |
 | Search index + API JSON on R2, not in the Pages deploy | Keeps Pages under the file limit; content-addressed pagefind chunks are immutable-cached; R2 sync is manifest-diffed (hundreds of ops, not tens of thousands) | plan 03 §4, `workers/r2-sync/` |
 | Manual deployment by the founder | `main` pushes publish nothing; `deploy.yml` runs only when the founder starts it (≈ daily), keeping R2 and build cost down | AGENTS.md §"Deployment" |

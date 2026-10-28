@@ -18,7 +18,10 @@ test("missing trailing slash redirects to the slash form", () => {
 });
 
 test("non-language paths go to static assets", () => {
-  assert.deepEqual(resolve("/brand/logo-mark.svg"), { type: "assets" });
+  assert.deepEqual(resolve("/brand/logo-mark.svg"), { type: "r2", key: "brand/logo-mark.svg" });
+  assert.deepEqual(resolve("/media/time-browser/explorer/x.webp"), { type: "r2", key: "media/time-browser/explorer/x.webp" });
+  assert.deepEqual(resolve("/timeline-data/en/index.json"), { type: "r2", key: "timeline-data/en/index.json" });
+  assert.deepEqual(resolve("/_astro/app.js"), { type: "assets" });
   assert.deepEqual(resolve("/"), { type: "assets" });
   assert.deepEqual(resolve("/arabic/x/"), { type: "assets" });
 });

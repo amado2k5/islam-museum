@@ -83,7 +83,7 @@ Each step names the files it touches. A story never touches another story's file
 Deployment stays the founder's action (`AGENTS.md`). Before deploying:
 
 1. `npm run validate` (0 errors), `npm test`, `npm run build` (check:site 0 errors, check:weight 0 over budget).
-2. Images live in `site/public/media/time-browser/`. Under decision 7 every media file belongs on R2, not Pages. **Open item for the founder and Devin:** confirm the deploy publishes `media/time-browser/**` to R2 and keeps it out of the Pages upload (today `deploy.yml` removes only the language folders, search and API from the Pages upload).
+2. Images live in `site/public/media/time-browser/` and are published to R2 with the rest of `media/` (founder rule of 28 Oct 2026: Pages holds code and logic only). A new data or media folder is added to `R2_DATA_DIRS` in `workers/site/src/route.js` and the lists named in `docs/engineering/06-deployment.md` "What goes where".
 
 ## 7. Prompt for Claude (copy into a new Claude session)
 
