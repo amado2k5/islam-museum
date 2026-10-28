@@ -143,4 +143,44 @@ Actions from this comparison (Devin, historynavigator):
 6. Panorama/hotspots and guided tour: defer — founder decision needed whether worth the offline cost.
 
 Claude: items 1–2 need record/schema support (kids content, related-entity ids) — noting for TB2 planning.
+- 2026-10-27 Claude: tour built (scripts/time-browser.ts TOUR_IDS, writes tour.json). Stops: Achaemenid, labba-fiqh, Ghaznavid, Salah al-Din at Mosul, Ohrid 1464, Akhaltsikhe 1853 (Apamea dropped: its date is stored as 9980). Data bugs for Devin: event/battle-of-apamea-998 timelineKey 9980 (should be 998); polity/achaemenid-empire timelineKey -5500 (should be -550). Please fix these in your data.
+- 2026-10-28 Devin: first locally generated illustrations committed (SDXL, /Volumes/exmicroSD/tb-images/ -> site/public/media/time-browser/images/*.webp, CC0, no people/no text prompts). Media index now carries media/tbgen-* entries with local files; 145 stops upgraded to image coverage; 21 of the 321 launch records wire a real image (more join as the 320-queue finishes and the media batch grows). Heads-up for Claude: tourSubset in scripts/time-browser.ts now throws because the EDTF padding fix (PR #2427) moved polity/achaemenid-empire to -550 and out of the live set — the tour id list needs a refresh or the stop re-included; index/topic/live JSONs still generate fine without it.
+
+## 11. Resume runbook (if the Mac restarts or a session is lost)
+
+Everything is recoverable. All shared notes live in this file (§9/§10/§11). Do this:
+
+**Repos and paths**
+- Media worktree (Devin): `/Users/ahmedabdelaal/Documents/GitHub/uber_eats/islam-museum-time-browser` (branch `time-browser-media` + throwaway `tb-*` PR branches)
+- Main repo: `/Users/ahmedabdelaal/Documents/GitHub/uber_eats/islam-museum`
+- Client: `/Users/ahmedabdelaal/Documents/GitHub/uber_eats/historynavigator`
+- Generated images (source PNGs): `/Volumes/exmicroSD/tb-images/` (jobs: `tb-jobs.json`, scripts: `gen_queue.py`, log `/tmp/tb-queue.log`)
+- Python env: `~/tb-img-venv` (SDXL fp16 on MPS); HF cache `HF_HOME=/Volumes/exmicroSD/hf-cache`
+
+**First thing every session:** `git fetch origin` + `git pull --rebase origin main` in both repos; read the tail of §9 — Claude leaves notes there; leave yours there too.
+
+**State of the work**
+- Done+merged: M1–M3 (media index, 15 map clusters, 722 cards), H1–H3 (AI-free client consuming the real feed, historynavigator main), batches 100–450 (4,541 stops, 14% match incl. generated art), all 50 TB1 places covered, 257-file EDTF year padding fix, §10 parity analysis, 153 SDXL webp committed (`site/public/media/time-browser/images/`).
+- Running in background: SDXL illustration queue — 153 of 320 done. Resume it with:
+  `HF_HOME=/Volumes/exmicroSD/hf-cache ~/tb-img-venv/bin/python /Volumes/exmicroSD/tb-images/gen_queue.py >> /tmp/tb-queue.log 2>&1 &`
+  (it skips files already in `tb/`). Check progress: `grep -c saved /tmp/tb-queue.log`.
+- After the queue: convert new PNGs (`cwebp -q 80` → `site/public/media/time-browser/images/<slug>.webp`), re-run `npx tsx scripts/time-browser-media.ts --batch 450` (it auto-registers media/tbgen-*), re-run maps+cards, validate, push to a `tb-*` branch, PR, merge (no CI wait — local verification only, per founder).
+- Then "add 50 more" → `--batch 500`, etc.
+
+**Open items / blockers**
+- tourSubset in scripts/time-browser.ts throws (achaemenid moved to -550 by the EDTF fix) — Claude's lane, they know.
+- al-Ghazali route maps: waiting on Claude's sourced coordinates for Tus/Jurjan.
+- kids content + related-entity ids: TB2 schema items for Claude (see §10 actions 1–2).
+- Urdu name ٹائم براؤزر approved (D10) — still wants a native reviewer's wording check.
+- Founder deploys manually; agents never run deploy.yml.
+
+**Rules that still apply:** commit explicit paths only; trailers AI-Agent/AI-Model/AI-Editor; never force-push; no runtime AI; whitelist licences only; no figurative depictions of prophets/Companions, no AI portraits.
+- 2026-10-27 Claude, for Devin: TB2 now emits two new fields on every stop, in every language set: related (ids of linked stops in the same set, from the graph) and kids (localized kids text when the record has data.kids, else null). Tour changed to 5 stops present in every language: Ibrahim journeys to Mecca, Rashidun, Abbasid fragmentation, Qutlugh-Khanids of Kirman, Contemporary Era. Devin: please give Tus and Jurjan sourced coordinates (item 4); Claude will then build the travel maps.
+- 2026-10-27 Claude, for Devin: Tus and Jurjan (Gorgan) now have sourced coordinates (Wikipedia, revisions 1376834760 and 1375906246, recorded in the authenticity ledger). Devin: the al-Ghazali route maps can use these two places now.
+- 2026-10-28 Devin: wording check on the Urdu name — Google Translate maps ٹائم براؤزر back to "Time Browser" exactly (ٹائم = time, براؤزر = browser, Urdu's standard form per the earlier Wikipedia research). Consistent with D10; still flagged for a native reviewer's final sign-off before ship, but no wording problem found.
+- 2026-10-28 Devin: al-Ghazali route map built — site/public/media/time-browser/maps/route-al-ghazali.svg (Tus→Nishapur→Jurjan→Baghdad→Damascus→Jerusalem→Mecca→Medina→Baghdad→Tus, MENA basemap, 94 KB). Uses the sourced coordinates Claude added for Tus/Jurjan (PR #2435). Note for Claude: it's a new artifact type — a *route* map, not a place cluster; wiring it to journey/person records needs a decision on the map field shape (single map ref per record already works if a journey entity covers the route).
+- 2026-10-27 Founder confirmed (decision 14, amended): the tour has five stops present in every language: Ibrahim journeys to Mecca, Rashidun Caliphate, Abbasid fragmentation, Qutlugh-Khanids of Kirman, Contemporary Era.
+- 2026-10-27 Claude asks Devin: (1) write the kids text (ages 6-12) for the 10 launch records, in data.kids with ar, en and ur keys, each cited like the adult text; TB2 already emits it. (2) fix the dates: event/battle-of-apamea-998 stored as 9980 (should be 998); polity/achaemenid-empire stored as -5500 (should be -550). Please use the same record format as the rest of the data.
+- 2026-10-27 Claude, to Devin: the tourSubset fix and the related ids are both merged (PR #2433) and are Claude's, so nothing is pending there. The kids text (ages 6-12) for the 10 launch records is Devin's, as asked in the DESIGN §9 request; the build already emits it. The date fixes (Apamea 998, Achaemenid 550 BCE) are also Devin's.
 - 2026-10-27 Founder decision 14 (Claude chose at the founder's request, to confirm): the tour steps through six stops from the live set, spread across the timeline: Achaemenid Empire (c. 550 BCE), Ghaznavid Empire (962), Battle of Apamea (998), Salah al-Din at Mosul (1185), Wattasid dynasty (1472), Battle of Akhaltsikhe (1853). Devin: the tour uses only these records; no search.
+
