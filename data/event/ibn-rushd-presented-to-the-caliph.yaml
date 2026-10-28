@@ -1,0 +1,23 @@
+id: event/ibn-rushd-presented-to-the-caliph
+class: event
+kind: other
+label: { ar: "ابن طفيل يقدم ابن رشد إلى الخليفة", en: "Ibn Ṭufayl presents Ibn Rushd to the caliph" }
+summary:
+  ar: "قدّم ابن طفيل ابن رشد إلى الخليفة الموحدي أبي يعقوب يوسف في وقت ما بين 1153 و1169م، فأعجب به الخليفة وكلفه بشرح فلسفة أرسطو {cite:britannica-averroes}."
+  en: "Between 1153 and 1169 Ibn Ṭufayl presented Ibn Rushd to the Almohad caliph Abū Yaʿqūb Yūsuf, who took to him and charged him with interpreting Aristotle {cite:britannica-averroes}."
+  ur: "1153ء اور 1169ء کے درمیان ابن طفیل نے ابن رشد کو موحد خلیفہ ابو یعقوب یوسف سے ملاقات کرائی؛ خلیفہ متاثر ہوا اور اسے ارسطو کی تعبیر کی ذمہ داری دی {cite:britannica-averroes}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1153/1169", precision: year, status: historical, derived: true, note: "between 1153 and 1169 per Britannica" }
+  end: { edtf: "1153/1169", precision: year, status: historical, derived: true, note: "between 1153 and 1169 per Britannica" }
+relations:
+  - { type: had_participant, target: person/ibn-tufayl, role: "المقدم", sources: [source/britannica-averroes] }
+sources: [source/britannica-averroes]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn Rushd story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-rushd
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
