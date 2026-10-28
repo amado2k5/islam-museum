@@ -81,3 +81,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   the MENA basemap — Tus, Nishapur, Jurjan, Baghdad, Damascus, Jerusalem,
   Mecca, Medina and back (dashed route + labeled dots). Uses the sourced
   Tus/Jurjan coordinates from PR #2435. Wiring to a journey/record is open.
+- 2026-10-28 — SDXL queue complete: 320/320 local illustrations generated on
+  the founder's Mac, converted to webp (15 MB total). All registered as
+  media/tbgen-* — image coverage now 820 stops (17.7%). Gate-screening pass
+  still pending before ship (prompt-constrained only so far).
