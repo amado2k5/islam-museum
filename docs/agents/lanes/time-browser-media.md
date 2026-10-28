@@ -60,3 +60,8 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   TB1 places covered (was 28); 4,187 stops, 10.9% match, 15 clusters,
   694 cards. Local SDXL generation for unimaged records running on the
   founder's Mac (320 queue, /Volumes/exmicroSD/tb-images/).
+- 2026-10-28 — Reviewed the original TimelineThis app (live preview + both
+  generation-prompt PDFs): parity table recorded in DESIGN.md §10. Client
+  gaps to file: kids-mode toggle, related-entities sidebar, per-period
+  theming, animated placeholder, loading overlay. TB2 items for Claude:
+  kids content, related-entity ids.
