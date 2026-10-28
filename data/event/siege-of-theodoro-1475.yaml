@@ -3,14 +3,17 @@ class: event
 kind: siege
 label: { ar: "حصار ثيودورو (١٤٧٥)", en: "Siege of Theodoro" }
 summary:
-  ar: "بطاقة أولية لحصار ثيودورو (مانغوب) سنة ١٤٧٥م، فتح كدك أحمد باشا آخر معاقل القرم البيزنطية وضمها للدولة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Theodoro in 1475, Gedik Ahmed Pasha's capture of Mangup ending the Crimean principality; its sources are not yet checked on the page."
+  ar: "بعث السلطان محمد الفاتح كديك أحمد باشا بالأسطول إلى القرم فأخذ ثيودورو وكفا وصار خان القرم تبعاً للعثمانيين {cite:dawlat-uthmaniyya-salabi}."
+  en: "Mehmed II sent Gedik Ahmed Pasha with the fleet to Crimea; Theodoro and Kaffa fell and the Crimean khan became an Ottoman vassal {cite:dawlat-uthmaniyya-salabi}."
+  ur: "سلطان محمد فاتح نے کدک احمد پاشا کو بحریہ کے ساتھ کریمیا بھیجا؛ تھیودورو اور کافہ فتح ہوئے اور کریمیا کا خان عثمانی تابع بنا {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1475-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1475-10", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/theodoro, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q16683523

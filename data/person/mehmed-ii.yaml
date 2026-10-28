@@ -10,6 +10,7 @@ summary:
   en: "Mehmed the Conqueror, seventh of the Ottoman kings — sultan for thirty-one years from 856, 'the greatest of their sultans in jihad', who laid the Ottoman state's foundations and its statutes. His fame rests on the conquest of Constantinople: he drove ships over land, besieged it fifty days and took it on Wednesday 20 Jumada II 857, prayed Friday in Hagia Sophia, built the Eight Madrasas with endowed stipend-ranks for students, and drew the age's great scholars — Ali al-Qushji, al-Tusi, al-Kurani — till Istanbul became mother of the world {cite:shadharat-dhahab p. 344-345}."
 gender: male
 roles: [ruler, military]
+born: { edtf: "1432~", hijri: "0835", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس وثلاثين وثمان مئة على ما في شذرات الذهب؛ التحويل الميلادي مشتق {cite:shadharat-dhahab p. 344-345}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1481-05-03", hijri: "0886-03-04", calendar: julian, precision: day, status: tradition, derived: true, note: "مات يوم الخميس 4 ربيع الأول 886هـ/3 مايو 1481م وسط جيشه بأسكدار عن 52 سنة بعد نيف وثلاثين عاماً في الحكم {cite:dawlat-uthmaniyya-salabi p. 157}", sources: [source/dawlat-uthmaniyya-salabi] }
 wings: [people]
 periods: [period/mongol-post-mongol, period/gunpowder-empires]
@@ -17,9 +18,17 @@ regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: died_in, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: student_of, target: person/aq-shams-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: student_of, target: person/ahmad-ibn-ismail-al-kurani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "القائد الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/siege-of-belgrade-1456, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/conquest-of-trebizond-1461, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/siege-of-negroponte-1470, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/siege-of-shkodra-1474, role: "السلطان صاحب الحملة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/siege-of-theodoro-1475, role: "السلطان صاحب الحملة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/siege-of-rhodes-1480, role: "السلطان صاحب الحملة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/ottoman-invasion-of-otranto-1480, role: "السلطان صاحب الحملة", sources: [source/dawlat-uthmaniyya-salabi] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج6، سنة 886)"

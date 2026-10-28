@@ -3,14 +3,17 @@ class: event
 kind: conquest
 label: { ar: "فتح طرابزون", en: "Conquest of Trebizond" }
 summary:
-  ar: "بطاقة أولية لفتح طرابزون سنة ١٤٦١م، سقوط آخر ممالك بيزنطة الباقية بيد محمد الفاتح؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Conquest of Trebizond in 1461, Mehmed II's capture of Byzantium's last surviving empire; its sources are not yet checked on the page."
+  ar: "سار السلطان محمد الفاتح بنفسه إلى طرابزون آخر ممالك الروم البنطية على البحر الأسود ففتحها وانقضت بذلك دولة الكومنين {cite:dawlat-uthmaniyya-salabi}."
+  en: "Mehmed II marched in person on Trebizond, the last Byzantine Greek state on the Black Sea, took it and ended the Komnenos empire {cite:dawlat-uthmaniyya-salabi}."
+  ur: "سلطان محمد فاتح خود بحیرہ اسود پر بازنطینی یونانیوں کی آخری ریاست طرابزون کی طرف بڑھا، اسے فتح کیا اور کومنینوس کی سلطنت ختم ہوئی {cite:dawlat-uthmaniyya-salabi}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1461", precision: year, status: tradition, derived: true }
   end: { edtf: "1461", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/trebizond, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q9366875
