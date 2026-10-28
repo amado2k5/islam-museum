@@ -23,7 +23,7 @@
     "test": "vitest run",
     "axe": "tsx scripts/axe-scan.ts",
     "books": "tsx scripts/a11y-books.ts",
-    "prebuild": "npm run validate && npm run graph && tsx scripts/time-browser.ts && npm run derive && npm run api && npm run daily",
+    "prebuild": "npm run validate && npm run graph && tsx scripts/time-browser.ts && tsx scripts/time-browser-explorer.ts && npm run derive && npm run api && npm run daily",
     "dev": "npm run graph && npm run derive && npm run api && npm --prefix site run dev",
     "build": "npm --prefix site run build && npm run check:site && npm run check:weight && npm run books",
     "check:static": "tsx scripts/check-static.ts",

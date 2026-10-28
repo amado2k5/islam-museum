@@ -15,3 +15,9 @@ relations:
   - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "ترك منصبه في بغداد", sources: [source/britannica-al-ghazali] }
 sources: [source/britannica-al-ghazali]
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Al-Ghazali (William Montgomery Watt and the Britannica editors), read in the browser on 27 October 2026"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: ghazali-events

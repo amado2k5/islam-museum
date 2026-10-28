@@ -27,4 +27,5 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "surahmaps", href: `/${lang}/surah/`, ready: true },
   { key: "cards", href: `/${lang}/cards/`, ready: true },
   { key: "sighar", href: `/${lang}/sighar/`, ready: true },
+  { key: "timeexplorer", href: `/${lang}/time-browser/`, ready: true },
 ];

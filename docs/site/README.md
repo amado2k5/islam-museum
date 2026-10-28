@@ -56,12 +56,14 @@ Agents never start the deploy; when a site change needs to be live, ask the foun
 | Rendered-output assertions | `scripts/check-site.ts` |
 | UI strings (Arabic first) | `i18n/ar.yaml` (and `i18n/en.yaml` for parity) |
 
-## Time Browser (go-live notes)
+## Timeline Explorer (go-live notes)
 
-- **Data:** `scripts/time-browser.ts` reads `.cache/graph.json` and writes, per language, one JSON file per type, `index.json`, `members.json` (every stop id, used for entity buttons), `live.json` (the front-page set) and `tour.json` (the five tour stops). It runs inside `prebuild`, so `npm run build` includes it.
-- **Pages:** `/<lang>/time-browser/` (all stops, grouped by type, search over the page), `/<lang>/time-browser/guide/` ("What we offer"), `/<lang>/time-browser/<kind>/<slug>/` (one page per stop, generated from every topic file).
-- **Entry points:** a landing-page button after today's date, and a "Time-browse this" button on each entity that has a stop (`site/src/lib/timeBrowser.ts` reads `members.json`).
-- **Rules:** no runtime AI, no AI prompt or chat, no sign-in, no network request from the page. Search filters only the stops already in the page.
-- **Schema:** each record may carry `kids` (localized, optional, ages 6–12); `schema/_base.schema.json` allows it.
-- **Checks before deploy:** `npm run validate`, `npm test` (Time Browser tests in `scripts/time-browser*.test.ts`), `npm run build`, `npm run check:static`, `npm run check:weight`.
-- **Known open items:** kids text for the launch records (content); the two date fixes (Apamea 998, Achaemenid 550 BCE); a native Urdu review of all Time Browser strings.
+Public name: «مستكشف الخط الزمني» / Timeline Explorer / «ٹائم لائن ایکسپلورر». The URL stays `/<lang>/time-browser/`.
+
+- **Data:** `scripts/time-browser-explorer.ts` reads `.cache/graph.json` and writes `.cache/time-browser/explorer.json` and `explorer-index.json`: curated subjects (people, eras, places), each with 4–14 ordered nodes. A record is eligible when it meets the publication standard (cited, defined sources, recorded provenance), whatever its draft flag; the draft flag is never shown. The build fails on a chronology inversion or an uncited node. It runs inside `prebuild`.
+- **Pages:** `/<lang>/time-browser/` (subject search, journeys, shelves), `/<lang>/time-browser/s/<class>/<slug>/` (the stage: focal card, strip, rail, details and map dialogs, kids toggle, node in `?node=`), `/<lang>/time-browser/guide/`. `/<lang>/time-browser/all/` is an unlinked, noindex QA list. Old `/<lang>/time-browser/<kind>/<slug>/` pages redirect to the museum entry.
+- **Entry points:** the homepage feature band after the day-cards (`site/src/components/ExplorerModule.astro`), the Explore menu, and "Explore the timeline" on each entity that is a subject.
+- **Dates:** formatted with `site/src/lib/dates.ts` (Hijri and Gregorian, approximate and debated chips). No raw EDTF string is rendered.
+- **Rules:** no runtime AI, no AI prompt or chat, no sign-in, no request from the page. The backdrop is a colour wash: no generated or stock imagery.
+- **Checks before deploy:** `npm run validate`, `npm run cite-check -- <ids>` on the subjects and nodes, `npm test` (`scripts/time-browser*.test.ts`), `npm run build`, `npm run check:static`, `npm run check:weight`.
+- **Known open items:** Ibn Khaldun has 3 eligible nodes, so he does not ship yet; curated backdrop media per node; the "early Ottoman" era uses the gunpowder-empires period; a native Urdu review of the new strings.

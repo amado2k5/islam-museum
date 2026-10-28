@@ -4,6 +4,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Logo from "./Logo.astro";
 import TodayCards from "./TodayCards.astro";
+import ExplorerModule from "./ExplorerModule.astro";
 import GiftShop from "./GiftShop.astro";
 import ArtStrip from "./ArtStrip.astro";
 import { ui, fmt, WINGS, wingHref, NUM_LOCALE, ARABIC_SCRIPT, type Lang } from "../lib/i18n";
@@ -40,8 +41,11 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
       <p class="eyebrow">{T.landing.eyebrow}</p>
       <h1 id="hero-title" class="display">{T.landing.title_pre} <span class="hl">{T.landing.title_strong}</span> {T.landing.title_post}</h1>
       <TodayCards lang={lang} />
-      <p class="ui" style="margin-block:14px"><a class="btn" href={`/${lang}/time-browser/`}>{T.time_browser.landing_button}</a></p>
     </div>
+  </section>
+
+  <section class="block" aria-label={T.time_browser.x_name}>
+    <div class="wrap"><ExplorerModule lang={lang} /></div>
   </section>
 
   <section class="block" id="tour" aria-labelledby="tour-title">

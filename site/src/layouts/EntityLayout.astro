@@ -13,7 +13,7 @@ import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, S
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { recordingRef } from "../lib/recordings";
-import { timeBrowserMembers } from "../lib/timeBrowser";
+import { subjectIds, subjectHref } from "../lib/explorer";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, levelOf, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
@@ -281,9 +281,9 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           </section>
         )}
 
-        {timeBrowserMembers(lang).has(n.id) && (
+        {subjectIds().has(n.id) && (
           <p class="ui" style="margin-block:12px">
-            <a class="btn" href={`/${lang}/time-browser/${n.id}/`}>{T.time_browser.entity_button}</a>
+            <a class="btn" style="min-height:44px" href={subjectHref(lang, n.id)}>{T.time_browser.x_entity_button}</a>
           </p>
         )}
 

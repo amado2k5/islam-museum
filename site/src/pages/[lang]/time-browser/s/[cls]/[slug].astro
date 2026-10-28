@@ -1,0 +1,318 @@
+---
+// Timeline Explorer stage (correction prompt §5 Steps 3–8): one subject, one focal event at a time, a strip to travel
+// with, and a rail of related people, places and sources. Everything is prepared at build time: no model call, no
+// request from the page, no sign-in. The node in view is kept in the URL (?node=<id>) so a reload or a shared link
+// restores it, and back/forward step through nodes.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import MiniMap from "../../../../../components/MiniMap.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../../../lib/i18n";
+import { byId, href } from "../../../../../lib/graph";
+import { subjects, pick, langOf, nodeDate, type Subject } from "../../../../../lib/explorer";
+import { formatCE } from "../../../../../lib/dates";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    subjects().map((s) => {
+      const i = s.id.indexOf("/");
+      return { params: { lang, cls: s.id.slice(0, i), slug: s.id.slice(i + 1) }, props: { lang, subject: s } };
+    }),
+  );
+}
+
+const { lang, subject: s } = Astro.props as { lang: Lang; subject: Subject };
+const T = ui(lang);
+const B = T.time_browser;
+const path = `/${lang}/${"time-browser"}/s/${s.id}/`;
+const m = s.nodes.length;
+
+// One payload per node, already in this page's language and date format.
+const nodes = s.nodes.map((n, i) => {
+  const d = nodeDate(n.date, lang);
+  const role = n.role === "birth" ? B.x_birth : n.role === "death" ? B.x_death : "";
+  return {
+    id: n.id,
+    title: role ? `${role}: ${pick(n.title, lang)}` : pick(n.title, lang),
+    titleLang: langOf(n.title, lang),
+    summary: pick(n.summary, lang),
+    summaryLang: langOf(n.summary, lang),
+    kids: n.kids ? pick(n.kids, lang) : "",
+    kidsLang: n.kids ? langOf(n.kids, lang) : lang,
+    date: d.text,
+    year: d.year,
+    // The strip shows the year alone, in the museum's format for this locale (BCE and digits included).
+    yearText: d.year === undefined ? "" : formatCE(d.year < 0 ? `-${String(-d.year).padStart(4, "0")}` : String(d.year).padStart(4, "0"), lang),
+    approx: d.approx,
+    debated: d.debated,
+    preHijra: d.preHijra,
+    station: fmt(B.x_station, { n: String(i + 1), m: String(m) }),
+    sources: n.sources.map((id) => ({ id, label: s.sourceLabels[id] ?? id, href: href(lang, id) })),
+    place: n.place ? { label: pick(n.place.label, lang), href: href(lang, n.place.id), mapped: !!n.place.coordinates } : null,
+    entityHref: href(lang, n.entity),
+    graphHref: `/${lang}/graph/?from=${encodeURIComponent(n.entity)}`,
+  };
+});
+const first = nodes[0];
+const subjectTitle = pick(s.title, lang);
+const span = `${nodes[0].date} — ${nodes[m - 1].date}`;
+const subjectSources = s.sources.map((id) => ({ id, label: s.sourceLabels[id] ?? id, href: href(lang, id) }));
+const mapPlaces = s.places.filter((p) => p.coordinates).map((p) => byId.get(p.id)).filter(Boolean) as any[];
+const payload = JSON.stringify({ nodes, subjectSources, subjectTitle, t: { copied: B.x_copied, kidsNone: B.x_kids_none, approx: B.x_approx, debated: B.x_debated, preHijra: B.x_pre_hijra, yt: B.x_youtube, wp: B.x_wikipedia } }).replace(/</g, "\\u003c");
+const ytBase = "https://www.youtube.com/results?search_query=";
+const wpBase = `https://${lang}.wikipedia.org/wiki/Special:Search?search=`;
+const q = (t: string) => encodeURIComponent(`${subjectTitle} ${t}`);
+---
+<BaseLayout lang={lang} title={`${subjectTitle} · ${B.x_name}`} description={pick(s.summary, lang)} path={path}>
+  <div class={`tbx tbx-${s.kind}`} data-explorer>
+    <div class="tbx-main">
+      <section class="tbx-stage" aria-live="polite">
+        <div class="tbx-backdrop" aria-hidden="true"></div>
+        <p class="tbx-top"><a href={`/${lang}/time-browser/`}>{B.x_name}</a> · <span>{subjectTitle}</span> · <span data-station>{first.station}</span></p>
+        <article class="tbx-bubble">
+          <h1 class="tbx-title" data-title lang={first.titleLang}>{first.title}</h1>
+          <p class="tbx-date">
+            <span data-date>{first.date}</span>
+            <span class="tbx-chip" data-chip="approx" hidden={!first.approx}>{B.x_approx}</span>
+            <span class="tbx-chip" data-chip="debated" hidden={!first.debated}>{B.x_debated}</span>
+            <span class="tbx-chip" data-chip="preHijra" hidden={!first.preHijra}>{B.x_pre_hijra}</span>
+          </p>
+          <p class="tbx-summary" data-summary lang={first.summaryLang}>{first.summary}</p>
+          <p class="tbx-kidsnote" data-kidsnote hidden></p>
+          <p class="tbx-cites" data-cites>{first.sources.map((c) => <a class="tbx-cite" href={c.href}>{c.label}</a>)}</p>
+          <div class="tbx-actions">
+            <button type="button" class="tbx-btn" data-open="details">{B.x_details}</button>
+            <button type="button" class="tbx-btn" data-open="map" hidden={!first.place?.mapped || mapPlaces.length === 0}>{B.x_map}</button>
+            <a class="tbx-btn" data-graph href={first.graphHref}>{B.x_context}</a>
+            <button type="button" class="tbx-btn" data-share>{B.x_share}</button>
+            <label class="tbx-kids"><input type="checkbox" data-kids /> {B.x_kids}</label>
+          </div>
+        </article>
+      </section>
+
+      <nav class="tbx-strip" aria-label={subjectTitle}>
+        <button type="button" class="tbx-arrow" data-step="-1" aria-label={B.x_prev}><span aria-hidden="true">‹</span> {B.x_prev}</button>
+        <ol class="tbx-nodes" role="list">
+          {nodes.map((n, i) => (
+            <li>
+              <button type="button" class="tbx-node" data-node={i} aria-current={i === 0 ? "step" : undefined} aria-label={`${n.title} — ${n.date}`}>
+                <span class="tbx-dot" aria-hidden="true"></span>
+                <span class="tbx-year">{n.yearText}</span>
+                <span class="tbx-label" lang={n.titleLang}>{n.title}</span>
+              </button>
+            </li>
+          ))}
+        </ol>
+        <button type="button" class="tbx-arrow" data-step="1" aria-label={B.x_next}>{B.x_next} <span aria-hidden="true">›</span></button>
+        <p class="tbx-span">{B.x_span}: {span}</p>
+      </nav>
+    </div>
+
+    <aside class="tbx-rail">
+      <section>
+        <h2>{B.x_about}</h2>
+        <p lang={langOf(s.summary, lang)}>{pick(s.summary, lang)}</p>
+        <p><a href={href(lang, s.id)}>{B.x_full_page}</a></p>
+      </section>
+      {s.persons.length > 0 && (
+        <section>
+          <h2>{B.x_rail_persons}</h2>
+          <ul>{s.persons.map((p) => <li><a href={href(lang, p.id)} lang={langOf(p.label, lang)}>{pick(p.label, lang)}</a></li>)}</ul>
+        </section>
+      )}
+      {s.places.length > 0 && (
+        <section>
+          <h2>{B.x_rail_places}</h2>
+          <ul>{s.places.map((p) => <li><a href={href(lang, p.id)} lang={langOf(p.label, lang)}>{pick(p.label, lang)}</a></li>)}</ul>
+        </section>
+      )}
+      <section>
+        <h2>{B.x_rail_sources}</h2>
+        <ul data-rail-sources>{[...new Map([...subjectSources, ...first.sources].map((c) => [c.id, c])).values()].map((c) => <li><a href={c.href}>{c.label}</a></li>)}</ul>
+      </section>
+      <section>
+        <h2>{B.x_rail_more}</h2>
+        <ul>
+          <li><a data-yt href={ytBase + q(first.title)} rel="noopener" target="_blank">{B.x_youtube}</a></li>
+          <li><a data-wp href={wpBase + q(first.title)} rel="noopener" target="_blank">{B.x_wikipedia}</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+  <dialog class="tbx-dialog" data-dialog="details" aria-labelledby="tbx-d-title">
+    <form method="dialog"><button class="tbx-close" aria-label={B.x_close}>×</button></form>
+    <h2 id="tbx-d-title" data-d-title lang={first.titleLang}>{first.title}</h2>
+    <p data-d-date>{first.date}</p>
+    <p data-d-summary lang={first.summaryLang}>{first.summary}</p>
+    <p data-d-place hidden={!first.place}>{first.place && <a href={first.place.href}>{first.place.label}</a>}</p>
+    <ul data-d-sources>{first.sources.map((c) => <li><a href={c.href}>{c.label}</a></li>)}</ul>
+    <p><a class="tbx-btn" data-d-full href={first.entityHref}>{B.x_full_page}</a></p>
+  </dialog>
+
+  {mapPlaces.length > 0 && (
+    <dialog class="tbx-dialog tbx-mapdialog" data-dialog="map" aria-labelledby="tbx-m-title">
+      <form method="dialog"><button class="tbx-close" aria-label={B.x_back}>×</button></form>
+      <h2 id="tbx-m-title">{B.x_map}: <span data-m-place>{first.place?.label}</span></h2>
+      <MiniMap places={mapPlaces} lang={lang} />
+      <form method="dialog"><button class="tbx-btn">{B.x_back}</button></form>
+    </dialog>
+  )}
+
+  <section class="wrap tbx-list" aria-labelledby="tbx-all">
+    <h2 id="tbx-all">{B.x_all_stops}</h2>
+    <ol>
+      {nodes.map((n) => (
+        <li>
+          <p><strong lang={n.titleLang}>{n.title}</strong> — {n.date}</p>
+          <p lang={n.summaryLang}>{n.summary}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <script type="application/json" id="tbx-data" set:html={payload}></script>
+</BaseLayout>
+
+<style>
+  .tbx { --x-accent: var(--gold, #c9a227); display: grid; grid-template-columns: minmax(0, 1fr) 320px; min-height: calc(100dvh - 64px); }
+  .tbx-era { --x-accent: #3fa7a3; }
+  .tbx-place { --x-accent: #5b8fd6; }
+  .tbx-main { display: grid; grid-template-rows: 1fr auto; min-width: 0; }
+  .tbx-stage { position: relative; display: grid; grid-template-rows: auto 1fr; justify-items: center; align-items: center; gap: 12px; padding: 12px 16px 24px; overflow: hidden; }
+  .tbx-backdrop { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 35%, color-mix(in srgb, var(--x-accent) 28%, transparent), transparent 70%); transition: opacity .4s; }
+  .tbx-top { position: relative; justify-self: stretch; margin: 0; font-size: .9rem; opacity: .85; }
+  .tbx-bubble { position: relative; max-width: 720px; width: 100%; padding: 24px; border: 1px solid color-mix(in srgb, var(--x-accent) 55%, transparent); border-radius: 16px; background: color-mix(in srgb, var(--bg, #0b1220) 82%, transparent); text-align: center; }
+  .tbx-title { font-size: clamp(1.6rem, 3.6vw, 2.6rem); margin: 0 0 8px; color: var(--x-accent); }
+  .tbx-date { margin: 0 0 12px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; align-items: center; }
+  .tbx-chip { font-size: .8rem; padding: 2px 8px; border: 1px solid var(--x-accent); border-radius: 999px; }
+  .tbx-summary { font-size: 1.1rem; line-height: 1.7; margin: 0 auto 12px; max-width: 60ch; }
+  .tbx-cites { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin: 0 0 14px; font-size: .85rem; }
+  .tbx-cite { padding: 2px 8px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--x-accent) 40%, transparent); text-decoration: none; }
+  .tbx-actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; align-items: center; }
+  .tbx-btn { min-height: 44px; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--x-accent); background: transparent; color: inherit; font: inherit; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+  .tbx-kids { min-height: 44px; display: inline-flex; gap: 6px; align-items: center; padding-inline: 8px; }
+  .tbx-strip { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 10px 12px; border-block-start: 1px solid color-mix(in srgb, var(--x-accent) 35%, transparent); }
+  .tbx-arrow { min-height: 44px; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--x-accent); background: transparent; color: inherit; font: inherit; cursor: pointer; }
+  .tbx-nodes { list-style: none; display: flex; gap: 4px; margin: 0; padding: 0 0 6px; overflow-x: auto; scroll-behavior: smooth; }
+  .tbx-node { min-width: 64px; min-height: 44px; display: grid; justify-items: center; gap: 2px; background: none; border: 0; color: inherit; font: inherit; cursor: pointer; padding: 4px; }
+  .tbx-dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--x-accent); }
+  .tbx-year { font-size: .8rem; }
+  .tbx-label { display: none; font-size: .78rem; max-width: 14ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tbx-node[aria-current="step"] .tbx-dot { width: 18px; height: 18px; background: var(--x-accent); }
+  .tbx-node[aria-current="step"] .tbx-label, .tbx-node:hover .tbx-label, .tbx-node:focus-visible .tbx-label { display: block; }
+  .tbx-span { grid-column: 1 / -1; margin: 0; font-size: .85rem; opacity: .85; text-align: center; }
+  .tbx-rail { border-inline-start: 1px solid color-mix(in srgb, var(--x-accent) 30%, transparent); padding: 16px; overflow-y: auto; max-height: calc(100dvh - 64px); }
+  .tbx-rail h2 { font-size: 1rem; margin: 14px 0 6px; color: var(--x-accent); }
+  .tbx-rail ul { margin: 0; padding-inline-start: 1.1rem; }
+  .tbx-dialog { max-width: 640px; width: calc(100% - 32px); border-radius: 14px; border: 1px solid var(--x-accent, #c9a227); background: var(--bg, #0b1220); color: inherit; }
+  .tbx-dialog::backdrop { background: rgba(0, 0, 0, .55); }
+  .tbx-close { float: inline-end; min-width: 44px; min-height: 44px; background: none; border: 0; color: inherit; font-size: 1.6rem; cursor: pointer; }
+  .tbx-list { padding-block: 24px; }
+  @media (max-width: 860px) {
+    .tbx { grid-template-columns: 1fr; }
+    .tbx-strip { grid-template-columns: 1fr 1fr; }
+    .tbx-nodes { grid-column: 1 / -1; order: -1; }
+    .tbx-rail { border-inline-start: 0; border-block-start: 1px solid color-mix(in srgb, var(--x-accent) 30%, transparent); max-height: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { .tbx-backdrop, .tbx-nodes { transition: none; scroll-behavior: auto; } }
+</style>
+
+<script>
+  // Progressive enhancement: switch the focal node in place. Reads only the payload already in this page.
+  const root = document.querySelector<HTMLElement>("[data-explorer]");
+  const raw = document.getElementById("tbx-data")?.textContent;
+  if (root && raw) {
+    const data = JSON.parse(raw);
+    const nodes = data.nodes as any[];
+    const $ = <T extends Element = HTMLElement>(sel: string) => document.querySelector<T>(sel);
+    const kids = $<HTMLInputElement>("[data-kids]");
+    let current = 0;
+
+    const setText = (sel: string, text: string, lang?: string) => {
+      const el = $(sel);
+      if (!el) return;
+      el.textContent = text;
+      if (lang) el.setAttribute("lang", lang);
+    };
+    const links = (sel: string, list: { href: string; label: string }[], cls?: string, li = false) => {
+      const el = $(sel);
+      if (!el) return;
+      el.replaceChildren(...list.map((c) => {
+        const a = document.createElement("a");
+        a.href = c.href; a.textContent = c.label;
+        if (cls) a.className = cls;
+        if (!li) return a;
+        const item = document.createElement("li"); item.append(a); return item;
+      }));
+    };
+
+    const show = (i: number, push: boolean) => {
+      current = Math.max(0, Math.min(nodes.length - 1, i));
+      const n = nodes[current];
+      const useKids = !!kids?.checked && !!n.kids;
+      setText("[data-title]", n.title, n.titleLang);
+      setText("[data-date]", n.date);
+      setText("[data-station]", n.station);
+      setText("[data-summary]", useKids ? n.kids : n.summary, useKids ? n.kidsLang : n.summaryLang);
+      const note = $("[data-kidsnote]");
+      if (note) { note.hidden = !(kids?.checked && !n.kids); note.textContent = data.t.kidsNone; }
+      for (const k of ["approx", "debated", "preHijra"]) { const c = $(`[data-chip="${k}"]`); if (c) c.hidden = !n[k]; }
+      links("[data-cites]", n.sources, "tbx-cite");
+      const rail = new Map([...data.subjectSources, ...n.sources].map((c: any) => [c.id, c]));
+      links("[data-rail-sources]", [...rail.values()], undefined, true);
+      const map = $<HTMLElement>('[data-open="map"]');
+      if (map) map.hidden = !(n.place && n.place.mapped);
+      const g = $<HTMLAnchorElement>("[data-graph]"); if (g) g.href = n.graphHref;
+      const q = encodeURIComponent(`${data.subjectTitle} ${n.title}`);
+      const yt = $<HTMLAnchorElement>("[data-yt]"); if (yt) yt.href = "https://www.youtube.com/results?search_query=" + q;
+      const wp = $<HTMLAnchorElement>("[data-wp]"); if (wp) wp.href = wp.href.split("search=")[0] + "search=" + q;
+      setText("[data-d-title]", n.title, n.titleLang);
+      setText("[data-d-date]", n.date);
+      setText("[data-d-summary]", n.summary, n.summaryLang);
+      const dp = $("[data-d-place]");
+      if (dp) { dp.hidden = !n.place; if (n.place) links("[data-d-place]", [n.place]); }
+      links("[data-d-sources]", n.sources, undefined, true);
+      const full = $<HTMLAnchorElement>("[data-d-full]"); if (full) full.href = n.entityHref;
+      setText("[data-m-place]", n.place ? n.place.label : "");
+      document.querySelectorAll<HTMLElement>("[data-node]").forEach((b, j) => {
+        if (j === current) { b.setAttribute("aria-current", "step"); b.scrollIntoView({ block: "nearest", inline: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); }
+        else b.removeAttribute("aria-current");
+      });
+      const url = new URL(location.href);
+      url.searchParams.set("node", n.id);
+      if (push) history.pushState({ i: current }, "", url); else history.replaceState({ i: current }, "", url);
+    };
+
+    document.querySelectorAll<HTMLElement>("[data-node]").forEach((b) => b.addEventListener("click", () => show(Number(b.dataset.node), true)));
+    document.querySelectorAll<HTMLElement>("[data-step]").forEach((b) => b.addEventListener("click", () => show(current + Number(b.dataset.step), true)));
+    kids?.addEventListener("change", () => show(current, false));
+    // Arrow keys follow the reading direction: in Arabic and Urdu, the earliest event is at the right.
+    root.addEventListener("keydown", (e) => {
+      const target = e.target as HTMLElement;
+      if (target.closest("input, textarea, dialog")) return;
+      const rtl = getComputedStyle(root).direction === "rtl";
+      if (e.key === "ArrowRight") { show(current + (rtl ? -1 : 1), true); e.preventDefault(); }
+      else if (e.key === "ArrowLeft") { show(current + (rtl ? 1 : -1), true); e.preventDefault(); }
+      else if (e.key === "Home") { show(0, true); e.preventDefault(); }
+      else if (e.key === "End") { show(nodes.length - 1, true); e.preventDefault(); }
+    });
+    window.addEventListener("popstate", () => {
+      const id = new URL(location.href).searchParams.get("node");
+      const i = nodes.findIndex((n) => n.id === id);
+      show(i >= 0 ? i : 0, false);
+    });
+    // Dialogs: X, backdrop click and Escape (native) all close them.
+    document.querySelectorAll<HTMLButtonElement>("[data-open]").forEach((b) => b.addEventListener("click", () => {
+      document.querySelector<HTMLDialogElement>(`[data-dialog="${b.dataset.open}"]`)?.showModal();
+    }));
+    document.querySelectorAll<HTMLDialogElement>("dialog[data-dialog]").forEach((d) => d.addEventListener("click", (e) => { if (e.target === d) d.close(); }));
+    $("[data-share]")?.addEventListener("click", async () => {
+      try {
+        if (navigator.share) await navigator.share({ title: document.title, url: location.href });
+        else { await navigator.clipboard.writeText(location.href); setText("[data-share]", data.t.copied); }
+      } catch { /* the visitor closed the share sheet */ }
+    });
+    const start = new URL(location.href).searchParams.get("node");
+    const at = nodes.findIndex((n) => n.id === start);
+    show(at >= 0 ? at : 0, false);
+  }
+</script>
