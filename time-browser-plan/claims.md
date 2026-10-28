@@ -41,3 +41,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | person/al-farabi | devin | claimed
 2026-10-28 | person/ibn-al-haytham | devin | claimed
 2026-10-28 | person/umar-khayyam | devin | claimed
+2026-10-28 | person/harun-al-rashid | claude | claimed
