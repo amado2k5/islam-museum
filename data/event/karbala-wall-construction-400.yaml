@@ -11,6 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1009-12~", hijri: "0400-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 400هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.246}" }
 relations:
+  - { type: occurred_at, target: place/karbala, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: located_in, target: place/karbala, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
