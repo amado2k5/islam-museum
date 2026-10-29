@@ -1,0 +1,22 @@
+id: event/qutuz-murder-658
+class: event
+kind: other
+label: { ar: "مقتل المظفر قطز وتسلطنة بيبرس 658هـ", en: "The killing of al-Muzaffar Qutuz and Baybars's accession, 658 AH" }
+summary:
+  ar: "طمع ركن الدين بيبرس البندقداري في حلب وكان الملك المظفر قطز وعده بها ثم رجع، فأضمر كلٌّ منهما للآخر الشر، فقتل قطز قرب قطية يوم سادس عشر ذي القعدة سنة ثمان وخمسين وستمائة، وتسلطن بيبرس الملك الظاهر {cite:shadharat-dhahab p.299}."
+  en: "Rukn al-Din Baybars al-Bunduqdari had been promised Aleppo by al-Muzaffar Qutuz, who then went back on it, and each harboured ill will for the other; Qutuz was killed near Qatiya on 16 Dhu al-Qa'da 658, and Baybars took the sultanate as al-Malik al-Zahir {cite:shadharat-dhahab p.299}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1260", hijri: "0658", precision: year, status: tradition, derived: true, note: "16 ذي القعدة 658هـ قرب قطية {cite:shadharat-dhahab p.299}" }
+relations:
+  - { type: had_participant, target: person/qutuz, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: main-repair-orphan-prose
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
