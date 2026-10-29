@@ -26,6 +26,10 @@ const TARGETS = [
   // workers/site/src/route.js (R2_DATA_DIRS).
   ...["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"].map((d) => ({ dir: d, prefix: d, cacheControl: "public, max-age=86400, stale-while-revalidate=604800" })),
 ];
+// Data files at the dist root (sitemaps, feed, llms.txt, search synonyms, favicons), published under their own
+// names. Keep in step with R2_ROOT_FILES in workers/site/src/route.js.
+const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/];
+const ROOT_CACHE = "public, max-age=3600, stale-while-revalidate=86400";
 // HTML pages served by workers/site. Off unless PUBLISH_HTML=1, so the default publish is unchanged.
 const HTML_TARGETS = [
   { dir: "ar", prefix: "ar", cacheControl: "public, max-age=60, s-maxage=3600" },
@@ -79,6 +83,12 @@ function desiredFiles() {
       const bytes = readFileSync(full);
       files.set(`${t.prefix}/${rel}`, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: t.cacheControl });
     }
+  }
+  for (const name of readdirSync(distRoot)) {
+    const full = join(distRoot, name);
+    if (!ROOT_FILES.some((r) => r.test(name)) || !statSync(full).isFile()) continue;
+    const bytes = readFileSync(full);
+    files.set(name, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: ROOT_CACHE });
   }
   if (files.size === 0) throw new Error("no files to publish: refusing to delete the whole bucket section");
   return files;

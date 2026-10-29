@@ -145,6 +145,7 @@ jobs:
           rm -rf dist-assets/ar dist-assets/en dist-assets/ur dist-assets/api dist-assets/pagefind-ar dist-assets/pagefind-en dist-assets/pagefind-ur
           # Founder rule (28 Oct 2026): data, content, maps, images and video are served from R2, not from static assets.
           rm -rf dist-assets/media dist-assets/edu dist-assets/timeline-data dist-assets/gift-shop dist-assets/brand dist-assets/openapi
+          rm -f dist-assets/sitemap*.xml dist-assets/feed.xml dist-assets/llms*.txt dist-assets/search-synonyms.*.json dist-assets/favicon* dist-assets/apple-touch-icon.png
           echo "assets: $(find dist-assets -type f | wc -l) files"
           node workers/site/scripts/bundle-rules.mjs
       - name: Deploy site Worker (production bucket, workers.dev only, no route)
@@ -174,7 +175,7 @@ jobs:
         # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about
         # 112,000. The site Worker serves every page from R2 and the rest from the assets
         # layer, so Pages keeps only what the Worker does not serve.
-        run: rm -rf dist/ar dist/en dist/ur dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api dist/media dist/edu dist/timeline-data dist/gift-shop dist/brand dist/openapi
+        run: rm -rf dist/ar dist/en dist/ur dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api dist/media dist/edu dist/timeline-data dist/gift-shop dist/brand dist/openapi && rm -f dist/sitemap*.xml dist/feed.xml dist/llms*.txt dist/search-synonyms.*.json dist/favicon* dist/apple-touch-icon.png
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
