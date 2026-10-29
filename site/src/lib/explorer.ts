@@ -38,7 +38,8 @@ export const langOf = (t: Text, lang: Lang): Lang => (t[lang] ? lang : t.ar ? "a
 /** A node's date for visitors: Hijri and Gregorian in the museum's format, plus status flags for the chips. */
 export function nodeDate(d: DateObj, lang: Lang) {
   const { text } = formatDate(d, lang);
-  const y = yearOf(d);
+  // A range ("1153/1169") has no single year; the strip places and labels it by its start.
+  const y = yearOf(d) ?? (d.edtf?.includes("/") ? yearOf({ ...d, edtf: d.edtf.split("/")[0] }) : undefined);
   return {
     text,
     year: y,

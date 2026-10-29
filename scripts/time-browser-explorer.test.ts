@@ -47,3 +47,16 @@ describe('timeline explorer subjects', () => {
     }
   })
 })
+
+describe('timeline explorer curated stories and range dates', () => {
+  it('builds the Mamluk story from its curated event list, in time order', () => {
+    const s = byId.get('polity/mamluk-sultanate')
+    expect(s).toBeDefined()
+    expect(s!.nodes[0].id).toBe('event/ayn-jalut-658')
+    expect(s!.nodes.at(-1)!.id).toBe('event/capture-of-cairo-1517')
+  })
+  it('gives a range date its start year for the strip', async () => {
+    const { nodeDate } = await import('../site/src/lib/explorer.ts')
+    expect(nodeDate({ edtf: '1153/1169' } as never, 'en').year).toBe(1153)
+  })
+})
