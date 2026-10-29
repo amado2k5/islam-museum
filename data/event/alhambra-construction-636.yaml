@@ -1,0 +1,24 @@
+id: event/alhambra-construction-636
+class: event
+kind: founding
+label: { ar: "وضع أسس قصر الحمراء", en: "Foundations of the Alhambra" }
+summary:
+  ar: "شرع محمد بن الأحمر مؤسس الدولة النصرية في بناء قصر الحمراء وقصبة غرناطة سنة 636هـ/1238م تقريباً {cite:tarikh-ibn-khaldun-ibar}."
+  en: "Muhammad ibn al-Ahmar, founder of the Nasrid state, began the Alhambra palace and Granada's citadel about 636/1238 {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "نصری ریاست کے بانی محمد ابن الاحمر نے 636ھ/1238ء میں الحمرا محل اور غرناطہ کے قلعے کی بنیاد رکھی {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1238~", hijri: "0636", precision: year, status: tradition, derived: true }
+  end: { edtf: "1238~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/granada, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/muhammad-i-ibn-al-ahmar, role: "الباني", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Granada story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-granada
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
