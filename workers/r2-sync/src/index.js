@@ -13,7 +13,8 @@
 //     ]
 //   }
 // COPY reads from the archive; MOVE and DELETE act on keys already in R2.
-// Every dst must start with an allowed prefix (ALLOWED_PREFIXES, comma-separated).
+// Every dst must start with an allowed prefix (ALLOWED_PREFIXES, comma-separated), or,
+// when ALLOW_ROOT_FILES is "true", be one of the bucket-root data files in ROOT_FILES.
 import { unzipSync } from "fflate";
 
 const MIME = {
@@ -53,8 +54,13 @@ const newFolders = (key, seen) => {
   return created;
 };
 
-function validateDst(dst, allowed) {
-  if (!dst || dst.startsWith("/") || dst.includes("..") || !allowed.some((p) => dst.startsWith(p))) {
+// Data files at the bucket root (sitemaps, feed, llms.txt, search synonyms, favicons).
+// Keep in step with ROOT_FILES in batch/publish.mjs and R2_ROOT_FILES in workers/site/src/route.js.
+export const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/];
+
+function validateDst(dst, allowed, allowRootFiles = false) {
+  const listed = (d) => allowed.some((p) => d.startsWith(p)) || (allowRootFiles && ROOT_FILES.some((r) => r.test(d)));
+  if (!dst || dst.startsWith("/") || dst.includes("..") || !listed(dst)) {
     throw new Error(`destination not allowed: "${dst}"`);
   }
 }
@@ -76,7 +82,7 @@ async function writeStatus(bucket, status, log) {
 
 // Applies one archive. `bucket` is an R2 bucket binding (or a compatible stub).
 // `log` receives progress lines. Returns a report; throws only on a bad archive.
-export async function processArchive({ bucket, archiveKey, allowedPrefixes, log = console.log }) {
+export async function processArchive({ bucket, archiveKey, allowedPrefixes, allowRootFiles = false, log = console.log }) {
   const archive = await bucket.get(archiveKey);
   if (!archive) throw new Error(`archive not found: ${archiveKey}`);
   const entries = unzipSync(new Uint8Array(await archive.arrayBuffer()));
@@ -114,7 +120,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
 
   const copyOp = async (op, i) => {
     try {
-      validateDst(op.dst, allowedPrefixes);
+      validateDst(op.dst, allowedPrefixes, allowRootFiles);
       const data = entries[op.src];
       if (!data) throw new Error(`source not in archive: ${op.src}`);
       if (op.sha256 && (await sha256Hex(data)) !== op.sha256) throw new Error(`checksum mismatch: ${op.src}`);
@@ -131,8 +137,8 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
   const otherOp = async (op, i) => {
     try {
       if (op.op === "MOVE") {
-        validateDst(op.dst, allowedPrefixes);
-        validateDst(op.src, allowedPrefixes);
+        validateDst(op.dst, allowedPrefixes, allowRootFiles);
+        validateDst(op.src, allowedPrefixes, allowRootFiles);
         const existing = await bucket.get(op.src);
         if (!existing) throw new Error(`move source missing: ${op.src}`);
         const data = new Uint8Array(await existing.arrayBuffer());
@@ -142,7 +148,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
         report.moved.push({ from: op.src, to: op.dst });
         log(`[move ${i + 1}/${total}] ${op.src} -> ${op.dst}`);
       } else if (op.op === "DELETE") {
-        validateDst(op.dst, allowedPrefixes);
+        validateDst(op.dst, allowedPrefixes, allowRootFiles);
         await bucket.delete(op.dst);
         report.deleted.push(op.dst);
         log(`[delete ${i + 1}/${total}] ${op.dst}`);
@@ -212,6 +218,7 @@ export default {
         bucket: env.SYNC_BUCKET,
         archiveKey: archive,
         allowedPrefixes,
+        allowRootFiles: env.ALLOW_ROOT_FILES === "true",
         log: (line) => console.log(line),
       });
       return json(report, report.failed.length ? 207 : 200);

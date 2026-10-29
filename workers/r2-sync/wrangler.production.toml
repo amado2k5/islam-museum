@@ -18,3 +18,6 @@ bucket_name = "islam-museum-search"
 [vars]
 # Only these prefixes may be written or deleted by an archive.
 ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,api/,ar/,en/,ur/,media/,edu/,timeline-data/,gift-shop/,brand/,openapi/"
+# Also allow the bucket-root data files listed in ROOT_FILES in src/index.js (sitemaps,
+# feed, llms.txt, search synonyms, favicons), which batch/publish.mjs uploads.
+ALLOW_ROOT_FILES = "true"

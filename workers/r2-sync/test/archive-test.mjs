@@ -2,6 +2,7 @@
 // Run 1: a 101-file archive (100 COPY files + manifest), then the archive is removed.
 // Run 2: a 4-file archive (1 new + 2 modified + manifest) with COPY and DELETE ops.
 // Run 3: a bad archive (destination outside the allowed prefix) that must be kept.
+// Run 4: bucket-root data files (llms.txt, sitemap) pass only when root files are allowed.
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
@@ -105,6 +106,23 @@ await bucket.put("_staging/bad.zip", bad.bytes);
 const r3 = await processArchive({ bucket, archiveKey: "_staging/bad.zip", allowedPrefixes: ALLOWED, log: quiet });
 check(r3.summary.failed === 1 && bucket.objects.has("_staging/bad.zip"), "run 3: bad destination rejected and archive kept");
 check(!bucket.objects.has("api/hijack.json"), "run 3: nothing written outside the allowed prefix");
+
+// Run 4: root data files. Refused without allowRootFiles, written with it; other root names stay refused.
+const rootOps = [
+  { op: "COPY", localBytes: Buffer.from("# llms\n"), dst: "llms.txt" },
+  { op: "COPY", localBytes: Buffer.from("<urlset/>"), dst: "sitemap-0.xml" },
+];
+const rootArc = packArchives(rootOps, { namePrefix: "root" })[0];
+await bucket.put("_staging/root.zip", rootArc.bytes);
+const r4a = await processArchive({ bucket, archiveKey: "_staging/root.zip", allowedPrefixes: ALLOWED, log: quiet });
+check(r4a.summary.failed === 2 && !bucket.objects.has("llms.txt"), "run 4: root files refused when root files are not allowed");
+const r4b = await processArchive({ bucket, archiveKey: "_staging/root.zip", allowedPrefixes: ALLOWED, allowRootFiles: true, log: quiet });
+check(r4b.summary.copied === 2 && r4b.summary.failed === 0, `run 4: root files written when allowed (${JSON.stringify(r4b.summary)})`);
+check(bucket.objects.has("llms.txt") && bucket.objects.has("sitemap-0.xml"), "run 4: llms.txt and sitemap-0.xml stored at the bucket root");
+const strayArc = packArchives([{ op: "COPY", localBytes: Buffer.from("x"), dst: "index.html" }], { namePrefix: "stray" })[0];
+await bucket.put("_staging/stray.zip", strayArc.bytes);
+const r4c = await processArchive({ bucket, archiveKey: "_staging/stray.zip", allowedPrefixes: ALLOWED, allowRootFiles: true, log: quiet });
+check(r4c.summary.failed === 1 && !bucket.objects.has("index.html"), "run 4: an unlisted root name is still refused");
 
 console.log(failures.length ? `\n${failures.length} check(s) failed` : "\nall checks passed");
 process.exit(failures.length ? 1 : 0);
