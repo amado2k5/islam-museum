@@ -1,0 +1,24 @@
+id: event/ibn-hazm-birth-cordoba-384
+class: event
+kind: birth
+label: { ar: "ولادة ابن حزم في ربض منية المغيرة بقرطبة", en: "Ibn Hazm is born in the Munyat al-Mughira quarter of Cordoba", ur: "ابن حزم قرطبہ کے ربض منیۃ المغیرہ میں پیدا ہوتے ہیں" }
+summary:
+  ar: "ولد أبو محمد علي بن أحمد بن حزم بقرطبة في ربض منية المغيرة آخر ليلة الأربعاء آخر يوم من رمضان سنة 384هـ. {cite:nafh-tib-maqqari p. 80}"
+  en: "Abu Muhammad Ali ibn Ahmad ibn Hazm was born in the Munyat al-Mughira quarter of Cordoba on the last day of Ramadan, 384 AH. {cite:nafh-tib-maqqari p. 80}"
+  ur: "ابو محمد علی بن احمد بن حزم 384ھ میں رمضان کے آخری دن قرطبہ کے ربض منیۃ المغیرہ میں پیدا ہوئے۔ {cite:nafh-tib-maqqari p. 80}"
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0994~", hijri: "0384-09-30", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد بقرطبة آخر يوم من رمضان سنة 384هـ؛ التحويل إلى الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/ibn-hazm, role: "المولود", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+provenance:
+  layer: own-research
+  source: "نفح الطيب للمقري، ط. بالطبعة الكتابية، المجلد الخامس ص 78–81 (الترجمة الخامسة لابن حزم)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: explorer-ibn-hazm
