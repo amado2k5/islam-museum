@@ -5,6 +5,8 @@ label: { ar: "حصار حلب", en: "Siege of Aleppo" }
 summary:
   ar: "بطاقة أولية لحصار حلب؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Siege of Aleppo; its sources are not yet checked on the page."
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-hasan-ibrahim] }
 wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
