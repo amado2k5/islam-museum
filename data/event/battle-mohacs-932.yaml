@@ -5,14 +5,13 @@ label: { ar: "موقعة موهاكس وفتح بودا", en: "The battle of Moh
 summary:
   ar: "كان ملك المجر فيلاديسلاف الثاني قد عزم على فك أي تعهدات أعطيت من قبل أسلافه لسلاطين الدولة العثمانية وذهب إلى حد قتل مبعوث السلطان سليمان إليه الذي كان يطالب بالجزية السنوية، فردّ سليمان بغزوة كبيرة ضد المجر، واستمرت المعارك حتى أحرز الأتراك انتصارهم الكبير في موقعة موهاكس عام ١٥٢٦م، ودخل سليمان القانوني بودا في ١١ سبتمبر عام ١٥٢٦م، واستمرت المقاومة الهنغارية رغم هذا وتابع السلطان ضغطه حتى بلغت جيوشه أسوار فيينا عاصمة الإمبراطورية الرومانية المقدسة عام ١٥٢٩م {cite:dawlat-uthmaniyya-salabi p. 201-202}."
   en: "Mohács, 1526 — the Hungarian king's killing of Sulayman's tribute-envoy brought the Ottoman host that shattered Hungary in one battle and entered Buda on 11 September {cite:dawlat-uthmaniyya-salabi p. 201-202}."
-relations:
-  - { type: occurred_at, target: place/mohacs, sources: [source/dawlat-uthmaniyya-salabi] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1526-08-29~", hijri: "0932", calendar: julian, precision: month, status: tradition, derived: true, note: "١٥٢٦م/٩٣٢هـ {cite:dawlat-uthmaniyya-salabi p. 202}." }
 relations:
+  - { type: occurred_at, target: place/mohacs, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
 provenance:
   layer: own-research
