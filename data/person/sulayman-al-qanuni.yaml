@@ -5,6 +5,7 @@ names:
   - { kind: full, lang: ar, value: "سليمان بن سليم الأول" }
 gender: male
 roles: [ruler, military]
+born: { edtf: "1494~", hijri: "0900~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بطرابزون سنة 900هـ تقريباً {cite:dawlat-uthmaniyya-salabi}", sources: [source/dawlat-uthmaniyya-salabi] }
 died: { edtf: "1566", hijri: "0974", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 summary:
   ar: "السلطان سليمان القانوني (حكم ٩٢٦–٩٧٤هـ/١٥٢٠–١٥٦٦م)؛ ولد في طرابزون وكان والده والياً عليها، اهتم به والده فنشأ محباً للعلم والأدب والعلماء والفقهاء، وارتقى العرش في السادسة والعشرين من عمره، وكان متأنياً في شؤونه إذا اتخذ قراراً لا يرجع عنه. ابتلي في سنواته الأولى بأربع فتن: تمرد جان بردي الغزالي والي الشام، وتمرد أحمد شاه في مصر سنة ٩٣٠هـ حين أعلن نفسه سلطاناً فقتله جنود الدولة، وتمرد بابا ذو النون الشيعي سنة ٩٢٦هـ، وتمرد قلندر جلبي في قونية ومرعش بنحو ثلاثين ألفاً فهُزم بعد أن استمال الصدر الأعظم إبراهيم باشا بعض رجاله. ثم فتح جزيرة رودس سنة ١٥٢٢م بعد حرب كبيرة وأعطى فرسان القديس يوحنا حق الانتقال إلى مالطة، وشن غزوة كبيرة ضد المجر فأحرز الانتصار الكبير في موقعة موهاكس سنة ١٥٢٦م ودخل بودا في ١١ سبتمبر، وتابع ضغطه حتى حصار فيينا {cite:dawlat-uthmaniyya-salabi p. 200-202}."
@@ -14,6 +15,9 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/conquest-of-belgrade-1521, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/battle-mohacs-932, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: participated_in, target: event/capture-of-baghdad-1534, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids:
   wikidata: Q8474
 sources: [source/dawlat-uthmaniyya-salabi]

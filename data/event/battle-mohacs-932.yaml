@@ -11,6 +11,7 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1526-08-29~", hijri: "0932", calendar: julian, precision: month, status: tradition, derived: true, note: "١٥٢٦م/٩٣٢هـ {cite:dawlat-uthmaniyya-salabi p. 202}." }
 relations:
+  - { type: occurred_at, target: place/mohacs, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
 provenance:
   layer: own-research

@@ -1,0 +1,23 @@
+id: event/nuzhat-al-mushtaq-completed-549
+class: event
+kind: publication
+label: { ar: "اكتمال «نزهة المشتاق» سنة ٥٤٩هـ", en: "Nuzhat al-Mushtaq completed, 549 AH" }
+summary:
+  ar: "أتم الإدريسي لروجر الثاني كتابه الجغرافي «نزهة المشتاق في اختراق الآفاق» سنة 549هـ/1154م مع الخريطة المعروفة بلوح الترسيم أو صورة روجر {cite:mawsuat-a3lam-ulama-adaba}."
+  en: "Al-Idrisi completed for Roger II the Nuzhat al-Mushtaq geography in 549/1154 with the celebrated planisphere known as the Tabula Rogeriana {cite:mawsuat-a3lam-ulama-adaba}."
+  ur: "ادریسی نے روجر ثانی کے لیے 549ھ/1154ء میں نزہۃ المشتاق مکمل کیا جس کے ساتھ مشہور روجری نقشہ تھا {cite:mawsuat-a3lam-ulama-adaba}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1154", hijri: "0549", precision: year, status: tradition, derived: true }
+  end: { edtf: "1154", hijri: "0549", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/palermo, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Idrisi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-idrisi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

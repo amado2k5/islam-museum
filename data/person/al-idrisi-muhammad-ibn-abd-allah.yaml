@@ -15,6 +15,10 @@ wings: [people]
 themes: [geography-and-cartography, history-writing-and-social-thought]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+relations:
+  - { type: participated_in, target: event/al-idrisi-at-roger-ii-court, role: "الجغرافي", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/nuzhat-al-mushtaq-completed-549, role: "المؤلف", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: born_in, target: place/ceuta, sources: [source/mawsuat-a3lam-ulama-adaba] }
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
