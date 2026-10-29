@@ -11,6 +11,7 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1372~", hijri: "0773", calendar: julian, precision: year, status: tradition, derived: true, note: "773؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 758}." }
 relations:
+  - { type: occurred_at, target: place/samarqand, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/timur-lang, role: "الموصوف", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
