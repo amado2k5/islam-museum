@@ -1,0 +1,24 @@
+id: event/ibn-sina-to-khuzistan-1030
+class: event
+kind: other
+label: { ar: "ابن سينا ينتقل إلى خوزستان", en: "Ibn Sina withdraws to Khuzistan", ur: "ابن سینا کی خوزستان منتقلی" }
+summary:
+  ar: "في يناير 1030م، حين احتل الغزنويون أصفهان مدة قصيرة، انتقل ابن سينا مع علاء الدولة إلى خوزستان، وبقيا فيها إلى وفاة محمود الغزنوي بعد شهرين. {cite:wikipedia-avicenna-en}"
+  en: "In January 1030, during the brief Ghaznavid occupation of Isfahan, Ibn Sina and Ala al-Dawla moved to Khuzistan, staying until the death of Mahmud of Ghazna two months later."
+  ur: "جنوری 1030ء میں جب غزنویوں نے مختصر مدت کے لیے اصفہان پر قبضہ کیا تو ابن سینا علاء الدولہ کے ساتھ خوزستان چلے گئے اور دو ماہ بعد محمود غزنوی کی وفات تک وہیں رہے۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1030-01", hijri: "0421~", calendar: julian, precision: month, status: historical, derived: true, note: "Gregorian date from Wikipedia (Avicenna, revision 1377286292); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: occurred_at, target: place/khuzistan, sources: [source/wikipedia-avicenna-en] }
+  - { type: had_participant, target: person/ibn-sina, role: "رفيق علاء الدولة", sources: [source/wikipedia-avicenna-en] }
+sources: [source/wikipedia-avicenna-en]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Wikipedia, Avicenna, revision 1377286292, read in the browser on 29 October 2026 (dates and places only); ledger docs/authenticity-ledger/pages/wikipedia-avicenna-en.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-sina
