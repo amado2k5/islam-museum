@@ -29,7 +29,7 @@ export interface GEdge { from: string; to: string; type: string; sources?: strin
 // at the same time without editing a shared list: { "id", "kind": "person" | "era" | "place", "journey"?: true,
 // "regionPlaces"?: [place ids], "owner": "claude" | "devin" }. Each must reach MIN_NODES dated, cited nodes or it
 // does not ship.
-export interface SubjectDef { id: string; kind: 'person' | 'era' | 'place'; journey?: boolean; regionPlaces?: string[]; owner?: string }
+export interface SubjectDef { id: string; kind: 'person' | 'era' | 'place'; journey?: boolean; regionPlaces?: string[]; owner?: string; years?: [number, number] }
 export const SUBJECT_DIR = join(process.cwd(), 'scripts', 'explorer-subjects')
 export function loadSubjectDefs(dir = SUBJECT_DIR): SubjectDef[] {
   if (!existsSync(dir)) return []
@@ -144,7 +144,10 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[], defs: SubjectDef[]
     } else {
       const targets = new Set([s.id, ...(s.regionPlaces ?? [])])
       const ids = edges.filter((e) => e.type === 'occurred_at' && targets.has(e.to)).map((e) => e.from)
+      // Optional year window (for a place story limited to one period): only events that start inside it.
+      const window = s.years
       events = [...new Set(ids)].map((id) => byId.get(id)).filter(usable)
+        .filter((n) => !window || (n.span!.earliest >= window[0] && n.span!.earliest <= window[1]))
     }
     const nodesOut: ExplorerNode[] = pickSpread(events, preferred).map(eventNode)
     if (s.kind === 'person') {
