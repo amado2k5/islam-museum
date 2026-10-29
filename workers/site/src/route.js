@@ -13,7 +13,10 @@ const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathn
 // R2 under the same paths (for example "media/time-browser/explorer/x.webp"); keep this list in step with
 // workers/r2-sync/batch/publish.mjs (DATA_TARGETS), wrangler.production.toml (run_worker_first) and deploy.yml.
 export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"];
-const isDataPath = (pathname) => R2_DATA_DIRS.some((d) => pathname.startsWith(`/${d}/`));
+// Data files at the site root (sitemaps, feed, llms.txt, search synonyms, favicons) follow the same rule. Keep in step
+// with ROOT_FILES in publish.mjs, run_worker_first and deploy.yml.
+export const R2_ROOT_FILES = [/^\/sitemap[\w-]*\.xml$/, /^\/feed\.xml$/, /^\/llms(-full)?\.txt$/, /^\/search-synonyms\.\w+\.json$/, /^\/favicon[\w-]*\.(png|svg|ico)$/, /^\/apple-touch-icon\.png$/];
+const isDataPath = (pathname) => R2_DATA_DIRS.some((d) => pathname.startsWith(`/${d}/`)) || R2_ROOT_FILES.some((r) => r.test(pathname));
 
 // Returns { type: "r2", key } | { type: "redirect", location } | { type: "assets" }.
 export function resolve(pathname) {
