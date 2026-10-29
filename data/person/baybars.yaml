@@ -13,6 +13,12 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-46
 external_ids: { wikidata: "Q192960" }
+born: { edtf: "1223~", precision: year, status: tradition, derived: true, note: "ولد نحو سنة 620هـ", sources: [source/shadharat-dhahab] }
+died: { edtf: "1277", hijri: "0676", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق سنة 676هـ {cite:shadharat-dhahab}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: participated_in, target: event/baybars-sultan-accession-658, role: "السلطان", sources: [source/khitat-maqrizi-1998] }
+  - { type: participated_in, target: event/siege-of-antioch-1268, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
+  - { type: participated_in, target: event/fall-of-krak-des-chevaliers-1271, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
 sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the Zahiriyya's site and his exile with the amirs after Aqtay's killing are read from al-Maqrizi's Khitat (local scan, pp. 1032, 1081); the Suyuti and Ibn al-Imad sentences keep their citations" }
 
