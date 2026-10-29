@@ -1,0 +1,24 @@
+id: event/ibn-khaldun-court-tunis-1352
+class: event
+kind: other
+label: { ar: "ابن خلدون يتولى منصبًا في بلاط تونس", en: "Ibn Khaldun receives a post at the court of Tunis", ur: "ابن خلدون کو تیونس کے دربار میں منصب ملتا ہے" }
+summary:
+  ar: "نحو سنة 1352م، وهو في نحو العشرين من عمره، أُسند إلى ابن خلدون منصب في بلاط تونس، ثم صار كاتبًا للسلطان المريني في فاس بعد ثلاث سنين. {cite:britannica-ibn-khaldun}"
+  en: "Around 1352, at about the age of twenty, Ibn Khaldun was given a post at the court of Tunis; three years later he became secretary to the Marinid sultan in Fez. {cite:britannica-ibn-khaldun}"
+  ur: "1352ء کے لگ بھگ، تقریباً بیس برس کی عمر میں، ابن خلدون کو تیونس کے دربار میں منصب ملا؛ تین برس بعد وہ فاس میں مرینی سلطان کے کاتب ہو گئے۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1352~", hijri: "0753~", calendar: julian, precision: year, status: historical, derived: true, note: "Derived from Britannica's age of about 20 (born 1332); the Hijri year is converted (approximate, derived)." }
+relations:
+  - { type: occurred_at, target: place/tunis, sources: [source/britannica-ibn-khaldun] }
+  - { type: had_participant, target: person/ibn-khaldun, role: "الموظف في البلاط", sources: [source/britannica-ibn-khaldun] }
+sources: [source/britannica-ibn-khaldun]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Khaldūn, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-khaldun.yaml"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: explorer-ibn-khaldun

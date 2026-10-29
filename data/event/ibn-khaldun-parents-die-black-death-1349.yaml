@@ -1,0 +1,24 @@
+id: event/ibn-khaldun-parents-die-black-death-1349
+class: event
+kind: other
+label: { ar: "الطاعون الأسود يأخذ والدي ابن خلدون في تونس", en: "The Black Death takes Ibn Khaldun's parents in Tunis", ur: "سیاہ موت میں ابن خلدون کے والدین کا انتقال تیونس میں" }
+summary:
+  ar: "سنة 1349م ضرب الطاعون الأسود تونس، فمات والد ابن خلدون ووالدته. {cite:britannica-ibn-khaldun}"
+  en: "In 1349 the Black Death struck Tunis and took both of Ibn Khaldun's parents. {cite:britannica-ibn-khaldun}"
+  ur: "1349ء میں سیاہ موت تیونس میں پھیلی اور ابن خلدون کے والد اور والدہ دونوں اس کا شکار ہوئے۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1349", hijri: "0750~", calendar: julian, precision: year, status: historical, derived: true, note: "The year 1349 is from Britannica; the Hijri year is converted (approximate, derived)." }
+relations:
+  - { type: occurred_at, target: place/tunis, sources: [source/britannica-ibn-khaldun] }
+  - { type: had_participant, target: person/ibn-khaldun, role: "الابن الذي فقد والديه", sources: [source/britannica-ibn-khaldun] }
+sources: [source/britannica-ibn-khaldun]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Khaldūn, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-khaldun.yaml"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: explorer-ibn-khaldun
