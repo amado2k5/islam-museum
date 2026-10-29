@@ -12,6 +12,7 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0748~", hijri: "0130-05-09", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 9 جمادى الأولى 130؛ التحويل مشتق {cite:tabari-khayyat-part2 p. 714}." }
 relations:
+  - { type: occurred_at, target: place/merv, sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/abu-muslim-al-khurasani, role: "الداخل مرو", sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/nasr-ibn-sayyar, role: "عامل خراسان المضري", sources: [source/tabari-khayyat-part2] }
 provenance:
