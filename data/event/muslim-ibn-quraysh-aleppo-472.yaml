@@ -11,6 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1079~", hijri: "0472", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 472هـ؛ التحويل مشتق." }
 relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/muslim-ibn-quraysh, role: "الآخذ", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
