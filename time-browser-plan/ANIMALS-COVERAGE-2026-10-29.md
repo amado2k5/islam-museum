@@ -39,3 +39,18 @@ No image backdrops were generated. Stories ship without images per the pipeline 
 - `npm run validate`: 0 errors from this change. **Three errors come from main**, not from this change: `content/{ar,en,ur}/place/tarabulus-al-gharb.md` has no data file (`data/place/tarabulus-al-gharb.yaml`). The record is `place/tarabulus-gharb`; the stray prose is from the Tripoli story (commit 19716017d3, alias tarabulus-al-gharb). Not fixed here: it belongs to that story's owner.
 - `npx vitest run scripts/time-browser*`: 73 of 73 pass.
 - `npm test`: see the final message for the full run.
+
+## 5. Enrichment pass (follow-up, 29 Oct 2026)
+
+OCR status checked first: the harvest drive reports 0 PDFs not OCR'd and 0 partly OCR'd (`docs/delegation/microsd-ocr-status.md`, 23 Oct).
+
+**Added:** `event/spider-web-at-ghar-thawr` (cited to Ibn Hajar, al-Isaba, the biography of Kurz ibn Alqama, scan page 304, read from the harvest drive OCR), and added to the `concept/hayawan-animal` story, which now has 6 nodes. Arabic, English and Urdu summaries.
+
+**Dropped, with reasons:**
+- Pigeons at the cave of Thawr (the tale that doves nested at the entrance): not found in the OCR texts searched; not added.
+- Cats (the Prophet and the cat, Muezza): not searched in this pass; no record added.
+- Dog and ant hadith or sira events: not searched in this pass; the Quran references (18:18, 27:18, 29:41) need passage records, not dated events, so they cannot be stories.
+- The pursuers' remark about the web ("if anyone had entered, the web would not be whole"): found in the Sallabi OCR, not in the Isaba passage; left out because its source is not cited here.
+- Britannica: no animal-related Britannica article was checked in this pass.
+
+Scan page numbers are the drive's scan pages; printed page numbers are not verified.
