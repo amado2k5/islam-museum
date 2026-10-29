@@ -13,6 +13,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1348", hijri: "0748-12", calendar: julian, precision: month, status: tradition, derived: true, note: "أيام الحج سنة 748هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- type: occurred_at
+  target: place/qayrawan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 - type: had_participant
   target: person/abu-al-hasan-al-marini
   sources:
