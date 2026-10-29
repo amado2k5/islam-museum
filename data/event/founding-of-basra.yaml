@@ -9,6 +9,7 @@ date:
   start: { hijri: "0014", precision: year, status: debated, note: "المدائني: 14هـ؛ سيف: ربيع 16هـ (ج3 ص590)", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
 relations:
+  - { type: occurred_at, target: place/basra, sources: [source/tabari-tarikh-abu-al-fadl] }
   - { type: had_participant, target: person/utba-ibn-ghazwan, role: "المؤسس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/suwayd-ibn-qutba, role: "السابق بالغارة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/harthama-ibn-arfaja, role: "المدد من البحرين", sources: [source/futuh-buldan-maarif-1407] }

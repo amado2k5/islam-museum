@@ -8,6 +8,8 @@ summary:
 wings: [time]
 periods: [period/abbasid-early, period/abbasid-fragmentation]
 regions: [persia-central-asia]
+date:
+  start: { edtf: "0865~", hijri: "0251", calendar: julian, precision: year, status: tradition, derived: true, note: "حركة قم وإعادة فتحها في عهد المعتز {cite:futuh-buldan-maarif-1407}; سنة مشتقة." }
 relations:
   - { type: occurred_at, target: place/qumm }
   - { type: had_participant, target: person/ali-ibn-hisham-al-marwazi, role: "المعاقب", sources: [source/futuh-buldan-maarif-1407] }

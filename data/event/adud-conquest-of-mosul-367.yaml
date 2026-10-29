@@ -11,6 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0978-07~", hijri: "0367-11-12", calendar: julian, precision: day, status: tradition, derived: true, note: "ثاني عشر ذي القعدة 367؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 507}." }
 relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/adud-al-dawla, role: "الفاتح", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-taglib-fadlallah, role: "الأمير المخلوع", sources: [source/kamil-ibn-al-athir] }
 provenance:
