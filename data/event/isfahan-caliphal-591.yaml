@@ -8,6 +8,10 @@ summary:
 date:
   start: { hijri: "0591", edtf: "1195", calendar: julian, precision: year, status: tradition, note: "سنة ٥٩١هـ {cite:kamil-ibn-al-athir p. 238}.", sources: [source/kamil-ibn-al-athir] }
 relations:
+- type: occurred_at
+  target: place/isfahan
+  sources:
+  - source/kamil-ibn-al-athir
 - type: had_participant
   target: person/sadr-al-din-al-khujandi
   role: "رئيس شافعية أصفهان الذي بذل تسليمها للديوان"

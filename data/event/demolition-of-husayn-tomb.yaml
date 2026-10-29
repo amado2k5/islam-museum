@@ -11,6 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0850~", hijri: "0236", calendar: julian, precision: year, status: tradition, derived: true, note: "236؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 539}." }
 relations:
+  - { type: occurred_at, target: place/karbala, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-mutawakkil, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

@@ -6,7 +6,7 @@ Finds the lapis disc by colour, cuts the medallion (disc + gold ring) with a tra
   brand/mark-{128,512}.webp, mark-512.png           the medallion for light grounds
   brand/mark-dark-{128,512}.webp                    brightened, gold-haloed medallion for dark grounds
   brand/mark-mono-{ink,gold}-512.webp               single-colour marks; mark-watermark-{ink,gold}.webp pre-faded (26 %)
-  favicon-{16,32,64}.png, apple-touch-icon.png, brand/og-image.jpg
+  favicon-{16,32,64}.png, favicon.ico (16, 32, 48), apple-touch-icon.png, brand/og-image.jpg
 Run from the repository root: python3 scripts/brand/emblem.py
 """
 from pathlib import Path
@@ -84,6 +84,8 @@ for name, color in [("gold", (197, 160, 89)), ("ink", (10, 37, 51))]:
 
 for s in (16, 32, 64):
     mark.resize((s, s), Image.LANCZOS).save(PUB / f"favicon-{s}.png", optimize=True)
+# /favicon.ico is what crawlers, feed readers and bookmark tools ask for when they ignore <link rel="icon">.
+mark.save(PUB / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
 touch = Image.new("RGBA", (180, 180), (10, 37, 51, 255))
 touch.alpha_composite(mark.resize((156, 156), Image.LANCZOS), (12, 12))
 touch.convert("RGB").save(PUB / "apple-touch-icon.png", optimize=True)

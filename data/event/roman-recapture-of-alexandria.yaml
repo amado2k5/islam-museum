@@ -11,7 +11,7 @@ regions: [egypt-nile]
 date:
   start: { hijri: "0023?", precision: year, status: debated, note: "سنة 23 أو 25 — روايتان (البلاذري ص 310–311)" }
 relations:
-  - { type: occurred_at, target: place/iskandariyya }
+  - { type: occurred_at, target: place/alexandria }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "المسترد وقاصم الجدار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/manuil-al-rumi, role: "قائد الروم المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "صاحب الرابطة المذبوحة", sources: [source/futuh-buldan-maarif-1407] }
