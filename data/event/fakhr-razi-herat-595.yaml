@@ -14,6 +14,7 @@ sides:
   - label: { ar: "فخر الدين الرازي" }
   - label: { ar: "الكرامية بهراة" }
 relations:
+  - { type: occurred_at, target: place/herat, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/fakhr-al-din-al-razi, role: "المطرود من هراة", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
