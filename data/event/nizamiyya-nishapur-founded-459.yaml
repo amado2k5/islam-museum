@@ -1,0 +1,24 @@
+id: event/nizamiyya-nishapur-founded-459
+class: event
+kind: founding
+label: { ar: "النظامية بنيسابور", en: "The Nizamiyya of Nishapur" }
+summary:
+  ar: "أسس الوزير نظام الملك مدرسة نيسابور النظامية نحو سنة 459هـ/1067م ضمن شبكة النظاميات التي درس فيها أئمة الشافعية والحديث {cite:mawsuat-a3lam-ulama-adaba}."
+  en: "The vizier Nizam al-Mulk founded the Nishapur Nizamiyya about 459/1067 within his network of colleges where the Shafi'i and hadith imams taught {cite:mawsuat-a3lam-ulama-adaba}."
+  ur: "وزیر نظام الملک نے 459ھ/1067ء میں نیشاپور کی نظامیہ مدرسہ بنوایا جو شوافع اور محدثین کے تدریسی سلسلے کا حصہ بنا {cite:mawsuat-a3lam-ulama-adaba}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1067~", hijri: "0459", precision: year, status: tradition, derived: true }
+  end: { edtf: "1067~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: had_participant, target: person/nizam-al-mulk, role: "المؤسس", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Nishapur story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-nishapur
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
