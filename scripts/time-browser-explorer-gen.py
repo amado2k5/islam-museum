@@ -50,7 +50,7 @@ def main() -> None:
     pipe = StableDiffusionXLPipeline.from_pretrained(
         "stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, variant="fp16", use_safetensors=True
     ).to("mps")
-    negative = "people, person, face, human figure, crowd, text, letters, watermark, signature, modern objects"
+    negative = "people, person, man, woman, child, face, human figure, silhouette, traveller, crowd, rider, text, letters, flag, watermark, signature, modern objects"
     with tempfile.TemporaryDirectory() as tmp:
         for i, j in enumerate(todo):
             for suffix, prompt in (("", j["prompt"]), ("-kids", j["kidsPrompt"])):

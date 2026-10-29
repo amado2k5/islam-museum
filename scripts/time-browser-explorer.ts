@@ -29,7 +29,7 @@ export interface GEdge { from: string; to: string; type: string; sources?: strin
 // at the same time without editing a shared list: { "id", "kind": "person" | "era" | "place", "journey"?: true,
 // "regionPlaces"?: [place ids], "owner": "claude" | "devin" }. Each must reach MIN_NODES dated, cited nodes or it
 // does not ship.
-export interface SubjectDef { id: string; kind: 'person' | 'era' | 'place'; journey?: boolean; regionPlaces?: string[]; owner?: string; years?: [number, number] }
+export interface SubjectDef { id: string; kind: 'person' | 'era' | 'place'; journey?: boolean; regionPlaces?: string[]; owner?: string; years?: [number, number]; periods?: string[]; events?: string[] }
 export const SUBJECT_DIR = join(process.cwd(), 'scripts', 'explorer-subjects')
 export function loadSubjectDefs(dir = SUBJECT_DIR): SubjectDef[] {
   if (!existsSync(dir)) return []
@@ -132,15 +132,22 @@ export function buildSubjects(nodes: GNode[], edges: GEdge[], defs: SubjectDef[]
     // Only the links written in the subject's own record (data/<class>/<slug>.yaml): the graph stores every
     // participation the same way, whichever record wrote it.
     const preferred = new Set(ownParticipation(s.id))
-    if (s.kind === 'person') {
+    if (s.events) {
+      // A curated story (for a polity such as the Mamluk Sultanate): the subject file names its events.
+      events = s.events.map((id) => byId.get(id)).filter(usable)
+    } else if (s.kind === 'person') {
       const ids = edges
         .filter((e) => (e.type === 'participated_in' && e.from === s.id) || (e.type === 'had_participant' && e.to === s.id))
         .map((e) => (e.from === s.id ? e.to : e.from))
       events = [...new Set(ids)].map((id) => byId.get(id)).filter(usable)
     } else if (s.kind === 'era') {
+      // An era is its own period record or, for a polity such as the Mamluk Sultanate, the periods its events are
+      // tagged with, limited to the subject's own years.
       const span = subj.span
-      events = nodes.filter((n) => usable(n) && (n.periods ?? []).includes(s.id) &&
-        (!span || (n.span!.earliest >= span.earliest - 1 && n.span!.earliest <= span.latest + 1)))
+      const tags = s.periods ?? [s.id]
+      const win = s.years ?? (span ? [span.earliest - 1, span.latest + 1] : null)
+      events = nodes.filter((n) => usable(n) && (n.periods ?? []).some((p) => tags.includes(p)) &&
+        (!win || (n.span!.earliest >= win[0] && n.span!.earliest <= win[1])))
     } else {
       const targets = new Set([s.id, ...(s.regionPlaces ?? [])])
       const ids = edges.filter((e) => e.type === 'occurred_at' && targets.has(e.to)).map((e) => e.from)

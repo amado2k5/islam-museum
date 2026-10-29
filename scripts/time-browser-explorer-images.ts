@@ -10,7 +10,7 @@
 // Content rules (AGENTS.md, illustrations lane): no people, no faces, no text, in both styles, so no image can depict
 // a prophet or a Companion and none is a portrait. Places, buildings, landscapes, objects and animals only.
 //
-// Usage: npx tsx scripts/time-browser-explorer-images.ts [--subject person/salah-al-din-yusuf-ibn-ayyub ...]
+// Usage: npx tsx scripts/time-browser-explorer-images.ts [--subject person/salah-al-din-yusuf-ibn-ayyub ...] [--out .cache/time-browser/jobs-<slug>.json]
 // Writes .cache/time-browser/explorer-image-jobs.json (jobs whose files do not exist yet).
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
@@ -23,15 +23,17 @@ interface Subject { id: string; kind: string; title: Record<string, string>; nod
 
 const ADULT = 'Painted museum illustration, cinematic soft light, muted historical palette, wide landscape view'
 const KIDS = 'Bright friendly picture-book illustration for children, simple shapes, warm cheerful colours, wide view'
-const RULES = 'No people, no faces, no human figures, no text, no letters, no modern objects.'
+const RULES = 'An empty, deserted, uninhabited scene: no people, no faces, no human figures, no travellers, no crowds, no text, no letters, no flags, no modern objects.'
 
 const era = (y: number) => (y < 0 ? `${Math.ceil(-y)} BCE` : `${Math.floor(y)} CE`)
 const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ').trim()
 
 // The scene describes a place and a time, never a person: a birth or a death node shows the town, not the person.
-export function scene(n: Node, subject: Subject): string {
+// The kids style draws people whenever the scene names a human act, so a kids scene names only the place and the time.
+export function scene(n: Node, subject: Subject, kids = false): string {
   const place = n.place?.label?.en ? clean(n.place.label.en) : ''
   const when = era(n.key)
+  if (kids && place) return `the buildings and landscape of ${place} around ${when}, empty streets`
   if (n.role === 'birth') return `the town of ${place || 'the birthplace'} around ${when}`
   if (n.role === 'death') return `${place || 'a historic city'} around ${when}, quiet and calm`
   const title = clean(n.title.en ?? subject.title.en ?? '')
@@ -47,7 +49,7 @@ export function jobsFor(subjects: Subject[], root = process.cwd()) {
       const kids = existsSync(join(root, IMAGE_DIR, `${slug}-kids.webp`))
       if (adult && kids) continue
       const sc = scene(n, s)
-      jobs.push({ slug, subject: s.id, node: n.id, prompt: `${ADULT}: ${sc}. ${RULES}`, kidsPrompt: `${KIDS}: ${sc}. ${RULES}` })
+      jobs.push({ slug, subject: s.id, node: n.id, prompt: `${ADULT}: ${sc}. ${RULES}`, kidsPrompt: `${KIDS}: ${scene(n, s, true)}. ${RULES}` })
     }
   }
   return jobs
@@ -55,10 +57,13 @@ export function jobsFor(subjects: Subject[], root = process.cwd()) {
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const all = (JSON.parse(readFileSync(join(process.cwd(), '.cache', 'time-browser', 'explorer.json'), 'utf8')) as { subjects: Subject[] }).subjects
-  const want = process.argv.flatMap((a, i) => (process.argv[i - 1] === '--subject' ? [a] : []))
+  const want = process.argv.flatMap((a, i) => (process.argv[i - 1] === "--subject" ? [a] : []))
+  // --out lets each session write its own job file (jobs-<slug>.json), so parallel queues never overwrite each other.
+  const outArg = process.argv[process.argv.indexOf("--out") + 1]
+  const out = process.argv.includes("--out") && outArg ? outArg : join(process.cwd(), ".cache", "time-browser", "explorer-image-jobs.json")
   const subjects = want.length ? all.filter((s) => want.includes(s.id)) : all
   const jobs = jobsFor(subjects)
   mkdirSync(join(process.cwd(), IMAGE_DIR), { recursive: true })
-  writeFileSync(join(process.cwd(), '.cache', 'time-browser', 'explorer-image-jobs.json'), JSON.stringify(jobs, null, 1))
-  console.log(`explorer-images: ${jobs.length} node(s) need images across ${subjects.length} subject(s)`)
+  writeFileSync(out, JSON.stringify(jobs, null, 1))
+  console.log(`explorer-images: ${jobs.length} node(s) need images across ${subjects.length} subject(s) -> ${out}`)
 }

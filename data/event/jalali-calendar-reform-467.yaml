@@ -10,8 +10,8 @@ wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 date:
-  start: { edtf: "1079", hijri: "0467", precision: year, status: tradition, derived: true }
-  end: { edtf: "1079", hijri: "0467", precision: year, status: tradition, derived: true }
+  start: { edtf: "1074/1075", hijri: "0467", precision: year, status: tradition, derived: true, note: "Hijri year 467 as in the record id; the Gregorian range is converted from it (derived)" }
+  end: { edtf: "1074/1075", hijri: "0467", precision: year, status: tradition, derived: true, note: "Hijri year 467 as in the record id; the Gregorian range is converted from it (derived)" }
 relations:
   - { type: occurred_at, target: place/isfahan, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
