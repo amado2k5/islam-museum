@@ -14,7 +14,6 @@ date:
   end: { edtf: "1000~", precision: year, status: historical, derived: true }
 relations:
   - { type: occurred_at, target: place/jurjan, sources: [source/britannica-al-biruni] }
-  - { type: had_participant, target: person/ibn-sina, role: "المناظر", sources: [source/britannica-al-biruni] }
 sources: [source/britannica-al-biruni]
 provenance:
   layer: own-research
