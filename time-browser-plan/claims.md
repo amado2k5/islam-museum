@@ -105,6 +105,7 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/mosul | devin | claimed
 2026-10-28 | place/basra | devin | claimed
 2026-10-28 | place/tarabulus-gharb | devin | claimed (Libya Tripoli)
+2026-10-29 | concept/hayawan-animal | claude | done — 5 nodes (Thawr, Hijra road, she-camel, Battle of the Camel, Baghdad 389); animals coverage report time-browser-plan/ANIMALS-COVERAGE-2026-10-29.md; cats, ants, spiders, pigeons, dogs need sourced events (gap)
 2026-10-28 | place/antioch | devin | claimed
 2026-10-29 | person/ibn-hazm | claude | done — 3 nodes (birth Cordoba 384, death in exile Labla 456) from Nafh al-Tib vol. 5 pp. 78–81
 2026-10-28 | place/raqqa | devin | claimed

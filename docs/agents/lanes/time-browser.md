@@ -99,3 +99,4 @@ Source: the two original TimelineThis specifications, the live builds, the two d
 **Open questions for the founder**
 - Kids prose: how many records get a kids version in the launch set?
 - Tour: which 5–7 stops should it step through?
+- 2026-10-29 Claude: animals survey and first animal story (5 nodes); see time-browser-plan/ANIMALS-COVERAGE-2026-10-29.md
