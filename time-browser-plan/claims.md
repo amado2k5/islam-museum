@@ -83,3 +83,11 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/qayrawan | devin | claimed
 2026-10-28 | place/bukhara | devin | claimed
 2026-10-28 | person/timur-lang | devin | claimed
+2026-10-28 | place/tlemcen | devin | done — 10 nodes
+2026-10-28 | place/qayrawan | devin | done — 9 nodes
+2026-10-28 | place/bukhara | devin | done — 4 nodes
+2026-10-28 | person/timur-lang | devin | done — 7 nodes
+2026-10-28 | person/ibn-jubayr-muhammad | devin | done — 7 nodes
+2026-10-28 | place/fes | devin | done — 5 nodes
+2026-10-28 | place/nishapur | devin | done — 7 nodes
+2026-10-28 | place/timbuktu | devin | done — 4 nodes
