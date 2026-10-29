@@ -8,6 +8,8 @@ summary:
 wings: [time]
 periods: [period/rashidun]
 regions: [persia-central-asia]
+date:
+  start: { edtf: "0645~", hijri: "0024", calendar: julian, precision: year, status: tradition, derived: true, note: "فتح قم نحو سنة 24هـ في الفتح الكبرى {cite:futuh-buldan-maarif-1407}." }
 relations:
   - { type: occurred_at, target: place/qumm }
   - { type: occurred_at, target: place/qashan }
