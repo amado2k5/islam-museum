@@ -107,3 +107,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/tarabulus-gharb | devin | claimed (Libya Tripoli)
 2026-10-28 | place/antioch | devin | claimed
 2026-10-29 | person/ibn-hazm | claude | done — 3 nodes (birth Cordoba 384, death in exile Labla 456) from Nafh al-Tib vol. 5 pp. 78–81
+2026-10-28 | place/raqqa | devin | claimed
+2026-10-28 | place/marrakesh | devin | claimed
