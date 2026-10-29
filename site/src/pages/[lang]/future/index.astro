@@ -1,0 +1,122 @@
+---
+// /future/ — "Muslim life in 2077": the museum's own exercise in imagination, anchored in the graph.
+// Copy is trilingual via i18n `future:`; scenes are hand-drawn SVGs in FutureScenes.astro (faceless figures, no text in images).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import FutureScenes from "../../../components/FutureScenes.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const F = T.future;
+---
+<BaseLayout lang={lang} title={F.title} description={F.lede} path={`/${lang}/future/`}>
+  <header class="fut-hero">
+    <div class="wrap">
+      <p class="eyebrow">{F.eyebrow}</p>
+      <h1>{F.title}</h1>
+      <p class="fut-lede">{F.lede}</p>
+      <p class="fut-note ui">{F.note}</p>
+    </div>
+  </header>
+
+  <div class="wrap" style="padding-block:2rem 3rem">
+    <h2 class="ui" style="font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">{F.stations}</h2>
+    <ul class="fut-rail" role="list">
+      {F.sections.map((s: any) => (
+        <li class="fut-station">
+          <p class="fut-kick">{s.k}</p>
+          <div class={s.scene ? "fut-grid has-scene" : "fut-grid"}>
+            <div>
+              <h3>{s.t}</h3>
+              <p>{s.d}</p>
+              {s.a && (
+                <p class="fut-anchors ui">
+                  <span class="lab">{F.anchors_label}:</span>
+                  {s.a.map((x: any) => <a class="fut-anchor" href={href(lang, x.id)}>{x.l}</a>)}
+                </p>
+              )}
+            </div>
+            {s.scene && <FutureScenes name={s.scene} alt={F.alts[s.scene]} />}
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <section aria-labelledby="fut-tensions-title" style="margin-top:2rem">
+      <h2 id="fut-tensions-title">{F.tensions_title}</h2>
+      <p class="muted">{F.tensions_lede}</p>
+      <div class="fut-tensions">
+        {F.tensions.map((t: any) => (
+          <div class="fut-tension">
+            <h3>{t.q}</h3>
+            <p>{t.d}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section aria-labelledby="fut-voices-title" style="margin-top:2.4rem">
+      <h2 id="fut-voices-title">{F.voices_title}</h2>
+      <p class="muted">{F.voices_lede}</p>
+      <ul class="fut-voices">
+        {F.voices.map((v: any) => (
+          <li><a href={v.u} rel="noopener noreferrer">{v.l}</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="fut-epilogue" aria-labelledby="fut-epilogue-title">
+      <h2 id="fut-epilogue-title">{F.epilogue_title}</h2>
+      <p class="muted">{F.epilogue}</p>
+    </section>
+  </div>
+</BaseLayout>
+<style>
+  /* Night-time inversion of the palette: deep space blues, manuscript gold, constellation lines. */
+  .fut-hero { position: relative; isolation: isolate; overflow: hidden; text-align: center;
+    background: radial-gradient(120% 90% at 50% 0%, #0d2a3e 0%, #071723 55%, #040e16 100%); color: #f9f8f6;
+    padding: clamp(56px, 10vh, 110px) 0 clamp(48px, 8vh, 90px); }
+  .fut-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .9;
+    background-image: radial-gradient(1.4px 1.4px at 12% 22%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.1px 1.1px at 28% 64%, #c5a059 50%, transparent 51%),
+      radial-gradient(1.6px 1.6px at 44% 14%, #f9f8f6 50%, transparent 51%),
+      radial-gradient(1.1px 1.1px at 58% 42%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 71% 20%, #c5a059 50%, transparent 51%),
+      radial-gradient(1.1px 1.1px at 84% 55%, #f9f8f6 50%, transparent 51%),
+      radial-gradient(1.3px 1.3px at 93% 30%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 36% 80%, #f9f8f6 50%, transparent 51%); }
+  .fut-hero::after { content: ""; position: absolute; inset: auto 0 -1px; height: 46%; z-index: -1;
+    background: linear-gradient(to top, var(--bg) 2%, transparent); }
+  .fut-hero .eyebrow { color: var(--gold); }
+  .fut-hero h1 { color: #f9f8f6; font-weight: 500; max-width: 20ch; margin-inline: auto; font-size: clamp(2.2rem, 6vw, 4.2rem); }
+  .fut-hero .fut-lede { color: #e6d5b8; font-size: clamp(1.05rem, 1.8vw, 1.25rem); max-width: 62ch; margin: 0 auto; }
+  .fut-note { max-width: 62ch; margin: 1.2rem auto 0; font-size: .95rem; color: #c9d3d6;
+    border: 1px solid rgba(197,160,89,.4); border-radius: 12px; padding: 10px 16px; background: rgba(10,37,51,.55); }
+  .fut-rail { list-style: none; margin: 0; padding: 0; position: relative; }
+  .fut-rail::before { content: ""; position: absolute; inset-block: 0; inset-inline-start: 11px; width: 2px;
+    background: linear-gradient(to bottom, transparent, var(--gold) 8%, var(--gold) 92%, transparent); opacity: .5; }
+  .fut-station { position: relative; padding-inline-start: 3.4rem; padding-block: 1.6rem; }
+  .fut-station::before { content: ""; position: absolute; inset-inline-start: 4px; top: 2.35rem; width: 12px; height: 12px;
+    border-radius: 50%; background: var(--bg); border: 3px solid var(--gold); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold) 20%, transparent); }
+  .fut-kick { font-family: var(--sans); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; color: var(--gold-text); margin: 0 0 .3rem; }
+  .fut-grid { display: grid; grid-template-columns: 1fr; gap: 1.2rem; align-items: center; }
+  @media (min-width: 860px) { .fut-grid.has-scene { grid-template-columns: 1.05fr .95fr; } }
+  .fut-station h3 { margin-top: 0; font-size: 1.5rem; }
+  .fut-station p { max-width: var(--measure); }
+  .fut-anchors { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .6rem; }
+  .fut-anchors .lab { font-family: var(--sans); font-size: .75rem; color: var(--muted); align-self: center; }
+  .fut-anchor { font-size: .85rem; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; background: var(--card); text-decoration: none; }
+  .fut-anchor:hover { border-color: var(--gold); }
+  .fut-tensions { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .fut-tension { border-radius: 16px; padding: 1.1rem 1.3rem; color: #f0e9dc;
+    background: linear-gradient(150deg, #0d2a3e, #071723); border: 1px solid rgba(197,160,89,.35); }
+  .fut-tension h3 { color: var(--gold); margin: 0 0 .4rem; font-size: 1.1rem; }
+  .fut-tension p { margin: 0; font-size: .95rem; color: #e6dfd2; }
+  .fut-voices li { margin-block: .45rem; }
+  .fut-voices a { text-decoration: none; }
+  .fut-voices a:hover { text-decoration: underline; }
+  .fut-epilogue { border-block: 1px solid var(--line); padding: 2rem 0; margin-top: 2rem; text-align: center; }
+  .fut-epilogue p { max-width: var(--measure); margin-inline: auto; }
+</style>
