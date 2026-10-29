@@ -53,3 +53,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/cairo (Fatimid Cairo, 969-1171) | claude | claimed; 5 nodes; images next
 2026-10-28 | period/mamluk | claude | blocked: no period record; period/crusades-ayyubid-mamluk already exists (1095-1517) and a place/cairo story now uses that id; needs a design decision (new period record with event tags, or a window subject with its own id)
 2026-10-28 | person/sulayman-al-qanuni | devin | claimed
+2026-10-28 | person/al-idrisi-muhammad-ibn-abd-allah | devin | claimed
