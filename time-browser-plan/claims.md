@@ -105,4 +105,10 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/mosul | devin | claimed
 2026-10-28 | place/basra | devin | claimed
 2026-10-28 | place/tarabulus-gharb | devin | claimed (Libya Tripoli)
+<<<<<<< HEAD
 2026-10-29 | concept/hayawan-animal | claude | done — 5 nodes (Thawr, Hijra road, she-camel, Battle of the Camel, Baghdad 389); animals coverage report time-browser-plan/ANIMALS-COVERAGE-2026-10-29.md; cats, ants, spiders, pigeons, dogs need sourced events (gap)
+=======
+2026-10-28 | place/antioch | devin | claimed
+2026-10-28 | place/raqqa | devin | claimed
+2026-10-28 | place/marrakesh | devin | claimed
+>>>>>>> origin/main

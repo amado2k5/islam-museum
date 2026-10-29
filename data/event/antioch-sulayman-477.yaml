@@ -11,6 +11,7 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1084~", hijri: "0477", calendar: julian, precision: year, status: tradition, derived: true, note: "477؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 651}." }
 relations:
+  - { type: occurred_at, target: place/antioch, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/sulayman-ibn-qutlumush, role: "الفاتح", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
