@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [egypt-nile]
 date:
-  start: { hijri: "0021~", precision: year, status: tradition, derived: true, note: "ضمن فتح مصر 20هـ تقريباً (البلاذري ص 302–303). التحويل مشتق." }
+  start: { edtf: "0641~", hijri: "0021~", calendar: julian, precision: year, status: tradition, derived: true, note: "ضمن فتح مصر 20هـ تقريباً (البلاذري ص 302–303). التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/alexandria }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "الفاتح وكاتب البلاغ", sources: [source/futuh-buldan-maarif-1407] }
