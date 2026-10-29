@@ -1,0 +1,24 @@
+id: event/baybars-sultan-accession-658
+class: event
+kind: other
+label: { ar: "مولد السلطنة: تولي بيبرس العرش 658هـ", en: "Baybars takes the sultanate, 658 AH" }
+summary:
+  ar: "بويع الظاهر بيبرس سلطاناً على مصر والشام بعد عين جالوت سنة 658هـ/1260م فافتتح عصر المماليك البحرية {cite:khitat-maqrizi-1998}."
+  en: "Al-Zahir Baybars was acclaimed sultan of Egypt and Syria after Ayn Jalut in 658/1260, opening the Bahri Mamluk era {cite:khitat-maqrizi-1998}."
+  ur: "عین جالوت کے بعد ظاہر بیبرس 658ھ/1260ء میں مصر و شام کا سلطان مقرر ہوا اور بحری مملوک دور شروع ہوا {cite:khitat-maqrizi-1998}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-sudan, levant-iraq]
+date:
+  start: { edtf: "1260", hijri: "0658", precision: year, status: tradition, derived: true }
+  end: { edtf: "1260", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/khitat-maqrizi-1998] }
+  - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/khitat-maqrizi-1998] }
+sources: [source/khitat-maqrizi-1998]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Baybars (Mamluks) story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-baybars
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

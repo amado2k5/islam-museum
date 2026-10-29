@@ -5,6 +5,9 @@ label: { ar: "سقوط قلعة الحصن", en: "Fall of Krak des Chevaliers" }
 summary:
   ar: "بطاقة أولية لسقوط قلعة الحصن سنة ١٢٧١م، أخذ بيبرس لأعظم قلاع الهوسبيتالر بالخديعة؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Fall of Krak des Chevaliers in 1271, Baybars' capture of the great Hospitaller fortress by stratagem; its sources are not yet checked on the page."
+relations:
+  - { type: occurred_at, target: place/krak-des-chevaliers, sources: [source/khitat-maqrizi-1998] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]

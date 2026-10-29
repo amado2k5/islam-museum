@@ -1,0 +1,18 @@
+id: place/krak-des-chevaliers
+class: place
+kind: fortress
+label: { ar: "قلعة الحصن", en: "Krak des Chevaliers (Hisn al-Akrad)" }
+summary:
+  ar: "حصن الفرنجة الأشهر في الشام، فتحه بيبرس سنة 1271م."
+  en: "The great Crusader fortress of Syria, taken by Baybars in 1271."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [34.757, 36.296]
+coordinate_precision: locality
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Baybars story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-baybars
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

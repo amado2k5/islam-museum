@@ -1,0 +1,18 @@
+id: place/antioch
+class: place
+kind: city
+label: { ar: "أنطاكية", en: "Antioch" }
+summary:
+  ar: "مدينة عريقة على العاصي، فتحها المسلمون ثم سقطت للفرنجة 1098م واستردها بيبرس 1268م."
+  en: "Ancient city on the Orontes; taken by the Crusaders in 1098 and recovered by Baybars in 1268."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [36.201, 36.161]
+coordinate_precision: locality
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Baybars story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-baybars
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }
