@@ -61,6 +61,11 @@ Append one line per merged PR, newest last:
 
 - 2026-10-27 TB0 started: design confirmed on origin/main; counts measured; Pages vs R2 open for the founder.
 - 2026-10-27 TB0 merged (PR #2382): lane doc with prose counts; DESIGN §9 notes for Devin. Next: TB1, blocked on Pages vs R2 (DESIGN §8).
+- 2026-10-28 Timeline Explorer pipeline adopted (time-browser-plan/EXPLORER-STORY-PIPELINE.md); PR #2517 Mamluk story, range dates, --out job files, people check.
+- 2026-10-28 PR #2518 Ibn Sina and Ibn Battuta stories.
+- 2026-10-29 PR #2519 root data files (sitemaps, feed, llms, search synonyms, favicons) published to R2; this changes the Worker and workflow and needs a founder deploy.
+- 2026-10-29 PR #2520 twelve person stories, 49 subjects in all; PR #2521 (69 backdrops) and #2522 (27 backdrops) merged after the people check.
+- 2026-10-29 image queues on the founder's Mac: 113 backdrops for the 12 new stories, then 21 redo images; each batch is checked and shipped in its own PR; rules in EXPLORER-STORY-PIPELINE.md section 3a.
 
 ## Revision after the TimelineThis review (27 Oct 2026)
 

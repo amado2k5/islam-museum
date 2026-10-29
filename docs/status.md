@@ -1,11 +1,12 @@
 # Project status and how to resume
 
-_Last updated 11 October 2026, 18:15 EDT._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 29 October 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## What exists
 
 | Area | State |
 |---|---|
+| Timeline Explorer (time browser) | 49 story subjects with cited nodes on the stage; backdrops per node (adult and kids), checked for people; pipeline in time-browser-plan/EXPLORER-STORY-PIPELINE.md; root data files moved to R2 (PR #2519, needs a founder deploy) |
 | Repo scaffold (plan Phase 0) | Done and deployed: schema (21 classes incl. `listing`, `screen`), 132 themes, story roles, predicates, validator, graph/derive/api/coverage scripts, Hijri converter, Astro site (en/ar, RTL), CI, issue forms |
 | Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 31 places (GeoNames ids on all, Pleiades ids where a unique match exists), 12 sources, *The Message* (screen example), all `draft` |
 | Qur'an | Frozen from Tanzil v1.1: `work/quran`, 114 suras, 6,236 ayat. Source files committed in `data/work/quran-source/` with sha256; the validator re-checks every ayah byte for byte. Sura names are museum labels still to verify against Tanzil metadata. Second witness (King Fahd Hafs) not done. |

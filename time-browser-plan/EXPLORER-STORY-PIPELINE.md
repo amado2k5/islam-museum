@@ -55,6 +55,20 @@ Each step names the files it touches. A story never touches another story's file
 9. **Check locally.** `npm run validate`; `npm run cite-check -- <subject and node ids>`; `npx vitest run scripts/time-browser*.test.ts`; dev server (`cd site && npx astro dev --port 4321`) and look at `/ar/time-browser/s/<class>/<slug>/` in Chrome, with a screenshot.
 10. **Ship.** Branch `explorer/<slug>-<agent>`, commit explicit paths only (records, prose, subject file, images), PR, merge once checks pass. Append a line to `time-browser-plan/claims.md` (`done`) and to `DESIGN.md` §9.
 
+### 3a. Image rules and the people check (binding)
+
+These rules apply to every backdrop the Explorer shows, in both styles, and to every batch generated for them.
+
+(a) **No people in either style.** Every backdrop, adult and kids, is empty of people, faces, figures, travellers, crowds, text, flags and modern objects. `RULES` in `scripts/time-browser-explorer-images.ts` and the negative prompt in `scripts/time-browser-explorer-gen.py` enforce this at generation time. A prompt is not proof: each batch is checked by eye before it is committed.
+
+(b) **Kids scenes name the place and the time only.** A kids backdrop shows the place at the time of the event. It never shows a human act (a battle, a prayer, a journey, a speech). The event is told in the text, not painted.
+
+(c) **Check every batch by eye.** Build numbered contact sheets with `scratchpad/sheets.py <srcdir> <outdir>`, which writes `index.txt` and `s000.jpg`, `s001.jpg`, and so on. Look at every sheet. Delete any image that shows a person, a figure, a modern object or text, and requeue its node. Commit only the images that pass.
+
+(d) **Devin's record illustrations are separate.** The record illustrations in `site/public/media/time-browser/images/` are checked on their own and are never reused as Explorer backdrops.
+
+(e) **One image batch, one PR.** Each image batch ships in its own PR. Any PR that touches `scripts/`, `workers/` or `.github/workflows/` needs a founder deploy. Say so in `DESIGN.md` §9 and in chat.
+
 ## 4. Working in parallel without stepping on each other
 
 | Area | Owner | Rule |
