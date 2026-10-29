@@ -5,6 +5,8 @@ label: { ar: "معركة طرابلس", en: "Battle of Tripoli" }
 summary:
   ar: "بطاقة أولية لمعركة طرابلس؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Battle of Tripoli; its sources are not yet checked on the page."
+relations:
+  - { type: occurred_at, target: place/tarabulus-sham, sources: [source/tarikh-islam-hasan-ibrahim] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
