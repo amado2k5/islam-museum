@@ -1,0 +1,23 @@
+id: event/mongols-take-raqqa-658
+class: event
+kind: conquest
+label: { ar: "المغول يأخذون الرقة", en: "The Mongols take Raqqa" }
+summary:
+  ar: "دخلت جيوش هولاكو بلاد الجزيرة فأخذت الرقة ضمن اجتياحها سنة 658هـ/1260م بعد سقوط بغداد {cite:kamil-ibn-al-athir}."
+  en: "Hulagu's armies swept through the Jazira and took Raqqa in 658/1260 after Baghdad fell {cite:kamil-ibn-al-athir}."
+  ur: "ہلاکو کی فوجوں نے 658ھ/1260ء میں بغداد کے سقوط کے بعد جزیرہ پر قبضہ کرتے ہوئے رقہ لی {cite:kamil-ibn-al-athir}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1260", hijri: "0658", precision: year, status: tradition, derived: true }
+  end: { edtf: "1260", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/raqqa, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Raqqa story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-raqqa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
