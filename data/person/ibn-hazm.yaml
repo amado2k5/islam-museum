@@ -13,6 +13,8 @@ regions: [andalus-europe]
 relations:
   - { type: authored, target: work/tawq-al-hamama, sources: [source/nafh-tib-maqqari] }
   - { type: authored, target: work/al-ihkam-fi-usul-al-ahkam, sources: [source/kashf-zunun-furqan] }
+  - { type: participated_in, target: event/ibn-hazm-birth-cordoba-384, role: "المولود", sources: [source/nafh-tib-maqqari] }
+  - { type: participated_in, target: event/ibn-hazm-death-in-exile-456, role: "المنفيّ المتوفّى", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

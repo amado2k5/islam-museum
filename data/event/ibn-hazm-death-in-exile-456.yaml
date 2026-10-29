@@ -1,0 +1,24 @@
+id: event/ibn-hazm-death-in-exile-456
+class: event
+kind: death
+label: { ar: "وفاة ابن حزم منفيًّا في بادية لبلة", en: "Ibn Hazm dies in exile in the desert of Labla", ur: "ابن حزم لبلہ کے بادیے میں جلاوطنی کی حالت میں وفات پاتے ہیں" }
+summary:
+  ar: "توفي أبو محمد ابن حزم بالبادية، في قريته منت لشم من بلد لبلة، عشية يوم الأحد لليلتين بقيتا من شعبان سنة 456هـ، بعد أن أقصاه الملوك وأبعدوه عن وطنه. {cite:nafh-tib-maqqari p. 80-81}"
+  en: "Ibn Hazm died in the desert village of Mant Lisham, in the district of Labla, on the evening of a Sunday two nights before the end of Sha'ban, 456 AH, after rulers had driven him from his homeland. {cite:nafh-tib-maqqari p. 80-81}"
+  ur: "ابن حزم 456ھ میں شعبان کی آخری دو راتیں باقی ہوتے ہوئے اتوار کی شام لبلہ کے علاقے کی بستی منت لشم کے بادیے میں وفات پائے، جب حکمرانوں نے انھیں وطن سے دور کر دیا تھا۔ {cite:nafh-tib-maqqari p. 80-81}"
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1064~", hijri: "0456-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شعبان سنة 456هـ؛ التحويل إلى الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/labla, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/ibn-hazm, role: "المنفيّ المتوفّى", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+provenance:
+  layer: own-research
+  source: "نفح الطيب للمقري، المجلد الخامس ص 80–81 (ترجمة ابن حزم، ومنها قول ابن سعيد في وفاته منفيًّا)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: explorer-ibn-hazm
