@@ -79,3 +79,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/fes | devin | claimed
 2026-10-28 | place/nishapur | devin | claimed
 2026-10-28 | place/timbuktu | devin | claimed
+2026-10-28 | place/tlemcen | devin | claimed

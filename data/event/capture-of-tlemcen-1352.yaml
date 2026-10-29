@@ -5,6 +5,8 @@ label: { ar: "أخذ تلمسان (1352)", en: "Capture of Tlemcen (1352)" }
 summary:
   ar: "بطاقة أولية لأخذ تلمسان سنة 1352م؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the capture of Tlemcen in 1352; its sources are not yet checked on the page."
+relations:
+  - { type: occurred_at, target: place/tlemcen, sources: [source/tarikh-islam-hasan-ibrahim] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
