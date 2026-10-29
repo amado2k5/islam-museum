@@ -70,3 +70,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-29 | person/nur-al-din-mahmud-ibn-zangi | claude | done — story from existing cited events; Urdu label added
 2026-10-29 | person/baybars | claude | done — story from existing cited events; Urdu label added
 2026-10-28 | person/baybars | devin | claimed (the Mamluks story)
+2026-10-28 | place/granada | devin | claimed
