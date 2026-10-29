@@ -14,7 +14,7 @@ const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathn
 // workers/r2-sync/batch/publish.mjs (DATA_TARGETS), wrangler.production.toml (run_worker_first) and deploy.yml.
 export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"];
 // Data files at the site root (sitemaps, feed, llms.txt, search synonyms, favicons) follow the same rule. Keep in step
-// with ROOT_FILES in publish.mjs, run_worker_first and deploy.yml.
+// with ROOT_FILES in publish.mjs and workers/r2-sync/src/index.js, run_worker_first and deploy.yml.
 export const R2_ROOT_FILES = [/^\/sitemap[\w-]*\.xml$/, /^\/feed\.xml$/, /^\/llms(-full)?\.txt$/, /^\/search-synonyms\.\w+\.json$/, /^\/favicon[\w-]*\.(png|svg|ico)$/, /^\/apple-touch-icon\.png$/];
 const isDataPath = (pathname) => R2_DATA_DIRS.some((d) => pathname.startsWith(`/${d}/`)) || R2_ROOT_FILES.some((r) => r.test(pathname));
 

@@ -11,7 +11,7 @@ The site's search indexes (`pagefind-ar`, `pagefind-en`, `pagefind-ur`) and API 
 | Publisher | `batch/publish.mjs` | Builds the desired file list from `dist/`, diffs it against the manifest in the bucket, packs the changes into archives, uploads each archive to `_staging/` (retried on S3 errors), and posts it to a Worker. Writes the manifest after every batch, so a failed run resumes from the failed batch; before a large publish it also lists the bucket and skips files whose ETag already matches the build. |
 | Packer | `batch/pack.mjs` | Splits operations into archives of at most 250 operations and 20 MB. Archives are stored without compression (`level: 0`). |
 | Worker | `src/index.js` | `POST /process` reads one archive, checks each operation, and applies them. COPY runs six at a time; MOVE, DELETE and unknown operations run one at a time, in order. Writes progress to `_r2-sync/status.json`, and deletes the archive only if every operation succeeded. `GET /status` returns that file. |
-| Config | `wrangler.toml` (test), `wrangler.production.toml` (production) | Bucket binding, `ALLOWED_PREFIXES`, `limits.cpu_ms = 300000` (paid-plan maximum). Observability is on in the production config. |
+| Config | `wrangler.toml` (test), `wrangler.production.toml` (production) | Bucket binding, `ALLOWED_PREFIXES`, `ALLOW_ROOT_FILES` (production only: lets the bucket-root data files in `ROOT_FILES` through), `limits.cpu_ms = 300000` (paid-plan maximum). Observability is on in the production config. |
 
 Worker limits behind the design (Cloudflare docs): no wall-clock limit for HTTP Workers; 10,000 subrequests per request on the paid plan; six simultaneous open connections per invocation; 128 MB memory per isolate.
 

@@ -27,7 +27,7 @@ const TARGETS = [
   ...["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"].map((d) => ({ dir: d, prefix: d, cacheControl: "public, max-age=86400, stale-while-revalidate=604800" })),
 ];
 // Data files at the dist root (sitemaps, feed, llms.txt, search synonyms, favicons), published under their own
-// names. Keep in step with R2_ROOT_FILES in workers/site/src/route.js.
+// names. Keep in step with R2_ROOT_FILES in workers/site/src/route.js and ROOT_FILES in ../src/index.js.
 const ROOT_FILES = [/^sitemap[\w-]*\.xml$/, /^feed\.xml$/, /^llms(-full)?\.txt$/, /^search-synonyms\.\w+\.json$/, /^favicon[\w-]*\.(png|svg|ico)$/, /^apple-touch-icon\.png$/];
 const ROOT_CACHE = "public, max-age=3600, stale-while-revalidate=86400";
 // HTML pages served by workers/site. Off unless PUBLISH_HTML=1, so the default publish is unchanged.
