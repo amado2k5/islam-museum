@@ -1,0 +1,23 @@
+id: event/idris-ii-founds-fes-193
+class: event
+kind: founding
+label: { ar: "إدريس الثاني يبني فاس", en: "Idris II builds Fez" }
+summary:
+  ar: "بنى إدريس بن إدريس مدينة فاس على ضفتي واديها سنة 193هـ/808م فصارت حاضرة المغرب {cite:tarikh-ibn-khaldun-ibar}."
+  en: "Idris ibn Idris built the city of Fez on the two banks of its wadi in 193/808, making it the capital of the Maghreb {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "ادریس ابن ادریس نے 193ھ/808ء میں فاس شہر کو اس کی وادی کے دونوں کناروں پر بسایا اور وہ مغرب کا دارالخلافہ بنا {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+date:
+  start: { edtf: "0808", hijri: "0193", precision: year, status: tradition, derived: true }
+  end: { edtf: "0808", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/fes, sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Fez story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-fes
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
