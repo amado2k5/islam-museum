@@ -9,6 +9,7 @@ summary:
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+born: { edtf: "1145~", hijri: "0539", precision: year, status: tradition, derived: true, note: "ولد بشاطبة نحو سنة 539هـ", sources: [source/shadharat-dhahab] }
 died:
   edtf: "1217-11-05~"
   hijri: "0614-08-27"
@@ -18,6 +19,9 @@ died:
   derived: true
   note: "توفي بالإسكندرية يوم الأربعاء السابع والعشرين من شعبان سنة 614هـ {cite:nafh-tib-maqqari p. 491}؛ ورحل مرتين إلى المشرق وفي الثالثة توفي بالإسكندرية في شعبان {cite:shadharat-dhahab p. 60}؛ التحويل مشتق."
 relations:
+  - { type: participated_in, target: event/ibn-jubayr-departs-granada-578, role: "المسافر", sources: [source/rihla-ibn-jubayr-1907] }
+  - { type: participated_in, target: event/ibn-jubayr-hajj-579, role: "الحاج", sources: [source/rihla-ibn-jubayr-1907] }
+  - { type: participated_in, target: event/ibn-jubayr-baghdad-580, role: "المسافر", sources: [source/rihla-ibn-jubayr-1907] }
   - { type: died_in, target: place/alexandria, sources: [source/nafh-tib-maqqari, source/shadharat-dhahab] }
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/rihla-ibn-jubayr-1907, source/nafh-tib-maqqari] }

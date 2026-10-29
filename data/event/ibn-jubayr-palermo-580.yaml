@@ -1,0 +1,24 @@
+id: event/ibn-jubayr-palermo-580
+class: event
+kind: journey
+label: { ar: "ابن جبير بصقلية بعد الغرق", en: "Ibn Jubayr shipwrecked to Sicily" }
+summary:
+  ar: "غرّقت رياح البحر سفينة ابن جبير عند جزيرة صقلية فأنقذ الملك ويليام الثاني الناس ونزل ببلرم {cite:rihla-ibn-jubayr-1907}."
+  en: "The ship carrying Ibn Jubayr was wrecked off Sicily; King William II rescued the passengers and he landed at Palermo {cite:rihla-ibn-jubayr-1907}."
+  ur: "ابن جبیر کی کشتی صقلیہ کے ساحل پر ڈوبی؛ شاہ ولیم ثانی نے مسافروں کو بچایا اور وہ پالیرمو اترا {cite:rihla-ibn-jubayr-1907}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, north-africa, egypt-sudan, arabia, levant-iraq]
+date:
+  start: { edtf: "1184-12~", hijri: "0580", precision: month, status: tradition, derived: true }
+  end: { edtf: "1184-12~", hijri: "0580", precision: month, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/palermo, sources: [source/rihla-ibn-jubayr-1907] }
+  - { type: had_participant, target: person/ibn-jubayr-muhammad, role: "المسافر", sources: [source/rihla-ibn-jubayr-1907] }
+sources: [source/rihla-ibn-jubayr-1907]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Ibn Jubayr rihla from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-jubayr
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
