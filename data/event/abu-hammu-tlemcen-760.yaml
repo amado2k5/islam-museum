@@ -13,6 +13,7 @@ regions: [maghreb]
 date:
   start: { edtf: "1359-02-11", hijri: "0760-03-08", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الأربعاء لثمان خلون من ربيع الأول سنة 760هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- { type: occurred_at, target: place/tlemcen, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: had_participant
   target: person/abu-hammu-musa-ii
   sources:
