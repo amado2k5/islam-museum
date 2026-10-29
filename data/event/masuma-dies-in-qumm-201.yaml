@@ -1,0 +1,23 @@
+id: event/masuma-dies-in-qumm-201
+class: event
+kind: death
+label: { ar: "وفاة فاطمة المعصومة بقم", en: "Fatima al-Ma'suma dies at Qumm" }
+summary:
+  ar: "توفيت فاطمة بنت موسى بن جعفر المعصومة بقم سنة 201هـ/816م تقريباً في طريقها إلى خراسان، فصار مرقدها مقصداً منذ ذلك الحين {cite:tarikh-islam-hasan-ibrahim}."
+  en: "Fatima bint Musa al-Ma'suma died at Qumm about 201/816 on her way to Khurasan; her shrine has drawn pilgrims ever since {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "فاطمہ بنت موسیٰ المعصومہ 201ھ/816ء میں خراسان کے سفر پر قم میں وفات پائی؛ اس کا مرقد تب سے زیارت کا مرکز ہے {cite:tarikh-islam-hasan-ibrahim}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0816~", hijri: "0201", precision: year, status: tradition, derived: true }
+  end: { edtf: "0816~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/qumm, sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Qumm story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-qumm
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
