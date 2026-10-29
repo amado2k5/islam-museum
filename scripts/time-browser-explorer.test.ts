@@ -33,7 +33,9 @@ describe('timeline explorer subjects', () => {
     for (const s of subjects) for (const n of s.nodes) {
       for (const v of Object.values(n.summary)) {
         expect(v).not.toMatch(/\{cite:/)
-        expect(v).not.toMatch(/مسودة/)
+        // A draft note ("البيانات الحالية مسودة") is caught; «المسودة» / «بالمسودة», the black-clad Abbasid army
+        // (al-Musawwida) in quoted chronicles such as event/death-of-al-aghab, is history, not draft wording.
+        expect(v).not.toMatch(/(^|[^ل])مسودة/)
       }
     }
   })
