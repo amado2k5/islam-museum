@@ -22,4 +22,5 @@ relations:
   - { type: had_participant, target: person/abdullah-ibn-abi-bakr, role: "يبيت عندهما ويأتيهما بالخبر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/amir-ibn-fuhayra, role: "يرعى عليهما منحة غنم ويعفي الأثر", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+provenance: { layer: own-research, source: "al-Raheeq al-Makhtum pp. 164-166 (as recorded in status); ibn-hisham-sira; sahih-al-bukhari", generated_by: "Devin", run: "raheeq-prose-batch (provenance added by Claude Code, existing prose unchanged)" }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 164-166" }
