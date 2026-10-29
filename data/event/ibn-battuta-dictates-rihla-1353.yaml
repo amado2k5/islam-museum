@@ -1,0 +1,23 @@
+id: event/ibn-battuta-dictates-rihla-1353
+class: event
+kind: other
+label: { ar: "ابن بطوطة يملي رحلته", en: "Ibn Battuta dictates his travels", ur: "ابن بطوطہ کا سفرنامہ املا کرانا" }
+summary:
+  ar: "في أواخر سنة 1353م عاد ابن بطوطة إلى المغرب، وأملى بطلب من السلطان ذكرياته على الكاتب ابن جزي، فكانت كتاب الرحلة. {cite:britannica-ibn-battuta}"
+  en: "Towards the end of 1353 Ibn Battuta returned to Morocco and, at the sultan's request, dictated his memories to the writer Ibn Juzayy; they became the Rihla."
+  ur: "1353ء کے آخر میں ابن بطوطہ مراکش لوٹے اور سلطان کی فرمائش پر اپنی یادیں کاتب ابن جزی کو املا کرائیں، جو سفرنامہ (رحلہ) بنیں۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1353~", hijri: "0754~", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Britannica (Ibn Battuta); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: had_participant, target: person/ibn-battuta-muhammad, role: "المملي", sources: [source/britannica-ibn-battuta] }
+sources: [source/britannica-ibn-battuta]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Battuta, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-battuta.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-battuta

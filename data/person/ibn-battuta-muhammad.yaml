@@ -15,6 +15,13 @@ wings: [people]
 themes: [travel, history-writing-and-social-thought]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
+relations:
+  - { type: participated_in, target: event/ibn-battuta-sets-out-for-hajj-1325, sources: [source/britannica-ibn-battuta] }
+  - { type: participated_in, target: event/ibn-battuta-completes-hajj-1326, sources: [source/britannica-ibn-battuta] }
+  - { type: participated_in, target: event/ibn-battuta-envoy-to-china-1342, sources: [source/britannica-ibn-battuta] }
+  - { type: participated_in, target: event/ibn-battuta-returns-to-fez-1349, sources: [source/britannica-ibn-battuta] }
+  - { type: participated_in, target: event/ibn-battuta-journey-to-mali-1352, sources: [source/britannica-ibn-battuta] }
+  - { type: participated_in, target: event/ibn-battuta-dictates-rihla-1353, sources: [source/britannica-ibn-battuta] }
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q7331" }
