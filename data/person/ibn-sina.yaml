@@ -24,6 +24,10 @@ regions: [persia-central-asia]
 relations:
   - { type: born_in, target: place/afshana }
   - { type: died_in, target: place/hamadan }
+  - { type: participated_in, target: event/ibn-sina-leaves-for-gurgan-1012, sources: [source/wikipedia-avicenna-en] }
+  - { type: participated_in, target: event/ibn-sina-service-at-rayy-1014, sources: [source/wikipedia-avicenna-en] }
+  - { type: participated_in, target: event/ibn-sina-vizier-hamadan-1015, sources: [source/wikipedia-avicenna-en] }
+  - { type: participated_in, target: event/ibn-sina-to-khuzistan-1030, sources: [source/wikipedia-avicenna-en] }
   - { type: buried_in, target: building/avicenna-mausoleum-hamadan }
   - { type: lived_in, target: place/bukhara, end: { edtf: "1002~" } }
   - { type: lived_in, target: place/isfahan, start: { edtf: "1024~" } }

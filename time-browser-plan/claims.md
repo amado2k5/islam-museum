@@ -55,3 +55,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-29 | polity/mamluk-sultanate (the Mamluks, 1250-1517) | claude | done — 13 curated nodes (Ayn Jalut 1260 to the capture of Cairo 1517); subject file lists its events
 2026-10-28 | person/sulayman-al-qanuni | devin | claimed
 2026-10-28 | person/al-idrisi-muhammad-ibn-abd-allah | devin | claimed
+2026-10-29 | person/ibn-sina | claude | done — 7 nodes; 4 new events (1012 Gorgan, c.1014 Rayy, 1015 Hamadan vizierate, 1030 Khuzistan) from Wikipedia rev 1377286292, ledger recorded
+2026-10-29 | person/ibn-battuta-muhammad | claude | done — 8 nodes, journey; 6 new events (1325-1353) from Britannica, ledger recorded

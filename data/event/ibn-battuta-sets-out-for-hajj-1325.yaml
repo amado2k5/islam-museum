@@ -1,0 +1,23 @@
+id: event/ibn-battuta-sets-out-for-hajj-1325
+class: event
+kind: other
+label: { ar: "ابن بطوطة يخرج حاجًّا", en: "Ibn Battuta sets out for the pilgrimage", ur: "ابن بطوطہ کا حج کے لیے روانگی" }
+summary:
+  ar: "سنة 1325م، وهو في الحادية والعشرين، خرج ابن بطوطة من طنجة حاجًّا إلى مكة، فكانت بداية رحلاته. {cite:britannica-ibn-battuta}"
+  en: "In 1325, aged 21, Ibn Battuta left Tangier on the pilgrimage to Mecca, the start of his travels."
+  ur: "1325ء میں، اکیس برس کی عمر میں، ابن بطوطہ طنجہ سے حج کے لیے مکہ روانہ ہوئے، اور یہیں سے ان کے سفر شروع ہوئے۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1325", hijri: "0725", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Britannica (Ibn Battuta); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: had_participant, target: person/ibn-battuta-muhammad, role: "الرحّالة", sources: [source/britannica-ibn-battuta] }
+sources: [source/britannica-ibn-battuta]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Battuta, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-battuta.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-battuta

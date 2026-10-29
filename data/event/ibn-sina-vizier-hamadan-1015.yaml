@@ -1,0 +1,24 @@
+id: event/ibn-sina-vizier-hamadan-1015
+class: event
+kind: other
+label: { ar: "ابن سينا وزيرًا لشمس الدولة بهمذان", en: "Ibn Sina becomes vizier to Shams al-Dawla at Hamadan", ur: "ہمدان میں ابن سینا شمس الدولہ کے وزیر" }
+summary:
+  ar: "سنة 1015م كان ابن سينا في همذان، ثم تحوّل إلى خدمة الأمير البويهي شمس الدولة فجعله وزيره، وبقي وزيرًا حتى وفاة شمس الدولة سنة 1021م. {cite:wikipedia-avicenna-en}"
+  en: "In 1015, at Hamadan, Ibn Sina passed into the service of the Buyid amir Shams al-Dawla, who made him his vizier; he held the post until Shams al-Dawla died in 1021."
+  ur: "1015ء میں ہمدان میں ابن سینا آل بویہ کے امیر شمس الدولہ کی خدمت میں آئے جنہوں نے انہیں وزیر بنایا؛ وہ 1021ء میں شمس الدولہ کی وفات تک اس عہدے پر رہے۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1015", hijri: "0405~", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Wikipedia (Avicenna, revision 1377286292); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: occurred_at, target: place/hamadan, sources: [source/wikipedia-avicenna-en] }
+  - { type: had_participant, target: person/ibn-sina, role: "الوزير", sources: [source/wikipedia-avicenna-en] }
+sources: [source/wikipedia-avicenna-en]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Wikipedia, Avicenna, revision 1377286292, read in the browser on 29 October 2026 (dates and places only); ledger docs/authenticity-ledger/pages/wikipedia-avicenna-en.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-sina
