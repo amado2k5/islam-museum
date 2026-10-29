@@ -1,0 +1,23 @@
+id: event/al-idrisi-at-roger-ii-court
+class: event
+kind: other
+label: { ar: "الإدريسي في بلاط روجر الثاني ببلرم", en: "Al-Idrisi at Roger II's court, Palermo" }
+summary:
+  ar: "استضاف الملك النورماني روجر الثاني الإدريسي ببلرم في صقلية نحو سنة 1138م وكلفه بجمع علم الأرض وصنع له كرة أرضية من فضة {cite:mawsuat-a3lam-ulama-adaba}."
+  en: "The Norman king Roger II hosted al-Idrisi at Palermo in Sicily about 1138, commissioning a survey of the earth's knowledge and a silver celestial sphere {cite:mawsuat-a3lam-ulama-adaba}."
+  ur: "نارمن بادشاہ روجر ثانی نے 1138ء کے قریب صقلیہ کے پالیرمو میں ادریسی کی میزبانی کی اور زمین کے علم کی تالیف اور چاندی کے کرۂ آسمانی کی ذمہ داری دی {cite:mawsuat-a3lam-ulama-adaba}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1138~", precision: year, status: tradition, derived: true }
+  end: { edtf: "1138~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/palermo, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Idrisi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-idrisi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
