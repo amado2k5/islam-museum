@@ -57,3 +57,15 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | person/al-idrisi-muhammad-ibn-abd-allah | devin | claimed
 2026-10-29 | person/ibn-sina | claude | done — 7 nodes; 4 new events (1012 Gorgan, c.1014 Rayy, 1015 Hamadan vizierate, 1030 Khuzistan) from Wikipedia rev 1377286292, ledger recorded
 2026-10-29 | person/ibn-battuta-muhammad | claude | done — 8 nodes, journey; 6 new events (1325-1353) from Britannica, ledger recorded
+2026-10-29 | person/abu-bakr | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/uthman-ibn-affan | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/ali-ibn-abi-talib | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/abu-ubayda-ibn-al-jarrah | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/amr-ibn-al-as | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/muawiya-ibn-abi-sufyan | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/abd-al-malik-ibn-marwan | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/umar-ibn-abd-al-aziz | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/al-mansur | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/abd-allah-al-mamun | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/nur-al-din-mahmud-ibn-zangi | claude | done — story from existing cited events; Urdu label added
+2026-10-29 | person/baybars | claude | done — story from existing cited events; Urdu label added
