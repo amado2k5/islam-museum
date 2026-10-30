@@ -39,12 +39,12 @@ const R = 54, CIRC = 2 * Math.PI * R, frac = D.stats.share_of_humanity / 100;
     <section aria-label={W.nums_title}>
       <h2 class="wl-sec">{W.nums_title}</h2>
       <ul class="wl-nums" role="list">
-        <li><b>{n(D.stats.total_billion)}<span class="wl-suf">B</span></b><span>{W.num_people}</span></li>
-        <li><b>{pct(D.stats.share_of_humanity)}</b><span>{W.num_share}</span></li>
-        <li><b>{n(D.stats.majority_countries)}+</b><span>{W.num_countries}</span></li>
-        <li><b>{n(D.stats.oic_members)}</b><span>{W.num_oic}</span></li>
-        <li><b>{n(D.stats.median_age)}</b><span>{W.num_age}</span></li>
-        <li><b>{n(D.stats.un_founders)}</b><span>{W.num_un}</span></li>
+        <li><b data-count={D.stats.total_billion} data-dec="1">{n(D.stats.total_billion)}<span class="wl-suf">B</span></b><span>{W.num_people}</span></li>
+        <li><b data-count={D.stats.share_of_humanity} data-pct="1">{pct(D.stats.share_of_humanity)}</b><span>{W.num_share}</span></li>
+        <li><b data-count={D.stats.majority_countries} data-suf="+">{n(D.stats.majority_countries)}+</b><span>{W.num_countries}</span></li>
+        <li><b data-count={D.stats.oic_members}>{n(D.stats.oic_members)}</b><span>{W.num_oic}</span></li>
+        <li><b data-count={D.stats.median_age}>{n(D.stats.median_age)}</b><span>{W.num_age}</span></li>
+        <li><b data-count={D.stats.un_founders}>{n(D.stats.un_founders)}</b><span>{W.num_un}</span></li>
       </ul>
     </section>
 
@@ -100,7 +100,7 @@ const R = 54, CIRC = 2 * Math.PI * R, frac = D.stats.share_of_humanity / 100;
 
     <section aria-labelledby="wl-map">
       <h2 class="wl-sec" id="wl-map">{W.map_title}</h2>
-      <p class="muted">{W.map_lede}</p>
+      <p class="muted">{W.map_lede} <span class="ui">{W.map_hint}</span></p>
       <div class="wl-mapbox">
         <svg viewBox={basemap.viewBox} role="img" aria-label={W.map_lede} style="width:100%;height:auto;display:block">
           <rect width="1000" height="500" fill="#0a2533"/>
@@ -110,11 +110,12 @@ const R = 54, CIRC = 2 * Math.PI * R, frac = D.stats.share_of_humanity / 100;
           {D.countries.map((c: any) => {
             const r = Math.sqrt(muslimOf(c)) * 2.6;
             return (
-              <g>
-                <circle cx={c.x} cy={c.y} r={r} fill="#c5a059" opacity=".35"/>
-                <circle cx={c.x} cy={c.y} r={r} fill="none" stroke="#c5a059" stroke-width="1" opacity=".9"/>
-                <circle cx={c.x} cy={c.y} r="2" fill="#e6d5b8"/>
-              </g>
+              <a href={`#c-${c.iso}`} class="wl-dot">
+                <title>{c.name[lang]} — {n(muslimOf(c))}{W.m_suffix}</title>
+                <circle cx={c.x} cy={c.y} r={r} fill="#c5a059" opacity=".3"/>
+                <circle cx={c.x} cy={c.y} r={r} fill="none" stroke="#c5a059" stroke-width="1.2" opacity=".9"/>
+                <circle cx={c.x} cy={c.y} r="2.4" fill="#e6d5b8"/>
+              </a>
             );
           })}
         </svg>
@@ -124,10 +125,29 @@ const R = 54, CIRC = 2 * Math.PI * R, frac = D.stats.share_of_humanity / 100;
     <section aria-labelledby="wl-countries">
       <h2 class="wl-sec" id="wl-countries">{W.countries_title}</h2>
       <p class="muted">{W.countries_lede}</p>
-      <ul class="wl-cards" role="list">
+      <form class="wl-ctrl ui" id="wl-ctrl" onsubmit="return false">
+        <input type="search" id="wl-q" placeholder={W.c_search} aria-label={W.c_search} />
+        <label class="sr-only" for="wl-sort">{W.c_sort}</label>
+        <select id="wl-sort" aria-label={W.c_sort}>
+          <option value="pop">{W.c_sort_pop}</option>
+          <option value="muslim">{W.c_sort_muslim}</option>
+          <option value="gdp">{W.c_sort_gdp}</option>
+          <option value="un">{W.c_sort_un}</option>
+        </select>
+        <span class="wl-chips" role="group" aria-label={W.c_all}>
+          <button type="button" class="wl-chip on" data-region="all">{W.c_all}</button>
+          <button type="button" class="wl-chip" data-region="apac">{W.regions.apac}</button>
+          <button type="button" class="wl-chip" data-region="mena">{W.regions.mena}</button>
+          <button type="button" class="wl-chip" data-region="ssa">{W.regions.ssa}</button>
+        </span>
+        <output class="wl-count" id="wl-count"></output>
+      </form>
+      <ul class="wl-cards" role="list" id="wl-cards">
         {D.countries.map((c: any) => (
-          <li class="wl-card">
-            <div class="wl-card-head">
+          <li class="wl-card" id={`c-${c.iso}`} data-region={c.region}
+            data-pop={c.pop_m} data-muslim={c.muslim_pct} data-gdp={c.gdp_pc} data-un={c.un}
+            data-name={`${c.name.en} ${c.name.ar} ${c.name.ur}`.toLowerCase()}>
+            <div class="wl-card-head" data-reg={c.region}>
               <span class="wl-flag"><WorldFlag iso={c.iso} /></span>
               <div>
                 <h3>{c.name[lang]}</h3>
@@ -238,4 +258,93 @@ const R = 54, CIRC = 2 * Math.PI * R, frac = D.stats.share_of_humanity / 100;
   .wl-voices li { margin-block: .45rem; }
   .wl-epilogue { border-block: 1px solid var(--line); padding: 2rem 0; margin-top: 2.4rem; text-align: center; }
   .wl-epilogue p { max-width: var(--measure); margin-inline: auto; }
+  .wl-dot { cursor: pointer; }
+  .wl-dot:focus-visible { outline: none; }
+  .wl-dot:hover circle:nth-child(2), .wl-dot:focus-visible circle:nth-child(2) { stroke-width: 2.6; stroke: #f9f8f6; }
+  .wl-dot:hover circle:nth-child(3), .wl-dot:focus-visible circle:nth-child(3) { r: 4; }
+  .wl-ctrl { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin: 1rem 0 .4rem; }
+  .wl-ctrl input[type="search"] { font: inherit; padding: .5rem .9rem; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--fg); min-width: 180px; }
+  .wl-ctrl select { font: inherit; padding: .5rem .7rem; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--fg); }
+  .wl-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .wl-chip { font: inherit; font-size: .85rem; padding: .35rem .9rem; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
+  .wl-chip.on { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 14%, var(--card)); color: var(--gold-text); font-weight: 600; }
+  .wl-count { font-size: .85rem; color: var(--muted); margin-inline-start: auto; }
+  .wl-card { scroll-margin-top: 90px; border-inline-start: 4px solid var(--line); transition: transform .18s ease, box-shadow .18s ease; }
+  .wl-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(10,37,51,.12); }
+  .wl-card[data-region="apac"] { border-inline-start-color: var(--teal); }
+  .wl-card[data-region="mena"] { border-inline-start-color: var(--gold); }
+  .wl-card[data-region="ssa"] { border-inline-start-color: #4d8a4f; }
+  .wl-card.hl { border-color: var(--gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 35%, transparent); }
+  .wl-card[hidden] { display: none; }
+  .wl-nums b[data-count] { font-variant-numeric: tabular-nums; }
+  section { scroll-margin-top: 80px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .rv { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
+    .rv.in { opacity: 1; transform: none; }
+  }
 </style>
+<script is:inline>
+(function () {
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".wl-card"));
+  var q = document.getElementById("wl-q"), sort = document.getElementById("wl-sort"),
+      count = document.getElementById("wl-count"), region = "all";
+  var total = cards.length;
+  function apply() {
+    var term = (q && q.value || "").trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (c) {
+      var ok = (region === "all" || c.dataset.region === region) && (!term || c.dataset.name.indexOf(term) !== -1);
+      c.hidden = !ok; if (ok) shown++;
+    });
+    var key = sort.value;
+    var vis = cards.filter(function (c) { return !c.hidden; });
+    vis.sort(function (a, b) {
+      if (key === "un") return (+a.dataset.un) - (+b.dataset.un);
+      return (+b.dataset[key]) - (+a.dataset[key]);
+    });
+    var ul = document.getElementById("wl-cards");
+    vis.forEach(function (c) { ul.appendChild(c); });
+    if (count) count.textContent = shown + " / " + total;
+  }
+  if (q) q.addEventListener("input", apply);
+  if (sort) sort.addEventListener("change", apply);
+  document.querySelectorAll(".wl-chip").forEach(function (b) {
+    b.addEventListener("click", function () {
+      document.querySelectorAll(".wl-chip").forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on"); region = b.dataset.region; apply();
+    });
+  });
+  apply();
+  // map → card highlight on jump
+  document.querySelectorAll(".wl-dot").forEach(function (a) {
+    a.addEventListener("click", function () {
+      var el = document.querySelector(a.getAttribute("href"));
+      if (!el) return;
+      cards.forEach(function (c) { c.classList.remove("hl"); });
+      setTimeout(function () { el.classList.add("hl"); }, 50);
+    });
+  });
+  // count-up hero numbers
+  var dur = 900;
+  document.querySelectorAll("[data-count]").forEach(function (el) {
+    var end = parseFloat(el.dataset.count), dec = +(el.dataset.dec || 0),
+        pctM = el.dataset.pct, suf = el.dataset.suf || "", t0 = null;
+    function fmt(v) { return (dec ? v.toFixed(dec) : Math.round(v).toLocaleString(document.documentElement.lang)) + (pctM ? "%" : "") + suf; }
+    var suffix = el.querySelector(".wl-suf");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !window.requestAnimationFrame) return;
+    function step(t) { if (!t0) t0 = t; var p = Math.min(1, (t - t0) / dur); var e = 1 - Math.pow(1 - p, 3);
+      el.firstChild.nodeValue = fmt(end * e);
+      if (p < 1) requestAnimationFrame(step); }
+    el.firstChild.nodeValue = fmt(0);
+    requestAnimationFrame(step);
+  });
+  // scroll reveal
+  if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll("main section").forEach(function (s) { s.classList.add("rv"); });
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".rv").forEach(function (s) { io.observe(s); });
+  }
+})();
+</script>
