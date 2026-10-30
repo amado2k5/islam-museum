@@ -122,6 +122,7 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-30 | event/battle-of-the-camel | claude | participants linked (ali, zubayr, talha)
 2026-10-30 | lead: animals pigeon-thawr, dog-ashab-al-kahf, horse-4-events | claude | lead (not found in drive OCR)
 2026-10-30 | period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/colonial-era, period/contemporary-era, period/modern-era, period/mongol-post-mongol, period/pre-islamic-arabia | claude | done (7 era subjects added to explorer; 80 to 87 subjects; no records or prose changed)
+2026-10-30 | event/chess-match-al-suli-and-al-mawardi, event/mutadid-at-chess-when-al-qasim-entered, event/al-suli-chess-praised-before-al-radi | claude | published (ar/en/ur; Muruj pp. 598, 634, 660, 676-677); lead: Harun first chess (Muruj p.670), Harun chess gift to Charlemagne (Duha p.233), Aghani v5 p.277 riddle (OCR garbled); riddle terms are mostly theological polemic
 2026-10-30 | place/aden | claude | done — 7 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
 2026-10-30 | place/aleppo | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
 2026-10-30 | place/alexandria | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
