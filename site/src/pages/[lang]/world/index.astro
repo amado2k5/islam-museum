@@ -1,0 +1,241 @@
+---
+// /world/ — "The Muslim world today": a portrait of the present in numbers, flags and maps.
+// Data: site/src/data/muslim-world.json (Pew / UN / World Bank estimates). Map: basemap-world.json
+// (Natural Earth 110m, public domain) with population discs. Flags: WorldFlag.astro (hand-drawn SVG).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import WorldFlag from "../../../components/WorldFlag.astro";
+import { ui, LANGS, NUM_LOCALE, type Lang } from "../../../lib/i18n";
+import D from "../../../data/muslim-world.json";
+import basemap from "../../../data/basemap-world.json";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const W = ui(lang).world;
+const n = (x: number) => new Intl.NumberFormat(NUM_LOCALE[lang]).format(x);
+const pct = (x: number) => `${n(x)}%`;
+const money = (x: number) => `$${new Intl.NumberFormat(NUM_LOCALE[lang]).format(x)}`;
+
+const COUNTRY_NAME: Record<string, { en: string; ar: string; ur: string }> = {
+  in: { en: "India", ar: "الهند", ur: "بھارت" },
+};
+const cname = (c: any) => (COUNTRY_NAME[c.iso ?? c.c] ?? (c.name ? c.name[lang] : c.c))[lang] ?? c.name?.en ?? c.c;
+const topMax = Math.max(...D.top10.map((t) => t.m));
+const regionMax = Math.max(...D.regions.map((r) => r.share));
+const muslimOf = (c: any) => Math.round((c.pop_m * c.muslim_pct) / 100);
+// Donut geometry: circumference 2πr for r=54.
+const R = 54, CIRC = 2 * Math.PI * R, frac = D.stats.share_of_humanity / 100;
+---
+<BaseLayout lang={lang} title={W.title} description={W.lede} path={`/${lang}/world/`}>
+  <header class="wl-hero">
+    <div class="wrap">
+      <p class="eyebrow">{W.eyebrow}</p>
+      <h1>{W.title}</h1>
+      <p class="wl-lede">{W.lede}</p>
+      <p class="wl-note ui">{W.note}</p>
+    </div>
+  </header>
+
+  <div class="wrap" style="padding-block:2rem 3rem">
+    <section aria-label={W.nums_title}>
+      <h2 class="wl-sec">{W.nums_title}</h2>
+      <ul class="wl-nums" role="list">
+        <li><b>{n(D.stats.total_billion)}<span class="wl-suf">B</span></b><span>{W.num_people}</span></li>
+        <li><b>{pct(D.stats.share_of_humanity)}</b><span>{W.num_share}</span></li>
+        <li><b>{n(D.stats.majority_countries)}+</b><span>{W.num_countries}</span></li>
+        <li><b>{n(D.stats.oic_members)}</b><span>{W.num_oic}</span></li>
+        <li><b>{n(D.stats.median_age)}</b><span>{W.num_age}</span></li>
+        <li><b>{n(D.stats.un_founders)}</b><span>{W.num_un}</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="wl-share">
+      <h2 class="wl-sec" id="wl-share">{W.donut_title}</h2>
+      <p class="muted">{W.donut_lede}</p>
+      <div class="wl-donut-row">
+        <svg class="wl-donut" viewBox="0 0 140 140" role="img" aria-label={`${W.donut_muslim} ${pct(D.stats.share_of_humanity)}`}>
+          <circle cx="70" cy="70" r={R} fill="none" stroke="var(--panel)" stroke-width="20"/>
+          <circle cx="70" cy="70" r={R} fill="none" stroke="var(--gold)" stroke-width="20"
+            stroke-dasharray={`${(frac * CIRC).toFixed(1)} ${CIRC.toFixed(1)}`}
+            transform="rotate(-90 70 70)" stroke-linecap="round"/>
+          <text x="70" y="66" text-anchor="middle" class="dl-big">{pct(D.stats.share_of_humanity)}</text>
+          <text x="70" y="86" text-anchor="middle" class="dl-small">{W.donut_muslim}</text>
+        </svg>
+        <ul class="wl-legend" role="list">
+          <li><i class="sw" style="background:var(--gold)"></i>{W.donut_muslim} — {pct(D.stats.share_of_humanity)}</li>
+          <li><i class="sw" style="background:var(--panel);border:1px solid var(--line)"></i>{W.donut_other} — {pct(100 - D.stats.share_of_humanity)}</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="wl-regions">
+      <h2 class="wl-sec" id="wl-regions">{W.regions_title}</h2>
+      <p class="muted">{W.regions_lede}</p>
+      <ul class="wl-bars" role="list">
+        {D.regions.map((r) => (
+          <li>
+            <span class="wl-bar-l">{W.regions[r.key]}</span>
+            <span class="wl-bar"><i style={`width:${(r.share / regionMax) * 100}%`}></i></span>
+            <span class="wl-bar-v ui">{pct(r.share)}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="wl-top">
+      <h2 class="wl-sec" id="wl-top">{W.top10_title}</h2>
+      <p class="muted">{W.top10_lede}</p>
+      <ul class="wl-bars" role="list">
+        {D.top10.map((t) => {
+          const c = D.countries.find((x: any) => x.iso === t.c);
+          return (
+            <li>
+              <span class="wl-bar-l wl-flag-l"><WorldFlag iso={t.c} /><bdi>{c ? c.name[lang] : COUNTRY_NAME[t.c]?.[lang]}</bdi></span>
+              <span class="wl-bar"><i class="gold" style={`width:${(t.m / topMax) * 100}%`}></i></span>
+              <span class="wl-bar-v ui">{n(t.m)}{W.m_suffix}</span>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <section aria-labelledby="wl-map">
+      <h2 class="wl-sec" id="wl-map">{W.map_title}</h2>
+      <p class="muted">{W.map_lede}</p>
+      <div class="wl-mapbox">
+        <svg viewBox={basemap.viewBox} role="img" aria-label={W.map_lede} style="width:100%;height:auto;display:block">
+          <rect width="1000" height="500" fill="#0a2533"/>
+          <g fill="#113f4e">
+            {basemap.paths.map((p: any) => <path d={p.d} />)}
+          </g>
+          {D.countries.map((c: any) => {
+            const r = Math.sqrt(muslimOf(c)) * 2.6;
+            return (
+              <g>
+                <circle cx={c.x} cy={c.y} r={r} fill="#c5a059" opacity=".35"/>
+                <circle cx={c.x} cy={c.y} r={r} fill="none" stroke="#c5a059" stroke-width="1" opacity=".9"/>
+                <circle cx={c.x} cy={c.y} r="2" fill="#e6d5b8"/>
+              </g>
+            );
+          })}
+        </svg>
+      </div>
+    </section>
+
+    <section aria-labelledby="wl-countries">
+      <h2 class="wl-sec" id="wl-countries">{W.countries_title}</h2>
+      <p class="muted">{W.countries_lede}</p>
+      <ul class="wl-cards" role="list">
+        {D.countries.map((c: any) => (
+          <li class="wl-card">
+            <div class="wl-card-head">
+              <span class="wl-flag"><WorldFlag iso={c.iso} /></span>
+              <div>
+                <h3>{c.name[lang]}</h3>
+                <p class="wl-cap ui">{W.f_capital}: {c.capital[lang]}</p>
+              </div>
+            </div>
+            <dl class="wl-dl">
+              <div><dt>{W.f_pop}</dt><dd>{n(c.pop_m)}{W.m_suffix}</dd></div>
+              <div><dt>{W.f_muslim}</dt><dd>{pct(c.muslim_pct)}</dd></div>
+              <div><dt>{W.f_gdp}</dt><dd>{money(c.gdp_pc)}</dd></div>
+              <div><dt>{W.f_currency}</dt><dd>{c.currency[lang]}</dd></div>
+              <div><dt>{W.f_un}</dt><dd>{n(c.un)}</dd></div>
+              <div><dt>{W.f_gov}</dt><dd>{c.gov[lang]}</dd></div>
+              <div class="wl-wide"><dt>{W.f_leader}</dt><dd>{c.leader[lang]}</dd></div>
+            </dl>
+            <p class="wl-street"><span class="ui lab">{W.f_street}:</span> {c.street[lang]}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="wl-digital" style="margin-top:2.4rem">
+      <h2 class="wl-sec" id="wl-digital">{W.digital_title}</h2>
+      <p class="muted">{W.digital_lede}</p>
+      <div class="wl-digital">
+        <div class="wl-search">
+          <b>{pct(D.digital.search_share)}+</b>
+          <span>{W.digital_search}</span>
+        </div>
+        <ul role="list">
+          {D.digital.apps.map((a: any) => <li>{a[lang]}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="wl-src" style="margin-top:2.4rem">
+      <h2 class="wl-sec" id="wl-src">{W.sources_title}</h2>
+      <ul class="wl-voices">
+        {W.sources.map((v: any) => <li><a href={v.u} rel="noopener noreferrer">{v.l}</a></li>)}
+      </ul>
+    </section>
+
+    <section class="wl-epilogue" aria-labelledby="wl-epi">
+      <h2 id="wl-epi">{W.epilogue_title}</h2>
+      <p class="muted">{W.epilogue} <a href={`/${lang}/future/`}>{W.epilogue_link} <span class="flip" aria-hidden="true">→</span></a></p>
+    </section>
+  </div>
+</BaseLayout>
+<style>
+  .wl-hero { position: relative; isolation: isolate; overflow: hidden; text-align: center;
+    background: linear-gradient(160deg, #0a2533 0%, #113f4e 100%); color: #f9f8f6;
+    padding: clamp(56px, 10vh, 110px) 0 clamp(48px, 8vh, 90px); }
+  .wl-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .55;
+    background-image: radial-gradient(1.4px 1.4px at 15% 25%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 40% 60%, #c5a059 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 62% 18%, #f9f8f6 50%, transparent 51%),
+      radial-gradient(1.1px 1.1px at 82% 48%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.3px 1.3px at 92% 75%, #c5a059 50%, transparent 51%); }
+  .wl-hero::after { content: ""; position: absolute; inset: auto 0 -1px; height: 40%; z-index: -1;
+    background: linear-gradient(to top, var(--bg) 2%, transparent); }
+  .wl-hero .eyebrow { color: var(--gold); }
+  .wl-hero h1 { color: #f9f8f6; font-weight: 500; max-width: 20ch; margin-inline: auto; font-size: clamp(2.2rem, 6vw, 4.2rem); }
+  .wl-lede { color: #e6d5b8; font-size: clamp(1.05rem, 1.8vw, 1.25rem); max-width: 62ch; margin: 0 auto; }
+  .wl-note { max-width: 62ch; margin: 1.2rem auto 0; font-size: .95rem; color: #c9d3d6;
+    border: 1px solid rgba(197,160,89,.4); border-radius: 12px; padding: 10px 16px; background: rgba(10,37,51,.55); }
+  .wl-sec { font-size: 1.6rem; margin: 2rem 0 .3rem; }
+  .wl-nums { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+  .wl-nums li { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 1.1rem 1.2rem; }
+  .wl-nums b { display: block; font-size: clamp(1.7rem, 3.4vw, 2.4rem); color: var(--gold-text); line-height: 1.1; }
+  .wl-suf { font-size: .55em; }
+  .wl-nums span { color: var(--muted); font-size: .92rem; }
+  .wl-donut-row { display: flex; gap: 2rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
+  .wl-donut { width: min(220px, 60vw); }
+  .dl-big { font-size: 26px; font-weight: 600; fill: var(--fg); }
+  .dl-small { font-size: 11px; fill: var(--muted); }
+  .wl-legend { list-style: none; padding: 0; margin: 0; }
+  .wl-legend li { display: flex; align-items: center; gap: .6rem; margin-block: .4rem; }
+  .wl-legend .sw { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+  .wl-bars { list-style: none; padding: 0; margin: 1rem 0 0; }
+  .wl-bars li { display: grid; grid-template-columns: minmax(120px, 180px) 1fr 64px; gap: .7rem; align-items: center; padding-block: .35rem; }
+  .wl-bar-l { font-size: .95rem; display: flex; align-items: center; gap: .5rem; }
+  .wl-bar { height: 14px; background: var(--panel); border-radius: 7px; overflow: hidden; display: block; }
+  .wl-bar i { display: block; height: 100%; background: var(--teal); border-radius: 7px; }
+  .wl-bar i.gold { background: var(--gold); }
+  .wl-bar-v { text-align: end; font-size: .9rem; }
+  .wl-flag-l .flag, .wl-flag .flag { width: 34px; height: auto; border-radius: 4px; box-shadow: 0 0 0 1px var(--line); flex: none; }
+  .wl-mapbox { margin-top: 1rem; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); }
+  .wl-cards { list-style: none; padding: 0; margin: 1.2rem 0 0; display: grid; gap: 1.2rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  .wl-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 1.2rem 1.3rem; }
+  .wl-card-head { display: flex; gap: .9rem; align-items: center; }
+  .wl-card-head h3 { margin: 0; font-size: 1.3rem; }
+  .wl-cap { margin: 0; font-size: .85rem; color: var(--muted); }
+  .wl-dl { display: grid; grid-template-columns: 1fr 1fr; gap: .35rem 1rem; margin: .9rem 0 0; }
+  .wl-dl div { display: flex; justify-content: space-between; gap: .6rem; border-bottom: 1px dotted var(--rule); padding-bottom: 3px; font-size: .92rem; }
+  .wl-dl dt { color: var(--muted); }
+  .wl-dl dd { margin: 0; text-align: end; }
+  .wl-wide { grid-column: 1 / -1; }
+  .wl-street { margin: .8rem 0 0; font-size: .9rem; }
+  .wl-street .lab { color: var(--gold-text); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; }
+  .wl-digital { display: grid; gap: 1.2rem; grid-template-columns: 1fr; margin-top: 1rem; }
+  @media (min-width: 800px) { .wl-digital { grid-template-columns: 260px 1fr; } }
+  .wl-search { border-radius: 18px; padding: 1.4rem; color: #f0e9dc; text-align: center;
+    background: linear-gradient(150deg, #0d2a3e, #071723); border: 1px solid rgba(197,160,89,.35); }
+  .wl-search b { display: block; font-size: 2.4rem; color: var(--gold); }
+  .wl-search span { font-size: .95rem; }
+  .wl-digital ul { margin: 0; }
+  .wl-digital li { margin-block: .45rem; }
+  .wl-voices li { margin-block: .45rem; }
+  .wl-epilogue { border-block: 1px solid var(--line); padding: 2rem 0; margin-top: 2.4rem; text-align: center; }
+  .wl-epilogue p { max-width: var(--measure); margin-inline: auto; }
+</style>

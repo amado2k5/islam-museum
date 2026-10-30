@@ -8,6 +8,7 @@ import ExplorerModule from "./ExplorerModule.astro";
 import GiftShop from "./GiftShop.astro";
 import ArtStrip from "./ArtStrip.astro";
 import FutureStrip from "./FutureStrip.astro";
+import WorldStrip from "./WorldStrip.astro";
 import { ui, fmt, WINGS, wingHref, NUM_LOCALE, ARABIC_SCRIPT, type Lang } from "../lib/i18n";
 import { href, graph, labelOf, summaryOf, realNodes } from "../lib/graph";
 import { wingCountLabel, explorePages, num } from "../lib/nav";
@@ -126,6 +127,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
       <p class="honest muted">{T.landing.honest} — <a href={`/${lang}/coverage/`}>{T.landing.honest_link}</a></p>
     </div>
   </section>
+  <WorldStrip lang={lang} />
   <FutureStrip lang={lang} />
   <ArtStrip lang={lang} />
   <GiftShop lang={lang} />
