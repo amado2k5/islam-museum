@@ -119,3 +119,23 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-30 | event/battle-of-the-camel | claude | participants linked (ali, zubayr, talha)
 2026-10-30 | lead: animals pigeon-thawr, dog-ashab-al-kahf, horse-4-events | claude | lead (not found in drive OCR)
 2026-10-30 | period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/colonial-era, period/contemporary-era, period/modern-era, period/mongol-post-mongol, period/pre-islamic-arabia | claude | done (7 era subjects added to explorer; 80 to 87 subjects; no records or prose changed)
+2026-10-30 | place/aden | claude | done — 7 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/aleppo | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/alexandria | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/antioch | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/basra | claude | done — 12 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/damascus | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/herat | claude | done — 7 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/homs | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/isfahan | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/jeddah | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/karbala | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/kufa | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/marrakesh | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/merv | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/mosul | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/muscat | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/qumm | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/raqqa | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/tarabulus-gharb | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/tarabulus-sham | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
