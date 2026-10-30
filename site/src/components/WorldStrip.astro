@@ -1,0 +1,33 @@
+---
+// Landing teaser for /world/ — a lapis-and-gold card announcing the "Muslim world today" page.
+import { ui, type Lang } from "../lib/i18n";
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+---
+<section class="block wl-strip" aria-labelledby="wl-strip-title">
+  <div class="wrap">
+    <a class="card-wl" href={`/${lang}/world/`}>
+      <p class="eyebrow ui">{T.world.eyebrow}</p>
+      <h2 id="wl-strip-title">{T.world.strip_title}</h2>
+      <p>{T.world.strip_lede}</p>
+      <span class="go">{T.world.strip_cta} <span class="flip" aria-hidden="true">→</span></span>
+    </a>
+  </div>
+</section>
+<style>
+  .wl-strip { margin-top: 2.2rem; }
+  .wl-strip .card-wl { display: block; position: relative; overflow: hidden; text-decoration: none; color: #f9f8f6;
+    border-radius: 20px; padding: clamp(20px, 4vw, 34px); border: 1px solid rgba(197,160,89,.4);
+    background: radial-gradient(110% 160% at 15% 0%, #113f4e 0%, #0a2533 60%, #071723 100%); }
+  .card-wl::before { content: ""; position: absolute; inset: 0; opacity: .4;
+    background-image: radial-gradient(1.3px 1.3px at 88% 25%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 70% 65%, #c5a059 50%, transparent 51%),
+      radial-gradient(1.1px 1.1px at 45% 20%, #f9f8f6 50%, transparent 51%),
+      radial-gradient(1.3px 1.3px at 25% 70%, #e6d5b8 50%, transparent 51%); }
+  .card-wl .eyebrow { color: var(--gold); }
+  .card-wl h2 { color: #f9f8f6; margin: .2rem 0 .4rem; font-size: clamp(1.4rem, 3vw, 2rem); }
+  .card-wl p { color: #e6d5b8; max-width: 60ch; margin: 0; }
+  .card-wl .go { display: inline-block; margin-top: 1rem; color: var(--gold); font-family: var(--sans); font-size: .9rem;
+    border: 1px solid rgba(197,160,89,.6); border-radius: 999px; padding: 7px 18px; position: relative; }
+  .card-wl:hover .go { background: rgba(197,160,89,.12); }
+</style>
