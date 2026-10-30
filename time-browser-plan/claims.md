@@ -113,3 +113,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/aden | devin | claimed
 2026-10-28 | place/muscat | devin | claimed
 2026-10-28 | place/jeddah | devin | claimed
+2026-10-30 | period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/colonial-era, period/contemporary-era, period/modern-era, period/mongol-post-mongol, period/pre-islamic-arabia | claude | done (7 era subjects added to explorer; 80 to 87 subjects; no records or prose changed)
