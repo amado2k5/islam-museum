@@ -118,3 +118,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-30 | event/spider-web-at-ghar-thawr | claude | published (content ar/en/ur added)
 2026-10-30 | event/battle-of-the-camel | claude | participants linked (ali, zubayr, talha)
 2026-10-30 | lead: animals pigeon-thawr, dog-ashab-al-kahf, horse-4-events | claude | lead (not found in drive OCR)
+2026-10-30 | period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/colonial-era, period/contemporary-era, period/modern-era, period/mongol-post-mongol, period/pre-islamic-arabia | claude | done (7 era subjects added to explorer; 80 to 87 subjects; no records or prose changed)
