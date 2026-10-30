@@ -1,0 +1,25 @@
+id: event/al-suli-chess-praised-before-al-radi
+class: event
+kind: other
+label: { ar: "الراضي يفضل لعب الصولي بالشطرنج على الزهر", en: "Al-Radi prefers al-Suli's chess to a garden's flowers", ur: "راضی کا صولی کی شطرنج کو پھول سے بہتر کہنا" }
+summary:
+  ar: "رأى الراضي بستاناً مونقاً في بعض متنزهاته، فسأل ندماءه هل رأوا أحسن منه، فأثنوا عليه؛ فقال إن لعب الصولي بالشطرنج أحسن من هذا الزهر وكل ما وصفوا {cite:muruj-al-dhahab p. 677}."
+  en: "Al-Radi, in one of his gardens, asked his companions whether they had seen anything finer; they praised the garden, and he said that al-Suli's chess-playing was finer than those flowers and all they described {cite:muruj-al-dhahab p. 677}."
+  ur: "راضی نے اپنے ایک باغ میں اپنے ندیموں سے پوچھا کہ کیا اس سے بہتر کوئی منظر دیکھا ہے؛ انہوں نے باغ کی تعریف کی تو اس نے کہا کہ صولی کی شطرنج ان پھولوں اور ان کی بیان کردہ ہر چیز سے بہتر ہے {cite:muruj-al-dhahab p. 677}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0934", hijri: "0322", calendar: julian, precision: year, status: tradition, derived: true, note: "الواقعة في سياق خلافة الراضي (322-329هـ) {cite:muruj-al-dhahab p. 676}؛ النص لا يذكر سنة الواقعة، والتحويل إلى الميلادي مشتق." }
+relations:
+  - { type: part_of, target: period/abbasid-early }
+  - { type: had_participant, target: person/al-radi-billah, role: "الخليفة الذي أثنى", sources: [source/muruj-al-dhahab] }
+  - { type: had_participant, target: person/al-suli, role: "موضوع الثناء، النديم الشطرنجي", sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي، المسح ص 676 (خلافة الراضي) و677 (الواقعة)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "time-browser-chess-2026-10-30"
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5 from the Muruj al-Dhahab OCR; the year of the remark is not stated" }

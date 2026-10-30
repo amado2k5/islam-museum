@@ -1,0 +1,27 @@
+id: event/chess-match-al-suli-and-al-mawardi
+class: event
+kind: other
+label: { ar: "مباراة الصولي والماوردي اللاعب بحضرة المكتفي", en: "Chess match of al-Suli and al-Mawardi before al-Muktafi", ur: "مکتفی کے حضور الصولی اور الماوردی کی شطرنج" }
+summary:
+  ar: "في بدء دخول الصولي في خدمة المكتفي لعب مع الماوردي اللاعب، وكان الماوردي مقدماً عند المكتفي معجباً بلعبه؛ فلما اتصل اللعب بينهما غلب الصولي خصمه غلبة واضحة، فتبين للمكتفي حسن لعبه، فعدل عن هواه، وقال للماوردي إن ماء وردك صار بولاً {cite:muruj-al-dhahab p. 677}."
+  en: "At the start of al-Suli's service under al-Muktafi he played al-Mawardi, the chess player the caliph favoured, in the caliph's presence. Al-Suli beat him decisively; the caliph's favour shifted, and he remarked to al-Mawardi that his rosewater had turned to urine {cite:muruj-al-dhahab p. 677}."
+  ur: "الصولی نے مکتفی کی خدمت میں آغاز کے وقت، خلیفہ کے منظورِ نظر شطرنج باز الماوردی کے ساتھ خلیفہ کے سامنے کھیلا۔ الصولی نے واضح طور پر اسے ہرا دیا، اور خلیفہ کی پسندیدگی بدل گئی، اور اس نے الماوردی سے کہا کہ اس کا گلاب کا پانی پیشاب بن گیا ہے {cite:muruj-al-dhahab p. 677}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0902", hijri: "0289", calendar: julian, precision: year, status: tradition, derived: true, note: "الواقعة غير مؤرخة في النص؛ الإطار خلافة المكتفي من 289هـ إلى وفاته 295هـ {cite:muruj-al-dhahab p. 634}، والتحويل إلى الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad }
+  - { type: part_of, target: period/abbasid-early }
+  - { type: had_participant, target: person/al-suli, role: "اللاعب الغالب، النديم الشطرنجي", sources: [source/muruj-al-dhahab] }
+  - { type: had_participant, target: person/al-mawardi-al-laib, role: "اللاعب المغلوب، المقدَّم عند المكتفي", sources: [source/muruj-al-dhahab] }
+  - { type: had_participant, target: person/al-muktafi-billah, role: "الخليفة الحاضر", sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي، المسح ص 634 (خلافة المكتفي) و677 (المباراة)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "time-browser-chess-2026-10-30"
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the Muruj al-Dhahab OCR; the match is undated in the text and placed within al-Muktafi's reign (289-295 AH)" }

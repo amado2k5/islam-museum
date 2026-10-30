@@ -1,0 +1,26 @@
+id: event/mutadid-at-chess-when-al-qasim-entered
+class: event
+kind: other
+label: { ar: "المعتضد يلعب الشطرنج فيدخل عليه القاسم بن عبيد الله", en: "Al-Mu'tadid at chess when al-Qasim ibn Ubaydallah entered", ur: "معتضد شطرنج کھیل رہا تھا جب قاسم بن عبیداللہ داخل ہوا" }
+summary:
+  ar: "كان المعتضد يلعب الشطرنج حين دخل عليه القاسم بن عبيد الله، فأنشد المعتضد بيتاً لعلي بن بسام، ولما رأى القاسم استحيا فأمره أن يقطع عنه لسان ابن بسام، فمضى القاسم مسرعاً ليفعل، حتى أمره المعتضد بالكف {cite:muruj-al-dhahab p. 660}."
+  en: "Al-Mu'tadid was playing chess when al-Qasim ibn Ubaydallah came in. The caliph recited a line by Ali ibn Bassam; seeing al-Qasim, he was embarrassed and told him to silence Ibn Bassam. Al-Qasim hurried to do so until the caliph told him to desist {cite:muruj-al-dhahab p. 660}."
+  ur: "معتضد شطرنج کھیل رہا تھا جب قاسم بن عبیداللہ اندر آیا۔ خلیفہ نے علی بن بسام کا ایک شعر پڑھا، قاسم کو دیکھ کر شرمندہ ہوا اور اسے ابن بسام کی زبان بند کرنے کو کہا۔ قاسم جلدی سے گیا یہاں تک کہ خلیفہ نے اسے روک دیا {cite:muruj-al-dhahab p. 660}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0892", hijri: "0279", calendar: julian, precision: year, status: tradition, derived: true, note: "الواقعة غير مؤرخة في النص؛ تقع في خلافة المعتضد، وفي المروج ذكر له في سنة 279هـ {cite:muruj-al-dhahab p. 598} ووفاته سنة 289هـ {cite:muruj-al-dhahab p. 634}، والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad }
+  - { type: part_of, target: period/abbasid-early }
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة الذي يلعب", sources: [source/muruj-al-dhahab] }
+  - { type: had_participant, target: person/al-qasim-ibn-ubaydallah, role: "الوزير الداخل", sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي، المسح ص 598 (سنة 279هـ) و634 (وفاة المعتضد سنة 289هـ) و660 (الواقعة)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "time-browser-chess-2026-10-30"
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the Muruj al-Dhahab OCR; the poet's verse is not reproduced" }
