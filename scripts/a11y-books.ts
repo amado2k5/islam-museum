@@ -33,7 +33,7 @@ if (!fs.existsSync(path.join(tableDir, "ar-ar-g1.utb"))) {
   fs.mkdirSync(tableDir, { recursive: true });
   const tgz = path.join(tableDir, "..", "liblouis-tables.tgz");
   execFileSync("curl", ["-sL", `https://github.com/liblouis/liblouis/archive/refs/tags/v${LIBLOUIS_VERSION}.tar.gz`, "-o", tgz]);
-  execFileSync("tar", ["xzf", tgz, "-C", path.join(tableDir, ".."), `liblouis-${LIBLOUIS_VERSION}/tables`, "--strip-components=1"]);
+  execFileSync("tar", ["xzf", tgz, "--strip-components=1", "-C", path.join(tableDir, ".."), `liblouis-${LIBLOUIS_VERSION}/tables`]);
   fs.rmSync(tgz);
 }
 const EasyApi = createRequire(import.meta.url)("liblouis/easy-api").EasyApi;
