@@ -1,0 +1,166 @@
+---
+// /world/<iso>/ — one page per country in the muslim-world dataset: a drill-down from the map.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import WorldFlag from "../../../components/WorldFlag.astro";
+import { ui, LANGS, NUM_LOCALE, type Lang } from "../../../lib/i18n";
+import { href } from "../../../lib/graph";
+import D from "../../../data/muslim-world.json";
+import basemap from "../../../data/basemap-world.json";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    D.countries.map((c: any) => ({ params: { lang, iso: c.iso }, props: { lang, c } })));
+}
+const { lang, c } = Astro.props as { lang: Lang; c: any };
+const W = ui(lang).world;
+const n = (x: number) => new Intl.NumberFormat(NUM_LOCALE[lang]).format(x);
+const pct = (x: number) => `${n(x)}%`;
+const money = (x: number) => `$${new Intl.NumberFormat(NUM_LOCALE[lang]).format(x)}`;
+const muslimM = Math.round((c.pop_m * c.muslim_pct) / 100);
+const idx = D.countries.findIndex((x: any) => x.iso === c.iso);
+const prev = D.countries[(idx + D.countries.length - 1) % D.countries.length];
+const next = D.countries[(idx + 1) % D.countries.length];
+const dot = Math.sqrt(muslimM) * 2.6;
+// zoomed map window around the country disc
+const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), vy = Math.min(Math.max(c.y - vh / 2, 0), 500 - vh);
+---
+<BaseLayout lang={lang} title={`${c.name[lang]} — ${W.title}`} description={c.street[lang]} path={`/${lang}/world/${c.iso}/`}>
+  <div class="wrap" style="padding-block:1rem 3rem">
+    <p class="ui" style="margin-top:0"><a href={`/${lang}/world/`}>← {W.c_back}</a></p>
+    <header class="wc-hero" data-region={c.region}>
+      <span class="wc-flag"><WorldFlag iso={c.iso} /></span>
+      <div>
+        <p class="eyebrow" style="margin:0">{W.regions[c.region]}</p>
+        <h1 style="margin:.1rem 0 .2rem">{c.name[lang]}</h1>
+        <p class="muted" style="margin:0">{W.f_capital}: <bdi>{c.capital[lang]}</bdi></p>
+      </div>
+      <div class="wc-map" aria-hidden="true">
+        <svg viewBox={`${vx} ${vy} ${vw} ${vh}`}>
+          <rect x={vx} y={vy} width={vw} height={vh} fill="#0a2533"/>
+          <g fill="#113f4e">{basemap.paths.map((p: any) => <path d={p.d} />)}</g>
+          <circle cx={c.x} cy={c.y} r={dot} fill="#c5a059" opacity=".35"/>
+          <circle cx={c.x} cy={c.y} r={dot} fill="none" stroke="#c5a059" stroke-width="1.2"/>
+          <circle cx={c.x} cy={c.y} r="2.4" fill="#e6d5b8"/>
+        </svg>
+      </div>
+    </header>
+
+    <ul class="wc-nums" role="list">
+      <li><b>{n(c.pop_m)}{W.m_suffix}</b><span>{W.f_pop}</span></li>
+      <li><b>{n(muslimM)}{W.m_suffix}</b><span>{W.donut_muslim}</span></li>
+      <li><b>{pct(c.muslim_pct)}</b><span>{W.f_muslim}</span></li>
+      <li><b>{money(c.gdp_pc)}</b><span>{W.f_gdp}</span></li>
+      <li><b>{pct(c.unemp)}</b><span>{W.f_unemp}</span></li>
+      {c.poverty != null && <li><b>{pct(c.poverty)}</b><span>{W.f_poverty}</span></li>}
+      <li><b>{pct(c.literacy)}</b><span>{W.f_literacy}</span></li>
+      <li><b>{n(c.life_exp)}</b><span>{W.f_life_exp}</span></li>
+    </ul>
+
+    <dl class="wc-dl">
+      <div><dt>{W.f_gov}</dt><dd>{c.gov[lang]}</dd></div>
+      <div><dt>{W.f_leader}</dt><dd>{c.leader[lang]}</dd></div>
+      <div><dt>{W.f_currency}</dt><dd>{c.currency[lang]}</dd></div>
+      <div><dt>{W.f_un}</dt><dd>{n(c.un)}</dd></div>
+    </dl>
+
+    <div class="wc-street" style="margin-bottom:1rem">
+      <span class="lab ui">{W.life_title}</span>
+      <p>{c.life[lang]}</p>
+    </div>
+
+    <div class="wc-street">
+      <span class="lab ui">{W.f_street}</span>
+      <p>{c.street[lang]}</p>
+    </div>
+
+    <section aria-labelledby="wc-fam">
+      <h2 id="wc-fam" class="wc-sec">{W.famous_title}</h2>
+      <ul class="wc-fam" role="list">
+        {c.famous.map((p: any) => (
+          <li class="wc-famc">
+            {p.id ? <a class="wc-famn" href={href(lang, p.id)}>{p.n[lang]}</a> : <b class="wc-famn">{p.n[lang]}</b>}
+            <span>{p.t[lang]}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <div class="wc-trivia">
+      <span class="lab ui">{W.trivia_title}</span>
+      <p id="wc-trivia-text">{c.trivia[0][lang]}</p>
+      <button type="button" class="wc-chip" id="wc-trivia-next">{W.t_another} →</button>
+    </div>
+    <script type="application/json" id="wc-trivia-data" set:html={JSON.stringify(c.trivia.map((t: any) => t[lang])).replace(/</g, "\u003c")} />
+
+    <nav class="wc-nav ui" aria-label={W.countries_title}>
+      <a class="wc-pn" href={`/${lang}/world/${prev.iso}/`}>← {prev.name[lang]}</a>
+      <a class="wc-pn" href={`/${lang}/world/${next.iso}/`}>{next.name[lang]} →</a>
+    </nav>
+  </div>
+</BaseLayout>
+<style>
+  .wc-hero { display: grid; grid-template-columns: auto 1fr; gap: 1.1rem; align-items: center;
+    border: 1px solid var(--line); border-radius: 20px; padding: 1.4rem 1.6rem;
+    background: linear-gradient(160deg, #0a2533 0%, #113f4e 100%); color: #f9f8f6; overflow: hidden; position: relative; }
+  .wc-hero .eyebrow { color: var(--gold); }
+  .wc-hero h1 { color: #f9f8f6; font-weight: 500; font-size: clamp(2rem, 5vw, 3.2rem); }
+  .wc-hero .muted { color: #e6d5b8; }
+  .wc-flag :global(.flag) { width: 96px; height: auto; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,.35); display: block; }
+  .wc-map { grid-column: 1 / -1; border-radius: 14px; overflow: hidden; border: 1px solid rgba(197,160,89,.35); }
+  .wc-map svg { display: block; width: 100%; height: auto; }
+  @media (min-width: 800px) { .wc-hero { grid-template-columns: auto 1fr 300px; } .wc-map { grid-column: auto; } }
+  .wc-nums { list-style: none; padding: 0; margin: 1.4rem 0 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .wc-nums li { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 1rem 1.1rem; }
+  .wc-nums b { display: block; font-size: 1.9rem; color: var(--gold-text); line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .wc-nums span { color: var(--muted); font-size: .92rem; }
+  .wc-dl { display: grid; grid-template-columns: 1fr; gap: .4rem; margin: 1.6rem 0 0; max-width: 720px; }
+  @media (min-width: 700px) { .wc-dl { grid-template-columns: 1fr 1fr; } }
+  .wc-dl div { display: flex; justify-content: space-between; gap: .8rem; border-bottom: 1px dotted var(--rule); padding-bottom: 5px; font-size: .98rem; }
+  .wc-dl dt { color: var(--muted); }
+  .wc-dl dd { margin: 0; text-align: end; }
+  .wc-street { margin-top: 1.8rem; border-radius: 16px; padding: 1.2rem 1.4rem; color: #f0e9dc;
+    background: linear-gradient(150deg, #0d2a3e, #071723); border: 1px solid rgba(197,160,89,.35); max-width: 720px; }
+  .wc-street .lab { color: var(--gold); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+  .wc-street p { margin: .5rem 0 0; }
+  .wc-nav { display: flex; justify-content: space-between; gap: .6rem; margin-top: 2rem; flex-wrap: wrap; }
+  .wc-pn { border: 1px solid var(--line); border-radius: 999px; padding: .5rem 1.2rem; text-decoration: none; }
+  .wc-pn:hover { border-color: var(--gold); }
+  .wc-sec { font-size: 1.4rem; margin: 1.8rem 0 .4rem; }
+  .wc-fam { list-style: none; padding: .2rem 0; margin: .6rem 0 0; display: flex; gap: .9rem; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+  .wc-famc { flex: 0 0 170px; scroll-snap-align: start; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: .9rem 1rem; }
+  .wc-famc .wc-famn { display: block; font-weight: 600; text-decoration: none; }
+  .wc-famc a.wc-famn:hover { text-decoration: underline; }
+  .wc-famc span { font-size: .85rem; color: var(--muted); }
+  .wc-trivia { margin-top: 1.8rem; border-radius: 16px; padding: 1.2rem 1.4rem; color: #f0e9dc; max-width: 720px;
+    background: linear-gradient(150deg, #0d2a3e, #071723); border: 1px solid rgba(197,160,89,.35); }
+  .wc-trivia .lab { color: var(--gold); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+  .wc-trivia p { margin: .5rem 0 .8rem; font-size: 1.05rem; }
+  .wc-chip { font: inherit; font-size: .85rem; padding: .35rem .9rem; border-radius: 999px; cursor: pointer;
+    color: var(--gold); border: 1px solid rgba(197,160,89,.5); background: transparent; }
+  @media (max-width: 620px) {
+    .wc-flag :global(.flag) { width: 64px; }
+    .wc-hero { padding: 1.1rem 1.2rem; }
+    .wc-dl { grid-template-columns: 1fr; }
+    .wc-nav .wc-pn { flex: 1 1 45%; text-align: center; }
+  }
+</style>
+<script is:inline>
+(function () {
+  var tdata = [];
+  try { tdata = JSON.parse(document.getElementById("wc-trivia-data").textContent); } catch (e) {}
+  var tEl = document.getElementById("wc-trivia-text"), tBtn = document.getElementById("wc-trivia-next");
+  if (tEl && tdata.length > 1) {
+    var TKEY = "wc-trivia-" + location.pathname;
+    var last = -1;
+    try { last = +(sessionStorage.getItem(TKEY) || -1); } catch (e) {}
+    var i = Math.floor(Math.random() * tdata.length);
+    if (i === last) i = (i + 1) % tdata.length;
+    tEl.textContent = tdata[i];
+    try { sessionStorage.setItem(TKEY, String(i)); } catch (e) {}
+    if (tBtn) tBtn.addEventListener("click", function () {
+      i = (i + 1) % tdata.length; tEl.textContent = tdata[i];
+      try { sessionStorage.setItem(TKEY, String(i)); } catch (e) {}
+    });
+  }
+})();
+</script>

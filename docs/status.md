@@ -6,6 +6,7 @@ _Last updated 29 October 2026._ Read this first in a new session, then `docs/pla
 
 | Area | State |
 |---|---|
+| Feature pages | `/future/` — the museum's imagination of Muslim life in 2077 (nine trilingual stations, six hand-drawn SVG scenes, tension cards, cited voices); `/world/` — the Muslim world today (Pew/UN/WB figures in `site/src/data/muslim-world.json`, big-number counters, donut/region/top-10 charts, world map with population discs, 18 country cards with SVG flags, digital-life section). Landing teaser cards for both sit above the arts strip. Styles scoped per page, not in `global.css`. |
 | Timeline Explorer (time browser) | 49 story subjects with cited nodes on the stage; backdrops per node (adult and kids), checked for people; pipeline in time-browser-plan/EXPLORER-STORY-PIPELINE.md; root data files moved to R2 (PR #2519, needs a founder deploy) |
 | Repo scaffold (plan Phase 0) | Done and deployed: schema (21 classes incl. `listing`, `screen`), 132 themes, story roles, predicates, validator, graph/derive/api/coverage scripts, Hijri converter, Astro site (en/ar, RTL), CI, issue forms |
 | Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 31 places (GeoNames ids on all, Pleiades ids where a unique match exists), 12 sources, *The Message* (screen example), all `draft` |

@@ -50,6 +50,7 @@ Agents never start the deploy; when a site change needs to be live, ask the foun
 | Entity citation date: the day the entity's data or prose last changed (git commit dates, never the build day, so a page's HTML only changes with its content and the R2 publish re-uploads only what moved) | `scripts/git-dates.ts`, `scripts/build-graph.ts` (`updated`), `site/src/lib/graph.ts` (`updatedOn`) |
 | Site-wide totals (per-wing counts in the header menu): one JSON written at build time, filled in by the client, never baked into pages | `scripts/wings.ts`, `scripts/export-api.ts` (`meta/counts.json`), `site/src/lib/nav.ts` (`wingCountTemplate`), `site/src/layouts/BaseLayout.astro` |
 | Timeline strip | `site/src/components/TimeStrip.astro` |
+| Feature pages `/future/` (2077 imagination) and `/world/` (the Muslim world today: dataset `site/src/data/muslim-world.json`, flags `WorldFlag.astro`, landing teasers `FutureStrip.astro`/`WorldStrip.astro`); page styles are scoped inside the page/components — never added to `global.css`, which is inlined into every page and would change every page's weight | `site/src/pages/[lang]/future/index.astro`, `site/src/pages/[lang]/world/index.astro`, `site/src/components/FutureScenes.astro` |
 | Schematic map and its basemap | `site/src/components/MiniMap.astro`, `site/src/data/basemap-mena.json`, `scripts/map/build_basemap.py` |
 | Hijri ↔ civil conversion | `scripts/hijri/convert.ts` |
 | Data and content lints | `scripts/validate.ts` |
