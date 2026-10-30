@@ -1,0 +1,30 @@
+id: concept/al-rimaya
+class: concept
+kind: discipline
+label:
+  ar: "الرماية"
+  en: "Archery"
+  ur: "تیراندازی"
+summary:
+  ar: "في الحديث «ارموا بني إسماعيل فإن أباكم كان راميا»، وقد جاء في فهرس البخاري بروايةٍ عن سلمة بن الأكوع. {cite:sahih-al-bukhari p.1207} وفي جامع الترمذي، في باب المناقب، أن علي بن أبي طالب قال إن النبي جمع له أبويه يوم أحد لسعد بن أبي وقاص فقال له: «ارم فداك أبي وأمي»، وقال الترمذي إنه حسن صحيح. {cite:jami-al-tirmidhi p.853} ويجوز أخذ الجعل في السبق في النصل والخف والحافر، لحديث «لا سبق إلا في نصل أو خف أو حافر». {cite:usul-iqtisad-islami-0660 p. 229}"
+  en: "The hadith «Shoot, sons of Isma'il, for your father was an archer» is recorded in Bukhari's index with a report from Salama ibn al-Akwa'. {cite:sahih-al-bukhari p.1207} In Tirmidhi's Virtues chapter, Ali reports that on the day of Uhud the Prophet told Sa'd ibn Abi Waqqas «Shoot; may my father and mother be your ransom», and Tirmidhi grades it hasan sahih. {cite:jami-al-tirmidhi p.853} A prize in a race is allowed only for arrows, hoof and nasl, on the hadith «there is no prize except in hoof, hoof or nasl». {cite:usul-iqtisad-islami-0660 p. 229}"
+  ur: "حدیث «ارموا بني إسماعيل فإن أباكم كان راميا» بخاری کے فہرست میں سلمہ بن الاکوع کی روایت سے درج ہے۔ {cite:sahih-al-bukhari p.1207} احد کے دن نبی نے سعد بن ابی وقاص سے فرمایا: «ارم فداك أبي وأمي»، جو علی بن ابی طالب سے روایت ہے اور ترمذی نے اسے باب المناقب میں نقل کر کے حسن صحیح کہا۔ {cite:jami-al-tirmidhi p.853}"
+relations:
+  - { type: related_to, target: event/battle-of-uhud, note: "قول النبي لسعد يوم أحد: ارم", sources: [source/jami-al-tirmidhi] }
+  - { type: related_to, target: concept/sabq-in-islam, note: "الجعل في السبق يجوز في النصل والخف والحافر", sources: [source/usul-iqtisad-islami-0660] }
+sources: [source/sahih-al-bukhari, source/jami-al-tirmidhi, source/usul-iqtisad-islami-0660]
+wings: [ideas]
+themes: [games-and-leisure, wars-and-campaigns]
+periods: [period/prophetic-era]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "صحيح البخاري، فهرس الأحاديث ص 1207 (نسخة المسح)؛ جامع الترمذي ص 853 (المناقب، ح 3754) (نسخة المسح)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "games-early-muslims-archery"
+  scan_pages: [853, 1207]
+status:
+  review: published
+  completeness: 2
+  generated_by: "Claude Code (claude-haiku-5-5); the Bukhari hadith is read from an incipit index and its number is not verified"
