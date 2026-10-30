@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T15:46:37.195Z",
+ "generated": "2026-10-30T15:47:03.504Z",
  "rule": "one card per (primary period, primary place); colour = deterministic palette index of the period id; no AI",
  "cards": [
   {
@@ -460,6 +460,15 @@
     "concept/restricted-ownership",
     "concept/restricting-permissible-acts",
     "concept/risk-taking-in-islam",
+    "concept/ruju-al-kawakib",
+    "concept/sabq-in-islam",
+    "concept/sadaqah",
+    "concept/saltanat-al-kawakib",
+    "concept/saving-and-investment-in-islam",
+    "concept/seasonal-hours",
+    "concept/sebka",
+    "concept/shahid",
+    "concept/shamsa",
     "event/mihna-of-the-quran",
     "event/battle-of-nahrawan",
     "event/siege-of-constantinople-717",
@@ -472,6 +481,7 @@
     "event/killing-of-jafar-and-the-barmakids",
     "event/murder-of-habil",
     "event/murder-of-uthman",
+    "event/battle-of-siffin",
     "exhibit/path-botany",
     "exhibit/path-buyid-age",
     "exhibit/path-cairo-buildings",
@@ -1147,6 +1157,11 @@
     "person/abd-al-rahman-ibn-habib-al-fihri",
     "person/abd-allah-ibn-jubayr",
     "person/abu-masud-al-badri",
+    "person/al-numan-ibn-bashir",
+    "person/ali-ibn-al-madini",
+    "person/busr-ibn-abi-artat",
+    "person/hanzala-ibn-abi-amir",
+    "person/nasr-ibn-sayyar",
     "polity/anushtegin-dynasty",
     "polity/bornu-empire",
     "polity/crimean-khanate",
@@ -3131,6 +3146,7 @@
    "place": "place/al-andalus",
    "color": "#5f5a53",
    "stops": [
+    "event/conquest-of-al-andalus",
     "place/tulaytula"
    ],
    "bytes": 408
@@ -17147,6 +17163,50 @@
    "bytes": 418
   },
   {
+   "id": "no-period|place/socotra",
+   "file": "media/time-browser/cards/card-no-period-place-socotra.svg",
+   "period": "no-period",
+   "place": "place/socotra",
+   "color": "#5f5a53",
+   "stops": [
+    "place/socotra"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/sohar",
+   "file": "media/time-browser/cards/card-no-period-place-sohar.svg",
+   "period": "no-period",
+   "place": "place/sohar",
+   "color": "#5f5a53",
+   "stops": [
+    "place/sohar"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/sousse",
+   "file": "media/time-browser/cards/card-no-period-place-sousse.svg",
+   "period": "no-period",
+   "place": "place/sousse",
+   "color": "#5f5a53",
+   "stops": [
+    "place/sousse"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/subara",
+   "file": "media/time-browser/cards/card-no-period-place-subara.svg",
+   "period": "no-period",
+   "place": "place/subara",
+   "color": "#5f5a53",
+   "stops": [
+    "place/subara"
+   ],
+   "bytes": 404
+  },
+  {
    "id": "no-period|place/sughd",
    "file": "media/time-browser/cards/card-no-period-place-sughd.svg",
    "period": "no-period",
@@ -17158,6 +17218,127 @@
    "bytes": 400
   },
   {
+   "id": "no-period|place/suhaym",
+   "file": "media/time-browser/cards/card-no-period-place-suhaym.svg",
+   "period": "no-period",
+   "place": "place/suhaym",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suhaym"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/sukh",
+   "file": "media/time-browser/cards/card-no-period-place-sukh.svg",
+   "period": "no-period",
+   "place": "place/sukh",
+   "color": "#5f5a53",
+   "stops": [
+    "place/sukh"
+   ],
+   "bytes": 392
+  },
+  {
+   "id": "no-period|place/sulaymanan",
+   "file": "media/time-browser/cards/card-no-period-place-sulaymanan.svg",
+   "period": "no-period",
+   "place": "place/sulaymanan",
+   "color": "#5f5a53",
+   "stops": [
+    "place/sulaymanan"
+   ],
+   "bytes": 412
+  },
+  {
+   "id": "no-period|place/sumba",
+   "file": "media/time-browser/cards/card-no-period-place-sumba.svg",
+   "period": "no-period",
+   "place": "place/sumba",
+   "color": "#5f5a53",
+   "stops": [
+    "place/sumba"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/suq-al-ahwaz",
+   "file": "media/time-browser/cards/card-no-period-place-suq-al-ahwaz.svg",
+   "period": "no-period",
+   "place": "place/suq-al-ahwaz",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suq-al-ahwaz"
+   ],
+   "bytes": 422
+  },
+  {
+   "id": "no-period|place/suq-al-arbaa",
+   "file": "media/time-browser/cards/card-no-period-place-suq-al-arbaa.svg",
+   "period": "no-period",
+   "place": "place/suq-al-arbaa",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suq-al-arbaa"
+   ],
+   "bytes": 426
+  },
+  {
+   "id": "no-period|place/suq-ibrahim",
+   "file": "media/time-browser/cards/card-no-period-place-suq-ibrahim.svg",
+   "period": "no-period",
+   "place": "place/suq-ibrahim",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suq-ibrahim"
+   ],
+   "bytes": 422
+  },
+  {
+   "id": "no-period|place/suqmaqiya",
+   "file": "media/time-browser/cards/card-no-period-place-suqmaqiya.svg",
+   "period": "no-period",
+   "place": "place/suqmaqiya",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suqmaqiya"
+   ],
+   "bytes": 408
+  },
+  {
+   "id": "no-period|place/suqusiya",
+   "file": "media/time-browser/cards/card-no-period-place-suqusiya.svg",
+   "period": "no-period",
+   "place": "place/suqusiya",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suqusiya"
+   ],
+   "bytes": 404
+  },
+  {
+   "id": "no-period|place/suqya-port",
+   "file": "media/time-browser/cards/card-no-period-place-suqya-port.svg",
+   "period": "no-period",
+   "place": "place/suqya-port",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suqya-port"
+   ],
+   "bytes": 422
+  },
+  {
+   "id": "no-period|place/sur",
+   "file": "media/time-browser/cards/card-no-period-place-sur.svg",
+   "period": "no-period",
+   "place": "place/sur",
+   "color": "#5f5a53",
+   "stops": [
+    "place/sur"
+   ],
+   "bytes": 392
+  },
+  {
    "id": "no-period|place/sur-lubnan",
    "file": "media/time-browser/cards/card-no-period-place-sur-lubnan.svg",
    "period": "no-period",
@@ -17167,6 +17348,28 @@
     "place/sur-lubnan"
    ],
    "bytes": 418
+  },
+  {
+   "id": "no-period|place/suraws",
+   "file": "media/time-browser/cards/card-no-period-place-suraws.svg",
+   "period": "no-period",
+   "place": "place/suraws",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suraws"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/surqusa",
+   "file": "media/time-browser/cards/card-no-period-place-surqusa.svg",
+   "period": "no-period",
+   "place": "place/surqusa",
+   "color": "#5f5a53",
+   "stops": [
+    "place/surqusa"
+   ],
+   "bytes": 404
   },
   {
    "id": "no-period|place/surraq",
@@ -17202,6 +17405,39 @@
    "bytes": 434
   },
   {
+   "id": "no-period|place/susat-al-sin",
+   "file": "media/time-browser/cards/card-no-period-place-susat-al-sin.svg",
+   "period": "no-period",
+   "place": "place/susat-al-sin",
+   "color": "#5f5a53",
+   "stops": [
+    "place/susat-al-sin"
+   ],
+   "bytes": 418
+  },
+  {
+   "id": "no-period|place/suways",
+   "file": "media/time-browser/cards/card-no-period-place-suways.svg",
+   "period": "no-period",
+   "place": "place/suways",
+   "color": "#5f5a53",
+   "stops": [
+    "place/suways"
+   ],
+   "bytes": 404
+  },
+  {
+   "id": "no-period|place/tabala",
+   "file": "media/time-browser/cards/card-no-period-place-tabala.svg",
+   "period": "no-period",
+   "place": "place/tabala",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tabala"
+   ],
+   "bytes": 400
+  },
+  {
    "id": "no-period|place/tabariyya",
    "file": "media/time-browser/cards/card-no-period-place-tabariyya.svg",
    "period": "no-period",
@@ -17211,6 +17447,50 @@
     "place/tabariyya"
    ],
    "bytes": 400
+  },
+  {
+   "id": "no-period|place/tabarmin",
+   "file": "media/time-browser/cards/card-no-period-place-tabarmin.svg",
+   "period": "no-period",
+   "place": "place/tabarmin",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tabarmin"
+   ],
+   "bytes": 404
+  },
+  {
+   "id": "no-period|place/tabarqa",
+   "file": "media/time-browser/cards/card-no-period-place-tabarqa.svg",
+   "period": "no-period",
+   "place": "place/tabarqa",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tabarqa"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/tabas",
+   "file": "media/time-browser/cards/card-no-period-place-tabas.svg",
+   "period": "no-period",
+   "place": "place/tabas",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tabas"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/tabna",
+   "file": "media/time-browser/cards/card-no-period-place-tabna.svg",
+   "period": "no-period",
+   "place": "place/tabna",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tabna"
+   ],
+   "bytes": 396
   },
   {
    "id": "no-period|place/tabriz",
@@ -17246,6 +17526,50 @@
    "bytes": 400
   },
   {
+   "id": "no-period|place/tadlis",
+   "file": "media/time-browser/cards/card-no-period-place-tadlis.svg",
+   "period": "no-period",
+   "place": "place/tadlis",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tadlis"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/tadmur",
+   "file": "media/time-browser/cards/card-no-period-place-tadmur.svg",
+   "period": "no-period",
+   "place": "place/tadmur",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tadmur"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/tahart",
+   "file": "media/time-browser/cards/card-no-period-place-tahart.svg",
+   "period": "no-period",
+   "place": "place/tahart",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tahart"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/tahirt",
+   "file": "media/time-browser/cards/card-no-period-place-tahirt.svg",
+   "period": "no-period",
+   "place": "place/tahirt",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tahirt"
+   ],
+   "bytes": 400
+  },
+  {
    "id": "no-period|place/taif",
    "file": "media/time-browser/cards/card-no-period-place-taif.svg",
    "period": "no-period",
@@ -17258,6 +17582,83 @@
    "bytes": 404
   },
   {
+   "id": "no-period|place/tajwa",
+   "file": "media/time-browser/cards/card-no-period-place-tajwa.svg",
+   "period": "no-period",
+   "place": "place/tajwa",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tajwa"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/takrur",
+   "file": "media/time-browser/cards/card-no-period-place-takrur.svg",
+   "period": "no-period",
+   "place": "place/takrur",
+   "color": "#5f5a53",
+   "stops": [
+    "place/takrur"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/talabira",
+   "file": "media/time-browser/cards/card-no-period-place-talabira.svg",
+   "period": "no-period",
+   "place": "place/talabira",
+   "color": "#5f5a53",
+   "stops": [
+    "place/talabira"
+   ],
+   "bytes": 404
+  },
+  {
+   "id": "no-period|place/talaqan",
+   "file": "media/time-browser/cards/card-no-period-place-talaqan.svg",
+   "period": "no-period",
+   "place": "place/talaqan",
+   "color": "#5f5a53",
+   "stops": [
+    "place/talaqan"
+   ],
+   "bytes": 412
+  },
+  {
+   "id": "no-period|place/tamalma",
+   "file": "media/time-browser/cards/card-no-period-place-tamalma.svg",
+   "period": "no-period",
+   "place": "place/tamalma",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tamalma"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/tamdafus",
+   "file": "media/time-browser/cards/card-no-period-place-tamdafus.svg",
+   "period": "no-period",
+   "place": "place/tamdafus",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tamdafus"
+   ],
+   "bytes": 408
+  },
+  {
+   "id": "no-period|place/tamisa",
+   "file": "media/time-browser/cards/card-no-period-place-tamisa.svg",
+   "period": "no-period",
+   "place": "place/tamisa",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tamisa"
+   ],
+   "bytes": 400
+  },
+  {
    "id": "no-period|place/tana",
    "file": "media/time-browser/cards/card-no-period-place-tana.svg",
    "period": "no-period",
@@ -17267,6 +17668,72 @@
     "place/tana"
    ],
    "bytes": 396
+  },
+  {
+   "id": "no-period|place/tana-india",
+   "file": "media/time-browser/cards/card-no-period-place-tana-india.svg",
+   "period": "no-period",
+   "place": "place/tana-india",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tana-india"
+   ],
+   "bytes": 422
+  },
+  {
+   "id": "no-period|place/tanes",
+   "file": "media/time-browser/cards/card-no-period-place-tanes.svg",
+   "period": "no-period",
+   "place": "place/tanes",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tanes"
+   ],
+   "bytes": 392
+  },
+  {
+   "id": "no-period|place/tanisbar",
+   "file": "media/time-browser/cards/card-no-period-place-tanisbar.svg",
+   "period": "no-period",
+   "place": "place/tanisbar",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tanisbar"
+   ],
+   "bytes": 404
+  },
+  {
+   "id": "no-period|place/tantana-mountain",
+   "file": "media/time-browser/cards/card-no-period-place-tantana-mountain.svg",
+   "period": "no-period",
+   "place": "place/tantana-mountain",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tantana-mountain"
+   ],
+   "bytes": 414
+  },
+  {
+   "id": "no-period|place/tanuma",
+   "file": "media/time-browser/cards/card-no-period-place-tanuma.svg",
+   "period": "no-period",
+   "place": "place/tanuma",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tanuma"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/taqarart",
+   "file": "media/time-browser/cards/card-no-period-place-taqarart.svg",
+   "period": "no-period",
+   "place": "place/taqarart",
+   "color": "#5f5a53",
+   "stops": [
+    "place/taqarart"
+   ],
+   "bytes": 404
   },
   {
    "id": "no-period|place/tarabulus-gharb",
@@ -17291,6 +17758,50 @@
    "bytes": 430
   },
   {
+   "id": "no-period|place/tarawiya",
+   "file": "media/time-browser/cards/card-no-period-place-tarawiya.svg",
+   "period": "no-period",
+   "place": "place/tarawiya",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarawiya"
+   ],
+   "bytes": 400
+  },
+  {
+   "id": "no-period|place/tarband",
+   "file": "media/time-browser/cards/card-no-period-place-tarband.svg",
+   "period": "no-period",
+   "place": "place/tarband",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarband"
+   ],
+   "bytes": 412
+  },
+  {
+   "id": "no-period|place/tarfa",
+   "file": "media/time-browser/cards/card-no-period-place-tarfa.svg",
+   "period": "no-period",
+   "place": "place/tarfa",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarfa"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/tarighyawqan",
+   "file": "media/time-browser/cards/card-no-period-place-tarighyawqan.svg",
+   "period": "no-period",
+   "place": "place/tarighyawqan",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarighyawqan"
+   ],
+   "bytes": 412
+  },
+  {
    "id": "no-period|place/tarim",
    "file": "media/time-browser/cards/card-no-period-place-tarim.svg",
    "period": "no-period",
@@ -17300,6 +17811,39 @@
     "place/tarim"
    ],
    "bytes": 396
+  },
+  {
+   "id": "no-period|place/tarir",
+   "file": "media/time-browser/cards/card-no-period-place-tarir.svg",
+   "period": "no-period",
+   "place": "place/tarir",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarir"
+   ],
+   "bytes": 396
+  },
+  {
+   "id": "no-period|place/tarjinis",
+   "file": "media/time-browser/cards/card-no-period-place-tarjinis.svg",
+   "period": "no-period",
+   "place": "place/tarjinis",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarjinis"
+   ],
+   "bytes": 404
+  },
+  {
+   "id": "no-period|place/tarnit",
+   "file": "media/time-browser/cards/card-no-period-place-tarnit.svg",
+   "period": "no-period",
+   "place": "place/tarnit",
+   "color": "#5f5a53",
+   "stops": [
+    "place/tarnit"
+   ],
+   "bytes": 400
   },
   {
    "id": "no-period|place/tawwaj",
@@ -17703,6 +18247,7 @@
     "building/bu-ftata-mosque-sousse",
     "building/dor-ul-juzjoniya-madrasa",
     "building/farashah-shrine",
+    "building/friday-mosque-samarkand",
     "concept/al-kalim-wal-kalam",
     "concept/algebra",
     "concept/hadiyya-fiqh",
@@ -17937,6 +18482,7 @@
     "event/qatr-al-nada-marriage",
     "event/rashid-founds-khizanat-al-hikma",
     "event/tai-deposition-381",
+    "event/bishr-ghassan-musa-barmaki",
     "group/hanafi-madhhab",
     "group/imamiyya",
     "group/maliki-madhhab",
@@ -17974,6 +18520,7 @@
     "person/babak-al-khurrami",
     "person/ishaq-ibn-hassan-al-khuraymi",
     "person/kulthum-al-attabi",
+    "person/al-tai-billah",
     "polity/dulafid-dynasty",
     "polity/emirate-of-al-zajjaj",
     "polity/midrarid-dynasty",
@@ -18217,6 +18764,7 @@
     "event/nasir-dawla-march-335",
     "event/nasrani-hadd-riot-284",
     "event/qaim-tughril-sister-marriage-448",
+    "event/amr-transoxiana-investiture-285",
     "place/baghdad"
    ],
    "bytes": 582
@@ -18869,6 +19417,7 @@
     "concept/khilafa-rashida",
     "concept/laylat-al-ghatas",
     "concept/miqyas-al-nil",
+    "concept/ruyat-allah",
     "event/aqsa-earthquake-rebuild",
     "event/batiniyya-terror-iraq-494",
     "event/battle-of-manzikert-463",
@@ -18915,6 +19464,8 @@
     "person/rukn-al-din-al-amidi",
     "person/sharaf-al-din-abu-nasr-al-kashani",
     "person/yazid-ibn-muhammad-al-azdi",
+    "person/ibn-hazm",
+    "person/masud-ibn-muhammad-saljuqi",
     "polity/banu-abi-al-afiya",
     "polity/banu-ukhaydhir",
     "polity/sallarid-dynasty",
@@ -19219,6 +19770,7 @@
     "building/davazdah-imam-shrine",
     "building/deggaron-mosque",
     "building/east-kharaqan-tower",
+    "building/galua-paka-mosque",
     "concept/darajat-al-dawa-al-nizariyya",
     "concept/dai-al-duat",
     "event/asayfar-hajj-394",
@@ -19277,6 +19829,8 @@
     "person/farid-al-din-attar",
     "person/kutayfat-ibn-al-afdal",
     "person/shams-al-din-al-aflaki",
+    "person/al-sharif-al-murtada",
+    "person/musharrif-al-dawla",
     "polity/annazid-dynasty",
     "polity/begtiginid-erbil",
     "polity/hammadid-dynasty",
@@ -19507,7 +20061,8 @@
    "place": "place/basra",
    "color": "#8e5aa8",
    "stops": [
-    "event/zubayr-tomb-basra-386"
+    "event/zubayr-tomb-basra-386",
+    "person/ibn-al-haytham"
    ],
    "bytes": 613
   },
@@ -19651,6 +20206,17 @@
     "event/muhammad-tapar-batiniyya-fort-500"
    ],
    "bytes": 613
+  },
+  {
+   "id": "period/buyid-seljuk-fatimid-era|place/jerusalem",
+   "file": "media/time-browser/cards/card-period-buyid-seljuk-fatimid-era-place-jerusalem.svg",
+   "period": "period/buyid-seljuk-fatimid-era",
+   "place": "place/jerusalem",
+   "color": "#8e5aa8",
+   "stops": [
+    "event/atsiz-sham-campaign"
+   ],
+   "bytes": 609
   },
   {
    "id": "period/buyid-seljuk-fatimid-era|place/jurjan",
@@ -20096,10 +20662,18 @@
     "building/falaknuma-palace",
     "building/farxat-mosque",
     "building/fathulloh-koshbegi-madrasa",
+    "building/freetown-central-mosque",
+    "building/fuyou-road-mosque",
+    "building/galiyev-mosque",
+    "building/gang-bengkok-old-mosque",
+    "building/garibiya-madrasa",
+    "building/gasimbey-mosque-baku",
+    "building/gataulla-mulla-mosque-troitsk",
     "concept/colonial-powers-and-islam",
     "concept/hadrami-question-in-java",
     "concept/missionary-movement-in-muslim-lands",
     "concept/quran-translation-debate",
+    "concept/russian-policy-in-the-east",
     "event/siege-of-khartoum-1885",
     "group/al-bu-said",
     "group/al-sabah",
@@ -21673,6 +22247,11 @@
     "building/fanar-mosque-doha",
     "building/farouq-mosque-khartoum",
     "building/fatima-zahra-mosque-baku",
+    "building/feyziyeh-madrasa",
+    "building/floating-mosque-of-palu",
+    "building/fuengirola-mosque",
+    "building/gaddafi-mosque-dodoma",
+    "building/gamal-abdel-nasser-mosque",
     "concept/al-hijra-ila-al-gharb",
     "concept/al-ilmaniyya-wal-islam",
     "concept/al-mara-wal-ittifaqiyat-al-dawliyya",
@@ -22081,6 +22660,13 @@
     "building/farag-ibn-barquq-complex",
     "building/fethiye-mosque-athens",
     "building/fethiye-mosque-ioannina",
+    "building/firoz-shah-palace-hisar",
+    "building/firuz-aga-mosque",
+    "building/friday-mosque",
+    "building/galata-tower",
+    "building/gawhar-shad-mausoleum",
+    "building/gawhar-shad-mosque",
+    "building/gazi-ali-beg-mosque",
     "concept/madaris-harbiyya-muwahhidiyya",
     "concept/adillat-al-qibla",
     "event/al-uqab-609",
@@ -22131,6 +22717,7 @@
     "event/killing-of-amir-al-hajj-618",
     "event/red-sea-raid-578",
     "event/shirkuh-egypt-expedition-562",
+    "event/battle-of-hattin-583",
     "group/chishtiyya",
     "group/qadiriyya",
     "group/banu-yadar",
@@ -22181,6 +22768,8 @@
     "person/umur-beg",
     "person/al-malik-al-muazzam",
     "person/al-mustansir-billah",
+    "person/dubays-ibn-sadaqa",
+    "person/fakhr-al-din-al-razi",
     "polity/banu-ghaniya",
     "polity/burji-dynasty",
     "polity/delhi-sultanate",
@@ -22444,6 +23033,17 @@
    "bytes": 613
   },
   {
+   "id": "period/crusades-ayyubid-mamluk|place/baalbek",
+   "file": "media/time-browser/cards/card-period-crusades-ayyubid-mamluk-place-baalbek.svg",
+   "period": "period/crusades-ayyubid-mamluk",
+   "place": "place/baalbek",
+   "color": "#2a7b88",
+   "stops": [
+    "person/muhammad-al-yunini"
+   ],
+   "bytes": 613
+  },
+  {
    "id": "period/crusades-ayyubid-mamluk|place/baghdad",
    "file": "media/time-browser/cards/card-period-crusades-ayyubid-mamluk-place-baghdad.svg",
    "period": "period/crusades-ayyubid-mamluk",
@@ -22462,7 +23062,8 @@
     "event/zahir-accession-622",
     "event/caliph-army-tughril-586",
     "event/death-of-mustansir-640",
-    "event/nasir-vizier-dismissed-606"
+    "event/nasir-vizier-dismissed-606",
+    "event/death-mustadi-575"
    ],
    "bytes": 613
   },
@@ -22736,6 +23337,17 @@
    "bytes": 609
   },
   {
+   "id": "period/crusades-ayyubid-mamluk|place/harran",
+   "file": "media/time-browser/cards/card-period-crusades-ayyubid-mamluk-place-harran.svg",
+   "period": "period/crusades-ayyubid-mamluk",
+   "place": "place/harran",
+   "color": "#2a7b88",
+   "stops": [
+    "person/majd-al-din-ibn-taymiyya"
+   ],
+   "bytes": 609
+  },
+  {
    "id": "period/crusades-ayyubid-mamluk|place/herat",
    "file": "media/time-browser/cards/card-period-crusades-ayyubid-mamluk-place-herat.svg",
    "period": "period/crusades-ayyubid-mamluk",
@@ -22850,7 +23462,8 @@
    "color": "#2a7b88",
    "stops": [
     "event/jerusalem-walls-demolished-616",
-    "event/saladin-jerusalem-583"
+    "event/saladin-jerusalem-583",
+    "event/death-of-amalric-569"
    ],
    "bytes": 613
   },
@@ -23164,7 +23777,8 @@
     "event/turkman-kurd-fitna-581",
     "event/zangid-house-ends-631",
     "event/nur-aldin-adiliyya-defeat-600",
-    "event/sulh-saladin-atabeg-581"
+    "event/sulh-saladin-atabeg-581",
+    "person/ibn-al-athir-izz-al-din"
    ],
    "bytes": 617
   },
@@ -24130,6 +24744,33 @@
     "building/ferhat-pasha-mosque",
     "building/ferhat-pasha-tomb",
     "building/feridun-ahmet-pasha-tomb",
+    "building/fethiye-mosque-nafpaktos",
+    "building/fethiye-turbesi",
+    "building/fethullah-dede-turbesi",
+    "building/fetih-mescidi-medine",
+    "building/fettahoglu-agca-bey-kumbeti",
+    "building/feyzoul-mosque-arta",
+    "building/feyzullah-pasa-turbesi",
+    "building/filibeli-tevfik-mehmet-tomb",
+    "building/firdevs-hatun-tomb",
+    "building/firuz-han-turbesi",
+    "building/five-yatirlar-tomb",
+    "building/fizze-en-nubiyye-turbesi",
+    "building/former-medrese-roman-agora-athens",
+    "building/fort-mosque-lezhe",
+    "building/franz-schons-palace-complex",
+    "building/galagayin-mosque",
+    "building/galip-pasha-tomb",
+    "building/ganiseyh-turbesi",
+    "building/ganjali-khan-caravanserai-kerman",
+    "building/garip-dede-tomb",
+    "building/garip-dede-turbesi-yerkoy",
+    "building/gazanfer-agha-tomb",
+    "building/gazanfer-bey-mosque",
+    "building/gazi-abdulcemil-turbesi",
+    "building/gazi-abdurrahman-pasa-turbesi",
+    "building/gazi-ahmet-pasha-tomb",
+    "building/gazi-ali-pasa-mosque-babadag",
     "concept/aljamia",
     "concept/aqsam-al-talif-saba",
     "concept/devshirme",
@@ -24213,6 +24854,9 @@
     "person/kara-ahmed-pasha",
     "person/muhammad-ashik",
     "person/muhammad-ibn-al-jayyib-al-alami",
+    "person/francis-i-france",
+    "person/jem-sultan",
+    "person/kilic-ali-pasha",
     "polity/alawi-dynasty-morocco",
     "polity/emirate-of-al-muammar-uyayna",
     "polity/karrani-dynasty",
@@ -24755,11 +25399,13 @@
     "concept/orientalist-claims-on-quran-authorship",
     "concept/orientalist-claims-on-sharia-and-roman-law",
     "concept/pan-islamism",
+    "concept/sanusi-pan-islamic-plan",
     "event/battle-navarino-1243",
     "event/french-campaign-egypt-1213",
     "event/unification-of-saudi-arabia",
     "event/greek-revolt-morea",
     "event/muhammad-ali-sham-campaign",
+    "event/arab-revolt-1334",
     "group/al-dhafir-tribe",
     "group/brukan-tribe",
     "group/hashemite-dynasty-iraq",
@@ -24969,6 +25615,8 @@
     "person/zinedine-zidane",
     "person/zubeida-jaffer",
     "person/abd-al-aziz-uthmani",
+    "person/mahmud-ii-uthmani",
+    "person/muhammad-abduh",
     "work/al-khitat-al-tawfiqiyya",
     "work/risalat-al-tawhid",
     "work/tafsir-al-manar",
@@ -25555,6 +26203,7 @@
     "building/dar-al-quran-al-rashaiyya",
     "building/dar-al-quran-al-sabuniyya",
     "building/dar-al-quran-al-sinjariyya",
+    "building/garabaghlar-mausoleum",
     "concept/amir-akhur",
     "concept/amir-majlis",
     "concept/amir-silah",
@@ -25615,6 +26264,8 @@
     "event/mustansir-iraq-expedition-660",
     "event/timur-sack-damascus-803",
     "event/turanshah-murder-shajar-durr-648",
+    "event/ashraf-khalil-murder-693",
+    "event/cairo-caliphate-baya-659",
     "group/mongols",
     "group/bani-abd-al-wad",
     "group/bani-al-ahmar",
@@ -25643,6 +26294,8 @@
     "person/awhadi",
     "person/gedik-ahmed-pasha",
     "person/radi-al-din-al-astarabadhi",
+    "person/isa-calabi",
+    "person/jochi-ibn-genghis",
     "polity/eretnid-state",
     "polity/khalji-dynasty",
     "polity/lodi-dynasty",
@@ -25664,7 +26317,6 @@
     "work/mashari-al-ashwaq",
     "work/sharh-tashrih-al-qanun",
     "work/unmudhaj-al-ulum",
-    "event/cairo-caliphate-baya-659",
     "event/green-turban-ashraf-773",
     "event/medina-mosque-fire-886",
     "person/al-hasan-ibn-zayd-al-dai",
@@ -26120,6 +26772,17 @@
    "bytes": 615
   },
   {
+   "id": "period/mongol-post-mongol|place/tarifa",
+   "file": "media/time-browser/cards/card-period-mongol-post-mongol-place-tarifa.svg",
+   "period": "period/mongol-post-mongol",
+   "place": "place/tarifa",
+   "color": "#2a7b88",
+   "stops": [
+    "event/battle-of-tarifa-741"
+   ],
+   "bytes": 585
+  },
+  {
    "id": "period/mongol-post-mongol|place/tiflis",
    "file": "media/time-browser/cards/card-period-mongol-post-mongol-place-tiflis.svg",
    "period": "period/mongol-post-mongol",
@@ -26261,6 +26924,8 @@
     "person/balam-ibn-baura",
     "person/umm-musa",
     "person/zakariyya",
+    "person/amr-ibn-kulthum",
+    "person/khosrow-ii",
     "polity/himyarite-kingdom",
     "polity/lakhmid-kingdom"
    ],
@@ -26344,7 +27009,8 @@
    "color": "#b65c5c",
    "stops": [
     "group/dajaima",
-    "group/qudaa"
+    "group/qudaa",
+    "person/jafna-ibn-amr"
    ],
    "bytes": 620
   },
@@ -26577,6 +27243,17 @@
     "group/christians-of-najran"
    ],
    "bytes": 602
+  },
+  {
+   "id": "period/pre-islamic-arabia|place/oman",
+   "file": "media/time-browser/cards/card-period-pre-islamic-arabia-place-oman.svg",
+   "period": "period/pre-islamic-arabia",
+   "place": "place/oman",
+   "color": "#b65c5c",
+   "stops": [
+    "person/imran-ibn-amr"
+   ],
+   "bytes": 598
   },
   {
    "id": "period/pre-islamic-arabia|place/petra",
@@ -27505,6 +28182,42 @@
     "concept/rizq-al-salb",
     "concept/rizq-stipend-fiqh",
     "concept/row-prayer-saff",
+    "concept/ruaf-fiqh",
+    "concept/ruai-fiqh",
+    "concept/rubu-fiqh",
+    "concept/ruju-fiqh",
+    "concept/rukhsa-usul",
+    "concept/rukn-fiqh",
+    "concept/rukub-fiqh",
+    "concept/rukuh-fiqh",
+    "concept/rukun-khitba-fiqh",
+    "concept/rumour-in-islam",
+    "concept/ruqba-fiqh",
+    "concept/ruqya-fiqh",
+    "concept/rusgh-fiqh",
+    "concept/rushd-fiqh",
+    "concept/ruya-fiqh",
+    "concept/ruyah-fiqh",
+    "concept/ruyat-hilal-fiqh",
+    "concept/saa",
+    "concept/sabians-sabia",
+    "concept/sacred-relics-and-sakina",
+    "concept/salat-al-wusta",
+    "concept/sama",
+    "concept/samt",
+    "concept/sanad-document",
+    "concept/sanah",
+    "concept/sarf-fiqh-rulings",
+    "concept/sarura-hajj",
+    "concept/sawm-bidding-and-pasture",
+    "concept/sayf-weapon-and-retaliation",
+    "concept/shaair-rites-and-signs",
+    "concept/shabah-resemblance-analogy",
+    "concept/shadharwan",
+    "concept/shahadat-allah-bi-tawhidihi",
+    "concept/shahm-fat",
+    "concept/shajar-trees",
+    "concept/shar-man-qablana",
     "event/hypocrites-ambush-at-the-pass",
     "event/raid-of-ghalib-on-banu-murra",
     "event/hatib-letter-to-quraysh",
@@ -27525,6 +28238,9 @@
     "event/sariyya-of-ali-to-al-fals",
     "event/sariyya-of-qutba-to-khatham",
     "event/soothsayer-episode-banu-sad",
+    "event/ali-expedition-to-al-fuls",
+    "event/ali-sent-to-banu-jadhima",
+    "event/death-of-arbad-ibn-qays",
     "exhibit/path-from-opposition-to-islam",
     "exhibit/path-hadith",
     "exhibit/path-meccan-period",
@@ -27593,6 +28309,14 @@
     "person/al-bara-ibn-malik",
     "person/al-fadl-ibn-al-abbas",
     "person/al-miswar-ibn-makhrama",
+    "person/ama-bint-khalid",
+    "person/amr-ibn-umayya-al-damri",
+    "person/arbad-ibn-qays",
+    "person/fatima-bint-al-harith-ibn-khalid",
+    "person/fatima-bint-al-khattab",
+    "person/fatima-bint-qays",
+    "person/hatib-ibn-abi-baltaa",
+    "person/rafi-ibn-malik",
     "work/bujayr-ibn-bujra-verses",
     "work/hadith-of-the-five-afflictions",
     "work/said-ibn-al-as-verses-to-amr",
@@ -27627,6 +28351,7 @@
    "color": "#7a5c3e",
    "stops": [
     "event/martyrdom-of-farwa-al-judhami",
+    "person/farwa-ibn-amr-al-judhami",
     "work/farwa-al-judhami-prison-verses"
    ],
    "bytes": 575
@@ -27653,7 +28378,12 @@
     "event/emigrants-carried-in-two-ships",
     "event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia",
     "person/al-muttalib-ibn-azhar",
-    "person/al-numan-ibn-adi"
+    "person/al-numan-ibn-adi",
+    "person/amina-bint-khalf",
+    "person/amr-ibn-jahm",
+    "person/hattab-ibn-al-harith",
+    "person/khuzayma-ibn-jahm",
+    "person/mahmiyya-ibn-al-jaz"
    ],
    "bytes": 567
   },
@@ -27730,6 +28460,17 @@
     "event/distribution-of-hunayn-spoils"
    ],
    "bytes": 579
+  },
+  {
+   "id": "period/prophetic-era|place/al-jurf",
+   "file": "media/time-browser/cards/card-period-prophetic-era-place-al-jurf.svg",
+   "period": "period/prophetic-era",
+   "place": "place/al-jurf",
+   "color": "#7a5c3e",
+   "stops": [
+    "event/ali-left-with-the-prophets-family"
+   ],
+   "bytes": 571
   },
   {
    "id": "period/prophetic-era|place/al-khandama",
@@ -28138,6 +28879,7 @@
     "event/killing-of-al-yasir-ibn-rizam",
     "event/return-of-abyssinian-emigrants",
     "event/battle-of-khaybar",
+    "event/assassination-of-sallam-ibn-abi-al-huqayq",
     "group/jews-of-khaybar"
    ],
    "bytes": 563
@@ -28150,6 +28892,7 @@
    "color": "#7a5c3e",
    "stops": [
     "person/al-ashath-ibn-qays",
+    "person/labid-ibn-rabia",
     "person/jabir-ibn-samura"
    ],
    "bytes": 571
@@ -28251,6 +28994,7 @@
     "event/abu-jahl-stone-plot",
     "group/banu-hashim",
     "person/amr-ibn-al-as",
+    "person/dubaa-bint-amir",
     "place/ghar-thawr",
     "place/ghar-hira",
     "place/shib-abi-talib",
@@ -28440,7 +29184,8 @@
     "event/mission-of-muadh-to-yemen",
     "event/prophets-yemen-appointments",
     "event/ali-expeditions-to-yemen",
-    "event/ali-judgment-lion-pit-yemen"
+    "event/ali-judgment-lion-pit-yemen",
+    "event/ali-judgment-three-men-one-tuhr"
    ],
    "bytes": 567
   },
@@ -28483,6 +29228,7 @@
     "concept/mushaf",
     "concept/muta",
     "concept/nakhwa-chivalry",
+    "concept/security-of-life-in-islam",
     "event/first-crossing-of-darb-baghras",
     "event/umar-rizq-system",
     "event/battle-of-buzakha",
@@ -28540,6 +29286,10 @@
     "event/umar-fay-justice",
     "event/umar-justice-anecdotes",
     "event/umar-marries-umm-kulthum-bint-ali",
+    "event/ali-flogs-al-walid-ibn-uqba",
+    "event/ali-oversight-of-governors",
+    "event/bajila-sawad-quarter",
+    "event/baya-of-uthman",
     "group/habasha-of-al-bayma",
     "group/lawata",
     "group/samaritans",
@@ -28551,6 +29301,8 @@
     "person/al-ahnaf-ibn-qays",
     "person/malik-al-ashtar",
     "person/abu-al-shatha-al-ajdaji",
+    "person/muawiya-ibn-khudayj",
+    "person/qays-ibn-al-haytham",
     "person/abu-marthad-al-ghanawi"
    ],
    "bytes": 474
@@ -28641,6 +29393,7 @@
    "place": "place/al-madain",
    "color": "#2a7b88",
    "stops": [
+    "event/conquest-of-madain",
     "place/al-madain"
    ],
    "bytes": 590
@@ -28729,6 +29482,7 @@
    "place": "place/al-ruha",
    "color": "#2a7b88",
    "stops": [
+    "event/conquest-of-ruha",
     "place/jazira"
    ],
    "bytes": 582
@@ -28743,6 +29497,17 @@
     "place/al-rumiyya"
    ],
    "bytes": 590
+  },
+  {
+   "id": "period/rashidun|place/al-sham",
+   "file": "media/time-browser/cards/card-period-rashidun-place-al-sham.svg",
+   "period": "period/rashidun",
+   "place": "place/al-sham",
+   "color": "#2a7b88",
+   "stops": [
+    "event/amwas-plague"
+   ],
+   "bytes": 600
   },
   {
    "id": "period/rashidun|place/al-sus",
@@ -28854,6 +29619,7 @@
    "color": "#2a7b88",
    "stops": [
     "event/habib-armenia-circuit",
+    "event/armenia-azerbaijan-sulh",
     "place/arjish",
     "place/qabala",
     "place/shamkur",
@@ -28871,6 +29637,17 @@
     "event/salman-arran-campaign"
    ],
    "bytes": 582
+  },
+  {
+   "id": "period/rashidun|place/ascalon",
+   "file": "media/time-browser/cards/card-period-rashidun-place-ascalon.svg",
+   "period": "period/rashidun",
+   "place": "place/ascalon",
+   "color": "#2a7b88",
+   "stops": [
+    "event/conquest-of-ascalon"
+   ],
+   "bytes": 586
   },
   {
    "id": "period/rashidun|place/atrabulus",
@@ -29033,6 +29810,8 @@
    "color": "#2a7b88",
    "stops": [
     "event/conquest-of-damascus",
+    "event/battle-of-marj-al-rum",
+    "event/death-of-habib-ibn-maslama",
     "place/busra",
     "place/homs"
    ],
@@ -29090,6 +29869,7 @@
    "color": "#2a7b88",
    "stops": [
     "event/conquest-of-dinawar",
+    "event/conquest-of-dinawar-masabadhan",
     "place/dinawar"
    ],
    "bytes": 590
@@ -29183,6 +29963,17 @@
    "stops": [
     "event/conquest-of-isbahan",
     "place/isbahan"
+   ],
+   "bytes": 586
+  },
+  {
+   "id": "period/rashidun|place/isfahan",
+   "file": "media/time-browser/cards/card-period-rashidun-place-isfahan.svg",
+   "period": "period/rashidun",
+   "place": "place/isfahan",
+   "color": "#2a7b88",
+   "stops": [
+    "event/conquest-of-isfahan"
    ],
    "bytes": 586
   },
@@ -29348,7 +30139,8 @@
    "place": "place/khuzistan",
    "color": "#2a7b88",
    "stops": [
-    "event/abu-al-mukhtar-satire"
+    "event/abu-al-mukhtar-satire",
+    "event/asawira-defection"
    ],
    "bytes": 590
   },
@@ -29397,6 +30189,17 @@
     "place/kuwayfa"
    ],
    "bytes": 606
+  },
+  {
+   "id": "period/rashidun|place/ladhiqiyya",
+   "file": "media/time-browser/cards/card-period-rashidun-place-ladhiqiyya.svg",
+   "period": "period/rashidun",
+   "place": "place/ladhiqiyya",
+   "color": "#2a7b88",
+   "stops": [
+    "event/conquest-of-ladhiqiyya"
+   ],
+   "bytes": 594
   },
   {
    "id": "period/rashidun|place/madinat-al-mubarak",
@@ -29497,7 +30300,8 @@
     "event/mughira-adultery-affair",
     "event/uthman-standardizes-mushaf",
     "event/ali-first-khutba-as-caliph",
-    "event/ahnaf-basra-petition"
+    "event/ahnaf-basra-petition",
+    "event/ali-refuses-to-lead-prayer-during-siege"
    ],
    "bytes": 620
   },
@@ -29757,6 +30561,7 @@
    "place": "place/qumm",
    "color": "#2a7b88",
    "stops": [
+    "event/conquest-of-qumm-qashan",
     "place/qumm"
    ],
    "bytes": 570
@@ -29851,6 +30656,17 @@
    "bytes": 582
   },
   {
+   "id": "period/rashidun|place/siffin",
+   "file": "media/time-browser/cards/card-period-rashidun-place-siffin.svg",
+   "period": "period/rashidun",
+   "place": "place/siffin",
+   "color": "#2a7b88",
+   "stops": [
+    "event/ali-spares-amr-ibn-al-as"
+   ],
+   "bytes": 590
+  },
+  {
    "id": "period/rashidun|place/sijistan",
    "file": "media/time-browser/cards/card-period-rashidun-place-sijistan.svg",
    "period": "period/rashidun",
@@ -29894,6 +30710,17 @@
     "place/sisar"
    ],
    "bytes": 578
+  },
+  {
+   "id": "period/rashidun|place/surraq",
+   "file": "media/time-browser/cards/card-period-rashidun-place-surraq.svg",
+   "period": "period/rashidun",
+   "place": "place/surraq",
+   "color": "#2a7b88",
+   "stops": [
+    "event/conquest-of-surraq"
+   ],
+   "bytes": 574
   },
   {
    "id": "period/rashidun|place/sus-khuzistan",
@@ -29946,7 +30773,8 @@
    "place": "place/tarabulus-gharb",
    "color": "#2a7b88",
    "stops": [
-    "event/conquest-of-tripoli-west"
+    "event/conquest-of-tripoli-west",
+    "event/conquest-of-tripoli-libya"
    ],
    "bytes": 612
   },
@@ -30025,7 +30853,8 @@
    "color": "#2a7b88",
    "stops": [
     "event/siege-of-tustar",
-    "event/al-falalij-and-tustar-jaban"
+    "event/al-falalij-and-tustar-jaban",
+    "event/conquest-of-tustar"
    ],
    "bytes": 578
   },
@@ -30098,6 +30927,7 @@
     "building/cheraman-juma-masjid",
     "building/derbent-juma-mosque",
     "building/falqiyya-mosque",
+    "building/fuzhou-mosque",
     "concept/alcazar",
     "concept/amir",
     "concept/mustalah-al-hadith",
@@ -30154,6 +30984,7 @@
     "event/umayya-khurasan-rule",
     "event/waki-ibn-hassan-baya",
     "event/ziyad-khurasan-settlement",
+    "event/arabization-of-syrian-diwan",
     "group/abbasid-dawa",
     "group/banu-yafran",
     "group/sanhaja",
@@ -30181,6 +31012,7 @@
     "person/kudama-al-sijilli",
     "person/al-jarrah-ibn-abdallah-al-hakami",
     "person/al-muhallab-ibn-abi-sufra",
+    "person/ata-ibn-abi-rabah",
     "polity/zunbil-dynasty",
     "work/farazdaq-verses-on-al-aqra-ibn-habis",
     "event/conquest-of-seville-713",
@@ -30313,6 +31145,17 @@
    "bytes": 593
   },
   {
+   "id": "period/umayyad|place/balkh",
+   "file": "media/time-browser/cards/card-period-umayyad-place-balkh.svg",
+   "period": "period/umayyad",
+   "place": "place/balkh",
+   "color": "#8c6d3b",
+   "stops": [
+    "event/asad-khurasan-rule"
+   ],
+   "bytes": 559
+  },
+  {
    "id": "period/umayyad|place/bardhaa",
    "file": "media/time-browser/cards/card-period-umayyad-place-bardhaa.svg",
    "period": "period/umayyad",
@@ -30405,7 +31248,9 @@
    "color": "#8c6d3b",
    "stops": [
     "event/tamim-ibn-zayd-sind",
-    "event/junayd-sind-wars"
+    "event/junayd-sind-wars",
+    "event/daybul-pirates-hajjaj",
+    "event/daybul-siege"
    ],
    "bytes": 571
   },
@@ -30531,7 +31376,9 @@
    "color": "#8c6d3b",
    "stops": [
     "event/killing-of-muslim-ibn-aqil-60",
-    "event/mukhtar-revolt-kufa"
+    "event/mukhtar-revolt-kufa",
+    "event/arabization-of-iraq-diwan",
+    "event/dahhak-takes-kufa-127"
    ],
    "bytes": 571
   },
@@ -30870,6 +31717,7 @@
    "place": "place/tanja",
    "color": "#8c6d3b",
    "stops": [
+    "event/conquest-of-tanja",
     "place/tanja"
    ],
    "bytes": 563
@@ -30884,6 +31732,17 @@
     "event/musa-death-tirmidh",
     "event/tirmidh-musa-ibn-khazim",
     "event/musa-tirmidh-takeover"
+   ],
+   "bytes": 571
+  },
+  {
+   "id": "period/umayyad|place/tulaytula",
+   "file": "media/time-browser/cards/card-period-umayyad-place-tulaytula.svg",
+   "period": "period/umayyad",
+   "place": "place/tulaytula",
+   "color": "#8c6d3b",
+   "stops": [
+    "event/conquest-of-tulaytula"
    ],
    "bytes": 571
   },
@@ -32202,6 +33061,56 @@
   "building/feridun-ahmet-pasha-tomb": "period/gunpowder-empires|no-place",
   "building/fethiye-mosque-athens": "period/crusades-ayyubid-mamluk|no-place",
   "building/fethiye-mosque-ioannina": "period/crusades-ayyubid-mamluk|no-place",
+  "building/fethiye-mosque-nafpaktos": "period/gunpowder-empires|no-place",
+  "building/fethiye-turbesi": "period/gunpowder-empires|no-place",
+  "building/fethullah-dede-turbesi": "period/gunpowder-empires|no-place",
+  "building/fetih-mescidi-medine": "period/gunpowder-empires|no-place",
+  "building/fettahoglu-agca-bey-kumbeti": "period/gunpowder-empires|no-place",
+  "building/feyziyeh-madrasa": "period/contemporary-era|no-place",
+  "building/feyzoul-mosque-arta": "period/gunpowder-empires|no-place",
+  "building/feyzullah-pasa-turbesi": "period/gunpowder-empires|no-place",
+  "building/filibeli-tevfik-mehmet-tomb": "period/gunpowder-empires|no-place",
+  "building/firdevs-hatun-tomb": "period/gunpowder-empires|no-place",
+  "building/firoz-shah-palace-hisar": "period/crusades-ayyubid-mamluk|no-place",
+  "building/firuz-aga-mosque": "period/crusades-ayyubid-mamluk|no-place",
+  "building/firuz-han-turbesi": "period/gunpowder-empires|no-place",
+  "building/five-yatirlar-tomb": "period/gunpowder-empires|no-place",
+  "building/fizze-en-nubiyye-turbesi": "period/gunpowder-empires|no-place",
+  "building/floating-mosque-of-palu": "period/contemporary-era|no-place",
+  "building/former-medrese-roman-agora-athens": "period/gunpowder-empires|no-place",
+  "building/fort-mosque-lezhe": "period/gunpowder-empires|no-place",
+  "building/franz-schons-palace-complex": "period/gunpowder-empires|no-place",
+  "building/freetown-central-mosque": "period/colonial-era|no-place",
+  "building/friday-mosque-samarkand": "period/abbasid-early|no-place",
+  "building/friday-mosque": "period/crusades-ayyubid-mamluk|no-place",
+  "building/fuengirola-mosque": "period/contemporary-era|no-place",
+  "building/fuyou-road-mosque": "period/colonial-era|no-place",
+  "building/fuzhou-mosque": "period/umayyad|no-place",
+  "building/gaddafi-mosque-dodoma": "period/contemporary-era|no-place",
+  "building/galagayin-mosque": "period/gunpowder-empires|no-place",
+  "building/galata-tower": "period/crusades-ayyubid-mamluk|no-place",
+  "building/galip-pasha-tomb": "period/gunpowder-empires|no-place",
+  "building/galiyev-mosque": "period/colonial-era|no-place",
+  "building/galua-paka-mosque": "period/buyid-seljuk-fatimid-era|no-place",
+  "building/gamal-abdel-nasser-mosque": "period/contemporary-era|no-place",
+  "building/gang-bengkok-old-mosque": "period/colonial-era|no-place",
+  "building/ganiseyh-turbesi": "period/gunpowder-empires|no-place",
+  "building/ganjali-khan-caravanserai-kerman": "period/gunpowder-empires|no-place",
+  "building/garabaghlar-mausoleum": "period/mongol-post-mongol|no-place",
+  "building/garibiya-madrasa": "period/colonial-era|no-place",
+  "building/garip-dede-tomb": "period/gunpowder-empires|no-place",
+  "building/garip-dede-turbesi-yerkoy": "period/gunpowder-empires|no-place",
+  "building/gasimbey-mosque-baku": "period/colonial-era|no-place",
+  "building/gataulla-mulla-mosque-troitsk": "period/colonial-era|no-place",
+  "building/gawhar-shad-mausoleum": "period/crusades-ayyubid-mamluk|no-place",
+  "building/gawhar-shad-mosque": "period/crusades-ayyubid-mamluk|no-place",
+  "building/gazanfer-agha-tomb": "period/gunpowder-empires|no-place",
+  "building/gazanfer-bey-mosque": "period/gunpowder-empires|no-place",
+  "building/gazi-abdulcemil-turbesi": "period/gunpowder-empires|no-place",
+  "building/gazi-abdurrahman-pasa-turbesi": "period/gunpowder-empires|no-place",
+  "building/gazi-ahmet-pasha-tomb": "period/gunpowder-empires|no-place",
+  "building/gazi-ali-beg-mosque": "period/crusades-ayyubid-mamluk|no-place",
+  "building/gazi-ali-pasa-mosque-babadag": "period/gunpowder-empires|no-place",
   "concept/al-hijra-ila-al-gharb": "period/contemporary-era|no-place",
   "concept/al-huzn": "no-period|no-place",
   "concept/al-idara-al-islamiyya": "no-period|no-place",
@@ -33770,6 +34679,55 @@
   "concept/rizq-al-salb": "period/prophetic-era|no-place",
   "concept/rizq-stipend-fiqh": "period/prophetic-era|no-place",
   "concept/row-prayer-saff": "period/prophetic-era|no-place",
+  "concept/ruaf-fiqh": "period/prophetic-era|no-place",
+  "concept/ruai-fiqh": "period/prophetic-era|no-place",
+  "concept/rubu-fiqh": "period/prophetic-era|no-place",
+  "concept/ruju-al-kawakib": "no-period|no-place",
+  "concept/ruju-fiqh": "period/prophetic-era|no-place",
+  "concept/rukhsa-usul": "period/prophetic-era|no-place",
+  "concept/rukn-fiqh": "period/prophetic-era|no-place",
+  "concept/rukub-fiqh": "period/prophetic-era|no-place",
+  "concept/rukuh-fiqh": "period/prophetic-era|no-place",
+  "concept/rukun-khitba-fiqh": "period/prophetic-era|no-place",
+  "concept/rumour-in-islam": "period/prophetic-era|no-place",
+  "concept/ruqba-fiqh": "period/prophetic-era|no-place",
+  "concept/ruqya-fiqh": "period/prophetic-era|no-place",
+  "concept/rusgh-fiqh": "period/prophetic-era|no-place",
+  "concept/rushd-fiqh": "period/prophetic-era|no-place",
+  "concept/russian-policy-in-the-east": "period/colonial-era|no-place",
+  "concept/ruya-fiqh": "period/prophetic-era|no-place",
+  "concept/ruyah-fiqh": "period/prophetic-era|no-place",
+  "concept/ruyat-allah": "period/abbasid-fragmentation|no-place",
+  "concept/ruyat-hilal-fiqh": "period/prophetic-era|no-place",
+  "concept/saa": "period/prophetic-era|no-place",
+  "concept/sabians-sabia": "period/prophetic-era|no-place",
+  "concept/sabq-in-islam": "no-period|no-place",
+  "concept/sacred-relics-and-sakina": "period/prophetic-era|no-place",
+  "concept/sadaqah": "no-period|no-place",
+  "concept/salat-al-wusta": "period/prophetic-era|no-place",
+  "concept/saltanat-al-kawakib": "no-period|no-place",
+  "concept/sama": "period/prophetic-era|no-place",
+  "concept/samt": "period/prophetic-era|no-place",
+  "concept/sanad-document": "period/prophetic-era|no-place",
+  "concept/sanah": "period/prophetic-era|no-place",
+  "concept/sanusi-pan-islamic-plan": "period/modern-era|no-place",
+  "concept/sarf-fiqh-rulings": "period/prophetic-era|no-place",
+  "concept/sarura-hajj": "period/prophetic-era|no-place",
+  "concept/saving-and-investment-in-islam": "no-period|no-place",
+  "concept/sawm-bidding-and-pasture": "period/prophetic-era|no-place",
+  "concept/sayf-weapon-and-retaliation": "period/prophetic-era|no-place",
+  "concept/seasonal-hours": "no-period|no-place",
+  "concept/sebka": "no-period|no-place",
+  "concept/security-of-life-in-islam": "period/rashidun|no-place",
+  "concept/shaair-rites-and-signs": "period/prophetic-era|no-place",
+  "concept/shabah-resemblance-analogy": "period/prophetic-era|no-place",
+  "concept/shadharwan": "period/prophetic-era|no-place",
+  "concept/shahadat-allah-bi-tawhidihi": "period/prophetic-era|no-place",
+  "concept/shahid": "no-period|no-place",
+  "concept/shahm-fat": "period/prophetic-era|no-place",
+  "concept/shajar-trees": "period/prophetic-era|no-place",
+  "concept/shamsa": "no-period|no-place",
+  "concept/shar-man-qablana": "period/prophetic-era|no-place",
   "event/ibn-battuta-dictates-rihla-1353": "period/mongol-post-mongol|no-place",
   "event/ibn-battuta-journey-to-mali-1352": "period/mongol-post-mongol|no-place",
   "event/ibn-battuta-sets-out-for-hajj-1325": "period/mongol-post-mongol|no-place",
@@ -35243,6 +36201,53 @@
   "event/algiers-expedition-1541": "period/gunpowder-empires|place/algiers",
   "event/algiers-joins-ottoman-1519": "period/gunpowder-empires|place/algiers",
   "event/ali-enters-kufa-36": "period/rashidun|place/kufa",
+  "event/ali-expedition-to-al-fuls": "period/prophetic-era|no-place",
+  "event/ali-flogs-al-walid-ibn-uqba": "period/rashidun|no-place",
+  "event/ali-judgment-three-men-one-tuhr": "period/prophetic-era|place/yemen",
+  "event/ali-left-with-the-prophets-family": "period/prophetic-era|place/al-jurf",
+  "event/ali-oversight-of-governors": "period/rashidun|no-place",
+  "event/ali-refuses-to-lead-prayer-during-siege": "period/rashidun|place/medina",
+  "event/ali-sent-to-banu-jadhima": "period/prophetic-era|no-place",
+  "event/ali-spares-amr-ibn-al-as": "period/rashidun|place/siffin",
+  "event/amr-transoxiana-investiture-285": "period/abbasid-early|place/baghdad",
+  "event/amwas-plague": "period/rashidun|place/al-sham",
+  "event/arab-revolt-1334": "period/modern-era|no-place",
+  "event/arabization-of-iraq-diwan": "period/umayyad|place/kufa",
+  "event/arabization-of-syrian-diwan": "period/umayyad|no-place",
+  "event/armenia-azerbaijan-sulh": "period/rashidun|place/armenia",
+  "event/asad-khurasan-rule": "period/umayyad|place/balkh",
+  "event/asawira-defection": "period/rashidun|place/khuzistan",
+  "event/ashraf-khalil-murder-693": "period/mongol-post-mongol|no-place",
+  "event/assassination-of-sallam-ibn-abi-al-huqayq": "period/prophetic-era|place/khaybar",
+  "event/atsiz-sham-campaign": "period/buyid-seljuk-fatimid-era|place/jerusalem",
+  "event/bajila-sawad-quarter": "period/rashidun|no-place",
+  "event/battle-of-hattin-583": "period/crusades-ayyubid-mamluk|no-place",
+  "event/battle-of-marj-al-rum": "period/rashidun|place/damascus",
+  "event/battle-of-siffin": "no-period|no-place",
+  "event/battle-of-tarifa-741": "period/mongol-post-mongol|place/tarifa",
+  "event/baya-of-uthman": "period/rashidun|no-place",
+  "event/bishr-ghassan-musa-barmaki": "period/abbasid-early|no-place",
+  "event/cairo-caliphate-baya-659": "period/mongol-post-mongol|no-place",
+  "event/conquest-of-al-andalus": "no-period|place/al-andalus",
+  "event/conquest-of-ascalon": "period/rashidun|place/ascalon",
+  "event/conquest-of-dinawar-masabadhan": "period/rashidun|place/dinawar",
+  "event/conquest-of-isfahan": "period/rashidun|place/isfahan",
+  "event/conquest-of-ladhiqiyya": "period/rashidun|place/ladhiqiyya",
+  "event/conquest-of-madain": "period/rashidun|place/al-madain",
+  "event/conquest-of-qumm-qashan": "period/rashidun|place/qumm",
+  "event/conquest-of-ruha": "period/rashidun|place/al-ruha",
+  "event/conquest-of-surraq": "period/rashidun|place/surraq",
+  "event/conquest-of-tanja": "period/umayyad|place/tanja",
+  "event/conquest-of-tripoli-libya": "period/rashidun|place/tarabulus-gharb",
+  "event/conquest-of-tulaytula": "period/umayyad|place/tulaytula",
+  "event/conquest-of-tustar": "period/rashidun|place/tustar",
+  "event/dahhak-takes-kufa-127": "period/umayyad|place/kufa",
+  "event/daybul-pirates-hajjaj": "period/umayyad|place/daybul",
+  "event/daybul-siege": "period/umayyad|place/daybul",
+  "event/death-mustadi-575": "period/crusades-ayyubid-mamluk|place/baghdad",
+  "event/death-of-amalric-569": "period/crusades-ayyubid-mamluk|place/jerusalem",
+  "event/death-of-arbad-ibn-qays": "period/prophetic-era|no-place",
+  "event/death-of-habib-ibn-maslama": "period/rashidun|place/damascus",
   "exhibit/path-botany": "no-period|no-place",
   "exhibit/path-buyid-age": "no-period|no-place",
   "exhibit/path-cairo-buildings": "no-period|no-place",
@@ -37459,6 +38464,52 @@
   "person/al-mustansir-billah": "period/crusades-ayyubid-mamluk|no-place",
   "person/al-muttalib-ibn-azhar": "period/prophetic-era|place/aksum",
   "person/al-numan-ibn-adi": "period/prophetic-era|place/aksum",
+  "person/al-numan-ibn-bashir": "no-period|no-place",
+  "person/al-sharif-al-murtada": "period/buyid-seljuk-fatimid-era|no-place",
+  "person/al-tai-billah": "period/abbasid-early|no-place",
+  "person/ali-ibn-al-madini": "no-period|no-place",
+  "person/ama-bint-khalid": "period/prophetic-era|no-place",
+  "person/amina-bint-khalf": "period/prophetic-era|place/aksum",
+  "person/amr-ibn-jahm": "period/prophetic-era|place/aksum",
+  "person/amr-ibn-kulthum": "period/pre-islamic-arabia|no-place",
+  "person/amr-ibn-umayya-al-damri": "period/prophetic-era|no-place",
+  "person/arbad-ibn-qays": "period/prophetic-era|no-place",
+  "person/ata-ibn-abi-rabah": "period/umayyad|no-place",
+  "person/busr-ibn-abi-artat": "no-period|no-place",
+  "person/dubaa-bint-amir": "period/prophetic-era|place/mecca",
+  "person/dubays-ibn-sadaqa": "period/crusades-ayyubid-mamluk|no-place",
+  "person/fakhr-al-din-al-razi": "period/crusades-ayyubid-mamluk|no-place",
+  "person/farwa-ibn-amr-al-judhami": "period/prophetic-era|place/afra",
+  "person/fatima-bint-al-harith-ibn-khalid": "period/prophetic-era|no-place",
+  "person/fatima-bint-al-khattab": "period/prophetic-era|no-place",
+  "person/fatima-bint-qays": "period/prophetic-era|no-place",
+  "person/francis-i-france": "period/gunpowder-empires|no-place",
+  "person/hanzala-ibn-abi-amir": "no-period|no-place",
+  "person/hatib-ibn-abi-baltaa": "period/prophetic-era|no-place",
+  "person/hattab-ibn-al-harith": "period/prophetic-era|place/aksum",
+  "person/ibn-al-athir-izz-al-din": "period/crusades-ayyubid-mamluk|place/mosul",
+  "person/ibn-al-haytham": "period/buyid-seljuk-fatimid-era|place/basra",
+  "person/ibn-hazm": "period/abbasid-fragmentation|no-place",
+  "person/imran-ibn-amr": "period/pre-islamic-arabia|place/oman",
+  "person/isa-calabi": "period/mongol-post-mongol|no-place",
+  "person/jafna-ibn-amr": "period/pre-islamic-arabia|place/al-sham",
+  "person/jem-sultan": "period/gunpowder-empires|no-place",
+  "person/jochi-ibn-genghis": "period/mongol-post-mongol|no-place",
+  "person/khosrow-ii": "period/pre-islamic-arabia|no-place",
+  "person/khuzayma-ibn-jahm": "period/prophetic-era|place/aksum",
+  "person/kilic-ali-pasha": "period/gunpowder-empires|no-place",
+  "person/labid-ibn-rabia": "period/prophetic-era|place/kufa",
+  "person/mahmiyya-ibn-al-jaz": "period/prophetic-era|place/aksum",
+  "person/mahmud-ii-uthmani": "period/modern-era|no-place",
+  "person/majd-al-din-ibn-taymiyya": "period/crusades-ayyubid-mamluk|place/harran",
+  "person/masud-ibn-muhammad-saljuqi": "period/abbasid-fragmentation|no-place",
+  "person/muawiya-ibn-khudayj": "period/rashidun|no-place",
+  "person/muhammad-abduh": "period/modern-era|no-place",
+  "person/muhammad-al-yunini": "period/crusades-ayyubid-mamluk|place/baalbek",
+  "person/musharrif-al-dawla": "period/buyid-seljuk-fatimid-era|no-place",
+  "person/nasr-ibn-sayyar": "no-period|no-place",
+  "person/qays-ibn-al-haytham": "period/rashidun|no-place",
+  "person/rafi-ibn-malik": "period/prophetic-era|no-place",
   "place/palermo": "no-period|place/palermo",
   "place/ak-mescit": "period/gunpowder-empires|place/ak-mescit",
   "place/ak-saray-urgench": "period/gunpowder-empires|place/ak-saray-urgench",
@@ -38984,6 +40035,54 @@
   "place/sirt": "no-period|place/sirt",
   "place/sisiyan": "no-period|place/sisiyan",
   "place/siwri-hisar": "no-period|place/siwri-hisar",
+  "place/socotra": "no-period|place/socotra",
+  "place/sohar": "no-period|place/sohar",
+  "place/sousse": "no-period|place/sousse",
+  "place/subara": "no-period|place/subara",
+  "place/suhaym": "no-period|place/suhaym",
+  "place/sukh": "no-period|place/sukh",
+  "place/sulaymanan": "no-period|place/sulaymanan",
+  "place/sumba": "no-period|place/sumba",
+  "place/suq-al-ahwaz": "no-period|place/suq-al-ahwaz",
+  "place/suq-al-arbaa": "no-period|place/suq-al-arbaa",
+  "place/suq-ibrahim": "no-period|place/suq-ibrahim",
+  "place/suqmaqiya": "no-period|place/suqmaqiya",
+  "place/suqusiya": "no-period|place/suqusiya",
+  "place/suqya-port": "no-period|place/suqya-port",
+  "place/sur": "no-period|place/sur",
+  "place/suraws": "no-period|place/suraws",
+  "place/surqusa": "no-period|place/surqusa",
+  "place/susat-al-sin": "no-period|place/susat-al-sin",
+  "place/suways": "no-period|place/suways",
+  "place/tabala": "no-period|place/tabala",
+  "place/tabarmin": "no-period|place/tabarmin",
+  "place/tabarqa": "no-period|place/tabarqa",
+  "place/tabas": "no-period|place/tabas",
+  "place/tabna": "no-period|place/tabna",
+  "place/tadlis": "no-period|place/tadlis",
+  "place/tadmur": "no-period|place/tadmur",
+  "place/tahart": "no-period|place/tahart",
+  "place/tahirt": "no-period|place/tahirt",
+  "place/tajwa": "no-period|place/tajwa",
+  "place/takrur": "no-period|place/takrur",
+  "place/talabira": "no-period|place/talabira",
+  "place/talaqan": "no-period|place/talaqan",
+  "place/tamalma": "no-period|place/tamalma",
+  "place/tamdafus": "no-period|place/tamdafus",
+  "place/tamisa": "no-period|place/tamisa",
+  "place/tana-india": "no-period|place/tana-india",
+  "place/tanes": "no-period|place/tanes",
+  "place/tanisbar": "no-period|place/tanisbar",
+  "place/tantana-mountain": "no-period|place/tantana-mountain",
+  "place/tanuma": "no-period|place/tanuma",
+  "place/taqarart": "no-period|place/taqarart",
+  "place/tarawiya": "no-period|place/tarawiya",
+  "place/tarband": "no-period|place/tarband",
+  "place/tarfa": "no-period|place/tarfa",
+  "place/tarighyawqan": "no-period|place/tarighyawqan",
+  "place/tarir": "no-period|place/tarir",
+  "place/tarjinis": "no-period|place/tarjinis",
+  "place/tarnit": "no-period|place/tarnit",
   "polity/alawi-dynasty-morocco": "period/gunpowder-empires|no-place",
   "polity/annazid-dynasty": "period/buyid-seljuk-fatimid-era|no-place",
   "polity/anushtegin-dynasty": "no-period|no-place",
@@ -40639,7 +41738,6 @@
   "event/sayf-al-din-sinjar-573": "period/crusades-ayyubid-mamluk|place/sinjar",
   "event/battle-of-gorgan-1223": "period/crusades-ayyubid-mamluk|no-place",
   "event/attack-on-albalat-1233": "period/crusades-ayyubid-mamluk|no-place",
-  "event/cairo-caliphate-baya-659": "period/mongol-post-mongol|no-place",
   "event/green-turban-ashraf-773": "period/mongol-post-mongol|no-place",
   "event/capture-of-bejaia-1410": "period/crusades-ayyubid-mamluk|no-place",
   "event/battle-of-oranik-1448": "period/crusades-ayyubid-mamluk|no-place",
