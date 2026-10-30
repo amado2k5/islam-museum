@@ -122,7 +122,13 @@ const EXPLORE = explorePages(lang);
               <li><a href={`/${lang}/3d/`}><span class="t"><span aria-hidden="true">🧊</span> {T.tour.nav_label}</span></a></li>
             </ul>
           </details>
-          <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
+          <details class="dd" data-dd>
+            <summary>{T.nav.today}</summary>
+            <ul class="dd-menu" role="list">
+              <li><a href={`/${lang}/today/`}><span class="t">{T.nav.today}</span></a></li>
+              <li><a href={`/${lang}/future/`}><span class="t">{T.nav.future}</span></a></li>
+            </ul>
+          </details>
           <a class="top-link" href={`/${lang}/art/`}>{T.nav.art}</a>
           <a class="top-link" href={`/${lang}/browse/`}>{T.nav.browse}</a>
           <details class="dd" data-dd>
