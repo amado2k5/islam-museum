@@ -1,0 +1,23 @@
+id: event/ibadi-imamate-oman-51
+class: event
+kind: founding
+label: { ar: "قيام الإمامة الإباضية في عمان", en: "The Ibadi imamate rises in Oman" }
+summary:
+  ar: "قامت الإمامة الإباضية في عمان نحو سنة 51هـ/671م فاستقر مسقط والساحل تحت أئمتها {cite:tarikh-islam-hasan-ibrahim}."
+  en: "The Ibadi imamate rose in Oman about 51/671, settling Muscat and the coast under its imams {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "اباضیہ امامت تقریباً 51ھ/671ء میں عمان میں قائم ہوئی اور مسقط سمیت ساحل اس کے ائمہ کے تحت آیا {cite:tarikh-islam-hasan-ibrahim}."
+wings: [time]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "0671~", hijri: "0051", precision: year, status: tradition, derived: true }
+  end: { edtf: "0671~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/muscat, sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Muscat story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-muscat
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

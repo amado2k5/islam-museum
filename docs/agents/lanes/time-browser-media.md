@@ -107,3 +107,7 @@ outputs (`data/time-browser-media-index.json`, generated SVG maps and cards), an
   (~35 MB). Index registers 769 tbgen; image coverage 1,360 of 7,857
   (17.1%). Note: Claude's Timeline Explorer rebuild (#2459/#2460) uses
   pre-rendered stage images, not tbgen — cards/index unchanged.
+- 2026-10-28 — Explorer maps: map-<subject>.svg under explorer/ for 28 of
+  78 subjects (dashed route for journey subjects, dots+labels otherwise,
+  MENA/world basemap). 50 subjects skipped — fewer than 2 coordinated
+  node places; could be covered by curated backdrops instead.

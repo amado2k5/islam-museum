@@ -1,22 +1,22 @@
 id: event/qutuz-murder-658
 class: event
 kind: other
-label: { ar: "قتل الملك المظفر قطز قرب قطية سنة 658هـ", en: "Qutuz murdered near Qatya, 658" }
+label: { ar: "مقتل المظفر قطز وتسلطنة بيبرس 658هـ", en: "The killing of al-Muzaffar Qutuz and Baybars's accession, 658 AH" }
 summary:
-  ar: "طمع البندقداري في أخذ حلب وكان وعده بها المظفر ثم رجع فتأثر وأضمن الشر، فلما رجع المظفر بعد شهر إلى مصر مضمراً له الشر وافق ركن الدين على مراده عدة أمراء، وكان الذي ضربه بالسيف فحل كتفه كتوت الجوكندار المغربي ثم رماه بهادر المغربي بسهم قضى عليه، وذلك يوم سادس عشر ذي القعدة بقرب قطية، وتسلطن ركن الدين البندقداري الملك الظاهر بيبرس {cite:shadharat-dhahab p. 299}."
-  en: "Baybars had coveted Aleppo — promised it by al-Muzaffar, then refused — and nursed the grievance. On the march back to Egypt, a month after the victory, several amirs joined Rukn al-Din's intent: Kattut al-Jukandar al-Magharibi's sword split Qutuz's shoulder and Bahadur al-Mughrabi's arrow finished him, on 16 Dhu al-Qa'da near Qatya — and Rukn al-Din al-Bunduqdari took the throne as al-Zahir Baybars {cite:shadharat-dhahab p. 299}."
+  ar: "طمع ركن الدين بيبرس البندقداري في حلب وكان الملك المظفر قطز وعده بها ثم رجع، فأضمر كلٌّ منهما للآخر الشر، فقتل قطز قرب قطية يوم سادس عشر ذي القعدة سنة ثمان وخمسين وستمائة، وتسلطن بيبرس الملك الظاهر {cite:shadharat-dhahab p.299}."
+  en: "Rukn al-Din Baybars al-Bunduqdari had been promised Aleppo by al-Muzaffar Qutuz, who then went back on it, and each harboured ill will for the other; Qutuz was killed near Qatiya on 16 Dhu al-Qa'da 658, and Baybars took the sultanate as al-Malik al-Zahir {cite:shadharat-dhahab p.299}."
 wings: [time]
-periods: [period/mongol-post-mongol]
+periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
-map: { kind: locator, precision: approximate, center: [30.9667, 32.6833] }
-date: { start: { edtf: "1260-10-24~", hijri: "0658-11-16", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم سادس عشر ذي القعدة بقرب قطية {cite:shadharat-dhahab p. 299}", sources: [source/shadharat-dhahab] } }
+date:
+  start: { edtf: "1260", hijri: "0658", precision: year, status: tradition, derived: true, note: "16 ذي القعدة 658هـ قرب قطية {cite:shadharat-dhahab p.299}" }
 relations:
-  - { type: had_participant, target: person/qutuz, role: "المقتول", sources: [source/shadharat-dhahab] }
-  - { type: had_participant, target: person/baybars, role: "المتسلطن", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/qutuz, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-130
+  source: "شذرات الذهب — ابن العماد (سنة 658)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: main-repair-orphan-prose
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

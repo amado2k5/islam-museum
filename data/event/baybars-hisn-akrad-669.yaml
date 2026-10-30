@@ -1,24 +1,26 @@
 id: event/baybars-hisn-akrad-669
 class: event
 kind: conquest
-label: { ar: "فتح بيبرس حصن الأكراد وحصن عكار سنة 669هـ", en: "Baybars takes Hisn al-Akrad and Akkar, 669" }
+label: { ar: "افتتاح بيبرس حصن الأكراد وحصن عكار 669هـ", en: "Baybars takes Krak des Chevaliers and Akkar, 669 AH" }
 summary:
-  ar: "في شعبان سنة تسع وستين افتتح السلطان حصن الأكراد بالسيف، ثم نازل حصن عكا وأخذه بالأمان، فتذلل له صاحب طرابلس وبذل له ما أراد وهادنه عشر سنين {cite:shadharat-dhahab p. 572} {cite:shadharat-dhahab p. 370}."
-  en: "Sha'ban 669 — Hisn al-Akrad, the Hospitallers' master-fortress, taken by the sword; Hisn Akkar then yielded for aman, and the lord of Tripoli abased himself, paying what was asked and taking a ten-year truce {cite:shadharat-dhahab p. 572}."
+  ar: "في شعبان سنة تسع وستين وستمائة افتتح الظاهر بيبرس حصن الأكراد بالسيف — أعظم قلاع الفرنج الحسبانيين وأشدها — ثم نازل حصن عكار فأخذه بالأمان، وهادنه صاحب طرابلس عشر سنين {cite:shadharat-dhahab p. 572}."
+  en: "In Sha'ban 669 al-Zahir Baybars took the fortress of the Kurds by the sword — the greatest and strongest of the Hospitaller castles — then besieged the fortress of Akkar and took it by safe-conduct, and the ruler of Tripoli made a ten-year truce with him {cite:shadharat-dhahab p. 572}."
 wings: [time]
-periods: [period/mongol-post-mongol]
+periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
+date:
+  start: { edtf: "1271", hijri: "0669", precision: year, status: tradition, derived: true, note: "شعبان 669هـ {cite:shadharat-dhahab p. 572}" }
 sides:
-  - label: { ar: "المسلمون — جيش الملك الظاهر بيبرس" }
-  - label: { ar: "الفرنج — حامية حصن الأكراد" }
-map: { kind: siege, precision: locality, center: [34.7570, 36.3000] }
-date: { start: { edtf: "1271-04~", hijri: "0669-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان سنة تسع وستين وستمائة {cite:shadharat-dhahab p. 572}", sources: [source/shadharat-dhahab] } }
+  - label: { ar: "المماليك" }
+  - label: { ar: "الحسبانيون" }
 relations:
-  - { type: had_participant, target: person/baybars, role: "الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/krak-des-chevaliers, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج7، سنة 669)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-132
+  source: "شذرات الذهب — ابن العماد (سنة 669)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: main-repair-orphan-prose
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,26 @@
+id: event/spider-web-at-ghar-thawr
+class: event
+kind: other
+label:
+  ar: "نسج العنكبوت على باب غار ثور"
+  en: "The spider's web across the mouth of the cave of Thawr"
+  ur: "غار ثور کے دہانے پر مکڑی کا جالا"
+summary:
+  ar: "نقل ابن حجر، في ترجمة كرز بن علقمة الخزاعي، عن عروة بن الزبير أن كرزاً قفا أثر النبي وأبي بكر حتى انتهى إلى غار ثور، فرأى نسج العنكبوت على بابه، فقال: إلى ههنا انتهى أثره، ثم لا أدري أخذ يميناً أو شمالاً أو صعد الجبل {cite:ibn-hajar-isaba p.304}."
+  en: "Ibn Hajar, in the biography of Kurz ibn Alqama al-Khuza'i, transmits from Urwa ibn al-Zubayr that Kurz followed the tracks of the Prophet and Abu Bakr to the cave of Thawr, saw a spider's web across its door, and said: the trail ends here; I do not know whether they took the right hand, the left, or climbed the mountain {cite:ibn-hajar-isaba p.304}. This is a report transmitted through later narrators; the early account of the three nights in the cave is in event/ghar-thawr."
+  ur: "ابن حجر نے کرز بن علقمہ الخزاعی کے ترجمے میں عروہ بن الزبیر سے نقل کیا ہے کہ کرز نبی اور ابوبکر کے نشانِ قدم کے پیچھے غار ثور تک آئے، غار کے دروازے پر مکڑی کا جالا دیکھا، اور کہا: نشان یہیں ختم ہو گیا، معلوم نہیں دائیں گئے، بائیں یا پہاڑ پر چڑھ گئے {cite:ibn-hajar-isaba p.304}۔ یہ روایت بعد کے راویوں کے ذریعے پہنچی ہے؛ تین راتوں کا بیان event/ghar-thawr میں ہے۔"
+date:
+  start: { edtf: "0622-09-13~", calendar: julian, precision: day, status: tradition, note: "ضمن الليالي الثلاث في غار ثور (انظر event/ghar-thawr)؛ الرواية لا تحدد ساعة بعينها." }
+relations:
+  - { type: occurred_at, target: place/ghar-thawr, sources: [source/ibn-hajar-isaba] }
+  - { type: part_of, target: event/ghar-thawr }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hajar-isaba] }
+  - { type: had_participant, target: person/abu-bakr, sources: [source/ibn-hajar-isaba] }
+sources: [source/ibn-hajar-isaba]
+provenance:
+  layer: own-research
+  source: "al-Isaba fi tamyiz al-sahaba, Ibn Hajar, biography of Kurz ibn Alqama al-Khuza'i (harvest drive copy books/sahaba/isaba/isaba_tamiz_sahaba, scan page 304; printed page not verified)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "animals-enrichment-2026-10-29"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); harvest drive OCR, scan page 304" }

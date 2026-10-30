@@ -1,0 +1,34 @@
+---
+// Landing teaser for the /future/ page — a dark "night" card that deliberately breaks the parchment pattern.
+import { ui, type Lang } from "../lib/i18n";
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+---
+<section class="block fut-strip" aria-labelledby="fut-strip-title">
+  <div class="wrap">
+    <a class="card-fut" href={`/${lang}/future/`}>
+      <p class="eyebrow ui">{T.future.eyebrow}</p>
+      <h2 id="fut-strip-title">{T.future.strip_title}</h2>
+      <p>{T.future.strip_lede}</p>
+      <span class="go">{T.future.strip_cta} <span class="flip" aria-hidden="true">→</span></span>
+    </a>
+  </div>
+</section>
+<style>
+  .fut-strip { margin-top: 2.2rem; }
+  .fut-strip .card-fut { display: block; position: relative; overflow: hidden; text-decoration: none; color: #f9f8f6;
+    border-radius: 20px; padding: clamp(20px, 4vw, 34px); border: 1px solid rgba(197,160,89,.4);
+    background: radial-gradient(110% 160% at 85% 0%, #113f4e 0%, #071723 60%, #040e16 100%); }
+  .card-fut::before { content: ""; position: absolute; inset: 0; opacity: .55;
+    background-image: radial-gradient(1.3px 1.3px at 10% 30%, #e6d5b8 50%, transparent 51%),
+      radial-gradient(1.6px 1.6px at 30% 70%, #c5a059 50%, transparent 51%),
+      radial-gradient(1.1px 1.1px at 55% 20%, #f9f8f6 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 78% 55%, #c5a059 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 92% 25%, #e6d5b8 50%, transparent 51%); }
+  .card-fut .eyebrow { color: var(--gold); }
+  .card-fut h2 { color: #f9f8f6; margin: .2rem 0 .4rem; font-size: clamp(1.4rem, 3vw, 2rem); }
+  .card-fut p { color: #e6d5b8; max-width: 60ch; margin: 0; }
+  .card-fut .go { display: inline-block; margin-top: 1rem; color: var(--gold); font-family: var(--sans); font-size: .9rem;
+    border: 1px solid rgba(197,160,89,.6); border-radius: 999px; padding: 7px 18px; position: relative; }
+  .card-fut:hover .go { background: rgba(197,160,89,.12); }
+</style>
