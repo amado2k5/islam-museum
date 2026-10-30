@@ -50,6 +50,10 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
       <li><b>{n(muslimM)}{W.m_suffix}</b><span>{W.donut_muslim}</span></li>
       <li><b>{pct(c.muslim_pct)}</b><span>{W.f_muslim}</span></li>
       <li><b>{money(c.gdp_pc)}</b><span>{W.f_gdp}</span></li>
+      <li><b>{pct(c.unemp)}</b><span>{W.f_unemp}</span></li>
+      {c.poverty != null && <li><b>{pct(c.poverty)}</b><span>{W.f_poverty}</span></li>}
+      <li><b>{pct(c.literacy)}</b><span>{W.f_literacy}</span></li>
+      <li><b>{n(c.life_exp)}</b><span>{W.f_life_exp}</span></li>
     </ul>
 
     <dl class="wc-dl">
@@ -58,6 +62,11 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
       <div><dt>{W.f_currency}</dt><dd>{c.currency[lang]}</dd></div>
       <div><dt>{W.f_un}</dt><dd>{n(c.un)}</dd></div>
     </dl>
+
+    <div class="wc-street" style="margin-bottom:1rem">
+      <span class="lab ui">{W.life_title}</span>
+      <p>{c.life[lang]}</p>
+    </div>
 
     <div class="wc-street">
       <span class="lab ui">{W.f_street}</span>
