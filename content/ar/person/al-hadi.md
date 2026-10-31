@@ -19,3 +19,25 @@ translators: []
 
 ## ملاحظات للباحثين
 - أسباب الوفاة متعارضة عند السيوطي نفسه فأوردها برواياتها دون ترجيح؛ وكذلك فعلنا هنا.
+
+## عماله عند خليفة بن خياط
+يختم [[person/khalifa-ibn-khayyat|خليفة بن خياط]] أخبار هذا العهد بتسمية العمال وأصحاب المناصب. ونقلها هنا على ترتيبه، والأسطر التي استدركها المحقق من مصادر متأخرة منبّه عليها. {cite:tarikh-khalifa-umari-1985 p. 446–447}
+
+- **مكة:** عبيد الله بن قثم بن العباس بن عبيد الله بن العباس (حتى مات موسى) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **اليمن:** إبراهيم بن سلم بن قتيبة {cite:tarikh-khalifa-umari-1985 p. 446}
+- **البصرة:** [[person/rawh-ibn-hatim|روح بن حاتم]] (عزله موسى)، ثم [[person/muhammad-ibn-sulayman-al-abbasi|محمد بن سليمان بن علي]] (حتى مات) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **الكوفة:** موسى بن عيسى (أقره) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **خراسان:** أبو العباس الطوسي (أقره) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **سجستان:** تميم بن سعد (عزله موسى)، ثم كثير بن سلم {cite:tarikh-khalifa-umari-1985 p. 446}
+- **السند:** الليث مولاه (كتب إليه أن ينحدر)، ثم محمد بن الليث (استخلفه أبوه) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **الجزيرة:** أبو هريرة (رجل من أهل خراسان)، ثم إبراهيم بن صالح {cite:tarikh-khalifa-umari-1985 p. 446}
+- **أفريقية:** [[person/yazid-ibn-hatim|يزيد بن حاتم]] (أقره) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **قضاء البصرة:** عمر بن عثمان (أقره فعزله محمد بن سليمان)، ثم معاذ بن معاذ {cite:tarikh-khalifa-umari-1985 p. 447}
+- **قضاء الكوفة:** [[person/sharik-ibn-abdallah|شريك]] (عزله موسى)، ثم القاسم بن معن {cite:tarikh-khalifa-umari-1985 p. 447}
+- **قضاء المدينة:** سعيد بن عبد الرحمن الجمحي {cite:tarikh-khalifa-umari-1985 p. 447}
+- **الشرط:** [[person/abdallah-ibn-malik-al-khuzai|عبد الله بن مالك الخزاعي]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **الرسائل والديوان:** عمر بن بزيع {cite:tarikh-khalifa-umari-1985 p. 447}
+- **الخاتم:** [[person/ali-ibn-yaqtin|علي بن يقطين]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **الحرس والخزائن وبيوت الأموال:** [[person/ali-ibn-isa-ibn-mahan|علي بن عيسى بن ماهان]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **الحاجب:** [[person/fadl-ibn-al-rabi|الفضل بن الربيع]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **الوزير:** إبراهيم بن ذكوان الحراني (صاحب أمره كله) {cite:tarikh-khalifa-umari-1985 p. 447}

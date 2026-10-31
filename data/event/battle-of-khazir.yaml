@@ -16,6 +16,6 @@ relations:
   - { type: had_participant, target: person/ubayd-allah-ibn-ziyad, role: "قائد جيش الشام", sources: [source/bakr-umayyad-state-1134715] }
   - { type: had_participant, target: person/ibrahim-ibn-al-ashtar, role: "قائد خيل العراق", sources: [source/bakr-umayyad-state-1134715] }
 external_ids: { wikidata: "Q27940416" }
-sources: [source/bakr-umayyad-state-1134715, source/khudari-umayyad-state]
-provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 p. 209; khudari-umayyad-state pp. 300, 365", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 p. 209" }
-status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 p. 209" }
+sources: [source/bakr-umayyad-state-1134715, source/khudari-umayyad-state, source/akhbar-tiwal-amir]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 p. 209; khudari-umayyad-state pp. 300, 365", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 p. 209", run: "lib-akhbar-tiwal-batch-5-2026-10-31 (enrichment)" }
+status: { review: published, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 p. 209" }

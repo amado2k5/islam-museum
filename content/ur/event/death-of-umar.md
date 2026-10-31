@@ -27,3 +27,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ بتاتے ہیں کہ قاتل نے گرفتار ہونے سے پہلے نو نمازیوں کو قتل اور تیرہ کو زخمی کیا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:00}، اور عبدالرحمن بن عوف نے اس پر کپڑا ڈالا تو قاتل نے خود کو وار کر کے ہلاک کر لیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:30}۔
 
 شیخ کہتے ہیں کہ چار خلفاء میں سے تین قتل ہوئے، پھر بھی عقیدہ اور اس کے افکار باقی رہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}۔ وہ بتاتے ہیں کہ عمر زخمی ہوتے ہی چھ افراد کی شورٰی مقرر کر گئے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}۔
+
+## خلیفہ بن خیاط کے ہاں
+[[person/khalifa-ibn-khayyat|خلیفہ بن خیاط]] کہتے ہیں کہ عمر کو سنہ 23 میں ذی الحجہ کے ختم ہونے سے تین رات پہلے زخمی کیا گیا اور وہ تین دن، اور ایک روایت میں سات دن، زندہ رہے۔ {cite:tarikh-khalifa-umari-1985 p. 152} معدان بن طلحہ کی روایت میں وہ ذی الحجہ کے ختم ہونے سے چار رات پہلے بدھ کو شہید ہوئے۔ {cite:tarikh-khalifa-umari-1985 p. 152} ان کی عمر تریسٹھ یا پچاس سے کچھ اوپر بتائی جاتی ہے؛ صہیب نے ان کی نمازِ جنازہ پڑھائی۔ {cite:tarikh-khalifa-umari-1985 p. 152} {cite:tarikh-khalifa-umari-1985 p. 153}

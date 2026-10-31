@@ -1,0 +1,42 @@
+id: person/abu-salama-al-khallal
+class: person
+label:
+  ar: أبو سلمة الخلال
+  en: Abu Salama al-Khallal
+  ur: ابو سلمہ خلال
+gender: male
+roles:
+- vizier
+summary:
+  ar: داعي بني العباس بالكوفة، أوصى إليه بكير بن ماهان وأقرّه الإمام محمد بن علي، وكان يبيع الخل، ونزل عنده أبو العباس وأبو جعفر حين قدما الكوفة؛ ثم جعله أبو العباس وزيراً ولُقّب «وزير آل محمد»، وقتله رجل بعثه أبو مسلم، فيما يروي الدينوري {cite:akhbar-tiwal-amir p. 334} {cite:akhbar-tiwal-amir p. 359} {cite:akhbar-tiwal-amir p. 370}.
+  en: The Abbasid missionary at Kufa, appointed by Bukayr ibn Mahan and confirmed by the imam Muhammad ibn Ali; a vinegar-seller, he hosted Abu al-Abbas and Abu Ja'far when they came to Kufa. Abu al-Abbas then made him vizier, known as 'the vizier of the family of Muhammad', and he was killed by a man sent by Abu Muslim, as al-Dinawari reports {cite:akhbar-tiwal-amir p. 334} {cite:akhbar-tiwal-amir p. 359} {cite:akhbar-tiwal-amir p. 370}.
+  ur: کوفہ میں بنو عباس کے داعی، جنہیں بکیر بن ماہان نے مقرر کیا اور امام محمد بن علی نے برقرار رکھا؛ وہ سرکہ فروش تھے اور ابو العباس اور ابو جعفر کوفہ آئے تو انہی کے مہمان ہوئے۔ پھر ابو العباس نے انہیں وزیر بنایا اور وہ «وزیرِ آلِ محمد» کہلائے، اور دینوری کی روایت میں ابو مسلم کے بھیجے ہوئے ایک آدمی نے انہیں قتل کیا {cite:akhbar-tiwal-amir p. 334} {cite:akhbar-tiwal-amir p. 359} {cite:akhbar-tiwal-amir p. 370}۔
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+relations:
+- type: participated_in
+  target: event/abbasid-dawa-in-khurasan
+  role: صاحب الدعوة بالكوفة
+  sources:
+  - source/akhbar-tiwal-amir
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/akhbar-tiwal-amir
+sources: &id001
+- source/akhbar-tiwal-amir
+provenance:
+  layer: own-research
+  source: الأخبار الطوال للدينوري (تحقيق عامر) ص 334، 358–359، 370
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-akhbar-tiwal-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

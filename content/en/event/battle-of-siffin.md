@@ -18,3 +18,6 @@ The index of the volume mentions the "night of al-Harir" and the report of Hashi
 al-Mas'udi relates that the dead numbered seventy thousand, of them forty-five thousand from Syria and twenty-five thousand from Iraq. He says that the stay there lasted a hundred and ten days, and that the engagements were seventy. Twenty-five of the Companions were killed with Ali, among them [[person/ammar-ibn-yasir|Ammar ibn Yasir]]. {cite:muruj-al-dhahab p.645-646}
 
 The figures come from al-Mas'udi's account, and checking them needs an additional source.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says the fighting at Siffin was on Wednesday the seventh of Safar, 37, the truce on the night of Saturday the tenth of Safar, and that Ammar ibn Yasir and Hashim ibn Utba were killed. {cite:tarikh-khalifa-umari-1985 p. 191}

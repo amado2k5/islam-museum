@@ -1,17 +1,36 @@
 id: work/durar-al-kaminah
 class: work
 kind: book
-label: { ar: "الدرر الكامنة في أعيان المئة الثامنة", en: "Durar al-Kaminah" }
+label:
+  ar: الدرر الكامنة في أعيان المئة الثامنة
+  en: Durar al-Kaminah
+  ur: الدرر الکامنہ فی اعیان المائۃ الثامنہ
 summary:
-  ar: "بطاقة أولية للدرر الكامنة في أعيان المئة الثامنة لابن حجر؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Ibn Hajar's Durar al-Kaminah fi A'yan al-Mi'a al-Thamina; its sources are not yet checked on the page."
+  ar: معجم ابن حجر العسقلاني في تراجم أعيان المئة الثامنة، رتّبه على حروف المعجم، وبدأه بمن اسمه إبراهيم تبركاً، ويذكر في مقدمته أنه جمعه من كتب منها مجاني العصر لأبي حيان وتاريخ مصر للقطب الحلبي وذيل سير النبلاء للذهبي {cite:durar-kamina-jil-1993 1/4} {cite:durar-kamina-jil-1993 1/5} {cite:durar-kamina-jil-1993 1/6}.
+  en: Ibn Hajar al-Asqalani's dictionary of the notable people of the eighth Islamic century, arranged alphabetically and opening with those named Ibrahim as a blessing; in his introduction he names among his sources Abu Hayyan's work on his contemporaries, Qutb al-Din al-Halabi's history of Egypt and al-Dhahabi's continuation of Siyar A'lam al-Nubala' {cite:durar-kamina-jil-1993 1/4} {cite:durar-kamina-jil-1993 1/5} {cite:durar-kamina-jil-1993 1/6}.
+  ur: ابن حجر عسقلانی کی آٹھویں صدی کے ممتاز لوگوں کی سوانحی لغت، حروفِ تہجی کی ترتیب سے، جس کا آغاز برکت کے لیے ابراہیم نام والوں سے ہوتا ہے؛ مقدمے میں وہ اپنے مآخذ میں ابو حیان کی معاصرین پر کتاب، قطب الدین حلبی کی تاریخِ مصر اور ذہبی کے ذیلِ سیر اعلام النبلاء کا ذکر کرتے ہیں {cite:durar-kamina-jil-1993 1/4} {cite:durar-kamina-jil-1993 1/5} {cite:durar-kamina-jil-1993 1/6}۔
 wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q12187284" }
+sources:
+- source/durar-kamina-jil-1993
+- source/al-aalam
+external_ids:
+  wikidata: Q12187284
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: al-Durar al-Kamina (Dar al-Jil 1993), author's introduction vol. 1 pp. 4–6
+  generated_by: Claude Opus 5.5, rewriting a Devin (SWE-2 High) Wikidata card
+  model: claude-opus-5-5
+  run: lib-durar-kamina-batch-1-2026-10-31
+  sources:
+  - source/durar-kamina-jil-1993
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR
+authors:
+- person/ibn-hajar-al-asqalani
+genre:
+- biography
+language: language/arabic
+editions:
+- source/durar-kamina-jil-1993

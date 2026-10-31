@@ -14,3 +14,6 @@ He says that the killing took place in the middle of the days of Tashriq in 35 A
 
 ## Al-Mas'udi's account
 Al-Mas'udi describes delegations from Kufa, Basra and Egypt camping at Dhu Khashab. They then seized a slave of Uthman's who had a letter in Marwan's hand, and returned and besieged him for forty-nine days. He says that the sons of the Companions defended him at the door, then two men entered and killed him while the Qur'an was before him; it is said they were Kinana ibn Bishr and Sa'd ibn Hamran. {cite:muruj-al-dhahab p.637-639}
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says Uthman was killed in the year 35 on a Friday a few days before the end of Dhu al-Hijja; Abu Uthman al-Nahdi says in the middle of the days of Tashriq, and Abu Ma'shar, from Nafi', on Friday the seventeenth or eighteenth of Dhu al-Hijja. {cite:tarikh-khalifa-umari-1985 p. 176} That year Ibn Abbas led the pilgrimage at Uthman's order. {cite:tarikh-khalifa-umari-1985 p. 176}

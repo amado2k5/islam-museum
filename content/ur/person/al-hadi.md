@@ -19,3 +19,25 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 
 ## محققین کے لیے
 - سبب وفات کی روایات خود سیوطی کے پاس متعارض ہیں اور یہاں منقولہ صورت میں دی گئیں ہیں۔
+
+## خلیفہ بن خیاط کے ہاں ان کے عہدیدار
+[[person/khalifa-ibn-khayyat|خلیفہ بن خیاط]] اس دور کے بیان کے آخر میں والیوں اور عہدیداروں کے نام دیتے ہیں۔ یہاں وہ انہی کی ترتیب سے ہیں؛ جو سطریں محقق نے بعد کے مصنفین سے بحال کیں ان کی نشاندہی کر دی گئی ہے۔ {cite:tarikh-khalifa-umari-1985 p. 446–447}
+
+- **مکہ:** عبيد الله بن قثم بن العباس بن عبيد الله بن العباس («حتى مات موسى») {cite:tarikh-khalifa-umari-1985 p. 446}
+- **یمن:** إبراهيم بن سلم بن قتيبة {cite:tarikh-khalifa-umari-1985 p. 446}
+- **بصرہ:** [[person/rawh-ibn-hatim|روح بن حاتم]] («عزله موسى»)، پھر [[person/muhammad-ibn-sulayman-al-abbasi|محمد بن سليمان بن علي]] («حتى مات») {cite:tarikh-khalifa-umari-1985 p. 446}
+- **کوفہ:** موسى بن عيسى («أقره») {cite:tarikh-khalifa-umari-1985 p. 446}
+- **خراسان:** أبو العباس الطوسي («أقره») {cite:tarikh-khalifa-umari-1985 p. 446}
+- **سیستان:** تميم بن سعد («عزله موسى»)، پھر كثير بن سلم {cite:tarikh-khalifa-umari-1985 p. 446}
+- **سندھ:** الليث مولاه («كتب إليه أن ينحدر»)، پھر محمد بن الليث («استخلفه أبوه») {cite:tarikh-khalifa-umari-1985 p. 446}
+- **جزیرہ:** أبو هريرة («رجل من أهل خراسان»)، پھر إبراهيم بن صالح {cite:tarikh-khalifa-umari-1985 p. 446}
+- **افریقیہ:** [[person/yazid-ibn-hatim|يزيد بن حاتم]] («أقره») {cite:tarikh-khalifa-umari-1985 p. 446}
+- **بصرہ کی قضا:** عمر بن عثمان («أقره فعزله محمد بن سليمان»)، پھر معاذ بن معاذ {cite:tarikh-khalifa-umari-1985 p. 447}
+- **کوفہ کی قضا:** [[person/sharik-ibn-abdallah|شريك]] («عزله موسى»)، پھر القاسم بن معن {cite:tarikh-khalifa-umari-1985 p. 447}
+- **مدینہ کی قضا:** سعيد بن عبد الرحمن الجمحي {cite:tarikh-khalifa-umari-1985 p. 447}
+- **شرطہ:** [[person/abdallah-ibn-malik-al-khuzai|عبد الله بن مالك الخزاعي]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **رسائل اور دیوان:** عمر بن بزيع {cite:tarikh-khalifa-umari-1985 p. 447}
+- **مہر:** [[person/ali-ibn-yaqtin|علي بن يقطين]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **حرس، خزانے اور بیت المال:** [[person/ali-ibn-isa-ibn-mahan|علي بن عيسى بن ماهان]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **حاجب:** [[person/fadl-ibn-al-rabi|الفضل بن الربيع]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **وزیر:** إبراهيم بن ذكوان الحراني («صاحب أمره كله») {cite:tarikh-khalifa-umari-1985 p. 447}

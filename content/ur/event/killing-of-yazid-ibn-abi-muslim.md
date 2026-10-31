@@ -12,3 +12,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## اس کے بعد
 یزید بن عبدالملک نے [[person/bishr-ibn-safwan-al-kalbi|بشر بن صفوان الکلبی]] کو والی بنایا، جنہوں نے [[person/abdallah-ibn-musa-ibn-nusayr|عبداللہ بن موسیٰ بن نصیر]] کی گردن ماری، کیونکہ ان پر اس کے قتل اور لوگوں کو اس کے خلاف بھڑکانے کا الزام تھا۔ {cite:futuh-buldan-maarif-1407}
+
+## ابن عبد الحکم کے ہاں
+[[person/ibn-abd-al-hakam|ابن عبد الحکم]] کہتے ہیں کہ یزید بن عبد الملک نے حجاج کے کاتب یزید بن ابی مسلم کو سنہ 101 میں افریقیہ کا والی بنایا۔ {cite:futuh-misr-amir-1999 p. 288} وہ روایت کرتے ہیں کہ لیث کے بیان میں اس کے محافظوں نے سنہ 102 میں اسے قتل کر دیا۔ {cite:futuh-misr-amir-1999 p. 289}
