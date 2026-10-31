@@ -1,0 +1,54 @@
+id: person/syed-shahabuddin
+class: person
+label:
+  ar: "سيد شهاب الدين"
+  en: "Syed Shahabuddin"
+  ur: "سید شہاب الدین"
+names:
+  - { value: "Syed Shahabuddin", kind: full }
+  - { value: "سيد شهاب الدين", kind: full }
+gender: male
+born:
+  edtf: "1935-11-04"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 4 November 1935 at Ranchi: the English and Urdu articles and Wikidata agree on the day. The Hijri year 1354 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-syed-shahabuddin-en, source/wikipedia-syed-shahabuddin-ur, source/wikidata-syed-shahabuddin]
+died:
+  edtf: "2017-03-04"
+  hijri: "1438"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 4 March 2017: the English article's infobox gives Delhi as the place of death and its lead a hospital near his Delhi residence, while the Urdu article places the death at Noida, preserved here as a variant; the died_in edge follows the English article. The Hijri year 1438 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-syed-shahabuddin-en, source/wikipedia-syed-shahabuddin-ur, source/wikidata-syed-shahabuddin]
+roles: [diplomat, politician, editor]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. He was a Muslim public figure — Wikidata carries Islam as his religion and the biographies present him as a leader of Muslim politics in India: the opposition to the Shah Bano judgment, the Babri Masjid movement, the presidency of the All India Muslim Majlis-e-Mushawarat. But Islam in general is not a school in this schema, and leadership of Muslim institutions is an office, which never counts; nothing further is recorded."
+    sources: [source/wikidata-syed-shahabuddin, source/wikipedia-syed-shahabuddin-en]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-syed-shahabuddin-en] }
+summary:
+  ar: "دبلوماسي وسياسي هندي من بيهار (1935–2017)، عمل في السلك الدبلوماسي سفيراً في فنزويلا والجزائر، ثم صار من أبرز أصوات السياسة المسلمة في الهند المستقلة، وأسس وحرر مجلة «مسلم إنديا» (1983–2006)."
+  en: "Indian diplomat and politician from Bihar (1935–2017) who served in the Foreign Service, including as ambassador to Venezuela and Algeria, then became a leading voice of Muslim politics in independent India and founded and edited the journal Muslim India (1983–2006)."
+  ur: "بہار سے تعلق رکھنے والے بھارتی سفارت کار اور سیاست دان (1935–2017)، جنھوں نے وینزویلا اور الجزائر میں سفیر کی حیثیت سے خدمات انجام دیں، پھر آزاد بھارت کی مسلم سیاست کی نمایاں آواز بنے اور جریدہ «مسلم انڈیا» (1983–2006) کی بنیاد رکھی اور اس کی ادارت کی۔"
+sources:
+  - source/wikipedia-syed-shahabuddin-en
+  - source/wikipedia-syed-shahabuddin-ur
+  - source/wikidata-syed-shahabuddin
+external_ids:
+  wikidata: Q7660439
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Syed Shahabuddin and the Wikidata item Q7660439, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Indian Foreign Service officer and Kishanganj MP (1935–2017) — not Mohammed Shahabuddin or Shahabuddin Ahmed, the Bangladeshi presidents who already hold records, and not the Indian cricketer of the same name. Existence checks by name fragments (shahabuddin) and by QID across data/person on origin/main found no prior record for him. The queue's years (1935–2017) are confirmed to the day. Relations written: died_in Delhi only — Ranchi and Gaya have no place entities, and his daughter Parveen Amanullah has no person record, so no family edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-128
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
