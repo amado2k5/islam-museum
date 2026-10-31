@@ -19,3 +19,6 @@ He says that Hassan met her at a river called Nini or Maskiyana, where she was v
 ## Notes for researchers
 - The accounts differ on the place of her killing (the Aurès mountains or near Gabes) and on the lineage of Khalid (al-Qaysi or al-Absi).
 - Ibn Khaldun's account in the text gives the years 79 AH and 74 AH for Hassan; the order needs to be checked.
+
+## In Ibn Abd al-Hakam
+Ibn Abd al-Hakam calls her queen of the Berbers, who had taken most of Ifriqiya. She defeated Hassan ibn al-Nu'man and captured eighty of his men, treated them well and let them go, all except a man of Banu Abs called Khalid ibn Yazid, whom she adopted. {cite:futuh-misr-amir-1999 p. 270} Khalid wrote secretly to Hassan, once hiding the letter in a loaf and once in a hollowed saddle-bow, and each time al-Kahina came out crying, "My sons, your ruin is in something people eat," and then, "your ruin is in a dead plant of the earth." {cite:futuh-misr-amir-1999 p. 270} When Hassan marched against her she came out with her hair loose, saw a red cloud and said it was the dust of the Arab horse; she commended her two sons to Khalid and sent him to obtain safe-conduct for them. She was killed at the foot of a mountain, at the place named Bi'r al-Kahina; the manuscript leaves the date of her death blank. {cite:futuh-misr-amir-1999 p. 271}
