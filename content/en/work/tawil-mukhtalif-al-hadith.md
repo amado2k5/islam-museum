@@ -26,5 +26,8 @@ The first entry of the fourth part concerns the hadith of the covenant of Adam, 
 
 The general method, seen across the sample pages, is: state the objection, name the report, check each chain and grade it, then show that the apparent contradiction disappears when the reports are read together, or when the wording, abrogation or specific and general senses are considered. {cite:tawil-mukhtalif-al-hadith-hilali p. 77}
 
+## Other editions
+A second, revised edition was edited by Muhammad Muhyi al-Din al-Asfar and published by al-Maktab al-Islami (Beirut) and Mu'assasat al-Ishraq (Doha), dated 1419 AH / 1999. In his preface, al-Asfar says the revision added corrections, grading of hadiths by subject as well as by chain, and notes by a second reviewer, Muhammad Muhammad Badir, marked with his name. {cite:tawil-mukhtalif-al-hadith-asfar-1999 p. 5}, {cite:tawil-mukhtalif-al-hadith-asfar-1999 p. 6}
+
 ## Other readings
 The editor's footnotes add grades and references to later works. The record reports those grades as the editor gives them and does not re-grade them. {cite:tawil-mukhtalif-al-hadith-hilali p. 178}
