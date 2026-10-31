@@ -12,3 +12,5 @@ Programme home: [`README.md`](README.md). One dated entry per merged batch. Flag
   - FLAG: `{cite:}` is valid source markup; the render-QA sweep runs on built HTML only (README 2.7).
   - FLAG: the Wikidata flag count (about 4,199) is not measured; 5,604 files mention Wikidata (README 2.8).
   - FLAG: rijal and Nadwi text is not readable from this environment; Phases 2–3 open with a founder-run pilot (README section 5).
+
+- **31 October 2026 — Phase 1 opened (founder go).** Queue `phase-01-queue.md`: 286 undecided canon books in 12 batches of 25, ordered by harvest folder. Batch 01 is with the founder. Decisions are recorded only by the founder.
