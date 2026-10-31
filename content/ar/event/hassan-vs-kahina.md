@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## موجز
-تتفاوت الروايات في حملات [[person/hassan-ibn-al-numan-al-ghassani|حسان بن النعمان]] على [[person/al-kahina|الكاهنة]] ملكة البربر. وفي [[place/ifriqiya|إفريقية]] وبرقة جرت الوقائع. {cite:futuh-buldan-maarif-1407}
+تتفاوت الروايات في حملات [[person/hassan-ibn-al-numan|حسان بن النعمان]] على [[person/al-kahina|الكاهنة]] ملكة البربر. وفي [[place/ifriqiya|إفريقية]] وبرقة جرت الوقائع. {cite:futuh-buldan-maarif-1407}
 
 ## عند البلاذري
 ولي حسان فغزا الكاهنة فهزمته. فأتى قصوراً في حيز [[place/barqa|برقة]] فنزلها، فسميت قصور حسان. ثم غزاها ثانية فقتلها، وسبى من البربر وبعث بالسبي إلى [[person/abd-al-aziz-ibn-marwan|عبد العزيز]]. {cite:futuh-buldan-maarif-1407}

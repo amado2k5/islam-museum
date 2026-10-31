@@ -150,4 +150,47 @@ Each lead was read in the OCR at the cited page. Page numbers are pages.json num
 
 - place/tiflis data summary says "على الكُرّ" (on the Kur). That phrase is not confirmed in the pages read here; needs checking on the Futuh page that names Jurzan.
 - place/sabur summary and data: the summary is consistent with the body; no change.
+
+## Batch 8 (n–z, 25 place slugs, Haiku 5.5 session)
+
+Each source was read in the OCR at the cited page. Idrisi page numbers are pages.json numbers. The Baladhuri (Futuh) edition is the Mu'assasat al-Ma'arif 1407 scan in `tareekh/futuh-buldan/20230703_20230703_1444`, which has no pages.json; its printed page numbers were read from the page-number lines at the foot of each page. The Farghani citations were checked against the Latin text of the Golius edition, which is in the same scan. Word counts are body words, excluding the citations.
+
+### Enriched in ar, en and ur (new prose)
+
+- **place/nabil** (Idrisi pp. 293, 302, 585). Palace on the sea, the ruined Roman city, distances to the palace of al-Khayyat and to Shiklah Mur. The en file says the modern identification is not settled, because Idrisi places Nabil in the island section. The `regions: [maghreb]` tag in the data file needs checking against that section (open issue).
+- **place/tihama** (Idrisi pp. 138, 148, 149). Boundaries, the towns on its edges, distances from Mecca, and the port of Hali.
+- **place/sarwan** (Idrisi pp. 457, 467). The town in Sistan, its distances from Bust and Dartal, and its fruit and grapes.
+- **place/takrur** (Idrisi pp. 18, 19). The city south of the Nile, its trade, food and dress, and the distance to Barisi.
+- **place/qartajanna** (Idrisi pp. 286, 287, 288). The Roman remains, the twenty-four cisterns, the water channel from Shuqar, and the ruin. The old body's claim about the Tunis lake and the Banu Ziyad was kept only where the page supports it.
+- **place/nicea** (Idrisi p. 805). The lake, the boats for families, al-Abra, the distances to Constantinople and Nicomedia, and the towns on the road.
+- **place/ubulla** (Futuh 1407 pp. 338, 477, 480, 490). Khalid's time, Suwayd ibn Qutba, Utba's conquest, the port claim, and the canal. The yaml summary still says "on the Tigris" and "Basra's port"; the body no longer says the Tigris, and the summary needs a check.
+- **place/nuba** (Futuh 1407 pp. 331, 332, 333). Uqba's raid, the wounded archers, the truce under Abd Allah ibn Sa'd, Umar's refusal, and the slave and food terms.
+- **place/tirmidh** (Futuh 1407 pp. 579, 584). Qutayba's conquest by treaty and after a breach, Musa ibn Abd Allah ibn Khazim and the dihqan, and the appeal to the Turks.
+- **place/qafsa** (Idrisi pp. 277, 278, 279). The walled city, the al-Tarmadh spring, the markets, the gardens, the distances to al-Qayrawan, Bilqan, Nafta, Nafzawa, Tiqyus and Sfax.
+
+### Enriched by correction or already above 100 words
+
+- **place/valencia.** The Arabic body was expanded from Nafh al-Tib (pp. 455–456, printed; pdf 459–460 of `BBib-Alex-05307`): Ibn Jahhaf, the siege, the sack, the Almoravid recovery, the Ghaniya and Mardanish periods. The en and ur bodies were already above 100 words and were not changed.
+- **place/tarsus.** Corrected. The old Arabic body said the Persians built Tarsus; the Latin text says Perseus (`a Perseo condita`). It also gave the year of Nicephorus's capture as "35x"; the Latin text gives A.H. 354, now used. The line on al-Ma'mun's death at Bandun was removed because the Latin text does not support it. Harun's fortification of the wall is now stated as the Latin text gives it. The en and ur bodies were already above 100 words and were not changed.
+- **place/qayrawan** and **place/nasibin**: already above 100 words in all three languages. Not re-read in this batch; no change.
+
+### Leads, batch 8 (n–z, 25 place slugs)
+
+- **place/zawila.** Futuh 1407 p. 315 names Zawila in one sentence (Uqba's charge, and the levy on its people). The rest of the passage concerns Barqa and Amr's letter to Umar. About 50 words specific to Zawila. Lead; the existing bodies are unchanged.
+- **place/samandar.** The label covers two places in Idrisi. One is the Samandar in the India section (p. 192, on the territory of Qanuj, thirty miles from Kanja). The other is the Samandar near Bab al-Abwab, built by Anushirwan and ruined by the Rus (pp. 918–919). The record must be split or scoped before any prose is written. Lead.
+- **place/shantmariyya.** Idrisi p. 543 gives about 90 words on the town (medium size, mosque, ships, figs, twenty-eight miles to Shalib). The label also names a gate of the church in Jerusalem (p. 359), so the entry's identity needs confirming first. Lead.
+- **place/sarakhs.** Futuh 1407 pp. 569–570 give about 60 words specific to Sarakhs (the marzban's offer, Ibn Khazim's entry by force). The rest is the Khurasan narrative. Lead.
+- **place/qashan.** Futuh 1407 pp. 436–439 give two sentences specific to Qashan (Ahnaf takes it by force; Abu Musa with Qum). The rest is Isfahan. Lead.
+- **place/qumis.** Futuh 1407 pp. 423–424 and 443–445 treat Qumis mostly as a province in the Ray treaty. About 60 words specific to the place. Lead.
+- **place/tikrit.** Futuh 1407 pp. 348 and 466 give about 60 words specific to Tikrit (Nusayr and Hudhayfa's assurance to its people, the booty). The rest is the Nusayr narrative. Lead.
+- **place/saghaniyan.** Futuh 1407 pp. 572–590 give scattered mentions (Ahnaf's battle, Ibn al-Mubarak's report that al-Hakam ibn Amr al-Ghifari took it, Qutayba's reception of its king). About 80 words across many pages. Lead.
+- **place/siraf.** Futuh 1407 p. 550 mentions Siraf in a clause about a fortress called Suryanj; p. 749 is the index. Lead.
+- **place/tahirt.** Futuh 1407 p. 328 names Tahirt in one clause (a city near it). The rest concerns al-Abbasiyya near al-Qayrawan and the Aghlabids. Lead; the existing body stands.
+- **place/wargla.** Idrisi pp. 20, 24, 29, 108, 111 and 117 name Wargla only in trade notes and distances (Awdaghust to Wargla, thirty-one stages). No description. Lead.
+
+### Open issues, batch 8
+
+- place/nabil: the regions tag and the island section (see above).
+- place/ubulla: data summary wording ("on the Tigris"; "Basra's port") not yet checked against the Futuh page.
+- place/valencia: en and ur bodies still reflect the shorter text; the Arabic now has the fuller account. Align on the next pass.
 | 2026-10-31 | Claude (n–z) | batch 7: place, nuzhat-al-mushtaq-2002 (qumania-al-sud, tulmaytha, saa; pp. 247, 315, 915 checked against OCR) | 3 | 0 | — |

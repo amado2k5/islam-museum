@@ -13,6 +13,8 @@
 - **Batch 1:** `source/daw-lami-jil-1992`; entries added to Ibn Khaldun, Siraj al-Din al-Bulqini, Zayn al-Din al-Iraqi, al-Haythami, Ibn al-Jazari, al-Maqrizi, Ibn Hajar, al-Ayni, Ibn Taghribirdi, al-Qalqashandi, Ibn Arabshah, al-Mahalli.
 - **Batch 2:** Barsbay, al-Mu'ayyad Shaykh, Jaqmaq, Qaytbay (written in his lifetime), Timur, Ibn al-Humam, al-Kafiyaji, Zakariyya al-Ansari, al-Qastallani, Mehmed II, al-Biqa'i. `tour/halls.yaml` kept in step with `person/ibn-khaldun`.
 
+- **Duplicates (31 Oct):** `al-iraqi-zayn-al-din` merged into `abd-al-rahim-al-iraqi`; `al-nasir-muhammad-ibn-qaitbay` merged into `al-nasir-muhammad-ibn-qaytbay`.
+
 ## Next step
 
 More priority persons d. 801–900. Duplicates flagged: `abd-al-rahim-al-iraqi` / `al-iraqi-zayn-al-din`; `al-nasir-muhammad-ibn-qaitbay` / `-qaytbay`.

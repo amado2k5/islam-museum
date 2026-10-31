@@ -1,11 +1,14 @@
 id: person/hassan-ibn-al-numan
 class: person
+aliases: [person/hassan-ibn-al-numan-al-ghassani]   # merged from the al-Baladhuri/al-Sallabi record (now a section); the id still resolves
 label: { ar: "حسان بن النعمان" }
 gender: male
 summary:
   ar: "قائد وإداري أموي تولى فتح شمال إفريقيا بعد أبي المهاجر؛ يذكر الكتاب أنه قضى على الوجود البيزنطي وحطم قرطاجنة وبنى تونس مكانها، وانتصر على الكاهنة زعيمة البربر، وجدد القيروان وأنشأ بها المسجد الجامع، وأنشأ الدواوين ورتب الخراج والجزية {cite:umayyad-birth-to-fall-2006 p. 40}{cite:umayyad-birth-to-fall-2006 p. 41}."
 wings: [people]
 regions: [maghreb]
-sources: [source/umayyad-birth-to-fall-2006, source/futuh-misr-amir-1999]
+sources: [source/umayyad-birth-to-fall-2006, source/futuh-misr-amir-1999, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 40, p. 41", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 40-41", run: "lib-futuh-misr-batch-5-2026-10-31 (enrichment)" }
 status: { review: published, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 pp. 40-41; the book gives no dates for his governorship" }
+relations:
+  - { type: participated_in, target: event/hassan-vs-kahina, role: "الوالي والقاتل لها في الثانية", sources: [source/futuh-buldan-maarif-1407] }

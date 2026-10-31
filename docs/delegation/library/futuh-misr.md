@@ -24,6 +24,8 @@
 
 - **Batch 6** (pp. 253–291): enriched `event/dhat-al-sawari-31` (34 AH per al-Layth; 200-odd ships against 1,000; Alqama cuts the chain), `event/nubia-conquest-674` (the truce of 31 AH and the baqt: 360 or 400 head), `event/killing-of-yazid-ibn-abi-muslim` (101–102), `person/bishr-ibn-safwan-al-kalbi`, `person/abdallah-ibn-al-habhab` (first treaty with the Beja).
 
+- **Duplicates (31 Oct):** `kharija-ibn-hudhafa` merged into `kharija-ibn-hudhafa-al-adawi`; `alyan` merged into `julian-count-of-ceuta`; `hassan-ibn-al-numan-al-ghassani` merged into `hassan-ibn-al-numan`.
+
 ## Next step
 
 The book's main narrative is now covered. Remaining material for a later revision pass: Dhat al-Sawari and the Nubian baqt (pp. 253–258; check `event/nubia-conquest-674`), the governors of Ifriqiya 97–127 (pp. 287–302: Yazid ibn Abi Muslim, Bishr ibn Safwan, Ubayda, Ibn al-Habhab, Hanzala, Abd al-Rahman ibn Habib; enrich existing entities), the pre-Islamic lore of pp. 1–51 (attribute as storytellers' reports), the spring pastures of the jund (pp. 192–195) and Sabigh (p. 226). Duplicates flagged by the claims tables still to resolve: `person/kharija-ibn-hudhafa` vs `-al-adawi`, `person/alyan` vs `julian-count-of-ceuta`, `hassan-ibn-al-numan` vs `-al-ghassani`.
