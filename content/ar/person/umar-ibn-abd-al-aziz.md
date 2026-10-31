@@ -62,3 +62,34 @@ translators: []
 يذكر الشيخ مجلس عمر بن عبد العزيز، وكان له في الأسبوع خمسة مجالس، منها مجلس للأدب في الشعر والأمثال، وأنه بكى حين ذُكر أمامه شعر من معلقة طرفة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:31:00}. ويذكر أنه كان يستمع إلى من ينتقون أطيب الكلام، وكان يجول بالليل بين الناس {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:32:30}.
 
 يروي الشيخ أن عمر بن عبد العزيز كان يبعث من يجمع الزكاة في إفريقية، فيعود المبعوثون ليقولوا إنهم لم يجدوا فقيرًا يأخذها {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:10:00}. ويذكر أنه كان يرد الهدايا التي يقدمها له الموظفون إلى الحكومة، ولا يأخذها لنفسه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}.
+
+## عماله عند خليفة بن خياط
+يختم [[person/khalifa-ibn-khayyat|خليفة بن خياط]] أخبار هذا العهد بتسمية العمال وأصحاب المناصب. ونقلها هنا على ترتيبه، والأسطر التي استدركها المحقق من مصادر متأخرة منبّه عليها. {cite:tarikh-khalifa-umari-1985 p. 322–324}
+
+- **البصرة:** [[person/adi-ibn-artat|عدي بن أرطاة الفزاري]] (حتى مات عمر) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **الكوفة:** [[person/abd-al-hamid-ibn-abd-al-rahman-ibn-zayd-ibn-al-khattab|عبد الحميد بن عبد الرحمن بن زيد بن الخطاب]] (حتى مات عمر) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **خراسان:** [[person/al-jarrah-ibn-abdallah-al-hakami|الجراح بن عبد الله الحكمي]]، ثم عبد الرحمن بن نعيم الغامدي (استخلفه الجراح) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **سجستان:** [[person/al-jarrah-ibn-abdallah-al-hakami|الجراح بن عبد الله]]، ثم عبد الرحمن بن نعيم (سنة مائة) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **السند:** عبد الملك بن مسمع بن مالك بن مسمع (ولاه عدي بن أرطاة ثم عزله)، ثم [[person/amr-ibn-muslim|عمرو بن مسلم الباهلي]] (حتى مات عمر) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **البحرين:** صلت بن حريث (ثم عزله عدي)، ثم عبد الكريم بن المغيرة (أظنه باهلياً (قول خليفة)) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **عمان:** سعيد بن مسعود المازني (ولاه عدي)، ثم عمرو بن عبد الله بن أبي طلحة الأنصاري {cite:tarikh-khalifa-umari-1985 p. 323}
+- **اليمامة:** زرارة بن عبد الرحمن {cite:tarikh-khalifa-umari-1985 p. 323}
+- **مكة:** عبد العزيز بن عبد الله بن خالد بن أسيد (أقره حتى مات) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **المدينة:** [[person/abu-bakr-ibn-hazm|أبو بكر بن محمد بن عمرو بن حزم]] (أقره حتى مات)، ثم محمد بن قيس بن مخرمة (زعم عثمان بن عثمان أنه تولاها) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **اليمن:** عروة بن محمد (أقره حتى مات) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **أرمينية:** [[person/abd-al-aziz-ibn-hatim-al-bahili|عبد العزيز بن حاتم بن النعمان]]، ثم عدي بن عدي {cite:tarikh-khalifa-umari-1985 p. 323}
+- **الجزيرة:** سوادة أبو الصباح بن سوادة الكندي (استخلفه عدي بن عدي) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **الأردن:** عبادة بن نسي الكندي {cite:tarikh-khalifa-umari-1985 p. 323}
+- **فلسطين:** النضر بن يريم بن أبرهة بن الصباح {cite:tarikh-khalifa-umari-1985 p. 323}
+- **حمص:** يزيد بن حصين السكوني {cite:tarikh-khalifa-umari-1985 p. 323}
+- **قنسرين:** الوليد بن هشام بن الوليد بن عقبة {cite:tarikh-khalifa-umari-1985 p. 323}
+- **البلقاء:** الحارث بن عمرو الطائي {cite:tarikh-khalifa-umari-1985 p. 323}
+- **مصر:** أيوب بن شرحبيل بن أبرهة بن الصباح {cite:tarikh-khalifa-umari-1985 p. 323}
+- **أفريقية:** عبد الله بن مهاجر الأنصاري مولى لهم (بعد عزل محمد بن يزيد)، ثم [[person/ismail-ibn-ubayd-allah|إسماعيل بن عبيد الله مولى بني مخزوم]] (قدمها سنة مائة حتى مات عمر) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **قضاء البصرة:** [[person/iyas-ibn-muawiya|إياس بن معاوية]] (ولاه عدي بعد مشاورة؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/al-hasan-al-basri|الحسن بن أبي الحسن]] (بعد خروج إياس) {cite:tarikh-khalifa-umari-1985 p. 324}
+- **قضاء الكوفة:** القاسم بن عبد الرحمن بن عبد الله بن مسعود {cite:tarikh-khalifa-umari-1985 p. 324}
+- **قضاء المدينة:** أبو طوالة عبد الله بن عبد الرحمن بن معمر بن حزم (حتى مات عمر) {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الصائفة:** الوليد بن هشام (فرقها بينه وبين عمرو بن قيس)، ثم عمرو بن قيس السكوني {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الشرط:** يزيد بن بشر بن يزيد بن بشر الكلبي {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الكاتب:** ليث بن أبي رقية مولى أم الحكم بنت أبي سفيان {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الخراج والجند:** صالح بن جبير الغداني {cite:tarikh-khalifa-umari-1985 p. 324}

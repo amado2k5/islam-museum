@@ -14,3 +14,6 @@ al-Suyuti says that he had with him some of the Messenger of God's hair and a pa
 According to al-Suyuti he was governor of Syria for twenty years and caliph for twenty years. {cite:tarikh-khulafa-minhaj-1434 p. 325}
 
 The Gregorian date is derived from the Hijri date.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]], under the year 59, says Mu'awiya died at Damascus on Thursday, eight nights before the end of Rajab, and that Yazid led the prayer over him, or, some say, Yazid was absent and al-Dahhak ibn Qays led it. {cite:tarikh-khalifa-umari-1985 p. 226} In Baqi's report from al-Layth he died in the year 60, on the fourth of Rajab. {cite:tarikh-khalifa-umari-1985 p. 229}
