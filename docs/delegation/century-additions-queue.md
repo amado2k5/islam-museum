@@ -766,11 +766,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Omid Safi — 1970–Living
 - [x] Jonathan A.C. Brown — 1977–Living
 - [x] Asadullah Yate — 1952–Living
-- [ ] Abdalhaqq Bewley — 1940–Living
-- [ ] Aisha Bewley — 1948–Living
-- [ ] M. A. S. Abdel Haleem — 1938–Living
-- [ ] Mustafa Khattab — 1980–Living
-- [ ] Mustafa Cerić — 1952–Living
+- [x] Abdalhaqq Bewley — 1940–Living
+- [x] Aisha Bewley — 1948–Living
+- [x] M. A. S. Abdel Haleem — 1938–Living
+- [x] Mustafa Khattab — 1980–Living
+- [x] Mustafa Cerić — 1952–Living
 - [ ] Husein Smajić — 1952–Living
 - [ ] Nedžad Grabus — 1968–Living
 - [ ] Şükrü Hanioğlu — 1955–Living
