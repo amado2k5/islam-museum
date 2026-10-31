@@ -680,11 +680,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
 - [x] Wan Muhamad Noor Matha — 1944–Living
 - [x] Surin Pitsuwan — 1949–2017
-- [ ] Azza Karam — 1968–Living
-- [ ] Dr. Sania Nishtar — 1963–Living
-- [ ] Dr. Zubaida Sirang — 1990–Living
-- [ ] Dr. Abdul Samad — 1980–Living
-- [ ] Dr. Muhammad Ashraf — 1953–Living
+- [x] Azza Karam — 1968–Living
+- [x] Dr. Sania Nishtar — 1963–Living
+- [x] Dr. Zubaida Sirang — 1990–Living
+- [x] Dr. Abdul Samad — 1980–Living
+- [~] Dr. Muhammad Ashraf — 1953–Living
 - [ ] Dr. Salim Ali (Contemporary) — 1896–1987
 - [ ] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
 - [ ] Hakim Abdul Hameed — 1908–1999
