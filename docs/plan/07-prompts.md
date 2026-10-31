@@ -322,3 +322,590 @@ STEP 7 · DELIVER
 - Commit with a conventional message ("docs: plan NN — mining <book> into <what it serves>"), push to main (if main is protected, open a pull request and say so).
 - Final message: the inspection table, the OCR statistics (pages, seconds, characters, error patterns), the harvest folder path, the entity-yield table, a link to the plan document, and the full drilling prompt in a code block.
 ```
+
+## U · Fatwa Explorer: find, OCR and ingest Sunni fatwa books, and build the explorer (Claude Code on the Mac)
+
+Added 31 October 2026 at the founder's request. A self-contained prompt for a Claude Code session on the founder's MacBook: it writes the fatwa-explorer proposal and stops for approval (schema, enum, predicate and site changes need it under `docs/ai-change-gates.md`), finds the major Sunni fatwa books with the Chrome browser (canon gate §1a), OCRs them with Apple Vision, models each fatwa as a `work` (asker, mufti, date, place, ruler, judge, evidence, the precedent chain, reception), lists today's Sunni fatwa websites as an index that links back to them (no bulk copying), and builds the Fatwa Explorer with a landing section explaining that a fatwa is one scholar's answer for its time, place and asker, not a ruling for the reader.
+
+Run: `cd ~/Documents/GitHub/islam-museum`, start `claude --chrome` (or `/chrome` in a session), paste the block.
+
+```
+
+You are building **the Fatwa Explorer** for islam.museum: a body of Sunni fatwas from the Companions to today, mined from
+the major Sunni fatwa books, modelled as a connected graph (who asked, who answered, when, under which ruler, on what
+basis, which earlier fatwas it rests on and which later fatwas rest on it), and shown in an explorer as rich as the
+Qur'an (surah) explorer. You work on this Mac. You use the Chrome browser to find the books, Apple Vision to OCR them,
+and your own reading (this Claude session and its subagents) to turn them into museum entities.
+
+The museum **records fatwas as history. It never issues a ruling and never tells the reader what to do.** Every page
+says who said what, when, to whom and on what basis, and the reader is told to ask a qualified scholar for their own
+case. Hold to this in every sentence you write.
+
+## 0 · Read first, and check the machine
+
+1. Run `uname -s`. It must print `Darwin`. If it does not, stop: Apple Vision exists only on macOS.
+2. Repo: `~/Documents/GitHub/islam-museum`. `git fetch origin` and create your own worktree:
+   `git worktree add ../islam-museum-fatwa -b claude/fatwa-explorer origin/main`, link `node_modules` from the main
+   clone (never commit the link), and work only there. Harvest workspace (outside git): `~/islam-museum-harvest/`
+   (`$HARVEST`); fatwa books go in `$HARVEST/raw/books/fatwa/<book-id>/` and `$HARVEST/books/fatwa/<book-id>/`.
+3. Read, in this order, and follow them over anything in this prompt if they conflict:
+   `AGENTS.md`; `docs/ai-change-gates.md` (all of it: proposal gate, §1a harvest canon gate, merge gate, quality gate,
+   §8 no-go registry); `docs/agents/README.md`, `workflow.md`, `content-standards.md`, `publication-standard.md`,
+   `mining-sources.md`, `categories/aqeedah-fiqh.md`, `categories/hadith.md`, `lanes.md`, `lanes/library.md`,
+   `lanes/muwatta-prose.md` (a finished book lane to copy); `docs/scope.md`, `docs/language.md`,
+   `docs/sources-policy.md`; `docs/plan/02-content-model.md`, `13-figures.md` (`condemned`, `responded_to`),
+   `14-themes-atlas.md` (`work.kind: fatwa`, `event.kind: fatwa-event`, `issued`, `rules_on`), `15-local-harvest.md`,
+   `20-opinions.md` (perspectives and opinions), `21-landing-and-explorers.md`, `07-prompts.md` section «Q · Ingest a new source book» (the book
+   ingest template and the Apple Vision OCR script); `docs/site/README.md` (before any site change).
+4. Look at what exists, and reuse it:
+   - `schema/enums/kinds.yaml`, `schema/work.schema.json`, `schema/event.schema.json`, `schema/predicates.yaml`,
+     `schema/enums/roles.yaml`, `scripts/gen-schema.ts`.
+   - Fatwa books already in `data/work/` (all filed as `kind: book` today), for example
+     `al-fatawa-al-kubra-ibn-taymiyya`, `fatawa-alamgiriyya`, `fatawa-qadikhan`, `fatawa-ibn-zarb-al-qurtubi`,
+     `al-fatawa-al-kubra-al-fiqhiyya`, `mecmu-u-fetava`, `al-fatwa-al-hamawiyya`, `fatawa-ali-al-tantawi`,
+     `al-fatwa-fi-al-islam`, `fatwa-on-terrorism`, `al-mudawwana-al-kubra`, `radd-al-muhtar`; `majmu-fatawa` in
+     `scripts/harvest/library/books.yaml`; `question/what-is-fatwa`; `concept/al-fatwa-ala-al-fadaiyyat`;
+     groups `council-of-muslim-elders` and `indonesian-ulama-council`; `concept/ijtihad`, `concept/fiqh`.
+     Run `grep -rli "فتو\|fatw\|fetva\|نوازل\|nawazil\|مسائل" data/ content/` and list every hit before you design.
+   - The surah explorer (`site/src/pages/[lang]/surah/`, `site/src/components/SurahMap.astro`,
+     `ExplorerModule.astro`, `ExploreBar.astro`), the entity page (`site/src/pages/[lang]/[class]/[slug].astro`), the
+     perspectives component from plan 20, `TimeStrip.astro`, the graph view (`/ar/graph/`), and the harvest tools in
+     `scripts/harvest/library/` (`fetch_books.py`, `ocr_all.py`, `ocr_book.py`, `ocr_page.py`, `slice_pages.py`,
+     `make_sources.py`, `make_work_order.py`, `verify_cites.py`, `claims_pipeline.py`, `authenticity_gate.py`).
+     Extend these tools rather than writing parallel ones.
+
+## 1 · Phase 0: the written proposal (stop here for approval)
+
+The change gates allow no edit without an approved written proposal, and a schema, enum, predicate, i18n or new site page
+change needs the founder's own approval. So your first deliverable is a proposal, nothing else:
+
+Write `docs/plan/<NN>-fatwa-explorer.md` (NN = next free number) and show it in chat. It must contain:
+- the data model of section 2 below, as you finally design it after reading the schema (every new field with its type,
+  every new enum value, every new predicate with domain, range, inverse and Arabic/English labels, and why an existing
+  one does not fit);
+- the explorer design of section 5 (routes, components, the build-time JSON, where it lives under the R2 hosting rule);
+- the book list from Phase 1 (or the method, if Phase 1 has not run yet);
+- a new lane `fatwa` (scope, owner line for `docs/agents/lanes.md` and `docs/status.md`, its progress file
+  `docs/agents/lanes/fatwa.md`, its stubs file `data/_stubs.d/fatwa.yaml`);
+- every file the work touches, the intent of each diff, and the risk label for each part, chosen honestly per gate §3
+  (enum and predicate additions, new site routes and i18n keys are proposals of their own; adding content in an
+  approved lane is `non-impacting`; do not add a new entity class, since that changes the class list the
+  submissions quote);
+- the acceptance tests of section 7.
+
+Commit the proposal alone (`docs: plan NN, fatwa explorer proposal`), open a pull request, and **stop and ask me to
+approve it**. Do not touch schema, data, site or the canon before I say yes. Phase 1 (discovery, below) changes nothing
+in the repo, so you may run it while you wait, and fold its results into the proposal.
+
+## 2 · The data model: what a fatwa is in the museum
+
+Design this properly before you ingest anything; the explorer is only as good as the data. Starting point, to be checked
+against the schema and refined in the proposal:
+
+**One fatwa = one `work` with `kind: fatwa`.** A fatwa book = a `work` with a new kind `fatwa-collection` (propose it;
+`nawazil` and `masa'il` books, Ottoman fetva mecmuaları and council resolution volumes are collections too, with a
+`collection_type` field). The single fatwa is `part_of` its collection, with the printed volume and page.
+The famous *act* of issuing (when it changed events) also gets an `event` with `kind: fatwa-event`, linked to the work.
+
+Fields a fatwa needs (names are suggestions; reuse existing schema fields wherever one fits):
+
+| Group | Field | What it holds and how it shows |
+|---|---|---|
+| The question (istifta') | `question.summary` {ar,en,ur} | the question in the museum's words, attributed («سُئل … عن …»). Short verbatim quote of the question allowed, ≤ 40 words, with page. |
+| | `asker` | link to `person` / `group` / `polity` when named. When the book says «سئل عن رجل…» the asker is **unnamed**: record `asker_description` («رجلٌ من أهل …», «جماعة من التجار») and never guess a name. |
+| | `asker_role` | enum: ruler, qadi, official, scholar, student, merchant, community, commoner, institution, unnamed. Drives the explorer's "who was asking" filter. |
+| | `asked_from` | place the question came from (often different from where it was answered, e.g. a letter from al-Andalus to Fez). |
+| | `form` | oral, letter, written slip (ruq'a), court referral, Ottoman fetva form (with the "Zayd/Hind" placeholders noted), council resolution, broadcast, website. |
+| The answer | `mufti` → predicate `issued` / `issued_by` | person or group (council, Dar al-Ifta). Their madhhab comes from the person/group entity, not retyped. |
+| | `answer.summary` {ar,en,ur} | what the mufti answered, attributed («أجاب ابن رشد بأن …»), never in the museum's voice as a rule. ≤ 40-word quote allowed. |
+| | `rules_on` | the `concept` / `practice` / `group` the fatwa is about (existing predicate). |
+| | `fiqh_area` | enum tree: ibadat, mu'amalat, family, inheritance, crimes and penalties, judiciary, governance and siyasa, jihad and relations, food and dress, creed-related, medicine and science, new matters (nawazil). |
+| When and where | `date` | the museum's date object: EDTF + Hijri string + calendar + precision; derived conversions marked. If only the mufti's lifetime is known, record the span with low precision, never a guessed year. |
+| | `place` | where it was issued. |
+| | `period` | link to `period/*` (derived from the date when not stated). |
+| Power and court | `ruler_at_time` | the caliph, sultan, emir or state in power where it was issued, as a link; `ruler_role`: asker, addressee, subject of the fatwa, enforcer, opponent, merely contemporary. Only "merely contemporary" may be derived from dates and place; every other role needs the source to say it. |
+| | `judge` | a qadi who referred the question, ruled on it, or applied it; and the court case (`event` kind `court-ruling`) if there is one. |
+| The basis | `evidence[]` | each item typed: `quran` (link `[[passage/quran-S-A]]`, never typed text), `hadith` (link to a `passage` with collection ref and grade with grader), `ijma`, `qiyas`, `athar` of a Companion, `maslaha`, `urf`, `istihsan`, `sadd al-dhara'i`, an earlier scholar's opinion, an earlier fatwa. |
+| | `method` | the usul method the book names, if it names one. |
+| The chain (precedent) | `relies_on` / `relied_on_by` (new, work → work or passage) | an earlier fatwa or opinion this one cites or follows («وبه أفتى…», «كما في الخانية», «نقلاً عن…»). This is the fatwa equivalent of case precedent, and the heart of the explorer. |
+| | `agrees_with` (symmetric) / `responded_to` (existing) | a parallel fatwa with the same answer; a counter-fatwa or refutation. |
+| | `revised_by` / `revises` | the mufti's own later change of view (ruju'), or a later mufti in the same school replacing it as the relied-upon position (mu'tamad). |
+| | `codified_in` | a later law, code or court practice that adopted it (e.g. Ottoman qanun, the Majalla, a modern statute). |
+| Reception | `reception` | how it was received, each item cited: endorsed by, contested by, applied by a ruler, ignored, became the school's relied-upon position. Contested fatwas use a `perspectives` block (Sunni positions first, then academic, then other, each labelled and cited, no verdict) and, where it is a hard question, a tension card. |
+| | `consequence` | an `event` the fatwa led to or legitimised (a campaign, a deposition, a waqf, a ban), only when the source says so. |
+| Attribution | `attribution_status` | claim status: is this fatwa really his? (certain, attributed, disputed, weak). Some famous "fatwas" are later attributions: record who disputes them. |
+| | `transmitted_by` | who recorded the fatwa (the student who wrote the answer down, the compiler of the collection). |
+| | `sources[]` | the collection, volume, page (the PDF page and the printed page offset recorded once per book), and any second source. |
+| Display aids | `headline` {ar,en,ur} | one line: «فتوى ابن رشد للمرابطين في …». |
+| | `sensitivity` | existing enum: takfir, apostasy, jihad, rebellion, slavery, women and minorities get a sensitivity flag, a perspectives block and the context the book gives. |
+
+Also propose, in the same proposal: `concept/fatwa` and `concept/ifta` (definition from the adab al-mufti books, each
+school's definition in perspectives), the role `mufti` (and `shaykh-al-islam`, `qadi` if missing) in
+`schema/enums/roles.yaml`, and whether `passage.kind` needs a `fatwa` unit or whether a fatwa quotation is simply the
+`work` entity's ≤ 40-word quote (prefer the second; say why).
+
+Anything else you find in the books that a visitor would value, add to the proposal: for example the fee or stipend of
+the office, the formula of the answer («والله أعلم»), the seal of the Ottoman Shaykh al-Islam, the language of the
+fatwa, whether the asker was a non-Muslim, cross-references between madhhabs on the same question.
+
+## 3 · Phase 1: find the books (Chrome, read-only for the repo)
+
+Goal: the major **Sunni** fatwa books from the first century to today, in the best open copy.
+
+1. Use the Claude in Chrome tools to search, in Arabic and English, on: archive.org (also via the `ia` CLI),
+   waqfeya.net, noor-book.com, al-maktaba.org, shamela.ws, the OpenITI corpus (GitHub / Zenodo releases, already
+   machine-readable), the Qatar Digital Library, HathiTrust, and the official sites of fatwa bodies (Dar al-Ifta
+   al-Misriyya, the Saudi Permanent Committee at alifta.gov.sa, the International Islamic Fiqh Academy of the OIC, the
+   Muslim World League Fiqh Council, Majelis Ulama Indonesia, Dar al-Ulum Deoband). Open a new tab; do not use my
+   logged-in tabs; never sign in, pay, accept terms on my behalf, or fill a form. Read each site's licence or terms page
+   and record it.
+2. Prefer, in this order: a clean text layer or an OpenITI / Shamela text file → a good scan with a text layer → an
+   image-only scan (OCR). Prefer a critical edition (tahqiq) over a reprint; record edition, editor, publisher, year,
+   volumes.
+3. Coverage: every era and every school, plus the books *about* fatwa. A starting list to verify (each must be checked;
+   it is neither complete nor proven):
+   - **Companions and early generations**: fatwas gathered in the Musannafs of Abd al-Razzaq and Ibn Abi Shayba (in the
+     canon already); Ibn al-Qayyim's I'lam al-muwaqqi'in (the muftis of the Companions and the ethics of fatwa); the
+     Masa'il of Ahmad ibn Hanbal in his students' recensions (Salih, Abd Allah, Abu Dawud, Ishaq al-Kawsaj, Ibn Hani);
+     al-Mudawwana (Malik's answers through Ibn al-Qasim).
+   - **Hanafi**: al-Nawazil of Abu al-Layth al-Samarqandi; Fatawa Qadikhan; al-Fatawa al-Walwalijiyya;
+     al-Fatawa al-Bazzaziyya; al-Fatawa al-Tatarkhaniyya; al-Fatawa al-Hindiyya; al-Fatawa al-Khayriyya; Ibn Abidin's
+     al-Uqud al-Durriyya and Sharh Uqud Rasm al-Mufti; Ottoman: the fatwas of Ebussuud, Fetava-yi Ali Efendi,
+     Behcetü'l-Fetava; South Asia: Fatawa Rizwiyya, Imdad al-Fatawa, Kifayat al-Mufti, Fatawa Dar al-Ulum Deoband,
+     Fatawa Mahmudiyya.
+   - **Maliki**: Fatawa Ibn Rushd al-Jadd; Ibn Sahl's al-Ahkam al-Kubra and Qadi Iyad's Madhahib al-Hukkam (court
+     rulings, the closest thing to case precedent); Fatawa al-Shatibi; al-Wansharisi's al-Mi'yar al-Mu'rib (the largest
+     nawazil corpus); al-Wazzani's al-Mi'yar al-Jadid; Fatawa Ibn Zarb (already a work).
+   - **Shafi'i**: Fatawa Ibn al-Salah and his Adab al-Mufti wa al-Mustafti; Fatawa al-Izz ibn Abd al-Salam; Fatawa
+     al-Nawawi and his Adab al-Fatwa; Fatawa al-Subki; al-Suyuti's al-Hawi lil-Fatawi; al-Haytami's al-Fatawa al-Kubra
+     al-Fiqhiyya; Fatawa al-Ramli; Fatawa Zakariyya al-Ansari.
+   - **Hanbali**: Ibn Taymiyya's Majmu' al-Fatawa and al-Fatawa al-Kubra; Ibn Hamdan's Sifat al-Fatwa; al-Durar
+     al-Saniyya; Fatawa Muhammad ibn Ibrahim Al al-Shaykh; Majmu' Fatawa Ibn Baz; Majmu' Fatawa Ibn Uthaymin; Fatawa
+     al-Lajna al-Da'ima.
+   - **Usul of fatwa**: al-Qarafi's al-Ihkam fi Tamyiz al-Fatawa an al-Ahkam; Ibn al-Salah, al-Nawawi, Ibn Hamdan,
+     Ibn al-Qayyim and Ibn Abidin above.
+   - **Modern and institutional**: al-Fatawa al-Islamiyya min Dar al-Ifta al-Misriyya; Fatawa Muhammad Abduh and Rashid
+     Rida (al-Manar); Fatawa Mahmud Shaltut; Fatawa Mustafa al-Zarqa; Yusuf al-Qaradawi's Fatawa Mu'asira; the
+     resolutions of the OIC and MWL fiqh academies; the European Council for Fatwa and Research; MUI fatwas; Fatawa Ali
+     al-Tantawi (already a work).
+4. For every candidate: run the **§1a harvest canon gate** exactly: check whether it is already processed (data/,
+   content/, docs/delegation/library/, `_stubs.d/lib-*`, `$HARVEST/books/`), verify the author is Sunni from a defined
+   source (Wikipedia infobox and Wikidata, URL and date) and record it in `scripts/harvest/library/exclusions.yaml`;
+   non-Sunni or unverified authors are not added. A madhhab alone is not proof.
+5. Output: `$HARVEST/books/fatwa/catalogue.json` and a table in chat: id, title (ar/en), author, death AH, school,
+   era, collection type, edition, best URL, format (text / text-layer PDF / scan), size, licence or terms, Sunni check
+   result, already-processed result, priority (A: rich in askers, rulers and dated cases, or heavily cited by later
+   books; B; C).
+6. After approval, add the verified books to `scripts/harvest/library/books.yaml` under a new `cat: fatwa` (one commit,
+   with the exclusions records), and make `fetch_books.py` accept that category if it does not already.
+
+## 4 · Phase 2: download, OCR, structure (after approval)
+
+1. Download into `$HARVEST/raw/books/fatwa/<book-id>/` (read-only once written), with
+   `User-Agent: islam-museum-harvest/0.1 (https://islam.museum)`, two connections at most, polite delays, resumable
+   (`aria2c` / `curl -C -` / `ia download`). Record a SHA-256 and the source URL in `meta.json`. Nothing from here ever
+   enters git.
+2. Text layer first: measure extractable characters per page with pymupdf. Keep a good text layer or the OpenITI file
+   as the primary text.
+3. Image-only or poor pages: OCR with **Apple Vision** through the existing tools (`ocr_all.py` / `ocr_book.py`, or the
+   `ocr_apple_vision.py` script in `docs/plan/07-prompts.md` section «Q · Ingest a new source book»): `ar-SA` (add `en-US`, `tr-TR`, `ur-PK`,
+   `fa-IR` for mixed books), `recognition_level="accurate"`, 200 dpi, resumable, two-column pages read right column
+   first, under `caffeinate -i`, e.g.
+   `caffeinate -i uv run --quiet --with pymupdf --with ocrmac python scripts/harvest/library/ocr_all.py --cat fatwa --only <book-id>`.
+   Output per volume: `pages.json`, `book.txt` with `===== [pN] =====` markers, `pages-png/`, `README.md`
+   (command, timing, licence layer, OCR error list).
+4. Quality check every volume: start, middle and end pages beside their images; note systematic errors (honorific
+   glyphs, الله as «االله», numbers, names); record the printed-page offset at several points.
+5. Structure: find the table of contents and indexes; parse each collection into **one record per fatwa**:
+   `fatwas.jsonl` with volume, PDF page range, printed pages, bab/kitab heading, the question's opening words, the
+   mufti (for multi-mufti collections like the Mi'yar), any date, place, asker or ruler named, and every citation of an
+   earlier authority or book (detect formulas such as «كما في …», «وبه أفتى …», «نقلاً عن …», «خلافاً لـ …»,
+   «سُئل … فأجاب»). This file is the raw material for the precedent graph. It stays in `$HARVEST`.
+6. Per book, write the plan document as section «Q · Ingest a new source book» of `docs/plan/07-prompts.md` does (rights, yield table, chapter
+   map, batch order), plus a short entry in `docs/agents/lanes/fatwa.md`.
+
+## 5 · Phase 3: ingest into the museum (batches)
+
+Do not try to enter every fatwa of every book (Majmu' al-Fatawa alone holds thousands). Breadth comes from linking.
+Per collection:
+1. The collection: `source/*` (edition) and `work/*` (`kind: fatwa-collection`), the author as a full `person`
+   (nasab, kunya, laqab, dates, teachers, students, offices: mufti of where, under whom), rich first pass.
+2. **Individual fatwa entities** for, in this order: fatwas with a named asker, ruler or qadi; fatwas tied to a dated
+   event; fatwas that later books cite (from the citation formulas in `fatwas.jsonl`, i.e. the precedent hubs);
+   fatwas on topics that already have a `concept` / `practice` / `event` page; the famous fatwas every history of the
+   subject mentions. Verify each candidate in the books themselves; examples worth checking (not facts until a source
+   says so): al-Ghazali's answer to the Almoravid ruler on the taifa kings; Ibn Rushd al-Jadd's answers to the
+   Almoravids; al-Izz ibn Abd al-Salam and the Mamluk emirs; the Mamluk-era coffee question in Mecca; Ebussuud on cash
+   waqf; the Ottoman fatwa on the printing press (1727); al-Wansharisi's Asna al-Matajir on Muslims under Christian
+   rule; Ibn Taymiyya's Mardin fatwa (contested: perspectives block); Muhammad Abduh's Transvaal fatwa; the Amman
+   Message. Skip fatwas by non-Sunni authorities (they are outside this lane), though an existing entity such as
+   the 1989 Rushdie fatwa stays where it is and may be linked as context.
+3. The edges: `issued`, `rules_on`, `part_of`, `relies_on`, `responded_to`, `agrees_with`, `revised_by`,
+   `codified_in`, asker and ruler links, evidence links to existing `passage` entities (Qur'an by Tanzil reference only,
+   hadith by collection ref). Write each edge once; inverses are computed. Unknown targets become stubs in
+   `data/_stubs.d/fatwa.yaml`.
+4. Prose: Arabic first in `content/ar/work/<slug>.md`, with English and Urdu in the same commit, `status.review:
+   published`, `provenance` block (`generated_by`, `model`, `run`, `source`), `{cite:…}` after every factual sentence,
+   docent voice: describe, attribute, label. No honorifics typed. No Qur'an text typed. Quotes ≤ 40 words. Never «the
+   correct view», never «you must». Contested fatwas: perspectives block and, where it fits, a tension card.
+5. Batches of at most 25 entities. For batch 1 of each book, **show me the claims table first** (fatwa, page,
+   ≤ 40-word quote, asker, mufti, date, ruler, relies_on) before you write files.
+6. Every batch: `npm run validate` (0 errors) `&& npm test && npm run coverage`, then commit explicit paths (never
+   `git add -A`), conventional message, trailers `AI-Agent: Claude Code`, `AI-Model: <the model this session reports>`,
+   `AI-Editor: Claude Code CLI`, plus the repository's Co-Authored-By line. Merge gate before every push:
+   `git fetch origin`, read `git log HEAD..origin/main --stat`, rebase or merge keeping both sides, never force-push.
+   Push the branch, open a PR, merge it yourself when CI is green. Keep `docs/agents/lanes/fatwa.md` current after
+   every batch (what is done, what is next, page reached in each book).
+
+## 5b · Phase 3b: today's fatwa websites
+
+Goal: record the most famous and widely used **Sunni** fatwa websites of today, map what they hold, and bring
+their fatwas into the explorer **as an index that links back to them**. Do not copy their text.
+
+Why not copy everything: their fatwas are copyrighted, and their terms usually forbid bulk copying. The museum's own
+rules allow facts and ≤ 40-word cited quotations, and forbid a sentence-by-sentence rewording (`mining-sources.md`).
+And `docs/plan/01-vision.md` says the museum is not a fatwa site. So the sites stay the place where a visitor reads the
+full answer, and the museum adds context, connections and the link.
+
+1. **Find them** with the browser: the official bodies (Dar al-Ifta al-Misriyya, Al-Azhar's fatwa centre, the Saudi
+   Permanent Committee / alifta.gov.sa, the UAE General Authority of Islamic Affairs, the Jordanian Ifta Department,
+   the OIC and MWL fiqh academies, Majelis Ulama Indonesia, JAKIM / Malaysian state muftis, Diyanet, Dar al-Ulum
+   Deoband and Banuri Town in Pakistan, the European Council for Fatwa and Research) and the large independent Sunni
+   sites (for example IslamQA, IslamWeb's fatwa centre, Darul Ifta Birmingham, SeekersGuidance answers, the official
+   sites of Ibn Baz and Ibn Uthaymin). Rank them by verifiable reach: languages, number of fatwas the site states,
+   years online, and independent sources that describe them. Check each one's Sunni orientation from a defined source
+   (the §1a method); record its self-described orientation (`orientation.basis: self-described`) and school.
+2. **Each site becomes a `work` (`kind: website`, `content_type: fatwa`)** with publisher (`group`), launch year, URL,
+   languages, stated size, school or orientation, `archive_url` (Wayback snapshot), and a short description in
+   ar/en/ur, marked "listed, not endorsed" (plan 14). This is the "Famous Islamic websites" theme of plan 14.
+3. **Read each site's robots.txt, terms of use and copyright page, and record them in the lane file.** If robots or
+   the terms forbid automated access, do not crawl the site: list it and stop there. Where a site offers an API, a
+   sitemap or an open data export, use that instead of crawling pages. Where crawling is allowed: identified
+   User-Agent, one request every few seconds at most, run in `$HARVEST`, resumable, raw pages kept out of git.
+4. **What enters the museum from a site**, where its terms allow it:
+   - an **index record per fatwa**, built from facts only: the fatwa's number and URL, title or question topic in
+     our own words, the mufti or body, the date, the language, the site's category, mapped to our `fiqh_area` and
+     `concept` / `practice` links. These facts feed the explorer's search and filters, and each record links out to the
+     site for the full answer. Build it as a generated dataset (`dataset` entity plus a build-time JSON in R2), not as
+     thousands of hand-written entities. Propose the shape in the plan before you build it.
+   - **full fatwa entities** (section 2 model, rewritten summary, ≤ 40-word quote, citation and link) only for
+     notable fatwas: ones that news, scholarship or later fatwas discuss, ones that answer a question the classical
+     corpus also answers (so the explorer can show the same question across centuries), and official council
+     resolutions.
+   - aggregate facts for the website entity: counts by topic, by year, by language.
+5. If a site's owners publish a licence that allows reuse (some government bodies do), record it and say what more it
+   allows. If unclear, treat the site as copyrighted.
+6. **Ask me before crawling more than a handful of pages from any one site.** Show the site list, each one's terms and
+   robots result, and the planned volume first.
+
+## 6 · Phase 4: the Fatwa Explorer (site)
+
+Build it after the data model is approved and at least one pilot batch (15 to 25 fatwas across several eras and all
+four schools) is in, so the design is tested on real data. Follow `docs/site/README.md`: Astro + Svelte islands +
+Tailwind, works without JavaScript, WCAG 2.2 AA, Arabic first with English and Urdu, no runtime network calls, no AI
+at runtime. Data JSON built at build time goes to R2 per the hosting rule (add the folder to `R2_DATA_DIRS` in
+`workers/site/src/route.js`, `workers/r2-sync/batch/publish.mjs`, `run_worker_first` in
+`workers/site/wrangler.production.toml` and the two removal lines in `deploy.yml`).
+
+Pages and views (propose, then build):
+- **`/[lang]/fatwa/`, the explorer landing**: a Hijri timeline strip of fatwas (reuse the timeline layout) with era
+  bands; filters for school, mufti, asker role (ruler, qadi, community, commoner…), fiqh area, region, century,
+  collection; a map of where questions came from and where they were answered (MapLibre, lines from `asked_from` to
+  `place`); counts; a search box (Pagefind facets).
+- **"What a fatwa is, and what it is not": the opening section of the landing page**, above the timeline, not
+  hidden in a footer, in Arabic, English and Urdu, readable without JavaScript, and repeated in short form (one line and
+  a link) on every fatwa page, mufti page and collection page. It must make sure no visitor reads a fatwa as a command
+  they must follow. It says, in the museum's calm docent voice, with every claim attributed and cited:
+  1. **Every fatwa is one scholar's answer.** Each fatwa here was given by a person or a body (an imam, a shaykh, a
+     mufti, a qadi, a caliph, a council) and represents **that scholar's own ijtihad**: his reading of the sources for the
+     question put to him. It can be right and it can be wrong. Do not state this as the museum's own verdict: attribute
+     it to the scholars, who said it themselves. Find and cite the classical statements on this (for example the saying
+     attributed to Malik that anyone's word may be taken or left except the Prophet's, or al-Shafi'i's saying "my view
+     is right with the possibility of error"), each checked in a defined source with its page, and say when an
+     attribution is disputed.
+  2. **A fatwa is not binding on the reader the way a court judgment binds the parties**, and the classical books draw
+     that line (fatwa as information, qada' as an enforced decision; al-Qarafi's al-Ihkam fi Tamyiz al-Fatawa an
+     al-Ahkam treats exactly this). Explain the difference between fatwa, qada' (a judge's ruling) and a ruler's decree,
+     with sources.
+  3. **A fatwa answers one question, at one time, in one place, for one person or community.** It follows the
+     situation, the generation, the place, the custom ('urf), the asker's circumstances, intention and need, and what
+     was known at the time. The same question can receive a different answer elsewhere or later. Cite the classical
+     basis, above all Ibn al-Qayyim's chapter in I'lam al-Muwaqqi'in on fatwas changing with times, places, conditions,
+     intentions and customs, and al-Qarafi and Ibn Abidin (Nashr al-'Arf) on custom, and show it with two or three
+     real examples from the data where one school's answer changed across centuries.
+  4. **So a fatwa shown here may or may not apply today, where you live, or to you.** The museum shows fatwas as a
+     record of how scholars answered their own times; it gives no ruling. For your own case, ask a qualified scholar
+     who knows your time, place and situation. (This line is the fixed notice below, in full.)
+  5. **Learn more**: 4 to 8 links to articles on what a fatwa is and how it should be read, from established Sunni
+     institutions and scholars, in Arabic, English and Urdu where available. Find them with the browser and **open and
+     read each one before you add it**: no link from memory, no guessed URL. Good places to look: Dar al-Ifta
+     al-Misriyya (its pages on what a fatwa is and on the conditions of the mufti), Al-Azhar's fatwa centre, the
+     International Islamic Fiqh Academy, Yaqeen Institute, SeekersGuidance, and well-known Sunni university or
+     institute pages; Urdu from an established Sunni institution such as Dar al-Ulum Deoband or Jamia Binoria. Choose
+     articles that explain fatwa, its non-binding nature and its dependence on context, not articles that issue
+     rulings. Each link is stored as data (title in its language, publisher, URL, date read, an Internet Archive snapshot
+     URL saved with the Wayback Machine), marked "external, listed not endorsed" like the plan-14 websites, opens
+     normally (no tracking, no embed, no runtime fetch), and is checked by the existing link checks. Prefer adding each
+     publisher as a `work` (`kind: website`) or `source` entity so the links live in the graph, not only in the page.
+  Also expand `question/what-is-fatwa` and the new `concept/fatwa` with the same points and sources, and link both from
+  this section. Text for this section goes in i18n / content files in all three languages in the same commit.
+- **The fatwa page** (the entity page with a fatwa layout): headline; the question card (who asked, from where, in what
+  form); the answer card (who answered, school, office, date, place, ruler at the time); the basis (Qur'an and hadith
+  links, ijma, qiyas, earlier opinions); **the chain**: earlier fatwas it rests on above it, later fatwas that rest on
+  it below it, counter-fatwas beside it, like an isnad turned into a family tree; reception and consequences;
+  perspectives when contested; sources with page; the context of the answer stated plainly (the era, place, asker
+  and circumstances it answered, so the reader sees why it may not fit another time or place); and a fixed notice,
+  e.g. «هذه الفتوى اجتهادُ صاحبها في زمانه ومكانه وحال سائله، تُعرض سجلاً تاريخياً لا حكماً للقارئ؛ قد تصيب وقد
+  تخطئ، وقد لا تنطبق على زمانٍ أو مكانٍ أو شخصٍ آخر. اسأل أهل العلم في حالتك.» with its English and Urdu, and a link
+  to the landing-page section above.
+- **Today's fatwa websites**: a directory of the listed sites (publisher, school, languages, size, link), and in the
+  explorer's search and topic views the index records from section 5b, each with «اقرأ الفتوى كاملة على موقع …» linking
+  out to the site, so a visitor can follow one question from the Companions to a 2026 fatwa site.
+- **Precedent graph view**: the whole chain around a fatwa in the constellation view (`/ar/graph/?from=`), coloured by
+  school, sized by how often it is cited.
+- **Compare by question**: one question (a `concept`/`practice`), the answers of each school and era side by side,
+  through the plan-20 opinions component, Sunni schools first, no verdict.
+- **Mufti and collection pages**: a mufti's fatwas on a lifespan ribbon (`TimeStrip`), the rulers he answered, the
+  muftis he cites and who cites him; a collection's table of contents with each fatwa linked.
+- **Ruler and court lens**: on a ruler's or polity's page, «فتاوى في عهده / سُئل فيها» (fatwas asked by, about, or
+  in the reign of).
+- Landing-page explorer card and an entry in the explore bar, marked «قيد الإعداد» until it is ready (plan 21 rule).
+- `npm run build` must pass, with `check-site`, `check-static`, the axe scan and the weight check.
+
+## 7 · Acceptance tests (write them into the plan; make them pass)
+
+- The validator accepts the new kinds, fields and predicates and rejects a fatwa with no source, no mufti, a typed
+  honorific, typed Qur'an text, a quote over 40 words, or a ruler role other than "contemporary" without a citation.
+- Every `relies_on` edge points to an existing work, passage or stub; no cycles of `revised_by`.
+- Every individual fatwa has: mufti, collection and page, date object (even if a span), question and answer summaries
+  in ar/en/ur, at least one source.
+- The explorer pages render with JavaScript off; the timeline, filters and chain degrade to lists.
+- The landing page opens with the "what a fatwa is, and what it is not" section in ar/en/ur; every fatwa, mufti and
+  collection page carries the short notice and its link; every "learn more" link was opened and read, answers 200,
+  and has an archive snapshot; every attributed saying in that section has a source and page.
+- `npm run validate`, `npm test`, `npm run build` pass; `docs/coverage.md` regenerated.
+- A spot check of 10 random fatwas against the page images, recorded in the lane file.
+
+## 8 · Rules that never bend (summary; AGENTS.md wins)
+
+Sunni frame first, other views labelled; describe, never prescribe; nothing from the books beyond ≤ 40-word cited
+quotes enters git (no PDFs, OCR text, page images, `fatwas.jsonl`); never invent a date, page, asker, quote or
+citation; an unnamed asker stays unnamed; dates in EDTF + Hijri + precision with conversions marked derived; no
+honorifics typed; Qur'an only by Tanzil reference; Arabic, English and Urdu in the same commit; never run `deploy.yml`
+(when something must go live, tell me the commits and I deploy); never revert or discard another agent's work.
+
+## 9 · Report to me
+
+At each stop point and at the end: what you read; the proposal link; the book catalogue table; OCR statistics per book
+(pages, minutes, characters, error patterns); fatwas ingested (by school, era, collection), edges by predicate, the
+biggest precedent hubs; PR links; what failed or was skipped and why; what should run next. Start now with section 0,
+then write the proposal (section 1) and run discovery (section 3) while you wait for my approval.
+
+```
+
+## V · Khutab and Durus Explorer: Friday sermons, lessons, study circles and conferences from books, sites, audio and video (Claude Code on the Mac)
+
+Added 31 October 2026 at the founder's request, the companion of section U. It writes the proposal and stops for approval, finds published Sunni sermons (khutab al-jumu'a and occasion sermons), lessons (durus), study circles (halaqat al-'ilm), lecture series and conferences in books, websites, audio archives, podcasts and YouTube (metadata and links only, never downloaded), harvests books with Apple Vision and recordings with the offline speech tools under `docs/agents/audio-video-harvest.md`, indexes everything with links back, writes full entities for what matters, and builds the explorer.
+
+Run: `cd ~/Documents/GitHub/islam-museum`, start `claude --chrome` (or `/chrome` in a session), paste the block.
+
+```
+You are building **the Khutab and Durus Explorer** for islam.museum, the companion of the Fatwa Explorer
+(`docs/plan/07-prompts.md` section U): a record of published Friday sermons (khutab al-jumu'a), Eid and occasion
+sermons, lessons (durus), study circles (halaqat al-'ilm), lecture series, public lectures and scholarly
+conferences by Sunni scholars, imams and preachers, from the sermons the books record from the first century to today's
+recordings. Sources: books, websites, audio and video archives, podcasts and YouTube. You work on this Mac, with the
+Chrome browser for discovery, Apple Vision for printed books, the repo's offline speech-to-text tools for recordings,
+and your own reading (this Claude session and its subagents) to write museum entities.
+
+The museum **records sermons and lessons as history and as a guide to who taught what, where and when. It never
+preaches, and it repeats no exhortation in its own voice.** It describes what the speaker said, attributes it and
+labels it.
+
+## 0 · Read first, check the machine
+
+1. `uname -s` must print `Darwin`. Repo `~/Documents/GitHub/islam-museum`: `git fetch origin`, then
+   `git worktree add ../islam-museum-khutab -b claude/khutab-durus-explorer origin/main`, link `node_modules` from
+   the main clone, and work only there. Harvest workspace outside git: `~/islam-museum-harvest/` (`$HARVEST`), under
+   `raw/khutab/`, `raw/durus/`, `audio/`, `books/khutab/`.
+2. Read, and follow them over this prompt where they conflict: `AGENTS.md`; `docs/ai-change-gates.md` (proposal gate,
+   §1a canon gate, merge gate, quality gate, §8 no-go list); `docs/agents/audio-video-harvest.md` (**binding for every
+   recording**: rights, the transcript-noise rule, the toolchain of §3, the "include everything and categorise it"
+   rules, the per-recording report of §8); `docs/agents/source-families.md`; `publication-standard.md`;
+   `content-standards.md`; `mining-sources.md`; `lanes.md`; the finished recording lanes `lanes/omar-abdelkafy.md`
+   and `lanes/tareq-al-suwaidan.md` (copy their shape); `docs/scope.md`; `docs/language.md`;
+   `docs/sources-policy.md`; `docs/plan/02-content-model.md`, `14-themes-atlas.md` (`work.kind: sermon`,
+   `lecture-series`, `podcast`; websites; `event.kind: conference`, `gathering`), `15-local-harvest.md` (§5 rules of
+   the road), `20-opinions.md`, `21-landing-and-explorers.md`; `docs/site/README.md`; and section U of
+   `docs/plan/07-prompts.md` (the Fatwa Explorer prompt): reuse its structure, its proposal step and its explorer
+   components wherever they fit, and link the two explorers.
+3. See what exists: `grep -rli "خطب\|خطبة\|khutba\|sermon\|درس\|دروس\|halaqa\|حلقة\|محاضرة\|lecture\|مؤتمر\|conference" data/ content/`;
+   the works with `kind: sermon`, `lecture-series` or `podcast`; `source/assabile-*`; `scripts/harvest/audio/`
+   (`download.py`, `transcribe.py`); `scripts/harvest/library/` (book tools); the `group` entities for mosques,
+   universities and councils; `building/*` mosques; `practice/*` for the Friday prayer and the khutba.
+
+## 1 · Phase 0: the written proposal (stop for approval)
+
+Write `docs/plan/<NN>-khutab-durus-explorer.md` and show it in chat: the data model (section 2), the explorer
+(section 5), the source list or method (section 3), a new lane `khutab-durus` (scope, progress file, stubs file
+`data/_stubs.d/khutab-durus.yaml`, rows for `docs/agents/lanes.md` and `docs/status.md`), every file touched with the
+intent of the diff, an honest risk label per part (gate §3; no new entity class), and the acceptance tests (section 6).
+Commit it alone, open a pull request and **stop and ask me to approve it**. Discovery (section 3) changes nothing in
+the repo and may run while you wait.
+
+## 2 · The data model
+
+Reuse first. Starting point, to be checked against the schema and refined in the proposal:
+
+- **One sermon or one lesson = one `work`**: `kind: sermon` for a khutba (with `sermon_type`: jumu'a, eid al-fitr,
+  eid al-adha, istisqa', kusuf, hajj/'arafa, nikah, occasion, farewell; propose the enum); `kind: lecture` (propose)
+  for a single dars, lecture or talk. **A series = `work` `kind: lecture-series`** (a halaqa that read a book over
+  months, a Ramadan series, a televised programme), with the single lessons `part_of` it in order. A **conference**
+  or seminar = `event` `kind: conference` / `gathering`, with its papers or talks as `work`s linked to it.
+- Fields (names are suggestions; reuse schema fields wherever one fits):
+
+| Group | Field | What it holds |
+|---|---|---|
+| Who | `speaker` (`delivered` / `delivered_by`, propose) | the khatib, teacher or lecturer, a `person`; co-speakers and the moderator. |
+| | `host` | the mosque (`building`), institution (`group`), channel or programme. |
+| | `audience` | e.g. the Friday congregation, students of a madrasa, women's circle, a broadcast audience, children, a conference. |
+| When and where | `date` | the museum date object (EDTF + Hijri + calendar + precision; derived conversions marked). For an undated recording, the upload or broadcast date, labelled as such, never presented as the delivery date. |
+| | `place` | city and mosque or hall; `period` derived from the date. |
+| | `occasion` | an `event` the sermon answered (a battle, an epidemic, a disaster, a coronation, Ramadan, Hajj), only when the source says so. |
+| | `ruler_at_time` | with role: patron, addressee, named in the du'a for the ruler, subject, opponent, merely contemporary. Only "contemporary" may be derived. The ruler named in the khutba is historically important (it marked allegiance): record it whenever a source says who was named. |
+| What | `summary` {ar,en,ur} | what was said, in the museum's words, attributed, cited to page or timestamp. ≤ 40-word quote allowed. |
+| | `topics` | links to `concept`, `practice`, `event`, `person`, `place`, and to a `work` when the lesson explains a book (e.g. a sharh of Sahih al-Bukhari, lesson 12, covering kitab al-iman). |
+| | `book_studied` and `range` | for a dars that reads a text: the work and the chapters or hadith numbers covered. |
+| | `evidence_cited` | Qur'an by `[[passage/quran-S-A]]` reference only, hadith by `passage` with collection ref, other scholars and books cited. |
+| Relations | `responded_to`, `relies_on`, `part_of` | a sermon answering another, a lesson relying on a teacher's lesson; the teacher-student chain (`studied_under` if it exists) so the explorer can show who taught whom. |
+| | `related_fatwa` | links to Fatwa Explorer entities on the same question. |
+| Media | `media[]` | per format: text (book page or web URL), audio, video, transcript (only the museum's summary, never the transcript), with duration, language and dialect, the archive URL and an Internet Archive snapshot. |
+| Reception | `reception`, `consequence` | a sermon that was famous, banned, led to the speaker's arrest or exile, or moved people to act; only as the sources say. |
+| Display | `headline` {ar,en,ur}, `sensitivity` | one line; contested and polemical content flagged per the harvest rules, with a `perspectives` block. |
+
+Also propose: roles `khatib`, `imam`, `preacher` (wa'iz), `teacher` exists; `concept/khutba` and `concept/dars` /
+`halaqa` (what they are, their history, the khutba's conditions in each school, as perspectives, cited); and
+whatever the sources show a visitor would value: the sermon's length, the language (Arabic, or a local language
+after the Arabic part), whether a translation followed, the minbar and the mosque, women's circles, children's
+lessons.
+
+## 3 · Phase 1: find everything published (Chrome, read-only for the repo)
+
+Cover four kinds of source, every era, all Sunni schools, and many countries and languages (Arabic first, then
+English, Urdu, Turkish, Malay/Indonesian, French, Persian-speaking Sunni regions, Swahili, Hausa, Bengali):
+
+1. **Books**: collections of sermons and lessons, and the sermons that history and hadith books record. Starting list
+   to verify (each one must be checked; it is neither complete nor proven): the Prophet's sermons as transmitted in the
+   hadith collections and sira (the Farewell Sermon; linked as `passage`s, never typed as scripture); collections of
+   the Companions' and early sermons such as Jamharat Khutab al-Arab; Ibn Nubata's Diwan al-Khutab; Ibn al-Jawzi's
+   sermon and wa'z books (al-Yaqut fi al-Khutab, al-Tabsira, Bustan al-Wa'izin); Ibn Rajab's Lata'if al-Ma'arif
+   (lessons arranged by the seasons of the year); amali books (dictation sessions, e.g. the Amali of al-Shajari, al-Qali);
+   Ottoman and Mamluk khutba collections; modern printed collections (e.g. the khutab of Ibn Uthaymin, Muhammad
+   al-Ghazali, Ali al-Tantawi, Abd al-Hamid Kishk, the official khutba volumes of ministries of awqaf). Run every book
+   through the §1a canon gate (Sunni check with Wikipedia infobox and Wikidata, processed check, records in
+   `exclusions.yaml`), add verified ones to `books.yaml` under `cat: khutab` after approval, and OCR scans with Apple
+   Vision exactly as in section U (`ocr_all.py --cat khutab`, `caffeinate -i`, `ar-SA`, 200 dpi, resumable).
+2. **Websites**: official ministries of awqaf that publish the weekly unified khutba (Egypt, UAE, Kuwait, Qatar,
+   Jordan, Morocco, Saudi Arabia, Malaysia's JAKIM, Turkey's Diyanet), the Haramain sermon archives, mosque and
+   institute sites, and the large sermon and lesson sites (for example alukah.net, islamweb, khutabaa.com,
+   the official sites of individual scholars). Each site becomes a `work` (`kind: website`) with publisher,
+   orientation (self-described), languages, stated size and an archive snapshot, marked "listed, not endorsed".
+3. **Audio archives and podcasts**: assabile.com (already authorised for its speakers, see `source-families.md`),
+   islamway.net, the Haramain audio archives, official scholar archives, podcast feeds (RSS lists are metadata and are
+   the preferred way to list a podcast). Downloads only through `scripts/harvest/audio/download.py` (identified
+   User-Agent, pause between requests, checksums), only where robots.txt and the site's terms allow it, into `$HARVEST`.
+   Transcribe offline with `scripts/harvest/audio/transcribe.py` (`mlx_whisper` large-v3, or the dialect engine for
+   Egyptian and other dialects) under `tmux` and `caffeinate -dims`, as `audio-video-harvest.md` §3 describes.
+4. **Video and YouTube**: the official channels of scholars, mosques (the Haramain, al-Azhar, major mosques),
+   institutes and ministries. **YouTube is metadata and link only: never download from YouTube** (its terms forbid it,
+   and the repository's rule in `audio-video-harvest.md` §2 and `15-local-harvest.md` §5 says so). Use the YouTube Data
+   API only if I provide a key; otherwise read public channel and playlist pages in the browser. Record per video:
+   title, channel, date, duration, language, URL, playlist; the video is cited as a pointer, and its content enters only
+   when the same recording exists on an authorised archive or in a book, or when its published description or chapter
+   list states the facts.
+
+For every source: read and record robots.txt, terms and licence in the lane file; sites that forbid collection are
+listed but not collected. Output `$HARVEST/khutab/catalogue.json` and a table in chat: source, kind (book / site /
+audio / video / podcast), speaker(s), school, country, language, era, size (items, hours), format, rights result,
+Sunni check, already-processed check, priority (A: famous, historically consequential, or covering a whole era or
+country; B; C). **Ask me before any bulk download or transcription run**, with the planned volume in hours and disk.
+
+## 4 · Phase 2 and 3: harvest and ingest (after approval)
+
+- **Index everything, write entities for what matters.** Like the fatwa websites: every listed sermon or lesson
+  gets an index record of facts only (speaker, date, place, title in our words, topics, duration, language, URL,
+  source); these feed a generated dataset (`dataset` entity plus build-time JSON in R2) for the explorer's search and
+  filters, each linking out. Full `work` entities, with summaries cited to page or timestamp, go to: famous and
+  historically consequential sermons (the Farewell Sermon, sermons tied to dated events, sermons that named a new
+  ruler, sermons that led to bans or arrests), whole lecture series that explain a book (by lesson, linked to the
+  book's chapters), conferences with their programmes, and every lesson that explains a topic the museum already has.
+- Recordings follow `audio-video-harvest.md` to the letter: claims table per recording (line, timestamp, engine,
+  window) in `$HARVEST`; only lines that read clearly as Arabic and make sense are written; recitations and hadith
+  matn are never written from a transcript; the speaker's dates and numbers are his statements; platform figures are
+  dated; anchors `{cite:<source-id> <series>/<episode> <hh:mm:ss>}`; the §8 report per recording; every excluded item
+  reported with its reason.
+- Prose: Arabic first in `content/ar/`, English and Urdu in the same commit, `status.review: published`, `provenance`
+  block, `{cite:…}` after every factual sentence, docent voice; no exhortation in the museum's voice; no honorifics
+  typed; Qur'an only by Tanzil reference; quotes ≤ 40 words; contested matter in `perspectives`, polemical matter
+  flagged and described, never quoted.
+- Batches of at most 25 entities; show me the claims table for the first batch of each source before writing files.
+  Every batch: `npm run validate` (0 errors) `&& npm test && npm run coverage`; explicit paths, never `git add -A`;
+  conventional message; trailers `AI-Agent: Claude Code`, `AI-Model: <the model this session reports>`,
+  `AI-Editor: Claude Code CLI`, plus the repository's Co-Authored-By line; merge gate before every push (fetch, read
+  what arrived, rebase or merge keeping both sides, never force-push); branch, pull request, merge it yourself. Keep
+  `docs/agents/lanes/khutab-durus.md` current after every batch.
+
+## 5 · Phase 4: the Khutab and Durus Explorer (site)
+
+After the model is approved and a pilot batch is in (15 to 25 items across eras, countries, formats and kinds).
+Astro + Svelte islands + Tailwind; no JavaScript needed to read; WCAG 2.2 AA; Arabic, English, Urdu; no runtime
+network calls and **no embedded players that call YouTube or another host on page load** (a plain link, or a
+click-to-load player that says it opens an outside site, if the proposal justifies it); build-time JSON in R2 (add the
+folder to `R2_DATA_DIRS`, `publish.mjs`, `run_worker_first` and the two removal lines in `deploy.yml`).
+
+- **`/[lang]/khutab/`, the landing page**: opening section in three languages on what a khutba, a dars and a halaqa
+  are, and that each one is **the speaker's own words for his audience, time and place**: it shows how scholars
+  taught and preached, it is not a ruling, and what was said in one setting may not suit another; with 4 to 8
+  "learn more" links to Sunni institutions' articles on the khutba and on seeking knowledge, each opened and read
+  before it is added (no URL from memory), stored as data with an archive snapshot, marked "listed, not endorsed".
+  Then: a Hijri timeline of sermons and lessons with era bands; a map (where they were delivered); filters for kind
+  (jumu'a, eid, dars, halaqa, series, conference), speaker, school, country, language, era, topic, format (text, audio,
+  video); search (Pagefind facets); "this Friday in history" (sermons delivered on this Hijri date).
+- **The sermon or lesson page**: headline; speaker, place, date, occasion, ruler at the time, audience; the summary
+  with citations; topics and the book studied; evidence links; the series it belongs to (previous / next lesson); the
+  sources and media links (book page, site, audio archive, YouTube link), each labelled; related fatwas; the short
+  notice linking to the landing section.
+- **Series page**: a book read lesson by lesson, with the chapters covered and the progress across months.
+- **Speaker page lens**: the speaker's sermons and lessons on the lifespan ribbon, where he preached, the books he
+  taught, teachers and students (a chain view in the constellation graph), the rulers named in his khutab.
+- **Mosque and institution lens**: on a mosque's page, «خطب ودروس أُلقيت فيه»; on an institution's page, its series and
+  conferences.
+- **Conferences**: an event page with the programme, speakers, papers and outcomes.
+- **Topic lens**: on a concept or practice page, the sermons and lessons that explain it, beside its fatwas.
+- An explorer card on the landing page and the explore bar, «قيد الإعداد» until ready (plan 21 rule). `npm run build`
+  passes with `check-site`, `check-static`, the axe scan and the weight check.
+
+## 6 · Acceptance tests
+
+- The validator accepts the new kinds, fields and predicates and rejects: a sermon or lesson with no speaker or no
+  source; typed honorifics; typed Qur'an text; quotes over 40 words; an upload date presented as the delivery date;
+  a ruler role other than "contemporary" without a citation; a YouTube file in the media store.
+- Every lesson with `part_of` has an order number; every series lists its lessons in order.
+- Pages render with JavaScript off; no request leaves the site on page load.
+- `npm run validate`, `npm test`, `npm run build` pass; `docs/coverage.md` regenerated.
+- A spot check of 10 random items against the book page or the recording at its timestamp, recorded in the lane file.
+
+## 7 · Rules that never bend (AGENTS.md wins)
+
+Sunni frame first, other views labelled; describe and attribute, never preach; no audio, video, transcripts, PDFs, OCR
+text or claims tables in git; never download from YouTube; respect every robots.txt and terms page; never invent a
+date, place, quote, timestamp or citation; Arabic, English and Urdu in the same commit; never run `deploy.yml` (tell
+me the commits and I deploy); never revert another agent's work.
+
+## 8 · Report to me
+
+At each stop and at the end: the proposal link; the catalogue table; hours downloaded and transcribed, OCR pages;
+items indexed and entities written by kind, era, country, speaker and format; excluded items with reasons; PR links;
+what failed or was skipped; what should run next. Start with section 0, write the proposal (section 1) and run
+discovery (section 3) while you wait for my approval.
+```
