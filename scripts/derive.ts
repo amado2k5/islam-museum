@@ -52,6 +52,15 @@ export function buildSynonyms(c: Compiled, lang: "ar" | "en" = "ar") {
     if (!canonical) continue;
     for (const ph of t.phrasings?.[lang] ?? []) add(ph, canonical);
   }
+  // Topical phrasings (animals, insects, sports, games): scripts/search-terms.yaml maps what a visitor types to one record. Urdu goes into the Arabic map, which the search page loads for every non-English language.
+  const terms = readYaml<{ terms: { target: string; phrasings?: Record<string, string[]> }[] }>(p("scripts", "search-terms.yaml"));
+  const termLangs = lang === "ar" ? ["ar", "ur"] : ["en"];
+  for (const t of terms.terms ?? []) {
+    const n = topicNodes.get(t.target);
+    const canonical = n && (n.label[lang] ?? n.label.en ?? n.label.ar);
+    if (!canonical) continue;
+    for (const l of termLangs) for (const ph of t.phrasings?.[l] ?? []) add(ph, canonical);
+  }
   // Per-word spellings: each Arabic word that appears in a label is keyed by its normalised form, so "مكه" finds "مكة" and "الاسلام" finds "الإسلام".
   const words = new Map<string, Map<string, number>>();
   for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah"))) {
