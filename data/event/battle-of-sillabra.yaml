@@ -1,0 +1,63 @@
+id: event/battle-of-sillabra
+class: event
+kind: battle
+label:
+  ar: وقعة سلّبرى ومقتل نافع بن الأزرق
+  en: Battle of Sillabra and the death of Nafi' ibn al-Azraq
+  ur: سلبریٰ کی لڑائی اور نافع بن ازرق کا قتل
+summary:
+  ar: لقاء المهلب بن أبي صفرة والأزارقة بموضع يقرأه المحقق سلّبرى قرب مناذر، قُتل فيه رئيسهم نافع بن الأزرق، فيما يروي الدينوري {cite:akhbar-tiwal-amir p. 272} {cite:akhbar-tiwal-amir p. 273}.
+  en: Al-Muhallab ibn Abi Sufra's encounter with the Azariqa at a place the editor reads as Sillabra near Manadhir, in which their leader Nafi' ibn al-Azraq was killed, as al-Dinawari reports {cite:akhbar-tiwal-amir p. 272} {cite:akhbar-tiwal-amir p. 273}.
+  ur: مہلب بن ابی صفرہ اور ازارقہ کا مقابلہ ایک ایسے مقام پر جسے محقق مناذر کے قریب سلبریٰ پڑھتے ہیں، جس میں ان کا سردار نافع بن ازرق مارا گیا، جیسا کہ دینوری روایت کرتے ہیں {cite:akhbar-tiwal-amir p. 272} {cite:akhbar-tiwal-amir p. 273}۔
+wings:
+- time
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+relations:
+- type: had_participant
+  target: person/al-muhallab-ibn-abi-sufra
+  role: قائد جيش البصرة
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: person/nafi-ibn-al-azraq
+  role: رئيس الأزارقة، قُتل
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: group/azariqa
+  sources:
+  - source/akhbar-tiwal-amir
+sides:
+- label:
+    ar: أهل البصرة مع المهلب
+    en: The Basrans under al-Muhallab
+    ur: مہلب کے ساتھ اہلِ بصرہ
+  commanders:
+  - person/al-muhallab-ibn-abi-sufra
+  strength:
+    value: 20000
+    sources:
+    - source/akhbar-tiwal-amir
+    note: عشرين ألف رجل فيهم من الأزد ثمانية آلاف (ص 272)
+- label:
+    ar: الأزارقة
+    en: The Azariqa
+    ur: ازارقہ
+  commanders:
+  - person/nafi-ibn-al-azraq
+sources: &id001
+- source/akhbar-tiwal-amir
+provenance:
+  layer: own-research
+  source: الأخبار الطوال للدينوري (تحقيق عامر) ص 272–274
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-akhbar-tiwal-batch-5-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

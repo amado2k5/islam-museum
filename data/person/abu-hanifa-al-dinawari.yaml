@@ -1,17 +1,68 @@
 id: person/abu-hanifa-al-dinawari
 class: person
-label: { ar: "أبو حنيفة الدينوري", en: "Abu Hanifa al-Dinawari" }
+label:
+  ar: أبو حنيفة الدينوري
+  en: Abu Hanifa al-Dinawari
+  ur: ابو حنیفہ دینوری
 summary:
-  ar: "أبو حنيفة الدينوري، وصفه المسعودي بأنه ذو محل من العلم كبير، حرر في كتابه ما تقدم من علم الهيئة ومقدار الميل والأذرع والأقاليم، وسلب ذلك ابن قتيبة فنقله إلى كتبه نثلاً وجعله عن نفسه وقد فعل ذلك في كثير من كتب أبي حنيفة هذا {cite:muruj-al-dhahab p. 519}."
-  en: "Praised by al-Mas'udi as a man of great standing in knowledge whose book perfected the astronomy of measures and climates — and whom Ibn Qutayba despoiled, transferring his work into his own books as his own, as he did with much of Abu Hanifa's writing {cite:muruj-al-dhahab p. 519}."
+  ar: أبو حنيفة أحمد بن داود الدينوري، نحوي لغوي ومهندس منجّم حاسب، من أسرة فارسية الأصل بالدينور، تتلمذ لابن السكيت وأبيه، ورصد الكواكب بأصفهان، وصنف «الأخبار الطوال» و«النبات» و«الأنواء». وفاته عند محقق كتابه في جمادى الأولى سنة 282هـ {cite:akhbar-tiwal-amir intro scan p. 5} {cite:akhbar-tiwal-amir intro scan p. 6} {cite:akhbar-tiwal-amir intro scan p. 19}.
+  en: Abu Hanifa Ahmad ibn Dawud al-Dinawari, grammarian, philologist, geometer, astronomer and arithmetician, from a family of Persian origin at Dinawar. He studied under Ibn al-Sikkit and his father, observed the stars at Isfahan, and wrote al-Akhbar al-Tiwal, the Book of Plants and the Book of Anwa'. His editor dates his death to Jumada al-Ula 282 AH {cite:akhbar-tiwal-amir intro scan p. 5} {cite:akhbar-tiwal-amir intro scan p. 6} {cite:akhbar-tiwal-amir intro scan p. 19}.
+  ur: ابو حنیفہ احمد بن داود دینوری، نحوی، لغوی، مہندس، منجم اور حساب دان، دینور کے ایک فارسی الاصل خاندان سے۔ انہوں نے ابن السکیت اور ان کے والد سے پڑھا، اصفہان میں ستاروں کا مشاہدہ کیا، اور «الاخبار الطوال»، «کتاب النبات» اور «کتاب الانواء» لکھیں۔ ان کے محقق کے مطابق وہ جمادی الاولیٰ 282ھ میں فوت ہوئے {cite:akhbar-tiwal-amir intro scan p. 5} {cite:akhbar-tiwal-amir intro scan p. 6} {cite:akhbar-tiwal-amir intro scan p. 19}۔
 gender: male
-wings: [people]
-periods: [period/abbasid-early]
+wings:
+- people
+periods:
+- period/abbasid-early
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 519"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-21
-external_ids: { wikidata: "Q293520" }
-sources: [source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: مقدمة محقق الأخبار الطوال (المسح ص 5–6، 19)؛ مروج الذهب ج1 ص 519
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR; extended by Claude Opus 5.5 (claude-opus-5-5) from al-Akhbar al-Tiwal
+  model: claude-opus-5-5
+  run: lib-muruj-dhahab-batch-21, lib-akhbar-tiwal-batch-1-2026-10-31
+  sources:
+  - source/akhbar-tiwal-amir
+  - source/muruj-al-dhahab
+external_ids:
+  wikidata: Q293520
+sources:
+- source/akhbar-tiwal-amir
+- source/muruj-al-dhahab
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 High); extended by Claude Opus 5.5 from the editor's introduction
+roles:
+- historian
+- scholar
+- astronomer
+born:
+  hijri: '0200~'
+  edtf: '0815~'
+  calendar: julian
+  precision: decade
+  status: debated
+  derived: true
+  note: 'المحقق: ولد في العقد الأول من القرن الثالث الهجري بالدينور (مقدمة المحقق، المسح ص 5).'
+  sources:
+  - source/akhbar-tiwal-amir
+died:
+  hijri: '0282-05-26'
+  edtf: '0895-07'
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: 'المحقق: وفاته يوم 26 جمادى الأولى سنة 282هـ، وهي السنة التي يذكرها معظم المؤرخين (مقدمة المحقق، المسح ص 19 وحاشيتها).'
+  sources:
+  - source/akhbar-tiwal-amir
+relations:
+- type: authored
+  target: work/al-akhbar-al-tiwal
+  sources:
+  - source/akhbar-tiwal-amir
+- type: student_of
+  target: person/ibn-al-sikkit
+  sources:
+  - source/akhbar-tiwal-amir
+regions:
+- persia-central-asia

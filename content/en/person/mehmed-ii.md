@@ -25,3 +25,5 @@ In al-Salabi: he took the throne on 16 Muharram 855 / 18 February 1451 at twenty
 
 ## The end
 Al-Salabi records that he died on Thursday 4 Rabi' I 886 / 3 May 1481 amid his army at Üsküdar, after more than thirty years of rule, aged fifty-two {cite:dawlat-uthmaniyya-salabi p. 157}.
+## In al-Sakhawi's al-Daw' al-Lami'
+[[person/al-sakhawi|Al-Sakhawi]] gives an entry for Muhammad son of Murad Bak son of Muhammad Bak son of Bayezid, lord of Rum, the son of Uthman: he succeeded his father in 855, made Constantinople his capital after conquering it, kept up the war against the Franks, sought out scholars and sent gifts to al-Kafiyaji, and built many madrasas, lodges and mosques. He died early in 886 on his way from Istanbul towards Bursa and was later moved to a tomb near his great mosque. {cite:daw-lami-jil-1992 10/47}

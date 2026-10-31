@@ -18,3 +18,6 @@ Maslama ibn Mukhallad al-Ansari appointed his client Abu al-Muhajir governor of 
 
 ## The date
 The date is about 50 AH, in the governorship of Mu'awiya ibn Hudayj over Egypt; the conversion is derived. {cite:futuh-buldan-maarif-1407 p.319-320}
+
+## In Ibn Abd al-Hakam
+Ibn Abd al-Hakam reports that Uqba did not like the camp Mu'awiya ibn Hudayj had set up, and came to the site of al-Qayrawan as it is today, a wooded valley haunted by wild beasts and vermin. He called out three times at the top of his voice, "O people of the valley, depart, for we are settling here," then planted his lance and said, "This is your qayrawan." {cite:futuh-misr-amir-1999 p. 264} {cite:futuh-misr-amir-1999 p. 265} In al-Layth's version the snakes and scorpions came out while the people watched; Ziyad ibn Ajlan reports from al-Layth that for forty years afterwards no snake or scorpion could be found there even for a thousand dinars. {cite:futuh-misr-amir-1999 p. 265} Later Hassan ibn al-Nu'man settled at the site of al-Qayrawan and built its congregational mosque. {cite:futuh-misr-amir-1999 p. 271}

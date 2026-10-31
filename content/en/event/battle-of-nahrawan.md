@@ -12,3 +12,6 @@ al-Suyuti relates that the Kharijites came out after the arbitration, saying "No
 
 ## According to al-Mas'udi
 al-Mas'udi relates that the Kharijites gathered four thousand men and gave their allegiance to Abd Allah ibn Wahb al-Rasibi, and that they slaughtered Abd Allah ibn Khabbab. Ali marched against them with thirty-five thousand men, and ten thousand from Basra with him. {cite:muruj-al-dhahab p. 695-696}
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] reports from Abu Ubayda that Nahrawan was fought in Sha'ban 38; Abd Allah ibn Wahb al-Rasibi was killed, and Qays ibn Sa'd led Ali's right wing. {cite:tarikh-khalifa-umari-1985 p. 197}

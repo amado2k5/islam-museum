@@ -1,0 +1,35 @@
+id: place/khitat-al-fustat
+class: place
+kind: site
+label:
+  ar: خطط الفسطاط
+  en: The Khitat (plots) of al-Fustat
+  ur: خططِ فسطاط
+summary:
+  ar: الأحياء القبلية التي اختطها الفاتحون حول المسجد الجامع ودار عمرو بن العاص في الفسطاط، كما يصفها ابن عبد الحكم في باب الخطط من فتوح مصر، وهو الباب الذي قلّما ذكر فيه الأسانيد لأنه مما شاع بين أهل الفسطاط {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 intro p. ل}.
+  en: The tribal quarters laid out by the conquerors around the congregational mosque and Amr ibn al-As's house in al-Fustat, as Ibn Abd al-Hakam describes them in the chapter on the plots in Futuh Misr, a chapter in which he seldom gives chains because it was common knowledge in al-Fustat {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 intro p. ل}.
+  ur: وہ قبائلی محلے جو فاتحین نے فسطاط میں جامع مسجد اور عمرو بن العاص کے گھر کے گرد بسائے، جیسا کہ ابن عبد الحکم فتوح مصر کے باب الخطط میں بیان کرتے ہیں؛ اس باب میں وہ کم ہی اسناد دیتے ہیں کیونکہ یہ فسطاط میں عام معروف تھا {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 intro p. ل}۔
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: part_of
+  target: place/al-fustat
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 132، 139–169
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-3-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

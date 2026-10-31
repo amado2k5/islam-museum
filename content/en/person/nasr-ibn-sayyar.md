@@ -22,3 +22,6 @@ al-Tabari reports that Nasr ibn Sayyar fought valiantly on the day of the Gate, 
 - The quotations have been checked to exist on the cited pages, but each report still needs to be read against the page images before publication. Some reports (pp. 201, 204, 221) are garbled in the original.
 - What is said about Nasr on pages 416, 445, 446, 492, 493, 499 and 501 is not included here, because those pages have not yet been read.
 - The Tabari edition used in the repository (the edition of Abu al-Fadl Ibrahim) has not yet been collated against this scan.
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] relates, in the words of Abd al-Karim ibn Salit al-Hanafi, how Hisham chose Nasr ibn Sayyar to govern Khurasan after rejecting other candidates for reasons he gives, among them Juday' al-Kirmani. {cite:akhbar-tiwal-amir p. 339} {cite:akhbar-tiwal-amir p. 340} {cite:akhbar-tiwal-amir p. 341} {cite:akhbar-tiwal-amir p. 342} He says that when Qahtaba took Merv, Nasr asked for safe-conduct, then slipped away by night with his family towards Jurjan, fell ill and died at Sawa. {cite:akhbar-tiwal-amir p. 363}

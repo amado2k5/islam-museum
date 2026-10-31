@@ -15,3 +15,6 @@ The two sides spent the night, the Muslims reading the Qur'an and praying, and t
 
 ## Its effect on the strife
 Ibn al-Athir says that Muhammad ibn Abi Hudhayfa and Muhammad ibn Abi Bakr began speaking about the matter of Uthman during this expedition. {cite:kamil-ibn-al-athir v.2 p.488-490}
+
+## In Ibn Abd al-Hakam
+[[person/ibn-abd-al-hakam|Ibn Abd al-Hakam]] reports from Ibn Bukayr, from al-Layth, that Abd Allah ibn Sa'd ibn Abi Sarh fought Dhat al-Sawari in the year 34. {cite:futuh-misr-amir-1999 p. 255} In al-Layth's report from Yazid ibn Abi Habib, the Muslims had two hundred-odd ships and heard that the Byzantine ruler was coming with a thousand. {cite:futuh-misr-amir-1999 p. 256} Ships were then chained together in battle; an enemy ship nearly dragged Abd Allah's ship over to them, until Alqama ibn Yazid al-Ghutayfi struck the chain with his sword and cut it. {cite:futuh-misr-amir-1999 p. 257} He adds that Constantine son of Heraclius later set out with a thousand ships for Alexandria, and a wind drowned them all except Constantine. {cite:futuh-misr-amir-1999 p. 258}

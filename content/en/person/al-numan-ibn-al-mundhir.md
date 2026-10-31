@@ -19,3 +19,6 @@ The author does not name this Kisra on this page. The one meant is generally kno
 
 ## For young visitors
 Al-Nu'man was a king who entrusted a friend with his family and wealth before going to an angry king. He was imprisoned and died, and his friend defended the trust with the sword.
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that al-Nu'man ibn al-Mundhir hosted Sayf ibn Dhi Yazan at al-Hira and promised to take him on his yearly embassy to the Persian king. {cite:akhbar-tiwal-amir p. 63} He says Parviz killed him and gave his kingdom to Iyas ibn Qabisa al-Ta'i, Parviz arguing that al-Nu'man had sided with the Arabs, who believed that rule was passing to them. {cite:akhbar-tiwal-amir p. 108} {cite:akhbar-tiwal-amir p. 109}

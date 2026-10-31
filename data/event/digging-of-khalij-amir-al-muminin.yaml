@@ -1,0 +1,45 @@
+id: event/digging-of-khalij-amir-al-muminin
+class: event
+kind: other
+label:
+  ar: حفر خليج أمير المؤمنين
+  en: Digging of the Canal of the Commander of the Faithful
+  ur: خلیجِ امیر المؤمنین کی کھدائی
+summary:
+  ar: أمر عمر بن الخطاب عمرو بن العاص بعد عام الرمادة أن يحفر خليجاً من النيل إلى البحر يحمل فيه الطعام إلى المدينة ومكة، فحفره عمرو في حاشية الفسطاط إلى القلزم، ولم يأت الحول حتى جرت فيه السفن {cite:futuh-misr-amir-1999 p. 219} {cite:futuh-misr-amir-1999 p. 220}.
+  en: After the Year of al-Ramada, Umar ibn al-Khattab ordered Amr ibn al-As to dig a canal from the Nile to the sea to carry food to Medina and Mecca; Amr dug it at the edge of al-Fustat to al-Qulzum, and within the year ships were sailing in it {cite:futuh-misr-amir-1999 p. 219} {cite:futuh-misr-amir-1999 p. 220}.
+  ur: عام الرمادہ کے بعد عمر بن الخطاب نے عمرو بن العاص کو حکم دیا کہ نیل سے سمندر تک ایک نہر کھودیں جس میں مدینہ اور مکہ کو غلہ جائے؛ عمرو نے فسطاط کے کنارے سے قلزم تک اسے کھودا اور سال پورا ہونے سے پہلے اس میں کشتیاں چلنے لگیں {cite:futuh-misr-amir-1999 p. 219} {cite:futuh-misr-amir-1999 p. 220}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: occurred_at
+  target: place/khalij-amir-al-muminin
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/umar-ibn-al-khattab
+  role: الآمر بالحفر
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: حافر الخليج
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 219–222
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

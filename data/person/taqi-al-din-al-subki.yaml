@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1355", precision: year, status: tradition, derived: true }
-sources: [source/siyar-alam-nubala-abyari]
+sources: [source/siyar-alam-nubala-abyari, source/durar-kamina-jil-1993]
 external_ids:
   wikidata: Q12202948
 provenance:
@@ -20,7 +20,7 @@ provenance:
   source: "Wikidata candidate; entry not yet read on the page in a book source"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-wave2
+  run: wikidata-import-wave2, lib-durar-kamina-batch-1-2-2026-10-31
 status:
-  review: draft
+  review: published
   completeness: 1

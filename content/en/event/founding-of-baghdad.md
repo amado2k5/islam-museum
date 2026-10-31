@@ -26,3 +26,6 @@ The Abbasid Caliph Abu Jafar al-Mansur founded the city of Baghdad in 145 AH, na
 
 ## For Scholars
 The founding of Madinat al-Salam (the City of Peace, Baghdad) by the second Abbasid Caliph, Abu Jafar al-Mansur, who initiated its construction in 145 AH (762 CE) on the western bank of the Tigris River as the new imperial capital. Renowned for its ingenious circular city plan with concentric walls and four directional gates facing the empire's key provinces, it placed the caliphal palace and congregational mosque at its core. Baghdad rapidly evolved into the cosmopolitan metropolis of Afro-Eurasia, housing the House of Wisdom, hospitals, grand academies, and transcontinental commerce, epitomizing the classic zenith of Islamic civilization.
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that the caliphate was secured for Abu Ja'far al-Mansur in the year 138, that Baghdad was then a village with a monthly market, and that he built his city and named it the City of Peace, with his palace and the congregational mosque at its centre, giving the people of each district of Khurasan their own quarter, and dug a canal eight farsakhs long from the Euphrates to bring it supplies. {cite:akhbar-tiwal-amir p. 383} He dates the building to the year 139, unlike those who place it in 145. {cite:akhbar-tiwal-amir p. 383}

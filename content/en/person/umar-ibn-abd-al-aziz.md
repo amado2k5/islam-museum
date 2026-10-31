@@ -61,3 +61,34 @@ Sheikh Omar Abdelkafy says that when Umar ibn Abd al-Aziz governed Egypt on beha
 He describes an assembly of Umar ibn Abd al-Aziz, who held five sessions a week, one of them a session on literature, poetry and proverbs, in which Umar wept when a verse from the Mu'allaqa of Tarafa was recited before him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:31:00}. He says Umar listened to those who chose the finest speech, as one picks the finest fruit, and walked among the people at night {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:32:30}.
 
 He recounts that when Umar sent officials to collect zakat in Africa, they returned saying they had found no poor person to take it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:10:00}. He says Umar returned to officials the gifts they offered him, and did not take them for himself {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}.
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 322–324}
+
+- **Basra:** [[person/adi-ibn-artat|Adi ibn Artat al-Fazari]] (until Umar died) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **Kufa:** [[person/abd-al-hamid-ibn-abd-al-rahman-ibn-zayd-ibn-al-khattab|Abd al-Hamid ibn Abd al-Rahman ibn Zayd ibn al-Khattab]] (until Umar died) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **Khurasan:** [[person/al-jarrah-ibn-abdallah-al-hakami|al-Jarrah ibn Abd Allah al-Hakami]]; then Abd al-Rahman ibn Nu'aym al-Ghamidi (al-Jarrah's deputy) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **Sijistan:** [[person/al-jarrah-ibn-abdallah-al-hakami|al-Jarrah ibn Abd Allah]]; then Abd al-Rahman ibn Nu'aym (100 AH) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **Sind:** Abd al-Malik ibn Misma' ibn Malik ibn Misma' (appointed by Adi ibn Artat, then dismissed); then [[person/amr-ibn-muslim|Amr ibn Muslim al-Bahili]] (until Umar died) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **Bahrayn:** Salt ibn Hurayth (then dismissed by Adi); then Abd al-Karim ibn al-Mughira ("I think he was a Bahili" (Khalifa's words)) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **Oman:** Sa'id ibn Mas'ud al-Mazini (appointed by Adi); then Amr ibn Abd Allah ibn Abi Talha al-Ansari {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Yamama:** Zurara ibn Abd al-Rahman {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Mecca:** Abd al-Aziz ibn Abd Allah ibn Khalid ibn Asid (confirmed until he died) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Medina:** [[person/abu-bakr-ibn-hazm|Abu Bakr ibn Muhammad ibn Amr ibn Hazm]] (confirmed until he died); then Muhammad ibn Qays ibn Makhrama (Uthman ibn Uthman claimed he held it) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Yemen:** Urwa ibn Muhammad (confirmed until he died) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Armenia:** [[person/abd-al-aziz-ibn-hatim-al-bahili|Abd al-Aziz ibn Hatim ibn al-Nu'man]]; then Adi ibn Adi {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Jazira:** Sawada Abu al-Sabbah ibn Sawada al-Kindi (Adi ibn Adi's deputy) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Jordan:** Ubada ibn Nusayy al-Kindi {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Palestine:** al-Nadr ibn Yarim ibn Abraha ibn al-Sabbah {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Homs:** Yazid ibn Husayn al-Sakuni {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Qinnasrin:** al-Walid ibn Hisham ibn al-Walid ibn Uqba {cite:tarikh-khalifa-umari-1985 p. 323}
+- **al-Balqa':** al-Harith ibn Amr al-Ta'i {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Egypt:** Ayyub ibn Shurahbil ibn Abraha ibn al-Sabbah {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Ifriqiya:** Abd Allah ibn Muhajir, mawla of the Ansar (after Muhammad ibn Yazid was dismissed); then [[person/ismail-ibn-ubayd-allah|Isma'il ibn Ubayd Allah, mawla of Banu Makhzum]] (arrived 100 AH, until Umar died) {cite:tarikh-khalifa-umari-1985 p. 323}
+- **Judgeship of Basra:** [[person/iyas-ibn-muawiya|Iyas ibn Mu'awiya]] (appointed by Adi after consultation; in (( )) in the edition: restored by the editor from later authors quoting Khalifa); then [[person/al-hasan-al-basri|al-Hasan ibn Abi al-Hasan]] (after Iyas left Basra) {cite:tarikh-khalifa-umari-1985 p. 324}
+- **Judgeship of Kufa:** al-Qasim ibn Abd al-Rahman ibn Abd Allah ibn Mas'ud {cite:tarikh-khalifa-umari-1985 p. 324}
+- **Judgeship of Medina:** Abu Tuwala Abd Allah ibn Abd al-Rahman ibn Ma'mar ibn Hazm (until Umar died) {cite:tarikh-khalifa-umari-1985 p. 324}
+- **Summer campaign:** al-Walid ibn Hisham (shared with Amr ibn Qays); then Amr ibn Qays al-Sakuni {cite:tarikh-khalifa-umari-1985 p. 324}
+- **Police:** Yazid ibn Bishr ibn Yazid ibn Bishr al-Kalbi {cite:tarikh-khalifa-umari-1985 p. 324}
+- **Secretary:** Layth ibn Abi Ruqayya, mawla of Umm al-Hakam bint Abi Sufyan {cite:tarikh-khalifa-umari-1985 p. 324}
+- **Land tax and army:** Salih ibn Jubayr al-Ghudani {cite:tarikh-khalifa-umari-1985 p. 324}
