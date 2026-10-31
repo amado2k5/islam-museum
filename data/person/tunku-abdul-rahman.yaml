@@ -1,0 +1,44 @@
+id: person/tunku-abdul-rahman
+class: person
+label: { ar: "تونكو عبد الرحمن", en: "Tunku Abdul Rahman", ur: "تونکو عبدالرحمان" }
+names:
+  - { value: "Abdul Rahman", kind: full }
+gender: male
+summary:
+  ar: "سياسي ماليزي وأمير من قدح، وُلد في ألور ستر سنة 1903. قاد بصفته رئيس حزب أمنو ائتلاف الاستقلال إلى النصر سنة 1955، وتفاوض على استقلال مالايا عن بريطانيا فأعلنه سنة 1957 أولَ رئيس وزراء للاتحاد، وأشرف على تشكيل ماليزيا سنة 1963 وقادها حتى سنة 1970، وتوفي في كوالالمبور سنة 1990."
+  en: "Malaysian statesman and a prince of Kedah, born at Alor Setar in 1903. As president of UMNO he led the Alliance to victory in 1955, negotiated Malaya's independence from Britain and proclaimed it in 1957 as the federation's first prime minister, oversaw the formation of Malaysia in 1963, and led the country until 1970; he died at Kuala Lumpur in 1990."
+  ur: "ملائیشیائی سیاست دان اور قدح کے شہزادے، جو 1903ء میں الور سٹار میں پیدا ہوئے۔ امنو کے صدر کی حیثیت سے 1955ء میں اتحاد کو فتح دلائی، برطانیہ سے ملایا کی آزادی کی گفت و شنید کی اور 1957ء میں وفاق کے پہلے وزیرِ اعظم کی حیثیت سے اس کا اعلان کیا، 1963ء میں ملائیشیا کی تشکیل کی نگرانی کی اور 1970ء تک ملک کی قیادت کی؛ 1990ء میں کوالالمپور میں وفات پائی۔"
+roles: [politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1903-02-08"
+  hijri: "1320"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 8 February 1903 at Alor Setar, Kedah, the seventh son of Sultan Abdul Hamid Halim Shah of Kedah, as the English, Arabic, Urdu and Indonesian articles and Wikidata give. No place entity exists for Alor Setar, so no born_in relation is written. The Hijri year (1320) is by tabular conversion."
+  sources: [source/wikipedia-tunku-abdul-rahman-en, source/wikipedia-tunku-abdul-rahman-ar, source/wikipedia-tunku-abdul-rahman-ur, source/wikipedia-tunku-abdul-rahman-id, source/wikidata-tunku-abdul-rahman]
+died:
+  edtf: "1990-12-06"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 6 December 1990 at Kuala Lumpur and was buried at the Langgar Royal Mausoleum in Alor Setar, as the articles and Wikidata give. No place entity exists for Kuala Lumpur, so no died_in relation is written. The Hijri year (1411) is by tabular conversion."
+  sources: [source/wikipedia-tunku-abdul-rahman-en, source/wikipedia-tunku-abdul-rahman-ar, source/wikipedia-tunku-abdul-rahman-ur, source/wikipedia-tunku-abdul-rahman-id, source/wikidata-tunku-abdul-rahman]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Tunku Abdul Rahman. Wikidata's religion value is a structured value (Sunni Islam, Q483654) from a single structured family, which never counts on its own. The English article's Islam section documents public and organisational roles — Islam made the religion of the federation under his government, his founding and long presidency of the converts' welfare organisation PERKIM, and his service as the Organisation of Islamic Cooperation's first secretary-general — office and organisational leadership, which never count as attestation of a school. No second, independent source naming a school for the man himself was found among the four articles read, so under the two-source rule and the doubt rule his school stays unknown, with the Sunni structured reading preserved here."
+    sources: [source/wikipedia-tunku-abdul-rahman-en, source/wikipedia-tunku-abdul-rahman-id, source/wikidata-tunku-abdul-rahman]
+external_ids: { wikidata: "Q296317" }
+sources: [source/wikipedia-tunku-abdul-rahman-en, source/wikipedia-tunku-abdul-rahman-ar, source/wikipedia-tunku-abdul-rahman-ur, source/wikipedia-tunku-abdul-rahman-id, source/wikidata-tunku-abdul-rahman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Tunku Abdul Rahman' (revision 1379472436 of 10 October 2026), Arabic Wikipedia «تونكو عبد الرحمن» (revision 76884019 of 5 October 2026), Urdu Wikipedia «تونکو عبدالرحمان» (revision 12135294 of 13 October 2026), Indonesian Wikipedia 'Tunku Abdul Rahman' (revision 30074524 of 15 October 2026) and Wikidata item Q296317 (item revision 2562793626 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('first Prime Minister of Malaysia (1903-1990)') matching the queue entry. Existence checked both directions before building: name fragments (Tunku, Abdul Rahman) and Q296317 grepped across all data/person files on origin/main — the Abdul Rahman hits are other men (among them abdul-rahman-limbong and abdul-rahman-dhaker), and Q296317 has no hits. 'Tunku' is a Kedah princely title, not a name: it is carried in the label, following the article title, and in prose, but no names entry is built from it, per the brief. His succession by Abdul Razak Hussein is an office succession, carried in prose, not as a relation edge. No place edges are written: Alor Setar and Kuala Lumpur have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-121
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

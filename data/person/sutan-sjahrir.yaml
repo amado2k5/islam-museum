@@ -1,0 +1,46 @@
+id: person/sutan-sjahrir
+class: person
+label: { ar: "سوتان صاهرير", en: "Sutan Sjahrir", ur: "سوتان صاہریر" }
+names:
+  - { value: "Sutan Sjahrir", kind: full }
+  - { value: "Soetan Sjahrir", kind: alternate }
+  - { value: "Sutan Syahrir", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي إندونيسي من قادة الاستقلال، وُلد في بادانغ بانجانغ بغرب سومطرة سنة 1909. اشتراكي درس في أمستردام ولايدن، ونظّم المقاومة ضد الاحتلال الياباني، فصار أول رئيس وزراء للجمهورية (1945–1947)، وأسّس الحزب الاشتراكي الإندونيسي، وسُجن دون محاكمة في عهد سوكارنو، وتوفي في منفاه بزيورخ سنة 1966."
+  en: "Indonesian statesman and independence leader, born at Padang Panjang, West Sumatra, in 1909. A socialist educated at Amsterdam and Leiden, he organised resistance to the Japanese occupation, became the republic's first prime minister (1945–1947), founded the Indonesian Socialist Party, was imprisoned without trial under Sukarno, and died in exile at Zürich in 1966."
+  ur: "انڈونیشی سیاست دان اور رہنما ئے آزادی، جو 1909ء میں مغربی سماٹرا کے پادانگ پانجانگ میں پیدا ہوئے۔ ایمسٹرڈیم اور لائیڈن سے تعلیم یافتہ سوشلسٹ؛ جاپانی قبضے کے خلاف مزاحمت منظم کی، جمہوریہ کے پہلے وزیرِ اعظم (1945ء–1947ء) بنے، انڈونیشی سوشلسٹ پارٹی قائم کی، سوکارنو کے دور میں بغیر مقدمے قید رہے، اور 1966ء میں زیورخ میں جلاوطنی کی حالت میں وفات پائی۔"
+roles: [politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1909-03-05"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 March 1909 at Padang Panjang, West Sumatra, as the English, Arabic, Urdu and Indonesian articles and Wikidata give. No place entity exists for Padang Panjang, so no born_in relation is written. The Hijri year (1327) is by tabular conversion."
+  sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-ar, source/wikipedia-sutan-sjahrir-ur, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
+died:
+  edtf: "1966-04-09"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 9 April 1966 at Zürich, Switzerland, where he had been released to seek medical treatment, as the articles and Wikidata give. No place entity exists for Zürich, so no died_in relation is written. The Hijri year (1385) is by tabular conversion."
+  sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Sjahrir, and none discusses a personal religious affiliation: the English and Indonesian articles treat his socialism and humanism as political philosophy, and the Arabic and Urdu articles are silent on religion. Wikidata's religion value is a structured value (Islam in general, Q432), which never counts. His Minangkabau Muslim family background likewise never counts. Historians have debated his personal beliefs — he is often characterised as a secular-leaning socialist humanist formed in a Muslim milieu — but scholarly characterisation is not self-attestation, and under the two-source rule and the doubt rule his school stays unknown, with the debate preserved here."
+    sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
+external_ids: { wikidata: "Q2470857" }
+sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-ar, source/wikipedia-sutan-sjahrir-ur, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sutan Sjahrir' (revision 1380707066 of 17 October 2026), Arabic Wikipedia «سوتان صاهرير» (revision 76474225 of 8 September 2026), Urdu Wikipedia «سوتان صاہریر» (revision 9707549 of 6 April 2026), Indonesian Wikipedia 'Sutan Sjahrir' (revision 30095828 of 22 October 2026) and Wikidata item Q2470857 (item revision 2562773033 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Prime Minister of Indonesia (1909–1966)') matching the queue entry. Existence checked both directions before building: name fragments (Sjahrir, Syahrir) and Q2470857 grepped across all data/person files on origin/main — no hits. His partnership with Mohammad Hatta is carried in prose, not as a relation edge, per the brief. No place edges are written: Padang Panjang and Zürich have no place entities. No succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-121
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
