@@ -1,0 +1,54 @@
+id: person/ibrahim-al-dabbagh
+class: person
+label:
+  ar: "إبراهيم الدباغ"
+  en: "Ibrahim al-Dabbagh"
+  ur: "ابراہیم الدباغ"
+names:
+  - { value: "إبراهيم بن مصطفى بن عبد القادر الدباغ", kind: full }
+  - { value: "Ibrahim ibn Mustafa ibn Abd al-Qadir al-Dabbagh", kind: full }
+  - { value: "Ibrahim al-Dabbagh", kind: alternate }
+gender: male
+born:
+  edtf: "1880"
+  hijri: "1297"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Jaffa in 1880 / 1297 AH and raised there; the Hijri year is given by the Arabic biography itself. Jaffa has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-ibrahim-al-dabbagh-ar, source/wikidata-ibrahim-al-dabbagh]
+died:
+  edtf: "1946-02-26"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 26 February 1946, which the Arabic biography equates with 25 Rabi al-Awwal 1365; the Hijri year is carried from that equation."
+  sources: [source/wikipedia-ibrahim-al-dabbagh-ar, source/wikidata-ibrahim-al-dabbagh]
+roles: [poet, journalist, writer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or order for the man himself. The Arabic biography records his Qur'an schooling at Jaffa, his degree at al-Azhar and, among his works, a treatise on Sufism — study and authorship are not affiliation — and Wikidata gives only Islam. Absence configuration."
+    sources: [source/wikipedia-ibrahim-al-dabbagh-ar, source/wikidata-ibrahim-al-dabbagh]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-ibrahim-al-dabbagh-ar] }
+summary:
+  ar: "شاعر وصحفي وكاتب فلسطيني وُلد في يافا ودرس في الأزهر، واستقر في القاهرة فعمل بالصحافة وأسّس مجلة «الإنسانية» (1903) وحرّر صحف الحزب الوطني المصري، وجمع ابن أخيه مصطفى مراد الدباغ ديوانه في جزأين بعد وفاته."
+  en: "Palestinian poet, journalist and writer born in Jaffa and trained at al-Azhar. Settled in Cairo, he worked in journalism, founded the magazine al-Insaniyya in 1903 and edited newspapers of Egypt's National Party; his nephew Mustafa Murad al-Dabbagh collected his diwan in two volumes after his death."
+  ur: "فلسطینی شاعر، صحافی اور مصنف، یافا میں پیدا ہوئے اور الازہر میں پڑھے۔ قاہرہ میں سکونت اختیار کر کے صحافت سے وابستہ رہے، 1903 میں مجلہ «الانسانیہ» جاری کیا اور مصر کی نیشنل پارٹی کے اخبارات کی ادارت کی؛ ان کے بھتیجے مصطفی مراد الدباغ نے ان کا دیوان بعد از وفات دو جلدوں میں مرتب کیا۔"
+sources:
+  - source/wikipedia-ibrahim-al-dabbagh-ar
+  - source/wikidata-ibrahim-al-dabbagh
+external_ids:
+  wikidata: Q28042217
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia biography of Ibrahim al-Dabbagh (Q28042217) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the Arabic article's page properties. Identity: the queue line's bearer is the Jaffa-born, Cairo-based poet and journalist of 1880–1946 — the queue's years are confirmed exactly. Existence checks by name fragments (dabbagh) and by QID across data/person on origin/main found abd-al-aziz-al-dabbagh, the Moroccan Sufi who died in 1719, and ibn-al-dabbagh, the Andalusi scholar — different men — and no prior record for this one. His nephew, who collected his diwan, has no person record, so no family edge is written; Jaffa has no place entity on main, while Cairo does and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
