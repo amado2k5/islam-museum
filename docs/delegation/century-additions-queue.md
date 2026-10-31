@@ -685,11 +685,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Dr. Zubaida Sirang — 1990–Living
 - [x] Dr. Abdul Samad — 1980–Living
 - [~] Dr. Muhammad Ashraf — 1953–Living
-- [ ] Dr. Salim Ali (Contemporary) — 1896–1987
-- [ ] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
-- [ ] Hakim Abdul Hameed — 1908–1999
-- [ ] Dr. Syed Zahoor Qasim — 1926–2015
-- [ ] Asghar Ali Engineer — 1939–2013
+- [x] Dr. Salim Ali (Contemporary) — 1896–1987
+- [x] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
+- [x] Hakim Abdul Hameed — 1908–1999
+- [x] Dr. Syed Zahoor Qasim — 1926–2015
+- [x] Asghar Ali Engineer — 1939–2013
 - [ ] Maulana Abul Kalam Azad — 1888–1958
 - [ ] Zakir Husain — 1897–1969
 - [ ] Fakhruddin Ali Ahmed — 1905–1977
