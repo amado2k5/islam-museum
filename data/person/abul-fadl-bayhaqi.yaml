@@ -1,0 +1,71 @@
+id: person/abul-fadl-bayhaqi
+class: person
+
+label: { ar: "أبو الفضل البيهقي", en: "Abu'l-Fadl Bayhaqi", ur: "ابوالفضل بیہقی" }
+
+names:
+  - { value: "أبو الفضل محمد بن حسين البيهقي", kind: full }
+  - { value: "Abu'l-Fadl Muhammad ibn Husayn al-Bayhaqi", kind: full }
+  - { value: "أبو الفضل", kind: kunya }
+  - { value: "البيهقي", kind: nisba }
+  - { value: "Abolfazl Beyhaqi", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "كاتب ومؤرخ فارسي في الدولة الغزنوية (نحو 995–1077)، وُلد في حارث آباد من أعمال بيهق وتعلّم في نيسابور، فالتحق بديوان الرسائل سنة 1020/1021 وصار تلميذًا ومساعدًا للكاتب الأول أبي نصر مشكان تسعة عشر عامًا، ثم تولى رئاسة الديوان في عهد عبد الرشيد، فأُقيل وسُجن وصودرت أمواله قبل إطلاقه سنة 1052. اعتزل في غزنة وقضى اثنين وعشرين عامًا في كتابة «تاريخ البيهقي» (التاريخ المسعودي) الذي كان في ثلاثين مجلدًا ولم يبقَ منه إلا نحو خمسة ونصف، وهو أوسع مصدر باقٍ عن عهد مسعود الأول، مشهور بصراحته ودقته ونثره الفارسي الرفيع. وليس هو المحدّث أبا بكر أحمد بن الحسين البيهقي صاحب السنن."
+  en: "Persian secretary and historian of the Ghaznavid court (c. 995 - 21 September 1077). Born at Harethabad in Bayhaq and educated at Nishapur, he entered the chancery (divan al-risala) in 1020/1 and served nineteen years as pupil and assistant to the chief secretary Abu Nasr Mushkan. After a turn as chief secretary under Abd al-Rashid he was dismissed, imprisoned and stripped of his possessions, then released in 1052 and retired to Ghazni, where he spent twenty-two years writing the Tarikh-i Bayhaqi (also called Tarikh-i Mas'udi): originally thirty volumes, of which about five and a half survive, it is the fullest surviving source for the reign of Mas'ud I, praised for its frankness, precision and elegant Persian prose. He is not the hadith scholar Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi."
+  ur: "غزنوی دربار کے فارسی منشی و مؤرخ (تقریباً 995ء – 21 ستمبر 1077ء)۔ بیہق کے حارث آباد میں پیدا ہوئے، نیشاپور میں تعلیم پائی، 1020/1021ء میں دیوانِ رسالت سے وابستہ ہو کر انیس برس ابو نصر مشکان کے شاگرد و معاون رہے۔ عبد الرشید کے عہد میں رئیسِ دیوان ہوئے، پھر معزول و قید ہوئے اور مال ضبط ہوا؛ 1052ء میں رہائی کے بعد غزنی میں گوشہ نشین ہو کر بائیس برس «تاریخِ بیہقی» (تاریخِ مسعودی) لکھی، جو تیس جلدوں میں تھی مگر تقریباً ساڑھے پانچ جلدیں باقی ہیں — مسعود اول کے عہد کا سب سے مفصل ماخذ۔ یہ محدث ابو بکر احمد بن الحسین البیہقی سے مختلف شخص ہیں۔"
+
+roles: [historian, writer]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "0995~"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born about 995 at Harethabad, a village of the Bayhaq district of Khurasan (English article, after Yusofi's Encyclopaedia Iranica entry); the record links the district place entity since Harethabad has none. Wikidata carries both 995 and 996; the article's c. 995 is followed. A bare year spans 385-386 AH, so no Hijri pairing is asserted."
+  sources:
+    - source/wikipedia-abul-fadl-bayhaqi-en
+    - source/wikidata-abul-fadl-bayhaqi
+
+died:
+  edtf: "1077-09-21"
+  hijri: "0470"
+  calendar: julian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Ghazni on 21 September 1077 (English article and Wikidata agree at day precision); his tomb is at his birthplace, Harethabad. The Hijri year 0470 is a conversion of the Gregorian date, so derived."
+  sources:
+    - source/wikipedia-abul-fadl-bayhaqi-en
+    - source/wikidata-abul-fadl-bayhaqi
+
+relations:
+  - { type: born_in, target: place/bayhaq }
+  - { type: died_in, target: place/ghazna }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's religion statement gives Sunni Islam (Q483654) - a single structured family attesting the broad school but no madhhab, and the Encyclopaedia Iranica biography as carried by the English article does not discuss his religion. Held unknown under the two-source rule; a second independent source naming him Sunni settles sunni/documented."
+    sources:
+      - source/wikidata-abul-fadl-bayhaqi
+
+external_ids: { wikidata: "Q2620460" }
+
+sources:
+  - source/wikipedia-abul-fadl-bayhaqi-en
+  - source/wikipedia-abul-fadl-bayhaqi-fa
+  - source/wikidata-abul-fadl-bayhaqi
+
+provenance:
+  layer: own-research
+  source: "English and Persian Wikipedia articles and Wikidata Q2620460, all revisions fetched live from the MediaWiki API on 31 Oct 2026; Yusofi's Encyclopaedia Iranica entry and Bosworth as cited in the English article. Identity: the Ghaznavid historian Abu'l-Fadl Muhammad ibn Husayn al-Bayhaqi - NOT Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi (994-1066), the hadith scholar with his own record (person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn), and NOT Abu'l-Hasan Ali ibn Zayd al-Bayhaqi, Ibn Funduq (person/ibn-funduq), the later Bayhaq historian who is one of this man's biographers; the three share only the Bayhaq nisba"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 B"
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
