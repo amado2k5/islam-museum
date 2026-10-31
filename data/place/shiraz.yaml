@@ -10,5 +10,9 @@ regions: [persia-central-asia]
 coordinates: [29.6103, 52.5311]
 coordinate_precision: site
 external_ids: { geonames: "115019", pleiades: "922706" }
-sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 546؛ الإدريسي، نزهة المشتاق (طبعة 2002) ص 405"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), n–z prose enrichment"
+sources: [source/geonames-gazetteer, source/futuh-buldan-maarif-1407, source/nuzhat-al-mushtaq-2002]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
