@@ -1,0 +1,23 @@
+id: work/sharh-al-arbaeen-ibn-daqiq
+class: work
+kind: book
+label: { ar: "شرح الأربعين النووية", en: "Sharh al-Arba'in al-Nawawiyya (Ibn Daqiq al-Id)" }
+summary:
+  ar: "«شرح الأربعين النووية» لابن دقيق العيد (ت 702هـ): شرح موجز جامع لأحاديث «الأربعين النووية»، يعرض في كل حديث فضله ومكانته، ثم يشرح معانيه فكرةً فكرةً، ويذكر أقوال العلماء المختلفة بإيجاز، ويرجّح ما يراه. {cite:ibn-daqiq-arbaeen-haykal-2012 p. 7}"
+  en: "Ibn Daqiq al-Id's (d. 702 AH) concise commentary on al-Nawawi's Forty Hadith. For each hadith it states its virtue, explains its meanings idea by idea, briefly reports the scholars' differing readings, and prefers one. {cite:ibn-daqiq-arbaeen-haykal-2012 p. 7}"
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-daqiq-arbaeen-haykal-2012] }
+authors: [person/ibn-daqiq-al-id]
+language: language/arabic
+wings: []
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: commentary_on, target: work/arbaeen-al-nawawiyya, sources: [source/ibn-daqiq-arbaeen-haykal-2012] }
+sources: [source/ibn-daqiq-arbaeen-haykal-2012]
+provenance:
+  layer: own-research
+  source: "Dar al-Salam 5th edition (2012), editor's preface and the commentary on hadiths 1, 2 and the headings for hadiths 1–42 (scan pp. 5–313), read from the OCR"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "harvest-group-a-arbain-ibn-daqiq-8"
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }
