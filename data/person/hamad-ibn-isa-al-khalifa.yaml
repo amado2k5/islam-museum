@@ -1,0 +1,50 @@
+id: person/hamad-ibn-isa-al-khalifa
+class: person
+label:
+  ar: "حمد بن عيسى بن علي آل خليفة"
+  en: "Hamad ibn Isa Al Khalifa"
+  ur: "حمد بن عیسیٰ بن علی آل خلیفہ"
+names:
+  - { value: "Hamad bin Isa bin Ali Al Khalifa", kind: full }
+  - { value: "حمد بن عيسى بن علي آل خليفة", kind: full }
+gender: male
+summary:
+  ar: "حاكم البحرين من وفاة أبيه عيسى بن علي سنة 1932 حتى وفاته سنة 1942، وكان نائب الحاكم الفعلي منذ سنة 1923. وُلد سنة 1872 ثاني أبناء عيسى بن علي، وفي عهده بدأ إنتاج أول بئر نفط على الضفة الغربية للخليج سنة 1932، وأسّس الحكم البلدي وطوّر التعليم والصحة والكهرباء والماء بمعاونة المستشار تشارلز بلغريف."
+  en: "Hakim (ruler) of Bahrain from the death of his father Isa bin Ali in 1932 until his own death in 1942, having been deputy ruler in fact since 1923. Born in 1872, the second of Isa bin Ali's sons, he saw the first oil well on the western shore of the Gulf begin production in 1932, founded municipal government and developed education, health, electricity and water services, assisted by the adviser Charles Belgrave."
+  ur: "1932ء میں اپنے والد عیسیٰ بن علی کی وفات سے 1942ء میں اپنی وفات تک بحرین کے حاکم، اور 1923ء سے درحقیقت نائب حاکم۔ 1872ء میں عیسیٰ بن علی کے دوسرے بیٹے پیدا ہوئے؛ ان کے دور میں 1932ء میں خلیج کے مغربی کنارے پر پہلے تیل کے کنویں سے پیداوار شروع ہوئی، بلدیاتی حکومت قائم ہوئی اور مشیر چارلس بیلگریو کی معاونت سے تعلیم، صحت، بجلی اور پانی کی خدمات نے ترقی کی۔"
+roles: [ruler]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1872-02-06"
+  hijri: "1288"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 6 February 1872, the second-born of Sheikh Isa bin Ali Al Khalifa's eight sons (his elder brother predeceased him in 1893), privately educated, as the English article and Wikidata give; the item's place of birth is Al-Muharraq (Q270500). The Hijri year (1288) is by tabular conversion. Al-Muharraq has no place entity, so no born_in relation is written. His father, Isa bin Ali Al Khalifa of Bahrain (Q343110), has no person record in this graph — the record at person/isa-ibn-ali is a medieval namesake, an amir of Marash, a different man — so no child_of relation is written."
+  sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikidata-hamad-ibn-isa-al-khalifa]
+died:
+  edtf: "1942-02-20"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 20 February 1942 at Al Rumaitha, Bahrain, and was buried in the Al Hunaynya Cemetery next to his ancestor Shaikh Salman bin Ahmed Al Khalifa, as the English article and Wikidata give. The Hijri year (1361) is by tabular conversion. Al Rumaitha has no place entity, so no died_in relation is written."
+  sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikidata-hamad-ibn-isa-al-khalifa]
+relations:
+  - { type: sibling_of, target: person/abdullah-bin-isa-al-khalifa, sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikipedia-abdullah-bin-isa-al-khalifa-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder: a Sunni reading exists but rests on a single structured family only. The English article's infobox gives his religion as Sunni Islam; the Arabic article names no religion, and Wikidata's only religion value is Islam in general (Q432). No second, independent source naming a school for the man himself was found among the sources read — the web mirrors repeating 'Sunni Islam' all copy the same English infobox. His headship of the Al Khalifa house and of the Bahraini state, and Bahrain's constitutional order, are office and dynasty, which never count as personal attestation. The reading is preserved here; under the two-source rule and the doubt rule his school stays unknown pending the founder's ruling."
+    sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikidata-hamad-ibn-isa-al-khalifa]
+external_ids: { wikidata: "Q2665314" }
+sources: [source/wikipedia-hamad-ibn-isa-al-khalifa-en, source/wikipedia-hamad-ibn-isa-al-khalifa-ar, source/wikidata-hamad-ibn-isa-al-khalifa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hamad bin Isa Al Khalifa (1872–1942)' (revision 1358497089 of 9 June 2026), Arabic Wikipedia «حمد بن عيسى بن علي آل خليفة» (revision 76760659 of 25 September 2026) and Wikidata item Q2665314 (item revision 2548547373 of 22 September 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and asserted before any claim was drawn, and the QID grounded through the English article's own page property (the undisambiguated English title resolves to his great-grandson's item) and confirmed through the Arabic article's page property. Identity: the queue line 'Sheikh Hamad ibn Isa Al Khalifa (1872–1942)' matches the Hakim of Bahrain's biography exactly; he is NOT the present king Hamad bin Isa Al Khalifa (born 1950, Q57352), who already has a record at person/hamad-bin-isa-al-khalifa — this record's slug uses 'ibn' to keep the two men distinct. Existence checked both directions before building: name fragments and Q2665314 grepped across all data/person files on origin/main — no prior record of this man. EDGES: the sibling pair with his younger brother Abdullah bin Isa Al Khalifa (built in this same wave) is written once, here in the elder brother's record, as sibling_of — both men's English articles name Isa bin Ali as father. The father–son pair with Salman bin Hamad Al Khalifa is written once as a child_of edge in the SON's record, per the wave brief (the item's child value Q2469483 is Salman, and Salman's item gives his father as this man, Q2665314). No child_of edge is written here: his father has no record (see born note). The queue's years (1872–1942) are confirmed exactly."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-138
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
