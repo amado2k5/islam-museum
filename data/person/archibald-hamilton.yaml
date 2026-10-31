@@ -1,0 +1,54 @@
+id: person/archibald-hamilton
+class: person
+label:
+  ar: "السير أرتشيبالد هاملتون"
+  en: "Sir Archibald Hamilton"
+  ur: "سر آرچیبالڈ ہیملٹن"
+names:
+  - { value: "Charles Edward Archibald Watkin Hamilton", kind: full }
+  - { value: "Abdullah Hamilton", kind: alternate }
+gender: male
+born:
+  edtf: "1876-12-10"
+  hijri: "1293"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 10 December 1876; the English article and Wikidata agree. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-archibald-hamilton-en, source/wikidata-archibald-hamilton]
+died:
+  edtf: "1939-03-18"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 18 March 1939 and was buried at Brookwood Cemetery beside Lord Headley; the English article and Wikidata agree. Brookwood has no place entity, so no died_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-archibald-hamilton-en, source/wikidata-archibald-hamilton]
+roles: [military]
+regions: [andalus-europe]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. He converted to Islam on 20 December 1923, and the notice of it ran in The Islamic Review (vol. 12, 1924), the Woking Muslim Mission's journal — the Lahore Ahmadiyya channel — whose archive still lists him among its converts. That is the mission-adjacency configuration: no source names a school for him personally, quotes him on doctrine, or records him professing Ahmadi belief, and mission adjacency never counts as an attestation. The adjacency is preserved here unclassified, pending a ruling."
+    sources: [source/wikipedia-archibald-hamilton-en, source/wokingmuslim-converts-islamic-review, source/wikidata-archibald-hamilton]
+relations: []
+summary:
+  ar: "أرستقراطي بريطاني (1876-1939)، البارونيت الخامس، ورث لقبي أبيه سنة 1915 واعتنق الإسلام في 20 كانون الأول 1923 فعُرف بالسير عبد الله هاملتون؛ نقلت مجلة بعثة ووكينغ «الإسلامية ريفيو» خبر إسلامه، ودُفن في مقبرة بروكوود بجانب اللورد هيدلي."
+  en: "British aristocrat (1876-1939), 5th Baronet, who inherited his father's two baronetcies in 1915 and converted to Islam on 20 December 1923, being known thereafter as Sir Abdullah Hamilton; his conversion was noticed in the Woking mission's Islamic Review, and he was buried at Brookwood beside Lord Headley."
+  ur: "برطانوی رئیس (1876ء–1939ء)، پانچویں بیرونٹ، جنہوں نے 1915ء میں والد کی دو بیرونٹیاں ورثے میں پائیں اور 20 دسمبر 1923ء کو اسلام قبول کیا، جس کے بعد وہ سر عبداللہ ہیملٹن کے نام سے جانے گئے؛ ان کے قبولِ اسلام کی خبر ووکنگ مشن کے «اسلامک ریویو» میں شائع ہوئی، اور وہ بروک وڈ میں لارڈ ہیڈلے کے پہلو میں دفن ہوئے۔"
+sources:
+  - source/wikipedia-archibald-hamilton-en
+  - source/wikipedia-archibald-hamilton-ms
+  - source/wikidata-archibald-hamilton
+  - source/wokingmuslim-converts-islamic-review
+external_ids:
+  wikidata: Q7526034
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Sir Archibald Hamilton, 5th Baronet' (revision 1354315172 of 15 May 2026) and Malay Wikipedia stub (revision 3862926 of 5 September 2016), both read in full, the Wikidata item Q7526034 (item revision 2556400106 of 13 October 2026), and the Woking Muslim Mission archive's converts page, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. (The plain title 'Archibald Hamilton' is a disambiguation page and was not used.) No Arabic or Urdu article exists for him. Existence checks by name fragments (hamilton) and by QID across data/person on origin/main found no prior record. No relations are written: Brookwood has no place entity, and his father has no person record. His baronetcy is a title carried in the label and prose, never as a given name."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

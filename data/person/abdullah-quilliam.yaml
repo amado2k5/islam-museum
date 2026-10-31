@@ -1,0 +1,57 @@
+id: person/abdullah-quilliam
+class: person
+label:
+  ar: "عبد الله كويليام"
+  en: "Abdullah Quilliam"
+  ur: "عبداللہ کویلیام"
+names:
+  - { value: "William Henry Quilliam", kind: full }
+  - { value: "Abdullah Quilliam", kind: full }
+  - { value: "Henri Marcel Leon", kind: alternate }
+  - { value: "Haroun Mustapha Leon", kind: alternate }
+gender: male
+born:
+  edtf: "1856-04-10"
+  hijri: "1272"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at 22 Eliot Street, Liverpool, on 10 April 1856; the English and Arabic articles and Wikidata agree. Liverpool has no place entity, so no born_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-abdullah-quilliam-en, source/wikipedia-abdullah-quilliam-ar, source/wikidata-abdullah-quilliam]
+died:
+  edtf: "1932-04-23"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Taviton Street, Bloomsbury, London, on 23 April 1932 and was buried in an unmarked grave in the Muslim section of Brookwood Cemetery; the English article and Wikidata agree. London and Brookwood have no place entities, so no died_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-abdullah-quilliam-en, source/wikidata-abdullah-quilliam]
+roles: [lawyer, writer]
+regions: [andalus-europe]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. His scholarly biographer Ron Geaves reports that Quilliam 'defined himself as an Ottoman Hanafi with an allegiance to traditional Islam', that he considered the Wahhabi movement a rebellion against the legitimate Sunni Caliphate, and that there is no evidence he belonged to a Sufi order. That is a single scholarly family, however: no second independent source names a school for him — the English, Arabic and Urdu articles and Wikidata give Islam only — so under the two-source rule the value stays unknown pending a ruling, with the Hanafi self-definition preserved here. His Ottoman title of Shaykh al-Islam of the British Isles and his Afghan and Persian appointments are honours and offices, which never count."
+    sources: [source/geaves-sufism-britain-quilliam, source/wikipedia-abdullah-quilliam-en, source/wikidata-abdullah-quilliam]
+relations: []
+summary:
+  ar: "محامٍ من ليفربول (1856-1932) اعتنق الإسلام سنة 1887 وأسس معهد ليفربول الإسلامي، أول مسجد عامل في إنجلترا (1889)، ومنحه السلطان العثماني عبد الحميد الثاني لقب شيخ الإسلام للجزر البريطانية؛ يُنسب إليه اهتداء نحو ستمائة بريطاني."
+  en: "Liverpool solicitor (1856-1932) who converted to Islam in 1887 and founded the Liverpool Muslim Institute, England's first functioning mosque (1889); the Ottoman Sultan Abdul Hamid II granted him the title of Shaykh al-Islam of the British Isles, and some 600 British converts are credited to his preaching."
+  ur: "لیورپول کے وکیل (1856ء–1932ء) جنہوں نے 1887ء میں اسلام قبول کیا اور لیورپول مسلم انسٹی ٹیوٹ قائم کیا، جو انگلستان کی پہلی فعال مسجد تھی (1889ء)؛ عثمانی سلطان عبد الحمید ثانی نے انہیں جزائر برطانیہ کے شیخ الاسلام کا خطاب دیا، اور تقریباً چھ سو برطانویوں کی ہدایت انہی سے منسوب ہے۔"
+sources:
+  - source/wikipedia-abdullah-quilliam-en
+  - source/wikipedia-abdullah-quilliam-ar
+  - source/wikipedia-abdullah-quilliam-ur
+  - source/wikidata-abdullah-quilliam
+  - source/geaves-sufism-britain-quilliam
+external_ids:
+  wikidata: Q317737
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Abdullah Quilliam' (revision 1370329727 of 20 August 2026), Arabic Wikipedia article (revision 75914739 of 16 July 2026) and Urdu Wikipedia article (revision 12024685 of 25 September 2026), all read in full, the Wikidata item Q317737 (item revision 2533528428 of 20 August 2026), and Ron Geaves's paper 'The History and Development of Sufism in Britain' (2013), read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. Existence checks by name fragments (quilliam) and by QID across data/person on origin/main found no prior record. No relations are written: Liverpool, London and Brookwood have no place entities, and his converts and contemporaries are not relations under the lane's rules."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
