@@ -13,5 +13,10 @@ Volume nine covers several chapters of the *Mishkat*. They include a section on 
 ## Edition
 The volume was published by Dar al-Nawader in Damascus. The title page says it was printed at the expense of Shaykh Sultan ibn Zayed Al Nahyan, representative of the ruler of the United Arab Emirates. The copyright pages give the publisher's offices in Damascus, Beirut, Kuwait and Tunis. {cite:lamaat-tanqih-dar-al-nawader-vol9 p. 1}, {cite:lamaat-tanqih-dar-al-nawader-vol9 p. 4}
 
+## A later study of the book
+A study by Sayyid Abd al-Majid al-Ghawri in *al-Hadith*, a refereed journal, no. 11 (Ramadan 1437 AH / June 2016), introduces Abd al-Haq al-Dihlawi and his works, then studies the *Lam'at* as hadith scholarship. {cite:al-hadith-journal-11-ghawri-2016 p. 1}
+
+The study says that al-Dihlawi was born in Delhi in Muharram 958 AH (January 1551), was raised there under the religious upbringing of his father Sayf al-Din, and died in Delhi on 21 Rabi' I 1052 AH, aged about ninety-four. {cite:al-hadith-journal-11-ghawri-2016 p. 2}, {cite:al-hadith-journal-11-ghawri-2016 p. 6}
+
 ## A note on the source
 The editors' names on the title page are not legible in the OCR and are not recorded. The author's birth year is hard to read on the title page and has not been converted; it needs checking against the printed book. Page numbers are scan pages. {cite:lamaat-tanqih-dar-al-nawader-vol9 p. 1}
