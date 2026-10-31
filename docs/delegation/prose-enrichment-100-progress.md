@@ -5,6 +5,7 @@ Lane: [`docs/agents/lanes/prose-enrichment-100.md`](../agents/lanes/prose-enrich
 | Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
 |---|---|---|---|---|---|
 | 2026-10-31 | Devin (a–m) | batch 1: event, kamil-ibn-al-athir pp. 292–373 | 25 | 0 | — |
+| 2026-10-31 | Devin (a–m) | batch 2: event, kamil-ibn-al-athir pp. 24–455 | 14 | 0 | — |
 | 2026-10-31 | Claude (Haiku 5.5) | n–z batch 1 | 24: place/tabariyya, saada, tustar, sarqusta, udhayb, riha, qudaid, rafah, talaqan, tinbagh, zabil, qayn, tukharistan, samangan, nayin, qashmir, tha-laba, qalat-rabah, ushrusana, tifash, nahr-sayhan, tabriz; person/uthman-ibn-abi-shayba, sariya-ibn-zunaym | place/tarim (see leads) | this PR |
 
 ## Leads
