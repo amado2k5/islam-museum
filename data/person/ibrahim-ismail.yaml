@@ -1,0 +1,39 @@
+id: person/ibrahim-ismail
+class: person
+label:
+  ar: "إبراهيم إسماعيل"
+  en: "Ibrahim Ismail"
+  ur: "ابراہیم اسکندر"
+names:
+  - { value: "Ibrahim Ismail", kind: full }
+  - { value: "Ibrahim ibni Almarhum Sultan Iskandar", kind: regnal }
+gender: male
+summary:
+  ar: "سلطان جوهر منذ سنة 2010 وملك ماليزيا (يانغ دي-برتوان أغونغ) منذ يناير 2024. وُلد في جوهر بهرو سنة 1958 أكبر أبناء السلطان إسكندر، وكان وليا للعهد ثلاثة عقود ووصيا على العرش أثناء تولي أبيه الملكية، وانتخبه مجلس الحكام في أكتوبر 2023 سابع عشر ملوك ماليزيا، وهو معروف بدفاعه عن الاعتدال الديني وبإعادته عطلة جوهر الأسبوعية إلى الجمعة والسبت."
+  en: "Sultan of Johor since 2010 and King of Malaysia (Yang di-Pertuan Agong) since January 2024. Born at Johor Bahru in 1958, the eldest son of Sultan Iskandar, he was crown prince for three decades and regent of Johor while his father was king; elected by the Conference of Rulers in October 2023 as the seventeenth Agong, he is noted for his advocacy of religious moderation and for restoring Johor's Friday–Saturday weekend."
+  ur: "2010ء سے سلطانِ جوہر اور جنوری 2024ء سے ملائیشیا کے بادشاہ (یانگ دی پرتوان آگونگ)۔ 1958ء میں جوہر بہرو میں سلطان اسکندر کے بڑے بیٹے پیدا ہوئے، تین دہائیوں تک ولی عہد اور اپنے والد کی بادشاہت کے دوران جوہر کے نائب السلطنت رہے؛ مجلسِ حکام نے اکتوبر 2023ء میں انھیں سترھواں آگونگ منتخب کیا، اور وہ مذہبی اعتدال کی وکالت اور جوہر کی جمعہ–ہفتہ تعطیل بحال کرنے کے لیے معروف ہیں۔"
+roles: [sultan]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1958-11-22"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 22 November 1958 at the Sultanah Aminah Hospital, Johor Bahru, the third child and eldest son of Sultan Iskandar by his first wife Josephine Ruby Trevorrow (Khalsom binti Abdullah), as the English, Arabic and Urdu articles and Wikidata give. The Hijri year (1378) is by tabular conversion. Johor Bahru has no place entity, so no born_in relation is written. His father Sultan Iskandar (Q375278) has no person record in this graph (verified against origin/main in this session), so no parent_of edge is written anywhere for this pair; the filiation is carried here and in the prose and is reported to the lane coordinator."
+  sources: [source/wikipedia-ibrahim-ismail-en, source/wikipedia-ibrahim-ismail-ar, source/wikipedia-ibrahim-ismail-ur, source/wikidata-ibrahim-ismail]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Sultan Ibrahim. Wikidata's religion value is Sunni Islam (Q483654), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found. As Sultan of Johor he is the head of Islam in his state — an office of the throne, which never counts — and his public advocacy of religious moderation and his criticism of the Arabisation of Malaysian Muslim culture name no school. The structured Sunni reading is preserved here; under the two-source rule and the doubt rule his school stays unknown, unflagged."
+    sources: [source/wikipedia-ibrahim-ismail-en, source/wikidata-ibrahim-ismail]
+external_ids: { wikidata: "Q2657043" }
+sources: [source/wikipedia-ibrahim-ismail-en, source/wikipedia-ibrahim-ismail-ar, source/wikipedia-ibrahim-ismail-ur, source/wikidata-ibrahim-ismail]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibrahim Iskandar of Johor' (revision 1380490245 of 16 October 2026), Arabic Wikipedia «إبراهيم إسماعيل (ملك ماليزيا)» (revision 76948848 of 11 October 2026), Urdu Wikipedia «ابراہیم اسکندر سلطان جوہر» (revision 10088524 of 26 April 2026) and Wikidata item Q2657043 (item revision 2559714742 of 22 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic and Urdu articles' page properties. Identity: the queue line 'Sultan Ibrahim Ismail — 1958–Living' matches the Sultan of Johor and seventeenth Yang di-Pertuan Agong's biography exactly; the slug follows his personal name, the queue's wording (the English article's title is a descriptive 'Ibrahim Iskandar of Johor'). Existence checked both directions before building: name fragments (Ibrahim Ismail, Ibrahim Iskandar, إبراهيم) and Q2657043 grepped across all data/person files on origin/main — no hits for this man. His father Sultan Iskandar of Johor (Q375278) likewise has no record (QID and name greps, no hits), so the parent_of pair cannot be written in this wave and is reported to the coordinator as a negative result. The queue's year (1958) is confirmed exactly."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-123
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,49 @@
+id: person/zakir-husain
+class: person
+label:
+  ar: "ذاكر حسين"
+  en: "Zakir Husain"
+  ur: "ذاکر حسین"
+names:
+  - { value: "Zakir Husain Khan", kind: full }
+gender: male
+summary:
+  ar: "أكاديمي وسياسي هندي (1897–1969)، من مؤسسي الجامعة الملية الإسلامية ونائب رئيسها من 1926 إلى 1948، ثم نائب رئيس جامعة عليكرة الإسلامية (1948–1956). حاكم بيهار (1957–1962)، ونائب رئيس الهند (1962–1967)، ورئيسها من 13 مايو 1967 حتى وفاته في المنصب في 3 مايو 1969 — أول مسلم يتولى الرئاسة. نال وسام «بهارات راتنا» سنة 1963."
+  en: "Indian educationist and politician (1897–1969), a founding member of Jamia Millia Islamia and its vice-chancellor from 1926 to 1948, then vice-chancellor of Aligarh Muslim University (1948–1956). Governor of Bihar (1957–1962), vice president of India (1962–1967) and president from 13 May 1967 until his death in office on 3 May 1969 — the first Muslim to hold the office. He was awarded the Bharat Ratna in 1963."
+  ur: "ہندوستانی ماہرِ تعلیم اور سیاست دان (1897ء–1969ء)، جامعہ ملیہ اسلامیہ کے بانی ارکان میں سے ایک اور 1926ء سے 1948ء تک اس کے وائس چانسلر، پھر علی گڑھ مسلم یونیورسٹی کے وائس چانسلر (1948ء–1956ء)۔ بہار کے گورنر (1957ء–1962ء)، ہندوستان کے نائب صدر (1962ء–1967ء) اور 13 مئی 1967ء سے 3 مئی 1969ء کو عہدے میں وفات تک صدرِ ہند — یہ عہدہ سنبھالنے والے پہلے مسلمان۔ 1963ء میں انھیں بھارت رتن دیا گیا۔"
+roles: [scholar, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1897-02-08"
+  hijri: "1314"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 8 February 1897 at Hyderabad, Hyderabad State, as the English article's lead and infobox and Wikidata give; he was born into an Afridi Pashtun family settled there. Hyderabad has no place entity in this collection, so no born_in relation is written and the place is carried here. The Hijri year (1314) is by tabular conversion."
+  sources: [source/wikipedia-zakir-husain-en, source/wikipedia-zakir-husain-ar, source/wikidata-zakir-husain]
+died:
+  edtf: "1969-05-03"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 3 May 1969 at New Delhi, in office as president of India — the first holder of that office to die in it — as the English article and Wikidata give. The Hijri year (1389) is by tabular conversion."
+  sources: [source/wikipedia-zakir-husain-en, source/wikidata-zakir-husain]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-zakir-husain-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read — English, Arabic or Urdu — names a school for Zakir Husain, and his Wikidata item's only religion value is Islam (Q432), a generic value that names no school. His founding membership and long vice-chancellorship of Jamia Millia Islamia, his chairing of the Basic National Education Committee and his Gandhian educational work are organisational and public activity, which never count as personal attestation of a school. With no attestation of any kind, his school is recorded unknown, unflagged."
+    sources: [source/wikipedia-zakir-husain-en, source/wikipedia-zakir-husain-ar, source/wikipedia-zakir-husain-ur, source/wikidata-zakir-husain]
+external_ids: { wikidata: "Q144732" }
+sources: [source/wikipedia-zakir-husain-en, source/wikipedia-zakir-husain-ar, source/wikipedia-zakir-husain-ur, source/wikidata-zakir-husain]
+provenance:
+  layer: own-research
+  source: "Identity: the queue line 'Zakir Husain — 1897–1969' matches the third president of India's biography and dates exactly. English Wikipedia 'Zakir Husain' (revision 1378210502 of 3 October 2026); Arabic Wikipedia «ذاكر حسين» (revision 76473407 of 8 September 2026); Urdu Wikipedia «ذاکر حسین (سیاست دان)» (revision 12150306 of 15 October 2026) and Wikidata item Q144732 (item revision 2553917206 of 6 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026; every recorded revision id was fetched live in this session and asserted as the current revision before any claim was drawn, and the QID was grounded through the English article's own page property. Existence checked both directions before building: slug candidates (zakir-husain, zakir-hussain), name fragments (zakir, husain) and Q144732 grepped across all data/person files on origin/main — the only Zakir present is Zakir Naik, a different man, and no record for the president existed. No relations beyond his death place: his birthplace Hyderabad has no place entity (verified), and offices are never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-127
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

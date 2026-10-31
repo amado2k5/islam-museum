@@ -1,0 +1,53 @@
+id: person/habib-tanvir
+class: person
+label:
+  ar: "حبيب تنوير"
+  en: "Habib Tanvir"
+  ur: "حبیب تنویر"
+names:
+  - { value: "Habib Tanvir", kind: full }
+  - { value: "Habib Ahmed Khan", kind: full }
+gender: male
+born:
+  edtf: "1923-09-01"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Habib Ahmed Khan on 1 September 1923 at Raipur: the English and Urdu articles and Wikidata agree on the day. The Hijri year 1342 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-habib-tanvir-en, source/wikipedia-habib-tanvir-ur, source/wikidata-habib-tanvir]
+died:
+  edtf: "2009-06-08"
+  hijri: "1430"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 8 June 2009: the English article's body, citing Sify and the BBC, gives Bhopal after a three-week illness, while its infobox gives Singrauli — both readings preserved; no place entity exists for either town, so no died_in edge is written. The Hijri year 1430 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-habib-tanvir-en, source/wikipedia-habib-tanvir-ur, source/wikidata-habib-tanvir]
+roles: [playwright, director, actor, poet]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. Wikidata carries Islam as his religion and nothing more specific; his father was Hafiz Ahmed Khan of Peshawar and he spent a year of postgraduate study at Aligarh Muslim University — family background and schooling, which never count. Generic Islam is not a school in this schema, so nothing further is recorded."
+    sources: [source/wikidata-habib-tanvir, source/wikipedia-habib-tanvir-en]
+relations: []
+summary:
+  ar: "مسرحي ومخرج وشاعر وممثل هندي (1923–2009)، وُلد باسم حبيب أحمد خان في رايبور، وأسس فرقة «نايا ثييتر» في بوبال سنة 1959، واشتهر بعمله مع فناني تشاتيسغار القبليين ومسرحيته «شرنداس تشور» (1975)."
+  en: "Indian playwright, theatre director, poet and actor (1923–2009), born Habib Ahmed Khan at Raipur, who founded the Naya Theatre company at Bhopal in 1959 and became known for his work with Chhattisgarhi folk performers and his play Charandas Chor (1975)."
+  ur: "بھارتی ڈراما نگار، تھیٹر ہدایت کار، شاعر اور اداکار (1923–2009)، جو رائے پور میں حبیب احمد خان کے نام سے پیدا ہوئے؛ انھوں نے 1959 میں بھوپال میں «نیا تھئیٹر» کمپنی قائم کی اور چھتیس گڑھ کے لوک فنکاروں کے ساتھ اپنے کام اور ڈرامے «چرنداس چور» (1975) کے لیے مشہور ہوئے۔"
+sources:
+  - source/wikipedia-habib-tanvir-en
+  - source/wikipedia-habib-tanvir-ur
+  - source/wikidata-habib-tanvir
+external_ids:
+  wikidata: Q3535567
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Habib Tanvir and the Wikidata item Q3535567, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Raipur-born founder of Naya Theatre (1923–2009), born Habib Ahmed Khan. Existence checks by name fragments (tanvir) and by QID across data/person on origin/main found no prior record. The queue's years (1923–2009) are confirmed to the day; the death place is internally inconsistent in the English article (Bhopal in the body, Singrauli in the infobox) and both readings are preserved in the death note. Relations written: none — Raipur, Bhopal and Singrauli have no place entities, and his company and awards are never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-128
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
