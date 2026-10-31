@@ -1,0 +1,47 @@
+id: person/hidayet-turkoglu
+class: person
+label:
+  ar: "هيدو توركوغلو"
+  en: "Hidayet Türkoğlu"
+  ur: "ہیڈو ترکوگلو"
+names:
+  - { value: "Hidayet Türkoğlu", kind: full }
+  - { value: "Hedo Türkoğlu", kind: alternate }
+  - { value: "هيدو توركوغلو", kind: full }
+gender: male
+born:
+  edtf: "1979-03-19"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 19 March 1979 at Istanbul, Turkey: the English, Turkish and Arabic articles and Wikidata agree on the day and the city. The district is read two ways — the English article's infobox gives Gaziosmanpaşa, while Wikidata's birthplace value is Bayrampaşa; both are Istanbul districts, the city-level fact is agreed, and the discrepancy is preserved here. The Hijri year 1399 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-hidayet-turkoglu-en, source/wikipedia-hidayet-turkoglu-tr, source/wikidata-hidayet-turkoglu]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hidayet-turkoglu-en, source/wikidata-hidayet-turkoglu] }
+roles: [basketball player, basketball executive]
+regions: [anatolia-balkans, americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Islam is attested for the man himself — the English biography states 'He is a Muslim', and Wikidata's religion (P140) value is Islam, one structured family — but no source read names a school of law or theology for him, so under the lane's discipline the settlement stays unknown, unflagged, with the attestation stated here. His parents' Bosniak origin, recorded in the same biography, is family background and was expressly not counted; the attestation rests on what is said of Türkoğlu himself."
+    sources: [source/wikipedia-hidayet-turkoglu-en, source/wikidata-hidayet-turkoglu]
+summary:
+  ar: "مسؤول كرة سلة تركي ولاعب سابق (وُلد سنة 1979 في إسطنبول)، أول لاعب مولود في تركيا يلعب في NBA؛ لعب خمسة عشر موسماً، وفاز بجائزة اللاعب الأكثر تطوراً 2007–08، ويرأس الاتحاد التركي لكرة السلة منذ أكتوبر 2016."
+  en: "Turkish basketball executive and former player (born 1979 at Istanbul), the first Turkish-born player in NBA history; he played fifteen NBA seasons, won the 2007–08 Most Improved Player award, and has presided over the Turkish Basketball Federation since October 2016."
+  ur: "ترک باسکٹ بال ایگزیکٹو اور سابق کھلاڑی (پیدائش 1979، استنبول)؛ NBA کی تاریخ کے پہلے ترک نژاد کھلاڑی؛ پندرہ سیزن کھیلے، 2007–08 کا موسٹ امپرووڈ پلیئر ایوارڈ جیتا، اور اکتوبر 2016 سے ترک باسکٹ بال فیڈریشن کے صدر ہیں۔"
+sources:
+  - source/wikipedia-hidayet-turkoglu-en
+  - source/wikipedia-hidayet-turkoglu-tr
+  - source/wikipedia-hidayet-turkoglu-ar
+  - source/wikidata-hidayet-turkoglu
+external_ids:
+  wikidata: Q298981
+provenance:
+  layer: own-research
+  source: "The English, Turkish and Arabic Wikipedia biographies of Hidayet (Hedo) Türkoğlu and the Wikidata item Q298981, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query (both 2529330825); the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Istanbul-born forward drafted in 2000, now the Turkish federation's president; his established nickname 'Hedo' is carried as an alternate name. Existence was checked by QID and by name fragments (Türkoğlu, Turkoglu, Hedo, Hidayet) against every person record on origin/main and no prior record or Arabic-label collision exists, so no homonyms entry is required. The queue's year (1979, living) is confirmed to the day. Relations written: born_in to Istanbul, the one place entity the sources support (Istanbul's existence was re-verified on origin/main in this session); the district-level discrepancy is carried in the birth note. Regions follow his Turkish formation and his NBA career. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-137
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
