@@ -756,11 +756,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ilan Pappé (Honored Historian) — 1954–Living
 - [x] Walid Khalidi — 1925–Living
 - [x] Rashid Khalidi — 1948–Living
-- [ ] Noura Erakat — 1980–Living
-- [ ] Mohammed El-Kurd — 1998–Living
-- [ ] Muna El-Kurd — 1998–Living
-- [ ] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
-- [ ] Mustapha Cherif — 1950–Living
+- [x] Noura Erakat — 1980–Living
+- [x] Mohammed El-Kurd — 1998–Living
+- [x] Muna El-Kurd — 1998–Living
+- [~] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
+- [x] Mustapha Cherif — 1950–Living
 - [ ] Souleymane Bachir Diagne — 1955–Living
 - [ ] Ebrahim Moosa — 1957–Living
 - [ ] Omid Safi — 1970–Living
