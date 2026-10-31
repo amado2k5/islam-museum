@@ -731,21 +731,21 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahira Khan — 1984–Living
 - [x] Saba Qamar — 1984–Living
 - [x] Humayun Saeed — 1971–Living
-- [ ] Sharif Finch — 1995–Living
-- [ ] Muhammad Wilkerson — 1989–Living
-- [ ] Husain Abdullah — 1985–Living
-- [ ] Hamza Abdullah — 1983–Living
-- [ ] Naji Marshall — 1998–Living
-- [ ] Tari Eason — 2001–Living
-- [ ] Jaylen Brown (Contemporary) — 1996–Living
-- [ ] Kyrie Irving — 1992–Living
-- [ ] Rondae Hollis-Jefferson — 1995–Living
-- [ ] Enes Kanter Freedom — 1992–Living
-- [ ] Mehmet Okur — 1979–Living
-- [ ] Hedo Türkoğlu — 1979–Living
-- [ ] Alperen Şengün — 2002–Living
-- [ ] Mirza Teletović — 1985–Living
-- [ ] Jusuf Nurkić — 1994–Living
+- [x] Sharif Finch — 1995–Living
+- [x] Muhammad Wilkerson — 1989–Living
+- [x] Husain Abdullah — 1985–Living
+- [x] Hamza Abdullah — 1983–Living
+- [x] Naji Marshall — 1998–Living
+- [x] Tari Eason — 2001–Living
+- [x] Jaylen Brown (Contemporary) — 1996–Living
+- [x] Kyrie Irving — 1992–Living
+- [x] Rondae Hollis-Jefferson — 1995–Living
+- [x] Enes Kanter Freedom — 1992–Living
+- [x] Mehmet Okur — 1979–Living
+- [x] Hedo Türkoğlu — 1979–Living
+- [x] Alperen Şengün — 2002–Living
+- [x] Mirza Teletović — 1985–Living
+- [x] Jusuf Nurkić — 1994–Living
 - [ ] Džanan Musa — 1999–Living
 - [ ] Bojan Bogdanović (Contemporary) — 1989–Living
 - [ ] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
@@ -1635,27 +1635,27 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Taqi al-Din al-Nabhani (Father) (1880–1940)
 - [x] Ibrahim al-Dabbagh (1880–1946)
 - [x] Ali al-Rimawi (1860–1919)
-- [ ] Yusuf al-Khalidi (1842–1906)
-- [ ] Raghib al-Khalidi (1866–1952)
-- [ ] Sa'id al-Husayni (1878–1945)
-- [ ] Wasif Jawhariyyeh (Muslim Associates) (1897–1972)
-- [ ] As'ad al-Shuqairi (1860–1940)
-- [ ] Ahmad Shuqairi (1908–1980)
-- [ ] Subhi al-Khadra (1895–1954)
-- [ ] Akram Zuaiter (1909–1996)
-- [ ] Awni Abd al-Hadi (1889–1970)
-- [ ] Tarab Abdul Hadi (1910–1976)
-- [ ] Sadhij Nassar (1900–1970)
-- [ ] Mogannam Mogannam (Muslim Allies) (1895–1945)
-- [ ] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
-- [ ] As'ad Qaddura (1880–1959)
-- [ ] Sheikh Muhammad al-Sa'id (1870–1930)
+- [x] Yusuf al-Khalidi (1842–1906)
+- [x] Raghib al-Khalidi (1866–1952)
+- [x] Sa'id al-Husayni (1878–1945)
+- [x] Wasif Jawhariyyeh (Muslim Associates) (1897–1972)
+- [x] As'ad al-Shuqairi (1860–1940)
+- [x] Ahmad Shuqairi (1908–1980)
+- [x] Subhi al-Khadra (1895–1954)
+- [x] Akram Zuaiter (1909–1996)
+- [x] Awni Abd al-Hadi (1889–1970)
+- [x] Tarab Abdul Hadi (1910–1976)
+- [x] Sadhij Nassar (1900–1970)
+- [x] Mogannam Mogannam (Muslim Allies) (1895–1945)
+- [x] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
+- [x] As'ad Qaddura (1880–1959)
+- [~] Sheikh Muhammad al-Sa'id (1870–1930)
 - [x] Haj Amin al-Husseini (1897–1974)
-- [ ] Jamal al-Husayni (1893–1982)
-- [ ] Fawzi al-Mulki (1910–1962)
-- [ ] Tawfiq Abu al-Huda (1894–1956)
-- [ ] Samir al-Rifa'i (1901–1965)
-- [ ] Ibrahim Hashem (1888–1958)
+- [x] Jamal al-Husayni (1893–1982)
+- [x] Fawzi al-Mulki (1910–1962)
+- [x] Tawfiq Abu al-Huda (1894–1956)
+- [x] Samir al-Rifa'i (1901–1965)
+- [x] Ibrahim Hashem (1888–1958)
 - [ ] King Talal of Jordan (1909–1972)
 - [ ] Sheikh Hamad ibn Isa Al Khalifa (1872–1942)
 - [ ] Sir Salman bin Hamad Al Khalifa (1894–1961)

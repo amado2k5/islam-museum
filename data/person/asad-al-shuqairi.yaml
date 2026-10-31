@@ -1,0 +1,55 @@
+id: person/asad-al-shuqairi
+class: person
+label:
+  ar: "أسعد الشقيري"
+  en: "As'ad al-Shuqairi"
+  ur: "اسعد الشقیری"
+names:
+  - { value: "أسعد خليل الشقيري", kind: full }
+  - { value: "As'ad Khalil al-Shuqairi", kind: full }
+  - { value: "As'ad Shukeiri", kind: alternate }
+  - { value: "As'ad al-Shuqayri", kind: alternate }
+gender: male
+born:
+  edtf: "1860"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Acre in 1860 (Arabic biography; the English biography and Wikidata agree). The year spans the Hijri years 1276–1277, so no hijri value is recorded."
+  sources: [source/wikipedia-asad-al-shuqairi-ar, source/wikipedia-asad-al-shuqairi-en, source/wikidata-asad-al-shuqairi]
+died:
+  edtf: "1940-02"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "Died in February 1940 and was buried in the Shaykh Mubarak cemetery at Acre (Arabic biography); the English biography and Wikidata give the year 1940. February 1940 straddles the Hijri years 1358–1359, so no hijri value is recorded."
+  sources: [source/wikipedia-asad-al-shuqairi-ar, source/wikipedia-asad-al-shuqairi-en, source/wikidata-asad-al-shuqairi]
+roles: [scholar, qadi, politician]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for As'ad al-Shuqairi himself. Wikidata's structured religion value gives Islam only — a single structured family; his posts (qadi of Acre, mufti of the Fourth Ottoman Army) are offices, and his al-Azhar training is education, none of which counts."
+    sources: [source/wikipedia-asad-al-shuqairi-en, source/wikipedia-asad-al-shuqairi-ar, source/wikidata-asad-al-shuqairi]
+relations:
+  - { type: born_in, target: place/akka, sources: [source/wikipedia-asad-al-shuqairi-ar, source/wikidata-asad-al-shuqairi] }
+  - { type: died_in, target: place/akka, sources: [source/wikipedia-asad-al-shuqairi-ar] }
+summary:
+  ar: "عالم وسياسي فلسطيني من عكا (1860–1940)، درس في الأزهر وعمل في القضاء الشرعي العثماني، ومثّل عكا في مجلس المبعوثان، وعُيّن مفتيًا للجيش العثماني الرابع في الحرب العالمية الأولى، وقاد المعارضة الفلسطينية للمجلس الإسلامي الأعلى زمن الانتداب؛ وهو والد أحمد الشقيري، أول رئيس لمنظمة التحرير الفلسطينية."
+  en: "Palestinian scholar and politician from Acre (1860–1940). Trained at al-Azhar, he served in the Ottoman sharia judiciary, sat for Acre in the Ottoman parliament, was appointed mufti of the Fourth Ottoman Army in the First World War, and led the Palestinian opposition to the Supreme Muslim Council under the Mandate; he was the father of Ahmad Shukeiri, the PLO's first chairman."
+  ur: "عکہ سے تعلق رکھنے والے فلسطینی عالم اور سیاست دان (1860–1940)۔ انہوں نے الازہر سے تعلیم پائی، عثمانی شرعی عدلیہ میں خدمات انجام دیں، عثمانی پارلیمنٹ میں عکہ کی نمائندگی کی، پہلی جنگِ عظیم میں چوتھی عثمانی فوج کے مفتی مقرر ہوئے، اور انتداب کے دور میں مجلسِ اسلامی اعلیٰ کی مخالفت کی قیادت کی؛ وہ احمد الشقیری کے والد تھے، جو پی ایل او کے پہلے چیئرمین بنے۔"
+sources:
+  - source/wikipedia-asad-al-shuqairi-en
+  - source/wikipedia-asad-al-shuqairi-ar
+  - source/wikidata-asad-al-shuqairi
+external_ids:
+  wikidata: Q4802825
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of As'ad al-Shuqairi (Q4802825) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the English article's page properties ('As'ad Shukeiri'). Existence checks by name fragments (shuqairi, shukeiri, shuk) and by QID across data/person on origin/main found no prior record for this man. PARENT LINK FOR MERGE: his son Ahmad Shukeiri (Q977935), named as his child in the English biography and in Wikidata's child statement, has NO record on origin/main — checked by QID and by name fragments — so no parent–child edge can be written in this wave; when the son's record is built, the edge belongs in it as child_of. His Acre mayoralty, qadi appointment and army muftiate are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,54 @@
+id: person/ibrahim-hashem
+class: person
+label:
+  ar: "إبراهيم هاشم"
+  en: "Ibrahim Hashem"
+  ur: "ابراہیم ہاشم"
+names:
+  - { value: "إبراهيم بن محمد منيب هاشم الجعفري", kind: full }
+  - { value: "Ibrahim Hashem", kind: full }
+  - { value: "Ibrahim Hashem Pasha", kind: alternate }
+gender: male
+born:
+  edtf: "1886"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Nablus. The year is debated: 1886 is followed (both biographies' leads and one of Wikidata's two values); the queue and Wikidata's second value give 1888, which the English biography's own arithmetic also implies, since it has him move to Istanbul in 1904 at the age of sixteen. Both readings are preserved here; because they fall in different Hijri years, no hijri value is recorded."
+  sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem]
+died:
+  edtf: "1958-07-14"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Assassinated at Baghdad on 14 July 1958, killed by a mob outside the Iraqi Ministry of Defence while visiting Iraq as deputy head of the Arab Federation during the 1958 Iraqi coup; both biographies give 14 July, and his body was never recovered. Wikidata's structured value gives 14 June 1958 instead, so the month is recorded as debated; because the rival months fall in different Hijri years (1377 and 1378), no hijri value is recorded."
+  sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem]
+roles: [politician, judge]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Ibrahim Hashem himself, and Wikidata carries no religion value for him. The English biography's remark that his Nablus family claimed descent from the Prophet is a lineage claim about his family, not an attestation of his own school, and never counts; his al-Fatat membership in his youth, his judgeships and his premierships are affiliations and offices."
+    sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem]
+relations:
+  - { type: born_in, target: place/nablus, sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem] }
+  - { type: died_in, target: place/baghdad, sources: [source/wikipedia-ibrahim-hashem-en, source/wikipedia-ibrahim-hashem-ar, source/wikidata-ibrahim-hashem] }
+summary:
+  ar: "سياسي وقاضٍ أردني من نابلس (1886–1958)، تولى رئاسة الوزراء خمس مرات بين 1933 و1957 وترأس مجلس الأعيان بين 1951 و1955؛ خريج حقوق إسطنبول ومدرّس القانون الجزائي في دمشق، وعضو مجلس الوصاية على العرش إبان قصور الملك حسين، واغتيل في بغداد في انقلاب 14 تموز 1958 وهو نائب رئيس وزراء الاتحاد العربي الهاشمي."
+  en: "Jordanian politician and judge from Nablus (1886–1958), five times prime minister of Jordan between 1933 and 1957 and president of the Senate from 1951 to 1955. An Istanbul law graduate who taught penal law at Damascus, he sat on the Throne Council during King Hussein's minority and was assassinated at Baghdad in the Iraqi coup of 14 July 1958 while deputy head of the Arab Federation."
+  ur: "نابلس سے تعلق رکھنے والے اردنی سیاست دان اور قاضی (1886–1958)، 1933 سے 1957 کے درمیان پانچ بار اردن کے وزیر اعظم اور 1951 سے 1955 تک مجلس اعیان کے صدر رہے؛ استنبول سے قانون کی تعلیم پائی اور دمشق میں قانون جزا پڑھایا، شاہ حسین کی کم سنی کے دور میں مجلس وصایت کے رکن رہے، اور 1958 میں عرب وفاق کے نائب سربراہ کی حیثیت سے بغداد میں 14 جولائی کی بغاوت کے دوران قتل کر دیے گئے۔"
+sources:
+  - source/wikipedia-ibrahim-hashem-en
+  - source/wikipedia-ibrahim-hashem-ar
+  - source/wikidata-ibrahim-hashem
+external_ids:
+  wikidata: Q1655980
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Ibrahim Hashem (Q1655980) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and re-asserted against a second live query (all matched), and the QID was grounded through the page properties of both language articles. Identity: the queue line's bearer is the Nablus-born Jordanian prime minister assassinated at Baghdad in 1958, pinned by biography and QID against the many other Hashem/Hashim bearers on main (among them the Syrian president Hashim al-Atassi). Existence checks by name fragments (hashem, hashim) and by QID across data/person on origin/main found no prior record for this man. His father Muhammad Munib al-Ja'fari (named in Wikidata's father statement, Q12245862) has no record on main, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-137
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

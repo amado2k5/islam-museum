@@ -1,0 +1,58 @@
+id: person/ahmad-shuqairi
+class: person
+label:
+  ar: "أحمد الشقيري"
+  en: "Ahmad Shuqairi"
+  ur: "احمد الشقیری"
+names:
+  - { value: "أحمد أسعد الشقيري", kind: full }
+  - { value: "Ahmad As'ad al-Shuqairi", kind: full }
+  - { value: "Ahmad Shukeiri", kind: alternate }
+  - { value: "Ahmad Shuqairi", kind: alternate }
+  - { value: "Ahmad Shukeiry", kind: alternate }
+gender: male
+born:
+  edtf: "1908-01-01"
+  hijri: "1325"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 January 1908 at Tebnine (Tibnin) in south Lebanon, then Ottoman territory, where his father As'ad al-Shuqairi was in exile; he was raised at Tulkarm. The English biography gives the day, the Arabic biography and Wikidata agree on it, and the Hijri year 1325 is derived by conversion. Tibnin and Tulkarm have no place entities on main, so the places are carried here."
+  sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi]
+died:
+  edtf: "1980-02-26"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at the King Hussein Medical City in Amman and was buried, by his will, near the tomb of Abu Ubayda ibn al-Jarrah in the Jordan Valley. The day is debated: 26 February 1980 is followed (the English biography, the Arabic biography's lead, and The Times obituary published 27 February 1980), while the Arabic biography's death section gives 25 February and Wikidata carries both values. Both days fall in Hijri 1400, which is derived by conversion."
+  sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi]
+roles: [politician, diplomat, lawyer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Ahmad Shuqairi himself. Wikidata's structured religion value gives Islam only — a single structured family; his Istiqlal membership, his PLO chairmanship and his diplomatic posts are political roles and never count."
+    sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi]
+relations:
+  - { type: child_of, target: person/asad-al-shuqairi, sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi] }
+  - { type: died_in, target: place/amman, sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar] }
+summary:
+  ar: "سياسي ودبلوماسي فلسطيني (1908–1980)، مؤسس منظمة التحرير الفلسطينية وأول رئيس لها (1964–1967)؛ عمل محاميًا في فلسطين زمن الانتداب، ومثّل فلسطين وسوريا والسعودية في الأمم المتحدة، وكان أمينًا عامًا مساعدًا لجامعة الدول العربية، وهو ابن العالم والسياسي العثماني أسعد الشقيري."
+  en: "Palestinian politician and diplomat (1908–1980), founder and first chairman of the Palestine Liberation Organization (1964–1967). A lawyer in Mandate Palestine, he represented Palestine, Syria and Saudi Arabia at the United Nations and served as assistant secretary-general of the Arab League; he was the son of the Ottoman scholar-politician As'ad al-Shuqairi."
+  ur: "فلسطینی سیاست دان اور سفارت کار (1908–1980)، تنظیم آزادی فلسطین کے بانی اور اس کے پہلے چیئرمین (1964–1967)۔ انتداب فلسطین میں وکیل رہے، اقوام متحدہ میں فلسطین، شام اور سعودی عرب کی نمائندگی کی اور عرب لیگ کے معاون سیکرٹری جنرل رہے؛ وہ عثمانی عالم و سیاست دان اسعد الشقیری کے بیٹے تھے۔"
+sources:
+  - source/wikipedia-ahmad-shuqairi-en
+  - source/wikipedia-ahmad-shuqairi-ar
+  - source/wikidata-ahmad-shuqairi
+external_ids:
+  wikidata: Q977935
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Ahmad Shukeiri (Q977935) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the PLO founder-chairman of 1908–1980, distinguished from his father As'ad (Q4802825, built in wave 134). The child_of edge to person/asad-al-shuqairi is written here, in the son's record, exactly as the father's provenance directs: the English biography and the Arabic biography both name As'ad as his father, and Wikidata's father statement names Q4802825. Existence checks by name fragments (shuqairi, shukeiri, shuk) and by QID across data/person on origin/main found no prior record for this man; his daughter-in-law generation and his books are not relations, and Tibnin and Tulkarm have no place entities on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
