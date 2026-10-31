@@ -1,0 +1,52 @@
+id: person/raghib-al-khalidi
+class: person
+label:
+  ar: "راغب الخالدي"
+  en: "Raghib al-Khalidi"
+  ur: "راغب الخالدی"
+names:
+  - { value: "راغب الخالدي", kind: full }
+  - { value: "Raghib al-Khalidi", kind: full }
+  - { value: "Hajj Raghib al-Khalidi", kind: alternate }
+gender: male
+born:
+  edtf: "1866"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1866, as given by the Khalidi Library article and by the Jerusalem Post's history of the library. Raymond's statement that he died in 1952 'at the age of 82' would imply birth about 1870, and one web biography gives 1858; both variants are preserved here unadopted. The year 1866 spans the Hijri years 1282–1283, so no hijri value is recorded."
+  sources: [source/wikipedia-khalidi-library-en, source/jerusalem-post-khalidi-library-2016, source/raymond-khalidiyya-library-mela]
+died:
+  edtf: "1952"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1952, at Nablus (Raymond, MELA Notes). A death year of 1951 also circulates in press reporting and is preserved here unadopted. The year 1952 spans the Hijri years 1371–1372, so no hijri value is recorded."
+  sources: [source/raymond-khalidiyya-library-mela, source/wikipedia-khalidi-library-en]
+roles: [judge]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Raghib al-Khalidi himself. The Khalidi Library article calls him 'an Islamic judge' — an office, which never counts — and Raymond's study notes that the Khalidi family acted as Hanafi qadis in the Ottoman period, which is family milieu, not personal attestation."
+    sources: [source/wikipedia-khalidi-library-en, source/raymond-khalidiyya-library-mela]
+relations:
+  - { type: died_in, target: place/nablus, sources: [source/raymond-khalidiyya-library-mela] }
+summary:
+  ar: "قاضٍ مقدسي (1866–1952) من عائلة الخالدي، خدم في قضاء القدس ثم يافا، وأسس المكتبة الخالدية التي افتُتحت للجمهور سنة 1900 في البلدة القديمة بالقدس، وجمعت مخطوطات العائلة المتراكمة عبر قرون، بوقفٍ أقامته والدته خديجة خانم."
+  en: "Jerusalem judge (1866–1952) of the Khalidi family who served in the judiciary of Jerusalem and then Jaffa, and founded the Khalidi Library, opened to the public in 1900 in the Old City of Jerusalem, gathering the family's centuries-old manuscript collections under a waqf established by his mother Khadija Khanum."
+  ur: "قدس کے قاضی (1866–1952) جن کا تعلق الخالدی خاندان سے تھا؛ انہوں نے قدس اور پھر یافا کی عدالتوں میں خدمات انجام دیں، اور خالدیہ کتب خانہ قائم کیا جو 1900ء میں قدیم قدس میں عوام کے لیے کھلا، جس میں خاندان کی صدیوں پرانی مخطوطات کی ذخیرہ اندوزی ان کی والدہ خدیجہ خانم کے قائم کردہ وقف کے تحت جمع ہوئی۔"
+sources:
+  - source/wikipedia-khalidi-library-en
+  - source/jerusalem-post-khalidi-library-2016
+  - source/raymond-khalidiyya-library-mela
+  - source/tarif-khalidi-family-history
+provenance:
+  layer: own-research
+  source: "Raghib al-Khalidi has no Wikipedia article and no Wikidata item — searched by his English and Arabic names in this session — so this record rests on the English Wikipedia's Khalidi Library article (revision fetched live from the MediaWiki API and asserted), André Raymond's 'The Khàalidiyya Library in Jerusalem' (MELA Notes 71–72, 2000–2001), the Jerusalem Post's 2016 library history as reposted by the Khalidi Library, and Tarif Khalidi's 'A Family's History' (Khalidi Library, October 2020), all read in full. KINSHIP: no source read attests an uncle–nephew relation between Raghib and Yusuf al-Khalidi. The nephew of Yusuf attested by both Raymond and Tarif Khalidi is Ruhi al-Khalidi, son of Yusuf's brother Yasin. Raghib was a younger kinsman of the same Jerusalem family — Rashid Khalidi calls Raghib his grandfather and Yusuf his great-great-great-uncle, a distant kinship for which the schema has no predicate — so no family edge is written in either record. The library endowment's benefactor is called Raghib's grandmother by the Khalidi Library article and his mother Khadija by Raymond, Tarif Khalidi and Rashid Khalidi; the mother reading is followed. Existence checks by name fragments (raghib, khalidi) across data/person on origin/main found raghib-al-nashashibi and other namesakes only, and no prior record for this man."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
