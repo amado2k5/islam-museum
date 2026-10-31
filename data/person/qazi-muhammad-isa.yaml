@@ -1,0 +1,99 @@
+id: person/qazi-muhammad-isa
+class: person
+label:
+  ar: "قاضي محمد عيسى"
+  en: "Qazi Muhammad Isa"
+  ur: "قاضی محمد عیسیٰ"
+names:
+  - value: "Qazi Muhammad Isa"
+    kind: full
+  - value: "قاضي محمد عيسى"
+    kind: full
+  - value: "Qazi Muhammad Essa"
+    kind: alternate
+  - value: "Qazi Muhammad Esa"
+    kind: alternate
+gender: male
+summary:
+  ar: "محام وسياسي من بيشين في بلوشستان (1914–1976): أسّس رابطة بلوشستان الإسلامية وصار أصغر أعضاء لجنة عمل الرابطة الإسلامية لعموم الهند، ومثّل بلوشستان في جلسة قرار لاهور 1940، وجاب الهند داعيا لباكستان، ثم كان سفير باكستان في البرازيل وعضو وفودها إلى الأمم المتحدة."
+  en: "Barrister and politician from Pishin in Balochistan (1914–1976): founder of the Balochistan Muslim League and the youngest member of the All-India Muslim League's Working Committee, who represented Balochistan at the 1940 Lahore Resolution session, campaigned across India for Pakistan, and later served as Pakistan's ambassador to Brazil and on its United Nations delegations."
+  ur: "Barrister and politician from Pishin in Balochistan (1914–1976): founder of the Balochistan Muslim League and the youngest member of the All-India Muslim League's Working Committee, who represented Balochistan at the 1940 Lahore Resolution session, campaigned across India for Pakistan, and later served as Pakistan's ambassador to Brazil and on its United Nations delegations."
+born:
+  edtf: "1914-07-17"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: >-
+    The English and Arabic articles give 17 July 1914, at Pishin in
+    Balochistan; Wikidata gives 13 April 1913. The articles' value is
+    carried and the segment marked debated. The two candidate dates
+    fall in different Hijri years (1332 and 1331) and no source pairs a
+    Hijri date with the birth, so no Hijri year is recorded. No born_in
+    relation is written: no place entity exists for Pishin.
+  sources: [source/wikipedia-qazi-muhammad-isa-en, source/wikipedia-qazi-muhammad-isa-ar, source/wikidata-qazi-muhammad-isa]
+died:
+  edtf: "1976-06-19"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: >-
+    The English and Arabic articles and Wikidata all give 19 June 1976;
+    the English article places his death at Quetta. The harvest queue's
+    death year, 1973, is not followed — no source consulted supports
+    it. The Hijri year is a tabular conversion of the Gregorian date.
+    No died_in relation is written: no place entity exists for Quetta.
+  sources: [source/wikipedia-qazi-muhammad-isa-en, source/wikipedia-qazi-muhammad-isa-ar, source/wikidata-qazi-muhammad-isa]
+roles: [politician, diplomat]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: sunni
+    basis: documented
+    note: >-
+      Two articles attest the affiliation in prose, on distinct
+      citations: the English article states that he was 'from a Sunni
+      Hazara of Sheikh Ali tribe', resting on Dawn's 2012 account of
+      the Hazaras of Pakistan (Saleem Javed, 29 June 2012), and the
+      Arabic article states that he belonged to the Sunni Hazara tribe,
+      resting on the Story of Pakistan profile. The Sheikh Ali Hazaras
+      of the Pishin country are the Sunni Hazara tribe of Balochistan,
+      and both texts state the affiliation of the man himself, not only
+      of his family in general. Wikidata's religion value is Islam in
+      general (Q432) and is not counted toward the settlement. No source
+      read contests the attestation.
+    sources: [source/wikipedia-qazi-muhammad-isa-en, source/wikipedia-qazi-muhammad-isa-ar, source/wikidata-qazi-muhammad-isa]
+external_ids:
+  wikidata: Q7267302
+sources:
+  - source/wikipedia-qazi-muhammad-isa-en
+  - source/wikipedia-qazi-muhammad-isa-ar
+  - source/wikidata-qazi-muhammad-isa
+provenance:
+  layer: own-research
+  source: >-
+    Built for the century-additions queue §B line 1563, whose dates
+    (1914–1973) are corrected on the sources: both articles and
+    Wikidata give his death on 19 June 1976. Identity, dates and
+    career from the English Wikipedia article 'Qazi Muhammad Isa'
+    (revision 1355122251 of 20 May 2026), the Arabic article 'قاضي
+    محمد عيسى' (revision 73452076 of 12 February 2026) and Wikidata
+    item Q7267302 (revision 2551233274 of 30 September 2026),
+    retrieved in full via the MediaWiki and Wikidata APIs on
+    31 October 2026. The record's slug follows the English article's
+    spelling 'Isa'; the queue's 'Esa' and Wikidata's 'Essa' label
+    forms are carried as alternate names. Existence checks before
+    building: name greps for Muhammad Isa, Muhammad Esa, Muhammad
+    Essa and Qazi across data/person on origin/main returned only
+    records of other qazis, and the QID Q7267302 grep returned no hit.
+    No relations are written: his sons — among them Qazi Faez Isa,
+    later Chief Justice of Pakistan — and his nephew the diplomat
+    Ashraf Jehangir Qazi have no person records in the graph, so the
+    family is carried in the prose. No place edges are written:
+    Pishin and Quetta have no place entities.
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-119
+status:
+  review: published
