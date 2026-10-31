@@ -1,0 +1,54 @@
+id: person/edhem-mulabdic
+class: person
+label:
+  ar: "أدهم مولابديتش"
+  en: "Edhem Mulabdić"
+  ur: "ادھم ملابدیچ"
+names:
+  - { value: "Edhem Mulabdić", kind: full }
+gender: male
+born:
+  edtf: "1862-10-19"
+  hijri: "1279"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Maglaj in 1862, where he finished the mekteb and the ruždija. CONFLICT: the English biography's lead gives 19 October 1862, which the record follows; the Croatian biography and Wikidata give 25 December 1862, and the Bosnian biography gives the year only. Both day readings are preserved; the year is agreed everywhere and both readings fall in the same Hijri year, 1279, which is derived by tabular conversion and marked derived. Maglaj has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-edhem-mulabdic-en, source/wikipedia-edhem-mulabdic-hr, source/wikidata-edhem-mulabdic, source/wikipedia-edhem-mulabdic-bs]
+died:
+  edtf: "1954-01-29"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 29 January 1954 at Sarajevo, in straitened circumstances after a post-war trial had cost him his pension; the English, Bosnian and Croatian biographies and Wikidata agree on the day. The Hijri year 1373 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-edhem-mulabdic-en, source/wikipedia-edhem-mulabdic-bs, source/wikipedia-edhem-mulabdic-hr, source/wikidata-edhem-mulabdic]
+roles: [writer, teacher]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him, and Wikidata carries no religion value for him at all. The biographies record a Bosniak Muslim family background, mekteb schooling and teaching posts at the Muslim teachers' school (Darülmuallimin) and the Sharia Judges' School in Sarajevo — family background and teaching employment, which never count. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-edhem-mulabdic-en, source/wikipedia-edhem-mulabdic-bs, source/wikipedia-edhem-mulabdic-hr, source/wikidata-edhem-mulabdic]
+relations:
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-edhem-mulabdic-bs, source/wikipedia-edhem-mulabdic-hr] }
+summary:
+  ar: "كاتب ومربٍّ بوسني من ماغلاي، شارك في تأسيس مجلة «بهار» (1900) وجمعية «غيرت» (1903)، ودرّس في سراييفو وعمل نائباً عن ماغلاي حتى 1929، وصاحب رواية «زيلينو بوسينيي» (1898) التي تُعد أول رواية لبوسني مسلم."
+  en: "Bosnian writer and educator from Maglaj who co-founded the journal Behar (1900) and the Gajret society (1903), taught in Sarajevo and sat as Maglaj's deputy until 1929, and wrote Zeleno busenje (1898), regarded as the first Bosnian Muslim novel."
+  ur: "ماغلائی سے تعلق رکھنے والے بوسنیائی ادیب اور معلم، مجلہ «بہار» (1900ء) اور انجمن «غیرت» (1903ء) کے شریک بانی، جنھوں نے سرائیوو میں تدریس کی اور 1929ء تک ماغلائی کے نمائندے رہے، اور ناول «زیلینو بوسینیے» (1898ء) کے مصنف، جسے پہلا بوسنیائی مسلم ناول سمجھا جاتا ہے۔"
+sources:
+  - source/wikipedia-edhem-mulabdic-en
+  - source/wikipedia-edhem-mulabdic-bs
+  - source/wikipedia-edhem-mulabdic-hr
+  - source/wikidata-edhem-mulabdic
+external_ids:
+  wikidata: Q1284422
+provenance:
+  layer: own-research
+  source: "English, Bosnian and Croatian Wikipedia biographies of Edhem Mulabdić (Q1284422) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Maglaj-born author of Zeleno busenje (1862–1954); the queue's years are confirmed, the birth day being debated between the English article and the Croatian article/Wikidata. Existence checks by name fragments (mulabdic, mulabdić) and by QID across data/person on origin/main found no prior record. Co-founding Behar with Bašagić and Hadžić is never a relation; Maglaj has no place entity, and Sarajevo does, and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-129
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

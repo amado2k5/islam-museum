@@ -1,0 +1,55 @@
+id: person/osman-nuri-hadzic
+class: person
+label:
+  ar: "عثمان نوري حاجيتش"
+  en: "Osman Nuri Hadžić"
+  ur: "عثمان نوری حاجیچ"
+names:
+  - { value: "Osman Nuri Hadžić", kind: full }
+  - { value: "Nuri Hadžić", kind: alternate }
+  - { value: "Aziz Osman", kind: pen }
+gender: male
+born:
+  edtf: "1869-06-28"
+  hijri: "1286"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 28 June 1869 at Mostar, where he finished the mekteb, ruždija and madrasa before the Sarajevo School of Sharia Judges, law studies in Vienna and a law degree at Zagreb; the English and Bosnian biographies and Wikidata agree on the day. His surname Hadžić is a hereditary family name descended from the hajji title — a name element, not an attestation of anything about the man himself. The Hijri year 1286 is derived by tabular conversion and is marked derived. Mostar has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-osman-nuri-hadzic-en, source/wikipedia-osman-nuri-hadzic-bs, source/wikidata-osman-nuri-hadzic]
+died:
+  edtf: "1937-12-23"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 23 December 1937 at Belgrade, where he sat on the State Council of the Kingdom of Yugoslavia; the Bosnian biography, the English article's lead and Wikidata agree on the day, while the English article's personal-life section gives 22 December, a variant preserved here. The Hijri year 1356 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-osman-nuri-hadzic-bs, source/wikipedia-osman-nuri-hadzic-en, source/wikidata-osman-nuri-hadzic]
+roles: [writer, scholar, teacher]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The biographies record his madrasa and Sharia-school education, his professorship and directorship of the Sarajevo School of Sharia Judges, and his books arguing the place of Islam in culture and education, and Wikidata gives only Islam. Education, a school directorship and authorship about Islam never count as a madhhab attestation. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-osman-nuri-hadzic-en, source/wikipedia-osman-nuri-hadzic-bs, source/wikidata-osman-nuri-hadzic]
+relations:
+  - { type: died_in, target: place/belgrade, sources: [source/wikipedia-osman-nuri-hadzic-bs, source/wikipedia-osman-nuri-hadzic-en] }
+summary:
+  ar: "كاتب ومفكر بوسني من موستار، شارك في تأسيس مجلة «بهار» (1900)، وكتب «الإسلام والثقافة» (1894) و«محمد والقرآن» (1931) وهو تاريخ ثقافي للإسلام، وأدار مدرسة القضاة الشرعيين في سراييفو."
+  en: "Bosnian writer and intellectual from Mostar who co-founded the journal Behar (1900), wrote Islam i kultura (Islam and Culture, 1894) and Muhammed i Koran (Muhammed and the Quran, 1931), a cultural history of Islam, and directed the Sarajevo School of Sharia Judges."
+  ur: "موستار سے تعلق رکھنے والے بوسنیائی ادیب اور مفکر، مجلہ «بہار» (1900ء) کے شریک بانی، «اسلام اور ثقافت» (1894ء) اور «محمد اور قرآن» (1931ء) کے مصنف — جو اسلام کی ایک ثقافتی تاریخ ہے — اور سرائیوو کے قضاۃِ شرعیہ اسکول کے مدیر۔"
+sources:
+  - source/wikipedia-osman-nuri-hadzic-en
+  - source/wikipedia-osman-nuri-hadzic-bs
+  - source/wikidata-osman-nuri-hadzic
+external_ids:
+  wikidata: Q13090035
+provenance:
+  layer: own-research
+  source: "English and Bosnian Wikipedia biographies of Osman Nuri Hadžić (Q13090035) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Mostar-born co-founder of Behar and author of Muhammed i Koran (1869–1937); the queue's years are confirmed. Existence checks by name fragments (hadzic, hadžić) and by QID across data/person on origin/main found no prior record; Hadžić is a very common surname, so the identity was pinned by biography (Mostar birth, Sharia Judges' School directorship, Behar co-founding) as well as by QID. His wife Bahrija Vajzović and his daughter, the opera singer Bahrija Nuri Hadžić, have no person records, so no family edges are written; co-founding Behar is never a relation. Mostar has no place entity; Belgrade does, and carries the died_in edge. The pen name Aziz Osman was a joint pseudonym shared with Ivan Miličević on their early stories, as the Bosnian biography records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-129
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
