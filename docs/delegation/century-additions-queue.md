@@ -771,11 +771,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] M. A. S. Abdel Haleem — 1938–Living
 - [x] Mustafa Khattab — 1980–Living
 - [x] Mustafa Cerić — 1952–Living
-- [ ] Husein Smajić — 1952–Living
-- [ ] Nedžad Grabus — 1968–Living
-- [ ] Şükrü Hanioğlu — 1955–Living
-- [ ] Halil İnalcık — 1916–2016
-- [ ] Fuat Sezgin — 1924–2018
+- [x] Husein Smajić — 1952–Living
+- [x] Nedžad Grabus — 1968–Living
+- [x] Şükrü Hanioğlu — 1955–Living
+- [x] Halil İnalcık — 1916–2016
+- [x] Fuat Sezgin — 1924–2018
 - [ ] Ilber Ortaylı — 1947–Living
 - [ ] Celâl Şengör — 1955–Living
 - [ ] Gökhan Hotamışlıgil — 1962–Living
