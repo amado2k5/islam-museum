@@ -36,3 +36,4 @@ These summaries disagree with the body or source; the prose follows the sources.
 - place/tabriz: summary previously claimed Ilkhanid and Safavid capital status, which GeoNames cannot support; the summary is now reduced to location and provenance is added.
 | 2026-10-31 | Devin (a–m) | batch 8: place, futuh-buldan (anasan, armabil, ayadhaj, bajirwan, bawazij-al-anbar, bust, butq-shirin, darabadh, darjah-jank, dawraq, fasa, ishtikhan, jahram, karminiya, karyan, khushak, mihrajanqadhaf, kutha, al-rawha, al-salihiyya) | 20 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 9: place, nuzhat-al-mushtaq-2002 (abaskun, abura, afrunisfa, aghathublis, aghriyimis, al-hammamat, al-jund, al-khadra, al-mismaqan, al-ruwaytha, al-sal, al-sammaa, al-shihr, alamas, alaniya, alib, amman, amzaniyus, anhu, anjiya, antaliya, anzalan, aqra, aqrunus, aqulia) | 25 | 0 | — |
+| 2026-10-31 | Devin (a–m) | batch 10: place, nuzhat-al-mushtaq-2002 | 25 | 0 | — |
