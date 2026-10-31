@@ -1,0 +1,16 @@
+id: person/alyan
+class: person
+label: { ar: "أليان" }
+summary:
+  ar: "عند البلاذري عن الواقدي: والٍ على مجاز الأندلس لقيه طارق بن زياد في غزوته سنة اثنتين وتسعين فآمنه طارق على أن حمله وأصحابه إلى الأندلس في السفن."
+  en: "In al-Baladhuri via al-Waqidi: the governor of the al-Andalus strait whom Tariq ibn Ziyad met on his raid of year 92; Tariq granted him safety on condition of ferrying him and his companions to al-Andalus in the ships."
+gender: male
+relations:
+  - { type: participated_in, target: event/conquest-of-al-andalus, role: "المعبّر للمسلمين في السفن بأمان", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
