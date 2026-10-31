@@ -702,3 +702,210 @@ biggest precedent hubs; PR links; what failed or was skipped and why; what shoul
 then write the proposal (section 1) and run discovery (section 3) while you wait for my approval.
 
 ```
+
+## V · Khutab and Durus Explorer: Friday sermons, lessons, study circles and conferences from books, sites, audio and video (Claude Code on the Mac)
+
+Added 31 October 2026 at the founder's request, the companion of section U. It writes the proposal and stops for approval, finds published Sunni sermons (khutab al-jumu'a and occasion sermons), lessons (durus), study circles (halaqat al-'ilm), lecture series and conferences in books, websites, audio archives, podcasts and YouTube (metadata and links only, never downloaded), harvests books with Apple Vision and recordings with the offline speech tools under `docs/agents/audio-video-harvest.md`, indexes everything with links back, writes full entities for what matters, and builds the explorer.
+
+Run: `cd ~/Documents/GitHub/islam-museum`, start `claude --chrome` (or `/chrome` in a session), paste the block.
+
+```
+You are building **the Khutab and Durus Explorer** for islam.museum, the companion of the Fatwa Explorer
+(`docs/plan/07-prompts.md` section U): a record of published Friday sermons (khutab al-jumu'a), Eid and occasion
+sermons, lessons (durus), study circles (halaqat al-'ilm), lecture series, public lectures and scholarly
+conferences by Sunni scholars, imams and preachers, from the sermons the books record from the first century to today's
+recordings. Sources: books, websites, audio and video archives, podcasts and YouTube. You work on this Mac, with the
+Chrome browser for discovery, Apple Vision for printed books, the repo's offline speech-to-text tools for recordings,
+and your own reading (this Claude session and its subagents) to write museum entities.
+
+The museum **records sermons and lessons as history and as a guide to who taught what, where and when. It never
+preaches, and it repeats no exhortation in its own voice.** It describes what the speaker said, attributes it and
+labels it.
+
+## 0 · Read first, check the machine
+
+1. `uname -s` must print `Darwin`. Repo `~/Documents/GitHub/islam-museum`: `git fetch origin`, then
+   `git worktree add ../islam-museum-khutab -b claude/khutab-durus-explorer origin/main`, link `node_modules` from
+   the main clone, and work only there. Harvest workspace outside git: `~/islam-museum-harvest/` (`$HARVEST`), under
+   `raw/khutab/`, `raw/durus/`, `audio/`, `books/khutab/`.
+2. Read, and follow them over this prompt where they conflict: `AGENTS.md`; `docs/ai-change-gates.md` (proposal gate,
+   §1a canon gate, merge gate, quality gate, §8 no-go list); `docs/agents/audio-video-harvest.md` (**binding for every
+   recording**: rights, the transcript-noise rule, the toolchain of §3, the "include everything and categorise it"
+   rules, the per-recording report of §8); `docs/agents/source-families.md`; `publication-standard.md`;
+   `content-standards.md`; `mining-sources.md`; `lanes.md`; the finished recording lanes `lanes/omar-abdelkafy.md`
+   and `lanes/tareq-al-suwaidan.md` (copy their shape); `docs/scope.md`; `docs/language.md`;
+   `docs/sources-policy.md`; `docs/plan/02-content-model.md`, `14-themes-atlas.md` (`work.kind: sermon`,
+   `lecture-series`, `podcast`; websites; `event.kind: conference`, `gathering`), `15-local-harvest.md` (§5 rules of
+   the road), `20-opinions.md`, `21-landing-and-explorers.md`; `docs/site/README.md`; and section U of
+   `docs/plan/07-prompts.md` (the Fatwa Explorer prompt): reuse its structure, its proposal step and its explorer
+   components wherever they fit, and link the two explorers.
+3. See what exists: `grep -rli "خطب\|خطبة\|khutba\|sermon\|درس\|دروس\|halaqa\|حلقة\|محاضرة\|lecture\|مؤتمر\|conference" data/ content/`;
+   the works with `kind: sermon`, `lecture-series` or `podcast`; `source/assabile-*`; `scripts/harvest/audio/`
+   (`download.py`, `transcribe.py`); `scripts/harvest/library/` (book tools); the `group` entities for mosques,
+   universities and councils; `building/*` mosques; `practice/*` for the Friday prayer and the khutba.
+
+## 1 · Phase 0: the written proposal (stop for approval)
+
+Write `docs/plan/<NN>-khutab-durus-explorer.md` and show it in chat: the data model (section 2), the explorer
+(section 5), the source list or method (section 3), a new lane `khutab-durus` (scope, progress file, stubs file
+`data/_stubs.d/khutab-durus.yaml`, rows for `docs/agents/lanes.md` and `docs/status.md`), every file touched with the
+intent of the diff, an honest risk label per part (gate §3; no new entity class), and the acceptance tests (section 6).
+Commit it alone, open a pull request and **stop and ask me to approve it**. Discovery (section 3) changes nothing in
+the repo and may run while you wait.
+
+## 2 · The data model
+
+Reuse first. Starting point, to be checked against the schema and refined in the proposal:
+
+- **One sermon or one lesson = one `work`**: `kind: sermon` for a khutba (with `sermon_type`: jumu'a, eid al-fitr,
+  eid al-adha, istisqa', kusuf, hajj/'arafa, nikah, occasion, farewell; propose the enum); `kind: lecture` (propose)
+  for a single dars, lecture or talk. **A series = `work` `kind: lecture-series`** (a halaqa that read a book over
+  months, a Ramadan series, a televised programme), with the single lessons `part_of` it in order. A **conference**
+  or seminar = `event` `kind: conference` / `gathering`, with its papers or talks as `work`s linked to it.
+- Fields (names are suggestions; reuse schema fields wherever one fits):
+
+| Group | Field | What it holds |
+|---|---|---|
+| Who | `speaker` (`delivered` / `delivered_by`, propose) | the khatib, teacher or lecturer, a `person`; co-speakers and the moderator. |
+| | `host` | the mosque (`building`), institution (`group`), channel or programme. |
+| | `audience` | e.g. the Friday congregation, students of a madrasa, women's circle, a broadcast audience, children, a conference. |
+| When and where | `date` | the museum date object (EDTF + Hijri + calendar + precision; derived conversions marked). For an undated recording, the upload or broadcast date, labelled as such, never presented as the delivery date. |
+| | `place` | city and mosque or hall; `period` derived from the date. |
+| | `occasion` | an `event` the sermon answered (a battle, an epidemic, a disaster, a coronation, Ramadan, Hajj), only when the source says so. |
+| | `ruler_at_time` | with role: patron, addressee, named in the du'a for the ruler, subject, opponent, merely contemporary. Only "contemporary" may be derived. The ruler named in the khutba is historically important (it marked allegiance): record it whenever a source says who was named. |
+| What | `summary` {ar,en,ur} | what was said, in the museum's words, attributed, cited to page or timestamp. ≤ 40-word quote allowed. |
+| | `topics` | links to `concept`, `practice`, `event`, `person`, `place`, and to a `work` when the lesson explains a book (e.g. a sharh of Sahih al-Bukhari, lesson 12, covering kitab al-iman). |
+| | `book_studied` and `range` | for a dars that reads a text: the work and the chapters or hadith numbers covered. |
+| | `evidence_cited` | Qur'an by `[[passage/quran-S-A]]` reference only, hadith by `passage` with collection ref, other scholars and books cited. |
+| Relations | `responded_to`, `relies_on`, `part_of` | a sermon answering another, a lesson relying on a teacher's lesson; the teacher-student chain (`studied_under` if it exists) so the explorer can show who taught whom. |
+| | `related_fatwa` | links to Fatwa Explorer entities on the same question. |
+| Media | `media[]` | per format: text (book page or web URL), audio, video, transcript (only the museum's summary, never the transcript), with duration, language and dialect, the archive URL and an Internet Archive snapshot. |
+| Reception | `reception`, `consequence` | a sermon that was famous, banned, led to the speaker's arrest or exile, or moved people to act; only as the sources say. |
+| Display | `headline` {ar,en,ur}, `sensitivity` | one line; contested and polemical content flagged per the harvest rules, with a `perspectives` block. |
+
+Also propose: roles `khatib`, `imam`, `preacher` (wa'iz), `teacher` exists; `concept/khutba` and `concept/dars` /
+`halaqa` (what they are, their history, the khutba's conditions in each school, as perspectives, cited); and
+whatever the sources show a visitor would value: the sermon's length, the language (Arabic, or a local language
+after the Arabic part), whether a translation followed, the minbar and the mosque, women's circles, children's
+lessons.
+
+## 3 · Phase 1: find everything published (Chrome, read-only for the repo)
+
+Cover four kinds of source, every era, all Sunni schools, and many countries and languages (Arabic first, then
+English, Urdu, Turkish, Malay/Indonesian, French, Persian-speaking Sunni regions, Swahili, Hausa, Bengali):
+
+1. **Books**: collections of sermons and lessons, and the sermons that history and hadith books record. Starting list
+   to verify (each one must be checked; it is neither complete nor proven): the Prophet's sermons as transmitted in the
+   hadith collections and sira (the Farewell Sermon; linked as `passage`s, never typed as scripture); collections of
+   the Companions' and early sermons such as Jamharat Khutab al-Arab; Ibn Nubata's Diwan al-Khutab; Ibn al-Jawzi's
+   sermon and wa'z books (al-Yaqut fi al-Khutab, al-Tabsira, Bustan al-Wa'izin); Ibn Rajab's Lata'if al-Ma'arif
+   (lessons arranged by the seasons of the year); amali books (dictation sessions, e.g. the Amali of al-Shajari, al-Qali);
+   Ottoman and Mamluk khutba collections; modern printed collections (e.g. the khutab of Ibn Uthaymin, Muhammad
+   al-Ghazali, Ali al-Tantawi, Abd al-Hamid Kishk, the official khutba volumes of ministries of awqaf). Run every book
+   through the §1a canon gate (Sunni check with Wikipedia infobox and Wikidata, processed check, records in
+   `exclusions.yaml`), add verified ones to `books.yaml` under `cat: khutab` after approval, and OCR scans with Apple
+   Vision exactly as in section U (`ocr_all.py --cat khutab`, `caffeinate -i`, `ar-SA`, 200 dpi, resumable).
+2. **Websites**: official ministries of awqaf that publish the weekly unified khutba (Egypt, UAE, Kuwait, Qatar,
+   Jordan, Morocco, Saudi Arabia, Malaysia's JAKIM, Turkey's Diyanet), the Haramain sermon archives, mosque and
+   institute sites, and the large sermon and lesson sites (for example alukah.net, islamweb, khutabaa.com,
+   the official sites of individual scholars). Each site becomes a `work` (`kind: website`) with publisher,
+   orientation (self-described), languages, stated size and an archive snapshot, marked "listed, not endorsed".
+3. **Audio archives and podcasts**: assabile.com (already authorised for its speakers, see `source-families.md`),
+   islamway.net, the Haramain audio archives, official scholar archives, podcast feeds (RSS lists are metadata and are
+   the preferred way to list a podcast). Downloads only through `scripts/harvest/audio/download.py` (identified
+   User-Agent, pause between requests, checksums), only where robots.txt and the site's terms allow it, into `$HARVEST`.
+   Transcribe offline with `scripts/harvest/audio/transcribe.py` (`mlx_whisper` large-v3, or the dialect engine for
+   Egyptian and other dialects) under `tmux` and `caffeinate -dims`, as `audio-video-harvest.md` §3 describes.
+4. **Video and YouTube**: the official channels of scholars, mosques (the Haramain, al-Azhar, major mosques),
+   institutes and ministries. **YouTube is metadata and link only: never download from YouTube** (its terms forbid it,
+   and the repository's rule in `audio-video-harvest.md` §2 and `15-local-harvest.md` §5 says so). Use the YouTube Data
+   API only if I provide a key; otherwise read public channel and playlist pages in the browser. Record per video:
+   title, channel, date, duration, language, URL, playlist; the video is cited as a pointer, and its content enters only
+   when the same recording exists on an authorised archive or in a book, or when its published description or chapter
+   list states the facts.
+
+For every source: read and record robots.txt, terms and licence in the lane file; sites that forbid collection are
+listed but not collected. Output `$HARVEST/khutab/catalogue.json` and a table in chat: source, kind (book / site /
+audio / video / podcast), speaker(s), school, country, language, era, size (items, hours), format, rights result,
+Sunni check, already-processed check, priority (A: famous, historically consequential, or covering a whole era or
+country; B; C). **Ask me before any bulk download or transcription run**, with the planned volume in hours and disk.
+
+## 4 · Phase 2 and 3: harvest and ingest (after approval)
+
+- **Index everything, write entities for what matters.** Like the fatwa websites: every listed sermon or lesson
+  gets an index record of facts only (speaker, date, place, title in our words, topics, duration, language, URL,
+  source); these feed a generated dataset (`dataset` entity plus build-time JSON in R2) for the explorer's search and
+  filters, each linking out. Full `work` entities, with summaries cited to page or timestamp, go to: famous and
+  historically consequential sermons (the Farewell Sermon, sermons tied to dated events, sermons that named a new
+  ruler, sermons that led to bans or arrests), whole lecture series that explain a book (by lesson, linked to the
+  book's chapters), conferences with their programmes, and every lesson that explains a topic the museum already has.
+- Recordings follow `audio-video-harvest.md` to the letter: claims table per recording (line, timestamp, engine,
+  window) in `$HARVEST`; only lines that read clearly as Arabic and make sense are written; recitations and hadith
+  matn are never written from a transcript; the speaker's dates and numbers are his statements; platform figures are
+  dated; anchors `{cite:<source-id> <series>/<episode> <hh:mm:ss>}`; the §8 report per recording; every excluded item
+  reported with its reason.
+- Prose: Arabic first in `content/ar/`, English and Urdu in the same commit, `status.review: published`, `provenance`
+  block, `{cite:…}` after every factual sentence, docent voice; no exhortation in the museum's voice; no honorifics
+  typed; Qur'an only by Tanzil reference; quotes ≤ 40 words; contested matter in `perspectives`, polemical matter
+  flagged and described, never quoted.
+- Batches of at most 25 entities; show me the claims table for the first batch of each source before writing files.
+  Every batch: `npm run validate` (0 errors) `&& npm test && npm run coverage`; explicit paths, never `git add -A`;
+  conventional message; trailers `AI-Agent: Claude Code`, `AI-Model: <the model this session reports>`,
+  `AI-Editor: Claude Code CLI`, plus the repository's Co-Authored-By line; merge gate before every push (fetch, read
+  what arrived, rebase or merge keeping both sides, never force-push); branch, pull request, merge it yourself. Keep
+  `docs/agents/lanes/khutab-durus.md` current after every batch.
+
+## 5 · Phase 4: the Khutab and Durus Explorer (site)
+
+After the model is approved and a pilot batch is in (15 to 25 items across eras, countries, formats and kinds).
+Astro + Svelte islands + Tailwind; no JavaScript needed to read; WCAG 2.2 AA; Arabic, English, Urdu; no runtime
+network calls and **no embedded players that call YouTube or another host on page load** (a plain link, or a
+click-to-load player that says it opens an outside site, if the proposal justifies it); build-time JSON in R2 (add the
+folder to `R2_DATA_DIRS`, `publish.mjs`, `run_worker_first` and the two removal lines in `deploy.yml`).
+
+- **`/[lang]/khutab/`, the landing page**: opening section in three languages on what a khutba, a dars and a halaqa
+  are, and that each one is **the speaker's own words for his audience, time and place**: it shows how scholars
+  taught and preached, it is not a ruling, and what was said in one setting may not suit another; with 4 to 8
+  "learn more" links to Sunni institutions' articles on the khutba and on seeking knowledge, each opened and read
+  before it is added (no URL from memory), stored as data with an archive snapshot, marked "listed, not endorsed".
+  Then: a Hijri timeline of sermons and lessons with era bands; a map (where they were delivered); filters for kind
+  (jumu'a, eid, dars, halaqa, series, conference), speaker, school, country, language, era, topic, format (text, audio,
+  video); search (Pagefind facets); "this Friday in history" (sermons delivered on this Hijri date).
+- **The sermon or lesson page**: headline; speaker, place, date, occasion, ruler at the time, audience; the summary
+  with citations; topics and the book studied; evidence links; the series it belongs to (previous / next lesson); the
+  sources and media links (book page, site, audio archive, YouTube link), each labelled; related fatwas; the short
+  notice linking to the landing section.
+- **Series page**: a book read lesson by lesson, with the chapters covered and the progress across months.
+- **Speaker page lens**: the speaker's sermons and lessons on the lifespan ribbon, where he preached, the books he
+  taught, teachers and students (a chain view in the constellation graph), the rulers named in his khutab.
+- **Mosque and institution lens**: on a mosque's page, «خطب ودروس أُلقيت فيه»; on an institution's page, its series and
+  conferences.
+- **Conferences**: an event page with the programme, speakers, papers and outcomes.
+- **Topic lens**: on a concept or practice page, the sermons and lessons that explain it, beside its fatwas.
+- An explorer card on the landing page and the explore bar, «قيد الإعداد» until ready (plan 21 rule). `npm run build`
+  passes with `check-site`, `check-static`, the axe scan and the weight check.
+
+## 6 · Acceptance tests
+
+- The validator accepts the new kinds, fields and predicates and rejects: a sermon or lesson with no speaker or no
+  source; typed honorifics; typed Qur'an text; quotes over 40 words; an upload date presented as the delivery date;
+  a ruler role other than "contemporary" without a citation; a YouTube file in the media store.
+- Every lesson with `part_of` has an order number; every series lists its lessons in order.
+- Pages render with JavaScript off; no request leaves the site on page load.
+- `npm run validate`, `npm test`, `npm run build` pass; `docs/coverage.md` regenerated.
+- A spot check of 10 random items against the book page or the recording at its timestamp, recorded in the lane file.
+
+## 7 · Rules that never bend (AGENTS.md wins)
+
+Sunni frame first, other views labelled; describe and attribute, never preach; no audio, video, transcripts, PDFs, OCR
+text or claims tables in git; never download from YouTube; respect every robots.txt and terms page; never invent a
+date, place, quote, timestamp or citation; Arabic, English and Urdu in the same commit; never run `deploy.yml` (tell
+me the commits and I deploy); never revert another agent's work.
+
+## 8 · Report to me
+
+At each stop and at the end: the proposal link; the catalogue table; hours downloaded and transcribed, OCR pages;
+items indexed and entities written by kind, era, country, speaker and format; excluded items with reasons; PR links;
+what failed or was skipped; what should run next. Start with section 0, write the proposal (section 1) and run
+discovery (section 3) while you wait for my approval.
+```
