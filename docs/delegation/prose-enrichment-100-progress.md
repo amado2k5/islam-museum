@@ -204,7 +204,6 @@ Enriched in ar, en and ur, each body at least 100 words, from pages read in the 
 | Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
 |---|---|---|---|---|---|
 | 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 8: 25 place slugs (tuwaran … rudhan) | 18 (tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan) | 7 (reasons below) | this PR |
-| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 9: place, nuzhat-al-mushtaq-2002 (qazlara pp. 901–902, shansha p. 335, qantarat-al-sayf pp. 545–547; checked against the 1-2_20240914 OCR) | 3 (qazlara rewritten: Mashla corrected to 70 miles, p. 902; shansha and qantarat-al-sayf written; each ar/en/ur ≥100 body words) | 0 | this PR |
 
 ### Leads, batch 8
 
@@ -270,3 +269,38 @@ Not read beyond a search for the label (OCR hit count in Idrisi shown in bracket
 - place/qastiliyya: the data summary names the town as Tuzar, which the body keeps. The "Hamma" and "Qasantina" details are at p. 277 only; no second source for them.
 - place/niyast: the OCR has no entry for نياست. The seven-stage Madyar distance in the scanned text (around the Atrasa and Tanast passage, p. 79 of the scan) runs from Tanast, not from Niyast. The summary's Niyast claims are therefore unverified. Lead; needs the printed page.
 - place/suqusiya: the nearest OCR passage (scan p. 325) is an account of northern sea islands and names Suqusiya as connected to another island (لنغلطره). The identification is not settled, so the body is still not written. Lead.
+
+## n–z batch 10 (Claude Haiku 5.5, place, Idrisi)
+
+Named batch 10 for the n–z lane. Batch 10 for the a–m lane is a separate entry above; the two do not share slugs. Each body was read in the Idrisi OCR (`books/geography/nuzhat-mushtaq-idrisi/1-2_20240914`) at the cited page; page numbers are pages.json numbers, which equal the printed pages. Body words exclude cite markers and headings.
+
+| Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
+|---|---|---|---|---|---|
+
+### Enriched, batch 10
+
+- **place/qal-nisa** (Idrisi pp. 611–613). The fortress, its distances to Sabuqa, Naru, Qasriyani, Qarqudhi and al-Hajar al-Muthaqqab, the salt river east of it, and the neighbouring towns.
+- **place/qalmar** (Idrisi pp. 950, 951, 953, 956). Finmark, the distances from Saqtun and to Saqtun, the two large towns of Finmark (Abura and Qalmar), and the access to the islands. The page gives no modern identification; the entry says so.
+- **place/ramsili** (Idrisi pp. 890, 903, 904, 955). Ramsili on the Dnester, distances to Ratsalaba, Zaqa and Murtori, and the land of the Russians.
+- **place/turshiz** (Idrisi pp. 449, 464, 465, 690, 692). Turshiz in the district of Nishapur, distances to Nishapur, Istishit, Khaskin, Qain, Salm and Yanabadh.
+- **place/washqa** (Idrisi pp. 554, 733; the list on p. 538). Washqa in the district of Arnit, its markets, and the distances to Lardha, Maknasa and Saragossa.
+- **place/qalari** (Idrisi pp. 166, 168, 169, 171). Qalari on the Mihran in Sind, its distances to Ari, al-Mansura and Shirusan.
+
+### Open issues, batch 10
+
+- place/washqa: Idrisi gives forty miles from Saragossa to Washqa at p. 554 and fifty at p. 733. Both are in the body; the record does not choose.
+- place/turshiz: Idrisi gives two stages from Turshiz to Yanabadh at p. 464 and three at p. 465. Both are in the body; the record does not choose.
+- place/qal-nisa: the data summary was not compared with the body in this batch.
+
+### Leads, batch 10
+
+- **place/qaysi.** pp. 617, 619 and 665 give about fifty words specific to Qaysi (a fortress with many vineyards, nine miles north of Jarami, fifteen miles west to Jarasa). The remaining hits are lists and routes. Lead; the existing body stands.
+- **place/sulaymanan.** Hits at pp. 380, 393, 394, 399 and 671 place it in Khuzistan and on the Tigris. Only a few words specific to the town were read (p. 399, fifteen miles from Jibba); the rest is list material. Lead until each passage is read in full.
+
+### Skipped candidates, batch 10
+
+- **place/sur** and **place/sur-lubnan**: the label صور is one of the common words the lane excludes.
+
+### Not reached, batch 10
+
+About sixty other n–z place records with Idrisi as a source were triaged for hit counts (for example zuzan, ubeda, sulaymanan's neighbours, qurya, qarmut, rasak, saal, sayumur, sharma, tabala, walashjird, qadis-andalus, nikmudhiyya, nuqstru). None of them was read in full in this batch, so none is claimed as enriched or as a lead with a reason. Their hit lists are in the batch notes for the next pass.
