@@ -85,6 +85,7 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (n–z) | batch 4: place, futuh-buldan-maarif-1407 (sariya; p.469 checked against OCR) | 1 | 0 | — |
 - place/shuman: the summary says Fadl ibn al-Muhallab conquered it in Khurasan (Baladhuri). The OCR shows only a mention, at p.590, in the Transoxiana account, where the ruler of Shuman harassed the king of Saghaniyan. The conquest claim is not supported there. Left unchanged; needs checking against the printed book.
 - place/tulmaytha summary said ten miles from Qamanas. Idrisi p. 315 gives ten miles from the castle of al-Unayn; Qamanas is ten miles from the start of that stretch. Corrected in batch 7.
+- place/rudhistu summary said it lies on the road between Salūnī and a capital to the east. Idrisi p. 894 gives sixty miles from Salūnī and twelve miles from Constantinople. Corrected in batch 8.
 | 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 6: place, nuzhat-al-mushtaq-2002 (naros, namjan, qazdar; pp. 175, 917, 923 checked against OCR) | 3 | 0 | — |
 | 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 6: place, 25 slugs (zala, ronda, waddan, ukaz, shirwan, sabra, qumm, oman, sind, rayy, qabala, tawwaj, rawar, silves, wazan, tawda, surraq, yafa, tarfa, qumar, shikla, qalunia, naros, ujj, sirt) | 8 (oman, tawda, qumar, shikla, sirt, ujj, sabra ar only, qumm); rayy already above 100 words in ar/en/ur, unchanged | 16 (reasons under Leads, batch 6) | this PR |
@@ -194,6 +195,7 @@ Each source was read in the OCR at the cited page. Idrisi page numbers are pages
 - place/ubulla: data summary wording ("on the Tigris"; "Basra's port") not yet checked against the Futuh page.
 - place/valencia: en and ur bodies still reflect the shorter text; the Arabic now has the fuller account. Align on the next pass.
 | 2026-10-31 | Claude (n–z) | batch 7: place, nuzhat-al-mushtaq-2002 (qumania-al-sud, tulmaytha, saa; pp. 247, 315, 915 checked against OCR) | 3 | 0 | — |
+| 2026-10-31 | Claude (n–z) | batch 8: place, nuzhat-al-mushtaq-2002 (rudhistu, tiqyus, tawrat; pp. 262, 277, 894 checked against OCR) | 3 | 0 | — |
 
 ## n–z batch 8 (Claude Haiku 5.5, 25 place slugs: tuwaran … rudhan)
 

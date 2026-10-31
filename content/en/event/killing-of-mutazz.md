@@ -12,3 +12,7 @@ They brought al-Muhtadi from Baghdad to Samarra in one day and one night. Al-Mu'
 
 ## Note
 The date of the caliph's killing is given in the sources, and the museum's entry records only what al-Mas'udi reports.
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] relates that the Turk Salih ibn Wasif seized al-Mu'tazz's vizier, the secretary Ahmad ibn Isra'il, together with al-Hasan ibn Makhlad, head of the estates office, and Isa ibn Ibrahim ibn Nuh; he imprisoned them, took their money and estates, tortured them and took control of affairs. The Turks then came in on al-Mu'tazz, removed him from his seat, shut him in a room and took from him a written abdication. He died two days later and al-Muhtadi led the funeral prayer; it was Tuesday, with three nights of Rajab 255 AH remaining. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 616}
+Al-Ya'qubi counts his reign as four years and nine months from his oath to his abdication, or three years and seven months from al-Musta'in's abdication and Baghdad's oath to him; he gives his age as twenty-two and says he left three sons. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 616}
