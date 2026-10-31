@@ -48,6 +48,7 @@ Enriched in batch 3: place/tabna (Idrisi pp. 263–264), place/tukha (pp. 206–
 
 ## Open data issues (summaries not yet corrected)
 
+- place/shuman: corrected. Baladhuri p. 590 names Shuman only in the Transoxiana account: its ruler pressed the king of al-Saghaniyan, who then submitted to Qutayba. The earlier claim that al-Mufaddal ibn al-Muhallab conquered it is not in the printed text (the index lists only p. 590). Summary, Overview and ar/ur prose rewritten to match. Stays thin: one mention exists, so 100 words would be padding. Lead.
 - place/qawun summary: "one hundred miles from Aqra" does not match the text. Idrisi gives the road from Aqra to Qawun as "مائة ميل وستون ميلا" (p. 885). The prose follows the text and does not repeat the summary's figure.
 - place/raghawlda summary said "one hundred miles from Qalmar". Idrisi gives one hundred miles from the second arm of the Qatulu river; Qalmar to that arm is eighty miles (p. 953). The summary is corrected in this batch.
 These summaries disagree with the body or source; the prose follows the sources.
@@ -83,7 +84,6 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (Haiku 5.5) | n–z batch 3: 25 place slugs (sila, tunin, tukha, sarwan, sayala, sindabur, zamin, nafzawa, tabas, naqawus, sharma, zaqa, sayumur, namna, nafta, raygha, qulari, thabun, tabna, zuzan, sawnu, qawun, uzayn, sadum, sabat) | 3 (place/tukha, place/zamin, place/tabna; place/qawun was already enriched in batch 2 and its summary is corrected here) | 21 (reasons under Leads) | — |
 | 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 4: place, futuh-buldan-maarif-1407 (sariya; p.469 checked against OCR) | 1 | 0 | — |
-- place/shuman: the summary says Fadl ibn al-Muhallab conquered it in Khurasan (Baladhuri). The OCR shows only a mention, at p.590, in the Transoxiana account, where the ruler of Shuman harassed the king of Saghaniyan. The conquest claim is not supported there. Left unchanged; needs checking against the printed book.
 - place/tulmaytha summary said ten miles from Qamanas. Idrisi p. 315 gives ten miles from the castle of al-Unayn; Qamanas is ten miles from the start of that stretch. Corrected in batch 7.
 - place/rudhistu summary said it lies on the road between Salūnī and a capital to the east. Idrisi p. 894 gives sixty miles from Salūnī and twelve miles from Constantinople. Corrected in batch 8.
 | 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
@@ -267,3 +267,5 @@ Not read beyond a search for the label (OCR hit count in Idrisi shown in bracket
 
 - place/qazlara: the distance from Qazlara to Herbord is sixty miles at p. 890 and forty miles at p. 901. The body gives both and does not choose; the summary says nothing about it.
 - place/qastiliyya: the data summary names the town as Tuzar, which the body keeps. The "Hamma" and "Qasantina" details are at p. 277 only; no second source for them.
+- place/niyast: the OCR has no entry for نياست. The seven-stage Madyar distance in the scanned text (around the Atrasa and Tanast passage, p. 79 of the scan) runs from Tanast, not from Niyast. The summary's Niyast claims are therefore unverified. Lead; needs the printed page.
+- place/suqusiya: the nearest OCR passage (scan p. 325) is an account of northern sea islands and names Suqusiya as connected to another island (لنغلطره). The identification is not settled, so the body is still not written. Lead.
