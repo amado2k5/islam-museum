@@ -1,0 +1,55 @@
+id: person/ali-beg-firdus
+class: person
+label:
+  ar: "علي بك فردوس"
+  en: "Ali-beg Firdus"
+  ur: "علی بیگ فردوس"
+names:
+  - { value: "Ali Firdus", kind: full }
+  - { value: "Alibeg Firdus", kind: alternate }
+gender: male
+born:
+  edtf: "1862"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Livno, into the captain family that governed the town from 1750 to 1835; the year itself is split in the sources — the Bosnian biography and the queue give 1862, the English and Croatian biographies and Wikidata give 1864, and the Czech biography presents the year openly as '1862 or 1864'. The record follows the Bosnian biography's 1862 and preserves the 1864 reading here. 'Beg' is an Ottoman title, not a name element, and is not entered as a name. No Hijri year is recorded: the two rival Gregorian years span three Hijri years (1278–1281). Livno has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-ali-beg-firdus-bs, source/wikipedia-ali-beg-firdus-en, source/wikipedia-ali-beg-firdus-hr, source/wikipedia-ali-beg-firdus-cs, source/wikidata-ali-beg-firdus]
+died:
+  edtf: "1910-06-30"
+  hijri: "1328"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 30 June 1910 at Sarajevo, weeks after taking the chair as first president of the Bosnian Diet; the Czech biography and Wikidata give the day, and the English, Bosnian and Croatian biographies agree on the year and the city. The Hijri year 1328 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-ali-beg-firdus-cs, source/wikidata-ali-beg-firdus, source/wikipedia-ali-beg-firdus-bs, source/wikipedia-ali-beg-firdus-en]
+roles: [politician]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him, and Wikidata carries no religion claim for him at all. His leadership of the movement for waqf and educational autonomy and his presidency of the Muslim People's Organisation are political roles in a confessional cause, which never count as an attestation of a madhhab or tariqa. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-ali-beg-firdus-en, source/wikipedia-ali-beg-firdus-bs, source/wikidata-ali-beg-firdus]
+relations:
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-ali-beg-firdus-cs, source/wikidata-ali-beg-firdus, source/wikipedia-ali-beg-firdus-hr] }
+summary:
+  ar: "سياسي بوسني من ليفنو، مؤسس المنظمة الشعبية المسلمة وأول رئيس لها وأول رئيس للبرلمان البوسني سنة 1910: ملّاك من أسرة قبطانات ليفنو القديمة، قاد حركة الاستقلال الوقفي والتعليمي للمسلمين، ومات في منصبه بعد أسابيع من انعقاد البرلمان."
+  en: "Bosnian politician from Livno, founder and first president of the Muslim People's Organisation (1906) and first president of the Bosnian Diet (1910): a landowner of the old Livno captain family who led the movement for waqf and educational autonomy and died in office weeks after the Diet first convened."
+  ur: "لیونو سے تعلق رکھنے والے بوسنیائی سیاست دان، مسلم پیپلز آرگنائزیشن (1906ء) کے بانی اور پہلے صدر اور 1910ء میں بوسنیائی پارلیمان کے پہلے صدر: لیونو کے قدیم کپتان خاندان کے زمیندار، وقف و تعلیمی خود مختاری کی تحریک کے رہنما، پارلیمان کے پہلے اجلاس کے چند ہفتوں بعد عہدے پر ہی وفات پائی۔"
+sources:
+  - source/wikipedia-ali-beg-firdus-en
+  - source/wikipedia-ali-beg-firdus-bs
+  - source/wikipedia-ali-beg-firdus-hr
+  - source/wikipedia-ali-beg-firdus-cs
+  - source/wikidata-ali-beg-firdus
+external_ids:
+  wikidata: Q987672
+provenance:
+  layer: own-research
+  source: "English, Bosnian, Croatian and Czech Wikipedia biographies of Ali-beg Firdus (Q987672) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer <redacted> the Livno landowner who founded the Muslim People's Organisation and chaired the first Bosnian Diet. QUEUE CORRECTION, of form only: the queue's birth year 1862 is retained but carried as debated, because the English and Croatian biographies and Wikidata give 1864 and the Czech biography prints '1862 or 1864'; his death is fixed to 30 June 1910. Existence checks by name fragments (firdus) and by QID across data/person on origin/main found no prior record. His father Abdurahman-beg has no person record, so no family edge is written; founding and presiding over the MNO is never a relation. Livno has no place entity; Sarajevo does, and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-131
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
