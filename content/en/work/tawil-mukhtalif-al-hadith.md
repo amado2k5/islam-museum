@@ -5,25 +5,26 @@ source_lang: ar
 translators: []
 ---
 ## Summary
-*The Interpretation of Conflicting Narrations* (Ta'wil mukhtalif al-hadith) is a book by Abu Muhammad Abd Allah ibn Muslim ibn Qutayba al-Dinawari (d. 276 AH) ([[person/ibn-qutayba|his biography]]). It takes up hadiths whose wording appears to conflict and sets out ways of reconciling them. {cite:tawil-mukhtalif-al-hadith-hilali p. 130}
+*The Interpretation of Conflicting Narrations* (Ta'wil mukhtalif al-hadith) is a book by Abu Muhammad Abd Allah ibn Muslim ibn Qutayba al-Dinawari (d. 276 AH) ([[person/ibn-qutayba|his biography]]). It answers the charges that hadiths contradict one another, contradict the Qur'an, or break the principles of reason. Its method is to state each alleged contradiction, to test the chains and the texts, and to reconcile or defend the report. {cite:tawil-mukhtalif-al-hadith-hilali p. 7}
 
-The edition this record relies on was verified by Abu Usama Salim ibn Ied al-Hilali. The record covers only its printed pages 130 to 141. {cite:tawil-mukhtalif-al-hadith-hilali title page}
+## The edition
+The edition used here was verified and annotated by Abu Usama Salim ibn Ied al-Hilali. In his preface he says he worked on its text, vocabulary and hadith grading for some years, paused for reasons outside his control, and then completed it. The preface is dated to Ramadan 1418 AH in Amman. {cite:tawil-mukhtalif-al-hadith-hilali p. 7}, {cite:tawil-mukhtalif-al-hadith-hilali p. 8}
 
-## What the sampled pages cover
-On these pages the author gives examples of what he regards as errors in the method of the people of opinion (ra'y) and analogy (qiyas), and pairs each example with the hadith or report he relies on. {cite:tawil-mukhtalif-al-hadith-hilali p. 130}
+## Editor's view of the book
+The editor calls the book a unique work in its kind and content, and says that every Sunni should own and study it. He presents it as a reply to arguments raised by the Mu'tazila and the Rafida that the hadiths contradict one another or the Book. {cite:tawil-mukhtalif-al-hadith-hilali p. 7}
 
-- He doubts the attribution of a report about striking a mount, and prefers a reading based on the animal's nature: it shies from a well or from something the rider cannot see, so the instruction concerns striking it when it stumbles, to make it move carefully. {cite:tawil-mukhtalif-al-hadith-hilali p. 130}
-- He relates that a man took a legal opinion from Abu Hanifa and then reversed it a year later. He cites al-Awza'i's point that the objection is not that Abu Hanifa used his opinion, since everyone does, but that a hadith reached him from the Prophet and he set it aside for another view. {cite:tawil-mukhtalif-al-hadith-hilali p. 131}
-- He discusses a pilgrim who has no waist-wrap, citing Ibn Abbas's hadith permitting trousers, and notes that the ruling reported from Abu Hanifa was a ransom (fidya). {cite:tawil-mukhtalif-al-hadith-hilali p. 131}
-- He discusses theft of palm shoots and the disagreement over it, with the hadith of Rafi ibn Khadij, and reports that Abu Hanifa said the hadith had not reached him. {cite:tawil-mukhtalif-al-hadith-hilali p. 132}
-- He records from Ishaq ibn Rahawayh a list of objections to the people of opinion, including points on wudu after sleep and on inheritance with distant kin. {cite:tawil-mukhtalif-al-hadith-hilali p. 133}
-- He examines the evidence on whether sleep breaks wudu, including the hadith "the eye is the bond of the buttocks" and the hadith of Ali "whoever sleeps should perform wudu". The editor grades both as weak and their chains as weak. The editor holds that the authentic hadith of Safwan ibn Assal states plainly that sleep breaks wudu. {cite:tawil-mukhtalif-al-hadith-hilali p. 134}
-- Pages 137 and 138 treat blood money and retaliation, and argue that some rulings contradict the wording of the Qur'an. The editor grades the hadith of Jabir cited there as weak. {cite:tawil-mukhtalif-al-hadith-hilali p. 138}
-- He gives the hadith of Ali on wiping over the upper surface of the foot, which the editor grades as sound. {cite:tawil-mukhtalif-al-hadith-hilali p. 139}
-- He quotes al-Sha'bi, Mujahid and al-Zuhri on opinion and analogy, and then pursues his critique of analogy with examples from theft, usurpation, slander and menstruation, where he holds that analogy is not applied consistently. {cite:tawil-mukhtalif-al-hadith-hilali p. 140–141}
+## Structure of the book
+The book has four parts. The index at the end of the scan (scan pages 727–732) lists them. {cite:tawil-mukhtalif-al-hadith-hilali p. 727}
+
+1. **Named critics and their schools.** Chapters named after individual rationalists, each setting out the critic's background and claim and then the reply. The index lists Abu al-Hudhayl al-Allaf, Bakr, Muhammad ibn al-Jahm al-Barmaki, Ubayd Allah ibn al-Hasan, Hisham ibn al-Hakam, Thumama, al-Jahiz and al-Nazzam. Further entries cover the critics of the Murji'a, the Qadariyya, the Mufawwida and the Rafida, and those who prefer Abu Bakr and Umar to Ali. {cite:tawil-mukhtalif-al-hadith-hilali p. 727}
+2. **The people of opinion.** The chapter "The people of speech and the people of opinion" (scan p. 77) opens with a rebuke of the speculative theologians, who speak about God without knowledge and who accuse others of error while overlooking their own. The author backs this with a hadith about noticing a speck in another's eye and missing a log in one's own. The hadith is attributed to Abu Hurayra; the editor grades its chain as good, and says that a version stopping at Abu Hurayra is the sounder one. {cite:tawil-mukhtalif-al-hadith-hilali p. 77}
+3. **The people of hadith.** The chapter "The people of hadith" (scan p. 160) praises those who travel to collect reports, who learn what is sound and weak, and what abrogates and what is abrogated, and who rule by the word of the Prophet over the opinions of individuals. {cite:tawil-mukhtalif-al-hadith-hilali p. 160}
+4. **The alleged contradictions.** The main body (from about scan p. 178) is headed "Mention of the hadiths that they claimed contradict one another, or the Book of God, or the evidence of reason". The index lists about a hundred topics under this heading, each stated as an objection such as "two hadiths that contradict one another about" a subject. The subjects include the covenant of Adam, the direction of the qibla during the call of nature, walking in one sandal, urinating standing or sitting, the stoning of an adulterer, cutting off a hand for a borrowed item, the evil eye and omens, delaying the noon prayer in heat, disparaging the Prophet, the preferring of prophets, the entry into paradise and hell, the leadership of the community, and pledging the Prophet's coat of mail. {cite:tawil-mukhtalif-al-hadith-hilali p. 178}, {cite:tawil-mukhtalif-al-hadith-hilali p. 728}, {cite:tawil-mukhtalif-al-hadith-hilali p. 729}
+
+## Method, with an example
+The first entry of the fourth part concerns the hadith of the covenant of Adam, which the critics said contradicts the Qur'an. The author sets out the objection, then cites the report from Ibn Abbas with its chain and the passage of the Qur'an on the covenant. The editor grades the report as mutawatir, transmitted by many Companions, and notes that most chains have some weakness but strengthen one another. {cite:tawil-mukhtalif-al-hadith-hilali p. 178}
+
+The general method, seen across the sample pages, is: state the objection, name the report, check each chain and grade it, then show that the apparent contradiction disappears when the reports are read together, or when the wording, abrogation or specific and general senses are considered. {cite:tawil-mukhtalif-al-hadith-hilali p. 77}
 
 ## Other readings
-In the footnote on page 132 the editor notes that some modern scholars have answered Abu Hanifa's rulings discussed here. He names two works in reply: *al-Tankil* by al-Mu'allimi al-Yamani and *Nashr al-Sahifa* by Muqbil al-Wadi'i. They are presented here as further readings, without a verdict. {cite:tawil-mukhtalif-al-hadith-hilali p. 132}
-
-## A note on the source
-The editor's footnotes grade hadiths as sound or weak. This record reports those grades as the editor gives them and does not re-grade them. {cite:tawil-mukhtalif-al-hadith-hilali p. 134}
+The editor's footnotes add grades and references to later works. The record reports those grades as the editor gives them and does not re-grade them. {cite:tawil-mukhtalif-al-hadith-hilali p. 178}
