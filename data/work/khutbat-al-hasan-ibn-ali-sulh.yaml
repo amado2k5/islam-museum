@@ -1,0 +1,24 @@
+id: work/khutbat-al-hasan-ibn-ali-sulh
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/hasan-ibn-ali }
+label: { ar: "خطبة الحسن بن علي في الصلح", en: "al-Hasan ibn Ali's sermon on the peace", ur: "حسن بن علی کی صلح کی خطبہ" }
+summary:
+  ar: "خطبة الحسن بن علي حين رد على مستنكري الصلح مع معاوية، كما رواها أهل السير."
+  en: "al-Hasan's sermon answering those who objected to his peace with Mu'awiya, as the sira transmits it."
+  ur: "معاویہ سے صلح پر اعتراض کرنے والوں کے جواب میں حسن کی خطبہ۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/hasan-ibn-ali]
+composed: { hijri: "0041", edtf: "0661", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/umayyad-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+  - { type: mentions, target: place/kufa }
+provenance: { layer: pd, source: "Jamharat v2", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-2 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
