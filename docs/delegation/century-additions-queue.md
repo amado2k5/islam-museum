@@ -1693,11 +1693,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ibn Zamrak (1333–1394)
 - [x] Khalil Sultan (1384–1411)
 - [x] Çandarlı Ali Pasha (1340–1406)
-- [ ] Ubayd Zakani (1310–1370)
-- [ ] Kamal Khujandi (1321–1401)
-- [ ] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
-- [ ] Sultan Mahmud Shah Tughlaq (1388–1413)
-- [ ] Taj al-Din Firuz Shah Bahmani (1370–1422)
+- [x] Ubayd Zakani (1310–1370)
+- [x] Kamal Khujandi (1321–1401)
+- [~] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
+- [x] Sultan Mahmud Shah Tughlaq (1388–1413)
+- [x] Taj al-Din Firuz Shah Bahmani (1370–1422)
 - [ ] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
 - [ ] Syed Jalaluddin Bukhari (1244–1350) — FLAG: the CSV's dates match no standard biography (Surkh-Posh Bukhari is usually 1192–1291); resolve identity at build time.
 
