@@ -15,5 +15,6 @@ relations:
   - { type: ruler_of, target: place/al-hira, end: { edtf: "0602~" }, sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
   - { type: member_of, target: group/banu-lakhm }
   - { type: participated_in, target: event/battle-of-dhu-qar, role: "صاحب الوديعة التي كانت سبب الموقعة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya, source/nihayat-al-arab-nuwayri-vol3-scan]
+sources: [source/mubarakpuri-raheeq, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya, source/nihayat-al-arab-nuwayri-vol3-scan, source/akhbar-tiwal-amir]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance: { layer: own-research, source: "al-Akhbar al-Tiwal (Amir ed.)", generated_by: "Claude Opus 5.5 (enrichment)", model: claude-opus-5-5, run: "lib-akhbar-tiwal-batch-2-2026-10-31", sources: [source/akhbar-tiwal-amir] }

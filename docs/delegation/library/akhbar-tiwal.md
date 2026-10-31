@@ -12,6 +12,8 @@
 
 - **Batch 1** (intro): `source/akhbar-tiwal-amir`, `work/al-akhbar-al-tiwal`, enriched `person/abu-hanifa-al-dinawari` (birth, teachers, Isfahan 235, works, death 26 Jumada I 282).
 
+- **Batch 2** (pp. 43–110): an "In al-Dinawari" section on 12 Sasanian and Lakhmid rulers (Ardashir I, Shapur I, Hormizd I, Shapur II, Yazdagird I, Bahram Gur, Peroz, Kavad, Anushirvan, Hormizd IV, Khusraw Parviz, al-Nu'man ibn al-Mundhir) and on `place/al-hira` (its founding story, as the book's report).
+
 ## Next step
 
-Batch 2: the Sasanian kings and al-Hira from claims table A (session scratchpad), enriching existing persons.
+Batch 3: the conquest of Iraq and Persia (claims B 1–10: al-Qadisiyya, al-Mada'in, Jalula', Nihawand, Tustar) and the Abbasid da'wa (claims C). Still to read: pp. 142–240 (the Camel, Hujr, Ziyad, Ali's death), pp. 264–330 and 383–420. Duplicates flagged: `khosrow-ii`/`khosrow-ii-parviz`, `shirawayh`/`shiruyeh-ibn-parviz`, `conquest-of-al-madain`/`conquest-of-madain`, three Tustar events; `person/abu-salama` merges two different men.
