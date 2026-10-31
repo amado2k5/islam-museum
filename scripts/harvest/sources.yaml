@@ -288,3 +288,493 @@ sources:
       youtube: not downloaded (YouTube terms)
     status: enabled
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
+
+  # ---- khutab-durus lane (plan 25): authorized site families, founder's instruction 31 Oct 2026
+  manarat-al-haramain:
+    name: منارة الحرمين — أرشيف خطب ودروس ومحاضرات الحرمين
+    url: https://manaratalharamain.gov.sa
+    licence: official Saudi Haramain presidency archive; khutab/durus/lectures with Hijri dates and official translations (ar/en/ur and more)
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt not retrievable by fetch 31 Oct 2026 — verify in browser before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  droos-al-haramain:
+    name: الدروس العلمية بالمسجد الحرام والمسجد النبوي
+    url: https://droos.prh.gov.sa
+    licence: official PRH lessons archive, Hijri-dated tables since 1406
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  islamway:
+    name: طريق الإسلام — مكتبة الدروس والخطب الصوتية
+    url: https://ar.islamway.net
+    licence: large Sunni audio archive (site states ~96,648 lessons for 794 scholars, dated figure); robots.txt checked 31 Oct 2026 — open except ad/pdfjs paths
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt 31 Oct 2026: open except /phpAdsNew/ /openx/ */poster$ */qr-code$ /bundles/viewers/pdfjs*"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  alukah:
+    name: شبكة الألوكة — قسم الخطب والبحوث
+    url: https://www.alukah.net
+    licence: written khutba transcripts and research, categorized
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  khutabaa:
+    name: ملتقى الخطباء
+    url: https://khutabaa.com
+    licence: categorized Friday khutbas with references
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  nida-al-islam:
+    name: نداء الإسلام
+    url: https://islamcall.com
+    licence: archived academic lessons and sermons from major mosques
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  halaltube:
+    name: Halal Tube
+    url: https://halaltube.com
+    licence: index of English-language Sunni talks by speaker
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "index site; linked talks hosted elsewhere"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  kalamullah:
+    name: Kalamullah
+    url: https://kalamullah.com
+    licence: MP3 lecture-series archive (English)
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  khutbah-com:
+    name: Khutbah.com
+    url: https://khutbah.com
+    licence: English Friday khutba scripts and outlines
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  yaqeen-institute:
+    name: Yaqeen Institute
+    url: https://yaqeeninstitute.org
+    licence: lectures, papers and khutba series (English)
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  binbaz:
+    name: موقع ابن باز الرسمي
+    url: https://binbaz.org.sa
+    licence: official Ibn Baz archive: fatwas, duroos on classical texts
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "official scholar archive; robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  binothaimin:
+    name: موقع ابن عثيمين الرسمي
+    url: https://binothaimin.net
+    licence: official Ibn Uthaymin archive: duroos walking through classical textbooks
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "official scholar archive; robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  ris-convention:
+    name: Reviving the Islamic Spirit convention archive
+    url: https://revivingtheislamicspirit.net
+    licence: annual Sunni convention recordings (metadata and links)
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "conference talks; recordings on official channels, linked not downloaded"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  mas-icna:
+    name: MAS-ICNA convention media
+    url: https://www.mas-icna.org
+    licence: annual convention panels and lectures
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "conference talks; recordings on official channels, linked not downloaded"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  sound-vision:
+    name: Sound Vision / ICNA dawah archives
+    url: https://www.soundvision.com
+    licence: public talks and symposiums
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "linked not downloaded"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+
+  # ---- khutab-durus lane, second authorized batch (research, commentary, news; founder 31 Oct 2026)
+  ummatics:
+    name: The Ummatics Institute
+    url: https://ummatics.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'whitepapers and conference transcripts on political theology and statecraft'
+    status: enabled
+  tabah-foundation:
+    name: Tabah Foundation
+    url: https://tabahfoundation.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'Abu Dhabi Sunni think tank: monographs and whitepapers on bioethics, AI, fatwa methodology'
+    status: enabled
+  iiit:
+    name: IIIT
+    url: https://iiit.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'research papers, monographs and the American Journal of Islam and Society'
+    status: enabled
+  muslimmatters:
+    name: MuslimMatters
+    url: https://muslimmatters.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'Western Sunni web-magazine: essays, critique, reviews'
+    status: enabled
+  traversing-tradition:
+    name: Traversing Tradition
+    url: https://traversingtradition.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'intellectual and philosophical essays from a classical Sunni lens'
+    status: enabled
+  islam21c:
+    name: Islam21c
+    url: https://www.islam21c.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'UK Sunni commentary: theology, politics, community strategy'
+    status: enabled
+  muslim-skeptic:
+    name: The Muslim Skeptic
+    url: https://muslimskeptic.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'polemical essays and debates (Daniel Haqiqatjou); flagged polemical tone — describe and cite, never reproduce'
+    status: enabled
+  the-thinking-muslim:
+    name: The Thinking Muslim
+    url: https://thethinkingmuslim.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'geopolitical analysis and long-form interviews (Muhammad Jalal)'
+    status: enabled
+  kalam-research:
+    name: Kalam Research & Media
+    url: https://kalamresearch.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'Sunni kalam think tank: analytic papers on theology and philosophy'
+    status: enabled
+  tafsir-center:
+    name: Tafsir Center
+    url: https://tafsir.net
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'journal papers and research on Qur'anic sciences'
+    status: enabled
+  nama-center:
+    name: Namaa Center
+    url: https://nama-center.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'sociological, ideological and theological research papers'
+    status: enabled
+  albayan-center:
+    name: Markaz Al-Bayan
+    url: https://albayan.co.uk
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'strategy and geopolitics whitepapers and columns'
+    status: enabled
+  dalail-center:
+    name: Markaz Dalail
+    url: https://dalail.org.sa
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'papers and manuals confronting atheism and shubuhat'
+    status: enabled
+  middle-east-eye:
+    name: Middle East Eye
+    url: https://www.middleeasteye.net
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'regional news with Muslim-intellectual op-eds'
+    status: enabled
+  new-arab:
+    name: The New Arab
+    url: https://www.newarab.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'regional news and opinion'
+    status: enabled
+  5pillars:
+    name: 5Pillars
+    url: https://5pillarsuk.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'British Muslim news, investigations and op-eds'
+    status: enabled
+
+  # ---- khutab-durus lane, third authorized batch (conventions, research portals; founder 31 Oct 2026)
+  ristalks:
+    name: RIS Talks
+    url: https://ristalks.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'curated RIS keynotes and panels by theme'
+    status: enabled
+  ris-multimedia:
+    name: RIS Multimedia (YouTube)
+    url: https://youtube.com/@rismultimedia
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'official RIS video archive incl. Knowledge Retreat — YouTube: metadata and links only, never downloaded'
+    status: enabled
+  mica-archive:
+    name: Muslims in Canada Archives
+    url: https://muslimcanadianarchives.ca
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'convention artifacts, speeches, documentation'
+    status: enabled
+  isna:
+    name: ISNA Convention
+    url: https://isna.net
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'oldest major annual North American Muslim convention; media library'
+    status: enabled
+  icna-mas-baltimore:
+    name: ICNA-MAS Baltimore Convention
+    url: https://www.icna.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'annual Memorial-Day convention: dawah symposiums, lectures'
+    status: enabled
+  almaghrib:
+    name: Al-Maghrib Institute
+    url: https://www.almaghrib.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'weekend seminars and IlmFest conferences'
+    status: enabled
+  qalam-institute:
+    name: Qalam Institute
+    url: https://qalam.online
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'seminars and Seerah conferences'
+    status: enabled
+  gpu-london:
+    name: Global Peace and Unity (GPU)
+    url: https://gpu.events
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'UK flagship gathering at ExCeL London'
+    status: enabled
+  ramf-le-bourget:
+    name: RAMF Le Bourget
+    url: https://ramf-paris.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'mainland Europe's largest Islamic gathering, Parc du Bourget'
+    status: enabled
+  cambridge-muslim-college:
+    name: Cambridge Muslim College
+    url: https://www.cambridgemuslimcollege.ac.uk
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'academic symposia: kalam, metaphysics, bioethics; lecture papers published'
+    status: enabled
+  tawasul-wcmc:
+    name: World Council of Muslim Communities (Tawasul)
+    url: https://www.tawasul.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'policy whitepapers and declarations for Muslim minorities'
+    status: enabled
+  forum-promoting-peace:
+    name: Forum for Promoting Peace in Muslim Societies
+    url: https://peacesms.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'international scholarly convention led by Abdallah bin Bayyah; communiqués and fiqh al-silm whitepapers'
+    status: enabled
+  iifa:
+    name: International Islamic Fiqh Academy
+    url: https://www.iifa-aifi.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'apex legal body: official resolutions (Qararat), journal and multi-volume proceedings'
+    status: enabled
