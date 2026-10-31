@@ -85,3 +85,34 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (n–z) | batch 4: place, futuh-buldan-maarif-1407 (sariya; p.469 checked against OCR) | 1 | 0 | — |
 - place/shuman: the summary says Fadl ibn al-Muhallab conquered it in Khurasan (Baladhuri). The OCR shows only a mention, at p.590, in the Transoxiana account, where the ruler of Shuman harassed the king of Saghaniyan. The conquest claim is not supported there. Left unchanged; needs checking against the printed book.
 | 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 6: place, 25 slugs (zala, ronda, waddan, ukaz, shirwan, sabra, qumm, oman, sind, rayy, qabala, tawwaj, rawar, silves, wazan, tawda, surraq, yafa, tarfa, qumar, shikla, qalunia, naros, ujj, sirt) | 8 (oman, tawda, qumar, shikla, sirt, ujj, sabra ar only, qumm); rayy already above 100 words in ar/en/ur, unchanged | 16 (reasons under Leads, batch 6) | this PR |
+
+## Leads, batch 6 (n–z, 25 place slugs)
+
+Each lead was read in the OCR at the cited page unless the reason says otherwise. The Idrisi page numbers are pages.json page numbers of `books/geography/nuzhat-mushtaq-idrisi/1-2_20240914`, which equal the printed pages.
+
+- **place/zala.** Idrisi p. 120 gives three sentences: a town with a strong fortress where a man rose against the rule, nine days from Marat, eight days from Wadan, ten from Zuwayla. The rest of the page is about Marandah and its lake. 100 words would need Marandah material, which belongs to another entry. Lead.
+- **place/ronda.** The Nafh al-Tib passage (cited p. 520) was not found in the on-disk volumes searched (BBib-Alex-05311, 05312 have no رندة at that point). Lead until the passage is located.
+- **place/waddan.** The Raheeq passage (cited p. 198) was not found. The 2014, 2021 and 2026 Raheeq editions on disk were searched; the only ودان hit in a page-numbered edition is a list of expeditions (20210430 edition, p. 191). Lead until the cited page is confirmed.
+- **place/ukaz.** The Raheeq pages cited (pp. 35–47) were not located in the on-disk editions searched, so the 86-word Arabic body cannot be extended from them. Lead. The English and Urdu bodies are already above 100 words.
+- **place/shirwan.** Futuh al-Buldan (FutuhAlBoldan, pages.json 201–217) mentions Shirwan in lists of kings and campaigns, but the cited printed pages 273 and 276 do not map to the pages.json index. Lead until the page map is checked.
+- **place/sind.** The Hakim ibn Jabala verdict cited in the summary was not located in the FutuhAlBoldan OCR; p. 487 is the index. Lead until the passage is located.
+- **place/qabala.** The Futuh pages cited (281–287 printed) were not mapped to the pages.json index. Lead.
+- **place/tawwaj.** The Futuh passage (Ardashir-Khurra, Hakam or Uthman ibn Abi al-As) was not located; p. 522 is the index. Lead.
+- **place/rawar.** Futuh pages.json p. 446 gives Muhammad ibn al-Qasim's storming of Rawar and Dahir's wife burning herself with her maids and wealth. That is about 30 words about Rawar itself; the rest of 100 words would be the Dahir narrative. Lead.
+- **place/wazan.** Futuh pages.json p. 403 gives Wazan in one clause: Ibn Samura took Bust, then went to Wazan, whose people fled, and took it. The sentences around it are about Khushk and Rukhj. Lead.
+- **place/surraq.** Futuh pages.json p. 386 gives Surraq taken by Abu Musa on Ramhurmuz's terms, the betrayal, Haritha ibn Badr's failed attack, and Abdallah ibn Amir's conquest by force. About 60 words concern Surraq; the rest is the Ramhurmuz narrative. Lead.
+- **place/silves.** Nafh al-Tib pages.json p. 220 (vol. 05311) gives Silves as the capital of the Ossonoba kura and its position beside Lisbon's district. The rest of the page is a Sharish note and a poem, which is not reproduced. About 60 words. Lead.
+- **place/tarfa.** Idrisi p. 131 describes Tarfa and Samsata together: estates about two miles from the Nile, cane fields, sugar and fanid. About 50 words specific to Tarfa. Lead.
+- **place/naros.** Idrisi p. 917 gives one paragraph: a small, civilised town with markets, one hundred miles from Nusha, 135 miles east to Salaw, 50 miles west to Fira. About 40 words. Lead.
+- **place/qalunia.** Idrisi pp. 872–873 give the Rhine location, size and harvests, and 60 miles from Mabansa. About 50 words. Lead.
+- **place/yafa.** Idrisi p. 356 says Yafa is on the salt sea, half a day from Ramla (نصف يوم). The summary and body say "about twenty miles from Ramla", which the text does not support. Summary and body are not yet corrected. Lead, with that correction to make.
+
+## Corrections, batch 6
+
+- place/qumm: the body cites Farghani (Golius) pp. 462–463. p. 462 was checked against pages.json (Abd Allah ibn Sa'd, AH 83, al-Hajjaj). p. 463 was checked for the wells and irrigation river only. The Twelver claim and the son Musa claim in the earlier body were not verified and are removed.
+- place/tawda: the Fez distance is given two ways in the OCR (twenty miles from the Sebou crossing on the Banu Qawda road, and two days from ʿAkasha). The body states both; the summary still says "about twenty miles" and is left as it was.
+
+## Open issues, batch 6
+
+- place/sabra: the Maqdisi citation (ahsan-al-taqasim p. 181) was not re-checked in this batch. The Arabic body now uses the Idrisi p. 284 passage, and the Maqdisi paragraph is the same as before.
