@@ -1,0 +1,63 @@
+id: person/muazzez-ilmiye-cig
+class: person
+label:
+  ar: "معزز إلمية تشيغ"
+  en: "Muazzez İlmiye Çığ"
+  ur: "معزز علمیے چغ"
+names:
+  - { value: "Muazzez İlmiye Çığ", kind: full }
+  - { value: "Muazzez İlmiye İtil", kind: alternate }
+gender: female
+born:
+  edtf: "1914-06-20"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 20 June 1914 at Bursa, a few weeks before the First World War began: the English and Turkish biographies and Wikidata agree on the day. The Hijri year 1332 is a tabular conversion of the followed date, marked derived."
+  sources:
+    - source/wikipedia-cig-en
+    - source/wikipedia-cig-tr
+    - source/wikidata-cig
+died:
+  edtf: "2024-11-17"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 17 November 2024, aged 110 years and 150 days, in a private hospital in Mersin's Mezitli district after intensive care, and was buried at Mersin's Akbelen Cemetery on 19 November: the Turkish biography gives the detail, the English biography and Wikidata concur on the day (Wikidata's places are Mersin Province and Mezitli). The Hijri year 1446 is a tabular conversion, marked derived. Mersin and Mezitli have no place entities, so no died_in edge is written. The queue's years (1914–2024) are confirmed to the day."
+  sources:
+    - source/wikipedia-cig-en
+    - source/wikipedia-cig-tr
+    - source/wikidata-cig
+roles: [scholar, writer]
+regions: [anatolia-balkans]
+wings: [people]
+relations:
+  - { type: born_in, target: place/bursa, sources: [source/wikipedia-cig-en, source/wikipedia-cig-tr, source/wikidata-cig] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source attests her personal belief, and her case was assessed against the same bar applied to declared unbelief and does not meet it in either direction. What the sources document is her work and her advocacy: her books argue that narratives of the Quran, the Bible and the Torah have Sumerian antecedents, she was one of Turkey's leading public advocates of secularism and women's rights, and at her 2006 trial — where she was acquitted of inciting religious hatred over her headscarf thesis — she described herself as 'a woman of science'. Scholarship and advocacy are not a profession of personal unbelief in her own words, so atheist-or-sceptic is not recorded; no source names a school of Islam for her either, and Wikidata carries no religion value."
+    sources:
+      - source/wikipedia-cig-en
+      - source/wikipedia-cig-tr
+      - source/wikidata-cig
+summary:
+  ar: "عالمة آثار وكاتبة تركية (1914–2024) متخصصة في الحضارتين السومرية والحيثية، ومن أطول النساء عمرًا في تركيا؛ عاشت 110 سنوات. وُلدت في بورصة لأبوين من تتار القرم، ودرست الحيثيات في جامعة أنقرة على أيدي علماء ألمان لاجئين، ثم عملت عقودًا في متحف الشرق القديم بإسطنبول حيث فهرست آلاف الألواح المسمارية. اشتهرت بكتبها التي تردّ قصص القرآن والتوراة والإنجيل إلى أصول سومرية، وبمواقفها العلمانية، وحُوكمت سنة 2006 بتهمة إثارة الكراهية الدينية فبرّأتها المحكمة. توفيت في مرسين عن 110 سنوات."
+  en: "Turkish archaeologist and writer (1914–2024) specialising in Sumerian and Hittite civilisation, who lived to 110. Born at Bursa to Crimean Tatar parents, she studied Hittitology at Ankara University under refugee German scholars, then spent decades at Istanbul's Museum of the Ancient Orient cataloguing thousands of cuneiform tablets. She became famous for books tracing narratives of the Quran, the Torah and the Gospel to Sumerian antecedents, and for her secularist advocacy; tried in 2006 for inciting religious hatred over her headscarf thesis, she was acquitted. She died at Mersin aged 110."
+  ur: "ترک ماہرِ آثارِ قدیمہ و مصنفہ (1914–2024)، سومیری اور حتی تہذیب کی ماہر، جو 110 برس کی عمر تک زندہ رہیں۔ بورصہ میں قریم تاتار والدین کے ہاں پیدا ہوئیں؛ انقرہ یونیورسٹی میں پناہ گزین جرمن اساتذہ سے حتیات پڑھی، پھر استنبول کے قدیم مشرق عجائب گھر میں دہائیوں تک ہزاروں میخی تختیوں کی فہرست سازی کی۔ وہ اپنی کتابوں کے لیے مشہور ہوئیں جن میں قرآن، تورات اور انجیل کی داستانوں کی جڑیں سومیری روایات میں تلاش کی گئیں، اور اپنی سیکولر وکالت کے لیے بھی؛ 2006ء میں مذہبی منافرت کے الزام میں مقدمہ چلا اور وہ بری ہو گئیں۔ مرسین میں 110 برس کی عمر میں وفات پائی۔"
+sources:
+  - source/wikipedia-cig-en
+  - source/wikipedia-cig-tr
+  - source/wikidata-cig
+external_ids:
+  wikidata: Q464906
+provenance:
+  layer: own-research
+  source: "The English and Turkish Wikipedia biographies of Muazzez İlmiye Çığ and the Wikidata item Q464906, all read in full in this session, with a web search for any profession of personal belief run and reported in her faith note; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the Sumerologist born 1914, died November 2024 — pinned by biography and QID; the queue's years are confirmed to the day (20 June 1914 – 17 November 2024). Relation written: born_in Bursa; Mersin and Mezitli have no place entities, so her death place is carried in the died note and prose. Her marriage to M. Kemal Çığ is carried in prose; he has no record, so no spouse edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
