@@ -1,6 +1,6 @@
 # MicroSD harvest claims (repo copy)
 
-Copy of the shared ledger row for group A, kept in sync in this branch's commit. The live ledger is `/Volumes/exmicroSD/islam-museum-harvest/claims/LEDGER.md`.
+Copy of the shared ledger rows, kept in sync in each branch's commit. The live ledger is `/Volumes/exmicroSD/islam-museum-harvest/claims/LEDGER.md`.
 
 | book (cat/book/stem) | task | who | status | updated |
 |---|---|---|---|---|
