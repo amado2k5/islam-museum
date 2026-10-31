@@ -19,3 +19,6 @@ These are differing accounts, and the source transmits them without weighing the
 
 ## His testament
 At his death he told Aisha to look at the milch-camel, the bowl and the blanket that they used to benefit from when he took charge of the affairs of the Muslims, and to return them to [[person/umar-ibn-al-khattab|Umar]] when he died. When he died, she sent them to him. The account relates Umar's words: "You have tired whoever comes after you." {cite:tarikh-khulafa-minhaj-1434}
+
+## In Khalifa ibn Khayyat
+In a line restored by the editor, [[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] reports from Ali ibn Muhammad and Abu al-Yaqzan that Abu Bakr died on Tuesday, eight nights before the end of Jumada al-Akhira, 13, aged sixty-three, an age on which there is no disagreement. {cite:tarikh-khalifa-umari-1985 p. 121} Ibn Ishaq puts it at two years, three months and twelve days after the Prophet's death. {cite:tarikh-khalifa-umari-1985 p. 121}
