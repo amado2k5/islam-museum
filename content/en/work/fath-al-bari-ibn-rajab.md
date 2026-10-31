@@ -23,5 +23,8 @@ Volume three begins Bukhari's book of prayer and takes its chapters in order. Ea
 
 Where needed, the commentary refers back to an earlier passage. It notes that the hadith has already appeared in the chapters on menstruation, and uses it there to show that a menstruating woman's clothing is clean unless it shows impurity. It sets out the jurists' views on whether prayer is spoiled when a woman stands beside the worshipper: it is not spoiled if she is not praying, and disagreement arises only when both pray together with no barrier between them. Malik, Ahmad, Ishaq and later scholars are cited on the point. {cite:fath-al-bari-ibn-rajab-1417-vol3 p. 5}, {cite:fath-al-bari-ibn-rajab-1417-vol3 p. 6}
 
+## Volume ten: the indexes
+Volume ten is the index volume of the set. It lists the Qur'anic verses cited (scan page 7), the hadiths and reports (from about page 35), the reliability assessments in al-jarh wa-l-ta'dil, the transmission records, the references Ibn Rajab makes in the *Fath*, and the sources. It contains no commentary, so it is recorded here as a source only. {cite:fath-al-bari-ibn-rajab-1413-vol10-index p. 5}
+
 ## A note on the source
 The views and chains in this record are those given by Ibn Rajab and the editors, and they have not been re-checked against other books. Page numbers are scan pages. {cite:fath-al-bari-ibn-rajab-1417 p. 7}
