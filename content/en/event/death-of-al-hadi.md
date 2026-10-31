@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-[[person/al-hadi-musa|al-Hadi]] died in Rabi' al-Akhir 170 AH and left seven sons. The accounts differ on the cause of his death. {cite:tarikh-khulafa-minhaj-1434 p. 451-452}
+[[person/al-hadi|al-Hadi]] died in Rabi' al-Akhir 170 AH and left seven sons. The accounts differ on the cause of his death. {cite:tarikh-khulafa-minhaj-1434 p. 451-452}
 
 ## The accounts
 al-Suyuti gives several sayings:

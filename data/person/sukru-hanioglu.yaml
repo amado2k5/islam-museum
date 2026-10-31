@@ -1,0 +1,50 @@
+id: person/sukru-hanioglu
+class: person
+label:
+  ar: "شكري هاني أوغلو"
+  en: "Şükrü Hanioğlu"
+  ur: "شکری ہانی اوغلو"
+names:
+  - { value: "M. Şükrü Hanioğlu", kind: full }
+  - { value: "Şükrü Hanioğlu", kind: alternate }
+gender: male
+born:
+  edtf: "1955"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1955 at Antakya: the Turkish biography gives the year and the town, the English biography and Wikidata give the year; the queue's 1955 is confirmed. No source reached gives a day. Antakya has no place entity, so no born_in edge is written. The Hijri year is omitted: a bare Gregorian year 1955 spans two Hijri years (1374-1375)."
+  sources:
+    - source/wikipedia-hanioglu-tr
+    - source/wikipedia-hanioglu-en
+    - source/wikidata-hanioglu
+roles: [historian, writer]
+regions: [anatolia-balkans]
+wings: [people, living]
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-hanioglu-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source reached names a religion or a legal school for Hanioglu. He is a historian of the late Ottoman Empire, of the Committee of Union and Progress and of Ataturk; scholarship about the history of a Muslim society is not an attestation of the man's own faith, and nothing documents personal practice, so his faith is recorded unknown."
+    sources:
+      - source/wikipedia-hanioglu-en
+      - source/wikipedia-hanioglu-tr
+      - source/wikidata-hanioglu
+summary:
+  ar: "مؤرخ تركي للعصر العثماني المتأخر في جامعة برينستون، حيث ترأس قسم دراسات الشرق الأدنى (2005–2014). وُلد في أنطاكيا سنة 1955 وتعلّم في جامعة إسطنبول، وهو من أبرز دارسي جمعية الاتحاد والترقي وتركيا الفتاة؛ من أعماله «تركيا الفتاة في المعارضة» (1995) و«التحضير لثورة» (2001) و«أتاتورك: سيرة فكرية» (2011). نال جائزة توبيتاك للخدمة (2010) والجائزة الكبرى الرئاسية للثقافة والفنون (2012)."
+  en: "Turkish historian of the late Ottoman Empire at Princeton University, where he chaired the Department of Near Eastern Studies from 2005 to 2014. Born at Antakya in 1955 and educated at Istanbul University, he is a leading scholar of the Committee of Union and Progress and the Young Turks; his works include Young Turks in Opposition (1995), Preparation for a Revolution (2001) and Ataturk: An Intellectual Biography (2011). He received the TUBITAK Service Award in 2010 and the Presidential Culture and Arts Grand Award in 2012."
+  ur: "ترک مؤرخ، جو آخری عثمانی دور کے ماہر ہیں اور پرنسٹن یونیورسٹی میں شعبہ مشرقِ قریب کے سربراہ رہے (2005ء–2014ء)۔ 1955ء میں انطاکیہ میں پیدا ہوئے اور استنبول یونیورسٹی سے تعلیم پائی؛ وہ انجمن اتحاد و ترقی اور نوجوان ترکوں کے ممتاز محقق ہیں۔ ان کی تصانیف میں «ینگ ٹرکس ان اپوزیشن» (1995ء)، «پریپریشن فار اے ریوولوشن» (2001ء) اور «اتاترک: ایک فکری سوانح» (2011ء) شامل ہیں۔ انہیں 2010ء میں توبیتاک سروس ایوارڈ اور 2012ء میں صدارتی ثقافت و فنون کا بڑا ایوارڈ ملا۔"
+sources:
+  - source/wikipedia-hanioglu-en
+  - source/wikipedia-hanioglu-tr
+  - source/wikidata-hanioglu
+external_ids:
+  wikidata: Q16225125
+provenance:
+  layer: own-research
+  source: "The English Wikipedia biography 'M. Sukru Hanioglu', the Turkish Wikipedia biography and the Wikidata item Q16225125, all read in full in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the Turkish article's page properties. Identity: the queue line's bearer — the Princeton Ottoman historian (born 1955), pinned by biography and QID. The queue's 1955 is confirmed; the Turkish biography adds the birthplace Antakya, which has no place entity and is carried in the born note only. Relations written: lived_in Istanbul, where he was educated and taught."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -771,11 +771,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] M. A. S. Abdel Haleem — 1938–Living
 - [x] Mustafa Khattab — 1980–Living
 - [x] Mustafa Cerić — 1952–Living
-- [ ] Husein Smajić — 1952–Living
-- [ ] Nedžad Grabus — 1968–Living
-- [ ] Şükrü Hanioğlu — 1955–Living
-- [ ] Halil İnalcık — 1916–2016
-- [ ] Fuat Sezgin — 1924–2018
+- [x] Husein Smajić — 1952–Living
+- [x] Nedžad Grabus — 1968–Living
+- [x] Şükrü Hanioğlu — 1955–Living
+- [x] Halil İnalcık — 1916–2016
+- [x] Fuat Sezgin — 1924–2018
 - [ ] Ilber Ortaylı — 1947–Living
 - [ ] Celâl Şengör — 1955–Living
 - [ ] Gökhan Hotamışlıgil — 1962–Living
@@ -1681,18 +1681,18 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Ma al-'Aynayn's Sons (El Hiba) (1870–1928)
 - [x] Merebbi Rebbu (1881–1942)
 - [x] Cheikh Sidiyya Baba (1862–1924)
-- [ ] Sheikh Saad Bouh (1848–1917)
+- [x] Sheikh Saad Bouh (1848–1917)
 
 ## C. 926–1025 additions (2, flagged)
 
-- [ ] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
+- [x] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
 - EXCLUDED unless the founder directs otherwise: Hasdai ibn Shaprut (915–970) — the source row itself identifies him as a Jewish statesman of Cordoba; not a Muslim figure.
 
 ## D. 1326–1425 additions (10)
 
-- [ ] Ibn Zamrak (1333–1394)
-- [ ] Khalil Sultan (1384–1411)
-- [ ] Çandarlı Ali Pasha (1340–1406)
+- [x] Ibn Zamrak (1333–1394)
+- [x] Khalil Sultan (1384–1411)
+- [x] Çandarlı Ali Pasha (1340–1406)
 - [ ] Ubayd Zakani (1310–1370)
 - [ ] Kamal Khujandi (1321–1401)
 - [ ] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.

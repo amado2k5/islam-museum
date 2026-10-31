@@ -21,6 +21,8 @@
 
 - **Batch 6** (pp. 130–148): Khalifa sections added to `event/battle-of-yarmuk` (15 AH; Ibn al-Kalbi's Monday 5 Rajab 15; the fallen), `event/battle-of-al-qadisiyya` (the numbers, the march on al-Mada'in), `event/plague-of-amwas` (18 AH; the dead) and `event/battle-of-nihawand` (21 AH, given a date; Ali's counsel; the three days). Yarmuk and Amwas published. `event/amwas-plague` merged into `plague-of-amwas` as an alias (Ibn al-Athir section kept). `battle-of-nahavand` (Ibn al-Athir section kept) and `battle-of-nahavand-21` (unchecked Wikidata stub; its Q603549 kept) merged into `battle-of-nihawand` as aliases; their orphaned Timeline Explorer entries removed from `data/time-browser-*.json`.
 
+- **Duplicates merged** (aliases kept): `event/battle-of-al-harrah-683` → `waqat-al-harra` (its Q514382 kept); `event/death-of-al-mamun` → `death-of-mamun` (al-Mas'udi section; date refined to Rajab 218); `person/sulayt-ibn-qays` → `salit-ibn-qays` (al-Mas'udi section, Q12216604); `person/al-hadi-musa` → `al-hadi` (al-Baladhuri, al-Suyuti and al-Mas'udi sections; links in `event/death-of-al-hadi` repointed).
+
 ## Next step
 
 Batch 5: remaining dates (Yarmuk, Qadisiyya, Amwas, Nihawand, the Kaaba fire of 64, al-Walid I and Sulayman, the Abbasid caliphs' deaths), Mirdas ibn Udayya, a second source on `event/battle-of-tahudha` once it is on main, then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.
