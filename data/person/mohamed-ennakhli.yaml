@@ -1,0 +1,56 @@
+id: person/mohamed-ennakhli
+class: person
+label:
+  ar: "محمد النخلي"
+  en: "Mohamed Ennakhli"
+  ur: "محمد النخلی"
+names:
+  - { value: "محمد بن محمد بن حمودة النخلي القصراوي القيرواني", kind: full }
+  - { value: "Muhammad ibn Muhammad ibn Hammuda al-Nakhli al-Qasrawi al-Qayrawani", kind: full }
+  - { value: "Mohamed Nakhli", kind: latinized }
+gender: male
+born:
+  edtf: "1869"
+  hijri: "1286"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Kairouan in 1869 (French biography and Wikidata give the year; the Arabic biography pairs his life with the years 1286–1343 AH, and 1869 falls mostly within 1286 AH)."
+  sources: [source/wikipedia-mohamed-ennakhli-ar, source/wikipedia-mohamed-ennakhli-fr, source/wikidata-mohamed-ennakhli]
+died:
+  edtf: "1924"
+  hijri: "1342"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Tunis in 1924. The Arabic biography's header pairs his death year with 1343 AH, but the passage it quotes from Muhammad Makhlof's Shajarat al-Nur al-Zakiyya dates his death to Rajab 1342 AH (February–March 1924) and describes his funeral at Tunis and burial at Kairouan; the quoted source is followed here."
+  sources: [source/wikipedia-mohamed-ennakhli-ar, source/wikipedia-mohamed-ennakhli-fr, source/wikidata-mohamed-ennakhli]
+roles: [scholar, jurist, poet]
+regions: [maghreb]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Ennakhli himself, and Wikidata carries no religion value for him. His Zaytuna professorship and his place in the reform current of Muhammad Abduh and Jamal al-Din al-Afghani attest his scholarship and his theology of reform, not a school of law, and the polemics of colleagues who impugned his creed are likewise no attestation of a school; this is the absence configuration."
+    sources: [source/wikipedia-mohamed-ennakhli-ar, source/wikipedia-mohamed-ennakhli-fr, source/wikidata-mohamed-ennakhli]
+relations:
+  - { type: born_in, target: place/qayrawan, sources: [source/wikipedia-mohamed-ennakhli-fr, source/wikipedia-mohamed-ennakhli-ar, source/wikidata-mohamed-ennakhli] }
+  - { type: died_in, target: place/tunis, sources: [source/wikipedia-mohamed-ennakhli-fr, source/wikipedia-mohamed-ennakhli-ar, source/wikidata-mohamed-ennakhli] }
+summary:
+  ar: "عالم زيتوني ومصلح تونسي (1869–1924)، وُلد بالقيروان ودرّس بجامع الزيتونة نحو خمسة وثلاثين عامًا، وكان من تلامذته محمد الطاهر بن عاشور وعبد الحميد بن باديس. كان من أبرز أصوات تيار الإصلاح المتأثر بمحمد عبده في تونس، ودرّس بالخلدونية وشارك في مجلس إصلاح التعليم بالمدرسة الصادقية سنة 1906، ودعا طوال حياته إلى التوفيق بين العلم والدين؛ ولم يطبع في حياته سوى نشرية قصيرة في حياة اللغة العربية، وبقيت دراساته الكثيرة مخطوطة."
+  en: "Tunisian Zaytuna scholar and reformer (1869–1924), born at Kairouan, who taught at the Zaytuna for some thirty-five years and counted Mohamed Tahar Ben Achour and Abdelhamid Ben Badis among his students. A leading voice of the reform current inspired by Muhammad Abduh in Tunisia, he also taught at the Khaldounia, sat on the Sadiki College improvement council set up in 1906, and argued throughout his life for reconciling science and religion; the only work printed in his lifetime was a short treatise on the life of the Arabic language, while his many studies remained in manuscript."
+  ur: "تونسی زیتونہ عالم اور مصلح (1869–1924)، جو قیروان میں پیدا ہوئے اور تقریباً پینتیس سال جامع زیتونہ میں تدریس کی؛ ان کے شاگردوں میں محمد طاہر بن عاشور اور عبدالحمید بن بادس شامل تھے۔ وہ تونس میں محمد عبدہ سے متاثر اصلاحی تحریک کی نمایاں آواز تھے، خلدونیہ میں بھی پڑھایا، 1906ء میں قائم صادقی کالج کی اصلاحی کونسل کے رکن رہے، اور عمر بھر علم و دین کے امتزاج کی دعوت دی؛ ان کی زندگی میں صرف عربی زبان پر ایک مختصر رسالہ چھپا، جبکہ ان کی بیشتر تصانیف مخطوطات ہی رہیں۔"
+sources:
+  - source/wikipedia-mohamed-ennakhli-ar
+  - source/wikipedia-mohamed-ennakhli-fr
+  - source/wikidata-mohamed-ennakhli
+external_ids:
+  wikidata: Q3318742
+provenance:
+  layer: own-research
+  source: "Arabic and French Wikipedia biographies of Mohamed Ennakhli (Q3318742) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the Arabic article's page properties. Existence checks by name fragments (ennakhli, nakhli, النخلي) and by QID across data/person on origin/main found no prior record for this man. His teachers and students — among them Salem Bouhageb, who is built in this same wave, and Ibn Ashur and Ben Badis, who have their own records — are not schema relations and no edge is written for them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-140
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
