@@ -746,11 +746,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Alperen Şengün — 2002–Living
 - [x] Mirza Teletović — 1985–Living
 - [x] Jusuf Nurkić — 1994–Living
-- [ ] Džanan Musa — 1999–Living
-- [ ] Bojan Bogdanović (Contemporary) — 1989–Living
-- [ ] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
-- [ ] Plestia Alaqad — 2001–Living
-- [ ] Wael Al-Dahdouh — 1970–Living
+- [x] Džanan Musa — 1999–Living
+- [x] Bojan Bogdanović (Contemporary) — 1989–Living
+- [x] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
+- [x] Plestia Alaqad — 2001–Living
+- [x] Wael Al-Dahdouh — 1970–Living
 - [ ] Shireen Abu Akleh — 1971–2022
 - [ ] Ghada Karmi — 1939–Living
 - [ ] Ilan Pappé (Honored Historian) — 1954–Living

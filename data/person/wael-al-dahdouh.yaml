@@ -1,0 +1,46 @@
+id: person/wael-al-dahdouh
+class: person
+label:
+  ar: "وائل الدحدوح"
+  en: "Wael Al-Dahdouh"
+  ur: "وائل الدحدوح"
+names:
+  - { value: "Wael Hamdan Ibrahim Al-Dahdouh", kind: full }
+  - { value: "وائل حمدان إبراهيم الدحدوح", kind: full }
+gender: male
+born:
+  edtf: "1970-04-30"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 30 April 1970 in the al-Zaytoun neighbourhood of Gaza City: the English biography states the day and the neighbourhood, and Wikidata's birthplace value is Gaza City (Q47492), the place/gaza entity. The Hijri year 1390 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-wael-al-dahdouh-en, source/wikipedia-wael-al-dahdouh-ar, source/wikidata-wael-al-dahdouh]
+roles: [journalist]
+regions: [levant-iraq]
+wings: [people, living]
+relations:
+  - { type: born_in, target: place/gaza, sources: [source/wikipedia-wael-al-dahdouh-en, source/wikidata-wael-al-dahdouh] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Islam is attested as his own documented practice: the Catalan newspaper Ara's April 2024 profile of his visit to Valencia calls him 'a committed Muslim', records that he went to the mosque to pray on Eid al-Fitr and that 'faith helps him be strong'; Wikidata's religion (P140) value is Islam, one structured family. No source read names a school of law or theology for him, so under the lane's discipline the settlement stays unknown, unflagged, with the documented practice stated here."
+    sources: [source/ara-dahdouh-2024, source/wikidata-wael-al-dahdouh]
+summary:
+  ar: "صحفي فلسطيني (وُلد سنة 1970) من مدينة غزة، مدير مكتب الجزيرة في غزة منذ 2004 بعد عمله في صحيفة القدس وصوت فلسطين والعربية؛ واصل التغطية خلال الحرب على غزة رغم مقتل زوجته وابنيه وحفيده في غارات إسرائيلية وإصابته هو في ديسمبر 2023، ونال جائزة جون أوبوشون الدولية لحرية الصحافة من نادي الصحافة الوطني الأمريكي سنة 2024."
+  en: "Palestinian journalist (born 1970) from Gaza City, Al Jazeera's Gaza bureau chief since 2004 after earlier work for Al-Quds, Voice of Palestine and Al Arabiya; he kept reporting through the Gaza war after airstrikes killed his wife, two of his sons and a grandson and he himself was wounded in December 2023, and received the National Press Club's International John Aubuchon Press Freedom Award for 2024."
+  ur: "فلسطینی صحافی (پیدائش 1970) جن کا تعلق غزہ شہر سے ہے؛ 2004 سے الجزیرہ کے غزہ بیورو کے سربراہ ہیں؛ جنگ کے دوران فضائی حملوں میں اپنی اہلیہ، دو بیٹوں اور پوتے کو کھونے اور خود زخمی ہونے کے باوجود رپورٹنگ جاری رکھی؛ 2024 میں نیشنل پریس کلب کا بین الاقوامی جان اوبوشون پریس فریڈم ایوارڈ ملا۔"
+sources:
+  - source/wikipedia-wael-al-dahdouh-en
+  - source/wikipedia-wael-al-dahdouh-ar
+  - source/wikidata-wael-al-dahdouh
+  - source/ara-dahdouh-2024
+external_ids:
+  wikidata: Q42332440
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Wael Al-Dahdouh, the Wikidata item Q42332440 and the Catalan newspaper Ara's profile of April 2024 (read in full in English translation), all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query (both 2551179246); the QID was grounded through the English article's page properties. Identity: the queue line's bearer <redacted> Al Jazeera's Gaza bureau chief (full name Wael Hamdan Ibrahim Al-Dahdouh); the QID grep across data/person on origin/main is empty, no prior record exists, and the Arabic label وائل الدحدوح collides with nothing on main, so no homonyms entry is required. The queue's year (1970, living) is confirmed to the day. Relations written: born_in → place/gaza (his birth neighbourhood, al-Zaytoun, is within Gaza City; no separate entity exists). Living-person care: his family's losses are recorded only in the terms his standard biographies carry — his wife Amna, his sons Mahmoud and Hamza, his daughter Sham and a grandson were killed in the October 2023 and January 2024 strikes, and he was wounded on 15 December 2023 — stated factually and without adjudicating any allegation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-138
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
