@@ -1,0 +1,53 @@
+id: person/syed-mir-qasim
+class: person
+label:
+  ar: "سيد مير قاسم"
+  en: "Syed Mir Qasim"
+  ur: "سید میر قاسم"
+names:
+  - { value: "Syed Mir Qasim", kind: full }
+gender: male
+born:
+  edtf: 1921-03-17
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Dooru Shahabad in Anantnag district. The English article gives 17 March 1921 and is internally consistent ('died aged 83' on 12 December 2004); the Arabic and Urdu articles also give 1921. Wikidata alone gives 17 March 1919 — the queue's year — and is not followed. The 1921 date is carried as debated and the Hijri year is derived tabularly from it."
+  sources: [source/wikipedia-syed-mir-qasim-en, source/wikipedia-syed-mir-qasim-ar, source/wikipedia-syed-mir-qasim-ur, source/wikidata-syed-mir-qasim]
+died:
+  edtf: 2004-12-12
+  hijri: "1425"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in New Delhi and was buried at Dooru Shahabad. All consulted sources agree on 12 December 2004; the Hijri year is derived tabularly from that date."
+  sources: [source/wikipedia-syed-mir-qasim-en, source/wikidata-syed-mir-qasim]
+roles: [politician, writer]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source states his religion or school, and his Wikidata item carries no religion value; 'Syed' is a name element and is never used for classification."
+    sources: [source/wikipedia-syed-mir-qasim-en, source/wikidata-syed-mir-qasim]
+relations: []
+summary:
+  ar: "سيد مير قاسم سياسي كشميري شارك في صياغة دستور جامو وكشمير وأسّس حزب المؤتمر في الولاية، وتولّى رئاسة وزرائها من 1971 إلى 1975، ثم استقال ليفسح المجال لعودة الشيخ عبد الله."
+  en: "Syed Mir Qasim was a Kashmiri politician who helped draft the Jammu and Kashmir constitution, founded the Congress party in the state, and served as its chief minister from 1971 to 1975, resigning to make way for Sheikh Abdullah's return."
+  ur: "سید میر قاسم کشمیری سیاست دان تھے جنھوں نے جموں و کشمیر کے آئین کی تدوین میں حصہ لیا، ریاست میں کانگریس کی بنیاد رکھی اور 1971ء سے 1975ء تک اس کے وزیر اعلیٰ رہے، پھر شیخ عبد اللہ کی واپسی کے لیے استعفا دیا۔"
+sources:
+  - source/wikipedia-syed-mir-qasim-en
+  - source/wikipedia-syed-mir-qasim-ar
+  - source/wikipedia-syed-mir-qasim-ur
+  - source/wikidata-syed-mir-qasim
+external_ids:
+  wikidata: Q7660381
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Syed Mir Qasim (Q7660381), read in full; the queue's 1919 birth year follows Wikidata alone against the articles' 1921, which is carried as debated. The slug follows the English article's spelling (Qasim); the queue's 'Kasim' is the same name in a looser transliteration."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-121
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
