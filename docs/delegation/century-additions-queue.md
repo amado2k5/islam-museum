@@ -660,11 +660,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Joko Widodo (Jokowi) — 1961–Living
 - [x] Prabowo Subianto — 1951–Living
 - [x] Mohammad Hatta — 1802–1980
-- [ ] Sutan Sjahrir — 1909–1966
-- [ ] Hamengkubuwono IX — 1912–1988
-- [ ] Adam Malik — 1917–1984
-- [ ] Tunku Abdul Rahman — 1903–1990
-- [ ] Tun Abdul Razak — 1922–1976
+- [x] Sutan Sjahrir — 1909–1966
+- [x] Hamengkubuwono IX — 1912–1988
+- [x] Adam Malik — 1917–1984
+- [x] Tunku Abdul Rahman — 1903–1990
+- [x] Tun Abdul Razak — 1922–1976
 - [ ] Tun Hussein Onn — 1922–1990
 - [ ] Tun Abdullah Ahmad Badawi — 1939–2024
 - [ ] Najib Razak — 1953–Living
