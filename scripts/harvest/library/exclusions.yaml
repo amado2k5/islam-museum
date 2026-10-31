@@ -139,3 +139,61 @@ verified_sunni:
     works:
       - "Fatawa a'immat al-muslimin bi-qat' lisan al-mubtadi'in (archive.org FP71266)"
     note: "creed described as Salafi-leaning reform in ar.wikipedia; record as his stated position, not as a sect"
+# ---- khutab-durus lane (plan 25): §1a checks dated 31 Oct 2026, verified against Wikipedia infoboxes and Wikidata; approved by the founder the same day
+verified:
+  - name: Ahmad Zaki Safwat
+    death_ah: 1406
+    sect: Sunni
+    evidence:
+      - https://ar.wikipedia.org/wiki/أحمد_زكي_صفوت
+      - https://www.wikidata.org/wiki/Q16120724
+    processed_check: "not in data/work, books.yaml, _stubs.d, delegation or $HARVEST/books (work/jamharat-ansab is a different book)"
+    checked: 2026-10-31
+  - name: Ibn Nubata al-Fariqi (Abd al-Rahim ibn Muhammad ibn Ismail)
+    death_ah: 374
+    sect: Sunni (Hanafi khatib of Mayyafariqin)
+    evidence:
+      - https://ar.wikipedia.org/wiki/ابن_نباتة_الفارقي
+      - https://www.wikidata.org/wiki/Q12202571
+    processed_check: "not found in data/ or books.yaml"
+    checked: 2026-10-31
+  - name: al-Shajari (Yahya ibn Ali al-Shajari)
+    death_ah: 542
+    sect: Sunni (Hanafi)
+    evidence:
+      - https://ar.wikipedia.org/wiki/يحيى_بن_علي_الشجري
+      - https://www.wikidata.org/wiki/Q12208744
+    processed_check: "not found in data/ or books.yaml"
+    checked: 2026-10-31
+  - name: Muhammad ibn Salih al-Uthaymin
+    death_ah: 1421
+    sect: Sunni
+    evidence:
+      - https://ar.wikipedia.org/wiki/محمد_بن_صالح_العثيمين
+      - https://www.wikidata.org/wiki/Q314009
+    processed_check: "no khutab collection in data/; person entity exists"
+    checked: 2026-10-31
+  - name: Muhammad al-Ghazali
+    death_ah: 1416
+    sect: Sunni
+    evidence:
+      - https://ar.wikipedia.org/wiki/محمد_الغزالي
+      - https://www.wikidata.org/wiki/Q381274
+    processed_check: "person entity exists; no khutab collection in data/"
+    checked: 2026-10-31
+  - name: Ali al-Tantawi
+    death_ah: 1420
+    sect: Sunni
+    evidence:
+      - https://ar.wikipedia.org/wiki/علي_الطنطاوي
+      - https://www.wikidata.org/wiki/Q12228363
+    processed_check: "person entity exists; no khutab collection in data/"
+    checked: 2026-10-31
+  - name: Abd al-Hamid Kishk
+    death_ah: 1417
+    sect: Sunni
+    evidence:
+      - https://ar.wikipedia.org/wiki/عبد_الحميد_كشك
+      - https://www.wikidata.org/wiki/Q4664438
+    processed_check: "person entity exists; no khutab collection in data/"
+    checked: 2026-10-31

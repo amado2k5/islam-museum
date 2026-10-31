@@ -1,0 +1,106 @@
+id: person/khudadad-khan
+class: person
+label:
+  ar: "خداداد خان"
+  en: "Mir Khudadad Khan"
+  ur: "میر خداداد خان"
+names:
+  - value: "Mir Khudadad Khan Ahmadzai"
+    kind: full
+  - value: "خُداداد خان"
+    kind: full
+gender: male
+summary:
+  ar: "خان قلات (نحو 1841 – 20 مايو 1909): صعد العرش في السادسة عشرة سنة 1857 بعد أخيه غير الشقيق ناصر خان الثاني، وحكم — مع انقطاع سنة واحدة — حتى أجبره البريطانيون على التنازل سنة 1893، وفي عهده قامت معاهدة ماستونغ 1876 التي بُني عليها نظام ساندمان للإدارة غير المباشرة في بلوشستان، وعاش في قلات حتى وفاته سنة 1909."
+  en: "Khan of Kalat (about 1841 – 20 May 1909): he came to the throne at sixteen in 1857 after his stepbrother Nasir Khan II and ruled — with one year's interruption — until the British forced his abdication in 1893; his reign saw the Mastung treaty of 1876, on which the Sandeman system of indirect rule over Balochistan was built, and he lived on at Kalat until his death in 1909."
+  ur: "خانِ قلات (تقریباً 1841ء – 20 مئی 1909ء): 1857ء میں سولہ برس کی عمر میں اپنے سوتیلے بھائی ناصر خان دوم کے بعد تخت نشین ہوئے، اور ایک برس کے وقفے کے سوا 1893ء تک حکمران رہے جب انگریزوں نے انھیں دستبرداری پر مجبور کیا؛ انہی کے عہد میں 1876ء کا معاہدۂ مستونگ ہوا جس پر بلوچستان میں سینڈیمن نظامِ بالواسطہ حکومت قائم ہوا، اور وہ 1909ء میں وفات تک قلات ہی میں رہے۔"
+born:
+  edtf: "1841"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: >-
+    The English article gives his birth as about 1841 (citing
+    Mujahid's Kalat memoir and the 1891 Britannica supplement), the
+    Urdu article's categories and Wikidata give 1841, and
+    Encyclopaedia Iranica independently fits the year: he succeeded
+    in 1857 aged sixteen. The year is approximate and spans two
+    Hijri years, so no Hijri year is recorded.
+  sources: [source/wikipedia-khudadad-khan-en, source/wikipedia-khudadad-khan-ur, source/wikidata-khudadad-khan, source/iranica-baluchistan-i]
+died:
+  edtf: "1909-05-20"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: >-
+    The Wikipedia articles give no death date ('date unknown'), and
+    Wikidata none either. The official Memoranda on the Indian
+    States 1921 states, in its Kalat section, 'Mir Khudadad Khan
+    died on 20th May 1909', recording also his abdication in
+    November 1893; the 1911 edition of the same Memoranda gives the
+    same date and the Statesman's Year-Book for 1913 gives May 1909.
+    The Hijri year is a tabular conversion of the Gregorian date.
+  sources: [source/memoranda-indian-states-1921, source/wikipedia-khudadad-khan-en]
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+relations:
+  - type: parent_of
+    target: person/azam-jan-khan
+    sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-khudadad-khan-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English article's infobox carries a religion field, 'Sunni
+      Islam'. An infobox value is a structured filing, not a prose
+      attestation, and no prose source read names his school;
+      Encyclopaedia Iranica's statement that the Baluch generally
+      claim all Baluch are Hanafite Muslims is a claim about a
+      people. A single structured value and a group claim do not
+      meet the two-source rule; the infobox reading is preserved
+      here and, under the doubt rule, the value stays unknown.
+    sources: [source/wikipedia-khudadad-khan-en, source/wikidata-khudadad-khan, source/iranica-baluchistan-i]
+external_ids:
+  wikidata: Q133863656
+sources:
+  - source/wikipedia-khudadad-khan-en
+  - source/wikipedia-khudadad-khan-ur
+  - source/wikidata-khudadad-khan
+  - source/memoranda-indian-states-1921
+  - source/iranica-baluchistan-i
+provenance:
+  layer: own-research
+  source: >-
+    Built for the century-additions queue §B line 1566, whose dates
+    (1835–1907) are corrected on the sources in both years: the
+    English Wikipedia article 'Khudadad Khan (ruler)' (revision
+    1379890714 of 12 October 2026), the Urdu article (revision
+    10439052 of 15 May 2026) and Wikidata item Q133863656 (item
+    revision 2491463101 of 14 May 2026) give his birth as about
+    1841, and the Memoranda on the Indian States 1921 (Government of
+    India, Calcutta 1922; full text read via the Internet Archive on
+    31 October 2026) gives his death on 20 May 1909, a date the
+    Wikipedia articles leave unknown. Existence checks before
+    building: name greps for Khudadad across data/person on
+    origin/main returned no record of this man (the First World War
+    Victoria Cross recipient of the same name is a different man and
+    has no record either), and the QID Q133863656 grep returned no
+    hit. The one relation written is the parent pair with his son
+    Azam Jan, attested by Azam Jan's own article ('born about 1870
+    to Khudadad Khan'; infobox father field) and by his own
+    article's issue list, and written here only, in the parent's
+    record. No filiation is written for Khudadad himself: his
+    article's infobox names Nasir Khan II as his father while its
+    text and Encyclopaedia Iranica make Nasir his stepbrother and
+    predecessor and Mehrab Khan II his father — a conflict, preserved
+    here and not resolved into an edge. His son Mahmud Khan II has
+    no person record. The khanate succession is an office, not a
+    relation. No place edges are written: Kalat has no place entity.
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status:
+  review: published

@@ -655,26 +655,26 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sibghatullah Mojaddedi — 1925–2019
 - [x] Sukarno — 1901–1970
 - [x] Suharto — 1921–2008
-- [ ] Abdurrahman Wahid (Gus Dur) — 1940–2009
-- [ ] Susilo Bambang Yudhoyono — 1949–Living
-- [ ] Joko Widodo (Jokowi) — 1961–Living
-- [ ] Prabowo Subianto — 1951–Living
-- [ ] Mohammad Hatta — 1802–1980
-- [ ] Sutan Sjahrir — 1909–1966
-- [ ] Hamengkubuwono IX — 1912–1988
-- [ ] Adam Malik — 1917–1984
-- [ ] Tunku Abdul Rahman — 1903–1990
-- [ ] Tun Abdul Razak — 1922–1976
-- [ ] Tun Hussein Onn — 1922–1990
-- [ ] Tun Abdullah Ahmad Badawi — 1939–2024
-- [ ] Najib Razak — 1953–Living
-- [ ] Muhyiddin Yassin — 1947–Living
-- [ ] Ismail Sabri Yaakob — 1960–Living
-- [ ] Anwar Ibrahim — 1947–Living
-- [ ] Sultan Ibrahim Ismail — 1958–Living
-- [ ] Sultan Azlan Shah — 1928–2014
-- [ ] Hassanal Bolkiah — 1946–Living
-- [ ] Omar Ali Saifuddien III — 1914–1986
+- [x] Abdurrahman Wahid (Gus Dur) — 1940–2009
+- [x] Susilo Bambang Yudhoyono — 1949–Living
+- [x] Joko Widodo (Jokowi) — 1961–Living
+- [x] Prabowo Subianto — 1951–Living
+- [x] Mohammad Hatta — 1802–1980
+- [x] Sutan Sjahrir — 1909–1966
+- [x] Hamengkubuwono IX — 1912–1988
+- [x] Adam Malik — 1917–1984
+- [x] Tunku Abdul Rahman — 1903–1990
+- [x] Tun Abdul Razak — 1922–1976
+- [x] Tun Hussein Onn — 1922–1990
+- [x] Tun Abdullah Ahmad Badawi — 1939–2024
+- [x] Najib Razak — 1953–Living
+- [x] Muhyiddin Yassin — 1947–Living
+- [x] Ismail Sabri Yaakob — 1960–Living
+- [x] Anwar Ibrahim — 1947–Living
+- [x] Sultan Ibrahim Ismail — 1958–Living
+- [x] Sultan Azlan Shah — 1928–2014
+- [x] Hassanal Bolkiah — 1946–Living
+- [x] Omar Ali Saifuddien III — 1914–1986
 - [ ] Nur Misuari — 1939–Living
 - [ ] Murad Ebrahim — 1948–Living
 - [ ] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
@@ -1561,22 +1561,22 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Pir Illahi Bux (1897–1975)
 - [x] G. M. Syed (1904–1995)
 - [x] Qazi Muhammad Esa (1914–1973)
-- [ ] Mir Ahmad Yar Khan (1906–1979)
-- [ ] Mir Azam Jan (1870–1933)
-- [ ] Mir Khudadad Khan (1835–1907)
-- [ ] Nawab Nowroz Khan (1874–1964)
-- [ ] Yusuf Aziz Magsi (1908–1935)
+- [x] Mir Ahmad Yar Khan (1906–1979)
+- [x] Mir Azam Jan (1870–1933)
+- [x] Mir Khudadad Khan (1835–1907)
+- [x] Nawab Nowroz Khan (1874–1964)
+- [x] Yusuf Aziz Magsi (1908–1935)
 - [ ] Abdul Samad Khan Achakzai (1907–1973)
-- [ ] Mirwaiz Moulvi Farooq (Ancestors) (1880–1930)
-- [ ] Mirwaiz Yusuf Shah (1894–1968)
-- [ ] Choudhary Ghulam Abbas (1904–1967)
-- [ ] Prem Nath Bazaz (Muslim Associates) (1905–1940)
-- [ ] Syed Mir Kasim (1919–2004)
-- [ ] Begum Akbar Jehan Abdullah (1907–2000)
-- [ ] Mian Nizamuddin Kianwi (1830–1913)
-- [ ] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
-- [ ] Master Zinda Kaul (Muslim Circle) (1880–1950)
-- [ ] Ghulam Ahmad Mahjoor (1887–1952)
+- [~] Mirwaiz Moulvi Farooq (Ancestors) (1880–1930)
+- [x] Mirwaiz Yusuf Shah (1894–1968)
+- [x] Choudhary Ghulam Abbas (1904–1967)
+- [x] Prem Nath Bazaz (Muslim Associates) (1905–1940)
+- [x] Syed Mir Kasim (1919–2004)
+- [x] Begum Akbar Jehan Abdullah (1907–2000)
+- [x] Mian Nizamuddin Kianwi (1830–1913)
+- [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
+- [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
+- [x] Ghulam Ahmad Mahjoor (1887–1952)
 - [ ] Abdul Ahad Azad (1903–1948)
 - [ ] Rasul Mir (1840–1870)
 - [ ] Mahmud Gami (1765–1855)

@@ -1,0 +1,35 @@
+id: person/najib-razak
+class: person
+label: { ar: "نجيب عبد الرزاق", en: "Najib Razak", ur: "نجیب رزاق" }
+names:
+  - { value: "Mohammad Najib bin Abdul Razak", kind: full }
+gender: male
+summary:
+  ar: "سياسي ماليزي، وُلد في كوالا ليبيس ببهانغ سنة 1953 الابن الأكبر لعبد الرزاق حسين. انتُخب عضوا في البرلمان في الثالثة والعشرين في مقعد أبيه الراحل، وتولى حقائب وزارية متتابعة ونيابة رئاسة الوزراء، فصار سادس رئيس وزراء سنة 2009؛ وسقطت حكومته سنة 2018 وسط فضيحة صندوق التنمية الماليزي (1MDB) التي أُدين فيها لاحقا وسُجن."
+  en: "Malaysian politician, born at Kuala Lipis, Pahang, in 1953, the eldest son of Abdul Razak Hussein. Elected to parliament at twenty-three in his late father's seat, he held a succession of cabinet posts, served as deputy prime minister, and became sixth prime minister in 2009; his government fell in 2018 amid the 1Malaysia Development Berhad (1MDB) scandal, in which he was later convicted and imprisoned."
+  ur: "ملائیشیائی سیاست دان، جو 1953ء میں کوالا لیپس، پہانگ میں عبد الرزاق حسین کے بڑے بیٹے پیدا ہوئے۔ تئیس برس کی عمر میں اپنے مرحوم والد کی نشست سے رکنِ پارلیمنٹ منتخب ہوئے، یکے بعد دیگرے کئی وزارتیں اور نائب وزیرِ اعظم کا عہدہ سنبھالا اور 2009ء میں چھٹے وزیرِ اعظم بنے؛ ان کی حکومت 2018ء میں ون ملائیشیا ڈیولپمنٹ برحد (1MDB) اسکینڈل کے درمیان گر گئی، جس میں بعد میں انھیں سزا ہوئی اور وہ قید ہوئے۔"
+roles: [politician]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1953-07-23"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 July 1953 at Kuala Lipis, Pahang, the eldest son of Abdul Razak Hussein, as the English, Arabic, Urdu and Indonesian articles and Wikidata give. The Hijri year (1372) is by tabular conversion. Kuala Lipis has no place entity, so no born_in relation is written. The filiation is written once, as a parent_of edge in his father's record (person/abdul-razak-hussein), completed in this wave now that this record exists."
+  sources: [source/wikipedia-najib-razak-en, source/wikipedia-najib-razak-ar, source/wikipedia-najib-razak-ur, source/wikipedia-najib-razak-id, source/wikidata-najib-razak]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Najib Razak. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-najib-razak-en, source/wikipedia-najib-razak-id, source/wikidata-najib-razak]
+external_ids: { wikidata: "Q57675" }
+sources: [source/wikipedia-najib-razak-en, source/wikipedia-najib-razak-ar, source/wikipedia-najib-razak-ur, source/wikipedia-najib-razak-id, source/wikidata-najib-razak]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Najib Razak' (revision 1382776705 of 30 October 2026), Arabic Wikipedia «نجيب عبد الرزاق» (revision 76758596 of 25 September 2026), Urdu Wikipedia «نجیب رزاق» (revision 10242308 of 3 May 2026), Indonesian Wikipedia 'Najib Razak' (revision 29399217 of 29 June 2026) and Wikidata item Q57675 (item revision 2562979127 of 31 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the other articles' page properties, with the item's description ('former 6th Prime Minister of Malaysia') matching the queue entry. Existence checked both directions before building: name fragments (Najib Razak, نجيب, نجیب) and Q57675 grepped across all data/person files on origin/main — the Najib-named files found are other men, and Q57675 has no hits. EDGE COMPLETION: his father Abdul Razak Hussein's record (person/abdul-razak-hussein, built in wave 121) carried no parent_of edge because this record did not yet exist; the edge is written in the father's record in this wave — the pair's single writing, in the parent — and no child_of edge is written here. His succession of Abdullah Ahmad Badawi is an office succession, carried in prose. No place edges are written: Kuala Lipis has no place entity here (verified against origin/main in this session)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-122
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,24 @@
+id: work/khutbat-musab-ibn-al-zubayr-basra
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/musab-ibn-al-zubayr }
+label: { ar: "خطبة مصعب بن الزبير بالبصرة", en: "Mus'ab ibn al-Zubayr's sermon in Basra (80 AH)", ur: "مصعب بن زبیر کی بصرہ میں خطبہ (۸۰ھ)" }
+summary:
+  ar: "خطبة مصعب بن الزبير بالبصرة سنة ٨٠هـ حين ولاه أخوه عبد الله بن الزبير العراق."
+  en: "Mus'ab ibn al-Zubayr's sermon in Basra in 80 AH when his brother Abdullah made him governor of Iraq."
+  ur: "۸۰ھ میں بصرہ میں مصعب کی خطبہ جب بھائی عبداللہ بن زبیر نے عراق کا والی بنایا۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/musab-ibn-al-zubayr]
+composed: { hijri: "0080", edtf: "0699", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/umayyad-caliphate, role: opponent, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+  - { type: mentions, target: place/basra }
+provenance: { layer: pd, source: "Jamharat v2", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-2 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

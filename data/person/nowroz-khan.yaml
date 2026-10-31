@@ -1,0 +1,94 @@
+id: person/nowroz-khan
+class: person
+label:
+  ar: "نوروز خان"
+  en: "Nowroz Khan"
+  ur: "نوروز خان"
+names:
+  - value: "Nawab Nauroz Khan"
+    kind: full
+  - value: "Nauroz Khan"
+    kind: alternate
+  - value: "Nowroz Khan Zehri"
+    kind: alternate
+  - value: "Dada Nowroz"
+    kind: laqab
+gender: male
+summary:
+  ar: "زعيم قبلي بلوشي (1874–1964، وسنة ميلاده محل نزاع) من الزاركزاي (الزهري) في جهلوان: بعد اعتقال خان قلات في أكتوبر 1958 قاد تمرد 1958–1960، واستسلم في 15 مايو 1959 على عهد أمان بالمصحف فاعتُقل مع أتباعه، وأفلت من الإعدام الذي نال سبعة من رفاقه سنة 1960 لكبر سنه، وتوفي في سجن كوهلو سنة 1964."
+  en: "Baloch tribal leader (1874–1964, the birth year debated) of the Zarakzai (Zehri) of Jhalawan: after the Khan of Kalat's arrest in October 1958 he led the 1958–60 insurgency, surrendered on 15 May 1959 under a Quran oath of amnesty and was arrested with his followers; spared, on account of his age, the execution that took seven of his companions in 1960, he died in Kohlu jail in 1964."
+  ur: "بلوچ قبائلی سردار (1874ء–1964ء، سنِ پیدائش متنازع) جن کا تعلق جھالاوان کے زارکزئی (زہری) سے تھا: اکتوبر 1958ء میں خانِ قلات کی گرفتاری کے بعد انھوں نے 1958ء تا 1960ء کی شورش کی قیادت کی، 15 مئی 1959ء کو قرآن پر امان کے عہد پر ہتھیار ڈالے تو پیروکاروں سمیت گرفتار کر لیے گئے؛ 1960ء میں ان کے سات رفقا کو پھانسی ہوئی مگر بڑھاپے کی بنا پر وہ بچ گئے، اور 1964ء میں کوہلو جیل میں وفات پائی۔"
+born:
+  edtf: "1874"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: >-
+    The birth year is genuinely unsettled. Wikidata gives 1874 and
+    the English article files him under 1870s births, but the same
+    article's lead gives '1868?' and its text says only that he was
+    born 'some time in the 1860s or 1870s'. The year 1874 is
+    carried, marked debated, with the 1868 variant preserved here.
+    The candidates span too many Hijri years for a conversion, so
+    no Hijri year is recorded.
+  sources: [source/wikipedia-nowroz-khan-en, source/wikidata-nowroz-khan]
+died:
+  edtf: "1964"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: >-
+    The English article and Wikidata give 1964: arrested after the
+    surrender of 15 May 1959, he was spared execution on account of
+    his age when seven of his companions were hanged on 15 July
+    1960, and died in Kohlu jail. A bare Gregorian year spans two
+    Hijri years (1383–1384), so no Hijri year is recorded.
+  sources: [source/wikipedia-nowroz-khan-en, source/wikidata-nowroz-khan]
+roles: [activist]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school for him, or discusses his
+      religion at all; Wikidata carries no religion value. The
+      truce story told in the English article — a copy of the Quran
+      sent to him as the pledge of safe conduct — attests the
+      sanctity of the oath in his world, not a school affiliation,
+      and Encyclopaedia Iranica's statement that the Baluch
+      generally claim all Baluch are Hanafite Muslims is a claim
+      about a people. Under the two-source rule and the doubt rule
+      the value stays unknown.
+    sources: [source/wikipedia-nowroz-khan-en, source/wikidata-nowroz-khan, source/iranica-baluchistan-i]
+external_ids:
+  wikidata: Q6981322
+sources:
+  - source/wikipedia-nowroz-khan-en
+  - source/wikidata-nowroz-khan
+  - source/iranica-baluchistan-i
+provenance:
+  layer: own-research
+  source: >-
+    Built for the century-additions queue §B line 1567; the queue's
+    years (1874–1964) are carried, the birth year marked debated on
+    the article's own variant. Identity, dates and career from the
+    English Wikipedia article 'Nauroz Khan' (revision 1371941500 of
+    29 August 2026) and Wikidata item Q6981322 (item revision
+    2335552240 of 7 April 2025), retrieved in full via the MediaWiki
+    and Wikidata APIs on 31 October 2026; no Urdu or Arabic article
+    exists for him. Existence checks before building: name greps for
+    Nowroz, Nauroz and Nawroz across data/person on origin/main
+    returned no record of this man (the Afghan cricketer Nawroz
+    Mangal is a different man), and the QID Q6981322 grep returned
+    no hit. No relations are written: his sons and nephews who were
+    arrested with him are not named in the sources and have no
+    person records, and his headship of the Zehri is an office, not
+    a relation. No place edges are written: Jhalawan, Kohlu and
+    Kalat have no place entities.
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status:
+  review: published

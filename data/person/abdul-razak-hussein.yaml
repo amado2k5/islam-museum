@@ -1,0 +1,46 @@
+id: person/abdul-razak-hussein
+class: person
+label: { ar: "عبد الرزاق حسين", en: "Abdul Razak Hussein", ur: "عبد الرزاق حسین" }
+names:
+  - { value: "Abdul Razak bin Hussein", kind: full }
+gender: male
+summary:
+  ar: "سياسي ماليزي، وُلد في بيكان بولاية بهانغ سنة 1922. كان نائب رئيس الوزراء من سنة 1957، وقاد مجلس العمليات الوطني بعد أعمال شغب 1969، فخلف تونكو عبد الرحمن رئيسا ثانيا لوزراء ماليزيا سنة 1970، وأطلق السياسة الاقتصادية الجديدة، وأعاد توجيه بلاده نحو عدم الانحياز، وتوفي في منصبه بلندن سنة 1976. وابنه الأكبر نجيب رزاق صار رئيس وزراء لاحقا."
+  en: "Malaysian statesman, born at Pekan, Pahang, in 1922. Deputy prime minister from 1957, he directed the National Operations Council after the 1969 riots, succeeded Tunku Abdul Rahman as Malaysia's second prime minister in 1970, launched the New Economic Policy, and realigned the country towards non-alignment; he died in office at London in 1976. His eldest son, Najib Razak, later became prime minister."
+  ur: "ملائیشیائی سیاست دان، جو 1922ء میں پیکان، پہانگ میں پیدا ہوئے۔ 1957ء سے نائب وزیرِ اعظم رہے، 1969ء کے فسادات کے بعد نیشنل آپریشنز کونسل کی قیادت کی، 1970ء میں تونکو عبدالرحمان کے جانشین کے طور پر ملائیشیا کے دوسرے وزیرِ اعظم بنے، نئی اقتصادی پالیسی شروع کی اور ملک کو غیر جانبداری کی طرف لے گئے؛ 1976ء میں لندن میں عہدے پر رہتے ہوئے وفات پائی۔ ان کے بڑے بیٹے نجیب رزاق بعد میں وزیرِ اعظم بنے۔"
+roles: [politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1922-03-11"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 11 March 1922 at Kampung Pulau Keladi, Pekan, Pahang, as the English, Arabic, Urdu and Indonesian articles and Wikidata give. No place entity exists for Pekan, so no born_in relation is written. The Hijri year (1340) is by tabular conversion."
+  sources: [source/wikipedia-abdul-razak-hussein-en, source/wikipedia-abdul-razak-hussein-ar, source/wikipedia-abdul-razak-hussein-ur, source/wikipedia-abdul-razak-hussein-id, source/wikidata-abdul-razak-hussein]
+died:
+  edtf: "1976-01-14"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 14 January 1976 at London, while seeking treatment for leukaemia, and was buried at the Heroes' Mausoleum in Kuala Lumpur, as the articles and Wikidata give. No place entity exists for London in this graph, so no died_in relation is written. The Hijri year (1396) is by tabular conversion."
+  sources: [source/wikipedia-abdul-razak-hussein-en, source/wikipedia-abdul-razak-hussein-ar, source/wikipedia-abdul-razak-hussein-ur, source/wikipedia-abdul-razak-hussein-id, source/wikidata-abdul-razak-hussein]
+relations:
+  - { type: parent_of, target: person/najib-razak, sources: [source/wikipedia-najib-razak-en, source/wikidata-najib-razak] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Abdul Razak Hussein. Wikidata's religion value is a structured value (Sunni Islam, Q483654) from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the four articles read. Under the two-source rule and the doubt rule his school stays unknown, with the Sunni structured reading preserved here."
+    sources: [source/wikipedia-abdul-razak-hussein-en, source/wikipedia-abdul-razak-hussein-id, source/wikidata-abdul-razak-hussein]
+external_ids: { wikidata: "Q264516" }
+sources: [source/wikipedia-abdul-razak-hussein-en, source/wikipedia-abdul-razak-hussein-ar, source/wikipedia-abdul-razak-hussein-ur, source/wikipedia-abdul-razak-hussein-id, source/wikidata-abdul-razak-hussein]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdul Razak Hussein' (revision 1381419826 of 22 October 2026), Arabic Wikipedia «عبد الرزاق حسين (ماليزيا)» (revision 76501918 of 10 September 2026), Urdu Wikipedia «عبد الرزاق حسین» (revision 5786799 of 14 January 2024), Indonesian Wikipedia 'Abdul Razak Hussein' (revision 29964791 of 25 September 2026) and Wikidata item Q264516 (item revision 2562801198 of 31 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('former 2nd Prime Minister of Malaysia (1922-1976)') matching the queue entry. Existence checked both directions before building: name fragments (Razak, Hussein) and Q264516 grepped across all data/person files on origin/main — no hits (wikidata-abderrazak-hamdallah is a different man, a Moroccan footballer). 'Tun' is an honorific title conferred on him, not a name: it appears in prose only, and no names entry is built from it, per the brief. His eldest son Najib Razak has no person record on origin/main (verified by grep), so no parent_of edge is written: the pair is written once, in the parent's record, only when the child's record exists; the filiation is carried in prose. His succession of Tunku Abdul Rahman is an office succession, carried in prose. No place edges are written: Pekan and London have no place entities here. Addendum, wave 122 (31 October 2026): the parent_of edge to his eldest son Najib Razak is written in this record in wave 122, now that the son's record exists (person/najib-razak), sourced from the son's English Wikipedia article (revision 1382776705 of 30 October 2026) and Wikidata item Q57675 (item revision 2562979127 of 31 October 2026), whose father value is this man (Q264516)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-121
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

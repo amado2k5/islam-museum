@@ -1,0 +1,20 @@
+id: work/khutbat-al-nabi-bi-makka
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/muhammad }
+label: { ar: "خطبة النبي بمكة حين دعا قومه", en: "The Prophet's address in Mecca when he called his people", ur: "مکہ میں نبی کا خطبہ جب انہوں نے اپنے قوم کو دعوت دی" }
+summary:
+  ar: "الخطبة التي رواها عنه المؤرخون حين دعا قومه في مكة: حمد الله وأثنى عليه ثم دعاهم إلى شهادة أن لا إله إلا الله."
+  en: "The address the historians record from his public call to Quraysh in Mecca: praise of God, then the call to testify that there is no god but God."
+  ur: "مکہ میں قریش کو علانیہ دعوت کے موقع کی منقولہ خطبہ: حمد و ثنا کے بعد توحید کی دعوت۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/muhammad]
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: mentions, target: place/mecca }
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v1 p.145; also in the sira sources", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-1 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,22 @@
+id: work/khutbat-abi-bakr-baad-al-baya
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/abu-bakr }
+label: { ar: "خطبة أبي بكر بعد البيعة", en: "Abu Bakr's first sermon after the bay'a", ur: "بیعت کے بعد ابو بکر کی پہلی خطبہ" }
+summary:
+  ar: "أول خطبة ألقاها أبو بكر بعد بيعة السقيفة كما رواها الطبري وغيره، وفيها قوله: قد وليت عليكم ولست بخيركم، فإن أحسنت فأعينوني وإن أسأت فقوموني."
+  en: "His first sermon after the Saqifa bay'a, as al-Tabari and others transmit: I have been put in charge of you though I am not the best of you; support me if I do right and set me straight if I err."
+  ur: "سقیفہ کی بیعت کے بعد پہلا خطبہ، طبری وغیرہ کی روایت سے: میں تمہارا حاکم بنایا گیا بہترین نہ ہونے کے باوجود؛ اچھائی میں تعاون اور خطا پر اصلاح۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/abu-bakr]
+composed: { hijri: "0011", edtf: "0632", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: mentions, target: place/medina }
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v1, via al-Tabari", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-1 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

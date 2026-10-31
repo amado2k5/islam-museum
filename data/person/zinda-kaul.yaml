@@ -1,0 +1,55 @@
+id: person/zinda-kaul
+class: person
+label:
+  ar: "زيندا كاول"
+  en: "Zinda Kaul"
+  ur: "زندہ کول"
+names:
+  - { value: "Zinda Kaul", kind: full }
+  - { value: "Pandit Zinda Koul", kind: alternate }
+  - { value: "Masterji", kind: laqab }
+gender: male
+born:
+  edtf: "1884-08"
+  hijri: "1301"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born in August 1884 at Habbakadal, Srinagar: the English and Urdu articles and Wikidata agree on the month and year. The Hijri year is derived tabularly from that date."
+  sources: [source/wikipedia-zinda-kaul-en, source/wikipedia-zinda-kaul-ur, source/wikidata-zinda-kaul]
+died:
+  edtf: "1965"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died at Jammu in the winter of 1965: both articles give only the year and season. No Hijri year is carried: a bare Gregorian year spans two Hijri years (1965 falls across 1384–1385 AH)."
+  sources: [source/wikipedia-zinda-kaul-en, source/wikipedia-zinda-kaul-ur, source/wikidata-zinda-kaul]
+roles: [poet, writer, teacher]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: hindu
+    basis: documented
+    note: "Settled on independent prose attestations of the man himself: the English biography states he was born into a Kashmiri Pandit family, Braj B. Kachru's profile styles him 'Pandit Zinda Koul' throughout, and a literary-history essay styles him 'Pandit Zinda Koul (1884-1965)' in its own voice. His Kashmiri poetry is devotional in the bhakti tradition, his verse was shaped by the Hindu mystic lore of Kashmir Shaivism, Vedanta and the Upanishads, and his first poem was recited at a Sanatan Dharm Sabha meeting. Category filings and the 'Pandit' and 'Masterji' name elements were not counted."
+    sources: [source/wikipedia-zinda-kaul-en, source/koshur-zinda-koul, source/saarang-zinda-koul]
+relations: []
+summary:
+  ar: "شاعر وكاتب ومعلم كشميري كتب بالفارسية والهندية والأردية والكشميرية، عُرف عند تلاميذه بلقب «ماسترجي»، وكان أول شاعر كشميري يفوز بجائزة أكاديمية ساهتيا (1956) عن ديوانه «سمران» ذي الطابع التعبدي."
+  en: "Kashmiri poet, writer and teacher who composed in Persian, Hindi, Urdu and Kashmiri, was known to his students as Masterji, and in 1956 became the first Kashmiri poet to win the Sahitya Akademi Award, for his devotional collection Sumran."
+  ur: "کشمیری شاعر، مصنف و استاد جنھوں نے فارسی، ہندی، اردو اور کشمیری میں لکھا، اپنے شاگردوں میں «ماسٹر جی» کہلائے، اور 1956ء میں اپنے عقیدتی مجموعے «سمرن» پر ساہتیہ اکادمی ایوارڈ پانے والے پہلے کشمیری شاعر بنے۔"
+sources:
+  - source/wikipedia-zinda-kaul-en
+  - source/wikipedia-zinda-kaul-ur
+  - source/wikidata-zinda-kaul
+  - source/koshur-zinda-koul
+  - source/saarang-zinda-koul
+external_ids:
+  wikidata: Q8072324
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Zinda Kaul (Q8072324), Braj B. Kachru's profile and a literary-history essay, read in full; every Wikipedia revision id fetched live from the MediaWiki API in this session and asserted before use, the QID grounded through the English article's page properties. Identity: the queue line's bearer is the Sahitya Akademi Award-winning poet called Masterji; the Urdu article is a translation of the English and counts as the same family. QUEUE CORRECTION: both his years are wrong in the queue — he was born in August 1884 and died in 1965, not 1880–1950; the articles, the item and the independent profiles agree. Existence checks by name fragments (zinda, kaul, koul) and by QID across data/person on origin/main found no prior record. Relations written: none. No born_in or died_in edge is written: Srinagar and Jammu have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-122
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
