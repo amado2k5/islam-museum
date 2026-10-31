@@ -1,0 +1,44 @@
+id: person/hussein-onn
+class: person
+label: { ar: "حسين أون", en: "Hussein Onn", ur: "حسین اون" }
+names:
+  - { value: "Hussein bin Onn", kind: full }
+gender: male
+summary:
+  ar: "سياسي ماليزي، وُلد في جوهور بهرو سنة 1922 ابنًا لعون جعفر مؤسس أمنو. بعد خدمة عسكرية في الجيش الهندي البريطاني ومسيرة قانونية في لندن وكوالالمبور، صعد في أمنو فصار نائب رئيس الوزراء سنة 1973 ثم ثالث رئيس وزراء سنة 1976، وواصل السياسة الاقتصادية الجديدة حتى أجبره اعتلال صحته على التقاعد سنة 1981؛ وتوفي في سان ماتيو بكاليفورنيا سنة 1990."
+  en: "Malaysian statesman, born at Johor Bahru in 1922, the son of UMNO's founder Onn Jaafar. After a military commission in the British Indian Army and a legal career in London and Kuala Lumpur, he rose through UMNO to become deputy prime minister in 1973 and third prime minister in 1976, continuing the New Economic Policy until ill health forced his retirement in 1981; he died at San Mateo, California, in 1990."
+  ur: "ملائیشیائی سیاست دان، جو 1922ء میں جوہر بہرو میں امنو کے بانی عون جعفر کے بیٹے پیدا ہوئے۔ برطانوی ہندی فوج میں عسکری خدمات اور لندن و کوالالمپور میں قانونی پیشے کے بعد وہ امنو میں ترقی پا کر 1973ء میں نائب وزیرِ اعظم اور 1976ء میں تیسرے وزیرِ اعظم بنے اور نئی اقتصادی پالیسی جاری رکھی، حتیٰ کہ خرابیِ صحت نے 1981ء میں انھیں سبکدوشی پر مجبور کر دیا؛ 1990ء میں سان ماتیو، کیلیفورنیا میں وفات پائی۔"
+roles: [politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1922-02-12"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 12 February 1922 at Johor Bahru, the son of Onn Jaafar, founder of UMNO, as the English and Indonesian articles and Wikidata give; the Arabic stub agrees on the date. The Hijri year (1340) is by tabular conversion. Johor Bahru has no place entity, so no born_in relation is written; the filiation is written once, as a parent_of edge in his father's record (person/onn-jaafar), completed in this wave."
+  sources: [source/wikipedia-hussein-onn-en, source/wikipedia-hussein-onn-ar, source/wikipedia-hussein-onn-id, source/wikidata-hussein-onn]
+died:
+  edtf: "1990-05-29"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 29 May 1990 of heart disease at the Seton Medical Center in San Mateo, California, and was buried at the Heroes' Mausoleum (Makam Pahlawan) in Kuala Lumpur, as the English article and Wikidata give. The Hijri year (1410) is by tabular conversion. San Mateo has no place entity, so no died_in relation is written."
+  sources: [source/wikipedia-hussein-onn-en, source/wikipedia-hussein-onn-id, source/wikidata-hussein-onn]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Hussein Onn. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. His father's founding of UMNO and his own party career are political affiliation, which never counts. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-hussein-onn-en, source/wikipedia-hussein-onn-id, source/wikidata-hussein-onn]
+external_ids: { wikidata: "Q529391" }
+sources: [source/wikipedia-hussein-onn-en, source/wikipedia-hussein-onn-ar, source/wikipedia-hussein-onn-id, source/wikidata-hussein-onn]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hussein Onn' (revision 1381419860 of 22 October 2026), Arabic Wikipedia «حسين أون» (revision 68311638 of 27 October 2024), Indonesian Wikipedia 'Hussein Onn' (revision 29398694 of 29 June 2026) and Wikidata item Q529391 (item revision 2562801144 of 31 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic and Indonesian articles' page properties, with the item's description ('prime Minister of Malaysia from 1976 to 1981') matching the queue entry. Existence checked both directions before building: name fragments (Hussein Onn, حسين أون) and Q529391 grepped across all data/person files on origin/main — no hits; the Hussein-named files found are other men. No Urdu Wikipedia article exists for him (the item's sitelinks are the English, Arabic, Indonesian and Malay articles), so the Indonesian article is registered in its place, following the wahid-hasyim precedent, and the Urdu label and prose are supplied regardless. 'Tun' is an honorific title conferred on him, not a name: it appears in prose only, and no names entry is built from it, per the brief. His father Onn Jaafar has a person record (person/onn-jaafar), and the parent_of edge to this man is written there — the pair's single writing, in the parent — in this wave; no relation is written in this record. His succession of Abdul Razak Hussein is an office succession, carried in prose. No place edges are written: Johor Bahru and San Mateo have no place entities here (verified against origin/main in this session)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-122
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
