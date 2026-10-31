@@ -18,3 +18,6 @@ The source gives another account that he made peace for seven hundred thousand d
 Al-Baladhuri quotes Abu Ubayda that Qutayba conquered Samarqand by force, and that Sa'id ibn Uthman had made peace with its people before him. {cite:futuh-buldan-maarif-1407}
 
 Al-Salabi says that Tarkhun, lord of Samarqand, broke the peace in 90 AH, and Qutayba besieged it. Its people called on the kings of al-Shash and Farghana for help, and he defeated them. Then the people of the city made peace with him on payment of the poll tax and on the condition that the city be free of fighting men. {cite:salabi-umayyad-state-2020 p.92-93}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that Qutayba crossed the river on al-Hajjaj's orders, took Bukhara, then besieged Samarqand for months. {cite:akhbar-tiwal-amir p. 327} “They claim” he left chests with its dihqan, saying they held surplus goods, but armed men inside opened the gate at night. {cite:akhbar-tiwal-amir p. 327} {cite:akhbar-tiwal-amir p. 328} He then took al-Saghaniyan, Kish, Nasaf, Transoxiana and Tukharistan. {cite:akhbar-tiwal-amir p. 328}

@@ -15,3 +15,6 @@ al-Mas'udi relates that Marwan camped at the Lesser Zab and set up a bridge over
 
 ## In Khalifa ibn Khayyat
 [[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] reports that Marwan camped at the two Zabs below Mosul and that the armies met on the morning of Saturday the eleventh of Jumada al-Akhira, 132, when Marwan was routed. {cite:tarikh-khalifa-umari-1985 p. 403} He gives Marwan's army as 150,000 in Abu al-Dhayyal's report and 100,000 in another. {cite:tarikh-khalifa-umari-1985 p. 403}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] says Marwan camped at the two Zabs with thirty thousand and that Abu Muslim sent Abu Awn against him with thirty thousand horse, but he places the meeting of Abu Awn and Marwan at Shahrazur, from where the Syrians fled to Harran, and he does not name the battle after the Zab. {cite:akhbar-tiwal-amir p. 364} {cite:akhbar-tiwal-amir p. 365}

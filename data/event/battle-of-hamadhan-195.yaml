@@ -1,0 +1,66 @@
+id: event/battle-of-hamadhan-195
+class: event
+kind: battle
+label:
+  ar: وقعتا همذان وأسداباذ (195)
+  en: Battles of Hamadhan and Asadabad (195 AH)
+  ur: ہمذان اور اسداباذ کی لڑائیاں (195ھ)
+summary:
+  ar: بعد مقتل علي بن عيسى بالري وجّه الأمين عبد الرحمن الأبناوي في ثلاثين ألفاً من الأبناء، فهزمه طاهر بن الحسين، فتحصّن بهمذان شهراً ثم أخذ الأمان، ثم بيّت أصحاب طاهر بأسداباذ فقُتل، فيما يروي الدينوري {cite:akhbar-tiwal-amir p. 398} {cite:akhbar-tiwal-amir p. 399}.
+  en: After Ali ibn Isa was killed at Rayy, al-Amin sent Abd al-Rahman al-Abnawi with thirty thousand of the Abna'; Tahir ibn al-Husayn defeated him, he held out in Hamadhan for a month and took safe-conduct, then attacked Tahir's men at dawn at Asadabad and was killed, as al-Dinawari reports {cite:akhbar-tiwal-amir p. 398} {cite:akhbar-tiwal-amir p. 399}.
+  ur: رے میں علی بن عیسیٰ کے قتل کے بعد امین نے عبد الرحمن ابناوی کو ابناء کے تیس ہزار آدمیوں کے ساتھ بھیجا؛ طاہر بن حسین نے اسے شکست دی، وہ ایک مہینہ ہمذان میں قلعہ بند رہا اور امان لی، پھر اسداباذ میں طاہر کے ساتھیوں پر صبح سویرے حملہ کیا اور مارا گیا، جیسا کہ دینوری روایت کرتے ہیں {cite:akhbar-tiwal-amir p. 398} {cite:akhbar-tiwal-amir p. 399}۔
+wings:
+- time
+periods:
+- period/abbasid-early
+regions:
+- persia-central-asia
+relations:
+- type: occurred_at
+  target: place/hamadhan
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: person/tahir-ibn-al-husayn
+  role: قائد المأمون
+  sources:
+  - source/akhbar-tiwal-amir
+date:
+  start:
+    hijri: '0195'
+    edtf: '0810/0811'
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 195 من سياق الحرب بين الأمين والمأمون (ص 394–399)؛ التحويل مشتق.
+    sources:
+    - source/akhbar-tiwal-amir
+sides:
+- label:
+    ar: جيش المأمون
+    en: Al-Ma'mun's army
+    ur: مامون کا لشکر
+  commanders:
+  - person/tahir-ibn-al-husayn
+- label:
+    ar: الأبناء جيش الأمين
+    en: Al-Amin's Abna'
+    ur: امین کے ابناء
+  strength:
+    value: 30000
+    sources:
+    - source/akhbar-tiwal-amir
+sources: &id001
+- source/akhbar-tiwal-amir
+provenance:
+  layer: own-research
+  source: الأخبار الطوال للدينوري (تحقيق عامر) ص 394–399
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-akhbar-tiwal-batch-5-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

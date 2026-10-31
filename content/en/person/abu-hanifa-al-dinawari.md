@@ -12,3 +12,6 @@ Al-Mas'udi says that in his book he set down the science of the heavens, the mea
 
 ## Notes for researchers
 - The source is single; a second source is needed, and no dates are available.
+
+## In the editor of al-Akhbar al-Tiwal
+Abd al-Mun'im Amir writes that Abu Hanifa Ahmad ibn Dawud ibn Wanand al-Dinawari was born in the first decade of the third Islamic century at Dinawar, grew up in a family of Persian origin, and spent his youth travelling to Iraq, Palestine and the Gulf coast. {cite:akhbar-tiwal-amir intro scan p. 5} He studied with the Basrans and Kufans, learned language from the father of [[person/ibn-al-sikkit|Ibn al-Sikkit]] and from Ibn al-Sikkit himself, and moved to Isfahan in 235 AH, where he observed the stars. {cite:akhbar-tiwal-amir intro scan p. 5} The editor cites Abu Hayyan al-Tawhidi's high praise of his eloquence and his place among rare men. {cite:akhbar-tiwal-amir intro scan p. 6} His books include the Book of Plants, for which he is best known, the Book of Anwa', the Book of Bequests and [[work/al-akhbar-al-tiwal|al-Akhbar al-Tiwal]]. {cite:akhbar-tiwal-amir intro scan p. 9} {cite:akhbar-tiwal-amir intro scan p. 10} He died on 26 Jumada al-Ula 282 AH. {cite:akhbar-tiwal-amir intro scan p. 19}
