@@ -16,3 +16,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## مامون کا موقف
 مسعودی نقل کرتے ہیں کہ جب مامون کو یہ خبر پہنچی تو وہ روئے، اور کہا کہ نہ اس نے قتل کا حکم دیا، نہ اسے پسند کیا۔ {cite:muruj-al-dhahab p.398}
+
+## دینوری کے ہاں
+[[person/abu-hanifa-al-dinawari|دینوری]] روایت کرتے ہیں کہ ہرثمہ نے امین کو رات کے وقت لینے پر اتفاق کیا، طاہر نے پانی پر اسے روک لیا، اور وہ اتوار 5 محرم 198 کی رات قتل ہوا۔ {cite:akhbar-tiwal-amir p. 399} {cite:akhbar-tiwal-amir p. 400}

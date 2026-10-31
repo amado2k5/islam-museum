@@ -14,6 +14,6 @@ relations:
   - { type: occurred_at, target: place/kufa, sources: [source/bakr-umayyad-state-1134715] }
   - { type: had_participant, target: person/al-mukhtar-ibn-abi-ubayd, role: "قائد الثورة", sources: [source/bakr-umayyad-state-1134715] }
   - { type: had_participant, target: person/ibrahim-ibn-al-ashtar, role: "قائد خيل المختار", sources: [source/bakr-umayyad-state-1134715] }
-sources: [source/bakr-umayyad-state-1134715]
-provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 pp. 194, 206, 209, 220", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220" }
+sources: [source/bakr-umayyad-state-1134715, source/akhbar-tiwal-amir]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 pp. 194, 206, 209, 220", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220", run: "lib-akhbar-tiwal-batch-5-2026-10-31 (enrichment)" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220" }

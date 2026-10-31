@@ -14,9 +14,11 @@ relations:
 date:
   start: { edtf: "0712~", hijri: "0093", calendar: julian, precision: year, status: tradition, derived: true, note: "فتحها نحو سنة 93هـ بعد نقض طرخون الصلح سنة 90هـ {cite:salabi-umayyad-state-2020 p.92-93}." }
 wings: [time]
-sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
+sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/akhbar-tiwal-amir]
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "Sources cited in the record (futuh-buldan-maarif-1407, salabi-umayyad-state-2020, akhbar-tiwal-amir)"
+  run: lib-akhbar-tiwal-batch-5-2026-10-31
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
