@@ -4,7 +4,7 @@ Lane document: `docs/agents/lanes/khutab-durus.md`. Proposal: `docs/plan/25-khut
 
 ## Next step
 
-Phase 1 discovery continues (catalogue at `$HARVEST/khutab/catalogue.json`); then the first pilot batch of 15–25 items across eras, countries, formats and kinds. The founder is asked before any bulk download or transcription run, and shown the claims table of each source's first batch.
+The founder approved bulk download (31 Oct 2026): Jamharat Khutab al-'Arab 3 vols (EPUB text layer, sha256 in `SHA256SUMS`, `meta.json`) is in `$HARVEST/books/khutab/jamharat-khutab-al-arab/` — text layer usable (~62k Arabic words vol 1, OCR noise noted). Next: pilot batch of sermon `work` entities from Jamharat + sira/hadith records (claims table shown to the founder first), then website `work kind: website` entities for the verified archives, then a first small audio pilot on islamway.
 
 ## Log
 
@@ -12,8 +12,21 @@ Phase 1 discovery continues (catalogue at `$HARVEST/khutab/catalogue.json`); the
 
 ## Robots and terms (recorded per source before any bulk access)
 
-_ none yet — read and record each site here before use _
+- `ar.islamway.net/robots.txt` (read 31 Oct 2026): open to crawlers except `/phpAdsNew/`, `/openx/`, `*/poster$`, `*/qr-code$` (Googlebot-Image) and `/bundles/viewers/pdfjs*`. Terms page still to be read before bulk download.
+- `manaratalharamain.gov.sa/robots.txt` (31 Oct 2026): not retrievable via fetch; verify in the browser before use.
+
+## §1a canon-gate checks (processed check, 31 Oct 2026; Sunni verification table shown to the founder before any books.yaml edit)
+
+| Book | Processed check | Sunni check (Wikipedia/Wikidata) | Action |
+|---|---|---|---|
+| Jamharat Khutab al-'Arab (Ahmad Zaki Safwat, d. 1986) | not in data/work or books.yaml (`jamharat-ansab` is a different book) | Safwat: Sunni Egyptian scholar (verify on record) | candidate `cat: khutab`; EPUB text layer already in `$HARVEST` |
+| Diwan Khutab Ibn Nubata (d. 374 AH) | not found | Sunni (verify infobox) | candidate |
+| al-Yaqut fi al-Khutab, al-Tabsira, Bustan al-Wa'izin (Ibn al-Jawzi) | `work/al-tabsira-fi-al-waz`, `work/bustan-al-waizin` exist (al-Yaqut not found) | Ibn al-Jawzi Sunni Hanbali (known) | reuse existing entities; al-Yaqut candidate |
+| Lata'if al-Ma'arif (Ibn Rajab) | `work/lataif-al-maarif` exists | Sunni Hanbali | existing entity |
+| Amali al-Shajari | not found | Sunni (verify) | candidate |
+| Amali al-Qali | `work/amali-al-qali` exists | Sunni | existing entity |
+| Modern collections (Ibn Uthaymin, al-Ghazali, al-Tantawi, Kishk, ministry volumes) | not found | Sunni | candidates, verify editions |
 
 ## Excluded items (reason, gate, override)
 
-_ none yet _
+_ none yet — per the founder's rule nothing is excluded without his verification _
