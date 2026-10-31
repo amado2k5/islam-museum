@@ -1,17 +1,22 @@
 id: work/al-nasikh-wa-al-mansukh
 class: work
 kind: book
-label: { ar: "الناسخ والمنسوخ", en: "Al-Nasikh wa-al-Mansukh" }
+label: { ar: "الاعتبار في بيان الناسخ والمنسوخ من الآثار", en: "Kitab al-I'tibar fi bayan al-nasikh wal-mansukh min al-athar" }
 summary:
-  ar: "بطاقة أولية لـالناسخ والمنسوخ؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Nasikh wa-al-Mansukh; its sources are not yet checked on the page."
+  ar: "«كتاب الاعتبار في بيان الناسخ والمنسوخ من الآثار» لأبي بكر محمد بن موسى الحازمي الهمذاني (ت 584هـ): كتاب في معرفة ما نسخ من الأحاديث والآثار وما بقي محكماً، يبدأ مقدمته بتعظيم هذا العلم وبيان صعوبته، ويستشهد بأقوال الصحابة والتابعين وفقهاء الأمصار في أهميته. {cite:itibar-hazimi-1359 p. 5}"
+  en: "Abu Bakr Muhammad ibn Musa al-Hazimi al-Hamadhani's (d. 584 AH) book on which hadith and reports were abrogated and which remain in force. Its opening presents the subject as difficult and important and gathers statements from Companions, Successors and jurists about it. {cite:itibar-hazimi-1359 p. 5}"
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/itibar-hazimi-1359] }
+authors: [person/al-hazimi-muhammad]
+language: language/arabic
 wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q113628918" }
+themes: [scripture-and-its-sciences]
+regions: [persia-central-asia]
+sources: [source/itibar-hazimi-1359, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Hyderabad 1359 AH printing (vol. 1), title page and scan pp. 5–8 read from the OCR. The earlier Wikidata candidate for the generic title is not used as identity: it has not been checked against the scan."
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "harvest-group-a-itibar-hazimi"
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }
