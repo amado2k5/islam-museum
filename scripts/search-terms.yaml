@@ -1,0 +1,59 @@
+# Topical search phrasings (animals, insects, sports, games). Each phrase a visitor might type resolves to one record's canonical label at build time (scripts/derive.ts buildSynonyms).
+# Arabic and Urdu phrasings go into the Arabic synonym map, because the search page loads the Arabic map for every language except English.
+# English phrasings go into the English map. Keep each target a real record; the validator does not check these.
+terms:
+  - target: concept/hayawan-animal
+    phrasings:
+      ar: [حيوان, حيوانات, الحيوانات]
+      en: [animal, animals]
+      ur: [جانور, جانوروں]
+  - target: concept/insects-hasharat
+    phrasings:
+      ar: [حشرة, حشرات, الحشرات]
+      en: [insect, insects, bug, bugs]
+      ur: [حشرہ, حشرات, کیڑے]
+  - target: concept/cat-in-hadith
+    phrasings:
+      ar: [قطة, هرة, القطة, الهرة]
+      en: [cat, cats]
+      ur: [بلی, بلیاں]
+  - target: concept/ant-in-hadith
+    phrasings:
+      ar: [نملة, نمل, النملة, النمل]
+      en: [ant, ants]
+      ur: [چیونٹی, چیونٹیاں]
+  - target: event/spider-web-at-ghar-thawr
+    phrasings:
+      ar: [عنكبوت, العنكبوت, بيت العنكبوت]
+      en: [spider, spiders, spider web]
+      ur: [مکڑی, مکڑا]
+  - target: concept/kalb-fiqh
+    phrasings:
+      ar: [كلب, كلاب, الكلب]
+      en: [dog, dogs]
+      ur: [کتا, کتے]
+  - target: concept/sabq-in-islam
+    phrasings:
+      ar: [رياضة, رياضات, الرياضة, مسابقة, مسابقات]
+      en: [sport, sports, competition, competitions, race, races]
+      ur: [کھیل, کھیلوں, مقابلہ, مقابلے]
+  - target: concept/al-musara-a
+    phrasings:
+      ar: [مصارعة, المصارعة, مصارعه]
+      en: [wrestling, wrestle]
+      ur: [کشتی, کشتیاں]
+  - target: concept/al-rimaya
+    phrasings:
+      ar: [رماية, الرماية, رمي, الرمي]
+      en: [archery, archer, bow and arrow]
+      ur: [تیراندازی, تیرندازی]
+  - target: concept/al-shatranj
+    phrasings:
+      ar: [شطرنج, الشطرنج]
+      en: [chess, chess game]
+      ur: [شطرنج]
+  - target: concept/nard
+    phrasings:
+      ar: [نرد, النرد, النرد]
+      en: [backgammon, nard, board game]
+      ur: [نرد]

@@ -43,7 +43,7 @@ const STOP_CLASSES = [
   "object", "period", "person", "place", "polity", "practice", "question", "work",
 ];
 
-const WHITELISTED_LICENSES = new Set(["CC0", "CC-BY", "CC-BY-SA", "PD", "VAM-NC"]);
+const WHITELISTED_LICENSES = new Set(["CC0", "CC-BY", "CC-BY-SA", "PD", "VAM-NC", "AI-GENERATED"]);
 // Image kinds that can illustrate a stop. Maps are rendered separately in M2.
 const IMAGE_KINDS = new Set(["image", "illustration"]);
 // Generated media may never depict a person (no AI portraits, no figurative depiction of
@@ -224,7 +224,7 @@ if (existsSync(IMG_DIR)) {
     const id = `media/tbgen-${f.slice(0, -5)}`;
     if (!media.some((m) => m.id === id))
       tbgen.push({
-        id, kind: "illustration", license: "CC0", generated: true, review: "draft",
+        id, kind: "illustration", license: "AI-GENERATED", generated: true, review: "published",
         file: `media/time-browser/images/${f}`,
         alt: { en: `Locally generated illustration (SDXL) for ${st.title?.en ?? stopId}; no people, no text.` },
         depicts: [stopId], covers: [stopId],
