@@ -15,3 +15,6 @@ al-Suyuti says that Talha and al-Zubayr went out to Mecca, and took Aisha to Bas
 
 ## The numbers according to al-Mas'udi
 al-Mas'udi says that the dead of the Camel were thirteen thousand, and five thousand of Ali's companions were killed. He notes that people disputed the number, some saying seven thousand and some ten thousand, according to the leaning of each side. {cite:muruj-al-dhahab p.645}
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] places the battle at al-Zawiya near the edge of Basra on Friday the tenth of Jumada al-Akhira, 36. {cite:tarikh-khalifa-umari-1985 p. 181} With Ali were eight hundred of the Ansar and four hundred who had given the Pledge of Ridwan. {cite:tarikh-khalifa-umari-1985 p. 184} The dead are given as twenty thousand by Qatada and seven thousand by Ali ibn Zayd. {cite:tarikh-khalifa-umari-1985 p. 186} He then lists the names preserved of those killed. {cite:tarikh-khalifa-umari-1985 p. 187}

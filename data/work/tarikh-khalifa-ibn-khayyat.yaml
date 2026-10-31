@@ -1,0 +1,41 @@
+id: work/tarikh-khalifa-ibn-khayyat
+class: work
+kind: book
+label:
+  ar: تاريخ خليفة بن خياط
+  en: Tarikh Khalifa ibn Khayyat (The History of Khalifa ibn Khayyat)
+  ur: تاریخ خلیفہ بن خیاط
+summary:
+  ar: كتاب حوليات لخليفة بن خياط العصفري البصري (ت 240هـ)، يعده محققه أقدم تاريخ حولي وصل إلينا، يتتبع الحوادث سنة سنة من الهجرة إلى سنة 232هـ، ويختم كل عهد بجداول بأسماء الولاة والقضاة وأصحاب الشرط والكتّاب، ويذكر أسماء الشهداء في الغزوات والفتن، وينفرد بأخبار عن وقعتي الحرة والزاوية {cite:tarikh-khalifa-umari-1985 intro p. 3}.
+  en: A book of annals by Khalifa ibn Khayyat al-Usfuri of Basra (d. 240 AH), which its editor calls the oldest surviving annalistic history. It follows events year by year from the Hijra to 232 AH, closes each reign with tables naming the governors, judges, police chiefs and secretaries, lists the martyrs of the campaigns and civil wars, and has unique reports on the battles of al-Harra and al-Zawiya {cite:tarikh-khalifa-umari-1985 intro p. 3}.
+  ur: خلیفہ بن خیاط عصفری بصری (وفات 240ھ) کی سالانہ وقائع کی کتاب، جسے اس کے محقق قدیم ترین محفوظ تاریخِ سنین کہتے ہیں۔ یہ ہجرت سے 232ھ تک سال بہ سال واقعات بیان کرتی ہے، ہر دور کے آخر میں والیوں، قاضیوں، پولیس سربراہوں اور کاتبوں کے ناموں کی فہرستیں دیتی ہے، غزوات اور فتنوں کے شہداء کے نام لکھتی ہے، اور حرہ اور زاویہ کی لڑائیوں کے بارے میں منفرد روایات رکھتی ہے {cite:tarikh-khalifa-umari-1985 intro p. 3}۔
+genre:
+- history
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/tarikh-khalifa-umari-1985
+authors:
+- person/khalifa-ibn-khayyat
+language: language/arabic
+structure: مقدمة المحقق (ص 3–46) → السيرة والمغازي سنة سنة (ص 47–97) → خلافة أبي بكر وعمر وعثمان وعلي مع جداول العمال (ص 97–202) → الأمويون (ص 203–395) → العباسيون حتى سنة 232هـ (ص 396–482)
+editions:
+- source/tarikh-khalifa-umari-1985
+wings: []
+themes: []
+regions:
+- global
+sources: &id001
+- source/tarikh-khalifa-umari-1985
+provenance:
+  layer: own-research
+  source: Tarikh Khalifa (al-Umari ed. 1985), editor's introduction p. 3 and the year headings
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-tarikh-khalifa-batch-1-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

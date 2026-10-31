@@ -12,3 +12,6 @@ He died in Shawwal 86 AH and left seventeen sons. That year was the plague of th
 
 ## al-Sallabi's account
 al-Sallabi says that he died in Damascus, and his son al-Walid led the funeral prayer over him. His age on the day of his death was sixty years by the most famous account. He used to say that he feared to die in Ramadan, and he died in Shawwal. {cite:salabi-umayyad-state-2020 p.128}
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] reports that Abd al-Malik died at Damascus in mid-Shawwal 86, aged sixty-three, al-Walid leading the prayer over him; he was born at Medina in 23, or, some say, 26. {cite:tarikh-khalifa-umari-1985 p. 292}

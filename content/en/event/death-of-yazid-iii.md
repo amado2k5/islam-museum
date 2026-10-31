@@ -15,3 +15,6 @@ He was called al-Naqis (the Deficient) because he reduced the troops' stipends. 
 
 ## Dating
 The Gregorian date (around October 744 CE) is derived from the Hijri date. {cite:tarikh-khulafa-minhaj-1434 p.409}
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says Yazid ibn al-Walid died at Damascus ten nights before the end of Dhu al-Hijja, 126. {cite:tarikh-khalifa-umari-1985 p. 369}
