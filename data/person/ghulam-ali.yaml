@@ -1,0 +1,46 @@
+id: person/ghulam-ali
+class: person
+label:
+  ar: "غلام علي"
+  en: "Ghulam Ali"
+  ur: "غلام علی"
+names:
+  - { value: "Ghulam Ali Khan", kind: full }
+  - { value: "Ghulam Ali", kind: full }
+  - { value: "غلام علي", kind: full }
+  - { value: "غلام علی", kind: full }
+gender: male
+born:
+  edtf: "1940-12-05"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 5 December 1940 at Galotian Khurd, near Daska in the Sialkot district of Punjab, British India: the English article's lead and infobox give the day and village, and Wikidata gives the day and Sialkot District. The English article's own early-life text says he was born in 1941 and the article files him in its '1941 births' category; that variant is preserved here, and the record follows 1940, with the queue. No place entity exists for his birthplace, so no born_in edge is written. Ustad is a title of honour, not a name, and is kept out of the name entries. The Hijri year 1359 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-ghulam-ali-en, source/wikipedia-ghulam-ali-ur, source/wikidata-ghulam-ali]
+roles: [musician]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Settled unknown and FLAGGED for a founder ruling. No biographical text consulted names a school for the man himself — the English and Urdu articles give his family, his discipleship and his career. The Sunni reading rests on structured data and filings of one family: Wikidata carries two religion values, Islam and Sunni Islam; the English article files him in its 'Pakistani Sunni Muslims' category; and the Urdu article's infobox gives his religion as Sunni Islam and files him in its 'Pakistani Sunni' category. Those are a single structured-and-filing family; no second independent source naming a school for him was verified at full text in this session. If the founder counts the Urdu infobox value as a second, independent family alongside Wikidata's, the settlement becomes sunni on the documented basis, and the path is stated here so the ruling can be made on the record as it stands. His Patiala gharana discipleship, his Sufi-music repertoire, his name and his father's admiration for his teacher are background and repertoire, never attestation."
+    sources: [source/wikipedia-ghulam-ali-en, source/wikipedia-ghulam-ali-ur, source/wikidata-ghulam-ali]
+relations: []
+summary:
+  ar: "مغنّي غزل باكستاني (وُلد سنة 1940) من غرانة بتيالا، وُلد في غالوتيان خورد بمقاطعة سيالكوت، وتتلمذ على بادي غلام علي خان وإخوته؛ اشتهر في جنوب آسيا بأغنية «تشبكي تشبكي رات دن» في فيلم «نكاح» (1982)، ونال فخر الأداء وستارة الامتياز."
+  en: "Pakistani ghazal singer (born 1940) of the Patiala gharana, born at Galotian Khurd in the Sialkot district, a disciple of Bade Ghulam Ali Khan and his brothers; his 'Chupke Chupke Raat Din' in the film Nikah (1982) carried his fame across South Asia, and he received the Pride of Performance and the Sitara-i-Imtiaz."
+  ur: "پاکستانی غزل گلوکار (پیدائش 1940ء) جن کا تعلق پٹیالہ گھرانے سے ہے؛ سیالکوٹ ضلع کے گلوٹیاں خورد میں پیدا ہوئے، بڑے غلام علی خان اور ان کے بھائیوں کے شاگرد؛ فلم «نکاح» (1982ء) میں «چپکے چپکے رات دن» سے جنوبی ایشیا بھر میں شہرت پائی اور پرائیڈ آف پرفارمنس و ستارہِ امتیاز سے نوازے گئے۔"
+sources:
+  - source/wikipedia-ghulam-ali-en
+  - source/wikipedia-ghulam-ali-ur
+  - source/wikidata-ghulam-ali
+external_ids:
+  wikidata: Q3595190
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Ghulam Ali and the Wikidata item Q3595190, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity, pinned three ways against the elder namesake: (i) the QID comes from the article 'Ghulam Ali (singer)', which carries a distinguish hatnote against Bade Ghulam Ali Khan and the short description 'Pakistani singer (born 1940)'; (ii) the biography matches at every point — born 5 December 1940 in the Sialkot district, Patiala gharana, Radio Pakistan from 1960, the Nikah (1982) breakthrough; (iii) decisively, he is the elder singer's DISCIPLE — the English lead calls him 'a disciple of Bade Ghulam Ali Khan', trained also by the elder's younger brothers Barkat Ali Khan and Mubarak Ali Khan, and the Urdu article tells how his father, a great admirer of Bade Ghulam Ali Khan, took the boy to him — so the two men are teacher and pupil, not one man. Bade Ghulam Ali Khan (1902–1968) holds his own record, person/bade-ghulam-ali-khan. HOMONYM RISK, reported for data/_homonyms.yaml: the labels do NOT collide in any language (his غلام علي / Ghulam Ali / غلام علی against the elder's بادي غلام علي خان / Bade Ghulam Ali Khan / بڑے غلام علی خان), so no namesakes entry is required on labels; but the two men share the name string 'Ghulam Ali Khan' — the younger man's infobox name, and a full name recorded in the elder's record — and searchers routinely confuse them, so if the validator ever keys on name values as well as labels, this pair is the first candidate for a namesakes line. No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and this is stated here. Relations written: none — his birthplace has no place entity, and although a Lahore residence is widely reported, the retrieved article texts do not state it (the Urdu article attests his career beginning at Radio Pakistan, Lahore, in 1960, a career fact), so no lived_in edge is written on an unverified residence. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-131
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

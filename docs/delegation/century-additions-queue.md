@@ -710,12 +710,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Zaira Wasim — 2000–Living
 - [x] Bismillah Khan — 1916–2006
 - [x] Amjad Ali Khan — 1945–Living
-- [ ] Zakir Hussain — 1951–Living
-- [ ] Vilayat Khan — 1928–2004
+- [x] Zakir Hussain — 1951–Living
+- [x] Vilayat Khan — 1928–2004
 - [x] Bade Ustad Ghulam Ali Khan — 1902–1968
-- [ ] Begum Akhtar — 1914–1974
-- [ ] Mehdi Hassan — 1927–2012
-- [ ] Ghulam Ali — 1940–Living
+- [x] Begum Akhtar — 1914–1974
+- [x] Mehdi Hassan — 1927–2012
+- [x] Ghulam Ali — 1940–Living
 - [ ] Reshma — 1947–2013
 - [ ] Alam Lohar — 1926–1979
 - [ ] Arif Lohar — 1966–Living
