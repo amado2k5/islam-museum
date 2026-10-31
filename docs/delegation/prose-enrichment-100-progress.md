@@ -84,9 +84,12 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 4: place, futuh-buldan-maarif-1407 (sariya; p.469 checked against OCR) | 1 | 0 | — |
 - place/shuman: the summary says Fadl ibn al-Muhallab conquered it in Khurasan (Baladhuri). The OCR shows only a mention, at p.590, in the Transoxiana account, where the ruler of Shuman harassed the king of Saghaniyan. The conquest claim is not supported there. Left unchanged; needs checking against the printed book.
+- place/tulmaytha summary said ten miles from Qamanas. Idrisi p. 315 gives ten miles from the castle of al-Unayn; Qamanas is ten miles from the start of that stretch. Corrected in batch 7.
+- place/rudhistu summary said it lies on the road between Salūnī and a capital to the east. Idrisi p. 894 gives sixty miles from Salūnī and twelve miles from Constantinople. Corrected in batch 8.
 | 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 6: place, nuzhat-al-mushtaq-2002 (naros, namjan, qazdar; pp. 175, 917, 923 checked against OCR) | 3 | 0 | — |
 | 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 6: place, 25 slugs (zala, ronda, waddan, ukaz, shirwan, sabra, qumm, oman, sind, rayy, qabala, tawwaj, rawar, silves, wazan, tawda, surraq, yafa, tarfa, qumar, shikla, qalunia, naros, ujj, sirt) | 8 (oman, tawda, qumar, shikla, sirt, ujj, sabra ar only, qumm); rayy already above 100 words in ar/en/ur, unchanged | 16 (reasons under Leads, batch 6) | this PR |
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 7: 25 place slugs (sabur, sijistan, shiraz, siqilliya, nishapur, qulzum, tanes, rumah, raqqa, qulari, tunis, tibat, zanjan, tabaristan, sirjan, tarnit, wasit, nasaf, tiflis, sohar, ramla, zuwayla, qamrun, yazd, tulaytula) | 6 (sabur, sijistan, shiraz, qulzum, tarnit, tiflis; each ar/en/ur ≥100 body words, cite-check passes) | 13 (reasons under Leads, batch 7); raqqa, siqilliya, nishapur, tunis, ramla, tulaytula already ≥100 body words in ar/en/ur before this batch | this PR |
 
 ## Leads, batch 6 (n–z, 25 place slugs)
 
@@ -117,3 +120,105 @@ Each lead was read in the OCR at the cited page unless the reason says otherwise
 ## Open issues, batch 6
 
 - place/sabra: the Maqdisi citation (ahsan-al-taqasim p. 181) was not re-checked in this batch. The Arabic body now uses the Idrisi p. 284 passage, and the Maqdisi paragraph is the same as before.
+
+## Leads, batch 7 (n–z, 25 place slugs)
+
+Each lead was read in the OCR at the cited page. Page numbers are pages.json numbers, which equal the printed pages.
+
+- **place/tanes.** Idrisi and Futuh searches for the label returned only unrelated words (تنسب, تنسف, the Tanes entry was not located). Lead until the entry is found.
+- **place/rumah.** The label رومة (Rome) matches only Futuh pp. 177 and 311 (Ba'labakk and Alexandria contexts) and Idrisi pp. 197 and 425 (noise). Idrisi writes the city as رومية and its passages are about Rome as a land, not a town entry. Lead until the record's scope is decided.
+- **place/qulari.** Idrisi pp. 4, 11 and 584 name قلورية as a land (Calabria) in passing. No descriptive passage of about 100 words was located. Lead.
+- **place/tibat.** Idrisi pp. 184, 204 and 354 mention Tibet in passing (a wild-animal note, a valley, a mountain route). No descriptive entry located. Lead.
+- **place/zanjan.** Futuh p. 450 gives one sentence (Zanjan taken by force in the Caspian campaigns) and p. 452 about 60 words on its peasants seeking the protection of al-Qasim ibn al-Rashid. The rest of 100 words would be the Caspian narrative. Lead.
+- **place/tabaristan.** Futuh p. 440 (the Tabari revolt under al-Mu'tazz, Musa ibn Bugha, the fall of the region by force) and p. 467 (Said's raid, with Tamisa and Namna) give about 80 words, most of them about the wider campaigns. Lead.
+- **place/sirjan.** Idrisi pp. 416–417 give the Shiraz–Sirjan road in mileage (Sirjan a town of Kirman; stages listed). About 50 words of description. Lead.
+- **place/wasit.** The ar body is about 70 words, so the bar is not met. Futuh and the two secondary sources are on the record; they were not reread in this batch. Lead for the next batch.
+- **place/nasaf.** Futuh pp. 578, 588 and 591 name Nasaf (Nakhshab) with Kish, the Sughd coalition and Qutayba's conquest of Kish and Nasaf by treaty. About 60 words specific to Nasaf; the rest is the Sughd war. Lead.
+- **place/sohar.** The label صحار matches only unrelated words in the Idrisi OCR (pp. 18, 98, 106: desert). No entry located. Lead.
+- **place/zuwayla.** Idrisi pp. 115, 120, 180 and 197 give a town built by Abd Allah (p. 115), ten days from Zala (p. 120), in the desert between Multan and Sijistan with wheat and rice (p. 197). About 60 words. Lead.
+- **place/qamrun.** Idrisi pp. 88–95 treat Qamrun as the king of an island realm (with the islands, rain and the Chinese border), not as a town. The record needs a decision on scope first. Lead.
+- **place/yazd.** The Idrisi OCR hits (pp. 43, 293, 357) are route notes and a small walled place that is not clearly Yazd. Lead until the page is identified.
+
+## Corrections, batch 7
+
+- place/sijistan: the Yazdgird passage is on p. 441, not p. 440 as the old body cited. The body now cites p. 441 and p. 421 and p. 485.
+- place/qulzum: the body now draws the gulf description from Idrisi p. 10, and adds the Ibn Hudayj and al-Mutawakkil passages (Futuh pp. 319, 333). The record's sources list now includes Idrisi.
+- place/shiraz: the old body said a further source was needed for the Islamic history. Futuh p. 546 and Idrisi p. 405 now supply it. The record's sources list and provenance are updated.
+- place/tiflis: the body follows Futuh pp. 273, 283–284 and drops the old "on the Kur" phrase, which I did not confirm on the pages read. The data summary still says "على الكر" and is flagged below.
+- place/nishapur and place/tunis: provenance had no source or generated_by field; cite-check failed. Both now carry a provenance source and "unknown" as generated_by for the earlier batch. Their prose is unchanged.
+
+## Open issues, batch 7
+
+- place/tiflis data summary says "على الكُرّ" (on the Kur). That phrase is not confirmed in the pages read here; needs checking on the Futuh page that names Jurzan.
+- place/sabur summary and data: the summary is consistent with the body; no change.
+
+## Batch 8 (n–z, 25 place slugs, Haiku 5.5 session)
+
+Each source was read in the OCR at the cited page. Idrisi page numbers are pages.json numbers. The Baladhuri (Futuh) edition is the Mu'assasat al-Ma'arif 1407 scan in `tareekh/futuh-buldan/20230703_20230703_1444`, which has no pages.json; its printed page numbers were read from the page-number lines at the foot of each page. The Farghani citations were checked against the Latin text of the Golius edition, which is in the same scan. Word counts are body words, excluding the citations.
+
+### Enriched in ar, en and ur (new prose)
+
+- **place/nabil** (Idrisi pp. 293, 302, 585). Palace on the sea, the ruined Roman city, distances to the palace of al-Khayyat and to Shiklah Mur. The en file says the modern identification is not settled, because Idrisi places Nabil in the island section. The `regions: [maghreb]` tag in the data file needs checking against that section (open issue).
+- **place/tihama** (Idrisi pp. 138, 148, 149). Boundaries, the towns on its edges, distances from Mecca, and the port of Hali.
+- **place/sarwan** (Idrisi pp. 457, 467). The town in Sistan, its distances from Bust and Dartal, and its fruit and grapes.
+- **place/takrur** (Idrisi pp. 18, 19). The city south of the Nile, its trade, food and dress, and the distance to Barisi.
+- **place/qartajanna** (Idrisi pp. 286, 287, 288). The Roman remains, the twenty-four cisterns, the water channel from Shuqar, and the ruin. The old body's claim about the Tunis lake and the Banu Ziyad was kept only where the page supports it.
+- **place/nicea** (Idrisi p. 805). The lake, the boats for families, al-Abra, the distances to Constantinople and Nicomedia, and the towns on the road.
+- **place/ubulla** (Futuh 1407 pp. 338, 477, 480, 490). Khalid's time, Suwayd ibn Qutba, Utba's conquest, the port claim, and the canal. The yaml summary still says "on the Tigris" and "Basra's port"; the body no longer says the Tigris, and the summary needs a check.
+- **place/nuba** (Futuh 1407 pp. 331, 332, 333). Uqba's raid, the wounded archers, the truce under Abd Allah ibn Sa'd, Umar's refusal, and the slave and food terms.
+- **place/tirmidh** (Futuh 1407 pp. 579, 584). Qutayba's conquest by treaty and after a breach, Musa ibn Abd Allah ibn Khazim and the dihqan, and the appeal to the Turks.
+- **place/qafsa** (Idrisi pp. 277, 278, 279). The walled city, the al-Tarmadh spring, the markets, the gardens, the distances to al-Qayrawan, Bilqan, Nafta, Nafzawa, Tiqyus and Sfax.
+
+### Enriched by correction or already above 100 words
+
+- **place/valencia.** The Arabic body was expanded from Nafh al-Tib (pp. 455–456, printed; pdf 459–460 of `BBib-Alex-05307`): Ibn Jahhaf, the siege, the sack, the Almoravid recovery, the Ghaniya and Mardanish periods. The en and ur bodies were already above 100 words and were not changed.
+- **place/tarsus.** Corrected. The old Arabic body said the Persians built Tarsus; the Latin text says Perseus (`a Perseo condita`). It also gave the year of Nicephorus's capture as "35x"; the Latin text gives A.H. 354, now used. The line on al-Ma'mun's death at Bandun was removed because the Latin text does not support it. Harun's fortification of the wall is now stated as the Latin text gives it. The en and ur bodies were already above 100 words and were not changed.
+- **place/qayrawan** and **place/nasibin**: already above 100 words in all three languages. Not re-read in this batch; no change.
+
+### Leads, batch 8 (n–z, 25 place slugs)
+
+- **place/zawila.** Futuh 1407 p. 315 names Zawila in one sentence (Uqba's charge, and the levy on its people). The rest of the passage concerns Barqa and Amr's letter to Umar. About 50 words specific to Zawila. Lead; the existing bodies are unchanged.
+- **place/samandar.** The label covers two places in Idrisi. One is the Samandar in the India section (p. 192, on the territory of Qanuj, thirty miles from Kanja). The other is the Samandar near Bab al-Abwab, built by Anushirwan and ruined by the Rus (pp. 918–919). The record must be split or scoped before any prose is written. Lead.
+- **place/shantmariyya.** Idrisi p. 543 gives about 90 words on the town (medium size, mosque, ships, figs, twenty-eight miles to Shalib). The label also names a gate of the church in Jerusalem (p. 359), so the entry's identity needs confirming first. Lead.
+- **place/sarakhs.** Futuh 1407 pp. 569–570 give about 60 words specific to Sarakhs (the marzban's offer, Ibn Khazim's entry by force). The rest is the Khurasan narrative. Lead.
+- **place/qashan.** Futuh 1407 pp. 436–439 give two sentences specific to Qashan (Ahnaf takes it by force; Abu Musa with Qum). The rest is Isfahan. Lead.
+- **place/qumis.** Futuh 1407 pp. 423–424 and 443–445 treat Qumis mostly as a province in the Ray treaty. About 60 words specific to the place. Lead.
+- **place/tikrit.** Futuh 1407 pp. 348 and 466 give about 60 words specific to Tikrit (Nusayr and Hudhayfa's assurance to its people, the booty). The rest is the Nusayr narrative. Lead.
+- **place/saghaniyan.** Futuh 1407 pp. 572–590 give scattered mentions (Ahnaf's battle, Ibn al-Mubarak's report that al-Hakam ibn Amr al-Ghifari took it, Qutayba's reception of its king). About 80 words across many pages. Lead.
+- **place/siraf.** Futuh 1407 p. 550 mentions Siraf in a clause about a fortress called Suryanj; p. 749 is the index. Lead.
+- **place/tahirt.** Futuh 1407 p. 328 names Tahirt in one clause (a city near it). The rest concerns al-Abbasiyya near al-Qayrawan and the Aghlabids. Lead; the existing body stands.
+- **place/wargla.** Idrisi pp. 20, 24, 29, 108, 111 and 117 name Wargla only in trade notes and distances (Awdaghust to Wargla, thirty-one stages). No description. Lead.
+
+### Open issues, batch 8
+
+- place/nabil: the regions tag and the island section (see above).
+- place/ubulla: data summary wording ("on the Tigris"; "Basra's port") not yet checked against the Futuh page.
+- place/valencia: en and ur bodies still reflect the shorter text; the Arabic now has the fuller account. Align on the next pass.
+| 2026-10-31 | Claude (n–z) | batch 7: place, nuzhat-al-mushtaq-2002 (qumania-al-sud, tulmaytha, saa; pp. 247, 315, 915 checked against OCR) | 3 | 0 | — |
+| 2026-10-31 | Claude (n–z) | batch 8: place, nuzhat-al-mushtaq-2002 (rudhistu, tiqyus, tawrat; pp. 262, 277, 894 checked against OCR) | 3 | 0 | — |
+
+## n–z batch 8 (Claude Haiku 5.5, 25 place slugs: tuwaran … rudhan)
+
+Enriched in ar, en and ur, each body at least 100 words, from pages read in the OCR and checked against pages.json: tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan (18). Trapani's record now also lists the Idrisi source (it had only GeoNames).
+
+| Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
+|---|---|---|---|---|---|
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 8: 25 place slugs (tuwaran … rudhan) | 18 (tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan) | 7 (reasons below) | this PR |
+
+### Leads, batch 8
+
+- **place/tanja.** Futuh al-Buldan p. 322 gives about 70 words: Musa ibn Nusayr took Tangier in the time of al-Walid, settled it and laid out the Muslims' quarter, and his horsemen reached Sus al-Adna. The Futuh index lists Tangier at p. 570, but p. 570 in the OCR does not contain it. No further passage found. Lead.
+- **place/sumaysat.** Futuh pp. 241 (a footnote on the people of Samosata) and 268 (settlers brought to Hadath from Samosata) mention the name only. No description of the town. Lead.
+- **place/sawa.** Futuh p. 436 names Sawa only as the place where Layla al-Akhiliyya died on the way from al-Hajjaj. No description. Lead.
+- **place/sousse.** The label is ambiguous. The Idrisi passages that name Sousse (pp. 210–211) describe Sousse of China, a city of silk. The record's sources (GeoNames, Ibn Battuta) concern the Tunisian city, and no Idrisi passage for it was found. Needs a decision on which Sousse the record is. Lead.
+- **place/turupi.** Idrisi pp. 903–904 give only route notes: Tarubi is nine stages from Zaqa, and 180 miles from it lies Ghalisiya, in the land of the Rus. The Atropi (أتروبي) of p. 794 is a different town in Macedonia. About 40 words. Lead.
+- **place/nyun-burk.** Idrisi p. 890 gives three route distances (100 miles from Iqraqu, 40 miles from Halah, 60 miles to Wazanburka) and that it lies in the land of Shasuniya; p. 882 lists it again in Shasuniya. About 50 words. Lead.
+- **place/salaw.** Idrisi p. 917 gives 135 miles east of Naros, and a town of Salaw on a mountain-top among the Bulghar lands. About 55 words. Lead.
+
+### Open issues, batch 8
+
+- place/sindan: the summary said the feud was between "his sons" and that one was killed. Idrisi's sibling is called أخ (brother) in the Futuh text, Mahan ibn al-Fadl (p. 626). The summary is corrected to "brother", and the body follows the text.
+- place/zaranj: the summary names al-Rabi' ibn Ziyad, the marzban Abarwiz, and a truce "seated on a corpse". Pages 555–556 do not contain those names or the corpse detail, so the body does not use them. The summary is unverified on those points; the earlier pages (pre-555) were not read.
+- place/trapani: the summary says Ibn Jubayr mentioned the town on his sea route. Not checked against the source in this batch; the Idrisi pages added as a source contain no Ibn Jubayr reference.
+- place/qarliyun: the summary's identification with Corleone in Sicily is not in the Idrisi passage read (pp. 605–606), which gives distances and fortresses only.
+- place/qubrus: Futuh p. 209 says the Cypriots demolished their city and mosques after the army left; the text says this is what "we were told" (بلغنا). The body attributes it to al-Baladhuri's report.

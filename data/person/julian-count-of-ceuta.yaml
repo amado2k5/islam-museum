@@ -1,5 +1,6 @@
 id: person/julian-count-of-ceuta
 class: person
+aliases: [person/alyan]   # merged from the al-Baladhuri record of Ilyan (now a section); the id still resolves
 label: { ar: "يوليان صاحب سبتة" }
 gender: male
 roles: [general]
@@ -7,9 +8,11 @@ summary:
   ar: "حاكم سبتة من الإسبان، ويذكر الكتاب أن اتصالات الجانب الإسباني بموسى بن نصير أثناء الفتح كانت عاملاً مساعداً سهّل سير الفتح، وأن السفن التي نقلت جند طارق بن زياد أُحضرت إلى سبتة بتدبيره، وأن المبادرة والتخطيط كانا من الجانب الإسلامي {cite:salabi-umayyad-state-2020 p.67-68}."
 wings: [people]
 periods: [period/umayyad]
-sources: [source/salabi-umayyad-state-2020]
+sources: [source/salabi-umayyad-state-2020, source/futuh-buldan-maarif-1407]
 provenance:
   layer: own-research
   source: "salabi-umayyad-state-2020 pp. 67-68"
   generated_by: "Claude (Haiku 5.5, subagent)"
-status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 67-68; the book notes the reports differ on how contact was made" }
+status: { review: published, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 67-68; the book notes the reports differ on how contact was made" }
+relations:
+  - { type: participated_in, target: event/conquest-of-al-andalus, role: "المعبّر للمسلمين في السفن بأمان", sources: [source/futuh-buldan-maarif-1407] }

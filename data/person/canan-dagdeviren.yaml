@@ -1,0 +1,38 @@
+id: person/canan-dagdeviren
+class: person
+label: { ar: "جانان داغديفيرين", en: "Canan Dağdeviren", ur: "جانان داغديفيرن" }
+names:
+  - { value: "Canan Dağdeviren", kind: full }
+  - { value: "جانان داغديفيرين", kind: full }
+gender: female
+summary:
+  ar: "عالمة مواد وفيزيائية تركية، وُلدت في إسطنبول سنة 1985. تقود مجموعة «المفككات المطابقة» في مختبر الوسائط بمعهد ماساتشوستس للتقنية، وتصنع أجهزة كهروميكانيكية مرنة تلتصق بالجسد للاستشعار وحصاد الطاقة، وهي أول عالمة تركية تصبح زميلة صغيرة في جمعية الزملاء بجامعة هارفارد."
+  en: "Turkish materials scientist and physicist, born in Istanbul in 1985. She leads the Conformable Decoders research group at the MIT Media Lab, building flexible electromechanical devices that conform to the human body for sensing and energy harvesting, and she was the first Turkish scientist to become a Junior Fellow of the Harvard Society of Fellows."
+  ur: "ترک مادہ سائنس دان اور طبیعیات دان، جو 1985 میں استنبول میں پیدا ہوئیں۔ وہ ایم آئی ٹی میڈیا لیب میں «کنفارمبل ڈیکوڈرز» تحقیقی گروپ کی سربراہ ہیں، جو انسانی جسم سے ہم آہنگ لچکدار برقی میکانکی آلات بناتا ہے، اور وہ ہارورڈ سوسائٹی آف فیلوز کی جونیئر فیلو بننے والی پہلی ترک سائنس دان ہیں۔"
+roles: [scientist, inventor]
+wings: [people, living]
+regions: [anatolia-balkans, americas-oceania]
+born:
+  edtf: "1985-05-04"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (Q21524665); the Hijri year 1405 is the tabular conversion of 4 May 1985 and is marked derived."
+  sources: [source/wikipedia-canan-dagdeviren-en, source/wikidata-canan-dagdeviren]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-canan-dagdeviren-en, source/wikidata-canan-dagdeviren] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Turkish Wikipedia article names a religion for her, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-canan-dagdeviren-en, source/wikipedia-canan-dagdeviren-tr, source/wikidata-canan-dagdeviren]
+external_ids: { wikidata: "Q21524665" }
+sources: [source/wikipedia-canan-dagdeviren-en, source/wikipedia-canan-dagdeviren-tr, source/wikidata-canan-dagdeviren]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1372298032), Turkish Wikipedia (revision 37037042) and Wikidata Q21524665 (item revision 2518324854, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

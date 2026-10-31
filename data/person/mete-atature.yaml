@@ -1,0 +1,36 @@
+id: person/mete-atature
+class: person
+label: { ar: "ميته أتاتوره", en: "Mete Atatüre", ur: "میٹے اتاتورے" }
+names:
+  - { value: "Mete Atatüre", kind: full }
+  - { value: "ميته أتاتوره", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي تركي يعمل في البصريات الكمومية التجريبية بجامعة كامبريدج، وُلد في قيصري سنة 1975. يقود مجموعة مواد وأنظمة البصريات الكمومية في مختبر كافنديش، وهو شريك مؤسس لشركة «نو كوانتم»، ويتولى إدارة مختبر كافنديش منذ أكتوبر 2023، وله حضور واسع في التواصل العلمي في تركيا."
+  en: "Turkish physicist working in experimental quantum optics at the University of Cambridge, born in Kayseri in 1975. He leads the Quantum Optical Materials and Systems group at the Cavendish Laboratory, co-founded the spin-out Nu Quantum, has headed the Cavendish Laboratory since October 2023, and is a prominent science communicator in Turkey."
+  ur: "ترک طبیعیات دان جو جامعہ کیمبرج میں تجرباتی کوانٹم آپٹکس پر کام کرتے ہیں، 1975 میں قیصری میں پیدا ہوئے۔ وہ کیونڈش لیبارٹری میں کوانٹم آپٹیکل مٹیریلز اینڈ سسٹمز گروپ کے سربراہ، «نو کوانٹم» کمپنی کے شریک بانی، اور اکتوبر 2023 سے کیونڈش لیبارٹری کے سربراہ ہیں۔"
+roles: [physicist, scientist]
+wings: [people, living]
+regions: [anatolia-balkans, andalus-europe]
+born:
+  edtf: "1975-02-19"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Day, month and city from the English and Turkish Wikipedia articles (19 February 1975, Kayseri, where his family was stationed for his father's military service); Wikidata (Q23920801) records the year 1975 only and gives Ankara as the birthplace statement, which the record does not follow. The Hijri year 1395 is the tabular conversion of 19 February 1975 and is marked derived. No place entity for Kayseri exists, so no born_in relation is written."
+  sources: [source/wikipedia-mete-atature-en, source/wikipedia-mete-atature-tr, source/wikidata-mete-atature]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Turkish Wikipedia article names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-mete-atature-en, source/wikipedia-mete-atature-tr, source/wikidata-mete-atature]
+external_ids: { wikidata: "Q23920801" }
+sources: [source/wikipedia-mete-atature-en, source/wikipedia-mete-atature-tr, source/wikidata-mete-atature]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1372186591), Turkish Wikipedia (revision 38209987) and Wikidata Q23920801 (item revision 2508155024, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; the Wikidata birthplace statement (Ankara) conflicts with both articles (Kayseri) and is disclosed in the born note; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

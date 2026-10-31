@@ -4,14 +4,13 @@ lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
+
 ## Overview
-Cyprus is an island in the Roman Sea, said to be eighty farsakhs long by a similar measure. The Muslims first rode to it in Mu'awiya's raid in the year 28 AH, and its people made peace for seven thousand two hundred dinars a year, and paid the Romans the same. {cite:futuh-buldan-maarif-1407}
+Cyprus is an island in the sea. Mu'awiya ibn Abi Sufyan attacked it in the caliphate of Uthman ibn Affan, and it was the first time Muslims rode the Roman sea. In the year 33 he took it by force, then made terms with its people. {cite:futuh-buldan-maarif-1407 p.208–209}
 
-## Terms of the treaty
-He stipulated that they would not fight on behalf of the Romans, and that they would inform the Muslims of their enemy's movements. They were therefore people of ransom (fidya), not people of dhimma, according to al-Baladhuri. {cite:futuh-buldan-maarif-1407}
+## Details
+Al-Baladhuri says Mu'awiya asked Umar for leave to campaign at sea, and Umar refused. When Uthman succeeded, Mu'awiya asked again, describing how near and easy Cyprus was. Uthman replied that the sea voyage was permitted only if he took his wife with him, and otherwise not. {cite:futuh-buldan-maarif-1407 p.208}
 
-## Conquest and expulsion
-When they aided the Romans in the year 32 AH, Mu'awiya conquered it by force in the year 33 AH, and then confirmed them in their treaty. He built a city and mosques there, until Yazid closed it down. Al-Walid ibn Yazid expelled some of them, and Yazid ibn al-Walid returned them. Linked to it are [[event/first-raid-on-cyprus|the first raid on Cyprus]] and [[event/second-raid-on-cyprus|the second]]. {cite:futuh-buldan-maarif-1407}
+The first raid came in the year 28, after winter had passed; some say 39. Mu'awiya sailed from Acre with many ships, taking his wife Fakhita bint Qaraza. Among that expedition's people was Umm Haram bint Milhan, who fell from her mount on arrival and died, and her grave on Cyprus is called the grave of the righteous woman. {cite:futuh-buldan-maarif-1407 p.208–209}
 
-## A point of jurisprudence
-The ruling of its treaty became a jurisprudential precedent, on which al-Layth, Malik, Sufyan ibn Uyayna and others were consulted in the governorship of Abd al-Malik ibn Salih. In it is the grave of Umm Haram bint Milhan, known as the grave of the righteous woman. {cite:futuh-buldan-maarif-1407}
+In the year 33 Mu'awiya returned with five hundred ships. He took Cyprus by force, killed and enslaved, then left its people under their earlier treaty, and sent to it twelve thousand men of the registered fighters. A report recorded by al-Baladhuri says that the troops left after Yazid ibn Mu'awiya was bribed, and that the people of Cyprus then pulled down their city and mosques. {cite:futuh-buldan-maarif-1407 p.209}

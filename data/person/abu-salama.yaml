@@ -1,10 +1,10 @@
 id: person/abu-salama
 education:
   did_you_know:
-    ar: "أبو سلمة عبد الله بن عبد الأسد من أوائل المسلمين في الدعوة السرية، وكان من رضاعة النبي إذ أرضعته ثويبة؛ ودعا لآل أبي طالب بعد قتل إبراهيم الإمام عند المسعودي."
-    en: "Abu Salama was among the first Muslims of the secret call and the Prophet's foster-kin, suckled by Thuwayba; per al-Mas'udi he turned to Abu Talib's family after Ibrahim the Imam was killed."
-    ur: "ابو سلمہ عبداللہ بن عبدالاسد دعوتِ خفی کے اولین مسلمانوں میں سے اور نبی کے رضاعی بھائی — ثويبہ نے انہیں دودھ پلایا؛ مسعودی کے مطابق ابراہیم امام کے قتل کے بعد وہ آلِ ابیطالب کی طرف مائل ہوا۔"
-    sources: [source/muruj-al-dhahab, source/tabaqat-ibn-sad]
+    ar: "أبو سلمة عبد الله بن عبد الأسد من أوائل المسلمين في الدعوة السرية، وكان من رضاعة النبي إذ أرضعته ثويبة."
+    en: "Abu Salama was among the first Muslims of the secret call and the Prophet's foster-kin, suckled by Thuwayba."
+    ur: "ابو سلمہ عبداللہ بن عبدالاسد دعوتِ خفی کے اولین مسلمانوں میں سے اور نبی کے رضاعی بھائی — ثويبہ نے انہیں دودھ پلایا۔"
+    sources: [source/tabaqat-ibn-sad, source/mubarakpuri-raheeq]
 class: person
 label: { en: "Abu Salama (Abdullah ibn Abd al-Asad)", ar: "أبو سلمة بن عبد الأسد" }
 names:
@@ -15,7 +15,7 @@ roles: [companion]
 traditions: [sunni]
 summary:
   en: "Abdullah ibn Abd al-Asad al-Makhzumi, Abu Salama; one of the earliest Muslims of the secret call and the Prophet's foster-brother by Thuwayba's milk."
-  ar: "عبد الله بن عبد الأسد المخزومي، أبو سلمة؛ من أوائل المسلمين في الدعوة السرية، وكان من رضاعة النبي إذ أرضعته ثويبة. وعند المسعودي لما قتل إبراهيم الإمام أضمر الرجوع عن الدعوة العباسية إلى آل أبي طالب فبعث محمد بن عبد الرحمن بن أسلم بكتابين على نسخة واحدة إلى جعفر بن محمد وإلى عبد الله بن الحسن يدعوهما إلى الشخوص إليه وقال للرسول العجل العجل فلا تكونن كوافد عاد {cite:muruj-al-dhahab p. 240}، وكان أول من وقع عليه اسم الوزارة في الدولة ويدعى وزير آل محمد، وكتب أبو مسلم يشير بقتله فأبى السفاح أن يفتتح دولته بقتل رجل من شيعته وقال إني لآمنه في ليلي ونهاري، فلما اتصل ذلك بأبي مسلم وجّه ثقات أصحابه فوثبوا عليه ليلة وهو منصرف من عند السفاح بالأنبار فقتلوه غيلة، فأنشأ السفاح إلى النار فليذهب ومن كان مثله على أي شيء فاتنا منه نأسف {cite:muruj-al-dhahab p. 256-257}"
+  ar: "عبد الله بن عبد الأسد المخزومي، أبو سلمة؛ من أوائل المسلمين في الدعوة السرية، وكان من رضاعة النبي إذ أرضعته ثويبة."
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -27,11 +27,11 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
 external_ids: { wikidata: "Q335355" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
 provenance:
   layer: own-research
-  source: "source/muruj-al-dhahab"
+  source: "al-Mubarakpuri, al-Raheeq al-Makhtum pp. 55, 75-76 (al-Mas'udi material on Abu Salama al-Khallal moved to person/abu-salama-al-khallal, 31 Oct 2026)"
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch12"

@@ -8,7 +8,7 @@ translators: []
 تجمع «فتوح البلدان» روايات عن عطايا خاصة فرضها [[person/umar-ibn-al-khattab|عمر]] لأفراد، مع تعليل كل منها، وعن عدله بين العرب والموالي. {cite:futuh-buldan-maarif-1407}
 
 ## عطايا لأفراد
-بحسب رواية يزيد بن أبي حبيب، جعل عمر [[person/amr-ibn-al-as|عمرو بن العاص]] في مائتين لأنه أمير، و[[person/busr-ibn-abi-artat|بسر بن أبي أرطاة]] في مائتين لأنه صاحب فتح، وأمر أن يفرض لـ[[person/kharija-ibn-hudhafa|خارجة بن حذافة]] في شرف العطاء لشجاعته. {cite:futuh-buldan-maarif-1407}
+بحسب رواية يزيد بن أبي حبيب، جعل عمر [[person/amr-ibn-al-as|عمرو بن العاص]] في مائتين لأنه أمير، و[[person/busr-ibn-abi-artat|بسر بن أبي أرطاة]] في مائتين لأنه صاحب فتح، وأمر أن يفرض لـ[[person/kharija-ibn-hudhafa-al-adawi|خارجة بن حذافة]] في شرف العطاء لشجاعته. {cite:futuh-buldan-maarif-1407}
 
 وفي الروايات أن عطاء [[person/ammar-ibn-yasir|عمار بن ياسر]] ستة آلاف درهم، وعطاء [[person/salman-al-farisi|سلمان]] أربعة آلاف. {cite:futuh-buldan-maarif-1407}
 

@@ -12,3 +12,7 @@ When Ibrahim al-Imam was killed, Abu al-Abbas, Abu Ja'far and their uncles fled 
 
 ## Vizierate and death
 Abu al-Abbas then made him vizier over all affairs beyond his door; he was called “the vizier of the family of Muhammad” and acted without consultation. Abu Muslim sent his commander Marwan al-Dabbi to Kufa, who took him from the caliph's presence, beheaded him and left. Al-Dinawari does not say here that the caliph consented. {cite:akhbar-tiwal-amir p. 370}
+
+## In al-Mas'udi
+Al-Mas'udi reports that when Ibrahim the Imam was killed, Abu Salama al-Khallal privately resolved to turn the movement away from the Abbasids to the family of Abu Talib. He sent Muhammad ibn Abd al-Rahman ibn Aslam with two identical letters to Ja'far ibn Muhammad and Abd Allah ibn al-Hasan, inviting them to come to him, and urged his messenger to make haste. {cite:muruj-al-dhahab p. 240}
+He adds that Abu Salama was the first in the Abbasid state to bear the title of vizier, called "the vizier of the family of Muhammad". Abu Muslim wrote advising that he be killed; Abu al-Abbas al-Saffah refused to open his reign by killing one of his own partisans, so Abu Muslim sent men of his own who killed Abu Salama by night as he returned from al-Saffah at al-Anbar. {cite:muruj-al-dhahab p. 256-257}

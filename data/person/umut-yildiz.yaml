@@ -1,0 +1,35 @@
+id: person/umut-yildiz
+class: person
+label: { ar: "أوموت يلدز", en: "Umut Yıldız", ur: "اموت یلدز" }
+names:
+  - { value: "Umut Yıldız", kind: full }
+  - { value: "أوموت يلدز", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي فلكي تركي، وُلد سنة 1980. عمل سنوات في مختبر الدفع النفاث التابع لناسا في الاتصالات الفضائية العميقة وتحليل البيانات الضخمة، بعد دراسته في أنقرة وخرونينغن ولايدن، ثم عاد إلى تركيا ويعمل مديرًا للتواصل العلمي وعضو هيئة تدريس في جامعة الشرق الأوسط التقنية."
+  en: "Turkish astrophysicist, born in 1980. After studying at Ankara, Groningen and Leiden, he worked for years at NASA's Jet Propulsion Laboratory on deep-space communication and big-data analysis, then returned to Turkey, where he serves as Director of Science Communication and a faculty member at Middle East Technical University."
+  ur: "ترک فلکی طبیعیات دان، جو 1980 میں پیدا ہوئے۔ انقرہ، خرونینگن اور لائڈن میں تعلیم کے بعد انہوں نے ناسا کے جیٹ پروپلشن لیبارٹری میں گہرے خلائی رابطے اور بڑے اعداد و شمار کے تجزیے پر برسوں کام کیا، پھر ترکی لوٹ آئے اور مشرق وسطیٰ تکنیکی یونیورسٹی میں سائنسی ابلاغ کے ڈائریکٹر اور استاد ہیں۔"
+roles: [astrophysicist, scientist]
+wings: [people, living]
+regions: [anatolia-balkans, americas-oceania]
+born:
+  edtf: "1980"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Year only, and debated. Özyeğin University's press bulletin gives 1980 and calls him 35 years old, which together the record follows; some Turkish web biographies give 1982 instead. Wikidata (Q54303620) records no birth date. The Hijri pairing is omitted: a bare Gregorian year spans two Hijri years (1400–1401), so no single Hijri year can be stated."
+  sources: [source/ozyegin-umut-yildiz]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Özyeğin University bulletin, the Ondokuz Mayıs University report and Wikidata name no religion for him. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/ozyegin-umut-yildiz, source/omu-umut-yildiz, source/wikidata-umut-yildiz]
+external_ids: { wikidata: "Q54303620" }
+sources: [source/wikidata-umut-yildiz, source/ozyegin-umut-yildiz, source/omu-umut-yildiz]
+provenance:
+  layer: own-research
+  source: "Wikidata Q54303620 (item revision 2507909808, re-asserted against a second live query), the Özyeğin University press bulletin (PDF created 25 Jan 2018) and the Ondokuz Mayıs University news report, checked on 31 Oct 2026. He has no Wikipedia article in any language; the birth year follows the Özyeğin bulletin (1980) against web biographies giving 1982 and is marked debated. Existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-[[person/hassan-ibn-al-numan-al-ghassani|حسان بن النعمان]] کی بربر ملکہ [[person/al-kahina|الکاہنہ]] کے خلاف مہمات کی روایات مختلف ہیں۔ [[place/ifriqiya|افریقیہ]] اور [[place/barqa|برقہ]] میں معرکے ہوئے {cite:futuh-buldan-maarif-1407}۔
+[[person/hassan-ibn-al-numan|حسان بن النعمان]] کی بربر ملکہ [[person/al-kahina|الکاہنہ]] کے خلاف مہمات کی روایات مختلف ہیں۔ [[place/ifriqiya|افریقیہ]] اور [[place/barqa|برقہ]] میں معرکے ہوئے {cite:futuh-buldan-maarif-1407}۔
 
 ## بلاذری کے ہاں
 حسان والی بنے، الکاہنہ سے جنگ کی تو وہ ان سے شکست کھا گئے۔ پھر وہ برقہ کے علاقے میں کچھ محلات تک پہنچے اور وہیں ٹھہرے، اس لیے ان محلات کو «قصور حسان» کہا گیا۔ پھر دوسری بار انہوں نے حملہ کیا اور الکاہنہ کو قتل کیا، اور بربروں میں سے قیدی بنا کر انہیں [[person/abd-al-aziz-ibn-marwan|عبد العزیز]] کے پاس بھیج دیا {cite:futuh-buldan-maarif-1407}۔

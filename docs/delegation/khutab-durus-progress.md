@@ -3,6 +3,8 @@
 Lane document: `docs/agents/lanes/khutab-durus.md`. Proposal: `docs/plan/25-khutab-durus-explorer.md` (approved by the founder, PR #2656, merged 31 Oct 2026).
 
 ## Next step
+Next: the founder's decision on the Sulayman entry and the Umar ibn Abd al-Aziz slug; episodes 2–22 of Silsilat Qissa Wa Ebra (each episode needs its own claims table shown first); the batch 1–2 enrichment list.
+
 
 The founder approved bulk download (31 Oct 2026): Jamharat Khutab al-'Arab 3 vols (EPUB text layer, sha256 in `SHA256SUMS`, `meta.json`) is in `$HARVEST/books/khutab/jamharat-khutab-al-arab/` — text layer usable (~62k Arabic words vol 1, OCR noise noted). Next: pilot batch of sermon `work` entities from Jamharat + sira/hadith records (claims table shown to the founder first), then website `work kind: website` entities for the verified archives, then a first small audio pilot on islamway.
 
@@ -39,9 +41,12 @@ _ none yet — per the founder's rule nothing is excluded without his verificati
 
 - Batch 3 (31 Oct 2026, founder-approved vol 3 candidate list, narrowed): 5 Abbasid-era sermon works from Jamharat v3 with ar/en/ur prose — Dawud ibn Ali in Kufa (EPUB p.7), al-Saffah's second Friday in Kufa (p.11), al-Nafs al-Zakiyya in Medina (p.37), Tahir ibn al-Husayn in Baghdad (p.118), al-Ma'mun on Harun's death (p.119). Narrowed from ~20 because the remaining candidates have damaged OCR or no firm date; they stay on the list. Cite anchors are EPUB page indices, not printed page numbers (not yet checked against the printed pages).
 
+- Silsilat Qissa Wa Ebra, episode 1 (31 Oct 2026; branch `claude/khutab-silsilat-qissa-ep01`; audio pilot on the Assabile archive, founder approved the claims table 31 Oct 2026): series record `work/silsilat-qissa-wa-ebra` (kind lecture-series) with ar/en/ur prose, cited to `silsilat-qissa-wa-ebra/ep01` timestamps (the lesson's own words only; the Qur'an recitation and the garbled windows near 00:06:30 and 00:08:00 are not typed). The source `source/assabile-omar-abdelkafy` was already registered (25 Oct 2026), so no new source entity was needed. Episodes 2–22 are downloaded and checksum-verified, transcribed, not written. Overlap: the Omar Abdelkafy lane transcribed this series on 26 Oct 2026 (`pass5-qwen`), but its progress file does not list it; the lane should record it. Checks: validate 0 errors, cite-check pass, coverage regenerated.
 - Batch 4 (31 Oct 2026, continuing the vol 3 list): 2 more works — Dawud ibn Ali's rebuke of al-Saffah (EPUB p.10; date approximate, early al-Saffah, 132–136 AH) and Harun al-Rashid's accession sermon (p.82; date inferred from p.81, the death of al-Hadi, 170 AH). Rejected as unready: p.76 (Ibn Utba condolence, speaker's name unclear in OCR), p.84 (a testament, not a sermon), p.218 (Qadi Iyad's piece quotes Qur'an passages; OCR too damaged), p.225 (Abu Bakr ibn Muhammad, attribution disputed in the book itself; body mostly footnote), p.361 (index only, no body read), p.26 (Mansur at Makka, year not in the text). These are not dropped: they stay open for a later pass with better OCR or a firm date.
 
 - Backfill (31 Oct 2026): ar/en/ur prose files added for the 15 batch 1–2 works. Each is a one-paragraph summary restating the entity's already-cited facts, cited to the Jamharat source. This is not the rich first pass: the source pages were not re-read, so the prose is short and needs enrichment against the EPUB pages.
+
+- Batch 1–2 source audit (31 Oct 2026, vol 2 pages checked): three entries do not match their source pages and need the founder's ruling before any rewrite. (a) `khutbat-umar-ibn-abd-al-aziz-madina`: vol 2 pp. 203–211 hold Umar ibn Abd al-Aziz's sermons as caliph (his first sermon on taking office, p. 203), not a Medina sermon under al-Walid; the Medina label is unverified. (b) `khutbat-sulayman-ibn-abd-al-malik`: the sermons on vol 2 p. 306 are by a Khurasan commander calling to depose Sulayman, not by Sulayman; no Sulayman sermon was found. (c) `khutbat-abdullah-ibn-al-zubayr-makka`: vol 2 p. 524 lists his "sermon on the day he was killed" in the index only; the body was not located. Nothing rejected; these await the founder's ruling.
 
 ## Indexed totals
 

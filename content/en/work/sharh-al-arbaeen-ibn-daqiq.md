@@ -24,5 +24,8 @@ The commentary follows al-Nawawi's order. Each hadith has its own heading, "The 
 
 On the first hadith, the commentary notes its authenticity and fame, quotes al-Shafi'i and Ahmad that it accounts for a third of knowledge, and explains that a person's conduct is by heart, tongue and limbs, and intention is one of these. {cite:ibn-daqiq-arbaeen-haykal-2012 p. 67}, {cite:ibn-daqiq-arbaeen-haykal-2012 p. 68}
 
+## Another printing
+A second printing of the commentary, issued by al-Faisaliyya in Mecca, is held as a separate copy with its own pagination. Its title page gives the same author and work, so the record treats it as an edition of the same commentary and does not create a second entry. {cite:sharh-arbain-ibn-daqiq-faisaliyya p. 1}
+
 ## A note on the source
 Chains and reports in this record are given as the commentator and editor present them and have not been re-checked against other books. Page numbers are scan pages, which run one higher than the printed folios in the sampled pages. {cite:ibn-daqiq-arbaeen-haykal-2012 p. 67}
