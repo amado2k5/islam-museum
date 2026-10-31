@@ -4,3 +4,4 @@ Lane: [`docs/agents/lanes/prose-enrichment-100.md`](../agents/lanes/prose-enrich
 
 | Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
 |---|---|---|---|---|---|
+| 2026-10-31 | Devin (a–m) | batch 1: event, kamil-ibn-al-athir pp. 292–373 | 25 | 0 | — |
