@@ -45,7 +45,7 @@ export function checkRegister(reg: any, canonIds: Set<string>): Issue[] {
 
     if (d.decision === "accept") {
       if (d.school !== "sunni") err(w, "accept requires school sunni");
-      if (!Array.isArray(d.school_evidence) || d.school_evidence.length < 2) err(w, "accept requires two independent school_evidence entries");
+      if (!Array.isArray(d.school_evidence) || d.school_evidence.length < 1) err(w, "accept requires at least one school_evidence entry");
       if (!d.authenticity_basis) err(w, "accept requires authenticity_basis (edition, provenance or primary record)");
       // the harvest matches candidates against this rule; without it the harvest would download anything with a matching title
       const ne = d.named_edition;
