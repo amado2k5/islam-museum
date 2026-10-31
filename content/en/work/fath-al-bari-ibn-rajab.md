@@ -18,5 +18,10 @@ The commentary relies on verses and hadiths, gathers scholars' views on each que
 ## Structure of the volume
 The volume follows the chapters of the book of faith, from the first, "Islam is built on five", through "Your calling on Him is your faith" and "Matters of faith", to later chapters on the Islam of a person, faith, modesty and prayer. The first chapters begin on scan pages 7, 21 and 31. The volume ends in the book of ghusl, on scan page 393, at the chapter on washing what touches a woman's private parts. {cite:fath-al-bari-ibn-rajab-1417 p. 21}, {cite:fath-al-bari-ibn-rajab-1417 p. 31}, {cite:fath-al-bari-ibn-rajab-1417 p. 393}
 
+## Volume three: the book of prayer
+Volume three begins Bukhari's book of prayer and takes its chapters in order. Each chapter carries the number of the hadith in Bukhari's text, for example hadith 379 in the chapter "If a worshipper's garment touches his wife when he prostrates". {cite:fath-al-bari-ibn-rajab-1417-vol3 p. 5}, {cite:fath-al-bari-ibn-rajab-1417-vol3 p. 6}
+
+Where needed, the commentary refers back to an earlier passage. It notes that the hadith has already appeared in the chapters on menstruation, and uses it there to show that a menstruating woman's clothing is clean unless it shows impurity. It sets out the jurists' views on whether prayer is spoiled when a woman stands beside the worshipper: it is not spoiled if she is not praying, and disagreement arises only when both pray together with no barrier between them. Malik, Ahmad, Ishaq and later scholars are cited on the point. {cite:fath-al-bari-ibn-rajab-1417-vol3 p. 5}, {cite:fath-al-bari-ibn-rajab-1417-vol3 p. 6}
+
 ## A note on the source
 The views and chains in this record are those given by Ibn Rajab and the editors, and they have not been re-checked against other books. Page numbers are scan pages. {cite:fath-al-bari-ibn-rajab-1417 p. 7}
