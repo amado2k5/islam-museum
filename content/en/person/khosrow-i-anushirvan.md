@@ -19,3 +19,6 @@ Anushirvan was a king of Persia known to the Arabs for justice. He killed Mazdak
 
 ## Name
 In Arabic the name Anushirwan is the form of the surname of Chosroes I, from a Persian word meaning 'possessed of an immortal soul', later read as Nushirvan, 'possessed of a sweet soul'. Several Muslims bore it, among them a son of Manuchihr and of a daughter of Mahmud of Ghazni, who was amir of Jurjan from 420/1029 to 434/1042. {cite:encyclopaedia-of-islam-2 vol. 1 p. 546}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] says Anushirvan killed Mazdak and his followers and divided his realm into four quarters under four governors. {cite:akhbar-tiwal-amir p. 67} He completed the survey and fixed the land tax, set the jizya in classes, exempting nobles, marzbans, cavalry officers, scribes, royal servants and those under twenty or over fifty, had the register written in three copies, and made payment due in three instalments. {cite:akhbar-tiwal-amir p. 71} He reigned forty-eight years, and al-Dinawari places the Prophet's birth at the end of his reign. {cite:akhbar-tiwal-amir p. 74} {cite:akhbar-tiwal-amir p. 75}

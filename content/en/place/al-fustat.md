@@ -29,3 +29,12 @@ When Shawar could not hold Fustat and Cairo together, he ordered the people to l
 al-Mas'udi reports that some of the pyramids can be seen from Fustat, several miles away. {cite:muruj-al-dhahab p.542}
 
 al-Maqdisi arrived there around the year 375 AH. He called it Misr, the copier of Baghdad and the pride of Islam. He reports that a single house was home to about two hundred souls, and that about ten thousand people prayed behind the imam on Friday. {cite:ahsan-al-taqasim pp.162-163}
+
+## The founding in Ibn Abd al-Hakam
+[[person/amr-ibn-al-as|Amr]] wanted to settle in Alexandria. Umar asked whether water would come between him and the Muslims; told yes, when the Nile was in flood, he wrote that he did not wish the Muslims to settle where water would lie between him and them, and Amr moved to al-Fustat. {cite:futuh-misr-amir-1999 p. 132} {cite:futuh-misr-amir-1999 p. 133} Al-Layth reports from Yazid ibn Abi Habib that Umar wrote the same to Sa'd ibn Abi Waqqas and to his governor at Basra, so that Sa'd moved to Kufa and Amr to al-Fustat. {cite:futuh-misr-amir-1999 p. 133}
+
+## The name
+When Amr was about to march on Alexandria he ordered his tent struck, but doves had hatched their young in it. He said they had sought sanctuary with them, left the tent standing as it was, and put it in the care of the master of the fortress. When the Muslims returned and asked where to camp, they said: "The Fustat", Amr's tent, which stood on the spot later called Dar al-Hasa. {cite:futuh-misr-amir-1999 p. 133}
+
+## The plots
+Ibn Abd al-Hakam lists the tribal plots around the mosque and Amr's house: Quraysh, the Ansar, Aslam, Ghifar, Juhayna and the people of the Banner, then Bali, Lakhm, Ghafiq, Mahra, Tujib, al-Sadif and others. {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 p. 161} {cite:futuh-misr-amir-1999 p. 164} {cite:futuh-misr-amir-1999 p. 166} See [[place/khitat-al-fustat|the Khitat of al-Fustat]].

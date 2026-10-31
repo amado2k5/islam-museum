@@ -16,6 +16,6 @@ relations:
   - { type: had_participant, target: person/kharija-ibn-hudhafa-al-adawi, role: "في جيش الزبير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umayr-ibn-wahb, role: "في جيش الزبير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdullah-ibn-amr-ibn-al-as, role: "راوي القول الأثلج", sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1; extended by Devin (SWE-2 High) from Futuh al-Buldan (Ma'arif 1407), batch 19", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
-status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); extended by Devin (SWE-2 High) — cites juz'/page of the scans" }
+sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]
+provenance: { layer: own-research, source: "Tabari (Dar al-Maarif) j.4 pp. 102, 104, 578; Futuh al-Buldan (Maarif 1407) pp. 298–306; Futuh Misr (Amir ed. 1999) pp. 80–109", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1; extended by Devin (SWE-2 High) from Futuh al-Buldan (Ma'arif 1407), batch 19; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr (Amir ed.) pp. 80–109, run lib-futuh-misr-batch-2-2026-10-31", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999] }
+status: { review: published, completeness: 2, generated_by: "Claude (Haiku 5.5); extended by Devin (SWE-2 High) — cites juz'/page of the scans" }

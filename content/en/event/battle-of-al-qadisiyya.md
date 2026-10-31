@@ -31,3 +31,6 @@ He recounts Sa'd ibn Abi Waqqas praying before Qadisiyya, and the story of the c
 In the judge's sermon as the speaker recites it, Qadisiyya is listed among the battles, under Sa'd's command {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}.
 
 He recalls that Abu Lu'lu'a passed Persian captives in the days of Qadisiyya, in the context of his account of Umar's death (partly unclear) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}.
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that about twenty thousand men gathered for Sa'd, and that Yazdagird was crowned as a boy of sixteen and gave the command to Rustam ibn Hurmuz. {cite:akhbar-tiwal-amir p. 119} Rustam camped at Dayr al-A'war for four months to wear the Arabs down. {cite:akhbar-tiwal-amir p. 120} An abscess on his thigh kept Sa'd from riding, so he gave command to Khalid ibn Urfuta and stayed in the palace of al-Qadisiyya. {cite:akhbar-tiwal-amir p. 121} The Persians drew up in thirteen ranks and the Arabs in three. {cite:akhbar-tiwal-amir p. 122} Rustam was found with a hundred wounds, and no one knew who had killed him; some say he drowned in the river of al-Qadisiyya. {cite:akhbar-tiwal-amir p. 123}

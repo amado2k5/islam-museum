@@ -16,3 +16,6 @@ Abu Ubayd ordered the bridge built, and the people of Baniqya helped him. Then t
 His brother al-Hakam took the banner and was killed, then his son Jabr was killed. Then [[person/al-muthanna-ibn-haritha|al-Muthanna ibn Haritha]] took it for a while, and withdrew with the people. {cite:futuh-buldan-maarif-1407 p.351-352}
 
 The details come from al-Baladhuri's account, and some of them need an additional source.
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that Umar gave Abu Ubayd ibn Mas'ud al-Thaqafi command of five thousand, that al-Muthanna advised him not to cross, and that the dead were Abu Ubayd, then his brother al-Hakam, then Salit ibn Qays with a group of the Ansar, while al-Muthanna held the rear. {cite:akhbar-tiwal-amir p. 113} He dates it to a Saturday in Ramadan, 13, and says Umar wept at the news. {cite:akhbar-tiwal-amir p. 114}

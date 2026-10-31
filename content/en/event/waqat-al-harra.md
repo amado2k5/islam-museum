@@ -21,3 +21,12 @@ According to al-Mas'udi, a number of the Banu Hashim and the rest of Quraysh and
 He says that the people swore allegiance that they were slaves of Yazid, except Ali ibn al-Husayn and Ali ibn Abd Allah ibn al-Abbas. {cite:muruj-al-dhahab p.67-68}
 
 The two numbers differ between the sources, and the museum does not favour between them. The Shi'i report and other views are not added here and need an additional source.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] reports that the people of Medina put [[person/abdallah-ibn-muti-al-adawi|Abd Allah ibn Muti']] over Quraysh, [[person/abdullah-ibn-hanzala|Abd Allah ibn Hanzala]] over the Ansar, and [[person/maqil-ibn-sinan-al-ashjai|Ma'qil ibn Sinan al-Ashja'i]] over the tribes of the Muhajirun. {cite:tarikh-khalifa-umari-1985 p. 237} He reports from Abu al-Yaqzan and others that Yazid gave command of the army to [[person/muslim-ibn-uqba-al-murri|Muslim ibn Uqba]]. {cite:tarikh-khalifa-umari-1985 p. 238}
+
+## The roll of the slain
+Khalifa gives a "roll of those killed on the day of al-Harra" arranged by clan, from Banu Hashim and the rest of Quraysh to the Ansar. {cite:tarikh-khalifa-umari-1985 p. 240} He says that ninety-seven men of Quraysh themselves were killed. {cite:tarikh-khalifa-umari-1985 p. 245} The Ansar lost one hundred and seventy-three men; the editor restores from Siyar A'lam al-Nubala' the line that Quraysh and the Ansar together lost three hundred and six. {cite:tarikh-khalifa-umari-1985 p. 250} Among those executed after capture he names Ma'qil ibn Sinan al-Ashja'i, Muhammad ibn Abi Hudhayfa al-Adawi and Muhammad ibn Abi al-Jahm ibn Hudhayfa. {cite:tarikh-khalifa-umari-1985 p. 250}
+
+## The date
+In a line restored by the editor: Abu al-Hasan al-Mada'ini said the battle of al-Harra took place three nights before the end of Dhu al-Hijja, 63. {cite:tarikh-khalifa-umari-1985 p. 250}

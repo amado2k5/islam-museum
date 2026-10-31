@@ -17,3 +17,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## تاریخ
 اس میں اختلاف ہے: مدائنی کے نزدیک 14 ہجری، اور سیف کے نزدیک ربیع 16 ہجری۔ {cite:tabari-tarikh-abu-al-fadl j.3 p.590}
+
+## دینوری کے ہاں
+[[person/abu-hanifa-al-dinawari|دینوری]] روایت کرتے ہیں کہ عمر نے عتبہ بن غزوان کو دو ہزار آدمیوں کے ساتھ بھیجا جنہوں نے ابلہ کو بزور فتح کیا، جو عمان، بحرین، فارس، ہند اور چین کی بندرگاہ تھی، اور نافع بن حارث بصرہ میں سب سے پہلے خطہ لینے والے تھے۔ {cite:akhbar-tiwal-amir p. 116} {cite:akhbar-tiwal-amir p. 117}
