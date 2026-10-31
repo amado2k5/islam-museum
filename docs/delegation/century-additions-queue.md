@@ -731,11 +731,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahira Khan — 1984–Living
 - [x] Saba Qamar — 1984–Living
 - [x] Humayun Saeed — 1971–Living
-- [ ] Sharif Finch — 1995–Living
-- [ ] Muhammad Wilkerson — 1989–Living
-- [ ] Husain Abdullah — 1985–Living
-- [ ] Hamza Abdullah — 1983–Living
-- [ ] Naji Marshall — 1998–Living
+- [x] Sharif Finch — 1995–Living
+- [x] Muhammad Wilkerson — 1989–Living
+- [x] Husain Abdullah — 1985–Living
+- [x] Hamza Abdullah — 1983–Living
+- [x] Naji Marshall — 1998–Living
 - [ ] Tari Eason — 2001–Living
 - [ ] Jaylen Brown (Contemporary) — 1996–Living
 - [ ] Kyrie Irving — 1992–Living
