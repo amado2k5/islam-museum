@@ -34,3 +34,4 @@ These summaries disagree with the body or source; the prose follows the sources.
 - person/sariya-ibn-zunaym summary cites Tabari (Abu al-Fadl ed.) j.4 p. 178; that edition's OCR is not on disk, so the cite is unverified. The body follows Ibn Kathir's account of the same event.
 - Idrisi page numbers follow the scan 1-2_20240914 (pages.json); the data record names the 2002 Cairo edition, so the match should be confirmed.
 - place/tabriz: summary previously claimed Ilkhanid and Safavid capital status, which GeoNames cannot support; the summary is now reduced to location and provenance is added.
+| 2026-10-31 | Devin (a–m) | batch 8: place, futuh-buldan (anasan, armabil, ayadhaj, bajirwan, bawazij-al-anbar, bust, butq-shirin, darabadh, darjah-jank, dawraq, fasa, ishtikhan, jahram, karminiya, karyan, khushak, mihrajanqadhaf, kutha, al-rawha, al-salihiyya) | 20 | 0 | — |
