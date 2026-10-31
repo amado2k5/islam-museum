@@ -675,11 +675,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Azlan Shah — 1928–2014
 - [x] Hassanal Bolkiah — 1946–Living
 - [x] Omar Ali Saifuddien III — 1914–1986
-- [ ] Nur Misuari — 1939–Living
-- [ ] Murad Ebrahim — 1948–Living
-- [ ] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
-- [ ] Wan Muhamad Noor Matha — 1944–Living
-- [ ] Surin Pitsuwan — 1949–2017
+- [x] Nur Misuari — 1939–Living
+- [x] Murad Ebrahim — 1948–Living
+- [x] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
+- [x] Wan Muhamad Noor Matha — 1944–Living
+- [x] Surin Pitsuwan — 1949–2017
 - [ ] Azza Karam — 1968–Living
 - [ ] Dr. Sania Nishtar — 1963–Living
 - [ ] Dr. Zubaida Sirang — 1990–Living
@@ -1577,11 +1577,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
 - [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
 - [x] Ghulam Ahmad Mahjoor (1887–1952)
-- [ ] Abdul Ahad Azad (1903–1948)
-- [ ] Rasul Mir (1840–1870)
-- [ ] Mahmud Gami (1765–1855)
-- [ ] Maqbool Shah Kralwari (1820–1875)
-- [ ] Samad Mir (1893–1959)
+- [x] Abdul Ahad Azad (1903–1948)
+- [x] Rasul Mir (1840–1870)
+- [x] Mahmud Gami (1765–1855)
+- [x] Maqbool Shah Kralwari (1820–1875)
+- [x] Samad Mir (1893–1959)
 - [ ] Agha Shahid Ali (Ancestry) (1890–1940)
 - [ ] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
 - [x] Saifuddin Kitchlew (1888–1963)
