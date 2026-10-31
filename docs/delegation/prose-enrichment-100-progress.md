@@ -84,3 +84,4 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 4: place, futuh-buldan-maarif-1407 (sariya; p.469 checked against OCR) | 1 | 0 | — |
 - place/shuman: the summary says Fadl ibn al-Muhallab conquered it in Khurasan (Baladhuri). The OCR shows only a mention, at p.590, in the Transoxiana account, where the ruler of Shuman harassed the king of Saghaniyan. The conquest claim is not supported there. Left unchanged; needs checking against the printed book.
+| 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
