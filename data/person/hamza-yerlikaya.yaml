@@ -1,0 +1,38 @@
+id: person/hamza-yerlikaya
+class: person
+label: { ar: "حمزة يرليكايا", en: "Hamza Yerlikaya", ur: "حمزہ یرلی قایا" }
+names:
+  - { value: "Hamza Yerlikaya", kind: full }
+  - { value: "حمزة يرليكايا", kind: full }
+gender: male
+summary:
+  ar: "مصارع روماني تركي، وُلد في إسطنبول سنة 1976. بطل أولمبي مرتين (1996 و2000) وبطل عالم ثلاث مرات وبطل أوروبا ثماني مرات، وسُمّي مصارع القرن لدى الاتحاد الدولي. وبعد اعتزاله صار نائبًا في البرلمان ورئيسًا للاتحاد التركي للمصارعة ونائبًا لوزير الشباب والرياضة."
+  en: "Turkish Greco-Roman wrestler, born in Istanbul in 1976. A two-time Olympic champion (1996, 2000), three-time world champion and eight-time European champion, he was named FILA's Wrestler of the Century. After retiring he became a member of parliament, president of the Turkish Wrestling Federation and a deputy minister of youth and sports."
+  ur: "ترک گریکو رومن پہلوان، جو 1976 میں استنبول میں پیدا ہوئے۔ دو بار اولمپک چیمپئن (1996، 2000)، تین بار عالمی چیمپئن اور آٹھ بار یورپی چیمپئن؛ انہیں فیلا نے صدی کا پہلوان قرار دیا۔ ریٹائرمنٹ کے بعد وہ رکن پارلیمان، ترک ریسلنگ فیڈریشن کے صدر اور نائب وزیرِ کھیل بنے۔"
+roles: [wrestler]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1976-06-06"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 6 June 1976 in Kadıköy, Istanbul, per the English article and Wikidata. The Turkish article's lead gives 3 June 1976 (its officeholder infobox leaves the birth date blank); the record follows the two concordant sources. The Hijri year 1396 (8 Jumada al-awwal 1396) is the tabular conversion of 6 June 1976 and is marked derived."
+  sources: [source/wikipedia-hamza-yerlikaya-en, source/wikidata-hamza-yerlikaya]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hamza-yerlikaya-en, source/wikidata-hamza-yerlikaya] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Turkish article names a religion for him, and Wikidata records no religion statement. His parliamentary party and his federation and ministry posts are offices, not faith attestations, and are not used. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-hamza-yerlikaya-en, source/wikipedia-hamza-yerlikaya-tr, source/wikidata-hamza-yerlikaya]
+external_ids: { wikidata: "Q1399210" }
+sources: [source/wikipedia-hamza-yerlikaya-en, source/wikipedia-hamza-yerlikaya-tr, source/wikidata-hamza-yerlikaya]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1366514930), Turkish Wikipedia (revision 38218978) and Wikidata Q1399210 (item revision 2549389445, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; no Arabic Wikipedia article exists; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
