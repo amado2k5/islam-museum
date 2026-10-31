@@ -1,0 +1,55 @@
+id: person/ebrahim-alkazi
+class: person
+label:
+  ar: "إبراهيم القاضي"
+  en: "Ebrahim Alkazi"
+  ur: "ابراہیم الکازی"
+names:
+  - { value: "Ebrahim Alkazi", kind: full }
+  - { value: "Ebrahim Hamad Alkazi", kind: full }
+  - { value: "إبراهيم حمد القاضي", kind: full }
+gender: male
+born:
+  edtf: "1925-10-18"
+  hijri: "1344"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 18 October 1925 at Pune: the English article and Wikidata agree on the day; the Arabic article gives the year and city. The Hijri year 1344 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-ebrahim-alkazi-en, source/wikipedia-ebrahim-alkazi-ar, source/wikidata-ebrahim-alkazi]
+died:
+  edtf: "2020-08-04"
+  hijri: "1441"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 4 August 2020 at New Delhi: the English article and Wikidata agree on the day and the English article on the city; the Arabic article's infobox gives Mumbai instead, preserved here as a variant. The Hijri year 1441 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-ebrahim-alkazi-en, source/wikipedia-ebrahim-alkazi-ar, source/wikidata-ebrahim-alkazi]
+roles: [director, educator]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source attests any religion for Alkazi himself: Wikidata carries no religion value and neither biography names one. He was born into an Arab trading family — a father from Unaizah in Saudi Arabia and a Kuwaiti mother — and the Arabic article says he grew up in an open religious environment; his wife Roshen was an Ismaili Khoja. Family background, upbringing and a spouse's faith never count, so the record is an absence: unknown, unflagged."
+    sources: [source/wikidata-ebrahim-alkazi, source/wikipedia-ebrahim-alkazi-en, source/wikipedia-ebrahim-alkazi-ar]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-ebrahim-alkazi-en] }
+summary:
+  ar: "مخرج مسرحي ومعلم دراما هندي (1925–2020) من أب سعودي من عنيزة وأم كويتية، درس في الأكاديمية الملكية لفنون الدراما بلندن، وأدار المدرسة الوطنية للدراما في نيودلهي (1962–1977) فأحدث ثورة في المسرح الهندي الحديث، وأخرج أكثر من خمسين مسرحية."
+  en: "Indian theatre director and drama teacher (1925–2020), son of a Saudi father from Unaizah and a Kuwaiti mother, who trained at RADA in London and as director of the National School of Drama in New Delhi (1962–1977) transformed modern Indian theatre, staging more than fifty plays."
+  ur: "بھارتی تھیٹر ہدایت کار اور استادِ ڈراما (1925–2020)، جن کے والد عنیزہ (سعودی عرب) سے اور والدہ کویت سے تھیں؛ انھوں نے لندن کے راڈا میں تربیت پائی اور نئی دہلی کے نیشنل اسکول آف ڈراما کے ڈائریکٹر (1962–1977) کی حیثیت سے جدید بھارتی تھیٹر کو بدل کر رکھ دیا اور پچاس سے زائد ڈرامے پیش کیے۔"
+sources:
+  - source/wikipedia-ebrahim-alkazi-en
+  - source/wikipedia-ebrahim-alkazi-ar
+  - source/wikidata-ebrahim-alkazi
+external_ids:
+  wikidata: Q4561156
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Ebrahim Alkazi and the Wikidata item Q4561156, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Pune-born director of the National School of Drama (1925–2020), styled Ibrahim Hamad al-Qadi in Arabic. Existence checks by name fragments (alkazi) and by QID across data/person on origin/main found no prior record. The queue's years (1925–2020) are confirmed to the day. Relations written: died_in Delhi only — Pune has no place entity, and his children Amal Allana and Feisal Alkazi have no person records, so no family edge is written; his founding and directorship of institutions are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-128
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

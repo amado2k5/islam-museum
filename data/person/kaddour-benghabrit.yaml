@@ -1,0 +1,55 @@
+id: person/kaddour-benghabrit
+class: person
+label:
+  ar: "قدور بن غبريط"
+  en: "Kaddour Benghabrit"
+  ur: "قدور بن غبریط"
+names:
+  - { value: "Abdelkader Ben Ghabrit", kind: full }
+  - { value: "Kaddour Benghabrit", kind: full }
+  - { value: "Si Kaddour Benghabrit", kind: alternate }
+gender: male
+born:
+  edtf: "1868-11-01"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Sidi Bel Abbes, Algeria, on 1 November 1868, into a prominent Andalusian family of Tlemcen; the French article and Wikidata agree (the Arabic article gives the year only). Sidi Bel Abbes has no place entity, so no born_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-kaddour-benghabrit-fr, source/wikidata-kaddour-benghabrit]
+died:
+  edtf: "1954-06-24"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Paris on 24 June 1954 and was buried in a reserved area north of the Grand Mosque of Paris, according to the Maliki rite. Paris has no place entity, so no died_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-kaddour-benghabrit-fr, source/wikipedia-kaddour-benghabrit-en, source/wikidata-kaddour-benghabrit]
+roles: [theologian, diplomat, translator]
+regions: [maghreb, andalus-europe]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. No source read names a school for him personally. The suggestive material is preserved unclassified: he was educated at the Thaalibiya madrasa in Algiers and al-Karaouine in Fez, served a Maliki Muslim milieu throughout his career, and was buried according to the Maliki rite — but schooling, milieu and burial rite are background and circumstance, which never count, and the encyclopedia family's Maliki-rite burial notice is a single family in any case. Wikidata's religion value is Islam in general."
+    sources: [source/wikipedia-kaddour-benghabrit-en, source/wikipedia-kaddour-benghabrit-fr, source/wikidata-kaddour-benghabrit]
+relations: []
+summary:
+  ar: "عالم وموظف رفيع جزائري (1868-1954) عمل مترجماً ودبلوماسياً لدى الخارجية الفرنسية وفي خدمة سلطان المغرب، وأسس المعهد الإسلامي ومسجد باريس الكبير وكان أول رئيس له (1926-1954)، وعُرف في الحرب العالمية الثانية بحماية اليهود في المسجد وإصدار شهادات هوية مسلمة لهم."
+  en: "Algerian scholar and high official (1868-1954) who served France as interpreter and diplomat and the Sultan of Morocco as head of protocol; he founded the Muslim Institute of the Grand Mosque of Paris and was its first rector (1926-1954), and during the Second World War sheltered Jews at the mosque and issued them Muslim identity certificates."
+  ur: "الجزائری عالم اور اعلیٰ عہدے دار (1868ء–1954ء) جنہوں نے فرانس کے لیے مترجم و سفارت کار اور سلطانِ مراکش کے لیے رئیسِ پروٹوکول کی خدمات انجام دیں؛ انہوں نے پیرس کی عظیم مسجد کا مسلم انسٹی ٹیوٹ قائم کیا اور اس کے پہلے ریکٹر رہے (1926ء–1954ء)، اور دوسری جنگِ عظیم کے دوران یہودیوں کو مسجد میں پناہ دی اور انہیں مسلمان شناختی سرٹیفکیٹ جاری کیے۔"
+sources:
+  - source/wikipedia-kaddour-benghabrit-en
+  - source/wikipedia-kaddour-benghabrit-fr
+  - source/wikipedia-kaddour-benghabrit-ar
+  - source/wikidata-kaddour-benghabrit
+external_ids:
+  wikidata: Q3482807
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Si Kaddour Benghabrit' (revision 1372171820 of 30 August 2026), French Wikipedia article 'Kaddour Benghabrit' (revision 240589978 of 21 October 2026) and Arabic Wikipedia article 'قدور بن غبريط' (revision 75304040 of 10 June 2026), all read in full, and the Wikidata item Q3482807 (item revision 2536720567 of 26 August 2026); every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the articles' page properties. The Arabic article's stray statement that he worked at the Musée d'Orsay is a garble and is not followed. Existence checks by name fragments (benghabrit, ben-ghabrit) and by QID across data/person on origin/main found no prior record. No relations are written: Sidi Bel Abbes and Paris have no place entities, and the Paris rectorship is an office, not a relation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-126
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -670,36 +670,36 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Najib Razak — 1953–Living
 - [x] Muhyiddin Yassin — 1947–Living
 - [x] Ismail Sabri Yaakob — 1960–Living
-- [ ] Anwar Ibrahim — 1947–Living
-- [ ] Sultan Ibrahim Ismail — 1958–Living
-- [ ] Sultan Azlan Shah — 1928–2014
-- [ ] Hassanal Bolkiah — 1946–Living
-- [ ] Omar Ali Saifuddien III — 1914–1986
-- [ ] Nur Misuari — 1939–Living
-- [ ] Murad Ebrahim — 1948–Living
-- [ ] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
-- [ ] Wan Muhamad Noor Matha — 1944–Living
-- [ ] Surin Pitsuwan — 1949–2017
-- [ ] Azza Karam — 1968–Living
-- [ ] Dr. Sania Nishtar — 1963–Living
-- [ ] Dr. Zubaida Sirang — 1990–Living
-- [ ] Dr. Abdul Samad — 1980–Living
-- [ ] Dr. Muhammad Ashraf — 1953–Living
-- [ ] Dr. Salim Ali (Contemporary) — 1896–1987
-- [ ] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
-- [ ] Hakim Abdul Hameed — 1908–1999
-- [ ] Dr. Syed Zahoor Qasim — 1926–2015
-- [ ] Asghar Ali Engineer — 1939–2013
-- [ ] Maulana Abul Kalam Azad — 1888–1958
-- [ ] Zakir Husain — 1897–1969
-- [ ] Fakhruddin Ali Ahmed — 1905–1977
-- [ ] Mohammad Hidayatullah — 1905–1992
-- [ ] M. C. Chagla — 1900–1981
-- [ ] Syed Shahabuddin — 1935–2017
-- [ ] Ebrahim Alkazi — 1925–2020
-- [ ] Habib Tanvir — 1923–2009
-- [ ] Kaifi Azmi — 1919–2002
-- [ ] Javed Akhtar — 1945–Living
+- [x] Anwar Ibrahim — 1947–Living
+- [x] Sultan Ibrahim Ismail — 1958–Living
+- [x] Sultan Azlan Shah — 1928–2014
+- [x] Hassanal Bolkiah — 1946–Living
+- [x] Omar Ali Saifuddien III — 1914–1986
+- [x] Nur Misuari — 1939–Living
+- [x] Murad Ebrahim — 1948–Living
+- [x] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
+- [x] Wan Muhamad Noor Matha — 1944–Living
+- [x] Surin Pitsuwan — 1949–2017
+- [x] Azza Karam — 1968–Living
+- [x] Dr. Sania Nishtar — 1963–Living
+- [x] Dr. Zubaida Sirang — 1990–Living
+- [x] Dr. Abdul Samad — 1980–Living
+- [~] Dr. Muhammad Ashraf — 1953–Living
+- [x] Dr. Salim Ali (Contemporary) — 1896–1987
+- [x] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
+- [x] Hakim Abdul Hameed — 1908–1999
+- [x] Dr. Syed Zahoor Qasim — 1926–2015
+- [x] Asghar Ali Engineer — 1939–2013
+- [x] Maulana Abul Kalam Azad — 1888–1958
+- [x] Zakir Husain — 1897–1969
+- [x] Fakhruddin Ali Ahmed — 1905–1977
+- [x] Mohammad Hidayatullah — 1905–1992
+- [x] M. C. Chagla — 1900–1981
+- [x] Syed Shahabuddin — 1935–2017
+- [x] Ebrahim Alkazi — 1925–2020
+- [x] Habib Tanvir — 1923–2009
+- [x] Kaifi Azmi — 1919–2002
+- [x] Javed Akhtar — 1945–Living
 - [ ] Shabana Azmi — 1950–Living
 - [ ] Naseeruddin Shah — 1950–Living
 - [ ] Irrfan Khan — 1967–2020
@@ -1577,39 +1577,39 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
 - [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
 - [x] Ghulam Ahmad Mahjoor (1887–1952)
-- [ ] Abdul Ahad Azad (1903–1948)
-- [ ] Rasul Mir (1840–1870)
-- [ ] Mahmud Gami (1765–1855)
-- [ ] Maqbool Shah Kralwari (1820–1875)
-- [ ] Samad Mir (1893–1959)
-- [ ] Agha Shahid Ali (Ancestry) (1890–1940)
-- [ ] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
+- [x] Abdul Ahad Azad (1903–1948)
+- [x] Rasul Mir (1840–1870)
+- [x] Mahmud Gami (1765–1855)
+- [x] Maqbool Shah Kralwari (1820–1875)
+- [x] Samad Mir (1893–1959)
+- [~] Agha Shahid Ali (Ancestry) (1890–1940)
+- [~] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
 - [x] Saifuddin Kitchlew (1888–1963)
-- [ ] Justice Din Muhammad (1886–1952)
-- [ ] Mian Abdul Rashid (1889–1981)
-- [ ] Khalifa Shuja-ud-Din (1887–1955)
-- [ ] Allama Abdullah Yusuf Ali (1872–1953)
-- [ ] Pickthall's Muslim Colleagues (1910–1935)
-- [ ] Abdullah Quilliam (1856–1932)
-- [ ] Lord Headley (Rowland Allanson-Winn) (1855–1935)
-- [ ] Muhammad Marmaduke Pickthall (1875–1936)
-- [ ] Khalid Sheldrake (1888–1947)
-- [ ] Sir Archibald Hamilton (1876–1939)
-- [ ] Lady Evelyn Cobbold (1867–1963)
-- [ ] Tariq Benouri (1860–1925)
-- [ ] Adda Benshitrit (1870–1935)
-- [ ] Sheikh Si Kaddour Benghabrit (1868–1954)
-- [ ] Hamza Boubakeur (Ancestors) (1890–1940)
-- [ ] Mahmud Brelvi (1905–1985)
-- [ ] Ahmed Peshtani (1850–1915)
-- [ ] Haxhi Zeka (1832–1902)
-- [ ] Ymer Prizreni (1820–1887)
-- [ ] Avni Rustemi (1895–1924)
-- [ ] Bajram Curri (1862–1925)
-- [ ] Luigj Gurakuqi (Muslim Allies) (1879–1925)
-- [ ] Hasan Prishtina (1873–1933)
-- [ ] Essad Pasha Toptani (1863–1920)
-- [ ] Vehbi Dibra (1867–1937)
+- [x] Justice Din Muhammad (1886–1952)
+- [x] Mian Abdul Rashid (1889–1981)
+- [x] Khalifa Shuja-ud-Din (1887–1955)
+- [x] Allama Abdullah Yusuf Ali (1872–1953)
+- [~] Pickthall's Muslim Colleagues (1910–1935)
+- [x] Abdullah Quilliam (1856–1932)
+- [x] Lord Headley (Rowland Allanson-Winn) (1855–1935)
+- [x] Muhammad Marmaduke Pickthall (1875–1936)
+- [x] Khalid Sheldrake (1888–1947)
+- [x] Sir Archibald Hamilton (1876–1939)
+- [x] Lady Evelyn Cobbold (1867–1963)
+- [~] Tariq Benouri (1860–1925)
+- [~] Adda Benshitrit (1870–1935)
+- [x] Sheikh Si Kaddour Benghabrit (1868–1954)
+- [~] Hamza Boubakeur (Ancestors) (1890–1940)
+- [x] Mahmud Brelvi (1905–1985)
+- [~] Ahmed Peshtani (1850–1915)
+- [x] Haxhi Zeka (1832–1902)
+- [x] Ymer Prizreni (1820–1887)
+- [x] Avni Rustemi (1895–1924)
+- [x] Bajram Curri (1862–1925)
+- [x] Luigj Gurakuqi (Muslim Allies) (1879–1925)
+- [x] Hasan Prishtina (1873–1933)
+- [x] Essad Pasha Toptani (1863–1920)
+- [x] Vehbi Dibra (1867–1937)
 - [ ] Hafiz Ali Korça (1873–1956)
 - [ ] Salih Safvet Bašić (1886–1948)
 - [ ] Safvet-beg Bašagić (1870–1934)

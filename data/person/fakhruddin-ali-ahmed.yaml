@@ -1,0 +1,50 @@
+id: person/fakhruddin-ali-ahmed
+class: person
+label:
+  ar: "فخر الدين علي أحمد"
+  en: "Fakhruddin Ali Ahmed"
+  ur: "فخرالدین علی احمد"
+names:
+  - { value: "Fakhruddin Ali Ahmed", kind: full }
+gender: male
+summary:
+  ar: "محامٍ وسياسي هندي (1905–1977)، وزير مالية آسام سنة 1939 ثم من 1957 إلى 1966، ومحاميها العام منذ 1946، ووزير في الحكومة المركزية منذ 1966. وبوصفه خامس رؤساء الهند (1974–1977) أعلن «حالة الطوارئ» في يونيو 1975 بنصيحة رئيسة الوزراء؛ وتوفي في المنصب بأزمة قلبية في 11 فبراير 1977، وهو ثاني مسلم يتولى الرئاسة."
+  en: "Indian lawyer and politician (1905–1977), finance minister of Assam in 1939 and again from 1957 to 1966, the province's advocate general from 1946, and a Union cabinet minister from 1966. As fifth president of India (1974–1977) he proclaimed the Emergency of June 1975 on the prime minister's advice; he died in office of a heart attack on 11 February 1977, the second Muslim to hold the presidency."
+  ur: "ہندوستانی وکیل اور سیاست دان (1905ء–1977ء)، 1939ء میں اور پھر 1957ء سے 1966ء تک آسام کے وزیرِ خزانہ، 1946ء سے صوبے کے ایڈووکیٹ جنرل، اور 1966ء سے مرکزی کابینہ کے وزیر۔ ہندوستان کے پانچویں صدر (1974ء–1977ء) کی حیثیت سے انھوں نے جون 1975ء میں وزیرِ اعظم کے مشورے پر ایمرجنسی نافذ کی؛ 11 فروری 1977ء کو دل کے دورے سے عہدے میں وفات پائی، وہ صدارت سنبھالنے والے دوسرے مسلمان تھے۔"
+roles: [politician, jurist]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1905-05-13"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 13 May 1905 at Delhi, as the English article's lead and infobox and Wikidata give. The Hijri year (1323) is by tabular conversion."
+  sources: [source/wikipedia-fakhruddin-ali-ahmed-en, source/wikidata-fakhruddin-ali-ahmed]
+died:
+  edtf: "1977-02-11"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 11 February 1977 at New Delhi, of a heart attack, in office as president, as the English article and Wikidata give; he was buried, after a state funeral, in a mosque near Parliament House. The Hijri year (1397) is by tabular conversion."
+  sources: [source/wikipedia-fakhruddin-ali-ahmed-en, source/wikidata-fakhruddin-ali-ahmed]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-fakhruddin-ali-ahmed-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-fakhruddin-ali-ahmed-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read — English, Arabic or Urdu — names a school for Fakhruddin Ali Ahmed, and his Wikidata item's only religion value is Islam (Q432), a generic value that names no school. His Congress career, his Assam and Union ministries and his presidency are office-holding, which never counts as personal attestation. Absence configuration: his school is recorded unknown, unflagged."
+    sources: [source/wikipedia-fakhruddin-ali-ahmed-en, source/wikipedia-fakhruddin-ali-ahmed-ar, source/wikipedia-fakhruddin-ali-ahmed-ur, source/wikidata-fakhruddin-ali-ahmed]
+external_ids: { wikidata: "Q317778" }
+sources: [source/wikipedia-fakhruddin-ali-ahmed-en, source/wikipedia-fakhruddin-ali-ahmed-ar, source/wikipedia-fakhruddin-ali-ahmed-ur, source/wikidata-fakhruddin-ali-ahmed]
+provenance:
+  layer: own-research
+  source: "Identity: the queue line 'Fakhruddin Ali Ahmed — 1905–1977' matches the fifth president of India's biography and dates exactly. English Wikipedia 'Fakhruddin Ali Ahmed' (revision 1373595884 of 6 September 2026); Arabic Wikipedia «فخر الدين علي أحمد» (revision 74542658 of 9 May 2026); Urdu Wikipedia «فخرالدین علی احمد» (revision 12105176 of 6 October 2026) and Wikidata item Q317778 (item revision 2530005541 of 11 August 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026; every recorded revision id was fetched live in this session and asserted as the current revision before any claim was drawn, and the QID was grounded through the English article's own page property. Existence checked both directions before building: the fragment fakhruddin returned no data/person id or label on origin/main, and Q317778 appears in no person file; no record existed. Relations are his Delhi birth and death only; his ministries and presidency are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-127
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

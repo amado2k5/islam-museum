@@ -1,0 +1,44 @@
+id: person/surin-pitsuwan
+class: person
+label: { ar: "سورين بيتسوان", en: "Surin Pitsuwan", ur: "سورین پتسوان" }
+names:
+  - { value: "Surin Abdul Halim bin Ismail Pitsuwan", kind: full }
+gender: male
+summary:
+  ar: "دبلوماسي وسياسي تايلندي من أصل ملايوي، وُلد في ناخون سي تامارات سنة 1949 وتوفي في بانكوك سنة 2017. عالم سياسة تدرّب في هارفارد، تولى وزارة الخارجية التايلندية من 1997 إلى 2001، ثم صار الأمين العام الثاني عشر لرابطة دول جنوب شرق آسيا (آسيان) من 2008 إلى 2012، وهو أول من تولى هذا المنصب بخبرة سياسية معتبرة."
+  en: "Thai diplomat and politician of Malay descent, born at Nakhon Si Thammarat in 1949 and died at Bangkok in 2017. A Harvard-trained political scientist, he was Thailand's foreign minister from 1997 to 2001 and then the twelfth secretary-general of ASEAN from 2008 to 2012, the first holder of that office with significant political experience."
+  ur: "ملائی نژاد تھائی سفارت کار اور سیاست دان، 1949ء میں ناخون سی تھامارات میں پیدا ہوئے اور 2017ء میں بینکاک میں وفات پائی۔ ہارورڈ سے تربیت یافتہ سیاسیات دان تھے؛ 1997ء سے 2001ء تک تھائی لینڈ کے وزیرِ خارجہ رہے، پھر 2008ء سے 2012ء تک آسیان کے بارہویں سیکرٹری جنرل رہے — اس منصب پر نمایاں سیاسی تجربہ رکھنے والے پہلے شخص۔"
+roles: [politician, teacher]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1949-10-28"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 28 October 1949 at Nakhon Si Thammarat, as the English, Thai, Indonesian and Egyptian Arabic articles and Wikidata give. The Hijri year (1369) is by tabular conversion. Nakhon Si Thammarat has no place entity here (verified against origin/main in this session), so no born_in relation is written."
+  sources: [source/wikipedia-surin-pitsuwan-en, source/wikipedia-surin-pitsuwan-th, source/wikipedia-surin-pitsuwan-id, source/wikipedia-surin-pitsuwan-arz, source/wikidata-surin-pitsuwan]
+died:
+  edtf: "2017-11-30"
+  hijri: "1439"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 30 November 2017 at Bangkok, of heart failure, as the English, Thai and Indonesian articles and Wikidata give; the Thai article records his Islamic funeral prayer at the Tha It mosque on 1 December 2017. The Hijri year (1439) is by tabular conversion. Bangkok has no place entity here (verified against origin/main in this session), so no died_in relation is written."
+  sources: [source/wikipedia-surin-pitsuwan-en, source/wikipedia-surin-pitsuwan-th, source/wikipedia-surin-pitsuwan-id, source/wikidata-surin-pitsuwan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Indonesian article's infobox files his religion as 'Sunni Islam', and its text describes him as a Muslim of Pattani Malay descent; the Thai article's infobox and Wikidata give Islam in general (Q432). A single infobox filing is one structured attestation from a single family and never counts on its own — the configuration of person/amr-khaled, whose school likewise stays unknown on an infobox filing plus a generic structured value — and no second, independent source naming the Sunni school for the man himself in prose was found among the articles read. Under the two-source rule and the doubt rule his school stays unknown, with the Indonesian infobox's Sunni reading preserved here rather than suppressed."
+    sources: [source/wikipedia-surin-pitsuwan-en, source/wikipedia-surin-pitsuwan-id, source/wikipedia-surin-pitsuwan-th, source/wikidata-surin-pitsuwan]
+external_ids: { wikidata: "Q1301964" }
+sources: [source/wikipedia-surin-pitsuwan-en, source/wikipedia-surin-pitsuwan-arz, source/wikipedia-surin-pitsuwan-th, source/wikipedia-surin-pitsuwan-id, source/wikidata-surin-pitsuwan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Surin Pitsuwan' (revision 1382724859 of 29 October 2026), Egyptian Arabic Wikipedia «سورين پيتسوان» (revision 12879658 of 9 December 2025), Thai Wikipedia «สุรินทร์ พิศสุวรรณ» (revision 13278960 of 17 September 2026), Indonesian Wikipedia 'Surin Pitsuwan' (revision 29958676 of 24 September 2026) and Wikidata item Q1301964 (item revision 2562781116 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the other articles' page properties, with the item's description ('Thai politician (1949-2017)') matching the queue entry. Existence checked both directions before building: name fragments (Surin, Pitsuwan) and Q1301964 grepped across all data/person files on origin/main — no hits. No standard Arabic or Urdu Wikipedia article exists; the Egyptian Arabic stub is registered for Arabic, the Thai and Indonesian articles for the rest (the wahid-hasyim precedent), and the Arabic and Urdu labels and prose are supplied regardless. No relations are written: Nakhon Si Thammarat and Bangkok have no place entities here (verified against origin/main in this session), and his ASEAN secretary-generalship is an office succession, carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-124
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

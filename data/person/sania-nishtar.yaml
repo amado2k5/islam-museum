@@ -1,0 +1,37 @@
+id: person/sania-nishtar
+class: person
+label: { ar: "سانيا نشتر", en: "Sania Nishtar", ur: "ثانیہ نشتر" }
+names:
+  - { value: "Sania Nishtar", kind: full }
+  - { value: "سانيا نشتر", kind: full }
+  - { value: "ثانیہ نشتر", kind: full }
+gender: female
+summary:
+  ar: "طبيبة قلب وسياسية باكستانية وُلدت في بيشاور في 16 فبراير 1963. تخرجت في كلية خيبر للطب أولى على دفعتها سنة 1986 ونالت الدكتوراه من كلية كينغز لندن، وأسست منظمة هارتفايل للسياسات الصحية، وشغلت مناصب وزارية في الحكومة الانتقالية سنة 2013، وقادت برنامج إحساس لتخفيف الفقر مساعدة خاصة لرئيس الوزراء برتبة وزيرة اتحادية، وانتُخبت لعضوية مجلس الشيوخ سنة 2021، وعُيّنت سنة 2024 رئيسة تنفيذية لتحالف غافي للقاحات."
+  en: "Pakistani cardiologist and politician, born in Peshawar on 16 February 1963. She graduated top of her class from Khyber Medical College in 1986 and took her PhD at King's College London, founded the health-policy think tank Heartfile, held caretaker cabinet portfolios in 2013, led the Ehsaas poverty-alleviation programme as special assistant to the prime minister with federal-minister rank, was elected to the Senate in 2021, and in 2024 became CEO of Gavi, the Vaccine Alliance."
+  ur: "پاکستانی ماہر امراض قلب اور سیاست دان، جو 16 فروری 1963ء کو پشاور میں پیدا ہوئیں۔ انھوں نے 1986ء میں خیبر میڈیکل کالج سے اپنی جماعت میں اول آ کر گریجویشن کی اور کنگز کالج لندن سے پی ایچ ڈی کی، صحتی پالیسی کے تھنک ٹینک ہارٹ فائل کی بنیاد رکھی، 2013ء میں نگران کابینہ میں وزارتیں سنبھالیں، وفاقی وزیر کے درجے کے ساتھ وزیر اعظم کی معاون خصوصی کی حیثیت سے احساس پروگرام کی قیادت کی، 2021ء میں سینیٹ کی رکن منتخب ہوئیں، اور 2024ء میں ویکسین الائنس گاوی کی چیف ایگزیکٹو بن گئیں۔"
+roles: [physician, politician, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1963-02-16"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 16 February 1963 at Peshawar, as the English, Arabic and Urdu articles and Wikidata all give. The Hijri year (1382) is by tabular conversion. Peshawar has no place entity here (verified against origin/main in this session), so no born_in relation is written."
+  sources: [source/wikipedia-sania-nishtar-en, source/wikipedia-sania-nishtar-ar, source/wikipedia-sania-nishtar-ur, source/wikidata-sania-nishtar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Sania Nishtar, and Wikidata carries no religion value for her at all. The articles note her father's respected Syed family — family background, which never counts — and her marriage into the family of the Pakistan-movement leader Abdur Rab Nishtar, which likewise never counts and is not written as a relation here. Her health and poverty-alleviation offices never count. Under the two-source rule and the doubt rule her school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-sania-nishtar-en, source/wikipedia-sania-nishtar-ar, source/wikipedia-sania-nishtar-ur, source/wikidata-sania-nishtar]
+external_ids: { wikidata: "Q15995365" }
+sources: [source/wikipedia-sania-nishtar-en, source/wikipedia-sania-nishtar-ar, source/wikipedia-sania-nishtar-ur, source/wikidata-sania-nishtar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sania Nishtar' (revision 1378639038 of 5 October 2026), Arabic Wikipedia «سانيا نشتر» (revision 75975570 of 23 July 2026), Urdu Wikipedia «ثانیہ نشتر» (revision 12087821 of 3 October 2026) and Wikidata item Q15995365 (item revision 2561054080 of 26 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Pakistani cardiologist, senator, CEO') matching the queue entry. Existence checked both directions before building: name fragments (Nishtar, نشتر) and Q15995365 grepped across all data/person files on origin/main — the only Nishtar record is the Pakistan-movement leader abdur-rab-nishtar, a different person; no relation is written between them, since the articles attest only her marriage to his grandson and pair edges are not written from in-law descent in this lane. Peshawar has no place entity here, so no born_in edge is possible; her Heartfile founding, ministries, Senate seat and Gavi post are organisational and are carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

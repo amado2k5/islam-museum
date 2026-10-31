@@ -1,0 +1,53 @@
+id: person/rasul-mir
+class: person
+label:
+  ar: "رسول مير"
+  en: "Rasul Mir"
+  ur: "رسول میر"
+names:
+  - { value: "Rasul Mir", kind: full }
+  - { value: "Rasul Mir Shahabadi", kind: alternate }
+gender: male
+born:
+  edtf: "1840"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Doru Shahabad in Anantnag district, into a family of zamindars who were the village heads of Mir Maidan. The year 1840 is the conventional dating, stated as fact by the Kashmir Times (Wikidata holds no birth value for him at all); the English biography states plainly that his birth and death years remain a debatable subject, which is why the date is carried as debated. A bare Gregorian year spans two Hijri years (1840 falls across 1255–1256 AH), so no hijri key is carried."
+  sources: [source/kashmir-times-gami-rasul-triad, source/wikipedia-rasul-mir-en]
+died:
+  edtf: "1870"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The year 1870 follows Wikidata and the Kashmir Times. The English biography's narrative sits awkwardly with it: it places him alive around 1855 and dead a few years before Maqbool Shah Kralawari (d. 1877), yet also reports, from Taing's Kulliyat edition, a revenue department document of 5 April 1889 acknowledging him as a serving muqdam (village headman) — a reading preserved here, not resolved. A bare Gregorian year spans two Hijri years (1870 falls across 1286–1287 AH), so no hijri key is carried."
+  sources: [source/wikidata-rasul-mir, source/kashmir-times-gami-rasul-triad, source/wikipedia-rasul-mir-en]
+roles: [poet]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school or an order for him, and his Wikidata item carries no religion value. The English biography reports that in later life he became a disciple of a murshid, Sheikh Ahmad Tarabali, with a second murshid at Tral — a single text's report of discipleship, which is not an attestation of affiliation and is never written as a relation; the same biography stresses that he 'delved less on Tasavvuf' and 'had turned his back on mysticism as he was not a mystic', his one religious poem being on the death of Muhammad. The discipleship reading and the counter-reading are both preserved here, unclassified."
+    sources: [source/wikipedia-rasul-mir-en, source/wikidata-rasul-mir]
+relations: []
+summary:
+  ar: "شاعر الغزل الرومانسي الكشميري من دورو شاه آباد، الملقب بإمام العشقية و«جان كيتس كشمير»، الذي أدخل الغزل رسمياً إلى الشعر الكشميري ولم يبقَ من كلامه سوى نحو تسع وسبعين قصيدة."
+  en: "Kashmiri romantic ghazal poet of Doru Shahabad, called Imam-e-Ishqiya Shairi and the John Keats of Kashmir, who formally brought the ghazal into Kashmiri poetry; some seventy-nine poems of his survive."
+  ur: "ڈورو شاہ آباد کے کشمیری رومانوی غزل گو شاعر، جنھیں امامِ عشقیہ شاعری اور «کشمیری جان کیٹس» کہا جاتا ہے؛ انھوں نے غزل کو باقاعدہ کشمیری شاعری میں داخل کیا اور ان کا کلام تقریباً اناسی نظموں پر مشتمل ہے۔"
+sources:
+  - source/wikipedia-rasul-mir-en
+  - source/wikipedia-rasul-mir-ur
+  - source/wikipedia-rasul-mir-ks
+  - source/wikidata-rasul-mir
+  - source/kashmir-times-gami-rasul-triad
+external_ids:
+  wikidata: Q7295332
+provenance:
+  layer: own-research
+  source: "English, Urdu and Kashmiri Wikipedia biographies of Rasul Mir (Q7295332), the Wikidata item and Rao Farman Ali's Kashmir Times feature on the Dooru poets, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the romantic poet of Doru Shahabad, not Syed Mir Qasim or any other Mir of the Kashmir lists. Existence checks by name fragments (rasul, mir) and by QID across data/person on origin/main found no prior record; Ghulam Rasul Alampuri and Ghulam Rasul Balyawi are different men. The queue's years (1840–1870) are carried as debated for the reasons stated in the date notes. Relations written: none — discipleship to Sheikh Ahmad Tarabali is not an edge, and Doru Shahabad and Anantnag have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-123
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

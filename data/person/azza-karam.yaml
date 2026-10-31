@@ -1,0 +1,35 @@
+id: person/azza-karam
+class: person
+label: { ar: "عزة كرم", en: "Azza Karam", ur: "عزہ کرم" }
+names:
+  - { value: "عزة كرم", kind: full }
+  - { value: "Azza Karam", kind: full }
+gender: female
+summary:
+  ar: "أستاذة ومؤلفة مصرية وُلدت سنة 1968، رائدة عمل الأمم المتحدة في ربط الدين بالتنمية المستدامة. درست في الجامعة الأمريكية بالقاهرة وجامعة أمستردام، وعملت مستشارة أولى في برنامج الأمم المتحدة الإنمائي وصندوق الأمم المتحدة للسكان، وأسست فريق العمل المشترك بين وكالات الأمم المتحدة المعني بالدين والتنمية، وانتُخبت سنة 2019 أول امرأة وأول مسلمة وأول شخصية من شمال أفريقيا أمينة عامة لمنظمة أديان من أجل السلام، فشغلت المنصب حتى استقالتها في يوليو 2023؛ وهي أستاذة الدين والتنمية في جامعة فريي أمستردام وأستاذة منتسبة في معهد الأنصاري بجامعة نوتردام."
+  en: "Egyptian professor and author, born in 1968, who pioneered the United Nations' work linking religion with sustainable development. Educated at the American University in Cairo and the University of Amsterdam, she served as a senior advisor at UNDP and UNFPA, founded the UN Inter-Agency Task Force on Religion and Development, and in 2019 was elected the first woman, first Muslim and first North African secretary general of Religions for Peace, holding the post until her resignation in July 2023; she is professor of religion and development at the Vrije Universiteit Amsterdam and an affiliate professor at Notre Dame's Ansari Institute."
+  ur: "مصری پروفیسر اور مصنفہ، جو 1968ء میں پیدا ہوئیں اور جنھوں نے اقوام متحدہ میں مذہب کو پائیدار ترقی سے جوڑنے کے کام کی قیادت کی۔ انھوں نے قاہرہ کی امریکن یونیورسٹی اور یونیورسٹی آف ایمسٹرڈیم سے تعلیم حاصل کی، یو این ڈی پی اور یو این ایف پی اے میں سینئر مشیر رہیں، مذہب و ترقی پر اقوام متحدہ کی بین الایجنسی ٹاسک فورس کی بنیاد رکھی، اور 2019ء میں «ادیان برائے امن» (Religions for Peace) کی پہلی خاتون، پہلی مسلمان اور پہلی شمالی افریقی سیکرٹری جنرل منتخب ہوئیں اور جولائی 2023ء میں استعفے تک اس عہدے پر رہیں؛ وہ ورئیے یونیورسٹی ایمسٹرڈیم میں مذہب و ترقی کی پروفیسر اور نوٹرے ڈیم کے انصاری انسٹی ٹیوٹ میں منسلک پروفیسر ہیں۔"
+roles: [scholar, writer]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1968"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year only, as Wikidata gives it (1968, year precision); no source read gives a day or month, and no Hijri year is recorded because a bare Gregorian year spans two Hijri years (1387–1388). Wikidata places her birth in Egypt at country level only, so no born_in relation is written."
+  sources: [source/wikidata-azza-karam]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Azza Karam. The articles describe her upbringing in a conservative Egyptian Muslim family — family background, which never counts — and her election as the first Muslim secretary general of Religions for Peace, a description of her religious identity in a career context that names no school; her professional work on religion and interfaith collaboration never counts either. Wikidata carries no religion value for her at all. Under the two-source rule and the doubt rule her school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-azza-karam-en, source/wikipedia-azza-karam-ar, source/wikidata-azza-karam]
+external_ids: { wikidata: "Q93296140" }
+sources: [source/wikipedia-azza-karam-en, source/wikipedia-azza-karam-ar, source/wikidata-azza-karam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Azza Karam' (revision 1381770001 of 24 October 2026), Arabic Wikipedia «عزة كرم» (revision 72901681 of 25 December 2025) and Wikidata item Q93296140 (item revision 2555337037 of 9 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Egyptian-born academic and interfaith leader, Secretary General of Religions for Peace') matching the queue entry. Existence checked both directions before building: name fragments (Karam, كرم) and Q93296140 grepped across all data/person files on origin/main — no hits. She has no Wikipedia article in Urdu, so the Urdu label and prose are supplied against the English and Arabic sources. No relations are written: her birthplace is attested only at country level (Egypt), and her posts at the United Nations, Religions for Peace and the universities are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,48 @@
+id: person/azlan-shah
+class: person
+label:
+  ar: "عزلن محب الدين شاه"
+  en: "Azlan Shah"
+  ur: "اذلان شاہ"
+names:
+  - { value: "Azlan Muhibbuddin Shah", kind: full }
+  - { value: "Raja Azlan Shah", kind: alternate }
+gender: male
+summary:
+  ar: "سلطان فيرق من سنة 1984 حتى 2014 وتاسع ملوك ماليزيا (يانغ دي-برتوان أغونغ، 1989–1994). وُلد في باتو غاجه سنة 1928 وتدرّج في قضاء مالايا حتى صار سنة 1965 أصغر قاضٍ في المحكمة العليا وسنة 1982 أصغر رئيس للمحكمة الاتحادية، قبل أن يعتلي عرش فيرق؛ وقد أيّدت المحاكم رفضه حلّ مجلس فيرق التشريعي سنة 2009، وعُرف بلقب أبي الهوكي الماليزي."
+  en: "Sultan of Perak from 1984 to 2014 and the ninth Yang di-Pertuan Agong of Malaysia (1989–1994). Born at Batu Gajah in 1928, he rose through Malaya's judiciary to become, in 1965, the youngest judge appointed to the High Court and, in 1982, the youngest Lord President of the Federal Court, before ascending the Perak throne on the death of his cousin Sultan Idris Shah II; his refusal to dissolve the Perak state assembly in 2009 was upheld by the courts, and he was known as the Father of Malaysian Hockey."
+  ur: "1984ء سے 2014ء تک سلطانِ پیراک اور ملائیشیا کے نویں یانگ دی پرتوان آگونگ (1989ء–1994ء)۔ 1928ء میں باتو گاجہ میں پیدا ہوئے، ملایا کی عدلیہ میں ترقی کر کے 1965ء میں ہائی کورٹ کے سب سے کم عمر جج اور 1982ء میں فیڈرل کورٹ کے سب سے کم عمر لارڈ پریذیڈنٹ بنے، پھر پیراک کے تخت پر بیٹھے؛ 2009ء میں پیراک اسمبلی تحلیل کرنے سے ان کے انکار کو عدالتوں نے برقرار رکھا، اور وہ ملائیشیائی ہاکی کے بانی کے طور پر معروف ہوئے۔"
+roles: [sultan, jurist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1928-04-19"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 19 April 1928 at Kampung Manggis, Batu Gajah, Perak, the youngest son of Sultan Yussuf Izzuddin Shah by his second wife Toh Puan Besar Hatijah binti Toh Indera Wangsa Ahmad, as the English article and Wikidata give. The Hijri year (1346) is by tabular conversion. Batu Gajah has no place entity, so no born_in relation is written."
+  sources: [source/wikipedia-azlan-shah-en, source/wikidata-azlan-shah]
+died:
+  edtf: "2014-05-28"
+  hijri: "1435"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 28 May 2014 at the National Heart Institute, Kuala Lumpur, aged 86, and was buried the next day beside Sultan Idris Shah at the Al-Ghufran Royal Mausoleum, Kuala Kangsar, as the English article and Wikidata give. The Hijri year (1435) is by tabular conversion. Kuala Lumpur and Kuala Kangsar have no place entities, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-azlan-shah-en, source/wikidata-azlan-shah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Sultan Azlan Shah. Wikidata's only religion value is Islam in general (Q432), a structured value from a single structured family, and neither the English, Arabic nor Urdu article discusses a personal affiliation. There is no school reading at all, so the value stays unknown, unflagged."
+    sources: [source/wikipedia-azlan-shah-en, source/wikipedia-azlan-shah-ar, source/wikidata-azlan-shah]
+external_ids: { wikidata: "Q561319" }
+sources: [source/wikipedia-azlan-shah-en, source/wikipedia-azlan-shah-ar, source/wikipedia-azlan-shah-ur, source/wikidata-azlan-shah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Azlan Shah of Perak' (revision 1375597095 of 18 September 2026), Arabic Wikipedia «عزلن محب الدين شاه» (revision 73440141 of 12 February 2026), Urdu Wikipedia «سلطان اذلان شاہ» (revision 9696897 of 5 April 2026) and Wikidata item Q561319 (item revision 2554099630 of 6 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic and Urdu articles' page properties. Identity: the queue line 'Sultan Azlan Shah — 1928–2014' matches the Sultan of Perak and ninth Yang di-Pertuan Agong's biography exactly. Existence checked both directions before building: name fragments (Azlan, عزلن, اذلان) and Q561319 grepped across all data/person files on origin/main — no hits. No relations are written: his father Sultan Yussuf Izzuddin Shah (Q8061956) has no person record here (verified), his succession of Sultan Idris Shah II is an office succession carried in prose, and no birth, death or burial place has a place entity. The queue's years (1928–2014) are confirmed exactly."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-123
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
