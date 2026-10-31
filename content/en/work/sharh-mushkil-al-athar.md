@@ -20,5 +20,10 @@ The chapter "Explaining what is difficult in what is reported from Aisha" takes 
 
 The next chapter, on difficult reports from the Prophet, continues the same work, presenting each report, its soundness, and its meaning. {cite:sharh-mushkil-al-athar-arnaout p. 577}
 
+## Other editions
+*Tuhfat al-akhyar bi-tartib sharh mushkil al-athar* is the same work, re-arranged by Khalid Mahmud al-Rabat by fiqh subject. The book has 1,002 chapters in its original order, and the editor says they run in no fixed sequence. He kept each chapter whole, placed it under its subject (faith, purification, prayer and so on), and left the author's commentary attached to each chapter. Takhrij was reduced to the sources he judged most useful, since the Arna'ut edition already carries full takhrij. {cite:tuhfat-akhyar-rabat p. 95}, {cite:tuhfat-akhyar-rabat p. 96}, {cite:tuhfat-akhyar-rabat p. 97}
+
+The editor also notes that the book contains more than six thousand chains, most of them sound or fair, with few weak and rare forgeries. {cite:tuhfat-akhyar-rabat p. 95}
+
 ## A note on the source
 The judgements on chains in this record are the editor's, as they appear in his notes. Page numbers are scan pages, because not all printed folio numbers are legible in the OCR. {cite:sharh-mushkil-al-athar-arnaout p. 8}
