@@ -12,3 +12,6 @@ Al-Baladhuri says that he branded each of them on the hand with the word "my gua
 
 ## Afterwards
 Yazid ibn Abd al-Malik appointed [[person/bishr-ibn-safwan-al-kalbi|Bishr ibn Safwan al-Kalbi]], who struck the neck of [[person/abdallah-ibn-musa-ibn-nusayr|Abd Allah ibn Musa ibn Nusayr]], because he was accused of having killed him and of stirring up the people against him. {cite:futuh-buldan-maarif-1407}
+
+## In Ibn Abd al-Hakam
+[[person/ibn-abd-al-hakam|Ibn Abd al-Hakam]] says Yazid ibn Abd al-Malik appointed Yazid ibn Abi Muslim, al-Hajjaj's secretary, over Ifriqiya in the year 101. {cite:futuh-misr-amir-1999 p. 288} He reports that his guards killed him in the year 102, in al-Layth's account. {cite:futuh-misr-amir-1999 p. 289}
