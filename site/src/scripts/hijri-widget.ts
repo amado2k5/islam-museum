@@ -1,5 +1,8 @@
 // "Find your Hijri date" (Part 3, B.5): converts a Gregorian date with the museum's converter and looks the day up in the
 // embedded "this day" index of the same page. Runs only in the browser, on submit; nothing is sent anywhere.
+// The chosen date also rides in the address bar as ?d=YYYY-MM-DD (the input's own field name), on the homepage embed
+// and on the canonical Time Machine page (/[lang]/time-machine/) alike, so a copied link reopens the same result.
+// An absent or malformed parameter leaves the page exactly as it was: no lookup runs and nothing is shown.
 import { civilToHijri } from "../../../scripts/hijri/convert";
 
 const form = document.querySelector<HTMLFormElement>("[data-hijri-widget]");
@@ -9,10 +12,8 @@ if (form && out) {
   const payload = (() => { try { return JSON.parse(todayEl?.textContent || "{}"); } catch { return {}; } })();
   const lang = document.documentElement.lang;
   const T = payload.t ?? {};
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const v = (form.querySelector("input[name=d]") as HTMLInputElement).value;
-    if (!v) { out.hidden = true; return; }
+  const input = form.querySelector<HTMLInputElement>("input[name=d]");
+  const run = (v: string) => {
     try {
       const [y, m, d] = v.split("-").map(Number);
       const h = civilToHijri("gregorian", { y, m, d }).date;
@@ -28,5 +29,21 @@ if (form && out) {
       out.textContent = form.dataset.fail ?? "";
       out.hidden = false;
     }
+  };
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const v = input?.value ?? "";
+    if (!v) { out.hidden = true; return; }
+    run(v);
+    const u = new URL(location.href);
+    u.searchParams.set("d", v);
+    history.replaceState(null, "", u);
   });
+  // A shared link reopens the same result: a well-formed ?d= fills the input and runs the same lookup.
+  const q = new URLSearchParams(location.search).get("d") ?? "";
+  if (input && /^\d{4}-\d{2}-\d{2}$/.test(q)) {
+    const [y, m, d] = q.split("-").map(Number);
+    const dt = new Date(y, m - 1, d);
+    if (dt.getFullYear() === y && dt.getMonth() === m - 1 && dt.getDate() === d) { input.value = q; run(q); }
+  }
 }
