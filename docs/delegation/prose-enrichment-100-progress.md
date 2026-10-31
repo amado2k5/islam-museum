@@ -87,6 +87,7 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 6: place, nuzhat-al-mushtaq-2002 (naros, namjan, qazdar; pp. 175, 917, 923 checked against OCR) | 3 | 0 | — |
 | 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 6: place, 25 slugs (zala, ronda, waddan, ukaz, shirwan, sabra, qumm, oman, sind, rayy, qabala, tawwaj, rawar, silves, wazan, tawda, surraq, yafa, tarfa, qumar, shikla, qalunia, naros, ujj, sirt) | 8 (oman, tawda, qumar, shikla, sirt, ujj, sabra ar only, qumm); rayy already above 100 words in ar/en/ur, unchanged | 16 (reasons under Leads, batch 6) | this PR |
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 7: 25 place slugs (sabur, sijistan, shiraz, siqilliya, nishapur, qulzum, tanes, rumah, raqqa, qulari, tunis, tibat, zanjan, tabaristan, sirjan, tarnit, wasit, nasaf, tiflis, sohar, ramla, zuwayla, qamrun, yazd, tulaytula) | 6 (sabur, sijistan, shiraz, qulzum, tarnit, tiflis; each ar/en/ur ≥100 body words, cite-check passes) | 13 (reasons under Leads, batch 7); raqqa, siqilliya, nishapur, tunis, ramla, tulaytula already ≥100 body words in ar/en/ur before this batch | this PR |
 
 ## Leads, batch 6 (n–z, 25 place slugs)
 
@@ -117,3 +118,34 @@ Each lead was read in the OCR at the cited page unless the reason says otherwise
 ## Open issues, batch 6
 
 - place/sabra: the Maqdisi citation (ahsan-al-taqasim p. 181) was not re-checked in this batch. The Arabic body now uses the Idrisi p. 284 passage, and the Maqdisi paragraph is the same as before.
+
+## Leads, batch 7 (n–z, 25 place slugs)
+
+Each lead was read in the OCR at the cited page. Page numbers are pages.json numbers, which equal the printed pages.
+
+- **place/tanes.** Idrisi and Futuh searches for the label returned only unrelated words (تنسب, تنسف, the Tanes entry was not located). Lead until the entry is found.
+- **place/rumah.** The label رومة (Rome) matches only Futuh pp. 177 and 311 (Ba'labakk and Alexandria contexts) and Idrisi pp. 197 and 425 (noise). Idrisi writes the city as رومية and its passages are about Rome as a land, not a town entry. Lead until the record's scope is decided.
+- **place/qulari.** Idrisi pp. 4, 11 and 584 name قلورية as a land (Calabria) in passing. No descriptive passage of about 100 words was located. Lead.
+- **place/tibat.** Idrisi pp. 184, 204 and 354 mention Tibet in passing (a wild-animal note, a valley, a mountain route). No descriptive entry located. Lead.
+- **place/zanjan.** Futuh p. 450 gives one sentence (Zanjan taken by force in the Caspian campaigns) and p. 452 about 60 words on its peasants seeking the protection of al-Qasim ibn al-Rashid. The rest of 100 words would be the Caspian narrative. Lead.
+- **place/tabaristan.** Futuh p. 440 (the Tabari revolt under al-Mu'tazz, Musa ibn Bugha, the fall of the region by force) and p. 467 (Said's raid, with Tamisa and Namna) give about 80 words, most of them about the wider campaigns. Lead.
+- **place/sirjan.** Idrisi pp. 416–417 give the Shiraz–Sirjan road in mileage (Sirjan a town of Kirman; stages listed). About 50 words of description. Lead.
+- **place/wasit.** The ar body is about 70 words, so the bar is not met. Futuh and the two secondary sources are on the record; they were not reread in this batch. Lead for the next batch.
+- **place/nasaf.** Futuh pp. 578, 588 and 591 name Nasaf (Nakhshab) with Kish, the Sughd coalition and Qutayba's conquest of Kish and Nasaf by treaty. About 60 words specific to Nasaf; the rest is the Sughd war. Lead.
+- **place/sohar.** The label صحار matches only unrelated words in the Idrisi OCR (pp. 18, 98, 106: desert). No entry located. Lead.
+- **place/zuwayla.** Idrisi pp. 115, 120, 180 and 197 give a town built by Abd Allah (p. 115), ten days from Zala (p. 120), in the desert between Multan and Sijistan with wheat and rice (p. 197). About 60 words. Lead.
+- **place/qamrun.** Idrisi pp. 88–95 treat Qamrun as the king of an island realm (with the islands, rain and the Chinese border), not as a town. The record needs a decision on scope first. Lead.
+- **place/yazd.** The Idrisi OCR hits (pp. 43, 293, 357) are route notes and a small walled place that is not clearly Yazd. Lead until the page is identified.
+
+## Corrections, batch 7
+
+- place/sijistan: the Yazdgird passage is on p. 441, not p. 440 as the old body cited. The body now cites p. 441 and p. 421 and p. 485.
+- place/qulzum: the body now draws the gulf description from Idrisi p. 10, and adds the Ibn Hudayj and al-Mutawakkil passages (Futuh pp. 319, 333). The record's sources list now includes Idrisi.
+- place/shiraz: the old body said a further source was needed for the Islamic history. Futuh p. 546 and Idrisi p. 405 now supply it. The record's sources list and provenance are updated.
+- place/tiflis: the body follows Futuh pp. 273, 283–284 and drops the old "on the Kur" phrase, which I did not confirm on the pages read. The data summary still says "على الكر" and is flagged below.
+- place/nishapur and place/tunis: provenance had no source or generated_by field; cite-check failed. Both now carry a provenance source and "unknown" as generated_by for the earlier batch. Their prose is unchanged.
+
+## Open issues, batch 7
+
+- place/tiflis data summary says "على الكُرّ" (on the Kur). That phrase is not confirmed in the pages read here; needs checking on the Futuh page that names Jurzan.
+- place/sabur summary and data: the summary is consistent with the body; no change.
