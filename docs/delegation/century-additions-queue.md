@@ -721,11 +721,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Arif Lohar — 1966–Living
 - [x] Atif Aslam — 1983–Living
 - [x] Ali Zafar — 1980–Living
-- [ ] Sajjad Ali — 1966–Living
-- [ ] Nazia Hassan — 1965–2000
-- [ ] Zoheb Hassan — 1966–Living
-- [ ] Rohail Hyatt — 1966–Living
-- [ ] Shoaib Mansoor — 1952–Living
+- [x] Sajjad Ali — 1966–Living
+- [x] Nazia Hassan — 1965–2000
+- [x] Zoheb Hassan — 1966–Living
+- [x] Rohail Hyatt — 1966–Living
+- [x] Shoaib Mansoor — 1952–Living
 - [ ] Hassam Khan — 1990–Living
 - [ ] Fawad Khan — 1981–Living
 - [ ] Mahira Khan — 1984–Living
