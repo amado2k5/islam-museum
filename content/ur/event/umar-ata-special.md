@@ -8,7 +8,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 «فتوح البلدان» [[person/umar-ibn-al-khattab|عمر]] کی طرف سے افراد کے لیے مقرر کیے گئے خاص عطیات کی روایات جمع کرتی ہے، ہر ایک کی وجہ کے ساتھ، اور عربوں اور موالی کے درمیان ان کے انصاف کا بھی ذکر کرتی ہے۔ {cite:futuh-buldan-maarif-1407}
 
 ## افراد کے لیے عطیات
-یزید بن ابی حبیب کی روایت کے مطابق عمر نے [[person/amr-ibn-al-as|عمرو بن العاص]] کو دو سو اس لیے دیے کیونکہ وہ امیر تھے، اور [[person/busr-ibn-abi-artat|بسر بن ابی ارطاۃ]] کو دو سو اس لیے کہ وہ فتح کے آدمی تھے، اور حکم دیا کہ [[person/kharija-ibn-hudhafa|خارجہ بن حذافہ]] کے لیے ان کی بہادری کی وجہ سے شرف کا عطیہ مقرر کیا جائے۔ {cite:futuh-buldan-maarif-1407}
+یزید بن ابی حبیب کی روایت کے مطابق عمر نے [[person/amr-ibn-al-as|عمرو بن العاص]] کو دو سو اس لیے دیے کیونکہ وہ امیر تھے، اور [[person/busr-ibn-abi-artat|بسر بن ابی ارطاۃ]] کو دو سو اس لیے کہ وہ فتح کے آدمی تھے، اور حکم دیا کہ [[person/kharija-ibn-hudhafa-al-adawi|خارجہ بن حذافہ]] کے لیے ان کی بہادری کی وجہ سے شرف کا عطیہ مقرر کیا جائے۔ {cite:futuh-buldan-maarif-1407}
 
 روایات میں ہے کہ [[person/ammar-ibn-yasir|عمار بن یاسر]] کا عطیہ چھ ہزار درہم تھا، اور [[person/salman-al-farisi|سلمان]] کا چار ہزار۔ {cite:futuh-buldan-maarif-1407}
 

@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-The accounts of the campaigns of [[person/hassan-ibn-al-numan-al-ghassani|Hassan ibn al-Nu'man]] against [[person/al-kahina|al-Kahina]], queen of the Berbers, differ. The battles took place in [[place/ifriqiya|Ifriqiya]] and Barqa. {cite:futuh-buldan-maarif-1407}
+The accounts of the campaigns of [[person/hassan-ibn-al-numan|Hassan ibn al-Nu'man]] against [[person/al-kahina|al-Kahina]], queen of the Berbers, differ. The battles took place in [[place/ifriqiya|Ifriqiya]] and Barqa. {cite:futuh-buldan-maarif-1407}
 
 ## In al-Baladhuri
 Hassan was appointed and campaigned against al-Kahina, and she defeated him. He came to some palaces in the district of [[place/barqa|Barqa]] and stayed there, so they were called the Palaces of Hassan. Then he campaigned against her a second time and killed her, and he took captives of the Berbers and sent the captives to [[person/abd-al-aziz-ibn-marwan|Abd al-Aziz]]. {cite:futuh-buldan-maarif-1407}
