@@ -18,7 +18,7 @@ regions:
 date:
   start:
     hijri: '0067'
-    edtf: 0686/0687
+    edtf: '0686/0687'
     calendar: julian
     precision: year
     status: tradition
@@ -26,27 +26,7 @@ date:
     note: 'خليفة: «وفيها وقعة المذار» تحت سنة 67 (ص 264)؛ التحويل مشتق.'
     sources:
     - source/tarikh-khalifa-umari-1985
-sides:
-- label:
-    ar: جيش مصعب بن الزبير
-    en: The army of Mus'ab ibn al-Zubayr
-    ur: مصعب بن زبیر کا لشکر
-  commanders:
-  - person/musab-ibn-al-zubayr
-- label:
-    ar: أصحاب المختار
-    en: Al-Mukhtar's partisans
-    ur: مختار کے حامی
-relations:
-- type: had_participant
-  target: person/musab-ibn-al-zubayr
-  role: أمير العراق لابن الزبير
-  sources:
-  - source/tarikh-khalifa-umari-1985
-- type: related_to
-  target: person/al-mukhtar-ibn-abi-ubayd
-  sources:
-  - source/tarikh-khalifa-umari-1985
+relations: []
 sources: &id001
 - source/tarikh-khalifa-umari-1985
 provenance:
