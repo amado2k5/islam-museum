@@ -1,0 +1,35 @@
+id: person/nur-misuari
+class: person
+label: { ar: "نور ميسواري", en: "Nur Misuari", ur: "نور ميسواري" }
+names:
+  - { value: "Nurallaji Pinang Misuari", kind: full }
+gender: male
+summary:
+  ar: "ثوري وسياسي من شعب المورو في سولو، وُلد في تابول سنة 1939. كان محاضرا في جامعة الفلبين، فأسّس الجبهة الوطنية لتحرير مورو وقادها منذ 1972، ووقّع اتفاق السلام سنة 1996 مع الحكومة الفلبينية، وحكم منطقة الحكم الذاتي في مينداناو المسلمة من 1996 إلى 2001؛ ثم جاءت سنوات التمرد الفاشل وأزمة زامبوانغا 2013 وإدانته بالفساد وتعيينه مبعوثا اقتصاديا خاصا للفلبين لدى منظمة التعاون الإسلامي."
+  en: "Moro revolutionary and politician from Sulu, born at Tapul in 1939. A former University of the Philippines lecturer, he founded the Moro National Liberation Front and has led it since 1972, signed the 1996 peace agreement with the Philippine government, and governed the Autonomous Region in Muslim Mindanao from 1996 to 2001; his later years brought a failed rebellion, the 2013 Zamboanga crisis, a graft conviction, and appointment as the Philippines' special economic envoy on Islamic affairs to the Organisation of Islamic Cooperation."
+  ur: "سولو سے تعلق رکھنے والے مورو انقلابی اور سیاست دان، 1939ء میں تاپول میں پیدا ہوئے۔ وہ یونیورسٹی آف دی فلپائنز کے سابق لیکچرار تھے؛ انھوں نے مورو نیشنل لبریشن فرنٹ کی بنیاد رکھی اور 1972ء سے اس کی قیادت کر رہے ہیں، 1996ء میں فلپائنی حکومت سے امن معاہدے پر دستخط کیے اور 1996ء سے 2001ء تک مسلم مندناؤ کے خود مختار علاقے کے گورنر رہے؛ بعد کے برسوں میں ناکام بغاوت، 2013ء کا زامبوانگا بحران، بدعنوانی میں سزا اور اسلامی تعاون تنظیم کے لیے فلپائنز کے خصوصی اقتصادی ایلچی کی تقرری آئی۔"
+roles: [politician, activist]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1939-03-03"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 March 1939 at Tapul, Sulu, as the English and Arabic articles give, following the authorized biography they cite. Wikidata gives the same date with the less specific birthplace Jolo. The Hijri year (1358) is by tabular conversion. Tapul, Jolo and Sulu have no place entities here (verified against origin/main in this session), so no born_in relation is written."
+  sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Nur Misuari. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. His founding and leadership of the Moro National Liberation Front is movement leadership, which never counts. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
+    sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
+external_ids: { wikidata: "Q2005240" }
+sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nur Misuari' (revision 1381857895 of 25 October 2026), Arabic Wikipedia «نور ميسواري» (revision 72117790 of 25 September 2025) and Wikidata item Q2005240 (item revision 2558187505 of 18 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Filipino politician') matching the queue entry. Existence checked both directions before building: name fragments (Misuari, ميسواري) and Q2005240 grepped across all data/person files on origin/main — no hits. No relations are written: he has no relation targets among existing records that the pair rule would place here, and Tapul, Jolo and Sulu have no place entities here (verified against origin/main in this session), so no born_in edge is possible; his MNLF leadership is organisational and is carried in prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-124
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
