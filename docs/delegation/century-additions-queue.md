@@ -1577,7 +1577,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
 - [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
 - [x] Ghulam Ahmad Mahjoor (1887–1952)
-- [ ] Abdul Ahad Azad (1903–1948)
+- [x] Abdul Ahad Azad (1903–1948)
 - [x] Rasul Mir (1840–1870)
 - [x] Mahmud Gami (1765–1855)
 - [x] Maqbool Shah Kralwari (1820–1875)
