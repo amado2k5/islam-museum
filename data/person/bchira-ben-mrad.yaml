@@ -1,0 +1,56 @@
+id: person/bchira-ben-mrad
+class: person
+label:
+  ar: "بشيرة بن مراد"
+  en: "Bchira Ben Mrad"
+  ur: "بشیرہ بن مراد"
+names:
+  - { value: "بشيرة بن مراد", kind: full }
+  - { value: "Bchira Ben Mrad", kind: full }
+  - { value: "بشيرة بن مراد الزهار", kind: alternate }
+gender: female
+born:
+  edtf: "1913"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1913; no source gives the day. The Arabic biography places her birth at Torbat el-Bey in Tunis, while the French biography treats her birthplace as unrecorded; the Tunis birth is followed on the Arabic biography's explicit statement. The year 1913 spans the Hijri years 1331–1332, so no hijri value is recorded."
+  sources: [source/wikipedia-bchira-ben-mrad-ar, source/wikipedia-bchira-ben-mrad-fr, source/wikidata-bchira-ben-mrad]
+died:
+  edtf: "1993-05-04"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 4 May 1993 (French and Arabic biographies; Wikidata carries the same day value alongside a year-only value). 4 May 1993 falls in 1413 AH, recorded here at year precision. No biography names the place of her death and Wikidata gives only the country, so no died_in edge is written."
+  sources: [source/wikipedia-bchira-ben-mrad-fr, source/wikipedia-bchira-ben-mrad-ar, source/wikidata-bchira-ben-mrad]
+roles: [activist, writer]
+regions: [maghreb]
+wings: [people]
+relations:
+  - { type: child_of, target: person/mohamed-salah-ben-mrad, sources: [source/wikipedia-bchira-ben-mrad-en, source/wikipedia-bchira-ben-mrad-fr, source/wikipedia-bchira-ben-mrad-ar] }
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-bchira-ben-mrad-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source attests a school of law for Ben Mrad herself. Her father Mohamed Salah Ben Mrad and her grandfather Hmida Ben Mrad were Hanafi chief muftis of Tunis, which is family background and never counts; the Union musulmane des femmes de Tunisie she founded framed its work, in its statutes, as education 'within the limits of morality and religion' (Bakalti), which is her organisation's framing, not a personal attestation of a school. Wikidata carries no religion value. Held unknown, unflagged: absence."
+    sources: [source/wikipedia-bchira-ben-mrad-en, source/wikipedia-bchira-ben-mrad-fr, source/wikidata-bchira-ben-mrad]
+summary:
+  ar: "ناشطة نسوية ووطنية تونسية (1913–1993)، ابنة شيخ الإسلام محمد الصالح بن مراد، أسست سنة 1936 الاتحاد النسائي الإسلامي التونسي، أول منظمة نسائية تونسية، وترأسته حتى حلّه سنة 1956. تربّت في بيت علم على أيدي مشايخ الزيتونة، وكتبت في مجلة والدها «شمس الإسلام» وفي الصحافة التونسية داعية إلى تعليم الفتاة التونسية ومشاركة المرأة في الحركة الوطنية، ثم أُقصيت عن العمل النسائي الرسمي بعد الاستقلال."
+  en: "Tunisian feminist and nationalist activist (1913–1993), daughter of the shaykh al-Islam Mohamed Salah Ben Mrad. In 1936 she founded the Muslim Union of Tunisian Women (UMFT), the first Tunisian women's organisation, and chaired it until its dissolution in 1956. Raised in a scholarly household and taught by Zaytuna shaykhs, she wrote in her father's journal Shams al-Islam and in the Tunisian press for the education of Tunisian girls and for women's part in the national movement, before being pushed aside from official women's work after independence."
+  ur: "تونسی حقوقِ نسواں کی علمبردار اور قوم پرست کارکن (1913–1993)، شیخ الاسلام محمد الصالح بن مراد کی بیٹی۔ انہوں نے 1936ء میں الاتحاد النسائي الإسلامي التونسي قائم کی، جو تونس کی پہلی خواتین تنظیم تھی، اور 1956ء میں اس کے حل ہونے تک اس کی صدر رہیں۔ علمی گھرانے میں زیتونہ کے مشائخ سے تعلیم پائیں، اپنے والد کے رسالے «شمس الاسلام» اور تونسی صحافت میں لڑکیوں کی تعلیم اور قومی تحریک میں خواتین کی شرکت کے لیے لکھا، اور آزادی کے بعد سرکاری خواتین کے کام سے الگ کر دی گئیں۔"
+sources:
+  - source/wikipedia-bchira-ben-mrad-fr
+  - source/wikipedia-bchira-ben-mrad-en
+  - source/wikipedia-bchira-ben-mrad-ar
+  - source/wikidata-bchira-ben-mrad
+external_ids:
+  wikidata: Q2892588
+provenance:
+  layer: own-research
+  source: "French, English and Arabic Wikipedia biographies of Bchira Ben Mrad (Q2892588) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, the Wikidata item revision was re-asserted against a second live query, and the QID was grounded through the articles' page properties. Existence checks by name fragments (bchira, ben-mrad, بشيرة) and by QID across data/person on origin/main found no prior record for her; her father's record (person/mohamed-salah-ben-mrad) exists as a draft card, and the child_of edge is written here in the child's record on the attestation of all three biographies. Her husband is named Ahmed Zahar by the English and French biographies and Sheikh Saleh al-Zahhar (married 1929, died 1952) by the Arabic biography; he has no record on main and no spouse edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-141
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
