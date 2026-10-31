@@ -781,11 +781,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gökhan Hotamışlıgil — 1962–Living
 - [x] Feryal Özel — 1975–Living
 - [x] Muazzez İlmiye Çığ — 1914–2024
-- [ ] Canan Dağdeviren — 1985–Living
-- [ ] Mete Atatüre — 1975–Living
-- [ ] Umut Yıldız — 1980–Living
-- [ ] Sultan Kösen — 1982–Living
-- [ ] Naim Süleymanoğlu — 1967–2017
+- [x] Canan Dağdeviren — 1985–Living
+- [x] Mete Atatüre — 1975–Living
+- [x] Umut Yıldız — 1980–Living
+- [x] Sultan Kösen — 1982–Living
+- [x] Naim Süleymanoğlu — 1967–2017
 - [ ] Halil Mutlu — 1973–Living
 - [ ] Hamza Yerlikaya — 1976–Living
 - [ ] Taha Akgül — 1990–Living
