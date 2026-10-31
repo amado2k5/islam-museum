@@ -12,3 +12,6 @@ translators: []
 
 ## بعده
 ولّى يزيد بن عبد الملك [[person/bishr-ibn-safwan-al-kalbi|بشر بن صفوان الكلبي]]، فضرب عنق [[person/abdallah-ibn-musa-ibn-nusayr|عبد الله بن موسى بن نصير]]، لأنه اتُّهم بقتله وبتأليب الناس عليه. {cite:futuh-buldan-maarif-1407}
+
+## عند ابن عبد الحكم
+يذكر [[person/ibn-abd-al-hakam|ابن عبد الحكم]] أن يزيد بن عبد الملك ولّى يزيد بن أبي مسلم، كاتب الحجاج، إفريقية سنة إحدى ومئة. {cite:futuh-misr-amir-1999 p. 288} ويروي أن حرسه قتلوه سنة اثنتين ومئة، في رواية الليث. {cite:futuh-misr-amir-1999 p. 289}

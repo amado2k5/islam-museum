@@ -29,3 +29,6 @@ He used to carry wheat to his aunt [[person/khadija|Khadija]] in the Shi'b, but 
 
 ## At Badr (al-Raheeq al-Makhtum pp.213, 215)
 He did not drink from the Muslims' cistern, and so he was not killed. After his conversion, whenever he swore an oath in earnest he would say: "No, by Him who saved me from the day of Badr." He offered Utba that he would turn the people back and bear the blood-money of his ally, but Abu Jahl refused ([[event/badr-battle-day|the day of Badr]]) {cite:mubarakpuri-raheeq p.213} {cite:mubarakpuri-raheeq p.215}.
+
+## The al-Jar vouchers
+Ibn Abd al-Hakam reports from Urwa ibn al-Zubayr that Hakim ibn Hizam bought vouchers for the food at [[place/al-jar|al-Jar]] for a hundred thousand dirhams and made a hundred thousand in profit; Umar told him he had sold before taking possession and that such a sale was not valid, and Hakim said he could not undo it because the goods were dispersed, but gave his capital and profit as alms. {cite:futuh-misr-amir-1999 p. 223} {cite:futuh-misr-amir-1999 p. 224} In Malik's report from Nafi', Umar annulled the sale and said: "Do not sell food you have bought until you have taken full possession of it." {cite:futuh-misr-amir-1999 p. 224}

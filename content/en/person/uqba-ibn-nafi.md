@@ -20,3 +20,6 @@ Nafi was the maternal brother of Amr ibn al-As. After the conquest of Egypt, Amr
 
 ## Notes for researchers
 - The page numbers of the books are not given in the data. The other recorded sources (the Umayyad state and al-Khadri) have not yet had passages extracted from them.
+
+## In Ibn Abd al-Hakam
+Ibn Abd al-Hakam reports that Uqba set out for the Maghrib in the year 46, left his army and rode with four hundred horsemen to Waddan, which he took, then to Jarma, the chief town of Fazzan, whose people became Muslim, then took the fortresses of Fazzan and Kawar. {cite:futuh-misr-amir-1999 p. 262} {cite:futuh-misr-amir-1999 p. 263} {cite:futuh-misr-amir-1999 p. 264} He reports that they halted at a waterless place, and Uqba's horse pawed the ground until it uncovered water, so the place was named Ma' Faras, "the Horse's Water". {cite:futuh-misr-amir-1999 p. 264} He returned to his army after five months and then settled at the site of [[event/founding-of-qayrawan|al-Qayrawan]]. {cite:futuh-misr-amir-1999 p. 264} {cite:futuh-misr-amir-1999 p. 265} His career ended at [[event/battle-of-tahudha|the battle of Tahudha]] in the year 63. {cite:futuh-misr-amir-1999 p. 268}
