@@ -14,6 +14,8 @@
 
 - **Batch 2** (pp. 43–110): an "In al-Dinawari" section on 12 Sasanian and Lakhmid rulers (Ardashir I, Shapur I, Hormizd I, Shapur II, Yazdagird I, Bahram Gur, Peroz, Kavad, Anushirvan, Hormizd IV, Khusraw Parviz, al-Nu'man ibn al-Mundhir) and on `place/al-hira` (its founding story, as the book's report).
 
+- **Batch 3** (pp. 113–140, 333–363): "In al-Dinawari" sections on al-Qadisiyya, the Bridge, al-Buwayb ("Day of Mihran"), al-Mada'in (28 months), Jalula' (his divergent commander), Nihawand (21 AH, the chain of command), Tustar, the killing of Yazdegerd III (30 AH), the founding of Basra, and the Abbasid da'wa figures Bukayr ibn Mahan, Abu Muslim, Nasr ibn Sayyar and Juday' al-Kirmani.
+
 ## Next step
 
-Batch 3: the conquest of Iraq and Persia (claims B 1–10: al-Qadisiyya, al-Mada'in, Jalula', Nihawand, Tustar) and the Abbasid da'wa (claims C). Still to read: pp. 142–240 (the Camel, Hujr, Ziyad, Ali's death), pp. 264–330 and 383–420. Duplicates flagged: `khosrow-ii`/`khosrow-ii-parviz`, `shirawayh`/`shiruyeh-ibn-parviz`, `conquest-of-al-madain`/`conquest-of-madain`, three Tustar events; `person/abu-salama` merges two different men.
+Batch 4: the rest of the Abbasid da'wa (claims C 1, 7–20: the da'wa event itself, Ibrahim al-Imam's death, the open rising, Qahtaba's march, Abu Salama al-Khallal as his own person) and an unread pass over pp. 142–240, 264–330, 383–420. Still to read: pp. 142–240 (the Camel, Hujr, Ziyad, Ali's death), pp. 264–330 and 383–420. Duplicates flagged: `khosrow-ii`/`khosrow-ii-parviz`, `shirawayh`/`shiruyeh-ibn-parviz`, `conquest-of-al-madain`/`conquest-of-madain`, three Tustar events; `person/abu-salama` merges two different men.
