@@ -665,11 +665,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Adam Malik — 1917–1984
 - [x] Tunku Abdul Rahman — 1903–1990
 - [x] Tun Abdul Razak — 1922–1976
-- [ ] Tun Hussein Onn — 1922–1990
-- [ ] Tun Abdullah Ahmad Badawi — 1939–2024
-- [ ] Najib Razak — 1953–Living
-- [ ] Muhyiddin Yassin — 1947–Living
-- [ ] Ismail Sabri Yaakob — 1960–Living
+- [x] Tun Hussein Onn — 1922–1990
+- [x] Tun Abdullah Ahmad Badawi — 1939–2024
+- [x] Najib Razak — 1953–Living
+- [x] Muhyiddin Yassin — 1947–Living
+- [x] Ismail Sabri Yaakob — 1960–Living
 - [ ] Anwar Ibrahim — 1947–Living
 - [ ] Sultan Ibrahim Ismail — 1958–Living
 - [ ] Sultan Azlan Shah — 1928–2014
