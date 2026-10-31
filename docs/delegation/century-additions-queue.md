@@ -741,11 +741,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Kyrie Irving — 1992–Living
 - [x] Rondae Hollis-Jefferson — 1995–Living
 - [x] Enes Kanter Freedom — 1992–Living
-- [ ] Mehmet Okur — 1979–Living
-- [ ] Hedo Türkoğlu — 1979–Living
-- [ ] Alperen Şengün — 2002–Living
-- [ ] Mirza Teletović — 1985–Living
-- [ ] Jusuf Nurkić — 1994–Living
+- [x] Mehmet Okur — 1979–Living
+- [x] Hedo Türkoğlu — 1979–Living
+- [x] Alperen Şengün — 2002–Living
+- [x] Mirza Teletović — 1985–Living
+- [x] Jusuf Nurkić — 1994–Living
 - [ ] Džanan Musa — 1999–Living
 - [ ] Bojan Bogdanović (Contemporary) — 1989–Living
 - [ ] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
