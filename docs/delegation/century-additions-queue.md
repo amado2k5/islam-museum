@@ -695,11 +695,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fakhruddin Ali Ahmed — 1905–1977
 - [x] Mohammad Hidayatullah — 1905–1992
 - [x] M. C. Chagla — 1900–1981
-- [ ] Syed Shahabuddin — 1935–2017
-- [ ] Ebrahim Alkazi — 1925–2020
-- [ ] Habib Tanvir — 1923–2009
-- [ ] Kaifi Azmi — 1919–2002
-- [ ] Javed Akhtar — 1945–Living
+- [x] Syed Shahabuddin — 1935–2017
+- [x] Ebrahim Alkazi — 1925–2020
+- [x] Habib Tanvir — 1923–2009
+- [x] Kaifi Azmi — 1919–2002
+- [x] Javed Akhtar — 1945–Living
 - [ ] Shabana Azmi — 1950–Living
 - [ ] Naseeruddin Shah — 1950–Living
 - [ ] Irrfan Khan — 1967–2020
