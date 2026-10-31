@@ -22,6 +22,9 @@ On these pages the author gives examples of what he regards as errors in the met
 - He gives the hadith of Ali on wiping over the upper surface of the foot, which the editor grades as sound. {cite:tawil-mukhtalif-al-hadith-hilali p. 139}
 - He quotes al-Sha'bi, Mujahid and al-Zuhri on opinion and analogy, and then pursues his critique of analogy with examples from theft, usurpation, slander and menstruation, where he holds that analogy is not applied consistently. {cite:tawil-mukhtalif-al-hadith-hilali p. 140–141}
 
+## Other editions
+A second, revised edition was edited by Muhammad Muhyi al-Din al-Asfar and published by al-Maktab al-Islami (Beirut) and Mu'assasat al-Ishraq (Doha), dated 1419 AH / 1999. In his preface, al-Asfar says the revision added corrections, grading of hadiths by subject as well as by chain, and notes by a second reviewer, Muhammad Muhammad Badir, marked with his name. {cite:tawil-mukhtalif-al-hadith-asfar-1999 p. 5}, {cite:tawil-mukhtalif-al-hadith-asfar-1999 p. 6}
+
 ## Other readings
 In the footnote on page 132 the editor notes that some modern scholars have answered Abu Hanifa's rulings discussed here. He names two works in reply: *al-Tankil* by al-Mu'allimi al-Yamani and *Nashr al-Sahifa* by Muqbil al-Wadi'i. They are presented here as further readings, without a verdict. {cite:tawil-mukhtalif-al-hadith-hilali p. 132}
 
