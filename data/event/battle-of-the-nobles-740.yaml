@@ -11,7 +11,7 @@ regions: [maghreb]
 date:
   start: { edtf: "0740", precision: year, status: tradition, derived: true }
   end: { edtf: "0740", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-misr-amir-1999]
 external_ids:
   wikidata: Q4872968
 provenance:
@@ -19,5 +19,5 @@ provenance:
   source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-wave2
+  run: wikidata-import-wave2, lib-futuh-misr-batch-5-2026-10-31
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
