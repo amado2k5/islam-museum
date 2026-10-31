@@ -1,0 +1,45 @@
+id: person/ilan-pappe
+class: person
+label:
+  ar: "إيلان بابيه"
+  en: "Ilan Pappé"
+  ur: "ایلان پاپے"
+names:
+  - { value: "Ilan Pappé", kind: full }
+  - { value: "אילן פפה", kind: full }
+  - { value: "إيلان بابيه", kind: full }
+gender: male
+born:
+  edtf: "1954-11-07"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Haifa on 7 November 1954: the English biography and Wikidata agree on the day. The Hijri year 1374 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-ilan-pappe-en, source/wikidata-ilan-pappe]
+roles: [historian]
+regions: [levant-iraq, andalus-europe]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. Every substantial biography attests Pappé's family background — born at Haifa to Ashkenazi German-Jewish parents who had fled Nazi persecution — which is background and never counts. Descriptions of the man himself as 'a Jew' and 'an Israeli Jew' do circulate, but in minor or partisan outlets and in category filings, and his own published words describe his birth 'to a German Jewish family' and his younger self as a 'typical Jew' before his political transformation: identity language, with no attestation of religious belief or practice anywhere, and Wikidata carries no religion value at all. The schema has no jewish value, and the lane does not convert an ethnic and family identity into a faith settlement on this evidence. Held unknown, flagged: if a founder rules that the identity descriptions document a Jewish identity for the man himself on the two-source bar, the settlement becomes other/documented."
+    sources: [source/wikipedia-ilan-pappe-en, source/wikidata-ilan-pappe]
+relations:
+  - { type: born_in, target: place/haifa, sources: [source/wikipedia-ilan-pappe-en, source/wikidata-ilan-pappe] }
+summary:
+  ar: "مؤرخ إسرائيلي (وُلد في حيفا سنة 1954)، من أبرز «المؤرخين الجدد». أستاذ في جامعة إكستر حيث يدير المركز الأوروبي للدراسات الفلسطينية؛ ويذهب كتابه «التطهير العرقي في فلسطين» (2006) إلى أن خروج الفلسطينيين سنة 1948 كان طرداً مخططاً له."
+  en: "Israeli historian (born 1954 in Haifa), a leading figure among the New Historians. He is professor at the University of Exeter, where he directs the European Centre for Palestine Studies; his The Ethnic Cleansing of Palestine (2006) argues that the 1948 Palestinian exodus was a planned expulsion."
+  ur: "اسرائیلی مؤرخ (پیدائش 1954ء، حیفا)، «نئے مؤرخین» کی سرکردہ شخصیت۔ یونیورسٹی آف ایکسٹر میں پروفیسر اور یورپی مرکزِ مطالعۂ فلسطین کے سربراہ؛ ان کی کتاب «فلسطین کی نسلی تطہیر» (2006ء) کے مطابق 1948ء میں فلسطینیوں کا انخلا ایک منصوبہ بند بے دخلی تھی۔"
+sources:
+  - source/wikipedia-ilan-pappe-en
+  - source/wikidata-ilan-pappe
+external_ids:
+  wikidata: Q462874
+provenance:
+  layer: own-research
+  source: "The English Wikipedia biography of Ilan Pappé and the Wikidata item Q462874, read in full, with his own interview words (Logos Journal conversation) and the minor-outlet identity descriptions checked in session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Haifa-born Exeter historian (born 1954); the queue's '(Honored Historian)' is a list label and is recorded nowhere as data. The queue's year is confirmed to the day. Relations written: born_in only; his parents have no person records. Living-person care: only well-sourced public facts are recorded; the flagged faith entry states the configuration in full rather than stretching an ethnic identity into a religion."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-139
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

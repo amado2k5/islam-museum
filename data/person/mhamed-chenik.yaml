@@ -1,0 +1,56 @@
+id: person/mhamed-chenik
+class: person
+label:
+  ar: "محمد شنيق"
+  en: "M'hamed Chenik"
+  ur: "محمد شنیق"
+names:
+  - { value: "محمد بن محمد بن حسن شنيق", kind: full }
+  - { value: "M'hamed Chenik", kind: full }
+  - { value: "Mohamed Chenik", kind: alternate }
+gender: male
+born:
+  edtf: "1889-05"
+  hijri: "1306"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born at Tunis in May 1889 (French biography; Wikidata gives the month; the Arabic biography gives the year). May 1889 falls wholly within 1306 AH."
+  sources: [source/wikipedia-mhamed-chenik-fr, source/wikipedia-mhamed-chenik-en, source/wikidata-mhamed-chenik]
+died:
+  edtf: "1976-11-20"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Radès on 20 November 1976 (French and English biographies; Wikidata agrees, and the Arabic biography gives the same day). Radès has no place entity on main, so no died_in edge is written. 20 November 1976 falls in 1396 AH."
+  sources: [source/wikipedia-mhamed-chenik-fr, source/wikipedia-mhamed-chenik-en, source/wikipedia-mhamed-chenik-ar, source/wikidata-mhamed-chenik]
+roles: [politician, businessman]
+regions: [maghreb]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or religious school for Chenik, and Wikidata carries no religion value for him. His Sadiki schooling, his Destour and Neo-Destour party politics and his banking and industrial career attest no school; this is the absence configuration."
+    sources: [source/wikipedia-mhamed-chenik-fr, source/wikipedia-mhamed-chenik-ar, source/wikidata-mhamed-chenik]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-mhamed-chenik-fr, source/wikipedia-mhamed-chenik-en, source/wikidata-mhamed-chenik] }
+summary:
+  ar: "سياسي ورجل أعمال تونسي (1889–1976)، تولى الوزارة الكبرى مرتين: في حكومة المنصف باي سنة 1943، ثم في حكومة التفاوض مع فرنسا بين 1950 و1952 في عهد الأمين باي. أسّس سنة 1922 التعاونية التونسية للائتمان، أول بنك تونسي، وترأّس الغرفة التجارية التونسية بين 1921 و1942، وأسّس الشركة التونسية للغزل والنسيج سنة 1939 وأدارها حتى وفاته."
+  en: "Tunisian politician and businessman (1889–1976) who headed the government twice: under Moncef Bey in 1943, and again from 1950 to 1952 under Lamine Bey, leading the negotiating government with France. In 1922 he founded the Tunisian Credit Cooperative, the first Tunisian bank; he presided over the Tunisian Chamber of Commerce from 1921 to 1942 and founded the STUFIT spinning and weaving company in 1939, directing it until his death."
+  ur: "تونسی سیاست دان اور کاروباری شخصیت (1889–1976) جو دو مرتبہ حکومت کے سربراہ رہے: 1943ء میں منصف بے کے دور میں، اور پھر 1950ء سے 1952ء تک الامین بے کے دور میں فرانس سے مذاکرات کرنے والی حکومت کے سربراہ۔ انہوں نے 1922ء میں تونسی قرضہ تعاون سوسائٹی قائم کی جو پہلا تونسی بینک تھا؛ 1921ء سے 1942ء تک تونسی چیمبر آف کامرس کے صدر رہے اور 1939ء میں سٹوفٹ کتائی وبنائی کمپنی قائم کی جس کی سربراہی وفات تک کی۔"
+sources:
+  - source/wikipedia-mhamed-chenik-fr
+  - source/wikipedia-mhamed-chenik-ar
+  - source/wikipedia-mhamed-chenik-en
+  - source/wikidata-mhamed-chenik
+external_ids:
+  wikidata: Q495681
+provenance:
+  layer: own-research
+  source: "French, Arabic and English Wikipedia biographies of M'hamed Chenik (Q495681) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the French article's page properties. Existence checks by name fragments (chenik, شنيق) and by QID across data/person on origin/main found no prior record for this man. His two premierships, chamber presidency and bank founding are offices and works, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-139
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

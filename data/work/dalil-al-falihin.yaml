@@ -1,0 +1,24 @@
+id: work/dalil-al-falihin
+class: work
+kind: book
+label: { ar: "دليل الفالحين لطرق رياض الصالحين", en: "Dalil al-falihin li-turuq riyad al-salihin" }
+summary:
+  ar: "«دليل الفالحين لطرق رياض الصالحين» لمحمد بن علان الصديقي (ت 1057هـ): شرح على «رياض الصالحين» للنووي، يبين طرق الأحاديث ويشرح معانيها وفوائدها، وفي مجلداته أبواب الرياض مرتبة على أبوابها. {cite:dalil-al-falihin-dar-al-marifa-vol1-2004 p. 1}"
+  en: "Ibn Allan al-Siddiqi's (d. 1057 AH) commentary on al-Nawawi's Riyad al-salihin. It sets out the routes of the hadiths and explains their meanings and benefits, following the chapters of the Riyad. {cite:dalil-al-falihin-dar-al-marifa-vol1-2004 p. 1}"
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004, source/dalil-al-falihin-dar-al-kitab-vol8] }
+authors: [person/muhammad-ibn-allan-al-siddiqi]
+language: language/arabic
+wings: []
+themes: [scripture-and-its-sciences, worship-and-the-pillars]
+regions: [arabia]
+relations:
+  - { type: commentary_on, target: work/riyad-al-salihin, sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004] }
+sources: [source/dalil-al-falihin-dar-al-marifa-vol1-2004, source/dalil-al-falihin-dar-al-kitab-vol8]
+provenance:
+  layer: own-research
+  source: "Two printings read from the OCR: vol. 1 (Dar al-Ma'rifa, 2004; scan pp. 1–250) and vol. 8 (Dar al-Kitab al-Arabi; scan pp. 1–400). A third file (volume unread, text layer garbled) is not used."
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "harvest-group-a-dalil-16"
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }

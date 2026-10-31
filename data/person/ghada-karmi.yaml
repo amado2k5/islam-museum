@@ -1,0 +1,44 @@
+id: person/ghada-karmi
+class: person
+label:
+  ar: "غادة كرمي"
+  en: "Ghada Karmi"
+  ur: "غادہ کرمی"
+names:
+  - { value: "Ghada Karmi", kind: full }
+  - { value: "غادة كرمي", kind: full }
+gender: female
+born:
+  edtf: "1939"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Jerusalem in 1939: both biographies and Wikidata (year precision) agree on the year; no source read gives a day. The year 1939 spans the Hijri years 1357–1358, so no hijri value is recorded."
+  sources: [source/wikipedia-ghada-karmi-en, source/wikipedia-ghada-karmi-ar, source/wikidata-ghada-karmi]
+roles: [physician, writer, academic]
+regions: [levant-iraq, andalus-europe]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read attests a personal faith, school or practice for Ghada Karmi herself. The English biography records that she was born to a Muslim family — family background, which never counts — and Wikidata's structured religion value gives Islam only, a single structured family with no school. Her own memoir writing, as she recalls her parents' self-understanding ('we were Arabs, Muslims'), presents Islam as the identity of the household she was raised in, while her public work argues for a secular democratic state; neither a profession of faith nor a profession of unbelief is attested for her, and the settlement stays unknown."
+    sources: [source/wikipedia-ghada-karmi-en, source/wikidata-ghada-karmi]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-ghada-karmi-en, source/wikidata-ghada-karmi] }
+summary:
+  ar: "طبيبة وكاتبة فلسطينية (وُلدت في القدس سنة 1939). هُجّرت مع أسرتها سنة 1948، ودرست الطب في بريستول ونالت الدكتوراه في تاريخ الطب العربي، وأصبحت من أبرز الأصوات الفلسطينية في بريطانيا؛ ومذكراتها «البحث عن فاطمة» (2002) من أشهر شهادات جيل النكبة."
+  en: "Palestinian physician and writer (born 1939 in Jerusalem). Exiled with her family in 1948, she qualified in medicine at Bristol, took a doctorate in the history of Arabic medicine, and became a leading Palestinian voice in Britain; her memoir In Search of Fatima (2002) is a classic account of the Nakba generation."
+  ur: "فلسطینی معالج اور مصنفہ (پیدائش 1939ء، قدس)۔ 1948ء میں خاندان سمیت بے گھر ہوئیں، برسٹل سے طب کی تعلیم حاصل کی اور عربی طب کی تاریخ میں ڈاکٹریٹ کیا؛ برطانیہ میں ممتاز فلسطینی آواز بنیں، اور ان کی یادداشتیں «فاطمہ کی تلاش میں» (2002ء) نسلِ نکبہ کی مشہور شہادتوں میں سے ہیں۔"
+sources:
+  - source/wikipedia-ghada-karmi-en
+  - source/wikipedia-ghada-karmi-ar
+  - source/wikidata-ghada-karmi
+external_ids:
+  wikidata: Q2895310
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Ghada Karmi and the Wikidata item Q2895310, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Jerusalem-born physician and memoirist (born 1939), distinct from the Syrian writer Ghada al-Samman, whose records also sit on main; no Arabic-label collision exists. The queue's year is confirmed; no source gives a birth day. Relations written: born_in only — her father Hasan Karmi (Q5678197) has no person record on main, so no child_of edge could be written. Living-person care: only well-sourced public facts are recorded, and the faith entry rests on the documented absence of any personal attestation, never on her surname or her family's faith."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-139
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

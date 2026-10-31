@@ -751,31 +751,31 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
 - [x] Plestia Alaqad — 2001–Living
 - [x] Wael Al-Dahdouh — 1970–Living
-- [ ] Shireen Abu Akleh — 1971–2022
-- [ ] Ghada Karmi — 1939–Living
-- [ ] Ilan Pappé (Honored Historian) — 1954–Living
-- [ ] Walid Khalidi — 1925–Living
-- [ ] Rashid Khalidi — 1948–Living
-- [ ] Noura Erakat — 1980–Living
-- [ ] Mohammed El-Kurd — 1998–Living
-- [ ] Muna El-Kurd — 1998–Living
-- [ ] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
-- [ ] Mustapha Cherif — 1950–Living
-- [ ] Souleymane Bachir Diagne — 1955–Living
-- [ ] Ebrahim Moosa — 1957–Living
-- [ ] Omid Safi — 1970–Living
-- [ ] Jonathan A.C. Brown — 1977–Living
-- [ ] Asadullah Yate — 1952–Living
-- [ ] Abdalhaqq Bewley — 1940–Living
-- [ ] Aisha Bewley — 1948–Living
-- [ ] M. A. S. Abdel Haleem — 1938–Living
-- [ ] Mustafa Khattab — 1980–Living
-- [ ] Mustafa Cerić — 1952–Living
-- [ ] Husein Smajić — 1952–Living
-- [ ] Nedžad Grabus — 1968–Living
-- [ ] Şükrü Hanioğlu — 1955–Living
-- [ ] Halil İnalcık — 1916–2016
-- [ ] Fuat Sezgin — 1924–2018
+- [x] Shireen Abu Akleh — 1971–2022
+- [x] Ghada Karmi — 1939–Living
+- [x] Ilan Pappé (Honored Historian) — 1954–Living
+- [x] Walid Khalidi — 1925–Living
+- [x] Rashid Khalidi — 1948–Living
+- [x] Noura Erakat — 1980–Living
+- [x] Mohammed El-Kurd — 1998–Living
+- [x] Muna El-Kurd — 1998–Living
+- [~] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
+- [x] Mustapha Cherif — 1950–Living
+- [x] Souleymane Bachir Diagne — 1955–Living
+- [x] Ebrahim Moosa — 1957–Living
+- [x] Omid Safi — 1970–Living
+- [x] Jonathan A.C. Brown — 1977–Living
+- [x] Asadullah Yate — 1952–Living
+- [x] Abdalhaqq Bewley — 1940–Living
+- [x] Aisha Bewley — 1948–Living
+- [x] M. A. S. Abdel Haleem — 1938–Living
+- [x] Mustafa Khattab — 1980–Living
+- [x] Mustafa Cerić — 1952–Living
+- [x] Husein Smajić — 1952–Living
+- [x] Nedžad Grabus — 1968–Living
+- [x] Şükrü Hanioğlu — 1955–Living
+- [x] Halil İnalcık — 1916–2016
+- [x] Fuat Sezgin — 1924–2018
 - [ ] Ilber Ortaylı — 1947–Living
 - [ ] Celâl Şengör — 1955–Living
 - [ ] Gökhan Hotamışlıgil — 1962–Living
@@ -1656,48 +1656,48 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Tawfiq Abu al-Huda (1894–1956)
 - [x] Samir al-Rifa'i (1901–1965)
 - [x] Ibrahim Hashem (1888–1958)
-- [ ] King Talal of Jordan (1909–1972)
-- [ ] Sheikh Hamad ibn Isa Al Khalifa (1872–1942)
-- [ ] Sir Salman bin Hamad Al Khalifa (1894–1961)
-- [ ] Abdullah bin Isa Al Khalifa (1883–1966)
-- [ ] Ibrahim Al-Arrayedh (Ancestors) (1908–2002)
-- [ ] Abu al-Qasim al-Shabi (1909–1934)
-- [ ] Muhammad al-Tahir ben Achour (1879–1973)
-- [ ] Mohamed Abdelaziz Bouattour (1825–1907)
-- [ ] M'hammed Chenik (1889–1976)
-- [ ] Ali Ben Ayed (1828–1890)
-- [ ] Cheikh Mohamed Ennakhli (1869–1924)
-- [ ] Mohamed Lasram (1858–1925)
-- [ ] Salem Bouhageb (1827–1924)
-- [ ] Hassan Hosni Abdel-Wahab (1884–1968)
-- [ ] Cheikh El Bechir Ben Mrad (1889–1977)
-- [ ] Bchira Ben Mrad (1913–1993)
-- [ ] Tawhida Ben Cheikh (1909–2010)
-- [ ] Mohamed Douthe (1860–1920)
-- [ ] Allal al-Fassi (1910–1974)
-- [ ] Ahmed Balafrej (1908–1990)
-- [ ] Mohamed Hassan Ouazzani (1910–1978)
-- [ ] Mohamed Ben Larbi al-Alaoui (1880–1964)
-- [ ] Sheikh Ma al-'Aynayn's Sons (El Hiba) (1870–1928)
-- [ ] Merebbi Rebbu (1881–1942)
-- [ ] Cheikh Sidiyya Baba (1862–1924)
-- [ ] Sheikh Saad Bouh (1848–1917)
+- [x] King Talal of Jordan (1909–1972)
+- [x] Sheikh Hamad ibn Isa Al Khalifa (1872–1942)
+- [x] Sir Salman bin Hamad Al Khalifa (1894–1961)
+- [x] Abdullah bin Isa Al Khalifa (1883–1966)
+- [x] Ibrahim Al-Arrayedh (Ancestors) (1908–2002)
+- [x] Abu al-Qasim al-Shabi (1909–1934)
+- [x] Muhammad al-Tahir ben Achour (1879–1973)
+- [x] Mohamed Abdelaziz Bouattour (1825–1907)
+- [x] M'hammed Chenik (1889–1976)
+- [~] Ali Ben Ayed (1828–1890)
+- [x] Cheikh Mohamed Ennakhli (1869–1924)
+- [x] Mohamed Lasram (1858–1925)
+- [x] Salem Bouhageb (1827–1924)
+- [x] Hassan Hosni Abdel-Wahab (1884–1968)
+- [~] Cheikh El Bechir Ben Mrad (1889–1977)
+- [x] Bchira Ben Mrad (1913–1993)
+- [x] Tawhida Ben Cheikh (1909–2010)
+- [~] Mohamed Douthe (1860–1920)
+- [x] Allal al-Fassi (1910–1974)
+- [x] Ahmed Balafrej (1908–1990)
+- [x] Mohamed Hassan Ouazzani (1910–1978)
+- [x] Mohamed Ben Larbi al-Alaoui (1880–1964)
+- [x] Sheikh Ma al-'Aynayn's Sons (El Hiba) (1870–1928)
+- [x] Merebbi Rebbu (1881–1942)
+- [x] Cheikh Sidiyya Baba (1862–1924)
+- [x] Sheikh Saad Bouh (1848–1917)
 
 ## C. 926–1025 additions (2, flagged)
 
-- [ ] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
+- [x] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
 - EXCLUDED unless the founder directs otherwise: Hasdai ibn Shaprut (915–970) — the source row itself identifies him as a Jewish statesman of Cordoba; not a Muslim figure.
 
 ## D. 1326–1425 additions (10)
 
-- [ ] Ibn Zamrak (1333–1394)
-- [ ] Khalil Sultan (1384–1411)
-- [ ] Çandarlı Ali Pasha (1340–1406)
-- [ ] Ubayd Zakani (1310–1370)
-- [ ] Kamal Khujandi (1321–1401)
-- [ ] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
-- [ ] Sultan Mahmud Shah Tughlaq (1388–1413)
-- [ ] Taj al-Din Firuz Shah Bahmani (1370–1422)
+- [x] Ibn Zamrak (1333–1394)
+- [x] Khalil Sultan (1384–1411)
+- [x] Çandarlı Ali Pasha (1340–1406)
+- [x] Ubayd Zakani (1310–1370)
+- [x] Kamal Khujandi (1321–1401)
+- [~] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
+- [x] Sultan Mahmud Shah Tughlaq (1388–1413)
+- [x] Taj al-Din Firuz Shah Bahmani (1370–1422)
 - [ ] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
 - [ ] Syed Jalaluddin Bukhari (1244–1350) — FLAG: the CSV's dates match no standard biography (Surkh-Posh Bukhari is usually 1192–1291); resolve identity at build time.
 

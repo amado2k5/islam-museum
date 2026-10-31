@@ -655,6 +655,10 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 .search-wrap[data-empty="1"] .pagefind-ui__search-clear { display: none; }
 .search-hint { margin: 10px 0 0; }
 .search-wrap:not([data-empty="1"]) .search-hint { display: none; }
+/* Pagefind UI positions its search icon and clear button physically for LTR (icon left, clear right). On RTL pages that puts the clear button over the start of the query text, hiding its first word; mirror all three so the button sits at the end edge. */
+html[dir="rtl"] .pagefind-ui__form::before { left: auto; right: calc(20px * var(--pagefind-ui-scale)); }
+html[dir="rtl"] .pagefind-ui__search-input { padding: 0 calc(54px * var(--pagefind-ui-scale)) 0 calc(70px * var(--pagefind-ui-scale)); }
+html[dir="rtl"] .pagefind-ui__search-clear { right: auto; left: calc(3px * var(--pagefind-ui-scale)); padding: 0 calc(2px * var(--pagefind-ui-scale)) 0 calc(15px * var(--pagefind-ui-scale)); }
 /* Pagefind UI ships light-only tokens (#393939 text on a transparent box), so dark mode maps them to the site's dark tokens */
 :root[data-theme="dark"] .pagefind-ui { --pagefind-ui-text: var(--fg); --pagefind-ui-primary: var(--link); --pagefind-ui-background: var(--panel); --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--bg); }
 @media (prefers-color-scheme: dark) {

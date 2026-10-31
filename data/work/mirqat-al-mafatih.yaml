@@ -3,15 +3,20 @@ class: work
 kind: book
 label: { ar: "مرقاة المفاتيح شرح مشكاة المصابيح", en: "Mirqat al-Mafatih Sharh Mishkat al-Masabih" }
 summary:
-  ar: "بطاقة أولية لـمرقاة المفاتيح شرح مشكاة المصابيح؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Mirqat al-Mafatih Sharh Mishkat al-Masabih; its sources are not yet checked on the page."
+  ar: "«مرقاة المفاتيح شرح مشكاة المصابيح» لعلي بن سلطان محمد القاري (ت 1014هـ): شرح على «مشكاة المصابيح» للخطيب التبريزي، يذكر فيه الحديث ثم يشرح ألفاظه ويبين معانيه وأقوال العلماء فيه. {cite:mirqat-al-mafatih-dar-kitab-vol7 p. 5}"
+  en: "Ali ibn Sultan Muhammad al-Qari's (d. 1014 AH) commentary on Mishkat al-masabih of al-Khatib al-Tibrizi. It takes each hadith, explains its words and meaning, and reports the scholars' views. {cite:mirqat-al-mafatih-dar-kitab-vol7 p. 5}"
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/mirqat-al-mafatih-dar-kitab-vol7, source/mirqat-al-mafatih-dar-kitab-vol11, source/mirqat-al-mafatih-jamal-itani-2019] }
+authors: [person/ali-al-qari]
+language: language/arabic
 wings: []
-sources: [source/al-aalam]
+themes: [scripture-and-its-sciences]
+sources: [source/mirqat-al-mafatih-dar-kitab-vol7, source/mirqat-al-mafatih-dar-kitab-vol11, source/mirqat-al-mafatih-jamal-itani-2019]
 external_ids: { wikidata: "Q120489973" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "Three printings read from the OCR: vol. 7 (Dar al-Kitab al-Islami, scan pp. 5–93), vol. 11 (Dar al-Kitab al-Islami, scan pp. 5–54) and the Jamal Itani edition (scan pp. 1–137). Earlier draft card from Wikidata replaced by these records."
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "harvest-group-b-sunan-mirqat"
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the OCR of the scans" }

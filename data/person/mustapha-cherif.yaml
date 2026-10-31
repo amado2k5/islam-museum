@@ -1,0 +1,45 @@
+id: person/mustapha-cherif
+class: person
+label:
+  ar: "مصطفى شريف"
+  en: "Mustapha Cherif"
+  ur: "مصطفیٰ شریف"
+names:
+  - { value: "Mustapha Cherif", kind: full }
+  - { value: "مصطفى شريف", kind: full }
+  - { value: "Mustapha Chérif", kind: latinized }
+gender: male
+born:
+  edtf: "1950"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1950 at Miliana, Algeria: the French biography gives Miliana and Wikidata's place of birth is Miliana (Q48468); the Arabic biography says he was born near Miliana, a variant preserved here. No source read gives a day or month, and the year 1950 spans the Hijri years 1369–1370, so no hijri value is recorded."
+  sources: [source/wikipedia-mustapha-cherif-fr, source/wikipedia-mustapha-cherif-ar, source/wikidata-mustapha-cherif]
+roles: [philosopher, writer, academic]
+regions: [maghreb, andalus-europe]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's structured religion value gives Islam only — a single structured family with no school — and neither biography attests a personal school or profession for Mustapha Cherif himself; the French biography is a translation of the Arabic, so the two are one family. His lifelong scholarship on Islam and his interreligious-dialogue work — he founded the Groupe d'amitié islamo-chrétienne in 1993 and was received by Popes John Paul II, Benedict XVI and Francis — are activity and affiliation, which never count as personal attestation. The settlement is the Islam-only configuration, unknown."
+    sources: [source/wikipedia-mustapha-cherif-fr, source/wikipedia-mustapha-cherif-ar, source/wikidata-mustapha-cherif]
+relations:
+  - { type: born_in, target: place/miliana, sources: [source/wikipedia-mustapha-cherif-fr, source/wikidata-mustapha-cherif] }
+summary:
+  ar: "فيلسوف ومفكر جزائري (وُلد في مليانة سنة 1950). وزير الجامعات (1990–1991) وسفير الجزائر في مصر (1994–2001)، ومؤسس مجموعة الصداقة الإسلامية المسيحية (1993)، ومن أبرز دعاة حوار الحضارات والأديان؛ نال جائزة اليونسكو–الشارقة للثقافة العربية سنة 2012."
+  en: "Algerian philosopher and thinker (born 1950 in Miliana). Minister of universities (1990–1991) and Algeria's ambassador to Egypt (1994–2001), founder of the Groupe d'amitié islamo-chrétienne (1993) and a leading voice for dialogue among civilisations and religions; he received the UNESCO-Sharjah Prize for Arab Culture in 2012."
+  ur: "الجزائری فلسفی اور مفکر (پیدائش 1950ء، ملیانہ)۔ وزیرِ جامعات (1990–1991ء) اور مصر میں الجزائر کے سفیر (1994–2001ء) رہے؛ اسلامی مسیحی دوستی گروپ (1993ء) کے بانی اور تہذیبوں و مذاہب کے مکالمے کی نمایاں آواز؛ 2012ء میں یونیسکو–شارجہ انعام برائے عرب ثقافت سے نوازے گئے۔"
+sources:
+  - source/wikipedia-mustapha-cherif-fr
+  - source/wikipedia-mustapha-cherif-ar
+  - source/wikidata-mustapha-cherif
+external_ids:
+  wikidata: Q15440493
+provenance:
+  layer: own-research
+  source: "The French and Arabic Wikipedia biographies of Mustapha Cherif and the Wikidata item Q15440493, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the French article's page properties (English Wikipedia has no article on him). Identity: the queue line's bearer is the Miliana-born philosopher (born 1950), pinned by biography and QID; the separate Arabic page titled with his name in a shorter form carries no Wikidata item and is not this record's source. The queue's year is confirmed; no source gives a birth day. Regions: maghreb for his Algerian base, and andalus-europe for his sourced European academic career (EHESS doctorates in Paris, 1978; lectures at the Collège de France, Cambridge and Yale; books published in Paris). Relations written: born_in to Miliana, whose place entity exists on main. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-140
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
