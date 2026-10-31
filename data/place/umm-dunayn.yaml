@@ -1,0 +1,35 @@
+id: place/umm-dunayn
+class: place
+kind: town
+label:
+  ar: أم دنين
+  en: Umm Dunayn
+  ur: ام دنین
+summary:
+  ar: موضع على طريق عمرو بن العاص إلى حصن بابليون، قاتله الروم عنده قتالاً شديداً وأبطأ عليه الفتح فكتب إلى عمر يستمده {cite:futuh-misr-amir-1999 p. 87}.
+  en: A place on Amr ibn al-As's road to the fortress of Babylon, where the Romans fought him hard and victory was slow, so that he wrote to Umar for reinforcements {cite:futuh-misr-amir-1999 p. 87}.
+  ur: عمرو بن العاص کے بابلیون کے قلعے کی طرف راستے میں ایک مقام، جہاں رومیوں نے ان سے سخت جنگ کی اور فتح میں دیر ہوئی، تو انہوں نے عمر سے کمک مانگی {cite:futuh-misr-amir-1999 p. 87}۔
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: site_of
+  target: event/conquest-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 87–88
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

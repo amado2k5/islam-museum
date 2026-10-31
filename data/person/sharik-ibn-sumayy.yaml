@@ -1,0 +1,38 @@
+id: person/sharik-ibn-sumayy
+class: person
+label:
+  ar: شريك بن سمي
+  en: Sharik ibn Sumayy
+  ur: شریک بن سمی
+gender: male
+roles:
+- general
+summary:
+  ar: من قادة جيش عمرو بن العاص في فتح مصر، كان على مقدمته في الطريق إلى الإسكندرية، وإليه يُنسب الكوم الذي يقال له كوم شريك {cite:futuh-misr-amir-1999 p. 108}.
+  en: One of the commanders in Amr ibn al-As's army at the conquest of Egypt, who led his vanguard on the road to Alexandria and after whom the mound called Kom Sharik is named {cite:futuh-misr-amir-1999 p. 108}.
+  ur: فتح مصر میں عمرو بن العاص کے لشکر کے سالاروں میں سے ایک، جو اسکندریہ کے راستے میں ان کے ہراول پر تھے، اور کوم شریک نامی ٹیلا انہی سے منسوب ہے {cite:futuh-misr-amir-1999 p. 108}۔
+wings:
+- people
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: participated_in
+  target: event/battle-of-kom-sharik
+  role: على المقدمة
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 108
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
