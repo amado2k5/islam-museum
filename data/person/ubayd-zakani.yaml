@@ -1,0 +1,59 @@
+id: person/ubayd-zakani
+class: person
+
+label:
+  ar: "عبيد زاكاني"
+  en: "Ubayd Zakani"
+  ur: "عبید زاکانی"
+
+names:
+  - { value: "خواجه نظام الدين عبيد الله الزاكاني", kind: full }
+  - { value: "Khwaja Nizam al-Din Ubayd Allah al-Zakani", kind: full }
+  - { value: "Ubayd-i Zakani", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شاعر وكاتب فارسي من قزوين (ت نحو 1370)، يُعدّ من أعظم الساخرين في الأدب الفارسي؛ من أسرة زاكاني المنحدرة من بني خفاجة. قصد شيراز فاتصل ببلاط أبي إسحاق الإينجو، وكتب «أوشاق نامه» ومدائح له، وبعد مقتل أبي إسحاق سنة 1357 قصد البلاط الجلائري ثم عاد إلى شيراز. أشهر آثاره «موش و گربه» (الفأر والقط)، هجاء سياسي ينتقد نفاق رجال الدين، و«أخلاق الأشراف» و«صد پند». لا يُعرف له عام ولادة؛ تضعه إيرانica قبل 1319، وتختلف التذاكر في وفاته بين 768 و772هـ."
+  en: "Persian poet and writer of Qazvin (d. c. 1370), regarded as one of the greatest satirists in Persian literature; of the Zakani family, descended from the Arab tribe of Banu Khafaja. He attached himself to the Injuid court of Abu Ishaq at Shiraz, then, after Abu Ishaq's fall in 1357, to the Jalayirid court, before returning to Shiraz. His most famous works are Mush-o Gorbeh ('Mouse and Cat'), a political satire attacking clerical hypocrisy, Akhlaq al-Ashraf and Sad Pand. No birth year is recorded for him — Iranica places his birth before 1319 — and the biographical tradition puts his death between 768 and 772 AH."
+  ur: "قزوین کے فارسی شاعر و ادیب (وفات تقریباً 1370ء)، جنھیں فارسی ادب کے سب سے بڑے طنز نگاروں میں شمار کیا جاتا ہے؛ ان کا تعلق بنو خفاجہ سے منسوب زاکانی خاندان سے تھا۔ وہ شیراز میں ابو اسحاق اینجو کے دربار سے وابستہ ہوئے، اور 1357ء میں ابو اسحاق کے زوال کے بعد جلایری دربار گئے، پھر شیراز لوٹ آئے۔ ان کی مشہور ترین تصانیف «موش و گربہ» (چوہا اور بلی)، جو مذہبی منافقت پر سیاسی طنز ہے، «اخلاق الاشراف» اور «صد پند» ہیں۔ ان کا سالِ ولادت معلوم نہیں — ایرانیکا ان کی پیدائش کو 1319ء سے پہلے رکھتی ہے — اور تذکروں میں ان کی وفات 768 تا 772ھ کے درمیان بیان ہوئی ہے۔"
+
+roles: [poet, writer]
+regions: [persia-central-asia]
+wings: [people]
+
+died:
+  edtf: "1370"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The year 1370 is the conventional one: the English biography's lead gives d. 1370 and Iranica's entry is headed 'd. ca. 770/1370'. The underlying tradition is a range, preserved here in full: Iranica's text, following the Shahed-e Sadeq and Taqi Kashi's Kholasat al-ash'ar as used by Abbas Iqbal, gives his death in 771/1369-70 or 772/1370-71, and confirms he was still alive in 768/1366, when he copied an astronomical manuscript later inherited by his son; the Persian biography likewise reports the tazkira writers placing the death between 768 and 772 AH. No Hijri year is recorded: the Gregorian year 1370 straddles 771-772 AH and the sources' own pairings (770, 771, 772) are inconsistent. PLACE CONFLICT, so no died_in edge is written: the English biography and Wikidata say possibly Shiraz; the Persian biography reports that he died in Isfahan or Baghdad and that his burial place is unknown."
+  sources:
+    - source/wikipedia-ubayd-zakani-en
+    - source/iranica-obayd-zakani
+    - source/wikipedia-ubayd-zakani-fa
+
+relations:
+  - { type: born_in, target: place/qazvin, sources: [source/wikipedia-ubayd-zakani-en, source/iranica-obayd-zakani] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text source read names a school of law or any affiliation for him. Wikidata carries Sunni Islam as a structured value; a single structured filing never counts on its own, and none of the biographies discusses his doctrine. His satire attacked the hypocrisy of the clergy of his day; a satirist's target is his subject matter, not an attestation of his own school, so the segment stays unknown and the position is stated plainly."
+    sources:
+      - source/wikidata-ubayd-zakani
+      - source/wikipedia-ubayd-zakani-en
+
+sources: [source/wikipedia-ubayd-zakani-en, source/wikipedia-ubayd-zakani-fa, source/iranica-obayd-zakani, source/wikidata-ubayd-zakani]
+
+external_ids:
+  wikidata: Q2018948
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ubayd Zakani', rev. 1371706041 of 28 August 2026 (its bibliography bridges to J.T.P. de Bruijn's Encyclopaedia of Islam, Second Edition, entry and Daniela Meneghini's Encyclopaedia Iranica entry of 2008); Persian Wikipedia 'عبید زاکانی', rev. 44878898 of 29 October 2026; Encyclopaedia Iranica, 'Obayd Zakani' by Daniela Meneghini Correale (published 8 December 2008, last updated 7 June 2017), read in full via search extract; Wikidata Q2018948, item revision 2554603581 of 7 October 2026, re-asserted against a second live query in the same session. All read in session. NO BORN BLOCK IS WRITTEN: no source reached gives him a birth year — Iranica says only 'probably before 1319', the Persian biography says late 7th or early 8th century AH — and neither the founder's queue year (1310) nor Wikidata's structured value (1301) is attested in any text; the queue's death year (1370) is the conventional one and is followed, as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

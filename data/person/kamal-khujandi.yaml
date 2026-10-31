@@ -1,0 +1,75 @@
+id: person/kamal-khujandi
+class: person
+
+label:
+  ar: "كمال الخجندي"
+  en: "Kamal Khujandi"
+  ur: "کمال خجندی"
+
+names:
+  - { value: "كمال الدين مسعود الخجندي", kind: full }
+  - { value: "Kamal al-Din Mas'ud al-Khujandi", kind: full }
+  - { value: "Shaykh Kamal", kind: alternate }
+  - { value: "Kamal Khojandi", kind: latinized }
+
+gender: male
+
+summary:
+  ar: "شاعر فارسي وصوفي من خجند (نحو 1320-1400)، اسمه الكامل كمال الدين مسعود، عُرف بشيخ كمال. ذاع صيته شاعراً وشيخاً صوفياً في خجند وما وراء النهر، ثم ارتحل غرباً فاستقر في تبريز، حيث بنى له السلطان حسين الجلائري خانقاه في وليانكوه جعلها مقر نشاطه الأدبي والروحي، وجمع مريدوه ديوانه من بعده. أسره طقطمش خان سنة 1385 وحمله إلى سراي فأقام بها أربع سنين. توفي في تبريز ودُفن عند مرقده. لا يذكر أي مصدر طريقةً صوفية بعينها انتسب إليها."
+  en: "Persian poet and Sufi of Khujand (c. 1320–1400), full name Kamal al-Din Mas'ud, known as Shaykh Kamal. He made his reputation as a poet and a Sufi shaikh in Khujand and Transoxiana, then travelled west and settled in Tabriz, where Sultan Husayn Jalayirid built him a khanqah at Waliankuh that became the base of his literary and spiritual activity; his disciples collected his divan. Carried off to Saray by Toqtamish Khan in 1385, he lived there four years before returning to Tabriz, where he died and was buried at his retreat. No source names a Sufi order to which he belonged."
+  ur: "خجند کے فارسی شاعر اور صوفی (تقریباً 1320ء–1400ء)، پورا نام کمال الدین مسعود، جو شیخ کمال کے نام سے معروف ہوئے۔ انھوں نے خجند اور ماوراء النہر میں شاعر اور صوفی شیخ کی حیثیت سے شہرت پائی، پھر مغرب کا رخ کیا اور تبریز میں بس گئے، جہاں سلطان حسین جلایری نے ان کے لیے ولیان کوہ میں ایک خانقاہ بنوائی جو ان کی ادبی و روحانی سرگرمیوں کا مرکز بنی؛ ان کے مریدوں نے ان کا دیوان مرتب کیا۔ 1385ء میں توقتمش خان انھیں سرائے لے گیا، جہاں وہ چار برس رہے، پھر تبریز لوٹے اور وہیں وفات پائی اور اپنے مرقد میں دفن ہوئے۔ کسی ماخذ میں ان کے کسی صوفی سلسلے سے انتساب کا ذکر نہیں۔"
+
+roles: [poet]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1320"
+  hijri: "0720"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Place: Khujand (Iranica, the English and Persian biographies, Wikidata); place/khujand has no entity on main, so no born_in edge is written and the place is carried here. The year follows Iranica's pairing 'ca. 720/1320' and the English biography's 1320. Wikidata carries 1321 under a Julian calendar model, and the founder's queue lists 1321; Tajik observance is itself split (a 675th birth anniversary was marked in 1996 and a 700th in 2020). Both readings are preserved; 1320 is followed on the scholarly source."
+  sources:
+    - source/iranica-kamal-kojandi
+    - source/wikipedia-kamal-khujandi-en
+    - source/wikidata-kamal-khujandi
+
+died:
+  edtf: "1400"
+  hijri: "0803"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Place: Tabriz (all sources), at his retreat in Waliankuh, where he was buried. The year follows the pairing 803/1400-01 given by Jami and Khwandamir, which Iranica reports as confirmed by contemporary chronograms and generally accepted by modern scholars; the English biography and Wikidata likewise give 1400. The biographical tradition ranges wider — from 792/1390 in Dawlatshah to 807/1404 in Gazorgahi — and the founder's queue lists 1401, the second half of 803 AH. The English biography's own parenthesis '1400 CE (807 AH)' is an internally inconsistent pairing and is not followed. All readings preserved here."
+  sources:
+    - source/iranica-kamal-kojandi
+    - source/wikipedia-kamal-khujandi-en
+    - source/wikipedia-kamal-khujandi-fa
+    - source/wikidata-kamal-khujandi
+
+relations:
+  - { type: died_in, target: place/tabriz, sources: [source/iranica-kamal-kojandi, source/wikipedia-kamal-khujandi-en] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: "His Sufi mastership is attested for the man himself by two independent scholarly traditions: Iranica's entry (Losensky) opens 'Persian poet and Sufi', records that he established his reputation as a Sufi shaikh in Khujand and Transoxiana, and describes the khanqah at Waliankuh in Tabriz — granted by Sultan Husayn Jalayirid — as the base of his spiritual activity, his divan collected by his disciples and his burial at his retreat; the Persian biographical tradition (Dehkhoda; Safa's History of Literature, behind the Persian biography) likewise counts him among the 'arifan and describes the khanqah life. No source names an ORDER for him — no Naqshbandi, Khalwati or other affiliation is attested anywhere read — and no source names a school of law; the segment therefore records Sufism itself, not an order and not a madhhab."
+    sources:
+      - source/iranica-kamal-kojandi
+      - source/wikipedia-kamal-khujandi-fa
+
+sources: [source/wikipedia-kamal-khujandi-en, source/wikipedia-kamal-khujandi-fa, source/iranica-kamal-kojandi, source/wikidata-kamal-khujandi]
+
+external_ids:
+  wikidata: Q784028
+
+provenance:
+  layer: own-research
+  source: "Encyclopaedia Iranica, 'Khojandi, Kamal' by Paul E. Losensky, Vol. XV, Fasc. 4, pp. 412-414 (published 15 December 2010, last updated 19 October 2012), read in full via search extract; English Wikipedia 'Kamal Khujandi', rev. 1353498549 of 10 May 2026; Persian Wikipedia 'کمال خجندی', rev. 43207797 of 20 December 2025 (resting on Dehkhoda's Loghatnama and Safa's Tarikh-e Adabiyat dar Iran); Wikidata Q784028, item revision 2548132517 of 21 September 2026, re-asserted against a second live query in the same session. Queue years were 1321-1401; the record follows 1320 (Iranica/English biography) for the birth and 1400 (803 AH pairing, English biography, Wikidata) for the death, both as debated with the queue readings preserved in the notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
