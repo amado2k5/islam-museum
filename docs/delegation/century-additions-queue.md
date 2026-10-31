@@ -1698,14 +1698,14 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
 - [x] Sultan Mahmud Shah Tughlaq (1388–1413)
 - [x] Taj al-Din Firuz Shah Bahmani (1370–1422)
-- [ ] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
-- [ ] Syed Jalaluddin Bukhari (1244–1350) — FLAG: the CSV's dates match no standard biography (Surkh-Posh Bukhari is usually 1192–1291); resolve identity at build time.
+- [x] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
+- [x] Syed Jalaluddin Bukhari (1244–1350) — FLAG: the CSV's dates match no standard biography (Surkh-Posh Bukhari is usually 1192–1291); resolve identity at build time.
 
 ## E. 1126–1225 additions (3)
 
-- [ ] Ibn Zuhr (Avenzoar) (1094–1162) — the museum holds his father and his son, but not Avenzoar himself.
-- [ ] Ibn Mada' (1116–1196)
-- [ ] Terken Khatun (1155–1233) — Khwarazmian empress mother; NOT the museum's turkan-khatun (Malik-Shah I's wife).
+- [x] Ibn Zuhr (Avenzoar) (1094–1162) — the museum holds his father and his son, but not Avenzoar himself.
+- [x] Ibn Mada' (1116–1196)
+- [x] Terken Khatun (1155–1233) — Khwarazmian empress mother; NOT the museum's turkan-khatun (Malik-Shah I's wife).
 
 ## F. 1026–1125 additions (3)
 

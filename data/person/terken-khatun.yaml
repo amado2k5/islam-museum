@@ -1,0 +1,63 @@
+id: person/terken-khatun
+class: person
+label:
+  ar: "تركان خاتون"
+  en: "Terken Khatun"
+  ur: "ترکان خاتون"
+names:
+  - { value: "تركان خاتون", kind: full }
+  - { value: "Turkan Khatun", kind: alternate }
+  - { value: "خداوند جهان", kind: laqab }
+  - { value: "Khudavand-e Jahan", kind: laqab }
+  - { value: "أولوغ تركان", kind: laqab }
+  - { value: "Ulug Turkan", kind: laqab }
+gender: female
+summary:
+  ar: "تركان خاتون (ت 1233م)، أميرة قبچاقية من قبيلة القانقلي، زوجة السلطان علاء الدين تكش وأم السلطان علاء الدين محمد خوارزم شاه وشريكته الفعلية في الحكم: كان لها ديوانها وختمها وجيوشها وأقاليمها، ولم تكن أوامر السلطان نافذة دون توقيعها. عند الغزو المغولي غادرت غرغانج قبل سقوطها فحوصرت في حصن بلاريجان واستسلمت، وماتت في الأسر سنة 630 هـ."
+  en: "Terken Khatun (d. 1233), a Qipchaq princess of the Qangli tribe, wife of Sultan Ala al-Din Tekish and mother of Ala al-Din Muhammad II of Khwarazm, whose de facto co-ruler she was: she kept her own diwan, seal, armies and territories, and the sultan's decrees were ineffective without her signature. When the Mongols invaded she left Gurganj before its fall, was besieged in a fortress in Larijan and surrendered, and died in captivity in 630 AH."
+  ur: "ترکان خاتون (وفات 1233ء)، قبیلۂ قانقلی کی قبچاق شہزادی، سلطان علاء الدین تکش کی زوجہ اور سلطان علاء الدین محمد خوارزم شاہ کی والدہ اور عملاً ان کی شریکِ حکومت تھیں: ان کا اپنا دیوان، مہر، فوجیں اور علاقے تھے اور سلطان کے فرامین ان کے دستخط کے بغیر نافذ نہ ہوتے تھے۔ منگول حملے کے وقت وہ گرگانج کے سقوط سے پہلے وہاں سے نکل گئیں، لاریجان کے ایک قلعے میں محصور ہو کر ہتھیار ڈالے، اور 630ھ میں قید ہی میں وفات پائی۔"
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+born:
+  edtf: "1155~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "A daughter of a Qipchaq khan — the Arabic article says of the Qangli tribe, the English article gives the Qangli or the Bayandur of the Kimek confederation. No source read fixes her birth year: the queue gives 1155 and Wikidata carries 1150 and 1151. No Hijri year is recorded for so unfixed a year."
+  sources:
+    - source/wikipedia-terken-khatun-en
+    - source/wikipedia-terken-khatun-ar
+    - source/wikidata-terken-khatun
+died:
+  edtf: "1233"
+  hijri: "0630"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "In Mongol captivity in the Qara Qorum desert, where Genghis Khan had exiled her after her surrender at the Larijan fortress in early 617 AH and her dispatch to him at Talqan; the Arabic article gives her death in prison in 630 AH, and Wikidata gives 1233."
+  sources:
+    - source/wikipedia-terken-khatun-ar
+    - source/wikipedia-terken-khatun-en
+    - source/wikidata-terken-khatun
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school of law or theology for her personally, and Wikidata records no religion value for the item. A Qipchaq princess who ruled within a Muslim empire: origin and office are not attestations, so the value stays unclassified."
+    sources:
+      - source/wikipedia-terken-khatun-en
+      - source/wikidata-terken-khatun
+sources:
+  - source/wikipedia-terken-khatun-en
+  - source/wikipedia-terken-khatun-ar
+  - source/wikidata-terken-khatun
+external_ids:
+  wikidata: Q5954482
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Terken Khatun (wife of Ala al-Din Tekish)' (revision 1374801217 of 14 Sep 2026; the bare 'Terken Khatun' title is a disambiguation page), Arabic Wikipedia «تركان خاتون» (revision 61664857 of 15 Mar 2023), Wikidata Q5954482 (item rev. 2558702606 of 19 Oct 2026, re-asserted against a second live query in the same session). Existence checks by name fragments (terken, turkan, تركان) and by QID across data/person on origin/main found no prior record for the Khwarazmian empress. LABEL COLLISION (for the coordinator's homonym registration): she is a different woman from person/turkan-khatun, Malik-Shah I's wife, whose Arabic label is «تركان زوجة ملكشاه» and who has no English label; the two women's names coincide in both scripts (Terken/Turkan Khatun; تركان خاتون), and English-language sources use 'Turkan Khatun' for this empress as well, so the pair should be registered in data/_homonyms.yaml. RELATIONS: her husband person/ala-al-din-tekish and her son person/muhammad-khwarazmshah both have records on main; under the write-once rule the spouse_of edge belongs in the elder spouse's record (Tekish's) and the child_of edge in the son's record, so no family edge is written here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 B"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
