@@ -1,0 +1,61 @@
+id: person/ibn-abdun
+class: person
+
+label: { ar: "ابن عبدون الإشبيلي", en: "Ibn Abdun al-Ishbili", ur: "ابن عبدون اشبیلی" }
+
+names:
+  - { value: "محمد بن أحمد بن عبدون التجيبي", kind: full }
+  - { value: "Muhammad ibn Ahmad ibn Abdun al-Tujibi", kind: full }
+  - { value: "الإشبيلي", kind: nisba }
+  - { value: "al-Tujibi", kind: nisba }
+  - { value: "Ibn Abdun", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "فقيه وكاتب أندلسي من أهل إشبيلية (ت. 1134)، عاش في النصف الثاني من القرن الخامس الهجري فشهد نهاية ملك المعتمد بن عباد وقيام دولة المرابطين. ينتسب إليه «رسالة في القضاء والحسبة»، من أقدم ما وصلنا في أدب الحسبة، حققها ليفي بروفنسال سنة 1955 وطُبعت سنة 2009. نقلت الدراسات عن شالميتا أنه ربما كان مرشحًا لخطة القضاء لا قاضيًا عاملًا. وليس هو عبد المجيد بن عبدون صاحب «القصيدة العبدونية» الشهيرة، فذلك شاعر آخر من بطليوس."
+  en: "Andalusi jurist and writer of Seville (d. 1134) who lived in the second half of the 5th/11th century, witnessing the end of al-Mu'tamid's reign and the Almoravid takeover. He is the author of the Risala fi'l-qada' wa'l-hisba (Treatise on the Judiciary and Market Inspection), among the earliest surviving hisba manuals, edited by Levi-Provencal in 1955 and reprinted in 2009. Scholarship reports Chalmeta's argument that he may have been only a candidate for the qadiship, not a serving qadi. He is not Abd al-Majid ibn Abdun, the Badajoz poet of the famous Abduniyya qasida - a different man of a similar name."
+  ur: "اشبیلیہ کے اندلسی فقیہ و مصنف (وفات 1134ء)، پانچویں صدی ہجری کے نصفِ ثانی میں زیست؛ معتمد بن عباد کے عہد کا خاتمہ اور مرابطین کا قیام دیکھا۔ ان کی تصنیف «رسالہ فی القضاء والحسبہ» ادبِ حسبہ کی قدیم ترین باقی ماندہ کتابوں میں سے ہے، جسے 1955ء میں لیوی پروونسال نے مرتب کیا۔ محققین کے مطابق شاید وہ قاضی کے عہدے کے امیدوار تھے، عامل قاضی نہیں۔ یہ عبد المجید بن عبدون سے مختلف شخص ہیں، جو مشہور «قصیدہ عبدونیہ» کے بطلیوسی شاعر تھے۔"
+
+roles: [jurist, writer]
+regions: [andalus-europe]
+wings: [people]
+
+died:
+  edtf: "1134"
+  hijri: "0529"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: "The year follows the received dating of his death to 529 AH (1134/35 CE) carried by the catalogue tradition and the founder's queue; the Hijri pairing is that received year converted, so derived. No source read gives a dated obituary: the Arabic biography dates him only to the second half of the 5th/11th century and the Almoravid period, and Garcia-Sanjuan places the treatise and its author in early-12th-century Seville. No birth year is attested anywhere in these sources - the queue's 1070 appears in none of them - so no born block is recorded."
+  sources:
+    - source/wikipedia-ibn-abdun-ar
+    - source/garcia-sanjuan-ibn-abdun-2008
+    - source/wikidata-ibn-abdun
+
+relations:
+  - { type: born_in, target: place/seville }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His treatise works squarely within the Maliki jurisprudence of al-Andalus - Garcia-Sanjuan reads it as a Maliki hisba manual of Almoravid Seville, and its rulings agree with medieval Maliki teaching on the protected peoples. That is documented juristic practice in a Maliki milieu; no source read names his own school in terms, so the value stays unknown."
+    sources:
+      - source/garcia-sanjuan-ibn-abdun-2008
+      - source/wikipedia-ibn-abdun-ar
+
+external_ids: { wikidata: "Q3327518" }
+
+sources:
+  - source/wikipedia-ibn-abdun-ar
+  - source/wikidata-ibn-abdun
+  - source/garcia-sanjuan-ibn-abdun-2008
+
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article (sitting under a duplicate Wikidata item, Q141743980), Wikidata Q3327518 fetched live from the MediaWiki API on 31 Oct 2026, and Garcia-Sanjuan 2008. Identity: the queue's 'Muhammad ibn Abdun of Seville' is Muhammad ibn Ahmad ibn Abdun al-Tujibi (Q3327518), the hisba author - NOT Abd al-Majid ibn Abdun (Q10925839), the Badajoz court poet of the Abduniyya qasida, and NOT Muhammad ibn Abdun al-Jabali (Q16846306), the physician-mathematician; the qasida attribution in the queue description belongs to the poet and is not carried into this record"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 B"
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
