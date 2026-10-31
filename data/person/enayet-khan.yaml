@@ -40,6 +40,8 @@ faith:
     basis: unknown
     note: "The structured-only configuration. The English article's text states no religion for him at all — it gives his musician family, his father Imdad Khan's teaching and the Etawah gharana tradition. Wikidata carries a single religion value, Islam, and a single structured value never counts as an attestation; his family's gharana lineage and his marriage name no school either. Under the two-source rule the value stays unknown, with the structured value recorded here."
     sources: [source/wikipedia-enayat-khan-en, source/wikidata-enayat-khan]
+relations:
+  - { type: parent_of, target: person/vilayat-khan, sources: [source/wikipedia-vilayat-khan-en, source/wikidata-vilayat-khan] }
 external_ids:
   wikidata: Q5375263
 sources: [source/wikipedia-enayat-khan-en, source/wikidata-enayat-khan]
