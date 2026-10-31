@@ -736,11 +736,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Husain Abdullah — 1985–Living
 - [x] Hamza Abdullah — 1983–Living
 - [x] Naji Marshall — 1998–Living
-- [ ] Tari Eason — 2001–Living
-- [ ] Jaylen Brown (Contemporary) — 1996–Living
-- [ ] Kyrie Irving — 1992–Living
-- [ ] Rondae Hollis-Jefferson — 1995–Living
-- [ ] Enes Kanter Freedom — 1992–Living
+- [x] Tari Eason — 2001–Living
+- [x] Jaylen Brown (Contemporary) — 1996–Living
+- [x] Kyrie Irving — 1992–Living
+- [x] Rondae Hollis-Jefferson — 1995–Living
+- [x] Enes Kanter Freedom — 1992–Living
 - [ ] Mehmet Okur — 1979–Living
 - [ ] Hedo Türkoğlu — 1979–Living
 - [ ] Alperen Şengün — 2002–Living
