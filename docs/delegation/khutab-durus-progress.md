@@ -37,6 +37,8 @@ _ none yet — per the founder's rule nothing is excluded without his verificati
 - Batch 2 (PR #2672): 7 Umayyad-era sermons (al-Hasan sulh, both Zubayrids opponent-cited, Mu'awiya II, al-Walid, Sulayman, Umar b. Abd al-Aziz patron-cited) + 4 kind:website entities (manarat-al-haramain, droos-al-haramain, islamway, alukah) + 3 group stubs.
 - 44 authorised source families registered (PR #2666); cat: khutab canon entries (PR #2665); schema + lane (PR #2661).
 
+- Batch 3 (31 Oct 2026, founder-approved vol 3 candidate list, narrowed): 5 Abbasid-era sermon works from Jamharat v3 with ar/en/ur prose — Dawud ibn Ali in Kufa (EPUB p.7), al-Saffah's second Friday in Kufa (p.11), al-Nafs al-Zakiyya in Medina (p.37), Tahir ibn al-Husayn in Baghdad (p.118), al-Ma'mun on Harun's death (p.119). Narrowed from ~20 because the remaining candidates have damaged OCR or no firm date; they stay on the list. Cite anchors are EPUB page indices, not printed page numbers (not yet checked against the printed pages).
+
 ## Indexed totals
 
-15 sermon works written (batches 1+2); 4 website works; 44 source entities; era coverage: prophetic, rashidun, zubayrid/umayyad; countries: Hijaz, Iraq, Syria; speakers: 11; formats: text (book pages), websites.
+20 sermon works written (batches 1–3); 4 website works; 44 source entities; era coverage: prophetic, rashidun, zubayrid/umayyad; countries: Hijaz, Iraq, Syria; speakers: 11; formats: text (book pages), websites.
