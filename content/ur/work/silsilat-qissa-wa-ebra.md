@@ -1,0 +1,20 @@
+---
+id: work/silsilat-qissa-wa-ebra
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+عمر عبد الکافی کا درسی سلسلہ، جو اس بابرکت مہینے میں پیش کیا جاتا ہے جسے وہ رحمت کا مہینہ کہتے ہیں۔ ہر قسط میں قرآن یا صحیح حدیث سے ایک واقعہ بیان کیا جاتا ہے اور پھر اس سے نصیحتیں اخذ کی جاتی ہیں۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:01:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:01:30}
+
+## قرآنی قصص کا ان کا طریقہ
+ان کے مطابق قرآنی قصہ انسانی قصوں سے مختلف ہے: وہ اکثر اپنے کرداروں، جگہوں یا زمانوں کا نام نہیں لیتا، کیونکہ اس کا مقصد عبرت ہے، الفاظ یا ناموں کی تفصیل نہیں۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:02:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:03:30}
+
+## قسط کی ساخت
+ہر قسط کتاب اللہ اور سنتِ صحیحہ میں سے ایک واقعہ بیان کرتی ہے، پھر سامع کے لیے ان عبرتوں اور نصیحتوں پر ٹھہرتی ہے جو وہ اس سے حاصل کر سکتا ہے۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:03:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:11:30}
+
+## پہلی قسط کے قصص
+- ابنِ آدم کے دو بیٹوں کا قصہ، جسے وہ انسانی تاریخ میں قتل کا پہلا واقعہ قرار دیتے ہیں۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:04:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:05:00}
+- نوح اور ان کے بیٹے کا قصہ، جس نے کہا کہ وہ پانی سے بچانے والے پہاڑ کی طرف پناہ لے گا؛ ان کے مطابق وہ بیٹا غرق ہونے والوں میں سے تھا۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:06:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:06:30}
+- ابراہیم کا قصہ: مکہ میں اسماعیل اور ان کی والدہ ہاجرہ کو چھوڑنا، ذبح اور فدیے کے بارے میں مکالمہ، اور اسماعیل کے ساتھ بیت اللہ کی بنیادیں اٹھانا۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:07:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:07:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:08:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:08:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:09:00}
+- موسیٰ کی والدہ کا قصہ، جنہیں حکم ہوا کہ انہیں دودھ پلائیں اور اگر خوف ہو تو دریا میں ڈال دیں؛ پھر وہ بیان کرتے ہیں کہ وہ فرعون کے گھرانے میں کیسے پہنچے۔ {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:09:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep01 00:10:00}
