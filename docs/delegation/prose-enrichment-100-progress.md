@@ -222,3 +222,48 @@ Enriched in ar, en and ur, each body at least 100 words, from pages read in the 
 - place/trapani: the summary says Ibn Jubayr mentioned the town on his sea route. Not checked against the source in this batch; the Idrisi pages added as a source contain no Ibn Jubayr reference.
 - place/qarliyun: the summary's identification with Corleone in Sicily is not in the Idrisi passage read (pp. 605–606), which gives distances and fortresses only.
 - place/qubrus: Futuh p. 209 says the Cypriots demolished their city and mosques after the army left; the text says this is what "we were told" (بلغنا). The body attributes it to al-Baladhuri's report.
+
+## n–z batch 9 (Claude Haiku 5.5, 25 place slugs)
+
+Named batch 9 because batches 7 and 8 were already used on main by other n–z sessions. Each source was read in the OCR at the cited page. Idrisi page numbers are pages.json numbers, which equal the printed pages.
+
+| Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
+|---|---|---|---|---|---|
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 9: 25 place slugs (nairun, nafzawa, nahr-khamdan, qabi, qaqala, qazlara, qastiliyya, sisiyan, tabarqa, tadla, tahart, tarudant, turshiz, tughma, umm-rabi, washqa, zafar, zawada, zubala, shaqr, tabala, nafta, najaf, sharham, wallba) | 3 (tadla, qastiliyya, qazlara; each ar/en/ur body at least 100 words, cite-check passes) | 22 (reasons below) | this PR |
+
+### Enriched, batch 9
+
+- **place/tadla** (Idrisi pp. 241–242). Aghmat to Dai and Tadla, four days; cotton grown more in Tadla than in Dai and carried to every region; Tatn, Sala and Fez distances; the Berber groups east of Tadla.
+- **place/qastiliyya** (Idrisi p. 277). Also called Tuzar; palms and dates, citrons, vegetables, water not good, food dear because brought in, al-Hamma a short stage away, distances from Bagay.
+- **place/qazlara** (Idrisi pp. 890, 901). Distances to Nayun Burk, Mashla and Hala; the town's people as defenders; its place in Shasuniya.
+
+### Leads, batch 9
+
+Read in the OCR at the cited page:
+
+- **place/nairun.** p. 168 gives one short paragraph (a small town with a strong fortress, distances to al-Mansura). p. 166 names it in a list. About 45 words specific to the place. Lead.
+- **place/nafzawa.** pp. 278–279 give distances from Gafsa and Tuzar. p. 283 has the regional narrative, and p. 257 names Nafzawa as a Zenata lineage. No descriptive passage of the town. Lead.
+- **place/nahr-khamdan.** A river entry. pp. 205–213 describe the Chinese river and the towns on it (Khaygun, Iskiriya, Tukha). Those towns have their own entries. The river description on p. 213–214 needs a full read before a body can be written; the OCR there is noisy. Lead.
+- **place/qabi.** p. 955 gives distances (six stages from the sea, four days to Qulari). About 40 words specific to Qabi. Lead.
+- **place/qaqala.** p. 207 gives about 60 words (seven days from Luqin on the coast, on a small river that flows into the Bahank, silk, Qaqali cloth); p. 208 gives two stage distances. Lead.
+- **place/sisiyan.** pp. 716–717 list it among the Kimakiya towns and give twelve days east of Asturr and its place on the Ghamash. pp. 926 and 930 describe the land of Sisiyan in general. No passage of about 100 words for the town. Lead.
+- **place/tabarqa.** p. 289 gives about 50 words (seventy miles from Bizerte, a fortress on the sea, Arab tribes around it, a harbour for ships). p. 299 gives twenty-four miles from Marsa al-Kharaz. The coral passage on p. 290 belongs to Marsa al-Kharaz, not Tabarqa. Lead.
+
+Not read beyond a search for the label (OCR hit count in Idrisi shown in brackets). The reason is the thin or absent text, which the next batch should confirm:
+
+- **place/tarudant** [8], **place/turshiz** [11], **place/tughma** [5], **place/umm-rabi** [8], **place/washqa** [9], **place/zafar** [9], **place/zawada** [8], **place/zubala** [4], **place/shaqr** [16], **place/tabala** [7], **place/nafta** [4], **place/sharham** [6], **place/wallba** [5]. Lead until each is read at its pages.
+- **place/tahart** [18] has an existing body from the earlier batch. Its Idrisi passage was not re-checked in this batch. Lead; the existing body stands.
+- **place/najaf** [5 in Idrisi]. Its record's sources are GeoNames and Ibn Battuta, not Idrisi; the Idrisi hits are not yet tied to this record. Lead until the source list is decided.
+- **place/wallba** and the others above are listed for the next pass; no prose was written for them.
+
+### Skipped candidates, batch 9
+
+- **place/sur** and **place/sur-lubnan**: the label صور is one of the common words the lane excludes.
+- **place/sohar**, **place/tanes**, **place/qamrun**, **place/zuwayla**, **place/yazd**: logged as leads in batch 7 with reasons.
+- **place/ukaz**: logged as a lead in batch 6.
+- **place/zabid**: the record's sources are GeoNames and Futuh/Idrisi hits; not chosen as thin.
+
+### Open issues, batch 9
+
+- place/qazlara: the distance from Qazlara to Herbord is sixty miles at p. 890 and forty miles at p. 901. The body gives both and does not choose; the summary says nothing about it.
+- place/qastiliyya: the data summary names the town as Tuzar, which the body keeps. The "Hamma" and "Qasantina" details are at p. 277 only; no second source for them.
