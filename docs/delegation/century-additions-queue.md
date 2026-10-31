@@ -726,11 +726,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Zoheb Hassan — 1966–Living
 - [x] Rohail Hyatt — 1966–Living
 - [x] Shoaib Mansoor — 1952–Living
-- [ ] Hassam Khan — 1990–Living
-- [ ] Fawad Khan — 1981–Living
-- [ ] Mahira Khan — 1984–Living
-- [ ] Saba Qamar — 1984–Living
-- [ ] Humayun Saeed — 1971–Living
+- [x] Hassam Khan — 1990–Living
+- [x] Fawad Khan — 1981–Living
+- [x] Mahira Khan — 1984–Living
+- [x] Saba Qamar — 1984–Living
+- [x] Humayun Saeed — 1971–Living
 - [ ] Sharif Finch — 1995–Living
 - [ ] Muhammad Wilkerson — 1989–Living
 - [ ] Husain Abdullah — 1985–Living

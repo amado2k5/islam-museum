@@ -1,0 +1,43 @@
+id: person/fawad-khan
+class: person
+label:
+  ar: "فواد خان"
+  en: "Fawad Khan"
+  ur: "فواد خان"
+names:
+  - { value: "Fawad Afzal Khan", kind: full }
+gender: male
+born:
+  edtf: "1981-11-29"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 29 November 1981: the English biography and Wikidata agree on the day. The birthplace is split: the English biography gives Karachi, while Wikidata's birthplace value is Lahore, the city his family moved to when he was thirteen; with the readings divided and Karachi having no place entity, no birthplace edge is written and both readings are preserved here. The Hijri year 1402 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-fawad-khan-en, source/wikidata-fawad-khan]
+roles: [actor, producer, screenwriter, singer]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. Wikidata gives only Islam, and the English, Urdu and Arabic biographies carry no school value; his public career and family background were not counted. The absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikidata-fawad-khan, source/wikipedia-fawad-khan-en, source/wikipedia-fawad-khan-ur, source/wikipedia-fawad-khan-ar]
+summary:
+  ar: "ممثل باكستاني (وُلد سنة 1981) ومنتج وكاتب سيناريو ومغنٍّ، بدأ مغنياً لفرقة «إنتيتي بارادايم»، واشتهر بمسلسلي «همسفر» و«زندگي گلزار ہے» وبفيلم «خدا کے لیے» (2007) وبدخوله السينما الهندية بفيلم «خوبصورت» (2014)."
+  en: "Pakistani actor, producer, screenwriter and singer (born 1981) who began as lead singer of the band Entity Paradigm and rose to fame with the television dramas Humsafar and Zindagi Gulzar Hai, the film Khuda Kay Liye (2007) and his Indian cinema debut in Khoobsurat (2014)."
+  ur: "پاکستانی اداکار، پروڈیوسر، منظر نویس اور گلوکار (پیدائش 1981) جنہوں نے بینڈ «اینٹیٹی پیراڈائم» کے مرکزی گلوکار کے طور پر آغاز کیا اور ٹیلی ویژن ڈراموں «ہمسفر» اور «زندگی گلزار ہے»، فلم «خدا کے لیے» (2007) اور بھارتی سنیما میں «خوبصورت» (2014) سے شہرت پائی۔"
+sources:
+  - source/wikipedia-fawad-khan-en
+  - source/wikipedia-fawad-khan-ur
+  - source/wikipedia-fawad-khan-ar
+  - source/wikidata-fawad-khan
+external_ids:
+  wikidata: Q5438694
+provenance:
+  layer: own-research
+  source: "English, Urdu and Arabic Wikipedia biographies of Fawad Khan and the Wikidata item Q5438694, all read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query before completion. The QID was grounded through the English article's page properties. Identity: the queue line's bearer is Fawad Afzal Khan, the Pakistani actor and singer born 29 November 1981 — not Fawad Ahmed or any other Khan holding a record. Existence checks by name fragments (fawad) and by QID across data/person on origin/main found no prior record, and his Arabic label فواد خان collides with no existing record, so no homonym entry is needed. The queue's year (1981, living) is confirmed to the day. Relations written: none — the birthplace readings divide between Karachi (no place entity) and Wikidata's Lahore, so no edge is written. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

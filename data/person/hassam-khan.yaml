@@ -1,0 +1,43 @@
+id: person/hassam-khan
+class: person
+label:
+  ar: "حسام خان"
+  en: "Hassam Khan"
+  ur: "حسام خان"
+names:
+  - { value: "Hassam Ali Khan", kind: full }
+  - { value: "Hassam Khan", kind: alternate }
+gender: male
+born:
+  edtf: "1990-01-16"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 16 January 1990: the English biography and Wikidata agree on the day; the Urdu biography carries the same year. No birthplace is stated in any source read, so no place is recorded. The Hijri year 1410 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-hassam-khan-en, source/wikidata-hassam-khan]
+roles: [actor]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or school for him: the English and Urdu biographies carry no religion value and Wikidata has no religion (P140) value at all. His stage portrayal of historical figures and his family's standing in Pakistani acting are background and were not counted; the absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikipedia-hassam-khan-en, source/wikipedia-hassam-khan-ur, source/wikidata-hassam-khan]
+summary:
+  ar: "ممثل باكستاني (وُلد سنة 1990)، عُرف بدور سلمان في مسلسل «نور جهان» (2016) على قناة جيو، وبأدوار في «خسارة» و«دل موم کا دیا» (2018)، وبدأ مسيرته ممثلاً مسرحياً سنة 2011 قبل انتقاله إلى التلفزيون."
+  en: "Pakistani actor (born 1990) known for the lead role of Salman in Geo TV's Noor Jahan (2016) and for roles in Khasara and Dil Mom Ka Diya (2018); he began as a theatre actor in 2011 before moving to television."
+  ur: "پاکستانی اداکار (پیدائش 1990) جو جیو ٹی وی کے ڈرامے «نور جہاں» (2016) میں سلمان کے مرکزی کردار اور «خسارہ» اور «دل موم کا دیا» (2018) کے کرداروں کے لیے جانے جاتے ہیں؛ انہوں نے 2011 میں تھیٹر سے آغاز کیا۔"
+sources:
+  - source/wikipedia-hassam-khan-en
+  - source/wikipedia-hassam-khan-ur
+  - source/wikidata-hassam-khan
+external_ids:
+  wikidata: Q24579115
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Hassam Khan and the Wikidata item Q24579115, all read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query before completion. The QID was grounded through the English article's page properties. Identity: the queue line's bearer is Hassam Ali Khan, the Pakistani television actor born 16 January 1990, known for Noor Jahan (2016) — not Hassam Qazi (1961–2004) or any other bearer. Existence checks by name fragments (hassam) and by QID across data/person on origin/main found no prior record, and his Arabic label حسام خان collides with no existing record, so no homonym entry is needed. The queue's year (1990, living) is confirmed to the day. Relations written: none — no birthplace is attested. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
