@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-[[person/al-hadi-musa|الہادی]] ربیع الآخر سنہ 170ھ میں فوت ہوئے، اور سات بیٹے چھوڑے۔ ان کی موت کے سبب میں روایات مختلف ہیں۔ {cite:tarikh-khulafa-minhaj-1434 p. 451-452}
+[[person/al-hadi|الہادی]] ربیع الآخر سنہ 170ھ میں فوت ہوئے، اور سات بیٹے چھوڑے۔ ان کی موت کے سبب میں روایات مختلف ہیں۔ {cite:tarikh-khulafa-minhaj-1434 p. 451-452}
 
 ## روایات
 سیوطی کئی اقوال نقل کرتے ہیں:

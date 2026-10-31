@@ -1,0 +1,66 @@
+id: person/candarli-ali-pasha
+class: person
+
+label:
+  ar: "جاندرلي علي باشا"
+  en: "Çandarlı Ali Pasha"
+  ur: "چاندارلی علی پاشا"
+
+names:
+  - { value: "Çandarlızade Ali Pasha", kind: full }
+  - { value: "جاندرلي علي باشا", kind: full }
+  - { value: "Candarli Ali Pasha", kind: latinized }
+
+gender: male
+
+summary:
+  ar: "صدر أعظم عثماني (توفي 1406)، أكبر أبناء جاندرلي قرة خليل حير الدين باشا أول صدور الدولة العثمانية. تدرَّب في المدرسة وانتسب إلى العلمية فصار قاضياً ثم قاضي عسكر، وخلف أباه في الصدارة سنة 1387 فخدم مراد الأول ثم بايزيد الأول، وقاد حملة بلغاريا سنة 1388 وحضر كوسوفو ونيقوبولس، وبعد أسر بايزيد في أنقرة سنة 1402 حفظ لسليمان جلبي عرشه في الروملي ومهَّد لصلح غاليبولي سنة 1403. توفي في أنقرة سنة 1406 ودُفن بجوار أبيه في إزنيك."
+  en: "Ottoman grand vizier (died 1406), the eldest son of Çandarlı Kara Halil Hayreddin Pasha, the first grand vizier of the Ottoman state. Medrese-trained and of the ilmiye class, he rose from kadı to kazasker and succeeded his father in 1387, serving Murad I and then Bayezid I for the whole of his reign; he led the Bulgarian campaign of 1388 and fought at Kosovo and Nicopolis. After Bayezid's capture at Ankara in 1402 he preserved Süleyman Çelebi's throne in Rumelia and brokered the Treaty of Gallipoli in 1403. He died at Ankara in 1406 and was buried beside his father at Iznik."
+  ur: "عثمانی صدر اعظم (وفات 1406ء)، پہلے عثمانی صدر اعظم چاندارلی قرہ خلیل حیر الدین پاشا کے بڑے صاحبزادے۔ مدرسے کی تعلیم پانے والے علمیہ طبقے سے تھے؛ قاضی سے قاضی عسکر بنے اور 1387ء میں والد کے جانشین ہوئے۔ مراد اول اور پھر پورے عہد میں بایزید اول کی خدمت کی؛ 1388ء میں بلغاریہ کی مہم کی قیادت کی اور کوسووہ و نیکوپولس میں شریک رہے۔ 1402ء میں انقرہ میں بایزید کی گرفتاری کے بعد انھوں نے رومیلیا میں سلیمان چلبی کا تخت محفوظ رکھا اور 1403ء میں گلیبولی کا معاہدہ طے کرایا۔ 1406ء میں انقرہ میں وفات پائی اور ازنک میں والد کے پہلو میں دفن ہوئے۔"
+
+roles: [vizier, military-leader]
+regions: [anatolia-balkans]
+wings: [people]
+
+died:
+  edtf: "1406-12-18"
+  hijri: "0809"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Place: Ankara. The Turkish biography (resting on Uzunçarşılı's Çandarlı Vezir Ailesi, pp. 31–45) and the English biography (resting on Atçıl's Encyclopaedia of Islam THREE entry) agree on 18 December 1406; Wikidata carries 27 December 1406, the value the Azerbaijani and Catalan articles repeat — one structured family against two independent scholarly ones — and the record follows 18 December. He was buried beside his father in the Yeşil Mosque at Iznik, which his father had begun and he completed. The Hijri year is the conversion of the Gregorian date, marked derived."
+  sources:
+    - source/wikipedia-candarli-ali-pasha-tr
+    - source/wikipedia-candarlizade-ali-pasha-en
+    - source/wikidata-candarli-ali-pasha
+
+relations:
+  - type: child_of
+    target: person/candarli-kara-halil-pasha
+    note: "His father Çandarlı Kara Halil Hayreddin Pasha, the first Ottoman grand vizier: the Turkish biography calls Ali his eldest son, the English biography 'the son of Grand Vizier Çandarlı Kara Halil Hayreddin Pasha', and Wikidata names the same father (Q1572401). His mother, per the Azerbaijani biography's tradition, was a daughter of the Iznik müderris Taceddin Kürdi; she has no museum record."
+    sources:
+      - source/wikipedia-candarli-ali-pasha-tr
+      - source/wikipedia-candarlizade-ali-pasha-en
+      - source/wikidata-candarli-ali-pasha
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. The structured family attests Sunni Islam for him: Wikidata's religion value is Sunni Islam, and the Spanish and Catalan infoboxes repeat 'Islam suní' and 'Sunnisme', while the Turkish infobox gives Islam generically. That is one family of attestations, not two independent sources, and no narrative source read names his school; his medrese formation and his offices of kadı and kazasker — the Hanafi judiciary of the Ottoman state — are training and office, which never count. The segment is held at unknown: it settles sunni/documented if the founder accepts the structured family as sufficient for an ilmiye grand vizier whose career is otherwise documented in full."
+    sources:
+      - source/wikidata-candarli-ali-pasha
+      - source/wikipedia-candarli-ali-pasha-tr
+
+sources: [source/wikipedia-candarlizade-ali-pasha-en, source/wikipedia-candarli-ali-pasha-tr, source/wikidata-candarli-ali-pasha]
+
+external_ids:
+  wikidata: Q1572046
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Çandarlızade Ali Pasha', rev. 1344729729 of 22 March 2026 (resting on Atçıl, Encyclopaedia of Islam THREE, 2017, and Mantran, Encyclopaedia of Islam, Second Edition, vol. I, p. 394); Turkish Wikipedia 'Çandarlı Ali Paşa', rev. 38089087 of 29 September 2026 (resting on Uzunçarşılı, Çandarlı Vezir Ailesi, Ankara 1974, pp. 31–45); Wikidata Q1572046, item revision 2562649691 of 30 October 2026, re-asserted against a second live query in the same session. All read in full in session. QUEUE CORRECTION: the queue lists 1340–1406, but the birth year is attested in no source reached — the DİA tradition states his birth date and place are not known, the English infobox offers only the career inference 'c. after 1330', and Wikidata's birth claim is a no-value — so the record carries NO born block. FATHER POINTER CORRECTION: the batch brief pointed at person/candarli-halil-pasha as the father; that record is Çandarlı Halil Pasha the Younger (d. 1453), Ali's nephew. The attested father is Kara Halil Hayreddin Pasha (person/candarli-kara-halil-pasha, Q1572401), and the child_of edge is written to his record. A sibling_of edge to his younger brother Çandarlı Ibrahim Pasha the Elder (person/candarli-ibrahim-pasha, on main) was considered and NOT written: in the sources read in full it rests on the Turkish article's infobox and on Wikidata's sibling statement (Q4887634), a single structured family."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,71 @@
+id: person/ibn-zamrak
+class: person
+
+label:
+  ar: "ابن زمرك"
+  en: "Ibn Zamrak"
+  ur: "ابن زمرک"
+
+names:
+  - { value: "أبو عبد الله محمد بن يوسف بن محمد بن أحمد بن محمد بن يوسف الصريحي", kind: full }
+  - { value: "Abu Abd Allah Muhammad ibn Yusuf ibn Muhammad ibn Ahmad ibn Muhammad ibn Yusuf al-Surayhi", kind: full }
+  - { value: "Ibn Zumruk", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شاعر ووزير أندلسي من غرناطة (1333-1393)، من أبوَيه المتواضعين، قدَّمه أستاذه لسان الدين بن الخطيب إلى بلاط بني الأحمر، فرافق السلطان محمد الخامس إلى المغرب وصار عند عودته كاتم سرّه وشاعر بلاطه، ثم خلف أستاذه في الوزارة سنة 1371 وكان له يد في قتله. ما تزال قصائده منقوشة على نوافير الحمراء وقصورها. سجنه يوسف الثاني نحو سنتين، ثم قُتل في داره بأمر محمد السابع وهو يقرأ القرآن."
+  en: "Andalusi poet and vizier from Granada (1333–1393), of humble origin, brought to the Nasrid court by his teacher Ibn al-Khatib. He accompanied Sultan Muhammad V into Moroccan exile and on his restoration became his private secretary and court poet; in 1371 he succeeded his own teacher as vizier and had a hand in his killing. His verses still decorate the fountains and palaces of the Alhambra. Imprisoned for nearly two years by Yusuf II, he was murdered at home on Muhammad VII's orders while reading the Quran."
+  ur: "غرناطہ کے اندلسی شاعر اور وزیر (1333ء–1393ء)، معمولی گھرانے سے تھے؛ ان کے استاد لسان الدین ابن الخطیب نے انھیں بنو احمر کے دربار سے متعارف کرایا۔ وہ سلطان محمد خامس کے ساتھ مغرب گئے اور ان کی واپسی پر ان کے معتمد خاص اور درباری شاعر بنے؛ 1371ء میں اپنے ہی استاد کے بعد وزیر بنے اور ان کے قتل میں ملوث رہے۔ ان کے اشعار آج بھی الحمراء کے فواروں اور محلات پر کندہ ہیں۔ یوسف ثانی نے انھیں قریب دو برس قید رکھا، پھر محمد سابع کے حکم پر وہ گھر میں قرآن پڑھتے ہوئے قتل کر دیے گئے۔"
+
+roles: [poet, vizier, writer]
+regions: [andalus-europe]
+wings: [people]
+
+born:
+  edtf: "1333"
+  hijri: "0733"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Place: Granada, in the Rawd al-Bayyazin quarter (the Arabic biography). The year 1333 and the Hijri year 733 are agreed by the Arabic biography and by the Himsi monograph's pairing (733–796 H / 1333–1393 M) as listed in the English article's bibliography; Wikidata carries 1333."
+  sources:
+    - source/wikipedia-ibn-zamrak-ar
+    - source/wikipedia-ibn-zamrak-en
+    - source/wikidata-ibn-zamrak
+
+died:
+  edtf: "1393"
+  hijri: "0796"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Place: Granada, murdered in his house by men sent on Sultan Muhammad VII's orders while he read the Quran (Spanish biography). CONFLICT: the year is genuinely unsettled. The English biography and the Himsi monograph's pairing (733–796 H / 1333–1393 M) give 1393; the Spanish biography gives 1394; the Arabic biography pairs 793 AH with 1392 CE, an internally inconsistent pairing, since 793 AH fell in 1390–91; Wikidata carries both 1393 and 1390. The record follows 1393 and takes the Hijri year 796 from the Himsi pairing, noting that 796 AH straddles October 1393–October 1394 — the likely origin of the Spanish 1394. The founder's queue lists 1394."
+  sources:
+    - source/wikipedia-ibn-zamrak-en
+    - source/wikipedia-ibn-zamrak-es
+    - source/wikipedia-ibn-zamrak-ar
+    - source/wikidata-ibn-zamrak
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school of law or an order for him. He was formed as a chancery secretary and court poet in Nasrid Granada — a Maliki land — and the Spanish biography relates that he was killed at home while reading the Quran; neither a milieu nor a deathbed scene is an attestation of the man's own school, so the segment stays unknown and the absence is stated plainly."
+    sources:
+      - source/wikipedia-ibn-zamrak-en
+      - source/wikipedia-ibn-zamrak-es
+
+sources: [source/wikipedia-ibn-zamrak-en, source/wikipedia-ibn-zamrak-ar, source/wikipedia-ibn-zamrak-es, source/wikidata-ibn-zamrak]
+
+external_ids:
+  wikidata: Q3099172
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibn Zamrak', rev. 1371708811 of 28 August 2026 (its bibliography lists F. de la Granja's Encyclopaedia of Islam, Second Edition, entry, iii, pp. 972–973, and A. S. Himsi's monograph Ibn Zamrak al-Gharnati, 733–796 H/1333–1393 M, Beirut 1985); Arabic Wikipedia 'ابن زمرك', rev. 75660486 of 25 June 2026 (resting on al-Zirikli's al-A'lam); Spanish Wikipedia 'Ibn Zamrak', rev. 156262547 of 24 December 2023; Wikidata Q3099172, item revision 2562783931 of 30 October 2026, re-asserted against a second live query in the same session. All read in full in session. His teacher and patron Ibn al-Khatib has a record on main (person/ibn-al-khatib), but patronage is not a relation predicate, so the connection is carried in the prose only and no edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

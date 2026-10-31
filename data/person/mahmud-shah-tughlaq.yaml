@@ -1,0 +1,60 @@
+id: person/mahmud-shah-tughlaq
+class: person
+
+label:
+  ar: "محمود شاه تغلق"
+  en: "Mahmud Shah Tughlaq"
+  ur: "محمود شاہ تغلق"
+
+names:
+  - { value: "ناصر الدين محمود شاه بن محمد شاه التغلقي", kind: full }
+  - { value: "Nasir al-Din Mahmud Shah ibn Muhammad Shah al-Tughluqi", kind: full }
+  - { value: "Mahmud Shah II", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "آخر سلاطين آل تغلق في دلهي (حكم 1394-1413)، ابن السلطان ناصر الدين محمد شاه الثالث. اعتلى العرش بعد أخيه علاء الدين سكندر شاه سنة 1394، فنازعه قريبه نصرت شاه ثلاث سنين؛ كان محمود في دلهي ونصرت على فيروز آباد. وفي عهده غزا تيمور الهند فهُزم عند دلهي سنة 1398 ودخل تيمور المدينة ونهبها، فتفرّقت أقاليم السلطنة مستقلةً. توفي في فبراير 1413 (ذو القعدة 815هـ في الترجمة العربية)، وبوفاته انتهت الدولة التغلقية وخلفه السادات. لا تُعرف له سنة ولادة."
+  en: "The last Tughlaq sultan of Delhi (r. 1394–1413), son of Sultan Nasir al-Din Muhammad Shah III. He succeeded his brother Ala al-Din Sikandar Shah in 1394 and was challenged for three years by his relative Nusrat Shah, Mahmud ruling from Delhi and Nusrat from Firozabad. In 1398 Timur invaded India, defeated him before Delhi and sacked the city, after which province after province broke away from the shrunken sultanate. He died in February 1413 — Dhu al-Qa'da 815 AH in the Arabic biography — and with him the Tughlaq dynasty ended, the Sayyids succeeding at Delhi. No birth year is recorded for him."
+  ur: "دہلی کے آخری تغلق سلطان (دورِ حکومت 1394ء–1413ء)، سلطان ناصر الدین محمد شاہ ثالث کے بیٹے۔ وہ 1394ء میں اپنے بھائی علاء الدین سکندر شاہ کے بعد تخت نشین ہوئے اور تین برس تک ان کے رشتے دار نصرت شاہ نے ان سے تخت کا تنازع رکھا؛ محمود دہلی سے اور نصرت فیروز آباد سے حکومت کرتا رہا۔ 1398ء میں تیمور نے ہندوستان پر حملہ کیا، دہلی کے سامنے انھیں شکست دی اور شہر کو لوٹا، جس کے بعد سلطنت کے صوبے یکے بعد دیگرے آزاد ہوتے گئے۔ وہ فروری 1413ء (عربی سوانح میں ذی القعدہ 815ھ) میں فوت ہوئے، اور ان کے ساتھ تغلق خاندان کا خاتمہ ہوا اور دہلی میں سید خاندان برسرِ اقتدار آیا۔ ان کا سالِ ولادت معلوم نہیں۔"
+
+roles: [sultan]
+regions: [south-asia]
+wings: [people]
+
+died:
+  edtf: "1413-02"
+  hijri: "0815"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: false
+  note: "The English biography gives his death in February 1413; the Arabic biography dates it to Dhu al-Qa'da 815 AH, which fell in January-February 1413, after a reign of about twenty years, and records that the Tughlaq house ended with him. Wikidata carries the same February 1413 value alongside a 1414 variant, preserved here. No source read names the place of his death, so no died_in edge is written."
+  sources:
+    - source/wikipedia-mahmud-shah-tughlaq-en
+    - source/wikipedia-mahmud-shah-tughlaq-ar
+    - source/wikidata-mahmud-shah-tughlaq
+
+relations:
+  - { type: child_of, target: person/muhammad-shah-iii-tughluq, sources: [source/wikipedia-mahmud-shah-tughlaq-en, source/wikipedia-mahmud-shah-tughlaq-ar, source/wikidata-mahmud-shah-tughlaq] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion as Islam, with no branch or school; no text source read names a school of law for him, and a dynasty's or a court's milieu is not an attestation of the man's own school. The segment therefore stays unknown, with the structured attestation recorded here."
+    sources:
+      - source/wikidata-mahmud-shah-tughlaq
+      - source/wikipedia-mahmud-shah-tughlaq-en
+
+sources: [source/wikipedia-mahmud-shah-tughlaq-en, source/wikipedia-mahmud-shah-tughlaq-ar, source/wikidata-mahmud-shah-tughlaq]
+
+external_ids:
+  wikidata: Q3277857
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mahmud Shah II', rev. 1358594125 of 9 June 2026; Arabic Wikipedia 'محمود شاه تغلق', rev. 73052623 of 4 January 2026; Wikidata Q3277857, item revision 2489677751 of 11 May 2026, re-asserted against a second live query in the same session. All read in full in session. NO BORN BLOCK IS WRITTEN: no source reached gives him a birth year — the English and Arabic biographies give none at all, Wikidata's two values are a century-precision '1300s' and 1394 (his accession year, misfiled as a birth), and the founder's queue year 1388 is attested in no source reached. His father Muhammad Shah III's record is on main (person/muhammad-shah-iii-tughluq), so the child_of edge is written here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,34 @@
+---
+// Time Machine (آلة الزمن): the any-date surface as its own canonical page (SW-4). Enter any Gregorian
+// date and read its Hijri equivalent plus the events of that day, from the same "this day" index the
+// homepage widget uses (site/src/scripts/hijri-widget.ts). The chosen date rides in the address bar as
+// ?d=YYYY-MM-DD, so a copied link reopens the same result; the homepage embed keeps the same behaviour.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import TodayCards from "../../../components/TodayCards.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const L = T.landing;
+const title = T.explore.pages.timemachine.title;
+---
+<BaseLayout lang={lang} title={title} description={L.widget_lede} path={`/${lang}/time-machine/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <h1>{title}</h1>
+    <p style="font-size:1.15rem;max-width:var(--measure)">{L.widget_lede}</p>
+    <h2>{L.widget_title}</h2>
+    <form class="row ui" id="hijri-form" data-hijri-widget data-corresponds={L.corresponds} data-none={L.widget_none} data-fail={L.widget_fail}>
+      <label class="sr-only" for="bdate">{L.date_label}</label>
+      <input type="date" id="bdate" name="d" lang={lang} required />
+      <button class="btn btn-lapis" type="submit">{L.calc}</button>
+    </form>
+    <p class="hresult ui" id="hresult" role="status" aria-live="polite" hidden></p>
+    <TodayCards lang={lang} />
+  </div>
+  <script src="../../../scripts/hijri-widget.ts"></script>
+  <style>
+    form.row { display: flex; gap: .6rem; margin-top: 1rem; flex-wrap: wrap; align-items: center; }
+    form.row input[type="date"] { font: inherit; padding: .5rem .9rem; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--fg); }
+  </style>
+</BaseLayout>

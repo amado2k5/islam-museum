@@ -1,0 +1,68 @@
+id: person/muhammad-ibn-yusuf-al-warraq
+class: person
+
+label:
+  ar: "محمد بن يوسف الوراق"
+  en: "Muhammad ibn Yusuf al-Warraq"
+  ur: "محمد بن یوسف الوراق"
+
+names:
+  - { value: "أبو عبد الله محمد بن يوسف الوراق", kind: full }
+  - { value: "Abu Abd Allah Muhammad ibn Yusuf al-Warraq", kind: full }
+  - { value: "al-Warraq", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "مؤرخ وجغرافي أندلسي (904-973)، وُلد في وادي الحجارة ونشأ في القيروان ثم استقر في قرطبة في بلاط الخليفة الحكم الثاني المستنصر، فألف له كتاباً ضخماً في جغرافية إفريقية وتواريخ ملوكها وحروبهم. لم تصل كتبه كاملة، لكن أبا عبيد البكري حفظ في «المسالك والممالك» قطعاً واسعة منها، ويُعد الوراق أول من مزج في الكتابة بين الجغرافيا والتاريخ. ذكر ابن حزم أن أصوله من زناتة البربر."
+  en: "Andalusi historian and geographer (904–973/4), born at Guadalajara (Wadi al-Hijara), formed in Kairouan and settled at Cordoba in the service of the caliph al-Hakam II, for whom he wrote a large geography of North Africa and histories of its kingdoms and wars. His works survive only in fragments, extensively preserved in al-Bakri's Book of Roads and Kingdoms, and he is regarded as the first author to fuse geographical description with historical narrative. Ibn Hazm reported that his roots lay in the Berber confederation of the Zenata."
+  ur: "اندلسی مورخ اور جغرافیہ دان (904ء–973/4ء)، وادی الحجارہ میں پیدا ہوئے، قیروان میں پرورش پائی اور قرطبہ میں خلیفہ الحکم ثانی کی خدمت میں رہے، جن کے لیے انھوں نے شمالی افریقا کی ایک ضخیم جغرافیہ اور اس کی سلطنتوں کی تواریخ لکھیں۔ ان کی کتابیں مکمل صورت میں نہیں بچیں، البتہ البکری کی «المسالک والممالک» میں ان کے وسیع اقتباسات محفوظ ہیں، اور وہ پہلے مصنف مانے جاتے ہیں جنھوں نے جغرافیائی بیان کو تاریخی روایت سے جوڑا۔ ابن حزم کے مطابق ان کی اصل بربر قبیلۂ زناتہ سے تھی۔"
+
+roles: [historian, geographer, writer]
+regions: [andalus-europe, maghreb]
+wings: [people]
+
+born:
+  edtf: "904"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Place: Guadalajara — Wadi al-Hijara in the Arabic biography's Arabic name for the same town. Both biographies give 904; Wikidata carries November 904. No Hijri year is recorded: neither article gives one, and 904 CE spans 291–292 AH, so a single year would misstate the sources."
+  sources:
+    - source/wikipedia-muhammad-ibn-yusuf-al-warraq-en
+    - source/wikipedia-muhammad-ibn-yusuf-al-warraq-ar
+    - source/wikidata-muhammad-ibn-yusuf-al-warraq
+
+died:
+  edtf: "973"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Place: Cordoba, where he had returned under al-Hakam II. CONFLICT: the Arabic biography gives 973 plainly, the English biography '973 or 974', and Wikidata carries two values (973; October 973). The record follows 973 and preserves 974. No Hijri year is recorded: 973 CE spans 362–363 AH and no source read gives one."
+  sources:
+    - source/wikipedia-muhammad-ibn-yusuf-al-warraq-ar
+    - source/wikipedia-muhammad-ibn-yusuf-al-warraq-en
+    - source/wikidata-muhammad-ibn-yusuf-al-warraq
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school, an order or a practice for him. Wikidata's religion value is Islam generically — a single structured attestation, which never counts on its own — and his post as court historian to the caliph al-Hakam II is an office, not evidence of belief. The segment stays unknown and the absence is stated plainly rather than inferred from his milieu."
+    sources:
+      - source/wikidata-muhammad-ibn-yusuf-al-warraq
+      - source/wikipedia-muhammad-ibn-yusuf-al-warraq-en
+
+sources: [source/wikipedia-muhammad-ibn-yusuf-al-warraq-en, source/wikipedia-muhammad-ibn-yusuf-al-warraq-ar, source/wikidata-muhammad-ibn-yusuf-al-warraq]
+
+external_ids:
+  wikidata: Q1238067
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Muhammad ibn Yusuf al-Warraq', rev. 1359332987 of 14 June 2026; Arabic Wikipedia 'محمد بن يوسف الوراق', rev. 72783916 of 17 December 2025; Wikidata Q1238067, item revision 2554047878 of 6 October 2026, re-asserted against a second live query in the same session. All read in full in session. IDENTITY RESOLUTION: the founder's queue (line 1688) lists 'Abu Yaqub Yusuf al-Warraq (904–973)' under a flag that the name form may conflate two men. The dates 904–973, the nisba al-Warraq and the Andalusi setting belong to one man only — this geographer of Cordoba (Q1238067): Yusuf is his father's name, and his attested kunya is Abu Abd Allah (Arabic biography), not Abu Yaqub; no source reached knows any 'Abu Yaqub Yusuf al-Warraq'. He is not Abu Isa al-Warraq (person/abu-isa-al-warraq, on main), the ninth-century theologian. The record is therefore built under his own name and the queue's form is recorded here as the garbling the flag suspected."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

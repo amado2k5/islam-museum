@@ -1,0 +1,12 @@
+---
+id: person/ahmed-al-hiba
+lang: en
+source_lang: ar
+translators: []
+---
+
+Ahmad Haybat Allah ibn [[person/ma-al-aynayn|Ma al-'Aynayn]] (1877–1919) was a Saharan jurist and poet, born on 9 September 1877 according to his English and Arabic biographies, while the Encyclopaedia of Islam places his birth in Ramadan 1293 or 1294 AH and other sources give 1876 or even 1875; the record follows 1877 and preserves every variant.{cite:wikipedia-ahmed-al-hiba-en}{cite:wikipedia-ahmed-al-hiba-ar}{cite:wikidata-ahmed-al-hiba} He grew up in his father's zawiya at Smara, memorised the Quran and studied fiqh, hadith and literature under his father and the zawiya's shaykhs, and on his father's death in 1910 succeeded him in the spiritual leadership and the jihad; he was the eleventh of his sons and held a special place in his father's lifetime.{cite:wikipedia-ahmed-al-hiba-en}{cite:wikipedia-ahmed-al-hiba-ar}
+
+When France imposed the protectorate on Morocco by the Treaty of Fez (30 March 1912), al-Hiba moved south; the tribes of the Souss and the Sahara gave him allegiance at Tiznit as amir of the jihad, and he marched on Marrakech, entered it in August 1912 and proclaimed himself sultan — hence his name, "the Blue Sultan" — recognised in Taroudant, Agadir, the Dades and the Draa.{cite:wikipedia-ahmed-al-hiba-en}{cite:wikipedia-ahmed-al-hiba-fr} On 6 September 1912 Colonel Mangin's column defeated him at Sidi Bou Othman; he withdrew to Taroudant, was driven from it in January 1913, and from 1915 held out at Kerdous in the Anti-Atlas, which became the capital of his resistance; he received a secret German delegation and remained a thorn in the side of both the French and Spanish colonisers.{cite:wikipedia-ahmed-al-hiba-en}{cite:wikipedia-ahmed-al-hiba-ar}
+
+He died at Kerdous on 23 June 1919 according to the French biography, the English biography's text and Wikidata; the English infobox gives 26 June and the Arabic biography 26–27 June under a Hijri pairing that does not compute, and the discrepancy is preserved. One Arabic strand attributes his death to poison slipped to him by a French agent, while the French biography says he died of natural causes.{cite:wikipedia-ahmed-al-hiba-fr}{cite:wikipedia-ahmed-al-hiba-en}{cite:wikidata-ahmed-al-hiba} His younger brother [[person/merebbi-rebbu|Merebbi Rebbu]] succeeded him, and al-Hiba left a diwan and works of fiqh, legal answers and Sufi letters, among them Siraj al-Zulm.{cite:wikipedia-ahmed-al-hiba-ar}{cite:wikipedia-merebbi-rebbu-ar}

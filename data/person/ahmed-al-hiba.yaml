@@ -3,24 +3,79 @@ class: person
 label:
   ar: "أحمد الهيبة"
   en: "Ahmed al-Hiba"
-roles: [sultan]
+  ur: "احمد الہیبہ"
+names:
+  - { value: "أحمد هيبة الله بن ماء العينين", kind: full }
+  - { value: "Mawlay Ahmad Haybat Allah ibn Ma al-'Aynayn", kind: full }
+  - { value: "السلطان الأزرق", kind: laqab }
+  - { value: "The Blue Sultan", kind: laqab }
 gender: male
-summary:
-  ar: "بطاقة أولية لأحمد الهيبة، زعيم المقاومة الصحراوية الذي لُقّب بالسلطان الأزرق جنوب المغرب؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmed al-Hiba, the Saharan resistance leader called the Blue Sultan of southern Morocco; his entry is not yet checked on the page."
+born:
+  edtf: "1877-09-09"
+  hijri: "1294"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Place of birth not given by any article. CONFLICT: the English biography and the Arabic biography's lead give 9 September 1877, and the Encyclopaedia of Islam (Second Edition), quoted in the English article, places the birth in Ramadan 1293 or 1294 AH — September–October 1876 or 1877; the French biography gives about 1876, the Arabic infobox 1876, its categories even file 1875, and Wikidata carries both 1876 and 1877. The record follows 9 September 1877 (Ramadan 1294, the Encyclopaedia's second alternative) and preserves every variant. The Hijri year is the Encyclopaedia's own dating, not a conversion. The founder's queue lists 1870 for this line — a queue correction: no source supports 1870."
+  sources:
+    - source/wikipedia-ahmed-al-hiba-en
+    - source/wikipedia-ahmed-al-hiba-ar
+    - source/wikipedia-ahmed-al-hiba-fr
+    - source/wikidata-ahmed-al-hiba
+died:
+  edtf: "1919-06-23"
+  hijri: "1337"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Place: Kerdous in the Anti-Atlas, where his tomb is (English and French biographies). CONFLICT: the French biography and the English biography's text give 23 June 1919, and Wikidata's day-precision value agrees; the English infobox gives 26 June 1919, and the Arabic lead gives 26–27 June under a Hijri pairing ('18 Ramadan 1336') that is arithmetically impossible, since Ramadan 1336 fell in 1918 and the Arabic article's own categories file his death under 1337. The record follows 23 June 1919 and preserves 26 June. A strand of the Arabic tradition attributes his death to poison administered by a French agent; the French biography says natural causes, and the record states both attributions in the prose without settling them. June 1919 falls in 1337 AH, recorded here at year precision. The founder's queue lists 1928 for this line — a queue correction: every source gives 1919."
+  sources:
+    - source/wikipedia-ahmed-al-hiba-en
+    - source/wikipedia-ahmed-al-hiba-fr
+    - source/wikipedia-ahmed-al-hiba-ar
+    - source/wikidata-ahmed-al-hiba
+roles: [political leader, scholar, poet]
+regions: [maghreb, west-africa-sahel]
 wings: [people]
-regions: [maghreb]
-periods: [period/modern-era]
-died: { edtf: "1919", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+  - type: child_of
+    target: person/ma-al-aynayn
+    note: "His father Shaykh Ma al-'Aynayn (Q2520973), whose record is on main; the English and French biographies state the filiation in their texts, the Arabic biography carries it in his very name, and Wikidata names the same father."
+    sources:
+      - source/wikipedia-ahmed-al-hiba-en
+      - source/wikipedia-ahmed-al-hiba-fr
+      - source/wikipedia-ahmed-al-hiba-ar
+      - source/wikidata-ahmed-al-hiba
+  - type: sibling_of
+    target: person/merebbi-rebbu
+    note: "His younger brother Merebbi Rebbu (b. 1881), who succeeded him at Kerdous in 1919; written once here, in the elder brother's record. The French biography of Rebbu calls him al-Hiba's brother in its first lines, the Arabic biography of Rebbu records his fighting beside his brother Ahmed al-Hiba, and al-Hiba's Arabic infobox names Rebbu as his brother."
+    sources:
+      - source/wikipedia-merebbi-rebbu-fr
+      - source/wikipedia-merebbi-rebbu-ar
+      - source/wikipedia-ahmed-al-hiba-ar
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Held unknown under the doubt rule (merge-stage settlement, wave 142 §B). The Arabic biography's infobox gives his religion as 'Islam, Sunni' and Wikidata's religion statement is Sunni Islam (Q483654) — the same infobox-plus-Wikidata configuration the lane has left as an open founder question on Abul Kalam Azad's record; settles sunni/documented if a founder accepts those as two independent attestations. No source names a school of law for him. Preserved with it, and not recorded as a segment because it rests on the Arabic biography alone: that article's text records that he inherited his father's Sufi shaykhhood, that the family appointed him his father's successor in the spiritual leadership, and that he consolidated the Ma'iniyya zawiya — a headship attestation of exactly the kind on which his father's record rests, but there attested by three articles and here by one."
+    sources:
+      - source/wikipedia-ahmed-al-hiba-ar
+      - source/wikidata-ahmed-al-hiba
+summary:
+  ar: "الشيخ أحمد هيبة الله بن ماء العينين (1877–1919)، فقيه وشاعر صحراوي، الحادي عشر من أبناء الشيخ ماء العينين وخليفته في القيادة الروحية والجهاد. بعد وفاة أبيه سنة 1910 وفرض فرنسا معاهدة فاس سنة 1912، بايعته قبائل سوس والصحراء أميرًا للجهاد فدخل مراكش وأعلن نفسه سلطانًا — ومن هنا لقبه «السلطان الأزرق» — ثم هزمته القوات الفرنسية في سيدي بوعثمان (6 سبتمبر 1912)، فلاذ بكردوس في الأطلس الصغير وواصل المقاومة حتى وفاته سنة 1919، فخلفه أخوه مربيه ربه. خلّف ديوان شعر ومؤلفات فقهية وصوفية."
+  en: "Shaykh Ahmad Haybat Allah ibn Ma al-'Aynayn (1877–1919), Saharan jurist and poet, eleventh son of Shaykh Ma al-'Aynayn and his successor in the spiritual leadership and the jihad. After his father's death in 1910 and France's imposition of the Treaty of Fez in 1912, the tribes of the Souss and the Sahara gave him allegiance as amir of the jihad; he entered Marrakech and proclaimed himself sultan — hence his name 'the Blue Sultan' — before French forces defeated him at Sidi Bou Othman on 6 September 1912. He held out at Kerdous in the Anti-Atlas until his death in 1919, when his brother Merebbi Rebbu succeeded him. He left a diwan and works of fiqh and Sufism."
+  ur: "شیخ احمد ہیبۃ اللہ بن ماء العینین (1877–1919)، صحرائی فقیہ اور شاعر، شیخ ماء العینین کے گیارہویں بیٹے اور روحانی قیادت و جہاد میں ان کے جانشین۔ 1910ء میں والد کی وفات اور 1912ء میں فرانس کے معاہدۂ فاس کے بعد سوس اور صحارا کے قبائل نے انھیں امیرِ جہاد کی بیعت دی؛ وہ مراكش میں داخل ہوئے اور خود کو سلطان اعلان کیا — یہیں سے ان کا لقب «نیلا سلطان» پڑا — پھر 6 ستمبر 1912ء کو سیدی بو عثمان میں فرانسیسی فوج سے شکست کھائی۔ وہ کاردوس (صغیر اطلس) میں 1919ء میں وفات تک مزاحمت کرتے رہے، اور ان کے بھائی مربيہ ربہ ان کے جانشین ہوئے۔ انھوں نے ایک دیوان اور فقہ و تصوف کی کتابیں چھوڑیں۔"
+sources:
+  - source/wikipedia-ahmed-al-hiba-en
+  - source/wikipedia-ahmed-al-hiba-fr
+  - source/wikipedia-ahmed-al-hiba-ar
+  - source/wikidata-ahmed-al-hiba
 external_ids:
   wikidata: Q2827689
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "English Wikipedia 'Ahmed al-Hiba', rev. 1376819643 of 2026-09-26; French Wikipedia 'Ahmed al-Hiba', rev. 240384105 of 2026-10-15; Arabic Wikipedia 'أحمد الهيبة', rev. 76464864 of 2026-09-07; Wikidata Q2827689, item rev. 2533525876 of 2026-08-20, re-asserted against a second live query in the same session. The QID was grounded through the articles' page properties. QUEUE-LINE DISCLOSURE: queue line 1681 is collective — 'Sheikh Ma al-'Aynayn's Sons (El Hiba)' — and was built as the named exemplar's individual record only (Ahmed al-Hiba); no group record was invented (wave-138 Azaiza precedent). EXISTING-STUB DISCLOSURE: a draft stub for this man already stood on main at this slug (wikidata-import-wave2: no born block, died 1919 at tradition status, one unsourced summary, no prose); this file is the full sourced record at the same id, replacing the stub's data — the stub's death year (1919) proved correct and the queue's years (1870–1928) wrong at both ends. His father Ma al-'Aynayn's record is on main (his own provenance there notes that edges flow from child to parent), so the child_of edge is written here; the sibling_of edge to Merebbi Rebbu is likewise written here, in the elder brother's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-142
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
