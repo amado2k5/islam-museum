@@ -13,6 +13,6 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/umayyad-birth-to-fall-2006] }
   - { type: had_participant, target: person/al-dahhak-ibn-qays-al-fihri, role: "قائد جيش ابن الزبير بالشام", sources: [source/bakr-umayyad-state-1134715] }
 external_ids: { wikidata: "Q2281774" }
-sources: [source/umayyad-birth-to-fall-2006, source/bakr-umayyad-state-1134715]
-provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 30", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 30" }
+sources: [source/umayyad-birth-to-fall-2006, source/bakr-umayyad-state-1134715, source/tarikh-khalifa-umari-1985]
+provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 30", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 30", run: "lib-tarikh-khalifa-batch-3-2026-10-31 (enrichment)" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 30; the place relation is inferred from the book's 'east of Damascus'" }

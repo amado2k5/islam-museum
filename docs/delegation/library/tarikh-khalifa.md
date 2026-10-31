@@ -15,6 +15,8 @@
 
 - **Batch 2** (officials tables and two rolls): a section "His officials in Khalifa ibn Khayyat" added to 24 caliphs (Abu Bakr to al-Ma'mun, plus Ibn al-Zubayr): 1,097 office-holders by province and office, 331 linked to existing people, editor-restored lines marked; `event/waqat-al-harra` (97 Quraysh, 173 Ansar, 306 total, al-Mada'ini's date 27 Dhu al-Hijja 63, the executed); `event/revolt-of-ibn-al-ashath` (the reciters' roll, Maskin 5,000/4,000).
 
+- **Batch 3** (second dates): an "In Khalifa ibn Khayyat" section with his dated report and named authority on 16 events: Ajnadayn, death of Abu Bakr (editor-restored line), death of Umar, murder of Uthman, the Camel, Siffin, Nahrawan, death of Ali, Yamama, Ullays, death of Mu'awiya (59 vs 60), Marj Rahit, death of Ibn al-Zubayr, death of Abd al-Malik, Karbala, murder of Sa'id ibn Jubayr (95).
+
 ## Next step
 
-Batch 3: Khalifa's second dates for existing events (claims A 5–21, B 11–19, C 15–20: deaths of the caliphs, the Camel, Siffin, Nahrawan, Ajnadayn, the Zab, Qudayd…), then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.
+Batch 4: remaining second dates (claims A 14–21, B 13/17, C 15–20: Yarmuk, Qadisiyya, Amwas, Nihawand, the Kaaba fire of 64, al-Walid and Sulayman, Zayd ibn Ali, the Zab, Qudayd, the Abbasid deaths), new events al-Madhar (67) and Mirdas ibn Udayya, then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.
