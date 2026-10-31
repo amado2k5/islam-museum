@@ -23,3 +23,6 @@ The date is derived from the Hijri year, and the data record no specific page fo
 The speaker recounts that Umar, in his last days as he says, intended to spend two months in Syria and two in Egypt to see the conditions for himself rather than rely on reports (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:11:00}.
 
 He recounts that when Umar reached Syria, the plague had spread there, and people hesitated over entering. Ibn Umar then reported that he had heard the Prophet say: if plague is in a land and you are outside it, do not enter it; if it is in a land and you are within it, do not leave it. Umar turned back {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 01:11:00}.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]], following Ibn Ishaq, records the plague of Amwas in Syria among the events of the year 18, the same year in which he places the Year of Ashes (the famine of al-Ramada). Among those who died in it he names [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda ibn al-Jarrah]], Mu'adh ibn Jabal, Yazid ibn Abi Sufyan, Shurahbil ibn Hasana and al-Harith ibn Hisham ibn al-Mughira. {cite:tarikh-khalifa-umari-1985 p. 138}

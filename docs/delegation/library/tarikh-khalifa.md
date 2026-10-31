@@ -19,6 +19,8 @@
 
 - **Batch 4**: second dates on 9 events (the Zab 11 Jumada II 132, Qudayd 9 Safar 130 with its casualty roll, Zayd ibn Ali 122, deaths of Hisham, al-Walid II, Yazid III, al-Mu'tasim, al-Rida's designation 201, the ransom of 231); new `event/hajj-of-199-without-an-imam` (Ibn al-Aftas; the name dispute noted) and `event/battle-of-al-madhar` (67).
 
+- **Batch 6** (pp. 130–148): Khalifa sections added to `event/battle-of-yarmuk` (15 AH; Ibn al-Kalbi's Monday 5 Rajab 15; the fallen), `event/battle-of-al-qadisiyya` (the numbers, the march on al-Mada'in), `event/plague-of-amwas` (18 AH; the dead) and `event/battle-of-nihawand` (21 AH, given a date; Ali's counsel; the three days). Yarmuk and Amwas published. Duplicates still open: `event/amwas-plague` → `plague-of-amwas`; `battle-of-nahavand` and `battle-of-nahavand-21` → `battle-of-nihawand` (edges to repoint first).
+
 ## Next step
 
 Batch 5: remaining dates (Yarmuk, Qadisiyya, Amwas, Nihawand, the Kaaba fire of 64, al-Walid I and Sulayman, the Abbasid caliphs' deaths), Mirdas ibn Udayya, a second source on `event/battle-of-tahudha` once it is on main, then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.
