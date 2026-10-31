@@ -3,7 +3,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { REPO } from "../../../lib/graph";
-import { PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS } from "../../../lib/links";
+import { PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS, RAISELY } from "../../../lib/links";
 import { siPatreon, siPaypal, siGithubsponsors } from "simple-icons";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -43,6 +43,11 @@ const S = T.support;
             <h3 class="card-title">{S.paypal_title}</h3>
             <p>{S.paypal_body}</p>
             <p><a class="ui btn" href={PAYPAL} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d={siPaypal.path} /></svg>{S.paypal_cta}</a></p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">{S.raisely_title}</h3>
+            <p>{S.raisely_body}</p>
+            <p><a class="ui btn" href={RAISELY} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 21s-7.5-4.6-9.5-9.1C1.1 8.6 3.1 5 6.6 5c2 0 3.6 1.2 4.4 2.6C11.8 6.2 13.4 5 15.4 5c3.5 0 5.5 3.6 4.1 6.9C19.5 16.4 12 21 12 21z"/></svg>{S.raisely_cta}</a></p>
           </div>
           <div class="card">
             <h3 class="card-title">{S.other_title}</h3>

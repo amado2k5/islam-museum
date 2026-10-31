@@ -12,6 +12,7 @@ regions: [arabia]
 date:
   start: { edtf: "0631-04", hijri: "0009-04", calendar: julian, precision: month, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: occurred_at, target: place/jeddah, sources: [source/mubarakpuri-raheeq] }
   - { type: caused_by, target: event/expedition-of-dhu-qarad, note: "طلب علقمة البعث ثأراً لأخيه وقاص المقتول يوم ذي قرد، عند ابن هشام", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abu-said-al-khudri, role: "كان في الجيش وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "استُعمل على طائفة من الجيش؛ صاحب دعابة النار", sources: [source/ibn-hisham-saqqa] }
@@ -25,3 +26,8 @@ sides:
   - label: { en: "Abyssinian raiders", ar: "رجال من الحبشة متجمّعون للقرصنة" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 426" }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم / Mubarakpuri, al-Raheeq al-Makhtum — sariyya of al-Qa'ma to Jeddah, Rabi II 9 AH"
+  generated_by: "existing record; provenance backfilled by Devin (SWE-2 Medium) from the inline cite"
+  run: explorer-jeddah

@@ -113,3 +113,35 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-28 | place/aden | devin | claimed
 2026-10-28 | place/muscat | devin | claimed
 2026-10-28 | place/jeddah | devin | claimed
+2026-10-30 | concept/al-musara-a | claude | done (concept only, no dated event) — wrestling: Rukana bout, Ibn Ishaq (Zakkar) p.276, Isaba pp.499, 531; Abu Nu'aym index p.682 only
+2026-10-30 | concept/al-rimaya | claude | done (concept only) — archery: Bukhari index p.1207 (Salama), Tirmidhi p.853 (Uhud, Sa'd); links event/battle-of-uhud
+2026-10-30 | concept/games-leads | claude | lead, not written — horse racing (Bukhari index p.1615; Hafya to Thaniyat al-Wada placed race, covered by sabq-in-islam), swimming (Ibn Ishaq p.168 Amr ibn al-As at sea, not a game), dolls (Bukhari index p.1657), camel racing (Tirmidhi commentary; no dated event), nard (Muslim body OCR garbled)
+2026-10-30 | concept/cat-in-hadith | claude | published
+2026-10-30 | concept/ant-in-hadith | claude | published
+2026-10-30 | event/spider-web-at-ghar-thawr | claude | published (content ar/en/ur added)
+2026-10-30 | event/battle-of-the-camel | claude | participants linked (ali, zubayr, talha)
+2026-10-30 | lead: animals pigeon-thawr, dog-ashab-al-kahf, horse-4-events | claude | lead (not found in drive OCR)
+2026-10-30 | period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/colonial-era, period/contemporary-era, period/modern-era, period/mongol-post-mongol, period/pre-islamic-arabia | claude | done (7 era subjects added to explorer; 80 to 87 subjects; no records or prose changed)
+2026-10-30 | event/chess-match-al-suli-and-al-mawardi, event/mutadid-at-chess-when-al-qasim-entered, event/al-suli-chess-praised-before-al-radi | claude | published (ar/en/ur; Muruj pp. 598, 634, 660, 676-677); lead: Harun first chess (Muruj p.670), Harun chess gift to Charlemagne (Duha p.233), Aghani v5 p.277 riddle (OCR garbled); riddle terms are mostly theological polemic
+2026-10-30 | place/aden | claude | done — 7 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/aleppo | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/alexandria | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/antioch | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/basra | claude | done — 12 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/damascus | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/herat | claude | done — 7 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/homs | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/isfahan | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/jeddah | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/karbala | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/kufa | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/marrakesh | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/merv | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/mosul | claude | done — 14 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/muscat | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/qumm | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/raqqa | claude | done — 5 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/tarabulus-gharb | claude | done — 6 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | place/tarabulus-sham | claude | done — 4 nodes; subject file already present (owner devin), verified against explorer output; no new subject added
+2026-10-30 | lead: swimming, horse race, camel race, spear, prizes-recognitions | claude | not written: swimming only in hadith lines (Abu Nu'aym, Umar via Salabi, source record missing); horse race covered by concept/sabq-in-islam (draft); prizes covered by concept/jaiza; no 4 dated events found
+2026-10-30 | concept/al-rimaya, concept/al-musara-a | claude | dropped own practice/ duplicates after merging main (#2599 already has both); no new records; undated, not stories
