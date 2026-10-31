@@ -1,0 +1,48 @@
+id: person/mohammad-hidayatullah
+class: person
+label:
+  ar: "محمد هداية الله"
+  en: "Mohammad Hidayatullah"
+  ur: "محمد ہدایت اللہ"
+names:
+  - { value: "Mohammad Hidayatullah", kind: full }
+gender: male
+summary:
+  ar: "قاضٍ ورجل دولة هندي (1905–1992)، رئيس قضاة الهند من 1968 إلى 1970. وعند وفاة الرئيس ذاكر حسين في المنصب سنة 1969 تولى رئاسة الهند بالإنابة، وكان نائب رئيس الجمهورية من 1979 إلى 1984. تعلّم في كمبريدج وتخرّج محاميا في «لينكولن إن»، وكان أديبا أرديا معروفا."
+  en: "Indian jurist and statesman (1905–1992), chief justice of India from 1968 to 1970. On the death in office of President Zakir Husain he served as acting president of India in July–August 1969, and he was vice president of India from 1979 to 1984. Educated at Cambridge and called to the bar at Lincoln's Inn, he was also a noted scholar of Urdu literature."
+  ur: "ہندوستانی قاضی اور سیاست دان (1905ء–1992ء)، 1968ء سے 1970ء تک ہندوستان کے چیف جسٹس۔ 1969ء میں صدر ذاکر حسین کی عہدے میں وفات پر انھوں نے ہندوستان کے قائم مقام صدر کے طور پر خدمات انجام دیں، اور 1979ء سے 1984ء تک نائب صدر رہے۔ کیمبرج میں تعلیم پائی اور لنکنز اِن سے بار میں داخل ہوئے، وہ اردو ادب کے عالم بھی تھے۔"
+roles: [jurist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1905-12-17"
+  hijri: "1323"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 17 December 1905; the English article's infobox gives his birthplace as Betul, in the Central Provinces and Berar, and the article and Wikidata agree on the date. Betul has no place entity in this collection, so no born_in relation is written and the place is carried here. The Hijri year (1323) is by tabular conversion."
+  sources: [source/wikipedia-mohammad-hidayatullah-en, source/wikidata-mohammad-hidayatullah]
+died:
+  edtf: "1992-09-18"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 18 September 1992 at Bombay, as the English article's infobox and Wikidata give. Bombay has no place entity in this collection, so no died_in relation is written and the place is carried here. The Hijri year (1413) is by tabular conversion."
+  sources: [source/wikipedia-mohammad-hidayatullah-en, source/wikidata-mohammad-hidayatullah]
+relations: []
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read — English, Arabic or Urdu — names a school for Mohammad Hidayatullah, and his Wikidata item's only religion value is Islam (Q432), a generic value that names no school. His chief justiceship, acting presidency and vice-presidency are offices, and his father's repute as an Urdu poet is family background; neither counts as personal attestation. Absence configuration: his school is recorded unknown, unflagged."
+    sources: [source/wikipedia-mohammad-hidayatullah-en, source/wikipedia-mohammad-hidayatullah-ar, source/wikipedia-mohammad-hidayatullah-ur, source/wikidata-mohammad-hidayatullah]
+external_ids: { wikidata: "Q557749" }
+sources: [source/wikipedia-mohammad-hidayatullah-en, source/wikipedia-mohammad-hidayatullah-ar, source/wikipedia-mohammad-hidayatullah-ur, source/wikidata-mohammad-hidayatullah]
+provenance:
+  layer: own-research
+  source: "Identity: the queue line 'Mohammad Hidayatullah — 1905–1992' matches the chief justice and acting president's biography and dates exactly. English Wikipedia 'Mohammad Hidayatullah' (revision 1382863937 of 30 October 2026); Arabic Wikipedia «محمد هداية الله» (revision 75427360 of 13 June 2026); Urdu Wikipedia «محمد ہدایت اللہ» (revision 11800781 of 18 August 2026) and Wikidata item Q557749 (item revision 2561721942 of 28 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026; every recorded revision id was fetched live in this session and asserted as the current revision before any claim was drawn, and the QID was grounded through the English article's own page property. Existence checked both directions before building: the hidayatullah fragment on origin/main returns only Ghulam Hussain Hidayatullah (the Sindh premier, died 1948) and Hidayatullah of Banjar — different men — and Q557749 appears in no person file; no record for the chief justice existed. No relations are written: neither Betul nor Bombay has a place entity (verified), and offices are never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-127
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
