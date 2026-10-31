@@ -1,5 +1,6 @@
 id: event/battle-of-nihawand
 class: event
+aliases: [event/battle-of-nahavand, event/battle-of-nahavand-21]   # merged: the Ibn al-Athir record (now a section) and an unchecked Wikidata stub; both ids still resolve
 kind: battle
 label: { ar: "يوم نهاوند فتح الفتوح", en: "The Battle of Nihawand (Fath al-Futuh)" }
 summary:
@@ -22,6 +23,8 @@ provenance:
   generated_by: "Khalifa ibn Khayyat section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-khalifa-batch-6-2026-10-31; Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-42, lib-akhbar-tiwal-batch-3-2026-10-31
 date:
-  start: { edtf: "0642", hijri: "0021", calendar: julian, precision: year, status: debated, derived: true, note: "خليفة بن خياط: سنة 21 (ص 147)؛ وفي المصادر خلاف؛ التحويل الميلادي مشتق", sources: [source/tarikh-khalifa-umari-1985] }
+  start: { edtf: "0642", hijri: "0021", calendar: julian, precision: year, status: debated, derived: true, note: "خليفة بن خياط: سنة 21 (ص 147)؛ وفي المصادر خلاف؛ التحويل الميلادي مشتق", sources: [source/tarikh-khalifa-umari-1985, source/kamil-ibn-al-athir] }
 sources: [source/futuh-buldan-maarif-1407, source/akhbar-tiwal-amir, source/tarikh-khalifa-umari-1985]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+external_ids:
+  wikidata: Q603549

@@ -19,7 +19,7 @@
 
 - **Batch 4**: second dates on 9 events (the Zab 11 Jumada II 132, Qudayd 9 Safar 130 with its casualty roll, Zayd ibn Ali 122, deaths of Hisham, al-Walid II, Yazid III, al-Mu'tasim, al-Rida's designation 201, the ransom of 231); new `event/hajj-of-199-without-an-imam` (Ibn al-Aftas; the name dispute noted) and `event/battle-of-al-madhar` (67).
 
-- **Batch 6** (pp. 130–148): Khalifa sections added to `event/battle-of-yarmuk` (15 AH; Ibn al-Kalbi's Monday 5 Rajab 15; the fallen), `event/battle-of-al-qadisiyya` (the numbers, the march on al-Mada'in), `event/plague-of-amwas` (18 AH; the dead) and `event/battle-of-nihawand` (21 AH, given a date; Ali's counsel; the three days). Yarmuk and Amwas published. `event/amwas-plague` merged into `plague-of-amwas` as an alias (Ibn al-Athir section kept). Duplicates still open: `battle-of-nahavand` and `battle-of-nahavand-21` → `battle-of-nihawand` (edges to repoint first).
+- **Batch 6** (pp. 130–148): Khalifa sections added to `event/battle-of-yarmuk` (15 AH; Ibn al-Kalbi's Monday 5 Rajab 15; the fallen), `event/battle-of-al-qadisiyya` (the numbers, the march on al-Mada'in), `event/plague-of-amwas` (18 AH; the dead) and `event/battle-of-nihawand` (21 AH, given a date; Ali's counsel; the three days). Yarmuk and Amwas published. `event/amwas-plague` merged into `plague-of-amwas` as an alias (Ibn al-Athir section kept). `battle-of-nahavand` (Ibn al-Athir section kept) and `battle-of-nahavand-21` (unchecked Wikidata stub; its Q603549 kept) merged into `battle-of-nihawand` as aliases; their orphaned Timeline Explorer entries removed from `data/time-browser-*.json`.
 
 ## Next step
 
