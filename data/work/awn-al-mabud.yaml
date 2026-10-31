@@ -1,0 +1,24 @@
+id: work/awn-al-mabud
+class: work
+kind: book
+label: { ar: "عون المعبود شرح سنن أبي داود", en: "Awn al-Ma'bud, commentary on the Sunan of Abu Dawud" }
+summary:
+  ar: "«عون المعبود» شرح على «سنن أبي داود» من إعداد محمد أشرف العظيم آبادي، وهو مختصر من شرحه الكبير «غاية المقصود»، يبين غريب الألفاظ وعلل الأحاديث ومعاني التراكيب. {cite:awn-al-mabud-fayha-vol1-2013 p. 14}"
+  en: "A commentary on Abu Dawud's Sunan by Muhammad Ashraf al-Azimabadi. It is an abridgement of his larger commentary, Ghayat al-maqsud, and explains rare words, the defects of hadiths and the sense of difficult phrases. {cite:awn-al-mabud-fayha-vol1-2013 p. 14}"
+genre: [hadith, law]
+made: { by_muslims: true, basis: documented, sources: [source/awn-al-mabud-fayha-vol1-2013, source/awn-al-mabud-fayha-vol8-2009] }
+authors: [person/muhammad-ashraf-al-azimabadi]
+language: language/arabic
+wings: []
+themes: [scripture-and-its-sciences]
+regions: [south-asia]
+relations:
+  - { type: commentary_on, target: work/sunan-abi-dawud, sources: [source/awn-al-mabud-fayha-vol1-2013, source/awn-al-mabud-fayha-vol8-2009] }
+sources: [source/awn-al-mabud-fayha-vol1-2013, source/awn-al-mabud-fayha-vol8-2009, source/awn-al-mabud]
+provenance:
+  layer: own-research
+  source: "Two volumes of the Dar al-Fayha printing (vol. 1, 2nd ed.; vol. 8, 1st ed.), read from the OCR; the introduction of vol. 1 gives the method and the authorship note"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "harvest-awn-mabud-1"
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the OCR of two volumes" }
