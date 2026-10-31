@@ -1,0 +1,54 @@
+id: person/ahmed-balafrej
+class: person
+label:
+  ar: "أحمد بلافريج"
+  en: "Ahmed Balafrej"
+  ur: "احمد بلافریج"
+names:
+  - { value: "أحمد بلافريج", kind: full }
+  - { value: "Ahmed Balafrej", kind: full }
+gender: male
+born:
+  edtf: "1908-09-05"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Rabat in 1908. The day is disputed: the English biography (citing Jean Wolf, 1994) and the French infobox give 5 September 1908, while the Arabic biography and one Wikidata value give 8 September, and Wikidata also carries a stray 1 May 1908 value; 5 September is followed and the other readings are preserved here. Either September day falls in 1326 AH. Rabat has no place entity on main, so no born_in edge is written."
+  sources: [source/wikipedia-ahmed-balafrej-en, source/wikipedia-ahmed-balafrej-fr, source/wikipedia-ahmed-balafrej-ar, source/wikidata-ahmed-balafrej]
+died:
+  edtf: "1990-04-14"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Rabat on 14 April 1990 (English, French and Arabic biographies; Wikidata agrees). 14 April 1990 falls in 1410 AH, recorded here at year precision. Rabat has no place entity on main, so no died_in edge is written."
+  sources: [source/wikipedia-ahmed-balafrej-en, source/wikipedia-ahmed-balafrej-fr, source/wikipedia-ahmed-balafrej-ar, source/wikidata-ahmed-balafrej]
+roles: [politician, diplomat]
+regions: [maghreb]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic biography's infobox gives his religion as Islam, a single structured family attesting Islam in general only; no source names a school of law for him, and Wikidata carries no religion value. His offices and his party work never count. Held unknown, unflagged: no school is attested."
+    sources: [source/wikipedia-ahmed-balafrej-ar, source/wikidata-ahmed-balafrej]
+summary:
+  ar: "سياسي ودبلوماسي مغربي (1908–1990)، وُلد بالرباط في أسرة من أصل أندلسي، وكان من مؤسسي الحركة الوطنية: شارك في كتلة العمل الوطني سنة 1934 وفي تأسيس حزب الاستقلال الذي كان أمينه العام (1944–1960)، ونُفي إلى كورسيكا سنة 1944 ودافع عن قضية استقلال المغرب أمام الجمعية العامة للأمم المتحدة سنة 1953. بعد الاستقلال تولى وزارة الخارجية (1956–1958)، ثم رئاسة الحكومة مع وزارة الخارجية (مايو–ديسمبر 1958)، ثم كان الممثل الشخصي للحسن الثاني ووزير الخارجية (1963)."
+  en: "Moroccan politician and diplomat (1908–1990), born at Rabat to a family of Andalusian origin. A founder of the national movement, he took part in the Moroccan Action Committee of 1934 and in founding the Istiqlal Party, whose secretary-general he was (1944–1960); exiled to Corsica in 1944, he pleaded Morocco's independence before the United Nations General Assembly in 1953. After independence he was foreign minister (1956–1958), then prime minister while keeping the foreign ministry (May–December 1958), and in 1963 personal representative of Hassan II and foreign minister again."
+  ur: "مغربی سیاست دان اور سفارت کار (1908–1990)، الرباط میں اندلسی الاصل خاندان میں پیدا ہوئے۔ قومی تحریک کے بانیوں میں سے تھے: 1934ء میں کتلہ عملِ وطنی اور حزبِ استقلال کے قیام میں شریک ہوئے جس کے وہ 1944ء سے 1960ء تک سیکرٹری جنرل رہے؛ 1944ء میں کورسیکا جلاوطن ہوئے اور 1953ء میں اقوامِ متحدہ کی جنرل اسمبلی میں مغرب کی آزادی کا مقدمہ پیش کیا۔ آزادی کے بعد وزیرِ خارجہ (1956–1958ء)، پھر وزیرِ اعظم و وزیرِ خارجہ (مئی تا دسمبر 1958ء)، اور 1963ء میں حسن ثانی کے ذاتی نمائندے اور دوبارہ وزیرِ خارجہ رہے۔"
+sources:
+  - source/wikipedia-ahmed-balafrej-en
+  - source/wikipedia-ahmed-balafrej-fr
+  - source/wikipedia-ahmed-balafrej-ar
+  - source/wikidata-ahmed-balafrej
+  - source/wikipedia-allal-al-fassi-fr
+external_ids:
+  wikidata: Q401160
+provenance:
+  layer: own-research
+  source: "English, French and Arabic Wikipedia biographies of Ahmed Balafrej (Q401160) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, the Wikidata item revision was re-asserted against a second live query, and the QID was grounded through the articles' page properties. Existence checks by name fragments (balafrej, بلافريج) and by QID across data/person on origin/main found no prior record for him. Rabat has no place entity on main, so his birth and death places are carried in the date notes only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-141
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

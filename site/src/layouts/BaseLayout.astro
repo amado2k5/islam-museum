@@ -118,6 +118,7 @@ const EXPLORE = explorePages(lang);
             <ul class="dd-menu" role="list">
               {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
               <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+              <li><a href={`/${lang}/time-machine/`}><span class="t">{T.explore.pages.timemachine.title}</span><span class="d">{T.explore.pages.timemachine.menu}</span></a></li>
               <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>
               <li><a href={`/${lang}/3d/`}><span class="t"><span aria-hidden="true">🧊</span> {T.tour.nav_label}</span></a></li>
             </ul>

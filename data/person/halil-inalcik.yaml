@@ -1,0 +1,62 @@
+id: person/halil-inalcik
+class: person
+label:
+  ar: "خليل إينالجك"
+  en: "Halil İnalcık"
+  ur: "خلیل اینالجک"
+names:
+  - { value: "Halil İbrahim İnalcık", kind: full }
+  - { value: "Halil İnalcık", kind: alternate }
+gender: male
+born:
+  edtf: "1916-09-07"
+  hijri: "1334"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Istanbul. The day is debated: the English and Turkish biographies give 7 September 1916, the English article noting that his own CV gives that day, while Wikidata gives 26 May 1916; the biographies' day is followed and the Wikidata day preserved here. The Hijri year 1334 is a tabular conversion of the followed date, marked derived."
+  sources:
+    - source/wikipedia-inalcik-en
+    - source/wikipedia-inalcik-tr
+    - source/wikidata-inalcik
+died:
+  edtf: "2016-07-25"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 25 July 2016 at Ankara, aged 99; the English and Turkish biographies and Wikidata agree on the day. Ankara has no place entity, so no died_in edge is written. By decision of the Council of Ministers he was buried in the cemetery (hazire) of the Fatih Mosque in Istanbul. The Hijri year 1437 is a tabular conversion, marked derived."
+  sources:
+    - source/wikipedia-inalcik-en
+    - source/wikipedia-inalcik-tr
+    - source/wikidata-inalcik
+roles: [historian, writer]
+regions: [anatolia-balkans]
+wings: [people]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-inalcik-en, source/wikidata-inalcik] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's structured religion value for Inalcik is Islam (Q432), and his burial in the Fatih Mosque cemetery is a matter of record; the Turkish biography's infobox religion field is empty, and no source reached names a legal school for the man himself. A single structured value does not record a school, and family background — a Crimean Tatar family that had migrated to Istanbul — never counts, so his faith is recorded unknown."
+    sources:
+      - source/wikidata-inalcik
+      - source/wikipedia-inalcik-tr
+summary:
+  ar: "مؤرخ تركي للإمبراطورية العثمانية، لُقّب «شيخ المؤرخين». وُلد في إسطنبول سنة 1916 لأسرة من تتار القرم، ودرّس في جامعة أنقرة (1940–1972) وجامعة شيكاغو (1972–1986) وجامعة بيلكنت، حيث أسس قسم التاريخ. غيّرت دراساته الاجتماعية والاقتصادية لعصر الإمبراطورية الكلاسيكي ملامح الحقل، وتوفي في أنقرة سنة 2016 ودُفن في حظيرة جامع الفاتح بإسطنبول."
+  en: "Turkish historian of the Ottoman Empire, styled Seyhü'l-Müverrihin, dean of historians. Born in Istanbul in 1916 to a Crimean Tatar family, he taught at Ankara University (1940-1972), the University of Chicago (1972-1986) and Bilkent University, where he founded the history department. His social and economic studies of the classical-age Empire reshaped the field; he died at Ankara in 2016 and was buried in the Fatih Mosque cemetery in Istanbul."
+  ur: "ترک مؤرخِ سلطنتِ عثمانیہ، جنہیں «شیخ المؤرخین» کہا جاتا ہے۔ 1916ء میں استنبول میں کریمیا کے تاتاری خاندان میں پیدا ہوئے؛ انقرہ یونیورسٹی (1940ء–1972ء)، شکاگو یونیورسٹی (1972ء–1986ء) اور بلکینٹ یونیورسٹی میں پڑھایا، جہاں شعبۂ تاریخ قائم کیا۔ کلاسیکی دور کی سلطنت پر ان کی سماجی و معاشی تحقیقات نے اس شعبے کو نئی شکل دی؛ 2016ء میں انقرہ میں وفات پائی اور استنبول کی فاتح مسجد کے احاطے میں دفن ہوئے۔"
+sources:
+  - source/wikipedia-inalcik-en
+  - source/wikipedia-inalcik-tr
+  - source/wikidata-inalcik
+external_ids:
+  wikidata: Q739524
+provenance:
+  layer: own-research
+  source: "The English and Turkish Wikipedia biographies of Halil Inalcik and the Wikidata item Q739524, all read in full in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the Ottoman historian (1916-2016), pinned by biography and QID. The queue's years are confirmed; the birth day is debated between the biographies' 7 September (his own CV) and Wikidata's 26 May, the former followed. Relations written: born_in Istanbul; no died_in edge, as Ankara has no place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

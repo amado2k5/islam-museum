@@ -1,0 +1,50 @@
+id: person/ibrahim-al-arrayedh
+class: person
+label:
+  ar: "إبراهيم العريض"
+  en: "Ibrahim Al-Arrayedh"
+  ur: "ابراہیم العریض"
+names:
+  - { value: "Ibrahim Al-Arrayedh", kind: full }
+  - { value: "إبراهيم العريّض", kind: full }
+  - { value: "Ebrahim Al-Arrayedh", kind: latinized }
+  - { value: "Ibrahim al-Urayyid", kind: latinized }
+gender: male
+summary:
+  ar: "شاعر وكاتب بحريني، من أبرز وجوه الأدب الحديث في البحرين وقائد حركته الأدبية في القرن العشرين. وُلد في بومباي سنة 1908 لأب من المنامة وأم عراقية، وعلّم في البحرين من سنة 1927 ثم عمل في الجمارك وفي شركة نفط البحرين حتى تقاعده سنة 1967، وترجم الشعر بين العربية والفارسية والأردية والإنجليزية، ورأس المجلس الدستوري الذي صاغ أول دستور للبحرين في مطلع السبعينيات، وتوفي سنة 2002."
+  en: "Bahraini poet and writer, one of the leading figures of Bahrain's modern literature and the head of its literary movement through the twentieth century. Born in Bombay in 1908 to a father from Manama and an Iraqi mother, he taught in Bahrain from 1927, then worked in customs and for the Bahrain Petroleum Company until his retirement in 1967, translated poetry between Arabic, Persian, Urdu and English, chaired the Constitutional Council that drafted Bahrain's first constitution in the early 1970s, and died in 2002."
+  ur: "بحرینی شاعر اور ادیب، بحرین کے جدید ادب کی نمایاں ترین شخصیات میں سے ایک اور بیسویں صدی میں اس کی ادبی تحریک کے قائد۔ 1908ء میں بمبئی میں منامہ کے ایک باپ اور عراقی ماں کے ہاں پیدا ہوئے، 1927ء سے بحرین میں تدریس کی، پھر کسٹمز اور بحرین پیٹرولیم کمپنی میں 1967ء میں سبکدوشی تک کام کیا، عربی، فارسی، اردو اور انگریزی کے درمیان شاعری کا ترجمہ کیا، ستر کی دہائی کے اوائل میں بحرین کے پہلے دستور کا مسودہ تیار کرنے والی آئینی کونسل کی سربراہی کی، اور 2002ء میں وفات پائی۔"
+roles: [poet, writer]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1908-03-08"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 8 March 1908 in Bombay, India, as the English article and Wikidata give (the item's place of birth is Mumbai, Q1156, and it also carries a year-only 1908 value); his father came from Manama, Bahrain, and his mother from Iraq, as the English article gives. The Hijri year (1326) is by tabular conversion. Mumbai has no place entity, so no born_in relation is written."
+  sources: [source/wikipedia-ibrahim-al-arrayedh-en, source/wikidata-ibrahim-al-arrayedh]
+died:
+  edtf: "2002-05-28"
+  hijri: "1423"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 28 May 2002, as Wikidata gives precisely; the English article gives May 2002, at the age of 94, following respiratory complications, and records his burial in the Manama Graveyard beside his daughter Layla (the item's place of death is Manama, Q3882). The Hijri year (1423) is by tabular conversion. Manama has no place entity, so no died_in relation is written."
+  sources: [source/wikipedia-ibrahim-al-arrayedh-en, source/wikidata-ibrahim-al-arrayedh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Ibrahim Al-Arrayedh. The Arabic article's infobox gives his religion as Islam in general; the English article names no religion and Wikidata carries no religion value at all. His teaching posts — including deputy director of the Jafari school, a post he resigned after disputes with the British authorities — are employment, which never counts as attestation. Absence configuration: his school stays unknown, unflagged."
+    sources: [source/wikipedia-ibrahim-al-arrayedh-ar, source/wikidata-ibrahim-al-arrayedh]
+external_ids: { wikidata: "Q5331960" }
+sources: [source/wikipedia-ibrahim-al-arrayedh-en, source/wikipedia-ibrahim-al-arrayedh-ar, source/wikipedia-ibrahim-al-arrayedh-ur, source/wikidata-ibrahim-al-arrayedh]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ebrahim Al-Arrayedh' (revision 1360880139 of 24 June 2026), Arabic Wikipedia «إبراهيم العريض» (revision 72687423 of 8 December 2025), Urdu Wikipedia «ابراہیم العریض» (revision 11850351 of 30 August 2026) and Wikidata item Q5331960 (item revision 2538121601 of 30 August 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and asserted before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic and Urdu articles' page properties. Identity: the queue line 'Ibrahim Al-Arrayedh (Ancestors) (1908–2002)' matches the Bahraini poet's biography exactly; the queue's parenthetical is a list label and was not treated as evidence of anything. Existence checked both directions before building: name fragments (Arrayedh, Urayyid, العريض, العریض) and Q5331960 grepped across all data/person files on origin/main — the Arabic-script hits are medieval namesakes (al-Araj and similar), none is this man. No relations are written: no member of his family has a record, and neither Mumbai nor Manama has a place entity. The queue's years (1908–2002) are confirmed exactly, to the day at both ends."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-138
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

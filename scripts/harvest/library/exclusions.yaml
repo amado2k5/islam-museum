@@ -197,3 +197,23 @@ verified:
       - https://www.wikidata.org/wiki/Q4664438
     processed_check: "person entity exists; no khutab collection in data/"
     checked: 2026-10-31
+verified_override:
+  - name: Ahmad ibn Nasir al-Tayyar (Taqrib fatawa Ibn Taymiyya)
+    school: unverified
+    evidence: []
+    processed_check: "no taqrib entry in data/; school not confirmed on Wikipedia or Wikidata"
+    checked: 2026-10-31
+    override: "Founder authorised adding all books, 31 Oct 2026. Added without school confirmation; to be verified later."
+  - name: Muhammad ibn Salih al-Uthaymin (Durus wa fatawa min al-Haramayn)
+    school: Hanbali (per a reference encyclopedia; Wikipedia not yet checked)
+    evidence:
+      - https://www.aljazeera.net/icons/advocates/2016/2/23/محمد-بن-عثيمين
+    processed_check: "no durus entry in data/"
+    checked: 2026-10-31
+    override: "Founder authorised adding all books, 31 Oct 2026."
+  - name: Permanent Committee for Scholarly Research and Ifta (institution)
+    school: not applicable (institutional)
+    evidence: []
+    processed_check: "no permanent committee entry in data/"
+    checked: 2026-10-31
+    override: "Founder authorised adding all books, 31 Oct 2026."

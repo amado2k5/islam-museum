@@ -1,0 +1,81 @@
+id: person/saad-bouh
+class: person
+
+label:
+  ar: "الشيخ سعد بوه"
+  en: "Saad Bouh"
+  ur: "شیخ سعد بوہ"
+
+names:
+  - { value: "الشيخ سعد بوه", kind: full }
+  - { value: "Cheikh Saad Bouh", kind: latinized }
+  - { value: "Saad Buh", kind: alternate }
+  - { value: "سعد أبيه", kind: alternate }
+  - { value: "Sa'd Abih", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شيخ صوفي قادري موريتاني (1848-1917)، ابن الشيخ محمد فاضل مؤسس الطريقة الفاضلية والأخ الأصغر للشيخ ماء العينين. صدَّره أبوه في الثامنة عشرة إلى بلاد القبلة (الترارزة) لنشر الفاضلية، فبنى شبكة من الزوايا وصدَّر مئات الشيوخ في أنحاء غرب إفريقيا، وتوسَّط بين الإدارة الفرنسية والحكام المحليين، وكتب «النصيحة» المشهورة إلى أخيه يحضّه فيها على ترك جهاد الفرنسيين — بينما تذكره التراجم العربية مشاركاً في الحملات الجهادية إلى جانب أخيه. توفي في مركزه الدراسي بنمجاط سنة 1917 وخلف عشرات المؤلفات في الفقه والتصوف."
+  en: "Mauritanian Qadiri Sufi sheikh (1848–1917), a son of Muhammad Fadil, founder of the Fadiliyya, and the younger brother of Ma al-'Aynayn. Sent by his father at eighteen to carry the Fadiliyya into the Trarza and Senegal, he built a network of zawiyas and consecrated hundreds of sheikhs across West Africa, mediated between the French administration and local rulers, and in his famous Nasiha counselled his brother against waging jihad on France — while the Arabic biographical tradition instead remembers him campaigning beside his brother. He died at his study centre of Nimjat in 1917, leaving dozens of works on fiqh and Sufism."
+  ur: "موریطانیہ کے قادری صوفی شیخ (1848ء–1917ء)، سلسلۂ فاضلیہ کے بانی شیخ محمد فاضل کے صاحبزادے اور شیخ ماء العینین کے چھوٹے بھائی۔ والد نے اٹھارہ برس کی عمر میں انھیں فاضلیہ کی تبلیغ کے لیے ترارزہ بھیجا؛ انھوں نے مغربی افریقا میں زاویوں کا جال بچھایا اور سیکڑوں شیوخ کو اجازت دی، فرانسیسی انتظامیہ اور مقامی حکمرانوں کے درمیان ثالثی کی، اور اپنے مشہور «نصیحہ» میں بھائی کو فرانس کے خلاف جہاد سے باز رہنے کی تلقین کی — جبکہ عربی تراجم انھیں بھائی کے ساتھ جہادی مہموں میں شریک بتاتی ہیں۔ 1917ء میں نمجاط کے اپنے علمی مرکز میں وفات پائی اور فقہ و تصوف پر درجنوں کتابیں چھوڑیں۔"
+
+roles: [sufi master, scholar, writer]
+regions: [maghreb, west-africa-sahel]
+wings: [people]
+
+born:
+  edtf: "1848"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Place: the Hawd (Hodh) of eastern Mauritania — the Arabic biography gives his birth as 1285 AH / 1848 CE in al-Hawd al-Sharqi of Bilad Shinqit, the French biography 'in 1848 in the Hodh', and Wikidata carries 1848. The Arabic article pairs the year with 1285 AH, an arithmetically inconsistent pairing (1285 AH fell in 1868–69, while 1848 spans 1264–1265 AH), so no Hijri year is recorded (merge-stage correction, wave 143 §B). The French biography makes him the thirty-first son of his father Muhammad Fadil, by Mariama, daughter of Ahmed Abdi."
+  sources:
+    - source/wikipedia-saad-bouh-ar
+    - source/wikipedia-saad-bouh-fr
+    - source/wikidata-saad-bouh
+
+died:
+  edtf: "1917-07-12"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Place: Nimjat in the Trarza, north of Rosso, where he had founded his study centre in 1909 and where he is buried, his tomb a pilgrimage site. The French biography dates the death to 12 July 1917, 'the 22nd day of Ramadan'; the Arabic biography gives the year 1335 AH / 1917 CE, and 22 Ramadan 1335 converts to 12 July 1917, so the two pairings agree. Wikidata carries the year 1917."
+  sources:
+    - source/wikipedia-saad-bouh-fr
+    - source/wikipedia-saad-bouh-ar
+    - source/wikidata-saad-bouh
+
+relations:
+  - type: member_of
+    target: group/qadiriyya
+    note: "Commissioned propagator of the Fadiliyya, the Qadiriyya branch his father Muhammad Fadil founded: at eighteen his father sent him into the Trarza to spread the order, and he made his base first at Touizikt and from 1909 at Nimjat. The French biography records that by 1888 he was recognised as the branch's sole representative in Senegal, and that he consecrated sheikhs authorised to distribute the wird across West Africa — 664 of them in Talibouya Niang's count; the English article describes him at the centre of a network of teachers, schools and zawiyas across the Sahel and Sahara. The same member_of edge, to the same group entity, is used by his brother Ma al-'Aynayn's record and by Sidiyya Baba's for the sister branches."
+    sources:
+      - source/wikipedia-saad-bouh-ar
+      - source/wikipedia-saad-bouh-fr
+      - source/wikipedia-saad-buh-en
+
+faith:
+  - value: sufi
+    basis: documented
+    note: "His personal mastership of the Fadiliyya is attested by three independent families: the Arabic biography (his father 'dispatched him to the land of the Qibla, to spread the Fadiliyya', his followers multiplied, and his own works include books of tasawwuf), the English article — resting on Marty (1917) and Robinson (2000) — which calls him a 'Qadiriyyah, Fadiliyya Sufi' heading a network of zawiyas and disciples, and the French biography (Marty 1916; Boubrik 1999; Thilmans), which records his consecration of hundreds of sheikhs authorised to give the Fadiliyya wird. The segment is recorded as sufi on that mastership, following the precedents of person/sidiyya-baba and his brother person/ma-al-aynayn. No source read names a school of law for him: his Nimjat centre taught the Maliki manuals (the Risala, Ibn Ashir, Khalil's Mukhtasar), but a curriculum is not an attestation of the man's own school, so no sunni-maliki segment is recorded."
+    sources:
+      - source/wikipedia-saad-bouh-ar
+      - source/wikipedia-saad-buh-en
+      - source/wikipedia-saad-bouh-fr
+
+sources: [source/wikipedia-saad-bouh-ar, source/wikipedia-saad-buh-en, source/wikipedia-saad-bouh-fr, source/wikidata-saad-bouh]
+
+external_ids:
+  wikidata: Q55418200
+
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia 'سعد بوه', rev. 75869427 of 11 July 2026; English Wikipedia 'Saad Buh', rev. 1329198767 of 24 December 2025; French Wikipedia 'Cheikh Saad Bouh', rev. 238003997 of 21 July 2026; Wikidata Q55418200, item revision 2539124687 of 1 September 2026, re-asserted against a second live query in the same session. All read in full in session. His elder brother's record is on main (person/ma-al-aynayn); the sibling_of edge is written once, in the elder's record, in the modified copy of ma-al-aynayn.yaml included in this batch, and is not repeated here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

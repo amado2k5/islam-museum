@@ -1,0 +1,52 @@
+id: person/mustafa-ceric
+class: person
+label:
+  ar: "مصطفى سيريتش"
+  en: "Mustafa Cerić"
+  ur: "مصطفیٰ سیریچ"
+names:
+  - { value: "Mustafa Cerić", kind: full }
+gender: male
+born:
+  edtf: "1952-02-05"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 February 1952 at Veliko Čajno, near Visoko: the English, Arabic and Bosnian biographies and Wikidata agree on the day. The Hijri year 1371 is the Arabic biography's own year for him and a tabular conversion of the followed date, marked derived. Veliko Čajno and Visoko have no place entities, so no born_in edge is written."
+  sources:
+    - source/wikipedia-ceric-en
+    - source/wikipedia-ceric-bs
+    - source/wikidata-ceric
+roles: [scholar, mufti]
+regions: [anatolia-balkans]
+wings: [people, living]
+relations:
+  - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-ceric-bs] }
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "Cerić states the school of his own Islam in his published words: asked what schools are followed in Bosnia, he answered 'We are all aware of the Maturudi School of Theology and of the Hanafi School of Fiqh' and 'Hanafi is the official madhhab. This is the madhhab in prayers and in our fatwas' — the fatwas being those he himself issued as the community's head. The structured values concur for the man himself: Wikidata's religion value is Sunni Islam, the English biography's infobox gives Sunni Islam and files him among Hanafi scholars and Maturidis, and the Arabic biography files him likewise. His Grand Mufti office is not the evidence and is not used as such; the attestation is his own statement together with the structured values. The Maturidi theology he names has no separate value in the schema and is recorded in this note only."
+    sources:
+      - source/islamskazajednica-ceric-interview-2012
+      - source/wikidata-ceric
+      - source/wikipedia-ceric-en
+summary:
+  ar: "عالم بوسني كان رئيس العلماء والمفتي العام في البوسنة والهرسك (1993–2012). وُلد سنة 1952 في فيليكو تشاينو قرب فيسوكو، وتخرج في مدرسة الغازي خسرو بك بسراييفو ثم في الأزهر (1978)، وعمل إمامًا في شيكاغو حيث نال الدكتوراه من جامعة شيكاغو (1986) برسالة في لاهوت أبي منصور الماتريدي. شارك في تأسيس الأكاديمية البوسنية للعلوم والفنون (2011) والمؤتمر البوسني العالمي (2012) ويرأسه، ونال جائزة اليونسكو للسلام سنة 2003."
+  en: "Bosnian scholar who served as Grand Mufti (Reis-ul-ulema) of Bosnia and Herzegovina from 1993 to 2012. Born in 1952 at Veliko Čajno near Visoko, he graduated from the Gazi Husrev-beg Madrasa in Sarajevo and from Al-Azhar (1978), and served as an imam in Chicago, where he took his PhD at the University of Chicago (1986) with a dissertation on the theology of Abu Mansur al-Maturidi. He co-founded the Bosniak Academy of Sciences and Arts (2011) and the World Bosniak Congress (2012), which he presides over, and co-received the UNESCO Félix Houphouët-Boigny Peace Prize in 2003."
+  ur: "بوسنیائی عالم، جو بوسنیا و ہرزیگووینا کے رئیس العلماء اور مفتیِ اعظم رہے (1993–2012ء)۔ 1952ء میں ویسوکو کے قریب ویلیکو چائنو میں پیدا ہوئے، سرائیوو کی غازی خسرو بیگ مدرسہ اور الازہر (1978ء) سے فارغ التحصیل ہوئے، اور شکاگو میں امام رہے جہاں یونیورسٹی آف شکاگو سے ابو منصور ماتریدی کے الٰہیات پر مقالے کے ساتھ پی ایچ ڈی کی (1986ء)۔ انہوں نے بوسنیائی اکیڈمی آف سائنسز اینڈ آرٹس (2011ء) اور ورلڈ بوسنیائی کانگریس (2012ء) کی تاسیس میں حصہ لیا اور اس کے صدر ہیں، اور 2003ء میں یونیسکو کا امن انعام پایا۔"
+sources:
+  - source/wikipedia-ceric-en
+  - source/wikipedia-ceric-ar
+  - source/wikipedia-ceric-bs
+  - source/wikidata-ceric
+  - source/islamskazajednica-ceric-interview-2012
+external_ids:
+  wikidata: Q605675
+provenance:
+  layer: own-research
+  source: "The English, Arabic and Bosnian Wikipedia biographies of Mustafa Cerić, the Wikidata item Q605675 and his published interview on the Islamic Community in Bosnia and Herzegovina's English site, all read in full in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the Grand Mufti of 1993–2012 (born 1952), pinned by biography and QID. The queue's year is confirmed to the day. Relations written: lived_in Sarajevo (his madrasa city and the seat of his offices); no born_in edge, as Veliko Čajno and Visoko have no place entities. His Saudi citizenship, granted by royal order in November 2021, is recorded in the Arabic biography and his prose; his 2014 candidacy for the Bosniak seat of the state Presidency was unsuccessful."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-142
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

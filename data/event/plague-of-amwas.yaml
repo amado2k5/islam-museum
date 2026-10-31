@@ -1,5 +1,6 @@
 id: event/plague-of-amwas
 class: event
+aliases: [event/amwas-plague]   # merged from the Ibn al-Athir record of the same plague; the id still resolves
 kind: epidemic
 label: { ar: "طاعون عمواس", en: "The Plague of Amwas" }
 summary:
@@ -20,7 +21,7 @@ relations:
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 190"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  generated_by: "Khalifa ibn Khayyat section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-khalifa-batch-6-2026-10-31; Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-9
-sources: [source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/kamil-ibn-al-athir]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,53 @@
+id: person/salem-bouhageb
+class: person
+label:
+  ar: "سالم بوحاجب"
+  en: "Salem Bouhageb"
+  ur: "سالم بوحاجب"
+names:
+  - { value: "سالم بن عمر بوحاجب", kind: full }
+  - { value: "Salem ibn Umar Bouhageb", kind: full }
+gender: male
+born:
+  edtf: "1827"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Bembla, near Monastir. The Arabic biography and Wikidata give 1827; the French biography's lead gives '1824 or 1827' and its narrative gives 1827 with 1824 as the variant, and the English biography likewise gives '1824 or 1827'; 1827 is followed and the 1824 reading is preserved. The year 1827 spans the Hijri years 1242–1243, and the Arabic biography's pairing of it with 1244 AH does not correspond, so no hijri value is recorded. Bembla has no place entity on main, so no born_in edge is written."
+  sources: [source/wikipedia-salem-bouhageb-ar, source/wikipedia-salem-bouhageb-fr, source/wikipedia-salem-bouhageb-en, source/wikidata-salem-bouhageb]
+died:
+  edtf: "1924-07-14"
+  hijri: "1342"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at La Marsa on 14 July 1924 (French, Arabic, English and Urdu biographies; Wikidata agrees), and was buried at the Djellaz cemetery in Tunis after national funerals attended by the bey. 14 July 1924 falls in 1342 AH. La Marsa has no place entity on main, so no died_in edge is written."
+  sources: [source/wikipedia-salem-bouhageb-fr, source/wikipedia-salem-bouhageb-ar, source/wikipedia-salem-bouhageb-en, source/wikidata-salem-bouhageb]
+roles: [jurist, scholar, poet]
+regions: [maghreb]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. A Maliki reading exists but, on this session's evidence, rests on one scholarly family: his own student Muhammad Makhlof included him in Shajarat al-Nur al-Zakiyya, a biographical dictionary of the Maliki scholars, and Bouhageb's own commentaries are on Maliki texts such as Ibn Asim's Alfiyya. The biographies' other Maliki attestations — the French biography's 'Maliki mufti of Tunis' and 'chief Maliki mufti', and the Arabic biography's headship of the Maliki shura council from 1919 and his taking the muftiate in 1905 — are offices, which never count, and Wikidata carries no religion value. Held unknown with the Maliki reading preserved; if Makhlof's dictionary attestation plus his own Maliki commentaries are accepted as attesting the school for the man himself, this settles sunni-maliki/documented."
+    sources: [source/wikipedia-salem-bouhageb-ar, source/wikipedia-salem-bouhageb-fr, source/wikidata-salem-bouhageb]
+summary:
+  ar: "مصلح وفقيه وشاعر تونسي (1827–1924)، وُلد ببنبلة وتعلّم بجامع الزيتونة، ودرّس نحو سبعين عامًا بالزيتونة والخلدونية وكان من تلامذته بشير صفر وعبد العزيز الثعالبي ومحمد النخلي ومحمد الطاهر بن عاشور. عاون خير الدين باشا، وشارك في تأسيس بلدية تونس سنة 1857 والمدرسة الصادقية سنة 1875، وفي أعمال العهد الأساسي وقانون الالتزامات والعقود سنة 1906، وانتهى إلى خطة باش مفتي المالكية؛ وجدد مضامين خطبة الجمعة فعُدّ رائد الاجتهاد في تونس."
+  en: "Tunisian reformer, jurist and poet (1827–1924), born at Bembla and formed at the Zaytuna, who taught for some seventy years at the Zaytuna and the Khaldounia and numbered Béchir Sfar, Abdelaziz Thâalbi, Mohamed Nakhli and Mohamed Tahar Ben Achour among his students. A close collaborator of Kheireddine Pacha, he helped found the municipality of Tunis in 1857 and Sadiki College in 1875, worked on the application of the Fundamental Pact and on the 1906 Code of Obligations and Contracts, and ended his career as the country's chief Maliki mufti; the Friday sermons he renewed in content made him a pioneer of ijtihad in Tunisia."
+  ur: "تونسی مصلح، فقیہ اور شاعر (1827–1924)، جو بنبلة میں پیدا ہوئے اور جامع زیتونہ میں تعلیم پائی؛ تقریباً ستر سال زیتونہ اور خلدونیہ میں تدریس کی اور ان کے شاگردوں میں بشیر صفر، عبدالعزیز ثعلبی، محمد النخلی اور محمد طاہر بن عاشور شامل تھے۔ خیرالدین پاشا کے قریبی ساتھی کی حیثیت سے انہوں نے 1857ء میں تونس کی بلدیہ اور 1875ء میں صادقی کالج کے قیام میں حصہ لیا، عہدِ اساسی اور 1906ء کے قانونِ التزامات پر کام کیا، اور اپنے عہد کا اختتام ملک کے باش مفتیِ مالکیہ کے منصب پر کیا؛ انہوں نے جمعہ کے خطبوں کے مضامین کی تجدید کی اور تونس میں اجتہاد کے بانی سمجھے جاتے ہیں۔"
+sources:
+  - source/wikipedia-salem-bouhageb-fr
+  - source/wikipedia-salem-bouhageb-ar
+  - source/wikipedia-salem-bouhageb-en
+  - source/wikipedia-salem-bouhageb-ur
+  - source/wikidata-salem-bouhageb
+external_ids:
+  wikidata: Q3469691
+provenance:
+  layer: own-research
+  source: "French, Arabic, English and Urdu Wikipedia biographies of Salem Bouhageb (Q3469691) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the French article's page properties. Existence checks by name fragments (bouhageb, bouhadjeb, بوحاجب) and by QID across data/person on origin/main found no prior record for this man; his sons Khelil and Hassine Bouhageb, named in the biographies, have no records on main and no relation predicate is written for them here. His Maliki muftiate and shura headship are offices; see the faith note for the flagged settlement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-140
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
