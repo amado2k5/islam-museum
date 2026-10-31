@@ -1,0 +1,54 @@
+id: person/ymer-prizreni
+class: person
+label:
+  ar: "يمر بريزريني"
+  en: "Ymer Prizreni"
+  ur: "یمر پریزرینی"
+names:
+  - { value: "Ymer Prizreni", kind: full }
+  - { value: "Ymer Drini", kind: alternate }
+  - { value: "Müderris Haxhi Ymer Effendi Prizreni", kind: alternate }
+  - { value: "Ymer bey Prizreni", kind: alternate }
+gender: male
+born:
+  edtf: "1820"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Zgatar in Opojë, son of Müderris Sylejman Ali Nuhi, of a family of müderrises and landowners. The English biography gives c. 1820, the Albanian lead gives 1820/21 and the Polish biography 1820 or 1821 — hence debated. A bare Gregorian year spans two Hijri years (1820 falls across 1235–1236 AH), so no hijri key is carried. Zgatar and Prizren have no place entities on main, so the places are carried here."
+  sources: [source/wikipedia-ymer-prizreni-en, source/wikipedia-ymer-prizreni-sq, source/wikidata-ymer-prizreni]
+died:
+  edtf: "1887-06-12"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Ulcinj on 12 June 1887, where he had settled in exile after the League's suppression and where his tomb still stands; the English biography records that he was allegedly murdered and his archive stolen. The Hijri year 1304 is derived by conversion and is marked derived."
+  sources: [source/wikipedia-ymer-prizreni-en, source/wikipedia-ymer-prizreni-sq, source/wikidata-ymer-prizreni]
+roles: [scholar, teacher, politician]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. The Albanian biography's lead attests for the man himself that he was a member of the Naqshbandi tariqa ('anëtar i tarikatit Nakshbendi'), and the Polish biography's alias list styles him Sheh (sheikh) — but that is one encyclopedia attestation of an order membership, uncorroborated in the English biography, in Elsie as cited there, or in the structured data (Wikidata gives only Islam), so under the two-source rule the reading is preserved here unclassified. His müderris family, his own madrasa teaching and his mufti service are office, education and family background, which never count."
+    sources: [source/wikipedia-ymer-prizreni-sq, source/wikipedia-ymer-prizreni-en, source/wikidata-ymer-prizreni]
+relations: []
+summary:
+  ar: "عالم ألباني عثماني من زغاتار، عمل مدرّساً وخوجة، وترأّس رابطة بريزرن منذ عام 1879 وقاد حكومتها المؤقتة المستقلة عام 1881، ومات في أولسيني عام 1887."
+  en: "Ottoman-Albanian 'alim and hoxha from Zgatar who chaired the League of Prizren from 1879 and headed its Autonomous Provisional Government in 1881; he died at Ulcinj in 1887."
+  ur: "زغاتار سے تعلق رکھنے والے عثمانی البانوی عالم اور خوجہ، جنھوں نے 1879 سے لیگ آف پریزرن کی صدارت کی اور 1881 میں اس کی خودمختار عبوری حکومت کی سربراہی کی؛ 1887 میں اولتسینی میں وفات پائی۔"
+sources:
+  - source/wikipedia-ymer-prizreni-en
+  - source/wikipedia-ymer-prizreni-sq
+  - source/wikidata-ymer-prizreni
+external_ids:
+  wikidata: Q8054030
+provenance:
+  layer: own-research
+  source: "English and Albanian Wikipedia biographies of Ymer Prizreni (Q8054030) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the League of Prizren chairman (c. 1820–1887); the queue's years are confirmed, the birth as circa. Existence checks by name fragments (prizreni, ymer) and by QID across data/person on origin/main found no prior record. His father Sylejman Ali Nuhi and his wife Fatime Murat Aga have no person records, and chairmanship of the League is never a relation, so relations are empty. The Albanian article is reached by redirect from 'Ymer Prizreni' to 'Ymer efendi Prizreni' and is registered under its canonical title."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-127
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
