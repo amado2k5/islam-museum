@@ -1,0 +1,53 @@
+id: person/reshma
+class: person
+label:
+  ar: "ريشما"
+  en: "Reshma"
+  ur: "ریشماں"
+names:
+  - { value: "Reshma", kind: full }
+  - { value: "ریشماں", kind: full }
+gender: female
+born:
+  edtf: "1947"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born around 1947 at the village of Loha near Bikaner in Rajasthan: the English biography gives c. 1947 and Wikidata a year-precision 1947, while the Urdu biography's lead gives 1947 but its early-life text gives 1946, preserved here as a variant — hence debated. A bare Gregorian year spans two Hijri years (1947 falls across 1366–1367 AH), so no hijri key is carried. Neither Loha nor Karachi, where her family settled after Partition, has a place entity on main, so the places are carried here."
+  sources: [source/wikipedia-reshma-en, source/wikipedia-reshma-ur, source/wikidata-reshma]
+died:
+  edtf: "2013-11-03"
+  hijri: "1434"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 3 November 2013 in a Lahore hospital after years of throat cancer: the English and Urdu biographies and Wikidata agree on the day and the city. The Hijri year 1434 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-reshma-en, source/wikipedia-reshma-ur, source/wikidata-reshma]
+roles: [singer]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for her. Wikidata gives Islam (P140) only. The English biography records that she was born into a nomadic Banjara household whose tribe had converted to Islam, and some coverage describes her community of origin in Bishnoi terms — community origin and family background, which never count; and her lifelong singing at the shrines of Sindh and her Sufi repertoire are devotion and repertoire, which never count either. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-reshma-en, source/wikipedia-reshma-ur, source/wikidata-reshma]
+relations:
+  - { type: died_in, target: place/lahore, sources: [source/wikipedia-reshma-en, source/wikidata-reshma] }
+summary:
+  ar: "مغنية شعبية باكستانية (حوالي 1947–2013) وُلدت في راجستان وانتقلت أسرتها إلى كراتشي بعد التقسيم؛ اكتُشفت طفلةً وهي تغني عند مزار لال شهباز قلندر، فصارت بصوتها القوي من أشهر أصوات الغناء الشعبي في باكستان والهند بأغانٍ مثل «لال ميري» و«لمبي جدائي»، ونالت ستارة الامتياز (2008)."
+  en: "Pakistani folk singer (c. 1947–2013) born in Rajasthan, whose family moved to Karachi after Partition; discovered as a child singing at the shrine of Lal Shahbaz Qalandar, she became one of the most popular folk voices in Pakistan and India with songs such as Laal Meri and Lambi Judai, and received the Sitara-i-Imtiaz (2008) and the Pride of Performance (1982)."
+  ur: "پاکستانی لوک گلوکارہ (تقریباً 1947ء–2013ء) جو راجستھان میں پیدا ہوئیں اور جن کا خاندان تقسیم کے بعد کراچی آ گیا؛ لعل شہباز قلندر کے مزار پر گاتے ہوئے دریافت ہوئیں اور «لال میری» اور «لمبی جدائی» جیسے گیتوں سے پاکستان اور بھارت کی مقبول ترین لوک آوازوں میں شمار ہوئیں؛ انھیں ستارۂ امتیاز (2008ء) سے نوازا گیا۔"
+sources:
+  - source/wikipedia-reshma-en
+  - source/wikipedia-reshma-ur
+  - source/wikidata-reshma
+external_ids:
+  wikidata: Q3631241
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Reshma and the Wikidata item Q3631241, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties (the article is titled 'Reshma (singer)' because the plain title is a disambiguation page). Identity: the queue line's bearer is the Rajasthan-born Pakistani folk singer (c. 1947–2013) — not Reshma of Kashmir, the Tamil or Malayalam actresses of the same mononym, or any other Reshma. Existence checks by name fragments (reshma) and by QID across data/person on origin/main found no prior record. The queue's years (1947–2013) are confirmed, the birth at year precision only, with the Urdu biography's 1946 variant preserved in the birth note. Relations written: died_in Lahore only — Loha and Karachi have no place entities, and her shrine discovery and repertoire are never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,55 @@
+id: person/vilayat-khan
+class: person
+label:
+  ar: "ولايت خان"
+  en: "Vilayat Khan"
+  ur: "ولایت خان"
+names:
+  - { value: "Vilayat Khan", kind: full }
+  - { value: "ولايت خان", kind: full }
+  - { value: "ولایت خان", kind: full }
+  - { value: "ولایت حسین خان", kind: alternate }
+gender: male
+born:
+  edtf: "1928-08-28"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 28 August 1928 at Gouripur in Mymensingh, East Bengal (now Bangladesh): the English article's infobox and lead give the day, the Urdu article's categories give the year, and the obituaries the article cites agree. Wikidata carries a second birth value, 8 August 1928, preserved here as the variant; the record follows 28 August. Gouripur has no place entity, so no born_in edge is written. Ustad is a title of honour, not a name, and is kept out of the name entries. The Hijri year 1347 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-vilayat-khan-en, source/wikipedia-vilayat-khan-ur, source/wikidata-vilayat-khan]
+died:
+  edtf: "2004-03-13"
+  hijri: "1425"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 13 March 2004 at Mumbai, of lung cancer, aged 75: the English article and the obituaries it cites agree, and Wikidata agrees. Mumbai has no place entity, so no died_in edge is written (he spent much of his life in Calcutta, which likewise has no entity). The Hijri year 1425 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-vilayat-khan-en, source/wikidata-vilayat-khan]
+roles: [musician]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The structured-only configuration, the same settlement as his father's record (person/enayet-khan). The English article's text states no religion for him — it gives his family, the Imdadkhani (Etawah) gharana and his career — and files him in its 'Indian Muslims' category; the Urdu article likewise carries no religion statement. Wikidata carries a single religion value, Islam, and a single structured value never counts as an attestation; no source read names a school for the man himself. His family's gharana lineage — Rajput in origin, and his father kept a Hindu name alongside his Muslim one — is background, never attestation. Under the two-source rule the value stays unknown, with the structured value recorded here."
+    sources: [source/wikipedia-vilayat-khan-en, source/wikipedia-vilayat-khan-ur, source/wikidata-vilayat-khan]
+relations: []
+summary:
+  ar: "عازف سيتار هندي (1928–2004) من غرانة إمدادخاني (إيتاواه)، وُلد في غوريبور بالبنغال، ابن عنايت خان وحفيد إمداد خان؛ اشتهر بأسلوب «الغاياكي» الغنائي على السيتار، ووضع موسيقى فيلم «جلساغر» (1958) لساتياجيت راي، ورفض مرارا أرفع الأوسمة المدنية الهندية."
+  en: "Indian sitar maestro (1928–2004) of the Imdadkhani (Etawah) gharana, born at Gouripur in Bengal, son and heir of Enayat Khan and grandson of Imdad Khan; famed for the gayaki ang, a singing style on the sitar, he composed for Satyajit Ray's Jalsaghar (1958) and repeatedly refused India's Padma honours."
+  ur: "بھارتی ستار نواز (1928ء–2004ء) جن کا تعلق امداد خانی (اٹاوہ) گھرانے سے تھا؛ بنگال کے گوری پور میں پیدا ہوئے، عنایت خان کے بیٹے اور امداد خان کے پوتے؛ ستار پر گائیکی انگ کے لیے مشہور، ستیہ جیت رے کی فلم «جلسا گھر» (1958ء) کی موسیقی ترتیب دی اور بھارت کے بڑے شہری اعزازات قبول کرنے سے بار بار انکار کیا۔"
+sources:
+  - source/wikipedia-vilayat-khan-en
+  - source/wikipedia-vilayat-khan-ur
+  - source/wikidata-vilayat-khan
+external_ids:
+  wikidata: Q1395417
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Vilayat Khan and the Wikidata item Q1395417, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Gouripur-born sitarist of the Etawah gharana (1928–2004) — not Vilayat Inayat Khan, the Sufi teacher's son (person/vilayat-inayat-khan), and not the Agra gharana vocalist Vilayat Hussain Khan, whom the English article's hatnote distinguishes; the Urdu article titles our man 'استاد ولایت حسین خان', and that Urdu name form, honorific stripped, is carried as an alternate name, while the Latin string 'Vilayat Hussain Khan' is not carried, to avoid conflating the two men. Existence checks by name fragments (vilayat) and by QID across data/person on origin/main found no prior record for him. FAMILY LINK FOR MERGE: his father HOLDS a record — person/enayet-khan (Enayet Khan, Q5375263), whose own summary already names Vilayat and Imrat Khan as his sons — so a parent_of edge to person/vilayat-khan falls to be completed in the father's record at merge, on the wave-130 Amjad Ali Khan precedent; no relation is written in this file. His grandfather Imdad Khan, the sitarist and gharana founder, holds no person record. No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and this is stated here. Relations written: none."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-131
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

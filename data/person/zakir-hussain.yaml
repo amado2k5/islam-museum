@@ -1,0 +1,56 @@
+id: person/zakir-hussain
+class: person
+label:
+  ar: "ذاكر حسين"
+  en: "Zakir Hussain"
+  ur: "ذاکر حسین"
+names:
+  - { value: "Zakir Hussain Qureshi", kind: full }
+  - { value: "ذاكر حسين", kind: full }
+  - { value: "ذاکر حسین", kind: full }
+  - { value: "Zakir Hussain", kind: alternate }
+gender: male
+born:
+  edtf: "1951-03-09"
+  hijri: "1370"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 9 March 1951 at Bombay (now Mumbai), the eldest son of the tabla maestro Alla Rakha Qureshi: the English article, the Urdu article and Wikidata agree, and the Arabic article gives the same dates and city. Mumbai has no place entity, so no born_in edge is written. Ustad is a title of honour, not a name, and is kept out of the name entries. The Hijri year 1370 is a tabular conversion of the followed date, marked derived, and matches the Arabic article's birth-year category."
+  sources: [source/wikipedia-zakir-hussain-en, source/wikipedia-zakir-hussain-ar, source/wikipedia-zakir-hussain-ur, source/wikidata-zakir-hussain]
+died:
+  edtf: "2024-12-15"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 15 December 2024 at San Francisco, California, from complications of idiopathic pulmonary fibrosis, aged 73: the English article, the Urdu article and Wikidata agree. San Francisco has no place entity, so no died_in edge is written. The Hijri year 1446 is a tabular conversion of the followed date, marked derived. The queue listed him as living; he is not, and the correction is recorded here and in the provenance."
+  sources: [source/wikipedia-zakir-hussain-en, source/wikipedia-zakir-hussain-ur, source/wikidata-zakir-hussain]
+roles: [musician]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration: no source read names a school for him. The English, Arabic and Urdu articles carry no religion content for the man himself — they give his parentage, training, career and honours — and Wikidata carries no religion value for him at all. The articles file him in their 'Indian Muslims' categories, which is a filing, not an attestation; his descent from Alla Rakha and his family's Punjab gharana milieu are background. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-zakir-hussain-en, source/wikidata-zakir-hussain]
+relations: []
+summary:
+  ar: "عازف طبلة هندي (1951–2024)، الابن الأكبر لعلا ركها، وُلد في بومباي واستقر منذ أواخر الستينيات في منطقة خليج سان فرانسيسكو؛ من أبرز وجوه الموسيقى العالمية عبر فرقة «شاكتي» وتعاونه مع موسيقى الجاز والتقاليد الكلاسيكية، ونال بادما فيبوشان (2023) وثلاث جوائز غرامي سنة 2024."
+  en: "Indian tabla maestro (1951–2024), eldest son of Alla Rakha, born in Bombay and based from the late 1960s in the San Francisco Bay Area; a central figure of world music through Shakti and his collaborations across jazz and classical traditions, he received the Padma Vibhushan (2023) and won three Grammy Awards in 2024."
+  ur: "بھارتی طبلہ نواز (1951ء–2024ء)، علا رکھا کے بڑے بیٹے، بمبئی میں پیدا ہوئے اور ساٹھ کی دہائی کے آخر سے سان فرانسسکو بے ایریا میں مقیم رہے؛ «شکتی» اور جاز و کلاسیکی روایات کے ساتھ اشتراک کے ذریعے عالمی موسیقی کی نمایاں شخصیت، پدم وبھوشن (2023) اور 2024ء میں تین گرامی ایوارڈز کے حامل۔"
+sources:
+  - source/wikipedia-zakir-hussain-en
+  - source/wikipedia-zakir-hussain-ar
+  - source/wikipedia-zakir-hussain-ur
+  - source/wikidata-zakir-hussain
+external_ids:
+  wikidata: Q144719
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Zakir Hussain and the Wikidata item Q144719, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Bombay-born tabla maestro (1951–2024), eldest son of Alla Rakha — not Zakir Husain (1897–1969), the educationist and president of India who holds person/zakir-husain, and not Zakir Naik. QUEUE CORRECTION: the queue gave him as living; he died on 15 December 2024, so the record carries a died block and wings [people] only. Existence checks by name fragments (zakir, hussain) and by QID across data/person on origin/main found no prior record for him. His father Alla Rakha holds no person record, so no family link is reported for merge. Relations written: none — Mumbai and San Francisco have no place entities. HOMONYM RISK, flagged for the committer: his Arabic label ذاكر حسين and his Urdu label ذاکر حسین are character-for-character the labels of person/zakir-husain (the president), so a data/_homonyms.yaml namesakes entry [person/zakir-husain, person/zakir-hussain] is required, on the precedent of the enayet-khan/hazrat-inayat-khan pair, whose Arabic labels likewise coincide; the English labels differ (Husain/Hussain). Living-person care does not arise: he is deceased."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-131
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
