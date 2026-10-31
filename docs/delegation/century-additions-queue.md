@@ -716,11 +716,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Begum Akhtar — 1914–1974
 - [x] Mehdi Hassan — 1927–2012
 - [x] Ghulam Ali — 1940–Living
-- [ ] Reshma — 1947–2013
-- [ ] Alam Lohar — 1926–1979
-- [ ] Arif Lohar — 1966–Living
-- [ ] Atif Aslam — 1983–Living
-- [ ] Ali Zafar — 1980–Living
+- [x] Reshma — 1947–2013
+- [x] Alam Lohar — 1926–1979
+- [x] Arif Lohar — 1966–Living
+- [x] Atif Aslam — 1983–Living
+- [x] Ali Zafar — 1980–Living
 - [ ] Sajjad Ali — 1966–Living
 - [ ] Nazia Hassan — 1965–2000
 - [ ] Zoheb Hassan — 1966–Living
@@ -1625,11 +1625,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali-beg Firdus (1862–1910)
 - [~] Mustaj-beg Kapetanović (1860–1915)
 - [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
-- [ ] Ibrahim-beg Bašagić (1840–1902)
-- [ ] Hamdija Kreševljaković (1888–1959)
-- [ ] Husein Đozo (Elders) (1890–1940)
-- [ ] Šakir Sikirić (1893–1966)
-- [ ] Mustafa Busuladžić (1914–1945)
+- [x] Ibrahim-beg Bašagić (1840–1902)
+- [x] Hamdija Kreševljaković (1888–1959)
+- [~] Husein Đozo (Elders) (1890–1940)
+- [x] Šakir Sikirić (1893–1966)
+- [x] Mustafa Busuladžić (1914–1945)
 - [ ] Kosta Hörmann (Muslim Associates) (1850–1910)
 - [ ] Sheikh Youssef al-Nabhani (1849–1932)
 - [ ] Taqi al-Din al-Nabhani (Father) (1880–1940)
