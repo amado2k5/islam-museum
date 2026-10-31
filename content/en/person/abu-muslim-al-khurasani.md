@@ -25,3 +25,6 @@ After al-Saffah was proclaimed caliph, Abu Muslim stayed as governor in Khurasan
 
 ## Memory
 His memory stayed alive in the eastern provinces, and it gave rise for many years to political and religious agitation, as in the movement of al-Muqanna'. The article's bibliography includes al-Dinawari, al-Ya'qubi, al-Tabari, van Vloten, Wellhausen, R. N. Frye and S. Moscati. {cite:encyclopaedia-of-islam-2 vol. 1 p. 160}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports, introducing it with “they say”, that Abu Muslim was a slave of Isa and Ma'qil, sons of Idris al-Ijli, who raised him in their house and inclined to the Hashimites; when Yusuf ibn Umar imprisoned them at Wasit he served them in prison, where Sulayman ibn Kathir, Lahiz ibn Qurayz and Qahtaba ibn Shabib met him and were impressed. {cite:akhbar-tiwal-amir p. 337} {cite:akhbar-tiwal-amir p. 338} He gives, in Abu Muslim's own words, the story of his mother and his birth. {cite:akhbar-tiwal-amir p. 338} He then became the courier between the imam and his followers, and Ibrahim ibn Muhammad chose him to lead the da'wa in Khurasan. {cite:akhbar-tiwal-amir p. 338} {cite:akhbar-tiwal-amir p. 342} {cite:akhbar-tiwal-amir p. 343}

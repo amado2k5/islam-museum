@@ -21,3 +21,6 @@ al-Mas'udi relates that the people of Kufa wrote to al-Husayn, and that Ibn Abba
 The two sources differ on his age: fifty-five years, and it is also said nine. {cite:muruj-al-dhahab p. 60-61}
 
 This battle is the subject of differing positions among the various traditions. What is not set out here, namely the academic account and other perspectives, needs an additional source.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says al-Husayn was killed on Wednesday the tenth of al-Muharram, the day of Ashura, 61. {cite:tarikh-khalifa-umari-1985 p. 234} He attributes the killing to Shimr ibn Dhi al-Jawshan, with Umar ibn Sa'd commanding the army, and reports from Ibn al-Hanafiyya that seventeen of al-Husayn's family were killed with him. {cite:tarikh-khalifa-umari-1985 p. 235}

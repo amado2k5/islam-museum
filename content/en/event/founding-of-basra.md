@@ -17,3 +17,6 @@ Then Umar appointed Abu Musa governor of Basra and summoned al-Mughira to Medina
 
 ## The date
 This is disputed: 14 AH according to al-Mada'ini, and the spring of 16 AH according to Sayf. {cite:tabari-tarikh-abu-al-fadl j.3 p.590}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that Umar sent Utba ibn Ghazwan with two thousand men, who took al-Ubulla by force, the port for Oman, al-Bahrayn, Fars, India and China, and that Nafi' ibn al-Harith was the first to mark out a plot at Basra. {cite:akhbar-tiwal-amir p. 116} {cite:akhbar-tiwal-amir p. 117}

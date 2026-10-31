@@ -17,3 +17,6 @@ The Mu'ayyadiyya madrasa was completed in his days in 822 AH, and he appointed a
 
 ## Notes for researchers
 - The reports come from al-Suyuti and from Ibn Taghribirdi in the "Shadharat", and each judgement is attributed to its author.
+
+## In al-Sakhawi's al-Daw' al-Lami'
+[[person/al-sakhawi|Al-Sakhawi]] gives an entry for Shaykh al-Mahmudi, later al-Zahiri, al-Mu'ayyad Abu al-Nasr, Circassian by origin: born about 770, he came to Cairo aged twelve. {cite:daw-lami-jil-1992 3/308} He was captured by Timur's army at Aleppo and escaped, and reigned as sultan for eight years, five months and eight days. {cite:daw-lami-jil-1992 3/309} He died at the beginning of al-Muharram 824 according to Ibn Hajar, or on 9 al-Muharram according to al-Maqrizi, and was buried in the dome of his mosque. {cite:daw-lami-jil-1992 3/309} {cite:daw-lami-jil-1992 3/310} He built his mosque at Bab Zuwayla on the site of the Khizanat Shama'il prison, in fulfilment of a vow made when he was imprisoned there. {cite:daw-lami-jil-1992 3/309} {cite:daw-lami-jil-1992 3/310} Al-Sakhawi gives both Ibn Hajar's praise of him and al-Maqrizi's censure. {cite:daw-lami-jil-1992 3/310} {cite:daw-lami-jil-1992 3/311}

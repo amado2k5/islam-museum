@@ -15,3 +15,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## تاریخ
 عیسوی تاریخ (تقریباً اکتوبر 744ء) ہجری سے حساب کی گئی ہے۔ {cite:tarikh-khulafa-minhaj-1434 p.409}
+
+## خلیفہ بن خیاط کے ہاں
+[[person/khalifa-ibn-khayyat|خلیفہ بن خیاط]] کہتے ہیں کہ یزید بن ولید ذی الحجہ 126 کے ختم ہونے سے دس رات پہلے دمشق میں فوت ہوئے۔ {cite:tarikh-khalifa-umari-1985 p. 369}

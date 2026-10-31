@@ -30,3 +30,25 @@ Uthman ibn Affan, titled Dhu al-Nurayn, was the third caliph and an early conver
 
 ## For Scholars
 Abu Abd Allah Uthman ibn Affan (c. 47 BH – 35 AH / 576–656 CE), titled Dhu al-Nurayn (Possessor of the Two Lights), the third Rightly Guided Caliph (23–35 AH). An early convert who participated in both migrations to Abyssinia and Medina, he was famed for his immense philanthropic endowments, financing the Tabuk campaign, purchasing the well of Rumah for public use, and expanding the Prophet's Mosque. Elected caliph following the council appointed by Umar, his era saw major territorial expansions and the creation of the first Islamic navy. His crowning historical legacy remains the authoritative compilation and distribution of the standard Uthmanic codex of the Qur'an.
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 178–180}
+
+- **Mecca:** Ali ibn Adi ibn Rabi'a; then Khalid ibn al-As ibn Hisham al-Makhzumi (in office when Uthman was killed) {cite:tarikh-khalifa-umari-1985 p. 178}
+- **Medina:** [[person/zayd-ibn-thabit|Zayd ibn Thabit]] (his deputy when he went on Hajj) {cite:tarikh-khalifa-umari-1985 p. 178}
+- **Basra:** [[person/abu-musa-al-ashari|Abu Musa al-Ash'ari]] (confirmed for four years, then dismissed); then [[person/imran-ibn-husayn|Imran ibn Husayn]] (Abu Musa's deputy when he campaigned); then [[person/ziyad-ibn-abi-sufyan|Ziyad]] (sometimes Abu Musa's deputy; later Ibn Amir's deputy); then [[person/abd-allah-ibn-amir|Abd Allah ibn Amir ibn Kurayz]] (took office in 29 AH) {cite:tarikh-khalifa-umari-1985 p. 178}
+- **Kufa:** [[person/al-mughira-ibn-shuba|al-Mughira ibn Shu'ba]] (confirmed briefly, then dismissed); then [[person/saad-ibn-abi-waqqas|Sa'd ibn Malik]] (then dismissed); then [[person/al-walid-ibn-uqba|al-Walid ibn Uqba ibn Abi Mu'ayt]] (then dismissed); then [[person/said-ibn-al-as|Sa'id ibn al-As]] (expelled by the Kufans); then [[person/abu-musa-al-ashari|Abu Musa al-Ash'ari]] (installed by the Kufans and confirmed by Uthman) {cite:tarikh-khalifa-umari-1985 p. 178}
+- **Egypt:** [[person/amr-ibn-al-as|Amr ibn al-As]] (dismissed); then [[person/abdullah-ibn-sad-ibn-abi-sarh|Abd Allah ibn Sa'd ibn Abi Sarh]] (until Uthman was killed) {cite:tarikh-khalifa-umari-1985 p. 178}
+- **Syria:** [[person/muawiya-ibn-abi-sufyan|Mu'awiya ibn Abi Sufyan]] (confirmed; in (( )) in the edition: restored by the editor from later authors quoting Khalifa) {cite:tarikh-khalifa-umari-1985 p. 178}
+- **Khurasan:** [[person/qays-ibn-al-haytham|Qays ibn al-Haytham al-Sulami]] (Ibn Amir's deputy, 33 AH); then [[person/abdallah-ibn-khazim-al-sulami|Abd Allah ibn Khazim al-Sulami]] (killed Qarin; Ibn Amir confirmed him until Uthman was killed; in (( )) in the edition: restored by the editor from later authors quoting Khalifa) {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Sijistan:** [[person/al-rabi-ibn-ziyad-al-harithi|al-Rabi' ibn Ziyad al-Harithi]] (appointed by Ibn Amir); then Abd al-Rahman ibn Samura ibn Habib (33 AH) {cite:tarikh-khalifa-umari-1985 p. 180}
+- **Sind:** [[person/hakim-ibn-jabala|Hukaym ibn Jabala al-Abdi]] (went to Mukran and came back; Uthman sent no one after him) {cite:tarikh-khalifa-umari-1985 p. 180}
+- **Bahrayn:** [[person/abdallah-ibn-sawar|Abd Allah ibn Sawwar al-Abdi]] (sent by Ibn Amir); then [[person/marwan-ibn-al-hakam|Marwan ibn al-Hakam]] (also among his governors there) {cite:tarikh-khalifa-umari-1985 p. 180}
+- **Summer campaign:** Yazid ibn al-Hurr al-Absi; then Abd al-Rahman ibn Khalid ibn al-Walid (then dismissed); then Sufyan ibn Awf al-Ghamidi (with Junada ibn Abi Umayya as his deputy at sea); then Abd al-Rahman ibn Khalid ibn al-Walid (again after Sufyan died); then Ubayd Allah ibn Rabah {cite:tarikh-khalifa-umari-1985 p. 180}
+- **Police:** Abd Allah ibn Qunfudh (of Taym; Uthman was the first to appoint a police chief) {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Chamberlain:** [[person/humran-ibn-aban|Humran ibn Aban]] {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Treasury:** Abd Allah ibn Arqam (then asked to resign and was released) {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Secretary:** [[person/marwan-ibn-al-hakam|Marwan ibn al-Hakam]] {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Judgeship of Basra:** [[person/kab-ibn-suwar|Ka'b ibn Sur]] (later reappointed by Ibn Amir until killed at the Camel); then [[person/abu-musa-al-ashari|Abu Musa al-Ash'ari]] (ordered by Uthman to judge) {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Judgeship of Kufa:** [[person/shurayh-al-qadi|Shurayh]] (until Uthman was killed) {cite:tarikh-khalifa-umari-1985 p. 179}
+- **Judgeship of Yemen:** [[person/yala-ibn-umayya|Ya'la ibn Umayya]] (over San'a) {cite:tarikh-khalifa-umari-1985 p. 179}

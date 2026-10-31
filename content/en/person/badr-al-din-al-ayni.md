@@ -18,3 +18,6 @@ His life shows the relations of the scholarly class with the Mamluk sultans. He 
 
 ## A note on the date of death
 An earlier draft card gave his death as 1453. The Encyclopaedia's date, 4 Dhu l-Hijja 855 AH (28 December 1451), is the one kept here; the 1453 date is not checked against a primary account. {cite:encyclopaedia-of-islam-2 vol. 1 p. 839}
+
+## In al-Sakhawi's al-Daw' al-Lami'
+[[person/al-sakhawi|Al-Sakhawi]] gives an entry for Mahmud ibn Ahmad ibn Musa, Badr al-Din Abu Muhammad al-Ayni, of Aleppan origin, born at Aintab, of Cairo, the Hanafi: born at Aintab in Ramadan 762, according to his own hand. {cite:daw-lami-jil-1992 10/131} He became market inspector of Cairo in 801, was an intimate of al-Ashraf Barsbay, reading history to him in Turkish, and became Hanafi chief judge in Rabi' al-Akhir 829. {cite:daw-lami-jil-1992 10/132} His works include Umdat al-Qari and his history. {cite:daw-lami-jil-1992 10/133} He died on the eve of Tuesday 4 Dhu al-Hijja 855. {cite:daw-lami-jil-1992 10/133}
