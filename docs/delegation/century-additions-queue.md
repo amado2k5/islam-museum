@@ -751,16 +751,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
 - [x] Plestia Alaqad — 2001–Living
 - [x] Wael Al-Dahdouh — 1970–Living
-- [ ] Shireen Abu Akleh — 1971–2022
-- [ ] Ghada Karmi — 1939–Living
-- [ ] Ilan Pappé (Honored Historian) — 1954–Living
-- [ ] Walid Khalidi — 1925–Living
-- [ ] Rashid Khalidi — 1948–Living
-- [ ] Noura Erakat — 1980–Living
-- [ ] Mohammed El-Kurd — 1998–Living
-- [ ] Muna El-Kurd — 1998–Living
-- [ ] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
-- [ ] Mustapha Cherif — 1950–Living
+- [x] Shireen Abu Akleh — 1971–2022
+- [x] Ghada Karmi — 1939–Living
+- [x] Ilan Pappé (Honored Historian) — 1954–Living
+- [x] Walid Khalidi — 1925–Living
+- [x] Rashid Khalidi — 1948–Living
+- [x] Noura Erakat — 1980–Living
+- [x] Mohammed El-Kurd — 1998–Living
+- [x] Muna El-Kurd — 1998–Living
+- [~] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
+- [x] Mustapha Cherif — 1950–Living
 - [ ] Souleymane Bachir Diagne — 1955–Living
 - [ ] Ebrahim Moosa — 1957–Living
 - [ ] Omid Safi — 1970–Living
@@ -1661,16 +1661,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sir Salman bin Hamad Al Khalifa (1894–1961)
 - [x] Abdullah bin Isa Al Khalifa (1883–1966)
 - [x] Ibrahim Al-Arrayedh (Ancestors) (1908–2002)
-- [ ] Abu al-Qasim al-Shabi (1909–1934)
-- [ ] Muhammad al-Tahir ben Achour (1879–1973)
-- [ ] Mohamed Abdelaziz Bouattour (1825–1907)
-- [ ] M'hammed Chenik (1889–1976)
-- [ ] Ali Ben Ayed (1828–1890)
-- [ ] Cheikh Mohamed Ennakhli (1869–1924)
-- [ ] Mohamed Lasram (1858–1925)
-- [ ] Salem Bouhageb (1827–1924)
-- [ ] Hassan Hosni Abdel-Wahab (1884–1968)
-- [ ] Cheikh El Bechir Ben Mrad (1889–1977)
+- [x] Abu al-Qasim al-Shabi (1909–1934)
+- [x] Muhammad al-Tahir ben Achour (1879–1973)
+- [x] Mohamed Abdelaziz Bouattour (1825–1907)
+- [x] M'hammed Chenik (1889–1976)
+- [~] Ali Ben Ayed (1828–1890)
+- [x] Cheikh Mohamed Ennakhli (1869–1924)
+- [x] Mohamed Lasram (1858–1925)
+- [x] Salem Bouhageb (1827–1924)
+- [x] Hassan Hosni Abdel-Wahab (1884–1968)
+- [~] Cheikh El Bechir Ben Mrad (1889–1977)
 - [ ] Bchira Ben Mrad (1913–1993)
 - [ ] Tawhida Ben Cheikh (1909–2010)
 - [ ] Mohamed Douthe (1860–1920)

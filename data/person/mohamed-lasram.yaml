@@ -1,0 +1,53 @@
+id: person/mohamed-lasram
+class: person
+label:
+  ar: "محمد لصرم"
+  en: "Mohamed Lasram"
+  ur: "محمد لصرم"
+names:
+  - { value: "Mohamed Lasram", kind: full }
+  - { value: "محمد الأصرم", kind: alternate }
+  - { value: "Mohammed Lasram", kind: alternate }
+  - { value: "M'hamed Lasram", kind: alternate }
+gender: male
+born:
+  edtf: "1866"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1866 (French and Arabic biographies; Wikidata agrees). The queue line for this batch gave 1858, which no source read supports; 1866 is followed as a queue correction. The bare year spans the Hijri years 1282–1283, so no hijri value is recorded. Neither biography states a birthplace, so no born_in edge is written."
+  sources: [source/wikipedia-mohamed-lasram-fr, source/wikipedia-mohamed-lasram-ar, source/wikidata-mohamed-lasram]
+died:
+  edtf: "1925-03-03"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 3 March 1925 (French and Arabic biographies; Wikidata gives the same day). 3 March 1925 falls in 1343 AH. No death place is stated in the sources read, so no died_in edge is written."
+  sources: [source/wikipedia-mohamed-lasram-fr, source/wikipedia-mohamed-lasram-ar, source/wikidata-mohamed-lasram]
+roles: [politician, activist]
+regions: [maghreb]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or religious school for Lasram, and Wikidata carries no religion value for him. His Zaytuna and Sadiki schooling is education, and his Young Tunisians membership, his Khaldounia deanship and his forestry directorship are activism and offices; this is the absence configuration."
+    sources: [source/wikipedia-mohamed-lasram-fr, source/wikipedia-mohamed-lasram-ar, source/wikidata-mohamed-lasram]
+summary:
+  ar: "وطني تونسي (1866–1925)، من أعيان العاصمة المنحدرين من أعيان القيروان، ومن أسرة تولّى أبناؤها وزارة القلم منذ النصف الثاني من القرن الثامن عشر. تعلّم في الزيتونة والمدرسة الصادقية وأمضى عامين في فرنسا، وانضم إلى حركة الشباب التونسي وكتب في الصحف داعيًا إلى تعميم التعليم على الجنسين وحماية الأحباس ومشاركة التونسيين في الحياة السياسية، ودرّس بالمدرسة العلوية ثم ترأّس إدارة الغابات، وكان عميد جمعية الخلدونية بين 1900 و1909."
+  en: "Tunisian nationalist (1866–1925), a Tunis notable of Kairouan origin whose family had supplied Ministers of the Pen since the second half of the 18th century. Educated at the Zaytuna and Sadiki College and for two years in France, he joined the Young Tunisians movement and wrote in the press for the generalisation of education to both sexes, the protection of the habous endowments and Tunisian participation in political life; he taught at the Alaoui College, then headed the forestry administration, and was dean of the Khaldounia association from 1900 to 1909."
+  ur: "تونسی قوم پرست (1866–1925)، تونس کے ان ممتاز اعیان میں سے جن کا خاندان قیروان سے تھا اور اٹھارویں صدی کے نصفِ آخر سے وزیرِ قلم کے عہدے پر فائز رہتا آیا تھا۔ انہوں نے زیتونہ اور صادقی کالج میں تعلیم پائی اور دو سال فرانس میں گزارے؛ نوجوان تونسیوں کی تحریک میں شامل ہوئے اور اخبارات میں دونوں جنسوں کی تعلیم، اوقاف کے تحفظ اور تونسیوں کی سیاسی شرکت کی حمایت میں لکھا؛ علوی کالج میں تدریس کی، پھر محکمۂ جنگلات کے سربراہ بنے، اور 1900ء سے 1909ء تک خلدونیہ ایسوسی ایشن کے ڈین رہے۔"
+sources:
+  - source/wikipedia-mohamed-lasram-fr
+  - source/wikipedia-mohamed-lasram-ar
+  - source/wikidata-mohamed-lasram
+external_ids:
+  wikidata: Q3318659
+provenance:
+  layer: own-research
+  source: "French and Arabic Wikipedia biographies of Mohamed Lasram (Q3318659) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the French article's page properties. Existence checks by name fragments (lasram, asram, لصرم, الأصرم) and by QID across data/person on origin/main found no prior record for this man (ali-ibn-khasram is a different person). QUEUE CORRECTION: the queue gave his years as 1858–1925; both biographies and Wikidata give his birth year as 1866, and 1858 is attested nowhere, so the record is built at 1866–1925. His family, the Lasram dynasty of Ministers of the Pen, is background, never a relation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-140
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

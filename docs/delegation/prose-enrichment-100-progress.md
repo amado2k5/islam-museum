@@ -81,3 +81,4 @@ Unverified in batch 3:
 | 2026-10-31 | Devin (a–m) | batch 14: place, nuzhat-al-mushtaq-2002 | 25 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 2: place, nuzhat-al-mushtaq-2002 (shuzas, siqlaw, qawun, nyun-burk, qalimalaya, raghawlda) | 6 | 3 (place/qulari, place/suqusiya, place/niyast — reasons under Leads) | — |
 | 2026-10-31 | Claude (Haiku 5.5) | n–z batch 3: 25 place slugs (sila, tunin, tukha, sarwan, sayala, sindabur, zamin, nafzawa, tabas, naqawus, sharma, zaqa, sayumur, namna, nafta, raygha, qulari, thabun, tabna, zuzan, sawnu, qawun, uzayn, sadum, sabat) | 3 (place/tukha, place/zamin, place/tabna; place/qawun was already enriched in batch 2 and its summary is corrected here) | 21 (reasons under Leads) | — |
+| 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |
