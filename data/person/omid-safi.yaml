@@ -1,0 +1,44 @@
+id: person/omid-safi
+class: person
+label:
+  ar: "أوميد صافي"
+  en: "Omid Safi"
+  ur: "امید صافی"
+names:
+  - { value: "Omid Safi", kind: full }
+gender: male
+born:
+  edtf: "1970"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Jacksonville, Florida, in 1970: the year is Wikidata's structured value, matched by library catalogue authority headings ('Safi, Omid, 1970'), and the place is given by the English biography and by Wikidata. He was raised in Iran and migrated with his family from Tehran to the United States in 1985. A bare 1970 spans the Hijri years 1389–1390, so no Hijri year is recorded. Jacksonville has no place entity, so no born_in edge is written."
+  sources:
+    - source/wikipedia-safi-en
+    - source/wikidata-safi
+roles: [scholar, writer]
+regions: [americas-oceania, persia-central-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Islam is attested for Safi himself as documented practice, with no school named. The English biography presents him as a leader of the progressive Muslim movement in his own definition of it; his books (Memories of Muhammad, 2009; Radical Love, 2018) and his columns for On Being are first-person Muslim writing; and Wikidata's structured value gives Islam. His academic specialism is Sufism and his prose is steeped in the Sufi tradition, but studying and teaching Sufism is not initiation, and no source attests membership of an order for the man himself. The settlement is the documented-practice-without-a-school configuration, unknown."
+    sources:
+      - source/wikipedia-safi-en
+      - source/wikidata-safi
+summary:
+  ar: "عالم أمريكي من أصل إيراني في الدراسات الإسلامية (وُلد سنة 1970 في جاكسونفيل بفلوريدا)، أستاذ الدراسات الآسيوية والشرق أوسطية في جامعة ديوك ومدير سابق لمركز ديوك للدراسات الإسلامية. متخصص في التصوف، حرّر «مسلمون تقدميون» (2003) وكتب «ذكريات محمد» (2009) و«الحب الراديكالي» (2018)."
+  en: "Iranian-American scholar of Islam (born 1970 in Jacksonville, Florida), professor of Asian and Middle Eastern studies at Duke University and former director of the Duke Islamic Studies Center. A specialist in Sufism, he edited Progressive Muslims (2003) and wrote Memories of Muhammad (2009) and Radical Love (2018)."
+  ur: "ایرانی نژاد امریکی عالمِ اسلام (پیدائش 1970ء، جیکسن ویل، فلوریڈا)، ڈیوک یونیورسٹی میں ایشیائی و مشرق وسطیٰ مطالعات کے پروفیسر اور ڈیوک اسلامک اسٹڈیز سینٹر کے سابق ڈائریکٹر۔ تصوف کے ماہر؛ ان کی کتابوں میں «یادِ محمد» (2009ء) اور «محبتِ جارحانہ» (2018ء) شامل ہیں۔"
+sources:
+  - source/wikipedia-safi-en
+  - source/wikidata-safi
+external_ids:
+  wikidata: Q7090173
+provenance:
+  layer: own-research
+  source: "The English Wikipedia biography of Omid Safi and the Wikidata item Q7090173, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the Jacksonville-born Duke scholar of Sufism (born 1970), pinned by biography and QID. The queue's year is confirmed by the structured value and by library authority headings. Relations written: none — Jacksonville has no place entity. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-141
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
