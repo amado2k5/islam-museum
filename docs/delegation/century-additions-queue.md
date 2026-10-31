@@ -761,11 +761,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Muna El-Kurd — 1998–Living
 - [~] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
 - [x] Mustapha Cherif — 1950–Living
-- [ ] Souleymane Bachir Diagne — 1955–Living
-- [ ] Ebrahim Moosa — 1957–Living
-- [ ] Omid Safi — 1970–Living
-- [ ] Jonathan A.C. Brown — 1977–Living
-- [ ] Asadullah Yate — 1952–Living
+- [x] Souleymane Bachir Diagne — 1955–Living
+- [x] Ebrahim Moosa — 1957–Living
+- [x] Omid Safi — 1970–Living
+- [x] Jonathan A.C. Brown — 1977–Living
+- [x] Asadullah Yate — 1952–Living
 - [ ] Abdalhaqq Bewley — 1940–Living
 - [ ] Aisha Bewley — 1948–Living
 - [ ] M. A. S. Abdel Haleem — 1938–Living
