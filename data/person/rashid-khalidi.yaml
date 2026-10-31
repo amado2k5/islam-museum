@@ -1,0 +1,42 @@
+id: person/rashid-khalidi
+class: person
+label:
+  ar: "رشيد الخالدي"
+  en: "Rashid Khalidi"
+  ur: "رشید الخالدی"
+names:
+  - { value: "Rashid Ismail Khalidi", kind: full }
+  - { value: "رشيد إسماعيل الخالدي", kind: full }
+gender: male
+born:
+  edtf: "1948-11-18"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at New York City on 18 November 1948: the English biography gives the day, and Wikidata carries both a year-only value (1948) and the day value; the day value is followed. He is a son of Ismail Khalidi, a Palestinian official at the United Nations. New York City has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1368 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-rashid-khalidi-en, source/wikidata-rashid-khalidi]
+roles: [historian]
+regions: [levant-iraq, americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read attests a personal faith or school for Rashid Khalidi himself. Wikidata's structured religion value gives Islam only — a single structured family with no school — and the English biography names no religion for him; his seat on the advisory committee of the U.S. Interreligious Committee for Peace in the Middle East is an organisational affiliation, which never counts. The settlement is the Islam-only configuration, unknown."
+    sources: [source/wikipedia-rashid-khalidi-en, source/wikidata-rashid-khalidi]
+summary:
+  ar: "مؤرخ فلسطيني أمريكي (وُلد في نيويورك سنة 1948)، أستاذ كرسي إدوارد سعيد للدراسات العربية الحديثة في جامعة كولومبيا سابقاً، ومحرر «مجلة الدراسات الفلسطينية» (2002–2020). من كتبه «الهوية الفلسطينية» (1997) و«حرب المئة عام على فلسطين» (2020)."
+  en: "Palestinian-American historian (born 1948 in New York), Edward Said Professor Emeritus of Modern Arab Studies at Columbia University and editor of the Journal of Palestine Studies (2002–2020). His books include Palestinian Identity (1997) and The Hundred Years' War on Palestine (2020)."
+  ur: "فلسطینی نژاد امریکی مؤرخ (پیدائش 1948ء، نیویارک)، کولمبیا یونیورسٹی میں جدید عرب مطالعات کے ایڈورڈ سعید پروفیسر ایمریٹس اور «جرنل آف فلسطین اسٹڈیز» کے مدیر (2002–2020ء)۔ ان کی کتابوں میں «فلسطینی شناخت» (1997ء) اور «فلسطین پر سو سالہ جنگ» (2020ء) شامل ہیں۔"
+sources:
+  - source/wikipedia-rashid-khalidi-en
+  - source/wikidata-rashid-khalidi
+external_ids:
+  wikidata: Q1613920
+provenance:
+  layer: own-research
+  source: "The English Wikipedia biography of Rashid Khalidi and the Wikidata item Q1613920, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the New York-born Columbia historian (born 1948), pinned by biography and QID against the other Khalidi records on main. The queue's year is confirmed to the day. Relations written: none — his father Ismail Khalidi (Q6084746) has no person record on main, so no child_of edge could be written, and his kinship with Walid Khalidi is the family's wider Jerusalem kinship, for which the schema has no predicate (the wave-134 Raghib finding), so no edge joins the two records built in this wave. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-139
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

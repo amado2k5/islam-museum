@@ -751,11 +751,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
 - [x] Plestia Alaqad — 2001–Living
 - [x] Wael Al-Dahdouh — 1970–Living
-- [ ] Shireen Abu Akleh — 1971–2022
-- [ ] Ghada Karmi — 1939–Living
-- [ ] Ilan Pappé (Honored Historian) — 1954–Living
-- [ ] Walid Khalidi — 1925–Living
-- [ ] Rashid Khalidi — 1948–Living
+- [x] Shireen Abu Akleh — 1971–2022
+- [x] Ghada Karmi — 1939–Living
+- [x] Ilan Pappé (Honored Historian) — 1954–Living
+- [x] Walid Khalidi — 1925–Living
+- [x] Rashid Khalidi — 1948–Living
 - [ ] Noura Erakat — 1980–Living
 - [ ] Mohammed El-Kurd — 1998–Living
 - [ ] Muna El-Kurd — 1998–Living
