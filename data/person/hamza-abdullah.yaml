@@ -1,0 +1,45 @@
+id: person/hamza-abdullah
+class: person
+label:
+  ar: "حمزة عبد الله"
+  en: "Hamza Abdullah"
+  ur: "حمزہ عبد اللہ"
+names:
+  - { value: "Hamza Muhammad Abdullah", kind: full }
+  - { value: "حمزة عبد الله", kind: full }
+gender: male
+born:
+  edtf: "1983-08-20"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 20 August 1983 at Los Angeles: the English and Arabic articles and Wikidata agree on the day. Los Angeles has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1403 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-hamza-abdullah-en, source/wikipedia-hamza-abdullah-ar, source/wikidata-hamza-abdullah]
+roles: [athlete]
+regions: [americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Abdullah's Islam is documented practice: the English biography records that he was raised a devout Muslim in Southern California and that he and his younger brother Husain together took the 2012 NFL season off to perform the pilgrimage to Mecca, and Wikidata gives Islam; the Arabic stub adds nothing on religion. No source read names a school or tradition for him, so under the lane's rule the settlement stays unknown, unflagged, with the documented practice stated here."
+    sources: [source/wikipedia-hamza-abdullah-en, source/wikidata-hamza-abdullah]
+relations:
+  - { type: sibling_of, target: person/husain-abdullah, sources: [source/wikipedia-hamza-abdullah-en, source/wikipedia-husain-abdullah-en] }
+summary:
+  ar: "لاعب سلامة في كرة القدم الأمريكية (وُلد سنة 1983) من لوس أنجلوس، اختاره تامبا باي في درافت 2005 ولعب بعدها لدنفر وكليفلاند وأريزونا؛ نشأ مسلماً متديناً، وتخلّف مع أخيه الأصغر حسين عن موسم 2012 لأداء الحج."
+  en: "American football safety (born 1983) from Los Angeles, drafted by Tampa Bay in 2005 and later with Denver, Cleveland and Arizona; raised a devout Muslim, he sat out the 2012 season with his younger brother Husain to perform the Hajj."
+  ur: "امریکی فٹ بال سیفٹی (پیدائش 1983) جن کا تعلق لاس اینجلس سے ہے؛ 2005ء میں ٹامپا بے نے منتخب کیا اور بعد میں ڈینور، کلیولینڈ اور ایریزونا کے لیے کھیلے؛ چھوٹے بھائی حسین کے ساتھ 2012ء میں حج کے لیے سیزن چھوڑا۔"
+sources:
+  - source/wikipedia-hamza-abdullah-en
+  - source/wikipedia-hamza-abdullah-ar
+  - source/wikidata-hamza-abdullah
+external_ids:
+  wikidata: Q5646487
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Hamza Abdullah and the Wikidata item Q5646487, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Washington State safety born in Los Angeles in 1983, elder brother of Husain Abdullah — the fragments hamza and abdullah hit many records on main, and he was pinned by QID and biography; no prior record exists for him (person/hamza-yusuf is a different man, already paired in the homonyms file with another namesake), and his Arabic label حمزة عبد الله collides with no existing record's label, so no homonyms entry is required. The queue's year (1983, living) is confirmed to the day. Relations written: the symmetric sibling_of edge to his brother Husain, written once here in the elder brother's record as the batch brief directs; Los Angeles has no place entity. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
