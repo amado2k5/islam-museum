@@ -1,0 +1,54 @@
+id: person/sadhij-nassar
+class: person
+label:
+  ar: "ساذج نصار"
+  en: "Sadhij Nassar"
+  ur: "ساذج نصار"
+names:
+  - { value: "ساذج نصار", kind: full }
+  - { value: "Sadhij Nassar", kind: full }
+  - { value: "Sadhij Bahaa Nassar", kind: alternate }
+gender: female
+born:
+  edtf: "1900"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Haifa in 1900 (both biographies; Wikidata agrees). The bare year spans the Hijri years 1317–1318, so no hijri value is recorded."
+  sources: [source/wikipedia-sadhij-nassar-en, source/wikipedia-sadhij-nassar-ar, source/wikidata-sadhij-nassar]
+died:
+  edtf: "1970"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died at Damascus in 1970 and was buried there (Arabic biography; Wikidata's place of death agrees, and the English biography records that she moved to Damascus after a period in Lebanon). The bare year spans the Hijri years 1389–1390, so no hijri value is recorded."
+  sources: [source/wikipedia-sadhij-nassar-ar, source/wikipedia-sadhij-nassar-en, source/wikidata-sadhij-nassar]
+roles: [journalist, activist]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. The English biography opens by describing Nassar as 'born Baha'i': she was the granddaughter of Baha'u'llah, founder of the Baha'i faith, and the daughter of his son Mirza Badi'u'llah (both biographies; her father's Baha'i identity is the Arabic biography's wording). That attests her birth and upbringing inside the faith's founding family — family background, which never counts — and no source read attests an adult profession or practice of the Baha'i faith by Nassar herself, whose documented public life was secular nationalist journalism; Wikidata carries no religion value at all. Held unknown under the doubt rule: if a founder accepts birth into the faith on the English biography's wording as documentation, the settlement would be other/documented, the Baha'i tradition named in the note, since the schema has no Baha'i value."
+    sources: [source/wikipedia-sadhij-nassar-en, source/wikipedia-sadhij-nassar-ar, source/wikidata-sadhij-nassar]
+relations:
+  - { type: born_in, target: place/haifa, sources: [source/wikipedia-sadhij-nassar-en, source/wikipedia-sadhij-nassar-ar, source/wikidata-sadhij-nassar] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-sadhij-nassar-ar, source/wikidata-sadhij-nassar] }
+summary:
+  ar: "صحفية وناشطة فلسطينية من حيفا (1900–1970)، عملت مع زوجها نجيب نصار في جريدة الكرمل وأسّست فيها «صحيفة النساء» سنة 1926، وشاركت في تأسيس جمعية الاتحاد النسائي العربي بحيفا، وكانت أول فلسطينية تُعتقل سياسيًا في عهد الانتداب البريطاني، إذ احتُجزت أحد عشر شهرًا في بيت لحم سنة 1939؛ وبعد نكبة 1948 عاشت في لبنان ثم دمشق حيث توفيت."
+  en: "Palestinian journalist and activist from Haifa (1900–1970). She worked with her husband Najib Nassar on the newspaper al-Karmil, founding its Women's Section in 1926, co-founded the Arab Women's Union in Haifa, and was the first Palestinian woman taken as a political prisoner under the British Mandate, held for eleven months in Bethlehem in 1939; after the Nakba of 1948 she lived in Lebanon and then Damascus, where she died."
+  ur: "حیفہ سے تعلق رکھنے والی فلسطینی صحافی اور کارکن (1900–1970)۔ انہوں نے اپنے شوہر نجیب نصار کے ساتھ اخبار الکرمل میں کام کیا، 1926ء میں اس کا خواتین کا صفحہ قائم کیا، حیفہ میں عرب خواتین یونین کی تاسیس میں حصہ لیا، اور برطانوی انتداب کے دور میں سیاسی قیدی بننے والی پہلی فلسطینی خاتون بنیں؛ 1939ء میں انہیں گیارہ ماہ بیت لحم میں قید رکھا گیا؛ 1948ء کے نکبہ کے بعد وہ لبنان اور پھر دمشق میں رہیں جہاں ان کا انتقال ہوا۔"
+sources:
+  - source/wikipedia-sadhij-nassar-en
+  - source/wikipedia-sadhij-nassar-ar
+  - source/wikidata-sadhij-nassar
+external_ids:
+  wikidata: Q116698495
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Sadhij Nassar (Q116698495) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the English article's page properties. Existence checks by name fragments (nassar, sadhij) and by QID across data/person on origin/main found no prior record for this woman. Her husband Najib Nassar (Q6959985) and her father Mirza Badi'u'llah (Q30071699) have no records on main, so no spouse or parent edge is written. Her marriage, her son and her schooling at the Sisters of Nazareth school are life facts, not affiliation evidence, and play no part in the faith settlement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-136
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

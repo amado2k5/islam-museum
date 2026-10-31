@@ -1,0 +1,45 @@
+id: person/mehmet-okur
+class: person
+label:
+  ar: "محمد أوكور"
+  en: "Mehmet Okur"
+  ur: "محمد اوکور"
+names:
+  - { value: "Mehmet Murat Okur", kind: full }
+  - { value: "Mehmet Okur", kind: alternate }
+  - { value: "محمد أوكور", kind: full }
+gender: male
+born:
+  edtf: "1979-05-26"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 26 May 1979 at Yalova, Turkey: the English, Turkish and Arabic articles and Wikidata agree on the day and the town. Yalova has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1399 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-mehmet-okur-en, source/wikipedia-mehmet-okur-tr, source/wikidata-mehmet-okur]
+roles: [basketball player, coach]
+regions: [anatolia-balkans, americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration. The English, Turkish and Arabic biographies contain no religion content, and targeted press searching in this session found no statement by Okur about his own faith and no reporting of his practice. Wikidata's religion (P140) value is Islam — one structured family, uncorroborated in any text read — which on its own does not settle a value; his Turkish birth and name were expressly not treated as evidence. The settlement therefore stays unknown, unflagged."
+    sources: [source/wikipedia-mehmet-okur-en, source/wikipedia-mehmet-okur-tr, source/wikipedia-mehmet-okur-ar, source/wikidata-mehmet-okur]
+summary:
+  ar: "لاعب كرة سلة تركي سابق ومدرب (وُلد سنة 1979 في يالوفا)، أول لاعب تركي يفوز ببطولة NBA (مع ديترويت بيستونز سنة 2004)، وأمضى سبعة مواسم مع يوتا جاز، ثم صار سنة 2016 أول مواطن تركي يعمل مدرباً في NBA."
+  en: "Turkish former basketball player and coach (born 1979 at Yalova), the first Turkish player to win an NBA championship (with the Detroit Pistons in 2004); he played seven seasons for the Utah Jazz and in 2016 became the first Turkish citizen to coach in the NBA."
+  ur: "ترک سابق باسکٹ بال کھلاڑی اور کوچ (پیدائش 1979، یالووا)؛ NBA چیمپئن شپ جیتنے والے پہلے ترک کھلاڑی (ڈیٹرائٹ پسٹنز، 2004)؛ یوٹا جاز کے ساتھ سات سیزن کھیلے اور 2016 میں NBA میں کوچنگ کرنے والے پہلے ترک شہری بنے۔"
+sources:
+  - source/wikipedia-mehmet-okur-en
+  - source/wikipedia-mehmet-okur-tr
+  - source/wikipedia-mehmet-okur-ar
+  - source/wikidata-mehmet-okur
+external_ids:
+  wikidata: Q317045
+provenance:
+  layer: own-research
+  source: "The English, Turkish and Arabic Wikipedia biographies of Mehmet Okur and the Wikidata item Q317045, all read in full, together with targeted press searching for any statement of his faith; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query (both 2539211527); the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Yalova-born centre, the first Turkish NBA champion. Existence was checked by QID and by name fragments (Okur) against every person record on origin/main and no prior record or Arabic-label collision exists, so no homonyms entry is required. The queue's year (1979, living) is confirmed to the day. Relations written: none — Yalova has no place entity. Regions follow his Turkish formation and his Turkish-and-NBA career and American coaching years. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-137
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
