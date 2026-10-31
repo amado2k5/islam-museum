@@ -15,6 +15,17 @@ periods:
 - period/rashidun
 regions:
 - egypt-nile
+date:
+  start:
+    hijri: '0019'
+    edtf: '0640~'
+    calendar: julian
+    precision: year
+    status: debated
+    derived: true
+    note: 'ابن عبد الحكم لا يؤرخ هذا الحدث بسنة؛ السنة مستنتجة من سياق الكتاب: قدوم عمرو العريش يوم الأضحى في مسيره سنة ثماني عشرة (ص 80، 85) وفتح الإسكندرية لمستهل المحرم سنة عشرين بعد حصار أربعة عشر شهراً (ص 117)، فالحدث بينهما. التحويل مشتق.'
+    sources:
+    - source/futuh-misr-amir-1999
 relations:
 - type: part_of
   target: event/conquest-of-egypt

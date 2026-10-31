@@ -17,16 +17,15 @@ regions:
 - egypt-nile
 date:
   start:
-    edtf: 0640-05
+    hijri: '0019'
+    edtf: '0640~'
+    calendar: julian
     precision: year
-    status: tradition
+    status: debated
     derived: true
-    note: 'ابن عبد الحكم لا يؤرخ الحصار بسنة؛ يذكر المدة فقط: سبعة أشهر (عثمان بن صالح عن ابن وهب عن الليث) أو شهراً (خالد بن يزيد عن جماعة من التابعين)، فتوح مصر ص 95. التاريخ الميلادي من بطاقة ويكي بيانات الأولى.'
-  end:
-    edtf: '0640-12-01'
-    precision: year
-    status: tradition
-    derived: true
+    note: 'ابن عبد الحكم لا يؤرخ هذا الحدث بسنة؛ السنة مستنتجة من سياق الكتاب: قدوم عمرو العريش يوم الأضحى في مسيره سنة ثماني عشرة (ص 80، 85) وفتح الإسكندرية لمستهل المحرم سنة عشرين بعد حصار أربعة عشر شهراً (ص 117)، فالحدث بينهما. التحويل مشتق.'
+    sources:
+    - source/futuh-misr-amir-1999
 sides:
 - label:
     ar: المسلمون
@@ -67,7 +66,7 @@ provenance:
 status:
   review: published
   completeness: 3
-  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.); the Gregorian dates are kept from the Wikidata card
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.); year inferred from the book's sequence
 relations:
 - type: part_of
   target: event/conquest-of-egypt

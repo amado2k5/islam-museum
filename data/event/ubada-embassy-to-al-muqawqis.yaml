@@ -15,9 +15,20 @@ periods:
 - period/rashidun
 regions:
 - egypt-nile
+date:
+  start:
+    hijri: '0019'
+    edtf: '0640~'
+    calendar: julian
+    precision: year
+    status: debated
+    derived: true
+    note: 'ابن عبد الحكم لا يؤرخ هذا الحدث بسنة؛ السنة مستنتجة من سياق الكتاب: قدوم عمرو العريش يوم الأضحى في مسيره سنة ثماني عشرة (ص 80، 85) وفتح الإسكندرية لمستهل المحرم سنة عشرين بعد حصار أربعة عشر شهراً (ص 117)، فالحدث بينهما. التحويل مشتق.'
+    sources:
+    - source/futuh-misr-amir-1999
 relations:
 - type: part_of
-  target: event/siege-of-babylon-fortress-640
+  target: event/conquest-of-egypt
   sources:
   - source/futuh-misr-amir-1999
 - type: had_participant
@@ -33,6 +44,10 @@ relations:
 - type: had_participant
   target: person/amr-ibn-al-as
   role: باعث الوفد
+  sources:
+  - source/futuh-misr-amir-1999
+- type: related_to
+  target: event/siege-of-babylon-fortress-640
   sources:
   - source/futuh-misr-amir-1999
 sources: &id001
