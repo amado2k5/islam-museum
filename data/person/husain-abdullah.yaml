@@ -1,0 +1,43 @@
+id: person/husain-abdullah
+class: person
+label:
+  ar: "حسين عبدالله"
+  en: "Husain Abdullah"
+  ur: "حسین عبداللہ"
+names:
+  - { value: "Husain Ibn Muhammed Abdullah", kind: full }
+  - { value: "حسين عبدالله", kind: full }
+gender: male
+born:
+  edtf: "1985-07-27"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 27 July 1985 at Los Angeles: the English article and Wikidata agree on the day. Los Angeles has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1405 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-husain-abdullah-en, source/wikidata-husain-abdullah]
+roles: [athlete]
+regions: [americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Abdullah's Islam is documented practice, extensively and in his own career record: the English biography calls him a practising Muslim who fasted Ramadan even during the season, records that he sat out the 2012 season to perform the Hajj with his brother Hamza, and that his 2014 touchdown prostration drew a penalty the NFL admitted the next day was wrongly assessed; Sports Illustrated's report of 30 September 2014 independently calls him a devout Muslim and records the Hajj and the fast, and Wikidata gives Islam. No source read names a school or tradition for him, so under the lane's rule the settlement stays unknown, unflagged, with the documented practice stated here."
+    sources: [source/wikipedia-husain-abdullah-en, source/sports-illustrated-abdullah-2014, source/wikidata-husain-abdullah]
+summary:
+  ar: "لاعب سلامة في كرة القدم الأمريكية (وُلد سنة 1985) من لوس أنجلوس، لعب سبعة مواسم في NFL مع مينيسوتا وكانساس سيتي؛ مسلم ملتزم صام رمضان أثناء الموسم، وتخلّف عن موسم 2012 لأداء الحج مع أخيه حمزة، واعتزل سنة 2016 بعد خمس إصابات ارتجاج."
+  en: "American football safety (born 1985) from Los Angeles who played seven NFL seasons with Minnesota and Kansas City; a practising Muslim who fasted Ramadan in season, sat out 2012 to perform the Hajj with his brother Hamza, and retired in 2016 after five concussions."
+  ur: "امریکی فٹ بال سیفٹی (پیدائش 1985) جن کا تعلق لاس اینجلس سے ہے؛ مینیسوٹا اور کنساس سٹی کے ساتھ NFL کے سات سیزن کھیلے، موسم کے دوران رمضان کے روزے رکھے، 2012ء میں بھائی حمزہ کے ساتھ حج کے لیے سیزن چھوڑا، اور 2016ء میں ریٹائر ہوئے۔"
+sources:
+  - source/wikipedia-husain-abdullah-en
+  - source/wikidata-husain-abdullah
+  - source/sports-illustrated-abdullah-2014
+external_ids:
+  wikidata: Q1638808
+provenance:
+  layer: own-research
+  source: "The English Wikipedia biography of Husain Abdullah, the Wikidata item Q1638808 and Sports Illustrated's report of 30 September 2014, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Washington State safety born in Los Angeles in 1985, younger brother of Hamza Abdullah — the name fragments abdullah and husain hit many records on main, and he was pinned by QID and biography; no prior record exists for him, and his Arabic label حسين عبدالله collides with no existing record's label, so no homonyms entry is required. The queue's year (1985, living) is confirmed to the day. Relations written: none here — the sibling edge is written once, in his elder brother Hamza's record, per the predicates schema; Los Angeles has no place entity. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

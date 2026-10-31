@@ -1,0 +1,44 @@
+id: person/kyrie-irving
+class: person
+label:
+  ar: "كايري إيرفينغ"
+  en: "Kyrie Irving"
+  ur: "کائری ارونگ"
+names:
+  - { value: "Kyrie Andrew Irving", kind: full }
+  - { value: "كايري إيرفينغ", kind: full }
+gender: male
+born:
+  edtf: "1992-03-23"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 March 1992 at Melbourne, Australia: the English and Arabic articles and Wikidata agree on the day. Melbourne has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1412 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-kyrie-irving-en, source/wikipedia-kyrie-irving-ar, source/wikidata-kyrie-irving]
+roles: [basketball player]
+regions: [americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Irving's Islam is documented in his own words: at a postgame press conference on 23 April 2021 he said, 'being part of the Muslim community, being committed to Islam', and described taking part in Ramadan 'with a lot of my Muslim brothers and sisters' (quoted at length by Andscape, 27 April 2021); he has fasted Ramadan in season since. No source read names a school or tradition for him — Wikidata's religion values, which include Islam among several, are one structured family — and speculation about movements or organisations around him is affiliation talk, not attestation. Under the lane's rule the settlement stays unknown, unflagged, with the documented commitment stated here."
+    sources: [source/andscape-irving-conversion-2021, source/wikipedia-kyrie-irving-en, source/wikidata-kyrie-irving]
+summary:
+  ar: "لاعب كرة سلة أمريكي (وُلد سنة 1992) وُلد في ملبورن بأستراليا ونشأ في نيوجيرسي، الاختيار الأول في درافت 2011 وبطل NBA سنة 2016 مع كليفلاند؛ أعلن سنة 2021 التزامه بالإسلام وصام رمضان أثناء الموسم."
+  en: "American basketball guard (born 1992) born in Melbourne, Australia, and raised in New Jersey, the first overall pick of 2011 and a 2016 NBA champion with Cleveland; in 2021 he stated his commitment to Islam and has fasted Ramadan in season since."
+  ur: "امریکی باسکٹ بال کھلاڑی (پیدائش 1992) جو میلبورن، آسٹریلیا میں پیدا ہوئے اور نیو جرسی میں پلے بڑھے؛ 2011ء کے پہلے ڈرافٹ انتخاب اور کلیولینڈ کے ساتھ 2016ء کے NBA چیمپئن؛ 2021ء میں انہوں نے اسلام سے اپنی وابستگی کا اعلان کیا اور تب سے سیزن کے دوران رمضان کے روزے رکھتے ہیں۔"
+sources:
+  - source/wikipedia-kyrie-irving-en
+  - source/wikipedia-kyrie-irving-ar
+  - source/wikidata-kyrie-irving
+  - source/andscape-irving-conversion-2021
+external_ids:
+  wikidata: Q348618
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Kyrie Irving, the Wikidata item Q348618 and Andscape's essay of 27 April 2021, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Melbourne-born Duke guard picked first overall in 2011; existence was checked by QID and by name fragments against every person record on origin/main and no prior record or Arabic-label collision exists, so no homonyms entry is required. The queue's year (1992, living) is confirmed to the day. Relations written: none — Melbourne has no place entity. Living-person care: only well-sourced public facts are recorded; contested episodes of his career are omitted, and the faith entry rests on his own published words, which name Islam and no school."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-136
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
