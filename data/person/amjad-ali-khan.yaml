@@ -1,0 +1,43 @@
+id: person/amjad-ali-khan
+class: person
+label:
+  ar: "أمجد علي خان"
+  en: "Amjad Ali Khan"
+  ur: "امجد علی خان"
+names:
+  - { value: "Amjad Ali Khan", kind: full }
+gender: male
+born:
+  edtf: "1945-10-09"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 9 October 1945 at Gwalior: the English article and Wikidata give the day; the Arabic article agrees on Gwalior in October 1945. Gwalior has no place entity, so no born_in edge is written. The Hijri year 1364 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-amjad-ali-khan-en, source/wikipedia-amjad-ali-khan-ar, source/wikidata-amjad-ali-khan]
+roles: [musician]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration: no source read names a school for him — the English and Arabic biographies carry no religion content for the man himself, and Wikidata gives only Islam. His descent in the Bangash line of sarod players and his family's Muslim court-musician milieu in Gwalior are background and were not counted."
+    sources: [source/wikipedia-amjad-ali-khan-en, source/wikipedia-amjad-ali-khan-ar, source/wikidata-amjad-ali-khan]
+relations: []
+summary:
+  ar: "عازف سرود هندي (وُلد سنة 1945) في غواليور، ابن عازف السرود حافظ علي خان وتلميذه، من سلالة بانغاش الموسيقية المنحدرة من بلاط أكبر؛ قدّم أول حفل منفرد في السادسة، وانتقل مع أسرته إلى دلهي (1957)، ونال بادما شري (1975) وبادما بوشان (1991) وبادما فيبوشان (2001)."
+  en: "Indian sarod maestro (born 1945) at Gwalior, son and pupil of the sarod player Hafiz Ali Khan and heir to the Bangash line of sarod players descending from Akbar's court; he gave his first solo concert at six, moved with his family to Delhi in 1957, and received the Padma Shri (1975), Padma Bhushan (1991) and Padma Vibhushan (2001)."
+  ur: "بھارتی سرود نواز (پیدائش 1945) جو گوالیار میں پیدا ہوئے، سرود نواز حافظ علی خان کے بیٹے اور شاگرد اور اکبر کے دربار سے چلی آنے والی بنگش موسیقار نسل کے وارث ہیں؛ چھ برس کی عمر میں پہلا انفرادی کنسرٹ دیا، 1957 میں خاندان کے ساتھ دہلی آ گئے اور پدم شری (1975)، پدم بھوشن (1991) اور پدم وبھوشن (2001) سے نوازے گئے۔"
+sources:
+  - source/wikipedia-amjad-ali-khan-en
+  - source/wikipedia-amjad-ali-khan-ar
+  - source/wikidata-amjad-ali-khan
+external_ids:
+  wikidata: Q2748525
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Amjad Ali Khan and the Wikidata item Q2748525, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, the QID was grounded through the English article's page properties, and the item's sitelinks confirm there is no Urdu article for him (the Urdu title in his name resolves to a different man, Q124693433, and was not used). Identity: the queue line's bearer is the Gwalior-born sarod maestro (born 1945) — not Syed Amjad Ali, Qazi Mian Muhammad Amjad or any other Amjad holding a record. Existence checks by name fragments (amjad) and by QID across data/person on origin/main found no prior record for him. The queue's year (1945, living) is confirmed to the day. Relations written: none in his file — Gwalior has no place entity; his father Hafiz Ali Khan the sarod player (1888–1972) HOLDS a record on origin/main (person/hafiz-ali-khan, Q5638364 — a different man from the Albanian scholar Hafiz Ali Korça built in wave 129), and the parent_of edge to this record is reported for completion in the father's record at merge. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-130
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
