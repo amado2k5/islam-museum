@@ -140,6 +140,11 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
   <div class="reading-progress" aria-hidden="true"><span></span></div>
   <article id="entity-article" data-depth="standard" data-pagefind-body={n.class !== "passage" || undefined}>
     <PageHeader title={title} crumbs={crumbs} crumbsLabel={T.entity.breadcrumb} wing={wingChips[0]} titleAttrs={{ "data-pagefind-meta": "title" }}>
+      {wingChips.length > 1 && (
+        <p class="ui" style="margin:0 0 10px">{wingChips.map((w, k) => (
+          <>{k > 0 ? " " : ""}<a class="chip" href={wingHref(lang, w as any)}>{T.nav[w]}</a></>
+        ))}</p>
+      )}
       {workAuthors.length > 0 && (
         <p class="ui" style="margin:0 0 10px">{T.entity.by} {workAuthors.map((a, k) => (
           <>{k > 0 && (lang === "en" ? ", " : "، ")}<a class={isShiaAuthor(a) ? "chip author-chip shia" : "chip"} href={href(lang, a.id)}>{labelOf(a, lang)}{isShiaAuthor(a) && <> <span class="sect">{T.entity.shia_label}</span></>}</a></>

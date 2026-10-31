@@ -1,0 +1,38 @@
+id: person/busenaz-surmeneli
+class: person
+label: { ar: "بوسة ناز سورمنيلي", en: "Busenaz Sürmeneli", ur: "بوسے ناز سورمنیلی" }
+names:
+  - { value: "Busenaz Sürmeneli", kind: full }
+  - { value: "بوسة ناز سورمنيلي", kind: full }
+gender: female
+summary:
+  ar: "ملاكمة تركية وُلدت في بورصة سنة 1998 ونشأت في طرابزون. فازت بذهبية وزن الويلتر في أولمبياد طوكيو 2020، وهي أول ميدالية أولمبية في تاريخ الملاكمة التركية، وبطلة عالم ثلاث مرات (2019 و2022 و2025) وبطلة أوروبا سنة 2024، وتنافس باسم نادي فنربخشة."
+  en: "Turkish boxer born in Bursa in 1998 and raised in Trabzon. She won the welterweight gold medal at the Tokyo 2020 Olympics — the first Olympic boxing medal in Turkey's history — and is a three-time world champion (2019, 2022, 2025) and the 2024 European champion, competing for Fenerbahçe."
+  ur: "ترک خاتون باکسر جو 1998 میں بورصہ میں پیدا ہوئیں اور طرابزون میں پلی بڑھیں۔ انہوں نے ٹوکیو 2020 میں ویلٹر ویٹ طلائی تمغہ جیتا — ترکی کی تاریخ کا پہلا اولمپک باکسنگ تمغہ — اور وہ تین بار عالمی چیمپئن (2019، 2022، 2025) اور 2024 کی یورپی چیمپئن ہیں۔"
+roles: [boxer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1998-05-26"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Bursa in 1998; the day is contested across the sources. The English and Turkish infoboxes both give 26 May 1998, which the record follows; Wikidata, the Turkish lead and the Arabic article give 25 June 1998, and the English article's personal-life section gives 25 May 1998. The Hijri year 1419 (1 Safar 1419 for 26 May) is the tabular conversion and covers both candidate months; it is marked derived."
+  sources: [source/wikipedia-busenaz-surmeneli-en, source/wikipedia-busenaz-surmeneli-tr, source/wikipedia-busenaz-surmeneli-ar, source/wikidata-busenaz-surmeneli]
+relations:
+  - { type: born_in, target: place/bursa, sources: [source/wikipedia-busenaz-surmeneli-en, source/wikidata-busenaz-surmeneli] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Turkish or Arabic articles names a religion for her, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-busenaz-surmeneli-en, source/wikipedia-busenaz-surmeneli-tr, source/wikipedia-busenaz-surmeneli-ar, source/wikidata-busenaz-surmeneli]
+external_ids: { wikidata: "Q70720436" }
+sources: [source/wikipedia-busenaz-surmeneli-en, source/wikipedia-busenaz-surmeneli-tr, source/wikipedia-busenaz-surmeneli-ar, source/wikidata-busenaz-surmeneli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378697906), Turkish Wikipedia (revision 38206819), Arabic Wikipedia (revision 76253276) and Wikidata Q70720436 (item revision 2514073420, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

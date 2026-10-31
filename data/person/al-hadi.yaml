@@ -1,5 +1,6 @@
 id: person/al-hadi
 class: person
+aliases: [person/al-hadi-musa]   # merged from the al-Baladhuri/al-Suyuti/al-Mas'udi record (now sections); the id still resolves
 label:
   ar: "موسى الهادي"
   en: "al-Hadi (Musa)"
@@ -13,7 +14,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir]
+sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/tarikh-khalifa-umari-1985, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
 external_ids:
   wikidata: Q293490
 provenance:
@@ -21,7 +22,7 @@ provenance:
   source: "Wikidata Q293490 (religion claim Islam); book sources: al-Suyuti, Tarikh al-Khulafa and Ibn al-Athir, al-Kamil — entries not yet read on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-0006
+  run: wikidata-import-0006, lib-tarikh-khalifa-batch-2-2026-10-31
 status:
-  review: draft
+  review: published
   completeness: 1

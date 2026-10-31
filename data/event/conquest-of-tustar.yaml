@@ -1,5 +1,6 @@
 id: event/conquest-of-tustar
 class: event
+aliases: [event/siege-of-tustar, event/fall-of-tustar]   # merged from the al-Baladhuri siege record (now a section); the id still resolves
 kind: conquest
 label: { ar: "فتح تستر وأسر الهرمزان", en: "Conquest of Tustar and the capture of al-Hurmuzan" }
 date:
@@ -7,7 +8,14 @@ date:
 summary:
   ar: "فتح تستر وأسر الهرمزان: كان سببها أن يزدجرد وهو بمرو ظل يثير أهل فارس أسفًا على ما خرج من ملكهم فتحركوا وتكاتبوا هم وأهل الأهواز وتعاقدوا على النصرة، فكتب عمر إلى سعد أن ابعث إلى الأهواز جندًا كثيفًا مع النعمان بن مقرّن وعجّل فلينزلوا بإزاء الهرمزان ويتحققوا أمره، وكتب إلى أبي موسى أن ابعث جندًا كثيفًا وأمّر عليهم سهل بن عدي وابعث معه البراء بن مالك ومجزأة بن ثور وعرفجة بن هرثمة، فكان فتح رامهرمز وتستر وأسر الهرمزان {cite:kamil-ibn-al-athir p. 367-368}."
   en: "Tustar: Yazdegerd, safe at Marw, kept stinging the Persians over their lost kingdom until they and the Ahwaz folk bound themselves to mutual aid. 'Umar ordered Sa'd to send a dense army with al-Nu'man ibn al-Muqarrin to pin al-Hurmuzan, and Abu Musa to send another under Sahl ibn 'Adi with al-Bara' ibn Malik, Majza'a ibn Thawr and 'Arfaja ibn Harthama — the campaign that ended with Ramhurmuz and Tustar taken and al-Hurmuzan a prisoner {cite:kamil-ibn-al-athir p. 367-368}."
+wings: [time]
 relations:
+  - { type: had_participant, target: person/ashras-ibn-awf, role: "الدليل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "الممد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-bara-ibn-malik, role: "شهيد الباب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "مقدم أهل الكوفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hormuzan, role: "المحاصر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tustar, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hurmuzan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-numan-ibn-muqarrin, sources: [source/kamil-ibn-al-athir] }
@@ -16,6 +24,6 @@ provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-kamil-v2-batch03
-sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  run: lib-kamil-v2-batch03, lib-akhbar-tiwal-batch-3-2026-10-31
+sources: [source/kamil-ibn-al-athir, source/akhbar-tiwal-amir, source/futuh-buldan-maarif-1407]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,43 @@
+id: person/saba-qamar
+class: person
+label:
+  ar: "صبا قمر"
+  en: "Saba Qamar"
+  ur: "صبا قمر"
+names:
+  - { value: "Saba Qamar Zaman", kind: full }
+gender: female
+born:
+  edtf: "1984-04-05"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 5 April 1984: the English biography and Wikidata agree on the day. The birthplace is split: the English biography gives Hyderabad, Sindh, while Wikidata's birthplace value is Lahore; with the readings divided, no birthplace edge is written and both readings are preserved here. The Hijri year 1404 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-saba-qamar-en, source/wikidata-saba-qamar]
+roles: [actor]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for her. Wikidata gives only Islam, and the English, Urdu and Arabic biographies carry no school value; roles she has played and her family background were not counted. The absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikidata-saba-qamar, source/wikipedia-saba-qamar-en, source/wikipedia-saba-qamar-ur, source/wikipedia-saba-qamar-ar]
+summary:
+  ar: "ممثلة باكستانية (وُلدت سنة 1984)، من أبرز ممثلات التلفزيون والسينما في بلدها، اشتهرت بمسلسلات «داستان» و«معات» و«ڈائجسٹ رائٹر» وبفيلم «ہندی میڈیم» (2017) في الهند، ونالت وسامي التكريم «تمغۂ امتیاز» (2012) و«پرائیڈ آف پرفارمنس» (2016)."
+  en: "Pakistani actress (born 1984), among her country's most prominent television and film performers, known for the dramas Dastaan, Maat and Digest Writer and the Indian film Hindi Medium (2017); she received the Tamgha-e-Imtiaz in 2012 and the Pride of Performance in 2016."
+  ur: "پاکستانی اداکارہ (پیدائش 1984)، اپنے ملک کی ممتاز ترین ٹیلی ویژن و فلمی اداکاراؤں میں سے ایک، جو ڈراموں «داستان»، «معات» اور «ڈائجسٹ رائٹر» اور بھارتی فلم «ہندی میڈیم» (2017) کے لیے جانی جاتی ہیں؛ انہیں 2012 میں تمغۂ امتیاز اور 2016 میں پرائیڈ آف پرفارمنس ملا۔"
+sources:
+  - source/wikipedia-saba-qamar-en
+  - source/wikipedia-saba-qamar-ur
+  - source/wikipedia-saba-qamar-ar
+  - source/wikidata-saba-qamar
+external_ids:
+  wikidata: Q7204147
+provenance:
+  layer: own-research
+  source: "English, Urdu and Arabic Wikipedia biographies of Saba Qamar and the Wikidata item Q7204147, all read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query before completion. The QID was grounded through the English article's page properties. Identity: the queue line's bearer is Saba Qamar Zaman, the Pakistani actress born 5 April 1984. Existence checks by name fragments (saba, qamar) and by QID across data/person on origin/main found no prior record, and her Arabic label صبا قمر collides with no existing record, so no homonym entry is needed. The queue's year (1984, living) is confirmed to the day. Relations written: none — the birthplace readings divide between Hyderabad (no place entity) and Wikidata's Lahore, so no edge is written. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

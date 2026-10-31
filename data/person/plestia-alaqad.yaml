@@ -1,0 +1,45 @@
+id: person/plestia-alaqad
+class: person
+label:
+  ar: "بلستيا العقاد"
+  en: "Plestia Alaqad"
+  ur: "پلیسٹیا العقاد"
+names:
+  - { value: "Plestia Alaqad", kind: full }
+  - { value: "بلستيا حسام كامل العقاد", kind: full }
+gender: female
+born:
+  edtf: "2001-12-10"
+  hijri: "1422"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 10 December 2001: the English and Arabic articles and Wikidata agree on the day. The Arabic biography states she was born in Gaza (ولدت في غزة), read here as Gaza City, the place/gaza entity; the English biography phrases her start more broadly — she grew up in the Gaza Strip and attended the American International School in Beit Lahia — and both readings are preserved in this note. The Hijri year 1422 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-plestia-alaqad-en, source/wikipedia-plestia-alaqad-ar, source/wikidata-plestia-alaqad]
+roles: [journalist, writer]
+regions: [levant-iraq]
+wings: [people, living]
+relations:
+  - { type: born_in, target: place/gaza, sources: [source/wikipedia-plestia-alaqad-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration: neither the English nor the Arabic biography carries any religion content, Wikidata has no religion (P140) value at all, and no source read attests Alaqad's own affiliation or practice; the word 'faith' in coverage of her diary ('faith in life', 'faith in humanity') is figurative and expressly not counted. Her name, her Gaza birth and the queue's placement never count, so the settlement is unknown, unflagged."
+    sources: [source/wikipedia-plestia-alaqad-en, source/wikipedia-plestia-alaqad-ar, source/wikidata-plestia-alaqad]
+summary:
+  ar: "صحفية وكاتبة فلسطينية (وُلدت سنة 2001) من غزة، وثّقت الحرب على غزة بمذكرات مصورة يومية منذ أكتوبر 2023 تناقلتها وسائل إعلام عالمية؛ غادرت غزة إلى أستراليا في نوفمبر 2023، ونشرت مذكراتها في كتاب «عيون غزة» سنة 2025، وأدرجتها BBC في قائمة مئة امرأة سنة 2024."
+  en: "Palestinian journalist and author (born 2001) from Gaza, whose daily video diaries of the Gaza war from October 2023 were carried by world media; she left Gaza for Australia in November 2023, published her diary as The Eyes of Gaza (2025), and was named to the BBC's 100 Women list in 2024."
+  ur: "فلسطینی صحافی اور مصنفہ (پیدائش 2001) جن کا تعلق غزہ سے ہے؛ اکتوبر 2023 سے اپنی ویڈیو ڈائریوں کے ذریعے جنگ کی دستاویز سازی کی جو عالمی میڈیا نے نشر کی؛ نومبر 2023 میں آسٹریلیا منتقل ہوئیں، 2025 میں اپنی یادداشتیں «دی آئیز آف غزہ» کے نام سے شائع کیں اور 2024 میں BBC کی سو خواتین کی فہرست میں شامل ہوئیں۔"
+sources:
+  - source/wikipedia-plestia-alaqad-en
+  - source/wikipedia-plestia-alaqad-ar
+  - source/wikidata-plestia-alaqad
+external_ids:
+  wikidata: Q123014390
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Plestia Alaqad and the Wikidata item Q123014390, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query (both 2558693513); the QID was grounded through the English article's page properties. Identity: the queue line's bearer <redacted> the Gaza-born journalist and author (the Arabic article gives her full name as Plestia Husam Kamel Alaqad); the QID grep across data/person on origin/main is empty, no prior record exists, and the Arabic label بلستيا العقاد collides with nothing on main, so no homonyms entry is required. The queue's year (2001, living) is confirmed to the day. Relations written: born_in → place/gaza, on the Arabic biography's statement, with the English biography's broader phrasing preserved in the birth note. Living-person care: only well-sourced public facts are recorded; her family's circumstances are carried only as her standard biographies carry them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-138
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

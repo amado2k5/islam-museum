@@ -14,3 +14,6 @@ Al-Suyuti says that he was given the allegiance as heir apparent. Then al-Mutawa
 Al-Mas'udi says that he was given the allegiance on the morning of the night his father was killed, when he was twenty-five years old. His mother was a concubine. Al-Mas'udi records that he stayed seven days at the place where his father was killed. {cite:muruj-al-dhahab p.514-515}
 
 Al-Suyuti describes him as handsome, dignified, of full intelligence, eager for good and little given to injustice. He relates his saying that the pleasure of pardon is sweeter than the pleasure of revenge. He says that Yazid al-Muhallabi praised him for restoring harmony between the Talibids and the Banu Hashim. {cite:tarikh-khulafa-minhaj-1434 p.553}
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] says al-Muntasir's caliphate lasted six months and that he died on Saturday, 4 Rabi' II, aged twenty-five years and six months; the men who held sway over him were Utamish and Ahmad ibn al-Khasib, and in his days Ahmad ibn Muhammad ibn al-Mudabbir was moved from Syria to Egypt. Al-Musta'in received the oath on the day he died. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 603}

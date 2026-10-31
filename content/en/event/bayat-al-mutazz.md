@@ -12,3 +12,6 @@ al-Tabari mentions the killing of Shurayh al-Habashi. {cite:tabari-tarikh-abu-al
 
 ## What al-Suyuti reports
 According to al-Suyuti, al-Mu'tazz was given the oath when al-Musta'in was deposed, when he was nineteen years old, and no one younger than him had held the caliphate before him. {cite:tarikh-khulafa-minhaj-1434 p.557}
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] relates that the war between Baghdad and Samarra dragged on until prices soared, a qafiz of grain costing a hundred dirhams, supplies were cut and money ran short. Envoys went between the two sides, and al-Musta'in agreed to a settlement: he would abdicate, hand the office to al-Mu'tazz and go to a town where he could live safe with his children, with a fixed sum and estates to support him. This was granted; he abdicated, wrote the deed of abdication in his own name before witnesses, and went to Wasit with his mother, his children and his household to make it his home. Al-Mu'tazz then received the oath at Samarra on Thursday, 7 Muharram. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 610}

@@ -15,3 +15,6 @@ Al-Mas'udi says that Bayakayal met al-Muhtadi at the bridge of Samarra in a grea
 
 ## Note
 The difference between 255 and 256 AH among the sources needs an additional source to decide.
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] relates that al-Muhtadi, wounded, made his way into the house of one of the commanders, Ahmad ibn Jamila; they caught up with him, seized him and carried him off with his wounds still bleeding, and pressed him to abdicate, which he refused. He died two days later, on Tuesday with fourteen nights of Rajab 256 AH remaining, after a caliphate of one year less eleven days. Al-Mu'tamid 'ala Allah received the oath on the day he was killed. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 619}

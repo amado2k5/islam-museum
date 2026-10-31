@@ -1,19 +1,19 @@
 {
- "generated": "2026-10-31T23:41:53.337Z",
+ "generated": "2026-10-31T23:45:46.929Z",
  "rule": "stop batch per class: published first, then degree desc, then id asc; media covers a stop by depicts | shared place+period | shared period+tag",
  "report": {
   "batchPerClass": 50,
-  "stopsTotal": 935,
+  "stopsTotal": 945,
   "mediaTotal": 1752,
-  "mediaUsed": 1312,
-  "stopsWithImage": 1321,
-  "stopsWithCard": 246,
-  "matchRate": 84.3,
+  "mediaUsed": 1311,
+  "stopsWithImage": 1320,
+  "stopsWithCard": 317,
+  "matchRate": 80.6,
   "perClass": {
    "building": {
-    "pool": 5661,
+    "pool": 5664,
     "stops": 50,
-    "publishedInPool": 25,
+    "publishedInPool": 28,
     "withImage": 1,
     "withCard": 49
    },
@@ -25,11 +25,11 @@
     "withCard": 99
    },
    "event": {
-    "pool": 4434,
+    "pool": 4445,
     "stops": 100,
-    "publishedInPool": 26,
-    "withImage": 4,
-    "withCard": 96
+    "publishedInPool": 119,
+    "withImage": 3,
+    "withCard": 97
    },
    "exhibit": {
     "pool": 313,
@@ -55,9 +55,9 @@
    "object": {
     "pool": 517,
     "stops": 50,
-    "publishedInPool": 0,
-    "withImage": 30,
-    "withCard": 20
+    "publishedInPool": 1,
+    "withImage": 29,
+    "withCard": 21
    },
    "period": {
     "pool": 13,
@@ -67,16 +67,16 @@
     "withCard": 13
    },
    "person": {
-    "pool": 10239,
+    "pool": 10501,
     "stops": 100,
-    "publishedInPool": 1628,
-    "withImage": 1,
-    "withCard": 99
+    "publishedInPool": 2017,
+    "withImage": 0,
+    "withCard": 100
    },
    "place": {
-    "pool": 1798,
+    "pool": 1801,
     "stops": 97,
-    "publishedInPool": 125,
+    "publishedInPool": 130,
     "withImage": 2,
     "withCard": 95
    },
@@ -102,11 +102,11 @@
     "withCard": 50
    },
    "work": {
-    "pool": 1466,
-    "stops": 90,
-    "publishedInPool": 9,
-    "withImage": 1,
-    "withCard": 89
+    "pool": 1522,
+    "stops": 100,
+    "publishedInPool": 72,
+    "withImage": 3,
+    "withCard": 97
    }
   }
  },
@@ -150,18 +150,18 @@
     "event/battle-of-the-trench"
    ],
    "covers": [
-    "event/al-jadd-ibn-qays-asks-to-stay-behind",
     "group/banu-abd-al-ashhal",
     "group/banu-saida",
     "group/banu-khatma",
     "group/banu-al-najjar",
-    "person/muhammad",
-    "work/hassan-poem-qawmi-ulaika",
+    "work/khutbat-abi-bakr-baad-al-baya",
+    "work/khutbat-abi-bakr-yawm-wafat-al-nabi",
     "event/fasting-of-ramadan-prescribed",
     "event/death-of-abdullah-ibn-ubayy",
     "event/umar-sermon-on-the-stoning-verse",
     "place/baqi-al-gharqad",
-    "place/saqifat-bani-saida"
+    "place/saqifat-bani-saida",
+    "work/hassan-poem-qawmi-ulaika"
    ],
    "places": [
     "place/medina"
@@ -187,18 +187,18 @@
     "event/battle-of-uhud"
    ],
    "covers": [
-    "event/al-jadd-ibn-qays-asks-to-stay-behind",
     "group/banu-abd-al-ashhal",
     "group/banu-saida",
     "group/banu-khatma",
     "group/banu-al-najjar",
-    "person/muhammad",
-    "work/hassan-poem-qawmi-ulaika",
+    "work/khutbat-abi-bakr-baad-al-baya",
+    "work/khutbat-abi-bakr-yawm-wafat-al-nabi",
     "event/fasting-of-ramadan-prescribed",
     "event/death-of-abdullah-ibn-ubayy",
     "event/umar-sermon-on-the-stoning-verse",
     "place/baqi-al-gharqad",
-    "place/saqifat-bani-saida"
+    "place/saqifat-bani-saida",
+    "work/hassan-poem-qawmi-ulaika"
    ],
    "places": [
     "place/uhud",
@@ -927,9 +927,7 @@
    "depicts": [
     "object/balata-kashan-1266"
    ],
-   "covers": [
-    "object/balata-kashan-1266"
-   ],
+   "covers": [],
    "places": [],
    "periods": [
     "period/crusades-ayyubid-mamluk",
@@ -36342,6 +36340,27 @@
    "coverage": "image"
   },
   {
+   "id": "building/dar-al-raml-fustat",
+   "kind": "building",
+   "title": {
+    "ar": "دار الرمل بالفسطاط",
+    "en": "Dar al-Raml, al-Fustat",
+    "ur": "دار الرمل، فسطاط"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-fustat"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "building/hagia-sophia",
    "kind": "building",
    "title": {
@@ -36408,6 +36427,48 @@
     "media/tbgen-building-masjid-amr-fustat"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "building/dar-al-baida-fustat",
+   "kind": "building",
+   "title": {
+    "ar": "الدار البيضاء بالفسطاط",
+    "en": "The White House (al-Dar al-Bayda'), al-Fustat",
+    "ur": "دار البیضاء، فسطاط"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-fustat"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "building/dar-al-fulful-fustat",
+   "kind": "building",
+   "title": {
+    "ar": "دار الفلفل بالفسطاط",
+    "en": "The Pepper House (Dar al-Fulful), al-Fustat",
+    "ur": "دار الفلفل، فسطاط"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-fustat"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "building/al-azhar",
@@ -37318,75 +37379,6 @@
    "hero": null,
    "candidates": [
     "media/tbgen-building-eyup-sultan-mosque"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "building/fenari-isa-mosque",
-   "kind": "building",
-   "title": {
-    "ar": "جامع فناري عيسى",
-    "en": "Fenari Isa Mosque"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/gunpowder-empires"
-   ],
-   "places": [
-    "place/istanbul"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-building-fenari-isa-mosque"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "building/great-mosque-of-al-nuri",
-   "kind": "building",
-   "title": {
-    "ar": "الجامع الكبير النوري",
-    "en": "Great Mosque of al-Nuri"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1171.9986721151017,
-    "latest": 1173.0007460796278
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/mosul"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-building-great-mosque-of-al-nuri"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "building/great-mosque-of-kufa",
-   "kind": "building",
-   "title": {
-    "ar": "مسجد الكوفة",
-    "en": "Great Mosque of Kufa"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/kufa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-building-great-mosque-of-kufa"
    ],
    "coverage": "image"
   },
@@ -38329,6 +38321,53 @@
    "coverage": "card"
   },
   {
+   "id": "event/abbasid-dawa-in-khurasan",
+   "kind": "event",
+   "title": {
+    "ar": "الدعوة العباسية في خراسان",
+    "en": "The Abbasid da'wa in Khurasan",
+    "ur": "خراسان میں عباسی دعوت"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 718.998268273818,
+    "latest": 750.998925371468
+   },
+   "periods": [
+    "period/umayyad",
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-al-kiryawn",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة الكريون",
+    "en": "Battle of al-Kiryawn",
+    "ur": "کریون کی لڑائی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 639.9986994941717,
+    "latest": 641.0007734586977
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-kiryawn"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/chess-match-al-suli-and-al-mawardi",
    "kind": "event",
    "title": {
@@ -38348,6 +38387,279 @@
    "places": [
     "place/baghdad"
    ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/killing-of-yazid-ibn-abi-muslim",
+   "kind": "event",
+   "title": {
+    "ar": "قتل يزيد بن أبي مسلم بمصلاه",
+    "en": "The Killing of Yazid ibn Abi Muslim in His Prayer-Place"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/ifriqiya"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/founding-of-qayrawan",
+   "kind": "event",
+   "title": {
+    "ar": "اختطاط القيروان",
+    "en": "The Founding of Qayrawan"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 670.0006844767518,
+    "latest": 671.0000205342708
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/qayrawan",
+    "place/ifriqiya"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/plague-of-amwas",
+   "kind": "event",
+   "title": {
+    "ar": "طاعون عمواس",
+    "en": "The Plague of Amwas"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 638.9993634366208,
+    "latest": 639.99869949414
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/amwas"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-nihawand",
+   "kind": "event",
+   "title": {
+    "ar": "يوم نهاوند فتح الفتوح",
+    "en": "The Battle of Nihawand (Fath al-Futuh)"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 642.0001095162802,
+    "latest": 642.9994455737994
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/nihawand"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-ajnadayn",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة أجنادين",
+    "en": "The Battle of Ajnadayn"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 634.5365750152296,
+    "latest": 634.539312922205
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/ajnadayn"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-al-buwayb",
+   "kind": "event",
+   "title": {
+    "ar": "يوم مهران وهو يوم البويب",
+    "en": "The Day of Mihran, Being the Day of al-Buwayb"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-buwayb"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-the-bridge",
+   "kind": "event",
+   "title": {
+    "ar": "يوم الجسر",
+    "en": "The Day of the Bridge"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/baniqya"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-abu-bakr",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة أبي بكر الصديق",
+    "en": "The Death of Abu Bakr al-Siddiq"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-nahrawan",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة النهروان",
+    "en": "Battle of Nahrawan"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-sufetula-647",
+   "kind": "event",
+   "title": {
+    "ar": "معركة سبيطلة",
+    "en": "Battle of Sufetula"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 646.9995277110413,
+    "latest": 647.9988637685603
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-al-mahdi",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة المهدي",
+    "en": "Death of al-Mahdi"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 785.5814287767716,
+    "latest": 785.6663038939566
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-mutasim",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة المعتصم",
+    "en": "Death of al-Mu'tasim"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 842.0973052150284,
+    "latest": 842.1000431220036
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-yazid-iii",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة يزيد الناقص",
+    "en": "Death of Yazid al-Naqis"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 744.7482836745451,
+    "latest": 744.83315879173
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -38423,6 +38735,93 @@
    "coverage": "card"
   },
   {
+   "id": "event/nubia-conquest-674",
+   "kind": "event",
+   "title": {
+    "ar": "فتح النوبة وأسر ملك دنقلة",
+    "en": "The Conquest of Nubia and the Capture of the King of Dunqula"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1275.0014716250162,
+    "latest": 1276.0008076825354
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/conquest-of-tustar",
+   "kind": "event",
+   "title": {
+    "ar": "فتح تستر وأسر الهرمزان",
+    "en": "Conquest of Tustar and the capture of al-Hurmuzan"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 638.0000273790702,
+    "latest": 638.9993634365892
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/tustar"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/siege-of-babylon-fortress-640",
+   "kind": "event",
+   "title": {
+    "ar": "حصار حصن بابليون (٦٤٠)",
+    "en": "Siege of Babylon Fortress",
+    "ur": "قلعۂ بابلیون کا محاصرہ (640ء)"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 639.9986994941717,
+    "latest": 641.0007734586977
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/babylon-of-egypt"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-yarmuk",
+   "kind": "event",
+   "title": {
+    "ar": "معركة اليرموك",
+    "en": "Battle of the Yarmuk"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/yarmuk"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "event/first-revelation",
    "kind": "event",
    "title": {
@@ -38447,6 +38846,51 @@
     "media/tbgen-event-first-revelation"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "event/battle-of-yamama",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة اليمامة",
+    "en": "The Battle of Yamama"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 633.9999452418599,
+    "latest": 634.9992812993789
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-yamama",
+    "place/hadiqat-al-mawt"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/conquest-of-egypt",
+   "kind": "event",
+   "title": {
+    "ar": "فتح مصر والإسكندرية",
+    "en": "Conquest of Egypt and Alexandria"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/al-fustat",
+    "place/al-arish",
+    "place/al-farama",
+    "place/umm-dunayn"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "event/aghabid-conquests-sicily",
@@ -38535,6 +38979,257 @@
    ],
    "places": [
     "place/baghdad"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-al-qadisiyya",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة القادسية",
+    "en": "The battle of al-Qadisiyya"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-dayr-al-jathaliq",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة دير الجاثليق",
+    "en": "Battle of Dayr al-Jathaliq"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-hamadhan-195",
+   "kind": "event",
+   "title": {
+    "ar": "وقعتا همذان وأسداباذ (195)",
+    "en": "Battles of Hamadhan and Asadabad (195 AH)",
+    "ur": "ہمذان اور اسداباذ کی لڑائیاں (195ھ)"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 810.0008213721021,
+    "latest": 811.999493487172
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [
+    "place/hamadhan"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-karbala",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة كربلاء",
+    "en": "Battle of Karbala"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 679.9995208662738,
+    "latest": 681.0015948307998
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/battle-of-marj-rahit",
+   "kind": "event",
+   "title": {
+    "ar": "موقعة مرج راهط",
+    "en": "Battle of Marj Rahit"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-al-hadi",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة الهادي",
+    "en": "Death of al-Hadi"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 786.6656399515391,
+    "latest": 786.7477771617171
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-harun-al-rashid",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة هارون الرشيد بطوس",
+    "en": "Death of Harun al-Rashid at Tus"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 809.1630218279636,
+    "latest": 809.2478969451486
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [
+    "place/tus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-muawiya",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة معاوية بن أبي سفيان",
+    "en": "Death of Mu'awiya ibn Abi Sufyan"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 680.2486704039097,
+    "latest": 680.3308076140877
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-umar",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة عمر بن الخطاب",
+    "en": "Death of Umar ibn al-Khattab"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/death-of-wathiq",
+   "kind": "event",
+   "title": {
+    "ar": "وفاة الواثق",
+    "en": "Death of al-Wathiq"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 847.638828997173,
+    "latest": 847.6415669041485
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [
+    "place/samarra"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/flight-of-ubaydallah-ibn-ziyad-from-basra",
+   "kind": "event",
+   "title": {
+    "ar": "خروج عبيد الله بن زياد من البصرة بعد موت يزيد",
+    "en": "Ubaydallah ibn Ziyad's flight from Basra after Yazid's death",
+    "ur": "یزید کی موت کے بعد عبید اللہ بن زیاد کا بصرہ سے فرار"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 683.0002669459332,
+    "latest": 685.0016769680101
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/basra"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "event/hajj-of-199-without-an-imam",
+   "kind": "event",
+   "title": {
+    "ar": "حج سنة تسع وتسعين ومئة بغير إمام",
+    "en": "The pilgrimage of 199 AH without an imam",
+    "ur": "199ھ کا حج بغیر امام کے"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 815.4958007351281,
+    "latest": 815.5806758523129
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [
+    "place/mecca"
    ],
    "tags": [],
    "hero": null,
@@ -38740,795 +39435,6 @@
    "hero": null,
    "candidates": [],
    "coverage": "card"
-  },
-  {
-   "id": "event/ibn-sina-leaves-for-gurgan-1012",
-   "kind": "event",
-   "title": {
-    "ar": "ابن سينا يرحل غربًا إلى جرجان",
-    "en": "Ibn Sina travels west to Gorgan",
-    "ur": "ابن سینا کا مغرب میں جرجان کی طرف سفر"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1011.9981245337002,
-    "latest": 1013.0001984982263
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/jurjan"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/ibn-sina-service-at-rayy-1014",
-   "kind": "event",
-   "title": {
-    "ar": "ابن سينا في خدمة البويهيين بالري",
-    "en": "Ibn Sina enters Buyid service at Rayy",
-    "ur": "رے میں ابن سینا آل بویہ کی خدمت میں"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1013.9995345558089,
-    "latest": 1014.9988706133279
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/rayy"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/ibn-sina-to-khuzistan-1030",
-   "kind": "event",
-   "title": {
-    "ar": "ابن سينا ينتقل إلى خوزستان",
-    "en": "Ibn Sina withdraws to Khuzistan",
-    "ur": "ابن سینا کی خوزستان منتقلی"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1029.9998631046496,
-    "latest": 1030.0847382218346
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/khuzistan"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/ibn-sina-vizier-hamadan-1015",
-   "kind": "event",
-   "title": {
-    "ar": "ابن سينا وزيرًا لشمس الدولة بهمذان",
-    "en": "Ibn Sina becomes vizier to Shams al-Dawla at Hamadan",
-    "ur": "ہمدان میں ابن سینا شمس الدولہ کے وزیر"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1014.9988706133596,
-    "latest": 1015.9982066708787
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/hamadan"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/muqaddima-completion-779",
-   "kind": "event",
-   "title": {
-    "ar": "إتمام ابن خلدون لكتابه المقدمة",
-    "en": "Ibn Khaldun completes the Muqaddima",
-    "ur": "ابن خلدون کا مقدمہ مکمل کرنا"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1377.0021971703732,
-    "latest": 1378.0015332278922
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/al-suli-chess-praised-before-al-radi",
-   "kind": "event",
-   "title": {
-    "ar": "الراضي يفضل لعب الصولي بالشطرنج على الزهر",
-    "en": "Al-Radi prefers al-Suli's chess to a garden's flowers",
-    "ur": "راضی کا صولی کی شطرنج کو پھول سے بہتر کہنا"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 934.0006297186117,
-    "latest": 934.9999657761307
-   },
-   "periods": [
-    "period/abbasid-early",
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/first-raid-on-sicily",
-   "kind": "event",
-   "title": {
-    "ar": "أول غزوة لصقلية وسبي عبد الله بن قيس لها",
-    "en": "The First Raid on Sicily and Abdallah ibn Qays's Plunder"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 659.9991101802227,
-    "latest": 681.0015948307998
-   },
-   "periods": [
-    "period/umayyad",
-    "period/rashidun"
-   ],
-   "places": [
-    "place/siqilliya"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-first-raid-on-sicily"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/mutadid-at-chess-when-al-qasim-entered",
-   "kind": "event",
-   "title": {
-    "ar": "المعتضد يلعب الشطرنج فيدخل عليه القاسم بن عبيد الله",
-    "en": "Al-Mu'tadid at chess when al-Qasim ibn Ubaydallah entered",
-    "ur": "معتضد شطرنج کھیل رہا تھا جب قاسم بن عبیداللہ داخل ہوا"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 892.0011362314078,
-    "latest": 893.0032101959341
-   },
-   "periods": [
-    "period/abbasid-early",
-    "period/abbasid-fragmentation"
-   ],
-   "places": [
-    "place/baghdad"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/spider-web-at-ghar-thawr",
-   "kind": "event",
-   "title": {
-    "ar": "نسج العنكبوت على باب غار ثور",
-    "en": "The spider's web across the mouth of the cave of Thawr",
-    "ur": "غار ثور کے دہانے پر مکڑی کا جالا"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 622.6978651170114,
-    "latest": 622.7006030239866
-   },
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [
-    "place/ghar-thawr"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "event/abbasid-khutba-egypt-567",
-   "kind": "event",
-   "title": {
-    "ar": "قطع الخطبة العبيدية وإقامة الخطبة العباسية بمصر",
-    "en": "Ending the Ubaydid Khutba and Restoring the Abbasid Khutba in Egypt"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1171.664647460249,
-    "latest": 1171.7467846704271
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk",
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/al-fustat"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-abbasid-khutba-egypt-567"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/abd-al-aziz-sijistan",
-   "kind": "event",
-   "title": {
-    "ar": "ولاية عبد العزيز بن عبد الله بن عامر سجستان",
-    "en": "Abd al-Aziz ibn Abdallah ibn Amir's Sijistan"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [
-    "place/sijistan"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-abd-al-aziz-sijistan"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/abd-al-malik-coinage",
-   "kind": "event",
-   "title": {
-    "ar": "توحيد النقود في عهد عبد الملك",
-    "en": "Abd al-Malik's Coinage Reform"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-abd-al-malik-coinage"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/abu-khaythama-joins-the-army",
-   "kind": "event",
-   "title": {
-    "ar": "لحاق أبي خيثمة بالنبي",
-    "en": "Abu Khaythama catches up with the Prophet"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 630.7473117175575,
-    "latest": 630.8321868347425
-   },
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [
-    "place/tabuk"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-abu-khaythama-joins-the-army"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/abu-quhafa-conversion",
-   "kind": "event",
-   "title": {
-    "en": "The conversion of Abu Quhafa",
-    "ar": "إسلام أبي قحافة عثمان بن عامر"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 629.9998631046496,
-    "latest": 630.0847382218346
-   },
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [
-    "place/dhu-tuwa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-abu-quhafa-conversion"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/abu-ubayd-iraq-campaign",
-   "kind": "event",
-   "title": {
-    "ar": "بعثة أبي عبيد إلى العراق",
-    "en": "Abu Ubayd's Dispatch to Iraq"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 633.9999452418599,
-    "latest": 634.9992812993789
-   },
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/al-hira"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-abu-ubayd-iraq-campaign"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/adil-aziz-shuffle-582",
-   "kind": "event",
-   "title": {
-    "ar": "نقل العادل إلى حلب والملك العزيز إلى مصر",
-    "en": "the Ayyubid shuffle — al-Adil to Aleppo, al-Aziz to Egypt"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1186.0003285488408,
-    "latest": 1186.99966460636
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/aleppo",
-    "place/misr"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-adil-aziz-shuffle-582"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/al-jadd-ibn-qays-asks-to-stay-behind",
-   "kind": "event",
-   "title": {
-    "ar": "استئذان الجد بن قيس في التخلف",
-    "en": "al-Jadd ibn Qays asks leave to stay behind"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 630.7473117175575,
-    "latest": 630.8321868347425
-   },
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [
-    "place/medina"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/illus-event-battle-of-the-trench",
-    "media/illus-event-battle-of-uhud"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/ali-declines-to-retain-muawiya",
-   "kind": "event",
-   "title": {
-    "ar": "رفض علي إبقاء معاوية في ولايته",
-    "en": "Ali declines to keep Muawiya in office"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-ali-declines-to-retain-muawiya"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/alp-arslan-death-465",
-   "kind": "event",
-   "title": {
-    "ar": "مقتل السلطان ألب أرسلان وقيام ملكشاه",
-    "en": "The killing of Sultan Alp Arslan and the accession of Malikshah"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1072.8973900901456,
-    "latest": 1072.9001279971208
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/bukhara"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-alp-arslan-death-465"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/amr-dismissal-egypt",
-   "kind": "event",
-   "title": {
-    "ar": "عزل عمرو بن العاص وتولية ابن أبي سرح",
-    "en": "Amr's Dismissal and Ibn Abi Sarh's Sole Charge of Egypt"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/al-fustat"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-amr-dismissal-egypt"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/apostasy-of-amr-ibn-madikarib",
-   "kind": "event",
-   "title": {
-    "ar": "ارتداد عمرو بن معدي كرب بعد وفاة النبي",
-    "en": "Amr ibn Ma'dikarib's apostasy after the Prophet's death"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 631.9985352197514,
-    "latest": 633.0006091842774
-   },
-   "periods": [
-    "period/rashidun",
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-apostasy-of-amr-ibn-madikarib"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/ayn-al-tamr-raid-39",
-   "kind": "event",
-   "title": {
-    "ar": "سرية النعمان بن بشير إلى عين التمر",
-    "en": "al-Nuʿmān ibn Bashīr's raid on ʿAyn al-Tamr (39 AH)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 658.9997741226719,
-    "latest": 659.9991101801911
-   },
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/ayn-al-tamr"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-ayn-al-tamr-raid-39"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/ayn-jalut-658",
-   "kind": "event",
-   "title": {
-    "ar": "وقعة عين جالوت وهزيمة التتار",
-    "en": "The battle of Ayn Jalut and the defeat of the Tatars"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1260.6740042574454,
-    "latest": 1260.6767421644208
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [
-    "place/baysan"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-ayn-jalut-658"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/baghdad-manifesto-402",
-   "kind": "event",
-   "title": {
-    "ar": "المحضر البغدادي في الطعن في نسب الفاطميين",
-    "en": "The Baghdad Attestation on Fatimid Lineage"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1011.8311122062739,
-    "latest": 1011.9132494164519
-   },
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [
-    "place/baghdad"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-baghdad-manifesto-402"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/bahira-encounter",
-   "kind": "event",
-   "title": {
-    "en": "The monk Bahira at Busra",
-    "ar": "لقاء الراهب بحيرا ببصرى"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 583.0009514226849,
-    "latest": 584.000287480204
-   },
-   "periods": [
-    "period/prophetic-era",
-    "period/pre-islamic-arabia"
-   ],
-   "places": [
-    "place/busra"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-bahira-encounter"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/battle-of-marj-al-suffar",
-   "kind": "event",
-   "title": {
-    "ar": "يوم مرج الصفر",
-    "en": "The Battle of Marj al-Suffar"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 635.0841564166274,
-    "latest": 635.1608178127913
-   },
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/marj-al-suffar"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-battle-of-marj-al-suffar"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/battle-of-rayshahr",
-   "kind": "event",
-   "title": {
-    "ar": "وقعة ريشهر ومقتل شهرك",
-    "en": "Battle of Rayshahr and Shahrak's Death"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [
-    "place/rayshahr"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-battle-of-rayshahr"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/battle-of-wadi-al-makhazin-1578",
-   "kind": "event",
-   "title": {
-    "ar": "معركة وادي المخازن (٩٨٦هـ/١٥٧٨م)",
-    "en": "Battle of Wadi al-Makhazin (986/1578)"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 1578.588814280923,
-    "latest": 1578.5915521878983
-   },
-   "periods": [
-    "period/gunpowder-empires"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-battle-of-wadi-al-makhazin-1578"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/baya-wilayat-ahd-yazid",
-   "kind": "event",
-   "title": {
-    "ar": "البيعة ليزيد بولاية العهد",
-    "en": "The pledge to Yazid as heir apparent"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 670.0006844767518,
-    "latest": 671.0000205342708
-   },
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-baya-wilayat-ahd-yazid"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/building-of-al-hashimiyya",
-   "kind": "event",
-   "title": {
-    "ar": "بناء المدينة الهاشمية بالكوفة",
-    "en": "The Building of the Hashimite City at Kufa"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/umayyad",
-    "period/abbasid-early"
-   ],
-   "places": [
-    "place/kufa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-building-of-al-hashimiyya"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/building-of-masisa",
-   "kind": "event",
-   "title": {
-    "ar": "بناء حصن المصيصة",
-    "en": "The Building of the Fortress of Masisa"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 702.9979397249772,
-    "latest": 703.9972757824964
-   },
-   "periods": [
-    "period/umayyad"
-   ],
-   "places": [
-    "place/masisa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-building-of-masisa"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/building-of-the-kaaba",
-   "kind": "event",
-   "title": {
-    "en": "The Raising of the Kaaba’s Foundations",
-    "ar": "رفع قواعد الكعبة"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": -1899.998699494172,
-    "latest": -1898.9993634366524
-   },
-   "periods": [
-    "period/pre-islamic-arabia"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-building-of-the-kaaba"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "event/compilation-of-quran",
-   "kind": "event",
-   "title": {
-    "ar": "جمع القرآن في خلافة أبي بكر",
-    "en": "The Compilation of the Qur'an under Abu Bakr"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-event-compilation-of-quran"
-   ],
-   "coverage": "image"
   },
   {
    "id": "exhibit/path-fatimid-cairo",
@@ -40430,6 +40336,25 @@
    "coverage": "image"
   },
   {
+   "id": "group/azariqa",
+   "kind": "group",
+   "title": {
+    "ar": "الأزارقة",
+    "en": "Azariqa",
+    "ur": "ازارقہ"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-group-azariqa"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "group/al-aws",
    "kind": "group",
    "title": {
@@ -40655,25 +40580,6 @@
    "hero": null,
    "candidates": [
     "media/tbgen-group-azali"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "group/azariqa",
-   "kind": "group",
-   "title": {
-    "ar": "الأزارقة",
-    "en": "Azariqa",
-    "ur": "ازارقہ"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-group-azariqa"
    ],
    "coverage": "image"
   },
@@ -42380,6 +42286,24 @@
    "coverage": "card"
   },
   {
+   "id": "object/table-of-solomon",
+   "kind": "object",
+   "title": {
+    "ar": "مائدة سليمان",
+    "en": "Table of Solomon"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "object/al-hajar-al-aswad",
    "kind": "object",
    "title": {
@@ -43440,26 +43364,27 @@
    "coverage": "image"
   },
   {
-   "id": "object/balata-kashan-1266",
-   "kind": "object",
+   "id": "period/abbasid-early",
+   "kind": "period",
    "title": {
-    "ar": "بلاطة كاشانية (نحو 1266)",
-    "en": "Kashan Tile, c.1266"
+    "en": "The Early Abbasid Caliphate",
+    "ar": "العصر العباسي المبكر"
    },
    "status": "draft",
    "span": {
-    "earliest": 1266.001971293045,
-    "latest": 1267.0013073505643
+    "earliest": 749.999589313949,
+    "latest": 862.0018891558032
    },
    "periods": [
-    "period/crusades-ayyubid-mamluk",
-    "period/mongol-post-mongol"
+    "period/abbasid-early",
+    "period/abbasid-fragmentation",
+    "period/umayyad"
    ],
    "places": [],
    "tags": [],
    "hero": null,
    "candidates": [
-    "media/photo-balata-kashan-1266"
+    "media/tbgen-period-abbasid-early"
    ],
    "coverage": "image"
   },
@@ -43585,31 +43510,6 @@
    "hero": null,
    "candidates": [
     "media/tbgen-period-colonial-era"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "period/abbasid-early",
-   "kind": "period",
-   "title": {
-    "en": "The Early Abbasid Caliphate",
-    "ar": "العصر العباسي المبكر"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 749.999589313949,
-    "latest": 862.0018891558032
-   },
-   "periods": [
-    "period/abbasid-early",
-    "period/abbasid-fragmentation",
-    "period/umayyad"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-period-abbasid-early"
    ],
    "coverage": "image"
   },
@@ -43812,34 +43712,6 @@
    "hero": null,
    "candidates": [
     "media/tbgen-person-abdul-aleem-siddiqui"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/abdullah-i-of-jordan",
-   "kind": "person",
-   "title": {
-    "ar": "عبد الله الأول بن الحسين",
-    "en": "Abdullah I of Jordan",
-    "ur": "عبداللہ اول بن حسین"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1882.088543912606,
-    "latest": 1951.5492446798728
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/modern-era"
-   ],
-   "places": [
-    "place/mecca",
-    "place/jerusalem"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-person-abdullah-i-of-jordan"
    ],
    "coverage": "image"
   },
@@ -44112,6 +43984,28 @@
    "coverage": "image"
   },
   {
+   "id": "person/khosrow-ii",
+   "kind": "person",
+   "title": {
+    "en": "Khosrow II",
+    "ar": "كسرى الثاني"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 570.0013689535035,
+    "latest": 628.1599895959216
+   },
+   "periods": [
+    "period/pre-islamic-arabia",
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "person/kifayatullah-dehlvi",
    "kind": "person",
    "title": {
@@ -44188,6 +44082,29 @@
     "media/tbgen-person-mozaffar-ad-din-shah-qajar"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "person/muhammad-jamalul-alam-ii",
+   "kind": "person",
+   "title": {
+    "ar": "محمد جمال العالم الثاني",
+    "en": "Muhammad Jamalul Alam II",
+    "ur": "محمد جمال عالم دوم"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1889.001759105252,
+    "latest": 1924.6958527553295
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "person/muhammad-mustafa-al-maraghi",
@@ -44270,6 +44187,21 @@
    "coverage": "image"
   },
   {
+   "id": "person/nasr-ibn-sayyar",
+   "kind": "person",
+   "title": {
+    "ar": "نصر بن سيار"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "person/nawaf-al-ahmad-al-jaber-al-sabah",
    "kind": "person",
    "title": {
@@ -44320,6 +44252,21 @@
     "media/tbgen-person-sabah-al-ahmad-al-jaber-al-sabah"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "person/sahib-al-zanj",
+   "kind": "person",
+   "title": {
+    "ar": "صاحب الزنج"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "person/sulayman-al-ruhayli",
@@ -44402,6 +44349,71 @@
    "coverage": "image"
   },
   {
+   "id": "person/yazid-ibn-al-walid",
+   "kind": "person",
+   "title": {
+    "ar": "يزيد بن الوليد بن عبد الملك"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/amr-ibn-al-as",
+   "kind": "person",
+   "title": {
+    "en": "Amr ibn al-As",
+    "ar": "عمرو بن العاص",
+    "ur": "عمرو بن العاص"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 573.0021150331629,
+    "latest": 663.9991923174011
+   },
+   "periods": [
+    "period/prophetic-era",
+    "period/rashidun",
+    "period/umayyad",
+    "period/pre-islamic-arabia"
+   ],
+   "places": [
+    "place/mecca",
+    "place/egypt",
+    "place/malab-iskandariyya"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/muawiya-ibn-abi-sufyan",
+   "kind": "person",
+   "title": {
+    "ar": "معاوية بن أبي سفيان",
+    "en": "Mu'awiya ibn Abi Sufyan",
+    "ur": "معاویہ بن ابی سفیان"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/prophetic-era",
+    "period/rashidun",
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "person/salah-al-din-yusuf-ibn-ayyub",
    "kind": "person",
    "title": {
@@ -44428,6 +44440,68 @@
     "media/tbgen-person-salah-al-din-yusuf-ibn-ayyub"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "person/abdullah-i-of-jordan",
+   "kind": "person",
+   "title": {
+    "ar": "عبد الله الأول بن الحسين",
+    "en": "Abdullah I of Jordan",
+    "ur": "عبداللہ اول بن حسین"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1882.088543912606,
+    "latest": 1951.5492446798728
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [
+    "place/mecca",
+    "place/jerusalem"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-person-abdullah-i-of-jordan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "person/al-muhallab-ibn-abi-sufra",
+   "kind": "person",
+   "title": {
+    "ar": "المهلب بن أبي صفرة",
+    "en": "al-Muhallab ibn Abi Sufra"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/al-mutamid",
+   "kind": "person",
+   "title": {
+    "ar": "المعتمد على الله",
+    "en": "al-Mu'tamid ala Allah"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "person/al-nasir-muhammad-ibn-qalawun",
@@ -44554,6 +44628,89 @@
     "media/tbgen-person-hussein-kamel-of-egypt"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "person/ibn-khaldun",
+   "kind": "person",
+   "title": {
+    "ar": "ابن خلدون",
+    "en": "Ibn Khaldun"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1331.9992196965031,
+    "latest": 1406.9987063389076
+   },
+   "periods": [
+    "period/mongol-post-mongol",
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ibn-taymiyya",
+   "kind": "person",
+   "title": {
+    "ar": "ابن تيمية",
+    "en": "Ibn Taymiyya"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/kharija-ibn-hudhafa-al-adawi",
+   "kind": "person",
+   "title": {
+    "ar": "خارجة بن حذافة العدوي",
+    "en": "Kharija ibn Hudhafa al-Adawi"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "person/ma-al-aynayn",
+   "kind": "person",
+   "title": {
+    "ar": "ماء العينين القلقمي",
+    "en": "Ma al-'Aynayn",
+    "ur": "ماء العینین"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1831.10871544248,
+    "latest": 1910.8091884158837
+   },
+   "periods": [
+    "period/colonial-era"
+   ],
+   "places": [
+    "place/fez",
+    "place/meknes"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "person/mohammad-ali-shah-qajar",
@@ -44751,348 +44908,15 @@
    "coverage": "image"
   },
   {
-   "id": "person/youssef-chahine",
+   "id": "person/sulayman-ibn-abd-al-malik",
    "kind": "person",
    "title": {
-    "ar": "يوسف شاهين",
-    "en": "Youssef Chahine",
-    "ur": "یوسف شاہین"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1926.0648062588555,
-    "latest": 2008.5716339144224
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/contemporary-era",
-    "period/modern-era"
-   ],
-   "places": [
-    "place/alexandria",
-    "place/cairo"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-person-youssef-chahine"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/firawn",
-   "kind": "person",
-   "title": {
-    "ar": "فرعون",
-    "en": "Pharaoh (Firawn)",
-    "ur": "فرعون"
+    "ar": "سليمان بن عبد الملك"
    },
    "status": "published",
    "span": null,
-   "periods": [
-    "period/pre-islamic-arabia"
-   ],
+   "periods": [],
    "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-person-firawn"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/al-malik-al-aziz-uthman",
-   "kind": "person",
-   "title": {
-    "ar": "الملك العزيز عماد الدين عثمان بن صلاح الدين",
-    "en": "al-Malik al-Aziz Imad al-Din Uthman ibn Salah al-Din"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1198.8328986905958,
-    "latest": 1198.915035900774
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-person-al-malik-al-aziz-uthman"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/al-malik-al-salih-ayyub",
-   "kind": "person",
-   "title": {
-    "ar": "الملك الصالح نجم الدين أيوب بن الكامل",
-    "en": "al-Malik al-Salih Najm al-Din Ayyub ibn al-Kamil"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1206.0007392348919,
-    "latest": 1249.9167676269558
-   },
-   "periods": [
-    "period/mongol-post-mongol",
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-person-al-malik-al-salih-ayyub"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/amina-bint-wahb",
-   "kind": "person",
-   "title": {
-    "en": "Amina bint Wahb",
-    "ar": "آمنة بنت وهب"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 577.0021971703732,
-    "latest": 578.0015332278922
-   },
-   "periods": [
-    "period/prophetic-era",
-    "period/pre-islamic-arabia"
-   ],
-   "places": [
-    "place/al-abwa"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/khawaja-nazimuddin",
-   "kind": "person",
-   "title": {
-    "ar": "خواجة ناظم الدين",
-    "en": "Khawaja Nazimuddin",
-    "ur": "خواجہ ناظم الدین"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1894.5460207944038,
-    "latest": 1964.808928314718
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/modern-era"
-   ],
-   "places": [
-    "place/dhaka"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/mirza-ghalib",
-   "kind": "person",
-   "title": {
-    "ar": "ميرزا غالب",
-    "en": "Mirza Ghalib",
-    "ur": "مرزا غالب"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1797.98825437894,
-    "latest": 1869.1272921414907
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/gunpowder-empires"
-   ],
-   "places": [
-    "place/agra",
-    "place/delhi"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/nazli-fazl",
-   "kind": "person",
-   "title": {
-    "ar": "نازلي فاضل",
-    "en": "Princess Nazli Fazl",
-    "ur": "نازلی فاضل"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1853.00101987036,
-    "latest": 1913.9906363580044
-   },
-   "periods": [
-    "period/colonial-era"
-   ],
-   "places": [
-    "place/istanbul",
-    "place/cairo",
-    "place/tunis"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/al-malik-al-kamil",
-   "kind": "person",
-   "title": {
-    "ar": "الملك الكامل محمد بن العادل بن أيوب",
-    "en": "al-Malik al-Kamil Muhammad ibn al-Adil ibn Ayyub"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1179.998836389522,
-    "latest": 1238.1793602879961
-   },
-   "periods": [
-    "period/crusades-ayyubid-mamluk",
-    "period/mongol-post-mongol"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/hussein-bin-ali-al-hashimi",
-   "kind": "person",
-   "title": {
-    "ar": "الحسين بن علي الهاشمي",
-    "en": "Hussein bin Ali al-Hashimi",
-    "ur": "حسین ابن علی ہاشمی"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1853.00101987036,
-    "latest": 1931.4228902715001
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/modern-era"
-   ],
-   "places": [
-    "place/istanbul",
-    "place/amman",
-    "place/jerusalem"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/muhammad",
-   "kind": "person",
-   "title": {
-    "en": "Muhammad",
-    "ar": "محمد"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 570.0013689535035,
-    "latest": 632.4366003408377
-   },
-   "periods": [
-    "period/prophetic-era",
-    "period/pre-islamic-arabia",
-    "period/rashidun"
-   ],
-   "places": [
-    "place/mecca",
-    "place/medina"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/illus-event-battle-of-the-trench",
-    "media/illus-event-battle-of-uhud"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "person/abbas-hilmi-ii",
-   "kind": "person",
-   "title": {
-    "ar": "عباس حلمي الثاني",
-    "en": "Abbas Hilmi II",
-    "ur": "عباس حلمی ثانی"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1874.5319205733176,
-    "latest": 1944.9700541420793
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/modern-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/abd-al-halim-mahmud",
-   "kind": "person",
-   "title": {
-    "ar": "عبد الحليم محمود",
-    "en": "Abd al-Halim Mahmud",
-    "ur": "عبد الحلیم محمود"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1910.3574337597624,
-    "latest": 1978.7941573064154
-   },
-   "periods": [
-    "period/colonial-era",
-    "period/modern-era"
-   ],
-   "places": [
-    "place/cairo"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "person/abd-al-hayy-yusuf",
-   "kind": "person",
-   "title": {
-    "ar": "عبد الحي يوسف",
-    "en": "Abd al-Hayy Yusuf",
-    "ur": "عبد الحی یوسف"
-   },
-   "status": "published",
-   "span": {
-    "earliest": 1964.8992792459803,
-    "latest": 1964.9020171529558
-   },
-   "periods": [
-    "period/modern-era"
-   ],
-   "places": [
-    "place/cairo"
-   ],
    "tags": [],
    "hero": null,
    "candidates": [],
@@ -45164,26 +44988,6 @@
    "coverage": "image"
   },
   {
-   "id": "place/al-kiryawn",
-   "kind": "place",
-   "title": {
-    "ar": "الكريون",
-    "en": "Al-Kiryawn"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [
-    "period/rashidun"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-place-al-kiryawn"
-   ],
-   "coverage": "image"
-  },
-  {
    "id": "place/al-lahun",
    "kind": "place",
    "title": {
@@ -45204,6 +45008,22 @@
     "media/tbgen-place-al-lahun"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "place/al-muqattam",
+   "kind": "place",
+   "title": {
+    "ar": "جبل المقطم",
+    "en": "Mount al-Muqattam"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "place/ashir",
@@ -45290,6 +45110,46 @@
    "coverage": "image"
   },
   {
+   "id": "place/khitat-al-fustat",
+   "kind": "place",
+   "title": {
+    "ar": "خطط الفسطاط",
+    "en": "The Khitat (plots) of al-Fustat",
+    "ur": "خططِ فسطاط"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/al-fustat"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/kom-sharik",
+   "kind": "place",
+   "title": {
+    "ar": "كوم شريك",
+    "en": "Kom Sharik",
+    "ur": "کوم شریک"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/malab-iskandariyya",
    "kind": "place",
    "title": {
@@ -45310,6 +45170,43 @@
    "coverage": "image"
   },
   {
+   "id": "place/umm-dunayn",
+   "kind": "place",
+   "title": {
+    "ar": "أم دنين",
+    "en": "Umm Dunayn",
+    "ur": "ام دنین"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "place/al-hira",
+   "kind": "place",
+   "title": {
+    "en": "al-Hira",
+    "ar": "الحيرة"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/pre-islamic-arabia"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "place/al-fustat",
    "kind": "place",
    "title": {
@@ -45321,7 +45218,9 @@
    "periods": [
     "period/rashidun"
    ],
-   "places": [],
+   "places": [
+    "place/khitat-al-fustat"
+   ],
    "tags": [],
    "hero": null,
    "candidates": [
@@ -45389,6 +45288,26 @@
    "hero": null,
    "candidates": [
     "media/tbgen-place-al-arish"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "place/al-kiryawn",
+   "kind": "place",
+   "title": {
+    "ar": "الكريون",
+    "en": "Al-Kiryawn"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-place-al-kiryawn"
    ],
    "coverage": "image"
   },
@@ -45971,87 +45890,6 @@
    "title": {
     "ar": "أخلتسخه",
     "en": "Akhaltsikhe (Akhiska)"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/aksehir",
-   "kind": "place",
-   "title": {
-    "en": "Akşehir",
-    "ar": "آق شهر"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/al-abbasiyya-kairouan",
-   "kind": "place",
-   "title": {
-    "ar": "العباسية (قرب القيروان)",
-    "en": "al-Abbasiyya (near Kairouan)",
-    "ur": "العباسیہ (قیروان کے قریب)"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/al-aflaj",
-   "kind": "place",
-   "title": {
-    "ar": "الأفلاج",
-    "en": "al-Aflaj (Layla district, Nejd)"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/al-ahkaf",
-   "kind": "place",
-   "title": {
-    "ar": "الأحقاف",
-    "en": "Al-Ahkaf (Barr al-Ahkaf, southern Arabia)"
-   },
-   "status": "published",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [],
-   "coverage": "card"
-  },
-  {
-   "id": "place/al-amk",
-   "kind": "place",
-   "title": {
-    "ar": "العمق (سهل شمال سورية)",
-    "en": "Al-'Amk (plain of Antioch)"
    },
    "status": "published",
    "span": null,
@@ -48998,6 +48836,55 @@
    "coverage": "card"
   },
   {
+   "id": "work/al-akhbar-al-tiwal",
+   "kind": "work",
+   "title": {
+    "ar": "الأخبار الطوال",
+    "en": "Al-Akhbar al-Tiwal (The Long Narratives)",
+    "ur": "الاخبار الطوال"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-matalib-al-aliya",
+   "kind": "work",
+   "title": {
+    "ar": "المطالب العالية بزوائد المسانيد الثمانية",
+    "en": "al-Matalib al-Aliya"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/dalil-al-falihin",
+   "kind": "work",
+   "title": {
+    "ar": "دليل الفالحين لطرق رياض الصالحين",
+    "en": "Dalil al-falihin li-turuq riyad al-salihin"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "work/fann-al-harb",
    "kind": "work",
    "title": {
@@ -49017,6 +48904,597 @@
    "coverage": "image"
   },
   {
+   "id": "work/fath-al-bari-ibn-rajab",
+   "kind": "work",
+   "title": {
+    "ar": "فتح الباري شرح صحيح البخاري لابن رجب",
+    "en": "Fath al-bari, Ibn Rajab's commentary on Sahih al-Bukhari"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/futuh-misr",
+   "kind": "work",
+   "title": {
+    "ar": "فتوح مصر والمغرب",
+    "en": "Futuh Misr wa-l-Maghrib (The Conquest of Egypt and the Maghrib)",
+    "ur": "فتوح مصر والمغرب"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-abu-al-abbas-al-saffah-kufa-jumua",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة أبي العباس السفاح بالكوفة في الجمعة الثانية",
+    "en": "Abu al-Abbas al-Saffah's second Friday sermon in Kufa",
+    "ur": "ابوالعباس السفاح کا کوفہ میں دوسرے جمعے کا خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 749.999589313949,
+    "latest": 750.998925371468
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-aktham-ibn-sayfi",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة أكثم بن صيفي يدعو قومه إلى الإسلام",
+    "en": "Aktham ibn Sayfi's sermon calling his people to Islam",
+    "ur": "اکثم بن صیفی کی خطبہ اپنی قوم کو اسلام کی دعوت"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 629.9998631046496,
+    "latest": 630.9991991621687
+   },
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-al-mamun-khabar-wafat-harun",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة المأمون حين وصله نعي الرشيد",
+    "en": "Al-Ma'mun's address on receiving news of Harun al-Rashid's death",
+    "ur": "ہارون الرشید کی وفات کی خبر پر مامون کا خطاب"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 809.0014853145512,
+    "latest": 810.0008213720705
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-dawud-ibn-ali-al-saffah-tawbikh",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة داود بن علي توبيخاً للسفاح",
+    "en": "Dawud ibn Ali's rebuke of al-Saffah",
+    "ur": "داود بن علی کی سفاح کو سرزنش"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 749.999589313949,
+    "latest": 750.998925371468
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-dawud-ibn-ali-kufa",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة داود بن علي بالكوفة",
+    "en": "Dawud ibn Ali's sermon in Kufa",
+    "ur": "کوفہ میں داود بن علی کا خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 749.999589313949,
+    "latest": 750.998925371468
+   },
+   "periods": [
+    "period/abbasid-early",
+    "period/umayyad"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-harun-al-rashid-bayah",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة هارون الرشيد عند توليه الخلافة",
+    "en": "Harun al-Rashid's sermon on accession to the caliphate",
+    "ur": "ہارون الرشید کا خلافت سنبھالنے پر خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 786.0003285488408,
+    "latest": 786.99966460636
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-muhammad-al-nafs-al-zakiyya-madina",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة محمد النفس الزكية بالمدينة حين خرج على المنصور",
+    "en": "Muhammad al-Nafs al-Zakiyya's sermon in Medina at his revolt against al-Mansur",
+    "ur": "محمد النفس الزکیہ کا مدینہ میں منصور کے خلاف بغاوت کے وقت خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 761.9998357255795,
+    "latest": 762.9991717830987
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-tahir-ibn-al-husayn-baghdad",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة طاهر بن الحسين ببغداد بعد مقتل الأمين",
+    "en": "Tahir ibn al-Husayn's sermon in Baghdad after the killing of al-Amin",
+    "ur": "امین کے قتل کے بعد بغداد میں طاہر بن حسین کا خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 813.0015674517615,
+    "latest": 814.0009035092805
+   },
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/sharh-al-arbaeen-ibn-daqiq",
+   "kind": "work",
+   "title": {
+    "ar": "شرح الأربعين النووية",
+    "en": "Sharh al-Arba'in al-Nawawiyya (Ibn Daqiq al-Id)"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/sharh-riyad-al-salihin-uthaymin",
+   "kind": "work",
+   "title": {
+    "ar": "شرح رياض الصالحين للعثيمين",
+    "en": "Sharh Riyad al-salihin (Ibn Uthaymin)"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/tarikh-al-yaqubi",
+   "kind": "work",
+   "title": {
+    "ar": "تاريخ اليعقوبي",
+    "en": "Tarikh al-Ya'qubi (The History of al-Ya'qubi)",
+    "ur": "تاریخ الیعقوبی"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/tarikh-khalifa-ibn-khayyat",
+   "kind": "work",
+   "title": {
+    "ar": "تاريخ خليفة بن خياط",
+    "en": "Tarikh Khalifa ibn Khayyat (The History of Khalifa ibn Khayyat)",
+    "ur": "تاریخ خلیفہ بن خیاط"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/tawil-mukhtalif-al-hadith",
+   "kind": "work",
+   "title": {
+    "ar": "تأويل مختلف الحديث",
+    "en": "The Interpretation of Conflicting Narrations"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-abdullah-ibn-al-zubayr-makka",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة عبد الله بن الزبير بمكة على المنبر",
+    "en": "Abdullah ibn al-Zubayr's khutba on the minbar in Mecca",
+    "ur": "عبداللہ بن زبیر کی مکہ میں منبر پر خطبہ"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/mecca"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-abdullah-ibn-masud-kufa",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة عبد الله بن مسعود بالكوفة",
+    "en": "Abdullah ibn Mas'ud's khutba in Kufa",
+    "ur": "عبداللہ بن مسعود کی خطبہ بمقام کوفہ"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/kufa"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-abi-bakr-baad-al-baya",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة أبي بكر بعد البيعة",
+    "en": "Abu Bakr's first sermon after the bay'a",
+    "ur": "بیعت کے بعد ابو بکر کی پہلی خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 631.9985352197514,
+    "latest": 633.0006091842774
+   },
+   "periods": [
+    "period/prophetic-era",
+    "period/rashidun"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/illus-event-battle-of-the-trench",
+    "media/illus-event-battle-of-uhud"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/khutbat-al-hasan-ibn-ali-sulh",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة الحسن بن علي في الصلح",
+    "en": "al-Hasan ibn Ali's sermon on the peace",
+    "ur": "حسن بن علی کی صلح کی خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 661.0011841447806,
+    "latest": 662.0005202022996
+   },
+   "periods": [
+    "period/rashidun",
+    "period/umayyad"
+   ],
+   "places": [
+    "place/kufa"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-al-nabi-bi-makka",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة النبي بمكة حين دعا قومه",
+    "en": "The Prophet's address in Mecca when he called his people",
+    "ur": "مکہ میں نبی کا خطبہ جب انہوں نے اپنے قوم کو دعوت دی"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/mecca"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-al-walid-ibn-abd-al-malik",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة الوليد بن عبد الملك بعد دفن أبيه",
+    "en": "al-Walid's sermon after burying his father",
+    "ur": "ولید بن عبدالملک کی خطبہ بعد تدفینِ والد"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 704.999349747086,
+    "latest": 705.998685804605
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-ali-al-kufa",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة علي بن أبي طالب بالكوفة",
+    "en": "Ali ibn Abi Talib's khutba in Kufa",
+    "ur": "علی بن ابی طالب کی خطبہ بمقام کوفہ"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [
+    "place/kufa"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-muawiya-ibn-yazid",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة معاوية بن يزيد",
+    "en": "Mu'awiya II's sermon",
+    "ur": "معاویہ دوم کی خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 683.0002669459332,
+    "latest": 683.9996030034522
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-musab-ibn-al-zubayr-basra",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة مصعب بن الزبير بالبصرة",
+    "en": "Mus'ab ibn al-Zubayr's sermon in Basra (80 AH)",
+    "ur": "مصعب بن زبیر کی بصرہ میں خطبہ (۸۰ھ)"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 699.000595494774,
+    "latest": 699.9999315522932
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/basra"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-sulayman-ibn-abd-al-malik",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة سليمان بن عبد الملك",
+    "en": "Sulayman ibn Abd al-Malik's sermon",
+    "ur": "سلیمان بن عبدالملک کی خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 714.998186136608,
+    "latest": 715.997522194127
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/damascus"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-umar-ibn-abd-al-aziz-madina",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة عمر بن عبد العزيز أول ولايته الخلافة",
+    "en": "Umar ibn Abd al-Aziz's first sermon as caliph",
+    "ur": "عمر بن عبدالعزیز کا خلافت سنبھالنے کے بعد پہلا خطبہ"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 716.9995961587165,
+    "latest": 717.9989322162355
+   },
+   "periods": [
+    "period/umayyad"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-umar-istikhilaf",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة عمر بن الخطاب حين استخلف",
+    "en": "Umar ibn al-Khattab's sermon on his accession",
+    "ur": "عمر بن خطاب کی خطبہ بمقام خلافت"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 633.9999452418599,
+    "latest": 634.9992812993789
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-uthman-baad-al-baya",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة عثمان بن عفان بعد البيعة",
+    "en": "Uthman ibn Affan's first sermon after the bay'a",
+    "ur": "عثمان بن عفان کی پہلی خطبہ بعد بیعت"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 643.9987816313819,
+    "latest": 645.000855595908
+   },
+   "periods": [
+    "period/rashidun"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "work/one-minute-manager-meets-the-monkey",
    "kind": "work",
    "title": {
@@ -49032,6 +49510,57 @@
    "hero": null,
    "candidates": [
     "media/tbgen-work-one-minute-manager-meets-the-monkey"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/jamharat-khutab-al-arab",
+   "kind": "work",
+   "title": {
+    "ar": "جمهرة خطب العرب",
+    "en": "Jamharat Khutab al-Arab",
+    "ur": "جمہرة خطب العرب"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 1932.9999247075573,
+    "latest": 1933.9992607650763
+   },
+   "periods": [
+    "period/colonial-era",
+    "period/modern-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/khutbat-abi-bakr-yawm-wafat-al-nabi",
+   "kind": "work",
+   "title": {
+    "ar": "خطبة أبي بكر يوم وفاة النبي",
+    "en": "Abu Bakr's sermon on the day of the Prophet's death",
+    "ur": "ابو بکر کا خطبہ بمقام وفاتِ نبی"
+   },
+   "status": "published",
+   "span": {
+    "earliest": 632.4338624338625,
+    "latest": 632.4366003408377
+   },
+   "periods": [
+    "period/prophetic-era",
+    "period/rashidun"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/illus-event-battle-of-the-trench",
+    "media/illus-event-battle-of-uhud"
    ],
    "coverage": "image"
   },
@@ -49074,6 +49603,24 @@
    "coverage": "image"
   },
   {
+   "id": "work/al-daw-al-lami",
+   "kind": "work",
+   "title": {
+    "ar": "الضوء اللامع لأهل القرن التاسع",
+    "en": "al-Daw' al-Lami' on the Ninth Century's Notables"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
    "id": "work/al-mubdioune-program",
    "kind": "work",
    "title": {
@@ -49091,6 +49638,54 @@
     "media/tbgen-work-al-mubdioune-program"
    ],
    "coverage": "image"
+  },
+  {
+   "id": "work/al-mufhim-qurtubi",
+   "kind": "work",
+   "title": {
+    "ar": "المفهم لما أشكل من تلخيص كتاب مسلم",
+    "en": "al-Mufhim li-ma Ashkala min Talkhis Kitab Muslim"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-mujam-al-saghir",
+   "kind": "work",
+   "title": {
+    "ar": "المعجم الصغير",
+    "en": "al-Mu'jam al-Saghir"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/al-nasikh-wa-al-mansukh",
+   "kind": "work",
+   "title": {
+    "ar": "الاعتبار في بيان الناسخ والمنسوخ من الآثار",
+    "en": "Kitab al-I'tibar fi bayan al-nasikh wal-mansukh min al-athar"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
   },
   {
    "id": "work/al-tartib-al-idariyya",
@@ -49150,12 +49745,12 @@
    "coverage": "image"
   },
   {
-   "id": "work/hikayat-abi-l-qasim-al-baghdadi",
+   "id": "work/alukah",
    "kind": "work",
    "title": {
-    "ar": "حكاية أبي القاسم البغدادي",
-    "en": "Hikayat Abi l-Qasim al-Baghdadi",
-    "ur": "حکایت ابو القاسم البغدادی"
+    "ar": "شبكة الألوكة — قسم الخطب",
+    "en": "Al-Alukah — Khutab section",
+    "ur": "Al-Alukah — Khutab section"
    },
    "status": "published",
    "span": null,
@@ -49163,784 +49758,20 @@
    "places": [],
    "tags": [],
    "hero": null,
-   "candidates": [
-    "media/tbgen-work-hikayat-abi-l-qasim-al-baghdadi"
-   ],
-   "coverage": "image"
+   "candidates": [],
+   "coverage": "card"
   },
   {
-   "id": "work/asma-bint-marwan-verses-against-the-ansar",
+   "id": "work/droos-al-haramain",
    "kind": "work",
    "title": {
-    "ar": "أبيات عصماء بنت مروان في عيب الأنصار وطاعتهم «الأتاوي»",
-    "en": "Asma' bint Marwan's verses reviling the Ansar for obeying 'the stranger'"
+    "ar": "الدروس العلمية بالحرمين",
+    "en": "Haramain Scholarly Lessons",
+    "ur": "Haramain Scholarly Lessons"
    },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-asma-bint-marwan-verses-against-the-ansar"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/hassan-poem-qawmi-ulaika",
-   "kind": "work",
-   "title": {
-    "ar": "قصيدة حسان «قومي أولئك إن تسألي كرام»",
-    "en": "Hassan ibn Thabit's poem 'Those are my people, if you ask, noble'"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [
-    "place/medina"
-   ],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/illus-event-battle-of-the-trench",
-    "media/illus-event-battle-of-uhud"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/hassan-reply-to-asma-bint-marwan",
-   "kind": "work",
-   "title": {
-    "ar": "جواب حسان بن ثابت على عصماء بنت مروان",
-    "en": "Hassan ibn Thabit's reply to Asma' bint Marwan"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-hassan-reply-to-asma-bint-marwan"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/hassan-reply-to-zibriqan",
-   "kind": "work",
-   "title": {
-    "ar": "قصيدة حسان في الرد على الزبرقان «إن الذوائب من فهر وإخوتهم»",
-    "en": "Hassan ibn Thabit's reply to al-Zibriqan, 'The chiefs of Fihr and their brothers'"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 630.9991991622005,
-    "latest": 631.9985352197195
-   },
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-hassan-reply-to-zibriqan"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/hassan-second-reply-to-zibriqan",
-   "kind": "work",
-   "title": {
-    "ar": "قصيدة حسان «هل المجد إلا السؤدد العود والندى» في الرد على الزبرقان",
-    "en": "Hassan ibn Thabit's second reply to al-Zibriqan, 'Is glory anything but ancient lordship and bounty?'"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-hassan-second-reply-to-zibriqan"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/farewell-sermon",
-   "kind": "work",
-   "title": {
-    "en": "The Farewell Sermon",
-    "ar": "خطبة الوداع"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-farewell-sermon"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/kaab-ibn-malik-account-of-tabuk",
-   "kind": "work",
-   "title": {
-    "ar": "حديث كعب بن مالك في تخلفه عن تبوك",
-    "en": "Ka'b ibn Malik's account of staying behind at Tabuk"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-kaab-ibn-malik-account-of-tabuk"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/letter-to-the-kings-of-himyar",
-   "kind": "work",
-   "title": {
-    "ar": "كتاب النبي إلى ملوك حمير",
-    "en": "The Prophet's letter to the kings of Himyar"
-   },
-   "status": "draft",
-   "span": {
-    "earliest": 630.9991991622005,
-    "latest": 631.9985352197195
-   },
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-letter-to-the-kings-of-himyar"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/reconstruction-religious-thought-islam",
-   "kind": "work",
-   "title": {
-    "ar": "تجديد الفكر الديني في الإسلام",
-    "en": "The Reconstruction of Religious Thought in Islam"
-   },
-   "status": "draft",
+   "status": "published",
    "span": null,
    "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-reconstruction-religious-thought-islam"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/abu-khaythama-verses",
-   "kind": "work",
-   "title": {
-    "ar": "أبيات أبي خيثمة في لحاقه بالنبي",
-    "en": "Abu Khaythama's verses on joining the Prophet"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-abu-khaythama-verses"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/adab-al-dunya-wal-din",
-   "kind": "work",
-   "title": {
-    "ar": "أدب الدنيا والدين",
-    "en": "Adab al-Dunya wal-Din"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-adab-al-dunya-wal-din"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/adab-al-imla-wa-al-istimla",
-   "kind": "work",
-   "title": {
-    "ar": "أدب الإملاء والاستملاء",
-    "en": "Adab al-Imla' wa-al-Istimla'"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-adab-al-imla-wa-al-istimla"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/adab-al-katib",
-   "kind": "work",
-   "title": {
-    "ar": "أدب الكاتب",
-    "en": "Adab al-Katib"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-adab-al-katib"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/ahkam-al-quran-ibn-al-arabi",
-   "kind": "work",
-   "title": {
-    "ar": "أحكام القرآن لابن العربي",
-    "en": "Ahkam al-Quran by Ibn al-Arabi"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-ahkam-al-quran-ibn-al-arabi"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/ahkam-al-quran-jassas",
-   "kind": "work",
-   "title": {
-    "ar": "أحكام القرآن للجصاص",
-    "en": "Ahkam al-Quran by al-Jassas"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-ahkam-al-quran-jassas"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/ahkam-al-quran-shafii",
-   "kind": "work",
-   "title": {
-    "ar": "أحكام القرآن (الشافعي)",
-    "en": "Ahkam al-Qur'an (al-Shafi'i)"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-ahkam-al-quran-shafii"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/ahkam-al-quran-tahawi",
-   "kind": "work",
-   "title": {
-    "ar": "أحكام القرآن للطحاوي",
-    "en": "Ahkam al-Quran by al-Tahawi"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-ahkam-al-quran-tahawi"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/ahsan-al-taqasim",
-   "kind": "work",
-   "title": {
-    "ar": "أحسن التقاسيم في معرفة الأقاليم",
-    "en": "Ahsan al-Taqasim fi Ma'rifat al-Aqalim"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-ahsan-al-taqasim"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/akhbar-al-wuzara-sahib",
-   "kind": "work",
-   "title": {
-    "ar": "أخبار الوزراء",
-    "en": "Akhbar al-Wuzara'"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-akhbar-al-wuzara-sahib"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/akhbar-umar-ibn-abd-al-aziz",
-   "kind": "work",
-   "title": {
-    "ar": "أخبار عمر بن عبد العزيز",
-    "en": "Akhbar 'Umar ibn 'Abd al-'Aziz"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-akhbar-umar-ibn-abd-al-aziz"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/akhlaq-al-muluk-jahiz",
-   "kind": "work",
-   "title": {
-    "ar": "أخلاق الملوك",
-    "en": "Akhlaq al-Muluk"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-akhlaq-al-muluk-jahiz"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/akhlaq-i-nasiri",
-   "kind": "work",
-   "title": {
-    "ar": "أخلاق ناصري",
-    "en": "Akhlaq-i Nasiri"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/mongol-post-mongol"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-akhlaq-i-nasiri"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-adab-al-shariyya",
-   "kind": "work",
-   "title": {
-    "ar": "الآداب الشرعية",
-    "en": "Al-Adab al-Shar'iyya"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-adab-al-shariyya"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-aghani-abu-l-faraj",
-   "kind": "work",
-   "title": {
-    "ar": "كتاب الأغاني",
-    "en": "Kitab al-Aghani"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-aghani-abu-l-faraj"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ahkam-al-sultaniyya-abu-yala",
-   "kind": "work",
-   "title": {
-    "ar": "الأحكام السلطانية لأبي يعلى",
-    "en": "al-Ahkam al-Sultaniyya by Abu Ya'la"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ahkam-al-sultaniyya-abu-yala"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ahkam-al-sultaniyya-mawardi",
-   "kind": "work",
-   "title": {
-    "ar": "الأحكام السلطانية للماوردي",
-    "en": "al-Ahkam al-Sultaniyya by al-Mawardi"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ahkam-al-sultaniyya-mawardi"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-alaq-al-khatira",
-   "kind": "work",
-   "title": {
-    "ar": "الأعلاق الخطيرة في تاريخ الشام والجزيرة",
-    "en": "al-A'laq al-Khatira fi Tarikh al-Sham wal-Jazira"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-alaq-al-khatira"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-amthal-al-saira",
-   "kind": "work",
-   "title": {
-    "ar": "الأمثال السائرة",
-    "en": "al-Amthal al-Sa'ira"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-early"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-amthal-al-saira"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ansab-samani",
-   "kind": "work",
-   "title": {
-    "ar": "الأنساب",
-    "en": "al-Ansab"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ansab-samani"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-dahhak-ibn-khalifa-verses",
-   "kind": "work",
-   "title": {
-    "ar": "أبيات الضحاك بن خليفة بعد تحريق بيت سويلم",
-    "en": "al-Dahhak ibn Khalifa's verses after the burning of Suwaylim's house"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/prophetic-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-dahhak-ibn-khalifa-verses"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ihata-fi-tarikh-gharnata",
-   "kind": "work",
-   "title": {
-    "ar": "الإحاطة في تاريخ غرناطة",
-    "en": "al-Ihata fi Tarikh Gharnata"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ihata-fi-tarikh-gharnata"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ihkam-fi-usul-al-ahkam",
-   "kind": "work",
-   "title": {
-    "ar": "الإحكام في أصول الأحكام",
-    "en": "al-Ihkam fi Usul al-Ahkam"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ihkam-fi-usul-al-ahkam"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-iklil-hamdani",
-   "kind": "work",
-   "title": {
-    "ar": "الإكليل في أنساب حمير وأيام ملوكها",
-    "en": "al-Iklil fi Ansab Himyar wa-Ayyam Mulukiha"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-iklil-hamdani"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ilam-bil-hurub",
-   "kind": "work",
-   "title": {
-    "ar": "الإعلام بالحروب الواقعة في صدر الإسلام",
-    "en": "al-I'lam bil-Hurub al-Waqi'a fi Sadr al-Islam"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ilam-bil-hurub"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ilam-fi-hudud-al-ahkam",
-   "kind": "work",
-   "title": {
-    "ar": "الإعلام في حدود الأحكام",
-    "en": "al-I'lam fi Hudud al-Ahkam"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ilam-fi-hudud-al-ahkam"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ilam-tarikh-ahl-al-islam",
-   "kind": "work",
-   "title": {
-    "ar": "الإعلام بتاريخ أهل الإسلام",
-    "en": "al-I'lam bi-Tarikh Ahl al-Islam"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ilam-tarikh-ahl-al-islam"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ilan-bil-tawbikh",
-   "kind": "work",
-   "title": {
-    "ar": "الإعلان بالتوبيخ لمن ذم أصحاب التاريخ",
-    "en": "al-I'lan bil-Tawbikh li-man Damma Ashab al-Tarikh"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ilan-bil-tawbikh"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-ilmam-fi-ahadith-al-ahkam",
-   "kind": "work",
-   "title": {
-    "ar": "الإلمام في أحاديث الأحكام",
-    "en": "al-Ilmam fi Ahadith al-Ahkam"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
-   "places": [],
-   "tags": [],
-   "hero": null,
-   "candidates": [
-    "media/tbgen-work-al-ilmam-fi-ahadith-al-ahkam"
-   ],
-   "coverage": "image"
-  },
-  {
-   "id": "work/al-imam-fi-adilat-al-ahkam",
-   "kind": "work",
-   "title": {
-    "ar": "الإمام في أدلة الأحكام",
-    "en": "al-Imam fi Adilat al-Ahkam"
-   },
-   "status": "draft",
-   "span": null,
-   "periods": [
-    "period/crusades-ayyubid-mamluk"
-   ],
    "places": [],
    "tags": [],
    "hero": null,
@@ -49948,17 +49779,16 @@
    "coverage": "card"
   },
   {
-   "id": "work/al-imta-wal-muanasa",
+   "id": "work/durar-al-kaminah",
    "kind": "work",
    "title": {
-    "ar": "الإمتاع والمؤانسة",
-    "en": "al-Imta' wal-Mu'anasa"
+    "ar": "الدرر الكامنة في أعيان المئة الثامنة",
+    "en": "Durar al-Kaminah",
+    "ur": "الدرر الکامنہ فی اعیان المائۃ الثامنہ"
    },
-   "status": "draft",
+   "status": "published",
    "span": null,
-   "periods": [
-    "period/abbasid-fragmentation"
-   ],
+   "periods": [],
    "places": [],
    "tags": [],
    "hero": null,
@@ -49966,17 +49796,32 @@
    "coverage": "card"
   },
   {
-   "id": "work/al-iqtisad-fil-itiqad",
+   "id": "work/fatawa-aimmat-al-muslimin-subki",
    "kind": "work",
    "title": {
-    "ar": "الاقتصاد في الاعتقاد",
-    "en": "al-Iqtisad fi'l-I'tiqad"
+    "ar": "فتاوى أئمة المسلمين بقطع لسان المبتدعين",
+    "en": "Fatawa A'immat al-Muslimin bi-Qat' Lisan al-Mubtadi'in",
+    "ur": "فتاوائمۃ المسلمین بقطع لسان المبتدعین"
    },
-   "status": "draft",
+   "status": "published",
    "span": null,
-   "periods": [
-    "period/buyid-seljuk-fatimid-era"
-   ],
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [],
+   "coverage": "card"
+  },
+  {
+   "id": "work/fatwa-subki-1-funeral-tarqiya-adhan",
+   "kind": "work",
+   "title": {
+    "ar": "فتوى في الترقية ورفع الصوت بالجنازة والأذان",
+    "en": "Fatwa on acclaiming, raising the voice at funerals and the adhan"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
    "places": [],
    "tags": [],
    "hero": null,
@@ -54005,6 +53850,49 @@
    "coverage": "image"
   },
   {
+   "id": "work/farewell-sermon",
+   "kind": "work",
+   "title": {
+    "en": "The Farewell Sermon",
+    "ar": "خطبة الوداع"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-farewell-sermon"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/hassan-poem-qawmi-ulaika",
+   "kind": "work",
+   "title": {
+    "ar": "قصيدة حسان «قومي أولئك إن تسألي كرام»",
+    "en": "Hassan ibn Thabit's poem 'Those are my people, if you ask, noble'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/prophetic-era"
+   ],
+   "places": [
+    "place/medina"
+   ],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/illus-event-battle-of-the-trench",
+    "media/illus-event-battle-of-uhud"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "work/khalid-ibn-said-reply-to-aban",
    "kind": "work",
    "title": {
@@ -54139,6 +54027,26 @@
    "coverage": "image"
   },
   {
+   "id": "work/akhlaq-al-muluk-jahiz",
+   "kind": "work",
+   "title": {
+    "ar": "أخلاق الملوك",
+    "en": "Akhlaq al-Muluk"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-early"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-akhlaq-al-muluk-jahiz"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "work/ansab-himyar",
    "kind": "work",
    "title": {
@@ -54175,6 +54083,46 @@
    "hero": null,
    "candidates": [
     "media/tbgen-work-mukhtasar-al-kharaqi"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/adab-al-katib",
+   "kind": "work",
+   "title": {
+    "ar": "أدب الكاتب",
+    "en": "Adab al-Katib"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-adab-al-katib"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/akhbar-al-wuzara-sahib",
+   "kind": "work",
+   "title": {
+    "ar": "أخبار الوزراء",
+    "en": "Akhbar al-Wuzara'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/abbasid-fragmentation"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-akhbar-al-wuzara-sahib"
    ],
    "coverage": "image"
   },
@@ -54255,6 +54203,46 @@
    "hero": null,
    "candidates": [
     "media/tbgen-work-tawq-al-hamama"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-aghani-abu-l-faraj",
+   "kind": "work",
+   "title": {
+    "ar": "كتاب الأغاني",
+    "en": "Kitab al-Aghani"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-aghani-abu-l-faraj"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ihkam-fi-usul-al-ahkam",
+   "kind": "work",
+   "title": {
+    "ar": "الإحكام في أصول الأحكام",
+    "en": "al-Ihkam fi Usul al-Ahkam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/buyid-seljuk-fatimid-era"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ihkam-fi-usul-al-ahkam"
    ],
    "coverage": "image"
   },
@@ -54379,6 +54367,46 @@
    "coverage": "image"
   },
   {
+   "id": "work/al-alaq-al-khatira",
+   "kind": "work",
+   "title": {
+    "ar": "الأعلاق الخطيرة في تاريخ الشام والجزيرة",
+    "en": "al-A'laq al-Khatira fi Tarikh al-Sham wal-Jazira"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-alaq-al-khatira"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ilmam-fi-ahadith-al-ahkam",
+   "kind": "work",
+   "title": {
+    "ar": "الإلمام في أحاديث الأحكام",
+    "en": "al-Ilmam fi Ahadith al-Ahkam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/crusades-ayyubid-mamluk"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ilmam-fi-ahadith-al-ahkam"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "work/al-mughni",
    "kind": "work",
    "title": {
@@ -54495,6 +54523,26 @@
    "hero": null,
    "candidates": [
     "media/tbgen-work-risalat-al-shaqundi-fadl-al-andalus"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/akhlaq-i-nasiri",
+   "kind": "work",
+   "title": {
+    "ar": "أخلاق ناصري",
+    "en": "Akhlaq-i Nasiri"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [
+    "period/mongol-post-mongol"
+   ],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-akhlaq-i-nasiri"
    ],
    "coverage": "image"
   },
@@ -60505,6 +60553,42 @@
    "coverage": "image"
   },
   {
+   "id": "building/fenari-isa-mosque",
+   "kind": "building",
+   "title": {
+    "ar": "جامع فناري عيسى",
+    "en": "Fenari Isa Mosque"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-building-fenari-isa-mosque"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "building/great-mosque-of-al-nuri",
+   "kind": "building",
+   "title": {
+    "ar": "الجامع الكبير النوري",
+    "en": "Great Mosque of al-Nuri"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-building-great-mosque-of-al-nuri"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "building/great-mosque-of-basra",
    "kind": "building",
    "title": {
@@ -60519,6 +60603,24 @@
    "hero": null,
    "candidates": [
     "media/tbgen-building-great-mosque-of-basra"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "building/great-mosque-of-kufa",
+   "kind": "building",
+   "title": {
+    "ar": "مسجد الكوفة",
+    "en": "Great Mosque of Kufa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-building-great-mosque-of-kufa"
    ],
    "coverage": "image"
   },
@@ -62041,6 +62143,204 @@
    "coverage": "image"
   },
   {
+   "id": "event/abbasid-khutba-egypt-567",
+   "kind": "event",
+   "title": {
+    "ar": "قطع الخطبة العبيدية وإقامة الخطبة العباسية بمصر",
+    "en": "Ending the Ubaydid Khutba and Restoring the Abbasid Khutba in Egypt"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-abbasid-khutba-egypt-567"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/abd-al-aziz-sijistan",
+   "kind": "event",
+   "title": {
+    "ar": "ولاية عبد العزيز بن عبد الله بن عامر سجستان",
+    "en": "Abd al-Aziz ibn Abdallah ibn Amir's Sijistan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-abd-al-aziz-sijistan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/abd-al-malik-coinage",
+   "kind": "event",
+   "title": {
+    "ar": "توحيد النقود في عهد عبد الملك",
+    "en": "Abd al-Malik's Coinage Reform"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-abd-al-malik-coinage"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/abu-khaythama-joins-the-army",
+   "kind": "event",
+   "title": {
+    "ar": "لحاق أبي خيثمة بالنبي",
+    "en": "Abu Khaythama catches up with the Prophet"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-abu-khaythama-joins-the-army"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/abu-quhafa-conversion",
+   "kind": "event",
+   "title": {
+    "en": "The conversion of Abu Quhafa",
+    "ar": "إسلام أبي قحافة عثمان بن عامر"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-abu-quhafa-conversion"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/abu-ubayd-iraq-campaign",
+   "kind": "event",
+   "title": {
+    "ar": "بعثة أبي عبيد إلى العراق",
+    "en": "Abu Ubayd's Dispatch to Iraq"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-abu-ubayd-iraq-campaign"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/adil-aziz-shuffle-582",
+   "kind": "event",
+   "title": {
+    "ar": "نقل العادل إلى حلب والملك العزيز إلى مصر",
+    "en": "the Ayyubid shuffle — al-Adil to Aleppo, al-Aziz to Egypt"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-adil-aziz-shuffle-582"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/ali-declines-to-retain-muawiya",
+   "kind": "event",
+   "title": {
+    "ar": "رفض علي إبقاء معاوية في ولايته",
+    "en": "Ali declines to keep Muawiya in office"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-ali-declines-to-retain-muawiya"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/alp-arslan-death-465",
+   "kind": "event",
+   "title": {
+    "ar": "مقتل السلطان ألب أرسلان وقيام ملكشاه",
+    "en": "The killing of Sultan Alp Arslan and the accession of Malikshah"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-alp-arslan-death-465"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/amr-dismissal-egypt",
+   "kind": "event",
+   "title": {
+    "ar": "عزل عمرو بن العاص وتولية ابن أبي سرح",
+    "en": "Amr's Dismissal and Ibn Abi Sarh's Sole Charge of Egypt"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-amr-dismissal-egypt"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/apostasy-of-amr-ibn-madikarib",
+   "kind": "event",
+   "title": {
+    "ar": "ارتداد عمرو بن معدي كرب بعد وفاة النبي",
+    "en": "Amr ibn Ma'dikarib's apostasy after the Prophet's death"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-apostasy-of-amr-ibn-madikarib"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "event/arslan-arghun-killed-490",
    "kind": "event",
    "title": {
@@ -62073,6 +62373,42 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-ashras-jizya-episode"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/ayn-al-tamr-raid-39",
+   "kind": "event",
+   "title": {
+    "ar": "سرية النعمان بن بشير إلى عين التمر",
+    "en": "al-Nuʿmān ibn Bashīr's raid on ʿAyn al-Tamr (39 AH)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-ayn-al-tamr-raid-39"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/ayn-jalut-658",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة عين جالوت وهزيمة التتار",
+    "en": "The battle of Ayn Jalut and the defeat of the Tatars"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-ayn-jalut-658"
    ],
    "coverage": "image"
   },
@@ -62113,6 +62449,24 @@
    "coverage": "image"
   },
   {
+   "id": "event/baghdad-manifesto-402",
+   "kind": "event",
+   "title": {
+    "ar": "المحضر البغدادي في الطعن في نسب الفاطميين",
+    "en": "The Baghdad Attestation on Fatimid Lineage"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-baghdad-manifesto-402"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "event/baghdad-sectarian-war-483",
    "kind": "event",
    "title": {
@@ -62127,6 +62481,24 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-baghdad-sectarian-war-483"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/bahira-encounter",
+   "kind": "event",
+   "title": {
+    "en": "The monk Bahira at Busra",
+    "ar": "لقاء الراهب بحيرا ببصرى"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-bahira-encounter"
    ],
    "coverage": "image"
   },
@@ -62527,6 +62899,24 @@
    "coverage": "image"
   },
   {
+   "id": "event/battle-of-marj-al-suffar",
+   "kind": "event",
+   "title": {
+    "ar": "يوم مرج الصفر",
+    "en": "The Battle of Marj al-Suffar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-battle-of-marj-al-suffar"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "event/battle-of-mega-spilaio-1827",
    "kind": "event",
    "title": {
@@ -62653,13 +63043,31 @@
    "coverage": "image"
   },
   {
+   "id": "event/battle-of-rayshahr",
+   "kind": "event",
+   "title": {
+    "ar": "وقعة ريشهر ومقتل شهرك",
+    "en": "Battle of Rayshahr and Shahrak's Death"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-battle-of-rayshahr"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "event/battle-of-rayy-195",
    "kind": "event",
    "title": {
     "ar": "وقعة طاهر بن الحسين مع علي بن عيسى",
     "en": "Clash of Tahir ibn al-Husayn with Ali ibn Isa"
    },
-   "status": "draft",
+   "status": "published",
    "span": null,
    "periods": [],
    "places": [],
@@ -62797,6 +63205,60 @@
    "coverage": "image"
   },
   {
+   "id": "event/battle-of-wadi-al-makhazin-1578",
+   "kind": "event",
+   "title": {
+    "ar": "معركة وادي المخازن (٩٨٦هـ/١٥٧٨م)",
+    "en": "Battle of Wadi al-Makhazin (986/1578)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-battle-of-wadi-al-makhazin-1578"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/baya-wilayat-ahd-yazid",
+   "kind": "event",
+   "title": {
+    "ar": "البيعة ليزيد بولاية العهد",
+    "en": "The pledge to Yazid as heir apparent"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-baya-wilayat-ahd-yazid"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/building-of-al-hashimiyya",
+   "kind": "event",
+   "title": {
+    "ar": "بناء المدينة الهاشمية بالكوفة",
+    "en": "The Building of the Hashimite City at Kufa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-building-of-al-hashimiyya"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "event/building-of-al-mughitha",
    "kind": "event",
    "title": {
@@ -62811,6 +63273,42 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-building-of-al-mughitha"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/building-of-masisa",
+   "kind": "event",
+   "title": {
+    "ar": "بناء حصن المصيصة",
+    "en": "The Building of the Fortress of Masisa"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-building-of-masisa"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/building-of-the-kaaba",
+   "kind": "event",
+   "title": {
+    "en": "The Raising of the Kaaba’s Foundations",
+    "ar": "رفع قواعد الكعبة"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-building-of-the-kaaba"
    ],
    "coverage": "image"
   },
@@ -62847,6 +63345,24 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-capture-of-oujda-1796"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/compilation-of-quran",
+   "kind": "event",
+   "title": {
+    "ar": "جمع القرآن في خلافة أبي بكر",
+    "en": "The Compilation of the Qur'an under Abu Bakr"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-compilation-of-quran"
    ],
    "coverage": "image"
   },
@@ -63315,6 +63831,24 @@
    "hero": null,
    "candidates": [
     "media/tbgen-event-fida-ransom-283"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "event/first-raid-on-sicily",
+   "kind": "event",
+   "title": {
+    "ar": "أول غزوة لصقلية وسبي عبد الله بن قيس لها",
+    "en": "The First Raid on Sicily and Abdallah ibn Qays's Plunder"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-event-first-raid-on-sicily"
    ],
    "coverage": "image"
   },
@@ -64567,6 +65101,42 @@
    "coverage": "image"
   },
   {
+   "id": "person/al-malik-al-aziz-uthman",
+   "kind": "person",
+   "title": {
+    "ar": "الملك العزيز عماد الدين عثمان بن صلاح الدين",
+    "en": "al-Malik al-Aziz Imad al-Din Uthman ibn Salah al-Din"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-person-al-malik-al-aziz-uthman"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "person/al-malik-al-salih-ayyub",
+   "kind": "person",
+   "title": {
+    "ar": "الملك الصالح نجم الدين أيوب بن الكامل",
+    "en": "al-Malik al-Salih Najm al-Din Ayyub ibn al-Kamil"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-person-al-malik-al-salih-ayyub"
+   ],
+   "coverage": "image"
+  },
+  {
    "id": "person/al-mustansir-hakam",
    "kind": "person",
    "title": {
@@ -64781,6 +65351,25 @@
    "hero": null,
    "candidates": [
     "media/tbgen-person-dervish-mehmed-pasha"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "person/firawn",
+   "kind": "person",
+   "title": {
+    "ar": "فرعون",
+    "en": "Pharaoh (Firawn)",
+    "ur": "فرعون"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-person-firawn"
    ],
    "coverage": "image"
   },
@@ -65508,6 +66097,25 @@
    "hero": null,
    "candidates": [
     "media/tbgen-person-yazid-ibn-ziyad-al-himyari"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "person/youssef-chahine",
+   "kind": "person",
+   "title": {
+    "ar": "يوسف شاهين",
+    "en": "Youssef Chahine",
+    "ur": "یوسف شاہین"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-person-youssef-chahine"
    ],
    "coverage": "image"
   },
@@ -67094,6 +67702,529 @@
    "hero": null,
    "candidates": [
     "media/tbgen-polity-walashma-dynasty"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/abu-khaythama-verses",
+   "kind": "work",
+   "title": {
+    "ar": "أبيات أبي خيثمة في لحاقه بالنبي",
+    "en": "Abu Khaythama's verses on joining the Prophet"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-abu-khaythama-verses"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/adab-al-dunya-wal-din",
+   "kind": "work",
+   "title": {
+    "ar": "أدب الدنيا والدين",
+    "en": "Adab al-Dunya wal-Din"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-adab-al-dunya-wal-din"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/adab-al-imla-wa-al-istimla",
+   "kind": "work",
+   "title": {
+    "ar": "أدب الإملاء والاستملاء",
+    "en": "Adab al-Imla' wa-al-Istimla'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-adab-al-imla-wa-al-istimla"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/ahkam-al-quran-ibn-al-arabi",
+   "kind": "work",
+   "title": {
+    "ar": "أحكام القرآن لابن العربي",
+    "en": "Ahkam al-Quran by Ibn al-Arabi"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-ahkam-al-quran-ibn-al-arabi"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/ahkam-al-quran-jassas",
+   "kind": "work",
+   "title": {
+    "ar": "أحكام القرآن للجصاص",
+    "en": "Ahkam al-Quran by al-Jassas"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-ahkam-al-quran-jassas"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/ahkam-al-quran-shafii",
+   "kind": "work",
+   "title": {
+    "ar": "أحكام القرآن (الشافعي)",
+    "en": "Ahkam al-Qur'an (al-Shafi'i)"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-ahkam-al-quran-shafii"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/ahkam-al-quran-tahawi",
+   "kind": "work",
+   "title": {
+    "ar": "أحكام القرآن للطحاوي",
+    "en": "Ahkam al-Quran by al-Tahawi"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-ahkam-al-quran-tahawi"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/ahsan-al-taqasim",
+   "kind": "work",
+   "title": {
+    "ar": "أحسن التقاسيم في معرفة الأقاليم",
+    "en": "Ahsan al-Taqasim fi Ma'rifat al-Aqalim"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-ahsan-al-taqasim"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/akhbar-umar-ibn-abd-al-aziz",
+   "kind": "work",
+   "title": {
+    "ar": "أخبار عمر بن عبد العزيز",
+    "en": "Akhbar 'Umar ibn 'Abd al-'Aziz"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-akhbar-umar-ibn-abd-al-aziz"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-adab-al-shariyya",
+   "kind": "work",
+   "title": {
+    "ar": "الآداب الشرعية",
+    "en": "Al-Adab al-Shar'iyya"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-adab-al-shariyya"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ahkam-al-sultaniyya-abu-yala",
+   "kind": "work",
+   "title": {
+    "ar": "الأحكام السلطانية لأبي يعلى",
+    "en": "al-Ahkam al-Sultaniyya by Abu Ya'la"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ahkam-al-sultaniyya-abu-yala"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ahkam-al-sultaniyya-mawardi",
+   "kind": "work",
+   "title": {
+    "ar": "الأحكام السلطانية للماوردي",
+    "en": "al-Ahkam al-Sultaniyya by al-Mawardi"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ahkam-al-sultaniyya-mawardi"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-amthal-al-saira",
+   "kind": "work",
+   "title": {
+    "ar": "الأمثال السائرة",
+    "en": "al-Amthal al-Sa'ira"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-amthal-al-saira"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ansab-samani",
+   "kind": "work",
+   "title": {
+    "ar": "الأنساب",
+    "en": "al-Ansab"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ansab-samani"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-dahhak-ibn-khalifa-verses",
+   "kind": "work",
+   "title": {
+    "ar": "أبيات الضحاك بن خليفة بعد تحريق بيت سويلم",
+    "en": "al-Dahhak ibn Khalifa's verses after the burning of Suwaylim's house"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-dahhak-ibn-khalifa-verses"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ihata-fi-tarikh-gharnata",
+   "kind": "work",
+   "title": {
+    "ar": "الإحاطة في تاريخ غرناطة",
+    "en": "al-Ihata fi Tarikh Gharnata"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ihata-fi-tarikh-gharnata"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-iklil-hamdani",
+   "kind": "work",
+   "title": {
+    "ar": "الإكليل في أنساب حمير وأيام ملوكها",
+    "en": "al-Iklil fi Ansab Himyar wa-Ayyam Mulukiha"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-iklil-hamdani"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ilam-bil-hurub",
+   "kind": "work",
+   "title": {
+    "ar": "الإعلام بالحروب الواقعة في صدر الإسلام",
+    "en": "al-I'lam bil-Hurub al-Waqi'a fi Sadr al-Islam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ilam-bil-hurub"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ilam-fi-hudud-al-ahkam",
+   "kind": "work",
+   "title": {
+    "ar": "الإعلام في حدود الأحكام",
+    "en": "al-I'lam fi Hudud al-Ahkam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ilam-fi-hudud-al-ahkam"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ilam-tarikh-ahl-al-islam",
+   "kind": "work",
+   "title": {
+    "ar": "الإعلام بتاريخ أهل الإسلام",
+    "en": "al-I'lam bi-Tarikh Ahl al-Islam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ilam-tarikh-ahl-al-islam"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/al-ilan-bil-tawbikh",
+   "kind": "work",
+   "title": {
+    "ar": "الإعلان بالتوبيخ لمن ذم أصحاب التاريخ",
+    "en": "al-I'lan bil-Tawbikh li-man Damma Ashab al-Tarikh"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-al-ilan-bil-tawbikh"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/asma-bint-marwan-verses-against-the-ansar",
+   "kind": "work",
+   "title": {
+    "ar": "أبيات عصماء بنت مروان في عيب الأنصار وطاعتهم «الأتاوي»",
+    "en": "Asma' bint Marwan's verses reviling the Ansar for obeying 'the stranger'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-asma-bint-marwan-verses-against-the-ansar"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/hassan-reply-to-asma-bint-marwan",
+   "kind": "work",
+   "title": {
+    "ar": "جواب حسان بن ثابت على عصماء بنت مروان",
+    "en": "Hassan ibn Thabit's reply to Asma' bint Marwan"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-hassan-reply-to-asma-bint-marwan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/hassan-reply-to-zibriqan",
+   "kind": "work",
+   "title": {
+    "ar": "قصيدة حسان في الرد على الزبرقان «إن الذوائب من فهر وإخوتهم»",
+    "en": "Hassan ibn Thabit's reply to al-Zibriqan, 'The chiefs of Fihr and their brothers'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-hassan-reply-to-zibriqan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/hassan-second-reply-to-zibriqan",
+   "kind": "work",
+   "title": {
+    "ar": "قصيدة حسان «هل المجد إلا السؤدد العود والندى» في الرد على الزبرقان",
+    "en": "Hassan ibn Thabit's second reply to al-Zibriqan, 'Is glory anything but ancient lordship and bounty?'"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-hassan-second-reply-to-zibriqan"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/hikayat-abi-l-qasim-al-baghdadi",
+   "kind": "work",
+   "title": {
+    "ar": "حكاية أبي القاسم البغدادي",
+    "en": "Hikayat Abi l-Qasim al-Baghdadi",
+    "ur": "حکایت ابو القاسم البغدادی"
+   },
+   "status": "published",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-hikayat-abi-l-qasim-al-baghdadi"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/kaab-ibn-malik-account-of-tabuk",
+   "kind": "work",
+   "title": {
+    "ar": "حديث كعب بن مالك في تخلفه عن تبوك",
+    "en": "Ka'b ibn Malik's account of staying behind at Tabuk"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-kaab-ibn-malik-account-of-tabuk"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/letter-to-the-kings-of-himyar",
+   "kind": "work",
+   "title": {
+    "ar": "كتاب النبي إلى ملوك حمير",
+    "en": "The Prophet's letter to the kings of Himyar"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-letter-to-the-kings-of-himyar"
+   ],
+   "coverage": "image"
+  },
+  {
+   "id": "work/reconstruction-religious-thought-islam",
+   "kind": "work",
+   "title": {
+    "ar": "تجديد الفكر الديني في الإسلام",
+    "en": "The Reconstruction of Religious Thought in Islam"
+   },
+   "status": "draft",
+   "span": null,
+   "periods": [],
+   "places": [],
+   "tags": [],
+   "hero": null,
+   "candidates": [
+    "media/tbgen-work-reconstruction-religious-thought-islam"
    ],
    "coverage": "image"
   }

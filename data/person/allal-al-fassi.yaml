@@ -1,0 +1,56 @@
+id: person/allal-al-fassi
+class: person
+label:
+  ar: "علال الفاسي"
+  en: "Allal al-Fassi"
+  ur: "علال الفاسی"
+names:
+  - { value: "محمد علال الفاسي", kind: full }
+  - { value: "Mohamed Allal al-Fassi", kind: full }
+  - { value: "Allal El Fassi", kind: latinized }
+gender: male
+born:
+  edtf: "1910-01-10"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Fez on 10 January 1910 (French, English and Arabic biographies; Wikidata agrees). 10 January 1910 falls in 1327 AH, recorded here at year precision."
+  sources: [source/wikipedia-allal-al-fassi-fr, source/wikipedia-allal-al-fassi-en, source/wikipedia-allal-al-fassi-ar, source/wikidata-allal-al-fassi]
+died:
+  edtf: "1974-05-13"
+  hijri: "1394"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Bucharest on 13 May 1974, during an official mission (French, English and Arabic biographies; Wikidata agrees). 13 May 1974 falls in 1394 AH, recorded here at year precision. Bucharest has no place entity on main, so no died_in edge is written."
+  sources: [source/wikipedia-allal-al-fassi-fr, source/wikipedia-allal-al-fassi-en, source/wikipedia-allal-al-fassi-ar, source/wikidata-allal-al-fassi]
+roles: [scholar, politician, writer]
+regions: [maghreb]
+wings: [people]
+relations:
+  - { type: born_in, target: place/fez, sources: [source/wikipedia-allal-al-fassi-fr, source/wikipedia-allal-al-fassi-en, source/wikidata-allal-al-fassi] }
+faith:
+  - value: sunni-maliki
+    basis: documented
+    note: "Two independent attestations name the Maliki school for the man himself. The Arabic biography states that he had a long reach and a firm footing in Islamic jurisprudence, 'especially Maliki fiqh and comparative fiqh', and that his juristic opinions are cited by the scholars of Morocco, Algeria and Tunisia. The English biography and the scholarship it rests on record that the reform plan he led demanded the unification of the legal system under Maliki law, that his own work in the law of worship claimed to uphold Maliki law (Bargach), and that the Mudawana personal-status code he helped codify was based on Maliki law (Salih). Preserved with it: al-Fassi was a leading figure of the Salafiyya reform current, a sharp critic of Maliki taqlid whose programme diverged from Maliki norms at points, and Benjamin Bruce (2018) describes him as having shown himself hostile to Morocco's Maliki school as an obstacle to reason; none of that places him in another school, and the Salafiyya is a current of thought, never recorded here as a value. His Ash'ari creed, attested by Henri Lauzière (2015), has no enum value and is recorded in this note only. Wikidata's religion value gives Islam in general."
+    sources: [source/wikipedia-allal-al-fassi-ar, source/wikipedia-allal-al-fassi-en, source/wikidata-allal-al-fassi]
+summary:
+  ar: "عالم وفقيه وسياسي مغربي (1910–1974)، وُلد بفاس وتخرّج في جامعة القرويين، وكان من مؤسسي الحركة الوطنية المغربية: شارك في تأسيس كتلة العمل الوطني سنة 1934 وحزب الاستقلال، ونفته فرنسا إلى الغابون تسع سنوات (1937–1946)، ثم قاد حزب الاستقلال من 1960 حتى وفاته وتولى وزارة الشؤون الإسلامية (1961–1963). اشتهر في الفقه بباعه الطويل في الفقه المالكي والمقارن، ومن كتبه «النقد الذاتي» (1952) و«مقاصد الشريعة الإسلامية ومكارمها»، وشارك في تقنين مدونة الأحوال الشخصية على أساس الفقه المالكي."
+  en: "Moroccan scholar, jurist and politician (1910–1974), born at Fez and formed at the Qarawiyyin. A founder of the Moroccan national movement, he helped create the Moroccan Action Committee in 1934 and the Istiqlal Party, was exiled by France to Gabon for nine years (1937–1946), led the Istiqlal from 1960 until his death and served as minister of Islamic affairs (1961–1963). As a jurist he was known for his mastery of Maliki and comparative fiqh; his books include Self-Criticism (1952) and The Purposes of the Islamic Sharia and its Noble Qualities, and he helped codify the Mudawana personal-status code on a Maliki basis."
+  ur: "مغربی عالم، فقیہ اور سیاست دان (1910–1974)، فاس میں پیدا ہوئے اور جامعہ قرویین سے تعلیم پाई۔ مغربی قومی تحریک کے بانیوں میں سے تھے: 1934ء میں کتلہ عملِ وطنی اور پھر حزبِ استقلال کے قیام میں شریک ہوئے، فرانس نے انہیں نو سال (1937–1946ء) گیبون جلاوطن رکھا، 1960ء سے وفات تک حزبِ استقلال کی قیادت کی اور 1961–1963ء میں وزیرِ امورِ اسلامیہ رہے۔ فقہ میں وہ فقہ مالکی اور فقہ مقارن پر اپنی گرفت کے لیے مشہور تھے؛ ان کی کتابوں میں «النقد الذاتی» (1952ء) اور «مقاصد الشریعۃ الاسلامیۃ و مکارمہا» شامل ہیں، اور مدونہ احوالِ شخصیہ کی مالکی بنیادوں پر تدوین میں شریک رہے۔"
+sources:
+  - source/wikipedia-allal-al-fassi-en
+  - source/wikipedia-allal-al-fassi-fr
+  - source/wikipedia-allal-al-fassi-ar
+  - source/wikidata-allal-al-fassi
+external_ids:
+  wikidata: Q2837662
+provenance:
+  layer: own-research
+  source: "English, French and Arabic Wikipedia biographies of Allal al-Fassi (Q2837662) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, the Wikidata item revision was re-asserted against a second live query, and the QID was grounded through the articles' page properties. Existence checks by name fragments (fassi, الفاسي) and by QID across data/person on origin/main found no prior record for him (the Fassi records on main are other men). His father Abd al-Wahid al-Fassi and his son Abdelouahed al-Fassi have no records on main, so no family edges are written; place/fez is the modern Fez entity used by the records on main (place/fes is a separate historical sketch)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-141
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

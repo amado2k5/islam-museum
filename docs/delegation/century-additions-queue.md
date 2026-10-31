@@ -650,147 +650,147 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mohammed Daoud Khan — 1909–1978
 - [x] Nur Muhammad Taraki — 1917–1979
 - [x] Hafizullah Amin — 1929–1979
-- [ ] Babrak Karmal — 1929–1996
-- [ ] Mohammad Najibullah — 1947–1996
-- [ ] Sibghatullah Mojaddedi — 1925–2019
-- [ ] Sukarno — 1901–1970
-- [ ] Suharto — 1921–2008
-- [ ] Abdurrahman Wahid (Gus Dur) — 1940–2009
-- [ ] Susilo Bambang Yudhoyono — 1949–Living
-- [ ] Joko Widodo (Jokowi) — 1961–Living
-- [ ] Prabowo Subianto — 1951–Living
-- [ ] Mohammad Hatta — 1802–1980
-- [ ] Sutan Sjahrir — 1909–1966
-- [ ] Hamengkubuwono IX — 1912–1988
-- [ ] Adam Malik — 1917–1984
-- [ ] Tunku Abdul Rahman — 1903–1990
-- [ ] Tun Abdul Razak — 1922–1976
-- [ ] Tun Hussein Onn — 1922–1990
-- [ ] Tun Abdullah Ahmad Badawi — 1939–2024
-- [ ] Najib Razak — 1953–Living
-- [ ] Muhyiddin Yassin — 1947–Living
-- [ ] Ismail Sabri Yaakob — 1960–Living
-- [ ] Anwar Ibrahim — 1947–Living
-- [ ] Sultan Ibrahim Ismail — 1958–Living
-- [ ] Sultan Azlan Shah — 1928–2014
-- [ ] Hassanal Bolkiah — 1946–Living
-- [ ] Omar Ali Saifuddien III — 1914–1986
-- [ ] Nur Misuari — 1939–Living
-- [ ] Murad Ebrahim — 1948–Living
-- [ ] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
-- [ ] Wan Muhamad Noor Matha — 1944–Living
-- [ ] Surin Pitsuwan — 1949–2017
-- [ ] Azza Karam — 1968–Living
-- [ ] Dr. Sania Nishtar — 1963–Living
-- [ ] Dr. Zubaida Sirang — 1990–Living
-- [ ] Dr. Abdul Samad — 1980–Living
-- [ ] Dr. Muhammad Ashraf — 1953–Living
-- [ ] Dr. Salim Ali (Contemporary) — 1896–1987
-- [ ] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
-- [ ] Hakim Abdul Hameed — 1908–1999
-- [ ] Dr. Syed Zahoor Qasim — 1926–2015
-- [ ] Asghar Ali Engineer — 1939–2013
-- [ ] Maulana Abul Kalam Azad — 1888–1958
-- [ ] Zakir Husain — 1897–1969
-- [ ] Fakhruddin Ali Ahmed — 1905–1977
-- [ ] Mohammad Hidayatullah — 1905–1992
-- [ ] M. C. Chagla — 1900–1981
-- [ ] Syed Shahabuddin — 1935–2017
-- [ ] Ebrahim Alkazi — 1925–2020
-- [ ] Habib Tanvir — 1923–2009
-- [ ] Kaifi Azmi — 1919–2002
-- [ ] Javed Akhtar — 1945–Living
-- [ ] Shabana Azmi — 1950–Living
-- [ ] Naseeruddin Shah — 1950–Living
-- [ ] Irrfan Khan — 1967–2020
-- [ ] Nawazuddin Siddiqui — 1974–Living
-- [ ] Salman Khan — 1965–Living
-- [ ] Saif Ali Khan — 1970–Living
-- [ ] Fatima Sana Shaikh — 1992–Living
-- [ ] Zaira Wasim — 2000–Living
-- [ ] Bismillah Khan — 1916–2006
-- [ ] Amjad Ali Khan — 1945–Living
-- [ ] Zakir Hussain — 1951–Living
-- [ ] Vilayat Khan — 1928–2004
+- [x] Babrak Karmal — 1929–1996
+- [x] Mohammad Najibullah — 1947–1996
+- [x] Sibghatullah Mojaddedi — 1925–2019
+- [x] Sukarno — 1901–1970
+- [x] Suharto — 1921–2008
+- [x] Abdurrahman Wahid (Gus Dur) — 1940–2009
+- [x] Susilo Bambang Yudhoyono — 1949–Living
+- [x] Joko Widodo (Jokowi) — 1961–Living
+- [x] Prabowo Subianto — 1951–Living
+- [x] Mohammad Hatta — 1802–1980
+- [x] Sutan Sjahrir — 1909–1966
+- [x] Hamengkubuwono IX — 1912–1988
+- [x] Adam Malik — 1917–1984
+- [x] Tunku Abdul Rahman — 1903–1990
+- [x] Tun Abdul Razak — 1922–1976
+- [x] Tun Hussein Onn — 1922–1990
+- [x] Tun Abdullah Ahmad Badawi — 1939–2024
+- [x] Najib Razak — 1953–Living
+- [x] Muhyiddin Yassin — 1947–Living
+- [x] Ismail Sabri Yaakob — 1960–Living
+- [x] Anwar Ibrahim — 1947–Living
+- [x] Sultan Ibrahim Ismail — 1958–Living
+- [x] Sultan Azlan Shah — 1928–2014
+- [x] Hassanal Bolkiah — 1946–Living
+- [x] Omar Ali Saifuddien III — 1914–1986
+- [x] Nur Misuari — 1939–Living
+- [x] Murad Ebrahim — 1948–Living
+- [x] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
+- [x] Wan Muhamad Noor Matha — 1944–Living
+- [x] Surin Pitsuwan — 1949–2017
+- [x] Azza Karam — 1968–Living
+- [x] Dr. Sania Nishtar — 1963–Living
+- [x] Dr. Zubaida Sirang — 1990–Living
+- [x] Dr. Abdul Samad — 1980–Living
+- [~] Dr. Muhammad Ashraf — 1953–Living
+- [x] Dr. Salim Ali (Contemporary) — 1896–1987
+- [x] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
+- [x] Hakim Abdul Hameed — 1908–1999
+- [x] Dr. Syed Zahoor Qasim — 1926–2015
+- [x] Asghar Ali Engineer — 1939–2013
+- [x] Maulana Abul Kalam Azad — 1888–1958
+- [x] Zakir Husain — 1897–1969
+- [x] Fakhruddin Ali Ahmed — 1905–1977
+- [x] Mohammad Hidayatullah — 1905–1992
+- [x] M. C. Chagla — 1900–1981
+- [x] Syed Shahabuddin — 1935–2017
+- [x] Ebrahim Alkazi — 1925–2020
+- [x] Habib Tanvir — 1923–2009
+- [x] Kaifi Azmi — 1919–2002
+- [x] Javed Akhtar — 1945–Living
+- [x] Shabana Azmi — 1950–Living
+- [x] Naseeruddin Shah — 1950–Living
+- [x] Irrfan Khan — 1967–2020
+- [x] Nawazuddin Siddiqui — 1974–Living
+- [x] Salman Khan — 1965–Living
+- [x] Saif Ali Khan — 1970–Living
+- [x] Fatima Sana Shaikh — 1992–Living
+- [x] Zaira Wasim — 2000–Living
+- [x] Bismillah Khan — 1916–2006
+- [x] Amjad Ali Khan — 1945–Living
+- [x] Zakir Hussain — 1951–Living
+- [x] Vilayat Khan — 1928–2004
 - [x] Bade Ustad Ghulam Ali Khan — 1902–1968
-- [ ] Begum Akhtar — 1914–1974
-- [ ] Mehdi Hassan — 1927–2012
-- [ ] Ghulam Ali — 1940–Living
-- [ ] Reshma — 1947–2013
-- [ ] Alam Lohar — 1926–1979
-- [ ] Arif Lohar — 1966–Living
-- [ ] Atif Aslam — 1983–Living
-- [ ] Ali Zafar — 1980–Living
-- [ ] Sajjad Ali — 1966–Living
-- [ ] Nazia Hassan — 1965–2000
-- [ ] Zoheb Hassan — 1966–Living
-- [ ] Rohail Hyatt — 1966–Living
-- [ ] Shoaib Mansoor — 1952–Living
-- [ ] Hassam Khan — 1990–Living
-- [ ] Fawad Khan — 1981–Living
-- [ ] Mahira Khan — 1984–Living
-- [ ] Saba Qamar — 1984–Living
-- [ ] Humayun Saeed — 1971–Living
-- [ ] Sharif Finch — 1995–Living
-- [ ] Muhammad Wilkerson — 1989–Living
-- [ ] Husain Abdullah — 1985–Living
-- [ ] Hamza Abdullah — 1983–Living
-- [ ] Naji Marshall — 1998–Living
-- [ ] Tari Eason — 2001–Living
-- [ ] Jaylen Brown (Contemporary) — 1996–Living
-- [ ] Kyrie Irving — 1992–Living
-- [ ] Rondae Hollis-Jefferson — 1995–Living
-- [ ] Enes Kanter Freedom — 1992–Living
-- [ ] Mehmet Okur — 1979–Living
-- [ ] Hedo Türkoğlu — 1979–Living
-- [ ] Alperen Şengün — 2002–Living
-- [ ] Mirza Teletović — 1985–Living
-- [ ] Jusuf Nurkić — 1994–Living
-- [ ] Džanan Musa — 1999–Living
-- [ ] Bojan Bogdanović (Contemporary) — 1989–Living
-- [ ] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
-- [ ] Plestia Alaqad — 2001–Living
-- [ ] Wael Al-Dahdouh — 1970–Living
-- [ ] Shireen Abu Akleh — 1971–2022
-- [ ] Ghada Karmi — 1939–Living
-- [ ] Ilan Pappé (Honored Historian) — 1954–Living
-- [ ] Walid Khalidi — 1925–Living
-- [ ] Rashid Khalidi — 1948–Living
-- [ ] Noura Erakat — 1980–Living
-- [ ] Mohammed El-Kurd — 1998–Living
-- [ ] Muna El-Kurd — 1998–Living
-- [ ] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
-- [ ] Mustapha Cherif — 1950–Living
-- [ ] Souleymane Bachir Diagne — 1955–Living
-- [ ] Ebrahim Moosa — 1957–Living
-- [ ] Omid Safi — 1970–Living
-- [ ] Jonathan A.C. Brown — 1977–Living
-- [ ] Asadullah Yate — 1952–Living
-- [ ] Abdalhaqq Bewley — 1940–Living
-- [ ] Aisha Bewley — 1948–Living
-- [ ] M. A. S. Abdel Haleem — 1938–Living
-- [ ] Mustafa Khattab — 1980–Living
-- [ ] Mustafa Cerić — 1952–Living
-- [ ] Husein Smajić — 1952–Living
-- [ ] Nedžad Grabus — 1968–Living
-- [ ] Şükrü Hanioğlu — 1955–Living
-- [ ] Halil İnalcık — 1916–2016
-- [ ] Fuat Sezgin — 1924–2018
-- [ ] Ilber Ortaylı — 1947–Living
-- [ ] Celâl Şengör — 1955–Living
-- [ ] Gökhan Hotamışlıgil — 1962–Living
-- [ ] Feryal Özel — 1975–Living
-- [ ] Muazzez İlmiye Çığ — 1914–2024
-- [ ] Canan Dağdeviren — 1985–Living
-- [ ] Mete Atatüre — 1975–Living
-- [ ] Umut Yıldız — 1980–Living
-- [ ] Sultan Kösen — 1982–Living
-- [ ] Naim Süleymanoğlu — 1967–2017
-- [ ] Halil Mutlu — 1973–Living
-- [ ] Hamza Yerlikaya — 1976–Living
-- [ ] Taha Akgül — 1990–Living
-- [ ] Rıza Kayaalp — 1989–Living
-- [ ] Busenaz Sürmeneli — 1998–Living
+- [x] Begum Akhtar — 1914–1974
+- [x] Mehdi Hassan — 1927–2012
+- [x] Ghulam Ali — 1940–Living
+- [x] Reshma — 1947–2013
+- [x] Alam Lohar — 1926–1979
+- [x] Arif Lohar — 1966–Living
+- [x] Atif Aslam — 1983–Living
+- [x] Ali Zafar — 1980–Living
+- [x] Sajjad Ali — 1966–Living
+- [x] Nazia Hassan — 1965–2000
+- [x] Zoheb Hassan — 1966–Living
+- [x] Rohail Hyatt — 1966–Living
+- [x] Shoaib Mansoor — 1952–Living
+- [x] Hassam Khan — 1990–Living
+- [x] Fawad Khan — 1981–Living
+- [x] Mahira Khan — 1984–Living
+- [x] Saba Qamar — 1984–Living
+- [x] Humayun Saeed — 1971–Living
+- [x] Sharif Finch — 1995–Living
+- [x] Muhammad Wilkerson — 1989–Living
+- [x] Husain Abdullah — 1985–Living
+- [x] Hamza Abdullah — 1983–Living
+- [x] Naji Marshall — 1998–Living
+- [x] Tari Eason — 2001–Living
+- [x] Jaylen Brown (Contemporary) — 1996–Living
+- [x] Kyrie Irving — 1992–Living
+- [x] Rondae Hollis-Jefferson — 1995–Living
+- [x] Enes Kanter Freedom — 1992–Living
+- [x] Mehmet Okur — 1979–Living
+- [x] Hedo Türkoğlu — 1979–Living
+- [x] Alperen Şengün — 2002–Living
+- [x] Mirza Teletović — 1985–Living
+- [x] Jusuf Nurkić — 1994–Living
+- [x] Džanan Musa — 1999–Living
+- [x] Bojan Bogdanović (Contemporary) — 1989–Living
+- [x] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
+- [x] Plestia Alaqad — 2001–Living
+- [x] Wael Al-Dahdouh — 1970–Living
+- [x] Shireen Abu Akleh — 1971–2022
+- [x] Ghada Karmi — 1939–Living
+- [x] Ilan Pappé (Honored Historian) — 1954–Living
+- [x] Walid Khalidi — 1925–Living
+- [x] Rashid Khalidi — 1948–Living
+- [x] Noura Erakat — 1980–Living
+- [x] Mohammed El-Kurd — 1998–Living
+- [x] Muna El-Kurd — 1998–Living
+- [~] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
+- [x] Mustapha Cherif — 1950–Living
+- [x] Souleymane Bachir Diagne — 1955–Living
+- [x] Ebrahim Moosa — 1957–Living
+- [x] Omid Safi — 1970–Living
+- [x] Jonathan A.C. Brown — 1977–Living
+- [x] Asadullah Yate — 1952–Living
+- [x] Abdalhaqq Bewley — 1940–Living
+- [x] Aisha Bewley — 1948–Living
+- [x] M. A. S. Abdel Haleem — 1938–Living
+- [x] Mustafa Khattab — 1980–Living
+- [x] Mustafa Cerić — 1952–Living
+- [x] Husein Smajić — 1952–Living
+- [x] Nedžad Grabus — 1968–Living
+- [x] Şükrü Hanioğlu — 1955–Living
+- [x] Halil İnalcık — 1916–2016
+- [x] Fuat Sezgin — 1924–2018
+- [x] Ilber Ortaylı — 1947–2026
+- [x] Celâl Şengör — 1955–Living
+- [x] Gökhan Hotamışlıgil — 1962–Living
+- [x] Feryal Özel — 1975–Living
+- [x] Muazzez İlmiye Çığ — 1914–2024
+- [x] Canan Dağdeviren — 1985–Living
+- [x] Mete Atatüre — 1975–Living
+- [x] Umut Yıldız — 1980–Living
+- [x] Sultan Kösen — 1982–Living
+- [x] Naim Süleymanoğlu — 1967–2017
+- [x] Halil Mutlu — 1973–Living
+- [x] Hamza Yerlikaya — 1976–Living
+- [x] Taha Akgül — 1990–Living
+- [x] Rıza Kayaalp — 1989–Living
+- [x] Busenaz Sürmeneli — 1998–Living
 - [ ] Mete Gazoz — 1999–Living
 - [ ] Servet Tazegül — 1988–Living
 - [ ] Nur Tatar — 1992–Living
@@ -1555,168 +1555,168 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sir Haji Abdullah Haroon (1872–1942)
 - [x] Lady Nusrat Abdullah Haroon (1886–1966)
 - [x] Ghulam Hussain Hidayatullah (1879–1948)
-- [ ] Seth Karoor Mal (Muslim Partners) (1860–1920)
-- [ ] Mian Ali Mohammad Rashdi (1905–1987)
-- [ ] Pir Ali Muhammad Rashidi (1905–1987)
-- [ ] Pir Illahi Bux (1897–1975)
-- [ ] G. M. Syed (1904–1995)
-- [ ] Qazi Muhammad Esa (1914–1973)
-- [ ] Mir Ahmad Yar Khan (1906–1979)
-- [ ] Mir Azam Jan (1870–1933)
-- [ ] Mir Khudadad Khan (1835–1907)
-- [ ] Nawab Nowroz Khan (1874–1964)
-- [ ] Yusuf Aziz Magsi (1908–1935)
+- [~] Seth Karoor Mal (Muslim Partners) (1860–1920)
+- [x] Mian Ali Mohammad Rashdi (1905–1987)
+- [x] Pir Ali Muhammad Rashidi (1905–1987)
+- [x] Pir Illahi Bux (1897–1975)
+- [x] G. M. Syed (1904–1995)
+- [x] Qazi Muhammad Esa (1914–1973)
+- [x] Mir Ahmad Yar Khan (1906–1979)
+- [x] Mir Azam Jan (1870–1933)
+- [x] Mir Khudadad Khan (1835–1907)
+- [x] Nawab Nowroz Khan (1874–1964)
+- [x] Yusuf Aziz Magsi (1908–1935)
 - [ ] Abdul Samad Khan Achakzai (1907–1973)
-- [ ] Mirwaiz Moulvi Farooq (Ancestors) (1880–1930)
-- [ ] Mirwaiz Yusuf Shah (1894–1968)
-- [ ] Choudhary Ghulam Abbas (1904–1967)
-- [ ] Prem Nath Bazaz (Muslim Associates) (1905–1940)
-- [ ] Syed Mir Kasim (1919–2004)
-- [ ] Begum Akbar Jehan Abdullah (1907–2000)
-- [ ] Mian Nizamuddin Kianwi (1830–1913)
-- [ ] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
-- [ ] Master Zinda Kaul (Muslim Circle) (1880–1950)
-- [ ] Ghulam Ahmad Mahjoor (1887–1952)
-- [ ] Abdul Ahad Azad (1903–1948)
-- [ ] Rasul Mir (1840–1870)
-- [ ] Mahmud Gami (1765–1855)
-- [ ] Maqbool Shah Kralwari (1820–1875)
-- [ ] Samad Mir (1893–1959)
-- [ ] Agha Shahid Ali (Ancestry) (1890–1940)
-- [ ] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
+- [~] Mirwaiz Moulvi Farooq (Ancestors) (1880–1930)
+- [x] Mirwaiz Yusuf Shah (1894–1968)
+- [x] Choudhary Ghulam Abbas (1904–1967)
+- [x] Prem Nath Bazaz (Muslim Associates) (1905–1940)
+- [x] Syed Mir Kasim (1919–2004)
+- [x] Begum Akbar Jehan Abdullah (1907–2000)
+- [x] Mian Nizamuddin Kianwi (1830–1913)
+- [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
+- [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
+- [x] Ghulam Ahmad Mahjoor (1887–1952)
+- [x] Abdul Ahad Azad (1903–1948)
+- [x] Rasul Mir (1840–1870)
+- [x] Mahmud Gami (1765–1855)
+- [x] Maqbool Shah Kralwari (1820–1875)
+- [x] Samad Mir (1893–1959)
+- [~] Agha Shahid Ali (Ancestry) (1890–1940)
+- [~] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
 - [x] Saifuddin Kitchlew (1888–1963)
-- [ ] Justice Din Muhammad (1886–1952)
-- [ ] Mian Abdul Rashid (1889–1981)
-- [ ] Khalifa Shuja-ud-Din (1887–1955)
-- [ ] Allama Abdullah Yusuf Ali (1872–1953)
-- [ ] Pickthall's Muslim Colleagues (1910–1935)
-- [ ] Abdullah Quilliam (1856–1932)
-- [ ] Lord Headley (Rowland Allanson-Winn) (1855–1935)
-- [ ] Muhammad Marmaduke Pickthall (1875–1936)
-- [ ] Khalid Sheldrake (1888–1947)
-- [ ] Sir Archibald Hamilton (1876–1939)
-- [ ] Lady Evelyn Cobbold (1867–1963)
-- [ ] Tariq Benouri (1860–1925)
-- [ ] Adda Benshitrit (1870–1935)
-- [ ] Sheikh Si Kaddour Benghabrit (1868–1954)
-- [ ] Hamza Boubakeur (Ancestors) (1890–1940)
-- [ ] Mahmud Brelvi (1905–1985)
-- [ ] Ahmed Peshtani (1850–1915)
-- [ ] Haxhi Zeka (1832–1902)
-- [ ] Ymer Prizreni (1820–1887)
-- [ ] Avni Rustemi (1895–1924)
-- [ ] Bajram Curri (1862–1925)
-- [ ] Luigj Gurakuqi (Muslim Allies) (1879–1925)
-- [ ] Hasan Prishtina (1873–1933)
-- [ ] Essad Pasha Toptani (1863–1920)
-- [ ] Vehbi Dibra (1867–1937)
-- [ ] Hafiz Ali Korça (1873–1956)
-- [ ] Salih Safvet Bašić (1886–1948)
-- [ ] Safvet-beg Bašagić (1870–1934)
-- [ ] Edhem Mulabdić (1862–1954)
-- [ ] Osman Nuri Hadžić (1869–1937)
-- [ ] Mehmed Spaho (1883–1939)
-- [ ] Fehim Spaho (1877–1942)
-- [ ] Mustafa Mujezinović (1890–1945)
-- [ ] Muse Ćazim Ćatić (1878–1915)
-- [ ] Avdo Karabegović (1878–1908)
-- [ ] Nafija Sarajlić (1893–1970)
-- [ ] Osman Đikić (1879–1912)
-- [ ] Ali-beg Firdus (1862–1910)
-- [ ] Mustaj-beg Kapetanović (1860–1915)
-- [ ] Mehmed-beg Kapetanović Ljubušak (1839–1902)
-- [ ] Ibrahim-beg Bašagić (1840–1902)
-- [ ] Hamdija Kreševljaković (1888–1959)
-- [ ] Husein Đozo (Elders) (1890–1940)
-- [ ] Šakir Sikirić (1893–1966)
-- [ ] Mustafa Busuladžić (1914–1945)
-- [ ] Kosta Hörmann (Muslim Associates) (1850–1910)
-- [ ] Sheikh Youssef al-Nabhani (1849–1932)
-- [ ] Taqi al-Din al-Nabhani (Father) (1880–1940)
-- [ ] Ibrahim al-Dabbagh (1880–1946)
-- [ ] Ali al-Rimawi (1860–1919)
-- [ ] Yusuf al-Khalidi (1842–1906)
-- [ ] Raghib al-Khalidi (1866–1952)
-- [ ] Sa'id al-Husayni (1878–1945)
-- [ ] Wasif Jawhariyyeh (Muslim Associates) (1897–1972)
-- [ ] As'ad al-Shuqairi (1860–1940)
-- [ ] Ahmad Shuqairi (1908–1980)
-- [ ] Subhi al-Khadra (1895–1954)
-- [ ] Akram Zuaiter (1909–1996)
-- [ ] Awni Abd al-Hadi (1889–1970)
-- [ ] Tarab Abdul Hadi (1910–1976)
-- [ ] Sadhij Nassar (1900–1970)
-- [ ] Mogannam Mogannam (Muslim Allies) (1895–1945)
-- [ ] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
-- [ ] As'ad Qaddura (1880–1959)
-- [ ] Sheikh Muhammad al-Sa'id (1870–1930)
+- [x] Justice Din Muhammad (1886–1952)
+- [x] Mian Abdul Rashid (1889–1981)
+- [x] Khalifa Shuja-ud-Din (1887–1955)
+- [x] Allama Abdullah Yusuf Ali (1872–1953)
+- [~] Pickthall's Muslim Colleagues (1910–1935)
+- [x] Abdullah Quilliam (1856–1932)
+- [x] Lord Headley (Rowland Allanson-Winn) (1855–1935)
+- [x] Muhammad Marmaduke Pickthall (1875–1936)
+- [x] Khalid Sheldrake (1888–1947)
+- [x] Sir Archibald Hamilton (1876–1939)
+- [x] Lady Evelyn Cobbold (1867–1963)
+- [~] Tariq Benouri (1860–1925)
+- [~] Adda Benshitrit (1870–1935)
+- [x] Sheikh Si Kaddour Benghabrit (1868–1954)
+- [~] Hamza Boubakeur (Ancestors) (1890–1940)
+- [x] Mahmud Brelvi (1905–1985)
+- [~] Ahmed Peshtani (1850–1915)
+- [x] Haxhi Zeka (1832–1902)
+- [x] Ymer Prizreni (1820–1887)
+- [x] Avni Rustemi (1895–1924)
+- [x] Bajram Curri (1862–1925)
+- [x] Luigj Gurakuqi (Muslim Allies) (1879–1925)
+- [x] Hasan Prishtina (1873–1933)
+- [x] Essad Pasha Toptani (1863–1920)
+- [x] Vehbi Dibra (1867–1937)
+- [x] Hafiz Ali Korça (1873–1956)
+- [x] Salih Safvet Bašić (1886–1948)
+- [x] Safvet-beg Bašagić (1870–1934)
+- [x] Edhem Mulabdić (1862–1954)
+- [x] Osman Nuri Hadžić (1869–1937)
+- [x] Mehmed Spaho (1883–1939)
+- [x] Fehim Spaho (1877–1942)
+- [~] Mustafa Mujezinović (1890–1945)
+- [x] Muse Ćazim Ćatić (1878–1915)
+- [x] Avdo Karabegović (1878–1908)
+- [x] Nafija Sarajlić (1893–1970)
+- [x] Osman Đikić (1879–1912)
+- [x] Ali-beg Firdus (1862–1910)
+- [~] Mustaj-beg Kapetanović (1860–1915)
+- [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
+- [x] Ibrahim-beg Bašagić (1840–1902)
+- [x] Hamdija Kreševljaković (1888–1959)
+- [~] Husein Đozo (Elders) (1890–1940)
+- [x] Šakir Sikirić (1893–1966)
+- [x] Mustafa Busuladžić (1914–1945)
+- [x] Kosta Hörmann (Muslim Associates) (1850–1910)
+- [x] Sheikh Youssef al-Nabhani (1849–1932)
+- [~] Taqi al-Din al-Nabhani (Father) (1880–1940)
+- [x] Ibrahim al-Dabbagh (1880–1946)
+- [x] Ali al-Rimawi (1860–1919)
+- [x] Yusuf al-Khalidi (1842–1906)
+- [x] Raghib al-Khalidi (1866–1952)
+- [x] Sa'id al-Husayni (1878–1945)
+- [x] Wasif Jawhariyyeh (Muslim Associates) (1897–1972)
+- [x] As'ad al-Shuqairi (1860–1940)
+- [x] Ahmad Shuqairi (1908–1980)
+- [x] Subhi al-Khadra (1895–1954)
+- [x] Akram Zuaiter (1909–1996)
+- [x] Awni Abd al-Hadi (1889–1970)
+- [x] Tarab Abdul Hadi (1910–1976)
+- [x] Sadhij Nassar (1900–1970)
+- [x] Mogannam Mogannam (Muslim Allies) (1895–1945)
+- [x] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
+- [x] As'ad Qaddura (1880–1959)
+- [~] Sheikh Muhammad al-Sa'id (1870–1930)
 - [x] Haj Amin al-Husseini (1897–1974)
-- [ ] Jamal al-Husayni (1893–1982)
-- [ ] Fawzi al-Mulki (1910–1962)
-- [ ] Tawfiq Abu al-Huda (1894–1956)
-- [ ] Samir al-Rifa'i (1901–1965)
-- [ ] Ibrahim Hashem (1888–1958)
-- [ ] King Talal of Jordan (1909–1972)
-- [ ] Sheikh Hamad ibn Isa Al Khalifa (1872–1942)
-- [ ] Sir Salman bin Hamad Al Khalifa (1894–1961)
-- [ ] Abdullah bin Isa Al Khalifa (1883–1966)
-- [ ] Ibrahim Al-Arrayedh (Ancestors) (1908–2002)
-- [ ] Abu al-Qasim al-Shabi (1909–1934)
-- [ ] Muhammad al-Tahir ben Achour (1879–1973)
-- [ ] Mohamed Abdelaziz Bouattour (1825–1907)
-- [ ] M'hammed Chenik (1889–1976)
-- [ ] Ali Ben Ayed (1828–1890)
-- [ ] Cheikh Mohamed Ennakhli (1869–1924)
-- [ ] Mohamed Lasram (1858–1925)
-- [ ] Salem Bouhageb (1827–1924)
-- [ ] Hassan Hosni Abdel-Wahab (1884–1968)
-- [ ] Cheikh El Bechir Ben Mrad (1889–1977)
-- [ ] Bchira Ben Mrad (1913–1993)
-- [ ] Tawhida Ben Cheikh (1909–2010)
-- [ ] Mohamed Douthe (1860–1920)
-- [ ] Allal al-Fassi (1910–1974)
-- [ ] Ahmed Balafrej (1908–1990)
-- [ ] Mohamed Hassan Ouazzani (1910–1978)
-- [ ] Mohamed Ben Larbi al-Alaoui (1880–1964)
-- [ ] Sheikh Ma al-'Aynayn's Sons (El Hiba) (1870–1928)
-- [ ] Merebbi Rebbu (1881–1942)
-- [ ] Cheikh Sidiyya Baba (1862–1924)
-- [ ] Sheikh Saad Bouh (1848–1917)
+- [x] Jamal al-Husayni (1893–1982)
+- [x] Fawzi al-Mulki (1910–1962)
+- [x] Tawfiq Abu al-Huda (1894–1956)
+- [x] Samir al-Rifa'i (1901–1965)
+- [x] Ibrahim Hashem (1888–1958)
+- [x] King Talal of Jordan (1909–1972)
+- [x] Sheikh Hamad ibn Isa Al Khalifa (1872–1942)
+- [x] Sir Salman bin Hamad Al Khalifa (1894–1961)
+- [x] Abdullah bin Isa Al Khalifa (1883–1966)
+- [x] Ibrahim Al-Arrayedh (Ancestors) (1908–2002)
+- [x] Abu al-Qasim al-Shabi (1909–1934)
+- [x] Muhammad al-Tahir ben Achour (1879–1973)
+- [x] Mohamed Abdelaziz Bouattour (1825–1907)
+- [x] M'hammed Chenik (1889–1976)
+- [~] Ali Ben Ayed (1828–1890)
+- [x] Cheikh Mohamed Ennakhli (1869–1924)
+- [x] Mohamed Lasram (1858–1925)
+- [x] Salem Bouhageb (1827–1924)
+- [x] Hassan Hosni Abdel-Wahab (1884–1968)
+- [~] Cheikh El Bechir Ben Mrad (1889–1977)
+- [x] Bchira Ben Mrad (1913–1993)
+- [x] Tawhida Ben Cheikh (1909–2010)
+- [~] Mohamed Douthe (1860–1920)
+- [x] Allal al-Fassi (1910–1974)
+- [x] Ahmed Balafrej (1908–1990)
+- [x] Mohamed Hassan Ouazzani (1910–1978)
+- [x] Mohamed Ben Larbi al-Alaoui (1880–1964)
+- [x] Sheikh Ma al-'Aynayn's Sons (El Hiba) (1870–1928)
+- [x] Merebbi Rebbu (1881–1942)
+- [x] Cheikh Sidiyya Baba (1862–1924)
+- [x] Sheikh Saad Bouh (1848–1917)
 
 ## C. 926–1025 additions (2, flagged)
 
-- [ ] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
+- [x] Abu Yaqub Yusuf al-Warraq (904–973) — FLAG: name form may conflate two historical men (the d. 973 al-Warraq is the Andalusi geographer Muhammad ibn Yusuf al-Warraq); resolve identity before building.
 - EXCLUDED unless the founder directs otherwise: Hasdai ibn Shaprut (915–970) — the source row itself identifies him as a Jewish statesman of Cordoba; not a Muslim figure.
 
 ## D. 1326–1425 additions (10)
 
-- [ ] Ibn Zamrak (1333–1394)
-- [ ] Khalil Sultan (1384–1411)
-- [ ] Çandarlı Ali Pasha (1340–1406)
-- [ ] Ubayd Zakani (1310–1370)
-- [ ] Kamal Khujandi (1321–1401)
-- [ ] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
-- [ ] Sultan Mahmud Shah Tughlaq (1388–1413)
-- [ ] Taj al-Din Firuz Shah Bahmani (1370–1422)
-- [ ] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
-- [ ] Syed Jalaluddin Bukhari (1244–1350) — FLAG: the CSV's dates match no standard biography (Surkh-Posh Bukhari is usually 1192–1291); resolve identity at build time.
+- [x] Ibn Zamrak (1333–1394)
+- [x] Khalil Sultan (1384–1411)
+- [x] Çandarlı Ali Pasha (1340–1406)
+- [x] Ubayd Zakani (1310–1370)
+- [x] Kamal Khujandi (1321–1401)
+- [~] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
+- [x] Sultan Mahmud Shah Tughlaq (1388–1413)
+- [x] Taj al-Din Firuz Shah Bahmani (1370–1422)
+- [x] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
+- [x] Syed Jalaluddin Bukhari (1244–1350) — FLAG: the CSV's dates match no standard biography (Surkh-Posh Bukhari is usually 1192–1291); resolve identity at build time.
 
 ## E. 1126–1225 additions (3)
 
-- [ ] Ibn Zuhr (Avenzoar) (1094–1162) — the museum holds his father and his son, but not Avenzoar himself.
-- [ ] Ibn Mada' (1116–1196)
-- [ ] Terken Khatun (1155–1233) — Khwarazmian empress mother; NOT the museum's turkan-khatun (Malik-Shah I's wife).
+- [x] Ibn Zuhr (Avenzoar) (1094–1162) — the museum holds his father and his son, but not Avenzoar himself.
+- [x] Ibn Mada' (1116–1196)
+- [x] Terken Khatun (1155–1233) — Khwarazmian empress mother; NOT the museum's turkan-khatun (Malik-Shah I's wife).
 
 ## F. 1026–1125 additions (3)
 
-- [ ] Al-Zarqali (Arzachel) — 1029–1087
-- [ ] Ibn Abdun — 1070–1134
-- [ ] Abu'l-Fadl Bayhaqi — 995–1077
+- [x] Al-Zarqali (Arzachel) — 1029–1087
+- [x] Ibn Abdun — 1070–1134
+- [x] Abu'l-Fadl Bayhaqi — 995–1077
 
 ## G. 1526–1625 additions (36: 33 buildable + 3 excluded)
 
-- [ ] Islam Shah Suri — 1510–1554
-- [ ] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
+- [x] Islam Shah Suri — 1510–1554
+- [x] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
 - [ ] Asaf Khan IV — 1569–1641
 - [ ] Khan Zaman Ali Quli Khan — 1520–1567
 - [ ] Muqarrab Khan — 1570–1646

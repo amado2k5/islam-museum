@@ -1,0 +1,46 @@
+id: person/hamengkubuwono-ix
+class: person
+label: { ar: "هامينغكوبوونو التاسع", en: "Hamengkubuwono IX", ur: "ہامینگ کوبوونو نہم" }
+names:
+  - { value: "Gusti Raden Mas Dorodjatun", kind: full }
+  - { value: "Sri Sultan Hamengkubuwono IX", kind: regnal }
+  - { value: "Hamengkubuwana IX", kind: alternate }
+gender: male
+summary:
+  ar: "سلطان يوغياكارتا التاسع وسياسي إندونيسي، وُلد في يوغياكارتا سنة 1912 باسم غوستي رادن ماس دورودجاتون. تُوّج سنة 1940، وأيّد الجمهورية سنة 1945 واحتضن حكومتها، وتولى وزارة الدفاع ومناصب عليا، فكان ثاني نائب رئيس لإندونيسيا (1973–1978) وأول حاكم للمنطقة الخاصة ليوغياكارتا، وتوفي في واشنطن سنة 1988."
+  en: "Ninth Sultan of Yogyakarta and Indonesian statesman, born at Yogyakarta in 1912 as Gusti Raden Mas Dorodjatun. Crowned in 1940, he backed the republic in 1945 and sheltered its government, served as defence minister and in senior economic offices, and was Indonesia's second vice president (1973–1978) and first governor of the Special Region of Yogyakarta; he died at Washington, D.C., in 1988."
+  ur: "یوگیاکارتا کے نویں سلطان اور انڈونیشی سیاست دان، جو 1912ء میں یوگیاکارتا میں گوستی رادن ماس دورودجاتون کے نام سے پیدا ہوئے۔ 1940ء میں تاج پوشی ہوئی، 1945ء میں جمہوریہ کی حمایت کی اور اس کی حکومت کو پناہ دی، وزیرِ دفاع اور اعلیٰ عہدوں پر رہے، انڈونیشیا کے دوسرے نائب صدر (1973ء–1978ء) اور یوگیاکارتا کے خصوصی علاقے کے پہلے گورنر بنے؛ 1988ء میں واشنگٹن میں وفات پائی۔"
+roles: [sultan, politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1912-04-12"
+  hijri: "1330"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 12 April 1912 at Sompilan, Yogyakarta, as the English, Urdu and Indonesian articles and Wikidata give. No place entity exists for Yogyakarta, so no born_in relation is written. The Hijri year (1330) is by tabular conversion."
+  sources: [source/wikipedia-hamengkubuwono-ix-en, source/wikipedia-hamengkubuwono-ix-ur, source/wikipedia-hamengkubuwono-ix-id, source/wikidata-hamengkubuwono-ix]
+died:
+  edtf: "1988-10-02"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on the evening of 2 October 1988 at the George Washington University Medical Center, Washington, D.C. — the following morning, 3 October, in Indonesia; Wikidata carries both structured dates for this reason, and the local date of death is followed here. No place entity exists for Washington, so no died_in relation is written. The Hijri year (1409) is by tabular conversion."
+  sources: [source/wikipedia-hamengkubuwono-ix-en, source/wikipedia-hamengkubuwono-ix-id, source/wikidata-hamengkubuwono-ix]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Hamengkubuwono IX. The English article's only religious material is titular and cultural: his coronation regnal style includes 'Kalifatullah' — a style of the Yogyakarta throne, an office, which never counts — and the Kejawèn Javanese reading of a banyan's fall at his funeral as a sign of the land's grief. His Javanese spiritual practice is often described in syncretic (kejawen) terms by writers on the court, but that is characterisation of his milieu, not two independent sources attesting a school for the man himself, and kejawen practice maps to no school value in any case. Wikidata's religion value is a structured value (Islam in general, Q432), which never counts. Under the two-source rule and the doubt rule his school stays unknown, with the kejawen reading preserved here."
+    sources: [source/wikipedia-hamengkubuwono-ix-en, source/wikipedia-hamengkubuwono-ix-id, source/wikidata-hamengkubuwono-ix]
+external_ids: { wikidata: "Q76227" }
+sources: [source/wikipedia-hamengkubuwono-ix-en, source/wikipedia-hamengkubuwono-ix-ur, source/wikipedia-hamengkubuwono-ix-id, source/wikidata-hamengkubuwono-ix]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hamengkubuwono IX' (revision 1379490650 of 10 October 2026), Urdu Wikipedia «ہامینگ کوبوونو نہم» (revision 9690966 of 4 April 2026), Indonesian Wikipedia 'Hamengkubuwana IX' (revision 29987622 of 26 September 2026) and Wikidata item Q76227 (item revision 2562688358 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Sultan of Yogyakarta ... 2nd Vice President of Indonesia (1912-1988)') matching the queue entry. No Arabic Wikipedia article exists for him, so the Indonesian article is registered in its place, following the Yudhoyono precedent; the Arabic label and prose are supplied. Existence checked both directions before building: name fragments (Hamengkubuwono, Hamengkubuwana, Dorodjatun) and Q76227 grepped across all data/person files on origin/main — the only Hamengkubuwono hit is his father, Hamengkubuwono VIII, a different man, and Q76227 has no hits. No parent_of/child_of edge is written to his father's record: the pair is written once, in the parent's record, and that record is not part of this batch; his succession to his father and his own succession by his son are offices, carried in prose. No place edges are written: Yogyakarta and Washington have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-121
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

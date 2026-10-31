@@ -1,0 +1,66 @@
+id: person/ibn-zuhr
+class: person
+label:
+  ar: "أبو مروان عبد الملك بن زهر"
+  en: "Ibn Zuhr (Avenzoar)"
+  ur: "ابن زہر"
+names:
+  - { value: "أبو مروان عبد الملك بن أبي العلاء زهر الإيادي الإشبيلي", kind: full }
+  - { value: "Abu Marwan Abd al-Malik ibn Abi al-Ala Zuhr al-Iyadi", kind: full }
+  - { value: "أبو مروان", kind: kunya }
+  - { value: "Avenzoar", kind: latinized }
+  - { value: "ابن زهر", kind: nisba }
+gender: male
+summary:
+  ar: "أبو مروان عبد الملك بن زهر (1094–1162م)، المعروف عند اللاتين باسم أفنزور (Avenzoar)، طبيب وشاعر إشبيلي من أسرة بني زهر التي أنجبت ستة أجيال من الأطباء. تعلّم الطب على أبيه أبي العلاء، وخدم المرابطين ثم سُجن في مراكش سنة 1140م، وبعد قيام الموحدين عاد إلى إشبيلية وتفرغ للطب. كتابه «التيسير في المداواة والتدبير» من أشهر كتب الطب العملي في العصور الوسطى، واشتهر بمنهجه التجريبي وإجرائه شقّ القصبة الهوائية على ماعز قبل تجربته على البشر."
+  en: "Abu Marwan Abd al-Malik ibn Zuhr (1094–1162), known in Latin as Avenzoar, a Sevillian physician and poet of the Banu Zuhr, a family that produced six generations of physicians. He learnt medicine from his father Abu al-Ala, served the Almoravids and was jailed at Marrakesh in 1140; after the Almohad conquest he returned to Seville and devoted himself to practice. His Kitab al-Taysir ('Book of Simplification Concerning Therapeutics and Diet') became one of the most influential practical medical works of the Middle Ages; he is remembered for his rational, empirical method and for testing the tracheotomy on a goat before applying it to humans."
+  ur: "ابو مروان عبد الملک بن زہر (1094ء–1162ء)، جو لاطینی میں Avenzoar کے نام سے مشہور ہیں، سیویل کے طبیب اور شاعر تھے، بنو زہر خاندان سے جس نے اطباء کی چھ نسلیں پیدا کیں۔ انھوں نے طب اپنے والد ابو العلاء سے سیکھی، مرابطین کی خدمت کی اور 1140ء میں مراکش میں قید رہے؛ موحدین کے برسرِ اقتدار آنے کے بعد سیویل لوٹ کر طب کو وقف ہو گئے۔ ان کی «التيسير في المداواة والتدبير» قرونِ وسطیٰ کی عملی طب کی مشہور ترین کتابوں میں سے ہے، اور وہ اپنے تجرباتی طریقے اور انسانوں سے پہلے بکری پر قصبة الریہ کے شگاف کی آزمائش کے لیے یاد کیے جاتے ہیں۔"
+roles: [physician, poet]
+regions: [andalus-europe]
+wings: [people]
+born:
+  edtf: "1094"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Seville. The English article and the queue give 1094; the Arabic article, following the Arabic biographical tradition, gives 465 AH/1072 CE, and Wikidata carries three further conflicting values (1073, 1091, 1092). The record follows 1094 and preserves 1072. No Hijri year is recorded: the candidates pair inconsistently — 1094 with 487 AH, 1072 with 465 AH."
+  sources:
+    - source/wikipedia-ibn-zuhr-en
+    - source/wikipedia-ibn-zuhr-ar
+    - source/wikidata-ibn-zuhr
+died:
+  edtf: "1162"
+  hijri: "0557"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Seville. Both articles agree on 557 AH/1162 CE, and Wikidata's death value agrees."
+  sources:
+    - source/wikipedia-ibn-zuhr-en
+    - source/wikipedia-ibn-zuhr-ar
+    - source/wikidata-ibn-zuhr
+relations:
+  - { type: child_of, target: person/abu-al-ala-ibn-zuhr, sources: [source/wikipedia-ibn-zuhr-en, source/wikipedia-ibn-zuhr-ar] }
+  - { type: born_in, target: place/seville, sources: [source/wikipedia-ibn-zuhr-en] }
+  - { type: died_in, target: place/seville, sources: [source/wikipedia-ibn-zuhr-en, source/wikipedia-ibn-zuhr-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school of law or theology for him. The articles present a physician formed in religion and literature in the Andalusi manner and a friend of Ibn Rushd; Wikidata records no school. Family profession and milieu are not attestations, so the value stays unclassified."
+    sources:
+      - source/wikipedia-ibn-zuhr-en
+      - source/wikipedia-ibn-zuhr-ar
+sources:
+  - source/wikipedia-ibn-zuhr-en
+  - source/wikipedia-ibn-zuhr-ar
+  - source/wikidata-ibn-zuhr
+external_ids:
+  wikidata: Q470914
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ibn Zuhr' (revision 1379594332 of 10 Oct 2026; 'Avenzoar' redirects to it), Arabic Wikipedia «ابن زهر» (revision 72211574 of 8 Oct 2025), Wikidata Q470914 (item rev. 2562784009 of 30 Oct 2026, re-asserted against a second live query in the same session). Existence checks by name fragments (zuhr, avenzoar, زهر) and by QID across data/person on origin/main found his father (person/abu-al-ala-ibn-zuhr) and his son (person/ibn-zuhr-al-hafid, Abu Bakr Muhammad, d. 1199) but no record for Avenzoar himself; the child_of edge to the father is written here, in the child's record. The son's own record carries no child_of edge to this record; adding it there is an enrichment of an existing record left to a later pass."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 B"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

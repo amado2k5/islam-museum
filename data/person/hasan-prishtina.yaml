@@ -1,0 +1,52 @@
+id: person/hasan-prishtina
+class: person
+label:
+  ar: "حسن برشتينة"
+  en: "Hasan Prishtina"
+  ur: "حسن پرشتینہ"
+names:
+  - { value: "Hasan Berisha", kind: full }
+  - { value: "Hasan Prishtina", kind: alternate }
+gender: male
+born:
+  edtf: "1873"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Vushtrri in 1873, son of Ahmet Berisha, of the Berisha family of Poljance in the Drenica region. The English biography's lead gives 27 September 1873, a day precision the Albanian biography and Wikidata, which give the bare year, do not corroborate, so the year alone is carried and the day claim preserved here. A bare Gregorian year spans two Hijri years (1873 falls across 1289–1290 AH), so no hijri key is carried. Vushtrri has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-hasan-prishtina-en, source/wikipedia-hasan-prishtina-sq, source/wikidata-hasan-prishtina]
+died:
+  edtf: "1933-08-13"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Shot dead by Ibrahim Celo in a café in Thessaloniki on 13 August 1933, on the orders of King Zog as the English biography records. The Hijri year 1352 is derived by conversion and is marked derived. Thessaloniki has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-hasan-prishtina-en, source/wikipedia-hasan-prishtina-sq, source/wikidata-hasan-prishtina]
+roles: [politician]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. Wikidata's single structured family gives his religion only as Islam. His bey family background, his Ottoman parliamentary career and his leadership of the Albanian national movement and of the Committee for the National Defence of Kosovo are family background, office and national activity, which never count; there is no reading to preserve, so the value is unknown, unflagged."
+    sources: [source/wikipedia-hasan-prishtina-en, source/wikidata-hasan-prishtina]
+relations: []
+summary:
+  ar: "سياسي ألباني وُلد باسم حسن بيريشا في فوشتري، نائب عثماني وقائد انتفاضة 1912 في كوسوفو وصاحب النقاط الأربع عشرة، ورئيس وزراء ألبانيا في ديسمبر 1921، واغتيل في سالونيك سنة 1933."
+  en: "Albanian politician born Hasan Berisha at Vushtrri: an Ottoman deputy who led the 1912 uprising in Kosovo and framed its Fourteen Points, and prime minister of Albania in December 1921; assassinated at Thessaloniki in 1933."
+  ur: "البانوی سیاست دان جو حسن بیریشا کے نام سے فوشتری میں پیدا ہوئے؛ عثمانی رکنِ پارلیمان، 1912 میں کوسوو بغاوت کے رہنما اور اس کے چودہ نکات کے مصنف، اور دسمبر 1921 میں البانیا کے وزیرِ اعظم؛ 1933 میں تھیسالونیکی میں قتل ہوئے۔"
+sources:
+  - source/wikipedia-hasan-prishtina-en
+  - source/wikipedia-hasan-prishtina-sq
+  - source/wikidata-hasan-prishtina
+external_ids:
+  wikidata: Q463916
+provenance:
+  layer: own-research
+  source: "English and Albanian Wikipedia biographies of Hasan Prishtina (Q463916) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Vushtrri-born Ottoman deputy and December 1921 prime minister (1873–1933); the queue's years are confirmed, the birth carried at year precision because the English lead's 27 September is uncorroborated. Existence checks by name fragments (prishtina, berisha) and by QID across data/person on origin/main found no prior record. His father Ahmet Berisha has no person record, and leadership of the uprising and the Committee is never a relation, so relations are empty. He took the name Prishtina on his election as Pristina's delegate in 1908; it is carried as an alternate name, not a nisba."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-128
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

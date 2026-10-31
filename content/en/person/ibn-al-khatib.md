@@ -18,3 +18,6 @@ When the state turned against him, he sent a call for help to Ibn Khaldun from h
 
 ## Works
 The book [[work/al-ihata-fi-tarikh-gharnata|al-Ihata fi Tarikh Gharnata]] (The Comprehensive Account of the History of Granada) is attributed to him according to *Kashf al-Zunun*. {cite:kashf-zunun-furqan}
+
+## In Ibn Hajar's al-Durar al-Kamina
+[[person/ibn-hajar-al-asqalani|Ibn Hajar]] gives an entry for Muhammad ibn Abd Allah al-Salmani, Lisan al-Din Ibn al-Khatib: his family moved from Cordoba to Toledo, Loja and then Granada, and he was born at Loja on 25 Rajab 713. {cite:durar-kamina-jil-1993 3/469} He served Sultan Yusuf as secretary and then as vizier, later fell from power and was imprisoned, and lived for a time at Fez and Salé. {cite:durar-kamina-jil-1993 3/469} {cite:durar-kamina-jil-1993 3/470} He entered Fez in 773, was condemned in Granada for heresy, and was strangled in prison at Fez; the year in the scan is unclear. {cite:durar-kamina-jil-1993 3/471} His works include al-Ihata, al-Iklil al-Zahir and Nufadat al-Jirab. {cite:durar-kamina-jil-1993 3/472}

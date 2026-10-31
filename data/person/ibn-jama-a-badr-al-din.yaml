@@ -1,5 +1,6 @@
 id: person/ibn-jama-a-badr-al-din
 class: person
+aliases: [person/badr-al-din-ibn-jamaa]   # merged from a Wikidata stub; the id still resolves
 label: { ar: "ابن جماعة بدر الدين محمد بن إبراهيم", en: "Ibn Jama'a, Badr al-Din Muhammad ibn Ibrahim" }
 names:
   - { kind: full, lang: ar, value: "بدر الدين محمد بن إبراهيم بن سعد الله بن جماعة" }
@@ -17,6 +18,8 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 392, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص392", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/durar-kamina-jil-1993]
+status: { review: published, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 392, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص392", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam, lib-durar-kamina-batch-1-2-2026-10-31" }
+external_ids:
+  wikidata: Q5410881

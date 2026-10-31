@@ -1,9 +1,66 @@
 id: person/khalifa-ibn-khayyat
 class: person
-label: { ar: "خليفة بن خياط", en: "Khalifa Ibn Khayyat" }
+label:
+  ar: خليفة بن خياط
+  en: Khalifa Ibn Khayyat
+  ur: خلیفہ بن خیاط
 summary:
-  ar: "خليفة بن خياط ويعرف بشبيب العصفري من أهل البصرة وله كتاب الطبقات وكتاب التاريخ وكتاب طبقات القراء وكتاب تاريخ الزمنى والعرجان والمرضى والعميان وكتاب أجزاء القرآن وأعشاره وأسباعه وآياته {cite:fihrist-ibn-al-nadim p. 324}."
-  en: "Khalifa ibn Khayyat — the Basran historian of tabaqat and annals {cite:fihrist-ibn-al-nadim}"
-external_ids: { wikidata: "Q519405" }
-sources: [source/fihrist-ibn-al-nadim]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  ar: أبو عمرو خليفة بن خياط العصفري البصري، الملقب «شباب»، محدث ومؤرخ، صاحب «التاريخ» و«الطبقات»، روى عنه البخاري في صحيحه. ولد في حدود سنة 160هـ، واختلف في وفاته بين 230 و240 و246هـ، ويرجح محقق تاريخه سنة 240هـ {cite:tarikh-khalifa-umari-1985 intro p. 5} {cite:tarikh-khalifa-umari-1985 intro p. 9} {cite:tarikh-khalifa-umari-1985 intro p. 13} {cite:tarikh-khalifa-umari-1985 intro p. 14}.
+  en: Abu Amr Khalifa ibn Khayyat al-Usfuri of Basra, nicknamed 'Shabab', a hadith scholar and historian, author of the History and the Tabaqat, from whom al-Bukhari transmits in his Sahih. He was born around 160 AH; his death is variously given as 230, 240 or 246 AH, and the editor of his History prefers 240 {cite:tarikh-khalifa-umari-1985 intro p. 5} {cite:tarikh-khalifa-umari-1985 intro p. 9} {cite:tarikh-khalifa-umari-1985 intro p. 13} {cite:tarikh-khalifa-umari-1985 intro p. 14}.
+  ur: ابو عمرو خلیفہ بن خیاط عصفری بصری، لقب «شباب»، محدث اور مؤرخ، «التاریخ» اور «الطبقات» کے مصنف، جن سے بخاری اپنی صحیح میں روایت کرتے ہیں۔ وہ تقریباً 160ھ میں پیدا ہوئے؛ ان کی وفات 230، 240 یا 246ھ بتائی جاتی ہے، اور ان کی تاریخ کے محقق 240ھ کو ترجیح دیتے ہیں {cite:tarikh-khalifa-umari-1985 intro p. 5} {cite:tarikh-khalifa-umari-1985 intro p. 9} {cite:tarikh-khalifa-umari-1985 intro p. 13} {cite:tarikh-khalifa-umari-1985 intro p. 14}۔
+external_ids:
+  wikidata: Q519405
+sources:
+- source/tarikh-khalifa-umari-1985
+- source/fihrist-ibn-al-nadim
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of the editor's introduction
+roles:
+- historian
+- scholar
+gender: male
+born:
+  hijri: '0160'
+  edtf: 0777~
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: 'المحقق: ولادته في حدود سنة 160هـ استنتاجاً من قول الذهبي إنه كان من أبناء الثمانين (المقدمة ص 13).'
+  sources:
+  - source/tarikh-khalifa-umari-1985
+died:
+  hijri: '0240'
+  edtf: 0854/0855
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: 'مطين وابن كثير وابن عساكر: 240هـ؛ ابن زبر: 246هـ؛ ابن خلكان: رمضان 230هـ. يرجح المحقق 240هـ ويرد 230 لأن الكتاب يبلغ حوادث 232 (المقدمة ص 13–14).'
+  sources:
+  - source/tarikh-khalifa-umari-1985
+relations:
+- type: authored
+  target: work/tarikh-khalifa-ibn-khayyat
+  sources:
+  - source/tarikh-khalifa-umari-1985
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/tarikh-khalifa-umari-1985
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+provenance:
+  layer: own-research
+  source: Tarikh Khalifa (al-Umari ed. 1985), editor's introduction pp. 5–14
+  generated_by: Claude Opus 5.5 (enriching a Devin SWE-2 High card)
+  model: claude-opus-5-5
+  run: lib-tarikh-khalifa-batch-1-2026-10-31
+  sources:
+  - source/tarikh-khalifa-umari-1985

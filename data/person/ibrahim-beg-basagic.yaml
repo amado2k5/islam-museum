@@ -1,0 +1,54 @@
+id: person/ibrahim-beg-basagic
+class: person
+label:
+  ar: "إبراهيم بك باشاغيتش"
+  en: "Ibrahim-beg Bašagić"
+  ur: "ابراہیم بیگ باشاگچ"
+names:
+  - { value: "Ibrahim Bašagić", kind: full }
+  - { value: "Edhem", kind: pen }
+gender: male
+born:
+  edtf: "1830-05-25"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Born at Nevesinje. CONFLICT: Wikidata and the Czech biography's infobox and lead give 25 May 1830, which the record follows; the same article's family paragraph dates him 1841–1902, and its lead pairs the year 1256 AH with 1830/1831 — but 1256 AH runs through 1840–1841 and matches the 1841 reading, so the article carries two incompatible births (1830 and 1841) and both are preserved here. Because the two readings fall in different Hijri years, no hijri value is recorded. The queue's 1840 sits inside the 1841 reading's neighbourhood. Nevesinje has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-ibrahim-beg-basagic-cs, source/wikidata-ibrahim-beg-basagic]
+died:
+  edtf: "1902-11-08"
+  hijri: "1320"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 8 November 1902 at Sarajevo; the Czech biography records that on 9 November the body was carried to the Gazi Husrev-beg Mosque for the funeral prayer and buried in the Bakije cemetery. The Hijri year 1320 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-ibrahim-beg-basagic-cs, source/wikidata-ibrahim-beg-basagic]
+roles: [politician, poet]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him, and Wikidata carries no religion value for him at all. The Czech biography records his education in the Islamic sciences at the Travnik madrasa, his presidency from 1893 of the provincial waqf commission that supervised Bosnia's Islamic foundations, and his funeral prayer at the Gazi Husrev-beg Mosque — education, office and burial circumstance, which never count. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-ibrahim-beg-basagic-cs, source/wikidata-ibrahim-beg-basagic]
+relations:
+  - { type: parent_of, target: person/safvet-beg-basagic, sources: [source/wikipedia-ibrahim-beg-basagic-cs, source/wikipedia-safvet-beg-basagic-hr] }
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-ibrahim-beg-basagic-cs, source/wikidata-ibrahim-beg-basagic] }
+summary:
+  ar: "موظف وسياسي بوسني من نيفيسيني، من أسرة رضاباغيتش: قائمقام عثماني جلس مدة قصيرة في البرلمان العثماني، ثم خدم الإدارة النمساوية المجرية وترأّس منذ 1893 لجنة الأوقاف الإقليمية في البوسنة، ونظم الشعر التركي باسم أدهم، وهو والد المؤرخ صفوت بك باشاغيتش."
+  en: "Bosnian official and politician from Nevesinje, of the Redžepagić family: an Ottoman district governor (kaymakam) who briefly sat in the Ottoman parliament, then served the Austro-Hungarian administration and from 1893 headed Bosnia's provincial waqf commission; he also wrote Turkish poetry under the pen name Edhem, and was the father of the historian Safvet-beg Bašagić."
+  ur: "نیویسینیے سے تعلق رکھنے والے بوسنیائی اہلکار اور سیاست دان، خاندانِ رضاپاغیچ سے: عثمانی قائم مقام رہے، مختصر مدت عثمانی پارلیمان میں بیٹھے، پھر آسٹرو ہنگری انتظامیہ کی خدمت کی اور 1893ء سے بوسنیا کے صوبائی وقف کمیشن کے صدر رہے؛ «ادھم» کے قلمی نام سے ترکی شعر بھی کہا، اور مؤرخ صفوت بیگ باشاگچ کے والد تھے۔"
+sources:
+  - source/wikipedia-ibrahim-beg-basagic-cs
+  - source/wikidata-ibrahim-beg-basagic
+  - source/wikipedia-safvet-beg-basagic-hr
+external_ids:
+  wikidata: Q64918244
+provenance:
+  layer: own-research
+  source: "Czech Wikipedia biography of Ibrahim Bašagić (Q64918244) and the Wikidata item, read in full, with the Croatian Wikipedia biography of his son Safvet-beg Bašagić registered for the father edge; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the Czech article's page properties. Identity: the queue line's bearer is the Nevesinje-born Ottoman and Austro-Hungarian official who headed the provincial waqf commission (died 1902); the queue's death year is confirmed, its birth year (1840) is not — the record follows 25 May 1830 (Wikidata and the Czech infobox/lead) at debated status with the same article's 1841 reading preserved. Existence checks by name fragments (basagic, bašagić) and by QID across data/person on origin/main found no prior record; Bašagić is a family name borne by others, so the identity was pinned by biography as well as by QID. The father edge is attested by his own Czech biography, which lists Safvet-beg among his sons by Almasa, and by the son's Croatian biography, which names Ibrahim-beg as Safvet-beg's father; the son's English and Bosnian biographies name only the maternal grandfather, so the edge rests on these two. His other children have no records. Nevesinje has no place entity; Sarajevo does, and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

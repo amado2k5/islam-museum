@@ -2,7 +2,10 @@
 id: place/karyan
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-Karyan and Fushjan, which is Fishjan, are two towns of Darabjird. They did not stay within the peace of al-Hurmuzan, and broke it, and [[person/abd-allah-ibn-amir|Abd Allah ibn Amir]] conquered them. {cite:futuh-buldan-maarif-1407}
+## Summary
+Al-Karyan and Fashjan — that is, al-Fishajan — two towns of Darabjird that stood outside the Hirbadh's sulh and broke faith, so [[person/abd-allah-ibn-amir|Abdallah ibn Amir]] took them. {cite:futuh-buldan-maarif-1407 p. 548}
+
+## Details
+Al-Baladhuri reports that when Abdallah ibn Amir camped at Jur its people fought him and then fortified themselves, so he took it by the sword, by force, in year 29. {cite:futuh-buldan-maarif-1407 p. 548} Ibn Amir also took al-Karyan and Fashjan — which is al-Fishajan — of the Darabjird country, the two not having been included in the Hirbadh's sulh, and they rebelled. {cite:futuh-buldan-maarif-1407 p. 548} Al-Karyan is thus a town dependent on Darabjird which, together with Fashjan, lay outside the settlement the Hirbadh had obtained for the people of Darabjird in return for money paid to Uthman ibn Abi al-As; when the two towns breached their allegiance, Abdallah ibn Amir returned and took them among his conquests in the Fars region. {cite:futuh-buldan-maarif-1407 p. 548}

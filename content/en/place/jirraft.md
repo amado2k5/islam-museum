@@ -2,7 +2,10 @@
 id: place/jirraft
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-Jiroft is a land in [[place/kirman|Kirman]]. Al-Baladhuri reports that Mujashi' ibn Mas'ud conquered it by force. {cite:futuh-buldan-maarif-1407}
+## Summary
+Jirraft is a town in Kirman taken by force by Mujashi' ibn Mas'ud among his conquests in Kirman, according to al-Baladhuri. {cite:futuh-buldan-maarif-1407}
+
+## Details
+Al-Baladhuri relates in Futuh al-Buldan that al-Rabi' ibn Ziyad made terms with the people of Bamm and al-Andaghar, who then renounced and broke the pact, so Mujashi' ibn Mas'ud reconquered it and took Jirraft by force, marching through Kirman and subduing it. {cite:futuh-buldan-maarif-1407} Jirraft is thus one of the Kirman towns taken by the sword rather than by treaty at the hands of Mujashi' ibn Mas'ud, within the wider conquest of Kirman in which many of its people departed by sea — some reaching Makran and others Yamhistan — while the Arabs were granted their dwellings and lands, settled and cultivated them, paid the tithe and dug qanats there, as al-Baladhuri narrates. {cite:futuh-buldan-maarif-1407}

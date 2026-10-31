@@ -17,3 +17,6 @@ The author describes him as a lover of orphans, scholars and the righteous, and 
 He fell ill at the end of Dhu al-Hijja 856 AH, deposed himself in Muharram 857 AH, and had his son al-Mansur Uthman made sultan. He died twelve days later at over eighty years of age, after a sultanate of fourteen years and ten months. Forty days later al-Mansur was deposed and al-Ashraf Inal took the throne. {cite:shadharat-dhahab p.299-300}
 
 The date of death (3 Safar 857 AH) is derived and converted to the Gregorian calendar, and needs an additional source.
+
+## In al-Sakhawi's al-Daw' al-Lami'
+[[person/al-sakhawi|Al-Sakhawi]] gives an entry for Jaqmaq al-Zahir Abu Sa'id al-Jarkasi al-Ala'i: he became sultan on Wednesday 19 Rabi' al-Awwal 842. {cite:daw-lami-jil-1992 3/71} He abdicated in favour of his son al-Mansur Uthman on Wednesday 20 al-Muharram 857, after fifteen years less about a month. {cite:daw-lami-jil-1992 3/72} He restored the mosques of al-Zahir and al-Hakim and built bridges and a quay at Bulaq. {cite:daw-lami-jil-1992 3/72} He died past eighty on the eve of Tuesday 3 Safar 857. {cite:daw-lami-jil-1992 3/74} Al-Sakhawi describes him as just, pious, humble and generous, naming among his faults a quick temper. {cite:daw-lami-jil-1992 3/73} {cite:daw-lami-jil-1992 3/74}

@@ -8,7 +8,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 "Futuh al-Buldan" gathers reports of special stipends that [[person/umar-ibn-al-khattab|Umar]] imposed on individuals, with the reason for each, and of his justice between the Arabs and the clients. {cite:futuh-buldan-maarif-1407}
 
 ## Stipends for individuals
-According to the report of Yazid ibn Abi Habib, Umar put [[person/amr-ibn-al-as|Amr ibn al-As]] at two hundred because he was an amir, and [[person/busr-ibn-abi-artat|Busr ibn Abi Artat]] at two hundred because he was a conqueror, and he ordered that [[person/kharija-ibn-hudhafa|Kharija ibn Hudhafa]] be given a stipend of honour for his courage. {cite:futuh-buldan-maarif-1407}
+According to the report of Yazid ibn Abi Habib, Umar put [[person/amr-ibn-al-as|Amr ibn al-As]] at two hundred because he was an amir, and [[person/busr-ibn-abi-artat|Busr ibn Abi Artat]] at two hundred because he was a conqueror, and he ordered that [[person/kharija-ibn-hudhafa-al-adawi|Kharija ibn Hudhafa]] be given a stipend of honour for his courage. {cite:futuh-buldan-maarif-1407}
 
 The reports give the stipend of [[person/ammar-ibn-yasir|Ammar ibn Yasir]] as six thousand dirhams and that of [[person/salman-al-farisi|Salman]] as four thousand. {cite:futuh-buldan-maarif-1407}
 

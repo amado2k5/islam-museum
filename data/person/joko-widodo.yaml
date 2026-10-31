@@ -1,0 +1,38 @@
+id: person/joko-widodo
+class: person
+label: { ar: "جوكو ويدودو", en: "Joko Widodo", ur: "جوکو ویدودو" }
+names:
+  - { value: "Joko Widodo", kind: full }
+  - { value: "Mulyono", kind: given }
+  - { value: "جوكو ويدودو", kind: full }
+  - { value: "Jokowi", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي إندونيسي ورجل أعمال سابق في صناعة الأثاث، وُلد في سوراكارتا سنة 1961 باسم موليونو. كان عمدة سوراكارتا من 2005 إلى 2012 وحاكم جاكرتا من 2012 إلى 2014، ثم صار رئيس إندونيسيا السابع سنة 2014 وبقي لولايتين حتى 2024، وهو أول رئيس إندونيسي من خارج النخبة السياسية والعسكرية."
+  en: "Indonesian politician and former furniture businessman, born in Surakarta in 1961 under the name Mulyono. Mayor of Surakarta from 2005 to 2012 and governor of Jakarta from 2012 to 2014, he became Indonesia's seventh president in 2014 and served two terms until 2024 — the first Indonesian president from outside the political and military elite."
+  ur: "انڈونیشی سیاست دان اور سابق فرنیچر کاروباری، جو 1961ء میں سوراکارتا میں مولیونو کے نام سے پیدا ہوئے۔ 2005ء سے 2012ء تک سوراکارتا کے میئر اور 2012ء سے 2014ء تک جکارتہ کے گورنر رہے، پھر 2014ء میں انڈونیشیا کے ساتویں صدر بنے اور 2024ء تک دو مدتیں پوری کیں — سیاسی و عسکری اشرافیہ سے باہر سے آنے والے پہلے انڈونیشی صدر۔"
+roles: [politician]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1961-06-21"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 June 1961 at Surakarta, as the English, Arabic and Urdu articles and Wikidata give; he was born under the name Mulyono. No place entity exists for Surakarta, so no born_in relation is written. The Hijri year (1381) is by tabular conversion."
+  sources: [source/wikipedia-joko-widodo-en, source/wikipedia-joko-widodo-ar, source/wikipedia-joko-widodo-ur, source/wikidata-joko-widodo]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His Muslim identity is attested in prose — The Economist, as quoted in the English article, describes him as 'Muslim but broadly secular in his outlook', and The Muslim 500 lists him among influential Muslims — but no source read names a school for him. Wikidata gives Islam in general (Q432), a structured value that never counts, and the Arabic article's religion field is blank. His political alliances with Nahdlatul Ulama figures are politics, not affiliation. Under the two-source rule the value stays unknown, unflagged, with the generic attestation preserved here."
+    sources: [source/wikipedia-joko-widodo-en, source/wikipedia-joko-widodo-ar, source/wikipedia-joko-widodo-ur, source/wikidata-joko-widodo]
+external_ids: { wikidata: "Q3318231" }
+sources: [source/wikipedia-joko-widodo-en, source/wikipedia-joko-widodo-ar, source/wikipedia-joko-widodo-ur, source/wikidata-joko-widodo]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Joko Widodo' (revision 1381934534 of 25 October 2026), Arabic Wikipedia «جوكو ويدودو» (revision 76471213 of 8 September 2026), Urdu Wikipedia «جوکو ویدودو» (revision 6678020 of 10 February 2025) and Wikidata item Q3318231 (item revision 2557613746 of 16 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, the recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through an independent Wikidata search; two other Wikidata items bear his name (politicians born 1961 in Wonogiri is a mislabelled data artefact, and items for men born 1961 and 1972) and were excluded on biographical mismatch — the grounded item's description is '7th President of the Republic of Indonesia'. Existence checked both directions before building: name fragments (Widodo, Jokowi, Mulyono) and Q3318231 grepped across all data/person files on origin/main — no record of him exists. No relations are written: Surakarta has no place entity, and his governorship of Jakarta is an office, not a relation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

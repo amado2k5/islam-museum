@@ -1,5 +1,6 @@
 id: person/kharija-ibn-hudhafa-al-adawi
 class: person
+aliases: [person/kharija-ibn-hudhafa]   # merged from the al-Baladhuri record (now a section); the id still resolves
 label: { ar: "خارجة بن حذافة العدوي", en: "Kharija ibn Hudhafa al-Adawi" }
 summary:
   ar: "خارجة بن حذافة العدوي؛ كان في جيش الزبير بن العوام المعزّز إلى مصر ووجّهه عمرو بن العاص بعد فتح الفسطاط إلى الفيوم والأشمونين وإخميم والبشرودات وقرى الصعيد فصالح أهلها على مثل حكم الفسطاط."
@@ -12,7 +13,7 @@ relations:
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 299، 304"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-19
-sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba]
-status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr (Amir ed.)"
+  run: lib-futuh-buldan-batch-19, lib-futuh-misr-batch-3-2026-10-31
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba, source/futuh-misr-amir-1999]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High)" }

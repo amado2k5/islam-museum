@@ -12,3 +12,6 @@ After al-Qadisiyya, the Muslims met al-Nakhirkhan near the monastery of Ka'b, an
 
 ## Crossing the Tigris
 al-Baladhuri relates on the authority of al-Waqidi that the Persians raised the boats and burned the bridge, so the Muslims crossed the Tigris on horseback, wading, and took the eastern city. They made peace with the people of al-Rumiyya on condition that whoever wished could leave, and whoever stayed would remain under obedience and the payment of the kharaj. {cite:futuh-buldan-maarif-1407}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that the Muslims camped on the Tigris opposite al-Mada'in for twenty-eight months, and that Yazdagird shared out his treasuries among his marzbans against receipts and left for Hulwan. {cite:akhbar-tiwal-amir p. 126} The Muslims crossed the Tigris with only one man of Tayyi' drowned, and the Persians cried “the demons have come”. {cite:akhbar-tiwal-amir p. 126} He adds that they found camphor and took it for salt, and that a man offered a yellow plate in exchange for a white one, not knowing it was gold. {cite:akhbar-tiwal-amir p. 127}

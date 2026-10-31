@@ -13,3 +13,10 @@ Al-Rashid died at Tus on 24 March 809, and al-Amin was recognized as caliph at B
 
 ## The siege, death and assessment
 The defence of Baghdad lasted more than a year, supported by the most turbulent elements of the city. In Muharram 198/September 813 al-Amin asked Harthama for a safe-conduct; on the way to him he was intercepted by Tahir's men, who feared he would escape, and was captured and killed on the night of 24-25 Muharram 198/24-5 September 813. The article holds that al-Ma'mun was not directly responsible but was not sorry for the murder. The war was primarily a dynastic dispute, not a conscious struggle between Arabism and Iranism. Al-Amin is depicted as a hedonist, ignorant of the intricacies of politics, whose minister al-Fadl b. al-Rabi' was in large part responsible for the policy, and whose companions included Abu Nuwas, who lamented him. His four years of rule saw no outstanding administrative measure, apart from the war against his brother. {cite:encyclopaedia-of-islam-2 vol. 1 p. 459-460}
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 468}
+
+- **Police:** Abd Allah ibn Khazim; then Muhammad ibn Hamza ibn Malik (then dismissed and Abd Allah ibn Khazim restored) {cite:tarikh-khalifa-umari-1985 p. 468}
+- **Judgeship:** Isma'il ibn Hammad ibn Abi Hanifa (later judge of Kufa, where he died); then Abu al-Bakhtari Wahb ibn Wahb (195 AH) {cite:tarikh-khalifa-umari-1985 p. 468}
+- **Judgeship of Basra:** Abd Allah ibn Sawwar {cite:tarikh-khalifa-umari-1985 p. 468}

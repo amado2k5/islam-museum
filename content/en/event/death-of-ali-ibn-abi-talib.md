@@ -23,3 +23,6 @@ al-Tabari relates that Ibn Muljam, with al-Barak ibn Abd Allah and Amr ibn Bakr,
 - He left only seven hundred dirhams remaining from his stipend, and it is said two hundred and fifty, and his Qur'an and his sword. {cite:muruj-al-dhahab p. 702-704}
 
 The two sources differ on the place of burial and some details, and this entry sets out the accounts without preferring one.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says Ali was killed in the year 40 on the morning of Friday, seven nights before the end of Ramadan, his age being disputed. {cite:tarikh-khalifa-umari-1985 p. 198} He was buried in the Rahba of Kufa, or, some say, at Najaf al-Hira, and al-Hasan led the prayer over him. {cite:tarikh-khalifa-umari-1985 p. 201}

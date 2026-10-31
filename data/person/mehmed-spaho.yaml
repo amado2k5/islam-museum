@@ -1,0 +1,54 @@
+id: person/mehmed-spaho
+class: person
+label:
+  ar: "محمد سباهو"
+  en: "Mehmed Spaho"
+  ur: "محمد سپاہو"
+names:
+  - { value: "Mehmed Spaho", kind: full }
+gender: male
+born:
+  edtf: "1883-03-13"
+  hijri: "1300"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 13 March 1883 at Sarajevo into a family of coppersmiths; his father Hasan was an expert in Sharia law who had served as a qadi in Jajce, Sofia, Damascus and Cairo. The English and Bosnian biographies and Wikidata agree on the day. The Hijri year 1300 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs, source/wikidata-mehmed-spaho]
+died:
+  edtf: "1939-06-29"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died suddenly at Belgrade on 29 June 1939, at the Srpski kralj hotel, the morning after travelling from Sarajevo; his funeral at Sarajevo on 30 June drew an estimated 30,000 mourners. The English and Bosnian biographies and Wikidata agree on the day. Poisoning claims made later by his daughter are recorded in the biography as an allegation, not an established cause. The Hijri year 1358 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs, source/wikidata-mehmed-spaho]
+roles: [politician, lawyer]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The Bosnian biography's infobox gives his religion as Islam and Wikidata likewise gives only Islam. The biographies present a Vienna-trained doctor of law who led the Yugoslav Muslim Organization and bargained for Muslim religious autonomy and landowners' compensation — the leadership of a confessional party and his father's Sharia scholarship are party office and family background, never an attestation of a school for the man himself. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs, source/wikidata-mehmed-spaho]
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs] }
+  - { type: died_in, target: place/belgrade, sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs] }
+summary:
+  ar: "سياسي ومحامٍ بوسني من سراييفو، نال دكتوراه القانون من فيينا سنة 1908، وقاد المنظمة المسلمة اليوغوسلافية من 1921، وشارك في حكومات المملكة وزيراً للغابات والمناجم ثم للتجارة والصناعة، ودافع عن الحكم الذاتي الديني للمسلمين ووحدة أراضي البوسنة حتى وفاته المفاجئة في بلغراد سنة 1939."
+  en: "Bosnian politician and lawyer from Sarajevo who took his law doctorate at Vienna in 1908, led the Yugoslav Muslim Organization from 1921, sat in the kingdom's governments as Minister of Forestry and Mining and of Trade and Industry, and defended Muslim religious autonomy and Bosnia's territorial integrity until his sudden death at Belgrade in 1939."
+  ur: "سرائیوو سے تعلق رکھنے والے بوسنیائی سیاست دان اور وکیل، جنھوں نے 1908ء میں ویانا سے قانون کی ڈاکٹریٹ حاصل کی، 1921ء سے یوگوسلاو مسلم تنظیم کی قیادت کی، مملکت کی حکومتوں میں جنگلات و کان کنی اور تجارت و صنعت کے وزیر رہے، اور 1939ء میں بلغراد میں اچانک وفات تک مسلمانوں کی دینی خودمختاری اور بوسنیا کی علاقائی وحدت کا دفاع کیا۔"
+sources:
+  - source/wikipedia-mehmed-spaho-en
+  - source/wikipedia-mehmed-spaho-bs
+  - source/wikidata-mehmed-spaho
+external_ids:
+  wikidata: Q1292464
+provenance:
+  layer: own-research
+  source: "English and Bosnian Wikipedia biographies of Mehmed Spaho (Q1292464) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Sarajevo-born leader of the Yugoslav Muslim Organization (1883–1939); the queue's years are confirmed to the day. Existence checks by name fragments (spaho) and by QID across data/person on origin/main found no prior record; Spaho is a family name borne by his brother Fehim, built in this same batch, so the identity was pinned by biography as well as by QID. Sarajevo and Belgrade have place entities and carry the born_in and died_in edges. The sibling edge to Fehim Spaho is written once, in the elder brother's record, per the lane's write-once convention; his brother Mustafa and his parents have no records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-130
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,46 @@
+id: person/naim-suleymanoglu
+class: person
+label: { ar: "نعيم سليمان أوغلي", en: "Naim Süleymanoğlu", ur: "نعیم سلیمان اوغلو" }
+names:
+  - { value: "Naim Süleymanoğlu", kind: full }
+  - { value: "نعيم سليمان أوغلي", kind: full }
+  - { value: "Naum Shalamanov", kind: alternate }
+gender: male
+summary:
+  ar: "رافع أثقال تركي وُلد في بلغاريا سنة 1967 وتوفي في إسطنبول سنة 2017. فرّ إلى تركيا سنة 1986 هربًا من سياسة تغيير الأسماء القسرية، فأصبح بطلًا أولمبيًا ثلاث مرات وبطل عالم سبع مرات وصاحب 51 رقمًا قياسيًا عالميًا، ولُقّب «هرقل الجيب» لقصره وقوته الخارقة."
+  en: "Turkish weightlifter born in Bulgaria in 1967, died in Istanbul in 2017. He defected to Turkey in 1986 to escape Bulgaria's forced name-changing campaign, and became a three-time Olympic champion and seven-time world champion who set 51 world records, nicknamed 'Pocket Hercules' for his short stature and extraordinary strength."
+  ur: "ترک ویٹ لفٹر جو 1967 میں بلغاریہ میں پیدا ہوئے اور 2017 میں استنبول میں انتقال کر گئے۔ وہ 1986 میں ناموں کی جبری تبدیلی کی مہم سے بچ کر ترکی فرار ہوئے، اور تین بار اولمپک چیمپئن اور سات بار عالمی چیمپئن بنے، جنہوں نے 51 عالمی ریکارڈ قائم کیے۔"
+roles: [weightlifter]
+wings: [people]
+regions: [anatolia-balkans, andalus-europe]
+born:
+  edtf: "1967-01-23"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English and Arabic Wikipedia and Wikidata (Q311259): born 23 January 1967 at Ptichar village, Kardzhali Province, Bulgaria. No place entity for Ptichar exists, so no born_in relation is written. The Hijri year 1386 is the tabular conversion of 23 January 1967 and is marked derived."
+  sources: [source/wikipedia-naim-suleymanoglu-en, source/wikipedia-naim-suleymanoglu-ar, source/wikidata-naim-suleymanoglu]
+died:
+  edtf: "2017-11-18"
+  hijri: "1439"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 18 November 2017 in Istanbul (Ataşehir district, per Wikidata) after liver failure and a transplant; buried at Edirnekapı Cemetery, Istanbul. The Hijri year 1439 is the tabular conversion of 18 November 2017 and is marked derived."
+  sources: [source/wikipedia-naim-suleymanoglu-en, source/wikipedia-naim-suleymanoglu-ar, source/wikidata-naim-suleymanoglu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article in any of the three languages and no Wikidata statement names a religion or school for him. His Bulgarian-Turkish background is not a faith attestation and is not used. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-naim-suleymanoglu-en, source/wikipedia-naim-suleymanoglu-ar, source/wikidata-naim-suleymanoglu]
+external_ids: { wikidata: "Q311259" }
+sources: [source/wikipedia-naim-suleymanoglu-en, source/wikipedia-naim-suleymanoglu-tr, source/wikipedia-naim-suleymanoglu-ar, source/wikidata-naim-suleymanoglu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377465580), Turkish Wikipedia (revision 38321651), Arabic Wikipedia (revision 76622849) and Wikidata Q311259 (item revision 2560345819, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

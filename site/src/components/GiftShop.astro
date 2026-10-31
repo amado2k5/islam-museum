@@ -2,7 +2,7 @@
 // The two closing sections of the landing page: the gift shop carousel (eight Shopify collections, hover to auto-slide, click to visit the shop)
 // and "Donate and support us" (the same options as the support page). Layout follows the landing's section rhythm and the site tokens.
 import { ui, type Lang } from "../lib/i18n";
-import { SHOP, PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS } from "../lib/links";
+import { SHOP, PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS, RAISELY, GOFUNDME } from "../lib/links";
 
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
@@ -23,6 +23,8 @@ const GIVE = [
   { name: "PayPal", href: PAYPAL },
   { name: "LaunchGood", href: LAUNCHGOOD },
   { name: "GitHub Sponsors", href: GITHUB_SPONSORS },
+  { name: "Raisely", href: RAISELY },
+  { name: "GoFundMe", href: GOFUNDME },
 ];
 ---
 <section class="block shop" id="gift-shop" aria-labelledby="shop-title">

@@ -1,0 +1,52 @@
+id: person/khalifa-shuja-ud-din
+class: person
+label:
+  ar: "خليفة شجاع الدين"
+  en: "Khalifa Shuja-ud-Din"
+  ur: "خلیفہ شجاع الدین"
+names:
+  - { value: "Khalifa Shuja-ud-Din", kind: full }
+  - { value: "Khalifa Shujauddin", kind: alternate }
+gender: male
+born:
+  edtf: "1887"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year from the biographical footnote in Nadeem Shafiq Malik's survey of the 1953 English newspapers of Pakistan in Iqbal Review (October 2001), which gives 'Khalifa Shujauddin (1887-1955)'. No source found gives a month or day, and the Hijri year is not carried because a bare Gregorian year spans 1304-1305 AH."
+  sources: [source/iqbal-review-malik-survey-1953]
+died:
+  edtf: "1955-10-06"
+  hijri: "1375"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Report of the Commission on Marriage and Family Laws (Gazette of Pakistan, 20 June 1956, p. 1563), as quoted in Fazle Omer's thesis, records that he chaired the commission's first meeting on 5 October 1955 and died the next day, 6 October 1955. The Assembly's list of Speakers carries his speakership to 14 October 1955, a formal end date that postdates the death the commission's own report records. The Hijri year is a tabular conversion."
+  sources: [source/fazle-omer-muslim-family-laws-thesis, source/iqbal-review-malik-survey-1953]
+roles: [lawyer, politician]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school of Islam for him. Seventeen years as secretary of the Punjab Muslim League and the presidency of a government commission on Muslim family law are offices and affiliations, which never count as attestation of a school; nothing further is recorded, so the value is unknown, unflagged."
+    sources: [source/iqbal-review-malik-survey-1953, source/fazle-omer-muslim-family-laws-thesis]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/iqbal-review-malik-survey-1953, source/wikipedia-speaker-punjab-assembly-en] }
+summary:
+  ar: "محامٍ وسياسي من لاهور (1887-1955): أمين الرابطة الإسلامية في البنجاب من 1919 إلى 1936، وأول رئيس للمجلس التشريعي البنجابي بعد إعادة تأسيسه سنة 1951، ورئيس لجنة قوانين الزواج والأسرة سنة 1955؛ توفي فجأة في اليوم التالي لترؤسه أول اجتماعاتها."
+  en: "Lahore lawyer and politician (1887-1955): secretary of the Punjab Muslim League from 1919 to 1936, first Speaker of the re-established Provincial Assembly of Punjab from 1951, and president of the Commission on Marriage and Family Laws in 1955; he died suddenly the day after chairing its first meeting."
+  ur: "لاہور کے وکیل اور سیاست دان (1887ء–1955ء): 1919ء تا 1936ء پنجاب مسلم لیگ کے سیکرٹری، 1951ء میں بحال شدہ پنجاب اسمبلی کے پہلے اسپیکر، اور 1955ء میں شادی و عائلی قوانین کمیشن کے صدر؛ کمیشن کے پہلے اجلاس کی صدارت کے اگلے ہی دن ان کا اچانک انتقال ہو گیا۔"
+sources:
+  - source/iqbal-review-malik-survey-1953
+  - source/wikipedia-speaker-punjab-assembly-en
+  - source/wikipedia-badshahi-mosque-en
+  - source/fazle-omer-muslim-family-laws-thesis
+provenance:
+  layer: own-research
+  source: "Nadeem Shafiq Malik's biographical footnote in Iqbal Review (Vol. 42, No. 4, October 2001), the English Wikipedia articles 'Speaker of the Provincial Assembly of Punjab' (revision 1373815240 of 8 September 2026, wikitext read) and 'Badshahi Mosque' (revision 1382667703 of 29 October 2026), and Fazle Omer's PhD thesis (Kohat University of Science and Technology) quoting the Report of the Commission on Marriage and Family Laws, Gazette of Pakistan, 20 June 1956, p. 1563, read directly; every Wikipedia revision id was fetched live from the MediaWiki API in this session and asserted before use. No English Wikipedia article and no Wikidata item exist for this man (the 'Shujauddin' title on English Wikipedia is a disambiguation page), and data/person/shuja-ud-din-muhammad-khan on origin/main is a different bearer. The queue's years (1887-1955) are confirmed by the Malik footnote. Existence checks by name fragments (shuja) and by the absence of a QID across data/person on origin/main found no prior record. Relations written: lived_in place/lahore only, on the strength of his Lahore college, League and Assembly career."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-124
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

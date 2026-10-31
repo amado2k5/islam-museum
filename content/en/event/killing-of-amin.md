@@ -16,3 +16,9 @@ Al-Tabari says that the troops turned against Tahir five days after his killing.
 
 ## The position of al-Ma'mun
 Al-Mas'udi relates that al-Ma'mun wept when the news reached him, and said that he had neither killed nor ordered it nor been pleased by it. {cite:muruj-al-dhahab p.398}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that Harthama agreed to receive al-Amin by night, that Tahir intercepted him on the water, and that he was killed on the night of Sunday the fifth of al-Muharram, 198. {cite:akhbar-tiwal-amir p. 399} {cite:akhbar-tiwal-amir p. 400}
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] reckons al-Amin's caliphate from the day al-Rashid died to his killing as four years, seven months and twenty-one days, and from Harun's death to his deposition as three years; he gives his age at his death as twenty-seven years and three months, or twenty-eight by another report. He notes that Tahir ibn al-Husayn then wrote a letter of victory recounting his campaign from the day he left Khurasan. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 537}

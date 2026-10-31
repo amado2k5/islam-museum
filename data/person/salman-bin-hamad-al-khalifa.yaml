@@ -1,0 +1,51 @@
+id: person/salman-bin-hamad-al-khalifa
+class: person
+label:
+  ar: "سلمان بن حمد آل خليفة"
+  en: "Salman bin Hamad Al Khalifa"
+  ur: "سلمان بن حمد آل خلیفہ"
+names:
+  - { value: "Salman bin Hamad bin Isa Al Khalifa", kind: full }
+  - { value: "سلمان بن حمد بن عيسى آل خليفة", kind: full }
+  - { value: "Salman I", kind: regnal }
+gender: male
+summary:
+  ar: "حاكم البحرين من وفاة أبيه حمد بن عيسى سنة 1942 حتى وفاته سنة 1961. وُلد سنة 1894 وتربّى وليا للعهد في كنف أبيه، فخلفه وعمل عقدين على توسيع التعليم والرعاية الصحية حتى جعل العلاج مجانيا للمواطنين والزوار في آخر سني حكمه، وراجع بنفسه ميزانيات الدولة وعوائد النفط، وجمع التبرعات للاجئي فلسطين سنة 1948، وخلفه ابنه عيسى بن سلمان."
+  en: "Hakim (ruler) of Bahrain from the death of his father Hamad bin Isa in 1942 until his own death in 1961. Born in 1894 and raised as heir under his father, he succeeded him and worked for two decades to expand education and health care — making treatment free to citizens and visitors in the last year of his rule — personally reviewed the state budgets and oil revenues, raised donations for Palestinian refugees in 1948, and was succeeded by his son Isa bin Salman."
+  ur: "1942ء میں اپنے والد حمد بن عیسیٰ کی وفات سے 1961ء میں اپنی وفات تک بحرین کے حاکم۔ 1894ء میں پیدا ہوئے اور والد کی سرپرستی میں ولی عہد کے طور پر پرورش پائی؛ ان کے جانشین بنے اور دو دہائیوں تک تعلیم و صحت کو وسعت دی — اپنے دور کے آخری سال میں شہریوں اور زائرین کے لیے علاج مفت کر دیا — ذاتی طور پر ریاستی بجٹ اور تیل کی آمدنی کا جائزہ لیا، 1948ء میں فلسطینی پناہ گزینوں کے لیے عطیات جمع کیے، اور ان کے جانشین ان کے بیٹے عیسیٰ بن سلمان ہوئے۔"
+roles: [ruler]
+wings: [people]
+regions: [arabia]
+born:
+  edtf: "1894-10-10"
+  hijri: "1312"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 10 October 1894, as the English article's lead and infobox, the Arabic article and Wikidata's precise value (the item also carries a year-only 1894) give; the English biography's prose says he 'was born in 1895', a variant preserved here but not followed. The item's place of birth is Al-Muharraq (Q270500); Al-Muharraq has no place entity, so no born_in relation is written. The Hijri year (1312) is by tabular conversion. He was raised as heir under his father Hamad bin Isa Al Khalifa, whose record is built in this same wave, so the child_of edge is written below, once, in this record."
+  sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa]
+died:
+  edtf: "1961-11-02"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 2 November 1961 at his Safra residence, after an illness of about two years, as the Arabic article gives in detail and the English article and Wikidata confirm for the date; he was succeeded by his son Isa bin Salman Al Khalifa. The Hijri year (1381) is by tabular conversion. Safra has no place entity, so no died_in relation is written."
+  sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa]
+relations:
+  - { type: child_of, target: person/hamad-ibn-isa-al-khalifa, sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Salman bin Hamad Al Khalifa, and none names any affiliation for the man himself: Wikidata carries no religion value at all for his item, and neither the English nor the Arabic article has a religion field. His childhood study of the Qur'an and religious subjects under tutors brought by his father is schooling, and his throne's religious standing is office — neither counts as attestation. Absence configuration: his school stays unknown, unflagged."
+    sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa]
+external_ids: { wikidata: "Q2469483" }
+sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salman bin Hamad Al Khalifa (born 1894)' (revision 1365326480 of 21 July 2026), Arabic Wikipedia «سلمان بن حمد آل خليفة الأول» (revision 73430518 of 12 February 2026) and Wikidata item Q2469483 (item revision 2548547173 of 22 September 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and asserted before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic article's page property. Identity: the queue line 'Sir Salman bin Hamad Al Khalifa (1894–1961)' matches this biography exactly; he is NOT the present Crown Prince Salman bin Hamad (born 1969, Q58140), to whom the undisambiguated English and Arabic titles and the Urdu title resolve — those articles were rejected for this record on biography and QID. Existence checked both directions before building: name fragments and Q2469483 grepped across all data/person files on origin/main — no prior record. EDGE WRITTEN: child_of to person/hamad-ibn-isa-al-khalifa, written once, here in the son's record (the item's father value is Q2665314, his father's item, and his father's item lists this man, Q2469483, among its children). The queue's years (1894–1961) are confirmed; the birth day follows the lead, the Arabic article and the item's precise value against the English biography's '1895' prose variant, and is marked debated for that reason."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-138
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

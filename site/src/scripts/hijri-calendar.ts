@@ -81,14 +81,32 @@ function init(root: HTMLElement) {
     const oo = obsFor(cur.m, d);
     detail.textContent = `${d} ${months[cur.m - 1]} ${cur.y} = ${fmtG(c)}${oo.length ? " · " + oo.map((o) => o.label).join(" · ") : ""}`;
   });
-  root.querySelector("[data-conv]")!.addEventListener("change", (e) => {
-    const v = (e.target as HTMLInputElement).value;
+  const convIn = root.querySelector("[data-conv]") as HTMLInputElement;
+  const convert = (v: string) => {
     const out = root.querySelector("[data-convout]")!;
     if (!v) { out.textContent = ""; return; }
     const [y, m, d] = v.split("-").map(Number);
     const h = civilToHijri("gregorian", { y, m, d });
     out.textContent = `${h.date.d} ${months[h.date.m - 1]} ${h.date.y}`;
+  };
+  convIn.addEventListener("change", () => {
+    convert(convIn.value);
+    // The converted date rides in the address bar as ?d=YYYY-MM-DD, so a copied link reopens the same conversion.
+    const u = new URL(location.href);
+    if (convIn.value) u.searchParams.set("d", convIn.value); else u.searchParams.delete("d");
+    history.replaceState(null, "", u);
   });
+  // A shared link reopens the same conversion: a well-formed ?d= fills the input and converts. An absent
+  // or malformed parameter leaves the page exactly as it was.
+  const qd = new URLSearchParams(location.search).get("d") ?? "";
+  if (/^\d{4}-\d{2}-\d{2}$/.test(qd)) {
+    const [y, m, d] = qd.split("-").map(Number);
+    const dt = new Date(y, m - 1, d);
+    if (dt.getFullYear() === y && dt.getMonth() === m - 1 && dt.getDate() === d) {
+      convIn.value = qd;
+      try { convert(qd); } catch { convIn.value = ""; }
+    }
+  }
   root.querySelector("[data-ics]")!.addEventListener("click", () => {
     const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//islam.museum//hijri-calendar//EN"];
     for (const o of obs) for (const d of o.days) {

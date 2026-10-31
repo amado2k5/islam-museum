@@ -1,0 +1,56 @@
+id: person/fehim-spaho
+class: person
+label:
+  ar: "فهيم سباهو"
+  en: "Fehim Spaho"
+  ur: "فہیم سپاہو"
+names:
+  - { value: "Fehim Spaho", kind: full }
+gender: male
+born:
+  edtf: "1877-02-13"
+  hijri: "1294"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 13 February 1877 at Sarajevo, the first son of Hasan Spaho, a qadi in Jajce, Sofia, Cairo and Damascus and a teacher at the Sarajevo Sharia Judges' School, and of Fatima (née Bičakčić). The English, Bosnian and Croatian biographies and Wikidata agree on the day. 'Effendi', used as an honorific prefix by the English biography, is a title, not a name element, and is not entered as a name. The Hijri year 1294 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-fehim-spaho-en, source/wikipedia-fehim-spaho-bs, source/wikipedia-fehim-spaho-hr, source/wikidata-fehim-spaho]
+died:
+  edtf: "1942-02-14"
+  hijri: "1361"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Sarajevo on 14 February 1942, one day after his sixty-fifth birthday, and was buried beside the Gazi Husrev-beg Mosque after a funeral led from that mosque on 15 February. The English and Croatian biographies, the Bosnian biography's infobox and Wikidata give 14 February; the Bosnian biography's body text says he died on 13 February, a variant preserved here. The Hijri year 1361 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-fehim-spaho-en, source/wikipedia-fehim-spaho-bs, source/wikipedia-fehim-spaho-hr, source/wikidata-fehim-spaho]
+roles: [scholar, writer, translator]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. The English biography's infobox gives his religion as Sunni Islam, and the English article is filed under a Sunni Muslims category — but that is one encyclopedia family's structured value plus a category filing; Wikidata gives only Islam, and neither the Bosnian nor the Croatian biography's text names any school for him. His office of reis-ul-ulema (Grand Mufti of Yugoslavia, 1938–1942), his presidency of the Supreme Sharia Court and his father's qadi posts are office and family background, which never count. The Sunni reading is preserved here unclassified for a founder ruling."
+    sources: [source/wikipedia-fehim-spaho-en, source/wikipedia-fehim-spaho-bs, source/wikipedia-fehim-spaho-hr, source/wikidata-fehim-spaho]
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-fehim-spaho-en, source/wikipedia-fehim-spaho-bs] }
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-fehim-spaho-en, source/wikipedia-fehim-spaho-bs] }
+  - { type: sibling_of, target: person/mehmed-spaho, sources: [source/wikipedia-fehim-spaho-en, source/wikipedia-fehim-spaho-hr, source/wikipedia-fehim-spaho-bs] }
+summary:
+  ar: "عالم وكاتب ومترجم بوسني من سراييفو، الأخ الأكبر للسياسي محمد سباهو؛ عمل قاضياً ورئيساً للمحكمة الشرعية العليا، ثم رئيساً لعلماء يوغوسلافيا من 1938 حتى وفاته سنة 1942، وترجم من التركية والعربية والفارسية، ومن ترجماته «ألف ليلة وليلة»."
+  en: "Bosnian scholar, writer and translator from Sarajevo, the elder brother of the politician Mehmed Spaho: a qadi and president of the Supreme Sharia Court who became Grand Mufti (reis-ul-ulema) of Yugoslavia in 1938 and held the office until his death in 1942, translating from Turkish, Arabic and Persian, among his works the Thousand and One Nights."
+  ur: "سرائیوو سے تعلق رکھنے والے بوسنیائی عالم، ادیب اور مترجم، سیاست دان محمد سپاہو کے بڑے بھائی؛ قاضی اور سپریم شریعت کورٹ کے صدر رہے، پھر 1938ء میں یوگوسلاویہ کے رئیس العلماء (مفتیِ اعظم) بنے اور 1942ء میں وفات تک اس منصب پر رہے؛ ترکی، عربی اور فارسی سے ترجمے کیے، جن میں «الف لیلہ» بھی شامل ہے۔"
+sources:
+  - source/wikipedia-fehim-spaho-en
+  - source/wikipedia-fehim-spaho-bs
+  - source/wikipedia-fehim-spaho-hr
+  - source/wikidata-fehim-spaho
+external_ids:
+  wikidata: Q13081883
+provenance:
+  layer: own-research
+  source: "English, Bosnian and Croatian Wikipedia biographies of Fehim Spaho (Q13081883) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Sarajevo-born reis-ul-ulema of 1938–1942 (1877–1942); the queue's years are confirmed, the death day being carried at 14 February with the Bosnian article's body variant of 13 February preserved. Existence checks by name fragments (spaho) and by QID across data/person on origin/main found no prior record. The sibling edge to Mehmed Spaho (built in this same batch) is written once, here in the elder brother's record — Fehim born 1877, Mehmed 1883 — under the registry's symmetric sibling_of predicate, as both men's biographies attest the brotherhood; his brother Mustafa and his parents have no records. Sarajevo has a place entity and carries the born_in and died_in edges."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-130
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

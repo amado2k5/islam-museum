@@ -129,3 +129,22 @@ translators: []
 :::
 
 يروي الشيخ أن أبا بكر تقيّأ لبنًا لما شكّ في مصدره، ويقول إن الطعام المشكوك فيه من أهم أسباب عدم استجابة الدعاء (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:32:30}
+
+## عماله عند خليفة بن خياط
+يختم [[person/khalifa-ibn-khayyat|خليفة بن خياط]] أخبار هذا العهد بتسمية العمال وأصحاب المناصب. ونقلها هنا على ترتيبه، والأسطر التي استدركها المحقق من مصادر متأخرة منبّه عليها. {cite:tarikh-khalifa-umari-1985 p. 122–123}
+
+- **المدينة:** سنان الضمري (استخلفه حين خرج إلى ذي القصة)، ثم [[person/usama-ibn-zayd|أسامة بن زيد]] (ويقال)، ثم قتادة بن النعمان الظفري (استخلفه حين حج سنة اثنتي عشرة)، ثم [[person/abd-allah-ibn-umm-maktum|ابن أم مكتوم]] (ويقال) {cite:tarikh-khalifa-umari-1985 p. 122} {cite:tarikh-khalifa-umari-1985 p. 123}
+- **أنقاب المدينة:** [[person/abdullah-ibn-masud|ابن مسعود]] {cite:tarikh-khalifa-umari-1985 p. 122}
+- **البحرين:** [[person/al-ala-ibn-al-hadrami|العلاء بن الحضرمي]] (حتى توفي أبو بكر فأقره عمر)، ثم [[person/anas-ibn-malik|أنس]] (رواية موسى بن أنس) {cite:tarikh-khalifa-umari-1985 p. 122} {cite:tarikh-khalifa-umari-1985 p. 123}
+- **عمان:** [[person/ikrima-ibn-abi-jahl|عكرمة بن أبي جهل]] (وجهه إليها ثم إلى اليمن)، ثم حذيفة العلقاني (حتى توفي أبو بكر؛ والنسبة مختلف فيها عند المحقق) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **صنعاء:** [[person/al-muhajir-ibn-abi-umayya|المهاجر بن أبي أمية المخزومي]] (بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **اليمن:** [[person/ziyad-ibn-labid-al-bayadi|زياد بن لبيد الأنصاري]] (على ما سوى صنعاء من الساحل) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **خولان:** [[person/yala-ibn-umayya|يعلى بن أمية]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **مكة:** [[person/attab-ibn-usayd|عتاب بن أسيد]] (أقره؛ وتوفي هو وأبو بكر في يوم واحد) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **الطائف:** [[person/uthman-ibn-abi-al-as|عثمان بن أبي العاص]] (أقره) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **اليمامة:** [[person/salit-ibn-qays|سليط بن قيس]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **الكاتب:** [[person/uthman-ibn-affan|عثمان بن عفان]]، ثم [[person/zayd-ibn-thabit|زيد بن ثابت]] (ويقال: كتب له أيضاً) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **الحاجب:** شديد مولاه {cite:tarikh-khalifa-umari-1985 p. 123}
+- **على أمره كله والقضاء:** [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **بيت المال:** [[person/abu-ubayda-ibn-al-jarrah|أبو عبيدة بن الجراح]] (ثم وجهه إلى الشام؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **المؤذن:** سعد القرظ مولى عمار بن ياسر {cite:tarikh-khalifa-umari-1985 p. 123}

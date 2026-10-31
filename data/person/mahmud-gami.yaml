@@ -1,0 +1,54 @@
+id: person/mahmud-gami
+class: person
+label:
+  ar: "محمود الجامي"
+  en: "Mahmud Gami"
+  ur: "محمود گامی"
+names:
+  - { value: "Mahmud Gami", kind: full }
+  - { value: "Gami", kind: pen }
+  - { value: "Jami of Kashmir", kind: laqab }
+gender: male
+born:
+  edtf: "1765"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Aroora (Adveder, now Mahmudabad) near Shahabad in Anantnag district. The year is the conventional one: the English article's infobox gives c. 1765 and Wikidata gives 1765, while the Kashmiri biography places the birth only in the second half of the eighteenth century — hence debated. A bare Gregorian year spans two Hijri years (1765 falls across 1178–1179 AH), so no hijri key is carried."
+  sources: [source/wikipedia-mahmud-gami-en, source/wikipedia-mahmud-gami-ks, source/wikidata-mahmud-gami]
+died:
+  edtf: "1855"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1855 and was buried at Aroora: the Kashmiri biography states the year and the burial as narrative fact, and the English article's infobox, Wikidata and the Kashmir Times all agree. A bare Gregorian year spans two Hijri years (1855 falls across 1271–1272 AH), so no hijri key is carried."
+  sources: [source/wikipedia-mahmud-gami-ks, source/wikipedia-mahmud-gami-en, source/wikidata-mahmud-gami, source/kashmir-times-gami-rasul-triad]
+roles: [poet]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Settled on two independent attestations of the man himself: his Kashmiri biography styles him in its lead an eighteenth-century Sufi poet, argues from that identity in its body ('since Mahmud Gami was a Sufi poet, his kalaam shows mystical secrets through stories and metaphors'), and dates the beginning of Kashmir's line of Sufi poets from him; and the Kashmir Times feature independently presents him as Dooru's mystic saint-poet whose verse blended Sufi mysticism, quoting Kashmir University's Nissar Nadeem and Shafqat Altaf on his transformation of mystical experience. The English article's infobox filing 'Movement: Sufism' was not counted, and no order (tariqa) is named anywhere, so the value is sufi without an order."
+    sources: [source/wikipedia-mahmud-gami-ks, source/kashmir-times-gami-rasul-triad]
+relations: []
+summary:
+  ar: "شاعر كشميري صوفي من دورو شاه آباد لُقب بجامي كشمير، أدخل المثنوي والغزل الفارسيين إلى الكشميرية، وألّف «يوسف زليخا» و«ليلى مجنون» و«شيخ صنعان» ضمن إحدى عشرة مثنوية جمعتها كلياته."
+  en: "Kashmiri Sufi poet of Doru Shahabad, called the Jami of Kashmir, who brought the Persian mathnavi and ghazal into Kashmiri and wrote Yusuf-Zuleikha, Lael Majnun and Sheikh Sana'n among the eleven mathnavis of his Kulliyat."
+  ur: "ڈورو شاہ آباد کے کشمیری صوفی شاعر، جنھیں «جامیِ کشمیر» کہا جاتا ہے؛ انھوں نے فارسی مثنوی اور غزل کو کشمیری میں داخل کیا اور اپنی کلیات کی گیارہ مثنویوں میں «یوسف زلیخا»، «لیلیٰ مجنوں» اور «شیخ صنعان» لکھیں۔"
+sources:
+  - source/wikipedia-mahmud-gami-en
+  - source/wikipedia-mahmud-gami-ar
+  - source/wikipedia-mahmud-gami-ks
+  - source/wikidata-mahmud-gami
+  - source/kashmir-times-gami-rasul-triad
+external_ids:
+  wikidata: Q12445871
+provenance:
+  layer: own-research
+  source: "English, Arabic and Kashmiri Wikipedia biographies of Mahmud Gami (Q12445871), the Wikidata item and Rao Farman Ali's Kashmir Times feature on the Dooru poets, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the poet of Doru Shahabad (1765–1855), not the fifteenth-century sultan Mahmud Ghaznavi of his own Qisa-i-Mahmud Ghaznavi. Existence checks by name fragments (gami, mahmud) and by QID across data/person on origin/main found no prior record. The queue's years are confirmed, the birth as circa. His takhallus Gami was chosen, the Kashmiri biography says, to rhyme with Jami and Nizami. Relations written: none — his contemporary Waliullah Mattu has no person record, and Shahabad, Aroora and Anantnag have no place entities. The Arabic article is a translation of the English and is registered as such."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-123
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

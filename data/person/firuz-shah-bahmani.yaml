@@ -1,0 +1,69 @@
+id: person/firuz-shah-bahmani
+class: person
+
+label:
+  ar: "فيروز شاه البهمني"
+  en: "Firuz Shah Bahmani"
+  ur: "فیروز شاہ بہمنی"
+
+names:
+  - { value: "تاج الدين فيروز شاه بن داود شاه البهمني", kind: full }
+  - { value: "Taj al-Din Firuz Shah ibn Dawud Shah al-Bahmani", kind: full }
+  - { value: "Firoz Shah Bahmani", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "سلطان بهمني في الدكن (حكم 1397-1422)، ابن داود شاه وحفيد مؤسس الدولة علاء الدين بهمن شاه، وأخو أحمد شاه الأول. نشأ في كنف محمد شاه الثاني الذي زوّجه ابنته وجعله ولي عهده، ثم انتزع العرش سنة 1397 من السلطان الدمية شمس الدين. وسّع مملكته وحارب فيجايانغارا مراراً فغلب في 1398 و1406 وهُزم عند بانغال سنة 1419. بنى مدينة فيروز آباد، وجعل الدكن مركزاً ثقافياً يستقدم العلماء والأدباء من الخليج. في أواخر أيامه مال إلى الزهد، ثم أُكره على التنازل لأخيه أحمد سنة 1422 وتوفي في غلبرغا في 1 أكتوبر 1422 ودُفن في هفت غنبذ."
+  en: "Bahmani sultan of the Deccan (r. 1397–1422), son of Dawud Shah and grandson of the dynasty's founder Ala al-Din Bahman Shah, and brother of Ahmad Shah I. Raised by Muhammad Shah II, who married him to his daughter and made him heir presumptive, he seized the throne in 1397 from the puppet sultan Shams al-Din. He expanded the kingdom and fought Vijayanagara repeatedly, winning in 1398 and 1406 but losing at Pangal in 1419. He built the city of Firozabad and made the Deccan a cultural centre, recruiting scholars and men of letters from the Persian Gulf. In his last years he turned to asceticism; forced to abdicate to his brother Ahmad in 1422, he died at Gulbarga on 1 October 1422 and was buried in the Haft Gumbaz."
+  ur: "دکن کے بہمنی سلطان (دورِ حکومت 1397ء–1422ء)، داود شاہ کے بیٹے اور سلسلے کے بانی علاء الدین بہمن شاہ کے پوتے، اور احمد شاہ اول کے بھائی۔ وہ محمد شاہ ثانی کے زیرِ سرپرستی پلے، جنھوں نے اپنی بیٹی ان سے بیاہی اور انھیں ولی عہد بنایا؛ پھر 1397ء میں انھوں نے کٹھ پتلی سلطان شمس الدین سے تخت چھین لیا۔ انھوں نے سلطنت کو وسعت دی اور وجے نگر سے بارہا جنگ کی، 1398ء اور 1406ء میں کامیاب رہے مگر 1419ء میں پانگل کے مقام پر شکست کھائی۔ انھوں نے فیروز آباد شہر بسایا اور دکن کو ثقافتی مرکز بنایا، خلیجِ فارس سے علما و ادبا کو بلایا۔ آخری برسوں میں وہ زہد کی طرف مائل ہوئے؛ 1422ء میں اپنے بھائی احمد کے حق میں دستبردار ہونے پر مجبور ہوئے اور 1 اکتوبر 1422ء کو گلبرگہ میں وفات پائی اور ہفت گنبد میں دفن ہوئے۔"
+
+roles: [sultan]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1371"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The year rests on Wikidata alone: no biography read gives him a birth year at all, and the founder's queue lists 1370. Both readings are preserved; the record follows the structured value, as debated. No Hijri year is recorded: 1371 straddles 772-773 AH and no source pairs one with it."
+  sources:
+    - source/wikidata-firuz-shah-bahmani
+
+died:
+  edtf: "1422-10-01"
+  hijri: "0825"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Place: Gulbarga (the English biography and Wikidata agree; the city is Kalaburagi in Wikidata's naming). He abdicated to his brother Ahmad on 22 September 1422 and died days later, on 1 October 1422, and was buried in the Haft Gumbaz tomb there, built in his lifetime. place/gulbarga has no entity on main, so no died_in or buried_in edge is written and the place is carried here; the Hijri year is computed from the Gregorian date."
+  sources:
+    - source/wikipedia-firuz-shah-bahmani-en
+    - source/wikidata-firuz-shah-bahmani
+
+relations:
+  - { type: child_of, target: person/dawud-shah-i-bahmani, sources: [source/wikipedia-firuz-shah-bahmani-en, source/wikidata-firuz-shah-bahmani] }
+  - { type: sibling_of, target: person/ahmad-shah-i-bahmani, sources: [source/wikipedia-firuz-shah-bahmani-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school of law or an order for him. The English biography records a documented personal practice in full: he was well versed in the Quran and Islamic jurisprudence, took philosophical leanings in Sufism, and spent his final two years, after the Pangal defeat, in asceticism and piety. Leanings and practice are not an affiliation: no initiation, no order membership and no madhhab is attested for the man himself, and Wikidata carries no religion value, so the segment stays unknown unflagged."
+    sources:
+      - source/wikipedia-firuz-shah-bahmani-en
+
+sources: [source/wikipedia-firuz-shah-bahmani-en, source/wikidata-firuz-shah-bahmani]
+
+external_ids:
+  wikidata: Q7676751
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Taj ud-Din Firuz Shah', rev. 1377253570 of 28 September 2026, read in full in session; Wikidata Q7676751, item revision 2541558427 of 7 September 2026, re-asserted against a second live query in the same session. His father's record (person/dawud-shah-i-bahmani, a wikidata-import draft card) and his brother's (person/ahmad-shah-i-bahmani) are on main; the child_of edge is written in this record and the sibling_of edge is written here once, Firuz being the elder brother. Queue years 1370-1422: the death is confirmed to the day; the birth year is Wikidata's 1371 against the queue's 1370, carried as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

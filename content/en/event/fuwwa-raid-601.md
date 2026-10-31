@@ -2,7 +2,10 @@
 id: event/fuwwa-raid-601
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Summary
-A Frankish fleet set out for Egypt and plundered the city of Fuwwa, killing and capturing some of its people. {cite:kamil-ibn-al-athir p. 293}
+In 601 AH a Frankish fleet sailed to the lands of Egypt, plundered the city of Fuwwa and stayed there five days taking captives and spoils. {cite:kamil-ibn-al-athir p. 293}
+
+## Details
+Ibn al-Athir relates that the Frankish fleet reached Fuwwa that year, descended on the city, and spent five days seizing captives and plunder. {cite:kamil-ibn-al-athir p. 293} The Egyptian army stood opposite them with the Nile between the two forces, and had no way to reach the raiders because it had no ships; the Franks therefore withdrew with their captives and booty without anyone stopping them. {cite:kamil-ibn-al-athir p. 293} As Ibn al-Athir presents it, the raid shows how exposed Egypt's coasts were at that time to seaborne attack. {cite:kamil-ibn-al-athir p. 293}

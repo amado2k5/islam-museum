@@ -19,3 +19,46 @@ Al-Hadi was the fourth Abbasid caliph; he ruled about a year, 169-170 AH, and wa
 
 ## Research notes
 - The causes of death conflict within al-Suyuti's own account and are given here as transmitted, without adjudication.
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 446–447}
+
+- **Mecca:** Ubayd Allah ibn Qutham ibn al-Abbas ibn Ubayd Allah ibn al-Abbas (until Musa died) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Yemen:** Ibrahim ibn Salm ibn Qutayba {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Basra:** [[person/rawh-ibn-hatim|Rawh ibn Hatim]] (dismissed by Musa); then [[person/muhammad-ibn-sulayman-al-abbasi|Muhammad ibn Sulayman ibn Ali]] (until Musa died) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Kufa:** Musa ibn Isa (confirmed) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Khurasan:** Abu al-Abbas al-Tusi (confirmed) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Sijistan:** Tamim ibn Sa'd (dismissed by Musa); then Kathir ibn Salm {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Sind:** al-Layth, his mawla (ordered to come down); then Muhammad ibn al-Layth (his father's deputy) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Jazira:** Abu Hurayra, a man of Khurasan (a man of Khurasan); then Ibrahim ibn Salih {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Ifriqiya:** [[person/yazid-ibn-hatim|Yazid ibn Hatim]] (confirmed) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Judgeship of Basra:** Umar ibn Uthman (confirmed; dismissed by Muhammad ibn Sulayman); then Mu'adh ibn Mu'adh {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Judgeship of Kufa:** [[person/sharik-ibn-abdallah|Sharik]] (dismissed by Musa); then al-Qasim ibn Ma'n {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Judgeship of Medina:** Sa'id ibn Abd al-Rahman al-Jumahi {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Police:** [[person/abdallah-ibn-malik-al-khuzai|Abd Allah ibn Malik al-Khuza'i]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Chancery and diwan:** Umar ibn Bazi' {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Seal:** [[person/ali-ibn-yaqtin|Ali ibn Yaqtin]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Guard, storehouses and treasuries:** [[person/ali-ibn-isa-ibn-mahan|Ali ibn Isa ibn Mahan]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Chamberlain:** [[person/fadl-ibn-al-rabi|al-Fadl ibn al-Rabi']] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Vizier:** Ibrahim ibn Dhakwan al-Harrani (in charge of all his affairs) {cite:tarikh-khalifa-umari-1985 p. 447}
+
+## In al-Baladhuri
+Musa ibn al-Mahdi, the Abbasid caliph al-Hadi. Al-Baladhuri says he came down in the City of Peace (Baghdad) and died there. {cite:futuh-buldan-maarif-1407}
+
+## His life in al-Suyuti
+His mother was al-Khayzuran, a Berber concubine. He was born at al-Rayy in 147 AH. No caliph before him had come to power at his age. {cite:tarikh-khulafa-minhaj-1434 p.451-453}
+
+His father charged him with killing the heretics, and he pursued them strenuously. He was called "Musa the Tight-Lipped", because his upper lip was drawn in. {cite:tarikh-khulafa-minhaj-1434 p.451-453}
+
+Al-Suli relates that the only caliph known to have travelled by post-horse was al-Hadi, from Jurjan to Baghdad. {cite:tarikh-khulafa-minhaj-1434 p.451-453}
+
+## In al-Mas'udi
+Al-Mas'udi describes him as severe, brave and hard-hearted, and says that men walked before him with swords, staves and bows, so weapons were abundant in his time. {cite:muruj-al-dhahab p.669-670}
+
+In his days al-Husayn ibn Ali, of the battle of Fakh, rose on the day of Tarwiya six miles from Mecca. {cite:muruj-al-dhahab p.314-316}
+
+He wanted to depose [[person/harun-al-rashid|al-Rashid]] from the heirship in favour of his son Ja'far. {cite:muruj-al-dhahab p.314-316}
+
+Al-Mas'udi says that he appointed al-Rabi' as vizier, and that al-Rabi' died, and it is said al-Hadi gave him a potion. This is an attributed report and is not established here. {cite:muruj-al-dhahab p.314-316}
+
+On the night of his death he told al-Khayzuran that he would die that night, that his brother Harun would rule that night, and that al-Ma'mun was born that night. {cite:muruj-al-dhahab p.321-323}

@@ -1,0 +1,88 @@
+id: person/mir-ahmad-yar-khan
+class: person
+label:
+  ar: "أحمد يار خان"
+  en: "Mir Ahmad Yar Khan"
+  ur: "میر احمد يار خان"
+names:
+  - value: "Ahmad Yar Khan Ahmedzai"
+    kind: full
+  - value: "احمد يار خان احمدزئی"
+    kind: full
+  - value: "Ahmad of Kalat"
+    kind: alternate
+gender: male
+summary:
+  ar: "آخر خانات قلات (1902–1979): خلف والده أعظم جان سنة 1933، وتردد في الانضمام سنة 1947 ثم وقّع انضمام قلات إلى باكستان في 27 مارس 1948، ورأس اتحاد ولايات بلوشستان من 1952 حتى حلّ الاتحاد وانتهاء الخانية في 14 أكتوبر 1955، واعتُقل سنة 1958 بعد أن أعلن نفسه خانا من جديد، ثم صار حاكما لبلوشستان 1974–1977، وألّف سيرته السياسية «داخل بلوشستان» (1975)."
+  en: "The last Khan of Kalat (1902–1979): he succeeded his father Azam Jan in 1933, held out through 1947 before signing Kalat's accession to Pakistan on 27 March 1948, headed the Baluchistan States Union from 1952 until its dissolution ended the khanate on 14 October 1955, was arrested in 1958 after briefly declaring himself Khan again, served as Governor of Balochistan in 1974–1977, and wrote a political autobiography, Inside Baluchistan (1975)."
+  ur: "قلات کے آخری خان (1902ء–1979ء): 1933ء میں اپنے والد اعظم جان کے جانشین بنے، 1947ء میں الحاق سے ہچکچاتے رہے اور بالآخر 27 مارچ 1948ء کو قلات کے پاکستان سے الحاق پر دستخط کیے، 1952ء سے بلوچستان ریاستوں کے اتحاد کے سربراہ رہے حتیٰ کہ 14 اکتوبر 1955ء کو اتحاد کی تحلیل سے خانیت ختم ہو گئی، 1958ء میں خود کو دوبارہ خان قرار دینے پر گرفتار ہوئے، 1974ء–1977ء میں بلوچستان کے گورنر رہے، اور اپنی سیاسی خود نوشت «انسائیڈ بلوچستان» (1975ء) لکھی۔"
+born:
+  edtf: "1902"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: >-
+    The English article, the Urdu article's categories and Wikidata
+    give the year 1902 alone; the Urdu article places his birth at
+    Loralai. A bare Gregorian year spans two Hijri years (1319–1320)
+    and no source pairs it with a Hijri year, so no Hijri year is
+    recorded.
+  sources: [source/wikipedia-mir-ahmad-yar-khan-en, source/wikipedia-mir-ahmad-yar-khan-ur, source/wikidata-mir-ahmad-yar-khan]
+died:
+  edtf: "1979"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: >-
+    The English article, the Urdu article's categories and Wikidata
+    give 1979 alone; the English article places his death at Kalat.
+    A bare Gregorian year spans two Hijri years (1399–1400), so no
+    Hijri year is recorded.
+  sources: [source/wikipedia-mir-ahmad-yar-khan-en, source/wikipedia-mir-ahmad-yar-khan-ur, source/wikidata-mir-ahmad-yar-khan]
+roles: [ruler, politician]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school for him. Wikidata carries no
+      religion value for him, and neither article discusses his
+      personal affiliation; the Urdu article styles him al-Hajj
+      inside an honorific string of titles, which is an honorific,
+      not an attestation. Encyclopaedia Iranica's statement that the
+      Baluch generally claim all Baluch are Hanafite Muslims is a
+      claim about a people, not evidence of this man's school. Under
+      the two-source rule and the doubt rule the value stays unknown.
+    sources: [source/wikipedia-mir-ahmad-yar-khan-en, source/wikipedia-mir-ahmad-yar-khan-ur, source/wikidata-mir-ahmad-yar-khan, source/iranica-baluchistan-i]
+external_ids:
+  wikidata: Q22003023
+sources:
+  - source/wikipedia-mir-ahmad-yar-khan-en
+  - source/wikipedia-mir-ahmad-yar-khan-ur
+  - source/wikidata-mir-ahmad-yar-khan
+  - source/iranica-baluchistan-i
+provenance:
+  layer: own-research
+  source: >-
+    Built for the century-additions queue §B line 1564, whose dates
+    (1906–1979) are corrected on the sources: the English article
+    'Ahmad of Kalat' (revision 1351776104 of 30 April 2026), the Urdu
+    article 'میر احمد يار خان' (revision 11382720 of 1 July 2026) and
+    Wikidata item Q22003023 (item revision 2472319940 of 16 March
+    2026) all give 1902–1979, retrieved in full via the MediaWiki and
+    Wikidata APIs on 31 October 2026. Existence checks before
+    building: name greps for Ahmad Yar across data/person on
+    origin/main returned only Ahmad Yar Khan Daultana and Ahmad Yar
+    Khan Naimi, different men, and the QID Q22003023 grep returned no
+    hit. No relations are written: the parent pair with his father is
+    written once, in his father's record; his sons — among them the
+    titular successor Suleman Dawood Jan — have no person records,
+    and the khanate succession is an office, not a relation. No place
+    edges are written: Kalat and Loralai have no place entities.
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status:
+  review: published

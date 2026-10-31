@@ -16,3 +16,10 @@ al-Mas'udi reports that after his father's death he entered his house and did no
 al-Mas'udi reports that when the people of Medina expelled his governor in the year 63 AH, he sent against them Muslim ibn Uqba al-Murri, who terrified and plundered it. He reports that the Ka'ba was demolished by the catapults of al-Husayn ibn Numayr eleven days before his death {cite:muruj-al-dhahab p. 66-69}.
 
 These are al-Mas'udi's judgements and reports, and they need other sources for comparison.
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 256}
+
+- **Judgeship of Basra:** Abd al-Rahman ibn Udhayna al-Abdi (until the civil strife broke out) {cite:tarikh-khalifa-umari-1985 p. 256}
+- **Judgeship of Kufa:** [[person/shurayh-al-qadi|Shurayh]] {cite:tarikh-khalifa-umari-1985 p. 256}
+- **Judgeship of Medina:** Abd Allah ibn Uthman al-Taymi (appointed by Amr ibn Sa'id) {cite:tarikh-khalifa-umari-1985 p. 256}

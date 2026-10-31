@@ -1,0 +1,73 @@
+id: person/jalaluddin-surkh-posh-bukhari
+class: person
+label:
+  ar: "جلال الدين سرخ بوش البخاري"
+  en: "Jalaluddin Surkh-Posh Bukhari"
+  ur: "جلال الدین سرخ پوش بخاری"
+names:
+  - { value: "سيد جلال الدين حسين النقوي البخاري", kind: full }
+  - { value: "Sayyid Jalaluddin Husayn al-Naqvi al-Bukhari", kind: full }
+  - { value: "سرخ بوش", kind: laqab }
+  - { value: "Surkh-Posh", kind: laqab }
+  - { value: "البخاري", kind: nisba }
+  - { value: "Jalaluddin Bukhari", kind: alternate }
+gender: male
+summary:
+  ar: "سيد جلال الدين حسين النقوي البخاري (595–690 هـ / 1199–1291م)، المعروف بسرخ بوش، ولي صوفي وُلد في بخارى وهاجر أمام الغزو المغولي فأخذ الطريقة السهروردية في ملتان عن بهاء الدين زكريا، ثم استقر سنة 1244م في أوج بالسند فجعلها مركزًا للسهروردية وأسس فرعها الجلالي، وهو جد مخدوم جهانيان جهانكشت."
+  en: "Sayyid Jalaluddin Husayn al-Naqvi al-Bukhari (595–690 AH / 1199–1291 CE), known as Surkh-Posh ('clad in red'), a Sufi saint born at Bukhara who fled the Mongol invasion, took the Suhrawardi order at Multan from Bahauddin Zakariya, and settled in 1244 at Uch in Sindh, which he made a Suhrawardi centre, founding the order's Jalali branch; he is the grandfather of Makhdum-i Jahaniyan Jahangasht."
+  ur: "سید جلال الدین حسین نقوی بخاری (595ھ–690ھ / 1199ء–1291ء)، جو سرخ پوش کے نام سے مشہور ہیں، بخارا میں پیدا ہونے والے صوفی بزرگ تھے۔ منگول حملے کے سامنے ہجرت کر کے انھوں نے ملتان میں بہاء الدین زکریا سے سلسلۂ سہروردیہ اختیار کیا، پھر 1244ء میں سندھ کے شہر اوچ میں سکونت اختیار کر کے اسے سہروردی مرکز بنایا اور سلسلے کی جلالی شاخ کی بنیاد رکھی۔ مخدوم جہانیاں جہانگشت ان کے پوتے ہیں۔"
+roles: [sufi master, preacher]
+regions: [persia-central-asia, south-asia]
+wings: [people]
+born:
+  edtf: "1199~"
+  hijri: "0595"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Bukhara. The family tradition gives his birth on Friday 5 Dhu al-Hijja 595 AH at Bukhara, which Wikidata renders 1199; Khan gives 1198, and older reference works give 1192 — the queue's 'usually 1192–1291'. The English article's own '1190–1295 CE' contradicts its 595–690 AH and is not followed. The queue's dates for him (1244–1350) match no biography: 1244 is the year he settled at Uch, and 1350 falls two generations later."
+  sources:
+    - source/wikipedia-jalaluddin-surkh-posh-bukhari-ar
+    - source/wikidata-jalaluddin-surkh-posh-bukhari
+    - source/khan-constructing-islam-on-the-indus-2016
+died:
+  edtf: "1291"
+  hijri: "0690"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: false
+  note: "Uch. The family biography tradition gives 19 Jumada al-awwal 690 AH (20 May 1291) at Uch, where his tomb and mosque stand; Wikidata agrees on 1291. A stray 1294 in one web copy of that tradition is a slip."
+  sources:
+    - source/wikipedia-jalaluddin-surkh-posh-bukhari-en
+    - source/wikidata-jalaluddin-surkh-posh-bukhari
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikipedia-jalaluddin-surkh-posh-bukhari-en, source/khan-constructing-islam-on-the-indus-2016] }
+  - type: member_of
+    target: group/suhrawardiyya
+    note: "Initiated into the Suhrawardi order at Multan in 1237 and appointed a deputy of Bahauddin Zakariya, then sent to preach at Bhakkar and Uch, where he founded the order's Jalali branch."
+    sources:
+      - source/wikipedia-jalaluddin-surkh-posh-bukhari-en
+      - source/khan-constructing-islam-on-the-indus-2016
+faith:
+  - value: sufi
+    basis: documented
+    note: "His own initiation into the Suhrawardi order is attested by two independent sources: the English Wikipedia, which makes him one of the pioneers of the Suhrawardiyya in the subcontinent and founder of its Jalali branch, and Khan's scholarly monograph, which records his initiation at Multan in 1237, his appointment as Zakariya's deputy and his dispatch to preach at Bhakkar and Uch. The English article's lead also calls him a Sunni Sufi, but that is one source family for the school, so no sunni segment is recorded; Wikidata gives only Islam."
+    sources:
+      - source/wikipedia-jalaluddin-surkh-posh-bukhari-en
+      - source/khan-constructing-islam-on-the-indus-2016
+sources:
+  - source/wikipedia-jalaluddin-surkh-posh-bukhari-en
+  - source/wikipedia-jalaluddin-surkh-posh-bukhari-ar
+  - source/wikipedia-jalaluddin-surkh-posh-bukhari-ur
+  - source/wikidata-jalaluddin-surkh-posh-bukhari
+  - source/khan-constructing-islam-on-the-indus-2016
+external_ids:
+  wikidata: Q6126003
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia (revisions 1377981368 of 2 Oct 2026, 76910940 of 7 Oct 2026, 11801268 of 18 Aug 2026), Wikidata Q6126003 (item rev. 2537433207 of 28 Aug 2026, re-asserted against a second live query in the same session), and Hasan Ali Khan, Constructing Islam on the Indus (Cambridge University Press, 2016), ch. 3. IDENTITY: the queue's 'Syed Jalaluddin Bukhari (1244–1350)' is resolved as this man — the only Jalaluddin Bukhari of Uch in the sources, grandfather of Jahaniyan Jahangasht (queue line 1701) — under his correct dates, with the queue's dates preserved in the born note; 1244 is his settlement at Uch. Existence checks by name fragments (surkh, bukhari, jalaluddin) and by QID across data/person on origin/main found no prior record. Uch has no place entity on main, so his settlement and death there are carried in the notes only. His son Ahmad Kabir has no record on main, so no child edge is written from this side; the grandfather edge is written once, in the grandson's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 145 B"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

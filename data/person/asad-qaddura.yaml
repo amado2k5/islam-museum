@@ -1,0 +1,51 @@
+id: person/asad-qaddura
+class: person
+label:
+  ar: "أسعد قدورة"
+  en: "As'ad Qaddura"
+  ur: "اسعد قدورہ"
+names:
+  - { value: "أسعد قدورة", kind: full }
+  - { value: "As'ad Qaddura", kind: full }
+gender: male
+born:
+  edtf: "1880"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Safed in 1880 (Arabic biography; Wikidata agrees). Safed has no place entity on main, so no born_in edge is written. The bare year spans the Hijri years 1297–1298, so no hijri value is recorded."
+  sources: [source/wikipedia-asad-qaddura-ar, source/wikidata-asad-qaddura]
+died:
+  edtf: "1959"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died at Damascus in 1959, whither he had fled after the Nakba of 1948 (Arabic biography; Wikidata gives the same year). The bare year spans the Hijri years 1378–1379, so no hijri value is recorded."
+  sources: [source/wikipedia-asad-qaddura-ar, source/wikidata-asad-qaddura]
+roles: [scholar, qadi]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Qaddura himself. Wikidata's structured religion value gives Islam only — a single structured family. His posts (mufti of Safed in the First World War; sharia judge for Nazareth, Acre and Safed under the Mandate) are offices, and his study at al-Azhar under Muhammad Abduh is education, none of which counts."
+    sources: [source/wikipedia-asad-qaddura-ar, source/wikidata-asad-qaddura]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-asad-qaddura-ar] }
+summary:
+  ar: "عالم دين فلسطيني من صفد (1880–1959)، درس في دمشق ثم في الأزهر على يد محمد عبده، وأسّس مدرسة وطنية في الجامع الأحمر بصفد، وكان مفتي صفد في الحرب العالمية الأولى وقاضيًا شرعيًا على الناصرة وعكا وصفد في عهد الانتداب، وشارك في الحركة الوطنية وفي مؤتمرات علماء فلسطين، ونزح بعد نكبة 1948 إلى دمشق حيث توفي."
+  en: "Palestinian religious scholar from Safed (1880–1959). He studied at Damascus and then at al-Azhar under Muhammad Abduh, founded a national school in Safed's Red Mosque, served as mufti of Safed in the First World War and as sharia judge for Nazareth, Acre and Safed under the Mandate, and took part in the national movement and the Palestine scholars' conferences; after the Nakba of 1948 he fled to Damascus, where he died."
+  ur: "صفد سے تعلق رکھنے والے فلسطینی عالمِ دین (1880–1959)۔ انہوں نے دمشق اور پھر الازہر میں محمد عبدہ سے تعلیم پائی، صفد کی سرخ مسجد میں ایک قومی مدرسہ قائم کیا، پہلی جنگِ عظیم میں صفد کے مفتی اور انتداب کے دور میں ناصرہ، عکہ اور صفد کے شرعی قاضی رہے، قومی تحریک اور فلسطینی علماء کی کانفرنسوں میں حصہ لیا؛ 1948ء کے نکبہ کے بعد دمشق چلے گئے جہاں ان کا انتقال ہوا۔"
+sources:
+  - source/wikipedia-asad-qaddura-ar
+  - source/wikidata-asad-qaddura
+external_ids:
+  wikidata: Q12179692
+provenance:
+  layer: own-research
+  source: "The Arabic Wikipedia biography of As'ad Qaddura (Q12179692) — the only Wikipedia biography of the man — and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the Arabic article's page properties. Existence checks by name fragments (qaddura, قدورة) and by QID across data/person on origin/main found no prior record for this man. His muftiate and judgeships are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-136
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

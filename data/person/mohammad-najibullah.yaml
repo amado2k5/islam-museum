@@ -1,0 +1,48 @@
+id: person/mohammad-najibullah
+class: person
+label: { ar: "محمد نجيب الله", en: "Mohammad Najibullah", ur: "محمد نجیب اللہ" }
+names:
+  - { value: "Mohammad Najibullah Ahmadzai", kind: full }
+  - { value: "Mohammad Najibullah", kind: full }
+  - { value: "محمد نجيب الله", kind: full }
+gender: male
+summary:
+  ar: "سياسي وعسكري أفغاني، وُلد سنة 1947 في غرديز بولاية بكتيا ودرس الطب في جامعة كابل. ترأّس جهاز الاستخبارات (الخاد) ثم صار الأمين العام لحزب الشعب الديمقراطي سنة 1986 ورئيس أفغانستان (1987–1992) وطبّق سياسة المصالحة الوطنية. بعد سقوط حكومته احتمى بمقر الأمم المتحدة في كابل حتى قتله طالبان عند دخولهم العاصمة في 27 سبتمبر 1996."
+  en: "Afghan politician and military officer, born in 1947 at Gardez in Paktia and trained in medicine at Kabul University. He headed the KHAD intelligence service, became general secretary of the PDPA in 1986 and president of Afghanistan (1987–1992), pursuing National Reconciliation. After his government's fall he sheltered in the UN compound in Kabul until the Taliban killed him on their capture of the capital on 27 September 1996."
+  ur: "افغان سیاست دان و فوجی افسر، جو 1947ء میں پکتیا کے گردیز میں پیدا ہوئے اور جامعہ کابل میں طب کی تعلیم پائی۔ خاد انٹیلیجنس سروس کے سربراہ رہے، 1986ء میں پی ڈی پی اے کے جنرل سیکرٹری اور پھر افغانستان کے صدر (1987ء–1992ء) بنے اور قومی مصالحت کی پالیسی اپنائی۔ حکومت کے خاتمے کے بعد کابل میں اقوامِ متحدہ کے احاطے میں پناہ گزین رہے حتیٰ کہ 27 ستمبر 1996ء کو طالبان نے دارالحکومت پر قبضے کے وقت انھیں قتل کر دیا۔"
+roles: [politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1947-08-06"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 6 August 1947. The English article and Wikidata give Gardez in Paktia, and the English text places his ancestral village between Said Karam and Gardez; the Arabic article's infobox gives Kabul instead — the conflict is preserved here and Gardez followed. No place entity exists for Gardez, so no born_in relation is written. The Hijri year (1366) is from the Arabic article's category pairing; tabular conversion agrees."
+  sources: [source/wikipedia-najibullah-en, source/wikipedia-najibullah-ar, source/wikipedia-najibullah-ur, source/wikidata-najibullah]
+died:
+  edtf: "1996-09-27"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed by the Taliban at Kabul on 27 September 1996, as the English article and Wikidata give; the Arabic article gives 28 September 1996 — the one-day conflict is preserved here and 27 September followed. He was buried at Gardez after Islamic funeral prayers; no place entity exists for Gardez, so no buried_in relation is written. The Hijri year (1417) is from the Arabic article's category pairing; tabular conversion agrees."
+  sources: [source/wikipedia-najibullah-en, source/wikipedia-najibullah-ar, source/wikipedia-najibullah-ur, source/wikidata-najibullah]
+relations:
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-najibullah-en, source/wikidata-najibullah] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school is named only by one structured family: Wikidata's religion claim is Sunni Islam (Q483654), and no article text read names a school for him. The English article has no religion field; the Arabic article's religion field is blank; the Arabic categories file him under 'Muslim socialists' and the Urdu categories under 'Islamic socialists' — filings, not attestations. The Islam in the English text is state policy and regime positioning: Islam made an official religion under his National Reconciliation, the 1990 constitution making Islam the state religion, and a 1990 party announcement that all party members were Muslims. None of that is a personal attestation of a school, so under the two-source rule his faith is recorded as unknown, unflagged, with the structured Sunni value preserved here."
+    sources: [source/wikipedia-najibullah-en, source/wikipedia-najibullah-ar, source/wikipedia-najibullah-ur, source/wikidata-najibullah]
+external_ids: { wikidata: "Q207728" }
+sources: [source/wikipedia-najibullah-en, source/wikipedia-najibullah-ar, source/wikipedia-najibullah-ur, source/wikidata-najibullah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Najibullah' (revision 1377402115 of 29 September 2026), Arabic Wikipedia «محمد نجيب الله» (revision 76479720 of 8 September 2026), Urdu Wikipedia «محمد نجیب اللہ» (revision 9485166 of 13 March 2026) and Wikidata item Q207728 (item revision 2558176306 of 18 October 2026), preserved from the stopped wave-119 writer's reads of 27 October 2026 and re-verified on 31 October 2026: the English article re-read live (birth 6 August 1947 at Gardez, death 27 September 1996 at Kabul, resting place Gardez, the 1990 constitution's Islam provisions all as recorded) and the live Wikidata item checked (dates, Gardez birth, Kabul death, Gardez burial and the Sunni Islam structured religion value all as recorded). Existence checked both directions before building: name fragments (Najibullah, نجيب) and Q207728 grepped across all data/person files on origin/main with no match, so this is a new build. The Arabic article's Kabul birthplace and 28 September death day conflict with the English article and Wikidata and are preserved in the notes, not silently resolved. No born_in or buried_in edge is written: Gardez has no place entity. No succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-119
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

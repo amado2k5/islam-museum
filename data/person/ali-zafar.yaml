@@ -1,0 +1,46 @@
+id: person/ali-zafar
+class: person
+label:
+  ar: "علي ظفر"
+  en: "Ali Zafar"
+  ur: "علی ظفر"
+names:
+  - { value: "Ali Muhammad Zafar", kind: full }
+  - { value: "Ali Zafar", kind: full }
+gender: male
+born:
+  edtf: "1980-05-18"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 18 May 1980 at Lahore: the English, Arabic and Urdu articles and Wikidata agree on the day and the city, and the Arabic article gives his birth name as Ali Muhammad Zafar. The Hijri year 1400 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-ali-zafar-en, source/wikipedia-ali-zafar-ar, source/wikipedia-ali-zafar-ur, source/wikidata-ali-zafar]
+roles: [singer, songwriter, actor]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him: Wikidata's item carries no religion (P140) value at all, and none of the English, Arabic or Urdu biographies names an affiliation for him personally. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-ali-zafar-en, source/wikipedia-ali-zafar-ar, source/wikipedia-ali-zafar-ur, source/wikidata-ali-zafar]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-ali-zafar-en, source/wikidata-ali-zafar] }
+summary:
+  ar: "مغنٍّ وكاتب أغانٍ وممثل باكستاني (وُلد 18 مايو 1980 في لاهور)، ابن أستاذَين في جامعة البنجاب، اشتهر بأغنية «چھنو» من ألبومه الأول «حقہ پاني» (2003) الذي بيع منه أكثر من خمسة ملايين نسخة، ثم بنى مسيرة تمثيلية في بوليوود بدءاً بـ«تیرے بن لادن» (2010) وفي السينما الباكستانية، ونال وسام حسن الأداء (2021)."
+  en: "Pakistani singer-songwriter and actor (born 18 May 1980 at Lahore), son of two University of Punjab professors, who rose to fame with Channo from his debut album Huqa Pani (2003), which sold over five million copies, then built a film career in Bollywood from Tere Bin Laden (2010) and in Pakistani cinema, and received the Pride of Performance (2021)."
+  ur: "پاکستانی گلوکار، نغمہ نگار اور اداکار (پیدائش 18 مئی 1980ء، لاہور)، جامعہ پنجاب کے دو پروفیسروں کے بیٹے؛ پہلی البم «حقہ پانی» (2003ء) کی «چھنو» سے شہرت پائی جس کی پچاس لاکھ سے زائد کاپیاں فروخت ہوئیں، پھر «تیرے بن لادن» (2010ء) سے بالی ووڈ اور پاکستانی سنیما میں اداکاری کی اور پرائڈ آف پرفارمنس (2021ء) حاصل کیا۔"
+sources:
+  - source/wikipedia-ali-zafar-en
+  - source/wikipedia-ali-zafar-ar
+  - source/wikipedia-ali-zafar-ur
+  - source/wikidata-ali-zafar
+external_ids:
+  wikidata: Q3633203
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Ali Zafar and the Wikidata item Q3633203, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Lahore-born singer and actor (born 1980) — not Riyasat Ali Zafar Bijnori, who holds a record, nor any other Ali Zafar. Existence checks by name fragments (zafar) and by QID across data/person on origin/main found no prior record for him. The queue's year (1980, living) is confirmed to the day. Relations written: born_in Lahore, which has a place entity; his parents hold no person records. Living-person care: only well-sourced public facts are recorded; contested personal allegations covered in the press are omitted as outside this record's scope."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

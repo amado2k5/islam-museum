@@ -1,5 +1,6 @@
 id: person/abd-al-rahim-al-iraqi
 class: person
+aliases: [person/al-iraqi-zayn-al-din]   # merged from the Kashf al-Zunun record (now a section); the id still resolves
 label:
   ar: "عبد الرحيم العراقي"
   en: "Abd al-Rahim al-Iraqi"
@@ -11,7 +12,8 @@ summary:
 wings: [people]
 regions: [levant-iraq, egypt-nile]
 periods: [period/mongol-post-mongol]
-sources: [source/shadharat-dhahab]
+died: { edtf: "1404~", hijri: "0806~", calendar: julian, precision: year, status: tradition, derived: true, note: "806هـ {cite:kashf-zunun-furqan p. 222}؛ في أموات سنة ست وثمانمائة عند ابن العماد {cite:shadharat-dhahab p. 63}", sources: [source/kashf-zunun-furqan, source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/kashf-zunun-furqan]
 external_ids:
   wikidata: Q4664581
 provenance:
@@ -19,7 +21,9 @@ provenance:
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-0026
+  run: wikidata-import-0026, lib-daw-lami-batch-1-2026-10-31
 status:
-  review: draft
+  review: published
   completeness: 1
+relations:
+  - { type: authored, target: work/alfiyya-al-iraqi, sources: [source/kashf-zunun-furqan] }

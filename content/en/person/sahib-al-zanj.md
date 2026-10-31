@@ -18,3 +18,6 @@ According to al-Mas'udi, his rule lasted fourteen years and four months. He repo
 
 ## Notes for researchers
 - These judgements and figures come from al-Mas'udi and need to be checked against other sources. The entry needs an additional source.
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] does not call him the Zanj leader but 'the rebel at Basra who claimed descent from the family of Abu Talib', and gives his name as Ali ibn Muhammad, so presenting the lineage as his claim without endorsing it. He records his advance on al-Ubulla and its burning, his entry into Basra in 257 AH and the burning of its congregational mosque, his expulsion from it by Muhammad al-Muwallad in 258 AH, and Abu Ahmad ibn al-Mutawakkil's expedition against him that same year. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 620} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 622} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 623} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 624}

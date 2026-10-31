@@ -1,0 +1,52 @@
+id: person/khalid-sheldrake
+class: person
+label:
+  ar: "خالد شيلدريك"
+  en: "Khalid Sheldrake"
+  ur: "خالد شیلڈریک"
+names:
+  - { value: "Bertram William Sheldrake", kind: full }
+  - { value: "Khalid Sheldrake", kind: full }
+gender: male
+born:
+  edtf: "1888"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in London in 1888, son of the condiment manufacturer Gosling Mullander Sheldrake; only the year is attested, and a bare year spans two Hijri years (1305-1306), so the hijri field is omitted. London has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-khalid-sheldrake-en, source/wikidata-khalid-sheldrake]
+died:
+  edtf: "1947"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died in London in 1947; only the year is attested, and a bare year spans two Hijri years (1366-1367), so the hijri field is omitted. London has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-khalid-sheldrake-en, source/wikidata-khalid-sheldrake]
+roles: [businessman, writer]
+regions: [andalus-europe]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. Received into Islam as a schoolboy — in 1903 on the English article's account, in 1904 at Abdullah Suhrawardy's hand on the National Archives account — he supported the Woking Muslim Mission before breaking away to found his own Western Islamic Association. Ryad's scholarship shows him anxious to prove his closeness to mainstream Islam, hoping for Sunni-Shi'i unity and demanding that the Lahore Ahmadiyya disavow Mirza Ghulam Ahmad altogether; the English article's category filings call him a Sunni convert, but category filings never count, and no two independent sources name a school for him personally. Both readings — the Woking adjacency and the mainstream self-presentation — are preserved unclassified."
+    sources: [source/wikipedia-khalid-sheldrake-en, source/ryad-european-converts-interwar, source/wikidata-khalid-sheldrake]
+relations: []
+summary:
+  ar: "صانع مخللات لندني (1888-1947) اعتنق الإسلام فتىً واتخذ اسم خالد، فأسس مساجد في جنوب لندن وجمعية غرب الإسلام، ورعى الأعمال الخيرية للمسلمين؛ وفي 1934 قبل دعوة جمهورية تركستان الشرقية الأولى لتتويجه ملكاً على «إسلامستان» فارتحل شرقاً ولم يبلغ الحكم قط."
+  en: "London pickle manufacturer (1888-1947) who converted to Islam as a schoolboy, taking the name Khalid; he founded mosques in south London and the Western Islamic Association and funded Muslim charities. In 1934 he accepted the First East Turkestan Republic's invitation to become king of 'Islamestan' and travelled east, but the state collapsed before he could take power."
+  ur: "لندن کے اچار ساز (1888ء–1947ء) جنہوں نے لڑکپن میں اسلام قبول کر کے خالد کا نام اختیار کیا؛ جنوبی لندن میں مساجد اور ویسٹرن اسلامک ایسوسی ایشن قائم کی اور مسلم فلاحی کاموں کی سرپرستی کی۔ 1934ء میں انہوں نے پہلی مشرقی ترکستان جمہوریہ کی «اسلامستان» کی بادشاہت کی دعوت قبول کی اور مشرق کا سفر کیا، مگر حکومت سنبھالنے سے پہلے ہی وہ ریاست ختم ہو گئی۔"
+sources:
+  - source/wikipedia-khalid-sheldrake-en
+  - source/wikipedia-khalid-sheldrake-id
+  - source/wikidata-khalid-sheldrake
+  - source/ryad-european-converts-interwar
+external_ids:
+  wikidata: Q6399577
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Khalid Sheldrake' (revision 1369008341 of 12 August 2026) and Indonesian Wikipedia article (revision 27933177 of 7 October 2025), both read in full, the Wikidata item Q6399577 (item revision 2099484679 of 11 March 2024), and Umar Ryad's chapter 'Salafiyya, Ahmadiyya and European Converts to Islam in the Interwar Period', read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. No Arabic or Urdu article exists for him. Existence checks by name fragments (sheldrake) and by QID across data/person on origin/main found no prior record. No relations are written: London has no place entity, and his father has no person record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

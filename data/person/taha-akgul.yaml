@@ -1,0 +1,36 @@
+id: person/taha-akgul
+class: person
+label: { ar: "طه أكغول", en: "Taha Akgül", ur: "طہ اکگول" }
+names:
+  - { value: "Taha Akgül", kind: full }
+  - { value: "طه أكغول", kind: full }
+gender: male
+summary:
+  ar: "مصارع حر تركي في وزن 125 كغ، وُلد في سيواس سنة 1990. بطل أولمبي في ريو 2016 وصاحب برونزيتين أولمبيتين (2020 و2024)، وبطل عالم ثلاث مرات وبطل أوروبا إحدى عشرة مرة. اعتزل بعد أولمبياد باريس 2024 وصار رئيسًا للاتحاد التركي للمصارعة."
+  en: "Turkish freestyle wrestler at 125 kg, born in Sivas in 1990. Olympic champion at Rio 2016 with further bronze medals in 2020 and 2024, a three-time world champion and eleven-time European champion. He retired after the Paris 2024 Olympics and became president of the Turkish Wrestling Federation."
+  ur: "ترک فری اسٹائل پہلوان (125 کلوگرام)، جو 1990 میں سیواس میں پیدا ہوئے۔ ریو 2016 کے اولمپک چیمپئن، 2020 اور 2024 میں کانسی کے تمغے، تین بار عالمی اور گیارہ بار یورپی چیمپئن۔ پیرس 2024 کے بعد ریٹائر ہو کر وہ ترک ریسلنگ فیڈریشن کے صدر بنے۔"
+roles: [wrestler]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1990-11-22"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 22 November 1990 in Sivas. No place entity for Sivas exists, so no born_in relation is written. The Hijri year 1411 (5 Jumada al-awwal 1411) is the tabular conversion of 22 November 1990 and is marked derived."
+  sources: [source/wikipedia-taha-akgul-en, source/wikipedia-taha-akgul-ar, source/wikidata-taha-akgul]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Turkish or Arabic articles names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-taha-akgul-en, source/wikipedia-taha-akgul-tr, source/wikipedia-taha-akgul-ar, source/wikidata-taha-akgul]
+external_ids: { wikidata: "Q3374659" }
+sources: [source/wikipedia-taha-akgul-en, source/wikipedia-taha-akgul-tr, source/wikipedia-taha-akgul-ar, source/wikidata-taha-akgul]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371528278), Turkish Wikipedia (revision 38312246), Arabic Wikipedia (revision 76944308) and Wikidata Q3374659 (item revision 2560304531, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

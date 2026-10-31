@@ -1,0 +1,23 @@
+id: work/khutbat-abu-al-abbas-al-saffah-kufa-jumua
+class: work
+kind: sermon
+sermon_type: jumu'a
+delivered: { by: person/abu-al-abbas-al-saffah }
+label: { ar: "خطبة أبي العباس السفاح بالكوفة في الجمعة الثانية", en: "Abu al-Abbas al-Saffah's second Friday sermon in Kufa", ur: "ابوالعباس السفاح کا کوفہ میں دوسرے جمعے کا خطبہ" }
+summary:
+  ar: "خطبة السفاح في الجمعة الثانية بالكوفة في أول خلافته، يعد فيها بالوفاء والعدل، ويتوعد من يخالف، ويطلب من الناس السمع والطاعة."
+  en: "Al-Saffah's second Friday sermon in Kufa early in his caliphate. He promises to keep his word and to rule justly, warns those who oppose him, and asks the people for obedience."
+  ur: "خلافت کے ابتدائی دنوں میں السفاح کا کوفہ میں دوسرے جمعے کا خطبہ۔ وہ وعدہ پورا کرنے اور عدل کا وعدہ کرتے ہیں، مخالفین کو خبردار کرتے ہیں، اور لوگوں سے اطاعت طلب کرتے ہیں۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/abu-al-abbas-al-saffah]
+composed: { hijri: "0132", edtf: "0750", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 11", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-3 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }
