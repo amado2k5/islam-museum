@@ -126,7 +126,7 @@ const collections = wing === "objects"
     {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
     <ul class="grid-cards" style="margin-top:1.5rem">
       {items.filter((n) => labelOf(n, lang)).map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{short(summaryOf(n, lang))}</span></a></li>
+        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{n.wings.filter((w) => WINGS.includes(w as Wing)).length > 1 && <span class="ui" style="display:block;font-size:.8rem;opacity:.75">{WINGS.filter((w) => n.wings.includes(w)).map((w) => T.nav[w]).join(" · ")}</span>}{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{short(summaryOf(n, lang))}</span></a></li>
       ))}
     </ul>
 
