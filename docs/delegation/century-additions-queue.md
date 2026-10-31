@@ -690,11 +690,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hakim Abdul Hameed — 1908–1999
 - [x] Dr. Syed Zahoor Qasim — 1926–2015
 - [x] Asghar Ali Engineer — 1939–2013
-- [ ] Maulana Abul Kalam Azad — 1888–1958
-- [ ] Zakir Husain — 1897–1969
-- [ ] Fakhruddin Ali Ahmed — 1905–1977
-- [ ] Mohammad Hidayatullah — 1905–1992
-- [ ] M. C. Chagla — 1900–1981
+- [x] Maulana Abul Kalam Azad — 1888–1958
+- [x] Zakir Husain — 1897–1969
+- [x] Fakhruddin Ali Ahmed — 1905–1977
+- [x] Mohammad Hidayatullah — 1905–1992
+- [x] M. C. Chagla — 1900–1981
 - [ ] Syed Shahabuddin — 1935–2017
 - [ ] Ebrahim Alkazi — 1925–2020
 - [ ] Habib Tanvir — 1923–2009
