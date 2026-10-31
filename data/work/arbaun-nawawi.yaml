@@ -3,15 +3,24 @@ class: work
 kind: book
 label: { ar: "الأربعون النووية", en: "al-Arba'un al-Nawawiyya (Nawawi's Forty)" }
 summary:
-  ar: "الأحاديث الجامعة التي أخذها الإمام أبو زكريا يحيى النووي من مجلس «الأحاديث الكلية» لابن الصلاح (ستة وعشرون حديثاً) وزاد عليها حتى تمت اثنين وأربعين حديثاً وسمّى كتابه «الأربعين»؛ اشتهرت وكثر حفظها، وعلق عليها الشارحون كثيراً."
-  en: "The famous collection of concise hadiths that Imam Abu Zakariyya Yahya al-Nawawi took from Ibn al-Salah's 'al-Ahadith al-Kulliyya' (twenty-six hadiths) and expanded to forty-two, naming it 'al-Arba'un'; widely memorised and much commented upon."
+  ar: "جمع الإمام أبو زكريا يحيى النووي فيه اثنين وأربعين حديثاً جامعاً في أصول الدين وآدابه، أخذ أصلها من مجلس «الأحاديث الكلية» لابن الصلاح (ستة وعشرون حديثاً) وزاد عليها حتى تمّت، وسمّاه «الأربعين»؛ اشتهر وكثر حفظه، وعلّق عليه الشارحون كثيراً."
+  en: "Imam Abu Zakariyya Yahya al-Nawawi's collection of forty-two comprehensive hadiths on the roots of religion and its manners. He took the core from Ibn al-Salah's session 'al-Ahadith al-Kulliyya' (twenty-six hadiths), expanded it to forty-two and named it 'al-Arba'un'. It became widely memorised and was much commented upon."
 genre: [hadith]
-made: { by_muslims: true, basis: documented, sources: [source/ibn-rajab-jami-ulum-hikam] }
+made: { by_muslims: true, basis: documented, sources: [source/ibn-rajab-jami-ulum-hikam, source/dar-al-salam-arbaeen-bakri] }
 authors: [person/al-nawawi]
 language: language/arabic
-structure: "اثنان وأربعون حديثاً؛ بناها النووي على الستة والعشرين التي أملاها ابن الصلاح (جامع العلوم والحكم، مقدمة المؤلف ص 26)."
+structure: "اثنان وأربعون حديثاً مرتبة بالترتيب الذي اختاره النووي، لا بأبواب فقهية؛ كل حديث بعنوان مختصر يدل على موضوعه، ويذكر الراوي الأول ثم المخرّجون في الهامش (طبعة دار السلام، ص 3–31)."
 wings: []
 themes: [scripture-and-its-sciences]
-provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1" }
-sources: [source/ibn-rajab-jami-ulum-hikam]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); structure and attribution from Ibn Rajab's introduction p. 26" }
+provenance:
+  layer: own-research
+  source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26; Nawawi's Forty, Dar al-Salam 4th edition (2007), pp. 3–32, read from the harvest scan"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Haiku 5.5 (claude-haiku-5-5) from the Dar al-Salam scan"
+  model: "claude-haiku-5-5"
+  run: "lib-jami-ulum-hikam-batch-1; harvest-wave1-arbaun-nawawi"
+sources:
+  - source/ibn-rajab-jami-ulum-hikam
+  - source/dar-al-salam-arbaeen-bakri
+  - source/arbaeen-nawawi-zelfi-ibn-rajab
+  - source/arbaeen-nawawi-plain-2021
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); article and structure enriched by Claude Haiku 5.5 from the Dar al-Salam scan" }

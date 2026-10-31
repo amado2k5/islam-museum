@@ -1709,14 +1709,14 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 ## F. 1026–1125 additions (3)
 
-- [ ] Al-Zarqali (Arzachel) — 1029–1087
-- [ ] Ibn Abdun — 1070–1134
-- [ ] Abu'l-Fadl Bayhaqi — 995–1077
+- [x] Al-Zarqali (Arzachel) — 1029–1087
+- [x] Ibn Abdun — 1070–1134
+- [x] Abu'l-Fadl Bayhaqi — 995–1077
 
 ## G. 1526–1625 additions (36: 33 buildable + 3 excluded)
 
-- [ ] Islam Shah Suri — 1510–1554
-- [ ] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
+- [x] Islam Shah Suri — 1510–1554
+- [x] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
 - [ ] Asaf Khan IV — 1569–1641
 - [ ] Khan Zaman Ali Quli Khan — 1520–1567
 - [ ] Muqarrab Khan — 1570–1646

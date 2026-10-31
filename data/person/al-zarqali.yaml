@@ -1,0 +1,75 @@
+id: person/al-zarqali
+class: person
+
+label: { ar: "إبراهيم بن يحيى الزرقالي", en: "Al-Zarqali", ur: "ابو اسحاق ابراہیم الزرقالی" }
+
+names:
+  - { value: "أبو إسحاق إبراهيم بن يحيى النقاش التجيبي الزرقالي", kind: full }
+  - { value: "Abu Ishaq Ibrahim ibn Yahya al-Naqqash al-Tujibi al-Zarqali", kind: full }
+  - { value: "أبو إسحاق", kind: kunya }
+  - { value: "al-Zarqali", kind: nisba }
+  - { value: "al-Tujibi", kind: nisba }
+  - { value: "النقاش", kind: laqab }
+  - { value: "Arzachel", kind: latinized }
+  - { value: "Azarquiel", kind: alternate }
+  - { value: "Ibn Zarqala", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "فلكي أندلسي من طليطلة (1029–1100)، نشأ صانع آلات ونقّاشًا، وعمل منذ 1048 في فريق صاعد الأندلسي للمأمون الطليطلي ثم للمعتمد الإشبيلي. أتقن الصفيحة الجامعة (الصفيحة الزرقالية) التي حملت اسمه وبقيت أداة الملاحين حتى القرن السادس عشر، وساهم في أزياج طليطلة وصحّح زيج الخوارزمي، وأثبت لأول مرة حركةَ أوج الشمس بمقدار قريب من القيمة الحديثة، وقلّص عرض البحر المتوسط في الجغرافيا البطلمية من 62 درجة إلى 42."
+  en: "Toledan astronomer (1029-1100) who began as a metalsmith and engraver of instruments - his nickname al-Naqqash, 'the engraver', is the origin of his Latin name Arzachel - and worked from 1048 in Sa'id al-Andalusi's team for al-Ma'mun of Toledo and al-Mu'tamid of Seville. He perfected the universal astrolabe plate that bears his name, the safiha zarqaliyya, used by navigators into the 16th century; contributed to the Toledan Tables and revised al-Khwarizmi's; and was the first to demonstrate the motion of the solar apogee, at 12.04 arc-seconds a year against the modern 11.77. When Alfonso VI took Toledo in 1085 he fled the city."
+  ur: "طلیطلہ کے ماہر فلکیات (1029ء–1100ء)، آغاز میں دھاتی آلات کے کندہ کار تھے — یہی لقب «النقاش» ان کے لاطینی نام Arzachel کی اصل ہے — اور 1048ء سے صاعد الاندلسی کے گروہ میں مامونِ طلیطلہ اور معتمدِ اشبیلیہ کے لیے کام کیا۔ انھوں نے جامع اسطرلابی تختی «صفیحہ زرقالے» کو مکمل کیا جو سولہویں صدی تک ملاحوں کے کام آتی رہی، ازیاجِ طلیطلہ میں حصہ لیا، خوارزمی کے زیج کی تصحیح کی، اور اوجِ شمس کی حرکت کو سب سے پہلے ثابت کیا۔"
+
+roles: [astronomer]
+regions: [andalus-europe]
+wings: [people]
+
+born:
+  edtf: "1029"
+  calendar: julian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in a village near Toledo (English article). The year 1029 follows the English article (text and infobox, after Samsó's Encyclopaedia of Islam entry and the Biographical Encyclopedia of Astronomers); Wikidata instead gives 1027, preserved here. A bare year spans 420-421 AH, so no Hijri pairing is asserted."
+  sources:
+    - source/wikipedia-al-zarqali-en
+    - source/wikidata-al-zarqali
+
+died:
+  edtf: "1100"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article and the Britannica notice give his death as 1100 at Cordoba, citing the Biographical Encyclopedia of Astronomers (p. 1258); older references and the founder's queue give 1087, and Wikidata carries both 1087 and 1100. The record follows 1100. Where he died is itself uncertain: the article notes it is unknown whether he fled to Cordoba after Toledo fell in 1085 or died at Mocejón or in a refugee camp. A bare year spans 493-494 AH, so no Hijri pairing is asserted."
+  sources:
+    - source/wikipedia-al-zarqali-en
+    - source/wikidata-al-zarqali
+
+relations:
+  - { type: born_in, target: place/tulaytula }
+  - { type: died_in, target: place/cordoba }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his religion as Islam; no source read names a school or rite for him, so the value stays unknown."
+    sources:
+      - source/wikipedia-al-zarqali-en
+
+external_ids: { wikidata: "Q11133" }
+
+sources:
+  - source/wikipedia-al-zarqali-en
+  - source/wikipedia-al-zarqali-ar
+  - source/wikipedia-al-zarqali-ur
+  - source/wikidata-al-zarqali
+
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles and Wikidata Q11133, all revisions fetched live from the MediaWiki API on 31 Oct 2026; Encyclopaedia of Islam (Samsó) and the Biographical Encyclopedia of Astronomers as cited in the English article"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 B"
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

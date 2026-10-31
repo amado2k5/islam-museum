@@ -1,0 +1,72 @@
+id: person/islam-shah-suri
+class: person
+
+label: { ar: "إسلام شاه سوري", en: "Islam Shah Suri", ur: "اسلام شاہ سوری" }
+
+names:
+  - { value: "Jalal Khan", kind: given }
+  - { value: "Islam Shah", kind: regnal }
+  - { value: "سليم شاه السوري", kind: alternate }
+  - { value: "Salim Shah Suri", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ثاني سلاطين الأسرة السورية في الهند (حكم 1545–1554)، وُلد جلال خان، وهو الابن الثاني لشير شاه سوري. عند موت أبيه اختاره مجلس طارئ من النبلاء خليفةً على أخيه الأكبر عادل خان لقدرته العسكرية، فتُوّج في 26 أيار 1545 وتلقّب بإسلام شاه (ويعرف أيضًا بسليم شاه). هزم جيوش أخيه قرب أغرا، وطهّر البلاط من النبلاء المشكوك فيهم وأخضع الأرستقراطية للتاج، وواصل مركزية أبيه الإدارية، وصدّ محاولة همايون الوحيدة لغزو دولته. مات في 22 تشرين الثاني 1554 فخلفه ابنه الطفل فيروز شاه الذي قُتل بعد أيام."
+  en: "Second Suri sultan of Delhi (r. 1545-1554), born Jalal Khan, the second son of Sher Shah Suri. On his father's death an emergency meeting of the nobles chose him over his elder brother Adil Khan for his greater military ability; he was crowned on 26 May 1545 and took the title Islam Shah (he is also known as Salim Shah). He defeated Adil Khan's army near Agra, purged suspect nobles and subordinated the aristocracy to the crown, continued his father's administrative centralisation, and repelled Humayun's single attempt on his kingdom. He died on 22 November 1554; his twelve-year-old son Firuz Shah succeeded him and was murdered within days."
+  ur: "دہلی کے دوسرے سوری سلطان (دورِ حکومت 1545ء–1554ء)، پیدائشی نام جلال خان، شیر شاہ سوری کے دوسرے صاحبزادے۔ والد کی وفات پر امراء کے ہنگامی اجلاس نے بڑے بھائی عادل خان کے مقابلے میں ان کی عسکری اہلیت دیکھ کر انھیں جانشین منتخب کیا؛ 26 مئی 1545ء کو تاج پوشی ہوئی اور «اسلام شاہ» کا لقب اختیار کیا (سلیم شاہ بھی کہلاتے ہیں)۔ آگرہ کے قریب عادل خان کو شکست دی، مشکوک امراء کا صفایا کیا اور اپنے والد کے انتظامی نظام کو مزید مرکزی بنایا۔ 22 نومبر 1554ء کو وفات پائی؛ ان کے بارہ سالہ بیٹے فیروز شاہ کو چند دن بعد قتل کر دیا گیا۔"
+
+roles: [ruler, sultan]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1507"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives 1507, born at Delhi, and its statement that he died aged 46-47 in November 1554 agrees with it; Wikidata and the founder's queue give 1510, preserved here. A bare year spans 913-914 AH, so no Hijri pairing is asserted."
+  sources:
+    - source/wikipedia-islam-shah-suri-en
+    - source/wikidata-islam-shah-suri
+
+died:
+  edtf: "1554-11-22"
+  hijri: "0961"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 22 November 1554 (English article and Wikidata agree at day precision); no death place is attested in the sources read. His unfinished tomb stands about a kilometre north-west of his father's tomb at Sasaram. The Hijri year 0961 is a conversion of the Gregorian date, so derived."
+  sources:
+    - source/wikipedia-islam-shah-suri-en
+    - source/wikidata-islam-shah-suri
+
+relations:
+  - { type: child_of, target: person/shir-shah-suri }
+  - { type: born_in, target: place/delhi }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his religion as Sunni Islam - a single structured family; Wikidata gives only Islam in general (Q432), and dynastic identity is not an attestation. Held unknown under the two-source rule; a second independent source naming him Sunni settles sunni/documented."
+    sources:
+      - source/wikipedia-islam-shah-suri-en
+      - source/wikidata-islam-shah-suri
+
+external_ids: { wikidata: "Q2191504" }
+
+sources:
+  - source/wikipedia-islam-shah-suri-en
+  - source/wikipedia-islam-shah-suri-ar
+  - source/wikipedia-islam-shah-suri-ur
+  - source/wikidata-islam-shah-suri
+
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles and Wikidata Q2191504, all revisions fetched live from the MediaWiki API on 31 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 B"
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

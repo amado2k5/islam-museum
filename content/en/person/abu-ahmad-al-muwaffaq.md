@@ -14,3 +14,6 @@ Al-Mas'udi says that [[person/al-mutazz|al-Mu'tazz]] robed him and sent him out,
 
 ## His illness
 Ibn al-Jawzi says that the gout grew so severe that he could no longer ride, and was carried on a litter. Abd Allah ibn al-Mu'tazz wrote to console him for it. {cite:muntazam-ibn-al-jawzi j.5 p.125-126}
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]], among the events of 258 AH, says Abu Ahmad ibn al-Mutawakkil marched with a large force against the rebel at Basra who claimed descent from the family of Abu Talib, with the troops, provisions and weapons carried in boats; fire broke out in the boats and they burned, and Abu Ahmad turned back. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 624}
