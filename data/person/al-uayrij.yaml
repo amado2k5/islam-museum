@@ -1,0 +1,38 @@
+id: person/al-uayrij
+class: person
+label:
+  ar: الأعيرج
+  en: Al-U'ayrij
+  ur: اعیرج
+gender: male
+roles:
+- general
+summary:
+  ar: قائد رومي كان والياً على القصر (حصن بابليون) تحت يد المقوقس عند الفتح، وزعم بعض مشايخ أهل مصر أنه بقي في الحصن بعد خروج المقوقس ثم خرج في سفن كانت مربوطة به {cite:futuh-misr-amir-1999 p. 85} {cite:futuh-misr-amir-1999 p. 96}.
+  en: A Roman commander who governed the Qasr (the fortress of Babylon) under al-Muqawqis at the conquest; some elders of Egypt claimed he stayed in the fortress after al-Muqawqis left and later escaped in ships moored to it {cite:futuh-misr-amir-1999 p. 85} {cite:futuh-misr-amir-1999 p. 96}.
+  ur: ایک رومی سالار جو فتح کے وقت مقوقس کے ماتحت قصر (بابلیون کے قلعے) کا والی تھا؛ مصر کے بعض بزرگوں کا گمان تھا کہ وہ مقوقس کے نکلنے کے بعد قلعے میں رہا اور بعد میں اس سے بندھی کشتیوں میں نکل گیا {cite:futuh-misr-amir-1999 p. 85} {cite:futuh-misr-amir-1999 p. 96}۔
+wings:
+- people
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: participated_in
+  target: event/siege-of-babylon-fortress-640
+  role: قائد الروم في القصر
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 84–85، 96
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
