@@ -10,5 +10,9 @@ wings: [place]
 coordinates: [38.01760, 12.53617]
 coordinate_precision: locality
 external_ids: { geonames: "2522876" }
-sources: [source/geonames-gazetteer]
+sources: [source/geonames-gazetteer, source/nuzhat-al-mushtaq-2002]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames" }
+provenance:
+  layer: own-research
+  source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, pp. 587, 601–602 (scan indices)"
+  generated_by: "Claude (Haiku 5.5)"

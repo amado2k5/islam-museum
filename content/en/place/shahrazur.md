@@ -4,7 +4,13 @@ lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Shahrazur is a city in upper Iraq toward the mountain, according to the book Futuh al-Buldan. Azra ibn Qays, governor of Hulwan, was unable to take it. Utba ibn Farqad conquered it after fighting, on the terms of the peace of Hulwan. {cite:futuh-buldan-maarif-1407}
 
-Scorpions (al-maqarib) would strike a man, and he would die. Its people, together with those of al-Samghan and Darabadh, made peace on payment of jizya and kharaj. It and its districts remained joined to [[place/mosul|Mosul]] until the end of the caliphate of al-Rashid. {cite:futuh-buldan-maarif-1407}
+## Overview
+Shahrazur was taken by Utba ibn Farqad after fighting, on terms like those of Hulwan. Al-Baladhuri reports that Utba's agreement with al-Samghan and Daraabad was a poll tax (jizya) and tribute, and that the Muslims' losses included men killed by scorpion stings. {cite:futuh-buldan-maarif-1407 p.466–467}
+
+## Details
+Al-Baladhuri records that Azra ibn Qays, governor of Hulwan in Umar's caliphate, tried to take the city and failed. Utba then attacked and won after fighting, and the scorpions (al-Maqarib) struck Muslim fighters, some of whom died. {cite:futuh-buldan-maarif-1407 p.466}
+
+Al-Samghan and Daraabad made peace with Utba on the poll tax and land tax, on condition that their people would not be killed or enslaved and would not be blocked from any road they chose to take. Utba fought the Kurds and killed many of them. He wrote to Umar that his conquests had reached Azerbaijan, and Umar gave him that province and appointed Harthama ibn Arfaja to Mosul. {cite:futuh-buldan-maarif-1407 p.467}
+
+Shahrazur and its districts stayed attached to Mosul until late in al-Rashid's caliphate, when they were separated and a single governor was appointed to Shahrazur, al-Samghan and Daraabad. {cite:futuh-buldan-maarif-1407 p.467}
