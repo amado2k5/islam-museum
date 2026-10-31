@@ -1,0 +1,54 @@
+id: person/jamal-al-husayni
+class: person
+label:
+  ar: "جمال الحسيني"
+  en: "Jamal al-Husayni"
+  ur: "جمال الحسینی"
+names:
+  - { value: "جمال الحسيني", kind: full }
+  - { value: "Jamal al-Husayni", kind: full }
+  - { value: "Jamal al-Husseini", kind: alternate }
+gender: male
+born:
+  edtf: "1893"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Jerusalem. The year is debated: 1893 is followed (the Arabic biography's lead, which carries its own citation; the articles' internal arithmetic also fits 1893–1894 — eighteen on entering the Syrian Protestant College at Beirut in 1912 and twenty-seven in 1921). The English biography's lead and Wikidata give 1892, and the youth sections of both biographies give 1894; all three readings are preserved here. Because the rival years fall in different Hijri years, no hijri value is recorded."
+  sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni]
+died:
+  edtf: "1982-07-05"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Riyadh on 5 July 1982 and was buried there, as the Arabic biography's death section records; the English biography and Wikidata give only the year 1982, and Wikidata's structured death place is Saudi Arabia at country level, consistent with Riyadh. The Hijri year 1402 is derived by conversion. Riyadh has no place entity on main, so the place is carried here and no died_in edge is written."
+  sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni]
+roles: [politician, lawyer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Jamal al-Husayni himself, and Wikidata carries no religion value for him at all. His secretaryship of the Supreme Muslim Council — an office created by the Mandate administration — and his leadership of the Palestine Arab Party and the Arab Higher Committee are offices and affiliations, and never count."
+    sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni] }
+summary:
+  ar: "سياسي فلسطيني من القدس (1893–1982)، أمين اللجنة التنفيذية للمؤتمر العربي الفلسطيني وأمين المجلس الإسلامي الأعلى، ومؤسس الحزب العربي الفلسطيني سنة 1935 ورئيسه، ثم رئيس اللجنة العربية العليا؛ قاد الوفد العربي إلى مؤتمر لندن 1939، وكان وزير خارجية حكومة عموم فلسطين سنة 1948، وانتهت مسيرته مستشارًا للملك سعود في السعودية وتوفي في الرياض."
+  en: "Palestinian politician from Jerusalem (1893–1982), secretary of the Palestine Arab Congress executive and of the Supreme Muslim Council, founder and chairman of the Palestine Arab Party (1935) and later chairman of the Arab Higher Committee. Exiled during the 1936–1939 revolt, he led the Arab delegation to the 1939 London Conference, was foreign minister of the All-Palestine Government in 1948, and ended his career in Saudi Arabia as an adviser to King Saud; he died at Riyadh."
+  ur: "یروشلم سے تعلق رکھنے والے فلسطینی سیاست دان (1893–1982)، فلسطین عرب کانگریس کی عاملہ کمیٹی اور سپریم مسلم کونسل کے سیکرٹری، 1935 میں فلسطین عرب پارٹی کے بانی و صدر اور بعد میں عرب اعلیٰ کمیٹی کے چیئرمین؛ 1939 کی لندن کانفرنس میں عرب وفد کی قیادت کی، 1948 میں آل فلسطین حکومت کے وزیر خارجہ رہے، اور اپنے آخری برس سعودی عرب میں شاہ سعود کے مشیر کے طور پر گزارے؛ وفات ریاض میں ہوئی۔"
+sources:
+  - source/wikipedia-jamal-al-husayni-en
+  - source/wikipedia-jamal-al-husayni-ar
+  - source/wikidata-jamal-al-husayni
+external_ids:
+  wikidata: Q2573660
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Jamal al-Husayni (Q2573660) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and re-asserted against a second live query (all fifteen revids for this section matched), and the QID was grounded through the page properties of both language articles. Identity: the queue line's bearer is the Jerusalem-born Palestine Arab Party founder, pinned by biography and QID against the many other al-Husayni bearers (Musa Kazim and Sa'id al-Husayni already have records; Haj Amin al-Husseini, queue line 1653, is already built and was not touched). Existence checks by name fragments (husayni, husseini) and by QID across data/person on origin/main found no prior record for this man. His daughter Serene Husseini Shahid (Q3485269, named in Wikidata's child statement and in the English biography's further reading) has no record on main, so no parent_of edge is written; his cousin Amin al-Husayni and his uncle Musa Kazim are kin for whom the schema's write-once relations used in this lane offer no edge here beyond the place relations recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-137
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
