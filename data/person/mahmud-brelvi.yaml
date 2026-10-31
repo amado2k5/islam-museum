@@ -1,0 +1,45 @@
+id: person/mahmud-brelvi
+class: person
+label:
+  ar: "محمود بريلوي"
+  en: "Mahmud Brelvi"
+  ur: "محمود بریلوی"
+names:
+  - { value: "Mahmud Brelvi", kind: full }
+  - { value: "Brelvi", kind: nisba }
+gender: male
+born:
+  edtf: "1908"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The year rests on the library authority records: his Wikidata item, built on VIAF, GND, ISNI and NLI identifiers, gives 1908, and the Open Library author record gives the same year; no narrative source consulted gives a birth date, and the queue's 1905 is attested nowhere, so it is not followed. A bare Gregorian year spans two Hijri years (1908 falls across 1325–1326 AH), so no hijri key is carried. No died block is carried: no source gives a death date at all, and the queue's 1985 is likewise unattested; his last catalogued book, Islam on the March, appeared in 1990 and may be posthumous."
+  sources: [source/wikidata-mahmud-brelvi, source/openlibrary-mahmud-brelvi]
+roles: [writer, historian]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The element Brelvi in his name is a nisba — a name element, which never counts — and is not an attestation of adherence to the Barelvi school (which in any case has no value in the faith enum); the revivalist subject matter of his books is his work, not a personal attestation. Nothing is preserved as a reading, so the value is unknown, unflagged."
+    sources: [source/islamic-review-1955-10, source/wikidata-mahmud-brelvi]
+relations: []
+summary:
+  ar: "باحث ومؤلف مسلم باكستاني كتب عن مسلمي العالم — منها «جيران باكستان المسلمون» (1950) — وعُيّن سنة 1952 لمساعدة هيكتور بوليثو في السيرة الرسمية لجناح، وتولّى سنة 1955 رئاسة قسم المنشورات في المؤتمر الإسلامي بالقاهرة."
+  en: "Pakistani Muslim scholar and author of books on the Muslims of the world — among them The Muslim Neighbours of Pakistan (1950) — who was appointed in 1952 to assist Hector Bolitho's official biography of Jinnah and in 1955 headed the publications department of the Islamic Congress in Cairo."
+  ur: "پاکستانی مسلم عالم اور مصنف، جنھوں نے دنیا کے مسلمانوں پر کتابیں لکھیں — ان میں «پاکستان کے مسلم ہمسائے» (1950) شامل ہے — 1952 میں جناح کی سرکاری سوانح پر ہیکٹر بولیتھو کی مدد کے لیے مقرر ہوئے اور 1955 میں قاہرہ میں اسلامی کانگریس کے شعبۂ اشاعت کے سربراہ تھے۔"
+sources:
+  - source/islamic-review-1955-10
+  - source/brelvi-muslim-neighbours-of-pakistan
+  - source/bagicha-bolitho-jinnah-biography
+  - source/openlibrary-mahmud-brelvi
+  - source/wikidata-mahmud-brelvi
+external_ids:
+  wikidata: Q113724718
+provenance:
+  layer: own-research
+  source: "The Islamic Review's October 1955 contributors page and the same issue's two Brelvi pieces ('Ibn Kathir on Husain Ibn Mansur al-Hallaj' and 'The Islamic Congress, Cairo: A Brief Survey of Its Work'), read in full in the Internet Archive scan; the Google Books catalogue record of The Muslim Neighbours of Pakistan (Ripon Printing Press, 1950); Bolitho's letter of 4 February 1952 as republished from the Prime Minister's Secretariat file; and the Open Library author record OL3399A (nineteen catalogued works, among them Muslims in Arabia and Africa, 1951; Islam and Its Contemporary Faiths, 1965; Whither Asia?, 1974; and Islam on the March, 1990). Identity: a single documented bearer emerges — Professor Mahmud Brelvi, the Pakistani author — attested independently by the journal's contemporary note and the 1952 ministerial correspondence; he has no Wikipedia article in any language. His Wikidata item Q113724718 is a sitelink-less authority-derived record (grounded here by direct item inspection, after a namesake item, Q113143557 — a Malaysian award, not a person — was verified from its claims and excluded). QUEUE CORRECTION: the queue's years 1905–1985 could not be verified — the library authority records (the Wikidata item's VIAF/GND identifiers and the Open Library record, agreeing) give a birth year of 1908, which the record carries, and no source anywhere gives a death year, so no died block is carried; his documented activity runs from 1950 to 1990, the last book possibly posthumous. Existence checks by name fragments (brelvi, mahmud) across data/person on origin/main found no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-127
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

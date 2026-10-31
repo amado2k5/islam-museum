@@ -3,15 +3,23 @@ class: work
 kind: book
 label: { ar: "تأويل مختلف الحديث", en: "The Interpretation of Conflicting Narrations" }
 summary:
-  ar: "بطاقة أولية لـتأويل مختلف الحديث؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for The Interpretation of Conflicting Narrations; its sources are not yet checked on the page."
+  ar: "«تأويل مختلف الحديث» لابن قتيبة الدينوري (ت 276هـ)، كتاب يتناول الأحاديث التي يبدو ظاهرها متعارضاً ويقدّم وجوه الجمع بينها، وفيه في الصفحات المحققة نقد لمنهج الرأي والقياس عند أصحاب أبي حنيفة مع أمثلة من الفقه. {cite:tawil-mukhtalif-al-hadith-hilali p. 130}"
+  en: "Ibn Qutayba al-Dinawari's (d. 276 AH) book on hadiths whose wording seems to conflict and how they can be reconciled. The sampled pages of this edition (pp. 130–141) criticise the method of opinion (ra'y) and analogy among Abu Hanifa's followers through worked examples. {cite:tawil-mukhtalif-al-hadith-hilali p. 130}"
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/tawil-mukhtalif-al-hadith-hilali] }
+authors: [person/ibn-qutayba]
+language: language/arabic
 wings: []
-sources: [source/al-aalam]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: period/abbasid-early, sources: [source/tawil-mukhtalif-al-hadith-hilali] }
 external_ids: { wikidata: "Q7742355" }
+sources: [source/tawil-mukhtalif-al-hadith-hilali, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Edition of Salim al-Hilali (title page and printed pp. 130–141 read from the scan's OCR); bibliographic identity from the Wikidata candidate Q7742355"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "harvest-group-a-mukhtalif-09"
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }

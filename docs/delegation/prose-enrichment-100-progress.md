@@ -16,9 +16,14 @@ Lane: [`docs/agents/lanes/prose-enrichment-100.md`](../agents/lanes/prose-enrich
 ## Leads
 
 - **place/tarim.** Arabic body reaches about 65 words from the defined sources read (Hamdani p. 70, Idrisi p. 154, Yaqut p. 789, Bakri p. 208). The sources do not support 100 words, so the files are unchanged. The existing summary's "after Shabwa and before Daw'an" order is not shown on Hamdani p. 70 in the OCR and needs checking.
+- **place/qulari.** The Idrisi entry (p. 954) is one sentence: a small fortress-like town of farmers with many sheep, six stages south-east of Anhu. Reaching 100 words would need general notes on the land of Astlandat, which would be padding. Left thin.
+- **place/suqusiya.** The island entry (pp. 946–947) gives its length (150 miles), its position north of the large island and its uninhabited state, and its link to Anqlutara. The text is ambiguous about which island is meant, so the body is not written until the identification is checked. Left thin.
+- **place/niyast.** The Idrisi entry (p. 194) gives grain, the Ganges and a seven-stage distance from Madyar, and five stages from Atrasa (p. 194). The prose would need the Atrasa and Madyar entries read first. Left thin.
 
 ## Open data issues (summaries not yet corrected)
 
+- place/qawun summary: "one hundred miles from Aqra" does not match the text. Idrisi gives the road from Aqra to Qawun as "مائة ميل وستون ميلا" (p. 885). The prose follows the text and does not repeat the summary's figure.
+- place/raghawlda summary said "one hundred miles from Qalmar". Idrisi gives one hundred miles from the second arm of the Qatulu river; Qalmar to that arm is eighty miles (p. 953). The summary is corrected in this batch.
 These summaries disagree with the body or source; the prose follows the sources.
 
 - place/udhayb summary places it on the Jidda–Taif road; Idrisi p. 144 places it on the Medina–al-Jar road.
@@ -41,3 +46,4 @@ These summaries disagree with the body or source; the prose follows the sources.
 | 2026-10-31 | Devin (a–m) | batch 12: place, nuzhat-al-mushtaq-2002 (jarawa, jarkan, jarbatan, jazirat-kharg, jirnaj, kanbaya, karanta, khaygun, kutna, lawkand, maadin-al-naqra, malan, malay, manh, marbella, marqab, marsa-al-dajaj, martula, mawargha, miqra, murcia, murtur, mushla, mustaghanim, mutsa) | 25 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 13: place, nuzhat-al-mushtaq-2002 (armuqastru, arsa, asak-khuzistan, asbara, ashburqan, ashkala, badis-maghrib, baeza, baghlan, baja, balgharduwan, bani-zandawi, banzart, barqana, barsaklafa, basitrinis, basyan, batn-numan, batrani, bayan, berja, bisha, bulghar, bura, butash) | 25 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 14: place, nuzhat-al-mushtaq-2002 | 25 | 0 | — |
+| 2026-10-31 | Claude (n–z) | batch 2: place, nuzhat-al-mushtaq-2002 (shuzas, siqlaw, qawun, nyun-burk, qalimalaya, raghawlda) | 6 | 3 (place/qulari, place/suqusiya, place/niyast — reasons under Leads) | — |

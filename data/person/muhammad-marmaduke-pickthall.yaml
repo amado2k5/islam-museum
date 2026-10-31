@@ -1,0 +1,55 @@
+id: person/muhammad-marmaduke-pickthall
+class: person
+label:
+  ar: "محمد مارمادوك بكتال"
+  en: "Muhammad Marmaduke Pickthall"
+  ur: "محمد مارماڈیوک پکتھال"
+names:
+  - { value: "Marmaduke William Pickthall", kind: full }
+  - { value: "Muhammad Marmaduke Pickthall", kind: full }
+gender: male
+born:
+  edtf: "1875-04-07"
+  hijri: "1292"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Cambridge Terrace, London, on 7 April 1875; the English article and Wikidata agree. The Arabic article's printed birth date, 19 May 1875, is a garble of his death date and is not followed. London has no place entity, so no born_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-muhammad-marmaduke-pickthall-en, source/wikipedia-muhammad-marmaduke-pickthall-ar, source/wikidata-muhammad-marmaduke-pickthall]
+died:
+  edtf: "1936-05-19"
+  hijri: "1355"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at the Porthminster Hotel, St Ives, Cornwall, on 19 May 1936 and was buried in the Muslim section of Brookwood Cemetery; the English article and Wikidata agree (the Arabic article's Surrey reflects the burial, not the death). St Ives and Brookwood have no place entities, so no died_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-muhammad-marmaduke-pickthall-en, source/wikidata-muhammad-marmaduke-pickthall]
+roles: [novelist, translator, scholar]
+regions: [andalus-europe]
+wings: [people]
+faith:
+  - value: sunni-hanafi
+    basis: self-identified
+    note: "His own self-definition, attested in two independent works: Murad's biography quotes him — 'I call myself a Sunni Muslim of the Hanafi school' — said in self-definition against the Qadiani sect, for which he 'had no patience', and records that he was often asked for Hanafi fatwas; the English article, following Gilham's scholarship, likewise records that he identified himself as a Sunni Muslim of the Hanafi school. His November 1917 shahada at the Woking Muslim Mission, with Khwaja Kamal-ud-Din's support, is adjacency and is expressly not the basis of this settlement."
+    sources: [source/wikipedia-muhammad-marmaduke-pickthall-en, source/murad-pickthall-biography]
+relations: []
+summary:
+  ar: "روائي وباحث إنجليزي (1875-1936) اعتنق الإسلام سنة 1917، أشهر أعماله ترجمته لمعاني القرآن الكريم «معنى القرآن المجيد» (1930)، من أوسع الترجمات الإنجليزية انتشاراً؛ خطب الجمعة في ووكينغ ولندن وعمل في الهند محرراً ومدير مدرسة في حيدر آباد."
+  en: "English novelist and scholar (1875-1936) who declared his Islam in 1917; his 'The Meaning of the Glorious Koran' (1930) is among the most widely used English translations of the Qur'an. He preached Friday sermons at Woking and in London and worked in India as a newspaper editor and school principal in Hyderabad."
+  ur: "انگریز ناول نگار اور عالم (1875ء–1936ء) جنہوں نے 1917ء میں اسلام کا اعلان کیا؛ ان کا «قرآن مجید کے معانی» (1930ء) قرآن کے سب سے زیادہ مستعمل انگریزی تراجم میں سے ہے۔ وہ ووکنگ اور لندن میں خطبۂ جمعہ دیتے رہے اور ہندوستان میں اخبار کے مدیر اور حیدرآباد میں اسکول کے پرنسپل رہے۔"
+sources:
+  - source/wikipedia-muhammad-marmaduke-pickthall-en
+  - source/wikipedia-muhammad-marmaduke-pickthall-ar
+  - source/wikipedia-muhammad-marmaduke-pickthall-ur
+  - source/wikidata-muhammad-marmaduke-pickthall
+  - source/murad-pickthall-biography
+external_ids:
+  wikidata: Q1191104
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Muhammad Marmaduke Pickthall' (revision 1367606259 of 4 August 2026), Arabic Wikipedia article (revision 75427225 of 13 June 2026) and Urdu Wikipedia article (revision 10306072 of 7 May 2026), all read in full, the Wikidata item Q1191104 (item revision 2545530865 of 14 September 2026), and Abdal Hakim Murad's 'Marmaduke Pickthall: a brief biography' (British Muslim Heritage), read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. Existence checks by name fragments (pickthall) and by QID across data/person on origin/main found no prior record. No relations are written: London, St Ives and Brookwood have no place entities, and his fellow converts are not relations under the lane's rules."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
