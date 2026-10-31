@@ -1,0 +1,25 @@
+id: work/khutbat-abi-bakr-yawm-wafat-al-nabi
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/abu-bakr }
+label: { ar: "خطبة أبي بكر يوم وفاة النبي", en: "Abu Bakr's sermon on the day of the Prophet's death", ur: "ابو بکر کا خطبہ بمقام وفاتِ نبی" }
+summary:
+  ar: "خطبة أبي بكر حين قُبض النبي، وفيها قوله المشهور «من كان يعبد محمداً فإن محمداً قد مات، ومن كان يعبد الله فإن الله حي لا يموت»، ثم تلاوته الآية."
+  en: "Abu Bakr's sermon on the day the Prophet died, containing his famous words: whoever worshipped Muhammad — Muhammad is dead; whoever worshipped God — God lives and dies not."
+  ur: "نبی کی وفات کے دن ابو بکر کا مشہور خطبہ: جو محمد کی عبادت کرتا تھا تو محمد وفات پا گیا، اور جو اللہ کی عبادت کرتا ہے تو اللہ زندہ ہے۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/abu-bakr]
+composed: { hijri: "0011-01-12", edtf: "0632-06-08", calendar: gregorian, precision: day, derived: true }
+delivery_date_status: delivered
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: mentions, target: place/medina }
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+  - { type: mentions, target: person/muhammad, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+  - { type: mentions, target: event/farewell-sermon-at-arafat }
+occasion: event/death-of-the-prophet
+provenance: { layer: pd, source: "Jamharat v1 ~p.176; Sahih al-Bukhari", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-1 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
