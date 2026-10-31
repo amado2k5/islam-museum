@@ -1,0 +1,46 @@
+id: person/babrak-karmal
+class: person
+label: { ar: "ببرك كارمل", en: "Babrak Karmal", ur: "ببرک کارمل" }
+names:
+  - { value: "Sultan Hussein", kind: full }
+  - { value: "Babrak Karmal", kind: full }
+  - { value: "ببرك كارمل", kind: full }
+gender: male
+summary:
+  ar: "سياسي شيوعي أفغاني، وُلد باسم سلطان حسين سنة 1929 في كاماري قرب كابل. شارك في تأسيس حزب الشعب الديمقراطي الأفغاني وقاد فصيله برچم، ونصّبه التدخل السوفيتي رئيسا للدولة في ديسمبر 1979 بعد اغتيال حفيظ الله أمين، فبقي حتى عزله سنة 1986 ونفيه إلى موسكو، وعاد إلى أفغانستان سنة 1991 ثم غادرها نهائيا، وتوفي في موسكو في ديسمبر 1996 بسرطان الكبد."
+  en: "Afghan communist politician, born as Sultan Hussein in 1929 at Kamari near Kabul. He co-founded the People's Democratic Party of Afghanistan and led its Parcham faction; the Soviet intervention installed him as head of state in December 1979 after the assassination of Hafizullah Amin. He held power until his removal in 1986 and exile to Moscow, returned to Afghanistan in 1991 and later left for good, and died in Moscow in December 1996 of liver cancer."
+  ur: "افغان کمیونسٹ سیاست دان، جو 1929ء میں کابل کے قریب کماری میں سلطان حسین کے نام سے پیدا ہوئے۔ انھوں نے پیپلز ڈیموکریٹک پارٹی آف افغانستان کی تاسیس میں حصہ لیا اور اس کے پرچم دھڑے کی قیادت کی؛ سوویت مداخلت نے حفیظ اللہ امین کے قتل کے بعد دسمبر 1979ء میں انھیں سربراہِ مملکت بنا دیا۔ 1986ء میں معزولی اور ماسکو جلاوطنی تک اقتدار میں رہے، 1991ء میں افغانستان واپس آئے اور پھر مستقل روانہ ہو گئے، اور دسمبر 1996ء میں ماسکو میں جگر کے کینسر سے انتقال کر گئے۔"
+roles: [politician]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1929-01-06"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 6 January 1929 at Kamari, a village in Kabul Province, as all three articles and Wikidata give. No place entity exists for Kamari, and Kabul Province is not the city, so no born_in relation is written. The Hijri year (1347) is from the Arabic article's category pairing; tabular conversion agrees."
+  sources: [source/wikipedia-karmal-en, source/wikipedia-karmal-ar, source/wikipedia-karmal-ur, source/wikidata-karmal]
+died:
+  edtf: "1996-12-03"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Moscow of liver cancer. The English infobox, the Arabic article and Wikidata give 3 December 1996, but the English lead dates his death '1 or 3 December 1996' and its text says 'in early December 1996', and the Urdu article gives '1 or 3 December'; 3 December is carried, marked debated. He was buried at Hairatan. No place entity exists for Moscow or Hairatan, so no died_in or buried_in relation is written. The Hijri year (1417) is from the Arabic article's category pairing; tabular conversion agrees."
+  sources: [source/wikipedia-karmal-en, source/wikipedia-karmal-ar, source/wikipedia-karmal-ur, source/wikidata-karmal]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Atheism is named only by one structured family: Wikidata's religion claim is atheism (Q7066), and the Arabic and Urdu articles' categories file him under Afghan atheists — filings, not attestations — while the Urdu infobox gives Islam generically and the Arabic infobox leaves the religion field blank. No text read attests personal unbelief: the Akhundov bar is not met by his party's Marxist programme, which is ideology, not a personal attestation. The one personal-religion text, in the English article, runs the other way: it records Karmal, at a meeting in Kabul, comparing his ardour for the Soviet Union to his Muslim faith — a reported simile, which attests no school either. His faith is therefore recorded as unknown, flagged: atheist-or-sceptic rests on a single structured family against a counter-indicating text, and the founder may wish to rule on the configuration."
+    sources: [source/wikipedia-karmal-en, source/wikipedia-karmal-ar, source/wikipedia-karmal-ur, source/wikidata-karmal]
+external_ids: { wikidata: "Q63827" }
+sources: [source/wikipedia-karmal-en, source/wikipedia-karmal-ar, source/wikipedia-karmal-ur, source/wikidata-karmal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Babrak Karmal' (revision 1381447710 of 22 October 2026), Arabic Wikipedia «ببرك كارمل» (revision 74967412 of 3 June 2026), Urdu Wikipedia «ببرک کارمل» (revision 10636924 of 26 May 2026) and Wikidata item Q63827 (item revision 2557806541 of 17 October 2026), the articles read in full and the item's claims read by API on 27 October 2026 by the stopped wave-119 writer; re-verified on 31 October 2026 — the English article re-read in full (its text matches the recorded revision, including the '1 or 3 December' lead and the Muslim-faith simile), the live Wikidata item checked (label, description and dates agree; the item's religion statement does not render in the text reader, so the atheism claim rests on the preserved API read), and Q63827 grepped across all data/person files with no match, so this is a new build. Existence also checked by name fragments (Karmal, كارمل, کارمل) across data/person. No place edges are written: Kamari, Moscow and Hairatan have no place entities. No succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-119
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

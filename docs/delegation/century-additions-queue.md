@@ -650,11 +650,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mohammed Daoud Khan — 1909–1978
 - [x] Nur Muhammad Taraki — 1917–1979
 - [x] Hafizullah Amin — 1929–1979
-- [ ] Babrak Karmal — 1929–1996
-- [ ] Mohammad Najibullah — 1947–1996
-- [ ] Sibghatullah Mojaddedi — 1925–2019
-- [ ] Sukarno — 1901–1970
-- [ ] Suharto — 1921–2008
+- [x] Babrak Karmal — 1929–1996
+- [x] Mohammad Najibullah — 1947–1996
+- [x] Sibghatullah Mojaddedi — 1925–2019
+- [x] Sukarno — 1901–1970
+- [x] Suharto — 1921–2008
 - [ ] Abdurrahman Wahid (Gus Dur) — 1940–2009
 - [ ] Susilo Bambang Yudhoyono — 1949–Living
 - [ ] Joko Widodo (Jokowi) — 1961–Living
