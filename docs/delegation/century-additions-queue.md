@@ -716,11 +716,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Begum Akhtar — 1914–1974
 - [x] Mehdi Hassan — 1927–2012
 - [x] Ghulam Ali — 1940–Living
-- [ ] Reshma — 1947–2013
-- [ ] Alam Lohar — 1926–1979
-- [ ] Arif Lohar — 1966–Living
-- [ ] Atif Aslam — 1983–Living
-- [ ] Ali Zafar — 1980–Living
+- [x] Reshma — 1947–2013
+- [x] Alam Lohar — 1926–1979
+- [x] Arif Lohar — 1966–Living
+- [x] Atif Aslam — 1983–Living
+- [x] Ali Zafar — 1980–Living
 - [ ] Sajjad Ali — 1966–Living
 - [ ] Nazia Hassan — 1965–2000
 - [ ] Zoheb Hassan — 1966–Living
