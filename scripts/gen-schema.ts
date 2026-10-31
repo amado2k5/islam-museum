@@ -19,6 +19,7 @@ const listingCategories = ids("listing-categories");
 const themes = ids("themes");
 const storyRoles = ids("story-roles");
 const faith = ids("faith");
+const sermonType = ids("sermon-type");
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
@@ -141,6 +142,10 @@ const base = {
       properties: {
         levels: { type: "array", uniqueItems: true, items: { enum: ["sprouts", "explorers", "scholars"] } },
         flagged_for_kids: { type: "boolean" },
+        did_you_know: { type: "object", additionalProperties: false,
+          description: "One authored, sourced fact («هل تعلم؟») in the three published languages; at most 40 words each, at least two cited sources (docs/delegation/education-master-plan.md §5 E3).",
+          properties: { ar: str, en: str, ur: str, sources: { type: "array", minItems: 2, items: str } },
+          required: ["ar", "en", "ur", "sources"] },
         exclude: { type: "boolean" },
         provenance: { type: "object", additionalProperties: true, properties: { generated_by: str, model: str, run: str } },
       },
@@ -149,6 +154,7 @@ const base = {
       type: "object", additionalProperties: true,
       properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
     },
+    kids: { "$ref": "#/$defs/localized", description: "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text." } as any,
   },
   required: ["id", "class", "label", "summary", "status"],
 };
@@ -281,7 +287,24 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       structure: str, editions: strs, translations: strs, openiti_uri: str, commentaries: entityRefs, manuscripts: entityRefs,
       text_source: { type: "object" }, url: { type: "string", format: "uri" }, launched: D, closed: D, languages: strs, publisher: entityRef, archive_url: { type: "string", format: "uri" },
       orientation: { type: "object", additionalProperties: false, properties: { value: str, basis: enm(["self-described", "documented"]) } },
-      content_type: enm(["scripture", "hadith", "fatwa", "library", "education", "news", "community", "children", "academic", "apologetics", "criticism"]) },
+      content_type: enm(["scripture", "hadith", "fatwa", "library", "education", "news", "community", "children", "academic", "apologetics", "criticism"]),
+      // docs/plan/25 (khutab and durus): a sermon or lesson is delivered, not only written
+      sermon_type: enm(sermonType),
+      delivered: { type: "object", additionalProperties: false, required: ["by"], properties: {
+        by: entityRef, co_speakers: entityRefs, moderator: entityRef } },
+      host: entityRef,
+      audience: L,
+      occasion: entityRef,
+      ruler_at_time: { type: "array", items: { type: "object", additionalProperties: false, required: ["who", "role"], properties: {
+        who: entityRef, role: enm(["patron", "addressee", "named-in-dua", "subject", "opponent", "contemporary"]), sources: strs, note: str } } },
+      book_studied: { type: "object", additionalProperties: false, required: ["work"], properties: { work: entityRef, range: str } },
+      order: intStr,
+      duration: { type: "number", exclusiveMinimum: 0, description: "minutes" },
+      delivery_date_status: enm(["delivered", "uploaded", "broadcast"]),
+      consequence: entityRefs,
+      reception: { type: "array", items: { type: "object", required: ["kind"], properties: {
+        kind: enm(["approval", "objection", "fatwa", "ban", "cut", "award", "protest", "release", "withdrawal", "other"]),
+        by: str, where: strs, date: D, status: enm(claimStatus), note: str, sources: strs } } } },
     required: ["kind"],
   },
   passage: {

@@ -615,3 +615,19 @@ serves:
   label: { en: "Serves", ar: "يخدم" }
   inverse_label: { en: "Served by", ar: "يخدمه" }
   temporal: false
+
+delivered:
+  inverse: delivered_by
+  domain: [person,group]
+  range: [work]
+  label: { en: "Delivered", ar: "ألقى" }
+  inverse_label: { en: "Delivered by", ar: "أُلقي" }
+  temporal: false
+
+relies_on:
+  inverse: relied_on_by
+  domain: [work]
+  range: [work,passage]
+  label: { en: "Relies on", ar: "استند إلى" }
+  inverse_label: { en: "Relied on by", ar: "اعتُمد عليه" }
+  temporal: false
