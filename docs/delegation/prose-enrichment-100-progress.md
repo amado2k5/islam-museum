@@ -20,11 +20,44 @@ Lane: [`docs/agents/lanes/prose-enrichment-100.md`](../agents/lanes/prose-enrich
 - **place/suqusiya.** The island entry (pp. 946–947) gives its length (150 miles), its position north of the large island and its uninhabited state, and its link to Anqlutara. The text is ambiguous about which island is meant, so the body is not written until the identification is checked. Left thin.
 - **place/niyast.** The Idrisi entry (p. 194) gives grain, the Ganges and a seven-stage distance from Madyar, and five stages from Atrasa (p. 194). The prose would need the Atrasa and Madyar entries read first. Left thin.
 
+Batch 3 (n–z, 25 slugs). Each lead below was read in the OCR at the cited page; the reason is the text, not the search.
+
+- **place/sila.** Fihrist p. 492 is one sentence (China's gold-rich land). No second defined source was found for this name. Lead.
+- **place/tunin.** Idrisi p. 236 gives a village on the first open plain, two stages long, with the Berber tribes and wild turtles. About 50 words of source content. Lead.
+- **place/sarwan.** Idrisi p. 457 describes a small, developed town like al-Qarnayn, with fields, vineyards and fruit, two stages from Bust. About 40 words. Lead.
+- **place/sayala.** Idrisi p. 142 gives 34 miles from an earlier station, a little-frequented wayside with wells of drinkable water. Nothing more is recorded. Lead.
+- **place/sindabur.** Idrisi p. 191 gives a port on a large creek where ships anchor, a city of merchants, and four stages from Burj. About 40 words. Lead.
+- **place/nafzawa.** The name appears in tribal lists (pp. 222, 257) and in the Qafsa–Nafusa passage (pp. 278–279). The separate section on p. 283 was not read in full, so no entry-level text is cited. Lead pending that read.
+- **place/tabas.** Idrisi p. 463 gives size relative to Qain and Yanabidh, a mud-built walled town with water brought in channels, and distances to Khur. About 70 words; 100 would need the Qain and Khur entries, which were not read. Lead.
+- **place/naqawus.** Idrisi p. 264 gives one paragraph: small size, trees and gardens, walnuts, a market, and distances to al-Musayla, Biskra and Badis. About 60 words of source content. Lead.
+- **place/sharma.** Idrisi pp. 55–56 gives a port on the Hadramawt coast, its link to Luʿsa, a hot spring, and a six-day sea distance to Mirbat. About 50 words. Lead.
+- **place/zaqa.** Idrisi p. 903 records only route distances in a list (Ramla, Tarubi, Ghaliciya). No description is given. Lead.
+- **place/sayumur.** Idrisi pp. 180, 182–183 list it among the Indian cities and give five stages from Sindan, a large, fine city. About 40 words. Lead.
+- **place/namna.** Futuh al-Buldan p. 467 names Namna in one clause (Said takes Tamisa and Namna on the way to Tabaristan). Lead.
+- **place/nafta.** Idrisi pp. 278–279 gives two small stages from Qafsa, a populous town with markets and palm trees, and three stages to Qabis. About 50 words. Lead.
+- **place/raygha.** Idrisi p. 254 gives one stage from Mabuq Kazaniya, with wide fields, fruit gardens and a good market. About 35 words. Lead.
+- **place/qulari.** Unchanged since batch 2 (see above). Lead stands.
+- **place/thabun.** Idrisi p. 959 gives a strong city on the top of a mountain in the land of Bulghar, with fertile land. About 30 words. Lead.
+- **place/zuzan.** Idrisi pp. 463–464 is a route note: a prosperous, walled town on the road to Herat, three stages from Qain and two from Sulumak. About 60 words; the Herat-road entries were not read. Lead.
+- **place/sawnu.** Idrisi p. 954 is one sentence: seventy miles along the coast from a city of the Magians. Lead.
+- **place/uzayn.** The Futuh OCR on disk (edition 20230703) has no hit for the label. Lead.
+- **place/sadum.** Idrisi p. 146 gives a large village with inhabitants, springs and vineyards, and a distance to Madjrah. About 40 words. Lead.
+- **place/sabat.** Futuh al-Buldan pp. 366–367 records that Khalid ibn Urfuta took Sabat during Said's advance. Two sentences. Lead.
+
+Enriched in batch 3: place/tabna (Idrisi pp. 263–264), place/tukha (pp. 206–207), place/zamin (p. 505). place/qawun was enriched in batch 2 (156 words of Arabic body).
+
 ## Open data issues (summaries not yet corrected)
 
 - place/qawun summary: "one hundred miles from Aqra" does not match the text. Idrisi gives the road from Aqra to Qawun as "مائة ميل وستون ميلا" (p. 885). The prose follows the text and does not repeat the summary's figure.
 - place/raghawlda summary said "one hundred miles from Qalmar". Idrisi gives one hundred miles from the second arm of the Qatulu river; Qalmar to that arm is eighty miles (p. 953). The summary is corrected in this batch.
 These summaries disagree with the body or source; the prose follows the sources.
+
+Corrected in batch 3:
+- place/qawun summary now gives "one hundred and sixty miles from Aqra" (Idrisi p. 885: مائة ميل وستون ميلا), matching the body.
+- place/zamin summary said "twenty-seven miles from Samarqand". Idrisi p. 505 gives 27 miles from Kharqana to Zamin and 27 miles from Kharqana to Samarqand; the summary now says "from Kharqana".
+
+Unverified in batch 3:
+- person/sariya-ibn-zunaym: the data file still cites tabari-tarikh-abu-al-fadl j.4 p. 178 (summary and provenance). The on-disk Tabari OCR under books/tareekh/tarikh-tabari is not the Abu al-Fadl volume 4 that carries this entry, and no Darabjird passage is in those volumes. The prose cites al-Bidaya wa-al-Nihaya and does not depend on that Tabari cite. The Tabari citation stays flagged as unverified.
 
 - place/udhayb summary places it on the Jidda–Taif road; Idrisi p. 144 places it on the Medina–al-Jar road.
 - place/qudaid summary says Suraqa caught up with the Prophet at Qudayd, citing p. 166 (Uhud chapter, not Hijra).
@@ -47,3 +80,4 @@ These summaries disagree with the body or source; the prose follows the sources.
 | 2026-10-31 | Devin (a–m) | batch 13: place, nuzhat-al-mushtaq-2002 (armuqastru, arsa, asak-khuzistan, asbara, ashburqan, ashkala, badis-maghrib, baeza, baghlan, baja, balgharduwan, bani-zandawi, banzart, barqana, barsaklafa, basitrinis, basyan, batn-numan, batrani, bayan, berja, bisha, bulghar, bura, butash) | 25 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 14: place, nuzhat-al-mushtaq-2002 | 25 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 2: place, nuzhat-al-mushtaq-2002 (shuzas, siqlaw, qawun, nyun-burk, qalimalaya, raghawlda) | 6 | 3 (place/qulari, place/suqusiya, place/niyast — reasons under Leads) | — |
+| 2026-10-31 | Claude (Haiku 5.5) | n–z batch 3: 25 place slugs (sila, tunin, tukha, sarwan, sayala, sindabur, zamin, nafzawa, tabas, naqawus, sharma, zaqa, sayumur, namna, nafta, raygha, qulari, thabun, tabna, zuzan, sawnu, qawun, uzayn, sadum, sabat) | 3 (place/tukha, place/zamin, place/tabna; place/qawun was already enriched in batch 2 and its summary is corrected here) | 21 (reasons under Leads) | — |
