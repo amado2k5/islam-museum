@@ -194,3 +194,29 @@ Each source was read in the OCR at the cited page. Idrisi page numbers are pages
 - place/ubulla: data summary wording ("on the Tigris"; "Basra's port") not yet checked against the Futuh page.
 - place/valencia: en and ur bodies still reflect the shorter text; the Arabic now has the fuller account. Align on the next pass.
 | 2026-10-31 | Claude (n–z) | batch 7: place, nuzhat-al-mushtaq-2002 (qumania-al-sud, tulmaytha, saa; pp. 247, 315, 915 checked against OCR) | 3 | 0 | — |
+
+## n–z batch 8 (Claude Haiku 5.5, 25 place slugs: tuwaran … rudhan)
+
+Enriched in ar, en and ur, each body at least 100 words, from pages read in the OCR and checked against pages.json: tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan (18). Trapani's record now also lists the Idrisi source (it had only GeoNames).
+
+| Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
+|---|---|---|---|---|---|
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 8: 25 place slugs (tuwaran … rudhan) | 18 (tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan) | 7 (reasons below) | this PR |
+
+### Leads, batch 8
+
+- **place/tanja.** Futuh al-Buldan p. 322 gives about 70 words: Musa ibn Nusayr took Tangier in the time of al-Walid, settled it and laid out the Muslims' quarter, and his horsemen reached Sus al-Adna. The Futuh index lists Tangier at p. 570, but p. 570 in the OCR does not contain it. No further passage found. Lead.
+- **place/sumaysat.** Futuh pp. 241 (a footnote on the people of Samosata) and 268 (settlers brought to Hadath from Samosata) mention the name only. No description of the town. Lead.
+- **place/sawa.** Futuh p. 436 names Sawa only as the place where Layla al-Akhiliyya died on the way from al-Hajjaj. No description. Lead.
+- **place/sousse.** The label is ambiguous. The Idrisi passages that name Sousse (pp. 210–211) describe Sousse of China, a city of silk. The record's sources (GeoNames, Ibn Battuta) concern the Tunisian city, and no Idrisi passage for it was found. Needs a decision on which Sousse the record is. Lead.
+- **place/turupi.** Idrisi pp. 903–904 give only route notes: Tarubi is nine stages from Zaqa, and 180 miles from it lies Ghalisiya, in the land of the Rus. The Atropi (أتروبي) of p. 794 is a different town in Macedonia. About 40 words. Lead.
+- **place/nyun-burk.** Idrisi p. 890 gives three route distances (100 miles from Iqraqu, 40 miles from Halah, 60 miles to Wazanburka) and that it lies in the land of Shasuniya; p. 882 lists it again in Shasuniya. About 50 words. Lead.
+- **place/salaw.** Idrisi p. 917 gives 135 miles east of Naros, and a town of Salaw on a mountain-top among the Bulghar lands. About 55 words. Lead.
+
+### Open issues, batch 8
+
+- place/sindan: the summary said the feud was between "his sons" and that one was killed. Idrisi's sibling is called أخ (brother) in the Futuh text, Mahan ibn al-Fadl (p. 626). The summary is corrected to "brother", and the body follows the text.
+- place/zaranj: the summary names al-Rabi' ibn Ziyad, the marzban Abarwiz, and a truce "seated on a corpse". Pages 555–556 do not contain those names or the corpse detail, so the body does not use them. The summary is unverified on those points; the earlier pages (pre-555) were not read.
+- place/trapani: the summary says Ibn Jubayr mentioned the town on his sea route. Not checked against the source in this batch; the Idrisi pages added as a source contain no Ibn Jubayr reference.
+- place/qarliyun: the summary's identification with Corleone in Sicily is not in the Idrisi passage read (pp. 605–606), which gives distances and fortresses only.
+- place/qubrus: Futuh p. 209 says the Cypriots demolished their city and mosques after the army left; the text says this is what "we were told" (بلغنا). The body attributes it to al-Baladhuri's report.

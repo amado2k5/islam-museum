@@ -4,7 +4,13 @@ lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
-## Overview
-Sarandib is a large island in the Indian Ocean, ruled by a king of great wealth, according to al-Idrisi. He mentions that in it are jewels, rubies and various kinds of precious stones, and that the ships of China come to it. Its people live by agriculture and fishing. There are various religions in it, and its scholars gather to debate in the presence of the king. {cite:nuzhat-al-mushtaq-2002 p.74-75}
 
-According to Ibn Khurdadhbih, the awahi rubies and their kind, diamonds, pearls and crystal are imported from it, as is the sunbadaj with which jewels are treated. {cite:masalik-mamalik-ibn-khurdadhbih p.78}
+## Overview
+Sarandib is an island in the Indian sea. Its ruler has more fine pearls and great rubies than any king of India, because most of them are found in the mountains, valleys and sea of his island, according to al-Idrisi. {cite:nuzhat-al-mushtaq-2002 p.74}
+
+## Details
+Al-Idrisi says the king has golden statues in his land whose worth cannot be known for the pearls and rubies set on them. Chinese ships make for the island, and the king has wine brought from Iraq and Persia. He buys it with his own money, and it is sold throughout his realm. {cite:nuzhat-al-mushtaq-2002 p.74}
+
+The people of Sarandib tend the coconut palms of the small islands along the travel routes, keep them, and let every passer-by take from them, seeking reward. People of Oman, and perhaps of Yemen, come to these islands, cut coconut timber, make rope from its fibre, build ships with it, and sail the timber home. {cite:nuzhat-al-mushtaq-2002 p.75}
+
+The island of al-Rami is joined to Sarandib. It has several kings, crops, minerals and fragrance, and it has the rhinoceros, an animal smaller than the elephant and larger than the buffalo. {cite:nuzhat-al-mushtaq-2002 p.75}
