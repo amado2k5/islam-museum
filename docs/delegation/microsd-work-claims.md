@@ -4,4 +4,4 @@ Copy of the shared ledger row for group A, kept in sync in this branch's commit.
 
 | book (cat/book/stem) | task | who | status | updated |
 |---|---|---|---|---|
-| hadith-sciences/* (7 PDFs), hadith/arbain-ibn-daqiq, hadith/dalil-falihin, hadith/fath-bari-ibn-rajab, hadith/ibn-uthaymin-riyad, hadith/lamaat-tanqih, hadith/lulu-marjan | harvest (group A) | subagent A | running: book 1 hadith-sciences/mukhtalif-ibn-qutaybah/09_20260731 done (1 work enriched, 1 source, 3 prose files); 22 rows not started | 31 Oct 2026 |
+| hadith-sciences/* (7 PDFs), hadith/arbain-ibn-daqiq, hadith/dalil-falihin, hadith/fath-bari-ibn-rajab, hadith/ibn-uthaymin-riyad, hadith/lamaat-tanqih, hadith/lulu-marjan | harvest (group A) | subagent A | running: books 1–10 done (see PRs #2689 to #2722); books 11–12 done (Ibn Uthaymin's Sharh Riyad al-salihin, vols. 5 and 4); book 13 hadith/ibn-uthaymin-riyad/5_20240201_202402 is a byte-identical duplicate of book 11 (no new work); 11 rows not started | 31 Oct 2026 |
