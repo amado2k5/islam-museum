@@ -12,3 +12,7 @@ al-Suyuti says that al-Mansur came back sick, and died of a bowel complaint in D
 
 ## Note
 The Gregorian date (around October 775 CE) is derived by conversion, and the account comes from a single source. It needs an additional source.
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] relates that Abu Ja'far al-Mansur told of a dream in which the Prophet tied a banner: his brother Abu al-Abbas took it, walked a few steps and fell; then he himself took it and walked a number of steps he had counted. Those steps, he said, were now spent, and he would die that day. Al-Ya'qubi says he died on 3 Dhu al-Hijja 158 AH and was buried at Bi'r Maymun; his son Salih led the funeral prayer, and his reign had lasted twenty-two years. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 470}
+His sons included Muhammad al-Mahdi, Salih and Ya'qub; his eldest son Ja'far had died in his lifetime. The man who held most sway over him was Abu Ayyub al-Khuzi, whom he made his vizier and later, angered, put to death; no one, al-Ya'qubi adds, is known to have held sway over him after that. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 470}

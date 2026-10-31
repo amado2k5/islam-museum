@@ -16,3 +16,7 @@ al-Mas'udi quotes al-Buhturi that al-Mutawakkil bought a sword for ten thousand 
 He mentions that the place was known as al-Makhura, the place where Shiruyah had killed his father. {cite:muruj-al-dhahab p. 514}
 
 The two accounts differ on the day: al-Suyuti gives the fifth of Shawwal, and al-Mas'udi the third.
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] relates that al-Mutawakkil had estranged his son Muhammad al-Muntasir, and that certain men stirred al-Muntasir against him and urged him on. On Tuesday, 3 Shawwal, a party of Turks, among whom he names Bugha the Younger, Utamish and Baghir, came in on him while he sat in private and killed him with their swords, killing al-Fath ibn Khaqan with him. This is his account; the sources differ on al-Muntasir's part. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 601} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 602}
+He gives the caliphate as fourteen years, nine months and nine days and his age as forty-two; he was buried in his palace known as al-Ja'fari, which he had named al-Mahuza. The men who held most sway over him were al-Fath ibn Khaqan and the secretary Ubayd Allah ibn Yahya, and his chamberlains were Wasif and Bugha. Al-Muntasir received the oath on the night his father was killed. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 602}
