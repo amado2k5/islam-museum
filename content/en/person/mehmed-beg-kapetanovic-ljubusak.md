@@ -1,0 +1,10 @@
+---
+id: person/mehmed-beg-kapetanovic-ljubusak
+lang: en
+source_lang: ar
+translators: []
+---
+
+Mehmed-beg Kapetanović Ljubušak (19 December 1839 – 29 July 1902) was a Bosnian writer and public official from Vitina near Ljubuški, who wrote under the pen name Muhibi.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} Schooled at the Ljubuški madrasa and in Turkish, Arabic and Persian, he served the Ottoman administration as kaymakam in several towns, settled in Sarajevo in 1878, and in 1893 succeeded Mustafa Fadilpašić as the city's second mayor.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} His mayoralty gave Sarajevo electric street lighting and one of Europe's first electric tram services on 1 May 1895; a stroke in July 1898 began the decline that forced his resignation in April 1899.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
+
+In 1891 he founded the journal Bošnjak, the platform of the Bosniak national idea, in which he argued that Bosnia's Muslims were neither Croats nor Serbs but a distinct people.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-hr} Travelling the country, he collected its folk treasure: Narodno blago (1887) gathered some 5,000 proverbs and sayings, and Istočno blago (1896) added Turkish, Arabic and Persian ones, alongside treatises asking what Bosnia's Muslims think (1886) and on their future (1893).{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} He died at Grbavica in Sarajevo in 1902 — the day is given as 29 July by the English and Croatian biographies, as 28 July by the Bosnian biography's text and Wikidata, and as 26 July by the Serbian biography — and his son Riza-beg died on 24 December 1931.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikidata-mehmed-beg-kapetanovic-ljubusak}

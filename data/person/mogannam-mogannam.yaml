@@ -1,0 +1,40 @@
+id: person/mogannam-mogannam
+class: person
+label:
+  ar: "مغنم مغنم"
+  en: "Mogannam Mogannam"
+  ur: "مغنم مغنم"
+names:
+  - { value: "مغنم إلياس مغنم", kind: full }
+  - { value: "Mogannam Ilyas Mogannam", kind: full }
+  - { value: "Mughannam Mughannam", kind: alternate }
+gender: male
+died:
+  edtf: "1945"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Died in 1945 (Encyclopedia of the Palestinians; the queue's year agrees). The English biography of his wife Matiel gives 1943, resting on a Washington Post obituary of her, preserved here unadopted; the year is therefore carried as debated. No source states where he died. The bare year spans the Hijri years 1364–1365, so no hijri value is recorded."
+  sources: [source/encyclopedia-mogannam-mogannam-ilyas, source/wikipedia-matiel-mogannam-en]
+roles: [lawyer, activist]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: christian
+    basis: documented
+    note: "Two independent attestations name his faith for the man himself. The Encyclopedia of the Palestinians entry (Mattar, ed.) opens by describing him as a 'Palestinian Christian lawyer and political activist'. The English biography of his wife Matiel independently records that he was a member of Jerusalem's Arab Anglican family, a statement it cites to Frantzman, Glueckstadt and Kark's peer-reviewed study of the Anglican Church in Palestine (Middle Eastern Studies, 2011) — a source family separate from the encyclopedia. The queue line's '(Muslim Allies)' tag is a list label and was expressly not used as evidence; no source supports any Muslim reading of him."
+    sources: [source/encyclopedia-mogannam-mogannam-ilyas, source/wikipedia-matiel-mogannam-en]
+summary:
+  ar: "محامٍ وناشط سياسي فلسطيني مسيحي من القدس (توفي 1945)، هاجر إلى الولايات المتحدة قبل الحرب العالمية الأولى ودرس الحقوق فيها، ثم عاد مع زوجته متيل مغنم إلى القدس في مطلع عشرينيات القرن العشرين، وكان من مؤسسي حزب الدفاع الوطني وضباطه، وتدرب في مكتبه أحمد الشقيري أول رئيس لمنظمة التحرير الفلسطينية."
+  en: "Palestinian Christian lawyer and political activist from Jerusalem (died 1945). He emigrated to the United States before the First World War and studied law there, returned with his wife Matiel Mogannam to Jerusalem in the early 1920s, and was a founding member and officer of the National Defense Party; the young Ahmad Shuqairi, later the PLO's first chairman, trained in his law office."
+  ur: "قدس سے تعلق رکھنے والے فلسطینی مسیحی وکیل اور سیاسی کارکن (وفات 1945ء)۔ وہ پہلی جنگِ عظیم سے قبل امریکہ ہجرت کر گئے اور وہیں قانون کی تعلیم حاصل کی، بیسویں صدی کے بیس کی دہائی کے آغاز میں اپنی اہلیہ متیل مغنم کے ساتھ قدس واپس آئے، اور حزبِ دفاعِ وطنی کے بانی ارکان اور عہدیداروں میں شامل رہے؛ نوجوان احمد الشقیری، جو بعد میں تنظیمِ آزادی فلسطین کے پہلے چیئرمین بنے، نے ان کے دفتر میں تربیت حاصل کی۔"
+sources:
+  - source/encyclopedia-mogannam-mogannam-ilyas
+  - source/wikipedia-matiel-mogannam-en
+provenance:
+  layer: own-research
+  source: "The Encyclopedia of the Palestinians entry 'Mogannam, Mogannam Ilyas' (ed. Philip Mattar, read in full at Encyclopedia.com) and the English Wikipedia biography of his wife Matiel Mogannam (revision 1368083299, fetched live from the MediaWiki API in this session and asserted), read in full. He has no Wikipedia article in any language and no Wikidata item — both were searched by his English and Arabic names in this session — so no QID exists to ground and no wikidata source is registered. Existence checks by name fragments (mogannam, mughannam) across data/person on origin/main found no prior record for this man; his wife Matiel has no record on main either, so no spouse edge is written. BIRTH YEAR: the queue's 1895 is attested in no source reached — the encyclopedia gives no birth year and no other biography of him was found — so, following the lane's Kianwi and Din Muhammad precedents, no born block is recorded rather than reconstructing one. His National Defense Party officership is a political role, never a relation or faith evidence."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-136
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

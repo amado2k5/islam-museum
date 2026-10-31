@@ -39,6 +39,8 @@ _ none yet — per the founder's rule nothing is excluded without his verificati
 
 - Batch 3 (31 Oct 2026, founder-approved vol 3 candidate list, narrowed): 5 Abbasid-era sermon works from Jamharat v3 with ar/en/ur prose — Dawud ibn Ali in Kufa (EPUB p.7), al-Saffah's second Friday in Kufa (p.11), al-Nafs al-Zakiyya in Medina (p.37), Tahir ibn al-Husayn in Baghdad (p.118), al-Ma'mun on Harun's death (p.119). Narrowed from ~20 because the remaining candidates have damaged OCR or no firm date; they stay on the list. Cite anchors are EPUB page indices, not printed page numbers (not yet checked against the printed pages).
 
+- Batch 4 (31 Oct 2026, continuing the vol 3 list): 2 more works — Dawud ibn Ali's rebuke of al-Saffah (EPUB p.10; date approximate, early al-Saffah, 132–136 AH) and Harun al-Rashid's accession sermon (p.82; date inferred from p.81, the death of al-Hadi, 170 AH). Rejected as unready: p.76 (Ibn Utba condolence, speaker's name unclear in OCR), p.84 (a testament, not a sermon), p.218 (Qadi Iyad's piece quotes Qur'an passages; OCR too damaged), p.225 (Abu Bakr ibn Muhammad, attribution disputed in the book itself; body mostly footnote), p.361 (index only, no body read), p.26 (Mansur at Makka, year not in the text). These are not dropped: they stay open for a later pass with better OCR or a firm date.
+
 ## Indexed totals
 
-20 sermon works written (batches 1–3); 4 website works; 44 source entities; era coverage: prophetic, rashidun, zubayrid/umayyad; countries: Hijaz, Iraq, Syria; speakers: 11; formats: text (book pages), websites.
+22 sermon works written (batches 1–4); 4 website works; 44 source entities; era coverage: prophetic, rashidun, zubayrid/umayyad; countries: Hijaz, Iraq, Syria; speakers: 11; formats: text (book pages), websites.

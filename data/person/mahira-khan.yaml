@@ -1,0 +1,43 @@
+id: person/mahira-khan
+class: person
+label:
+  ar: "ماهرة خان"
+  en: "Mahira Khan"
+  ur: "ماہرہ خان"
+names:
+  - { value: "Mahira Hafeez Khan", kind: full }
+gender: female
+born:
+  edtf: "1984-12-21"
+  hijri: "1405"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 December 1984 at Karachi: the English biography and Wikidata agree on the day and the city. Karachi has no place entity, so no birthplace edge is written and the fact is carried here. The Hijri year 1405 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-mahira-khan-en, source/wikidata-mahira-khan]
+roles: [actor]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for her. Wikidata gives only Islam, and the English, Urdu and Arabic biographies carry no school value; roles she has played and her family background were not counted. The absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikidata-mahira-khan, source/wikipedia-mahira-khan-en, source/wikipedia-mahira-khan-ur, source/wikipedia-mahira-khan-ar]
+summary:
+  ar: "ممثلة باكستانية (وُلدت سنة 1984) من كراتشي، بدأت مذيعة تلفزيونية، واشتهرت بمسلسل «همسفر» (2011) وبأفلام «بول» (2011) و«بن روئے» و«سپر اسٹار» وبدورها أمام شاه رخ خان في الفيلم الهندي «رئيس» (2017)."
+  en: "Pakistani actress (born 1984) from Karachi who began as a video jockey and rose to fame with the television drama Humsafar (2011) and the films Bol (2011), Bin Roye and Superstar, and starred opposite Shah Rukh Khan in the Indian film Raees (2017)."
+  ur: "کراچی سے تعلق رکھنے والی پاکستانی اداکارہ (پیدائش 1984) جنہوں نے ویڈیو جاکی کے طور پر آغاز کیا اور ٹیلی ویژن ڈرامے «ہمسفر» (2011) اور فلموں «بول» (2011)، «بن روئے» اور «سپر اسٹار» سے شہرت پائی اور بھارتی فلم «رئیس» (2017) میں شاہ رخ خان کے مدِمقابل کام کیا۔"
+sources:
+  - source/wikipedia-mahira-khan-en
+  - source/wikipedia-mahira-khan-ur
+  - source/wikipedia-mahira-khan-ar
+  - source/wikidata-mahira-khan
+external_ids:
+  wikidata: Q6734095
+provenance:
+  layer: own-research
+  source: "English, Urdu and Arabic Wikipedia biographies of Mahira Khan and the Wikidata item Q6734095, all read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query before completion. The QID was grounded through the English article's page properties. Identity: the queue line's bearer is Mahira Hafeez Khan, the Karachi actress born 21 December 1984. Existence checks by name fragments (mahira) and by QID across data/person on origin/main found no prior record, and her Arabic label ماهرة خان collides with no existing record, so no homonym entry is needed. The queue's year (1984, living) is confirmed to the day. Relations written: none — Karachi has no place entity. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

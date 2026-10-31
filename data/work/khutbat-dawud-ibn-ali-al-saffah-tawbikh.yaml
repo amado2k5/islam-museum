@@ -1,0 +1,23 @@
+id: work/khutbat-dawud-ibn-ali-al-saffah-tawbikh
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/dawud-ibn-ali }
+label: { ar: "خطبة داود بن علي توبيخاً للسفاح", en: "Dawud ibn Ali's rebuke of al-Saffah", ur: "داود بن علی کی سفاح کو سرزنش" }
+summary:
+  ar: "خطبة داود بن علي وقد ارتج على السفاح في أول خلافته، إذ قام داود فتكلم بعد أن صمت الخليفة، ثم نزل. تُروى بروايات متعددة في كتب الأدب والتاريخ."
+  en: "Dawud ibn Ali's speech when al-Saffah froze on the pulpit early in his caliphate: Dawud rose, spoke in his place, then stepped down. Several literary and historical accounts transmit it."
+  ur: "سفاح کی خلافت کے ابتدائی دنوں میں جب سفاح منبر پر خاموش ہو گئے تو داود بن علی اٹھے، بات کی اور اتر گئے۔ ادب اور تاریخ کی کئی کتابوں میں یہ روایت ہے۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/dawud-ibn-ali]
+composed: { hijri: "0132~", edtf: "0750~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "أوائل خلافة السفاح (132–136هـ)، والكتاب لا يثبت سنة الخطبة.", sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 10", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-4 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }

@@ -1,0 +1,101 @@
+---
+// Why: why the museum exists, the museums and references that came before it, what makes it different, how it is built, and where it goes next. Plain prose from i18n, no scripts.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { REPO } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const W = T.why;
+const before: string[] = [
+  W.before_cairo, W.before_berlin, W.before_istanbul, W.before_encyclopaedia, W.before_malaysia,
+  W.before_inventions, W.before_doha, W.before_aga_khan, W.before_discover, W.before_libraries,
+];
+const diffs: string[] = [W.diff_scope, W.diff_open, W.diff_language, W.diff_structure, W.diff_alive, W.diff_founder];
+---
+<BaseLayout lang={lang} title={W.title} description={W.lede} path={`/${lang}/why/`}>
+  <PageHeader title={W.title} lede={W.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: W.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <figure class="w-emblem">
+        <img src="/brand/emblem-full-512.webp" width="256" height="256" alt={W.emblem_alt} loading="lazy" decoding="async" />
+      </figure>
+
+      <section aria-labelledby="gap-h" class="p-sec">
+        <h2 id="gap-h">{W.gap_title}</h2>
+        <p>{W.gap_1}</p>
+        <p>{W.gap_2}</p>
+      </section>
+
+      <section aria-labelledby="before-h" class="p-sec">
+        <h2 id="before-h">{W.before_title}</h2>
+        <p>{W.before_intro}</p>
+        {before.map((t) => <p>{t}</p>)}
+        <figure class="w-object">
+          <img src="/media/architecture-art/aga-astrolabe-brass-iran.webp" width="1280" height="853" alt={W.object_alt} loading="lazy" decoding="async" />
+          <figcaption class="ui muted">{W.object_caption}</figcaption>
+        </figure>
+        <p>{W.before_close}</p>
+        <p class="ui p-links">
+          {W.before_links}
+          <a href="https://mia.org.qa" rel="noopener">{W.link_doha}</a> ·
+          <a href="https://agakhanmuseum.org" rel="noopener">{W.link_aga_khan}</a> ·
+          <a href="https://www.iamm.org.my" rel="noopener">{W.link_malaysia}</a> ·
+          <a href="https://www.1001inventions.com" rel="noopener">{W.link_inventions}</a> ·
+          <a href="https://islamicart.museumwnf.org" rel="noopener">{W.link_discover}</a>
+        </p>
+      </section>
+
+      <section aria-labelledby="diff-h" class="p-sec">
+        <h2 id="diff-h">{W.diff_title}</h2>
+        <p>{W.diff_intro}</p>
+        {diffs.map((t) => <p>{t}</p>)}
+      </section>
+
+      <section aria-labelledby="built-h" class="p-sec">
+        <h2 id="built-h">{W.built_title}</h2>
+        <p>{W.built_1}</p>
+        <p>{W.built_2}</p>
+        <p class="ui p-links">
+          <a href={REPO} rel="noopener">{W.built_repo}</a> ·
+          <a href={`/${lang}/disclaimer/`}>{T.disclaimer.title}</a> ·
+          <a href={`/${lang}/volunteer/`}>{T.volunteer.title}</a> ·
+          <a href={`/${lang}/support/`}>{T.support.title}</a>
+        </p>
+      </section>
+
+      <section aria-labelledby="forward-h" class="p-sec">
+        <h2 id="forward-h">{W.forward_title}</h2>
+        <p>{W.forward_1}</p>
+        <p>{W.forward_2}</p>
+        <p class="ui p-links">
+          <a href="https://doi.org/10.5281/zenodo.23692511" rel="noopener" dir="ltr">{W.forward_doi}</a>
+        </p>
+      </section>
+
+      <section aria-labelledby="matters-h" class="p-sec">
+        <h2 id="matters-h">{W.matters_title}</h2>
+        <p>{W.matters_1}</p>
+        <p class="ui p-links">
+          <a href={`/${lang}/`}>{W.matters_visit}</a> ·
+          <a href={`/${lang}/volunteer/`}>{T.volunteer.title}</a> ·
+          <a href={`/${lang}/support/`}>{T.support.title}</a>
+        </p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .p-sec { margin-block: 2rem 0; }
+  .p-sec h2 { margin-top: 0; }
+  .p-links { margin-top: 0.5rem; }
+  .w-emblem { margin: 0 0 1rem; }
+  .w-emblem img { display: block; width: 160px; height: auto; }
+  .w-object { margin: 1.5rem 0; }
+  .w-object img { display: block; width: 100%; height: auto; border-radius: 8px; }
+  .w-object figcaption { margin-top: 0.5rem; font-size: 0.92rem; }
+</style>

@@ -1,0 +1,55 @@
+id: person/ali-al-rimawi
+class: person
+label:
+  ar: "علي الريماوي"
+  en: "Ali al-Rimawi"
+  ur: "علی الریماوی"
+names:
+  - { value: "علي بن محمود الريماوي", kind: full }
+  - { value: "Ali ibn Mahmud al-Rimawi", kind: full }
+  - { value: "Ali al-Rimawi", kind: alternate }
+gender: male
+born:
+  edtf: "1860"
+  hijri: "1277"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Jerusalem in 1277 AH / 1860 CE, per the Arabic biography; the Hijri year is given by the source itself. The biography traces the family's origin to Aleppo and its nisba to Bayt Rima, north-west of Jerusalem, where his ancestors had settled — the queue's 'poet from Bayt Rima' reflects the nisba, while the biography places his birth in Jerusalem itself."
+  sources: [source/wikipedia-ali-al-rimawi-ar, source/wikidata-ali-al-rimawi]
+died:
+  edtf: "1919"
+  hijri: "1337"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died at Jerusalem in 1337 AH / 1919 CE of bronchitis, per the Arabic biography, and was buried there; the Hijri year is given by the source itself."
+  sources: [source/wikipedia-ali-al-rimawi-ar, source/wikidata-ali-al-rimawi]
+roles: [poet, journalist, teacher, scholar]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or order for the man himself. The Arabic biography calls him a jurist who trained at al-Azhar and taught jurisprudence and Arabic at Jerusalem's Ma'arif school — study, teaching and office never count — and Wikidata carries no religion value at all. Absence configuration."
+    sources: [source/wikipedia-ali-al-rimawi-ar, source/wikidata-ali-al-rimawi]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-ali-al-rimawi-ar] }
+  - { type: died_in, target: place/jerusalem, sources: [source/wikipedia-ali-al-rimawi-ar] }
+summary:
+  ar: "شاعر وصحفي وفقيه فلسطيني من أعلام القدس في أواخر العهد العثماني؛ وُلد في القدس لأسرة تعود نسبتها إلى بيت ريما، ودرس في الأزهر، ودرّس الفقه والعربية في مدرسة المعارف بالقدس وحرّر القسم العربي من جريدة «القدس» وجريدة «النجاح»."
+  en: "Palestinian poet, journalist and jurist, a Jerusalem notable of the late Ottoman period. Born in Jerusalem to a family whose nisba derives from Bayt Rima, he trained at al-Azhar, taught jurisprudence and Arabic at Jerusalem's Ma'arif school and edited the Arabic section of the newspaper al-Quds and the journal al-Najah."
+  ur: "فلسطینی شاعر، صحافی اور فقیہ، آخری عثمانی دور کے یروشلم کے نمایاں اہلِ علم۔ یروشلم میں پیدا ہوئے؛ ان کے خاندان کی نسبت بیت ریما سے ہے، الازہر میں پڑھے، یروشلم کے مدرسہ معارف میں فقہ و عربی پڑھائی اور اخبار «القدس» کے عربی حصے اور «النجاح» کی ادارت کی۔"
+sources:
+  - source/wikipedia-ali-al-rimawi-ar
+  - source/wikidata-ali-al-rimawi
+external_ids:
+  wikidata: Q12228189
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia biography of Ali al-Rimawi (Q12228189) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the Arabic article's page properties. Identity: the queue line's bearer is the Jerusalem poet and journalist of 1860–1919 — the queue's years are confirmed exactly. Existence checks by name fragments (rimawi) and by QID across data/person on origin/main found no prior record. A second Wikidata item, Q125160104 ('Shaykh Ali al-Rimawi, editor of al-Ghazzal'), carries no dates and no sitelinks and could not be confirmed as the same man; this record rests on Q12228189 alone. His teaching post and editorships are never relations; Jerusalem exists on main and carries both date edges."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

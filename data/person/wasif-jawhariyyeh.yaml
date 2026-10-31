@@ -1,0 +1,55 @@
+id: person/wasif-jawhariyyeh
+class: person
+label:
+  ar: "واصف جوهرية"
+  en: "Wasif Jawhariyyeh"
+  ur: "واصف جوہریہ"
+names:
+  - { value: "واصف بن جريس جوهرية", kind: full }
+  - { value: "Wasif ibn Jiryis Jawhariyyeh", kind: full }
+  - { value: "Wasif Jawhariyya", kind: alternate }
+gender: male
+born:
+  edtf: "1897-01-14"
+  hijri: "1314"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Jerusalem on 14 January 1897 (English biography; Wikidata gives the same day). The Hijri year is derived from the exact Gregorian date."
+  sources: [source/wikipedia-wasif-jawhariyyeh-en, source/wikidata-wasif-jawhariyyeh]
+died:
+  edtf: "1972"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Died in 1972 (English biography; Nassar's chapter gives 1897–1972), at Beirut (Wikidata's place of death; Beirut has no place entity on main, so no died_in edge is written). The Arabic biography and a second Wikidata death value give 1973, preserved here unadopted; the year is therefore carried as debated. The bare year 1972 spans the Hijri years 1391–1392, so no hijri value is recorded."
+  sources: [source/wikipedia-wasif-jawhariyyeh-en, source/nassar-wasif-jawharriyeh-collection, source/wikipedia-wasif-jawhariyyeh-ar, source/wikidata-wasif-jawhariyyeh]
+roles: [musician, poet, writer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: christian
+    basis: documented
+    note: "Two independent attestations name his faith for the man himself. The English biography, following Salim Tamari's study of the diaries, records that the Jawhariyyehs practised Eastern Orthodox Christianity and describes Wasif as a Christian who attended both Christian and Muslim institutions; Issam Nassar's chapter on the Jawhariyyeh Collection independently describes him as coming from a Christian family, the son of a prominent notable of Jerusalem's Greek Orthodox Arab community, and his published memoirs are themselves the record of that Orthodox Jerusalemite upbringing. The queue line's '(Muslim Associates)' tag is a list label and was expressly not used as evidence."
+    sources: [source/wikipedia-wasif-jawhariyyeh-en, source/nassar-wasif-jawharriyeh-collection]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-wasif-jawhariyyeh-en, source/wikipedia-wasif-jawhariyyeh-ar, source/wikidata-wasif-jawhariyyeh] }
+summary:
+  ar: "موسيقي وشاعر وكاتب مذكرات مقدسي (1897–1972)، عُرف بمذكراته التي دوّنها من 1904 إلى 1968 وصدرت مختارات منها بعنوان «حكواتي القدس»، فغدت من أشهر الشهادات الشخصية على الحياة الاجتماعية في القدس في العهدين العثماني والانتدابي."
+  en: "Jerusalem musician, poet and diarist (1897–1972). His diaries, kept from 1904 to 1968 and published in edited selections as The Storyteller of Jerusalem, are among the most celebrated first-hand records of the city's social life under Ottoman and Mandate rule."
+  ur: "قدس کے موسیقار، شاعر اور روزنامچہ نگار (1897–1972)۔ ان کی یادداشتیں، جو 1904ء سے 1968ء تک لکھی گئیں اور منتخب صورت میں «حکایات گوئے قدس» کے عنوان سے شائع ہوئیں، عثمانی اور انتدابی دور میں شہر کی سماجی زندگی کی مشہور ترین چشم دید شہادتوں میں شمار ہوتی ہیں۔"
+sources:
+  - source/wikipedia-wasif-jawhariyyeh-en
+  - source/wikipedia-wasif-jawhariyyeh-ar
+  - source/wikidata-wasif-jawhariyyeh
+  - source/nassar-wasif-jawharriyeh-collection
+external_ids:
+  wikidata: Q5880798
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Wasif Jawhariyyeh (Q5880798), the Wikidata item, and Issam Nassar's chapter 'The Wasif Jawharriyeh Collection' in Ordinary Jerusalem, 1840–1940 (Brill, 2018, open access), read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the English article's page properties. Existence checks by name fragments (jawhariyyeh, jawhari) and by QID across data/person on origin/main found only classical Jawhari namesakes (ahmad-al-jawhari, al-abbas-al-jawhari and others) and no prior record for this man. His Qur'an study at Jerusalem's Dusturiya school and his family's service to the Husayni notables are education and association, not affiliation, and play no part in the faith settlement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

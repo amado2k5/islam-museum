@@ -1,0 +1,53 @@
+id: person/hafiz-ali-korca
+class: person
+label:
+  ar: "حافظ علي كورتشا"
+  en: "Hafiz Ali Korça"
+  ur: "حافظ علی کورچا"
+names:
+  - { value: "Ali Korça", kind: full }
+  - { value: "Hafiz Ali Korça", kind: alternate }
+  - { value: "Hafëz Ali Korça", kind: alternate }
+gender: male
+born:
+  edtf: "1873-04-05"
+  hijri: "1290"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Korçë on 5 April 1873, son of Iljaz Efendi, into a family of religious scholars; he had memorised the Qur'an by the age of twelve, which is the origin of the honorific Hafiz in his common name (an honorific, not a name element). The English and Albanian biographies and Wikidata agree on the day. The Hijri year 1290 is derived by tabular conversion and is marked derived. Korçë has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-hafiz-ali-korca-en, source/wikipedia-hafiz-ali-korca-sq, source/wikidata-hafiz-ali-korca]
+died:
+  edtf: "1957-01-07"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died at Kavajë, where the communist regime had interned him and kept him under surveillance into his eighties, and was buried there. The Albanian biography and Wikidata give 7 January 1957, which the record follows; the English biography gives 31 December 1957. QUEUE CORRECTION: the queue's death year 1956 is followed by no source and is not used. Because the two readings fall in different Hijri years (1376 and 1377), no hijri key is carried. Kavajë has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-hafiz-ali-korca-sq, source/wikidata-hafiz-ali-korca, source/wikipedia-hafiz-ali-korca-en]
+roles: [scholar, translator, teacher]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English biography styles him a Muslim 'alim and records his service as Grand Mufti of the Upper Sharia Council (1916–1924) and his teaching at the Medrese of Tirana, and Wikidata gives only Islam; a mufti's office, a hafiz title and madrasa teaching never count. The Albanian biography notes that his Qur'an commentary leans to rationalist, reformist and symbolic interpretation, which is an interpretive style, not a madhhab attestation. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-hafiz-ali-korca-en, source/wikipedia-hafiz-ali-korca-sq, source/wikidata-hafiz-ali-korca]
+relations: []
+summary:
+  ar: "عالم ألباني من كورتشا، تولّى رئاسة المفتين في مجلس الشريعة الأعلى (1916–1924)، وترجم أجزاء من القرآن إلى الألبانية (1926)، وكتب أول نقد ألباني للشيوعية (1925)، ومات في الاعتقال بكافايا سنة 1957."
+  en: "Albanian 'alim from Korçë who served as Grand Mufti of the Upper Sharia Council (1916–1924), translated parts of the Qur'an into Albanian (1926), wrote the first Albanian critique of communism (1925), and died in internment at Kavajë in 1957."
+  ur: "کورچا سے تعلق رکھنے والے البانوی عالم، جو مجلسِ شریعہِ اعلیٰ کے مفتیِ اعظم رہے (1916ء–1924ء)، قرآن کے اجزا کا البانوی ترجمہ کیا (1926ء)، اشتراکیت پر پہلی البانوی تنقید لکھی (1925ء)، اور 1957ء میں کاوایا میں نظربندی کے دوران وفات پائی۔"
+sources:
+  - source/wikipedia-hafiz-ali-korca-en
+  - source/wikipedia-hafiz-ali-korca-sq
+  - source/wikidata-hafiz-ali-korca
+external_ids:
+  wikidata: Q16357408
+provenance:
+  layer: own-research
+  source: "English and Albanian Wikipedia biographies of Hafiz Ali Korça (Q16357408) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Korçë-born Grand Mufti and Qur'an translator (1873–1957); the queue's birth year is confirmed and its death year corrected from 1956 to 1957 on the sources. Existence checks by name fragments (korca, korça) and by QID across data/person on origin/main found no prior record. His father Iljaz Efendi has no person record, and Korçë and Kavajë have no place entities, so relations are empty. The Albanian article sits at the canonical title 'Hafëz Ali Korça' and is registered under it."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-129
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

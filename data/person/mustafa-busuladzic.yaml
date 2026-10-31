@@ -1,0 +1,54 @@
+id: person/mustafa-busuladzic
+class: person
+label:
+  ar: "مصطفى بوسولاديتش"
+  en: "Mustafa Busuladžić"
+  ur: "مصطفی بسولادیچ"
+names:
+  - { value: "Mustafa Busuladžić", kind: full }
+gender: male
+born:
+  edtf: "1914-04-01"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 April 1914 at Gorica near Trebinje, son of the shopkeeper Smail Busuladžić and of Emina; the English and Bosnian biographies and Wikidata agree on the day. The Hijri year 1332 is derived by tabular conversion and is marked derived. Gorica and Trebinje have no place entities on main, so the place is carried here."
+  sources: [source/wikipedia-mustafa-busuladzic-en, source/wikipedia-mustafa-busuladzic-bs, source/wikidata-mustafa-busuladzic]
+died:
+  edtf: "1945-06-29"
+  hijri: "1364"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Executed on 29 June 1945 at Sarajevo: arrested in mid-April 1945 after the communist takeover, tried before a military court on 22–23 May as a collaborator of the occupier, sentenced to death and shot at night in the Velešići quarter behind the railway station. The English and Bosnian biographies and Wikidata agree on the day. The Hijri year 1364 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-mustafa-busuladzic-en, source/wikipedia-mustafa-busuladzic-bs, source/wikidata-mustafa-busuladzic]
+roles: [writer, translator]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him, and Wikidata carries no religion value for him at all. His membership and Sarajevo presidency of the Young Muslims movement, his madrasa education at Travnik and Sarajevo and his teaching at the Sharia Gymnasium are movement activity, schooling and employment, which never count as an attestation of a school. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-mustafa-busuladzic-en, source/wikipedia-mustafa-busuladzic-bs, source/wikipedia-mustafa-busuladzic-hr, source/wikidata-mustafa-busuladzic]
+relations:
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-mustafa-busuladzic-en, source/wikidata-mustafa-busuladzic] }
+summary:
+  ar: "كاتب ومترجم بوسني من غوريتسا قرب تريبيني، رئيس حركة الشباب المسلمين في سراييفو ومن أبرز المثقفين المسلمين في ما بين الحربين؛ من كتبه «المسلمون في روسيا السوفيتية». حاكمته محكمة عسكرية يوغوسلافية في مايو 1945 بتهمة التعاون مع المحتل، فحُكم عليه بالإعدام وأُعدم رمياً بالرصاص في سراييفو في 29 يونيو 1945."
+  en: "Bosnian writer and translator from Gorica near Trebinje, the Young Muslims movement's president in Sarajevo and a prominent Islamic intellectual of the interwar years; among his works is the booklet Muslims in Soviet Russia. A Yugoslav military court tried him in May 1945 as a collaborator, sentenced him to death, and he was shot at Sarajevo on 29 June 1945."
+  ur: "گوریتسا (قریب تریبینئے) سے تعلق رکھنے والے بوسنیائی مصنف اور مترجم، سرائیوو میں نوجوان مسلمانان تحریک کے صدر اور بین الحربین دور کے نمایاں مسلم دانشور؛ ان کی تصانیف میں «سوویت روس میں مسلمان» شامل ہے۔ مئی 1945ء میں یوگوسلاو فوجی عدالت نے غاصبوں سے تعاون کے الزام میں مقدمہ چلایا، سزائے موت سنائی، اور 29 جون 1945ء کو سرائیوو میں گولی مار دی گئی۔"
+sources:
+  - source/wikipedia-mustafa-busuladzic-en
+  - source/wikipedia-mustafa-busuladzic-bs
+  - source/wikipedia-mustafa-busuladzic-hr
+  - source/wikidata-mustafa-busuladzic
+external_ids:
+  wikidata: Q13085529
+provenance:
+  layer: own-research
+  source: "English, Bosnian and Croatian Wikipedia biographies of Mustafa Busuladžić (Q13085529) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Gorica-born writer and Young Muslims president executed in 1945; the queue's years are confirmed to the day at both ends. Existence checks by name fragments (busuladzic, busuladžić) and by QID across data/person on origin/main found no prior record. His father and brothers have no person records, so no family edges are written. Gorica and Trebinje have no place entities; Sarajevo does, and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

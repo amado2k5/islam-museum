@@ -1,0 +1,45 @@
+id: person/zoheb-hassan
+class: person
+label:
+  ar: "زوهيب حسن"
+  en: "Zoheb Hassan"
+  ur: "زوہیب حسن"
+names:
+  - { value: "Zoheb Hassan", kind: full }
+  - { value: "Syed Zoheb-u-Din Hassan", kind: full }
+  - { value: "زوہیب حسن", kind: full }
+  - { value: "Zohaib Hassan", kind: alternate }
+gender: male
+born:
+  edtf: "1966-11-18"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 18 November 1966: the English article and Wikidata agree on the day; the English article gives Karachi as his origin. The Hijri year 1386 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-zoheb-hassan-en, source/wikidata-zoheb-hassan]
+roles: [singer, songwriter, producer]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. Wikidata gives only Islam, and the English biography's category filings describe him as a Pakistani Muslim — one structured family and filings, which name no school and were not counted. The absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikidata-zoheb-hassan, source/wikipedia-zoheb-hassan-en]
+summary:
+  ar: "مغنٍّ وكاتب أغاني ومنتج بوب باكستاني (وُلد سنة 1966)، وُلد باسم سيد زوهيب الدين حسن؛ كوّن مع أخته الكبرى نازية ثنائي «نازية وزوهيب» الذي باعت ألبوماته أكثر من 65 مليون أسطوانة حول العالم؛ وبعد وفاتها سنة 2000 ابتعد إلى حد كبير عن الغناء، ثم عاد لاحقًا بأعمال منفردة."
+  en: "Pakistani pop singer, songwriter and producer, born in 1966 as Syed Zoheb-u-Din Hassan. With his elder sister Nazia he formed the duo Nazia and Zoheb, whose albums sold over 65 million records worldwide; after her death in 2000 he largely withdrew from singing, and later returned with solo work."
+  ur: "پاکستانی پاپ گلوکار، نغمہ نگار اور پروڈیوسر (پیدائش 1966)، اصل نام سید زوہیب الدین حسن؛ اپنی بڑی بہن نازیہ کے ساتھ «نازیہ اور زوہیب» کی جوڑی بنائی جس کے البم دنیا بھر میں ساڑھے چھ کروڑ سے زائد فروخت ہوئے؛ بہن کی 2000 میں وفات کے بعد وہ بڑی حد تک گلوکاری سے کنارہ کش رہے اور بعد میں سولو کام کے ساتھ واپس آئے۔"
+sources:
+  - source/wikipedia-zoheb-hassan-en
+  - source/wikipedia-zoheb-hassan-ur
+  - source/wikidata-zoheb-hassan
+external_ids:
+  wikidata: Q8073435
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Zoheb Hassan and the Wikidata item Q8073435, read this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Karachi pop singer (born 1966), brother of Nazia Hassan — pinned by QID and biography, since the surname Hassan is borne by many record-holders. Existence checks by name fragments (zoheb, hassan) and by QID across data/person on origin/main found no prior record. The queue's year (1966, living) is confirmed to the day. Relations: none are written in this record — the symmetric sibling_of edge to his sister is written ONCE in her record (person/nazia-hassan), as she is the elder; no born_in edge is written because Karachi has no place entity on main. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

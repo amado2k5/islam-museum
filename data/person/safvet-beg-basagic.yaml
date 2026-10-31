@@ -1,0 +1,54 @@
+id: person/safvet-beg-basagic
+class: person
+label:
+  ar: "صفوت بك باشاغيتش"
+  en: "Safvet-beg Bašagić"
+  ur: "صفوت بیگ باشاگچ"
+names:
+  - { value: "Safvet Bašagić", kind: full }
+  - { value: "Mirza Safvet", kind: pen }
+gender: male
+born:
+  edtf: "1870-05-06"
+  hijri: "1287"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 6 May 1870 at Nevesinje into a Bosnian Muslim noble family; the English and Bosnian biographies and Wikidata agree on the day. 'Beg' in his common name is an Ottoman title, not a name element, and is not entered as a name. The Hijri year 1287 is derived by tabular conversion and is marked derived. Nevesinje has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-safvet-beg-basagic-en, source/wikipedia-safvet-beg-basagic-bs, source/wikidata-safvet-beg-basagic]
+died:
+  edtf: "1934-04-09"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 9 April 1934 at Sarajevo, after an illness borne since 1924, and was buried in the cemetery of the Gazi Husrev-beg Mosque; the English and Bosnian biographies and Wikidata agree on the day. The Hijri year 1352 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-safvet-beg-basagic-en, source/wikipedia-safvet-beg-basagic-bs, source/wikidata-safvet-beg-basagic]
+roles: [writer, poet, historian, politician]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him. The biographies present a Muslim man of letters — doctorate in Arabic and Persian at Vienna, professor of Oriental languages, compiler of Bosnians and Herzegovinians in Islamic literature, and author of a Mevlud poem on the Prophet's birth — and Wikidata gives only Islam. Scholarship about Islam, devotional poetry and the Bosnian Hanafi milieu of his period are background, not an attestation for the man himself. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-safvet-beg-basagic-en, source/wikipedia-safvet-beg-basagic-bs, source/wikidata-safvet-beg-basagic]
+relations:
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-safvet-beg-basagic-en, source/wikipedia-safvet-beg-basagic-bs] }
+summary:
+  ar: "مؤرخ وشاعر وسياسي بوسني من نيفيسيني، يُلقّب بأبي النهضة البوسنية؛ شارك في تأسيس مجلة «بهار» (1900) وجمعية «غيرت» (1903)، وترأّس البرلمان البوسني سنة 1910، وجمع نحو 700 ترجمة لبوسنيين في الأدب الإسلامي، ومجموعته المخطوطة مسجّلة في سجل ذاكرة العالم لليونسكو."
+  en: "Bosnian historian, poet and politician from Nevesinje, called the father of the Bosnian Renaissance: co-founder of the journal Behar (1900) and the Gajret society (1903), president of the Bosnian Diet (1910), compiler of some 700 biographies of Bosnians in Islamic literature, and collector of the manuscript library inscribed on UNESCO's Memory of the World register."
+  ur: "نیویسینیے سے تعلق رکھنے والے بوسنیائی مؤرخ، شاعر اور سیاست دان، جنھیں بوسنیائی نشاۃِ ثانیہ کا بانی کہا جاتا ہے: مجلہ «بہار» (1900ء) اور انجمن «غیرت» (1903ء) کے شریک بانی، 1910ء میں بوسنیائی پارلیمان کے صدر، اسلامی ادب میں بوسنیائیوں کی تقریباً 700 سوانح کے مرتب، اور اس مخطوطہ کتب خانے کے جامع جو یونیسکو کے عالمی یادگار رجسٹر میں درج ہے۔"
+sources:
+  - source/wikipedia-safvet-beg-basagic-en
+  - source/wikipedia-safvet-beg-basagic-bs
+  - source/wikidata-safvet-beg-basagic
+external_ids:
+  wikidata: Q3433216
+provenance:
+  layer: own-research
+  source: "English and Bosnian Wikipedia biographies of Safvet-beg Bašagić (Q3433216) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Nevesinje-born historian and poet who wrote as Mirza Safvet (1870–1934); the queue's years are confirmed. Existence checks by name fragments (basagic, bašagić) and by QID across data/person on origin/main found no prior record; Bašagić is a family name borne by others, so the identity was pinned by biography as well as by QID. His maternal grandfather Dedaga Čengić and great-grandfather Smail-aga Čengić have no person records, so no family edges are written; co-founding Behar with Mulabdić and Hadžić is never a relation. Nevesinje has no place entity; Sarajevo does, and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-129
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
