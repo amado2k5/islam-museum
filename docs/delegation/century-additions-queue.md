@@ -670,16 +670,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Najib Razak — 1953–Living
 - [x] Muhyiddin Yassin — 1947–Living
 - [x] Ismail Sabri Yaakob — 1960–Living
-- [ ] Anwar Ibrahim — 1947–Living
-- [ ] Sultan Ibrahim Ismail — 1958–Living
-- [ ] Sultan Azlan Shah — 1928–2014
-- [ ] Hassanal Bolkiah — 1946–Living
-- [ ] Omar Ali Saifuddien III — 1914–1986
-- [ ] Nur Misuari — 1939–Living
-- [ ] Murad Ebrahim — 1948–Living
-- [ ] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
-- [ ] Wan Muhamad Noor Matha — 1944–Living
-- [ ] Surin Pitsuwan — 1949–2017
+- [x] Anwar Ibrahim — 1947–Living
+- [x] Sultan Ibrahim Ismail — 1958–Living
+- [x] Sultan Azlan Shah — 1928–2014
+- [x] Hassanal Bolkiah — 1946–Living
+- [x] Omar Ali Saifuddien III — 1914–1986
+- [x] Nur Misuari — 1939–Living
+- [x] Murad Ebrahim — 1948–Living
+- [x] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
+- [x] Wan Muhamad Noor Matha — 1944–Living
+- [x] Surin Pitsuwan — 1949–2017
 - [ ] Azza Karam — 1968–Living
 - [ ] Dr. Sania Nishtar — 1963–Living
 - [ ] Dr. Zubaida Sirang — 1990–Living
@@ -1577,24 +1577,24 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
 - [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
 - [x] Ghulam Ahmad Mahjoor (1887–1952)
-- [ ] Abdul Ahad Azad (1903–1948)
-- [ ] Rasul Mir (1840–1870)
-- [ ] Mahmud Gami (1765–1855)
-- [ ] Maqbool Shah Kralwari (1820–1875)
-- [ ] Samad Mir (1893–1959)
-- [ ] Agha Shahid Ali (Ancestry) (1890–1940)
-- [ ] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
+- [x] Abdul Ahad Azad (1903–1948)
+- [x] Rasul Mir (1840–1870)
+- [x] Mahmud Gami (1765–1855)
+- [x] Maqbool Shah Kralwari (1820–1875)
+- [x] Samad Mir (1893–1959)
+- [~] Agha Shahid Ali (Ancestry) (1890–1940)
+- [~] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
 - [x] Saifuddin Kitchlew (1888–1963)
-- [ ] Justice Din Muhammad (1886–1952)
-- [ ] Mian Abdul Rashid (1889–1981)
-- [ ] Khalifa Shuja-ud-Din (1887–1955)
-- [ ] Allama Abdullah Yusuf Ali (1872–1953)
-- [ ] Pickthall's Muslim Colleagues (1910–1935)
-- [ ] Abdullah Quilliam (1856–1932)
-- [ ] Lord Headley (Rowland Allanson-Winn) (1855–1935)
-- [ ] Muhammad Marmaduke Pickthall (1875–1936)
-- [ ] Khalid Sheldrake (1888–1947)
-- [ ] Sir Archibald Hamilton (1876–1939)
+- [x] Justice Din Muhammad (1886–1952)
+- [x] Mian Abdul Rashid (1889–1981)
+- [x] Khalifa Shuja-ud-Din (1887–1955)
+- [x] Allama Abdullah Yusuf Ali (1872–1953)
+- [~] Pickthall's Muslim Colleagues (1910–1935)
+- [x] Abdullah Quilliam (1856–1932)
+- [x] Lord Headley (Rowland Allanson-Winn) (1855–1935)
+- [x] Muhammad Marmaduke Pickthall (1875–1936)
+- [x] Khalid Sheldrake (1888–1947)
+- [x] Sir Archibald Hamilton (1876–1939)
 - [ ] Lady Evelyn Cobbold (1867–1963)
 - [ ] Tariq Benouri (1860–1925)
 - [ ] Adda Benshitrit (1870–1935)

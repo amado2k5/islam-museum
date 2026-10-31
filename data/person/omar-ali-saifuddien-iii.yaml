@@ -1,0 +1,51 @@
+id: person/omar-ali-saifuddien-iii
+class: person
+label:
+  ar: "عمر علي سيف الدين الثالث"
+  en: "Omar Ali Saifuddien III"
+  ur: "عمر علی سیف الدین سوم"
+names:
+  - { value: "Omar Ali Saifuddien Sa'adul Khairi Waddien", kind: full }
+  - { value: "Pengiran Muda Tengah", kind: alternate }
+  - { value: "Paduka Seri Begawan", kind: laqab }
+gender: male
+summary:
+  ar: "السلطان الثامن والعشرون لبروناي (1950–1967)، الملقّب بمهندس بروناي الحديثة. وُلد في مدينة بروناي سنة 1914 أخا أصغر للسلطان أحمد تاج الدين، فخلفه سنة 1950 ومنح بروناي أول دستور مكتوب سنة 1959 وأبقاها خارج الاتحاد الماليزي سنة 1963 ونظّم إدارتها الإسلامية، ثم تنحّى سنة 1967 لابنه الأكبر حسن البلقية وبقي مرشدا له حتى وفاته سنة 1986."
+  en: "The 28th Sultan of Brunei (1950–1967), remembered as the Architect of Modern Brunei. Born in Brunei Town in 1914, a younger brother of Sultan Ahmad Tajuddin, he succeeded in 1950, gave Brunei its first written constitution in 1959, kept it out of the Malaysian federation in 1963 and regularised its Islamic administration, then abdicated in 1967 in favour of his eldest son Hassanal Bolkiah, remaining his mentor until his death in 1986."
+  ur: "برونائی کے اٹھائیسویں سلطان (1950ء–1967ء)، جو جدید برونائی کے معمار کے طور پر یاد کیے جاتے ہیں۔ 1914ء میں برونائی ٹاؤن میں سلطان احمد تاج الدین کے چھوٹے بھائی پیدا ہوئے، 1950ء میں تخت نشین ہوئے، 1959ء میں برونائی کو اس کا پہلا تحریری آئین دیا، 1963ء میں اسے ملائیشیائی وفاق سے باہر رکھا اور اس کی اسلامی انتظامیہ کو منظم کیا، پھر 1967ء میں اپنے بڑے بیٹے حسن البلقیہ کے حق میں دستبردار ہوئے اور 1986ء میں وفات تک ان کے مرشد رہے۔"
+roles: [sultan, poet]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1914-09-23"
+  hijri: "1332"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 September 1914 at Istana Kota, Kampong Sultan Lama, Brunei Town (present-day Bandar Seri Begawan), the seventh child of Sultan Muhammad Jamalul Alam II and Raja Isteri Fatimah, as the English article and Wikidata give. The Hijri year (1332) is by tabular conversion. Bandar Seri Begawan has no place entity, so no born_in relation is written. His father has a person record in this graph (person/muhammad-jamalul-alam-ii): following the pair-written-once rule, the parent_of edge for that pair belongs in the father's record, is outside this batch, and is reported to the lane coordinator for completion at merge; no child_of edge is written here."
+  sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikipedia-omar-ali-saifuddien-iii-ar, source/wikidata-omar-ali-saifuddien-iii]
+died:
+  edtf: "1986-09-07"
+  hijri: "1407"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 7 September 1986 at his residence, Istana Darussalam, aged 71, and was buried at the Royal Mausoleum after a state funeral the same day, as the English article and Wikidata give; the Urdu article's death date (23 September 1989) garbles his birth date and is not followed. The Hijri year (1407) is by tabular conversion. Bandar Seri Begawan has no place entity, so no died_in relation is written."
+  sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikidata-omar-ali-saifuddien-iii]
+relations:
+  - { type: parent_of, target: person/hassanal-bolkiah, sources: [source/wikipedia-hassanal-bolkiah-en, source/wikidata-hassanal-bolkiah] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article read names a school for Omar Ali Saifuddien III. Wikidata carries Sunni Islam (Q483654) alongside Islam in general (Q432), values from a single structured family, which never count on their own. On his accession he became the head of the Islamic religion in Brunei — an office of the throne — and his palace religious education, his chairmanship of the Syariah Court from 1947 and his regularisation of Brunei's Islamic administration are schooling and office, which never count as personal attestation of a school. The structured readings are preserved here; under the two-source rule and the doubt rule his school stays unknown, unflagged."
+    sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikidata-omar-ali-saifuddien-iii]
+external_ids: { wikidata: "Q40512" }
+sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikipedia-omar-ali-saifuddien-iii-ar, source/wikipedia-omar-ali-saifuddien-iii-ur, source/wikidata-omar-ali-saifuddien-iii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Omar Ali Saifuddien III' (revision 1380661520 of 17 October 2026), Arabic Wikipedia «عمر علي سيف الدين الثالث» (revision 76070152 of 2 August 2026), Urdu Wikipedia «عمر علی سیف الدین سوم» (revision 10412867 of 14 May 2026) and Wikidata item Q40512 (item revision 2562804649 of 31 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic and Urdu articles' page properties. Identity: the queue line 'Omar Ali Saifuddien III — 1914–1986' matches the 28th Sultan of Brunei's biography exactly; he is not his namesake ancestor Omar Ali Saifuddien II, who has his own record here. Existence checked both directions before building: name fragments (Saifuddien, سيف الدين, سیف الدین) and Q40512 grepped across all data/person files on origin/main — no hits for this man. EDGE WRITTEN: parent_of to his eldest son Hassanal Bolkiah is written once, in this record, the son's record being built in the same wave (the item's father value on the son's Wikidata item, Q57327, is this man, Q40512). His own succession of his brother Ahmad Tajuddin is an office succession, carried in prose. The queue's years (1914–1986) are confirmed exactly."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-123
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
