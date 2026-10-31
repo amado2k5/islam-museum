@@ -1,0 +1,96 @@
+id: person/azam-jan-khan
+class: person
+label:
+  ar: "أعظم جان خان"
+  en: "Mir Azam Jan Khan"
+  ur: "اعظم جان خان"
+names:
+  - value: "Mir Mohammad Azam Jan Khan Ahmadzai"
+    kind: full
+  - value: "اعظم جان خان"
+    kind: full
+  - value: "Azim Jan"
+    kind: alternate
+gender: male
+summary:
+  ar: "خان قلات (نحو 1870 – 10 سبتمبر 1933): ابن خداداد خان الذي رفض العرش حين خُلع والده سنة 1893 وشاركه منفاه، وحكم مكران نيابة عن أخيه محمود خان الثاني، وأدار قلات أثناء مرض أخيه، ثم حكم من ديسمبر 1931 حتى وفاته، فألغى السخرة ونُصّب رسميا في دربار بكويته في 26 أبريل 1932."
+  en: "Khan of Kalat (about 1870 – 10 September 1933): a son of Khudadad Khan who refused the throne when his father was deposed in 1893 and shared his exile, governed Makran for his brother Mahmud Khan II, administered Kalat during Mahmud's illness, and then reigned from December 1931 until his death — abolishing forced labour and being formally installed by the Viceroy at a durbar at Quetta on 26 April 1932."
+  ur: "خانِ قلات (تقریباً 1870ء – 10 ستمبر 1933ء): خداداد خان کے بیٹے، جنھوں نے 1893ء میں والد کی معزولی پر پیش کردہ تخت ٹھکرا دیا اور ان کی جلاوطنی میں شریک رہے، اپنے بھائی محمود خان دوم کی طرف سے مکران کے حاکم رہے، بھائی کی بیماری میں قلات کا انتظام سنبھالا، پھر دسمبر 1931ء سے وفات تک حکمران رہے — بیگار ختم کی اور 26 اپریل 1932ء کو کوئٹہ کے دربار میں وائسرائے کے ہاتھوں باقاعدہ تخت نشین ہوئے۔"
+born:
+  edtf: "1870"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: >-
+    The English article, resting on Soszynski's Kalat genealogy and
+    the Memoranda on the Indian States 1930, says he was born about
+    1870, to Khudadad Khan; Wikidata gives the year 1870. The year
+    is approximate and spans two Hijri years, so no Hijri year is
+    recorded.
+  sources: [source/wikipedia-azam-jan-khan-en, source/wikidata-azam-jan-khan]
+died:
+  edtf: "1933-09-10"
+  hijri: "1352"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: >-
+    The English article gives his death on 10 September 1933, citing
+    The Feudatory and Zemindari India (1933) and the Memoranda on
+    the Indian States 1935; the Urdu article and Wikidata give the
+    year 1933. The Hijri year is a tabular conversion of the
+    Gregorian date. He died in office and was succeeded by his son
+    Ahmad Yar Khan.
+  sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-azam-jan-khan-ur, source/wikidata-azam-jan-khan]
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+relations:
+  - type: parent_of
+    target: person/mir-ahmad-yar-khan
+    sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-mir-ahmad-yar-khan-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school for him: neither article mentions
+      his religion, and Wikidata carries no religion value.
+      Encyclopaedia Iranica's statement that the Baluch generally
+      claim all Baluch are Hanafite Muslims is a claim about a
+      people, not an attestation of this man's school. Under the
+      two-source rule and the doubt rule the value stays unknown.
+    sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-azam-jan-khan-ur, source/wikidata-azam-jan-khan, source/iranica-baluchistan-i]
+external_ids:
+  wikidata: Q134963622
+sources:
+  - source/wikipedia-azam-jan-khan-en
+  - source/wikipedia-azam-jan-khan-ur
+  - source/wikidata-azam-jan-khan
+  - source/iranica-baluchistan-i
+provenance:
+  layer: own-research
+  source: >-
+    Built for the century-additions queue §B line 1565; the queue's
+    years (1870–1933) are confirmed and the death is carried at day
+    precision on the English article. Identity, dates and career from
+    the English Wikipedia article 'Azam Jan Khan' (revision
+    1347657026 of 8 April 2026), the Urdu article 'اعظم جان خان'
+    (revision 10702402 of 31 May 2026) and Wikidata item Q134963622
+    (item revision 2491463043 of 14 May 2026), retrieved in full via
+    the MediaWiki and Wikidata APIs on 31 October 2026. Existence
+    checks before building: name greps for Azam Jan across
+    data/person on origin/main returned no record of this man, and
+    the QID Q134963622 grep returned no hit. The one relation
+    written is the parent pair with his son Ahmad Yar Khan, attested
+    by his own article's issue list and death notice ('succeeded by
+    his son Ahmad Yar Khan') and written here only, in the parent's
+    record; his father Khudadad's pair with him is written in
+    Khudadad's record. The khanate succession itself is an office
+    and is not a relation. No place edges are written: Kalat, Quetta
+    and Makran have no place entities.
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status:
+  review: published
