@@ -1,0 +1,56 @@
+id: person/walid-khalidi
+class: person
+label:
+  ar: "وليد الخالدي"
+  en: "Walid Khalidi"
+  ur: "ولید الخالدی"
+names:
+  - { value: "Walid Khalidi", kind: full }
+  - { value: "وليد الخالدي", kind: full }
+  - { value: "Walid al-Khalidi", kind: alternate }
+gender: male
+born:
+  edtf: "1925-07-16"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Jerusalem on 16 July 1925: both biographies, Wikidata and the Arab Center Washington DC obituary agree on the day. He was a son of Ahmad Samih Khalidi, dean of the Arab College of Jerusalem. The Hijri year 1343 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-walid-khalidi-en, source/wikipedia-walid-khalidi-ar, source/wikidata-walid-khalidi, source/arab-center-walid-khalidi-obituary-2026]
+died:
+  edtf: "2026-03-08"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cambridge, Massachusetts, on 8 March 2026, at the age of 100: the English biography, Wikidata and the institutional obituaries of March 2026 (Arab Center Washington DC; Harvard's Center for Middle Eastern Studies; the American University of Beirut) agree. QUEUE CORRECTION: the queue carried him as living; he died on the date given here, and this record is built accordingly. Cambridge has no place entity, so the fact is carried here and no died_in edge is written. The Hijri year 1447 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-walid-khalidi-en, source/wikidata-walid-khalidi, source/arab-center-walid-khalidi-obituary-2026]
+roles: [historian]
+regions: [levant-iraq, americas-oceania]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read attests a religion for Walid Khalidi himself: neither biography names one and Wikidata carries no religion (P140) value at all. His family's scholarly standing in Jerusalem is background, and his own early essays on the Sufi scholar Abd al-Ghani al-Nabulsi are scholarship about another man, not an attestation of his faith. The settlement is the absence configuration."
+    sources: [source/wikipedia-walid-khalidi-en, source/wikidata-walid-khalidi]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-walid-khalidi-en, source/wikipedia-walid-khalidi-ar] }
+summary:
+  ar: "مؤرخ فلسطيني (1925–2026)، شارك في تأسيس معهد الدراسات الفلسطينية في بيروت (1963) وكان أمينه العام حتى 2016. درّس في أكسفورد والجامعة الأمريكية في بيروت وهارفارد؛ ومن أشهر أعماله «قبل الشتات» وموسوعته عن قرى فلسطين التي دُمّرت سنة 1948. توفي في كامبريدج بولاية ماساتشوستس عن عمر ناهز المئة."
+  en: "Palestinian historian (1925–2026), co-founder of the Institute for Palestine Studies in Beirut (1963) and its general secretary until 2016. He taught at Oxford, the American University of Beirut and Harvard; his Before Their Diaspora and All That Remains are foundational documentation of Palestinian society and of the villages depopulated in 1948. He died in Cambridge, Massachusetts, aged 100."
+  ur: "فلسطینی مؤرخ (1925–2026)، بیروت میں انسٹی ٹیوٹ فار فلسطین اسٹڈیز (1963ء) کے شریک بانی اور 2016ء تک اس کے سیکرٹری جنرل۔ آکسفورڈ، امریکن یونیورسٹی آف بیروت اور ہارورڈ میں تدریس کی؛ «قبل الشتات» اور 1948ء میں تباہ ہونے والے فلسطینی دیہات پر ان کی موسوعہ ان کے مشہور ترین کام ہیں۔ وہ کیمبرج، میساچوسٹس میں سو برس کی عمر میں انتقال کر گئے۔"
+sources:
+  - source/wikipedia-walid-khalidi-en
+  - source/wikipedia-walid-khalidi-ar
+  - source/wikidata-walid-khalidi
+  - source/arab-center-walid-khalidi-obituary-2026
+external_ids:
+  wikidata: Q1859200
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Walid Khalidi, the Wikidata item Q1859200, and the Arab Center Washington DC obituary of 9 March 2026, all read in full, with the Harvard CMES and AUB obituaries checked in session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Jerusalem-born historian (1925–2026), pinned by biography and QID against the three other Khalidi records on main (Yusuf, Raghib and Ruhi). QUEUE CORRECTION: the queue's '1925–Living' is stale — Khalidi died at Cambridge, Massachusetts, on 8 March 2026, corroborated independently by the Arab Center obituary, Harvard CMES, AUB and Al Jazeera (cited in the English biography), so the record carries a died block and the people wing only. Relations written: born_in only — his father Ahmad Samih al-Khalidi (Q68169579) and his half-brother Tarif Khalidi have no person records on main, so no family edges could be written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-139
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

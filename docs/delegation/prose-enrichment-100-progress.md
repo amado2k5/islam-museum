@@ -47,3 +47,4 @@ These summaries disagree with the body or source; the prose follows the sources.
 | 2026-10-31 | Devin (a–m) | batch 13: place, nuzhat-al-mushtaq-2002 (armuqastru, arsa, asak-khuzistan, asbara, ashburqan, ashkala, badis-maghrib, baeza, baghlan, baja, balgharduwan, bani-zandawi, banzart, barqana, barsaklafa, basitrinis, basyan, batn-numan, batrani, bayan, berja, bisha, bulghar, bura, butash) | 25 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 14: place, nuzhat-al-mushtaq-2002 | 25 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 2: place, nuzhat-al-mushtaq-2002 (shuzas, siqlaw, qawun, nyun-burk, qalimalaya, raghawlda) | 6 | 3 (place/qulari, place/suqusiya, place/niyast — reasons under Leads) | — |
+| 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |

@@ -1,0 +1,46 @@
+id: person/mohammed-el-kurd
+class: person
+label:
+  ar: "محمد الكرد"
+  en: "Mohammed el-Kurd"
+  ur: "محمد الكرد"
+names:
+  - { value: "Mohammed Nabil el-Kurd", kind: full }
+  - { value: "محمد نبيل الكرد", kind: full }
+gender: male
+born:
+  edtf: "1998-05-15"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the Sheikh Jarrah neighbourhood of East Jerusalem on 15 May 1998: both biographies and Wikidata agree on the day. Sheikh Jarrah has no place entity, so the birth is carried by the born_in edge to Jerusalem and the neighbourhood is named here. The Hijri year 1419 is a tabular conversion of the date, marked derived."
+  sources: [source/wikipedia-mohammed-el-kurd-en, source/wikipedia-mohammed-el-kurd-ar, source/wikidata-mohammed-el-kurd]
+roles: [writer, poet, journalist]
+regions: [levant-iraq]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read attests a personal faith or school for Mohammed el-Kurd himself. The English biography records that he was born into a Palestinian Muslim family — family background, which never counts — and Wikidata carries no religion (P140) value at all; neither a profession of faith nor a profession of unbelief is attested for him, and the settlement stays unknown."
+    sources: [source/wikipedia-mohammed-el-kurd-en, source/wikipedia-mohammed-el-kurd-ar, source/wikidata-mohammed-el-kurd]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-mohammed-el-kurd-en, source/wikipedia-mohammed-el-kurd-ar, source/wikidata-mohammed-el-kurd] }
+  - { type: sibling_of, target: person/muna-el-kurd, sources: [source/wikipedia-mohammed-el-kurd-en, source/wikipedia-muna-el-kurd-en, source/wikipedia-muna-el-kurd-ar, source/wikidata-mohammed-el-kurd] }
+summary:
+  ar: "كاتب وشاعر وصحفي فلسطيني (وُلد في حي الشيخ جراح بالقدس سنة 1998). عُرف عالمياً بتوثيقه قضية إخلاء عائلات الحي سنة 2021 مع شقيقته التوأم منى، وأُدرجا معاً في قائمة تايم 100. من أعماله ديوان «رفقة» (2021) وكتاب «ضحايا كاملون» (2025)."
+  en: "Palestinian writer, poet and journalist (born 1998 in Sheikh Jarrah, Jerusalem). He came to world attention documenting the Sheikh Jarrah evictions in 2021 alongside his twin sister Muna, with whom he was named to the Time 100. His works include the poetry collection Rifqa (2021) and Perfect Victims (2025)."
+  ur: "فلسطینی مصنف، شاعر اور صحافی (پیدائش 1998ء، شیخ جراح، قدس)۔ 2021ء میں شیخ جراح کے اخراج کی دستاویز سازی سے اپنی جڑواں بہن مونا کے ساتھ عالمی شہرت پائی اور دونوں ٹائم 100 میں شامل ہوئے۔ ان کے کاموں میں شعری مجموعہ «رفقہ» (2021ء) اور کتاب «کامل متاثرین» (2025ء) شامل ہیں۔"
+sources:
+  - source/wikipedia-mohammed-el-kurd-en
+  - source/wikipedia-mohammed-el-kurd-ar
+  - source/wikidata-mohammed-el-kurd
+external_ids:
+  wikidata: Q106812102
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Mohammed el-Kurd and the Wikidata item Q106812102, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Sheikh Jarrah-born writer (born 1998), pinned by biography and QID; no earlier record exists on main. The queue's year is confirmed to the day. Relations written: born_in to Jerusalem, and sibling_of to Muna el-Kurd — the twin relation is attested by both twins' English biographies, by the Arabic biography of Muna (whose infobox names him her twin brother) and by the reciprocal sibling statements in both Wikidata items; per house convention the edge is written once, here in the first-built record, and Muna's record carries the born_in edge only. Living-person care: only well-sourced public facts are recorded, and the faith entry rests on the documented absence of any personal attestation beyond his family's background."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-140
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
