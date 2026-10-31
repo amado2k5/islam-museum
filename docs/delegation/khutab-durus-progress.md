@@ -30,3 +30,13 @@ The founder approved bulk download (31 Oct 2026): Jamharat Khutab al-'Arab 3 vol
 ## Excluded items (reason, gate, override)
 
 _ none yet — per the founder's rule nothing is excluded without his verification _
+
+## Batches landed (to 31 Oct 2026)
+
+- Batch 1 (PR #2671): 8 sermon works from Jamharat v1 — the Prophet's Meccan address; accession sermons of Abu Bakr, Umar, Uthman; Abu Bakr's sermon on the Prophet's death; Ibn Mas'ud's and Ali's Kufa khutab; Aktham ibn Sayfi. Collection work/jamharat-khutab-al-arab + source/jamharat-khutab-al-arab-safwat-1352.
+- Batch 2 (PR #2672): 7 Umayyad-era sermons (al-Hasan sulh, both Zubayrids opponent-cited, Mu'awiya II, al-Walid, Sulayman, Umar b. Abd al-Aziz patron-cited) + 4 kind:website entities (manarat-al-haramain, droos-al-haramain, islamway, alukah) + 3 group stubs.
+- 44 authorised source families registered (PR #2666); cat: khutab canon entries (PR #2665); schema + lane (PR #2661).
+
+## Indexed totals
+
+15 sermon works written (batches 1+2); 4 website works; 44 source entities; era coverage: prophetic, rashidun, zubayrid/umayyad; countries: Hijaz, Iraq, Syria; speakers: 11; formats: text (book pages), websites.
