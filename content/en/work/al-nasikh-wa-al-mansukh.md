@@ -32,5 +32,8 @@ Under each heading the author gives the report with its full chain, then passes 
 
 In the opening chapter, on abrogation in the Sunna as it happened, he gives reports that the Prophet's hadiths abrogate one another as the Qur'an does, and notes that one of the chains comes through a narrator known for unusual reports. {cite:itibar-hazimi-1359 p. 26}
 
+## Editions
+The book was printed in Aleppo in 1346 AH (1927 CE) by Muhammad Raghib al-Tabbakh al-Halabi, who corrected it and paid for the printing at his own press. The publisher's note says that before this printing only two books on abrogation had been published, one of them a very short work by Ibn al-Jawzi. {cite:itibar-hazimi-aleppo-1346 p. 2}
+
 ## A note on the source
 The chains and statements in this record are those the author gives and reports from others. They have not been re-checked against other books. Page numbers are scan pages, because the printed folios are not legible throughout the OCR. {cite:itibar-hazimi-1359 p. 258}
