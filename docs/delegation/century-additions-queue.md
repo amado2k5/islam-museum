@@ -786,11 +786,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Umut Yıldız — 1980–Living
 - [x] Sultan Kösen — 1982–Living
 - [x] Naim Süleymanoğlu — 1967–2017
-- [ ] Halil Mutlu — 1973–Living
-- [ ] Hamza Yerlikaya — 1976–Living
-- [ ] Taha Akgül — 1990–Living
-- [ ] Rıza Kayaalp — 1989–Living
-- [ ] Busenaz Sürmeneli — 1998–Living
+- [x] Halil Mutlu — 1973–Living
+- [x] Hamza Yerlikaya — 1976–Living
+- [x] Taha Akgül — 1990–Living
+- [x] Rıza Kayaalp — 1989–Living
+- [x] Busenaz Sürmeneli — 1998–Living
 - [ ] Mete Gazoz — 1999–Living
 - [ ] Servet Tazegül — 1988–Living
 - [ ] Nur Tatar — 1992–Living

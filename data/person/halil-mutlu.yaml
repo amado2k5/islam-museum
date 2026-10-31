@@ -1,0 +1,38 @@
+id: person/halil-mutlu
+class: person
+label: { ar: "خليل موتلو", en: "Halil Mutlu", ur: "خلیل موتلو" }
+names:
+  - { value: "Halil Mutlu", kind: full }
+  - { value: "خليل موتلو", kind: full }
+  - { value: "Halil Aliev", kind: alternate }
+  - { value: "Dinamo", kind: laqab }
+gender: male
+summary:
+  ar: "ربّاع تركي وُلد في بلغاريا سنة 1973 باسم خليل علييف. فرّ إلى تركيا سنة 1989، ثم صار أحد أربعة ربّاعين في التاريخ نالوا ثلاث ميداليات ذهبية أولمبية متتالية (1996 و2000 و2004)، وبطل عالم خمس مرات وحامل أكثر من عشرين رقمًا قياسيًا عالميًا."
+  en: "Turkish weightlifter born in Bulgaria in 1973 as Halil Aliev. He fled to Turkey in 1989 and became one of only four weightlifters in history to win three consecutive Olympic gold medals (1996, 2000, 2004), a five-time world champion who set more than 20 world records."
+  ur: "ترک ویٹ لفٹر جو 1973 میں بلغاریہ میں خلیل علییف کے نام سے پیدا ہوئے۔ وہ 1989 میں ترکی فرار ہوئے اور تاریخ کے صرف چار ویٹ لفٹروں میں شامل ہوئے جنہوں نے مسلسل تین اولمپک طلائی تمغے جیتے (1996، 2000، 2004)؛ وہ پانچ بار عالمی چیمپئن رہے اور بیس سے زائد عالمی ریکارڈ قائم کیے۔"
+roles: [weightlifter]
+wings: [people, living]
+regions: [anatolia-balkans, andalus-europe]
+born:
+  edtf: "1973-07-14"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born Halil Aliev on 14 July 1973 in the village of Postnik near Momchilgrad (Mestanlı), Kardzhali Province, Bulgaria: the English article gives Postnik, the Turkish article gives Mestanlı, and Wikidata's birthplace is Kardzhali. No place entity exists for any of them, so no born_in relation is written. The Hijri year 1393 (14 Jumada al-awwal 1393) is the tabular conversion of 14 July 1973 and is marked derived."
+  sources: [source/wikipedia-halil-mutlu-en, source/wikipedia-halil-mutlu-tr, source/wikipedia-halil-mutlu-ar, source/wikidata-halil-mutlu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Turkish or Arabic articles names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-halil-mutlu-en, source/wikipedia-halil-mutlu-tr, source/wikipedia-halil-mutlu-ar, source/wikidata-halil-mutlu]
+external_ids: { wikidata: "Q353064" }
+sources: [source/wikipedia-halil-mutlu-en, source/wikipedia-halil-mutlu-tr, source/wikipedia-halil-mutlu-ar, source/wikidata-halil-mutlu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371530357), Turkish Wikipedia (revision 38303713), Arabic Wikipedia (revision 75744076) and Wikidata Q353064 (item revision 2559440297, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against the worktree and origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 A"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
