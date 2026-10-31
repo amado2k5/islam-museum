@@ -12,7 +12,8 @@ Phase 1 discovery continues (catalogue at `$HARVEST/khutab/catalogue.json`); the
 
 ## Robots and terms (recorded per source before any bulk access)
 
-_ none yet — read and record each site here before use _
+- `ar.islamway.net/robots.txt` (read 31 Oct 2026): open to crawlers except `/phpAdsNew/`, `/openx/`, `*/poster$`, `*/qr-code$` (Googlebot-Image) and `/bundles/viewers/pdfjs*`. Terms page still to be read before bulk download.
+- `manaratalharamain.gov.sa/robots.txt` (31 Oct 2026): not retrievable via fetch; verify in the browser before use.
 
 ## Excluded items (reason, gate, override)
 
