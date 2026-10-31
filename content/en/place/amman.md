@@ -2,7 +2,10 @@
 id: place/amman
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-Amman: a city in al-Balqa, two days from [[place/jerusalem|Jerusalem]], lying near the Ghawr, according to al-Idrisi. {cite:nuzhat-al-mushtaq-2002 p.363}
+## Summary
+Amman was a city in the Balqa country east of the Jordan, which al-Idrisi places at two days and part of a day from Jerusalem. {cite:nuzhat-al-mushtaq-2002 p.363}
+
+## Details
+In his table of Syrian distances al-Idrisi states that from Jerusalem to Amman and the Balqa is two days and part of a day {cite:nuzhat-al-mushtaq-2002 p.363}. The city appears in his survey of the Jordan district and the measure of the roads from the Holy City to the towns east of the river; for him Amman is the city of the Balqa reached in roughly two days' march from Jerusalem {cite:nuzhat-al-mushtaq-2002 p.363}.  Its place in the gazetteer thus rests on its role as the Balqa chief town, fixed in the geographical tradition by distances rather than by monuments.
