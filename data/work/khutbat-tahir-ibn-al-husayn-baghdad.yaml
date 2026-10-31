@@ -1,0 +1,23 @@
+id: work/khutbat-tahir-ibn-al-husayn-baghdad
+class: work
+kind: sermon
+sermon_type: jumu'a
+delivered: { by: person/tahir-ibn-al-husayn }
+label: { ar: "خطبة طاهر بن الحسين ببغداد بعد مقتل الأمين", en: "Tahir ibn al-Husayn's sermon in Baghdad after the killing of al-Amin", ur: "امین کے قتل کے بعد بغداد میں طاہر بن حسین کا خطبہ" }
+summary:
+  ar: "خطبة طاهر بن الحسين بالناس في بغداد يوم الجمعة بعد مقتل الأمين سنة 198هـ، يذكر فيها أن الغلبة لم تكن بإرادتهم، ويعدّد مهام الخلافة، ويحذر من مخالفة الطاعة."
+  en: "Tahir ibn al-Husayn's Friday sermon in Baghdad after al-Amin was killed in 198 AH. He says the victory was not by their choice, lists the duties of the caliphate, and warns against disobedience."
+  ur: "198 ہجری میں امین کے قتل کے بعد بغداد میں جمعے کو طاہر بن حسین کا خطبہ، جس میں وہ کہتے ہیں کہ فتح ان کے اختیار سے نہیں ہوئی، خلافت کے فرائض گنواتے ہیں اور اطاعت سے انحراف پر خبردار کرتے ہیں۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/tahir-ibn-al-husayn]
+composed: { hijri: "0198", edtf: "0813", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 118", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-3 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }
