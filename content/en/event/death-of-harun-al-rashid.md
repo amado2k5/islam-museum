@@ -16,3 +16,6 @@ He relates another account that Jibra'il ibn Bakhtishu' made a mistake in treati
 al-Suyuti, quoting al-Suli, says that al-Rashid left a hundred million dinars, and in furniture, jewels and beasts a value equal to that and twenty-five thousand dinars. {cite:tarikh-khulafa-minhaj-1434 p. 471}
 
 The Gregorian date is derived from the Hijri date.
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] says Harun al-Rashid went to Tus and halted, gravely ill, at a village called Sanabadh, where he died at the beginning of Jumada I 193 AH, aged forty-six; his son Salih ibn Harun led the funeral prayer. Al-Ma'mun had left for Marw twenty-three days before, and the news of his death reached Baghdad from Tus on Wednesday, with twelve nights of Jumada I remaining. He left twelve sons, among them Abd Allah al-Ma'mun, Muhammad al-Amin, al-Qasim and Abu Ishaq al-Mu'tasim. Al-Ya'qubi places the death in Jumada I, not Jumada II as another report has it. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 523}
