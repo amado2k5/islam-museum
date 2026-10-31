@@ -1,0 +1,54 @@
+id: person/celal-sengor
+class: person
+label:
+  ar: "جلال شنغور"
+  en: "Celâl Şengör"
+  ur: "جلال شنگور"
+names:
+  - { value: "Ali Mehmet Celâl Şengör", kind: full }
+  - { value: "Celâl Şengör", kind: alternate }
+gender: male
+born:
+  edtf: "1955-03-24"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 24 March 1955 at Istanbul: the English, Turkish and Arabic biographies and Wikidata agree on the day. The Hijri year 1374 is a tabular conversion of the followed date, marked derived."
+  sources:
+    - source/wikipedia-sengor-en
+    - source/wikipedia-sengor-tr
+    - source/wikidata-sengor
+roles: [scientist, writer]
+regions: [anatolia-balkans]
+wings: [people, living]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-sengor-en, source/wikipedia-sengor-tr, source/wikidata-sengor] }
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-sengor-en, source/wikipedia-sengor-tr] }
+faith:
+  - value: atheist-or-sceptic
+    basis: self-identified
+    note: "His unbelief is his own repeated public profession, attested by two independent sources. The Turkish biography carries a dedicated section on his religious belief (Dinî inancı) stating that he has many times declared on the programmes he took part in that he is an atheist. Independently, the Science Academy of Turkey's board statement of 5 September 2022 documents the occasion on which the Presidency of Religious Affairs complained and the Istanbul prosecutor summoned him to testify: on Habertürk's Teke Tek Bilim (23 May 2022) he had said that the prophets and events narrated in the Abrahamic scriptures have no historical documents. Wikidata's religion value, atheism, concurs as structured corroboration but is not the attestation. That he comes from a devout Muslim family of Rumelian migrants is his background, recorded in his prose; the value rests on his own words alone."
+    sources:
+      - source/wikipedia-sengor-tr
+      - source/bilimakademisi-sengor-statement-2022
+      - source/wikidata-sengor
+summary:
+  ar: "جيولوجي تركي (مواليد 1955 بإسطنبول)، من أبرز علماء التكتونيات في جيله. درس في كلية روبرت ثم في جامعة ولاية نيويورك بألباني حيث نال الدكتوراه سنة 1982، وصار أستاذًا في جامعة إسطنبول التقنية وعضوًا أجنبيًا في الأكاديمية الوطنية الأمريكية للعلوم والأكاديمية الروسية للعلوم وأكاديميات أخرى كثيرة. يكتب عمودًا أسبوعيًا في صحيفة «جمهورييت»، ويُعرف بتصريحاته العلنية المتكررة بأنه ملحد، حتى إن رئاسة الشؤون الدينية التركية اشتكت منه سنة 2022 فاستدعاه الادعاء للإدلاء بإفادته عن أقواله التلفزية في أنبياء الكتب المقدسة."
+  en: "Turkish geologist (born 1955 at Istanbul), among the leading tectonicists of his generation. Educated at Robert College and the State University of New York at Albany, where he took his PhD in 1982, he became a professor at Istanbul Technical University and a foreign member of the US National Academy of Sciences, the Russian Academy of Sciences and many other academies. He writes a weekly column in Cumhuriyet and is known for his repeated public declarations that he is an atheist — in 2022 the Presidency of Religious Affairs complained about his televised remarks on the prophets of the scriptures and the prosecutor summoned him to testify."
+  ur: "ترک ماہرِ ارضیات (پیدائش 1955ء، استنبول)، اپنی نسل کے ممتاز ٹیکٹونک ماہرین میں سے ایک۔ رابرٹ کالج اور اسٹیٹ یونیورسٹی آف نیو یارک، البانی میں تعلیم پائی، جہاں 1982ء میں پی ایچ ڈی کیا؛ استنبول ٹیکنیکل یونیورسٹی میں پروفیسر ہوئے اور امریکی قومی اکیڈمی آف سائنسز، روسی اکیڈمی آف سائنسز اور کئی دیگر اکیڈمیوں کے غیر ملکی رکن منتخب ہوئے۔ «جمہوریت» میں ہفتہ وار کالم لکھتے ہیں اور بار بار علانیہ کہنے کے لیے مشہور ہیں کہ وہ ملحد ہیں — 2022ء میں ترک مذہبی امور کی صدارت نے ان کی ٹیلی ویژن گفتگو پر شکایت کی اور پراسیکیوٹر نے انہیں بیان کے لیے طلب کیا۔"
+sources:
+  - source/wikipedia-sengor-en
+  - source/wikipedia-sengor-tr
+  - source/wikipedia-sengor-ar
+  - source/wikidata-sengor
+  - source/bilimakademisi-sengor-statement-2022
+external_ids:
+  wikidata: Q692133
+provenance:
+  layer: own-research
+  source: "The English, Turkish and Arabic Wikipedia biographies of Celâl Şengör, the Wikidata item Q692133 and the Science Academy of Turkey's board statement of 5 September 2022 (PDF, read in full), all read in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the Istanbul Technical University geologist born 1955 — pinned by biography and QID; the queue's dates are confirmed to the day. His atheism was assessed strictly against the Akhundov bar: it rests on his own repeated declarations (Turkish biography's religious-belief section) and on the Science Academy's independent documentation of his 2022 televised profession and its official sequel; Wikidata's atheism value is corroboration only. Relations written: born_in and lived_in Istanbul."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
