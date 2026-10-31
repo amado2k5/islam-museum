@@ -12,3 +12,6 @@ al-Suyuti says that the Banu al-Abbas rose against Marwan, led by Abd Allah ibn 
 
 ## al-Mas'udi's account
 al-Mas'udi relates that Marwan camped at the Lesser Zab and set up a bridge over it. Abd Allah ibn Ali came to him with the armies of the people of Khurasan two nights before the end of Jumada al-Akhira 132 AH. Marwan was defeated on Saturday, eleven nights into that month, and three hundred men of the Umayyads drowned, among them Ibrahim ibn al-Walid, the deposed. {cite:muruj-al-dhahab p.231-232}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] says Marwan camped at the two Zabs with thirty thousand and that Abu Muslim sent Abu Awn against him with thirty thousand horse, but he places the meeting of Abu Awn and Marwan at Shahrazur, from where the Syrians fled to Harran, and he does not name the battle after the Zab. {cite:akhbar-tiwal-amir p. 364} {cite:akhbar-tiwal-amir p. 365}
