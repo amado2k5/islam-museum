@@ -1,0 +1,37 @@
+id: person/susilo-bambang-yudhoyono
+class: person
+label: { ar: "سوسيلو بامبانغ يودهويونو", en: "Susilo Bambang Yudhoyono", ur: "سوسیلو بامبانگ یودویونو" }
+names:
+  - { value: "Susilo Bambang Yudhoyono", kind: full }
+  - { value: "سوسيلو بامبانغ يودهويونو", kind: full }
+  - { value: "SBY", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي إندونيسي وجنرال متقاعد، وُلد في باسيتان بجاوة الشرقية سنة 1949. خدم في الجيش نحو ثلاثة عقود، وتولّى مناصب وزارية تنسيقية في عهدي الرئيسين عبد الرحمن وحيد وميغاواتي سوكارنوبوتري، وأسّس الحزب الديمقراطي، وفاز بأول انتخاب رئاسي مباشر في إندونيسيا سنة 2004، فكان رئيس البلاد السادس لولايتين حتى 2014."
+  en: "Indonesian politician and retired general, born in Pacitan, East Java, in 1949. He served in the army for some three decades, held coordinating-minister posts under Presidents Abdurrahman Wahid and Megawati Sukarnoputri, founded the Democratic Party, and won Indonesia's first direct presidential election in 2004, serving two terms as the country's sixth president until 2014."
+  ur: "انڈونیشی سیاست دان اور ریٹائرڈ جنرل، جو 1949ء میں مشرقی جاوا کے پاچیتان میں پیدا ہوئے۔ تقریباً تین دہائیوں فوج میں خدمت کی، صدر عبد الرحمن وحید اور میگاوتی سوکارنوپوتری کے ادوار میں رابطہ وزیر رہے، ڈیموکریٹک پارٹی قائم کی، اور 2004ء میں انڈونیشیا کا پہلا براہِ راست صدارتی انتخاب جیت کر 2014ء تک دو مدتوں کے لیے ملک کے چھٹے صدر رہے۔"
+roles: [politician]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1949-09-09"
+  hijri: "1368"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 9 September 1949 at Tremas, Pacitan, East Java, as the English, Arabic and Indonesian articles and Wikidata give. No place entity exists for Pacitan, so no born_in relation is written. The Hijri year (1368) is by tabular conversion."
+  sources: [source/wikipedia-susilo-bambang-yudhoyono-en, source/wikipedia-susilo-bambang-yudhoyono-ar, source/wikipedia-susilo-bambang-yudhoyono-id, source/wikidata-susilo-bambang-yudhoyono]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Yudhoyono. Wikidata gives Islam in general (Q432), a structured value that never counts; the English, Arabic and Indonesian articles carry no religion field and no discussion of his personal affiliation. His public identity as a Muslim officeholder is not in question, but under the two-source rule a school cannot be recorded on this evidence. The value stays unknown, unflagged, with the generic attestation preserved here."
+    sources: [source/wikipedia-susilo-bambang-yudhoyono-en, source/wikipedia-susilo-bambang-yudhoyono-ar, source/wikipedia-susilo-bambang-yudhoyono-id, source/wikidata-susilo-bambang-yudhoyono]
+external_ids: { wikidata: "Q57405" }
+sources: [source/wikipedia-susilo-bambang-yudhoyono-en, source/wikipedia-susilo-bambang-yudhoyono-ar, source/wikipedia-susilo-bambang-yudhoyono-id, source/wikidata-susilo-bambang-yudhoyono]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Susilo Bambang Yudhoyono' (revision 1382980410 of 31 October 2026), Arabic Wikipedia «سوسيلو بامبانغ يودهويونو» (revision 74224895 of 10 April 2026), Indonesian Wikipedia 'Susilo Bambang Yudhoyono' (revision 30071739 of 14 October 2026) and Wikidata item Q57405 (item revision 2558247622 of 18 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, the recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through an independent Wikidata search. No Urdu Wikipedia article exists for him (the item's sitelinks are en/ar/id only), so the Indonesian article is registered in its place, following the wahid-hasyim precedent. Existence checked both directions before building: name fragments (Yudhoyono, SBY) and Q57405 grepped across all data/person files on origin/main — no hits. No relations are written: Pacitan has no place entity, and his offices and party foundings are not relation edges."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

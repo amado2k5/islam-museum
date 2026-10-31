@@ -655,11 +655,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sibghatullah Mojaddedi — 1925–2019
 - [x] Sukarno — 1901–1970
 - [x] Suharto — 1921–2008
-- [ ] Abdurrahman Wahid (Gus Dur) — 1940–2009
-- [ ] Susilo Bambang Yudhoyono — 1949–Living
-- [ ] Joko Widodo (Jokowi) — 1961–Living
-- [ ] Prabowo Subianto — 1951–Living
-- [ ] Mohammad Hatta — 1802–1980
+- [x] Abdurrahman Wahid (Gus Dur) — 1940–2009
+- [x] Susilo Bambang Yudhoyono — 1949–Living
+- [x] Joko Widodo (Jokowi) — 1961–Living
+- [x] Prabowo Subianto — 1951–Living
+- [x] Mohammad Hatta — 1802–1980
 - [ ] Sutan Sjahrir — 1909–1966
 - [ ] Hamengkubuwono IX — 1912–1988
 - [ ] Adam Malik — 1917–1984

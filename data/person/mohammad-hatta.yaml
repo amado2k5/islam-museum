@@ -1,0 +1,49 @@
+id: person/mohammad-hatta
+class: person
+label: { ar: "محمد حاتا", en: "Mohammad Hatta", ur: "محمد حتا" }
+names:
+  - { value: "Mohammad Hatta", kind: full }
+  - { value: "Athar", kind: given }
+  - { value: "محمد حاتا", kind: full }
+  - { value: "Bung Hatta", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي إندونيسي من قادة الاستقلال، وُلد في بوكيتنغي بغرب سومطرة سنة 1902. درس في روتردام وقاد رابطة الطلبة الإندونيسيين في هولندا، ونفته السلطات الهولندية إلى ديغول وباندا، وأعلن مع سوكارنو استقلال إندونيسيا في 17 أغسطس 1945، فكان أول نائب رئيس للبلاد (1945-1956) ورئيس وزرائها الثالث، واشتُهر بلقب «المُعلِن» وبأبي التعاونيات الإندونيسية."
+  en: "Indonesian statesman and independence leader, born at Bukittinggi, West Sumatra, in 1902. He studied at Rotterdam, led the Indonesian students' association in the Netherlands, was exiled by the Dutch to Digul and Banda, and with Sukarno proclaimed Indonesia's independence on 17 August 1945; he served as the country's first vice president (1945-1956) and third prime minister, and is remembered as 'the Proclamator' and the father of Indonesian cooperatives."
+  ur: "انڈونیشی سیاست دان اور رہنما ئے آزادی، جو 1902ء میں مغربی سماٹرا کے بوکیتنگی میں پیدا ہوئے۔ روٹرڈم میں تعلیم پائی، ہالینڈ میں انڈونیشی طلبہ کی انجمن کی قیادت کی، ولندیزیوں نے انہیں دیگول اور بانڈا جلاوطن کیا، اور 17 اگست 1945ء کو سوکارنو کے ساتھ انڈونیشیا کی آزادی کا اعلان کیا؛ ملک کے پہلے نائب صدر (1945ء–1956ء) اور تیسرے وزیرِ اعظم رہے، اور وہ 'اعلان کرنے والے' اور انڈونیشی تعاونیت کے بانی کے طور پر یاد کیے جاتے ہیں۔"
+roles: [politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1902-08-12"
+  hijri: "1320"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 12 August 1902 at Fort de Kock, now Bukittinggi, West Sumatra, as the English, Arabic and Urdu articles and Wikidata give; the queue's '1802' was a typographical error, corrected here on the sources. He was born under the name Athar. No place entity exists for Bukittinggi, so no born_in relation is written. The Hijri year (1320) is by tabular conversion."
+  sources: [source/wikipedia-mohammad-hatta-en, source/wikipedia-mohammad-hatta-ar, source/wikipedia-mohammad-hatta-ur, source/wikidata-mohammad-hatta]
+died:
+  edtf: "1980-03-14"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 14 March 1980 at Jakarta and was buried at Tanah Kusir cemetery in the same city, as the articles and Wikidata give. The Hijri year (1400) is by tabular conversion."
+  sources: [source/wikipedia-mohammad-hatta-en, source/wikipedia-mohammad-hatta-ar, source/wikipedia-mohammad-hatta-ur, source/wikidata-mohammad-hatta]
+relations:
+  - { type: died_in, target: place/jakarta, sources: [source/wikipedia-mohammad-hatta-en, source/wikidata-mohammad-hatta] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Attestation is sparse, as expected for a statesman of his generation. The English article's only religion content concerns his family: he was born into a prominent and strongly Islamic family of Batuhampar, and his grandfather Sheikh Abdurrahman was a respected Naqshbandi-Khalidi scholar — family background, which never counts. No article read names a school for Hatta himself, and Wikidata's religion values are structured values (Islam in general, Q432, among them), which never count. His personal piety and his part in the 1945 constitutional settlement are carried in the prose, but under the two-source rule his school stays unknown, unflagged, with the family reading preserved here."
+    sources: [source/wikipedia-mohammad-hatta-en, source/wikipedia-mohammad-hatta-ar, source/wikipedia-mohammad-hatta-ur, source/wikidata-mohammad-hatta]
+external_ids: { wikidata: "Q29050" }
+sources: [source/wikipedia-mohammad-hatta-en, source/wikipedia-mohammad-hatta-ar, source/wikipedia-mohammad-hatta-ur, source/wikidata-mohammad-hatta]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohammad Hatta' (revision 1380697038 of 17 October 2026), Arabic Wikipedia «محمد حاتا» (revision 75426669 of 13 June 2026), Urdu Wikipedia «محمد حتا» (revision 10097387 of 26 April 2026) and Wikidata item Q29050 (item revision 2562772847 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, the recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through an independent Wikidata search, whose description itself gives '1st vice president of Indonesia from 1945 to 1956 (1902-1980)' — confirming the queue's '1802' as a typo for 1902. Two other Wikidata items bear his name (a political candidate and a diplomat, 1930-2012) and were excluded on biographical mismatch. Existence checked both directions before building: name fragments (Hatta, Athar, Bung Hatta) and Q29050 grepped across all data/person files on origin/main — the only Q29050 hit was a substring of Q290506 in al-allama-al-hilli, a different item. His partnership with Sukarno in the proclamation is carried in prose, not as a relation edge, per the brief. No born_in edge is written: Bukittinggi has no place entity. No succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

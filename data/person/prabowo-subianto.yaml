@@ -1,0 +1,39 @@
+id: person/prabowo-subianto
+class: person
+label: { ar: "برابوو سوبيانتو", en: "Prabowo Subianto", ur: "پرابوو سوبیانتو" }
+names:
+  - { value: "Prabowo Subianto Djojohadikusumo", kind: full }
+  - { value: "Prabowo Subianto", kind: full }
+  - { value: "برابوو سوبيانتو", kind: full }
+gender: male
+summary:
+  ar: "سياسي إندونيسي ورجل أعمال وضابط متقاعد، وُلد في جاكرتا سنة 1951، وهو ابن الاقتصادي سوميترو جويوهاديكوسومو. خدم في القوات الخاصة وقاد القيادة الاستراتيجية الاحتياطية قبل تسريحه من الجيش سنة 1998، وأسّس حزب غيريندرا، وتولّى وزارة الدفاع من 2019 إلى 2024، ثم صار رئيس إندونيسيا الثامن في 20 أكتوبر 2024."
+  en: "Indonesian politician, businessman and retired general, born in Jakarta in 1951, the son of the economist Sumitro Djojohadikusumo. He served in the Special Forces (Kopassus) and led the Strategic Reserves Command (Kostrad) before his discharge from the army in 1998, founded the Gerindra Party, served as minister of defence from 2019 to 2024, and became Indonesia's eighth president on 20 October 2024."
+  ur: "انڈونیشی سیاست دان، کاروباری اور ریٹائرڈ جنرل، جو 1951ء میں جکارتہ میں پیدا ہوئے؛ ماہرِ معاشیات سومیترو جویوہادیکوسومو کے بیٹے ہیں۔ خصوصی دستوں (کوپاسوس) میں خدمت کی اور 1998ء میں فوج سے برطرفی سے پہلے اسٹریٹجک ریزرو کمان (کوسٹراڈ) کی قیادت کی، گیریندرا پارٹی قائم کی، 2019ء سے 2024ء تک وزیرِ دفاع رہے، اور 20 اکتوبر 2024ء کو انڈونیشیا کے آٹھویں صدر بنے۔"
+roles: [politician]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1951-10-17"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 17 October 1951 at Jakarta, as the English, Arabic and Urdu articles and Wikidata give. The Hijri year (1371) is by tabular conversion."
+  sources: [source/wikipedia-prabowo-subianto-en, source/wikipedia-prabowo-subianto-ar, source/wikipedia-prabowo-subianto-ur, source/wikidata-prabowo-subianto]
+relations:
+  - { type: born_in, target: place/jakarta, sources: [source/wikipedia-prabowo-subianto-en, source/wikidata-prabowo-subianto] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Prabowo has identified himself as a Muslim in his own words: in a 2018 interview, as the English article's religion section records, he stated that he was a Muslim who adhered to nationalist views, while saying his own knowledge of Islam was limited and that he was not born into a family steeped in Islamic teaching; on 13 May 2023 he stated that he was proud to adhere to Islam. But no source read names a school for him. The Arabic article's infobox gives Islam in general, and Wikidata gives Islam in general (Q432); neither is a school attestation. His parents' religions — a Muslim father and a Protestant Christian mother of Minahasan descent — are family background and are not used. Under the two-source rule the value stays unknown, unflagged, with his self-identification preserved here."
+    sources: [source/wikipedia-prabowo-subianto-en, source/wikipedia-prabowo-subianto-ar, source/wikipedia-prabowo-subianto-ur, source/wikidata-prabowo-subianto]
+external_ids: { wikidata: "Q2107268" }
+sources: [source/wikipedia-prabowo-subianto-en, source/wikipedia-prabowo-subianto-ar, source/wikipedia-prabowo-subianto-ur, source/wikidata-prabowo-subianto]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Prabowo Subianto' (revision 1382615995 of 29 October 2026), Arabic Wikipedia «برابوو سوبيانتو» (revision 76754676 of 25 September 2026), Urdu Wikipedia «پرابوو سوبیانتو» (revision 10291722 of 6 May 2026) and Wikidata item Q2107268 (item revision 2562688323 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, the recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through an independent Wikidata search ('President of the Republic of Indonesia'). Existence checked both directions before building: name fragments (Prabowo, Subianto) and Q2107268 grepped across all data/person files on origin/main — no hits. His marriage into the Suharto family and his ministerial and presidential offices are not relation edges; no succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
