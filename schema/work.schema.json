@@ -36,6 +36,7 @@
         "standard",
         "curriculum",
         "sermon",
+        "lecture",
         "lecture-series",
         "podcast",
         "newspaper",
@@ -182,6 +183,184 @@
         "apologetics",
         "criticism"
       ]
+    },
+    "sermon_type": {
+      "enum": [
+        "jumu'a",
+        "eid-al-fitr",
+        "eid-al-adha",
+        "istisqa",
+        "kusuf",
+        "hajj-arafa",
+        "nikah",
+        "occasion",
+        "farewell",
+        "other"
+      ]
+    },
+    "delivered": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "by"
+      ],
+      "properties": {
+        "by": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "co_speakers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        },
+        "moderator": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        }
+      }
+    },
+    "host": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "audience": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "occasion": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "ruler_at_time": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "who",
+          "role"
+        ],
+        "properties": {
+          "who": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "role": {
+            "enum": [
+              "patron",
+              "addressee",
+              "named-in-dua",
+              "subject",
+              "opponent",
+              "contemporary"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "book_studied": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "work"
+      ],
+      "properties": {
+        "work": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "range": {
+          "type": "string"
+        }
+      }
+    },
+    "order": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "minutes"
+    },
+    "delivery_date_status": {
+      "enum": [
+        "delivered",
+        "uploaded",
+        "broadcast"
+      ]
+    },
+    "consequence": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "reception": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "approval",
+              "objection",
+              "fatwa",
+              "ban",
+              "cut",
+              "award",
+              "protest",
+              "release",
+              "withdrawal",
+              "other"
+            ]
+          },
+          "by": {
+            "type": "string"
+          },
+          "where": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

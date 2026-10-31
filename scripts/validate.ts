@@ -336,7 +336,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
     // ---- references inside structured fields (story roles, sides, tensions, locations ...)
     const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
-      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related"]);
+      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related",
+      "host", "occasion", "moderator", "co_speakers", "who", "by"]);
     const walkRefs = (node: any, path: string) => {
       if (!node || typeof node !== "object") return;
       if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
@@ -415,6 +416,22 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (entity.depiction?.prophet === "face") err(file, "a depiction showing a prophet's face is described in words only and must not carry watch links or images");
     }
     if (entity.sensitivity === "polemical" && entity.class === "media") err(file, "polemical material is never reproduced as media");
+
+    // ---- khutab and durus (docs/plan/25): a sermon or lesson records its speaker; a ruler's role beyond "contemporary"
+    // needs a citation; lessons in a series carry an order; YouTube is a pointer, never a media store
+    if (entity.class === "work" && ["sermon", "lecture"].includes(entity.kind)) {
+      if (!entity.delivered?.by) err(file, `kind ${entity.kind} needs delivered.by: every sermon or lesson records its speaker`);
+      if (entity.composed && !entity.delivery_date_status) warn(file, "set delivery_date_status: an upload or broadcast date is never shown as the delivery date");
+      (entity.ruler_at_time ?? []).forEach((r: any, i: number) => {
+        if (r.role !== "contemporary" && !(r.sources ?? []).length) err(file, `ruler_at_time[${i}]: role "${r.role}" needs a citation (only "contemporary" may be derived)`);
+      });
+      const seriesTarget = (entity.relations ?? []).find((r: any) => r.type === "part_of" && loaded.some((x) => x.entity?.id === r.target && x.entity?.kind === "lecture-series"));
+      if (seriesTarget && !Number.isInteger(entity.order)) err(file, `a lesson part_of a lecture-series (${seriesTarget.target}) needs an order number`);
+    }
+    if (entity.class === "media") {
+      const urls = [entity.url, ...Object.values<string>(entity.files ?? {})].filter(Boolean);
+      for (const u of urls) if (/youtube\.com|youtu\.be/.test(u)) err(file, "YouTube is metadata and link only: it is never a media store entry (docs/plan/25; audio-video-harvest.md §2)");
+    }
 
     // external ids
     for (const [k, v] of Object.entries<string>(entity.external_ids ?? {})) {
