@@ -204,6 +204,7 @@ Enriched in ar, en and ur, each body at least 100 words, from pages read in the 
 | Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
 |---|---|---|---|---|---|
 | 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 8: 25 place slugs (tuwaran … rudhan) | 18 (tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan) | 7 (reasons below) | this PR |
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 9: place, nuzhat-al-mushtaq-2002 (qazlara pp. 901–902, shansha p. 335, qantarat-al-sayf pp. 545–547; checked against the 1-2_20240914 OCR) | 3 (qazlara rewritten: Mashla corrected to 70 miles, p. 902; shansha and qantarat-al-sayf written; each ar/en/ur ≥100 body words) | 0 | this PR |
 
 ### Leads, batch 8
 
