@@ -1,0 +1,53 @@
+id: person/samad-mir
+class: person
+label:
+  ar: "صمد مير"
+  en: "Samad Mir"
+  ur: "صمد میر"
+names:
+  - { value: "Samad Mir", kind: full }
+gender: male
+born:
+  edtf: "1893"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Alam Sahib Narwara, Srinagar. The English, Arabic and Kashmiri articles give 1893, and Wikidata carries a single 1893 birth value; Avtar Mota's portrait, drawn on Saqi's monograph, instead gives 1894 and a Sekidafar birthplace, preserved here as a variant. A bare Gregorian year spans two Hijri years (1893 falls across 1310–1311 AH), so no hijri key is carried."
+  sources: [source/wikipedia-samad-mir-en, source/wikipedia-samad-mir-ar, source/wikipedia-samad-mir-ks, source/wikidata-samad-mir, source/chinar-shade-samad-mir]
+died:
+  edtf: "1959-01-09"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 9 January 1959 at his home village Nambalhar in Budgam district and was buried at Agar there, where a shrine was later raised over his grave: the English, Arabic and Kashmiri articles and Wikidata agree on the day. The Hijri year 1378 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-samad-mir-en, source/wikipedia-samad-mir-ar, source/wikipedia-samad-mir-ks, source/wikidata-samad-mir]
+roles: [poet]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Settled on two independent families of attestation of the man himself. The encyclopedia tradition — the English article's lead ('a Kashmiri Sufi Muslim poet'), echoed in the Arabic and Kashmiri editions, which are treated as one family because they share a fact base — and, independently, Avtar Mota's literary portrait, drawn on Moti Lal Saqi's Sahitya Akademi monograph and subtitled 'The Carpenter's Assistant Who Became a Mystic Sufi Poet', which records a lifetime of contemplative practice and discipleship under spiritual guides. His parents' membership of a Sufi order (Arabic article) is family background and was not counted, and no order is named for Samad Mir himself, so the value is sufi without a tariqa."
+    sources: [source/wikipedia-samad-mir-en, source/chinar-shade-samad-mir]
+relations: []
+summary:
+  ar: "شاعر صوفي كشميري أمي من ناروارا ونمبلهار، عمل أجيراً في قصر هاري نيواس، وأملى أكثر من مئتي قصيدة جمعها موتي لال ساقي في «كليات صمد مير»، وأشهر قصائده «أكناندن»."
+  en: "Illiterate Kashmiri Sufi poet of Narwara and Nambalhar who worked as a labourer at the Hari Niwas Palace and dictated more than two hundred poems, collected by Moti Lal Saqi in the Kulyaat-e-Samad Mir; his best-known poem is Aknandun."
+  ur: "ناروارہ اور نمبلہار کے ناخواندہ کشمیری صوفی شاعر، جنھوں نے ہری نواس محل میں مزدوری کی اور دو سو سے زائد نظمیں املا کرائیں، جنھیں موتی لال ساقی نے «کلیاتِ صمد میر» میں جمع کیا؛ ان کی مشہور ترین نظم «اکناندن» ہے۔"
+sources:
+  - source/wikipedia-samad-mir-en
+  - source/wikipedia-samad-mir-ar
+  - source/wikipedia-samad-mir-ks
+  - source/wikidata-samad-mir
+  - source/chinar-shade-samad-mir
+external_ids:
+  wikidata: Q28458542
+provenance:
+  layer: own-research
+  source: "English, Arabic and Kashmiri Wikipedia biographies of Samad Mir (Q28458542), the Wikidata item and Avtar Mota's Chinar Shade portrait of 14 October 2026, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Sufi poet of Narwara and Nambalhar (1893–1959) — not Syed Mir Qasim, Rasul Mir or any other Mir of these lists. Existence checks by name fragments (samad, mir) and by QID across data/person on origin/main found no prior record. The queue's years (1893–1959) are confirmed, with the 1894 variant preserved in the birth note. Relations written: none — his father Khaliq Mir, himself a Sufi poet, has no person record, and Srinagar, Narwara and Nambalhar have no place entities, so no born_in, died_in or buried_in edge is written; the shrine over his grave is carried in the death note, shrine association not being used for classification."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-123
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
