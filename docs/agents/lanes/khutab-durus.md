@@ -32,6 +32,7 @@ Downloads to `~/islam-museum-harvest` (microSD) only, via `scripts/harvest/audio
 - `delivery_date_status` is set whenever a date is recorded: an upload or broadcast date is never presented as the delivery date.
 - `ruler_at_time` roles other than `contemporary` need a citation; the validator enforces it.
 - Batches ≤ 25 entities; the claims table of each source's first batch is shown to the founder before files are written. Every batch: `npm run validate` && `npm test` && `npm run coverage`; explicit paths; merge gate before every push; PR, self-merge. Stubs go in `data/_stubs.d/khutab-durus.yaml`.
+- **Site authorization** (founder, 31 Oct 2026): all source families he listed are authorized for use; robots.txt and terms are checked where they exist — if a site publishes none, access proceeds without restriction. Where robots.txt or terms do exist, they are still respected and recorded.
 - **No rejection without the founder** (founder's instruction, 31 Oct 2026): no book, content item or website is rejected, refused or excluded on any ground — school, licence, quality, scope — before the founder is asked and has decided; his decision overrides the lane's call. Flagged items are recorded in the progress file with the reason and await his ruling, which includes §1a canon-gate exclusions (held as `held`, never dropped silently).
 - Progress: `docs/delegation/khutab-durus-progress.md`, kept current after every batch.
 
