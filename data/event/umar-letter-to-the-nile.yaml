@@ -1,0 +1,45 @@
+id: event/umar-letter-to-the-nile
+class: event
+kind: other
+label:
+  ar: خبر بطاقة عمر إلى نيل مصر
+  en: The report of Umar's card to the Nile
+  ur: نیلِ مصر کے نام عمر کے رقعے کی روایت
+summary:
+  ar: 'خبر يرويه ابن عبد الحكم بإسناد فيه راوٍ مبهم («عن قيس بن الحجاج عمن حدّثه»): أن أهل مصر أخبروا عمرو بن العاص أن النيل لا يجري إلا بإلقاء جارية فيه، فأبى، فكتب عمر بطاقة إلى النيل ألقاها عمرو فيه، فجرى ستة عشر ذراعاً في ليلة {cite:futuh-misr-amir-1999 p. 203} {cite:futuh-misr-amir-1999 p. 204}.'
+  en: 'A report Ibn Abd al-Hakam transmits with a chain containing an unnamed informant (''from Qays ibn al-Hajjaj, from someone who told him''): the people of Egypt told Amr ibn al-As the Nile would not rise unless a girl was thrown into it; he refused, and Umar sent a card addressed to the Nile which Amr threw in, and the river rose sixteen cubits in a night {cite:futuh-misr-amir-1999 p. 203} {cite:futuh-misr-amir-1999 p. 204}.'
+  ur: 'ایک روایت جو ابن عبد الحکم ایسی سند سے نقل کرتے ہیں جس میں ایک نامعلوم راوی ہے («قیس بن الحجاج سے، اس سے جس نے انہیں بتایا»): اہلِ مصر نے عمرو بن العاص کو بتایا کہ نیل ایک لڑکی ڈالے بغیر نہیں بہتا؛ انہوں نے انکار کیا، اور عمر نے نیل کے نام ایک رقعہ بھیجا جو عمرو نے اس میں ڈالا، اور دریا ایک رات میں سولہ ہاتھ چڑھ گیا {cite:futuh-misr-amir-1999 p. 203} {cite:futuh-misr-amir-1999 p. 204}۔'
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: occurred_at
+  target: place/al-nil
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: رفض العادة وألقى البطاقة
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/umar-ibn-al-khattab
+  role: كاتب البطاقة
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 202–204
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
