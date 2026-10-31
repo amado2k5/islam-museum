@@ -1,0 +1,57 @@
+id: person/awni-abd-al-hadi
+class: person
+label:
+  ar: "عوني عبد الهادي"
+  en: "Awni Abd al-Hadi"
+  ur: "عونی عبد الہادی"
+names:
+  - { value: "عوني قاسم عبد الهادي", kind: full }
+  - { value: "Awni Qasim Abd al-Hadi", kind: full }
+  - { value: "Awni Abd al-Hadi", kind: alternate }
+  - { value: "Auni Bey Abdel Hadi", kind: alternate }
+gender: male
+born:
+  edtf: "1889"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Nablus. The year is debated: 1889 is followed (the English biography, Wikidata, and the Arabic biography's lead), while the Arabic biography's early-life section reports a birth in April 1882 with 1889 noted as the alternative; both readings are preserved here. Because the rival years fall in different Hijri years, no hijri value is recorded."
+  sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi]
+died:
+  edtf: "1970-03-15"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Cairo on 15 March 1970 and was buried there, as both biographies record and Wikidata agrees; the Hijri year 1390 is derived by conversion."
+  sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi]
+roles: [politician, diplomat, lawyer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Awni Abd al-Hadi himself. Wikidata's structured religion value gives Islam only — a single structured family; his al-Fatat and Istiqlal roles, his Arab Higher Committee secretaryship and his legal work for the Supreme Muslim Council are offices and affiliations, and never count."
+    sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi]
+relations:
+  - { type: born_in, target: place/nablus, sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi] }
+  - { type: spouse_of, target: person/tarab-abdul-hadi, sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-tarab-abdul-hadi-en, source/wikidata-awni-abd-al-hadi] }
+summary:
+  ar: "سياسي فلسطيني من نابلس (1889–1970)، من مؤسسي جمعية العربية الفتاة وحزب الاستقلال وأول رئيس له؛ أول رئيس للديوان الأميري في إمارة شرق الأردن، وأمين عام اللجنة العربية العليا، ثم وزير وسفير أردني في القاهرة، وهو زوج الناشطة النسوية طرب عبد الهادي."
+  en: "Palestinian politician from Nablus (1889–1970), a founder of the al-Fatat society and of the Istiqlal Party, whose first president he was. He was the first chief of the Amiri Diwan in Transjordan, general secretary of the Arab Higher Committee, and later a Jordanian minister and ambassador to Cairo; he was the husband of the feminist activist Tarab Abdul Hadi."
+  ur: "نابلس سے تعلق رکھنے والے فلسطینی سیاست دان (1889–1970)، الجمعیۃ العربیہ الفتاۃ اور استقلال پارٹی کے بانیوں میں سے، جن کے وہ پہلے صدر تھے؛ شرق اردن میں امیری دیوان کے پہلے رئیس، عرب اعلیٰ کمیٹی کے سیکرٹری جنرل، اور بعد میں اردنی وزیر اور قاہرہ میں سفیر رہے؛ وہ حقوق نسواں کی کارکن طرب عبد الہادی کے شوہر تھے۔"
+sources:
+  - source/wikipedia-awni-abd-al-hadi-en
+  - source/wikipedia-awni-abd-al-hadi-ar
+  - source/wikidata-awni-abd-al-hadi
+external_ids:
+  wikidata: Q2874705
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Awni Abd al-Hadi (Q2874705) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Nablus-born al-Fatat and Istiqlal founder of 1889–1970, pinned by biography and QID against the many other Abd al-Hadi bearers. Existence checks by name fragments (abd-al-hadi, abdul-hadi) and by QID across data/person on origin/main found no prior record for this man. The spouse_of edge to his wife Tarab is written once, here in his record as the elder of the pair, per the lane's write-once convention, and is attested by both biographies and by Wikidata's spouse statement in each direction."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
