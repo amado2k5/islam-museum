@@ -1,0 +1,53 @@
+id: person/said-al-husayni
+class: person
+label:
+  ar: "سعيد الحسيني"
+  en: "Sa'id al-Husayni"
+  ur: "سعید الحسینی"
+names:
+  - { value: "سعيد بن أحمد راسم الحسيني", kind: full }
+  - { value: "Sa'id ibn Ahmad Rasim al-Husayni", kind: full }
+  - { value: "Said al-Husseini", kind: alternate }
+gender: male
+born:
+  edtf: "1878"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in Jerusalem in 1878 (Arabic biography; Wikidata gives the same year). The year spans the Hijri years 1295–1296, so no hijri value is recorded."
+  sources: [source/wikipedia-said-al-husayni-ar, source/wikidata-said-al-husayni]
+died:
+  edtf: "1945"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in Jerusalem in 1945, aged 67 (Arabic biography; Wikidata gives the same year). The year spans the Hijri years 1364–1365, so no hijri value is recorded."
+  sources: [source/wikipedia-said-al-husayni-ar, source/wikidata-said-al-husayni]
+roles: [politician]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read attests any religious affiliation for Sa'id al-Husayni: the Arabic biography is silent on religion and Wikidata carries no religion value at all. His great-grandfather's tenure as mufti of Jerusalem is family background, which never counts."
+    sources: [source/wikipedia-said-al-husayni-ar, source/wikidata-said-al-husayni]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-said-al-husayni-ar] }
+  - { type: died_in, target: place/jerusalem, sources: [source/wikipedia-said-al-husayni-ar] }
+summary:
+  ar: "سياسي فلسطيني من القدس (1878–1945)، تولّى رئاسة بلدية القدس سنة 1905، ومثّلها نائبًا في مجلس المبعوثان العثماني، ثم صار في آذار 1920 أول وزير خارجية في الحكومة العربية بدمشق في عهد الملك فيصل الأول."
+  en: "Palestinian politician from Jerusalem (1878–1945). He became mayor of Jerusalem in 1905, sat for the city in the Ottoman parliament, and in March 1920 became the first foreign minister of the Arab government at Damascus under King Faysal I."
+  ur: "قدس سے تعلق رکھنے والے فلسطینی سیاست دان (1878–1945)۔ وہ 1905ء میں قدس کے میئر بنے، عثمانی پارلیمنٹ میں شہر کی نمائندگی کی، اور مارچ 1920ء میں شاہ فیصل اول کے دور میں دمشق کی عرب حکومت کے پہلے وزیرِ خارجہ بنے۔"
+sources:
+  - source/wikipedia-said-al-husayni-ar
+  - source/wikidata-said-al-husayni
+external_ids:
+  wikidata: Q79351157
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia biography of Sa'id al-Husayni (Q79351157) — the only Wikipedia article on this man — and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the Arabic article's page properties. Existence checks by name fragments (husayni, husseini) and by QID across data/person on origin/main found other Husayni men only (amin-al-husseini, musa-al-husayni, faisal-husseini, hasan-al-husseini), each pinned apart by biography and QID, and no prior record for Sa'id. His mayoralty, parliamentary seat and ministry are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
