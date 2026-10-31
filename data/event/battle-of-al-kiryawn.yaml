@@ -1,0 +1,70 @@
+id: event/battle-of-al-kiryawn
+class: event
+kind: battle
+label:
+  ar: وقعة الكريون
+  en: Battle of al-Kiryawn
+  ur: کریون کی لڑائی
+summary:
+  ar: قتال دار بين المسلمين والروم عند الكريون في الطريق إلى الإسكندرية بضعة عشر يوماً، وكان على المقدمة عبد الله بن عمرو وحامل اللواء وردان مولى عمرو، وصلى فيه عمرو صلاة الخوف {cite:futuh-misr-amir-1999 p. 108} {cite:futuh-misr-amir-1999 p. 109}.
+  en: Fighting between the Muslims and the Romans at al-Kiryawn on the road to Alexandria for ten-odd days, with Abd Allah ibn Amr leading the vanguard and Wardan, Amr's client, carrying the standard; Amr led the prayer of fear there {cite:futuh-misr-amir-1999 p. 108} {cite:futuh-misr-amir-1999 p. 109}.
+  ur: اسکندریہ کے راستے میں کریون کے مقام پر مسلمانوں اور رومیوں کی دس سے زیادہ دن کی لڑائی؛ ہراول پر عبد اللہ بن عمرو تھے اور علم عمرو کے مولیٰ وردان کے ہاتھ میں تھا؛ عمرو نے وہاں صلاۃ الخوف پڑھائی {cite:futuh-misr-amir-1999 p. 108} {cite:futuh-misr-amir-1999 p. 109}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+sides:
+- label:
+    ar: المسلمون
+    en: The Muslims
+    ur: مسلمان
+  participants:
+  - polity/rashidun-caliphate
+  commanders:
+  - person/amr-ibn-al-as
+  - person/abdullah-ibn-amr-ibn-al-as
+- label:
+    ar: الروم
+    en: The Romans (Byzantines)
+    ur: رومی (بازنطینی)
+  participants:
+  - polity/byzantine-empire
+relations:
+- type: part_of
+  target: event/conquest-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: occurred_at
+  target: place/al-kiryawn
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: قائد المسلمين
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/abdullah-ibn-amr-ibn-al-as
+  role: على المقدمة، جُرح
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/wardan-mawla-amr
+  role: حامل اللواء
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 108–109
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

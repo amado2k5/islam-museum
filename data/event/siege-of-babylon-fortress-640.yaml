@@ -1,23 +1,124 @@
 id: event/siege-of-babylon-fortress-640
 class: event
 kind: siege
-label: { ar: "حصار حصن بابليون (٦٤٠)", en: "Siege of Babylon Fortress" }
+label:
+  ar: حصار حصن بابليون (٦٤٠)
+  en: Siege of Babylon Fortress
+  ur: قلعۂ بابلیون کا محاصرہ (640ء)
 summary:
-  ar: "بطاقة أولية لحصار حصن بابليون سنة ٦٤٠م على يد عمرو بن العاص والزبير بن العوام حتى فتحه وسقوط مصر البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Babylon Fortress in 640 by Amr ibn al-As and al-Zubayr ibn al-Awwam; its sources are not yet checked on the page."
-wings: [time]
-periods: [period/rashidun]
-regions: [egypt-nile]
+  ar: حصار عمرو بن العاص للحصن الذي يسمى بابليون، وهو القصر الذي صار في قلب الفسطاط. يذكر ابن عبد الحكم أن الفرس ابتدأوا بناءه وأتمه الروم، وأن عمراً أقام على بابه سبعة أشهر في رواية وشهراً في أخرى، حتى صعد الزبير بن العوام سلّماً وكبّر ففتح الباب، وخرج المقوقس وأعيان القبط إلى الجزيرة {cite:futuh-misr-amir-1999 p. 52} {cite:futuh-misr-amir-1999 p. 94} {cite:futuh-misr-amir-1999 p. 95} {cite:futuh-misr-amir-1999 p. 96}.
+  en: Amr ibn al-As's siege of the fortress called Babylon, the Qasr that later stood at the heart of al-Fustat. Ibn Abd al-Hakam reports that the Persians began it and the Romans completed it, that Amr sat at its gate for seven months in one account and a month in another, until al-Zubayr ibn al-Awwam climbed a ladder, cried the takbir and opened the gate, while al-Muqawqis and the Coptic notables withdrew to the Island {cite:futuh-misr-amir-1999 p. 52} {cite:futuh-misr-amir-1999 p. 94} {cite:futuh-misr-amir-1999 p. 95} {cite:futuh-misr-amir-1999 p. 96}.
+  ur: عمرو بن العاص کا اس قلعے کا محاصرہ جسے بابلیون کہا جاتا تھا، یعنی وہ قصر جو بعد میں فسطاط کے بیچ میں رہا۔ ابن عبد الحکم کے مطابق اس کی تعمیر فارسیوں نے شروع کی اور رومیوں نے مکمل کی؛ عمرو ایک روایت میں سات مہینے اور دوسری میں ایک مہینہ اس کے دروازے پر رہے، یہاں تک کہ زبیر بن العوام سیڑھی سے چڑھے، تکبیر کہی اور دروازہ کھول دیا، اور مقوقس اور قبطی سردار جزیرہ کی طرف نکل گئے {cite:futuh-misr-amir-1999 p. 52} {cite:futuh-misr-amir-1999 p. 94} {cite:futuh-misr-amir-1999 p. 95} {cite:futuh-misr-amir-1999 p. 96}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
 date:
-  start: { edtf: "0640-05", precision: year, status: tradition, derived: true }
-  end: { edtf: "0640-12-01", precision: year, status: tradition, derived: true }
-sources: [source/futuh-buldan-maarif-1407]
+  start:
+    edtf: 0640-05
+    precision: year
+    status: tradition
+    derived: true
+    note: 'ابن عبد الحكم لا يؤرخ الحصار بسنة؛ يذكر المدة فقط: سبعة أشهر (عثمان بن صالح عن ابن وهب عن الليث) أو شهراً (خالد بن يزيد عن جماعة من التابعين)، فتوح مصر ص 95. التاريخ الميلادي من بطاقة ويكي بيانات الأولى.'
+  end:
+    edtf: '0640-12-01'
+    precision: year
+    status: tradition
+    derived: true
+sides:
+- label:
+    ar: المسلمون
+    en: The Muslims
+    ur: مسلمان
+  participants:
+  - polity/rashidun-caliphate
+  commanders:
+  - person/amr-ibn-al-as
+  - person/zubayr-ibn-al-awwam
+  strength:
+    value: 12000
+    sources:
+    - source/futuh-misr-amir-1999
+    note: 'قول عمر: إن معك اثني عشر ألفاً (ص 91)'
+- label:
+    ar: الروم والقبط في الحصن
+    en: The Romans and Copts in the fortress
+    ur: قلعے کے رومی اور قبطی
+  participants:
+  - polity/byzantine-empire
+  commanders:
+  - person/al-muqawqis
+  - person/al-uayrij
+sources:
+- source/futuh-misr-amir-1999
+- source/futuh-buldan-maarif-1407
 external_ids:
   wikidata: Q48795853
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 52، 84–96، 102
+  generated_by: Claude Opus 5.5, rewriting a Devin (SWE-2 High) Wikidata stub (wikidata-import-wave2)
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources:
+  - source/futuh-misr-amir-1999
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.); the Gregorian dates are kept from the Wikidata card
+relations:
+- type: part_of
+  target: event/conquest-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: occurred_at
+  target: place/babylon-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: قائد المسلمين
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/zubayr-ibn-al-awwam
+  role: صاحب السلّم الذي فتح الباب
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/ubada-ibn-al-samit
+  role: أحد الأربعة الذين عُدّ كل منهم بألف
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/al-miqdad-ibn-amr
+  role: أحد الأربعة الذين عُدّ كل منهم بألف
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/maslama-ibn-mukhallad-al-ansari
+  role: أحد الأربعة في رواية
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/kharija-ibn-hudhafa-al-adawi
+  role: الرابع في رواية أخرى
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/muhammad-ibn-maslama
+  role: صعد مع الزبير
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/al-muqawqis
+  role: صاحب مصر، خرج إلى الجزيرة
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/al-uayrij
+  role: قائد الروم في القصر
+  sources:
+  - source/futuh-misr-amir-1999

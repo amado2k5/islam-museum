@@ -1,0 +1,50 @@
+id: event/ubada-embassy-to-al-muqawqis
+class: event
+kind: other
+label:
+  ar: وفادة عبادة بن الصامت على المقوقس
+  en: Ubada ibn al-Samit's embassy to al-Muqawqis
+  ur: مقوقس کے پاس عبادہ بن الصامت کی سفارت
+summary:
+  ar: بعث عمرو بن العاص عشرة نفر إلى المقوقس في الجزيرة، يتكلم عنهم عبادة بن الصامت، وأمرهم ألا يقبلوا إلا إحدى ثلاث خصال. وطلب المقوقس أن يُنحّى عبادة لسواده، فقالوا إنه أفضلهم رأياً وعلماً، ثم رفض عبادة المال الذي عرضه المقوقس {cite:futuh-misr-amir-1999 p. 97} {cite:futuh-misr-amir-1999 p. 98} {cite:futuh-misr-amir-1999 p. 101}.
+  en: Amr ibn al-As sent ten men to al-Muqawqis on the Island, with Ubada ibn al-Samit as their spokesman, ordered to accept only one of three options. Al-Muqawqis asked that Ubada be moved back for his dark skin; they answered that he was the best of them in judgement and knowledge, and Ubada then refused the money al-Muqawqis offered {cite:futuh-misr-amir-1999 p. 97} {cite:futuh-misr-amir-1999 p. 98} {cite:futuh-misr-amir-1999 p. 101}.
+  ur: عمرو بن العاص نے دس آدمی جزیرہ میں مقوقس کے پاس بھیجے، جن کے ترجمان عبادہ بن الصامت تھے، اور حکم دیا کہ تین میں سے ایک بات کے سوا کچھ قبول نہ کریں۔ مقوقس نے عبادہ کو ان کی سیاہ رنگت کی وجہ سے پیچھے ہٹانے کو کہا؛ ساتھیوں نے کہا کہ وہ رائے اور علم میں ان سب سے افضل ہیں، اور پھر عبادہ نے مقوقس کی پیش کردہ رقم ٹھکرا دی {cite:futuh-misr-amir-1999 p. 97} {cite:futuh-misr-amir-1999 p. 98} {cite:futuh-misr-amir-1999 p. 101}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: part_of
+  target: event/siege-of-babylon-fortress-640
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/ubada-ibn-al-samit
+  role: متكلم الوفد
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/al-muqawqis
+  role: المستقبِل
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: باعث الوفد
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 96–101
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

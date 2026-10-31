@@ -1,0 +1,61 @@
+id: event/battle-of-kom-sharik
+class: event
+kind: battle
+label:
+  ar: وقعة كوم شريك
+  en: Battle of Kom Sharik
+  ur: کوم شریک کی لڑائی
+summary:
+  ar: لقاء بين جيش عمرو بن العاص وجموع الروم في طريقه من الفسطاط إلى الإسكندرية، دام ثلاثة أيام عند الكوم الذي سُمّي بعدُ كوم شريك نسبة إلى شريك بن سمي، وانهزم فيه الروم {cite:futuh-misr-amir-1999 p. 107} {cite:futuh-misr-amir-1999 p. 108}.
+  en: An encounter between Amr ibn al-As's army and the assembled Romans on his road from al-Fustat to Alexandria, lasting three days at the mound later called Kom Sharik after Sharik ibn Sumayy, ending in a Roman rout {cite:futuh-misr-amir-1999 p. 107} {cite:futuh-misr-amir-1999 p. 108}.
+  ur: فسطاط سے اسکندریہ جاتے ہوئے عمرو بن العاص کے لشکر اور رومی لشکر کا مقابلہ، جو تین دن اس ٹیلے پر جاری رہا جو بعد میں شریک بن سمی کے نام پر کوم شریک کہلایا، اور رومیوں کی شکست پر ختم ہوا {cite:futuh-misr-amir-1999 p. 107} {cite:futuh-misr-amir-1999 p. 108}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+sides:
+- label:
+    ar: المسلمون
+    en: The Muslims
+    ur: مسلمان
+  participants:
+  - polity/rashidun-caliphate
+  commanders:
+  - person/amr-ibn-al-as
+  - person/sharik-ibn-sumayy
+- label:
+    ar: الروم
+    en: The Romans (Byzantines)
+    ur: رومی (بازنطینی)
+  participants:
+  - polity/byzantine-empire
+relations:
+- type: part_of
+  target: event/conquest-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: قائد المسلمين
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/sharik-ibn-sumayy
+  role: على المقدمة، سُمّي الموضع باسمه
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 107–108
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
