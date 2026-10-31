@@ -716,21 +716,21 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Begum Akhtar — 1914–1974
 - [x] Mehdi Hassan — 1927–2012
 - [x] Ghulam Ali — 1940–Living
-- [ ] Reshma — 1947–2013
-- [ ] Alam Lohar — 1926–1979
-- [ ] Arif Lohar — 1966–Living
-- [ ] Atif Aslam — 1983–Living
-- [ ] Ali Zafar — 1980–Living
-- [ ] Sajjad Ali — 1966–Living
-- [ ] Nazia Hassan — 1965–2000
-- [ ] Zoheb Hassan — 1966–Living
-- [ ] Rohail Hyatt — 1966–Living
-- [ ] Shoaib Mansoor — 1952–Living
-- [ ] Hassam Khan — 1990–Living
-- [ ] Fawad Khan — 1981–Living
-- [ ] Mahira Khan — 1984–Living
-- [ ] Saba Qamar — 1984–Living
-- [ ] Humayun Saeed — 1971–Living
+- [x] Reshma — 1947–2013
+- [x] Alam Lohar — 1926–1979
+- [x] Arif Lohar — 1966–Living
+- [x] Atif Aslam — 1983–Living
+- [x] Ali Zafar — 1980–Living
+- [x] Sajjad Ali — 1966–Living
+- [x] Nazia Hassan — 1965–2000
+- [x] Zoheb Hassan — 1966–Living
+- [x] Rohail Hyatt — 1966–Living
+- [x] Shoaib Mansoor — 1952–Living
+- [x] Hassam Khan — 1990–Living
+- [x] Fawad Khan — 1981–Living
+- [x] Mahira Khan — 1984–Living
+- [x] Saba Qamar — 1984–Living
+- [x] Humayun Saeed — 1971–Living
 - [ ] Sharif Finch — 1995–Living
 - [ ] Muhammad Wilkerson — 1989–Living
 - [ ] Husain Abdullah — 1985–Living
@@ -1620,21 +1620,21 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Mustafa Mujezinović (1890–1945)
 - [x] Muse Ćazim Ćatić (1878–1915)
 - [x] Avdo Karabegović (1878–1908)
-- [ ] Nafija Sarajlić (1893–1970)
-- [ ] Osman Đikić (1879–1912)
-- [ ] Ali-beg Firdus (1862–1910)
-- [ ] Mustaj-beg Kapetanović (1860–1915)
-- [ ] Mehmed-beg Kapetanović Ljubušak (1839–1902)
-- [ ] Ibrahim-beg Bašagić (1840–1902)
-- [ ] Hamdija Kreševljaković (1888–1959)
-- [ ] Husein Đozo (Elders) (1890–1940)
-- [ ] Šakir Sikirić (1893–1966)
-- [ ] Mustafa Busuladžić (1914–1945)
-- [ ] Kosta Hörmann (Muslim Associates) (1850–1910)
-- [ ] Sheikh Youssef al-Nabhani (1849–1932)
-- [ ] Taqi al-Din al-Nabhani (Father) (1880–1940)
-- [ ] Ibrahim al-Dabbagh (1880–1946)
-- [ ] Ali al-Rimawi (1860–1919)
+- [x] Nafija Sarajlić (1893–1970)
+- [x] Osman Đikić (1879–1912)
+- [x] Ali-beg Firdus (1862–1910)
+- [~] Mustaj-beg Kapetanović (1860–1915)
+- [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
+- [x] Ibrahim-beg Bašagić (1840–1902)
+- [x] Hamdija Kreševljaković (1888–1959)
+- [~] Husein Đozo (Elders) (1890–1940)
+- [x] Šakir Sikirić (1893–1966)
+- [x] Mustafa Busuladžić (1914–1945)
+- [x] Kosta Hörmann (Muslim Associates) (1850–1910)
+- [x] Sheikh Youssef al-Nabhani (1849–1932)
+- [~] Taqi al-Din al-Nabhani (Father) (1880–1940)
+- [x] Ibrahim al-Dabbagh (1880–1946)
+- [x] Ali al-Rimawi (1860–1919)
 - [ ] Yusuf al-Khalidi (1842–1906)
 - [ ] Raghib al-Khalidi (1866–1952)
 - [ ] Sa'id al-Husayni (1878–1945)

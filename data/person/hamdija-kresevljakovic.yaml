@@ -1,0 +1,55 @@
+id: person/hamdija-kresevljakovic
+class: person
+label:
+  ar: "حمديجا كريشيفلياكوفيتش"
+  en: "Hamdija Kreševljaković"
+  ur: "حمدیجا کریشیولیاکووچ"
+names:
+  - { value: "Hamdija Kreševljaković", kind: full }
+gender: male
+born:
+  edtf: "1888-09-16"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in 1888 at Sarajevo, in the Vratnik quarter per the English biography, into a merchant family from Kreševo. CONFLICT on the day: the English biography and Wikidata give 16 September 1888, which the record follows; the Bosnian and Croatian biographies give 18 September 1888. Both readings are preserved; both fall in the same Hijri year, 1306, which is derived by tabular conversion and marked derived."
+  sources: [source/wikipedia-hamdija-kresevljakovic-en, source/wikidata-hamdija-kresevljakovic, source/wikipedia-hamdija-kresevljakovic-bs, source/wikipedia-hamdija-kresevljakovic-hr]
+died:
+  edtf: "1959-05-09"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 9 May 1959 at Sarajevo, where he was working as a research associate of the Institute for the Protection of Cultural Monuments; the English and Bosnian biographies and Wikidata agree on the day. The Croatian biography gives 9 July 1959, a month variant preserved here. The Hijri year 1378 is derived by tabular conversion and is marked derived; both month readings fall in it."
+  sources: [source/wikipedia-hamdija-kresevljakovic-en, source/wikipedia-hamdija-kresevljakovic-bs, source/wikidata-hamdija-kresevljakovic, source/wikipedia-hamdija-kresevljakovic-hr]
+roles: [historian, teacher]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him, and Wikidata gives only Islam. The English biography notes that he self-identified as an ethnic Croat — an ethnic identification, which is not a religious attestation. His teaching posts at Muslim schools, among them the Gazi Husrev-beg Madrasa (1926–1945), are employment, which never counts. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-hamdija-kresevljakovic-en, source/wikipedia-hamdija-kresevljakovic-bs, source/wikipedia-hamdija-kresevljakovic-hr, source/wikidata-hamdija-kresevljakovic]
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-hamdija-kresevljakovic-en, source/wikipedia-hamdija-kresevljakovic-bs] }
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-hamdija-kresevljakovic-bs, source/wikidata-hamdija-kresevljakovic] }
+summary:
+  ar: "مؤرخ بوسني من سراييفو، يُعدّ من أبرز مؤرخي البوسنة والهرسك: معلّم وأستاذ طويل العهد في مدرسة غازي خسرو بك، كتب أكثر من 300 عمل في تاريخ البوسنة، ولا سيما التاريخ الاقتصادي والثقافي لسراييفو العثمانية، ومن كتبه «الحرف والصناعات في سراييفو القديمة»."
+  en: "Bosnian historian from Sarajevo, regarded as one of the most significant historians of Bosnia and Herzegovina: a teacher and long-serving professor at the Gazi Husrev-beg Madrasa who wrote over 300 works on Bosnian history, above all the economic and cultural history of Ottoman Sarajevo, among them Esnafi i obrti u starom Sarajevu (Guilds and Crafts in Old Sarajevo)."
+  ur: "سرائیوو سے تعلق رکھنے والے بوسنیائی مؤرخ، جنھیں بوسنیا و ہرزیگووینا کے اہم ترین مؤرخین میں شمار کیا جاتا ہے: معلم اور غازی خسرو بیگ مدرسے کے دیرینہ استاد، جنھوں نے بوسنیائی تاریخ پر 300 سے زائد تصانیف لکھیں، خصوصاً عثمانی سرائیوو کی معاشی و ثقافتی تاریخ، جن میں «قدیم سرائیوو کے اصناف و حرفتیں» شامل ہے۔"
+sources:
+  - source/wikipedia-hamdija-kresevljakovic-en
+  - source/wikipedia-hamdija-kresevljakovic-bs
+  - source/wikipedia-hamdija-kresevljakovic-hr
+  - source/wikidata-hamdija-kresevljakovic
+external_ids:
+  wikidata: Q12632094
+provenance:
+  layer: own-research
+  source: "English, Bosnian and Croatian Wikipedia biographies of Hamdija Kreševljaković (Q12632094) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Sarajevo-born historian of Ottoman Bosnia (1888–1959); the queue's years are confirmed, the birth day being debated between 16 September (English biography and Wikidata, followed) and 18 September (Bosnian and Croatian biographies), and the Croatian biography's July death month being preserved against the agreed 9 May. Existence checks by name fragments (kresevljakovic, kreševljaković) and by QID across data/person on origin/main found no prior record. His son Muhamed, mayor of Sarajevo 1990–1994, has no person record, so no family edge is written. Sarajevo has a place entity and carries the born_in and died_in edges."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,42 @@
+id: person/humayun-saeed
+class: person
+label:
+  ar: "همايون سعيد"
+  en: "Humayun Saeed"
+  ur: "ہمایوں سعید"
+names:
+  - { value: "Humayun Saeed", kind: full }
+gender: male
+born:
+  edtf: "1971-07-27"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 27 July 1971 at Karachi: the English biography and Wikidata agree on the day and the city. Karachi has no place entity, so no birthplace edge is written and the fact is carried here. The Hijri year 1391 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-humayun-saeed-en, source/wikidata-humayun-saeed]
+roles: [actor, producer]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or school for him: the English and Urdu biographies carry no religion value and Wikidata has no religion (P140) value at all. His production work and public career were not counted; the absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikipedia-humayun-saeed-en, source/wikipedia-humayun-saeed-ur, source/wikidata-humayun-saeed]
+summary:
+  ar: "ممثل ومنتج باكستاني (وُلد سنة 1971) في كراتشي، من أبرز نجوم التلفزيون والسينما في بلاده، اشتهر بمسلسل «میرے پاس تم ہو» وبأفلام «جوانی پھر نہیں آنی» و«پنجاب نہیں جاؤں گی»، ويدير دار الإنتاج «سکس سگما پلس»."
+  en: "Pakistani actor and producer (born 1971) in Karachi, among his country's leading television and film stars, known for the drama Meray Paas Tum Ho and the films Jawani Phir Nahi Ani and Punjab Nahi Jaungi, and founder of the Six Sigma Plus production house."
+  ur: "کراچی میں پیدا ہونے والے پاکستانی اداکار و پروڈیوسر (پیدائش 1971)، اپنے ملک کے ممتاز ٹیلی ویژن و فلمی ستاروں میں سے ایک، جو ڈرامے «میرے پاس تم ہو» اور فلموں «جوانی پھر نہیں آنی» اور «پنجاب نہیں جاؤں گی» کے لیے جانے جاتے ہیں اور پروڈکشن ہاؤس «سکس سگما پلس» کے بانی ہیں۔"
+sources:
+  - source/wikipedia-humayun-saeed-en
+  - source/wikipedia-humayun-saeed-ur
+  - source/wikidata-humayun-saeed
+external_ids:
+  wikidata: Q5939759
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Humayun Saeed and the Wikidata item Q5939759, all read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query before completion. The QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Karachi actor and producer born 27 July 1971 — not the Mughal emperor Humayun, Humayun Ahmed or other Humayun records on main. Existence checks by name fragments (humayun) and by QID across data/person on origin/main found no prior record for him, and his Arabic label همايون سعيد collides with no existing record, so no homonym entry is needed. The queue's year (1971, living) is confirmed to the day. Relations written: none — Karachi has no place entity. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-134
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

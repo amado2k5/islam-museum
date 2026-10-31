@@ -1,0 +1,62 @@
+id: person/yusuf-al-nabhani
+class: person
+label:
+  ar: "يوسف النبهاني"
+  en: "Yusuf al-Nabhani"
+  ur: "یوسف النبہانی"
+names:
+  - { value: "يوسف بن إسماعيل بن يوسف بن إسماعيل بن محمد ناصر الدين النبهاني", kind: full }
+  - { value: "Yusuf ibn Ismail ibn Yusuf ibn Ismail ibn Muhammad Nasir al-Din al-Nabhani", kind: full }
+  - { value: "Abu al-Mahasin", kind: kunya }
+  - { value: "بوصيري العصر", kind: laqab }
+  - { value: "Yusuf al-Nabhani", kind: alternate }
+gender: male
+born:
+  edtf: "1849"
+  hijri: "1265"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in the village of Ijzim in the Haifa district in 1265 AH / 1849 CE, into the Bani Nabhan bedouin family settled there; the Hijri year is given by both Arabic sources themselves. Ijzim has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-yusuf-al-nabhani-ar, source/azhar-memory-yusuf-al-nabhani, source/wikidata-yusuf-al-nabhani]
+died:
+  edtf: "1932"
+  hijri: "1350"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died in 1350 AH / 1932 CE; the year is unanimous, while the day and place vary by source and are preserved here: the Azhar Memory biography fixes 9 Ramadan 1350 = 18 January 1932 and has him die after retiring to his village of Ijzim, and Mamduh's Tashnif al-Asma' likewise has him pass away in his village in 1350 AH; the Arabic Wikipedia places his death at Beirut in early Ramadan 1350 with burial in the Bashoura cemetery; Wikidata gives February 1932 at month precision. Beirut and Ijzim have no place entities on main, so no died_in edge is written."
+  sources: [source/wikipedia-yusuf-al-nabhani-ar, source/azhar-memory-yusuf-al-nabhani, source/mamduh-tashnif-al-asma-nabhani, source/wikipedia-yusuf-al-nabhani-en, source/wikidata-yusuf-al-nabhani]
+roles: [scholar, judge, poet, writer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "Two independent sources name the school for the man himself. The English biography describes him as 'of the Shafi'i madhab of Sunni Islam'; Mamduh's Tashnif al-Asma' opens its entry 'the poet, author, and Shafi'i judge' and states that he 'adhered to the Shafi'i school of thought'; Wikidata's structured value adds Sunni Islam. His Ash'ari creed, which Mamduh also records, has no enum value of its own and is carried in this note only."
+    sources: [source/wikipedia-yusuf-al-nabhani-en, source/mamduh-tashnif-al-asma-nabhani, source/wikidata-yusuf-al-nabhani]
+  - value: sufi
+    basis: documented
+    note: "Two independent biographical sources attest initiations into named orders for the man himself. The Arabic biography, following Zaki Mujahid's al-A'lam al-Sharqiyya, lists his taking the Idrisiyya from Ismail al-Nawwab, the Shadhiliyya from Muhammad ibn Mas'ud al-Fasi and Ali Nur al-Din al-Yashruti, the Naqshbandiyya from Imdad Allah al-Faruqi and Ghiyath al-Din al-Irbili, the Qadiriyya from Hasan ibn Abi Halawa al-Ghazzi, the Rifa'iyya from Abd al-Qadir al-Dajani and the Khalwatiyya from Hasan Ridwan al-Sa'idi; the Azhar Memory biography independently records the same six initiations in its own wording, and Mamduh's entry adds his own summary: he 'was Azharite, a Sufi, and adhered to the Shafi'i school of thought'."
+    sources: [source/wikipedia-yusuf-al-nabhani-ar, source/azhar-memory-yusuf-al-nabhani, source/mamduh-tashnif-al-asma-nabhani]
+relations: []
+summary:
+  ar: "قاضٍ وفقيه وشاعر فلسطيني من إجزم بقضاء حيفا، من أبرز المدافعين عن الخلافة العثمانية والتصوف في عصره؛ درس في الأزهر وتولّى رئاسة محكمة الحقوق في بيروت نحو عشرين عامًا، وألّف عشرات الكتب في الحديث والمدائح النبوية وكرامات الأولياء، وأخذ طرقًا صوفية عدة عن شيوخها."
+  en: "Palestinian judge, jurist and poet from Ijzim in the Haifa district, a leading defender of the Ottoman Caliphate and of Sufism in his age. Trained at al-Azhar, he presided over Beirut's Court of Rights for some twenty years and wrote dozens of works on hadith, Prophetic panegyric and the miracles of the saints; he was initiated into several Sufi orders."
+  ur: "حیفہ ضلع کے گاؤں اجزم سے تعلق رکھنے والے فلسطینی قاضی، فقیہ اور شاعر؛ اپنے دور میں خلافتِ عثمانیہ اور تصوف کے نمایاں مدافع۔ الازہر سے تعلیم پائی، بیروت کی عدالتِ حقوق کی صدارت تقریباً بیس سال کی، اور حدیث، مدائح اور کراماتِ اولیا پر درجنوں کتابیں لکھیں؛ کئی صوفی سلسلوں میں بیعت ہوئے۔"
+sources:
+  - source/wikipedia-yusuf-al-nabhani-en
+  - source/wikipedia-yusuf-al-nabhani-ar
+  - source/azhar-memory-yusuf-al-nabhani
+  - source/mamduh-tashnif-al-asma-nabhani
+  - source/wikidata-yusuf-al-nabhani
+external_ids:
+  wikidata: Q4118171
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Yusuf al-Nabhani (Q4118171), the Azhar Memory biography, Mahmud Sa'id Mamduh's Tashnif al-Asma' in its Dar al-Nicosia English translation (2022), read at the academia.edu posting, and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer (spelled 'Youssef' in the queue) is the Ijzim-born judge and poet of 1849–1932 — the maternal grandfather of Taqi al-Din al-Nabhani, the Hizb ut-Tahrir founder, who is a different man and is not built in this wave. Existence checks by name fragments (nabhani, nabahani) and by QID across data/person on origin/main found only muhammad-ibn-khalifa-al-nabhani, a different bearer of the nisba, and no prior record for this man under any slug. His judgeships and teaching posts are never relations, and Ijzim and Beirut have no place entities on main, so relations are empty."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,53 @@
+id: person/kosta-hormann
+class: person
+label:
+  ar: "كوستا هورمان"
+  en: "Kosta Hörmann"
+  ur: "کوسٹا ہورمان"
+names:
+  - { value: "Konstantin Hörmann", kind: full }
+  - { value: "Kosta Hörmann", kind: alternate }
+gender: male
+born:
+  edtf: "1850-09-08"
+  hijri: "1266"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Bjelovar on 8 September 1850 into a family of Bavarian settlers, and trained at Vienna on the Military Frontier administrative course. The Hijri year 1266 is derived by conversion and is marked derived. Bjelovar has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-kosta-hormann-en, source/wikipedia-kosta-hormann-hr, source/wikidata-kosta-hormann]
+died:
+  edtf: "1921-11-16"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Vienna on 16 November 1921 and was buried in the Zentralfriedhof. QUEUE CORRECTION: the queue's death year 1910 is the year of his retirement from the provincial service, not of his death; both biographies and Wikidata give 1921. The Hijri year 1340 is derived by conversion and is marked derived. Vienna has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-kosta-hormann-en, source/wikipedia-kosta-hormann-hr, source/wikidata-kosta-hormann]
+roles: [official, folklorist, editor]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for the man himself: the two biographies and the Wikidata item (which carries no religion value at all) are silent. The queue's '(Muslim Associates)' tag reflects his life's work of collecting and publishing Bosnian Muslim oral poetry — his scholarship, not his faith — and his Bavarian settler family background is background, which never counts; neither does his burial in Vienna's municipal Zentralfriedhof. Absence configuration."
+    sources: [source/wikipedia-kosta-hormann-en, source/wikipedia-kosta-hormann-hr, source/wikidata-kosta-hormann]
+relations: []
+summary:
+  ar: "موظّف في الإدارة النمساوية المجرية من أصل بافاري، وهو المؤسّس والمدير الأول للمتحف الوطني للبوسنة والهرسك في سراييفو؛ جمع ونشر مجموعة مبكرة كبرى من الشعر الشفهي لمسلمي البوسنة في جزأين (1888–1889)، وأسّس مجلة المتحف وحرّرها وأطلق مجلة «ندا» الأدبية."
+  en: "Austro-Hungarian official of Bavarian descent and founding director of the National Museum of Bosnia and Herzegovina in Sarajevo. He compiled and published an early major collection of Bosnian Muslim oral poetry in two volumes (1888–89), founded and edited the museum journal Glasnik and launched the literary magazine Nada."
+  ur: "باویرین نسل کے آسٹرو ہنگری اہلکار اور سرائیوو میں بوسنیا و ہرزیگوینا کے قومی عجائب گھر کے بانی و پہلے ڈائریکٹر۔ انھوں نے بوسنیائی مسلمانوں کی زبانی شاعری کا بڑا ابتدائی مجموعہ دو جلدوں میں مرتب و شائع کیا (1888–89)، عجائب گھر کا جریدہ جاری و مرتب کیا اور ادبی مجلہ «ندا» کی بنیاد رکھی۔"
+sources:
+  - source/wikipedia-kosta-hormann-en
+  - source/wikipedia-kosta-hormann-hr
+  - source/wikidata-kosta-hormann
+external_ids:
+  wikidata: Q16115509
+provenance:
+  layer: own-research
+  source: "English and Croatian Wikipedia biographies of Konstantin (Kosta) Hörmann (Q16115509) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Bavarian-descent Habsburg official who accompanied the 1878 occupation of Bosnia, founded and directed the National Museum in Sarajevo and compiled the Narodne pjesne Muhamedovaca — not the 'Serb painter' of the batch brief, a description no source read supports. Existence checks by name fragments (hormann) and by QID across data/person on origin/main found no prior record. His museum directorship and government offices are never relations, and Bjelovar and Vienna have no place entities on main, so relations are empty."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
