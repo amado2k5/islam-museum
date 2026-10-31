@@ -16,3 +16,10 @@ Al-Mas'udi relates that on the day of the Camel, when al-Zubayr and Talha withdr
 
 ## His succession and death
 Al-Mas'udi says that he turned the oath of allegiance from Khalid ibn Yazid to his son Abd al-Malik. There are two reports of his death: it is said that his wife Fakhita, the mother of Khalid, placed a cushion over his face until he died, and it is said that she gave him poisoned milk to drink. His days were nine months, and he died aged sixty-three. {cite:muruj-al-dhahab p.84-85}
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 263}
+
+- **Police:** Yahya ibn Qays al-Ghassani {cite:tarikh-khalifa-umari-1985 p. 263}
+- **Secretary:** [[person/sarjun-ibn-mansur|Sarjun ibn Mansur al-Rumi]] {cite:tarikh-khalifa-umari-1985 p. 263}
+- **Chamberlain:** Abu Sahl al-Aswad, his mawla (the manuscript has «Abu Nahshal»; corrected from the margin) {cite:tarikh-khalifa-umari-1985 p. 263}

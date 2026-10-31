@@ -13,6 +13,8 @@
 
 - **Batch 1** (intro): `source/tarikh-khalifa-umari-1985`, `work/tarikh-khalifa-ibn-khayyat`, enriched `person/khalifa-ibn-khayyat` (lineage, teachers, students, al-Bukhari's 18 citations, the Ahmad ibn Riyah episode, death 230/240/246 with the editor's preference for 240).
 
+- **Batch 2** (officials tables and two rolls): a section "His officials in Khalifa ibn Khayyat" added to 24 caliphs (Abu Bakr to al-Ma'mun, plus Ibn al-Zubayr): 1,097 office-holders by province and office, 331 linked to existing people, editor-restored lines marked; `event/waqat-al-harra` (97 Quraysh, 173 Ansar, 306 total, al-Mada'ini's date 27 Dhu al-Hijja 63, the executed); `event/revolt-of-ibn-al-ashath` (the reciters' roll, Maskin 5,000/4,000).
+
 ## Next step
 
-Batch 2: the officials' tables per caliph (claims tables A–C in the session scratchpad), enriching caliph and governor entities.
+Batch 3: Khalifa's second dates for existing events (claims A 5–21, B 11–19, C 15–20: deaths of the caliphs, the Camel, Siffin, Nahrawan, Ajnadayn, the Zab, Qudayd…), then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.

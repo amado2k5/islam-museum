@@ -35,7 +35,7 @@ perspectives:
   - tradition: shia-twelver
     id: shia-twelver
     summary: { en: "Twelver Shia tradition holds that the Prophet had designated Ali ibn Abi Talib as successor, so regards Abu Bakr's accession as a departure from that designation." }
-sources: [source/assabile-omar-abdelkafy, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/encyclopaedia-of-islam-2]
+sources: [source/assabile-omar-abdelkafy, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985]
 education:
   did_you_know:
     ar: "رافق أبو بكر النبي في الهجرة وكان أول من صلى بالناس بعده؛ وتلقّب بالعتيق والصدّيق."
@@ -47,6 +47,7 @@ education:
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold); run omar-abdelkafy-sharh-ketab-1" }
 provenance:
+  run: lib-tarikh-khalifa-batch-2-2026-10-31
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 128 (early life and family; EI2 enrichment, batch ei2-b002 part 2b)"
   generated_by: "Claude Code (claude-haiku-5-5)"
