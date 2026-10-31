@@ -1,0 +1,42 @@
+id: person/al-yaqubi
+class: person
+label:
+  ar: اليعقوبي
+  en: al-Ya'qubi
+  ur: الیعقوبی
+names:
+- kind: full
+  lang: ar
+  value: أحمد بن أبي يعقوب بن جعفر بن وهب بن واضح الكاتب العباسي
+- kind: nisba
+  lang: ar
+  value: اليعقوبي
+roles:
+- historian
+gender: male
+wings:
+- people
+periods:
+- period/abbasid-early
+summary:
+  ar: أحمد بن أبي يعقوب بن جعفر بن وهب بن واضح الكاتب العباسي، المعروف باليعقوبي، كما يسمّيه عنوان كتابه، صاحب التاريخ المعروف باسمه، الذي ينتهي الموجود منه بحوادث سنة 258هـ. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. scan 3} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 625}
+  en: Ahmad ibn Abi Ya'qub ibn Ja'far ibn Wahb ibn Wadih al-Katib al-Abbasi, known as al-Ya'qubi, as the title of his book names him; author of the history known by his name, whose surviving text ends with the events of 258 AH. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. scan 3} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 625}
+  ur: احمد بن ابی یعقوب بن جعفر بن وہب بن واضح الکاتب العباسی، جو الیعقوبی کے نام سے معروف ہیں، جیسا کہ ان کی کتاب کا عنوان انہیں پکارتا ہے؛ اپنے نام سے معروف تاریخ کے مصنف، جس کا موجود متن 258ھ کے واقعات پر ختم ہوتا ہے۔ {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. scan 3} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 625}
+relations:
+- type: authored
+  target: work/tarikh-al-yaqubi
+  sources:
+  - source/tarikh-yaqubi-houtsma-1883
+sources: &id001
+- source/tarikh-yaqubi-houtsma-1883
+provenance:
+  layer: own-research
+  source: Tarikh al-Ya'qubi (Houtsma ed.), vol. 2 title page (scan p. 3) and colophon (p. 625)
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-tarikh-yaqubi-batch-1-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Tarikh al-Yaqubi (Houtsma ed., Leiden 1883), read on the page

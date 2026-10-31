@@ -16,3 +16,6 @@ The Gregorian date is derived from the Hijri date.
 
 ## In Khalifa ibn Khayyat
 [[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says al-Mu'tasim died on Thursday, eleven nights before the end of Rabi' al-Awwal, 227, and al-Wathiq received the oath. {cite:tarikh-khalifa-umari-1985 p. 478}
+
+## In al-Ya'qubi
+[[person/al-yaqubi|Al-Ya'qubi]] says al-Mu'tasim died on a Thursday with eleven nights of Rabi' I remaining; his son Harun (al-Wathiq) led the funeral prayer and he was buried in his palace known as al-Jawsaq. His reign lasted eight years, and his sons were Harun al-Wathiq, Ja'far al-Mutawakkil, Muhammad, Ahmad, Ali and al-Abbas. His chamberlains were a group of Turks, among them Wasif. His day (eleven nights before the month's end) differs from those who place the death on the eleventh of the month. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 584}
