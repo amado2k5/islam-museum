@@ -204,3 +204,29 @@ translators: []
 ويقول الشيخ إن الأمم السابقة كان فيها ملهَمون ليسوا بأنبياء، وإن هذه الأمة فيها عمر؛ ويقول إن الله يطلب الفرائض والنبي يطلب السنة (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:17:00}
 
 ويذكر الشيخ دعاءً منسوبًا إلى عمر يسأل فيه الله أعمالًا خالصة صالحة (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:39:30}
+
+## عماله عند خليفة بن خياط
+يختم [[person/khalifa-ibn-khayyat|خليفة بن خياط]] أخبار هذا العهد بتسمية العمال وأصحاب المناصب. ونقلها هنا على ترتيبه، والأسطر التي استدركها المحقق من مصادر متأخرة منبّه عليها. {cite:tarikh-khalifa-umari-1985 p. 153–156}
+
+- **مكة:** محرز بن حارثة بن ربيعة بن عبد العزى بن عبد شمس (ثم عزله)، ثم قنفذ بن عمير بن جدعان التيمي (ثم عزله)، ثم نافع بن عبد الحارث الخزاعي (استخلف مولاه عبد الرحمن بن أبزى فعزله عمر)، ثم خالد بن العاص بن هشام بن المغيرة المخزومي {cite:tarikh-khalifa-umari-1985 p. 153}
+- **المدينة:** [[person/zayd-ibn-thabit|زيد بن ثابت]] (استخلفه في حجته وحين خرج إلى الشام)، ثم عبد الله (خال له استخلفه في بعض حجه، رواية أبي المليح) {cite:tarikh-khalifa-umari-1985 p. 153} {cite:tarikh-khalifa-umari-1985 p. 154}
+- **اليمن:** [[person/abdullah-ibn-abi-rabia|عبد الله بن أبي ربيعة المخزومي]] {cite:tarikh-khalifa-umari-1985 p. 154}
+- **البحرين:** [[person/al-ala-ibn-al-hadrami|العلاء بن الحضرمي]] (ثم سار إلى البصرة فمات قبل أن يصلها)، ثم [[person/qudama-ibn-mazun|قدامة بن مظعون]] (ثم عزله)، ثم [[person/uthman-ibn-abi-al-as|عثمان بن أبي العاص]]، ثم [[person/abu-hurayra|أبو هريرة]] (من ولاته عليها)، ثم عياش بن أبي ثور (من ولاته عليها) {cite:tarikh-khalifa-umari-1985 p. 154}
+- **عمان:** بلال رجل من الأنصار (ثم ضمها إلى عثمان بن أبي العاص) {cite:tarikh-khalifa-umari-1985 p. 154}
+- **البصرة:** [[person/shurayh-ibn-amir-al-sadi|شريح بن عامر]] (قتل ناحية الأهواز)، ثم [[person/utba-ibn-ghazwan|عتبة بن غزوان]]، ثم [[person/mujashi-ibn-masud-al-sulami|مجاشع بن مسعود]] (استخلفه عتبة)، ثم [[person/al-mughira-ibn-shuba|المغيرة بن شعبة]] (أقره ثم عزله)، ثم [[person/abu-musa-al-ashari|أبو موسى]] (حتى قتل عمر)، ثم [[person/imran-ibn-husayn|عمران بن حصين]] (يستخلفه أبو موسى إذا غزا)، ثم [[person/ziyad-ibn-abi-sufyan|زياد]] (وربما استخلفه أبو موسى) {cite:tarikh-khalifa-umari-1985 p. 154}
+- **الكوفة:** [[person/saad-ibn-abi-waqqas|سعد بن مالك]] (ثم عزله)، ثم [[person/ammar-ibn-yasir|عمار بن ياسر]]، ثم [[person/saad-ibn-abi-waqqas|سعد بن مالك]] (الثانية ثم عزله)، ثم [[person/jubayr-ibn-mutim|جبير بن مطعم]] (عزله قبل أن يسير)، ثم [[person/al-mughira-ibn-shuba|المغيرة بن شعبة]] (حتى قتل عمر) {cite:tarikh-khalifa-umari-1985 p. 154} {cite:tarikh-khalifa-umari-1985 p. 155}
+- **قضاء البصرة:** [[person/abu-maryam-al-hanafi|أبو مريم الحنفي]] (ثم عزله)، ثم [[person/kab-ibn-suwar|كعب بن سور اللقيطي]] (حتى قتل عمر) {cite:tarikh-khalifa-umari-1985 p. 154}
+- **قضاء الكوفة:** [[person/salman-ibn-rabi-a|سلمان بن ربيعة الباهلي]]، ثم عبيدة السلماني (ويقال: استقضي قبل شريح)، ثم [[person/shurayh-al-qadi|شريح]] (سنة اثنتين وعشرين) {cite:tarikh-khalifa-umari-1985 p. 155}
+- **اليمامة:** سلمة بن سلامة بن وقش الأنصاري {cite:tarikh-khalifa-umari-1985 p. 155}
+- **الطائف:** [[person/uthman-ibn-abi-al-as|عثمان بن أبي العاص]] (أقره ثم عزله)، ثم [[person/sufyan-ibn-abdullah-al-thaqafi|سفيان بن عبد الله الثقفي]] {cite:tarikh-khalifa-umari-1985 p. 155}
+- **الشام:** [[person/abu-ubayda-ibn-al-jarrah|أبو عبيدة بن الجراح]] (بعد عزل خالد؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/muadh-ibn-jabal|معاذ]] (استخلفه أبو عبيدة في طاعون عمواس؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/yazid-ibn-abi-sufyan|يزيد بن أبي سفيان]] (استخلفه معاذ؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/muawiya-ibn-abi-sufyan|معاوية]] (استخلفه أخوه يزيد فأقره عمر، ثم جمع له الشام كلها؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة) {cite:tarikh-khalifa-umari-1985 p. 155}
+- **فلسطين:** [[person/yazid-ibn-abi-sufyan|يزيد بن أبي سفيان]] (ولاه أبو عبيدة؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/amr-ibn-al-as|عمرو بن العاص]] (مع الأردن) {cite:tarikh-khalifa-umari-1985 p. 155}
+- **الأردن:** [[person/sharhabil-ibn-hasana|شرحبيل بن حسنة]] (ولاه أبو عبيدة؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة) {cite:tarikh-khalifa-umari-1985 p. 155}
+- **دمشق:** [[person/khalid-ibn-al-walid|خالد بن الوليد]] (ولاه أبو عبيدة؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/muawiya-ibn-abi-sufyan|معاوية]] (مع بعلبك والبلقاء) {cite:tarikh-khalifa-umari-1985 p. 155}
+- **حمص:** [[person/habib-ibn-maslama|حبيب بن مسلمة]] (ثم عزله؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/abd-allah-ibn-qurt|عبد الله بن قرط الثمالي]] (ثم عزله؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/ubada-ibn-al-samit|عبادة بن الصامت الأنصاري]] (ثم عزله ورد ابن قرط؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/said-ibn-amir-al-jumahi|سعيد بن عامر بن حذيم]] {cite:tarikh-khalifa-umari-1985 p. 155}
+- **مصر:** [[person/amr-ibn-al-as|عمرو بن العاص]] (سار إليها فافتتحها، فلم يزل والياً حتى مات عمر) {cite:tarikh-khalifa-umari-1985 p. 155}
+- **الجزيرة:** عياض بن غنم (ثم عزله)، ثم [[person/habib-ibn-maslama|حبيب بن مسلمة الفهري]] (وضم إليه أرمينية وأذربيجان، ثم عزله)، ثم [[person/umayr-ibn-sad|عمير بن سعد الأنصاري]] {cite:tarikh-khalifa-umari-1985 p. 155}
+- **الكاتب:** [[person/zayd-ibn-thabit|زيد بن ثابت]]، ثم [[person/muayqib-ibn-abi-fatima|معيقيب]] (وقد كتب له)، ثم عبد الله بن خلف الخزاعي (على ديوان البصرة، أبو طلحة الطلحات)، ثم أبو جبيرة بن الضحاك الأنصاري (على ديوان الكوفة) {cite:tarikh-khalifa-umari-1985 p. 156}
+- **الحاجب:** يرفأ مولاه {cite:tarikh-khalifa-umari-1985 p. 156}
+- **الخازن:** يسار {cite:tarikh-khalifa-umari-1985 p. 156}
+- **بيت المال:** عبد الله بن الأرقم {cite:tarikh-khalifa-umari-1985 p. 156}

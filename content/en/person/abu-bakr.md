@@ -123,3 +123,22 @@ The Sheikh divides lies into kinds according to their colours, says that lying t
 :::
 
 He recounts that Abu Bakr vomited milk after doubting where it came from, and says that doubtful food is a main reason why prayers are not answered (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:32:30}
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 122–123}
+
+- **Medina:** Sinan al-Damri (deputy when he went out to Dhu al-Qassa); then [[person/usama-ibn-zayd|Usama ibn Zayd]] (some say); then Qatada ibn al-Nu'man al-Zafari (deputy during his Hajj of 12 AH); then [[person/abd-allah-ibn-umm-maktum|Ibn Umm Maktum]] (some say) {cite:tarikh-khalifa-umari-1985 p. 122} {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Passes of Medina:** [[person/abdullah-ibn-masud|Ibn Mas'ud]] {cite:tarikh-khalifa-umari-1985 p. 122}
+- **Bahrayn:** [[person/al-ala-ibn-al-hadrami|al-Ala ibn al-Hadrami]] (until Abu Bakr died; Umar confirmed him); then [[person/anas-ibn-malik|Anas [ibn Malik]]] (report of Musa ibn Anas) {cite:tarikh-khalifa-umari-1985 p. 122} {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Oman:** [[person/ikrima-ibn-abi-jahl|Ikrima ibn Abi Jahl]] (sent there, then to Yemen); then Hudhayfa al-Alaqani (until Abu Bakr died; the editor notes the nisba is disputed) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **San'a:** [[person/al-muhajir-ibn-abi-umayya|al-Muhajir ibn Abi Umayya al-Makhzumi]] (in (( )) in the edition: restored by the editor from later authors quoting Khalifa) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Yemen:** [[person/ziyad-ibn-labid-al-bayadi|Ziyad ibn Labid al-Ansari]] (over the coast beyond San'a) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Khawlan:** [[person/yala-ibn-umayya|Ya'la ibn Umayya]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Mecca:** [[person/attab-ibn-usayd|Attab ibn Asid]] (confirmed; he and Abu Bakr died on the same day) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Ta'if:** [[person/uthman-ibn-abi-al-as|Uthman ibn Abi al-As]] (confirmed) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Yamama:** [[person/salit-ibn-qays|Salit ibn Qays]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Secretary:** [[person/uthman-ibn-affan|Uthman ibn Affan]]; then [[person/zayd-ibn-thabit|Zayd ibn Thabit]] (some say he also wrote for him) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Chamberlain:** Shadid, his mawla {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Over all his affairs and judgeship:** [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Treasury:** [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda ibn al-Jarrah]] (then sent him to Syria; in (( )) in the edition: restored by the editor from later authors quoting Khalifa) {cite:tarikh-khalifa-umari-1985 p. 123}
+- **Muezzin:** Sa'd al-Qaraz, mawla of Ammar ibn Yasir {cite:tarikh-khalifa-umari-1985 p. 123}
