@@ -631,3 +631,28 @@ relies_on:
   label: { en: "Relies on", ar: "استند إلى" }
   inverse_label: { en: "Relied on by", ar: "اعتُمد عليه" }
   temporal: false
+
+# ---- fatwa explorer (plan 25, approved 31 Oct 2026); relies_on already exists above
+agrees_with:
+  inverse: agrees_with
+  domain: [work]
+  range: [work]
+  label: { en: "Agrees with", ar: "يوافق" }
+  inverse_label: { en: "Agrees with", ar: "يوافق" }
+  temporal: false
+
+revised_by:
+  inverse: revises
+  domain: [work]
+  range: [work]
+  label: { en: "Revised by", ar: "يراجعه" }
+  inverse_label: { en: "Revises", ar: "يراجع" }
+  temporal: false
+
+codified_in:
+  inverse: codifies
+  domain: [work]
+  range: [work]
+  label: { en: "Codified in", ar: "مُقنَّن في" }
+  inverse_label: { en: "Codifies", ar: "يقنّن" }
+  temporal: false

@@ -1,0 +1,52 @@
+id: person/essad-toptani
+class: person
+label:
+  ar: "أسعد توبتاني"
+  en: "Essad Toptani"
+  ur: "اسعد توپتانی"
+names:
+  - { value: "Essad Toptani", kind: full }
+  - { value: "Esad Toptani", kind: alternate }
+gender: male
+born:
+  edtf: "1863"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Tirana in 1863, son of Ali Toptani and Vasfije Alizoti of the Toptani landowning family; the English biography's lead gives the birth years as 1863/1875, so the birth is debated and the 1875 variant is preserved here. A bare Gregorian year spans two Hijri years (1863 falls across 1279–1280 AH), so no hijri key is carried. Tirana has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-essad-toptani-en, source/wikipedia-essad-toptani-sq, source/wikidata-essad-toptani]
+died:
+  edtf: "1920-06-13"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Shot dead by Avni Rustemi in Paris on 13 June 1920 as he left the Hotel Continental, and buried in the Serbian military section of the Thiais cemetery. The Hijri year 1338 is derived by conversion and is marked derived. Paris has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-essad-toptani-en, source/wikipedia-essad-toptani-sq, source/wikidata-essad-toptani]
+roles: [politician, general]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. Wikidata's single structured family gives his religion as Sunni Islam, but no biographical text consulted — neither the English nor the Albanian biography — names a school or any religious affiliation for the man himself, so under the two-source rule the structured reading is preserved here unclassified. His Toptani family background and his Ottoman offices never count."
+    sources: [source/wikidata-essad-toptani, source/wikipedia-essad-toptani-en]
+relations: []
+summary:
+  ar: "سياسي وضابط عثماني ألباني من تيرانا، رئيس وزراء ألبانيا 1914–1916 ومؤسس جمهورية ألبانيا الوسطى في دوريس، واغتيل في باريس سنة 1920؛ ويذكره كثير من الألبان بوصفه خائناً لتسليمه شكودر ولتحالفه مع صربيا."
+  en: "Albanian politician and Ottoman officer from Tirana, prime minister of Albania from 1914 to 1916 and founder of the Republic of Central Albania based at Durrës; assassinated in Paris in 1920 and remembered by many Albanians as a traitor for surrendering Shkodër and for his alliance with Serbia."
+  ur: "تیرانا سے تعلق رکھنے والے البانوی سیاست دان اور عثمانی افسر، 1914 سے 1916 تک البانیا کے وزیرِ اعظم اور دوریس میں قائم وسطی البانیا جمہوریہ کے بانی؛ 1920 میں پیرس میں قتل ہوئے اور اشقودرہ کے حوالے کرنے اور صربیا سے اتحاد کی وجہ سے بہت سے البانوی انھیں غدار سمجھتے ہیں۔"
+sources:
+  - source/wikipedia-essad-toptani-en
+  - source/wikipedia-essad-toptani-sq
+  - source/wikidata-essad-toptani
+external_ids:
+  wikidata: Q366796
+provenance:
+  layer: own-research
+  source: "English and Albanian Wikipedia biographies of Essad Toptani (Q366796) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties, to which the queue's 'Essad Pasha Toptani' title redirects. Identity: the queue line's bearer is the Tirana-born prime minister of 1914–1916 (1863–1920); the queue's years are confirmed, with the English lead's rival 1875 birth year preserved as debated. Existence checks by name fragments (toptani, essad, esad) and by QID across data/person on origin/main found no prior record. The slug follows the English article and Wikidata label; 'Pasha' is his title and is never a name entry. His first cousin Aqif Pasha Biçakçiu has no person record on main, so relations are empty."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-128
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

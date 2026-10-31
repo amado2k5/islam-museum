@@ -1,0 +1,50 @@
+id: person/salih-safvet-basic
+class: person
+label:
+  ar: "صالح صفوت باشيتش"
+  en: "Salih Safvet Bašić"
+  ur: "صالح صفوت باشیچ"
+names:
+  - { value: "Salih Safvet Bašić", kind: full }
+gender: male
+born:
+  edtf: "1886"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1886 at Duvno (now Tomislavgrad), into a merchant family; the Bosnian and Croatian biographies and Wikidata all give a year only. A bare Gregorian year spans two Hijri years (1886 falls across 1303–1304 AH), so no hijri key is carried. Duvno/Tomislavgrad has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-salih-safvet-basic-bs, source/wikipedia-salih-safvet-basic-hr, source/wikidata-salih-safvet-basic]
+died:
+  edtf: "1948"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1948 at Duvno, where he had retired the year before, after Ibrahim Fejić's installation as reis-ul-ulema ended his acting tenure; the Bosnian and Croatian biographies and Wikidata agree on the year. A bare Gregorian year spans two Hijri years (1948 falls across 1367–1368 AH), so no hijri key is carried."
+  sources: [source/wikipedia-salih-safvet-basic-bs, source/wikipedia-salih-safvet-basic-hr, source/wikidata-salih-safvet-basic]
+roles: [teacher, official]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The biographies record his Istanbul study, his teaching post at Sarajevo's Sharia school and his two periods at the head of Yugoslavia's Islamic Community — as naib (deputy) in 1936–1938 and as acting reis-ul-ulema in 1942–1947, never formally holding the reis title — and Wikidata gives only Islam. Office, schooling and a deputy's acting tenure never count. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-salih-safvet-basic-bs, source/wikipedia-salih-safvet-basic-hr, source/wikidata-salih-safvet-basic]
+relations: []
+summary:
+  ar: "مربٍّ وإداري ديني بوسني من دوفنو (توميسلافغراد)، ترأّس الجماعة الإسلامية في يوغوسلافيا مرتين: نائباً لرئيس العلماء (1936–1938) ثم قائماً بأعمال رئيس العلماء (1942–1947)، دون أن يحمل اللقب رسمياً قط."
+  en: "Bosnian pedagogue and religious administrator from Duvno (Tomislavgrad) who twice headed Yugoslavia's Islamic Community — as naib (deputy) in 1936–1938 and as acting reis-ul-ulema in 1942–1947 — without ever formally holding the reis title."
+  ur: "دوفنو (تومسلاوگراد) سے تعلق رکھنے والے بوسنیائی معلم اور دینی منتظم، جو دو مرتبہ یوگوسلاویہ کی اسلامی برادری کے سربراہ رہے: نائب رئیس العلماء (1936ء–1938ء) اور پھر قائم مقام رئیس العلماء (1942ء–1947ء)، بغیر اس عہدے کا باقاعدہ لقب حاصل کیے۔"
+sources:
+  - source/wikipedia-salih-safvet-basic-bs
+  - source/wikipedia-salih-safvet-basic-hr
+  - source/wikidata-salih-safvet-basic
+external_ids:
+  wikidata: Q29582648
+provenance:
+  layer: own-research
+  source: "Bosnian and Croatian Wikipedia biographies of Salih Safvet Bašić (Q29582648) and the Wikidata item, read in full; there is no English article. Every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the Bosnian article's page properties. Identity: the queue line's bearer is the Duvno-born naib and acting reis-ul-ulema (1886–1948); the queue's years are confirmed. Existence checks by name fragments (basic, bašić) and by QID across data/person on origin/main found no prior record; Bašić is a common surname, so the identity was pinned by biography (born and died at Duvno, Istanbul philosophy graduate, naib 1936–1938) as well as by QID. Duvno/Tomislavgrad has no place entity on main, and his Sarajevo teaching and Belgrade-seated deputyship are posts, not relations, so relations are empty."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-129
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

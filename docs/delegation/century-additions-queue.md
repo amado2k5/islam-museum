@@ -695,11 +695,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fakhruddin Ali Ahmed — 1905–1977
 - [x] Mohammad Hidayatullah — 1905–1992
 - [x] M. C. Chagla — 1900–1981
-- [ ] Syed Shahabuddin — 1935–2017
-- [ ] Ebrahim Alkazi — 1925–2020
-- [ ] Habib Tanvir — 1923–2009
-- [ ] Kaifi Azmi — 1919–2002
-- [ ] Javed Akhtar — 1945–Living
+- [x] Syed Shahabuddin — 1935–2017
+- [x] Ebrahim Alkazi — 1925–2020
+- [x] Habib Tanvir — 1923–2009
+- [x] Kaifi Azmi — 1919–2002
+- [x] Javed Akhtar — 1945–Living
 - [ ] Shabana Azmi — 1950–Living
 - [ ] Naseeruddin Shah — 1950–Living
 - [ ] Irrfan Khan — 1967–2020
@@ -1600,21 +1600,21 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Adda Benshitrit (1870–1935)
 - [x] Sheikh Si Kaddour Benghabrit (1868–1954)
 - [~] Hamza Boubakeur (Ancestors) (1890–1940)
-- [ ] Mahmud Brelvi (1905–1985)
-- [ ] Ahmed Peshtani (1850–1915)
-- [ ] Haxhi Zeka (1832–1902)
-- [ ] Ymer Prizreni (1820–1887)
-- [ ] Avni Rustemi (1895–1924)
-- [ ] Bajram Curri (1862–1925)
-- [ ] Luigj Gurakuqi (Muslim Allies) (1879–1925)
-- [ ] Hasan Prishtina (1873–1933)
-- [ ] Essad Pasha Toptani (1863–1920)
-- [ ] Vehbi Dibra (1867–1937)
-- [ ] Hafiz Ali Korça (1873–1956)
-- [ ] Salih Safvet Bašić (1886–1948)
-- [ ] Safvet-beg Bašagić (1870–1934)
-- [ ] Edhem Mulabdić (1862–1954)
-- [ ] Osman Nuri Hadžić (1869–1937)
+- [x] Mahmud Brelvi (1905–1985)
+- [~] Ahmed Peshtani (1850–1915)
+- [x] Haxhi Zeka (1832–1902)
+- [x] Ymer Prizreni (1820–1887)
+- [x] Avni Rustemi (1895–1924)
+- [x] Bajram Curri (1862–1925)
+- [x] Luigj Gurakuqi (Muslim Allies) (1879–1925)
+- [x] Hasan Prishtina (1873–1933)
+- [x] Essad Pasha Toptani (1863–1920)
+- [x] Vehbi Dibra (1867–1937)
+- [x] Hafiz Ali Korça (1873–1956)
+- [x] Salih Safvet Bašić (1886–1948)
+- [x] Safvet-beg Bašagić (1870–1934)
+- [x] Edhem Mulabdić (1862–1954)
+- [x] Osman Nuri Hadžić (1869–1937)
 - [ ] Mehmed Spaho (1883–1939)
 - [ ] Fehim Spaho (1877–1942)
 - [ ] Mustafa Mujezinović (1890–1945)
