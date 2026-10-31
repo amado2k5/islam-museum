@@ -1,0 +1,35 @@
+id: building/dar-al-raml-fustat
+class: building
+kind: other
+label:
+  ar: دار الرمل بالفسطاط
+  en: Dar al-Raml, al-Fustat
+  ur: دار الرمل، فسطاط
+summary:
+  ar: دار بالفسطاط اختطها مسلمة بن مخلد ومعه أبو رافع وعقبة بن عامر، ثم صارت داراً للمسلمين ينزلها ولاتهم في عهد معاوية؛ وسُمّيت برملة ابنة معاوية، أو بالرمل الذي كان يُنقل إليها لدار الضرب {cite:futuh-misr-amir-1999 p. 143} {cite:futuh-misr-amir-1999 p. 144} {cite:futuh-misr-amir-1999 p. 145}.
+  en: A house in al-Fustat laid out by Maslama ibn Mukhallad with Abu Rafi' and Uqba ibn Amir, which under Mu'awiya became a house for the Muslims where their governors lodged; named after Ramla daughter of Mu'awiya, or after the sand carried there for the mint {cite:futuh-misr-amir-1999 p. 143} {cite:futuh-misr-amir-1999 p. 144} {cite:futuh-misr-amir-1999 p. 145}.
+  ur: فسطاط میں ایک گھر جس کا خطہ مسلمہ بن مخلد نے ابو رافع اور عقبہ بن عامر کے ساتھ لیا؛ معاویہ کے دور میں یہ مسلمانوں کا گھر بنا جہاں ان کے والی اترتے تھے؛ اس کا نام معاویہ کی بیٹی رملہ کے نام پر، یا ٹکسال کے لیے لائی جانے والی ریت (رمل) کی وجہ سے پڑا {cite:futuh-misr-amir-1999 p. 143} {cite:futuh-misr-amir-1999 p. 144} {cite:futuh-misr-amir-1999 p. 145}۔
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: located_in
+  target: place/al-fustat
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 143–145
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-3-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
