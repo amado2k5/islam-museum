@@ -1,0 +1,56 @@
+id: person/mehdi-hassan
+class: person
+label:
+  ar: "مهدي حسن"
+  en: "Mehdi Hassan"
+  ur: "مہدی حسن"
+names:
+  - { value: "Mehdi Hassan Khan", kind: full }
+  - { value: "مهدي حسن", kind: full }
+  - { value: "مہدی حسن خان", kind: full }
+  - { value: "Shahenshah-e-Ghazal", kind: laqab }
+gender: male
+born:
+  edtf: "1927-07-18"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 18 July 1927 at Luna, a village in the Jaipur State of British India (now in Jhunjhunu district, Rajasthan), into a family of hereditary Kalawant musicians: the English article, the Urdu article and Wikidata agree, and the Arabic article's Hijri birth-year category (1346) matches the conversion. Luna has no place entity, so no born_in edge is written. The Hijri year 1346 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-mehdi-hassan-en, source/wikipedia-mehdi-hassan-ur, source/wikidata-mehdi-hassan]
+died:
+  edtf: "2012-06-13"
+  hijri: "1433"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 13 June 2012 at Karachi, after a long chronic lung illness: the English article, the Urdu article and Wikidata agree, and the Arabic article's Hijri death-year category (1433) matches the conversion. Karachi has no place entity, so no died_in edge is written. The Hijri year 1433 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-mehdi-hassan-en, source/wikipedia-mehdi-hassan-ur, source/wikidata-mehdi-hassan]
+roles: [musician]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration: no source read names a school for him. Wikidata carries a single religion value, Islam, and the English and Arabic articles file him in their 'Pakistani Muslims' categories — one structured-and-filing family. The English article's remark that his daily routine included religious observance attests practice, not a school; his hereditary Kalawant family background is background; and his standing as a ghazal singer is repertoire. Under the two-source rule the value stays unknown."
+    sources: [source/wikipedia-mehdi-hassan-en, source/wikipedia-mehdi-hassan-ur, source/wikidata-mehdi-hassan]
+relations: []
+summary:
+  ar: "مغنٍّ باكستاني للغزل والأغاني المصوّرة (1927–2012)، وُلد في لونا بولاية راجستان لأسرة من موسيقيي البلاط الوراثيين، ولُقّب «شاهنشاه الغزل»؛ هاجر إلى باكستان سنة 1947، وغنّى في أكثر من ثلاثمئة فيلم، ونال فخر الأداء (1985) ونيشان الامتياز (2006) وهلال الامتياز (2010)."
+  en: "Pakistani ghazal and playback singer (1927–2012), born at Luna in Rajasthan into a family of hereditary Kalawant musicians and known as Shahenshah-e-Ghazal, 'Emperor of Ghazal'; he migrated to Pakistan in 1947, sang for more than 300 films and received the Pride of Performance (1985), the Nishan-e-Imtiaz (2006) and the Hilal-e-Imtiaz (2010)."
+  ur: "پاکستانی غزل و پسِ پردہ گلوکار (1927ء–2012ء)، جو راجستھان کے لونا میں کلاونت موسیقاروں کے گھرانے میں پیدا ہوئے اور «شہنشاہِ غزل» کہلائے؛ 1947ء میں پاکستان ہجرت کی، تین سو سے زائد فلموں کے لیے گایا اور پرائیڈ آف پرفارمنس (1985ء)، نشانِ امتیاز (2006ء) اور ہلالِ امتیاز (2010ء) سے نوازے گئے۔"
+sources:
+  - source/wikipedia-mehdi-hassan-en
+  - source/wikipedia-mehdi-hassan-ar
+  - source/wikipedia-mehdi-hassan-ur
+  - source/wikidata-mehdi-hassan
+external_ids:
+  wikidata: Q395249
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Mehdi Hassan and the Wikidata item Q395249, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Luna-born ghazal singer (1927–2012) — the English article itself carries distinguish and similar-names hatnotes against other bearers of the name, and the several person/mehdi-* records on origin/main are Iranian figures, different men. Existence checks by name fragments (mehdi, hassan) and by QID across data/person on origin/main found no prior record for him. The queue's years (1927–2012) are confirmed to the day at both ends. The Arabic article is a bot-generated stub and is cited only for its lead facts and Hijri year categories; its honours list is unreliable and was not used. Relations written: none — Luna and Karachi have no place entities, and his father and uncle, court musicians, hold no person records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-131
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

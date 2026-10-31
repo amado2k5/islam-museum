@@ -1,0 +1,44 @@
+id: person/arif-lohar
+class: person
+label:
+  ar: "عارف لوهار"
+  en: "Arif Lohar"
+  ur: "عارف لوہار"
+names:
+  - { value: "Arif Lohar", kind: full }
+  - { value: "عارف لوہار", kind: full }
+gender: male
+born:
+  edtf: "1966-04-18"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 18 April 1966: the English and Urdu biographies and Wikidata agree on the day. The English biography gives the village of Achh in Kharian Tehsil, Gujrat district, his father Alam Lohar's village; the Urdu biography places his birth at Lalamusa instead, preserved here as a variant. The Hijri year 1385 is a tabular conversion of the followed date, marked derived. Neither place has an entity on main, so both are carried here."
+  sources: [source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur, source/wikidata-arif-lohar]
+roles: [singer, actor]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. Wikidata's item carries Sunni Islam (Q483654) as its religion value — a single structured attestation, one source family; neither the English nor the Urdu biography names any affiliation for him personally, and his Sufi repertoire — his signature Coke Studio performance Alif Allah (Jugni) sings Sufi verse — is repertoire, which never counts. Ruling path: a second independent source naming Sunni Islam for Arif Lohar personally would settle sunni/documented; failing that, the value stays unknown."
+    sources: [source/wikidata-arif-lohar, source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur]
+relations: []
+summary:
+  ar: "مغنّي البنجاب الشعبي الباكستاني (وُلد 18 أبريل 1966)، ابن عالم لوهار وخليفته في فنّه؛ يغني مصحوباً بالچمٹا، واشتهر بأغنية «جغني» مع نوران لال (2006) وبأدائه «ألف الله (جغني)» مع ميشا شفيع في كوك ستوديو (2010)، ونال تمغة حسن الأداء (2005)، ومثّل في نحو 45 فيلماً بنجابياً."
+  en: "Pakistani Punjabi folk singer (born 18 April 1966), son and successor of Alam Lohar; he sings accompanied by the chimta, became famous with Jugni alongside Nooran Lal (2006) and his Coke Studio performance of Alif Allah (Jugni) with Meesha Shafi (2010), acted in some 45 Punjabi films, and received the Pride of Performance (2005)."
+  ur: "پاکستانی پنجابی لوک گلوکار (پیدائش 18 اپریل 1966ء)، عالم لوہار کے بیٹے اور ان کے فن کے وارث؛ چمٹے کے ساتھ گاتے ہیں، نوران لال کے ساتھ «جگنی» (2006ء) اور کوک اسٹوڈیو میں میشا شفیع کے ساتھ «الف اللہ (جگنی)» (2010ء) سے عالمی شہرت پائی، تقریباً 45 پنجابی فلموں میں اداکاری کی اور تمغائے حسن کارکردگی (2005ء) ملا۔"
+sources:
+  - source/wikipedia-arif-lohar-en
+  - source/wikipedia-arif-lohar-ur
+  - source/wikidata-arif-lohar
+external_ids:
+  wikidata: Q660528
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Arif Lohar and the Wikidata item Q660528, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Achh-born folk singer (born 1966), son of Alam Lohar — not any other Lohar. Existence checks by name fragments (lohar) and by QID across data/person on origin/main found no prior record. The queue's year (1966, living) is confirmed to the day. Relations written: none in this file — the parent_of edge is written once in his father's record (person/alam-lohar), built in the same batch; his birthplace is carried in the birth note because Achh and Lalamusa have no place entities. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

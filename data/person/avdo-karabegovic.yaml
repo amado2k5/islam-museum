@@ -1,0 +1,55 @@
+id: person/avdo-karabegovic
+class: person
+label:
+  ar: "أفدو كارابكوفيتش"
+  en: "Avdo Karabegović"
+  ur: "اودو کارابیگووچ"
+names:
+  - { value: "Avdo Karabegović", kind: full }
+  - { value: "S. Avdo Karabegović", kind: pen }
+  - { value: "Avdo Karabegović Halidbegov", kind: alternate }
+gender: male
+born:
+  edtf: "1878-08-25"
+  hijri: "1295"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 25 August 1878 at Modriča into a prominent but impoverished Muslim landowning family, the son of Halid-beg (the English biography gives 'Halim-beg') and Fatima (née Mustajbegović). The byname Halidbegov, from his father, distinguishes him from his cousin Avdo Karabegović Hasanbegov; the 'S.' of his pen name stood for Srbin, 'Serb', marking his Serbophile self-identification. The English and Croatian biographies and Wikidata agree on the day. The Hijri year 1295 is derived by tabular conversion and is marked derived. Modriča has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-avdo-karabegovic-en, source/wikipedia-avdo-karabegovic-hr, source/wikidata-avdo-karabegovic]
+died:
+  edtf: "1908-12-18"
+  hijri: "1326"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of tuberculosis at Loznica on 18 December 1908 (Gregorian; 5 December Julian). The English biography's body, the Croatian biography and Wikidata agree on this day; the English article's infobox instead carries 22 December, which its own body gives as the date of his burial at Belgrade's New Cemetery — the infobox reading is preserved here as an error, not a rival attestation. The Hijri year 1326 is derived by tabular conversion and is marked derived. Loznica has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-avdo-karabegovic-en, source/wikipedia-avdo-karabegovic-hr, source/wikidata-avdo-karabegovic]
+roles: [poet, writer]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him, and Wikidata carries no religion value for him at all. The biographies record a Bosnian Muslim landowning family background, his mekteb schooling at Modriča and his employment teaching Muslim schoolchildren at Mali Zvornik — family background and employment, which never count; his 'S.' initial proclaims a national, Serb, self-identification, not a school. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-avdo-karabegovic-en, source/wikipedia-avdo-karabegovic-hr, source/wikidata-avdo-karabegovic]
+relations:
+  - { type: buried_in, target: place/belgrade, sources: [source/wikipedia-avdo-karabegovic-en, source/wikipedia-avdo-karabegovic-hr] }
+summary:
+  ar: "شاعر بوسني مسلم من مودريتشا نشر باسم «س. أفدو كارابكوفيتش» — والس. تعني «صربي» — فهو من أنصار الصرب بين مسلمي البوسنة؛ جنّدته النمسا قسراً فأصابه السل، وعلّم أطفال المسلمين في صربيا، ومات في لوزنيتسا سنة 1908 ودُفن في بلغراد."
+  en: "Bosnian Muslim poet from Modriča who published as S. Avdo Karabegović — the initial stood for Srbin, 'Serb' — a leading Serbophile among Bosnia's Muslims: forcibly inducted by Austria-Hungary, he contracted tuberculosis, taught Muslim schoolchildren in Serbia, and died at Loznica in 1908, buried at Belgrade."
+  ur: "مودریچا سے تعلق رکھنے والے بوسنیائی مسلم شاعر، جو «س۔ اودو کارابیگووچ» کے نام سے شائع ہوتے تھے — «س» سے مراد «سربین» یعنی سرب تھا — وہ بوسنیا کے مسلمانوں میں سرب نوازی کے نمایاں حامی تھے؛ آسٹریا ہنگری نے انھیں زبردستی فوج میں بھرتی کیا تو تپِ دق لاحق ہوئی، سربیا میں مسلم بچوں کو پڑھایا، اور 1908ء میں لوزنیتسا میں وفات پاکر بلغراد میں دفن ہوئے۔"
+sources:
+  - source/wikipedia-avdo-karabegovic-en
+  - source/wikipedia-avdo-karabegovic-hr
+  - source/wikidata-avdo-karabegovic
+external_ids:
+  wikidata: Q111433606
+provenance:
+  layer: own-research
+  source: "English Wikipedia biography 'S. Avdo Karabegović' and Croatian Wikipedia biography 'Avdo Karabegović Halidbegov' (both Q111433606) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Modriča-born Serbophile poet, son of Halid-beg (1878–1908) — NOT his cousin Avdo Karabegović Hasanbegov, who has a separate Bosnian article and a separate Wikidata item (Q11142409); the queue's years match Halidbegov alone, and the identity was pinned by biography (the 'S.' pen name, the father's name, the Mali Zvornik teaching post) as well as by QID. Existence checks by name fragments (karabegovic, karabegović) and by QID across data/person on origin/main found no prior record for either cousin. Belgrade has a place entity and carries the buried_in edge; Modriča and Loznica have none."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-130
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

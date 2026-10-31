@@ -700,52 +700,52 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Habib Tanvir — 1923–2009
 - [x] Kaifi Azmi — 1919–2002
 - [x] Javed Akhtar — 1945–Living
-- [ ] Shabana Azmi — 1950–Living
-- [ ] Naseeruddin Shah — 1950–Living
-- [ ] Irrfan Khan — 1967–2020
-- [ ] Nawazuddin Siddiqui — 1974–Living
-- [ ] Salman Khan — 1965–Living
-- [ ] Saif Ali Khan — 1970–Living
-- [ ] Fatima Sana Shaikh — 1992–Living
-- [ ] Zaira Wasim — 2000–Living
-- [ ] Bismillah Khan — 1916–2006
-- [ ] Amjad Ali Khan — 1945–Living
-- [ ] Zakir Hussain — 1951–Living
-- [ ] Vilayat Khan — 1928–2004
+- [x] Shabana Azmi — 1950–Living
+- [x] Naseeruddin Shah — 1950–Living
+- [x] Irrfan Khan — 1967–2020
+- [x] Nawazuddin Siddiqui — 1974–Living
+- [x] Salman Khan — 1965–Living
+- [x] Saif Ali Khan — 1970–Living
+- [x] Fatima Sana Shaikh — 1992–Living
+- [x] Zaira Wasim — 2000–Living
+- [x] Bismillah Khan — 1916–2006
+- [x] Amjad Ali Khan — 1945–Living
+- [x] Zakir Hussain — 1951–Living
+- [x] Vilayat Khan — 1928–2004
 - [x] Bade Ustad Ghulam Ali Khan — 1902–1968
-- [ ] Begum Akhtar — 1914–1974
-- [ ] Mehdi Hassan — 1927–2012
-- [ ] Ghulam Ali — 1940–Living
-- [ ] Reshma — 1947–2013
-- [ ] Alam Lohar — 1926–1979
-- [ ] Arif Lohar — 1966–Living
-- [ ] Atif Aslam — 1983–Living
-- [ ] Ali Zafar — 1980–Living
-- [ ] Sajjad Ali — 1966–Living
-- [ ] Nazia Hassan — 1965–2000
-- [ ] Zoheb Hassan — 1966–Living
-- [ ] Rohail Hyatt — 1966–Living
-- [ ] Shoaib Mansoor — 1952–Living
-- [ ] Hassam Khan — 1990–Living
-- [ ] Fawad Khan — 1981–Living
-- [ ] Mahira Khan — 1984–Living
-- [ ] Saba Qamar — 1984–Living
-- [ ] Humayun Saeed — 1971–Living
-- [ ] Sharif Finch — 1995–Living
-- [ ] Muhammad Wilkerson — 1989–Living
-- [ ] Husain Abdullah — 1985–Living
-- [ ] Hamza Abdullah — 1983–Living
-- [ ] Naji Marshall — 1998–Living
-- [ ] Tari Eason — 2001–Living
-- [ ] Jaylen Brown (Contemporary) — 1996–Living
-- [ ] Kyrie Irving — 1992–Living
-- [ ] Rondae Hollis-Jefferson — 1995–Living
-- [ ] Enes Kanter Freedom — 1992–Living
-- [ ] Mehmet Okur — 1979–Living
-- [ ] Hedo Türkoğlu — 1979–Living
-- [ ] Alperen Şengün — 2002–Living
-- [ ] Mirza Teletović — 1985–Living
-- [ ] Jusuf Nurkić — 1994–Living
+- [x] Begum Akhtar — 1914–1974
+- [x] Mehdi Hassan — 1927–2012
+- [x] Ghulam Ali — 1940–Living
+- [x] Reshma — 1947–2013
+- [x] Alam Lohar — 1926–1979
+- [x] Arif Lohar — 1966–Living
+- [x] Atif Aslam — 1983–Living
+- [x] Ali Zafar — 1980–Living
+- [x] Sajjad Ali — 1966–Living
+- [x] Nazia Hassan — 1965–2000
+- [x] Zoheb Hassan — 1966–Living
+- [x] Rohail Hyatt — 1966–Living
+- [x] Shoaib Mansoor — 1952–Living
+- [x] Hassam Khan — 1990–Living
+- [x] Fawad Khan — 1981–Living
+- [x] Mahira Khan — 1984–Living
+- [x] Saba Qamar — 1984–Living
+- [x] Humayun Saeed — 1971–Living
+- [x] Sharif Finch — 1995–Living
+- [x] Muhammad Wilkerson — 1989–Living
+- [x] Husain Abdullah — 1985–Living
+- [x] Hamza Abdullah — 1983–Living
+- [x] Naji Marshall — 1998–Living
+- [x] Tari Eason — 2001–Living
+- [x] Jaylen Brown (Contemporary) — 1996–Living
+- [x] Kyrie Irving — 1992–Living
+- [x] Rondae Hollis-Jefferson — 1995–Living
+- [x] Enes Kanter Freedom — 1992–Living
+- [x] Mehmet Okur — 1979–Living
+- [x] Hedo Türkoğlu — 1979–Living
+- [x] Alperen Şengün — 2002–Living
+- [x] Mirza Teletović — 1985–Living
+- [x] Jusuf Nurkić — 1994–Living
 - [ ] Džanan Musa — 1999–Living
 - [ ] Bojan Bogdanović (Contemporary) — 1989–Living
 - [ ] Gaza Humanitarian Photojournalists (e.g. Motaz Azaiza) — 1999–Living
@@ -1615,47 +1615,47 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Safvet-beg Bašagić (1870–1934)
 - [x] Edhem Mulabdić (1862–1954)
 - [x] Osman Nuri Hadžić (1869–1937)
-- [ ] Mehmed Spaho (1883–1939)
-- [ ] Fehim Spaho (1877–1942)
-- [ ] Mustafa Mujezinović (1890–1945)
-- [ ] Muse Ćazim Ćatić (1878–1915)
-- [ ] Avdo Karabegović (1878–1908)
-- [ ] Nafija Sarajlić (1893–1970)
-- [ ] Osman Đikić (1879–1912)
-- [ ] Ali-beg Firdus (1862–1910)
-- [ ] Mustaj-beg Kapetanović (1860–1915)
-- [ ] Mehmed-beg Kapetanović Ljubušak (1839–1902)
-- [ ] Ibrahim-beg Bašagić (1840–1902)
-- [ ] Hamdija Kreševljaković (1888–1959)
-- [ ] Husein Đozo (Elders) (1890–1940)
-- [ ] Šakir Sikirić (1893–1966)
-- [ ] Mustafa Busuladžić (1914–1945)
-- [ ] Kosta Hörmann (Muslim Associates) (1850–1910)
-- [ ] Sheikh Youssef al-Nabhani (1849–1932)
-- [ ] Taqi al-Din al-Nabhani (Father) (1880–1940)
-- [ ] Ibrahim al-Dabbagh (1880–1946)
-- [ ] Ali al-Rimawi (1860–1919)
-- [ ] Yusuf al-Khalidi (1842–1906)
-- [ ] Raghib al-Khalidi (1866–1952)
-- [ ] Sa'id al-Husayni (1878–1945)
-- [ ] Wasif Jawhariyyeh (Muslim Associates) (1897–1972)
-- [ ] As'ad al-Shuqairi (1860–1940)
-- [ ] Ahmad Shuqairi (1908–1980)
-- [ ] Subhi al-Khadra (1895–1954)
-- [ ] Akram Zuaiter (1909–1996)
-- [ ] Awni Abd al-Hadi (1889–1970)
-- [ ] Tarab Abdul Hadi (1910–1976)
-- [ ] Sadhij Nassar (1900–1970)
-- [ ] Mogannam Mogannam (Muslim Allies) (1895–1945)
-- [ ] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
-- [ ] As'ad Qaddura (1880–1959)
-- [ ] Sheikh Muhammad al-Sa'id (1870–1930)
+- [x] Mehmed Spaho (1883–1939)
+- [x] Fehim Spaho (1877–1942)
+- [~] Mustafa Mujezinović (1890–1945)
+- [x] Muse Ćazim Ćatić (1878–1915)
+- [x] Avdo Karabegović (1878–1908)
+- [x] Nafija Sarajlić (1893–1970)
+- [x] Osman Đikić (1879–1912)
+- [x] Ali-beg Firdus (1862–1910)
+- [~] Mustaj-beg Kapetanović (1860–1915)
+- [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
+- [x] Ibrahim-beg Bašagić (1840–1902)
+- [x] Hamdija Kreševljaković (1888–1959)
+- [~] Husein Đozo (Elders) (1890–1940)
+- [x] Šakir Sikirić (1893–1966)
+- [x] Mustafa Busuladžić (1914–1945)
+- [x] Kosta Hörmann (Muslim Associates) (1850–1910)
+- [x] Sheikh Youssef al-Nabhani (1849–1932)
+- [~] Taqi al-Din al-Nabhani (Father) (1880–1940)
+- [x] Ibrahim al-Dabbagh (1880–1946)
+- [x] Ali al-Rimawi (1860–1919)
+- [x] Yusuf al-Khalidi (1842–1906)
+- [x] Raghib al-Khalidi (1866–1952)
+- [x] Sa'id al-Husayni (1878–1945)
+- [x] Wasif Jawhariyyeh (Muslim Associates) (1897–1972)
+- [x] As'ad al-Shuqairi (1860–1940)
+- [x] Ahmad Shuqairi (1908–1980)
+- [x] Subhi al-Khadra (1895–1954)
+- [x] Akram Zuaiter (1909–1996)
+- [x] Awni Abd al-Hadi (1889–1970)
+- [x] Tarab Abdul Hadi (1910–1976)
+- [x] Sadhij Nassar (1900–1970)
+- [x] Mogannam Mogannam (Muslim Allies) (1895–1945)
+- [x] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
+- [x] As'ad Qaddura (1880–1959)
+- [~] Sheikh Muhammad al-Sa'id (1870–1930)
 - [x] Haj Amin al-Husseini (1897–1974)
-- [ ] Jamal al-Husayni (1893–1982)
-- [ ] Fawzi al-Mulki (1910–1962)
-- [ ] Tawfiq Abu al-Huda (1894–1956)
-- [ ] Samir al-Rifa'i (1901–1965)
-- [ ] Ibrahim Hashem (1888–1958)
+- [x] Jamal al-Husayni (1893–1982)
+- [x] Fawzi al-Mulki (1910–1962)
+- [x] Tawfiq Abu al-Huda (1894–1956)
+- [x] Samir al-Rifa'i (1901–1965)
+- [x] Ibrahim Hashem (1888–1958)
 - [ ] King Talal of Jordan (1909–1972)
 - [ ] Sheikh Hamad ibn Isa Al Khalifa (1872–1942)
 - [ ] Sir Salman bin Hamad Al Khalifa (1894–1961)

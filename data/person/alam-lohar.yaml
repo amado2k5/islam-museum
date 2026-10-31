@@ -1,0 +1,56 @@
+id: person/alam-lohar
+class: person
+label:
+  ar: "عالم لوهار"
+  en: "Alam Lohar"
+  ur: "عالم لوہار"
+names:
+  - { value: "Muhammad Alam Lohar", kind: full }
+  - { value: "محمد عالم لوہار", kind: full }
+gender: male
+born:
+  edtf: "1928-03-01"
+  hijri: "1346"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Achh village near Kotla Arab Ali Khan in Gujrat district, Punjab. The Urdu biography and Wikidata give 1 March 1928 and the English biography the year 1928. QUEUE CORRECTION: the queue's 1926 is attested in none of the sources consulted and is preserved here only as the queue reading; one web profile gives 3 January 1928 instead of 1 March — hence debated. The Hijri year 1346 is a tabular conversion of the followed date, marked derived. Achh has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-alam-lohar-en, source/wikipedia-alam-lohar-ur, source/wikidata-alam-lohar]
+died:
+  edtf: "1979-07-03"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 3 July 1979 in a road accident near Shamki Bhattian, when a heavily loaded truck collided with his vehicle, and was buried on the outskirts of Lalamusa: the English and Urdu biographies and Wikidata agree. The Hijri year 1399 is a tabular conversion of the followed date, marked derived. Neither place has an entity on main, so both are carried here."
+  sources: [source/wikipedia-alam-lohar-en, source/wikipedia-alam-lohar-ur, source/wikidata-alam-lohar]
+roles: [singer]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English biography says he was born into a Punjabi Muslim family of Lohars (blacksmiths) — family background, which never counts — and Wikidata gives Islam (P140) only; the Sufi poetry (Sufiana Kalaam) he read as a child and sang all his life is repertoire, which never counts. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-alam-lohar-en, source/wikipedia-alam-lohar-ur, source/wikidata-alam-lohar]
+relations:
+  - { type: parent_of, target: person/arif-lohar, sources: [source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur] }
+summary:
+  ar: "مغنّي البنجاب الشعبي الباكستاني (1928–1979) من قرية آچھ في منطقة غوجرات، وُلد في أسرة حدّادين، ابتكر وشهر فنّ «جغني» القصصي، وأعاد تقديم «هير» وارث شاه بصوته العالي مصحوباً بالچمٹا، وسيطر على الغناء الشعبي في باكستان من الخمسينيات حتى وفاته في حادث سير؛ وهو والد عارف لوهار."
+  en: "Pakistani Punjabi folk singer (1928–1979) from Achh village in Gujrat district, born into a blacksmith family; he created and popularised the Jugni narrative form, made Waris Shah's Heer famous in his high-pitched chimta-accompanied style, dominated folk singing in Pakistan from the 1950s until his death in a road accident, and received the Pride of Performance (1979). He was the father of Arif Lohar."
+  ur: "پاکستانی پنجابی لوک گلوکار (1928ء–1979ء) جن کا تعلق ضلع گجرات کے گاؤں آچھ سے تھا اور جو لوہار گھرانے میں پیدا ہوئے؛ انھوں نے «جگنی» کو ایجاد و مقبول کیا، وارث شاہ کی «ہیر» کو چمٹے کے ساتھ اپنے مخصوص انداز میں پیش کیا اور 1950ء کی دہائی سے اپنی وفات تک پاکستان میں لوک گائیکی پر چھائے رہے؛ وہ عارف لوہار کے والد ہیں۔"
+sources:
+  - source/wikipedia-alam-lohar-en
+  - source/wikipedia-alam-lohar-ur
+  - source/wikidata-alam-lohar
+  - source/wikipedia-arif-lohar-en
+  - source/wikipedia-arif-lohar-ur
+external_ids:
+  wikidata: Q4705792
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Alam Lohar, the Wikidata item Q4705792 and his son Arif Lohar's English and Urdu biographies, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Gujrat-born Punjabi folk singer (1928–1979), creator of Jugni — not any other Lohar. Existence checks by name fragments (lohar) and by QID across data/person on origin/main found no prior record. QUEUE CORRECTION: the queue's birth year 1926 is followed by no source consulted; the English and Urdu biographies and Wikidata agree on 1928 (1 March in the Urdu biography and Wikidata), so 1928 is recorded as debated with the queue reading and a 3 January web variant preserved. Relations written: the parent_of edge to his son Arif Lohar, built in the same batch, written once here per the lane's write-once convention and sourced from the son's articles; Achh, Shamki Bhattian and Lalamusa have no place entities, so those places are carried in the date notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

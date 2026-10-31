@@ -1,0 +1,55 @@
+id: person/nafija-sarajlic
+class: person
+label:
+  ar: "نافيا سرايليتش"
+  en: "Nafija Sarajlić"
+  ur: "نافیا سارائیلیچ"
+names:
+  - { value: "Nafija Sarajlić", kind: full }
+  - { value: "Nafija Hadžikarić", kind: alternate }
+gender: female
+born:
+  edtf: "1893-10-03"
+  hijri: "1311"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 October 1893 at Sarajevo, into a Bosnian Muslim craftsman's family; the Bosnian biography and Wikidata give the day, and the English biography's lead agrees, although its body text loosens the year to 'around 1893'. Her birth name was Hadžikarić; Sarajlić is her married name. The Hijri year 1311 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-nafija-sarajlic-bs, source/wikipedia-nafija-sarajlic-en, source/wikidata-nafija-sarajlic]
+died:
+  edtf: "1970-01-15"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 15 January 1970 at Sarajevo; the English and Bosnian biographies and Wikidata agree on the day. The Hijri year 1389 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-nafija-sarajlic-en, source/wikipedia-nafija-sarajlic-bs, source/wikidata-nafija-sarajlic]
+roles: [writer, teacher]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for her, and Wikidata carries no religion claim for her at all. The biographies present a Muslim writer and teacher whose public work pressed for the education and emancipation of Muslim women — a life and a cause, not an attestation of any madhhab or tariqa. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-nafija-sarajlic-en, source/wikipedia-nafija-sarajlic-bs, source/wikidata-nafija-sarajlic]
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-nafija-sarajlic-bs, source/wikidata-nafija-sarajlic] }
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-nafija-sarajlic-en, source/wikipedia-nafija-sarajlic-bs, source/wikidata-nafija-sarajlic] }
+summary:
+  ar: "كاتبة بوسنية من سراييفو، أول ناثرة بين النساء المسلمات في البوسنة: معلّمة تعلّمت رغم ما أثاره تعليم أبيها لبناته من عداء، نشرت قصص «تيمه» في مجلتي «زمان» و«بيسر» منذ 1912 فكتبت عن تحرّر المرأة والفقر وتشريد الحرب، ثم اعتزلت الحياة الأدبية بعد زواجها."
+  en: "Bosnian writer from Sarajevo, the first prose writer among Bosnian Muslim women: a teacher educated in the face of the hostility her father's choice provoked, she published the Teme stories in Zeman and Biser from 1912, writing on women's emancipation, poverty and wartime displacement, before withdrawing from literary life after her marriage."
+  ur: "سرائیوو سے تعلق رکھنے والی بوسنیائی ادیبہ، بوسنیائی مسلم خواتین میں پہلی نثر نگار: وہ معلّمہ جنھیں والد کے فیصلے پر اٹھنے والی مخالفت کے باوجود تعلیم ملی؛ 1912ء سے «زمان» اور «بشر» میں اپنی کہانیاں «تیمے» شائع کیں، جن میں خواتین کی آزادی، غربت اور جنگی بے گھری پر لکھا، پھر شادی کے بعد ادبی زندگی سے کنارہ کش ہو گئیں۔"
+sources:
+  - source/wikipedia-nafija-sarajlic-en
+  - source/wikipedia-nafija-sarajlic-bs
+  - source/wikidata-nafija-sarajlic
+external_ids:
+  wikidata: Q16602103
+provenance:
+  layer: own-research
+  source: "English and Bosnian Wikipedia biographies of Nafija Sarajlić (Q16602103) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer <redacted> the Sarajevo teacher and writer born Hadžikarić (1893–1970), the first prose writer among Bosnian Muslim women; the queue's years are confirmed to the day. Existence checks by name fragments (sarajlic, sarajlić) and by QID across data/person on origin/main found no prior record. Her father Avdija (Avdaga) Hadžikarić, her husband the writer Šemsudin Sarajlić and her daughter Nedreta have no person records, so no family edges are written. Sarajevo has a place entity and carries the born_in and died_in edges."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-131
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

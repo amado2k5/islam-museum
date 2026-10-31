@@ -1,0 +1,43 @@
+id: person/tari-eason
+class: person
+label:
+  ar: "تاري إيسون"
+  en: "Tari Eason"
+  ur: "تاری ایسن"
+names:
+  - { value: "Tari Jordan Eason", kind: full }
+  - { value: "تاري إيسون", kind: full }
+gender: male
+born:
+  edtf: "2001-05-10"
+  hijri: "1422"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 10 May 2001 at Portsmouth, Virginia: the English article and Wikidata agree on the day. Portsmouth has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1422 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-tari-eason-en, source/wikidata-tari-eason]
+roles: [basketball player]
+regions: [americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Absence configuration, unflagged: no source read attests any religion for Eason. The English biography carries no religion content, Wikidata carries no religion value, and the one profile that addresses the question directly (EssentiallySports, 28 April 2025) states that he has not spoken publicly about his religious beliefs and that his interviews and college biographies contain no mention of faith. His presence in a queue of Muslim athletes and the form of his first name are not evidence, and nothing is recorded."
+    sources: [source/wikipedia-tari-eason-en, source/wikidata-tari-eason, source/essentiallysports-eason-2025]
+summary:
+  ar: "لاعب كرة سلة أمريكي (وُلد سنة 2001) من بورتسموث في فرجينيا، لعب لسينسيناتي ثم LSU قبل أن يختاره هيوستن روكتس في المركز السابع عشر في درافت 2022."
+  en: "American basketball forward (born 2001) from Portsmouth, Virginia, who played at Cincinnati and LSU before the Houston Rockets drafted him 17th overall in 2022."
+  ur: "امریکی باسکٹ بال کھلاڑی (پیدائش 2001) جن کا تعلق پورٹسماؤتھ، ورجینیا سے ہے؛ سنسناٹی اور LSU کے بعد 2022ء کے ڈرافٹ میں ہیوسٹن راکٹس نے انہیں 17ویں نمبر پر منتخب کیا۔"
+sources:
+  - source/wikipedia-tari-eason-en
+  - source/wikidata-tari-eason
+  - source/essentiallysports-eason-2025
+external_ids:
+  wikidata: Q106818128
+provenance:
+  layer: own-research
+  source: "The English Wikipedia biography of Tari Eason, the Wikidata item Q106818128 and the EssentiallySports profile of 28 April 2025, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Portsmouth-born Cincinnati/LSU forward drafted by Houston in 2022; existence was checked by QID and by name fragments against every person record on origin/main and no prior record or Arabic-label collision exists, so no homonyms entry is required. The queue's year (2001, living) is confirmed to the day. Relations written: none — Portsmouth, Virginia has no place entity. Living-person care: only well-sourced public facts are recorded, and the faith entry records a documented absence, not a guess from his name or the queue's placement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-136
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
