@@ -670,11 +670,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Najib Razak — 1953–Living
 - [x] Muhyiddin Yassin — 1947–Living
 - [x] Ismail Sabri Yaakob — 1960–Living
-- [ ] Anwar Ibrahim — 1947–Living
-- [ ] Sultan Ibrahim Ismail — 1958–Living
-- [ ] Sultan Azlan Shah — 1928–2014
-- [ ] Hassanal Bolkiah — 1946–Living
-- [ ] Omar Ali Saifuddien III — 1914–1986
+- [x] Anwar Ibrahim — 1947–Living
+- [x] Sultan Ibrahim Ismail — 1958–Living
+- [x] Sultan Azlan Shah — 1928–2014
+- [x] Hassanal Bolkiah — 1946–Living
+- [x] Omar Ali Saifuddien III — 1914–1986
 - [ ] Nur Misuari — 1939–Living
 - [ ] Murad Ebrahim — 1948–Living
 - [ ] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
