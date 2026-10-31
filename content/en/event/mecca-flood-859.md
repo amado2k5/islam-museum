@@ -2,9 +2,10 @@
 id: event/mecca-flood-859
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-In 859 AH a great flood struck [[place/mecca|Mecca]] and entered the Sacred Sanctuary until it came close to the Black Stone. {cite:shadharat-dhahab p. 286}
+## Summary
+In 859 AH a great torrent struck Mecca, entering the Haram until it nearly reached the Black Stone {cite:shadharat-dhahab p. 286}.
 
-The details need an additional source.
+## Details
+Under the events of 859 Ibn al-'Imad records that a great flood struck Mecca and entered the Sacred Mosque, coming near the Black Stone — indicating the water rose to the holiest spot of the Haram {cite:shadharat-dhahab p. 286}. This was not the only such inundation of the century: the same source records another great flood at Mecca in Safar of 865 {cite:shadharat-dhahab p. 286}. In this same year died the amir of Mecca, al-Zayn Abu Zuhayr Barakat ibn al-Badr Abi al-Ma'ali Hasan ibn 'Ajlan ibn Rumaytha, before completing sixty years of age — so that one year joined a flood that touched the sanctuary with the passing of the city's ruling sharif of the house of 'Ajlan {cite:shadharat-dhahab p. 286}.
