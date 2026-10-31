@@ -43,6 +43,8 @@ _ none yet — per the founder's rule nothing is excluded without his verificati
 
 - Backfill (31 Oct 2026): ar/en/ur prose files added for the 15 batch 1–2 works. Each is a one-paragraph summary restating the entity's already-cited facts, cited to the Jamharat source. This is not the rich first pass: the source pages were not re-read, so the prose is short and needs enrichment against the EPUB pages.
 
+- Batch 1–2 source audit (31 Oct 2026, vol 2 pages checked): three entries do not match their source pages and need the founder's ruling before any rewrite. (a) `khutbat-umar-ibn-abd-al-aziz-madina`: vol 2 pp. 203–211 hold Umar ibn Abd al-Aziz's sermons as caliph (his first sermon on taking office, p. 203), not a Medina sermon under al-Walid; the Medina label is unverified. (b) `khutbat-sulayman-ibn-abd-al-malik`: the sermons on vol 2 p. 306 are by a Khurasan commander calling to depose Sulayman, not by Sulayman; no Sulayman sermon was found. (c) `khutbat-abdullah-ibn-al-zubayr-makka`: vol 2 p. 524 lists his "sermon on the day he was killed" in the index only; the body was not located. Nothing rejected; these await the founder's ruling.
+
 ## Indexed totals
 
 22 sermon works written (batches 1–4); 4 website works; 44 source entities; era coverage: prophetic, rashidun, zubayrid/umayyad; countries: Hijaz, Iraq, Syria; speakers: 11; formats: text (book pages), websites.

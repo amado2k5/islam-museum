@@ -1,0 +1,64 @@
+id: person/ilber-ortayli
+class: person
+label:
+  ar: "إلبير أورطايلي"
+  en: "İlber Ortaylı"
+  ur: "البر اورتائیلی"
+names:
+  - { value: "İlber Ortaylı", kind: full }
+  - { value: "İbadullah", kind: given }
+gender: male
+born:
+  edtf: "1947-05-21"
+  hijri: "1366"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 21 May 1947 at Bregenz, Austria, in a refugee camp, to Crimean Tatar parents who had fled Stalin's deportations: the English, Turkish and Arabic biographies and Wikidata agree on the day. The Hijri year 1366 is a tabular conversion of the followed date, marked derived. Bregenz has no place entity, so no born_in edge is written."
+  sources:
+    - source/wikipedia-ortayli-en
+    - source/wikipedia-ortayli-tr
+    - source/wikidata-ortayli
+died:
+  edtf: "2026-03-13"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 13 March 2026 at Istanbul, of multiple organ failure after complications following prostate surgery, diabetes and chronic kidney failure, having been admitted to Koç University Hospital and intubated on 9 March: the Turkish biography gives the medical detail, the English biography and Wikidata concur on the day and city, and Wikidata names the hospital. The Hijri year 1447 is a tabular conversion, marked derived. QUEUE CORRECTION: the queue line still read '1947–Living'; he died on 13 March 2026, so this record carries a died block and no living wing."
+  sources:
+    - source/wikipedia-ortayli-en
+    - source/wikipedia-ortayli-tr
+    - source/wikidata-ortayli
+roles: [historian, writer]
+regions: [anatolia-balkans]
+wings: [people]
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-ortayli-en, source/wikipedia-ortayli-tr] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-ortayli-en, source/wikipedia-ortayli-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school of Islam for him, and none of the three biographies records a personal profession of faith. Wikidata's religion value is Islam (Q432) — a single structured attestation, which names no school; the single-structured-value configuration is held unknown unflagged, as with İnalcık and Sezgin in wave 143. His Crimean Tatar family background is expressly not counted, and his burial in the Fatih Mosque graveyard after a religious service at Fatih Mosque is a funeral fact carried in his prose, not an attestation of personal belief."
+    sources:
+      - source/wikidata-ortayli
+      - source/wikipedia-ortayli-en
+summary:
+  ar: "مؤرخ تركي من أصل تتاري قرمي (1947–2026)، من أبرز مؤرخي الدولة العثمانية في جيله. وُلد في مخيم للاجئين ببريغنز في النمسا وهاجر مع أسرته إلى تركيا في الثانية من عمره، ودرس في أنقرة وفيينا وشيكاغو حيث نال الماجستير بإشراف خليل إينالجيك، ثم الدكتوراه من جامعة أنقرة سنة 1978. درّس في جامعات أنقرة وغلطة سراي وبيلكنت، وأدار متحف قصر طوب قابي من 2005 إلى 2012، واشتهر بكتبه وبرامجه التي قرّبت التاريخ العثماني من الجمهور الواسع. توفي بإسطنبول في 13 مارس 2026 ودُفن في مقبرة جامع الفاتح."
+  en: "Turkish historian of Crimean Tatar origin (1947–2026), among the most prominent Ottoman historians of his generation. Born in a refugee camp at Bregenz, Austria, he came to Turkey aged two, studied at Ankara, Vienna and Chicago — his master's under Halil İnalcık — and took his doctorate at Ankara University in 1978. He taught at Ankara, Galatasaray and Bilkent universities, directed the Topkapı Palace Museum from 2005 to 2012, and brought Ottoman history to a mass audience through his books and television programmes. He died at Istanbul on 13 March 2026 and was buried in the Fatih Mosque graveyard."
+  ur: "ترک مؤرخ، قریم تاتار نژاد (1947–2026)، اپنی نسل کے ممتاز ترین عثمانی مؤرخین میں سے ایک۔ آسٹریا کے بریگنز میں پناہ گزین کیمپ میں پیدا ہوئے، دو برس کی عمر میں خاندان کے ساتھ ترکی آئے، انقرہ، ویانا اور شکاگو میں تعلیم پائی — ماسٹرز خلیل انالجک کی نگرانی میں — اور 1978ء میں انقرہ یونیورسٹی سے ڈاکٹریٹ کیا۔ انقرہ، غلطہ سرای اور بلقنت یونیورسٹیوں میں پڑھایا، 2005ء سے 2012ء تک توپ قاپی محل عجائب گھر کے مدیر رہے، اور اپنی کتابوں اور ٹیلی ویژن پروگراموں سے عثمانی تاریخ کو وسیع عوام تک پہنچایا۔ 13 مارچ 2026ء کو استنبول میں وفات پائی اور فاتح مسجد کے قبرستان میں دفن ہوئے۔"
+sources:
+  - source/wikipedia-ortayli-en
+  - source/wikipedia-ortayli-tr
+  - source/wikipedia-ortayli-ar
+  - source/wikidata-ortayli
+external_ids:
+  wikidata: Q343562
+provenance:
+  layer: own-research
+  source: "The English, Turkish and Arabic Wikipedia biographies of İlber Ortaylı and the Wikidata item Q343562, all read in full in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the Ottoman historian born 1947 — pinned by biography and QID. QUEUE CORRECTION: the queue gave him as living; he died at Istanbul on 13 March 2026 (English and Turkish biographies and Wikidata agree), so the record carries a died block and wings [people] only. Relations written: lived_in and died_in Istanbul (his Galatasaray and Topkapı posts and his death there); no born_in edge, as Bregenz has no place entity. His marriage to Ayşe Özdolay (1981–1999) is carried in his prose; she has no record, so no spouse edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-144
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
