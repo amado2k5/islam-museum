@@ -1,0 +1,53 @@
+id: person/sacir-sikiric
+class: person
+label:
+  ar: "شاكر سيكيريتش"
+  en: "Šaćir Sikirić"
+  ur: "شاکر سکیریچ"
+names:
+  - { value: "Šaćir Sikirić", kind: full }
+  - { value: "Šakir Sikirić", kind: alternate }
+gender: male
+born:
+  edtf: "1893"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1893 at Oglavak near Fojnica; the Bosnian and Czech biographies and Wikidata agree on the year and give no day. A bare Gregorian year spans two Hijri years (1310–1311), so no hijri value is recorded. Oglavak and Fojnica have no place entities on main, so the place is carried here. The surname is explained in the Czech biography from sikira, axe: an ancestor who came to Fojnica as a mufti bore the name Baltaoğlu, balta being Turkish for axe."
+  sources: [source/wikipedia-sacir-sikiric-bs, source/wikipedia-sacir-sikiric-cs, source/wikidata-sacir-sikiric]
+died:
+  edtf: "1966-09-22"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 22 September 1966 at Sarajevo, of leukaemia per the Czech biography; the Bosnian biography and Wikidata give the year 1966 only. His funeral procession left the Gazi Husrev-beg Mosque on 23 September and he was buried at Oglavak beside his ancestors. The Hijri year 1386 is derived by tabular conversion and is marked derived."
+  sources: [source/wikipedia-sacir-sikiric-cs, source/wikipedia-sacir-sikiric-bs, source/wikidata-sacir-sikiric]
+roles: [scholar, translator]
+regions: [anatolia-balkans]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or order for him, and Wikidata carries no religion value for him at all. The Czech biography records that he was born into a Muslim family with a rich Sufi tradition — his great-grandfather Abdurahman Sirri founded a Naqshbandi tekke at Oglavak in 1798 — and that his Budapest doctorate treated dervish monasteries and holy tombs in Bosnia; family tradition and the subject of a man's scholarship never count as his own attestation. His directorships of Islamic schools are office. Absence configuration, so the record is unflagged."
+    sources: [source/wikipedia-sacir-sikiric-bs, source/wikipedia-sacir-sikiric-cs, source/wikidata-sacir-sikiric]
+relations:
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-sacir-sikiric-cs] }
+summary:
+  ar: "مستشرق بوسني من أوغلافاك قرب فوينيتسا، متخصص في العربية والفارسية، يُعدّ مع فهيم بايراكتاريفيتش من مؤسسي الاستشراق الحديث في يوغوسلافيا: أستاذ في مدرسة القضاة الشرعيين والمدرسة الإسلامية العليا للشريعة واللاهوت في سراييفو، ومنذ 1950 أستاذ العربية والفارسية في كلية الفلسفة بسراييفو، وشارك في وضع نحو عربي (1936–1937) وألّف أول نحو فارسي في البلدان السلافية الجنوبية (1951)."
+  en: "Bosnian orientalist from Oglavak near Fojnica, an Arabist and Iranist counted with Fehim Bajraktarević among the founders of modern Oriental studies in Yugoslavia: professor at the Sharia Judges' School and the Higher Islamic Sharia-Theological School in Sarajevo, and from 1950 professor of Arabic and Persian at Sarajevo's Faculty of Philosophy; co-author of an Arabic grammar (1936–1937) and author of the first Persian grammar in the South Slavic lands (1951)."
+  ur: "اوغلاواک (قریب فوینیتسا) سے تعلق رکھنے والے بوسنیائی مستشرق، عربی و فارسی کے ماہر، جنھیں فہیم بائراکتارویچ کے ساتھ یوگوسلاویہ میں جدید استشراق کے بانیوں میں شمار کیا جاتا ہے: سرائیوو کی شرعی ججوں کی درسگاہ اور اعلیٰ اسلامی شرعی الٰہیاتی مدرسے کے استاد، اور 1950ء سے سرائیوو کی فلسفہ فیکلٹی میں عربی و فارسی کے پروفیسر؛ عربی قواعد (1936–1937ء) کے شریک مصنف اور جنوبی سلافی سرزمین میں فارسی کی پہلی قواعد (1951ء) کے مصنف۔"
+sources:
+  - source/wikipedia-sacir-sikiric-bs
+  - source/wikipedia-sacir-sikiric-cs
+  - source/wikidata-sacir-sikiric
+external_ids:
+  wikidata: Q20558137
+provenance:
+  layer: own-research
+  source: "Bosnian and Czech Wikipedia biographies of Šaćir Sikirić (Q20558137) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the Bosnian article's page properties. Identity: the queue line's bearer (spelled Šakir Sikirić in the queue) is the Oglavak-born Arabist and Iranist (1893–1966); the queue's years are confirmed, the Czech biography supplying the death day of 22 September 1966 at Sarajevo that the Bosnian biography and Wikidata carry only at year precision. The articles and the Wikidata label spell his given name Šaćir, which the record's label follows, with the queue's Šakir spelling entered as an alternate name. Existence checks by name fragments (sikiric, sikirić) and by QID across data/person on origin/main found no prior record. Oglavak and Fojnica have no place entities; Sarajevo does, and carries the died_in edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-132
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
