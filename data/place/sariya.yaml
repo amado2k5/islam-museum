@@ -3,13 +3,15 @@ class: place
 kind: town
 label: { ar: "سارية", en: "Sariya" }
 summary:
-  ar: "بلدة بطبرستان؛ غزاها يزيد بن المهلب مع جيلان في طريقه إلى دهستان."
-  en: "A Tabaristan town; Yazid ibn al-Muhallab raided it with Jilan on his way to Dihistan."
+  ar: "بلدة بطبرستان؛ غزاها يزيد بن المهلب مع جيلان في طريقه إلى دهستان. {cite:futuh-buldan-maarif-1407 p.469}"
+  en: "A Tabaristan town; Yazid ibn al-Muhallab raided it with Jilan on his way to Dihistan. {cite:futuh-buldan-maarif-1407 p.469}"
 regions: [persia-central-asia]
 wings: [place]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  generated_by: "Claude (Haiku 5.5)"
+  model: "claude-haiku-5-5"
+  run: "prose-enrichment-100-claude-b2"
+  source: "al-Baladhuri, Futuh al-Buldan (Maarif 1407), p. 469 (scan page), checked against the OCR"
