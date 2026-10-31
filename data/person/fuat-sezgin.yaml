@@ -1,0 +1,63 @@
+id: person/fuat-sezgin
+class: person
+label:
+  ar: "فؤاد سزكين"
+  en: "Fuat Sezgin"
+  ur: "فواد سزگین"
+names:
+  - { value: "Mehmet Fuat Sezgin", kind: full }
+  - { value: "Fuat Sezgin", kind: alternate }
+gender: male
+born:
+  edtf: "1924-10-24"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 24 October 1924 at Bitlis: the Turkish biography gives the town and the day, the English biography and Wikidata give the day; the queue's 1924 is confirmed to the day. Bitlis has no place entity, so no born_in edge is written. The Hijri year 1343 is a tabular conversion of the followed date, marked derived."
+  sources:
+    - source/wikipedia-sezgin-tr
+    - source/wikipedia-sezgin-en
+    - source/wikidata-sezgin
+died:
+  edtf: "2018-06-30"
+  hijri: "1439"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 30 June 2018 at Istanbul: the English, Turkish and German biographies and Wikidata agree. The Hijri year 1439 is a tabular conversion, marked derived."
+  sources:
+    - source/wikipedia-sezgin-en
+    - source/wikipedia-sezgin-tr
+    - source/wikidata-sezgin
+roles: [historian, writer]
+regions: [anatolia-balkans]
+wings: [people]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-sezgin-tr, source/wikidata-sezgin] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's structured religion value for Sezgin is Islam (Q432); the Turkish biography's infobox religion field is empty, and no source reached names a legal school for the man himself. His life's work — a doctorate on the written sources of al-Bukhari's hadith collection and the great history of Arabic-Islamic science — is his subject matter, not an attestation of a school, so his faith is recorded unknown."
+    sources:
+      - source/wikidata-sezgin
+      - source/wikipedia-sezgin-tr
+summary:
+  ar: "مؤرخ تركي للعلوم عند العرب والمسلمين، أكمل «تاريخ التراث العربي» في سبعة عشر مجلدًا امتدادًا لعمل بروكلمان. وُلد في بدليس سنة 1924 وتتلمذ في جامعة إسطنبول على هلموت ريتر؛ وبعد إقصائه في انقلاب 1960 انتقل إلى فرانكفورت، فأسس معهد تاريخ العلوم العربية الإسلامية (1982) ومتحفه للآلات العلمية، وافتُتح متحف شقيق في إسطنبول سنة 2008. توفي في إسطنبول سنة 2018."
+  en: "Turkish historian of Arab-Islamic science whose seventeen-volume Geschichte des arabischen Schrifttums carried Brockelmann's history of Arabic literature forward. Born at Bitlis in 1924 and trained at Istanbul University under Hellmut Ritter, he was dismissed after the 1960 coup and moved to Frankfurt, where he founded the Institute for the History of the Arab-Islamic Sciences (1982) and its museum of scientific instruments; a sister museum opened in Istanbul in 2008. He died in Istanbul in 2018."
+  ur: "ترک مؤرخِ سائنس، جنہوں نے عربی ادب کی تاریخ پر بروکلمان کے کام کو آگے بڑھاتے ہوئے «تاریخ التراث العربی» سترہ جلدوں میں مکمل کی۔ 1924ء میں بدلیس میں پیدا ہوئے اور استنبول یونیورسٹی میں ہیلمٹ رٹر کے شاگرد رہے؛ 1960ء کی بغاوت کے بعد برطرف ہو کر فرینکفرٹ چلے گئے، جہاں عربی اسلامی علوم کی تاریخ کا ادارہ (1982ء) اور اس کا عجائب گھر قائم کیا؛ 2008ء میں استنبول میں بھی ایسا ہی عجائب گھر کھلا۔ 2018ء میں استنبول میں وفات پائی۔"
+sources:
+  - source/wikipedia-sezgin-en
+  - source/wikipedia-sezgin-tr
+  - source/wikipedia-sezgin-de
+  - source/wikidata-sezgin
+external_ids:
+  wikidata: Q641011
+provenance:
+  layer: own-research
+  source: "The English, Turkish and German Wikipedia biographies of Fuat Sezgin and the Wikidata item Q641011, all read in full in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the English article's page properties. Identity: the queue line's bearer — the historian of Islamic science (1924-2018), pinned by biography and QID. The queue's years are confirmed to the day for both birth (Bitlis, 24 October 1924) and death (Istanbul, 30 June 2018). Relations written: died_in Istanbul; no born_in edge, as Bitlis has no place entity."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
