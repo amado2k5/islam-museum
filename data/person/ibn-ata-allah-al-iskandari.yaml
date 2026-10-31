@@ -16,10 +16,10 @@ periods: [period/crusades-ayyubid-mamluk]
 relations:
   - { type: student_of, target: person/abu-al-abbas-al-mursi, sources: [source/siyar-alam-nubala-ideas-house] }
 external_ids: { wikidata: "Q2827445" }
-sources: [source/siyar-alam-nubala-ideas-house]
+sources: [source/siyar-alam-nubala-ideas-house, source/durar-kamina-jil-1993]
 provenance:
   layer: own-research
   source: "wikidata-import deferred Q2827445; Siyar entry 6534 verified in OCR (talab1 scan, p.408)"
   generated_by: "Devin (SWE-2 Medium)"
-  run: wd-deferred-13
+  run: wd-deferred-13, lib-durar-kamina-batch-3-2026-10-31
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
