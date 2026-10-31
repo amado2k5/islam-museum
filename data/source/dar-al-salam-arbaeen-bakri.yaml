@@ -23,7 +23,12 @@ publisher: "دار السلام للطباعة والنشر والتوزيع و�
 language: ar
 reliability_note: "Copy read: the fourth-edition scan (harvest PDF 20201225_20201225_1747, 32 pages), read by OCR on every page. The printed page numbers match the PDF page index on pages 3–31 as read. The OCR was not checked on the page images, so a doubtful word or number is flagged in the claim, not cited. Used for the hadith numbers, the transmitter named at the head of each hadith, the collections named in the footnotes, the grades the editor attributes to named graders, and the editor's notes on rare words. The editor's explanations are not reproduced."
 open_access: false
-provenance: "provided by the founder, authorized 31 Oct 2026, see docs/delegation/founder-provided-books.md"
+provenance:
+  layer: cc0
+  source: "provided by the founder, authorized 31 Oct 2026, see docs/delegation/founder-provided-books.md"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "harvest-wave1-arbaun-nawawi"
 status:
   review: published
   completeness: 3

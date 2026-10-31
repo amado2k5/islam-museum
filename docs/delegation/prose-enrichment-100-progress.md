@@ -48,6 +48,7 @@ Enriched in batch 3: place/tabna (Idrisi pp. 263–264), place/tukha (pp. 206–
 
 ## Open data issues (summaries not yet corrected)
 
+- place/shuman: corrected. Baladhuri p. 590 names Shuman only in the Transoxiana account: its ruler pressed the king of al-Saghaniyan, who then submitted to Qutayba. The earlier claim that al-Mufaddal ibn al-Muhallab conquered it is not in the printed text (the index lists only p. 590). Summary, Overview and ar/ur prose rewritten to match. Stays thin: one mention exists, so 100 words would be padding. Lead.
 - place/qawun summary: "one hundred miles from Aqra" does not match the text. Idrisi gives the road from Aqra to Qawun as "مائة ميل وستون ميلا" (p. 885). The prose follows the text and does not repeat the summary's figure.
 - place/raghawlda summary said "one hundred miles from Qalmar". Idrisi gives one hundred miles from the second arm of the Qatulu river; Qalmar to that arm is eighty miles (p. 953). The summary is corrected in this batch.
 These summaries disagree with the body or source; the prose follows the sources.
@@ -83,7 +84,6 @@ Unverified in batch 3:
 | 2026-10-31 | Claude (Haiku 5.5) | n–z batch 3: 25 place slugs (sila, tunin, tukha, sarwan, sayala, sindabur, zamin, nafzawa, tabas, naqawus, sharma, zaqa, sayumur, namna, nafta, raygha, qulari, thabun, tabna, zuzan, sawnu, qawun, uzayn, sadum, sabat) | 3 (place/tukha, place/zamin, place/tabna; place/qawun was already enriched in batch 2 and its summary is corrected here) | 21 (reasons under Leads) | — |
 | 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 4: place, futuh-buldan-maarif-1407 (sariya; p.469 checked against OCR) | 1 | 0 | — |
-- place/shuman: the summary says Fadl ibn al-Muhallab conquered it in Khurasan (Baladhuri). The OCR shows only a mention, at p.590, in the Transoxiana account, where the ruler of Shuman harassed the king of Saghaniyan. The conquest claim is not supported there. Left unchanged; needs checking against the printed book.
 - place/tulmaytha summary said ten miles from Qamanas. Idrisi p. 315 gives ten miles from the castle of al-Unayn; Qamanas is ten miles from the start of that stretch. Corrected in batch 7.
 - place/rudhistu summary said it lies on the road between Salūnī and a capital to the east. Idrisi p. 894 gives sixty miles from Salūnī and twelve miles from Constantinople. Corrected in batch 8.
 | 2026-10-31 | Claude (n–z) | batch 5: place, nuzhat-al-mushtaq-2002 (sadum, sukh, sawar; pp. 146, 508, 918 checked against OCR) | 3 | 0 | — |
@@ -204,6 +204,7 @@ Enriched in ar, en and ur, each body at least 100 words, from pages read in the 
 | Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
 |---|---|---|---|---|---|
 | 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 8: 25 place slugs (tuwaran … rudhan) | 18 (tuwaran, zaranj, zaghawa, washjird, wahran, shahrazur, qubrus, sindan, sarandib, nahrawara, qarliyun, trapani, shantuf, shant-yaqub, rashid, rennes, sinis, rudhan) | 7 (reasons below) | this PR |
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 9: place, nuzhat-al-mushtaq-2002 (qazlara pp. 901–902, shansha p. 335, qantarat-al-sayf pp. 545–547; checked against the 1-2_20240914 OCR) | 3 (qazlara rewritten: Mashla corrected to 70 miles, p. 902; shansha and qantarat-al-sayf written; each ar/en/ur ≥100 body words) | 0 | this PR |
 
 ### Leads, batch 8
 
@@ -222,3 +223,50 @@ Enriched in ar, en and ur, each body at least 100 words, from pages read in the 
 - place/trapani: the summary says Ibn Jubayr mentioned the town on his sea route. Not checked against the source in this batch; the Idrisi pages added as a source contain no Ibn Jubayr reference.
 - place/qarliyun: the summary's identification with Corleone in Sicily is not in the Idrisi passage read (pp. 605–606), which gives distances and fortresses only.
 - place/qubrus: Futuh p. 209 says the Cypriots demolished their city and mosques after the army left; the text says this is what "we were told" (بلغنا). The body attributes it to al-Baladhuri's report.
+
+## n–z batch 9 (Claude Haiku 5.5, 25 place slugs)
+
+Named batch 9 because batches 7 and 8 were already used on main by other n–z sessions. Each source was read in the OCR at the cited page. Idrisi page numbers are pages.json numbers, which equal the printed pages.
+
+| Date | Owner | Batch | Entities enriched | Leads recorded | Commit |
+|---|---|---|---|---|---|
+| 2026-10-31 | Claude (Haiku 5.5, n–z) | batch 9: 25 place slugs (nairun, nafzawa, nahr-khamdan, qabi, qaqala, qazlara, qastiliyya, sisiyan, tabarqa, tadla, tahart, tarudant, turshiz, tughma, umm-rabi, washqa, zafar, zawada, zubala, shaqr, tabala, nafta, najaf, sharham, wallba) | 3 (tadla, qastiliyya, qazlara; each ar/en/ur body at least 100 words, cite-check passes) | 22 (reasons below) | this PR |
+
+### Enriched, batch 9
+
+- **place/tadla** (Idrisi pp. 241–242). Aghmat to Dai and Tadla, four days; cotton grown more in Tadla than in Dai and carried to every region; Tatn, Sala and Fez distances; the Berber groups east of Tadla.
+- **place/qastiliyya** (Idrisi p. 277). Also called Tuzar; palms and dates, citrons, vegetables, water not good, food dear because brought in, al-Hamma a short stage away, distances from Bagay.
+- **place/qazlara** (Idrisi pp. 890, 901). Distances to Nayun Burk, Mashla and Hala; the town's people as defenders; its place in Shasuniya.
+
+### Leads, batch 9
+
+Read in the OCR at the cited page:
+
+- **place/nairun.** p. 168 gives one short paragraph (a small town with a strong fortress, distances to al-Mansura). p. 166 names it in a list. About 45 words specific to the place. Lead.
+- **place/nafzawa.** pp. 278–279 give distances from Gafsa and Tuzar. p. 283 has the regional narrative, and p. 257 names Nafzawa as a Zenata lineage. No descriptive passage of the town. Lead.
+- **place/nahr-khamdan.** A river entry. pp. 205–213 describe the Chinese river and the towns on it (Khaygun, Iskiriya, Tukha). Those towns have their own entries. The river description on p. 213–214 needs a full read before a body can be written; the OCR there is noisy. Lead.
+- **place/qabi.** p. 955 gives distances (six stages from the sea, four days to Qulari). About 40 words specific to Qabi. Lead.
+- **place/qaqala.** p. 207 gives about 60 words (seven days from Luqin on the coast, on a small river that flows into the Bahank, silk, Qaqali cloth); p. 208 gives two stage distances. Lead.
+- **place/sisiyan.** pp. 716–717 list it among the Kimakiya towns and give twelve days east of Asturr and its place on the Ghamash. pp. 926 and 930 describe the land of Sisiyan in general. No passage of about 100 words for the town. Lead.
+- **place/tabarqa.** p. 289 gives about 50 words (seventy miles from Bizerte, a fortress on the sea, Arab tribes around it, a harbour for ships). p. 299 gives twenty-four miles from Marsa al-Kharaz. The coral passage on p. 290 belongs to Marsa al-Kharaz, not Tabarqa. Lead.
+
+Not read beyond a search for the label (OCR hit count in Idrisi shown in brackets). The reason is the thin or absent text, which the next batch should confirm:
+
+- **place/tarudant** [8], **place/turshiz** [11], **place/tughma** [5], **place/umm-rabi** [8], **place/washqa** [9], **place/zafar** [9], **place/zawada** [8], **place/zubala** [4], **place/shaqr** [16], **place/tabala** [7], **place/nafta** [4], **place/sharham** [6], **place/wallba** [5]. Lead until each is read at its pages.
+- **place/tahart** [18] has an existing body from the earlier batch. Its Idrisi passage was not re-checked in this batch. Lead; the existing body stands.
+- **place/najaf** [5 in Idrisi]. Its record's sources are GeoNames and Ibn Battuta, not Idrisi; the Idrisi hits are not yet tied to this record. Lead until the source list is decided.
+- **place/wallba** and the others above are listed for the next pass; no prose was written for them.
+
+### Skipped candidates, batch 9
+
+- **place/sur** and **place/sur-lubnan**: the label صور is one of the common words the lane excludes.
+- **place/sohar**, **place/tanes**, **place/qamrun**, **place/zuwayla**, **place/yazd**: logged as leads in batch 7 with reasons.
+- **place/ukaz**: logged as a lead in batch 6.
+- **place/zabid**: the record's sources are GeoNames and Futuh/Idrisi hits; not chosen as thin.
+
+### Open issues, batch 9
+
+- place/qazlara: the distance from Qazlara to Herbord is sixty miles at p. 890 and forty miles at p. 901. The body gives both and does not choose; the summary says nothing about it.
+- place/qastiliyya: the data summary names the town as Tuzar, which the body keeps. The "Hamma" and "Qasantina" details are at p. 277 only; no second source for them.
+- place/niyast: the OCR has no entry for نياست. The seven-stage Madyar distance in the scanned text (around the Atrasa and Tanast passage, p. 79 of the scan) runs from Tanast, not from Niyast. The summary's Niyast claims are therefore unverified. Lead; needs the printed page.
+- place/suqusiya: the nearest OCR passage (scan p. 325) is an account of northern sea islands and names Suqusiya as connected to another island (لنغلطره). The identification is not settled, so the body is still not written. Lead.

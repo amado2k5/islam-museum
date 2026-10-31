@@ -15,7 +15,12 @@ author:
 language: ar
 reliability_note: "Edition note only. The scan (harvest folder 20200420_20200420_2338, 35 pages) has no printing date and no editor's name on the pages read. The text layer is partial; the headings and hadith numbers were read from it, and the hadith numbers run from 1 to 50. The printed title names Ibn Rajab's addition, which is why the scan is recorded here. No fact about the text of the hadiths is taken from this printing alone."
 open_access: false
-provenance: "provided by the founder, authorized 31 Oct 2026, see docs/delegation/founder-provided-books.md"
+provenance:
+  layer: cc0
+  source: "provided by the founder, authorized 31 Oct 2026, see docs/delegation/founder-provided-books.md"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "harvest-wave1-arbaun-nawawi"
 status:
   review: published
   completeness: 1

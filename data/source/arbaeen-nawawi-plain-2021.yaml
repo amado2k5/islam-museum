@@ -15,7 +15,12 @@ author:
 language: ar
 reliability_note: "Edition note only. The scan (harvest folder 20210807, 42 pages) has no title page and no publisher. Its numbering and text were read on the first pages; the commentary the book does not contain is not claimed. Not used for the grades or the takhrij, which are taken from the Dar al-Salam edition."
 open_access: false
-provenance: "provided by the founder, authorized 31 Oct 2026, see docs/delegation/founder-provided-books.md"
+provenance:
+  layer: cc0
+  source: "provided by the founder, authorized 31 Oct 2026, see docs/delegation/founder-provided-books.md"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "harvest-wave1-arbaun-nawawi"
 status:
   review: published
   completeness: 1
