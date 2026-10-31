@@ -1,0 +1,47 @@
+id: person/husein-smajic
+class: person
+label:
+  ar: "حسين سمايتش"
+  en: "Husein Smajić"
+  ur: "حسین سمایچ"
+names:
+  - { value: "Husein Smajić", kind: full }
+  - { value: "Husejn Smajić", kind: alternate }
+gender: male
+born:
+  edtf: "1952"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1952, the year the Serbian Wikipedia's list of deputy Reis-ul-ulema office-holders gives for him; the queue's 1952 is confirmed at year precision. No source reached gives a day or a birthplace. The Hijri year is omitted: a bare Gregorian year 1952 spans two Hijri years (1371-1372)."
+  sources:
+    - source/wikipedia-deputy-reis-bih-sr
+roles: [mufti, scholar]
+regions: [anatolia-balkans]
+wings: [people, living]
+relations:
+  - { type: lived_in, target: place/sarajevo, sources: [source/kuna-bosnian-clerics-mufti-race-2012, source/islamskazajednica-smajic-program-2012] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Smajic's Islam is documented in a lifetime of service in the Islamic Community's own offices: Mufti of Sarajevo, a candidate for Reis-ul-ulema in 2012, deputy Reis-ul-ulema (naibu-reis) from 2012 to 2019, and the Community's member of the Interreligious Council of Bosnia and Herzegovina. No source reached names a legal school for the man himself, and office-holding is not evidence of one, so no school is recorded."
+    sources:
+      - source/kuna-bosnian-clerics-mufti-race-2012
+      - source/wikipedia-deputy-reis-bih-sr
+      - source/islamicpluralism-bosnian-religious-leaders-2013
+summary:
+  ar: "عالم بوسني من مسؤولي المشيخة الإسلامية في البوسنة والهرسك. كان مفتي سراييفو ومرشحًا لمنصب رئيس العلماء في انتخابات 2012، ثم نائبًا لرئيس العلماء (نائب الرئيس) من 2012 إلى 2019، ومثّل المشيخة في المجلس المشترك بين الأديان في البوسنة والهرسك."
+  en: "Bosnian scholar and official of the Islamic Community in Bosnia and Herzegovina. Mufti of Sarajevo and a candidate for Reis-ul-ulema in the 2012 election, he served as deputy Reis-ul-ulema (naibu-reis) from 2012 to 2019 and represented the Community on the Interreligious Council of Bosnia and Herzegovina."
+  ur: "بوسنیائی عالم اور بوسنیا و ہرزیگووینا کی اسلامی کمیونٹی کے عہدیدار۔ وہ سرائیوو کے مفتی رہے اور 2012ء کے انتخاب میں رئیس العلماء کے امیدوار تھے، پھر 2012ء سے 2019ء تک نائب رئیس العلماء (نائب الرئیس) رہے اور بین المذاہب کونسل میں کمیونٹی کی نمائندگی کی۔"
+sources:
+  - source/wikipedia-deputy-reis-bih-sr
+  - source/kuna-bosnian-clerics-mufti-race-2012
+  - source/islamskazajednica-smajic-program-2012
+  - source/islamicpluralism-bosnian-religious-leaders-2013
+provenance:
+  layer: own-research
+  source: "The Serbian Wikipedia's list of deputy Reis-ul-ulema office-holders, the Kuwait News Agency report of 9 September 2012 on the 2012 Reis-ul-ulema candidate vote, Smajic's official candidacy work programme published by the Islamic Community in Bosnia and Herzegovina in August 2012, and the Center for Islamic Pluralism's January 2013 report on the Interreligious Council, all read in full in this session; the Wikipedia revision id was fetched live from the MediaWiki API in this session and asserted. Identity: the queue line's bearer — Husein ef. Smajic (born 1952), Mufti of Sarajevo and deputy Reis-ul-ulema 2012-2019; no Wikipedia biography article and no Wikidata item exists for him under any spelling searched (en/tr/bs/hr/de/sl Wikipedias and Wikidata entity search), so this is a minimal record on institutional and news sources. The queue's 1952 is confirmed at year precision; no day or birthplace is attested, so the born block is year-only. Relations written: lived_in Sarajevo, the seat of his muftiate and of the Community he served."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

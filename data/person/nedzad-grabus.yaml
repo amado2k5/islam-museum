@@ -1,0 +1,48 @@
+id: person/nedzad-grabus
+class: person
+label:
+  ar: "نجاد غرابوس"
+  en: "Nedžad Grabus"
+  ur: "نجاد گرابوس"
+names:
+  - { value: "Nedžad Grabus", kind: full }
+gender: male
+born:
+  edtf: "1968"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1968 at Krpeljici near Travnik: the Bosnian biography and Wikidata give the year, and Wikidata gives the birthplace; the queue's 1968 is confirmed. No source reached gives a day. Krpeljici has no place entity, so no born_in edge is written. The Hijri year is omitted: a bare Gregorian year 1968 spans two Hijri years (1387-1388)."
+  sources:
+    - source/wikipedia-grabus-bs
+    - source/wikidata-grabus
+roles: [scholar, mufti]
+regions: [anatolia-balkans]
+wings: [people, living]
+relations:
+  - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-grabus-bs] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Grabus's Islam is documented in a lifetime of Islamic learning and office: the Gazi Husrev-beg Madrasa, a doctorate in aqida (Islamic theology) at Sarajevo's Faculty of Islamic Studies, where he is full professor of aqida, tasawwuf and comparative religions; Mufti of Ljubljana from 2006 to 2021 and Mufti of Sarajevo from 2021; and his election as Reis-ul-ulema in October 2026. No source reached names a legal school for the man himself, and neither teaching a subject nor holding office attests one, so no school is recorded."
+    sources:
+      - source/wikipedia-grabus-bs
+      - source/wikipedia-grabus-hr
+      - source/wikidata-grabus
+summary:
+  ar: "عالم لاهوت إسلامي بوسني. كان مفتي ليوبليانا ورئيس المشيخة الإسلامية في سلوفينيا (2006–2021)، ثم مفتي سراييفو (2021–2026)، وهو أستاذ العقيدة والتصوف والأديان المقارنة في كلية الدراسات الإسلامية بسراييفو. وفي 10 أكتوبر 2026 انتُخب رئيسًا للعلماء في البوسنة والهرسك، رابع عشر من تولى المنصب."
+  en: "Bosnian Islamic theologian. Mufti of Ljubljana and head of the Islamic Community in Slovenia (2006-2021), then Mufti of Sarajevo (2021-2026), he is full professor of aqida, tasawwuf and comparative religions at the Faculty of Islamic Studies in Sarajevo. On 10 October 2026 he was elected Reis-ul-ulema of the Islamic Community in Bosnia and Herzegovina, the fourteenth holder of the office."
+  ur: "بوسنیائی اسلامی عالمِ دین۔ وہ لیوبلیانا کے مفتی اور سلووینیا کی اسلامی کمیونٹی کے سربراہ رہے (2006ء–2021ء)، پھر سرائیوو کے مفتی (2021ء–2026ء) ہوئے، اور سرائیوو کی فیکلٹی آف اسلامک اسٹڈیز میں عقیدہ، تصوف اور تقابلی مذاہب کے پروفیسر ہیں۔ 10 اکتوبر 2026ء کو وہ بوسنیا و ہرزیگووینا کی اسلامی کمیونٹی کے رئیس العلماء منتخب ہوئے، اس منصب کے چودھویں حامل۔"
+sources:
+  - source/wikipedia-grabus-bs
+  - source/wikipedia-grabus-hr
+  - source/wikidata-grabus
+external_ids:
+  wikidata: Q1727519
+provenance:
+  layer: own-research
+  source: "The Bosnian and Croatian Wikipedia biographies of Nedzad Grabus and the Wikidata item Q1727519, all read in full in this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query. The QID was grounded through the Bosnian article's page properties. Identity: the queue line's bearer — the Ljubljana and Sarajevo mufti (born 1968), pinned by biography and QID. The queue's 1968 is confirmed at year precision. Relations written: lived_in Sarajevo (his madrasa and faculty city and the seat of his second muftiate); no born_in or Ljubljana edge, as Krpeljici and Ljubljana have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-143
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
