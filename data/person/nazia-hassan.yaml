@@ -1,0 +1,56 @@
+id: person/nazia-hassan
+class: person
+label:
+  ar: "نازيه حسن"
+  en: "Nazia Hassan"
+  ur: "نازیہ حسن"
+names:
+  - { value: "Nazia Hassan", kind: full }
+  - { value: "نازیہ حسن", kind: full }
+  - { value: "Queen of South Asian Pop", kind: laqab }
+gender: female
+born:
+  edtf: "1965-04-03"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 April 1965 at Karachi: the English, Arabic and Urdu articles and Wikidata agree on the day and the city, the English and Urdu articles citing The Guardian's obituary. The Hijri year 1384 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-nazia-hassan-en, source/wikipedia-nazia-hassan-ar, source/wikipedia-nazia-hassan-ur, source/wikidata-nazia-hassan]
+died:
+  edtf: "2000-08-13"
+  hijri: "1421"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died of lung cancer on 13 August 2000 at London, aged 35: all three articles and Wikidata agree. She was buried in the Muslim section of Hendon Cemetery, London, after a funeral prayer at Hendon Mosque. The Hijri year 1421 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-nazia-hassan-en, source/wikipedia-nazia-hassan-ar, source/wikidata-nazia-hassan]
+roles: [singer, songwriter, philanthropist]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for her. Wikidata gives only Islam; the English biography records her burial with Islamic rites in the Muslim section of Hendon Cemetery, and its category filings describe her as a Pakistani Muslim — a funeral circumstance and filings, which name no school and were not counted. The absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikidata-nazia-hassan, source/wikipedia-nazia-hassan-en]
+relations:
+  - { type: sibling_of, target: person/zoheb-hassan, sources: [source/wikipedia-nazia-hassan-en, source/wikipedia-nazia-hassan-ar, source/wikipedia-nazia-hassan-ur] }
+summary:
+  ar: "مغنية وكاتبة أغاني باكستانية (1965–2000) لُقّبت بـ«ملكة البوب في جنوب آسيا»؛ نالت الشهرة في الخامسة عشرة بأغنية «آپ جیسا کوئی» في الفيلم الهندي «قرباني» (1980)، وباعت مع أخيها زوهيب، في ثنائي «نازية وزوهيب»، أكثر من 65 مليون أسطوانة حول العالم؛ توفيت بسرطان الرئة في لندن عن 35 عامًا، ومُنحت وسام فخر الأداء بعد وفاتها سنة 2002."
+  en: "Pakistani singer and songwriter (1965–2000), the 'Queen of South Asian Pop'. She shot to fame at fifteen with 'Aap Jaisa Koi' in the Indian film Qurbani (1980), and with her brother Zoheb, as the duo Nazia and Zoheb, sold over 65 million records worldwide; she died of lung cancer in London aged 35 and received the Pride of Performance posthumously in 2002."
+  ur: "پاکستانی گلوکارہ اور نغمہ نگار (1965–2000)، جنہیں «جنوبی ایشیا کی پاپ کی ملکہ» کہا جاتا ہے؛ پندرہ برس کی عمر میں بھارتی فلم «قربانی» (1980) کے گیت «آپ جیسا کوئی» سے شہرت ملی، اور بھائی زوہیب کے ساتھ «نازیہ اور زوہیب» کے طور پر دنیا بھر میں ساڑھے چھ کروڑ سے زائد ریکارڈ فروخت کیے؛ 35 برس کی عمر میں لندن میں پھیپھڑوں کے سرطان سے وفات پائی اور 2002 میں بعد از مرگ تمغہ حسنِ کارکردگی سے نوازی گئیں۔"
+sources:
+  - source/wikipedia-nazia-hassan-en
+  - source/wikipedia-nazia-hassan-ar
+  - source/wikipedia-nazia-hassan-ur
+  - source/wikidata-nazia-hassan
+external_ids:
+  wikidata: Q3242258
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Nazia Hassan and the Wikidata item Q3242258, read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Karachi-born pop singer (1965–2000), sister of Zoheb Hassan. Existence checks by name fragments (nazia, hassan) and by QID across data/person on origin/main found no prior record. The queue's years (1965–2000) are confirmed to the day by all four sources. Relations written: the symmetric sibling_of edge to person/zoheb-hassan is written ONCE, here in her record, because she is the elder of the two (born 1965 against his 1966). No born_in or died_in edge is written: Karachi and London have no place entities on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

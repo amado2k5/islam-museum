@@ -1,0 +1,46 @@
+id: person/sajjad-ali
+class: person
+label:
+  ar: "سجاد علي"
+  en: "Sajjad Ali"
+  ur: "سجاد علی"
+names:
+  - { value: "Sajjad Ali", kind: full }
+  - { value: "سجاد علی", kind: full }
+  - { value: "Sajjad Bhai", kind: alternate }
+gender: male
+born:
+  edtf: "1966-08-24"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The full date 24 August 1966 is carried by the Urdu article's text and by Wikidata; the English article gives the year 1966 only. The birthplace is likewise split: the Urdu article and Wikidata (Lahore, Q11739) give Lahore, while the English article gives Karachi as his birthplace and city. Lahore is followed as doubly attested; the Karachi reading is preserved here. The Hijri year 1386 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-sajjad-ali-ur, source/wikidata-sajjad-ali, source/wikipedia-sajjad-ali-en]
+roles: [singer, songwriter, poet, actor, director, producer]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. Wikidata gives only Islam, and the English and Urdu biographies carry no religion value at all. His classical training under his uncle Tassaduq Hussain and his family's standing in classical music are background and were not counted; the absence configuration applies, so the settlement is unflagged."
+    sources: [source/wikidata-sajjad-ali, source/wikipedia-sajjad-ali-en, source/wikipedia-sajjad-ali-ur]
+summary:
+  ar: "مغنٍّ باكستاني (وُلد سنة 1966) في الغناء شبه الكلاسيكي والبوب والروك، وشاعر وممثل ومخرج ومنتج سينمائي؛ تدرّب على الموسيقى الكلاسيكية على يد عمّه تصدق حسين، واشتهر بألبوم «بابيا» (1993) وبأغنيات مثل «تشيف صاب» و«سوهني لغدي»، وغنى «دن پریشان ہے» في فيلم «بول» (2011)، ونال وسام ستارة الامتياز."
+  en: "Pakistani semi-classical, pop and rock singer, poet, actor, and film director and producer, born in 1966. Trained in classical music by his uncle Tassaduq Hussain, he rose to fame with the album Babia (1993) and songs such as 'Chief Saab' and 'Sohni Lagdi', sang 'Din Pareshan Hai' for the film Bol (2011), and received the Sitara-e-Imtiaz."
+  ur: "پاکستانی نیم کلاسیکی، پاپ اور راک گلوکار، شاعر، اداکار اور فلم ہدایت کار و پروڈیوسر (پیدائش 1966)۔ انہوں نے اپنے چچا تصدق حسین سے کلاسیکی موسیقی کی تربیت حاصل کی، البم «بابیا» (1993) اور «چیف صاحب» اور «سوہنی لگدی» جیسے گانوں سے شہرت پائی، فلم «بول» (2011) کے لیے «دن پریشان ہے» گایا، اور ستارہ امتیاز سے نوازے گئے۔"
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-sajjad-ali-ur, source/wikidata-sajjad-ali] }
+sources:
+  - source/wikipedia-sajjad-ali-en
+  - source/wikipedia-sajjad-ali-ur
+  - source/wikidata-sajjad-ali
+external_ids:
+  wikidata: Q3308621
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Sajjad Ali and the Wikidata item Q3308621, all read in full this session; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Karachi semi-classical and pop singer (born 1966), not any other Sajjad Ali. Existence checks by name fragments (sajjad) and by QID across data/person on origin/main found no prior record. The queue's year (1966, living) is confirmed; the full date and the birthplace both follow the Urdu article and Wikidata (Lahore) against the English article's Karachi, both readings preserved in the born note. Relations written: born_in to place/lahore, which exists on main, on the two followed sources. Living-person care: only well-sourced public facts are recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-133
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
