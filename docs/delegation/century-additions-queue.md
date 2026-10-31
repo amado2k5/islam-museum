@@ -705,11 +705,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Irrfan Khan — 1967–2020
 - [x] Nawazuddin Siddiqui — 1974–Living
 - [x] Salman Khan — 1965–Living
-- [ ] Saif Ali Khan — 1970–Living
-- [ ] Fatima Sana Shaikh — 1992–Living
-- [ ] Zaira Wasim — 2000–Living
-- [ ] Bismillah Khan — 1916–2006
-- [ ] Amjad Ali Khan — 1945–Living
+- [x] Saif Ali Khan — 1970–Living
+- [x] Fatima Sana Shaikh — 1992–Living
+- [x] Zaira Wasim — 2000–Living
+- [x] Bismillah Khan — 1916–2006
+- [x] Amjad Ali Khan — 1945–Living
 - [ ] Zakir Hussain — 1951–Living
 - [ ] Vilayat Khan — 1928–2004
 - [x] Bade Ustad Ghulam Ali Khan — 1902–1968

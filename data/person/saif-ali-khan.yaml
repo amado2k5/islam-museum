@@ -1,0 +1,48 @@
+id: person/saif-ali-khan
+class: person
+label:
+  ar: "سيف علي خان"
+  en: "Saif Ali Khan"
+  ur: "سیف علی خان"
+names:
+  - { value: "Saif Ali Khan", kind: full }
+  - { value: "Saif Ali Mansur Ali Khan Pataudi", kind: full }
+  - { value: "Sajid Ali Khan Pataudi", kind: full }
+gender: male
+born:
+  edtf: "1970-08-16"
+  hijri: "1390"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 16 August 1970 at New Delhi: the English, Arabic and Urdu articles and Wikidata agree on the day and the city. He was born Sajid Ali Khan Pataudi. The Hijri year 1390 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-saif-ali-khan-en, source/wikipedia-saif-ali-khan-ar, source/wikipedia-saif-ali-khan-ur, source/wikidata-saif-ali-khan]
+roles: [actor, producer]
+regions: [south-asia]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Settled unknown and FLAGGED for a founder ruling. No source names a school for him. The English biography records that he grew up a Muslim, citing an August 1998 interview in which he said religion played a major role in his upbringing. In a September 2021 interview carried by The Express Tribune he said: 'I know there is a higher power, but I can't say for sure what that is' — words that affirm a higher power while disclaiming certainty about its nature; press descriptions of him as agnostic rest on this single interview, which professes neither a school nor unbelief. Wikidata gives only Islam. His parents' faiths, and his titular headship of the Pataudi family since 2011, are background and office and were not counted."
+    sources: [source/wikipedia-saif-ali-khan-en, source/express-tribune-saif-ali-khan-2021, source/wikidata-saif-ali-khan]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-saif-ali-khan-en, source/wikidata-saif-ali-khan] }
+summary:
+  ar: "ممثل ومنتج هندي (وُلد سنة 1970) في نيودلهي، ابن الممثلة شارميلا طاغور ولاعب الكريكيت منصور علي خان باتودي والرئيس الاسمي لعائلة باتودي منذ 2011؛ من نجوم السينما الهندية منذ التسعينيات («ديل شاهتا هي» و«كال هو نا هو» و«هم تم»)، نال جائزة الفيلم الوطنية وبادما شري (2010)."
+  en: "Indian actor and producer (born 1970) at New Delhi, son of the actress Sharmila Tagore and the cricketer Mansur Ali Khan Pataudi and titular head of the Pataudi family since 2011; a leading Hindi-film star since the 1990s (Dil Chahta Hai, Kal Ho Naa Ho, Hum Tum), he won a National Film Award and received the Padma Shri in 2010."
+  ur: "بھارتی اداکار اور پروڈیوسر (پیدائش 1970) جو نئی دہلی میں پیدا ہوئے، اداکارہ شرمیلا ٹیگور اور کرکٹر منصور علی خان پٹودی کے بیٹے اور 2011 سے خاندانِ پٹودی کے رسمی سربراہ ہیں؛ نوے کی دہائی سے ہندی سنیما کے نمایاں ستارے («دل چاہتا ہے»، «کل ہو نہ ہو»، «ہم تم»)، قومی فلم ایوارڈ یافتہ اور پدم شری (2010) سے نوازے گئے۔"
+sources:
+  - source/wikipedia-saif-ali-khan-en
+  - source/wikipedia-saif-ali-khan-ar
+  - source/wikipedia-saif-ali-khan-ur
+  - source/wikidata-saif-ali-khan
+  - source/express-tribune-saif-ali-khan-2021
+external_ids:
+  wikidata: Q252290
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Saif Ali Khan, the Wikidata item Q252290 and The Express Tribune interview piece of 9 September 2021, all read as fully as this session allowed; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, the QID was grounded through the English article's page properties, and the Tribune headline quotation is verified as carried in the English biography (its site was not directly retrievable). Identity: the queue line's bearer is the New Delhi-born actor (born 1970), son of Mansur Ali Khan Pataudi — not Saifuddin Kitchlew or any Saif holding a record. Existence checks by name fragments (saif, pataudi, mansur) and by QID across data/person on origin/main found no prior record for him, and no record for his father Mansur Ali Khan Pataudi (Q983454), so no parent edge is available for merge-stage completion. The queue's year (1970, living) is confirmed to the day. Relations written: born_in to place/delhi only — his marriages and children are not recorded as relations here, and the Pataudi headship is an office, never a relation. Living-person care: only well-sourced public facts are recorded, and his faith entry rests on his own published words."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-130
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
