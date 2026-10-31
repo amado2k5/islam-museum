@@ -665,11 +665,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Adam Malik — 1917–1984
 - [x] Tunku Abdul Rahman — 1903–1990
 - [x] Tun Abdul Razak — 1922–1976
-- [ ] Tun Hussein Onn — 1922–1990
-- [ ] Tun Abdullah Ahmad Badawi — 1939–2024
-- [ ] Najib Razak — 1953–Living
-- [ ] Muhyiddin Yassin — 1947–Living
-- [ ] Ismail Sabri Yaakob — 1960–Living
+- [x] Tun Hussein Onn — 1922–1990
+- [x] Tun Abdullah Ahmad Badawi — 1939–2024
+- [x] Najib Razak — 1953–Living
+- [x] Muhyiddin Yassin — 1947–Living
+- [x] Ismail Sabri Yaakob — 1960–Living
 - [ ] Anwar Ibrahim — 1947–Living
 - [ ] Sultan Ibrahim Ismail — 1958–Living
 - [ ] Sultan Azlan Shah — 1928–2014
@@ -1572,11 +1572,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Choudhary Ghulam Abbas (1904–1967)
 - [x] Prem Nath Bazaz (Muslim Associates) (1905–1940)
 - [x] Syed Mir Kasim (1919–2004)
-- [ ] Begum Akbar Jehan Abdullah (1907–2000)
-- [ ] Mian Nizamuddin Kianwi (1830–1913)
-- [ ] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
-- [ ] Master Zinda Kaul (Muslim Circle) (1880–1950)
-- [ ] Ghulam Ahmad Mahjoor (1887–1952)
+- [x] Begum Akbar Jehan Abdullah (1907–2000)
+- [x] Mian Nizamuddin Kianwi (1830–1913)
+- [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
+- [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
+- [x] Ghulam Ahmad Mahjoor (1887–1952)
 - [ ] Abdul Ahad Azad (1903–1948)
 - [ ] Rasul Mir (1840–1870)
 - [ ] Mahmud Gami (1765–1855)

@@ -1,0 +1,54 @@
+id: person/ghulam-ahmad-mahjoor
+class: person
+label:
+  ar: "غلام أحمد مهجور"
+  en: "Ghulam Ahmad Mahjoor"
+  ur: "پیرزادہ غلام احمد مہجور"
+names:
+  - { value: "Peerzada Ghulam Ahmad", kind: full }
+  - { value: "Mahjoor", kind: pen }
+  - { value: "Ghulam Ahmed Mahjoor", kind: alternate }
+gender: male
+born:
+  edtf: "1887-08-11"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born at Mitrigam, Pulwama. The Urdu article and Wikidata give 11 August 1887; the English article instead gives August 1885, which is preserved here and not followed. The 1887 date is carried as debated and the Hijri year is derived tabularly from it."
+  sources: [source/wikipedia-mahjoor-en, source/wikipedia-mahjoor-ur, source/wikidata-mahjoor]
+died:
+  edtf: "1952-04-09"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and Urdu articles agree on 9 April 1952; Wikidata's day-precision claim gives 6 April 1952, which is preserved here and not followed. The 9 April date is carried as debated and the Hijri year is derived tabularly from it."
+  sources: [source/wikipedia-mahjoor-en, source/wikipedia-mahjoor-ur, source/wikidata-mahjoor]
+roles: [poet, writer]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school or affiliation for him, and his Wikidata item carries no religion value at all. A maktab primary education and a father who was a Persian scholar are schooling and family background, which never count."
+    sources: [source/wikipedia-mahjoor-en, source/wikidata-mahjoor]
+relations: []
+summary:
+  ar: "شاعر كشميري لُقّب بـ«شاعر كشمير»، أدخل أسلوباً جديداً في الشعر الكشميري ووسّع موضوعاته إلى الحب والوحدة الاجتماعية والإصلاح، وعمل موظفاً في إدارة الإيرادات (بتواري) متنقلاً في أرجاء الوادي."
+  en: "Kashmiri poet honoured as Shayar-e-Kashmir, 'the poet of Kashmir', who brought a new style to Kashmiri poetry and widened its themes to love, communal unity and social reform, while working as a revenue official (patwari) posted across the valley."
+  ur: "کشمیری شاعر جنھیں «شاعرِ کشمیر» کہا جاتا ہے؛ انھوں نے کشمیری شاعری میں نیا اسلوب متعارف کرایا اور اس کے موضوعات کو محبت، فرقہ وارانہ ہم آہنگی اور سماجی اصلاح تک وسعت دی، جب کہ وہ وادی میں پٹواری کے عہدے پر فائز رہے۔"
+sources:
+  - source/wikipedia-mahjoor-en
+  - source/wikipedia-mahjoor-ur
+  - source/wikidata-mahjoor
+external_ids:
+  wikidata: Q3663818
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Peerzada Ghulam Ahmad 'Mahjoor' (Q3663818), read in full, with the Wikidata item; every revision id fetched live from the MediaWiki API in this session and asserted before use, the QID grounded through the English article's page properties. Identity: the queue line's bearer is the poet of Mitrigam called the father of modern Kashmiri poetry; Mahjoor is his pen name (takhallus), taken under the influence of Shibli Nomani, and is recorded as a pen name. The queue's 1887 birth year stands against the English article's 1885 but its implied dates are otherwise corrected in the date notes, where both death-day readings are preserved. Existence checks by name fragments (mahjoor, mahjur) and by QID across data/person on origin/main found no prior record. Relations written: none. No born_in or died_in edge is written: Mitrigam, Pulwama and Srinagar have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-122
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

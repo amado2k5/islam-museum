@@ -1,0 +1,45 @@
+id: person/nizamuddin-kianwi
+class: person
+label:
+  ar: "نظام الدين الكيانوي"
+  en: "Nizamuddin Kianwi"
+  ur: "نظام الدین کیانوی"
+names:
+  - { value: "Nizamuddin Kianwi", kind: full }
+  - { value: "Khwaja Nizamuddin Kianvi", kind: alternate }
+  - { value: "Bawaji Sarkar", kind: laqab }
+gender: male
+died:
+  edtf: "1895-07-31"
+  hijri: "1313"
+  calendar: gregorian
+  precision: day
+  status: tradition
+  derived: false
+  note: "Died at Kiyan Sharif in the Neelam Valley. His Urdu biography dual-dates the death 8 Safar 1313 AH, corresponding to 31 July 1895, and both calendars are stated there, so neither is derived here. The year is independently corroborated by the urs count at Baba Nagri, Wangat: Kashmir Uzma reported his 122nd urs in June 2017, which counts back to 1895."
+  sources: [source/wikipedia-nizamuddin-kianwi-ur, source/kashmir-uzma-nizamuddin-kianwi-urs]
+roles: [sufi, preacher]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Settled on two independent attestations of the man himself: his Urdu biography counts him among the elders of the Naqshbandiyya in Kashmir and records his initiation (bay'ah) and his years of retreat and preaching, and the Kashmir Uzma report of his 122nd urs styles him in its headline 'Nizamuddin Kianvi Naqshbandi'. The biography's lead also names Qadiri, Chishti and Suhrawardi connections in the inclusive phrasing conventional for Kashmiri saints; the value records the operative Naqshbandi affiliation. No madhhab is attested."
+    sources: [source/wikipedia-nizamuddin-kianwi-ur, source/kashmir-uzma-nizamuddin-kianwi-urs]
+relations: []
+summary:
+  ar: "صوفي نقشبندي من وادي نيلم، اتخذ مقامه في كيان شريف قرب أثمقام، وأخذ البيعة عن بير صديق مير، وانتشر أتباعه و خلفاؤه في كشمير؛ وما زال عرسه السنوي يقام في بابا نغري بوانغت حيث يقيم خلفاؤه من آل لارفي."
+  en: "Naqshbandi Sufi of the Neelam Valley who made his seat at Kiyan Sharif near Athmuqam, took initiation from Pir Siddiq Mir, and spread a circle of khalifas across Kashmir; his annual urs is still kept at Baba Nagri, Wangat, by the Larvi family who descend from his khalifas."
+  ur: "وادی نیلم کے نقشبندی صوفی بزرگ، جن کا آستانہ کیاں شریف (اتھمقام کے قریب) تھا؛ انھوں نے پیر صدیق میر سے بیعت حاصل کی اور کشمیر بھر میں خلفاء کا سلسلہ پھیلایا؛ ان کا سالانہ عرس آج بھی بابا نگری وانگت میں آلِ لاروی کے اہتمام سے منایا جاتا ہے۔"
+sources:
+  - source/wikipedia-nizamuddin-kianwi-ur
+  - source/kashmir-uzma-nizamuddin-kianwi-urs
+  - source/wikidata-nizamuddin-kianwi
+external_ids:
+  wikidata: Q31308185
+provenance:
+  layer: own-research
+  source: "Urdu Wikipedia biography of Khwaja Nizamuddin Kianwi (Q31308185), read in full, the Kashmir Uzma report of his 122nd urs (8 June 2017) and the Wikidata item, which carries no claims; the article's revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. Identity: the queue line's 'Mian Nizamuddin Kianwi' is this saint of Kiyan Sharif — the only bearer of the name with a biographical record. He must not be conflated with his 20th-century namesake in the same tradition, the Gujjar leader Mian Nizam-ud-Din Larvi, whose family keeps this saint's urs at Wangat; press reports of the urs routinely merge the two men. Queue years rejected: no source gives the queue's 1830 birth, and its 1913 death appears to transpose the saint's 1313 AH death year; the biography's dual-dated 1895 death stands, corroborated by the urs count. No birth date is attested anywhere, so no born block is carried. Existence checks by name fragments (kianwi, kianvi, kiyanvi) and by QID across data/person on origin/main found no prior record. Relations written: none — his father Sultan al-Muluk, his pir Pir Siddiq Mir and his khalifas have no person records, and discipleship is not written as an edge in any case. No place edges: Kiyan Sharif, Athmuqam and Wangat have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-122
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
