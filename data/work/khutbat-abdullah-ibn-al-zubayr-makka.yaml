@@ -1,0 +1,22 @@
+id: work/khutbat-abdullah-ibn-al-zubayr-makka
+class: work
+kind: sermon
+sermon_type: jumu'a
+delivered: { by: person/abdullah-ibn-al-zubayr }
+label: { ar: "خطبة عبد الله بن الزبير بمكة على المنبر", en: "Abdullah ibn al-Zubayr's khutba on the minbar in Mecca", ur: "عبداللہ بن زبیر کی مکہ میں منبر پر خطبہ" }
+summary:
+  ar: "من خطب عبد الله بن الزبير في مكة على المنبر في خلافته."
+  en: "One of Ibn al-Zubayr's khutbas on the minbar in Mecca during his caliphate."
+  ur: "اپنے عہد خلافت میں مکہ کے منبر پر ابن زبیر کی خطبہ۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/abdullah-ibn-al-zubayr]
+ruler_at_time:
+  - { who: polity/umayyad-caliphate, role: opponent, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+  - { type: mentions, target: place/mecca }
+provenance: { layer: pd, source: "Jamharat v2", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-2 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
