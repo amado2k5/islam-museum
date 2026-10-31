@@ -124,3 +124,22 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 :::
 
 شیخ روایت کرتے ہیں کہ ابوبکر نے دودھ کے بارے میں شک ہونے پر اسے قے کر دیا، اور کہتے ہیں کہ مشکوک کھانا ان بڑے اسباب میں سے ہے جن سے دعا قبول نہیں ہوتی (needs_source)۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:32:30}
+
+## خلیفہ بن خیاط کے ہاں ان کے عہدیدار
+[[person/khalifa-ibn-khayyat|خلیفہ بن خیاط]] اس دور کے بیان کے آخر میں والیوں اور عہدیداروں کے نام دیتے ہیں۔ یہاں وہ انہی کی ترتیب سے ہیں؛ جو سطریں محقق نے بعد کے مصنفین سے بحال کیں ان کی نشاندہی کر دی گئی ہے۔ {cite:tarikh-khalifa-umari-1985 p. 122–123}
+
+- **مدینہ:** سنان الضمري («استخلفه حين خرج إلى ذي القصة»)، پھر [[person/usama-ibn-zayd|أسامة بن زيد]] («ويقال»)، پھر قتادة بن النعمان الظفري («استخلفه حين حج سنة اثنتي عشرة»)، پھر [[person/abd-allah-ibn-umm-maktum|ابن أم مكتوم]] («ويقال») {cite:tarikh-khalifa-umari-1985 p. 122} {cite:tarikh-khalifa-umari-1985 p. 123}
+- **مدینہ کے راستے:** [[person/abdullah-ibn-masud|ابن مسعود]] {cite:tarikh-khalifa-umari-1985 p. 122}
+- **بحرین:** [[person/al-ala-ibn-al-hadrami|العلاء بن الحضرمي]] («حتى توفي أبو بكر فأقره عمر»)، پھر [[person/anas-ibn-malik|أنس]] («رواية موسى بن أنس») {cite:tarikh-khalifa-umari-1985 p. 122} {cite:tarikh-khalifa-umari-1985 p. 123}
+- **عمان:** [[person/ikrima-ibn-abi-jahl|عكرمة بن أبي جهل]] («وجهه إليها ثم إلى اليمن»)، پھر حذيفة العلقاني («حتى توفي أبو بكر؛ والنسبة مختلف فيها عند المحقق») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **صنعاء:** [[person/al-muhajir-ibn-abi-umayya|المهاجر بن أبي أمية المخزومي]] («بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **یمن:** [[person/ziyad-ibn-labid-al-bayadi|زياد بن لبيد الأنصاري]] («على ما سوى صنعاء من الساحل») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **خولان:** [[person/yala-ibn-umayya|يعلى بن أمية]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **مکہ:** [[person/attab-ibn-usayd|عتاب بن أسيد]] («أقره؛ وتوفي هو وأبو بكر في يوم واحد») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **طائف:** [[person/uthman-ibn-abi-al-as|عثمان بن أبي العاص]] («أقره») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **یمامہ:** [[person/salit-ibn-qays|سليط بن قيس]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **کاتب:** [[person/uthman-ibn-affan|عثمان بن عفان]]، پھر [[person/zayd-ibn-thabit|زيد بن ثابت]] («ويقال: كتب له أيضاً») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **حاجب:** شديد مولاه {cite:tarikh-khalifa-umari-1985 p. 123}
+- **تمام امور اور قضا:** [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:tarikh-khalifa-umari-1985 p. 123}
+- **بیت المال:** [[person/abu-ubayda-ibn-al-jarrah|أبو عبيدة بن الجراح]] («ثم وجهه إلى الشام؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة») {cite:tarikh-khalifa-umari-1985 p. 123}
+- **مؤذن:** سعد القرظ مولى عمار بن ياسر {cite:tarikh-khalifa-umari-1985 p. 123}

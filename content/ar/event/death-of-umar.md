@@ -27,3 +27,6 @@ translators: []
 ويذكر الشيخ أن القاتل قتل تسعة من المصلين وجرح ثلاثة عشر قبل أن يُمسك (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:00}، وأن عبد الرحمن بن عوف ألقى عليه ثوباً فطعن القاتل نفسه وانتحر {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:30}.
 
 ويقول الشيخ إن ثلاثة من الخلفاء الأربعة قُتلوا، ومع ذلك بقيت العقيدة وأفكارها {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}. ويذكر أن عمر لما أُصيب اختار الستة للشورى فوراً {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}.
+
+## عند خليفة بن خياط
+يذكر [[person/khalifa-ibn-khayyat|خليفة بن خياط]] أن عمر طُعن سنة ثلاث وعشرين لثلاث بقين من ذي الحجة، فعاش ثلاثة أيام، ويقال سبعة. {cite:tarikh-khalifa-umari-1985 p. 152} وفي رواية معدان بن طلحة أنه قُتل يوم الأربعاء لأربع بقين من ذي الحجة. {cite:tarikh-khalifa-umari-1985 p. 152} واختُلف في سنّه بين ثلاث وستين وبضع وخمسين، وصلى عليه صهيب. {cite:tarikh-khalifa-umari-1985 p. 152} {cite:tarikh-khalifa-umari-1985 p. 153}

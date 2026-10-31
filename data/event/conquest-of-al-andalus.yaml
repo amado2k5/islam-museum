@@ -18,6 +18,6 @@ relations:
   - { type: had_participant, target: person/tariq-ibn-ziyad, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/alyan, role: "والي المجاز المعبّر لهم في السفن", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/musa-ibn-nusayr, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3; extended by Devin (SWE-2 High) from Futuh al-Buldan (Maarif 1407), batch 22", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
-status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5); extended by Devin (SWE-2 High) — Futuh p. 323" }
+sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/futuh-misr-amir-1999]
+provenance: { source: "Tabari (Dar al-Maarif); Futuh al-Buldan (Maarif 1407); Futuh Misr (Amir ed. 1999) pp. 274–285", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3; extended by Devin (SWE-2 High) from Futuh al-Buldan (Maarif 1407), batch 22; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999], run: "lib-futuh-misr-batch-5-2026-10-31 (enrichment)" }
+status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5); extended by Devin (SWE-2 High) — Futuh p. 323" }

@@ -19,3 +19,6 @@ He died in Damascus in 795 AH, with no disagreement about the year. The sources 
 
 ## His work
 One of his books is [[work/jami-ulum-hikam|Jami' al-Ulum wa al-Hikam]] (The Compendium of Knowledge and Wisdom). {cite:ibn-rajab-jami-ulum-hikam}
+
+## In Ibn Hajar's al-Durar al-Kamina
+[[person/ibn-hajar-al-asqalani|Ibn Hajar]] gives an entry for Abd al-Rahman ibn Ahmad Ibn Rajab of Baghdad and Damascus, the Hanbali hafiz Zayn al-Din; the scan gives his birth as Baghdad, Rabi' al-Awwal 706, which differs from the 736 given elsewhere and needs checking against the print. {cite:durar-kamina-jil-1993 2/321} His works include a commentary on al-Tirmidhi, part of a commentary on al-Bukhari, Dhayl Tabaqat al-Hanabila and al-Qawa'id al-Fiqhiyya. {cite:durar-kamina-jil-1993 2/322} He died in Rajab 795. {cite:durar-kamina-jil-1993 2/322}

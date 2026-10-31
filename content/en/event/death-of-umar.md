@@ -27,3 +27,6 @@ He recounts Umar's dream, in which someone pecked him three times, and then a fo
 He says the assailant killed nine worshippers and wounded thirteen before he was seized (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:00}. He recounts that Abd al-Rahman ibn Awf threw a cloak over the assailant, who then stabbed himself and died {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:46:30}.
 
 He remarks that three of the four caliphs were killed, yet the creed and its ideas remained {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}. He says that as soon as Umar fell, he named the six men for the council {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:47:00}.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says Umar was stabbed in the year 23, three nights before the end of Dhu al-Hijja, and lived three days, or seven by another account. {cite:tarikh-khalifa-umari-1985 p. 152} Ma'dan ibn Talha's report has him killed on Wednesday, four nights before the end of Dhu al-Hijja. {cite:tarikh-khalifa-umari-1985 p. 152} His age is given variously as sixty-three or fifty-odd; Suhayb led the prayer over him. {cite:tarikh-khalifa-umari-1985 p. 152} {cite:tarikh-khalifa-umari-1985 p. 153}

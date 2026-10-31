@@ -3,23 +3,33 @@ class: person
 label:
   ar: "ابن عبد الحكم المصري"
   en: "Ibn Abd al-Hakam"
+  ur: "ابن عبد الحکم مصری"
 roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن عبد الله بن عبد الحكم المصري، مؤرخ فتوح مصر وصاحب «فتوح مصر وأخبارها»، توفي سنة ٨٧١م؛ تذكره كتب التراجم ومعاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Abd Allah ibn Abd al-Hakam al-Misri, the historian of the conquest of Egypt and author of Futuh Misr, d. 871; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن عبد الله بن عبد الحكم بن أعين بن ليث، أبو القاسم، مؤرخ مصري من أهل الحديث، صاحب «فتوح مصر والمغرب». يذكر محقق كتابه أنه وُلد نحو سنة 187هـ وتوفي بالفسطاط سنة 257هـ، ودُفن إلى جانب أبيه قرب قبر الشافعي، وأنه أقدم مؤرخي مصر الإسلامية الذين وصلت مؤلفاتهم {cite:futuh-misr-amir-1999 intro p. ج}."
+  en: "Abd al-Rahman ibn Abd Allah ibn Abd al-Hakam ibn A'yan ibn Layth, Abu al-Qasim, an Egyptian historian of the hadith scholars and the author of Futuh Misr wa-l-Maghrib. His editor reports that he was born about 187 AH, died at al-Fustat in 257 AH and was buried beside his father near the tomb of al-Shafi'i, and that he is the oldest historian of Islamic Egypt whose works survive {cite:futuh-misr-amir-1999 intro p. ج}."
+  ur: "عبد الرحمن بن عبد اللہ بن عبد الحکم بن اعین بن لیث، ابو القاسم، اہلِ حدیث میں سے ایک مصری مؤرخ اور «فتوح مصر والمغرب» کے مصنف۔ ان کی کتاب کے محقق کے مطابق وہ تقریباً 187ھ میں پیدا ہوئے، 257ھ میں فسطاط میں فوت ہوئے اور شافعی کی قبر کے قریب اپنے والد کے پہلو میں دفن ہوئے؛ وہ اسلامی مصر کے ان مؤرخین میں قدیم ترین ہیں جن کی تصانیف ہم تک پہنچی ہیں {cite:futuh-misr-amir-1999 intro p. ج}۔"
+born: { hijri: "0187", edtf: "0803~", calendar: julian, precision: year, status: tradition, derived: true, note: "المحقق: «ولد حوالى سنة 187 هجرية» (المقدمة ص ج)؛ التحويل مشتق.", sources: [source/futuh-misr-amir-1999] }
+died: { hijri: "0257", edtf: "0871", calendar: julian, precision: year, status: tradition, note: "المحقق: توفي في الفسطاط عام 257هـ/871م (المقدمة ص ج).", sources: [source/futuh-misr-amir-1999] }
+relations:
+  - { type: died_in, target: place/al-fustat, sources: [source/futuh-misr-amir-1999] }
+  - { type: child_of, target: person/abdallah-ibn-abd-al-hakam, sources: [source/futuh-misr-amir-1999] }
+  - { type: sibling_of, target: person/muhammad-ibn-abd-allah-ibn-abd-al-hakam, sources: [source/futuh-misr-amir-1999] }
+  - { type: authored, target: work/futuh-misr, sources: [source/futuh-misr-amir-1999] }
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/fihrist-ibn-al-nadim]
+sources: [source/futuh-misr-amir-1999, source/al-aalam, source/fihrist-ibn-al-nadim]
 external_ids:
   wikidata: Q798589
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0013
+  source: "Futuh Misr, ed. Abd al-Mun'im Amir (1999), editor's introduction pp. ج–ل (scan pp. 11–15)"
+  generated_by: "Claude Opus 5.5 (enriching a Devin SWE-2 High card from Wikidata import 0013)"
+  model: claude-opus-5-5
+  run: "lib-futuh-misr-batch-1-2026-10-31"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
+  generated_by: "Claude Opus 5.5 from Apple Vision OCR of the editor's introduction"

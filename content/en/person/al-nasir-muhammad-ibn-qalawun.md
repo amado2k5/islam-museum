@@ -23,3 +23,6 @@ He says that al-Nasir built the new mosque known as al-Jami' al-Jadid al-Nasiri 
 ## Notes for researchers
 - The years fall in the eighth century AH; al-Maqrizi's mention of 702 AH confirms the century.
 - The summary is based on al-Suyuti's "History of the Caliphs"; al-Maqrizi is added in the section above.
+
+## In Ibn Hajar's al-Durar al-Kamina
+[[person/ibn-hajar-al-asqalani|Ibn Hajar]] gives an entry for Muhammad ibn Qalawun, al-Malik al-Nasir: born in Safar, or mid-Muharram, 684, he reigned three times — first after his brother al-Ashraf was killed in mid-Muharram 693, second after Lajin was killed in 698, and third from the feast of Eid al-Fitr 709 after his withdrawal to al-Karak. {cite:durar-kamina-jil-1993 4/144} {cite:durar-kamina-jil-1993 4/145} Ibn Hajar describes him as an obeyed and feared king who honoured scholars, and says he made the pilgrimage three times. {cite:durar-kamina-jil-1993 4/146} {cite:durar-kamina-jil-1993 4/147} He died in the Citadel on 19 Dhu al-Hijja 741. {cite:durar-kamina-jil-1993 4/148}

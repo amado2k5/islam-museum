@@ -1,0 +1,77 @@
+id: event/abbasid-dawa-in-khurasan
+class: event
+kind: campaign
+label:
+  ar: الدعوة العباسية في خراسان
+  en: The Abbasid da'wa in Khurasan
+  ur: خراسان میں عباسی دعوت
+summary:
+  ar: الدعوة السرية إلى آل محمد التي يؤرخ الدينوري بدايتها بقدوم الشيعة على محمد بن علي بن عبد الله بن عباس بالحميمة أول سنة إحدى ومئة، ثم انتشارها في كور خراسان سراً في زي التجار، حتى ظهرت على يد أبي مسلم {cite:akhbar-tiwal-amir p. 332} {cite:akhbar-tiwal-amir p. 336} {cite:akhbar-tiwal-amir p. 343}.
+  en: The secret call to the family of Muhammad, whose beginning al-Dinawari dates to the partisans' arrival before Muhammad ibn Ali ibn Abd Allah ibn Abbas at al-Humayma early in 101 AH, and which spread secretly through the districts of Khurasan in the guise of merchants until it came into the open under Abu Muslim {cite:akhbar-tiwal-amir p. 332} {cite:akhbar-tiwal-amir p. 336} {cite:akhbar-tiwal-amir p. 343}.
+  ur: آلِ محمد کی خفیہ دعوت، جس کا آغاز دینوری 101ھ کے شروع میں حمیمہ میں محمد بن علی بن عبد اللہ بن عباس کے پاس حامیوں کی آمد سے بتاتے ہیں، اور جو تاجروں کے بھیس میں خراسان کے اضلاع میں خفیہ طور پر پھیلی یہاں تک کہ ابو مسلم کے ہاتھوں کھل کر سامنے آئی {cite:akhbar-tiwal-amir p. 332} {cite:akhbar-tiwal-amir p. 336} {cite:akhbar-tiwal-amir p. 343}۔
+wings:
+- time
+periods:
+- period/umayyad
+regions:
+- persia-central-asia
+date:
+  start:
+    hijri: '0101'
+    edtf: 0719/0720
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: 'الدينوري: في السنة التي ولي فيها يزيد بن عبد الملك، أول سنة إحدى ومئة (ص 332)؛ التحويل مشتق.'
+    sources:
+    - source/akhbar-tiwal-amir
+  end:
+    hijri: '0132'
+    edtf: 0749/0750
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: بيعة أبي العباس في رجب سنة 132 (ص 370).
+    sources:
+    - source/akhbar-tiwal-amir
+relations:
+- type: had_participant
+  target: person/bukayr-ibn-mahan
+  role: صاحب الدعوة بالعراق بعد ميسرة
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: person/abu-muslim-al-khurasani
+  role: صاحب الدعوة بخراسان
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: person/qahtaba-ibn-shabib
+  role: من النقباء والقادة
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: person/ibrahim-al-imam
+  role: الإمام بعد أبيه
+  sources:
+  - source/akhbar-tiwal-amir
+- type: had_participant
+  target: person/abu-salama-al-khallal
+  role: صاحب الدعوة بالكوفة
+  sources:
+  - source/akhbar-tiwal-amir
+sources: &id001
+- source/akhbar-tiwal-amir
+provenance:
+  layer: own-research
+  source: الأخبار الطوال للدينوري (تحقيق عامر) ص 332–343، 360–370
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-akhbar-tiwal-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

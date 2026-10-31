@@ -17,3 +17,6 @@ al-Suyuti says that this weighed very heavily on the Banu al-Abbas. They went ou
 
 ## Notes
 This is al-Suyuti's account alone. What is not set out here is the view of academic studies and of other sources. The date is derived and needs an additional source.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]], under the year 201, says: in it al-Ma'mun took the oath for Ali ibn Musa ibn Ja'far as caliph after him, deposed al-Qasim ibn Harun, and ordered black to be discarded and green worn. {cite:tarikh-khalifa-umari-1985 p. 470}

@@ -24,3 +24,6 @@ It is said that the hadith master al-Suyuti resented him and claimed that he too
 ## Death
 
 He died on the night of Friday, the seventh of Muharram in the year 923 in Cairo, and was buried in the madrasa next to his house. The author of al-Kawakib says that his death came from an ailment that struck him after he was affected by a sudden event: when his mind was disturbed, he caused the head of Ibn Ata Allah al-Makki to be cut off, which made him fall from his mount and lose consciousness. He was carried home and died a few days later {cite:shadharat-dhahab p. 521}.
+
+## In al-Sakhawi's al-Daw' al-Lami'
+[[person/al-sakhawi|Al-Sakhawi]] gives an entry, written in his subject's lifetime, for Ahmad ibn Muhammad ibn Abi Bakr al-Qastallani, of Egypt, the Shafi'i: born in Old Cairo on 22 Dhu al-Qa'da 851, he studied the Qur'an readings and law, and heard hadith from al-Sakhawi himself. {cite:daw-lami-jil-1992 2/103}

@@ -12,3 +12,6 @@ At twelve he was with his father and his cousin al-Muzaffar Mahmud II at the sie
 
 ## Writings
 His reputation rests on two compilations that he rearranged and supplemented. The Mukhtasar Tarikh al-Bashar is a universal history from the pre-Islamic period to 729/1329, based largely on Ibn al-Athir in its earlier part. The geography, completed in 721/1321, used Ptolemy's tables and the work of al-Biruni and Ibn Sa'id; the article says it largely replaced earlier geographical works. {cite:encyclopaedia-of-islam-2 vol. 1 p. 137}
+
+## In Ibn Hajar's al-Durar al-Kamina
+[[person/ibn-hajar-al-asqalani|Ibn Hajar]] gives an entry for Isma'il ibn Ali, al-Malik al-Mu'ayyad Imad al-Din, the Ayyubid lord of Hama: he served al-Nasir Muhammad during his stay at al-Karak, and on his return al-Nasir gave him Hama. {cite:durar-kamina-jil-1993 1/371} He made the pilgrimage with the sultan in 719 and rode through Cairo with the full insignia of sovereignty in al-Muharram 720. {cite:durar-kamina-jil-1993 1/371} His works include his well-known History and Taqwim al-Buldan, and he excelled in astronomy. He died in al-Muharram 732 AH, before reaching sixty. {cite:durar-kamina-jil-1993 1/372}

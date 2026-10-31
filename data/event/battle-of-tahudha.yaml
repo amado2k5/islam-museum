@@ -1,0 +1,70 @@
+id: event/battle-of-tahudha
+class: event
+kind: battle
+label:
+  ar: وقعة تهوذة ومقتل عقبة بن نافع
+  en: Battle of Tahudha and the death of Uqba ibn Nafi
+  ur: تہوذہ کی لڑائی اور عقبہ بن نافع کی شہادت
+summary:
+  ar: قتل كسيلة بن لمزم في جمع من الروم والبربر عقبةَ بن نافع وأبا المهاجر ومن معهما عند تهوذة في طريق عودتهم من السوس، سنة ثلاث وستين فيما رواه الليث، ثم نزل كسيلة موضع عقبة {cite:futuh-misr-amir-1999 p. 267} {cite:futuh-misr-amir-1999 p. 268}.
+  en: Kusayla ibn Lamzam, with a host of Rum and Berbers, killed Uqba ibn Nafi, Abu al-Muhajir and those with them at Tahudha on their way back from al-Sus, in the year 63 according to al-Layth, and then occupied Uqba's camp {cite:futuh-misr-amir-1999 p. 267} {cite:futuh-misr-amir-1999 p. 268}.
+  ur: کسیلہ بن لمزم نے رومیوں اور بربروں کے ایک لشکر کے ساتھ سوس سے واپسی کے راستے میں تہوذہ کے مقام پر عقبہ بن نافع، ابو المہاجر اور ان کے ساتھیوں کو قتل کیا، لیث کی روایت میں سنہ 63 میں، پھر عقبہ کی چھاؤنی پر قبضہ کر لیا {cite:futuh-misr-amir-1999 p. 267} {cite:futuh-misr-amir-1999 p. 268}۔
+wings:
+- time
+periods:
+- period/umayyad
+regions:
+- maghreb
+date:
+  start:
+    hijri: '0063'
+    edtf: 0682/0683
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: 'الليث: مقتل عقبة سنة ثلاث وستين (فتوح مصر ص 268)؛ التحويل مشتق.'
+    sources:
+    - source/futuh-misr-amir-1999
+sides:
+- label:
+    ar: عقبة بن نافع ومن بقي معه
+    en: Uqba ibn Nafi and those left with him
+    ur: عقبہ بن نافع اور ان کے باقی ساتھی
+  commanders:
+  - person/uqba-ibn-nafi
+- label:
+    ar: كسيلة ومن معه من الروم والبربر
+    en: Kusayla with Rum and Berbers
+    ur: کسیلہ اور اس کے رومی و بربر ساتھی
+  commanders:
+  - person/kusayla-ibn-lamzam
+relations:
+- type: had_participant
+  target: person/uqba-ibn-nafi
+  role: قُتل
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/abu-al-muhajir-dinar
+  role: قُتل وهو في الحديد
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/kusayla-ibn-lamzam
+  role: قائد المهاجمين
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 267–269
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-5-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
