@@ -17,6 +17,8 @@
 
 - **Batch 3** (second dates): an "In Khalifa ibn Khayyat" section with his dated report and named authority on 16 events: Ajnadayn, death of Abu Bakr (editor-restored line), death of Umar, murder of Uthman, the Camel, Siffin, Nahrawan, death of Ali, Yamama, Ullays, death of Mu'awiya (59 vs 60), Marj Rahit, death of Ibn al-Zubayr, death of Abd al-Malik, Karbala, murder of Sa'id ibn Jubayr (95).
 
+- **Batch 4**: second dates on 9 events (the Zab 11 Jumada II 132, Qudayd 9 Safar 130 with its casualty roll, Zayd ibn Ali 122, deaths of Hisham, al-Walid II, Yazid III, al-Mu'tasim, al-Rida's designation 201, the ransom of 231); new `event/hajj-of-199-without-an-imam` (Ibn al-Aftas; the name dispute noted) and `event/battle-of-al-madhar` (67).
+
 ## Next step
 
-Batch 4: remaining second dates (claims A 14–21, B 13/17, C 15–20: Yarmuk, Qadisiyya, Amwas, Nihawand, the Kaaba fire of 64, al-Walid and Sulayman, Zayd ibn Ali, the Zab, Qudayd, the Abbasid deaths), new events al-Madhar (67) and Mirdas ibn Udayya, then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.
+Batch 5: remaining dates (Yarmuk, Qadisiyya, Amwas, Nihawand, the Kaaba fire of 64, al-Walid I and Sulayman, the Abbasid caliphs' deaths), Mirdas ibn Udayya, a second source on `event/battle-of-tahudha` once it is on main, then `dataset/hajj-leaders-khalifa` (claims C 1). Duplicates to resolve: `event/battle-of-al-harrah-683` → alias of `waqat-al-harra`; `salit-ibn-qays`/`sulayt-ibn-qays`; `death-of-mamun`/`death-of-al-mamun`; `al-hadi`/`al-hadi-musa`.

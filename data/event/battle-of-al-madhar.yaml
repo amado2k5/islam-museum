@@ -1,0 +1,62 @@
+id: event/battle-of-al-madhar
+class: event
+kind: battle
+label:
+  ar: وقعة المذار
+  en: Battle of al-Madhar
+  ur: مذار کی لڑائی
+summary:
+  ar: وقعة يذكرها خليفة بن خياط في سنة سبع وستين، في السنة التي قُتل فيها المختار بن أبي عبيد في قصره بالكوفة على يد أخوين من بني حنيفة أتيا مصعب بن الزبير برأسه {cite:tarikh-khalifa-umari-1985 p. 264}.
+  en: A battle that Khalifa ibn Khayyat records under the year 67, the year in which al-Mukhtar ibn Abi Ubayd was killed in his palace at Kufa by two brothers of Banu Hanifa, who brought his head to Mus'ab ibn al-Zubayr {cite:tarikh-khalifa-umari-1985 p. 264}.
+  ur: ایک لڑائی جسے خلیفہ بن خیاط سنہ 67 کے تحت درج کرتے ہیں، وہ سال جس میں مختار بن ابی عبید کوفہ میں اپنے محل میں بنو حنیفہ کے دو بھائیوں کے ہاتھوں قتل ہوا جو اس کا سر مصعب بن زبیر کے پاس لائے {cite:tarikh-khalifa-umari-1985 p. 264}۔
+wings:
+- time
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+date:
+  start:
+    hijri: '0067'
+    edtf: 0686/0687
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: 'خليفة: «وفيها وقعة المذار» تحت سنة 67 (ص 264)؛ التحويل مشتق.'
+    sources:
+    - source/tarikh-khalifa-umari-1985
+sides:
+- label:
+    ar: جيش مصعب بن الزبير
+    en: The army of Mus'ab ibn al-Zubayr
+    ur: مصعب بن زبیر کا لشکر
+  commanders:
+  - person/musab-ibn-al-zubayr
+- label:
+    ar: أصحاب المختار
+    en: Al-Mukhtar's partisans
+    ur: مختار کے حامی
+relations:
+- type: had_participant
+  target: person/musab-ibn-al-zubayr
+  role: أمير العراق لابن الزبير
+  sources:
+  - source/tarikh-khalifa-umari-1985
+- type: related_to
+  target: person/al-mukhtar-ibn-abi-ubayd
+  sources:
+  - source/tarikh-khalifa-umari-1985
+sources: &id001
+- source/tarikh-khalifa-umari-1985
+provenance:
+  layer: own-research
+  source: تاريخ خليفة بن خياط (تحقيق العمري 1985) ص 264
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-tarikh-khalifa-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text
