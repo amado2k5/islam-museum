@@ -700,11 +700,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Habib Tanvir — 1923–2009
 - [x] Kaifi Azmi — 1919–2002
 - [x] Javed Akhtar — 1945–Living
-- [ ] Shabana Azmi — 1950–Living
-- [ ] Naseeruddin Shah — 1950–Living
-- [ ] Irrfan Khan — 1967–2020
-- [ ] Nawazuddin Siddiqui — 1974–Living
-- [ ] Salman Khan — 1965–Living
+- [x] Shabana Azmi — 1950–Living
+- [x] Naseeruddin Shah — 1950–Living
+- [x] Irrfan Khan — 1967–2020
+- [x] Nawazuddin Siddiqui — 1974–Living
+- [x] Salman Khan — 1965–Living
 - [ ] Saif Ali Khan — 1970–Living
 - [ ] Fatima Sana Shaikh — 1992–Living
 - [ ] Zaira Wasim — 2000–Living
