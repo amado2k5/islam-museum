@@ -1,0 +1,54 @@
+id: person/sulayman-al-taji-faruqi
+class: person
+label:
+  ar: "سليمان التاجي الفاروقي"
+  en: "Sulayman al-Taji al-Faruqi"
+  ur: "سلیمان التاجی الفاروقی"
+names:
+  - { value: "سليمان عبد المجيد التاجي الفاروقي", kind: full }
+  - { value: "Sulayman Abd al-Majid al-Taji al-Faruqi", kind: full }
+  - { value: "معرّي فلسطين", kind: laqab }
+  - { value: "Mu'arri of Palestine", kind: laqab }
+gender: male
+born:
+  edtf: "1882"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Ramla in 1882 (both biographies; Wikidata agrees). The bare year spans the Hijri years 1299–1300, so no hijri value is recorded."
+  sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi]
+died:
+  edtf: "1958"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died at Jericho in 1958, aged 76, and was buried in the Bab al-Rahma cemetery at Jerusalem (both biographies; Wikidata's place of death agrees). Jericho has no place entity on main, so no died_in edge is written. The bare year spans the Hijri years 1377–1378, so no hijri value is recorded."
+  sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi]
+roles: [poet, politician, lawyer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for al-Faruqi himself. Wikidata's structured religion value gives Islam only — a single structured family. His nine years of study at al-Azhar under Muhammad Abduh, his Qur'an interpretation at the Hagia Sophia and the sheikh of his titles are education and honour, none of which counts; the newspaper he founded in 1933 was a political organ whose name is not an attestation of its founder's school."
+    sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi]
+relations:
+  - { type: born_in, target: place/ramla, sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi] }
+summary:
+  ar: "شاعر وسياسي ومحامٍ فلسطيني من الرملة (1882–1958)، لُقّب بمعرّي فلسطين، فقد بصره في التاسعة من عمره ودرس تسع سنوات في الأزهر على يد محمد عبده ثم نال إجازة الحقوق من إسطنبول والدكتوراة من مصر، وأسّس الحزب الوطني العثماني سنة 1911 وجريدة «الجامعة الإسلامية» سنة 1933، وكان من أبرز معارضي قيادة أمين الحسيني، وتوفي في أريحا ودُفن في القدس."
+  en: "Palestinian poet, politician and lawyer from Ramla (1882–1958), nicknamed the Mu'arri of Palestine. Blinded at the age of nine, he studied nine years at al-Azhar under Muhammad Abduh, took a law degree at Istanbul and a doctorate in Egypt, founded the Ottoman National Party in 1911 and the newspaper al-Jami'a al-Islamiyya in 1933, and was a leading opponent of Amin al-Husayni's leadership; he died at Jericho and was buried in Jerusalem."
+  ur: "رملہ سے تعلق رکھنے والے فلسطینی شاعر، سیاست دان اور وکیل (1882–1958)، جنہیں «معریِ فلسطین» کہا جاتا تھا۔ وہ نو برس کی عمر میں بینائی سے محروم ہو گئے، الازہر میں محمد عبدہ کے زیرِ تعلیم نو سال گزارے، استنبول سے قانون کی ڈگری اور مصر سے ڈاکٹریٹ حاصل کی، 1911ء میں عثمانی قومی پارٹی اور 1933ء میں اخبار «الجامعہ الاسلامیہ» کی بنیاد رکھی، اور امین الحسینی کی قیادت کے نمایاں مخالف رہے؛ ان کا انتقال اریحا میں ہوا اور تدفین قدس میں ہوئی۔"
+sources:
+  - source/wikipedia-sulayman-al-taji-faruqi-en
+  - source/wikipedia-sulayman-al-taji-faruqi-ar
+  - source/wikidata-sulayman-al-taji-faruqi
+external_ids:
+  wikidata: Q12216646
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Sulayman al-Taji al-Faruqi (Q12216646) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted, and the QID was grounded through the English article's page properties. Existence checks by name fragments (faruqi, farouqi, taji) and by QID across data/person on origin/main found no prior record for this man. His party founding, Senate seat and newspaper are offices and works, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-136
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

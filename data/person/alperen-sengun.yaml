@@ -1,0 +1,45 @@
+id: person/alperen-sengun
+class: person
+label:
+  ar: "ألبرين شينغون"
+  en: "Alperen Şengün"
+  ur: "الپیرن شینگن"
+names:
+  - { value: "Alperen Şengün", kind: full }
+  - { value: "ألبرين شينغون", kind: full }
+gender: male
+born:
+  edtf: "2002-07-25"
+  hijri: "1423"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 25 July 2002 at Giresun, Turkey: the English, Turkish and Arabic articles and Wikidata agree on the day and the city. Giresun has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1423 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-alperen-sengun-en, source/wikipedia-alperen-sengun-tr, source/wikidata-alperen-sengun]
+roles: [basketball player]
+regions: [anatolia-balkans, americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Near-absence configuration. The English, Turkish and Arabic biographies contain no religion content and Wikidata carries no religion (P140) value at all. The single attestation found is an EssentiallySports fan-media profile of 6 January 2025 which states, without sourcing, that he follows Islam; no statement by Şengün about his own faith was found, and no source anywhere names a school. One unsourced profile assertion does not settle a value, and his Turkish birth and name were expressly not treated as evidence. The settlement therefore stays unknown, unflagged."
+    sources: [source/wikipedia-alperen-sengun-en, source/wikidata-alperen-sengun, source/essentiallysports-sengun-2025]
+summary:
+  ar: "لاعب كرة سلة تركي (وُلد سنة 2002 في غيرسون)، لاعب وسط هيوستن روكتس في NBA منذ اختياره في درافت 2021، ولاعب دولي تركي اختير لمباراة كل النجوم في NBA لأول مرة سنة 2025."
+  en: "Turkish basketball player (born 2002 at Giresun), the Houston Rockets centre drafted 16th overall in 2021 and a Turkish international, named an NBA All-Star for the first time in 2025."
+  ur: "ترک باسکٹ بال کھلاڑی (پیدائش 2002، گیرسون)؛ 2021 کے ڈرافٹ میں منتخب ہو کر ہیوسٹن راکٹس کے سینٹر، ترک قومی ٹیم کے کھلاڑی، اور 2025 میں پہلی بار NBA آل اسٹار منتخب ہوئے۔"
+sources:
+  - source/wikipedia-alperen-sengun-en
+  - source/wikipedia-alperen-sengun-tr
+  - source/wikipedia-alperen-sengun-ar
+  - source/wikidata-alperen-sengun
+  - source/essentiallysports-sengun-2025
+external_ids:
+  wikidata: Q66133404
+provenance:
+  layer: own-research
+  source: "The English, Turkish and Arabic Wikipedia biographies of Alperen Şengün, the Wikidata item Q66133404 and the EssentiallySports profile of 6 January 2025, all read in full, together with targeted searching for any statement of his faith; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query (both 2532851313); the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Giresun-born Rockets centre. Existence was checked by QID and by name fragments (Şengün, Sengun) against every person record on origin/main and no prior record or Arabic-label collision exists, so no homonyms entry is required. The queue's year (2002, living) is confirmed to the day. Relations written: none — Giresun has no place entity. Regions follow his Turkish formation and his NBA career. Living-person care: only well-sourced public facts are recorded; nothing about his family beyond what the biographies state is used, and no family detail carries any faith weight."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-137
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
