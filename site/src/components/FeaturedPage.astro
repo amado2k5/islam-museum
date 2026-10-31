@@ -19,7 +19,7 @@ const PRESS = "press@islam.museum";
     <article class="reading ui-body">
       {page === "press" ? (
         <>
-          <section aria-labelledby="cov-h" class="s-sec"><h2 id="cov-h">{P.coverage_title}</h2><p>{P.coverage}</p><p>{P.tip} {F.write_to} <a href={`mailto:${FEATURED}`} dir="ltr">{FEATURED}</a></p></section>
+          <section aria-labelledby="cov-h" class="s-sec"><h2 id="cov-h">{P.coverage_title}</h2><p>{P.coverage}</p><p>{P.coverage_first} <a href="https://youtu.be/q97HxxAi8tQ" target="_blank" rel="noopener" dir="ltr">youtu.be/q97HxxAi8tQ</a></p><p>{P.tip} {F.write_to} <a href={`mailto:${FEATURED}`} dir="ltr">{FEATURED}</a></p></section>
           <section aria-labelledby="rel-h" class="s-sec"><h2 id="rel-h">{P.releases_title}</h2><p>{P.releases}</p></section>
           <section aria-labelledby="con-h" class="s-sec"><h2 id="con-h">{P.contact_title}</h2><p>{P.contact} <a href={`mailto:${PRESS}`} dir="ltr">{PRESS}</a></p></section>
         </>
