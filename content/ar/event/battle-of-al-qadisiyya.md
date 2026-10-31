@@ -31,3 +31,6 @@ translators: []
 وفي خطبة القاضي التي يتلوها الشيخ تُذكر القادسية بين الوقائع، وتُنسب قيادتها إلى سعد {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep07 00:30:30}.
 
 ويذكر الشيخ أن أبا لؤلؤة كان يمر على أسرى فارس في أيام القادسية، وذلك في سياق ذكره لمقتل عمر (partly unclear) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}.
+
+## عند الدينوري
+يروي [[person/abu-hanifa-al-dinawari|الدينوري]] أنه اجتمع لسعد نحو عشرين ألفاً، وأن يزدجرد مُلّك وهو غلام ابن ست عشرة سنة فولّى رستم بن هرمز. {cite:akhbar-tiwal-amir p. 119} وأقام رستم بدير الأعور أربعة أشهر يطاول العرب. {cite:akhbar-tiwal-amir p. 120} وكان بسعد خُرّاج في فخذه منعه الركوب، فولّى خالد بن عرفطة، ولزم قصر القادسية. {cite:akhbar-tiwal-amir p. 121} وصفّت الفرس ثلاثة عشر صفاً والعرب ثلاثة صفوف. {cite:akhbar-tiwal-amir p. 122} ووُجد رستم وبه مئة ضربة لا يُدرى من قتله، ويقال غرق في نهر القادسية. {cite:akhbar-tiwal-amir p. 123}

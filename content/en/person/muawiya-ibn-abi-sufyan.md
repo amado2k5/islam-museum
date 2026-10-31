@@ -25,3 +25,17 @@ This is a disputed entry. The museum presents here what is in *al-Isaba* alone o
 
 ## In al-Tabari
 His name appears in the history of the Muslims in Syria: he was governor of Caesarea in the events of the nineteenth year, according to the accounts of Abu Ma'shar and al-Waqidi. {cite:tabari-tarikh-abu-al-fadl j.4 p.102} In the index of the fourth volume, there is mention of Ali sending Jarir ibn Abdallah to him calling him to obedience, and of Siffin and the fighting over the water. {cite:tabari-tarikh-abu-al-fadl j.4 p.584} {cite:tabari-tarikh-abu-al-fadl}
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 227–228}
+
+- **Judgeship of Basra:** Umayra ibn Yathribi al-Dabbi (appointed by Ibn Amir); then [[person/imran-ibn-husayn|Imran ibn Husayn]] (asked to be excused and was released; in (( )) in the edition: restored by the editor from later authors quoting Khalifa); then Asim ibn Fadala (appointed by Ziyad; brother of Abd Allah ibn Fadala al-Laythi); then [[person/zurara-ibn-awfa|Zurara ibn Awfa al-Harashi]] (for Ziyad, then for Ubayd Allah ibn Ziyad); then [[person/shurayh-al-qadi|Shurayh]] (judged with Ziyad at Basra for a year; in (( )) in the edition: restored by the editor from later authors quoting Khalifa); then Abd al-Rahman ibn Udhayna (for Ubayd Allah ibn Ziyad) {cite:tarikh-khalifa-umari-1985 p. 227}
+- **Judgeship of Kufa:** [[person/shurayh-al-qadi|Shurayh]] (until Ziyad took him to Basra; in (( )) in the edition: restored by the editor from later authors quoting Khalifa); then [[person/masruq-ibn-al-ajda|Masruq ibn al-Ajda']] (until Shurayh returned; in (( )) in the edition: restored by the editor from later authors quoting Khalifa) {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Judgeship of Medina:** Abd Allah ibn Nawfal ibn al-Harith (for Marwan until his dismissal in 48 AH); then [[person/abu-salama-ibn-abd-al-rahman|Abu Salama ibn Abd al-Rahman ibn Awf]] (for Sa'id ibn al-As); then Mus'ab ibn Abd al-Rahman ibn Awf (for Marwan's second term until 57 AH); then Ibn Zam'a al-Amiri (for al-Walid ibn Utba until Mu'awiya died) {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Chancery (letters):** Ubayd ibn Aws al-Ghassani {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Diwan:** [[person/sarjun-ibn-mansur|Sarjun ibn Mansur al-Rumi]] (over the diwan and all his affairs) {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Chamberlain:** Abu Ayyub, his mawla {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Police:** Yazid ibn al-Hurr, his mawla (until he died); then Qays ibn Hamza al-Hamdani (then dismissed); then Dhuhl ibn Amr al-Udhri (the editor notes variant readings of the name) {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Guard:** al-Mukhtar, a mawla of Himyar (Mu'awiya was the first to appoint a guard chief) {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Seal:** Abd Allah ibn Amr al-Himyari (Mu'awiya was the first to set up the bureau of the seal) {cite:tarikh-khalifa-umari-1985 p. 228}
+- **Iraq:** [[person/ziyad-ibn-abi-sufyan|Ziyad ibn Abi Sufyan]] (the first to hold all Iraq, from 50 AH until his death in 53 AH) {cite:tarikh-khalifa-umari-1985 p. 228}

@@ -19,3 +19,25 @@ Al-Hadi was the fourth Abbasid caliph; he ruled about a year, 169-170 AH, and wa
 
 ## Research notes
 - The causes of death conflict within al-Suyuti's own account and are given here as transmitted, without adjudication.
+
+## His officials in Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] closes his account of this reign by naming its governors and office-holders. They are given here in his order; lines the editor restored from later authors are marked as such. {cite:tarikh-khalifa-umari-1985 p. 446–447}
+
+- **Mecca:** Ubayd Allah ibn Qutham ibn al-Abbas ibn Ubayd Allah ibn al-Abbas (until Musa died) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Yemen:** Ibrahim ibn Salm ibn Qutayba {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Basra:** [[person/rawh-ibn-hatim|Rawh ibn Hatim]] (dismissed by Musa); then [[person/muhammad-ibn-sulayman-al-abbasi|Muhammad ibn Sulayman ibn Ali]] (until Musa died) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Kufa:** Musa ibn Isa (confirmed) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Khurasan:** Abu al-Abbas al-Tusi (confirmed) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Sijistan:** Tamim ibn Sa'd (dismissed by Musa); then Kathir ibn Salm {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Sind:** al-Layth, his mawla (ordered to come down); then Muhammad ibn al-Layth (his father's deputy) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Jazira:** Abu Hurayra, a man of Khurasan (a man of Khurasan); then Ibrahim ibn Salih {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Ifriqiya:** [[person/yazid-ibn-hatim|Yazid ibn Hatim]] (confirmed) {cite:tarikh-khalifa-umari-1985 p. 446}
+- **Judgeship of Basra:** Umar ibn Uthman (confirmed; dismissed by Muhammad ibn Sulayman); then Mu'adh ibn Mu'adh {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Judgeship of Kufa:** [[person/sharik-ibn-abdallah|Sharik]] (dismissed by Musa); then al-Qasim ibn Ma'n {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Judgeship of Medina:** Sa'id ibn Abd al-Rahman al-Jumahi {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Police:** [[person/abdallah-ibn-malik-al-khuzai|Abd Allah ibn Malik al-Khuza'i]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Chancery and diwan:** Umar ibn Bazi' {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Seal:** [[person/ali-ibn-yaqtin|Ali ibn Yaqtin]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Guard, storehouses and treasuries:** [[person/ali-ibn-isa-ibn-mahan|Ali ibn Isa ibn Mahan]] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Chamberlain:** [[person/fadl-ibn-al-rabi|al-Fadl ibn al-Rabi']] {cite:tarikh-khalifa-umari-1985 p. 447}
+- **Vizier:** Ibrahim ibn Dhakwan al-Harrani (in charge of all his affairs) {cite:tarikh-khalifa-umari-1985 p. 447}

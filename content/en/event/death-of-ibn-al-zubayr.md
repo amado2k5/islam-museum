@@ -16,3 +16,6 @@ al-Suyuti relates from Muhammad ibn Zayd ibn Abd Allah ibn Umar that a thunderbo
 al-Mas'udi says that Urwa ibn al-Zubayr offered him the safe-conduct of Abd al-Malik, and he refused. His mother Asma' bint Abi Bakr said to him: "Die honourably, and beware of being taken captive." When they came in to him in the mosque, one of them called out to him: "O son of the two girdles." {cite:muruj-al-dhahab p. 105}
 
 The Gregorian date is derived from the Hijri date.
+
+## In Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] says Ibn al-Zubayr was killed on Tuesday, thirteen nights before the end of Jumada al-Akhira, 73, aged seventy-three, having been born in the year of the Hijra; al-Layth's report gives Jumada al-Ula. {cite:tarikh-khalifa-umari-1985 p. 269} {cite:tarikh-khalifa-umari-1985 p. 270}

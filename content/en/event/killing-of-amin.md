@@ -16,3 +16,6 @@ Al-Tabari says that the troops turned against Tahir five days after his killing.
 
 ## The position of al-Ma'mun
 Al-Mas'udi relates that al-Ma'mun wept when the news reached him, and said that he had neither killed nor ordered it nor been pleased by it. {cite:muruj-al-dhahab p.398}
+
+## In al-Dinawari
+[[person/abu-hanifa-al-dinawari|Al-Dinawari]] reports that Harthama agreed to receive al-Amin by night, that Tahir intercepted him on the water, and that he was killed on the night of Sunday the fifth of al-Muharram, 198. {cite:akhbar-tiwal-amir p. 399} {cite:akhbar-tiwal-amir p. 400}
