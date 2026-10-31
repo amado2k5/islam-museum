@@ -1,0 +1,56 @@
+id: person/lord-headley
+class: person
+label:
+  ar: "اللورد هيدلي"
+  en: "Lord Headley"
+  ur: "لارڈ ہیڈلے"
+names:
+  - { value: "Rowland George Allanson Allanson-Winn", kind: full }
+  - { value: "Shaikh Rahmatullah al-Farooq", kind: alternate }
+  - { value: "Lord Headley", kind: alternate }
+gender: male
+born:
+  edtf: "1855-01-19"
+  hijri: "1271"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in London on 19 January 1855; the English article and Wikidata agree. London has no place entity, so no born_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-lord-headley-en, source/wikidata-lord-headley]
+died:
+  edtf: "1935-06-22"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 22 June 1935 and was buried in the Muslim section of Brookwood Cemetery. The English article gives the place as Codford, Wiltshire, where he lived from 1929; the Islamic Review obituary reproduced by the Woking archive says he died in London. The date is agreed; the place conflict is preserved. Codford, London and Brookwood have no place entities, so no died_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-lord-headley-en, source/wokingmuslim-lord-headley, source/wikidata-lord-headley]
+roles: [engineer, writer]
+regions: [andalus-europe]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. He announced his conversion at the hand of Khwaja Kamal-ud-Din in November 1913, co-founded and chaired the Woking Muslim Mission and its British Muslim Society, and wrote for its journal The Islamic Review; the mission's own archive presents him as, next to Kamal-ud-Din, the mission's founder, and the English article files him under 'British Ahmadis'. But the Woking mission was the Lahore Ahmadiyya's mission, and affiliation with it — presidency, chairmanship, a teacher — is adjacency, never a personal attestation: no source records him professing Ahmadi doctrine or naming any school, and his own books present a deliberately non-sectarian Islam. The Ahmadiyya reading is preserved here unclassified, pending a ruling."
+    sources: [source/wikipedia-lord-headley-en, source/wokingmuslim-lord-headley, source/wikidata-lord-headley]
+relations: []
+summary:
+  ar: "نبيل أيرلندي ومهندس مدني (1855-1935)، خامس بارون هيدلي، اعتنق الإسلام سنة 1913 بيد خواجة كمال الدين واتخذ اسم الشيخ رحمت الله الفاروق، فصار من قادة بعثة ووكينغ الإسلامية ورئيس الجمعية الإسلامية البريطانية، وحج مرتين، وعُرض عليه عرش ألبانيا سنة 1925 فرفضه."
+  en: "Irish peer and civil engineer (1855-1935), 5th Baron Headley, who converted to Islam in 1913 at Khwaja Kamal-ud-Din's hand, taking the name Shaikh Rahmatullah al-Farooq; a leading figure of the Woking Muslim Mission and president of the British Muslim Society, he performed the Hajj twice and in 1925 refused an offer of the Albanian throne."
+  ur: "آئرش نواب اور سول انجینئر (1855ء–1935ء)، پانچویں بیرن ہیڈلے، جنہوں نے 1913ء میں خواجہ کمال الدین کے ہاتھ پر اسلام قبول کیا اور شیخ رحمت اللہ الفاروق کا نام اختیار کیا؛ ووکنگ مسلم مشن کے سرکردہ رہنما اور برٹش مسلم سوسائٹی کے صدر رہے، دو بار حج کیا اور 1925ء میں البانیہ کے تخت کی پیشکش ٹھکرا دی۔"
+sources:
+  - source/wikipedia-lord-headley-en
+  - source/wikipedia-lord-headley-ar
+  - source/wikipedia-lord-headley-ur
+  - source/wikidata-lord-headley
+  - source/wokingmuslim-lord-headley
+external_ids:
+  wikidata: Q4120572
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Rowland Allanson-Winn, 5th Baron Headley' (revision 1341968678 of 6 March 2026), Arabic Wikipedia article (revision 75183505 of 8 June 2026) and Urdu Wikipedia article (revision 9437337 of 27 February 2026), all read in full, the Wikidata item Q4120572 (item revision 2556824540 of 14 October 2026), and the Woking Muslim Mission archive's Headley page with its Islamic Review obituary, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. Existence checks by name fragments (headley, allanson-winn) and by QID across data/person on origin/main found no prior record. No relations are written: London, Codford and Brookwood have no place entities. His peerage title is carried as an alternate name and in prose, never as a given name."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-125
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

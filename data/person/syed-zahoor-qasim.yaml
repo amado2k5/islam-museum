@@ -1,0 +1,54 @@
+id: person/syed-zahoor-qasim
+class: person
+label:
+  ar: "سيد زهور قاسم"
+  en: "Syed Zahoor Qasim"
+  ur: "سید ظہور قاسم"
+names:
+  - { value: "Syed Zahoor Qasim", kind: full }
+  - { value: "Sayed Zahoor Qasim", kind: alternate }
+gender: male
+born:
+  edtf: "1926-12-31"
+  hijri: "1345"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 31 December 1926 at Rakswara village, Allahabad (now in Kaushambi district), in the United Provinces of British India: the English article's lead and infobox and Wikidata's day-precision value agree; Wikidata also carries a year-only 1926 duplicate. The English article's short description gives 1925, an error preserved here and not followed. The Hijri year 1345 is a tabular conversion, marked derived. No place entity exists for Rakswara, Allahabad or Kaushambi, so the birthplace is carried in this note and no born_in edge is written."
+  sources: [source/wikipedia-syed-zahoor-qasim-en, source/wikidata-syed-zahoor-qasim]
+died:
+  edtf: "2015-10-20"
+  hijri: "1437"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 20 October 2015 in Delhi: the English article's text and infobox and Wikidata agree. The Hijri year 1437 is a tabular conversion, marked derived."
+  sources: [source/wikipedia-syed-zahoor-qasim-en, source/wikidata-syed-zahoor-qasim]
+roles: [oceanographer, biologist]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The English article files him under the category 'Indian Muslims' — a category filing, which never counts — and Wikidata gives a bare, unsourced Islam. His schooling at Majidiya Islamiya Intermediate College and Aligarh Muslim University and his vice-chancellorship of Jamia Millia Islamia are education and office, which never count. Nothing here supports any segment beyond unknown."
+    sources: [source/wikipedia-syed-zahoor-qasim-en, source/wikipedia-syed-zahoor-qasim-ur, source/wikidata-syed-zahoor-qasim]
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-syed-zahoor-qasim-en, source/wikidata-syed-zahoor-qasim] }
+summary:
+  ar: "عالم أحياء بحرية ومحيطات هندي قاد أول بعثة هندية إلى القارة القطبية الجنوبية سنة 1981 وأشرف على البعثات السبع التالية؛ مدير المعهد المركزي لبحوث المصايد البحرية (1971–1974)، ونائب مستشار جامعة ملية إسلامية (1989–1991)، وعضو لجنة التخطيط الهندية (1991–1996)؛ نال بادما شري (1974) وبادما بهوشان (1982)."
+  en: "Indian marine biologist and oceanographer who led India's first expedition to Antarctica in 1981 and guided the seven expeditions that followed; director of the Central Marine Fisheries Research Institute (1971–1974), vice-chancellor of Jamia Millia Islamia (1989–1991) and a member of India's Planning Commission (1991–1996); he received the Padma Shri (1974) and the Padma Bhushan (1982)."
+  ur: "ہندوستانی بحری حیاتیات دان اور سمندر شناس جنھوں نے 1981ء میں انٹارکٹیکا کی پہلی ہندوستانی مہم کی قیادت کی اور اگلی سات مہموں کی رہنمائی کی؛ سینٹرل میرین فشریز ریسرچ انسٹی ٹیوٹ کے ڈائریکٹر (1971ء–1974ء)، جامعہ ملیہ اسلامیہ کے وائس چانسلر (1989ء–1991ء) اور بھارت کے پلاننگ کمیشن کے رکن (1991ء–1996ء) رہے؛ انھیں پدم شری (1974ء) اور پدم بھوشن (1982ء) سے نوازا گیا۔"
+sources:
+  - source/wikipedia-syed-zahoor-qasim-en
+  - source/wikipedia-syed-zahoor-qasim-ur
+  - source/wikidata-syed-zahoor-qasim
+external_ids:
+  wikidata: Q8064717
+provenance:
+  layer: own-research
+  source: "English and Urdu Wikipedia biographies of Syed Zahoor Qasim (Q8064717) and the Wikidata item, read in full; every revision id was fetched live from the MediaWiki API in this session and asserted before use (English revision 1372571299 of 1 September 2026; Urdu revision 11850983 of 30 August 2026; item revision 2551199607 of 30 September 2026), and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the oceanographer (1926–2015), exactly the articles' man — not Syed Mir Qasim, the Kashmiri politician, who has his own record; existence checks by name fragments (qasim) and by QID across data/person on origin/main found no prior record for this man. The queue's years (1926–2015) are confirmed against the articles and Wikidata; the English article's short description (1925–2015) is an error, disclosed in the born note. No Arabic Wikipedia article exists for him, so the Arabic prose is written from the English sources and says so. The Urdu article is a stub derived from the English article (its own citation says so) and is not an independent family. Relations written: died_in Delhi only; no place entity exists for his birthplace."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-126
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

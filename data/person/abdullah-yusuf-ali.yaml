@@ -1,0 +1,55 @@
+id: person/abdullah-yusuf-ali
+class: person
+label:
+  ar: "عبد الله يوسف علي"
+  en: "Abdullah Yusuf Ali"
+  ur: "عبد اللہ یوسف علی"
+names:
+  - { value: "Abdullah Yusuf Ali", kind: full }
+gender: male
+born:
+  edtf: "1872-04-14"
+  hijri: "1289"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English and Arabic articles give 14 April 1872, Bombay, and the English article's biographical tradition follows M. A. Sherif's biography (1994). The Urdu article instead gives 4 April 1872 and Surat, and describes the family as a Dawoodi Bohra family of Surat; the conflict is preserved here and the English reading is carried. Bombay and Surat have no place entities, so no born_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-abdullah-yusuf-ali-en, source/wikipedia-abdullah-yusuf-ali-ur, source/wikipedia-abdullah-yusuf-ali-ar]
+died:
+  edtf: "1953-12-10"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in London on 10 December 1953 and was buried in the Muslim section of Brookwood Cemetery; the English article and Wikidata agree. London and Brookwood have no place entities, so no died_in edge is written. The Hijri year is a tabular conversion."
+  sources: [source/wikipedia-abdullah-yusuf-ali-en, source/wikidata-abdullah-yusuf-ali]
+roles: [translator, writer]
+regions: [south-asia]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. He was born into a Dawoodi Bohra (Ismaili Shia) family — family background, which never counts on its own. English Wikipedia, following Sherif's biography, records that during his Lahore years he converted to Sunni Islam and adopted the Hanafi school, and its infobox gives Sunni and Hanafi; the Urdu article styles him a Sunni scholar in its own lead. Against this, Al-Hitari (2022), in a peer-reviewed journal, argues that his Qur'an commentary rests on esoteric Ismaili and Bohra doctrine and that he did not relinquish his ancestral doctrine; Wikidata carries only generic Islam (Q432), a single structured family. The conversion is thus attested in one biographical tradition and contested in the scholarship, so under the doubt rule the value stays unknown pending a ruling, with both readings preserved."
+    sources: [source/wikipedia-abdullah-yusuf-ali-en, source/wikipedia-abdullah-yusuf-ali-ur, source/ijlts-alhitari-yusuf-ali-2022, source/wikidata-abdullah-yusuf-ali]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-abdullah-yusuf-ali-en] }
+summary:
+  ar: "مترجم القرآن الكريم إلى الإنجليزية (1872-1953)؛ موظف في الخدمة المدنية الهندية ومدير الكلية الإسلامية بلاهور لفترتين، وصاحب «القرآن الكريم: النص والترجمة والشرح» (1934-1938)، إحدى أوسع ترجمات القرآن انتشاراً في العالم الناطق بالإنجليزية."
+  en: "Translator of the Qur'an into English (1872-1953); an Indian Civil Service officer and twice principal of Islamia College, Lahore, whose 'The Holy Qur'an: Text, Translation and Commentary' (1934-1938) remains one of the two most widely used English versions."
+  ur: "قرآن مجید کے انگریزی مترجم (1872ء–1953ء)؛ انڈین سول سروس کے افسر اور اسلامیہ کالج لاہور کے دو بار پرنسپل، جن کی «قرآن مجید: متن، ترجمہ و شرح» (1934ء–1938ء) انگریزی دنیا میں سب سے زیادہ استعمال ہونے والی تراجم میں سے ہے۔"
+sources:
+  - source/wikipedia-abdullah-yusuf-ali-en
+  - source/wikipedia-abdullah-yusuf-ali-ur
+  - source/wikipedia-abdullah-yusuf-ali-ar
+  - source/wikidata-abdullah-yusuf-ali
+  - source/ijlts-alhitari-yusuf-ali-2022
+external_ids:
+  wikidata: Q1077843
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Abdullah Yusuf Ali' (revision 1382423733 of 28 October 2026), Urdu Wikipedia article (revision 11800756 of 18 August 2026) and Arabic Wikipedia article (revision 76892237 of 6 October 2026), all read in full, the Wikidata item Q1077843 (item revision 2557348908 of 15 October 2026), and Al-Hitari's 2022 peer-reviewed article on the Ismaili reading of his commentary; every revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the article's page properties. The honorific in the queue line and in the Urdu article's title is carried in prose only and is not a name entry. Existence checks by name fragments (yusuf-ali) and by QID across data/person on origin/main found no prior record (wikipedia-yusuf-ali-kenadid is a different man, the Somali sultan). Relations written: lived_in place/lahore only, for his two terms as principal of Islamia College (1925-1927 and 1935-1937); Bombay, Surat, London and Brookwood have no place entities."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-124
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

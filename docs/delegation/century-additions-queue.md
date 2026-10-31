@@ -680,21 +680,21 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Suriya Juangroongruangkit (Contemporary Leader) — 1954–Living
 - [x] Wan Muhamad Noor Matha — 1944–Living
 - [x] Surin Pitsuwan — 1949–2017
-- [ ] Azza Karam — 1968–Living
-- [ ] Dr. Sania Nishtar — 1963–Living
-- [ ] Dr. Zubaida Sirang — 1990–Living
-- [ ] Dr. Abdul Samad — 1980–Living
-- [ ] Dr. Muhammad Ashraf — 1953–Living
-- [ ] Dr. Salim Ali (Contemporary) — 1896–1987
-- [ ] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
-- [ ] Hakim Abdul Hameed — 1908–1999
-- [ ] Dr. Syed Zahoor Qasim — 1926–2015
-- [ ] Asghar Ali Engineer — 1939–2013
-- [ ] Maulana Abul Kalam Azad — 1888–1958
-- [ ] Zakir Husain — 1897–1969
-- [ ] Fakhruddin Ali Ahmed — 1905–1977
-- [ ] Mohammad Hidayatullah — 1905–1992
-- [ ] M. C. Chagla — 1900–1981
+- [x] Azza Karam — 1968–Living
+- [x] Dr. Sania Nishtar — 1963–Living
+- [x] Dr. Zubaida Sirang — 1990–Living
+- [x] Dr. Abdul Samad — 1980–Living
+- [~] Dr. Muhammad Ashraf — 1953–Living
+- [x] Dr. Salim Ali (Contemporary) — 1896–1987
+- [x] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
+- [x] Hakim Abdul Hameed — 1908–1999
+- [x] Dr. Syed Zahoor Qasim — 1926–2015
+- [x] Asghar Ali Engineer — 1939–2013
+- [x] Maulana Abul Kalam Azad — 1888–1958
+- [x] Zakir Husain — 1897–1969
+- [x] Fakhruddin Ali Ahmed — 1905–1977
+- [x] Mohammad Hidayatullah — 1905–1992
+- [x] M. C. Chagla — 1900–1981
 - [ ] Syed Shahabuddin — 1935–2017
 - [ ] Ebrahim Alkazi — 1925–2020
 - [ ] Habib Tanvir — 1923–2009
@@ -1582,24 +1582,24 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahmud Gami (1765–1855)
 - [x] Maqbool Shah Kralwari (1820–1875)
 - [x] Samad Mir (1893–1959)
-- [ ] Agha Shahid Ali (Ancestry) (1890–1940)
-- [ ] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
+- [~] Agha Shahid Ali (Ancestry) (1890–1940)
+- [~] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
 - [x] Saifuddin Kitchlew (1888–1963)
-- [ ] Justice Din Muhammad (1886–1952)
-- [ ] Mian Abdul Rashid (1889–1981)
-- [ ] Khalifa Shuja-ud-Din (1887–1955)
-- [ ] Allama Abdullah Yusuf Ali (1872–1953)
-- [ ] Pickthall's Muslim Colleagues (1910–1935)
-- [ ] Abdullah Quilliam (1856–1932)
-- [ ] Lord Headley (Rowland Allanson-Winn) (1855–1935)
-- [ ] Muhammad Marmaduke Pickthall (1875–1936)
-- [ ] Khalid Sheldrake (1888–1947)
-- [ ] Sir Archibald Hamilton (1876–1939)
-- [ ] Lady Evelyn Cobbold (1867–1963)
-- [ ] Tariq Benouri (1860–1925)
-- [ ] Adda Benshitrit (1870–1935)
-- [ ] Sheikh Si Kaddour Benghabrit (1868–1954)
-- [ ] Hamza Boubakeur (Ancestors) (1890–1940)
+- [x] Justice Din Muhammad (1886–1952)
+- [x] Mian Abdul Rashid (1889–1981)
+- [x] Khalifa Shuja-ud-Din (1887–1955)
+- [x] Allama Abdullah Yusuf Ali (1872–1953)
+- [~] Pickthall's Muslim Colleagues (1910–1935)
+- [x] Abdullah Quilliam (1856–1932)
+- [x] Lord Headley (Rowland Allanson-Winn) (1855–1935)
+- [x] Muhammad Marmaduke Pickthall (1875–1936)
+- [x] Khalid Sheldrake (1888–1947)
+- [x] Sir Archibald Hamilton (1876–1939)
+- [x] Lady Evelyn Cobbold (1867–1963)
+- [~] Tariq Benouri (1860–1925)
+- [~] Adda Benshitrit (1870–1935)
+- [x] Sheikh Si Kaddour Benghabrit (1868–1954)
+- [~] Hamza Boubakeur (Ancestors) (1890–1940)
 - [ ] Mahmud Brelvi (1905–1985)
 - [ ] Ahmed Peshtani (1850–1915)
 - [ ] Haxhi Zeka (1832–1902)
