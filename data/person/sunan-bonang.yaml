@@ -51,6 +51,7 @@ died:
 relations:
   - { type: child_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-bonang-en, source/wikipedia-sunan-bonang-id] }
   - { type: student_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-bonang-id, source/wikipedia-sunan-bonang-en] }
+  - { type: sibling_of, target: person/sunan-drajat, sources: [source/wikipedia-sunan-drajat-en, source/wikipedia-sunan-drajat-id] }
 
 faith:
   - value: unknown
