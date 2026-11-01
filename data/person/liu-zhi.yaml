@@ -1,0 +1,75 @@
+id: person/liu-zhi
+class: person
+
+label: { ar: "ليو تشي", en: "Liu Zhi", ur: "لیو ژی" }
+
+names:
+  - { value: "Liu Zhi", kind: full }
+  - { value: "劉智", kind: full }
+  - { value: "Liu Chih", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ليو تشي (نحو 1660 – نحو 1739) عالم مسلم صيني من نانجينغ في عهد أسرة تشينغ، وأبرز كتّاب «هان كتاب» الذين شرحوا الفكر الإسلامي بمصطلحات كونفوشيوسية لقارئ صيني. من أشهر أعماله «تيانفانغ شينغلي» في أصول الإسلام و«تيانفانغ ديانلي» في شعائره و«تيانفانغ جيشنغ شيلو» في سيرة النبي محمد."
+  en: "Liu Zhi (c. 1660 – c. 1739) was a Chinese Muslim scholar of Nanjing under the Qing dynasty and the most prominent of the Han Kitab writers, who expounded Islamic thought in Neo-Confucian terms for a Chinese audience. His best-known works are the Tianfang Xingli on the principles of Islam, the Tianfang Dianli on its rites and the Tianfang Zhisheng Shilu, a life of the Prophet Muhammad."
+  ur: "لیو ژی (تقریباً 1660ء – تقریباً 1739ء) چنگ دور کے چینی مسلمان عالم تھے جن کا تعلق نانجنگ سے تھا۔ وہ ہان کتاب کے مصنفین میں سب سے نمایاں تھے، جنھوں نے چینی قارئین کے لیے اسلامی فکر کو نو کنفیوشسی اصطلاحات میں پیش کیا۔ ان کی مشہور تصانیف میں اصولِ اسلام پر «تیان فانگ زنگلی»، شعائر پر «تیان فانگ دیانلی» اور سیرتِ نبوی پر «تیان فانگ ژی شینگ شیلو» شامل ہیں۔"
+
+roles: [scholar, writer]
+regions: [china-east-asia]
+wings: [people]
+
+born:
+  edtf: "1660"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English and Urdu articles give his birth as circa 1660 and the Arabic article gives 1660 plainly; Wikidata carries two rival year statements, 1660 and 1669, and modern scholarship (Murata, Chittick and Tu) gives circa 1670. The circa-1660 dating of the articles and the harvest queue is built and the rival readings preserved here. No Hijri year is set, since a bare year spans two Hijri years."
+  sources: [source/wikipedia-liu-zhi-en, source/wikipedia-liu-zhi-ar, source/wikipedia-liu-zhi-ur, source/wikidata-liu-zhi]
+
+died:
+  edtf: "1739"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English and Urdu articles give his death as circa 1739 and the Arabic article gives 1739 plainly; the year is built at year precision with the circa qualification of the sources preserved. No Hijri year is set, since a bare year spans two Hijri years."
+  sources: [source/wikipedia-liu-zhi-en, source/wikipedia-liu-zhi-ar, source/wikipedia-liu-zhi-ur, source/wikidata-liu-zhi]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No two independent texts name a legal school for Liu Zhi himself in
+      terms that meet the founder standard. The English article's lead
+      calls him a Chinese Sunni Hanafi-Maturidi scholar, and the Urdu
+      article's lead carries the same characterization in the same
+      terms; the Urdu text follows the English article so closely that
+      the two read as one source family, and one family is one source
+      under the founder rulings. Scholarship on the Han Kitab (Murata,
+      Chittick and Tu; the Encyclopaedia of Islam entry Liu Chih)
+      presents the tradition he led, and the ritual law his Tianfang
+      Dianli expounds, as Hanafi in orientation — attestation for his
+      school and tradition rather than a second independent naming of
+      the man's own madhhab. His books engage Sufi metaphysics deeply,
+      but no source read attests a personal discipleship or initiation
+      for Liu Zhi himself, and the Sufi content of a man's writings
+      never settles a sufi segment. Wikidata files his religion as
+      Sunni Islam, a structured statement that never settles faith. The
+      Hanafi-Maturidi characterization is therefore stated in full and
+      his faith recorded as unknown.
+    sources: [source/wikipedia-liu-zhi-en, source/wikipedia-liu-zhi-ur, source/wikidata-liu-zhi]
+
+external_ids: { wikidata: "Q13424361" }
+
+sources:
+  - source/wikipedia-liu-zhi-en
+  - source/wikipedia-liu-zhi-ar
+  - source/wikipedia-liu-zhi-ur
+  - source/wikidata-liu-zhi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380612409 of 16 October 2026), Arabic Wikipedia (revision 75822848 of 7 July 2026), Urdu Wikipedia (revision 7981973 of 17 April 2025) and Wikidata Q13424361 (item revision 2558790442 of 19 October 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds Liu Zhi, and place/nanjing does not exist on main, so no place edges are written. His birth year is carried as circa 1660 (Wikidata also carries a 1669 statement and modern scholarship gives circa 1670) and his death as circa 1739; both rival readings are preserved in the date notes. The Hanafi-Maturidi characterization of the man rests on a single article family plus tradition-level scholarship, so under the founder one-family rule his faith is recorded as unknown with the attestation stated in full, flagged for the founder in the wave report."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
