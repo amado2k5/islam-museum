@@ -527,3 +527,17 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 ### Leads, batch 19
 
 - **place/qantarat-thakan.** pp. 415 and 421 give the bridge on the Musin river by Arjan (compared to the bridge of Cordoba) in about seventy words, and the rest is route distances. Lead.
+
+## n–z batch 22 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 22
+
+- **place/susat-al-sin** (Idrisi pp. 210, 211, 213). Famous trading city east of the Khamdan river, Chinese pottery and silk tiraz, stages to Qabtu, Siniyyat al-Sin and Sa'la.
+- **place/sa-la** (pp. 210, 211). River city of merchants, silk and pottery, eight days from Susa; Tughma as neighbour.
+- **place/siniyyat-al-sin** (p. 211). Largest city at the far end of China, its king under the Baghbugh, the saffron plain of Istankhua.
+- **place/shadhkhu** (pp. 210, 213). City near the Eastern Sea, nine stages from Bishhiyar, with Bishhiyar's frontier role described.
+
+### Leads, batch 22
+
+- **place/namnaj** (Namnaj island). p. 214 gives only the report from the author of the Book of Wonders about a tailed people; one attributed claim, no description of the island. Lead.
+- **place/tughura.** pp. 930–931 repeat the facts already used under suqmaqiya (a medium city six stages from it). Lead.
