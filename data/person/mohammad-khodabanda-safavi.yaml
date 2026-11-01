@@ -1,0 +1,77 @@
+id: person/mohammad-khodabanda-safavi
+class: person
+
+label: { ar: "محمد خدا بنده", en: "Mohammad Khodabanda", ur: "محمد خدا بندہ" }
+
+names:
+  - { value: "Mohammad Khodabanda", kind: full }
+  - { value: "محمد خدابنده", kind: full }
+  - { value: "Soltan-Mohammad Mirza", kind: alternate }
+  - { value: "Mohammad Khodabandeh", kind: alternate }
+  - { value: "Fahmi", kind: pen }
+
+gender: male
+
+summary:
+  ar: "رابع شاهات الدولة الصفوية في إيران (حكم 1578–1587)، ابن الشاه طهماسب الأول وخليفة أخيه إسماعيل الثاني. كان شبه أعمى، وهيمنت على حكمه فصائل القزلباش وزوجته مهد عليا، فضعفت سلطة التاج في أثناء الحرب العثمانية الصفوية (1578–1590)، وسقطت تبريز سنة 1585، ثم خُلع سنة 1587 لصالح ابنه عباس الأول. وكان شاعرًا يتخلّص بلقب «فهمي»."
+  en: "Fourth Safavid shah of Iran (r. 1578-1587), a son of Tahmasp I who succeeded his brother Ismail II. Nearly blind and dominated by Qizilbash factions and his wife Mahd-e Olya, he presided over a weakening crown during the Ottoman-Safavid war (1578-1590), lost Tabriz in 1585, and was deposed in 1587 in favour of his son Abbas I. He wrote poetry under the pen name Fahmi."
+  ur: "ایران کے چوتھے صفوی شاہ (دورِ حکومت 1578ء–1587ء)، شاہ طہماسپ اول کے بیٹے اور اپنے بھائی اسماعیل دوم کے جانشین۔ تقریباً نابینا تھے؛ ان کے عہد میں قزلباش گروہوں اور ان کی اہلیہ مہدِ علیا کا غلبہ رہا، عثمانی صفوی جنگ (1578ء–1590ء) کے دوران تاج کی طاقت کمزور ہوئی، 1585ء میں تبریز ہاتھ سے گیا، اور 1587ء میں ان کے بیٹے عباس اول کے حق میں انھیں معزول کر دیا گیا۔ «فہمی» تخلص سے شاعری بھی کرتے تھے۔"
+
+roles: [ruler, sultan]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1532"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives 1532, born at Tabriz; the Arabic article and Wikidata give 1531, and Wikidata names Ardabil as the birthplace. The variants are preserved here rather than merged. The year 1532 spans 938-939 AH, so no Hijri year is paired."
+  sources:
+    - source/wikipedia-mohammad-khodabanda-en
+    - source/wikipedia-mohammad-khodabanda-ar
+    - source/wikidata-mohammad-khodabanda
+
+died:
+  edtf: "1595"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article's lead gives '1595 or 1596' (after Matthee), and its text, citing Savory and Roemer, records Iskandar Beg Munshi's bracket of 21 July 1595 to 10 July 1596 for his death at Qazvin; the Arabic article and Wikidata give July 1595, Wikidata naming Alamut Castle - where he had reportedly been banished - as the place. The year 1595 spans 1003-1004 AH, so no Hijri year is paired."
+  sources:
+    - source/wikipedia-mohammad-khodabanda-en
+    - source/wikipedia-mohammad-khodabanda-ar
+    - source/wikidata-mohammad-khodabanda
+
+relations:
+  - { type: child_of, target: person/tahmasp-i-safavi, sources: [source/wikipedia-mohammad-khodabanda-en, source/wikidata-mohammad-khodabanda] }
+  - { type: sibling_of, target: person/ismail-ii-safavi, sources: [source/wikipedia-mohammad-khodabanda-en] }
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-mohammad-khodabanda-en] }
+  - { type: died_in, target: place/qazvin, sources: [source/wikipedia-mohammad-khodabanda-en] }
+  - { type: buried_in, target: place/karbala, sources: [source/wikipedia-mohammad-khodabanda-en] }
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "The English article's infobox gives his religion as Twelver Shia Islam and the Arabic article's infobox independently gives him as a Twelver Shia Muslim; Wikidata gives Shia Islam. He headed the Twelver Shia Safavid state founded by his grandfather Ismail I."
+    sources:
+      - source/wikipedia-mohammad-khodabanda-en
+      - source/wikipedia-mohammad-khodabanda-ar
+      - source/wikidata-mohammad-khodabanda
+
+external_ids: { wikidata: "Q353091" }
+
+sources:
+  - source/wikipedia-mohammad-khodabanda-en
+  - source/wikipedia-mohammad-khodabanda-ar
+  - source/wikidata-mohammad-khodabanda
+
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Mohammad Khodabanda and Wikidata Q353091, each read at the revision recorded in its source file (revisions fetched live from the MediaWiki API, 31 Oct 2026). Identity pinned against the Ilkhanid Mohammad Khodabandeh (Oljaitu) by the 1532-1595 dates and the Safavid succession from Ismail II."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-148b
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

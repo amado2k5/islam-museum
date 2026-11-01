@@ -1,0 +1,79 @@
+id: person/abbas-i-safavi
+class: person
+
+label: { ar: "عباس الأكبر", en: "Abbas I (Abbas the Great)", ur: "عباس اول" }
+
+names:
+  - { value: "Abbas I", kind: regnal }
+  - { value: "Abbas ibn Mohammad Khodabanda", kind: nasab }
+  - { value: "شاه عباس بزرگ", kind: full }
+  - { value: "Abbas the Great", kind: alternate }
+  - { value: "عباس الأكبر", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "خامس شاهات الدولة الصفوية في إيران (حكم 1587/1588–1629)، الابن الثالث لمحمد خدا بنده، وأقوى حكام الأسرة. حدّ من نفوذ القزلباش بجيش جديد من الغلمان، واستعاد الأراضي من الأوزبك والعثمانيين، وطرد البرتغاليين من هرمز بمساعدة إنجليزية (1622)، ونقل العاصمة إلى أصفهان وجعلها مركزًا للفن والتجارة، ورعى التشيّع الاثني عشري، وحجّ ماشيًا من أصفهان إلى مشهد سنة 1601."
+  en: "Fifth Safavid shah of Iran (r. 1587/88-1629), third son of Mohammad Khodabanda, and the dynasty's most powerful ruler. He curbed the Qizilbash with a new ghulam army, retook the lands lost to the Uzbeks and Ottomans, expelled the Portuguese from Hormuz with English help (1622), moved the capital to Isfahan and made it a centre of art and trade, and patronised Twelver Shi'ism, walking on pilgrimage from Isfahan to Mashhad in 1601."
+  ur: "ایران کے پانچویں صفوی شاہ (دورِ حکومت 1587ء/1588ء–1629ء)، محمد خدا بندہ کے تیسرے بیٹے اور خاندان کے سب سے طاقتور حکمران۔ انھوں نے غلاموں کی نئی فوج سے قزلباشوں کا زور توڑا، ازبکوں اور عثمانیوں سے کھوئے ہوئے علاقے واپس لیے، انگریزوں کی مدد سے پرتگالیوں کو ہرمز سے نکالا (1622ء)، دار الحکومت اصفہان منتقل کیا اور اسے فن و تجارت کا مرکز بنایا، اور اثنا عشری تشیّع کی سرپرستی کی؛ 1601ء میں اصفہان سے مشہد تک پیدل زیارت کی۔"
+
+roles: [ruler, sultan]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1571-01-27"
+  hijri: "0978"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Herat on 27 January 1571; the English article, Wikidata and Encyclopaedia Iranica agree. Iranica pairs the birth with 1 Ramadan 978, hence the Hijri year 0978 (derived from that pairing)."
+  sources:
+    - source/wikipedia-abbas-the-great-en
+    - source/wikidata-abbas-the-great
+    - source/iranica-abbas-i
+
+died:
+  edtf: "1629-01-19"
+  hijri: "1038"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 19 January 1629 at his palace at Farahabad on the Caspian coast (English article); Wikidata names the death place as Behshahr, the modern town by Farahabad, and Iranica dates the death in Mazandaran to Jumada I 1038 / 19 January 1629, hence the Hijri year 1038 (derived). He was buried in his mausoleum at Kashan; Kashan has no place entity in the museum, so the burial is recorded here only."
+  sources:
+    - source/wikipedia-abbas-the-great-en
+    - source/wikidata-abbas-the-great
+    - source/iranica-abbas-i
+
+relations:
+  - { type: child_of, target: person/mohammad-khodabanda-safavi, sources: [source/wikipedia-abbas-the-great-en, source/wikidata-abbas-the-great, source/iranica-abbas-i] }
+  - { type: born_in, target: place/herat, sources: [source/wikipedia-abbas-the-great-en, source/wikidata-abbas-the-great] }
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "The English and Arabic articles both give his religion as Twelver Shi'ism, the Arabic citing Bomati and Nahavandi, whose work the English article also uses for his particular veneration of Imam Husayn. Encyclopaedia Iranica independently documents his Twelver devotion: reverence for the imams, generous support of Imam Reza's shrine at Mashhad, the pilgrimage on foot from Isfahan to Mashhad in 1010/1601, and the Safavid claim to represent the Hidden (Twelfth) Imam. Wikidata gives Shia Islam."
+    sources:
+      - source/wikipedia-abbas-the-great-en
+      - source/wikipedia-abbas-the-great-ar
+      - source/iranica-abbas-i
+      - source/wikidata-abbas-the-great
+
+external_ids: { wikidata: "Q171349" }
+
+sources:
+  - source/wikipedia-abbas-the-great-en
+  - source/wikipedia-abbas-the-great-ar
+  - source/wikipedia-abbas-the-great-ur
+  - source/wikidata-abbas-the-great
+  - source/iranica-abbas-i
+
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abbas the Great, Wikidata Q171349 and Roger Savory's Encyclopaedia Iranica entry 'Abbas I', all read at the revisions recorded in their source files (Wikipedia and Wikidata revisions fetched live from the MediaWiki API, 31 Oct 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-148b
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
