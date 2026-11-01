@@ -32,3 +32,6 @@ Al-Hajjaj ibn Yusuf al-Thaqafi, governor for Abd al-Malik ibn Marwan per al-Taba
 
 ## For Scholars
 Al-Hajjaj ibn Yusuf al-Thaqafi, governor for Abd al-Malik ibn Marwan per al-Tabari. He led the army at Dayr al-Jamajim where Ibn al-Ash'ath was beaten. Al-Mas'udi relates his famous sermon on coming to Iraq and his address to its people; that he wrote Abd al-Malik about Ibn al-Ash'ath's affair and was reinforced with armies, then preached in Kufa when Ibn al-Ash'ath's head reached him. And that he imprisoned al-Ghadban ibn al-Qaba'thari three years, freeing him after the Green Dome affair at Wasit. The book of the Umayyad state by al-Sallabi says Hajjaj built Wasit as a military base between Ahwaz, Basra and Kufa, and that Abd al-Malik, ill, charged al-Walid to honor him. Al-Mas'udi has him dying at Wasit in 95 AH aged fifty-four, after twenty years in office.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that when al-Hajjaj seized a young man to kill him, his mother wept and said: will you be killed wronged, my son? He said: mother, would you rather I were killed as a wrongdoer? He tells it to show that no one wishes to meet God as a wrongdoer (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:08:00}

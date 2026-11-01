@@ -26,3 +26,6 @@ translators: []
 يقول الشيخ إن الغنى الحقيقي غنى النفس، لا كثرة العرض من المال والمتاع {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00}.
 
 يرى الشيخ، وهذا رأيه، أن الفقير القانع الراضي قد يكون أحسن حالا من الملك (needs_source: لفظ «الملك» في التفريغ غير واضح) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:33:30}.
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يتعجب الشيخ ممن يأخذ من الدنيا حلالها وحرامها، ويقول إنه لا يذم الغنى، وإن الغني الشاكر خير عند الله من الفقير الصابر في رأيه، لكنه يحذّر من أن يكون المرء كشارب ماء البحر لا يزيده الشرب إلا عطشًا: مليون ثم مليون ثم مليار، ولا يملأ جوف ابن آدم إلا التراب، وينقل: من أراد الغنى فالقناعة تكفيه، ومن أراد واعظًا فالموت يكفيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
