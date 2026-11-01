@@ -1,0 +1,72 @@
+id: person/naguib-sawiris
+class: person
+
+label: { ar: "نجيب ساويرس", en: "Naguib Sawiris", ur: "نجیب ساویرس" }
+
+names:
+  - { value: "Naguib Onsi Sawiris", kind: full }
+  - { value: "نجيب أنسي ساويرس", kind: full }
+
+gender: male
+
+summary:
+  ar: "نجيب ساويرس (وُلد في 15 حزيران 1954 في القاهرة)، رجل أعمال مصري، أكبر أبناء أنسي ساويرس الثلاثة. درس الهندسة في المعهد الفيدرالي للتكنولوجيا في زيورخ، وبنى أوراسكوم للاتصالات (موبينيل) ويرأس أوراسكوم للاستثمار القابضة، واستثمر في مناجم الذهب عبر لا مانشا، وأسس حزب المصريين الأحرار سنة 2011."
+  en: "Naguib Sawiris (born 15 June 1954 in Cairo) is an Egyptian businessman, the eldest of Onsi Sawiris's three sons. He studied engineering at ETH Zurich, built Orascom Telecom (Mobinil) and chairs Orascom Investment Holding, invested in gold mining through La Mancha, and founded the Free Egyptians Party in 2011."
+  ur: "نجیب ساویرس (پیدائش 15 جون 1954، قاہرہ) مصری تاجر اور انسی ساویرس کے تین بیٹوں میں سب سے بڑے ہیں۔ انہوں نے ای ٹی ایچ زیورخ سے انجینئرنگ پڑھی، اوراسکوم ٹیلی کام (موبینیل) قائم کیا اور اوراسکوم انویسٹمنٹ ہولڈنگ کے چیئرمین ہیں، لا مانچا کے ذریعے سونے کی کان کنی میں سرمایہ کاری کی اور 2011 میں فری ایجپشنز پارٹی کی بنیاد رکھی۔"
+
+roles: [businessman]
+wings: [people, living]
+regions: [egypt-nile]
+
+born:
+  edtf: "1954-06-15"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Cairo on 15 June 1954; the English article and Wikidata agree on the date and the article gives Cairo. The Arabic article gives a rival reading, 17 June 1955 in Tahta, Sohag, which is preserved here and not followed. Wikidata's structured birthplace value (Faiyum) likewise conflicts with the article and is not followed. The Hijri year 1373 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-naguib-sawiris-en, source/wikipedia-naguib-sawiris-ar, source/wikidata-naguib-sawiris]
+
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-naguib-sawiris-en] }
+  - { type: sibling_of, target: person/nassef-sawiris, sources: [source/wikipedia-naguib-sawiris-en, source/wikidata-naguib-sawiris] }
+
+faith:
+  - value: christian
+    basis: documented
+    note: >-
+      Two independent texts attest the value for Sawiris himself.
+      Jadaliyya's Egypt Elections Watch profile, developed with
+      Ahram Online, calls him "the eldest of three prominent Coptic
+      Christian brothers" and quotes his own words to the US
+      interviewer Charlie Rose in 2008, "I'm a very strong believer
+      [in Christianity] and this has always been the source of my
+      strength". A 2026 Billionaires.Africa report of his France 24
+      interview likewise speaks of what it meant "for him, a
+      Christian from a Coptic Orthodox family", and Politico's 2015
+      Euronews profile described him as a member of Egypt's Coptic
+      Christian minority. The English article records that he was
+      born to a Coptic family, members of the Coptic Orthodox
+      Church; the settlement rests on the attestations for the man
+      himself, not on family background. Wikidata's structured
+      religion value names the Coptic Orthodox Church, a bare
+      structured statement that settles nothing on its own under
+      the founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-naguib-sawiris-en, source/jadaliyya-naguib-sawiris, source/billionaires-africa-naguib-sawiris-2026]
+
+external_ids: { wikidata: "Q1391723" }
+
+sources:
+  - source/wikipedia-naguib-sawiris-en
+  - source/wikipedia-naguib-sawiris-ar
+  - source/wikidata-naguib-sawiris
+  - source/jadaliyya-naguib-sawiris
+  - source/billionaires-africa-naguib-sawiris-2026
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Naguib Sawiris' (revision 1382992206 of 31 October 2026), Arabic Wikipedia article 'نجيب ساويرس' (revision 75998307 of 25 July 2026), Wikidata Q1391723 (item revision 2562790288 of 30 October 2026), the Jadaliyya Egypt Elections Watch profile of 18 November 2011 and the Billionaires.Africa report of 8 October 2026, fetched live in-session via the MediaWiki API and the open web on 1 November 2026, the Wikidata revision re-asserted identical against a second live query and the QID grounded from the English article's own page property. Existence checked against origin/main before building - no prior record and no draft stub. His faith is recorded as christian on independent texts attesting it for the man himself, including his own quoted words; his birth is built debated because the Arabic article gives a rival date and birthplace. The sibling edge to his younger brother Nassef is written here, in the elder brother's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
