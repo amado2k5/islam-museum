@@ -1,0 +1,55 @@
+id: person/abla-al-kahlawi
+class: person
+label:
+  ar: "عبلة الكحلاوي"
+  en: "Abla al-Kahlawi"
+  ur: "عبلہ الکحلاوی"
+names:
+  - { value: "عبلة محمد مرسي عبد اللطيف الكحلاوي", kind: full }
+  - { value: "Abla al-Kahlawy", kind: alternate }
+  - { value: "ماما عبلة", kind: laqab }
+gender: female
+summary:
+  ar: "فقيهة وداعية مصرية (1948–2021)، أستاذة الفقه المقارن وعميدة كلية الدراسات الإسلامية والعربية للبنات بجامعة الأزهر، ألقت دروسًا يومية للنساء في المسجد الحرام بين 1987 و1989، وقدّمت برامج دينية في الفضائيات منها «في حب المصطفى»، وأسست جمعية الباقيات الصالحات الخيرية في المقطم، وتوفيت في القاهرة متأثرة بكورونا."
+  en: "Egyptian jurist and preacher (1948–2021), professor of comparative fiqh and dean of the Faculty of Islamic and Arabic Studies for Women at Al-Azhar University, who gave daily lessons for women at the Masjid al-Haram from 1987 to 1989, presented religious television programmes including 'Fi Hubb al-Mustafa', founded the al-Baqiyat al-Salihat charity in al-Muqattam, and died in Cairo of Covid-19."
+  ur: "مصری فقیہہ اور داعیہ (1948–2021)، جامعہ ازہر کے کلیۂ اسلامی و عربی علوم برائے خواتین میں فقہِ مقارن کی استاد اور اس کی ڈین، جنہوں نے 1987 سے 1989 تک مسجد الحرام میں خواتین کے لیے روزانہ درس دیے، «فی حب المصطفیٰ» سمیت ٹیلی وژن پر دینی پروگرام پیش کیے، مقطم میں الباقیات الصالحات خیراتی انجمن قائم کی، اور قاہرہ میں کورونا سے وفات پائی۔"
+roles: [scholar, jurist, preacher, teacher, writer]
+wings: [people, today]
+regions: [egypt-nile]
+periods: [period/contemporary-era]
+born:
+  edtf: "1948-12-15"
+  hijri: "1368-02-13"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in the Zamalek quarter of Cairo, as the Arabic article gives; the English article and Wikidata give 15 December 1948, Wikidata with Cairo as the place. The Hijri date is a derived tabular conversion and may differ by a day."
+  sources: [source/wikipedia-abla-al-kahlawi-ar, source/wikipedia-abla-al-kahlawi-en, source/wikidata-abla-al-kahlawi]
+died:
+  edtf: "2021-01-24"
+  hijri: "1442-06-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article and Wikidata give 24 January 2021 (the Arabic article quotes an obituary of the next day calling it Sunday, which 24 January 2021 was); the English article gives 25 January 2021. The two agreeing sources are followed. Died of Covid-19 aged 72, as both articles say; Wikidata gives Cairo as the place. The Hijri date is a derived tabular conversion and may differ by a day."
+  sources: [source/wikipedia-abla-al-kahlawi-ar, source/wikidata-abla-al-kahlawi, source/wikipedia-abla-al-kahlawi-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata and the Arabic infobox give her religion only as Islam, and neither Wikipedia article read names a school (madhhab or creed). She studied and taught fiqh at Al-Azhar, which is an institution, not a stated school. Not recorded as sunni until two independent sources name a school (publication-standard faith rule), following the person/ragheb-al-sergani and person/zaghloul-el-naggar precedents."
+    sources: [source/wikipedia-abla-al-kahlawi-ar, source/wikipedia-abla-al-kahlawi-en, source/wikidata-abla-al-kahlawi]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-abla-al-kahlawi-ar, source/wikidata-abla-al-kahlawi] }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata-abla-al-kahlawi] }
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-abla-al-kahlawi-ar, source/wikipedia-abla-al-kahlawi-en] }
+external_ids: { wikidata: "Q5104483", viaf: "47180796" }
+sources: [source/wikipedia-abla-al-kahlawi-ar, source/wikipedia-abla-al-kahlawi-en, source/wikidata-abla-al-kahlawi, source/assabile-abla-al-kahlawi]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «عبلة الكحلاوي» (revision 76168910), English Wikipedia 'Abla al-Kahlawi' (revision 1353865316), Wikidata Q5104483 (revision 2554143791), all read 1 November 2026; the Assabile archive page of her series and the transcripts of fi-hub-al-mustapha (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: assabile-egypt-kahlawi-1
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-kahlawi-1" }
