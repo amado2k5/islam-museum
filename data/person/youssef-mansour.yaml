@@ -1,0 +1,57 @@
+id: person/youssef-mansour
+class: person
+
+label: { ar: "يوسف منصور", en: "Youssef Mansour", ur: "یوسف منصور" }
+
+names:
+  - { value: "Youssef L. Mansour", kind: full }
+  - { value: "Youssef Mansour", kind: full }
+  - { value: "يوسف منصور", kind: full }
+
+gender: male
+
+summary:
+  ar: "يوسف منصور (وُلد في 21 أيار 1944)، رجل أعمال مصري وشريك مالك في مجموعة منصور مع شقيقيه محمد وياسين. درس الهندسة في جامعة ولاية كارولاينا الشمالية وإدارة الأعمال في جامعة أوبرن، ويقيم في القاهرة، وقدّرت فوربس ثروته بنحو 1.9 مليار دولار سنة 2020."
+  en: "Youssef Mansour (born 21 May 1944) is an Egyptian billionaire businessman and part owner of the Mansour Group alongside his brothers Mohamed and Yasseen. He studied engineering at North Carolina State University and business administration at Auburn University, lives in Cairo, and was estimated by Forbes to be worth about US$1.9 billion in 2020."
+  ur: "یوسف منصور (پیدائش 21 مئی 1944) مصری ارب پتی تاجر ہیں اور اپنے بھائیوں محمد اور یاسین کے ساتھ منصور گروپ کے شریک مالک ہیں۔ انہوں نے نارتھ کیرولائنا اسٹیٹ یونیورسٹی سے انجینئرنگ اور اوبرن یونیورسٹی سے بزنس ایڈمنسٹریشن پڑھی، قاہرہ میں رہتے ہیں اور فوربز نے 2020 میں ان کی دولت کا تخمینہ تقریباً 1.9 ارب ڈالر لگایا تھا۔"
+
+roles: [businessman]
+wings: [people, living]
+regions: [egypt-nile]
+
+born:
+  edtf: "1944-05-21"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born on 21 May 1944; the English and Arabic articles agree on the full date. Wikidata gives only the year 1940 and the commissioning queue row gave 1945, both preserved here as rival readings and not followed. The English infobox gives his birthplace as Cairo or Alexandria, uncertain between the two, so no born_in edge is written. The Hijri year 1363 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-youssef-mansour-en, source/wikipedia-youssef-mansour-ar, source/wikidata-youssef-mansour]
+
+relations:
+  - { type: sibling_of, target: person/mohamed-mansour, sources: [source/wikipedia-youssef-mansour-en, source/wikidata-youssef-mansour] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read attests any religion for Mansour himself. The
+      English and Arabic articles are silent on religion and
+      Wikidata carries no religion statement for him, so no value
+      is recorded under the founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-youssef-mansour-en, source/wikipedia-youssef-mansour-ar, source/wikidata-youssef-mansour]
+
+external_ids: { wikidata: "Q20164416" }
+
+sources:
+  - source/wikipedia-youssef-mansour-en
+  - source/wikipedia-youssef-mansour-ar
+  - source/wikidata-youssef-mansour
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Youssef Mansour' (revision 1363125671 of 8 July 2026), Arabic Wikipedia article 'يوسف منصور (رجل أعمال)' (revision 76029158 of 29 July 2026) and Wikidata Q20164416 (item revision 2523782724 of 28 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted identical against a second live query and the QID grounded from the English article's own page property. Existence checked against origin/main before building - no prior record and no draft stub. His birth is built debated - the two articles give 21 May 1944 against Wikidata's 1940 and the queue row's 1945 - and his faith is left unknown, no source read attesting any religion for the man himself. The sibling edge to his younger brother Mohamed is written here, in the elder brother's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -900,11 +900,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Adnan Khan — 1978–Living — STOPPED: no public figure of this name born 1978 identifiable in any reliable source (Wikipedia full-text + Wikidata entity search/SPARQL + three web searches, wave 168 §A); nothing built, nothing substituted.
 - [x] Mohamed Al-Fayed — 1929–2023
 - [x] Assem Allam — 1939–2022
-- [ ] Farhad Moshiri — 1955–Living
-- [ ] Nassef Sawiris (Contemporary Icon) — 1961–Living
-- [ ] Naguib Sawiris (Contemporary Icon) — 1954–Living
-- [ ] Mohamed Mansour — 1948–Living
-- [ ] Youssef Mansour — 1945–Living
+- [x] Farhad Moshiri — 1955–Living
+- [x] Nassef Sawiris (Contemporary Icon) — 1961–Living
+- [x] Naguib Sawiris (Contemporary Icon) — 1954–Living
+- [x] Mohamed Mansour — 1948–Living
+- [x] Youssef Mansour — 1945–Living
 - [ ] Yasseen Mansour — 1961–Living
 - [ ] Hussein Sajwani — 1953–Living
 - [ ] M. A. Yusuff Ali — 1955–Living
