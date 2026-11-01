@@ -1,22 +1,57 @@
 id: person/ibn-qayyim-al-jawziyya
 class: person
-label: { ar: "ابن قيم الجوزية" }
-summary:
-  ar: "الشيخ شمس الدين محمد بن أبي بكر بن قيم الجوزية الحنبلي الدمشقي المتوفى سنة ٧٥١هـ؛ صاحب إعلام الموقعين عن رب العالمين {cite:kashf-zunun-furqan p. 518}."
-  en: "Shams al-Din Muhammad ibn Abi Bakr, Ibn Qayyim al-Jawziyya al-Hanbali al-Dimashqi, d. AH 751 — author of I'lam al-Muwaqqi'in {cite:kashf-zunun-furqan p. 518}."
+label: { ar: "ابن قيم الجوزية", en: "Ibn Qayyim al-Jawziyya", ur: "ابن قیم الجوزیہ" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين أبو بكر محمد بن أبي بكر بن أيوب بن سعد بن حريز الزرعي الدمشقي" }
+  - { kind: laqab, lang: ar, value: "شمس الدين" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "الجوزية" }
+  - { kind: nisba, lang: ar, value: "الزرعي" }
+  - { kind: nisba, lang: ar, value: "الدمشقي" }
 gender: male
+born: { edtf: "1292-01-29", hijri: "0691-02-07", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993], note: "٧ صفر ٦٩١هـ/٢٩ يناير ١٢٩٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 853}؛ سنة ٦٩١ {cite:durar-kamina-jil-1993 3/400}؛ التحويل مشتق." }
+died: { edtf: "1350-09-16~", hijri: "0751-07-13", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2], note: "في ثالث عشر رجب ٧٥١هـ {cite:durar-kamina-jil-1993 3/403}؛ وعند EI2: ٢٣ رجب ٧٥١هـ/٢٦ سبتمبر ١٣٥٠م {cite:encyclopaedia-of-islam-2 vol. 3 p. 855}؛ التحويل مشتق." }
+roles: [scholar, jurist, preacher]
+traditions: [sunni]
+summary:
+  ar: "الشيخ شمس الدين محمد بن أبي بكر بن قيم الجوزية الحنبلي الدمشقي (٦٩١-٧٥١هـ/١٢٩٢-١٣٥٠م)؛ أشهر تلاميذ ابن تيمية وسجينه في قلعة دمشق ٧٢٦-٧٢٨هـ، وصاحب إعلام الموقعين عن رب العالمين {cite:kashf-zunun-furqan p. 518} ومدارج السالكين والصواعق المرسلة {cite:durar-kamina-jil-1993 3/402}؛ درّس بالصدرية حتى وفاته ودُفن بمقبرة باب الصغير {cite:encyclopaedia-of-islam-2 vol. 3 pp. 854-855}."
+  en: "Shams al-Din Muhammad ibn Abi Bakr, Ibn Qayyim al-Jawziyya al-Hanbali al-Dimashqi (691-751/1292-1350) — Ibn Taymiyya's most famous pupil and his fellow-prisoner in the Damascus citadel in 726-728; author of I'lam al-Muwaqqi'in {cite:kashf-zunun-furqan p. 518}, Madarij al-Salikin and al-Sawa'iq al-Mursala {cite:durar-kamina-jil-1993 3/402}; he taught at the Sadriyya until his death and is buried at Bab al-Saghir {cite:encyclopaedia-of-islam-2 vol. 3 pp. 854-855}."
+  ur: "شمس الدین محمد بن ابی بکر، ابن قیم الجوزیہ حنبلی دمشقی (691-751ھ/1292-1350ء)؛ ابن تیمیہ کے مشہور ترین شاگرد اور 726-728ھ میں قلعہ دمشق میں ان کے ہم قید؛ اعلام الموقعین {cite:kashf-zunun-furqan p. 518}، مدارج السالکین اور الصواعق المرسلہ کے مصنف {cite:durar-kamina-jil-1993 3/402}؛ وفات تک صدریہ میں تدریس کی اور باب صغیر میں دفن ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 pp. 854-855}۔"
 wings: [people]
-periods: [period/mongol-post-mongol]
+themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
+periods: [period/mongol-post-mongol, period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
-died: { edtf: "1350~", hijri: "0751", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 751هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 518}." }
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+  - { role: jurist, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+  - { role: preacher, status: tradition, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
 relations:
+  - { type: born_in, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/ibn-taymiyya, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/safi-al-din-al-hindi, sources: [source/durar-kamina-jil-1993] }
   - { type: authored, target: work/ilam-al-muwaqqiin, sources: [source/kashf-zunun-furqan] }
-provenance:
-  layer: own-research
-  source: "kashf al-zunun; assabile omar-abdelkafy sharh-ketab; assabile al-mubdioune ep15 lecture (2026-10 transcription)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-6, lib-durar-kamina-batch-1-2-2026-10-31
+  - { type: authored, target: work/madarij-al-salikin, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/kitab-al-ruh, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/al-sawaiq-al-mursala, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/badai-al-fawaid, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/al-qasida-al-nuniyya-ibn-qayyim, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-ibn-qayyim-691, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-qayyim-joins-ibn-taymiyya-712, role: "التلميذ الملازم", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-final-imprisonment-726, role: "المسجون مع شيخه", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-qayyim-hajj-731, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-qayyim-first-khutba-736, role: "الخطيب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-qayyim-sadriyya-743, role: "المدرّس", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-qayyim-musabaqa-746, role: "المفتي الطرف في الخلاف", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/al-subki-ibn-qayyim-sulh-750, role: "المصالَح صاحب الفتيا", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/death-ibn-qayyim-751, role: "المتوفّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 external_ids:
   wikidata: Q119679
-sources: [source/kashf-zunun-furqan, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/durar-kamina-jil-1993]
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High); run omar-abdelkafy-sharh-ketab-1" }
+sources: [source/kashf-zunun-furqan, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3, printed pp. 853-855, art. IBN KAYYIM AL-DJAWZIYYA (F. de la Granja) — harvest OCR; Ibn Hajar, al-Durar al-Kamina, Dar al-Jil 1993, j.3 pp. 400-403, entry 1067 (harvest OCR); kashf al-zunun; assabile omar-abdelkafy sharh-ketab; assabile al-mubdioune ep15 lecture (2026-10 transcription)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-qayyim-1, lib-kashf-batch-6, lib-durar-kamina-batch-1-2-2026-10-31
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

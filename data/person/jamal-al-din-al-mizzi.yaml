@@ -1,25 +1,43 @@
 id: person/jamal-al-din-al-mizzi
 class: person
-label:
-  ar: "جمال الدين المزي"
-  en: "Jamal al-Din al-Mizzi"
-roles: [scholar]
+label: { ar: "جمال الدين المزي", en: "Jamal al-Din al-Mizzi", ur: "جمال الدین مزی" }
+names:
+  - { kind: full, lang: ar, value: "يوسف بن الزكي عبد الرحمن بن يوسف بن علي بن عبد الملك بن أبي الزهر القضاعي الكلبي المزي" }
+  - { kind: kunya, lang: ar, value: "أبو الحجاج" }
 gender: male
+born: { edtf: "1256-05-07~", hijri: "0654-04-10", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+died: { edtf: "1341-07-28~", hijri: "0742-02-12", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+roles: [scholar, muhaddith]
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لجمال الدين يوسف بن عبد الرحمن المزي، حافظ دمشق الشافعي صاحب «تهذيب الكمال»، توفي سنة ١٣٤١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jamal al-Din Yusuf ibn Abd al-Rahman al-Mizzi, the Shafi'i hadith master of Damascus author of Tahdhib al-Kamal, d. 1341; the biographical entry is not yet checked on the page."
+  ar: "حافظ العصر ومحدث الشام ومصر، صاحب «تهذيب الكمال في أسماء الرجال» و«تحفة الأشراف بمعرفة الأطراف»؛ وُلد بظاهر حلب سنة ٦٥٤هـ ونشأ بالمزة قرب دمشق، وطلب الحديث من سنة ٦٧٥هـ ورحل فيه إلى الحرمين ومصر والإسكندرية وحلب، وصحب ابن تيمية وأُوذي وحُبس بسببه سنة ٧٠٥هـ، وولي مشيخة دار الحديث الأشرفية من سنة ٧١٨هـ إلى وفاته سنة ٧٤٢هـ، وتخرج به الذهبي والسبكي وصهره ابن كثير."
+  en: "The hafiz of his age and the muhaddith of al-Sham and Egypt, author of Tahdhib al-Kamal fi Asma al-Rijal and Tuhfat al-Ashraf bi-Ma'rifat al-Atraf; born outside Aleppo in 654/1256 and raised at al-Mizza near Damascus, he sought hadith from 675/1276, travelled to the two Sanctuaries, Egypt, Alexandria and Aleppo, kept company with Ibn Taymiyya and was jailed on his account in 705/1305, held the shaykhhood of the Dar al-Hadith al-Ashrafiyya from 718/1319 until his death in 742/1341, and trained al-Dhahabi, al-Subki and his son-in-law Ibn Kathir."
+  ur: "اپنے عصر کے حافظ اور شام و مصر کے محدث، «تہذیب الکمال فی اسماء الرجال» اور «تحفۃ الاشراف بمعرفۃ الاطراف» کے مصنف؛ 654ھ/1256ء میں حلب کے باہر پیدا ہوئے اور دمشق کے قریب المزہ میں پلے، 675ھ/1276ء سے حدیث کی طلب کی اور حرمین، مصر، اسکندریہ اور حلب کے سفر کیے، ابن تیمیہ کی صحبت رکھی اور ان کے سبب 705ھ/1305ء میں قید ہوئے، 718ھ/1319ء سے وفات 742ھ/1341ء تک دار الحدیث اشرفیہ کے شیخ رہے، اور ان سے ذہبی، سبکی اور ان کے داماد ابن کثیر نے تربیت پائی۔"
 wings: [people]
-regions: [levant-iraq]
-periods: [period/mongol-post-mongol]
-sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/al-nawawi, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/tahdhib-al-kamal, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/tuhfat-al-ashraf, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/birth-al-mizzi-654, role: "المولود", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/mizzi-begins-hadith-675, role: "الطالب المبتدئ", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/mizzi-dhahabi-hears-694, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/mizzi-imprisonment-705, role: "المسجون", sources: [source/durar-kamina-jil-1993, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/mizzi-ashrafiyya-718, role: "شيخ دار الحديث", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mizzi-nuriyya-740, role: "شيخ النورية الجديد", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/al-subki-ashrafiyya-740, role: "الشيخ السابق للأشرفية", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/death-al-mizzi-742, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
 external_ids:
   wikidata: Q3607449
+sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025, lib-durar-kamina-batch-1-2-2026-10-31
-status:
-  review: published
-  completeness: 1
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed pp. 486-493 (harvest OCR); Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 4/457-461 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi (G.H.A. Juynboll), printed pp. 240-241; Taj al-Din al-Subki, Tabaqat al-Shafi'iyya al-Kubra j.10 printed pp. 395-430 (harvest scan); Ibn Kathir, al-Bidaya wa-l-Nihaya s.a. 740 p. 204"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

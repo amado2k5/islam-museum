@@ -1,0 +1,27 @@
+id: event/birth-al-mizzi-654
+class: event
+kind: birth
+label:
+  ar: "ولادة جمال الدين المزي بالمعقلية بظاهر حلب، ١٠ ربيع الآخر ٦٥٤هـ"
+  en: "Jamal al-Din al-Mizzi is born at al-Ma'qiliyya outside Aleppo, 10 Rabi' II 654/1256"
+  ur: "جمال الدین مزی کی ولادت حلب کے باہر معقلیہ میں، 10 ربیع الآخر 654ھ/1256ء"
+summary:
+  ar: "وُلد جمال الدين أبو الحجاج يوسف بن الزكي عبد الرحمن بن يوسف بن علي بن عبد الملك بن أبي الزهر القضاعي الكلبي المزي في عاشر ربيع الآخر سنة ٦٥٤هـ بظاهر حلب {cite:tarikh-islam-dhahabi p. 486}، ويحدد ابن حجر الموضع بالمعقلية {cite:durar-kamina-jil-1993 4/457}؛ ونسب إليه أنه وُلد قرب حلب من أصل عربي سنة ٦٥٤/١٢٥٦م {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}."
+  en: "Jamal al-Din Abu al-Hajjaj Yusuf ibn al-Zaki Abd al-Rahman ibn Yusuf ibn Ali ibn Abd al-Malik ibn Abi al-Zahr al-Quda'i al-Kalbi al-Mizzi was born on 10 Rabi' II 654 outside Aleppo {cite:tarikh-islam-dhahabi p. 486}; Ibn Hajar gives the spot as al-Ma'qiliyya {cite:durar-kamina-jil-1993 4/457}, and the Encyclopaedia of Islam has him born near Aleppo of Arab stock in 654/1256 {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}."
+  ur: "جمال الدین ابو الحجاج یوسف بن الزکی عبد الرحمن بن یوسف بن علی بن عبد الملک بن ابی الزہر قضاعی کلبی مزی 10 ربیع الآخر 654ھ کو حلب کے باہر پیدا ہوئے {cite:tarikh-islam-dhahabi p. 486}؛ ابن حجر مقام معقلیہ بتاتے ہیں {cite:durar-kamina-jil-1993 4/457} اور دائرۃ المعارف کے مطابق وہ 654ھ/1256ء میں عرب نسل سے حلب کے قریب پیدا ہوئے {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1256-05-07~", hijri: "0654-04-10", calendar: julian, precision: day, status: tradition, derived: true, note: "عاشر ربيع الآخر ٦٥٤هـ {cite:tarikh-islam-dhahabi p. 486}؛ الدرر يكتفي بربيع الآخر {cite:durar-kamina-jil-1993 4/457}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "المولود", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed p. 486 (harvest OCR); Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 4/457 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi (G.H.A. Juynboll), printed p. 240"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
