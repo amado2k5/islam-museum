@@ -2,9 +2,10 @@
 id: work/amali-ibn-asakir
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## Overview
-"Al-Amali fil-Hadith" (Dictations on Hadith) by Abu al-Qasim Ali al-Dimashqi, Ibn Asakir. {cite:kashf-zunun-furqan p.598}
+## Summary
+Amali Ibn 'Asakir fi al-Hadith is a hadith work by Abu al-Qasim Ali al-Dimashqi, known as Ibn 'Asakir. {cite:kashf-zunun-furqan p.610}
 
-A further source is needed to establish its size and contents.
+## Details
+In Kashf al-Zunun Hajji Khalifa lists Amali of Ibn 'Asakir in hadith — that is, Abu al-Qasim Ali al-Dimashqi — within a sequence of amali works, the genre in which a traditionist dictates to his students who collect the material and arrange it in parts; the adjacent entry is the Amali of Ibn Sham'un by Abu al-Husayn Muhammad ibn Ahmad, who dictated in hadith and arranged it in parts; the edition notes that the name Sham'un should read Sam'un with an undotted sin, as Ibn Makula recorded it in al-Ikmal. {cite:kashf-zunun-furqan p.610}

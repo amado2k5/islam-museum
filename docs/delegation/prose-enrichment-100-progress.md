@@ -380,3 +380,27 @@ Candidates re-derived from `data/place/*.yaml` (slug n–z, Idrisi as a source, 
 ### Not reached, batch 12
 
 About sixty other candidates were listed but not read (for example nahr-kur, najrag, nunshka, parwan, sandan, shirusan, tuyuyn). Several are river or island names that would need a different reading of the same pages.
+
+
+| 2026-11-02 | Devin (a–m) | batch 19: book-sourced tail (nuzhat-al-mushtaq-2002, futuh-buldan, tarikh-khulafa, nafh-tib, kashf-zunun) | 29 | 6 | — |
+
+### Enriched, batch 19
+
+- place: kharqana, kuyaba, dazak, kayzkanan, malta, astrikuna, aghramini, hisn-al-qaryatayn, antartus, dasina, hirmand, jarajiyy, kuja, jartah, bazla, bakhwan, istija, ghulwi, alma, batra, al-nawaqir, mama-maghrib (all nuzhat-al-mushtaq-2002, harvest OCR `books/geography/nuzhat-mushtaq-idrisi/1-2_20240914`, cited to scan pages)
+- place/kish (futuh-buldan-maarif-1407 p.555: Ibn Samura's Sijistan campaign)
+- person/kitbugha-al-mansuri (tarikh-khulafa-minhaj-1434 pp.730-731)
+- person/abu-al-walid-ibn-jahwar (nafh-tib-maqqari pp.337-339)
+- work/al-muhkam-ibn-sida (nafh-tib-maqqari p.31)
+- person/ibn-hisham, work/ikhtilaf-al-hadith-shafii, work/amali-ibn-asakir (kashf-zunun-furqan furqan-edition scan pp.653, 251, 610)
+
+### Leads, batch 19
+
+- **place/baghay** (nuzhat): only a list mention among Maghreb towns (p.251) plus the route note "between Bijaya and Baghay eight days" (p.260); under 100 words can be sourced without padding.
+- **person/abu-nasr-al-balkhi** (fiqh-mawsua-kuwaitiyya-noor-v3 p.1612): the appendix card gives only ~15 words (Muhammad b. Muhammad b. Salam, Abu Nasr, of Balkh, Hanafi, contemporary of Abu Hafs al-Kabir; source Jawahir al-Mudiyya, "no other biography found"). Cannot support 100 verified words.
+- **person/ibn-al-qadi** (kashf-zunun-furqan): the Azhar al-Riyad entry gives one bibliographic line (~30 words: author, title, "al-Shihab mentioned it in al-Khabaya"). Lead.
+- **work/lubab-al-ihya** (kashf-zunun-furqan): one-line entry (abridgement by Ahmad b. Muhammad al-Ghazali, d. 520, named Lubab al-Ihya'). Lead.
+- **place/muscat, place/gao** (geonames-gazetteer): prose-unsuitable — gazetteer metadata only, no narrative source.
+- **~404 a–m metadata-cited stubs** (wikidata 191, vam-collection 114, cleveland-open-access 45, met-open-access 27, official-website 27): recorded as leads — collection/fact metadata only, no readable narrative source in the harvest to support 100-word sourced prose; future work needs a different treatment (object-description sources or a founder decision).
+
+The a–m <20-word book-sourced pool is now empty: every remaining candidate was either enriched above or logged here as a lead.
+n
