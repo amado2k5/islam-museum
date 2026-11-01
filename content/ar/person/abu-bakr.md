@@ -151,3 +151,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يقول عمر عبد الكافي إنه ليس مع أبي بكر في تسويته بين الناس في العطاء، ويذكر أنه لا معصوم بعد النبي، وأن كل أحد يؤخذ من قوله ويُردّ. وهذا رأيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:50:00} ويروي أن أبا بكر استأذن النبي في تأويل رؤيا فأذن له. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:25:00}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يذكر عمر عبد الكافي في «المنجيات» أدب أبي بكر حين قدّمه الصحابة للصلاة ثم رأى النبي فتأخر عن مكانه، وأن أبا بكر وعمر صارا يخفضان أصواتهما عند النبي بعد نزول الآية. {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:16:00}
