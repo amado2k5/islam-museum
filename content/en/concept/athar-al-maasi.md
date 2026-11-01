@@ -15,3 +15,6 @@ The Sheikh says that sins take away blessings, and that the Noble Writers compla
 
 ## Look at the greatness of the One disobeyed
 The Sheikh says that a person should not look at the smallness of a sin, but at the greatness of the One whom he has disobeyed. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+In al-Munjiyat Omar Abdelkafy lists among the fruits of sin: that the truth becomes hidden from the sinner so that he does not see it as truth, that his heart is corrupted until he enjoins evil and forbids good, that time contracts and loses its blessing for him, and that when God hates a servant hatred is placed for him on earth, {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:17:00} and that the unlawful, entering the lawful, scatters it. {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:20:30}

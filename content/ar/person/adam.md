@@ -22,3 +22,6 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 4)
 يقول الشيخ إن آدم تاب في الجنة ونزل إلى الأرض مستغفراً طاهراً من ذنبه، فلم ينزل بذنبه بل نزل وقد غفر الله له {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}. ويرى أن الجنة التي سكنها آدم، وإن كانت جنة في الدنيا بحسب قوله، سيعود إليها الإنسان إن غرس فيها الخير {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}.
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يذكر عمر عبد الكافي أن آدم نُهي عن شجرة واحدة بين أشجار كثيرة، فوسوس له الشيطان ولحواء بأنها شجرة الخلد، فأكلا منها فأُخرجا من الجنة، ثم تاب الله عليه واجتباه. {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:06:00}

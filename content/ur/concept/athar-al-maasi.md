@@ -15,3 +15,6 @@ translators: []
 
 ## گناہ کی چھوٹائی نہیں، جس کی نافرمانی ہوئی اس کی عظمت
 شیخ کہتے ہیں کہ انسان کو گناہ کی چھوٹائی پر نظر نہیں کرنی چاہیے، بلکہ اس ذات کی عظمت پر جس کی اس نے نافرمانی کی۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں عمر عبد الکافی گناہوں کے نتائج گنواتے ہیں: حق گناہ گار سے چھپ جاتا ہے کہ وہ اسے حق نہیں سمجھتا، اس کا دل بگڑ جاتا ہے یہاں تک کہ برائی کا حکم دیتا اور نیکی سے روکتا ہے، وقت سمٹ کر بے برکت ہو جاتا ہے، اور جب اللہ کسی بندے سے نفرت کرتا ہے تو زمین میں اس کے لیے نفرت رکھ دی جاتی ہے، {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:17:00} اور حرام حلال میں داخل ہو کر اسے بکھیر دیتا ہے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:20:30}

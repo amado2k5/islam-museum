@@ -22,3 +22,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 4)
 شیخ کہتے ہیں کہ آدم نے جنت میں توبہ کی اور استغفار کرتے ہوئے زمین پر اترے، اپنے گناہ سے پاک ہو کر؛ وہ اپنے گناہ کے ساتھ نہیں اترے بلکہ اس وقت اترے جب اللہ انہیں معاف کر چکا تھا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}۔ ان کی رائے ہے کہ جس جنت میں آدم رہے، خواہ وہ ان کے بقول دنیا ہی کی کوئی جنت ہو، انسان اس میں لوٹے گا اگر اس نے اس میں خیر بویا ہو {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}۔
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+عمر عبد الکافی کہتے ہیں کہ آدم کو بہت سے درختوں میں سے صرف ایک درخت سے روکا گیا، شیطان نے انہیں اور حوا کو وسوسہ دیا کہ یہ ہمیشگی کا درخت ہے، انہوں نے اس سے کھایا اور جنت سے نکالے گئے، پھر اللہ نے ان کی توبہ قبول کی اور انہیں چن لیا۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:06:00}
