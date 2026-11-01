@@ -1,0 +1,28 @@
+id: event/mutanabbi-flight-aleppo-346
+class: event
+kind: migration
+label:
+  ar: "هرب المتنبي سراً من حلب، نحو ٣٤٦هـ/٩٥٨م"
+  en: "Al-Mutanabbi's secret flight from Aleppo, c. 346/958"
+  ur: "حلب سے متنبی کی خفیہ روانگی، تقریباً 346ھ/958ء"
+summary:
+  ar: "بعد تسع سنين عند سيف الدولة ضاق المتنبي بأعداء كثرهم عليه كبرياؤه وشهرته، وفي مقدمتهم أبو فراس؛ ولما ملّ سيف الدولة تعجرف شاعره وانقطعت حمايته لم يعد أبو الطيب يأمن على حياته، فهرب سراً من حلب بكل ما يملك ولاذ بدمشق {cite:encyclopaedia-of-islam-2 vol. 7 p. 770} (نحو ٣٤٦هـ/٩٥٨م استنباطاً من مدة التسع سنين)."
+  en: "After nine years with Sayf al-Dawla, al-Mutanabbi's arrogance and fame had won him implacable enemies, led by the famous Abu Firas. When the amir tired of his poet's insolence and protection lapsed, Abu al-Tayyib no longer felt his life safe; he fled secretly from Aleppo with all he owned and took refuge in Damascus (c. 346/958, derived from the nine-year stay) {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}."
+  ur: "سيف الدولہ کے ہاں نو برس بعد متنبی کے تکبر اور شہرت نے ان کے وفادار دشمن بٹھا دیے جن کی قیادت ابو فراس نے کی۔ جب امیر شاعر کے روئیے سے تنگ آیا اور سرپرستی ختم ہوئی تو ابوالطیب کو اپنی جان کا خطرہ محسوس ہوا؛ وہ اپنی تمام تر ملکیت سمیت حلب سے خفیہ طور پر بھاگے اور دمشق میں پناہ لی (تقریباً 346ھ/958ء — نو برس کے قیام سے اخذ شدہ) {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0958~", hijri: "0346~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣٤٦هـ/٩٥٨م استنباطاً من «تسع سنين» بعد مطلع ٣٣٧هـ {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mutanabbi, role: "الهارب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/sayf-al-dawla, role: "الأمير المولول عنه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (AL-MUTANABBI, Blachere-Pellat), printed pp. 769-771"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mutanabbi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
