@@ -15,3 +15,6 @@ The life of Antara, his lineage, his mother, and the wars of Dahis and al-Ghabra
 
 ## For young visitors
 Antara was a famous knight and poet from the Banu Abs. He composed much verse on courage and generosity.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that Antara, asked the secret of his courage, said it was patience for an hour, and challenged a huge man to put each his finger in the other's mouth and bite; the man cried out first, and Antara said: had you held out a moment longer, I would have cried out (needs_source: the story as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:04:30}

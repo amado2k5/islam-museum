@@ -24,3 +24,6 @@ He cites a hadith about destiny that is used to ground optimism. {cite:assabile-
 He holds that a believer should always expect good, banish depression, do good, and say that tomorrow will be better. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:35:30}
 He recounts Ali saying that he lives on hope: if it is fulfilled, that is by God's favour, and if not, he has still lived with it (needs_source: the saying is not sourced in the recording). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:34:30}
 He says that one who loses trust in a thing becomes hopeless, while the believer who prays stands in God's presence. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:12:00}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that tomorrow is not in man's hand but in God's, and that the greatest worship a servant can offer is to think well of God; he says this to parents anxious about their daughters' future. {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}

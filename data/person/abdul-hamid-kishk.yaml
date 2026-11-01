@@ -1,0 +1,53 @@
+id: person/abdul-hamid-kishk
+class: person
+label:
+  ar: "عبد الحميد كشك"
+  en: "Abdul Hamid Kishk"
+  ur: "عبد الحمید کشک"
+names:
+  - { value: "عبد الحميد بن عبد العزيز كشك", kind: full }
+  - { value: "ʿAbd al-Hamid ʿAbd al-ʿAziz Muhammad Kishk", kind: full }
+  - { value: "فارس المنابر", kind: laqab }
+gender: male
+summary:
+  ar: "خطيب وداعية مصري كفيف من خرّيجي كلية أصول الدين بالأزهر (1933–1996)، خطب على منبر مسجد عين الحياة بالقاهرة نحو عشرين سنة، وانتشرت أكثر من ألفي خطبة له على أشرطة الكاسيت في العالم العربي، واعتُقل سنة 1965 ثم سنة 1981، ولُقّب بفارس المنابر."
+  en: "Blind Egyptian preacher and graduate of al-Azhar's faculty of Usul al-Din (1933–1996), who preached from the pulpit of the 'Ain al-Hayat mosque in Cairo for about twenty years; more than two thousand of his sermons spread on cassette across the Arab world, he was detained in 1965 and again in 1981, and he was called 'the knight of the pulpits'."
+  ur: "نابینا مصری خطیب اور داعی، ازہر کے کلیہ اصول الدین کے فاضل (1933–1996)، جنہوں نے قاہرہ کی مسجد عین الحیاۃ کے منبر سے تقریباً بیس سال خطبے دیے؛ ان کے دو ہزار سے زائد خطبے کیسٹوں پر عرب دنیا میں پھیلے، 1965 اور پھر 1981 میں گرفتار ہوئے، اور «فارس المنابر» کہلائے۔"
+roles: [preacher, scholar, writer]
+wings: [people]
+regions: [egypt-nile]
+periods: [period/modern-era]
+born:
+  edtf: "1933-03-10"
+  hijri: "1351-11-13"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born at Shubrakhit in the Beheira Governorate. The Arabic article gives both dates (Friday 13 Dhu al-Qa'da 1351 / 10 March 1933); the English article and Wikidata give 10 March 1933."
+  sources: [source/wikipedia-abdul-hamid-kishk-ar, source/wikipedia-abdul-hamid-kishk-en, source/wikidata-abdul-hamid-kishk]
+died:
+  edtf: "1996-12-06"
+  hijri: "1417-07-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Died in Cairo on a Friday. The Arabic article gives both dates (25 Rajab 1417 / 6 December 1996); the English article and Wikidata give 6 December 1996, Wikidata with Cairo as the place."
+  sources: [source/wikipedia-abdul-hamid-kishk-ar, source/wikipedia-abdul-hamid-kishk-en, source/wikidata-abdul-hamid-kishk]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives his school as Ahl al-Sunna wa-l-Jama'a; Wikidata's religion statement is only Islam and the English article names no school. One source only, so he is not yet recorded as sunni; a second independent source is needed (publication-standard faith rule)."
+    sources: [source/wikipedia-abdul-hamid-kishk-ar, source/wikidata-abdul-hamid-kishk]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdul-hamid-kishk-ar, source/wikipedia-abdul-hamid-kishk-en, source/wikidata-abdul-hamid-kishk] }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata-abdul-hamid-kishk] }
+  - { type: critic_of, target: work/awlad-haratina, sources: [source/wikipedia-abdul-hamid-kishk-en, source/wikipedia-abdul-hamid-kishk-ar] }
+external_ids: { wikidata: "Q2480151", viaf: "91000406" }
+sources: [source/wikipedia-abdul-hamid-kishk-ar, source/wikipedia-abdul-hamid-kishk-en, source/wikidata-abdul-hamid-kishk, source/assabile-abdul-hamid-kishk]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «عبد الحميد كشك» (revision 73636009), English Wikipedia 'Abdul Hamid Kishk' (revision 1372254749), Wikidata Q2480151 (revision 2540968916), all read 1 November 2026; the Assabile archive page of his series and the transcripts of shorut-kobol-assalat (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: assabile-egypt-kishk-1
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-kishk-1" }

@@ -34,3 +34,9 @@ translators: []
 ## رأي الشيخ: الحزن لا يكسب شيئا
 يسأل الشيخ عما يكسبه المرء من حزن طويل، ويرى أن البلاء أمر معتاد يُقابَل بالصبر وتربية النفس. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:21:00} ويعدّد بلاء حقيقيا يمر به الناس، كمرض الزوجة، وقسوة الزوج، وأذى الجار، وعصيان الابن، والإخفاق في العمل، ويقول إن الجواب عليه الصبر والحلم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:30:30} ويقول إن الحزن يذهب البركة من الحياة، والخوف يفسد الإحساس بالأمن. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:22:30}
 ويلخّص الشيخ بأن الحزن إذا غُرس في القلب نما همّا وضيقا، وأن العلاج محبة الله والعمل الصالح. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep13 00:33:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن الأمراض النفسية كلها من مرضين: الخوف والحزن، ويقول إنه أعدّ برنامج «بستان الأمل» ليزيل خوف الناس وحزنهم، وينصح ألا يحزن المرء على الماضي لأنه انتهى، فهو «شيك تم صرفه»، ولا يخاف من الغد قبل أن يأتي لأنه شيك لم يحن موعده، وينشد أبياتًا في الإعراض عن الهموم وتفويض الأمور إلى القضاء (needs_source: الأبيات كما أنشدها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:06:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يسأل الشيخ الحزين المكتئب: هل يجري في الكون شيء على غير مراد الله؟ وهل يعيد حزنك المفقود أو المال أو يشفي المريض؟ ويرى أن الحزن لا يزيد صاحبه إلا غمًّا وتوترًا وصداعًا وضغطًا ويذهب ببركة العمر والصحة، وينقل قول [[person/ali-ibn-abi-talib|علي]] إنه يعيش بالأمل فإن تحقق فبفضل الله وإن لم يتحقق فقد عاش به الزمن. {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:10:00}

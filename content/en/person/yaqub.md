@@ -51,3 +51,6 @@ The Sheikh says that Ya'qub showed Yusuf a special love and a distinct standing 
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh draws an educational lesson from the story of Ya'qub and Yusuf: when Yusuf's brothers saw their father's love for Yusuf and his brother, they tried to kill him and threw him into the well, thinking they would end his love in their father's heart, but it only increased until his eyes went white with grief; he holds that a father whose heart is taken by love for one child should not show it, because it stirs the jealousy of the others. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+At the opening of 'Bustan al-Amal' the Sheikh cites Ya'qub's words to his sons: go and seek news of Yusuf and his brother, and do not despair of God's mercy, as an example that the believer does not despair. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30}

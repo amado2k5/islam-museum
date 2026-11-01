@@ -45,3 +45,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی یاد دلاتے ہیں کہ نبی نے فرمایا جو قرآن کو ویسا تازہ سننا چاہے جیسا نازل ہوا وہ ابن ام عبد، یعنی عبد اللہ بن مسعود سے سنے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:30}
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ کے نزدیک صحابہ نے «حقیقت پسندانہ مثالیت» حاصل کی، اور ابن مسعود کی مثال دیتے ہیں: وہ کہتے ہیں کہ انہوں نے ستر سورتیں نبی کے منہ سے لیں اور جانتے تھے کہ ہر سورت کہاں نازل ہوئی، اور جب نبی نے سورہ انعام پڑھی، جسے وہ واحد لمبی سورت کہتے ہیں جو ایک ساتھ نازل ہوئی، تو ابن مسعود نے پوچھا «کیا میں آپ کو سناؤں؟» اور ایک حرف کم کیے بغیر سنا دی (needs_source: یہ تفصیلات جیسا کہ شیخ بیان کرتے ہیں)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:00} وہ بیان کرتے ہیں کہ بازار میں ابن مسعود کی چوری ہوئی تو کہا گیا کہ چور کے خلاف بددعا کریں، تو انہوں نے دعا کی: اے اللہ اگر وہ محتاج تھا تو اسے اس میں برکت دے، اور اگر نہیں تو اسے اس کا آخری گناہ بنا دے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:00}

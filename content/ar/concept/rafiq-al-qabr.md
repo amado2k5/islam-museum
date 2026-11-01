@@ -28,3 +28,6 @@ translators: []
 
 ## رأي الشيخ: الاستعداد لذلك اليوم
 ينتقد الشيخ من يتحدث عن أسعار السوق واقفا عند القبر، ويسأل هل أعدّ أحد نفسه لذلك اليوم {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:10:30}. ويقول إن القبر صندوق الأعمال، وينتقد من يشهد الزور ويحلف الكذب ويظلم غيره {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:33:30}.
+
+## في خطب عبد الحميد كشك
+يقول [[person/abdul-hamid-kishk|عبد الحميد كشك]] إن الأهل والأصدقاء ينصرفون بعد أن يوضع الجسد في القبر، ولا يدخل مع الإنسان قبره إلا عمله: إن كان صالحًا نفعه، وإن كان سيئًا خذله. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:19:30} ويقول إن ظاهر القبور حجارة وباطنها ثواب أو عذاب. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:15:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:16:00}

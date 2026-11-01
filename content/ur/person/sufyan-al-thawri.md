@@ -17,3 +17,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## پیدائش اور وفات کے سال
 ماخذ ان کی عمر کے بارے میں مختلف ہیں۔ مسعودی بیان کرتے ہیں کہ ان کی وفات ایک سو اکسٹھ ہجری میں تریسٹھ سال کی عمر میں ہوئی، ابن الندیم کے نزدیک چونسٹھ سال، اور ان کی پیدائش ستانوے ہجری میں ہوئی۔ شیرازی کے نزدیک وہ چھیانوے ہجری میں پیدا ہوئے، اور ایک قول ستانوے کا بھی ہے، اور وہ ایک سو اکسٹھ ہجری میں فوت ہوئے۔ {cite:muruj-al-dhahab p.312-313} {cite:fihrist-ibn-al-nadim p.314-315} {cite:tabaqat-fuqaha-abbas-1981}
+
+## عبد الحمید کشک کے خطبات میں
+[[person/abdul-hamid-kishk|عبد الحمید کشک]] بیان کرتے ہیں کہ ایک شخص سفیان کے پاس دل کی بیماری کی شکایت لے کر آیا تو انہوں نے ایسی دوا تجویز کی جس کے اجزا اخلاق ہیں: تواضع، خشیت، مراقبہ اور استغفار؛ وہ اسے ذکر اور دل کے اعمال پر اپنی گفتگو میں لاتے ہیں (needs_source: روایت بلا سند بیان کی گئی اور اس کے بعض الفاظ مشینی متن میں مبہم ہیں)۔ {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:18:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:19:30}

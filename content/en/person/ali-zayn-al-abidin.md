@@ -21,3 +21,6 @@ The Sheikh relates that during the pilgrimage season Ibn Abd al-Malik tried to r
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy says that people used to make way for Ali Zayn al-Abidin at the circumambulation out of reverence for him, and that al-Farazdaq praised him in his famous poem when asked who he was (see [[person/farazdaq|al-Farazdaq]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:43:00}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that Ali Zayn al-Abidin ibn al-Husayn was in Kufa for forty years, and the poor opened their doors at dawn to find food, drink, clothing and money without knowing who left them, until he died and it stopped, and they knew it had been he; he tells it as an example of secret charity (needs_source: the place and duration as the Sheikh gives them). {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:30}

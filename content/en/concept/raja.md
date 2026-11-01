@@ -16,3 +16,6 @@ This is a picture from a single non-Imami source, and it needs a further source 
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh holds that fear and hope are the two wings of the believer's heart, whose head is love, so that it cannot fly on one wing, and that the matter is a balance between hope prevailing over fear or the reverse, especially for one who sins often. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:09:00} See: [[concept/khawf|fear]].
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh says the believer does not despair of God's mercy, citing Ya'qub's words to his sons to seek news of Yusuf and his brother and not despair of God's mercy, and holds that one who despairs of it is the unbeliever, the loser and the one far from God, while the believer knows that tomorrow is better than today and the day after better than tomorrow. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30} See: [[concept/al-faraj-bad-al-shidda|relief after hardship]].

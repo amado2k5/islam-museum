@@ -19,3 +19,6 @@ translators: []
 
 ## للزوار الصغار
 سمي العام الذي مات فيه أبو طالب وخديجة «عام الحزن»، لأن النبي فقد في تلك السنة عمه وزوجته اللذين كانا يحميانه ويواسيانه.
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يقول الشيخ إن النبي فقد في العام العاشر للبعثة أكبر سندين له: [[person/khadija|خديجة]] وعمه [[person/abu-talib|أبا طالب]]، وإن قريشًا لم تنل منه إلا بعد موت أبي طالب، فسُمّي ذلك العام عام الحزن. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00} ويروي أن فاطمة لما رأته في سكرات الموت قالت: واكرب أبتاه، فقال: لا كرب على أبيك بعد اليوم، ويرى في ذلك أن حياته كلها في ثلاث وعشرين سنة من النبوة كانت شدائد. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}

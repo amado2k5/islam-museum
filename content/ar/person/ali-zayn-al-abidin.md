@@ -24,3 +24,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يذكر عمر عبد الكافي أن الناس كانوا يفسحون لعلي زين العابدين في الطواف هيبةً له، وأن الفرزدق مدحه بقصيدته المشهورة حين سُئل عنه (انظر [[person/farazdaq|الفرزدق]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:43:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن علي زين العابدين بن الحسين كان في الكوفة أربعين سنة، والفقراء يفتحون أبوابهم عند الفجر فيجدون الطعام والشراب والكساء والمال ولا يدرون من يضعه، حتى مات فانقطع ذلك فعلموا أنه هو، ويسوقه مثلًا على صدقة السر (needs_source: المكان والمدة كما رواهما الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:30}

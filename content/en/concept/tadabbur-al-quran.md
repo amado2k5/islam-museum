@@ -43,3 +43,6 @@ The Sheikh answers those who deny the religion and describes that path as far fr
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh distinguishes reading for worship, in which the reader intends the reward of every letter, from reading for reflection, in which he measures himself against the verses: reading the qualities of the servants of the Merciful he asks how many of them he can claim: does he walk humbly on the earth, answer the ignorant with 'peace', spend the night prostrating and standing before his Lord? And passing the qualities of the hypocrites he asks: do these apply to me? {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}

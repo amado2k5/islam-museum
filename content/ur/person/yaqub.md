@@ -51,3 +51,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ یعقوب اور یوسف کے قصے سے ایک تربیتی نکتہ نکالتے ہیں: جب یوسف کے بھائیوں نے یوسف اور ان کے بھائی سے باپ کی محبت دیکھی تو انہوں نے انہیں قتل کرنے کی کوشش کی اور کنویں میں ڈال دیا، یہ سمجھ کر کہ باپ کے دل سے ان کی محبت ختم ہو جائے گی، مگر محبت اور بڑھ گئی یہاں تک کہ غم سے ان کی آنکھیں سفید ہو گئیں؛ ان کے نزدیک جس باپ کے دل پر کسی ایک بچے کی محبت غالب ہو وہ اسے ظاہر نہ کرے، کیونکہ اس سے دوسروں میں حسد پیدا ہوتا ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+«بستان الامل» کے آغاز میں شیخ یعقوب کے اپنے بیٹوں سے قول سے استدلال کرتے ہیں: جاؤ یوسف اور اس کے بھائی کی خبر لو اور اللہ کی رحمت سے مایوس نہ ہو، اس بات کی مثال کے طور پر کہ مومن مایوس نہیں ہوتا۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30}

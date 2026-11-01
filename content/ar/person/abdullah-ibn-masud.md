@@ -47,3 +47,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يذكر عمر عبد الكافي أن النبي قال إن من أحب أن يسمع القرآن غضًّا كما أُنزل فليسمعه من ابن أم عبد، أي عبد الله بن مسعود. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن الصحابة حققوا «المثالية الواقعية»، ويضرب مثلًا بابن مسعود: يقول إنه أخذ سبعين سورة من فم النبي، وكان يعرف أين نزلت كل سورة، وإنه لما قرأ النبي سورة الأنعام، التي يقول إنها السورة الطويلة الوحيدة التي نزلت دفعة واحدة، قال: أأتلوها عليك؟ فتلاها فما نقص حرفًا (needs_source: هذه التفاصيل كما رواها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:00} ويروي أنه سُرق في السوق فقيل له ادعُ على السارق، فدعا: اللهم إن كان محتاجًا فبارك له فيه، وإن كان غير محتاج فاجعله آخر ذنب يرتكبه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:00}

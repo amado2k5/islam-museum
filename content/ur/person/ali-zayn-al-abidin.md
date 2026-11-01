@@ -21,3 +21,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی کہتے ہیں کہ طواف میں لوگ ہیبت کی وجہ سے علی زین العابدین کے لیے راستہ چھوڑ دیتے تھے، اور جب ان کے بارے میں پوچھا گیا تو فرزدق نے اپنے مشہور قصیدے میں ان کی مدح کی (دیکھیے [[person/farazdaq|فرزدق]])۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:43:00}
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ بیان کرتے ہیں کہ علی زین العابدین بن حسین کوفہ میں چالیس سال رہے، اور فقراء فجر کے وقت دروازے کھولتے تو کھانا، پانی، کپڑے اور مال پاتے اور نہیں جانتے تھے کہ کون رکھتا ہے، یہاں تک کہ وہ فوت ہوئے اور یہ سلسلہ رک گیا، تب انہیں معلوم ہوا کہ وہی تھے؛ وہ اسے خفیہ صدقے کی مثال بناتے ہیں (needs_source: جگہ اور مدت جیسا کہ شیخ نے بتائی)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:30}

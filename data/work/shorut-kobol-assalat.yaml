@@ -1,0 +1,33 @@
+id: work/shorut-kobol-assalat
+class: work
+kind: lecture-series
+label:
+  ar: "شروط قبول الصلاة (سلسلة خطب)"
+  en: "Shurut Qabul al-Salat: the conditions for the acceptance of prayer (sermon series)"
+  ur: "شروط قبول الصلاۃ: نماز کی قبولیت کی شرطیں (خطبات کا سلسلہ)"
+summary:
+  ar: "سلسلة من سبع خطب طويلة لعبد الحميد كشك في أرشيف أسابيل، يشرح فيها حديثًا قدسيًّا في شروط قبول الصلاة، فيخصّ كل شرط بخطبة: التواضع لعظمة الله، وترك الاستطالة على الخلق، وترك الإصرار على المعصية، وقطع النهار في الذكر، ورحمة المسكين وابن السبيل والأرملة والمصاب."
+  en: "A series of seven long sermons by Abdul Hamid Kishk on the Assabile archive, explaining a hadith qudsi on the conditions for the acceptance of prayer, one sermon to each condition: humility before God's greatness, not lording it over His creation, not persisting in sin, spending the day in remembrance, and mercy to the poor, the wayfarer, the widow and the afflicted."
+  ur: "اسابیل آرکائیو میں عبد الحمید کشک کے سات طویل خطبات کا سلسلہ، جس میں وہ نماز کی قبولیت کی شرطوں سے متعلق ایک حدیث قدسی کی شرح کرتے ہیں اور ہر شرط کو ایک خطبہ دیتے ہیں: اللہ کی عظمت کے سامنے تواضع، مخلوق پر دست درازی نہ کرنا، گناہ پر اصرار نہ کرنا، دن ذکر میں گزارنا، اور مسکین، مسافر، بیوہ اور مصیبت زدہ پر رحم۔"
+wings: [ideas]
+themes: [worship-and-the-pillars, ethics-and-character]
+regions: [egypt-nile]
+authors: [person/abdul-hamid-kishk]
+delivered: { by: person/abdul-hamid-kishk }
+sermon_type: "jumu'a"
+language: language/arabic
+relations:
+  - { type: about, target: concept/shurut-qabul-al-salah, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: practice/salah, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/tawadu, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/rafiq-al-qabr, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/tawhid, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/dhikr, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: person/sufyan-al-thawri, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/masjid, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/rahma, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: concept/ibtila, sources: [source/assabile-abdul-hamid-kishk] }
+  - { type: about, target: practice/nikah, sources: [source/assabile-abdul-hamid-kishk] }
+sources: [source/assabile-abdul-hamid-kishk]
+provenance: { layer: copyrighted-reference, source: "Assabile, shorut-kobol-assalat ep01-ep07 (series page https://www.assabile.com/abdul-hamid-kishk/lessons/shorut-kobol-assalat read 1 Nov 2026; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows; claims tables in the harvest workspace)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-kishk-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-kishk-1" }

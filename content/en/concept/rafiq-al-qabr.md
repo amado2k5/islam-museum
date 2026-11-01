@@ -28,3 +28,6 @@ He describes the story of a traveller who asked a guide to the city and was led 
 
 ## The speaker's view: preparing for that day
 The speaker criticises people who talk about market prices while standing at a grave, and asks whether anyone has prepared for that day {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:10:30}. He says the grave is a box of deeds, and criticises those who give false witness, swear false oaths and wrong others {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:33:30}.
+
+## In Abdul Hamid Kishk's sermons
+[[person/abdul-hamid-kishk|Abdul Hamid Kishk]] says that family and friends leave once the body is laid in the grave, and that only a person's deeds enter the grave with him: if good, they benefit him, and if bad, they forsake him. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:19:30} He says the outside of graves is stone while inside is reward or punishment. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:15:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:16:00}

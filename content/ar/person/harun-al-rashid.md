@@ -56,3 +56,12 @@ translators: []
 - **الحرس:** جعفر بن محمد بن الأشعث، ثم عبد الله بن مالك، ثم [[person/ali-ibn-isa-ibn-mahan|علي بن عيسى بن ماهان]]، ثم [[person/jafar-ibn-yahya-al-barmaki|جعفر بن يحيى بن خالد]] (فولى صالح بن شيخ بن عميرة)، ثم [[person/harthama-ibn-ayan|هرثمة بن أعين]] (ولاه جعفر فأقره هارون) {cite:tarikh-khalifa-umari-1985 p. 465}
 - **الحاجب:** بشير بن ميمون مولاه، ثم محمد بن خالد بن برمك، ثم [[person/fadl-ibn-al-rabi|الفضل بن الربيع]] {cite:tarikh-khalifa-umari-1985 p. 465}
 - **الوزير:** يحيى بن خالد بن برمك (وزيره وصاحب أمره كله)، ثم [[person/jafar-ibn-yahya-al-barmaki|جعفر بن يحيى]] (ثم قتله)، ثم [[person/fadl-ibn-al-rabi|الفضل بن الربيع]] {cite:tarikh-khalifa-umari-1985 p. 465}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يروي الشيخ أن أحد الصالحين دخل على هارون الرشيد وقد طلب كأس ماء، فسأله: بكم تشتريه لو مُنعته وأنت تموت عطشًا؟ قال: بنصف ملكي، قال: وإن احتبس فيك فلم يخرج؟ قال: بنصفه الآخر، فقال: فتبًّا لملك لا يساوي شربة ماء تدخل وتخرج (needs_source: القصة من رواية الشيخ). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:07:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن هارون الرشيد قال لما حضرته الوفاة: يا من لا يزول ملكه ارحم من زال ملكه (needs_source: الخبر كما رواه الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يدافع الشيخ عن هارون الرشيد ويقول إنه كان يحج عامًا ويغزو عامًا، صوّامًا قوّامًا، وينتقد «أهل الفن» الذين صوّروه من «كتاب الأغاني» رجل لهو، وهذا رأيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:05:00} ويروي أن هارون، وكان ينظر إلى السحابة ويقول أمطري حيث شئت فسيأتيني خراجك، نصحه رجل فأغلظ له، فأمر أن يُربط في ذيل بغلة شرسة ويُسحل، فلم يُخدش له جسد، ثم حُبس في غرفة طُيّن بابها فوُجد يصلي خارجها، فسأله: من نجّاك من البغلة؟ قال: الذي أخرجني من الغرفة، فأمر أن يُطاف به في بغداد على فرس ويُنادى: أراد هارون أن يذل رجلًا أعزه الله فلم يستطع (needs_source: الخبر كما رواه الشيخ، وهو يقول إنه يصدّقه). {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:06:30}

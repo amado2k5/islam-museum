@@ -52,3 +52,6 @@ translators: []
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يستخلص الشيخ من قصة يعقوب ويوسف ملمحًا تربويًا: أن إخوة يوسف لما رأوا حب أبيهم ليوسف وأخيه حاولوا قتله وألقوه في الجب ظانين أنهم يقضون على حبه في قلب أبيه، فما زاده ذلك إلا حبًا حتى ابيضت عيناه من الحزن؛ ويرى أن الأب إذا غلب على قلبه حب ولد من أولاده فلا يُظهره، لأنه يثير غيرة إخوته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يستشهد الشيخ في افتتاح «بستان الأمل» بقول يعقوب لأبنائه: اذهبوا فتحسسوا من يوسف وأخيه ولا تيأسوا من روح الله، مثالًا على أن المؤمن لا ييأس. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30}

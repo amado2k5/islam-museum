@@ -148,6 +148,19 @@ Work in the harvest workspace (`~/islam-museum-harvest`, a link to the external 
 10. **Regenerate the recording map** (`scripts/harvest/audio/regen_map.sh`) whenever a series manifest is added or changed, and before every deploy. Commit `site/src/data/recordings.json` with the content that links to it. A stale map means references lose their audio links.
 10. **Commit and push** as `workflow.md` §4 says: merge gate, attribution trailers, a pull request for the batch.
 
+## 4b. Many speakers at once: the unattended queues (1 November 2026)
+
+For a whole list of speakers (for example the archive's Egypt list), two background jobs replace `run_queue.sh`, so downloads never wait for the GPU:
+
+```bash
+# phase A: list series, discover episode links, download, extract audio from video (MP4 kept); stops below MIN_FREE_GB (default 40)
+nohup caffeinate -dims bash scripts/harvest/audio/harvest_speakers.sh ~/islam-museum-harvest "$PWD" <speaker> ... >> ~/islam-museum-harvest/logs/egypt-phaseA.log 2>&1 &
+# phase B: transcribe whatever phase A has downloaded, speakers in the order given; loops until phase A is done
+nohup caffeinate -dims bash scripts/harvest/audio/transcribe_speakers.sh ~/islam-museum-harvest "$PWD" <speaker> ... >> ~/islam-museum-harvest/logs/egypt-phaseB.log 2>&1 &
+```
+
+`list_series.py` reads each speaker page (`https://www.assabile.com/<speaker>`, which lists every series) into `raw/assabile/<speaker>/series.tsv`. Both jobs are resumable and skip what exists; restart them with the same command. The speaker order used on 1 Nov 2026 is in `~/islam-museum-harvest/logs/egypt-speakers.txt` (smaller archives first, so writers get whole series early). Every speaker needs its own `source/assabile-<speaker>` entity before its first record (§6). Each series written gets one `work` with `kind: lecture-series` (shape: `data/work/silsilat-qissa-wa-ebra.yaml`), linked with `about` edges to the entities written from it, so the Khutab and Durus Explorer (`/[lang]/khutab/`) lists it.
+
 ## 5. Citation anchors
 
 The source entity is one per archive: `source/<site>-<speaker>` (for example `source/assabile-omar-abdelkafy`). The anchor is free text read by a person, and it must be exact enough to find the passage in under a minute:
