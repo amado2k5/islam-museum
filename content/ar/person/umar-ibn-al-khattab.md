@@ -230,3 +230,6 @@ translators: []
 - **الحاجب:** يرفأ مولاه {cite:tarikh-khalifa-umari-1985 p. 156}
 - **الخازن:** يسار {cite:tarikh-khalifa-umari-1985 p. 156}
 - **بيت المال:** عبد الله بن الأرقم {cite:tarikh-khalifa-umari-1985 p. 156}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن عمر خرج ليلًا مع [[person/abd-al-rahman-ibn-awf|عبد الرحمن بن عوف]] يتفقد الرعية، فوجد امرأة تغلي ماءً في قدر لتسكت أيتامها يظنونه طعامًا، وتقول: الله بيننا وبين عمر، ولي أمرنا وتركنا، فعاد إلى بيت المال وحمل الدقيق والسمن بنفسه، وقال لعبد الرحمن حين عرض أن يحمل عنه: أتحمل وزري يوم القيامة؟ ثم طبخ لهم وأطعمهم، واختبأ خلف صخرة في ليلة باردة حتى رآهم يضحكون كما رآهم يبكون، ثم اشترى منها «مظلمتها» في الصباح بكتاب شهد عليه علي وعبد الرحمن وبلال وأوصى أن يوضع في كفنه (needs_source: تفاصيل الشراء كما رواها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:05:30}

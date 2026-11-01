@@ -89,6 +89,26 @@ Islam and the weak, [[practice/kafalat-al-yatim|caring for orphans]], great orph
 
 No honest work is lowly: [[concept/amal|work]], [[person/dawud|Dawud]] and [[person/sulayman|Sulayman]], and degrees are not the measure of success. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30}
 
+## Episode 21: does caution avert decree?
+
+[[concept/qadar|Decree]] and the train incident, [[person/harun-al-rashid|Harun al-Rashid]] and the man God honoured, [[concept/al-huzn|grief]] changing nothing, and [[concept/ibtisama|smiling]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:09:00}
+
+## Episode 22: each of you is a shepherd
+
+[[concept/mas-uliyya|Responsibility]] in institutions, the story of [[person/umar-ibn-al-khattab|Umar]] and the orphans' mother, the four diseases of the heart, and [[practice/sadaqa|secret charity]] and [[person/ali-zayn-al-abidin|Zayn al-Abidin]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00}
+
+## Episode 23: the men of the cave
+
+The hadith of the three in the cave and [[concept/tawassul|appealing to God]] by a sincere deed, and [[concept/huquq-al-zawjayn|the wife's rights]] and the parents' rights. {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:05:30}
+
+## Episode 24: four things to avoid
+
+[[concept/al-ajala-wal-tawani|Haste, wrangling, procrastination and vanity]], and the Bedouin with [[person/al-hajjaj-ibn-yusuf|al-Hajjaj]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:09:30}
+
+## Episode 25: the sick and the difficult spouse
+
+Illness as good and [[concept/iyada|visiting the sick]], patience with a difficult spouse and [[person/ayyub|Ayyub]], and the wolves of [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -194,3 +214,24 @@ These are the museum records written from the episodes of the series, ordered by
 ### Episode 20
 - [[concept/amal|Action (amal) and the five rulings that govern it]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
 - [[person/dawud|Dawud (David)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}
+
+### Episode 21
+- [[concept/ibtisama|The smile (ibtisama)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30}
+
+### Episode 22
+- [[concept/mas-uliyya|Responsibility (mas'uliyya)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:00}
+- [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00}
+- [[concept/ujb|Self-admiration (ujb)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00}
+- [[practice/sadaqa|Sadaqa (voluntary charity)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:30}
+- [[person/ali-zayn-al-abidin|'Ali ibn al-Husayn, al-Sajjad]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00}
+
+### Episode 23
+- [[concept/tawassul|Tawassul]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:01:00}
+- [[concept/huquq-al-zawjayn|Spouses' rights (huquq al-zawjayn)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00}
+
+### Episode 24
+- [[concept/al-ajala-wal-tawani|Haste and procrastination]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:00:30}
+
+### Episode 25
+- [[concept/iyada|Visiting the sick (iyada)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
+- [[person/ayyub|Ayyub (Job)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}

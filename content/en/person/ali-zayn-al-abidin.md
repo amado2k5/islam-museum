@@ -18,3 +18,6 @@ Musrif is quoted as saying: "That was not my opinion; my heart was filled with t
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
 
 The Sheikh relates that during the pilgrimage season Ibn Abd al-Malik tried to reach the Black Stone but could not because of the crowd, then a man with a radiant face came, the people made room for him and waited in two lines until he kissed the Stone, and Ibn Abd al-Malik asked who this was {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:52:30}. He says that the man was Ali Zayn al-Abidin ibn al-Husayn of the Family of the Prophet, whom a poet praised in a remarkable poem, and the Sheikh comments on the people's reverence for him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:00}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that Ali Zayn al-Abidin ibn al-Husayn was in Kufa for forty years, and the poor opened their doors at dawn to find food, drink, clothing and money without knowing who left them, until he died and it stopped, and they knew it had been he; he tells it as an example of secret charity (needs_source: the place and duration as the Sheikh gives them). {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:30}

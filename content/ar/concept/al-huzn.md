@@ -37,3 +37,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن الأمراض النفسية كلها من مرضين: الخوف والحزن، ويقول إنه أعدّ برنامج «بستان الأمل» ليزيل خوف الناس وحزنهم، وينصح ألا يحزن المرء على الماضي لأنه انتهى، فهو «شيك تم صرفه»، ولا يخاف من الغد قبل أن يأتي لأنه شيك لم يحن موعده، وينشد أبياتًا في الإعراض عن الهموم وتفويض الأمور إلى القضاء (needs_source: الأبيات كما أنشدها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:06:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يسأل الشيخ الحزين المكتئب: هل يجري في الكون شيء على غير مراد الله؟ وهل يعيد حزنك المفقود أو المال أو يشفي المريض؟ ويرى أن الحزن لا يزيد صاحبه إلا غمًّا وتوترًا وصداعًا وضغطًا ويذهب ببركة العمر والصحة، وينقل قول [[person/ali-ibn-abi-talib|علي]] إنه يعيش بالأمل فإن تحقق فبفضل الله وإن لم يتحقق فقد عاش به الزمن. {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:10:00}
