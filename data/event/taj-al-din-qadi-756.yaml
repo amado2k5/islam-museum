@@ -1,0 +1,28 @@
+id: event/taj-al-din-qadi-756
+class: event
+kind: other
+label:
+  ar: "تقليد تاج الدين السبكي قضاء الشافعية في حياة أبيه، صفر ٧٥٦هـ"
+  en: "Taj al-Din al-Subki appointed Shafi'i qadi in his father's lifetime, Safar 756"
+  ur: "تاج الدین سبکی کا قضائے شافعیہ کا تقلید، صفر 756ھ"
+summary:
+  ar: "في شهر صفر ٧٥٦هـ قدِم تقليد قضاء الشافعية بدمشق وأعمالها لقاضي القضاة تاج الدين عبد الوهاب بن قاضي القضاة تقي الدين السبكي على قاعدة والده، وذلك في حياة أبيه، وذهبت الناس للسلام عليه {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}."
+  en: "In Safar 756 the decree arrived appointing qadi Taj al-Din Abd al-Wahhab ibn Taqi al-Din al-Subki to the Shafi'i judgeship of Damascus and its districts, on his father's footing and in his father's lifetime, and the people went to congratulate him {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}."
+  ur: "صفر 756ھ میں دمشق کے قضائے شافعیہ کا فرمان تاج الدین عبد الوہاب بن قاضی القضاة تقی الدین سبکی کے نام آیا، ان کے والد کے ہی وقار پر اور ان کی حیات میں؛ لوگ مبارک باد کے لیے گئے {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1355-01~", hijri: "0756-02", calendar: julian, precision: month, status: historical, derived: true, note: "في شهر صفر ٧٥٦هـ قدم التقليد {cite:al-bidaya-wal-nihaya s.a. 756 p. 263}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "القاضي الجديد", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "الوالد النازل عن المنصب", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 756, printed p. 263 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
