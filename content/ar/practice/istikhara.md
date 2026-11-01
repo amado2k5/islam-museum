@@ -18,3 +18,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يشرح الشيخ الاستخارة لمن تحيّر في تزويج بنت أو ولد أو شراء بيت أو سيارة أو بيع أرض: يتوضأ ويصلي ركعتين بنيتها، ويقول إنه يقرأ فيهما الفاتحة والكافرون ثم الفاتحة والإخلاص، ثم يدعو الدعاء ويذكر حاجته. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:06:00} ويرى أنه لا حاجة إلى الاستخارة ثلاثين مرة بل تكفي مرة، وأنها لا ترتبط برؤية منامية، فإن انشرح الصدر وتيسّر الأمر مضى فيه، وإن ضاق وتعسّر تركه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:06:30}
+
+## في برنامج الشعراوي «لقاء الإيمان»
+في الحلقة الرابعة والعشرين من [[work/likaa-al-iman|لقاء الإيمان]] يقول [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]] إن الاستخارة طلب الأخْيَر، فلا تكون بين أمر حرام وأمر حلال، بل بين أمرين كلاهما خير وحلال. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep24 00:07:30} ويختم بأن المهم أن يكون الأمران خيراً، فأيهما حصل كان خيراً. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep24 00:08:30}

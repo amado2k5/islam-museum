@@ -18,3 +18,6 @@ translators: [draft, machine-assisted, not yet reviewed]
 
 ## مصنف کی رائے
 یہ شعراوی کی تفسیر ہے اور ان کی طرف منسوب ہے۔ ان صفحات میں بسملہ کے واجب ہونے یا ہر سورت کی آیت ہونے پر کوئی دوسری فقہی یا تفسیری رائے پیش نہیں کی گئی، اور یہاں اس کی جانچ نہیں ہوئی۔ ایڈیشن کی توثیق نہیں ہوئی؛ صفحات کے نمبر اسکین کے صفحات ہیں اور اشاعت سے پہلے مطبوعہ نسخے سے ملانے ہوں گے۔
+
+## شعراوی کے پروگرام «لقاء الایمان» میں
+[[work/likaa-al-iman|لقاء الایمان]] کی سترہویں قسط میں [[person/muhammad-mutawalli-al-shaarawi|شعراوی]] سے پوچھا جاتا ہے کہ کیا بسملہ قرآن کا حصہ ہے۔ {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:00:00} وہ کہتے ہیں کہ یہ سورۂ براءت کے سوا سورتوں کے شروع میں آئی ہے، اور ایک بار سورۂ نمل کے درمیان ([[passage/quran-27-30|النمل 30]])؛ درمیان والی قرآن کی اور اس سورت کی آیت ہے۔ {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:00:30} ان کی رائے میں فاتحہ میں یہ اس کی ایک آیت ہے، اسی لیے «الحمد» کو دوسری آیت شمار کیا جاتا ہے۔ {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:00} فاتحہ اور نمل کے سوا سورتوں میں یہ ان کے نزدیک قرآن کا حصہ ہے مگر ہر سورت کی آیت نہیں؛ یہ سورتوں کے درمیان فاصلے کے لیے آئی ہے۔ {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:30}
