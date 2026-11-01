@@ -93,6 +93,34 @@ The six rights of [[concept/ukhuwwa|brotherhood]] and more, and his view of 'bro
 
 Sincerity as the soul of the deed, [[concept/riya|showing off]], Abu Hazim, [[person/harun-al-rashid|Harun al-Rashid]]'s cup of water, and [[person/yunus|Yunus]] in the whale. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
 
+## Episode 23: slackening of the soul
+
+[[concept/futur-al-nafs|Slackening of the soul in obedience]] and its signs. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:07:30}
+
+## Episode 24: obstacles to purification
+
+Obstacles to [[concept/tazkiyya|purification]]: insincerity, little religious knowledge, the unlawful, attachment to the world, extremism, and [[concept/ujb|the inflated ego]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30}
+
+## Episode 25: purifying the soul
+
+Self-blame that turns into action, [[concept/bida|innovations]], and his criticism of [[question/what-is-fatwa|fatwas]] given without knowledge. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+## Episode 26: from the words of the Qur'an
+
+[[concept/al-furuq-al-lafziyya-fil-quran|Fine distinctions of vocabulary]]: matar and ghayth, ajdath; Malik's dream interpreted by the keys of [[concept/ghayb|the unseen]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:07:00}
+
+## Episode 27: the challenge; knowledge and cognition
+
+[[concept/al-tahaddi-bil-quran|The Qur'an's challenge]] and Abu Lahab, free choice within [[concept/qadar|decree]], 'ilm versus ma'rifa, and the 'keys' of personalities in giving advice. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:08:30}
+
+## Episode 28: inimitability
+
+[[person/haman|Haman]] in the Sheikh's account of the hieroglyphs, the prophecy of the Byzantine victory and Abu Bakr's wager, and jasad versus jism. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:30}
+
+## Episode 29: good tidings (closing)
+
+God's forbearance, the end of [[concept/zulm|injustice]], the story of Ibrahim, the cycle of civilisations between East and West, and thanks to the technical team at the close. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -190,3 +218,31 @@ These are the museum records written from the episodes of the series, ordered by
 - [[person/abu-hazim-al-araj|Abu Hazim al-A'raj]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00}
 - [[person/harun-al-rashid|Harun al-Rashid]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30}
 - [[person/yunus|Yunus (Jonah)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
+
+### Episode 23
+- [[concept/futur-al-nafs|Slackening of the soul in obedience (futur)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:01:30}
+
+### Episode 24
+- [[concept/tazkiyya|Tazkiyya]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:01:30}
+- [[concept/ujb|Self-admiration (ujb)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30}
+
+### Episode 25
+- [[concept/bida|Bid'a (religious innovation)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00}
+- [[question/what-is-fatwa|What is a fatwa?]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+### Episode 26
+- [[concept/al-furuq-al-lafziyya-fil-quran|Fine distinctions of Qur'anic vocabulary]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:01:30}
+- [[concept/ghayb|Al-ghayb (the unseen)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:04:30}
+- [[person/muhammad-ibn-sirin|محمد بن سيرين]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:06:00}
+
+### Episode 27
+- [[concept/al-tahaddi-bil-quran|The Quranic challenge (al-tahaddi bil-Quran)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00}
+- [[person/abu-lahab|Abu Lahab]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00}
+- [[concept/qadar|Qadar (divine decree)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00}
+
+### Episode 28
+- [[person/haman|Haman]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:01:30}
+- [[concept/quran-miracle-for-every-age|The Quran's inimitability renewed in every age]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00}
+
+### Episode 29
+- [[person/ibrahim|Ibrahim (Abraham)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:00}

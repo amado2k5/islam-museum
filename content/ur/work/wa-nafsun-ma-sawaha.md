@@ -93,6 +93,34 @@ translators: []
 
 اخلاص عمل کی روح، [[concept/riya|ریا]]، ابو حازم، [[person/harun-al-rashid|ہارون الرشید]] کا پانی کا پیالہ، اور مچھلی کے پیٹ میں [[person/yunus|یونس]]۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
 
+## قسط 23: نفس کی سستی
+
+[[concept/futur-al-nafs|طاعت میں نفس کی سستی]] اور اس کی علامات۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:07:30}
+
+## قسط 24: تزکیہ کی رکاوٹیں
+
+[[concept/tazkiyya|تزکیہ]] کی رکاوٹیں: عدم اخلاص، دینی علم کی کمی، حرام، دنیا سے لگاؤ، غلو، اور [[concept/ujb|انا کا پھولنا]]۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30}
+
+## قسط 25: تزکیۂ نفس
+
+وہ ملامت جو عمل بنے، [[concept/bida|بدعات]]، اور بغیر علم [[question/what-is-fatwa|فتویٰ]] دینے پر ان کی تنقید۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+## قسط 26: قرآن کے الفاظ سے
+
+[[concept/al-furuq-al-lafziyya-fil-quran|الفاظ کے باریک فرق]]: مطر اور غیث، اجداث؛ اور مالک کا خواب جس کی تعبیر [[concept/ghayb|غیب]] کی کنجیوں سے کی گئی۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:07:00}
+
+## قسط 27: چیلنج، علم اور معرفت
+
+[[concept/al-tahaddi-bil-quran|قرآن کا چیلنج]] اور ابو لہب، [[concept/qadar|تقدیر]] میں اختیار، علم اور معرفت کا فرق، اور نصیحت میں شخصیات کی «کنجیاں»۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:08:30}
+
+## قسط 28: اعجاز
+
+ہیروگلیفی کے بارے میں شیخ کی روایت میں [[person/haman|ہامان]]، رومیوں کی فتح کی پیشگوئی اور ابو بکر کی شرط، اور جسد اور جسم۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:30}
+
+## قسط 29: بشارتیں (اختتام)
+
+اللہ کا حلم، [[concept/zulm|ظلم]] کا انجام، ابراہیم کا قصہ، مشرق و مغرب کے درمیان تہذیبوں کی گردش، اور اختتام پر تکنیکی ٹیم کا شکریہ۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
+
 ## میوزیم میں اقساط کے موضوعات
 
 یہ میوزیم کے وہ ریکارڈ ہیں جو اس سلسلے کی اقساط سے لکھے گئے، ہر موضوع کے پہلے حوالے کی ترتیب سے۔ ہر ریکارڈ کا اپنا متن اور حوالے ہیں۔
@@ -190,3 +218,31 @@ translators: []
 - [[person/abu-hazim-al-araj|أبو حازم الأعرج]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00}
 - [[person/harun-al-rashid|هارون الرشيد]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30}
 - [[person/yunus|يونس]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
+
+### قسط 23
+- [[concept/futur-al-nafs|طاعت میں نفس کی سستی]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:01:30}
+
+### قسط 24
+- [[concept/tazkiyya|التزكية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:01:30}
+- [[concept/ujb|العُجب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30}
+
+### قسط 25
+- [[concept/bida|البدعة والمحدثات]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00}
+- [[question/what-is-fatwa|ما الفتوى؟]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+### قسط 26
+- [[concept/al-furuq-al-lafziyya-fil-quran|قرآنی الفاظ کے باریک فرق]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:01:30}
+- [[concept/ghayb|غیب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:04:30}
+- [[person/muhammad-ibn-sirin|محمد بن سيرين]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:06:00}
+
+### قسط 27
+- [[concept/al-tahaddi-bil-quran|قرآن کا چیلنج]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00}
+- [[person/abu-lahab|أبو لهب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00}
+- [[concept/qadar|القدر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00}
+
+### قسط 28
+- [[person/haman|ہامان]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:01:30}
+- [[concept/quran-miracle-for-every-age|إعجاز القرآن يتجدد مع كل عصر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00}
+
+### قسط 29
+- [[person/ibrahim|إبراهيم]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:00}
