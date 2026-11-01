@@ -1,0 +1,27 @@
+id: event/birth-ibn-al-nafis-607
+class: event
+kind: birth
+label:
+  ar: "مولد العلامة علاء الدين ابن النفيس بدمشق، نحو ٦٠٧هـ"
+  en: "Birth of the scholar 'Ala' al-Din Ibn al-Nafis at Damascus, c. 607/1210"
+  ur: "علامہ علاء الدین ابن نفیس کی پیدائش دمشق میں، تقریباً 607ھ/1210ء"
+summary:
+  ar: "وُلد العلامة علاء الدين أبو الحسن علي بن أبي الحزم القرشي الدمشقي، الملقّب بابن النفيس، بدمشق؛ قال الأعلام: «أصله من بلدة قُرَش (في ما وراء النهر) ووُلد في دمشق» {cite:al-aalam vol. 5 p. 78}، وتوفي سنة ٦٨٧هـ وقد قارب الثمانين — وفي هامش الشذرات «وله أربع وثمانون سنة» {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} — فيكون مولده نحو ٦٠٣–٦٠٧هـ؛ والموسوعة تجعله «من أبناء الثمانين» {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}."
+  en: "'Ala' al-Din Abu al-Hasan Ali ibn Abi al-Hazm al-Qurashi al-Dimashqi, known as Ibn al-Nafis, was born at Damascus — al-A'lam: 'his origin was the village of Qurash (in Transoxiana) and he was born in Damascus' {cite:al-aalam vol. 5 p. 78}. He died in 687 AH aged about eighty — the Shadharat margin notes 'he was eighty-four' {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} — placing his birth about 603–607 AH, and the Encyclopaedia makes him 'about 80 (lunar) years' old at death {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}."
+  ur: "علاء الدین ابو الحسن علی بن ابی الحزم قرشی دمشقی، المعروف ابن نفیس، دمشق میں پیدا ہوئے — الاعلام لکھتی ہے: «ان کا تعلق ماوراء النہر کے گاؤں قرش سے تھا اور وہ دمشق میں پیدا ہوئے» {cite:al-aalam vol. 5 p. 78}۔ ان کی وفات 687ھ میں تقریباً اسی سال کی عمر میں ہوئی — شذرات کے حاشیے میں «اس کی عمر چوراسی برس تھی» ہے {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} — اس سے ولادت تقریباً 603–607ھ بنتی ہے؛ موسوعہ ان کی وفات کی عمر «تقریباً 80 قمری برس» لکھتی ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1210~", hijri: "0607~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي ٦٨٧هـ وقد قارب الثمانين، وفي هامش الشذرات «وله أربع وثمانون سنة»، فيكون مولده نحو ٦٠٣–٦٠٧هـ {cite:shadharat-dhahab p. 401-402}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-aalam] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "المولود", sources: [source/al-aalam, source/shadharat-dhahab, source/tarikh-islam-dhahabi] }
+sources: [source/al-aalam, source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam j.5 p. 78 (harvest OCR AAlexandrina-155680); Ibn al-'Imad, Shadharat al-Dhahab s.a. 687, printed pp. 401-402 (harvest OCR AAlexandrina-001518); al-Dhahabi, Tarikh al-Islam s.a. 687, printed p. 312 (harvest OCR 01.-_20240823__51); Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed pp. 897-898"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
