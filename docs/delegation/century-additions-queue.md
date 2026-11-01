@@ -885,11 +885,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nabil Abdulrashid — 1985–Living
 - [x] Tez Ilyas — 1983–Living
 - [x] Guz Khan — 1986–Living
-- [ ] Mo Gilligan (Contemporary) — 1988–Living
-- [ ] Sadia Azmat — 1987–Living
-- [ ] Sayeeda Warsi (Baroness Warsi) — 1971–Living
-- [ ] Tariq Ahmad (Lord Ahmad of Wimbledon) — 1968–Living
-- [ ] Naz Shah — 1973–Living
+- [x] Mo Gilligan (Contemporary) — 1988–Living
+- [x] Sadia Azmat — 1987–Living
+- [x] Sayeeda Warsi (Baroness Warsi) — 1971–Living
+- [x] Tariq Ahmad (Lord Ahmad of Wimbledon) — 1968–Living
+- [x] Naz Shah — 1973–Living
 - [ ] Imran Hussain — 1978–Living
 - [ ] Tahiti Khalid — 1980–Living
 - [ ] Sajid Javid — 1969–Living

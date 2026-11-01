@@ -1,0 +1,28 @@
+id: event/aqsa-fatimid-rebuild
+class: event
+kind: other
+label:
+  ar: "إعادة بناء المسجد الأقصى الفاطمية بعد زلزلة 425هـ"
+  en: "The Fatimid rebuilding of al-Aqsa after the 1033 earthquake"
+  ur: "زلزلے کے بعد مسجدِ اقصیٰ کی فاطمی تعمیرِ نو"
+summary:
+  ar: "كانت زلزلة سنة 1033م مدمرة على بيت المقدس كلها، فأعاد الخليفة الفاطمي الظاهر بناء الأقصى بين 1034 و1036م وأُكمل العمل في خلافة المستنصر سنة 1065م؛ وهو المسجد الذي وصفه ناصر خسرو سنة 1047م، وأكثر ما بقي من وسط المسجد الحاضر من ذلك البناء: سبعة أروقة وزخرفة فسيفساء بديعة ونقش ذهبي على القوس {cite:encyclopaedia-of-islam-2 vol. 6 p. 734-735}."
+  en: "The earthquake of 1033 devastated Jerusalem; the Fatimid caliph al-Zahir rebuilt the Aqsa between 1034 and 1036 and the work was completed under al-Mustansir in 1065. It is the mosque Nasir-i Khusraw described in 1047: shrunk to seven aisles with brilliant mosaic decoration, a triumphal arch bearing a royal inscription in gold mosaic, and most of the central part of the present mosque dates from that rebuilding {cite:encyclopaedia-of-islam-2 vol. 6 p. 734-735}."
+  ur: "1033ء کا زلزلہ بیت المقدس کے لیے تباہ کن تھا؛ فاطمی خلیفہ ظاہر نے مسجدِ اقصیٰ کو 1034ء تا 1036ء دوبارہ تعمیر کروایا اور یہ کام مستنصر کے عہد میں 1065ء تک مکمل ہوا۔ یہ وہی مسجد ہے جس کا ذکر ناصر خسرو نے 1047ء میں کیا: صرف سات رواق، شاندار موزائیک آرائش اور سنہری کندہ کاری کا قوس؛ آج کی مسجد کا وسطی حصہ بڑی حد تک اسی تعمیرِ نو کا ہے {cite:encyclopaedia-of-islam-2 vol. 6 p. 734-735}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1034", hijri: "0425~", calendar: julian, precision: year, status: tradition, derived: true, note: "أعادها الظاهر 1034–1036م وأُكملت في خلافة المستنصر سنة 1065م {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}؛ التحويل إلى الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zahir-fatimid, role: "أعاد بناء المسجد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mustansir-fatimid, role: "اكتمل العمل في خلافته", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 6, art. 'al-Masdjid al-Aksa' (O. Grabar), PDF pp. 734-735, Apple Vision OCR (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-aqsa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
