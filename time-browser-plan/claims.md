@@ -175,3 +175,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | polity/umayyads-of-cordoba | devin | claimed
 2026-11-01 | person/al-mahdi | devin | done — 14 nodes (born Iydhaj 126/127 AH → death at Radhin 169/785); all reused events; jobs-al-mahdi.json staged, GPU busy (cursor queue)
 2026-11-01 | polity/umayyads-of-cordoba | devin | done — 12 curated nodes (al-Dakhil's entry 138/756 → deposition of Hisham al-Mu'tadd 424/1033); new source/bayan-mughrib-idhari (end of caliphate from Bayan p.226-227); 5 mosque-building events given ar/en/ur prose; GPU busy (cursor queue) so no new Explorer images — 5 nodes already carry cursor's cordoba-mosque backdrops
+2026-11-01 | building/al-aqsa-mosque | devin | claimed
