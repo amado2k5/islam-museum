@@ -50,8 +50,8 @@ a11y:
   prefs_note: 'Saved on this device only — nothing is sent anywhere.'
 landing:
   fatwa_title: "Fatwas"
-  fatwa_lede: "Selections from Al-Azhar fatwas against popular innovations, from Fatawa A'immat al-Muslimin, with each ruling and its page."
-  fatwa_cta: "Read the fatwas"
+  fatwa_lede: "Fatwas from fatwa collections and from fatwa websites such as Egypt's Dar al-Ifta and the Ibn Baz archive, summarised and attributed, each linked to its source."
+  fatwa_cta: "Browse the fatwas"
   eyebrow: A digital museum · open to everyone
   title_pre: A museum for the
   title_strong: whole story
@@ -1089,6 +1089,9 @@ explore:
     khutab:
       title: "Khutab and Durus Explorer"
       desc: "Historical sermons from the khutab collections and recorded lesson series, each linked to its text and its source."
+    fatwa:
+      title: "Fatwa Explorer"
+      desc: "Fatwas from fatwa collections and from official and well-known fatwa websites, grouped by source, each summarised in the museum's words and linked to its original page."
     poetry:
       title: "The Poetry Anthology"
       desc: "The documented poems arranged under their poets, each with its occasion and context."
@@ -2430,6 +2433,15 @@ world:
       u: "https://datareportal.com/"
     - l: "OIC — member states"
       u: "https://www.oic-oci.org/"
+
+fatwa:
+  title: "Fatwa Explorer"
+  lede: "Fatwas from fatwa collections and from official and well-known fatwa websites, grouped by source. The museum records these fatwas as history, attributed to those who issued them; it issues no ruling and advises no one."
+  note: "Summaries are in the museum's words; the full text and its author are on the original page."
+  by_source: "By source"
+  original: "Original page"
+  empty: "No fatwas yet."
+  count: "{n} fatwas"
 
 khutab:
   title: "Khutab and Durus Explorer"
