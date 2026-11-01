@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-bukhari, role: "المحدّث", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المقبِّل", sources: [source/tabaqat-shafiiyya-subki] }
 sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
