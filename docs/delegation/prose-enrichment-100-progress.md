@@ -541,3 +541,26 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 
 - **place/namnaj** (Namnaj island). p. 214 gives only the report from the author of the Book of Wonders about a tailed people; one attributed claim, no description of the island. Lead.
 - **place/tughura.** pp. 930–931 repeat the facts already used under suqmaqiya (a medium city six stages from it). Lead.
+
+## n–z batch 21 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 21
+
+- **place/qarqana** (Idrisi pp. 304, 306). Reed-hut island off Sfax, vines, cumin and anise, conquered by King Roger in 548 AH, the western caves.
+- **place/qasr-abd-al-karim** (pp. 246, 530). Small Danhaja town on the Ulks river, three miles from the sea, two stages from Sala.
+- **place/nahr-barada** (p. 367). The Fijah spring, the eight branches (Yazid, Thawra, Barada and others), the river through Damascus. The following passage on the mosque's history is not used.
+- **place/shibam** (p. 154, with the earlier p. 56 and al-Hamdani text kept). The hilltop fort, the agate, amethyst and onyx stones, four stages from Marib.
+
+### Restorations (earlier batches)
+
+A comparison of each earlier batch commit against its parent showed text dropped when a thin entry was rewritten. Restored here:
+
+- **place/qasr-al-qashib** (batch 18): the sentence citing al-Umari (`umari-masalik-1924 p. 232`) on the monuments of Yemen.
+- Links `[[place/ceuta]]` (qasr-masmuda), `[[place/valencia]]` (shatiba), `[[place/balkh]]` and `[[place/marw]]` (qasr-ahnaf), `[[place/aghmat]]` (rikka) and `[[place/tabriz]]` (salmas), restored in ar, en and ur.
+
+### Leads, batch 21
+
+- **place/nahr-tiri.** p. 398 gives about sixty words (a populous town with houses and markets, tiraz, one stage from al-Ahwaz). Lead.
+- **place/siklah.** pp. 879–880 give distances and a name list only. Lead.
+- **place/sabitla.** p. 283 gives the old city of Jirjis and two distances; no description of the present town. Lead.
+- **place/tinjas.** pp. 292–293 give route distances only. Lead.
