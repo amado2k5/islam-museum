@@ -4,9 +4,12 @@ Lane document: [`docs/agents/lanes/tareq-al-suwaidan.md`](../agents/lanes/tareq-
 
 ## Next step
 
-al-wassitiya ep01–40 are all written: ep01–19 merged earlier, ep20–35 and ep36–40 on branch `claude/suwaidan-wassitiya-20-40` (PR opened 1 Nov). Still to do in this lane: (1) revise the thin Devin records for ep01–10 (concept/islamufubiya, al-khitab-al-islami, al-dimuqratiyya-wal-sharia, tatbiq-al-sharia, al-ilmaniyya-wal-islam, al-wataniyya-wal-qawmiyya, takfir, huquq-al-insan) against the transcripts: the ep26 check found Devin misread poll results in ep09, so every poll figure in those records must be re-checked; (2) the next series with transcripts on disk, alamani-al-tarikh (phaseB was transcribing it at 01:38; 29 episodes, 0 transcribed when last checked on 1 Nov), then asrar-al-qyada-al-nbawya and the rest in archive order; create each series' lecture-series record at its start.
+alamani-al-tarikh («علّمني التاريخ», ep01–29) is written (branch `content/suwaidan-alamani-al-tarikh-1`, run `suwaidan-alamani-al-tarikh-1`): series record `work/allamani-al-tarikh-program` plus 22 extended records; the archive lacks the summary episode 30 that ep29 announces. Transcripts on disk on 1 Nov 2026 (`~/devin-harvest/books/assabile/tareq-al-suwaidan/*/pass5-qwen`): administrative-processus-abilities 5/5, al-mubdioune 29/29, al-wassitiya 40/40, alamani-al-tarikh 29/29 (all written), asrar-al-qyada-al-nbawya 11 of 30 (transcription in progress); no other series has transcripts yet. Still to do: (1) asrar-al-qyada-al-nbawya once its 30 episodes are transcribed (create `work/asrar-al-qiyada-al-nabawiyya-program` at its start); then the rest in archive order; (2) revise the thin Devin records for al-wassitiya ep01–10 against the transcripts (every poll figure re-checked; the ep26 check found Devin misread ep09); (3) suggestions from the alamani-al-tarikh writers, not done: a `group/moriscos` record (Wikidata Q193304; the ep08–09 material now sits in `group/mudajjan`), alias pairs person/ibn-al-ahmar → person/muhammad-i-ibn-al-ahmar and person/muhammad-xii-andalusi → person/boabdil-muhammad-xii, new person records for Musa ibn Abi Ghassan, Muhammad II al-Faqih (Nasrid), Aben Humeya (Muhammad ibn Umayya) and Ibn Abbu; `event/alpujarras-rebellion-1568` still carries its old draft summary and has no Urdu label.
+
+Earlier note: al-wassitiya ep01–40 are all written: ep01–19 merged earlier, ep20–35 and ep36–40 on branch `claude/suwaidan-wassitiya-20-40` (PR opened 1 Nov).
 
 ## Done
+- 1 Nov 2026: alamani-al-tarikh ep01–29 written (run `suwaidan-alamani-al-tarikh-1`, Claude Code, claude-opus-5-5): NEW `work/allamani-al-tarikh-program` (lecture-series, ar/en/ur, 29-episode list, `about` edges to 22 records); EXTENDED with cited sections ar/en/ur: concept/sunan-allah-fi-al-umam, person/tariq-al-suwaidan, person/muhammad-i-ibn-al-ahmar, polity/marinid-dynasty, polity/emirate-of-granada, person/boabdil-muhammad-xii, event/fall-of-granada-897, group/mudajjan, place/al-andalus, event/alpujarras-rebellion-1568 (first prose files), event/sack-of-baghdad-656, person/hulagu, person/al-mustasim-billah, person/al-alqami (+ issue and 2 Sunni perspectives), person/husayn-ibn-ali (+ 1 Sunni perspective, attributed), person/yazid-ibn-muawiya, event/kufan-appeal-to-husayn, event/killing-of-muslim-ibn-aqil-60, event/battle-of-karbala, person/mehmed-ii, person/aq-shams-al-din, event/conquest-constantinople-857. 23 records in all. The recordings map already lists alamani-al-tarikh (no change).
 - 1 Nov 2026: explorer backfill — `work/al-wasatiyya-program` (lecture-series, 40 episodes, ep01–19 listed) and `work/al-idara-al-amaliyya-course` (lecture-series, 5 lectures) created; `work/al-mubdioune-program` made complete (authors, delivered, episode list, `about` edges to 21 persons). Each series links its entities with `about` edges; `/ar/khutab/` lists them. Recordings map unchanged (the tareq map already covers 23 series, 402 lessons). Test note: `scripts/tour.test.ts` (time/mecca sources, halls.yaml) fails on origin/main independently of this lane; not touched here.
 
 - 25 Oct 2026: lane opened. Own clone at `~/devin-harvest/repo-suwaidan` (branch `devin/suwaidan-2026-10-25`), own harvest workspace `~/devin-harvest` (`raw/`, `books/`, `logs/`, `scratch/`, `.venv-audio/` with torch 2.14.1 + transformers 5.20.2, MPS available). The Claude `omar-abdelkafy` session's worktree, workspace, branches and processes are untouched.
@@ -95,6 +98,35 @@ al-wassitiya ep01–40 are all written: ep01–19 merged earlier, ep20–35 and 
 | al-wassitiya/ep38 | 1:20:34 | al-talim-bayna-al-taghrib-wal-huwiyya NEW ×3 | — | 3 perspectives | — | concept | 34 claims; ~10 dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-38 |
 | al-wassitiya/ep39 | 1:19:04 | al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya NEW ×3 | — | 4 perspectives | — | concept | 25 claims; ~13 dropped; 4 needs_source (his accounts, attributed) | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-39 |
 | al-wassitiya/ep40 | 1:18:29 (last episode of the archive) | nazariyyat-al-muamara EXT ×3 (Omar lane record; extension only) | — | 1 block | — | concept ext | 32 claims; 11 dropped; 3 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-40 |
+| alamani-al-tarikh/ep01 | ~0:17:30 | sunan-allah-fi-al-umam ext ×3 + work NEW ×3 + tariq ext ×3 | tariq ext | — | — | concept ext + work | ~30 claims; 3 windows dropped (songs, cut-off end); 0 needs_source | branch content/suwaidan-alamani-al-tarikh-1; run suwaidan-alamani-al-tarikh-1 |
+| alamani-al-tarikh/ep02 | ~0:21:00 | ibn-al-ahmar, emirate-of-granada, al-andalus, marinid ext ×3 | muhammad-i-ibn-al-ahmar ext | al-andalus ext | — | 2 polities ext | 38 claims; 2 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep03 | ~0:18:00 | ibn-al-ahmar, marinid ext ×3 | muhammad-i-ibn-al-ahmar ext | — | — | polity ext | 24 claims; 3 dropped (1 loop); 0 needs_source | same |
+| alamani-al-tarikh/ep04 | ~0:19:00 | marinid ext ×3 | — | — | — | polity ext | 20 claims; 2 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep05 | ~0:19:00 | emirate-of-granada ext ×3 | — | — | — | polity ext | 22 claims; 2 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep06 | ~0:19:30 | boabdil, emirate-of-granada, fall-of-granada ext ×3 | boabdil-muhammad-xii ext | — | fall-of-granada-897 ext | polity ext | 26 claims; 3 dropped (1 loop); 0 needs_source | same |
+| alamani-al-tarikh/ep07 | ~0:19:30 | fall-of-granada, boabdil ext ×3 | boabdil ext | — | fall-of-granada-897 ext | — | 24 claims; 2 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep08 | ~0:20:00 | mudajjan, fall-of-granada, al-andalus ext ×3 | — | al-andalus ext | fall-of-granada-897 ext | group ext | 30 claims; 3 dropped (1 loop); 0 needs_source | same |
+| alamani-al-tarikh/ep09 | ~0:18:30 | mudajjan ext ×3 | — | — | — | group ext | 14 claims; 2 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep10 | ~0:19:00 | alpujarras-rebellion-1568 NEW prose ×3 | — | — | alpujarras-rebellion-1568 ext | — | ~25 claims; 5 dropped (1 loop); 0 needs_source | same |
+| alamani-al-tarikh/ep11 | ~0:20:30 | alpujarras-rebellion-1568 ×3 | — | — | alpujarras ext | — | ~21 claims; 5 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep12 | ~0:20:00 | alpujarras-rebellion-1568 ×3 | — | — | alpujarras ext | — | ~24 claims; 5 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep13 | ~0:19:30 | sack-of-baghdad, hulagu ext ×3 | hulagu ext | — | sack-of-baghdad-656 ext | — | ~17 claims; 5 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep14 | ~0:19:00 | sack-of-baghdad, hulagu, al-mustasim, al-alqami ext ×3 | 3 ext | — | sack-of-baghdad-656 ext | al-alqami perspectives (2) | ~16 claims; 4 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep15 | ~0:21:00 | the four Baghdad records ×3 | 3 ext | — | sack-of-baghdad-656 ext | — | ~19 claims; 4 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep16 | ~0:20:00 | the four Baghdad records ×3 | 3 ext | — | sack-of-baghdad-656 ext | — | ~21 claims; 5 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep17 | ~0:21:30 | the four Baghdad records ×3 | 3 ext | — | sack-of-baghdad-656 ext | — | ~31 claims; 4 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep18 | ~0:19:30 | husayn-ibn-ali, yazid ext ×3 | 2 ext | — | — | husayn perspective (1, attributed) | ~27 claims; 6 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep19 | ~0:21:00 | husayn, yazid, kufan-appeal ext ×3 | 2 ext | — | kufan-appeal ext | — | ~27 claims; 7 dropped (2 loops, asides); 0 needs_source | same |
+| alamani-al-tarikh/ep20 | ~0:19:30 | husayn, kufan-appeal, yazid ext ×3 | 2 ext | — | kufan-appeal ext | — | ~23 claims; 7 dropped (2 loops, sermon); 0 needs_source | same |
+| alamani-al-tarikh/ep21 | ~0:19:30 | killing-of-muslim-ibn-aqil, kufan-appeal, yazid ext ×3 | yazid ext | — | 2 events ext | — | ~21 claims; 6 dropped (3 loops); 0 needs_source | same |
+| alamani-al-tarikh/ep22 | ~0:19:30 | all five Husayn records ×3 | 2 ext | — | 3 events ext | — | ~20 claims; 4 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep23 | ~0:24:00 | battle-of-karbala, husayn, yazid ext ×3 | 2 ext | — | battle-of-karbala ext | — | ~28 claims; 6 dropped (1 loop); 0 needs_source | same |
+| alamani-al-tarikh/ep24 | ~0:21:00 | mehmed-ii, aq-shams-al-din, conquest ext ×3 | 2 ext | — | conquest-constantinople-857 ext | — | 18 claims; 2 dropped (loops); 0 needs_source | same |
+| alamani-al-tarikh/ep25 | ~0:19:30 | aq-shams-al-din, mehmed-ii, conquest ext ×3 | 2 ext | — | conquest ext | — | 14 claims; 2 dropped (loops); 0 needs_source | same |
+| alamani-al-tarikh/ep26 | ~0:20:00 | conquest, mehmed-ii ext ×3 | mehmed-ii ext | — | conquest ext | — | 13 claims; 1 dropped (loop); 0 needs_source | same |
+| alamani-al-tarikh/ep27 | ~0:18:00 | conquest, mehmed-ii ext ×3 | mehmed-ii ext | — | conquest ext | — | 10 claims; 1 dropped (loop); 0 needs_source | same |
+| alamani-al-tarikh/ep28 | ~0:21:00 | conquest ext ×3 + tariq ext | — | — | conquest ext | — | 9 claims; 1 dropped; 0 needs_source | same |
+| alamani-al-tarikh/ep29 | ~0:20:00 (summary ep30 announced at 00:19:00, not in archive) | conquest, mehmed-ii ext ×3 | mehmed-ii ext | — | conquest ext | — | 16 claims; 2 dropped (1 loop, 1 garbled); 0 needs_source | same |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -165,9 +197,55 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 | repetition loops (10 windows); garbled names; polemical sect label | ep39 00:09:30 … 01:05:00; 00:09:30, 01:08:30 | token loops; not reproduced | intelligibility / polemical | none needed |
 | repetition loops (11 windows); Qur'an wording of verses cited by guests | ep40 00:08:30 … 01:02:30; 00:10:00–00:15:30, 00:18:00, 00:25:00 | token loops; Qur'an text never typed | intelligibility / no Qur'an text | none needed |
 | Abu Ghanima's characterisations of Jews (polemical) | ep40 00:52:30, 00:54:30–00:55:00 | described and attributed, not reproduced | polemical | none |
+| theme songs (opening and closing) | alamani-al-tarikh ep01–ep29, first and last ~1 min | not lecture content | scope | none needed |
+| repetition loops | alamani-al-tarikh ep03 00:08:00; ep06 00:12:00; ep08 00:13:00; ep10 00:10:00; ep19 00:04:30, 00:12:30; ep20 00:14:00, 00:18:30; ep21 00:13:00, 00:17:30, 00:18:30; ep23 00:04:00; ep24 00:03:30, 00:04:00; ep25 00:11:30, 00:15:00; ep26 00:07:30; ep27 00:17:00; ep29 00:05:30 | token loops, not speech | intelligibility | none needed |
+| al-Suddi quotation on slain messengers | alamani-al-tarikh ep01 00:16:30 | episode cut off mid-sentence | intelligibility | none |
+| fall of the Umayyad state (announced topic) | alamani-al-tarikh ep01 00:02:30 | no such episode in the archive | no data | — |
+| summary episode 30 (six causes / six obstacles) | alamani-al-tarikh ep29 00:19:00 | announced, not in the archive | no data | — |
+| Seville siege length (12 vs 17 months) | alamani-al-tarikh ep02 00:13:30 / 00:14:00 | contradicting figures | number-conflict | founder |
+| Granada's share "5000 عشر بالمئة" | alamani-al-tarikh ep02 00:06:30 | garbled; 15% from ep04/ep05 used | garbled number | founder |
+| "797 هجرية 1492" end of the 200 years | alamani-al-tarikh ep05 00:03:00 | garbled date | garbled number | founder |
+| "Ferdinand III" as king of Aragon | alamani-al-tarikh ep05 00:15:00; ep07 00:14:00; ep09 00:02:30 | dubious numeral; written as "Ferdinand" | dubious name | founder |
+| "Granada vs Aragon" rivalry | alamani-al-tarikh ep05 00:04:30 | garbled; Castile–Aragon (00:15:30) used | intelligibility | founder |
+| "895 AH / 1499 CE" | alamani-al-tarikh ep06 00:17:00 | CE year conflicts with 00:16:00 (1490) | number-conflict | founder |
+| number of surrender conditions | alamani-al-tarikh ep07 00:06:30; ep08 00:02:30 | inconsistent | number-conflict | founder |
+| Malaga/Almeria siege list | alamani-al-tarikh ep06 00:15:30 | garbled place name | intelligibility | founder |
+| year of the Arabic-ban law ("1560") | alamani-al-tarikh ep08 00:07:30 | dubious; written without a year | dubious number | founder |
+| ages of children to be handed over | alamani-al-tarikh ep08 00:15:00 | garbled | intelligibility | founder |
+| Lepanto "17 October 1517" | alamani-al-tarikh ep08 00:18:30 | impossible date in context | dubious date | founder |
+| Morisco and Spanish personal names | alamani-al-tarikh ep08 00:11:30; ep09 00:09:30, 00:14:30, 00:15:30 | garbled names | intelligibility | founder |
+| revolt dates 14 April 1568 / "4 May 1508/64" | alamani-al-tarikh ep09 00:10:00 / 00:12:00 | contradicting and garbled | number-conflict | founder |
+| garbled names and places in the Alpujarras episodes (Herrera fragment, «البرطال», «ديسا», «لوزر», «غرط», «من دجور», «مشينة», «جسيقة», «الأرشانوني», «الجزيرة», «بلقة», «جبال بديا») | alamani-al-tarikh ep10 00:04:30–00:12:30; ep11 00:05:00–00:08:00; ep12 00:06:30–00:15:30 | garbled; events kept, names dropped | intelligibility | founder |
+| Ibn Maknun's relatives among captives | alamani-al-tarikh ep11 00:09:30 | garbled | intelligibility | founder |
+| exact day of Berja; Ottoman commander «مشكر» | alamani-al-tarikh ep11 00:17:00 | self-contradictory date; garbled name | contradiction / intelligibility | founder |
+| deportation figures | alamani-al-tarikh ep12 00:02:30 | garbled numbers | garbled number | founder |
+| Ibn al-Athir named among historians of the Ibn al-Alqami agreement | alamani-al-tarikh ep14 00:08:00 | Ibn al-Athir died before 656 AH; only Ibn Kathir kept | plausibility | founder may restore it as his statement |
+| Hulagu's letter to a Muslim prince, verbatim | alamani-al-tarikh ep14 00:16:00–00:17:30 | paraphrased only | quote limit | none needed |
+| his doctrinal judgement on the Ismailis today | alamani-al-tarikh ep15 00:14:30 | judgement on a living community; military facts kept | voice / polemical | founder |
+| Ismailis killed "Chaghatay son of Genghis"; "3000 years" remark | alamani-al-tarikh ep15 00:16:00 | doubtful and garbled | plausibility | founder |
+| Hulagu left Karakorum "1235 CE"; letter dated "650 AH, March 1257"; assault "22 Muharram 650" | alamani-al-tarikh ep16 00:05:30, 00:06:30, 00:17:30 | Hijri and Gregorian years contradict | contradiction | none |
+| Hamadan camp («مدان»); commanders «مرشد الخصبي», «فتح الدين بن قمر», «نهر بشير» | alamani-al-tarikh ep16 00:06:30, 00:13:30–00:14:30 | garbled | intelligibility | founder |
+| dates "7/6/1656", "9/6/66"; historian of the forty-men story; Badr al-Din Lu'lu's words; present-day aside | alamani-al-tarikh ep17 00:08:00, 00:09:00, 00:14:00, 00:18:30, 00:20:00 | garbled / out of scope | intelligibility / scope | founder |
+| asides on a living politician, Arab states and terrorists in Mecca | alamani-al-tarikh ep19 00:15:30, 00:16:00, 00:19:00 | contemporary political asides | polemical | founder |
+| sermon on ruling by other than God's law, with a verse applied to rulers | alamani-al-tarikh ep20 00:03:00 | prescriptive sermon, takfir-tinged | voice / no prescription | founder |
+| epithets for Shimr | alamani-al-tarikh ep23 00:15:00, 00:20:00 | epithets; facts kept neutrally | polemical | founder |
+| 'A'isha objecting to al-Husayn's departure | alamani-al-tarikh ep20 00:15:00 | conflicts with her recorded death in 58 AH | needs_source / contradiction | founder after checking |
+| Mu'awiya ruling "from 41 to 61 AH" | alamani-al-tarikh ep18 00:15:00 | conflicts with his own Sha'ban 60 timeline (ep19 00:16:00) | contradiction | founder |
+| "Ziyad ibn Abihi" sent to Kufa | alamani-al-tarikh ep20 00:06:30 | slip or garble; Ibn Ziyad elsewhere | garbled name | none |
+| garbled names in the Husayn episodes («عمر» for Amr ibn al-Hajjaj, «عمر ابن سعيد», «ياس ابن العباسي», «قيس ابن مسحر», «الحاجز من بطن رمهم», «السري», «سجادة الحسين… عامل سحن») | alamani-al-tarikh ep18 00:04:30; ep19 00:13:30; ep21 00:05:00; ep22 00:02:30, 00:10:00, 00:15:00 | garbled; events kept | intelligibility | founder |
+| Umar ibn Sa'd's army "for jihad in Turkey"; detail of Ibn Ziyad's threat | alamani-al-tarikh ep23 00:12:30, 00:13:00 | garbled / anachronistic | intelligibility | none |
+| Murad II's comeback battle and date ("فاردة", 28 Rajab 852) | alamani-al-tarikh ep24 00:10:30 | garbled name; 852 conflicts with Varna 848 in the record | intelligibility / contradiction | founder |
+| Mehmed's elder brother's name; Aq Shams al-Din's nisba; "90% of leaders' children" | alamani-al-tarikh ep24 00:05:30, 00:14:30, 00:06:30 | garbled / loop window | intelligibility | founder |
+| "997 AH … بيان" as start of decline | alamani-al-tarikh ep25 00:01:00 | place garbled, year doubtful | intelligibility | founder |
+| fortress figure "460"; Orthodox saying wording; cannon gate name | alamani-al-tarikh ep26 00:05:00, 00:08:30, 00:15:30 | garbled | intelligibility | founder |
+| fleet commander's name; "one ship with 700 men", "400 ships" overland | alamani-al-tarikh ep27 00:11:00, 00:02:30, 00:15:00 | garbled; contradicts ep26 00:18:00 and ep28 00:07:00 | intelligibility / contradiction | founder |
+| comparison of the tunnels with a present-day wall | alamani-al-tarikh ep28 00:14:30 | political aside | voice / scope | founder |
+| "20 Jumada I 850"; "لم تختصر امرأة"; Mehmed's exact words on entering | alamani-al-tarikh ep29 00:06:00, 00:18:00, 00:16:00 | garbled year/clause; paraphrased only | intelligibility | none needed |
+| Qur'an wording of the verses he recites; hadith wording (incl. the Constantinople hadith); honorifics | alamani-al-tarikh passim | never typed by rule; described or referenced | no Qur'an / no hadith matn / honorific rule | none |
 
 ## Batch log
 
+- `suwaidan-alamani-al-tarikh-1` — alamani-al-tarikh ep01–29 («علّمني التاريخ», History Taught Me; Claude Code, claude-opus-5-5): NEW work/allamani-al-tarikh-program + 22 extended records (sunan, Nasrid Granada and the Marinids, the Moriscos and the Alpujarras revolt, the fall of Baghdad, the rising of al-Husayn, the conquest of Constantinople) + speaker ext. ~640 claims; 0 needs_source; contested matters attributed (al-alqami and husayn perspectives). SERIES COMPLETE 29/29 (ep30 not in archive).
 - `devin-tareq-al-suwaidan-admin-1` — ep01 of `administrative-processus-abilities` (13 new entities + 1 extension). Course self-dates to ~2007 (mentions the 2007 book *Know How* and the just-announced iPhone).
 - `devin-tareq-al-suwaidan-admin-2` — ep02 (4 new concepts: vision/mission, KPI, LOB/SBU, family businesses [contested: women's-intervention claim, labelled speaker's view + needs_source]).
 - `devin-tareq-al-suwaidan-wassitiya-19` — al-wassitiya ep19 (reading crisis: EXTENDED concept/al-qiraa-wal-thaqafa (Omar-lane record, reuse-rule); stats 5%/1% books, 150 vs 200 wpm, 14% author royalty; poll 12% busy-excuse vs bad-writing).
