@@ -15,3 +15,6 @@ translators: []
 
 ## حفظ الولد للقرآن عند الشيخ عمر عبد الكافي
 يعدّ الشيخ من أفضل ما يتركه الوالد لأولاده أن يحفظوا القرآن عن ظهر قلب، ويقول إن الوالدين يُكرمان بحفظ ولدهما وبنتهما. {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:11:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:12:00}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يرى الشيخ أن تحفيظ الولد القرآن من الخامسة أو السادسة أول بر الأب بولده، وأن الولد قادر على حفظه في ثلاث أو أربع سنين، مع أن يفهّمه المعلم المعاني على قدر سنّه فلا يكون كالببغاء، لأن القرآن يحوي العلم والتاريخ والأمثال والدار الآخرة والتوحيد ويبني ملكة اللغة العربية. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:08:00} وينتقد أن حصة اللغة العربية صارت أبغض الحصص إلى الأولاد ومعلم النحو أثقل المعلمين عليهم، ويرى أنهم لن يحبوا العربية إلا إذا حفظوا القرآن صغارًا، وهذا رأيه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:07:30}

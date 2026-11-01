@@ -13,3 +13,6 @@ Then whoever attacked the imams, usurped their rights, or killed them will be pu
 The earliest to speak of the return in the first age was Abd Allah ibn Saba', for he used to say that Ali would return. {cite:duha-islam p.874}
 
 This is a picture from a single non-Imami source, and it needs a further source from the books of the Imamiyya.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh holds that fear and hope are the two wings of the believer's heart, whose head is love, so that it cannot fly on one wing, and that the matter is a balance between hope prevailing over fear or the reverse, especially for one who sins often. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:09:00} See: [[concept/khawf|fear]].

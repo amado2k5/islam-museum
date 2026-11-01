@@ -46,3 +46,6 @@ He says that the eyes should be used for what benefits, warns children against w
 - **The speaker's view (personal opinion)**: He criticises the husband who looks at other women in front of his wife, and the husband who threatens to take another wife. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:28:30} He urges men to lower their gaze, says a woman should dress modestly when she goes out, and holds that each person's gaze is a trust. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:06:00}
 - **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh holds that the command to lower the gaze is not limited to the forbidden, but includes lowering the gaze from people's faults: husband from wife and wife from husband, brother from brother, neighbour from neighbour, employee from colleague, a lowering of deliberate overlooking and forgiving, so that people's sins are not put under a microscope. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}

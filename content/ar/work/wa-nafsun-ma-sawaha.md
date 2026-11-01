@@ -1,0 +1,132 @@
+---
+id: work/wa-nafsun-ma-sawaha
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+
+يدرج أرشيف أسابيل هذه السلسلة بين الدروس الصوتية لعمر عبد الكافي، وعدد حلقاتها تسع وعشرون. {cite:assabile-omar-abdelkafy series-list} والحلقة نحو عشر دقائق، تبدأ بنشيد مطلعه «تلك النفس وما سوّاها»، ويُذكر في أولها وآخرها أن البرنامج برعاية مؤسسة الشيخ علي بن عبد الله الجفالي الخيرية ومكتب الجمعية العلمية السعودية للقرآن الكريم وعلومه (تبيان) فرع جدة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:00:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:01:00} ويقول الشيخ في الحلقة الأولى إنه سيأخذ في كل حلقة ملاحظة أو عنوانًا في تربية القرآن للنفس الإنسانية، وكيف ربّى القرآن نفوس الصحابة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}
+
+## الحلقة 1: النفس الإنسانية والنفس الكاملة
+
+يفتتح البرنامج بأن النفس أعقد ما خلق الله، ويعدّد [[concept/maratib-al-nafs|مراتب النفس]]، ويجعل نفس النبي مقياس النفوس، ويعلن أنه سيتناول في كل حلقة عنوانًا في [[concept/tarbiya|تربية القرآن]] للنفس، ويروي قصة [[person/abu-dharr-al-ghifari|أبي ذر]] والأعرابي وسورة الزلزلة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:30}
+
+## الحلقة 2: التوكل
+
+[[concept/tawakkul|التوكل]] واتخاذ الأسباب، وقصة صاحب المظلة في الاستسقاء، والدعوات الثلاث عند الطبيب، و[[person/hajar|هاجر]] وزمزم. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:06:30}
+
+## الحلقة 3: الدعاء
+
+قرب الله من الداعي، والدعاء في الرخاء والشدة، وصبر [[person/nuh|نوح]]، وأن عدم تحقق الدعاء إجابة، وآداب [[practice/dua|الدعاء]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:07:00}
+
+## الحلقة 4: التطفيف في المعاملة
+
+يقرأ مطلع سورة المطففين، ويوسّع [[concept/tatfif-short-measure|التطفيف]] إلى المعاملة بين الإخوة والزوجين و[[concept/kafaa|الكفاءة]] في الزواج والعدل بين الأولاد، مستشهدًا بقصة [[person/yaqub|يعقوب]] ويوسف. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00}
+
+## الحلقة 5: المودة في البيوت والحوار
+
+تبخّر المودة والرحمة من البيوت، و[[concept/al-muasharah-bil-maruf|المعاشرة بالمعروف]]، و[[concept/fann-al-hiwar|فن الحوار والإنصات]]، والذكاء الاجتماعي. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:07:00}
+
+## الحلقة 6: وعسى أن تكرهوا شيئًا
+
+[[concept/al-minha-fi-al-mihna|المنحة في المحنة]]: أم موسى و[[person/musa|موسى]] ويوسف وهاجر و[[person/umm-salama|أم سلمة]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+## الحلقة 7: وقولوا للناس حسنًا
+
+[[concept/al-qawl-al-hasan|القول الحسن]] للناس جميعًا، والقلب إناء واللسان مغرفة، وأدب [[person/al-asmai|الأصمعي]] و[[person/abbas-ibn-abd-al-muttalib|العباس]]، والقول الكريم للوالدين. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00}
+
+## الحلقة 8: الافتراء على الخلق
+
+[[concept/iftira|الافتراء]] وعاقبته، وناقل السوء، والكذب المباح في الإصلاح، والتماس الأعذار، وأسنان [[person/al-shafii|الشافعي]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
+
+## الحلقة 9: ولا يحيق المكر السيئ إلا بأهله
+
+[[concept/al-makr-al-sayyi|المكر السيئ]] سنة كونية، والمكر في العمل، وعواقب [[person/firawn|فرعون]] و[[person/qarun|قارون]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+
+## الحلقة 10: ترقي النفس
+
+ترقي النفس من الأمارة إلى [[concept/nafs-lawwama|اللوامة]] فالمطمئنة فالراضية فالمرضية فالملهمة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:06:30}
+
+## الحلقة 11: الحوار مع المخالف
+
+اختلاف الملكات، وأدب القرآن في الحوار مع المخالف. التفصيل في [[concept/fann-al-hiwar|فن الحوار والإنصات]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:06:00}
+
+## الحلقة 12: الخوف والرجاء
+
+[[concept/khawf|الخوف]] و[[concept/raja|الرجاء]] جناحا القلب ورأسه المحبة، وقصة [[person/al-khidr|الخضر]] وموسى، والخوف السلبي من المستقبل. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00}
+
+## الحلقة 13: الرزق والخوف الحقيقي
+
+[[concept/al-rizq-al-rububi|الرزق]] أوسع من المال، و[[concept/tawadu|التواضع]] مع الأكبر والأصغر، و[[concept/ghadd-al-basar|غض البصر]] عن عيوب الناس، والخوف الحقيقي من الذنوب وحقوق العباد. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:30}
+
+## الحلقة 14: بر الوالدين بالأولاد
+
+[[concept/huquq-al-abna|حقوق الأبناء]] على الآباء، والسنوات السبع الأولى، و[[practice/hifz-al-quran|حفظ القرآن]] صغيرًا. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
+
+## موضوعات الحلقات في المتحف
+
+هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
+
+### الحلقة 1
+- [[concept/maratib-al-nafs|مراتب النفس الإنسانية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:02:00}
+- [[concept/tarbiya|التربية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00}
+- [[person/abu-dharr-al-ghifari|أبو ذر الغفاري]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:30}
+
+### الحلقة 2
+- [[concept/tawakkul|التوكل]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:01:30}
+- [[person/hajar|هاجر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:06:30}
+
+### الحلقة 3
+- [[practice/dua|الدعاء]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:01:30}
+- [[person/nuh|نوح]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:04:30}
+
+### الحلقة 4
+- [[concept/tatfif-short-measure|التطفيف]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:01:30}
+- [[concept/kafaa|كَفاءة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:03:30}
+- [[person/yaqub|يعقوب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00}
+
+### الحلقة 5
+- [[concept/al-bayt-al-muslim|البيت المسلم]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:01:30}
+- [[concept/fann-al-hiwar|فن الحوار والإنصات]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:01:30}
+- [[concept/al-muasharah-bil-maruf|المعاشرة بالمعروف]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:02:30}
+
+### الحلقة 6
+- [[concept/al-minha-fi-al-mihna|المنحة في المحنة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:01:30}
+- [[person/musa|موسى]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00}
+- [[person/umm-salama|أم سلمة هند بنت أبي أمية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+### الحلقة 7
+- [[concept/al-qawl-al-hasan|القول الحسن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:01:30}
+- [[person/al-asmai|الأصمعي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:30}
+- [[person/abbas-ibn-abd-al-muttalib|العباس بن عبد المطلب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:30}
+- [[practice/birr-al-walidayn|بر الوالدين]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30}
+
+### الحلقة 8
+- [[concept/iftira|الافتراء على الخلق]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30}
+- [[concept/kadhib|كَذِب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30}
+- [[person/al-shafii|محمد بن إدريس الشافعي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
+
+### الحلقة 9
+- [[concept/al-makr-al-sayyi|المكر السيئ]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30}
+- [[person/tarafa-ibn-al-abd|طرفة بن العبد]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00}
+- [[person/firawn|فرعون]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+- [[person/qarun|قارون]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+
+### الحلقة 10
+- [[concept/nafs-lawwama|النفس اللوامة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30}
+
+### الحلقة 12
+- [[concept/khawf|الخوف من الله]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30}
+- [[concept/raja|الرجعة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00}
+- [[person/al-khidr|الخضر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30}
+
+### الحلقة 13
+- [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:01:30}
+- [[concept/tawadu|التواضع]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:00}
+- [[concept/ghadd-al-basar|غض البصر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}
+
+### الحلقة 14
+- [[concept/huquq-al-abna|حقوق الأبناء]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00}
+- [[practice/hifz-al-quran|حفظ القرآن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}

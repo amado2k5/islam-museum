@@ -26,3 +26,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ کہتے ہیں کہ آدمی کا سب سے زیادہ حق دار اس کی ماں ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
 وہ والدین کے ساتھ سب سے بڑی نیکی یہ شمار کرتے ہیں کہ بیٹا انہیں راضی رکھے، خواہ وہ زندہ ہوں یا وفات پا چکے ہوں۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:22:30}
 وہ کہتے ہیں کہ نیک بیٹے کی دعا اپنے والد کے جنت میں درجے کو بلند کرتی ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ والدین سے عزت کی بات کہنے کے حکم اور انہیں جھڑکنے یا «اف» کہنے کی ممانعت سے استدلال کرتے ہیں، ان کے نزدیک «اف» سے چھوٹا کوئی لفظ نہیں، والدین نے اولاد میں خیر بویا، ان پر محنت کی اور مشقتیں اٹھائیں، اور وہ ان کے لیے دعا کرتے ہیں، زندوں کے لیے صحت اور مرحومین کے لیے رحمت۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:30}

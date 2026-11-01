@@ -26,3 +26,6 @@ He lists duties towards a father after his death: hajj performed on his behalf, 
 The Sheikh says the person most deserving of a man's companionship is his mother. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
 He counts among the greatest forms of honour that a son pleases his father and mother, living and dead. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:22:30}
 He says that a righteous son's prayer for his father raises the father's rank in Paradise. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh cites the command to speak nobly to parents and the prohibition of rebuking them or saying 'uff' to them, holding that there is no smaller word than 'uff', that parents sowed good in their children, toiled over them and bore hardship, and he prays for them, health for the living and mercy for the dead. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:30}

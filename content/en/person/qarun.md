@@ -15,3 +15,6 @@ The Sheikh speaks of responsibility and says it is not frowning, raising the voi
 
 ## The speaker's view: repeating proud words
 The Sheikh refers to what the Qur'an records of the claims of Iblis to superiority, of Pharaoh to the kingdom and of Qarun to wealth, and warns against echoing such words. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:22:30} He says such statements are repeated without awareness of what they mean, and recalls Qarun's claim that his wealth came from his knowledge. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:23:30}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh lists Qarun among the schemers on whom their scheming recoiled, swallowed by the earth with his house. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} See: [[concept/al-makr-al-sayyi|evil scheming]].

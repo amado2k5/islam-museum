@@ -72,3 +72,6 @@ translators: []
 - **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يسخر من فرعون وهامان ويرى أن فرعون لو رأى الفضاء لكان ينبغي أن يؤمن، ويصفه بأنه مجرم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:52:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:53:00}.
 - **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم تُسنَد الآراء الأكاديمية والأخرى في هذه المسألة بعد.
 :::
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يرى الشيخ في غرق فرعون سنة الله في أن المكر السيئ يرتد على أهله: فموسى الرضيع أُلقي في اليمّ فنجا، وفرعون القوي نزل اليمّ فغرق، ولم تنجه قوته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} انظر: [[concept/al-makr-al-sayyi|المكر السيئ]].

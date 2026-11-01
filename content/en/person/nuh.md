@@ -18,3 +18,6 @@ Noah was among the greatest messengers of resolute purpose, calling his people t
 
 ## For Scholars
 A revered prophet and messenger regarded in Islamic tradition as the second father of humankind, the earliest of the messengers after Adam, and one of the five messengers of resolute resolve (Ulu al-Azm). An entire sura bears his name, detailing his persistent preaching across day and night over centuries. His prophetic mission culminated in the divine command to construct the ark, saving the believers and animal life upon Mount Judi, epitomizing unyielding prophetic perseverance, gratitude, and moral resilience.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh cites Nuh on perseverance in prayer and preaching: he worked at his call for a thousand years less fifty, and did not stop until God told him that none of his people would believe except those who already had; he says this to those weary of a prayer not yet answered. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:05:00}
