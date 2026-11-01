@@ -1,0 +1,29 @@
+id: event/al-zamakhshari-mecca-second-526
+class: event
+kind: pilgrimage
+label:
+  ar: "رحلة الزمخشري الثانية عبر دمشق إلى مكة، ٥٢٦هـ/١١٣٢م"
+  en: "Al-Zamakhshari's second journey to Mecca via Damascus, 526/1132"
+  ur: "زمخشری کا دوسرا سفر، دمشق راستہ مکہ، 526ھ/1132ء"
+summary:
+  ar: "بعد نحو عقد في جرجانية خرج الزمخشري ثانيةً قاصداً مكة، فأقام في دمشق زماناً يمدح فيه أميريها البوريَّين تاج الملوك طغتكين (ت ٥٢٦هـ/١١٣١م) وابنه شمس الملك، ثم بلغ مكة حاجّاً سنة ٥٢٦هـ/١١٣٢م وأقام بها ثلاث سنين في ضيافة ابن وهّاس الذي حثّه على جمع ديوان شعره وتصنيف تفسيره «الكشاف» {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}."
+  en: "About a decade later al-Zamakhshari again set out for Mecca, staying for a time in Damascus where he composed eulogies for the Burid rulers Taj al-Muluk Tughtakin (d. 526/1131) and his son Shams al-Mulk. He reached Mecca for the pilgrimage in 526/1132 and stayed there three years, again the honoured guest of Ibn Wahhas, who encouraged him to assemble his poetry diwan and to compose his Qur'an commentary al-Kashshaf {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}."
+  ur: "تقریباً ایک دہائی بعد زمخشری دوبارہ مکہ کے لیے روانہ ہوئے اور دمشق میں کچھ عرصہ ٹھہرے، جہاں انہوں نے بوری حکمرانوں تاج الملوک طغتکین (وفات 526ھ/1131ء) اور اس کے بیٹے شمس الملک کی مدح میں قصائد کہے۔ 526ھ/1132ء میں وہ حج کے لیے مکہ پہنچے اور وہاں تین برس رہے، پھر ابن وہاس کے مکرَّم مہمان، جنہوں نے انہیں اپنا دیوان مرتب کرنے اور تفسیر «الکشاف» لکھنے کی ترغیب دی {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq, arabia]
+date:
+  start: { edtf: "1132~", hijri: "0526~", calendar: julian, precision: year, status: tradition, derived: true, note: "بلغ مكة حاجاً سنة ٥٢٦هـ/١١٣٢م وأقام بها ثلاث سنين {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ التحويل مشتق." }
+  end: { edtf: "1134~", hijri: "0528~", calendar: julian, precision: year, status: tradition, derived: true, note: "إقامة ثلاث سنين {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-zamakhshari, role: "الحاج المجاور", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF p. 918 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-zamakhshari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

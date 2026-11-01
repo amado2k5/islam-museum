@@ -13,19 +13,27 @@ gender: male
 summary:
   ar: "الإمام الكبير في التفسير والحديث والنحو واللغة وعلم البيان، معتزلي الاعتقاد متظاهراً به حتى كان إذا قصد صاحباً واستأذن قال قل له أبو القاسم المعتزلي بالباب؛ جاور بمكة زماناً فصار يقال له جار الله فكان هذا الاسم علماً عليه، وسقطت رجله فكان يمشي في جفن خشب وكان بيده محضر فيه شهادة خلق كثير خوفاً من أن يظن من يعلم الحال أنها قطعت لريبة، وحكى في تاريخ المتأخرين أنه قال للدامغاني إن سببها دعاء الوالدة لأنه أمسك في صباه عصفوراً ربطه بخيط في رجله ففلت فجذبه فانقطعت رجله في الخيط فقالت والدته قطع الله رجل الأبد كما قطعت رجله؛ توفي سنة ثمان وثلاثين وخمس مئة وله إحدى وسبعون سنة {cite:shadharat-dhahab p. 598-600}."
   en: "Mahmud b. 'Umar al-Zamakhshari, the uncontested imam of tafsir, hadith, grammar and bayan — openly Mu'tazili, announcing himself at doors as 'Abu l-Qasim the Mu'tazili'; 'Jar Allah' for his years at Mecca; he walked on a wooden socket after losing a leg, carrying written attestations so none would think it cut for crime, and told al-Damaghani the cause was his mother's curse over a tethered sparrow {cite:shadharat-dhahab p. 598-600}."
+  ur: "محمود بن عمر زمخشری: تفسیر، حدیث، نحو اور علم بیان کے مسلمہ امام — کھلے معتزلی، دروازے پر اپنا تعارف «ابوالقاسم معتزلی» کرواتے؛ مکہ میں برسوں مجاورت کے سبب «جار اللہ» کہلائے؛ ایک ٹانگ بری ہونے کے بعد لکڑی کے موچے پر چلتے اور ساتھ گواہیوں کا محضر رکھتے تاکہ کوئی نہ سمجھے کہ جرم کی سزا میں کاٹی گئی؛ انہوں نے دامغانی کو بتایا کہ اصل سبب ماں کا بددعا کرنا تھا جو بچپن میں ڈور سے باندھی گئی چڑیا کے ٹانگ ٹوٹ جانے پر دی گئی تھی {cite:shadharat-dhahab p. 598-600}۔"
 roles: [scholar, theologian, writer]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 born: { edtf: "1075-03~", hijri: "0467-07-17", calendar: julian, precision: day, status: tradition, derived: true, note: "الأربعاء 17 رجب 467هـ {cite:shadharat-dhahab p. 600}", sources: [source/shadharat-dhahab] }
-died: { edtf: "1144~", hijri: "0538~", calendar: julian, precision: year, status: tradition, derived: true, note: "538هـ {cite:shadharat-dhahab p. 598}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1144-06-14", hijri: "0538-12-09", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة عرفة سنة ٥٣٨هـ بجرجانية خوارزم {cite:shadharat-dhahab p. 601}؛ ٩ ذي الحجة ٥٣٨هـ = ١٤ حزيران ١١٤٤م {cite:encyclopaedia-of-islam-2 vol. 12 p. 918}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
 relations:
   - { type: authored, target: work/asas-al-balagha, sources: [source/kashf-zunun-furqan] }
+  - { type: participated_in, target: event/birth-al-zamakhshari-467, role: "المولود", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-zamakhshari-vow-512, role: "الناذر للزهد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-zamakhshari-mecca-first-513, role: "الحاج المجاور", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-zamakhshari-mecca-second-526, role: "الحاج المجاور", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-zamakhshari-kashshaf-528, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-zamakhshari-ijaza-533, role: "المُجاز", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-zamakhshari-538, role: "المتوفَّى", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)؛ Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF pp. 917-918"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-12
 external_ids: { wikidata: "Q482451" }
-sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/juha-nawadir-kubra-djuwaydi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

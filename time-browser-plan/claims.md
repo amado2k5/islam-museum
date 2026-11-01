@@ -192,3 +192,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-nawawi | devin | claimed
 2026-11-01 | person/al-nawawi | devin | done — 11 nodes, journey (born Nawa 631/1233 → death Nawa 676/1277); 9 new events + place/nawa from EI2 vol. 7 pp. 1096-1097 + bidaya s.a. 676 pp. 293-294 + shadharat s.a. 676 pp. 354-356; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-nawawi.json
 2026-11-01 | person/al-zamakhshari | devin | claimed
+2026-11-01 | person/al-zamakhshari | devin | done — 9 nodes, journey (Zamakhshar 467/1075 → Jurjaniyya 538/1144); 7 new events + place/zamakhshar + place/jurjaniyya from EI2 vol. 11/12 + shadharat s.a. 538; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-zamakhshari.json
