@@ -24,3 +24,19 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    start: { edtf: "1854-05-29", precision: day, status: historical, sources: [source/tdv-mehmed-emin-pasa-kibrisli] }
+    end: { edtf: "1854-11-23", precision: day, status: historical, sources: [source/tdv-mehmed-emin-pasa-kibrisli] }
+    place: place/istanbul
+    status: historical
+    note: "First grand vizierate, from 29 May to 23 November 1854, on the proposal of Mustafa Reşid Pasha. The vizier rank given in 1848 before his London post is a rank and not an office, and is not recorded here. Recorded under vizier as the person's roles state (sadrazam)."
+    sources: [source/tdv-mehmed-emin-pasa-kibrisli]
+  - job: job/vizier
+    kind: primary
+    start: { edtf: "1859-10-18", precision: day, status: historical, sources: [source/tdv-mehmed-emin-pasa-kibrisli] }
+    place: place/istanbul
+    status: historical
+    note: "Second grand vizierate, from 18 October 1859. The end of this stint is not set here, because the entry's account beyond that date was not read for this record."
+    sources: [source/tdv-mehmed-emin-pasa-kibrisli]
