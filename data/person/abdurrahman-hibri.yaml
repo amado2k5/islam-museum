@@ -1,0 +1,67 @@
+id: person/abdurrahman-hibri
+class: person
+
+label: { ar: "عبد الرحمن الحبري", en: "Abdurrahman Hibri", ur: "عبد الرحمن حبری" }
+
+names:
+  - { value: "Abdurrahman Efendi", kind: full }
+  - { value: "Hibrî", kind: pen }
+  - { value: "Salbaşzâde", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "عبد الرحمن الحبري (أيار 1604 – 1659)، مؤرخ وعالم وشاعر عثماني من أدرنة، ابن المدرّس المشهور حبّاز زاده حسن أفندي الملقّب بصالباش. درس في أدرنة وإسطنبول وقضى حياته مدرّسًا في مدارس أدرنة متدرّجًا حتى دار الحديث سنة 1658، وحجّ سنة 1632. أشهر آثاره «أنيس المسامرين» في تاريخ أدرنة وطبوغرافيتها وتراجم أعيانها، وله «دفتر أخبار» في التاريخ العثماني وتاريخا فتح روان وبغداد و«مناسك المسالك» في رحلة حجه."
+  en: "Abdurrahman Hibri (May 1604 – 1659) was an Ottoman historian, scholar and poet of Edirne, son of the noted müderris Habbazzâde Hasan Efendi, called Salbaş. Educated at Edirne and Istanbul, he spent his life teaching in Edirne's madrasas, rising to the Dârülhadis in 1658, and made the hajj in 1632. His chief work is the Enîsü'l-müsâmirîn, a history, topography and biographical survey of Edirne; he also wrote the Defter-i Ahbâr, histories of the conquests of Revan and Baghdad, and the Menâsik-i Mesâlik on his hajj journey."
+  ur: "عبد الرحمن حبری (مئی 1604ء – 1659ء) ادرنہ کے عثمانی مؤرخ، عالم اور شاعر تھے، مشہور مدرس حباز زادہ حسن آفندی عرف صالباش کے بیٹے۔ ادرنہ اور استنبول میں تعلیم پائی اور عمر بھر ادرنہ کے مدارس میں پڑھاتے رہے، 1658ء میں دار الحدیث کے مدرس بنے اور 1632ء میں حج کیا۔ ان کی مشہور ترین تصنیف «انیس المسامرین» ہے جو ادرنہ کی تاریخ، جغرافیہ اور اعیان کی سوانح پر ہے؛ اس کے علاوہ «دفترِ اخبار»، فتحِ روان و بغداد کی تواریخ اور حج کے سفر پر «مناسک المسالک» لکھی۔"
+
+roles: [historian, scholar, poet]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1604-05"
+  calendar: gregorian
+  precision: month
+  status: historical
+  hijri: "1012"
+  note: "Born at Edirne. The TDV entry dates the birth to Dhu al-Hijja 1012 AH and pairs that month with May 1604; the German article gives May 1604 flatly. The Hijri year is the entry's own pairing, not a conversion."
+  sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de]
+
+died:
+  edtf: "1659"
+  calendar: gregorian
+  precision: year
+  status: debated
+  hijri: "1069"
+  note: "Died at Edirne and was buried in the family cemetery in the Yıldırım quarter. The tombstone gives only the year 1069 AH, which spans 1658–1659; the TDV entry computes 1659, since he took the Edirne Dârülhadis post in 1658 and died the following year, while the German article gives 1658 or 1659. The TDV entry also shows how Şeyhî confused his posts and dates with those of Abdülkadir Efendi (d. 1087/1676), whose death year some researchers wrongly took for Hibri's; that reading is not followed."
+  sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de]
+
+relations:
+  - { type: born_in, target: place/edirne, sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself. The
+      TDV entry and the German article document a career spent in the
+      Ottoman ilmiye, teaching through Edirne's madrasas to the
+      Dârülhadis, and a hajj performed in 1632; office and milieu are
+      context under the founder's rules and settle nothing, so his
+      faith is recorded as unknown with the career stated.
+    sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de]
+
+external_ids: { wikidata: "Q317913" }
+
+sources:
+  - source/wikipedia-abdurrahman-hibri-de
+  - source/dia-hibri
+  - source/wikidata-abdurrahman-hibri
+
+provenance:
+  layer: own-research
+  source: "Sevim İlgürel's entry in the TDV İslâm Ansiklopedisi (print edition 1998, online edition read in-session 1 November 2026), the German Wikipedia article (revision 250388270 of 16 November 2024) and Wikidata Q317913 (item revision 2554051896 of 6 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the German article's own page property. No English, Turkish, Arabic or Urdu Wikipedia article on him exists; the Turkish Wikipedia article on the müneccimbaşı office is not about him. Existence checked against origin/main before building — no record holds this man under hibri, abdurrahman-hibri or any name fragment; the existing person/ali-efendi-hibri is a different, later man. Source disagreement recorded: the TDV entry calls Abdülkadir Efendi Hibri's brother, the German article his paternal uncle; no relation edge is built on either reading. Queue check: the queue's dates 1604–1659 are confirmed by the sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-175m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
