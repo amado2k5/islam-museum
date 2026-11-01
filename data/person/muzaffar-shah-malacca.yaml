@@ -1,0 +1,51 @@
+id: person/muzaffar-shah-malacca
+class: person
+
+label: { ar: "مظفر شاه سلطان ملقا", en: "Muzaffar Shah of Malacca", ur: "مظفر شاہ ملاکا" }
+
+names:
+  - { value: "Muzaffar Shah ibni Almarhum Sultan Muhammad Shah", kind: full }
+  - { value: "سلطان مظفر شاه ابن المرحوم سلطان محمد شاه", kind: full }
+  - { value: "Muzaffar Shah", kind: regnal }
+  - { value: "Raja Kassim", kind: alternate }
+  - { value: "Muzaffar Riayat Shah I", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "سلطان مظفر شاه (ت. 1459)، خامس سلاطين ملقا في جنوب شرق آسيا. وُلد باسم راجا قاسم ابنًا لسلطان محمد شاه، ونُصّب بعد وفاة أخيه غير الشقيق أبي شهيد شاه فحكم من 1445 أو 1446 إلى 1459. وهو عند الملايويين أول حكام ملقا تلقّب بالسلطان، وحرّر ملقا من تبعية أيوتايا، وصدّ هجوم سيام البحري سنة 1456 بقيادة تون بيراك، وحسم النزاع بين عمّه تون علي وتون بيراك بتطليق زوجته تون كودو ليتزوجها تون علي، فاستقر ملكه حتى وفاته سنة 1459 وخلفه ابنه منصور شاه."
+  en: "Sultan Muzaffar Shah (d. 1459), fifth sultan of Malacca in Southeast Asia. Born Raja Kassim, a son of Sultan Muhammad Shah, he was installed after the death of his half-brother Abu Syahid Shah and ruled from 1445 or 1446 until 1459. Malay tradition counts him the first Malacca ruler to bear the title of sultan; he freed Malacca from Ayutthaya's overlordship, repelled the Siamese sea attack of 1456 under Tun Perak, and settled the feud between his uncle Tun Ali and Tun Perak by divorcing his own wife Tun Kudu so that Tun Ali could marry her, stabilising his kingdom until his death in 1459, when his son Mansur Shah succeeded him."
+  ur: "سلطان مظفر شاہ (وفات 1459ء)، جنوب مشرقی ایشیا کی ملاکا سلطنت کے پانچویں سلطان۔ وہ راجا قاسم کے نام سے سلطان محمد شاہ کے بیٹے پیدا ہوئے اور اپنے سوتیلے بھائی ابو شاہد شاہ کی وفات کے بعد تخت نشین ہو کر 1445ء یا 1446ء سے 1459ء تک حکمران رہے۔ ملائی روایت میں وہ ملاکا کے پہلے حکمران ہیں جنھوں نے سلطان کا لقب اختیار کیا؛ انھوں نے ملاکا کو ایوتھایا کی بالا دستی سے آزاد کرایا، 1456ء میں تون پیراک کی قیادت میں سیام کے بحری حملے کو پسپا کیا، اور اپنے چچا تون علی اور تون پیراک کی دشمنی ختم کرنے کے لیے اپنی بیوی تون کودو کو طلاق دی تاکہ تون علی ان سے شادی کر لیں، یوں ان کی حکومت 1459ء میں ان کی وفات تک مستحکم رہی اور ان کے بیٹے منصور شاہ جانشین بنے۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1459"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1459: so the English and Malay articles, and Wikidata's single death value (+1459) agrees. No Hijri year is recorded (1459 CE spans 863–864 AH and no source pairs one), and no source read states where he died, so no place edge is written even though the museum has a Malacca place entity."
+  sources: [source/wikipedia-muzaffar-shah-malacca-en, source/wikipedia-muzaffar-shah-malacca-ms, source/wikidata-muzaffar-shah-malacca]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school or order for Muzaffar Shah, and none is recorded. The English and Malay articles' infoboxes both carry 'Sunni Islam', but the two editions report substantially the same Malay Annals tradition, so they are one attestation family rather than two independent sources, and no narrative sentence in either names a school for the man himself; Wikidata carries no religion value. The Islam of his court is context, not personal attestation. His documented practice is stated in full in the prose: on his accession he ordered his officers to uphold all the customs, traditions and prohibitions his late father had introduced, and Malay tradition credits his reign with the promulgation of Malacca's law code, begun under his father."
+    sources: [source/wikipedia-muzaffar-shah-malacca-en, source/wikipedia-muzaffar-shah-malacca-ms, source/wikidata-muzaffar-shah-malacca]
+
+external_ids: { wikidata: "Q4260059" }
+
+sources:
+  - source/wikipedia-muzaffar-shah-malacca-en
+  - source/wikipedia-muzaffar-shah-malacca-ms
+  - source/wikidata-muzaffar-shah-malacca
+
+provenance:
+  layer: own-research
+  source: "The English and Malay Wikipedia articles on Muzaffar Shah and Wikidata Q4260059, read in full (article text and wikitext; item claims) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. The founder commissioned this build in rulings packet #3 (Part 3, queue §H). No birth block is recorded: no source read gives a birth year, and the queue figure of 1400 is attested nowhere. The accession year is a preserved variant — 1445 in the Malay article (coronation in August 1445) against 1446 in the English article and in the Malay article's own succession box. No relations are written: his father Muhammad Shah of Malacca has no record in the museum, so the child_of edge that would belong in this record has no target, and his son Mansur Shah's child_of edge is written in the son's record, built in the same batch, as the write-once rule requires; his uncle Tun Ali has a record (person/tun-ali-malacca) but no kinship edge is written for an uncle in this lane, so that tie is prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-155h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

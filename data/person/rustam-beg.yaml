@@ -1,0 +1,58 @@
+id: person/rustam-beg
+class: person
+
+label: { ar: "رستم بيك بايندر", en: "Rustam Beg", ur: "رستم بیگ بایندر" }
+
+names:
+  - { value: "Abu'l-Muzaffar Sultan Rustam ibn Maqsud", kind: full }
+  - { value: "Rustam Beg Bayandur", kind: full }
+  - { value: "رستم بن مقصود بن اوزون حسن", kind: nasab }
+  - { value: "Sultan Rustam", kind: regnal }
+  - { value: "Rustam Beg", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أبو المظفر سلطان رستم بن مقصود بن أوزون حسن (ت. 1497)، خامس سلاطين الآق قوينلو. أخرجه خال أمه أيبه سلطان من سجن نخجوان فنُصّب في تبريز أواخر مايو 1492 بعد هزيمة ابن عمه بايسنقر، وعُرف بكرمه وبمقرراته للفقراء، وهزم سنة 1494 إسماعيل الصفوي الشاب، ثم خلعه ابن عمه أحمد بيك (گوده أحمد) سنة 1497 وقضى في تلك السنة في ظروف تختلف فيها المصادر. لا يُعرف تاريخ ميلاده بيقين."
+  en: "Abu'l-Muzaffar Sultan Rustam ibn Maqsud ibn Uzun Hasan (d. 1497), fifth sultan of the Aq Qoyunlu. Freed from prison at Nakhchivan by his maternal uncle Ayba-Sultan, he was enthroned at Tabriz at the end of May 1492 after the defeat of his cousin Baysunghur, was known for generosity and for stipends to the poor, defeated the young Ismail Safavi in 1494, and was deposed by his cousin Ahmad Beg (Göde Ahmad) in 1497, dying that year in circumstances the sources report differently. His birth date is not reliably known."
+  ur: "ابو المظفر سلطان رستم بن مقصود بن اوزون حسن (وفات 1497ء)، آق قویونلو کے پانچویں سلطان۔ ان کے ماموں ایبہ سلطان نے انھیں نخچیوان کی قید سے آزاد کرایا اور اپنے چچا زاد بھائی بایسنقر کی شکست کے بعد مئی 1492ء کے اواخر میں وہ تبریز میں تخت نشین ہوئے؛ وہ اپنی سخاوت اور غریبوں کے وظائف کے لیے مشہور ہوئے، 1494ء میں نوجوان اسماعیل صفوی کو شکست دی، پھر 1497ء میں ان کے چچا زاد بھائی احمد بیگ (گودہ احمد) نے انھیں معزول کیا اور اسی سال ان کی وفات ہوئی، جس کے حالات میں منابع مختلف ہیں۔ ان کی تاریخ ولادت یقینی طور پر معلوم نہیں۔"
+
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+
+died:
+  edtf: "1497"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The death year 1497 is unanimous across the English, Persian, Russian and Turkish articles and Wikidata. The circumstances conflict three ways and are all preserved: the English article says he was deposed by his cousin Ahmad Beg and executed several months later after a failed attempt to recover the throne; the Persian article says he was defeated and killed at Tabriz in 902 AH and buried at the Imamzadeh Chaharmanar there; the Russian article says he fled to Georgia and died there soon after. Because the place of death is contested, no died_in edge is written. No Hijri year is recorded (1497 CE spans 902–903 AH; the Persian article's pairing of the fatal campaign with 902 AH is preserved here as a reading)."
+  sources: [source/wikipedia-rustam-beg-en, source/wikipedia-rustam-beg-fa, source/wikipedia-rustam-beg-ru, source/wikidata-rustam-beg]
+
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-ru] }
+  - { type: related_to, target: person/uzun-hasan, note: "Grandfather, through his son Maqsud", sources: [source/wikipedia-rustam-beg-en, source/wikipedia-rustam-beg-ru] }
+  - { type: buried_in, target: place/tabriz, sources: [source/wikipedia-rustam-beg-fa] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No narrative source read names a legal school for Rustam Beg, and none is recorded. The English and Persian articles' infoboxes both carry 'Sunni Islam', but the two editions draw on an overlapping scholarly base (the Encyclopaedia Iranica entry on the Aq Qoyunlu is cited by both), so they are one attestation family rather than two independent sources; the Russian infobox gives only 'Islam', the Turkish article nothing, and Wikidata carries no religion value. The Aq Qoyunlu dynasty's Sunni character is context, not a personal attestation for the man himself. His documented acts are stated in full in the prose: unprecedented stipends for the poor and a reputation for generosity (Persian article), and the defeat of the young Ismail Safavi's Ardabil forces in 1494 (Russian article)."
+    sources: [source/wikipedia-rustam-beg-en, source/wikipedia-rustam-beg-fa, source/wikipedia-rustam-beg-ru, source/wikidata-rustam-beg]
+
+external_ids: { wikidata: "Q12845934" }
+
+sources:
+  - source/wikipedia-rustam-beg-en
+  - source/wikipedia-rustam-beg-fa
+  - source/wikipedia-rustam-beg-ru
+  - source/wikipedia-rustam-beg-tr
+  - source/wikidata-rustam-beg
+
+provenance:
+  layer: own-research
+  source: "The English, Persian, Russian and Turkish Wikipedia articles on Rustam Beg and Wikidata Q12845934, all read in full at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property; the item's sitelinks supplied the other editions' titles. The founder commissioned this build in rulings packet #3 (Part 3, queue §H); the identity is pinned identically in all four editions — Abu'l-Muzaffar Sultan Rustam, son of Maqsud Beg (the Baghdad governor executed in 1478) and grandson of Uzun Hasan, fifth sultan of the Aq Qoyunlu, reigned 1492–1497 — against the museum's other Rustams (Rustam Farrukhzad, Rustam Mirza the Timurid, Rustam Pasha, Shah Ghazi Rustam IV), none of whom is this man. No birth block is recorded: the Russian article states expressly that his birth date is not reliably known, no other edition gives one, the queue figure of 1465 is attested in no source read, and Wikidata's lone structured value of 1477 is unsourced and not adopted. His father Maqsud has no record in the museum, so no child_of edge can be written; the grandfather edge is written as related_to with the relationship stated, against Uzun Hasan's draft card, and the Tabriz birth and burial edges rest on the single editions named in them, as their source files disclose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-155h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
