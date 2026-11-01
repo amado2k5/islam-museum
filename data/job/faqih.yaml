@@ -1,0 +1,48 @@
+id: job/faqih
+class: job
+label: { ar: "الفقيه", en: "Jurist (faqih)", ur: "فقیہ" }
+summary:
+  ar: "الفقيه هو العالم بالأحكام العملية للشريعة، يستنبطها من أدلتها أو ينقلها عن مذهب معتمد، فيفتي بها ويعلّمها. كان اللفظ في الصدر الأول يدل على الفهم العميق للدين عامة، ثم استقر منذ أواخر القرن الثاني الهجري على علم الفقه، ومع نشوء المذاهب صار الفقيه غالباً تلميذاً لإمام مذهب ينقل قوله ويدافع عنه. والفقيه غير القاضي: يعرف الحكم ويُفتي به، أما القاضي فيحكم في الخصومة بولاية يتولاها."
+  en: "The jurist (faqih) is the scholar of the practical rules of the sharia. He derives a rule from its sources, or takes it from an accepted school, and then gives opinions and teaches. In the earliest period the word meant a deep understanding of religion in general. From the late second Islamic century it named the discipline of law, and once the schools took shape a jurist was usually a student who transmitted and defended the teaching of a school's founder. A jurist is not a judge: he knows the rule and gives opinions; the judge settles a dispute under an appointment."
+  ur: "فقیہ وہ عالم ہے جو شریعت کے عملی احکام جانتا ہے، انہیں ماخذ سے نکالتا ہے یا کسی معتبر مذہب سے لیتا ہے، پھر فتویٰ دیتا اور پڑھاتا ہے۔ ابتدائی دور میں لفظ دین کی عمومی گہری سمجھ کے لیے آتا تھا، اور دوسری صدی ہجری کے آخر سے یہ فقہ کے علم کا نام بن گیا۔ فقیہ قاضی نہیں: وہ حکم جانتا اور فتویٰ دیتا ہے، جبکہ قاضی مقرر ہو کر جھگڑا نمٹاتا ہے۔"
+domain: governance-law
+kind: scholarly
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0610/0632"
+    precision: decade
+    status: historical
+    note: "The entry says the root occurs about twenty times in the Qur'an, mostly in the sense of understanding deeply, and that in the Prophet's own time a faqih was described as an understanding, conscious and upright scholar of religion. The technical sense, the discipline of practical law, appears from the late second Islamic century (about the late eighth century CE), so the first-attested range is the widest the entry's account of the root supports."
+    sources: [source/tdv-fakih, source/tdv-fikih]
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "The Hijazi group of jurists worked from the practice of Medina, which they treated as a living Sunna; Malik taught there. The entry gives no date for the group's peak."
+    sources: [source/tdv-fikih]
+  - place: place/kufa
+    note: "The Iraqi group relied more on opinion. Ibn Mas'ud settled in Kufa and served there as teacher, judge and mufti, and the Iraqi jurists took their learning from him and from Ali's circle."
+    sources: [source/tdv-fikih]
+  - place: place/iraq
+    start: { edtf: "0846" }
+    end: { edtf: "0946" }
+    note: "In the first Abbasid period as the entry periodises it (846 to 946), judges in Iraq ruled by the Hanafi school, in Syria and the Maghreb by the Maliki school, and in Egypt by the Shafi'i school. A judge who heard a case from a litigant of another school appointed a deputy of that litigant's school for the case."
+    sources: [source/tdv-fikih]
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans]
+organization:
+  organized: informal
+training:
+  mode: ijaza-chain
+  certification: "Oral permission from a master to give fatwas and to teach, granted after study. From the medrese period, a written ijaza for teaching and fatwa (iftā and tedris) after an examination, which in the Ottoman state qualified the holder as judge or mufti. In Egypt (1872) and in the Istanbul Darulhilafe medreses (1914) the general ijaza became an official diploma. The Imami tradition added the marja's office, described in the article."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/gunpowder-empires, period/modern-era]
+outputs: [work/muwatta-malik, work/kitab-al-umm, work/al-risala-shafii, work/kitab-al-asl, work/bidayat-al-mujtahid]
+sources: [source/tdv-fikih, source/tdv-fakih, source/tdv-ictihad, source/tdv-icazet-egitim, source/tdv-icazet-fikih, source/tdv-merci-taklid]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi: 'FIKIH' (H. Karaman pp. 1–14, A. Özel pp. 14–22, A. Bardakoğlu pp. 22–27; vol. 13, 1996), 'FAKİH' (H. Karaman pp. 126–127; vol. 12, 1995), 'İCTİHAD' (H. Y. Apaydın pp. 432–445; vol. 21, 2000), 'İCÂZET' (C. Akpınar pp. 393–400, M. A. Sarı pp. 400–401, vol. 21, 2000; the fiqh part H. Y. Apaydın pp. 401–403), 'MERCİ-i TAKLÎD' (H. Algar pp. 172–174; vol. 29, 2004), all read on 1 Nov 2026 in the web edition; rewritten by Claude Code. Museum graph at this commit: 800 holders from roles, 216 prose leads; the three holders below are those whose roles include jurist and whose claims the entries above support"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-faqih"
+status: { review: published, completeness: 2 }
