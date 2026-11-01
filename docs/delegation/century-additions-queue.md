@@ -925,11 +925,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Badr Jafar — 1979–Living
 - [x] Sheikha Hoor Al Qasimi — 1980–Living
 - [x] Sheikha Bodour bint Sultan Al Qasimi — 1978–Living
-- [ ] Sheikha Al Mayassa bint Hamad Al Thani — 1983–Living
-- [ ] Hassan Al Thawadi — 1978–Living
-- [ ] Saad Sherida Al-Kaabi — 1967–Living
-- [ ] Akbar Al Baker — 1962–Living
-- [ ] Sheikh Ahmed bin Saeed Al Maktoum — 1958–Living
+- [x] Sheikha Al Mayassa bint Hamad Al Thani — 1983–Living
+- [x] Hassan Al Thawadi — 1978–Living
+- [x] Saad Sherida Al-Kaabi — 1967–Living
+- [x] Akbar Al Baker — 1962–Living
+- [x] Sheikh Ahmed bin Saeed Al Maktoum — 1958–Living
 - [ ] Tim Clark (Contemporary Aviation Leader) — 1949–Living
 - [ ] Ghaith Al Ghaith — 1963–Living
 - [ ] Adel Al Ali — 1960–Living
