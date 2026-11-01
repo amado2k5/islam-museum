@@ -930,11 +930,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Saad Sherida Al-Kaabi — 1967–Living
 - [x] Akbar Al Baker — 1962–Living
 - [x] Sheikh Ahmed bin Saeed Al Maktoum — 1958–Living
-- [ ] Tim Clark (Contemporary Aviation Leader) — 1949–Living
-- [ ] Ghaith Al Ghaith — 1963–Living
-- [ ] Adel Al Ali — 1960–Living
-- [ ] Tony Fernandes — 1964–Living
-- [ ] Syed Mokhtar AlBukhary — 1951–Living
+- [x] Tim Clark (Contemporary Aviation Leader) — 1949–Living
+- [x] Ghaith Al Ghaith — 1963–Living
+- [x] Adel Al Ali — 1960–Living
+- [x] Tony Fernandes — 1964–Living
+- [x] Syed Mokhtar AlBukhary — 1951–Living
 - [ ] Vincent Tan (Contemporary) — 1952–Living
 - [ ] Robert Kuok (Contemporary) — 1923–Living
 - [ ] Ananda Krishnan (Contemporary) — 1938–Living
