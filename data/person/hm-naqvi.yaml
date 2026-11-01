@@ -1,0 +1,53 @@
+id: person/hm-naqvi
+class: person
+
+label: { ar: "إتش إم نقوي", en: "H. M. Naqvi", ur: "ایچ ایم نقوی" }
+
+names:
+  - { value: "H. M. Naqvi", kind: full }
+  - { value: "Husain M. Naqvi", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "إتش إم نقوي (وُلد سنة 1973 بتأريخ المقالة الإنجليزية) روائي باكستاني يقيم في كراتشي. وُلد في لندن ونشأ في كراتشي، وتخرج في جامعة جورج تاون سنة 1996، وعمل في البنك الدولي من 1997 إلى 2003، ودرس الكتابة الإبداعية في جامعة بوسطن بإشراف ها جين. فازت روايته الأولى «Home Boy» (2009)، عن ثلاثة شبان باكستانيين في نيويورك بعد هجمات أيلول 2001، بجائزة «دي إس سي» الأولى لأدب جنوب آسيا سنة 2011؛ وصدرت روايته الثانية «The Selected Works of Abdullah the Cossack» سنة 2019."
+  en: "H. M. Naqvi (born 1973 on the English article's dating) is a Pakistani novelist based in Karachi. Born in London and brought up in Karachi, he graduated from Georgetown University in 1996, worked at the World Bank from 1997 to 2003, and studied creative writing at Boston University under Ha Jin. His debut novel Home Boy (2009), about three young Pakistanis in New York after the September 2001 attacks, won the inaugural DSC Prize for South Asian Literature in 2011; his second novel, The Selected Works of Abdullah the Cossack, appeared in 2019."
+  ur: "ایچ ایم نقوی (پیدائش 1973، انگریزی مقالے کی تاریخ کے مطابق) کراچی میں مقیم پاکستانی ناول نگار ہیں۔ لندن میں پیدا ہوئے، کراچی میں پلے بڑھے، 1996 میں جارج ٹاؤن یونیورسٹی سے فارغ التحصیل ہوئے، 1997 سے 2003 تک ورلڈ بینک میں کام کیا، اور بوسٹن یونیورسٹی میں ہا جن کے زیرِ نگرانی تخلیقی تحریر پڑھی۔ ان کے پہلے ناول «Home Boy» (2009) نے، جو ستمبر 2001 کے حملوں کے بعد نیویارک میں تین نوجوان پاکستانیوں کی کہانی ہے، 2011 میں جنوبی ایشیائی ادب کا پہلا ڈی ایس سی انعام جیتا؛ دوسرا ناول «The Selected Works of Abdullah the Cossack» 2019 میں آیا۔"
+
+roles: [writer]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1973"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article's lead and infobox give 1973, born in London and brought up in Karachi, the year cited there to his University of Iowa International Writing Program biography; the Urdu article files him under 1973 births as well. Wikidata instead gives July 1974, and the Literary Encyclopedia's profile also gives 1974, adding that he was born into a diplomatic family. The record builds the articles' 1973 under the status debated and carries the conflict here in full. A bare 1973 spans the Hijri years 1392 and 1393, so no Hijri year is recorded. The museum has no place entity for London or for Karachi, so no born_in edge is written."
+  sources: [source/wikipedia-hm-naqvi-en, source/wikipedia-hm-naqvi-ur, source/wikidata-hm-naqvi, source/literary-encyclopedia-hm-naqvi]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a religion for Naqvi, and Wikidata carries no
+      religion statement for him. His surname, his family background and the
+      Muslim protagonists of his fiction are not attestation of a personal
+      affiliation — family background never counts, and the themes of a
+      novel never count. Recorded as unknown on absence of attestation.
+    sources: [source/wikipedia-hm-naqvi-en, source/wikidata-hm-naqvi, source/literary-encyclopedia-hm-naqvi]
+
+external_ids: { wikidata: "Q5628399" }
+
+sources:
+  - source/wikipedia-hm-naqvi-en
+  - source/wikipedia-hm-naqvi-ur
+  - source/wikidata-hm-naqvi
+  - source/literary-encyclopedia-hm-naqvi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'H. M. Naqvi' (revision 1371570343 of 27 August 2026), Urdu Wikipedia article 'ایچ ایم نقوی' (revision 10465541 of 17 May 2026) and Wikidata Q5628399 (item revision 2549276976 of 25 September 2025), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property; the Literary Encyclopedia profile read on its site the same day. No Arabic Wikipedia article on him exists, so the record's Arabic label and prose are the museum's own. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's 'b. 1973' follows the English and Urdu articles; Wikidata and the Literary Encyclopedia give 1974, carried in the born note under debated. The expanded name supplied with the brief, 'Hussain Mohammed Naqvi', is attested in no source read — the sources expand the initials as Husain M. Naqvi (Literary Encyclopedia; Publishers Weekly) — and the record uses the attested form."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-160a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

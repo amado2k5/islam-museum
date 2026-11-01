@@ -15,3 +15,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## چھوٹے قارئین کے لیے
 وہ سمجھتے تھے کہ کوئی پرندہ یا دن نحوست لاتا ہے، تو اسلام نے سکھایا کہ یہ توہم پرستی ہے۔
+
+## زغلول النجار کے سلسلے «الحضارة النبوية» میں
+[[work/el-hadara-el-nabaouia|الحضارة النبوية]] میں [[person/zaghloul-el-naggar|زغلول النجار]] اس حدیث کی شرح کرتے ہیں کہ عیافہ، طیرہ اور طرق جبت میں سے ہیں، اور پرندے اڑانے کا طریقہ بیان کرتے ہیں جس میں لوگ پرندہ چھوڑتے، دائیں اڑے تو نیک شگون لیتے اور بائیں اڑے تو اپنا کام چھوڑ دیتے؛ اور کہتے ہیں کہ یہ سب اللہ پر توکل اور اس یقین کے خلاف ہے کہ کچھ بھی اس کے حکم کے بغیر نہیں ہوتا۔ {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep16 00:02:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep16 00:02:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep16 00:03:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep16 00:05:00} وہ معاویہ بن الحکم السلمی کے بدشگونی لینے والوں کے بارے میں سوال اور نبی کا یہ جواب ذکر کرتے ہیں کہ یہ ایک چیز ہے جو وہ اپنے سینوں میں پاتے ہیں، تو یہ انہیں نہ روکے۔ {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep16 00:09:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep16 00:09:30}

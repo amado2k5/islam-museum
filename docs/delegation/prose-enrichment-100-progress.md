@@ -404,3 +404,57 @@ About sixty other candidates were listed but not read (for example nahr-kur, naj
 
 The a–m <20-word book-sourced pool is now empty: every remaining candidate was either enriched above or logged here as a lead.
 n
+
+## n–z batch 14 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 14
+
+- **place/qarantiyya** (Idrisi pp. 707–710). First Kimak city on the lake of Ghaghan, the ten-stage desert road from Atraqana, the water route from Banjar, Ghaghan to its west. The earlier summary (seven days from Bakhwan) is supported by p. 708 and kept.
+- **place/qatania** (pp. 596, 597, 624). The elephant talisman, the flooding river, the Wadi Musa, the coastal distances.
+- **place/qalimriyya** (pp. 547, 552, 726). **Corrected the data summary**: the river is Mundiq on both pages, not "Bugu". The pages disagree on whether it runs west or east of the city; both are reported.
+- **place/tortosa** (pp. 538, 554, 555). Pine shipbuilding, two stages (fifty miles) from Mikhnasa, twelve miles to the mouth of the Nabr.
+- **place/shunayl** (pp. 569, 570, 572). **Corrected the record**: Shunayl is the river (the "snow river" from Jabal Shulayr), not a town; the old summary described Istija. Kind changed to river.
+- **place/nisu** (pp. 795, 893). Town on the Morava with a large bridge, forty miles from Atrubi. The name of the neighbouring city on p. 795 is garbled and is not given.
+
+### Leads, batch 14
+
+- **place/ozburk.** pp. 745–746, 872 give only distances (thirty miles from Alma/Ulm, in the region of Sawaba); no description of the town. Lead.
+- **place/naples** (label `نابل`). p. 293 and p. 302 describe a ruined fort called Nabil on the Tunisian coast (a Roman city destroyed after the conquest); p. 757 may describe another place. The record's identity is unclear and needs checking against the pages before any prose is written. Lead.
+- **place/suq-al-arbaa.** p. 398 gives about seventy words (a fine town, a famous weekly market, fruit, trade, one stage from Askar Mukram). Lead.
+- **place/qafiz.** pp. 313–315 give a station on a desert road with tribes; no description. Lead.
+
+## n–z batch 13 (Claude Sonnet 5.5, place, Idrisi)
+
+Remaining n–z Idrisi places were ranked by the length of the OCR paragraph around each Arabic label (paragraph markers in pages.json), so batches go to the entities with the most source text first. Common-word labels (sus-khuzistan, tarabulus-sham, tarabulus-gharb, najaa, qarnayn) are skipped, because the label hits are other words or persons.
+
+### Enriched, batch 13
+
+- **place/shadhrawan** (Idrisi pp. 393, 395). The Shapur weir at Tustar, the Dujayl/Masruqan channels and irrigation, the Daniel-coffin tradition reported from al-Hawqali (attributed, not asserted).
+- **place/tawawis** (pp. 495, 496). Town inside the wall of Bukhara, its market, cotton cloth, tiraz, citadel, neighbours.
+- **place/tadlis** (pp. 222, 259, 273). **Corrected the data summary**: p. 259 says twenty-four miles from Marsa al-Dajaj, not four stages.
+- **place/wadi-ash** (pp. 537, 567, 568). The road from Abla plain to Granada, the meeting of roads, the road to Basta.
+- **place/safru** (pp. 222, 243, 249). Small settled town, one stage from Fez, the Sijilmasa and Tlemcen caravan roads. **Corrected the data summary**: it said sparsely populated; the page's `متحضرة` means settled.
+- **place/rahbat-malik** (pp. 650, 656, 657). The Euphrates station, thirty miles from al-Daliya, two stages to al-Khabur. The earthen-wall phrase is garbled in the OCR and is omitted.
+- **place/talabira** (pp. 538, 551, 553). The Tagus city, seventy miles from Toledo, mills, the river's course to Lisbon.
+
+### Leads, batch 13
+
+- **place/qalhat.** p. 156 gives only one distance (two hundred miles to Sohar); p. 155 is about Mahra and does not describe the town. Lead.
+
+### Skipped, batch 13
+
+- **place/sus-khuzistan**, **tarabulus-sham**, **tarabulus-gharb**, **najaa**, **qarnayn**: common-word or non-place labels.
+
+## n–z batch 15 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 15
+
+- **place/shaqqa** (Idrisi pp. 600, 607). Sicilian port, its district of Qal'at al-Ballut, distances to Karkant and Mazar. The two pages give nine miles (p. 600) and four Frankish miles, said to be twelve (p. 607) from the fort to the town; the body reports both.
+- **place/shatiba** (pp. 538, 556, 557). Proverbial citadel, unrivalled paper, distances to Shuqr, Denia and Valencia, Denia's shipyard.
+- **place/sardinia** (p. 584). Size, mountains, silver mines, three towns, the people, the crossings to Minorca and Corsica.
+- **place/salonik** (pp. 793, 794, 797, 800). The city on the small gulf, the road from Daras, neighbours Randhina and Akhrasubli.
+
+### Leads, batch 15
+
+- **place/setif.** pp. 260 and 269 give about seventy words (a large fortress populous as a city, much water and fruit, walnuts exported, two stages from Bijaya, four from Constantine); p. 270 mixes the tribe's customs into the passage and is not used. Lead.
+- **place/orleans.** pp. 736, 743, 862 give only distances (sixty miles from Tours and from Itruwish) and a line on a settled city with markets and crafts. Lead.
