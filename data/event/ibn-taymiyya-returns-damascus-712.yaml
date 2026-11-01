@@ -1,0 +1,28 @@
+id: event/ibn-taymiyya-returns-damascus-712
+class: event
+kind: migration
+label:
+  ar: "عودة ابن تيمية إلى دمشق في ولاية تنكز، ٧١٢هـ/١٣١٣م"
+  en: "Ibn Taymiyya's return to Damascus under Tankiz, 712/1313"
+  ur: "ابن تیمیہ کی دمشق واپسی، تنکز کے دور میں، 712ھ/1313ء"
+summary:
+  ar: "بعد ثلاث سنين في القاهرة — كان فيها يستشيره الناصر في أمور الشام ويشرع في كتابه «السياسة الشرعية» — أعاده تهديد مغولي انقضى سريعاً إلى دمشق فدخلها في ١ ذي القعدة ٧١٢هـ/٢٨ فبراير ١٣١٣م مارّاً بالقدس، في عهد النائب الجديد تنكز (٧٤٠هـ/١٣٤٠م). فيها قضى سني عمره الأخيرة الخمس عشرة مُدرّساً يعدّه أنصاره مجتهداً مستقلاً، وأشهر تلاميذه ابن قيم الجوزية الذي نشر مذاهبه وشاركه بعض اضطهاده {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}."
+  en: "After three years in Cairo — consulted by al-Nasir on Syrian affairs and beginning his treatise al-Siyasa al-shar'iyya — a new Mongol threat, quickly dispelled, sent Ibn Taymiyya back to Damascus, which he entered via Jerusalem on 1 Dhu al-Qa'da 712/28 February 1313, under the new governor Tankiz (d. 740/1340). There he spent his last fifteen years as a professor regarded by his supporters as an independent mujtahid, with Ibn Qayyim al-Jawziyya (d. 751/1350) his chief pupil, spreading his ideas and sharing some of his persecution {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}."
+  ur: "قاہرہ میں تین برس — جس دوران الناصر انہیں شام کے معاملات میں مشورہ لیتا اور انہوں نے اپنی کتاب «السیاسہ الشرعیہ» شروع کی — کے بعد ایک نیا منگول خطرہ، جو جلد ٹل گیا، انہیں دمشق لوٹا آیا؛ وہ بیت المقدس کے راستے 1 ذوالقعدہ 712ھ/28 فروری 1313ء کو دمشق داخل ہوئے، نئے نائب تنکز (وفات 740ھ/1340ء) کے عہد میں۔ وہاں انہوں نے عمر کے آخری پندرہ برس بطور مدرس گزارے، ان کے حامی انہیں مستقل مجتہد مانتے تھے، اور ان کے ممتاز شاگرد ابن قیم الجوزیہ (وفات 751ھ/1350ء) ان کی افکار کی اشاعت کرتے اور ان کی اذیت میں شریک ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "1313-02-28", hijri: "0712-11-01", calendar: julian, precision: day, status: historical, derived: true, note: "دخل دمشق ١ ذي القعدة ٧١٢هـ/٢٨ فبراير ١٣١٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/jerusalem, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "العائد المُدرّس", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 984 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

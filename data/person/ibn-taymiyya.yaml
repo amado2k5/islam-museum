@@ -4,8 +4,8 @@ label: { ar: "ابن تيمية", en: "Ibn Taymiyya" }
 names:
   - { kind: full, lang: ar, value: "تقي الدين أحمد بن عبد الحليم بن تيمية الحراني الحنبلي" }
 gender: male
-born: { hijri: "0661", status: tradition, note: "The dates come from the title page of the al-Matba'a al-Salafiyya edition of al-Wasitiyya (661 to 728); one source, a second is needed.", sources: [source/shadharat-dhahab, source/aqida-wasitiyya] }
-died: { hijri: "0728", status: tradition, note: "From the same title page; one source, a second is needed.", sources: [source/aqida-wasitiyya] }
+born: { hijri: "0661-03-10", edtf: "1263-01-22", calendar: julian, precision: day, status: historical, derived: true, note: "ولد بحران في ١٠ ربيع الأول ٦٦١هـ/٢٢ يناير ١٢٦٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق. The year alone (661) also on the title page of the al-Matba'a al-Salafiyya edition of al-Wasitiyya.", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/aqida-wasitiyya] }
+died: { hijri: "0728-11-20", edtf: "1328-09-26", calendar: julian, precision: day, status: historical, derived: true, note: "توفي بقلعة دمشق في ٢٠ ذي القعدة ٧٢٨هـ/٢٦ سبتمبر ١٣٢٨م ودفن بمقبرة الصوفية {cite:encyclopaedia-of-islam-2 vol. 3 p. 985}؛ التحويل مشتق. The year 728 also on the Wasitiyya title page.", sources: [source/encyclopaedia-of-islam-2, source/aqida-wasitiyya] }
 roles: [scholar, jurist, theologian]
 traditions: [sunni]
 summary:
@@ -20,9 +20,24 @@ faith:
 relations:
   - { type: authored, target: work/aqida-wasitiyya, sources: [source/aqida-wasitiyya] }
   - { type: authored, target: work/iqtida-al-sirat-al-mustaqim, sources: [source/kashf-zunun-furqan] }
+  - { type: born_in, target: place/harran, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-harran-exodus-667, role: "الولد النازح مع أهله", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-first-lesson-683, role: "المُدرّس الخلف لأبيه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-hajj-691, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-assaf-affair-693, role: "المدّعي المتشدد فالمسجون", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-hanbaliyya-695, role: "المُدرّس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-hamawiyya-698, role: "صاحب العقيدة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ghazan-syria-700, role: "المحرّض على الجهاد في البريد إلى القاهرة", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-taymiyya-shaqhab-702, role: "المفتي للمقاتلين بالإفطار", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-wasitiyya-trial-705, role: "صاحب العقيدة فالمسجون", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-alexandria-exile-709, role: "المنفي الكاتب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-returns-damascus-712, role: "العائد المُدرّس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-talaq-imprisonment-720, role: "المفتي المسجون", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-taymiyya-final-imprisonment-726, role: "المسجون حتى وفاته", sources: [source/encyclopaedia-of-islam-2] }
 provenance: { layer: own-research, source: "aqida wasitiyya; tarikh al-khulafa; assabile al-mubdioune ep21 lecture (2026-10 transcription)", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: "wasitiyya-1 , lib-durar-kamina-batch-1-2-2026-10-31"}
 external_ids:
   wikidata: Q491558
 sensitivity: contested
-sources: [source/aqida-wasitiyya, source/tarikh-khulafa-minhaj-1434, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/durar-kamina-jil-1993]
+sources: [source/aqida-wasitiyya, source/tarikh-khulafa-minhaj-1434, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 1, generated_by: "Claude Sonnet 5.5; from the title page of the edition, no prose yet" }

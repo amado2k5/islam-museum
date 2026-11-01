@@ -1,0 +1,27 @@
+id: event/ibn-taymiyya-hanbaliyya-695
+class: event
+kind: other
+label:
+  ar: "تدريس ابن تيمية في الحنبلية بدمشق، ٦٩٥هـ/١٢٩٦م"
+  en: "Ibn Taymiyya begins teaching at the Hanbaliyya, 695/1296"
+  ur: "ابن تیمیہ کا مدرسہ حنبلیہ میں تدریس کا آغاز، 695ھ/1296ء"
+summary:
+  ar: "في ١٧ شعبان ٦٩٥هـ/٢٠ يونيو ١٢٩٦م بدأ ابن تيمية التدريس في المدرسة الحنبلية، أقدم مدارس الحنابلة بدمشق، خلفاً لأحد شيوخه زين الدين بن المنجا الذي كان قد توفي للتو. وفي عهد الملك المنصور لاجين (٦٩٦-٦٩٨هـ) عيّنه السلطان محرّضاً للناس على الجهاز للحملة على مملكة أرمينيا الصغرى {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  en: "On 17 Sha'ban 695/20 June 1296 Ibn Taymiyya began teaching at the Hanbaliyya, the oldest Hanbali madrasa of Damascus, succeeding his late teacher Zayn al-Din Ibn al-Munajja. Under al-Malik al-Mansur Lajin (696-8/1297-9) the sultan appointed him to exhort the faithful to jihad for the expedition against the kingdom of Little Armenia {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  ur: "17 شعبان 695ھ/20 جون 1296ء کو ابن تیمیہ نے حنبلیہ — دمشق کے قدیم ترین حنبلی مدرسے — میں تدریس شروع کی، اپنے متوفی استاد زین الدین ابن المنجا کے جانشیں ہوئے۔ الملک المنصور لاجین کے عہد (696-698ھ) میں سلطان نے انہیں مملوک سلطنت کی مہم کے لیے لوگوں کو جہاد کی ترغیب دینے پر مقرر کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1296-06-20", hijri: "0695-08-17", calendar: julian, precision: day, status: historical, derived: true, note: "بدء التدريس في الحنبلية ١٧ شعبان ٦٩٥هـ/٢٠ يونيو ١٢٩٦م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المُدرّس", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 983 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -910,11 +910,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] M. A. Yusuff Ali — 1955–Living
 - [x] Renuka Jagtiani (Contemporary) — 1954–Living
 - [x] Joy Alukkas (Contemporary) — 1956–Living
-- [ ] Ravi Pillai (Contemporary) — 1953–Living
-- [ ] Sunny Varkey — 1957–Living
-- [ ] Yusuf Hamied — 1936–Living
-- [ ] Habil Khorakiwala — 1942–Living
-- [ ] Faizal Kottikollon — 1963–Living
+- [x] Ravi Pillai (Contemporary) — 1953–Living
+- [x] Sunny Varkey — 1957–Living
+- [x] Yusuf Hamied — 1936–Living
+- [x] Habil Khorakiwala — 1942–Living
+- [x] Faizal Kottikollon — 1963–Living
 - [ ] Dr. Azad Moopen — 1953–Living
 - [ ] Shamsheer Vayalil — 1977–Living
 - [ ] Firoz Merchant — 1958–Living
