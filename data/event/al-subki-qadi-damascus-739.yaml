@@ -1,0 +1,28 @@
+id: event/al-subki-qadi-damascus-739
+class: event
+kind: other
+label:
+  ar: "السبكي قاضي قضاة دمشق، ٧٣٩هـ"
+  en: "Al-Subki becomes chief qadi of Damascus, 739/1339"
+  ur: "سبکی دمشق کے قاضی القضاة، 739ھ/1339ء"
+summary:
+  ar: "في سنة ٧٣٩هـ قدِم القاضي تقي الدين علي بن عبد الكافي السبكي الشافعي من الديار المصرية حاكماً على دمشق وأعمالها، ففرح الناس به لعلمه وديانته وأمانته، ونزل بالعادلية الكبيرة على عادة من تقدّمه، ودرّس بالغزالية والأتابكية، وكانت ولايته بعد وفاة قاضي القضاة جلال الدين محمد بن عبد الرحمن القزويني {cite:al-bidaya-wal-nihaya s.a. 739 pp. 195-196}؛ ودام في الحكم نحو سبع عشرة سنة {cite:al-bidaya-wal-nihaya s.a. 756 p. 264}."
+  en: "In 739 AH Taqi al-Din al-Subki came from Egypt as judge of Damascus and its districts; the people rejoiced at his learning, piety and honesty. He lodged at the Adiliyya al-Kubra as his predecessors had, taught at the Ghazzaliyya and the Atabakiyya, and succeeded the late chief qadi Jalal al-Din Muhammad ibn Abd al-Rahman al-Qazwini {cite:al-bidaya-wal-nihaya s.a. 739 pp. 195-196}. He held the bench about seventeen years {cite:al-bidaya-wal-nihaya s.a. 756 p. 264}."
+  ur: "739ھ میں تقی الدین سبکی مصر سے دمشق اور اس کے اطراف کے قاضی بن کر آئے؛ لوگ ان کے علم، دینداری اور امانت پر خوش ہوئے۔ وہ روایتی طور پر عادلیہ کبریٰ میں ٹھہرے، غزالیہ اور اتابکیہ میں تدریس کی، اور جلال الدین محمد بن عبد الرحمٰن قزوینی کے منصب پر فائز ہوئے {cite:al-bidaya-wal-nihaya s.a. 739 pp. 195-196}۔ وہ تقریباً سترہ برس قاضی رہے {cite:al-bidaya-wal-nihaya s.a. 756 p. 264}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1339-01-12~", hijri: "0739-06-19", calendar: julian, precision: day, status: historical, derived: true, note: "ولي قضاء دمشق في ١٩ جمادى الآخرة ٧٣٩هـ {cite:durar-kamina-jil-1993 3/64}؛ وقدم من الديار المصرية حاكماً في سنة ٧٣٩هـ {cite:al-bidaya-wal-nihaya s.a. 739 pp. 195-196}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "قاضي القضاة الجديد", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/jalal-al-din-al-qazwini, role: "سلفه في القضاء، المتوفى قبلها", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 739 printed pp. 195-196 and s.a. 756 p. 264 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
