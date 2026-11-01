@@ -5,7 +5,7 @@
 // The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
 // src/rules.generated.js): static assets consume _redirects and _headers themselves
 // and do not serve them, so they cannot be fetched through env.ASSETS.
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget } from "./route.js";
+import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget, parseHostRewrites, rewriteHost, robotsDisallowed, ROBOTS_DISALLOW_TEXT, ROBOTS_NOINDEX_TAG } from "./route.js";
 import { redirectsText, headersText, aliasesText } from "./rules.generated.js";
 
 const rules = {
@@ -44,17 +44,42 @@ function withHeaders(response, blocks, pathname) {
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
 }
 
+// Per-environment settings (wrangler `[env.<name>.vars]`): the same code serves production and UAT,
+// and only these values differ. Parsed once per isolate; the vars never change while it runs.
+let settings = null;
+function settingsFor(env) {
+  if (!settings) settings = { hostRewrites: parseHostRewrites(env.HOST_REWRITES), noindex: robotsDisallowed(env) };
+  return settings;
+}
+
 export default {
   async fetch(request, env) {
     if (request.method !== "GET" && request.method !== "HEAD") return env.ASSETS.fetch(request);
     const url = new URL(request.url);
-    const respond = (response) => withHeaders(response, rules.headers, url.pathname);
+    const { hostRewrites, noindex } = settingsFor(env);
+    const respond = (response) => {
+      const out = withHeaders(response, rules.headers, url.pathname);
+      if (!noindex) return out;
+      const headers = new Headers(out.headers);
+      headers.set("x-robots-tag", ROBOTS_NOINDEX_TAG);
+      return new Response(out.body, { status: out.status, statusText: out.statusText, headers });
+    };
+    // A rule target that names another production host (the API) is translated to this
+    // environment's host; production has no rewrites, so its Locations are unchanged.
+    const location = (to) => rewriteHost(redirectLocation(to), hostRewrites);
+
+    if (noindex && url.pathname === "/robots.txt") {
+      return respond(new Response(request.method === "HEAD" ? null : ROBOTS_DISALLOW_TEXT, {
+        status: 200,
+        headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "no-store" },
+      }));
+    }
 
     const rule = rules.static.get(url.pathname);
-    if (rule) return respond(redirectTo(redirectLocation(rule.to), rule.status));
+    if (rule) return respond(redirectTo(location(rule.to), rule.status));
 
     const dynamic = matchDynamicRedirect(rules.dynamic, url.pathname);
-    if (dynamic) return respond(redirectTo(redirectLocation(dynamic.location), dynamic.status));
+    if (dynamic) return respond(redirectTo(location(dynamic.location), dynamic.status));
 
     const target = resolve(url.pathname);
     if (target.type === "assets") {

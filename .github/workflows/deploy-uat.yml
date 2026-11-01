@@ -1,0 +1,50 @@
+name: Deploy islam.museum to UAT
+
+# UAT (user acceptance testing): https://uat.islam.museum, API at https://uat-api.islam.museum.
+# Manual only, like the production deploy. It deploys the very same build artifact the
+# production workflow would, with the same steps (deploy-env.yml), into the `uat` GitHub
+# Environment: bucket islam-museum-uat, Workers islam-museum-site-uat and
+# islam-museum-r2-sync-uat[-N], Pages project islam-museum-uat. Nothing it does reaches
+# islam.museum, islam-museum-search or any other production resource: the shared workflow
+# refuses a UAT run that names one, and the UAT S3 keys are scoped to the UAT bucket.
+#
+# Review flow: start this workflow (empty build_run_id: the latest successful build of main),
+# check https://uat.islam.museum, then start "Deploy islam.museum to Cloudflare" with the same
+# build_run_id (shown in this run's summary) to publish the identical build to production.
+#
+# UAT is never indexed: the UAT Worker answers /robots.txt with "Disallow: /" and marks every
+# response noindex; the pages still carry production canonical URLs, as the build is the same.
+on:
+  workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main."
+        required: false
+        type: string
+      seed:
+        description: "First publish into the empty UAT bucket (or after the bucket was emptied): record what is there instead of failing on the missing manifest. Harmless once a manifest exists."
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  deployments: write
+  # Read another run's artifact.
+  actions: read
+
+concurrency:
+  group: deploy-uat
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  uat:
+    uses: ./.github/workflows/deploy-env.yml
+    with:
+      environment: uat
+      build_run_id: ${{ inputs.build_run_id }}
+      seed: ${{ inputs.seed }}
+    # The `uat` Environment's own R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY and R2_SYNC_TOKEN
+    # override the repository ones of the same name; CLOUDFLARE_* are shared.
+    secrets: inherit
