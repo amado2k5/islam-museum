@@ -1847,11 +1847,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Sultan Al-Rashid of Morocco — 1631–1672
 - [x] Sultan Mohammed ibn al-Sharif — 1630–1664
 - [x] Ahmad ibn Mubarak al-Lamti — 1670–1743
-- [ ] Muhammad al-Mahdi al-Fasi — 1624–1698
-- [ ] Historian Al-Ifrani (Ahmed al-Mansur's successors row) — 1670–1747
-- [ ] Murad III Bey — 1640–1702
-- [ ] Muhammad Bey al-Muradi — 1655–1696
-- [ ] Hussein ben Ali al-Turki — 1669–1735
+- [x] Muhammad al-Mahdi al-Fasi — 1624–1698
+- [x] Historian Al-Ifrani (Ahmed al-Mansur's successors row) — 1670–1747
+- [x] Murad III Bey — 1640–1702
+- [x] Muhammad Bey al-Muradi — 1655–1696
+- [x] Hussein ben Ali al-Turki — 1669–1735
 - [ ] Sultan Haji of Banten — 1639–1687
 - [ ] Sultan Amangkurat I of Mataram — 1619–1677
 - [ ] Sultan Amangkurat II — 1645–1703
