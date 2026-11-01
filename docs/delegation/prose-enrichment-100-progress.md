@@ -445,6 +445,21 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 
 - **place/sus-khuzistan**, **tarabulus-sham**, **tarabulus-gharb**, **najaa**, **qarnayn**: common-word or non-place labels.
 
+## n–z batch 16 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 16
+
+- **place/qasriyani** (Idrisi pp. 611, 612, 613). Hilltop city, eighteen miles from Qal'at al-Nisa, the Salt River on its east.
+- **place/shabruna** (pp. 877, 878). Distances to Astarkuna (capital of Buwamiya), Jik Lbuqa and Wiyana. The name varies in the manuscripts and the pages give no identification; the entry offers none.
+- **place/shahdhuruj** (pp. 928, 929). The island city, the five-day road from Dadmi, the Asqasqa mountain and the "Stinking Land". The OCR of the phrase after "standing water" (`أكثرها أقاصير`) is unclear and is not translated.
+- **place/thinkh** (pp. 510, 513, 514). Tibetan town on a mountain top, trade with Kabul, Wakhan, Khuttal and Wakhsh, musk and iron, the deep cave and the river of Thinkh. The p. 513 sentences on the slave trade are left out of the entry's prose.
+- **place/sierra-nevada** (pp. 564, 567, 569, 570). The snow mountain, Granada and Wadi Ash to its north, the forts at its foot (Fariyra's walnuts, Dhalar's pears), the river falling at Adhra.
+
+### Leads, batch 16
+
+- **place/surqusa.** pp. 597, 614, 624 give Syracuse only as a stage on routes and a coastal distance; no description of the city. Lead.
+- **place/sayda.** pp. 366, 370, 371 give Sidon only in route distances (eight miles to al-Jiya, fifteen from Sarafand). Lead.
+
 ## n–z batch 15 (Claude Sonnet 5.5, place, Idrisi)
 
 ### Enriched, batch 15
