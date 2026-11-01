@@ -830,11 +830,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Amr Shabana — 1979–Living
 - [x] Ahmed Barada — 1977–Living
 - [x] Raneem El Welily — 1989–Living
-- [ ] Nur El Tayeb — 1993–Living
-- [ ] Hania El Hammamy — 2000–Living
-- [ ] Mostafa Asal — 2001–Living
-- [ ] Diego Elías (Contemporary) — 1996–Living
-- [ ] Sholeh Wolpé — 1962–Living
+- [x] Nur El Tayeb — 1993–Living
+- [x] Hania El Hammamy — 2000–Living
+- [x] Mostafa Asal — 2001–Living
+- [x] Diego Elías (Contemporary) — 1996–Living
+- [x] Sholeh Wolpé — 1962–Living
 - [ ] Kaveh Akbar — 1989–Living
 - [ ] Reza Aslan — 1972–Living
 - [ ] Azar Nafisi — 1948–Living
