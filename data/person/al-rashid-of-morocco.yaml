@@ -1,0 +1,70 @@
+id: person/al-rashid-of-morocco
+class: person
+
+label: { ar: "الرشيد بن الشريف", en: "Al-Rashid of Morocco", ur: "رشید بن الشریف" }
+
+names:
+  - { value: "Moulay al-Rashid ibn al-Sharif", kind: full }
+  - { value: "Tafiletta", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "المولى الرشيد بن الشريف (1631 – 9 نيسان 1672)، أول سلاطين المغرب العلويين، ابن مؤسس السلالة المولى الشريف. ثار على أخيه الأكبر مولاي محمد وقتله في وقعة أنجاد سنة 1664 فخلفه على تافيلالت، ثم استولى على فاس سنة 1667 وأُعلن سلطانًا، فأخضع مراكش والسوس ودمّر زاوية الدلاء فصار عند مؤرخين كثر المؤسس الحقيقي للسلطة العلوية. بنى الجسور والمدارس وأصلح العملة، ومات بمراكش إثر سقوطه عن فرسه فخلفه أخوه مولاي إسماعيل."
+  en: "Moulay al-Rashid ibn al-Sharif (1631 – 9 April 1672) was the first Alawite sultan of Morocco, son of the dynasty's founder Moulay Sharif. He rebelled against his elder brother Sidi Mohammed, who was killed at the battle of Angad in 1664, and succeeded him in Tafilalt; in 1667 he took Fez and was proclaimed sultan, then subdued Marrakesh and the Sous and destroyed the Dila zawiya, and many historians count him the true founder of Alawite power. He built bridges and madrasas and reformed the currency, and died at Marrakesh after a fall from his horse, succeeded by his brother Moulay Ismail."
+  ur: "مولای رشید بن الشریف (1631ء – 9 اپریل 1672ء) مغرب کے پہلے علوی سلطان تھے، سلسلے کے بانی مولای شریف کے بیٹے۔ اپنے بڑے بھائی مولای محمد کے خلاف اٹھے، جو 1664ء میں انگاد کی لڑائی میں مارے گئے، اور تافیلالت میں ان کے جانشین بنے؛ 1667ء میں فاس فتح کر کے سلطان قرار پائے، پھر مراكش اور سوس کو مطیع کیا اور دلاء زاویہ کو ختم کر دیا، اس لیے بہت سے مؤرخین انہیں علوی اقتدار کا اصل بانی مانتے ہیں۔ پُل اور مدرسے بنائے اور سکہ درست کیا؛ مراكش میں گھوڑے سے گر کر وفات پائی اور ان کے بھائی مولای اسماعیل جانشین ہوئے۔"
+
+roles: [sultan]
+regions: [maghreb]
+wings: [people]
+
+born:
+  edtf: "1631"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Sijilmasa in the Tafilalt, the year his father was recognised as emir there. The English article gives 1631 flatly; the French and Arabic articles give about 1631, so the year is built as debated. The year 1631 spans 1040–1041 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar]
+
+died:
+  edtf: "1672-04-09"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1082"
+  note: "Died at Marrakesh after a fall from his horse, aged about 42; the English, French and Arabic articles and the Wikidata item all give 9 April 1672, which falls in 1082 AH. No place entity for Marrakesh exists on main, so no died_in edge is written."
+  sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco]
+
+relations:
+  - { type: born_in, target: place/sijilmasa, sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr] }
+  - { type: sibling_of, target: person/ismail-ibn-al-sharif, sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar] }
+  - { type: successor_of, target: person/mohammed-ibn-al-sharif, sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The English article records his respect for scholars — honouring
+      them, seeking their company, supporting them generously, and
+      attending al-Yusi's lessons at al-Qarawiyyin — and the Arabic
+      article his care for culture and learning; documented activity
+      of that kind, and his descent from the Alawite sharifs, are
+      context under the founder's rules and settle nothing, so his
+      faith is recorded as unknown with the activity stated.
+    sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-ar]
+
+external_ids: { wikidata: "Q303729" }
+
+sources:
+  - source/wikipedia-al-rashid-of-morocco-en
+  - source/wikipedia-al-rashid-of-morocco-fr
+  - source/wikipedia-al-rashid-of-morocco-ar
+  - source/wikidata-al-rashid-of-morocco
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376008358 of 21 September 2026), French Wikipedia «Rachid ben Chérif» (revision 238761096 of 19 August 2026), Arabic Wikipedia «الرشيد بن الشريف» (revision 19958882 of 29 May 2016) and Wikidata Q303729 (item revision 2553831489 of 6 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the French and Arabic articles agreeing — the similarly named item Q291415 is the Abbasid-era name al-Rashid and is not this man. No Urdu article under the item's Urdu title could be retrieved. Existence checked against origin/main before building — no record holds this man; the father's record (Sharif ibn Ali) does not exist on main, so no child_of edge is written. The sibling edge to Moulay Ismail is written here because al-Rashid (b. 1631) is the elder of the two and Ismail's own record is a draft stub that must not be edited; the succession edge records his succession to his brother Mohammed in Tafilalt, which the English and Arabic articles state. Queue check: the queue's dates 1631–1672 and the brother-rival gloss are confirmed; the English article counts his sultanate from 1666, the French and Arabic from his 1667 proclamation, and both counts are preserved in the prose. place/sijilmasa exists on main; no place entity exists for Marrakesh."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-175m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

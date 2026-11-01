@@ -1,0 +1,52 @@
+id: person/mochtar-riady
+class: person
+label: { ar: "مختار ريادي", en: "Mochtar Riady", ur: "مختار ریادی" }
+names:
+  - { value: "Mochtar Riady", kind: full }
+  - { value: "Lie Mo Tie", kind: full }
+  - { value: "李文正", kind: full }
+  - { value: "Lǐ Wénzhèng", kind: alternate }
+gender: male
+summary:
+  ar: "مختار ريادي (وُلد باسم لي مو تيه في 12 أيار 1929 في مالانغ بجاوة الشرقية) مصرفي ورجل أعمال إندونيسي من أصل صيني، مؤسس مجموعة ليبو؛ شارك في كفاح الاستقلال ودرس الفلسفة في جامعة نانجينغ، ثم بنى مسيرته المصرفية من متجر صغير في جمبر إلى إحياء بنوك كيماكموران وبوانا وبانين ورفع بنك سنترال آسيا، قبل أن يؤسس بنك ليبو سنة 1989 ومجموعة ليبو المتنوعة في المال والعقار والصحة والتعليم، ولُقب «ساحر تسويق البنوك»."
+  en: "Mochtar Riady (born Lie Mo Tie on 12 May 1929 at Malang, East Java) is an Indonesian banker and business magnate of Chinese descent, founder of the Lippo Group; he took part in the independence struggle and studied philosophy at the University of Nanking, then built a banking career from a small shop in Jember to reviving Bank Kemakmuran, Buana and Panin and raising Bank Central Asia, before founding Lippobank in 1989 and the diversified Lippo Group across finance, property, health and education, earning the name 'the Magic Man of Bank Marketing'."
+  ur: "مختار ریادی (پیدائش بطور لی مو تیے 12 مئی 1929، ملانگ، مشرقی جاوا) چینی نسل کے انڈونیشیائی بینکر و کاروباری ہیں، لیپو گروپ کے بانی؛ انھوں نے جدوجہد آزادی میں حصہ لیا اور نانکنگ یونیورسٹی میں فلسفہ پڑھا، پھر جمبر کی چھوٹی دکان سے بینک کیماکموران، بوانا و پانین کو زندہ کرنے اور بینک سنٹرل ایشیا کو اٹھانے تک بینکاری کیریئر بنایا، قبل اس کے کہ 1989 میں لیپو بینک اور مالیات، جائیداد، صحت و تعلیم پر مشتمل متنوع لیپو گروپ قائم کیا، اور «بینک مارکیٹنگ کے جادوگر» کہلائے۔"
+roles: [businessman]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1929-05-12"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Indonesian and Chinese articles and Wikidata agree on 12 May 1929, born at Malang in East Java. The date falls within the Hijri year 1347, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-mochtar-riady-en, source/wikipedia-mochtar-riady-id, source/wikidata-mochtar-riady]
+relations:
+  - { type: born_in, target: place/malang, sources: [source/wikipedia-mochtar-riady-id, source/wikidata-mochtar-riady] }
+faith:
+  - value: christian
+    basis: documented
+    note: >-
+      Two independent texts attest the value for the man
+      himself: the Chinese article's prose states that Li
+      Wenzheng and his wife are both devout Christians, and
+      Rosabeth Moss Kanter's Harvard Business School case study
+      of the Lippo Group in strategy+business (1996) states, of
+      Riady himself, that Confucianism is his guiding
+      philosophy and Christianity the source of his
+      spirituality. The same case study's pairing is recorded
+      whole: the value settled is his Christianity, attested in
+      both texts, while the Confucian philosophy the case study
+      names alongside it is a philosophy, not the faith value
+      attested. The Indonesian article, read in full, names no
+      religion for him, and Wikidata carries no religion
+      statement; neither is relied on. His son James Riady's
+      well-known Christianity is family background and is not
+      relied on either.
+    sources: [source/wikipedia-mochtar-riady-zh, source/strategy-business-lippo-case-study]
+external_ids: { wikidata: "Q8995080" }
+sources: [source/wikipedia-mochtar-riady-en, source/wikipedia-mochtar-riady-id, source/wikipedia-mochtar-riady-zh, source/strategy-business-lippo-case-study, source/wikidata-mochtar-riady]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Mochtar Riady' (revision 1378641849 of 5 October 2026), the Indonesian article 'Mochtar Riady' (revision 29873049 of 18 September 2026), the Chinese article '李文正 (1929年)' (revision 92017050 of 23 March 2026), Rosabeth Moss Kanter's strategy+business case study 'The Lippo Group of Indonesia and Hong Kong' (Issue 4, 1996, read in full at the magazine's archive PDF on 1 November 2026) and Wikidata Q8995080 (revision 2562462173 of 30 October 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him, so the Arabic and Urdu prose is the museum's rendering. Source discrepancies recorded: the Indonesian article gives his father's years as 1888-1959 and his mother's death as 1939, the English stub 1887-1959 and 1889-1937; the parents are not subjects of this record and neither reading is built on. One relation is written: born_in to place/malang, which exists on main; no family member is named with a record on main. Faith - christian/documented on the Chinese article text and the strategy+business case study; the brief's expectation about his autobiographical writings was tested through those texts read in-session rather than the book itself.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-176a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

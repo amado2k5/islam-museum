@@ -1,0 +1,63 @@
+id: person/mohammed-ibn-al-sharif
+class: person
+
+label: { ar: "محمد بن الشريف", en: "Mohammed ibn al-Sharif", ur: "محمد بن شریف" }
+
+names:
+  - { value: "Sidi Muhammad ibn Sharif ibn Ali ibn Muhammad", kind: full }
+  - { value: "Mohammed I", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "سيدي محمد بن الشريف (ت. 2 آب 1664)، أكبر أبناء المولى الشريف مؤسس السلالة العلوية، وحاكم تافيلالت من 1636 ومتوَّجًا أميرًا عليها سنة 1640. بسط سلطانه على درعة ووجدة وتوات والصحراء الشرقية، وثبّت بمعاهدة 1647 حدَّ التافنة مع عثمانيي الجزائر، وصفه المؤرخ الإفرني بالكرم والشجاعة. قُتل في وقعة أنجاد بسهل بني سناسن في حربه مع أخيه مولاي الرشيد الذي خلفه."
+  en: "Sidi Mohammed ibn al-Sharif (died 2 August 1664) was the eldest son of Moulay Sharif, founder of the Alawite line, and ruler of Tafilalt from 1636, crowned emir in 1640. He extended his rule over the Draa, Oujda, Tuat and the eastern Sahara, fixed the Tafna frontier with Ottoman Algiers by the treaty of 1647, and was remembered by the historian al-Ifrani for his generosity and bravery. He was killed at the battle of Angad, in the Beni Snassen plain, in his war with his brother Moulay Rashid, who succeeded him."
+  ur: "سیدی محمد بن الشریف (وفات 2 اگست 1664ء) علوی سلسلے کے بانی مولای شریف کے سب سے بڑے بیٹے اور 1636ء سے تافیلالت کے حاکم تھے، 1640ء میں امیر کی حیثیت سے تاج پوشی ہوئی۔ درعہ، وجدہ، توات اور مشرقی صحرا تک اپنا اقتدار پھیلایا اور 1647ء کے معاہدے سے عثمانی الجزائر کے ساتھ تافنہ کی سرحد طے کی؛ مؤرخ افرانی نے ان کی سخاوت اور بہادری کا ذکر کیا ہے۔ اپنے بھائی مولای رشید سے جنگ میں انگاد کی لڑائی میں مارے گئے، اور رشید ہی ان کے جانشین بنے۔"
+
+roles: [sultan]
+regions: [maghreb]
+wings: [people]
+
+died:
+  edtf: "1664-08-02"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1075"
+  note: "Killed at the battle of Angad, on the plain south of the Beni Snassen mountains, by the troops of his half-brother Moulay Rashid. The English, French and Arabic articles all give 2 August 1664, and the English article on al-Rashid pairs the battle with Friday 9 Muharram 1075 AH, so the Hijri year is the sources' own pairing. No birth block is built: no article read gives a birth year, and the Wikidata item's birth statement is decade-precision only."
+  sources: [source/wikipedia-mohammed-ibn-al-sharif-en, source/wikipedia-mohammed-ibn-al-sharif-fr, source/wikipedia-mohammed-ibn-al-sharif-ar]
+
+relations:
+  - { type: sibling_of, target: person/al-rashid-of-morocco, sources: [source/wikipedia-mohammed-ibn-al-sharif-en, source/wikipedia-mohammed-ibn-al-sharif-fr] }
+  - { type: sibling_of, target: person/ismail-ibn-al-sharif, sources: [source/wikipedia-mohammed-ibn-al-sharif-fr] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The Arabic article describes him in its lead as a Sufi
+      (mutasawwif), a man of the zawiya world of Sijilmasa. That
+      characterisation stands in one text only; the English and
+      French articles say nothing of his personal religion, and no
+      text read names a school or an order for the man himself.
+      Under the founder's two-text rule and the absolute doubt rule
+      the single attestation does not settle a value, so his faith
+      is recorded as unknown with the Arabic article's description
+      stated here in full.
+    sources: [source/wikipedia-mohammed-ibn-al-sharif-ar, source/wikipedia-mohammed-ibn-al-sharif-en, source/wikipedia-mohammed-ibn-al-sharif-fr]
+
+external_ids: { wikidata: "Q2706072" }
+
+sources:
+  - source/wikipedia-mohammed-ibn-al-sharif-en
+  - source/wikipedia-mohammed-ibn-al-sharif-fr
+  - source/wikipedia-mohammed-ibn-al-sharif-ar
+  - source/wikipedia-mohammed-ibn-al-sharif-ur
+  - source/wikidata-mohammed-ibn-al-sharif
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1353549126 of 10 May 2026), French Wikipedia «Mohammed ben Chérif» (revision 235511975 of 24 April 2026), Arabic Wikipedia «محمد بن الشريف» (revision 76729552 of 24 September 2026), Urdu Wikipedia (revision 9660299 of 31 March 2026, a rendering of another language's article and not an independent text) and Wikidata Q2706072 (item revision 2468947686 of 3 March 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the French, Arabic and Urdu articles agreeing. Existence checked against origin/main before building — no record holds this man. Queue correction: the queue's birth year 1630 is attested in no text read — the English and French articles give no birth year at all and the item's statement is decade-precision — so no born block is built, on the Danishmand Khan precedent; the queue's death year 1664 is confirmed at day precision. The father's record (Sharif ibn Ali) does not exist on main, so no child_of edge is written. As the eldest of the brothers he carries the sibling edges to al-Rashid and to Moulay Ismail (whose own record is a draft stub that must not be edited); the French article's lead attests both brother relations in one sentence."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-175m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -935,11 +935,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Adel Al Ali — 1960–Living
 - [x] Tony Fernandes — 1964–Living
 - [x] Syed Mokhtar AlBukhary — 1951–Living
-- [ ] Vincent Tan (Contemporary) — 1952–Living
-- [ ] Robert Kuok (Contemporary) — 1923–Living
-- [ ] Ananda Krishnan (Contemporary) — 1938–Living
-- [ ] Jeffrey Cheah (Contemporary) — 1945–Living
-- [ ] Mochtar Riady (Contemporary) — 1929–Living
+- [x] Vincent Tan (Contemporary) — 1952–Living
+- [x] Robert Kuok (Contemporary) — 1923–Living
+- [x] Ananda Krishnan (Contemporary) — 1938–Living
+- [x] Jeffrey Cheah (Contemporary) — 1945–Living
+- [x] Mochtar Riady (Contemporary) — 1929–Living
 - [ ] Chairul Tanjung — 1962–Living
 - [ ] Eka Tjipta Widjaja (Contemporary) — 1921–2019
 - [ ] Prajogo Pangestu (Contemporary) — 1944–Living
@@ -1842,11 +1842,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
 - [x] Mustafa Nâbî — 1642–1712 (identical years to Nâbî above — probable CSV duplicate of one person; verify at build, build once if so)
 - [ ] Şeyhülislam Yahya Efendi — 1553–1644
-- [ ] Abdurrahman Hibri Efendi — 1604–1659
-- [ ] Müneccimbaşı Ahmed Dede — 1631–1702
-- [ ] Sultan Al-Rashid of Morocco — 1631–1672
-- [ ] Sultan Mohammed ibn al-Sharif — 1630–1664
-- [ ] Ahmad ibn Mubarak al-Lamti — 1670–1743
+- [x] Abdurrahman Hibri Efendi — 1604–1659
+- [x] Müneccimbaşı Ahmed Dede — 1631–1702
+- [x] Sultan Al-Rashid of Morocco — 1631–1672
+- [x] Sultan Mohammed ibn al-Sharif — 1630–1664
+- [x] Ahmad ibn Mubarak al-Lamti — 1670–1743
 - [ ] Muhammad al-Mahdi al-Fasi — 1624–1698
 - [ ] Historian Al-Ifrani (Ahmed al-Mansur's successors row) — 1670–1747
 - [ ] Murad III Bey — 1640–1702
