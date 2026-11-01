@@ -1,0 +1,25 @@
+id: event/konya-masud-capital-512
+class: event
+kind: founding
+label: { ar: "السلطان مسعود يتخذ قونية عاصمة سلاجقة الروم", en: "Mas'ud I makes Konya the Rum Seljuk capital", ur: "سلطان مسعود اول نے قونیہ کو سلاجقہِ روم کا دارالحکومت بنایا" }
+summary:
+  ar: "يرجع نماء قونية الحقيقي إلى عهد السلطان مسعود الأول (٥١٢–٥٥٠هـ/١١١٨–١١٥٥م) الذي عزم على اتخاذها عاصمة وبنى فيها مسجدًا وآثارًا أتمّها خلفاؤه؛ فقد ساد الموقعُ البلَّال الطريقَ الجنوبي حين حال الدانشمنديون بين السلاجقة والطريق الشمالي إلى الدردنيل، ولبثت قونية في عهد السلاجقة ذروة تاريخها {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}."
+  en: "Konya's real development dates from the reign of Sultan Mas'ud I (512-550/1118-1155), who resolved to make it his capital and built a mosque and other monuments that his successors completed. The well-irrigated site commanded the southern route at a time when the Danishmendids denied the Seljuks the northern route to the Dardanelles, and the Seljuk period marked the zenith of the city's history {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}."
+  ur: "قونیہ کی اصل ترقی سلطان مسعود اول (512–550ھ/1118–1155ء) کے عہد سے شروع ہوتی ہے، جس نے اسے اپنا دارالحکومت بنانے کا فیصلہ کیا اور وہاں ایک مسجد اور دیگر عمارتیں بنوائیں جنہیں اس کے جانشینوں نے مکمل کیا۔ دانشمندیوں نے جب سلاجقہ کے لیے دردانیل کا شمالی راستہ بند کر دیا تو پانی سے مالا مال یہ مقام جنوبی راستے پر حاوی تھا، اور سلجوقی دور شہر کی تاریخ کا عروج تھا۔"
+wings: [time]
+themes: [cities, architecture]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1118~", hijri: "0512", calendar: julian, precision: year, status: historical, derived: true, note: "عزم مسعود على اتخاذها عاصمة في عهده ٥١٢–٥٥٠هـ/١١١٨–١١٥٥م {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}؛ أُخذ أول العهد تقريبًا والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/masud-i-rum, role: "السلطان المتخذ قونية عاصمة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., art. ḲONYA (Cl. Cahen), vol. 5.1 PDF p. 287 (harvest OCR, books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_5_1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

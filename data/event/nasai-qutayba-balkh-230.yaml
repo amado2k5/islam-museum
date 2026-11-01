@@ -1,0 +1,28 @@
+id: event/nasai-qutayba-balkh-230
+class: event
+kind: other
+label:
+  ar: "رحلة النسائي إلى قتيبة بن سعيد ببلخ وهو ابن خمس عشرة سنة، نحو ٢٣٠هـ"
+  en: "Al-Nasa'i's journey to Qutayba ibn Sa'id at Balkh, aged fifteen, c. 230/844"
+  ur: "نسائی کا قتیبہ بن سعید کے پاس بلخ کا سفر، پندرہ برس کی عمر میں، تقریباً 230ھ/844ء"
+summary:
+  ar: "رحل أحمد بن شعيب النسائي إلى قتيبة بن سعيد الثقفي — شيخ البخاري ومسلم ومحدث خراسان المقيم ببلخ — وهو ابن خمس عشرة سنة، وقال: «أقمت عنده سنة وشهرين» {cite:tazkirat-al-huffaz j.2 p. 617} {cite:tarikh-islam-dhahabi p. 106}."
+  en: "Ahmad ibn Shu'ayb al-Nasa'i journeyed to Qutayba ibn Sa'id al-Thaqafi — shaykh of al-Bukhari and Muslim and the muhaddith of Khurasan resident at Balkh — when he was fifteen, and said: 'I stayed with him a year and two months' {cite:tazkirat-al-huffaz j.2 p. 617} {cite:tarikh-islam-dhahabi p. 106}."
+  ur: "احمد بن شعیب نسائی قتیبہ بن سعید ثقفی — بخاری اور مسلم کے شیخ اور خراسان کے محدث، بلخ کے مقیم — کے پاس پندرہ برس کی عمر میں پہنچے، اور فرماتے ہیں: «میں ان کے ہاں ایک سال اور دو مہینے رہا» {cite:tazkirat-al-huffaz j.2 p. 617} {cite:tarikh-islam-dhahabi p. 106}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0844~", hijri: "0230~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل إلى قتيبة وهو ابن خمس عشرة سنة {cite:tazkirat-al-huffaz j.2 p. 617}؛ ٢١٥+١٥ = ٢٣٠هـ = ٨٤٤م؛ التحويل مشتق.", sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/balkh, sources: [source/tazkirat-al-huffaz], note: "قتيبة بن سعيد الثقفي البلخي محدث خراسان؛ موضع الرحلة مشتق من نسبة الشيخ {cite:tazkirat-al-huffaz j.2 p. 559}" }
+  - { type: had_participant, target: person/al-nasai, role: "الطالب الراحل", sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/qutayba-ibn-said, role: "الشيخ", sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
+sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tadhkirat al-Huffaz j.2 printed p. 617 (harvest OCR AAlexandrina-224163); al-Dhahabi, Tarikh al-Islam s.a. 303, printed p. 106 (harvest OCR vol. 301-320)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -956,8 +956,8 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Anthony Tan — 1982–Living
 - [x] Tan Hooi Ling — 1983–Living
 - [ ] Kevjen Yeoh (Contemporary) — 1980–Living
-- [ ] Gita Wirjawan — 1965–Living
-- [ ] Bahlil Lahadalia — 1976–Living
+- [x] Gita Wirjawan — 1965–Living
+- [x] Bahlil Lahadalia — 1976–Living
 
 ## B. 1826–1925 additions (730)
 

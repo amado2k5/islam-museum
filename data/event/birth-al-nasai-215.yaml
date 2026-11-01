@@ -1,0 +1,27 @@
+id: event/birth-al-nasai-215
+class: event
+kind: birth
+label:
+  ar: "مولد الإمام أحمد بن شعيب النسائي بنسا بخراسان، ٢١٥هـ"
+  en: "Birth of Imam Ahmad ibn Shu'ayb al-Nasa'i at Nasa in Khurasan, 215/830"
+  ur: "امام احمد بن شعیب نسائی کی پیدائش خراسان کے شہر نسا میں، 215ھ/830ء"
+summary:
+  ar: "وُلد أبو عبد الرحمن أحمد بن شعيب بن علي بن سنان بن بحر بن دينار الخراساني النسائي بمدينة نسا من أعمال خراسان سنة خمس عشرة ومائتين، وقيل أربع عشرة ومائتين {cite:tazkirat-al-huffaz j.2 p. 617} {cite:wafayat-ayan i p. 26-27} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}."
+  en: "Abu Abd al-Rahman Ahmad ibn Shu'ayb ibn Ali ibn Sinan ibn Bahr ibn Dinar al-Khurasani al-Nasa'i was born at the city of Nasa in Khurasan in 215/830, with 214 also reported {cite:tazkirat-al-huffaz j.2 p. 617} {cite:wafayat-ayan i p. 26-27} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}."
+  ur: "ابو عبد الرحمن احمد بن شعیب بن علی بن سنان بن بحر بن دینار خراسانی نسائی خراسان کے شہر نسا میں 215ھ/830ء میں پیدا ہوئے؛ 214ھ کی روایت بھی ہے {cite:tazkirat-al-huffaz j.2 p. 617} {cite:wafayat-ayan i p. 26-27} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0830~", hijri: "0215", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس عشرة ومائتين، وقيل أربع عشرة ومائتين {cite:tazkirat-al-huffaz j.2 p. 617} {cite:wafayat-ayan i p. 26-27}؛ التحويل مشتق.", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nasa, sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/al-nasai, role: "المولود", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+sources: [source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tadhkirat al-Huffaz j.2 printed pp. 617-620, tarjama of Ahmad b. Shu'ayb al-Nasa'i (harvest OCR AAlexandrina-224163); Ibn Khallikan, Wafayat al-A'yan i pp. 26-27 (harvest OCR AAlexandrina-154776); Encyclopaedia of Islam 2nd ed. vol. 7, art. al-Nasa'i, printed pp. 1023-1024"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
