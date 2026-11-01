@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question on zakat on an end-of-service gratuity, in which Egypt's Dar al-Ifta answered that zakat is due only after it is received, with the zakat year starting from that date. {cite:dar-alifta fatwa 9025}
+A question on zakat on an end-of-service gratuity, in which Egypt's Dar al-Ifta answered that zakat is due only after it is received, after which it either starts a new zakat year or joins savings that already have a running year. {cite:dar-alifta fatwa 9025}
 
 ## The question
 
