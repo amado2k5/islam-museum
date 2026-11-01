@@ -1,0 +1,66 @@
+id: person/ahmed-pasha-bursali
+class: person
+
+label: { ar: "أحمد باشا البرسوي", en: "Ahmed Pasha of Bursa", ur: "احمد پاشا بورسوی" }
+
+names:
+  - { value: "Ahmed Paşa", kind: full }
+  - { value: "أحمد باشا", kind: full }
+  - { value: "Bursalı Ahmed Paşa", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أحمد باشا البرسوي (نحو 1426 – 1496/97)، شاعر الديوان الذي لقّبه عصره «سلطان الشعراء»، وعالم من علماء الدولة العثمانية: ابن وليّ الدين أفندي قاضي عسكر مراد الثاني، درّس في مدرسة المرادية ببرسا، ثم خلف الملا خسرو في قضاء أدرنة سنة 1451، وصار قاضي عسكر ومصاحبًا ومعلّمًا لمحمد الفاتح وبلغ رتبة الوزارة، ثم غضب عليه السلطان فسُجن ونجا بقصيدته المشهورة «كرم»، وقضى بقية عمره بين ولايات الأناضول وبرسا التي مات فيها ودُفن في تربته قرب المرادية."
+  en: "Ahmed Pasha of Bursa (c. 1426 – 1496/97), the divan poet his age called 'sultan of poets' and a statesman-scholar of the early Ottoman Empire: son of Veliyyüddin Efendi, kazasker of Murad II, he taught at Bursa's Muradiye Madrasa, succeeded Molla Hüsrev as qadi of Edirne in 1451, rose to kazasker, companion and tutor to Mehmed II and the rank of vizier, then fell from favour, was imprisoned, and saved himself with his famous 'Kerem' qasida; he spent his last years between Anatolian sancak posts and Bursa, where he died and was buried in his türbe beside the Muradiye."
+  ur: "احمد پاشا بورسوی (تقریباً 1426ء – 1496/97ء)، دیوان کے شاعر جنھیں ان کے عہد نے «سلطان الشعراء» کہا، اور ابتدائی عثمانی سلطنت کے عالم و ریاستی شخصیت: مراد ثانی کے قاضی عسکر ولی الدین آفندی کے بیٹے؛ برسا کی مرادیہ مدرسہ میں پڑھایا، 1451ء میں ملا خسرو کے بعد ادرنہ کے قاضی بنے، پھر قاضی عسکر، محمد فاتح کے مصاحب و اتالیق اور وزیر کے رتبے تک پہنچے، پھر سلطان کی ناراضی سے قید ہوئے اور اپنی مشہور «کرم» قصیدے سے جان بچائی؛ آخری برس اناطولیہ کی سنجقوں اور برسا میں گزارے، جہاں وفات پائی اور مرادیہ کے قریب اپنے تربے میں دفن ہوئے۔"
+
+roles: [poet, scholar]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1426~"
+  hijri: "0830"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: "Neither his birth date nor his birthplace is certainly known. Fuad Köprülü reasoned (in the İslâm Ansiklopedisi article, quoted by the Turkish article) that he was born shortly before or after 830/1426. For the place, the tezkires divide: Latifi and Gelibolulu Âlî say Bursa; Sehi, Beliğ and Âşık Çelebi — the last on the word of the poet's cousin and heir, Edirneli Nazır Çelebi — say Edirne; the TDV entry concludes 'in all likelihood Edirne', and the Persian article also gives Edirne. Because the sources divide, no born_in edge is written and the birthplace is carried in this note and the prose only."
+  sources: [source/wikipedia-ahmed-pasha-tr, source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-fa, source/wikidata-ahmed-pasha]
+
+died:
+  edtf: "1497~"
+  hijri: "0902"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: "The TDV entry heads his life with the death year 902 AH, which spans 1496–97 CE, and no source read resolves it further: the Turkish article's heading gives 1497 while its text says 1496 (printing a corrupt Hijri year), the Persian article gives 1496, and Wikidata carries both 1496 and 1497 as competing values. The record follows 1497 within the attested span and preserves 1496 here. He died at Bursa, as sancakbeyi of the city under Bayezid II, and was buried in the türbe he had built beside the Muradiye Madrasa."
+  sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa, source/wikidata-ahmed-pasha]
+
+relations:
+  - { type: died_in, target: place/bursa, sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr, source/wikipedia-ahmed-pasha-fa] }
+  - { type: buried_in, target: place/bursa, sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr] }
+  - { type: student_of, target: person/melihi, sources: [source/tdv-ahmed-pasa-bursali] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school for Ahmed Pasha, and none is recorded. His documented practice is stated in full: a career member of the Ottoman ulema — müderris at the Muradiye, qadi of Edirne, kazasker, and in the army nicknamed 'sipahi müftüsü' for his meticulousness (TDV entry) — whose Divan opens with a münacat and a na't to the Prophet. Office, teaching and judgeship in a Hanafi-administered state are not a personal attestation of a school in this lane, and neither the TDV entry nor the articles make one. Wikidata carries no religion value."
+    sources: [source/tdv-ahmed-pasa-bursali, source/wikipedia-ahmed-pasha-tr, source/wikidata-ahmed-pasha]
+
+external_ids: { wikidata: "Q3652239" }
+
+sources:
+  - source/wikipedia-ahmed-pasha-tr
+  - source/wikipedia-ahmed-pasha-fa
+  - source/tdv-ahmed-pasa-bursali
+  - source/wikidata-ahmed-pasha
+
+provenance:
+  layer: own-research
+  source: "Turkish and Persian Wikipedia articles on the poet Ahmed Pasha, the TDV İslâm Ansiklopedisi entry AHMED PAŞA, Bursalı by Günay Kut (vol. 2, 1989), and Wikidata Q3652239, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query; the QID grounded from the Turkish article's own page property). Identity was pinned against the two traps of this name: Hersekli (Hersekzade) Ahmed Pasha the grand vizier, who has his own record, and Ahmad Pasha ibn Khidr Beg, the Bursa mufti who died in 933/1526–27 and also has a record — this man is the kazasker's son Veliyyüddin Efendi's son, the poet. Bursa has a place entity, so the died_in and buried_in edges are written; the contested birthplace has none. The student_of edge targets person/melihi, at present a draft card, on the TDV entry's explicit statement that Melîhî was his teacher. His father Veliyyüddin Efendi has no record, so the parentage is prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-154G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
