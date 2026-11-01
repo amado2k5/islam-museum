@@ -1,0 +1,46 @@
+id: job/architect
+class: job
+label: { ar: "المعمار", en: "Architect (mi'mar)", ur: "معمار" }
+summary:
+  ar: "المعمار هو من يضع تصميم البناء ويشرف على تنفيذه، وكان عليه أن يعرف الهندسة والبناء ومساحة الأرض. وفي الدولة العثمانية كان على رأس المعماريين في القصر «المِعْمارْباشي»، يتولى ديواناً يتولى المباني الحكومية والسلطانية ويرخّص لمن يبني خارجه. {cite:tdv-mimari p.91-95} {cite:tdv-mimarbasi p.90-91}"
+  en: "The architect (mi'mar) designs a building and oversees its construction, and was expected to know geometry, building technique and the measurement of land. In the Ottoman state the chief of the architects in the palace, the mimarbaşı, led an office that carried out the state's and the sultan's buildings and licensed those who built outside it. {cite:tdv-mimari p.91-95} {cite:tdv-mimarbasi p.90-91}"
+  ur: "معمار وہ شخص ہے جو عمارت کا نقشہ بناتا اور اس کی تعمیر کی نگرانی کرتا ہے، اور اسے ہندسہ، تعمیری فن اور زمین کی پیمائش جاننی ہوتی تھی۔ عثمانی ریاست میں محل کے معماروں کا سربراہ معمار باشی ہوتا تھا، جو ایک دفتر چلاتا جو سرکاری اور سلطانی عمارات کا کام کرتا اور دفتر سے باہر تعمیر کرنے والوں کو اجازت دیتا تھا۔ {cite:tdv-mimari p.91-95} {cite:tdv-mimarbasi p.90-91}"
+domain: building-making
+kind: craft
+hirfa: false
+era:
+  origins: early-caliphate
+  first_attested:
+    edtf: "0632/0661"
+    precision: decade
+    status: historical
+    note: "The entry dates the wide employment of architects 'from every nation' to the period of the four caliphs and the expansion of Umayyad rule. It names no architect of that time, so the range is the period and not the date of a person."
+    sources: [source/tdv-mimari]
+  status_today: transformed
+places:
+  - place: place/istanbul
+    start: { edtf: "1453" }
+    note: "The Hassa office is understood to have been formed after the conquest of Istanbul. The entry also says that the date when the central office took shape is not known."
+    sources: [source/tdv-mimarbasi, source/tdv-mimari]
+  - place: place/bursa
+    note: "The entry says that intensive building from the foundation of the Ottoman state went on especially in Bursa and Edirne."
+    sources: [source/tdv-mimari]
+  - place: place/edirne
+    note: "Building in Edirne is named with Bursa as a centre of early Ottoman construction; the Selimiye Mosque is the entry's example of the peak of dome technology."
+    sources: [source/tdv-mimari]
+regions: [arabia, levant-iraq, anatolia-balkans]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "From the sixteenth century, an architect, journeyman or master working outside the palace office needed a licence from the chief architect attesting competence. Inside the office, recruits learned theory and practice by master and apprentice."
+wings: [people]
+periods: [period/rashidun, period/umayyad, period/gunpowder-empires]
+sources: [source/tdv-mimari, source/tdv-mimarbasi, source/tdv-hayreddin-mimar, source/tdv-davud-aga]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MİMARİ' (S. Mülâyim, vol. 30 pp. 91–95) and 'MİMARBAŞI' (Ş. Turan, vol. 30 pp. 90–91), read on 1 Nov 2026; 'HAYREDDİN, Mimar' (S. Eyice, vol. 17 pp. 56–57) and 'DÂVUD AĞA' (S. Eyice, vol. 9 pp. 24–26), read in full. Rewritten by Claude Code. Museum graph at this commit: 11 holders from roles and 23 prose leads, read as census only; the two holders below are those whose TDV entries were read. The building records have no architect field; the architects named in their summaries rest on Freely 2011, which was not read for this record"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-architect"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
