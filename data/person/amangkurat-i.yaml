@@ -1,0 +1,67 @@
+id: person/amangkurat-i
+class: person
+
+label: { ar: "أمانغكورات الأول", en: "Amangkurat I", ur: "امانگکورات اول" }
+
+names:
+  - { value: "Raden Mas Sayyidin", kind: given }
+  - { value: "Sampeyan Dalem Ingkang Sinuhun Kanjeng Susuhunan Prabu Amangkurat Senapati ing Ngalaga Abdurrahman Sayyidin Panatagama Khalifatullah Ingkang Jumeneng Kaping I", kind: regnal }
+  - { value: "Amangkurat Agung", kind: alternate }
+  - { value: "Sunan Tegalarum", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أمانغكورات الأول (1619 – 13 تموز 1677)، وُلد باسم رادن ماس سايّدين، سوسوهونان ماتارام في جاوة من 1646 إلى 1677 وابن سلطان أغونغ وخليفته. مركَز السلطنة بتصفيات في النبلاء وبمذبحة للعلماء وأسرهم سنة 1648 — كما روى مبعوث الشركة الهولندية ريكلوف فان غونس في التقارير التي تتبعها المقالتان الإنجليزية والإندونيسية وقُدّر ضحاياها بنحو خمسة إلى ستة آلاف — ونقل البلاط من كارتا إلى بليريد، ثم أخرجه تمرّد تروناجايا سنة 1677 فمات في فراره قرب تيغال وخلفه ابنه أمانغكورات الثاني."
+  en: "Amangkurat I (1619 – 13 July 1677), born Raden Mas Sayyidin, was susuhunan of Mataram in Java from 1646 to 1677, son and successor of Sultan Agung. He centralised the sultanate through purges of nobles and — in the report of the Dutch envoy Rijcklof van Goens, followed by both the English and Indonesian articles — a massacre of ulema and their families in 1648 put at some 5,000-6,000 people, moved the court from Karta to Plered, and in 1677 was driven out by the Trunajaya rebellion, dying in flight near Tegal and succeeded by his son Amangkurat II."
+  ur: "امانگکورات اول (1619ء – 13 جولائی 1677ء)، پیدائشی نام رادن ماس سیدین، 1646ء سے 1677ء تک جاوا میں ماتارام کے سوسوہونان تھے، سلطان آگونگ کے بیٹے اور جانشین۔ انہوں نے امراء کی صفائیوں اور — ولندیزی ایلچی رائکلوف وان گوئنس کی رپورٹ کے مطابق، جس کی پیروی انگریزی اور انڈونیشیائی دونوں مقالے کرتے ہیں — 1648ء میں علماء اور ان کے خاندانوں کے اس قتلِ عام کے ذریعے سلطنت کو مرکزی بنایا جس کے مقتول تقریباً پانچ سے چھ ہزار بتائے جاتے ہیں، دربار کارتا سے پلیرید منتقل کیا، اور 1677ء میں تروناجایا کی بغاوت نے انہیں نکال دیا؛ تیگال کے قریب فرار میں وفات پائی اور بیٹے امانگکورات دوم جانشین ہوئے۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1619"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Kitha Ageng (Kotagede). The English article and the Wikidata item give 1619; the Indonesian article gives 1618 or 1619, so the year is built as debated. The year 1619 spans 1028-1029 AH, so no single Hijri year is built. No place entity for Kotagede exists on main, so no born_in edge is written."
+  sources: [source/wikipedia-amangkurat-i-en, source/wikipedia-amangkurat-i-id, source/wikidata-amangkurat-i]
+
+died:
+  edtf: "1677-07-13"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1088"
+  note: "Died in flight from the Trunajaya rebellion — the English article at Tegalarum, the Indonesian in the Wanayasa forest — and was buried at Tegalarum (Tegalwangi) near Tegal; both articles give 13 July 1677, which falls in 1088 AH (conversion derived). No place entity for Tegal exists on main, so no died_in edge is written."
+  sources: [source/wikipedia-amangkurat-i-en, source/wikipedia-amangkurat-i-id, source/wikidata-amangkurat-i]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself. His
+      regnal style carries the titles Panatagama and Khalifatullah,
+      which are royal styles, not a school. The texts record his violent
+      conflict with the ulema — van Goens's report of the 1648 massacre,
+      which the Indonesian article notes is not recorded in detail by
+      local Javanese sources — as part of his centralisation of the
+      sultanate. Conflict, titles and dynastic context settle nothing
+      under the founder's rules, so his faith is recorded as unknown
+      with the record stated.
+    sources: [source/wikipedia-amangkurat-i-en, source/wikipedia-amangkurat-i-id]
+
+external_ids: { wikidata: "Q2270649" }
+
+sources:
+  - source/wikipedia-amangkurat-i-en
+  - source/wikipedia-amangkurat-i-id
+  - source/wikidata-amangkurat-i
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Amangkurat I of Mataram' (revision 1358785487 of 10 June 2026), Indonesian Wikipedia 'Amangkurat I' (revision 29932975 of 22 September 2026) and Wikidata Q2270649 (item revision 2320012457 of 4 March 2025, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian article agreeing. The item has no Arabic article. Existence checked against origin/main before building, by slug variants and by QID — no record holds this man. Queue check: the queue's dates 1619-1677 are confirmed, with the Indonesian article's 1618/1619 birth reading preserved as debated. His father Sultan Agung has no record on main, so no child_of edge is written; his sons' edges are written in their own records in this batch. No place entities for Kotagede or Tegal exist on main, so no place edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-177m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

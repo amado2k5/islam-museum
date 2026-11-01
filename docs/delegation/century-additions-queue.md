@@ -1852,11 +1852,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Murad III Bey — 1640–1702
 - [x] Muhammad Bey al-Muradi — 1655–1696
 - [x] Hussein ben Ali al-Turki — 1669–1735
-- [ ] Sultan Haji of Banten — 1639–1687
-- [ ] Sultan Amangkurat I of Mataram — 1619–1677
-- [ ] Sultan Amangkurat II — 1645–1703
-- [ ] Sultan Amangkurat III — 1669–1734
-- [ ] Pakubuwono I — 1648–1719
+- [x] Sultan Haji of Banten — 1639–1687
+- [x] Sultan Amangkurat I of Mataram — 1619–1677
+- [x] Sultan Amangkurat II — 1645–1703
+- [x] Sultan Amangkurat III — 1669–1734
+- [x] Pakubuwono I — 1648–1719
 - [ ] Trunojoyo — 1649–1680
 - [ ] Untung Surapati — 1660–1706
 - [ ] Sultan Iskandar Thani — 1610–1641
