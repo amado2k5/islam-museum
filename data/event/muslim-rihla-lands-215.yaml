@@ -1,0 +1,33 @@
+id: event/muslim-rihla-lands-215
+class: event
+kind: other
+label:
+  ar: "رحلة مسلم بن الحجاج في طلب الحديث إلى الحجاز والعراق والشام ومصر، نحو ٢١٥هـ"
+  en: "Muslim ibn al-Hajjaj's hadith journeys to the Hijaz, Iraq, Syria and Egypt, c. 215/830"
+  ur: "مسلم بن حجاج کا طلبِ حدیث کا سفر حجاز، عراق، شام اور مصر، تقریباً 215ھ/830ء"
+summary:
+  ar: "رحل مسلم بن الحجاج من حداثته إلى الحجاز والعراق والشام ومصر في طلب الحديث، ودخل بغداد غير مرة {cite:wafayat-ayan v p. 195}، وسمع من شيوخ كثر أبرزهم يحيى بن يحيى النيسابوري (ت ٢٢٤-٢٢٦هـ) وعبد الله بن مسلمة القعنبي (ت ٢٢٠-٢٢١هـ) وقتيبة بن سعيد (ت ٢٤٠هـ)، وهم من كبار تلاميذ مالك بن أنس، وسعيد بن منصور (ت ٢٢٧هـ) وأحمد بن حنبل (ت ٢٤١هـ) وإسحاق بن راهويه (ت ٢٣٧-٢٣٨هـ) ومحمد بن بشار بندار (ت ٢٥٢هـ) {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}."
+  en: "From his youth Muslim ibn al-Hajjaj journeyed to the Hijaz, Iraq, Syria and Egypt in the quest for hadith, entering Baghdad more than once {cite:wafayat-ayan v p. 195}; among the many masters he heard were Yahya ibn Yahya al-Naysaburi (d. 224-6), Abd Allah ibn Maslama al-Qa'nabi (d. 220-1) and Qutayba ibn Sa'id (d. 240), all leading pupils of Malik ibn Anas, together with Sa'id ibn Mansur (d. 227), Ahmad ibn Hanbal (d. 241), Ishaq ibn Rahwayh (d. 237-8) and Muhammad ibn Bashshar Bundar (d. 252) {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}."
+  ur: "مسلم بن حجاج نے جوانی میں طلبِ حدیث کے لیے حجاز، عراق، شام اور مصر کا سفر کیا اور بغداد ایک سے زائد بار حاضر ہوئے {cite:wafayat-ayan v p. 195}؛ جن مشائخ سے انہوں نے سنا ان میں یحییٰ بن یحییٰ نیشاپوری (وفات 224-226ھ)، عبداللہ بن مسلمہ قعنبی (وفات 220-221ھ) اور قتیبہ بن سعید (وفات 240ھ) — یہ تینوں مالک بن انس کے بڑے تلامذہ — کے ساتھ سعید بن منصور (وفات 227ھ)، احمد بن حنبل (وفات 241ھ)، اسحاق بن راہویہ (وفات 237-238ھ) اور محمد بن بشار بندار (وفات 252ھ) شامل ہیں {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia, arabia, levant-iraq, egypt-nile]
+date:
+  start: { edtf: "0830~", hijri: "0215~", calendar: julian, precision: decade, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ رحلاته من حداثته {cite:wafayat-ayan v p. 195} وسماعه القعنبي (ت ٢٢١هـ) وسعيد بن منصور (ت ٢٢٢٧هـ) وإسماعيل بن أبي أويس (ت ٢٢٦-٢٢٧هـ) {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691} تجعل بدءها بين ٢١٨هـ و٢٢٧هـ؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/hijaz, sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/wafayat-ayan] }
+  - { type: occurred_at, target: place/al-sham, sources: [source/wafayat-ayan] }
+  - { type: occurred_at, target: place/misr, sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "الطالب الرحّالة", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abd-allah-ibn-maslama-al-qanabi, role: "الشيخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/qutayba-ibn-said, role: "الشيخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/said-ibn-mansur, role: "الشيخ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan ed. I. Abbas v p. 195 (harvest OCR scan); Encyclopaedia of Islam 2nd ed. vol. 7, art. Muslim b. al-Hadjdjadj, printed pp. 690-691"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
