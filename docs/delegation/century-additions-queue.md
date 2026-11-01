@@ -1795,11 +1795,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Mohammed ben Abdallah (Mohammed III) — 1710–1790
 - [x] Sultan Moulay Slimane — 1766–1822
 - [x] Dey Hussein — 1765–1838
-- [ ] Raja Haji Fisabilillah — 1727–1784
-- [ ] Sultan Hamengkubuwono I — 1717–1792
-- [ ] Mangkunegara I (Raden Mas Said) — 1725–1795
-- [ ] Qırım Giray — 1717–1769
-- [ ] Sheikh Mansur (Ushurma) — 1760–1794
+- [x] Raja Haji Fisabilillah — 1727–1784
+- [x] Sultan Hamengkubuwono I — 1717–1792
+- [x] Mangkunegara I (Raden Mas Said) — 1725–1795
+- [x] Qırım Giray — 1717–1769
+- [x] Sheikh Mansur (Ushurma) — 1760–1794
 - [ ] Timur Shah Durrani — 1748–1793
 - [ ] Liu Zhi — 1660–1739
 

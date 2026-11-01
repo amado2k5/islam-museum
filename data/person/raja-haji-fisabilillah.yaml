@@ -1,0 +1,74 @@
+id: person/raja-haji-fisabilillah
+class: person
+
+label: { ar: "راجا حاجي في سبيل الله", en: "Raja Haji Fisabilillah", ur: "راجا حاجی فی سبیل اللہ" }
+
+names:
+  - { value: "Raja Haji Fisabilillah ibni Daeng Chelak", kind: full }
+  - { value: "راجا حاجي الشهيدين في سبيل الله بن داينغ چيلق", kind: full }
+  - { value: "Marhum Teluk Ketapang", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "راجا حاجي في سبيل الله (1727 – 18 يونيو 1784)، واسمه الكامل راجا حاجي في سبيل الله بن داينغ جيلاك، أمير محارب من البوغيس والملايو تولّى منصب يانغ دي برتوان مودا (نائب السلطان) الرابع في رياو من 1777 إلى 1784. كان صانع ملوك في عالم الملايو: نصّب أول سلطان لبونتياناك سنة 1771، وأخضع جمبي وإندراغيري وسياك وفيرق، ثم سقط برصاصة هولندية في خليج كيتابانغ وهو يحاصر ملقا الهولندية سنة 1784. أعلنته إندونيسيا بطلًا قوميًا سنة 1997."
+  en: "Raja Haji Fisabilillah (1727 – 18 June 1784), full name Raja Haji Fisabilillah ibni Daeng Chelak, was a Bugis-Malay warrior prince who served as the fourth Yang di-Pertuan Muda (viceroy) of Riau from 1777 to 1784. A kingmaker across the Malay world — he installed the first sultan of Pontianak in 1771 and coerced Jambi, Indragiri, Siak and Perak — he was killed by a Dutch shot at Teluk Ketapang while besieging Dutch Malacca in 1784. Indonesia proclaimed him a National Hero in 1997."
+  ur: "راجا حاجی فی سبیل اللہ (1727ء – 18 جون 1784ء)، پورا نام راجا حاجی فی سبیل اللہ ابن دائینگ چیلاک، بوگیس و ملای جنگجو شہزادے تھے جو 1777ء سے 1784ء تک ریاو کے چوتھے یانگ دی پرتوان مودا (نائب السلطان) رہے۔ وہ عالمِ ملای میں بادشاہ گر تھے: 1771ء میں انہوں نے پونتیاناک کے پہلے سلطان کو تخت پر بٹھایا اور جمبی، اندراگیری، سیاک اور پیراک کو زیر کیا؛ 1784ء میں ملاکا کے محاصرے کے دوران تیلوک کیتاپانگ میں ولندیزی گولی سے شہید ہوئے۔ انڈونیشیا نے 1997ء میں انہیں قومی ہیرو قرار دیا۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1727~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article gives 1727, born at Ulusungai in Riau, and Wikidata gives the year 1727 with a birthplace item for Bintan Island. The Indonesian article gives 1725 and names the birthplace as Kota Lama, Ulusungai; the Malay article gives 1727 but names Linggi, Riau. The year is therefore built as c. 1727 with the 1725 reading preserved, and the Hijri year is omitted — 1727 spans 1139–1140 AH and the rival 1725 spans 1137–1138 AH, so no pairing is consistent. Ulusungai has no museum place record, so no born_in edge is written."
+  sources: [source/wikipedia-raja-haji-fisabilillah-en, source/wikipedia-raja-haji-fisabilillah-id, source/wikipedia-raja-haji-fisabilillah-ms, source/wikidata-raja-haji-fisabilillah]
+
+died:
+  edtf: "1784-06-18"
+  hijri: "1198"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English article gives his death on 18 June 1784 at Teluk Ketapang, Malacca, shot from a distance while his forces surrounded a Dutch fort, and the Indonesian article agrees on Kampung Ketapang, Malacca. The Malay article's lead agrees on 1784, but its infobox corrupts the death year and the end of his reign to 1787 against its own text. Wikidata gives the year only, and its place-of-death value is Penyengat Island — that is his burial island, not the place of death: per the English article (after Munshi Abdullah and the Indonesian culture ministry), the Dutch first buried his recovered body in a pig farm, and after the English took Malacca his family had him reburied with a proper Muslim burial at Bukit Kursi on Penyengat Island, in the reign of his son Raja Ja'far."
+  sources: [source/wikipedia-raja-haji-fisabilillah-en, source/wikipedia-raja-haji-fisabilillah-id, source/wikipedia-raja-haji-fisabilillah-ms, source/wikidata-raja-haji-fisabilillah]
+
+relations:
+  - { type: died_in, target: place/malacca, sources: [source/wikipedia-raja-haji-fisabilillah-en, source/wikipedia-raja-haji-fisabilillah-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school or an order for the man
+      himself. The tradition he ruled is stated in full — he was a
+      prince of the Islamised Bugis-Malay world of Riau and Johor,
+      his very style Fisabilillah means "in the path of God", and
+      after his body was recovered from its first burial the royal
+      family had him reburied with a proper Muslim burial at Bukit
+      Kursi on Penyengat Island; his campaigns were fought in a
+      Malay world whose scholarly tradition was Shafi'i. A name
+      style, a Muslim burial and a region's school are context, not
+      a naming of the man's school, so his faith is recorded as
+      unknown. The Malay article's infobox files him as Sunni Islam
+      and Wikidata carries no religion value at all; structured
+      filings never settle faith.
+    sources: [source/wikipedia-raja-haji-fisabilillah-en, source/wikipedia-raja-haji-fisabilillah-ms, source/wikidata-raja-haji-fisabilillah]
+
+external_ids: { wikidata: "Q7285447" }
+
+sources:
+  - source/wikipedia-raja-haji-fisabilillah-en
+  - source/wikipedia-raja-haji-fisabilillah-id
+  - source/wikipedia-raja-haji-fisabilillah-ms
+  - source/wikidata-raja-haji-fisabilillah
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1363621482 of 11 July 2026), Indonesian Wikipedia (revision 29664139 of 29 August 2026), Malay Wikipedia (revision 6906039 of 20 July 2026) and Wikidata Q7285447 (item revision 2451587137), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian and Malay articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds Raja Haji Fisabilillah. His father Daeng Chelak has no record, so no child_of edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

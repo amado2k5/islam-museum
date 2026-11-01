@@ -1,0 +1,72 @@
+id: person/hamengkubuwono-i
+class: person
+
+label: { ar: "هامنكوبوونو الأول", en: "Hamengkubuwono I", ur: "ہامینگکوبوونو اول" }
+
+names:
+  - { value: "Bendara Raden Mas Sujono", kind: full }
+  - { value: "Raden Mas Sujana", kind: alternate }
+  - { value: "Mangkubumi", kind: alternate }
+  - { value: "Ngarsa Dalem Sampeyan Dalem Hingkang Sinuhun Kangjeng Sultan Hamengkubuwono Senopati Ing Ngalaga Ngabdurrahman Sayidin Panatagama Kalifatullah", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "هامنكوبوونو الأول (أغسطس 1717 – 24 مارس 1792)، وُلد باسم رادن ماس سوجانا وعُرف بالأمير مانغكوبومي، مؤسس سلطنة يوجياكرتا وأول سلاطينها. قاتل أميرُ ماتارام هذا شركةَ الهند الشرقية الهولندية منذ 1746، فنال بموجب معاهدة غيانتي سنة 1755 نصف ماتارام، وبنى يوجياكرتا عاصمة له، وحكم حتى وفاته. أعلنته إندونيسيا بطلًا قوميًا سنة 2006."
+  en: "Hamengkubuwono I (August 1717 – 24 March 1792), born Raden Mas Sujana and known as Prince Mangkubumi, was the founder and first sultan of Yogyakarta. A Mataram prince who fought the Dutch East India Company from 1746, he won half of Mataram under the Treaty of Giyanti in 1755, built Yogyakarta as his capital and reigned until his death. Indonesia named him a National Hero in 2006."
+  ur: "ہامینگکوبوونو اول (اگست 1717ء – 24 مارچ 1792ء)، پیدائشی نام رادن ماس سوجانا اور شہزادہ مانگکوبومی کے نام سے معروف، یوگیاکارتا سلطنت کے بانی اور پہلے سلطان تھے۔ ماتارم کے اس شہزادے نے 1746ء سے ولندیزی ایسٹ انڈیا کمپنی سے جنگ کی، 1755ء میں گیانتی معاہدے کے تحت آدھا ماتارم حاصل کیا، یوگیاکارتا کو اپنا دارالحکومت بنایا اور وفات تک حکومت کی۔ انڈونیشیا نے 2006ء میں انہیں قومی ہیرو قرار دیا۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1717-08"
+  hijri: "1129"
+  calendar: gregorian
+  precision: month
+  status: debated
+  note: "The year and month are unanimous — August 1717, at Kartasura — but the day is given three ways: 5 August in the English article's infobox and the Indonesian article's birth template, 6 August in the Indonesian article's text and in Wikidata, and 16 August in the English article's lead. The record is therefore built at month precision with all three days preserved; every rival day falls in August 1717, inside 1129 AH. Kartasura has no museum place record, so no born_in edge is written."
+  sources: [source/wikipedia-hamengkubuwono-i-en, source/wikipedia-hamengkubuwono-i-id, source/wikidata-hamengkubuwono-i]
+
+died:
+  edtf: "1792-03-24"
+  hijri: "1206"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English and Indonesian articles and Wikidata agree on 24 March 1792, at the Kraton (palace) of Yogyakarta; he was buried at Imogiri. Yogyakarta has no museum place record, so no died_in edge is written."
+  sources: [source/wikipedia-hamengkubuwono-i-en, source/wikipedia-hamengkubuwono-i-id, source/wikidata-hamengkubuwono-i]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school or an order for the man
+      himself. The tradition he ruled is stated in full — he
+      founded a Muslim sultanate, and his regnal style proclaimed
+      him Ngabdurrahman Sayidin Panatagama Kalifatullah, servant
+      of the Merciful, defender of the faith and caliph of God,
+      while the Javanese court he led held Islam together with
+      older Kejawen court practice. A regnal title is office, and
+      a court's tradition is dynastic context; neither names the
+      man's school, so his faith is recorded as unknown. The
+      English and Indonesian infoboxes file his religion as Islam
+      and Wikidata carries no religion value at all; structured
+      filings never settle faith.
+    sources: [source/wikipedia-hamengkubuwono-i-en, source/wikipedia-hamengkubuwono-i-id, source/wikidata-hamengkubuwono-i]
+
+external_ids: { wikidata: "Q1135417" }
+
+sources:
+  - source/wikipedia-hamengkubuwono-i-en
+  - source/wikipedia-hamengkubuwono-i-id
+  - source/wikipedia-hamengkubuwono-i-ms
+  - source/wikidata-hamengkubuwono-i
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378742679 of 6 October 2026), Indonesian Wikipedia (revision 30079675 of 17 October 2026), Malay Wikipedia (revision 6511935 of 7 April 2025) and Wikidata Q1135417 (item revision 2549196682), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian and Malay articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked by the coordinator against origin/main before building: the hamengkubuwono-viii and hamengkubuwono-ix records on main are later sultans, different men, and no edges are written to them; his father Amangkurat IV and his successor Hamengkubuwono II have no records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
