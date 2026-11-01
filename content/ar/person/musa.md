@@ -118,3 +118,6 @@ translators: []
 ويذكر الشيخ في موضع آخر قولًا في أن ملك الله دائم وخزائنه لا تنفد، فلا يخشى موسى نفاد رزقه (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:29:00}
 
 يذكر الشيخ أن يعقوب أوصى بنيه ألا ييأسوا من رحمة الله، ثم يروي أن موسى رعى الغنم عشر سنين قبل بعثته، ويذكر فرعون وقارون من أشد الابتلاءات (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:30:00}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يتتبع الشيخ حياة موسى مثلًا على أن ظاهر الأمور غير باطنها: إلقاؤه رضيعًا في اليمّ والتقاط عدوّه له، ثم المحبة التي ألقاها الله عليه؛ ثم خروجه خائفًا من المدينة بعد قتل الرجل، ثم عشر سنوات في مدين عند الرجل الصالح، وزواجه من ابنته ورعيه غنمه، ثم رؤيته النار في الوادي المقدس وتكليم الله له، فصار من أولي العزم الخمسة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:30} انظر: [[concept/al-minha-fi-al-mihna|المنحة في المحنة]].

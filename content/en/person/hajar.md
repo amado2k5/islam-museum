@@ -21,3 +21,7 @@ Isma'il's mother died after Isma'il had grown up and married among Jurhum, and b
 
 ## For young visitors
 Hagar is the mother of Isma'il. She stayed in Mecca with her suckling child, and God gave them water from the well of Zamzam, which still stands.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh cites Hajar on trust in God: when her water ran low with her infant beside her, she ran between al-Safa and al-Marwa seven times, which for him is the taking of means, having already put her trust in God on the day she learned that being left there was God's command and said He would not let them perish. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:06:30} He observes that the water did not spring at al-Safa or at al-Marwa, and that she asked according to her measure and God gave according to His, so that there was Zamzam, from which pilgrims, visitors and the people of Mecca drink. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:30}
+In another episode he mentions her with her infant in a barren valley as an example that good may lie in what one dislikes, since from Isma'il's line came the best of creation. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
