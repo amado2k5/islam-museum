@@ -30,3 +30,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ کہتے ہیں کہ جب دل دنیا کے دسترخوان سے بے رغبت ہوتے ہیں تو وہ آخرت کے دسترخوان پر بیٹھتے ہیں {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:30}۔
 
 شیخ کہتے ہیں کہ انسان دنیا میں اجنبی یا اللہ کی طرف سفر کرنے والے کی طرح رہے، اور اس کا دل آخرت میں ہو {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30}۔
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ کے نزدیک زہد کو غلطی سے فقر سمجھا گیا، جبکہ انسان اربوں کا مالک ہو کر زاہد ہو سکتا ہے، اور چند درہم کا مالک ہو کر دنیا کا حریص؛ وہ حدیث ذکر کرتے ہیں کہ اگر ابنِ آدم کے پاس سونے کی ایک وادی ہو تو دوسری کی تمنا کرے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:00}

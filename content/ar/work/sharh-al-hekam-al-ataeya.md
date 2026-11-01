@@ -1,0 +1,174 @@
+---
+id: work/sharh-al-hekam-al-ataeya
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+يدرج أرشيف أسابيل هذه السلسلة بين الدروس الصوتية لعمر عبد الكافي، وعدد حلقاتها سبع عشرة. {cite:assabile-omar-abdelkafy series-list} يشرح فيها كتاب [[work/hikam-al-ataiyya|الحكم العطائية]] لـ[[person/ibn-ata-allah-al-iskandari|ابن عطاء الله السكندري]]، ويقول إنه اختاره لأن القلب يحتاج إلى شحنة إيمانية وعقيدة سوية يترقى بها العبد في مقامات العبادة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:03:30} والدرس [[concept/majalis-al-ilm|مجلس علم]] يرى الشيخ أن القلب لا يستغني عنه، لأن خطبة الجمعة وحدها لا تكفي لشحنه طوال الأسبوع. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:02:00} وتسجيلات السلسلة رديئة الصوت، وكثير من نوافذ النص المفرّغ منها غير مفهوم، فلم يُكتب هنا إلا ما قُرئ بوضوح؛ وما سواه مُسجّل في قائمة المستبعدات في ملف تقدّم المسار.
+
+## الحلقة الأولى: الطلب والسؤال
+- يبدأ حكمة ابن عطاء الله في أن طلب العبد من ربه قد يكون اتهامًا له، {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:06:30} ويقول إن معناها ليس ترك [[practice/dua|الدعاء]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:11:00}
+- يروي موقف [[person/ibrahim|إبراهيم]] في النار حين قال لجبريل إن علم ربه بحاله يغنيه عن سؤاله. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:10:00}
+- يقول إن البيوت التي يقوم أهلها الليل تراها الملائكة من الملأ الأعلى كالنجوم المتلألئة، فإذا غاب صاحبها ليلة لمرض أو سفر سألت عنه ودعت له؛ وهذه روايته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:08:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:09:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:09:30}
+- يقول إن العبد إذا تعرّف إلى الله بالذلة عرّفه الله بالعز، وإذا تعرّف إليه بالفقر أمدّه بالغنى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:10:30}
+- يشرح [[practice/istikhara|الاستخارة]] ويقابلها بعادة [[concept/tatayyur-omens|السانح والبارح]] في الجاهلية. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:15:30}
+- يذكر رأيه في دعاء «لا أسألك رد القضاء» والفرق بين القضاء المبرم والمعلّق. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:18:00}
+- يروي موقف [[person/umar-ibn-al-khattab|عمر]] يوم وفاة النبي وقراءة أبي بكر الآية. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:00}
+- يروي قصة [[person/yunus|يونس]] في السفينة وبطن الحوت. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:21:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:24:30}
+- يفرّق بين الغِيبة بمعنى ذكر الأخ بما يكره، والغَيبة بمعنى الغياب، في شرح قول ابن عطاء الله إن طلب العبد لربه غيبة منه عنه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:29:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:00}
+- يعيب تدريس عبارة ديكارت «أنا أشك إذن أنا موجود» للأطفال في دروس الفلسفة؛ وهذا رأيه (نقد). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:29:00}
+- يروي بيعة نفر من الصحابة على ألا يسألوا الناس شيئًا (انظر [[concept/al-masalah|المسألة]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:30}
+- يشرح الحكمة التالية في همة السالك وهواتف الحقيقة وفتنة ظواهر المكوَّنات. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:46:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:51:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:59:30}
+- يصف قيام النبي بالليل: كان إذا مرّ بآية رحمة وقف وسأل الله رحمته، وإذا مرّ بآية عذاب وقف واستعاذ. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:49:00}
+- يرى أن من يكرّر حكاية عمله الصالح ينتقل من الفرح إلى [[concept/riya|المباهاة]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 01:05:30}
+
+## الحلقة الثانية: الرجوع إلى الله في البدايات
+- يتحدث عن فضل [[concept/majalis-al-ilm|مجالس العلم]]، وعن الماشي إلى بيت الله متطهرًا، وعن الملائكة التي تحفّ بمجلس العلم وتضع أجنحتها لطالبه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:03:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:05:00}
+- يشرح حكمة ابن عطاء الله أن من علامات النجح في النهايات الرجوع إلى الله في البدايات، {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:09:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:22:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:46:00} ويطبّقها على اختيار الزوجين وعلى [[concept/husn-al-khatima|حسن الخاتمة]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:22:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:23:30}
+- يروي خبر [[person/al-khansa|الخنساء]] وبنيها الأربعة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:19:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:20:00}
+- يذكر سحرة فرعون الذين آمنوا برب موسى وهارون حين رأوا الآية. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:40:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:41:00}
+- يشرح حكمة الفرق بين من يستدل بالله على الأشياء ومن يستدل بالأشياء على الله، ويتكلم عمّن يريدون إثبات وجود الله بالأدلة، وينقل كلامًا لابن القيم في هذا المعنى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:47:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:47:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 00:50:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep02 01:07:00}
+
+## الحلقة الثالثة: الهروب مما لا انفكاك منه
+- يشرح حكمة ابن عطاء الله في العجب ممن يهرب مما لا انفكاك له عنه ويطلب ما لا بقاء له معه، ويكرّرها في مواضع من الدرس. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:31:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:41:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:42:00}
+- يشرح الحكمة التالية: لا يرفع العبد حاجته إلى غير من أوردها عليه، لأن من لا يستطيع أن يرفع حاجته عن نفسه لا يستطيع أن يرفعها عن غيره. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep03 00:50:00}
+- أكثر هذه الحلقة غير مفهوم في النص المفرّغ، فلم يُكتب منها غير ذلك.
+
+## الحلقة الرابعة: الصحبة والارتحال إلى الله
+- يشرح حكمة ابن عطاء الله أن الإنسان قد يكون مسيئًا فيرى إحسانه لأنه يصحب من هو أسوأ منه حالًا. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:15:30}
+- يتكلم عن معنى [[concept/la-ilaha-illa-allah|لا إله إلا الله]] وعمّن نطق بها ولم يعمل، وعن خروج عصاة الموحدين من النار. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:22:00}
+- يروي حديث آخر رجل يخرج من النار ويدخل الجنة: يسأل ربه أن يصرف وجهه عن النار، ثم أن يقرّبه من شجرة بعد شجرة، حتى يقف على باب الجنة فيُعطى فيها مثل الدنيا، ويذكر أن ابن مسعود ضحك حين رواه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:24:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:26:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:27:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:29:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:30:30}
+- يشرح حكمة ألا يصحب من لا ينهضه حاله ولا يدله على الله مقاله، ويطبّقها على [[concept/companionship-suhba|الصحبة]] واختيار الزوجين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:46:00}
+- يشرح حكمة ألا يرتحل من كون إلى كون بل من الأكوان إلى المكوِّن، ويقرنها بحديث «فمن كانت هجرته إلى الله ورسوله». {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:48:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:48:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:58:00}
+- يتحدث عن صبر [[person/yaqub|يعقوب]]، وعن طلب [[person/fatima|فاطمة]] خادمًا وتعليمها التسبيح عند النوم. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:53:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:53:30}
+- في آخر الدرس يجيب عن أسئلة الحاضرين، ومنها سؤال عن إعطاء الزكاة للأخ. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:59:30}
+
+## الحلقة الخامسة: الآخرة دار الجزاء
+- يبدأ بالدعاء بالرحمة للشيخ [[person/ahmed-yassin|أحمد ياسين]]، ويرى أن حكمة اليوم توافق الحال النفسية للحاضرين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00}
+- يشرح حكمة ابن عطاء الله أن الدنيا لا تسع ما يريد الله أن يعطي عباده المؤمنين، فجعل الآخرة محلًّا لجزائهم. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:27:30}
+- يروي بكاء عمر على من لا يعرفهم من شهداء [[event/battle-of-al-qadisiyya|القادسية]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:02:00}
+- يروي خبر [[person/abdullah-ibn-amr-ibn-haram|عبد الله بن عمرو الأنصاري]] أبي جابر، وكلام الله له بلا حجاب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:08:30}
+- يذكر قول فاطمة عند احتضار النبي «وا كرباه» وجوابه أنه لا كرب على أبيها بعد اليوم، ويذكر الشاة المسمومة التي قدّمتها له امرأة يهودية. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:13:30}
+- يذكر شعور [[person/umar-ibn-al-khattab|عمر]] بالمسؤولية. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:15:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:15:30}
+- يصف [[event/battle-of-the-trench|الخندق]] بأرقام يذكرها هو. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:21:00}
+- يتحدث عن منازل [[concept/jannah|الجنة]] وعن [[concept/ruyat-allah|رؤية الله]] في الآخرة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:26:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:00}
+- يذكر خروج الروح من الجسد في النوم، ونداء عمر على [[person/sariya-ibn-zunaym|سارية]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:33:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:34:00}
+- يروي إسلام [[person/tufayl-ibn-amr-al-dawsi|الطفيل بن عمرو]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:37:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:38:00}
+- يتحدث عن المسؤولية والولاية مستشهدًا بأبي هريرة و[[person/abu-dharr-al-ghifari|أبي ذر]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:46:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:47:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:48:00}
+
+## الحلقة السادسة: النور جند القلب
+- يذكر قول النبي إن من أحب أن يسمع القرآن غضًّا كما أُنزل فليسمعه من [[person/abdullah-ibn-masud|ابن مسعود]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:30}
+- يتحدث عن [[practice/khatm-al-quran|ختم القرآن]] ليلة الجمعة وعن «الحالّ المرتحل». {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:07:30}
+- يذكر فضل من صلى الفجر ثم جلس يذكر الله حتى تطلع الشمس ثم صلى ركعتين، وأن له أجر حجة وعمرة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:09:00}
+- يشرح حكمة النور جند القلب، ويفرّق بين القلب والعقل و[[concept/al-nafs-wal-ruh|النفس والروح]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:12:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:22:30}
+- يروي خبر [[person/umm-haram-bint-milhan|أم حرام بنت ملحان]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:18:30}
+- يذكر ما يقوله عن أثر [[practice/wudu|الوضوء]] في النفس. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:23:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:24:30}
+- يروي موقف أبي بكر حين شُتم، في الكلام عن [[concept/hilm|الحلم]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:25:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:26:00}
+- يذكر أن اليهود كانوا يمرّون بالنبي فيحيّونه بالدعاء عليه بالموت، فيردّ عليهم. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:28:00}
+- يشرح حكمة علامات موت القلب ويذكر أمثلة من ترك الصلاة (انظر [[concept/qaswat-al-qalb-wa-amradih|قسوة القلب وأمراضه]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30}
+- يذكر رأيه في مكانة المعلّم ([[concept/tarbiya|التربية]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:50:00}
+
+## الحلقة السابعة: مراتب الذكر
+- يبدأ بوسوسة الشيطان للمصلي ليترك الطاعة بحجة غياب الخشوع أو خوف الرياء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:04:30}
+- يشرح حكمة ألا يترك العبد [[concept/dhikr|الذكر]] لعدم حضور قلبه، ومراتب الذكر الأربع. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:20:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:36:30}
+- يفضّل القراءة من المصحف على السماع وحده. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:15:30}
+- يذكر أن من صلى في ثوب ثمنه عشرة دراهم فيها درهم حرام لم تُقبل صلاته ما دام عليه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:22:00}
+- يذكر تدرّج تحريم [[concept/khamr|الخمر]] وقانون منعها في الغرب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:26:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:28:30}
+- يروي خبر [[person/usayd-ibn-hudayr|أسيد بن حضير]] والملائكة التي نزلت لقراءته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:34:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:35:30}
+- يروي خبر [[person/abdullah-ibn-al-zubayr|عبد الله بن الزبير]] صبيًّا مع عمر. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:30}
+- يروي قصيدة [[person/farazdaq|الفرزدق]] في [[person/ali-zayn-al-abidin|علي زين العابدين]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:43:00}
+- يذكر [[person/al-ahnaf-ibn-qays|الأحنف بن قيس]] حليم العرب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:45:00}
+- يشرح حكمة الخوف من [[concept/istidraj|الاستدراج]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:47:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:48:00}
+- يذكر تمنّي [[person/musa|موسى]] أن يدنو من الأرض المقدسة عند موته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:55:30}
+
+## الحلقة الثامنة: سوء الأدب وتأخر العقوبة
+- يشرح حكمة أن من جهل المريد أن يسيء الأدب فتتأخر العقوبة عنه فيظن أنه لم يُعاقب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:01:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:19:00}
+- يشرح حكمة المعصية التي تورث الذل والطاعة التي تورث [[concept/ujb|العُجب]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:05:00}
+- يحكي نادرة جحا في [[concept/tul-al-amal|طول الأمل]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:12:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:14:00}
+- يحث على [[practice/qiyam-al-layl|قيام]] الثلث الأخير من الليل. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:20:00}
+- يذكر رأيه في الخلاف بين الحركات الإسلامية ([[concept/ikhtilaf|الاختلاف]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:25:00}
+- يشرح حكمة قوم أقامهم الله لخدمته وقوم اختصهم بمحبته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:31:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:40:00}
+- يروي إسلام أم [[person/abu-hurayra|أبي هريرة]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:44:00}
+- يذكر أن الله إذا أحب عبدًا نادى جبريل بأنه يحبه، ثم يوضع له القبول في الأرض. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:44:30}
+- يذكر الأعراب الذين نادوا النبي من وراء الحجرات «يا محمد اخرج إلينا»، في الكلام عن الأدب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:48:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:49:00}
+- يشرح حكمة من وجد ثمرة عمله عاجلًا، ويطبّقها على صلة [[concept/arham-fiqh|الأرحام]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:50:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:51:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:51:30}
+
+## الحلقة التاسعة: العطاء والمنع
+- يذكر قصة المرأة المخزومية التي سرقت، شاهدًا على المساواة في [[concept/hudud-penalties|الحدود]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:30}
+- يروي خصومة [[person/ali-ibn-abi-talib|علي]] مع رجل من أهل الذمة عند القاضي. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:16:30}
+- يروي خبر [[person/aisha|عائشة]] حين تبعت النبي ليلًا إلى البقيع. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:18:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:20:00}
+- يذكر أن من عباد الله من لا يصلحه إلا الغنى ولو أفقره لفسد حاله. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:24:30}
+- يذكر الحديث القدسي في أن العبد يتقرب إلى الله بالفرائض ثم بالنوافل حتى يحبه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:40:30}
+- يشرح حكمة أن الله ربما أعطى فمنع وربما منع فأعطى، ويمثّل بيعقوب الذي مُنع ابنه ثم أُعطي، وبأم موسى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:43:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:47:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:52:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:52:30}
+- يجيب في آخر الدرس عن أسئلة في الصيام، منها قطرة العين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:30}
+
+## الحلقة العاشرة: ظاهر الأكوان وباطنها
+- يذكر تأثّر [[person/salah-al-din-yusuf-ibn-ayyub|صلاح الدين]] بدار الأرقم وحزنه على بيت المقدس. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:05:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:06:00}
+- يقول إن كلمة «الإرهاب» بمعناها الشائع لا ترد في كتاب الله، وإن الوارد فيه لفظ «ترهبون»؛ وهذا رأيه في مسألة يُختلف فيها. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:06:30}
+- يشرح حكمة أن الأكوان ظاهرها غرّة وباطنها عبرة، ويمثّل بمن تمنّوا مكان [[person/qarun|قارون]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:10:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:21:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:31:00}
+- يروي أن أبا بكر استأذن النبي في تأويل رؤيا. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:25:00}
+- يذكر حديث الجنة المحفوفة بالمكاره و[[concept/jahannam|النار]] المحفوفة بالشهوات. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:30}
+- يقول إن الغيبة أبو الكبائر (انظر [[question/what-is-ghiba|الغيبة]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:35:00}
+- يشرح حكمة العزّ الذي لا يفنى، ويروي خبر [[person/salim-ibn-abd-allah-ibn-umar|سالم بن عبد الله]] مع هشام في الكعبة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:38:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:30}
+- يذكر أن الحسن البصري كان صديق عمر بن عبد العزيز. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:40:00}
+
+## الحلقة الحادية عشرة: العطاء والمنع تعرّف
+- يقول إن العاصي يُعامل كالمريض يحتاج إلى الرعاية، وينهى عن سوء الظن بالمقيم على المعصية وعن تعييره. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:02:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:02:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:11:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:11:30}
+- يقترح أسبوعًا لتعويد النفس [[concept/ghadd-al-basar|غضّ البصر]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:07:30}
+- يذكر [[person/umm-ayman|أم أيمن]] مربية النبي. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:18:00}
+- يروي صلاة النبي على [[person/abdullah-ibn-ubayy|عبد الله بن أبيّ]] واعتراض عمر. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:25:30}
+- يشرح حكمة أن الله متى أعطى أشهد عبده برّه ومتى منع أشهده قهره. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:30:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:42:00}
+- أكثر هذه الحلقة غير مفهوم في النص المفرّغ.
+
+## الحلقة الثانية عشرة: خير الأوقات
+- يذكر قولًا في العمل لل[[concept/dunya|دنيا]] بقدر المقام فيها وللآخرة بقدر البقاء فيها. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:05:00}
+- يشرح حكمة أن خير أوقات العبد وقت يشهد فيه فاقته وذلّته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:21:00}
+- يذكر أن المولود يخرج باكيًا والناس حوله يضحكون. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:12:30}
+- يشرح حكمة أن الله متى أطلق لسان العبد بالطلب فهو يريد أن يعطيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:22:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:27:00}
+- يذكر معنى حديث المفلس في الكلام عن [[concept/zulm|الظلم]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}
+- يجيب في آخر الدرس عن أسئلة في فقه الصلاة، منها إدراك الركعة بإدراك الركوع مع الإمام. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:46:30}
+
+## الحلقة الثالثة عشرة: الابتلاء والهوى
+- يقول إن الناس حزبان: حزب الرحمن وحزب الشيطان. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:06:00}
+- يشرح حكمة أن ما يخفّف ألم البلاء علم العبد بأن الله هو المبتلي (انظر [[concept/ibtila|الابتلاء]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:14:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:24:30}
+- يتحدث عن تفضيل [[person/yaqub|يعقوب]] ليوسف وينهى الآباء عن التفضيل بين الأولاد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}
+- يتحدث عن [[concept/mahr|المهر]] المقدّم والمؤخّر، ويرى أن الناس صعّبوا الحلال. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:47:30}
+- يشرح حكمة الخوف من غلبة الهوى لا من التباس الطرق. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:48:00}
+- يذكر رأيه في تسوية [[person/abu-bakr|أبي بكر]] في العطاء، وأنه لا معصوم بعد النبي. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:50:00}
+- يشرح حكمة الامتثال في الظاهر والاستسلام في الباطن، ويتأمل معاني الفاتحة في الصلاة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 01:11:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 01:16:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 01:16:30}
+- يعيب على الجماعات الحزبية أن يقتل بعضها بعضًا ويكفّر بعضها بعضًا؛ وهذا رأيه (نقد). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 01:18:00}
+
+## الحلقة الرابعة عشرة: الغافل والعاقل
+- يشرح حكمة أن الغافل ينظر ماذا يفعل والعاقل ينظر ماذا يفعل الله به، ويحكي حكاية الملك المقطوعة إصبعه (انظر [[concept/qadar|القدر]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:22:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:27:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:29:30}
+- يذكر أن له شيخًا يبلغ اليوم خمسًا وتسعين سنة جالسه في شبابه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:07:30} (needs_source)
+- يشرح حكمة تلوين الطاعات وحجرها في بعض الأوقات، ويذكر تحريم صيام يوم العيد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:34:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:40:30}
+- يصف مدّ النبي يده في [[practice/salat-al-kusuf|الصلاة]] كأنه يأخذ شيئًا. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:42:30}
+- يعيب استعمال الكلمات الأجنبية بدل العربية، ويقول: نحن عرب؛ وهذا رأيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:51:00}
+- يروي [[event/death-of-umar|مقتل عمر]] واستئذانه عائشة في الدفن. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 01:01:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 01:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 01:07:30}
+- يشرح حكمة حاجة العبد إلى حلم الله في الطاعة أكثر من المعصية. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 01:15:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 01:15:30}
+
+## الحلقة الخامسة عشرة: الستر والصحبة
+- يرى أن أسلوب الوعظ القديم لا ينفع مع «عوالم 2004»، فيدلّ ذلك على زمن الدرس. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:04:30}
+- يشرح حكمة أن العبد لا يصل إلى الله بفناء مساويه بل بأن يغطي الله وصفه بوصفه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:07:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:26:00}
+- يذكر أن الجنة مئة درجة ما بين كل درجتين كما بين السماء والأرض. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:09:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:10:00}
+- يروي أن أبا بكر صحّح لرجل قوله «لا، عافاك الله». {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:21:00}
+- يشرح حكمة جميل الستر الذي لولاه ما قُبل عمل. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:28:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:44:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:58:00}
+- يتحدث عن [[concept/zakat|الزكاة]] حقًّا للفقير. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:41:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:44:00}
+- يشرح حكمة الصاحب الذي يعلم عيبك، ويذكر [[person/hudhayfa-ibn-al-yaman|حذيفة]] أمين سرّ النبي. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:59:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:03:30}
+- يعقد درسًا في شروط [[practice/salah|الصلاة]] والطهارة، ويروي خبر [[person/abdullah-ibn-umar|ابن عمر]] ودم البعوض، وينهى الرجال عن لبس الذهب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:19:00}
+
+## الحلقة السادسة عشرة: خرق العوائد
+- يشرح حكمة منع العبد من ادّعاء ما ليس له. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:02:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:29:00}
+- يحثّ على تجديد [[concept/niyya|النية]] في كل عمل. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}
+- يفرّق بين عبد رمضان وعبد رب رمضان (انظر [[practice/sawm-ramadan|صيام رمضان]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:30}
+- يشرح حكمة خرق العوائد، ويصف ما يصير إليه الجسد في القبر. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:29:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:33:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:47:00}
+- يتكلم عن رؤية النبي في المنام. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:44:00}
+- يجيب عن أسئلة في [[concept/jinn|الجن]] والمسّ، ويشرح [[practice/tayammum|التيمم]]. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:09:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:16:00}
+
+## الحلقة السابعة عشرة: حظ النفس الخفي
+- يذكر دخول فلسفة الإغريق واليونانيين في أيام الأمين والمأمون. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep17 00:01:30}
+- يشرح حكمة ألا يكون الذنب سببًا لليأس من الاستقامة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep17 00:11:30}
+- يشرح حكمة أن حظ النفس في المعصية ظاهر وفي الطاعة خفي، ويذكر أن الدواء لما يخفى صعب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep17 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep17 00:53:30}
+- يقول إنه لا يعالج مسألة التدخين بتكرار كلمة «حرام» وحدها، ويذكر كلفة التدخين على المدخن. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep17 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep17 00:46:00} (needs_source: الأرقام في التسجيل غير واضحة.)

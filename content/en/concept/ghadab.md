@@ -29,3 +29,6 @@ The Sheikh says that anger comes from Satan and Satan from fire, and that the fi
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 9)
 
 The Sheikh says that the fire of revenge comes from the fire of anger, so anger is its source {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep09 00:07:30}.
+
+## From Omar Abdelkafy's series Nafahat Ramadaniyya (the faults of the tongue)
+Among the remedies for the faults of the tongue, the Sheikh advises the angry person, before bad words escape him, to change his posture, sitting if he is standing and standing if he is sitting, then to make ablution, because anger is from Satan, Satan is from fire, and fire is put out only by water; he suggests that the angry person look in a mirror to see a stranger, and pray God to protect him from the heat of his anger. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:09:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:09:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:00}

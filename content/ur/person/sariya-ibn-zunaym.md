@@ -16,3 +16,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ابن کثیر یہ بھی نقل کرتے ہیں کہ سارية کا قاصد فتح کی خبر لے کر مدینہ پہنچا، اور جب عمر سے منبر پر ان کی پکار کے بارے میں پوچھا گیا تو انہوں نے کہا کہ وہ بات انہی کی زبان پر ڈال دی گئی تھی۔ {cite:al-bidaya-wal-nihaya p. 132}
 
 ابن کثیر ان روایات کو یکجا رکھتے ہیں اور کہتے ہیں کہ ان میں سے بعض بعض کو تقویت دیتی ہیں، اور ابن عمر کی سند کو وہ اچھا سمجھتے ہیں۔ {cite:al-bidaya-wal-nihaya p. 131}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی کہتے ہیں کہ جب روح طاعت اور استقامت سے لطیف ہو جاتی ہے تو وہ دیکھتی ہے جو عام طور پر نظر نہیں آتا، اور اسی میں عمر کی ساریہ کو پکار شمار کرتے ہیں: «اے ساریہ، پہاڑ، پہاڑ!» {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:34:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:36:30}

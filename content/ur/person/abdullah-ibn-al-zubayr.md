@@ -23,3 +23,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **کوفہ کی قضا:** سعيد بن نمران الهمداني («استقضاه مصعب حين اعتزل شريح، ثم عزله»)، پھر [[person/abdallah-ibn-utba-ibn-masud|عبد الله بن عتبة بن مسعود]] («حتى قتل مصعب») {cite:tarikh-khalifa-umari-1985 p. 269}
 - **حاجب:** عبد الله بن سعد مولى حاطب بن أبي بلتعة {cite:tarikh-khalifa-umari-1985 p. 270}
 - **تمام امور پر:** عبد الله بن صفوان بن أمية بن خلف {cite:tarikh-khalifa-umari-1985 p. 270}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بیان کرتے ہیں کہ عمر بن الخطاب کچھ کھیلتے بچوں کے پاس سے گزرے تو سب بھاگ گئے سوائے عبد اللہ بن الزبیر کے؛ عمر نے پوچھا کہ تم کیوں نہیں بھاگے تو انہوں نے کہا کہ میں نے کوئی قصور نہیں کیا کہ آپ سے ڈروں، اور راستہ اتنا تنگ نہیں تھا کہ آپ کے لیے جگہ بناؤں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:39:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:30}

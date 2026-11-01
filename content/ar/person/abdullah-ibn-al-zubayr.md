@@ -22,3 +22,6 @@ translators: []
 - **قضاء الكوفة:** سعيد بن نمران الهمداني (استقضاه مصعب حين اعتزل شريح، ثم عزله)، ثم [[person/abdallah-ibn-utba-ibn-masud|عبد الله بن عتبة بن مسعود]] (حتى قتل مصعب) {cite:tarikh-khalifa-umari-1985 p. 269}
 - **الحاجب:** عبد الله بن سعد مولى حاطب بن أبي بلتعة {cite:tarikh-khalifa-umari-1985 p. 270}
 - **على أمره كله:** عبد الله بن صفوان بن أمية بن خلف {cite:tarikh-khalifa-umari-1985 p. 270}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي أن عمر بن الخطاب مرّ بصبيان يلعبون ففرّوا منه إلا عبد الله بن الزبير، فلما سأله عمر لماذا لم يفرّ قال إنه لم يرتكب ذنبًا يخاف منه، ولم يكن الطريق ضيّقًا فيوسّع له. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:39:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:30}

@@ -24,3 +24,6 @@ Jesus son of Mary was a noble messenger among the five of resolute determination
 
 ## For Scholars
 The Messiah, Jesus son of Mary, is a preeminent prophet and messenger among the resolute five, recognized in Islam as God's Word bestowed upon the Virgin Mary and a Spirit from Him. Islamic theology emphasizes his miraculous virginal conception, speaking from the cradle in vindication of his mother, and the revelation of the Gospel (Injil) confirming the Torah and heralding the Prophet Muhammad. Sustained by miracles performed solely by divine leave, the Qur'an records his being raised to heaven, standing as an exemplar of spiritual asceticism, humility, and compassion.
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Speaking of courtesy with God, Omar Abdelkafy mentions Jesus' answer when asked whether he told people to take him and his mother as gods, saying it was the height of courtesy and pure affirmation of God's oneness: he told them only what his Lord commanded him. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:11:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:12:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:13:00}

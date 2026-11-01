@@ -35,3 +35,9 @@ translators: []
 ## حفظ النفس من الزلل
 يقول الشيخ إن العلماء حذروا من أربعة أمور: الكلام والنظر والخطى والخواطر، ويستشهد بحديث في الإسراء في شأن الكلمة التي لا تعود بعد أن تُقال (needs_source: الحديث غير مسمى في التسجيل). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:24:00}
 ويرى أن على الإنسان أن يقلل من المعاصي ما استطاع، وألا يفتح أبوابا جديدة للشر، لأن الشيطان يعمل في الإنس كما يعمل في الجن. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:15:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن صاحب المؤسسة أو مديرها مسؤول أمام الله عن كل من ظلمه من يرأسه، وينقل قول بعض الحكماء «لا تكن رأسًا فإن الرأس كثير الصداع»، ويذكر حديث «كلكم راع وكلكم مسؤول عن رعيته»، ويدعو صاحب العمل أن يمرّ على الأقسام ويسأل الموظفين عن أولادهم ورواتبهم حتى إذا غادرهم حنّوا إليه وإن مات ترحموا عليه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:02:30} ويرى أن الذي يمنع المسؤول من الإنصات لمن تحته أربعة أمراض في القلب: العجب، ثم الكبر، ثم الحسد، ثم الرياء. {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يذكر عمر عبد الكافي حديث «كلكم راع وكلكم مسؤول عن رعيته»، ويطبّقه على الابن في مال أبيه وعلى الزوجة في بيت زوجها. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:00}

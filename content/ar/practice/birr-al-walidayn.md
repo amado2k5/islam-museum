@@ -26,3 +26,9 @@ translators: []
 يذكر الشيخ أن أحق الناس بالرجل أمه. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
 ويعدّ من أعظم البر أن يرضى الولد أباه وأمه، أحياء وأمواتا. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:22:30}
 ويذكر أن دعاء الولد الصالح لوالده يرفع منزلته في الجنة. {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:28:00}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يستشهد الشيخ بالأمر بالقول الكريم للوالدين والنهي عن نهرهما وعن قول «أفّ» لهما، ويرى أنه ليس في الكلام أصغر من كلمة «أفّ»، وأن الوالدين زرعا الخير في أولادهما وتعبا عليهم وتحمّلا المشقات، ويدعو لهما أحياءً بالصحة وأمواتًا بالرحمة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يروي عمر عبد الكافي في «المنجيات» خبر أحد الثلاثة الذين أطبقت عليهم الصخرة في الغار، الذي ظل ممسكًا إناء اللبن حتى استيقظ أبواه عند الفجر فسقاهما قبل زوجته وأولاده، ويذكر خبر جريج حين دعت عليه أمه فاتُّهم بالفاحشة. {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:12:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:13:00} ويذكر أن من بر الوالدين بعد موتهما بر أصدقائهما. {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:22:00}

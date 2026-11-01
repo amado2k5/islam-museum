@@ -23,3 +23,9 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 9)
 
 ينقل الشيخ قولاً لأهل العلم مفاده أن من كان بعيداً عن المعصية وتمناها بقلبه كان كمن حضرها، وأن من كان في موضع المعصية وأنكرها بقلبه كان كمن لم يحضرها {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}. ثم يعود إلى آيات النازعات فيقول إن السابحات [[passage/quran-79-3|النازعات 3]] تسبح بأرواح المؤمنين {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يحثّ عمر عبد الكافي على تجديد النية في كل عمل، حتى يكون إنفاق الرجل على أهله عبادة، ويذكر أن خير الدراهم ما أنفقه الرجل على أهله. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يحكي عمر عبد الكافي أن أميرًا دخل بستانًا فسقته فتاة عصير رمان من رمانة واحدة، فنوى أن يأخذ البستان من أهله، فلما طلب كأسًا أخرى عصرت رمانات كثيرة فلم تملأه، فقالت إن نية السلطان قد تغيرت، فترك فكرته فعادت البركة. ويسوقها شاهدًا على أثر النية في البركة. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:21:00}

@@ -13,5 +13,31 @@ wings: [ideas]
 themes: [education]
 regions: [global]
 sources: [source/assabile-tareq-al-suwaidan]
+authors: [person/tariq-al-suwaidan]
+delivered: { by: person/tariq-al-suwaidan }
+language: language/arabic
+delivery_date_status: uploaded
+relations:
+  - { type: about, target: concept/rubaiyyat-sinaat-al-mubdiin, note: "ep01 and throughout; added by Claude Code (claude-opus-5-5), run claude-suwaidan-explorer-backfill-1", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/jafar-al-sadiq, note: "ep02", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-awzai-abd-al-rahman, note: "ep03", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/abd-allah-ibn-al-mubarak, note: "ep04-ep05", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/izz-al-din-ibn-abd-al-salam, note: "ep06-ep07", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/layth-ibn-sad, note: "ep08", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-bukhari, note: "ep09-ep10", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-nawawi, note: "ep11", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/ibn-al-jawzi, note: "ep12", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-tabari, note: "ep13-ep14", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/ibn-qayyim-al-jawziyya, note: "ep15", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-fudayl-ibn-iyad, note: "ep16", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/ibn-al-nafis, note: "ep17", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/nur-al-din-mahmud-ibn-zangi, note: "ep18-ep19", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/abd-al-qadir-al-jilani, note: "ep20", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/ibn-taymiyya, note: "ep21-ep22", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/yusuf-ibn-tashfin, note: "ep23-ep24", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-razi-abu-bakr, note: "ep25", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-farabi, note: "ep26", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/ibn-sina, note: "ep27", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: about, target: person/al-ghazali-abu-hamid, note: "ep28-ep29", sources: [source/assabile-tareq-al-suwaidan] }
 provenance: { layer: copyrighted-reference, source: "Assabile, al-mubdioune ep01 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Devin (SWE-2 High)", model: swe-2-high, run: devin-tareq-al-suwaidan-mubdioune-1 }
 status: { review: published, generated_by: "Devin (SWE-2 High); run devin-tareq-al-suwaidan-mubdioune-1" }

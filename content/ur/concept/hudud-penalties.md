@@ -42,3 +42,6 @@ translators: []
 - **academic view: not yet sourced**: ابھی منسوب نہیں۔
 - **other view: not yet sourced**: ابھی منسوب نہیں۔
 :::
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بنو مخزوم کی اس عورت کا واقعہ بیان کرتے ہیں جس نے چوری کی، اس کے لیے سفارش کا ذکر کرتے ہیں، اور نبی کا فرمان کہ اگر فاطمہ بنت محمد بھی چوری کرتی تو میں اس کا ہاتھ کاٹ دیتا، حد کے نفاذ میں مساوات کی دلیل کے طور پر۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:30}

@@ -40,3 +40,6 @@ translators: []
 يرى الشيخ، رأيًا شخصيًا، أن الصحابة لم يتنافسوا على مقاعد السلطة، وأن هذه الأخلاق من ثمرة لا إله إلا الله، ويذكر أبا هريرة في هذا السياق {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:18:30}.
 
 يقارن الشيخ بين موقف عمر وموقف أبي هريرة من الولاية، ويعدّهما موقفين متضادين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:25:30}، ويقول إن هذه الأخلاق أثمرت لأن شجرة الله غُرست في القلب {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:29:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي أن أم أبي هريرة لم تكن قد أسلمت، فجاء أبو هريرة باكيًا إلى النبي يسأله الدعاء لها، فلما عاد وجدها قد اغتسلت والماء يقطر من شعرها وأسلمت. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:44:00} ويروي أيضًا أن عمر استدعاه من البحرين ثم دعاه بعد ذلك إلى الولاية فأبى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:46:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:46:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:47:00}

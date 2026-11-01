@@ -21,3 +21,6 @@ translators: [Devin]
 
 ## شرائط و ارکان
 وجوب کی شرائط: بلوغت، صعید استعمال کی قدرت، حدثِ ناقض؛ صحت کی شرائط: اسلام، عقل، حیض و نفاس کے ختم ہونا، پاک صعید کا ملنا۔ ارکان دو ہیں: دو ضربیں، اور چہرہ و ہاتھوں کو کہنیوں تک مسح کرنا؛ نیت کے رکن یا شرط ہونے میں اختلاف ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6084} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6085}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+ایک فقہی درس میں عمر عبد الکافی تیمم سمجھاتے ہیں: تیمم کرنے والا پاک مٹی پر دونوں ہتھیلیاں ایک بار مارے اور ان سے چہرے اور ہاتھوں کا مسح کرے، اس سے حدث اصغر اور اکبر دونوں دور ہو جاتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:15:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:16:00}

@@ -18,3 +18,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## چھوٹے قارئین کے لیے
 جس سال ابو طالب اور خدیجہ فوت ہوئے اسے «عام الحزن» کہا گیا، کیونکہ نبی کریم نے اس سال اپنے چچا اور اپنی بیوی کو کھو دیا، جو آپ کی حفاظت اور غمگساری کرتے تھے۔
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ کہتے ہیں کہ بعثت کے دسویں سال نبی نے اپنے دو سب سے بڑے سہارے کھو دیے، [[person/khadija|خدیجہ]] اور اپنے چچا [[person/abu-talib|ابو طالب]]، اور قریش ابو طالب کی وفات کے بعد ہی انہیں ستا سکے، تو اس سال کو عام الحزن کہا گیا۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00} وہ بیان کرتے ہیں کہ جب فاطمہ نے انہیں نزع کی حالت میں دیکھا تو کہا: ہائے ابا جان کی تکلیف! تو انہوں نے فرمایا: آج کے بعد تمہارے والد پر کوئی تکلیف نہیں، جس سے وہ سمجھتے ہیں کہ نبوت کے تئیس سال سب سختیاں تھیں۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}

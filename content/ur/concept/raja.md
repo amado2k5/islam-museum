@@ -13,3 +13,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 اور ابتدائی دور میں اس کے سب سے پہلے قائل عبداللہ بن سبا تھے، کیونکہ وہ علی کی واپسی کا قائل تھا۔ {cite:duha-islam p.874}
 
 یہ ایک غیر امامی واحد ماخذ سے تصویر ہے، اور امامیہ کی کتابوں سے مزید ماخذ کی ضرورت ہے۔
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ کے نزدیک خوف اور امید مومن کے دل کے دو پر ہیں اور اس کا سر محبت ہے، اس لیے وہ ایک پر سے نہیں اڑتا، اور معاملہ اس توازن کا ہے کہ امید خوف پر غالب ہو یا اس کے برعکس، خاص طور پر بہت گناہ کرنے والے کے لیے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:09:00} دیکھیے: [[concept/khawf|خوف]]۔
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ کہتے ہیں کہ مومن اللہ کی رحمت سے مایوس نہیں ہوتا، اور یعقوب کے اپنے بیٹوں سے قول سے استدلال کرتے ہیں کہ یوسف اور ان کے بھائی کی خبر لو اور اللہ کی رحمت سے مایوس نہ ہو؛ ان کے نزدیک اللہ کی رحمت سے مایوس ہونے والا کافر، خسارے والا اور اللہ سے دور ہے، جبکہ مومن جانتا ہے کہ کل آج سے بہتر ہے اور پرسوں کل سے بہتر۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30} دیکھیے: [[concept/al-faraj-bad-al-shidda|سختی کے بعد کشادگی]]۔

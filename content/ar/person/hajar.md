@@ -22,3 +22,10 @@ translators: []
 
 ## للزوار الصغار
 هاجر أم إسماعيل؛ بقيت في مكة مع رضيعها، فسقاهما الله من بئر زمزم التي لا تزال قائمة.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يستشهد الشيخ بهاجر في التوكل: لما قلّ الماء عندها وعندها رضيعها سعت بين الصفا والمروة سبع مرات، وهذا عنده اتخاذ الأسباب، وكانت قد توكلت على الله يوم علمت أن تركها هناك أمر من الله فقالت إنه لن يضيعهما. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:06:30} ويرى أن الماء لم ينبع عند الصفا ولا عند المروة، وأنها دعت على قدرها فأعطاها الله على قدره، فكانت زمزم التي يشرب منها الحجيج والمعتمرون وأهل مكة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:30}
+وفي حلقة أخرى يذكرها مع رضيعها في وادٍ غير ذي زرع مثلًا على أن الخير قد يكمن فيما يكرهه الإنسان، إذ كان من ذرية إسماعيل خير الخلق. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يقول الشيخ إن هاجر لم تكن أمة كما يقال في بعض كتب التاريخ، بل كانت من سلالة ملوك زالت دولتهم فأُخذت سبية إلى قصر الفرعون، وأُهديت إلى إبراهيم في مصر (needs_source: هذا قوله). {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:02:00} ويروي أنها لما تركها إبراهيم مع رضيعها عند البيت سألته: آلله أمرك بهذا؟ فلما قال نعم قالت: إذن لن يضيّعنا، ويرى في ذلك الفرج الحقيقي، ثم نبعت زمزم وجاءت جرهم فتزوج منهم إسماعيل، ومن ذريته جاء النبي. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:10:00}

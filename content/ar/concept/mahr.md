@@ -61,3 +61,6 @@ translators: []
 ## عند الشيخ عمر عبد الكافي
 يرى الشيخ أن المؤخر دين في عنق الزوج يجب أداؤه في حياته، وأن الفهم الشائع بأنه لا يستحق إلا بالطلاق أو الموت فهم خاطئ. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:27:00}
 وينتقد الشيخ الآباء الذين يطلبون مؤخرا كبيرا ليدفعوا الزوج إلى الطلاق. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:30} والأحكام الفقهية في الأقسام السابقة قائمة كما هي؛ وما هنا رأي الشيخ.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يقول عمر عبد الكافي إن الناس صعّبوا الحلال فسهل الحرام، وإن الصحابة سهّلوا الحلال فضاق الحرام، ويتكلم عن المهر المقدّم والمؤخّر، وعن حق الزوجة في مؤخّر صداقها دينًا على زوجها إذا مات. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:47:30}

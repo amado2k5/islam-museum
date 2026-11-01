@@ -57,3 +57,12 @@ translators: []
 ويرى أن الخطأ في القراءة أمر وارد لأن القرآن غالٍ وقد يخطئ أي إنسان في الفتحة أو في القصر، فلا يُشدَّد في ذلك، ويقول إن المأموم لا سجود سهو عليه بنفسه وإنما يتبع إمامه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:00}.
 
 ويقول إن الإمام ضامن والمؤذن مؤتمن، وإن الإمام يتحمل مسؤولية صلاة من خلفه، ويتبعه المأموم في سجود السهو ولو لم يسهُ هو (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي في درس فقهي شروط صحة الصلاة، ويمثّلها بشروط إقامة البناء، ويعدّ منها طهارة البدن والثوب والمكان، ويذكر أن صاحب العذر كمن به سلس البول يصلي وصلاته صحيحة، وأن بول الغلام الرضيع الذي لم يطعم يُنضح بالماء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:08:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:13:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يفرّق الشيخ بين إقامة الصلاة وأداء الصلاة: فأداؤها أن يصلي الإنسان الظهر والمغرب ثم يغتاب ويظلم ولا يكون أمينًا على الكلمة والمال والأولاد، وإقامتها أن تنهاه عن الفحشاء والمنكر والبغي، ويستشهد بأن إبراهيم أسكن ذريته عند البيت «ليقيموا الصلاة». {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يروي عمر عبد الكافي في «المنجيات» حديث الرجل الذي صلى مسرعًا، فقال له النبي: ارجع فصلّ فإنك لم تصلّ، ثم علّمه أن يطمئن راكعًا وساجدًا وجالسًا في صلاته كلها، وأن الصلاة بغير ذلك خداج. {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:30} ويذكر أن من أفسد القلب ترك الصلاة عن وقتها، وأن المسلم يجيب الأذان. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:30}

@@ -24,3 +24,6 @@ The journey to the Sacred House at Mecca to perform prescribed rites, one of the
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
 The Sheikh explains the word thajj as pouring forth, and cites a hadith he relates from the Prophet that the best Hajj is al-'ajj and al-thajj, al-'ajj being the raising of the voice with takbir as he puts it, and al-thajj the shedding of blood (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:57:30}.
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy holds that one who makes a voluntary pilgrimage every year would do better to spend its cost on marrying young people who cannot afford it and on bringing joy to families, since the obligatory comes before the voluntary; he mentions the bridge of pilgrimage on the Sirat and the one who could make the pilgrimage and did not. This is his view. {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:14:30}

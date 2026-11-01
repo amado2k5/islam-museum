@@ -26,3 +26,6 @@ translators: []
 ## شیخ عمر عبدالکافی کے درس سے: الدین القیم
 
 شیخ کہتے ہیں کہ چھوٹا گناہ اصرار کے ساتھ بڑا بن جاتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}۔ وہ کہتے ہیں کہ علماء گناہوں کو چھوٹے اور بڑے میں تقسیم کرتے ہیں، اور لمم (معمولی کوتاہیاں) بڑے گناہ سے ہلکے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}۔ وہ ایک قول نقل کرتے ہیں کہ اصرار کے ساتھ کوئی گناہ چھوٹا نہیں رہتا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:07:00}۔
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+عمر عبد الکافی کہتے ہیں کہ بندہ اصرار کرے تو صغیرہ صغیرہ نہیں رہتا، {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:00} اور صغائر کو غزالی کی مثال سے سمجھاتے ہیں: پتھر پر گرتے پانی کے قطرے، جن میں سے اکیلا کوئی اثر نہیں کرتا مگر لگاتار گر کر اثر کرتے ہیں؛ اور کہتے ہیں کہ گناہ جمع ہو کر دل کو رب سے حجاب میں کر دیتے ہیں۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:07:30}

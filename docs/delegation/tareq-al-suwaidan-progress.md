@@ -4,9 +4,10 @@ Lane document: [`docs/agents/lanes/tareq-al-suwaidan.md`](../agents/lanes/tareq-
 
 ## Next step
 
-Series `administrative-processus-abilities`: ep01–ep05 written and merged — administrative series complete (5/5); al-mubdioune next (29 eps) and write their content, while phase A downloads continue down the series list.
+Explorer backfill done (lecture-series records for al-wasatiyya, the administrative course, al-mubdioune). Next: al-wassitiya ep20–ep40 records are on branch `claude/suwaidan-wassitiya-20-35` (ep20–35 committed there; ep36–40 and the revisions of ep01–10 still to be merged); then the new series as their transcripts finish (phaseB: alamani-al-tarikh 0 of 29 transcribed at 04:20).
 
 ## Done
+- 1 Nov 2026: explorer backfill — `work/al-wasatiyya-program` (lecture-series, 40 episodes, ep01–19 listed) and `work/al-idara-al-amaliyya-course` (lecture-series, 5 lectures) created; `work/al-mubdioune-program` made complete (authors, delivered, episode list, `about` edges to 21 persons). Each series links its entities with `about` edges; `/ar/khutab/` lists them. Recordings map unchanged (the tareq map already covers 23 series, 402 lessons). Test note: `scripts/tour.test.ts` (time/mecca sources, halls.yaml) fails on origin/main independently of this lane; not touched here.
 
 - 25 Oct 2026: lane opened. Own clone at `~/devin-harvest/repo-suwaidan` (branch `devin/suwaidan-2026-10-25`), own harvest workspace `~/devin-harvest` (`raw/`, `books/`, `logs/`, `scratch/`, `.venv-audio/` with torch 2.14.1 + transformers 5.20.2, MPS available). The Claude `omar-abdelkafy` session's worktree, workspace, branches and processes are untouched.
 - 25 Oct 2026: `data/source/assabile-tareq-al-suwaidan.yaml` registered; `scripts/harvest/sources.yaml`, `docs/attribution.md`, `docs/agents/source-families.md`, `docs/agents/lanes.md` and `docs/status.md` updated.
