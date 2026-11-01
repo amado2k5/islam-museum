@@ -1,0 +1,28 @@
+id: event/umari-arrest-739
+class: event
+kind: other
+label:
+  ar: "اعتقال ابن فضل الله ومصادرته، شعبان ٧٣٩هـ/١٣٣٩م"
+  en: "Al-Umari's arrest and confiscation, Sha'ban 739/1339"
+  ur: "عمری کی گرفتاری و ضبطی، شعبان 739ھ/1339ء"
+summary:
+  ar: "رفع شهاب الدين قصة يسأل فيها السفر إلى الشام، فرسم عليه السلطان وصادره واعتقله في شعبان سنة ٧٣٩هـ، وقد أمر الدويدار بطلبه {cite:durar-kamina-jil-1993 1/332}."
+  en: "Shihab al-Din petitioned for leave to travel to al-Sham; the sultan instead had the dawadar summon him, issued a rescript against him, confiscated his property and imprisoned him in Sha'ban 739 (February-March 1339) {cite:durar-kamina-jil-1993 1/332}."
+  ur: "شہاب الدین نے شام کے سفر کی اجازت کے لیے عرضی پیش کی؛ سلطان نے اس کے بجائے دوادار کو اسے طلب کرنے کا حکم دیا، اس کے خلاف فرمان جاری کیا، اس کا مال ضبط کیا اور شعبان 739ھ (فروری-مارچ 1339ء) میں اسے قید کر دیا {cite:durar-kamina-jil-1993 1/332}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1339-02~", hijri: "0739-08", calendar: julian, precision: month, status: historical, derived: true, note: "اعتُقل في شعبان سنة ٧٣٩هـ {cite:durar-kamina-jil-1993 1/332}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المعتقل", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "الآمر بالاعتقال", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "الدرر الكامنة (ط دار الجيل 1993) 1/332 ترجمة 828"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

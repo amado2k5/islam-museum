@@ -1,0 +1,28 @@
+id: event/umari-cairo-chancery-729
+class: event
+kind: other
+label:
+  ar: "انتقال بني فضل الله إلى كتابة السر بالقاهرة، ٧٢٩هـ/١٣٢٩م"
+  en: "The Ibn Fadl Allah family moves to the Cairo chancery, 729/1329"
+  ur: "بنو فضل اللہ کا قاہرہ دیوان میں منتقلی، 729ھ/1329ء"
+summary:
+  ar: "لما ولي محيي الدين يحيى بن فضل الله رئاسة ديوان الإنشاء وكتابة السر بالقاهرة سنة ٧٢٩هـ/١٣٢٩م بعد دمشق، بدأ ابنه شهاب الدين أحمد حياته الوظيفية معينًا لأبيه وهو يكبر في السن {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  en: "When Muhyi al-Din Yahya ibn Fadl Allah was made head of the chancery and katib al-sirr at Cairo in 729/1329 after Damascus, his son Shihab al-Din Ahmad began his public career as an assistant to his ageing father {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}."
+  ur: "جب محی الدین یحیی بن فضل اللہ 729ھ/1329ء میں دمشق کے بعد قاہرہ میں دیوانِ انشا کا سربراہ اور کاتبِ سر مقرر ہوا تو اس کا بیٹا شہاب الدین احمد نے اپنے عمر رسیدہ والد کے معاون کے طور پر عہدہ دارانہ زندگی کا آغاز کیا {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1329~", hijri: "0729", calendar: julian, precision: year, status: historical, derived: true, note: "سنة ٧٢٩هـ/١٣٢٩م {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "معين والده", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/muhyi-al-din-yahya-ibn-fadl-allah, role: "كاتب السر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 PDF pp. 790-791, art. Ibn Fadl Allah al-Umari (K. S. Salibi)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-umari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

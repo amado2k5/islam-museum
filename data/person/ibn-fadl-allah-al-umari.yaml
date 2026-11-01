@@ -1,17 +1,33 @@
 id: person/ibn-fadl-allah-al-umari
 class: person
-label: { ar: "ابن فضل الله العمري", en: "Ibn Fadl Allah al-Umari" }
+label: { ar: "ابن فضل الله العمري", en: "Ibn Fadl Allah al-Umari", ur: "ابن فضل اللہ عمری" }
 summary:
-  ar: "شهاب الدين أحمد بن فضل الله العمري (٧٠٠-٧٤٩هـ)؛ كاتب السر في ديوان الإنشاء بدولة المماليك ومؤلف «مسالك الأبصار في ممالك الأمصار» و«التعريف بالمصطلح الشريف». اعتذر في مقدمة مسالكه بأنه لم يُتِهم في تهامة ولا أعرق في عراق — فكتابه جمعٌ من الكتب والأفواه لا من المشاهدة {cite:umari-masalik-1924 p. 14}."
-  en: "Shihab al-Din Ahmad ibn Fadl Allah al-Umari (700–749 AH), head of the Mamluk chancery's correspondence bureau and author of Masalik al-Absar and al-Ta'rif bi'l-Mustalah al-Sharif — who begged the reader's pardon that he 'had not braved Tihama nor plunged into Iraq': a compiler from books and informants, not a traveller {cite:umari-masalik-1924 p. 14}."
+  ar: "شهاب الدين أحمد بن فضل الله العمري (٧٠٠-٧٤٩هـ/١٣٠١-١٣٤٩م)؛ كاتب السر في ديوان الإنشاء بدولة المماليك ومؤلف «مسالك الأبصار في ممالك الأمصار» و«التعريف بالمصطلح الشريف». اعتذر في مقدمة مسالكه بأنه لم يُتِهم في تهامة ولا أعرق في عراق — فكتابه جمعٌ من الكتب والأفواه لا من المشاهدة {cite:umari-masalik-1924 p. 14}."
+  en: "Shihab al-Din Ahmad ibn Fadl Allah al-Umari (700–749 AH / 1301–1349), head of the Mamluk chancery's correspondence bureau and author of Masalik al-Absar and al-Ta'rif bi'l-Mustalah al-Sharif — who begged the reader's pardon that he 'had not braved Tihama nor plunged into Iraq': a compiler from books and informants, not a traveller {cite:umari-masalik-1924 p. 14}."
+  ur: "شہاب الدین احمد بن فضل اللہ عمری (700-749ھ/1301-1349ء)؛ مملوک دیوانِ انشا میں کاتبِ سر اور «مسالک الابصار فی ممالک الامصار» اور «التعریف بالمصطلح الشریف» کے مؤلف۔ مسالک کے دیباچے میں انہوں نے معذرت کی کہ نہ وہ تہامہ میں بھٹکے نہ عراق میں گہرے — اس کی کتاب کتابوں اور روایتوں سے مرتب ہوئی، مشاہدے سے نہیں {cite:umari-masalik-1924 p. 14}۔"
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
-regions: [levant-iraq]
-born: { edtf: "1301", hijri: "0700", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو 700هـ؛ التحويل مشتق." }
-died: { edtf: "1349", hijri: "0749", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 749هـ؛ التحويل مشتق." }
+regions: [levant-iraq, egypt-nile]
+born: { edtf: "1301-06-12", hijri: "0700-10-03", calendar: julian, precision: day, status: historical, derived: true, note: "ولد بدمشق في ثالث شوال سنة ٧٠٠هـ {cite:durar-kamina-jil-1993 1/331} = ١٢ يونيو ١٣٠١م {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+died: { edtf: "1349-03-01", hijri: "0749-12-09", calendar: julian, precision: day, status: historical, derived: true, note: "مات بحمى ربع يوم عرفة، ٩ ذي الحجة ٧٤٩هـ {cite:durar-kamina-jil-1993 1/333} = ١ مارس ١٣٤٩م {cite:encyclopaedia-of-islam-2 vol. 3 pp. 790-791}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 relations:
   - { type: authored, target: work/masalik-al-absar, sources: [source/umari-masalik-1924] }
+  - { type: authored, target: work/al-tarif-bil-mustalah-al-sharif, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: child_of, target: person/muhyi-al-din-yahya-ibn-fadl-allah, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: born_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-ibn-fadl-allah-umari-700, role: "المولود", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/umari-cairo-chancery-729, role: "معين والده", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/umari-sultan-anger-737, role: "المعزول", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/muhyi-al-din-yahya-death-738, role: "الابن المقيم ببيته", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/umari-arrest-739, role: "المعتقل", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/umari-release-740, role: "المُفرَج عنه", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/umari-damascus-chancery-741, role: "كاتب السر", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/umari-dismissal-damascus-743, role: "المعزول", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/umari-retirement-works-743, role: "المصنف المعتزل", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/umari-jerusalem-plague-748, role: "المسافر بأهله", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/death-ibn-fadl-allah-umari-749, role: "المتوفى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "مسالك الأبصار (ط 1924) مقدمة المؤلف ص 14"
@@ -19,5 +35,5 @@ provenance:
   run: lib-geo-umari-1, lib-durar-kamina-batch-1-2-2026-10-31
 external_ids:
   wikidata: Q2658869
-sources: [source/umari-masalik-1924, source/durar-kamina-jil-1993]
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/umari-masalik-1924, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
