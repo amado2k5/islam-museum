@@ -211,7 +211,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>
         )}
 
-        <div class="prose" lang={proseLang ?? lang} dir={proseLang === "ar" ? "rtl" : "ltr"} data-pagefind-ignore={untranslated || undefined}>
+        <div class="prose" lang={proseLang ?? lang} dir={(proseLang ?? lang) === "en" ? "ltr" : "rtl"} data-pagefind-ignore={untranslated || undefined}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
           <LevelSwitcher lang={lang} levels={levelHtml} kidsHref={kidsReadHref} shelfId={n.id}>
           {sectionHtml.map((s) =>
