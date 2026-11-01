@@ -319,6 +319,9 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
                 {ownSources.filter((s) => !proseSources.includes(s.id)).map((s) => <li>{bibliography(s)}</li>)}
               </ul>
             )}
+            {n.class === "work" && d.kind === "fatwa" && d.url && (
+              <p style="font-size:.92rem"><a href={d.url} rel="noopener" hreflang={(d.languages ?? [])[0]}>{T.fatwa.original}</a></p>
+            )}
           </section>
         )}
       </>
