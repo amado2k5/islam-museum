@@ -1,0 +1,38 @@
+id: person/farida-osman
+class: person
+label: { ar: "فريدة عثمان", en: "Farida Osman", ur: "فریدہ عثمان" }
+names:
+  - { value: "Farida Hisham Osman", kind: full }
+  - { value: "فريدة هشام عثمان", kind: full }
+gender: female
+summary:
+  ar: "سبّاحة مصرية، وُلدت في إنديانابولس بالولايات المتحدة سنة 1995 ونشأت في القاهرة. فازت بثلاث برونزيات في بطولات العالم في 50 متر فراشة (2017 و2019 و2024)، وهي حاملة الأرقام القياسية الأفريقية في الفراشة وتوصف بأنها أسرع سبّاحة في مصر وأفريقيا."
+  en: "Egyptian swimmer, born in Indianapolis, United States, in 1995 and raised in Cairo. She won three World Championship bronze medals in the 50 m butterfly (2017, 2019 and 2024), holds the African butterfly records, and is described as the fastest female swimmer in Egypt and Africa."
+  ur: "مصری تیراک، 1995 میں امریکہ کے شہر انڈیاناپولس میں پیدا ہوئیں اور قاہرہ میں پلی بڑھیں۔ انہوں نے 50 میٹر بٹر فلائی میں تین عالمی چیمپئن شپ کانسی کے تمغے جیتے (2017، 2019 اور 2024)، ان کے پاس بٹر فلائی کے افریقی ریکارڈ ہیں، اور انہیں مصر اور افریقہ کی تیز ترین خاتون تیراک کہا جاتا ہے۔"
+roles: [swimmer]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1995-01-18"
+  hijri: "1415"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 18 January 1995 in Indianapolis, Indiana, United States (English, Arabic and Urdu articles; Wikidata). Indianapolis has no place entity in the graph, so the birthplace is recorded here and in prose only. The Hijri year 1415 is the tabular conversion of 18 January 1995 and is marked derived."
+  sources: [source/wikipedia-farida-osman-en, source/wikipedia-farida-osman-ar, source/wikipedia-farida-osman-ur, source/wikidata-farida-osman]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-farida-osman-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for her — the Arabic article's person infobox carries a religion field that is left blank — and Wikidata records no religion (P140) statement. Competing for Egypt at events such as the Islamic Solidarity Games is national-team participation, not an attestation of personal faith, and her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-farida-osman-en, source/wikipedia-farida-osman-ar, source/wikipedia-farida-osman-ur, source/wikidata-farida-osman]
+external_ids: { wikidata: "Q5435278" }
+sources: [source/wikipedia-farida-osman-en, source/wikipedia-farida-osman-ar, source/wikipedia-farida-osman-ur, source/wikidata-farida-osman]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1374915613), Arabic Wikipedia (revision 74351724), Urdu Wikipedia (revision 11526397) and Wikidata Q5435278 (item revision 2516493529, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; QID grounded from the English article's page property and confirmed in every edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record (the earlier grep hits were the unrelated al-Hifnawi family); Indianapolis has no place entity in data/place/."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-152A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
