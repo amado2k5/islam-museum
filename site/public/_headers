@@ -11,15 +11,29 @@
 # Cloudflare Pages added these three to every response on its own. The site Worker
 # (workers/site) applies this file to every response it serves, so they are set here
 # explicitly and the two origins answer alike.
+# HSTS, CSP, framing and permissions are set here too (the repo's header file is what
+# both Pages and the Worker send). frame-ancestors 'self' blocks third-party framing;
+# the Worker rewrites that to * on /embed/ pages, which other sites are meant to frame,
+# and drops X-Frame-Options there. script-src and style-src allow inline markup because
+# the pages ship inline scripts and inlined CSS. img-src and connect-src name the
+# holding institutions whose images and IIIF tiles the object pages load.
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; frame-src 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https://images.metmuseum.org https://openaccess-cdn.clevelandart.org https://iiif.vam.ac.uk https://framemark.vam.ac.uk https://upload.wikimedia.org https://thumb.wikimedia.org; media-src 'self'; connect-src 'self' https://iiif.vam.ac.uk https://framemark.vam.ac.uk; worker-src 'self' blob:
 
 # Hashed build assets never change under the same name: cache them for a year.
 # (Workers static assets served them with max-age=0; Pages with four hours.)
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Emblem files keep stable names. A month at the edge; a content change ships on the next deploy.
+/brand/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=604800
 
 # The root page is served by the asset layer, which omits the charset.
 /

@@ -30,9 +30,9 @@ const home = `/${lang}/time-browser/`;
   <ul class="xm-chips" role="list">
     {chips.map((c) => <li><a class="xm-chip" href={subjectHref(lang, c.id)}>{c.label}</a></li>)}
   </ul>
-  <form class="xm-search" role="search" onsubmit="return false">
+  <form class="xm-search" role="search" action={`/${lang}/search/`} method="get">
     <label class="sr-only" for="xm-q">{B.m_search_hint}</label>
-    <input id="xm-q" type="search" autocomplete="off" placeholder={B.m_search_hint} />
+    <input id="xm-q" name="q" type="search" autocomplete="off" placeholder={B.m_search_hint} />
     <ul class="xm-results" data-xm-results role="list"></ul>
   </form>
   <script type="application/json" id="xm-index" set:html={index}></script>

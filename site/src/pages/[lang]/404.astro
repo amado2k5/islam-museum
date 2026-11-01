@@ -1,0 +1,16 @@
+---
+// Language-specific not-found page. The site Worker serves this body with status 404 for a
+// missing URL under /ar/, /en/ or /ur/. The root 404.astro stays the asset-layer fallback.
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+---
+<BaseLayout lang={lang} title={T.not_found.title} path={`/${lang}/404/`} noindex>
+  <div class="wrap" style="padding-block:6vh">
+    <h1>{T.not_found.title}</h1>
+    <p>{T.not_found.body} <a href={`/${lang}/`}>{T.not_found.home}</a></p>
+  </div>
+</BaseLayout>

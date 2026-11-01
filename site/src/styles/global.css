@@ -116,6 +116,12 @@ html[data-contrast="high"] { --muted: var(--fg); --line: var(--fg); --edge: var(
 .a11y-row input { width: 20px; height: 20px; accent-color: var(--accent, #0a2533); flex: none; }
 .a11y-ctl { display: inline-flex; align-items: center; gap: 6px; }
 .a11y-ctl button { min-width: 34px; min-height: 34px; border: 1px solid var(--line); border-radius: 9px; background: transparent; color: var(--fg); cursor: pointer; font-size: .85rem; }
+.a11y-short { display: none; }
+@media (max-width: 480px) {
+  .a11y-prefs > summary { position: relative; }
+  .a11y-prefs > summary .a11y-full { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+  .a11y-short { display: inline; }
+}
 .a11y-ctl output { min-width: 3.2em; text-align: center; font-size: .85rem; }
 .a11y-note { font-size: .74rem; margin: 8px 0 0; line-height: 1.5; }
 @media (forced-colors: active) { .chip, .panel, .card { border: 1px solid CanvasText; } }
@@ -301,6 +307,9 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .nav-tools { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex: none; flex-wrap: wrap; }
 .nav-tools .chip { white-space: nowrap; }
 @media (max-width: 720px) {
+  .topbar .nav-row { gap: 8px; padding-block: 6px; }
+  .nav-tools { gap: 6px; }
+  .nav-tools .chip { padding-inline: 8px; }
   html.js .nav-links { display: none; }
   html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); box-sizing: border-box; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
   html.js .nav-links.open .top-link, html.js .nav-links.open .dd > summary { padding: 11px 6px; border-bottom: 1px solid var(--line); border-radius: 0; }
@@ -656,9 +665,12 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 .search-hint { margin: 10px 0 0; }
 .search-wrap:not([data-empty="1"]) .search-hint { display: none; }
 /* Pagefind UI positions its search icon and clear button physically for LTR (icon left, clear right). On RTL pages that puts the clear button over the start of the query text, hiding its first word; mirror all three so the button sits at the end edge. */
-html[dir="rtl"] .pagefind-ui__form::before { left: auto; right: calc(20px * var(--pagefind-ui-scale)); }
-html[dir="rtl"] .pagefind-ui__search-input { padding: 0 calc(54px * var(--pagefind-ui-scale)) 0 calc(70px * var(--pagefind-ui-scale)); }
-html[dir="rtl"] .pagefind-ui__search-clear { right: auto; left: calc(3px * var(--pagefind-ui-scale)); padding: 0 calc(2px * var(--pagefind-ui-scale)) 0 calc(15px * var(--pagefind-ui-scale)); }
+/* Pagefind's own stylesheet loads after this file and uses physical left/right, so these
+   overrides need !important or the clear control sits on top of the query in RTL. */
+html[dir="rtl"] .pagefind-ui__form::before { left: auto !important; right: calc(16px * var(--pagefind-ui-scale, 1)) !important; }
+html[dir="rtl"] .pagefind-ui__search-input { padding: 0 calc(48px * var(--pagefind-ui-scale, 1)) 0 6.75rem !important; }
+html[dir="rtl"] .pagefind-ui__search-clear { right: auto !important; left: 0.3rem !important; max-width: 6rem; }
+html[dir="rtl"] .pagefind-ui__message { unicode-bidi: isolate; }
 /* Pagefind UI ships light-only tokens (#393939 text on a transparent box), so dark mode maps them to the site's dark tokens */
 :root[data-theme="dark"] .pagefind-ui { --pagefind-ui-text: var(--fg); --pagefind-ui-primary: var(--link); --pagefind-ui-background: var(--panel); --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--bg); }
 @media (prefers-color-scheme: dark) {

@@ -20,6 +20,7 @@ export function getStaticPaths() {
 }
 const { lang, id } = Astro.props as { lang: Lang; id: string };
 const target = `/${lang}/${id}/`;
+const canonical = `https://islam.museum${target}`;
 ---
 <!doctype html>
 <html lang={lang} dir={lang === "en" ? "ltr" : "rtl"}>
@@ -27,7 +28,7 @@ const target = `/${lang}/${id}/`;
     <meta charset="utf-8" />
     <meta name="robots" content="noindex" />
     <meta http-equiv="refresh" content={`0; url=${target}`} />
-    <link rel="canonical" href={target} />
+    <link rel="canonical" href={canonical} />
     <title>{id}</title>
   </head>
   <body>

@@ -1,0 +1,10 @@
+---
+// Text that may come from another language than the page. When it does, mark lang and dir
+// so a screen reader uses that language's voice (an Urdu page must not read English with an Urdu voice).
+import type { Lang } from "../lib/i18n";
+interface Props { text: string; source: Lang; page: Lang }
+const { text, source, page } = Astro.props;
+const foreign = source !== page && text.length > 0;
+const dir = source === "en" ? "ltr" : "rtl";
+---
+{foreign ? <span lang={source} dir={dir}>{text}</span> : text}

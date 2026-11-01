@@ -1,4 +1,5 @@
 id: place/antakiya
+aliases: [place/antioch]
 class: place
 kind: city
 label: { ar: "أنطاكية", en: "Antioch" }
@@ -17,6 +18,10 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 200–202"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
-  extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
+  extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)", "merged duplicate place/antioch (same city, GeoNames coordinates)"]
+kids:
+  ar: "أنطاكية مدينة العواصم القديمة على العاصي، افتتحها المسلمون ثم استردها الصليبيون ثم المماليك."
+  en: "Antioch, an ancient capital on the Orontes — taken by the Muslims, then Crusaders, then the Mamluks."
+  ur: "انطاکیہ عاصی کنارے قدیم دارالحکومت — مسلمانوں نے فتح کی، پھر صلیبی، پھر مملوک۔"
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -24,7 +24,21 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
     </section>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
     <link rel="stylesheet" href={`${pagefindBase}/pagefind-${lang}/pagefind-ui.css`} />
-    <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang, pagefindBase }}>
+    <script is:inline define:vars={{
+      placeholder: T.search.placeholder,
+      zeroResults: T.search.zero_results,
+      clearSearch: T.search.clear_search,
+      loadMore: T.search.load_more,
+      searchLabel: T.search.search_label,
+      filtersLabel: T.search.filters_label,
+      manyResults: T.search.many_results,
+      oneResult: T.search.one_result,
+      altSearch: T.search.alt_search,
+      searchSuggestion: T.search.search_suggestion,
+      searching: T.search.searching,
+      lang,
+      pagefindBase,
+    }}>
       (function () {
         var s = document.createElement("script");
         s.src = pagefindBase + "/pagefind-" + lang + "/pagefind-ui.js";
@@ -33,7 +47,11 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
           var syn = { whole: {}, words: {} };
           var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
           (lang === "en" ? fetch("/search-synonyms.en.json") : fetch("/search-synonyms.ar.json")).then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
-          new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", baseUrl: "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
+          new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", baseUrl: "/", showSubResults: true, showImages: false, translations: {
+            placeholder: placeholder, zero_results: zeroResults, clear_search: clearSearch, load_more: loadMore,
+            search_label: searchLabel, filters_label: filtersLabel, many_results: manyResults, one_result: oneResult,
+            alt_search: altSearch, search_suggestion: searchSuggestion, searching: searching,
+          },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];

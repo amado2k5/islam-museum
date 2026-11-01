@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
+import { href, labelLang, labelOf, realNodes, summaryLang, summaryOf } from "../../../lib/graph";
+import LangSpan from "../../../components/LangSpan.astro";
 import { formatDate } from "../../../lib/dates";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -26,9 +27,9 @@ const relevances = ["primary", "substantial", "setting"].filter((r) => items.som
             <li data-format={n.data.format} data-relevance={n.data.relevance}>
               <a class="card" href={href(lang, n.id)}>
                 <span class="ui kicker">{T.screen.format_values[n.data.format] ?? n.data.format}</span>
-                <h2 class="card-title">{labelOf(n, lang)}</h2>
+                <h2 class="card-title"><LangSpan text={labelOf(n, lang)} source={labelLang(n, lang)} page={lang} /></h2>
                 <span class="ui" style="display:block;font-size:.85rem">{formatDate(n.data.released, lang).text} · {(n.data.countries ?? []).map((c: string) => c.toUpperCase()).join(" ")}</span>
-                <span>{summaryOf(n, lang)}</span>
+                <span><LangSpan text={summaryOf(n, lang)} source={summaryLang(n, lang)} page={lang} /></span>
               </a>
             </li>
           ))}

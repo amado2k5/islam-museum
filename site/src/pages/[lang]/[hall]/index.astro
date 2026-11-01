@@ -5,8 +5,9 @@ import PageHeader from "../../../components/PageHeader.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
 import TodayCards from "../../../components/TodayCards.astro";
 import HijriTimeline from "../../../components/HijriTimeline.astro";
-import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
-import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
+import { ui, LANGS, WINGS, WING_PATH, type Lang, type Wing } from "../../../lib/i18n";
+import { href, labelLang, labelOf, realNodes, summaryLang, summaryOf } from "../../../lib/graph";
+import LangSpan from "../../../components/LangSpan.astro";
 import { formatDate, timelineKey } from "../../../lib/dates";
 
 export function getStaticPaths() {
@@ -63,7 +64,7 @@ const collections = wing === "objects"
     crumbsLabel={T.entity.breadcrumb}
     wing={wing}
   >
-    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}{wing !== "objects" && <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span>}</p>
+    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}</p>
     {wing === "time" && <p class="ui tl-legend" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.timeline.legend}</p>}
   </PageHeader>
   <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
@@ -126,7 +127,7 @@ const collections = wing === "objects"
     {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
     <ul class="grid-cards" style="margin-top:1.5rem">
       {items.filter((n) => labelOf(n, lang)).map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{n.wings.filter((w) => WINGS.includes(w as Wing)).length > 1 && <span class="ui" style="display:block;font-size:.8rem;opacity:.75">{WINGS.filter((w) => n.wings.includes(w)).map((w) => T.nav[w]).join(" · ")}</span>}{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{short(summaryOf(n, lang))}</span></a></li>
+        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title"><LangSpan text={labelOf(n, lang)} source={labelLang(n, lang)} page={lang} /></h2>{n.wings.filter((w) => WINGS.includes(w as Wing)).length > 1 && <span class="ui" style="display:block;font-size:.8rem;opacity:.75">{WINGS.filter((w) => n.wings.includes(w)).map((w) => T.nav[w]).join(" · ")}</span>}{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span><LangSpan text={short(summaryOf(n, lang))} source={summaryLang(n, lang)} page={lang} /></span></a></li>
       ))}
     </ul>
 

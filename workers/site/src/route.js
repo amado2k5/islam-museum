@@ -122,6 +122,35 @@ export function headersFor(blocks, pathname) {
 // is Workers Caching ([cache] in wrangler.production.toml): a cached page is served
 // without running this Worker or reading R2, once per hour per edge location.
 export const HTML_CACHE_CONTROL = "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
+
+// www.islam.museum must not be cached: the Workers cache keys by path only, never by host,
+// so a stored 301 would be served to visitors of the apex and loop.
+export function apexRedirect(hostname, pathname, search = "") {
+  if (hostname !== "www.islam.museum") return null;
+  return {
+    location: `https://islam.museum${pathname}${search}`,
+    status: 301,
+    cacheControl: "no-store",
+  };
+}
+
+// Missing language pages use the matching not-found document in R2 (ar/404/index.html and so on).
+export function notFoundKey(pathname) {
+  const m = /^\/(ar|en|ur)(?:\/|$)/.exec(pathname);
+  return `${m ? m[1] : "ar"}/404/index.html`;
+}
+
+// /embed/ pages are meant to be framed on other sites. Drop the global framing lock.
+export function embedFraming(pathname, csp) {
+  const embed = /^\/(ar|en|ur)\/embed\//.test(pathname);
+  if (!embed) return { embed: false, csp };
+  return { embed: true, csp: csp ? csp.replace(/frame-ancestors[^;]*/, "frame-ancestors *") : csp };
+}
+
+export const WELL_KNOWN_TYPES = {
+  "/.well-known/api-catalog": "application/linkset+json; charset=utf-8",
+  "/.well-known/security.txt": "text/plain; charset=utf-8",
+};
 // Redirects are fixed by the rule files, so they may be cached for the same hour.
 // Workers Caching keys a response by path only, never by host (the same Worker answers
 // on workers.dev and on islam.museum), so a same-site redirect must carry a path-only

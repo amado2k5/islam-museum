@@ -14,7 +14,7 @@ sides:
   - label: { ar: "المماليك" }
   - label: { ar: "الصليبيون" }
 relations:
-  - { type: occurred_at, target: place/antioch, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/antakiya, sources: [source/shadharat-dhahab] }
   - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/shadharat-dhahab] }
 provenance:

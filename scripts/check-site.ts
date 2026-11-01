@@ -66,6 +66,9 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   // the teen 60-second pages (E4): every topic's route is in the sitemap in the three languages and
   // its page carries a schema.org Course JSON-LD block
   const topicIds = (readFileSync(p("edu", "topics-50.yaml"), "utf8").match(/^- id: ([a-z0-9-]+)/gm) ?? []).map((m) => m.replace("- id: ", ""));
+  if (/\/time-browser\/(event|person|place|polity|period|theme|work|concept|practice)\//.test(sitemap)) errors.push("sitemap includes time-browser redirect stubs");
+  if (/\/(?:ar|en|ur)\/embed\//.test(sitemap)) errors.push("sitemap includes noindex embed pages");
+  if (/\/(?:ar|en|ur)\/search\//.test(sitemap)) errors.push("sitemap includes the noindex search page");
   for (const lang of ["ar", "en", "ur"]) for (const id of topicIds) {
     if (!sitemap.includes(`/${lang}/shabab/60s/${id}/`)) errors.push(`sitemap: /${lang}/shabab/60s/${id}/ is missing`);
     const f = p("dist", lang, "shabab", "60s", id, "index.html");

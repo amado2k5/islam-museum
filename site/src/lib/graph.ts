@@ -24,11 +24,15 @@ export const updatedOn = (n: Pick<Node, "updated" | "prose">, lang: Lang): strin
   return prose > n.updated ? prose : n.updated;
 };
 
-// A title in the page language, else the other language (an honest interim), never the slug.
+// A title in the page language, else Arabic, else English (an honest interim), never the slug.
 export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.ar ?? n.label.en ?? "";
+/** Which language `labelOf` actually returned, so a card can mark a fallback. */
+export const labelLang = (n: Pick<Node, "label">, lang: Lang): Lang => (n.label[lang] ? lang : n.label.ar ? "ar" : "en");
 // The raw summary keeps its {cite:…} markers and [[wiki-links]]; entity pages pass it through
 // renderProse so citations become footnotes. For plain-text contexts (cards, meta descriptions,
 // feeds) this strips the markers and resolves links to their label text.
+/** Language of the summary `summaryOf` shows: the page language, or English when that translation is missing. */
+export const summaryLang = (n: Pick<Node, "summary">, lang: Lang): Lang => (n.summary[lang] ? lang : n.summary.en ? "en" : lang);
 export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => {
   const raw = n.summary[lang] ?? n.summary.en ?? "";
   return raw

@@ -3,13 +3,14 @@
 // cut from docs/design/emblem-source.jpg into public/brand/. Two colour versions switch with the theme: the painted one on
 // light grounds and a brighter, haloed one on dark grounds. `variant="mono"` gives the single-colour marks for watermarks
 // (ink on light, gold on dark). Decorative by default: the wordmark sits beside it.
-interface Props { size?: number; class?: string; variant?: "color" | "mono"; alt?: string }
-const { size = 34, class: cls = "", variant = "color", alt = "" } = Astro.props;
+interface Props { size?: number; class?: string; variant?: "color" | "mono"; alt?: string; priority?: boolean }
+const { size = 34, class: cls = "", variant = "color", alt = "", priority = false } = Astro.props;
 const big = size > 128;
 const light = variant === "mono" ? "/brand/mark-mono-ink-256.webp" : big ? "/brand/mark-512.webp" : "/brand/mark-128.webp";
 const dark = variant === "mono" ? "/brand/mark-mono-gold-256.webp" : big ? "/brand/mark-dark-512.webp" : "/brand/mark-dark-128.webp";
+const loading = priority || !big ? "eager" : "lazy";
 ---
 <span class:list={["brand-mark", cls]} style={`--logo:${size}px`} aria-hidden={alt ? undefined : "true"}>
-  <img class="logo-light" src={light} width={size} height={size} alt={alt} loading={big ? "lazy" : "eager"} decoding="async" />
-  <img class="logo-dark" src={dark} width={size} height={size} alt={alt} aria-hidden={alt ? undefined : "true"} loading={big ? "lazy" : "eager"} decoding="async" />
+  <img class="logo-light" src={light} width={size} height={size} alt={alt} loading={loading} decoding={priority ? "sync" : "async"} fetchpriority={priority ? "high" : undefined} />
+  <img class="logo-dark" src={dark} width={size} height={size} alt="" aria-hidden="true" loading={priority ? "eager" : loading} decoding="async" />
 </span>

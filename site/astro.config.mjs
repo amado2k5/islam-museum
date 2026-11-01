@@ -18,7 +18,22 @@ export default defineConfig({
   },
   integrations: [
     svelte(),
-    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur" } } }),
+    sitemap({
+      i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur" } },
+      // noindex and redirect stubs must not be offered to crawlers
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        if (/\/embed\//.test(path)) return false;
+        if (/\/search\/$/.test(path)) return false;
+        if (/\/time-browser\/all\/$/.test(path)) return false;
+        if (/\/learn\/facts\/poster\/$/.test(path)) return false;
+        if (/\/print\/$/.test(path)) return false;
+        if (/\/404\/$/.test(path)) return false;
+        // Old per-stop pages (/time-browser/<kind>/<slug>/) are meta-refresh stubs. The stage lives under /time-browser/s/.
+        if (/\/time-browser\/(event|person|place|polity|period|theme|work|concept|practice)\//.test(path)) return false;
+        return true;
+      },
+    }),
   ],
   vite: { plugins: [tailwindcss()], server: { fs: { allow: [".."] } } },
 });

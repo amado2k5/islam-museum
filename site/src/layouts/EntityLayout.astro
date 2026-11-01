@@ -89,6 +89,7 @@ const renumberR = (r: { html: string; cites: { n: number; source: string; locato
 };
 // the lede is one inline paragraph: unwrap the single <p> renderProse wraps it in
 const ledeHtml = renumberR(ledeR)(ledeR.html).replace(/^<p>\s*([\s\S]*?)\s*<\/p>\s*$/, "$1");
+const ledeLang = n.summary[lang] ? lang : n.summary.en ? "en" : lang;
 const sectionHtml = sections.map((s) => {
   const renumber = renumberR(s.r);
   return { ...s, html: renumber(s.r.html), persp: s.r.perspectives.map((p) => ({ ...p, html: renumber(p.html) })) };
@@ -154,7 +155,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
       {dateLine.parts.length > 0 && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.parts.map((p, i) => <>{i > 0 && " – "}{p.dt ? <time datetime={p.dt}>{p.text}</time> : p.text}</>)}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
       {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
       {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
-      {ledeHtml && <p class="page-lede" data-pagefind-meta="summary" set:html={ledeHtml} />}
+      {ledeHtml && <p class="page-lede" data-pagefind-meta="summary" lang={ledeLang !== lang ? ledeLang : undefined} dir={ledeLang !== lang ? (ledeLang === "en" ? "ltr" : "rtl") : undefined} set:html={ledeHtml} />}
     </PageHeader>
 
     <div class="wrap" style="padding-block:24px 20px">
@@ -211,7 +212,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>
         )}
 
-        <div class="prose" lang={proseLang ?? lang} dir={proseLang === "ar" ? "rtl" : "ltr"} data-pagefind-ignore={untranslated || undefined}>
+        <div class="prose" lang={proseLang ?? lang} dir={proseLang === "en" ? "ltr" : "rtl"} data-pagefind-ignore={untranslated || undefined}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
           <LevelSwitcher lang={lang} levels={levelHtml} kidsHref={kidsReadHref} shelfId={n.id}>
           {sectionHtml.map((s) =>

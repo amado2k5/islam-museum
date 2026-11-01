@@ -117,25 +117,36 @@ const payload = {
     <script src="../../../scripts/hijri-calendar.ts"></script>
   </div>
   <style>
-    .cal { padding: 18px; }
+    /* The month grid is rebuilt in the browser (hijri-calendar.ts), so day cells must not
+       depend on Astro's scoped attribute: a scoped rule never matches the new buttons, the
+       Hijri and Gregorian numbers sit on one line, and they spill into the next cell. */
+    .cal { padding: 18px; max-width: 100%; box-sizing: border-box; }
     .cal-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .cal-title { margin: 0; font-size: 1.2rem; }
     .cal-nav { font-size: 1.4rem; background: var(--bg); color: var(--fg); border: 1px solid var(--gold); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; line-height: 1; }
     .cal-range { font-size: .85rem; margin: 4px 0 10px; }
-    .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
-    .cal-wd { text-align: center; font-size: .75rem; color: var(--muted); padding: 4px 0; }
-    .cal-blank { min-height: 2.8em; }
-    .cal-day { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 2.8em; border: 1px solid color-mix(in srgb, var(--gold) 20%, transparent); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer; padding: 2px; }
-    .cal-day:hover { border-color: var(--gold); }
-    .cal-h { font-weight: 700; font-size: 1rem; }
-    .cal-g { font-size: .65rem; color: var(--muted); font-family: var(--sans); }
-    .cal-today { border-color: var(--gold); border-width: 2px; background: color-mix(in srgb, var(--gold) 12%, var(--bg)); }
-    .cal-marked { border-bottom: 3px solid var(--gold); }
+    .cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; width: 100%; min-width: 0; }
+    .cal-grid :global(.cal-wd) { text-align: center; font-size: .75rem; color: var(--muted); padding: 4px 0; min-width: 0; }
+    .cal-grid :global(.cal-blank) { min-height: 2.8em; min-width: 0; }
+    .cal-grid :global(.cal-day) { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; max-width: 100%; min-height: 2.8em; overflow: hidden; border: 1px solid color-mix(in srgb, var(--gold) 20%, transparent); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer; padding: 2px; line-height: 1.15; }
+    .cal-grid :global(.cal-day:hover) { border-color: var(--gold); }
+    .cal-grid :global(.cal-h) { display: block; font-weight: 700; font-size: 1rem; }
+    .cal-grid :global(.cal-g) { display: block; font-size: .65rem; color: var(--muted); font-family: var(--sans); white-space: nowrap; }
+    .cal-grid :global(.cal-today) { border-color: var(--gold); border-width: 2px; background: color-mix(in srgb, var(--gold) 12%, var(--bg)); }
+    .cal-grid :global(.cal-marked) { border-bottom: 3px solid var(--gold); }
     .cal-detail { margin: 12px 0 6px; font-size: .95rem; }
     .cal-obs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
     .cal-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; border-top: 1px solid color-mix(in srgb, var(--gold) 30%, transparent); padding-top: 12px; font-size: .9rem; }
     .cal-jump, .cal-conv { display: inline-flex; align-items: center; gap: 6px; }
     .cal-convout { font-weight: 700; }
-    .cal-grid button.cal-day[hidden] { display: none; }
+    .cal-grid :global(button.cal-day[hidden]) { display: none; }
+    @media (max-width: 480px) {
+      .cal { padding: 10px; }
+      .cal-grid { gap: 2px; }
+      /* The phone rule gives every button a 44px minimum, which makes seven columns wider than a 375px screen. */
+      .cal-grid :global(.cal-day) { min-width: 0; min-height: 2.4em; padding: 1px; }
+      .cal-grid :global(.cal-h) { font-size: .85rem; }
+      .cal-grid :global(.cal-g) { font-size: .58rem; }
+    }
   </style>
 </BaseLayout>
