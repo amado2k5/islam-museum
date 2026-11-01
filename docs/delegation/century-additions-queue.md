@@ -796,11 +796,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nur Tatar — 1992–Living
 - [x] Merve Dinçel — 1999–Living
 - [x] Yusuf Dikeç — 1973–Living
-- [ ] Şahika Ercümen — 1985–Living
-- [ ] Yasemin Dalkılıç — 1979–Living
-- [ ] Kenan Sofuoğlu — 1984–Living
-- [ ] Toprak Razgatlıoğlu — 1996–Living
-- [ ] Lando Norris (Contemporary Motorsport) — 1999–Living
+- [x] Şahika Ercümen — 1985–Living
+- [x] Yasemin Dalkılıç — 1979–Living
+- [x] Kenan Sofuoğlu — 1984–Living
+- [x] Toprak Razgatlıoğlu — 1996–Living
+- [x] Lando Norris (Contemporary Motorsport) — 1999–Living
 - [ ] Rio Haryanto — 1993–Living
 - [ ] Alex Yoong — 1976–Living
 - [ ] Jazeman Jaafar — 1992–Living

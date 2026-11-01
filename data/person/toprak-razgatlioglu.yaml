@@ -1,0 +1,38 @@
+id: person/toprak-razgatlioglu
+class: person
+label: { ar: "توبراك رازقاتلي أوغلو", en: "Toprak Razgatlıoğlu", ur: "ٹوپراک رازگاتلی اوغلو" }
+names:
+  - { value: "Toprak Razgatlıoğlu", kind: full }
+  - { value: "توبراك رازقاتلي أوغلو", kind: full }
+gender: male
+summary:
+  ar: "متسابق دراجات نارية تركي، وُلد في ألانيا سنة 1996. فاز بثلاثة ألقاب في بطولة العالم للسوبربايك — 2021 مع ياماها و2024 و2025 مع بي إم دبليو — بوصفه أول بطل تركي في هذه الفئة، وانتقل إلى موتو جي بي مع بريما براماك ياماها في موسم 2026."
+  en: "Turkish motorcycle racer, born in Alanya in 1996. He won three Superbike World Championship titles — 2021 with Yamaha and 2024 and 2025 with BMW — as the first Turkish champion in the class, and moved to MotoGP with Prima Pramac Yamaha for 2026."
+  ur: "ترک موٹر سائیکل ریسر، جو 1996 میں الانیا میں پیدا ہوئے۔ انہوں نے سپر بائیک عالمی چیمپئن شپ کے تین خطابات جیتے — 2021 میں یاماہا اور 2024 و2025 میں بی ایم ڈبلیو کے ساتھ — اس درجے کے پہلے ترک چیمپئن کے طور پر، اور 2026 میں پریما پراماک یاماہا کے ساتھ موٹو جی پی میں منتقل ہوئے۔"
+roles: [motorcycle racer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1996-10-16"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 16 October 1996 in Alanya, as the English article and Wikidata give it; the Turkish article names Antalya, the province of which Alanya is a district. No place entity for Alanya exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1417 is the tabular conversion of 16 October 1996 and is marked derived."
+  sources: [source/wikipedia-toprak-razgatlioglu-en, source/wikipedia-toprak-razgatlioglu-tr, source/wikidata-toprak-razgatlioglu]
+relations:
+  - { type: student_of, target: person/kenan-sofuoglu, sources: [source/wikipedia-toprak-razgatlioglu-en, source/wikipedia-toprak-razgatlioglu-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him. The Turkish article attests practice: it describes him as a Muslim who performs his acts of worship, and notes that he keeps away from the podium Prosecco spraying because drinking alcohol is forbidden in Islam. The English article and Wikidata name no religion. A generic Muslim attestation and practice name no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
+    sources: [source/wikipedia-toprak-razgatlioglu-tr, source/wikipedia-toprak-razgatlioglu-en, source/wikidata-toprak-razgatlioglu]
+external_ids: { wikidata: "Q17386617" }
+sources: [source/wikipedia-toprak-razgatlioglu-en, source/wikipedia-toprak-razgatlioglu-tr, source/wikidata-toprak-razgatlioglu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382745783), Turkish Wikipedia (revision 38307108) and Wikidata Q17386617 (item revision 2542814114, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; no Arabic Wikipedia article on him exists (the item's sitelinks are English and Turkish only); the student_of relation targets person/kenan-sofuoglu, built in this same wave; existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-148a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
