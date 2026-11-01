@@ -49,3 +49,6 @@ He says that the eyes should be used for what benefits, warns children against w
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy suggests that a servant set himself a week in which to train himself to lower his gaze from what God has forbidden, and says that whoever grows used to lowering his gaze sees with the eye of his heart what others do not see. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:07:30}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh holds that the command to lower the gaze is not limited to the forbidden, but includes lowering the gaze from people's faults: husband from wife and wife from husband, brother from brother, neighbour from neighbour, employee from colleague, a lowering of deliberate overlooking and forgiving, so that people's sins are not put under a microscope. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}

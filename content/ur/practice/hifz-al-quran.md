@@ -15,3 +15,6 @@ translators: []
 
 ## شیخ عمر عبدالکافی کے نزدیک بچوں کا حفظ
 وہ والد کے بچوں کے لیے بہترین ورثوں میں شمار کرتے ہیں کہ وہ قرآن زبانی یاد کریں، اور کہتے ہیں کہ جب بیٹا یا بیٹی حفظ کرے تو والدین کو عزت دی جاتی ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:11:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:12:00}
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ کے نزدیک پانچ یا چھ سال کی عمر سے بچے کو قرآن یاد کرانا باپ کا پہلا حسنِ سلوک ہے، بچہ تین چار سال میں اسے یاد کر سکتا ہے، بشرطیکہ استاد بچے کی سطح پر معانی سمجھائے تاکہ وہ طوطے جیسا نہ ہو، کیونکہ قرآن میں علم، تاریخ، مثالیں، آخرت اور توحید ہے، اور یہ عربی زبان کا ملکہ پیدا کرتا ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:08:00} وہ تنقید کرتے ہیں کہ عربی کا پیریڈ بچوں کا سب سے ناپسندیدہ پیریڈ اور نحو کا استاد سب سے بوجھل استاد بن گیا ہے، اور ان کے نزدیک بچے عربی سے تبھی محبت کریں گے جب بچپن میں قرآن یاد کریں؛ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:07:30}

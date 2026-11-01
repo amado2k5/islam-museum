@@ -18,3 +18,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يذكر عمر عبد الكافي في شرح حكمة الأكوان التي ظاهرها غرّة وباطنها عبرة الذين تمنّوا مكان قارون حين خرج في زينته، ثم قالوا بعد الخسف به: ويكأن الله يبسط الرزق لمن يشاء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:21:00}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يذكر الشيخ قارون بين الماكرين الذين ارتدّ عليهم مكرهم، فخُسف به وبداره الأرض. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} انظر: [[concept/al-makr-al-sayyi|المكر السيئ]].

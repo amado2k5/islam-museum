@@ -18,3 +18,6 @@ The Sheikh refers to what the Qur'an records of the claims of Iblis to superiori
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Explaining the maxim that created things are outwardly a lure and inwardly a lesson, Omar Abdelkafy mentions those who wished for Qarun's place when he went out in his finery, and who said after the earth swallowed him that God gives provision abundantly to whom He wills. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:21:00}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh lists Qarun among the schemers on whom their scheming recoiled, swallowed by the earth with his house. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} See: [[concept/al-makr-al-sayyi|evil scheming]].

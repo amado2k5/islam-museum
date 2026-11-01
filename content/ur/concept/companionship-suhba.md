@@ -22,3 +22,6 @@ translators: []
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی صحبت کے بارے میں ابن عطاء اللہ کی دو حکمتوں کی شرح کرتے ہیں: آدمی برا کرتا ہو اور خود کو اچھا سمجھے کیونکہ وہ اپنے سے بدتر حال والے کی صحبت میں ہے، {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:15:30} اور اس کی صحبت نہ رکھے جس کا حال اسے نہ اٹھائے اور جس کی بات اسے اللہ کی طرف نہ لے جائے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:42:00} وہ دوسری حکمت کو شادی کے خواہشمند نوجوانوں پر شوہر اور بیوی کے انتخاب میں لاگو کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:46:00}
+
+## عمر عبد الکافی کے سلسلے «نفحاتِ رمضانیہ» (زبان کی آفات) سے
+شیخ اہلِ علم و تقویٰ کی صحبت کو زبان کی آفات کا علاج قرار دیتے ہیں، کیونکہ ان سے کوئی گندی بات نہیں سنی جاتی؛ وہ اچھے اور برے ساتھی کی مثال مشک بردار اور بھٹی دھونکنے والے سے دیتے ہیں، یہ قول کہ آدمی اپنے دوست کے دین پر ہوتا ہے، اور یہ کہ نیک بھائی تمہیں غافل دیکھے تو یاد دلاتا ہے اور ذاکر دیکھے تو مدد کرتا ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:06:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:06:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:07:00}

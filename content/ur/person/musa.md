@@ -121,3 +121,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی ذکر کرتے ہیں کہ موسیٰ نے وفات کے وقت اپنے رب سے دعا کی کہ انہیں ارض مقدس سے ایک پتھر پھینکنے کے فاصلے تک قریب کر دے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:55:30}
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ موسیٰ کی زندگی کو اس بات کی مثال کے طور پر دیکھتے ہیں کہ معاملات کا ظاہر باطن سے مختلف ہوتا ہے: شیر خوار ہوتے ہوئے دریا میں ڈالا جانا اور دشمن کا انہیں اٹھا لینا، پھر اللہ کی ڈالی ہوئی محبت؛ پھر اس شخص کے قتل کے بعد شہر سے ڈرتے ہوئے نکلنا، مدین میں نیک آدمی کے پاس دس سال، ان کی بیٹی سے نکاح اور بکریاں چرانا، پھر مقدس وادی میں آگ دیکھنا اور اللہ کا ان سے کلام کرنا، یہاں تک کہ وہ پانچ اولو العزم رسولوں میں سے ہو گئے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:30} دیکھیے: [[concept/al-minha-fi-al-mihna|آزمائش میں عطا]]۔

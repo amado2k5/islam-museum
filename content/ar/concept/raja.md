@@ -22,3 +22,6 @@ translators: []
 ويذكر المؤلف أن ابن سبأ أول من قال بها، وأن الألوسي تحدث عن تحول مفهومها من رجعة الإمام إلى معنى عام في القرن الثالث. ويرى المؤلف أن الاستدلال بآية «وحرام على قرية أهلكناها أنهم لا يرجعون» وأمثالها ينفي الرجعة في الدنيا، ويعدّ القول بالرجعة إلى الدنيا بعد الموت من أشد مراحل الغلو في التشيع. {cite:sallabi-ali-vol2 p. 369} {cite:sallabi-ali-vol2 p. 370}
 
 ما عرضه المؤلف هنا عرض لقول الشيعة ونقد له، ولا حكم فيه من المتحف.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يرى الشيخ أن الخوف والرجاء جناحا قلب المؤمن ورأسه المحبة، فلا يطير بجناح واحد، وأن القضية توازن بين أن يغلب الرجاء على الخوف أو العكس، ولا سيما عند المكثر من الذنوب. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:09:00} انظر: [[concept/khawf|الخوف]].

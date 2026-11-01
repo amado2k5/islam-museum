@@ -121,3 +121,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يذكر عمر عبد الكافي أن موسى سأل ربه عند موته أن يدنيه من الأرض المقدسة رمية بحجر. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:55:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يتتبع الشيخ حياة موسى مثلًا على أن ظاهر الأمور غير باطنها: إلقاؤه رضيعًا في اليمّ والتقاط عدوّه له، ثم المحبة التي ألقاها الله عليه؛ ثم خروجه خائفًا من المدينة بعد قتل الرجل، ثم عشر سنوات في مدين عند الرجل الصالح، وزواجه من ابنته ورعيه غنمه، ثم رؤيته النار في الوادي المقدس وتكليم الله له، فصار من أولي العزم الخمسة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:30} انظر: [[concept/al-minha-fi-al-mihna|المنحة في المحنة]].

@@ -13,3 +13,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 اور ابتدائی دور میں اس کے سب سے پہلے قائل عبداللہ بن سبا تھے، کیونکہ وہ علی کی واپسی کا قائل تھا۔ {cite:duha-islam p.874}
 
 یہ ایک غیر امامی واحد ماخذ سے تصویر ہے، اور امامیہ کی کتابوں سے مزید ماخذ کی ضرورت ہے۔
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ کے نزدیک خوف اور امید مومن کے دل کے دو پر ہیں اور اس کا سر محبت ہے، اس لیے وہ ایک پر سے نہیں اڑتا، اور معاملہ اس توازن کا ہے کہ امید خوف پر غالب ہو یا اس کے برعکس، خاص طور پر بہت گناہ کرنے والے کے لیے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:09:00} دیکھیے: [[concept/khawf|خوف]]۔

@@ -49,3 +49,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي) (2)
 ويقول الشيخ إن يعقوب أظهر محبة خاصة ليوسف ومكانة مميزة عند إخوته، ويستخلص من ذلك أن على الآباء ألا يفضّلوا ولدًا على ولد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يستخلص الشيخ من قصة يعقوب ويوسف ملمحًا تربويًا: أن إخوة يوسف لما رأوا حب أبيهم ليوسف وأخيه حاولوا قتله وألقوه في الجب ظانين أنهم يقضون على حبه في قلب أبيه، فما زاده ذلك إلا حبًا حتى ابيضت عيناه من الحزن؛ ويرى أن الأب إذا غلب على قلبه حب ولد من أولاده فلا يُظهره، لأنه يثير غيرة إخوته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}

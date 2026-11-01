@@ -54,3 +54,6 @@ Abu Dharr al-Ghifari was a man of Banu Ghifar, a tribe of the Hijazi desert, who
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Speaking of responsibility, Omar Abdelkafy recalls that the Prophet told Abu Dharr that authority is a trust, sweet at its beginning and bitter at its end, and applies this to every manager and every official. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:47:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:48:00}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh relates that a man embraced Islam and asked to be taught it, and the Prophet told Abu Dharr to teach him; Abu Dharr recited [[passage/quran-99-7|Surat al-Zalzala]] to him, and when he reached its end, on an atom's weight of good and of evil, the Bedouin wept and said that this was teaching enough for him. He tells it as an example of the Qur'an's effect on souls (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:08:00}
