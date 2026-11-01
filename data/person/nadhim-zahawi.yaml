@@ -1,0 +1,64 @@
+id: person/nadhim-zahawi
+class: person
+
+label: { ar: "ناظم الزهاوي", en: "Nadhim Zahawi", ur: "ندیم زہاوی" }
+
+names:
+  - { value: "Nadhim Hareth Zahawi", kind: full }
+  - { value: "Nadhim Zahawi", kind: alternate }
+  - { value: "ناظم حارث الزهاوي", kind: full }
+  - { value: "نازم زەهاوی", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ناظم الزهاوي (وُلد في 2 حزيران 1967 في بغداد)، رجل أعمال وسياسي بريطاني، وُلد لعائلة الزهاوي الكردية البغدادية وفرّ من العراق إلى المملكة المتحدة طفلًا أثناء صعود صدام حسين إلى السلطة. شارك في تأسيس شركة الاستطلاعات يوغوف سنة 2000 وكان رئيسها التنفيذي 2005–2010، ثم كان عضو البرلمان عن ستراتفورد أون آفون 2010–2024، فوزيرًا للتعليم (2021–2022) ووزيرًا للمالية (تموز–أيلول 2022) ورئيسًا لحزب المحافظين (2022–2023)."
+  en: "Nadhim Zahawi (born 2 June 1967 in Baghdad) is a British businessman and politician, born to the Kurdish Baghdadi al-Zahawi family, who fled Iraq for the United Kingdom as a child during Saddam Hussein's rise to power. He co-founded the polling company YouGov in 2000 and was its chief executive from 2005 to 2010, then MP for Stratford-on-Avon from 2010 to 2024, serving as Secretary of State for Education (2021-2022), Chancellor of the Exchequer (July to September 2022) and Chairman of the Conservative Party (2022-2023)."
+  ur: "ندیم زہاوی (پیدائش 2 جون 1967، بغداد) برطانوی کاروباری شخصیت اور سیاست دان ہیں، جو بغداد کے کرد زہاوی خاندان میں پیدا ہوئے اور صدام حسین کے عروج کے دوران بچپن میں عراق سے برطانیہ فرار ہوئے۔ انھوں نے 2000 میں رائے شماری کی کمپنی یوگوو کی مشترکہ بنیاد رکھی اور 2005 سے 2010 تک اس کے چیف ایگزیکٹو رہے، پھر 2010 سے 2024 تک اسٹریٹفورڈ-آن-ایون کے رکن پارلیمنٹ رہے، بطور وزیرِ تعلیم (2021–2022)، وزیرِ خزانہ (جولائی تا ستمبر 2022) اور کنزرویٹو پارٹی کے چیئرمین (2022–2023) خدمات انجام دیں۔"
+
+roles: [politician, businessman]
+wings: [people, living]
+regions: [levant-iraq, andalus-europe]
+
+born:
+  edtf: "1967-06-02"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Baghdad on 2 June 1967; the English and Arabic articles and Wikidata agree. The Hijri year 1387 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-nadhim-zahawi-en, source/wikipedia-nadhim-zahawi-ar, source/wikidata-nadhim-zahawi]
+
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-nadhim-zahawi-en, source/wikipedia-nadhim-zahawi-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English article's only faith statement about him is
+      that he "was brought up in a liberal Muslim family from
+      Baghdad" - family background, which never counts under
+      the founder's rulings of 1 November 2026. No source read
+      names a school or order for the man himself, and no text
+      records a self-identification that names one; his
+      Wikidata item carries no religion statement at all. His
+      faith is therefore recorded as unknown with the family
+      background stated here and expressly not used.
+    sources: [source/wikipedia-nadhim-zahawi-en, source/wikidata-nadhim-zahawi]
+
+external_ids: { wikidata: "Q259361" }
+
+sources:
+  - source/wikipedia-nadhim-zahawi-en
+  - source/wikipedia-nadhim-zahawi-ar
+  - source/wikipedia-nadhim-zahawi-ur
+  - source/wikidata-nadhim-zahawi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nadhim Zahawi' (revision 1382267468 of 27 October 2026), Arabic Wikipedia article 'ناظم الزهاوي (سياسي بريطاني)' (revision 75469291 of 14 June 2026), Urdu Wikipedia article 'ندیم زہاوی' (revision 10204668 of 2 May 2026) and Wikidata Q259361 (item revision 2563034500 of 31 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1967 is confirmed at day precision."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

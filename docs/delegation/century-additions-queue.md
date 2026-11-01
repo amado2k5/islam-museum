@@ -890,11 +890,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sayeeda Warsi (Baroness Warsi) — 1971–Living
 - [x] Tariq Ahmad (Lord Ahmad of Wimbledon) — 1968–Living
 - [x] Naz Shah — 1973–Living
-- [ ] Imran Hussain — 1978–Living
-- [ ] Tahiti Khalid — 1980–Living
-- [ ] Sajid Javid — 1969–Living
-- [ ] Rehman Chishti — 1978–Living
-- [ ] Nadhim Zahawi (Contemporary) — 1967–Living
+- [x] Imran Hussain — 1978–Living
+- [~] Tahiti Khalid — 1980–Living — STOPPED: no public figure of this name identifiable in any reliable source (Wikipedia full-text + Wikidata entity search + three web searches, wave 167 §A); nothing built, nothing substituted.
+- [x] Sajid Javid — 1969–Living
+- [x] Rehman Chishti — 1978–Living
+- [x] Nadhim Zahawi (Contemporary) — 1967–Living
 - [ ] Zarah Sultana — 1993–Living
 - [ ] Apsana Begum — 1990–Living
 - [ ] Adnan Khan — 1978–Living
