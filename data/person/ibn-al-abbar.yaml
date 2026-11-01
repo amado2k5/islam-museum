@@ -1,27 +1,40 @@
 id: person/ibn-al-abbar
 class: person
-label: { ar: "ابن الأبار البلنسي", en: "Ibn al-Abbar" }
+label: { ar: "ابن الأبار البلنسي", en: "Ibn al-Abbar", ur: "ابن ابار بلنسی" }
 names:
   - { value: "ابن الأبار الحافظ العلامة أبو عبد الله محمد بن عبد الله القضاعي الأندلسي البلنسي", kind: full }
-born: { edtf: "1199~", hijri: "0595~", calendar: julian, precision: year, status: tradition, derived: true, note: "عن ثلاث وستين سنة عند قتله {cite:shadharat-dhahab p. 303}." }
-died: { edtf: "1260-01~", hijri: "0658-01-20", calendar: julian, precision: day, status: tradition, derived: true, note: "قتله صاحب تونس ظلماً في العشرين من المحرم سنة ثمان وخمسين وستمائة وله ثلاث وستون سنة {cite:shadharat-dhahab p. 303}." }
+born: { edtf: "1199-02~", hijri: "0595-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في ربيع الآخر سنة 595هـ/فبراير 1199م ببلنسية {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}؛ وعن ثلاث وستين سنة عند قتله {cite:shadharat-dhahab p. 303}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+died: { edtf: "1260-01-06", hijri: "0658-01-20", calendar: julian, precision: day, status: tradition, derived: true, note: "قتله صاحب تونس ظلماً في العشرين من المحرم سنة ثمان وخمسين وستمائة وله ثلاث وستون سنة {cite:shadharat-dhahab p. 303}؛ وطُعن بالرماح صبيحة ٢٠ المحرم ٦٥٨/٦ يناير 1260 وأُحرقت جثته وكتبه من الغد {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
 summary:
-  ar: "الكاتب الأديب، أحد أئمة الحديث؛ قرأ القراءات وعني بالأثر وبرع في البلاغة والنظم والنثر وكان ذا جلالة ورياسة؛ قتله صاحب تونس ظلماً في العشرين من المحرم وله ثلاث وستون سنة {cite:shadharat-dhahab p. 303}."
-  en: "The Valencian hafiz-adib (aged 63) — of the imams of hadith, a stylist in verse and prose; the lord of Tunis had him killed unjustly on 20 Muharram 658 {cite:shadharat-dhahab p. 303}."
+  ar: "أبو عبد الله محمد بن عبد الله بن أبي بكر بن عبد الله بن عبد الرحمن بن أحمد القضاعي، ابن الأبار البلنسي (595–658هـ/1199–1260م): المحدث الأديب المؤرخ الشاعر، صاحب «التكملة» و«الحلة السيرة» ونحو خمسة عشر تصنيفًا في نحو خمسة وأربعين مجلدًا؛ كاتب ولاة بلنسية المؤمنيين، ثم رئيس ديوان الإنشاء الحفصي بتونس، فقتله المستنصر ظلمًا {cite:encyclopaedia-of-islam-2 vol. 3 p. 705} {cite:shadharat-dhahab p. 303}."
+  en: "Abu Abd Allah Muhammad ibn Abd Allah ibn Abi Bakr al-Quda'i, Ibn al-Abbar of Valencia (595–658/1199–1260): traditionist, littérateur, historian and poet, author of the Takmila, al-Hulla al-siyara and some fifteen works in about forty-five volumes; secretary to the Mu'minid governors of Valencia, then head of the Hafsid chancellery at Tunis, where al-Mustansir had him killed unjustly {cite:encyclopaedia-of-islam-2 vol. 3 p. 705} {cite:shadharat-dhahab p. 303}."
+  ur: "ابو عبد اللہ محمد بن عبد اللہ بن ابی بکر قضاعی، ابن ابار بلنسی (595–658ھ/1199–1260ء): محدث، ادیب، مؤرخ اور شاعر؛ «التکملة» اور «الحلة السیرا» سمیت نحو پندرہ تصانیف کے مصنف جو پینتالیس جلدوں میں ہیں؛ بلنسیہ کے مؤمنی حکمرانوں کے کاتب، پھر تونس میں حفصی دیوان انشا کے سربراہ، جہاں مستنصر نے انہیں ظلماً قتل کرایا {cite:encyclopaedia-of-islam-2 vol. 3 p. 705} {cite:shadharat-dhahab p. 303}."
 gender: male
 roles: [scholar, muhaddith, writer]
 wings: [people]
-periods: [period/crusades-ayyubid-mamluk]
+periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
 faith:
   - value: sunni
     basis: tradition
 relations:
-  - { type: died_in, target: place/tunis, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  - { type: born_in, target: place/valencia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/tunis, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/abu-al-rabi-ibn-salim, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/takmila-ibn-al-abbar, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-studies-ibn-salim-615, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-secretary-valencia-630, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-embassy-tunis-635, sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari] }
+  - { type: participated_in, target: event/fall-of-valencia-636, sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-settles-tunis-636, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-alama-affair-645, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-completes-takmila-tunis-650, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-abbar-killed-tunis-658, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-130
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن؛ Encyclopaedia of Islam 2nd ed. vol. 3 printed p. 705 (IBN AL-ABBĀR, M. Ben Cheneb–Ch. Pellat); al-Maqqari, Nafh al-Tib printed p. 464 — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: "lib-shadharat-batch-130; explorer-ibn-al-abbar-1"
