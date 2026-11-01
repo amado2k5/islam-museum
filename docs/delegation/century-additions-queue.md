@@ -1732,11 +1732,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Iskandar Muda — 1583–1636
 - [x] Sultan Trenggana of Demak — 1483–1546
 - [x] Maulana Yusuf of Banten — 1526–1570
-- [ ] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
-- [ ] Sultan Alauddin of Gowa — 1587–1639
-- [ ] Muhammad Shaybani — 1451–1510
-- [ ] Ubaydullah Khan of Bukhara — 1487–1539
-- [ ] Abdullah Khan II — 1533–1598
+- [x] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
+- [x] Sultan Alauddin of Gowa — 1587–1639
+- [x] Muhammad Shaybani — 1451–1510
+- [x] Ubaydullah Khan of Bukhara — 1487–1539
+- [x] Abdullah Khan II — 1533–1598
 - [ ] Mulla Shah Badakhshi — 1584–1661
 - [ ] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time
 - [ ] Sunan Bonang — 1465–1525

@@ -1,0 +1,46 @@
+id: person/ubaydullah-khan
+class: person
+label: { ar: "عبيد الله خان", en: "Ubaydullah Khan", ur: "عبید اللہ خان" }
+names:
+  - { value: "Ubaydullah Khan", kind: full }
+  - { value: "Ubaid Khan", kind: alternate }
+gender: male
+summary:
+  ar: "خان بخارى الشيباني (حكم 1534–1539)، ابن أخي محمد شيباني. حكم بخارى منذ 1511–1512، وهزم بابر، وقاد حملات متكررة ضد إيران الصفوية، وبنى مسجد كالان ومدرسة مير عرب، ودُفن في المدرسة."
+  en: "Shaybanid khan of Bukhara (r. 1534–1539), nephew of Muhammad Shaybani. He held Bukhara from 1511–12, defeated Babur, campaigned repeatedly against Safavid Iran, built the Kalan Mosque and the Mir-i-Arab Madrasa, and was buried in the madrasa."
+  ur: "بخارا کے شیبانی خان (دورِ حکومت 1534–1539ء)، محمد شیبانی کے بھتیجے۔ انھوں نے 1511–12ء سے بخارا سنبھالا، بابر کو شکست دی، صفوی ایران کے خلاف بار بار مہمات چلائیں، مسجد کالان اور مدرسہ میر عرب تعمیر کیے اور مدرسے ہی میں دفن ہوئے۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1487"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives 1487 (lead and infobox). Wikidata carries two birth values, 1487 and 1476, both at normal rank; the article's 1487 is followed and 1476 is preserved here as a variant. The year 1487 spans two Hijri years, so none is paired."
+  sources: [source/wikipedia-ubaydullah-khan-en, source/wikidata-ubaydullah-khan]
+died:
+  edtf: "1539"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives 1539 (lead and infobox), narrating his death shortly after his 1538 Khwarazm campaign. Wikidata carries two death values, 1539 and 1540, both at normal rank; 1539 is followed and 1540 preserved here as a variant. The year 1539 spans two Hijri years, so none is paired."
+  sources: [source/wikipedia-ubaydullah-khan-en, source/wikidata-ubaydullah-khan]
+relations:
+  - { type: lived_in, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-en] }
+  - { type: buried_in, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names his religion or a school for him personally: the English article records no religion for him, and Wikidata carries no religion statement. His documented career is that of a Sunni Shaybanid ruler at war with Safavid Iran — he built Bukhara's Kalan Mosque and Mir-i-Arab Madrasa — but dynastic context is not personal attestation, so no faith value is recorded."
+    sources: [source/wikipedia-ubaydullah-khan-en, source/wikidata-ubaydullah-khan]
+external_ids: { wikidata: "Q6689180" }
+sources: [source/wikipedia-ubaydullah-khan-en, source/wikidata-ubaydullah-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1365141474) and Wikidata Q6689180 (item revision 2553974636, re-asserted against a second live query with an identical result), fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record); relation target grep-verified in the current-main clone (place/bukhara). His father Mahmud Sultan has no record, and his uncle-nephew relation to Muhammad Shaybani is recorded in prose only, as the house relation set has no nephew form."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
