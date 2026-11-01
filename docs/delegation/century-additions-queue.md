@@ -806,11 +806,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Jazeman Jaafar — 1992–Living
 - [x] Hafizh Syahrin — 1994–Living
 - [x] Sheikh Hasher Al Maktoum — 1985–Living
-- [ ] Khaled Al Qubaisi — 1975–Living
-- [ ] Yazeed Al-Rajhi — 1981–Living
-- [ ] Reema Juffali — 1992–Living
-- [ ] Raha Moharrak — 1986–Living
-- [ ] Samira Asghari — 1994–Living
+- [x] Khaled Al Qubaisi — 1975–Living
+- [x] Yazeed Al-Rajhi — 1981–Living
+- [x] Reema Juffali — 1992–Living
+- [x] Raha Moharrak — 1986–Living
+- [x] Samira Asghari — 1994–Living
 - [ ] Tahmina Kohistani — 1989–Living
 - [ ] Manizha Talash — 2002–Living
 - [ ] Kimia Alizadeh — 1998–Living

@@ -1,0 +1,37 @@
+id: person/khaled-al-qubaisi
+class: person
+label: { ar: "خالد القبيسي", en: "Khaled Al Qubaisi", ur: "خالد القبیسی" }
+names:
+  - { value: "Khaled Al Qubaisi", kind: full }
+  - { value: "Khaled Abdulla Al Qubaisi", kind: full }
+  - { value: "خالد عبد الله القبيسي", kind: full }
+gender: male
+summary:
+  ar: "رجل أعمال وسائق سباقات إماراتي، وُلد في أبو ظبي سنة 1975. مسؤول استثمارات عقارية وبنية تحتية في شركة مبادلة، وفائز بسباق دبي 24 ساعة عامي 2012 و2013، وشارك ثلاث مرات في سباق لومان 24 ساعة."
+  en: "Emirati businessman and endurance racing driver, born in Abu Dhabi in 1975. A Mubadala real-estate and infrastructure investments executive, he won the Dubai 24 Hour overall in 2012 and 2013 and raced three times at the 24 Hours of Le Mans."
+  ur: "اماراتی تاجر اور انڈیورنس ریسنگ ڈرائیور، 1975 میں ابوظہبی میں پیدا ہوئے۔ مبادلہ میں رئیل اسٹیٹ اور انفراسٹرکچر سرمایہ کاری کے ایگزیکٹو، انہوں نے 2012 اور 2013 میں دبئی 24 آور مجموعی طور پر جیتا اور تین بار 24 آورز آف لے مانز میں حصہ لیا۔"
+roles: [racing driver, businessman]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1975-12-22"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 22 December 1975 in Abu Dhabi (no place entity for Abu Dhabi exists in the graph, so the birthplace is recorded here and in prose only). The Hijri year 1395 is the tabular conversion of 22 December 1975 and is marked derived."
+  sources: [source/wikipedia-khaled-al-qubaisi-en, source/wikipedia-khaled-al-qubaisi-ar, source/wikidata-khaled-al-qubaisi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for him, and Wikidata records no religion (P140) statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-khaled-al-qubaisi-en, source/wikipedia-khaled-al-qubaisi-ar, source/wikidata-khaled-al-qubaisi]
+external_ids: { wikidata: "Q17541876" }
+sources: [source/wikipedia-khaled-al-qubaisi-en, source/wikipedia-khaled-al-qubaisi-ar, source/wikidata-khaled-al-qubaisi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380855320), Arabic Wikipedia (revision 73393815) and Wikidata Q17541876 (item revision 2554214297, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record); Abu Dhabi checked for a place entity in the current-main clone (none exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
