@@ -1,0 +1,71 @@
+id: person/jazzar-pasha
+class: person
+
+label: { ar: "أحمد باشا الجزار", en: "Jazzar Pasha", ur: "احمد پاشا الجزار" }
+
+names:
+  - { value: "Ahmad Pasha al-Jazzar", kind: full }
+  - { value: "أحمد باشا الجزار", kind: full }
+  - { value: "Ahmed Pervan", kind: alternate }
+  - { value: "Ahmad Bey al-Jazzar", kind: alternate }
+  - { value: "al-Jazzar", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "أحمد باشا الجزار (نحو 1720/1730 – 1804)، والي صيدا العثماني المقيم في عكا من سنة 1776 حتى وفاته، ووالي دمشق في فترات متقطعة. وُلد في البوسنة لأسرة نصرانية واعتنق الإسلام في مصر، فصار من أتباع علي بك الكبير واكتسب لقب «الجزّار» لانتقامه من البدو قتلة سيده. اشتهر بدفاعه الناجح عن عكا ضد نابليون سنة 1799 بمساعدة الأسطول البريطاني، وبآثاره العمرانية في عكا، وفيها مسجده وخان العمدان."
+  en: "Ahmad Pasha al-Jazzar (c. 1720/1730s–1804) was the Acre-based Ottoman governor of Sidon from 1776 until his death, and at intervals governor of Damascus. Born in Bosnia to a Christian family, he converted to Islam in Egypt, rose as an enforcer of Ali Bey al-Kabir — earning the name al-Jazzar, 'the Butcher', avenging his master on the Bedouin who killed him — and became famous for his successful defence of Acre against Napoleon in 1799 with British naval help, and for the buildings he left in Acre, among them his mosque and the Khan al-Umdan."
+  ur: "احمد پاشا الجزار (تقریباً 1720ء/1730ء – 1804ء) عکہ میں مقیم عثمانی ایالت صیدا کے گورنر تھے، 1776ء سے وفات تک؛ وقفے وقفے سے دمشق کے بھی گورنر رہے۔ بوسنیا میں ایک عیسائی گھرانے میں پیدا ہوئے، مصر میں اسلام قبول کیا اور علی بے الکبیر کے خاص آدمی بنے؛ اپنے آقا کے قتل کا بدلہ لینے پر «جزار» یعنی قصاب کا لقب پایا۔ 1799ء میں برطانوی بحریہ کی مدد سے نپولین کے خلاف عکہ کے کامیاب دفاع اور عکہ میں اپنی تعمیرات، مسجد جزار اور خان العمدان، کے لیے مشہور ہیں۔"
+
+roles: [ruler, military]
+regions: [levant-iraq]
+wings: [people]
+
+born:
+  edtf: "1720"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "His birth year is genuinely unsettled. The English article heads his life 'c. 1720-30s': one source lists 1720, but Philipp judges the 1730s more likely; the Arabic article's head gives 1734 and its text 1735; Wikidata gives 1722. The earliest scholarly reading, 1720, is built and the rest preserved here. He was born at Fatnica near Stolac in Herzegovina, which has no museum place record, so no born_in edge is written; no Hijri year is recorded against so contested a year."
+  sources: [source/wikipedia-jazzar-pasha-en, source/wikipedia-jazzar-pasha-ar, source/wikidata-jazzar-pasha]
+
+died:
+  edtf: "1804-05-07"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The English article records that he died on 7 May 1804, after a tertian fever that had afflicted him since August 1803; the Arabic article gives 23 April 1804 and Wikidata agrees with the Arabic date. The English day is built, the Arabic and Wikidata day preserved here, and the entry is marked debated. No Hijri year is recorded, the Arabic article giving none."
+  sources: [source/wikipedia-jazzar-pasha-en, source/wikipedia-jazzar-pasha-ar, source/wikidata-jazzar-pasha]
+
+relations:
+  - { type: died_in, target: place/akka, sources: [source/wikipedia-jazzar-pasha-en, source/wikipedia-jazzar-pasha-ur] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. The
+      Arabic article states plainly that he was born in Bosnia to a
+      Christian family and embraced Islam; the English article,
+      following Olivier's account, says that after being sold to a
+      slave trader he subsequently converted to Islam in Egypt. His
+      birth religion is origin, not attestation of his adult faith,
+      and his life as a Muslim Ottoman pasha who built the
+      el-Jazzar Mosque in Acre names no madhhab; Wikidata gives
+      only Islam. His faith is therefore recorded as unknown.
+    sources: [source/wikipedia-jazzar-pasha-en, source/wikipedia-jazzar-pasha-ar, source/wikidata-jazzar-pasha]
+
+external_ids: { wikidata: "Q2453214" }
+
+sources:
+  - source/wikipedia-jazzar-pasha-en
+  - source/wikipedia-jazzar-pasha-ar
+  - source/wikipedia-jazzar-pasha-ur
+  - source/wikidata-jazzar-pasha
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382710047 of 29 October 2026), Arabic Wikipedia (revision 75677345 of 26 June 2026), Urdu Wikipedia (revision 9704060 of 5 April 2026) and Wikidata Q2453214 (item revision 2554210865), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building: ibn-al-jazzar-ahmad is the tenth-century physician and yahya-ibn-abd-al-azim-al-jazzar a different man; no prior record holds the pasha under any spelling. His service under Ali Bey al-Kabir is written once as a patron_of edge in Ali Bey's record, not here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-164j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
