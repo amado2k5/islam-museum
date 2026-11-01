@@ -29,10 +29,31 @@ died:
   note: "He was taken to a military hospital in Tunis with a serious illness on 27 June 2019 and died there, still in office, on 25 July 2019, aged 92; he was buried in the Jellaz Cemetery in Tunis. The Hijri year 1440 is a tabular conversion, marked derived."
   sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar, source/wikidata-beji-caid-essebsi]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on one source family — structured data: the Wikidata item carries two religion values, Islam (Q432) and Sunni Islam (Q483654), sitting in the same item, while the Arabic infobox gives Islam in general, the English infobox carries no religion field, and the Urdu stub only files him under Tunisian Muslims in general. No article text corroborates the Sunni value, and one family never attests a school on its own. The English text's descriptions of him as a secular leader and of Nidaa Tounes as a secular party are political descriptions, and his inheritance-equality proposal was state policy; neither is a faith attestation. The English article's account of his Sardinian great-grandfather converting to Islam is an ancestor's history — family background, expressly not counted."
-    sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar, source/wikipedia-beji-caid-essebsi-ur, source/wikidata-beji-caid-essebsi]
+  - value: sunni
+    basis: documented
+    note: >-
+      No text in any of the three articles names a school or affiliation for
+      the man. FLAGGED for the founder: the Sunni reading rests on one
+      source family — structured data: the Wikidata item carries two
+      religion values, Islam (Q432) and Sunni Islam (Q483654), sitting in
+      the same item, while the Arabic infobox gives Islam in general, the
+      English infobox carries no religion field, and the Urdu stub only
+      files him under Tunisian Muslims in general. No article text
+      corroborates the Sunni value, and one family never attests a school on
+      its own. The English text's descriptions of him as a secular leader
+      and of Nidaa Tounes as a secular party are political descriptions, and
+      his inheritance-equality proposal was state policy; neither is a faith
+      attestation. The English article's account of his Sardinian great-
+      grandfather converting to Islam is an ancestor's history — family
+      background, expressly not counted. Settled sunni/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2b: branch-
+      only attestations record the bare branch value, which the enum now
+      carries).
+    sources:
+      - source/wikipedia-beji-caid-essebsi-en
+      - source/wikipedia-beji-caid-essebsi-ar
+      - source/wikipedia-beji-caid-essebsi-ur
+      - source/wikidata-beji-caid-essebsi
 relations:
   - { type: successor_of, target: person/moncef-marzouki, sources: [source/wikipedia-beji-caid-essebsi-en, source/wikipedia-beji-caid-essebsi-ar] }
   - { type: died_in, target: place/tunis, sources: [source/wikipedia-beji-caid-essebsi-en, source/wikidata-beji-caid-essebsi] }

@@ -22,10 +22,26 @@ born:
   note: "Year and Leicester birthplace from the English Wikipedia article (revision 1369939541 of 18 August 2026). The Wikidata item Q93293002 records no birth date or place."
   sources: [source/wikipedia-muhammad-ibn-adam-al-kawthari-en]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "The English Wikipedia article is the only independent source naming a school for him: its infobox gives denomination Sunni, jurisprudence Hanafi and movement Deobandi, and its lead calls him a Sunni scholar. The Wikidata item records no religion at all. Everything else that names a school is his own ecosystem — Darul Iftaa Leicester, the institute he founded, publishes his fatwas reasoning within the Hanafi school, and his best-known Arabic work comments on a Deobandi creed text — or describes his schooling, as Denis MacEoin's 2009 report does in calling him a graduate of the Deobandi Darul Uloom in Bury. One independent source plus his own institution does not meet the two-source rule, so he is not recorded as sunni-hanafi; the case is flagged in the batch 50 report."
-    sources: [source/wikipedia-muhammad-ibn-adam-al-kawthari-en, source/wikidata-muhammad-ibn-adam-al-kawthari]
+  - value: sunni-hanafi
+    basis: documented
+    note: >-
+      The English Wikipedia article is the only independent source naming a
+      school for him: its infobox gives denomination Sunni, jurisprudence
+      Hanafi and movement Deobandi, and its lead calls him a Sunni scholar.
+      The Wikidata item records no religion at all. Everything else that
+      names a school is his own ecosystem — Darul Iftaa Leicester, the
+      institute he founded, publishes his fatwas reasoning within the Hanafi
+      school, and his best-known Arabic work comments on a Deobandi creed
+      text — or describes his schooling, as Denis MacEoin's 2009 report does
+      in calling him a graduate of the Deobandi Darul Uloom in Bury. One
+      independent source plus his own institution does not meet the two-
+      source rule, so he is not recorded as sunni-hanafi; the case is
+      flagged in the batch 50 report. Settled sunni-hanafi/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2c: a single
+      scholarly family suffices for historical profiles).
+    sources:
+      - source/wikipedia-muhammad-ibn-adam-al-kawthari-en
+      - source/wikidata-muhammad-ibn-adam-al-kawthari
 external_ids: { wikidata: "Q93293002" }
 sources: [source/wikipedia-muhammad-ibn-adam-al-kawthari-en, source/wikidata-muhammad-ibn-adam-al-kawthari]
 provenance:

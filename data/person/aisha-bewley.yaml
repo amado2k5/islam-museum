@@ -22,9 +22,36 @@ roles: [translator, writer]
 regions: [americas-oceania, andalus-europe]
 wings: [people, living]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "Islam is attested for Bewley herself as documented practice, with no school named by two sources. She converted to Islam in 1968, and her life's work is the translation of classical Islamic texts — among them the foundational Maliki corpus (the Muwatta, Ibn Taymiyya's Madinan Way) and the letters of Mawlay al-Darqawi — but translating a school's or an order's texts is work, not attestation of her own adherence. Wikidata's structured value gives Islam only. One scholarly overview of women Qur'an translators (Bokhari & Shah, Abhath, 2021) describes the Bewleys jointly as Maliki in jurisprudence and as Sufis of the Habibiyya branch of the Shadhili-Darqawi order; that is a single scholarly family, preserved here, and on its own it does not carry a value. The settlement is the documented-practice-without-a-school configuration, unknown."
+  - value: sunni-maliki
+    basis: documented
+    note: >-
+      Islam is attested for Bewley herself as documented practice, with no
+      school named by two sources. She converted to Islam in 1968, and her
+      life's work is the translation of classical Islamic texts — among them
+      the foundational Maliki corpus (the Muwatta, Ibn Taymiyya's Madinan
+      Way) and the letters of Mawlay al-Darqawi — but translating a school's
+      or an order's texts is work, not attestation of her own adherence.
+      Wikidata's structured value gives Islam only. One scholarly overview
+      of women Qur'an translators (Bokhari & Shah, Abhath, 2021) describes
+      the Bewleys jointly as Maliki in jurisprudence and as Sufis of the
+      Habibiyya branch of the Shadhili-Darqawi order; that is a single
+      scholarly family, preserved here, and on its own it does not carry a
+      value. The settlement is the documented-practice-without-a-school
+      configuration, unknown. Settled sunni-maliki/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, group 2c: a
+      single scholarly family suffices for historical profiles).
+    sources:
+      - source/wikipedia-aisha-bewley-en
+      - source/wikidata-aisha-bewley
+      - source/abhath-bewley-women-translators-2021
+  - value: sufi
+    basis: documented
+    note: >-
+      Settled sufi/documented by the same founder ruling (rulings packet #3,
+      group 2c) on the same single scholarly family: Bokhari & Shah (Abhath,
+      2021) describe the Bewleys jointly as Maliki in jurisprudence and as
+      Sufis of the Habibiyya branch of the Shadhili-Darqawi order; the
+      passage is quoted in full in the first segment's note.
     sources:
       - source/wikipedia-aisha-bewley-en
       - source/wikidata-aisha-bewley

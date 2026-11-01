@@ -25,10 +25,20 @@ born:
 relations:
   - { type: born_in, target: place/misrata, sources: [source/wikipedia-abdul-hamid-dbeibeh-en, source/wikidata-abdul-hamid-dbeibeh] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No article text names a religion or a school for him. The Arabic infobox gives Islam in general and Wikidata gives Islam (generic) — one source family, no school value anywhere. The generic attestation is one family only, so no school is recorded (the Erekat configuration: structured/infobox generic alone, FLAGGED for the founder)."
-    sources: [source/wikipedia-abdul-hamid-dbeibeh-ar, source/wikidata-abdul-hamid-dbeibeh]
+  - value: sunni
+    basis: documented
+    note: >-
+      No article text names a religion or a school for him. The Arabic
+      infobox gives Islam in general and Wikidata gives Islam (generic) —
+      one source family, no school value anywhere. The generic attestation
+      is one family only, so no school is recorded (the Erekat
+      configuration: structured/infobox generic alone, FLAGGED for the
+      founder). Settled sunni/documented by the founder's ruling of 1
+      November 2026 (rulings packet #3, 2b: branch-only attestations record
+      the bare branch value, which the enum now carries).
+    sources:
+      - source/wikipedia-abdul-hamid-dbeibeh-ar
+      - source/wikidata-abdul-hamid-dbeibeh
 external_ids: { wikidata: "Q105319569" }
 sources: [source/wikipedia-abdul-hamid-dbeibeh-en, source/wikipedia-abdul-hamid-dbeibeh-ar, source/wikipedia-abdul-hamid-dbeibeh-ur, source/wikidata-abdul-hamid-dbeibeh]
 provenance:

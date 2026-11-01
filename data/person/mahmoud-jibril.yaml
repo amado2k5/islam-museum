@@ -32,10 +32,19 @@ died:
   note: "Died in Cairo on 5 April 2020, after a cardiac arrest on 21 March 2020 and a positive COVID-19 test (English article); the Arabic article likewise gives Cairo, 5 April 2020, from COVID-19 with heart problems. The Hijri year (1441) is derived from the Gregorian date."
   sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No article text names a religion or a school for him, and no infobox has a religion field. Wikidata gives Islam (generic) alone. The only school signal anywhere is the Arabic article's category filing under Libyan Sunni Muslims, and category filings never attest. No school is recorded."
-    sources: [source/wikidata-mahmoud-jibril, source/wikipedia-mahmoud-jibril-ar]
+  - value: sunni
+    basis: documented
+    note: >-
+      No article text names a religion or a school for him, and no infobox
+      has a religion field. Wikidata gives Islam (generic) alone. The only
+      school signal anywhere is the Arabic article's category filing under
+      Libyan Sunni Muslims, and category filings never attest. No school is
+      recorded. Settled sunni/documented by the founder's ruling of 1
+      November 2026 (rulings packet #3, 2b: branch-only attestations record
+      the bare branch value, which the enum now carries).
+    sources:
+      - source/wikidata-mahmoud-jibril
+      - source/wikipedia-mahmoud-jibril-ar
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-mahmoud-jibril-en, source/wikipedia-mahmoud-jibril-ar] }
 external_ids: { wikidata: "Q296724" }

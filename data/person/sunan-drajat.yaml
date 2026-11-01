@@ -55,14 +55,29 @@ relations:
   - { type: student_of, target: person/sunan-gunungjati, sources: [source/wikipedia-sunan-drajat-id] }
 
 faith:
-  - value: unknown
-    basis: unknown
-    note: "Two structured attestations name his branch and one names a school, but the school rests on a single source family: the Indonesian article's Muslim-scholar infobox gives his denomination as Sunni with the jurisprudence field blank, while the Arabic article's infobox — built on the Ba'alawi genealogical tradition, under which it files his family — gives his creed as Ahl al-Sunna wa-l-Jama'a and his madhhab as Shafi'i. No second independent source names a school for him: the English article names no religion at all, and Wikidata gives only Islam generically. His documented life is that of a Muslim saint of the Wali Songo who spread Islam in Java and taught welfare before doctrine. On the lane's arithmetic (his brother Sunan Bonang in wave 151, Trenggana and Maulana Yusuf of Banten before him), a single-family school attestation is preserved here for the founder's ruling and no school is recorded."
+  - value: sunni-shafii
+    basis: documented
+    note: >-
+      Two structured attestations name his branch and one names a school,
+      but the school rests on a single source family: the Indonesian
+      article's Muslim-scholar infobox gives his denomination as Sunni with
+      the jurisprudence field blank, while the Arabic article's infobox —
+      built on the Ba'alawi genealogical tradition, under which it files his
+      family — gives his creed as Ahl al-Sunna wa-l-Jama'a and his madhhab
+      as Shafi'i. No second independent source names a school for him: the
+      English article names no religion at all, and Wikidata gives only
+      Islam generically. His documented life is that of a Muslim saint of
+      the Wali Songo who spread Islam in Java and taught welfare before
+      doctrine. On the lane's arithmetic (his brother Sunan Bonang in wave
+      151, Trenggana and Maulana Yusuf of Banten before him), a single-
+      family school attestation is preserved here for the founder's ruling
+      and no school is recorded. Settled sunni-shafii/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2c: a single
+      scholarly family suffices for historical profiles).
     sources:
       - source/wikipedia-sunan-drajat-id
       - source/wikipedia-sunan-drajat-ar
       - source/wikipedia-sunan-drajat-en
-
 external_ids: { wikidata: "Q7638798" }
 
 sources:

@@ -31,10 +31,25 @@ died:
   note: "He died at the Aïn Naâdja military hospital in Algiers on 6 October 2012 and was buried at El Alia Cemetery. The English article reports the cause as cancer and the Arabic infobox as a heart attack; the record adopts neither cause, the two articles agreeing on the date and place. The Hijri year 1433 is a tabular conversion, marked derived."
   sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar, source/wikidata-chadli-bendjedid]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No text in either article names a school or madhhab for the man, and neither infobox carries a religion field. FLAGGED for the founder: the Sunni reading rests on one source family — structured data: the Wikidata item carries two religion values, Islam (Q432) and Sunni Islam (Q483654), sitting in the same item. No article text corroborates the Sunni value, and one family never attests a school on its own (the Beji Caid Essebsi configuration exactly). His presidency's dealings with the Islamic Salvation Front are state politics, not a personal attestation."
-    sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar, source/wikidata-chadli-bendjedid]
+  - value: sunni
+    basis: documented
+    note: >-
+      No text in either article names a school or madhhab for the man, and
+      neither infobox carries a religion field. FLAGGED for the founder: the
+      Sunni reading rests on one source family — structured data: the
+      Wikidata item carries two religion values, Islam (Q432) and Sunni
+      Islam (Q483654), sitting in the same item. No article text
+      corroborates the Sunni value, and one family never attests a school on
+      its own (the Beji Caid Essebsi configuration exactly). His
+      presidency's dealings with the Islamic Salvation Front are state
+      politics, not a personal attestation. Settled sunni/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2b: branch-
+      only attestations record the bare branch value, which the enum now
+      carries).
+    sources:
+      - source/wikipedia-chadli-bendjedid-en
+      - source/wikipedia-chadli-bendjedid-ar
+      - source/wikidata-chadli-bendjedid
 relations:
   - { type: died_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en, source/wikipedia-chadli-bendjedid-ar] }
   - { type: buried_in, target: place/algiers, sources: [source/wikipedia-chadli-bendjedid-en] }
