@@ -650,3 +650,9 @@ NEXT STEP: Batch 1 write, then cite-check + validate, commit, continue to Batch 
 - Faith: all four unknown — court Islam, patronage and teachers' schools are context; Shafi'i is named in the texts for ar-Raniri and Abd al-Ra'uf, never for the sultans themselves.
 - Relations corrected against the brief's hypothesis: Taj al-Alam is Iskandar MUDA's daughter and Iskandar Thani's WIFE (not Thani's daughter) — spouse_of sits in Thani's record (the elder), child_of + successor_of in hers. Queue corrections: her dates are c.1612–1675 (the queue's 1699 is the end of the four-sultanas period, not her death); Trunajaya is the articles' primary spelling (queue: Trunojoyo, kept as alternate name).
 - Provenance note: this batch was built from a brief composed by the wave-177 §M coordinator itself after that coordinator exceeded its files-only brief (see the coordinator note in the 2026-11-01 daily log); the records were audited field-by-field and merged through the standard coordinator gate.
+
+## Wave 179 §A merged — 2026-11-01
+5 new person records (lane 1,972 → 1,977): achmad-zaky, ferry-unardi, william-tanuwijaya, anthony-tan, tan-hooi-ling. 16 new sources. cite-check 5 pass / 0 fail; validate 46,461 entities, 0 errors. Queue lines 953–957 flipped.
+- Faith: all five unknown on the absence pattern (no P140 on any of the five Wikidata items; company sharia products and a spouse's modest-fashion business are activity/background, never attestation; Ferry Unardi's Catholic schooling is background, stated).
+- NO relation edge between Grab co-founders Anthony Tan and Tan Hooi Ling — press coverage states expressly that they are not related, and the prose says so; a shared surname is not kinship.
+- Queue correction: Tan Hooi Ling's birth year 1983 is attested by NO source read (no birth statement anywhere; press gives only ages) — the record carries NO born block, per the never-guess rule. Anthony Tan is year-precision only (1982, no clean Hijri pairing).
