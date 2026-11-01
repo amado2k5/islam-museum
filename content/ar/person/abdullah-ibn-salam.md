@@ -19,3 +19,6 @@ translators: []
 
 ## إسلامه عند قدوم النبي (الرحيق المختوم ص181–182)
 سمع بمقدم النبي فجاءه يسأله أسئلة لا يعلمها إلا نبي، فآمن ساعته، ثم قال للنبي إن اليهود قوم بهت، فأرسل النبي إليهم، فلما عرفوا عنه قالوا شرنا وابن شرنا، ولما سألهم عن إسلامه قالوا كذبت ([[concept/medina-society-at-hijra|المجتمع في المدينة عند الهجرة]]) {cite:mubarakpuri-raheeq p.181} {cite:mubarakpuri-raheeq p.182} {cite:sahih-al-bukhari 1/459}.
+
+## من سلسلة «قصة وعبر»
+في الحلقة الخامسة يروي عمر عبد الكافي أن عبد الله بن سلام كان من كبار اليهود، وأنه لما رأى النبي قال إنه يعرفه كما قرأ عنه في التوراة معرفةً أشد من معرفته بابنه، وأنه خشي أن يبهته قومه إن أسلم، فطلب أن يُسألوا عنه أولًا، فأثنوا عليه وعلى أبيه، فلما شهد أن لا إله إلا الله وأن محمدًا رسول الله ذمّوه. ويسوقها شاهدًا على أن أول ما يلقاه الحق التكذيب. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:03:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:03:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:00}
