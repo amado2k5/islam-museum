@@ -24,3 +24,6 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 2)
 يشرح الشيخ كلمة «الثج» بأنها التدفق، ويذكر حديثا يرويه عن النبي في أن أفضل الحج العجّ والثجّ، فالعجّ رفع الصوت بالتكبير كما يقول، والثجّ إراقة الدم (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:57:30}.
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يرى عمر عبد الكافي أن من يحج كل عام حج النافلة كان الأولى به أن ينفق مال حجه في تزويج الشباب العاجزين وإسعاد الأسر، لأن الفرض مقدّم على النافلة، ويذكر قنطرة الحج على الصراط ومن استطاع الحج فلم يحج. وهذا رأيه. {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep10 00:14:30}

@@ -1,0 +1,74 @@
+id: person/mulla-shah-badakhshi
+class: person
+
+label: { ar: "ملا شاه البدخشي", en: "Mulla Shah Badakhshi", ur: "ملا شاہ بدخشی" }
+
+names:
+  - { value: "Mulla Shah Badakhshi", kind: full }
+  - { value: "Shah Muhammad", kind: given }
+  - { value: "Mulla Shah", kind: alternate }
+  - { value: "Mollā Shah", kind: latinized }
+
+gender: male
+
+summary:
+  ar: "صوفي قادري من بدخشان (ت. 1661)، تلميذ ميان مير اللاهوري وخليفته، عاش أغلب حياته بعد تمام تربيته في كشمير منعزلًا في خلوة ضيقة، وانتفع به رغم عزلته اثنان من بيت تيمور: الأمير دارا شكوه وأخته جهان آرا، اللذان تركا وصفًا لعلاقتهما به. عُرف بإعلانه وحدة الوجود بعبارات حلّاجية أثارت خصومة بعض الظاهريين فكاد يُقتل لولا شفاعة تلميذيه الملكيين، وترك شعرًا فارسيًا وشرحًا على سور من القرآن ورسالة في وحدة الوجود كتبها لتلميذيه."
+  en: "A Qadiri Sufi of Badakhshan (d. 1661), disciple and successor of Mian Mir of Lahore, who after his training was complete lived most of his remaining life in Kashmir enclosed in a narrow cell — yet two members of the Mughal house, the prince Dara Shikoh and his sister Jahanara, sought him out as disciples and left accounts of their relations with him. His proclamation of wahdat al-wujud in Hallajian terms drew the hostility of exoteric critics and near-persecution, from which his royal disciples' intercession saved him; he left Persian poetry, a commentary on several suras of the Qur'an, and a treatise on the oneness of being written for his two royal adepts."
+  ur: "بدخشان کے ایک قادری صوفی (وفات 1661ء)، میاں میر لاہوری کے شاگرد و خلیفہ؛ تربیت مکمل ہونے کے بعد باقی زندگی کا بیشتر حصہ کشمیر میں ایک تنگ حجرے میں گوشہ نشینی میں گزارا، لیکن مغل خاندان کے دو افراد — شہزادہ دارا شکوہ اور ان کی بہن جہاں آرا — ان کے مرید ہوئے اور ان سے اپنے تعلق کے احوال لکھ چھوڑے۔ انھوں نے وحدت الوجود کا حلاجی انداز میں اعلان کیا جس سے بعض ظاہر پرستوں کی دشمنی بھڑکی اور شاہی مریدوں کی سفارش ہی نے انھیں بچایا؛ ان سے فارسی شاعری، چند سورتوں کی تفسیر اور اپنے دو شاہی مریدوں کے لیے وحدت الوجود پر ایک رسالہ یادگار ہے۔"
+
+roles: [scholar]
+regions: [persia-central-asia, south-asia]
+wings: [people]
+
+born:
+  edtf: "1582"
+  hijri: "0990"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The Encyclopaedia Iranica entry (Algar) states the pairing directly: 'Born in 990/1582' to a qadi in the village of Araksa in the Rostaq area of Badakhshan; the birthplace has no place entity below the regional one, so only Badakhshan is linked. The Urdu article, citing the same Iranica entry, renders the birth as an approximation (about 990-998 AH), and Wikidata gives 1592 with no visible source; neither variant displaces the Iranica date, and both are preserved here. The queue's 1584 is supported by no source read."
+  sources:
+    - source/iranica-badakhshi-molla-shah
+    - source/wikipedia-mulla-shah-badakhshi-ur
+    - source/wikidata-mulla-shah-badakhshi
+
+died:
+  edtf: "1661"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Encyclopaedia Iranica entry dates his death by its narrative: Jahanara interceded for him when Aurangzeb came to the throne in 1068/1658, and 'three years later, Mollā Shah died in Lahore, where he was buried next to Mīānmīr in a shrine constructed by Jahānārā' — 1661, the year Wikidata states directly. The year 1661 spans 1071-1072 AH, so no single Hijri year is paired."
+  sources:
+    - source/iranica-badakhshi-molla-shah
+    - source/wikidata-mulla-shah-badakhshi
+
+relations:
+  - { type: born_in, target: place/badakhshan, sources: [source/iranica-badakhshi-molla-shah] }
+  - { type: died_in, target: place/lahore, sources: [source/iranica-badakhshi-molla-shah] }
+  - { type: buried_in, target: place/lahore, sources: [source/iranica-badakhshi-molla-shah] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: "His affiliation is a tariqa fact, attested for the man himself by two independent sources: the Encyclopaedia Iranica entry calls him 'a mystic and writer of the Qāderī order' who came to Lahore to join the following of the Qadiri saint Mian Mir, was accepted by him after initial rebuff, and had his training pronounced complete by him; the English article's lede likewise states that he belonged to the Qadiri order and was Mian Mir's spiritual successor, and the Urdu article records his bay'a to Mian Mir at Lahore. Qadiri membership is discipleship in a Sufi order, not a legal school: no source read names a madhhab for him, and none is recorded."
+    sources:
+      - source/iranica-badakhshi-molla-shah
+      - source/wikipedia-mulla-shah-badakhshi-en
+      - source/wikipedia-mulla-shah-badakhshi-ur
+
+external_ids: { wikidata: "Q7461248" }
+
+sources:
+  - source/iranica-badakhshi-molla-shah
+  - source/wikipedia-mulla-shah-badakhshi-en
+  - source/wikipedia-mulla-shah-badakhshi-ur
+  - source/wikidata-mulla-shah-badakhshi
+
+provenance:
+  layer: own-research
+  source: "Encyclopaedia Iranica entry 'Badakhshi, Molla Shah' by Hamid Algar and the English and Urdu Wikipedia articles and Wikidata Q7461248, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query; the Iranica text read in full at its live URL). His master Mian Mir has no record in the museum, so the discipleship is carried in prose and in the faith note rather than as a typed edge, and his discipleship of Dara Shikoh and Jahanara is likewise prose-only, those edges belonging in the disciples' own records. The English article's lower sections conflate him with a Gillani figure of Uch; that material is excluded (see the source file's reliability note)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151g
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -20,3 +20,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن من صبر على سوء خلق زوجته أعطاه الله مثل ما أعطى أيوب على صبره، وأن الزوجة التي تصبر على زوج بخيل عصبي يُبنى لها قصر بجوار قصر [[person/asiya|آسية]] امرأة فرعون في الجنة، ويرى أن من الناس من لا تبلغ به أعماله الجنة فيبتليه الله بزوج متعب أو ولد عاق فتكثر حسناته بالصبر (needs_source: هذا الوعد كما قاله الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:00}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يذكر عمر عبد الكافي أدب أيوب في شكواه، إذ قال إن الضر مسّه وإن ربه أرحم الراحمين، ولم يقل إن ربه أهلكه أو أهانه. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:16:30}

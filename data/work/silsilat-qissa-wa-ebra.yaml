@@ -14,6 +14,29 @@ themes: [education]
 regions: [global]
 authors: [person/omar-abdelkafy]
 language: language/arabic
+relations:
+  - { type: about, target: person/ibrahim, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/nuh, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/umm-musa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/firawn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/musa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/al-khidr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/maryam, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/zakariyya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/yunus, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/hajar, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ismail, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qissat-sahib-al-jannatayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qissat-ashab-al-qarya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/dhu-al-qarnayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/qarun, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/sulayman, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/bilqis, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abdullah-ibn-salam, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ashrat-al-saa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hasad, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/shukr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-rizq-al-rububi, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
 provenance: { layer: copyrighted-reference, source: "Assabile, silsilat-qissa-wa-ebra ep01 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2; claims table approved by the founder 31 Oct 2026)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: khutab-durus-silsilat-qissa-ep01 }
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run khutab-durus-silsilat-qissa-ep01" }

@@ -1,0 +1,37 @@
+id: work/aadau-al-islam
+class: work
+kind: lecture-series
+label:
+  ar: "أعداء الإسلام (سلسلة دروس)"
+  en: "A'da' al-Islam (lecture series)"
+  ur: "اعداء الاسلام (درسی سلسلہ)"
+summary:
+  ar: "سلسلة من أربع حلقات لعمر عبد الكافي في أرشيف أسابيل، عنوانها «أعداء الإسلام»، يتحدث فيها عمّن يعدّهم أعداءً للإسلام من داخل صفوف المسلمين، ويستطرد إلى النفاق والحدود والحجاب والعلم وغيرها. والعنوان والأحكام فيها للمتكلم."
+  en: "A four-episode series by Omar Abdelkafy on the Assabile archive, titled 'Enemies of Islam', in which he speaks of those he regards as enemies of Islam from within the ranks of Muslims, with digressions on hypocrisy, the hadd penalties, the hijab, knowledge and more. The title and the judgements are the speaker's."
+  ur: "اسابیل آرکائیو میں عمر عبد الکافی کا چار اقساط کا سلسلہ، جس کا عنوان «اعداء الاسلام» ہے؛ اس میں وہ ان لوگوں کی بات کرتے ہیں جنہیں وہ مسلمانوں کی صفوں کے اندر سے اسلام کا دشمن سمجھتے ہیں، اور نفاق، حدود، حجاب، علم وغیرہ پر بھی گفتگو کرتے ہیں۔ عنوان اور احکام متکلم کے ہیں۔"
+wings: [ideas]
+themes: [education]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+sensitivity: contested
+relations:
+  - { type: about, target: concept/nifaq, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abdullah-ibn-ubayy, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/luzum-al-jamaa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hudud-penalties, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ijma, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hijab, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qanaa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ghadab, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/birr-al-walidayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/mahr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/rahma, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-masalah, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/qalb-salim, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tawba, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ilm, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, aadau-al-islam (archive series index; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); topic list from the museum records citing the series", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-explorer-backfill-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-explorer-backfill-1" }

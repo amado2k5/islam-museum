@@ -146,3 +146,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی کہتے ہیں کہ وہ عطیات میں لوگوں کے درمیان برابری کرنے میں ابو بکر کے ساتھ نہیں، اور یاد دلاتے ہیں کہ نبی کے بعد کوئی معصوم نہیں اور ہر ایک کی بات لی بھی جا سکتی ہے اور رد بھی کی جا سکتی ہے۔ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:50:00} وہ بیان کرتے ہیں کہ ابو بکر نے ایک خواب کی تعبیر کے لیے نبی سے اجازت مانگی اور انہیں اجازت ملی۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:25:00}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں عمر عبد الکافی ابو بکر کے ادب کا ذکر کرتے ہیں کہ صحابہ نے انہیں امامت کے لیے آگے کیا، پھر نبی کو دیکھ کر وہ اپنی جگہ سے پیچھے ہٹ گئے، اور آیت نازل ہونے کے بعد ابو بکر و عمر نبی کے سامنے آواز پست رکھنے لگے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:16:00}

@@ -1,0 +1,38 @@
+id: person/elnaz-rekabi
+class: person
+label: { ar: "إلناز ركابي", en: "Elnaz Rekabi", ur: "الناز ریکابی" }
+names:
+  - { value: "Elnaz Rekabi", kind: full }
+  - { value: "الناز رکابی", kind: full }
+gender: female
+summary:
+  ar: "متسلقة إيرانية، وُلدت في زنجان سنة 1989. فازت ببرونزية المسابقة المجمّعة في بطولة العالم 2021 وبثلاث ميداليات في البطولات الآسيوية. وفي أكتوبر 2022 نافست في نهائي بطولة آسيا في سيول دون غطاء رأس، أثناء احتجاجات مهسا أميني؛ وقالت في توضيح نشرته إن الغطاء سقط سهواً، بينما نقلت بي بي سي لاحقاً عن مصدر مطّلع أن بيانها صدر تحت الضغط."
+  en: "Iranian competition climber, born in Zanjan in 1989. She won bronze in the combined event at the 2021 World Championships and three medals at the Asian Championships. In October 2022 she competed in the Asian Championships final in Seoul without a headscarf, during the Mahsa Amini protests; her own posted explanation said the scarf had fallen off inadvertently, while the BBC later reported, citing an informed source, that her statement had been made under pressure."
+  ur: "ایرانی مقابلہ جاتی کوہ پیما، 1989 میں زنجان میں پیدا ہوئیں۔ انہوں نے 2021 کی عالمی چیمپئن شپ کے مرکب مقابلے میں کانسی اور ایشیائی چیمپئن شپ میں تین تمغے جیتے۔ اکتوبر 2022 میں انہوں نے سیول میں ایشیائی چیمپئن شپ کے فائنل میں سر ڈھانپے بغیر حصہ لیا، مہسا امینی احتجاج کے دنوں میں؛ ان کی اپنی شائع کردہ وضاحت کے مطابق اسکارف اتفاقاً گر گیا تھا، جبکہ بی بی سی نے بعد میں ایک باخبر ذریعے کے حوالے سے کہا کہ ان کا بیان دباؤ کے تحت دیا گیا تھا۔"
+roles: [competition climber]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1989-08-20"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Birth date is contested. The English infobox and the Persian article (29 Mordad 1368) both give 20 August 1989, born in Zanjan; Wikidata gives 20 July 1989. The 20 August 1989 date is followed and the variant is preserved here. The Hijri year 1410 is the tabular conversion of 20 August 1989 and is marked derived."
+  sources: [source/wikipedia-elnaz-rekabi-en, source/wikipedia-elnaz-rekabi-fa, source/wikidata-elnaz-rekabi]
+relations:
+  - { type: born_in, target: place/zanjan, sources: [source/wikipedia-elnaz-rekabi-en, source/wikipedia-elnaz-rekabi-fa, source/wikidata-elnaz-rekabi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic, Persian or Urdu articles names a religion for her, and Wikidata records no religion (P140) statement. The October 2022 Seoul episode concerns Iran's mandatory dress rule, not a statement of faith: her own posted explanation was that her headscarf fell off inadvertently, and later reporting alleged that the explanation was coerced. A dress-rule incident, and disputed accounts of it, attest neither belief nor unbelief, and are not used as evidence either way. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-elnaz-rekabi-en, source/wikipedia-elnaz-rekabi-ar, source/wikipedia-elnaz-rekabi-fa, source/wikipedia-elnaz-rekabi-ur, source/wikidata-elnaz-rekabi]
+external_ids: { wikidata: "Q61122153" }
+sources: [source/wikipedia-elnaz-rekabi-en, source/wikipedia-elnaz-rekabi-ar, source/wikipedia-elnaz-rekabi-fa, source/wikipedia-elnaz-rekabi-ur, source/wikidata-elnaz-rekabi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371784698), Arabic Wikipedia (revision 76380782), Persian Wikipedia (revision 44629290), Urdu Wikipedia (revision 9787898) and Wikidata Q61122153 (item revision 2507266441, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record); place/zanjan verified in the current-main clone."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

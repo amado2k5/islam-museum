@@ -29,3 +29,6 @@ He says that a righteous son's prayer for his father raises the father's rank in
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh cites the command to speak nobly to parents and the prohibition of rebuking them or saying 'uff' to them, holding that there is no smaller word than 'uff', that parents sowed good in their children, toiled over them and bore hardship, and he prays for them, health for the living and mercy for the dead. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:30}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+In al-Munjiyat Omar Abdelkafy relates the account of one of the three shut in the cave by the rock, who stood holding the bowl of milk until his parents woke at dawn and gave it to them before his wife and children, and mentions Jurayj, whose mother prayed against him and who was then accused of indecency. {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:12:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:13:00} He says that kindness to parents after their death includes kindness to their friends. {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:22:00}
