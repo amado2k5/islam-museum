@@ -1,0 +1,27 @@
+id: event/muqaddasi-hajj-356
+class: event
+kind: pilgrimage
+label:
+  ar: "حجة المقدسي الأولى سنة ٣٥٦هـ"
+  en: "al-Muqaddasi's first pilgrimage, 356/967"
+  ur: "مقدسی کا پہلا حج، 356ھ/967ء"
+summary:
+  ar: "حجّ المقدسي مكة سنة ٣٥٦هـ/٩٦٧م في أول رحلاته الموثقة من كتابه نفسه؛ فوقائع حياته لا تُعرف إلا من أحسن التقاسيم {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  en: "Al-Muqaddasi made the pilgrimage to Mecca in 356/967, the first dated journey recoverable from his own work — his life is known only through Ahsan al-Taqasim {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  ur: "مقدسی نے 356ھ/967ء میں مکہ کا حج کیا، اپنی کتاب سے معلوم ہونے والا ان کا پہلا مؤرخ سفر — ان کی زندگی صرف احسن التقاسیم سے معلوم ہوتی ہے {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [arabia]
+date:
+  start: { edtf: "0967", hijri: "0356", calendar: julian, precision: year, status: tradition, derived: true, note: "حجّة سنة 356/967 على ما تستنبطه دائرة المعارف الإسلامية من كتابه نفسه؛ التحويل الميلادي مشتق {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-muqaddasi, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muqaddasi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

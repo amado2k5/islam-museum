@@ -1,0 +1,27 @@
+id: event/muqaddasi-khurasan-374
+class: event
+kind: other
+label:
+  ar: "زيارة المقدسي خراسان سنة ٣٧٤هـ"
+  en: "al-Muqaddasi's visit to Khurasan, 374/984"
+  ur: "مقدسی کا دورۂ خراسان، 374ھ/984ء"
+summary:
+  ar: "زار المقدسي خراسان سنة ٣٧٤هـ/٩٨٤م في أقصى رحلاته شرقاً؛ وكانت أمه من بيار، بلدة صغيرة بخراسان، هاجر جدها أبو طيب الشوّاء إلى القدس {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  en: "Al-Muqaddasi visited Khurasan in 374/984, the furthest east of his recorded journeys; his mother's family came from Biyar, a small Khurasanian town, his grandfather Abu Tayyib al-Shawwa having emigrated to Jerusalem {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  ur: "مقدسی 374ھ/984ء میں خراسان گئے، ان کا سب سے مشرقی موثق سفر؛ ان کی والدہ کا تعلق خراسان کی چھوٹی بستی بیار سے تھا، جہاں سے ان کے نانا ابو طیب شواء قدس ہجرت کر کے آئے تھے {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0984", hijri: "0374", calendar: julian, precision: year, status: tradition, derived: true, note: "زيارة خراسان سنة 374/984 {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}؛ التحويل الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/khurasan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-muqaddasi, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muqaddasi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
