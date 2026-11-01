@@ -1,19 +1,34 @@
 id: person/al-muqaddasi
 class: person
 label: { ar: "المقدسي البشاري", en: "al-Muqaddasi al-Bashshari" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين أبو عبد الله محمد بن أحمد بن أبي بكر البنّاء الشامي المقدسي البشاري" }
+roles: [geographer, scholar]
 summary:
-  ar: "الشيخ شمس الدين أبو عبد الله محمد بن أحمد المقدسي الحنفي (ت نحو 380هـ)؛ صاحب أحسن التقاسيم في معرفة الأقاليم. جال الأقاليم وفطّن مساحاتها بالفراسخ وأنفق في أسفاره فوق عشرة آلاف درهم، وجاور وغزا ورابط في الثغور، ووصف نفسه بأنه لم يصنّف كتابه جزافاً ولا على السماع بل خرج من الطريق فارق القوافل ليرى كل بلدة {cite:kashf-zunun-furqan p. 206} {cite:ahsan-al-taqasim pp. 40-41}."
-  en: "Shams al-Din Muhammad ibn Ahmad al-Muqaddasi (al-Bishshari, d. c. 380 AH) — the geographer who compiled Ahsan al-Taqasim after travelling through the climes and pacing them in farsakhs. He spent over ten thousand dirhams on his journeys, fought and kept ribat on the frontier, and left the caravan routes to inspect every town, boasting that he did not compile his book at ease or on hearsay {cite:kashf-zunun-furqan p. 206} {cite:ahsan-al-taqasim pp. 40-41}."
+  ar: "الشيخ شمس الدين أبو عبد الله محمد بن أحمد المقدسي الحنفي (ت نحو 380هـ)؛ صاحب أحسن التقاسيم في معرفة الأقاليم. جال الأقاليم وفطّن مساحاتها بالفراسخ وأنفق في أسفاره فوق عشرة آلاف درهم، وجاور وغزا ورابط في الثغور، ووصف نفسه بأنه لم يصنّف كتابه جزافاً ولا على السماع بل خرج من الطريق فارق القوافل ليرى كل بلدة {cite:kashf-zunun-furqan p. 206} {cite:ahsan-al-taqasim pp. 40-41}. وحياته لا تُعرف إلا من كتابه نفسه: حجّتان 356 و367هـ، ورحلة إلى حلب، وزيارة خراسان 374هـ، ثم قرار التصنيف بشيراز 375هـ وقد جاز الأربعين {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  en: "Shams al-Din Muhammad ibn Ahmad al-Muqaddasi (al-Bishshari, d. c. 380 AH) — the geographer who compiled Ahsan al-Taqasim after travelling through the climes and pacing them in farsakhs. He spent over ten thousand dirhams on his journeys, fought and kept ribat on the frontier, and left the caravan routes to inspect every town, boasting that he did not compile his book at ease or on hearsay {cite:kashf-zunun-furqan p. 206} {cite:ahsan-al-taqasim pp. 40-41}. His life is known only through his own work: two pilgrimages in 356 and 367, a journey to Aleppo, a visit to Khurasan in 374, then the decision to compose the book at Shiraz in 375, past the age of forty {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  ur: "شمس الدین ابو عبد اللہ محمد بن احمد مقدسی بشاری (وفات تقریباً 380ھ) — احسن التقاسیم فی معرفۃ الاقالیم کے مصنف، جنھوں نے اقالیم کا سفر کیا اور ان کے فرسخ ناپے، سفر میں دس ہزار سے زائد درہم خرچ کیے اور قوافل کے راستے چھوڑ کر ہر بستی خود دیکھی {cite:kashf-zunun-furqan p. 206} {cite:ahsan-al-taqasim pp. 40-41}۔ ان کی زندگی صرف ان کی کتاب سے معلوم ہوتی ہے: 356 اور 367ھ میں دو حج، حلب کا سفر، 374ھ میں خراسان کی زیارت، پھر 375ھ میں شیراز میں تصنیف کا فیصلہ جب وہ چالیس سے زیادہ عمر کے تھے {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}۔"
 gender: male
 wings: [people]
+born: { edtf: "0946~", hijri: "0335~", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "ولد بالقدس (فلسطين مولده واسم نسبته)؛ وكان قد جاوز الأربعين سنة 375/985 فيقع مولده قبل نحو 335/946، والتقدير والتحويل مشتقان {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}." }
+died: { edtf: "0990~", hijri: "0380~", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan], note: "عاش إلى نحو 380/990 على الأقل {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}؛ وكشف الظنون: ت نحو 380هـ {cite:kashf-zunun-furqan p. 206}؛ التحويل مشتق." }
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: authored, target: work/ahsan-al-taqasim, sources: [source/kashf-zunun-furqan] }
+  - { type: born_in, target: place/jerusalem, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/muqaddasi-hajj-356, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/muqaddasi-aleppo-journey, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/muqaddasi-hajj-367, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/muqaddasi-khurasan-374, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/muqaddasi-shiraz-375, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 206 مدخل 117؛ المقدسي، أحسن التقاسيم ص 40-41"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-11; lib-geo-ahsan-1
-sources: [source/kashf-zunun-furqan, source/ahsan-al-taqasim]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 206 مدخل 117؛ المقدسي، أحسن التقاسيم ص 40-41؛ Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: lib-kashf-batch-11; lib-geo-ahsan-1; explorer-muqaddasi-1
+sources: [source/kashf-zunun-furqan, source/ahsan-al-taqasim, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
