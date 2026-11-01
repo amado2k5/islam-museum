@@ -1,0 +1,73 @@
+id: person/asad-khan
+class: person
+
+label: { ar: "أسد خان", en: "Asad Khan", ur: "اسد خان" }
+
+names:
+  - { value: "Muhammad Ibrahim", kind: given }
+  - { value: "Asad Khan", kind: laqab }
+  - { value: "Asaf-ud-Daula", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "أسد خان (1626/1631 – 15 يونيو 1716)، المولود محمد إبراهيم، نبيل مغولي من أسرة صفوية الأصل، ووزير الإمبراطورية في عهد أورنكزيب من 1676 إلى 1707 — من أطول وزراء العهد بقاءً — ثم وكيلها المطلق في عهد بهادر شاه وجهان دار شاه. قاد مع ابنه ذو الفقار خان أحد فصيلي البلاط المتنافسين في أواخر عهد أورنكزيب، ومات في عزلة بعد مقتل ابنه سنة 1713."
+  en: "Asad Khan (1626/1631 – 15 June 1716), born Muhammad Ibrahim, was a Mughal noble of a Safavid Persian family and wazir of the empire under Aurangzeb from 1676 to 1707 — among the longest-serving wazirs of the reign — then Vakil-i-Mutlaq under Bahadur Shah I and Jahandar Shah. With his son Zulfiqar Khan he led one of the two rival court factions of Aurangzeb's last decades, and he died in obscurity after his son's killing in 1713."
+  ur: "اسد خان (1626ء/1631ء – 15 جون 1716ء)، اصل نام محمد ابراہیم، صفوی فارسی خاندان کے مغل امیر تھے اور 1676ء سے 1707ء تک اورنگزیب کے وزیر رہے — اس عہد کے طویل ترین مدت والے وزرا میں سے ایک — پھر بہادر شاہ اول اور جہاندر شاہ کے دور میں وکیلِ مطلق بنے۔ اپنے بیٹے ذوالفقار خان کے ساتھ انھوں نے اورنگزیب کے آخری عشروں کے دو حریف درباری گروہوں میں سے ایک کی قیادت کی، اور 1713ء میں بیٹے کے قتل کے بعد گمنامی میں وفات پائی۔"
+
+roles: [vizier, statesman, general]
+regions: [south-asia, persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1626/1631"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The sources divide on his birth year and both readings are built as the alternative range the articles themselves print: the English article gives circa 1626 following Satish Chandra's Parties and Politics at the Mughal Court and circa 1631 following William Irvine's Later Mughals, and the Arabic article prints 1626/1631. The harvest queue's 1625 is not supported by any text read and is corrected here. Wikidata carries no birth statement. No birthplace is named in the texts read, so no born_in edge is written."
+  sources: [source/wikipedia-asad-khan-en, source/wikipedia-asad-khan-ar]
+
+died:
+  edtf: "1716-06-15"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "The English and Arabic articles agree on 15 June 1716, after the killing of his son Zulfiqar Khan in 1713 and his own last years in obscurity; Wikidata carries the same day. No death place is named in the texts read, so no died_in edge is written."
+  sources: [source/wikipedia-asad-khan-en, source/wikipedia-asad-khan-ar, source/wikidata-asad-khan]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school for Asad Khan himself. The Arabic
+      article's infobox files him as a Shia Muslim, but an infobox
+      filing is not a text and settles nothing, and no second text —
+      indeed no prose text at all — was found naming his school: the
+      one 'crypto-shia' hit a search returned was an alternate-history
+      forum post about Azam Shah's reign, not a source for this man.
+      What the texts do give is a prestigious Safavid Persian family —
+      his grandfather Zulfiqar Khan, beglar begi of Shirvan under Shah
+      Abbas I, and his father Zulfiqar Khan Qaramanlu, who migrated to
+      India late in Jahangir's reign — and the leadership, with his
+      son, of a court faction; family origin, dynastic context and
+      faction settle nothing under the founder rulings, and his
+      thirty-one years as wazir to Aurangzeb are office, which settles
+      nothing. Wikidata carries no religion statement for him. His
+      faith is therefore recorded as unknown.
+    sources: [source/wikipedia-asad-khan-en, source/wikipedia-asad-khan-ar, source/wikidata-asad-khan]
+
+external_ids: { wikidata: "Q115518130" }
+
+sources:
+  - source/wikipedia-asad-khan-en
+  - source/wikipedia-asad-khan-ar
+  - source/wikidata-asad-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1374294056 of 11 September 2026), Arabic Wikipedia (revision 74493128 of 4 May 2026) and Wikidata Q115518130 (item revision 2474869785 of 23 March 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic article agreeing, and the item revision re-asserted identical against a second live query. He has no Urdu Wikipedia article. Existence checked against origin/main before building — no prior record holds this wazir, by slug, by name fragment or by QID; the name is common and the record is grounded throughout on the Aurangzeb-era wazir born Muhammad Ibrahim. No relations are written: his father Zulfiqar Khan Qaramanlu has no record on main, and his son's record (person/zulfiqar-khan-nusrat-jung) is a draft stub whose pair edge, child_of, belongs in the son's record under the write-once doctrine, not here. Queue correction: the queue's birth year 1625 is unsupported; the articles divide between circa 1626 and circa 1631."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-170m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
