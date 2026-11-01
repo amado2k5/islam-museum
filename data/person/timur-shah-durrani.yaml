@@ -1,0 +1,77 @@
+id: person/timur-shah-durrani
+class: person
+
+label: { ar: "تيمور شاه الدراني", en: "Timur Shah Durrani", ur: "تیمور شاہ درانی" }
+
+names:
+  - { value: "Timur Shah Abdali Dur-e-Durran", kind: full }
+  - { value: "تيمور شاه الدراني", kind: full }
+  - { value: "Timur Khan Abdali", kind: alternate }
+  - { value: "Durr-i Durran", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "تيمور شاه الدراني (ديسمبر 1746، وتذكر رواية أخرى 1748 – 18 مايو 1793) ثاني حكام الدولة الدرانية في أفغانستان من نوفمبر 1772 حتى وفاته، والابن الثاني لمؤسس الدولة أحمد شاه الدراني. كان في صباه نائبًا لأبيه على البنجاب وكشمير وسيرهند في 1757–1758، وبعد اعتلائه العرش نقل العاصمة من قندهار إلى كابل وجعل بيشاور عاصمة شتوية، وقمع تمرد فيض الله خان خليل في بيشاور وثورة آزاد خان في كشمير (1786)، واسترد ملتان من السيخ سنة 1780، وزحف شمالًا ضد شاه مراد صاحب بخارى في 1788–1789. مات في كابل ودُفن فيها، وضريحه من معالم المدينة."
+  en: "Timur Shah Durrani (December 1746, with 1748 also given – 18 May 1793) was the second ruler of the Durrani Empire in Afghanistan, reigning from November 1772 until his death, and the second son of the empire's founder, Ahmad Shah Durrani. As a boy he was his father's viceroy of the Punjab, Kashmir and Sirhind in 1757–1758; after his accession he moved the capital from Kandahar to Kabul, made Peshawar his winter capital, crushed the revolt of Fayz Allah Khan Khalil at Peshawar and Azad Khan's rebellion in Kashmir (1786), recovered Multan from the Sikhs in 1780, and marched north against Shah Murad of Bukhara in 1788–1789. He died at Kabul and was buried there, his mausoleum becoming a landmark of the city."
+  ur: "تیمور شاہ درانی (دسمبر 1746ء، بعض روایات میں 1748ء – 18 مئی 1793ء) افغانستان کی درانی سلطنت کے دوسرے حکمران تھے؛ نومبر 1772ء سے وفات تک حکمران رہے اور سلطنت کے بانی احمد شاہ درانی کے دوسرے فرزند تھے۔ بچپن میں 1757ء–1758ء میں والد کی طرف سے پنجاب، کشمیر اور سرہند کے نائب رہے؛ تخت نشینی کے بعد دارالحکومت قندہار سے کابل منتقل کیا اور پشاور کو سرمائی دارالحکومت بنایا، پشاور میں فیض اللہ خان خلیل کی بغاوت اور کشمیر میں آزاد خان کی شورش (1786ء) کو کچلا، 1780ء میں ملتان سکھوں سے واپس لیا، اور 1788ء–1789ء میں بخارا کے شاہ مراد کے خلاف شمال کی طرف لشکر کشی کی۔ کابل میں وفات پائی اور وہیں دفن ہوئے؛ ان کا مزار شہر کے نمایاں آثار میں شمار ہوتا ہے۔"
+
+roles: [ruler]
+regions: [persia-central-asia, south-asia]
+wings: [people]
+
+born:
+  edtf: "1746-12"
+  calendar: gregorian
+  precision: month
+  status: debated
+  note: "The English article gives December 1746 at Mashhad, citing Drahm (2020) and Hari Ram Gupta (1944), and Wikidata gives the year 1746; the Arabic article and the harvest queue give 1748, also at Mashhad, and the Urdu article's categories file both years. The December 1746 dating is built and the 1748 tradition preserved here. No Hijri year is set, since the rival Gregorian years pair with different Hijri years."
+  sources: [source/wikipedia-timur-shah-durrani-en, source/wikipedia-timur-shah-durrani-ar, source/wikidata-timur-shah-durrani]
+
+died:
+  edtf: "1793-05-18"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The English article's body, its infobox and succession box, the Urdu article and Wikidata all give 18 May 1793, and the body has him reach Kabul in early May 1793 and die a few days after his return, with burial at Kabul on 21 May; the English article's lead alone gives 20 May 1793, which is preserved here as the rival reading. The infobox names Char Bagh as the death place against the body's Kabul return; the Arabic article and Wikidata both give Kabul, and the edge follows Kabul. No Hijri year is set, since no source read pairs one with the date."
+  sources: [source/wikipedia-timur-shah-durrani-en, source/wikipedia-timur-shah-durrani-ar, source/wikipedia-timur-shah-durrani-ur, source/wikidata-timur-shah-durrani]
+
+relations:
+  - { type: child_of, target: person/ahmad-shah-durrani, sources: [source/wikipedia-timur-shah-durrani-en, source/wikipedia-timur-shah-durrani-ar, source/wikidata-timur-shah-durrani] }
+  - { type: successor_of, target: person/ahmad-shah-durrani, sources: [source/wikipedia-timur-shah-durrani-en, source/wikipedia-timur-shah-durrani-ar, source/wikipedia-timur-shah-durrani-ur] }
+  - { type: born_in, target: place/mashhad, sources: [source/wikipedia-timur-shah-durrani-en, source/wikipedia-timur-shah-durrani-ar, source/wikidata-timur-shah-durrani] }
+  - { type: died_in, target: place/kabul, sources: [source/wikipedia-timur-shah-durrani-ar, source/wikidata-timur-shah-durrani] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. The
+      English article's infobox files his religion as Sunni Islam and
+      the Arabic article's infobox files Islam generically; infobox
+      filings never settle faith under the founder rulings, and
+      Wikidata carries no religion value for him at all. The context
+      he ruled in is stated in full — he inherited and ruled the
+      Sunni Afghan Durrani state his father founded, his Punjab
+      campaigns were fought in the name of its Muslim communities
+      against the Sikh misls, and Fayz Muhammad's history, as the
+      English article reports it, has him send a rebel a letter of
+      pardon written and sealed on a leaf of the Quran — documented
+      practice and dynastic tradition, neither of which names the
+      man's own school, so his faith is recorded as unknown.
+    sources: [source/wikipedia-timur-shah-durrani-en, source/wikipedia-timur-shah-durrani-ar, source/wikidata-timur-shah-durrani]
+
+external_ids: { wikidata: "Q167283" }
+
+sources:
+  - source/wikipedia-timur-shah-durrani-en
+  - source/wikipedia-timur-shah-durrani-ar
+  - source/wikipedia-timur-shah-durrani-ur
+  - source/wikidata-timur-shah-durrani
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378592003 of 5 October 2026), Arabic Wikipedia (revision 73373972 of 10 February 2026), Urdu Wikipedia (revision 9675498 of 2 April 2026) and Wikidata Q167283 (item revision 2517992996 of 16 July 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds Timur Shah Durrani, and person/ahmad-shah-durrani exists on main as his father and predecessor, so the child_of and successor_of edges are written in this record. The sources disagree on his birth year (1746 against 1748) and the English article's lead gives 20 May 1793 for his death against 18 May in its body, the Urdu article and Wikidata; both rival readings are preserved in the date notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-168j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,27 @@
+id: event/muqaddasi-hajj-367
+class: event
+kind: pilgrimage
+label:
+  ar: "حجة المقدسي الثانية سنة ٣٦٧هـ"
+  en: "al-Muqaddasi's second pilgrimage, 367/978"
+  ur: "مقدسی کا دوسرا حج، 367ھ/978ء"
+summary:
+  ar: "حجّ المقدسي مكة للمرة الثانية سنة ٣٦٧هـ/٩٧٨م، بعد أحد عشر عاماً على حجّته الأولى الموثقة {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  en: "Al-Muqaddasi made the pilgrimage to Mecca a second time in 367/978, eleven years after his first recorded hajj {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  ur: "مقدسی نے 367ھ/978ء میں دوسری بار مکہ کا حج کیا، اپنے پہلے موثق حج کے گیارہ برس بعد {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [arabia]
+date:
+  start: { edtf: "0978", hijri: "0367", calendar: julian, precision: year, status: tradition, derived: true, note: "حجّة ثانية سنة 367/978 {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}؛ التحويل الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-muqaddasi, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muqaddasi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

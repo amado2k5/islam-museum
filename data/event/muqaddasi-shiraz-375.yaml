@@ -1,0 +1,28 @@
+id: event/muqaddasi-shiraz-375
+class: event
+kind: publication
+label:
+  ar: "المقدسي يعزم على تصنيف أحسن التقاسيم بشيراز سنة ٣٧٥هـ"
+  en: "al-Muqaddasi resolves to compose Ahsan al-Taqasim at Shiraz, 375/985"
+  ur: "شیراز میں مقدسی کا احسن التقاسیم لکھنے کا ارادہ، 375ھ/985ء"
+summary:
+  ar: "اتخذ المقدسي بشيراز سنة ٣٧٥هـ/٩٨٥م قرار تصنيف أحسن التقاسيم، وقد جاز الأربعين — بكم؟ — من عمره على قوله {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  en: "At Shiraz in 375/985 al-Muqaddasi took the decision to compose Ahsan al-Taqasim, at a time when, by his own account, he had passed — by how much? — the age of forty {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  ur: "شیراز میں 375ھ/985ء میں مقدسی نے احسن التقاسیم لکھنے کا فیصلہ کیا، اس وقت جب ان کی اپنی روایت کے مطابق وہ چالیس برس سے کتنے ہی زیادہ عمر کے ہو چکے تھے {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0985", hijri: "0375", calendar: julian, precision: year, status: tradition, derived: true, note: "قرار التصنيف اتخذ بشيراز سنة 375/985 {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}؛ التحويل الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-muqaddasi, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: work/ahsan-al-taqasim, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muqaddasi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
