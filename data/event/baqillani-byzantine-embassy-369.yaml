@@ -1,0 +1,28 @@
+id: event/baqillani-byzantine-embassy-369
+class: event
+kind: other
+label:
+  ar: "الباقلاني يحمل جواب عضد الدولة إلى بلاط الروم، ٣٦٩هـ/٩٨٠م"
+  en: "Al-Baqillani carries Adud al-Dawla's reply to the Byzantine court, 369/980"
+  ur: "باقلانی عضد الدولہ کا جواب لے کر دربار روم پہنچتے ہیں، 369ھ/980ء"
+summary:
+  ar: "في سنة ٣٦٩هـ/٩٨٠م وصل إلى بغداد سفير من القسطنطينية يطلب تسليم القائد المتمرد بردس سكيروس الذي كان قد لاذ بديار بكر، فأرسل عضد الدولة جوابه الرافض للطلبات البيزنطية بيد القاضي أبي بكر الباقلاني إلى بلاط الروم {cite:encyclopaedia-of-islam-2 vol. 1 p. 233}؛ وتذكر ترجمة الباقلاني نفسها زيارته لبلاط الروم {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  en: "In 369/980 an embassy from Constantinople reached Baghdad seeking the surrender of the rebel commander Bardas Skleros, who had taken refuge in Diyar Bakr. Adud al-Dawla sent his reply — a refusal — to the Byzantine court 'by the hand of the qadi Abu Bakr al-Bakillani' {cite:encyclopaedia-of-islam-2 vol. 1 p. 233}; al-Baqillani's own biographical entry likewise records a visit to the Byzantine court {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  ur: "369ھ/980ء میں قسطنطینیہ کا ایک سفیر بغداد پہنچا جو بغاوت کے بعد دیار بکر میں پناہ لینے والے بردس سکلیرس کی حوالگی چاہتا تھا۔ عضد الدولہ نے اپنا جواب — انکار — «قاضی ابوبکر باقلانی کے ہاتھ» دربار روم بھیجا {cite:encyclopaedia-of-islam-2 vol. 1 p. 233}؛ خود باقلانی کی ترجمہ بھی دربار روم کے سفر کا ذکر کرتی ہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, anatolia-balkans]
+date:
+  start: { edtf: "0980", hijri: "0369", calendar: julian, precision: year, status: historical, derived: true, note: "سنة ٣٦٩هـ/٩٨٠م مصرَّحة في مادة عضد الدولة؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 1 p. 233}." }
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-baqillani, role: "السفير حامل الجواب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/adud-al-dawla, role: "المُرسِل", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), printed p. 233, art. Adud al-Dawla; printed pp. 1018-1019, art. al-Bakillani (R. J. McCarthy)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baqillani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
