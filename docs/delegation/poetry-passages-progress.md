@@ -31,3 +31,8 @@ Plan: `docs/delegation/poetry-passages-plan.md`. Source for the Sira poems: Ibn 
 ## Remaining
 
 Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, Hassan's elegies, Abbas ibn Mirdas on Hunayn and others, minor Sira verse sets).
+
+## Batch log
+
+- PR 1 (#2987): Tamim delegation poems (25).
+- PR 2: Zibriqan second boast, Amr ibn Ma'dikarib, Hassan 'qawmi ulaika', Malik ibn Awf, Abbas ibn Mirdas (atab), Hassan's Mu'tah elegy (25).
