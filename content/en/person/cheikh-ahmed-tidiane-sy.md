@@ -1,0 +1,25 @@
+---
+id: person/cheikh-ahmed-tidiane-sy
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Cheikh Ahmed Tidiane Sy, called Al Maktoum (29 December 1925 – 15 March 2017), was a Senegalese Tijani scholar, teacher, politician and industrialist. A son of Serigne Babacar Sy and grandson of El Hadj Malick Sy, he spent his life teaching an Islam addressed to educated youth, founded one of Senegal's first political parties, served as ambassador to the United Arab Republic, and in his last years was recognised by the Sy family as its khalifa. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr} {cite:wikidata-cheikh-ahmed-tidiane-sy}
+
+## Early life
+He was born at Saint-Louis, like his father before him, on 29 December 1925, to Serigne Babacar Sy and Sokhna Astou Kane. His mother descended from the Almamy Maba Diakhou Ba. He grew up among his father's companions and instructors, finished the lower and middle cycles of Islamic studies at fourteen, and at sixteen published his first work, Les Vices des marabouts. A French colonial report of 28 June 1950 already described the young Cheikh Tidiane, not his father's eldest son but 'the most favoured and the most gifted', as representing a young, student Islam drawn to Arab culture and marked by some Western influence. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## The teaching movement
+In 1950 he created the Causerie musulmane instructive, described in the colonial report as a movement of Islamic outreach aimed especially at Senegal's Muslim youth, and launched the journal L'Islam éternel; in 1955 he founded the Association éducative islamique for the religious education of the young. Where his grandfather had planted zawiyas and schools and his father had organised the faithful into dahiras, he organised the dahiras into federations in the 1940s, and his conferences — beginning at the Rex cinema in Thiès on 8 July 1956 with 'Religion and humanity' — became his signature. After the 1968 strike left the Mawlid pilgrims at Tivaouane without security, he set up the organising committee COSKAS and entrusted it to his younger brother Serigne Abdoul Aziz Sy. He was the spiritual guide of the Dahiratoul Moustarchidina wal Moustarchidaty, a movement born within the Tijaniyya whose official character he confirmed on 20 February 1978; his son Serigne Moustapha Sy later became its moral head. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr} {cite:wikipedia-serigne-moustapha-sy-fr}
+
+His teaching insisted that Islam is more than its outward observances: 'What is unfortunate for the Senegalese Muslim is that he always tends to confuse Islam with the five pillars, which are fortunately only its emblem.' Born into the Tijaniyya, he was initiated within it, and he professed the bond in his own verse: 'My Lord has blessed me in that I am named At-Tijany.' His adherence, the French article notes, did not rest on his descent alone but on values he found embodied in his namesake, the order's founder Ahmad al-Tijani, to whom he addressed the poem Fa Ilayka in 1963. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## Politics, business and diplomacy
+In February 1959 he founded the Parti de la Solidarité Sénégalaise and contested the legislative elections of 22 March 1959 against Léopold Sédar Senghor's bloc; weeks later he was imprisoned after the Tivaouane riots of June 1959. After Senegalese independence Senghor appointed him ambassador extraordinary and plenipotentiary to the United Arab Republic by decree of 11 November 1960. As an entrepreneur he invested in transport and agriculture, bought the SEIB oil mills that became SONACOS, and took over the lime and cement company that became SOCOCIM Industries. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## Writings
+His writings include Fa Ilayka (October 1963), the elegy Abûnâ Abû Bakrin for his father, Nahnou Awladou Tijani ('We are the children of Tijani') in homage to his namesake, a life of his grandfather, L'Inconnu de la nation sénégalaise, an essay on the rule of law, and an elegy for Aldo Moro (1978). His lecture themes ranged across Senegal's public questions: 'Islam and socialism' (1963), 'Islam and protest' at the University of Dakar (1969), and 'Islam and négritude' (1972). {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## The khalifa question and death
+All his life he recognised one spiritual authority, his father Serigne Babacar Sy; after the father's death in 1957, family disagreements led him to establish a parallel zawiya at Tivaouane for those who remained faithful to Babacar's line. He himself rejected the title 'khalife général' as a colonial label that sowed confusion. The French article dates his becoming 'grand khalife' to the death of his brother Serigne Mansour Sy in 2012, and records that in his last years he was unanimously recognised as khalifa of El Hadji Malick Sy's family. He died at his Dakar residence on Wednesday 15 March 2017; his brother Serigne Abdoul Aziz Sy Al-Amin succeeded him and led the funeral prayer, and he was buried, as he had asked, in the Ndiandakhoum quarter of Tivaouane. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr} {cite:wikidata-cheikh-ahmed-tidiane-sy}

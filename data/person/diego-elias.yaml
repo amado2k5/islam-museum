@@ -1,0 +1,36 @@
+id: person/diego-elias
+class: person
+label: { ar: "دييغو إلياس", en: "Diego Elías", ur: "ڈیاگو الیاس" }
+names:
+  - { value: "Diego Elías Chehab", kind: full }
+  - { value: "دييغو إلياس", kind: full }
+gender: male
+summary:
+  ar: "لاعب اسكواش بيروفي، وُلد في ليما سنة 1996. بطل العالم سنة 2024 وأول لاعب من أمريكا الجنوبية يصل إلى صدارة التصنيف العالمي في تاريخ الاسكواش (أبريل 2023)، وفاز ببطولة بريطانيا المفتوحة سنة 2025."
+  en: "Peruvian squash player, born in Lima in 1996. World champion in 2024 and the first South American player in squash history to reach the world No. 1 ranking (April 2023), he won the British Open in 2025."
+  ur: "پیرو کے اسکواش کھلاڑی، 1996 میں لیما میں پیدا ہوئے۔ 2024 میں عالمی چیمپئن اور اسکواش کی تاریخ میں عالمی نمبر 1 درجہ بندی تک پہنچنے والے پہلے جنوبی امریکی کھلاڑی (اپریل 2023)؛ 2025 میں برٹش اوپن جیتا۔"
+roles: [squash player]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1996-11-19"
+  hijri: "1417"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 19 November 1996 in Lima (the English, Arabic and Urdu articles and Wikidata agree; the English and Urdu articles give his full name as Diego Elías Chehab). The Hijri year 1417 is the tabular conversion of 19 November 1996 and is marked derived. Lima has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
+  sources: [source/wikipedia-diego-elias-en, source/wikipedia-diego-elias-ar, source/wikipedia-diego-elias-ur, source/wikidata-diego-elias]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for him, and Wikidata records no religion (P140) statement. His Peruvian nationality is not evidence of any faith, and none is assumed. Recorded as unknown on absence of attestation; no school or church is asserted."
+    sources: [source/wikipedia-diego-elias-en, source/wikipedia-diego-elias-ar, source/wikipedia-diego-elias-ur, source/wikidata-diego-elias]
+external_ids: { wikidata: "Q16239520" }
+sources: [source/wikipedia-diego-elias-en, source/wikipedia-diego-elias-ar, source/wikipedia-diego-elias-ur, source/wikidata-diego-elias]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382298085), Arabic Wikipedia (revision 75162232), Urdu Wikipedia (revision 12119900) and Wikidata Q16239520 (item revision 2542139730, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed from the Arabic and Urdu articles; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub; the Arabic article is titled with a naming variant (Diego José) but is the Q16239520 item's Arabic sitelink and gives the same birth date and place, and the English hatnote and the Urdu article confirm the full name Diego Elías Chehab, so the record is pinned to the Peruvian world champion and not to any namesake; the Spanish article was read for cross-checking and is not registered, as it adds no fact used here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-155a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

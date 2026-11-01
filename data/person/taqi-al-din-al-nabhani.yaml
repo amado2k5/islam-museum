@@ -1,0 +1,47 @@
+id: person/taqi-al-din-al-nabhani
+class: person
+label: { ar: "تقي الدين النبهاني", en: "Taqi al-Din al-Nabhani", ur: "تقی الدین النبہانی" }
+names:
+  - { value: "محمد تقي الدين بن إبراهيم بن مصطفى بن إسماعيل بن يوسف النبهاني", kind: full }
+  - { value: "Muhammad Taqi al-Din bin Ibrahim bin Mustafa bin Isma'il bin Yusuf al-Nabhani", kind: full }
+  - { value: "Taqiuddin al-Nabhani", kind: alternate }
+gender: male
+born:
+  edtf: "1909"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Built under the founder's ruling in his own years, 1909–1977. The year 1909 is given by the English biography text and by Wikidata; the Arabic article gives 1914, paired with 1332 AH, as the preponderant view, and the English lead also prints 1914 — the year therefore stays debated and both readings are preserved. No Hijri year is recorded, since 1909 spans 1326–1327 AH and the Arabic article's 1332 pairing belongs to its own 1914 reading. He was born at Ijzim near Haifa into the Bani Nabhan tribe; Ijzim has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar, source/wikidata-taqi-al-din-al-nabhani]
+died:
+  edtf: "1977-12-11"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The day 11 December 1977 is given by the English lead and by Wikidata, and the Arabic article dates his death to 1 Muharram 1398, which falls on the same day; the English biography text instead prints 20 December 1977, preserved here as the variant. He died at Beirut, where he had settled after being barred from returning to Jordan; Beirut has no place entity, so no died_in edge is written."
+  sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar, source/wikidata-taqi-al-din-al-nabhani]
+roles: [scholar, qadi, writer]
+regions: [levant-iraq]
+wings: [people]
+relations:
+  - { type: related_to, target: person/yusuf-al-nabhani, sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school for al-Nabhani himself. His al-Azhar Sharia training, his judgeships and his founding of Hizb ut-Tahrir are documented in full, but training, office and movement founding never attest a school; his father's Sharia lectureship and his maternal grandfather Yusuf al-Nabhani's Shafi'i school are family background, which never counts; and Wikidata gives only the generic Islam value, so the value stays unknown."
+    sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar, source/wikidata-taqi-al-din-al-nabhani]
+summary:
+  ar: "عالم وقاضٍ شرعي فلسطيني من إجزم، مؤسس حزب التحرير سنة 1953. درس في الأزهر ودار العلوم بالقاهرة، وتدرّج في القضاء الشرعي حتى محكمة الاستئناف في القدس قبل استقالته سنة 1950، ثم أقام في بيروت؛ جعلت كتبه — وفي مقدمتها «نظام الإسلام» — من أبرز منظّري الحركة الإسلامية في القرن العشرين، وتوفي سنة 1977."
+  en: "Palestinian Islamic scholar and Sharia judge from Ijzim, founder of Hizb ut-Tahrir in 1953. Trained at al-Azhar and Dar al-Ulum in Cairo, he rose through the Sharia courts to the Jerusalem court of appeal before resigning in 1950, then settled in Beirut. His books — above all The System of Islam (Nidham al-Islam) — made him one of the most influential Islamist thinkers of the twentieth century. He died in 1977."
+  ur: "اجزم سے تعلق رکھنے والے فلسطینی عالم اور شرعی قاضی، 1953 میں حزب التحریر کے بانی۔ قاہرہ میں جامعہ ازہر اور دار العلوم سے تعلیم پائی؛ شرعی عدالتوں میں ترقی کرتے ہوئے یروشلم کی اپیل کورٹ تک پہنچے، 1950 میں استعفیٰ دیا اور بیروت میں مقیم ہو گئے۔ ان کی کتابوں — سب سے بڑھ کر «نظام الاسلام» — نے انہیں بیسویں صدی کے بااثر ترین اسلام پسند مفکرین میں شامل کر دیا۔ 1977 میں وفات پائی۔"
+external_ids: { wikidata: "Q283908" }
+sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar, source/wikidata-taqi-al-din-al-nabhani]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 November 2026 (rulings packet #3, Part 3): the century-queue row (line 1611) prints 'Taqi al-Din al-Nabhani (Father) (1880–1940)', wrong years carrying a list tag; the record is built under his own dates 1909–1977 as ruled. Researched from the English and Arabic Wikipedia articles and Wikidata Q283908, all read live on 1 November 2026 with every revision id fetched from the MediaWiki API in this session and the Wikidata item revision re-asserted on a second live query; the QID was grounded through both articles' page properties. Existence checks by name fragments (nabhani, nabahani) and by QID across data/person found only yusuf-al-nabhani, his maternal grandfather, and muhammad-ibn-khalifa-al-nabhani, a different man. The grandfather relation is written once, here, as related_to: the English article calls Yusuf al-Nabhani his grandfather and the Arabic article records that his mother took her learning from her father Shaykh Yusuf, which makes the relation the maternal grandfather, as the grandfather's own record also states. His party founding is recorded as biography and is never used as faith evidence."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: rulings-builds-r3a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

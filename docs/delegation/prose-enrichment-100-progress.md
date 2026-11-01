@@ -352,3 +352,8 @@ About 130 other n–z place records with Idrisi as a source and a thin Arabic su
 - **place/afshana**: `sources: []` — the Ibn Sina birthplace claim belongs to his autobiography (al-Juzjani / Gohlman), but no readable OCR of that source is in the harvest and no defined source is listed. Left thin until a source is attached.
 - **place/fuwwa** (enriched but flagged): the rihla-ibn-battuta-1958 OCR (Maktaba Tijariyya scan, `books/geography/rihla-ibn-battuta/20220828_20220828_1853`) does not contain فوة/فوه in the Egypt passages read; the file now says the mention is unverified on the page.
 - **place/misrata** (enriched but flagged): مصراتة is absent from the scanned 1958 rihla text; only source is wikidata; the Ibn Battuta claim is now marked as unverified.
+| 2026-11-01 | Devin (a–m) | batch 18: mixed books (jamharat-khutab, kashf-zunun, al-aalam, tarikh-khulafa, wafayat, siyar, mawsuat, ansab, source-records) | 23 | 1 | — |
+
+### Leads, batch 18
+
+- **person/ibn-shaqla**: only source is `madkhal-ibn-badran-turki` (المدخل إلى مذهب الإمام أحمد لابن بدران، ed. Turki); no OCR of that edition exists in the harvest (searched `books/` for badran/madkhal), so the two facts on file cannot be expanded to 100 verified words. Left thin.
