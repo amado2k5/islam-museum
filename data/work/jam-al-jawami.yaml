@@ -1,17 +1,20 @@
 id: work/jam-al-jawami
 class: work
 kind: book
-label: { ar: "جمع الجوامع", en: "Jam' al-Jawami'" }
+label: { ar: "جمع الجوامع", en: "Jam' al-Jawami'", ur: "جمع الجوامع" }
 summary:
-  ar: "بطاقة أولية لجمع الجوامع لجلال الدين المحلي في أصول الفقه؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Jalal al-Din al-Mahalli's Jam' al-Jawami' on legal theory; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "متن تاج الدين السبكي المختصر المشهور في أصول الفقه؛ ذكره ابن حجر في مقدمة تصانيفه في الأصول، وعليه شرح جلال الدين المحلي المعروف {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  en: "Taj al-Din al-Subki's celebrated compendium on the principles of jurisprudence (usul al-fiqh); Ibn Hajar lists it first among his works on usul, and it carries Jalal al-Din al-Mahalli's well-known commentary {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  ur: "تاج الدین سبکی کا اصول فقہ کا مشہور مختصر متن؛ ابن حجر نے اسے ان کی اصولی تصانیف میں سب سے پہلے ذکر کیا، اور اس پر جلال الدین محلی کی معروف شرح ہے {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}۔"
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-aalam]
 external_ids: { wikidata: "Q109257062" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Ibn Hajar, al-Durar al-Kamina, vol. 2 printed p. 425; Encyclopaedia of Islam 2nd ed. vol. 9, printed p. 745 (al-Subki A no. 9); authorship corrected from an earlier Wikidata draft that credited the commentator al-Mahalli"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1, wikidata-import-wave2
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
