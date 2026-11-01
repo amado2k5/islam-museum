@@ -1,0 +1,24 @@
+id: event/crusaders-pass-konya-490
+class: event
+kind: campaign
+label: { ar: "الصليبيون يعبرون قونية سنة ٤٩٠هـ", en: "The First Crusade passes Konya, 490/1097", ur: "پہلی صلیبی مہم قونیہ سے گزرتی ہے، 490ھ/1097ء" }
+summary:
+  ar: "سنة ١٠٩٧م عبر جيش الحملة الصليبية الأولى قونية (إيقونية) في طريقه عبر الأناضول، فلم يجد فيها تحصينات صالحة للانتفاع لكنه انتفع ببساتينها المجاورة؛ وكانت المدينة قبل ذلك قاعدة عسكرية بيزنطية تفاداها المهاجمون في قرون الغزو العربي {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}."
+  en: "In 1097 the army of the First Crusade passed through Konya (Iconium) on its march across Anatolia; it found no serviceable fortifications there but drew benefit from the gardens around the town. In the centuries of the Arab invasions the place had been a Byzantine military base that the raiders tended to circumvent {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}."
+  ur: "1097ء میں پہلی صلیبی مہم کی فوج اناطولیہ سے گزرتی ہوئی قونیہ (آئیکونیم) سے ہو کر گزری؛ اسے شہر میں کوئی قابلِ استعمال دفاعی قلعہ نہ ملا مگر اردگرد کے باغات سے فائدہ اٹھایا۔ عرب حملوں کی صدیوں میں یہ مقام ایک بازنطینی فوجی اڈا رہا تھا جسے حملہ آور عام طور پر نظرانداز کرتے تھے۔"
+wings: [time]
+themes: [crusades]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1097", hijri: "0490", calendar: julian, precision: year, status: historical, derived: true, note: "مرور الصليبيين بقونية سنة 1097م {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}؛ السنة الهجرية تحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., art. ḲONYA (Cl. Cahen), vol. 5.1 PDF p. 287 (harvest OCR, books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_5_1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
