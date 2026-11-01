@@ -550,3 +550,21 @@ A comparison of each earlier batch commit against its parent showed text dropped
 - **place/siklah.** pp. 879–880 give distances and a name list only. Lead.
 - **place/sabitla.** p. 283 gives the old city of Jirjis and two distances; no description of the present town. Lead.
 - **place/tinjas.** pp. 292–293 give route distances only. Lead.
+
+## n–z batch 23 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 23
+
+- **place/sijilmasa** (Idrisi pp. 18, 225, 226, 243, 249, 344). The earlier record held only the p. 18 distances. Rewritten with the river city, its date palms and crops, and the roads from Aghmat, Dar'a, Safru, Tlemcen and Egypt. The customs sentences of p. 226 are left out.
+- **place/ruzrawar** (pp. 674, 675, 676). The saffron district of al-Jabal, twenty-seven miles from Hamadhan, with Nihawand as neighbour.
+- **place/raqwan** (pp. 926, 930). The only inhabited city of the ruined land of Sisyan.
+
+### Triage of the remaining n–z Idrisi candidates
+
+After batches 12–23, 84 n–z places that cite Idrisi and have a short Arabic summary were still not enriched or logged. They fall into three groups; none was written up because none was shown to reach 100 words of verified source text, or the label could not be tied to the right passage. A future pass with a second edition or the page images may upgrade some.
+
+**No hit for the record's Arabic label in the OCR text (39).** Not examined one by one: the OCR may spell these names differently, or the text may name them another way, and a reader needs the page images or a second edition to tell: zamakhir, zaila, waq-waq-islands, wadi-al-falaj, wadi-al-alaqi, uriyula, ubda, tirqa, tilmila, tayma, tasawa, tantana-mountain, tamalma, suqya-port, sumba, socotra, shamil, sanitriyya, sanf-island, sandi-fulat, samqanda, samna, samasta, sahab-island, sadd-marib, rughusa, qastalun, qasr-umm-isa, qamula, qamnuriyya, qalat-isfandiyadh, qalat-ayyub, qalat-al-kariyan, persian-gulf-nuzhat, nughayra, nayyir-desert, nawaba, najagha, nabranta.
+
+**Label hits are other words, or the record is already sourced elsewhere (6).** wadan (the hits are the Wadan oasis list and other words), tana-india, shama (a common word), nablus (already has prose with al-Maqdisi), russia, qantarat-al-sayf (dropped in batch 10, reason above).
+
+**Under 100 words of source text (39).** About a paragraph or less in the pages, mostly distances: suraws, samandar-khazar, nawshi, qaynyu, rushiya, tarighyawqan, subara, ramij, tukra, venetian-gulf-nuzhat, tashmis, tanuma, nastasiyya, suways, shaqubiyya, qarqudhi, sabu-river, rishahr, qantarat-qurtuba, nahr-bihank, qalat-al-balut, tarjinis, orissa, nawtas, tarawiya, nadkhu, tajwa, nahr-bugu, salwni, titlus, ras-al-muhjama, pantelleria, qalamun, sibiba, nahr-shirin, silabirs, sanasa, tanisbar. Three have one quotable fact each: tashmis (a ruined walled city on the Safdad river a mile from the sea, p. 530), tukra (a large populous fort two stages from Qafiz, p. 315), and suways (the brackish spring at Qulzum, p. 348).
