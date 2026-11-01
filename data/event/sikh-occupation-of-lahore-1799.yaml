@@ -1,23 +1,28 @@
 id: event/sikh-occupation-of-lahore-1799
 class: event
-kind: battle
-label: { ar: "أخذ السيخ للاهور (١٧٩٩)", en: "Sikh Occupation of Lahore (1799)" }
+kind: conquest
+label:
+  ar: "رنجيت سينغ يأخذ لاهور، صفر ١٢١٤هـ/يوليو ١٧٩٩م"
+  en: "Ranjit Singh takes Lahore, Safar 1214/July 1799"
+  ur: "رنجیت سنگھ کا لہور پر قبضہ، صفر 1214ھ/جولائی 1799ء"
 summary:
-  ar: "بطاقة أولية لأخذ رانجيت سينغ للاهور سنة ١٧٩٩م، نهاية الحكم الدراني عليها؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Sikh capture of Lahore in 1799, ending Durrani rule over the city; its sources are not yet checked on the page."
+  ar: "بعد نحو ثلاثين سنة من حكم ثلاثي لزعماء السيخ في لاهور، انتزعها رنجيت سينغ من أولئك الزعماء الثلاثة في صفر ١٢١٤هـ/يوليو ١٧٩٩م؛ وأُعلن مهراجًا للبنجاب سنة ١٨٠٢م فاستعادت المدينة في عهده شيئًا من مكانتها وأصلح أسوارها وعمّر فيها {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 39}."
+  en: "After some thirty years of rule by a triumvirate of Sikh chieftains, Ranjit Singh wrested Lahore from its three lords in Safar 1214/July 1799; proclaimed maharaja of the Punjab in 1802, he restored much of the city's prestige, repairing its walls and embarking on a programme of construction {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 39}."
+  ur: "سکھ سرداروں کی تین طرفہ حکومت کے تقریباً تیس برس بعد رنجیت سنگھ نے صفر 1214ھ/جولائی 1799ء میں لہور ان تینوں سرداروں سے چھین لیا؛ 1802ء میں پنجاب کا مہاراجا قرار پانے پر اس کے عہد میں شہر نے اپنی قدر و منزلت کافی حد تک بحال کی، اس نے دیواریں درست کرائیں اور تعمیرات کا سلسلہ شروع کیا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 39}."
 wings: [time]
-periods: [period/gunpowder-empires]
+periods: [period/colonial-era]
 regions: [south-asia]
 date:
-  start: { edtf: "1799", precision: year, status: tradition, derived: true }
-  end: { edtf: "1799", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1799-07", hijri: "1214", calendar: julian, precision: month, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q48724669
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 39 (LAHAWR, printed p. 599) — Ranjit Singh takes Lahore Safar 1214/July 1799 (replaces unchecked Wikidata card)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
