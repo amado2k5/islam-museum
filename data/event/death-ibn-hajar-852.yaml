@@ -1,0 +1,27 @@
+id: event/death-ibn-hajar-852
+class: event
+kind: death
+label:
+  ar: "وفاة الحافظ ابن حجر العسقلاني بالقاهرة، ٨٥٢هـ/١٤٤٩م"
+  en: "Death of the hadith master Ibn Hajar al-Asqalani in Cairo, 852/1449"
+  ur: "قاہرہ میں حافظ ابن حجر عسقلانی کی وفات، 852ھ/1449ء"
+summary:
+  ar: "توفي ابن حجر بالقاهرة ليلة السبت ثامن عشر ذي الحجة سنة ٨٥٢هـ، بعد نحو ساعة من صلاة العشاء (٢٢ فبراير ١٤٤٩م)، ودُفن بالرميلة وكانت جنازته حافلة مشهورة {cite:shadharat-dhahab p. 273} {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}. وكان قد مرض مرضه الأخير في ذي القعدة من تلك السنة، بعد أن رُدّت إليه خانقاه البيبرسية وفارق منصب قاضي القضاة نهائياً؛ وخلّف تلميذه السخاوي ترجمته في «الجواهر والدرر» {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}."
+  en: "Ibn Hajar died in Cairo on the night of Saturday 18 Dhu al-Hijja 852, about an hour after the evening prayer (22 February 1449), and was buried at al-Rumayla; his funeral was famously thronged {cite:shadharat-dhahab p. 273} {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}. His last illness had begun in Dhu al-Qa'da that year, months after the Baybarsiyya khanqah was restored to him and the chief judgeship finally lost; his pupil al-Sakhawi wrote his biography in al-Jawahir wa'l-Durar {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}."
+  ur: "ابن حجر قاہرہ میں ہفتے کی رات 18 ذی الحجہ 852ھ کو نمازِ عشا کے تقریباً ایک گھنٹہ بعد (22 فروری 1449ء) فوت ہوئے اور رمیلہ میں دفن کیے گئے؛ ان کا جنازہ غیر معمولی طور پر بھرپور تھا {cite:shadharat-dhahab p. 273} {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}۔ ان کی آخری بیماری اسی سال ذی القعدہ میں شروع ہوئی، چند ماہ بعد اس کے کہ خانقاہ بیبرسیہ انھیں لوٹا دی گئی اور منصبِ قاضی القضاۃ ہمیشہ کے لیے چھوٹ گیا؛ ان کے شاگرد سخاوی نے ان کی سوانح «الجواہر والدرر» میں لکھیں {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1449-02-22~", hijri: "0852-12-18", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة السبت ثامن عشر ذي الحجة ٨٥٢ {cite:shadharat-dhahab p. 273} ≈ ٢٢ فبراير ١٤٤٩م {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "المتوفَّى", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "shadharat-dhahab s.a. 852, printed pp. 270-274; Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), PDF p. 810"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-hajar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
