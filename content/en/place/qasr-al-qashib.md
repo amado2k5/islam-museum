@@ -12,3 +12,5 @@ At Marib stood the dam called al-Arim, whose fame is known among all nations. Mo
 
 ## Collapse and distances
 Al-Idrisi relates that the great flood came upon them, lifted the dam and swept over the city and the villages near it, that the Arabs were scattered, and that traces of the city remained to which people of Hadramawt later returned and resettled it down to his time. {cite:nuzhat-al-mushtaq-2002 p. 153} {cite:nuzhat-al-mushtaq-2002 p. 154} From Zafar to the village of Marib is three stages, and from Marib to the city of Shibam in Hadramawt four stages. {cite:nuzhat-al-mushtaq-2002 p. 153} {cite:nuzhat-al-mushtaq-2002 p. 154}
+
+Ibn Fadl Allah al-Umari counts it among the famous monuments of Yemen, together with the dam of Ma'rib. {cite:umari-masalik-1924 p. 232}

@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-Qasr Ahnaf is counted among the towns of Marw al-Rudh, one stage from it on the road to Balkh, which al-Idrisi gives as fifteen miles. It is a small town with a thriving market, running water, gardens and abundant fruit. {cite:nuzhat-al-mushtaq-2002 p. 477}
+Qasr Ahnaf is counted among the towns of [[place/marw|Marw]] al-Rudh, one stage from it on the road to [[place/balkh|Balkh]], which al-Idrisi gives as fifteen miles. It is a small town with a thriving market, running water, gardens and abundant fruit. {cite:nuzhat-al-mushtaq-2002 p. 477}
 
 ## Neighbours
 Among the small towns of the district is Diza, twelve miles from Qasr Ahnaf. It has fruit, gardens, vineyards and buildings, and the river of Marw divides it in two, with a bridge between the halves. {cite:nuzhat-al-mushtaq-2002 p. 478}
