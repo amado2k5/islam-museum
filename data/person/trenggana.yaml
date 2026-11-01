@@ -47,13 +47,24 @@ relations:
   - { type: child_of, target: person/raden-patah, sources: [source/wikipedia-trenggana-id] }
 
 faith:
-  - value: unknown
-    basis: unknown
-    note: "A single structured attestation names his branch: the Indonesian article's infobox gives his denomination as Sunni, with the jurisprudence field left blank. No source names his school. His documented record is Muslim kingship — crowned by Sunan Gunungjati, one of the Wali Songo who spread Islam in Java, he Islamised Demak's conquests in central and east Java and planted the Banten sultanate under Hasanuddin (articles). A single structured attestation does not meet the lane's two-source bar for a school, so none is recorded; the attestation is preserved here for the founder's ruling."
+  - value: sunni
+    basis: documented
+    note: >-
+      A single structured attestation names his branch: the Indonesian
+      article's infobox gives his denomination as Sunni, with the
+      jurisprudence field left blank. No source names his school. His
+      documented record is Muslim kingship — crowned by Sunan Gunungjati,
+      one of the Wali Songo who spread Islam in Java, he Islamised Demak's
+      conquests in central and east Java and planted the Banten sultanate
+      under Hasanuddin (articles). A single structured attestation does not
+      meet the lane's two-source bar for a school, so none is recorded; the
+      attestation is preserved here for the founder's ruling. Settled
+      sunni/documented by the founder's ruling of 1 November 2026 (rulings
+      packet #3, 2b: branch-only attestations record the bare branch value,
+      which the enum now carries).
     sources:
       - source/wikipedia-trenggana-id
       - source/wikipedia-trenggana-en
-
 external_ids: { wikidata: "Q2167432" }
 
 sources:

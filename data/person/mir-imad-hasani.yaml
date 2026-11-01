@@ -56,15 +56,33 @@ relations:
   - { type: student_of, target: person/malek-deylami, sources: [source/wikipedia-mir-emad-hassani-en, source/iranica-emad-hasani] }
 
 faith:
-  - value: unknown
-    basis: unknown
-    note: "His branch is attested but contested, and no source names a legal school for him. The Persian article's religion section reports that most tazkira-writers and historians hold his madhhab to have been Sunni and count it among the reasons Shah Abbas had him killed — and the same section warns that no independent document or evidence for it exists, noting that he repeatedly copied the Nad-e Ali prayer in honour of Ali ibn Abi Talib and praised the Prophet's family wherever they are named. The English article reports an accusation — he 'was later accused of being Sunni' — and the Encyclopaedia Iranica calls it his 'alleged Sunni inclination', made an issue by a shah already wearied of him amid a library campaign to discredit him; Wikidata's religion values (Islam, Sunni Islam) restate the same tradition at branch level. Branch-only attestation, resting on one tradition and doubted within it, is preserved here for the founder's ruling — the Iskandar Muda configuration of wave 149 — and no school is recorded. His Hasani nisba is a claim of sayyid descent, not an attestation of a school."
+  - value: sunni
+    basis: documented
+    note: >-
+      His branch is attested but contested, and no source names a legal
+      school for him. The Persian article's religion section reports that
+      most tazkira-writers and historians hold his madhhab to have been
+      Sunni and count it among the reasons Shah Abbas had him killed — and
+      the same section warns that no independent document or evidence for it
+      exists, noting that he repeatedly copied the Nad-e Ali prayer in
+      honour of Ali ibn Abi Talib and praised the Prophet's family wherever
+      they are named. The English article reports an accusation — he 'was
+      later accused of being Sunni' — and the Encyclopaedia Iranica calls it
+      his 'alleged Sunni inclination', made an issue by a shah already
+      wearied of him amid a library campaign to discredit him; Wikidata's
+      religion values (Islam, Sunni Islam) restate the same tradition at
+      branch level. Branch-only attestation, resting on one tradition and
+      doubted within it, is preserved here for the founder's ruling — the
+      Iskandar Muda configuration of wave 149 — and no school is recorded.
+      His Hasani nisba is a claim of sayyid descent, not an attestation of a
+      school. Settled sunni/documented by the founder's ruling of 1 November
+      2026 (rulings packet #3, 2b: branch-only attestations record the bare
+      branch value, which the enum now carries).
     sources:
       - source/wikipedia-mir-emad-hassani-fa
       - source/wikipedia-mir-emad-hassani-en
       - source/iranica-emad-hasani
       - source/wikidata-mir-emad-hassani
-
 external_ids: { wikidata: "Q6872075" }
 
 sources:

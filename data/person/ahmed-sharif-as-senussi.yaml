@@ -33,10 +33,27 @@ died:
   note: "Died in Medina on 10 March 1933 and was buried in Al-Baqi Cemetery there (Arabic and English articles; the Arabic article gives the middle of Dhu al-Qa'da 1351 AH)."
   sources: [source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-fr]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No source names a school or a personal order membership for him. The English text calls him supreme leader of the Senussi order from 1902 (nominally after 1917); the Arabic text says he assumed leadership of the Senussi movement in 1902 and describes him as of the Senussi family; the French text calls him supreme chief of the Al-Sanoussi family. Headship of the order and descent in its founding family are office and lineage, not the personal membership attestation that recorded his cousin Idris, whose English and Arabic texts state he was born a member of the order. Wikidata gives only Islam. Recorded unknown under the doubt rule."
-    sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-fr, source/wikidata-ahmed-sharif-as-senussi]
+  - value: sufi
+    basis: documented
+    note: >-
+      No source names a school or a personal order membership for him. The
+      English text calls him supreme leader of the Senussi order from 1902
+      (nominally after 1917); the Arabic text says he assumed leadership of
+      the Senussi movement in 1902 and describes him as of the Senussi
+      family; the French text calls him supreme chief of the Al-Sanoussi
+      family. Headship of the order and descent in its founding family are
+      office and lineage, not the personal membership attestation that
+      recorded his cousin Idris, whose English and Arabic texts state he was
+      born a member of the order. Wikidata gives only Islam. Recorded
+      unknown under the doubt rule. Settled sufi/documented by the founder's
+      ruling of 1 November 2026 (rulings packet #3, 2g: hereditary
+      leadership and formal office in Sufi and clerical structures
+      constitute affiliation).
+    sources:
+      - source/wikipedia-ahmed-sharif-as-senussi-en
+      - source/wikipedia-ahmed-sharif-as-senussi-ar
+      - source/wikipedia-ahmed-sharif-as-senussi-fr
+      - source/wikidata-ahmed-sharif-as-senussi
 relations:
   - { type: died_in, target: place/medina, sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar] }
   - { type: buried_in, target: place/medina, sources: [source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-en] }
