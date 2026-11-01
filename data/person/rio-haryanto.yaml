@@ -1,0 +1,36 @@
+id: person/rio-haryanto
+class: person
+label: { ar: "ريو هاريانتو", en: "Rio Haryanto", ur: "ریو ہریانتو" }
+names:
+  - { value: "Rio Haryanto", kind: full }
+  - { value: "ريو هاريانتو", kind: full }
+gender: male
+summary:
+  ar: "سائق سباقات ورجل أعمال إندونيسي، وُلد في سوراكارتا سنة 1993. أصبح أول إندونيسي يشارك في الفورمولا 1 عندما ساق لفريق مانور سنة 2016، بعد انتصارات في سباقات GP3 وGP2."
+  en: "Indonesian racing driver and businessman, born in Surakarta in 1993. He became the first Indonesian to compete in Formula One when he raced for Manor in 2016, after race wins in GP3 and GP2."
+  ur: "انڈونیشیائی ریسنگ ڈرائیور اور تاجر، جو 1993 میں سوراکارتا میں پیدا ہوئے۔ وہ فارمولا 1 میں حصہ لینے والے پہلے انڈونیشیائی بنے جب انہوں نے 2016 میں مانور کے لیے ریس کی، اس سے قبل GP3 اور GP2 میں فتوحات حاصل کیں۔"
+roles: [racing driver]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1993-01-22"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 22 January 1993 in Surakarta (Solo), Central Java. No place entity for Surakarta exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1413 is the tabular conversion of 22 January 1993 and is marked derived."
+  sources: [source/wikipedia-rio-haryanto-en, source/wikipedia-rio-haryanto-id, source/wikidata-rio-haryanto]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English and Indonesian articles attest his practice of Islam in full: he and his family are described as devout Muslims, he fixed the Throne Verse in his car cockpit and read it as part of his pre-race ritual, and his family owns a pesantren (an Islamic boarding school); Wikidata likewise records Islam generically (P140). No source names a school of Islam for him, so his school is recorded unknown under this lane's discipline, unflagged, with the practice attestation preserved here rather than converted into a school value."
+    sources: [source/wikipedia-rio-haryanto-en, source/wikipedia-rio-haryanto-id, source/wikidata-rio-haryanto]
+external_ids: { wikidata: "Q981543" }
+sources: [source/wikipedia-rio-haryanto-en, source/wikipedia-rio-haryanto-id, source/wikidata-rio-haryanto]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382637864), Indonesian Wikipedia (revision 29873290) and Wikidata Q981543 (item revision 2519443964, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-149a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
