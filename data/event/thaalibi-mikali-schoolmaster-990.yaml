@@ -1,0 +1,28 @@
+id: event/thaalibi-mikali-schoolmaster-990
+class: event
+kind: other
+label:
+  ar: "الثعالبي معلّماً ومولياً لآل ميكالة، نحو ٣٨٠هـ"
+  en: "Al-Tha'alibi the schoolmaster and his Mikali patrons, c. 380/990"
+  ur: "ثعالبی مدرس اور آل میکالہ کے سرپرست، تقریباً 380ھ/990ء"
+summary:
+  ar: "عمل الثعالبي مدة معلّماً للصبيان، ووصل مبكراً بآل ميكالة أشرف بيوت نيسابور، ولا سيما الأديب أبا الفضل عبيد الله بن أحمد الميكالي الذي بقي صديقه مدى حياته، كما وصل بأبي المظفر نصر بن سبكتكين والي خراسان {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}؛ ومن شعره قصيدة المدح إلى الأمير أبي الفضل الميكالي {cite:wafayat-ayan}."
+  en: "Al-Tha'alibi worked for a time as a schoolmaster, and early in life forged ties with the Mikalis, Nishapur's foremost family — above all the littérateur Abu al-Fadl Ubayd Allah ibn Ahmad al-Mikali, who remained his lifelong friend — and with Abu al-Muzaffar Nasr ibn Sebuktegin, the governor of Khurasan {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}; his praise poems to the amir Abu al-Fadl al-Mikali survive {cite:wafayat-ayan}."
+  ur: "ثعالبی نے کچھ عرصہ بطور مدرس کام کیا اور زندگی کے آغاز میں نیشاپور کے ممتاز گھرانے آل میکالہ سے تعلق قائم کیا — خصوصاً ادیب ابو الفضل عبید اللہ بن احمد میکالی سے جو عمر بھر ان کے دوست رہے — اور خراسان کے گورنر ابو المظفر نصر بن سبکتگین سے بھی {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}؛ امیر ابو الفضل میکالی کی مدح میں ان کی قصائد محفوظ ہیں {cite:wafayat-ayan}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0990~", hijri: "0380~", calendar: julian, precision: year, status: historical, derived: true, note: "عمل معلماً ووصل بآل ميكالة مبكراً في حياته؛ السنة تقريبية مشتقة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "المعلّم والمستظهر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-al-fadl-al-mikali, role: "الصديق والممدوح", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

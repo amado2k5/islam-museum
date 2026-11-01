@@ -1,0 +1,28 @@
+id: event/thaalibi-jurjan-qabus-1005
+class: event
+kind: other
+label:
+  ar: "إقامتا الثعالبي بجرجان وإهداؤه لقابوس، نحو ٣٩٥هـ"
+  en: "Al-Tha'alibi's Jurjan sojourns and his dedications to Qabus, c. 395/1005"
+  ur: "جرجان میں ثعالبی کے قیام اور قابوس کے نام اهدائیں، تقریباً 395ھ/1005ء"
+summary:
+  ar: "أقام الثعالبي بجرجان إقامتين على الأقل، نازلاً بأهل بيتها الأشراف، وأهدى إلى أميرها قابوس بن وشمكير جملة من مصنفاته منها «المبهج» في فصول النثر المسجوع، وقد كان قابوس نفسه من الكتّاب المصقوعين، ويرجّح أن الثعالبي لقيه في منفاه الطويل بنيسابور قبل استرداده الملك سنة ٣٨٨هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}."
+  en: "Al-Tha'alibi sojourned at least twice at Jurjan, staying with members of the city's leading family, and dedicated a series of works to its amir Qabus ibn Wushmgir — among them al-Mubhij, a collection of rhymed-prose sentences; Qabus was himself a noted stylist, and al-Tha'alibi had probably met him during the amir's long exile at Nishapur before he regained his throne in 388 {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}."
+  ur: "ثعالبی نے کم از کم دو بار جرجان میں قیام کیا اور شہر کے معزز گھرانے کے افراد کے ہاں ٹھہرے، اور امیر قابوس بن وشمگیر کے نام متعدد تصانیف وقف کیں جن میں نثرِ مسجوع کے فصول کا مجموعہ «المبهج» بھی ہے؛ قابوس خود معروف خطاط و ادیب تھا اور غالباً ثعالبی اس سے اس کے طویل جلاوطنی کے دوران نیشاپور میں ملے، اس کے تخت کی واپسی 388ھ سے پہلے {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1005~", hijri: "0395~", calendar: julian, precision: year, status: historical, derived: true, note: "إقامتان بجرجان بعد رحلة بخارى وقبل بلاط خوارزم، في سلطنة قابوس الثانية (٣٨٨-٤٠٣هـ)؛ تقريبية مشتقة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/jurjan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "النزيل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/qabus-ibn-wushmgir, role: "الأمير المُهدى إليه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

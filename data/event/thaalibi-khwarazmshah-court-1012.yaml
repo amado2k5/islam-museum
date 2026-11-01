@@ -1,0 +1,31 @@
+id: event/thaalibi-khwarazmshah-court-1012
+class: event
+kind: other
+label:
+  ar: "الثعالبي في بلاط الخوارزمشاه بجرجانية، نحو ٤٠٣هـ"
+  en: "Al-Tha'alibi at the Khwarazmshah's court, Jurjaniyya, c. 403/1012"
+  ur: "جرجانیہ میں خوارزمشاہ کے دربار میں ثعالبی، تقریباً 403ھ/1012ء"
+summary:
+  ar: "دعا الخوارزمشاه مأمون بن مأمون الثعالبي من جرجان إلى بلاطه بجرجانية عاصمة خوارزم، فأهدى في مقامه مصنفات إلى الخوارزمشاه وإلى وزيره أبي عبد الله الحامدي، منها «آداب الملوك» و«تحفة الوزراء»، وصحب في ذلك البلاط ابن سينا والبيروني {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}."
+  en: "From Jurjan the Khwarazmshah Ma'mun ibn Ma'mun invited al-Tha'alibi to his court at Jurjaniyya; during his stay he dedicated works to the Khwarazmshah and his vizier Abu Abd Allah al-Hamidi — among them the mirrors-for-princes Adab al-Muluk and Tuhfat al-Wuzara' — and enjoyed the company of fellow protégés such as Ibn Sina and al-Biruni {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}."
+  ur: "جرجان سے خوارزمشاہ مامون بن مامون نے ثعالبی کو جرجانیہ میں اپنے دربار کی دعوت دی؛ قیام کے دوران انھوں نے خوارزمشاہ اور اس کے وزیر ابو عبد اللہ حامدی کے نام تصانیف وقف کیں جن میں آداب الملوک اور تحفۃ الوزراء شامل ہیں، اور ابن سینا اور بیرونی جیسے ہم درباریوں کی صحبت پائی {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1012~", hijri: "0403~", calendar: julian, precision: year, status: historical, derived: true, note: "في بلاط مأمون بن مأمون (٣٩٩-٤٠٧هـ) بعد إقامتي جرجان؛ تقريبية مشتقة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-452}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/jurjaniyya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "ضيف البلاط", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/mamun-ibn-mamun-khwarazmshah, role: "الداعي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-abd-allah-al-hamidi, role: "الوزير المُهدى إليه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-sina, role: "رفيق البلاط", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-biruni-muhammad-ibn-ahmad, role: "رفيق البلاط", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
