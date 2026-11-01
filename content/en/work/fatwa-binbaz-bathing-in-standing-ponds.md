@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question on bathing and ablution in a standing village pond, in which Ibn Baz separated the purity of the water from whether one may bathe in it. {cite:binbaz fatwa 1915}
+A question on bathing and ablution in a standing village pond, in which [[person/ibn-baz-abd-al-aziz|Ibn Baz]] separated the purity of the water from whether one may bathe in it. {cite:binbaz fatwa 1915}
 
 ## The question
 

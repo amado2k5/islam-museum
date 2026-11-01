@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question on impure water treated by scientific means, in which Ibn Baz distinguished between large and small quantities. {cite:binbaz fatwa 2476}
+A question on impure water treated by scientific means, in which [[person/ibn-baz-abd-al-aziz|Ibn Baz]] distinguished between large and small quantities. {cite:binbaz fatwa 2476}
 
 ## The question
 

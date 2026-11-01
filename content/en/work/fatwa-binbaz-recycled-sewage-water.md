@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A hospital worker's question on recycled sewage water, whose ruling Ibn Baz made depend on whether the traces of impurity are gone. {cite:binbaz fatwa 3123}
+A hospital worker's question on recycled sewage water, whose ruling [[person/ibn-baz-abd-al-aziz|Ibn Baz]] made depend on whether the traces of impurity are gone. {cite:binbaz fatwa 3123}
 
 ## The question
 

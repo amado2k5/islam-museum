@@ -19,4 +19,4 @@ Dar al-Ifta answered that undutifulness to parents is forbidden and a major sin,
 
 ## About this record
 
-Egypt's Dar al-Ifta published this fatwa on its site as no. 9032, dated 10 August 2026, in its inheritance category, among the fatwas of Grand Mufti Nazir Ayyad. {cite:dar-alifta fatwa 9032} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.
+Egypt's Dar al-Ifta published this fatwa on its site as no. 9032, dated 10 August 2026, in its inheritance category, among the fatwas of Grand Mufti [[person/nazir-ayyad|Nazir Ayyad]]. {cite:dar-alifta fatwa 9032} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.

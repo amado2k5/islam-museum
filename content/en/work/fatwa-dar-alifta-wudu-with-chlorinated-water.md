@@ -19,4 +19,4 @@ Dar al-Ifta answered that ablution with it is permitted. {cite:dar-alifta fatwa 
 
 ## About this record
 
-Egypt's Dar al-Ifta published this fatwa on its site as no. 9033, dated 10 August 2026, in its purity category, among the fatwas of Grand Mufti Nazir Ayyad. {cite:dar-alifta fatwa 9033} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.
+Egypt's Dar al-Ifta published this fatwa on its site as no. 9033, dated 10 August 2026, in its purity category, among the fatwas of Grand Mufti [[person/nazir-ayyad|Nazir Ayyad]]. {cite:dar-alifta fatwa 9033} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.

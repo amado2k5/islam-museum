@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question on the best wording after rising from bowing, in which Ibn Baz answered that all the reported wordings are permitted. {cite:binbaz fatwa 1245}
+A question on the best wording after rising from bowing, in which [[person/ibn-baz-abd-al-aziz|Ibn Baz]] answered that all the reported wordings are permitted. {cite:binbaz fatwa 1245}
 
 ## The question
 
