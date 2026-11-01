@@ -1,0 +1,26 @@
+id: event/death-ibn-al-tiqtaqa-709
+class: event
+kind: death
+label:
+  ar: "وفاة ابن الطقطقي سنة ٧٠٩هـ"
+  en: "Death of Ibn al-Tiqtaqa, 709/1309"
+  ur: "ابن طقطقی کی وفات، 709ھ/1309ء"
+summary:
+  ar: "توفي صفي الدين محمد بن علي المعروف بابن الطقطقي صاحب «الفخري» سنة ٧٠٩هـ كما يذكر الذهبي في فهرس مصادر «تاريخ الإسلام» {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}؛ وقصر الزركلي في «الأعلام» على ذكر سنة ١٣٠٢م، أي العام الذي أُلّف فيه الكتاب {cite:al-aalam j.3 p. 149}."
+  en: "Safi al-Din Muhammad ibn Ali, known as Ibn al-Tiqtaqa, author of al-Fakhri, died in 709 AH as al-Dhahabi's source list to the Tarikh al-Islam records {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}; al-Zirikli in al-A'lam gives only 1302 CE, the year the book was composed {cite:al-aalam j.3 p. 149}."
+  ur: "صفی الدین محمد بن علی المعروف ابن طقطقی، صاحب «فخری»، 709ھ میں فوت ہوئے جیسا کہ ذہبی نے تاریخ الاسلام کی فہرست مآخذ میں لکھا ہے {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}؛ زرکلی نے «الاعلام» میں صرف 1302ء لکھا ہے، یعنی وہی سال جس میں کتاب مرتب ہوئی {cite:al-aalam j.3 p. 149}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1309~", hijri: "0709", calendar: julian, precision: year, status: tradition, derived: true, note: "ت ٧٠٩هـ عند الذهبي {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}؛ والزركلي يذكر ١٣٠٢م فقط {cite:al-aalam j.3 p. 149}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/al-aalam] }
+relations:
+  - { type: had_participant, target: person/ibn-al-tiqtaqa, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/al-aalam] }
+sources: [source/tarikh-islam-dhahabi, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Al-Dhahabi, Tarikh al-Islam, source list of the 601-610 AH volume, printed p. 738 ('الفخري… المعروف بابن الطقطقي (ت ٧٠٩هـ)'), harvest OCR scan; al-Zirikli, al-A'lam j.3 p. 149 (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-tiqtaqa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
