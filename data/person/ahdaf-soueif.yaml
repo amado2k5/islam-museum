@@ -1,0 +1,39 @@
+id: person/ahdaf-soueif
+class: person
+label: { ar: "أهداف سويف", en: "Ahdaf Soueif", ur: "اہداف سویف" }
+names:
+  - { value: "أهداف مصطفى سويف", kind: full }
+  - { value: "Ahdaf Mustafa Soueif", kind: full }
+  - { value: "Ahdaf Soueif", kind: full }
+gender: female
+summary:
+  ar: "روائية ومعلّقة ثقافية وسياسية مصرية، وُلدت في القاهرة في 23 مارس 1950. حصلت على الدكتوراه في اللسانيات من جامعة لانكستر، وتكتب أساسًا بالإنجليزية، وقد رُشحت روايتها «خارطة الحب» (1999) لجائزة بوكر؛ أسست مهرجان فلسطين للأدب وكتبت «القاهرة: مدينتي، ثورتنا» (2012)."
+  en: "Egyptian novelist and cultural and political commentator, born in Cairo on 23 March 1950. She took a doctorate in linguistics at the University of Lancaster and writes principally in English; her second novel, The Map of Love (1999), was shortlisted for the Booker Prize. She founded the Palestine Festival of Literature and wrote Cairo: My City, Our Revolution (2012)."
+  ur: "مصری ناول نگار اور ثقافتی و سیاسی مبصر، 23 مارچ 1950 کو قاہرہ میں پیدا ہوئیں۔ انہوں نے لانکیسٹر یونیورسٹی سے لسانیات میں ڈاکٹریٹ کی اور بنیادی طور پر انگریزی میں لکھتی ہیں؛ ان کا دوسرا ناول «دی میپ آف لو» (1999) بکر پرائز کے لیے شارٹ لسٹ ہوا۔ انہوں نے فلسطین فیسٹیول آف لٹریچر کی بنیاد رکھی اور «کائرو: مائی سٹی، آؤر ریوولوشن» (2012) لکھی۔"
+roles: [writer]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1950-03-23"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Cairo birthplace from the English and Arabic Wikipedia articles and Wikidata, all in agreement; the Arabic article's category filings place the birth in the Hijri year 1369, agreeing with the derived Hijri year."
+  sources: [source/wikipedia-ahdaf-soueif-en, source/wikipedia-ahdaf-soueif-ar, source/wikidata-ahdaf-soueif]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-ahdaf-soueif-en, source/wikidata-ahdaf-soueif] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or school for Soueif. Neither article states one and Wikidata carries no religion statement. Her work includes editing a volume of reflections on Islamic art and translating Mourid Barghouti's memoir I Saw Ramallah: that is her work, recorded as such in the prose, and it is not an attestation of her own faith. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-ahdaf-soueif-en, source/wikipedia-ahdaf-soueif-ar, source/wikidata-ahdaf-soueif]
+external_ids: { wikidata: "Q4115654" }
+sources: [source/wikipedia-ahdaf-soueif-en, source/wikipedia-ahdaf-soueif-ar, source/wikidata-ahdaf-soueif]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379554809), Arabic Wikipedia (revision 76079321) and Wikidata Q4115654 (item revision 2552467497, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-157a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -840,16 +840,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Azar Nafisi — 1948–Living
 - [x] Marjane Satrapi — 1969–Living
 - [x] Kader Abdolah — 1954–Living
-- [ ] Dina Nayeri — 1979–Living
-- [ ] Rabih Alameddine — 1959–Living
-- [ ] Hisham Matar — 1970–Living
-- [ ] Ahdaf Soueif — 1950–Living
-- [ ] Alaa Al Aswany — 1957–Living
-- [ ] Sonallah Ibrahim — 1937–Living
-- [ ] Bahaa Taher — 1935–2022
-- [ ] Youssef Ziedan — 1958–Living
-- [ ] Saud Alsanousi — 1981–Living
-- [ ] Jokha Alharthi — 1978–Living
+- [x] Dina Nayeri — 1979–Living
+- [x] Rabih Alameddine — 1959–Living
+- [x] Hisham Matar — 1970–Living
+- [x] Ahdaf Soueif — 1950–Living
+- [x] Alaa Al Aswany — 1957–Living
+- [x] Sonallah Ibrahim — 1937–Living
+- [x] Bahaa Taher — 1935–2022
+- [x] Youssef Ziedan — 1958–Living
+- [x] Saud Alsanousi — 1981–Living
+- [x] Jokha Alharthi — 1978–Living
 - [ ] Raja Alem — 1956–Living
 - [ ] Badiah Kashgari — 1954–Living
 - [ ] Nimah Ismail Nawwab — 1960–Living
@@ -1737,30 +1737,30 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Rustam Beg — 1465–1497
 - [x] Sultan Muzaffar Shah of Malacca — 1400–1459
 - [x] Sultan Mansur Shah of Malacca — 1430–1477
-- [ ] Sultan Mahmud Shah of Malacca — 1480–1528
-- [ ] Tun Perak — 1410–1498
-- [ ] Sonni Ali Ber — 1440–1492
+- [x] Sultan Mahmud Shah of Malacca — 1480–1528
+- [x] Tun Perak — 1410–1498
+- [x] Sonni Ali Ber — 1440–1492
 - [x] Askia Muhammad I (Askia the Great) — 1443–1538 (also in §G — build once)
-- [ ] Guru Nanak — 1469–1539 (flagged: the list itself annotates him a contemporary interaction, founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike)
-- [ ] Kabir Das — 1398–1518 (flagged: syncretic mystic poet claimed by multiple traditions — kept per the same precedent; Ahmad may strike)
+- [x] Guru Nanak — 1469–1539 (flagged: the list itself annotates him a contemporary interaction, founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike)
+- [x] Kabir Das — 1398–1518 (flagged: syncretic mystic poet claimed by multiple traditions — kept per the same precedent; Ahmad may strike)
 
 ## I. 826–925 additions (2 rows, 4 persons)
 
-- [ ] Al-Ya'qubi — 812–897
-- [ ] Banu Musa brothers — Muhammad ibn Musa ibn Shakir (805–873), Ahmad ibn Musa ibn Shakir, al-Hasan ibn Musa ibn Shakir (one CSV row; build as three person records)
+- [x] Al-Ya'qubi — 812–897
+- [x] Banu Musa brothers — Muhammad ibn Musa ibn Shakir (805–873), Ahmad ibn Musa ibn Shakir, al-Hasan ibn Musa ibn Shakir (one CSV row; build as three person records)
 
 ## J. 1726–1825 additions (51)
 
-- [ ] Usman dan Fodio — 1754–1817
-- [ ] Muhammad Bello — 1781–1837
+- [x] Usman dan Fodio — 1754–1817
+- [x] Muhammad Bello — 1781–1837
 - [x] Nana Asma'u — 1793–1864 (built under §B)
-- [ ] Muhammad al-Kanemi — 1776–1837
-- [ ] Sulayman Bal — 1730–1775
-- [ ] Abdul Kader Kane — 1745–1806
+- [x] Muhammad al-Kanemi — 1776–1837
+- [x] Sulayman Bal — 1730–1775
+- [x] Abdul Kader Kane — 1745–1806
 - [x] Seku Amadu (Amadu Lobbo) — 1776–1845
-- [ ] Karamokho Alfa — 1700–1751
-- [ ] Ibrahim Sori — 1725–1784
-- [ ] Shah Abdul Aziz Dehlawi — 1746–1824
+- [x] Karamokho Alfa — 1700–1751
+- [x] Ibrahim Sori — 1725–1784
+- [x] Shah Abdul Aziz Dehlawi — 1746–1824
 - [ ] Shah Rafiuddin Dehlawi — 1749–1818
 - [ ] Hyder Ali — 1721–1782
 - [ ] Mir Qasim — 1730–1777

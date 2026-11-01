@@ -1,0 +1,71 @@
+id: person/muhammad-al-kanemi
+class: person
+
+label: { ar: "محمد الأمين الكانمي", en: "Muhammad al-Amin al-Kanemi", ur: "محمد الامین الکانمی" }
+
+names:
+  - { value: "محمد الأمين بن محمد الكانمي", kind: full }
+  - { value: "Muhammad al-Amin bin Muhammad al-Kanami", kind: full }
+  - { value: "Muhammad al-Amin al-Kanemi", kind: alternate }
+  - { value: "Laminu", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "محمد الأمين الكانمي (1776–1837)، عالم كانمبو من مرزق، أنقذ إمبراطورية كانم–برنو من أن تسقط بيد جهاد الفولاني، وصار «شيخ» برنو وحاكمها الفعلي. دافع عن برنو بالسيف وبالرسائل، إذ ناظر عثمان بن فودي ثم محمد بيلو في مشروعية الجهاد ضد بلد مسلم قديم، وأسّس كوكاوا سنة 1814 عاصمةً له، وبقي في الحكم حتى وفاته سنة 1837."
+  en: "Muhammad al-Amin al-Kanemi (1776–1837), a Kanembu scholar of Murzuk who saved the Kanem–Bornu Empire from the Fulani jihad and became Bornu's shehu and de facto ruler. He defended Bornu by arms and by letters, debating Usman dan Fodio and then Muhammad Bello on the lawfulness of a jihad against an old Muslim land, founded Kukawa as his seat in 1814, and remained in power until his death in 1837."
+  ur: "محمد الامین الکانمی (1776–1837)، مرزُق کے کانمبو عالم جنھوں نے کانم بورنو سلطنت کو فولانی جہاد سے بچایا اور بورنو کے شیخ اور عملاً حکمران بن گئے۔ انھوں نے بورنو کا دفاع تلوار اور خطوط دونوں سے کیا، عثمان دان فودیو اور پھر محمد بیلو سے ایک قدیم مسلم ملک کے خلاف جہاد کے جواز پر مناظرہ کیا، 1814 میں کوکاوا کو اپنا مرکز بنایا، اور 1837 میں وفات تک اقتدار میں رہے۔"
+
+roles: [scholar, teacher, general]
+regions: [west-africa-sahel]
+wings: [people]
+
+born:
+  edtf: "1776"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born at Murzuk, in what is now Libya, where his Kanembu father Muhammad Ninka taught. The three articles and Wikidata agree on the year 1776 and no source read gives a fuller date. A bare Gregorian year 1776 spans two Hijri years (1189 and 1190), so no Hijri year is recorded. No place entity for Murzuk exists in the museum, so the birthplace is carried in this note only."
+  sources: [source/wikipedia-muhammad-al-kanemi-en, source/wikipedia-muhammad-al-kanemi-ar, source/wikipedia-muhammad-al-kanemi-ur, source/wikidata-muhammad-al-kanemi]
+
+died:
+  edtf: "1837-06-08"
+  hijri: "1253"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata all give 8 June 1837. The Hijri year 1253 is the tabular conversion of that date, marked derived. He died at Kukawa, his own capital; no place entity for Kukawa exists in the museum, so the place is carried in this note only."
+  sources: [source/wikipedia-muhammad-al-kanemi-en, source/wikipedia-muhammad-al-kanemi-ar, source/wikipedia-muhammad-al-kanemi-ur, source/wikidata-muhammad-al-kanemi]
+
+relations:
+  - { type: corresponded_with, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-al-kanemi-en] }
+  - { type: corresponded_with, target: person/muhammad-bello, sources: [source/wikipedia-muhammad-al-kanemi-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source consulted names a legal school or a Sufi order for al-Kanemi
+      himself. The articles present a scholar and teacher formed at Murzuk,
+      Tripoli and in the Middle East, whose fame rests on defending a Muslim
+      land of eight centuries' standing against Sokoto's claim that its rule
+      justified jihad — his letter debates turned precisely on the nature of
+      jihad and Muslim rule. Bornu's own scholarly tradition is context, not
+      attestation for the man, and Wikidata gives his religion as Islam only.
+    sources: [source/wikipedia-muhammad-al-kanemi-en, source/wikidata-muhammad-al-kanemi]
+
+external_ids: { wikidata: "Q341882" }
+
+sources:
+  - source/wikipedia-muhammad-al-kanemi-en
+  - source/wikipedia-muhammad-al-kanemi-ar
+  - source/wikipedia-muhammad-al-kanemi-ur
+  - source/wikidata-muhammad-al-kanemi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1359356758 of 14 June 2026), Arabic Wikipedia (revision 76080806), Urdu Wikipedia (revision 8157608) and Wikidata Q341882 (item revision 2553966621), all fetched live in-session on 1 November 2026, the QID grounded from the English article's own page property and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. The Arabic article's title spells the nisba الكانمي and the English article's own romanisation of his full name reads al-Kanami; both spellings are carried in the record. His son and successor Umar has no museum record, so no family edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-158j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
