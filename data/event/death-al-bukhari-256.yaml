@@ -1,0 +1,27 @@
+id: event/death-al-bukhari-256
+class: event
+kind: death
+label:
+  ar: "وفاة الإمام البخاري بخرتنك، ليلة الفطر ١ شوال ٢٥٦هـ"
+  en: "Death of Imam al-Bukhari at Khartank, on the festival night of 1 Shawwal 256/31 August 870"
+  ur: "امام بخاری کی وفات خرتنک میں، عید کی رات 1 شوال 256ھ/31 اگست 870ء"
+summary:
+  ar: "مات محمد بن إسماعيل البخاري بخرتنك ليلة الفطر أول ليلة من شوال سنة ٢٥٦هـ، وكان قد بلغ اثنتين وستين سنة غير ثلاث عشرة ليلة، وكان في بيت وحده فوجدوه لما أصبحوا ميتاً، وقُبر بخرتنك {cite:tabaqat-shafiiyya-subki j.2 p. 14}؛ وكان سمعته ليلة بعد صلاة الليل يقول في دعائه: اللهم إنه قد ضاقت عليّ الأرض بما وسعت فاقبضني إليك، فما تم الشهر حتى توفاه الله {cite:tabaqat-shafiiyya-subki j.2 p. 14}."
+  en: "Muhammad ibn Isma'il al-Bukhari died at Khartank on the festival night, the first night of Shawwal 256, having reached sixty-two years less thirteen nights; he was in a house alone and they found him dead when morning came, and he was buried at Khartank {cite:tabaqat-shafiiyya-subki j.2 p. 14}. He had been heard at night, after finishing the night prayer, saying in his supplication: O God, the earth has grown narrow for me despite its breadth, so take me to You — and before the month was out God took him {cite:tabaqat-shafiiyya-subki j.2 p. 14}."
+  ur: "محمد بن اسماعیل بخاری خرتنک میں 256ھ میں شوال کی پہلی رات عید کی رات فوت ہوئے؛ ان کی عمر باسٹھ برس منہا تیرہ راتیں تھی؛ وہ ایک گھر میں اکیلے تھے اور صبح کو مردہ پائے گئے، اور خرتنک ہی میں دفن ہوئے {cite:tabaqat-shafiiyya-subki j.2 p. 14}۔ ان سے سنا گیا کہ رات کی نماز سے فارغ ہو کر وہ دعا میں کہہ رہے تھے: اے اللہ! زمین اپنے وسعت کے باوجود مجھ پر تنگ ہو گئی ہے، مجھے اپنے پاس بلا لے — اور مہینہ پورا ہونے سے پہلے اللہ نے انہیں بلا لیا {cite:tabaqat-shafiiyya-subki j.2 p. 14}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0870-08-31", hijri: "0256-10-01", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة الفطر أول ليلة من شوال سنة ست وخمسين ومائتين وكان بلغ اثنتين وستين سنة غير ثلاث عشرة ليلة {cite:tabaqat-shafiiyya-subki j.2 p. 14} = ٢٥٦هـ/٨٧٠م عند دائرة المعارف {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}؛ التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/khartank, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "المتوفَّى", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/bukhari-expulsion-khartank-256
+class: event
+kind: expulsion
+label:
+  ar: "إخراج البخاري من بخارى ونزوله خرتنك، ٢٥٦هـ"
+  en: "Al-Bukhari expelled from Bukhara and settles at Khartank, 256/870"
+  ur: "بخاری کا بخارا سے اخراج اور خرتنک میں قیام، 256ھ/870ء"
+summary:
+  ar: "لما رجع البخاري إلى بخارى أرسل إليه أميرها خالد بن أحمد الذهلي متولّيها أن يحمل إليه كتب الجامع والتاريخ ليسمع منه، فأبى وقال: لا أُذلّ العلم ولا أحمله إلى أبواب الناس، فإن كان له إلى شيء منه حاجة فليحضر مسجدي أو داري؛ ثم سأله أن يعقد مجلساً خاصاً لأولاده فأبى وقال: لا أُخصّ أحداً، فكانت هذه الوحشة بينهما حتى أُخرج {cite:tabaqat-shafiiyya-subki j.2 p. 14} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}، فنزل خرتنك قرية من قرى سمرقند على فرسخين منها، وكان له بها أقرباء ينزل عندهم {cite:tabaqat-shafiiyya-subki j.2 p. 14}."
+  en: "When al-Bukhari returned to Bukhara, its governor Khalid ibn Ahmad al-Dhuhli sent word asking him to bring the books of the Jami' and the Tarikh so that he might hear from him; al-Bukhari refused, saying: I will not abase learning nor carry it to people's doors — if he needs any of it let him come to my mosque or my house. The governor then asked him to hold a special session for his children, and he refused to single anyone out. This estrangement between them ended in his expulsion {cite:tabaqat-shafiiyya-subki j.2 p. 14} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}; he settled at Khartank, a village of Samarkand two parasangs away, where he had relatives with whom he lodged {cite:tabaqat-shafiiyya-subki j.2 p. 14}."
+  ur: "جب بخاری بخارا لوٹے تو اس کے عامل خالد بن احمد ذہلی نے پیغام بھیجا کہ وہ جامع اور تاریخ کی کتابیں لے کر ان کے پاس آئیں تاکہ وہ سماع کریں؛ انہوں نے انکار کیا اور کہا: میں علم کو ذلیل نہیں کروں گا اور اسے لوگوں کے دروازوں تک نہیں لے جاؤں گا، اگر انہیں اس کی حاجت ہے تو میری مسجد یا میرے گھر آئیں؛ پھر عامل نے کہا کہ وہ صرف ان کے بچوں کے لیے خصوصی مجلس کریں، انہوں نے کسی کو مخصوص کرنے سے انکار کیا۔ اسی بات سے ان میں بے مہری ہوئی یہاں تک کہ انہیں نکال دیا گیا {cite:tabaqat-shafiiyya-subki j.2 p. 14} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}؛ وہ خرتنک آئے جو سمرقند سے دو فرسخ دور ایک گاؤں تھا، جہاں ان کے رشتہ دار تھے جن کے ہاں وہ ٹھہرے {cite:tabaqat-shafiiyya-subki j.2 p. 14}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0870-08~", hijri: "0256-09~", calendar: julian, precision: month, status: tradition, derived: true, note: "إخراجه ونزوله خرتنك قبل وفاته بنحو شهر؛ مات أول ليلة من شوال ٢٥٦هـ بعد أن قال في دعائه: اللهم إنه قد ضاقت عليّ الأرض بما وسعت فاقبضني إليك، فما تم الشهر حتى توفاه الله {cite:tabaqat-shafiiyya-subki j.2 p. 14}؛ التقدير والتحويل مشتقان.", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/khartank, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "المُخرَج", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

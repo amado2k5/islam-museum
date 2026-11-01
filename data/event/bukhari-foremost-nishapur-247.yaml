@@ -1,0 +1,27 @@
+id: event/bukhari-foremost-nishapur-247
+class: event
+kind: other
+label:
+  ar: "«محمد بن إسماعيل أعلم من دخل نيسابور»، ٢٤٧هـ"
+  en: "«Muhammad ibn Isma'il is the most learned man to enter Nishapur», 247/861"
+  ur: "«محمد بن اسماعیل نیشاپور آنے والوں میں سب سے زیادہ علم والا»، 247ھ/861ء"
+summary:
+  ar: "قيل سنة ٢٤٧هـ: محمد بن إسماعيل أعلم من دخل نيسابور {cite:tabaqat-shafiiyya-subki j.2 p. 7}؛ وكانت إقاماته بها مشهودة، حتى إنه لما قدمها استقبله أربعة آلاف رجل على الخيل سوى من ركب بغلاً أو حماراً وسوى الرجالة {cite:tabaqat-shafiiyya-subki j.2 p. 10}، وجاءه مسلم بن الحجاج فقبّل بين عينيه وقال: دعني حتى أقبّل رجليك يا أستاذ الأستاذين وسيد المحدثين ويا طبيب الحديث في علله {cite:tabaqat-shafiiyya-subki j.2 p. 9}."
+  en: "In 247 it was said: Muhammad ibn Isma'il is the most learned man to enter Nishapur {cite:tabaqat-shafiiyya-subki j.2 p. 7}; his stays there were celebrated — when he arrived, four thousand men on horses received him, not counting those on mules and donkeys or on foot {cite:tabaqat-shafiiyya-subki j.2 p. 10}, and Muslim ibn al-Hajjaj came to him, kissed him between the eyes and said: let me kiss your feet, master of masters, chief of the traditionists and physician of hadith in its defects {cite:tabaqat-shafiiyya-subki j.2 p. 9}."
+  ur: "247ھ میں کہا گیا: محمد بن اسماعیل نیشاپور آنے والوں میں سب سے زیادہ علم والا ہے {cite:tabaqat-shafiiyya-subki j.2 p. 7}؛ وہاں ان کا قیام مشہور تھا — جب وہ پہنچے تو چار ہزار سوار ان کے استقبال کو نکلے، سوائے ان کے جو خچر، گدھوں یا پیدل تھے {cite:tabaqat-shafiiyya-subki j.2 p. 10}؛ اور مسلم بن حجاج ان کے پاس آئے، ان کی بین الاجبین بوسہ دیا اور کہا: مجھے آپ کے قدم چومنے دیجیے، اے اساتذہ کے استاد، محدثین کے سردار اور عللِ حدیث کے طبیب {cite:tabaqat-shafiiyya-subki j.2 p. 9}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0861", hijri: "0247", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة سبع وأربعين ومائتين {cite:tabaqat-shafiiyya-subki j.2 p. 7}؛ التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "المحدّث", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

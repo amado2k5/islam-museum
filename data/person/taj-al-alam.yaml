@@ -1,0 +1,75 @@
+id: person/taj-al-alam
+class: person
+
+label: { ar: "صافية الدين تاج العالم", en: "Taj al-Alam", ur: "تاج العالم صفیۃ الدین" }
+
+names:
+  - { value: "Putri Sri Alam", kind: given }
+  - { value: "Putri Sri Alam Permisuri", kind: full }
+  - { value: "Taj ul-Alam Safiatuddin Syah", kind: regnal }
+  - { value: "Sri Sultanah Ratu Safiatuddin Tajul-Alam Syah Johan Berdaulat Zillullahi fil-Alam", kind: regnal }
+  - { value: "Safiatuddin", kind: alternate }
+
+gender: female
+
+summary:
+  ar: "تاج العالم صافية الدين شاه (نحو 1612 – 23 تشرين الأول 1675)، وُلدت بوتري سري علم، سلطانة آتشيه من 1641 إلى 1675 وأولى أربع سلطانات متعاقبات. ابنة إسكندر مودا وزوجة خليفته إسكندر الثاني، اعتلت العرش أرملةً سنة 1641، وحكمت بالتفاوض مع النبلاء والعلماء، واحتملت ضغط الشركة الهولندية على تجارة القصدير والفلفل، ورعت ازدهارًا في الأدب والعلم الشرعي في بلاطها — وفيه ألّف عبد الرؤوف السنكيلي «مرآة الطلاب» بطلبها — وماتت سنة 1675 بلا أولاد."
+  en: "Taj al-Alam Safiatuddin Syah (c. 1612 – 23 October 1675), born Putri Sri Alam, was sultana of Aceh from 1641 to 1675, the first of four successive sultanas. Daughter of Iskandar Muda and wife of his successor Iskandar Thani, she was enthroned as his widow in 1641, governed by negotiation with the nobility and the ulama, withstood VOC pressure over the tin and pepper trades, and presided over a flowering of Islamic literature and learning at her court — Abd al-Ra'uf al-Singkili composed his Mir'at al-Tullab at her request — dying in 1675 without children."
+  ur: "تاج العالم صفیۃ الدین شاہ (تقریباً 1612ء – 23 اکتوبر 1675ء)، پیدائشی نام پوتری سری عالم، 1641ء سے 1675ء تک آچے کی سلطانہ اور یکے بعد دیگرے چار سلطاناؤں میں پہلی تھیں۔ اسکندر مودا کی بیٹی اور ان کے جانشین اسکندر ثانی کی اہلیہ، 1641ء میں بیوگی میں تخت نشین ہوئیں، امراء اور علماء سے مشاورت سے حکمرانی کی، ٹن اور کالی مرچ کی تجارت پر ولندیزی کمپنی کے دباؤ کا سامنا کیا، اور ان کے دربار میں اسلامی ادب و علم نے فروغ پایا — عبد الرؤف سنکیلی نے ان کی فرمائش پر «مرآۃ الطلاب» لکھی — اور 1675ء میں بے اولاد وفات پائیں۔"
+
+roles: [sultan]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1612"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Banda Aceh. The English and Arabic articles and the Wikidata item give 1612; the Indonesian article says the year is usually given as 1612 but comes from later historiography with no contemporary birth record, so it is properly an estimate — the year is built as debated. The year 1612 spans 1020-1021 AH, so no single Hijri year is built. No place entity for Banda Aceh is used here, so no born_in edge is written."
+  sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar, source/wikidata-taj-al-alam]
+
+died:
+  edtf: "1675-10-23"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1086"
+  note: "Died at Banda Aceh; the English, Indonesian and Arabic articles all give 23 October 1675 (the Wikidata item gives the year 1675 only), which falls in 1086 AH (conversion derived). No died_in edge is written."
+  sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar, source/wikidata-taj-al-alam]
+
+relations:
+  - { type: child_of, target: person/iskandar-muda, sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar] }
+  - { type: successor_of, target: person/iskandar-thani, sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the woman herself.
+      The English article reports the Bustan al-Salatin's
+      characterisation of her as virtuous and pious and a Dutch
+      witness's praise of her rule, and describes the Islamic
+      scholarship of her court — Abdurrauf of Singkil writing on
+      Shafi'i jurisprudence, a school named for the court scholar,
+      not for her; the Indonesian article records her patronage and
+      her request for his fiqh work Mir'at al-Tullab. Chronicle
+      characterisation, court Islam and patronage settle no school
+      under the founder's rules, so her faith is recorded as unknown
+      with the record stated.
+    sources: [source/wikipedia-taj-al-alam-en, source/wikipedia-taj-al-alam-id, source/wikipedia-taj-al-alam-ar]
+
+external_ids: { wikidata: "Q7676752" }
+
+sources:
+  - source/wikipedia-taj-al-alam-en
+  - source/wikipedia-taj-al-alam-id
+  - source/wikipedia-taj-al-alam-ar
+  - source/wikidata-taj-al-alam
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Taj ul-Alam' (revision 1376316406 of 23 September 2026), Indonesian Wikipedia 'Safiatuddin dari Aceh' (revision 30077271 of 16 October 2026), Arabic Wikipedia 'صافية الدين تاج العالم' (revision 67382155 of 20 July 2024) and Wikidata Q7676752 (item revision 2554173312 of 6 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Indonesian and Arabic articles agreeing. Existence checked against origin/main before building, by slug variants (taj-al-alam, taj-ul-alam, safiatuddin) and by QID — no record holds this woman. BRIEF CORRECTION: the brief's gloss that she might be Iskandar Thani's daughter is not borne out — all three articles and the Wikidata item make her the daughter of Iskandar Muda and the wife (not daughter) of Iskandar Thani, so her child_of edge targets Iskandar Muda, no child_of edge to Iskandar Thani is written, and the spouse edge is written in Iskandar Thani's record (the elder spouse) in this batch. Queue correction: the queue gives her dates as 1613-1699; the articles give c. 1612-1675 (1699 is only the end of the four-sultanas period 1641-1699), and the brief's 1612-1675 is followed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-178m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
