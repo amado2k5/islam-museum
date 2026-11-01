@@ -147,3 +147,20 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-30 | concept/al-rimaya, concept/al-musara-a | claude | dropped own practice/ duplicates after merging main (#2599 already has both); no new records; undated, not stories
 
 2026-11-01 | place/zanzibar | cursor | claimed
+2026-11-01 | place/medina | devin | claimed
+2026-11-01 | place/zanzibar | cursor | done — 6 nodes (capital move 1830s, Majid's accession 1856, his death 1870, protectorate 1890, revolution 1964, Karume's assassination 1972); reused existing person records and sources; new event records only
+
+2026-11-01 | place/tunis | cursor | claimed
+2026-11-01 | place/tunis | cursor | done — 8 nodes, all reused (Hafsid independence 1230, Eighth Crusade 1270, Marinid entry 1347, Ibn Khaldun's parents 1349, his court post 1352, conquests of 1534 and 1535, Ottoman recovery 1574); subject file only
+
+2026-11-01 | place/algiers | cursor | claimed
+2026-11-01 | place/algiers | cursor | done — 7 nodes, all reused (captures 1516 and 1529, Ottoman allegiance 1519, Charles V expedition 1541, Uluj Ali 1581, end of the beylerbeylik 1587, French occupation 1830); subject file only
+
+2026-11-01 | place/ceuta | cursor | claimed
+2026-11-01 | place/ceuta | cursor | done — 6 nodes (fall of 817/1415 already wired; added occurred_at on the sieges of 1143, 1309, the two of 1419, and 1790). Left the 1415 duplicate and the overlapping 1694–1727 drafts unwired.
+
+2026-11-01 | place/bukhara | cursor | claimed — expansion past the 4 live nodes
+2026-11-01 | place/bukhara | cursor | done — 6 nodes (kept Devin's four; wired the 1220 siege; gave Tabari's year-90 conquest its derived CE year 708 and an occurred_at edge). Subject file left with owner devin.
+
+2026-11-01 | place/medina | devin | done — 14 nodes; 16 Explorer images generated, 1 reject (figure) regenerated clean
+2026-11-01 | place/kabul | devin | claimed

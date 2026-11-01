@@ -1,0 +1,65 @@
+id: person/fatima-bhutto
+class: person
+
+label: { ar: "فاطمة بوتو", en: "Fatima Bhutto", ur: "فاطمہ بھٹو" }
+
+names:
+  - { value: "Fatima Bhutto", kind: full }
+  - { value: "فاطمة بوتو", kind: full }
+
+gender: female
+
+summary:
+  ar: "فاطمة بوتو (وُلدت سنة 1982) كاتبة وكاتبة أعمدة باكستانية، وُلدت في كابول أثناء منفى والدها مرتضى بوتو، ونشأت في سوريا وكراتشي. درست في كلية بارنارد وفي مدرسة الدراسات الشرقية والأفريقية في لندن، ونشرت مجموعة شعرية في الخامسة عشرة، ثم مذكرات عائلتها «أغاني الدم والسيف» (2010)، وروايتي «ظل القمر الهلالي» (2013) و«الهاربون» (2019). وهي ناقدة صريحة لعمتها بينظير بوتو وللسياسة السلالية، ولا تنتمي إلى أي حزب."
+  en: "Fatima Bhutto (born 1982) is a Pakistani writer and columnist, born in Kabul during her father Murtaza Bhutto's exile and raised in Syria and Karachi. Educated at Barnard College and SOAS in London, she published a poetry collection at fifteen, the family memoir Songs of Blood and Sword (2010), and the novels The Shadow of the Crescent Moon (2013) and The Runaways (2019). She is an outspoken critic of her aunt Benazir Bhutto and of dynastic politics, and belongs to no political party."
+  ur: "فاطمہ بھٹو (پیدائش 1982) پاکستانی مصنفہ اور کالم نگار ہیں، جو اپنے والد مرتضیٰ بھٹو کی جلاوطنی کے دوران کابل میں پیدا ہوئیں اور شام و کراچی میں پلی بڑھیں۔ برنارڈ کالج اور لندن کے سواس سے تعلیم پائی؛ پندرہ برس کی عمر میں شاعری کا مجموعہ شائع کیا، پھر خاندانی یادداشت «Songs of Blood and Sword» (2010) اور ناول «The Shadow of the Crescent Moon» (2013) و «The Runaways» (2019) لکھے۔ وہ اپنی پھوپھو بے نظیر بھٹو اور موروثی سیاست کی کھلی ناقد ہیں اور کسی سیاسی جماعت سے وابستہ نہیں۔"
+
+roles: [writer, poet]
+wings: [people, living]
+regions: [south-asia, persia-central-asia]
+
+born:
+  edtf: "1982-05-29"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Kabul on 29 May 1982; the English, Arabic and Urdu articles and Wikidata all agree. The Hijri year 1402 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-fatima-bhutto-en, source/wikipedia-fatima-bhutto-ar, source/wikipedia-fatima-bhutto-ur, source/wikidata-fatima-bhutto]
+
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-fatima-bhutto-en, source/wikipedia-fatima-bhutto-ar, source/wikidata-fatima-bhutto] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      In a 2020 NPR interview Bhutto speaks in her own words of people
+      hearing "that I'm Muslim", and says that if you happen to be a Muslim,
+      "there are more than a billion of us" — a generic self-identification
+      with Islam that names no school or order and, under the founder's
+      rulings of 1 November 2026, settles no value in the faith enum.
+      Wikidata gives Islam generically, which is structured data and settles
+      nothing either. She is Zulfikar Ali Bhutto's granddaughter and Benazir
+      Bhutto's niece, but descent and family background never count toward a
+      person's own faith and were not counted here; no source read names a
+      school or order for Bhutto herself. Her faith is recorded as unknown,
+      with her self-description preserved here.
+    sources: [source/npr-fatima-bhutto-runaways-2020, source/wikipedia-fatima-bhutto-en, source/wikidata-fatima-bhutto]
+
+external_ids: { wikidata: "Q4115693" }
+
+sources:
+  - source/wikipedia-fatima-bhutto-en
+  - source/wikipedia-fatima-bhutto-ar
+  - source/wikipedia-fatima-bhutto-ur
+  - source/wikidata-fatima-bhutto
+  - source/npr-fatima-bhutto-runaways-2020
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Fatima Bhutto' (revision 1380168146 of 14 October 2026), Arabic Wikipedia article 'فاطمة بوتو' (revision 73775364 of 7 March 2026), Urdu Wikipedia article 'فاطمہ بھٹو' (revision 11473113 of 7 July 2026) and Wikidata Q4115693 (item revision 2561055289 of 26 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property; the NPR Morning Edition interview of 17 August 2020 read the same day. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's year 1982 is confirmed by all sources. No record exists for her father Murtaza Bhutto, so no child_of edge is written; her descent is stated in prose only and was not used for faith."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-161a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

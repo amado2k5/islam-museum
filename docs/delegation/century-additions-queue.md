@@ -855,16 +855,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nimah Ismail Nawwab — 1960–Living
 - [x] Maha Akhtar — 1966–Living
 - [x] Layla AlAmmar — 1982–Living
-- [ ] Zulifikar Ghose — 1935–2022
-- [ ] Bapsi Sidhwa (Contemporary) — 1938–Living
-- [ ] Mohsin Hamid — 1971–Living
-- [ ] Kamila Shamsie — 1973–Living
-- [ ] HM Naqvi — 1973–Living
-- [ ] Daniyal Mueenuddin — 1963–Living
-- [ ] Mohammed Hanif — 1965–Living
-- [ ] Fatima Bhutto — 1982–Living
-- [ ] Uzma Aslam Khan — 1969–Living
-- [ ] Moniza Alvi — 1954–Living
+- [x] Zulifikar Ghose — 1935–2022
+- [x] Bapsi Sidhwa (Contemporary) — 1938–Living
+- [x] Mohsin Hamid — 1971–Living
+- [x] Kamila Shamsie — 1973–Living
+- [x] HM Naqvi — 1973–Living
+- [x] Daniyal Mueenuddin — 1963–Living
+- [x] Mohammed Hanif — 1965–Living
+- [x] Fatima Bhutto — 1982–Living
+- [x] Uzma Aslam Khan — 1969–Living
+- [x] Moniza Alvi — 1954–Living
 - [ ] Imtiaz Dharker — 1954–Living
 - [ ] Nasser Khalili — 1945–Living
 - [ ] Baron Waheed Alli — 1964–Living
@@ -1761,15 +1761,15 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Karamokho Alfa — 1700–1751
 - [x] Ibrahim Sori — 1725–1784
 - [x] Shah Abdul Aziz Dehlawi — 1746–1824
-- [ ] Shah Rafiuddin Dehlawi — 1749–1818
-- [ ] Hyder Ali — 1721–1782
-- [ ] Mir Qasim — 1730–1777
-- [ ] Shah Alam II — 1728–1806
-- [ ] Emperor Ahmad Shah Bahadur — 1725–1775
-- [ ] Akbar II — 1760–1837
+- [x] Shah Rafiuddin Dehlawi — 1749–1818
+- [x] Hyder Ali — 1721–1782
+- [x] Mir Qasim — 1730–1777
+- [x] Shah Alam II — 1728–1806
+- [x] Emperor Ahmad Shah Bahadur — 1725–1775
+- [x] Akbar II — 1760–1837
 - [x] Bahadur Shah Zafar — 1775–1862
-- [ ] Nawab Asaf-ud-Daula — 1748–1797
-- [ ] Nawab Shuja-ud-Daula — 1732–1775
+- [x] Nawab Asaf-ud-Daula — 1748–1797
+- [x] Nawab Shuja-ud-Daula — 1732–1775
 - [ ] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803
 - [ ] Nawab Wajid Ali Shah — 1822–1887
 - [ ] Haji Shariatullah — 1781–1840
