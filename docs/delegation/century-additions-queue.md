@@ -1737,11 +1737,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Muhammad Shaybani — 1451–1510
 - [x] Ubaydullah Khan of Bukhara — 1487–1539
 - [x] Abdullah Khan II — 1533–1598
-- [ ] Mulla Shah Badakhshi — 1584–1661
-- [ ] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time
-- [ ] Sunan Bonang — 1465–1525
-- [ ] Sunan Giri — 1442–1506
-- [ ] Sunan Muria — 1500–1560
+- [x] Mulla Shah Badakhshi — 1584–1661
+- [~] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time — STOPPED (wave 151 §G, 2026-11-01): the row's dates fit no successor of Simnani (d. 1336); his named student Mir Sayyid Ali Hamadani already has two records on main (duplicates lane), his actual khalifa Mahmud Muzdaqani is not individually sourceable, and Ashraf Jahangir Semnani is not a successor — founder decision pending
+- [x] Sunan Bonang — 1465–1525
+- [x] Sunan Giri — 1442–1506
+- [x] Sunan Muria — 1500–1560
 - [ ] Sunan Drajat — 1470–1522
 - [ ] Yahya Bey Dukaginzade — 1498–1582
 - [ ] Nev'î — 1533–1599
