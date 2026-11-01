@@ -905,11 +905,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Naguib Sawiris (Contemporary Icon) — 1954–Living
 - [x] Mohamed Mansour — 1948–Living
 - [x] Youssef Mansour — 1945–Living
-- [ ] Yasseen Mansour — 1961–Living
-- [ ] Hussein Sajwani — 1953–Living
-- [ ] M. A. Yusuff Ali — 1955–Living
-- [ ] Renuka Jagtiani (Contemporary) — 1954–Living
-- [ ] Joy Alukkas (Contemporary) — 1956–Living
+- [x] Yasseen Mansour — 1961–Living
+- [x] Hussein Sajwani — 1953–Living
+- [x] M. A. Yusuff Ali — 1955–Living
+- [x] Renuka Jagtiani (Contemporary) — 1954–Living
+- [x] Joy Alukkas (Contemporary) — 1956–Living
 - [ ] Ravi Pillai (Contemporary) — 1953–Living
 - [ ] Sunny Varkey — 1957–Living
 - [ ] Yusuf Hamied — 1936–Living
@@ -1817,11 +1817,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Prince Murad Baksh — 1624–1661
 - [x] Princess Jahanara Begum — 1614–1681
 - [x] Princess Roshanara Begum — 1617–1671
-- [ ] Princess Zeb-un-Nissa — 1638–1702
-- [ ] Nawab Shaista Khan — 1600–1694
-- [ ] Mir Jumla II — 1591–1663
-- [ ] Asad Khan — 1625–1716
-- [ ] Mahabat Khan II — 1610–1678
+- [x] Princess Zeb-un-Nissa — 1638–1702
+- [x] Nawab Shaista Khan — 1600–1694
+- [x] Mir Jumla II — 1591–1663
+- [x] Asad Khan — 1625–1716
+- [x] Mahabat Khan II — 1610–1678
 - [ ] Ali Mardan Khan — 1590–1657
 - [ ] Ustad Ahmad Lahori — 1580–1649
 - [ ] Mohammad Salih Kanbu — 1608–1675
