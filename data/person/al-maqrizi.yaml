@@ -15,9 +15,19 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1442-02-14~", hijri: "0845-09-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الخميس سادس عشر شهر رمضان 845 بالقاهرة ودفن بمقبرة الصوفية خارج باب النصر {cite:shadharat-dhahab p. 255}؛ سنة 845هـ {cite:kashf-zunun-furqan p. 625}", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan] }
+born: { edtf: "1364~", hijri: "0765", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة فيما يظهر سنة ٧٦٥هـ؛ ابن العماد: بعد سنة ستين وسبعمائة {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
 relations:
   - { type: authored, target: work/imta-al-asma-maqrizi, sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/ittiaz-al-hunafa, sources: [source/kashf-zunun-furqan] }
+  - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/birth-al-maqrizi-765, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-maqrizi-father-death-779, role: "الابن", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-maqrizi-muhtasib-801, role: "المحتسب", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-maqrizi-muhtasib-807, role: "المحتسب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-maqrizi-damascus-810, role: "المقيم والموظف", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-maqrizi-return-egypt-820, role: "المؤرخ المتفرغ", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-maqrizi-last-child-826, role: "الأب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-maqrizi-845, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 773–781"
