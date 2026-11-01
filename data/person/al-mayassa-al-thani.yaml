@@ -1,0 +1,41 @@
+id: person/al-mayassa-al-thani
+class: person
+label: { ar: "المياسة بنت حمد آل ثاني", en: "Al-Mayassa bint Hamad Al Thani", ur: "المیاسہ بنت حمد آل ثانی" }
+names:
+  - { value: "Al-Mayassa bint Hamad bin Khalifa Al Thani", kind: full }
+  - { value: "المياسة بنت حمد بن خليفة آل ثاني", kind: full }
+  - { value: "Sheikha Al Mayassa bint Hamad Al Thani", kind: alternate }
+gender: female
+summary:
+  ar: "المياسة بنت حمد آل ثاني (وُلدت في 29 سبتمبر 1983) هي رئيسة متاحف قطر وابنة أمير قطر السابق حمد بن خليفة آل ثاني وشقيقة الأمير الحالي تميم بن حمد آل ثاني. أسست منظمة أيادي الخير نحو آسيا بعد تخرجها في جامعة ديوك سنة 2005، وأسست معهد الدوحة للأفلام سنة 2010، وعُدّت من أقوى شخصيات عالم الفن نفوذًا، وأشرفت على صفقات اقتناء قياسية لمتاحف قطر منها شراء لوحة غوغان «متى تتزوجين؟» سنة 2015."
+  en: "Al-Mayassa bint Hamad Al Thani (born 29 September 1983) is the chairperson of Qatar Museums, a daughter of Qatar's former Emir Hamad bin Khalifa Al Thani and a sister of the current Emir, Tamim bin Hamad Al Thani. After graduating from Duke University in 2005 she founded the philanthropic organisation Reach Out To Asia, and in 2010 she founded the Doha Film Institute. Ranked among the most influential figures in the art world, she has overseen record acquisitions for Qatar Museums, including the 2015 purchase of Gauguin's 'When Will You Marry?'."
+  ur: "المیاسہ بنت حمد آل ثانی (پیدائش 29 ستمبر 1983) قطر میوزمز کی چیئرپرسن ہیں، قطر کے سابق امیر حمد بن خلیفہ آل ثانی کی صاحبزادی اور موجودہ امیر تمیم بن حمد آل ثانی کی بہن۔ 2005 میں ڈیوک یونیورسٹی سے فارغ ہونے کے بعد انھوں نے فلاحی تنظیم «ریچ آؤٹ ٹو ایشیا» قائم کی اور 2010 میں دوحہ فلم انسٹیٹیوٹ کی بنیاد رکھی۔ انھیں عالمِ فن کی بااثر ترین شخصیات میں شمار کیا جاتا ہے اور ان کی نگرانی میں قطر میوزمز نے ریکارڈ خریداریاں کیں، جن میں 2015 میں گوگین کی مصوری «کب شادی کرو گی؟» کی خرید بھی شامل ہے۔"
+roles: [patron, activist]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1983-09-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English and Arabic articles agree she was born on 29 September 1983. The birthplace is given differently: the English article's infobox names Geneva, Switzerland, while the Arabic article's infobox names Doha; the museum has no place entity for either city, so no born_in relation is written and the disagreement is recorded here. Wikidata gives the year 1983 only. No Hijri year is recorded, as no source attests one."
+  sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani]
+relations:
+  - { type: child_of, target: person/hamad-bin-khalifa-al-thani, sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani] }
+  - { type: member_of, target: group/al-thani, sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikidata-al-mayassa-al-thani] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for Al-Mayassa bint Hamad
+      Al Thani herself. Wikidata's religion statement is Islam (Q432)
+      generically, which under the founder doctrine settles nothing,
+      and the Arabic article's infobox religion field likewise reads
+      Islam — a structured field, which never attests. Her descent
+      from the Al Thani ruling house is family background, which never
+      counts. Her faith is recorded as unknown, unflagged.
+    sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani]
+external_ids: { wikidata: "Q2891977" }
+sources: [source/wikipedia-al-mayassa-al-thani-en, source/wikipedia-al-mayassa-al-thani-ar, source/wikidata-al-mayassa-al-thani]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1375570710 of 18 September 2026), the Arabic Wikipedia article (revision 76504856 of 10 September 2026) and Wikidata Q2891977 (revision 2557334287 of 15 October 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Urdu Wikipedia article exists for her (the Wikidata item carries no urwiki sitelink), so no Urdu source is registered. RELATIONS - the child_of edge to her father Hamad bin Khalifa Al Thani (record exists on main) is written here in the child's record, and member_of group/al-thani follows her brother Tamim's record. The sibling edge to Tamim bin Hamad Al Thani (born 3 June 1980, the elder) is NOT written here: under the one-write rule sibling_of belongs in the elder sibling's record, which already exists on main and is outside this batch — flagged for the coordinator. Her husband Jassim bin Abdulaziz Al Thani and her mother Moza bint Nasser have no person records on main, so no spouse or second child_of edge is written. Faith - Wikidata gives Islam generically and the Arabic infobox likewise, which settles nothing under the founder doctrine, so unknown, unflagged.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-174a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
