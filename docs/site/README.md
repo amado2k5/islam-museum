@@ -40,6 +40,10 @@ A push to `main` does not deploy. Since 21 October 2026 the work is split in two
 
 Agents never start the deploy; when a site change needs to be live, ask the founder in chat and name the commits (`docs/agents/workflow.md` section 9). This is why two builds of the same commit must be byte-identical and why no site-wide number may sit in a shared layout: every changed page costs an upload on the next deploy.
 
+## Job Browser routes (Phase 1)
+
+`/[lang]/jobs/` is the Job Browser home: the fourteen domains with their job and people counts, the crafts shelf (jobs with `hirfa: true`), and an A-to-Z list of every job record in the language with a name filter (a few lines of inline script; the full list is in the HTML without it). Every count on that page is read from the graph at build time and appears on that page only. The shared reads are in `site/src/lib/jobs.ts` (holders are the persons whose `occupations:` name the job). `/[lang]/job/<slug>/` is the job page: `EntityLayout.astro` renders the `JobSections.astro` blocks for class `job` (holders by period, the craft panel, workplaces, bodies, related jobs, the "not yet covered" note, which is pulled out of the prose into a note). A person with `occupations:` gets the `CareerStrip.astro` above Connections; a person without them keeps the roles line. Weight budgets for `/ar/jobs/` are in `scripts/check-weight.ts`; `scripts/check-site.ts` asserts the badge and at least one job row on `/ar/jobs/`. Nothing in a shared layout carries a job count.
+
 ## Where the code lives
 
 | Concern | File |
