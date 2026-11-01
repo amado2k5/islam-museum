@@ -337,7 +337,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     // ---- references inside structured fields (story roles, sides, tensions, locations ...)
     const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
       "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related",
-      "host", "occasion", "moderator", "co_speakers", "who", "by"]);
+      "host", "occasion", "moderator", "co_speakers", "who", "by",
+      "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice"]);
     const walkRefs = (node: any, path: string) => {
       if (!node || typeof node !== "object") return;
       if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
@@ -349,6 +350,27 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       }
     };
     walkRefs(entity, "");
+
+    // ---- job blocks (docs/jobs/schema.md): every cited source exists; targets are of the class their key names; the craft block is present exactly when hirfa is set
+    const clsOf = (id: string) => String(id).split("/")[0];
+    if (entity.class === "job") {
+      if (entity.hirfa && !entity.craft) err(file, "hirfa: true needs a craft block (docs/jobs/schema.md section 1a)");
+      if (!entity.hirfa && entity.craft) err(file, "craft block without hirfa: true");
+    }
+    for (const [i, o] of ((entity.occupations ?? []) as any[]).entries()) {
+      const w = `occupations[${i}]`;
+      for (const s of o.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+      if (o.job && clsOf(o.job) !== "job") err(file, `${w}.job: ${o.job} is not a job`);
+      if (o.under && clsOf(o.under) !== "person") err(file, `${w}.under: ${o.under} is not a person`);
+      if (o.place && clsOf(o.place) !== "place") err(file, `${w}.place: ${o.place} is not a place`);
+      if (o.polity && clsOf(o.polity) !== "polity") err(file, `${w}.polity: ${o.polity} is not a polity`);
+      for (const t of o.trained_under ?? []) if (clsOf(t) !== "person") err(file, `${w}.trained_under: ${t} is not a person`);
+    }
+    for (const [i, j] of ((entity.jobs ?? []) as any[]).entries()) {
+      const w = `jobs[${i}]`;
+      for (const s of j.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+      if (j.job && clsOf(j.job) !== "job") err(file, `${w}.job: ${j.job} is not a job`);
+    }
 
     // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
     // from and no longer decides whether it may enter data/. Any source may be read and rewritten with a citation; a layer
