@@ -21,3 +21,6 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 3)
 
 يروي الشيخ أن ابن عبد الملك في موسم الحج حاول الوصول إلى الحجر الأسود فلم يستطع بسبب الزحام، ثم جاء رجل مضيء الوجه فوسّع له الناس وانتظروا صفين حتى قبّل الحجر، فسأل ابن عبد الملك من هذا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:52:30}. ويقول إن ذلك الرجل كان علي زين العابدين بن الحسين من آل البيت، وإن شاعراً مدحه بقصيدة عجيبة، ويعلّق الشيخ على إجلال الناس له {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:00}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي أن الناس كانوا يفسحون لعلي زين العابدين في الطواف هيبةً له، وأن الفرزدق مدحه بقصيدته المشهورة حين سُئل عنه (انظر [[person/farazdaq|الفرزدق]]). {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:43:00}

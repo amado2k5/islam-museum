@@ -76,3 +76,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **academic view: not yet sourced**: ابھی منسوب نہیں۔
 - **other view: not yet sourced**: ابھی منسوب نہیں۔
 :::
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی کے نزدیک اسلامی تحریکوں کے درمیان اتفاق کا دائرہ تقریباً پچانوے فیصد ہے اور اختلاف کا دائرہ تنگ ہے، اور کہتے ہیں کہ امت نے مسالک کی کثرت قبول کی لیکن تحریکوں کی کثرت قبول نہیں کی۔ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:25:00}

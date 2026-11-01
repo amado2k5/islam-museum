@@ -76,3 +76,6 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يرى عمر عبد الكافي أن مساحات الاتفاق بين الحركات الإسلامية تقارب خمسة وتسعين في المئة، وأن مساحات الخلاف بينها ضيقة، ويقول إن الأمة قبلت التعددية المذهبية ولم تقبل التعددية الحركية. وهذا رأيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:25:00}

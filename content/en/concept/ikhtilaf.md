@@ -76,3 +76,6 @@ The Sheikh poses the question whether conspiracy, or internal disputes among bel
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy holds that the areas of agreement between Islamic movements come to about ninety-five per cent and the areas of disagreement are narrow, and says that the community accepted a plurality of legal schools but has not accepted a plurality of movements. This is his view. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:25:00}

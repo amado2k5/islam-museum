@@ -25,3 +25,6 @@ translators: []
 يروي الشيخ قصة معلم في البصرة كان يحضر درسه خمسمئة طالب، فخشي أن يدخله العجب (needs_source: تفاصيل الرواية) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:31:30}. ويرى الشيخ، وهذا رأي شخصي له، أن الطاعة قد تصير إعجابا بالعمل، وأن العمل فيه آفة، وأن رجاء العبد في عفو الله عن ذنوبه قد يغلب رجاءه في عمله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:51:30}.
 
 ويقول الشيخ إن الفرح بالحسنات مشروع لأن الله وفّق إليها، مع التحرز من الكبر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:03:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي حكمة ابن عطاء الله أن معصية أورثت ذلًّا وانكسارًا خير من طاعة أورثت عزًّا واستكبارًا، ويقول إن أن يبيت العبد نائمًا ويصبح نادمًا خير له من أن يبيت قائمًا ويصبح معجبًا. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:04:30} ويقول إن العبد لا يفرح بالطاعة لأنها صدرت منه، بل لأن الله جعله أهلًا لها. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:05:00}

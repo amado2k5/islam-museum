@@ -119,3 +119,6 @@ He cites a saying that God's treasuries are full, that Musa need not fear losing
 He cites another saying that God's dominion endures and His treasuries are never exhausted, so Musa need not fear the loss of his provision (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:29:00}
 
 He says that Jacob told his sons not to despair of God's mercy, then recounts that Musa was a shepherd for ten years before his mission, and names Pharaoh and Qarun among the hardest trials to bear (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:30:00}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy mentions that at his death Moses asked his Lord to bring him within a stone's throw of the Holy Land. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:55:30}

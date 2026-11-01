@@ -42,3 +42,6 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي قصة المرأة المخزومية التي سرقت، وشفاعة من شفع فيها، وقول النبي إنه لو سرقت فاطمة بنت محمد لقطع يدها، شاهدًا على المساواة في إقامة الحد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:30}
