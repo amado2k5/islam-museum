@@ -24,5 +24,6 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/banu-asad-ibn-abd-al-uzza }
   - { type: participated_in, target: event/first-revelation, role: identified-the-revelation, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-abla-al-kahlawi]
+provenance: { layer: own-research, source: "Ibn Ishaq (Guillaume), Ibn Sa'd (Bewley) and Sahih al-Bukhari (earlier record by Devin, 11 Oct 2026); section on Abla al-Kahlawi's fi-hub-al-mustapha (Assabile transcripts pass5-qwen) added in run assabile-egypt-kahlawi-1", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-kahlawi-1 }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

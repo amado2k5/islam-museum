@@ -38,3 +38,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يذكر عمر عبد الكافي أن أم أيمن كانت المربية التي حضنت النبي في صغره. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:18:00}
+
+## في برنامج عبلة الكحلاوي «في حب المصطفى»
+تجعل [[person/abla-al-kahlawi|عبلة الكحلاوي]] بركة «الأم الثالثة» للنبي، في برنامجها [[work/fi-hub-al-mustapha|«في حب المصطفى»]]، وتقول إنها كانت فتاة شابة، جارية لآمنة، تقوم على خدمتها وخدمة الصبي. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:05:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:06:00} وتروي أنها خرجت معهما إلى المدينة، فلما توفيت آمنة بالأبواء وجدت بركة نفسها فجأة في الطريق القفر بعد أن خلا الهودج من الأم، فصارت هي الأم لصبي تجرّع اليتم مرتين. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:07:30} وتقول إنها لما رأت دموعه جمعت له كل ما فيها من رحمة وحب وحنان، وعادت به في «موكب حزين»، وكان الصبي يبكي في صمت، فرعته تربيةً ومحبة. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:07:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:08:00}

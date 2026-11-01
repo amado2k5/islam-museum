@@ -29,3 +29,6 @@ translators: []
 
 ## للزوار الصغار
 في الليل خرج النبي من بيته بعد أن نام علي في فراشه، واختبأ مع أبي بكر في غار على جبل. ثلاثة أيام كاملة كان ابن أبي بكر يحمل إليهما أخبار قريش، والمشركون يبحثون عنهما فلم يجدوهما.
+
+## في برنامج عبلة الكحلاوي «في حب المصطفى»
+تروي [[person/abla-al-kahlawi|عبلة الكحلاوي]] في برنامجها [[work/fi-hub-al-mustapha|«في حب المصطفى»]] أن قريشًا بعد أن جرّبت سلاح الإهانة والتعذيب ثم سلاح المقاطعة اتفقت على أن تأخذ من كل قبيلة شابًّا قويًّا، فيضربوه ضربة رجل واحد فيتفرق دمه بين القبائل، فجاؤوا وأحاطوا ببيته. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:04:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:05:00} وتقول إنه خرج من بينهم ولم يروه، إذ غلبهم النوم، وإن عليًّا أصرّ أن ينام مكانه ويتغطى ببرده، ونام بيقين أخذه من «صاحب اليقين». {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:05:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:05:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:06:00} وتروي أنه لما قام في الصبح قالوا إنهم لا يريدونه بل يريدون محمدًا، ومضوا. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:06:00} وتقول إن عليًّا بقي في مكة ليقضي ديون النبي. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep15 00:06:30}

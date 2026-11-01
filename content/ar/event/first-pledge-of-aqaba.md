@@ -28,3 +28,6 @@ translators: []
 
 ## للزوار الصغار
 في الحج جاء اثنا عشر رجلاً من المدينة وعاهدوا النبي على أن يعبدوا الله وحده، ولا يسرقوا ولا يزنوا. وأرسل معهم النبي صحابياً يعلمهم القرآن.
+
+## في برنامج عبلة الكحلاوي «في حب المصطفى»
+تروي [[person/abla-al-kahlawi|عبلة الكحلاوي]] في برنامجها [[work/fi-hub-al-mustapha|«في حب المصطفى»]] أن النبي بعد كل ما لقيه، وبعد الطائف الذي تسميه «آخر سهم»، عرض نفسه على القبائل فلم يوافقه أحد، حتى لقي نحو ستة نفر قدموا من المدينة. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:02:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:03:00} وتقول إنهم وجدوا لكلامه قبولًا لأنهم سمعوا من اليهود أن نبيًّا سيأتي يدعو بدعوة إبراهيم، فرجعوا ثم عادوا في السنة الثانية نحو اثني عشر رجلًا فبايعوه. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:03:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:04:00} وتقول إن بيعتهم كانت بيعة أخلاقية: على التوحيد، وألا يسرقوا ولا يزنوا ولا يكذبوا، وإن النبي بعث معهم [[person/musab-ibn-umayr|مصعب بن عمير]]. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:04:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:04:30} وتعلّل تسميتها «بيعة النساء» بأن نساءً كنّ فيها بايعن النبي؛ وفي «الرحيق المختوم» أن بيعتهم كانت على وفق بيعة النساء التي نزلت عام الفتح. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep13 00:09:30} {cite:mubarakpuri-raheeq p.143}
