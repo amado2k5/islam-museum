@@ -905,11 +905,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Naguib Sawiris (Contemporary Icon) — 1954–Living
 - [x] Mohamed Mansour — 1948–Living
 - [x] Youssef Mansour — 1945–Living
-- [ ] Yasseen Mansour — 1961–Living
-- [ ] Hussein Sajwani — 1953–Living
-- [ ] M. A. Yusuff Ali — 1955–Living
-- [ ] Renuka Jagtiani (Contemporary) — 1954–Living
-- [ ] Joy Alukkas (Contemporary) — 1956–Living
+- [x] Yasseen Mansour — 1961–Living
+- [x] Hussein Sajwani — 1953–Living
+- [x] M. A. Yusuff Ali — 1955–Living
+- [x] Renuka Jagtiani (Contemporary) — 1954–Living
+- [x] Joy Alukkas (Contemporary) — 1956–Living
 - [ ] Ravi Pillai (Contemporary) — 1953–Living
 - [ ] Sunny Varkey — 1957–Living
 - [ ] Yusuf Hamied — 1936–Living
