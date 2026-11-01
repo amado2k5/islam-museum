@@ -1,0 +1,72 @@
+id: person/salima-sultan-begum
+class: person
+label:
+  ar: "سليمة سلطان بيغوم"
+  en: "Salima Sultan Begum"
+  ur: "سلیمہ سلطان بیگم"
+names:
+  - {kind: full, lang: en, value: "Salima Sultan Begum"}
+  - {kind: full, lang: ar, value: "سليمة سلطان بيغوم"}
+  - {kind: full, lang: ur, value: "سلیمہ سلطان بیگم"}
+  - {kind: given, lang: en, value: "Salima"}
+  - {kind: pen, lang: en, value: "Makhfi"}
+  - {kind: pen, lang: ar, value: "مخفي"}
+  - {kind: pen, lang: ur, value: "مخفی"}
+gender: female
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources naming her school were found; the Arabic article's religion filing never counts alone under this lane's discipline, so her school is recorded unknown."
+    sources:
+      - source/wikipedia-salima-sultan-begum-en
+      - source/wikipedia-salima-sultan-begum-ar
+      - source/wikipedia-salima-sultan-begum-ur
+      - source/wikidata-salima-sultan-begum
+roles:
+  - royal-consort
+  - poet
+born:
+  edtf: "1539-02-23"
+  hijri: "0945"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Dates follow the English article (23 February 1539, paired there with 25 Ramadan 945); Wikidata instead gives 5 March 1539 – 15 December 1612 with an arithmetically inconsistent Hijri pairing, so that variant is recorded here rather than merged."
+  sources:
+    - source/wikipedia-salima-sultan-begum-en
+    - source/wikidata-salima-sultan-begum
+died:
+  edtf: "1613-01-02"
+  hijri: "1021"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: false
+  note: "Died 2 January 1613; Jahangir's memoirs (the Tuzuk-i-Jahangiri), as quoted by the English article, date her death to 11 Dhu al-Qa'da 1021. Wikidata instead gives 15 December 1612."
+  sources:
+    - source/wikipedia-salima-sultan-begum-en
+    - source/wikidata-salima-sultan-begum
+summary:
+  ar: "سليمة سلطان بيغوم (1539–1613)، إمبراطورة مغولية، ابنة كلرخ بيكم ابنة بابر وحفيدته؛ تزوجت أولًا بيرم خان سنة 1557 ثم ابن عمها أكبر سنة 1561، وكانت من كبار زوجات أكبر، قارئة وشاعرة تكتب باسم «مخفي»، ولعبت دور الوسيط بين أكبر وجهانكير."
+  en: "Salima Sultan Begum (1539–1613), a Mughal empress and granddaughter of Babur through his daughter Gulrukh Begum; married first to Bairam Khan in 1557 and then to her cousin Akbar in 1561, she became a senior wife of Akbar, a reader and poet writing under the pen name Makhfi, and a mediator between Akbar and Jahangir."
+  ur: "سلیمہ سلطان بیگم (1539ء–1613ء)، مغل ملکہ اور بابر کی پوتی (بیٹی گل رخ بیگم سے)؛ پہلی شادی 1557ء میں بیرم خان سے، پھر 1561ء میں اپنے چچا زاد اکبر سے ہوئی؛ اکبر کی سینئر بیویوں میں شامل، قاریہ اور «مخفی» تخلص سے شاعرہ، اور اکبر و جہانگیر کے درمیان ثالث کا کردار ادا کیا۔"
+wings:
+  - people
+regions:
+  - south-asia
+relations: []
+sources:
+  - source/wikipedia-salima-sultan-begum-en
+  - source/wikipedia-salima-sultan-begum-ar
+  - source/wikipedia-salima-sultan-begum-ur
+  - source/wikidata-salima-sultan-begum
+  - source/findly-nur-jahan-1993
+external_ids:
+  wikidata: Q7404601
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Salima Sultan Begum and Wikidata Q7404601, each read at the revision recorded in its source file (revisions fetched live from the MediaWiki API, 31 Oct 2026); dates follow the English article's Tuzuk citation against the conflicting Wikidata variant, which is preserved in the date notes; Findly, Nur Jahan: Empress of Mughal India (1993) for the court setting. Her marriages are stated in prose only: Bairam Khan has no person record on main, and the spouse edge to Akbar is owned by the elder spouse's record under house convention."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147b
+status: {review: published, generated_by: "Muse (Muse Spark 1.3)"}

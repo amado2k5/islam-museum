@@ -1717,11 +1717,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 - [x] Islam Shah Suri — 1510–1554
 - [x] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
-- [ ] Asaf Khan IV — 1569–1641
-- [ ] Khan Zaman Ali Quli Khan — 1520–1567
-- [ ] Muqarrab Khan — 1570–1646
-- [ ] Sultan Salima Sultan Begum — 1539–1613
-- [ ] Sinan Reis — 1470–1546
+- [x] Asaf Khan IV — 1569–1641
+- [x] Khan Zaman Ali Quli Khan — 1520–1567
+- [~] Muqarrab Khan — 1570–1646 — STOPPED (wave 147 §B): those dates select Shaikh Hasan Hassu, Jahangir's surgeon (Rezavi 1992), but Q6937143 and the current EN/UR articles are the later Golconda commander (fl. 1675–1689); the surgeon has no Wikipedia article and no Wikidata item was found under any name variant — founder decision pending (build from scholarship alone, or leave stopped).
+- [x] Sultan Salima Sultan Begum — 1539–1613
+- [x] Sinan Reis — 1470–1546
 - [ ] Shah Mohammad Khodabanda — 1532–1595
 - [ ] Shah Abbas the Great (Abbas I) — 1571–1629
 - [ ] Askia Muhammad I (Askia the Great) — 1443–1538

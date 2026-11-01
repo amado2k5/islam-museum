@@ -1,0 +1,75 @@
+id: person/asaf-khan-iv
+class: person
+label:
+  ar: "أبو الحسن آصف خان"
+  en: "Asaf Khan IV"
+  ur: "ابوالحسن آصف خان"
+names:
+  - {kind: full, lang: en, value: "Abu'l-Hasan Asaf Khan"}
+  - {kind: full, lang: ar, value: "أبو الحسن آصف خان"}
+  - {kind: full, lang: ur, value: "ابوالحسن آصف خان"}
+  - {kind: given, lang: en, value: "Abu'l-Hasan"}
+  - {kind: laqab, lang: en, value: "Asaf Khan"}
+  - {kind: laqab, lang: ar, value: "آصف خان"}
+  - {kind: alternate, lang: en, value: "Asaf Khan IV"}
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources naming his school were found; his Persian origin and Mughal court service do not attest a school, so his school is recorded unknown under this lane's discipline."
+    sources:
+      - source/wikipedia-asaf-khan-iv-en
+      - source/wikipedia-asaf-khan-iv-ar
+      - source/wikipedia-asaf-khan-iv-ur
+      - source/wikidata-asaf-khan-iv
+roles:
+  - statesman
+  - courtier
+born:
+  edtf: "~1569"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Birth year c. 1569 as in the English and Urdu articles; the Gregorian year 1569 spans 976–977 AH, so no single Hijri year is paired. His birthplace is reported inconsistently (Safavid Iran in the English article; Kandahar in the Arabic and Urdu articles and one Wikidata value), so no birthplace is recorded."
+  sources:
+    - source/wikipedia-asaf-khan-iv-en
+    - source/wikidata-asaf-khan-iv
+died:
+  edtf: "1641-06-12"
+  hijri: "1051"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 12 June 1641; the Hijri year 1051 is a tabular conversion (4 Rabi' al-awwal 1051) and is marked derived. He was buried at Shahdara Bagh, Lahore, in the tomb built for him there."
+  sources:
+    - source/wikipedia-asaf-khan-iv-en
+    - source/wikidata-asaf-khan-iv
+summary:
+  ar: "أبو الحسن آصف خان (نحو 1569–1641)، نبيل مغولي من أصل فارسي، ابن ميرزا غياث بيك والأخ الأكبر لنور جهان ووالد أرجمند بانو بيكم (ممتاز محل)؛ كان وكيل جهانكير ثم الوزير الأعظم في عهد شاه جهان، وبنى لنفسه ضريحًا في شاهدرا باغ بلاهور."
+  en: "Abu'l-Hasan Asaf Khan (c. 1569–1641), a Mughal noble of Persian origin, son of Mirza Ghiyas Beg, elder brother of Nur Jahan and father of Arjumand Banu Begum (Mumtaz Mahal); he served as Jahangir's vakil and as grand vizier under Shah Jahan, and built his tomb at Shahdara Bagh in Lahore."
+  ur: "ابوالحسن آصف خان (تقریباً 1569ء–1641ء)، فارسی نژاد مغل امیر، مرزا غیاث بیگ کے بیٹے، نور جہاں کے بڑے بھائی اور ارجمند بانو بیگم (ممتاز محل) کے والد؛ جہانگیر کے وکیل اور شاہ جہاں کے وزیرِ اعظم رہے، لاہور کے شاہدرہ باغ میں ان کا مقبرہ ہے۔"
+wings:
+  - people
+regions:
+  - south-asia
+  - persia-central-asia
+relations:
+  - {type: child_of, target: person/mirza-ghiyas-beg, sources: [source/wikipedia-asaf-khan-iv-en, source/wikidata-asaf-khan-iv]}
+  - {type: sibling_of, target: person/nur-jahan, sources: [source/wikipedia-asaf-khan-iv-en, source/wikidata-asaf-khan-iv]}
+  - {type: buried_in, target: place/lahore, sources: [source/wikipedia-asaf-khan-iv-en]}
+sources:
+  - source/wikipedia-asaf-khan-iv-en
+  - source/wikipedia-asaf-khan-iv-ar
+  - source/wikipedia-asaf-khan-iv-ur
+  - source/wikidata-asaf-khan-iv
+  - source/findly-nur-jahan-1993
+external_ids:
+  wikidata: Q560973
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles on Abu'l-Hasan Asaf Khan and Wikidata Q560973, each read at the revision recorded in its source file (revisions fetched live from the MediaWiki API, 31 Oct 2026); Findly, Nur Jahan: Empress of Mughal India (1993) for the family setting. Identity pinned against the other Asaf Khans by the 1569–1641 dates and the Nur Jahan / Mumtaz Mahal relations; the Ashmolean object item Q50812365 is not this person."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147b
+status: {review: published, generated_by: "Muse (Muse Spark 1.3)"}
