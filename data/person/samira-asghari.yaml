@@ -1,0 +1,36 @@
+id: person/samira-asghari
+class: person
+label: { ar: "سميرة أصغري", en: "Samira Asghari", ur: "سمیرا اصغری" }
+names:
+  - { value: "Samira Asghari", kind: full }
+  - { value: "سمیرا اصغری", kind: full }
+gender: female
+summary:
+  ar: "لاعبة كرة سلة ومسؤولة رياضية أفغانية، وُلدت في جلريز سنة 1994. قائدة منتخب أفغانستان لكرة السلة للسيدات سابقاً، وأصبحت سنة 2018 أول عضو أفغاني في اللجنة الأولمبية الدولية، وواحدة من أصغر أعضائها سناً."
+  en: "Afghan basketball player and sports administrator, born in Jalrez in 1994. A former captain of the Afghanistan women's national basketball team, she became in 2018 the first Afghan member of the International Olympic Committee and one of its youngest members ever."
+  ur: "افغان باسکٹ بال کھلاڑی اور کھیلوں کی منتظم، 1994 میں جلریز میں پیدا ہوئیں۔ افغانستان خواتین کی قومی باسکٹ بال ٹیم کی سابق کپتان، وہ 2018 میں بین الاقوامی اولمپک کمیٹی کی پہلی افغان رکن اور اس کے سب سے کم عمر ارکان میں سے ایک بنیں۔"
+roles: [basketball player, sports administrator]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1994-03-31"
+  hijri: "1414"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 31 March 1994 in the Jalrez District, Afghanistan (no place entity for Jalrez exists in the graph, so the birthplace is recorded here and in prose only). The Hijri year 1414 is the tabular conversion of 31 March 1994 and is marked derived."
+  sources: [source/wikipedia-samira-asghari-en, source/wikidata-samira-asghari]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article — the only Wikipedia article on her — names no religion for her, and Wikidata records no religion (P140) statement. Nationality alone attests nothing. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-samira-asghari-en, source/wikidata-samira-asghari]
+external_ids: { wikidata: "Q92650638" }
+sources: [source/wikipedia-samira-asghari-en, source/wikidata-samira-asghari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1303956828; the only Wikipedia article on her — no Arabic or Urdu article exists) and Wikidata Q92650638 (item revision 2524249922, re-asserted against a second live query), fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record); Jalrez checked for a place entity in the current-main clone (none exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

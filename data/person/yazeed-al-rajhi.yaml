@@ -1,0 +1,37 @@
+id: person/yazeed-al-rajhi
+class: person
+label: { ar: "يزيد الراجحي", en: "Yazeed Al-Rajhi", ur: "یزید الراجحی" }
+names:
+  - { value: "Yazeed Al-Rajhi", kind: full }
+  - { value: "Yazeed Mohamed Al-Rajhi", kind: full }
+  - { value: "يزيد بن محمد بن عبد العزيز الراجحي", kind: nasab }
+gender: male
+summary:
+  ar: "رجل أعمال وسائق راليات سعودي، وُلد في الرياض سنة 1981. بطل كأس العالم للراليات الصحراوية مرتين (2021 و2022)، وفائز برالي داكار 2025 كأول سعودي يحقق ذلك."
+  en: "Saudi businessman and rally driver, born in Riyadh in 1981. A two-time FIA World Cup champion for cross-country rallies (2021 and 2022), he won the 2025 Dakar Rally, the first Saudi driver to do so."
+  ur: "سعودی تاجر اور ریلی ڈرائیور، 1981 میں ریاض میں پیدا ہوئے۔ کراس کنٹری ریلیوں کے دو بار کے ایف آئی اے ورلڈ کپ چیمپئن (2021 اور 2022)، انہوں نے 2025 کا ڈاکار ریلی جیتا، ایسا کرنے والے پہلے سعودی ڈرائیور۔"
+roles: [racing driver, businessman]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1981-05-05"
+  hijri: "1401"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Riyadh (no place entity for Riyadh exists in the graph, so the birthplace is recorded here and in prose only). The day is disputed: the English article and Wikidata give 5 May 1981, which this record follows, while the Arabic article gives 30 September 1981; the conflict is preserved here. The Hijri year 1401 is the tabular conversion of the followed date, 5 May 1981, and is marked derived."
+  sources: [source/wikipedia-yazeed-al-rajhi-en, source/wikipedia-yazeed-al-rajhi-ar, source/wikidata-yazeed-al-rajhi]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for him, and Wikidata records no religion (P140) statement. His family's founding of a bank is family background and attests nothing about his own faith. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-yazeed-al-rajhi-en, source/wikipedia-yazeed-al-rajhi-ar, source/wikidata-yazeed-al-rajhi]
+external_ids: { wikidata: "Q3137270" }
+sources: [source/wikipedia-yazeed-al-rajhi-en, source/wikipedia-yazeed-al-rajhi-ar, source/wikidata-yazeed-al-rajhi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376065351), Arabic Wikipedia (revision 76005283) and Wikidata Q3137270 (item revision 2525052918, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record); Riyadh checked for a place entity in the current-main clone (none exists)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
