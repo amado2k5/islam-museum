@@ -14,3 +14,6 @@ In the hadith of the Night Journey he saw him among the heavens. {cite:sahih-al-
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh cites Musa's prayer that his brother Harun be made a helper from his family to strengthen him, and draws the lesson that in the thick of life a person needs a righteous brother, and if not a brother by mother and father, then a brother in God. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:06:00}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that Harun was born in the 'year of safety', when Israelite notables had agreed with Pharaoh that newborns would not be killed, and Musa in the year of killing (needs_source: the agreement as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:00}

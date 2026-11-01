@@ -57,3 +57,6 @@ The Sheikh says that an imam's error in recitation does not invalidate the praye
 He holds that error in recitation is to be expected, because the Qur'an is precious and anyone may slip over a vowel or a shortening, so one should not be strict about it, and he says that the follower has no prostration of forgetfulness of his own but follows his imam {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:00}.
 
 He says that the imam is a guarantor and the muezzin is trusted, that the imam bears responsibility for the prayer of those behind him, and that the follower follows him in the prostration of forgetfulness even if he himself did not forget (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:30}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh distinguishes establishing prayer from performing it: performing it is praying the noon and sunset prayers and then backbiting, wronging and being untrustworthy with words, money and children; establishing it is that it forbids one indecency, wrongdoing and oppression; he cites that Ibrahim settled his offspring by the House 'that they may establish prayer'. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}
