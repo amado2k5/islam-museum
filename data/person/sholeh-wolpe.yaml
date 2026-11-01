@@ -1,0 +1,34 @@
+id: person/sholeh-wolpe
+class: person
+label: { ar: "شعله ولپی", en: "Sholeh Wolpé", ur: "شعلہ ولپی" }
+names:
+  - { value: "Sholeh Wolpé", kind: full }
+  - { value: "شعله ولپی", kind: full }
+gender: female
+summary:
+  ar: "شاعرة وكاتبة مسرحية ومترجمة أدبية إيرانية أمريكية، وُلدت في طهران سنة 1962. عُرفت بترجماتها الإنجليزية لشعر فروغ فرخزاد وعطار النيسابوري، وبمجموعاتها الشعرية ومسرحياتها، وهي الكاتبة المقيمة في جامعة كاليفورنيا في إرفاين."
+  en: "Iranian-American poet, playwright and literary translator, born in Tehran in 1962. Known for her English translations of Forugh Farrokhzad and Attar of Nishapur and for her own poetry collections and plays, she is Writer-in-Residence at the University of California, Irvine."
+  ur: "ایرانی نژاد امریکی شاعرہ، ڈراما نگار اور ادبی مترجم، 1962 میں تہران میں پیدا ہوئیں۔ فروغ فرخزاد اور عطار نیشاپوری کے انگریزی تراجم اور اپنے شعری مجموعوں اور ڈراموں کے لیے معروف؛ یونیورسٹی آف کیلیفورنیا، اروائن میں رائٹر ان ریزیڈنس ہیں۔"
+roles: [poet, writer, translator, playwright]
+wings: [people, living]
+regions: [persia-central-asia, americas-oceania]
+born:
+  edtf: "1962"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English article gives only the birth year 1962 (born in Tehran). Wikidata gives 6 March 1962, a day and month stated in no article read, so the record keeps year precision and treats that date as an unverified variant. A bare Gregorian year 1962 spans two Hijri years (1381 and 1382), so no Hijri year is recorded. Tehran has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
+  sources: [source/wikipedia-sholeh-wolpe-en, source/wikidata-sholeh-wolpe]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Urdu article names a religion for her, and Wikidata records no religion (P140) statement. The Sufi poetry of Attar and the verse of Farrokhzad are the subjects of her translation work, not evidence of her own faith, and her Iranian birth is not evidence either. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-sholeh-wolpe-en, source/wikipedia-sholeh-wolpe-ur, source/wikidata-sholeh-wolpe]
+external_ids: { wikidata: "Q7500222" }
+sources: [source/wikipedia-sholeh-wolpe-en, source/wikipedia-sholeh-wolpe-ur, source/wikidata-sholeh-wolpe]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381335222), Urdu Wikipedia (revision 11908645) and Wikidata Q7500222 (item revision 2559459847, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed from the Urdu article; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub; her husband, the sociologist Edward Telles, has no record, so the marriage is carried in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-155a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
