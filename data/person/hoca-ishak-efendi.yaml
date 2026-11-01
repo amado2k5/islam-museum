@@ -1,0 +1,69 @@
+id: person/hoca-ishak-efendi
+class: person
+
+label: { ar: "خوجه إسحاق أفندي", en: "Hoca İshak Efendi", ur: "خوجہ اسحاق آفندی" }
+
+names:
+  - { value: "İshak ibn Abdullah", kind: full }
+  - { value: "Yanyavî İshak", kind: nisba }
+  - { value: "Başhoca", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "إسحاق بن عبد الله، المعروف بخوجه إسحاق أفندي وباش خوجه (نحو 1774 – 1836)، رياضي ومهندس ومربٍّ عثماني من آرطا (ناردا) من أعمال يانيا، وكبير معلّمي مدرسة الهندسة العسكرية السلطانية في إسطنبول. وهو من روّاد العلم الحديث في تركيا؛ أدخل حساب التفاضل والتكامل إلى التعليم العثماني، وجمع «مجموعة العلوم الرياضية» في أربعة مجلدات (1831–1834)، وترجم وألّف نحو ثلاثة عشر مجلدًا آخر من كتب العلوم."
+  en: "İshak ibn Abdullah, known as Hoca İshak Efendi and as Başhoca (c. 1774 – 1836), was an Ottoman mathematician, engineer and educator from Arta (Narda) in the Yanya province, head instructor (başhoca) of the Imperial School of Military Engineering in Istanbul. A pioneer of modern science in Turkey, he was the first to treat differential and integral calculus in Ottoman teaching and compiled the four-volume Mecmua-i Ulum-i Riyaziyye (1831–1834), translating and writing some thirteen further volumes of scientific textbooks."
+  ur: "اسحاق بن عبد اللہ، خوجہ اسحاق آفندی اور باش خوجہ کے نام سے مشہور (تقریباً 1774ء – 1836ء)، یانیہ کے علاقے آرطا (ناردا) سے تعلق رکھنے والے عثمانی ریاضی دان، انجینئر اور معلم تھے، اور استنبول کی سلطانی عسکری انجینئرنگ مدرسے کے باش خوجہ (سربراہ استاد) رہے۔ ترکی میں جدید سائنس کے بانیوں میں سے تھے؛ عثمانی تعلیم میں تفاضلی و تکاملی حساب کا ذکر سب سے پہلے انہوں نے کیا اور چار جلدوں پر مشتمل «مجموعۂ علومِ ریاضیہ» (1831–1834ء) مرتب کی، اس کے علاوہ سائنسی کتب کے تقریباً تیرہ مزید جلدوں کا ترجمہ و تصنیف کیا۔"
+
+roles: [mathematician, engineer, teacher, writer]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1774"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Arta (Narda) in the Yanya province. Most texts give about 1774, the Turkish article and Wikidata the year flatly, the English about 1774. A rival scholarly hypothesis identifies him with Sultanzade İshak Bey, a kapıcıbaşı's son born in 1748, the question Mehmet Seyitdanlıoğlu's article poses; the majority reading is built and the rival preserved. The year spans 1187–1188 AH, so no Hijri year is built."
+  sources: [source/wikipedia-hoca-ishak-efendi-en, source/wikipedia-hoca-ishak-efendi-tr, source/dia-ishak-efendi-bashoca, source/wikidata-hoca-ishak-efendi]
+
+died:
+  edtf: "1836"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Died at Suez and was buried there, returning from the Medina restoration mission on which court intrigue had sent him. The TDV entry, the Turkish article and the German article give 1836; the English article gives the return in 1834 or 1835 and Wikidata gives 1835; the monograph tradition in the Springer literature gives 1834. All three readings are preserved and 1836 is built on the TDV entry and the Turkish article. The year spans 1251–1252 AH, so no Hijri year is built."
+  sources: [source/dia-ishak-efendi-bashoca, source/wikipedia-hoca-ishak-efendi-tr, source/wikipedia-hoca-ishak-efendi-en, source/wikidata-hoca-ishak-efendi]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The TDV entry records that he was of a Jewish family and
+      that he and his brother Esad Efendi entered Islam after
+      their father's death and came to Istanbul. The English
+      article instead says his father had converted to Islam, and
+      the Turkish article reports that Fuat Köprülü and Bursalı
+      Mehmed Tahir disputed the Jewish origin altogether,
+      claiming he was a Turk, some sources making him a Muslim of
+      Karlova. No text names a school or order for the man
+      himself, and conversion and family background settle no
+      value under the founder's rule, so the value is unknown
+      with the attestations stated in full. Wikidata's religion
+      statement files Islam generically and is not relied on.
+    sources: [source/dia-ishak-efendi-bashoca, source/wikipedia-hoca-ishak-efendi-en, source/wikipedia-hoca-ishak-efendi-tr]
+
+external_ids: { wikidata: "Q3138918" }
+
+sources:
+  - source/wikipedia-hoca-ishak-efendi-en
+  - source/wikipedia-hoca-ishak-efendi-tr
+  - source/dia-ishak-efendi-bashoca
+  - source/wikidata-hoca-ishak-efendi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia «Ishak Efendi» (revision 1363995970 of 13 July 2026), Turkish Wikipedia «Hoca İshak Efendi» (revision 38242714 of 13 October 2026), Ekmeleddin İhsanoğlu's entry «İSHAK EFENDİ, Başhoca» in the TDV İslâm Ansiklopedisi (2000, online edition, read in-session 1 November 2026) and Wikidata Q3138918 (item revision 2555234553 of 9 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the Turkish article's own page property, the English article agreeing. No Arabic or Urdu article exists. IDENTITY RESOLUTION — the queue row gives 1690–1750 and its own annotation warns of conflation with the d. 1834 namesake. No source read attests any Hoca İshak Efendi of 1690–1750, not the English, Turkish, German, French or Romanian articles, not the TDV encyclopaedia, not Wikidata; the only 1750 attached to this name anywhere is a demonstrably wrong date for his Mecmua-i Ulum-i Riyaziyye (published 1831–1834) in one geophysics survey table, and the only early birth year in the literature is the rival 1748 hypothesis for this same man. The name is borne by exactly one attested figure, the Mühendishane başhoca, and this record is built for him with the sources' dates, the queue's 1690–1750 flagged as a corruption of his row; Ebuishakzade İshak Efendi (1679–1734), the şeyhülislam, and Harputlu İshak Efendi (1801–1892) are different men who answer to different names. Existence checked against origin/main before building — no record holds this man under hoca-ishak-efendi, ishak or any name fragment. No place entity exists for Arta or Suez, so no born_in or died_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-174m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
