@@ -1,0 +1,30 @@
+id: event/kulayni-shaykh-rayy
+class: event
+kind: other
+label:
+  ar: "الكليني شيخ الإمامية بالري، نحو العقد الثاني من القرن الرابع"
+  en: "al-Kulayni, shaykh of the Imamiyya at Rayy, about the second decade of the fourth century"
+  ur: "کلینی، رے میں امامیہ کے شیخ، تقریباً چوتھی صدی کا دوسرا عشرہ"
+summary:
+  ar: "روى [[person/al-kulayni|الكليني]] عن عدة من علماء [[place/rayy|الري]] بينهم خاله [[person/muhammad-ibn-ali-alan|محمد بن علي الكليني]] المعروف بـ«علان»، ويصفه النجاشي بأنه شيخ الإمامية بالري في زمانه؛ وسمع من [[person/muhammad-ibn-ismail-al-naysaburi|محمد بن إسماعيل النيسابوري]] راوي أخبار [[person/al-fadl-ibn-shadhan|الفضل بن شاذان]] وآرائه، ولم يُعرف هل كان ذلك بنيسابور أم بغيرها {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401}."
+  en: "al-Kulayni transmitted from several scholars of Rayy, among them his maternal uncle Muhammad ibn Ali al-Kulayni, known as 'Alan, and al-Najashi describes him as the shaykh of the Imamiyya in Rayy in his time; he also heard Muhammad ibn Isma'il al-Naysaburi, transmitter of the traditions and views of the Imami scholar al-Fadl ibn Shadhan — whether at Nishapur or elsewhere is unknown {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401}."
+  ur: "کلینی نے [[place/rayy|رے]] کے متعدد علماء سے روایت کی جن میں ان کے ماموں [[person/muhammad-ibn-ali-alan|محمد بن علی کلینی «علان»]] بھی تھے، اور نجاشی انہیں اپنے زمانے میں رے کے امامیہ کا شیخ لکھتا ہے؛ انھوں نے [[person/muhammad-ibn-ismail-al-naysaburi|محمد بن اسماعیل نیشابوری]] سے سماع کی جو امامی عالم [[person/al-fadl-ibn-shadhan|فضل بن شاذان]] کی روایات و آراء کا راوی تھا — آیا یہ نیشاپور میں ہوا یا کہیں اور، معلوم نہیں {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0910~", calendar: julian, precision: decade, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ وقع بين تلمذته بقم وانتقاله إلى بغداد {cite:encyclopaedia-of-islam-2 vol. 5 p. 400-401}؛ التقدير مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-kulayni, role: "شيخ الإمامية", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/muhammad-ibn-ali-alan, role: "الخال والشيخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/muhammad-ibn-ismail-al-naysaburi, role: "الشيخ المسمّع", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-fadl-ibn-shadhan, role: "صاحب المرويات", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5, art. al-Kulaynī, printed pp. 400-401 (W. Madelung)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-kulayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
