@@ -1,0 +1,70 @@
+id: person/askia-ishaq-ii
+class: person
+
+label: { ar: "أسكيا إسحاق الثاني", en: "Askia Ishaq II", ur: "آسکیا اسحاق دوم" }
+
+names:
+  - { value: "Ishaq ibn Dawud ibn Muhammad al-Turi", kind: full }
+  - { value: "Askia Ishaq II", kind: regnal }
+  - { value: "Askia Ishaq Zughrani", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "آخر حاكم فعلي لإمبراطورية صنغاي (حكم 1588–1591)، ابن أسكيا داود. بُويع في جاو في 10 أبريل 1588، فواجه الغزو المغربي السعدي الذي أرسله أحمد المنصور، فانهار جيشه أمام أسلحة المغاربة النارية في معركة تونديبي (مارس 1591) ونُهبت جاو وتمبكتو وجيني. وبعد خلعه في المنفى قُتل في بيلانغا في أبريل 1592."
+  en: "Last effective Askia of the Songhai Empire (r. 1588-1591), a son of Askia Dawud. Proclaimed at Gao on 10 April 1588, he faced the Saadian Moroccan invasion sent by Ahmad al-Mansur; his army broke before Moroccan firearms at the Battle of Tondibi (March 1591) and Gao, Timbuktu and Djenne were looted. Deposed in exile, he was killed at Bilanga in April 1592."
+  ur: "سلطنت سونگھائی کے آخری مؤثر آسکیا (دورِ حکومت 1588ء–1591ء)، آسکیا داؤد کے بیٹے۔ 10 اپریل 1588ء کو گاؤ میں تخت نشین ہوئے؛ احمد المنصور کی بھیجی ہوئی سعدی مراکشی فوج کا سامنا کیا، توندیبی کی لڑائی (مارچ 1591ء) میں ان کی فوج مراکشی آتشیں اسلحے کے سامنے بکھر گئی اور گاؤ، تمبکٹو اور جینے لوٹے گئے۔ جلاوطنی میں معزولی کے بعد اپریل 1592ء میں بیلانگا میں قتل ہوئے۔"
+
+roles: [ruler]
+regions: [west-africa-sahel]
+wings: [people]
+
+born:
+  edtf: "~1550"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article gives c. 1550, born at Gao, and notes (after Hunwick) that he was the first son born to Dawud after Dawud's accession in 1549. Wikidata carries no birth claim for him. The year 1550 spans 957-958 AH, so no Hijri year is paired."
+  sources:
+    - source/wikipedia-askia-ishaq-ii-en
+
+died:
+  edtf: "1592-04"
+  hijri: "1000"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: true
+  note: "Deposed after his defeat at Zanzan (14 October 1591) and exiled toward Gurma, he was killed at Bilanga in April 1592 (English article, citing Gomez and the Tarikh al-Fattash); the same article's infobox brackets the death as March/April 1592, hence month precision and debated status. April 1592 falls wholly within 1000 AH, so the Hijri year 1000 is paired (derived). The queue's death year 1595 is supported by no source read. Bilanga has no place entity in the museum, so the place is recorded here only."
+  sources:
+    - source/wikipedia-askia-ishaq-ii-en
+    - source/wikipedia-askia-ishaq-ii-ar
+
+relations:
+  - { type: child_of, target: person/askia-dawud, sources: [source/wikipedia-askia-ishaq-ii-en] }
+  - { type: born_in, target: place/gao, sources: [source/wikipedia-askia-ishaq-ii-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names his school. He was the Muslim ruler of the by then deeply Islamised Songhai Empire: proclaimed Askia at Gao in 1588, he answered Ahmad al-Mansur's demand for the Taghaza salt revenues with defiance and personally led the empire's defence until Tondibi (English article). The Arabic article is an unsourced stub and names no religion; Wikidata carries no claims for him at all. Documented rule of a Muslim state without a named school is recorded unknown under the lane rule."
+    sources:
+      - source/wikipedia-askia-ishaq-ii-en
+      - source/wikipedia-askia-ishaq-ii-ar
+      - source/wikidata-askia-ishaq-ii
+
+external_ids: { wikidata: "Q2866681" }
+
+sources:
+  - source/wikipedia-askia-ishaq-ii-en
+  - source/wikipedia-askia-ishaq-ii-ar
+  - source/wikidata-askia-ishaq-ii
+
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Askia Ishaq II and Wikidata Q2866681, read at the revisions recorded in their source files (revisions fetched live from the MediaWiki API, 31 Oct 2026). Wikidata's item carries no birth, death, parentage or religion claims, so the record rests on the articles; the queue's death year (1595) is contradicted by them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-148b
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

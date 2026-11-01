@@ -1,0 +1,60 @@
+id: person/askia-dawud
+class: person
+
+label: { ar: "أسكيا داوود", en: "Askia Dawud", ur: "آسکیا داؤد" }
+
+names:
+  - { value: "Dawud ibn Muhammad al-Turi", kind: full }
+  - { value: "Askia Dawud", kind: regnal }
+  - { value: "Askia Daoud", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "حاكم (أسكيا) إمبراطورية صنغاي (حكم 1549–1582)، ابن أسكيا محمد الأول. كان عهده الطويل ذروة سلام الإمبراطورية وازدهارها: غزا الموسي وبورغو ومالي بنجاح، وأعاد تنظيم الجيش، ورمّم مساجد تمبكتو، وأنشأ مكتبات عامة، واشتهر بتدينه ومعرفته بالفقه الإسلامي وحفظه للقرآن. مات في تونديبي سنة 1582 ودُفن في جاو."
+  en: "Askia (ruler) of the Songhai Empire (r. 1549-1582), a son of Askia Muhammad I. His long reign was the empire's peak of peace and prosperity: he campaigned successfully against the Mossi, Borgu and Mali, reorganised the army, refurbished Timbuktu's mosques, founded public libraries, and was famed for his devotion to Islam, his knowledge of Islamic law and his memorisation of the Qur'an. He died at Tondibi in 1582 and was buried at Gao."
+  ur: "سلطنت سونگھائی کے آسکیا (دورِ حکومت 1549ء–1582ء)، آسکیا محمد اول کے بیٹے۔ ان کا طویل عہد سلطنت کے امن و خوشحالی کی انتہا تھا: موسی، بورگو اور مالی کے خلاف کامیاب مہمات چلائیں، فوج کی تنظیم نو کی، تمبکٹو کی مساجد کی مرمت کرائی، عوامی کتب خانے قائم کیے، اور اسلام سے لگاؤ، فقہ کی معرفت اور حفظِ قرآن کے لیے مشہور ہوئے۔ 1582ء میں توندیبی میں وفات پائی اور گاؤ میں دفن ہوئے۔"
+
+roles: [ruler]
+regions: [west-africa-sahel]
+wings: [people]
+
+died:
+  edtf: "1582"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died a natural death in 1582 at Tondibi, on one of his estates (English article, citing Gomez); Tondibi has no place entity in the museum, so the place is recorded here only. His body was brought downriver to Gao for burial. The year 1582 spans 989-990 AH, so no Hijri year is paired. No born block is recorded: his birth is unattested - the queue's 1549 is his accession year, the English article leaves his birth blank, and Wikidata's only birth value is a 17th-century placeholder."
+  sources:
+    - source/wikipedia-askia-daoud-en
+    - source/wikipedia-askia-daoud-ar
+    - source/wikidata-askia-daoud
+
+relations:
+  - { type: child_of, target: person/askia-muhammad-i, sources: [source/wikipedia-askia-daoud-en, source/wikidata-askia-daoud] }
+  - { type: buried_in, target: place/gao, sources: [source/wikipedia-askia-daoud-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names his school. His practice of Islam is documented in full: he and his brothers received a good Islamic education; he was renowned for his devotion to Islam, was well-versed in Islamic law and had memorised the Qur'an, gave generously to the scholars of Timbuktu, refurbished the three mosques of the University of Timbuktu, and founded public libraries and provincial treasuries to promote Islamic education (English article, citing Levtzion and Gomez). Documented practice without a named school is recorded unknown under the lane rule."
+    sources:
+      - source/wikipedia-askia-daoud-en
+      - source/wikipedia-askia-daoud-ar
+      - source/wikidata-askia-daoud
+
+external_ids: { wikidata: "Q2866678" }
+
+sources:
+  - source/wikipedia-askia-daoud-en
+  - source/wikipedia-askia-daoud-ar
+  - source/wikidata-askia-daoud
+
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Askia Daoud and Wikidata Q2866678, each read at the revision recorded in its source file (revisions fetched live from the MediaWiki API, 31 Oct 2026). The queue's dates for him (1549-1582) are his reign, not his life: his birth is unattested in every source read."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-148b
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
