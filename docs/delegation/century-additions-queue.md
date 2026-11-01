@@ -811,11 +811,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Reema Juffali — 1992–Living
 - [x] Raha Moharrak — 1986–Living
 - [x] Samira Asghari — 1994–Living
-- [ ] Tahmina Kohistani — 1989–Living
-- [ ] Manizha Talash — 2002–Living
-- [ ] Kimia Alizadeh — 1998–Living
-- [ ] Elnaz Rekabi — 1989–Living
-- [ ] Sarra Besbes — 1989–Living
+- [x] Tahmina Kohistani — 1989–Living
+- [x] Manizha Talash — 2002–Living
+- [x] Kimia Alizadeh — 1998–Living
+- [x] Elnaz Rekabi — 1989–Living
+- [x] Sarra Besbes — 1989–Living
 - [ ] Inès Boubakri — 1988–Living
 - [ ] Habiba Ghribi — 1984–Living
 - [ ] Oussama Mellouli — 1984–Living
@@ -1732,16 +1732,16 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Iskandar Muda — 1583–1636
 - [x] Sultan Trenggana of Demak — 1483–1546
 - [x] Maulana Yusuf of Banten — 1526–1570
-- [ ] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
-- [ ] Sultan Alauddin of Gowa — 1587–1639
-- [ ] Muhammad Shaybani — 1451–1510
-- [ ] Ubaydullah Khan of Bukhara — 1487–1539
-- [ ] Abdullah Khan II — 1533–1598
-- [ ] Mulla Shah Badakhshi — 1584–1661
-- [ ] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time
-- [ ] Sunan Bonang — 1465–1525
-- [ ] Sunan Giri — 1442–1506
-- [ ] Sunan Muria — 1500–1560
+- [x] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
+- [x] Sultan Alauddin of Gowa — 1587–1639
+- [x] Muhammad Shaybani — 1451–1510
+- [x] Ubaydullah Khan of Bukhara — 1487–1539
+- [x] Abdullah Khan II — 1533–1598
+- [x] Mulla Shah Badakhshi — 1584–1661
+- [~] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time — STOPPED (wave 151 §G, 2026-11-01): the row's dates fit no successor of Simnani (d. 1336); his named student Mir Sayyid Ali Hamadani already has two records on main (duplicates lane), his actual khalifa Mahmud Muzdaqani is not individually sourceable, and Ashraf Jahangir Semnani is not a successor — founder decision pending
+- [x] Sunan Bonang — 1465–1525
+- [x] Sunan Giri — 1442–1506
+- [x] Sunan Muria — 1500–1560
 - [ ] Sunan Drajat — 1470–1522
 - [ ] Yahya Bey Dukaginzade — 1498–1582
 - [ ] Nev'î — 1533–1599

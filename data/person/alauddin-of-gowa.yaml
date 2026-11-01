@@ -1,0 +1,45 @@
+id: person/alauddin-of-gowa
+class: person
+label: { ar: "علاء الدين الأول من غوا", en: "Alauddin I of Gowa", ur: "علاء الدین گوا" }
+names:
+  - { value: "I Mangngarangi", kind: full }
+  - { value: "I Mangngarangi Daeng Manrabbia", kind: full }
+  - { value: "Sultan Alauddin", kind: regnal }
+  - { value: "Tuminanga ri Gaukanna", kind: laqab }
+gender: male
+summary:
+  ar: "رابع عشر حكام غوا في جنوب سولاوسي وأول سلاطينها (حكم 1593–1639). نُصّب طفلًا، واعتنق الإسلام سنة 1605 — أول حاكم لغوا يفعل ذلك — وجعل الإسلام دين الدولة الرسمي، ووسّع السلطنة في سولاوسي."
+  en: "Fourteenth ruler of Gowa in South Sulawesi and its first sultan (r. 1593–1639). Installed as a child, he converted to Islam in 1605 — the first ruler of Gowa to do so — made Islam the state religion, and expanded the sultanate across Sulawesi."
+  ur: "جنوبی سولاویسی کی ریاست گوا کے چودھویں حکمران اور اس کے پہلے سلطان (دورِ حکومت 1593–1639ء)۔ بچپن میں تخت نشین ہوئے، 1605ء میں اسلام قبول کیا — گوا کے پہلے حکمران جنھوں نے ایسا کیا — اسلام کو ریاست کا مذہب بنایا اور سلطنت کو سولاویسی میں وسعت دی۔"
+roles: [ruler]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1586"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1586: the English article gives the year in its lead and the Indonesian infobox gives the same year. The queue's 1587 is supported by no source read and is corrected here. The year 1586 spans 994–995 AH, so no Hijri year is paired."
+  sources: [source/wikipedia-alauddin-of-gowa-en, source/wikipedia-alauddin-of-gowa-id]
+died:
+  edtf: "1639-06-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died at Somba Opu on 15 June 1639: the English article dates the death 15 June 1639, the Indonesian article narrates that he fell ill at Cikkoang on 10 June and died five days later (its infobox likewise gives 15 June 1639), and Wikidata records 1639-06-15. No place entity exists for Somba Opu or Gowa, so the death place is recorded here and in prose only. No Hijri year is paired: the only Hijri date offered by the sources read — the Indonesian article's '9 Jumada al-awwal 1051 AH' for his 1605 conversion — is internally impossible (1051 AH fell in 1641–42 CE), so no Hijri pairing is taken from these sources."
+  sources: [source/wikipedia-alauddin-of-gowa-en, source/wikipedia-alauddin-of-gowa-id, source/wikidata-alauddin-of-gowa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His conversion is documented in both articles: introduced to Islam by the Minangkabau preacher Datuk ri Bandang, he embraced Islam on 22 September 1605, took the name Alauddin, and made Islam Gowa's state religion; the Indonesian infobox records his religion as 'Animism, then Islam'. No source read names a branch or a legal school for him, and Wikidata carries no religion statement, so no faith value is recorded."
+    sources: [source/wikipedia-alauddin-of-gowa-en, source/wikipedia-alauddin-of-gowa-id, source/wikidata-alauddin-of-gowa]
+external_ids: { wikidata: "Q137785201" }
+sources: [source/wikipedia-alauddin-of-gowa-en, source/wikipedia-alauddin-of-gowa-id, source/wikidata-alauddin-of-gowa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1339434796), Indonesian Wikipedia (revision 29648130) and Wikidata, fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record; person/hasanuddin-of-gowa is a different, later sultan). Wikidata carries TWO items for this man: Q137785201 (the English article's item, described 'Indonesian sultan (1586–1639)' and recording his death on 1639-06-15) and Q12517311 (the Indonesian article's item, carrying the TDV Islamic Encyclopedia identifier 'alaeddin-tumenanga' but no dates). The item whose data matches his documented life, Q137785201, is the one recorded; the duplicate is documented in the Wikidata source's reliability note. His father Tunijalloq has no record and no Gowa place entity exists, so no relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

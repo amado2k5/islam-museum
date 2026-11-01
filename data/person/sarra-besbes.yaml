@@ -1,0 +1,36 @@
+id: person/sarra-besbes
+class: person
+label: { ar: "سارة بسباس", en: "Sarra Besbes", ur: "سارہ بسباس" }
+names:
+  - { value: "Sarra Besbes", kind: full }
+  - { value: "سارة بسباس", kind: full }
+gender: female
+summary:
+  ar: "مبارزة تونسية في سيف المبارزة، وُلدت في أبوظبي سنة 1989 لعائلة رياضية. فازت بذهبيات متعددة في بطولة أفريقيا، وحلّت ثامنة في أولمبياد لندن 2012 وخامسة في ريو 2016، ونالت برونزية بطولة العالم 2015 وذهبية كأس العالم في بوينس آيرس في العام نفسه، وشاركت أيضاً في طوكيو 2020."
+  en: "Tunisian épée fencer, born in Abu Dhabi in 1989 into a sporting family. A multiple African Championships gold medallist, she placed eighth at the London 2012 Olympics and fifth at Rio 2016, won bronze at the 2015 World Championships and a World Cup gold in Buenos Aires the same year, and also competed at Tokyo 2020."
+  ur: "تیونس کی ایپی مبارز، 1989 میں ابوظہبی میں ایک کھیلوں سے وابستہ خاندان میں پیدا ہوئیں۔ انہوں نے افریقی چیمپئن شپ میں متعدد طلائی تمغے جیتے، لندن 2012 اولمپکس میں آٹھویں اور ریو 2016 میں پانچویں نمبر پر رہیں، 2015 کی عالمی چیمپئن شپ میں کانسی اور اسی سال بیونس آئرس میں ورلڈ کپ طلائی تمغہ جیتا، اور ٹوکیو 2020 میں بھی حصہ لیا۔"
+roles: [fencer]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1989-02-05"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 5 February 1989 in Abu Dhabi, United Arab Emirates (Arabic article; Wikidata). Abu Dhabi has no place entity in the graph, so the birthplace is recorded in prose only. The Hijri year 1409 is the tabular conversion of 5 February 1989 and is marked derived."
+  sources: [source/wikipedia-sarra-besbes-en, source/wikipedia-sarra-besbes-ar, source/wikidata-sarra-besbes]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Persian articles names a religion for her, and Wikidata records no religion (P140) statement. Her passive bout at the 2011 World Championships was fenced on the instructions of her federation and the sports ministry as part of a boycott campaign; a political instruction of that kind is not a statement of her own faith, and her Tunisian nationality is not used as one either. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-sarra-besbes-en, source/wikipedia-sarra-besbes-ar, source/wikipedia-sarra-besbes-fa, source/wikidata-sarra-besbes]
+external_ids: { wikidata: "Q1579756" }
+sources: [source/wikipedia-sarra-besbes-en, source/wikipedia-sarra-besbes-ar, source/wikipedia-sarra-besbes-fa, source/wikidata-sarra-besbes]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380138546), Arabic Wikipedia (revision 76975957), Persian Wikipedia (revision 34419213) and Wikidata Q1579756 (item revision 2516760206, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record); no place entity exists for Abu Dhabi in the current-main clone, and no museum record exists for her fencer siblings."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
