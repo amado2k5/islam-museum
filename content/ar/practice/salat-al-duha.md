@@ -12,3 +12,6 @@ translators: []
 
 ## صفتها
 من النوافل التي لا يُسن لها الجماعة؛ أقلها ركعتان وأكثرها اثنتا عشرة ركعة ويُسلَّم من كل ركعتين. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10494}
+
+## في سلسلة «الحضارة النبوية» لزغلول النجار
+يربط [[person/zaghloul-el-naggar|زغلول النجار]] في [[work/el-hadara-el-nabaouia|الحضارة النبوية]] صلاة الضحى بحديث أن الإنسان خُلق على ستين وثلاثمئة مفصل وأن على كل سلامى منه صدقة كل يوم، ويذكر رواية أبي ذر عند مسلم أن ركعتين من الضحى تجزئان عن ذلك كله بدل أن يسبّح ويحمد ويهلّل عن كل مفصل. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep28 00:02:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep28 00:04:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep28 00:04:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep28 00:05:00} ويقول إن كثيرًا من الناس يهملونها، وإن وقتها من طلوع الشمس وارتفاعها قدر رمح إلى الزوال، وإنهما «ركعتان خفيفتان» ثقيلتان في الميزان. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep28 00:05:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep28 00:05:30}
