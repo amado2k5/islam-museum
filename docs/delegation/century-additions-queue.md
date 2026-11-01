@@ -850,11 +850,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Youssef Ziedan — 1958–Living
 - [x] Saud Alsanousi — 1981–Living
 - [x] Jokha Alharthi — 1978–Living
-- [ ] Raja Alem — 1956–Living
-- [ ] Badiah Kashgari — 1954–Living
-- [ ] Nimah Ismail Nawwab — 1960–Living
-- [ ] Maha Akhtar — 1966–Living
-- [ ] Layla AlAmmar — 1982–Living
+- [x] Raja Alem — 1956–Living
+- [x] Badiah Kashgari — 1954–Living
+- [x] Nimah Ismail Nawwab — 1960–Living
+- [x] Maha Akhtar — 1966–Living
+- [x] Layla AlAmmar — 1982–Living
 - [ ] Zulifikar Ghose — 1935–2022
 - [ ] Bapsi Sidhwa (Contemporary) — 1938–Living
 - [ ] Mohsin Hamid — 1971–Living
