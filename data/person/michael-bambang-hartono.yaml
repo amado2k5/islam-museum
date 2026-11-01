@@ -1,0 +1,53 @@
+id: person/michael-bambang-hartono
+class: person
+label: { ar: "مايكل بامبانغ هارتونو", en: "Michael Bambang Hartono", ur: "مائیکل بمبانگ ہارٹونو" }
+names:
+  - { value: "Michael Bambang Hartono", kind: full }
+  - { value: "Oei Hwie Siang", kind: full }
+  - { value: "黃輝祥", kind: full }
+gender: male
+summary:
+  ar: "مايكل بامبانغ هارتونو (وُلد باسم أوي هوي سيانغ في 2 تشرين الأول 1939 في كودوس، وتوفي في 19 آذار 2026 في سنغافورة) رجل أعمال إندونيسي ورث مع أخيه الأصغر روبرت بودي شركة جاروم سنة 1963 وبنى معه المجموعة وبنك سنترال آسيا؛ لاعب بريدج دولي نال برونزية ألعاب آسيا 2018 أكبر رياضيي إندونيسيا سنًا، وكان كاثوليكيًا كما تشهد نصوص مستقلة."
+  en: "Michael Bambang Hartono (born Oei Hwie Siang on 2 October 1939 in Kudus; died 19 March 2026 in Singapore) was an Indonesian businessman who inherited Djarum with his younger brother Robert Budi Hartono in 1963 and built the Djarum Group and Bank Central Asia with him; an international bridge player, he won bronze at the 2018 Asian Games as Indonesia's oldest athlete, and two independent texts attest that he was a Catholic."
+  ur: "مائیکل بمبانگ ہارٹونو (پیدائش بطور اوئی ہوئیے سیانگ 2 اکتوبر 1939، کڈس؛ وفات 19 مارچ 2026، سنگاپور) انڈونیشیائی کاروباری تھے جنھوں نے اپنے چھوٹے بھائی رابرٹ بوڈی ہارٹونو کے ساتھ 1963 میں جاروم وراثت میں پائی اور ان کے ساتھ جاروم گروپ اور بینک سینٹرل ایشیا بنایا؛ بین الاقوامی برج کھلاڑی، انھوں نے 2018 کے ایشیائی کھیلوں میں انڈونیشیا کے سب سے عمر رسیدہ کھلاڑی کے طور پر کانسی کا تمغہ جیتا، اور دو آزاد متن شہادت دیتے ہیں کہ وہ کیتھولک تھے۔"
+roles: [businessman]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1939-10-02"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Indonesian and Urdu articles and Wikidata agree on 2 October 1939, born at Kudus in Central Java; Kudus has no place entity on main, so no born_in edge is written. The date falls within the Hijri year 1358, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-michael-bambang-hartono-en, source/wikipedia-michael-bambang-hartono-id, source/wikipedia-michael-bambang-hartono-ur, source/wikidata-michael-bambang-hartono]
+died:
+  edtf: "2026-03-19"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata agree that he died in Singapore on 19 March 2026 (the Indonesian article gives 13.15 Singapore time), and he was buried on 25 March 2026 in the family cemetery at Rembang; the queue row's 'Living' is superseded. Singapore has no place entity on main, so no died_in edge is written. The date falls within the Hijri year 1447, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-michael-bambang-hartono-en, source/wikipedia-michael-bambang-hartono-id, source/wikidata-michael-bambang-hartono, source/veritas-indonesia-michael-bambang-hartono-obituary]
+relations:
+  - { type: sibling_of, target: person/robert-budi-hartono, sources: [source/wikipedia-michael-bambang-hartono-en, source/wikipedia-robert-budi-hartono-en, source/wikipedia-michael-bambang-hartono-id] }
+faith:
+  - value: christian
+    basis: documented
+    note: >-
+      Two independent texts attest the value for the man
+      himself: the Indonesian article's prose states that
+      Bambang and his family adhere to the Catholic faith,
+      and Veritas Indonesia's obituary of 20 March 2026
+      calls him 'a Catholic' in the outlet's own voice and
+      adds that he 'hardly flaunted his Catholic identity'.
+      The texts name Catholicism specifically; the value
+      settled is christian, documented. Wikidata carries no
+      religion statement and is not relied on.
+    sources: [source/wikipedia-michael-bambang-hartono-id, source/veritas-indonesia-michael-bambang-hartono-obituary]
+external_ids: { wikidata: "Q6828395" }
+sources: [source/wikipedia-michael-bambang-hartono-en, source/wikipedia-michael-bambang-hartono-id, source/wikipedia-michael-bambang-hartono-ur, source/veritas-indonesia-michael-bambang-hartono-obituary, source/wikidata-michael-bambang-hartono]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Michael Bambang Hartono' (revision 1382727627 of 29 October 2026; the title 'Michael Hartono' redirects to it), the Indonesian article 'Michael Bambang Hartono' (revision 29477797 of 20 July 2026), the Urdu article 'مائیکل بمبانگ ہارٹونو' (revision 10304559 of 7 May 2026), the Veritas Indonesia obituary of 20 March 2026 read in full at the outlet's own site, and Wikidata Q6828395 (revision 2531302922 of 14 August 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed, and his father Oei Wie Gwan has no record on main, so no child_of edge is written. Queue correction: the row marks him '1939–Living'; he died on 19 March 2026, so the record carries a died block and no living wing (the Ananda Krishnan precedent). One relation is written: sibling_of to person/robert-budi-hartono, in this record because he is the elder brother (born 1939 against 1941), per the one-write rule; Kudus and Singapore have no place entities on main, so no born_in or died_in edge is written. Faith - christian/documented on the Indonesian article text and the Veritas Indonesia obituary, both naming Catholicism for the man himself.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-177a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

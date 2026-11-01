@@ -1,0 +1,69 @@
+id: person/eka-tjipta-widjaja
+class: person
+label: { ar: "إيكا تجيبتا ويدجاجا", en: "Eka Tjipta Widjaja", ur: "ایکا تجپتا ودجاجا" }
+names:
+  - { value: "Eka Tjipta Widjaja", kind: full }
+  - { value: "Oei Ek Tjong", kind: full }
+  - { value: "黃奕聰", kind: full }
+  - { value: "Eka Tjipta Widjaya", kind: alternate }
+  - { value: "Huáng Yìcōng", kind: alternate }
+gender: male
+summary:
+  ar: "إيكا تجيبتا ويدجاجا (وُلد باسم أوي إك تجونغ في 27 شباط 1921 في تشيوانتشو بالصين، وتوفي في 26 كانون الثاني 2019 في جاكرتا) رجل أعمال إندونيسي من أصل صيني، مؤسس مجموعة سينار ماس؛ هاجر طفلًا إلى ماكاسار وباع الحلوى من دراجة، ثم تاجر بالكوبرا، وأسس سي في سينار ماس في سورابايا سنة 1962 ومصنع تجيوي كيميا للورق سنة 1972 وبنك إندونيسيا الدولي سنة 1982، وموّل بمنح مؤسسته الدراسية آلاف الطلاب."
+  en: "Eka Tjipta Widjaja (born Oei Ek Tjong on 27 February 1921 in Quanzhou, China; died 26 January 2019 in Jakarta) was an Indonesian businessman of Chinese descent, founder of the Sinar Mas Group; he migrated to Makassar as a child and sold candy from a bicycle, traded copra, founded CV Sinar Mas in Surabaya in 1962, the Tjiwi Kimia paper mill in 1972 and Bank Internasional Indonesia in 1982, and funded thousands of scholarships through his foundation."
+  ur: "ایکا تجپتا ودجاجا (پیدائش بطور اوئی ایک تجونگ 27 فروری 1921، چوانژو، چین؛ وفات 26 جنوری 2019، جکارتہ) چینی نسل کے انڈونیشیائی کاروباری تھے، سینار ماس گروپ کے بانی؛ بچپن میں مکاسر ہجرت کی اور سائیکل سے مٹھائی بیچی، کوپرا کی تجارت کی، 1962 میں سورابایا میں سی وی سینار ماس، 1972 میں تجوی کیمیا کاغذ فیکٹری اور 1982 میں بینک انٹرنیشنل انڈونیشیا قائم کیا، اور اپنی فاؤنڈیشن سے ہزاروں وظائف دیے۔"
+roles: [businessman]
+wings: [people]
+regions: [southeast-asia, china-east-asia]
+born:
+  edtf: "1921-02-27"
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Indonesian and Chinese articles give 27 February 1921, born at Quanzhou in Fujian; the English article gives only circa 1921. A strand of Indonesian press obituaries gives 3 October 1923, and Wikidata carries rival birth statements of 3 October 1923 and 3 October 1922; the two article texts are followed and the rivalry recorded, so the date is marked debated. The date followed falls within the Hijri year 1339, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-eka-tjipta-widjaja-id, source/wikipedia-eka-tjipta-widjaja-zh, source/wikipedia-eka-tjipta-widjaja-en, source/wikidata-eka-tjipta-widjaja]
+died:
+  edtf: "2019-01-26"
+  hijri: "1440"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles agree that he died on 26 January 2019 at his home in Menteng, Jakarta, aged 97, and was buried on 2 February 2019 in the family cemetery in Karawang. The date falls within the Hijri year 1440, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-eka-tjipta-widjaja-en, source/wikipedia-eka-tjipta-widjaja-id]
+relations:
+  - { type: born_in, target: place/quanzhou, sources: [source/wikipedia-eka-tjipta-widjaja-id, source/wikipedia-eka-tjipta-widjaja-zh, source/wikidata-eka-tjipta-widjaja] }
+  - { type: died_in, target: place/jakarta, sources: [source/wikipedia-eka-tjipta-widjaja-en, source/wikipedia-eka-tjipta-widjaja-id, source/wikidata-eka-tjipta-widjaja] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Two texts attest a faith for the man himself, and
+      both are published by the Tzu Chi foundation: its
+      English commemoration article reports his own words
+      at the Malam Cinta Kasih gathering of 19 March 2002,
+      where he told the audience that he is a Christian,
+      and Master Cheng Yen's lecture of 15 November 2017,
+      published separately by the same foundation in
+      Indonesian, calls him in the speaker's own voice a
+      very devout Christian (umat Kristen yang sangat
+      taat). The two texts have different authors,
+      occasions and languages and neither copies the
+      other, but they issue from the one foundation — the
+      Buddhist charity he supported for decades — so
+      under the founder's one-source-family rule they do
+      not settle the value: his faith is recorded as
+      unknown and FLAGGED for the founder's ruling, with
+      both attestations preserved here in full. The
+      English, Indonesian and Chinese Wikipedia articles
+      are silent on his religion and Wikidata carries no
+      religion statement. His support for Tzu Chi and his
+      philanthropy through the Eka Tjipta Foundation are
+      activity, not attestation either way.
+    sources: [source/tzuchi-eka-tjipta-widjaja-commemoration, source/tzuchi-cheng-yen-lecture-eka-tjipta]
+external_ids: { wikidata: "Q1322162" }
+sources: [source/wikipedia-eka-tjipta-widjaja-en, source/wikipedia-eka-tjipta-widjaja-id, source/wikipedia-eka-tjipta-widjaja-zh, source/tzuchi-eka-tjipta-widjaja-commemoration, source/tzuchi-cheng-yen-lecture-eka-tjipta, source/wikidata-eka-tjipta-widjaja]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Eka Tjipta Widjaja' (revision 1382541749 of 29 October 2026), the Indonesian article 'Eka Tjipta Widjaja' (revision 30081772 of 17 October 2026), the Chinese article '黃奕聰' (revision 93788246 of 6 August 2026) and Wikidata Q1322162 (revision 2527621490 of 5 August 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him, so the Arabic and Urdu prose is the museum's rendering. Source discrepancies recorded: his birth date is given as 27 February 1921 by the Indonesian and Chinese articles (followed, marked debated) against 3 October 1923 in a strand of Indonesian press obituaries and rival Wikidata statements of 3 October 1923 and 3 October 1922; the English article's stray line that he 'became a member of the PCC' is unsupported by any other text read and is not built on; the sources disagree on his children's count (the English article says at least 40 children, the Indonesian article's testament account 28), so no count is stated as fact. Two relations are written: born_in to place/quanzhou and died_in to place/jakarta, both of which exist on main. Faith - two Tzu Chi texts read in full on 1 November 2026 attest him a Christian (the foundation's English commemoration reporting his own 2002 words that he is a Christian, and Master Cheng Yen's lecture of 15 November 2017 calling him a very devout Christian); because both texts issue from the one foundation, the value is recorded as unknown and flagged for the founder's ruling, with both attestations preserved in the faith note — an earlier absence-pattern build of this record, which missed the two texts, is superseded.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-177a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
