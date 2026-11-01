@@ -24,6 +24,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/jerusalem }
+  - { type: occurred_at, target: place/al-aqsa-mosque, sources: [source/al-isra-wal-miraj-azhar] }
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abu-bakr, role: "صدّق بالنبل فسمي الصديق", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abu-jahl, role: "استهزأ بالخبر ونادى قريشاً للتكذيب", sources: [source/mubarakpuri-raheeq] }
