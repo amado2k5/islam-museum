@@ -1,0 +1,48 @@
+id: person/abdullah-khan-ii
+class: person
+label: { ar: "عبد الله خان الثاني", en: "Abdullah Khan II", ur: "عبد اللہ خان دوم" }
+names:
+  - { value: "Abdullah Khan", kind: full }
+  - { value: "Khan-i Buzurg", kind: laqab }
+  - { value: "'Avaz Gazi", kind: pen }
+gender: male
+summary:
+  ar: "خان بخارى الشيباني (الخان الأعلى 1583–1598)، ابن إسكندر خان. وحّد الإمارات الشيبانيّة من جديد، وأخذ بخارى سنة 1557، وفتح بلخ وطشقند وفرغانة وبدخشان وخراسان وخوارزم، وأصلح سكّ العملة، ومات في سمرقند."
+  en: "Shaybanid khan of Bukhara (supreme khan 1583–1598), son of Iskandar Khan. He reunified the Shaybanid appanages, took Bukhara in 1557, conquered Balkh, Tashkent, Fergana, Badakhshan, Khorasan and Khwarazm, reformed the coinage, and died at Samarkand."
+  ur: "بخارا کے شیبانی خان (خانِ اعلیٰ 1583–1598ء)، اسکندر خان کے بیٹے۔ انھوں نے شیبانی ریاستوں کو دوبارہ متحد کیا، 1557ء میں بخارا لیا، بلخ، تاشقند، فرغانہ، بدخشاں، خراسان اور خوارزم فتح کیے، سکوں کی اصلاح کی اور سمرقند میں وفات پائی۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1533"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "His birth year is disputed. Encyclopaedia Iranica (Bregel), following the Sharafnama-ye shahi, puts it in the Year of the Dragon — 1532–33 CE, 938–39 AH; the English article gives 1533/4 (its biography: 'born in 1533 or 1534' at Afarinkent, on an island in the Zarafshan river; no place entity exists for Afarinkent, so the birthplace is recorded here and in prose only); Wikidata gives 1533. The year 1533, common to the English article and Wikidata, is recorded, with the variants preserved here; no Hijri year is paired to a disputed Gregorian range."
+  sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikipedia-abdullah-khan-ii-ur, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii]
+died:
+  edtf: "1598"
+  hijri: "1006"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Died in 1598: the English, Arabic and Urdu articles and Wikidata agree on the year. Encyclopaedia Iranica (Bregel) states that he died in Samarkand in 1006/1598, at the beginning of his campaign against the Qazaqs — the Hijri year 1006 is Iranica's own pairing, also tabularly consistent, and Wikidata likewise records Samarkand as his place of death. Wikidata's preferred death value is day-precise (4 February 1598), a precision none of the articles read supports, so the record keeps year precision. The English article records his burial at the mausoleum of Bahauddin Naqshbandi near Bukhara."
+  sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikipedia-abdullah-khan-ii-ur, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii]
+relations:
+  - { type: died_in, target: place/samarqand, sources: [source/iranica-abdullah-khan-ii, source/wikidata-abdullah-khan-ii] }
+  - { type: buried_in, target: place/bukhara, sources: [source/wikipedia-abdullah-khan-ii-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic infobox gives his religion as Islam without qualification; the English and Urdu articles name no religion for him and Wikidata carries no religion statement. No source read names a school for him personally. His court was the centre of Sunni Shaybanid rule, and Encyclopaedia Iranica documents his close reliance on the Juybari Naqshbandi shaikhs, whose support won him Bukhara — but patronage and milieu are not personal attestation of a school, so no faith value is recorded."
+    sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii]
+external_ids: { wikidata: "Q317649" }
+sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikipedia-abdullah-khan-ii-ur, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1363143862), Arabic Wikipedia (revision 70137235), Urdu Wikipedia (revision 11792269), Wikidata Q317649 (item revision 2551894240, re-asserted against a second live query with an identical result) and Yuri Bregel's Encyclopaedia Iranica entry (read in full in the online edition), fetched and checked on 1 Nov 2026; existence checked against origin/main (no prior record); relation targets grep-verified in the current-main clone (place/samarqand, place/bukhara). His father Iskandar Khan has no record, so the parent relation is recorded in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

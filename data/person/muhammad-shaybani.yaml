@@ -1,0 +1,49 @@
+id: person/muhammad-shaybani
+class: person
+label: { ar: "محمد شيباني خان", en: "Muhammad Shaybani", ur: "محمد شیبانی خان" }
+names:
+  - { value: "Muhammad Shaybani Khan", kind: full }
+  - { value: "Abu'l-Fath", kind: kunya }
+  - { value: "Shakhibek Khan", kind: alternate }
+  - { value: "Shah Bakht", kind: alternate }
+gender: male
+summary:
+  ar: "خان أوزبكي (نحو 1451 – 2 ديسمبر 1510) وحّد القبائل الأوزبكية، وانتزع سمرقند وبخارى من التيموريين، وأسّس الأسرة الشيبانيّة في بخارى. وهو حفيد أبو الخير خان، وقد قُتل وهو يحارب الشاه إسماعيل الأول عند مرو."
+  en: "Uzbek khan (c. 1451 – 2 December 1510) who united the Uzbek tribes, took Samarkand and Bukhara from the Timurids and founded the Shaybanid dynasty of Bukhara. A grandson of Abu'l-Khayr Khan, he was killed fighting Shah Ismail I at Merv."
+  ur: "ازبک خان (تقریباً 1451ء – 2 دسمبر 1510ء) جنھوں نے ازبک قبائل کو متحد کیا، تیموریوں سے سمرقند و بخارا چھینے اور بخارا کے شیبانی خاندان کی بنیاد رکھی۔ وہ ابو الخیر خان کے پوتے تھے اور مرو کے قریب شاہ اسماعیل اول سے لڑتے ہوئے مارے گئے۔"
+roles: [ruler]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "~1451"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "All sources read give his birth at about 1451 (English article 'c. 1451'; Arabic and Urdu articles 1451; Wikidata 1451), so the circa year is recorded. A circa year spanning two Hijri years takes no paired Hijri year."
+  sources: [source/wikipedia-muhammad-shaybani-en, source/wikipedia-muhammad-shaybani-ar, source/wikipedia-muhammad-shaybani-ur, source/wikidata-muhammad-shaybani]
+died:
+  edtf: "1510-12-02"
+  hijri: "0916"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed on 2 December 1510 in the Battle of Marv (Merv), fighting Shah Ismail I of Safavid Iran (English article; Wikidata records the same date). The Hijri year 0916 is the tabular conversion of the Gregorian date, which falls wholly within 916 AH, and is marked derived."
+  sources: [source/wikipedia-muhammad-shaybani-en, source/wikidata-muhammad-shaybani]
+relations:
+  - { type: died_in, target: place/merv, sources: [source/wikipedia-muhammad-shaybani-en] }
+  - { type: related_to, target: person/abu-al-khayr-khan, note: "His grandfather, through his father Shah Budag (who has no record of his own)", sources: [source/wikipedia-muhammad-shaybani-en, source/wikipedia-muhammad-shaybani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Structured attestations name his branch and, in one case, his school, but they do not amount to two independent sources: the English infobox gives his religion as Sunni Islam; the Arabic infobox names his affiliation as Ahl al-Sunna wa'l-Jama'a (with Sufism and Maturidism) and his madhhab as Hanafi; Wikidata's religion value is Islam without qualification. His allegiance itself is documented — the English article describes Shah Ismail I as angered by his 'staunch support of Sunni Islam', and his wars against the Safavids were fought in Sunni Islam's name — but the Hanafi naming rests on the single structured Arabic-Wikipedia attestation, so no school is recorded; the attestation is preserved here for the founder's ruling."
+    sources: [source/wikipedia-muhammad-shaybani-en, source/wikipedia-muhammad-shaybani-ar, source/wikidata-muhammad-shaybani]
+external_ids: { wikidata: "Q553193" }
+sources: [source/wikipedia-muhammad-shaybani-en, source/wikipedia-muhammad-shaybani-ar, source/wikipedia-muhammad-shaybani-ur, source/wikidata-muhammad-shaybani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377063696), Arabic Wikipedia (revision 74503287), Urdu Wikipedia (revision 7080742) and Wikidata Q553193 (item revision 2553822365, re-asserted against a second live query with an identical result), fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record — person/muhammad-ibn-al-hasan-al-shaybani is the earlier jurist, a different man); relation targets grep-verified in the current-main clone (place/merv, person/abu-al-khayr-khan)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -90,3 +90,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يفرّق الشيخ بين الشاكر والشكور: فالشاكر يشكر على النعمة، والشكور يشكر على النعمة والبلية، ويذكر أن «شكرت الدابة» في العربية إذا ظهرت آثار النعمة عليها، فيسأل: أين أثر نعمة الصيام والصلاة والاستقامة ووجود العلماء عليك؟ {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:09:30}
+
+## من سلسلة «قصة وعبر»
+في الحلقة الرابعة يجعل عمر عبد الكافي قصة صاحب الجنتين مثلًا قرآنيًا بين الشاكر والكافر بالنعمة، ويرى أن الخطر أن ينسى الإنسان المنعم ولا يذكر إلا النعمة، ويختم بأن الغني يشكر والفقير يصبر. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep04 00:01:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep04 00:07:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep04 00:10:00} وفي الحلقة السابعة يقول إن النعمة لا تزول إذا شُكرت، وإنها تتفلّت إذا لم تُقيَّد بقيد الشكر، ويستشهد بقول للنبي لعائشة في إحسان جوار نعم الله، ويقول إن ذلك يصدق على الفرد والجماعة والدولة. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep07 00:03:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep07 00:03:30}

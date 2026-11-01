@@ -1,0 +1,44 @@
+id: person/panembahan-ratu
+class: person
+label: { ar: "بانمباهان راتو", en: "Panembahan Ratu I", ur: "پانمباہان راتو" }
+names:
+  - { value: "Zainul Arifin", kind: full }
+  - { value: "Pangeran Mas Zainul Arifin", kind: alternate }
+  - { value: "Panembahan Ratu I", kind: regnal }
+gender: male
+summary:
+  ar: "ثالث سلاطين تشيربون على الساحل الشمالي لجاوة، حكم 79 عامًا (1570–1649). وُلد باسم زين العارفين، وحافظ على ازدهار تشيربون وحيادها بين بنتن ومطرم، وقبل سيادة مطرم سنة 1619، ودُفن في مجمع أستانا غونونغ سمبونغ."
+  en: "Third sultan of Cirebon, on the north coast of Java, who reigned for 79 years (1570–1649). Born Zainul Arifin, he kept Cirebon prosperous and neutral between Banten and Mataram, accepted Mataram's overlordship in 1619, and was buried in the Astana Gunung Sembung complex."
+  ur: "جاوا کے شمالی ساحل پر واقع چیربون کے تیسرے سلطان، جنھوں نے 79 سال حکومت کی (1570–1649ء)۔ پیدائشی نام زین العارفین تھا؛ انھوں نے چیربون کو بنتن اور مطرم کے درمیان خوش حال اور غیر جانبدار رکھا، 1619ء میں مطرم کی بالادستی قبول کی، اور آستانا گونونگ سمبونگ میں دفن ہوئے۔"
+roles: [ruler]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1547"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The Indonesian article and Wikidata both give his birth in 1547, and the article's statement that he took the throne aged 23 in 1570 is consistent with it. The queue's 1540 is supported by no source read and is not followed. The year 1547 spans 953–954 AH, so no Hijri year is paired."
+  sources: [source/wikipedia-panembahan-ratu-id, source/wikidata-panembahan-ratu]
+died:
+  edtf: "1649"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The Indonesian article and Wikidata give his death in 1649, after a reign of 79 years; the article says he died of an illness contracted on a visit to Mataram's court and was buried in the Astana Gunung Sembung complex (no place entity exists for it, so the burial place is recorded here and in prose only). A death year of 1650 — the queue's figure — circulates in some listings; it is preserved here as a variant, but both sources read agree on 1649. The year 1649 spans two Hijri years, so none is paired."
+  sources: [source/wikipedia-panembahan-ratu-id, source/wikidata-panembahan-ratu]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Structured attestations name his branch but no source read names his school: the Indonesian infobox gives his religion as Islam and Sunni, and Wikidata records Islam and Sufism. His documented rule is Muslim kingship — as Cirebon's sultan in Sunan Gunung Jati's line he maintained the sultanate's Islamic court through a 79-year reign, and Mataram's Sultan Agung remembered him as a teacher (Indonesian article) — but no source read names a legal school for him, and the museum's faith values have no bare 'sunni', so no school is recorded; the Sunni attestation is preserved here for the founder's ruling."
+    sources: [source/wikipedia-panembahan-ratu-id, source/wikidata-panembahan-ratu]
+external_ids: { wikidata: "Q132673938" }
+sources: [source/wikipedia-panembahan-ratu-id, source/wikidata-panembahan-ratu]
+provenance:
+  layer: own-research
+  source: "Indonesian Wikipedia (revision 30020383) and Wikidata Q132673938 (item revision 2504569786, re-asserted against a second live query with an identical result), fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record); no Cirebon place entity exists in the current-main clone, so no relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

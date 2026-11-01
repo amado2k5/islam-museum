@@ -1,0 +1,72 @@
+id: person/yahya-bey-dukagjini
+class: person
+
+label: { ar: "يحيى طاشليجه لي", en: "Yahya bey Dukagjini", ur: "یحیی بے دوکاگجینی" }
+
+names:
+  - { value: "Dukaginzâde Yahyâ bey", kind: full }
+  - { value: "Taşlıcalı Yahya bey", kind: alternate }
+  - { value: "Jahja bej Dukagjini", kind: alternate }
+  - { value: "Yahya", kind: given }
+
+gender: male
+
+summary:
+  ar: "شاعر ديوان عثماني وجندي إنكشاري من أصل ألباني (ت. 1582)، من أسرة دوكاجين النبيلة، جُلب صغيرًا بالدوشيرمه فتعلّم في إسطنبول وبرز جنديًا وشاعرًا، وشارك في معارك جالديران وبغداد وسيكتوار. ألّف خمسة مثنويات أشهرها «يوسف وزليخا» و«شاه وكدا»، ورثى الشاهزاده مصطفى بمرثية اتهم فيها رستم باشا فُنفي إلى البلقان وقضى بقية عمره هناك. عدّه غيب أعظم شاعر تركي بين غير الأتراك، ويُروى أن شعر دينه الصافي «كل صدبرك» في معجزات النبي كتبه في شيخوخته."
+  en: "Albanian-born Ottoman diwan poet and janissary soldier (d. 1582), of the noble Dukagjini family, taken as a boy by the devşirme and educated at Istanbul, who campaigned at Chaldiran, Baghdad and Szigetvár. He wrote a diwan and a khamsa of five mesnevis — Yusuf ve Züleyha and Şah u Geda the most famous — and his elegy for the executed Şehzade Mustafa, which blamed Rüstem Pasha, sent him into Balkan exile for the rest of his life. Gibb ranked him the foremost writer of Turkish poetry among non-Turks; his Gül-i Şadberk, a poem on the miracles of the Prophet in a purely religious tone, is said to be a work of his old age."
+  ur: "البانوی نژاد عثمانی دیوان شاعر اور ینکیچری سپاہی (وفات 1582ء)، دوکاجینی کے امیر خاندان سے، بچپن میں دیوشیرمہ کے ذریعے لائے گئے اور استنبول میں تعلیم پائی، چالديران، بغداد اور سیگتوار کی مہموں میں شریک ہوئے۔ انھوں نے ایک دیوان اور پانچ مثنویوں کا خمسہ لکھا، جن میں یوسف و زلیخا اور شاہ و گدا سب سے مشہور ہیں، اور شاہزادہ مصطفیٰ کے مقتل پر ان کی مرثیہ نے، جس میں رستم پاشا کو موردِ الزام ٹھہرایا گیا تھا، انھیں بلقان کی جلاوطنی میں بھیج دیا جہاں انھوں نے بقیہ عمر گزاری۔"
+
+roles: [poet]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1488"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "His birth year is debated and his birthplace is not certainly known. The English article gives 1488 or 1489, somewhere in northern Albania, and the Turkish article claims the same years; 1488 is followed here. Wikidata gives 1498 — the year the queue carried — and it is preserved here, not followed. The Turkish article's infobox gives Taşlıca (Pljevlja) as the birthplace, from the nickname Taşlıcalı that Muallim Naci gave him, where its own text and the English article say the exact place is unknown; no candidate birthplace has a place entity, so the birthplace is recorded here only. No Hijri year is recorded: the year 1488 spans 893-894 AH and no source pairs it with a Hijri year."
+  sources:
+    - source/wikipedia-yahya-bey-dukagjini-en
+    - source/wikipedia-yahya-bey-dukagjini-tr
+    - source/wikidata-yahya-bey-dukagjini
+
+died:
+  edtf: "1582"
+  hijri: "0990"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The death year is debated: most sources give 1582 (the English article calls it 'mostly accepted' and the Turkish article reports it as the majority view, and Wikidata agrees), while others give 1575, 1573 and 1578-79; all variants are preserved here and 1582 is followed. The First Encyclopaedia of Islam, as reported by the English article, pairs 1582 with 990 AH, and that pairing — the sources' own — is recorded as the Hijri year; the year 1582 spans 989-990 AH. Most sources place his death at Loznica in the Sanjak of Zvornik, some at Timișoara, and his burial is disputed between Zvornik and Istanbul; none of Loznica, Zvornik or Timișoara has a place entity, so the places are recorded here only."
+  sources:
+    - source/wikipedia-yahya-bey-dukagjini-en
+    - source/wikipedia-yahya-bey-dukagjini-tr
+    - source/wikidata-yahya-bey-dukagjini
+
+relations:
+  - { type: student_of, target: person/fenarizade-muhyiddin, sources: [source/wikipedia-yahya-bey-dukagjini-tr] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a branch or a school for him: the English and Turkish articles carry no religion field and Wikidata carries no religion claim. His documented life is that of a Muslim soldier-poet of the Ottoman court — a diwan and a khamsa of mesnevis, among them Yusuf ve Züleyha and the Gül-i Şadberk on the miracles of the Prophet, which the English article describes as of a purely religious tone. The Sufi poet Rumi, whom he cites and takes inspiration from, is a literary influence, not an attested order membership, and his devşirme recruitment and janissary service are career facts, not attestations of a school; on the documented-practice rule the practice is stated in full and no school is recorded, without a flag."
+    sources:
+      - source/wikipedia-yahya-bey-dukagjini-en
+      - source/wikipedia-yahya-bey-dukagjini-tr
+      - source/wikidata-yahya-bey-dukagjini
+
+external_ids: { wikidata: "Q6096434" }
+
+sources:
+  - source/wikipedia-yahya-bey-dukagjini-en
+  - source/wikipedia-yahya-bey-dukagjini-tr
+  - source/wikidata-yahya-bey-dukagjini
+
+provenance:
+  layer: own-research
+  source: "English and Turkish Wikipedia articles on Yahya bey Dukagjini (Taşlıcalı Yahya) and Wikidata Q6096434, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). Of the three teachers the Turkish article names — Kemal Paşazade, Kadri Efendi and Fenarizade Muhyiddin Çelebi — only Fenarizade Muhyiddin has a record in the museum, so only that student_of edge is written; the other two are prose-only. His kinsmen Dukaginzade Ahmed Pasha and Dukaginzade Mehmed Pasha, named by the Turkish article, have no records, and the English article calls Ahmed only 'a relative', so no kinship edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-152G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
