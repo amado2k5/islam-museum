@@ -1,0 +1,25 @@
+id: event/beyazidiye-edirne-890
+class: event
+kind: founding
+label: { ar: "بناء كوليه بايزيد الثاني بأدرنة", en: "The Bayezid II complex (Beyazidiye) is built at Edirne", ur: "ادرنہ میں بایزید ثانی کا مجموعہ (بیازی دیہ) تعمیر" }
+summary:
+  ar: "بُني كوليه بايزيد الثاني على الضفة الغربية لنهر التونجا في الأعوام ١٤٨٤-١٤٨٨م على يد المعمار خير الدين، وضمّ جامعاً ومستشفى (دار الشفاء) وبيمارستاناً ومدرسة طب ونزلاء وإمارة ومخبزاً؛ ويعطي تأريخ باب الجامع سنة ٨٩٣هـ/١٤٨٨م {cite:freely-ottoman-architecture-2011 p. 70} {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  en: "The Beyazidiye külliye was built on the west bank of the Tunca in 1484-8 by the architect Hayrettin — a mosque, a hospital, an insane asylum, a medical school, a hospice, an imaret, a bakery and food depots; a chronogram on the mosque gate gives the date 893/1488 {cite:freely-ottoman-architecture-2011 p. 70} {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  ur: "بیازی دیہ مجموعہ 1484-88ء میں دریائے تونجہ کے مغربی کنارے معمار خیر الدین نے بنایا — مسجد، شفاخانہ، پاگل خانہ، طبی مدرسہ، مسافر خانہ، امارت، نان خانہ اور انبار؛ مسجد کے دروازے کی تاریخی کتیبہ 893ھ/1488ء دیتا ہے {cite:freely-ottoman-architecture-2011 p. 70} {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1484", hijri: "0889~", calendar: julian, precision: year, status: tradition, derived: true, note: "1484-1488م {cite:freely-ottoman-architecture-2011 p. 70}؛ الهجري مشتق." }
+  end: { edtf: "1488", hijri: "0893", calendar: julian, precision: year, status: tradition, derived: true, note: "تأريخ الباب ٨٩٣هـ/١٤٨٨م {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}." }
+relations:
+  - { type: occurred_at, target: building/bayezid-ii-complex-edirne, sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/edirne, sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (2011) p. 70; Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 712 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

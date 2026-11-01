@@ -1,0 +1,25 @@
+id: event/muradiye-edirne-839
+class: event
+kind: founding
+label: { ar: "مراد الثاني يؤسس جامع المرادية بأدرنة", en: "Murad II founds the Muradiye at Edirne", ur: "مراد ثانی کا ادرنہ میں مرادیہ کی بنیاد" }
+summary:
+  ar: "أسس مراد الثاني جامع المرادية بأدرنة سنة ١٤٣٥م أولاً داراً لدراويش المولوية، فبُني إلى جواره مولوي خانة أصغر حين حُوّل البناء الرئيس إلى جامع، وتميز بأطاريحه من الخزف التي تكسو المحراب وجزءاً من الجدران {cite:freely-ottoman-architecture-2011 p. 68} {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  en: "Murad II founded Edirne's Muradiye in 1435, at first as a house for Mevlevi dervishes; a smaller mevlevihane was built beside it when the main building was turned into a mosque, distinguished by the tile revetments covering the mihrab and part of the walls {cite:freely-ottoman-architecture-2011 p. 68} {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  ur: "مراد ثانی نے 1435ء میں ادرنہ میں مرادیہ کی بنیاد رکھی، ابتداً مولوی درویشوں کی خانقاہ کے طور پر؛ جب مرکزی عمارت مسجد بنائی گئی تو ساتھ ایک چھوٹی مولوی خانہ بنائی گئی، اور مسجد محراب اور دیواروں کو چبوترے والے کاشی کاری سے ممتاز ہوئی {cite:freely-ottoman-architecture-2011 p. 68} {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1435", hijri: "0838~", calendar: julian, precision: year, status: tradition, derived: true, note: "أسسها مراد الثاني سنة ١٤٣٥م {cite:freely-ottoman-architecture-2011 p. 68}؛ الهجري مشتق." }
+relations:
+  - { type: occurred_at, target: building/muradiye-mosque-edirne, sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/edirne, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "السلطان الآمر بالبناء", sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (2011) p. 68; Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 712 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
