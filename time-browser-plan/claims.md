@@ -173,3 +173,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-tabari | devin | done — 9 nodes, journey; EI2 vol. 10 (Bosworth) for dated biography + fihrist/muntazam/kamil events; GPU busy (cursor queue) so no Explorer images this pass
 2026-11-01 | person/al-mahdi | devin | claimed
 2026-11-01 | polity/umayyads-of-cordoba | devin | claimed
+2026-11-01 | person/al-mahdi | devin | done — 14 nodes (born Iydhaj 126/127 AH → death at Radhin 169/785); all reused events; jobs-al-mahdi.json staged, GPU busy (cursor queue)
