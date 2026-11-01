@@ -1775,11 +1775,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Haji Shariatullah — 1781–1840
 - [x] Mir Taqi Mir — 1723–1810
 - [x] Khwaja Mir Dard — 1721–1785
-- [ ] Nazir Akbarabadi — 1735–1830
-- [ ] Insha Allah Khan Insha — 1756–1817
-- [ ] Bulleh Shah — 1680–1757
-- [ ] Waris Shah — 1722–1798
-- [ ] Imam Abdulaziz ibn Muhammad — 1720–1803
+- [x] Nazir Akbarabadi — 1735–1830
+- [x] Insha Allah Khan Insha — 1756–1817
+- [x] Bulleh Shah — 1680–1757
+- [x] Waris Shah — 1722–1798
+- [x] Imam Abdulaziz ibn Muhammad — 1720–1803
 - [ ] Imam Saud ibn Abdulaziz — 1748–1814
 - [ ] Jazzar Pasha (Ahmad al-Jazzar) — 1720–1804
 - [ ] Ali Bey al-Kabir — 1728–1773

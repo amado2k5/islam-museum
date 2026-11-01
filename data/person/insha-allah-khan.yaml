@@ -1,0 +1,63 @@
+id: person/insha-allah-khan
+class: person
+
+label: { ar: "إن شاء الله خان", en: "Insha Allah Khan", ur: "انشاء اللہ خان انشاء" }
+
+names:
+  - { value: "Syed Insha Allah Khan", kind: full }
+  - { value: "سید انشاء اللہ خان انشاء", kind: full }
+  - { value: "Insha", kind: pen }
+
+gender: male
+
+summary:
+  ar: "سيد إنشاء الله خان، المعروف بإنشاء (نحو 1752 – 1817)، شاعر وكاتب هندي بالأردية والفارسية والهندية، من بلاطي دلهي ولكهنؤ. وُلد في مرشد آباد حيث كان أبوه الطبيب مير ماشا الله خان في خدمة نواب البنغال، ولمع في بلاط شاه عالم الثاني ثم في لكهنؤ عند سعادت علي خان. ألّف «درياي لطافت» (1807) أول نحو للغة الأردية، و«راني كيتكي كي كهاني» من أقدم آثار النثر الهندي، وديواناً فيه غزليات وريختي بعدة لغات. توفي في لكهنؤ سنة 1817."
+  en: "Syed Insha Allah Khan, known as Insha (c. 1752–1817), was an Indian poet and writer in Urdu, Persian and Hindi at the courts of Delhi and Lucknow. Born at Murshidabad, where his father the physician Mir Masha Allah Khan served the Nawab of Bengal, he shone at the court of Shah Alam II and then at Lucknow under Saadat Ali Khan. His Darya-e-Latafat (1807) is the first grammar of the Urdu language, his Rani Ketki Ki Kahani among the earliest Hindi prose, and his diwan holds ghazals and rekhti in several languages. He died at Lucknow in 1817."
+  ur: "سید انشاء اللہ خان انشاء (تقریباً 1752ء – 1817ء) ہندوستانی شاعر اور مصنف تھے جو اردو، فارسی اور ہندی میں لکھتے تھے اور دہلی و لکھنؤ کے درباروں سے وابستہ رہے۔ مرشد آباد میں پیدا ہوئے جہاں ان کے والد طبیب میر ماشا اللہ خان نواب بنگال کی خدمت میں تھے؛ شاہ عالم ثانی کے دربار کے بعد لکھنؤ میں سعادت علی خان کے ہاں مقام پایا۔ ان کی ”دریائے لطافت“ (1807ء) اردو زبان کی پہلی گرامر ہے، ”رانی کیتکی کی کہانی“ ہندی نثر کے اولین نمونوں میں سے ہے، اور ان کے دیوان میں کئی زبانوں میں غزلیں اور ریختی شامل ہے۔ 1817ء میں لکھنؤ میں انتقال ہوا۔"
+
+roles: [poet, writer]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1752"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article's lead and infobox give about 1752 and the Urdu article's lead gives December 1752, at Murshidabad; the Urdu article's body text states instead that he was born in 1756 at Murshidabad, and Wikidata carries both years as competing statements, the 1756 one GND-referenced. The two article leads' 1752 is built and the 1756 reading preserved here. Murshidabad has no museum place record yet, so no born_in edge is written. A bare year spanning two Hijri years, no Hijri year is recorded."
+  sources: [source/wikipedia-insha-allah-khan-en, source/wikipedia-insha-allah-khan-ur, source/wikidata-insha-allah-khan]
+
+died:
+  edtf: "1817-05-19"
+  hijri: "1232"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Urdu articles and Wikidata agree on 19 May 1817, at Lucknow, where he had spent his last years out of favour and in poor health. The Hijri year is derived by tabular conversion of that date. Lucknow has no museum place record yet, so no died_in edge is written."
+  sources: [source/wikipedia-insha-allah-khan-en, source/wikipedia-insha-allah-khan-ur, source/wikidata-insha-allah-khan]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school or order for the man himself. His
+      Sayyid family's origin at Najaf, recorded in the Urdu article,
+      is descent and family background, which never count, and
+      Wikidata carries no religion value for him at all. His faith is
+      therefore recorded as unknown.
+    sources: [source/wikipedia-insha-allah-khan-en, source/wikipedia-insha-allah-khan-ur, source/wikidata-insha-allah-khan]
+
+external_ids: { wikidata: "Q1664527" }
+
+sources:
+  - source/wikipedia-insha-allah-khan-en
+  - source/wikipedia-insha-allah-khan-ur
+  - source/wikidata-insha-allah-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377805883 of 1 October 2026), Urdu Wikipedia (revision 10431629 of 15 May 2026) and Wikidata Q1664527 (item revision 2553122769), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Urdu article's agrees) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub; ibn-e-insha in the worktree is a different, later writer. His father Mir Masha Allah Khan has no museum record, so no family edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-163j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

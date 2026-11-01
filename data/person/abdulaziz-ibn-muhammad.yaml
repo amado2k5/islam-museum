@@ -1,0 +1,73 @@
+id: person/abdulaziz-ibn-muhammad
+class: person
+
+label: { ar: "عبد العزيز بن محمد آل سعود", en: "Abdulaziz ibn Muhammad Al Saud", ur: "عبد العزیز بن محمد بن سعود" }
+
+names:
+  - { value: "Abdulaziz bin Muhammad bin Saud bin Muhammad bin Muqrin Al Saud", kind: full }
+  - { value: "عبد العزيز بن محمد بن سعود بن محمد بن مقرن آل سعود", kind: full }
+  - { value: "Mahdi Zamanihi", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "الإمام عبد العزيز بن محمد آل سعود (1720 – 1803) ثاني حكام إمارة الدرعية والدولة السعودية الأولى. نشأ على يد الشيخ محمد بن عبد الوهاب فصار من أبرز تلامذته وتزوج ابنته، وقاد جيوش الدولة في حياة أبيه، ثم خلفه سنة 1765 فامتدت الدولة في عهده إلى الرياض والأحساء وقطر والبحرين والحجاز، وفي عهده وقع نهب كربلاء سنة 1802. اغتيل في الدرعية في نوفمبر 1803 وهو يصلي بالناس، فخلفه ابنه سعود."
+  en: "Imam Abdulaziz ibn Muhammad Al Saud (1720–1803) was the second ruler of the Emirate of Diriyah and the first Saudi state. Raised and educated by Muhammad ibn Abd al-Wahhab, whose leading student he became and whose daughter he married, he commanded the state's armies in his father's lifetime and succeeded him in 1765; under him the state reached Riyadh, al-Hasa, Qatar, Bahrain and the Hejaz, and his forces sacked Karbala in 1802. He was assassinated at Diriyah in November 1803 while leading the prayer, and his son Saud succeeded him."
+  ur: "امام عبد العزیز بن محمد آل سعود (1720ء – 1803ء) امارت درعیہ اور پہلی سعودی ریاست کے دوسرے حکمران تھے۔ محمد بن عبدالوہاب کی تربیت میں پلے بڑھے، ان کے ممتاز شاگرد بنے اور ان کی بیٹی سے شادی کی؛ والد کی زندگی میں ریاست کی فوجوں کی قیادت کی اور 1765ء میں ان کے جانشین ہوئے۔ ان کے عہد میں ریاست ریاض، احساء، قطر، بحرین اور حجاز تک پھیلی اور 1802ء میں کربلا پر حملہ ہوا۔ نومبر 1803ء میں درعیہ میں نماز کی امامت کے دوران قتل ہوئے اور ان کے بیٹے سعود جانشین ہوئے۔"
+
+roles: [ruler, scholar]
+regions: [arabia]
+wings: [people]
+
+born:
+  edtf: "1720"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article gives 1720; the Arabic article pairs his lifespan with 1133–1218 AH and 1721–1803 CE, and Wikidata carries a birth in 1721 recorded in the Julian calendar beside a stray century-precision value. The English article also calls him his father's eldest son where the Arabic article calls him the third son; both conflicts are preserved here and 1720 is built. Because the Arabic article's Hijri pairing belongs to its own 1721 reading, no Hijri year is recorded against the built year."
+  sources: [source/wikipedia-abdulaziz-bin-muhammad-en, source/wikipedia-abdulaziz-bin-muhammad-ar, source/wikidata-abdulaziz-bin-muhammad]
+
+died:
+  edtf: "1803-11"
+  hijri: "1218"
+  calendar: gregorian
+  precision: month
+  status: historical
+  note: "The English article records his assassination at Diriyah, at the Turaif mosque while he was leading the afternoon prayer, in November 1803, shortly after the capture of Mecca; its infobox gives 12 November and Wikidata 1 November, so the month is built and both days preserved here. The Hijri year 1218 is the Arabic article's own pairing for his death year. Diriyah has no museum place record yet, so no died_in edge is written."
+  sources: [source/wikipedia-abdulaziz-bin-muhammad-en, source/wikipedia-abdulaziz-bin-muhammad-ar, source/wikipedia-abdulaziz-bin-muhammad-ur, source/wikidata-abdulaziz-bin-muhammad]
+
+relations:
+  - { type: child_of, target: person/muhammad-ibn-saud, sources: [source/wikipedia-abdulaziz-bin-muhammad-en, source/wikipedia-abdulaziz-bin-muhammad-ar, source/wikidata-abdulaziz-bin-muhammad] }
+  - { type: successor_of, target: person/muhammad-ibn-saud, sources: [source/wikipedia-abdulaziz-bin-muhammad-en, source/wikipedia-abdulaziz-bin-muhammad-ar] }
+  - { type: student_of, target: person/muhammad-ibn-abd-al-wahhab, sources: [source/wikipedia-abdulaziz-bin-muhammad-en, source/wikipedia-abdulaziz-bin-muhammad-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. He
+      was educated by Muhammad ibn Abd al-Wahhab, became his leading
+      student and his son-in-law, led the Najdi reform movement as
+      its imam, and wrote epistles on tawhid in his teacher's line;
+      but movement leadership, discipleship and marriage into the
+      teacher's family never settle a school by themselves, and
+      Wikidata gives only Islam. The Hanbali character of the
+      movement's fiqh tradition is context, stated here and in his
+      prose, not a settlement. His faith is therefore recorded as
+      unknown.
+    sources: [source/wikipedia-abdulaziz-bin-muhammad-en, source/wikipedia-abdulaziz-bin-muhammad-ar, source/wikidata-abdulaziz-bin-muhammad]
+
+external_ids: { wikidata: "Q307187" }
+
+sources:
+  - source/wikipedia-abdulaziz-bin-muhammad-en
+  - source/wikipedia-abdulaziz-bin-muhammad-ar
+  - source/wikipedia-abdulaziz-bin-muhammad-ur
+  - source/wikidata-abdulaziz-bin-muhammad
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382206527 of 27 October 2026), Arabic Wikipedia (revision 76862932 of 4 October 2026), Urdu Wikipedia (revision 5786692 of 14 January 2024) and Wikidata Q307187 (item revision 2559156781), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record for the imam under any spelling; saud-bin-abdulaziz in the worktree is the twentieth-century king, a different man. The two Muhammads are kept distinct throughout: his father and predecessor is Muhammad ibn Saud, whose draft card exists; his teacher and father-in-law is Muhammad ibn Abd al-Wahhab, whose record exists. The child_of and successor_of edges are written here, in the son's and successor's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-163j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
