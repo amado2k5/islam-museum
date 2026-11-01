@@ -422,3 +422,25 @@ n
 - **place/naples** (label `نابل`). p. 293 and p. 302 describe a ruined fort called Nabil on the Tunisian coast (a Roman city destroyed after the conquest); p. 757 may describe another place. The record's identity is unclear and needs checking against the pages before any prose is written. Lead.
 - **place/suq-al-arbaa.** p. 398 gives about seventy words (a fine town, a famous weekly market, fruit, trade, one stage from Askar Mukram). Lead.
 - **place/qafiz.** pp. 313–315 give a station on a desert road with tribes; no description. Lead.
+
+## n–z batch 13 (Claude Sonnet 5.5, place, Idrisi)
+
+Remaining n–z Idrisi places were ranked by the length of the OCR paragraph around each Arabic label (paragraph markers in pages.json), so batches go to the entities with the most source text first. Common-word labels (sus-khuzistan, tarabulus-sham, tarabulus-gharb, najaa, qarnayn) are skipped, because the label hits are other words or persons.
+
+### Enriched, batch 13
+
+- **place/shadhrawan** (Idrisi pp. 393, 395). The Shapur weir at Tustar, the Dujayl/Masruqan channels and irrigation, the Daniel-coffin tradition reported from al-Hawqali (attributed, not asserted).
+- **place/tawawis** (pp. 495, 496). Town inside the wall of Bukhara, its market, cotton cloth, tiraz, citadel, neighbours.
+- **place/tadlis** (pp. 222, 259, 273). **Corrected the data summary**: p. 259 says twenty-four miles from Marsa al-Dajaj, not four stages.
+- **place/wadi-ash** (pp. 537, 567, 568). The road from Abla plain to Granada, the meeting of roads, the road to Basta.
+- **place/safru** (pp. 222, 243, 249). Small settled town, one stage from Fez, the Sijilmasa and Tlemcen caravan roads. **Corrected the data summary**: it said sparsely populated; the page's `متحضرة` means settled.
+- **place/rahbat-malik** (pp. 650, 656, 657). The Euphrates station, thirty miles from al-Daliya, two stages to al-Khabur. The earthen-wall phrase is garbled in the OCR and is omitted.
+- **place/talabira** (pp. 538, 551, 553). The Tagus city, seventy miles from Toledo, mills, the river's course to Lisbon.
+
+### Leads, batch 13
+
+- **place/qalhat.** p. 156 gives only one distance (two hundred miles to Sohar); p. 155 is about Mahra and does not describe the town. Lead.
+
+### Skipped, batch 13
+
+- **place/sus-khuzistan**, **tarabulus-sham**, **tarabulus-gharb**, **najaa**, **qarnayn**: common-word or non-place labels.

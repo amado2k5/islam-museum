@@ -1,0 +1,78 @@
+id: person/shah-alam-ii
+class: person
+
+label: { ar: "شاه عالم الثاني", en: "Shah Alam II", ur: "شاہ عالم ثانی" }
+
+names:
+  - { value: "ميرزا علي كوهر", kind: full }
+  - { value: "Mirza Ali Gauhar", kind: full }
+  - { value: "Shah Alam II", kind: regnal }
+  - { value: "Aftab", kind: pen }
+  - { value: "Ali Gauhar", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شاه عالم الثاني (25 يونيو 1728 – 19 نوفمبر 1806)، إمبراطور المغول في الهند، ابن عالمكير الثاني، حكم من 1760 إلى 1788 ومن 1788 إلى 1806. بعد هزيمته عند بوكسار منح شركة الهند الشرقية ديواني البنغال بمعاهدة الله آباد سنة 1765، وفي 1788 سمل غلام قادر عينيه وهو أسيره. كان شاعراً يكتب بتخلّص «آفتاب»، وله ديوان شعر وكتاب «عجائب القصص» في النثر الأردي المبكر، وتوفي في دلهي."
+  en: "Shah Alam II (25 June 1728 – 19 November 1806) was Mughal emperor, a son of Alamgir II, reigning from 1760 to 1788 and again from 1788 to 1806. Defeated at Buxar, he granted the East India Company the Diwani of Bengal by the Treaty of Allahabad in 1765; in 1788, his prisoner Ghulam Qadir blinded him. He was a poet under the pen name Aftab, author of a Diwan and of the early Urdu prose work Ajaib-ul-Qasas, and he died at Delhi."
+  ur: "شاہ عالم ثانی (25 جون 1728ء – 19 نومبر 1806ء) مغلیہ سلطنت کے بادشاہ، عالمگیر ثانی کے فرزند، 1760ء سے 1788ء اور پھر 1788ء سے 1806ء تک تخت نشین رہے۔ بکسر کی شکست کے بعد آپ نے 1765ء کے معاہدۂ الٰہ آباد کے ذریعے ایسٹ انڈیا کمپنی کو بنگال کی دیوانی عطا کی؛ 1788ء میں غلام قادر نے قید میں آپ کی آنکھیں نکال دیں۔ آپ «آفتاب» تخلص کے شاعر تھے، آپ کا دیوان اور ابتدائی اردو نثر کی کتاب «عجائب القصص» آپ کی یادگار ہے؛ آپ کی وفات دہلی میں ہوئی۔"
+
+roles: [sultan, poet]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1728-06-25"
+  hijri: "1140"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 25 June 1728; the Hijri year 1140 is converted from the Gregorian date. He was born at Shahjahanabad, Delhi."
+  sources: [source/wikipedia-shah-alam-ii-en, source/wikidata-shah-alam-ii]
+
+died:
+  edtf: "1806-11-19"
+  hijri: "1221"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 19 November 1806, at Delhi; the Hijri year 1221 is converted from the Gregorian date. His grave lies beside the dargah of Qutbuddin Bakhtiar Kaki at Mehrauli."
+  sources: [source/wikipedia-shah-alam-ii-en, source/wikidata-shah-alam-ii]
+
+relations:
+  - { type: child_of, target: person/alamgir-ii-mughal, sources: [source/wikipedia-shah-alam-ii-en, source/wikidata-shah-alam-ii] }
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-shah-alam-ii-en] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-shah-alam-ii-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source consulted names a legal school for Shah Alam II himself in
+      text. The English article's infobox gives his religion as Sunni
+      Islam (Hanafi) — a single structured attestation that the article
+      body does not corroborate; the Arabic article's infobox gives Islam
+      only, and Wikidata's religion value is Islam generically. The
+      Mughal court's Hanafi tradition is the context of his reign, and a
+      court's tradition never counts as the man's own attestation. Under
+      the lane's doctrine a school is settled only on two independent
+      sources naming it for the person himself, so his faith is recorded
+      as unattested and the infobox attestation is preserved here.
+    sources: [source/wikipedia-shah-alam-ii-en, source/wikipedia-shah-alam-ii-ar, source/wikidata-shah-alam-ii]
+
+external_ids: { wikidata: "Q719449" }
+
+sources:
+  - source/wikipedia-shah-alam-ii-en
+  - source/wikipedia-shah-alam-ii-ar
+  - source/wikipedia-shah-alam-ii-ur
+  - source/wikidata-shah-alam-ii
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1366062944 of 26 July 2026), Arabic Wikipedia (revision 71469213 of 22 July 2025), Urdu Wikipedia (revision 11800900 of 18 August 2026) and Wikidata Q719449 (item revision 2561072518), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles' agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. No edge is written to his son Akbar II, whose record does not yet exist (a later queue row), and no other relations are asserted."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-160j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
