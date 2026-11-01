@@ -1,0 +1,23 @@
+id: event/edirne-fire-1158
+class: event
+kind: other
+label: { ar: "حريق أدرنة الكبير", en: "The great fire of Edirne", ur: "ادرنہ کا بڑا حریق" }
+summary:
+  ar: "اشتدّ انحطاط أدرنة بعد حريق سنة ١١٥٨هـ/١٧٤٥م الذي أحرق نحو ستين حياً من أحيائها، ثم أعقبه زلزال سنة ١١٦٤هـ/١٧٥١م {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  en: "Edirne's decline was hastened by the fire of 1158/1745, in which some sixty quarters of the city were burnt down, followed by the earthquake of 1164/1751 {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  ur: "ادرنہ کے زوال میں 1158ھ/1745ء کی آگ نے تیزی لائی جس میں شہر کے ساٹھ محلے جل کر راکھ ہوئے، پھر 1164ھ/1751ء کا زلزلہ آیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1745", hijri: "1158", calendar: julian, precision: year, status: tradition, derived: true, note: "حريق سنة ١١٥٨هـ/١٧٤٥م {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}؛ الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
