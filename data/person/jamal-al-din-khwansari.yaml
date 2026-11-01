@@ -1,0 +1,60 @@
+id: person/jamal-al-din-khwansari
+class: person
+
+label: { ar: "آقا جمال خوانساري", en: "Jamal al-Din Khwansari", ur: "آقا جمال خوانساری" }
+
+names:
+  - { value: "Jamal al-Din Muhammad ibn Husayn ibn Muhammad al-Khwansari", kind: full }
+  - { value: "Aqa Jamal Khwansari", kind: alternate }
+  - { value: "Jamal al-Muhaqqiqin", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "جمال الدين محمد بن حسين الخوانساري، المعروف بآقا جمال (توفي 1125هـ/1713م، وفي رواية 1122هـ)، فقيه ومحدّث وحكيم شيعي إمامي من علماء أصفهان في العهد الصفوي، وهو ابن العلامة آقا حسين الخوانساري وتلميذه. درّس في حوزه أصفهان حتى صارت له رئاسة التدريس فيها، وخلف تراثًا واسعًا من التأليفات والتعليقات والترجمات الفارسية، أشهرها كتاب «عقائد النساء» الساخر في نقد خرافات عصره."
+  en: "Jamal al-Din Muhammad ibn Husayn al-Khwansari, known as Aqa Jamal (d. 1125 AH/1713 CE, by another account 1122 AH), was a Twelver Shi'i jurist, traditionist and philosopher of Safavid Isfahan, the son and pupil of the scholar Aqa Husayn al-Khwansari. He taught in the Isfahan seminary until the headship of its teaching was his, and left a large body of works, glosses and Persian translations, the most famous of them the satirical Aqa'id al-Nisa' (\"The Beliefs of Women\"), a critique of the superstitions of his age."
+  ur: "جمال الدین محمد بن حسین خوانساری، معروف بہ آقا جمال (وفات 1125ھ/1713ء، ایک روایت میں 1122ھ)، صفوی اصفہان کے اثنا عشری شیعہ فقیہ، محدث اور حکیم تھے، علامہ آقا حسین خوانساری کے فرزند اور شاگرد۔ اصفہان کے حوزے میں تدریس کرتے ہوئے وہاں کی ریاستِ تدریس ان تک پہنچی، اور انہوں نے تصانیف، تعلیقات اور فارسی تراجم کا بڑا ذخیرہ چھوڑا، جن میں مشہور ترین ان کی طنزیہ کتاب «عقائد النساء» ہے جو اپنے عہد کی خرافات پر نقد ہے۔"
+
+roles: [scholar, jurist, theologian, philosopher]
+regions: [persia-central-asia]
+wings: [people]
+
+died:
+  edtf: "1713"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "His birth date and birthplace are unknown in both texts — the Persian article and WikiFeqh agree that neither is recorded, and that he was raised in Isfahan; the queue row's birth year 1651 is attested by no source read and no birth block is built. For his death the Persian article gives 1122 AH, or by another account 1125 AH; WikiFeqh gives 1125 AH / 1713 CE, and the year 1713 is built following it. The 1122 AH reading (about 1710–1711 CE) is the queue row's 1711 and is preserved here. No single Hijri year is built, the two readings being rivals."
+  sources: [source/wikipedia-jamal-al-din-khwansari-fa, source/wikifeqh-jamal-al-din-khwansari]
+
+relations:
+  - { type: child_of, target: person/aqa-husayn-al-khwansari, sources: [source/wikipedia-jamal-al-din-khwansari-fa, source/wikifeqh-jamal-al-din-khwansari] }
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: >-
+      Two independent texts name the value for the man himself:
+      the Persian article's lead counts him among the Shia
+      scholars of the twelfth Hijri century, and WikiFeqh's entry
+      calls him one of the Imami jurists and describes his running
+      of the Shi'i seminary of Isfahan. The sources say "Shia" and
+      "Imami"; the value is recorded as shia-twelver under the
+      founder's mapping, the Imami wording and the Safavid Twelver
+      context supporting the branch. Wikidata carries no religion
+      statement for him, and none is relied on.
+    sources: [source/wikipedia-jamal-al-din-khwansari-fa, source/wikifeqh-jamal-al-din-khwansari]
+
+external_ids: { wikidata: "Q23893959" }
+
+sources:
+  - source/wikipedia-jamal-al-din-khwansari-fa
+  - source/wikifeqh-jamal-al-din-khwansari
+  - source/wikidata-jamal-al-din-khwansari
+
+provenance:
+  layer: own-research
+  source: "Persian Wikipedia article «آقا جمال خوانساری» (revision 44400601 of 15 September 2026), the WikiFeqh entry «آقا جمال خوانساری» (fa.wikifeqh.ir, read in-session 1 November 2026) and Wikidata Q23893959 (item revision 2524080347 of 28 July 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the Persian article's own page property. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID; a second, authority-file-only Wikidata item (Q135441843, from a Princeton manuscript catalogue, giving 1605–1713) exists but has no sitelinks and is not the article's item, so it is not used. His father Aqa Husayn al-Khwansari has a record on main (a draft stub), so the child_of edge is written here in the child's record per the one-write rule. Queue corrections: the queue's birth year 1651 is attested by no source (his birth is unrecorded) and its death year 1711 follows only the 1122 AH reading, preserved in the died note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-173m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
