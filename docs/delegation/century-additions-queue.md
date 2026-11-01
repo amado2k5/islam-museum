@@ -840,11 +840,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Azar Nafisi — 1948–Living
 - [x] Marjane Satrapi — 1969–Living
 - [x] Kader Abdolah — 1954–Living
-- [ ] Dina Nayeri — 1979–Living
-- [ ] Rabih Alameddine — 1959–Living
-- [ ] Hisham Matar — 1970–Living
-- [ ] Ahdaf Soueif — 1950–Living
-- [ ] Alaa Al Aswany — 1957–Living
+- [x] Dina Nayeri — 1979–Living
+- [x] Rabih Alameddine — 1959–Living
+- [x] Hisham Matar — 1970–Living
+- [x] Ahdaf Soueif — 1950–Living
+- [x] Alaa Al Aswany — 1957–Living
 - [ ] Sonallah Ibrahim — 1937–Living
 - [ ] Bahaa Taher — 1935–2022
 - [ ] Youssef Ziedan — 1958–Living
