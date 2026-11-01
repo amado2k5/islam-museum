@@ -513,3 +513,17 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 - **place/zalqan.** p. 457 gives about sixty words (a stage from Bust, walled, markets, palms and vines, mostly weavers). Lead.
 - **place/shansha.** pp. 335 and 336 give a short description (many trees and farms, sugar presses) and the canal. Lead.
 - **place/suq-ibrahim.** only an index entry and one line. Lead.
+
+## n–z batch 19 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 19
+
+- **place/wadi-al-hijara** (Idrisi pp. 538, 553). Saffron town fifty miles east of Toledo, its small river flowing into the Tagus.
+- **place/tarraqona** (pp. 538, 555, 734). The marble wall, the city's condition, distances to Tortosa (fifty and forty-five miles on the two pages) and Barcelona. "City of the Jews" appears in the text without explanation, and the entry says so.
+- **place/naroa** (pp. 610, 611, 612). Halting place near Karkant with its weekly market, and the surrounding road distances.
+- **place/shiltish** (pp. 537, 542, 545). The island city without a wall, the anchors ironwork, the river arm, the Majus raids, distances to Cadiz and Qastala.
+- **place/rouen** (pp. 864, 865, 866). Rutumaghsh, twenty miles from Dyaba, thirty from Bentiz. The land name is garbled in the OCR (`زمندية`) and is reported as written.
+
+### Leads, batch 19
+
+- **place/qantarat-thakan.** pp. 415 and 421 give the bridge on the Musin river by Arjan (compared to the bridge of Cordoba) in about seventy words, and the rest is route distances. Lead.
