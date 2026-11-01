@@ -1,0 +1,71 @@
+id: person/rehman-chishti
+class: person
+
+label: { ar: "رحمان تشيشتي", en: "Rehman Chishti", ur: "رحمان چشتی" }
+
+names:
+  - { value: "Rehman Chishti", kind: full }
+  - { value: "رحمان تشيشتي", kind: full }
+
+gender: male
+
+summary:
+  ar: "رحمان تشيشتي (وُلد في 4 تشرين الأول 1978 في مظفر آباد، آزاد كشمير)، سياسي ومحامٍ بريطاني من حزب المحافظين. جاء إلى المملكة المتحدة في السادسة من عمره ليلتحق بوالده، إمام مسجد غيلينغهام، وقُبل في نقابة المحامين سنة 2001، وعمل مستشارًا سياسيًا لبينظير بوتو 1999–2007، وكان عضو البرلمان عن غيلينغهام ورينهام 2010–2024. وعمل مبعوثًا خاصًا لرئيس الوزراء لحرية الدين أو المعتقد 2019–2020، واستقال من المنصب احتجاجًا على مشروع قانون السوق الداخلية."
+  en: "Rehman Chishti (born 4 October 1978 in Muzaffarabad, Azad Kashmir) is a British Conservative politician and barrister. He came to the United Kingdom aged six to join his father, an imam in Gillingham, was called to the Bar in 2001, advised Benazir Bhutto from 1999 to 2007, and was MP for Gillingham and Rainham from 2010 to 2024. He served as the Prime Minister's Special Envoy for Freedom of Religion or Belief from 2019 to 2020, resigning from the post over the Internal Market Bill."
+  ur: "رحمان چشتی (پیدائش 4 اکتوبر 1978، مظفر آباد، آزاد کشمیر) برطانوی کنزرویٹو سیاست دان اور بیرسٹر ہیں۔ وہ چھ سال کی عمر میں اپنے والد، جو گلنگھم کے امام تھے، کے پاس برطانیہ آئے، 2001 میں بار میں داخل ہوئے، 1999 سے 2007 تک بینظیر بھٹو کے سیاسی مشیر رہے، اور 2010 سے 2024 تک گلنگھم اور رینہم کے رکن پارلیمنٹ رہے۔ وہ 2019 سے 2020 تک وزیرِ اعظم کے خصوصی ایلچی برائے آزادیِ مذہب یا عقیدہ رہے اور انٹرنل مارکیٹ بل پر اس عہدے سے مستعفی ہوئے۔"
+
+roles: [politician, lawyer]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1978-10-04"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Muzaffarabad, Azad Kashmir on 4 October 1978; the English and Urdu articles and Wikidata agree. The Hijri year 1398 is the tabular conversion of the built date, marked derived. No place entity for Muzaffarabad exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-rehman-chishti-en, source/wikipedia-rehman-chishti-ur, source/wikidata-rehman-chishti]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      He identifies himself generically as a Muslim in his own
+      words, preserved here in full. In his first-person piece
+      titled "Islam" on the UK Parliament website for Inter
+      Faith Week 2021 he wrote that "my faith has always been
+      an important part of my life", that "the key tenets and
+      values of my faith, including kindness, compassion,
+      respect and acceptance of one another, shape my life both
+      inside and outside of Parliament", and "I took the oath
+      of allegiance on the Quran". The English article likewise
+      states that he is a practising Muslim and took his first
+      oath on a Quran. That is documented practice and generic
+      self-identification; no source names a school or order
+      for the man himself, so no value is recorded. His
+      father's posts as an imam and as a religious-affairs
+      adviser are family background and were not used, and his
+      office as the Prime Minister's Special Envoy for Freedom
+      of Religion or Belief is an office, which never counts,
+      under the founder's rulings of 1 November 2026.
+      Wikidata carries no religion statement for him.
+    sources: [source/wikipedia-rehman-chishti-en, source/parliament-chishti-islam-2021, source/wikidata-rehman-chishti]
+
+external_ids: { wikidata: "Q271683" }
+
+sources:
+  - source/wikipedia-rehman-chishti-en
+  - source/wikipedia-rehman-chishti-ur
+  - source/wikidata-rehman-chishti
+  - source/parliament-chishti-islam-2021
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Rehman Chishti' (revision 1371463969 of 26 August 2026), Urdu Wikipedia article 'رحمان چشتی' (revision 8876616 of 28 June 2025), Wikidata Q271683 (item revision 2517607272 of 15 July 2026) and Rehman Chishti's own piece 'Islam' on the UK Parliament website (Inter Faith Week 2021), fetched live in-session via the MediaWiki API or read in full on the publisher's site on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1978 is confirmed at day precision. The Urdu article styles him Atta-ur-Rehman Chishti Gujjar, a form found nowhere else and not adopted. No Arabic article is linked from the item."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
