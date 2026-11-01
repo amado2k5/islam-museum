@@ -915,11 +915,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Yusuf Hamied — 1936–Living
 - [x] Habil Khorakiwala — 1942–Living
 - [x] Faizal Kottikollon — 1963–Living
-- [ ] Dr. Azad Moopen — 1953–Living
-- [ ] Shamsheer Vayalil — 1977–Living
-- [ ] Firoz Merchant — 1958–Living
-- [ ] B. R. Shetty (Contemporary) — 1942–Living
-- [ ] Sultan Ahmed bin Sulayem — 1955–Living
+- [x] Dr. Azad Moopen — 1953–Living
+- [x] Shamsheer Vayalil — 1977–Living
+- [x] Firoz Merchant — 1958–Living
+- [x] B. R. Shetty (Contemporary) — 1942–Living
+- [x] Sultan Ahmed bin Sulayem — 1955–Living
 - [ ] Mohamed Alabbar — 1956–Living
 - [ ] Khaldoon Al Mubarak — 1975–Living
 - [ ] Badr Jafar — 1979–Living
