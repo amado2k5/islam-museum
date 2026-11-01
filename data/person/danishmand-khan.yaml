@@ -1,0 +1,61 @@
+id: person/danishmand-khan
+class: person
+
+label: { ar: "دانشمند خان", en: "Danishmand Khan", ur: "دانشمند خان" }
+
+names:
+  - { value: "Shafi'a Yazdi", kind: full }
+  - { value: "Shafi'a", kind: given }
+  - { value: "Yazdi", kind: nisba }
+  - { value: "Danishmand Khan", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "دانشمند خان (توفي سنة 1670)، واسمه الأصلي شفيعا اليزدي، عالم وجندي فارسي من يزد عمل تاجرًا في أحمد نكر ثم دخل في خدمة شاه جهان العسكرية، فمنحه سنة 1654/55 لقب «دانشمند خان» — أي السيد العالم — تقديرًا لعلمه، وصار مير بخشي في الإدارة المركزية في عهد أورنك زيب. وتدين معرفتنا به لرسائل الرحالة الفرنسي فرانسوا برنييه التي أبرزت علمه واهتمامه الكبير بعلوم الغرب، وأيّد الرحالة الإيطالي نيقولو مانوتشي صورة برنييه عنه."
+  en: "Danishmand Khan (d. 1670), born Shafi'a Yazdi, was a Persian scholar and soldier from Yazd who worked as a merchant at Ahmednagar before entering Shah Jahan's military service, where in 1654/55 the emperor gave him the title Danishmand Khan — 'the learned lord' — in recognition of his learning; he later held the office of Mir Bakhshi in the central administration under Aurangzeb. Knowledge of him is owed chiefly to the letters of the French traveller François Bernier, who stressed his scholarship and his great interest in Western science, a portrait the Italian traveller Niccolò Manucci confirmed."
+  ur: "دانشمند خان (وفات 1670ء)، اصل نام شفیعا یزدی، یزد کے فارسی عالم اور سپاہی تھے؛ احمد نگر میں تجارت کے بعد شاہ جہاں کی فوجی خدمت میں داخل ہوئے، جس نے 1654ء/55ء میں ان کے علم کے اعتراف میں انھیں «دانشمند خان» کا لقب دیا؛ بعد ازاں اورنگ زیب کے عہد میں مرکزی انتظامیہ میں میر بخشی کے عہدے پر فائز ہوئے۔ ان کے احوال کی معرفت زیادہ تر فرانسیسی سیاح فرانسوا برنیے کے خطوط کی مرہونِ منت ہے، جنھوں نے ان کے علم اور مغربی علوم میں گہری دلچسپی کو نمایاں کیا، اور اطالوی سیاح نیکولو مانوچی نے برنیے کی اس تصویر کی تائید کی۔"
+
+roles: [merchant, scholar, general, minister]
+regions: [south-asia, persia-central-asia]
+wings: [people]
+
+died:
+  edtf: "1670"
+  calendar: julian
+  precision: year
+  status: historical
+  note: "The German article and Wikidata both give his death in 1670. No text read dates his birth: Wikidata's birth statement is a millennium-precision '+1600' that fixes no year, and the queue's 1625 is not attested in any article read, so no born block is built (the Mahabat Khan II precedent in this lane). No text read names his place of death."
+  sources: [source/wikipedia-danishmand-khan-de, source/wikidata-danishmand-khan]
+
+relations:
+  - { type: born_in, target: place/yazd, sources: [source/wikipedia-danishmand-khan-de] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or confession for Danishmand Khan
+      himself. He was a Persian of Yazd — a Twelver Shi'i milieu —
+      who spent his career at the Sunni Mughal court of Shah Jahan
+      and Aurangzeb, and François Bernier's letters, on which
+      knowledge of him chiefly rests, portray his learning and his
+      interest in European science without naming his faith. Milieu
+      and court service settle nothing, and no second text attests
+      any value for the man himself, so his faith is recorded as
+      unknown with the picture stated. Wikidata carries no religion
+      statement for him.
+    sources: [source/wikipedia-danishmand-khan-de]
+
+external_ids: { wikidata: "Q29559358" }
+
+sources:
+  - source/wikipedia-danishmand-khan-de
+  - source/wikidata-danishmand-khan
+
+provenance:
+  layer: own-research
+  source: "German Wikipedia article 'Schafīʿa Yazdi' (revision 165071328 of 1 May 2017) and Wikidata Q29559358 (item revision 2554263550 of 7 October 2026), fetched live in-session on 1 November 2026; the QID was grounded from the German article's own page property and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID; no Arabic, Urdu or Persian Wikipedia article exists for him. Identity care: the German article, resting on M. Athar Ali's Encyclopaedia of Islam entry 'S̲h̲afīʿā Yazdi' and on Muhammad Salih Kamboh's Amal-i Salih, names the man Shafi'a of Yazd; the brief's parenthetical styling 'Mirza Abu al-Fazl' is supported by no article read and is not used. The German article gives no birth year and no place of death, and none is built. place/yazd exists on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-172m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

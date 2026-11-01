@@ -1,0 +1,62 @@
+id: person/muhammad-tahir-nasrabadi
+class: person
+
+label: { ar: "محمد طاهر نصرآبادي", en: "Mirza Muhammad Tahir Nasrabadi", ur: "محمد طاہر نصرآبادی" }
+
+names:
+  - { value: "Mirza Muhammad Tahir Nasrabadi", kind: full }
+  - { value: "Mirza Mohammad Taher Nasrabadi", kind: latinized }
+  - { value: "Muhammad Tahir", kind: given }
+  - { value: "Nasrabadi", kind: nisba }
+  - { value: "Mirza Muhammad Tahir Nasab", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ميرزا محمد طاهر نصرآبادي (وُلد سنة 1027 هـ / 1618م، وكان حيًّا سنة 1088 هـ / 1677–1678م)، أديب وشاعر من نصرآباد أصفهان، صاحب «تذكرة الشعراء» المعروفة بتذكرة نصرآبادي، وهي معجم تراجم لنحو ألف شاعر من العصر الصفوي ألّفه إهداءً إلى الشاه سليمان الأول. راسله الشعراء من إيران وماوراء النهر والهند، وكان صائب التبريزي أشهر معارفه. لم يُعرف تاريخ وفاته."
+  en: "Mirza Muhammad Tahir Nasrabadi (b. 1027 AH / 1618 CE, alive in 1088 AH / 1677–78 CE) was a litterateur and poet of Nasrabad, Isfahan, author of the Tazkirat al-Shu'ara known as the Tazkira-ye Nasrabadi, a biographical dictionary of some one thousand poets of the Safavid age, dedicated to Shah Suleiman I. Poets of Iran, Transoxiana and India corresponded with him and sent him their verse, and Saib Tabrizi was the most famous of his associates. The date of his death is unrecorded."
+  ur: "میرزا محمد طاہر نصرآبادی (پیدائش 1027ھ / 1618ء، 1088ھ / 1677ء–1678ء میں زندہ)، نصرآبادِ اصفہان کے ادیب اور شاعر، «تذکرۃ الشعراء» معروف بہ تذکرۂ نصرآبادی کے مصنف — صفوی عہد کے تقریباً ایک ہزار شعراء کی سوانح کا مجموعہ، جو شاہ سلیمان اول کی نذر کیا گیا۔ ایران، ماوراء النہر اور ہند کے شعراء ان سے خط کتابت کرتے اور اپنا کلام بھیجتے تھے، اور صائب تبریزی ان کے مشہور ترین معارف میں تھے۔ ان کی وفات کی تاریخ معلوم نہیں۔"
+
+roles: [poet, scholar, writer]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1618"
+  hijri: "1027"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Persian article gives his birth in the year 1027 AH, and Wikidata gives 1618 CE; the two texts support the pairing, hence the Hijri year (derived). He was of Nasrabad, a district of Isfahan, of a noted and respected local family."
+  sources: [source/wikipedia-muhammad-tahir-nasrabadi-fa, source/wikidata-muhammad-tahir-nasrabadi]
+
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikipedia-muhammad-tahir-nasrabadi-fa, source/wikidata-muhammad-tahir-nasrabadi] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or confession for Nasrabadi
+      himself. He was a litterateur of Twelver Shi'i Isfahan whose
+      Tazkira documents the poets of that world, and he travelled
+      to Mecca, the shrine cities and Mashhad; milieu and itinerary
+      settle nothing, and no text attests any value for the man
+      himself, so his faith is recorded as unknown with the picture
+      stated. Wikidata carries no religion statement for him.
+    sources: [source/wikipedia-muhammad-tahir-nasrabadi-fa]
+
+external_ids: { wikidata: "Q15689585" }
+
+sources:
+  - source/wikipedia-muhammad-tahir-nasrabadi-fa
+  - source/wikipedia-tazkera-ye-taher-e-nasrabadi-en
+  - source/wikidata-muhammad-tahir-nasrabadi
+
+provenance:
+  layer: own-research
+  source: "Persian Wikipedia article 'Muhammad Tahir Nasrabadi' (revision 42103187 of 11 June 2025), English Wikipedia article 'Tazkera-ye Taher-e Nasrabadi' (revision 1295114866 of 11 June 2025) and Wikidata Q15689585 (item revision 2541322746 of 6 September 2026), fetched live in-session on 1 November 2026; the QID was grounded from the Persian article's own page property and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID. Identity care: the queue's 'Mirza Muhammad Tahir Nasab' matches no person in any article read; the Safavid court litterateur of Isfahan the queue row points to is Nasrabadi, of Nasrabad in Isfahan, and the queue's name form is preserved in his names as the harvest-list variant. The other candidate, Mohammad Taher Vahid Qazvini (d. 1700), was considered and set aside — a Qazvini by nisba and Vahid by pen name, against the queue's Isfahani Nasab. The queue's dates (1630–1700) are not attested for Nasrabadi: the Persian article gives his birth in 1027 AH and records no death date, only that he was alive in 1088 AH, so no died block is built. place/isfahan exists on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-172m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
