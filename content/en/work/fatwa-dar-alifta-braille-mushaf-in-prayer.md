@@ -19,4 +19,4 @@ Dar al-Ifta answered that this is permitted for a visually impaired worshipper, 
 
 ## About this record
 
-Egypt's Dar al-Ifta published this fatwa on its site as no. 8917, dated 9 April 2026, in its prayer category, among the fatwas of Grand Mufti Nazir Ayyad. {cite:dar-alifta fatwa 8917} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.
+Egypt's Dar al-Ifta published this fatwa on its site as no. 8917, dated 9 April 2026, in its prayer category, among the fatwas of Grand Mufti [[person/nazir-ayyad|Nazir Ayyad]]. {cite:dar-alifta fatwa 8917} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.

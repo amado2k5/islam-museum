@@ -11,7 +11,7 @@ A question on a doctor withholding the truth of an illness from a patient for hi
 
 ## The question
 
-The questioner said his sister's husband has cancer, and that when he asked the doctor about his condition the doctor did not tell him plainly. {cite:dar-alifta fatwa 8977} The doctor told the questioner instead, explaining that the patient's condition would decline quickly if he learned the truth. {cite:dar-alifta fatwa 8977}
+The questioner said his sister's husband has cancer, and that when the patient asked the doctor about his condition, the doctor did not tell him plainly. {cite:dar-alifta fatwa 8977} The doctor told the questioner instead, explaining that the patient's condition would decline quickly if he learned the truth. {cite:dar-alifta fatwa 8977}
 
 ## The answer
 
@@ -19,4 +19,4 @@ Dar al-Ifta answered that the basic rule is for the doctor to tell the patient t
 
 ## About this record
 
-Egypt's Dar al-Ifta published this fatwa on its site as no. 8977, dated 13 May 2026, in its medicine category, among the fatwas of Grand Mufti Nazir Ayyad. {cite:dar-alifta fatwa 8977} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.
+Egypt's Dar al-Ifta published this fatwa on its site as no. 8977, dated 13 May 2026, in its medicine category, among the fatwas of Grand Mufti [[person/nazir-ayyad|Nazir Ayyad]]. {cite:dar-alifta fatwa 8977} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.

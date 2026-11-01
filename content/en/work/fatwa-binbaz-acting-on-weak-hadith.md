@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A short question on acting upon a weak hadith, in which Ibn Baz answered that "weak" covers grades with different rulings. {cite:binbaz fatwa 1014}
+A short question on acting upon a weak hadith, in which [[person/ibn-baz-abd-al-aziz|Ibn Baz]] answered that "weak" covers grades with different rulings. {cite:binbaz fatwa 1014}
 
 ## The question
 

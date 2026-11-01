@@ -19,4 +19,4 @@ Dar al-Ifta answered that voluntary charity is recommended, and is given from wh
 
 ## About this record
 
-Egypt's Dar al-Ifta published this fatwa on its site as no. 8827, dated 11 November 2025, in its zakat category, among the fatwas of Grand Mufti Nazir Ayyad. {cite:dar-alifta fatwa 8827} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.
+Egypt's Dar al-Ifta published this fatwa on its site as no. 8827, dated 11 November 2025, in its zakat category, among the fatwas of Grand Mufti [[person/nazir-ayyad|Nazir Ayyad]]. {cite:dar-alifta fatwa 8827} The museum records this answer as a historical text attributed to its author; it issues no ruling of its own.
