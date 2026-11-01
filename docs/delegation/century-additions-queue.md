@@ -1817,11 +1817,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Prince Murad Baksh — 1624–1661
 - [x] Princess Jahanara Begum — 1614–1681
 - [x] Princess Roshanara Begum — 1617–1671
-- [ ] Princess Zeb-un-Nissa — 1638–1702
-- [ ] Nawab Shaista Khan — 1600–1694
-- [ ] Mir Jumla II — 1591–1663
-- [ ] Asad Khan — 1625–1716
-- [ ] Mahabat Khan II — 1610–1678
+- [x] Princess Zeb-un-Nissa — 1638–1702
+- [x] Nawab Shaista Khan — 1600–1694
+- [x] Mir Jumla II — 1591–1663
+- [x] Asad Khan — 1625–1716
+- [x] Mahabat Khan II — 1610–1678
 - [ ] Ali Mardan Khan — 1590–1657
 - [ ] Ustad Ahmad Lahori — 1580–1649
 - [ ] Mohammad Salih Kanbu — 1608–1675
