@@ -1,14 +1,21 @@
 id: place/zanzibar
 class: place
 kind: city
-label: { ar: "زنجبار", en: "Zanzibar" }
+label: { ar: "زنجبار", en: "Zanzibar", ur: "زنجبار" }
 summary:
-  ar: "جزيرة قبالة ساحل شرق أفريقيا، مركز تجاري إسلامي للثقافة السواحلية، وحكمتها سلطنة عُمان في القرن التاسع عشر."
-  en: An island off the East African coast, an Islamic trading centre of Swahili culture; the Sultanate of Oman ruled it in the nineteenth century.
+  ar: "جزيرة قبالة ساحل شرق أفريقيا، مركز تجاري للثقافة السواحلية. نقل سعيد بن سلطان عاصمته إليها في ثلاثينيات القرن التاسع عشر، ثم صارت سلطنة مستقلة سنة 1856."
+  en: "An island off the East African coast and a trading centre of Swahili culture. Said bin Sultan moved his capital there in the 1830s, and it became an independent sultanate in 1856."
+  ur: "مشرقی افریقہ کے ساحل کے سامنے ایک جزیرہ اور سواحلی ثقافت کا تجارتی مرکز۔ سعید بن سلطان نے 1830ء کی دہائی میں اپنا دارالحکومت یہاں منتقل کیا، اور 1856ء میں یہ ایک آزاد سلطنت بن گئی۔"
 wings: [place]
 regions: [east-africa]
 coordinates: [-6.1639, 39.1979]
 coordinate_precision: site
 external_ids: { geonames: "148730" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan, source/wikipedia-majid-bin-said-en]
+provenance:
+  layer: own-research
+  source: "Coordinates from GeoNames 148730 (already on the record). The nineteenth-century history is taken from the museum's published Said bin Sultan and Majid bin Said records, which cite English Wikipedia and Britannica, read again for the Explorer story on 1 November 2026."
+  generated_by: "Cursor"
+  model: "Grok 4.7"
+  run: explorer-zanzibar
+status: { review: published, completeness: 2, generated_by: "Cursor (Grok 4.7)" }

@@ -147,3 +147,10 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-30 | concept/al-rimaya, concept/al-musara-a | claude | dropped own practice/ duplicates after merging main (#2599 already has both); no new records; undated, not stories
 
 2026-11-01 | place/zanzibar | cursor | claimed
+2026-11-01 | place/medina | devin | claimed
+2026-11-01 | place/zanzibar | cursor | done — 6 nodes (capital move 1830s, Majid's accession 1856, his death 1870, protectorate 1890, revolution 1964, Karume's assassination 1972); reused existing person records and sources; new event records only
+
+2026-11-01 | place/tunis | cursor | claimed
+2026-11-01 | place/tunis | cursor | done — 8 nodes, all reused (Hafsid independence 1230, Eighth Crusade 1270, Marinid entry 1347, Ibn Khaldun's parents 1349, his court post 1352, conquests of 1534 and 1535, Ottoman recovery 1574); subject file only
+
+2026-11-01 | place/algiers | cursor | claimed

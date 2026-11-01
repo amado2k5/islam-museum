@@ -1,0 +1,36 @@
+id: event/zanzibar-british-protectorate-1890
+class: event
+kind: treaty
+label:
+  ar: "قبول زنجبار الحماية البريطانية"
+  en: "Zanzibar accepts the British protectorate"
+  ur: "زنجبار کا برطانوی سرپرستی قبول کرنا"
+summary:
+  ar: "وقّع السلطان علي بن سعيد في 14 يونيو 1890 اتفاقا مؤقتا مع القنصل البريطاني يقبل فيه الحماية، وتؤرخ المقالة العربية القبول الرسمي بـ7 نوفمبر 1890."
+  en: "On 14 June 1890 Sultan Ali bin Said signed a provisional agreement with the British consul accepting the protectorate; the Arabic article dates the formal acceptance to 7 November 1890."
+  ur: "14 جون 1890ء کو سلطان علی بن سعید نے برطانوی قونصل کے ساتھ سرپرستی قبول کرنے کا عبوری معاہدہ کیا؛ عربی مضمون باقاعدہ قبولیت کی تاریخ 7 نومبر 1890ء بتاتا ہے۔"
+wings: [time, place]
+themes: [colonial-wars-and-resistance]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start:
+    edtf: "1890-06-14"
+    hijri: "1307-10-25"
+    calendar: gregorian
+    precision: day
+    status: debated
+    derived: true
+    note: "خلاف مسجل في بطاقة علي بن سعيد: الاتفاق المؤقت في 14 يونيو 1890 (المقالتان الإنجليزية والألمانية نقلا عن هرتسليت) مقابل القبول الرسمي في 7 نوفمبر 1890 (المقالة العربية). سُجّل اليوم الأول لأنه اليوم الذي تتفق عليه مقالتان، وذُكر اليوم الآخر في الملخص. اليوم الهجري 25 شوال 1307 تحويل جدولي لـ14 يونيو 1890."
+    sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikipedia-ali-bin-said-de]
+relations:
+  - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar] }
+  - { type: had_participant, target: person/ali-bin-said, role: "السلطان الذي قبل الحماية", sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar] }
+sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikipedia-ali-bin-said-de]
+provenance:
+  layer: own-research
+  source: "English, Arabic and German Wikipedia articles on Ali bin Said, as already written in content/ar/person/ali-bin-said.md and the person record, read for this story on 1 November 2026. The date conflict is the one that record already states."
+  generated_by: "Cursor"
+  model: "Grok 4.7"
+  run: explorer-zanzibar
+status: { review: published, completeness: 2, generated_by: "Cursor (Grok 4.7)" }
