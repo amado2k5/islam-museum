@@ -201,3 +201,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-maqrizi | devin | done — 10 nodes, journey (born Cairo ~765/1364 → father dies 779/1378 → muhtasib 801 & 807 → Damascus ~810/1408 for ~10 years, refuses judgeship → return ~820, full-time history → last child dies 826/1423 → death 16 Ramadan 845/14 Feb 1442); 8 new events from EI2 vol. 6 pp. 213-214 (Rosenthal) + shadharat-dhahab s.a. 845 pp. 254-255; GPU busy (cursor queue) so no Explorer images
 2026-11-01 | person/ibn-taymiyya | devin | claimed
 2026-11-01 | person/ibn-taymiyya | devin | done — 15 nodes, curated journey (born Harran 661 → death in Damascus citadel 728); 12 new events from EI2 vol. 3 pp. 983-985; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-ibn-taymiyya.json
+2026-11-01 | person/al-dhahabi | devin | claimed
