@@ -1,0 +1,62 @@
+id: person/nabil-abdulrashid
+class: person
+
+label: { ar: "نبيل عبد الرشيد", en: "Nabil Abdulrashid", ur: "نبیل عبد الرشید" }
+
+names:
+  - { value: "Nabil Abdulrashid", kind: full }
+  - { value: "Mohamed Nasir Nabil Abdul Rashid bin Suleman Obineche", kind: full }
+  - { value: "محمد ناصر نبيل عبد الرشيد بن سليمان أوبينيشي", kind: full }
+
+gender: male
+
+summary:
+  ar: "كوميدي بريطاني نيجيري وُلد في لندن سنة 1985. صار سنة 2010 أصغر كوميدي أسود يقدم عرضًا في هامرسميث أبولو، وجال بعرضه «لا داعي للذعر، أنا مسلم!»، وحلّ رابعًا في نهائي برنامج «بريطانيا غوت تالنت» سنة 2020، وظهر في برامج «لايف آت ذي أبولو» و«كيو آي» و«8 أوت أوف 10 كاتس داز كاونتداون»."
+  en: "British-Nigerian stand-up comedian, born in London in 1985. In 2010 he became the youngest black comedian to perform stand-up at the Hammersmith Apollo, toured his show Don't Panic, I'm Islamic!, finished fourth in the Britain's Got Talent final of 2020, and has appeared on Live at the Apollo, QI and 8 Out of 10 Cats Does Countdown."
+  ur: "برطانوی نائجیرین اسٹینڈ اپ کامیڈین، جو 1985 میں لندن میں پیدا ہوئے۔ 2010 میں وہ ہیمرسمتھ اپولو میں اسٹینڈ اپ پیش کرنے والے سب سے کم عمر سیاہ فام کامیڈین بنے، اپنے شو «ڈونٹ پینک، آئی ایم اسلامک!» کے ساتھ دورے کیے، 2020 میں «برطانیہ گاٹ ٹیلنٹ» کے فائنل میں چوتھے نمبر پر رہے، اور «لائیو ایٹ دی اپولو»، «کیو آئی» اور «8 آؤٹ آف 10 کیٹس ڈز کاؤنٹ ڈاؤن» میں نظر آئے۔"
+
+roles: [comedian, actor]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1985-09-03"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in North London, England. The English and Arabic articles both give 3 September 1985, while Wikidata gives 3 September 1987 — the same day and month with the year split — so the block is built on the two articles' reading and marked debated, with Wikidata's year preserved here. No Hijri year is recorded: the two readings fall in different Hijri years (1405 and 1408), so no single pairing is consistent. No place entity for London exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-nabil-abdulrashid-en, source/wikipedia-nabil-abdulrashid-ar, source/wikidata-nabil-abdulrashid]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      He performs openly as a Muslim: he toured a religious comedy
+      show titled Don't Panic, I'm Islamic!, took part in the first
+      Muslim Comedy Tour of 2011, and when complaints about his
+      Britain's Got Talent act were rejected in 2020, Ofcom described
+      it as his 'satirical take on his life experiences as a black
+      Muslim'. The English article files him under 'English Muslims'
+      and 'Muslim comedians' and Wikidata's structured religion
+      value gives Islam. All of that is a generic identification
+      naming no school or order, and no source read names one for
+      him, so no value is recorded and his framing is preserved
+      here, under the founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-nabil-abdulrashid-en, source/wikipedia-nabil-abdulrashid-ar, source/wikidata-nabil-abdulrashid]
+
+external_ids: { wikidata: "Q6956879" }
+
+sources:
+  - source/wikipedia-nabil-abdulrashid-en
+  - source/wikipedia-nabil-abdulrashid-ar
+  - source/wikidata-nabil-abdulrashid
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nabil Abdulrashid' (revision 1378546915 of 4 October 2026), Arabic Wikipedia article «نبيل عبد الرشيد» (revision 74178104 of 6 April 2026) and Wikidata Q6956879 (item revision 2536210487 of 25 August 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch — no prior record and no draft stub. QUEUE CORRECTION of certainty: the queue's 1985 is the articles' reading and is built, but Wikidata gives 1987 for the same day and month, so the year is marked debated rather than agreed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
