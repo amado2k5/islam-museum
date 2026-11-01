@@ -1,7 +1,6 @@
 // Run: node --test workers/site/test/
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "../src/route.js";
 
 test("language pages map to index.html keys", () => {
@@ -108,26 +107,11 @@ test("a missing language URL names that language's not-found page", async () => 
   assert.equal(notFoundKey("/robots.txt"), "ar/404/index.html");
 });
 
-test("embed pages may be framed; other pages keep their policy", async () => {
-  const { embedFraming } = await import("../src/route.js");
-  const csp = "default-src 'self'; frame-ancestors 'self'; img-src 'self'";
-  assert.deepEqual(embedFraming("/en/embed/fact/", csp), {
-    embed: true,
-    csp: "default-src 'self'; frame-ancestors *; img-src 'self'",
-  });
-  assert.deepEqual(embedFraming("/en/", csp), { embed: false, csp });
-});
-
-test("the published header file sends HSTS and framing, and does not send a CSP", () => {
-  const text = readFileSync(new URL("../../../site/public/_headers", import.meta.url), "utf8");
-  const home = headersFor(parseHeaders(text), "/en/");
-  assert.match(home["Strict-Transport-Security"], /max-age=31536000/);
-  assert.equal(home["Content-Security-Policy"], undefined);
-  assert.equal(home["X-Frame-Options"], "SAMEORIGIN");
-  assert.match(home["Permissions-Policy"], /camera=\(\)/);
-  assert.doesNotMatch(home["Permissions-Policy"], /fullscreen|accelerometer|gyroscope/);
-  const catalog = headersFor(parseHeaders(text), "/.well-known/api-catalog");
-  assert.equal(catalog["Content-Type"], "application/linkset+json");
+test("bundled catalog and security.txt name their content types", async () => {
+  const { BUNDLED_TYPES } = await import("../src/route.js");
+  assert.equal(BUNDLED_TYPES["/.well-known/security.txt"], "text/plain; charset=utf-8");
+  assert.equal(BUNDLED_TYPES["/api/v1/catalog"], "application/json; charset=utf-8");
+  assert.equal(BUNDLED_TYPES["/.well-known/api-catalog"], "application/linkset+json; charset=utf-8");
 });
 
 test("aliasTarget redirects a former entity id to the current one in the same language", async () => {

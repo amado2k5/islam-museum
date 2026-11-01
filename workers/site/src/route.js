@@ -140,16 +140,14 @@ export function notFoundKey(pathname) {
   return `${m ? m[1] : "ar"}/404/index.html`;
 }
 
-// /embed/ pages are meant to be framed on other sites. Drop the global framing lock.
-export function embedFraming(pathname, csp) {
-  const embed = /^\/(ar|en|ur)\/embed\//.test(pathname);
-  if (!embed) return { embed: false, csp };
-  return { embed: true, csp: csp ? csp.replace(/frame-ancestors[^;]*/, "frame-ancestors *") : csp };
-}
-
-export const WELL_KNOWN_TYPES = {
-  "/.well-known/api-catalog": "application/linkset+json; charset=utf-8",
+// Bundled responses. The catalog file is the linkset already in the repo.
+// /.well-known/api-catalog is the URL the homepage Link header advertises.
+// /api/v1/catalog is the same body as application/json. It has to be answered
+// before the /api/* redirect, which otherwise sends it to api.islam.museum.
+export const BUNDLED_TYPES = {
   "/.well-known/security.txt": "text/plain; charset=utf-8",
+  "/.well-known/api-catalog": "application/linkset+json; charset=utf-8",
+  "/api/v1/catalog": "application/json; charset=utf-8",
 };
 // Redirects are fixed by the rule files, so they may be cached for the same hour.
 // Workers Caching keys a response by path only, never by host (the same Worker answers

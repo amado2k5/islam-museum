@@ -5,7 +5,7 @@
 // The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
 // src/rules.generated.js): static assets consume _redirects and _headers themselves
 // and do not serve them, so they cannot be fetched through env.ASSETS.
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget, apexRedirect, notFoundKey, embedFraming, WELL_KNOWN_TYPES } from "./route.js";
+import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget, apexRedirect, notFoundKey, BUNDLED_TYPES } from "./route.js";
 import { redirectsText, headersText, aliasesText, apiCatalogBody, securityTxtBody } from "./rules.generated.js";
 
 const rules = {
@@ -41,17 +41,13 @@ function withHeaders(response, blocks, pathname) {
   if (Object.keys(extra).length === 0) return response;
   const headers = new Headers(response.headers);
   for (const [name, value] of Object.entries(extra)) headers.set(name, value);
-  const frame = embedFraming(pathname, headers.get("content-security-policy"));
-  if (frame.embed) {
-    headers.delete("x-frame-options");
-    if (frame.csp) headers.set("content-security-policy", frame.csp);
-  }
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
 }
 
-const WELL_KNOWN_BODIES = {
-  "/.well-known/api-catalog": apiCatalogBody,
+const BUNDLED_BODIES = {
   "/.well-known/security.txt": securityTxtBody,
+  "/.well-known/api-catalog": apiCatalogBody,
+  "/api/v1/catalog": apiCatalogBody,
 };
 
 export default {
@@ -75,12 +71,16 @@ export default {
       return new Response(null, { status: redirected.status, headers });
     }
 
-    const knownType = WELL_KNOWN_TYPES[url.pathname];
-    if (knownType && WELL_KNOWN_BODIES[url.pathname]) {
-      return respond(new Response(request.method === "HEAD" ? null : WELL_KNOWN_BODIES[url.pathname], {
+    const bundledType = BUNDLED_TYPES[url.pathname];
+    const bundledBody = BUNDLED_BODIES[url.pathname];
+    if (bundledType && bundledBody) {
+      const served = respond(new Response(request.method === "HEAD" ? null : bundledBody, {
         status: 200,
-        headers: { "content-type": knownType, "cache-control": "public, max-age=86400" },
+        headers: { "content-type": bundledType, "cache-control": "public, max-age=86400" },
       }));
+      const headers = new Headers(served.headers);
+      headers.set("content-type", bundledType);
+      return new Response(served.body, { status: 200, headers });
     }
 
     const rule = rules.static.get(url.pathname);

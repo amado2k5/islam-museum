@@ -26,7 +26,12 @@ binding = "ASSETS"
 # A path that matches no asset answers with the site's own 404 page (404.html), as Pages did.
 not_found_handling = "404-page"
 # Only these paths run the Worker; all other requests are served straight from assets.
-run_worker_first = ["/", "/.well-known/*", "/ar/*", "/en/*", "/ur/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png"]
+# Patterns added here, and why:
+# "/" — www.islam.museum/ is served by the asset layer unless the Worker runs first, so the apex redirect would never see the homepage.
+# "/.well-known/*" — security.txt and the API catalog are outside /ar, /en and /ur.
+# "/api/v1/catalog" — /api/* is a Pages redirect to api.islam.museum; the Worker must run first to serve the bundled JSON.
+# /ar/*, /en/* and /ur/* were already here, so the language 404 needs no new pattern.
+run_worker_first = ["/", "/.well-known/*", "/api/v1/catalog", "/ar/*", "/en/*", "/ur/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png"]
 
 [[r2_buckets]]
 binding = "SITE_BUCKET"

@@ -30,8 +30,7 @@ test("the real site/public files bundle and contain the API redirect", async () 
   assert.ok(headersFor(parseHeaders(headers), "/").Link, "the homepage Link header is present");
   const mod = await import(`file://${join(dir, "rules.generated.js")}`);
   assert.match(mod.apiCatalogBody, /"linkset"/);
-  // security.txt lands with the UI fix. The bundle includes it when the file is present.
-  if (mod.securityTxtBody) assert.match(mod.securityTxtBody, /Contact: mailto:discover@islam.museum/);
+  assert.match(mod.securityTxtBody, /Contact: mailto:discover@islam.museum/);
 });
 
 test("scanAliases reads inline and block alias forms and skips stubs", () => {

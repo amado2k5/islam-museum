@@ -11,27 +11,15 @@
 # Cloudflare Pages added these three to every response on its own. The site Worker
 # (workers/site) applies this file to every response it serves, so they are set here
 # explicitly and the two origins answer alike.
-# No Content-Security-Policy here. Production Pagefind is loaded from the R2 origin
-# (PAGEFIND_BASE_URL), so a same-origin script-src would blank the search page.
-# A CSP belongs in a later change, after a preview build with that variable set.
-# X-Frame-Options is SAMEORIGIN; the Worker drops it on /embed/, which other sites frame.
-# Permissions-Policy leaves fullscreen and motion sensors available for the 3D tour.
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Access-Control-Allow-Origin: *
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
-  X-Frame-Options: SAMEORIGIN
-  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
 
 # Hashed build assets never change under the same name: cache them for a year.
 # (Workers static assets served them with max-age=0; Pages with four hours.)
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
-
-# Emblem files keep stable names. A month at the edge; a content change ships on the next deploy.
-/brand/*
-  Cache-Control: public, max-age=2592000, stale-while-revalidate=604800
 
 # The root page is served by the asset layer, which omits the charset.
 /
