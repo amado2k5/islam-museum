@@ -12,7 +12,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1369~", hijri: "0771", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو 1369م {cite:freely-ottoman-architecture-2011 p. 37}؛ الهجري مشتق." }
 relations:
-  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011, source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/edirne, sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/murad-i-uthmani, role: "السلطان الناقل للعاصمة", sources: [source/freely-ottoman-architecture-2011] }
 sources: [source/freely-ottoman-architecture-2011]
 provenance:

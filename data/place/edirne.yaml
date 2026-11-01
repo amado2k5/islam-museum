@@ -1,14 +1,21 @@
 id: place/edirne
 class: place
 kind: city
-label: { en: "Edirne", ar: "أدرنة" }
+label: { en: "Edirne", ar: "أدرنة", ur: "ادرنہ" }
 summary:
-  en: "Thracian city, an Ottoman capital from the 14th century until 1453, with Sinan's Selimiye Mosque (1575)."
-  ar: "مدينة في تراقيا، كانت عاصمة عثمانية من القرن الرابع عشر حتى 1453م، وفيها جامع السليمية من بناء سنان (1575م)."
+  ar: "مدينة في تراقيا على ملتقى نهري التونجا والأردة بالمريج، فتحها العثمانيون في عهد مراد الأول فصارت عاصمتهم بعد بورصة حتى فتح القسطنطينية سنة 1453م {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}، وفيها جامع السليمية من بناء سنان (1569-1575م) {cite:freely-ottoman-architecture-2011 p. 73}."
+  en: "Thracian city at the confluence of the Tunca and Arda with the Meriç, taken by the Ottomans under Murad I as their capital after Bursa until the conquest of Constantinople in 1453 {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}; it holds Sinan's Selimiye Mosque (1569-75) {cite:freely-ottoman-architecture-2011 p. 73}."
+  ur: "تھریس کا شہر، دریائے تونجہ و اردہ کے مریج سے ملنے کی جگہ پر واقع؛ مراد اول کے عہد میں عثمانیوں کے ہاتھ آ کر بورصہ کے بعد ان کا دارالحکومت بنا، یہاں تک کہ 1453ء میں قسطنطنیہ فتح ہوا {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}؛ یہاں سنان کی سلیمیہ مسجد (1569-75ء) ہے {cite:freely-ottoman-architecture-2011 p. 73}۔"
 wings: [place]
 regions: [anatolia-balkans]
 coordinates: [41.6772, 26.556]
 coordinate_precision: site
 external_ids: { wikidata: "Q43387", geonames: "747712", pleiades: "501428" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2, source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF pp. 710-713; Freely, A History of Ottoman Architecture (2011) pp. 64-75 (harvest OCR); GeoNames 747712"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

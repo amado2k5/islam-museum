@@ -1,0 +1,23 @@
+id: event/treaty-of-adrianople-1125
+class: event
+kind: treaty
+label: { ar: "معاهدة أدرنة مع روسيا", en: "Treaty of Adrianople with Russia", ur: "روس سے معاہدہ ادرنہ" }
+summary:
+  ar: "وُقّعت معاهدة أدرنة بين الدولة العثمانية وروسيا سنة ١١٢٥هـ/١٧١٣م بعد وساطة هولندا وإنكلترا، تنازلت فيها روسيا عن مدينة آزوف وتعهدت بعدم التدخل في شؤون القوزاق {cite:dawlat-uthmaniyya-salabi p. 306}."
+  en: "The Treaty of Adrianople between the Ottoman state and Russia was signed at Edirne in 1125/1713 after Dutch and English mediation; Russia ceded Azov and undertook not to interfere in Cossack affairs {cite:dawlat-uthmaniyya-salabi p. 306}."
+  ur: "ہالینڈ اور انگلینڈ کی ثالثی کے بعد 1125ھ/1713ء میں ادرنہ میں عثمانیوں اور روس کے درمیان معاہدہ ادرنہ طے پایا؛ روس نے آزوف چھوڑا اور قزاقوں کے معاملات میں مداخلت نہ کرنے کا عہد کیا {cite:dawlat-uthmaniyya-salabi p. 306}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1713", hijri: "1125", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ١١٢٥هـ/١٧١٣م {cite:dawlat-uthmaniyya-salabi p. 306}؛ الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "al-Salabi, al-Dawla al-Uthmaniyya p. 306 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

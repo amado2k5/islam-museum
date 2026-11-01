@@ -1,0 +1,25 @@
+id: event/conquest-of-edirne-763
+class: event
+kind: conquest
+label: { ar: "فتح أدرنة", en: "Ottoman conquest of Edirne", ur: "ادرنہ کی عثمانی فتح" }
+summary:
+  ar: "أنجز فتح أدرنة في عهد مراد الأول على يد لاله شاهين باشا الذي هزم تكفور المدينة في سازلي دره جنوب شرقيها، ففرّ التكفور سراً بقارب من قصره على ضفة التونجا، واستسلم أهل المدينة في رمضان ٧٦٣هـ/يوليو ١٣٦٢م على شرط أن يعيشوا فيها أحراراً {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}. ويؤرخ الصلابي الاستيلاء على أدرنة سنة ٧٦٢هـ/١٣٦٠م ويصفها بأنها ثاني مدن الإمبراطورية البيزنطية بعد القسطنطينية {cite:dawlat-uthmaniyya-salabi p. 57}، بينما يؤرخه فريلي سنة ١٣٦٩م {cite:freely-ottoman-architecture-2011 p. 64}."
+  en: "The conquest of Edirne was accomplished under Murad I by Lala Shahin Pasha, who defeated the city's tekfür at Sazlı-Dere, south-east of the city; the tekfür then fled secretly by boat from his palace on the Tunca, and in Ramadan 763/July 1362 the inhabitants surrendered on condition of living there freely {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}. Al-Salabi dates the capture to 762/1360 and describes Edirne as the second city of the Byzantine Empire after Constantinople {cite:dawlat-uthmaniyya-salabi p. 57}, while Freely dates it to 1369 {cite:freely-ottoman-architecture-2011 p. 64}."
+  ur: "ادرنہ کی فتح مراد اول کے عہد میں لالہ شاہین پاشا نے مکمل کی، جس نے شہر کے تکفور کو سازلی درہ پر شکست دی؛ تکفور خفیہ طور پر کشتی سے فرار ہوا اور رمضان 763ھ/جولائی 1362ء میں شہریوں نے آزادی کی شرط پر ہتھیار ڈال دیے {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}۔ صلابی نے فتح کو 762ھ/1360ء لکھا اور ادرنہ کو قسطنطنیہ کے بعد بازنطینی سلطنت کا دوسرا بڑا شہر کہا {cite:dawlat-uthmaniyya-salabi p. 57}، جبکہ فریلی اسے 1369ء لکھتا ہے {cite:freely-ottoman-architecture-2011 p. 64}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1362-07", hijri: "0763-09", calendar: julian, precision: month, status: tradition, derived: true, note: "استسلمت المدينة في رمضان ٧٦٣هـ/يوليو ١٣٦٢م {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}؛ والصلابي يؤرخ الفتح ٧٦٢هـ/١٣٦٠م {cite:dawlat-uthmaniyya-salabi p. 57} وفريلي ١٣٦٩م {cite:freely-ottoman-architecture-2011 p. 64}." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/murad-i-uthmani, role: "السلطان الذي تم الفتح في عهده", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/lala-shahin-pasha, role: "قائد الجيش الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi, source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF pp. 710-711; al-Salabi, al-Dawla al-Uthmaniyya p. 57 (harvest OCR); Freely, A History of Ottoman Architecture (2011) p. 64 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

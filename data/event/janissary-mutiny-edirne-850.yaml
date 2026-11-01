@@ -1,0 +1,23 @@
+id: event/janissary-mutiny-edirne-850
+class: event
+kind: mutiny
+label: { ar: "فتنة الإنكشارية بأدرنة", en: "Janissary mutiny at Edirne", ur: "ادرنہ میں ینی چری بغاوت" }
+summary:
+  ar: "شهد عهد مراد الثاني فتنة للإنكشارية بأدرنة بحجة الحريق الذي شبّ في المدينة، فهاجوا وشغبوا حتى أُخمدت الفتنة بزيادة أرزاق الجند {cite:encyclopaedia-of-islam-2 vol. 2 p. 711} {cite:dawlat-uthmaniyya-salabi p. 82}."
+  en: "Murad II's reign saw a janissary mutiny at Edirne on the pretext of the fire that had broken out in the city; the soldiery rioted until the rising was pacified by an increase in their pay {cite:encyclopaedia-of-islam-2 vol. 2 p. 711} {cite:dawlat-uthmaniyya-salabi p. 82}."
+  ur: "مراد ثانی کے عہد میں ادرنہ میں آگ لگنے کے بہانے ینی چریوں نے بغاوت کی؛ سپاہیوں نے شور مچایا یہاں تک کہ تنخواہ بڑھا کر فتنہ بجھایا گیا {cite:encyclopaedia-of-islam-2 vol. 2 p. 711} {cite:dawlat-uthmaniyya-salabi p. 82}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1446~", hijri: "0850", calendar: julian, precision: year, status: tradition, derived: true, note: "في عهد مراد الثاني؛ الهجري مشتق {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711; al-Salabi, al-Dawla al-Uthmaniyya p. 82 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
