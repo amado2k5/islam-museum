@@ -1,0 +1,38 @@
+id: work/bustan-el-amal
+class: work
+kind: lecture-series
+label:
+  ar: "بستان الأمل (برنامج)"
+  en: "Bustan al-Amal (programme)"
+  ur: "بستان الامل (پروگرام)"
+summary:
+  ar: "برنامج رمضاني لعمر عبد الكافي في أرشيف أسابيل، في ثلاثين حلقة، يخاطب فيه أصحاب الهموم والشدائد: المريض والخائف والمظلوم والمحزون والمدين، ويعرض الفرج بعد الشدة من قصص القرآن والسيرة والصالحين."
+  en: "A Ramadan programme by Omar Abdelkafy on the Assabile archive, thirty episodes, addressed to those burdened with worries and hardships, the sick, the fearful, the wronged, the grieving and the indebted, setting out relief after hardship through stories of the Qur'an, the Prophet's life and the righteous."
+  ur: "اسابیل آرکائیو میں عمر عبد الکافی کا رمضانی پروگرام، تیس اقساط، جس میں وہ غموں اور سختیوں والوں سے خطاب کرتے ہیں، بیمار، خوفزدہ، مظلوم، غمگین اور مقروض، اور قرآن، سیرت اور صالحین کے قصوں سے سختی کے بعد کشادگی بیان کرتے ہیں۔"
+wings: [ideas]
+themes: [spirituality-and-sufism, ethics-and-character, sacred-time]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+relations:
+  - { type: about, target: concept/al-faraj-bad-al-shidda, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/raja, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/yaqub, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ibtila, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/sulayman, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tawakkul, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/sabr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/khawf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-istirja, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/yunus, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hawa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ikhtilaf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-tughyan, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/zulm, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/harun, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ukhuwwa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tafwid, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, bustan-el-amal (archive series index; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); topic list from the museum records citing the series", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-bustan-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-bustan-1" }

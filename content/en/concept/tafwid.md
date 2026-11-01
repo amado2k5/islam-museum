@@ -17,3 +17,6 @@ Is it enough to affirm the wording of the attributes while delegating their moda
 [[person/ibn-taymiyya|Ibn Taymiyya]], in *al-Hamawiyya*, as the editor cites in the margins, argues that the saying of the early generations "the *istiwa'* is not unknown and the modality is not conceivable" shows that the meaning is known, for otherwise *istiwa'* would be unknown like the letters of the alphabet. For him, the early generations denied knowledge of the modality, not knowledge of the reality of the attribute. {cite:lumat-al-itiqad-ibn-uraiyir-2022 p.54}
 
 A further source is needed: the data do not yet give an academic view.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+From the words of the believer of Pharaoh's household, 'I entrust my affair to God; God sees His servants', the Sheikh draws the lesson that whoever is wronged by a tyrant should entrust his affair to God, who will protect him from the evils of the tyrants' plots. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:10:00}

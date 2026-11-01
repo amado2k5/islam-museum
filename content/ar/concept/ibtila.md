@@ -49,3 +49,6 @@ translators: []
 يعدّد الشيخ ابتلاءات الحياة اليومية: الولد العاصي، والزوج الفظ اللسان، والجار الصعب، والمدير الظالم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:25:30}
 ويذكر ما يبتلي به الناس من ألسنة الآخرين، وأصحاب العمل الظالمين، وجيران يكتمون الخير وينشرون الشر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
 ويرى أن الرزق الضيق يعلّم المرء أن يدعو الله، بخلاف الراتب المضمون الذي ينسي صاحبه ربّه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن كل الناس ممتحنون، وأن الابتلاء ليس معناه المصيبة بل الاختبار، فالله يبتلي هذا بالسقم وهذا بالمنصب، ويرى أن [[person/sulayman|سليمان]] كان من أشد المبتلين بالملك والجاه والمال، فقال هذا من فضل ربي ليبلوني أأشكر أم أكفر. {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:30} وفي حلقة تالية يذكر أن الله إذا أحب عبدًا ابتلاه فإن صبر اصطفاه فإن رضي اجتباه، وأن من مرّ عليه أربعون يومًا لم يُبتلَ فليراجع حساباته. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:30} انظر: [[concept/al-istirja|الاسترجاع]].
