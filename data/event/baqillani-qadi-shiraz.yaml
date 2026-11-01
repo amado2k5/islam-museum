@@ -1,0 +1,27 @@
+id: event/baqillani-qadi-shiraz
+class: event
+kind: other
+label:
+  ar: "الباقلاني قاضياً خارج بغداد وزائراً لشيراز، نحو ٣٦٠–٣٧٢هـ"
+  en: "Al-Baqillani serves as qadi outside Baghdad and visits Shiraz, c. 970-983"
+  ur: "باقلانی بغداد سے باہر قاضی کے منصب پر اور شیراز کا دورہ، تقریباً 970–983ء"
+summary:
+  ar: "تولى الباقلاني القضاء مدة خارج العاصمة بغداد، وتذكر المصادر زيارته لشيراز ولبلاط الروم؛ وكانت هذه السنوات من حياته أيام عضد الدولة بن بويه الذي بلغت دولته ذروتها في العراق وفارس {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  en: "For a time al-Baqillani exercised the office of qadi outside the capital, Baghdad, and the sources mention visits to Shiraz and to the Byzantine court — years that fell within the amirate of Adud al-Dawla ibn Buwayh, whose power was then at its zenith in Iraq and Fars {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  ur: "باقلانی نے کچھ عرصہ دارالحکومت بغداد سے باہر قاضی کا منصب انجام دیا، اور مصادر ان کے شیراز اور دربار روم کے دوروں کا ذکر کرتے ہیں — یہ زمانہ عضد الدولہ بن بویہ کے ایام امارت تھا جس کی قوت عراق اور فارس میں اپنے عروج پر تھی {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "0970/0983", calendar: julian, precision: year, status: tradition, derived: true, note: "في سنوات أمارة عضد الدولة بلا تاريخ مصرَّح؛ الحدود مشتقة {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}." }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-baqillani, role: "القاضي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), printed pp. 1018-1019, art. al-Bakillani (R. J. McCarthy)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baqillani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
