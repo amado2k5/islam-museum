@@ -1,0 +1,27 @@
+id: event/bayhaqi-rihla-hadith-430
+class: event
+kind: other
+label:
+  ar: "الرحلة في طلب الحديث، نحو ٤٣٠هـ"
+  en: "Travels in pursuit of hadith, c. 430/1038"
+  ur: "طلبِ حدیث کے سفر، تقریباً 430ھ/1038ء"
+summary:
+  ar: "رحل البيهقي في طلب الحديث في بلاد كثيرة حتى قيل إنه روى عن نحو مائة شيخ، وكان في الاعتقاد أشعرياً وفي حاله ورعاً مقتصداً صاحبَ علم {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  en: "Al-Bayhaqi travelled through many lands in pursuit of hadith and is credited with transmitting from about a hundred shaykhs; in creed he was an Ash'arite, and by character frugal, pious and scholarly {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  ur: "بيهقی نے طلبِ حدیث کے لیے کئی ملکوں کے سفر کیے اور تقریباً سو شیوخ سے روایت کیے؛ عقیدے میں اشعری تھے اور طبعاً متقی، پرہیزگار اور صاحبِ علم {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1038~", hijri: "0430~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحلاته في طلب الحديث في كهولته؛ التاريخ تقريبي مشتق {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}." }
+relations:
+  - { type: occurred_at, target: place/bayhaq, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "الطالب الرحّالة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 art. AL-BAYHAKI printed p. 1190 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
