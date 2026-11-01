@@ -1733,7 +1733,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ahmed Pasha (the poet) — 1426–1497
 - [x] Mahmud Shah Sharqi — 1420–1458
 - [x] Hussain Shah Sharqi — 1440–1505
-- [ ] Sultan Zain-ul-Abidin — 1420–1470
+- [x] Sultan Zain-ul-Abidin — 1420–1470
 - [x] Rustam Beg — 1465–1497
 - [x] Sultan Muzaffar Shah of Malacca — 1400–1459
 - [x] Sultan Mansur Shah of Malacca — 1430–1477
