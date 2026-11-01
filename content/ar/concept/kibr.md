@@ -87,3 +87,6 @@ translators: []
 ينتقد الشيخ المتكبر الذي يرى نفسه من جوهر وعقل غير جوهر الناس وعقولهم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:26:00}
 يذكر الشيخ من آفات القلب الكبر والحسد والرياء، والأمن من تدبير الله، واليأس من رحمته. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:20:00}
 يقول الشيخ إن الفرح المذموم هو فرح الدنيا المقرون بالخيلاء والفخر، وإنه غير الابتسامة أو السرور. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep10 00:11:00}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يذكر [[person/yusuf-al-qaradawi|يوسف القرضاوي]] حديث الرجل الذي سأل النبي هل حبه للجمال في ثيابه ونعله من الكبر، فأجابه بأن الله جميل يحب الجمال، وأن الكبر رد الحق واحتقار الناس. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:06:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:07:00} ويقول إن المؤمن يرى نفسه أقل من الناس: إن كان عالمًا قال إن الجاهل خير منه لأنه عصى عن جهل، وإن كان شابًّا قال إن الشيخ سبقه بالطاعة، وإن كان شيخًا قال إن الشاب يعصي في طيشه. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:07:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep08 00:08:00}

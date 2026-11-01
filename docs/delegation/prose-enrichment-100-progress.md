@@ -357,6 +357,31 @@ About 130 other n–z place records with Idrisi as a source and a thin Arabic su
 ### Leads, batch 18
 
 - **person/ibn-shaqla**: only source is `madkhal-ibn-badran-turki` (المدخل إلى مذهب الإمام أحمد لابن بدران، ed. Turki); no OCR of that edition exists in the harvest (searched `books/` for badran/madkhal), so the two facts on file cannot be expanded to 100 verified words. Left thin.
+
+## n–z batch 12 (Claude Sonnet 5.5, place, Idrisi)
+
+Candidates re-derived from `data/place/*.yaml` (slug n–z, Idrisi as a source, Arabic summary under 20 words), minus every slug already named in this file; 69 remained. Each body was read in the Idrisi OCR (`books/geography/nuzhat-mushtaq-idrisi/1-2_20240914`); page numbers are pages.json indices.
+
+### Enriched, batch 12
+
+- **place/rikka** (Idrisi pp. 226, 229, 231, 232). Described jointly with Aghmat: plain below the Atlas, the river and its weekly diversion, the road from Tarudant, the Hawwara merchants of Aghmat. The text does not separate Rikka alone, and the entry says so.
+- **place/qarqub** (pp. 392, 396, 397). The Qarqubi brocade, the tiraz workshops, al-Tayb to the north. **Corrected the data summary**: p. 396 says one stage from al-Sus, not four.
+- **place/qasr-ahnaf** (pp. 477, 478). One stage (fifteen miles) from Marw al-Rudh on the Balkh road, Diza twelve miles away, al-Talaqan. The summary's "earthen wall" rests on an OCR reading (`سود تراب`) that is unclear; the body omits it.
+- **place/qalibli** (pp. 631, 775). Coastal road from Tarant with its anchorages and distances, sixty miles from Tarant. The data label says Calabria; the pages place it on the Tarant coast, and the entry proposes no modern identification. The sentence on the sea entering twice a day is garbled in the OCR and is flagged.
+- **place/qalat-karmata** (p. 247). The road from Fez via Sebu, Tamalta, Karanta and Bab Zanata, then Marawiz and the wadi Masun. The direction of the road is not stated and the entry gives none.
+
+### Leads, batch 12
+
+- **place/ruwayst.** pp. 427 and 440 give about fifty words (a Kirman town, three stages from Sawrwa on the coast and three to Tarim, with date palms and gardens). Lead.
+- **place/zifta.** p. 334 names Minyat Zifta only in a river-bank list of villages; no passage of its own. Lead.
+- **place/qarquna.** p. 48 gives the name in a southern coastal list and one distance (two days by sea from Juwa); about forty words. Lead.
+- **place/tabarmin.** the label `تبرمين` returns no hit in the OCR at p. 595 under that spelling; the OCR spelling needs checking against the page image. Lead.
+
+### Not reached, batch 12
+
+About sixty other candidates were listed but not read (for example nahr-kur, najrag, nunshka, parwan, sandan, shirusan, tuyuyn). Several are river or island names that would need a different reading of the same pages.
+
+
 | 2026-11-02 | Devin (a–m) | batch 19: book-sourced tail (nuzhat-al-mushtaq-2002, futuh-buldan, tarikh-khulafa, nafh-tib, kashf-zunun) | 29 | 6 | — |
 
 ### Enriched, batch 19
@@ -378,3 +403,4 @@ About 130 other n–z place records with Idrisi as a source and a thin Arabic su
 - **~404 a–m metadata-cited stubs** (wikidata 191, vam-collection 114, cleveland-open-access 45, met-open-access 27, official-website 27): recorded as leads — collection/fact metadata only, no readable narrative source in the harvest to support 100-word sourced prose; future work needs a different treatment (object-description sources or a founder decision).
 
 The a–m <20-word book-sourced pool is now empty: every remaining candidate was either enriched above or logged here as a lead.
+n

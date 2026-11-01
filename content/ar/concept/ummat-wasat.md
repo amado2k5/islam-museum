@@ -75,3 +75,6 @@ translators: []
 ويرى أن كثرة النوم تضيّع العمر، ويحسب ذلك بثماني ساعات في اليوم، فيقول إن الإنسان ينام عشرين عاما من ستين (needs_source: الأرقام في الحساب). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:31:00}
 
 ينتقد من يهمل القرآن والسنة، ويتدخل في شؤون غيره، ويتعرض لما لا يعنيه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:38:30}
+
+## في برنامج «ماذا قدم المسلمون للعالم» لراغب السرجاني
+يُسأل [[person/ragheb-al-sergani|راغب السرجاني]] في الحلقة الثانية عن معنى كون الأمة شاهدة على الناس، فيقول إن الشهادة تعني أن تقيّم الأمة ما حولها من حضارات بمنهج القرآن والسنة: هذه حضارة مجيدة، وهذه مصيبة بمعنى أنها أصابت، وهذه مخطئة، وهذه مجرمة، وهذه أصابت في جانب وأخطأت في آخر. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep02 00:24:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep02 00:24:30} ويقول إن كل حضارة تدّعي التحضر، وإن الأمة لأنها خير أمة تستطيع أن تشهد على من حولها بالصدق في جانب والكذب في آخر. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep02 00:25:00} ويعدّ من ذلك الشهادة على حضارة الفرس والرومان، وعلى الإنجليز والفرنسيين، وعلى الأمريكيين والروس، وعلى كل من يأتي بعدهم إلى يوم القيامة. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep02 00:27:00} وهذه قراءته للآية في سياق حديثه عن الحضارة.

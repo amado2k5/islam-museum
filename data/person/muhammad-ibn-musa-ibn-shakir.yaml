@@ -1,0 +1,66 @@
+id: person/muhammad-ibn-musa-ibn-shakir
+class: person
+
+label: { ar: "محمد بن موسى بن شاكر", en: "Muhammad ibn Musa ibn Shakir", ur: "محمد بن موسی بن شاکر" }
+
+names:
+  - { value: "أبو جعفر محمد بن موسى بن شاكر", kind: full }
+  - { value: "Abu Ja'far Muhammad ibn Musa ibn Shakir", kind: full }
+  - { value: "أبو جعفر", kind: kunya }
+  - { value: "Abu Ja'far", kind: kunya }
+  - { value: "Muhammad ibn Musa", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أبو جعفر محمد بن موسى بن شاكر (وُلد قبل 803 وتوفي 873)، أكبر بني موسى في بغداد: فلكي ورياضي وأغزر الإخوة إنتاجًا، راعي المترجمين في بيت الحكمة، وهو الذي استقدم ثابت بن قرة من حران، وشخصية بلاط بلغ نشاطه السياسي ذروته في صراعات خلافة الستينيات من القرن التاسع. كتب مع أخويه «كتاب معرفة مساحة الأشكال البسيطة والكريّة»، ومن أعماله الخاصة تحريره لمخروطات أبولونيوس و«كتاب حركة الفلك الأولى» وكتاب في رؤية الهلال."
+  en: "Abu Ja'far Muhammad ibn Musa ibn Shakir (born before 803, died 873), eldest of the Banu Musa brothers of Baghdad: astronomer, mathematician and the most productive of the three, patron of the translators of the House of Wisdom, the man who recruited Thabit ibn Qurra from Harran, and a court figure whose political activity peaked in the caliphal succession struggles of the 860s. With his brothers he wrote the Book on the Measurement of Plane and Spherical Figures; his own works include a recension of Apollonius's Conics, the Book on the First Motion of the Celestial Sphere and a treatise on the visibility of the crescent."
+  ur: "ابو جعفر محمد بن موسی بن شاکر (پیدائش 803ء سے پہلے، وفات 873ء)، بغداد کے بنو موسی میں سب سے بڑے بھائی: ماہر فلکیات و ریاضی دان اور تینوں میں سب سے زرخیز مصنف، بیت الحکمت کے مترجمین کے سرپرست، حران سے ثابت بن قرہ کو لانے والے، اور دربار کی وہ شخصیت جن کی سیاسی سرگرمی 860ء کی دہائی کی جانشینی کی کشمکش میں عروج پر پہنچی۔ انھوں نے اپنے بھائیوں کے ساتھ «کتاب معرفۃ مساحۃ الاشکال» لکھی؛ ان کی اپنی تصانیف میں اپولونیوس کے مخروطات کی تحریر، «کتاب حرکۃ الفلک الاولیٰ» اور ہلال کی رؤیت پر ایک رسالہ شامل ہیں۔"
+
+roles: [astronomer, mathematician]
+regions: [levant-iraq]
+wings: [people]
+
+died:
+  edtf: "0873"
+  hijri: "0259"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The year 873 is unanimous across the English, Arabic and Urdu articles, and Ibn al-Nadim's Fihrist dates his death to Rabi' I of the year 259 AH — the pairing behind the Hijri year recorded here, marked derived. The month is reported differently within the English article itself (its lead gives February 873; its Deaths section, citing Bir, gives January), so the record keeps year precision. No birth block is recorded: the articles date him only 'before 803', the museum queue's 805 is attested in no source read, and his Wikidata item carries two competing unsourced birth values (800 and 803) and no death value at all."
+  sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar, source/wikipedia-banu-musa-ur, source/fihrist-ibn-al-nadim]
+
+relations:
+  - { type: child_of, target: person/musa-ibn-shakir, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
+  - { type: sibling_of, target: person/ahmad-ibn-musa-ibn-shakir, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
+  - { type: sibling_of, target: person/al-hasan-ibn-musa-ibn-shakir, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
+  - { type: lived_in, target: place/baghdad, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source consulted names a religion or legal school for Muhammad ibn Musa ibn
+      Shakir. The articles describe a Persian family from Khurasan in the service of the
+      Abbasid caliphs — origin and court service are context, not attestation — and his
+      Wikidata item carries no religion value at all, so nothing settles and his faith
+      is recorded as unattested.
+    sources: [source/wikipedia-banu-musa-en, source/wikidata-muhammad-ibn-musa-ibn-shakir]
+
+external_ids: { wikidata: "Q37727567" }
+
+sources:
+  - source/wikipedia-banu-musa-en
+  - source/wikipedia-banu-musa-ar
+  - source/wikipedia-banu-musa-ur
+  - source/wikidata-banu-musa
+  - source/wikidata-muhammad-ibn-musa-ibn-shakir
+  - source/fihrist-ibn-al-nadim
+
+provenance:
+  layer: own-research
+  source: "The English, Arabic and Urdu Wikipedia articles on the Banu Musa brothers, the Wikidata items Q423210 (the brothers jointly) and Q37727567 (Muhammad individually), and Ibn al-Nadim's Fihrist in the museum's existing source file, all read at the revisions recorded in their source files and fetched live from the MediaWiki API on 1 November 2026, the Wikidata revisions re-asserted against second live queries; the joint item was grounded from the English article's own page property and Muhammad's individual item was resolved through its English sitelink, the kunya-titled redirect page, which lands on the combined article. The founder commissioned the Banu Musa as one row of the century queue's section I (826-925 additions) naming three persons; they are built as three records. Seniority follows the articles' assumed order — Muhammad, Ahmad, al-Hasan — and each sibling edge is written once, in the elder brother's record. Their father Musa ibn Shakir's museum record is a Devin-era draft card (run wikidata-import-0038); the child_of edge is written against it as the lane's precedents allow, and the death year of 815 in that card, drawn from an al-Zirikli entry its provenance admits was never read on the page, is not relied on anywhere in these records. The queue gives Muhammad's years as 805-873: the death year stands, but 805 is attested in no source read (the articles give only 'before 803'; his Wikidata item gives two competing unsourced values, 800 and 803), so no birth block is recorded — the correction is stated here and in the prose rather than silently absorbed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-157i"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

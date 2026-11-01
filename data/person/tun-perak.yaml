@@ -1,0 +1,49 @@
+id: person/tun-perak
+class: person
+
+label: { ar: "تون بيراك", en: "Tun Perak", ur: "تن پیراک" }
+
+names:
+  - { value: "Bendahara Seri Paduka Raja Tun Perak bin Tun Perpatih Sedang", kind: full }
+  - { value: "بنداهارا سري ڤدوک راج تون ڤيراق", kind: full }
+  - { value: "Tun Perak", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "تون بيراك (ت. 1498)، خامس بنداهارا (رئيس وزراء) لسلطنة ملقا وأشهرهم، وابن بنداهارا سري واك راجا. عُيّن حاكمًا على كلاغ سنة 1445، وقاد الدفاع عن ملقا ضد الهجوم السيامي سنة 1456، فعُيّن بنداهارا وخدم أربعة سلاطين — مظفر شاه ومنصور شاه وعلاء الدين رعاية شاه ومحمود شاه — حتى وفاته سنة 1498، وبلغت ملقا في وزارته أقصى اتساعها في شبه جزيرة الملايو وجزر رياو وسواحل سومطرة. وحين قتل الأمير راجا محمد ابنه تون بسار رفض الانتقام من بيت السلطان."
+  en: "Tun Perak (d. 1498), fifth and most famous bendahara (chief minister) of the Malacca Sultanate, and son of the Bendahara Seri Wak Raja. Appointed chieftain of Klang in 1445, he led the defence of Malacca against the Siamese attack of 1456 and was made bendahara, serving four sultans — Muzaffar Shah, Mansur Shah, Alauddin Riayat Shah and Mahmud Shah — until his death in 1498, while Malacca reached its greatest extent across the Malay Peninsula, the Riau islands and the Sumatran coast. When the prince Raja Muhammad killed his son Tun Besar, he refused to take revenge on the sultan's house."
+  ur: "تن پیراک (وفات 1498ء)، سلطنت ملاکا کے پانچویں اور سب سے مشہور بنداہارا (وزیر اعظم)، اور بنداہارا سری واک راجا کے بیٹے تھے۔ وہ 1445ء میں کلانگ کے سردار مقرر ہوئے، 1456ء میں سیامی حملے کے خلاف ملاکا کے دفاع کی قیادت کی اور بنداہارا بنائے گئے؛ انھوں نے چار سلطانوں — مظفر شاہ، منصور شاہ، علاء الدین رعایہ شاہ اور محمود شاہ — کی 1498ء میں اپنی وفات تک خدمت کی، اور ان کی وزارت میں ملاکا جزیرہ نما ملایا، جزائر ریاؤ اور سماٹرا کے ساحل تک اپنی وسیع ترین حد کو پہنچا۔ جب شہزادے راجا محمد نے ان کے بیٹے تن بیسار کو قتل کیا تو انھوں نے سلطان کے خاندان سے انتقام لینے سے انکار کر دیا۔"
+
+roles: [vizier]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1498"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1498: so the English and Malay articles and Wikidata, whose death values agree. The Malay article's infobox places his death in the Malacca Sultanate; Malacca has a place entity in the graph but the death place rests on that infobox alone, so it is carried in prose and no died_in edge is written. A bare year 1498 spans 903-904 AH, so no Hijri year is recorded."
+  sources: [source/wikipedia-tun-perak-en, source/wikipedia-tun-perak-ms, source/wikidata-tun-perak]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school or an order for Tun Perak. The Malay article's infobox carries a religion value of 'Islam' only — a generic structured value, not an attestation of any school — the English article gives no religion at all, and Wikidata carries none. A generic structured value settles nothing, and it is preserved here; his public life as chief minister of the Muslim sultanate of Malacca, under whose influence the rulers of the states he brought into its orbit converted to Islam, is stated in full in the prose."
+    sources: [source/wikipedia-tun-perak-en, source/wikipedia-tun-perak-ms, source/wikidata-tun-perak]
+
+external_ids: { wikidata: "Q7852773" }
+
+sources:
+  - source/wikipedia-tun-perak-en
+  - source/wikipedia-tun-perak-ms
+  - source/wikidata-tun-perak
+
+provenance:
+  layer: own-research
+  source: "The English and Malay Wikipedia articles on Tun Perak and Wikidata Q7852773, read in full (article text and wikitext; item claims) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. The founder commissioned this build in rulings packet #3 (Part 3, queue §H). His father's naming carries a preserved variant within the one Annals tradition: the Malay edition and the English Muzaffar Shah article make him son of Tun Perpatih Sedang, the Bendahara Seri Wak Raja, while the English Tun Perak article phrases the father as Sri Wak Raja Tun Perpatih Besar; the father has no record in the museum, so no child_of edge is written and the descent is prose-only. No birth block is recorded: the queue figure of 1410 is attested in no source read, the Malay infobox's 1426 is unsourced structured data, and his Wikidata item's birth value of 1500 postdates his own recorded death and is disregarded as an error. His predecessor as bendahara, Tun Ali of Malacca, has a record in the museum, but the succession between office-holders is not a relation this lane writes, so it is prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-156h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

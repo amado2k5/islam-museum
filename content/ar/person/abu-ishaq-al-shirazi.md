@@ -15,3 +15,6 @@ translators: []
 
 ## مؤلفاته
 من كتبه [[work/tabaqat-fuqaha|طبقات الفقهاء]]. {cite:tabaqat-fuqaha-abbas-1981 p. 5-6}
+
+## في برنامج «ماذا قدم المسلمون للعالم» لراغب السرجاني
+يذكر [[person/ragheb-al-sergani|راغب السرجاني]] في الحلقة الثالثة عشرة أبا إسحاق الشيرازي، ويصفه بأنه من فقهاء الشافعية في القرن الخامس الهجري، ويروي أنه كان يمشي مع أحد طلابه فاعترض كلب طريقهما، فأسرع الطالب ينهره، فقال له الشيخ: لم تنهره؟ أنا وهو شريكان في الطريق. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:09:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:10:00} ويرى فيها نظرة فقهية تعرف للحيوان قيمته وأنه شريك للإنسان في الأرض؛ وهي قصة يرويها دون ذكر مصدرها (needs_source). {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:10:00}
