@@ -28,3 +28,6 @@ translators: []
 
 ## شیخ کی رائے: اس دن کی تیاری
 شیخ ان لوگوں پر تنقید کرتے ہیں جو قبر کے پاس کھڑے ہو کر بازار کے بھاؤ کی بات کرتے ہیں، اور پوچھتے ہیں کہ کیا کسی نے اس دن کے لیے خود کو تیار کیا ہے {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:10:30}۔ وہ کہتے ہیں کہ قبر اعمال کا صندوق ہے، اور ان لوگوں پر تنقید کرتے ہیں جو جھوٹی گواہی دیتے ہیں، جھوٹی قسمیں کھاتے ہیں اور دوسروں پر ظلم کرتے ہیں {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:33:30}۔
+
+## عبد الحمید کشک کے خطبات میں
+[[person/abdul-hamid-kishk|عبد الحمید کشک]] کہتے ہیں کہ جسم قبر میں رکھے جانے کے بعد گھر والے اور دوست لوٹ جاتے ہیں، اور انسان کے ساتھ قبر میں صرف اس کا عمل جاتا ہے: نیک ہو تو اسے فائدہ دیتا ہے اور برا ہو تو اسے رسوا کرتا ہے۔ {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:19:30} وہ کہتے ہیں کہ قبروں کا ظاہر پتھر ہے اور باطن ثواب یا عذاب۔ {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:15:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:16:00}

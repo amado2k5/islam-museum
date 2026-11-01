@@ -15,3 +15,6 @@ Three views: nikah properly denotes the act and metaphorically the contract — 
 
 ## A consequence of the difference
 On the disagreement turns, among other rulings, affinity: one who commits zina with a woman finds her forbidden to his ascendants and descendants for the Hanafis and in the better-known Hanbali view, while the Shafi'is and the relied-upon Maliki position hold that zina establishes no affinity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16036}
+
+## In Abdul Hamid Kishk's sermons
+[[person/abdul-hamid-kishk|Abdul Hamid Kishk]] says the aim of marriage is tranquillity in the widest sense: tranquillity of the heart, which finds rest from the troubles of life, and of the body. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:45:00} He comments on a report in Akhbar al-Yawm about a wife who took her husband to court, asks why the courts have entered homes, and says the Prophet's Medina had not a single court or policeman; this is his view. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:43:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:43:30}
