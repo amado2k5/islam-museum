@@ -1,0 +1,61 @@
+id: person/sinan-reis
+class: person
+label:
+  ar: "سنان ريس"
+  en: "Sinan Reis"
+  ur: "سنان رئیس"
+names:
+  - {kind: full, lang: en, value: "Sinan Reis"}
+  - {kind: full, lang: ar, value: "سنان ريس"}
+  - {kind: given, lang: en, value: "Sinan"}
+  - {kind: alternate, lang: en, value: "Sinan the Chief"}
+  - {kind: alternate, lang: en, value: "Sinan the Jew"}
+  - {kind: alternate, lang: en, value: "Ciphut Sinan"}
+  - {kind: alternate, lang: ar, value: "سنان اليهودي"}
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "His personal faith is not settled. A modern tradition, built on sixteenth-century Christian references that call him 'the Jew' (English state papers of 1533; a Portuguese report of 1528) and repeated by Kritzler (2009), holds that he was born to a Sephardic Jewish family exiled from Spain or Portugal. Against this, the contemporary chronicler López de Gómara explained the epithet differently — as marking his escape from Christian ships — and Ottoman sources are silent about his origins. The attestation is epithet-based and contested, so no religion or school is recorded; FLAGGED for the coordinator."
+    sources:
+      - source/wikipedia-sinan-reis-en
+      - source/wikipedia-sinan-reis-ar
+      - source/wikidata-sinan-reis
+roles:
+  - corsair
+  - naval-commander
+died:
+  edtf: "1546"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1546 as in the English and Arabic articles and Wikidata; the Gregorian year 1546 spans 952–953 AH, so no single Hijri year is paired. No birth year is attested, so there is no born block; the 'before 1533' figure in some infoboxes is an activity bound, not a birth date."
+  sources:
+    - source/wikipedia-sinan-reis-en
+    - source/wikipedia-sinan-reis-ar
+    - source/wikidata-sinan-reis
+summary:
+  ar: "سنان ريس (ت. 1546)، قرصان بربري وقائد بحري عثماني، الرجل الثاني بعد خير الدين بربروسا؛ قاتل في معركة بروزة سنة 1538 وصار اسمه في المراجع الأوروبية مقترنًا بلقب «اليهودي»، وهو لقب متنازع على دلالته حتى اليوم."
+  en: "Sinan Reis (d. 1546), a Barbary corsair and Ottoman naval commander, second in command to Hayreddin Barbarossa; he fought at the Battle of Preveza in 1538, and European references attached to him the epithet 'the Jew', whose meaning is still disputed."
+  ur: "سنان رئیس (وفات 1546ء)، بربری قزاق اور عثمانی بحری کمانڈر، خیر الدین باربروسا کے دستِ راست؛ 1538ء میں پریویزا کی جنگ میں شریک ہوئے، اور یورپی حوالوں میں ان کے ساتھ «یہودی» کا لقب جُڑا رہا جس کی دلالت آج بھی متنازع ہے۔"
+wings:
+  - people
+regions:
+  - maghreb
+  - anatolia-balkans
+relations: []
+sources:
+  - source/wikipedia-sinan-reis-en
+  - source/wikipedia-sinan-reis-ar
+  - source/wikidata-sinan-reis
+  - source/kritzler-jewish-pirates-2009
+  - source/gomara-cronica-barbarrojas-1853
+external_ids:
+  wikidata: Q7521762
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Sinan Reis and Wikidata Q7521762, each read at the revision recorded in its source file (revisions fetched live from the MediaWiki API, 31 Oct 2026); Kritzler, Jewish Pirates of the Caribbean (2009), pp. 59–60 for the Sephardic-origin claim and López de Gómara, Crónica de los Barbarrojas (1853 printing), pp. 388–389 for the competing contemporary explanation of the epithet. Not the later Kapudan Pasha Sinanuddin Yusuf Pasha. His service under Hayreddin Barbarossa is stated in prose only; no service predicate is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147b
+status: {review: published, generated_by: "Muse (Muse Spark 1.3)"}
