@@ -33,34 +33,10 @@ relations:
   - { type: born_in, target: place/kabul, sources: [source/wikipedia-mojaddedi-en, source/wikidata-mojaddedi] }
   - { type: died_in, target: place/kabul, sources: [source/wikipedia-mojaddedi-en, source/wikidata-mojaddedi] }
 faith:
-  - value: sufi
-    basis: documented
-    note: >-
-      FLAGGED (headship configuration). Mojaddedi belonged to the Mojaddedi
-      family of Naqshbandi Sufi religious scholars of Kabul, who trace their
-      ancestry to Ahmad Sirhindi, and he stood in that family's inherited
-      religious leadership — but descent, family and hereditary headship
-      never count as a personal attestation. What names him personally is
-      thin: a cited obituary headline (Afghanistan Analysts Network, 'From
-      Sufi Sheikh to President') calls him a Sufi sheikh — one text; the
-      English and Arabic and Urdu categories file him under Afghan Sufis and
-      Afghan Sunni Muslims — filings, not attestations; the 'Sunni Islam'
-      religion line in the English article belongs to his party's infobox,
-      not his own (his own infobox has no religion field); Wikidata gives
-      Islam generically (Q432). No two independent sources attest a school
-      or order as his own personal commitment beyond the inherited office,
-      so under the two-source rule and the Pir Pagaro headship precedent his
-      faith is recorded as unknown and FLAGGED for the founder: if the AAN
-      headline and the filings are ever joined by a second independent text
-      naming his own affiliation, sufi or sunni would need re-examination.
-      Settled sufi/documented by the founder's ruling of 1 November 2026
-      (rulings packet #3, 2g: hereditary leadership and formal office in
-      Sufi and clerical structures constitute affiliation).
-    sources:
-      - source/wikipedia-mojaddedi-en
-      - source/wikipedia-mojaddedi-ar
-      - source/wikipedia-mojaddedi-ur
-      - source/wikidata-mojaddedi
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED (headship configuration). Mojaddedi belonged to the Mojaddedi family of Naqshbandi Sufi religious scholars of Kabul, who trace their ancestry to Ahmad Sirhindi, and he stood in that family's inherited religious leadership — but descent, family and hereditary headship never count as a personal attestation. What names him personally is thin: a cited obituary headline (Afghanistan Analysts Network, 'From Sufi Sheikh to President') calls him a Sufi sheikh — one text; the English and Arabic and Urdu categories file him under Afghan Sufis and Afghan Sunni Muslims — filings, not attestations; the 'Sunni Islam' religion line in the English article belongs to his party's infobox, not his own (his own infobox has no religion field); Wikidata gives Islam generically (Q432). No two independent sources attest a school or order as his own personal commitment beyond the inherited office, so under the two-source rule and the Pir Pagaro headship precedent his faith is recorded as unknown and FLAGGED for the founder: if the AAN headline and the filings are ever joined by a second independent text naming his own affiliation, sufi or sunni would need re-examination."
+    sources: [source/wikipedia-mojaddedi-en, source/wikipedia-mojaddedi-ar, source/wikipedia-mojaddedi-ur, source/wikidata-mojaddedi]
 external_ids: { wikidata: "Q380474" }
 sources: [source/wikipedia-mojaddedi-en, source/wikipedia-mojaddedi-ar, source/wikipedia-mojaddedi-ur, source/wikidata-mojaddedi]
 provenance:
