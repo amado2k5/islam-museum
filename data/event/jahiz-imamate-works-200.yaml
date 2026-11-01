@@ -1,0 +1,28 @@
+id: event/jahiz-imamate-works-200
+class: event
+kind: publication
+label:
+  ar: "مصنفات الجاحظ في الإمامة تستحسن لدى المأمون"
+  en: "al-Jahiz's works on the imamate win al-Ma'mun's praise"
+  ur: "جاحظ کی امامت پر تصانیف مامون کی توجہ حاصل کرتی ہیں"
+summary:
+  ar: "نحو سنة ٢٠٠هـ/٨١٥م يظهر أول دليل على نشاط الجاحظ الأدبي: مصنفات له في الإمامة نالت استحسان المأمون، ففتحت له باب عاصمة الخلافة ومجدها، فأخذ منذ ذلك الحين يقيم ببغداد — ومن بعدها سرّ من رأى — مقامات طويلة دون أن يقطع صلته بالبصرة {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  en: "About 200/815-6 comes the first proof of al-Jahiz's literary activity: several works of his on the imamate won the compliments of al-Ma'mun and thereby the recognition of the capital, and from then on, without abandoning Basra, he stayed for long periods in Baghdad and later Samarra {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+  ur: "تقریباً 200ھ/815-16ء میں جاحظ کی ادبی سرگرمی کا پہلا ثبوت ملتا ہے: امامت پر ان کی تصانیف نے خلیفہ مامون کی تحسین حاصل کی اور اس سے دارالخلافہ میں ان کی پہچان بنی؛ اسی سے وہ بصرہ سے تعلق قائم رکھتے ہوئے بغداد اور بعد میں سامرا میں طویل قیام کرنے لگے {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}."
+wings: [time]
+themes: [literature]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0815~", hijri: "0200", calendar: julian, precision: year, status: historical, derived: true, note: "تنص الموسوعة على أن أول دليل على نشاطه الأدبي يعود نحو سنة ٢٠٠هـ/٨١٥-٨١٦م {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}؛ السنة الميلادية محولة ومشتقة." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-jahiz, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 2, art. 'al-Djahiz' (Ch. Pellat), printed p. 385, Apple Vision OCR of the local harvest copy (books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_2_C-G)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-jahiz-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
