@@ -627,3 +627,23 @@ Worked from the cited pages and found thin or mixed: zamakhir (about 35 words, p
 ### Also in batch 26
 
 - **place/ramij** (Idrisi pp. 61, 62). The large Zanj-archipelago island with five kinds of banana, the mountain refuge of Jabal Wayra, the Chinese trade that moved there, the smoking island nearby. Found from the cited page 62, which the earlier 150–999 search had skipped.
+
+## Second source: Wikidata coordinates and identifiers for Idrisi places (1 Nov 2026)
+
+Read in the user's own Chrome through the Wikidata and Wikipedia APIs. Method: for each of the 343 n–z Idrisi place records without coordinates, a Wikidata search by the record's Arabic label kept only items whose Arabic label equals the name (after normalising alef, ya and ta marbuta). 241 labels had a candidate; 26 had exactly one. After checking each candidate's description and coordinates against the region and route in al-Idrisi's text, 35 were accepted. Each carries `coordinates`, `coordinate_precision`, `external_ids` (Wikidata, GeoNames, Pleiades where the item has them) and the sources `source/wikidata` and `source/geonames-gazetteer`, and a page record in `docs/authenticity-ledger/pages/wikidata-<slug>.yaml` with the item's revision. Wikidata is used for coordinates and identifiers only, as the rule in `docs/delegation/wikipedia-broad-rule-proposal.md` requires; no prose comes from it.
+
+Accepted (35): sijilmasa, rouen, nantes, tortosa, tarraqona, shatiba, uriyula, qalat-ayyub, talabira, socotra, sardinia, salonik, qatania, shaqqa, tadlis, tayma, wadi-al-hijara, qalimriyya, nafta, nabil, naqawus, nicea, qal-fayma, qafsa, qalat-al-balut, qalat-rabah, qalhat, qalibli, qalunia, qantarat-qurtuba, qarqana, qastiliyya, qayn, qift, rashid.
+
+**Resolved:** qalibli. The record's label said Calabria; the Wikidata item for the same Arabic name is Gallipoli in Apulia, which fits the Taranto route, and the English label and prose note are corrected.
+
+**Rejected after checking, left alone:**
+- pantelleria: the Arabic name بانوسة matches the Wikidata item for Ponza (an island of the Pontine group), not Pantelleria; the record's slug and English label look mistaken, and no coordinates were added. Needs a founder decision on the slug.
+- orleans: the only exact match is the arrondissement, not the city.
+- russia: the match is the Russian language.
+- qarnayn: the match is a village in Yemen, not al-Idrisi's place.
+- qalamun: the Lebanese town found lies near Tripoli, while al-Idrisi's fort is a few miles from Sidon and Jiyeh.
+- raygha, qumar: no evidence the match is the same place.
+- naples: shares the Nabeul item with `nabil`; the two records look like one place and are left for consolidation (only `nabil` was given coordinates).
+- shiltish: Wikidata's شلب is Silves; al-Idrisi's شلطيش is Saltes Island near Huelva, so it was not matched.
+- wadi-ash (Guadix), samasta, nawqan, zarand: no usable item found by that route; left for a manual search.
+- The other 206 candidates have two or more items with the same Arabic label; they need a check against the route in the text, not a label match.

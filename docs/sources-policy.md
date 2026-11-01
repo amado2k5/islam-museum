@@ -29,6 +29,10 @@ Reliability is a separate question and is unchanged: Wikipedia and Wikidata are 
 - Media without a whitelisted licence (`schema/enums/licenses.yaml`); figurative depictions of prophets and Companions; AI-generated portraits.
 - Bulk copies of a database (OpenStreetMap, IMDb, TMDB, closed directories): a record has no "own words". Take identifiers and use them as pointers; write the facts you establish from your own reading.
 
+### Poetry: full pre-1930 text (founder ruling, 31 Oct 2026)
+
+Pre-1930 Arabic text of a poem, taken from a public-domain edition, may be stored in full in a `passage` record (`unit: poem-line`). Each passage is one bayt or one run of verses, cited to the edition and scan page. The editor's apparatus (taḥqīq, footnotes, indexes) of a post-1930 edition is never stored; it is used only for facts and reconciliations, as the rule above. Translations are the museum's own renderings, written from the Arabic, and are not copied from any translator. This ruling covers poetry only; it does not change the 40-word rule for prose.
+
 ## 5. No sign-off
 
 The founder has given standing permission for all of the above. No agent stops to ask whether a source may be read or rewritten, whether an entity may be written, or whether validated work may be committed and pushed. Flag doubts in the entity and the progress file and continue. Records enter as `status.review: published` with a provenance block once they meet the publication bar in `docs/agents/publication-standard.md`: citations to defined sources, provenance recorded. No review by anyone — founder, human or agent — is required for publication, and one source is enough for any fact.
