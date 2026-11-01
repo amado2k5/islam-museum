@@ -36,7 +36,37 @@ const groups = [...byPoet.values()].sort((a, b) => {
   return ka === kb ? labelOf(a.poet, lang).localeCompare(labelOf(b.poet, lang), lang) : ka < kb ? -1 : 1;
 });
 for (const g of groups) g.poems.sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang));
+// kept in sync with schema/enums/metres.yaml
+const METRES: Record<string, { ar: string; en: string }> = {
+  tawil: { ar: "الطويل", en: "Tawil" },
+  basit: { ar: "البسيط", en: "Basit" },
+  wafir: { ar: "الوافر", en: "Wafir" },
+  kamil: { ar: "الكامل", en: "Kamil" },
+  hazaj: { ar: "الهزج", en: "Hazaj" },
+  rajaz: { ar: "الرجز", en: "Rajaz" },
+  ramal: { ar: "الرمل", en: "Ramal" },
+  sari: { ar: "السريع", en: "Sari" },
+  munsarih: { ar: "المنسرح", en: "Munsarih" },
+  khafif: { ar: "الخفيف", en: "Khafif" },
+  mudari: { ar: "المضارع", en: "Mudari" },
+  muqtadab: { ar: "المقتضب", en: "Muqtadab" },
+  mujtath: { ar: "المجتث", en: "Mujtath" },
+  mutaqarib: { ar: "المتقارب", en: "Mutaqarib" },
+  mutadarik: { ar: "المتدارك", en: "Mutadarik" },
+  madid: { ar: "المديد", en: "Madid" },
+  other: { ar: "أخرى أو موضع خلاف", en: "Other or disputed" },
+};
 const dateOf = (n: any) => formatDate(n.data.died ?? n.data.born, lang).text;
+
+// Verses (passages of unit poem-line): grouped by poem, poems ordered like the anthology above.
+const verses = realNodes.filter((n) => n.class === "passage" && n.data.unit === "poem-line");
+const versesOf = new Map<string, any[]>();
+for (const v of verses) (versesOf.get(v.data.work) ?? versesOf.set(v.data.work, []).get(v.data.work)!).push(v);
+const refKey = (r: string) => r.split(/[^0-9]+/).filter(Boolean).map((x) => x.padStart(5, "0")).join("-") + "~" + r;
+for (const list of versesOf.values()) list.sort((a, b) => refKey(String(a.data.ref ?? "")).localeCompare(refKey(String(b.data.ref ?? ""))) || a.id.localeCompare(b.id));
+const versePoems = [...groups.flatMap((g) => g.poems), ...unattributed].filter((p) => versesOf.has(p.id));
+const verseText = (v: any) => v.data.translations?.[lang]?.text ?? v.data.translations?.en?.text ?? "";
+const metreLabel = (id: string) => METRES[id]?.[lang === "ar" ? "ar" : "en"] ?? id;
 ---
 <BaseLayout lang={lang} title={P.title} description={P.lede} path={`/${lang}/words/poetry/`}>
   <PageHeader
@@ -86,4 +116,37 @@ const dateOf = (n: any) => formatDate(n.data.died ?? n.data.born, lang).text;
       </section>
     )}
   </div>
+  {versePoems.length > 0 && (
+    <div class="wrap" style="padding-block:20px" id="verses">
+      <h2 style="font-size:1.5rem;margin:0 0 8px">{P.verses_title}</h2>
+      <p class="ui muted" style="max-width:var(--measure);margin:0 0 12px">{fmt(P.verses_note, { n: String(verses.length), p: String(versePoems.length) })}</p>
+      <nav aria-label={P.verses_jump} style="margin-bottom:20px">
+        <ul style="display:flex;flex-wrap:wrap;gap:8px 16px;list-style:none;padding:0;margin:0">
+          {versePoems.map((p) => (
+            <li><a href={`#v-${p.slug}`}>{labelOf(p, lang)}</a> <span class="ui muted">({versesOf.get(p.id)!.length})</span></li>
+          ))}
+        </ul>
+      </nav>
+      {versePoems.map((p) => (
+        <section style="margin-bottom:28px" id={`v-${p.slug}`} aria-labelledby={`vh-${p.slug}`}>
+          <h3 id={`vh-${p.slug}`} style="font-size:1.2rem;margin:0 0 4px"><a href={href(lang, p.id)}>{labelOf(p, lang)}</a></h3>
+          {poetOf.get(p.id) && <p class="ui muted" style="margin:0 0 10px"><a href={href(lang, poetOf.get(p.id).id)}>{labelOf(poetOf.get(p.id), lang)}</a></p>}
+          <ol style="list-style:none;padding:0;margin:0;display:grid;gap:14px">
+            {versesOf.get(p.id)!.map((v) => (
+              <li id={v.slug} style="border-inline-start:3px solid var(--rule,#ccc);padding-inline-start:12px">
+                <p lang="ar" dir="rtl" style="font-size:1.35rem;line-height:2;margin:0">{v.data.text}</p>
+                {verseText(v) && <p style="margin:2px 0 0" lang={v.data.translations?.[lang] ? lang : "en"}>{verseText(v)}</p>}
+                <p class="ui muted" style="margin:2px 0 0;font-size:.85rem">
+                  {P.verse_ref} {v.data.ref}
+                  {v.data.metre && <span> · {P.metre}: {metreLabel(v.data.metre)}</span>}
+                  {v.data.rhyme && <span> · {P.rhyme}: <span lang="ar">{v.data.rhyme}</span></span>}
+                  {" · "}<a href={href(lang, v.id)}>{P.verse_page}</a>
+                </p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </div>
+  )}
 </BaseLayout>
