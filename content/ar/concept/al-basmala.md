@@ -18,3 +18,6 @@ translators: []
 
 ## رأي المؤلف
 هذا تفسير الشعراوي ويُنسب إليه. لم تُعرض في هذه الصفحات آراء فقهية أو تفسيرية أخرى في وجوب البسملة أو كونها آية من كل سورة، ولم تُراجع بعد؛ والطبعة غير موثّقة، وتُقابل الأرقام بالنسخة المطبوعة قبل النشر.
+
+## في برنامج الشعراوي «لقاء الإيمان»
+في الحلقة السابعة عشرة من [[work/likaa-al-iman|لقاء الإيمان]] يُسأل [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]]: هل البسملة جزء من القرآن؟ {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:00:00} فيقول إنها وردت في أوائل السور إلا سورة براءة، ووردت مرة في صلب سورة النمل ([[passage/quran-27-30|النمل 30]])، فالتي في الصلب آية من القرآن ومن السورة. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:00:30} ويرى أنها في الفاتحة آية منها، ولذلك يُعدّ الحمد الآية الثانية. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:00} أما في غير الفاتحة والنمل فهي عنده من القرآن لكنها ليست آية من كل سورة، بل جاءت للفصل بين السور. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:30}
