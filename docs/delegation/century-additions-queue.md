@@ -1732,11 +1732,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Şeyhi — 1376–1431
 - [x] Ahmed Pasha (the poet) — 1426–1497
 - [x] Mahmud Shah Sharqi — 1420–1458
-- [ ] Hussain Shah Sharqi — 1440–1505
+- [x] Hussain Shah Sharqi — 1440–1505
 - [ ] Sultan Zain-ul-Abidin — 1420–1470
-- [ ] Rustam Beg — 1465–1497
-- [ ] Sultan Muzaffar Shah of Malacca — 1400–1459
-- [ ] Sultan Mansur Shah of Malacca — 1430–1477
+- [x] Rustam Beg — 1465–1497
+- [x] Sultan Muzaffar Shah of Malacca — 1400–1459
+- [x] Sultan Mansur Shah of Malacca — 1430–1477
 - [ ] Sultan Mahmud Shah of Malacca — 1480–1528
 - [ ] Tun Perak — 1410–1498
 - [ ] Sonni Ali Ber — 1440–1492
