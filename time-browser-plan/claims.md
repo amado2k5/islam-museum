@@ -154,3 +154,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | place/tunis | cursor | done — 8 nodes, all reused (Hafsid independence 1230, Eighth Crusade 1270, Marinid entry 1347, Ibn Khaldun's parents 1349, his court post 1352, conquests of 1534 and 1535, Ottoman recovery 1574); subject file only
 
 2026-11-01 | place/algiers | cursor | claimed
+2026-11-01 | place/medina | devin | done — 14 nodes; 16 Explorer images generated, 1 reject (figure) regenerated clean
