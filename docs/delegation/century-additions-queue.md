@@ -1800,7 +1800,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mangkunegara I (Raden Mas Said) — 1725–1795
 - [x] Qırım Giray — 1717–1769
 - [x] Sheikh Mansur (Ushurma) — 1760–1794
-- [ ] Timur Shah Durrani — 1748–1793
+- [x] Timur Shah Durrani — 1748–1793
 - [ ] Liu Zhi — 1660–1739
 
 ## K. 626–725 additions (0)
