@@ -171,7 +171,10 @@ the last good publish while a run is in progress).
 3. An R2 API token (Object Read & Write, bucket `islam-museum-uat` only) created in the
    dashboard, stored with `setup-uat.sh r2-keys` as the `uat` Environment's
    `R2_ACCESS_KEY_ID` / `R2_SECRET_ACCESS_KEY`.
-4. First deploy: "Deploy islam.museum to UAT" with `seed` ticked (the bucket has no
+4. First deploy: "Deploy islam.museum to UAT" with `seed` ticked, once a build of a commit
+   that carries the `[env.uat]` sections exists (the deploy takes the Worker code and the
+   wrangler configs from the *built* commit, so an older build cannot deploy UAT; the
+   workflow checks this and names the problem before deploying anything). The bucket has no
    manifest yet; the publish uploads the whole build once, a few hours). The first deploy
    also creates the UAT Workers and the `uat.islam.museum` Custom Domain (DNS record and
    certificate); the second and later deploys send only what changed.
