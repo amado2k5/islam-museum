@@ -1,0 +1,61 @@
+id: person/ayman-mohyeldin
+class: person
+
+label: { ar: "أيمن محيي الدين", en: "Ayman Mohyeldin", ur: "ایمن محی الدین" }
+
+names:
+  - { value: "Ayman Mohyeldin", kind: full }
+  - { value: "أيمن محيي الدين", kind: full }
+
+gender: male
+
+summary:
+  ar: "صحفي ومذيع أمريكي من أصل مصري، وُلد في القاهرة سنة 1979. بدأ في إن بي سي وعمل منتجًا لسي إن إن في العراق، وغطى للجزيرة الإنجليزية حرب غزة 2008–2009 والربيع العربي قبل أن يعود إلى إن بي سي نيوز؛ ثم قدّم برامج على إم إس إن بي سي (إم إس ناو حاليًا)، منها «أيمن محيي الدين ريبورتس» و«أيمن»."
+  en: "Egyptian-American journalist and anchor, born in Cairo in 1979. He began at NBC, produced for CNN in Iraq, and reported for Al Jazeera English on the 2008–2009 Gaza war and the Arab Spring before returning to NBC News; he went on to anchor Ayman Mohyeldin Reports and Ayman on MSNBC, now MS NOW."
+  ur: "مصری نژاد امریکی صحافی اور اینکر، جو 1979 میں قاہرہ میں پیدا ہوئے۔ این بی سی سے آغاز کیا، عراق میں سی این این کے پروڈیوسر رہے، اور الجزیرہ انگلش کے لیے 2008–2009 کی غزہ جنگ اور عرب بہار کی رپورٹنگ کی؛ بعد میں این بی سی نیوز میں واپس آئے اور ایم ایس این بی سی (اب ایم ایس ناو) پر پروگرام پیش کیے۔"
+
+roles: [journalist, presenter]
+wings: [people, living]
+regions: [egypt-nile, americas-oceania]
+
+born:
+  edtf: "1979-04-18"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Cairo on 18 April 1979; the English and Arabic articles and Wikidata agree. The Hijri year 1399 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-ayman-mohyeldin-en, source/wikipedia-ayman-mohyeldin-ar, source/wikidata-ayman-mohyeldin]
+
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-ayman-mohyeldin-en, source/wikipedia-ayman-mohyeldin-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school or order for Mohyeldin. The
+      English and Arabic articles carry no religion statement for
+      him, and Wikidata gives a bare Islam, which is structured
+      data and settles nothing under the founder's rulings of
+      1 November 2026. American press coverage of October 2023
+      described him generically among his network's Muslim anchors,
+      naming no school. His Egyptian father and Palestinian mother
+      are family background and were not counted. His faith is
+      recorded as unknown.
+    sources: [source/wikipedia-ayman-mohyeldin-en, source/wikidata-ayman-mohyeldin]
+
+external_ids: { wikidata: "Q4831473" }
+
+sources:
+  - source/wikipedia-ayman-mohyeldin-en
+  - source/wikipedia-ayman-mohyeldin-ar
+  - source/wikidata-ayman-mohyeldin
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ayman Mohyeldin' (revision 1382279908 of 27 October 2026), Arabic Wikipedia article «أيمن محيي الدين» (revision 73752471 of 7 March 2026) and Wikidata Q4831473 (item revision 2539535266 of 2 September 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and each QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1979 is confirmed, with the day from the articles."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-163a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
