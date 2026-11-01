@@ -1,0 +1,77 @@
+id: person/sunan-giri
+class: person
+
+label: { ar: "سونن قيري", en: "Sunan Giri", ur: "سونن گیری" }
+
+names:
+  - { value: "Sunan Giri", kind: full }
+  - { value: "Raden Paku", kind: alternate }
+  - { value: "Muhammad Ainul Yaqin", kind: alternate }
+  - { value: "Joko Samudro", kind: alternate }
+  - { value: "Prabu Satmata", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "أحد الأولياء التسعة في جاوة (ت. 1506)، مؤسس قيري كداتون قرب غريسيك، المدرسة التي صارت مركزًا دينيًا وسياسيًا نشر الإسلام في شرق جاوة ومنه إلى مادورا ولومبوك وكاليمانتان وسولاويزي ومالوكو. تقول المرويات إنه ابن مولانا إسحاق المالقي الذي أُلقي به رضيعًا في البحر فأنقذه بحارة نياي غيدي بيناتيه في غريسيك وربّته، ثم درس عند سونن أمبل وكان رادين فاتح زميله، وعُرف بصرامته الأرثوذكسية وبألعاب الأطفال والأغاني الجاوية المنسوبة إليه."
+  en: "One of the nine Wali Songo of Java (d. 1506), founder of Giri Kedaton near Gresik, the school that became a religious and political centre spreading Islam through East Java and onward to Madura, Lombok, Kalimantan, Sulawesi and Maluku. Tradition makes him a son of Maulana Ishak of Melaka who as an infant was set adrift at sea, rescued by the sailors of the Gresik merchant Nyai Gede Pinatih and raised by her; he studied under Sunan Ampel alongside Raden Patah, was known for orthodox strictness, and is credited with Javanese children's games and songs still in use."
+  ur: "جاوا کے نو اولیا میں سے ایک (وفات 1506ء)، گریسیک کے قریب گیری کداتون کے بانی — وہ مدرسہ جو دینی و سیاسی مرکز بن کر مشرقی جاوا اور وہاں سے مادورا، لومبوک، کالیمانتان، سولاویسی اور مالوکو تک اسلام کی اشاعت کا ذریعہ بنا۔ روایت کے مطابق وہ ملاکا کے مولانا اسحاق کے بیٹے تھے جنھیں شیر خوارگی میں سمندر میں بہا دیا گیا؛ گریسیک کی تاجر بیوہ نیائی گیدے پیناتیح کے ملاحوں نے انھیں بچایا اور انھی نے پرورش کی؛ انھوں نے سونن امپل سے تعلیم پائی، رادین پاتاہ ان کے ہم سبق تھے، وہ راست اعتقادی کی سختی کے لیے مشہور تھے اور جاوا کے بچوں کے کھیل اور گیت ان سے منسوب ہیں۔"
+
+roles: [scholar, ruler]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1442"
+  hijri: "0846"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: true
+  note: "The year 1442 at Blambangan is given by the English article, the Indonesian article's body and the Arabic article, and by Wikidata (which gives it in the Julian calendar); it rests on Javanese chronicle tradition (the babads and the Serat Walisana), not contemporary documentation, and is recorded as tradition. The Indonesian article's infobox gives 1443, preserved here as a variant. Blambangan has no place entity, so the birthplace is recorded here only. The Arabic article pairs the year with 846 AH, and that pairing — the source's own — is recorded as the Hijri year; the year 1442 spans 845-846 AH."
+  sources:
+    - source/wikipedia-sunan-giri-en
+    - source/wikipedia-sunan-giri-id
+    - source/wikipedia-sunan-giri-ar
+    - source/wikidata-sunan-giri
+
+died:
+  edtf: "1506"
+  hijri: "0912"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: true
+  note: "The year 1506 is given by the English article, the Indonesian article's body and the Arabic article, on the same traditional basis as the birth year; he died at Giri and was buried at Kebomas, Gresik, neither of which has a place entity. The Indonesian article's infobox gives his death as the range 1506-1521, preserved here as a variant. The Arabic article pairs the year with 912 AH, and that pairing — the source's own — is recorded as the Hijri year; the year 1506 spans 911-912 AH."
+  sources:
+    - source/wikipedia-sunan-giri-en
+    - source/wikipedia-sunan-giri-id
+    - source/wikipedia-sunan-giri-ar
+
+relations:
+  - { type: student_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-giri-en, source/wikipedia-sunan-giri-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Two structured attestations name his branch and one names a school, but the school rests on a single source family: the Indonesian article's Muslim-scholar infobox gives his denomination as Sunni with the jurisprudence field blank, while the Arabic article's infobox — built on the Ba'alawi genealogical tradition and filing him under Shafi'i categories — gives his creed as Sunni and his madhhab as Shafi'i. No second independent source names a school for him: the English article calls him a proponent of orthodox Islam who disapproved of innovation, without naming a madhhab, and Wikidata's religion value is Islam without qualification. His documented life is that of a Muslim saint, teacher and ruler who founded Giri Kedaton and spread Islam across eastern Indonesia. On the lane's arithmetic (compare Trenggana and Maulana Yusuf of Banten), a single-family school attestation is preserved here for the founder's ruling and no school is recorded."
+    sources:
+      - source/wikipedia-sunan-giri-id
+      - source/wikipedia-sunan-giri-ar
+      - source/wikipedia-sunan-giri-en
+      - source/wikidata-sunan-giri
+
+external_ids: { wikidata: "Q4201082" }
+
+sources:
+  - source/wikipedia-sunan-giri-en
+  - source/wikipedia-sunan-giri-id
+  - source/wikipedia-sunan-giri-ar
+  - source/wikidata-sunan-giri
+
+provenance:
+  layer: own-research
+  source: "English, Indonesian and Arabic Wikipedia articles on Sunan Giri and Wikidata Q4201082, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). His teacher Sunan Ampel has a record in the museum (person/sunan-ampel), so the student_of edge is written here. His father is named by tradition as Maulana Ishaq of Melaka (the Serat Walisana variant names a Sayyid Ya'qub, discussed in the Indonesian article); Maulana Ishaq has no record in the museum, so no child_of edge is written and the parentage is carried in the prose with its variant."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151g
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
