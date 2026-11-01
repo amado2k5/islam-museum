@@ -13,4 +13,4 @@ From Tarant eastward to Istura, a wadi where ships anchor, is twelve miles; from
 ## Distance from Tarant
 Elsewhere al-Idrisi gives sixty miles by sea from Tarant to Qalibli. {cite:nuzhat-al-mushtaq-2002 p. 775}
 
-The data label reads "Calabria"; the pages place Qalibli on this Tarant coast, and the entry follows the pages without proposing a modern identification.
+The record's old label read "Calabria"; Wikidata identifies the name with Gallipoli in Apulia (item Q52143, an Arabic label matching al-Idrisi's), which suits the Taranto coast of his route, and the label now says Gallipoli. {cite:wikidata Q52143}
