@@ -1,0 +1,36 @@
+id: event/majid-bin-said-accedes-in-zanzibar
+class: event
+kind: other
+label:
+  ar: "تولي ماجد بن سعيد سلطنة زنجبار"
+  en: "Majid bin Said becomes Sultan of Zanzibar"
+  ur: "ماجد بن سعید کا زنجبار کی سلطنت سنبھالنا"
+summary:
+  ar: "صار ماجد بن سعيد سلطان الإمبراطورية العُمانية التي عاصمتها زنجبار عند وفاة والده في 19 أكتوبر 1856، وخلافته كانت متنازعا عليها من مسقط."
+  en: "Majid bin Said became sultan of the Omani empire, based at its capital Zanzibar, on his father's death on 19 October 1856; his brother at Muscat contested the succession."
+  ur: "ماجد بن سعید 19 اکتوبر 1856ء کو والد کی وفات پر زنجبار کو دارالحکومت بنانے والی عمانی سلطنت کے سلطان بنے، اور مسقط سے ان کے بھائی نے جانشینی پر اعتراض کیا۔"
+wings: [time, place, people]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start:
+    edtf: "1856-10-19"
+    hijri: "1273-02-19"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "تاريخ التولي هو يوم وفاة سعيد كما تسجله مقالة ماجد: 19 أكتوبر 1856. الوفاة كانت في البحر، وماجد كان نائب والده في زنجبار فصار السلطان المقيم في عاصمتها. اليوم الهجري 19 صفر 1273 تحويل جدولي، والسنة توافق ما سُجّل في بطاقة سعيد (صفر 1273)."
+    sources: [source/wikipedia-majid-bin-said-en, source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+relations:
+  - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-majid-bin-said-en] }
+  - { type: had_participant, target: person/majid-bin-said, role: "صار سلطان زنجبار", sources: [source/wikipedia-majid-bin-said-en] }
+  - { type: had_participant, target: person/said-bin-sultan, role: "السلطان المتوفى الذي خلفه ماجد في زنجبار", sources: [source/wikipedia-majid-bin-said-en, source/britannica-said-ibn-sultan] }
+sources: [source/wikipedia-majid-bin-said-en, source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Majid bin Said', read via content/ar/person/majid-bin-said.md and the person record on 1 November 2026; English Wikipedia 'Said bin Sultan' and Britannica 'Saʿīd ibn Sulṭān' for the death at sea on 19 October 1856 and the division of the inheritance."
+  generated_by: "Cursor"
+  model: "Grok 4.7"
+  run: explorer-zanzibar
+status: { review: published, completeness: 2, generated_by: "Cursor (Grok 4.7)" }
