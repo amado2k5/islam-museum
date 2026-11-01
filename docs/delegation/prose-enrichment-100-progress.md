@@ -458,3 +458,18 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 
 - **place/setif.** pp. 260 and 269 give about seventy words (a large fortress populous as a city, much water and fruit, walnuts exported, two stages from Bijaya, four from Constantine); p. 270 mixes the tribe's customs into the passage and is not used. Lead.
 - **place/orleans.** pp. 736, 743, 862 give only distances (sixty miles from Tours and from Itruwish) and a line on a settled city with markets and crafts. Lead.
+
+## n–z batch 17 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 17
+
+- **place/sahilan** (Idrisi pp. 832, 833). **Corrected the data summary**: the page says black birds gather on the island (`يأوي إليها`), not that people catch them. The Caspian's four uninhabited islands and the neighbours Siyah Kuh and Hadhu al-Kur are described.
+- **place/suqmaqiya** (pp. 929, 930). City with no king, ruled by its elders, on the mountain Tughura, at the north end of the "Stinking Land".
+- **place/qaruqiya** (pp. 922, 924, 925). Wooden town of Bashjirt al-Kharija, raided by the Bulghars, the river and land stages.
+- **place/qasr-masmuda** (pp. 527, 529). The shipyard fort at the head of the strait, twelve miles from Ceuta; the unit of the strait's width on p. 527 is cut off in the OCR and the body says so.
+
+### Leads, batch 17
+
+- **place/nitram.** pp. 878 and 883 give only a land name list and one distance (seventy miles from Budhwara). Lead.
+- **place/trebizond.** pp. 816, 911 give route and island distances only. Lead.
+- **place/tournai.** pp. 870, 871 give a land name list and the distances to Ghent and Ibrijs; no description of the town. Lead.
