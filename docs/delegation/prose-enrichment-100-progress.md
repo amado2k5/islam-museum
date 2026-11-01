@@ -582,3 +582,18 @@ After batches 12–23, 84 n–z places that cite Idrisi and have a short Arabic 
 **Label hits are other words, or the record is already sourced elsewhere (6).** wadan (the hits are the Wadan oasis list and other words), tana-india, shama (a common word), nablus (already has prose with al-Maqdisi), russia, qantarat-al-sayf (dropped in batch 10, reason above).
 
 **Under 100 words of source text (39).** About a paragraph or less in the pages, mostly distances: suraws, samandar-khazar, nawshi, qaynyu, rushiya, tarighyawqan, subara, ramij, tukra, venetian-gulf-nuzhat, tashmis, tanuma, nastasiyya, suways, shaqubiyya, qarqudhi, sabu-river, rishahr, qantarat-qurtuba, nahr-bihank, qalat-al-balut, tarjinis, orissa, nawtas, tarawiya, nadkhu, tajwa, nahr-bugu, salwni, titlus, ras-al-muhjama, pantelleria, qalamun, sibiba, nahr-shirin, silabirs, sanasa, tanisbar. Three have one quotable fact each: tashmis (a ruined walled city on the Safdad river a mile from the sea, p. 530), tukra (a large populous fort two stages from Qafiz, p. 315), and suways (the brackish spring at Qulzum, p. 348).
+
+## n–z batch 25 (Claude Sonnet 5.5, place, Idrisi; Nile, Indian Ocean and Socotra)
+
+### Enriched, batch 25
+
+- **place/nawaba** (Idrisi p. 37). Town six days from Kusha, under the king of Nubia (Kasil) whose seat is Dongola.
+- **place/najagha** (p. 43). Small farming town on the river, six days downstream of Marqata.
+- **place/wadi-al-alaqi** (p. 46). The Nubian gold-mine valley and the night-time gold gathering and washing.
+- **place/shamil** (p. 85). Island four days from Sanf, with Ashura and Malay as neighbours.
+- **place/sanf-island** (pp. 83, 84). Sanfi aloeswood, tail-less cattle, King Zunbad, three stages to Luqin.
+- **place/sandi-fulat** (pp. 89, 84). One of the gates of China; the earlier link to sanf-island is kept.
+- **place/sahab-island** (p. 90). The cloud-named island and the sea-spout, as al-Idrisi describes it without explaining it.
+- **place/socotra** (pp. 50, 51, 52). The aloe island; al-Idrisi's Alexander explanation of its Christians and the aloe preparation. The earlier paragraph from al-Hamdani (`sifat-jazirat-al-arab p. 36`) is kept in all three languages.
+
+Passages on appearance, customs and religion of the peoples named on these pages are left out; the entries keep to places, goods and distances.
