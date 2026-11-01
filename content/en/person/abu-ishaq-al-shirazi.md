@@ -18,3 +18,6 @@ Among his books is [[work/tabaqat-fuqaha|Tabaqat al-Fuqaha]]. {cite:tabaqat-fuqa
 
 ## Notes for researchers
 - The Gregorian conversion is derived from the Hijri dates.
+
+## In Ragheb El-Sergani's programme What Did Muslims Bring to the World
+In the thirteenth episode [[person/ragheb-al-sergani|Ragheb El-Sergani]] mentions Abu Ishaq al-Shirazi, whom he describes as a Shafi'i jurist of the fifth century AH, and relates that he was walking with one of his students when a dog crossed their path; the student hurried to drive it away, and the shaykh said to him: why drive it off? It and I are partners in the road. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:09:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:10:00} He sees in it a jurist's outlook that knows the worth of the animal as man's partner on earth; it is a story he tells without naming its source (needs_source). {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep13 00:10:00}
