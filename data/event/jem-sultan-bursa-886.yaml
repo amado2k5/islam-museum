@@ -1,0 +1,25 @@
+id: event/jem-sultan-bursa-886
+class: event
+kind: revolt
+label: { ar: "جم سلطان يُبايَع في بورصة ثمانية عشر يوماً", en: "Jem Sultan hailed at Bursa for eighteen days", ur: "جم سلطان کی بورصہ میں اٹھارہ دن کی بیعت" }
+summary:
+  ar: "في الحرب الأهلية بعد وفاة محمد الفاتح سنة ٨٨٦هـ/١٤٨١م وقف أهل بورصة مع الأمير جم الذي بقي فيها سلطاناً ثمانية عشر يوماً وضرب بها السكك باسمه وعقد على حكم الأناضول وبورصة عاصمة له {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}؛ ويذكر الصلابي أنه كان مقيماً ببورصة حين بلغه خبر وفاة أبيه فأخذ بيعة أهلها، واقترح على أخيه بايزيد قسمة الدولة فرفض، فسار بايزيد بجيش إلى بورصة وهاجمها وفرّ جم إلى سلطان المماليك قايتباي بمصر {cite:dawlat-uthmaniyya-salabi p. 163}."
+  en: "In the civil war after Mehmed II's death in 886/1481 the people of Bursa sided with Prince Jem, who held the town as sultan for eighteen days, struck coins in his name and planned to rule at least Anatolia with Bursa as capital {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}. Al-Salabi has him resident at Bursa when his father died: he took the townspeople's allegiance, proposed dividing the empire, and when Bayezid refused and marched on Bursa, Jem fled to the Mamluk sultan Qaytbay in Egypt {cite:dawlat-uthmaniyya-salabi p. 163}."
+  ur: "886ھ/1481ء میں فاتح کی وفات کے بعد خانہ جنگی میں بورصہ کے لوگ شہزادہ جم کے ساتھ تھے، جس نے اٹھارہ دن وہاں سلطان کے طور پر حکومت کی، اپنے نام کے سکے ڈھالے اور کم از کم اناطولیہ پر بورصہ کو دارالحکومت بنا کر حکومت کا ارادہ کیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}۔ صلابی کے مطابق وہ باپ کی وفات کی خبر پر بورصہ میں مقیم تھا، اہلِ شہر سے بیعت لی، بھائی بایزید کو سلطنت بانٹنے کی پیشکش کی، اور جب بایزید نے انکار کر کے بورصہ پر چڑھائی کی تو جم مصر میں سلطان قایتبای کے پاس بھاگ گیا {cite:dawlat-uthmaniyya-salabi p. 163}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1481", hijri: "0886", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٨٨٦هـ/١٤٨١م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}." }
+relations:
+  - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/jem-sultan, role: "السلطان المتنازع", sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/bayazid-ii, role: "الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF p. 1398 (harvest OCR); الدولة العثمانية للصلابي ص 163"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

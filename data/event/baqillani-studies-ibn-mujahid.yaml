@@ -1,0 +1,27 @@
+id: event/baqillani-studies-ibn-mujahid
+class: event
+kind: other
+label:
+  ar: "الباقلاني يأخذ علم الكلام عن أبي عبد الله بن مجاهد الطائي صاحب الأشعري"
+  en: "Al-Baqillani takes kalam from Abu Abd Allah ibn Mujahid al-Ta'i, companion of al-Ash'ari"
+  ur: "باقلانی، اشعری کے صاحب ابو عبد اللہ بن مجاہد طائی سے علم کلام حاصل کرتے ہیں"
+summary:
+  ar: "أخذ القاضي أبو بكر الباقلاني علم الكلام عن أبي عبد الله بن مجاهد الطائي الذي كان من أصحاب أبي الحسن الأشعري، وروى الحديث عن أبي بكر القطيعي، وكانت له حلقة عظيمة مشهودة {cite:shadharat-dhahab p. 169}؛ ويقول المكارثي إنه درس أصول الدين على أتباع الأشعري، وقد جُذب كثيرون إلى دروسه حتى صار مضرب المثل في المناظرة {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  en: "The qadi Abu Bakr al-Baqillani learned kalam from Abu Abd Allah ibn Mujahid al-Ta'i, one of al-Ash'ari's own companions, and transmitted hadith from Abu Bakr al-Qati'i; he had a large, well-attended lecture circle {cite:shadharat-dhahab p. 169}. McCarthy says he studied usul al-din under disciples of al-Ash'ari and drew many to his lectures, becoming proverbial in disputation {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  ur: "قاضی ابوبکر باقلانی نے علم کلام ابو عبد اللہ بن مجاہد طائی سے پڑھا جو خود ابی الحسن اشعری کے اصحاب میں سے تھے، اور حدیث ابوبکر قطیعی سے روایت کی؛ ان کی ایک بڑی مشہور مجلس درس تھی {cite:shadharat-dhahab p. 169}۔ مکارتھی کے مطابق انہوں نے اشعری کے شاگردوں سے اصول دین پڑھا اور بہت سے لوگ ان کے دروس کی طرف کھنچے، یہاں تک کہ وہ مناظرے میں مثال بن گئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0950/0980", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل وفاة شيخه ابن مجاهد الطائي نحو 370هـ/980م؛ الحدود مشتقة {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}." }
+relations:
+  - { type: had_participant, target: person/al-baqillani, role: "الطالب", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-mujahid-al-tai, role: "الشيخ", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "shadharat-dhahab vol. 3, s.a. 403, printed pp. 169-170; Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), printed pp. 1018-1019, art. al-Bakillani (R. J. McCarthy)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baqillani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

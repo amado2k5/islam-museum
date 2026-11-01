@@ -1827,9 +1827,9 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Mohammad Salih Kanbu — 1608–1675
 - [x] Inayat Khan (Abul Fazl's successor chronicler) — 1603–1671
 - [x] Sa'adullah Khan — 1590–1656
-- [ ] Danishmand Khan — 1625–1670
-- [ ] Shah Abbas II — 1632–1666
-- [ ] Mirza Muhammad Tahir Nasab — 1630–1700
+- [x] Danishmand Khan — 1625–1670
+- [x] Shah Abbas II — 1632–1666
+- [x] Mirza Muhammad Tahir Nasab — 1630–1700
 - [ ] Mir Findesiri — 1563–1640
 - [ ] Qazi Sa'id Qomi — 1633–1692
 - [ ] Jamal al-Din Khwansari — 1651–1711
