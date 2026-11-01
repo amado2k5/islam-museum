@@ -20,10 +20,28 @@ born:
   note: "Born in El Gamaleya, Cairo, on 19 November 1954; all three articles and Wikidata agree. The Hijri year 1374 is a tabular conversion, marked derived."
   sources: [source/wikipedia-abdel-fattah-el-sisi-en, source/wikipedia-abdel-fattah-el-sisi-ar, source/wikidata-abdel-fattah-el-sisi]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No text in any of the three articles names a school or affiliation for the man, and the English infobox carries no religion field. FLAGGED for the founder: the Sunni reading rests on a single structured value — the Wikidata item's religion value (P140) is Sunni Islam (Q483654) — while the Arabic infobox gives Islam (الإسلام) generally and the Urdu stub only files him in an 'Egyptian Muslims' category, which is a filing and never attests. One structured value never attests a school on its own. His public speeches calling for a renewal of religious discourse are state policy delivered as president, not an affiliation of his own, and are expressly not counted. The reading is preserved here for the founder's ruling."
-    sources: [source/wikipedia-abdel-fattah-el-sisi-en, source/wikipedia-abdel-fattah-el-sisi-ar, source/wikipedia-abdel-fattah-el-sisi-ur, source/wikidata-abdel-fattah-el-sisi]
+  - value: sunni
+    basis: documented
+    note: >-
+      No text in any of the three articles names a school or affiliation for
+      the man, and the English infobox carries no religion field. FLAGGED
+      for the founder: the Sunni reading rests on a single structured value
+      — the Wikidata item's religion value (P140) is Sunni Islam (Q483654) —
+      while the Arabic infobox gives Islam (الإسلام) generally and the Urdu
+      stub only files him in an 'Egyptian Muslims' category, which is a
+      filing and never attests. One structured value never attests a school
+      on its own. His public speeches calling for a renewal of religious
+      discourse are state policy delivered as president, not an affiliation
+      of his own, and are expressly not counted. The reading is preserved
+      here for the founder's ruling. Settled sunni/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2b: branch-
+      only attestations record the bare branch value, which the enum now
+      carries).
+    sources:
+      - source/wikipedia-abdel-fattah-el-sisi-en
+      - source/wikipedia-abdel-fattah-el-sisi-ar
+      - source/wikipedia-abdel-fattah-el-sisi-ur
+      - source/wikidata-abdel-fattah-el-sisi
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-abdel-fattah-el-sisi-en, source/wikidata-abdel-fattah-el-sisi] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdel-fattah-el-sisi-en] }

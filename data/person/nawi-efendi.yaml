@@ -1,25 +1,82 @@
 id: person/nawi-efendi
 class: person
-label:
-  ar: "نوعي"
-  en: "Naw'i Efendi"
-roles: [poet, scholar]
+
+label: { ar: "نوعي", en: "Naw'i Efendi", ur: "نوعی" }
+
+names:
+  - { value: "Yahya b. Ali b. Nasuh al-Rumi", kind: full }
+  - { value: "يحيى بن علي بن نصوح الرومي", kind: full }
+  - { value: "Yahya", kind: given }
+  - { value: "Nev'î", kind: pen }
+  - { value: "Naw'i", kind: latinized }
+
 gender: male
+
 summary:
-  ar: "بطاقة أولية لنوعي أفندي، الشاعر والعالم العثماني القرن السادس عشر، توفي سنة ١٥٩٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Naw'i Efendi, the sixteenth-century Ottoman poet and scholar, d. 1599; the biographical entry is not yet checked on the page."
-wings: [people]
+  ar: "شاعر عثماني من شعراء الديوان وعالم (1533–1599)، وُلد في مالقرة وتعلّم في إسطنبول، ودرّس في مدارس غاليبولي وأدرنة وإسطنبول، ثم صار معلّمًا لأبناء السلطان مراد الثالث. خلّف ديوانًا كبيرًا، و«نتائج الفنون» الموسوعية، وترجمة منظومة للأربعين حديثًا، و«كشف الحجاب» ترجمته لفصوص الحكم لابن عربي؛ تربّى على التصوف منذ صغره، وتوفي في إسطنبول في 24 يونيو 1599 ولم يترك مالًا، ودُفن في مقبرة جامع الشيخ وفا."
+  en: "Ottoman divan poet and scholar (1533–1599), born at Malkara and educated at Istanbul, who taught in the medreses of Gelibolu, Edirne and Istanbul and became tutor to the sons of Sultan Murad III. He left a large Divan, the encyclopaedic Netâyicü'l-fünûn, a verse translation of forty hadiths, and Keşfü'l-hicâb, his translation of Ibn Arabi's Fusûs al-hikam; Sufi-trained from childhood, he died at Istanbul on 24 June 1599 leaving no property, and was buried at the Şeyh Vefâ mosque."
+  ur: "عثمانی دیوان شاعر اور عالم (1533–1599ء)، مالقرہ میں پیدا ہوئے اور استنبول میں تعلیم پائی؛ غالیبولی، ادرنہ اور استنبول کے مدارس میں پڑھایا اور سلطان مراد ثالث کے بیٹوں کے اتالیق بنے۔ ان کی یادگار ایک بڑا دیوان، موسوعاتی «نتائج الفنون»، چالیس احادیث کا منظوم ترجمہ اور ابن عربی کی فصوص الحکم کا ترجمہ «کشف الحجاب» ہے؛ بچپن سے صوفیانہ تربیت یافتہ تھے، 24 جون 1599ء کو استنبول میں وفات پائی اور کوئی مال نہ چھوڑا؛ شیخ وفا مسجد کے احاطے میں دفن ہوئے۔"
+
+roles: [poet, scholar]
 regions: [anatolia-balkans]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q126365591
+wings: [people]
+
+born:
+  edtf: "1533"
+  hijri: "0940"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "The TDV İslâm Ansiklopedisi entry (Sefercioğlu) states the pairing directly: born at Malkara in 940 AH (1533–34 CE), son of Pîr Ali, himself son of Nasuh Halife, who had come from Ankara and settled at Malkara. The English article and Wikidata give the single year 1533, followed here; the pairing is the encyclopedia's own, not a conversion. Malkara has no place entity, so the birthplace is carried in this note and the prose only."
+  sources: [source/tdv-nevi, source/wikipedia-nawi-efendi-en, source/wikidata-nawi-efendi]
+
+died:
+  edtf: "1599-06-24"
+  hijri: "1007"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The TDV İslâm Ansiklopedisi entry gives his death as 30 Zilkade 1007 with its own conversion, 24 June 1599, at Istanbul, and his burial in the hazire of the Şeyh Vefâ Mosque beside Şeyh Şâban Efendi; Wikidata gives the same day (1599-06-24)."
+  sources: [source/tdv-nevi, source/wikidata-nawi-efendi]
+
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/tdv-nevi] }
+  - { type: died_in, target: place/istanbul, sources: [source/tdv-nevi, source/wikidata-nawi-efendi] }
+  - { type: buried_in, target: place/istanbul, sources: [source/tdv-nevi] }
+
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: >-
+      The English Wikipedia, citing Gibril Haddad's The Maturidi School
+      (Beacon Books, 2021), p. 132, describes him as a Sunni Hanafi-Maturidi
+      jurist, and its infobox gives Sunni / Hanafi / Maturidi; that is a
+      single attesting family — the citation was verified in the article's
+      text and the book's bibliographic identity and scope (a survey of
+      Maturidi authorities) were confirmed, but Haddad's page itself was not
+      independently retrieved. No second independent source read names a
+      school: the TDV İslâm Ansiklopedisi entry (Sefercioğlu), read in full,
+      names no madhhab or creed, and Wikidata gives only Islam. His Sufi
+      formation is documented by that same encyclopedia: disciple of Sarhoş
+      Bâlî Efendi, then mürid of Kurd Mehmed Efendi, with further training
+      under Şeyh Şâban Efendi, and translator of Ibn Arabi's Fusûs al-hikam
+      — attested for the man himself, but by one family only. Held unknown
+      and flagged for the founder: one more independent source naming
+      Hanafi, or independently attesting the Sufi discipleship, settles the
+      corresponding value as documented. Settled sunni-hanafi/documented by
+      the founder's ruling of 1 November 2026 (rulings packet #3, 2c: a
+      single scholarly family suffices for historical profiles).
+    sources:
+      - source/wikipedia-nawi-efendi-en
+      - source/tdv-nevi
+      - source/wikidata-nawi-efendi
+external_ids: { wikidata: "Q126365591" }
+sources: [source/wikipedia-nawi-efendi-en, source/tdv-nevi, source/wikidata-nawi-efendi]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0079
-status:
-  review: draft
-  completeness: 1
+  source: "Full record replacing the Devin wikidata-import draft stub at the same slug (wave-142 al-Hiba precedent; the stub's sole source, al-Zirikli's al-A'lam, was unread and is dropped). Built from the English Wikipedia article 'Naw'i Efendi' (revision of 4 November 2025, QID grounded in the article's own page property), the TDV İslâm Ansiklopedisi entry 'NEV'Î' by M. Nejat Sefercioğlu (vol. 33, 2007, pp. 52–54) read in full in Turkish and checked against the print PDF, and Wikidata Q126365591 (item revision re-asserted against a second live query, identical), all retrieved 1 November 2026. Haddad's The Maturidi School (2021), p. 132, is cited by the English article for the Hanafi-Maturidi description; its page was not independently retrieved, so it is named in the faith note but not registered as a source."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-152G
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -34,10 +34,29 @@ died:
 relations:
   - { type: died_in, target: place/damascus, sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "His Alawite affiliation is attested personally and in full: the English article records his birth into an Alawite peasant family of the Kalbiyya tribe and, citing scholarship (Seale, Batatu, Hinnebusch), treats his rule throughout as that of an Alawite president heading an Alawite-dominated security state; the Arabic article likewise records his birth to a poor Alawite family of the Alawite sect and calls him the first Alawite Ba'athist president in Syrian history; Wikidata's religion value is the Alawites item itself, and the Arabic infobox gives Islam in general. The faith enum has no Alawite value, and a distinct named tradition is not mapped onto any other value, so the segment is recorded unknown with the attestation preserved here entire (FLAGGED for a founder ruling, on the no-enum-value precedent of Agus Salim's Mu'tazilite reading, wave 91 section B)."
-    sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikidata-hafez-al-assad]
+  - value: alawite
+    basis: documented
+    note: >-
+      His Alawite affiliation is attested personally and in full: the
+      English article records his birth into an Alawite peasant family of
+      the Kalbiyya tribe and, citing scholarship (Seale, Batatu,
+      Hinnebusch), treats his rule throughout as that of an Alawite
+      president heading an Alawite-dominated security state; the Arabic
+      article likewise records his birth to a poor Alawite family of the
+      Alawite sect and calls him the first Alawite Ba'athist president in
+      Syrian history; Wikidata's religion value is the Alawites item itself,
+      and the Arabic infobox gives Islam in general. The faith enum has no
+      Alawite value, and a distinct named tradition is not mapped onto any
+      other value, so the segment is recorded unknown with the attestation
+      preserved here entire (FLAGGED for a founder ruling, on the no-enum-
+      value precedent of Agus Salim's Mu'tazilite reading, wave 91 section
+      B). Settled alawite/documented by the founder's ruling of 1 November
+      2026 (rulings packet #3, Part 7: the enum gained the alawite value on
+      the founder's direction).
+    sources:
+      - source/wikipedia-hafez-al-assad-en
+      - source/wikipedia-hafez-al-assad-ar
+      - source/wikidata-hafez-al-assad
 external_ids: { wikidata: "Q118725" }
 sources: [source/wikipedia-hafez-al-assad-en, source/wikipedia-hafez-al-assad-ar, source/wikipedia-hafez-al-assad-ur, source/wikidata-hafez-al-assad]
 provenance:

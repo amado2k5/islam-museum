@@ -80,6 +80,7 @@ Unverified in batch 3:
 | 2026-10-31 | Devin (a–m) | batch 12: place, nuzhat-al-mushtaq-2002 (jarawa, jarkan, jarbatan, jazirat-kharg, jirnaj, kanbaya, karanta, khaygun, kutna, lawkand, maadin-al-naqra, malan, malay, manh, marbella, marqab, marsa-al-dajaj, martula, mawargha, miqra, murcia, murtur, mushla, mustaghanim, mutsa) | 25 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 13: place, nuzhat-al-mushtaq-2002 (armuqastru, arsa, asak-khuzistan, asbara, ashburqan, ashkala, badis-maghrib, baeza, baghlan, baja, balgharduwan, bani-zandawi, banzart, barqana, barsaklafa, basitrinis, basyan, batn-numan, batrani, bayan, berja, bisha, bulghar, bura, butash) | 25 | 0 | — |
 | 2026-10-31 | Devin (a–m) | batch 14: place, nuzhat-al-mushtaq-2002 | 25 | 0 | — |
+| 2026-11-01 | Devin (a–m) | batch 15: place, nuzhat-al-mushtaq-2002 (kayf, kayz, kazima, khan-rawan, khanuqa, khazariya, khulm, khur, lawqin, macedonia, majorca, majrit, mashki, masyunus, mazuna, mila, milasu, mukul, muwrids) | 19 | 0 | — |
 | 2026-10-31 | Claude (n–z) | batch 2: place, nuzhat-al-mushtaq-2002 (shuzas, siqlaw, qawun, nyun-burk, qalimalaya, raghawlda) | 6 | 3 (place/qulari, place/suqusiya, place/niyast — reasons under Leads) | — |
 | 2026-10-31 | Claude (Haiku 5.5) | n–z batch 3: 25 place slugs (sila, tunin, tukha, sarwan, sayala, sindabur, zamin, nafzawa, tabas, naqawus, sharma, zaqa, sayumur, namna, nafta, raygha, qulari, thabun, tabna, zuzan, sawnu, qawun, uzayn, sadum, sabat) | 3 (place/tukha, place/zamin, place/tabna; place/qawun was already enriched in batch 2 and its summary is corrected here) | 21 (reasons under Leads) | — |
 | 2026-10-31 | Claude (n–z) | batch 3: place, nuzhat-al-mushtaq-2002 (qayna, suhaym, thara; OCR checked at pp. 147, 148, 167, 182; other Idrisi places in the n–z list left for later batches) | 3 | 0 | — |
@@ -338,3 +339,9 @@ Named batch 11 for the n–z lane. The a–m lane has its own batch 11 entry abo
 ### Not reached, batch 11
 
 About 130 other n–z place records with Idrisi as a source and a thin Arabic summary were triaged by hit count only (for example sanbat, sarfand, sawsaqan, rudus, qurnat, qatighura, shabra). None was read in full in this batch, so none is claimed as enriched or as a lead with a reason.
+
+| 2026-11-01 | Devin (a–m) | batch 16: mixed books (kamil, futuh-buldan, fihrist, tabari, etc.) | 25 | 0 | — |
+
+### Leads, batch 16
+
+- **person/humayd-ibn-mayuq**: معيوف does not appear in the futuh-buldan OCR (`books/tareekh/futuh-buldan/20230703_20230703_1444`); the two اقريطش passages (pp. 223, 330) name other commanders. The existing body stands; needs another edition or source.

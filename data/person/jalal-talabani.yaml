@@ -33,10 +33,22 @@ died:
   note: "Died at Berlin, Germany, on 3 October 2017, of a cerebral haemorrhage; the English and Arabic articles and Wikidata agree. Berlin has no place entity, so no died_in edge is written; he was buried at Dabashan by Sulaymaniyah, which likewise has no entity. The Hijri year (1439) is derived from the Gregorian date."
   sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "FLAGGED (Wikidata-generic-alone configuration, as Nizar Qabbani). No text or infobox names his school. Wikidata gives only Islam in general. The English and Arabic articles file him under 'Iraqi Sunni Muslims' (the Arabic also under 'Iraqi Kurdish Muslims'), category filings, which never count. His public religious observance as a Kurdish leader is practice, which never counts. Recorded unknown with exactly this stated."
-    sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
+  - value: sunni
+    basis: documented
+    note: >-
+      FLAGGED (Wikidata-generic-alone configuration, as Nizar Qabbani). No
+      text or infobox names his school. Wikidata gives only Islam in
+      general. The English and Arabic articles file him under 'Iraqi Sunni
+      Muslims' (the Arabic also under 'Iraqi Kurdish Muslims'), category
+      filings, which never count. His public religious observance as a
+      Kurdish leader is practice, which never counts. Recorded unknown with
+      exactly this stated. Settled sunni/documented by the founder's ruling
+      of 1 November 2026 (rulings packet #3, 2b: branch-only attestations
+      record the bare branch value, which the enum now carries).
+    sources:
+      - source/wikipedia-jalal-talabani-en
+      - source/wikipedia-jalal-talabani-ar
+      - source/wikidata-jalal-talabani
 external_ids: { wikidata: "Q57306" }
 sources: [source/wikipedia-jalal-talabani-en, source/wikipedia-jalal-talabani-ar, source/wikidata-jalal-talabani]
 provenance:

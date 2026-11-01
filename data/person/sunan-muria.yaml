@@ -1,0 +1,77 @@
+id: person/sunan-muria
+class: person
+
+label: { ar: "سونن موريا", en: "Sunan Muria", ur: "سونن موریا" }
+
+names:
+  - { value: "Sunan Muria", kind: full }
+  - { value: "Raden Umar Said", kind: alternate }
+  - { value: "Sayyid Umar Said", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أحد الأولياء التسعة في جاوة (ت. 1560 بحسب المرويات الإندونيسية)، ابن سونن كاليجاغا وتلميذه، اتخذ مقامه عند جبل موريا شمال قدوس فدُفن في قرية تشولو على سفحه. تميّز عن سائر الأولياء بقربه من عامة الناس: علّم أهل القرى والنواحي النائية الزراعة والصيد وسائر شؤون معاشهم، ودعا إلى الإسلام عبر الويانغ والتمبانغ القصيرة (سينوم وكينانتي) والتقاليد المحلية بعد أسلمتها، فانتشرت دعوته في جيبارا وتايو وجوانا ونواحي قدوس."
+  en: "One of the nine Wali Songo of Java (d. 1560 in the Indonesian tradition), son and student of Sunan Kalijaga, who made his seat by Mount Muria north of Kudus and was buried at Colo on its slope. He stood apart from the other wali for his closeness to common people: he taught villagers and remote districts agriculture, fishing and other livelihoods, and preached Islam through wayang puppet theatre, the short tembang metres Sinom and Kinanthi that tradition credits him with creating, and local customs Islamised — carrying his preaching through Jepara, Tayu, Juwana and the Kudus region."
+  ur: "جاوا کے نو اولیا میں سے ایک (انڈونیشی روایت کے مطابق وفات 1560ء)، سونن کالی جاگا کے بیٹے اور شاگرد، جنھوں نے قدوس کے شمال میں پہاڑ موریا کے پاس اپنا مرکز بنایا اور اسی کے دامن میں چولو میں دفن ہوئے۔ وہ دوسرے اولیا سے عوام سے قربت میں ممتاز تھے: گاؤں والوں اور دور دراز علاقوں کے لوگوں کو زراعت، ماہی گیری اور دیگر معاشی امور سکھائے، اور وایانگ کٹھ پتلی تماشے، چھوٹے تمنبانگ بحور سینوم اور کینانتی — جن کی ایجاد روایت ان سے منسوب کرتی ہے — اور مقامی رسوم کو اسلامی رنگ دے کر تبلیغ کی، یوں ان کی دعوت جیپارا، تایو، جوانا اور قدوس کے نواح میں پھیلی۔"
+
+roles: [scholar]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1560"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "No source read gives any birth year for him — not the English or Indonesian or Arabic article, and not Wikidata, whose item carries no dates at all — so no born block is recorded; the queue's birth year 1500 is supported by nothing and is not used. For his death the sources conflict on a traditional basis: the Indonesian article's body and infobox give 1560 (citing Sunyoto's Atlas Walisongo), the English article's infobox gives 1551, and the Arabic article says only the late 16th century; the Indonesian scholarly tradition's 1560 is followed and 1551 is preserved here. He died in the Kudus region and was buried at Colo, Dawe, Kudus, on the slope of Mount Muria; none of these places has an entity. The year 1560 spans 967-968 AH, so no Hijri year is paired."
+  sources:
+    - source/wikipedia-sunan-muria-id
+    - source/wikipedia-sunan-muria-en
+    - source/wikipedia-sunan-muria-ar
+    - source/wikidata-sunan-muria
+
+relations:
+  - { type: child_of, target: person/sunan-kalijaga, sources: [source/wikipedia-sunan-muria-en, source/wikipedia-sunan-muria-id] }
+  - { type: student_of, target: person/sunan-kalijaga, sources: [source/wikipedia-sunan-muria-id] }
+
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: >-
+      Two structured attestations name his branch and one names a school,
+      but the school rests on a single source family: the Indonesian
+      article's Muslim-scholar infobox gives his denomination as Sunni with
+      the jurisprudence field blank, while the Arabic article's infobox —
+      written within the same Ba'alawi-flavoured Arabic wali tradition as
+      the Bonang and Giri articles and filing him under Shafi'i categories —
+      gives his creed as Sunni and his madhhab as Shafi'i. No second
+      independent source names a school for him: the English article,
+      resting on the Babad Tanah Jawi tradition, names no religion at all,
+      and Wikidata's religion value is Islam without qualification. His
+      documented life is that of a Muslim saint and teacher of the Wali
+      Songo who preached among the villages of the Muria region. On the
+      lane's arithmetic (compare Trenggana and Maulana Yusuf of Banten), a
+      single-family school attestation is preserved here for the founder's
+      ruling and no school is recorded. Settled sunni-shafii/documented by
+      the founder's ruling of 1 November 2026 (rulings packet #3, 2c: a
+      single scholarly family suffices for historical profiles).
+    sources:
+      - source/wikipedia-sunan-muria-id
+      - source/wikipedia-sunan-muria-ar
+      - source/wikidata-sunan-muria
+external_ids: { wikidata: "Q4201898" }
+
+sources:
+  - source/wikipedia-sunan-muria-en
+  - source/wikipedia-sunan-muria-id
+  - source/wikipedia-sunan-muria-ar
+  - source/wikidata-sunan-muria
+
+provenance:
+  layer: own-research
+  source: "English, Indonesian and Arabic Wikipedia articles on Sunan Muria and Wikidata Q4201898, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). His father Sunan Kalijaga has a record in the museum (person/sunan-kalijaga), so the child_of and student_of edges are written here; his other teachers named by the Indonesian article (Sunan Ngudung, Sunan Ngerang) have no records, so those links are prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151g
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

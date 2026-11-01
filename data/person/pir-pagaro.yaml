@@ -35,10 +35,26 @@ roles: [activist]
 wings: [people]
 regions: [south-asia]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "FLAGGED: he was the hereditary Pir Pagaro — he succeeded to the seat in 1922, at about the age of twelve, on his father's death, and held it until his execution — and the English article describes the Hurs, the community he led, as a Sufi Muslim community and him as its spiritual leader. Headship of an order by descent is office, not a personal attestation: no text read attests his own initiation, discipleship, ijaza or teaching line, and neither the article nor Wikidata names an order or a school for him personally. Under the headship line and the doubt rule the value stays unknown, with the attestation preserved here; a founder word accepting hereditary pir headship of a Sufi community as attestation would settle sufi/documented."
-    sources: [source/wikipedia-pir-pagaro-en, source/wikidata-pir-pagaro]
+  - value: sufi
+    basis: documented
+    note: >-
+      FLAGGED: he was the hereditary Pir Pagaro — he succeeded to the seat
+      in 1922, at about the age of twelve, on his father's death, and held
+      it until his execution — and the English article describes the Hurs,
+      the community he led, as a Sufi Muslim community and him as its
+      spiritual leader. Headship of an order by descent is office, not a
+      personal attestation: no text read attests his own initiation,
+      discipleship, ijaza or teaching line, and neither the article nor
+      Wikidata names an order or a school for him personally. Under the
+      headship line and the doubt rule the value stays unknown, with the
+      attestation preserved here; a founder word accepting hereditary pir
+      headship of a Sufi community as attestation would settle
+      sufi/documented. Settled sufi/documented by the founder's ruling of 1
+      November 2026 (rulings packet #3, 2g: hereditary leadership and formal
+      office in Sufi and clerical structures constitute affiliation).
+    sources:
+      - source/wikipedia-pir-pagaro-en
+      - source/wikidata-pir-pagaro
 external_ids: { wikidata: "Q6773809" }
 sources:
   - source/wikipedia-pir-pagaro-en

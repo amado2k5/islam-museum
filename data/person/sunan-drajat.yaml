@@ -1,0 +1,94 @@
+id: person/sunan-drajat
+class: person
+
+label: { ar: "سونن درجات", en: "Sunan Drajat", ur: "سونن درجات" }
+
+names:
+  - { value: "Sunan Drajat", kind: full }
+  - { value: "Raden Qasim", kind: given }
+  - { value: "Raden Qosim", kind: alternate }
+  - { value: "Raden Hasyim", kind: alternate }
+  - { value: "Maulana Hasyim", kind: alternate }
+  - { value: "Raden Syarifuddin", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أحد الأولياء التسعة في جاوة، ابن سونن أمبل وتلميذه وأخو سونن بونانغ الأصغر. اشتهر بفلسفته الاجتماعية في محاربة الفقر قبل الدعوة: العمل الجاد والكرم والرعاية بالأيتام والفقراء، حتى لخّص مذهبه في الحكم المنقوشة على درجات مقامه في لامونغان، ومركزها الصلوات الخمس وإطعام الجائع وكسوة العاري وإيواء المشرّد. لحّن التمبانغ الموتشابات «بنكور» ونشر الإسلام بالغاملان، وأقام مدرسة داخلية (بيسانترين) في درجات، ومنحه رادين فاتح لقب سونن مايانغ مادو سنة 1520."
+  en: "One of the nine Wali Songo of Java, son and student of Sunan Ampel and younger brother of Sunan Bonang. He is remembered for a social philosophy that put fighting poverty before preaching — hard work, generosity and care for orphans and the poor — summed up in the maxims carved on the steps of his tomb complex at Lamongan, centred on the five daily prayers and on feeding the hungry, clothing the naked and sheltering the exposed. He composed the macapat tembang Pangkur, spread Islam through the gamelan, founded a pesantren at Drajat, and received the title Sunan Mayang Madu from Raden Patah in 1520."
+  ur: "جاوا کے نو اولیا (ولی سونگو) میں سے ایک، سونن امپل کے بیٹے اور شاگرد اور سونن بونانگ کے چھوٹے بھائی۔ وہ اپنی سماجی فلسفے کے لیے مشہور ہیں جس میں تبلیغ سے پہلے غربت کا خاتمہ تھا: سخت محنت، سخاوت اور یتیموں و فقیروں کی دیکھ بھال، جو لامونگان میں ان کے مزار کی سیڑھیوں پر کندہ حکمتوں میں خلاصہ ہے اور جس کا مرکز پانچ وقت کی نماز اور بھوکے کو کھانا، ننگے کو لباس اور بے سہارا کو پناہ دینا ہے۔ انھوں نے مچاپت تمبانگ ”پنکور“ ترتیب دیا، گاملان کے ذریعے اسلام پھیلایا، درجات میں ایک پیسانترین قائم کیا اور 1520ء میں رادین پاتاہ سے سونن مایانگ مادو کا لقب پایا۔"
+
+roles: [scholar]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1470"
+  hijri: "0875"
+  calendar: gregorian
+  precision: year
+  status: tradition
+  derived: true
+  note: "The year 1470 is given by the English, Indonesian and Arabic articles and by Wikidata, but it rests on Javanese tradition (babad material), not contemporary documentation, and is recorded as tradition. The birthplace, Surabaya, is given by the English and Indonesian articles; Surabaya has no place entity, so the birthplace is recorded here only. The Arabic article pairs the year with 875 AH, and that pairing — the source's own — is recorded as the Hijri year; the year 1470 spans 874-875 AH."
+  sources:
+    - source/wikipedia-sunan-drajat-en
+    - source/wikipedia-sunan-drajat-id
+    - source/wikipedia-sunan-drajat-ar
+    - source/wikidata-sunan-drajat
+
+died:
+  edtf: "1533"
+  hijri: "0940"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The death year is debated: the Indonesian article's infobox and the Arabic article give 1533, and the Arabic article pairs it with 940 AH, while the English article gives 1522 — the year the queue carried. The 1533 of the two editions is followed here and the English article's 1522 is preserved; the lane followed the Indonesian article over the English on the same kind of conflict for Sunan Muria in wave 151. He died at Paciran in Lamongan, where his tomb stands at Drajat village; neither place has an entity, so the place is recorded here only."
+  sources:
+    - source/wikipedia-sunan-drajat-id
+    - source/wikipedia-sunan-drajat-ar
+    - source/wikipedia-sunan-drajat-en
+
+relations:
+  - { type: child_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-drajat-en, source/wikipedia-sunan-drajat-id] }
+  - { type: student_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-drajat-id] }
+  - { type: student_of, target: person/sunan-gunungjati, sources: [source/wikipedia-sunan-drajat-id] }
+
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: >-
+      Two structured attestations name his branch and one names a school,
+      but the school rests on a single source family: the Indonesian
+      article's Muslim-scholar infobox gives his denomination as Sunni with
+      the jurisprudence field blank, while the Arabic article's infobox —
+      built on the Ba'alawi genealogical tradition, under which it files his
+      family — gives his creed as Ahl al-Sunna wa-l-Jama'a and his madhhab
+      as Shafi'i. No second independent source names a school for him: the
+      English article names no religion at all, and Wikidata gives only
+      Islam generically. His documented life is that of a Muslim saint of
+      the Wali Songo who spread Islam in Java and taught welfare before
+      doctrine. On the lane's arithmetic (his brother Sunan Bonang in wave
+      151, Trenggana and Maulana Yusuf of Banten before him), a single-
+      family school attestation is preserved here for the founder's ruling
+      and no school is recorded. Settled sunni-shafii/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2c: a single
+      scholarly family suffices for historical profiles).
+    sources:
+      - source/wikipedia-sunan-drajat-id
+      - source/wikipedia-sunan-drajat-ar
+      - source/wikipedia-sunan-drajat-en
+external_ids: { wikidata: "Q7638798" }
+
+sources:
+  - source/wikipedia-sunan-drajat-en
+  - source/wikipedia-sunan-drajat-id
+  - source/wikipedia-sunan-drajat-ar
+  - source/wikidata-sunan-drajat
+
+provenance:
+  layer: own-research
+  source: "English, Indonesian and Arabic Wikipedia articles on Sunan Drajat and Wikidata Q7638798, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). His father Sunan Ampel and his teacher Sunan Gunung Jati have records in the museum, so the child_of and student_of edges are written here; the student_of edges rest on the Indonesian article's infobox disciple-of field, the article being banner-flagged as unreferenced. The sibling_of edge to this record is written once, in the elder brother's record (person/sunan-bonang), at this batch. His teachers and family beyond these — his mother Dewi Candrawati and his wives and children named by the Indonesian article — have no records, so they are prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-152G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,39 @@
+id: person/ali-farag
+class: person
+label: { ar: "علي فرج", en: "Ali Farag", ur: "علی فرج" }
+names:
+  - { value: "Ali Amr Farag", kind: full }
+  - { value: "علي عمر فرج", kind: full }
+  - { value: "Mr. Fantastic", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب اسكواش مصري محترف سابق، وُلد في القاهرة سنة 1992. بطل العالم أربع مرات (2018–19 و2020–21 و2021–22 و2022–23) ومصنّف أول عالميًا سابقًا، اعتزل في مايو 2025 وفي رصيده 46 لقبًا في جولة المحترفين."
+  en: "Egyptian former professional squash player, born in Cairo in 1992. A four-time world champion (2018–19, 2020–21, 2021–22 and 2022–23) and former world No. 1, he retired in May 2025 with 46 PSA titles."
+  ur: "مصری سابق پیشہ ور اسکواش کھلاڑی، 1992 میں قاہرہ میں پیدا ہوئے۔ چار مرتبہ عالمی چیمپئن (2018–19، 2020–21، 2021–22 اور 2022–23) اور سابق عالمی نمبر 1؛ مئی 2025 میں 46 پی ایس اے خطابات کے ساتھ ریٹائر ہوئے۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1992-04-22"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 22 April 1992 in Cairo (the English and Arabic articles and Wikidata agree). The English article gives his full name as Ali Amr Farag; the Arabic article's birth-name field gives علي عمر فرج, the same name with the middle element romanized Omar rather than Amr. The Hijri year 1412 is the tabular conversion of 22 April 1992 and is marked derived."
+  sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikipedia-ali-farag-ur, source/wikidata-ali-farag]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikidata-ali-farag] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for him, and Wikidata records no religion (P140) statement. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikipedia-ali-farag-ur, source/wikidata-ali-farag]
+external_ids: { wikidata: "Q16234549" }
+sources: [source/wikipedia-ali-farag-en, source/wikipedia-ali-farag-ar, source/wikipedia-ali-farag-ur, source/wikidata-ali-farag]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380028672), Arabic Wikipedia (revision 73440986), Urdu Wikipedia (revision 7740287) and Wikidata Q16234549 (item revision 2516302016, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub; his wife Nour El Tayeb has no record yet, so the marriage is carried in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-154A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

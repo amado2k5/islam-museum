@@ -1,24 +1,51 @@
 id: person/aq-shams-al-din
 class: person
-label: { ar: "آق شمس الدين" }
+label: { ar: "آق شمس الدين", en: "Akşemseddin", ur: "آق شمس الدین" }
 names:
-  - { kind: full, lang: ar, value: "محمد بن حمزة الدمشقي الرومي" }
+  - { value: "محمد شمس الدين بن حمزة", kind: full }
+  - { value: "Şemseddin Muhammed b. Hamza", kind: full }
+  - { value: "آق شمس الدين", kind: laqab }
+  - { value: "Akşemseddin", kind: laqab }
 gender: male
-roles: [scholar, spiritual]
-born: { edtf: "1389", hijri: "0792", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "مواليد دمشق." }
-died: { edtf: "1459~", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 summary:
-  ar: "الشيخ آق شمس الدين محمد بن حمزة الدمشقي الرومي (٧٩٢هـ/١٣٨٩م–١٤٥٩م)؛ ارتحل مع والده إلى بلاد الروم وطلب فنون العلوم وتبحر فيها حتى صار علماً من أعلام الحضارة الإسلامية في عهدها العثماني، ويتصل نسبه بالخليفة الراشد أبي بكر. حفظ القرآن وهو في السابعة ودرس في أماسيا ثم حلب ثم أنقرة. كان معلم محمد الفاتح ومربيه فدرّسه القرآن والسنة والفقه والعربية والفارسية والتركية والرياضيات والفلك والتاريخ وفنون الحرب، وأشرف عليه وهو أمير على مغنيسا يتدرب على إدارة الولاية، وأقنع الأمير الصغير بأنه المقصود بالحديث النبوي: لتفتحن القسطنطينية. وعند الحصار اجتمع الأمراء والوزراء بالسلطان يقولون إنه دفع بهذا القدر الكبير من العساكر جرياً وراء كلام أحد المشايخ حتى هلكت الجنود وأتى عون من بلاد الأفرنج ولم يعد هناك أمل، فأرسل السلطان وزيره ولي الدين أحمد باشا إلى خيمة الشيخ فأجاب: لابد من أن يمنّ الله بالفتح، ثم كتب رسالته: إن حادث تلك السفن قد أحدث في القلوب التكسير والملامة، وإن القضية الثابتة أن العبد يدبّر والله يقدّر والحكم لله، فأحدث الخطاب راحة وطمأنينة وقرر مجلس الحرب الاستمرار. وأراد السلطان شيخه بجانبه أثناء الهجوم فمنع حراس الخيمة رسوله، وذهب الفاتح بنفسه فمنعوه فشقّ بخنجره جدار الخيمة فإذا شيخه ساجد لله في سجدة طويلة وعمامته متدحرجة وشعره الأبيض يتدلى على الأرض والدموع تنحدر على خديه. وقال الفاتح حين فُتحت المدينة: ليس فرحي لفتح المدينة إنما فرحي بوجود مثل هذا الرجل {cite:dawlat-uthmaniyya-salabi p. 113-114}."
-  en: "Aq Shams al-Din (1389–1459) — Mehmed II's tutor and 'spiritual conqueror of Constantinople': a Damascene who memorised the Qur'an at seven, studied across Amasya, Aleppo and Ankara, convinced the young prince he was the man of the hadith, and — when the war council despaired mid-siege — answered with the letter that held the army together: 'the servant plans and God decrees' {cite:dawlat-uthmaniyya-salabi p. 113-114}."
+  ar: "آق شمس الدين (792هـ/1389م–1459م)، واسمه محمد شمس الدين بن حمزة، عالم ومتصوّف وطبيب عثماني وُلد في دمشق؛ تلميذ حاجي بيرام ولي وخليفته ومؤسّس الفرع الشمسي من الطريقة البيرامية، ومعلّم السلطان محمد الفاتح ومرافقه في فتح القسطنطينية، وصاحب مؤلفات في التصوف والطب منها «مادة الحياة»."
+  en: "Akşemseddin (792/1389–1459), born Şemseddin Muhammed b. Hamza at Damascus, was an Ottoman scholar, Sufi and physician: the disciple and khalifa of Haci Bayram Veli and founder of the Shamsiyya branch of the Bayramiyya, tutor and adviser to Sultan Mehmed II at the conquest of Constantinople, and author of works on Sufism and medicine, among them the Maddat al-Hayat."
+  ur: "آق شمس الدین (792ھ/1389ء–1459ء)، اصل نام محمد شمس الدین بن حمزہ، دمشق میں پیدا ہونے والے عثمانی عالم، صوفی اور طبیب تھے: حاجی بیرام ولی کے مرید و خلیفہ اور بیرامیہ کی شاخِ شمسیہ کے بانی، فتحِ قسطنطنیہ میں سلطان محمد فاتح کے استاد و مشیر، اور تصوف و طب پر کتب کے مصنف، جن میں «مادۃ الحیاۃ» شامل ہے۔"
+roles: [scholar, mystic, poet, physician]
 wings: [people]
-periods: [period/mongol-post-mongol]
-regions: [anatolia-balkans]
-external_ids:
-  wikidata: Q353068
-sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+born:
+  edtf: "1389"
+  hijri: "0792"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "At Damascus. The Hijri year 792 is given by every source read; the English, Turkish, Arabic and Urdu Wikipedia articles pair it with 1389, while the TDV encyclopedia pairs it with 1390 — the pairing is the only point of variance."
+  sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-en, source/wikipedia-aq-shams-al-din-tr, source/wikidata-aq-shams-al-din]
+died:
+  edtf: "1459-02-16"
+  hijri: "0863"
+  calendar: julian
+  precision: day
+  status: historical
+  derived: false
+  note: "At Göynük (in modern Bolu province), where his tomb still stands; no place entity exists for Göynük, so no died_in or buried_in edge is written. The TDV encyclopedia gives the end of Rabi II 863 (February 1459), noting that his tomb inscription carries the same date; the day, 16 February, follows the Wikipedia articles and Wikidata."
+  sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-en, source/wikipedia-aq-shams-al-din-tr, source/wikidata-aq-shams-al-din]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-en, source/wikipedia-aq-shams-al-din-tr, source/wikidata-aq-shams-al-din] }
+  - { type: student_of, target: person/haci-bayram-veli, sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-tr, source/wikipedia-aq-shams-al-din-ur, source/wikipedia-aq-shams-al-din-en] }
+  - { type: member_of, target: group/bayramiyya, sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-en] }
+  - { type: lived_in, target: place/istanbul, sources: [source/tdv-aksemseddin] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "His Sufi discipleship is documented for the man himself by independent scholarly families. The TDV Islam Ansiklopedisi entry (Koprulu and Uzun), read in full, records his intisab to Haci Bayram Veli, the strict riyazet he underwent in his cell at Ankara, his receipt of the khilafa from his sheikh, his succession to the irshad post after his sheikh's death in 833/1429-30, and that the Shamsiyya branch of the Bayramiyya was his foundation. The Urdu Wikipedia article, citing the Urdu Encyclopaedia of Islam (vol. 1, p. 87), dates his bay'a to Haci Bayram to 830/1427 and the conferral of the khirqa of khilafa a few days later. The English Wikipedia article states independently that he completed his work with his master Haci Bayram Veli before founding the Shamsiyya-Bayramiyya order. His legal school is named by no source read — the articles call him a Sunni scholar at branch level only and Wikidata gives Islam in general (Q432) — so no madhhab is recorded: tariqa is not madhhab."
+    sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-ur, source/wikipedia-aq-shams-al-din-en]
+external_ids: { wikidata: "Q353068" }
+sources: [source/tdv-aksemseddin, source/wikipedia-aq-shams-al-din-en, source/wikipedia-aq-shams-al-din-tr, source/wikipedia-aq-shams-al-din-ar, source/wikipedia-aq-shams-al-din-ur, source/wikidata-aq-shams-al-din]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 113-114"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-salabi-uthmani-batch-6
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "Full record replacing the wikidata-import draft stub at the same slug (the wave-142 al-Hiba precedent, applied again at wave 152 for Nevi). Built from the TDV Islam Ansiklopedisi entry AKŞEMSEDDİN by Koprulu and Uzun (vol. 2, Istanbul 1989, pp. 299-302), read in full, the English, Turkish, Arabic and Urdu Wikipedia articles at the revisions recorded in their source entities, and Wikidata item Q353068, all read live on 1 November 2026. Kissling's Encyclopaedia of Islam entry (EI2 I, 312-313), named in the replaced stub's source list on main, was not carried over because its text could not be retrieved in this session (the archive.org copy is loan-restricted) and unread sources are not cited."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-153G
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

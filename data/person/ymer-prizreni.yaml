@@ -31,10 +31,25 @@ roles: [scholar, teacher, politician]
 regions: [anatolia-balkans]
 wings: [people]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "FLAGGED for a founder ruling. The Albanian biography's lead attests for the man himself that he was a member of the Naqshbandi tariqa ('anëtar i tarikatit Nakshbendi'), and the Polish biography's alias list styles him Sheh (sheikh) — but that is one encyclopedia attestation of an order membership, uncorroborated in the English biography, in Elsie as cited there, or in the structured data (Wikidata gives only Islam), so under the two-source rule the reading is preserved here unclassified. His müderris family, his own madrasa teaching and his mufti service are office, education and family background, which never count."
-    sources: [source/wikipedia-ymer-prizreni-sq, source/wikipedia-ymer-prizreni-en, source/wikidata-ymer-prizreni]
+  - value: sufi
+    basis: documented
+    note: >-
+      FLAGGED for a founder ruling. The Albanian biography's lead attests
+      for the man himself that he was a member of the Naqshbandi tariqa
+      ('anëtar i tarikatit Nakshbendi'), and the Polish biography's alias
+      list styles him Sheh (sheikh) — but that is one encyclopedia
+      attestation of an order membership, uncorroborated in the English
+      biography, in Elsie as cited there, or in the structured data
+      (Wikidata gives only Islam), so under the two-source rule the reading
+      is preserved here unclassified. His müderris family, his own madrasa
+      teaching and his mufti service are office, education and family
+      background, which never count. Settled sufi/documented by the
+      founder's ruling of 1 November 2026 (rulings packet #3, 2c: a single
+      scholarly family suffices for historical profiles).
+    sources:
+      - source/wikipedia-ymer-prizreni-sq
+      - source/wikipedia-ymer-prizreni-en
+      - source/wikidata-ymer-prizreni
 relations: []
 summary:
   ar: "عالم ألباني عثماني من زغاتار، عمل مدرّساً وخوجة، وترأّس رابطة بريزرن منذ عام 1879 وقاد حكومتها المؤقتة المستقلة عام 1881، ومات في أولسيني عام 1887."

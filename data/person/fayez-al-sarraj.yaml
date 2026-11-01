@@ -23,10 +23,19 @@ born:
   note: "The English article gives 20 February 1960, citing Jeune Afrique, and its infobox gives Tripoli as birthplace; the Arabic article agrees on the date and place, Wikidata agrees on the date, and the Urdu stub gives the year only. Tripoli in Libya has no place entity (place/tripoli-al-sham is Tripoli in Lebanon, a different city), so no born_in edge is written. The Hijri year (1379) is derived from the Gregorian date."
   sources: [source/wikipedia-fayez-al-sarraj-en, source/wikipedia-fayez-al-sarraj-ar, source/wikipedia-fayez-al-sarraj-ur, source/wikidata-fayez-al-sarraj]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No article text names a religion or a school for him, and no infobox has a religion field. Wikidata gives Islam (generic) alone. His family's Kouloughli descent and his father's ministry under the Libyan monarchy are family background, which never attests affiliation. No school is recorded."
-    sources: [source/wikidata-fayez-al-sarraj, source/wikipedia-fayez-al-sarraj-en]
+  - value: sunni
+    basis: documented
+    note: >-
+      No article text names a religion or a school for him, and no infobox
+      has a religion field. Wikidata gives Islam (generic) alone. His
+      family's Kouloughli descent and his father's ministry under the Libyan
+      monarchy are family background, which never attests affiliation. No
+      school is recorded. Settled sunni/documented by the founder's ruling
+      of 1 November 2026 (rulings packet #3, 2b: branch-only attestations
+      record the bare branch value, which the enum now carries).
+    sources:
+      - source/wikidata-fayez-al-sarraj
+      - source/wikipedia-fayez-al-sarraj-en
 external_ids: { wikidata: "Q21089561" }
 sources: [source/wikipedia-fayez-al-sarraj-en, source/wikipedia-fayez-al-sarraj-ar, source/wikipedia-fayez-al-sarraj-ur, source/wikidata-fayez-al-sarraj]
 provenance:

@@ -759,7 +759,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Noura Erakat — 1980–Living
 - [x] Mohammed El-Kurd — 1998–Living
 - [x] Muna El-Kurd — 1998–Living
-- [~] Ismail al-Jazairi (Contemporary Figure) — 1950–Living
 - [x] Mustapha Cherif — 1950–Living
 - [x] Souleymane Bachir Diagne — 1955–Living
 - [x] Ebrahim Moosa — 1957–Living
@@ -811,26 +810,26 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Reema Juffali — 1992–Living
 - [x] Raha Moharrak — 1986–Living
 - [x] Samira Asghari — 1994–Living
-- [ ] Tahmina Kohistani — 1989–Living
-- [ ] Manizha Talash — 2002–Living
-- [ ] Kimia Alizadeh — 1998–Living
-- [ ] Elnaz Rekabi — 1989–Living
-- [ ] Sarra Besbes — 1989–Living
-- [ ] Inès Boubakri — 1988–Living
-- [ ] Habiba Ghribi — 1984–Living
-- [ ] Oussama Mellouli — 1984–Living
-- [ ] Ahmed Hafnaoui — 2002–Living
-- [ ] Farida Osman — 1995–Living
-- [ ] Hedaya Malak — 1993–Living
-- [ ] Feryal Abdelaziz — 1999–Living
-- [ ] Giana Farouk — 1994–Living
-- [ ] Karam Gaber — 1979–Living
-- [ ] Mohamed ElShorbagy — 1991–Living
-- [ ] Ali Farag — 1992–Living
-- [ ] Ramy Ashour — 1987–Living
-- [ ] Amr Shabana — 1979–Living
-- [ ] Ahmed Barada — 1977–Living
-- [ ] Raneem El Welily — 1989–Living
+- [x] Tahmina Kohistani — 1989–Living
+- [x] Manizha Talash — 2002–Living
+- [x] Kimia Alizadeh — 1998–Living
+- [x] Elnaz Rekabi — 1989–Living
+- [x] Sarra Besbes — 1989–Living
+- [x] Inès Boubakri — 1988–Living
+- [x] Habiba Ghribi — 1984–Living
+- [x] Oussama Mellouli — 1984–Living
+- [x] Ahmed Hafnaoui — 2002–Living
+- [x] Farida Osman — 1995–Living
+- [x] Hedaya Malak — 1993–Living
+- [x] Feryal Abdelaziz — 1999–Living
+- [x] Giana Farouk — 1994–Living
+- [x] Karam Gaber — 1979–Living
+- [x] Mohamed ElShorbagy — 1991–Living
+- [x] Ali Farag — 1992–Living
+- [x] Ramy Ashour — 1987–Living
+- [x] Amr Shabana — 1979–Living
+- [x] Ahmed Barada — 1977–Living
+- [x] Raneem El Welily — 1989–Living
 - [ ] Nur El Tayeb — 1993–Living
 - [ ] Hania El Hammamy — 2000–Living
 - [ ] Mostafa Asal — 2001–Living
@@ -1356,7 +1355,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Begum Ra'ana Liaquat Ali Khan (1905–1990)
 - [x] Jahanara Shahnawaz (1896–1979)
 - [x] Shaista Suhrawardy Ikramullah (1915–2000)
-- [ ] Salima Ahmed (1921–2018)
 - [x] Chaudhry Khaliquzzaman (1889–1973)
 - [x] Sardar Abdur Rab Nishtar (1899–1958)
 - [x] Malik Firoz Khan Noon (1893–1970)
@@ -1383,14 +1381,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Justice Muhammad Munir (1895–1979)
 - [x] Sir Shah Sulaiman (1891–1941)
 - [x] Dr. Ziauddin Ahmad (1878–1947)
-- [ ] Salim Ali (Forebears) (1880–1930)
 - [x] Hakim Abdul Hameed (1908–1999)
-- [ ] Hafiz Muhammad Said (1880–1940)
 - [x] Hakim Nabina (1860–1920)
 - [x] Hakim Ghulam Nabi (1870–1930)
-- [ ] Mian Karim Bakhsh (1850–1910)
 - [x] Sir Fateh Ali Khan Qizilbash (1862–1923)
-- [ ] Sir Zulfiqar Ali Khan (1875–1933)
 - [x] Sir Umar Hayat Khan Tiwana (1874–1944)
 - [x] Khizar Hayat Tiwana (1900–1975)
 - [x] Sikandar Hayat Khan (1892–1942)
@@ -1455,7 +1449,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sabit Damulla Kabil (1883–1934)
 - [x] Isa Yusuf Alptekin (1901–1995)
 - [x] Mahmud Muhiti (1895–1945)
-- [ ] Abdurehim Nizar (1870–1935)
 - [x] Sadir Palwan (1798–1871)
 - [x] Shoqan Walikhanov (1835–1865)
 - [x] Abai Qunanbaiuly (1845–1904)
@@ -1470,9 +1463,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hamza Hakimzade Niyazi (1889–1929)
 - [x] Sadriddin Ayni (1878–1954)
 - [x] Abdullah Qodiriy (1894–1938)
-- [ ] Choqan La'all (Preservers) (1860–1920)
 - [x] Mohammed Alim Khan (1880–1944)
-- [ ] Islom Karimov (Ancestors) (1890–1930)
 - [x] Togolok Moldo (1860–1942)
 - [x] Toktogul Satylganov (1864–1933)
 - [x] Kurmanjan Datka (1811–1907)
@@ -1490,15 +1481,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Ali-Haji al-Gochobi (1847–1922)
 - [x] Said Gabiev (1882–1963)
 - [x] Ullubay Buynaksky (1890–1919)
-- [ ] Sultan-Said Zhilyaev (1885–1930)
 - [x] Seferbiy Zaneqo (1789–1860)
-- [ ] Keriçli Mustafa (Crimea) (1850–1910)
 - [x] Noman Çelebicihan (1885–1918)
 - [x] Cafer Seydamet Kırımer (1889–1960)
 - [x] Hasan Sabri Ayvazov (1878–1938)
 - [x] Bekir Çoban-zade (1893–1937)
 - [ ] Ismail Gasprinsky's Family (1880–1940)
-- [ ] Aslan-Girei Datiev (1880–1935)
 - [x] Ahmed-bek Tsalikov (1882–1928)
 - [x] Ayaz Ishaki (1878–1954)
 - [x] Abdullah Tukay (1886–1913)
@@ -1555,7 +1543,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sir Haji Abdullah Haroon (1872–1942)
 - [x] Lady Nusrat Abdullah Haroon (1886–1966)
 - [x] Ghulam Hussain Hidayatullah (1879–1948)
-- [~] Seth Karoor Mal (Muslim Partners) (1860–1920)
 - [x] Mian Ali Mohammad Rashdi (1905–1987)
 - [x] Pir Ali Muhammad Rashidi (1905–1987)
 - [x] Pir Illahi Bux (1897–1975)
@@ -1567,14 +1554,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nawab Nowroz Khan (1874–1964)
 - [x] Yusuf Aziz Magsi (1908–1935)
 - [ ] Abdul Samad Khan Achakzai (1907–1973)
-- [~] Mirwaiz Moulvi Farooq (Ancestors) (1880–1930)
 - [x] Mirwaiz Yusuf Shah (1894–1968)
 - [x] Choudhary Ghulam Abbas (1904–1967)
 - [x] Prem Nath Bazaz (Muslim Associates) (1905–1940)
 - [x] Syed Mir Kasim (1919–2004)
 - [x] Begum Akbar Jehan Abdullah (1907–2000)
 - [x] Mian Nizamuddin Kianwi (1830–1913)
-- [~] Sheikh Hamza Makhdoom (Keepers) (1820–1900)
 - [x] Master Zinda Kaul (Muslim Circle) (1880–1950)
 - [x] Ghulam Ahmad Mahjoor (1887–1952)
 - [x] Abdul Ahad Azad (1903–1948)
@@ -1582,26 +1567,19 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mahmud Gami (1765–1855)
 - [x] Maqbool Shah Kralwari (1820–1875)
 - [x] Samad Mir (1893–1959)
-- [~] Agha Shahid Ali (Ancestry) (1890–1940)
-- [~] Sheikh Noor-ud-Din Wali Shrine Trustees (1820–1920)
 - [x] Saifuddin Kitchlew (1888–1963)
 - [x] Justice Din Muhammad (1886–1952)
 - [x] Mian Abdul Rashid (1889–1981)
 - [x] Khalifa Shuja-ud-Din (1887–1955)
 - [x] Allama Abdullah Yusuf Ali (1872–1953)
-- [~] Pickthall's Muslim Colleagues (1910–1935)
 - [x] Abdullah Quilliam (1856–1932)
 - [x] Lord Headley (Rowland Allanson-Winn) (1855–1935)
 - [x] Muhammad Marmaduke Pickthall (1875–1936)
 - [x] Khalid Sheldrake (1888–1947)
 - [x] Sir Archibald Hamilton (1876–1939)
 - [x] Lady Evelyn Cobbold (1867–1963)
-- [~] Tariq Benouri (1860–1925)
-- [~] Adda Benshitrit (1870–1935)
 - [x] Sheikh Si Kaddour Benghabrit (1868–1954)
-- [~] Hamza Boubakeur (Ancestors) (1890–1940)
 - [x] Mahmud Brelvi (1905–1985)
-- [~] Ahmed Peshtani (1850–1915)
 - [x] Haxhi Zeka (1832–1902)
 - [x] Ymer Prizreni (1820–1887)
 - [x] Avni Rustemi (1895–1924)
@@ -1617,13 +1595,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Osman Nuri Hadžić (1869–1937)
 - [x] Mehmed Spaho (1883–1939)
 - [x] Fehim Spaho (1877–1942)
-- [~] Mustafa Mujezinović (1890–1945)
 - [x] Muse Ćazim Ćatić (1878–1915)
 - [x] Avdo Karabegović (1878–1908)
 - [x] Nafija Sarajlić (1893–1970)
 - [x] Osman Đikić (1879–1912)
 - [x] Ali-beg Firdus (1862–1910)
-- [~] Mustaj-beg Kapetanović (1860–1915)
 - [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
 - [x] Ibrahim-beg Bašagić (1840–1902)
 - [x] Hamdija Kreševljaković (1888–1959)
@@ -1649,7 +1625,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mogannam Mogannam (Muslim Allies) (1895–1945)
 - [x] Sheikh Suleiman al-Taji al-Faruqi (1882–1958)
 - [x] As'ad Qaddura (1880–1959)
-- [~] Sheikh Muhammad al-Sa'id (1870–1930)
 - [x] Haj Amin al-Husseini (1897–1974)
 - [x] Jamal al-Husayni (1893–1982)
 - [x] Fawzi al-Mulki (1910–1962)
@@ -1665,15 +1640,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Muhammad al-Tahir ben Achour (1879–1973)
 - [x] Mohamed Abdelaziz Bouattour (1825–1907)
 - [x] M'hammed Chenik (1889–1976)
-- [~] Ali Ben Ayed (1828–1890)
 - [x] Cheikh Mohamed Ennakhli (1869–1924)
 - [x] Mohamed Lasram (1858–1925)
 - [x] Salem Bouhageb (1827–1924)
 - [x] Hassan Hosni Abdel-Wahab (1884–1968)
-- [~] Cheikh El Bechir Ben Mrad (1889–1977)
 - [x] Bchira Ben Mrad (1913–1993)
 - [x] Tawhida Ben Cheikh (1909–2010)
-- [~] Mohamed Douthe (1860–1920)
 - [x] Allal al-Fassi (1910–1974)
 - [x] Ahmed Balafrej (1908–1990)
 - [x] Mohamed Hassan Ouazzani (1910–1978)
@@ -1695,7 +1667,6 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Çandarlı Ali Pasha (1340–1406)
 - [x] Ubayd Zakani (1310–1370)
 - [x] Kamal Khujandi (1321–1401)
-- [~] Jalal al-Din Masud (1300–1360) — FLAG: the CSV's description is too vague to identify confidently; identification attempt at build time, else log as unidentifiable.
 - [x] Sultan Mahmud Shah Tughlaq (1388–1413)
 - [x] Taj al-Din Firuz Shah Bahmani (1370–1422)
 - [x] Makhdoom-i-Jahanian Jahangasir (1308–1384) — the CSV garbles the name; the historical figure is Makhdum-i Jahaniyan Jahangasht of Uch.
@@ -1732,30 +1703,30 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Iskandar Muda — 1583–1636
 - [x] Sultan Trenggana of Demak — 1483–1546
 - [x] Maulana Yusuf of Banten — 1526–1570
-- [ ] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
-- [ ] Sultan Alauddin of Gowa — 1587–1639
-- [ ] Muhammad Shaybani — 1451–1510
-- [ ] Ubaydullah Khan of Bukhara — 1487–1539
-- [ ] Abdullah Khan II — 1533–1598
-- [ ] Mulla Shah Badakhshi — 1584–1661
-- [ ] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time
-- [ ] Sunan Bonang — 1465–1525
-- [ ] Sunan Giri — 1442–1506
-- [ ] Sunan Muria — 1500–1560
-- [ ] Sunan Drajat — 1470–1522
-- [ ] Yahya Bey Dukaginzade — 1498–1582
-- [ ] Nev'î — 1533–1599
-- [ ] Sadeqi Beg — 1533–1610
-- [ ] Mir Imad Hasani — 1554–1615
-- [ ] Leo Africanus (Al-Hassan al-Wazzan) — 1494–1554
+- [x] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
+- [x] Sultan Alauddin of Gowa — 1587–1639
+- [x] Muhammad Shaybani — 1451–1510
+- [x] Ubaydullah Khan of Bukhara — 1487–1539
+- [x] Abdullah Khan II — 1533–1598
+- [x] Mulla Shah Badakhshi — 1584–1661
+- [~] Ala al-Dawla Simnani's successors — collective/lineage row (1500–1570); resolve subject at build time — STOPPED (wave 151 §G, 2026-11-01): the row's dates fit no successor of Simnani (d. 1336); his named student Mir Sayyid Ali Hamadani already has two records on main (duplicates lane), his actual khalifa Mahmud Muzdaqani is not individually sourceable, and Ashraf Jahangir Semnani is not a successor — founder decision pending
+- [x] Sunan Bonang — 1465–1525
+- [x] Sunan Giri — 1442–1506
+- [x] Sunan Muria — 1500–1560
+- [x] Sunan Drajat — 1470–1522
+- [x] Yahya Bey Dukaginzade — 1498–1582
+- [x] Nev'î — 1533–1599
+- [x] Sadeqi Beg — 1533–1610
+- [x] Mir Imad Hasani — 1554–1615
+- [x] Leo Africanus (Al-Hassan al-Wazzan) — 1494–1554
 - EXCLUDED (pending Ahmad's direction; the rows themselves identify Hindu courtiers of Akbar, cf. the Hasdai precedent): Raja Todar Mal — 1500–1589; Tansen (Ramtanu Pandey) — 1506–1589; Birbal (Mahesh Das) — 1528–1586
 
 ## H. 1426–1525 additions (20)
 
-- [ ] Kamal al-Din Behzad — 1450–1535
-- [ ] Khondamir — 1475–1535
-- [ ] Ulubatlı Hasan — 1428–1453
-- [ ] Akşemseddin — 1389–1459
+- [x] Kamal al-Din Behzad — 1450–1535
+- [x] Khondamir — 1475–1535
+- [x] Ulubatlı Hasan — 1428–1453
+- [x] Akşemseddin — 1389–1459
 - [ ] Molla Hüsrev — 1400–1480
 - [ ] Necati — 1450–1509
 - [ ] Şeyhi — 1376–1431

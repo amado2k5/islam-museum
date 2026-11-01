@@ -87,3 +87,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يروي الشيخ أن عبد الملك بن مروان مرّ في دمشق فسمع ضوضاء، فقيل له إن ميتًا يُغسَّل، فأراد أن يحضر غسله، ويرى الشيخ أن تغسيل الأموات وتكفينهم موعظة بليغة: يُقلَّب بين يدي المغسّل من كانت تُفتح له الأبواب والتشريفات (needs_source: الخبر كما رواه الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:05:00} ويضيف أن المولود يولد قابضًا يديه كأنه يمسك الدنيا، وأن أهل الميت يفتحون يديه، فلا بد أن يسلّم ما لديه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:06:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن عبد الملك بن مروان وقف أمام المرآة وهو أمير المؤمنين في السابعة والعشرين فقال: أنا الملك الشاب، فقالت له جاريته: نعم الملك لو يدوم، لو دام لمن قبلك ما وصل إليك ولن يدوم لك فسوف يصل إلى من بعدك (needs_source: السن كما ذكره الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:07:00}

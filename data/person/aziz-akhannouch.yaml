@@ -22,10 +22,20 @@ born:
   note: "The English article (citing Jeune Afrique and the Moroccan government site) and the Arabic article (citing the government biography page) give 16 August 1961; Wikidata agrees. The Urdu stub gives 31 December 1961, cited to TelQuel, which is not followed. The English infobox gives the birthplace as Tafraout; the English text specifies the village of Aguerd Oudad near Tafraout. Neither Tafraout nor Aguerd Oudad has a place entity, so no born_in edge is written. The Hijri year (1381) is derived from the Gregorian date."
   sources: [source/wikipedia-aziz-akhannouch-en, source/wikipedia-aziz-akhannouch-ar, source/wikipedia-aziz-akhannouch-ur, source/wikidata-aziz-akhannouch]
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No article text names a religion or a school for him, and no infobox has a religion field. Wikidata gives Islam (generic) alone; the Urdu article's categories file him under Moroccan Muslims. A generic structured value plus a category filing is one attestation short of any school reading, and no school is named anywhere."
-    sources: [source/wikidata-aziz-akhannouch, source/wikipedia-aziz-akhannouch-ur]
+  - value: sunni
+    basis: documented
+    note: >-
+      No article text names a religion or a school for him, and no infobox
+      has a religion field. Wikidata gives Islam (generic) alone; the Urdu
+      article's categories file him under Moroccan Muslims. A generic
+      structured value plus a category filing is one attestation short of
+      any school reading, and no school is named anywhere. Settled
+      sunni/documented by the founder's ruling of 1 November 2026 (rulings
+      packet #3, 2b: branch-only attestations record the bare branch value,
+      which the enum now carries).
+    sources:
+      - source/wikidata-aziz-akhannouch
+      - source/wikipedia-aziz-akhannouch-ur
 external_ids: { wikidata: "Q1638114" }
 sources: [source/wikipedia-aziz-akhannouch-en, source/wikipedia-aziz-akhannouch-ar, source/wikipedia-aziz-akhannouch-ur, source/wikidata-aziz-akhannouch]
 provenance:

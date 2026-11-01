@@ -34,10 +34,27 @@ died:
 relations:
   - { type: died_in, target: place/tarsus, sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "FLAGGED — Christian-evidence configuration (ii): one personal text attestation. The English article's lead calls him personally a 'Sidon-born Maronite merchant', and its early-life section says he was born into a Maronite family, citing Moosa (1972). The Arabic article names no religion for him, but records his own act: pressed by the objections of conservatives and men of religion, he turned his theatre into a church shortly before his death. One independent text naming his affiliation personally, together with family framing and a religious act, is below the two-attestation bar at which christian/documented has been recorded in this lane (Yacoub Artin; Khalil Sakakini), so the value stays unknown and both readings are preserved here for the founder's ruling on the configuration."
-    sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar]
+  - value: christian
+    basis: documented
+    note: >-
+      FLAGGED — Christian-evidence configuration (ii): one personal text
+      attestation. The English article's lead calls him personally a 'Sidon-
+      born Maronite merchant', and its early-life section says he was born
+      into a Maronite family, citing Moosa (1972). The Arabic article names
+      no religion for him, but records his own act: pressed by the
+      objections of conservatives and men of religion, he turned his theatre
+      into a church shortly before his death. One independent text naming
+      his affiliation personally, together with family framing and a
+      religious act, is below the two-attestation bar at which
+      christian/documented has been recorded in this lane (Yacoub Artin;
+      Khalil Sakakini), so the value stays unknown and both readings are
+      preserved here for the founder's ruling on the configuration. Settled
+      christian/documented by the founder's ruling of 1 November 2026
+      (rulings packet #3, 2c: a single scholarly family suffices for
+      historical profiles).
+    sources:
+      - source/wikipedia-marun-al-naqqash-en
+      - source/wikipedia-marun-al-naqqash-ar
 sources: [source/wikipedia-marun-al-naqqash-en, source/wikipedia-marun-al-naqqash-ar]
 provenance:
   layer: own-research

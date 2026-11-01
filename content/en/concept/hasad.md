@@ -37,3 +37,6 @@ The Sheikh holds, as his own opinion, that many people spend their lives seeking
 
 ## From Omar Abdelkafy's programme al-Munjiyat
 Omar Abdelkafy says that the envier is not content with God's apportioning, that envy brings two calamities on the one who harbours it, and cites the verses 'Say to the one who spends the night envying me'. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:20:30}
+
+## From the series Qissa wa 'Ibar
+In the seventh episode, at Qarun's people wishing for the like of what he had, Omar Abdelkafy distinguishes envy from ghibta: to wish you had the like of someone's wealth, knowledge or character is ghibta, which a believer may feel; to wish the blessing would leave him and come to you, or simply leave him, is envy. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep07 00:08:00} He quotes verses saying that the envier has been ill-mannered with God by not accepting what He gave, and says that the envious never lead, and grow more distressed whenever another's blessing grows. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep07 00:08:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep07 00:08:30}

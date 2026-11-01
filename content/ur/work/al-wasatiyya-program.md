@@ -36,3 +36,23 @@ translators: []
 
 ## پہلی قسط کا اختتام، بطور مثال
 اسلاموفوبیا کی قسط کے اختتام پر میزبان نے کہا کہ مغرب ایک اکائی نہیں، اس کے بہت سے مفکر اسلام کے ساتھ انصاف کرتے ہیں، مغرب میں مسلم مفکرین، علما اور برادریوں پر خاص ذمہ داری ہے، اور حکومتوں پر بنیادی ذمہ داری ہے کیونکہ ان کے پاس وہ وسائل ہیں جو کسی اور کے پاس نہیں۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:19:00} انہوں نے اس تصویر کو سامنے لانے کی دعوت دی جسے وہ اسلام اور اکثر مسلمانوں کی اصل تصویر سمجھتے ہیں، دہشت گردی کو رد کرنے کی، اور مسلمانوں کے صرف تنقید کے بجائے عملی طور پر فعال ہونے کی، اور اسے اس مسئلے میں وسطیت کہا۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:19:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 01:20:00}
+- قسط 20: شریعہ کالجوں کے فارغ التحصیل، حال کے چیلنجوں اور علمی کمزوری کے درمیان — [[concept/khariju-kulliyyat-al-sharia|شریعہ کالجوں کے فارغ التحصیل]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep20}
+- قسط 21: نئے داعی، تجدید اور بدعت کے درمیان (ریکارڈنگ تقریباً سات منٹ بعد کٹ جاتی ہے) — [[concept/al-duat-al-judud|نئے داعی]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep21}
+- قسط 22: عورت اور سیاسی عمل میں اس کا کردار — [[concept/al-mara-wal-amal-al-siyasi|عورت اور سیاسی عمل]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep22}
+- قسط 23: تہذیبوں کا مکالمہ، حقیقت یا سراب — [[concept/hiwar-al-hadarat|تہذیبوں کا مکالمہ]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep23}
+- قسط 24: طبِ نبوی یا متبادل طب — [[concept/al-tibb-al-nabawi-wal-badil|طبِ نبوی اور متبادل طب]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep24}
+- قسط 25: فتویٰ، آزادی اور اجارہ داری کے درمیان — [[concept/al-fatwa-hurriyya-am-ihtikar|فتویٰ: آزادی اور اجارہ داری]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep25}
+- قسط 26: آرکائیو میں قسط 9 (ولاء اور براء) کی دوسری نقل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep26}
+- قسط 27: عرب دنیا میں دینی نصاب کی تبدیلی (ریکارڈنگ تقریباً 54ویں منٹ پر کٹ جاتی ہے) — [[concept/taghyir-manahij-al-din|دینی نصاب کی تبدیلی]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27}
+- قسط 28: تصوف، روحانیت یا انحراف — [[concept/tasawwuf|تصوف]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep28}
+- قسط 29: حجاب، عبادت یا رواج — [[concept/hijab|حجاب]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep29}
+- قسط 30: جن اور جادو کا اثر، انکار اور اثبات کے درمیان (پہلا حصہ؛ دوسرا حصہ آرکائیو میں نہیں) — [[concept/tathir-al-jinn-wal-sihr|جن اور جادو کا اثر]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep30}
+- قسط 31: عرب بصری میڈیا میں دیندار، ظالم یا مظلوم — [[concept/surat-al-mutadayyin-fi-al-ilam|میڈیا میں دیندار کی تصویر]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31}
+- قسط 32: قوامیت، تسلط یا ذمہ داری — [[concept/al-qiwama|قوامیت]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep32}
+- قسط 33: قرآن و سنت میں سائنسی اعجاز، حقیقت یا مبالغہ — [[concept/al-ijaz-al-ilmi|سائنسی اعجاز]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep33}
+- قسط 34 اور 35: اسلامی اور روایتی بینک، فرق، شبہات اور کارکردگی — [[concept/al-bunuk-al-islamiyya|اسلامی بینک]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep34} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep35}
+- قسط 36: خوابوں کی تعبیر، رؤیا کی تعبیر یا اوہام کی فروخت — [[concept/tafsir-al-ahlam-al-yawm|آج کل خوابوں کی تعبیر]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep36}
+- قسط 37: فن، پابندی اور آزادی کے درمیان — [[concept/al-fann-bayn-al-iltizam-wal-taharrur|فن، پابندی اور آزادی کے درمیان]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep37}
+- قسط 38: تعلیم، مغربیت اور تشخص کی حفاظت کے درمیان — [[concept/al-talim-bayna-al-taghrib-wal-huwiyya|تعلیم، مغربیت اور تشخص]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep38}
+- قسط 39: اسلامی تاریخ، مثالیت اور حقیقت پسندی کے درمیان — [[concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya|اسلامی تاریخ: مثالیت اور حقیقت پسندی]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep39}
+- قسط 40: سازشی نظریہ، حقیقت یا خیال (آرکائیو کی آخری قسط) — [[concept/nazariyyat-al-muamara|سازشی نظریہ]] {cite:assabile-tareq-al-suwaidan al-wassitiya/ep40}

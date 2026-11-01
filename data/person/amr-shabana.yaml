@@ -1,0 +1,39 @@
+id: person/amr-shabana
+class: person
+label: { ar: "عمرو شبانة", en: "Amr Shabana", ur: "عمرو شبانہ" }
+names:
+  - { value: "Amr Shabana", kind: full }
+  - { value: "عمرو شبانة", kind: full }
+  - { value: "The Maestro", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب اسكواش مصري محترف سابق، وُلد في القاهرة سنة 1979. فاز ببطولة العالم المفتوحة أربع مرات (2003 و2005 و2007 و2009)، وهو أول مصري يفوز باللقب وأول مصري يتصدر التصنيف العالمي في أبريل 2006، واعتزل في أغسطس 2015."
+  en: "Egyptian former professional squash player, born in Cairo in 1979. He won the World Open four times (2003, 2005, 2007 and 2009) — the first Egyptian to win the title and, in April 2006, the first Egyptian to reach world No. 1 — and retired in August 2015."
+  ur: "مصری سابق پیشہ ور اسکواش کھلاڑی، 1979 میں قاہرہ میں پیدا ہوئے۔ انہوں نے ورلڈ اوپن چار مرتبہ (2003، 2005، 2007 اور 2009) جیتا — یہ خطاب جیتنے والے اور اپریل 2006 میں عالمی نمبر 1 بننے والے پہلے مصری — اور اگست 2015 میں ریٹائر ہوئے۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1979-07-20"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 20 July 1979 in Cairo (the English and Arabic articles and Wikidata agree). The Hijri year 1399 is the tabular conversion of 20 July 1979 and is marked derived."
+  sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikipedia-amr-shabana-ur, source/wikidata-amr-shabana]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikidata-amr-shabana] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for him, and Wikidata records no religion (P140) statement. The Arabic article's person infobox carries a religion field, but it is blank, and the English article's only 'Islam' string is the place name Islamabad in a medal table — neither is an attestation. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikipedia-amr-shabana-ur, source/wikidata-amr-shabana]
+external_ids: { wikidata: "Q477498" }
+sources: [source/wikipedia-amr-shabana-en, source/wikipedia-amr-shabana-ar, source/wikipedia-amr-shabana-ur, source/wikidata-amr-shabana]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1366175155), Arabic Wikipedia (revision 76918764), Urdu Wikipedia (revision 12104742) and Wikidata Q477498 (item revision 2517938153, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property; existence checked by name fragments and by QID across data/person/ — the only 'Shabana' records are Shabana Azmi and Shabana Mahmood, different people; no prior record and no draft stub for the squash player."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-154A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
