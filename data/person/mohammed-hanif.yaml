@@ -1,0 +1,60 @@
+id: person/mohammed-hanif
+class: person
+
+label: { ar: "محمد حنيف", en: "Mohammed Hanif", ur: "محمد حنیف" }
+
+names:
+  - { value: "Mohammed Hanif", kind: full }
+  - { value: "محمد حنيف", kind: full }
+
+gender: male
+
+summary:
+  ar: "محمد حنيف (وُلد سنة 1964) كاتب وصحفي باكستاني بريطاني، وُلد في أوكارا بالبنجاب. تدرّب ضابط طيار في أكاديمية القوات الجوية الباكستانية ثم اتجه إلى الصحافة، فعمل في «نيوزلاين» وترأّس خدمة الأردية في هيئة الإذاعة البريطانية في لندن قبل أن يعود إلى باكستان سنة 2008. روايته الأولى «قضية المانجو المتفجر» (2008)، وهي هجائية لعهد ضياء الحق، نالت جائزة كتّاب الكومنولث لأفضل كتاب أول، وتبعتها «سيدتنا آليس بهاتي» (2011) و«طيور حمراء» (2018)، ويكتب مقال رأي شهري في «نيويورك تايمز»."
+  en: "Mohammed Hanif (born 1964) is a British-Pakistani writer and journalist, born in Okara, Punjab. He trained as a Pakistan Air Force pilot officer before turning to journalism, worked for Newsline and headed the BBC's Urdu service in London, then returned to Pakistan in 2008. His first novel, A Case of Exploding Mangoes (2008), a satire of the Zia-ul-Haq era, won the Commonwealth Writers' Prize for best first book; Our Lady of Alice Bhatti (2011) and Red Birds (2018) followed, and he writes a monthly opinion column for The New York Times."
+  ur: "محمد حنیف (پیدائش 1964) برطانوی پاکستانی مصنف اور صحافی ہیں، جو پنجاب کے شہر اوکاڑہ میں پیدا ہوئے۔ پاک فضائیہ اکیڈمی سے پائلٹ آفیسر کی تربیت کے بعد صحافت اختیار کی، «نیوز لائن» میں کام کیا اور لندن میں بی بی سی کی اردو سروس کے سربراہ رہے، پھر 2008 میں پاکستان لوٹ آئے۔ ان کا پہلا ناول «A Case of Exploding Mangoes» (2008)، جو ضیاء الحق کے دور پر طنز ہے، دولت مشترکہ مصنفین کا بہترین پہلی کتاب کا انعام جیتا؛ پھر «Our Lady of Alice Bhatti» (2011) اور «Red Birds» (2018) آئے، اور وہ «نیو یارک ٹائمز» میں ماہانہ ادارتی مضمون لکھتے ہیں۔"
+
+roles: [writer]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1964-11"
+  hijri: "1384"
+  calendar: gregorian
+  precision: month
+  status: debated
+  derived: true
+  note: "Born in Okara in November 1964; the English and Arabic articles both give November 1964, while Wikidata's statement, referenced to the German National Library (GND) authority file, gives 1965 at year precision — the century queue's 1965 follows Wikidata alone. The date is built as November 1964 with status debated and the 1965 reading preserved. The Hijri year 1384 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-mohammed-hanif-en, source/wikipedia-mohammed-hanif-ar, source/wikidata-mohammed-hanif]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      In his 2017 New York Times column Hanif recalls his childhood Quran
+      lessons and writes of "we mainstream Muslims" — a generic
+      self-identification with Islam that names no school or order and,
+      under the founder's rulings of 1 November 2026, settles no value in the
+      faith enum. No source read names a school or order for him, his
+      satirical fiction is not an attestation, and Wikidata carries no
+      religion statement for him. His faith is recorded as unknown, with his
+      self-description preserved here.
+    sources: [source/new-york-times-hanif-intolerant-2017, source/wikipedia-mohammed-hanif-en, source/wikidata-mohammed-hanif]
+
+external_ids: { wikidata: "Q528778" }
+
+sources:
+  - source/wikipedia-mohammed-hanif-en
+  - source/wikipedia-mohammed-hanif-ar
+  - source/wikidata-mohammed-hanif
+  - source/new-york-times-hanif-intolerant-2017
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mohammed Hanif' (revision 1380697045 of 17 October 2026), Arabic Wikipedia article 'محمد حنيف (كاتب)' (revision 73775360 of 7 March 2026) and Wikidata Q528778 (item revision 2558174169 of 18 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property; his New York Times column of 20 October 2017 read the same day in its South Asia Citizens Web republication. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. QUEUE CORRECTION: the queue's 1965 is Wikidata's GND-referenced year only; both Wikipedia articles give November 1964, built as debated. No place entity exists for Okara, Karachi or London, so no place edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-161a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

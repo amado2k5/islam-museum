@@ -1,0 +1,58 @@
+id: person/uzma-aslam-khan
+class: person
+
+label: { ar: "عظمى أسلم خان", en: "Uzma Aslam Khan", ur: "عظمی اسلم خان" }
+
+names:
+  - { value: "Uzma Aslam Khan", kind: full }
+  - { value: "عظمی اسلم خان", kind: full }
+
+gender: female
+
+summary:
+  ar: "عظمى أسلم خان (وُلدت سنة 1969) روائية باكستانية، وُلدت في لاهور ونشأت في معظمها في كراتشي، وقضت سنوات طفولتها الأولى في مانيلا وطوكيو ولندن. درست في كليتي هوبارت وويليام سميث وفي جامعة أريزونا، ولها خمس روايات، من «قصة العفن النبيل» (2001) و«التعدي» (2003) إلى «التاريخ الحقيقي المعجز لنومي علي» (2019)؛ ونالت روايتها «أرقّ من الجلد» (2012) جائزة مهرجان كراتشي الأدبي وسفارة فرنسا للرواية."
+  en: "Uzma Aslam Khan (born 1969) is a Pakistani novelist, born in Lahore and raised largely in Karachi, with her earliest years spent in Manila, Tokyo and London. Educated at Hobart and William Smith Colleges and the University of Arizona, she is the author of five novels, from The Story of Noble Rot (2001) and Trespassing (2003) to The Miraculous True History of Nomi Ali (2019); Thinner Than Skin (2012) won the KLF–Embassy of France Fiction Prize."
+  ur: "عظمی اسلم خان (پیدائش 1969) پاکستانی ناول نگار ہیں، جو لاہور میں پیدا ہوئیں اور زیادہ تر کراچی میں پلی بڑھیں، جبکہ بچپن کے ابتدائی سال منیلا، ٹوکیو اور لندن میں گزرے۔ ہوبارٹ اینڈ ولیم سمتھ کالجز اور یونیورسٹی آف ایریزونا سے تعلیم پائی؛ ان کے پانچ ناول ہیں، «The Story of Noble Rot» (2001) اور «Trespassing» (2003) سے لے کر «The Miraculous True History of Nomi Ali» (2019) تک؛ «Thinner Than Skin» (2012) نے کے ایل ایف–فرانسیسی سفارت خانہ فکشن انعام جیتا۔"
+
+roles: [writer]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+
+born:
+  edtf: "1969-02-19"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 19 February 1969; the English article gives no birth date, and the date is taken from Wikidata's statement at the recorded revision, which is referenced to the German National Library (GND) authority file. The century queue's year 1969 agrees. The Hijri year 1388 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikidata-uzma-aslam-khan]
+
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-uzma-aslam-khan-en, source/wikipedia-uzma-aslam-khan-ur, source/wikidata-uzma-aslam-khan] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a school, order or affiliation for her, and
+      Wikidata carries no religion statement for her. Her novels' engagements
+      with Islam, history and Pakistani society are her subject matter as a
+      novelist, not an attestation of her own faith, and under the founder's
+      rulings of 1 November 2026 settle nothing. Her faith is recorded as
+      unknown.
+    sources: [source/wikipedia-uzma-aslam-khan-en, source/wikidata-uzma-aslam-khan]
+
+external_ids: { wikidata: "Q3552818" }
+
+sources:
+  - source/wikipedia-uzma-aslam-khan-en
+  - source/wikipedia-uzma-aslam-khan-ur
+  - source/wikidata-uzma-aslam-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Uzma Aslam Khan' (revision 1371706733 of 28 August 2026), Urdu Wikipedia article 'عظمی اسلم خان' (revision 7738971 of 13 April 2025) and Wikidata Q3552818 (item revision 2561042604 of 26 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property; the item's birth statement was inspected directly and is referenced to the German National Library (GND) authority file. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's year 1969 is confirmed by the Wikidata statement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-161a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

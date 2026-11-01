@@ -45,8 +45,8 @@ sensitivity: contested
 sources: [source/wikipedia-zaghloul-el-naggar-ar, source/wikipedia-zaghloul-el-naggar-en, source/wikidata-zaghloul-el-naggar, source/assabile-zaghloul-el-naggar]
 provenance:
   layer: own-research
-  source: "Arabic Wikipedia «زغلول النجار» (revision 76928391), English Wikipedia 'Zaghloul El-Naggar' (revision 1368789036), Wikidata Q6572895 (revision 2554154968), all read 1 November 2026; the Assabile archive pages of his two series and the transcripts of wa-yatafakkarun (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
+  source: "Arabic Wikipedia «زغلول النجار» (revision 76928391), English Wikipedia 'Zaghloul El-Naggar' (revision 1368789036), Wikidata Q6572895 (revision 2554154968), all read 1 November 2026; the Assabile archive pages of his two series and the transcripts of wa-yatafakkarun and el-hadara-el-nabaouia (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
   generated_by: "Claude Code (claude-opus-5-5)"
   model: claude-opus-5-5
-  run: assabile-egypt-naggar-1
+  run: "assabile-egypt-naggar-1; assabile-egypt-naggar-2"
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-naggar-1" }

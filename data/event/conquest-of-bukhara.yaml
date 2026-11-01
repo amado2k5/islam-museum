@@ -5,10 +5,12 @@ label: { ar: "فتح بخارى", en: "Conquest of Bukhara" }
 summary:
   ar: "ذكر الطبري في سنة تسعين فتح قتيبة بخارى وهزم جموع العدو بها {cite:tabari-tarikh-abu-al-fadl j.6 p.442}، وفي السنة نفسها خبر فتح الطالقان {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
   en: "Tabari records that in the year 90 Qutayba conquered Bukhara and routed the enemy hosts there {cite:tabari-tarikh-abu-al-fadl j.6 p.442}; in the same year comes the report of the conquest of Taliqan {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
+relations:
+  - { type: occurred_at, target: place/bukhara, sources: [source/tabari-tarikh-abu-al-fadl] }
 wings: [time]
 date:
-  start: { hijri: "0090", precision: year, status: historical, note: "فهرس الجزء السادس ص631", sources: [source/tabari-tarikh-abu-al-fadl] }
+  start: { edtf: "0708", hijri: "0090", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 90هـ تبدأ في 20 نوفمبر 708 يولياني وتنتهي في 8 نوفمبر 709؛ التحويل جدولي مشتق. فهرس الجزء السادس ص631.", sources: [source/tabari-tarikh-abu-al-fadl] }
 external_ids: { wikidata: "Q133809034" }
 sources: [source/tabari-tarikh-abu-al-fadl]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
+provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
