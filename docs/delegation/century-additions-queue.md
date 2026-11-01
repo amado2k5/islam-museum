@@ -930,11 +930,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Saad Sherida Al-Kaabi — 1967–Living
 - [x] Akbar Al Baker — 1962–Living
 - [x] Sheikh Ahmed bin Saeed Al Maktoum — 1958–Living
-- [ ] Tim Clark (Contemporary Aviation Leader) — 1949–Living
-- [ ] Ghaith Al Ghaith — 1963–Living
-- [ ] Adel Al Ali — 1960–Living
-- [ ] Tony Fernandes — 1964–Living
-- [ ] Syed Mokhtar AlBukhary — 1951–Living
+- [x] Tim Clark (Contemporary Aviation Leader) — 1949–Living
+- [x] Ghaith Al Ghaith — 1963–Living
+- [x] Adel Al Ali — 1960–Living
+- [x] Tony Fernandes — 1964–Living
+- [x] Syed Mokhtar AlBukhary — 1951–Living
 - [ ] Vincent Tan (Contemporary) — 1952–Living
 - [ ] Robert Kuok (Contemporary) — 1923–Living
 - [ ] Ananda Krishnan (Contemporary) — 1938–Living
@@ -1837,10 +1837,10 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Sayyid Nezam al-Din Ahmad — 1610–1675
 - [x] Kâtip Çelebi (Hacı Halife) — 1609–1657
 - [x] Nâbî — 1642–1712
-- [ ] Nef'î — 1589–1635
-- [ ] Neşâtî — 1600–1674
-- [ ] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
-- [ ] Mustafa Nâbî — 1642–1712 (identical years to Nâbî above — probable CSV duplicate of one person; verify at build, build once if so)
+- [x] Nef'î — 1589–1635
+- [x] Neşâtî — 1600–1674
+- [x] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
+- [x] Mustafa Nâbî — 1642–1712 (identical years to Nâbî above — probable CSV duplicate of one person; verify at build, build once if so)
 - [ ] Şeyhülislam Yahya Efendi — 1553–1644
 - [ ] Abdurrahman Hibri Efendi — 1604–1659
 - [ ] Müneccimbaşı Ahmed Dede — 1631–1702
