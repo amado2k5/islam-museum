@@ -811,11 +811,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Reema Juffali — 1992–Living
 - [x] Raha Moharrak — 1986–Living
 - [x] Samira Asghari — 1994–Living
-- [ ] Tahmina Kohistani — 1989–Living
-- [ ] Manizha Talash — 2002–Living
-- [ ] Kimia Alizadeh — 1998–Living
-- [ ] Elnaz Rekabi — 1989–Living
-- [ ] Sarra Besbes — 1989–Living
+- [x] Tahmina Kohistani — 1989–Living
+- [x] Manizha Talash — 2002–Living
+- [x] Kimia Alizadeh — 1998–Living
+- [x] Elnaz Rekabi — 1989–Living
+- [x] Sarra Besbes — 1989–Living
 - [ ] Inès Boubakri — 1988–Living
 - [ ] Habiba Ghribi — 1984–Living
 - [ ] Oussama Mellouli — 1984–Living

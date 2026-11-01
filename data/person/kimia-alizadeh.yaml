@@ -1,0 +1,37 @@
+id: person/kimia-alizadeh
+class: person
+label: { ar: "كيميا علي زاده", en: "Kimia Alizadeh", ur: "کیمیا علیزادہ" }
+names:
+  - { value: "Kimia Alizadeh Zonouzi", kind: full }
+  - { value: "Kimia Alizadeh", kind: full }
+  - { value: "کیمیا علیزاده زنوزی", kind: full }
+gender: female
+summary:
+  ar: "لاعبة تايكوندو بلغارية مولودة في إيران، وُلدت في كرج سنة 1998. جعلتها برونزيتها في ريو 2016 أول إيرانية تفوز بميدالية في أولمبياد صيفي. غادرت إيران في يناير 2020، ونافست مع فريق اللاجئين الأولمبي في طوكيو 2020، وحصلت على الجنسية البلغارية سنة 2024 وفازت ببرونزية لبلغاريا في باريس 2024."
+  en: "Iranian-born Bulgarian taekwondo athlete, born in Karaj in 1998. Her bronze medal at Rio 2016 made her the first Iranian woman to win a Summer Olympic medal. She left Iran in January 2020, competed for the Refugee Olympic Team at Tokyo 2020, took Bulgarian citizenship in 2024 and won bronze for Bulgaria at Paris 2024."
+  ur: "ایرانی نژاد بلغاریہ کی تائیکوانڈو کھلاڑی، 1998 میں کرج میں پیدا ہوئیں۔ ریو 2016 میں ان کے کانسی کے تمغے نے انہیں سمر اولمپکس میں تمغہ جیتنے والی پہلی ایرانی خاتون بنایا۔ وہ جنوری 2020 میں ایران سے چلی گئیں، ٹوکیو 2020 میں مہاجر اولمپک ٹیم کی طرف سے کھیلیں، 2024 میں بلغاریہ کی شہریت حاصل کی اور پیرس 2024 میں بلغاریہ کے لیے کانسی کا تمغہ جیتا۔"
+roles: [taekwondo athlete]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1998-07-10"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 10 July 1998 in Karaj (English article; Wikidata). The modern city of Karaj has no place entity in the graph (place/al-karaj is the medieval Jibal city of the same name), so the birthplace is recorded in prose only. The Hijri year 1419 is the tabular conversion of 10 July 1998 and is marked derived."
+  sources: [source/wikipedia-kimia-alizadeh-en, source/wikipedia-kimia-alizadeh-ar, source/wikipedia-kimia-alizadeh-fa, source/wikidata-kimia-alizadeh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic, Persian or Urdu articles names a religion for her, and Wikidata records no religion (P140) statement. Her January 2020 statement criticised Iran's rulers and the treatment of women; the article records it as a political statement about the regime, and it is not a statement of her own belief or unbelief, so it is not used as one. Her family's Azerbaijani origin is background, not faith evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-kimia-alizadeh-en, source/wikipedia-kimia-alizadeh-ar, source/wikipedia-kimia-alizadeh-fa, source/wikipedia-kimia-alizadeh-ur, source/wikidata-kimia-alizadeh]
+external_ids: { wikidata: "Q19949645" }
+sources: [source/wikipedia-kimia-alizadeh-en, source/wikipedia-kimia-alizadeh-ar, source/wikipedia-kimia-alizadeh-fa, source/wikipedia-kimia-alizadeh-ur, source/wikidata-kimia-alizadeh]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1372151188), Arabic Wikipedia (revision 76169426), Persian Wikipedia (revision 44861335), Urdu Wikipedia (revision 12121659) and Wikidata Q19949645 (item revision 2531035919, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; existence checked against origin/main (no prior record); no place entity for the modern city of Karaj in the current-main clone."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-151a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
