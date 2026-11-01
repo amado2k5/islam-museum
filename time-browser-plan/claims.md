@@ -149,3 +149,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | place/zanzibar | cursor | claimed
 2026-11-01 | place/medina | devin | claimed
 2026-11-01 | place/zanzibar | cursor | done — 6 nodes (capital move 1830s, Majid's accession 1856, his death 1870, protectorate 1890, revolution 1964, Karume's assassination 1972); reused existing person records and sources; new event records only
+
+2026-11-01 | place/tunis | cursor | claimed
