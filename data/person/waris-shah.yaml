@@ -1,0 +1,72 @@
+id: person/waris-shah
+class: person
+
+label: { ar: "وارث شاه", en: "Waris Shah", ur: "وارث شاہ" }
+
+names:
+  - { value: "Syed Mohammad Waris Shah", kind: full }
+  - { value: "سید محمد وارث شاہ", kind: full }
+  - { value: "Waris", kind: pen }
+
+gender: male
+
+summary:
+  ar: "وارث شاه (1722 – 1798) شاعر بنجابي صوفي، صاحب أشهر صياغة لقصة الحب الشعبية «هير رانجها» (1766). وُلد في جنديالا شير خان في أسرة سادة، وتعلّم في قصور على غلام مرتضى، ثم أقام في ملكا هانس قرب باكبتن في حجرة بجوار مسجدها حتى وفاته، وقبره في مسقط رأسه. جمع في «هير» بين الحكاية الشعبية والتجربة الصوفية فصارت أشهر قصص البنجاب، وما زالت أبياته أمثالاً جارية."
+  en: "Waris Shah (1722–1798) was a Punjabi Sufi poet, author of the best-known rendition of the folk romance Heer Ranjha (1766). Born at Jandiala Sher Khan into a Sayyid family, he was educated at Kasur under Ghulam Murtaza, then lived at Malka Hans beside Pakpattan in a cell adjoining its mosque until his death; his tomb stands in his birthplace. His Heer joined the folk tale to Sufi experience and became Punjab's most famous romance, its verses still current as proverbs."
+  ur: "وارث شاہ (1722ء – 1798ء) پنجابی صوفی شاعر تھے، مشہور زمانہ قصہ ”ہیر رانجھا“ (1766ء) کے خالق۔ جنڈیالہ شیر خان میں سادات گھرانے میں پیدا ہوئے، قصور میں غلام مرتضیٰ سے تعلیم پائی، پھر پاکپتن کے قریب ملکہ ہانس میں مسجد سے ملحق حجرے میں زندگی گزاری؛ مزار ان کے آبائی قصبے میں ہے۔ ان کی ”ہیر“ نے لوک داستان کو صوفیانہ تجربے سے جوڑ کر پنجاب کی مشہور ترین داستان بنا دیا اور اس کے اشعار آج بھی ضرب المثل ہیں۔"
+
+roles: [poet]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1722"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article's lead and infobox and Wikidata give 1722 (Wikidata at day precision, 23 January, which no article text supports and which is not built); the Punjabi article states that his exact birth date is unknown, lists scholarly estimates from 1704 to 1738, and records that many scholars hold to 1722 and that a stone inscription at his shrine gives 1722. The Urdu article instead gives 5 Rabi al-thani 1130 AH, which it pairs with 1718 CE, the minority reading preserved here; his age at death as the Urdu article gives it, 76 in 1798, fits 1722. Jandiala Sher Khan has no museum place record yet, so no born_in edge is written. A contested bare year, no Hijri year is recorded."
+  sources: [source/wikipedia-waris-shah-en, source/wikipedia-waris-shah-ur, source/wikipedia-waris-shah-pa, source/wikidata-waris-shah]
+
+died:
+  edtf: "1798-06-24"
+  hijri: "1213"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Urdu article gives his death on 24 June 1798, aged 76, and his tomb at Jandiala Sher Khan, and Wikidata agrees at day precision; the English article's lead gives 1798 while its infobox gives 1799, and the Urdu article warns that neither year is certain and preserves Afzal Haq's tradition, in Ma'shuqa-e-Punjab, of 10 Muharram 1220 AH. The English article's body says he resided at Malka Hans until his death while his tomb stands in his birthplace; neither place has a museum record yet, so no place edge is written. The Hijri year is derived by tabular conversion of the built date."
+  sources: [source/wikipedia-waris-shah-en, source/wikipedia-waris-shah-ur, source/wikidata-waris-shah]
+
+relations:
+  - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-waris-shah-en, source/wikipedia-waris-shah-ur] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: >-
+      His place in a Sufi order is attested for the man himself in
+      two independent publications. The English article's lead names
+      him a Punjabi Muslim Sufi poet of the Chishti order; the Urdu
+      article records the tradition that, where Bulleh Shah took
+      bay'a from Shah Inayat Qadiri, Waris Shah took bay'a in the
+      line of Khwaja Fariduddin Ganjshakar, the Chishti line of
+      Pakpattan, beside which he afterwards lived at Malka Hans. His
+      Sayyid descent is family background and was not counted. His
+      edge to the Chishtiyya stands in his record.
+    sources: [source/wikipedia-waris-shah-en, source/wikipedia-waris-shah-ur]
+
+external_ids: { wikidata: "Q3631344" }
+
+sources:
+  - source/wikipedia-waris-shah-en
+  - source/wikipedia-waris-shah-ur
+  - source/wikipedia-waris-shah-pa
+  - source/wikipedia-waris-shah-ar
+  - source/wikidata-waris-shah
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378456796 of 4 October 2026), Urdu Wikipedia (revision 11274917 of 26 June 2026), Punjabi Wikipedia (revision 810620 of 13 June 2025), Arabic Wikipedia (revision 75609476 of 20 June 2026) and Wikidata Q3631344 (item revision 2554759169), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (all four articles agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub; waris-ali-shah in the worktree is a different man, the saint of Dewa Sharif. His Kasur teacher Ghulam Murtaza has no museum record, so no student_of edge is written; the member_of edge to the Chishtiyya is written here, in his own record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-163j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
