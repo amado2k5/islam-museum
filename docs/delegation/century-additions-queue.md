@@ -875,11 +875,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ali Velshi — 1969–Living
 - [x] Fareed Zakaria — 1964–Living
 - [x] Reham Khan — 1973–Living
-- [ ] Mishal Husain — 1973–Living
-- [ ] Faisal Islam — 1977–Living
-- [ ] Samira Ahmed — 1968–Living
-- [ ] Rageh Omaar — 1967–Living
-- [ ] Asad Ahmad — 1969–Living
+- [x] Mishal Husain — 1973–Living
+- [x] Faisal Islam — 1977–Living
+- [x] Samira Ahmed — 1968–Living
+- [x] Rageh Omaar — 1967–Living
+- [x] Asad Ahmad — 1969–Living
 - [ ] Adnan Nawaz — 1968–Living
 - [ ] Shazia Mirza — 1972–Living
 - [ ] Nabil Abdulrashid — 1985–Living

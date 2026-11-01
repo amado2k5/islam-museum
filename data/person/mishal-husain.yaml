@@ -1,0 +1,64 @@
+id: person/mishal-husain
+class: person
+
+label: { ar: "مشال حسين", en: "Mishal Husain", ur: "مشال حسین" }
+
+names:
+  - { value: "Mishal Husain", kind: full }
+  - { value: "مشال حسين", kind: full }
+
+gender: female
+
+summary:
+  ar: "صحفية ومذيعة بريطانية، وُلدت في نورثامبتون سنة 1973 لأبوين باكستانيين. عملت مراسلة في واشنطن لبي بي سي وقدّمت برنامج «توداي» على إذاعة بي بي سي 4 من 2013 إلى 2024، ثم انتقلت إلى بلومبرغ نيوز، وألّفت كتاب «المهارات» (2018) ومذكرات عائلية بعنوان «خيوط ممزقة» (2024)."
+  en: "British journalist and broadcaster, born in Northampton in 1973 to Pakistani parents. She was the BBC's Washington correspondent, presented Radio 4's Today programme from 2013 to 2024 before moving to Bloomberg News, and wrote The Skills (2018) and the family memoir Broken Threads (2024)."
+  ur: "برطانوی صحافی اور نشریاتی پیش کار، جو 1973 میں نارتھیمپٹن میں پاکستانی والدین کے ہاں پیدا ہوئیں۔ بی بی سی کی واشنگٹن نمائندہ رہیں، 2013 سے 2024 تک ریڈیو 4 کے پروگرام «ٹوڈے» کی پیش کار رہیں، پھر بلومبرگ نیوز سے وابستہ ہوئیں؛ «دی اسکلز» (2018) اور خاندانی یادداشت «بروکن تھریڈز» (2024) کی مصنف ہیں۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1973-03-12"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Northampton, England. The English article and Wikidata give 12 March 1973; the Urdu article gives 11 February 1973, citing the same BBC profile and 2009 Times piece that the English article cites, so the day and month are split between the two readings and the block is marked debated. Both readings fall in the Hijri year 1393, the tabular conversion of the built date, marked derived. No place entity for Northampton exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-mishal-husain-en, source/wikipedia-mishal-husain-ur, source/wikidata-mishal-husain]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      She is described in both the English and Urdu articles as the
+      first Muslim presenter of BBC Radio 4's Today programme, and
+      in a 2014 Radio Times interview she spoke in her own voice as
+      a Muslim, urging Muslim scholars to take to social media to
+      refute the awful arguments of extremist videos. That is a
+      generic identification naming no school or order, and no
+      source read names one for her, so no value is recorded and
+      her words are preserved here. The mixed ancestry traced in
+      her memoir Broken Threads (2024), with Muslim, Catholic and
+      Hindu strands, is family background and was not used, and
+      Wikidata's structured religion value gives Islam only, which
+      settles nothing under the founder's rulings of
+      1 November 2026.
+    sources: [source/wikipedia-mishal-husain-en, source/wikipedia-mishal-husain-ur, source/wikidata-mishal-husain]
+
+external_ids: { wikidata: "Q6875490" }
+
+sources:
+  - source/wikipedia-mishal-husain-en
+  - source/wikipedia-mishal-husain-ur
+  - source/wikidata-mishal-husain
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mishal Husain' (revision 1380306291 of 15 October 2026), Urdu Wikipedia article «مشال حسین» (revision 12038625 of 26 September 2026) and Wikidata Q6875490 (item revision 2555351206 of 9 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ in the worktree and on origin/main — no prior record and no draft stub. The century queue's year 1973 is confirmed; the day and month split between the English (12 March) and Urdu (11 February) readings and are built as debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-164a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
