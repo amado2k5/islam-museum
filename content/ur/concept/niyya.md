@@ -23,3 +23,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 9)
 
 شیخ اہلِ علم کا ایک قول نقل کرتے ہیں کہ جو شخص گناہ سے دور ہو مگر دل میں اس کی تمنا کرے وہ ایسا ہے جیسے وہاں موجود تھا، اور جو گناہ کی جگہ پر ہو مگر دل سے اس کا انکار کرے وہ ایسا ہے جیسے وہاں موجود ہی نہ تھا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}۔ پھر وہ سورۃ النازعات کی آیات کی طرف لوٹتے ہیں اور کہتے ہیں کہ السابحات ([[passage/quran-79-3|النازعات 3]]) مومنوں کی روحوں کو لے کر تیزی سے چلتی ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی ہر عمل میں نیت کی تجدید کی ترغیب دیتے ہیں، تاکہ آدمی کا اپنے گھر والوں پر خرچ کرنا بھی عبادت ہو، اور یاد دلاتے ہیں کہ بہترین درہم وہ ہے جو آدمی اپنے اہل پر خرچ کرے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}

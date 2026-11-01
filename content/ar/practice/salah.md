@@ -57,3 +57,6 @@ translators: []
 ويرى أن الخطأ في القراءة أمر وارد لأن القرآن غالٍ وقد يخطئ أي إنسان في الفتحة أو في القصر، فلا يُشدَّد في ذلك، ويقول إن المأموم لا سجود سهو عليه بنفسه وإنما يتبع إمامه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:00}.
 
 ويقول إن الإمام ضامن والمؤذن مؤتمن، وإن الإمام يتحمل مسؤولية صلاة من خلفه، ويتبعه المأموم في سجود السهو ولو لم يسهُ هو (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي في درس فقهي شروط صحة الصلاة، ويمثّلها بشروط إقامة البناء، ويعدّ منها طهارة البدن والثوب والمكان، ويذكر أن صاحب العذر كمن به سلس البول يصلي وصلاته صحيحة، وأن بول الغلام الرضيع الذي لم يطعم يُنضح بالماء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:08:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:13:30}
