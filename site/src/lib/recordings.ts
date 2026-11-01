@@ -12,6 +12,7 @@ import recordingsKishk from "../data/recordings-abdul-hamid-kishk.json";
 import recordingsQaradawi from "../data/recordings-yusuf-al-qaradawi.json";
 import recordingsShaarawy from "../data/recordings-muhammad-metwally-al-shaarawy.json";
 import recordingsKahlawi from "../data/recordings-abla-al-kahlawi.json";
+import recordingsHeweny from "../data/recordings-abu-ishaq-alheweny.json";
 
 export interface RecordingRef {
   series: string;       // archive slug, e.g. aadau-al-islam
@@ -32,6 +33,7 @@ const SPEAKER_BY_SOURCE: Record<string, string> = {
   "source/assabile-yusuf-al-qaradawi": "yusuf-al-qaradawi",
   "source/assabile-muhammad-metwally-al-shaarawy": "muhammad-metwally-al-shaarawy",
   "source/assabile-abla-al-kahlawi": "abla-al-kahlawi",
+  "source/assabile-abu-ishaq-alheweny": "abu-ishaq-alheweny",
 };
 const LOCATOR = /^([a-z0-9-]+)\/ep(\d+)(?:\s+(\d{1,2}):(\d{2}):(\d{2}))?/;
 
@@ -46,6 +48,7 @@ const MAP_BY_SPEAKER: Record<string, Known> = {
   "yusuf-al-qaradawi": recordingsQaradawi as Known,
   "muhammad-metwally-al-shaarawy": recordingsShaarawy as Known,
   "abla-al-kahlawi": recordingsKahlawi as Known,
+  "abu-ishaq-alheweny": recordingsHeweny as Known,
 };
 
 export const seriesTitle = (slug: string) =>

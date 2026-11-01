@@ -1,0 +1,16 @@
+---
+id: person/julaybib
+lang: ur
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-1"]
+---
+## خلاصہ
+جلیبیب ایک صحابی تھے جن کا ذکر [[person/abu-ishaq-al-heweny|ابو اسحاق حوینی]] [[work/sayd-al-khatir|«صید الخاطر»]] کے خاطرہ «اولیا کے بارے میں» میں اس بات کی دلیل کے طور پر کرتے ہیں کہ ولی ہونے کے لیے ظاہری حسن شرط نہیں: انہیں یقین ہے کہ جلیبیب اللہ کے اولیا میں سے تھے، حالانکہ وہ خوش شکل نہ تھے۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:10:00} وہ کہتے ہیں کہ ان کے قتل کا قصہ صحیح مسلم میں ہے، کہ اس کا ابتدائی حصہ پورا مسند احمد میں مسلم کی سند سے ہے، اور کہ احمد کی روایت لمبی ہے جبکہ مسلم نے اس کا آخری حصہ لیا۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:15:00}
+
+## نکاح
+حوینی بیان کرتے ہیں کہ جلیبیب عورتوں سے مذاق کیا کرتے تھے، اور ایک صحابی نے اپنی بیوی سے کہا کہ انہیں اندر نہ آنے دے۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:30} پھر نبی نے ایک شخص سے اس کی بیٹی کا رشتہ مانگا، اور واضح کیا کہ وہ اسے جلیبیب کے لیے چاہتے ہیں؛ اس شخص نے معاملہ اس کی ماں پر چھوڑا، جس نے انکار کیا، کیونکہ وہ ان سے بلند مرتبہ رشتے ٹھکرا چکی تھی۔ بیٹی نے پردے کے پیچھے سے کہا: کیا تم رسول اللہ کا حکم رد کرو گے؟ مجھے ان کے حوالے کر دو، وہ مجھے ضائع نہیں ہونے دیں گے۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:10:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:11:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:12:00} حوینی اس کے جواب کو اس آیت سے جوڑتے ہیں کہ جب اللہ اور اس کا رسول کسی معاملے کا فیصلہ کر دیں تو کسی مومن مرد یا عورت کو اس میں اختیار نہیں رہتا، اور کہتے ہیں کہ کوئی نہیں جانتا کہ اس کے جوتے کے تسمے کے نیچے کیا بھلائی یا برائی چھپی ہے۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:12:30} وہ کہتے ہیں کہ ایک راوی نے ثابت بنانی سے پوچھا کہ نبی نے دلہن کے لیے کیا دعا کی، تو اسے ایک دعا بتائی گئی کہ اس پر بھلائی انڈیل دی جائے؛ وہ اس حصے کو مرسل کہتے ہیں، اور بتاتے ہیں کہ بعد میں وہ مدینہ کی سب سے زیادہ مطلوب بیواؤں میں سے ہوئیں۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:17:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:17:30}
+
+## ان کا قتل
+ان کے بیان میں ایک غزوے کے بعد نبی نے تین بار پوچھا کہ کیا کوئی کم ہے، پھر کہا کہ انہیں جلیبیب نظر نہیں آ رہے؛ لوگوں نے انہیں سات آدمیوں کے پہلو میں مقتول پایا جنہیں انہوں نے قتل کیا تھا۔ نبی ان کے پاس کھڑے ہوئے اور فرمایا کہ جلیبیب ان سے ہیں اور وہ جلیبیب سے، اور ان کے لیے نبی کے دو بازوؤں کے سوا کوئی چارپائی نہ تھی۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:15:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:30} اسی بنا پر حوینی کو یقین ہے کہ وہ اللہ کے اولیا میں سے تھے۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:30} (needs_source: حوینی اس غزوے کا نام نہیں لیتے جس میں جلیبیب قتل ہوئے، اور میوزیم کا صفحہ ابھی کسی آزاد ماخذ کا حوالہ نہیں دیتا۔)
+
+آرکائیو کی ساتویں قسط اسی درس کی ریکارڈنگ دہراتی ہے۔ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep07 00:02:00}
