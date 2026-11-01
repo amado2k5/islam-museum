@@ -1,20 +1,37 @@
 id: person/al-mutanabbi
 class: person
-label: { ar: "المتنبي", en: "al-Mutanabbi" }
+label: { ar: "المتنبي", en: "al-Mutanabbi", ur: "متنبی" }
 names:
   - { value: "أبو الطيب أحمد بن الحسين المتنبي", kind: full }
 gender: male
 summary:
   ar: "أعظم شعراء العربية ومدّاح الدهر؛ حل بمصر ضيفاً على الأستاذ كافور الإخشيدي وكان فاتك الرومي الإخشيدي يسمع بكرم فاتك وكثرة سخائه غير أنه لا يقدر على قصد خدمته خوفاً من كافور فالتقيا بالصحراء مصادفة من غير ميعاد فحمل له فاتك هدية قيمتها ألف دينار ثم أتبعها بهدايا فاستأذن المتنبي كافور في مدحه فأذن له فمدحه بقصيدته التي أولها لا حيل عندك تهديها ولا مال وفيها كفاتك ودخول الكاف منقصة كالشمس ولت وما للشمس أمثال، فلما توفي فاتك بمصر في شوال سنة خمس وخمسين وثلاث مئة رثاه بقصيدته التي أولها الحزن يقلق والتجمل يردع والدمع بينهما عصيّ طليع وهي من المراثي الفائقة وكان قد خرج من مصر بها {cite:shadharat-dhahab p. 14-15}."
-  en: "Arabic's greatest panegyrist; at Kafur's court in Egypt he met the Ikhshidid commander Fatik by chance in the desert — Fatik sent him a thousand-dinar gift, and al-Mutanabbi praised him in the ode 'no stratagem avails you...'; when Fatik died in 355 he mourned him with the towering elegy 'sorrow perturbs, patience dissuades' and left Egypt with it {cite:shadharat-dhahab p. 14-15}."
+  en: "Arabic's greatest panegyrist; at Kafur's court in Egypt he met the Ikhshidid commander Fatik by chance in the desert — Fatik sent him a thousand-dinar gift, and al-Mutanabbi praised him in the ode 'no stratagem avails you...'; when Fatik died in 355 he mourned him with the towering elegy 'sorrow perturbs, patience dissuades' and left Egypt with it {cite:shadharat-dhahab p. 14-15}. Born at Kufa in 303/915, he led a rising in the Samawa, was imprisoned at Hims, then served as official poet of Sayf al-Dawla at Aleppo for nine years, of Kafur in Egypt and of Adud al-Dawla at Shiraz before he was killed near Dayr al-Aqul in 354/965 {cite:encyclopaedia-of-islam-2 vol. 7 p. 769-771}."
+  ur: "عربی کا عظیم ترین مدحت گو شاعر؛ مصر میں کافور کی دربار میں اخشیدی سردار فاتک سے اتفاقاً صحرا میں ملا — فاتک نے ہزار دینار کا تحفہ بھیجا اور متنبی نے اس کی مدح میں قصیدہ کہا؛ جب فاتک 355ھ میں فوت ہوا تو متنبی نے بلند پایہ مرثیہ لکھا اور مصر سے رخصت ہوا {cite:shadharat-dhahab p. 14-15}۔ 303ھ/915ء میں کوفہ میں پیدا ہوا، سماوہ میں بغاوت کی، حمص میں قید رہا، پھر نو برس حلب میں سيف الدولہ کا، مصر میں کافور کا اور شیراز میں عضدالدولہ کا شاعر رہا، یہاں تک کہ 354ھ/965ء میں دیر عاقول کے قریب مارا گیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 769-771}۔"
 roles: [poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq, egypt-nile]
+born: { edtf: "0915~", hijri: "0303~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بمحلة كندة في الكوفة سنة ٣٠٣هـ/٩١٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 769}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "0965-09-27~", hijri: "0354-09-27", calendar: julian, precision: day, status: tradition, derived: true, note: "قُتل قرب دير العاقول في أواخر رمضان ٣٥٤هـ {cite:encyclopaedia-of-islam-2 vol. 7 p. 771}؛ وعند ابن الجوزي لثلاث بقين من رمضان وقيل شعبان قرب النعمانية {cite:muntazam-ibn-al-jawzi j.7 p.36-37}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: born_in, target: place/kufa, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-born-kufa-303, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-samawa-312, role: "الصبي المهاجر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-left-kufa-316, role: "الشاعر الطواف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-revolt-hims-322, role: "قائد الفتنة فالسجين", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-badr-damascus-328, role: "شاعر البلاط", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-aleppo-sayf-337, role: "الشاعر الرسمي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-flight-aleppo-346, role: "الهارب", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-kafur-egypt-347, role: "المدّاح المكره", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-flight-fustat-350, role: "الهارب الهجّاء", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-baghdad-lectures-353, role: "المُملي المدرّس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mutanabbi-shiraz-adud-354, role: "المدّاح الضيف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/killing-of-mutanabbi-354, role: "الشاعر المقتول", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-16
-sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
