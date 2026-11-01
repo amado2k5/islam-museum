@@ -1,12 +1,15 @@
 id: place/qalibli
 class: place
 kind: city
-label: { ar: "قليبلي", en: "Qalibli (Calabria)" }
+label: { ar: "قليبلي", en: "Qalibli (Gallipoli)" }
 summary:
   ar: "مدينة كبيرة قديمة عامرة، فيها مرسى حسن وعين ماء وآبار، ويذكر الإدريسي أن البحر يدخلها في اليوم مرتين. {cite:nuzhat-al-mushtaq-2002 p. 631}"
   en: "A large, ancient and populous city with a good harbour, a spring and wells; al-Idrisi says the sea enters it twice a day. {cite:nuzhat-al-mushtaq-2002 p. 631}"
 wings: [place]
 regions: [andalus-europe]
+coordinates: [40.0556, 17.9917]
+coordinate_precision: locality
+external_ids: { wikidata: "Q52143", geonames: "6541943" }
 provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 631 (scan page)", generated_by: "Claude (Haiku 5.5)" }
-sources: [source/nuzhat-al-mushtaq-2002]
+sources: [source/nuzhat-al-mushtaq-2002, source/wikidata, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
