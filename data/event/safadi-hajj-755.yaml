@@ -1,0 +1,27 @@
+id: event/safadi-hajj-755
+class: event
+kind: pilgrimage
+label:
+  ar: "حج الصفدي، ٧٥٥هـ"
+  en: "Al-Safadi's pilgrimage, 755/1354"
+  ur: "صفدی کا حج، 755ھ/1354ء"
+summary:
+  ar: "حج الصفدي سنة ٧٥٥هـ رفقة الشاعر محمد بن يوسف بن عبد الله الخياط، كما يفيد سماعه في «أعيان العصر»؛ ودار أحد كتبه «حقيقة المفاز إلى الحجاز» حول هذه الرحلة {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}."
+  en: "Al-Safadi made the pilgrimage in 755/1354 together with the poet Muhammad ibn Yusuf ibn Abd Allah al-Khayyat, as his own sama' note in A'yan al-'asr attests; one of his works, Hakikat al-mafaz ila al-Hijaz, appears to have centred on this journey {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}."
+  ur: "صفدی نے 755ھ/1354ء میں شاعر محمد بن یوسف بن عبداللہ خیاط کے ساتھ حج کیا، جیسا کہ «أعيان العصر» میں اس کے سماع کی یادداشت گواہ ہے؛ اس کی کتاب «حقيقة المفاز إلى الحجاز» اسی سفر پر مبنی معلوم ہوتی ہے {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1354", hijri: "0755", calendar: julian, precision: year, status: historical, derived: true, note: "حج سنة ٧٥٥هـ (أعيان العصر ج٣ ص ٢٤٢) {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-safadi, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

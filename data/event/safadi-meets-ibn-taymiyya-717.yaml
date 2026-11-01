@@ -1,0 +1,28 @@
+id: event/safadi-meets-ibn-taymiyya-717
+class: event
+kind: other
+label:
+  ar: "الصفدي بدمشق يلقى ابن تيمية، ٧١٧هـ"
+  en: "Al-Safadi at Damascus meets Ibn Taymiyya, 717/1317"
+  ur: "صفدی دمشق میں ابن تیمیہ سے ملاقات، 717ھ/1317ء"
+summary:
+  ar: "قدم الصفدي دمشق شاباً في العشرين من عمره ولقي فيها ابن تيمية سنة ٧١٧هـ أو ٧١٨هـ، وقد ظهر عليه حينئذ كثرة محصوله كما يفخر هو ويكرر ذكره في كتبه؛ وأخذ عن الشهاب محمود وابن سيد الناس وابن نباتة وأبي حيان، وسمع بدمشق من المزي وابن جماعة {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}."
+  en: "Al-Safadi came to Damascus as a young man of twenty and had his first meeting with Ibn Taymiyya in 717/1317 or 718/1318, displaying a store of knowledge he proudly and repeatedly recalls in his own works; he read with al-Shihab Mahmud, Ibn Sayyid al-Nas, Ibn Nubata and Abu Hayyan, and heard hadith at Damascus from al-Mizzi and Ibn Jama'a {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}."
+  ur: "صفدی بیس برس کی عمر میں دمشق آیا اور 717ھ/1317ء یا 718ھ/1318ء میں ابن تیمیہ سے پہلی ملاقات کی، جس موقع پر وہ اپنے علمی ذخیرے کا مظاہرہ کر کے فخر سے اپنی تصانیف میں بار بار یاد کرتا ہے؛ اس نے شہاب محمود، ابن سید الناس، ابن نباتہ اور ابو حیان سے پڑھا اور دمشق میں مزّی اور ابن جماعہ سے سمع کیا {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1317~", hijri: "0717", calendar: julian, precision: year, status: historical, derived: true, note: "لقاؤه الأول بابن تيمية سنة ٧١٧هـ أو ٧١٨هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-safadi, role: "الطالب", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المُلتقى به", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

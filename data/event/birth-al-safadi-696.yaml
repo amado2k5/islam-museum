@@ -1,0 +1,27 @@
+id: event/birth-al-safadi-696
+class: event
+kind: birth
+label:
+  ar: "ولادة الصفدي بصفد، ٦٩٦هـ"
+  en: "Al-Safadi is born at Safad, 696/1297"
+  ur: "صفدی کی ولادت صفد میں، 696ھ/1297ء"
+summary:
+  ar: "وُلد صلاح الدين خليل بن أيبك الصفدي بصفد، دار أهله، سنة ست وتسعين وستمائة تقريباً؛ وكان أبوه الأمير عز الدين أيبك تركي الأصل، ولم يُعنَ بتحصيل ابنه العلم حتى بلغ العشرين فطلبه بنفسه {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}."
+  en: "Salah al-Din Khalil ibn Aybak al-Safadi was born at Safad, his family's home town, about 696/1297; his father, the amir Izz al-Din Aybak, was of Turkic origin and showed no concern for the boy's religious-legal studies until he turned twenty, whereupon the youth sought learning on his own {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}."
+  ur: "صلاح الدین خلیل بن ایبک صفدی تقریباً 696ھ/1297ء میں صفد میں پیدا ہوئے — یہی ان کے خاندان کا وطن تھا؛ ان کے والد امیر عز الدین ایبک ترکی نژاد تھے اور بیٹے کی دینی تعلیم کی فکر اس وقت تک نہ کی جب وہ بیس برس کا ہو گیا، تب نوجوان نے خود علم کی طلب کی {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1297~", hijri: "0696", calendar: julian, precision: year, status: historical, derived: true, note: "ولد سنة ست وتسعين وستمائة تقريباً (٦٩٦-٦٩٧هـ) {cite:durar-kamina-jil-1993 vol. 2 p. 88} {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/safad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-safadi, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi, Salah al-Din Khalil b. Aybak (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
