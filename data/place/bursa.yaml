@@ -3,12 +3,19 @@ class: place
 kind: city
 label: { en: "Bursa", ar: "بورصة" }
 summary:
-  en: "Anatolian city taken by the Ottomans in 1326 CE and their first major capital."
-  ar: "مدينة في الأناضول فتحها العثمانيون سنة 1326م، وكانت أول عاصمة كبرى لهم."
+  en: "Anatolian city on the northern foothills of Mysian Olympus, the ancient Prusa; taken by the Ottomans on 6 April 1326 and their main capital until 1402 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397-1398}."
+  ar: "مدينة في الأناضول على السفوح الشمالية لجبل أوليمبوس الميسي، وهي بروسة القديمة؛ فتحها العثمانيون في ٦ أبريل ١٣٢٦م وكانت عاصمتهم الرئيسة حتى ١٤٠٢م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397-1398}."
+  ur: "اناطولیہ کا شہر، قدیم پروسا، میسیائی اولمپس کی شمالی تلہٹیوں پر؛ عثمانیوں نے 6 اپریل 1326ء کو فتح کیا اور 1402ء تک ان کا مرکزی دارالحکومت رہا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397-1398}۔"
 wings: [place]
 regions: [anatolia-balkans]
 coordinates: [40.1956, 29.0601]
 coordinate_precision: site
 external_ids: { wikidata: "Q40738", geonames: "750269", pleiades: "511384" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 1 BURSA, PDF pp. 1397-1398 (harvest OCR); coordinates from GeoNames 750269"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

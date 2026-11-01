@@ -1,0 +1,26 @@
+id: event/yesil-cami-bursa-1412
+class: event
+kind: founding
+label: { ar: "الجامع الأخضر والضريح الأخضر ببورصة", en: "The Green Mosque and Green Tomb of Bursa", ur: "بورصہ کی سبز مسجد اور سبز مقبرہ" }
+summary:
+  ar: "أمر محمد جلبي ببناء الجامع الأخضر (يشيل جامع) سنة 1412م قبل أن ينفرد بالحكم في السنة التالية سلطاناً باسم محمد الأول، وكان المعماري حاجي عوض باشا؛ ولم يكتمل الجامع عند وفاته سنة 1421م فاستمرت أعمال الزخرفة أربع سنين أخرى، وأُلحق به ضريحه المعروف بالضريح الأخضر {cite:freely-ottoman-architecture-2011 p. 45-47}."
+  en: "Çelebi Mehmet commissioned the Green Mosque (Yeşil Cami) in 1412 CE, the year before he became sole ruler as Mehmed I; the architect was Hacı Ivaz Pasha. The mosque was unfinished at his death in 1421, with decorative work continuing four more years, and his mausoleum — the Yeşil Türbe — stands across from it {cite:freely-ottoman-architecture-2011 p. 45-47}."
+  ur: "چلبی محمد نے 1412ء میں سبز مسجد (یشیل جامع) کی تعمیر کا حکم دیا، ایک برس قبل اس کے کہ وہ محمد اول کے نام سے واحد حکمران بنا؛ معمار حاجی عوض پاشا تھے۔ 1421ء میں ان کی وفات تک مسجد نامکمل رہی اور زخرفی کا کار چار مزید برس جاری رہا؛ ان کا مقبرہ — یشیل تربہ — سامنے کھڑا ہے {cite:freely-ottoman-architecture-2011 p. 45-47}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1412", hijri: "0815", calendar: julian, precision: year, status: tradition, derived: true, note: "1412م {cite:freely-ottoman-architecture-2011 p. 45}؛ الهجري مشتق." }
+  end: { edtf: "1425", hijri: "0828", calendar: julian, precision: year, status: tradition, derived: true, note: "أربع سنين بعد وفاة محمد الأول 1421م {cite:freely-ottoman-architecture-2011 p. 45}." }
+relations:
+  - { type: occurred_at, target: building/yesil-mosque-bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/muhammad-i-jalabi, role: "الآمر بالبناء", sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed pp. 45-47 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
