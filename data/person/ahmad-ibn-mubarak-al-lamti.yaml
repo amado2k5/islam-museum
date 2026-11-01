@@ -1,0 +1,72 @@
+id: person/ahmad-ibn-mubarak-al-lamti
+class: person
+
+label: { ar: "أحمد بن مبارك اللمطي", en: "Ahmad ibn Mubarak al-Lamti", ur: "احمد بن مبارک اللمطی" }
+
+names:
+  - { value: "Abu al-Abbas Ahmad ibn Mubarak ibn Muhammad ibn Ali ibn Mubarak al-Sijilmasi al-Lamti", kind: full }
+  - { value: "Abu al-Abbas", kind: kunya }
+
+gender: male
+
+summary:
+  ar: "أبو العباس أحمد بن مبارك السجلماسي اللمطي (1679 – 1743)، فقيه مالكي مغربي من سجلماسة، انتقل مع أسرته إلى فاس سنة 1698 فدرس على خمسة من شيوخ القرويين ونال الإجازة، ثم لزم الشيخ عبد العزيز الدباغ تلميذًا وملازمًا، فجمع كلامه بعد وفاته في كتاب «الإبريز من كلام سيدي عبد العزيز الدباغ» الذي صار من أشهر كتب المناقب الصوفية وانتقل أثره إلى إندونيسيا. له مصنفات في الأصول والفقه، ومات بفاس ودُفن بباب الفتوح بجوار شيخه."
+  en: "Abu al-Abbas Ahmad ibn Mubarak al-Sijilmasi al-Lamti (1679 – 1743) was a Moroccan Maliki jurist from Sijilmasa who moved with his family to Fez in 1698, studied under five scholars of al-Qarawiyyin and received his ijaza, then became the disciple and close companion of the Sufi master Abd al-Aziz al-Dabbagh, whose lectures he compiled after the master's death into the al-Ibriz, one of the most widely read works of Sufi hagiography, later influential as far as Indonesia. He wrote further works on legal theory and jurisprudence, died at Fez, and was buried at Bab al-Futuh beside his teacher."
+  ur: "ابو العباس احمد بن مبارک السجلماسی اللمطی (1679ء – 1743ء) سجلماسہ سے تعلق رکھنے والے مغربی مالکی فقیہ تھے؛ 1698ء میں خاندان سمیت فاس منتقل ہوئے، قرویین کے پانچ شیوخ سے پڑھا اور اجازہ پایا، پھر صوفی شیخ عبد العزیز الدباغ کے شاگرد و مصاحب بنے اور ان کی وفات کے بعد ان کے اقوال کو «الابریز» میں جمع کیا، جو صوفی مناقب کی مشہور ترین کتابوں میں شمار ہوتی ہے اور جس کا اثر انڈونیشیا تک پہنچا۔ اصول و فقہ میں بھی تصانیف چھوڑیں؛ فاس میں وفات پائی اور باب الفتوح میں اپنے شیخ کے پہلو میں دفن ہوئے۔"
+
+roles: [scholar, jurist]
+regions: [maghreb]
+wings: [people]
+
+born:
+  edtf: "1679"
+  calendar: gregorian
+  precision: year
+  status: historical
+  hijri: "1090"
+  note: "Born at Sijilmasa. The Arabic biographical article dates him 1090–1156 AH and pairs the years with 1679–1743 CE, and the English article gives 1679; the Hijri year is the articles' own pairing, not a conversion."
+  sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar, source/wikipedia-ahmad-ibn-mubarak-al-lamti-en]
+
+died:
+  edtf: "1743"
+  calendar: gregorian
+  precision: year
+  status: debated
+  hijri: "1156"
+  note: "Died at Fez and was buried in the Bab al-Futuh cemetery beside his teacher Abd al-Aziz al-Dabbagh. The Arabic biographical article dates the death to the night of Friday, 19 Jumada I 1156 AH, and pairs the year with 1743 CE, which is followed; the English article gives 1742 — both readings preserved here."
+  sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar, source/wikipedia-ahmad-ibn-mubarak-al-lamti-en]
+
+relations:
+  - { type: born_in, target: place/sijilmasa, sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar] }
+  - { type: died_in, target: place/fez, sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar] }
+  - { type: student_of, target: person/abd-al-aziz-al-dabbagh, sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar] }
+
+faith:
+  - value: sunni-maliki
+    basis: documented
+    note: >-
+      Two independent texts name the Maliki school for the man
+      himself. The English article calls him a Moroccan Islamic
+      scholar of the Maliki school and states that at Fez he adopted
+      the Maliki school of thought and received an ijaza certifying
+      him as a scholar of the city. The Arabic biographical article
+      independently calls him a Maliki jurist (faqih Maliki) in its
+      lead. His discipleship under the Sufi master Abd al-Aziz
+      al-Dabbagh is likewise attested in both texts and is recorded
+      in the relations; the school attested twice is the value
+      recorded.
+    sources: [source/wikipedia-ahmad-ibn-mubarak-al-lamti-en, source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar]
+
+external_ids: { wikidata: "Q4696104" }
+
+sources:
+  - source/wikipedia-ahmad-ibn-mubarak-al-lamti-en
+  - source/wikipedia-ahmad-ibn-mubarak-al-lamti-ar
+  - source/wikidata-ahmad-ibn-mubarak-al-lamti
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia «Ahmed Sijilmasi» (revision 1371055023 of 24 August 2026), Arabic Wikipedia «السجلماسي اللمطي» (revision 19959060 of 29 May 2016) and Wikidata Q4696104 (item revision 2557510184 of 16 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic article agreeing. Existence checked against origin/main before building — no record holds this man under lamti, sijilmasi or any name fragment. Queue corrections: the queue's birth year 1670 is wrong — both articles give 1679 (the Arabic pairing it with 1090 AH) and 1679 is built; the queue's death year 1743 follows the Arabic article against the English article's 1742, status debated. person/abd-al-aziz-al-dabbagh, place/sijilmasa and place/fez exist on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-175m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

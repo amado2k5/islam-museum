@@ -1,0 +1,79 @@
+id: person/muneccimbasi-ahmed-dede
+class: person
+
+label: { ar: "أحمد منجم باشي", en: "Müneccimbaşı Ahmed Dede", ur: "احمد منجم باشی" }
+
+names:
+  - { value: "Ahmed Lütfullah", kind: full }
+  - { value: "Ahmed ibn Lütfullah", kind: alternate }
+  - { value: "Müneccimbaşı", kind: laqab }
+  - { value: "Âşık", kind: pen }
+
+gender: male
+
+summary:
+  ar: "أحمد بن لطف الله، الشهير بلقبه منجم باشي، أي رئيس المنجّمين (1631 – 28 شباط 1702)، مؤرخ وفلكي وشاعر صوفي عثماني من سلانيك. تربّى في التكايا المولوية، خمس عشرة سنة في مولوية قاسم باشا بإسطنبول، وصار منجّمًا باشيًا سنة 1668 ومصاحبًا للسلطان محمد الرابع، ثم نُفي إلى مصر سنة 1687 وانتهى شيخًا لمولوية مكة. كتابه «جامع الدول» تاريخ عام كتبه بالعربية واشتهر بترجمته التركية «صحائف الأخبار»، وهو مصدر فريد لأخبار دويلات ما وراء القفقاس المسلمة."
+  en: "Ahmed ibn Lütfullah, known by his court title Müneccimbaşı, 'Chief Astrologer' (1631 – 28 February 1702), was an Ottoman historian, astronomer and Sufi poet from Salonica. Formed in the Mevlevi lodges — fifteen years at the Kasımpaşa lodge in Istanbul — he became chief court astrologer in 1668 and an imperial companion of Mehmed IV, was exiled to Egypt in 1687, and ended as sheikh of the Mevlevi lodge of Mecca. His Jami' al-Duwal, a world history written in Arabic and best known in its Turkish rendering Saha'if al-Akhbar, is a unique source for the minor Muslim dynasties of Transcaucasia."
+  ur: "احمد بن لطف اللہ، اپنے عہدی لقب منجم باشی یعنی رئیسِ منجمین سے مشہور (1631ء – 28 فروری 1702ء)، سلانیک سے تعلق رکھنے والے عثمانی مؤرخ، ماہرِ فلکیات اور صوفی شاعر تھے۔ مولوی خانقاہوں میں تربیت پائی، استنبول کی قاسم پاشا مولوی خانقاہ میں پندرہ برس رہے، 1668ء میں منجم باشی اور محمد رابع کے مصاحب بنے، 1687ء میں مصر جلاوطن ہوئے اور آخر میں مکہ کی مولوی خانقاہ کے شیخ بنے۔ ان کی «جامع الدول» عربی میں لکھی گئی عالمی تاریخ ہے جو اپنے ترکی ترجمے «صحائف الاخبار» سے مشہور ہوئی۔"
+
+roles: [historian, astronomer, scholar, poet]
+regions: [anatolia-balkans, arabia]
+wings: [people]
+
+born:
+  edtf: "1631"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Salonica, where his father Lütfullah, a native of Ereğli in Konya, had settled. The Turkish article and the Wikidata item give 1631; the English article hedges the year as falling in the first half of the 17th century and attributes 1631 to the Encyclopaedia Britannica, so the year is built as debated. The year 1631 spans 1040–1041 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-muneccimbasi-ahmed-dede-tr, source/wikipedia-muneccimbasi-ahmed-dede-en, source/wikidata-muneccimbasi-ahmed-dede]
+
+died:
+  edtf: "1702-02-28"
+  calendar: gregorian
+  precision: day
+  status: debated
+  hijri: "1113"
+  note: "Died at Mecca, where he had become sheikh of the Mevlevi lodge in 1700, and was buried near the mausoleum of Khadija. The Turkish article and the Wikidata item give 28 February 1702 and are followed; the English article gives 27 February 1702, and the Arabic article dates the death to 29 Ramadan 1113 AH — all readings preserved here, the Hijri year 1113 being common to them."
+  sources: [source/wikipedia-muneccimbasi-ahmed-dede-tr, source/wikipedia-muneccimbasi-ahmed-dede-en, source/wikipedia-muneccimbasi-ahmed-dede-ar, source/wikidata-muneccimbasi-ahmed-dede]
+
+relations:
+  - { type: born_in, target: place/salonik, sources: [source/wikipedia-muneccimbasi-ahmed-dede-en, source/wikipedia-muneccimbasi-ahmed-dede-tr] }
+  - { type: died_in, target: place/mecca, sources: [source/wikipedia-muneccimbasi-ahmed-dede-en, source/wikipedia-muneccimbasi-ahmed-dede-tr, source/wikipedia-muneccimbasi-ahmed-dede-ar] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: >-
+      Mevlevi affiliation is attested for the man himself in three
+      independent texts. The Turkish article states that he formally
+      affiliated himself (intisap) to Sheikh Mehmed Efendi of the
+      Salonica Mevlevi lodge and thereby became a Mevlevi, later
+      spending fifteen years in discipleship under Halil Efendi at
+      the Kasımpaşa Mevlevihanesi and ending as sheikh of the Mecca
+      Mevlevihanesi. The English article independently gives the
+      fifteen years at the Kasımpaşa Mevlevi lodge under Sheikh
+      Halil Dede and his later sheikhdom of the Mevlevi lodge of
+      Mecca, and calls him a Sufi poet whose diwan, written under
+      the pen name Âşık, treats mystical themes. The Arabic article
+      names him al-Mawlawi, the Mevlevi, and likewise gives his
+      sheikhdom of the order's Mecca zawiya. Attested order
+      membership and completed discipleship settle sufi at basis
+      documented under the founder's rules, on the Neşâtî precedent.
+      No text names a legal school for him, and none is recorded.
+    sources: [source/wikipedia-muneccimbasi-ahmed-dede-tr, source/wikipedia-muneccimbasi-ahmed-dede-en, source/wikipedia-muneccimbasi-ahmed-dede-ar]
+
+external_ids: { wikidata: "Q3622231" }
+
+sources:
+  - source/wikipedia-muneccimbasi-ahmed-dede-en
+  - source/wikipedia-muneccimbasi-ahmed-dede-tr
+  - source/wikipedia-muneccimbasi-ahmed-dede-ar
+  - source/wikidata-muneccimbasi-ahmed-dede
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1348979422 of 15 April 2026), Turkish Wikipedia «Müneccimbaşı Ahmed Dede» (revision 35971345 of 3 September 2025), Arabic Wikipedia «أحمد منجم باشي» (revision 72788141 of 17 December 2025) and Wikidata Q3622231 (item revision 2554192547 of 6 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Turkish and Arabic articles agreeing. The separate Wikidata item Q6950556 is the chief-astrologer OFFICE, not this man, and is not used. Existence checked against origin/main before building — no record holds this man under muneccimbasi, ahmed-dede or any name fragment. Queue check: the queue's dates 1631–1702 are confirmed; the death day is built at 28 February on the Turkish article and the item against the English article's 27 February, status debated. place/salonik and place/mecca exist on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-175m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

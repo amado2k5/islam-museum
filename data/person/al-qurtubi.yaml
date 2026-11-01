@@ -3,23 +3,37 @@ class: person
 label:
   ar: "القرطبي صاحب الجامع لأحكام القرآن"
   en: "al-Qurtubi"
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن أحمد بن أبي بكر بن فرج الأنصاري الخزرجي القرطبي" }
 roles: [scholar]
 gender: male
+traditions: [sunni]
+died: { edtf: "1273-04-29", hijri: "0671-10-09", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الاثنين التاسع من شوال سنة ٦٧١هـ بمنية ابن خصيب {cite:nafh-tib-maqqari 2/211}؛ التحويل الميلادي مشتق.", sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/siyar-alam-nubala] }
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { role: jurist, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "بطاقة أولية لأبي عبد الله محمد بن أحمد الأنصاري القرطبي، المفسر المالكي صاحب «الجامع لأحكام القرآن»، توفي سنة ١٢٧٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Abdallah Muhammad ibn Ahmad al-Ansari al-Qurtubi, the Maliki exegete author of al-Jami' li-Ahkam al-Qur'an, d. 1273; the biographical entry is not yet checked on the page."
+  ar: "أبو عبد الله محمد بن أحمد بن أبي بكر بن فرج الأنصاري الخزرجي القرطبي (ت ٦٧١هـ)، المفسر المالكي صاحب «الجامع لأحكام القرآن»؛ هاجر من الأندلس إلى مصر فسمع المفهم على مؤلفه بالإسكندرية واستقر بمنية بني خصيب في الصعيد حيث صنف ومات {cite:nafh-tib-maqqari 2/210-211} {cite:siyar-alam-nubala 17/97}."
+  en: "Abu Abdallah Muhammad ibn Ahmad ibn Abi Bakr ibn Faraj al-Ansari al-Khazraji al-Qurtubi (d. 671/1273), the Maliki exegete author of al-Jami' li-Ahkam al-Qur'an; he emigrated from al-Andalus to Egypt, heard al-Mufhim from its author at Alexandria, and settled at Munyat Bani Khusayb in Upper Egypt where he wrote and died {cite:nafh-tib-maqqari 2/210-211} {cite:siyar-alam-nubala 17/97}."
 wings: [people]
 regions: [andalus-europe, egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab]
+relations:
+  - { type: born_in, target: place/cordoba, sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari] }
+  - { type: died_in, target: place/munyat-ibn-al-khasib, sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/al-qurtubi-departs-andalus, sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-qurtubi-studies-alexandria-656, sources: [source/nafh-tib-maqqari] }
+  - { type: participated_in, target: event/al-qurtubi-settles-munya-660, sources: [source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/al-qurtubi-composes-jami-670, sources: [source/nafh-tib-maqqari] }
+sources: [source/shadharat-dhahab, source/nafh-tib-maqqari, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q1151805
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0012
+  source: "Ibn al-Imad, Shadharat al-Dhahab printed p. 335 (s.a. 671); al-Maqqari, Nafh al-Tib (Dar Sadir) vol. 2 printed pp. 210-211; al-Dhahabi, Siyar A'lam al-Nubala (Risala) vol. 17 printed pp. 97-98; Encyclopaedia of Islam 2nd ed. vol. 5.1 printed pp. 550-551 (R. Arnaldez) — Apple Vision OCR of local scans; Wikidata Q1151805 for the identifier only"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qurtubi-1
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
