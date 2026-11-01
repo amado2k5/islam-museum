@@ -34,6 +34,20 @@ Checked against `data/source/` on 1 November 2026: none of these exists yet.
 
 Each is registered before the first citation, with `reliability_note`, `open_access`, `URL` or edition, and the date read, in the shape of `source/tdv-ahmed-pasa-bursali` and `source/encyclopaedia-of-islam-2`.
 
+## 2a. Sources for the crafts (الحِرَف والصنائع)
+
+Founder's instruction of 1 November 2026: the jobs include the crafts. The crafts have almost no holders from roles (113, 109 of them calligraphers), so their articles and their holders come from the sources below, read in this order, each registered as a source entity before it is cited.
+
+1. **The museum's objects first.** 517 `object/` records with a `kind` (ceramic 74, metalwork 45, textile 33, glass 29, carpet 18, lamp 13, astrolabe 4) and often a material, a `made` or `made_in` edge and a maker's name in their sources: the object is the attestation of the craft, and the signed object (a brass ewer with its maker's name, a signed astrolabe, a tiraz band with its workshop) is the attestation of a holder.
+2. **Ibn Khaldun, *Muqaddima*, chapter 5 on earning a living and the crafts** (`source/muqaddima-ibn-khaldun`): the theory of the crafts, which ones cities need, how a craft is learned by apprenticeship, and the chapters on building, carpentry, weaving and tailoring, midwifery, medicine, calligraphy and the book trade, singing.
+3. **The hisba manuals**: al-Shayzari's *Nihayat al-Rutba* and Ibn al-Ukhuwwa's *Ma'alim al-Qurba*, chapter by chapter (the bakers, the millers, the butchers, the cooks, the confectioners, the perfumers, the weavers, the dyers, the tailors, the cobblers, the blacksmiths, the goldsmiths, the coppersmiths, the barbers, the bath keepers, the water carriers, the physicians and cuppers, the scribes and copyists), which give for each the frauds the muhtasib watched for, and therefore the tools, materials and practices of the craft.
+4. **Futuwwa and guild texts**: Ibn al-Mi'mar al-Baghdadi's *Kitab al-Futuwwa*; the Anatolian akhi texts behind `group/akhi-associations`; the Ottoman guild registers and the ihtisab regulations; Evliya Çelebi's *Seyahatname* (vol. 1, the 1638 procession of the Istanbul guilds, with their numbers and pirs); Elias Qudsi's 1885 notice on the guilds of Damascus with its shadd ceremony.
+5. **Reference works**: EI2 *Ṣinf* (guild), *Futuwwa*, *Ḥisba*, and the articles on single crafts and materials (*Ḳalam*, *Kāghad*, *Khaṭṭ*, *Ṭirāz*, *Zudjādj*); DİA *esnaf*, *lonca*, *ahîlik*, *fütüvvet* and the craft articles; Iranica on the Persian crafts.
+6. **Modern scholarship**: Gabriel Baer, *Egyptian Guilds in Modern Times* (1964); André Raymond, *Artisans et commerçants au Caire au XVIIIe siècle* (1973); Suraiya Faroqhi, *Artisans of Empire* (2009); Abdul-Karim Rafeq on the Damascus guilds; the museum catalogues on technique (the Met, the V&A, the David Collection, MIA Doha).
+7. **The living craft**: UNESCO intangible-heritage files as read (Arabic calligraphy, 2021; Al Sadu weaving; Palestinian embroidery, 2021; the carpet weaving of Fars and Kashan, 2010; Turkish ebru, 2014; Kütahya tile making, 2016), the craft associations' own sites, and the Made wing listings for the trade today.
+
+Source entities Phase 2's crafts waves create: `source/kitab-al-futuwwa-ibn-al-mimar`, `source/seyahatname-evliya-celebi-v1`, `source/qudsi-damascus-guilds-1885`, `source/baer-egyptian-guilds-1964`, `source/raymond-artisans-cairo-1973`, `source/faroqhi-artisans-of-empire-2009`, one `source/tdv-*` per DİA article, one `source/unesco-ich-*` per file, and the collection pages as section 2 describes.
+
 ## 3. The classification discipline, applied to jobs
 
 The founder's rulings for faith (`docs/agents/lanes/modern-figures.md`, 1 November 2026) transfer word for word:

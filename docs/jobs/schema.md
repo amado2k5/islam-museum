@@ -18,6 +18,7 @@ domain: governance-law                   # schema/enums/job-domains.yaml (new)
 kind: office                             # kinds.yaml job: [office, craft, scholarly, religious, commercial, military,
                                          #   medical, artistic, service, administrative, modern-profession]
 broader: job/ruler                       # optional; display hierarchy only, counts never double
+hirfa: false                             # true for a hand craft or trade (section 1a)
 era:
   origins: early-caliphate               # pre-islamic | prophetic | early-caliphate | classical | medieval | early-modern | modern
   first_attested: { edtf: "0640~", hijri: "0020~", precision: decade, status: historical, note: "…", sources: [source/…] }
@@ -48,6 +49,32 @@ status: { review: published, completeness: 3 }
 ```
 
 The prose article's required sections (Arabic headings first, the English and Urdu files mirror them) follow the brief's seventeen questions: الموجز · الأصول · الأسماء الكبار · التطور · السياسة والاقتصاد · الجغرافيا · العمر والمآل · مكان العمل · الأدوات · الإنتاج · الأعلام عبر العصور · التنظيم · التكوين والإجازة · الأسرار والأعراف · المحافل · الأسفار · المراجع. A section the sources cannot fill says so in one sentence rather than being omitted, so a reader sees the gap.
+
+## 1a. The craft block (الحِرفة)
+
+Founder's instruction of 1 November 2026: the jobs include the crafts. A job with `hirfa: true` carries a `craft` block; the validator requires it when the flag is set and rejects it when the flag is not.
+
+```yaml
+hirfa: true
+craft:
+  materials: [copper, brass, silver]       # schema/enums/materials.yaml (existing enum)
+  techniques: { ar: "…", en: "…", ur: "…" } # short prose: the hand processes, named
+  guild:                                   # the ta'ifa / sinf / esnaf of the craft where attested
+    bodies: [group/…]                      # groups of kind guild (written when missing)
+    shaykh_title: { ar: "شيخ الطائفة", en: "shaykh of the guild", ur: "…" }
+  grades: [mubtadi, sani, muallim]         # or [shagird, kalfa, usta]; the craft's own ladder, in its own words
+  initiation: { ar: "…", en: "…", ur: "…" } # the shadd, the futuwwa oath, the belt; described, cited
+  pir: person/…                            # the patron figure the guild named (Idris for the tailors, Salman for the barbers);
+                                           #   a tradition the guild held, recorded as status: tradition, never as fact
+  marks: { ar: "…", en: "…", ur: "…" }      # makers' marks, signatures, workshop stamps
+  practice: practice/…                     # the craft as a cultural practice (kind: craft), written when missing
+  heritage:                                # living status
+    unesco_ich: "…"                        # the element's name and year as listed, when one exists
+    sources: [source/unesco-ich-…]
+  made_listings: [listing/…]               # the living trade in the Made wing, where listed
+```
+
+The craft's tools and output use the ordinary `tools` and `outputs` fields; its workplace (the suq stall, the workshop, the dar al-tiraz, the dar al-darb) uses `workplaces`. The `materials` enum is the existing one and grows by proposal only (an enum change is a schema change under the gates). `pir` is always `status: tradition` with the guild text that names him cited; the museum records what the guild held and asserts nothing about the figure.
 
 ## 2. The person `occupations:` block
 
@@ -115,7 +142,8 @@ Errors:
 2. `occupations[i].sources` and `jobs[i].sources` are non-empty and every id is a known source.
 3. `place`, `polity`, `under`, `trained_under[]` resolve and are of the named class (the `REF_KEYS` walk already checks resolution; the class check is new).
 4. `kind`, `status`, `relation`, `domain`, `era.origins`, `era.status_today`, `organization.organized`, `training.mode` are enumerated.
-5. `broader`, `era.successor_jobs[]` resolve to jobs; `organization.bodies[]` to groups; `tools[]` to objects; `workplaces[]` to buildings or places; `outputs[]` to works or objects.
+5. `broader`, `era.successor_jobs[]` resolve to jobs; `organization.bodies[]` and `craft.guild.bodies[]` to groups; `tools[]` to objects; `workplaces[]` to buildings or places; `outputs[]` to works or objects; `craft.practice` to a practice of kind `craft`; `craft.pir` to a person; `craft.materials[]` to the materials enum.
+5a. `craft` is present when `hirfa: true` and absent otherwise.
 6. **Agreement check**: when a person has `occupations:`, every value left in `roles:` must be a descriptor (the `descriptors` list in `taxonomy.yaml`, which becomes the whole of `schema/enums/roles.yaml`). A job value in `roles:` beside an `occupations:` block is "maintained by hand twice" and fails.
 7. `practised`, `practised_by`, `tied_to`, `things_of` in a hand-written `relations:` fail.
 
@@ -136,6 +164,7 @@ Warnings:
 | `scripts/lib.ts`, `scripts/gen-schema.ts`, `site/src/pages/api/v1/meta/index.json.ts` | `job` in `CLASSES` |
 | `scripts/gen-schema.ts` | `classProps.job`; `occupations` on person; `jobs` on seven classes; `npm run schema` regenerates `schema/*.schema.json` |
 | `schema/enums/kinds.yaml` | `job:` kinds (append) |
+| `schema/enums/materials.yaml` | reused as is for `craft.materials` |
 | `schema/enums/job-domains.yaml` | new, from `taxonomy.yaml` domains |
 | `schema/enums/roles.yaml` | split (descriptors stay) |
 | `schema/predicates.yaml` | `practised`, `tied_to` with `derived: true` (append) |

@@ -15,6 +15,8 @@
 #             (substring matches; a nisba such as الحداد is also a surname, so these are leads, not holders)
 #   broader   a wider job this one is a form of (display only)
 #   first10   the Phase 1 batch
+#   hirfa     true for a hand craft or trade (حِرفة / صناعة): the job also sits on the crafts shelf and its
+#             entity carries the craft block (schema.md section 1a: materials, guild, grades, shadd, pir, marks, UNESCO)
 #   note      caveats for the writer
 domains:
   - { id: governance-law,        label: { ar: الحكم والقضاء,         en: Governance & Law,           ur: حکومت و قانون } }
@@ -24,7 +26,7 @@ domains:
   - { id: medicine-care,         label: { ar: الطب والرعاية,          en: Medicine & Care,            ur: طب و نگہداشت } }
   - { id: sciences-numbers,      label: { ar: العلوم والحساب,         en: Sciences & Numbers,         ur: سائنس و حساب } }
   - { id: arts-letters,          label: { ar: الفنون والأدب,          en: Arts & Letters,             ur: فنون و ادب } }
-  - { id: building-making,       label: { ar: البناء والصناعة,        en: Building & Making,          ur: تعمیر و دستکاری } }
+  - { id: building-making,       label: { ar: الحِرَف والصنائع والبناء, en: "Crafts, Building & Making", ur: دستکاری، صنعت اور تعمیر } }
   - { id: trade-travel-sea,      label: { ar: التجارة والسفر والبحر,  en: "Trade, Travel & the Sea",  ur: تجارت، سفر اور سمندر } }
   - { id: war-command,           label: { ar: الحرب والقيادة,         en: War & Command,              ur: جنگ و قیادت } }
   - { id: media-performance,     label: { ar: الإعلام والأداء,        en: Media & Performance,        ur: میڈیا و فن کاری } }
@@ -112,7 +114,7 @@ jobs:
   - { id: job/surgeon,        domain: medicine-care, kind: medical, label: { ar: الجرّاح, en: Surgeon (jarrah), ur: جراح }, roles: [], ar_keys: [الجراح, جراحاً, الجراحة], broader: job/physician }
   - { id: job/kahhal,         domain: medicine-care, kind: medical, label: { ar: الكحّال, en: Oculist (kahhal), ur: کحال (ماہر امراض چشم) }, roles: [], ar_keys: [الكحال, كحالاً, الكحالة], broader: job/physician }
   - { id: job/pharmacist,     domain: medicine-care, kind: medical, label: { ar: الصيدلاني, en: Pharmacist (saydalani), ur: دوا ساز }, roles: [], ar_keys: [الصيدلاني, الصيدلة, الأدوية المفردة] }
-  - { id: job/hajjam,         domain: medicine-care, kind: medical, label: { ar: الحجّام, en: Cupper (hajjam), ur: حجام }, roles: [], ar_keys: [الحجام, حجاماً, الحجامة] }
+  - { id: job/hajjam,         domain: medicine-care, kind: medical, label: { ar: الحجّام, en: Cupper (hajjam), ur: حجام }, roles: [], ar_keys: [الحجام, حجاماً, الحجامة], hirfa: true }
   - { id: job/midwife,        domain: medicine-care, kind: medical, label: { ar: القابلة, en: Midwife (qabila), ur: دائی }, roles: [], ar_keys: [قابلةً, القوابل] }
   - { id: job/wet-nurse,      domain: medicine-care, kind: service, label: { ar: الظِّئر, en: Wet-nurse, ur: دودھ پلانے والی (رضاعی ماں) }, roles: [wet-nurse], ar_keys: [أرضعت, مرضعة, ظئر] }
   - { id: job/nurse,          domain: medicine-care, kind: modern-profession, label: { ar: الممرّض, en: Nurse, ur: نرس }, roles: [nurse], ar_keys: [الممرضة, ممرضة, التمريض] }
@@ -128,51 +130,78 @@ jobs:
   - { id: job/physicist,      domain: sciences-numbers, kind: modern-profession, label: { ar: الفيزيائي, en: Physicist, ur: طبیعیات دان }, roles: [physicist, astrophysicist], ar_keys: [الفيزياء, فيزيائياً] }
   - { id: job/life-scientist, domain: sciences-numbers, kind: modern-profession, label: { ar: عالم الأحياء, en: Life scientist, ur: ماہر حیاتیات }, roles: [biologist, immunologist, geneticist, biochemist, botanist, ornithologist, naturalist, agronomist, oceanographer], ar_keys: [الأحياء, النبات, الطيور] }
   - { id: job/geographer,     domain: sciences-numbers, kind: scholarly, label: { ar: الجغرافي, en: Geographer, ur: جغرافیہ دان }, roles: [geographer], ar_keys: [الجغرافي, الجغرافيا, المسالك والممالك] }
-  - { id: job/cartographer,   domain: sciences-numbers, kind: craft, label: { ar: رسّام الخرائط, en: Cartographer, ur: نقشہ نگار }, roles: [cartographer], ar_keys: [الخرائط, خريطة], broader: job/geographer }
+  - { id: job/cartographer,   domain: sciences-numbers, kind: craft, label: { ar: رسّام الخرائط, en: Cartographer, ur: نقشہ نگار }, roles: [cartographer], ar_keys: [الخرائط, خريطة], broader: job/geographer, hirfa: true }
   - { id: job/astronaut,      domain: sciences-numbers, kind: modern-profession, label: { ar: رائد الفضاء, en: Astronaut, ur: خلا باز }, roles: [astronaut], ar_keys: [رائد فضاء, الفضاء] }
   # ---------------------------------------------------------------- arts-letters
   - { id: job/poet,           domain: arts-letters, kind: artistic, label: { ar: الشاعر, en: Poet, ur: شاعر }, roles: [poet, poet-scholar], ar_keys: [الشاعر, شاعراً, شاعرا, ديوان] }
   - { id: job/rawi,           domain: arts-letters, kind: artistic, label: { ar: الراوية, en: Poetry transmitter (rawi), ur: راوی (شعر) }, roles: [], ar_keys: [الراوية, راوية], broader: job/poet }
   - { id: job/adib,           domain: arts-letters, kind: artistic, label: { ar: الأديب, en: Man of letters (adib), ur: ادیب }, roles: [adib, man of letters, literary-critic], ar_keys: [الأديب, أديباً, الأدب] }
   - { id: job/writer,         domain: arts-letters, kind: modern-profession, label: { ar: الكاتب المؤلّف, en: Writer / author, ur: مصنف }, roles: [writer, author, novelist, playwright, dramatist], ar_keys: [الكاتب, كاتباً, مؤلف, الروائي, رواية, مسرحية] }
-  - { id: job/calligrapher,   domain: arts-letters, kind: craft, label: { ar: الخطّاط, en: Calligrapher (khattat), ur: خطاط }, roles: [calligrapher], ar_keys: [الخطاط, خطاطاً, الخط العربي, خط النسخ, خط الثلث], first10: true }
-  - { id: job/copyist,        domain: arts-letters, kind: craft, label: { ar: الورّاق, en: Copyist (warraq / nasikh), ur: کاتب (ناسخ، وراق) }, roles: [], ar_keys: [الوراق, وراقاً, الناسخ, ناسخاً, نسخ الكتب, بخطه, الوراقة, استكتب], first10: true }
-  - { id: job/illuminator,    domain: arts-letters, kind: craft, label: { ar: المذهّب, en: Illuminator (mudhahhib), ur: مذہب (تذہیب کار) }, roles: [illuminator], ar_keys: [المذهب للمخطوطات, التذهيب, مذهّب] }
-  - { id: job/musawwir,       domain: arts-letters, kind: craft, label: { ar: المصوّر, en: Painter (musawwir), ur: مصور }, roles: [painter], ar_keys: [المصور, التصوير, المنمنمات, النقاش] }
-  - { id: job/bookbinder,     domain: arts-letters, kind: craft, label: { ar: المجلّد, en: Bookbinder (mujallid), ur: جلد ساز }, roles: [], ar_keys: [التجليد, مجلداً للكتب] }
-  - { id: job/papermaker,     domain: arts-letters, kind: craft, label: { ar: الكاغدي, en: Papermaker (kaghadi), ur: کاغذ ساز }, roles: [], ar_keys: [الكاغد, صناعة الورق, الكاغدي] }
+  - { id: job/calligrapher,   domain: arts-letters, kind: craft, label: { ar: الخطّاط, en: Calligrapher (khattat), ur: خطاط }, roles: [calligrapher], ar_keys: [الخطاط, خطاطاً, الخط العربي, خط النسخ, خط الثلث], first10: true, hirfa: true }
+  - { id: job/copyist,        domain: arts-letters, kind: craft, label: { ar: الورّاق, en: Copyist (warraq / nasikh), ur: کاتب (ناسخ، وراق) }, roles: [], ar_keys: [الوراق, وراقاً, الناسخ, ناسخاً, نسخ الكتب, بخطه, الوراقة, استكتب], first10: true, hirfa: true }
+  - { id: job/illuminator,    domain: arts-letters, kind: craft, label: { ar: المذهّب, en: Illuminator (mudhahhib), ur: مذہب (تذہیب کار) }, roles: [illuminator], ar_keys: [المذهب للمخطوطات, التذهيب, مذهّب], hirfa: true }
+  - { id: job/musawwir,       domain: arts-letters, kind: craft, label: { ar: المصوّر, en: Painter (musawwir), ur: مصور }, roles: [painter], ar_keys: [المصور, التصوير, المنمنمات], hirfa: true }
+  - { id: job/bookbinder,     domain: arts-letters, kind: craft, label: { ar: المجلّد, en: Bookbinder (mujallid), ur: جلد ساز }, roles: [], ar_keys: [التجليد, مجلداً للكتب], hirfa: true }
+  - { id: job/papermaker,     domain: arts-letters, kind: craft, label: { ar: الكاغدي, en: Papermaker (kaghadi), ur: کاغذ ساز }, roles: [], ar_keys: [الكاغد, صناعة الورق, الكاغدي], hirfa: true }
   - { id: job/visual-artist,  domain: arts-letters, kind: modern-profession, label: { ar: الفنان التشكيلي, en: Visual artist, ur: مصور (فنکار) }, roles: [], ar_keys: [الفنان التشكيلي, فناناً تشكيلياً], note: "the 35 bare artist strings sit in review: painter of miniatures, singer and modern artist all hide behind them" }
   - { id: job/photographer,   domain: arts-letters, kind: modern-profession, label: { ar: المصوّر الضوئي, en: Photographer, ur: فوٹوگرافر }, roles: [photographer], ar_keys: [التصوير الضوئي, مصور فوتوغرافي] }
+  - { id: job/inkmaker,       domain: arts-letters, kind: craft, label: { ar: صانع الحبر, en: Inkmaker, ur: روشنائی ساز }, roles: [], ar_keys: [صناعة الحبر, الأحبار, المداد, الليق], hirfa: true }
+  - { id: job/engraver,       domain: arts-letters, kind: craft, label: { ar: النقّاش, en: Engraver / carver (naqqash), ur: نقاش (کندہ کار) }, roles: [], ar_keys: [النقاش, النقش, نقاشاً, الحفر على], hirfa: true }
   # ---------------------------------------------------------------- building-making
   - { id: job/architect,      domain: building-making, kind: craft, label: { ar: المعمار, en: Architect (mi'mar), ur: معمار }, roles: [architect], ar_keys: [المعمار, معمارياً, المهندس المعماري, العمارة], first10: true }
-  - { id: job/builder,        domain: building-making, kind: craft, label: { ar: البنّاء, en: Builder / mason (banna), ur: معمار (مستری) }, roles: [], ar_keys: [البناء, بناءً, البنائين], broader: job/architect }
-  - { id: job/carpenter,      domain: building-making, kind: craft, label: { ar: النجّار, en: Carpenter (najjar), ur: بڑھئی (نجار) }, roles: [], ar_keys: [النجار, نجاراً, النجارة] }
-  - { id: job/blacksmith,     domain: building-making, kind: craft, label: { ar: الحدّاد, en: Blacksmith (haddad), ur: لوہار (حداد) }, roles: [], ar_keys: [الحداد, حداداً, الحدادة] }
-  - { id: job/goldsmith,      domain: building-making, kind: craft, label: { ar: الصائغ, en: Goldsmith (sa'igh), ur: سنار (صائغ) }, roles: [], ar_keys: [الصائغ, صائغاً, الصاغة, الصياغة] }
-  - { id: job/coppersmith,    domain: building-making, kind: craft, label: { ar: النحّاس, en: Coppersmith / metalworker, ur: ٹھٹھیرا (نحاس) }, roles: [], ar_keys: [النحاس, نحاساً, الصفار, التكفيت] }
-  - { id: job/armourer,       domain: building-making, kind: craft, label: { ar: صانع السلاح, en: Armourer / swordsmith, ur: اسلحہ ساز }, roles: [], ar_keys: [السيوف, السياف, صانع المدافع, صانع السلاح] }
-  - { id: job/instrument-maker, domain: building-making, kind: craft, label: { ar: الأسطرلابي, en: Instrument maker (asturlabi), ur: آلہ ساز (اسطرلابی) }, roles: [], ar_keys: [الأسطرلابي, صانع الأسطرلاب, صنع الآلات] }
-  - { id: job/potter,         domain: building-making, kind: craft, label: { ar: الخزّاف, en: Potter / tilemaker, ur: کمہار (خزاف) }, roles: [], ar_keys: [الخزاف, الخزف, الفخار, القيشاني] }
-  - { id: job/glassmaker,     domain: building-making, kind: craft, label: { ar: الزجّاج, en: Glassmaker (zajjaj), ur: شیشہ ساز }, roles: [], ar_keys: [الزجاج, زجاجاً, صناعة الزجاج] }
-  - { id: job/weaver,         domain: building-making, kind: craft, label: { ar: الحائك, en: Weaver (ha'ik / nassaj), ur: جولاہا (نساج) }, roles: [], ar_keys: [الحائك, النساج, النسيج, الحياكة, السجاد] }
-  - { id: job/tailor,         domain: building-making, kind: craft, label: { ar: الخيّاط, en: Tailor (khayyat), ur: درزی (خیاط) }, roles: [], ar_keys: [الخياط, خياطاً, الخياطة] }
-  - { id: job/dyer,           domain: building-making, kind: craft, label: { ar: الصبّاغ, en: Dyer (sabbagh), ur: رنگریز }, roles: [], ar_keys: [الصباغ, الصباغة] }
-  - { id: job/tanner,         domain: building-making, kind: craft, label: { ar: الدبّاغ, en: Tanner / leatherworker, ur: چرم ساز (دباغ) }, roles: [], ar_keys: [الدباغ, الدباغة, الخراز, الجلود] }
-  - { id: job/baker,          domain: building-making, kind: craft, label: { ar: الخبّاز, en: Baker (khabbaz), ur: نان بائی }, roles: [], ar_keys: [الخباز, خبازاً, الفران] }
-  - { id: job/butcher,        domain: building-making, kind: craft, label: { ar: الجزّار, en: Butcher (jazzar / qassab), ur: قصاب }, roles: [], ar_keys: [الجزار, القصاب, اللحام] }
-  - { id: job/cook,           domain: building-making, kind: service, label: { ar: الطبّاخ, en: Cook (tabbakh), ur: باورچی }, roles: [], ar_keys: [الطباخ, طباخاً, الطباخة] }
+  - { id: job/builder,        domain: building-making, kind: craft, label: { ar: البنّاء, en: Builder / mason (banna), ur: معمار (مستری) }, roles: [], ar_keys: [البناء, بناءً, البنائين], broader: job/architect, hirfa: true }
+  - { id: job/carpenter,      domain: building-making, kind: craft, label: { ar: النجّار, en: Carpenter (najjar), ur: بڑھئی (نجار) }, roles: [], ar_keys: [النجار, نجاراً, النجارة], hirfa: true }
+  - { id: job/blacksmith,     domain: building-making, kind: craft, label: { ar: الحدّاد, en: Blacksmith (haddad), ur: لوہار (حداد) }, roles: [], ar_keys: [الحداد, حداداً, الحدادة], hirfa: true }
+  - { id: job/goldsmith,      domain: building-making, kind: craft, label: { ar: الصائغ, en: Goldsmith (sa'igh), ur: سنار (صائغ) }, roles: [], ar_keys: [الصائغ, صائغاً, الصاغة, الصياغة], hirfa: true }
+  - { id: job/coppersmith,    domain: building-making, kind: craft, label: { ar: النحّاس, en: Coppersmith / metalworker, ur: ٹھٹھیرا (نحاس) }, roles: [], ar_keys: [النحاس, نحاساً, الصفار, التكفيت], hirfa: true }
+  - { id: job/armourer,       domain: building-making, kind: craft, label: { ar: صانع السلاح, en: Armourer / swordsmith, ur: اسلحہ ساز }, roles: [], ar_keys: [السيوف, السياف, صانع المدافع, صانع السلاح], hirfa: true }
+  - { id: job/instrument-maker, domain: building-making, kind: craft, label: { ar: الأسطرلابي, en: Instrument maker (asturlabi), ur: آلہ ساز (اسطرلابی) }, roles: [], ar_keys: [الأسطرلابي, صانع الأسطرلاب, صنع الآلات], hirfa: true }
+  - { id: job/potter,         domain: building-making, kind: craft, label: { ar: الخزّاف, en: Potter / tilemaker, ur: کمہار (خزاف) }, roles: [], ar_keys: [الخزاف, الخزف, الفخار, القيشاني], hirfa: true }
+  - { id: job/glassmaker,     domain: building-making, kind: craft, label: { ar: الزجّاج, en: Glassmaker (zajjaj), ur: شیشہ ساز }, roles: [], ar_keys: [الزجاج, زجاجاً, صناعة الزجاج], hirfa: true }
+  - { id: job/weaver,         domain: building-making, kind: craft, label: { ar: الحائك, en: Weaver (ha'ik / nassaj), ur: جولاہا (نساج) }, roles: [], ar_keys: [الحائك, النساج, النسيج, الحياكة, السجاد], hirfa: true }
+  - { id: job/tailor,         domain: building-making, kind: craft, label: { ar: الخيّاط, en: Tailor (khayyat), ur: درزی (خیاط) }, roles: [], ar_keys: [الخياط, خياطاً, الخياطة], hirfa: true }
+  - { id: job/dyer,           domain: building-making, kind: craft, label: { ar: الصبّاغ, en: Dyer (sabbagh), ur: رنگریز }, roles: [], ar_keys: [الصباغ, الصباغة], hirfa: true }
+  - { id: job/tanner,         domain: building-making, kind: craft, label: { ar: الدبّاغ, en: Tanner / leatherworker, ur: چرم ساز (دباغ) }, roles: [], ar_keys: [الدباغ, الدباغة, الخراز, الجلود], hirfa: true }
+  - { id: job/baker,          domain: building-making, kind: craft, label: { ar: الخبّاز, en: Baker (khabbaz), ur: نان بائی }, roles: [], ar_keys: [الخباز, خبازاً, الفران], hirfa: true }
+  - { id: job/butcher,        domain: building-making, kind: craft, label: { ar: الجزّار, en: Butcher (jazzar / qassab), ur: قصاب }, roles: [], ar_keys: [الجزار, القصاب, اللحام], hirfa: true }
+  - { id: job/cook,           domain: building-making, kind: service, label: { ar: الطبّاخ, en: Cook (tabbakh), ur: باورچی }, roles: [], ar_keys: [الطباخ, طباخاً, الطباخة], hirfa: true }
+  - { id: job/stonecutter,    domain: building-making, kind: craft, label: { ar: الحجّار, en: Stonecutter / stonemason (hajjar), ur: سنگ تراش }, roles: [], ar_keys: [الحجار, نحت الحجر, الحجارة, الرخام], hirfa: true, broader: job/builder }
+  - { id: job/plasterer,      domain: building-making, kind: craft, label: { ar: الجبّاص, en: Stucco worker (jabbas), ur: پلستر کار (جبّاص) }, roles: [], ar_keys: [الجبس, الجص, الزخرفة الجصية, الجباص], hirfa: true, broader: job/builder }
+  - { id: job/mosaicist,      domain: building-making, kind: craft, label: { ar: الفسيفسائي, en: Mosaicist, ur: پچی کاری کا ہنرمند }, roles: [], ar_keys: [الفسيفساء, الفصوص], hirfa: true, broader: job/builder }
+  - { id: job/zallij-maker,   domain: building-making, kind: craft, label: { ar: الزلّيجي, en: Zellij / tile mosaic maker, ur: زلیج (ٹائل موزیک) ساز }, roles: [], ar_keys: [الزليج, الزلايجي, القاشاني], hirfa: true, broader: job/potter }
+  - { id: job/cobbler,        domain: building-making, kind: craft, label: { ar: الإسكافي, en: Shoemaker / cobbler (iskafi / khaffaf), ur: موچی (اسکافی) }, roles: [], ar_keys: [الإسكافي, الخفاف, الأحذية, النعال, الخرازة], hirfa: true, broader: job/tanner }
+  - { id: job/saddler,        domain: building-making, kind: craft, label: { ar: السرّاج, en: Saddler (sarraj), ur: زین ساز (سراج) }, roles: [], ar_keys: [السراج, السروج, سراجاً], hirfa: true, broader: job/tanner }
+  - { id: job/embroiderer,    domain: building-making, kind: craft, label: { ar: الطرّاز, en: Embroiderer / tiraz worker, ur: کشیدہ کار (طراز) }, roles: [], ar_keys: [الطراز, التطريز, الطرازات, دار الطراز, المطرز], hirfa: true, broader: job/weaver }
+  - { id: job/felt-maker,     domain: building-making, kind: craft, label: { ar: اللبّاد, en: Felt-maker (labbad), ur: نمدہ ساز }, roles: [], ar_keys: [اللباد, اللبود, اللبّاد], hirfa: true, broader: job/weaver }
+  - { id: job/rope-maker,     domain: building-making, kind: craft, label: { ar: الحبّال, en: Rope-maker (habbal), ur: رسی ساز }, roles: [], ar_keys: [الحبّال, صناعة الحبال, الحبال والخيوط], hirfa: true }
+  - { id: job/mat-maker,      domain: building-making, kind: craft, label: { ar: الحصّار, en: Mat and basket maker (hassar / khawwas), ur: چٹائی اور ٹوکری ساز }, roles: [], ar_keys: [الحصار, الخواص, الحصر, الخوص, الحصير], hirfa: true }
+  - { id: job/soap-maker,     domain: building-making, kind: craft, label: { ar: الصابوني, en: Soap-maker (sabuni), ur: صابن ساز }, roles: [], ar_keys: [الصابوني, صناعة الصابون, مصبنة], hirfa: true }
+  - { id: job/candle-maker,   domain: building-making, kind: craft, label: { ar: الشمّاع, en: Candle-maker (shamma), ur: موم بتی ساز }, roles: [], ar_keys: [الشماع, الشموع, الشمع], hirfa: true }
+  - { id: job/oil-presser,    domain: building-making, kind: craft, label: { ar: الزيّات, en: Oil presser / oil seller (zayyat), ur: تیلی (زیات) }, roles: [], ar_keys: [الزيات, المعصرة, معصرة الزيت], hirfa: true }
+  - { id: job/miller,         domain: building-making, kind: craft, label: { ar: الطحّان, en: Miller (tahhan), ur: چکی والا }, roles: [], ar_keys: [الطحان, الطاحون, الطواحين, الرحى], hirfa: true, broader: job/baker }
+  - { id: job/sweet-maker,    domain: building-making, kind: craft, label: { ar: الحلواني, en: Confectioner (halwani), ur: حلوائی }, roles: [], ar_keys: [الحلواني, الحلوى, الحلويات], hirfa: true, broader: job/cook }
+  - { id: job/barber,         domain: building-making, kind: service, label: { ar: الحلاّق, en: Barber (hallaq / muzayyin), ur: حجام (نائی) }, roles: [], ar_keys: [الحلاق, المزين, الحلاقة, حلاقاً], hirfa: true, note: "the barber shaved and groomed; cupping and minor surgery are job/hajjam, often the same man" }
+  - { id: job/bath-attendant, domain: building-making, kind: service, label: { ar: الحمّامي, en: Bath keeper (hammami), ur: حمامی }, roles: [], ar_keys: [الحمامي, صاحب الحمام, الحمامات], hirfa: true }
+  - { id: job/water-carrier,  domain: building-making, kind: service, label: { ar: السقّاء, en: Water carrier (saqqa), ur: سقہ (ماشکی) }, roles: [], ar_keys: [السقاء, السقائين, سقاءً], hirfa: true }
+  - { id: job/launderer,      domain: building-making, kind: service, label: { ar: القصّار, en: Launderer / fuller (qassar), ur: دھوبی (قصار) }, roles: [], ar_keys: [القصار, القصارة, قصاراً], hirfa: true }
+  - { id: job/bow-maker,      domain: building-making, kind: craft, label: { ar: القوّاس, en: Bowyer (qawwas), ur: کمان ساز }, roles: [], ar_keys: [القواس, القسي, صناعة القوس], hirfa: true, broader: job/armourer }
+  - { id: job/luthier,        domain: building-making, kind: craft, label: { ar: صانع العود, en: Instrument maker (musical), ur: ساز ساز }, roles: [], ar_keys: [صانع العود, صناعة الآلات الموسيقية, صانع الآلات الموسيقية], hirfa: true }
+  - { id: job/mint-worker,    domain: building-making, kind: craft, label: { ar: الضرّاب, en: Mint worker / die-cutter (darrab / sakkak), ur: سکہ ساز }, roles: [], ar_keys: [دار الضرب, الضراب, السكة, سك النقود], hirfa: true }
   # ---------------------------------------------------------------- trade-travel-sea
   - { id: job/merchant,       domain: trade-travel-sea, kind: commercial, label: { ar: التاجر, en: Merchant (tajir), ur: تاجر }, roles: [merchant, businessman, entrepreneur], ar_keys: [التاجر, تاجراً, تاجرا, التجارة, رجل أعمال], first10: true }
-  - { id: job/attar,          domain: trade-travel-sea, kind: commercial, label: { ar: العطّار, en: Perfumer / druggist (attar), ur: عطار }, roles: [], ar_keys: [العطار, عطاراً, العطارة], broader: job/merchant }
+  - { id: job/attar,          domain: trade-travel-sea, kind: commercial, label: { ar: العطّار, en: Perfumer / druggist (attar), ur: عطار }, roles: [], ar_keys: [العطار, عطاراً, العطارة], broader: job/merchant, hirfa: true }
   - { id: job/sarraf,         domain: trade-travel-sea, kind: commercial, label: { ar: الصيرفي, en: Money-changer / banker (sarraf), ur: صراف }, roles: [banker], ar_keys: [الصيرفي, الصراف, الصرافة, الجهبذ, مصرفياً] }
   - { id: job/dallal,         domain: trade-travel-sea, kind: commercial, label: { ar: الدلّال, en: Broker (dallal / simsar), ur: دلال }, roles: [], ar_keys: [الدلال, السمسار, دلالاً] }
   - { id: job/slave-dealer,   domain: trade-travel-sea, kind: commercial, label: { ar: النخّاس, en: Slave dealer (nakhkhas), ur: غلاموں کا تاجر (نخاس) }, roles: [], ar_keys: [النخاس, النخاسة, تجارة الرقيق], note: "described, cited and never softened; the museum names the trade and attributes every judgement" }
+  - { id: job/baqqal,         domain: trade-travel-sea, kind: commercial, label: { ar: البقّال, en: Grocer (baqqal), ur: پنساری (بقال) }, roles: [], ar_keys: [البقال, البقالة, بقالاً], hirfa: true, broader: job/merchant }
+  - { id: job/bazzaz,         domain: trade-travel-sea, kind: commercial, label: { ar: البزّاز, en: Cloth merchant (bazzaz), ur: بزاز }, roles: [], ar_keys: [البزاز, البز, بزازاً, سوق البزازين], hirfa: true, broader: job/merchant }
+  - { id: job/shipwright,     domain: trade-travel-sea, kind: craft, label: { ar: القلفاط, en: Shipwright (qalfat), ur: جہاز ساز }, roles: [], ar_keys: [القلفاط, نجار السفن, بناء السفن, دار الصناعة], hirfa: true }
   - { id: job/caravan-leader, domain: trade-travel-sea, kind: commercial, label: { ar: قائد القافلة, en: Caravan leader, ur: قافلہ سالار }, roles: [], ar_keys: [قائد القافلة, أمير الركب, أمير الحاج, القافلة] }
   - { id: job/guide,          domain: trade-travel-sea, kind: service, label: { ar: الدليل, en: Desert guide (dalil / khirrit), ur: رہبر (دلیل) }, roles: [guide], ar_keys: [دليلاً, الخريت, الدليل في] }
   - { id: job/mutawwif,       domain: trade-travel-sea, kind: service, label: { ar: المطوّف, en: Pilgrim guide (mutawwif), ur: مطوف }, roles: [], ar_keys: [المطوف, مطوفاً, الطوافة] }
   - { id: job/ship-captain,   domain: trade-travel-sea, kind: commercial, label: { ar: الربّان, en: Ship captain (rubban / nakhuda), ur: جہاز کا کپتان (ناخدا) }, roles: [navigator], ar_keys: [الربان, ربّاناً, الناخوذة, النوخذة, المعلم البحري] }
   - { id: job/sailor,         domain: trade-travel-sea, kind: service, label: { ar: البحّار, en: Sailor (bahhar), ur: ملاح }, roles: [], ar_keys: [البحار, بحاراً, الملاح, النوتي] }
-  - { id: job/pearl-diver,    domain: trade-travel-sea, kind: craft, label: { ar: الغوّاص, en: Pearl diver (ghawwas), ur: غوطہ خور (موتی) }, roles: [], ar_keys: [الغواص, الغوص, اللؤلؤ] }
+  - { id: job/pearl-diver,    domain: trade-travel-sea, kind: craft, label: { ar: الغوّاص, en: Pearl diver (ghawwas), ur: غوطہ خور (موتی) }, roles: [], ar_keys: [الغواص, الغوص, اللؤلؤ], hirfa: true }
   - { id: job/traveller,      domain: trade-travel-sea, kind: scholarly, label: { ar: الرحّالة, en: Traveller (rahhala), ur: سیاح }, roles: [traveler, traveller, explorer], ar_keys: [الرحالة, رحالة, رحلته, الرحلة] }
   - { id: job/porter,         domain: trade-travel-sea, kind: service, label: { ar: الحمّال, en: Porter (hammal), ur: مزدور (حمال) }, roles: [], ar_keys: [الحمال, حمالاً] }
   # ---------------------------------------------------------------- war-command

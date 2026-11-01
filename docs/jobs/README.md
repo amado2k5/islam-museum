@@ -1,12 +1,12 @@
 # Job Browser: master plan
 
-Status: **Phase 0, planning only.** No data, schema, site or i18n change is made under this plan until the founder answers section 9. Owner: the founder. Drafted 1 November 2026 by Claude Code (claude-fable-5-1) from the founder's operative prompt of the same day and a census of `origin/main` at `cc4ec8eeec`.
+Status: **Phase 0, planning only.** No data, schema, site or i18n change is made under this plan until the founder answers section 9. Owner: the founder. Drafted 1 November 2026 by Claude Code (claude-fable-5-1) from the founder's operative prompt of the same day and a census of `origin/main` at `cc4ec8eeec`; amended the same day on the founder's instruction that the jobs include the crafts and trades (الحِرَف والصنائع) within them (section 3a).
 
 Companion files in this folder:
 
 | File | What it holds |
 |---|---|
-| [`taxonomy.yaml`](taxonomy.yaml) | The job list (157 jobs, 14 domains), the roles merge map, the descriptor and review lists. The source of truth for Phase 1 and 2 data. |
+| [`taxonomy.yaml`](taxonomy.yaml) | The job list (184 jobs, 14 domains, 53 of them crafts), the roles merge map, the descriptor and review lists. The source of truth for Phase 1 and 2 data. |
 | [`taxonomy.md`](taxonomy.md) | The same list as a table with holder counts and prose leads from the census. Generated, never hand-edited. |
 | [`schema.md`](schema.md) | The `job` entity, the person `occupations:` block, the `jobs:` block on things, the validator rules, the derived edges. |
 | [`site.md`](site.md) | The browser home, the job page, the career strip, discovery, API and the progressive-visibility rule, mapped to the files they touch. |
@@ -18,7 +18,7 @@ Lane registration: `docs/agents/lanes.md` (lane `jobs`), `docs/status.md`. The c
 
 ## 1. Mission, in two halves
 
-**A. A rich entity for every job** of Islamic history and of Muslims: `data/job/<slug>.yaml` plus a full trilingual article in `content/{ar,en,ur}/job/<slug>.md`, Arabic first, answering the seventeen questions of the founder's brief (origins, famous names, evolution, politics and economy, geography, lifespan, workplace, tools, output, names by era, organisation, training, secrets and traditions, gatherings, travel, references, image).
+**A. A rich entity for every job** of Islamic history and of Muslims, the crafts and trades among them (the weaver, the potter, the coppersmith and the water carrier beside the qadi and the vizier): `data/job/<slug>.yaml` plus a full trilingual article in `content/{ar,en,ur}/job/<slug>.md`, Arabic first, answering the seventeen questions of the founder's brief (origins, famous names, evolution, politics and economy, geography, lifespan, workplace, tools, output, names by era, organisation, training, secrets and traditions, gatherings, travel, references, image).
 
 **B. A total sweep of the museum**: every person record gets an `occupations:` block, and objects, buildings, works, groups, events, places and journeys get a `jobs:` block, so that every job page lists everyone and everything connected to it and every person page shows a working life.
 
@@ -81,6 +81,7 @@ The brief invites a swap if the census argues for one. It argues against two: co
 | object | 517 | kinds: folio 88, ceramic 74, manuscript 52, metalwork 45, tile 33, textile 29; astrolabe 4, instrument 6, coin 1. Tools of the trades are thin; the tools section of each job will link what exists and record the rest as leads. |
 | building | 5,664 | mosque 2,359, tomb 2,311, madrasa 339, palace 337, fort 104, bazaar 15, khan 8, bimaristan 7, library 4, hammam 3, observatory 1. Workplaces exist in bulk; staffing them is Phase 4. |
 | work | 1,588 | `work/maalim-al-qurba-fi-ahkam-al-hisba`, `work/al-muqaddima`, `work/al-fihrist`, eleven `tabaqat-*` works already exist. |
+| crafts layer | 1 practice, 1 guild | `practice/attar-druggist` is the museum's only `practice` of kind `craft` (of 67 practices); `group/akhi-associations` its only guild; `schema/enums/materials.yaml` (paper, parchment, ink, gold, silver, brass, bronze, copper, glass, ceramic, stone, marble, brick, wood, ivory, textile, wool, silk, cotton, leather) and the `made` / `made_in` predicates already describe what objects are made of and by whom; the Made wing (`docs/plan/11-made-directory.md`) lists crafts as a listing category but holds no craft listing yet. The crafts shelf of section 3a is built on these. |
 | person relations | 2,818 records with relations | `student_of` 267, `teacher_of` 17, `member_of` 689, `ruler_of` 133, `patron_of` 12, `authored` 154. The teacher–student signal is present but thin: under 3% of persons carry it. |
 | periods | 7,662 records with a period | 3,063 persons have none, which is why the first-ten timeline bands show a "none" column. |
 | prose | 7,619 Arabic, 7,597 English, 7,597 Urdu | about 3,100 persons have no prose to sweep; their occupations come from `summary.ar` and the sources alone. |
@@ -99,28 +100,39 @@ Sources already defined that the research method (Part D) names: `source/encyclo
 
 ## 3. The taxonomy, in one view
 
-157 jobs across 14 domains, each with a `kind` (office, craft, scholarly, religious, commercial, military, medical, artistic, service, administrative, modern-profession). Full table: [`taxonomy.md`](taxonomy.md).
+184 jobs across 14 domains, 53 of them crafts (section 3a), each with a `kind` (office, craft, scholarly, religious, commercial, military, medical, artistic, service, administrative, modern-profession). Full table: [`taxonomy.md`](taxonomy.md).
 
-| Domain | Jobs | Holders from roles |
-|---|---:|---:|
-| Governance & Law | 23 | 2,856 |
-| Court & Administration | 10 | 183 |
-| Scholarship & Teaching | 15 | 4,079 |
-| Faith & Preaching | 10 | 265 |
-| Medicine & Care | 10 | 102 |
-| Sciences & Numbers | 11 | 131 |
-| Arts & Letters | 12 | 2,066 |
-| Building & Making | 17 | 11 |
-| Trade, Travel & the Sea | 13 | 75 |
-| War & Command | 7 | 260 |
-| Media & Performance | 12 | 340 |
-| Sport | 6 | 238 |
-| Patronage & Public Life | 4 | 210 |
-| Land & Water (proposed) | 7 | 1 |
+| Domain | Jobs | Of them crafts | Holders from roles |
+|---|---:|---:|---:|
+| Governance & Law | 23 | 0 | 2,856 |
+| Court & Administration | 10 | 0 | 183 |
+| Scholarship & Teaching | 15 | 0 | 4,079 |
+| Faith & Preaching | 10 | 0 | 265 |
+| Medicine & Care | 10 | 1 | 102 |
+| Sciences & Numbers | 11 | 1 | 131 |
+| Arts & Letters | 14 | 8 | 2,066 |
+| Crafts, Building & Making | 39 | 38 | 11 |
+| Trade, Travel & the Sea | 16 | 5 | 75 |
+| War & Command | 7 | 0 | 260 |
+| Media & Performance | 12 | 0 | 340 |
+| Sport | 6 | 0 | 238 |
+| Patronage & Public Life | 4 | 0 | 210 |
+| Land & Water (proposed) | 7 | 0 | 1 |
 
-Hierarchy: a job may name a `broader` job (caliph, sultan, emir, king, khan and shah under ruler; qadi al-qudat and kazasker under qadi; surgeon and oculist under physician; grand vizier under vizier). The browser shows the family; counts never double.
+Hierarchy: a job may name a `broader` job (caliph, sultan, emir, king, khan and shah under ruler; qadi al-qudat and kazasker under qadi; surgeon and oculist under physician; grand vizier under vizier; stonecutter, plasterer and mosaicist under builder; cobbler and saddler under tanner; embroiderer and felt-maker under weaver). The browser shows the family; counts never double.
 
 The census-missed classical professions the brief names are all in: copyist, muhtasib, muezzin, imam (with the mosque as `place`), astrologer, translator, ship captain, caravan leader, money-changer, librarian, waqf administrator. Added from the hisba and craft literature: sahib al-shurta, hajib, treasurer, amil, sahib al-barid, notary witness, hakam, qass, sadin, muwaqqit, kahhal, hajjam, midwife, baytar, rawi, illuminator, bookbinder, papermaker, instrument maker, the market crafts (baker, butcher, cook, weaver, dyer, tanner, potter, glassmaker, goldsmith, coppersmith, blacksmith, carpenter, builder, armourer), attar, dallal, nakhkhas, mutawwif, pearl diver, porter, ghazi, mamluk, janissary, hakawati, jester, wrestler, archer, horseman, waqif. The taxonomy is append-only after approval; Phase 2 adds what the sources surface, each addition recorded in `progress.md`.
+
+### 3a. The crafts and trades (الحِرَف والصنائع) within the jobs
+
+Founder's instruction, 1 November 2026: the jobs include the crafts. The plan makes the craft a first-class layer of the browser rather than a separate list:
+
+- **A cross-cutting flag.** Every hand craft or trade carries `hirfa: true` in the taxonomy and on its entity, whatever its domain: the calligrapher, copyist, illuminator, painter, engraver, inkmaker, bookbinder and papermaker in Arts & Letters; the 38 making crafts; the perfumer, grocer, cloth merchant, shipwright and pearl diver in Trade; the cupper in Medicine; the cartographer in Sciences. 53 jobs today. The browser home gets a crafts shelf (`/[lang]/jobs/#crafts`), and every craft page says it is one.
+- **The making domain is renamed** Crafts, Building & Making (الحِرَف والصنائع والبناء) and grows from 17 to 39 jobs: the hisba manuals' market crafts (baker, miller, confectioner, butcher, cook, oil presser, grocer, cloth merchant, perfumer), the textile chain (weaver, embroiderer and tiraz worker, felt-maker, dyer, tailor, launderer), leather (tanner, cobbler, saddler), metal (blacksmith, coppersmith, goldsmith, armourer, bowyer, mint worker), building (builder, stonecutter, stucco worker, mosaicist, zellij maker, carpenter), fire crafts (potter and tilemaker, glassmaker), fibre (rope-maker, mat and basket maker), household (soap-maker, candle-maker), service trades (barber, bath keeper, water carrier) and instrument making (astrolabes; musical instruments).
+- **A craft block on the job entity** (`schema.md` section 1a): materials from `schema/enums/materials.yaml`, techniques, the guild (ta'ifa / sinf / esnaf) and its shaykh, the apprenticeship grades (mubtadi', sani', mu'allim; shagird, kalfa, usta), the shadd initiation and the futuwwa oath, the craft's pir or patron figure as the guild named him, makers' marks and workshop signatures, the living status with the UNESCO intangible-heritage file where one exists, and a link to the craft as a cultural practice (`practice/` of kind `craft`, written when missing) and to the Made wing's listings for the living trade.
+- **Census.** The crafts have 113 holders from roles (109 of them calligraphers) and 959 prose leads across 885 persons: engraver 75, carpenter 68, mat-maker 63, builder 56, coppersmith 46, painter 45, saddler 38, blacksmith 32, stonecutter 31, tailor 30. Many of these leads are nisbas (الحدّاد, النجّار, الصائغ) that became family names, which is why they are leads and not holders; the sweep reads each record. The crafts shelf is therefore built from the sources and the things (517 objects with a `kind` and a material; the `made` edges) more than from the roles.
+- **Sources** (`research.md` section 2a): Ibn Khaldun's chapters on the crafts, the two hisba manuals, Ibn al-Mi'mar's *Kitab al-Futuwwa*, Evliya Çelebi's procession of the Istanbul guilds, Elias Qudsi's 1885 notice on the Damascus guilds, the EI2 articles *Ṣinf*, *Futuwwa* and *Ḥisba*, Baer, Raymond and Faroqhi on the guilds, the UNESCO files, and the collection catalogues for the tools and the output.
+- **Sweep.** Phase 2 writes the crafts in two dedicated waves with their guild bodies; Phase 4 tags the objects to their crafts through `made-by` and `used-by` ties, using the object's `kind` and material to open the lead and the object's sources to settle it.
 
 ## 4. The merge map, headlines
 
@@ -142,7 +154,7 @@ The bootstrap rule (decision 4): a mapped role becomes one `occupations:` entry 
 Detail and the validator rules: [`schema.md`](schema.md).
 
 - New class `job` (21 classes become 22): `CLASSES` in `scripts/lib.ts`, `scripts/gen-schema.ts` and `site/src/pages/api/v1/meta/index.json.ts`; `kinds.yaml` gains `job:`; a new enum `schema/enums/job-domains.yaml`; the generated `schema/job.schema.json`.
-- Job entity fields: `label`, `names`, `summary`, `domain`, `kind`, `broader`, `era` (`origins`, `first_attested` as a date block, `status_today`, `successor_jobs`), `places` (dated peak places), `regions`, `organization` (`organized`, `bodies`), `training` (`mode`, `certification`, `duration`), `tools`, `workplaces`, `outputs`, `media`, `sources`, `provenance`, `status`.
+- Job entity fields: `label`, `names`, `summary`, `domain`, `kind`, `hirfa`, `broader`, `craft` (section 3a), `era` (`origins`, `first_attested` as a date block, `status_today`, `successor_jobs`), `places` (dated peak places), `regions`, `organization` (`organized`, `bodies`), `training` (`mode`, `certification`, `duration`), `tools`, `workplaces`, `outputs`, `media`, `sources`, `provenance`, `status`.
 - Person `occupations:` entries: `job`, `kind`, `start`, `end`, `place`, `polity`, `under`, `trained_under`, `certification`, `family_business`, `status`, `note`, `sources` (required).
 - `jobs:` entries on object, building, work, group, event, place and journey: `job`, `relation` (made-by, used-by, built-by, staffed-by, reference-for, body-of, gathering-of, produced-by, workplace-of, route-of), `status`, `note`, `sources` (required).
 - Derived edges, written by `scripts/build-graph.ts` and never by hand: `practised` (person to job, inverse `practised_by`) and `tied_to` (thing to job, inverse `things_of`), registered in `schema/predicates.yaml` with `derived: true` so the graph page can label them.
@@ -153,7 +165,7 @@ Detail and the validator rules: [`schema.md`](schema.md).
 
 Detail and the files it touches: [`site.md`](site.md). Everything static, Arabic first, three editions, no runtime AI, readable without JavaScript.
 
-- `/[lang]/jobs/`: domains, A to Z, a filter box that narrows the list client-side (the trails index pattern), per-job holder counts, the "in the making" badge and status panel in the trails index's exact markup and tokens, a "newest" strip ordered by git date.
+- `/[lang]/jobs/`: domains, a crafts shelf, A to Z, a filter box that narrows the list client-side (the trails index pattern), per-job holder counts, the "in the making" badge and status panel in the trails index's exact markup and tokens, a "newest" strip ordered by git date.
 - `/[lang]/job/<slug>/`: the standard entity page (`[class]/[slug].astro` builds it with no allowlist) with job sections: prose; image; the holders rail grouped by period with filters (period, region, kind, held more than once); a timeline band of holders (a static SVG in the `TimeStrip` manner); the things, workplaces, bodies and references of the job; related jobs with predecessor and successor first.
 - Person pages: a `CareerStrip` component above the Connections section, overlapping bars per occupation (job, place, years, kind), falling back to today's roles line when a record has no `occupations:`.
 - Discovery: `jobs` in the Explore row and the Explore menu (`nav.ts`, `Landing.astro`, `BaseLayout.astro`), `class.job` and `explore.pages.jobs` i18n keys in all three files in the same commit; the Timeline Explorer filter and the shared-job graph view are Phase 5.
@@ -172,7 +184,7 @@ Detail and the files it touches: [`site.md`](site.md). Everything static, Arabic
 |---|---|---|---|---|
 | 0 | Plan and taxonomy | This folder | done in this PR | founder's go (section 9) |
 | 1 | The first ten, end to end | 10 job entities and articles, their sources, bootstrap and targeted holders, `/jobs/`, `/job/`, career strip, API | about 10 jobs × 3 languages × 17 sections; 1,149 bootstrap holders; about 3,400 leads to read for the ten; the site change | `submission-impacting` sign-off; validate "0 errors"; cite-check "0 fail"; build; live check after the founder deploys |
-| 2 | All job entities | 147 remaining jobs in 14 domain waves of about 10 | 15 waves at the Phase 1 pace per job | validate and cite-check per wave |
+| 2 | All job entities | 174 remaining jobs in domain waves of about 10, the crafts in two waves with their guild bodies | 18 waves at the Phase 1 pace per job | validate and cite-check per wave |
 | 3 | The person sweep | `occupations:` on 10,725 persons: a mechanical bootstrap (7,555 records) in chunks, then the prose sweep in waves of 25, office jobs first | 429 batches at 25; the bootstrap is 16 chunks of about 500 files | validate, cite-check, and the agreement check per batch |
 | 4 | Things, buildings, works, groups, events | `jobs:` on attested records; kind-level links (a mosque's imam) are display-only, never written as attestation | sized by the Phase 1 pilot on the ten jobs' things | same gates |
 | 5 | Discovery layer | Modern crosswalk as a labelled analogy page; job trails; Explorer filter; shared-job graph view | one site change and about 6 trails | same gates plus build |
@@ -181,7 +193,7 @@ Each phase report says what merged, what the validate and cite-check lines were,
 
 ## 9. Founder decision points
 
-1. **Approve the taxonomy and domains** (blocks everything): 157 jobs, 14 domains including the proposed Land & Water, the `broader` hierarchy, the descriptor list and the review list.
+1. **Approve the taxonomy and domains** (blocks everything): 184 jobs, 14 domains including the proposed Land & Water and the renamed Crafts, Building & Making, the `broader` hierarchy, the descriptor list and the review list.
 2. **The first ten**: keep the brief's ten (recommended; copyist and architect start from leads), or swap copyist for faqih.
 3. **`scholar` and `roles:`**: accept `scholar` (3,063) mapping to the generic `job/alim` with Phase 3 refinement, and accept that `roles:` survives only for descriptors, with the enum split.
 4. **The bootstrap rule**: one occupation per mapped role, the record's own sources, `status: historical`, the bootstrap note, applied by script in chunks of about 500 files per pull request rather than 25 (a mechanical normalisation re-run on fresh `main`, as the merge gate describes for generated changes).
@@ -190,7 +202,8 @@ Each phase report says what merged, what the validate and cite-check lines were,
 7. **Submission-impacting sign-off** for Phase 1's class and API change, with the claims register and evidence map updated in the same commit (`docs/ai-change-gates.md` section 3).
 8. **Images**: reuse existing `media` entities first; a new illustration enters only through the illustrations lane's automated gates and whitelist (`docs/agents/lanes/illustrations.md`), never a portrait, never a prophet or Companion; confirm that no job page waits for an image.
 9. **Lane registration**: one lane `jobs` (branch `jobs/<phase>-<agent>`, stubs `data/_stubs.d/jobs.yaml`, progress `docs/jobs/progress.md`), added to `docs/agents/lanes.md` and `docs/status.md` in this PR as planning-only rows.
-10. **Phase 3 parallelism**: the person sweep rides the modern-figures wave machinery (two writers, 5+5, coordinator merge). Confirm the writers may touch `data/person/` records that other live lanes (ei2, prose-backfill-2, wikidata-import) also edit, with the append-only rule: a sweep batch adds `occupations:` and touches nothing else in the file.
+10. **The crafts layer** (section 3a): the `hirfa` flag and crafts shelf, the craft block with the materials enum, the grades, the shadd and the pir; a `practice/` record of kind `craft` written for every living craft that lacks one; the Made wing link for the living trade.
+11. **Phase 3 parallelism**: the person sweep rides the modern-figures wave machinery (two writers, 5+5, coordinator merge). Confirm the writers may touch `data/person/` records that other live lanes (ei2, prose-backfill-2, wikidata-import) also edit, with the append-only rule: a sweep batch adds `occupations:` and touches nothing else in the file.
 
 ## 10. Risks
 
