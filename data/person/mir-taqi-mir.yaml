@@ -1,0 +1,63 @@
+id: person/mir-taqi-mir
+class: person
+
+label: { ar: "مير تقي مير", en: "Mir Taqi Mir", ur: "میر تقی میر" }
+
+names:
+  - { value: "مير محمد تقي", kind: full }
+  - { value: "Mir Muhammad Taqi", kind: full }
+  - { value: "Mir", kind: pen }
+
+gender: male
+
+summary:
+  ar: "مير محمد تقي، المعروف بمير تقي مير (1723 – 20 سبتمبر 1810)، شاعر أردي من الهند المغولية، وأحد مؤسسي الغزل الأردي الكلاسيكي، يُلقَّب بخدا سخن أي إله الشعر. وُلد في أغرا ونشأ في دلهي التي أحبها وكتب مراثيها عند نهبها، ثم انتقل إلى بلاط آصف الدولة في لكناو حيث قضى بقية عمره. ترك سيرته الذاتية «ذكر مير» وديواناً ضخماً غلب عليه الحزن والوجد."
+  en: "Mir Muhammad Taqi, known as Mir Taqi Mir (1723 – 20 September 1810), was an Urdu poet of Mughal India and one of the founders of the classical Urdu ghazal, remembered as Khuda-e-Sukhan, the god of poetry. Born at Agra, he lived his prime at Delhi, whose sackings his verse mourns, then moved to Asaf-ud-Daula's court at Lucknow for the rest of his life. He left an autobiography, Zikr-e-Mir, and a vast diwan marked by grief and longing."
+  ur: "میر محمد تقی، معروف بہ میر تقی میر (1723ء – 20 ستمبر 1810ء)، مغلیہ ہندوستان کے اردو شاعر اور کلاسیکی اردو غزل کے بانیوں میں سے تھے، جنھیں خداے سخن کہا جاتا ہے۔ آگرہ میں پیدا ہوئے، دہلی میں پروان چڑھے جس کی بربادی کا دکھ ان کے کلام میں نمایاں ہے، پھر لکھنؤ میں آصف الدولہ کے دربار سے وابستہ ہو کر بقیہ زندگی وہیں گزاری۔ انھوں نے اپنی سوانح ”ذکرِ میر“ اور غم و اشتیاق سے بھرپور ایک ضخیم دیوان چھوڑا۔"
+
+roles: [poet]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1723"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article's infobox gives February 1723 and its text August or February 1723, the Arabic article August or September 1723, all at Agra; C. M. Naim's edition of the Zikr-e-Mir dates him 1725–1810 in its title, and some modern writing gives 1722. Wikidata's 28 May 1723 at day precision is supported by no article and is not adopted. The year 1723 is built with the readings preserved here. A bare year spanning two Hijri years, no Hijri year is recorded."
+  sources: [source/wikipedia-mir-taqi-mir-en, source/wikipedia-mir-taqi-mir-ar, source/wikidata-mir-taqi-mir]
+
+died:
+  edtf: "1810-09-20"
+  hijri: "1225"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree at day precision on 20 September 1810, at Lucknow, where he had lived at Asaf-ud-Daula's court; the Urdu article gives the year 1810 and his age as 87. The Hijri year is derived by tabular conversion of that date. Lucknow has no museum place record yet, so no died_in edge is written."
+  sources: [source/wikipedia-mir-taqi-mir-en, source/wikipedia-mir-taqi-mir-ur, source/wikidata-mir-taqi-mir]
+
+relations:
+  - { type: born_in, target: place/agra, sources: [source/wikipedia-mir-taqi-mir-en, source/wikipedia-mir-taqi-mir-ar] }
+  - { type: lived_in, target: place/delhi, sources: [source/wikipedia-mir-taqi-mir-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or sect for the man himself, and the readings that surround him do not settle one. The Urdu article's infobox gives Islam alone, as does Wikidata. His father kept a religious household with a Sufi temperament and a following of murids, and his verse is steeped in Sufi themes — family background and literary colouring, which never count as personal attestation. The Arabic article speculates that he may have practised the Malamati current of the Sufi tradition, stated only as a possibility about a poetic stance. His own most quoted couplet on the subject playfully refuses every label. Under the doubt rule his faith is recorded unknown, with the readings preserved here."
+    sources: [source/wikipedia-mir-taqi-mir-en, source/wikipedia-mir-taqi-mir-ar, source/wikipedia-mir-taqi-mir-ur, source/wikidata-mir-taqi-mir]
+
+external_ids: { wikidata: "Q1771132" }
+
+sources:
+  - source/wikipedia-mir-taqi-mir-en
+  - source/wikipedia-mir-taqi-mir-ar
+  - source/wikipedia-mir-taqi-mir-ur
+  - source/wikidata-mir-taqi-mir
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1370240136 of 19 August 2026), Arabic Wikipedia (revision 75830108 of 7 July 2026), Urdu Wikipedia (revision 11800327 of 18 August 2026) and Wikidata Q1771132 (item revision 2559791820), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic article's agrees) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub; the other Mir records on main are other men. The born_in and lived_in edges are written here per the lane's write-once rule."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-162j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

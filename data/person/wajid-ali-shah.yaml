@@ -1,0 +1,76 @@
+id: person/wajid-ali-shah
+class: person
+
+label: { ar: "واجد علي شاه", en: "Wajid Ali Shah", ur: "واجد علی شاہ" }
+
+names:
+  - { value: "أبو المنصور ميرزا محمد واجد علي شاه", kind: full }
+  - { value: "Abul Mansoor Mirza Muhammad Wajid Ali Shah", kind: full }
+  - { value: "Wajid Ali Shah", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "أبو المنصور ميرزا محمد واجد علي شاه (30 يوليو 1822 – 1887)، آخر ملوك أوده، حكم من 1847 حتى ضمّ البريطانيون دولته سنة 1856 فنفوه إلى متيابروز بكلكتا، حيث عاش بقية عمره وبنى حسينية سبطين آباد ودُفن فيها. كان شاعراً وكاتباً غزير الإنتاج وراعياً عظيماً للفنون، أعاد إحياء رقص الكاثاك وجعل لكناو في عهده مركزاً للثقافة."
+  en: "Abu al-Mansur Mirza Muhammad Wajid Ali Shah (30 July 1822 – 1887) was the eleventh and last King of Awadh, reigning from 1847 until the British annexed his state in 1856 and exiled him to Metiabruz, Calcutta, where he lived out his life, built the Sibtainabad Imambara and was buried in it. He was a poet and prolific writer and a great patron of the arts who revived Kathak dance and made Lucknow a cultural capital."
+  ur: "ابو المنصور مرزا محمد واجد علی شاہ (30 جولائی 1822ء – 1887ء) اودھ کے گیارہویں اور آخری بادشاہ تھے، 1847ء سے حکمران رہے حتیٰ کہ 1856ء میں انگریزوں نے ان کی ریاست ضم کر کے انھیں کلکتہ کے مٹیابرج جلا وطن کر دیا، جہاں انھوں نے بقیہ زندگی گزاری، سبطین آباد امام باڑہ بنوایا اور وہیں دفن ہوئے۔ وہ شاعر اور کثیر التصانیف مصنف تھے اور فنون کے عظیم سرپرست، جنھوں نے کتھک رقص کو از سر نو زندہ کیا اور لکھنؤ کو ثقافت کا مرکز بنایا۔"
+
+roles: [sultan, poet]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1822-07-30"
+  hijri: "1237"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English and Arabic articles and Wikidata agree at day precision on 30 July 1822, at Lucknow; the Arabic article pairs the date with 12 Dhu al-Qa'da 1237 AH. His father was Amjad Ali Shah, who has no museum person record yet, so no child_of edge is written. Lucknow has no museum place record yet, so no born_in edge is written."
+  sources: [source/wikipedia-wajid-ali-shah-en, source/wikipedia-wajid-ali-shah-ar, source/wikidata-wajid-ali-shah]
+
+died:
+  edtf: "1887-09-01"
+  hijri: "1304"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The English article's lead and infobox and the Arabic article give 1 September 1887, the Arabic article pairing it with 13 Dhu al-Hijja 1304 AH; Wikidata gives 21 September 1887. The two articles' date is built and the split recorded here. He died at Metiabruz, Calcutta, and was buried in the Sibtainabad Imambara there. Calcutta has no museum place record yet, so no died_in edge is written."
+  sources: [source/wikipedia-wajid-ali-shah-en, source/wikipedia-wajid-ali-shah-ar, source/wikidata-wajid-ali-shah]
+
+relations: []
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: >-
+      Settled under the founder's mapping of 1 November 2026 — two
+      independent texts stating Shia for the man, in a Twelver context,
+      settle shia-twelver with the mapping stated. The Arabic article
+      gives his religion in its infobox as Muslim Shia, and the English
+      Oudh State article states in its body text, citing the
+      Encyclopaedia of Islam, that the Nawabs of Oudh were Shia Muslims
+      who promoted Shia as the state religion. The Twelver context is
+      his own documented practice — in exile at Metiabruz he built the
+      Sibtainabad Imambara, a Husainiya for the Muharram rites, and was
+      buried in it. Wikidata's religion values (Islam and Shia Islam)
+      are structured data and were not counted; the settlement does not
+      rest on his descent or his throne, which never count by
+      themselves. The English article's infobox religion field is empty
+      and its body never names his religion.
+    sources: [source/wikipedia-wajid-ali-shah-ar, source/wikipedia-oudh-state-en, source/wikipedia-wajid-ali-shah-en]
+
+external_ids: { wikidata: "Q3635804" }
+
+sources:
+  - source/wikipedia-wajid-ali-shah-en
+  - source/wikipedia-wajid-ali-shah-ar
+  - source/wikipedia-wajid-ali-shah-ur
+  - source/wikidata-wajid-ali-shah
+  - source/wikipedia-oudh-state-en
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380741169 of 17 October 2026), Arabic Wikipedia (revision 73819122 of 8 March 2026), Urdu Wikipedia (revision 11800218 of 18 August 2026), the existing English Wikipedia Oudh State source and Wikidata Q3635804 (item revision 2530796553), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles' agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. His wife Begum Hazrat Mahal (born about 1820) has a record from an earlier lane wave and is the elder spouse, so under the write-once rule the spouse_of edge belongs in her record, which this wave does not edit; no relations are written here, and his father Amjad Ali Shah and son Birjis Qadr have no records yet."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-162j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

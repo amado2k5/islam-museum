@@ -1770,11 +1770,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Bahadur Shah Zafar — 1775–1862
 - [x] Nawab Asaf-ud-Daula — 1748–1797
 - [x] Nawab Shuja-ud-Daula — 1732–1775
-- [ ] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803
-- [ ] Nawab Wajid Ali Shah — 1822–1887
-- [ ] Haji Shariatullah — 1781–1840
-- [ ] Mir Taqi Mir — 1723–1810
-- [ ] Khwaja Mir Dard — 1721–1785
+- [x] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803
+- [x] Nawab Wajid Ali Shah — 1822–1887
+- [x] Haji Shariatullah — 1781–1840
+- [x] Mir Taqi Mir — 1723–1810
+- [x] Khwaja Mir Dard — 1721–1785
 - [ ] Nazir Akbarabadi — 1735–1830
 - [ ] Insha Allah Khan Insha — 1756–1817
 - [ ] Bulleh Shah — 1680–1757
