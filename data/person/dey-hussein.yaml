@@ -1,0 +1,76 @@
+id: person/dey-hussein
+class: person
+
+label: { ar: "الداي حسين", en: "Hussein Dey", ur: "الدای حسین" }
+
+names:
+  - { value: "Hüseyin bin Hüseyin", kind: full }
+  - { value: "حسين بن حسين", kind: full }
+  - { value: "al-Hajj Hussein Pasha", kind: laqab }
+  - { value: "Hussein II", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "الداي حسين (وُلد باسم حسين بن حسين؛ 1765 أو 1773 – 1838) هو الداي السابع والعشرون والأخير لإيالة الجزائر العثمانية، حكم من 1 مارس 1818 حتى الغزو الفرنسي سنة 1830. كان ضابط مدفعية أناضوليًا ترقّى في أوجاق الجزائر حتى صار خوجة الخيل، واشتهر بحادثة المروحة في 29 أبريل 1827 حين ضرب القنصل الفرنسي بيار دوفال بمروحته، وهي الحادثة التي اتخذتها فرنسا ذريعة لحصار الجزائر ثم غزوها. سلّم مدينة الجزائر في 5 يوليو 1830 ونُفي إلى إيطاليا، ثم استقر في الإسكندرية حيث توفي سنة 1838؛ وما يزال أحد أحياء العاصمة الجزائرية وفريقه لكرة القدم يحملان اسمه."
+  en: "Hussein Dey (born Hüseyin bin Hüseyin; 1765 or 1773 – 1838) was the twenty-seventh and last Dey of the Regency of Algiers, ruling from 1 March 1818 until the French invasion of 1830. An Anatolian artillery officer who rose through the Odjak of Algiers to become Khodjet al-khil, the minister for cavalry and taxes, he is remembered for the fly-whisk incident of 29 April 1827, when he struck the French consul Pierre Deval with his fly whisk — the slight France used as the pretext for its blockade and then its invasion of Algiers. He surrendered the city on 5 July 1830, was exiled to Italy, settled at Alexandria and died there in 1838; a suburb of Algiers and its football club still bear his name."
+  ur: "الدای حسین (پیدائشی نام حسین بن حسین؛ 1765ء یا 1773ء – 1838ء) عثمانی ایالتِ الجزائر کے ستائیسویں اور آخری دای تھے، 1 مارچ 1818ء سے 1830ء کے فرانسیسی حملے تک حکمران رہے۔ اناطولیہ کے توپ خانے کے افسر تھے، الجزائر کے اوجاق میں ترقی پا کر خوجۂ خیل (گھڑ سوار فوج اور محصولات کے وزیر) بنے، اور 29 اپریل 1827ء کے «واقعۂ مروّحہ» سے مشہور ہوئے جب انہوں نے فرانسیسی قونصل پیئر دوال کو اپنے پنکھے سے مارا — یہی توہین فرانس نے الجزائر کے محاصرے اور پھر حملے کا بہانہ بنائی۔ 5 جولائی 1830ء کو شہر حوالے کیا، اٹلی جلاوطن ہوئے، پھر اسکندریہ جا بسے اور 1838ء میں وہیں وفات پائی؛ الجزائر شہر کا ایک محلّہ اور اس کا فٹ بال کلب آج بھی ان کے نام پر ہے۔"
+
+roles: [ruler]
+regions: [maghreb]
+wings: [people]
+
+born:
+  edtf: "1765~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article gives his birth as 1764/65, its lead rounding to 1765, at Urla or Smyrna (İzmir). The Arabic and Urdu articles and Wikidata give c. 1773 at İzmir. No source read pairs a Hijri year with his birth, and the Gregorian year itself is disputed, so no Hijri year is recorded. The edge follows İzmir, on which the Arabic article and Wikidata agree with one of the English article's two candidates; Urla has no museum place record."
+  sources: [source/wikipedia-dey-hussein-en, source/wikipedia-dey-hussein-ar, source/wikipedia-dey-hussein-ur, source/wikidata-dey-hussein]
+
+died:
+  edtf: "1838"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "All the sources agree that he died at Alexandria in 1838, after three years of exile in Italy — Naples in the English article, Livorno in the Arabic — and his settling at Alexandria from September 1833 (Arabic article). Wikidata gives a day precision of 30 October 1838, which the Arabic and Urdu infoboxes repeat from the same web source; it is a single structured value and is not adopted."
+  sources: [source/wikipedia-dey-hussein-en, source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein]
+
+relations:
+  - { type: born_in, target: place/izmir, sources: [source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein] }
+  - { type: died_in, target: place/alexandria, sources: [source/wikipedia-dey-hussein-en, source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. The
+      English and Arabic articles' infoboxes file him as Sunni
+      Islam and Wikidata carries only the generic value Islam;
+      infobox filings and structured values never settle faith. His
+      documented practice is stated in full — the Arabic article
+      records that he had memorised the Qur'an, was known from his
+      youth for his religious learning and observance, served as an
+      imam, was respected by the people of Algiers for his piety,
+      and issued no judgement without referring back to the ulama.
+      The Regency he ruled was an Ottoman province whose Odjak
+      establishment followed the Hanafi rite while most of its
+      Algerian subjects were Maliki; that institutional setting is
+      context, not a naming of the dey's own school, so his faith
+      is recorded as unknown.
+    sources: [source/wikipedia-dey-hussein-en, source/wikipedia-dey-hussein-ar, source/wikidata-dey-hussein]
+
+external_ids: { wikidata: "Q1387563" }
+
+sources:
+  - source/wikipedia-dey-hussein-en
+  - source/wikipedia-dey-hussein-ar
+  - source/wikipedia-dey-hussein-ur
+  - source/wikidata-dey-hussein
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1380093353 of 13 October 2026), Arabic Wikipedia (revision 76576558 of 15 September 2026), Urdu Wikipedia (revision 11433908 of 4 July 2026) and Wikidata Q1387563 (item revision 2554041568), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds Hussein Dey under any spelling found. place/izmir and place/alexandria were verified to exist on origin/main before the place edges were written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
