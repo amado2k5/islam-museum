@@ -165,3 +165,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | place/medina | devin | done — 14 nodes; 16 Explorer images generated, 1 reject (figure) regenerated clean
 2026-11-01 | place/kabul | devin | claimed
 2026-11-01 | place/kabul | devin | done — 5 nodes; 10 Explorer images generated, 6 rejects (figures/power lines) regenerated clean
+2026-11-01 | place/shiraz | devin | claimed
