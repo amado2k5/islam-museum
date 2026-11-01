@@ -1,0 +1,72 @@
+id: person/mohamed-al-fayed
+class: person
+
+label: { ar: "محمد الفايد", en: "Mohamed Al-Fayed", ur: "محمد الفاید" }
+
+names:
+  - { value: "Mohamed Abdel Moneim Al-Fayed", kind: full }
+  - { value: "محمد عبد المنعم الفايد", kind: full }
+
+gender: male
+
+summary:
+  ar: "محمد عبد المنعم الفايد (27 كانون الثاني 1929 – 30 آب 2023)، رجل أعمال مصري عاش وعمل في بريطانيا منذ منتصف الستينيات. امتلك متجر هارودز في لندن (1985–2010) وفندق ريتز باريس ونادي فولهام لكرة القدم، وقُدّرت ثروته عند وفاته بملياري دولار. مات ابنه دودي مع الأميرة ديانا في حادث باريس سنة 1997، وبعد وفاة الفايد وُجهت إليه اتهامات من أكثر من مئتي امرأة بالاعتداء الجنسي."
+  en: "Mohamed Abdel Moneim Al-Fayed (27 January 1929 – 30 August 2023) was an Egyptian businessman who lived and worked in Britain from the mid-1960s. He owned Harrods in London (1985-2010), the Hôtel Ritz Paris and Fulham Football Club, and his fortune at his death was estimated at US$2 billion. His son Dodi died with Diana, Princess of Wales, in the 1997 Paris car crash; after Al-Fayed's death, more than 200 women accused him of sexual assault."
+  ur: "محمد عبد المنعم الفاید (27 جنوری 1929 – 30 اگست 2023) مصری کاروباری شخصیت تھے جو 1960 کی دہائی کے وسط سے برطانیہ میں مقیم رہے۔ وہ لندن کے ہیرڈز (1985–2010)، پیرس کے رٹز ہوٹل اور فلہم فٹ بال کلب کے مالک تھے، اور ان کی وفات پر ان کی دولت کا تخمینہ دو ارب ڈالر لگایا گیا۔ ان کے بیٹے دودی 1997 میں پیرس کے کار حادثے میں شہزادی ڈیانا کے ساتھ جاں بحق ہوئے؛ الفاید کی وفات کے بعد دو سو سے زائد خواتین نے ان پر جنسی زیادتی کے الزامات لگائے۔"
+
+roles: [businessman]
+wings: [people]
+regions: [egypt-nile, andalus-europe]
+
+born:
+  edtf: "1929-01-27"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Alexandria on 27 January 1929; the English article's text gives the Roshdy neighbourhood and Wikidata the Ras el-Tin district of the same city. The article notes his year of birth has been disputed; a 1988 Department of Trade and Industry inquiry found 27 January 1929, and that date is built here at debated status. The Hijri year 1347 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-mohamed-al-fayed-en, source/wikidata-mohamed-al-fayed]
+
+died:
+  edtf: "2023-08-30"
+  hijri: "1445"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in London on 30 August 2023, aged 94; the English article and Wikidata agree. The Hijri year 1445 is the tabular conversion of the built date, marked derived. No place entity for London exists in the museum, so no died_in edge is written."
+  sources: [source/wikipedia-mohamed-al-fayed-en, source/wikidata-mohamed-al-fayed]
+
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-mohamed-al-fayed-en, source/wikidata-mohamed-al-fayed] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Documented practice without a named school: after his death
+      a funeral service was held for him during Friday prayers at
+      London Central Mosque before his burial at Barrow Green
+      Court beside his son Dodi, who had himself been given an
+      Islamic funeral in 1997. The practice is stated in full and
+      no school or order is named for him in any source read, so
+      no value is recorded. Wikidata's structured religion value
+      gives Islam only, which settles nothing under the founder's
+      rulings of 1 November 2026.
+    sources: [source/wikipedia-mohamed-al-fayed-en, source/wikidata-mohamed-al-fayed]
+
+external_ids: { wikidata: "Q365913" }
+
+sources:
+  - source/wikipedia-mohamed-al-fayed-en
+  - source/wikipedia-mohamed-al-fayed-ar
+  - source/wikipedia-mohamed-al-fayed-ur
+  - source/wikidata-mohamed-al-fayed
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mohamed Al-Fayed' (revision 1382124120 of 26 October 2026), Arabic Wikipedia article 'محمد الفايد' (revision 76785777 of 27 September 2026), Urdu Wikipedia article 'محمد الفاید' (revision 8157734 of 19 April 2025) and Wikidata Q365913 (item revision 2562030326 of 29 October 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's years 1929-2023 are confirmed; the birth year is built debated because the article records it as disputed, with the 1988 DTI finding of 27 January 1929 adopted. His faith is left unknown: an Islamic funeral is documented practice, which names no school."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-168a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
