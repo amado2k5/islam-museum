@@ -1,0 +1,26 @@
+id: event/istisqa-qabr-al-bukhari-464
+class: event
+kind: other
+label:
+  ar: "استسقاء أهل سمرقند عند قبر البخاري بخرتنك، ٤٦٤هـ"
+  en: "The people of Samarkand pray for rain at al-Bukhari's grave in Khartank, 464/1072"
+  ur: "خرتنک میں بخاری کی قبر پر سمرقند والوں کا استسقاء، 464ھ/1072ء"
+summary:
+  ar: "قحط المطر بسمرقند عام ٤٦٤هـ فاستسقى الناس مراراً فلم يُسقوا، فأتى رجل صالح قاضيَ سمرقند فاقترح أن يخرج القاضي والناس إلى قبر الإمام محمد بن إسماعيل البخاري ويستسقوا عنده؛ فخرج القاضي والناس معه واستسقى بالناس وبكوا عند القبر وتشفعوا بصاحبه، فأرسل الله السماء بماء عظيم غزير، فأقام الناس من أجله بخرتنك سبعة أيام لا يستطيع أحد الوصول إلى سمرقند من كثرة المطر وغزارته {cite:tabaqat-shafiiyya-subki j.2 p. 15}."
+  en: "Rain failed at Samarkand in the year 464, and though the people prayed for rain repeatedly they were not watered; a righteous man came to the qadi of Samarkand and proposed that the qadi and the people go out to the grave of Imam Muhammad ibn Isma'il al-Bukhari and pray for rain there. The qadi went out with the people, who wept at the grave and sought intercession through its occupant; God sent down a great, abundant rain, and the people stayed at Khartank seven days unable to reach Samarkand for the abundance of water {cite:tabaqat-shafiiyya-subki j.2 p. 15}."
+  ur: "464ھ میں سمرقند میں بارش بند ہو گئی اور لوگوں نے بار بار دعا کی مگر بارش نہ ہوئی؛ ایک نیک آدمی سمرقند کے قاضی کے پاس آیا اور تجویز کیا کہ قاضی اور لوگ امام محمد بن اسماعیل بخاری کی قبر پر جا کر استسقاء کریں۔ قاضی لوگوں کے ساتھ نکلا، لوگ قبر پر روئے اور اس کے صاحب کے وسیلے سے دعا کی؛ اللہ نے سیلاب جیسی بارش نازل کی اور لوگ سات دن خرتنک میں ٹھہرے رہے، پانی کی کثرت سے کوئی سمرقند نہیں پہنچ سکا {cite:tabaqat-shafiiyya-subki j.2 p. 15}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1072~", hijri: "0464", calendar: julian, precision: year, status: tradition, derived: true, note: "قدم علينا بنيسابور عام أربع وستين وأربعمائة: قحط المطر عندنا بسمرقند... {cite:tabaqat-shafiiyya-subki j.2 p. 15}؛ التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki] }
+relations:
+  - { type: occurred_at, target: place/khartank, sources: [source/tabaqat-shafiiyya-subki] }
+sources: [source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
