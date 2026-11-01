@@ -15,3 +15,6 @@ Sha'rawi reads "if you do not, and you never will" in [[passage/quran-2-24|Al-Ba
 
 ## Author's view
 This is Sha'rawi's reading and is attributed to him. The scan gives no views of scholars of inimitability or Quranic sciences on this aspect, and none has been checked.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh says the Qur'an challenged the Arabs' champions to produce a sura like it, then ten verses, then one verse, and they could not; he holds that among its miracles is that it pronounced an evil end on [[person/abu-lahab|Abu Lahab]] while he was alive, and Abu Lahab could have overturned it by embracing Islam and did not. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00} In a later episode he lists the aspects of inimitability as he sees them: linguistic, legislative, scientific, narrative and historical, and that of the Uthmanic codex itself. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:00}

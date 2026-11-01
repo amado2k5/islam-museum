@@ -93,6 +93,34 @@ translators: []
 
 الإخلاص روح العمل، و[[concept/riya|الرياء]]، وأبو حازم، وكأس ماء [[person/harun-al-rashid|هارون الرشيد]]، و[[person/yunus|يونس]] في بطن الحوت. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
 
+## الحلقة 23: فتور النفس
+
+[[concept/futur-al-nafs|فتور النفس عن الطاعة]] وعلاماته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:07:30}
+
+## الحلقة 24: موانع التزكية
+
+موانع [[concept/tazkiyya|التزكية]]: عدم الإخلاص، وقلة العلم الشرعي، والحرام، والتعلق بالدنيا، والغلو، و[[concept/ujb|انتفاخ الأنا]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30}
+
+## الحلقة 25: تزكية النفس
+
+اللوم الذي يتحول إلى عمل، و[[concept/bida|البدع]]، ونقده لكثرة [[question/what-is-fatwa|الفتيا]] بغير علم. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+## الحلقة 26: من ألفاظ القرآن
+
+[[concept/al-furuq-al-lafziyya-fil-quran|الفروق اللفظية]]: المطر والغيث والأجداث، ورؤيا مالك وتأويلها بمفاتح [[concept/ghayb|الغيب]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:07:00}
+
+## الحلقة 27: التحدي والعلم والمعرفة
+
+[[concept/al-tahaddi-bil-quran|التحدي بالقرآن]] وأبو لهب، والتخيير في [[concept/qadar|القدر]]، والفرق بين العلم والمعرفة، ومفاتيح الشخصيات في النصح. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:08:30}
+
+## الحلقة 28: الإعجاز
+
+[[person/haman|هامان]] في رواية الشيخ عن الهيروغليفية، ونبوءة غلبة الروم ورهان أبي بكر، والجسد والجسم. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:30}
+
+## الحلقة 29: المبشرات (الختام)
+
+حلم الله، وعاقبة [[concept/zulm|الظلم]]، وقصة إبراهيم، ودورة الحضارات بين الشرق والغرب، وشكر الفريق الفني في ختام البرنامج. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
+
 ## موضوعات الحلقات في المتحف
 
 هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
@@ -190,3 +218,31 @@ translators: []
 - [[person/abu-hazim-al-araj|أبو حازم الأعرج]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00}
 - [[person/harun-al-rashid|هارون الرشيد]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30}
 - [[person/yunus|يونس]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
+
+### الحلقة 23
+- [[concept/futur-al-nafs|فتور النفس عن الطاعة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep23 00:01:30}
+
+### الحلقة 24
+- [[concept/tazkiyya|التزكية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:01:30}
+- [[concept/ujb|العُجب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30}
+
+### الحلقة 25
+- [[concept/bida|البدعة والمحدثات]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:06:00}
+- [[question/what-is-fatwa|ما الفتوى؟]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:07:30}
+
+### الحلقة 26
+- [[concept/al-furuq-al-lafziyya-fil-quran|الفروق اللفظية في القرآن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:01:30}
+- [[concept/ghayb|الغيب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:04:30}
+- [[person/muhammad-ibn-sirin|محمد بن سيرين]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep26 00:06:00}
+
+### الحلقة 27
+- [[concept/al-tahaddi-bil-quran|التحدي بالقرآن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00}
+- [[person/abu-lahab|أبو لهب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00}
+- [[concept/qadar|القدر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00}
+
+### الحلقة 28
+- [[person/haman|هامان]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:01:30}
+- [[concept/quran-miracle-for-every-age|إعجاز القرآن يتجدد مع كل عصر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00}
+
+### الحلقة 29
+- [[person/ibrahim|إبراهيم]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:00}
