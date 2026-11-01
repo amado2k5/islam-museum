@@ -1,0 +1,27 @@
+id: event/ibn-hajar-qadi-827
+class: event
+kind: other
+label:
+  ar: "ولاية ابن حجر قضاء قضاة مصر، ٨٢٧هـ/١٤٢٣م"
+  en: "Ibn Hajar appointed chief qadi of Egypt, 827/1423"
+  ur: "ابن حجر کا قاضی القضاۃِ مصر مقرر ہونا، 827ھ/1423ء"
+summary:
+  ar: "ولّى السلطان الأشرف برسباي ابنَ حجر قضاء قضاة الشافعية بالديار المصرية بعد عزل علم الدين البلقيني، في محرم سنة ٨٢٧هـ؛ يقول ابن العماد إنه كان في سابع عشره {cite:shadharat-dhahab p. 271}، وتجعله دائرة المعارف في ٢٧ محرم/٣١ ديسمبر ١٤٢٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}. وظل المنصب له، بين عزلٍ وتولية متكررة، جملةً تقارب إحدى وعشرين سنة، حتى فُقد نهائياً في ٢٥ جمادى الآخرة ٨٥٢هـ/٢٦ أغسطس ١٤٤٨م {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}."
+  en: "Sultan al-Ashraf Barsbay appointed Ibn Hajar chief qadi of the Shafi'is in Egypt in Muharram 827, after dismissing Ala al-Din al-Bulqini: Ibn al-Imad dates it 17 Muharram {cite:shadharat-dhahab p. 271}, while the Encyclopaedia of Islam gives 27 Muharram (31 December 1423) {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}. The office remained his through repeated dismissals and reinstatements for a combined total of about twenty-one years, until he lost it finally on 25 Jumada II 852 (26 August 1448) {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}."
+  ur: "سلطان اشرف برسبائی نے محرم 827ھ میں علاء الدین بلقینی کو معزول کر کے ابن حجر کو مصر کا قاضی القضاۃِ شافعیہ مقرر کیا: ابن العماد اسے 17 محرم لکھتے ہیں {cite:shadharat-dhahab p. 271} جبکہ دائرۃ المعارف 27 محرم (31 دسمبر 1423ء) بتاتی ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}۔ یہ منصب بارہا عزل و تقرر کے باوجود مجموعی طور پر تقریباً اکیس برس ان کے پاس رہا، یہاں تک کہ 25 جمادی الثانی 852ھ (26 اگست 1448ء) کو بالآخر چھن گیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1423-12-21~", hijri: "0827-01-17", calendar: julian, precision: day, status: tradition, derived: true, note: "١٧ محرم ٨٢٧ {cite:shadharat-dhahab p. 271}؛ وقيل ٢٧ محرم/٣١ ديسمبر ١٤٢٣م وقيل ٢٢/٢٦ {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "قاضي القضاة", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "shadharat-dhahab s.a. 852, printed p. 271; Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), PDF p. 810"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-hajar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

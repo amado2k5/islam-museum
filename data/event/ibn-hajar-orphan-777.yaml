@@ -1,0 +1,27 @@
+id: event/ibn-hajar-orphan-777
+class: event
+kind: death
+label:
+  ar: "يتم ابن حجر بوفاة أبيه، ٧٧٧هـ/١٣٧٥م"
+  en: "Ibn Hajar orphaned by his father's death, 777/1375"
+  ur: "ابن حجر کے والد کی وفات اور ان کا یتیم ہونا، 777ھ/1375ء"
+summary:
+  ar: "توفي والد ابن حجر، نور الدين علي بن محمد، يوم الأربعاء ٢٣ رجب سنة ٧٧٧هـ الموافق ١٩ ديسمبر ١٣٧٥م، وكانت أمه توديدار قد ماتت قبل ذلك، فصار يتيم الأبوين؛ وكان أبوه قد درس الفقه وبدأ طريقاً في القضاء ثم تركه، وكان يقول الشعر العارض {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}. تذكر ابن حجر أباه ذكرى خافتة «كأنه خيال غير واقعي»، وعيّنه وصياً عليه التاجر الكارمي زكي الدين أبو بكر بن علي الخروبي {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}."
+  en: "Ibn Hajar's father, Nur al-Din Ali ibn Muhammad, died on Wednesday 23 Rajab 777 (19 December 1375); his mother Tudidar had died earlier, leaving him a full orphan. His father had studied law and begun a judicial career he was forced to abandon, and was a devoted writer of occasional poetry {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}. Ibn Hajar later remembered him only dimly, 'like some unreal phantom of the imagination'; the Karimi merchant Zaki al-Din Abu Bakr ibn Ali al-Kharrubi was named his principal guardian {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}."
+  ur: "ابن حجر کے والد نور الدین علی بن محمد بدھ 23 رجب 777ھ (19 دسمبر 1375ء) کو فوت ہوئے؛ ان کی والدہ تودیدار اس سے پہلے انتقال کر چکی تھیں، اس طرح وہ مکمل یتیم ہو گئے۔ ان کے والد نے فقہ پڑھی تھی اور قضاء کے پیشے کا آغاز کیا تھا مگر چھوڑنا پڑا، اور عارضی شاعری کے شوقین تھے {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}۔ ابن حجر کو اپنے والد کی صرف دھندلی یاد رہی «جیسے کوئی غیر حقیقی خیال»؛ کارمی تاجر زکی الدین ابو بکر بن علی خرّوبی ان کے سرپرست مقرر ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1375-12-19~", hijri: "0777-07-23", calendar: julian, precision: day, status: tradition, derived: true, note: "الأربعاء ٢٣ (٢٥) رجب ٧٧٧/١٩ ديسمبر ١٣٧٥م {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "اليتيم", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), PDF p. 808, art. Ibn Hadjar al-Askalani (F. Rosenthal)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-hajar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

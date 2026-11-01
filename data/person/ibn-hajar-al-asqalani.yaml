@@ -7,8 +7,23 @@ summary:
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1449-02-25~", hijri: "0852-12-28", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة السبت ثامن عشرى ذي الحجة 852 ودفن بالرميلة وكانت جنازته حافلة مشهورة {cite:shadharat-dhahab p. 273}", sources: [source/shadharat-dhahab] }
+born: { edtf: "1372-02-18~", hijri: "0773-08-12", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد بمصر ثاني عشر شعبان سنة 773 {cite:shadharat-dhahab p. 270}؛ وعند دائرة المعارف ٢٢ شعبان ٧٧٣/٢٨ فبراير ١٣٧٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 808}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+died: { edtf: "1449-02-22~", hijri: "0852-12-18", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة السبت ثامن عشر ذي الحجة 852 ودفن بالرميلة وكانت جنازته حافلة مشهورة {cite:shadharat-dhahab p. 273} ≈ ٢٢ فبراير ١٤٤٩م {cite:encyclopaedia-of-islam-2 vol. 3 p. 810}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
 relations:
+  - { type: born_in, target: place/cairo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-ibn-hajar-773, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-orphan-777, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-hajj-784, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-hadith-turn-796, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-hajar-marriage-798, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-rihla-799, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-hajar-taliq-al-taliq-804, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-shaykhuniyya-808, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-baybarsiyya-813, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-hajar-qadi-827, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/fath-al-bari-complete-842, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-ibn-hajar-852, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
   - { type: authored, target: work/ilam-bi-man-wala-misr, sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/raf-al-isr-qudat-misr, sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/al-isaba-fi-tamyiz-al-sahaba, sources: [source/kashf-zunun-furqan] }
