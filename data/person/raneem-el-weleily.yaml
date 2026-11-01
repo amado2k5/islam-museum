@@ -1,0 +1,40 @@
+id: person/raneem-el-weleily
+class: person
+label: { ar: "رنيم الوليلي", en: "Raneem El Weleily", ur: "رنیم الولیلی" }
+names:
+  - { value: "Raneem Mohamed Yasser Saad El Din El Walily", kind: full }
+  - { value: "رنيم محمد ياسر سعد الدين الوليلي", kind: full }
+  - { value: "Raneem El Welily", kind: alternate }
+gender: female
+summary:
+  ar: "لاعبة اسكواش مصرية محترفة سابقة، وُلدت في الإسكندرية سنة 1989. بطلة العالم 2017 والمصنفة الأولى عالميًا من سبتمبر 2015، فازت بـ23 لقبًا في الجولة واعتزلت في 2020."
+  en: "Egyptian former professional squash player, born in Alexandria in 1989. World champion in 2017 and world No. 1 from September 2015, she won 23 tour titles and retired in 2020."
+  ur: "مصری سابق پیشہ ور اسکواش کھلاڑی، 1989 میں اسکندریہ میں پیدا ہوئیں۔ 2017 کی عالمی چیمپئن اور ستمبر 2015 سے عالمی نمبر 1؛ انہوں نے 23 ٹور خطابات جیتے اور 2020 میں ریٹائر ہو گئیں۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1989-01-01"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 January 1989 in Alexandria (the English and Arabic articles and Wikidata agree). The English article and Wikidata spell her surname El Weleily; the shorter spelling El Welily is recorded as an alternate name. The Hijri year 1409 is the tabular conversion of 1 January 1989 and is marked derived."
+  sources: [source/wikipedia-raneem-el-weleily-en, source/wikipedia-raneem-el-weleily-ar, source/wikidata-raneem-el-weleily]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-raneem-el-weleily-en, source/wikipedia-raneem-el-weleily-ar, source/wikidata-raneem-el-weleily] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-raneem-el-weleily-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for her, and Wikidata records no religion (P140) statement. Her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-raneem-el-weleily-en, source/wikipedia-raneem-el-weleily-ar, source/wikidata-raneem-el-weleily]
+external_ids: { wikidata: "Q3917202" }
+sources: [source/wikipedia-raneem-el-weleily-en, source/wikipedia-raneem-el-weleily-ar, source/wikidata-raneem-el-weleily]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377318109; the article is titled 'Raneem El Weleily'), Arabic Wikipedia (revision 76891692) and Wikidata Q3917202 (item revision 2516300610, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property; the item's sitelinks show no Urdu article exists; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub; her husband Tarek Momen has no record, so the marriage is carried in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-154A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

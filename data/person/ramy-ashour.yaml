@@ -1,0 +1,39 @@
+id: person/ramy-ashour
+class: person
+label: { ar: "رامي عاشور", en: "Ramy Ashour", ur: "رامی اشور" }
+names:
+  - { value: "Ramy Mohamed Ashour", kind: full }
+  - { value: "رامي محمد عاشور", kind: full }
+  - { value: "The Artist", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب اسكواش مصري محترف سابق، وُلد في القاهرة سنة 1987. بطل العالم ثلاث مرات (2008 و2012 و2014) وأول لاعب يفوز ببطولة العالم للناشئين مرتين، وصل إلى صدارة التصنيف العالمي في يناير 2010 واعتزل في أبريل 2019."
+  en: "Egyptian former professional squash player, born in Cairo in 1987. A three-time world champion (2008, 2012 and 2014) and the first player to win the World Junior Championship twice, he reached world No. 1 in January 2010 and retired in April 2019."
+  ur: "مصری سابق پیشہ ور اسکواش کھلاڑی، 1987 میں قاہرہ میں پیدا ہوئے۔ تین مرتبہ عالمی چیمپئن (2008، 2012 اور 2014) اور جونیئر عالمی چیمپئن شپ دو بار جیتنے والے پہلے کھلاڑی؛ جنوری 2010 میں عالمی نمبر 1 بنے اور اپریل 2019 میں ریٹائر ہوئے۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1987-09-30"
+  hijri: "1408"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 30 September 1987 in Cairo (the English and Arabic articles and Wikidata agree). The Hijri year 1408 is the tabular conversion of 30 September 1987 and is marked derived."
+  sources: [source/wikipedia-ramy-ashour-en, source/wikipedia-ramy-ashour-ar, source/wikipedia-ramy-ashour-ur, source/wikidata-ramy-ashour]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-ramy-ashour-en, source/wikipedia-ramy-ashour-ar, source/wikidata-ramy-ashour] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for him, and Wikidata records no religion (P140) statement. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-ramy-ashour-en, source/wikipedia-ramy-ashour-ar, source/wikipedia-ramy-ashour-ur, source/wikidata-ramy-ashour]
+external_ids: { wikidata: "Q979323" }
+sources: [source/wikipedia-ramy-ashour-en, source/wikipedia-ramy-ashour-ar, source/wikipedia-ramy-ashour-ur, source/wikidata-ramy-ashour]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377102279), Arabic Wikipedia (revision 71193971), Urdu Wikipedia (revision 12151869) and Wikidata Q979323 (item revision 2516301889, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-154A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
