@@ -445,6 +445,21 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 
 - **place/sus-khuzistan**, **tarabulus-sham**, **tarabulus-gharb**, **najaa**, **qarnayn**: common-word or non-place labels.
 
+## n–z batch 16 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 16
+
+- **place/qasriyani** (Idrisi pp. 611, 612, 613). Hilltop city, eighteen miles from Qal'at al-Nisa, the Salt River on its east.
+- **place/shabruna** (pp. 877, 878). Distances to Astarkuna (capital of Buwamiya), Jik Lbuqa and Wiyana. The name varies in the manuscripts and the pages give no identification; the entry offers none.
+- **place/shahdhuruj** (pp. 928, 929). The island city, the five-day road from Dadmi, the Asqasqa mountain and the "Stinking Land". The OCR of the phrase after "standing water" (`أكثرها أقاصير`) is unclear and is not translated.
+- **place/thinkh** (pp. 510, 513, 514). Tibetan town on a mountain top, trade with Kabul, Wakhan, Khuttal and Wakhsh, musk and iron, the deep cave and the river of Thinkh. The p. 513 sentences on the slave trade are left out of the entry's prose.
+- **place/sierra-nevada** (pp. 564, 567, 569, 570). The snow mountain, Granada and Wadi Ash to its north, the forts at its foot (Fariyra's walnuts, Dhalar's pears), the river falling at Adhra.
+
+### Leads, batch 16
+
+- **place/surqusa.** pp. 597, 614, 624 give Syracuse only as a stage on routes and a coastal distance; no description of the city. Lead.
+- **place/sayda.** pp. 366, 370, 371 give Sidon only in route distances (eight miles to al-Jiya, fifteen from Sarafand). Lead.
+
 ## n–z batch 15 (Claude Sonnet 5.5, place, Idrisi)
 
 ### Enriched, batch 15
@@ -458,3 +473,112 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 
 - **place/setif.** pp. 260 and 269 give about seventy words (a large fortress populous as a city, much water and fruit, walnuts exported, two stages from Bijaya, four from Constantine); p. 270 mixes the tribe's customs into the passage and is not used. Lead.
 - **place/orleans.** pp. 736, 743, 862 give only distances (sixty miles from Tours and from Itruwish) and a line on a settled city with markets and crafts. Lead.
+
+## n–z batch 18 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 18
+
+- **place/nawqan** (Idrisi pp. 692, 693, 694). Town of the Nishapur region, tomb of Ali ibn Musa al-Rida, the quarry and mines, its decline after the Tahirids, the stages from Nishapur.
+- **place/nantes** (pp. 855, 856, 857). First town of Britain (Brittany), at the bottom of a gulf, distances from Belfir and Shant Mijal, the sea road to Bats.
+- **place/tamdafus** (pp. 258, 259, 273). Ruined anchorage eighteen miles east of Algiers; Marsa al-Dajaj as neighbour.
+- **place/taqarart** (pp. 244, 245). **Corrected the data summary**: p. 244 says "the city of Miknasa is the one called Taqarart", so Taqarart is Meknes itself and about a quarter of a mile from Bani Ziyad, not ten miles from Meknes. `place/meknes` also exists in the graph; the two records likely name the same city, and the merge (one becomes an alias of the other) is left to the founder or a consolidation pass.
+- **place/qasr-al-qashib** (pp. 153, 154). The Marib palace, the Arim dam and its flood as al-Idrisi relates them, the stages to Zafar and Shibam.
+
+## n–z batch 17 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 17
+
+- **place/sahilan** (Idrisi pp. 832, 833). **Corrected the data summary**: the page says black birds gather on the island (`يأوي إليها`), not that people catch them. The Caspian's four uninhabited islands and the neighbours Siyah Kuh and Hadhu al-Kur are described.
+- **place/suqmaqiya** (pp. 929, 930). City with no king, ruled by its elders, on the mountain Tughura, at the north end of the "Stinking Land".
+- **place/qaruqiya** (pp. 922, 924, 925). Wooden town of Bashjirt al-Kharija, raided by the Bulghars, the river and land stages.
+- **place/qasr-masmuda** (pp. 527, 529). The shipyard fort at the head of the strait, twelve miles from Ceuta; the unit of the strait's width on p. 527 is cut off in the OCR and the body says so.
+
+### Leads, batch 17
+
+- **place/nitram.** pp. 878 and 883 give only a land name list and one distance (seventy miles from Budhwara). Lead.
+- **place/trebizond.** pp. 816, 911 give route and island distances only. Lead.
+- **place/tournai.** pp. 870, 871 give a land name list and the distances to Ghent and Ibrijs; no description of the town. Lead.
+
+## n–z batch 20 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 20
+
+- **place/zarand** (Idrisi pp. 428, 439). Desert-edge town of the Zarandi linings and tanneries, the four-stage road from al-Sirjan via Bardsir and Janzarud.
+- **place/tunkat** (pp. 703, 704). Capital of Ilaq, its two walls, less than half of Binkath. The sentence that follows ("a populous city on level ground, with Badhkhakath and Sabanikat") most likely describes Isbijab, and the entry says so.
+- **place/ranj-burk** (pp. 876, 887). City of the land of Babir south of the Danube, sixty miles from Uzburk, with Babir's boundaries and chief towns.
+- **place/tawara** (pp. 244, 245). Meknes-area city with its divided river water and the two small neighbouring towns of al-Qasr and Bani Atush.
+
+### Leads, batch 20
+
+- **place/zalqan.** p. 457 gives about sixty words (a stage from Bust, walled, markets, palms and vines, mostly weavers). Lead.
+- **place/shansha.** pp. 335 and 336 give a short description (many trees and farms, sugar presses) and the canal. Lead.
+- **place/suq-ibrahim.** only an index entry and one line. Lead.
+
+## n–z batch 19 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 19
+
+- **place/wadi-al-hijara** (Idrisi pp. 538, 553). Saffron town fifty miles east of Toledo, its small river flowing into the Tagus.
+- **place/tarraqona** (pp. 538, 555, 734). The marble wall, the city's condition, distances to Tortosa (fifty and forty-five miles on the two pages) and Barcelona. "City of the Jews" appears in the text without explanation, and the entry says so.
+- **place/naroa** (pp. 610, 611, 612). Halting place near Karkant with its weekly market, and the surrounding road distances.
+- **place/shiltish** (pp. 537, 542, 545). The island city without a wall, the anchors ironwork, the river arm, the Majus raids, distances to Cadiz and Qastala.
+- **place/rouen** (pp. 864, 865, 866). Rutumaghsh, twenty miles from Dyaba, thirty from Bentiz. The land name is garbled in the OCR (`زمندية`) and is reported as written.
+
+### Leads, batch 19
+
+- **place/qantarat-thakan.** pp. 415 and 421 give the bridge on the Musin river by Arjan (compared to the bridge of Cordoba) in about seventy words, and the rest is route distances. Lead.
+
+## n–z batch 22 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 22
+
+- **place/susat-al-sin** (Idrisi pp. 210, 211, 213). Famous trading city east of the Khamdan river, Chinese pottery and silk tiraz, stages to Qabtu, Siniyyat al-Sin and Sa'la.
+- **place/sa-la** (pp. 210, 211). River city of merchants, silk and pottery, eight days from Susa; Tughma as neighbour.
+- **place/siniyyat-al-sin** (p. 211). Largest city at the far end of China, its king under the Baghbugh, the saffron plain of Istankhua.
+- **place/shadhkhu** (pp. 210, 213). City near the Eastern Sea, nine stages from Bishhiyar, with Bishhiyar's frontier role described.
+
+### Leads, batch 22
+
+- **place/namnaj** (Namnaj island). p. 214 gives only the report from the author of the Book of Wonders about a tailed people; one attributed claim, no description of the island. Lead.
+- **place/tughura.** pp. 930–931 repeat the facts already used under suqmaqiya (a medium city six stages from it). Lead.
+
+## n–z batch 21 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 21
+
+- **place/qarqana** (Idrisi pp. 304, 306). Reed-hut island off Sfax, vines, cumin and anise, conquered by King Roger in 548 AH, the western caves.
+- **place/qasr-abd-al-karim** (pp. 246, 530). Small Danhaja town on the Ulks river, three miles from the sea, two stages from Sala.
+- **place/nahr-barada** (p. 367). The Fijah spring, the eight branches (Yazid, Thawra, Barada and others), the river through Damascus. The following passage on the mosque's history is not used.
+- **place/shibam** (p. 154, with the earlier p. 56 and al-Hamdani text kept). The hilltop fort, the agate, amethyst and onyx stones, four stages from Marib.
+
+### Restorations (earlier batches)
+
+A comparison of each earlier batch commit against its parent showed text dropped when a thin entry was rewritten. Restored here:
+
+- **place/qasr-al-qashib** (batch 18): the sentence citing al-Umari (`umari-masalik-1924 p. 232`) on the monuments of Yemen.
+- Links `[[place/ceuta]]` (qasr-masmuda), `[[place/valencia]]` (shatiba), `[[place/balkh]]` and `[[place/marw]]` (qasr-ahnaf), `[[place/aghmat]]` (rikka) and `[[place/tabriz]]` (salmas), restored in ar, en and ur.
+
+### Leads, batch 21
+
+- **place/nahr-tiri.** p. 398 gives about sixty words (a populous town with houses and markets, tiraz, one stage from al-Ahwaz). Lead.
+- **place/siklah.** pp. 879–880 give distances and a name list only. Lead.
+- **place/sabitla.** p. 283 gives the old city of Jirjis and two distances; no description of the present town. Lead.
+- **place/tinjas.** pp. 292–293 give route distances only. Lead.
+
+## n–z batch 23 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 23
+
+- **place/sijilmasa** (Idrisi pp. 18, 225, 226, 243, 249, 344). The earlier record held only the p. 18 distances. Rewritten with the river city, its date palms and crops, and the roads from Aghmat, Dar'a, Safru, Tlemcen and Egypt. The customs sentences of p. 226 are left out.
+- **place/ruzrawar** (pp. 674, 675, 676). The saffron district of al-Jabal, twenty-seven miles from Hamadhan, with Nihawand as neighbour.
+- **place/raqwan** (pp. 926, 930). The only inhabited city of the ruined land of Sisyan.
+
+### Triage of the remaining n–z Idrisi candidates
+
+After batches 12–23, 84 n–z places that cite Idrisi and have a short Arabic summary were still not enriched or logged. They fall into three groups; none was written up because none was shown to reach 100 words of verified source text, or the label could not be tied to the right passage. A future pass with a second edition or the page images may upgrade some.
+
+**No hit for the record's Arabic label in the OCR text (39).** Not examined one by one: the OCR may spell these names differently, or the text may name them another way, and a reader needs the page images or a second edition to tell: zamakhir, zaila, waq-waq-islands, wadi-al-falaj, wadi-al-alaqi, uriyula, ubda, tirqa, tilmila, tayma, tasawa, tantana-mountain, tamalma, suqya-port, sumba, socotra, shamil, sanitriyya, sanf-island, sandi-fulat, samqanda, samna, samasta, sahab-island, sadd-marib, rughusa, qastalun, qasr-umm-isa, qamula, qamnuriyya, qalat-isfandiyadh, qalat-ayyub, qalat-al-kariyan, persian-gulf-nuzhat, nughayra, nayyir-desert, nawaba, najagha, nabranta.
+
+**Label hits are other words, or the record is already sourced elsewhere (6).** wadan (the hits are the Wadan oasis list and other words), tana-india, shama (a common word), nablus (already has prose with al-Maqdisi), russia, qantarat-al-sayf (dropped in batch 10, reason above).
+
+**Under 100 words of source text (39).** About a paragraph or less in the pages, mostly distances: suraws, samandar-khazar, nawshi, qaynyu, rushiya, tarighyawqan, subara, ramij, tukra, venetian-gulf-nuzhat, tashmis, tanuma, nastasiyya, suways, shaqubiyya, qarqudhi, sabu-river, rishahr, qantarat-qurtuba, nahr-bihank, qalat-al-balut, tarjinis, orissa, nawtas, tarawiya, nadkhu, tajwa, nahr-bugu, salwni, titlus, ras-al-muhjama, pantelleria, qalamun, sibiba, nahr-shirin, silabirs, sanasa, tanisbar. Three have one quotable fact each: tashmis (a ruined walled city on the Safdad river a mile from the sea, p. 530), tukra (a large populous fort two stages from Qafiz, p. 315), and suways (the brackish spring at Qulzum, p. 348).

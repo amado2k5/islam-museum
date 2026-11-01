@@ -1,0 +1,61 @@
+id: person/waheed-alli
+class: person
+
+label: { ar: "وحيد علي", en: "Waheed Alli", ur: "وحید علی" }
+
+names:
+  - { value: "Waheed Alli", kind: full }
+  - { value: "Baron Alli of Norbury", kind: alternate }
+  - { value: "Lord Alli", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "وحيد علي، بارون علي أوف نوربري (وُلد في 16 تشرين الثاني 1964) رائد أعمال إعلامي وسياسي عمالي بريطاني، وُلد في كرويدون بلندن. شارك في تأسيس شركة «بلانيت 24» وتولى مناصب تنفيذية في كارلتون وكوريون وسيلفرغيت ميديا، ومُنح لقب لورد مدى الحياة سنة 1998 وهو في الرابعة والثلاثين، فكان أصغر أعضاء مجلس اللوردات وأول لورد مثلي معلن، وقاد حملات إلغاء المادة 28 ومساواة سن الرشد."
+  en: "Waheed Alli, Baron Alli of Norbury (born 16 November 1964) is a British media entrepreneur and Labour politician, born in Croydon, London. A co-founder of Planet 24, he held executive posts at Carlton, Chorion and Silvergate Media, and was made a life peer in 1998 at the age of 34, then the youngest member of the House of Lords and its first openly gay peer; he led the campaigns to repeal Section 28 and to equalise the age of consent."
+  ur: "وحید علی، بیرن علی آف نوربری (پیدائش 16 نومبر 1964) برطانوی میڈیا کاروباری اور لیبر سیاست دان ہیں، جو لندن کے کروئڈن میں پیدا ہوئے۔ انہوں نے «پلینٹ 24» کی مشترکہ بنیاد رکھی اور کارلٹن، کوریون اور سلورگیٹ میڈیا میں انتظامی عہدوں پر رہے؛ 1998 میں 34 سال کی عمر میں انہیں تاحیات لارڈ بنایا گیا، اس وقت وہ ایوانِ بالا کے سب سے کم عمر اور پہلے کھلے عام ہم جنس پرست رکن تھے، اور انہوں نے دفعہ 28 کے خاتمے اور رضامندی کی عمر برابر کرنے کی مہمات کی قیادت کی۔"
+
+roles: [businessman, politician]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1964-11-16"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Croydon, Surrey, on 16 November 1964; the English article and Wikidata agree. No place entity for Croydon exists in the museum, so no born_in edge is written. The Hijri year 1384 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-waheed-alli-en, source/wikidata-waheed-alli]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Profiles describe Alli himself, generically, as a Muslim. The
+      South Asian Britain research profile states it in terms, that Alli
+      himself is Muslim; the English article calls him one of only a few
+      openly gay Muslim politicians in the world; and The Guardian
+      profiled him among ten leading British Muslims in 2002. No source
+      read names a school or order for him, so the generic identification
+      settles nothing under the founder's rulings of 1 November 2026.
+      His father's Islam and his mother's Hinduism are family background
+      and were not counted. His faith is recorded as unknown.
+    sources: [source/south-asian-britain-waheed-alli, source/wikipedia-waheed-alli-en]
+
+external_ids: { wikidata: "Q2539282" }
+
+sources:
+  - source/wikipedia-waheed-alli-en
+  - source/wikidata-waheed-alli
+  - source/south-asian-britain-waheed-alli
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Waheed Alli, Baron Alli' (revision 1381414432 of 22 October 2026) and Wikidata Q2539282 (item revision 2519756875 of 19 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the revisions re-asserted against a second live query and the QID grounded from the article's own page property; and the South Asian Britain (Connecting Histories) profile, read in full on the project's site. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1964 is confirmed by both sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-162a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

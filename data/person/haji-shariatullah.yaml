@@ -1,0 +1,86 @@
+id: person/haji-shariatullah
+class: person
+
+label: { ar: "حاجي شريعة الله", en: "Haji Shariatullah", ur: "حاجی شریعت اللہ" }
+
+names:
+  - { value: "حاجي شريعة الله", kind: full }
+  - { value: "Shariatullah Taluqdar", kind: full }
+
+gender: male
+
+summary:
+  ar: "حاجي شريعة الله (1781 – 1840)، مصلح إسلامي بنغالي ومؤسس الحركة الفرائضية. وُلد في قرية شمائل بفريدبور، وأقام في مكة نحو عقدين من 1799 فدرس الفقه على الحنفي طاهر السومبل المكي الذي أدخله في الطريقة القادرية، ثم عاد إلى البنغال سنة 1818 فدعا إلى الفرائض ومحا ما رآه من البدع، فانتشرت حركته في شرق البنغال وتحولت إلى قوة اجتماعية للفلاحين. توفي سنة 1840 وخلفه ابنه دودو ميان."
+  en: "Haji Shariatullah (1781–1840) was a Bengali Islamic reformer and the founder of the Faraizi movement. Born at Shamail in Faridpur, he spent some two decades at Makkah from 1799, studying fiqh under the Hanafi jurist Tahir al-Sumbal Makki, who initiated him into the Qadiriyya, then returned to Bengal in 1818 and preached the obligatory duties and the removal of what he judged innovations; his movement spread across eastern Bengal and became a social force for the peasantry. He died in 1840 and was succeeded by his son Dudu Miyan."
+  ur: "حاجی شریعت اللہ (1781ء – 1840ء) بنگالی اسلامی مصلح اور فرائضی تحریک کے بانی تھے۔ فرید پور کے گاؤں شمائل میں پیدا ہوئے، 1799ء سے تقریباً دو دہائی مکہ میں گزاریں، وہاں حنفی فقیہ طاہر السومبل مکی سے فقہ پڑھی جنھوں نے انھیں قادریہ میں داخل کیا، پھر 1818ء میں بنگال لوٹ کر فرائض کی تبلیغ اور بدعات کے خاتمے کی دعوت دی؛ ان کی تحریک مشرقی بنگال میں پھیلی اور کسانوں کی سماجی قوت بن گئی۔ 1840ء میں انتقال ہوا اور ان کے بیٹے دودو میاں جانشین ہوئے۔"
+
+roles: [scholar, activist]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1781"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English and Arabic articles, Banglapedia and Wikidata give 1781, at Shamail village in Faridpur district, and the Urdu article's own categories file him under 1781 births — but the Urdu article's lead gives 1764, citing Abd al-Hayy Lakhnawi's Nuzhat al-Khawatir, with a return from Makkah in 1802 against the English article's and Banglapedia's 1818. The majority year 1781 is built and the minority reading preserved here. A bare year spanning two Hijri years, no Hijri year is recorded. Faridpur has no museum place record yet, so no born_in edge is written."
+  sources: [source/wikipedia-haji-shariatullah-en, source/wikipedia-haji-shariatullah-ar, source/wikipedia-haji-shariatullah-ur, source/banglapedia-shariatullah-haji, source/wikidata-haji-shariatullah]
+
+died:
+  edtf: "1840"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "All sources give 1840. The English article, resting on Khan's study, places his death at Bahadurpur in Faridpur district and his burial in the backyard of his home, the grave later washed away by a flood; Wikidata's place of death, Dhaka, is not followed. A bare year spanning two Hijri years, no Hijri year is recorded. Bahadurpur has no museum place record yet, so no died_in edge is written."
+  sources: [source/wikipedia-haji-shariatullah-en, source/banglapedia-shariatullah-haji, source/wikidata-haji-shariatullah]
+
+relations:
+  - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-haji-shariatullah-en, source/banglapedia-shariatullah-haji] }
+
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: >-
+      Two independent publications name the Hanafi school for the man
+      and the movement he founded and led. The English article's
+      infobox gives his jurisprudence as Hanafi and its Teachings
+      section states that his Faraizi movement reformed Bengali Muslim
+      practice on the basis of the Hanafi school; Banglapedia's Faraizi
+      Movement entry states in text that the Faraizis adhered to the
+      Hanafi school, that he studied under Tahir Sombal, an authority
+      of the Hanafi school, and that he himself ruled in pursuance of
+      the Hanafi law, while its Shariatullah entry records that he
+      ruled from the Hedaya, the Hanafi legal manual. Wikidata gives
+      only Islam and was not counted.
+    sources: [source/wikipedia-haji-shariatullah-en, source/banglapedia-faraizi-movement, source/banglapedia-shariatullah-haji]
+  - value: sufi
+    basis: documented
+    note: >-
+      His initiation into a Sufi order is attested for the man himself
+      in two independent publications. The English article records that
+      at Makkah his teacher Tahir al-Sumbal Makki introduced him to
+      tasawwuf and the Qadiriyya, and Banglapedia records that Taher
+      Sombal initiated him into the Qadiriyah Tariqah and sent him back
+      to Bengal in 1820 with spiritual blessings, after which the
+      movement spread. The attestation concerns his own initiation,
+      not his family's or his followers'; his public preaching against
+      pir-worship and innovation stands alongside it in the same
+      sources and is described in his prose.
+    sources: [source/wikipedia-haji-shariatullah-en, source/banglapedia-shariatullah-haji]
+
+external_ids: { wikidata: "Q5639930" }
+
+sources:
+  - source/wikipedia-haji-shariatullah-en
+  - source/wikipedia-haji-shariatullah-ar
+  - source/wikipedia-haji-shariatullah-ur
+  - source/wikidata-haji-shariatullah
+  - source/banglapedia-shariatullah-haji
+  - source/banglapedia-faraizi-movement
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1359225178 of 13 June 2026), Arabic Wikipedia (revision 76668104 of 22 September 2026), Urdu Wikipedia (revision 11801254 of 18 August 2026), Banglapedia entries 'Shariatullah, Haji' and 'Faraizi Movement' by Muin-ud-Din Ahmad Khan (read in full online, 1 November 2026) and Wikidata Q5639930 (item revision 2555869616), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles' agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. His son Dudu Miyan has no museum record yet, so no family edge is written; the member_of edge to the Qadiriyya is written here, in his own record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-162j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

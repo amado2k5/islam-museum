@@ -1,0 +1,62 @@
+id: person/ali-velshi
+class: person
+
+label: { ar: "علي فيلشي", en: "Ali Velshi", ur: "علی ویلشی" }
+
+names:
+  - { value: "Ali Velshi", kind: full }
+  - { value: "علي فيلشي", kind: full }
+
+gender: male
+
+summary:
+  ar: "صحفي ومذيع أعمال كندي أمريكي، وُلد في نيروبي سنة 1969 ونشأ في تورونتو. كان كبير مراسلي الأعمال في سي إن إن إبان الأزمة المالية سنة 2008، ثم قدّم برنامجًا على الجزيرة أمريكا، ومنذ 2016 يقدّم برامج على إم إس إن بي سي (إم إس ناو حاليًا)، ونشر مذكراته «أعمال شجاعة صغيرة» سنة 2024."
+  en: "Canadian-American business journalist and anchor, born in Nairobi in 1969 and raised in Toronto. CNN's chief business correspondent through the 2008 financial crisis, he later hosted Ali Velshi on Target at Al Jazeera America and, from 2016, programmes on MSNBC (now MS NOW), and published the memoir Small Acts of Courage in 2024."
+  ur: "کینیڈین نژاد امریکی کاروباری صحافی اور اینکر، جو 1969 میں نیروبی میں پیدا ہوئے اور ٹورنٹو میں پلے بڑھے۔ 2008 کے مالی بحران کے دوران سی این این کے چیف بزنس نمائندے رہے، بعد میں الجزیرہ امریکا پر پروگرام پیش کیا اور 2016 سے ایم ایس این بی سی (اب ایم ایس ناو) سے وابستہ ہیں؛ 2024 میں ان کی یادداشتیں «سمال ایکٹس آف کریج» شائع ہوئیں۔"
+
+roles: [journalist, presenter, writer]
+wings: [people, living]
+regions: [east-africa, americas-oceania]
+
+born:
+  edtf: "1969-10-29"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Nairobi, Kenya, on 29 October. The English article's lead and Wikidata give the year as 1969, while the article's infobox records that some sources give 1968, so the year is carried as debated and the variant is preserved here. No place entity for Nairobi exists in the museum, so no born_in edge is written. The Hijri year 1389 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-ali-velshi-en, source/wikidata-ali-velshi]
+
+relations: []
+
+faith:
+  - value: shia-ismaili
+    basis: documented
+    note: >-
+      Settled for the man himself on two independent texts. The
+      English article states that he is an Ismaili Muslim of
+      Gujarati descent, citing the Toronto Star profile by Leslie
+      Scrivener of 10 May 2009, which records that the Velshis
+      belong to the Ismaili branch of Islam, led by the Aga Khan.
+      Simerg's review of his own memoir Small Acts of Courage, by
+      Mansoor Ladha in July 2024, independently calls him an
+      Ismaili Muslim and describes the pages in which he writes
+      about the community and its 49th hereditary Imam. The
+      specific Ismaili value is therefore documented for him;
+      Wikidata's bare Islam statement was not used.
+    sources: [source/wikipedia-ali-velshi-en, source/simerg-velshi-small-acts-2024]
+
+external_ids: { wikidata: "Q4725250" }
+
+sources:
+  - source/wikipedia-ali-velshi-en
+  - source/wikidata-ali-velshi
+  - source/simerg-velshi-small-acts-2024
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ali Velshi' (revision 1373974449 of 9 September 2026), Wikidata Q4725250 (item revision 2533972061 of 21 August 2026) and the Simerg review of Small Acts of Courage by Mansoor Ladha (posted 16 July 2024), fetched live in-session via the MediaWiki API and the Simerg site on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1969 is the year built, but the sources split between 1968 and 1969, so the block is marked debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-163a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

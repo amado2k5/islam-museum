@@ -10,10 +10,14 @@ relations:
   - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "الظافر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/rutbil, role: "المهزوم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/kabul-shah, role: "مخرج المسلمين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kabul, sources: [source/futuh-buldan-maarif-1407] }
 wings: [time]
+date:
+  start: { edtf: "0672~", hijri: "0052~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد موت عبد الرحمن بن سمرة سنة ٥٠ وقبل عزل زياد بن أبيه للربيع بن زياد (مات زياد سنة ٥٣)؛ التحويل مشتق {cite:futuh-buldan-maarif-1407}.", sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407)، ثغور الهند، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
