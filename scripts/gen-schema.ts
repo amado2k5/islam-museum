@@ -21,10 +21,12 @@ const themes = ids("themes");
 const storyRoles = ids("story-roles");
 const faith = ids("faith");
 const sermonType = ids("sermon-type");
+const jobDomains = ids("job-domains");
+const materials = ids("materials");
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -211,12 +213,48 @@ const kind = (c: string) => ({ kind: enm(kinds[c]) });
 const D = ref("date");
 const L = ref("localized");
 
+// Job Browser (docs/jobs/schema.md): a person's occupations, a thing's job ties, the job class and its craft block.
+const jobRelations = ["made-by", "used-by", "built-by", "staffed-by", "reference-for", "body-of", "gathering-of", "produced-by", "workplace-of", "route-of"];
+const sourcesReq = { type: "array", minItems: 1, items: str };
+const occupation = { type: "object", additionalProperties: false, required: ["job", "kind", "sources"], properties: {
+  job: entityRef, kind: enm(["primary", "secondary", "episodic", "honorary"]), start: D, end: D,
+  place: entityRef, polity: entityRef, under: entityRef, trained_under: entityRefs, certification: str,
+  family_business: { type: "boolean" }, status: enm(claimStatus), note: str, sources: sourcesReq } };
+const jobTies = { type: "array", items: { type: "object", additionalProperties: false, required: ["job", "relation", "sources"], properties: {
+  job: entityRef, relation: enm(jobRelations), status: enm(claimStatus), note: str, sources: sourcesReq } } };
+const craftBlock = { type: "object", additionalProperties: false, properties: {
+  materials: { type: "array", items: enm(materials) }, techniques: L,
+  guild: { type: "object", additionalProperties: false, properties: { bodies: entityRefs, shaykh_title: L } },
+  grades: strs, initiation: L, pir: entityRef, marks: L, practice: entityRef,
+  heritage: { type: "object", additionalProperties: false, properties: { unesco_ich: str, sources: strs } },
+  made_listings: entityRefs } };
+
 const classProps: Record<string, { properties: any; required?: string[] }> = {
+  job: {
+    properties: {
+      names: { type: "array", items: ref("name") }, domain: enm(jobDomains), ...kind("job"), hirfa: { type: "boolean" },
+      broader: entityRef,
+      era: { type: "object", additionalProperties: false, properties: {
+        origins: enm(["pre-islamic", "prophetic", "early-caliphate", "classical", "medieval", "early-modern", "modern"]),
+        first_attested: D, status_today: enm(["living", "transformed", "replaced", "extinct"]), successor_jobs: entityRefs } },
+      places: { type: "array", items: { type: "object", additionalProperties: false, required: ["place"], properties: {
+        place: entityRef, start: D, end: D, note: str, sources: strs } } },
+      regions: { type: "array", items: enm(regions) },
+      organization: { type: "object", additionalProperties: false, properties: {
+        organized: enm(["guild", "neqaba", "court-office", "association", "informal", "mixed", "none-known"]), bodies: entityRefs } },
+      training: { type: "object", additionalProperties: false, properties: {
+        mode: enm(["formal-schooling", "apprenticeship", "ijaza-chain", "state-licence", "mouth-to-mouth", "hereditary-family", "mixed"]),
+        certification: str, duration: str } },
+      tools: entityRefs, workplaces: entityRefs, outputs: entityRefs, image: entityRef, craft: craftBlock,
+    },
+    required: ["domain", "kind", "hirfa"],
+  },
   person: {
     properties: {
       names: { type: "array", items: ref("name") }, gender: enm(["male", "female", "unknown"]),
       born: D, died: D, floruit: D, roles: strs, traditions: { type: "array", items: enm(traditions) },
       disciplines: entityRefs, languages: entityRefs, ...actorExtras,
+      occupations: { type: "array", items: occupation },
     },
   },
   group: {
@@ -412,6 +450,8 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     required: ["rows_file", "license"],
   },
 };
+
+for (const c of ["object", "building", "work", "group", "event", "place", "journey"]) classProps[c].properties.jobs = jobTies;
 
 writeFileSync(new URL("_base.schema.json", root), JSON.stringify(base, null, 2) + "\n");
 
