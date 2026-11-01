@@ -9,20 +9,35 @@ roles: [muhaddith, historian, scholar]
 gender: male
 traditions: [sunni-shafii]
 summary:
-  ar: "بطاقة أولية لشمس الدين الذهبي، الحافظ المؤرخ صاحب سير أعلام النبلاء وتاريخ الإسلام، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Shams al-Din al-Dhahabi, the hadith master and historian of Siyar A'lam al-Nubala' and Tarikh al-Islam, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  ar: "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي، التركماني الأصل الفارقي الدمشقي الشافعي (٦٧٣-٧٤٨هـ)؛ حافظ عصره ومؤرخه صاحب «تاريخ الإسلام» و«سير أعلام النبلاء» و«ميزان الاعتدال» و«تذكرة الحفاظ»، سُمي «محدث العصر» و«خاتم الحفاظ». سمع الحديث بدمشق من سنة ٦٩٠هـ ورحل إلى بعلبك ومصر ومكة وحلب ونابلس والإسكندرية والقاهرة حتى جاوز شيوخه ألفاً وثلاثمائة، ودرّس بتربة أم الصالح والنفيسية، وأضرّ قبل موته بسنين {cite:durar-kamina-jil-1993 3/336-338} {cite:encyclopaedia-of-islam-2 vol. 2 p. 214-216}."
+  en: "Shams al-Din Abu Abd Allah Muhammad ibn Ahmad ibn Uthman ibn Qaymaz al-Dhahabi (673-748 AH), of Turkmen origin, al-Fariqi, of Damascus, a Shafi'i; the hadith master and historian of his age, author of Tarikh al-Islam, Siyar A'lam al-Nubala', Mizan al-I'tidal and Tadhkirat al-Huffaz, styled 'the traditionist of the age' and 'the seal of the huffaz'. He heard hadith at Damascus from 690 and journeyed to Baalbek, Egypt, Mecca, Aleppo, Nablus, Alexandria and Cairo until his teachers passed 1,300; he taught at the Umm al-Salih turba and al-Nafisiyya, and went blind some years before his death {cite:durar-kamina-jil-1993 3/336-338} {cite:encyclopaedia-of-islam-2 vol. 2 p. 214-216}."
+  ur: "شمس الدین ابو عبد اللہ محمد بن احمد بن عثمان بن قایماز ذہبی (673-748ھ)، اصل میں ترکمان، فارقی، دمشقی، شافعی؛ اپنے عہد کے حافظ اور مورخ، صاحبِ «تاریخ الاسلام»، «سیر اعلام النبلاء»، «میزان الاعتدال» اور «تذکرۃ الحفاظ»، جنھیں «محدث العصر» اور «خاتم الحفاظ» کہا جاتا ہے۔ انہوں نے 690ھ سے دمشق میں حدیث سنی اور بعلبک، مصر، مکہ، حلب، نابلوس، اسکندریہ اور قاہرہ کے سفر کیے یہاں تک کہ ان کے شیوخ تیرہ سو سے تجاوز کر گئے؛ تربہ ام الصالح اور نفیسہ میں درس دیا اور وفات سے کچھ برس پہلے نابینا ہوئے {cite:durar-kamina-jil-1993 3/336-338} {cite:encyclopaedia-of-islam-2 vol. 2 p. 214-216}۔"
+born: { hijri: "0673-02-03", edtf: "1274-10-05~", calendar: julian, precision: day, status: tradition, derived: true, note: "ثالث ربيع الآخر ٦٧٣هـ {cite:durar-kamina-jil-1993 3/336}؛ وقيل أول ربيع الآخر أو ثالثه = ٥ أو ٧ أكتوبر ١٢٧٤م {cite:encyclopaedia-of-islam-2 vol. 2 p. 214}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+died: { hijri: "0748-11-03", edtf: "1348-02-04", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة ثالث ذي القعدة ٧٤٨هـ {cite:durar-kamina-jil-1993 3/338} = ٤ فبراير ١٣٤٨م عند السبكي والسيوطي {cite:encyclopaedia-of-islam-2 vol. 2 p. 214}؛ وقيل ٧٥٣هـ عند ابن إياس.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/durar-kamina-jil-1993]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-al-dhahabi-673, role: "المولود", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-dhahabi-begins-hadith-690, role: "الطالب", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ghazan-syria-699, role: "شاهد العصر ودوّن الفتنة", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-dhahabi-rihla-700, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ghazan-syria-700, role: "شاهد العصر", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-dhahabi-jami-session-700, role: "المصدّر للحلقة", sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/al-dhahabi-umm-al-salih-710, role: "مدرّس الحديث", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-dhahabi-tarikh-islam-730, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/al-dhahabi-blindness-743, role: "صاحب الحال", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-dhahabi-748, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/al-aalam, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q293554
 provenance:
   layer: own-research
-  source: "Wikidata Q293554 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0007, lib-durar-kamina-batch-1-2-2026-10-31
+  source: "durar-kamina-jil-1993 vol. 3 pp. 336-338 (Apple Vision OCR); Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed pp. 214-216, art. al-Dhahabi; Wikidata Q293554"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1, wikidata-import-0007, lib-durar-kamina-batch-1-2-2026-10-31
 status:
   review: published
   completeness: 1
