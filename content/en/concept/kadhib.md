@@ -33,3 +33,6 @@ Some early scholars held that allusions give a way out of lying. This applies in
 
 ## Jest and children
 Lying in jest is forbidden like lying elsewhere, on the hadith "a servant will not have full faith until he gives up lying in jest"; the Prophet said he joked and said only what is true {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}. One must also beware of lying in play with children: the hadith of Abd Allah ibn Amir says the Prophet told a mother who promised a child something and did not give it that she would have written a lie against herself {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh mentions that Islam allows one reconciling spouses or disputants to tell each side a kind untruth, and a husband to tell his wife that his mother and sister speak well of her, and a wife the like about her family, even if they did not say it; he counts this permitted lying, since life holds this and that. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00} See: [[concept/iftira|slandering people]].

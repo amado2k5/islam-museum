@@ -42,3 +42,6 @@ The Sheikh holds that the climate and the environment must be prepared before pe
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy recounts the story of the woman of Makhzum who stole, the intercession made for her, and the Prophet's saying that were Fatima daughter of Muhammad to steal he would cut off her hand, as evidence of equality in applying the hadd penalty. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:05:30}

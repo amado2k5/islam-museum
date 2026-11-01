@@ -26,3 +26,6 @@ The Sheikh says that a heart empty of love for God and longing for Him is filled
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 6)
 
 The Sheikh counts desire among the four enemies of a person, along with Satan, the world and the self, and says they are all his enemies {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh likens Yunus's whale to our desires that buffet and surround us until they have become like a religion, holding that desire blinds and sets a barrier before its owner's eye so that he does not see truth as truth or falsehood as falsehood. {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:00}

@@ -15,3 +15,6 @@ translators: []
 
 ## رأي المؤلف
 هذا تفسير الشعراوي ويُنسب إليه. لم تُعرض آراء علماء الإعجاز أو علوم القرآن في وجه الإعجاز، ولم تُراجع بعد.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يقول الشيخ إن القرآن تحدّى صناديد العرب أن يأتوا بسورة من مثله ثم بعشر آيات ثم بآية فعجزوا، ويرى أن من معجزاته أنه حكم على [[person/abu-lahab|أبي لهب]] بسوء الخاتمة وهو حيّ، وكان أبو لهب يستطيع أن يهدم ذلك بأن يدخل الإسلام فلم يفعل. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00} ويعدّد في حلقة تالية وجوه الإعجاز عنده: اللغوي والتشريعي والعلمي والقصصي والتاريخي، وإعجاز المصحف العثماني نفسه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:00}

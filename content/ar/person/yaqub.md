@@ -43,3 +43,15 @@ translators: []
 يروي الشيخ أن يعقوب فقد يوسف سنين ثم اجتمع به، ويجعل ذلك مثالًا على حكمة الله فيما يمنع. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:00}
 
 يروي الشيخ ارتفاع يوسف في مصر وسجود يعقوب له، على أنه تحقيق رؤيا سابقة (لم تُذكر السورة). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يتحدث عمر عبد الكافي عن صبر يعقوب على ما أصابه في ولديه، ويذكر مجيء القميص وإلقاءه على وجهه، ويسأل كيف عالج يعقوب الابتلاء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي) (2)
+ويقول الشيخ إن يعقوب أظهر محبة خاصة ليوسف ومكانة مميزة عند إخوته، ويستخلص من ذلك أن على الآباء ألا يفضّلوا ولدًا على ولد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يستخلص الشيخ من قصة يعقوب ويوسف ملمحًا تربويًا: أن إخوة يوسف لما رأوا حب أبيهم ليوسف وأخيه حاولوا قتله وألقوه في الجب ظانين أنهم يقضون على حبه في قلب أبيه، فما زاده ذلك إلا حبًا حتى ابيضت عيناه من الحزن؛ ويرى أن الأب إذا غلب على قلبه حب ولد من أولاده فلا يُظهره، لأنه يثير غيرة إخوته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يستشهد الشيخ في افتتاح «بستان الأمل» بقول يعقوب لأبنائه: اذهبوا فتحسسوا من يوسف وأخيه ولا تيأسوا من روح الله، مثالًا على أن المؤمن لا ييأس. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30}

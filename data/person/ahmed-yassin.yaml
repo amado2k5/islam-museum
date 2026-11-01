@@ -42,6 +42,7 @@ sources:
   - source/wikipedia-ahmed-yassin-ar
   - source/wikipedia-ahmed-yassin-ur
   - source/wikidata-ahmed-yassin
+  - source/assabile-omar-abdelkafy
 provenance:
   layer: own-research
   source: "Wikipedia articles on Ahmed Yassin in English (revision 1370288157 of 20 Aug 2026), Arabic (revision 76647106 of 19 Sep 2026) and Urdu (revision 10258703 of 4 May 2026) and the Wikidata item Q188653 (labelled 'Ahmad Yasin'; item revision 2560710006 of 25 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property (Wikidata name search returns unrelated researchers). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed (the abdallah-ibn-yasin file is the medieval Almoravid). Neither Hamas nor the Muslim Brotherhood has a group entity in the museum, so no founder_of or member_of edge is written; al-Jura has no place entity, so no born_in edge is written."

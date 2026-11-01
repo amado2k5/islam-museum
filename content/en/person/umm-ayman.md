@@ -32,3 +32,6 @@ The book says that Amina set out from Mecca to Yathrib on a journey it estimates
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 1)
 
 Speaking about language, the Sheikh relates that Umm Ayman, an Abyssinian woman who did not speak Arabic well, called out to the fighters urging them to fight and asking God to make their feet firm, but pronounced the word with a foreign accent, and those who heard her told her she was a non-Arab {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:12:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy mentions that Umm Ayman was the nurse who cared for the Prophet in his childhood. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:18:00}

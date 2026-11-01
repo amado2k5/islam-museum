@@ -31,3 +31,6 @@ He says that the zakat of about five countries last year came to roughly 582 bil
 - **The speaker's view (rant)**: The Sheikh holds that a Muslim remaining in a camp without shelter, water, food, medicine and dignity is a sin on every capable Muslim, and he urges that zakat be paid for them {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:37:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:37:30}.
 - **Academic and other views (not yet sourced)**: Not yet sourced.
 :::
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that if the rich of the Muslim world paid the zakat on their wealth no one would remain poor, and explains that zakat is the poor man's right in the wealth, not a favour from the rich; he works it out with an example, twenty-five in every thousand dirhams, one part in forty. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:41:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:43:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:44:00} (needs_source: the arithmetic example in the recording is confused.)

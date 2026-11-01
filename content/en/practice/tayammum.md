@@ -21,3 +21,6 @@ The majority held tayammum a concession (rukhsa) for traveller and patient; the 
 
 ## Conditions and integrals
 Conditions of obligation include majority, ability to use earth, and a nullifying hadath; conditions of validity include Islam, sanity, cessation of menses and postnatal bleeding, and the presence of clean earth. Its integrals are two: the two strikes, and covering face and hands to the elbows with wiping — with disagreement on whether intention is integral or a condition. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6084} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6085}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+In a lesson on law Omar Abdelkafy explains dry ablution: the person strikes clean earth once with both palms and wipes his face and hands with them, and thereby lifts both the minor and the major state of impurity. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:15:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:16:00}

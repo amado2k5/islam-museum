@@ -18,3 +18,9 @@ In the month of Ramadan Muslims fast, abstaining from food and drink from the fi
 
 ## For Scholars
 Fasting through the month of Ramadan, one of the five pillars of Islam. The Qur'an prescribes it and says that whoever witnesses the month should fast it, with a number of other days for the sick and the traveller. The fast means abstaining from food, drink and marital relations from dawn to sunset, and reading the Qur'an and giving charity are encouraged in it. Reports and jurisprudence differ on the details of the sighting and the confirmation of the month, so each detail needs a source. The museum presents the fast as the worship of a whole month and does not rule on questions of sighting or fatwa; it refers to the entry on fasting in law.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that in Ramadan people turn to worship, even those who do not pray, and distinguishes the servant of Ramadan, who worships for thirty days and then stops, from the servant of the Lord of Ramadan. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:30} In another lesson he answers questions on fasting, among them eye drops. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:30}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy faults the month of fasting becoming a month of eating and banquets, saying the stomach complains to God of people's injustice to it, and counts among the wisdoms of fasting that a person comes to feel the state of the hungry. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:00}

@@ -40,3 +40,6 @@ translators: []
 يتحدث الشيخ عن الكفاءة في الزواج، فيقول إن المال عارية تذهب وتعود، وإن بعض البنات تتحمّل الضيق والسعة، وإن من تربّت في النعيم تستطيع أن تعيش في أي مستوى بعد ذلك {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:16:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:16:30}.
 
 ويذكر أن عبد الرحمن بن عوف عرض أخته للزواج على بلال بن رباح (needs_source: تفاصيل الخبر) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:18:30}. ويرى الشيخ، وهو رأيه الخاص، أن الصحابة كانوا يحكمون على الناس بالتقوى لا بالمكانة (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:20:00}. ويستشهد بحديث «فاظفر بذات الدين تربت يداك»، ويقول إن الجمال الحقيقي جمال النفس لا المظهر {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:24:00}.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يقول الشيخ إن الكفاءة في الزواج عند الأحناف وغيرهم ليست علمية واجتماعية ومادية فقط، بل إيمانية أيضًا، وينتقد أن يُخطب لشاب لا يصلي فتاة ملتزمة بانتظار أن يهديه الله بعد الزواج، ويعدّ ذلك من [[concept/tatfif-short-measure|التطفيف]] في المعاملة، وهذا رأيه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:04:30}

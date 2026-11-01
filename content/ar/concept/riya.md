@@ -27,3 +27,9 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
 يعدّ الشيخ الرياء والعجب والحسد والكبر والضغينة من أمراض القلب التي يجب أن تُطهَّر {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:11:00}. ويقول إن الداعية يبلّغ الإيمان بوضوح، لا للاستعراض، فهو أمين على عقول الناس وأفكارهم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:44:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يرى عمر عبد الكافي أن من يحكي عمله الصالح يحكيه أول مرة فرحًا، ثم في المرة الثانية يخالطه شيء من المباهاة، فإذا كرّره صار يحكيه بنية المباهاة، ويمثّل بمن يقول إنه يقوم الليل ويصوم النهار ويُخرج نصف ماله. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 01:05:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+ينقل الشيخ عن أهل العلم أن العمل من أجل الناس شرك، وترك العمل من أجل الناس رياء، ويضرب مثلًا بمن يصلي الركعتين في بيته في نصف دقيقة، فإذا صلى في المسجد ركع واطمأن وخشع ليراه الناس، وبمن يحب أن يعلم الناس أنه يقوم الليل ويصلي الصبح في المسجد ويتصدق؛ ويذكّر بمن أخفى صدقته حتى لا تعلم شماله ما أنفقت يمينه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:04:00} انظر: [[question/what-is-ikhlas|الإخلاص]].

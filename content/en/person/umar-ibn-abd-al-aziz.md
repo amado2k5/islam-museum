@@ -92,3 +92,9 @@ He recounts that when Umar sent officials to collect zakat in Africa, they retur
 - **Police:** Yazid ibn Bishr ibn Yazid ibn Bishr al-Kalbi {cite:tarikh-khalifa-umari-1985 p. 324}
 - **Secretary:** Layth ibn Abi Ruqayya, mawla of Umm al-Hakam bint Abi Sufyan {cite:tarikh-khalifa-umari-1985 p. 324}
 - **Land tax and army:** Salih ibn Jubayr al-Ghudani {cite:tarikh-khalifa-umari-1985 p. 324}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that Umar ibn Abd al-Aziz had several daughters, and when death came he was asked whether he would leave anything for them; he said he did not fear poverty for them, for he had taught them [[passage/quran-56-1|Surat al-Waqi'a]]; the Sheikh says that after his death each daughter married a prince (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:30}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that a man on his way to Damascus saw thirty dogs with a flock of sheep and thought it too many; the shepherd said they were wolves that had grazed with the sheep since Umar ibn Abd al-Aziz took office; when Umar heard it he said: we set right what was between us and our Lord, and God set right what was between the wolf and the sheep. He draws the lesson for spouses that whoever sets right what is between himself and God, God sets right what is between him and his spouse (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:10:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:10:30}

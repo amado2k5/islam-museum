@@ -15,3 +15,6 @@ Its time runs from the eclipse's appearance until it clears — "supplicate God 
 
 ## In the disliked times
 The Hanafis, the apparent Hanbali position, and one report from Malik held it is not prayed in the times when prayer is forbidden — tasbih, tahlil and istighfar take its place; the Shafi'is, with another report from Malik and Ahmad, held it is prayed at all times like other prayers that have a cause. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10615}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy mentions that the Prophet stretched out his hand during the prayer as if to take something and then drew it back, and said after the prayer that a gate of Paradise had been opened to him. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:42:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep14 00:42:30}

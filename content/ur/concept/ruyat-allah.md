@@ -30,3 +30,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 9)
 شیخ اہلِ علم سے نقل کرتے ہیں کہ اگر اللہ اپنے کریم چہرے کے ساتھ اہلِ جہنم پر تجلی فرمائے تو وہ اپنا عذاب بھول جائیں، اور اگر وہ اپنا کریم چہرہ اہلِ جنت سے چھپا لے تو جنت میں ان کی زندگی ایک لمحے کے لیے بھی خوشگوار نہ رہے (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:39:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی کہتے ہیں کہ ساری نعمت اللہ کے کریم چہرے کے دیدار میں ہے اور سارا عذاب اس سے حجاب میں، اور اللہ کے چہرے کی طرف دیکھنے کو آخرت میں بندوں کو ملنے والی سب سے بڑی عطا شمار کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:40:00} وہ موسیٰ کے اپنے رب کو دیکھنے کے سوال اور اللہ کے جواب کا ذکر کرتے ہیں کہ پہاڑ کی طرف دیکھو، اور بعد میں موسیٰ کی تسبیح کو ہر نقص سے اللہ کی تنزیہ قرار دیتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:30}

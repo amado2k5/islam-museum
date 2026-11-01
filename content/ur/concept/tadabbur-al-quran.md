@@ -45,3 +45,6 @@ translators: []
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ تعبد کی تلاوت، جس میں قاری ہر حرف کے ثواب کی نیت کرتا ہے، اور تدبر کی تلاوت میں فرق کرتے ہیں، جس میں وہ خود کو آیات کے سامنے پیش کرتا ہے: عباد الرحمن کی صفات پڑھے تو خود سے پوچھے کہ ان میں سے کتنی صفات میں وہ داخل ہے، کیا وہ زمین پر عاجزی سے چلتا ہے، جاہل کو «سلام» کہتا ہے، اپنے رب کے لیے سجدے اور قیام میں رات گزارتا ہے؟ اور منافقوں کی صفات سے گزرے تو پوچھے: کیا یہ مجھ پر صادق آتی ہیں؟ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}

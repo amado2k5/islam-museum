@@ -18,3 +18,6 @@ If the waiting period has ended and the spouses wish to return, this happens onl
 
 ## The woman's consent
 Sha'rawi notes that the verse attributes the marriage to the women ('that they marry their husbands'), which implies the woman's consent to returning, so a man cannot divorce her and then give her no say in the return. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1003}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+Omar Abdelkafy holds that the frequent divorces that ruin homes come from patience evaporating between spouses, and that the 'shells' of divorce and of demands for it are launched from tongues once patience is gone; he advises a husband provoked by his wife in a moment of anger to be patient and not divorce; this is his view. {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:06:00}

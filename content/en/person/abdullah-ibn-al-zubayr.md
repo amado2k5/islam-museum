@@ -22,3 +22,6 @@ This page follows al-Mas'udi's "Meadows of Gold"; other details need an addition
 - **Judgeship of Kufa:** Sa'id ibn Nimran al-Hamdani (appointed by Mus'ab when Shurayh withdrew; then dismissed); then [[person/abdallah-ibn-utba-ibn-masud|Abd Allah ibn Utba ibn Mas'ud]] (until Mus'ab was killed) {cite:tarikh-khalifa-umari-1985 p. 269}
 - **Chamberlain:** Abd Allah ibn Sa'd, mawla of Hatib ibn Abi Balta'a {cite:tarikh-khalifa-umari-1985 p. 270}
 - **Over all his affairs:** Abd Allah ibn Safwan ibn Umayya ibn Khalaf {cite:tarikh-khalifa-umari-1985 p. 270}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy relates that Umar ibn al-Khattab passed some boys at play who all ran from him except Abdullah ibn al-Zubayr; when Umar asked why he had not run, he said he had committed no fault for which to fear him, and the road was not so narrow that he needed to make way. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:39:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:40:30}

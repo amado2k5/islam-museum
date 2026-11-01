@@ -17,3 +17,6 @@ translators: []
 
 ## سنتا الميلاد والوفاة
 المصادر تختلف في عمره. يذكر المسعودي أنه مات سنة 161هـ وله ثلاث وستون سنة، وعند ابن النديم أربع وستون، وولادته سنة 97هـ. وعند الشيرازي ولد سنة 96هـ وقيل 97، ومات سنة 161هـ. {cite:muruj-al-dhahab p.312-313} {cite:fihrist-ibn-al-nadim p.314-315} {cite:tabaqat-fuqaha-abbas-1981}
+
+## في خطب عبد الحميد كشك
+يروي [[person/abdul-hamid-kishk|عبد الحميد كشك]] أن رجلًا جاء إلى سفيان يشكو مرضًا في قلبه، فوصف له دواءً تُعدّ مكوّناته من الأخلاق: التواضع والخشية والمراقبة والاستغفار؛ ويسوقه في حديثه عن الذكر وعمل القلوب (needs_source: الخبر يرويه دون إسناد، وبعض ألفاظه مشوّشة في النص الآلي). {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:18:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:19:30}

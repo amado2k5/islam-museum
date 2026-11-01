@@ -123,3 +123,6 @@ He offers a view he presents as weak: that a person who wants to change wrong sh
 - **The speaker's view (personal opinion)**: The Sheikh holds that wrong is changed within one's own sphere, by founding a school or institution on one's method rather than by force or destruction, and he presents this as a weak view. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep05 00:43:00}
 - **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+In an episode of the programme 'Wa Nafsin wa ma Sawwaha' the Sheikh says he has spent more than forty-five years in preaching (his own statement about himself). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep25 00:08:00} At the close of the programme he thanks the technical team who worked with him on recording and producing the episodes, and promises to meet the audience in other programmes. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}

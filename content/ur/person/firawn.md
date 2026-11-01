@@ -72,3 +72,6 @@ translators: []
 - **شیخ عمر عبد الکافی کی رائے (ذاتی رائے)**: وہ فرعون اور ہامان کا مذاق اڑاتے ہیں اور کہتے ہیں کہ فرعون خلا دیکھ لیتا تو اسے ایمان لانا چاہیے تھا، اور اسے مجرم قرار دیتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:52:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:53:00}۔
 - **علمی اور دیگر آراء (ابھی ماخذ شامل نہیں)**: اس مسئلے میں علمی اور دیگر آراء ابھی ماخذ کے ساتھ شامل نہیں کی گئیں۔
 :::
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ فرعون کے غرق ہونے میں اللہ کی یہ سنت دیکھتے ہیں کہ بری چال چلنے والوں پر پلٹتی ہے: شیر خوار موسیٰ دریا میں ڈالے گئے اور بچ گئے، جبکہ طاقتور فرعون سمندر میں اترا اور ڈوب گیا، اور اس کی طاقت اسے نہ بچا سکی۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} دیکھیے: [[concept/al-makr-al-sayyi|بری چال]]۔
