@@ -1,0 +1,28 @@
+id: event/ibn-taymiyya-harran-exodus-667
+class: event
+kind: migration
+label:
+  ar: "خروج آل تيمية من حران إلى دمشق، ٦٦٧هـ/١٢٦٩م"
+  en: "The Taymiyya family's flight from Harran to Damascus, 667/1269"
+  ur: "آل تیمیہ کا حران سے دمشق کو رخصتی، 667ھ/1269ء"
+summary:
+  ar: "لما دنا التتر من حران سنة ٦٦٧هـ/١٢٦٩م اضطر أهلها إلى النزوح، فخرج عبد الحليم بن تيمية بأولاده الأربعة — ومنهم أحمد، ابن ست سنين — إلى دمشق، حيث صار أبوه مدير المدرسة السكرية وتتلمذ الولد على أهلها ومنهم شمس الدين عبد الرحمن المقدسي، أول قاضي قضاة حنابلة الشام بعد إصلاح القضاء في عهد بيبرس {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  en: "As the Mongols closed on Harran in 667/1269 its people were driven to flee; Abd al-Halim ibn Taymiyya took refuge in Damascus with his four sons — among them Ahmad, aged six. There his father directed the Sukkariyya madrasa, and the boy was educated under Damascene masters including Shams al-Din Abd al-Rahman al-Maqdisi, first Hanbali qadi al-qudat of Syria after Baybars' reform of the judiciary {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}."
+  ur: "667ھ/1269ء میں جب منگول حران کے قریب پہنچے تو اہل شہر کو نقل مکانی پر مجبور ہونا پڑا؛ عبد الحلیم ابن تیمیہ اپنے چار بیٹوں سمیت — جن میں چھ سالہ احمد بھی تھا — دمشق جا پناہ گزین ہوا۔ وہاں اس کے والد مدرسہ سکریہ کے منتظم رہے اور لڑکے نے دمشق کے علماء سے تعلیم حاصل کی، جن میں شمس الدین عبد الرحمٰن مقدسی شامل ہیں، بیبرس کی عدالتی اصلاح کے بعد شام کے پہلے حنبلی قاضی القضاة {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1269~", hijri: "0667~", calendar: julian, precision: year, status: tradition, derived: true, note: "اضطر إلى مغادرة حران سنة ٦٦٧هـ/١٢٦٩م أمام تقدم المغول {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/harran, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "الولد النازح مع أهله", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 983 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
