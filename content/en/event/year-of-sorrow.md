@@ -19,3 +19,6 @@ The pressure also mounted on the Prophet's companions. [[person/abu-bakr|Abu Bak
 
 ## For young visitors
 The year in which Abu Talib and Khadija died was called "the Year of Sorrow", because in that year the Prophet lost his uncle and his wife, who had protected and comforted him.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh says that in the tenth year of the mission the Prophet lost his two greatest supports, [[person/khadija|Khadija]] and his uncle [[person/abu-talib|Abu Talib]], and that Quraysh could harm him only after Abu Talib's death, so that year was called the Year of Sorrow. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00} He relates that when Fatima saw him in the throes of death she said 'O my father's distress!', and he said 'there is no distress for your father after today', which he takes to mean that his whole life in twenty-three years of prophethood was hardships. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}

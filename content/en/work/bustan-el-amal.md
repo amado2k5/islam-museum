@@ -49,6 +49,26 @@ Two views in hardship: the visible and the unseen worlds ([[concept/al-yaqin|cer
 
 [[person/yusuf|Yusuf]]'s three hardships, the well, slavery and prison, and his digression on [[question/what-is-ghiba|backbiting]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:09:30}
 
+## Episode 11: the Prophet's hardships and their relief
+
+[[event/year-of-sorrow|The Year of Sorrow]], the deaths of [[person/khadija|Khadija]] and [[person/abu-talib|Abu Talib]], [[event/journey-to-taif|the journey to al-Ta'if]] and its prayer, and [[event/conquest-of-mecca|the conquest of Mecca]] and its pardon. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
+
+## Episode 12: why me?
+
+[[concept/al-iaqa-al-sulukiyya|'Behavioural disability']], calamity as God's disposing and [[concept/qadar|decree]], people as guests of the Generous, lawful provision, and [[concept/hadaya-al-ummal|gifts to officials]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
+
+## Episode 13: the station of certainty
+
+Greatness through character, [[person/bilal-ibn-rabah|Bilal]], and the nine steps of [[concept/al-yaqin|the station of certainty]] from repentance to love. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00}
+
+## Episode 14: why the great were patient
+
+The believer as gold in fire, the two 'bags' of memory, the reasons for [[concept/sabr|patience]], and the House of Praise for one who [[concept/al-istirja|says 'to God we belong']] over a child. {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:06:00}
+
+## Episode 15: realistic idealism
+
+The Companions: [[person/abdullah-ibn-masud|Ibn Mas'ud]], [[person/abdullah-ibn-hudhafa-al-sahmi|Abdullah ibn Hudhafa]] and [[person/khubayb-ibn-adi|Khubayb]], and [[concept/idkhal-al-surur|bringing joy]] to people. {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:08:30}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -107,3 +127,30 @@ These are the museum records written from the episodes of the series, ordered by
 ### Episode 10
 - [[person/yusuf|Yusuf (Joseph)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:01:00}
 - [[question/what-is-ghiba|What is ghiba?]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:06:30}
+
+### Episode 11
+- [[event/year-of-sorrow|The Year of Sorrow]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:00}
+- [[person/abu-talib|Abu Talib ibn Abd al-Muttalib]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}
+- [[person/khadija|Khadija bint Khuwaylid]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00}
+- [[event/journey-to-taif|The Prophet's journey to al-Ta'if]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00}
+- [[event/conquest-of-mecca|The Conquest of Mecca (Fath Makka)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
+
+### Episode 12
+- [[concept/al-iaqa-al-sulukiyya|'Behavioural disability']] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:00:30}
+- [[concept/qadar|Qadar (divine decree)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:03:00}
+- [[concept/al-tawazun-al-kawni|The balance of creation (al-tawazun al-kawni)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:03:30}
+- [[concept/al-rizq-al-rububi|Provision as Lordship's gift and the imamate as the gift of divinity]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:07:00}
+- [[concept/hadaya-al-ummal|Gifts to officials (hadaya al-ummal) and the rule against them]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
+
+### Episode 13
+- [[person/bilal-ibn-rabah|Bilal ibn Rabah]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00}
+- [[concept/tawba|Tawba (repentance)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00}
+- [[person/al-hasan-al-basri|Abu al-Hasan al-Basri]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00}
+- [[concept/zuhd|Renunciation (zuhd)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30}
+- [[concept/shukr|Gratitude (shukr)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:30}
+
+### Episode 15
+- [[person/abdullah-ibn-masud|Abdullah ibn Mas'ud]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30}
+- [[person/abdullah-ibn-hudhafa-al-sahmi|Abdullah ibn Hudhafa al-Sahmi]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30}
+- [[person/khubayb-ibn-adi|Khubayb ibn Adi]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00}
+- [[concept/idkhal-al-surur|Bringing joy to Muslims]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:07:30}
