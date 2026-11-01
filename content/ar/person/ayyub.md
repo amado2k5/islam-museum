@@ -23,3 +23,6 @@ translators: []
 
 ## من برنامج المنجيات (عمر عبد الكافي)
 يذكر عمر عبد الكافي أدب أيوب في شكواه، إذ قال إن الضر مسّه وإن ربه أرحم الراحمين، ولم يقل إن ربه أهلكه أو أهانه. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:16:30}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يقول [[person/yusuf-al-qaradawi|يوسف القرضاوي]] إن محنة نوح كانت محنة الدعوة، وإن محنة أيوب كانت محنة شخصية، وكأنه ضرب «الرقم القياسي» في الصبر ([[passage/quran-21-83|الأنبياء 83]]). {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep09 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep09 00:06:30} ويرفض قصة الدود الذي يتساقط من جسده لأنها من الإسرائيليات التي دخلت التفاسير ولا تليق بمقام النبوة، ويقول إن العلماء يرون أن الأنبياء لا يُبتلون بأمراض تنفّر الناس منهم. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep09 00:07:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep09 00:08:00} ويقول إن أيوب هوّن من بلائه ولم يسأل الشفاء صراحة، بل عرض حاله على ربه. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep09 00:08:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep09 00:10:30}
