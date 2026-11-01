@@ -50,6 +50,30 @@
         "medinan"
       ]
     },
+    "metre": {
+      "enum": [
+        "tawil",
+        "basit",
+        "wafir",
+        "kamil",
+        "hazaj",
+        "rajaz",
+        "ramal",
+        "sari",
+        "munsarih",
+        "khafif",
+        "mudari",
+        "muqtadab",
+        "mujtath",
+        "mutaqarib",
+        "mutadarik",
+        "madid",
+        "other"
+      ]
+    },
+    "rhyme": {
+      "type": "string"
+    },
     "translations": {
       "type": "object",
       "additionalProperties": {

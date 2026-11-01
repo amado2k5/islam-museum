@@ -15,6 +15,7 @@ const claimStatus = ids("claim-status");
 const sensitivity = ids("sensitivity");
 const review = ids("review");
 const licenses = ids("licenses");
+const metres = ids("metres");
 const listingCategories = ids("listing-categories");
 const themes = ids("themes");
 const storyRoles = ids("story-roles");
@@ -311,6 +312,8 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     properties: { work: entityRef, ref: str, unit: enm(["sura", "ayah", "hadith", "poem-line", "chapter", "other"]), sura: intStr, aya: intStr, text: str, text_search: str,
       // sura chronology (docs/plan/21 §C.6): the Cairo-edition order of revelation and its Meccan/Medinan classification
       revelation_order: intStr, revelation_place: enm(["meccan", "medinan"]),
+      // poem-line passages (docs/delegation/poetry-passages-plan.md §3): classical metre and rhyme letter (rawiy)
+      metre: enm(metres), rhyme: str,
       translations: { type: "object", additionalProperties: { type: "object", required: ["text"],
         properties: { text: str, translator: str, license: enm(licenses) } } },
       audio: entityRefs,
