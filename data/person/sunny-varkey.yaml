@@ -1,0 +1,63 @@
+id: person/sunny-varkey
+class: person
+
+label: { ar: "ساني فايركي", en: "Sunny Varkey", ur: "سنی ورکی" }
+
+names:
+  - { value: "Sunny Varkey", kind: full }
+
+gender: male
+
+summary:
+  ar: "ساني فايركي (وُلد في 9 نيسان 1957 في راني بولاية كيرالا)، رجل أعمال تربوي ومحسن هندي يقيم في دبي، مؤسس مجموعة جيمس للتعليم ورئيسها التنفيذي، وهي أكبر مشغّل لمدارس خاصة من الروضة حتى الثانوية في العالم، ومؤسس مؤسسة فايركي وجائزة المعلم العالمية التابعة لها. وهو سفير نوايا حسنة لليونسكو، وانضم إلى تعهد العطاء سنة 2015، ونال وسام بادما شري سنة 2009."
+  en: "Sunny Varkey (born 9 April 1957 at Ranni, Kerala) is an Indian education entrepreneur and philanthropist based in Dubai, founder and executive chairman of GEMS Education, the world's largest operator of private kindergarten-to-grade-12 schools, and founder of the Varkey Foundation and its Global Teacher Prize. A UNESCO Goodwill Ambassador, he joined The Giving Pledge in 2015 and received the Padma Shri in 2009."
+  ur: "سنی ورکی (پیدائش 9 اپریل 1957، رانی، کیرالا) دبئی میں مقیم بھارتی تعلیمی کاروباری اور مخیر ہیں، جیمز ایجوکیشن کے بانی و ایگزیکٹو چیئرمین، جو نجی کنڈرگارٹن تا بارہویں جماعت کے اسکولوں کا دنیا کا سب سے بڑا آپریٹر ہے، اور ورکی فاؤنڈیشن اور اس کے عالمی استاد انعام کے بانی ہیں۔ وہ یونیسکو کے خیر سگالی سفیر ہیں، 2015 میں دی گیونگ پلیج میں شامل ہوئے اور 2009 میں پدم شری ملا۔"
+
+roles: [businessman]
+wings: [people, living]
+regions: [south-asia, arabia]
+
+born:
+  edtf: "1957-04-09"
+  hijri: "1376"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English, Arabic and Urdu articles and Wikidata agree on 9 April 1957, born at Ranni in Kerala. No place entity for Ranni exists on main, so no birthplace is recorded in this block. The date falls within the Hijri year 1376, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-sunny-varkey-en, source/wikipedia-sunny-varkey-ar, source/wikipedia-sunny-varkey-ur, source/wikidata-sunny-varkey]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The christian test was run for Sunny Varkey himself and no
+      attestation for the man was found. The English article attests
+      his parents, K. S. Varkey and Mariamma, as Kerala Syrian
+      Christians and educators, and records his own schooling at a
+      Catholic boarding school in Kollam and at St. Mary's Catholic
+      High School in Dubai; his parents' faith and his schooling are
+      background only and under the founder's rulings never settle a
+      value. No text read names a religion for Varkey himself - the
+      profiles repeat his parents' identity, and a Gulf Business
+      interview quotes him only on the need to pray, in general
+      terms - and Wikidata carries no religion statement for him.
+      His documented public identity, the Varkey Foundation's
+      education philanthropy and the Global Teacher Prize, is
+      stated in the prose.
+    sources: [source/wikipedia-sunny-varkey-en, source/wikipedia-sunny-varkey-ar, source/wikipedia-sunny-varkey-ur, source/wikidata-sunny-varkey]
+
+external_ids: { wikidata: "Q17130621" }
+
+sources:
+  - source/wikipedia-sunny-varkey-en
+  - source/wikipedia-sunny-varkey-ar
+  - source/wikipedia-sunny-varkey-ur
+  - source/wikidata-sunny-varkey
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Sunny Varkey' (revision 1372624591 of 1 September 2026), Arabic Wikipedia article 'ساني فايركي' (revision 70061427 of 1 April 2025), Urdu Wikipedia article 'سنی ورکی' (revision 11503528 of 9 July 2026) and Wikidata Q17130621 (item revision 2529556309 of 10 August 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted identical against a second live query and the QID grounded from the English article's own page property. Existence checked against origin/main before building - no prior record and no draft stub. His faith is left unknown - the christian test was run for the man himself and failed; the texts attest his parents' Kerala Syrian Christianity and his Catholic schooling, which are background only, and no text names a religion for Varkey himself."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-171a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
