@@ -69,3 +69,6 @@ The Sheikh advises the father to be wise in raising his children, not to demand 
 The Sheikh asks why failure pursues us in our relations with our wives {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:00}.
 
 He holds that the cause of troubles with spouses and relatives is that each person puts the key in the wrong door, and had he put it in its right place it would open {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}. He adds, on visiting a wife's mother, that one must treat her kindly {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy relates that he said in a lecture at a university in Lebanon that every Islamic state should give the teacher a blank cheque on which to write what he wants, so that he can raise sound generations. This is his view. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:50:00}

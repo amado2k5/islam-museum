@@ -27,3 +27,6 @@ Wudu is the ritual ablution commanded by God before prayer, preparing believers 
 
 ## For Scholars
 The minor ritual ablution (wudu) with water, standing as an indispensable prerequisite for the validity of the ritual prayer (salat), circumambulation of the Kaaba (tawaf), and handling the Qur'anic text, established by the Qur'an in Surat al-Ma'idah. Combining its obligatory integrals (fara'id)—washing the face, washing the forearms including elbows, wiping the head, and washing the feet including ankles—with recommended practices (sunan) like rinsing the mouth, inhaling water, using the toothstick (siwak), and maintaining sequence. Wudu embodies a recurring synthesis of physical hygiene and spiritual revitalization performed multiple times daily.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy mentions that researchers photographed a Muslim before and after ablution, and says that ablution relieves nervous tension and fear in those who suffer them, denying that this is any manipulation of Muslims' minds. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:23:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:24:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:24:30} (needs_source: the study is not named in the recording.)

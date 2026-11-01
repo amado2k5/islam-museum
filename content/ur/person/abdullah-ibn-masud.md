@@ -42,3 +42,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ کے نزدیک (ان کی ذاتی رائے)، بہت سے لوگ بلند آواز سے بولتے ہیں اور علم کے بغیر فتوے دیتے ہیں، اور اگر ایسے سوالات ابن مسعود اور ابن عباس کے سامنے رکھے جاتے تو وہ فتوی دینے سے پہلے کئی بار سوچتے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:09:00}۔
 
 وہ بیان کرتے ہیں کہ کچھ صحابہ ابن مسعود کے پیچھے چلے تو انہوں نے انہیں واپس لوٹنے کو کہا، اور ابن مسعود سے منسوب ہے کہ ان کے پیروکار ان کے لیے فتنہ ہیں اور خود پیروکاروں کے لیے گمراہی کا سایہ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:30:00}۔ شیخ کے نزدیک (ان کی ذاتی رائے)، جو داعی پیروکار اور شہرت چاہتا ہے وہ لوگوں کو گمراہ کر سکتا ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی یاد دلاتے ہیں کہ نبی نے فرمایا جو قرآن کو ویسا تازہ سننا چاہے جیسا نازل ہوا وہ ابن ام عبد، یعنی عبد اللہ بن مسعود سے سنے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:30}

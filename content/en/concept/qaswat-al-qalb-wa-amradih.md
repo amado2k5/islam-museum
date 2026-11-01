@@ -16,3 +16,6 @@ The Sheikh says that whoever wants his heart purified should prefer God to his d
 
 ## Remembrance and reflection: reviving the heart
 The Sheikh says that the heart is revived by remembrance, watered by reflection and cleansed of weeds, meaning harmful growth. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:14:30}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy explains Ibn Ata Allah's maxim on the signs of a dead heart: not grieving over acts of obedience one has missed and not regretting the slips one has made. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30} He gives the example of the man who enters the mosque only when carried in to be prayed over, and of one who repeatedly leaves the prayer. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00}

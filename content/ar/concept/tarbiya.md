@@ -81,3 +81,6 @@ translators: []
 ويتساءل الشيخ: لماذا يلاحقنا الفشل في علاقتنا بزوجاتنا؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:00}.
 
 ويرى أن سبب مشكلات الزواج والأقارب أن كل واحد يضع المفتاح في الباب الخطأ، ولو وضعه في مكانه لانفتح {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}. ويذكر في زيارة أم الزوجة أنه لا بد من معاملتها بالحسنى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي أنه قال في محاضرة بإحدى الجامعات في لبنان إن على كل دولة إسلامية أن تعطي المعلم شيكًا على بياض يكتب فيه ما يريد، لكي يُنشئ أجيالًا صالحة. وهذا رأيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:50:00}

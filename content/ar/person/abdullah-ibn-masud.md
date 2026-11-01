@@ -44,3 +44,6 @@ translators: []
 ويرى الشيخ، رأيًا شخصيًا، أن كثيرًا من الناس يتكلمون ويفتون بغير علم، ولو عُرضت عليهم مسائلهم على ابن مسعود وابن عباس لتراجعوا كثيرًا قبل أن يفتوا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:09:00}.
 
 ويذكر الشيخ أن بعض الصحابة تبعوا ابن مسعود فأمرهم بالرجوع، ويرويه قوله إن أتباعه ظلال خطأ لهم وفتنة له {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:30:00}. ويرى الشيخ، رأيًا شخصيًا، أن الداعية الذي يطلب الأتباع والشهرة قد يضل الناس {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي أن النبي قال إن من أحب أن يسمع القرآن غضًّا كما أُنزل فليسمعه من ابن أم عبد، أي عبد الله بن مسعود. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:30}

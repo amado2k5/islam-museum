@@ -42,3 +42,6 @@ He attributes to Ibn Mas'ud the saying that he would receive ten or twenty quest
 Sheikh Omar Abdelkafy holds, as his own opinion, that many people speak loudly and issue fatwas without knowledge, and that Ibn Mas'ud and Ibn Abbas would have hesitated many times before answering such questions {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:09:00}.
 
 He recounts that some Companions followed Ibn Mas'ud, and that he told them to go back; Ibn Mas'ud is quoted as saying that his followers are a shade of error for them and a trial for him {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:30:00}. Sheikh Omar Abdelkafy holds, as his own opinion, that a preacher who seeks followers and popularity may mislead people {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:29:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy recalls that the Prophet said whoever wishes to hear the Qur'an fresh as it was revealed should hear it from Ibn Umm Abd, that is, Abdullah ibn Mas'ud. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:05:30}

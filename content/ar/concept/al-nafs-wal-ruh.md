@@ -47,3 +47,6 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 9)
 يقول الشيخ إن الروح من عالم النور، وإنها لا تتأثر بحال الجسد الذي تسكنه، ويشبّه ذلك بالزجاجة التي تكون نقية أحيانا ومغبرة أحيانا (تشبيه من عنده) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:03:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+في شرح حكمة «النور جند القلب» يفرّق عمر عبد الكافي بين القلب والنفس والروح والعقل، ويقول إن القلب ليس هذه الكتلة العضلية في الصدر، بل هو القلب الذي يعقل، وإن للعقل في الرأس التفكير وللقلب في الصدر الحنين والأمانة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:14:00} ويقول إن النفس تُطلق على الإنسان كله، وإن الروح من أمر الله الذي لم يُؤتَ الناس من علمه إلا قليلًا. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:22:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:23:00}

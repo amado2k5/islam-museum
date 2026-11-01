@@ -69,3 +69,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ پوچھتے ہیں کہ ہماری بیویوں کے ساتھ تعلقات میں ہمیں ناکامی کیوں گھیرے رکھتی ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:00}۔
 
 ان کی رائے ہے کہ ازدواجی اور رشتہ داری کے مسائل کا سبب یہ ہے کہ ہر شخص چابی غلط دروازے میں لگاتا ہے، اور اگر وہ اسے صحیح جگہ لگاتا تو دروازہ کھل جاتا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}۔ اور وہ بیوی کی ماں سے ملاقات کے بارے میں کہتے ہیں کہ اس کے ساتھ اچھا سلوک لازم ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بیان کرتے ہیں کہ انہوں نے لبنان کی ایک یونیورسٹی میں لیکچر میں کہا کہ ہر اسلامی ریاست کو استاد کو ایک خالی چیک دینا چاہیے جس پر وہ جو چاہے لکھے، تاکہ وہ صالح نسلیں تیار کرے۔ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:50:00}

@@ -16,3 +16,6 @@ translators: []
 
 ## ذکر اور تفکر: دل کی زندگی
 شیخ کہتے ہیں کہ دل ذکر سے زندہ ہوتا ہے، تفکر سے سیراب ہوتا ہے، اور نقصان دہ جڑی بوٹیوں جیسی آلودگیوں سے پاک ہوتا ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:14:30}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی دل کی موت کی علامتوں پر ابن عطاء اللہ کی حکمت کی شرح کرتے ہیں: بندہ فوت شدہ نیکیوں پر غمگین نہ ہو اور کی ہوئی لغزشوں پر نادم نہ ہو۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30} وہ مثال دیتے ہیں اس شخص کی جو مسجد میں صرف جنازے کی صورت میں اٹھا کر لایا جاتا ہے، اور اس کی جو بار بار نماز چھوڑتا ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00}

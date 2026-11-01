@@ -16,3 +16,6 @@ translators: []
 وينقل ابن كثير أن رسول سارية قدم المدينة بالفتح، وأن عمر سُئل عن صياحه على المنبر، فقال إنه لم يُلقِ ذلك إلا بشيء ألقي على لسانه. {cite:al-bidaya-wal-nihaya p. 132}
 
 ويعرض ابن كثير هذه الطرق ويقول إن بعضها يشد بعضاً، ويرى إسناد ابن عمر فيها جيداً حسناً. {cite:al-bidaya-wal-nihaya p. 131}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي أن الروح إذا شفّت بالطاعة والاستقامة رأت ما لا يُرى، ويجعل من ذلك نداء عمر على سارية: «يا سارية، الجبلَ الجبلَ». {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:34:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:36:30}

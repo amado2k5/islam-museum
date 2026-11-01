@@ -33,3 +33,6 @@ The article records his stated view, in a 1990s interview and a 1997 speech, tha
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
 - Revisions of this article must be dated, and must name the source that changed each fact.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy opens one episode of his commentary on the Hikam with a prayer for mercy for Sheikh Ahmed Yassin, and says he found no maxim so suited to the state of mind all his listeners shared as that day's maxim, that this world cannot hold what God wishes to give the righteous. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:04:30} It follows that the lesson was recorded after his killing on 22 March 2004 (an inference; the archive gives no recording date).

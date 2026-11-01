@@ -16,3 +16,6 @@ translators: []
 
 ## ذكر الله والتفكر: إحياء القلب
 يقول الشيخ إن القلب يُحيا بالذكر، ويُسقى بالتفكر، ويُنقّى من الدغل، أي الأعشاب الضارة. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:14:30}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي حكمة ابن عطاء الله في علامات موت القلب: ألا يحزن العبد على ما فاته من الطاعات ولا يندم على ما فعل من الزلات. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30} ويمثّل بمن لا يدخل المسجد إلا محمولًا يُصلّى عليه، وبمن يتكرر منه ترك الصلاة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00}
