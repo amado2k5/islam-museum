@@ -1,0 +1,40 @@
+id: person/badiah-kashgari
+class: person
+label: { ar: "بديعة كشغري", en: "Badiah Kashgari", ur: "بدیعہ کشغری" }
+names:
+  - { value: "بديعة داود محمود الكشغري", kind: full }
+  - { value: "Badia Kashgari", kind: full }
+  - { value: "Badi'a Kashgari", kind: alternate }
+gender: female
+summary:
+  ar: "شاعرة سعودية وُلدت في الطائف سنة 1954، حصلت على البكالوريوس في أدب اللغة الإنجليزية من جامعة الملك عبد العزيز بجدة سنة 1977 وماجستير في علم النفس التعليمي من جامعة أوكلاهوما. عملت بالتدريس، ثم في شركة أرامكو بالظهران من 1978، محررةً بقسم النشر العربي في العلاقات العامة من 1989 حتى استقالتها سنة 1999، وأقامت مدة في كندا، ولها عدة دواوين شعرية مطبوعة."
+  en: "Saudi poet born in Taif in 1954. She took a BA in English literature at King Abdulaziz University in Jeddah (1977) and a master's in educational psychology at the University of Oklahoma, taught in Taif and Jeddah, and worked for Saudi Aramco in Dhahran from 1978, editing Arabic publications in its public relations department from 1989 until her resignation in 1999. She later lived for a time in Canada and has published several collections of poetry."
+  ur: "سعودی شاعرہ، 1954 میں طائف میں پیدا ہوئیں۔ انہوں نے جدہ کی شاہ عبدالعزیز یونیورسٹی سے انگریزی ادب میں بی اے (1977) اور اوکلاہوما یونیورسٹی سے تعلیمی نفسیات میں ماسٹرز کیا۔ تدریس کے بعد وہ ظہران میں آرامکو سے وابستہ رہیں اور اس کے عربی نشریات کی مدیرہ رہیں؛ ان کے کئی شعری مجموعے شائع ہو چکے ہیں۔"
+roles: [poet, writer]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1954"
+  hijri: "1374"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Arabic article gives her birth in Taif in 1954 and pairs the year with 1374 AH in its own lead; the Hijri year is recorded from that pairing. Wikidata agrees on 1954."
+  sources: [source/wikipedia-badiah-kashgari-ar, source/wikidata-badiah-kashgari]
+relations:
+  - { type: born_in, target: place/taif, sources: [source/wikipedia-badiah-kashgari-ar, source/wikidata-badiah-kashgari] }
+  - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-badiah-kashgari-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Kashgari, and Wikidata carries no religion statement for her. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-badiah-kashgari-ar, source/wikidata-badiah-kashgari]
+external_ids: { wikidata: "Q86348278" }
+sources: [source/wikipedia-badiah-kashgari-ar, source/wikidata-badiah-kashgari]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article 'بديعة كشغري' (revision 74968132) and Wikidata Q86348278 (item revision 2550706317, re-asserted against a second live query), fetched via the MediaWiki API on 1 November 2026; QID grounded from the Arabic article's page property. No English or Urdu Wikipedia article on her exists. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-159a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
