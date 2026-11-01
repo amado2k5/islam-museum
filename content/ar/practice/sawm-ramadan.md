@@ -21,3 +21,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يقول عمر عبد الكافي إن الناس في رمضان يقبلون على العبادة حتى من لا يصلي، ويفرّق بين عبد رمضان الذي يعبد ثلاثين يومًا ثم يترك، وعبد رب رمضان. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:30} ويجيب في درس آخر عن أسئلة في الصيام منها قطرة العين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يعيب عمر عبد الكافي أن يصير شهر الصوم شهر الأكل والولائم، ويقول إن المعدة تشكو إلى الله ظلم العباد، ويذكر من حِكَم الصوم أن يشعر الإنسان بحال الجائع. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:00}

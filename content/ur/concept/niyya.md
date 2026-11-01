@@ -26,3 +26,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی ہر عمل میں نیت کی تجدید کی ترغیب دیتے ہیں، تاکہ آدمی کا اپنے گھر والوں پر خرچ کرنا بھی عبادت ہو، اور یاد دلاتے ہیں کہ بہترین درہم وہ ہے جو آدمی اپنے اہل پر خرچ کرے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+عمر عبد الکافی ایک امیر کی حکایت سناتے ہیں جو ایک باغ میں گیا جہاں ایک لڑکی نے ایک ہی انار سے اسے رس پلایا؛ اس نے باغ مالکوں سے چھیننے کا ارادہ کیا، اور جب دوسرا پیالہ مانگا تو لڑکی نے کئی انار نچوڑے مگر پیالہ نہ بھرا، اور کہا کہ حاکم کی نیت بدل گئی ہوگی؛ اس نے ارادہ چھوڑا تو برکت لوٹ آئی۔ وہ اسے برکت پر نیت کے اثر کی مثال کے طور پر لاتے ہیں۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:21:00}

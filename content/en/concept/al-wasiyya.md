@@ -18,3 +18,6 @@ He describes a man who acknowledges a debt that does not exist in order to depri
 
 ## Not checked here
 No academic reading of the third limit or of the order of execution is set out in this part; one is needed from a named source (needs_source).
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy urges writing a will, saying it is not about money alone: one should write in it who is to wash him, shroud him and lead the prayer over him, ending with the warning that whoever alters it after hearing it bears the sin of altering it. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:16:30}

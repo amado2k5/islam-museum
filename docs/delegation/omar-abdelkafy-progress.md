@@ -246,3 +246,5 @@ New series record `work/al-manjeyat` (Ramadan programme on Dubai TV, 27 episodes
 | Excluded (al-manjeyat) | Episode / time | Reason | Gate failed | Override |
 |---|---|---|---|---|
 | Windows not written, ep01–ep05 (about 20 of 47, 15 of 35, 22 of 46, 18 of 46, 16 of 48): openings and closing supplications, loops (ep01 00:08:30, 00:10:30, 00:13:00, 00:16:30), the ruqya anecdote ep04 00:16:30 (garbled) | ep01–ep05 | Formulae, loops, garbled | Content rule; loop check; clarity | Open |
+| al-manjeyat ep06–ep09 (Episodes 06–09) | about 24 min each | ar, en, ur: 1 new record (person/abu-al-dahdah), 10 extended | 1 person new; 7 concepts, 2 practices extended | ep06 30, ep07 25, ep08 35, ep09 30 | none new | run omar-abdelkafy-al-manjeyat-2 |
+| Excluded (al-manjeyat ep06–ep09): openings and closing supplications; the imam left without followers ep06 00:05:30, the sparrow story ep06 00:10:00, the man carrying his mother ep07 00:10:00, the zakat-auditor remark ep07 00:18:00 (garbled); loops ep06 00:18:30, ep09 00:11:00, 00:19:30 | ep06–ep09 | Garbled, formulae, loops | Clarity; content rule; loop check | Open |
