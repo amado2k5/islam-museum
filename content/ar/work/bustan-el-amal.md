@@ -89,6 +89,26 @@ translators: []
 
 لا عمل وضيع ما دام شريفًا: [[concept/amal|العمل]]، و[[person/dawud|داود]] و[[person/sulayman|سليمان]]، والشهادات ليست مقياس النجاح. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30}
 
+## الحلقة 21: هل يغني حذر من قدر؟
+
+[[concept/qadar|القدر]] وحادثة القطار، و[[person/harun-al-rashid|هارون الرشيد]] والرجل الذي أعزه الله، و[[concept/al-huzn|الحزن]] لا يغيّر شيئًا، و[[concept/ibtisama|الابتسامة]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:09:00}
+
+## الحلقة 22: كلكم راع
+
+[[concept/mas-uliyya|المسؤولية]] في المؤسسات، وقصة [[person/umar-ibn-al-khattab|عمر]] وأم الأيتام، وأمراض القلب الأربعة، و[[practice/sadaqa|صدقة السر]] و[[person/ali-zayn-al-abidin|زين العابدين]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00}
+
+## الحلقة 23: أصحاب الغار
+
+حديث الثلاثة في الغار و[[concept/tawassul|التوسل]] بالعمل الخالص، و[[concept/huquq-al-zawjayn|حقوق الزوجة]] وحقوق الأبوين. {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:05:30}
+
+## الحلقة 24: أربعة أمور تُجتنب
+
+[[concept/al-ajala-wal-tawani|العجلة واللجاجة والتواني والعجب]]، والأعرابي و[[person/al-hajjaj-ibn-yusuf|الحجاج]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:09:30}
+
+## الحلقة 25: المريض والزوج الصعب
+
+المرض خير و[[concept/iyada|عيادة المريض]]، والصبر على الزوج الصعب و[[person/ayyub|أيوب]]، وذئاب [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30}
+
 ## موضوعات الحلقات في المتحف
 
 هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
@@ -194,3 +214,24 @@ translators: []
 ### الحلقة 20
 - [[concept/amal|العَمَل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
 - [[person/dawud|داود]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}
+
+### الحلقة 21
+- [[concept/ibtisama|الابتسامة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30}
+
+### الحلقة 22
+- [[concept/mas-uliyya|المسؤولية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:00}
+- [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00}
+- [[concept/ujb|العُجب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00}
+- [[practice/sadaqa|الصدقة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:30}
+- [[person/ali-zayn-al-abidin|علي بن الحسين السجاد]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00}
+
+### الحلقة 23
+- [[concept/tawassul|التوسل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:01:00}
+- [[concept/huquq-al-zawjayn|حقوق الزوجين]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00}
+
+### الحلقة 24
+- [[concept/al-ajala-wal-tawani|العجلة والتواني]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:00:30}
+
+### الحلقة 25
+- [[concept/iyada|عِيادة المريض]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
+- [[person/ayyub|أيوب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}

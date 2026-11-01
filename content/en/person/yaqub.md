@@ -43,6 +43,12 @@ He recounts that Ya'qub lost Yusuf for years and was then reunited with him, and
 
 He recounts Yusuf's rise in Egypt and Ya'qub bowing before him, as the fulfilment of an earlier vision (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
 
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy speaks of Ya'qub's patience in what befell him through his two sons, mentions the shirt being brought and cast over his face, and asks how Ya'qub dealt with the trial. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah (2)
+The Sheikh says that Ya'qub showed Yusuf a special love and a distinct standing before his brothers, and draws the lesson that fathers should not favour one child over another. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}
+
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh draws an educational lesson from the story of Ya'qub and Yusuf: when Yusuf's brothers saw their father's love for Yusuf and his brother, they tried to kill him and threw him into the well, thinking they would end his love in their father's heart, but it only increased until his eyes went white with grief; he holds that a father whose heart is taken by love for one child should not show it, because it stirs the jealousy of the others. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
 

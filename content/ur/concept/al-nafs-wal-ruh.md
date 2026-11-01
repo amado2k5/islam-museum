@@ -47,3 +47,6 @@ translators: ["Claude (Haiku 5.5), draft translation"]
 
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 9)
 شیخ کہتے ہیں کہ روح نور کی دنیا سے ہے اور جس جسم میں رہتی ہے اس کی حالت سے متاثر نہیں ہوتی، اور اسے ایک ایسے شیشے سے تشبیہ دیتے ہیں جو کبھی صاف ہوتا ہے اور کبھی گرد آلود (یہ ان کی اپنی تشبیہ ہے) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:03:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+«نور دل کا لشکر ہے» کی شرح میں عمر عبد الکافی دل، نفس، روح اور عقل میں فرق کرتے ہیں: ان کے بقول دل سینے میں گوشت کا لوتھڑا نہیں بلکہ وہ دل ہے جو سمجھتا ہے؛ سر میں عقل سوچتی ہے اور سینے میں دل محبت اور امانت رکھتا ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:14:00} وہ کہتے ہیں کہ نفس پورے انسان پر بولا جاتا ہے، جبکہ روح اللہ کے امر سے ہے جس کا علم لوگوں کو تھوڑا ہی دیا گیا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:22:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:23:00}

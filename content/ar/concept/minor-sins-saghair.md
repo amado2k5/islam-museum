@@ -26,3 +26,6 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: الدين القيم
 
 يقول الشيخ إن الذنب الصغير يصير كبيرا مع الإصرار عليه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}. ويقول إن العلماء يقسمون الذنوب إلى صغيرة وكبيرة، وإن اللمم أدنى من الكبيرة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}. وينقل قولا مفاده أنه لا صغيرة مع الإصرار {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:07:00}.
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يقول عمر عبد الكافي إن الصغيرة لا تبقى صغيرة إذا أصرّ عليها العبد، {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:00} ويشبّه الصغائر بمثل للغزالي: قطرات الماء التي تتساقط على الحجر فلا تؤثر واحدةٌ منها، لكنها بتواليها تؤثر، وإن الذنوب إذا تجمعت حجبت القلب عن ربه. {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:07:30}

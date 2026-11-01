@@ -62,3 +62,6 @@ A man who marries in his last illness may do so at the proper dower, and if he o
 ## Sheikh Omar Abdelkafy's view
 He holds that the deferred dower is a debt on the husband that must be paid during his life, and that the common view that it falls due only at divorce or death is mistaken. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:27:00}
 He criticises fathers who ask for a large deferred dower to push the husband into divorce. {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:30} The juristic rules in the sections above stand; this section records the speaker's view.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that people made the lawful hard so the unlawful became easy, while the Companions made the lawful easy so the unlawful was hemmed in, and he speaks of the immediate and deferred dower and of the wife's right to her deferred dower as a debt on her husband's estate if he dies. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:47:30}

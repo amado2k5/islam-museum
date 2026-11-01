@@ -57,3 +57,6 @@ lang: ar
 - **رأي الشيخ عمر عبد الكافي (رأي شخصي)**: يرى الشيخ أن بقاء مسلم في مخيم بلا مأوى وماء وطعام وعلاج وكرامة إثم على كل قادر من المسلمين، ويحث على إخراج الزكاة لهم {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:37:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:37:30}.
 - **رأي أكاديمي أو آراء أخرى (لم يُسنَد بعد)**: لم يُسنَد بعد.
 :::
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يقول عمر عبد الكافي إنه لو أخرج أغنياء العالم الإسلامي زكاة أموالهم لما بقي فقير، ويشرح أن الزكاة حق الفقير في المال لا تفضّل من الغني، ويحسبها بمثال: في كل ألف درهم خمسة وعشرون، أي جزء من أربعين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:41:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:43:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:44:00} (needs_source: المثال الحسابي في التسجيل مضطرب.)

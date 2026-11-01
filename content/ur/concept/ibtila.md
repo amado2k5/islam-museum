@@ -50,6 +50,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ لوگوں کی زبانوں، ظالم مالکان، اور ان پڑوسیوں کا ذکر کرتے ہیں جو بھلائی چھپاتے اور برائی پھیلاتے ہیں۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
 ان کی رائے ہے کہ تنگ رزق آدمی کو اللہ سے دعا کرنا سکھاتا ہے، جبکہ محفوظ تنخواہ اپنے مالک کو اس کے رب سے غافل کر دیتی ہے۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
 
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی ابن عطاء اللہ کی اس حکمت کی شرح کرتے ہیں کہ آزمائش کا درد یہ جان کر ہلکا ہوتا ہے کہ آزمانے والا اللہ ہے، اور کہتے ہیں کہ سب سے سخت آزمائش انبیا کی ہوتی ہے، پھر علما کی، پھر درجہ بدرجہ؛ جب تک آزمائش دین میں نہ ہو اللہ کا شکر ادا کرے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:14:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:27:30}
+
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ کے نزدیک سب لوگ آزمائے جاتے ہیں، اور ابتلا کا مطلب مصیبت نہیں بلکہ امتحان ہے: اللہ کسی کو بیماری سے آزماتا ہے اور کسی کو عہدے سے؛ ان کے نزدیک [[person/sulayman|سلیمان]] بادشاہت، مرتبے اور مال سے سب سے سخت آزمائے جانے والوں میں تھے، اور انہوں نے کہا «یہ میرے رب کا فضل ہے تاکہ مجھے آزمائے کہ شکر کرتا ہوں یا ناشکری»۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:30} اگلی قسط میں وہ ذکر کرتے ہیں کہ اللہ جب کسی بندے سے محبت کرتا ہے تو اسے آزماتا ہے، اگر وہ صبر کرے تو اسے چن لیتا ہے، اور اگر راضی ہو تو اسے برگزیدہ کرتا ہے؛ اور جس پر چالیس دن آزمائش کے بغیر گزریں وہ اپنا حساب دیکھے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:30} دیکھیے: [[concept/al-istirja|انا للہ کہنا]]۔
 

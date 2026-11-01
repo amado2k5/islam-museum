@@ -70,5 +70,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ان کی رائے ہے کہ ازدواجی اور رشتہ داری کے مسائل کا سبب یہ ہے کہ ہر شخص چابی غلط دروازے میں لگاتا ہے، اور اگر وہ اسے صحیح جگہ لگاتا تو دروازہ کھل جاتا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}۔ اور وہ بیوی کی ماں سے ملاقات کے بارے میں کہتے ہیں کہ اس کے ساتھ اچھا سلوک لازم ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:27:30}۔
 
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بیان کرتے ہیں کہ انہوں نے لبنان کی ایک یونیورسٹی میں لیکچر میں کہا کہ ہر اسلامی ریاست کو استاد کو ایک خالی چیک دینا چاہیے جس پر وہ جو چاہے لکھے، تاکہ وہ صالح نسلیں تیار کرے۔ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:49:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:50:00}
+
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ کہتے ہیں کہ وہ پروگرام کی ہر قسط میں انسانی نفس کی قرآنی تربیت پر ایک نکتہ یا عنوان لیں گے: قرآن نے صحابہ کے نفوس کی تربیت کیسے کی، اور وہ ان پر ایسا اثر کیوں کرتا تھا جو ہم پر نہیں کرتا حالانکہ کلام کرنے والا ایک ہی ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30} وہ جواب دیتے ہیں کہ قرآن نے صحابہ میں سلیم اور پاک فطرتوں سے خطاب کیا تو ان پر اثر ہوا، اور کوئی اعرابی چند لمحے نبی سے ملتا اور اللہ کا داعی بن کر لوٹتا۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:07:30} وہ [[person/abdullah-ibn-masud|ابن مسعود]] کا قول نقل کرتے ہیں کہ قرآن ایسے پڑھو جیسے صرف تم پر نازل ہوا ہو۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}

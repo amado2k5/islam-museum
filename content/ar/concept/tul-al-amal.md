@@ -16,5 +16,8 @@ translators: []
 ## رأي الشيخ: الغاية هي الهدى والاستعداد للقاء الله
 يقول الشيخ إن الصلاة كلها في اتباع الهدى والاستعداد للقاء الله. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:21:00}
 
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يقول عمر عبد الكافي إن الآمال عكس الأعمار، فالعمر يولد طويلًا ثم يقصر، والأمل يكبر مع الإنسان، ويحكي نادرة جحا الذي أخذ يحلم بما سيصنع لو اغتنى: يبيع ويشتري ويتزوج على زوجته وينجب، حتى ضاع ما في يده. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:12:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:14:00}
+
 ## من سلسلة «نفحات رمضانية» (آفات اللسان) لعمر عبد الكافي
 يرى الشيخ أن مصيبة أكثر الناس طول الأمل، ويصف من يُسأل هل يعتقد أنه سيموت فيقرّ، فإذا قيل له: وإن متّ الليلة؟ قال: لا داعي لهذا الكلام. ويجعل قصر الأمل وتذكّر الموت وسيلة ناجعة لعلاج آفات اللسان، ويذكر حديث ابن عمر في أن يكون المرء في الدنيا كأنه غريب أو عابر سبيل. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:02:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:03:00}

@@ -42,6 +42,9 @@ translators: []
 
 ويقول الشيخ، وهو رأي شخصي له، إن الظالم لا يرى إلا نفسه، ولا يتصور أن الطفل الذي يحميه سيكبر ويقف في وجهه، ويضرب مثلا بفرعون ومولود بني إسرائيل {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.
 
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي معنى حديث المفلس: يأتي يوم القيامة بحسنات ثم يأخذ منها من ظلمهم، فإذا فنيت حسناته أُخذ من سيئاتهم فطُرحت عليه، ويحذّر من الغيبة والأذى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}
+
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يحذّر الشيخ صاحب العمل من ظلم الموظف أو بخسه أجره أو تكليفه فوق طاقته، ويذكر أن الظلم ظلمات يوم القيامة، وأن دعوة المظلوم ليس بينها وبين الله حجاب، ويسأل: هل يضع الله البركة في مؤسسة ظلم صاحبها إنسانًا فدعا عليه بالليل؟ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:07:00} انظر: [[concept/huquq-al-amil|العلاقة بين العامل وصاحب العمل]].
 

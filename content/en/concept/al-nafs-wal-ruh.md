@@ -47,3 +47,6 @@ The Sheikh condemns prying and spying on people's faults, says this happens even
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 The Sheikh says the soul is from the world of light and is not affected by the condition of the body it dwells in, and he likens this to a glass that may be clean or dusty (his own comparison) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:03:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Explaining the maxim 'light is the army of the heart', Omar Abdelkafy distinguishes the heart, the self, the spirit and the mind: the heart, he says, is not the lump of muscle in the chest but the heart that understands; the mind in the head does the thinking, while the heart in the chest holds longing and trust. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:14:00} He says that 'self' (nafs) can mean the whole human being, while the spirit belongs to the command of God, of whose knowledge people have been given only a little. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:22:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:23:00}

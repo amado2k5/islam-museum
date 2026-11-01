@@ -89,6 +89,26 @@ translators: []
 
 کوئی شریفانہ کام حقیر نہیں: [[concept/amal|کام]]، [[person/dawud|داؤد]] اور [[person/sulayman|سلیمان]]، اور ڈگریاں کامیابی کا پیمانہ نہیں۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30}
 
+## قسط 21: کیا احتیاط تقدیر کو ٹالتی ہے؟
+
+[[concept/qadar|تقدیر]] اور ٹرین کا واقعہ، [[person/harun-al-rashid|ہارون الرشید]] اور وہ شخص جسے اللہ نے عزت دی، [[concept/al-huzn|غم]] کچھ نہیں بدلتا، اور [[concept/ibtisama|مسکراہٹ]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:09:00}
+
+## قسط 22: تم میں سے ہر ایک نگہبان ہے
+
+اداروں میں [[concept/mas-uliyya|ذمہ داری]]، [[person/umar-ibn-al-khattab|عمر]] اور یتیموں کی ماں کا قصہ، دل کی چار بیماریاں، اور [[practice/sadaqa|خفیہ صدقہ]] اور [[person/ali-zayn-al-abidin|زین العابدین]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00}
+
+## قسط 23: غار والے
+
+غار کے تین افراد کی حدیث اور خالص عمل کا [[concept/tawassul|وسیلہ]]، اور [[concept/huquq-al-zawjayn|بیوی کے حقوق]] اور والدین کے حقوق۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:05:30}
+
+## قسط 24: چار چیزیں جن سے بچنا ہے
+
+[[concept/al-ajala-wal-tawani|جلد بازی، جھگڑا، سستی اور خود پسندی]]، اور اعرابی اور [[person/al-hajjaj-ibn-yusuf|حجاج]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:09:30}
+
+## قسط 25: بیمار اور مشکل شریکِ حیات
+
+بیماری بطور خیر اور [[concept/iyada|بیمار کی عیادت]]، مشکل شریکِ حیات پر صبر اور [[person/ayyub|ایوب]]، اور [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] کے بھیڑیے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30}
+
 ## میوزیم میں اقساط کے موضوعات
 
 یہ میوزیم کے وہ ریکارڈ ہیں جو اس سلسلے کی اقساط سے لکھے گئے، ہر موضوع کے پہلے حوالے کی ترتیب سے۔ ہر ریکارڈ کا اپنا متن اور حوالے ہیں۔
@@ -194,3 +214,24 @@ translators: []
 ### قسط 20
 - [[concept/amal|عمل (فعل)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
 - [[person/dawud|داود]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}
+
+### قسط 21
+- [[concept/ibtisama|مسکراہٹ (ابتسامہ)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30}
+
+### قسط 22
+- [[concept/mas-uliyya|ذمہ داری (مسئولیت)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:00}
+- [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00}
+- [[concept/ujb|العُجب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00}
+- [[practice/sadaqa|الصدقة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:30}
+- [[person/ali-zayn-al-abidin|علي بن الحسين السجاد]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00}
+
+### قسط 23
+- [[concept/tawassul|توسل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:01:00}
+- [[concept/huquq-al-zawjayn|میاں بیوی کے حقوق]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00}
+
+### قسط 24
+- [[concept/al-ajala-wal-tawani|جلد بازی اور سستی]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:00:30}
+
+### قسط 25
+- [[concept/iyada|عیادت (مریض کی تیمار داری)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
+- [[person/ayyub|أيوب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}

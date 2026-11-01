@@ -120,9 +120,15 @@ translators: []
 
 ويدعو الشيخ إلى نصح الكبار إذا أخطؤوا بالرفق، ويستشهد بخطاب إبراهيم لأبيه نموذجًا للنصح دون التوبيخ المباشر (لم تُذكر السورة). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:44:00}
 
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي موقف إبراهيم حين رُفع في المنجنيق ليُلقى في النار التي أوقدها النمرود وقومه، فعرض عليه جبريل حاجته، فقال إنه لا حاجة له إليه، وإن علم ربه بحاله يغنيه عن سؤاله؛ ويتخذه شاهدًا على حكمة ابن عطاء الله في الطلب. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:10:00}
+
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يروي الشيخ في ختام برنامج «ونفس وما سوّاها» خبرًا في أن إبراهيم لما أراه الله ملكوت السماوات والأرض رأى رجلًا يأكل مال اليتامى فدعا عليه فنزلت عليه صاعقة، ثم رأى آخر يسرق أرملة فدعا عليه، فقيل له: أأنت خلقتهم؟ دعني وعبادي، من تاب منهم فأنا حبيبه ومن لم يتب فأنا طبيبه، ويسوقه مثلًا على حلم الله ورحمته (needs_source: خبر غير مسند في التسجيل). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:00}
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن الشدائد للكبار، ويعدّ إبراهيم أبا الأنبياء مثلًا: أخذ هاجر من مصر، وكانت سارة لم تنجب وقد كبرا، فأنجبت هاجر إسماعيل ثم أنجبت سارة إسحاق. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:03:00} ويتوقف عند قوله «إني أسكنت من ذريتي بواد غير ذي زرع»، ويرى أن السكن هنا سكن القلب لا البيت ذو الجدران، وأن إبراهيم ترك حضارات الرافدين والشام ومصر وذهب إلى وادٍ أجرد ليُثبت أن الحضارة تنشأ في قلب العبد من الطمأنينة والتوكل لا على ضفاف الأنهار. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}
 وفي الحلقة التالية يذكر أن إبراهيم زار ابنه بعد أن بلغ معه السعي، ويقدّر عمره باثنتي عشرة أو خمس عشرة سنة، فكانت «هديته» رؤيا الذبح، ويلاحظ أنه قال «إني أرى» بالمضارع كأن الأمر حاضر، وأن الفداء بالكبش صار سنة عيد الأضحى. {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:07:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يذكر عمر عبد الكافي في برنامج «المنجيات» أدب إبراهيم في قوله إن ربه هو الذي يطعمه ويسقيه، وإذا مرض فهو يشفيه، فنسب المرض إلى نفسه والشفاء إلى الله. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:15:00}

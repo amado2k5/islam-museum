@@ -18,3 +18,6 @@ He began his career on the staff of his uncle Asad al-Din Shirkuh during the cam
 ## Hattin and Jerusalem
 
 He defeated the army of the kingdom of Jerusalem at Hattin and recovered Jerusalem on 2 October 1187, ending nearly nine decades of Frankish rule there. {cite:britannica-saladin} He then faced the Third Crusade at the siege of Acre and the battles of Arsuf and Jaffa. {cite:kamil-ibn-al-athir}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that Saladin was shaped by what the Prophet did in the house of al-Arqam, and that throughout his life he would not smile, saying he was ashamed to laugh while Jerusalem was in the hands of the Crusaders. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:05:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:06:00}

@@ -15,3 +15,6 @@ translators: []
 
 ## یہاں شامل نہ ہونے والی بات
 کھانے پینے کی تفصیلی فقہی احکام یہاں نہیں دیے گئے، اور اس متن میں کسی دوسرے قول کو منسوب نہیں کیا گیا۔
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں عمر عبد الکافی کھانے کے آداب میں ذکر کرتے ہیں کہ نبی نے پیش کی گئی گوہ نہیں کھائی جبکہ خالد بن ولید نے کھائی، انس بن مالک کو کدو اس لیے پسند ہوا کہ انہوں نے نبی کو پیالے میں اسے ڈھونڈتے دیکھا، کھانے پر بسم اللہ، چھوٹے انتظار کریں یہاں تک کہ بڑا ہاتھ بڑھائے، میزبان تکلف نہ کرے، اور نبی پانی چوس کر پیتے، غٹاغٹ نہیں۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:02:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:03:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:04:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep12 00:07:00}

@@ -71,3 +71,6 @@ The Sheikh says that the disbelievers remain in the Fire forever because God kno
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 7)
 
 The Sheikh says that the people of the Fire, if they found a fire of this world, would find rest in it (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}. He mentions that a single drop of ghislin, if poured out among the people of this world, would kill them with its smell (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy cites the hadith that when God created Paradise He surrounded it with hardships, and when He created the Fire He surrounded it with desires, and sent Gabriel to look at them. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:30}

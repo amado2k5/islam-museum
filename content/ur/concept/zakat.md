@@ -31,3 +31,6 @@ translators: [ai]
 - **شیخ عمر عبد الکافی کی رائے (ذاتی رائے)**: شیخ کی رائے ہے کہ کسی مسلمان کا کیمپ میں رہنا، بغیر ٹھکانے، پانی، کھانے، علاج اور عزت کے، ہر صاحبِ استطاعت مسلمان پر گناہ ہے، اور وہ ان کے لیے زکاۃ ادا کرنے پر ابھارتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:37:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:37:30}۔
 - **علمی اور دیگر آراء (ابھی ماخذ شامل نہیں)**: ابھی ماخذ شامل نہیں۔
 :::
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی کہتے ہیں کہ اگر عالم اسلام کے امیر اپنے مال کی زکوٰۃ نکالیں تو کوئی فقیر نہ رہے، اور سمجھاتے ہیں کہ زکوٰۃ مال میں فقیر کا حق ہے، امیر کا احسان نہیں؛ وہ مثال سے حساب کرتے ہیں: ہر ہزار درہم میں پچیس، یعنی چالیسواں حصہ۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:41:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:43:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 00:44:00} (needs_source: ریکارڈنگ میں حساب کی مثال الجھی ہوئی ہے۔)

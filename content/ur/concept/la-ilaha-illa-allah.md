@@ -32,3 +32,6 @@ translators: []
 
 ## اللہ کے سامنے ذمہ داری
 شیخ کی رائے (opinion): «لا إله إلا الله» کہنے والا ہر شخص، حاکم سے کسان تک، اپنے عمل کے بارے میں اللہ کے سامنے جواب دہ ہے۔ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:12:30}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی اس شخص کے بارے میں سوال اٹھاتے ہیں جس نے کلمۂ شہادت پڑھا پھر بغیر نماز روزے کے مر گیا، اور کہتے ہیں کہ ابو جہل اس سے زیادہ سمجھدار تھا کیونکہ وہ جانتا تھا کہ «لا الہ الا اللہ» صرف زبانی کلمہ نہیں بلکہ تصدیق اور عمل چاہتا ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:19:00} وہ کہتے ہیں کہ موحدین میں سے گنہگار اپنی اپنی مقدار کے مطابق کچھ مدت دوزخ میں عذاب پاتے ہیں پھر نکالے جاتے ہیں، اور اللہ ان کے دلوں میں کلمۂ توحید پر غیرت رکھتا ہے۔ یہ ان کا وعظ ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:21:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:22:00}

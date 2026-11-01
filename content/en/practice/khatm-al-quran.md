@@ -19,3 +19,6 @@ Completing the Qur'an means a reader reaches the end of the mushaf from beginnin
 
 ## Research notes
 - Text from the Kuwaiti Fiqh Encyclopedia, headword «قرآن» (paragraphs 22-23 on completing the Qur'an), Noor-Book scan; both cited hadiths are graded weak in the source itself and are reported with that caveat.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy mentions that some people complete the Qur'an on the eve of Friday, and cites the hadith that the deed dearest to God is that of 'the one who arrives and sets off again', which he explains as the one who completes the Qur'an and then returns to its beginning. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:07:30}

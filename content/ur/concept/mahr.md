@@ -11,3 +11,6 @@ status: draft
 ## شیخ عمر عبدالکافی کی رائے
 ان کے نزدیک مؤخر مہر شوہر پر قرض ہے جو اس کی زندگی میں ادا کرنا ہے، اور یہ خیال کہ وہ صرف طلاق یا موت پر واجب ہوتا ہے، غلط ہے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:27:00}
 وہ ان والدین پر تنقید کرتے ہیں جو زیادہ مؤخر مہر مانگ کر شوہر کو طلاق کی طرف دھکیلتے ہیں۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:30} پچھلے حصوں کے فقہی احکام اپنی جگہ قائم ہیں؛ یہاں شیخ کی رائے درج ہے۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی کہتے ہیں کہ لوگوں نے حلال کو مشکل بنایا تو حرام آسان ہو گیا، جبکہ صحابہ نے حلال کو آسان رکھا تو حرام تنگ ہو گیا، اور وہ مہر معجل و مؤجل کی بات کرتے ہیں اور اس پر کہ شوہر کی وفات پر مؤجل مہر بیوی کا قرض ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:40:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:43:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:47:30}
