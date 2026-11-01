@@ -1,0 +1,27 @@
+id: event/kulayni-studies-qumm
+class: event
+kind: other
+label:
+  ar: "تلمذة الكليني في قم، العقد الأخير من القرن الثالث"
+  en: "al-Kulayni's studies at Qumm, last decade of the third century"
+  ur: "کلینی کی قم میں تعلیم، تیسری صدی کا آخری عشرہ"
+summary:
+  ar: "يقول معجم الإسلام: لما كان أبرز شيوخ [[person/al-kulayni|الكليني]] من علماء [[place/qumm|قم]]، فمن الثابت أنه درس فيها مدة طويلة، وأرجح الظن أن ذلك كان في العقد الأخير من القرن الثالث الهجري (٩٠٣–٩١٣م) {cite:encyclopaedia-of-islam-2 vol. 5 p. 400}."
+  en: "The EI2: since al-Kulayni's chief teachers were scholars of Qumm, he must have studied in that town for a prolonged time, most likely in the last decade of the 3rd century AH (903-913) {cite:encyclopaedia-of-islam-2 vol. 5 p. 400}."
+  ur: "دائرۃ المعارفِ اسلام کے مطابق چوں کہ کلینی کے اصل اساتذہ [[place/qumm|قم]] کے علماء تھے، اس لیے یقینی ہے کہ وہ وہاں طویل عرصہ درس پڑھتا رہا، غالباً تیسری صدی ہجری کے آخری عشرے (903–913ء) میں {cite:encyclopaedia-of-islam-2 vol. 5 p. 400}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0903/0913", calendar: julian, precision: decade, status: tradition, derived: true, note: "«أرجح الظن في العقد الأخير من القرن الثالث الهجري (٩٠٣–٩١٣م)» {cite:encyclopaedia-of-islam-2 vol. 5 p. 400}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/qumm, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-kulayni, role: "الطالب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5, art. al-Kulaynī, printed p. 400 (W. Madelung)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-kulayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
