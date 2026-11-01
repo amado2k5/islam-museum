@@ -33,6 +33,38 @@ The evaporation of affection and mercy from homes, [[concept/al-muasharah-bil-ma
 
 [[concept/al-minha-fi-al-mihna|The gift within the trial]]: Musa's mother, [[person/musa|Musa]], Yusuf, Hajar and [[person/umm-salama|Umm Salama]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
 
+## Episode 7: speak well to people
+
+[[concept/al-qawl-al-hasan|Speaking well]] to all people, the heart as vessel and the tongue as ladle, the courtesy of [[person/al-asmai|al-Asma'i]] and [[person/abbas-ibn-abd-al-muttalib|al-Abbas]], and noble speech to parents. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00}
+
+## Episode 8: slandering people
+
+[[concept/iftira|Slander]] and its consequence, the carrier of evil talk, permitted untruth in reconciliation, seeking excuses, and [[person/al-shafii|al-Shafi'i]]'s teeth. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
+
+## Episode 9: evil scheming recoils on its people
+
+[[concept/al-makr-al-sayyi|Evil scheming]] as a law of the world, scheming at work, and the end of [[person/firawn|Pharaoh]] and [[person/qarun|Qarun]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+
+## Episode 10: the soul's ascent
+
+The soul's rise from the one that commands evil to [[concept/nafs-lawwama|the self-reproaching]], then the tranquil, content, well-pleasing and inspired. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:06:30}
+
+## Episode 11: dialogue with those who differ
+
+Differences of temperament and the Qur'an's manner of dialogue with those who differ; details under [[concept/fann-al-hiwar|the art of dialogue and listening]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:06:00}
+
+## Episode 12: fear and hope
+
+[[concept/khawf|Fear]] and [[concept/raja|hope]] as the heart's wings with love as its head, the story of [[person/al-khidr|al-Khidr]] and Musa, and negative fear of the future. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00}
+
+## Episode 13: provision and true fear
+
+[[concept/al-rizq-al-rububi|Provision]] is wider than money, [[concept/tawadu|humility]] toward older and younger, [[concept/ghadd-al-basar|lowering the gaze]] from people's faults, and the true fear of sins and of others' rights. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:30}
+
+## Episode 14: parents' kindness to their children
+
+[[concept/huquq-al-abna|Children's rights]] over parents, the first seven years, and [[practice/hifz-al-quran|memorising the Qur'an]] young. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -64,3 +96,37 @@ These are the museum records written from the episodes of the series, ordered by
 - [[concept/al-minha-fi-al-mihna|The gift within the trial (al-minha fi al-mihna)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:01:30}
 - [[person/musa|Musa]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00}
 - [[person/umm-salama|Umm Salama (Hind bint Abi Umayya)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+### Episode 7
+- [[concept/al-qawl-al-hasan|Speaking well to people (al-qawl al-hasan)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:01:30}
+- [[person/al-asmai|al-Asma'i]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:30}
+- [[person/abbas-ibn-abd-al-muttalib|al-Abbas ibn Abd al-Muttalib]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:30}
+- [[practice/birr-al-walidayn|Honouring one's parents (birr al-walidayn)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30}
+
+### Episode 8
+- [[concept/iftira|Slandering people (iftira')]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30}
+- [[concept/kadhib|Lying (kadhib)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30}
+- [[person/al-shafii|Muhammad ibn Idris al-Shafi'i]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
+
+### Episode 9
+- [[concept/al-makr-al-sayyi|Evil scheming (al-makr al-sayyi')]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30}
+- [[person/tarafa-ibn-al-abd|Tarafa ibn al-Abd]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00}
+- [[person/firawn|Pharaoh (Firawn)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+- [[person/qarun|Qarun]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+
+### Episode 10
+- [[concept/nafs-lawwama|The self-reproaching soul (nafs lawwama)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30}
+
+### Episode 12
+- [[concept/khawf|Fear of God (khawf)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30}
+- [[concept/raja|Raj'a (the return to the world)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00}
+- [[person/al-khidr|al-Khidr]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30}
+
+### Episode 13
+- [[concept/al-rizq-al-rububi|Provision as Lordship's gift and the imamate as the gift of divinity]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:01:30}
+- [[concept/tawadu|Humility (tawadu')]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:00}
+- [[concept/ghadd-al-basar|Ghadd al-basar (lowering the gaze)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}
+
+### Episode 14
+- [[concept/huquq-al-abna|Children's rights (huquq al-abna)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00}
+- [[practice/hifz-al-quran|Hifz al-Qur'an (memorisation)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}

@@ -33,6 +33,38 @@ translators: []
 
 [[concept/al-minha-fi-al-mihna|آزمائش میں عطا]]: ام موسیٰ، [[person/musa|موسیٰ]]، یوسف، ہاجرہ اور [[person/umm-salama|ام سلمہ]]۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
 
+## قسط 7: لوگوں سے اچھی بات کہو
+
+تمام لوگوں سے [[concept/al-qawl-al-hasan|اچھی بات]]، دل برتن اور زبان چمچہ، [[person/al-asmai|اصمعی]] اور [[person/abbas-ibn-abd-al-muttalib|عباس]] کا ادب، اور والدین سے عزت کی بات۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:08:00}
+
+## قسط 8: لوگوں پر بہتان
+
+[[concept/iftira|بہتان]] اور اس کا انجام، بری بات پہنچانے والا، صلح میں جائز غیر واقعی بات، عذر تلاش کرنا، اور [[person/al-shafii|شافعی]] کے دانت۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
+
+## قسط 9: بری چال اپنے اہل ہی کو گھیرتی ہے
+
+[[concept/al-makr-al-sayyi|بری چال]] بطور کائناتی سنت، کام کی جگہ پر چال، اور [[person/firawn|فرعون]] اور [[person/qarun|قارون]] کا انجام۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+
+## قسط 10: نفس کی ترقی
+
+نفس کی ترقی امارہ سے [[concept/nafs-lawwama|لوامہ]]، پھر مطمئنہ، راضیہ، مرضیہ اور ملہمہ تک۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:06:30}
+
+## قسط 11: مخالف سے مکالمہ
+
+مزاجوں کا اختلاف اور مخالف سے مکالمے میں قرآن کا اسلوب؛ تفصیل [[concept/fann-al-hiwar|مکالمے اور سننے کا فن]] میں۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep11 00:06:00}
+
+## قسط 12: خوف اور امید
+
+[[concept/khawf|خوف]] اور [[concept/raja|امید]] دل کے پر اور محبت اس کا سر، [[person/al-khidr|خضر]] اور موسیٰ کا قصہ، اور مستقبل کا منفی خوف۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00}
+
+## قسط 13: رزق اور حقیقی خوف
+
+[[concept/al-rizq-al-rububi|رزق]] مال سے زیادہ وسیع ہے، بڑوں اور چھوٹوں کے ساتھ [[concept/tawadu|تواضع]]، لوگوں کے عیبوں سے [[concept/ghadd-al-basar|نظر جھکانا]]، اور گناہوں اور بندوں کے حقوق کا حقیقی خوف۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:30}
+
+## قسط 14: والدین کا اولاد سے حسنِ سلوک
+
+والدین پر [[concept/huquq-al-abna|اولاد کے حقوق]]، پہلے سات سال، اور بچپن میں [[practice/hifz-al-quran|حفظِ قرآن]]۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
+
 ## میوزیم میں اقساط کے موضوعات
 
 یہ میوزیم کے وہ ریکارڈ ہیں جو اس سلسلے کی اقساط سے لکھے گئے، ہر موضوع کے پہلے حوالے کی ترتیب سے۔ ہر ریکارڈ کا اپنا متن اور حوالے ہیں۔
@@ -64,3 +96,37 @@ translators: []
 - [[concept/al-minha-fi-al-mihna|آزمائش میں عطا]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:01:30}
 - [[person/musa|موسى]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00}
 - [[person/umm-salama|أم سلمة هند بنت أبي أمية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+### قسط 7
+- [[concept/al-qawl-al-hasan|اچھی بات کہنا]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:01:30}
+- [[person/al-asmai|الأصمعي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:30}
+- [[person/abbas-ibn-abd-al-muttalib|العباس بن عبد المطلب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:30}
+- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی (بر الوالدین)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30}
+
+### قسط 8
+- [[concept/iftira|لوگوں پر بہتان باندھنا]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30}
+- [[concept/kadhib|جھوٹ (کذب)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30}
+- [[person/al-shafii|محمد بن إدريس الشافعي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
+
+### قسط 9
+- [[concept/al-makr-al-sayyi|بری چال]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30}
+- [[person/tarafa-ibn-al-abd|طرفہ بن العبد]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00}
+- [[person/firawn|فرعون]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+- [[person/qarun|قارون]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30}
+
+### قسط 10
+- [[concept/nafs-lawwama|النفس اللوامة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30}
+
+### قسط 12
+- [[concept/khawf|خوفِ خدا (خوف)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30}
+- [[concept/raja|الرجعة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00}
+- [[person/al-khidr|الخضر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30}
+
+### قسط 13
+- [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:01:30}
+- [[concept/tawadu|تواضع]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:00}
+- [[concept/ghadd-al-basar|غضِّ بصر (نگاہ نیچی رکھنا)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}
+
+### قسط 14
+- [[concept/huquq-al-abna|اولاد کے حقوق]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00}
+- [[practice/hifz-al-quran|حفظ القرآن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}

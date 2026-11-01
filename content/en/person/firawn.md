@@ -72,3 +72,6 @@ He says that if Pharaoh had gone up into space and seen creation, he ought to ha
 - **The speaker's view (rant)**: He mocks Pharaoh and Haman and holds that Pharaoh, had he seen outer space, ought to have believed, and he calls him a criminal {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:52:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:53:00}.
 - **Academic and other views (not yet sourced)**: Academic and other views on this matter have not yet been sourced.
 :::
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh sees in Pharaoh's drowning God's law that evil scheming recoils on those who scheme: the infant Musa was cast into the river and saved, while mighty Pharaoh went into the sea and drowned, and his power did not save him. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} See: [[concept/al-makr-al-sayyi|evil scheming]].
