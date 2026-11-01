@@ -33,27 +33,10 @@ died:
   note: "He died in office in Algiers on 27 December 1978; all the articles and Wikidata agree on the date and place. The Hijri year 1399 is a tabular conversion, marked derived."
   sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikidata-houari-boumediene]
 faith:
-  - value: sunni
-    basis: documented
-    note: >-
-      No text in any of the three articles names a school or madhhab for the
-      man. FLAGGED for the founder: no school reading exists anywhere. The
-      only religion datum is Wikidata's single religion value, Islam (Q432)
-      in general — one structured-data family (the Erekat configuration);
-      the Urdu article's categories file him under Algerian Muslims and
-      Islamic socialists, which are category filings, not attestations. His
-      studies at the Islamic Institute in Constantine and at al-Azhar are
-      formation, his father's strict Islam is family background, and his
-      constitutional making of Islam the state religion is state policy;
-      none of these attests a personal school. Settled sunni/documented by
-      the founder's ruling of 1 November 2026 (rulings packet #3, 2b:
-      branch-only attestations record the bare branch value, which the enum
-      now carries).
-    sources:
-      - source/wikipedia-houari-boumediene-en
-      - source/wikipedia-houari-boumediene-ar
-      - source/wikipedia-houari-boumediene-ur
-      - source/wikidata-houari-boumediene
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or madhhab for the man. FLAGGED for the founder: no school reading exists anywhere. The only religion datum is Wikidata's single religion value, Islam (Q432) in general — one structured-data family (the Erekat configuration); the Urdu article's categories file him under Algerian Muslims and Islamic socialists, which are category filings, not attestations. His studies at the Islamic Institute in Constantine and at al-Azhar are formation, his father's strict Islam is family background, and his constitutional making of Islam the state religion is state policy; none of these attests a personal school."
+    sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikipedia-houari-boumediene-ur, source/wikidata-houari-boumediene]
 relations:
   - { type: successor_of, target: person/ahmed-ben-bella, sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar] }
   - { type: died_in, target: place/algiers, sources: [source/wikipedia-houari-boumediene-en, source/wikipedia-houari-boumediene-ar, source/wikidata-houari-boumediene] }

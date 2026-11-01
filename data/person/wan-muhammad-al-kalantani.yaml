@@ -1,0 +1,46 @@
+id: person/wan-muhammad-al-kalantani
+class: person
+label: { ar: "وان محمد الكلنتني", en: "Wan Muhammad al-Kalantani", ur: "وان محمد الکلنتانی" }
+names:
+  - { value: "وان محمد بن الحاج عبد الصمد", kind: full }
+  - { value: "Haji Wan Muhammad bin Haji Abdul Samad", kind: full }
+  - { value: "Wan Muhammad Abdul Samad", kind: alternate }
+  - { value: "al-Kalantani", kind: nisba }
+gender: male
+summary:
+  ar: "عالم مسلم ملايوي من كلنتن، وُلد في نهاية سبتمبر 1870، وهو الابن الأكبر لتوان تابال، وعُيّن مفتيًا رابعًا لكلنتن في 21 أغسطس 1916 خلفًا لأخيه الأصغر الحاج وان موسى، وبقي في المنصب حتى وفاته سنة 1920."
+  en: "Malay Muslim scholar of Kelantan, born at the end of September 1870, the eldest son of Tuan Tabal. He was appointed the fourth Mufti of Kelantan on 21 August 1916, succeeding his younger brother Haji Wan Musa, and held the office until his death in 1920."
+  ur: "کلنتن کے ملای مسلمان عالم، جو ستمبر 1870 کے آخر میں پیدا ہوئے اور توان تابال کے بڑے بیٹے تھے۔ انھیں 21 اگست 1916 کو کلنتن کا چوتھا مفتی مقرر کیا گیا، اپنے چھوٹے بھائی حاجی وان موسیٰ کے جانشین کے طور پر، اور وہ 1920 میں وفات تک اس عہدے پر رہے۔"
+roles: [scholar, jurist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1870-09"
+  hijri: "1287"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "The Malay Wikipedia article states he was born at the end of September 1870, the eldest son of Tuan Tabal; Wikidata gives the year 1870 only. The Hijri year (1287) is a tabular conversion. He was born in Kelantan, but Kelantan has no place entity here, so no born_in relation is written."
+  sources: [source/wikipedia-wan-muhammad-ms, source/wikidata-wan-muhammad]
+died:
+  edtf: "1920"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Year only, from Malay Wikipedia and Wikidata. No Hijri year is recorded because a bare Gregorian year spans two Hijri years (1338–1339)."
+  sources: [source/wikipedia-wan-muhammad-ms, source/wikidata-wan-muhammad]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "He held the office of Mufti of Kelantan (1916–1920), the headship of the state's Sunni religious establishment. Office and headship never count as personal faith attestation (the founder's re-review of 1 Nov 2026 restored that rule expressly), and no source read names a legal school or even the branch for him personally — Kelantan's fatwas are bound to the Shafi'i school by state enactment, but that institutional rule is not a personal attestation. The value therefore stays unknown, with the office recorded here as fact, not evidence."
+    sources: [source/wikipedia-wan-muhammad-ms, source/wikidata-wan-muhammad]
+external_ids: { wikidata: "Q12712418" }
+sources: [source/wikipedia-wan-muhammad-ms, source/wikidata-wan-muhammad]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 Nov 2026 (rulings packet #3, Part 3): the queue row 'Sheikh Muhammad al-Kalantan — 1870–1940' was built as the documented man it points to, Wan Muhammad al-Kalantani (1870–1920), Mufti of Kelantan — the birth year matches the queue, the death year is corrected from 1940 to 1920. Researched from Malay Wikipedia (rev. 6365235) and Wikidata Q12712418 (item rev. 2451862595, re-asserted on a second live query), checked 1 Nov 2026. His father Tuan Tabal and his brother Haji Wan Musa have no records here, so no family relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "rulings-builds-r1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

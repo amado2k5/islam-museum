@@ -1,0 +1,48 @@
+id: person/husein-dozo
+class: person
+label: { ar: "حسين دوزو", en: "Husein Đozo", ur: "حسین دوزو" }
+names:
+  - { value: "Husein Đozo", kind: full }
+  - { value: "Husein Djozo", kind: alternate }
+gender: male
+born:
+  edtf: "1912-07-03"
+  hijri: "1330"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article gives 3 July 1912; Wikidata carries two structured birth values, 3 July 1912 under a Julian calendar model and 1 July 1912 Gregorian, and the Bosnian article gives only the year — the day therefore stays debated with the variants preserved. He was born in the village of Bare near Goražde (Bosnian article); neither Bare nor Goražde has a place entity, so no born_in edge is written. The Hijri year is the tabular conversion of the followed date."
+  sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs, source/wikidata-husein-dozo]
+died:
+  edtf: "1982-05-30"
+  hijri: "1402"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Bosnian articles and Wikidata agree on 30 May 1982 at Sarajevo; the Hijri year is the tabular conversion."
+  sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs, source/wikidata-husein-dozo]
+roles: [theologian, scholar, teacher]
+regions: [anatolia-balkans]
+wings: [people]
+relations:
+  - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs] }
+  - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school for Đozo himself. The English and Bosnian biographies document his al-Azhar Sharia training, his professorship and his widely read fatwa column without naming his own madhhab, and the scholarship surveyed presents him as a reformist interpreter of Islam working against rigid traditionalism; the Hanafi tradition of Bosnian Islam is his milieu, not an attestation of the man, and Wikidata carries no religion value at all, so the value stays unknown."
+    sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs, source/wikidata-husein-dozo]
+summary:
+  ar: "عالم دين ولاهوتي بوسني من أبرز علماء الإصلاح في يوغوسلافيا الاشتراكية. درس في سراييفو ثم في كلية الشريعة بالأزهر، وعمل بعد الحرب العالمية وسجنه بسبب خدمته إمامًا في فرقة هاندجار داخل مؤسسات الجماعة الإسلامية، فرأس جمعية العلماء وأسّس صحيفة «بريپورود» ودرّس تفسير القرآن في كلية الدراسات الإسلامية بسراييفو، واشتهرت فتاواه المنشورة في عمود «فتاوى دوزو»؛ أعيد اعتباره رسميًا سنة 1990."
+  en: "Bosnian Islamic theologian and reformist scholar, among the leading Muslim thinkers of socialist Yugoslavia. Trained in Sarajevo and at al-Azhar's Sharia faculty, he was imprisoned after the Second World War for his service as an imam in the Handžar Division, then rose within the Islamic Community — president of the Ulema Association, founder of the newspaper Preporod, professor of Qur'anic interpretation at Sarajevo's Islamic Theological Faculty, and author of the widely read 'Đozo's fatwas' column. He was officially rehabilitated in 1990."
+  ur: "بوسنیائی مسلمان عالمِ دین اور مصلح، اشتراکی یوگوسلاویہ کے نمایاں مسلم مفکرین میں سے ایک۔ سرائیوو اور جامعہ ازہر کی کلیۃ الشریعہ سے تعلیم پائی؛ دوسری جنگِ عظیم میں ہاندجار ڈویژن میں امام کی حیثیت سے خدمت پر جنگ کے بعد قید ہوئے، پھر اسلامی برادری کے اداروں میں نمایاں ہوئے: علماء ایسوسی ایشن کے صدر، اخبار «پریپورود» کے بانی، سرائیوو کی اسلامک تھیولوجیکل فیکلٹی میں تفسیرِ قرآن کے پروفیسر، اور مشہور کالم «دوزو کے فتاوے» کے مصنف۔ 1990 میں سرکاری طور پر ان کی بحالیِ عزت ہوئی۔"
+external_ids: { wikidata: "Q13082084" }
+sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs, source/wikidata-husein-dozo]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 November 2026 (rulings packet #3, Part 3): the century-queue row (line 1606) prints 'Husein Đozo (Elders) (1890–1940)', a list artifact; the record is built under his own dates 1912–1982 as ruled. Researched from the English and Bosnian Wikipedia articles and Wikidata Q13082084, all read live on 1 November 2026 with every revision id fetched from the MediaWiki API in this session and the Wikidata item revision re-asserted on a second live query; the QID was grounded through both articles' page properties. Existence checks by name fragments (dozo, djozo, đozo) and by QID across data/person found no prior record or stub. His wartime SS-division imamate and post-war sentence are recorded factually from both articles, as is his 1990 rehabilitation."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: rulings-builds-r3a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

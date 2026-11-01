@@ -211,7 +211,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Clara Muhammad — 1899–1972
 - [x] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
 - [x] Shareef Abdur-Rahim — 1976–Living
-- [ ] Gilles Sissoko — 1978–Living
+- [~] Gilles Sissoko — 1978–Living — STOPPED (founder build ruling of 1 Nov 2026 attempted; identity not establishable beyond doubt — searches recorded in the progress doc, rulings-builds-r3b): the only living public bearer is a French personal chef / sports-nutrition expert with no published birth year and no Muslim attestation; the only other documented bearer (1956–2025) contradicts the row on both years and living status.
 - [x] Kareem Abdul-Jabbar — 1947–Living
 - [x] Bernard Hopkins — 1965–Living
 - [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
@@ -338,7 +338,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Eddie Mustafa Muhammad — 1952–Living
 - [x] Matthew Saad Muhammad — 1954–2014
 - [x] Mustafa Hamsho — 1953–Living
-- [ ] Suleyman Mammadov — 1992–Living
+- [~] Suleyman Mammadov — 1992–Living — STOPPED (founder build ruling of 1 Nov 2026 attempted; identity not establishable beyond doubt — searches recorded in the progress doc, rulings-builds-r3b): every bearer found was excluded (the late ITF taekwondo section founder, a chess player b. 1998, officials, juniors, a 1964 namesake); no Azerbaijani athlete born 1992 by this name surfaced.
 - [x] Rafael Aghayev — 1985–Living
 - [x] Aghasi Mammadov — 1980–Living
 - [x] Togrul Asgarov — 1992–Living
@@ -355,7 +355,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Shawki Allam — 1961–Living
 - [x] Sheikh Habib Umar bin Hafiz — 1963–Living
 - [x] Sheikh Habib Ali al-Jifri — 1971–Living
-- [ ] Shaykh Said Ramadan al-Bouti — 1929–2013
+- [x] Shaykh Said Ramadan al-Bouti — 1929–2013
 - [x] Shaykh Wahba Zuhayli — 1932–2015
 - [x] Sheikh Mustafa al-Zarqa — 1904–1999
 - [x] Sheikh Abd el-Halim Mahmud — 1910–1978
@@ -385,7 +385,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Bandar Baleela — 1975–Living
 - [x] Abdullah Awad Al-Juhany — 1976–Living
 - [x] Al-Hassan Al-Daddow — 1963–Living
-- [ ] Sheikh Omar Al-Khabsawi — 1950–Living
+- [~] Sheikh Omar Al-Khabsawi — 1950–Living — STOPPED (founder build ruling of 1 Nov 2026 attempted; identity not establishable beyond doubt — searches recorded in the progress doc, rulings-builds-r3b): Arabic searches in four spellings returned only classical al-Khabbazi material and unrelated names; Latin searches surface only other men (Omar Al-Kazabri is NOT him and was not substituted).
 - [x] Sheikh Ahmed Raissouni — 1953–Living
 - [x] Sheikh Hassan El-Kettani — 1964–Living
 - [x] Sheikh Mustafa Benhamza — 1949–Living
@@ -684,7 +684,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Dr. Sania Nishtar — 1963–Living
 - [x] Dr. Zubaida Sirang — 1990–Living
 - [x] Dr. Abdul Samad — 1980–Living
-- [~] Dr. Muhammad Ashraf — 1953–Living
+- [x] Dr. Muhammad Ashraf — 1953–Living
 - [x] Dr. Salim Ali (Contemporary) — 1896–1987
 - [x] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
 - [x] Hakim Abdul Hameed — 1908–1999
@@ -1312,7 +1312,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Firaq Gorakhpuri (1896–1982)
 - [x] Jigar Moradabadi (1890–1960)
 - [x] Asghar Gondvi (1884–1936)
-- [ ] Hasrat Jaipuri (Forebears) (1890–1940)
+- [x] Hasrat Jaipuri (Forebears) (1890–1940)
 - [x] Bade Ustad Ghulam Ali Khan (1902–1968)
 - [x] Ustad Faiyaz Khan (1886–1950)
 - [x] Ustad Abdul Karim Khan (1872–1937)
@@ -1366,7 +1366,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdur Rahman Chughtai (1897–1975)
 - [x] Fyzee Rahamin (1880–1964)
 - [x] Atiya Fyzee (1877–1967)
-- [ ] Zehra Faizi (1880–1940)
+- [x] Zehra Faizi (1880–1940)
 - [ ] Suhrawardy Art Guild Founders (1890–1930)
 - [x] Syed Ross Masood (1889–1937)
 - [x] Shah Jahan Begum (1838–1901)
@@ -1415,11 +1415,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Idris Shah I (1849–1916)
 - [x] Raja Chulan (1869–1932)
 - [x] Dato' Onn Jaafar (1895–1962)
-- [ ] Sheikh Muhammad al-Kalantan (1870–1940)
+- [x] Sheikh Muhammad al-Kalantan (1870–1940)
 - [x] Tok Kenali (1868–1933)
 - [x] Tok Janggut (Hassan bin Mat Munas) (1853–1915)
 - [x] Abdul Rahman Limbong (1868–1929)
-- [ ] Rosli Dhobi (Ancestors) (1890–1930)
+- [x] Rosli Dhobi (Ancestors) (1890–1930)
 - [x] Sultan Omar Ali Saifuddien II (1828–1852)
 - [x] Sultan Hashim Jalilul Alam Aqamaddin (1835–1906)
 - [x] Sultan Muhammad Jamalul Alam II (1889–1924)
@@ -1428,8 +1428,8 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Jamalul Kiram II (1870–1936)
 - [x] Datu Uto (1830–1888)
 - [x] Datu Ali (1860–1905)
-- [ ] Hadji Kamlon (Ancestors) (1890–1920)
-- [ ] Sultan Mastura (1870–1930)
+- [x] Hadji Kamlon (Ancestors) (1890–1920)
+- [~] Sultan Mastura (1870–1930) — STOPPED (founder re-review, 1 Nov 2026): the building sources contradict each other on his reign (1926–1938 vs 1908–1933 vs 1928–1932, Baraguir) and no birth or death year is attested anywhere — the doubt rule halts the build entirely.
 - [ ] Zheng He Descendants/Scholar Keepers (1850–1920)
 - [x] Ma Hualong (1810–1871)
 - [x] Ma Zhan'ao (1830–1886)
@@ -1603,12 +1603,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
 - [x] Ibrahim-beg Bašagić (1840–1902)
 - [x] Hamdija Kreševljaković (1888–1959)
-- [~] Husein Đozo (Elders) (1890–1940)
+- [x] Husein Đozo (Elders) (1890–1940)
 - [x] Šakir Sikirić (1893–1966)
 - [x] Mustafa Busuladžić (1914–1945)
 - [x] Kosta Hörmann (Muslim Associates) (1850–1910)
 - [x] Sheikh Youssef al-Nabhani (1849–1932)
-- [~] Taqi al-Din al-Nabhani (Father) (1880–1940)
+- [x] Taqi al-Din al-Nabhani (Father) (1880–1940)
 - [x] Ibrahim al-Dabbagh (1880–1946)
 - [x] Ali al-Rimawi (1860–1919)
 - [x] Yusuf al-Khalidi (1842–1906)
@@ -1690,7 +1690,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mirza Ghiyas Beg (Itimad-ud-Daulah) — 1540–1622
 - [x] Asaf Khan IV — 1569–1641
 - [x] Khan Zaman Ali Quli Khan — 1520–1567
-- [~] Muqarrab Khan — 1570–1646 — STOPPED (wave 147 §B): those dates select Shaikh Hasan Hassu, Jahangir's surgeon (Rezavi 1992), but Q6937143 and the current EN/UR articles are the later Golconda commander (fl. 1675–1689); the surgeon has no Wikipedia article and no Wikidata item was found under any name variant — founder decision pending (build from scholarship alone, or leave stopped).
+- [~] Muqarrab Khan — 1570–1646 — STOPPED (wave 147 §B): those dates select Shaikh Hasan Hassu, Jahangir's surgeon (Rezavi 1992), but Q6937143 and the current EN/UR articles are the later Golconda commander (fl. 1675–1689); the surgeon has no Wikipedia article and no Wikidata item was found under any name variant — founder decision given on re-review (1 Nov 2026): LEAVE STOPPED — scholarship alone, lacking a Wikipedia or Wikidata basis, does not meet the commissioning threshold.
 - [x] Sultan Salima Sultan Begum — 1539–1613
 - [x] Sinan Reis — 1470–1546
 - [x] Shah Mohammad Khodabanda — 1532–1595
@@ -1727,11 +1727,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Khondamir — 1475–1535
 - [x] Ulubatlı Hasan — 1428–1453
 - [x] Akşemseddin — 1389–1459
-- [ ] Molla Hüsrev — 1400–1480
-- [ ] Necati — 1450–1509
-- [ ] Şeyhi — 1376–1431
-- [ ] Ahmed Pasha (the poet) — 1426–1497
-- [ ] Mahmud Shah Sharqi — 1420–1458
+- [x] Molla Hüsrev — 1400–1480
+- [x] Necati — 1450–1509
+- [x] Şeyhi — 1376–1431
+- [x] Ahmed Pasha (the poet) — 1426–1497
+- [x] Mahmud Shah Sharqi — 1420–1458
 - [ ] Hussain Shah Sharqi — 1440–1505
 - [ ] Sultan Zain-ul-Abidin — 1420–1470
 - [ ] Rustam Beg — 1465–1497
