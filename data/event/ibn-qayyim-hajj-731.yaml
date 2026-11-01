@@ -1,0 +1,28 @@
+id: event/ibn-qayyim-hajj-731
+class: event
+kind: other
+label:
+  ar: "حج ابن قيم الجوزية في قافلة الشام، ٧٣١هـ/١٣٣١م"
+  en: "Ibn Qayyim's pilgrimage with the Syrian caravan, 731/1331"
+  ur: "ابن قیم کا حج، شامی قافلے کے ساتھ، 731ھ/1331ء"
+summary:
+  ar: "حجّ ابن قيم الجوزية سنة ٧٣١هـ/١٣٣١-١٣٣٢م؛ ويُروى أن قافلة الشام التي خرجت من دمشق بقيادة الأمير عز الدين أيبك ضمّت عدداً كبيراً من الفقهاء والمحدّثين {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}."
+  en: "Ibn Qayyim al-Jawziyya made the pilgrimage to Mecca in 731/1331-2; the Syrian caravan that left Damascus under the leadership of the amir Izz al-Din Aybak is said to have included a considerable number of jurisconsults and traditionists {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}."
+  ur: "ابن قیم الجوزیہ نے 731ھ/1331-2ء میں حج کیا؛ کہا جاتا ہے کہ امیر عز الدین ایبک کی قیادت میں دمشق سے روانہ ہونے والے شامی قافلے میں فقہا اور محدثین کی بڑی تعداد شامل تھی {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "1331-09~", hijri: "0731-12~", calendar: julian, precision: month, status: tradition, derived: true, note: "حج سنة ٧٣١هـ/١٣٣١-١٣٣٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3, printed p. 854, art. IBN KAYYIM AL-DJAWZIYYA, citing Ibn Kathir, Bidaya, xiv, 154 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-qayyim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
