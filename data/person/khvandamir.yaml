@@ -45,32 +45,11 @@ relations:
   - { type: buried_in, target: place/delhi, sources: [source/wikipedia-khvandamir-en, source/wikipedia-khvandamir-fa] }
 
 faith:
-  - value: sunni
-    basis: documented
-    note: >-
-      The branch is attested once, at branch level only, and no source names
-      a legal school for him. The English article, citing Bockholt's
-      Encyclopaedia of Islam THREE entry and Newman's Safavid Iran, explains
-      why he fell out of office after the Safavid conquest of Herat in 1510:
-      it was 'most likely due to religio-political reasons, as Khvandamir
-      was a Sunni Muslim, whereas the Safavids were zealous Shia Muslims'.
-      That is one scholarly family's attestation of the Sunni branch.
-      Neither the Persian nor the Arabic article names a religion for him,
-      Wikidata carries no religion value, and the Timurid office he held —
-      sadr, head of religious endowments — is an office, not an attestation
-      for the man himself. Under the lane rule for branch-only attestation
-      the segment stays unknown, FLAGGED, with the attestation preserved
-      here for the founder's ruling; one independent source naming a school
-      would settle sunni/documented at branch level's next step, and the
-      attestation itself would still name no school. Settled
-      sunni/documented by the founder's ruling of 1 November 2026 (rulings
-      packet #3, 2b: branch-only attestations record the bare branch value,
-      which the enum now carries).
-    sources:
-      - source/wikipedia-khvandamir-en
-      - source/wikipedia-khvandamir-fa
-      - source/wikipedia-khvandamir-ar
-      - source/wikidata-khvandamir
+  - value: unknown
+    basis: unknown
+    note: "The branch is attested once, at branch level only, and no source names a legal school for him. The English article, citing Bockholt's Encyclopaedia of Islam THREE entry and Newman's Safavid Iran, explains why he fell out of office after the Safavid conquest of Herat in 1510: it was 'most likely due to religio-political reasons, as Khvandamir was a Sunni Muslim, whereas the Safavids were zealous Shia Muslims'. That is one scholarly family's attestation of the Sunni branch. Neither the Persian nor the Arabic article names a religion for him, Wikidata carries no religion value, and the Timurid office he held — sadr, head of religious endowments — is an office, not an attestation for the man himself. Under the lane rule for branch-only attestation the segment stays unknown, FLAGGED, with the attestation preserved here for the founder's ruling; one independent source naming a school would settle sunni/documented at branch level's next step, and the attestation itself would still name no school."
+    sources: [source/wikipedia-khvandamir-en, source/wikipedia-khvandamir-fa, source/wikipedia-khvandamir-ar, source/wikidata-khvandamir]
+
 external_ids: { wikidata: "Q2977486" }
 
 sources:

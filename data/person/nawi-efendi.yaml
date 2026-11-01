@@ -47,31 +47,11 @@ relations:
   - { type: buried_in, target: place/istanbul, sources: [source/tdv-nevi] }
 
 faith:
-  - value: sunni-hanafi
-    basis: documented
-    note: >-
-      The English Wikipedia, citing Gibril Haddad's The Maturidi School
-      (Beacon Books, 2021), p. 132, describes him as a Sunni Hanafi-Maturidi
-      jurist, and its infobox gives Sunni / Hanafi / Maturidi; that is a
-      single attesting family — the citation was verified in the article's
-      text and the book's bibliographic identity and scope (a survey of
-      Maturidi authorities) were confirmed, but Haddad's page itself was not
-      independently retrieved. No second independent source read names a
-      school: the TDV İslâm Ansiklopedisi entry (Sefercioğlu), read in full,
-      names no madhhab or creed, and Wikidata gives only Islam. His Sufi
-      formation is documented by that same encyclopedia: disciple of Sarhoş
-      Bâlî Efendi, then mürid of Kurd Mehmed Efendi, with further training
-      under Şeyh Şâban Efendi, and translator of Ibn Arabi's Fusûs al-hikam
-      — attested for the man himself, but by one family only. Held unknown
-      and flagged for the founder: one more independent source naming
-      Hanafi, or independently attesting the Sufi discipleship, settles the
-      corresponding value as documented. Settled sunni-hanafi/documented by
-      the founder's ruling of 1 November 2026 (rulings packet #3, 2c: a
-      single scholarly family suffices for historical profiles).
-    sources:
-      - source/wikipedia-nawi-efendi-en
-      - source/tdv-nevi
-      - source/wikidata-nawi-efendi
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia, citing Gibril Haddad's The Maturidi School (Beacon Books, 2021), p. 132, describes him as a Sunni Hanafi-Maturidi jurist, and its infobox gives Sunni / Hanafi / Maturidi; that is a single attesting family — the citation was verified in the article's text and the book's bibliographic identity and scope (a survey of Maturidi authorities) were confirmed, but Haddad's page itself was not independently retrieved. No second independent source read names a school: the TDV İslâm Ansiklopedisi entry (Sefercioğlu), read in full, names no madhhab or creed, and Wikidata gives only Islam. His Sufi formation is documented by that same encyclopedia: disciple of Sarhoş Bâlî Efendi, then mürid of Kurd Mehmed Efendi, with further training under Şeyh Şâban Efendi, and translator of Ibn Arabi's Fusûs al-hikam — attested for the man himself, but by one family only. Held unknown and flagged for the founder: one more independent source naming Hanafi, or independently attesting the Sufi discipleship, settles the corresponding value as documented."
+    sources: [source/wikipedia-nawi-efendi-en, source/tdv-nevi, source/wikidata-nawi-efendi]
+
 external_ids: { wikidata: "Q126365591" }
 sources: [source/wikipedia-nawi-efendi-en, source/tdv-nevi, source/wikidata-nawi-efendi]
 provenance:

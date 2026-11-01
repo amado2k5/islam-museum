@@ -29,30 +29,10 @@ roles: [translator, writer]
 regions: [south-asia]
 wings: [people]
 faith:
-  - value: shia-ismaili
-    basis: documented
-    note: >-
-      FLAGGED for a founder ruling. He was born into a Dawoodi Bohra
-      (Ismaili Shia) family — family background, which never counts on its
-      own. English Wikipedia, following Sherif's biography, records that
-      during his Lahore years he converted to Sunni Islam and adopted the
-      Hanafi school, and its infobox gives Sunni and Hanafi; the Urdu
-      article styles him a Sunni scholar in its own lead. Against this, Al-
-      Hitari (2022), in a peer-reviewed journal, argues that his Qur'an
-      commentary rests on esoteric Ismaili and Bohra doctrine and that he
-      did not relinquish his ancestral doctrine; Wikidata carries only
-      generic Islam (Q432), a single structured family. The conversion is
-      thus attested in one biographical tradition and contested in the
-      scholarship, so under the doubt rule the value stays unknown pending a
-      ruling, with both readings preserved. Settled shia-ismaili/documented
-      by the founder's ruling of 1 November 2026 (rulings packet #3, 2d: the
-      peer-reviewed Al-Hitari reading is preferred over the Sherif
-      conversion tradition).
-    sources:
-      - source/wikipedia-abdullah-yusuf-ali-en
-      - source/wikipedia-abdullah-yusuf-ali-ur
-      - source/ijlts-alhitari-yusuf-ali-2022
-      - source/wikidata-abdullah-yusuf-ali
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling. He was born into a Dawoodi Bohra (Ismaili Shia) family — family background, which never counts on its own. English Wikipedia, following Sherif's biography, records that during his Lahore years he converted to Sunni Islam and adopted the Hanafi school, and its infobox gives Sunni and Hanafi; the Urdu article styles him a Sunni scholar in its own lead. Against this, Al-Hitari (2022), in a peer-reviewed journal, argues that his Qur'an commentary rests on esoteric Ismaili and Bohra doctrine and that he did not relinquish his ancestral doctrine; Wikidata carries only generic Islam (Q432), a single structured family. The conversion is thus attested in one biographical tradition and contested in the scholarship, so under the doubt rule the value stays unknown pending a ruling, with both readings preserved."
+    sources: [source/wikipedia-abdullah-yusuf-ali-en, source/wikipedia-abdullah-yusuf-ali-ur, source/ijlts-alhitari-yusuf-ali-2022, source/wikidata-abdullah-yusuf-ali]
 relations:
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-abdullah-yusuf-ali-en] }
 summary:
