@@ -1,0 +1,27 @@
+id: event/death-al-nasai-ramla-303
+class: event
+kind: death
+label:
+  ar: "وفاة الإمام النسائي بالرملة من أثر الاعتداء بدمشق، ١٣ صفر ٣٠٣هـ"
+  en: "Death of Imam al-Nasa'i at al-Ramla from the after-effects of the Damascus assault, 13 Safar 303/915"
+  ur: "امام نسائی کی وفات رملہ میں دمشق کے حملے کے اثرات سے، 13 صفر 303ھ/915ء"
+summary:
+  ar: "توفي النسائي يوم الاثنين لثلاث عشرة خلت من صفر سنة ثلاث وثلاثمائة بفلسطين — بالرملة على الراجح كما رجّح الذهبي — من أثر ما لقي بدمشق حين حُمل إليها {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620}؛ وقال الدارقطني إنه خرج حاجاً فامتُحن بدمشق فقال: احملوني إلى مكة، فحُمل وتوفي بها وهو مدفون بين الصفا والمروة، وكانت وفاته في شعبان سنة ثلاث وثلاثمائة {cite:tarikh-islam-dhahabi p. 109} {cite:wafayat-ayan i p. 26}؛ وقد عدّه أهل العلم شهيداً لموته من سوء المعاملة {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}."
+  en: "Al-Nasa'i died on Monday, thirteen nights before the end of Safar, in 303/915 in Palestine — at al-Ramla on the preferred report, which al-Dhahabi judges correct — from the effects of what he suffered at Damascus when he was carried there {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620}; al-Daraqutni reports he had set out on hajj, was attacked at Damascus, and said 'carry me to Mecca', where he died and is buried between al-Safa and al-Marwa, in Sha'ban 303 {cite:tarikh-islam-dhahabi p. 109} {cite:wafayat-ayan i p. 26}; scholars have counted him a martyr for dying of ill-treatment {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}."
+  ur: "نسائی پیر کو صفر کے آخری تیرہ دنوں میں 303ھ/915ء کو فلسطین میں — راجح روایت کے مطابق رملہ میں، جسے ذہبی نے صحیح قرار دیا — دمشق میں برداشت کی گئی زیادتی کے اثرات سے فوت ہوئے جب وہ وہاں لے جائے گئے تھے {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620}؛ دارقطنی بیان کرتے ہیں کہ وہ حج پر نکلے، دمشق میں حملہ ہوا تو فرمایا «مجھے مکہ پہنچاؤ»، وہاں فوت ہوئے اور صفا و مروہ کے درمیان مدفون ہیں، وفات شعبان 303ھ میں ہوئی {cite:tarikh-islam-dhahabi p. 109} {cite:wafayat-ayan i p. 26}؛ علماء نے انہیں بدسلوکی سے ہونے والی موت کے سبب شہید شمار کیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0915-09-01~", hijri: "0303-02-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الاثنين لثلاث عشرة خلت من صفر سنة ٣٠٣هـ بفلسطين على قول ابن يونس الذي رجّحه الذهبي {cite:tarikh-islam-dhahabi p. 109} {cite:tazkirat-al-huffaz j.2 p. 620} = ١٣ صفر ٣٠٣هـ ≈ ١ سبتمبر ٩١٥م؛ ورواية الدارقطني في شعبان ٣٠٣هـ بمكة؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+relations:
+  - { type: occurred_at, target: place/ramla, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz], note: "رواية ابن يونس الراجحة؛ ورواية الدارقطني: مكة والدفن بين الصفا والمروة {cite:tarikh-islam-dhahabi p. 109}" }
+  - { type: had_participant, target: person/al-nasai, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/wafayat-ayan] }
+sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 303, printed p. 109 (harvest OCR vol. 301-320); Tadhkirat al-Huffaz j.2 printed p. 620 (harvest OCR AAlexandrina-224163); Wafayat al-A'yan i p. 26 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7, printed p. 1023"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

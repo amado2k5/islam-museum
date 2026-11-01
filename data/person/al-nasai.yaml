@@ -1,27 +1,43 @@
 id: person/al-nasai
 class: person
-label: { ar: "النسائي", en: "al-Nasa'i" }
+label: { ar: "النسائي", en: "al-Nasa'i", ur: "نسائی" }
 names:
   - { kind: full, lang: ar, value: "أحمد بن شعيب النسائي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الرحمن" }
 gender: male
-born: { edtf: "0830~", hijri: "0215", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-al-nasai] }
-died: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-al-nasai] }
-roles: [scholar]
+born: { edtf: "0830~", hijri: "0215", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
+died: { edtf: "0915-09-01~", hijri: "0303-02-13", calendar: julian, precision: day, status: tradition, derived: true, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+roles: [scholar, muhaddith]
 traditions: [sunni]
 summary:
-  ar: "محدث نسا بخراسان صاحب «السنن» المعدودة في الكتب الستة؛ اشتهر بعنايته بعلل الحديث وتوثيق الرواة حتى قُدّم كتابه في الدقة، وانتقل في أواخر عمره إلى مصر ثم الشام حيث توفي."
-  en: "The muhaddith of Nasa in Khurasan, author of the Sunan counted among the six books; famed for his attention to hidden defects and transmitter criticism, moving late in life to Egypt and then al-Sham where he died."
+  ar: "محدث نسا بخراسان صاحب «السنن» المعدودة في الكتب الستة؛ رحل في طلب الحديث بخراسان والعراق والشام ومصر والحجاز والجزيرة، وسكن مصر بزقاق القناديل، ثم خرج إلى دمشق في أواخر عمره فامتُحن فيها عن فضائل معاوية وتوفي بالرملة سنة ٣٠٣هـ."
+  en: "The muhaddith of Nasa in Khurasan, author of the Sunan counted among the six books; he travelled for hadith through Khurasan, Iraq, al-Sham, Egypt, the Hijaz and the Jazira, settled in Egypt at Zuqaq al-Qanadil, then moved to Damascus late in life, was attacked over the virtues of Mu'awiya and died at al-Ramla in 303/915."
+  ur: "خراسان کے شہر نسا کے محدث، «السنن» کے مصنف جو کتبِ ستہ میں شمار ہوتی ہے؛ انہوں نے خراسان، عراق، شام، مصر، حجاز اور جزیرہ میں طلبِ حدیث کے سفر کیے، مصر کے زقاق القنادیل میں سکونت اختیار کی، پھر عمر کے آخر میں دمشق گئے جہاں معاویہ کے فضائل پر حملہ ہوا اور وہ 303ھ/915ء میں رملہ میں فوت ہوئے۔"
 wings: [people]
 themes: [scripture-and-its-sciences]
-periods: [period/abbasid-fragmentation]
-regions: [persia-central-asia]
+periods: [period/abbasid-early, period/abbasid-fragmentation]
+regions: [persia-central-asia, egypt-nile, levant-iraq]
 relations:
-  - { type: authored, target: work/sunan-al-nasai, sources: [source/sunan-al-nasai] }
+  - { type: born_in, target: place/nasa, sources: [source/wafayat-ayan] }
+  - { type: died_in, target: place/ramla, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: student_of, target: person/qutayba-ibn-said, sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/ishaq-ibn-rahwayh, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: authored, target: work/sunan-al-nasai, sources: [source/sunan-al-nasai, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/kitab-al-duafa-wa-al-matrukin, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/khasais-amir-al-muminin, sources: [source/encyclopaedia-of-islam-2, source/tazkirat-al-huffaz] }
+  - { type: participated_in, target: event/birth-al-nasai-215, role: "المولود", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
+  - { type: participated_in, target: event/nasai-qutayba-balkh-230, role: "الطالب الراحل", sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/nasai-rihla-lands-240, role: "الطالب الرحّالة", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: participated_in, target: event/nasai-settles-misr-270, role: "المحدّث المقيم", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: participated_in, target: event/nasai-leaves-misr-302, role: "الراحل المودِّع", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: participated_in, target: event/nasai-beating-damascus-303, role: "المعتدى عليه", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: participated_in, target: event/death-al-nasai-ramla-303, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
 external_ids: { wikidata: "Q293535" }
-sources: [source/sunan-al-nasai, source/tabaqat-shafiiyya-subki]
+sources: [source/sunan-al-nasai, source/tabaqat-shafiiyya-subki, source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
-  source: "Sunan al-Nasa'i source record (author dates 215–303 AH)"
-  generated_by: "Devin (SWE-2 High)"
-  run: hadith-section-1
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "al-Dhahabi, Tadhkirat al-Huffaz j.2 printed pp. 617-620 and Tarikh al-Islam s.a. 303 printed pp. 105-109 (harvest OCR); Ibn Khallikan, Wafayat al-A'yan i pp. 26-27 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Nasa'i printed pp. 1023-1024; Sunan al-Nasa'i source record (author dates 215-303 AH)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
