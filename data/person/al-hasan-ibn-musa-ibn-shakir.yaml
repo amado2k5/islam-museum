@@ -1,0 +1,52 @@
+id: person/al-hasan-ibn-musa-ibn-shakir
+class: person
+
+label: { ar: "الحسن بن موسى بن شاكر", en: "Al-Hasan ibn Musa ibn Shakir", ur: "الحسن بن موسی بن شاکر" }
+
+names:
+  - { value: "الحسن بن موسى بن شاكر", kind: full }
+  - { value: "Al-Hasan ibn Musa ibn Shakir", kind: full }
+  - { value: "Hasan ibn Musa", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "الحسن بن موسى بن شاكر (توفي في القرن التاسع)، أصغر بني موسى في بغداد وأعلمهم — في عبارة المقالة العربية — بالرياضيات والفلك. رسالته الوحيدة المنسوبة إليه «كتاب الشكل المدوّر المستطيل» في رسم القطع الناقص بدبوسين وخيط، وهي الطريقة المعروفة اليوم بطريقة البستاني، وقد فُقدت الرسالة. لا تثبت الدراسات التي تعتمدها المقالة الإنجليزية سنة ميلاد أو وفاة له؛ وسنوات المقالة العربية (810–873) محفوظة في ترجمته بوصفها رواية غير محققة."
+  en: "Al-Hasan ibn Musa ibn Shakir (died in the 9th century), youngest of the Banu Musa brothers of Baghdad and, in the Arabic article's phrase, the most learned of them in mathematics and astronomy. His one attributed treatise, the Book of the Elongated Circular Figure — on drawing an ellipse with two pins and a length of string, the technique now known as the gardener's construction — is lost. No birth or death year is attested for him by the scholarship the English article rests on; the Arabic article's years (810-873) are preserved in his record as an unverified tradition."
+  ur: "الحسن بن موسی بن شاکر (وفات نویں صدی)، بغداد کے بنو موسی کے سب سے چھوٹے بھائی اور — عربی مضمون کے لفظوں میں — ریاضی و فلکیات میں تینوں سے بڑھ کر عالم۔ ان سے منسوب واحد رسالہ «کتاب الشکل المدور المستطیل» تھا، جو دو کیلوں اور دھاگے سے بیضوی شکل (قطع ناقص) کھینچنے پر تھا — وہی طریقہ جو آج «باغبان کی ترکیب» کہلاتا ہے — اور یہ رسالہ اب مفقود ہے۔ انگریزی مضمون کی بنیاد بننے والی تحقیق کے مطابق ان کی پیدائش یا وفات کا کوئی سال ثابت نہیں؛ عربی مضمون کے سال (810–873ء) ان کے ریکارڈ میں غیر مصدقہ روایت کے طور پر محفوظ ہیں۔"
+
+roles: [mathematician, astronomer]
+regions: [levant-iraq]
+wings: [people]
+
+relations:
+  - { type: child_of, target: person/musa-ibn-shakir, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
+  - { type: lived_in, target: place/baghdad, sources: [source/wikipedia-banu-musa-en, source/wikipedia-banu-musa-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source consulted names a religion or legal school for al-Hasan ibn Musa ibn
+      Shakir. The articles describe a Persian family from Khurasan in the service of the
+      Abbasid caliphs — origin and court service are context, not attestation — and his
+      Wikidata item carries no religion value at all, so nothing settles and his faith
+      is recorded as unattested.
+    sources: [source/wikipedia-banu-musa-en, source/wikidata-al-hasan-ibn-musa-ibn-shakir]
+
+external_ids: { wikidata: "Q37726928" }
+
+sources:
+  - source/wikipedia-banu-musa-en
+  - source/wikipedia-banu-musa-ar
+  - source/wikipedia-banu-musa-ur
+  - source/wikidata-banu-musa
+  - source/wikidata-al-hasan-ibn-musa-ibn-shakir
+  - source/fihrist-ibn-al-nadim
+
+provenance:
+  layer: own-research
+  source: "The English, Arabic and Urdu Wikipedia articles on the Banu Musa brothers and the Wikidata items Q423210 (the brothers jointly) and Q37726928 (al-Hasan individually), together with Ibn al-Nadim's Fihrist in the museum's existing source file, read at the revisions recorded in their source files and fetched live from the MediaWiki API on 1 November 2026, the Wikidata revisions re-asserted against second live queries; the joint item was grounded from the English article's own page property and al-Hasan's individual item was resolved through its English sitelink page, which is a redirect to the combined article. The founder commissioned the Banu Musa as one row of the century queue's section I (826-925 additions) naming three persons; they are built as three records. Seniority follows the articles' assumed order — Muhammad, Ahmad, al-Hasan — and each sibling edge is written once, in the elder brother's record, so both of al-Hasan's sibling edges stand in his brothers' records and none here. Their father Musa ibn Shakir's museum record is a Devin-era draft card (run wikidata-import-0038); the child_of edge is written against it as the lane's precedents allow, and that card's unrelied-on death year is not used here. No birth or death block is recorded for al-Hasan: the English article dates him only 'd. 9th century' and its scholarly apparatus (Bir, 1990) states that of the three brothers only Muhammad's death year is known. The Arabic article prints 810-873 for him — its narrative repeats the 873 death year — and his Wikidata item carries the same two years, all unsourced and of one modern tradition; they are preserved in the summary and prose as an attested tradition, not built as dates."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-157i"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

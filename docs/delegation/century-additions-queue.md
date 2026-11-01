@@ -1746,8 +1746,8 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 ## I. 826–925 additions (2 rows, 4 persons)
 
-- [ ] Al-Ya'qubi — 812–897
-- [ ] Banu Musa brothers — Muhammad ibn Musa ibn Shakir (805–873), Ahmad ibn Musa ibn Shakir, al-Hasan ibn Musa ibn Shakir (one CSV row; build as three person records)
+- [x] Al-Ya'qubi — 812–897
+- [x] Banu Musa brothers — Muhammad ibn Musa ibn Shakir (805–873), Ahmad ibn Musa ibn Shakir, al-Hasan ibn Musa ibn Shakir (one CSV row; build as three person records)
 
 ## J. 1726–1825 additions (51)
 
