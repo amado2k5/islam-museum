@@ -1,0 +1,65 @@
+id: person/mir-qasim
+class: person
+
+label: { ar: "مير قاسم", en: "Mir Qasim", ur: "میر قاسم" }
+
+names:
+  - { value: "مير محمد قاسم علي خان", kind: full }
+  - { value: "Mir Muhammad Qasim Ali Khan", kind: full }
+  - { value: "Mir Syed Qasim", kind: alternate }
+  - { value: "Nasir al-Mulk", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "مير قاسم (توفي 8 مايو 1777)، نواب البنغال من 1760 إلى 1763، نصّبته شركة الهند الشرقية خلفاً لحميه مير جعفر، فنقل العاصمة من مرشد آباد إلى مونغير وأصلح المالية والجيش وألغى الرسوم الداخلية، ثم حارب الشركة فهُزم عند بوكسار سنة 1764 في حلف مع شجاع الدولة وشاه عالم الثاني، ومات في عزلة وفقر عند كوتوال قرب دلهي. لا تُعرف سنة ولادته في أي مصدر."
+  en: "Mir Qasim (died 8 May 1777) was Nawab of Bengal from 1760 to 1763, installed by the East India Company in place of his father-in-law Mir Jafar. He moved his capital from Murshidabad to Monghyr, rebuilt the revenue and the army, and abolished internal duties; then he fought the Company and was defeated at Buxar in 1764 in alliance with Shuja-ud-Daula and Shah Alam II, and died in obscurity and poverty at Kotwal, near Delhi. No source consulted gives any birth year for him."
+  ur: "میر قاسم (وفات 8 مئی 1777ء) 1760ء سے 1763ء تک نواب بنگال رہے؛ ایسٹ انڈیا کمپنی نے انھیں ان کے سسر میر جعفر کی جگہ تخت پر بٹھایا۔ آپ نے دارالحکومت مرشد آباد سے مونگیر منتقل کیا، مالیات اور فوج کی اصلاح کی اور داخلی محصول ختم کر دیے، پھر کمپنی سے جنگ کی اور 1764ء میں بکسر کے مقام پر شجاع الدولہ اور شاہ عالم ثانی کے ساتھ مل کر شکست کھائی، اور دہلی کے قریب کوتوال میں گمنامی اور فقر میں وفات پائی۔ کسی ماخذ میں آپ کی سالِ ولادت مذکور نہیں۔"
+
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+
+died:
+  edtf: "1777-05-08"
+  hijri: "1191"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Arabic infoboxes and Wikidata give 8 May 1777; the English narrative marks its Kotwal details citation-needed, and Banglapedia independently gives his death in obscurity near Delhi in 1777. The Hijri year 1191 is converted from the Gregorian date. No born block is built: no source consulted attests any birth year for Mir Qasim — the English article files him under 'Year of birth unknown', Wikidata records no birth value at all, and the Arabic infobox leaves the birth field blank. The century queue's 1730 is attested in no source read and is not built."
+  sources: [source/wikipedia-mir-qasim-en, source/wikipedia-mir-qasim-ar, source/wikidata-mir-qasim, source/banglapedia-mir-qasim]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No textual source consulted names a branch or school for Mir Qasim
+      himself. The Arabic article's infobox records his religion as Shia
+      Muslim — a structured attestation with no source named for it in the
+      article body — and the English article links him only by a see-also
+      and a category filing. His family was a sayyid family of Najafi
+      origin and he claimed descent from Ali al-Ridha, a claim the English
+      article itself flags as citation-needed; descent never counts as
+      attestation of the man's own affiliation, and Banglapedia, the
+      independent national-encyclopedia entry, makes no statement about
+      his religion at all. Under the lane's doctrine, branch-only
+      attestation settles nothing, so his faith is recorded as unattested
+      and the Shia attestation is preserved here.
+    sources: [source/wikipedia-mir-qasim-ar, source/wikipedia-mir-qasim-en, source/wikidata-mir-qasim, source/banglapedia-mir-qasim]
+
+external_ids: { wikidata: "Q3595321" }
+
+sources:
+  - source/wikipedia-mir-qasim-en
+  - source/wikipedia-mir-qasim-ar
+  - source/wikipedia-mir-qasim-ur
+  - source/wikidata-mir-qasim
+  - source/banglapedia-mir-qasim
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379115578 of 8 October 2026), Arabic Wikipedia (revision 73493676 of 13 February 2026), Urdu Wikipedia (revision 12161599 of 19 October 2026), Wikidata Q3595321 (item revision 2490031368) and Banglapedia's entry by Mohammad Shah (2nd edition, 2012), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Arabic and Urdu articles' agree) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub; person/syed-mir-qasim is a different, twentieth-century Kashmiri politician and the two men are not blended. QUEUE CORRECTION: the century queue's birth year 1730 is attested in no source read; no born block is built. No relations are written: his father Mir Razi Khan has no museum record, and Murshidabad, Monghyr and Kotwal have no place entities, so his places are carried in the prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-160j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

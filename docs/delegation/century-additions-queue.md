@@ -1761,10 +1761,10 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Karamokho Alfa — 1700–1751
 - [x] Ibrahim Sori — 1725–1784
 - [x] Shah Abdul Aziz Dehlawi — 1746–1824
-- [ ] Shah Rafiuddin Dehlawi — 1749–1818
-- [ ] Hyder Ali — 1721–1782
-- [ ] Mir Qasim — 1730–1777
-- [ ] Shah Alam II — 1728–1806
+- [x] Shah Rafiuddin Dehlawi — 1749–1818
+- [x] Hyder Ali — 1721–1782
+- [x] Mir Qasim — 1730–1777
+- [x] Shah Alam II — 1728–1806
 - [ ] Emperor Ahmad Shah Bahadur — 1725–1775
 - [ ] Akbar II — 1760–1837
 - [x] Bahadur Shah Zafar — 1775–1862
