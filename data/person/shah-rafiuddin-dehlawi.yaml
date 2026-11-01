@@ -1,0 +1,78 @@
+id: person/shah-rafiuddin-dehlawi
+class: person
+
+label: { ar: "شاه رفيع الدين الدهلوي", en: "Shah Rafiuddin Dehlawi", ur: "شاہ رفیع الدین دہلوی" }
+
+names:
+  - { value: "عبد الوهاب بن ولي الله بن عبد الرحيم العمري الدهلوي", kind: full }
+  - { value: "Rafiuddin Abd al-Wahhab", kind: full }
+  - { value: "شاہ محمد رفیع الدین دہلوی", kind: full }
+  - { value: "Shah Muhammad Rafiuddin Dehlavi", kind: alternate }
+  - { value: "Rafiuddin al-Dihlawi", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شاه رفيع الدين الدهلوي (1163هـ/1750م – 1233هـ/1818م)، محدّث ومفسّر من دلهي، ابن شاه ولي الله الدهلوي وأخوه الأصغر لشاه عبد العزيز. أتمّ سنة 1200هـ أول ترجمة أردية حرفية (تحت اللفظ) للقرآن، وله تفسير رفيع وكتب «دفع الباطل» و«أسرار المحبة»، وخلَف أخاه على مسند التدريس بالمدرسة الرحيمية في كبر سنّه."
+  en: "Shah Rafiuddin Dehlawi (1163/1750 – 1233/1818) was a Delhi hadith scholar and Qur'an commentator, a son of Shah Waliullah al-Dihlawi and younger brother of Shah Abdul Aziz. In 1200 AH he completed the first literal, word-for-word Urdu translation of the Qur'an; his works include the Tafsir Rafi'i, Daf' al-Batil and Asrar al-Mahabba, and in his brother's old age he succeeded to the teaching seat of the Madrasa Rahimia."
+  ur: "شاہ رفیع الدین دہلوی (1163ھ/1750ء – 1233ھ/1818ء) دہلی کے محدث و مفسر، شاہ ولی اللہ دہلوی کے صاحبزادے اور شاہ عبدالعزیز کے چھوٹے بھائی تھے۔ آپ نے 1200ھ میں قرآن کا پہلا تحت اللفظ اردو ترجمہ مکمل کیا؛ آپ کی تصانیف میں تفسیر رفیع، «دفع الباطل» اور «اسرار المحبہ» شامل ہیں، اور آپ اپنے بھائی کی کبرسنی میں مدرسہ رحیمیہ کی مسندِ تدریس پر بیٹھے۔"
+
+roles: [muhaddith, scholar]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1750"
+  hijri: "1163"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Both articles agree on the Hijri year 1163 and differ only in its Gregorian pairing: the Urdu article, citing the Urdu Encyclopaedia of Islam (University of the Punjab, vol. 10, p. 318), pairs it with 1750, while the Arabic article, in the al-Zirikli tradition, pairs it with 1749. The two Wikidata items split the same way (Q25550023 gives 1750; Q12213581 gives 1749). The record builds 1750 on the Urdu article's referenced pairing and carries the 1749 reading here, under the status debated. He was born at Delhi."
+  sources: [source/wikipedia-shah-rafiuddin-dehlawi-ur, source/wikipedia-rafiuddin-dehlawi-ar, source/wikidata-shah-rafiuddin-dehlawi, source/wikidata-rafiuddin-dehlawi-ar]
+
+died:
+  edtf: "1818"
+  hijri: "1233"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Both articles agree on the Hijri year 1233; the Urdu article and Q25550023 pair it with 1818, the Arabic article with 1817. The record builds 1818 and carries the 1817 reading here, under the status debated."
+  sources: [source/wikipedia-shah-rafiuddin-dehlawi-ur, source/wikipedia-rafiuddin-dehlawi-ar, source/wikidata-shah-rafiuddin-dehlawi]
+
+relations:
+  - { type: child_of, target: person/shah-waliullah-al-dahlawi, sources: [source/wikipedia-shah-rafiuddin-dehlawi-ur, source/wikipedia-rafiuddin-dehlawi-ar, source/wikidata-shah-rafiuddin-dehlawi] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: >-
+      Settled as a Sufi on two independent attestations of personal
+      discipleship. The Arabic article, in the al-Zirikli tradition, states
+      that he took the Sufi path from Shaykh Muhammad Ashiq ibn Ubayd Allah
+      al-Bahattli — an initiation received by the man himself, not an
+      office or a descent. The Urdu article independently presents a scholar
+      of dervish character whose works include Asrar al-Mahabba, a Sufi
+      treatise, and quotes the biographical tradition on his succession to
+      the teaching seat. Neither source names the order he was initiated
+      into, and the record names none. His legal school is NOT settled: no
+      consulted source names a madhhab for Rafiuddin himself — the Dehlawi
+      family's Hanafi tradition is the context he taught in, and family
+      tradition never counts — so no school segment is recorded.
+    sources: [source/wikipedia-rafiuddin-dehlawi-ar, source/wikipedia-shah-rafiuddin-dehlawi-ur]
+
+external_ids: { wikidata: "Q25550023" }
+
+sources:
+  - source/wikipedia-shah-rafiuddin-dehlawi-ur
+  - source/wikipedia-rafiuddin-dehlawi-ar
+  - source/wikidata-shah-rafiuddin-dehlawi
+  - source/wikidata-rafiuddin-dehlawi-ar
+
+provenance:
+  layer: own-research
+  source: "Urdu Wikipedia (revision 11744104 of 5 August 2026), Arabic Wikipedia (revision 67900787 of 19 September 2024), Wikidata Q25550023 (item revision 2527639713) and Wikidata Q12213581 (item revision 1392475046), all fetched live in-session on 1 November 2026; each QID was grounded from its article's own page property and each item revision re-asserted against a second live query. No English Wikipedia article on him exists. Existence checked by slug and by name fragments under variant spellings (Dehlawi, Dehlavi, Dihlawi, Rafi al-Din) across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub under any spelling. His father Shah Waliullah's record (person/shah-waliullah-al-dahlawi) is a Devin-era draft stub; the child_of edge is written here in the child's record and relies on none of the stub's data. His elder brother's record (person/shah-abd-al-aziz-dihlawi, EI2 lane) is not edited, and no sibling edge is written: by the write-once rule that edge belongs in the elder brother's record and is a recorded deferred item. QUEUE NOTE: the century queue's dates 1749-1818 split the two source pairings; the record builds 1750 and 1818, each under the status debated with the rival pairing preserved in the date notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-160j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
