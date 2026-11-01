@@ -69,6 +69,26 @@ The believer as gold in fire, the two 'bags' of memory, the reasons for [[concep
 
 The Companions: [[person/abdullah-ibn-masud|Ibn Mas'ud]], [[person/abdullah-ibn-hudhafa-al-sahmi|Abdullah ibn Hudhafa]] and [[person/khubayb-ibn-adi|Khubayb]], and [[concept/idkhal-al-surur|bringing joy]] to people. {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:08:30}
 
+## Episode 16: anxiety over one's offspring
+
+[[concept/mirath|Inheritance]] and disinheriting heirs, the daughters of [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]], [[concept/husn-al-zann-billah|thinking well of God]], [[concept/satr|God's covering]] of the penitent, and the hadith of the bankrupt. {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:08:30}
+
+## Episode 17: the weak and the orphans
+
+Islam and the weak, [[practice/kafalat-al-yatim|caring for orphans]], great orphans such as [[person/ahmad-ibn-hanbal|Ahmad]], [[person/al-shafii|al-Shafi'i]] and [[person/al-bukhari|al-Bukhari]], and the role of mothers. {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:30}
+
+## Episode 18: repentance and relapse
+
+[[concept/tawba|Repentance]] and the five remedies, his view of Ramadan serials, and [[concept/al-tadkhin|smoking]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:30}
+
+## Episode 19: daughters' delayed marriage
+
+[[practice/nikah|Easing marriage]], khitba and khutba, marriage as provision, and [[concept/al-rizq-al-rububi|provision]] that no human can cut off. {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:09:30}
+
+## Episode 20: the dignity of work
+
+No honest work is lowly: [[concept/amal|work]], [[person/dawud|Dawud]] and [[person/sulayman|Sulayman]], and degrees are not the measure of success. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -154,3 +174,23 @@ These are the museum records written from the episodes of the series, ordered by
 - [[person/abdullah-ibn-hudhafa-al-sahmi|Abdullah ibn Hudhafa al-Sahmi]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30}
 - [[person/khubayb-ibn-adi|Khubayb ibn Adi]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00}
 - [[concept/idkhal-al-surur|Bringing joy to Muslims]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:07:30}
+
+### Episode 16
+- [[concept/mirath|Inheritance (mirath)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:00}
+- [[person/umar-ibn-abd-al-aziz|Umar ibn Abd al-Aziz]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00}
+- [[concept/husn-al-zann-billah|Good opinion of God and optimism (husn al-zann billah)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+- [[concept/satr|Concealing a Muslim's fault (satr)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+
+### Episode 17
+- [[practice/kafalat-al-yatim|Caring for orphans (kafalat al-yatim)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:01:00}
+- [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30}
+
+### Episode 18
+- [[concept/al-tadkhin|Smoking]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:30}
+
+### Episode 19
+- [[practice/nikah|Nikah (marriage contract)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:01:30}
+
+### Episode 20
+- [[concept/amal|Action (amal) and the five rulings that govern it]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
+- [[person/dawud|Dawud (David)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}

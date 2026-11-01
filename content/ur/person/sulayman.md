@@ -14,3 +14,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 عمر عبد الکافی، اپنے بقول «اپنے تھوڑے علم سے»، سمجھتے ہیں کہ سلیمان عہدے، مرتبے، عزت اور مال سے سب سے سخت آزمائے جانے والوں میں تھے، اور آخر میں انہوں نے کہا: یہ میرے رب کا فضل ہے تاکہ مجھے آزمائے کہ شکر کرتا ہوں یا ناشکری۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:30}
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ کہتے ہیں کہ سلیمان نبی، رسول، بادشاہ اور «ارب پتی» تھے، ہوا ان کے حکم سے نرمی سے چلتی، شیاطین ان کے لیے معمار اور غوطہ خور بن کر کام کرتے، پرندے ان پر سایہ کرتے، اور پھر بھی آلِ داؤد کو شکر کے طور پر کام کا حکم ملا؛ وہ اس سے کام کی عزت پر استدلال کرتے ہیں۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:30}

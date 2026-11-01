@@ -75,3 +75,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يقول الشيخ إن الرزق والعمر يُكتبان للإنسان وهو في بطن أمه، وإن اللص والمختلس والمرتشي لو صبر لجاءه رزقه حلالًا، فالرزق إما حلال وإما حرام وكلاهما آتٍ، فلا يُستعجل ما عند الله بمعصيته. {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:07:30} ويرى أن الولد الذي يتكاسل عن صلاة الفجر قد يكون في لباسه أو فراشه درهم حرام، وأن المال الحلال لا ينتج إلا طاعة والحرام لا ينتج إلا معصية، وأن من حقوق الأبناء أن يُطعموا من حلال. {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن رزق الله لا يسوقه حرص حريص ولا تمنعه كراهة كاره، ويضرب مثلًا بأصحاب الوجاهة الذين لا يستطيعون توظيف أبنائهم إذا لم يأذن الله، وينتقد قول رجال الأعمال «قطع الأعناق ولا قطع الأرزاق» حين يُبقون على موظف مختلس، ويرى أن الموكّل الوحيد بقطع الرزق هو ملك الموت. {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:10:00}

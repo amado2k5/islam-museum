@@ -21,3 +21,6 @@ translators: []
 ويروي الشيخ أن أحمد مرض، فخاف الشافعي من موت أحمد وذهاب علمه، فمرض الشافعي من خوفه، ثم تحامل أحمد على نفسه وذهب لزيارته (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:00}.
 
 ويرى الشيخ، وهذا رأيه، أن على الأمة أن تدرس تاريخها، ويذكر من ذلك محنة أحمد بن حنبل التي يتساءل عنها، وإن كانت الكلمة غير واضحة في النسخة الآلية (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:16:00}.
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يذكر الشيخ أحمد بن حنبل بين عظماء اليتامى، ويروي أن الشافعي كان يزوره ويزوره أحمد، وأن الشافعي مرض خوفًا على أحمد لما مرض، فلما بلغ أحمدَ ذلك تحامل وعاده، فأنشد الشافعي أبياتًا في أنه مرض الحبيب فعاده فمرض من خوفه عليه، ثم أتاه الحبيب فبرئ من نظره إليه (needs_source: الخبر والأبيات كما رواها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:30}

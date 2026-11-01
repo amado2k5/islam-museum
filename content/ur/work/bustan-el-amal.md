@@ -69,6 +69,26 @@ translators: []
 
 صحابہ: [[person/abdullah-ibn-masud|ابن مسعود]]، [[person/abdullah-ibn-hudhafa-al-sahmi|عبداللہ بن حذافہ]] اور [[person/khubayb-ibn-adi|خبیب]]، اور لوگوں کو [[concept/idkhal-al-surur|خوشی پہنچانا]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:08:30}
 
+## قسط 16: اولاد کی فکر
+
+[[concept/mirath|میراث]] اور وارثوں کو محروم کرنا، [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] کی بیٹیاں، [[concept/husn-al-zann-billah|اللہ سے حسنِ ظن]]، تائب پر [[concept/satr|اللہ کی پردہ پوشی]]، اور مفلس کی حدیث۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:08:30}
+
+## قسط 17: کمزور اور یتیم
+
+اسلام اور کمزور، [[practice/kafalat-al-yatim|یتیم کی کفالت]]، عظیم یتیم جیسے [[person/ahmad-ibn-hanbal|احمد]]، [[person/al-shafii|شافعی]] اور [[person/al-bukhari|بخاری]]، اور ماؤں کا کردار۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:30}
+
+## قسط 18: توبہ اور گناہ کی طرف لوٹنا
+
+[[concept/tawba|توبہ]] اور پانچ دوائیں، رمضان کے ڈراموں پر ان کی رائے، اور [[concept/al-tadkhin|تمباکو نوشی]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:30}
+
+## قسط 19: بیٹیوں کی شادی میں تاخیر
+
+[[practice/nikah|نکاح کو آسان بنانا]]، خِطبہ اور خُطبہ، نکاح بطور رزق، اور [[concept/al-rizq-al-rububi|رزق]] جسے کوئی انسان نہیں کاٹ سکتا۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:09:30}
+
+## قسط 20: کام کی عزت
+
+کوئی شریفانہ کام حقیر نہیں: [[concept/amal|کام]]، [[person/dawud|داؤد]] اور [[person/sulayman|سلیمان]]، اور ڈگریاں کامیابی کا پیمانہ نہیں۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30}
+
 ## میوزیم میں اقساط کے موضوعات
 
 یہ میوزیم کے وہ ریکارڈ ہیں جو اس سلسلے کی اقساط سے لکھے گئے، ہر موضوع کے پہلے حوالے کی ترتیب سے۔ ہر ریکارڈ کا اپنا متن اور حوالے ہیں۔
@@ -154,3 +174,23 @@ translators: []
 - [[person/abdullah-ibn-hudhafa-al-sahmi|عبد الله بن حذافة السهمي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30}
 - [[person/khubayb-ibn-adi|خبيب بن عدي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00}
 - [[concept/idkhal-al-surur|مسلمانوں کو خوشی پہنچانا]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:07:30}
+
+### قسط 16
+- [[concept/mirath|میراث]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:00}
+- [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00}
+- [[concept/husn-al-zann-billah|اللہ کے ساتھ حسن ظن اور امید (حسن الظن باللہ)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+- [[concept/satr|ستر المسلم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+
+### قسط 17
+- [[practice/kafalat-al-yatim|یتیم کی کفالت]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:01:00}
+- [[person/ahmad-ibn-hanbal|أحمد بن حنبل، وعند ابن النديم أبو عبد الله أحمد بن حنبل وله كتاب العلل {cite:fihrist-ibn-al-nadim p. 320}]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30}
+
+### قسط 18
+- [[concept/al-tadkhin|تمباکو نوشی]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:30}
+
+### قسط 19
+- [[practice/nikah|النكاح]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:01:30}
+
+### قسط 20
+- [[concept/amal|عمل (فعل)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
+- [[person/dawud|داود]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}
