@@ -1,0 +1,75 @@
+id: person/muhammad-bello
+class: person
+
+label: { ar: "محمد بيلو", en: "Muhammad Bello", ur: "محمد بیلو" }
+
+names:
+  - { value: "محمد بلو بن عثمان بن فودي", kind: full }
+  - { value: "Muhammad Bello bin Uthman bin Fudi", kind: full }
+  - { value: "Muhammed Bello", kind: alternate }
+  - { value: "Bello", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "محمد بيلو (1781–1837)، ثاني خلفاء صوكوتو (1817–1837) ونجل مؤسسها عثمان بن فودي وكاتبه الأول. أسّس مدينة صوكوتو سنة 1809، وثبّت إدارة الخلافة وقضاءها وتعليمها، وألّف مئات النصوص في التاريخ والشريعة والشعر، منها «إنفاق الميسور» التاريخَ المرجع لحروب الفولاني، وتوفي في وورنو سنة 1837."
+  en: "Muhammad Bello (1781–1837), second caliph of Sokoto (1817–1837), son of its founder Usman dan Fodio and his father's chief aide. He founded the city of Sokoto in 1809, consolidated the caliphate's administration, courts and schooling, and wrote hundreds of texts on history, Islamic law and poetry, among them the Infaq al-Maysur, the standard history of the Fulani wars; he died at Wurno in 1837."
+  ur: "محمد بیلو (1781–1837)، سوکوتو کے دوسرے خلیفہ (1817–1837)، اس کے بانی عثمان دان فودیو کے بیٹے اور ان کے اولین معاون۔ انھوں نے 1809 میں سوکوتو شہر کی بنیاد رکھی، خلافت کی انتظامیہ، عدالتیں اور تعلیم مضبوط کیں، اور تاریخ، شریعت اور شاعری پر سیکڑوں تصانیف لکھیں جن میں فولانی جنگوں کی مستند تاریخ «انفاق المیسور» شامل ہے؛ 1837 میں ورنو میں ان کا انتقال ہوا۔"
+
+roles: [caliph, scholar, historian, poet, writer]
+regions: [west-africa-sahel]
+wings: [people]
+
+born:
+  edtf: "1781-11-03"
+  hijri: "1195"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives the full date, 3 November 1781, and the Arabic and Urdu articles agree on the year 1781. Wikidata carries two competing birth values, 1780 and 1781, at year precision only; the year the articles give is the one built here, and the disagreement is stated rather than absorbed. The Hijri year 1195 is the tabular conversion of the date, marked derived."
+  sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello]
+
+died:
+  edtf: "1837-10-25"
+  hijri: "1253"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death on 25 October 1837 at Wurno, of natural causes; the other articles and Wikidata agree on the year 1837. The Hijri year 1253 is the tabular conversion, marked derived. No place entity for Wurno or Sokoto exists in the museum, so the place of death is carried in this note only."
+  sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello]
+
+relations:
+  - { type: child_of, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ur] }
+  - { type: sibling_of, target: person/nana-asmau, sources: [source/wikipedia-muhammad-bello-en] }
+  - { type: successor_of, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-usman-dan-fodio-ur] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source consulted names a legal school or a Sufi order for Bello
+      himself. The articles show him administering the caliphate under Muslim
+      law and writing extensively on Islamic law, history and poetry inside
+      the state his father founded on the Maliki school and the Qadiriyya
+      path, and he was the founder's son and heir — but descent, office and a
+      state's tradition never count as attestation for the man, and Wikidata
+      gives his religion as Islam only. His faith is therefore recorded as
+      unattested, with the tradition he worked in stated here in full.
+    sources: [source/wikipedia-muhammad-bello-en, source/wikidata-muhammad-bello]
+
+external_ids: { wikidata: "Q608989" }
+
+sources:
+  - source/wikipedia-muhammad-bello-en
+  - source/wikipedia-muhammad-bello-ar
+  - source/wikipedia-muhammad-bello-ur
+  - source/wikidata-muhammad-bello
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1364555315 of 17 July 2026), Arabic Wikipedia (revision 75426560, a one-line stub), Urdu Wikipedia (revision 9227713) and Wikidata Q608989 (item revision 2528589337), all fetched live in-session on 1 November 2026, the QID grounded from the English article's own page property and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. His sister Nana Asma'u's museum record carries no sibling edge, so the pair is written once, here in the elder sibling's record (Bello, born 1781; Asma'u, born 1793). The child_of and successor_of edges target his father's record, built in this same wave."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-158j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
