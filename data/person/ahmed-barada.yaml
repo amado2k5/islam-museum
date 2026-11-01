@@ -1,0 +1,38 @@
+id: person/ahmed-barada
+class: person
+label: { ar: "أحمد برادة", en: "Ahmed Barada", ur: "احمد برادہ" }
+names:
+  - { value: "Ahmed Barada", kind: full }
+  - { value: "أحمد برادة", kind: full }
+gender: male
+summary:
+  ar: "لاعب اسكواش مصري محترف سابق، وُلد في القاهرة سنة 1977. وصل إلى المركز الثاني عالميًا في ديسمبر 1998 وحلّ وصيفًا في بطولة العالم المفتوحة 1999، وأنهت إصابة طعن في 2000 مسيرته مبكرًا، فاعتزل في أغسطس 2001."
+  en: "Egyptian former professional squash player, born in Cairo in 1977. He reached world No. 2 in December 1998 and was runner-up at the 1999 World Open; a stabbing injury in 2000 cut his career short, and he retired in August 2001."
+  ur: "مصری سابق پیشہ ور اسکواش کھلاڑی، 1977 میں قاہرہ میں پیدا ہوئے۔ دسمبر 1998 میں عالمی نمبر 2 بنے اور 1999 کے ورلڈ اوپن میں رنر اپ رہے؛ 2000 میں چاقو کے وار کی چوٹ نے ان کا کیریئر مختصر کر دیا اور اگست 2001 میں وہ ریٹائر ہو گئے۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1977-04-25"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 25 April 1977 in Cairo (the English article and Wikidata give Cairo; the Arabic article gives the date but its birthplace field is blank). The Hijri year 1397 is the tabular conversion of 25 April 1977 and is marked derived."
+  sources: [source/wikipedia-ahmed-barada-en, source/wikipedia-ahmed-barada-ar, source/wikidata-ahmed-barada]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-ahmed-barada-en, source/wikidata-ahmed-barada] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for him, and Wikidata records no religion (P140) statement. The Arabic article's person infobox carries a religion field, but it is blank. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-ahmed-barada-en, source/wikipedia-ahmed-barada-ar, source/wikidata-ahmed-barada]
+external_ids: { wikidata: "Q1710304" }
+sources: [source/wikipedia-ahmed-barada-en, source/wikipedia-ahmed-barada-ar, source/wikidata-ahmed-barada]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1366175318), Arabic Wikipedia (revision 74146733) and Wikidata Q1710304 (item revision 2518506928, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property; the item's sitelinks show no Urdu article exists; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-154A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

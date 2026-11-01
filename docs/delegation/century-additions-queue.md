@@ -826,11 +826,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Giana Farouk — 1994–Living
 - [x] Karam Gaber — 1979–Living
 - [x] Mohamed ElShorbagy — 1991–Living
-- [ ] Ali Farag — 1992–Living
-- [ ] Ramy Ashour — 1987–Living
-- [ ] Amr Shabana — 1979–Living
-- [ ] Ahmed Barada — 1977–Living
-- [ ] Raneem El Welily — 1989–Living
+- [x] Ali Farag — 1992–Living
+- [x] Ramy Ashour — 1987–Living
+- [x] Amr Shabana — 1979–Living
+- [x] Ahmed Barada — 1977–Living
+- [x] Raneem El Welily — 1989–Living
 - [ ] Nur El Tayeb — 1993–Living
 - [ ] Hania El Hammamy — 2000–Living
 - [ ] Mostafa Asal — 2001–Living
