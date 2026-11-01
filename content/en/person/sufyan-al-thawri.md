@@ -17,3 +17,6 @@ According to Ibn al-Nadim, he was Sufyan ibn Sa'id ibn Masruq al-Thawri, of the 
 
 ## The two dates of birth and death
 The sources differ on his age. al-Mas'udi reports that he died in the year 161 AH at the age of sixty-three, while Ibn al-Nadim says sixty-four, and his birth in the year 97 AH. al-Shirazi says he was born in the year 96 AH, or it is said 97, and died in the year 161 AH {cite:muruj-al-dhahab p.312-313} {cite:fihrist-ibn-al-nadim p.314-315} {cite:tabaqat-fuqaha-abbas-1981}.
+
+## In Abdul Hamid Kishk's sermons
+[[person/abdul-hamid-kishk|Abdul Hamid Kishk]] tells that a man came to Sufyan complaining of a sickness of the heart, and Sufyan prescribed a remedy whose ingredients are virtues: humility, awe, watchfulness and seeking forgiveness; he gives it in his talk on remembrance and the work of the heart (needs_source: he tells the report without a chain, and some of its words are garbled in the machine transcript). {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:18:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:19:30}
