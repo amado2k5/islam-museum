@@ -195,3 +195,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-zamakhshari | devin | done — 9 nodes, journey (Zamakhshar 467/1075 → Jurjaniyya 538/1144); 7 new events + place/zamakhshar + place/jurjaniyya from EI2 vol. 11/12 + shadharat s.a. 538; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-zamakhshari.json
 2026-11-01 | place/multan | devin | claimed
 2026-11-01 | place/multan | devin | done — 14 nodes (Ibn al-Qasim 712 → British 1848); 11 new events from EI2 vol. 7 MULTĀN pp. 602-604 + vol. 7 p. 461 + vol. 4 pp. 959-960 + Hasan Ibrahim pp. 97-98; both Wikidata siege cards (1222, 1398) rewritten; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-multan.json
+2026-11-01 | person/al-mutanabbi | devin | claimed
