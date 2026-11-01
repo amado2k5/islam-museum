@@ -226,3 +226,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **حاجب:** يرفأ مولاه {cite:tarikh-khalifa-umari-1985 p. 156}
 - **خازن:** يسار {cite:tarikh-khalifa-umari-1985 p. 156}
 - **بیت المال:** عبد الله بن الأرقم {cite:tarikh-khalifa-umari-1985 p. 156}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بیان کرتے ہیں کہ نبی کی وفات کے دن عمر بن الخطاب کا ضبط ٹوٹ گیا، انہوں نے دھمکی دی کہ جو کہے محمد فوت ہو گئے، اور کہا کہ وہ موسیٰ کی طرح اپنے رب سے ملنے گئے ہیں، یہاں تک کہ ابو بکر نے وہ آیت پڑھی کہ محمد ایک رسول ہیں جن سے پہلے رسول گزر چکے، اور عمر کو لگا گویا وہ اسے پہلی بار سن رہے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:30} وہ یہ بھی ذکر کرتے ہیں کہ فتح مکہ کے دن عمر نے ابو سفیان سے کہا کہ اللہ نے اس اسلام کے ذریعے کچھ قوموں کو عزت دی اور کچھ کو ذلیل کیا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:55:30}

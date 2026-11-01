@@ -32,3 +32,6 @@ translators: []
 
 ## المسؤولية أمام الله
 رأي للشيخ: كل من قال «لا إله إلا الله»، من الحاكم إلى الفلاح، مسؤول أمام الله عن عمله. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:12:30}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يسأل عمر عبد الكافي عمّن نطق بالشهادتين ثم مات بلا صلاة ولا صيام، ويرى أن أبا جهل كان أذكى منه لأنه أدرك أن «لا إله إلا الله» ليست كلمة تقال فقط بل تقتضي التصديق والعمل. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:17:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:18:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:19:00} ويذكر أن عصاة الموحدين يعذَّبون في النار مدة كلٌّ بقدره ثم يخرجون، وأن الله يغار على كلمة التوحيد في قلوبهم. وهذا كلامه في الوعظ. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:21:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:22:00}

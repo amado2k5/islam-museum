@@ -230,3 +230,6 @@ translators: []
 - **الحاجب:** يرفأ مولاه {cite:tarikh-khalifa-umari-1985 p. 156}
 - **الخازن:** يسار {cite:tarikh-khalifa-umari-1985 p. 156}
 - **بيت المال:** عبد الله بن الأرقم {cite:tarikh-khalifa-umari-1985 p. 156}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي أن عمر بن الخطاب خرج عن طوره يوم وفاة النبي، وتوعّد من قال إن محمدًا قد مات، وقال إنه ذهب للقاء ربه كما ذهب موسى، حتى قرأ أبو بكر الآية في أن محمدًا رسول قد خلت من قبله الرسل، فكان عمر كأنه يسمعها لأول مرة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:30} ويذكر أيضًا أن عمر قال لأبي سفيان يوم فتح مكة إن الله أعزّ بهذا الإسلام أقوامًا وأذل آخرين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:55:30}

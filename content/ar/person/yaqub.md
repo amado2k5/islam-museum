@@ -43,3 +43,6 @@ translators: []
 يروي الشيخ أن يعقوب فقد يوسف سنين ثم اجتمع به، ويجعل ذلك مثالًا على حكمة الله فيما يمنع. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:00}
 
 يروي الشيخ ارتفاع يوسف في مصر وسجود يعقوب له، على أنه تحقيق رؤيا سابقة (لم تُذكر السورة). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يتحدث عمر عبد الكافي عن صبر يعقوب على ما أصابه في ولديه، ويذكر مجيء القميص وإلقاءه على وجهه، ويسأل كيف عالج يعقوب الابتلاء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}

@@ -227,3 +227,6 @@ He quotes a supplication attributed to Umar, asking God for deeds that are since
 - **Chamberlain:** Yarfa', his mawla {cite:tarikh-khalifa-umari-1985 p. 156}
 - **Storekeeper:** Yasar {cite:tarikh-khalifa-umari-1985 p. 156}
 - **Treasury:** Abd Allah ibn al-Arqam {cite:tarikh-khalifa-umari-1985 p. 156}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy relates that on the day the Prophet died Umar ibn al-Khattab lost his composure, threatened anyone who said that Muhammad had died, and said he had gone to meet his Lord as Moses had, until Abu Bakr recited the verse that Muhammad is a messenger before whom messengers had passed away, and Umar heard it as if for the first time. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:19:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:20:30} He also mentions that on the day of the conquest of Mecca Umar told Abu Sufyan that God had raised some peoples through this Islam and brought others low. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:55:30}

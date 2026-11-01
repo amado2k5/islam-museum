@@ -42,3 +42,6 @@ He reflects that Ya'qub lost his second son, Benjamin, and was left to grieve. {
 He recounts that Ya'qub lost Yusuf for years and was then reunited with him, and he takes this as an example of God's wisdom in what He withholds. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:00}
 
 He recounts Yusuf's rise in Egypt and Ya'qub bowing before him, as the fulfilment of an earlier vision (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy speaks of Ya'qub's patience in what befell him through his two sons, mentions the shirt being brought and cast over his face, and asks how Ya'qub dealt with the trial. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}

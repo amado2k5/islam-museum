@@ -1,0 +1,39 @@
+id: work/sharh-al-hekam-al-ataeya
+class: work
+kind: lecture-series
+label:
+  ar: "شرح الحكم العطائية (سلسلة دروس)"
+  en: "Sharh al-Hikam al-'Ata'iyya (lecture series)"
+  ur: "شرح الحکم العطائیہ (درسی سلسلہ)"
+summary:
+  ar: "سلسلة من سبع عشرة حلقة لعمر عبد الكافي في أرشيف أسابيل، يشرح فيها حكم ابن عطاء الله السكندري حكمةً بعد حكمة في مجلس علم، ويستطرد إلى قصص الأنبياء والصحابة وإلى آداب الدعاء والاستخارة والصحبة."
+  en: "A seventeen-episode series by Omar Abdelkafy on the Assabile archive, explaining the Hikam of Ibn Ata Allah al-Iskandari maxim by maxim in a study circle, with digressions into stories of prophets and Companions and the manners of supplication, istikhara and companionship."
+  ur: "اسابیل آرکائیو میں عمر عبد الکافی کا سترہ اقساط کا سلسلہ، جس میں وہ ایک علمی مجلس میں ابن عطاء اللہ اسکندری کی حکمتوں کی ایک ایک کر کے شرح کرتے ہیں، اور انبیا و صحابہ کے قصوں اور دعا، استخارہ اور صحبت کے آداب پر بھی گفتگو کرتے ہیں۔"
+wings: [ideas]
+themes: [education, spirituality-and-sufism]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+book_studied: { work: work/hikam-al-ataiyya }
+relations:
+  - { type: about, target: work/hikam-al-ataiyya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibn-ata-allah-al-iskandari, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/majalis-al-ilm, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/dua, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/istikhara, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tatayyur-omens, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/ibrahim, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/yunus, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/umar-ibn-al-khattab, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-masalah, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/riya, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/al-khansa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/husn-al-khatima, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/la-ilaha-illa-allah, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/companionship-suhba, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/yaqub, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/fatima, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, sharh-al-hekam-al-ataeya (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-sharh-al-hekam-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-sharh-al-hekam-1" }

@@ -118,3 +118,6 @@ He says that the angels brought Ibrahim the good news of Ishaq, and after him of
 He cites Ibrahim's words to his father as a model of counsel that is respectful and based on knowledge. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:36:00}
 
 He calls for gentle counsel to elders who act wrongly, and cites Ibrahim's address to his father as a model of advice without direct rebuke (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:44:00}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy tells how Ibrahim, raised on the catapult to be thrown into the fire lit by Nimrod and his people, was offered help by Gabriel, and answered that he had no need of him and that his Lord's knowledge of his state spared him from asking; he takes this as a witness to Ibn Ata Allah's maxim on asking. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:10:00}

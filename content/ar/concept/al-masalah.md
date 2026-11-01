@@ -18,3 +18,6 @@ translators: []
 
 ## الشكوى إلى الله
 يحذر الشيخ من أن يشكو الإنسان أهله وجيرانه والزمن والفقر إلى الناس، ويقول إن الشكوى تكون إلى الله. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:11:00}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+في شرح حكمة ابن عطاء الله أن الطلب من غير الله من البعد عنه، يروي عمر عبد الكافي أن نفرًا من الصحابة بايعوا النبي على ألا يسألوا الناس شيئًا، حتى إن أحدهم كان يسقط سوطه وهو على ناقته فينزل ليأخذه ولا يسأل أحدًا أن يناوله إياه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:30} ويروي عن رجل وقع في بئر فمرّ به ركب ظنوها بئر ماء، فلم يستغث بهم وفاءً بهذه البيعة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:34:00} (needs_source: اسم الراوي واسم صاحب البئر غير واضحين في التسجيل.)

@@ -42,3 +42,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ روایت کرتے ہیں کہ یعقوب یوسف سے برسوں جدا رہے پھر ان سے ملاقات ہوئی، اور اسے اللہ کی حکمت کی مثال قرار دیتے ہیں کہ وہ کیا روکتا ہے۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:00}
 
 شیخ مصر میں یوسف کے عروج اور یعقوب کے ان کے آگے جھکنے کو پہلے کے خواب کی تکمیل کے طور پر بیان کرتے ہیں (سورت کا نام نہیں لیا گیا)۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی یعقوب کے اپنے دو بیٹوں کے معاملے میں صبر کی بات کرتے ہیں، قمیص لانے اور ان کے چہرے پر ڈالنے کا ذکر کرتے ہیں، اور سوال کرتے ہیں کہ یعقوب نے آزمائش کا علاج کیسے کیا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}

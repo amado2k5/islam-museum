@@ -18,3 +18,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## شکایت اللہ سے
 وہ خبردار کرتے ہیں کہ انسان اپنے گھر والوں، پڑوسیوں، زمانے یا غربت کی شکایت لوگوں سے نہ کرے، اور کہتے ہیں کہ شکایت اللہ ہی سے کی جائے۔ {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:11:00}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+ابن عطاء اللہ کی اس حکمت کی شرح میں کہ غیر اللہ سے مانگنا اس سے دوری کی وجہ سے ہے، عمر عبد الکافی بیان کرتے ہیں کہ صحابہ کی ایک جماعت نے نبی سے بیعت کی کہ لوگوں سے کچھ نہیں مانگیں گے، یہاں تک کہ اگر کسی کا کوڑا اونٹنی پر سے گر جاتا تو وہ خود اتر کر اٹھاتا اور کسی سے پکڑانے کو نہ کہتا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:30} وہ ایک آدمی کا ذکر کرتے ہیں جو کنویں میں گر گیا؛ ایک قافلہ گزرا جس نے اسے پانی کا کنواں سمجھا، اور اس نے اس بیعت کی پاسداری میں ان سے مدد نہ مانگی۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:34:00} (needs_source: راوی اور کنویں والے آدمی کے نام ریکارڈنگ میں واضح نہیں۔)
