@@ -160,3 +160,7 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | place/ceuta | cursor | done — 6 nodes (fall of 817/1415 already wired; added occurred_at on the sieges of 1143, 1309, the two of 1419, and 1790). Left the 1415 duplicate and the overlapping 1694–1727 drafts unwired.
 
 2026-11-01 | place/bukhara | cursor | claimed — expansion past the 4 live nodes
+2026-11-01 | place/bukhara | cursor | done — 6 nodes (kept Devin's four; wired the 1220 siege; gave Tabari's year-90 conquest its derived CE year 708 and an occurred_at edge). Subject file left with owner devin.
+
+2026-11-01 | place/medina | devin | done — 14 nodes; 16 Explorer images generated, 1 reject (figure) regenerated clean
+2026-11-01 | place/kabul | devin | claimed
