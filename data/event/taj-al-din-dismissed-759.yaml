@@ -1,0 +1,28 @@
+id: event/taj-al-din-dismissed-759
+class: event
+kind: other
+label:
+  ar: "عزل تاج الدين السبكي أول مرة، شعبان ٧٥٩هـ"
+  en: "First dismissal of Taj al-Din al-Subki, Sha'ban 759"
+  ur: "تاج الدین سبکی کی پہلی معزولی، شعبان 759ھ"
+summary:
+  ar: "عُزل تاج الدين السبكي عن قضاء الشافعية بدمشق في شعبان سنة ٧٥٩هـ، ووُلي مكانه أخوه بهاء الدين أبو البقاء السبكي {cite:durar-kamina-jil-1993 2/425}."
+  en: "In Sha'ban 759 Taj al-Din al-Subki was dismissed from the Shafi'i judgeship of Damascus, and his brother Baha' al-Din Abu al-Baqa' al-Subki was appointed in his place {cite:durar-kamina-jil-1993 2/425}."
+  ur: "شعبان 759ھ میں تاج الدین سبکی کو دمشق کے قضائے شافعیہ سے معزول کیا گیا اور ان کے بھائی بہاء الدین ابو البقاء سبکی متعین ہوئے {cite:durar-kamina-jil-1993 2/425}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1358-07~", hijri: "0759-08", calendar: julian, precision: month, status: historical, derived: true, note: "عُزل في شعبان سنة ٧٥٩هـ وولي أبو البقاء {cite:durar-kamina-jil-1993 2/425}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "القاضي المعزول", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/baha-al-din-abu-al-baqa-al-subki, role: "القاضي الجديد", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar al-Asqalani, al-Durar al-Kamina (Haidarabad/Jil 1993 print), vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
