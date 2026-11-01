@@ -1,0 +1,28 @@
+id: event/aqsa-umayyad-completion
+class: event
+kind: founding
+label:
+  ar: "بناء المسجد الأقصى الأموي وإتمامه في خلافة الوليد الأول"
+  en: "The Umayyad al-Aqsa mosque completed under al-Walid I"
+  ur: "اموی مسجدِ اقصیٰ، ولید اول کے عہد میں تکمیل کو پہنچی"
+summary:
+  ar: "قام مسجد القدس الأموي على طراز المساجد الكبار: أروقة كثيرة عمودية على القبلة ورواق وسط أوسع على محور قبة الصخرة، وأعاد استخدام حجارة أقدم، وبُني من جديد أو أُكمل بناؤه في خلافة الوليد بن عبد الملك {cite:encyclopaedia-of-islam-2 vol. 6 p. 734}، وكان عبد الملك قد بنى على الأساس الأول كما يصف المقدسي {cite:ahsan-al-taqasim p. 143-144}، وكان جامع المدينة ومغطّى الحرم كله."
+  en: "The Umayyad mosque of Jerusalem was a hypostyle building: many aisles perpendicular to the qibla with a wider central nave on the axis of the Dome of the Rock, reusing earlier materials, and it was either built from scratch or completed under the caliph al-Walid I {cite:encyclopaedia-of-islam-2 vol. 6 p. 734}; Abd al-Malik had built on the earlier foundation, as al-Muqaddasi reports {cite:ahsan-al-taqasim p. 143-144}. It served as the city's congregational mosque and as the roofed part of the whole Haram."
+  ur: "بیت المقدس کی اموی مسجد ستونوں والی بڑی مسجدوں کی طرز پر بنی: قبلہ کے عرض میں کئی رواق اور وسط میں گنبدِ صخرہ کے محور پر ایک چوڑا راستہ؛ پرانا تعمیراتی سامان دوبارہ استعمال ہوا اور مسجد یا تو نئے سرے سے بنائی گئی یا ولید بن عبدالملک کے عہد میں مکمل ہوئی {cite:encyclopaedia-of-islam-2 vol. 6 p. 734}؛ مقدسی کے مطابق عبدالملک نے پہلی بنیاد پر تعمیر کی {cite:ahsan-al-taqasim p. 143-144}۔ یہ شہر کی جامع مسجد اور پورے حرم کا چھتا ہوا حصہ تھی۔"
+wings: [time]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0715~", hijri: "0096~", calendar: julian, precision: year, status: tradition, derived: true, note: "بُني أو أُكمل في خلافة الوليد الأول (86–96هـ/705–715م) {cite:encyclopaedia-of-islam-2 vol. 6 p. 734}؛ اتخذ آخر سنة من خلافته تقريباً والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "أُكمل البناء في خلافته", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "بنى على الأساس الأول", sources: [source/ahsan-al-taqasim] }
+sources: [source/encyclopaedia-of-islam-2, source/ahsan-al-taqasim]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 6, art. 'al-Masdjid al-Aksa' (O. Grabar), PDF p. 734, Apple Vision OCR (books/encyclopaedia-of-islam-2); Ahsan al-Taqasim p. 143-144"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-aqsa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
