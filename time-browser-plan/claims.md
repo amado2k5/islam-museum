@@ -187,3 +187,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/ibn-al-jawzi | devin | claimed
 
 2026-11-01 | person/ibn-al-jawzi | devin | done — 10 nodes, journey (born Baghdad 510 → Muktafi career 530 → Nahrawani madrasas 556 → Abbasid khutba Egypt 567 wired → Ashura sermon 568 → zenith 574 → Wasit exile 590 → release 595 → death 597); 6 new events from EI2 vol. 3 pp. 783-784; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-ibn-al-jawzi.json
+2026-11-01 | person/al-suyuti | devin | claimed
