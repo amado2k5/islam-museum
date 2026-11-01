@@ -1,0 +1,38 @@
+id: work/al-hoquq
+class: work
+kind: lecture-series
+label:
+  ar: "الحقوق (سلسلة خطب)"
+  en: "Al-Huquq: Rights (sermon series)"
+  ur: "الحقوق (خطبات کا سلسلہ)"
+summary:
+  ar: "سلسلة من خمس حلقات لعمر عبد الكافي في أرشيف أسابيل، ألقاها في جُمَع متتالية عن الحقوق: حقوق الزوجين، وحق المسلم على أخيه، وحقوق الوالدين، وحقوق الأبناء."
+  en: "A five-episode series by Omar Abdelkafy on the Assabile archive, given on successive Fridays, on rights: the rights of husband and wife, the right of a Muslim over his brother, the rights of parents, and the rights of children."
+  ur: "اسابیل آرکائیو میں عمر عبد الکافی کا پانچ اقساط کا سلسلہ، جو انہوں نے لگاتار جمعوں میں حقوق پر دیا: میاں بیوی کے حقوق، مسلمان کا اپنے بھائی پر حق، والدین کے حقوق اور اولاد کے حقوق۔"
+wings: [ideas]
+themes: [education]
+regions: [global]
+authors: [person/omar-abdelkafy]
+delivered: { by: person/omar-abdelkafy }
+language: language/arabic
+relations:
+  - { type: about, target: concept/huquq-al-zawjayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/rahma, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-muasharah-bil-maruf, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/adab-al-akl, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/huquq-al-muslim-ala-akhihi, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/greeting-salam, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hasad, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ihtikar, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/huquq-al-walidayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/uquq-al-walidayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/birr-al-walidayn, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/huquq-al-abna, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tasmiya-naming, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/aqiqa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/tahnik, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: practice/hifz-al-quran, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hudud-penalties, sources: [source/assabile-omar-abdelkafy] }
+sources: [source/assabile-omar-abdelkafy]
+provenance: { layer: copyrighted-reference, source: "Assabile, al-hoquq (archive series index; transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); topic list from the museum records citing the series", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: omar-abdelkafy-explorer-backfill-1 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run omar-abdelkafy-explorer-backfill-1" }
