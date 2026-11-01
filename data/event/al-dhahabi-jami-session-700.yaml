@@ -1,0 +1,27 @@
+id: event/al-dhahabi-jami-session-700
+class: event
+kind: other
+label:
+  ar: "الذهبي يتصدّر لحلقة الإقراء بالجامع الأموي، المحرم ٧٠٠هـ"
+  en: "Al-Dhahabi heads a reading session at the Umayyad Mosque, Muharram 700/1300"
+  ur: "ذہبی جامع اموی میں قراءت کے حلقے کے سربراہ، محرم 700ھ/1300ء"
+summary:
+  ar: "أول ما ولي الذهبي تصدير حلقةٍ قرأ بجامع دمشق في أول رواق زكريا، عوضاً عن شمس الدين المرّاقي الضرير المقرئ، في المحرم سنة ٧٠٠هـ، وذلك بعد رجوعه من رحلته إلى مصر بقليل {cite:durar-kamina-jil-1993 3/338}."
+  en: "The first session whose headship al-Dhahabi assumed was a reading circle in the Great Umayyad Mosque of Damascus, in the first gallery of Zakariyya, in place of the blind reciter Shams al-Din al-Marraqi, in Muharram 700, shortly after his return from his Egyptian journey {cite:durar-kamina-jil-1993 3/338}."
+  ur: "ذہبی نے پہلی بار جو حلقے کی صدارت سنبھالی وہ جامع دمشق میں رواقِ زکریا کے پہلے حصے میں قراءت کا حلقہ تھا، نابینا مقری شمس الدین مرّاقی کی جگہ، محرم 700ھ میں، اپنے مصری سفر سے واپسی کے کچھ ہی عرصے بعد {cite:durar-kamina-jil-1993 3/338}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1300-08~", hijri: "0700-01", calendar: julian, precision: month, status: tradition, derived: true, note: "المحرم سنة ٧٠٠هـ {cite:durar-kamina-jil-1993 3/338}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/al-dhahabi, role: "المصدّر للحلقة", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "durar-kamina-jil-1993 vol. 3 p. 338 (Apple Vision OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

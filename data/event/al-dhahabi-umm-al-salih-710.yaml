@@ -1,0 +1,27 @@
+id: event/al-dhahabi-umm-al-salih-710
+class: event
+kind: other
+label:
+  ar: "الذهبي مدرّس الحديث بتربة أم الصالح والمدرسة النفيسية، حوالي ٧١٠هـ"
+  en: "Al-Dhahabi, professor of hadith at Umm al-Salih and al-Nafisiyya, c. 710/1310"
+  ur: "ذہبی، مدرسِ حدیث در تربہ ام الصالح و مدرسہ نفیسہ، تقریباً 710ھ/1310ء"
+summary:
+  ar: "ولي الذهبي تدريس الحديث بتربة أم الصالح بدمشق وبالمدرسة النفيسية {cite:durar-kamina-jil-1993 3/337}، وذلك بعد حصوله على الإجازة بالتدريس من أبي زكريا بن الصيرفي وابن أبي الخير والقاسم الإربلي وغيرهم؛ ولم يتمكن من الخلف على شيخه المزي في مدرسة الأشرفية بدمشق لاشتراط واقفها مذهباً معيناً لمدرّس الحديث {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}."
+  en: "Al-Dhahabi held the professorship of hadith at the turba Umm al-Salih in Damascus and at the al-Nafisiyya madrasa {cite:durar-kamina-jil-1993 3/337}, having received his licence to teach from Abu Zakariyya ibn al-Sayrafi, Ibn Abi al-Khayr, al-Qasim al-Irbili and others. He was unable to succeed his teacher al-Mizzi at the al-Ashrafiyya madrasa in Damascus because its founder had stipulated a particular law school for the professor of tradition {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}."
+  ur: "ذہبی دمشق میں تربہ ام الصالح اور مدرسہ نفیسہ میں مدرسِ حدیث مقرر ہوئے {cite:durar-kamina-jil-1993 3/337}، اس سے پہلے انھیں ابو زکریا بن الصیرفی، ابن ابی الخیر، قاسم اربلی وغیرہ سے تدریس کی اجازت مل چکی تھی۔ اپنے استاد مزی کی مدرسہ اشرفیہ دمشق میں جانیشینی انھیں نہ مل سکی کیونکہ واقف نے مدرسِ حدیث کے لیے ایک خاص فقھی مذہب کی شرط رکھی تھی {cite:encyclopaedia-of-islam-2 vol. 2 p. 215}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1310~", hijri: "0710~", calendar: julian, precision: decade, status: tradition, derived: true, note: "تاريخ غير مصرّح به في المصدر؛ وضع تقريباً في العقد الأول من القرن الثامن بعد تصديره بالجامع سنة ٧٠٠هـ.", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-dhahabi, role: "مدرّس الحديث", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "durar-kamina-jil-1993 vol. 3 p. 337; Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed p. 215"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
