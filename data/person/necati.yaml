@@ -1,0 +1,66 @@
+id: person/necati
+class: person
+
+label: { ar: "عيسى نجاتي", en: "İsa Necati", ur: "عيسى نجاتي" }
+
+names:
+  - { value: "İsa Necati", kind: full }
+  - { value: "عيسى نجاتي", kind: full }
+  - { value: "Necati", kind: pen }
+  - { value: "Nuh", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "عيسى نجاتي (ت. 1509)، المعروف بنجاتي بك، أول شاعر غنائي عظيم في الأدب التركي العثماني. وُلد عبدًا في أدرنة في أربعينيات القرن الخامس عشر على الأرجح، وتبنّته امرأة أدرنية مسنّة، فتعلّم الخط والشعر، ثم صار كاتبًا في ديوان محمد الثاني، وخدم الأميرين عبد الله ومحمود كاتبًا ونيشانجيًا، واعتزل بعد موت الأمير محمود في منزله بحي وفا بإسطنبول حتى مات سنة 1509. لم يبقَ من آثاره إلا ديوانه، وهو عند معاصريه ومن بعدهم من أئمة الغزل التركي."
+  en: "İsa Necati (d. 1509), known as Necati Bey, the first great lyric poet of Ottoman Turkish literature. Born into slavery at Edirne, probably in the 1440s, and adopted by an elderly woman of the city, he taught himself calligraphy and poetry, became a secretary in Mehmed II's divan, served Princes Abdullah and Mahmud as katib and nişancı, and after Mahmud's death retired to his house in Istanbul's Vefa quarter, where he died in 1509. Only his Divan survives, and contemporaries and later tezkire writers alike rank him among the masters of the Turkish ghazel."
+  ur: "عيسى نجاتي (وفات 1509ء)، معروف بہ نجاتي بے، عثمانی ترک ادب کے پہلے عظیم غنائی شاعر۔ غالباً 1440ء کی دہائی میں ادرنہ میں غلام پیدا ہوئے اور ایک بزرگ خاتون نے انھیں گود لیا؛ خطاطی اور شاعری خود سیکھی، محمد ثانی کے دیوان میں کاتب بنے، شہزادہ عبد اللہ اور شہزادہ محمود کی خدمت میں کاتب اور نشانچی رہے، اور محمود کی وفات کے بعد استنبول کے وفا محلے میں گوشہ نشین ہو کر 1509ء میں وفات پائی۔ ان کا صرف دیوان باقی ہے۔"
+
+roles: [poet]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1444~"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "His birth is an estimate, not a recorded date. The TDV İslâm Ansiklopedisi entry (Kaya) places it at Edirne in the first reign years of Mehmed II, 1444–1446, and the English and Arabic articles likewise say he was born a slave at Edirne; Wikidata gives the single year 1444, the opening year of that estimate. The Turkish article dissents on both points: it says his birth date is unknown and his birthplace is thought to be Kastamonu — the city the other sources have him move to in his youth. No source read pairs a Hijri year with the birth (1444 CE spans 848–849 AH), so the hijri field is omitted."
+  sources: [source/tdv-necati-bey, source/wikipedia-necati-en, source/wikipedia-necati-ar, source/wikipedia-necati-tr, source/wikidata-necati]
+
+died:
+  edtf: "1509-03-17"
+  hijri: "0914"
+  calendar: julian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Constantinople on 25 Zilkade 914 / 17 March 1509: the TDV entry gives the Hijri date with its conversion and the tomb chronogram composed by his pupil Sehî Bey; the English and Arabic articles and Wikidata agree on 17 March 1509. The Turkish article cautions that even the year 1509 is not certain."
+  sources: [source/tdv-necati-bey, source/wikipedia-necati-en, source/wikipedia-necati-ar, source/wikidata-necati]
+
+relations:
+  - { type: born_in, target: place/edirne, sources: [source/tdv-necati-bey, source/wikipedia-necati-en] }
+  - { type: died_in, target: place/istanbul, sources: [source/tdv-necati-bey, source/wikipedia-necati-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school for Necati, and none is recorded. His documented practice is stated in full: taken as a slave child and adopted at Edirne (the English article notes that his names İsa and Necati indicate a non-Muslim and non-Turkish ancestry, which the contemporary tezkire writers do not mention), he made his career as a Muslim court poet under Mehmed II and Bayezid II, and his Divan — arranged for his patron Müeyyedzâde Abdurrahman Çelebi — opens with tevhid, na't and mi'raciye poems (TDV entry). Court service and devotional poetry attest practice, not a school. Wikidata carries no religion value."
+    sources: [source/tdv-necati-bey, source/wikipedia-necati-en, source/wikidata-necati]
+
+external_ids: { wikidata: "Q6072430" }
+
+sources:
+  - source/wikipedia-necati-en
+  - source/wikipedia-necati-tr
+  - source/wikipedia-necati-ar
+  - source/tdv-necati-bey
+  - source/wikidata-necati
+
+provenance:
+  layer: own-research
+  source: "English, Turkish and Arabic Wikipedia articles on İsa Necati, the TDV İslâm Ansiklopedisi entry NECÂTÎ BEY by Bayram Ali Kaya (vol. 32, 2006), and Wikidata Q6072430, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). The QID was grounded from the Turkish article's own page property: the English title 'Necati' belongs to the given-name item Q20470230, and the poet's item is the one behind the Turkish, Arabic, Russian and English 'İsa Necati' articles. Edirne and Istanbul have place entities, so the born_in and died_in edges are written; Kastamonu has none and is in any case contested as a birthplace. His pupil Sehî Bey has no record in the museum, so that link is prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-154G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

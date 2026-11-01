@@ -1727,11 +1727,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Khondamir — 1475–1535
 - [x] Ulubatlı Hasan — 1428–1453
 - [x] Akşemseddin — 1389–1459
-- [ ] Molla Hüsrev — 1400–1480
-- [ ] Necati — 1450–1509
-- [ ] Şeyhi — 1376–1431
-- [ ] Ahmed Pasha (the poet) — 1426–1497
-- [ ] Mahmud Shah Sharqi — 1420–1458
+- [x] Molla Hüsrev — 1400–1480
+- [x] Necati — 1450–1509
+- [x] Şeyhi — 1376–1431
+- [x] Ahmed Pasha (the poet) — 1426–1497
+- [x] Mahmud Shah Sharqi — 1420–1458
 - [ ] Hussain Shah Sharqi — 1440–1505
 - [ ] Sultan Zain-ul-Abidin — 1420–1470
 - [ ] Rustam Beg — 1465–1497
