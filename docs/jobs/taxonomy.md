@@ -1,6 +1,6 @@
 # Job Browser: taxonomy with holder counts (Phase 0 census, 1 November 2026)
 
-Generated from [`taxonomy.yaml`](taxonomy.yaml) against `data/person/` on `origin/main` at `cc4ec8eeec`, rerun after the crafts amendment of the same day. Do not hand-edit this table; Phase 1 adds `scripts/report/jobs-census.ts` to regenerate it, and until then the census script in the master plan's section 2 is the method.
+Generated from [`taxonomy.yaml`](taxonomy.yaml) against `data/person/` on `origin/main` at `cc4ec8eeec`, rerun after the crafts amendment and the first-ten swap (faqih for copyist, founder's decision) of the same day. Do not hand-edit this table; Phase 1 adds `scripts/report/jobs-census.ts` to regenerate it, and until then the census script in the master plan's section 2 is the method.
 
 - **Holders from roles**: persons whose `roles:` list contains a string the merge map sends to this job. One person can count under several jobs.
 - **Prose leads**: persons *not* counted as holders whose Arabic summary or Arabic prose contains one of the job's Arabic stems (`ar_keys`). A nisba such as الحدّاد or الصائغ is also a surname, so a lead is a record to read, never a holder. Leads are what the Phase 3 sweep opens first.
@@ -10,16 +10,16 @@ Generated from [`taxonomy.yaml`](taxonomy.yaml) against `data/person/` on `origi
 
 | Domain | Jobs | Of them crafts | Holders from roles |
 |---|---:|---:|---:|
-| Governance & Law (`governance-law`) | 23 | 0 | 2856 |
-| Court & Administration (`court-administration`) | 10 | 0 | 183 |
-| Scholarship & Teaching (`scholarship-teaching`) | 15 | 0 | 4079 |
+| Governance & Law (`governance-law`) | 23 | 0 | 2863 |
+| Court & Administration (`court-administration`) | 10 | 0 | 186 |
+| Scholarship & Teaching (`scholarship-teaching`) | 15 | 0 | 4083 |
 | Faith & Preaching (`faith-preaching`) | 10 | 0 | 265 |
 | Medicine & Care (`medicine-care`) | 10 | 1 | 102 |
-| Sciences & Numbers (`sciences-numbers`) | 11 | 1 | 131 |
-| Arts & Letters (`arts-letters`) | 14 | 8 | 2066 |
-| Crafts, Building & Making (`building-making`) | 39 | 38 | 11 |
-| Trade, Travel & the Sea (`trade-travel-sea`) | 16 | 5 | 75 |
-| War & Command (`war-command`) | 7 | 0 | 260 |
+| Sciences & Numbers (`sciences-numbers`) | 11 | 1 | 132 |
+| Arts & Letters (`arts-letters`) | 14 | 8 | 2070 |
+| Crafts, Building & Making (`building-making`) | 39 | 38 | 12 |
+| Trade, Travel & the Sea (`trade-travel-sea`) | 16 | 5 | 85 |
+| War & Command (`war-command`) | 7 | 0 | 265 |
 | Media & Performance (`media-performance`) | 12 | 0 | 340 |
 | Sport (`sport`) | 6 | 0 | 238 |
 | Patronage & Public Life (`patronage-public-life`) | 4 | 0 | 210 |
@@ -34,15 +34,15 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | Job | pre-islamic-arabia | prophetic-era | rashidun | umayyad | abbasid-early | abbasid-fragmentation | buyid-seljuk-fatimid-era | crusades-ayyubid-mamluk | mongol-post-mongol | gunpowder-empires | colonial-era | modern-era | contemporary-era | none |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Qadi (judge) | 0 | 0 | 0 | 2 | 15 | 7 | 21 | 18 | 17 | 26 | 0 | 1 | 0 | 17 |
-| Vizier | 0 | 0 | 0 | 0 | 5 | 4 | 26 | 30 | 13 | 31 | 10 | 3 | 0 | 13 |
+| Jurist (faqih) | 0 | 5 | 0 | 16 | 48 | 27 | 126 | 84 | 164 | 99 | 6 | 10 | 10 | 205 |
+| Vizier | 0 | 0 | 0 | 0 | 5 | 4 | 26 | 30 | 13 | 31 | 10 | 3 | 0 | 16 |
 | Hadith scholar (muhaddith) | 0 | 8 | 0 | 23 | 69 | 8 | 20 | 66 | 15 | 14 | 3 | 0 | 12 | 14 |
-| Teacher (mu'allim / mudarris) | 0 | 0 | 1 | 1 | 2 | 2 | 37 | 18 | 27 | 25 | 1 | 1 | 2 | 215 |
+| Teacher (mu'allim / mudarris) | 0 | 0 | 1 | 1 | 2 | 2 | 37 | 18 | 27 | 25 | 1 | 1 | 2 | 216 |
 | Physician (tabib) | 0 | 1 | 0 | 0 | 2 | 4 | 6 | 16 | 9 | 7 | 0 | 1 | 0 | 53 |
 | Astronomer | 0 | 0 | 0 | 0 | 3 | 3 | 9 | 3 | 6 | 1 | 1 | 0 | 0 | 9 |
-| Calligrapher (khattat) | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 16 | 8 | 52 | 8 | 15 | 2 | 6 |
-| Copyist (warraq / nasikh) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Architect (mi'mar) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 | 0 | 0 | 0 | 4 |
-| Merchant (tajir) | 0 | 6 | 0 | 0 | 1 | 0 | 3 | 1 | 4 | 1 | 0 | 0 | 0 | 36 |
+| Calligrapher (khattat) | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 16 | 8 | 52 | 8 | 15 | 2 | 7 |
+| Architect (mi'mar) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 6 | 0 | 0 | 0 | 5 |
+| Merchant (tajir) | 0 | 6 | 0 | 0 | 1 | 0 | 3 | 1 | 4 | 1 | 0 | 0 | 0 | 46 |
 
 ## Jobs
 
@@ -54,44 +54,44 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/emir` Emir (الأمير) | governance-law | office |  | 120 | 0 |
 | `job/king` King (الملك) | governance-law | office |  | 2 | 0 |
 | `job/khan` Khan (الخان) | governance-law | office |  | 3 | 0 |
-| `job/shah` Shah (الشاه) | governance-law | office |  | 0 | 72 |
-| `job/wali` Governor (wali) (الوالي) | governance-law | office |  | 22 | 402 |
+| `job/shah` Shah (الشاه) | governance-law | office |  | 0 | 74 |
+| `job/wali` Governor (wali) (الوالي) | governance-law | office |  | 26 | 408 |
 | `job/regent` Regent (الوصي على العرش) | governance-law | office |  | 10 | 0 |
 | `job/tribal-chief` Tribal chief (سيد القبيلة) | governance-law | office |  | 31 | 8 |
 | `job/hakam` Arbiter (hakam) (الحَكَم) | governance-law | office |  | 1 | 25 |
-| `job/qadi` Qadi (judge) (القاضي) **[first 10]** | governance-law | office |  | 124 | 674 |
+| `job/qadi` Qadi (judge) (القاضي) **[first 10]** | governance-law | office |  | 124 | 676 |
 | `job/qadi-al-qudat` Chief judge (qadi al-qudat) (قاضي القضاة) | governance-law | office |  | 0 | 66 |
 | `job/kazasker` Kazasker (chief military judge) (قاضي العسكر) | governance-law | office |  | 1 | 16 |
 | `job/mufti` Mufti (المفتي) | governance-law | religious |  | 21 | 184 |
 | `job/shaykh-al-islam` Shaykh al-Islam (شيخ الإسلام) | governance-law | office |  | 7 | 89 |
 | `job/muhtasib` Muhtasib (market inspector) (المحتسب) | governance-law | office |  | 0 | 22 |
 | `job/sahib-al-shurta` Chief of police (sahib al-shurta) (صاحب الشرطة) | governance-law | office |  | 0 | 72 |
-| `job/faqih` Jurist (faqih) (الفقيه) | governance-law | scholarly |  | 800 | 216 |
+| `job/faqih` Jurist (faqih) (الفقيه) **[first 10]** | governance-law | scholarly |  | 800 | 217 |
 | `job/notary-witness` Notary witness (shahid adl) (الشاهد العدل) | governance-law | office |  | 0 | 8 |
 | `job/lawyer` Lawyer (المحامي) | governance-law | modern-profession |  | 27 | 29 |
 | `job/diplomat` Diplomat / envoy (السفير) | governance-law | office |  | 34 | 35 |
-| `job/politician` Politician (السياسي) | governance-law | modern-profession |  | 606 | 187 |
-| `job/vizier` Vizier (الوزير) **[first 10]** | court-administration | office |  | 135 | 268 |
-| `job/grand-vizier` Grand vizier (الصدر الأعظم) | court-administration | office |  | 16 | 136 |
+| `job/politician` Politician (السياسي) | governance-law | modern-profession |  | 609 | 187 |
+| `job/vizier` Vizier (الوزير) **[first 10]** | court-administration | office |  | 138 | 269 |
+| `job/grand-vizier` Grand vizier (الصدر الأعظم) | court-administration | office |  | 16 | 137 |
 | `job/katib` Chancery secretary (katib) (الكاتب) | court-administration | office |  | 6 | 45 |
 | `job/hajib` Chamberlain (hajib) (الحاجب) | court-administration | office |  | 0 | 67 |
 | `job/treasurer` Treasurer (صاحب بيت المال) | court-administration | office |  | 0 | 44 |
 | `job/amil` Tax collector (amil) (العامل) | court-administration | office |  | 0 | 64 |
 | `job/sahib-al-barid` Postmaster (sahib al-barid) (صاحب البريد) | court-administration | office |  | 0 | 35 |
 | `job/nazir-al-waqf` Waqf administrator (nazir) (ناظر الوقف) | court-administration | office |  | 0 | 12 |
-| `job/courtier` Courtier (nadim) (النديم) | court-administration | office |  | 3 | 369 |
-| `job/translator` Translator (المترجم) | court-administration | scholarly |  | 23 | 22 |
-| `job/alim` Religious scholar (alim) (العالم) | scholarship-teaching | scholarly |  | 3063 | 0 |
-| `job/muhaddith` Hadith scholar (muhaddith) (المحدّث) **[first 10]** | scholarship-teaching | scholarly |  | 252 | 851 |
+| `job/courtier` Courtier (nadim) (النديم) | court-administration | office |  | 3 | 373 |
+| `job/translator` Translator (المترجم) | court-administration | scholarly |  | 23 | 23 |
+| `job/alim` Religious scholar (alim) (العالم) | scholarship-teaching | scholarly |  | 3064 | 0 |
+| `job/muhaddith` Hadith scholar (muhaddith) (المحدّث) **[first 10]** | scholarship-teaching | scholarly |  | 252 | 852 |
 | `job/mufassir` Qur'an exegete (mufassir) (المفسّر) | scholarship-teaching | scholarly |  | 21 | 195 |
 | `job/mutakallim` Theologian (mutakallim) (المتكلّم) | scholarship-teaching | scholarly |  | 87 | 67 |
-| `job/philosopher` Philosopher (الفيلسوف) | scholarship-teaching | scholarly |  | 52 | 108 |
+| `job/philosopher` Philosopher (الفيلسوف) | scholarship-teaching | scholarly |  | 52 | 109 |
 | `job/grammarian` Grammarian (nahwi) (النحوي) | scholarship-teaching | scholarly |  | 31 | 231 |
 | `job/lexicographer` Lexicographer (صاحب المعجم) | scholarship-teaching | scholarly |  | 4 | 24 |
-| `job/historian` Historian (المؤرّخ) | scholarship-teaching | scholarly |  | 197 | 909 |
+| `job/historian` Historian (المؤرّخ) | scholarship-teaching | scholarly |  | 199 | 910 |
 | `job/nassab` Genealogist (nassab) (النسّاب) | scholarship-teaching | scholarly |  | 1 | 37 |
-| `job/teacher` Teacher (mu'allim / mudarris) (المدرّس) **[first 10]** | scholarship-teaching | scholarly |  | 332 | 638 |
-| `job/professor` University professor (الأستاذ الجامعي) | scholarship-teaching | modern-profession |  | 12 | 792 |
+| `job/teacher` Teacher (mu'allim / mudarris) (المدرّس) **[first 10]** | scholarship-teaching | scholarly |  | 333 | 642 |
+| `job/professor` University professor (الأستاذ الجامعي) | scholarship-teaching | modern-profession |  | 12 | 799 |
 | `job/librarian` Librarian (khazin al-kutub) (خازن الكتب) | scholarship-teaching | office |  | 0 | 9 |
 | `job/orientalist` Orientalist (المستشرق) | scholarship-teaching | modern-profession |  | 9 | 14 |
 | `job/social-scientist` Social scientist (عالم الاجتماع) | scholarship-teaching | modern-profession |  | 6 | 213 |
@@ -106,33 +106,33 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/sufi-shaykh` Sufi shaykh (murshid) (الشيخ المرشد) | faith-preaching | religious |  | 9 | 35 |
 | `job/sadin` Custodian of a sanctuary (sadin) (السادن) | faith-preaching | religious |  | 0 | 7 |
 | `job/monk-priest` Monk / priest (الراهب) | faith-preaching | religious |  | 1 | 647 |
-| `job/physician` Physician (tabib) (الطبيب) **[first 10]** | medicine-care | medical |  | 99 | 660 |
-| `job/surgeon` Surgeon (jarrah) (الجرّاح) | medicine-care | medical |  | 0 | 70 |
+| `job/physician` Physician (tabib) (الطبيب) **[first 10]** | medicine-care | medical |  | 99 | 663 |
+| `job/surgeon` Surgeon (jarrah) (الجرّاح) | medicine-care | medical |  | 0 | 71 |
 | `job/kahhal` Oculist (kahhal) (الكحّال) | medicine-care | medical |  | 0 | 3 |
-| `job/pharmacist` Pharmacist (saydalani) (الصيدلاني) | medicine-care | medical |  | 0 | 21 |
+| `job/pharmacist` Pharmacist (saydalani) (الصيدلاني) | medicine-care | medical |  | 0 | 22 |
 | `job/hajjam` Cupper (hajjam) (الحجّام) | medicine-care | medical | حِرفة | 0 | 4 |
 | `job/midwife` Midwife (qabila) (القابلة) | medicine-care | medical |  | 0 | 0 |
 | `job/wet-nurse` Wet-nurse (الظِّئر) | medicine-care | service |  | 1 | 15 |
 | `job/nurse` Nurse (الممرّض) | medicine-care | modern-profession |  | 1 | 101 |
 | `job/dentist` Dentist (طبيب الأسنان) | medicine-care | modern-profession |  | 1 | 10 |
 | `job/baytar` Veterinarian (baytar) (البيطار) | medicine-care | medical |  | 0 | 9 |
-| `job/astronomer` Astronomer (الفلكي) **[first 10]** | sciences-numbers | scholarly |  | 35 | 92 |
+| `job/astronomer` Astronomer (الفلكي) **[first 10]** | sciences-numbers | scholarly |  | 35 | 94 |
 | `job/astrologer` Astrologer (munajjim) (المنجّم) | sciences-numbers | scholarly |  | 0 | 39 |
 | `job/muwaqqit` Mosque timekeeper (muwaqqit) (الموقّت) | sciences-numbers | religious |  | 0 | 7 |
-| `job/mathematician` Mathematician (الرياضي) | sciences-numbers | scholarly |  | 29 | 241 |
-| `job/engineer` Engineer (muhandis) (المهندس) | sciences-numbers | scholarly |  | 30 | 40 |
-| `job/chemist` Alchemist / chemist (الكيميائي) | sciences-numbers | scholarly |  | 3 | 35 |
+| `job/mathematician` Mathematician (الرياضي) | sciences-numbers | scholarly |  | 29 | 245 |
+| `job/engineer` Engineer (muhandis) (المهندس) | sciences-numbers | scholarly |  | 31 | 40 |
+| `job/chemist` Alchemist / chemist (الكيميائي) | sciences-numbers | scholarly |  | 3 | 36 |
 | `job/physicist` Physicist (الفيزيائي) | sciences-numbers | modern-profession |  | 5 | 28 |
 | `job/life-scientist` Life scientist (عالم الأحياء) | sciences-numbers | modern-profession |  | 8 | 49 |
 | `job/geographer` Geographer (الجغرافي) | sciences-numbers | scholarly |  | 18 | 27 |
 | `job/cartographer` Cartographer (رسّام الخرائط) | sciences-numbers | craft | حِرفة | 1 | 10 |
 | `job/astronaut` Astronaut (رائد الفضاء) | sciences-numbers | modern-profession |  | 2 | 12 |
-| `job/poet` Poet (الشاعر) | arts-letters | artistic |  | 659 | 294 |
-| `job/rawi` Poetry transmitter (rawi) (الراوية) | arts-letters | artistic |  | 0 | 57 |
-| `job/adib` Man of letters (adib) (الأديب) | arts-letters | artistic |  | 8 | 516 |
-| `job/writer` Writer / author (الكاتب المؤلّف) | arts-letters | modern-profession |  | 1282 | 1189 |
-| `job/calligrapher` Calligrapher (khattat) (الخطّاط) **[first 10]** | arts-letters | craft | حِرفة | 109 | 13 |
-| `job/copyist` Copyist (warraq / nasikh) (الورّاق) **[first 10]** | arts-letters | craft | حِرفة | 0 | 74 |
+| `job/poet` Poet (الشاعر) | arts-letters | artistic |  | 660 | 298 |
+| `job/rawi` Poetry transmitter (rawi) (الراوية) | arts-letters | artistic |  | 0 | 58 |
+| `job/adib` Man of letters (adib) (الأديب) | arts-letters | artistic |  | 8 | 517 |
+| `job/writer` Writer / author (الكاتب المؤلّف) | arts-letters | modern-profession |  | 1284 | 1192 |
+| `job/calligrapher` Calligrapher (khattat) (الخطّاط) **[first 10]** | arts-letters | craft | حِرفة | 110 | 13 |
+| `job/copyist` Copyist (warraq / nasikh) (الورّاق) | arts-letters | craft | حِرفة | 0 | 74 |
 | `job/illuminator` Illuminator (mudhahhib) (المذهّب) | arts-letters | craft | حِرفة | 1 | 9 |
 | `job/musawwir` Painter (musawwir) (المصوّر) | arts-letters | craft | حِرفة | 2 | 45 |
 | `job/bookbinder` Bookbinder (mujallid) (المجلّد) | arts-letters | craft | حِرفة | 0 | 1 |
@@ -140,9 +140,9 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/visual-artist` Visual artist (الفنان التشكيلي) | arts-letters | modern-profession |  | 0 | 0 |
 | `job/photographer` Photographer (المصوّر الضوئي) | arts-letters | modern-profession |  | 5 | 0 |
 | `job/inkmaker` Inkmaker (صانع الحبر) | arts-letters | craft | حِرفة | 0 | 11 |
-| `job/engraver` Engraver / carver (naqqash) (النقّاش) | arts-letters | craft | حِرفة | 0 | 75 |
-| `job/architect` Architect (mi'mar) (المعمار) **[first 10]** | building-making | craft |  | 11 | 23 |
-| `job/builder` Builder / mason (banna) (البنّاء) | building-making | craft | حِرفة | 0 | 56 |
+| `job/engraver` Engraver / carver (naqqash) (النقّاش) | arts-letters | craft | حِرفة | 0 | 76 |
+| `job/architect` Architect (mi'mar) (المعمار) **[first 10]** | building-making | craft |  | 12 | 23 |
+| `job/builder` Builder / mason (banna) (البنّاء) | building-making | craft | حِرفة | 0 | 57 |
 | `job/carpenter` Carpenter (najjar) (النجّار) | building-making | craft | حِرفة | 0 | 68 |
 | `job/blacksmith` Blacksmith (haddad) (الحدّاد) | building-making | craft | حِرفة | 0 | 32 |
 | `job/goldsmith` Goldsmith (sa'igh) (الصائغ) | building-making | craft | حِرفة | 0 | 17 |
@@ -164,7 +164,7 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/zallij-maker` Zellij / tile mosaic maker (الزلّيجي) | building-making | craft | حِرفة | 0 | 4 |
 | `job/cobbler` Shoemaker / cobbler (iskafi / khaffaf) (الإسكافي) | building-making | craft | حِرفة | 0 | 15 |
 | `job/saddler` Saddler (sarraj) (السرّاج) | building-making | craft | حِرفة | 0 | 38 |
-| `job/embroiderer` Embroiderer / tiraz worker (الطرّاز) | building-making | craft | حِرفة | 0 | 20 |
+| `job/embroiderer` Embroiderer / tiraz worker (الطرّاز) | building-making | craft | حِرفة | 0 | 21 |
 | `job/felt-maker` Felt-maker (labbad) (اللبّاد) | building-making | craft | حِرفة | 0 | 2 |
 | `job/rope-maker` Rope-maker (habbal) (الحبّال) | building-making | craft | حِرفة | 0 | 0 |
 | `job/mat-maker` Mat and basket maker (hassar / khawwas) (الحصّار) | building-making | craft | حِرفة | 0 | 63 |
@@ -179,8 +179,8 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/launderer` Launderer / fuller (qassar) (القصّار) | building-making | service | حِرفة | 0 | 5 |
 | `job/bow-maker` Bowyer (qawwas) (القوّاس) | building-making | craft | حِرفة | 0 | 8 |
 | `job/luthier` Instrument maker (musical) (صانع العود) | building-making | craft | حِرفة | 0 | 0 |
-| `job/mint-worker` Mint worker / die-cutter (darrab / sakkak) (الضرّاب) | building-making | craft | حِرفة | 0 | 19 |
-| `job/merchant` Merchant (tajir) (التاجر) **[first 10]** | trade-travel-sea | commercial |  | 52 | 107 |
+| `job/mint-worker` Mint worker / die-cutter (darrab / sakkak) (الضرّاب) | building-making | craft | حِرفة | 0 | 20 |
+| `job/merchant` Merchant (tajir) (التاجر) **[first 10]** | trade-travel-sea | commercial |  | 62 | 107 |
 | `job/attar` Perfumer / druggist (attar) (العطّار) | trade-travel-sea | commercial | حِرفة | 0 | 29 |
 | `job/sarraf` Money-changer / banker (sarraf) (الصيرفي) | trade-travel-sea | commercial |  | 3 | 12 |
 | `job/dallal` Broker (dallal / simsar) (الدلّال) | trade-travel-sea | commercial |  | 0 | 5 |
@@ -194,9 +194,9 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/ship-captain` Ship captain (rubban / nakhuda) (الربّان) | trade-travel-sea | commercial |  | 1 | 12 |
 | `job/sailor` Sailor (bahhar) (البحّار) | trade-travel-sea | service |  | 0 | 43 |
 | `job/pearl-diver` Pearl diver (ghawwas) (الغوّاص) | trade-travel-sea | craft | حِرفة | 0 | 16 |
-| `job/traveller` Traveller (rahhala) (الرحّالة) | trade-travel-sea | scholarly |  | 17 | 107 |
+| `job/traveller` Traveller (rahhala) (الرحّالة) | trade-travel-sea | scholarly |  | 17 | 108 |
 | `job/porter` Porter (hammal) (الحمّال) | trade-travel-sea | service |  | 0 | 5 |
-| `job/commander` Military commander (qa'id) (القائد) | war-command | military |  | 243 | 116 |
+| `job/commander` Military commander (qa'id) (القائد) | war-command | military |  | 248 | 116 |
 | `job/soldier` Soldier / warrior (الجندي) | war-command | military |  | 12 | 69 |
 | `job/admiral` Admiral (amir al-bahr / kapudan) (أمير البحر) | war-command | military |  | 3 | 37 |
 | `job/corsair` Corsair (sea ghazi) (الغازي البحري) | war-command | military |  | 2 | 2 |
@@ -211,24 +211,24 @@ The Timeline Explorer's periods, left to right. "none" is a holder with no `peri
 | `job/comedian` Comedian (الكوميدي) | media-performance | modern-profession |  | 9 | 5 |
 | `job/hakawati` Storyteller (hakawati) (الحكواتي) | media-performance | artistic |  | 0 | 4 |
 | `job/film-director` Film director (المخرج) | media-performance | modern-profession |  | 21 | 8 |
-| `job/producer` Producer (المنتج) | media-performance | modern-profession |  | 25 | 20 |
+| `job/producer` Producer (المنتج) | media-performance | modern-profession |  | 25 | 21 |
 | `job/screenwriter` Screenwriter (كاتب السيناريو) | media-performance | modern-profession |  | 9 | 3 |
 | `job/journalist` Journalist / editor (الصحفي) | media-performance | modern-profession |  | 57 | 133 |
 | `job/presenter` Broadcaster / presenter (المذيع) | media-performance | modern-profession |  | 30 | 44 |
-| `job/athlete` Athlete (الرياضي) | sport | modern-profession |  | 228 | 88 |
+| `job/athlete` Athlete (الرياضي) | sport | modern-profession |  | 228 | 89 |
 | `job/wrestler` Wrestler (pehlivan) (المصارع) | sport | artistic |  | 4 | 22 |
 | `job/archer` Archer (rami) (الرامي) | sport | military |  | 1 | 14 |
 | `job/horseman` Horseman (faris / furusiyya) (الفارس) | sport | military |  | 0 | 21 |
 | `job/coach` Coach (المدرّب) | sport | modern-profession |  | 2 | 28 |
 | `job/sports-administrator` Sports administrator (الإداري الرياضي) | sport | modern-profession |  | 3 | 1 |
-| `job/patron` Patron (الراعي) | patronage-public-life | office |  | 20 | 30 |
+| `job/patron` Patron (الراعي) | patronage-public-life | office |  | 20 | 33 |
 | `job/waqif` Waqf founder (waqif) (الواقف) | patronage-public-life | office |  | 0 | 56 |
-| `job/philanthropist` Philanthropist (المحسن) | patronage-public-life | modern-profession |  | 12 | 66 |
+| `job/philanthropist` Philanthropist (المحسن) | patronage-public-life | modern-profession |  | 12 | 70 |
 | `job/activist` Activist (الناشط) | patronage-public-life | modern-profession |  | 178 | 19 |
-| `job/farmer` Farmer (fallah) (الفلاح) | land-water | craft |  | 1 | 77 |
+| `job/farmer` Farmer (fallah) (الفلاح) | land-water | craft |  | 1 | 78 |
 | `job/herder` Herder (ra'i) (الراعي للماشية) | land-water | craft |  | 0 | 7 |
 | `job/gardener` Gardener (bustani) (البستاني) | land-water | craft |  | 0 | 14 |
-| `job/muqanni` Qanat digger / water master (muqanni) (المقنّي) | land-water | craft |  | 0 | 552 |
-| `job/fisherman` Fisherman / hunter (sayyad) (الصيّاد) | land-water | craft |  | 0 | 41 |
+| `job/muqanni` Qanat digger / water master (muqanni) (المقنّي) | land-water | craft |  | 0 | 554 |
+| `job/fisherman` Fisherman / hunter (sayyad) (الصيّاد) | land-water | craft |  | 0 | 42 |
 | `job/falconer` Falconer (bayzar) (البيزار) | land-water | craft |  | 0 | 3 |
 | `job/camel-driver` Camel driver (jammal) (الجمّال) | land-water | service |  | 0 | 57 |
