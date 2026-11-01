@@ -227,3 +227,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-bukhari | devin | claimed
 
 2026-11-01 | person/al-bukhari | devin | done — 10 nodes, journey (born Bukhara Shawwal 194/810 → first hearing 205/820 → hajj & Hijaz stay 210/825 → composes the Tarikh at the Prophet tomb ~212/828 → foremost of Nishapur 247/861 → al-Dhuhli ordeal & departure ~250/864 → expelled from Bukhara, settles at Khartank Ramadan 256 → death at Khartank, festival night 1 Shawwal 256/31 Aug 870); 8 new events + place/khartank + grave-istisqa 464 event from EI2 vol. 1 PDF pp. 1360-1361 + tabaqat-shafiiyya-subki j.2 pp. 2-15; person record rewritten (born/died, ur, born_in/died_in, 8 participated_in, published); GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-bukhari.json (10 nodes need images)
+2026-11-01 | person/muslim-ibn-al-hajjaj | devin | claimed
