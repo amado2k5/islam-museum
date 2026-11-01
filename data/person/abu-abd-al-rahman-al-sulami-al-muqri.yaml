@@ -1,0 +1,27 @@
+id: person/abu-abd-al-rahman-al-sulami-al-muqri
+class: person
+label:
+  ar: "أبو عبد الرحمن السلمي (المقرئ الكوفي)"
+  en: "Abu Abd al-Rahman al-Sulami (the Kufan Qur'an reader)"
+  ur: "ابو عبد الرحمن السلمی (کوفی قاری)"
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن حبيب السلمي" }
+  - { kind: full, lang: ar-Latn, value: "Abd Allah ibn Habib al-Sulami" }
+gender: male
+roles: [teacher, scholar]
+summary:
+  ar: "عبد الله بن حبيب، أبو عبد الرحمن السلمي، من كبار قرّاء الكوفة: قرأ على عثمان وابن مسعود وعلي، وأخذ عنه عاصم بن بهدلة، وأقرأ أربعين سنة من زمن عثمان إلى زمن الحجاج بحسب أبي إسحاق الحويني؛ وهو غير الصوفي النيسابوري الذي يحمل الكنية نفسها."
+  en: "Abd Allah ibn Habib, Abu Abd al-Rahman al-Sulami, one of the great Qur'an readers of Kufa: he read with Uthman, Ibn Mas'ud and Ali, Asim ibn Bahdala took the reading from him, and he taught for forty years, from Uthman's time to al-Hajjaj's, according to Abu Ishaq al-Heweny; not to be confused with the later Sufi of Nishapur who bears the same kunya."
+  ur: "عبد اللہ بن حبیب، ابو عبد الرحمن السلمی، کوفہ کے بڑے قاریوں میں سے: انہوں نے عثمان، ابن مسعود اور علی سے پڑھا، عاصم بن بہدلہ نے ان سے قراءت لی، اور ابو اسحاق حوینی کے مطابق وہ عثمان کے زمانے سے حجاج کے زمانے تک چالیس سال پڑھاتے رہے؛ یہ نیشاپور کے بعد کے صوفی سے الگ ہیں جو اسی کنیت کے حامل ہیں۔"
+wings: [people]
+themes: [scripture-and-its-sciences, education]
+periods: [period/rashidun, period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: student_of, target: person/uthman-ibn-affan, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: student_of, target: person/ali-ibn-abi-talib, sources: [source/assabile-abu-ishaq-alheweny, source/fihrist-ibn-al-nadim] }
+sources: [source/assabile-abu-ishaq-alheweny, source/fihrist-ibn-al-nadim]
+provenance: { layer: copyrighted-reference, source: "Assabile, madrassat-al-hayat ep01-ep12 (speaker page https://www.assabile.com/abu-ishaq-alheweny read 1 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader); Ibn al-Nadim, al-Fihrist p. 74 (as cited on person/asim-ibn-bahdala)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-heweny-1 }
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-heweny-1" }
