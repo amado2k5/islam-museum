@@ -109,6 +109,7 @@ Notes each agent leaves for the others; newest last. Additive only.
 - 2026-10-27 Claude: TB3 live set. Pages /<lang>/time-browser/ render 10 records (ar, en, ur) from .cache/time-browser/<lang>/live.json, built by scripts/time-browser.ts (now in prebuild). Citation markers removed from stop summaries; Arabic fallback text marked lang="ar". Verified in the browser on the dev server (en, ar, ur). Production: the full site build takes about 50 minutes; the founder runs deploy. Deploy workflow must run tsx scripts/time-browser.ts before the site build, and R2 must receive .cache/time-browser (or the page data it needs). Devin: the live set is 10 records; nothing in your media wiring changes.
 - 2026-11-01 Cursor: place/zanzibar claimed (PR #2858) and written as six dated events from the museum's existing Said, Majid, Ali and Karume records. No Explorer scripts or pages were edited. Images were not generated.
 - 2026-11-01 Cursor: place/tunis claimed (PR #2900). Eight dated events were already wired with occurred_at. Added the subject file only. No Explorer scripts or pages were edited. Images were not generated.
+- 2026-11-01 Cursor: place/algiers claimed (PR #2902). Seven dated events were already wired with occurred_at. Added the subject file only. No Explorer scripts or pages were edited. Images were not generated.
 
 ## 10. Reference-app parity (TimelineThis → Time Browser)
 
