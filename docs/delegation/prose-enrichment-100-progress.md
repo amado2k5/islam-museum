@@ -597,3 +597,17 @@ After batches 12–23, 84 n–z places that cite Idrisi and have a short Arabic 
 - **place/socotra** (pp. 50, 51, 52). The aloe island; al-Idrisi's Alexander explanation of its Christians and the aloe preparation. The earlier paragraph from al-Hamdani (`sifat-jazirat-al-arab p. 36`) is kept in all three languages.
 
 Passages on appearance, customs and religion of the peoples named on these pages are left out; the entries keep to places, goods and distances.
+
+## n–z batch 24 (Claude Sonnet 5.5, place, Idrisi; unmatched labels from batch 23)
+
+Batch 23's "no hit for the label" group came from my own search, which only scanned pages 150–999. The record cites pages before 150 (the Nile, Sudan and Indian Ocean sections), and a search of the cited pages finds all 39 labels. Those places are now worked from the cited page.
+
+### Enriched, batch 24
+
+- **place/tirqa** (Idrisi p. 25). Wanqara town under Ghana, six days from Ghana; Madasa as neighbour.
+- **place/qasr-umm-isa** (p. 117). Kawar town two days south of al-Qasaba, alum trade, forty miles to Inklas.
+- **place/tilmila** (pp. 117, 118). Small Kawar town with a poor alum mine, one day from Abzar.
+- **place/tamalma** (p. 29). Kawar town fourteen stages east of Kuku on a small strong hill, alum of mediocre quality. The sentence on its people's dress is left out.
+- **place/tasawa** (p. 112). "Little Jarma" in Fazzan, wells and the anjaqa/khattara irrigation, the silver mine in Jabal Jujis.
+- **place/nughayra** (p. 105). One of the two old cities of Qamnuriyya (with Qanuri); the land of Qamnuriyya and the gold-dust road. The passage on the people's beliefs is left out.
+- **place/nabranta** (p. 111). Ruined city eight stages north of the Saghwa; the Zaghawa neighbours.
