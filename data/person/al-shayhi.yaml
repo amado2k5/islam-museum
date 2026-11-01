@@ -1,26 +1,57 @@
 id: person/al-shayhi
 class: person
-label:
-  ar: "شيخي"
-  en: "al-Shayhi"
-roles: [poet]
+label: { ar: "شيخي", en: "Şeyhi", ur: "شیخی" }
+names:
+  - { value: "يوسف سنان", kind: full }
+  - { value: "Yûsuf Sinan", kind: full }
+  - { value: "Sinan", kind: given }
+  - { value: "Yûsuf Sinâneddin", kind: alternate }
+  - { value: "شيخي", kind: pen }
+  - { value: "Şeyhi", kind: pen }
+  - { value: "حكيم سنان", kind: laqab }
+  - { value: "Hekim Sinan", kind: laqab }
+  - { value: "Germiyanlı Şeyhi", kind: alternate }
+  - { value: "Shayhi", kind: latinized }
 gender: male
-themes: [literature]
 summary:
-  ar: "بطاقة أولية لشيخي سنان، شاعر وطبيب عثماني القرن الخامس عشر صاحب «خسرو وشيرين»، توفي سنة ١٤٣١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shayhi Sinan, the fifteenth-century Ottoman poet and physician author of Khusraw u Shirin, d. 1431; the biographical entry is not yet checked on the page."
+  ar: "شيخي (يوسف سنان، ت 1431م)، شاعر وطبيب عيون من كوتاهية يُعدّ من مؤسسي الأدب التركي الكلاسيكي. تلقّى تعليمه في كوتاهية وإيران، وخدم أمير الكرميان يعقوب الثاني مصاحباً وطبيباً خاصاً، وعالج عين السلطان محمد الأول سنة 818هـ/1415م فصار أول رئيس أطباء في الدولة العثمانية. قامت شهرته على مثنويين: «خسرو وشيرين»، صياغة تركية حرّة لرومانسية نظامي تركها ناقصة عند وفاته فأتمّها ابن أخته جمالي، و«هارنامه» في 126 بيتاً، الهجائية الكلاسيكية في الحمار الذي حسد الثيران الفارهة. ويروي لطيفي أنه انتسب في طريق عودته من إيران إلى حاجي بيرام ولي بأنقرة، ومن هذا الانتساب اشتقّ العلماء تخلّصه «شيخي»."
+  en: "Şeyhi (Yusuf Sinan, d. 1431), divan poet and eye-physician of Kütahya, counted among the founders of classical Turkish literature. Trained at Kütahya and in Iran, he served the Germiyan bey Yakub II as companion and personal physician, treated Sultan Mehmed I's eye in 818/1415 and became the first chief physician of the Ottoman state. His fame rests on two mesnevis: his Hüsrev ü Şirin, a free Turkish reworking of Nizami's romance left unfinished at his death and completed by his nephew Cemali, and the 126-couplet Harname, the classic satire of the worn-out donkey that envied the fat oxen. Latifi reports that on his return from Iran he bound himself to Haci Bayram Veli at Ankara, the affiliation from which scholarship derives his pen name Şeyhi."
+  ur: "شیخی (یوسف سنان، وفات 1431ء)، کوتاہیہ کے دیوان شاعر اور چشم پزشک، کلاسیکی ترکی ادب کے بانیوں میں شمار ہوتے ہیں۔ کوتاہیہ اور ایران میں تعلیم پائی، گرمیان کے امیر یعقوب ثانی کے مصاحب اور ذاتی طبیب رہے، 818ھ/1415ء میں سلطان محمد اول کی آنکھ کا علاج کیا اور عثمانی ریاست کے پہلے رئیس الاطباء بنے۔ ان کی شہرت دو مثنویوں پر قائم ہے: «خسرو و شیریں»، نظامی کی رومانوی نظم کی آزاد ترک صیاغت جو ان کی وفات پر نامکمل رہ گئی اور ان کے بھانجے جمالی نے پوری کی، اور 126 اشعار کی «ہارنامہ»، اس تھکے ماندے گدھے کی کلاسیکی ہجویہ نظم جس نے موٹے بیلوں پر رشک کیا۔ لطیفی کی روایت ہے کہ ایران سے واپسی پر انھوں نے انقرہ میں حاجی بیرام ولی سے انتساب کیا، اور اہلِ علم کے نزدیک ان کا تخلص «شیخی» اسی انتساب سے ماخوذ ہے۔"
+roles: [poet, physician]
 wings: [people]
+themes: [literature, medicine]
 regions: [anatolia-balkans]
-periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q389030
+born:
+  edtf: "1371/1376"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "Born at Kutahya, capital of the Germiyan beylik; Kutahya has no place entity, so the birthplace is recorded here only. No early source gives a birth year. Latifi places his birth in the reign of Murad I, and the TDV entry reasons that a man already famous as the eye-physician Hekim Sinan when he treated Sultan Mehmed I's eye in 818/1415 must then have been about forty to forty-five years old, which puts the birth in 773-778/1371-1376; the range is recorded as the scholarship gives it. The century queue's single year 1376 is the range's upper end, and Wikidata's 1350 is supported by no text read. No Hijri year is recorded, as the range spans 773-778 AH rather than a single year."
+  sources: [source/tdv-seyhi]
+died:
+  edtf: "1431"
+  hijri: "0834"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "He died in all likelihood at Kutahya after returning to the Germiyan court, and his tomb stands at Dumlupinar outside the city; neither place has an entity, so both are recorded here only. No early source fixes the year. Faik Resad's 826/1423 is baseless on the TDV entry's showing, the Sicill-i Osmani gives 829/1426 and the Mecelletu'n-nisab 855/1451, while Koprulu and Uzuncarsili showed from his elegy for Yakub Bey (d. 832/1429) that he died after 1429, which is the TDV entry's own heading. Timurtas's 834/1431, whose Hijri pairing is recorded here, is the date later scholarship accepted, and the Turkish article and Wikidata agree on 1431."
+  sources: [source/tdv-seyhi, source/wikipedia-seyhi-tr, source/wikidata-seyhi]
+relations:
+  - { type: student_of, target: person/ahmedi-poet, sources: [source/tdv-seyhi] }
+  - { type: student_of, target: person/haci-bayram-veli, sources: [source/tdv-seyhi, source/wikipedia-seyhi-tr] }
+  - { type: member_of, target: group/bayramiyya, sources: [source/tdv-seyhi, source/wikipedia-seyhi-tr] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "His Sufi affiliation is attested for the man himself. The TDV Islam Ansiklopedisi entry (Biltekin), read in full, reports on Latifi's Tezkire that returning from his studies in Iran he stopped at Ankara and bound himself (intisab) to Haci Bayram Veli, and adds that later scholarship has accepted the inference that he took his pen name Seyhi from this affiliation; the Turkish Wikipedia article carries the same affiliation, in its stronger strand as his becoming Haci Bayram's khalifa. The affiliation is attested by two independent families, and intisab is order membership attested for the man himself, so the value stands as documented. The TDV entry states expressly that whether he ever practised sheikhdom is unknown. The rival attachment to Emir Sultan of Bursa belongs to a conflation with a later Seyh Sinan which the TDV entry examines and rejects on documentary grounds. No source read names a legal school for him, and Wikidata gives Islam generically (Q432), which under the founder's ruling never settles faith, so no madhhab is recorded - tariqa is not madhhab."
+    sources: [source/tdv-seyhi, source/wikipedia-seyhi-tr]
+external_ids: { wikidata: "Q389030" }
+sources: [source/tdv-seyhi, source/wikipedia-seyhi-tr, source/wikidata-seyhi]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0050
-status:
-  review: draft
-  completeness: 1
+  source: "Full record replacing the Devin library-lane draft stub at the same slug, which rested on al-Zirikli's al-A'lam alone with its entry expressly not read on the page. Built from Halit Biltekin's TDV Islam Ansiklopedisi entry 'SEYHI' (vol. 39, 2010; web edition, read in full), the Turkish Wikipedia article 'Seyhi' (revision 36491322 of 7 December 2025) and Wikidata item Q389030 (revision 2551022829 of 29 September 2026, fetched live and re-asserted identical on a second query), all read live on 1 November 2026. The stub's al-A'lam source is dropped: its entry was never read on the page and no claim in this record rests on it. The birth range 1371-1376 follows the TDV entry's reasoning from the 818/1415 eye treatment, against the century queue's 1376 (the range's upper end) and Wikidata's unsupported 1350; the death year 1431 is Timurtas's conclusion as reported and accepted in the TDV entry, against the 1423, 1426 and 1451 of the older compilations. No prose files existed for the stub; the three language files are new."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-154G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

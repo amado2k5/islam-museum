@@ -44,9 +44,24 @@ relations:
   - { type: born_in, target: place/cordoba, sources: [source/wikipedia-ibn-mada-en, source/wikipedia-ibn-mada-ar] }
   - { type: died_in, target: place/seville, sources: [source/wikipedia-ibn-mada-en] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "FLAGGED for the founder's ruling. Two independent sources attest his adherence to the Zahiri school as his own documented scholarly identity: the English Wikipedia (his adherence to Zahirism, his enforcement of it as the Almohads' chief judge including the suppression of non-Zahiri books, and his grammar reform as the carry-over of the Zahiri denial of legal causality; Kees Versteegh is quoted calling the adherence fanatical) and the Arabic Wikipedia (he became an authority — hujja — in Zahiri fiqh, the madhhab of the Almohad state). The faith enum has no zahiri value, and neither source frames him within Ahl al-Sunna in terms, so under the doubt rule he is left unclassified: if the founder rules that the documented Zahiri adherence maps to sunni, this segment becomes sunni/documented on the same two sources."
+  - value: zahiri
+    basis: documented
+    note: >-
+      FLAGGED for the founder's ruling. Two independent sources attest his
+      adherence to the Zahiri school as his own documented scholarly
+      identity: the English Wikipedia (his adherence to Zahirism, his
+      enforcement of it as the Almohads' chief judge including the
+      suppression of non-Zahiri books, and his grammar reform as the carry-
+      over of the Zahiri denial of legal causality; Kees Versteegh is quoted
+      calling the adherence fanatical) and the Arabic Wikipedia (he became
+      an authority — hujja — in Zahiri fiqh, the madhhab of the Almohad
+      state). The faith enum has no zahiri value, and neither source frames
+      him within Ahl al-Sunna in terms, so under the doubt rule he is left
+      unclassified: if the founder rules that the documented Zahiri
+      adherence maps to sunni, this segment becomes sunni/documented on the
+      same two sources. Settled zahiri/documented by the founder's ruling of
+      1 November 2026 (rulings packet #3, Part 7: the enum gained the zahiri
+      value on the founder's direction).
     sources:
       - source/wikipedia-ibn-mada-en
       - source/wikipedia-ibn-mada-ar

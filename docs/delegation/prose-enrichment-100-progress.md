@@ -305,3 +305,50 @@ Named batch 10 for the n–z lane. Batch 10 for the a–m lane is a separate ent
 ### Not reached, batch 10
 
 About sixty other n–z place records with Idrisi as a source were triaged for hit counts (for example zuzan, ubeda, sulaymanan's neighbours, qurya, qarmut, rasak, saal, sayumur, sharma, tabala, walashjird, qadis-andalus, nikmudhiyya, nuqstru). None of them was read in full in this batch, so none is claimed as enriched or as a lead with a reason. Their hit lists are in the batch notes for the next pass.
+
+## n–z batch 11 (Claude Haiku 5.5, place, Idrisi)
+
+Named batch 11 for the n–z lane. The a–m lane has its own batch 11 entry above; the two do not share slugs. Each body was read in the Idrisi OCR (`books/geography/nuzhat-mushtaq-idrisi/1-2_20240914`) at the cited page; page numbers are pages.json numbers. Hit counts were taken from the OCR by label, and the passages were read in context before any prose was written.
+
+### Enriched, batch 11
+
+- **place/naqawus** (Idrisi p. 264). Town near the Aurès, its walnuts and markets, the fortress lookout, distances to Tabna, al-Msila, Biskra and Badis. The data summary said dates for its fruit; the page says walnuts (`الجوز`), so the summary was corrected in `data/place/naqawus.yaml`.
+- **place/salmas** (Idrisi pp. 655, 663, 682, 820, 825, 826). Lake Kabudhan, the Armenian towns, distances to Urmia, Khoy, Maragha and Marsan, and the tekk cloth made there. The page does not define tekk; the entry keeps the word.
+- **place/nevers** (Idrisi pp. 741, 742). Distances from Lyon, Limoges, Dujun, Lanka, Itruwish and Mashkun, and the land of Burjush. The page gives no modern identification for any of these names; the entry says so.
+- **place/qalat-mahdi** (Idrisi pp. 221, 243). The fortress above a mountain, the Zanata tribes to its south, distances from Safru, Fez and Tadla, the thirteen-stage road to Sijilmasa, and its name in the Maghrib list (p. 221, "قلعة مهدي بن توالة").
+
+### Open issues, batch 11
+
+- place/naqawus: the record's summary (now walnuts) and the body agree with p. 264. The page gives three stages from Naqawus to al-Msila in one copy and four in another; the body keeps both.
+- place/salmas: the lake's distances on p. 682 are given as "from its east to Maragha" and "from its west to Urmia" in the text, and the body follows that wording.
+- place/qalat-mahdi: the Sijilmasa route on p. 243 does not state its starting point in the OCR; the body gives the route without a start.
+
+### Leads, batch 11
+
+- **place/sakawand.** p. 469 gives about fifty words (a populous town with markets and trade, seven days from Kabul, a road to Lajra, hot lowlands with snow in parts). p. 486 lists it among the Bamiyan towns with Bashghurqand. Lead: under 100 words of prose can be sourced without padding.
+- **place/qarmuna.** p. 572 gives about seventy words (a large city whose walls rival those of Seville, on a hill over a fertile plain, wheat and barley, eighteen miles west to Seville, forty-five from Istija). p. 573 gives only the route list. Lead.
+- **place/salerno.** pp. 758–759 give about forty words (a noble town with markets, grain and wheat, two miles from the Badhbadha valley, the distances to Abllina and Bandbunt). Lead.
+- **place/nafzawa.** p. 278 gives two stages and a day's travel from Tozeur and Qafsa; pp. 222 and 257 list it among the Berber tribes and the Zanata genealogy. No passage of about 100 words for the town. Lead.
+- **place/qal-fayma.** p. 608 gives about fifty words (an old fortress with a populous outskirts, fields and groves, eight miles from Hisn al-Hamma, twelve miles to the Sanam fortress). Lead.
+- **place/qalat-bani-hammad.** p. 254 gives only a line (twelve miles from al-Msila, where the fish of the river are taken to it). Lead.
+
+### Skipped candidates, batch 11
+
+- **place/sur** and **place/sur-lubnan**: the label صور is one of the common words the lane excludes.
+
+### Not reached, batch 11
+
+About 130 other n–z place records with Idrisi as a source and a thin Arabic summary were triaged by hit count only (for example sanbat, sarfand, sawsaqan, rudus, qurnat, qatighura, shabra). None was read in full in this batch, so none is claimed as enriched or as a lead with a reason.
+
+| 2026-11-01 | Devin (a–m) | batch 16: mixed books (kamil, futuh-buldan, fihrist, tabari, etc.) | 25 | 0 | — |
+
+### Leads, batch 16
+
+- **person/humayd-ibn-mayuq**: معيوف does not appear in the futuh-buldan OCR (`books/tareekh/futuh-buldan/20230703_20230703_1444`); the two اقريطش passages (pp. 223, 330) name other commanders. The existing body stands; needs another edition or source.
+| 2026-11-01 | Devin (a–m) | batch 17: mixed (rihla, raheeq, tabari, fihrist, muruj, ibn-hisham-saqqa, samhudi, rihla-ibn-jubayr, source-records) | 30 | 1 | — |
+
+### Leads, batch 17
+
+- **place/afshana**: `sources: []` — the Ibn Sina birthplace claim belongs to his autobiography (al-Juzjani / Gohlman), but no readable OCR of that source is in the harvest and no defined source is listed. Left thin until a source is attached.
+- **place/fuwwa** (enriched but flagged): the rihla-ibn-battuta-1958 OCR (Maktaba Tijariyya scan, `books/geography/rihla-ibn-battuta/20220828_20220828_1853`) does not contain فوة/فوه in the Egypt passages read; the file now says the mention is unverified on the page.
+- **place/misrata** (enriched but flagged): مصراتة is absent from the scanned 1958 rihla text; only source is wikidata; the Ibn Battuta claim is now marked as unverified.

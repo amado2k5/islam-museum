@@ -9,5 +9,5 @@ wings: [time]
 date:
   start: { hijri: "0235", precision: year, status: historical, note: "ج9 ص168", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 13", sources: [source/tabari-tarikh-abu-al-fadl] }
+provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", run: "prose-enrichment-100-devin-b17", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 13", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read; cites juz'/page of the scan" }
