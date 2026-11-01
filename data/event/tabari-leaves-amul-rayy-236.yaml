@@ -1,0 +1,27 @@
+id: event/tabari-leaves-amul-rayy-236
+class: event
+kind: migration
+label:
+  ar: "رحيل الطبري من آمل إلى الري طلباً للعلم"
+  en: "al-Tabari leaves Amul for Rayy in search of knowledge"
+  ur: "طبری کا علم کی تلاش میں آمل سے رے کا سفر"
+summary:
+  ar: "خرج محمد بن جرير الطبري من بيت أبيه بآمل في طلب العلم وله اثنتا عشرة سنة نحو سنة ٢٣٦هـ/٨٥٠م، فنزل [[place/rayy|الري]] كبرى مدن شمال فارس فأقام بها نحو خمس سنين يقرأ على علمائها، وأكبر شيوخه فيها عبد الله بن حميد الرازي الذي أخذ عنه نقل ابن إسحاق في المغازي عن طريق سلمة بن الفضل {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  en: "Muhammad ibn Jarir al-Tabari left his father's house at Amul for the quest of knowledge aged twelve, about 236/850, and settled at Rayy, the metropolis of northern Persia, where he studied for some five years; his most important teacher there was Abd Allah ibn Humayd al-Razi, through whom he received Ibn Ishaq's Maghazi material transmitted by Salama ibn al-Fadl {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+  ur: "محمد بن جریر طبری بارہ سال کی عمر میں تقریباً 236ھ/850ء میں علم کی تلاش کے لیے آمل سے نکلے اور شمالی فارس کے بڑے شہر رے میں پانچ سال تک تعلیم حاصل کرتے رہے؛ وہاں ان کے اہم استاد عبد اللہ بن حمید رازی تھے، جن کے ذریعے انہیں سلمہ بن فضل کی سند سے ابن اسحاق کی مغازی کی روایت ملی {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}."
+wings: [time]
+themes: [travel]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0850~", hijri: "0236", calendar: julian, precision: year, status: historical, derived: true, note: "خرج وله اثنتا عشرة سنة ومولده شتاء ٢٢٤-٢٢٥هـ/٨٣٩م فيكون خروجه نحو سنة ٢٣٦هـ؛ السنة الميلادية تحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 10, art. 'al-Tabari' (C. E. Bosworth), PDF pp. 21-22, Apple Vision OCR of the local harvest copy (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
