@@ -27,3 +27,6 @@ translators: []
 
 ## من سلسلة «نفحات رمضانية» (آفات اللسان) لعمر عبد الكافي
 يروي الشيخ أن هارون الرشيد رأى أبا حازم عند الحرم فقال له: سلنا حاجتك، فقال إنه يستحيي أن يسأل في بيت الله غيره؛ فانتظره حتى خرج من حدود الحرم فأعاد السؤال، فسأله أبو حازم: أحاجة من الدنيا أم من الآخرة؟ فلما قال إن الآخرة لا يملكها، قال أبو حازم إنه لم يطلب الدنيا ممن يملكها فكيف يطلبها ممن لا يملكها. ويسوقها الشيخ مثلًا على قوة اليقين وألا يُدعى إلا الله (needs_source: القصة من رواية الشيخ). {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:10:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:11:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:11:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يعيد الشيخ في البرنامج قصة أبي حازم مع أمير المؤمنين في الحرم، ويضيف إليها قوله: إذا رأيتم الأمراء على أبواب العلماء فاستبشروا، وإذا رأيتم العلماء على أبواب الأمراء فلا خير، ويسوقها مثلًا على الإخلاص والعزة بالله. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30}

@@ -41,3 +41,6 @@ translators: []
 ويعرّف الشيخ الظلم بأنه مجاوزة الحق، ويدعو الناس إلى أن يقيسوا أنفسهم بالكتاب والسنة، فكثير من الناس لا يعلم أنه يظلم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:48:30}. ويرى، وهذا رأي شخصي له، أن الرد على الجهل بالجهل، وعلى الظلم بالظلم، يجعلنا جاهلين وظالمين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:23:00}.
 
 ويقول الشيخ، وهو رأي شخصي له، إن الظالم لا يرى إلا نفسه، ولا يتصور أن الطفل الذي يحميه سيكبر ويقف في وجهه، ويضرب مثلا بفرعون ومولود بني إسرائيل {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يحذّر الشيخ صاحب العمل من ظلم الموظف أو بخسه أجره أو تكليفه فوق طاقته، ويذكر أن الظلم ظلمات يوم القيامة، وأن دعوة المظلوم ليس بينها وبين الله حجاب، ويسأل: هل يضع الله البركة في مؤسسة ظلم صاحبها إنسانًا فدعا عليه بالليل؟ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:07:00} انظر: [[concept/huquq-al-amil|العلاقة بين العامل وصاحب العمل]].

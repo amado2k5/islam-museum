@@ -65,6 +65,34 @@ translators: []
 
 [[concept/huquq-al-abna|حقوق الأبناء]] على الآباء، والسنوات السبع الأولى، و[[practice/hifz-al-quran|حفظ القرآن]] صغيرًا. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
 
+## الحلقة 15: العامل وصاحب العمل
+
+[[concept/huquq-al-amil|العلاقة بين العامل وصاحب العمل]]، و[[concept/zulm|الظلم]]، وحقوق [[concept/hayawan-animal|الحيوان]]، و[[concept/al-tawazun-al-kawni|التوازن الكوني]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:07:30}
+
+## الحلقة 16: خطوات عملية مع القرآن
+
+[[concept/wird-fiqh|الورد]] اليومي، وقراءة [[concept/tadabbur-al-quran|التدبر]]، و[[concept/nawafil|النوافل]] حديقة حول بيت الفرائض. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}
+
+## الحلقة 17: القلب والجوارح
+
+الجوارح تعمل عند القلب، وأبواب الشيطان منها، وبرنامج [[concept/muhasabat-al-nafs|محاسبة النفس]] و[[concept/muraqaba|المراقبة]]، وقصة حاتم الأصم مع [[person/shaqiq-al-balkhi|شقيق البلخي]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30}
+
+## الحلقة 18: اليقين
+
+[[concept/al-yaqin|اليقين]] ومراتبه وعلاماته، والفرق بين التفكر والتدبر. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:07:00}
+
+## الحلقة 19: حقوق الأخوة
+
+حقوق [[concept/ukhuwwa|الأخوة]] الستة وغيرها، ورأيه في «أخوة الوطن». {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:07:00}
+
+## الحلقتان 20 و21: الإخلاص
+
+[[question/what-is-ikhlas|الإخلاص]] وصفاته وامتحانه، وقصة [[person/malik-ibn-anas|مالك]] والموطأ. والحلقة 21 في الأرشيف نسخة مكررة من الحلقة 20 بالمحتوى نفسه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep21 00:01:30}
+
+## الحلقة 22: الإخلاص والرياء
+
+الإخلاص روح العمل، و[[concept/riya|الرياء]]، وأبو حازم، وكأس ماء [[person/harun-al-rashid|هارون الرشيد]]، و[[person/yunus|يونس]] في بطن الحوت. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
+
 ## موضوعات الحلقات في المتحف
 
 هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
@@ -130,3 +158,35 @@ translators: []
 ### الحلقة 14
 - [[concept/huquq-al-abna|حقوق الأبناء]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00}
 - [[practice/hifz-al-quran|حفظ القرآن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
+
+### الحلقة 15
+- [[concept/huquq-al-amil|العلاقة بين العامل وصاحب العمل]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:01:30}
+- [[concept/zulm|الظلم]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:02:30}
+- [[concept/hayawan-animal|الحيوان]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:00}
+- [[concept/al-tawazun-al-kawni|التوازن الكوني]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:30}
+
+### الحلقة 16
+- [[concept/wird-fiqh|وِرْد]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:01:30}
+- [[concept/tadabbur-al-quran|تدبر القرآن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00}
+- [[concept/nawafil|النوافل]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}
+
+### الحلقة 17
+- [[concept/muhasabat-al-nafs|محاسبة النفس]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30}
+- [[person/shaqiq-al-balkhi|شقيق البلخي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:03:00}
+- [[concept/muraqaba|المراقبة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30}
+
+### الحلقة 18
+- [[concept/al-yaqin|اليقين ودرجاته]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:01:30}
+
+### الحلقة 19
+- [[concept/ukhuwwa|الأخوة الإسلامية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:01:30}
+
+### الحلقة 20
+- [[question/what-is-ikhlas|ما الإخلاص؟]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:01:30}
+- [[person/malik-ibn-anas|مالك بن أنس]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30}
+
+### الحلقة 22
+- [[concept/riya|الرياء]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00}
+- [[person/abu-hazim-al-araj|أبو حازم الأعرج]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00}
+- [[person/harun-al-rashid|هارون الرشيد]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30}
+- [[person/yunus|يونس]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}

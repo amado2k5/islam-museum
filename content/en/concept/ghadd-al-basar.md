@@ -49,3 +49,7 @@ He says that the eyes should be used for what benefits, warns children against w
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh holds that the command to lower the gaze is not limited to the forbidden, but includes lowering the gaze from people's faults: husband from wife and wife from husband, brother from brother, neighbour from neighbour, employee from colleague, a lowering of deliberate overlooking and forgiving, so that people's sins are not put under a microscope. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+## Lowering the gaze and the heart's insight
+The Sheikh relates that Hatim al-Asamm visited the house of his teacher [[person/shaqiq-al-balkhi|Shaqiq al-Balkhi]] for thirty years, and Shaqiq's wife thought he was blind because he kept his gaze so lowered; he concludes for young people today that whoever lowers his gaze, God frees his insight, and criticises flicking between forbidden channels (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:00} He holds that some people put others' faults under a magnifying lens and their own under a reducing one. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:00}

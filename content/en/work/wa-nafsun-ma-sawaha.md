@@ -65,6 +65,34 @@ Differences of temperament and the Qur'an's manner of dialogue with those who di
 
 [[concept/huquq-al-abna|Children's rights]] over parents, the first seven years, and [[practice/hifz-al-quran|memorising the Qur'an]] young. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
 
+## Episode 15: worker and employer
+
+[[concept/huquq-al-amil|The relation between worker and employer]], [[concept/zulm|injustice]], the rights of [[concept/hayawan-animal|animals]], and [[concept/al-tawazun-al-kawni|the balance of creation]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:07:30}
+
+## Episode 16: practical steps with the Qur'an
+
+The daily [[concept/wird-fiqh|portion]], reading for [[concept/tadabbur-al-quran|reflection]], and [[concept/nawafil|voluntary acts]] as a garden around the house of obligations. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}
+
+## Episode 17: the heart and the limbs
+
+The limbs work for the heart, Satan's doors through them, the programme of [[concept/muhasabat-al-nafs|taking account of oneself]] and [[concept/muraqaba|watchfulness]], and Hatim al-Asamm with [[person/shaqiq-al-balkhi|Shaqiq al-Balkhi]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30}
+
+## Episode 18: certainty
+
+[[concept/al-yaqin|Certainty]], its degrees and signs, and the difference between thinking and reflecting. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:07:00}
+
+## Episode 19: the rights of brotherhood
+
+The six rights of [[concept/ukhuwwa|brotherhood]] and more, and his view of 'brotherhood of the homeland'. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:07:00}
+
+## Episodes 20 and 21: sincerity
+
+[[question/what-is-ikhlas|Sincerity]], its marks and its test, and the story of [[person/malik-ibn-anas|Malik]] and al-Muwatta'. Episode 21 in the archive is a duplicate of episode 20, with the same content. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep21 00:01:30}
+
+## Episode 22: sincerity and showing off
+
+Sincerity as the soul of the deed, [[concept/riya|showing off]], Abu Hazim, [[person/harun-al-rashid|Harun al-Rashid]]'s cup of water, and [[person/yunus|Yunus]] in the whale. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
+
 ## Topics of the episodes in the museum
 
 These are the museum records written from the episodes of the series, ordered by the first place each topic is cited. Each record carries its own prose and anchors.
@@ -130,3 +158,35 @@ These are the museum records written from the episodes of the series, ordered by
 ### Episode 14
 - [[concept/huquq-al-abna|Children's rights (huquq al-abna)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00}
 - [[practice/hifz-al-quran|Hifz al-Qur'an (memorisation)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00}
+
+### Episode 15
+- [[concept/huquq-al-amil|The relation between worker and employer]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:01:30}
+- [[concept/zulm|Injustice (zulm)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:02:30}
+- [[concept/hayawan-animal|Hayawan (animal: food, slaughter, zakat and care)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:00}
+- [[concept/al-tawazun-al-kawni|The balance of creation (al-tawazun al-kawni)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:30}
+
+### Episode 16
+- [[concept/wird-fiqh|Wird (litanies and daily devotional portions)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:01:30}
+- [[concept/tadabbur-al-quran|Reflection on the Qur'an (tadabbur)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00}
+- [[concept/nawafil|Supererogatory works (nawafil)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}
+
+### Episode 17
+- [[concept/muhasabat-al-nafs|Taking account of oneself (muhasabat al-nafs)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30}
+- [[person/shaqiq-al-balkhi|Shaqiq al-Balkhi]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:03:00}
+- [[concept/muraqaba|Watchfulness before God (muraqaba)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30}
+
+### Episode 18
+- [[concept/al-yaqin|Certainty and its degrees (yaqin)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep18 00:01:30}
+
+### Episode 19
+- [[concept/ukhuwwa|Muslim brotherhood]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:01:30}
+
+### Episode 20
+- [[question/what-is-ikhlas|What is ikhlas?]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:01:30}
+- [[person/malik-ibn-anas|Malik ibn Anas]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30}
+
+### Episode 22
+- [[concept/riya|Riya (ostentation)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00}
+- [[person/abu-hazim-al-araj|Abu Hazim al-A'raj]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:05:00}
+- [[person/harun-al-rashid|Harun al-Rashid]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30}
+- [[person/yunus|Yunus (Jonah)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00}
