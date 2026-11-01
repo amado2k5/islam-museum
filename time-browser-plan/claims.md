@@ -147,3 +147,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-10-30 | concept/al-rimaya, concept/al-musara-a | claude | dropped own practice/ duplicates after merging main (#2599 already has both); no new records; undated, not stories
 
 2026-11-01 | place/zanzibar | cursor | claimed
+2026-11-01 | place/medina | devin | claimed
