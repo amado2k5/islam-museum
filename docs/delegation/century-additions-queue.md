@@ -1756,11 +1756,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nana Asma'u — 1793–1864 (built under §B)
 - [x] Muhammad al-Kanemi — 1776–1837
 - [x] Sulayman Bal — 1730–1775
-- [ ] Abdul Kader Kane — 1745–1806
+- [x] Abdul Kader Kane — 1745–1806
 - [x] Seku Amadu (Amadu Lobbo) — 1776–1845
-- [ ] Karamokho Alfa — 1700–1751
-- [ ] Ibrahim Sori — 1725–1784
-- [ ] Shah Abdul Aziz Dehlawi — 1746–1824
+- [x] Karamokho Alfa — 1700–1751
+- [x] Ibrahim Sori — 1725–1784
+- [x] Shah Abdul Aziz Dehlawi — 1746–1824
 - [ ] Shah Rafiuddin Dehlawi — 1749–1818
 - [ ] Hyder Ali — 1721–1782
 - [ ] Mir Qasim — 1730–1777
