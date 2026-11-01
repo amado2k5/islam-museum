@@ -1,0 +1,63 @@
+id: person/muhammad-saleh-kamboh
+class: person
+
+label: { ar: "محمد صالح كمبة", en: "Muhammad Saleh Kamboh", ur: "محمد صالح کمبوہ لاہوری" }
+
+names:
+  - { value: "Muhammad Saleh Kamboh Lahori", kind: full }
+  - { value: "Kashfi", kind: pen }
+  - { value: "Subhan", kind: pen }
+
+gender: male
+
+summary:
+  ar: "محمد صالح كمبة اللاهوري (توفي 1675، على رواية غير مؤكدة) خطاط بنجابي وكاتب السيرة الرسمية للإمبراطور شاه جهان، ومؤلف «أعمال صالح» (شاهجهان نامه)، أكمله في 1659–1660، وهو من أهم المصادر الأصلية لعهد شاه جهان. كان ابن الخطاط مير عبد الله مشكين قلم، والأخ الأصغر لعناية الله كمبة، وخدم ديوانًا لدى حاكم لاهور وحاملًا رتبة إسبهسلار، ثم معلمًا للإمبراطور أورنكزيب."
+  en: "Muhammad Saleh Kamboh Lahori (died 1675, on an uncertain report) was a Punjabi calligrapher and the official biographer of the emperor Shah Jahan, author of the Amal-i Salih (Shah Jahan Nama), completed in 1659-1660 and one of the most important original sources for Shah Jahan's reign. He was the son of the calligrapher Mir Abdullah Mushkin Qalam and the younger brother of Inayat Allah Kamboh, served as a diwan with the governor of Lahore and held the rank of Sipahsalar, and was afterwards a teacher of the emperor Aurangzeb."
+  ur: "محمد صالح کمبوہ لاہوری (وفات 1675ء، ایک غیر یقینی روایت کے مطابق) پنجابی خطاط اور شہنشاہ شاہ جہاں کے سرکاری سوانح نگار تھے، اور «اعمالِ صالح» (شاہ جہاں نامہ) کے مصنف، جو 1659ء–1660ء میں مکمل ہوئی اور شاہ جہاں کے عہد کے اہم ترین اصل مآخذ میں سے ہے۔ وہ خطاط میر عبد اللہ مشکین قلم کے بیٹے اور عنایت اللہ کمبوہ کے چھوٹے بھائی تھے؛ لاہور کے گورنر کے ہاں دیوان رہے، سپہ سالار کا رتبہ پایا، اور بعد میں شہنشاہ اورنگزیب کے استاد ہوئے۔"
+
+roles: [historian, calligrapher, teacher]
+regions: [south-asia]
+wings: [people]
+
+died:
+  edtf: "1675"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "His death date is not certain in the sources. S. M. Latif, on unspecified authority, gives AH 1085 (1675 CE), the date the articles repeat and Wikidata files; it is built as debated. The story that he was killed as a Mughal admiral fighting the Ahoms at Pandu in 1636 is rejected by the articles themselves, since he completed the Amal-i Salih in 1659-1660 (Farooqi dates the completion 1669). He is buried in Lahore, near the mosque at Mochi Gate that bears his name, though the grave's location is disputed; the place of his death is not stated, so no died_in edge is written."
+  sources: [source/wikipedia-muhammad-saleh-kamboh-en, source/wikipedia-muhammad-saleh-kamboh-ar, source/wikipedia-muhammad-saleh-kamboh-ur, source/wikidata-muhammad-saleh-kamboh]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English and Arabic leads call him a Punjabi Muslim — a
+      generic attestation that names no school. His documented
+      practice is stated in full: calligrapher and poet (pen names
+      Kashfi and Subhan), Shah Jahan's official biographer, for a
+      time chief librarian of the imperial library, a commander of
+      five hundred in the mansab lists, deputy (peshdast) to the
+      Sadr-us-sudur under Aurangzeb, and, in the articles' words, a
+      teacher of Aurangzeb from the prince's childhood who served
+      him as spiritual teacher. Teaching and spiritual guidance
+      attest practice, not a school named for the man himself, and
+      the epithet 'Salafi' attached to him in later partisan
+      literature is not two independent scholarly texts and is not
+      used. No madhhab or order is named for him in any text read,
+      so his faith is recorded as unknown.
+    sources: [source/wikipedia-muhammad-saleh-kamboh-en, source/wikipedia-muhammad-saleh-kamboh-ar, source/wikipedia-muhammad-saleh-kamboh-ur]
+
+external_ids: { wikidata: "Q6932703" }
+
+sources:
+  - source/wikipedia-muhammad-saleh-kamboh-en
+  - source/wikipedia-muhammad-saleh-kamboh-ar
+  - source/wikipedia-muhammad-saleh-kamboh-ur
+  - source/wikidata-muhammad-saleh-kamboh
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371936271 of 29 August 2026), Arabic Wikipedia (revision 76600992 of 16 September 2026), Urdu Wikipedia (revision 12109549 of 7 October 2026) and Wikidata Q6932703 (item revision 2405820598 of 16 September 2025), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment (Kamboh/Kanbu spellings) or by QID. Queue corrections, flagged: the queue's 'Mohammad Salih Kanbu' is the articles' Muhammad Saleh Kamboh — Kanbu and Kamboh are spellings of the one nisba — and the slug follows the articles' styling; and the queue's birth year 1608 is NOT built, since no text read gives his birth year and 1608 is the birth year the sources give his elder brother Shaikh Inayat Allah Kamboh, an apparent transposition in the queue row. The articles agree he was the younger brother; no record for the brother exists on main, so no sibling edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-171m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
