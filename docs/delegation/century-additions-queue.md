@@ -865,11 +865,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fatima Bhutto — 1982–Living
 - [x] Uzma Aslam Khan — 1969–Living
 - [x] Moniza Alvi — 1954–Living
-- [ ] Imtiaz Dharker — 1954–Living
-- [ ] Nasser Khalili — 1945–Living
-- [ ] Baron Waheed Alli — 1964–Living
-- [ ] Amir Jahangir — 1977–Living
-- [ ] Riz Khan — 1962–Living
+- [x] Imtiaz Dharker — 1954–Living
+- [x] Nasser Khalili — 1945–Living
+- [x] Baron Waheed Alli — 1964–Living
+- [x] Amir Jahangir — 1977–Living
+- [x] Riz Khan — 1962–Living
 - [ ] Mehdi Hasan — 1979–Living
 - [ ] Ayman Mohyeldin — 1979–Living
 - [ ] Ali Velshi — 1969–Living
