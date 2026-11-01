@@ -305,3 +305,4 @@ Named batch 10 for the n–z lane. Batch 10 for the a–m lane is a separate ent
 ### Not reached, batch 10
 
 About sixty other n–z place records with Idrisi as a source were triaged for hit counts (for example zuzan, ubeda, sulaymanan's neighbours, qurya, qarmut, rasak, saal, sayumur, sharma, tabala, walashjird, qadis-andalus, nikmudhiyya, nuqstru). None of them was read in full in this batch, so none is claimed as enriched or as a lead with a reason. Their hit lists are in the batch notes for the next pass.
+| 2026-11-01 | Devin (a–m) | batch 16: mixed books (kamil, futuh-buldan, fihrist, tabari, etc.) | 25 | 0 | — |
