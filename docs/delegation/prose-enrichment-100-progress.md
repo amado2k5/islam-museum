@@ -582,3 +582,17 @@ After batches 12–23, 84 n–z places that cite Idrisi and have a short Arabic 
 **Label hits are other words, or the record is already sourced elsewhere (6).** wadan (the hits are the Wadan oasis list and other words), tana-india, shama (a common word), nablus (already has prose with al-Maqdisi), russia, qantarat-al-sayf (dropped in batch 10, reason above).
 
 **Under 100 words of source text (39).** About a paragraph or less in the pages, mostly distances: suraws, samandar-khazar, nawshi, qaynyu, rushiya, tarighyawqan, subara, ramij, tukra, venetian-gulf-nuzhat, tashmis, tanuma, nastasiyya, suways, shaqubiyya, qarqudhi, sabu-river, rishahr, qantarat-qurtuba, nahr-bihank, qalat-al-balut, tarjinis, orissa, nawtas, tarawiya, nadkhu, tajwa, nahr-bugu, salwni, titlus, ras-al-muhjama, pantelleria, qalamun, sibiba, nahr-shirin, silabirs, sanasa, tanisbar. Three have one quotable fact each: tashmis (a ruined walled city on the Safdad river a mile from the sea, p. 530), tukra (a large populous fort two stages from Qafiz, p. 315), and suways (the brackish spring at Qulzum, p. 348).
+
+## n–z batch 24 (Claude Sonnet 5.5, place, Idrisi; unmatched labels from batch 23)
+
+Batch 23's "no hit for the label" group came from my own search, which only scanned pages 150–999. The record cites pages before 150 (the Nile, Sudan and Indian Ocean sections), and a search of the cited pages finds all 39 labels. Those places are now worked from the cited page.
+
+### Enriched, batch 24
+
+- **place/tirqa** (Idrisi p. 25). Wanqara town under Ghana, six days from Ghana; Madasa as neighbour.
+- **place/qasr-umm-isa** (p. 117). Kawar town two days south of al-Qasaba, alum trade, forty miles to Inklas.
+- **place/tilmila** (pp. 117, 118). Small Kawar town with a poor alum mine, one day from Abzar.
+- **place/tamalma** (p. 29). Kawar town fourteen stages east of Kuku on a small strong hill, alum of mediocre quality. The sentence on its people's dress is left out.
+- **place/tasawa** (p. 112). "Little Jarma" in Fazzan, wells and the anjaqa/khattara irrigation, the silver mine in Jabal Jujis.
+- **place/nughayra** (p. 105). One of the two old cities of Qamnuriyya (with Qanuri); the land of Qamnuriyya and the gold-dust road. The passage on the people's beliefs is left out.
+- **place/nabranta** (p. 111). Ruined city eight stages north of the Saghwa; the Zaghawa neighbours.
