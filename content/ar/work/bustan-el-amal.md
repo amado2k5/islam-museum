@@ -69,6 +69,26 @@ translators: []
 
 الصحابة: [[person/abdullah-ibn-masud|ابن مسعود]] و[[person/abdullah-ibn-hudhafa-al-sahmi|عبد الله بن حذافة]] و[[person/khubayb-ibn-adi|خبيب]]، و[[concept/idkhal-al-surur|إدخال السرور]] على الناس. {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:08:30}
 
+## الحلقة 16: القلق على الذرية
+
+[[concept/mirath|الميراث]] وحرمان الورثة، وبنات [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]]، و[[concept/husn-al-zann-billah|حسن الظن بالله]]، و[[concept/satr|ستر الله]] على التائب، وحديث المفلس. {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:08:30}
+
+## الحلقة 17: الضعفاء واليتامى
+
+الإسلام والضعفاء، و[[practice/kafalat-al-yatim|كفالة اليتيم]]، وعظماء اليتامى من [[person/ahmad-ibn-hanbal|أحمد]] و[[person/al-shafii|الشافعي]] و[[person/al-bukhari|البخاري]] وغيرهم، ودور الأمهات. {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:07:30}
+
+## الحلقة 18: التوبة والعودة إلى الذنب
+
+[[concept/tawba|التوبة]] والأدوية الخمسة، ورأيه في مسلسلات رمضان، و[[concept/al-tadkhin|التدخين]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:30}
+
+## الحلقة 19: تأخر زواج البنات
+
+[[practice/nikah|تيسير الزواج]]، والخِطبة والخُطبة، والزواج رزق، و[[concept/al-rizq-al-rububi|الرزق]] لا يقطعه بشر. {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:09:30}
+
+## الحلقة 20: شرف العمل
+
+لا عمل وضيع ما دام شريفًا: [[concept/amal|العمل]]، و[[person/dawud|داود]] و[[person/sulayman|سليمان]]، والشهادات ليست مقياس النجاح. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30}
+
 ## موضوعات الحلقات في المتحف
 
 هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
@@ -154,3 +174,23 @@ translators: []
 - [[person/abdullah-ibn-hudhafa-al-sahmi|عبد الله بن حذافة السهمي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30}
 - [[person/khubayb-ibn-adi|خبيب بن عدي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00}
 - [[concept/idkhal-al-surur|إدخال السرور على المسلمين]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:07:30}
+
+### الحلقة 16
+- [[concept/mirath|الميراث]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:00}
+- [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00}
+- [[concept/husn-al-zann-billah|حسن الظن بالله]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+- [[concept/satr|ستر المسلم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+
+### الحلقة 17
+- [[practice/kafalat-al-yatim|كفالة اليتيم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:01:00}
+- [[person/ahmad-ibn-hanbal|أحمد بن حنبل، وعند ابن النديم أبو عبد الله أحمد بن حنبل وله كتاب العلل {cite:fihrist-ibn-al-nadim p. 320}]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep17 00:05:30}
+
+### الحلقة 18
+- [[concept/al-tadkhin|التدخين]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:30}
+
+### الحلقة 19
+- [[practice/nikah|النكاح]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:01:30}
+
+### الحلقة 20
+- [[concept/amal|العَمَل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
+- [[person/dawud|داود]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}

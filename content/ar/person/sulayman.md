@@ -14,3 +14,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى عمر عبد الكافي، «بعلمه القليل» كما يقول، أن سليمان كان من أشد المبتلين بالمنصب والجاه والعز والمال، وأنه قال في آخر الأمر: هذا من فضل ربي ليبلوني أأشكر أم أكفر. {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يقول الشيخ إن سليمان كان نبيًا رسولًا ملكًا «مليارديرًا» تجري الريح بأمره رخاءً، وتعمل له الشياطين بنّائين وغوّاصين، وتظلّه الطير، ومع ذلك أُمر آل داود بالعمل شكرًا، ويستشهد بذلك على شرف العمل. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:30}
