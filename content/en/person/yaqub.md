@@ -42,3 +42,9 @@ He reflects that Ya'qub lost his second son, Benjamin, and was left to grieve. {
 He recounts that Ya'qub lost Yusuf for years and was then reunited with him, and he takes this as an example of God's wisdom in what He withholds. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:00}
 
 He recounts Yusuf's rise in Egypt and Ya'qub bowing before him, as the fulfilment of an earlier vision (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh draws an educational lesson from the story of Ya'qub and Yusuf: when Yusuf's brothers saw their father's love for Yusuf and his brother, they tried to kill him and threw him into the well, thinking they would end his love in their father's heart, but it only increased until his eyes went white with grief; he holds that a father whose heart is taken by love for one child should not show it, because it stirs the jealousy of the others. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+At the opening of 'Bustan al-Amal' the Sheikh cites Ya'qub's words to his sons: go and seek news of Yusuf and his brother, and do not despair of God's mercy, as an example that the believer does not despair. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30}

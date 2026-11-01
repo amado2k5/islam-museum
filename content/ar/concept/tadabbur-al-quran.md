@@ -45,3 +45,6 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يميّز الشيخ بين قراءة التعبّد، التي ينوي بها القارئ ثواب كل حرف، وقراءة التدبّر التي يعرض فيها نفسه على الآيات: فإذا قرأ صفات عباد الرحمن سأل نفسه كم صفة منها يدخل فيها، أيمشي على الأرض هونًا، ويقول للجاهل سلامًا، ويبيت لربه ساجدًا وقائمًا؟ وإذا مرّ بصفات المنافقين سأل: هل تنطبق عليّ؟ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30}

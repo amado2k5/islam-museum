@@ -33,3 +33,6 @@ translators: []
 
 ## قواعد عمر في المجلس
 يذكر الشيخ أن من قواعد عمر بن الخطاب ألا يتملقه أحد، وألا يغتاب أحد أحداً في حضرته، وألا يُمنع صاحب حق من الوصول إليه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:13:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن الغيبة حرام في نهار رمضان وليله وفي كل أيام السنة، وينتقد من يؤجل الحديث عن فلان إلى ما بعد العشاء ظنًّا أن الغيبة حرام في نهار رمضان فقط، وينقل عن أهل العلم أن المغتاب إن تاب آخر من يدخل الجنة وإن مات بغير توبة فأول من يدخل النار، وأن الغيبة أشد عند الله من هدم الكعبة لأن حرمة المؤمن أعظم (needs_source: هذه الأقوال كما نقلها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:07:30} وينتقد إعلاميين يهتكون أعراض الناس، ومن صار يغتاب شعوبًا بأكملها، ويشبّه من يبني برجًا من الحسنات ثم يهدمه بالغيبة بمن بنى برجًا عاليًا ثم جاء بشركة هدم، ويذكر حديث الغيبة والبهتان. {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:09:00}

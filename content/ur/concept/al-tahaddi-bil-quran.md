@@ -15,3 +15,6 @@ translators: [draft, machine-assisted, not yet reviewed]
 
 ## مصنف کی رائے
 یہ شعراوی کی تفسیر ہے اور ان کی طرف منسوب ہے۔ اعجاز کے علماء یا علوم القرآن کی اس پہلو پر آراء ان صفحات میں نہیں، اور یہاں جانچ نہیں ہوئی۔
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ کہتے ہیں کہ قرآن نے عرب سورماؤں کو چیلنج کیا کہ اس جیسی ایک سورت لاؤ، پھر دس آیتیں، پھر ایک آیت، اور وہ عاجز رہے؛ ان کے نزدیک اس کے معجزات میں سے یہ ہے کہ اس نے [[person/abu-lahab|ابو لہب]] کے زندہ ہوتے ہوئے اس کے برے انجام کا فیصلہ سنایا، اور ابو لہب اسلام قبول کر کے اسے توڑ سکتا تھا مگر نہیں کیا۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep27 00:03:00} بعد کی ایک قسط میں وہ اعجاز کے پہلو گنواتے ہیں: لسانی، تشریعی، علمی، قصصی اور تاریخی، اور خود مصحفِ عثمانی کا اعجاز۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:00}

@@ -28,3 +28,6 @@ He gives the example of someone who hears his daughter or sister complain about 
 He relays that wisdom can be learned even from the ignorant, by avoiding any act, word or position of theirs that one does not approve of {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:16:00}.
 
 He calls for the restraint to come from within the person, asks whether the endowments authority or the ministry will send a sheikh to every home to remind people of God, and says a person should make himself his own watcher {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:55:30}.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh makes watchfulness the second stage of a daily programme after setting conditions for the limbs at dawn prayer: one watches one's limbs through the day, whether the eye was lowered and whether the lips closed over the tongue so it spoke no evil; then come taking account and reproach. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:00} See: [[concept/muhasabat-al-nafs|taking account of oneself]].

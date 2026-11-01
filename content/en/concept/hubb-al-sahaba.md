@@ -25,3 +25,6 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## From Omar Abdelkafy's series Nafahat Ramadaniyya (the faults of the tongue)
+In an episode on reviling the Companions, the Sheikh holds that the Companions transmitted the religion and taught people the obligations and the sunna, that only someone deviant in creed denies their merit, mentions merits of Abu Bakr, Uthman, Ali, Sa'd, the Emigrants and the Helpers, and says that speaking of their virtues would take a whole month. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:03:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:03:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:06:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:08:30} The details are under [[concept/sabb-al-sahaba|reviling the Companions]].

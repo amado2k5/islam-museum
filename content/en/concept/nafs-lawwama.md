@@ -19,3 +19,6 @@ Sha'rawi asks what happens if all members of a society have come to command evil
 
 ## Note on this entry
 This is Sha'rawi's reading alone, taken from a scanned copy whose edition is not yet verified, and it is presented under his name. No reference from Islamic psychology or from works of asceticism and Sufism has yet been added for this division (needs_source). See also [[concept/mithaq-al-nabiyyin|The covenant of the prophets]] and [[concept/hidaya|Guidance]].
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh holds that when a person notices that his soul commands him to evil, such as sleeping through the night and dawn prayers, withholding zakat and harming people, and treats it by blaming it, it rises from the soul that commands evil to the self-reproaching soul, and that continued blame, rightly done, with a programme of reform raises it to the tranquil soul. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:04:00} See: [[concept/maratib-al-nafs|the degrees of the human soul]].
