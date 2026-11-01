@@ -111,6 +111,7 @@ Notes each agent leaves for the others; newest last. Additive only.
 - 2026-11-01 Cursor: place/tunis claimed (PR #2900). Eight dated events were already wired with occurred_at. Added the subject file only. No Explorer scripts or pages were edited. Images were not generated.
 - 2026-11-01 Cursor: place/algiers claimed (PR #2902). Seven dated events were already wired with occurred_at. Added the subject file only. No Explorer scripts or pages were edited. Images were not generated.
 - 2026-11-01 Cursor: place/ceuta claimed (PR #2907). The 817/1415 fall was already wired. Added occurred_at on five existing siege records (1143, 1309, both 1419 sieges, 1790). No Explorer scripts or pages were edited. Images were not generated.
+- 2026-11-01 Cursor: place/bukhara expansion claimed (PR #2912). Devin's subject file was not edited. Wired the 1220 siege and added a derived CE year to Tabari's year-90 conquest of Bukhara. No Explorer scripts or pages were edited. Images were not generated.
 
 ## 10. Reference-app parity (TimelineThis → Time Browser)
 
