@@ -1,0 +1,39 @@
+id: person/kader-abdolah
+class: person
+label: { ar: "قادر عبد الله", en: "Kader Abdolah", ur: "قادر عبد اللہ" }
+names:
+  - { value: "حسین سجادی قائم‌مقامی فراهانی", kind: full }
+  - { value: "Hossein Sadjadi Ghaemmaghami Farahani", kind: full }
+  - { value: "قادر عبدالله", kind: pen }
+  - { value: "Kader Abdolah", kind: pen }
+  - { value: "Mirza", kind: pen }
+gender: male
+summary:
+  ar: "كاتب وشاعر وكاتب عمود إيراني هولندي، وُلد في آراك سنة 1954 باسم حسين سجادي قائم‌مقامی فراهانی. ناشط يساري سابق فرّ من إيران واستقر في هولندا سنة 1988 ويكتب بالهولندية؛ واختيرت روايته «دار المسجد» (2005) من بين أفضل الروايات الهولندية على الإطلاق، ونشر ترجمة هولندية للقرآن سنة 2008."
+  en: "Iranian-Dutch writer, poet and columnist, born in Arak in 1954 under the name Hossein Sadjadi Ghaemmaghami Farahani. A former left-wing activist who fled Iran and settled in the Netherlands in 1988, he writes in Dutch; The House of the Mosque (2005) was voted among the best Dutch novels ever written, and he published a Dutch translation of the Qur'an in 2008."
+  ur: "ایرانی ہالینڈی مصنف، شاعر اور کالم نگار، 1954 میں اراک میں حسین سجادی قائم مقامی فراهانی کے نام سے پیدا ہوئے۔ سابق بائیں بازو کے کارکن، وہ ایران سے فرار ہو کر 1988 میں نیدرلینڈز میں آباد ہوئے اور ولندیزی زبان میں لکھتے ہیں؛ ان کا ناول «دی ہاؤس آف دی موسک» (2005) بہترین ولندیزی ناولوں میں شمار ہوا، اور 2008 میں انہوں نے قرآن کا ولندیزی ترجمہ شائع کیا۔"
+roles: [writer, poet]
+wings: [people, living]
+regions: [persia-central-asia, andalus-europe]
+born:
+  edtf: "1954-11-12"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article and the Dutch article (the latter citing the Dutch literary database DBNL) give 12 November 1954 in Arak; the Arabic article and Wikidata give 12 December 1954. The record follows November with status debated and the December reading preserved. Both readings fall in the same Hijri year, so the derived Hijri year (1374) is unaffected. Arak has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
+  sources: [source/wikipedia-kader-abdolah-en, source/wikipedia-kader-abdolah-nl, source/wikipedia-kader-abdolah-ar, source/wikidata-kader-abdolah]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion or school for Abdolah himself. The Dutch article records that he grew up in a religious family in a region where Islam was strictly observed — family background, which never counts — and his Dutch translation of the Qur'an and his narration of the life of Muhammad are literary works, not attestations of his own faith. Wikidata carries no religion (P140) statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-kader-abdolah-en, source/wikipedia-kader-abdolah-nl, source/wikidata-kader-abdolah]
+external_ids: { wikidata: "Q381254" }
+sources: [source/wikipedia-kader-abdolah-en, source/wikipedia-kader-abdolah-ar, source/wikipedia-kader-abdolah-nl, source/wikidata-kader-abdolah]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379938778), Arabic Wikipedia (revision 73780809), Dutch Wikipedia (revision 72093761) and Wikidata Q381254 (item revision 2563185958, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-156a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

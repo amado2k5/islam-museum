@@ -835,11 +835,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mostafa Asal — 2001–Living
 - [x] Diego Elías (Contemporary) — 1996–Living
 - [x] Sholeh Wolpé — 1962–Living
-- [ ] Kaveh Akbar — 1989–Living
-- [ ] Reza Aslan — 1972–Living
-- [ ] Azar Nafisi — 1948–Living
-- [ ] Marjane Satrapi — 1969–Living
-- [ ] Kader Abdolah — 1954–Living
+- [x] Kaveh Akbar — 1989–Living
+- [x] Reza Aslan — 1972–Living
+- [x] Azar Nafisi — 1948–Living
+- [x] Marjane Satrapi — 1969–Living
+- [x] Kader Abdolah — 1954–Living
 - [ ] Dina Nayeri — 1979–Living
 - [ ] Rabih Alameddine — 1959–Living
 - [ ] Hisham Matar — 1970–Living
