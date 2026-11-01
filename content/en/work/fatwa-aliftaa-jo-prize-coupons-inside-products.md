@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question on a food company putting prize coupons inside some of its products, in which Jordan's General Iftaa Department answered that such prizes are gifts and are permitted under three conditions. {cite:aliftaa-jo fatwa 3833}
+A question on a food company putting prize coupons inside some of its products, in which [[group/general-iftaa-department-jordan|Jordan's General Iftaa Department]] answered that such prizes are gifts and are permitted under three conditions. {cite:aliftaa-jo fatwa 3833}
 
 ## The question
 
