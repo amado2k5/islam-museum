@@ -816,11 +816,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Kimia Alizadeh — 1998–Living
 - [x] Elnaz Rekabi — 1989–Living
 - [x] Sarra Besbes — 1989–Living
-- [ ] Inès Boubakri — 1988–Living
-- [ ] Habiba Ghribi — 1984–Living
-- [ ] Oussama Mellouli — 1984–Living
-- [ ] Ahmed Hafnaoui — 2002–Living
-- [ ] Farida Osman — 1995–Living
+- [x] Inès Boubakri — 1988–Living
+- [x] Habiba Ghribi — 1984–Living
+- [x] Oussama Mellouli — 1984–Living
+- [x] Ahmed Hafnaoui — 2002–Living
+- [x] Farida Osman — 1995–Living
 - [ ] Hedaya Malak — 1993–Living
 - [ ] Feryal Abdelaziz — 1999–Living
 - [ ] Giana Farouk — 1994–Living
