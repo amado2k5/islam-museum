@@ -1,0 +1,27 @@
+id: event/mutanabbi-flight-fustat-350
+class: event
+kind: migration
+label:
+  ar: "هرب المتنبي من الفسطاط يوم النحر، ٣٥٠هـ/٩٦٢م"
+  en: "Flight from Fustat on the day of sacrifice, 350/962"
+  ur: "فسطاط سے فرار، یوم النحر 350ھ/962ء"
+summary:
+  ar: "يوم عيد الأضحى من سنة ٣٥٠هـ، الموافق ٢٠ كانون الثاني ٩٦٢م، هجا المتنبي كافوراً بهجاء لاذع ثم غادر الفسطاط سراً، وعبر الجزيرة العربية بعد شدائد عظيمة حتى بلغ العراق، فأقام بالكوفة مدة ثم استقر ببغداد {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}."
+  en: "On the feast of sacrifice of 350 — 20 January 962 — after writing a satire on Kafur, al-Mutanabbi left Fustat secretly and, crossing Arabia after great trials, reached Iraq, where he spent some time in Kufa before settling in Baghdad {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}."
+  ur: "350ھ کے یوم النحر — 20 جنوری 962ء — کافور پر طنز لکھنے کے بعد متنبی خفیہ طور پر فسطاط سے نکل گئے اور بڑی مشقتوں کے بعد جزیرہ عرب پار کر کے عراق پہنچے؛ کچھ عرصہ کوفہ میں رہے پھر بغداد میں مقیم ہوئے {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0962-01-20", hijri: "0350-12-10", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم النحر سنة ٣٥٠هـ = ١٠ ذي الحجة، وتوافقه دائرة المعارف ٢٠ كانون الثاني ٩٦٢م {cite:encyclopaedia-of-islam-2 vol. 7 p. 770}؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/al-mutanabbi, role: "الهارب الهجّاء", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/kafur-al-ikhshidi, role: "المهجوّ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (AL-MUTANABBI, Blachere-Pellat), printed pp. 769-771"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mutanabbi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
