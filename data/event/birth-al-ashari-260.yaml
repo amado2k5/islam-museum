@@ -1,0 +1,28 @@
+id: event/birth-al-ashari-260
+class: event
+kind: birth
+label:
+  ar: "ولادة أبي الحسن الأشعري بالبصرة، ٢٦٠هـ"
+  en: "Abu al-Hasan al-Ash'ari is born at Basra, 260/873-4"
+  ur: "ابو الحسن اشعری کی ولادت بصرہ میں، 260ھ/873-874ء"
+summary:
+  ar: "وُلد أبو الحسن علي بن إسماعيل بن أبي بشر (إسحاق بن سالم) الأشعري اليماني البصري بالبصرة سنة ستين ومائتين الموافقة ٨٧٣–٨٧٤م، وقيل بل وُلد سنة سبعين ومائتين {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:siyar-alam-nubala 15/85}؛ وهو التاسع في النسب إلى الصحابي أبي موسى الأشعري {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}."
+  en: "Abu al-Hasan Ali ibn Isma'il ibn Abi Bishr (Ishaq ibn Salim) al-Ash'ari al-Yamani al-Basri was born at Basra in 260/873-4; it is also said that he was born in 270 {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:siyar-alam-nubala 15/85}. He was ninth in descent from the Companion Abu Musa al-Ash'ari {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}."
+  ur: "ابو الحسن علی بن اسماعیل بن ابی بشر (اسحاق بن سالم) اشعری یمانی بصری بصرہ میں سن 260ھ، بمطابق 873-874ء، پیدا ہوئے؛ ایک قول یہ بھی ہے کہ وہ 270ھ میں پیدا ہوئے {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:siyar-alam-nubala 15/85}۔ وہ صحابی ابو موسیٰ اشعری کی اولاد میں نویں نمبر پر تھے {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔"
+wings: [time]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0874~", hijri: "0260", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة ستين ومائتين، وقيل سنة سبعين {cite:siyar-alam-nubala 15/85}؛ دائرة المعارف: ٢٦٠هـ/٨٧٣-٨٧٤م {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}؛ التحويل مشتق.", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/al-ashari, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "سير أعلام النبلاء (الذهبي، تحقيق الأرناؤوط) 15/85 (Apple Vision OCR)؛ Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), PDF p. 743 = printed p. 694, art. al-Ash'ari Abu 'l-Hasan (W. Montgomery Watt)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

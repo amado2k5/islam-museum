@@ -1,0 +1,28 @@
+id: event/death-al-ashari-324
+class: event
+kind: death
+label:
+  ar: "وفاة أبي الحسن الأشعري ببغداد، ٣٢٤هـ"
+  en: "Abu al-Hasan al-Ash'ari dies at Baghdad, 324/935-6"
+  ur: "ابو الحسن اشعری کی وفات بغداد میں، 324ھ/935-936ء"
+summary:
+  ar: "توفي أبو الحسن الأشعري ببغداد سنة أربع وعشرين وثلاثمائة الموافقة ٩٣٥–٩٣٦م، وحطّ عليه جماعة من الحنابلة والعلماء {cite:siyar-alam-nubala 15/86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:fihrist-ibn-al-nadim pp. 648-649}. وروى البيهقي عن زاهر بن أحمد السرخسي قال: لما قرب حضور أجل أبي الحسن الأشعري في داره ببغداد دعاني فأتيته فقال: «أشهد عليّ أني لا أكفّر أحداً من أهل القبلة، لأن الكل يشيرون إلى معبود واحد، وإنما هذا كله اختلاف العبارات» {cite:siyar-alam-nubala 15/86}."
+  en: "Abu al-Hasan al-Ash'ari died at Baghdad in 324/935-6, and a group of Hanbalis and scholars joined in finding fault with him {cite:siyar-alam-nubala 15/86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:fihrist-ibn-al-nadim pp. 648-649}. Al-Bayhaqi reports through Zahir ibn Ahmad al-Sarakhsi: when al-Ash'ari's end drew near at his house in Baghdad he summoned me and said, 'Bear witness that I declare no one of the people of the qibla an unbeliever, for all point to one object of worship; all this is but a difference of wording' {cite:siyar-alam-nubala 15/86}."
+  ur: "ابو الحسن اشعری سن 324ھ، بمطابق 935-936ء، کو بغداد میں فوت ہوئے، اور حنابلہ اور علما کی ایک جماعت نے ان پر تنقید کی {cite:siyar-alam-nubala 15/86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743} {cite:fihrist-ibn-al-nadim pp. 648-649}۔ بیہقی ظاہر بن احمد سرخسی سے روایت کرتے ہیں: جب بغداد میں ان کے گھر ان کا آخری وقت قریب آیا تو انہوں نے مجھے بلایا اور فرمایا: «گواہ رہو کہ میں اہلِ قبلہ میں سے کسی کو کافر نہیں کہتا، کیونکہ سب ایک ہی معبود کی طرف اشارہ کرتے ہیں؛ یہ سب محض عبارتوں کا اختلاف ہے» {cite:siyar-alam-nubala 15/86}۔"
+wings: [time]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0936~", hijri: "0324", calendar: julian, precision: year, status: tradition, derived: true, note: "مات ببغداد سنة أربع وعشرين وثلاثمائة {cite:siyar-alam-nubala 15/86}؛ ٣٢٤هـ/٩٣٥-٩٣٦م {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}؛ التحويل مشتق.", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-ashari, role: "المتوفى", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim]
+provenance:
+  layer: own-research
+  source: "سير أعلام النبلاء 15/86 (الوفاة والوصية برواية البيهقي عن السرخسي)؛ EI2 vol. 1 PDF p. 743 = printed p. 694؛ الفهرست ص 648-649 (هامش التحقيق: توفي ٣٢٤هـ/٩٣٦م)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

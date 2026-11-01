@@ -1,0 +1,49 @@
+id: person/robert-budi-hartono
+class: person
+label: { ar: "روبرت بودي هارتونو", en: "Robert Budi Hartono", ur: "رابرٹ بوڈی ہارٹونو" }
+names:
+  - { value: "Robert Budi Hartono", kind: full }
+  - { value: "Oei Hwie Tjhong", kind: full }
+  - { value: "黃惠忠", kind: full }
+gender: male
+summary:
+  ar: "روبرت بودي هارتونو (وُلد باسم أوي هوي تجونغ في 28 نيسان 1941 في سمارانغ) رجل أعمال إندونيسي ورث مع أخيه الأكبر مايكل بامبانغ هارتونو شركة جاروم للسجائر من أبيهما أوي وي غوان سنة 1963، وبنى معه مجموعة جاروم وبنك سنترال آسيا وإلكترونيات بوليترون وغراند إندونيسيا؛ أسس نادي جاروم للبادمنتون سنة 1969، ويُعد مع أخيه منذ سنوات أغنى رجال إندونيسيا."
+  en: "Robert Budi Hartono (born Oei Hwie Tjhong on 28 April 1941 in Semarang) is an Indonesian businessman who inherited the Djarum cigarette company with his elder brother Michael Bambang Hartono from their father Oei Wie Gwan in 1963, and built the Djarum Group, Bank Central Asia, Polytron electronics and Grand Indonesia with him; he founded the PB Djarum badminton club in 1969, and the brothers have long been listed as Indonesia's richest people."
+  ur: "رابرٹ بوڈی ہارٹونو (پیدائش بطور اوئی ہوئیے تجونگ 28 اپریل 1941، سیمارانگ) انڈونیشیائی کاروباری ہیں جنھوں نے اپنے بڑے بھائی مائیکل بمبانگ ہارٹونو کے ساتھ 1963 میں اپنے والد اوئی وی گوان سے جاروم سگریٹ کمپنی وراثت میں پائی، اور ان کے ساتھ جاروم گروپ، بینک سینٹرل ایشیا، پولیٹرون الیکٹرانکس اور گرینڈ انڈونیشیا بنایا؛ انھوں نے 1969 میں پی بی جاروم بیڈمنٹن کلب قائم کیا، اور دونوں بھائی برسوں سے انڈونیشیا کے امیر ترین افراد گنے جاتے ہیں۔"
+roles: [businessman]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1941-04-28"
+  hijri: "1360"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles agree on 28 April 1941; the queue row's 1940 is not followed. The English article gives his birthplace as Semarang, while Wikidata carries both Semarang and Kudus as birthplace statements; neither place has an entity on main, so no born_in edge is written. The date falls within the Hijri year 1360, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-robert-budi-hartono-en, source/wikipedia-robert-budi-hartono-id, source/wikidata-robert-budi-hartono]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      FLAGGED for the founder. One independent text attests
+      a faith for Robert Budi Hartono himself: a June 2026
+      study in the journal Diya al-Afkar, in its account of
+      Kudus's plural society, states that Djarum's leader
+      Robert Budi Hartono 'is an Indonesian of Chinese
+      descent and a Catholic'. No second independent text
+      attesting a faith for him was found: the English and
+      Indonesian articles are silent on his religion,
+      Wikidata carries no religion statement, aggregator
+      biodata fields naming a religion are structured data
+      and settle nothing, and the low-grade web pieces that
+      do name a faith for him contradict one another (one
+      calls him a Buddhist, another a Muslim) and are not
+      reliable. Under the founder's two-text rule and the
+      doubt rule the value stays unknown, with the single
+      attestation stated here in full.
+    sources: [source/diya-al-afkar-robert-budi-hartono, source/wikipedia-robert-budi-hartono-en, source/wikipedia-robert-budi-hartono-id, source/wikidata-robert-budi-hartono]
+external_ids: { wikidata: "Q2156645" }
+sources: [source/wikipedia-robert-budi-hartono-en, source/wikipedia-robert-budi-hartono-id, source/diya-al-afkar-robert-budi-hartono, source/wikidata-robert-budi-hartono]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Robert Budi Hartono' (revision 1381230106 of 20 October 2026; the title 'Budi Hartono' redirects to it), the Indonesian article 'Robert Budi Hartono' (revision 29830799 of 17 September 2026), the Diya al-Afkar journal study of June 2026 read in full at the journal's own PDF in-session, and Wikidata Q2156645 (revision 2541219307 of 6 September 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed, and his father Oei Wie Gwan has no record on main, so no child_of edge is written. No Arabic Wikipedia article exists for him (an Egyptian-Arabic arz article does, which prior waves do not count as ar) and no Urdu article, so the Arabic and Urdu prose is the museum's rendering. Queue correction: the row gives his birth year as 1940; both articles give 28 April 1941, which is followed. The sibling edge to his elder brother is written once, in the elder's record (person/michael-bambang-hartono), per the one-write rule. Faith - unknown, FLAGGED: one independent text (the Diya al-Afkar study) calls him a Catholic for the man himself; no second independent text was found, so the two-text rule is not met and the attestation is preserved in full in the faith note.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-177a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

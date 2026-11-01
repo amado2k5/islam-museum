@@ -1,0 +1,29 @@
+id: event/al-ashari-renounces-mutazila-300
+class: event
+kind: declaration
+label:
+  ar: "إعلان الأشعري توبته من الاعتزال في جامع البصرة، ٣٠٠هـ"
+  en: "Al-Ash'ari publicly renounces Mu'tazilism in the Great Mosque of Basra, 300/912-13"
+  ur: "اشعری کا بصرہ کی جامع مسجد میں اعتزال سے توبہ کا اعلان، 300ھ/912-913ء"
+summary:
+  ar: "وضع مؤرخو الأشعري تحوّله من مذهب المعتزلة إلى مذهب أهل الحديث والسنة في سنة ثلاثمائة (٩١٢–٩١٣م) {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}؛ ويروي ابن النديم أنه تاب من القول بالعدل وخلق القرآن في المسجد الجامع بالبصرة يوم الجمعة، فرقي كرسياً ونادى بأعلى صوته: «من عرفني فقد عرفني، ومن لم يعرفني فأنا أعرفه نفسي: أنا فلان بن فلان، كنت أقول بخلق القرآن وأن الله لا يُرى بالأبصار وأن أفعال الشر أنا أفعلها، وأنا تائب مقلع معتقد للرد على المعتزلة، مخرج لفضائحهم ومعايبهم» {cite:fihrist-ibn-al-nadim pp. 648-649}. وتروي الكتب أيضاً أنه رأى في رمضان رؤيا ثلاث مرات أمرته بالتمسك بالسنة من غير ترك الكلام {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}."
+  en: "The historians of al-Ash'ari place his change from the Mu'tazilite doctrine to the party of the orthodox traditionists in 300/912-13 {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}. Ibn al-Nadim relates that he repented of the doctrines of divine justice and the createdness of the Qur'an in the Great Mosque of Basra on a Friday, mounting a chair and proclaiming at the top of his voice: 'Whoever knows me knows me; whoever does not, I tell him who I am: I am so-and-so; I used to say the Qur'an was created, that God cannot be seen with the eyes, and that I myself do evil deeds; I repent and renounce, resolved to refute the Mu'tazila and expose their scandals' {cite:fihrist-ibn-al-nadim pp. 648-649}. The books also relate that in Ramadan he saw a vision three times commanding him to hold fast to true tradition without abandoning kalam {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}."
+  ur: "اشعری کے مؤرخین ان کے معتزلی مسلک سے اہلِ حدیث و سنت کے مسلک کی طرف رجوع کو سن 300ھ (912-913ء) میں قرار دیتے ہیں {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔ ابن الندیم روایت کرتے ہیں کہ انہوں نے بصرہ کی جامع مسجد میں جمعہ کے دن عدل اور قرآن کے مخلوق ہونے کے عقیدے سے توبہ کی، کرسی پر چڑھے اور بلند آواز سے پکارا: «جو مجھے جانتا ہے وہ جانتا ہے، اور جو نہیں جانتا وہ سن لے: میں فلاں بن فلاں ہوں؛ میں قرآن کے مخلوق ہونے، اللہ کے آنکھوں سے نہ دیکھے جانے اور برے کاموں کے میرے ہی کرنے کے قائل تھا؛ اب میں توبہ کرتا ہوں اور معتزلہ کے رد اور ان کی معائب آشکار کرنے پر مصمم ہوں» {cite:fihrist-ibn-al-nadim pp. 648-649}۔ کتب یہ بھی بیان کرتی ہیں کہ رمضان میں انہوں نے تین بار ایسا خواب دیکھا جس میں سنت پر مضبوطی سے قائم رہنے، مگر کلام کو نہ چھوڑنے کا حکم دیا گیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔"
+wings: [time]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0913~", hijri: "0300", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٣٠٠هـ/٩١٢-٩١٣م عند دائرة المعارف {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}؛ رواية ابن النديم تذكر يوم الجمعة في جامع البصرة دون سنة {cite:fihrist-ibn-al-nadim pp. 648-649}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-ashari, role: "المعلن التوبة من الاعتزال", sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: group/mutazila, role: "المذهب المفارَق", sources: [source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الفهرست لابن النديم (تحقيق أيمن فؤاد سيد) ص 648-649 (Apple Vision OCR)؛ EI2 vol. 1 PDF p. 743 = printed p. 694, art. al-Ash'ari"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

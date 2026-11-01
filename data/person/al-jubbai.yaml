@@ -1,17 +1,26 @@
 id: person/al-jubbai
 class: person
-label: { ar: "الجبائي شيخ المعتزلة", en: "al-Jubba'i" }
-died: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي في شعبان سنة ثلاث وثلاثمائة {cite:wafayat-ayan}." }
-summary:
-  ar: "أبو علي محمد بن عبد الوهاب بن سلام بن خالد الجبائي أحد أئمة المعتزلة؛ كان إماماً في علم الكلام ورئيس المتكلمين في عصره، أخذ هذا العلم عن أبي يوسف يعقوب بن عبد الله الشحام البصري رئيس المعتزلة بالبصرة، وعنه أخذ الشيخ أبو الحسن الأشعري شيخ السنة علم الكلام {cite:wafayat-ayan}."
-  en: "Abu Ali Muhammad ibn Abd al-Wahhab ibn Salam ibn Khalid al-Jubba'i, one of the imams of the Mu'tazila; he was an imam in kalam and the leading theologian of his age. He took this discipline from Abu Yusuf Ya'qub ibn Abd Allah al-Shahham al-Basri, head of the Mu'tazila in Basra, and from him Abu al-Hasan al-Ash'ari, shaykh of the Sunna, took the science of kalam {cite:wafayat-ayan}."
+label: { ar: "الجبائي شيخ المعتزلة", en: "al-Jubba'i", ur: "جبّائی" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي محمد بن عبد الوهاب بن سلام بن خالد الجبائي" }
+aliases: [person/abu-ali-al-jubbai]   # same man (Fihrist card merged here, 2026-11-01)
 gender: male
+roles: [scholar, theologian]
+born: { edtf: "0849~", hijri: "0235", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة خمس وثلاثين ومائتين {cite:wafayat-ayan} {cite:fihrist-ibn-al-nadim p. 530}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/fihrist-ibn-al-nadim] }
+died: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي في شعبان سنة ثلاث وثلاثمائة {cite:wafayat-ayan}؛ سنة ٣٠٣ عند الفهرست {cite:fihrist-ibn-al-nadim p. 530}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/fihrist-ibn-al-nadim] }
+summary:
+  ar: "أبو علي محمد بن عبد الوهاب بن سلام بن خالد الجبائي أحد أئمة المعتزلة؛ كان إماماً في علم الكلام ورئيس المتكلمين في عصره، أخذ هذا العلم عن أبي يوسف يعقوب بن عبد الله الشحام البصري رئيس المعتزلة بالبصرة، وعنه أخذ الشيخ أبو الحسن الأشعري شيخ السنة علم الكلام {cite:wafayat-ayan}. وهو الذي ذلل الكلام وسهله وإليه انتهت رئاسة البصريين في زمانه عند ابن النديم، مولده سنة ٢٣٥ وتوفي سنة ٣٠٣ ودفنه ابنه أبو هاشم في جبا {cite:fihrist-ibn-al-nadim p. 530}."
+  en: "Abu Ali Muhammad ibn Abd al-Wahhab ibn Salam ibn Khalid al-Jubba'i, one of the imams of the Mu'tazila; he was an imam in kalam and the leading theologian of his age. He took this discipline from Abu Yusuf Ya'qub ibn Abd Allah al-Shahham al-Basri, head of the Mu'tazila in Basra, and from him Abu al-Hasan al-Ash'ari, shaykh of the Sunna, took the science of kalam {cite:wafayat-ayan}. Ibn al-Nadim calls him the man who made kalam easy and to whom the leadership of the Basrans came in his time; born 235, died 303, buried by his son Abu Hashim at Jubba {cite:fihrist-ibn-al-nadim p. 530}."
+  ur: "ابو علی محمد بن عبد الوہاب بن سلام بن خالد جبّائی معتزلہ کے ائمہ میں سے تھے؛ وہ علمِ کلام کے امام اور اپنے عہد کے رئیس المتکلمین تھے۔ انہوں نے یہ علم بصرہ کے معتزلی سردار ابو یوسف یعقوب بن عبد اللہ شحام بصری سے لیا، اور انھی سے ابو الحسن اشعری نے علمِ کلام پڑھا {cite:wafayat-ayan}۔ ابن الندیم کے نزدیک انہی نے کلام کو آسان کیا اور اپنے زمانے میں بصریوں کی قیادت انہی تک پہنچی؛ پیدائش 235ھ، وفات 303ھ، اور ان کے بیٹے ابو ہاشم نے انہیں جبا میں دفنایا {cite:fihrist-ibn-al-nadim p. 530}۔"
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: died_in, target: place/basra, role: "«مات بالبصرة سنة ثلاث وثلاثمائة» عند الذهبي؛ والفهرست يذكر حمله إلى جبا ودفنه بها", sources: [source/siyar-alam-nubala, source/fihrist-ibn-al-nadim] }
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (المحمدون)، طبعة إحسان عباس، النص المقروء آلياً من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-7
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (المحمدون)، طبعة إحسان عباس، النص المقروء آلياً؛ الفهرست لابن النديم ص 530 (Apple Vision OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+sources: [source/wafayat-ayan, source/fihrist-ibn-al-nadim, source/siyar-alam-nubala]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium); merged duplicate card person/abu-ali-al-jubbai" }
