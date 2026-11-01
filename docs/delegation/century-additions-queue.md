@@ -1857,11 +1857,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Sultan Amangkurat II — 1645–1703
 - [x] Sultan Amangkurat III — 1669–1734
 - [x] Pakubuwono I — 1648–1719
-- [ ] Trunojoyo — 1649–1680
-- [ ] Untung Surapati — 1660–1706
-- [ ] Sultan Iskandar Thani — 1610–1641
-- [ ] Sultan Taj al-Alam (female ruler of Aceh) — 1613–1699
-- [ ] Abd al-Ra'uf al-Singkili — 1615–1693
+- [x] Trunojoyo — 1649–1680
+- [x] Untung Surapati — 1660–1706
+- [x] Sultan Iskandar Thani — 1610–1641
+- [x] Sultan Taj al-Alam (female ruler of Aceh) — 1613–1699
+- [x] Abd al-Ra'uf al-Singkili — 1615–1693
 - [ ] Dato Ri Bandang — 1570–1640
 - [ ] Sultan Kudarat — 1581–1671
 - [ ] Subhan Quli Khan of Bukhara — 1633–1702
