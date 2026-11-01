@@ -1,0 +1,81 @@
+id: person/nesati
+class: person
+
+label: { ar: "نشاطي", en: "Neşâtî", ur: "نشاطی" }
+
+names:
+  - { value: "Ahmed", kind: given }
+  - { value: "Neşâtî", kind: pen }
+  - { value: "Süleyman", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "أحمد، المعروف باسمه القلمي نشاطي (وُلد نحو 1600 – توفي 1674)، شاعر ديوان عثماني من أدرنة وشيخ مولوي. كان مريدًا للشيخ آغا زاده محمد دده في غاليبولي، وخدم عند ضريح جلال الدين الرومي في قونية، ثم تولّى منذ 1670 مشيخة خانقاه المولوية المرادية في أدرنة حتى وفاته. وهو من أئمة الغزل ومن روّاد أسلوب «سبك هندي» في التركية، وله «شرح مشكلات عرفي» في شعر أستاذه الفارسي عرفي الشيرازي."
+  en: "Ahmed, known by his pen name Neşâtî (born c. 1600 – died 1674), was an Ottoman divan poet of Edirne and a Mevlevi shaykh. A disciple of Ağazâde Mehmed Dede at Gelibolu, he served at the tomb of Jalal al-Din Rumi in Konya and from 1670 held the shaykhdom of the Muradiyye Mevlevihane in Edirne until his death. A master of the gazel and a pioneer of the Sebk-i Hindî style in Turkish, he wrote the Şerh-i Müşkilât-ı Urfî on his Persian master Urfî of Shiraz."
+  ur: "احمد، اپنے قلمی نام نشاطی سے مشہور (پیدائش تقریباً 1600ء – وفات 1674ء)، ادرنہ کے عثمانی دیوان شاعر اور مولوی شیخ تھے۔ غالیبولی میں آغا زادہ محمد ددے کے مرید ہوئے، قونیہ میں جلال الدین رومی کے مزار پر خدمت کی، اور 1670ء سے وفات تک ادرنہ کی مرادیہ مولوی خانقاہ کے شیخ رہے۔ غزل کے استاد اور ترکی میں «سبکِ ہندی» کے بانیوں میں سے تھے؛ اپنے فارسی استاد عرفی شیرازی پر «شرح مشکلاتِ عرفی» لکھی۔"
+
+roles: [poet, writer]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1600"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Edirne; the year is unknown. The English article speculates about 1600 on the evidence of his poem commemorating the winter of 1621–22, when the Bosphorus froze, and the TDV entry says only that he was born at the start of the seventeenth century. An estimated year is built on that stated basis and marked debated; the year spans 1008–1009 AH, so no Hijri year is built."
+  sources: [source/wikipedia-nesati-en, source/dia-nesati]
+
+died:
+  edtf: "1674"
+  calendar: gregorian
+  precision: year
+  status: historical
+  hijri: "1085"
+  note: "Died at Edirne in office as shaykh of the Muradiyye Mevlevihane and was buried in the hazire of the Muradiyye Mosque there. The TDV entry pairs the death as 1085/1674, the pairing built here; the English and Turkish articles give 1674."
+  sources: [source/wikipedia-nesati-en, source/wikipedia-nesati-tr, source/dia-nesati]
+
+relations:
+  - { type: born_in, target: place/edirne, sources: [source/wikipedia-nesati-en, source/dia-nesati] }
+  - { type: died_in, target: place/edirne, sources: [source/wikipedia-nesati-en, source/wikipedia-nesati-tr, source/wikidata-nesati] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: >-
+      Order membership and completed discipleship attested for the
+      man himself in three independent texts. The English article
+      states that he was a Sufi of the Mevlevi Order, first became
+      affiliated with the order as a disciple of the shaykh
+      Ağazâde Mehmed Dede at Gelibolu and then at Beşiktaş,
+      served for a time at the tomb of Jalal al-Din Rumi in Konya,
+      and returned about 1670 to Edirne as shaykh of the
+      Murâdiyye Mevlevîhâne, dying in that post. The Turkish
+      article states that he became a dervish of Ağazâde Mehmed
+      Efendi at the Gelibolu Mevlevihane and in 1670 was
+      appointed to the Edirne Mevlevihane shaykhdom vacated by
+      Osman Dede. The TDV entry states that he profited greatly
+      from his shaykh Ağazâde Mehmed Dede, postnişin of the
+      Gelibolu Mevlevîhâne, was appointed shaykh of the Edirne
+      Mevlevihane in 1081/1670, served four years and died in
+      office. Under the founder's rule, attested order membership
+      and personal mastership settle sufi at basis documented.
+      Wikidata's religion statement files Islam generically and
+      is not relied on.
+    sources: [source/wikipedia-nesati-en, source/wikipedia-nesati-tr, source/dia-nesati]
+
+external_ids: { wikidata: "Q3564095" }
+
+sources:
+  - source/wikipedia-nesati-en
+  - source/wikipedia-nesati-tr
+  - source/dia-nesati
+  - source/wikidata-nesati
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1316193721 of 11 October 2025), Turkish Wikipedia (revision 37028203 of 12 April 2026), Bayram Ali Kaya's entry in the TDV İslâm Ansiklopedisi (2007, online edition, read in-session 1 November 2026) and Wikidata Q3564095 (item revision 2554101272 of 6 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Turkish article agreeing. No Arabic, Persian or Urdu article exists. Existence checked against origin/main before building — no record holds this man under nesati or any name fragment; shirin-neshat is a different person, the contemporary artist. His name is given as Ahmed by the majority of sources and the TDV entry, one source claiming Süleyman, which the Turkish article reports as what is thought; the majority form is built and the minority claim kept as an alternate name. place/edirne exists on main. No record exists for his shaykh Ağazâde Mehmed Dede and no group entity for the Mevlevi order, so the discipleship is stated in the faith note and prose without an edge."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-174m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
