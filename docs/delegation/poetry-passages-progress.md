@@ -36,3 +36,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 
 - PR 1 (#2987): Tamim delegation poems (25).
 - PR 2: Zibriqan second boast, Amr ibn Ma'dikarib, Hassan 'qawmi ulaika', Malik ibn Awf, Abbas ibn Mirdas (atab), Hassan's Mu'tah elegy (25).
+- PR 3: Ka'b ibn Malik's Mu'tah elegy, Hassan's elegy for the Prophet, Abu Afak, Umama al-Muzayriyya (24).
