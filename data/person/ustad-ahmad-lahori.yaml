@@ -1,0 +1,57 @@
+id: person/ustad-ahmad-lahori
+class: person
+
+label: { ar: "الأستاذ أحمد لاهوري", en: "Ustad Ahmad Lahori", ur: "استاد احمد لاہوری" }
+
+names:
+  - { value: "Ahmad Lahori", kind: full }
+  - { value: "Ahmad Mi'mar Lahori", kind: alternate }
+  - { value: "Nadir al-Asr", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "الأستاذ أحمد لاهوري (ق. 1580 – 1649)، المعروف أيضًا بأحمد معمار، مهندس معماري ومهندس في خدمة الإمبراطور المغولي شاه جهان. تسمّيه الحوليات الرسمية لشاه جهان، مع الأستاذ حميد، بين مهندسي القلعة الحمراء في دلهي (1639–1648). ويوصف على نطاق واسع بأنه مهندس تاج محل في أغرة، لكن هوية مهندس تاج محل ليست معروفة على وجه اليقين؛ فالدليل الصريح الوحيد على النسبة إليه قصيدة لابنه لطف الله مهندس كُتبت بعد وفاته."
+  en: "Ustad Ahmad Lahori (c. 1580 – 1649), also known as Ahmad Mi'mar, was an architect and engineer in the service of the Mughal emperor Shah Jahan. Shah Jahan's official chronicle names him, together with Ustad Hamid, among the architects of the Red Fort in Delhi (1639-1648). He is widely described as the architect of the Taj Mahal in Agra, but the identity of the Taj Mahal's architect is not definitely known; the only explicit evidence for the attribution to Ahmad is a poem by his son Lutfullah Muhandis, written after Ahmad's death."
+  ur: "استاد احمد لاہوری (تقریباً 1580ء – 1649ء)، جنھیں احمد معمار بھی کہا جاتا ہے، مغل شہنشاہ شاہ جہاں کے معمار اور انجینئر تھے۔ شاہ جہاں کی سرکاری تواریخ انھیں استاد حمید کے ساتھ دہلی کے لال قلعے (1639ء–1648ء) کے معماروں میں شمار کرتی ہیں۔ انھیں عموماً آگرہ کے تاج محل کا معمار بیان کیا جاتا ہے، لیکن تاج محل کے معمار کی شناخت یقینی طور پر معلوم نہیں؛ اس نسبت کا واحد صریح ثبوت ان کے بیٹے لطف اللہ مہندس کی ایک نظم ہے جو احمد کی وفات کے بعد لکھی گئی۔"
+
+roles: [architect, engineer]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1580"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The Arabic article gives his birth as circa 1580 and the Urdu article gives 1580; the English article gives no birth year, and Wikidata's structured statement also gives 1580. The year is built as debated on the Arabic and Urdu texts. No text read names his birthplace — the nisba Lahori points to Lahore but is a name element, not an attested birthplace — so no born_in edge is written."
+  sources: [source/wikipedia-ustad-ahmad-lahori-ar, source/wikipedia-ustad-ahmad-lahori-ur, source/wikidata-ustad-ahmad-lahori]
+
+died:
+  edtf: "1649"
+  calendar: julian
+  precision: year
+  status: historical
+  note: "All three articles and Wikidata agree on the year 1649. The Urdu article places his death in 1649, before the foundation of Delhi's Jama Masjid was laid; the English article dates the mosque's beginning to 1650, the year after his death, and records that his son Nur Allah signed its dedicatory inscription."
+  sources: [source/wikipedia-ustad-ahmad-lahori-en, source/wikipedia-ustad-ahmad-lahori-ar, source/wikipedia-ustad-ahmad-lahori-ur, source/wikidata-ustad-ahmad-lahori]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read attests a religion or a school for Ahmad Lahori himself. The articles present him as Shah Jahan's chief architect, of a family of architects and engineers, learned in geometry, arithmetic and astronomy, and honoured by the emperor with the title Nadir al-Asr (Wonder of the Age). His name, his court and his milieu settle nothing under the founder rulings, so his faith is recorded as unknown."
+    sources: [source/wikipedia-ustad-ahmad-lahori-en, source/wikipedia-ustad-ahmad-lahori-ar, source/wikipedia-ustad-ahmad-lahori-ur]
+
+external_ids: { wikidata: "Q2551253" }
+
+sources:
+  - source/wikipedia-ustad-ahmad-lahori-en
+  - source/wikipedia-ustad-ahmad-lahori-ar
+  - source/wikipedia-ustad-ahmad-lahori-ur
+  - source/wikidata-ustad-ahmad-lahori
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381561018 of 23 October 2026), Arabic Wikipedia (revision 75621151 of 22 June 2026), Urdu Wikipedia (revision 11792627 of 15 August 2026) and Wikidata Q2551253 (item revision 2558267633 of 18 October 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID. Attribution care, recorded as the sources present it: the English article states that the identity of the Taj Mahal's architect or architects is not definitely known, that Shah Jahan's official histories name only the supervisors Makramat Khan and Mir Abd al-Karim, and that the only explicit evidence for Ahmad is the Diwan-i Muhandis poem of his son Lutfullah, composed after Ahmad's death, which calls him the builder of the tomb of Mumtaz Mahal and afterwards of the Delhi fort — the fort claim corroborated by the official chronicle in Begley and Desai's translation, which names Ustad Ahmad and Ustad Hamid as the fort's chief architects. The Arabic and Urdu articles present the Taj attribution without that caveat; the divergence is preserved here and in the prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-171m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

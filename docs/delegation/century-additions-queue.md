@@ -910,11 +910,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] M. A. Yusuff Ali — 1955–Living
 - [x] Renuka Jagtiani (Contemporary) — 1954–Living
 - [x] Joy Alukkas (Contemporary) — 1956–Living
-- [ ] Ravi Pillai (Contemporary) — 1953–Living
-- [ ] Sunny Varkey — 1957–Living
-- [ ] Yusuf Hamied — 1936–Living
-- [ ] Habil Khorakiwala — 1942–Living
-- [ ] Faizal Kottikollon — 1963–Living
+- [x] Ravi Pillai (Contemporary) — 1953–Living
+- [x] Sunny Varkey — 1957–Living
+- [x] Yusuf Hamied — 1936–Living
+- [x] Habil Khorakiwala — 1942–Living
+- [x] Faizal Kottikollon — 1963–Living
 - [ ] Dr. Azad Moopen — 1953–Living
 - [ ] Shamsheer Vayalil — 1977–Living
 - [ ] Firoz Merchant — 1958–Living
@@ -1822,11 +1822,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Mir Jumla II — 1591–1663
 - [x] Asad Khan — 1625–1716
 - [x] Mahabat Khan II — 1610–1678
-- [ ] Ali Mardan Khan — 1590–1657
-- [ ] Ustad Ahmad Lahori — 1580–1649
-- [ ] Mohammad Salih Kanbu — 1608–1675
-- [ ] Inayat Khan (Abul Fazl's successor chronicler) — 1603–1671
-- [ ] Sa'adullah Khan — 1590–1656
+- [x] Ali Mardan Khan — 1590–1657
+- [x] Ustad Ahmad Lahori — 1580–1649
+- [x] Mohammad Salih Kanbu — 1608–1675
+- [x] Inayat Khan (Abul Fazl's successor chronicler) — 1603–1671
+- [x] Sa'adullah Khan — 1590–1656
 - [ ] Danishmand Khan — 1625–1670
 - [ ] Shah Abbas II — 1632–1666
 - [ ] Mirza Muhammad Tahir Nasab — 1630–1700

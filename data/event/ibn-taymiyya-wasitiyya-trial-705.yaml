@@ -1,0 +1,29 @@
+id: event/ibn-taymiyya-wasitiyya-trial-705
+class: event
+kind: council
+label:
+  ar: "مجالس الواسطية وسجن قلعة القاهرة، ٧٠٥-٧٠٧هـ/١٣٠٦-١٣٠٧م"
+  en: "The Wasitiyya councils and the Cairo citadel imprisonment, 705-707/1306-1307"
+  ur: "واسطیہ کے مجالس اور قلعہ قاہرہ کی قید، 705-707ھ/1306-1307ء"
+summary:
+  ar: "شكّك خصوم ابن تيمية في عقيدته «الواسطية» التي كتبها قبيل دخول المغول دمشق، فعُقد مجلسان بدار نائب السلطان في ٨ و١٢ رجب ٧٠٥هـ/٢٤ و٢٨ يناير ١٣٠٦م فحُكم بأن الواسطية موافقة للكتاب والسنة، ثم أعاد قاضي القضاة ابن الصرصري فتح القضية فعُقد مجلس ثالث بأمر السلطان في ٧ شعبان ٧٠٥هـ/٢٢ فبراير ١٣٠٦م فلم تُدان الواسطية واستقال ابن الصرصري. أُرسل الخصمان إلى القاهرة فوصلا في ٢٢ رمضان ٧٠٥هـ/٧ أبريل ١٣٠٦م، وفي اليوم التالي دان مجلس بالقلعة ضمّ قضاة مصر الأربعة ابنَ تيمية بالتشبيه وحكم بسجنه، فمكث في قلعة القاهرة نحو سنة ونصف حتى أُفرج عنه في ٢٦ ربيع الأول ٧٠٧هـ/٢٥ سبتمبر ١٣٠٧م بشفاعة الأمير سالار وأمير البادية مهنا بن عيسى {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}."
+  en: "Ibn Taymiyya's enemies cast doubt on his Wasitiyya, written shortly before the Mongols entered Damascus. Two councils at the governor's residence on 8 and 12 Rajab 705/24 and 28 January 1306 found it 'in conformity with the Qur'an and the Sunna'; when the qadi al-qudat Ibn al-Sarsari reopened the matter, a third council on 7 Sha'ban 705/22 February 1306 again declined to condemn it, and Ibn al-Sarsari resigned. The two adversaries were sent to Cairo, arriving on 22 Ramadan 705/7 April 1306. The next day a citadel council of Egypt's four chief qadis convicted him of anthropomorphism; he remained in the Cairo citadel about a year and a half, released on 26 Rabi' I 707/25 September 1307 through the intercession of the amir Salar and the Bedouin amir Muhanna ibn Isa {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}."
+  ur: "ابن تیمیہ کے مخالفین نے ان کی «واسطیہ» پر شک پیدا کیا جو انہوں نے منگولوں کے دمشق داخل ہونے سے کچھ پہلے لکھی تھی۔ نائب سلطان کی رہائش گاہ پر 8 اور 12 رجب 705ھ/24 اور 28 جنوری 1306ء کو دو مجالس نے اسے قرآن و سنت کے مطابق قرار دیا؛ قاضی القضاة ابن الصرصری نے معاملہ دوبارہ کھولا تو تیسری مجلس 7 شعبان 705ھ/22 فروری 1306ء کو بھی واسطیہ کی مذمت نہ کی اور ابن الصرصری مستعفی ہوا۔ دونوں فریقوں کو قاہرہ بھیجا گیا جہاں وہ 22 رمضان 705ھ/7 اپریل 1306ء کو پہنچے؛ اگلے ہی دن قلعہ میں مصر کے چاروں قاضی القضاة کی مجلس نے انہیں تشبیہ کا مرتکب قرار دے کر قید کا حکم دیا۔ وہ قلعہ قاہرہ میں ڈیڑھ سال قریب رہے اور امیر سالار اور بدو امیر مہنا بن عیسیٰ کی سفارش پر 26 ربیع الاول 707ھ/25 ستمبر 1307ء کو رہا ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "1306-01-24", hijri: "0705-07-08", calendar: julian, precision: day, status: historical, derived: true, note: "أول مجلس على الواسطية ٨ رجب ٧٠٥هـ/٢٤ يناير ١٣٠٦م {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}؛ التحويل مشتق." }
+  end: { edtf: "1307-09-25", hijri: "0707-03-26", calendar: julian, precision: day, status: historical, derived: true, note: "الإفراج عنه من قلعة القاهرة ٢٦ ربيع الأول ٧٠٧هـ/٢٥ سبتمبر ١٣٠٧م {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "صاحب العقيدة فالمسجون", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 984 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

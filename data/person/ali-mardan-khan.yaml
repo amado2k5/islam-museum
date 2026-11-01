@@ -1,0 +1,69 @@
+id: person/ali-mardan-khan
+class: person
+
+label: { ar: "علي مردان خان", en: "Ali Mardan Khan", ur: "علی مردان خان" }
+
+names:
+  - { value: "Ali Mardan Khan", kind: full }
+  - { value: "Amir al-Umara", kind: laqab }
+  - { value: "Baba-yi Thani", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "علي مردان خان (توفي 1657) قائد عسكري وإداري كردي من قبيلة الزيغ، حكم قندهار باسم الشاهات الصفويين ثم سلّم المدينة إلى الإمبراطور المغولي شاه جهان سنة 1638. كافأه المغول بأعلى رتب النبلاء ولقب «أمير الأمراء»، فحكم كشمير والبنجاب وكابل، وكان راعيًا كبيرًا للحدائق والقنوات والخانات، ومنها القناة التي غذّت شاليمار باغ في لاهور."
+  en: "Ali Mardan Khan (died 1657) was a Kurdish military leader and administrator of the Zig tribe who governed Kandahar for the Safavid shahs before surrendering the city to the Mughal emperor Shah Jahan in 1638. Rewarded with the highest rank of the Mughal nobility and the title Amir al-Umara, he governed Kashmir, the Punjab and Kabul, and was a major patron of gardens, canals and caravanserais, including the canal that fed Lahore's Shalimar Bagh."
+  ur: "علی مردان خان (وفات 1657ء) زیگ قبیلے کے کرد فوجی قائد اور منتظم تھے، جنھوں نے صفوی شاہوں کی طرف سے قندھار کی حکومت کی، پھر 1638ء میں شہر مغل شہنشاہ شاہ جہاں کے حوالے کر دیا۔ مغلوں نے انھیں امرا کی بلند ترین رتبہ اور «امیر الامرا» کا خطاب دیا؛ انھوں نے کشمیر، پنجاب اور کابل کی حکومت کی، اور باغات، نہروں اور کارواں سرایوں کے بڑے سرپرست رہے، جن میں لاہور کے شالیمار باغ کو پانی پہنچانے والی نہر بھی شامل ہے۔"
+
+roles: [general, governor]
+regions: [south-asia, persia-central-asia]
+wings: [people]
+
+died:
+  edtf: "1657-04-02"
+  calendar: julian
+  precision: day
+  status: debated
+  note: "The English and Arabic articles give his death on 2 April 1657; the Urdu article and the Wikidata statement give 26 April 1657 instead, and the Encyclopaedia Iranica life dates his fatal illness to the summer of 1657. The 2 April date is built and the rival readings preserved. The place of death is also divided — the Iranica heading gives Lahore, while the tomb literature has him die in Kabul or on the road to Kashmir — and all accounts agree only that his son Ibrahim brought his body to Lahore, where he was buried in the tomb of his mother, so no died_in edge is written."
+  sources: [source/wikipedia-ali-mardan-khan-en, source/wikipedia-ali-mardan-khan-ar, source/wikipedia-ali-mardan-khan-ur, source/wikidata-ali-mardan-khan, source/iranica-ali-mardan-khan]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Withheld under the founder one-family rule and FLAGGED for a
+      founder ruling. A single scholarly characterization names this
+      man a Shia: S. A. A. Rizvi's A Socio-Intellectual History of
+      Isna 'Ashari Shi'is in India (Vol. 2, pp. 15-17, Canberra, 1986),
+      as carried in the Wikipedia survey 'Shia Islam in South Asia',
+      calls him the most influential Shia of Shahjahan's era and
+      records that in Kashmir he built gardens and a caravanserai in
+      the name of the twelve Shia Imams. The survey's sister articles
+      repeat the same sentence from the same book, so this is ONE
+      source family, not two independent texts; the founder ruling
+      withholds settlement on a single family (the Liu Zhi precedent
+      of wave 169), and a founder ruling could settle shia-twelver in
+      one edit, since Rizvi's book is a history of the Twelvers and
+      supplies the Twelver context. His Safavid service and his
+      Kurdish-Persian origin are milieu and settle nothing; the
+      Encyclopaedia Iranica life and the three biographical articles
+      name no confession for him, and Wikidata carries no religion
+      statement.
+    sources: [source/wikipedia-shia-islam-in-south-asia-en, source/wikipedia-ali-mardan-khan-en, source/iranica-ali-mardan-khan]
+
+external_ids: { wikidata: "Q4724996" }
+
+sources:
+  - source/wikipedia-ali-mardan-khan-en
+  - source/wikipedia-ali-mardan-khan-ar
+  - source/wikipedia-ali-mardan-khan-ur
+  - source/wikidata-ali-mardan-khan
+  - source/wikipedia-shia-islam-in-south-asia-en
+  - source/iranica-ali-mardan-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378915923 of 6 October 2026), Arabic Wikipedia (revision 76103780 of 4 August 2026), Urdu Wikipedia (revision 7740349 of 13 April 2025) and Wikidata Q4724996 (item revision 2542365199 of 8 September 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Mehrnoush Soroush's Encyclopaedia Iranica life of Ali Mardan Khan (last updated 13 October 2017) and the Wikipedia survey 'Shia Islam in South Asia' (revision 1383118100 of 1 November 2026), which carries Rizvi's characterization, were read in full the same day. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID. No birth date is built: no text read gives one (the Iranica life calls his early years obscure), Wikidata's structured +1638 statement is the year of his defection and not a birth, and the queue's 1590 is supported by no text read — a queue correction, flagged. His birthplace is likewise not jointly supported (the English infobox says Kandahar, Wikidata's statement says Kerman), so no born_in edge is written. The surrender of Kandahar and the governorships of Kashmir, the Punjab and Kabul are as the articles and the Iranica life give them."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-171m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
