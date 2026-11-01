@@ -34,3 +34,6 @@ The Sheikh jokes that if he became a manager his first decision would be to jail
 ## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
 
 The Sheikh holds, as his own opinion, that many people spend their lives seeking money and rank, and in resentment and envy of others, instead of asking what they have given to God's cause {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:13:30}. He says that the story of Qarun repeats throughout history, since people today look at the world's billionaires and wish for what they have been given {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:15:00}.
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy says that the envier is not content with God's apportioning, that envy brings two calamities on the one who harbours it, and cites the verses 'Say to the one who spends the night envying me'. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:20:30}

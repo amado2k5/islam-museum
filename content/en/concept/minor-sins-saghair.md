@@ -26,3 +26,6 @@ He says that no minor sin remains minor when it is persisted in, and that no maj
 ## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
 
 The Sheikh says that a small sin becomes great when one persists in it {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:45:30}. He says that the scholars divide sins into minor and major, and that minor faults (lamam) are lighter than major sins {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:05:00}. He relays a saying to the effect that there is no minor sin with persistence {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:07:00}.
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy says that a minor sin does not stay minor when the servant persists in it, {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:00} and illustrates minor sins with a simile of al-Ghazali's: drops of water falling on stone, none of which marks it alone, yet which mark it by their succession; and he says that sins, once gathered, veil the heart from its Lord. {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:05:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:07:30}

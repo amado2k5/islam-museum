@@ -25,3 +25,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يقول عمر عبد الكافي إن حذيفة بن اليمان كان أمين سرّ النبي، والصحابي الوحيد الذي يعرف أسماء المنافقين، وإن عمر لما ولي الخلافة كان ينظر هل يحضر حذيفة جنازة أحد، فإن لم يحضرها لم يصلّ عليها عمر، وإنه سأل حذيفة: أهو منهم؟ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:01:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:02:00}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+ويذكر الشيخ في «المنجيات» أن حذيفة كان عنده أسماء سبعة عشر منافقًا في المدينة، وأن عمر بعد أن صلى على أبي بكر ذهب إلى حذيفة يسأله أهو منهم. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:10:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:11:30} (needs_source: العدد سبعة عشر قاله الشيخ ولم يُطابق بمصدر آخر.)

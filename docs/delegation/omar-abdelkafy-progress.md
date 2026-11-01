@@ -223,3 +223,15 @@ Claims tables: `~/islam-museum-harvest/books/assabile/omar-abdelkafy/<series>/cl
 | Openings, supplications, closing formulae | bustan ep21–25 | Not lesson content | Content rule | open |
 | Poems recited in full (smile verses, 'not optimistic' poet) | bustan ep21 00:09:00–00:10:00 | Verbatim verse beyond 40 words | Sources policy | open |
 | Garbled lines in the wrangling passage | bustan ep24 00:05:30–00:06:30 | Unclear reading | Clarity | open |
+
+### Parallel writer: al-manjeyat (1 Nov 2026, Claude Code claude-opus-5-5)
+
+New series record `work/al-manjeyat` (Ramadan programme on Dubai TV, 27 episodes; about edges to every record written from it).
+
+| Recording | Duration | Prose | New / extended | Claims (rows) | Doubts | Commit |
+|---|---|---|---|---|---|---|
+| al-manjeyat ep01–ep05 (Episodes 01–05) | about 23–24 min each (transcript) | ar, en, ur: 1 new record (work/al-manjeyat), 10 extended | 6 concepts, 1 practice, 4 persons extended | ep01 28, ep02 22, ep03 21, ep04 29, ep05 31 | 2 needs_source in records (17 hypocrites, ep03 00:10:00; no headache until final illness "per the sira books", ep04 00:01:00 stated as his) | run omar-abdelkafy-al-manjeyat-1 |
+
+| Excluded (al-manjeyat) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Windows not written, ep01–ep05 (about 20 of 47, 15 of 35, 22 of 46, 18 of 46, 16 of 48): openings and closing supplications, loops (ep01 00:08:30, 00:10:30, 00:13:00, 00:16:30), the ruqya anecdote ep04 00:16:30 (garbled) | ep01–ep05 | Formulae, loops, garbled | Content rule; loop check; clarity | Open |
