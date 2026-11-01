@@ -1737,12 +1737,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Rustam Beg — 1465–1497
 - [x] Sultan Muzaffar Shah of Malacca — 1400–1459
 - [x] Sultan Mansur Shah of Malacca — 1430–1477
-- [ ] Sultan Mahmud Shah of Malacca — 1480–1528
-- [ ] Tun Perak — 1410–1498
-- [ ] Sonni Ali Ber — 1440–1492
+- [x] Sultan Mahmud Shah of Malacca — 1480–1528
+- [x] Tun Perak — 1410–1498
+- [x] Sonni Ali Ber — 1440–1492
 - [x] Askia Muhammad I (Askia the Great) — 1443–1538 (also in §G — build once)
-- [ ] Guru Nanak — 1469–1539 (flagged: the list itself annotates him a contemporary interaction, founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike)
-- [ ] Kabir Das — 1398–1518 (flagged: syncretic mystic poet claimed by multiple traditions — kept per the same precedent; Ahmad may strike)
+- [x] Guru Nanak — 1469–1539 (flagged: the list itself annotates him a contemporary interaction, founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike)
+- [x] Kabir Das — 1398–1518 (flagged: syncretic mystic poet claimed by multiple traditions — kept per the same precedent; Ahmad may strike)
 
 ## I. 826–925 additions (2 rows, 4 persons)
 
