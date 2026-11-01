@@ -7,11 +7,20 @@ summary:
   en: "Arslan's chapter on Arab sieges of Constantinople describes the first large attempt, under Mu'awiya, when a fleet sailed from Tripoli in Syria under Busr ibn Abi Artat, and a land army is thought to have begun the siege. He reports disagreement among Arab historians over the death of Abu Ayyub al-Ansari during the siege, and doubts the later legend of his grave. The same chapter notes a later siege under Harun al-Rashid that ended in a truce and tribute. This is Arslan's compilation of sources that disagree on the dates."
 wings: [time]
 periods: [period/umayyad]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0667~", hijri: "0047~", calendar: julian, precision: year, status: debated, derived: true, note: "عند دائرة المعارف الإسلامية أن الجيش البري ظهر أمام القسطنطينية سنة 47/667م وأن الأسطول انسحب أخيراً سنة 53/673م، وأن المؤرخين العرب يتفاوتون بين السنين 48 و49 و50 و52؛ التحويل الميلادي مشتق {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 571}.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "0673~", hijri: "0053~", calendar: julian, precision: year, status: debated, derived: true, note: "انسحاب الأسطول سنة 53/673م على التقدير نفسه {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 571}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: polity/umayyad-caliphate, role: "المحاصِر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "الأمير الآمر بالحملة", sources: [source/encyclopaedia-of-islam-2] }
 external_ids: { wikidata: "Q399482" }
-sources: [source/umayyad-birth-to-fall-2006, source/stoddard-arslan-hadir-1923]
+sources: [source/umayyad-birth-to-fall-2006, source/stoddard-arslan-hadir-1923, source/encyclopaedia-of-islam-2]
 # Verification: one source (Arslan's commentary, scan pages 231-233, book pp. 214-216). Arslan gives the fleet's date as 653 CE, the land siege as probably 667 CE and the fleet's withdrawal as 673 CE; these must be checked against Byzantine sources (Theophanes) and a modern study. The date of Abu Ayyub al-Ansari's death differs across sources in Arslan's own survey. The grave legend is discussed by Arslan with reference to Ibn Sa'd and must be checked. Do not use dates from this entry without two sources.
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  generated_by: "Claude Haiku 5.5"
+  source: "stoddard-arslan-hadir-1923 pp. 214-216; Encyclopaedia of Islam, 2nd ed., vol. 5.1, art. 'al-Kustantiniyya', PDF p. 571 (dates), Apple Vision OCR"
+  generated_by: "Claude Haiku 5.5; date and occurred_at edge added by Devin (SWE-2 Medium)"
   extraction_flow: "Apple Vision OCR (text layer) -> manual reading of scan pages 231-234 -> summary in own words, labelled as the commentator's view"

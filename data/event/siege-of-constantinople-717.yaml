@@ -7,7 +7,9 @@ summary:
   en: "Campaign launched under Sulayman ibn Abd al-Malik against Constantinople, led by Maslama ibn Abd al-Malik, which ended in withdrawal in 99 AH after a treaty; the book attributes its failure to a reported betrayal, a harsh winter and Maslama's limited experience {cite:salabi-umayyad-state-2020 pp.47-52}."
 wings: [time]
 date:
-  start: { hijri: "0099", precision: year, status: historical, note: "الكتاب يذكر شدة الشتاء عام 99هـ وانسحاب الجيش بعد وفاة سليمان وأمر عمر بن عبد العزيز بالعودة (ص 49 و51). التاريخ الميلادي غير مذكور في الكتاب.", sources: [source/salabi-umayyad-state-2020] }
+  start: { edtf: "0717~", hijri: "0099", calendar: julian, precision: year, status: historical, derived: true, note: "الكتاب يذكر شدة الشتاء عام 99هـ وانسحاب الجيش بعد وفاة سليمان وأمر عمر بن عبد العزيز بالعودة (ص 49 و51). التاريخ الميلادي مشتق.", sources: [source/salabi-umayyad-state-2020] }
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/salabi-umayyad-state-2020] }
 sides:
   - { label: { en: "Umayyad army", ar: "الجيش الأموي" }, participants: [polity/umayyad-caliphate], commanders: [person/maslama-ibn-abd-al-malik] }
   - { label: { en: "Byzantine defenders", ar: "المدافعون البيزنطيون" }, participants: [polity/byzantine-empire], commanders: [] }
