@@ -10,9 +10,12 @@ relations:
   - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/kabul }
 wings: [time]
+date:
+  start: { edtf: "0815~", hijri: "0199~", calendar: julian, precision: year, status: tradition, derived: true, note: "في مقام المأمون بخراسان وبعده (نحو ١٩٨–٢٠٢هـ)؛ التحويل مشتق {cite:futuh-buldan-maarif-1407}.", sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407)، ثغور الهند، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

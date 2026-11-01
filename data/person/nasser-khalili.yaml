@@ -1,0 +1,63 @@
+id: person/nasser-khalili
+class: person
+
+label: { ar: "ناصر داوود خليلي", en: "Nasser Khalili", ur: "ناصر داوود خلیلی" }
+
+names:
+  - { value: "Nasser David Khalili", kind: full }
+  - { value: "ناصر داوود خلیلی", kind: full }
+
+gender: male
+
+summary:
+  ar: "السير ناصر داوود خليلي (وُلد في 18 كانون الأول 1945) عالم وجامع تحف ومُحسن بريطاني وُلد في أصفهان بإيران. جمع «مجموعات الخليلي» الثماني التي تضم نحو 35 ألف عمل، وفيها أكبر مجموعة خاصة للفن الإسلامي في العالم، ونال الدكتوراه من كلية الدراسات الشرقية والأفريقية (SOAS) سنة 1988 وأسس فيها أول كرسي للفن الإسلامي، ومُنح لقب فارس سنة 2020 لخدماته في العلاقات بين الأديان والعمل الخيري، وعيّنته اليونسكو سفيرا للنوايا الحسنة سنة 2012."
+  en: "Sir Nasser David Khalili (born 18 December 1945) is an Iranian-born British scholar, collector and philanthropist, born in Isfahan. He assembled the eight Khalili Collections of some 35,000 works, including the largest private collection of Islamic art in the world, took his PhD at SOAS in 1988 and endowed its first chair of Islamic art, was knighted in 2020 for services to interfaith relations and charity, and was named a UNESCO Goodwill Ambassador in 2012."
+  ur: "سر ناصر داوود خلیلی (پیدائش 18 دسمبر 1945) ایران کے شہر اصفہان میں پیدا ہونے والے برطانوی عالم، نوادرات جمع کرنے والے اور مخیر ہیں۔ انہوں نے آٹھ «خلیلی مجموعے» ترتیب دیے جن میں تقریباً 35 ہزار نوادرات شامل ہیں، جن میں اسلامی فن کا دنیا کا سب سے بڑا نجی مجموعہ بھی ہے؛ 1988 میں SOAS سے پی ایچ ڈی کی، وہاں اسلامی فن کی پہلی کرسی قائم کی، 2020 میں بین المذاہب تعلقات اور فلاحی خدمات پر نائٹ کا خطاب ملا، اور 2012 میں یونیسکو نے انہیں خیرسگالی سفیر مقرر کیا۔"
+
+roles: [scholar, philanthropist]
+wings: [people, living]
+regions: [persia-central-asia, andalus-europe]
+
+born:
+  edtf: "1945-12-18"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Isfahan on 18 December 1945; the English, Arabic and Urdu articles and Wikidata all agree. The Hijri year 1365 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-nasser-khalili-en, source/wikipedia-nasser-khalili-ar, source/wikipedia-nasser-khalili-ur, source/wikidata-nasser-khalili]
+
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikipedia-nasser-khalili-en, source/wikipedia-nasser-khalili-ar, source/wikipedia-nasser-khalili-ur, source/wikidata-nasser-khalili] }
+
+faith:
+  - value: jewish
+    basis: documented
+    note: >-
+      Settled on descriptions of the man himself, not on his collecting
+      field and not on family background alone. The Art Gallery of New
+      South Wales' exhibition biography calls him, in terms, a Jew
+      himself; the Urdu Wikipedia lead describes him as a British Jewish
+      scholar, collector and philanthropist, and the Arabic lead as a Jew
+      born in Iran; Bloomberg, cited by the English article, records his
+      birth to a Jewish family of art dealers in Isfahan. No source read
+      names a denomination or movement, and his Islamic art collecting is
+      his profession and was not used as evidence.
+    sources: [source/agnsw-arts-of-islam-khalili, source/wikipedia-nasser-khalili-ur, source/wikipedia-nasser-khalili-ar, source/wikipedia-nasser-khalili-en]
+
+external_ids: { wikidata: "Q3336241" }
+
+sources:
+  - source/wikipedia-nasser-khalili-en
+  - source/wikipedia-nasser-khalili-ar
+  - source/wikipedia-nasser-khalili-ur
+  - source/wikidata-nasser-khalili
+  - source/agnsw-arts-of-islam-khalili
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nasser Khalili' (revision 1379677869 of 11 October 2026), Arabic Wikipedia article 'ناصر خليلي' (revision 76465311 of 7 September 2026), Urdu Wikipedia article 'ناصر داوود خلیلی' (revision 8400491 of 23 April 2025) and Wikidata Q3336241 (item revision 2557330120 of 15 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, each revision re-asserted against a second live query and the QID grounded from the English article's own page property; and the Art Gallery of New South Wales exhibition biography, read in full on the gallery's archive site. Existence checked by slug and name fragments across data/person/ — no prior record and no draft stub. The century queue's year 1945 is confirmed by all sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-162a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
