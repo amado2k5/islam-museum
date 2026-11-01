@@ -1,0 +1,68 @@
+id: person/assem-allam
+class: person
+
+label: { ar: "عاصم علام", en: "Assem Allam", ur: "عاصم علام" }
+
+names:
+  - { value: "Assem Allam", kind: full }
+  - { value: "عاصم علام", kind: full }
+
+gender: male
+
+summary:
+  ar: "عاصم علام (1 آب 1939 – 2 كانون الأول 2022)، رجل أعمال مصري بريطاني هاجر إلى بريطانيا سنة 1968 ودرس الاقتصاد في جامعة هال. بنى شركة علام مارين لصناعة المولدات الصناعية، ونال لقب رائد أعمال العام في المملكة المتحدة سنة 2006، وامتلك نادي هال سيتي لكرة القدم بين 2010 و2022."
+  en: "Assem Allam (1 August 1939 – 2 December 2022) was an Egyptian-British businessman who moved to Britain in 1968 and studied economics at the University of Hull. He built Allam Marine, an industrial generator manufacturer, was named UK Entrepreneur of the Year in 2006, and owned Hull City A.F.C. from 2010 to 2022."
+  ur: "عاصم علام (1 اگست 1939 – 2 دسمبر 2022) مصری برطانوی کاروباری شخصیت تھے جو 1968 میں برطانیہ منتقل ہوئے اور انہوں نے یونیورسٹی آف ہل سے معاشیات کی تعلیم حاصل کی۔ انہوں نے صنعتی جنریٹر بنانے والی کمپنی علام میرین قائم کی، 2006 میں برطانیہ کے سال کے بہترین کاروباری قرار پائے، اور 2010 سے 2022 تک ہل سٹی فٹ بال کلب کے مالک رہے۔"
+
+roles: [businessman]
+wings: [people]
+regions: [egypt-nile, andalus-europe]
+
+born:
+  edtf: "1939-08-01"
+  hijri: "1358"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Egypt on 1 August 1939 per the English article and Wikidata, built here at debated status because the Arabic article gives a different account: the village of Al-Sadd in Qalyub district and the year 1940. The Hijri year 1358 is the tabular conversion of the built date, marked derived, and agrees with the Arabic article's own Hijri category filing. No place entity exists for his birthplace in either account, so no born_in edge is written."
+  sources: [source/wikipedia-assem-allam-en, source/wikipedia-assem-allam-ar, source/wikidata-assem-allam]
+
+died:
+  edtf: "2022-12-02"
+  hijri: "1444"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Kingston upon Hull on 2 December 2022, aged 83; the English article and Wikidata agree. The Hijri year 1444 is the tabular conversion of the built date, marked derived, and agrees with the Arabic article's Hijri category filing. No place entity for Hull exists in the museum, so no died_in edge is written."
+  sources: [source/wikipedia-assem-allam-en, source/wikidata-assem-allam]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read attests any religion for the man himself: the
+      English article nowhere mentions his religion, the Arabic
+      article is silent on it, and his Wikidata item carries no
+      religion statement at all. With no attestation of any kind,
+      no value is recorded; the absence is stated here rather than
+      filled by inference from his name or origin, in line with
+      the founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-assem-allam-en, source/wikipedia-assem-allam-ar, source/wikidata-assem-allam]
+
+external_ids: { wikidata: "Q4118026" }
+
+sources:
+  - source/wikipedia-assem-allam-en
+  - source/wikipedia-assem-allam-ar
+  - source/wikidata-assem-allam
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Assem Allam' (revision 1372096901 of 30 August 2026), Arabic Wikipedia article 'عاصم علام' (revision 77126941 of 1 November 2026) and Wikidata Q4118026 (item revision 2525032548 of 31 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. No Urdu article exists. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's years 1939-2022 are confirmed by the English article and Wikidata; the birth block is marked debated because the Arabic article gives the year 1940 and a Qalyub-district birthplace. His faith is left unknown: no source read attests any religion for him."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-168a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
