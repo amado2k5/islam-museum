@@ -1822,11 +1822,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Mir Jumla II — 1591–1663
 - [x] Asad Khan — 1625–1716
 - [x] Mahabat Khan II — 1610–1678
-- [ ] Ali Mardan Khan — 1590–1657
-- [ ] Ustad Ahmad Lahori — 1580–1649
-- [ ] Mohammad Salih Kanbu — 1608–1675
-- [ ] Inayat Khan (Abul Fazl's successor chronicler) — 1603–1671
-- [ ] Sa'adullah Khan — 1590–1656
+- [x] Ali Mardan Khan — 1590–1657
+- [x] Ustad Ahmad Lahori — 1580–1649
+- [x] Mohammad Salih Kanbu — 1608–1675
+- [x] Inayat Khan (Abul Fazl's successor chronicler) — 1603–1671
+- [x] Sa'adullah Khan — 1590–1656
 - [ ] Danishmand Khan — 1625–1670
 - [ ] Shah Abbas II — 1632–1666
 - [ ] Mirza Muhammad Tahir Nasab — 1630–1700
