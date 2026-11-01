@@ -596,3 +596,15 @@ Batch 23's "no hit for the label" group came from my own search, which only scan
 - **place/tasawa** (p. 112). "Little Jarma" in Fazzan, wells and the anjaqa/khattara irrigation, the silver mine in Jabal Jujis.
 - **place/nughayra** (p. 105). One of the two old cities of Qamnuriyya (with Qanuri); the land of Qamnuriyya and the gold-dust road. The passage on the people's beliefs is left out.
 - **place/nabranta** (p. 111). Ruined city eight stages north of the Saghwa; the Zaghawa neighbours.
+
+## n–z batch 26 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 26
+
+- **place/uriyula** (Idrisi pp. 538, 557, 558). Orihuela on the White River, its citadel, distances to Murcia, Cartagena and Elche; the earlier link to Murcia is kept.
+- **place/qalat-ayyub** (pp. 538, 553, 554). Calatayud, its gilded pottery, distances to Daruqa and Saragossa, the sources of the Ebro.
+- **place/qamula** (p. 129). Village with notable fruit; the page does not name the preceding stop.
+
+### Leads from the unmatched-label group, batches 24–26
+
+Worked from the cited pages and found thin or mixed: zamakhir (about 35 words, p. 127), tayma (one line, p. 352), rughusa (about 20 words, p. 769), qastalun (about 26 words, p. 621), wadi-al-falaj (about 45 words, p. 157), suqya-port (one line, p. 138), samasta (about 94 words with Egypt-wide context, p. 131), sumba and persian-gulf-nuzhat (short route notes, pp. 88, 9). Four more passages sit inside long paragraphs on other places (samna p. 30, sanitriyya pp. 117/123/124, waq-waq-islands pp. 77/91/92, qalat-al-kariyan and qalat-isfandiyadh p. 420) or carry material on peoples' customs that the entries leave out. ubda (p. 569) is left because the town before it in the route is not named in the OCR. Lead.
