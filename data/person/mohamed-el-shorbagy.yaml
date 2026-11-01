@@ -1,0 +1,39 @@
+id: person/mohamed-el-shorbagy
+class: person
+label: { ar: "محمد الشوربجي", en: "Mohamed El Shorbagy", ur: "محمد الشوربجی" }
+names:
+  - { value: "Mohamed El Shorbagy", kind: full }
+  - { value: "محمد الشوربجي", kind: full }
+  - { value: "Mohamed ElShorbagy", kind: alternate }
+gender: male
+summary:
+  ar: "لاعب اسكواش محترف مصري المولد، وُلد في الإسكندرية سنة 1991. تصدّر التصنيف العالمي لفترات طويلة بين 2014 و2021 ونال لقب بطل العالم 2017، ومثّل مصر حتى يونيو 2022 حين انتقل إلى تمثيل إنجلترا."
+  en: "Egyptian-born professional squash player, born in Alexandria in 1991. World No. 1 for long stretches between 2014 and 2021 and world champion in 2017, he represented Egypt until June 2022, when he switched to represent England."
+  ur: "مصری نژاد پیشہ ور اسکواش کھلاڑی، 1991 میں اسکندریہ میں پیدا ہوئے۔ 2014 سے 2021 کے درمیان طویل عرصے تک عالمی نمبر 1 رہے اور 2017 میں عالمی چیمپئن بنے؛ جون 2022 تک مصر کی نمائندگی کی، پھر انگلینڈ کی نمائندگی اختیار کر لی۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1991-01-12"
+  hijri: "1411"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 12 January 1991 in Alexandria (the English article's infobox and the Arabic and Urdu articles give Alexandria; Wikidata agrees). The Hijri year 1411 is the tabular conversion of 12 January 1991 and is marked derived."
+  sources: [source/wikipedia-mohamed-el-shorbagy-en, source/wikipedia-mohamed-el-shorbagy-ar, source/wikipedia-mohamed-el-shorbagy-ur, source/wikidata-mohamed-el-shorbagy]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-mohamed-el-shorbagy-en, source/wikipedia-mohamed-el-shorbagy-ar, source/wikidata-mohamed-el-shorbagy] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for him, and Wikidata records no religion (P140) statement. Wikidata records Egyptian and British citizenship; citizenship and name are not evidence of faith. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-mohamed-el-shorbagy-en, source/wikipedia-mohamed-el-shorbagy-ar, source/wikipedia-mohamed-el-shorbagy-ur, source/wikidata-mohamed-el-shorbagy]
+external_ids: { wikidata: "Q895762" }
+sources: [source/wikipedia-mohamed-el-shorbagy-en, source/wikipedia-mohamed-el-shorbagy-ar, source/wikipedia-mohamed-el-shorbagy-ur, source/wikidata-mohamed-el-shorbagy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1366176954), Arabic Wikipedia (revision 73530923), Urdu Wikipedia (revision 10499254) and Wikidata Q895762 (item revision 2516303033, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed in the Arabic and Urdu editions' page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record; his brother Marwan has no record on main, so the sibling link is carried in prose only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-153A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

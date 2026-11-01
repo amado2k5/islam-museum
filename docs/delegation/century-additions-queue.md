@@ -821,11 +821,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Oussama Mellouli — 1984–Living
 - [x] Ahmed Hafnaoui — 2002–Living
 - [x] Farida Osman — 1995–Living
-- [ ] Hedaya Malak — 1993–Living
-- [ ] Feryal Abdelaziz — 1999–Living
-- [ ] Giana Farouk — 1994–Living
-- [ ] Karam Gaber — 1979–Living
-- [ ] Mohamed ElShorbagy — 1991–Living
+- [x] Hedaya Malak — 1993–Living
+- [x] Feryal Abdelaziz — 1999–Living
+- [x] Giana Farouk — 1994–Living
+- [x] Karam Gaber — 1979–Living
+- [x] Mohamed ElShorbagy — 1991–Living
 - [ ] Ali Farag — 1992–Living
 - [ ] Ramy Ashour — 1987–Living
 - [ ] Amr Shabana — 1979–Living
