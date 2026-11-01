@@ -1,0 +1,87 @@
+id: person/moulay-slimane
+class: person
+
+label: { ar: "مولاي سليمان بن محمد", en: "Moulay Slimane", ur: "مولای سلیمان بن محمد" }
+
+names:
+  - { value: "Sulayman bin Mohammed", kind: full }
+  - { value: "أبو الربيع سليمان بن محمد بن عبد الله بن إسماعيل بن الشريف", kind: full }
+  - { value: "Abu al-Rabi'", kind: kunya }
+  - { value: "Amir al-Mu'minin", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "مولاي سليمان بن محمد (28 يونيو 1766 – 28 نوفمبر 1822) سلطان المغرب من الأسرة العلوية بين 1792 و1822، وابن السلطان محمد الثالث. كان سلطانًا عالمًا تربّى على أيدي علماء فاس، فانتصر في حرب أهلية دامت سبع سنوات ضد إخوته، وأنهى القرصنة على سواحل المغرب، وعكس سياسة أبيه التجارية المنفتحة فأغلق المملكة في وجه أوروبا مع إبقاء العلاقات وثيقة بالولايات المتحدة التي أهداها سنة 1821 مبنى المفوضية الأمريكية بطنجة. وتأثر بالدعوة الوهابية بعد سنة 1811 فحارب الغلو في تقديس الأولياء ومظاهر التصوف المنحرفة. وبعد هزيمته وأسره المؤقت على يد آيت أومالو سنة 1819 ضعفت سلطته، فتوفي بمراكش وقد عيّن ابن أخيه عبد الرحمن خلفًا له."
+  en: "Mawlay Sulayman bin Mohammed (28 June 1766 – 28 November 1822) was the Alawite sultan of Morocco from 1792 to 1822, a son of Sultan Muhammad III. A scholar-sultan formed by the ulama of Fez, he prevailed in a seven-year civil war against his brothers, ended the corsairing that had long operated from Morocco's coast, and reversed his father's open commercial policy, closing the kingdom to Europe while keeping close relations with the United States, to which he gave the Tangier Legation building in 1821. Sympathetic to the Wahhabi call after 1811, he campaigned against excess in the veneration of saints and against Sufi practices he held to be innovations. Defeated and briefly captured by the Ait Umalu in 1819, he died at Marrakesh having designated his nephew Abd al-Rahman as his successor."
+  ur: "مولای سلیمان بن محمد (28 جون 1766ء – 28 نومبر 1822ء) 1792ء سے 1822ء تک المغرب کے علوی سلطان اور سلطان محمد سوم کے بیٹے تھے۔ فاس کے علما کی تربیت یافتہ عالم سلطان تھے؛ بھائیوں کے خلاف سات سالہ خانہ جنگی میں کامیاب ہوئے، المغرب کے ساحلوں سے بحری قزاقی ختم کی، اور والد کی کھلی تجارتی پالیسی الٹ کر مملکت کو یورپ کے لیے بند کر دیا، البتہ امریکہ سے قریبی تعلقات رکھے اور 1821ء میں اسے طنجہ میں لیگی شن کی عمارت عطا کی۔ 1811ء کے بعد وہابی دعوت سے متاثر ہو کر اولیا کی تعظیم میں غلو اور صوفیانہ بدعات کے خلاف مہم چلائی۔ 1819ء میں آیت اومالو کے ہاتھوں شکست اور مختصر قید کے بعد ان کی گرفت کمزور پڑ گئی؛ مراکش میں وفات پائی اور بھتیجے عبد الرحمن کو جانشین نامزد کر گئے۔"
+
+roles: [ruler, writer]
+regions: [maghreb]
+wings: [people]
+
+born:
+  edtf: "1766-06-28"
+  hijri: "1180"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The day is doubly attested — the English article (following El Mansour) gives 28 June 1766, and the Arabic article gives 20 Muharram 1180 AH, which converts to the same day. The birthplace is not agreed — Tafilalt in the English article and the Urdu article's lead, Marrakesh in the Arabic article's infobox and biographical section, and Fez in Wikidata and the Urdu infobox. No born_in edge is written; Tafilalt has no museum place record."
+  sources: [source/wikipedia-moulay-slimane-en, source/wikipedia-moulay-slimane-ar, source/wikipedia-moulay-slimane-ur, source/wikidata-moulay-slimane]
+
+died:
+  edtf: "1822-11-28"
+  hijri: "1238"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English and Arabic articles agree on 28 November 1822 at Marrakesh, the Arabic article pairing the day with 13 Rabi al-Awwal 1238 AH. He was buried at the shrine of Moulay Ali al-Sharif at Bab Ilan in Marrakesh (Arabic article)."
+  sources: [source/wikipedia-moulay-slimane-en, source/wikipedia-moulay-slimane-ar, source/wikidata-moulay-slimane]
+
+relations:
+  - { type: child_of, target: person/mohammed-ben-abdallah, sources: [source/wikipedia-moulay-slimane-en, source/wikipedia-moulay-slimane-ar, source/wikidata-moulay-slimane] }
+  - { type: died_in, target: place/marrakesh, sources: [source/wikipedia-moulay-slimane-en, source/wikipedia-moulay-slimane-ar, source/wikidata-moulay-slimane] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself, and
+      Wikidata carries only the generic value Islam. The English
+      article's text calls him a follower of Wahhabism, citing an
+      1857 bulletin, and its infobox files him as Sunni Islam
+      (Wahhabism); a movement sympathy named in a single text is not
+      the naming of a school in two independent sources. His
+      documented practice is stated in full — a sultan of deep
+      learning in fiqh who had memorised the Qur'an and wrote on
+      hadith and tafsir, he received the letter in which Saud ibn
+      Abdulaziz explained the Saudi call in 1811, consulted his
+      ulama and sent a scholarly delegation with his son Ibrahim to
+      inspect the call on the Hajj, and, persuaded that its essence
+      agreed with the teachings of the religion, wrote his
+      celebrated letter against excess in venerating the dead,
+      condemned music and dance in religious ceremonies, banned
+      pilgrimages to saints' shrines and religious festivals, had
+      the dome over his father's grave removed in 1812, wrote a
+      treatise criticising Sufi practices in 1806 together with a
+      sermon on the oneness of God that he ordered distributed to
+      the Friday mosques, and closed the Sufi prayer corners. The
+      school of his Alawite court was Maliki; that is dynastic
+      context, not a naming of the man's own school, so his faith
+      is recorded as unknown.
+    sources: [source/wikipedia-moulay-slimane-en, source/wikipedia-moulay-slimane-ar, source/wikidata-moulay-slimane]
+
+external_ids: { wikidata: "Q1355038" }
+
+sources:
+  - source/wikipedia-moulay-slimane-en
+  - source/wikipedia-moulay-slimane-ar
+  - source/wikipedia-moulay-slimane-ur
+  - source/wikidata-moulay-slimane
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382319741 of 28 October 2026), Arabic Wikipedia (revision 71989711 of 11 September 2025), Urdu Wikipedia (revision 6918255 of 19 March 2025) and Wikidata Q1355038 (item revision 2468947060), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds Moulay Slimane under any spelling found. The child_of edge targets person/mohammed-ben-abdallah, built in this same batch."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

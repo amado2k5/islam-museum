@@ -1790,11 +1790,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Lotf Ali Khan Zand — 1769–1794
 - [x] Fath-Ali Shah Qajar — 1772–1834
 - [x] Abbas Mirza — 1789–1833
-- [ ] Mirza Abul-Qasem Ghaem-Magham Farahani — 1779–1835
-- [ ] Sultan Moulay Ismail — 1645–1727
-- [ ] Sultan Mohammed ben Abdallah (Mohammed III) — 1710–1790
-- [ ] Sultan Moulay Slimane — 1766–1822
-- [ ] Dey Hussein — 1765–1838
+- [x] Mirza Abul-Qasem Ghaem-Magham Farahani — 1779–1835
+- [~] Sultan Moulay Ismail — 1645–1727 — STOPPED: the Devin draft stub person/ismail-ibn-al-sharif (Q276938, review: draft, completeness 1) already holds this man; not built — stub replacement awaits the founder's word.
+- [x] Sultan Mohammed ben Abdallah (Mohammed III) — 1710–1790
+- [x] Sultan Moulay Slimane — 1766–1822
+- [x] Dey Hussein — 1765–1838
 - [ ] Raja Haji Fisabilillah — 1727–1784
 - [ ] Sultan Hamengkubuwono I — 1717–1792
 - [ ] Mangkunegara I (Raden Mas Said) — 1725–1795
