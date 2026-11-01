@@ -920,11 +920,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Firoz Merchant — 1958–Living
 - [x] B. R. Shetty (Contemporary) — 1942–Living
 - [x] Sultan Ahmed bin Sulayem — 1955–Living
-- [ ] Mohamed Alabbar — 1956–Living
-- [ ] Khaldoon Al Mubarak — 1975–Living
-- [ ] Badr Jafar — 1979–Living
-- [ ] Sheikha Hoor Al Qasimi — 1980–Living
-- [ ] Sheikha Bodour bint Sultan Al Qasimi — 1978–Living
+- [x] Mohamed Alabbar — 1956–Living
+- [x] Khaldoon Al Mubarak — 1975–Living
+- [x] Badr Jafar — 1979–Living
+- [x] Sheikha Hoor Al Qasimi — 1980–Living
+- [x] Sheikha Bodour bint Sultan Al Qasimi — 1978–Living
 - [ ] Sheikha Al Mayassa bint Hamad Al Thani — 1983–Living
 - [ ] Hassan Al Thawadi — 1978–Living
 - [ ] Saad Sherida Al-Kaabi — 1967–Living
