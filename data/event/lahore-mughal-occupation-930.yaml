@@ -1,0 +1,27 @@
+id: event/lahore-mughal-occupation-930
+class: event
+kind: conquest
+label:
+  ar: "المغول يحتلون لاهور بقيادة بابر، ٩٣٠هـ/١٥٢٤م"
+  en: "The Mughals occupy Lahore under Babur, 930/1524"
+  ur: "بابر کی قیادت میں مغلوں کا لہور پر قبضہ، 930ھ/1524ء"
+summary:
+  ar: "شجَّع دولت خان لودي والي البنجاب، وهو من أقارب سلطان دهلي، طموحَ بابر نحو الهند، فانتهى ذلك إلى احتلال المغول للاهور سنة ٩٣٠هـ/١٥٢٤م {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  en: "Daulat Khan Lodi, the sultan's kinsman who governed the Punjab, encouraged Babur's designs on Hindustan, leading to the occupation of Lahore by the Mughals in 930/1524 {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  ur: "سلطان کے رشتے دار اور پنجاب کے گورنر دولت خان لودی نے بابر کو ہندوستان پر حملے کی ترغیب دی، جس کا نتیجہ 930ھ/1524ء میں مغلوں کا لہور پر قبضہ نکلا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1524", hijri: "0930", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/babur-mughal, role: "القائد الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 38 (LAHAWR, printed p. 598) — Mughal occupation of Lahore 930/1524"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

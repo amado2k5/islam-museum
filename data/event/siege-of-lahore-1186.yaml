@@ -1,23 +1,29 @@
 id: event/siege-of-lahore-1186
 class: event
-kind: siege
-label: { ar: "حصار لاهور (١١٨٦)", en: "Siege of Lahore (1186)" }
+kind: conquest
+label:
+  ar: "أخذ الغوريين للاهور ونهاية الدولة الغزنوية، ٥٨٣هـ/١١٨٧م"
+  en: "The Ghurid capture of Lahore ends the Ghaznavids, 583/1187"
+  ur: "غوریوں کا لہور پر قبضہ اور غزنوی سلطنت کا خاتمہ، 583ھ/1187ء"
 summary:
-  ar: "بطاقة أولية لحصار لاهور سنة ١١٨٦م، أخذ الغوريين للمدينة من الغزنويين ونهاية دولتهم؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Lahore in 1186, the Ghurid capture of the city from the last Ghaznavids; its sources are not yet checked on the page."
+  ar: "بعد فقدان غزنة نفسها سنة ٥٥٨هـ/١١٦٣م صارت لاهور عاصمة الغزنويين، حتى وضع أخذُ الغوريين لها سنة ٥٨٣هـ/١١٨٧م نهايةً للدولة {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  en: "After the loss of Ghazna itself in 558/1163, Lahore served as the Ghaznavid capital, until its capture by the Ghurids in 583/1187 put an end to the dynasty {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  ur: "558ھ/1163ء میں خود غزنہ کے ہاتھ سے نکل جانے کے بعد لہور غزنویوں کا دارالسلطنت بنا، یہاں تک کہ 583ھ/1187ء میں غوریوں کے قبضے نے اس خاندان کا خاتمہ کر دیا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [south-asia]
 date:
-  start: { edtf: "1186", precision: year, status: tradition, derived: true }
-  end: { edtf: "1186", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1187", hijri: "0583", calendar: julian, precision: year, status: tradition, derived: true, note: "تاريخ المقال ٥٨٣/١١٨٧؛ تروج في بعض الحسابات سنة 1186م.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ghiyath-al-din-muhammad-ibn-sam, role: "الغوري الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q114232321
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 37 (LAHAWR, printed p. 597) — Ghurid capture 583/1187 ends the dynasty (replaces unchecked Wikidata card)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
