@@ -1780,11 +1780,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Bulleh Shah — 1680–1757
 - [x] Waris Shah — 1722–1798
 - [x] Imam Abdulaziz ibn Muhammad — 1720–1803
-- [ ] Imam Saud ibn Abdulaziz — 1748–1814
-- [ ] Jazzar Pasha (Ahmad al-Jazzar) — 1720–1804
-- [ ] Ali Bey al-Kabir — 1728–1773
-- [ ] As'ad Pasha al-Azm — 1706–1758
-- [ ] Sheikh Abdullah al-Sharkawi — 1737–1812
+- [x] Imam Saud ibn Abdulaziz — 1748–1814
+- [x] Jazzar Pasha (Ahmad al-Jazzar) — 1720–1804
+- [x] Ali Bey al-Kabir — 1728–1773
+- [~] As'ad Pasha al-Azm — 1706–1758 — STOPPED (wave 164 §J): the Devin draft stub person/azmzade-asad-pasha already holds this same man under his Turkish name (its QID Q136169181 is a duplicate Wikidata item pointing at the TDV DİA entry 'Esad Paşa, Azmzâde' — the Damascus governor, b. 1701 Ma'arrat al-Numan, executed Ankara 1757; the articles' item Q3624717 itself carries the Turkish sitelink). Stub replacement is a coordinator decision; the DİA dates (1701–1757) conflict with the queue's/EN's 1706–1758.
+- [~] Sheikh Abdullah al-Sharkawi — 1737–1812 — STOPPED (wave 164 §J): the Devin draft stub person/abd-allah-ibn-hijazi-al-sharqawi (review: draft, completeness 1) already holds this man — its QID Q4664541 matches the EN article's own page property exactly and its dates agree with the queue. Stub replacement is a coordinator decision; the stub's own unverified summary calls him a Shafi'i mufti and Wikidata's description a Khalwati — neither tested.
 - [ ] Sheikh Hassan al-Attar — 1766–1835
 - [ ] Karim Khan Zand — 1705–1779
 - [ ] Lotf Ali Khan Zand — 1769–1794
