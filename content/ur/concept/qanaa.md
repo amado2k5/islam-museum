@@ -26,3 +26,6 @@ translators: []
 شیخ کہتے ہیں کہ اصل دولت نفس کی دولت ہے، مال و متاع کی کثرت نہیں {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00}۔
 
 شیخ کی اپنی رائے ہے کہ قناعت رکھنے والا راضی غریب بادشاہ سے بہتر حال میں ہو سکتا ہے (needs_source: تفریغ میں «بادشاہ» کا لفظ واضح نہیں) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:33:30}۔
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ ان لوگوں پر تعجب کرتے ہیں جو دنیا سے حلال اور حرام دونوں لیتے ہیں، کہتے ہیں کہ وہ مالداری کی مذمت نہیں کرتے، اور ان کی رائے میں شکر گزار مالدار صبر کرنے والے فقیر سے اللہ کے ہاں بہتر ہے؛ مگر وہ خبردار کرتے ہیں کہ انسان سمندر کا پانی پینے والے جیسا نہ ہو جس کی پیاس بڑھتی ہی جائے: ایک ملین، پھر دوسرا، پھر ایک ارب، اور آدم کے بیٹے کا پیٹ مٹی کے سوا کچھ نہیں بھرتا؛ وہ نقل کرتے ہیں: جو مالداری چاہے اسے قناعت کافی ہے، اور جو واعظ چاہے اسے موت کافی ہے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}

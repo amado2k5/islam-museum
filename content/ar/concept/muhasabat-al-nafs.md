@@ -12,3 +12,6 @@ translators: []
 
 ## البرنامج اليومي
 يقترح أن يشترط المرء على جوارحه عند صلاة الصبح: يا عين لا تنظري إلى حرام، ويا يد لا تمتدي إلى شبهة، ويا قدم لا تذهبي إلى ما لا يرضي الله؛ ثم يراقبها طوال اليوم، ثم يجلس قبل النوم دقائق يحاسب نفسه على ما صنع من خير وشر، فيزداد من الخير ويستغفر من الشر، ثم يعاتب جوارحه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:30} ويرى أن بذلك يتحرر الإنسان من «عبودية الطين» ويضيء «الإهاب النوراني» فيه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:08:00} انظر أيضًا: [[concept/muraqaba|المراقبة]].
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يقترح الشيخ أمرًا يسيرًا: أن يجلس المرء بعد كل صلاة ثلاث دقائق على سجادته يحاسب نفسه على ما بين الصلاتين، وأن ينام وليس عليه حقوق للناس، لأن التبعات يوم القيامة لا تُؤدّى إلا بالحسنات والسيئات، ويذكر نداء النبي لبني هاشم ألا يأتي الناس بالحسنات ويأتوا هم بأوزارهم، ويرى أن على المرء أن يزن أعماله قبل أن توزن عليه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:11:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:13:00}

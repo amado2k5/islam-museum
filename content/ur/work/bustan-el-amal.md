@@ -109,6 +109,26 @@ translators: []
 
 بیماری بطور خیر اور [[concept/iyada|بیمار کی عیادت]]، مشکل شریکِ حیات پر صبر اور [[person/ayyub|ایوب]]، اور [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] کے بھیڑیے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30}
 
+## قسط 26: بھلائی کی کنجی
+
+[[concept/sadaqa-jariya|جاری رہنے والے اچھے اور برے طریقے]]، [[person/amr-ibn-al-as|عمرو بن العاص]] اور فتحِ مصر، [[person/qabil|قابیل]]، اور [[person/umm-sharik-al-dawsiyya|ام شریک الدوسیہ]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:06:00}
+
+## قسط 27: دلوں کی مضبوطی
+
+[[concept/ashab-al-kahf|اصحابِ کہف]] اور دلوں کی مضبوطی، [[person/umm-musa|ام موسیٰ]] کا دل، [[concept/qanaa|قناعت]]، اور [[concept/ukhuwwa|اللہ کے لیے محبت کرنے والوں]] کی مجلسیں۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:09:00}
+
+## قسط 28: دنیا ایک حال پر نہیں رہتی
+
+[[concept/dunya|دنیا]] اور [[person/isa-ibn-maryam|عیسیٰ]] اور روٹی کا قصہ، [[person/abd-al-malik-ibn-marwan|عبد الملک بن مروان]] اور آئینہ، [[person/yusuf|یوسف]] کے بھائی، اور ہر نماز کے بعد [[concept/muhasabat-al-nafs|محاسبۂ نفس]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:00}
+
+## قسط 29: بے بنیاد رسمیں
+
+[[event/umar-letter-to-the-nile|عمر کا نیل کے نام خط]]، [[concept/tatayyur-omens|سانح اور بارح]]، [[practice/istikhara|استخارہ]]، اور [[concept/tawidh-amulets-and-incantations|ہاتھ، نعل اور خوش قسمتی کا بند]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+
+## قسط 30: میں اپنی امت کو کب ایسا دیکھوں گا؟
+
+آخری ملاقات: [[person/umar-ibn-al-khattab|عمر]] بطور قاضی جن کے پاس کوئی فریق نہ آیا، [[concept/huquq-al-zawjayn|میاں بیوی]] اور اولاد، [[concept/ukhuwwa|انسانی اخوت]]، [[concept/ikhtilaf|اختلاف میں عذر]]، [[person/al-hajjaj-ibn-yusuf|حجاج]] اور نوجوان، [[concept/istighfar|استغفار]]، اور پروگرام کی ٹیم اور اپنے گھر والوں کا شکریہ۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:09:30}
+
 ## میوزیم میں اقساط کے موضوعات
 
 یہ میوزیم کے وہ ریکارڈ ہیں جو اس سلسلے کی اقساط سے لکھے گئے، ہر موضوع کے پہلے حوالے کی ترتیب سے۔ ہر ریکارڈ کا اپنا متن اور حوالے ہیں۔
@@ -231,7 +251,31 @@ translators: []
 
 ### قسط 24
 - [[concept/al-ajala-wal-tawani|جلد بازی اور سستی]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:00:30}
+- [[person/qabil|قابيل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:05:00}
 
 ### قسط 25
 - [[concept/iyada|عیادت (مریض کی تیمار داری)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
 - [[person/ayyub|أيوب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}
+
+### قسط 26
+- [[concept/sadaqa-jariya|صدقہ جاریہ]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:00:30}
+- [[person/amr-ibn-al-as|عمرو بن العاص]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:01:00}
+- [[person/umm-sharik-al-dawsiyya|أم شريك الدوسية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:06:00}
+
+### قسط 27
+- [[concept/ashab-al-kahf|اصحابِ کہف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30}
+- [[concept/qanaa|قناعت]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00}
+
+### قسط 28
+- [[concept/dunya|دنیا]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30}
+- [[person/isa-ibn-maryam|عيسى بن مريم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:00}
+- [[concept/muhasabat-al-nafs|نفس کا محاسبہ]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:11:30}
+
+### قسط 29
+- [[event/umar-letter-to-the-nile|نیلِ مصر کے نام عمر کے رقعے کی روایت]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00}
+- [[concept/tatayyur-omens|تطیّر (بدشگونی)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30}
+- [[practice/istikhara|الاستخارة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30}
+- [[concept/tawidh-amulets-and-incantations|تعویذ (منکے، دم اور تعویذ)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+
+### قسط 30
+- [[person/al-hajjaj-ibn-yusuf|الحجاج بن يوسف الثقفي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30}

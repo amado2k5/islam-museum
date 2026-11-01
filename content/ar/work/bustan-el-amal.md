@@ -109,6 +109,26 @@ translators: []
 
 المرض خير و[[concept/iyada|عيادة المريض]]، والصبر على الزوج الصعب و[[person/ayyub|أيوب]]، وذئاب [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30}
 
+## الحلقة 26: مفتاح للخير
+
+[[concept/sadaqa-jariya|السنة الحسنة والسيئة الجارية]]، و[[person/amr-ibn-al-as|عمرو بن العاص]] وفتح مصر، و[[person/qabil|قابيل]]، و[[person/umm-sharik-al-dawsiyya|أم شريك الدوسية]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:06:00}
+
+## الحلقة 27: الربط على القلوب
+
+[[concept/ashab-al-kahf|أصحاب الكهف]] والربط على القلوب، وفؤاد [[person/umm-musa|أم موسى]]، و[[concept/qanaa|القناعة]]، ومجالس [[concept/ukhuwwa|الأحبة في الله]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:09:00}
+
+## الحلقة 28: الدنيا لا تبقى على حال
+
+[[concept/dunya|الدنيا]] وقصة [[person/isa-ibn-maryam|عيسى]] والرغيف، و[[person/abd-al-malik-ibn-marwan|عبد الملك بن مروان]] والمرآة، وإخوة [[person/yusuf|يوسف]]، و[[concept/muhasabat-al-nafs|محاسبة النفس]] بعد كل صلاة. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:00}
+
+## الحلقة 29: عادات لا أصل لها
+
+[[event/umar-letter-to-the-nile|رسالة عمر إلى النيل]]، و[[concept/tatayyur-omens|السانح والبارح]]، و[[practice/istikhara|الاستخارة]]، و[[concept/tawidh-amulets-and-incantations|الكف والحدوة والحظاظة]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+
+## الحلقة 30: متى أرى أمتي؟
+
+الزيارة الأخيرة: [[person/umar-ibn-al-khattab|عمر]] قاضيًا لا يأتيه خصم، و[[concept/huquq-al-zawjayn|الزوجان]] والأبناء، و[[concept/ukhuwwa|أخوة الإنسانية]]، و[[concept/ikhtilaf|العذر في الخلاف]]، و[[person/al-hajjaj-ibn-yusuf|الحجاج]] والشاب، و[[concept/istighfar|الاستغفار]]، وشكر فريق البرنامج وأهله. {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:09:30}
+
 ## موضوعات الحلقات في المتحف
 
 هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
@@ -231,7 +251,31 @@ translators: []
 
 ### الحلقة 24
 - [[concept/al-ajala-wal-tawani|العجلة والتواني]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:00:30}
+- [[person/qabil|قابيل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:05:00}
 
 ### الحلقة 25
 - [[concept/iyada|عِيادة المريض]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
 - [[person/ayyub|أيوب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}
+
+### الحلقة 26
+- [[concept/sadaqa-jariya|الصدقة الجارية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:00:30}
+- [[person/amr-ibn-al-as|عمرو بن العاص]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:01:00}
+- [[person/umm-sharik-al-dawsiyya|أم شريك الدوسية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep26 00:06:00}
+
+### الحلقة 27
+- [[concept/ashab-al-kahf|أصحاب الكهف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30}
+- [[concept/qanaa|القناعة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00}
+
+### الحلقة 28
+- [[concept/dunya|الدنيا]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:00:30}
+- [[person/isa-ibn-maryam|عيسى بن مريم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:01:00}
+- [[concept/muhasabat-al-nafs|محاسبة النفس]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:11:30}
+
+### الحلقة 29
+- [[event/umar-letter-to-the-nile|خبر بطاقة عمر إلى نيل مصر]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00}
+- [[concept/tatayyur-omens|التطير]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30}
+- [[practice/istikhara|الاستخارة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30}
+- [[concept/tawidh-amulets-and-incantations|التعويذ]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+
+### الحلقة 30
+- [[person/al-hajjaj-ibn-yusuf|الحجاج بن يوسف الثقفي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30}

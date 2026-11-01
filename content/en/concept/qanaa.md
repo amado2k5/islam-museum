@@ -26,3 +26,6 @@ The speaker alludes to a Qur'anic verse in the context of wishing, but the recor
 The Sheikh says that true richness is the richness of the soul, not an abundance of goods {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00}.
 
 The Sheikh holds, as his own view, that a contented poor man may be better off than a king (needs_source: the word for "king" in the transcript is unclear) {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:33:30}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh marvels at those who take from the world both lawful and unlawful, says he does not condemn wealth, and holds that the grateful rich man is better with God than the patient poor man; but he warns against being like one who drinks sea water and only grows thirstier: a million, then another, then a billion, and nothing fills the son of Adam's belly but dust; he quotes: whoever wants riches, contentment suffices him, and whoever wants a preacher, death suffices him. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
