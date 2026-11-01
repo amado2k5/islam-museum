@@ -44,3 +44,10 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - `work/abbas-ibn-mirdas-hunayn`: its recorded opening is `تقضى أمور وتأتي أمور`, not yet located in the Wustenfeld scan. Printed p. 858 (scan index 322 of theil2) has a different Hunayn ode of Abbas, `إني والسوابح يوم جمع`; check whether it is the same work before attaching it.
 - `work/kaab-ibn-malik-hunayn`, `work/hassan-poem-enumerating-the-maghazi`, `work/hassan-poem-kunna-muluk-al-nas` (more bayts), and the short verse sets (Aban, Khalid, Said ibn al-As, al-Numan ibn Adi, Abu Khaythama, Abdullah ibn Unays, Abu Jial, Bujayr, Farwa ibn Musayk, Farwa al-Judhami, al-Dahhak, al-Farazdaq, Salma bint Attab, Malik ibn al-Namt): the first line is not in the work files, so each needs a page hunt in the OCR of `vol1-theil2` followed by reading the scan.
 - Search helper idea: normalise the OCR (strip diacritics, unify alef/ya/ta marbuta) and rank pages by shared letter trigrams with a known first hemistich.
+- PR 5: Abdullah ibn Unays, Malik ibn al-Namt, Farwa ibn Musayk, Abu Ji'al, Salma bint Attab (24).
+- PR 6: Farwa al-Judhami, al-Farazdaq, Said ibn al-As, Aban and Khalid ibn Said, Abu Khaythama, al-Numan ibn Adi (23).
+
+## Not located yet (after PR 6)
+
+- `work/bujayr-ibn-bujra-verses`, `work/al-dahhak-ibn-khalifa-verses`, `work/hassan-poem-enumerating-the-maghazi`, `work/kaab-ibn-malik-hunayn`, `work/abbas-ibn-mirdas-hunayn`: no first line in the work file and the trigram search did not land on the poem; still to locate by reading the relevant narrative pages (Hunayn around printed pp. 855-870, Tabuk around 894-900).
+- Omitted lines: in Said ibn al-As's pair only the first verse was read with confidence; Abu Ji'al's lines 4-6 and Musayk's lines 1, 5-6 were skipped for legibility or uncertain sense.

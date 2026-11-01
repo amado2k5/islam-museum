@@ -1,0 +1,28 @@
+id: event/mutanabbi-shiraz-adud-354
+class: event
+kind: migration
+label:
+  ar: "المتنبي في شيراز عند عضد الدولة، ٣٥٤هـ/٩٦٥م"
+  en: "Al-Mutanabbi at Shiraz with Adud al-Dawla, 354/965"
+  ur: "شیراز میں عضدالدولہ کے پاس، 354ھ/965ء"
+summary:
+  ar: "في مطلع سنة ٣٥٤هـ/٩٦٥م غادر المتنبي العراق ماراً بالأهواز إلى أرّجان في خوزستان حيث ظفر برعاية الوزير البويهي ابن العميد فمدحه بقصائد، ثم تركه إلى شيراز فارس حيث التحق بالحاكم البويهي عضد الدولة الذي كان قد أبدى رغبته في استقدامه؛ فلقي استقبالاً فخماً ومدحه بقصائد تُعد من خير ما نظم، ثم غادر شيراز حنيناً إلى وطنه {cite:encyclopaedia-of-islam-2 vol. 7 p. 771}."
+  en: "At the beginning of 354/965 al-Mutanabbi left Iraq and went via al-Ahwaz to Arrajan in Susiana, where he received the patronage of the Buyid vizier Ibn al-Amid and addressed panegyrics to him. He then left for Shiraz in Fars, joining the Buyid ruler Adud al-Dawla, who had expressed a desire to have him at his court; he enjoyed a splendid reception and addressed to him panegyrics among his best work, then left Shiraz out of simple homesickness {cite:encyclopaedia-of-islam-2 vol. 7 p. 771}."
+  ur: "354ھ/965ء کے آغاز میں متنبی عراق سے روانہ ہوئے اور اہواز ہوتے ہوئے خوزستان کے اجان پہنچے جہاں بویہی وزیر ابن العمید کی سرپرستی ملی اور ان کے مدح میں قصیدے کہے۔ پھر فارس کے شیراز گئے جہاں بویہی حکمران عضدالدولہ — جس نے پہلے ہی انہیں اپنے دربار بلانے کی خواہش ظاہر کی تھی — سے ملے؛ شاندار استقبال ہوا اور انہوں نے اپنی بہترین قصیدوں میں سے چند اس کے لیے کہے، پھر محض وطن کی یاد میں شیراز چھوڑ دیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 771}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0965~", hijri: "0354~", calendar: julian, precision: year, status: tradition, note: "مطلع سنة ٣٥٤هـ/٩٦٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 771}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mutanabbi, role: "المدّاح الضيف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/adud-al-dawla, role: "الممدوح السلطان", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (AL-MUTANABBI, Blachere-Pellat), printed pp. 769-771"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mutanabbi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

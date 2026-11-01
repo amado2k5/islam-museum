@@ -1,0 +1,27 @@
+id: event/al-maqrizi-last-child-826
+class: event
+kind: other
+label:
+  ar: "وفاة آخر أولاد المقريزي، ٨٢٦هـ/١٤٢٣م"
+  en: "Death of al-Maqrizi's last child, 826/1423"
+  ur: "مقریزی کی آخری اولاد کی وفات، 826ھ/1423ء"
+summary:
+  ar: "توفي آخر أولاد المقريزي سنة ٨٢٦هـ/١٤٢٣م كما في سلوكه، فلم يبقَ له ولد؛ ونجا بعده ابن أخيه ناصر الدين محمد بن محمد (٨٠١–٨٦٧هـ/١٣٩٩–١٤٦٢م) الذي ذكره السخاوي في الضوء اللامع {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}."
+  en: "The last of al-Maqrizi's children died in 826/1423, as his own chronicle al-Suluk records; he was survived not by a child but by a nephew, Nasir al-Din Muhammad ibn Muhammad (801-67/1399-1462), noticed by al-Sakhawi in al-Daw' al-lami' {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}."
+  ur: "مقریزی کی آخری اولاد 826ھ/1423ء میں فوت ہوئی، جیسا کہ ان کی اپنی تاریخ «السلوک» میں درج ہے؛ ان کی کوئی اولاد باقی نہ رہی، البتہ بھتیجے ناصر الدین محمد بن محمد (801-867ھ/1399-1462ء) زندہ رہے جن کا ذکر سخاوی نے «الضوء اللامع» میں کیا {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1423~", hijri: "0826", calendar: julian, precision: year, status: historical, derived: true, note: "وفاة آخر أولاده سنة ٨٢٦هـ بحسب السلوك؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-maqrizi, role: "الأب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), printed pp. 213-214, art. al-Makrizi (F. Rosenthal); shadharat-dhahab juz s.a. 845 pp. 254-255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-maqrizi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
