@@ -4,7 +4,7 @@ Lane document: [`docs/agents/lanes/tareq-al-suwaidan.md`](../agents/lanes/tareq-
 
 ## Next step
 
-Explorer backfill done (lecture-series records for al-wasatiyya, the administrative course, al-mubdioune). Next: al-wassitiya ep20–ep40 records are on branch `claude/suwaidan-wassitiya-20-35` (ep20–35 committed there; ep36–40 and the revisions of ep01–10 still to be merged); then the new series as their transcripts finish (phaseB: alamani-al-tarikh 0 of 29 transcribed at 04:20).
+al-wassitiya ep01–40 are all written: ep01–19 merged earlier, ep20–35 and ep36–40 on branch `claude/suwaidan-wassitiya-20-40` (PR opened 1 Nov). Still to do in this lane: (1) revise the thin Devin records for ep01–10 (concept/islamufubiya, al-khitab-al-islami, al-dimuqratiyya-wal-sharia, tatbiq-al-sharia, al-ilmaniyya-wal-islam, al-wataniyya-wal-qawmiyya, takfir, huquq-al-insan) against the transcripts: the ep26 check found Devin misread poll results in ep09, so every poll figure in those records must be re-checked; (2) the next series with transcripts on disk, alamani-al-tarikh (phaseB was transcribing it at 01:38; 29 episodes, 0 transcribed when last checked on 1 Nov), then asrar-al-qyada-al-nbawya and the rest in archive order; create each series' lecture-series record at its start.
 
 ## Done
 - 1 Nov 2026: explorer backfill — `work/al-wasatiyya-program` (lecture-series, 40 episodes, ep01–19 listed) and `work/al-idara-al-amaliyya-course` (lecture-series, 5 lectures) created; `work/al-mubdioune-program` made complete (authors, delivered, episode list, `about` edges to 21 persons). Each series links its entities with `about` edges; `/ar/khutab/` lists them. Recordings map unchanged (the tareq map already covers 23 series, 402 lessons). Test note: `scripts/tour.test.ts` (time/mecca sources, halls.yaml) fails on origin/main independently of this lane; not touched here.
@@ -73,7 +73,28 @@ Explorer backfill done (lecture-series records for al-wasatiyya, the administrat
 | al-wassitiya/ep16 | ~1:17 | faqr-al-rumuz-al-nisaiyya NEW + tariq ext ×3 | 1 | 1 perspective | — | concept + person ext | ~12 cited windows | 3d06fb29d (PR #2222) |
 | al-wassitiya/ep17 | ~1:19 | al-muqawama-wal-irhab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~16 cited windows | 47e4fbd5e (PR #2225) |
 | al-wassitiya/ep18 | ~1:15 | azmat-al-thaqafa-al-shabab NEW + tariq ext ×3 | 1 | 2 perspectives | — | concept + person ext | ~12 cited windows | a0459b7ae (PR #2234) |
-| al-wassitiya/ep19 | ~1:23 | al-qiraa-wal-thaqafa EXT + tariq ext ×3 | — | 2 perspectives | — | concept + person ext | ~12 cited windows | pending |
+| al-wassitiya/ep19 | ~1:23 | al-qiraa-wal-thaqafa EXT + tariq ext ×3 | — | 2 perspectives | — | concept + person ext | ~12 cited windows | 60a0a1745 (merged) |
+| al-wassitiya/ep20 | 1:20:16 | khariju-kulliyyat-al-sharia NEW ×3 | — | 4 perspectives | — | concept | ~55 claims; 17 windows dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-20 |
+| al-wassitiya/ep21 | 0:06:55 (archive audio truncated) | al-duat-al-judud NEW ×3 | — | — | — | concept | 11 claims; 1 dropped; 1 attribution flag | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-21 |
+| al-wassitiya/ep22 | 1:14:26 | al-mara-wal-amal-al-siyasi NEW ×3 | — | 3 perspectives | — | concept | 36 claims; 13 dropped; 4 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-22 |
+| al-wassitiya/ep23 | 1:17:00 | hiwar-al-hadarat NEW ×3 | — | 4 perspectives | — | concept | ~34 claims; 11 dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-23 |
+| al-wassitiya/ep24 | 1:24:03 | al-tibb-al-nabawi-wal-badil NEW ×3 | — | 3 perspectives | — | concept | ~23 claims; 19 dropped | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-24 |
+| al-wassitiya/ep25 | 1:13:57 | al-fatwa-hurriyya-am-ihtikar NEW ×3 | — | 4 perspectives | — | concept | 31 claims; 13 dropped | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-25 |
+| al-wassitiya/ep26 | 1:20:59 (same broadcast as ep09) | al-wala-wal-bara EXT ×3 (+3 corrections to ep09 text) | — | +2 perspectives | — | concept ext | 28 claims; 18 dropped + 4 ad blocks; 3 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-26 |
+| al-wassitiya/ep27 | 0:54:19 (archive audio truncated) | taghyir-manahij-al-din NEW ×3 | — | 4 perspectives | — | concept | ~23 claims; 9 dropped; 3 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-27 |
+| al-wassitiya/ep28 | 1:25:45 | tasawwuf EXT ×3 | — | attributed paragraphs | — | concept ext | ~20 claims; 16 dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-28 |
+| al-wassitiya/ep29 | 1:20:38 | hijab EXT ×3 | — | prose perspectives block | — | concept ext | 24 claims; 14 dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-29 |
+| al-wassitiya/ep30 | 1:13:59 (part 1; part 2 not in archive) | tathir-al-jinn-wal-sihr NEW ×3 | — | 4 perspectives | — | concept | 28 claims; 9 dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-30 |
+| al-wassitiya/ep31 | 1:19:18 | surat-al-mutadayyin-fi-al-ilam NEW ×3 | — | 3 perspectives | — | concept | ~13 claim rows; 9 dropped | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-31 |
+| al-wassitiya/ep32 | 1:12:35 | al-qiwama EXT ×3 | — | +2 perspectives | — | concept ext | ~13 claim rows; 6 dropped | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-32 |
+| al-wassitiya/ep33 | 1:17:26 | al-ijaz-al-ilmi NEW ×3 | — | 4 perspectives | — | concept | 36 claims; 12 dropped; 4 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-33 |
+| al-wassitiya/ep34 | 1:20:40 | al-bunuk-al-islamiyya NEW ×3 (pt 1) | — | 5 perspectives | — | concept | 31 claims; ~10 dropped + ads | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-34 |
+| al-wassitiya/ep35 | 1:23:29 | al-bunuk-al-islamiyya ×3 (pt 2) | — | — | — | concept | 28 claims; ~10 dropped + ads; ~10 needs_source (pts 1-2) | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-35 |
+| al-wassitiya/ep36 | 1:25:23 | tafsir-al-ahlam-al-yawm NEW ×3 | — | 5 perspectives | — | concept | 55 claims; ~14 dropped + 3 ad blocks; 3 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-36 |
+| al-wassitiya/ep37 | 1:15:43 | al-fann-bayn-al-iltizam-wal-taharrur NEW ×3 | — | 4 perspectives | — | concept | 46 claims; 8 dropped + 2 blocks; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-37 |
+| al-wassitiya/ep38 | 1:20:34 | al-talim-bayna-al-taghrib-wal-huwiyya NEW ×3 | — | 3 perspectives | — | concept | 34 claims; ~10 dropped; 1 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-38 |
+| al-wassitiya/ep39 | 1:19:04 | al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya NEW ×3 | — | 4 perspectives | — | concept | 25 claims; ~13 dropped; 4 needs_source (his accounts, attributed) | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-39 |
+| al-wassitiya/ep40 | 1:18:29 (last episode of the archive) | nazariyyat-al-muamara EXT ×3 (Omar lane record; extension only) | — | 1 block | — | concept ext | 32 claims; 11 dropped; 3 needs_source | PR on branch claude/suwaidan-wassitiya-20-40 (pending merge); run claude-suwaidan-wassitiya-40 |
 
 ## Excluded items (standing rule, founder's instruction, 25 Oct 2026)
 
@@ -93,6 +114,57 @@ Every dropped or left-out item is listed here with item, reason, the gate it fai
 | repetition loop | ep05 00:54:00 | token-repetition artefact («مـ» ×~300), not speech | intelligibility | none needed — founder rule 6 |
 | repetition loop | ep05 02:01:30 | token-repetition artefact («بـ» ×~300), not speech | intelligibility | none needed — founder rule 6 |
 | repetition loop | ep05 02:10:00 | token-repetition artefact («الـ» ×~200), not speech | intelligibility | none needed — founder rule 6 |
+| repetition loops (17 windows) | al-wassitiya ep20 00:17:30, 00:18:00, 00:19:00, 00:19:30, 00:22:00, 00:24:30, 00:30:00, 00:42:00, 00:45:30, 00:46:00–00:47:00, 00:49:30, 00:51:00, 01:00:00, 01:11:30 | token-repetition artefacts, not speech | intelligibility | none needed — founder rule 5 |
+| Awqaf imam-exam passage | ep20 01:06:00–01:07:00 | unclear passage plus loops | intelligibility | none |
+| closing supplication | ep20 01:12:30 | partly garbled; only «أخلاق العلم» used | intelligibility | none |
+| repetition loop | ep21 00:06:00 | «عتـ» ×~150 | intelligibility | none needed |
+| rest of ep21 | ep21 00:06:55–end | archive audio truncated; no content exists | — | — |
+| repetition loops (13 windows) | ep22 00:06:30, 00:14:30, 00:16:30, 00:17:30, 00:24:30, 00:25:30, 00:28:30, 00:31:00, 00:33:00, 00:49:00, 00:52:30, 00:56:30, 01:06:30 | token loops | intelligibility | none needed |
+| repetition loops (9 windows) | ep23 00:26:30, 00:33:30, 00:43:30, 00:46:30, 00:54:00, 01:06:30, 01:11:00, 01:12:00, 01:13:00 | token loops; opening of the presenter's close lost | intelligibility | none needed |
+| British mosques "50–70% were churches" | ep23 01:09:00–01:09:30 | speaker unclear, garbled single-occurrence figure | intelligibility | none |
+| "10%" token | ep23 00:39:30 | garbled number; 35% used (35+16+49=100) | garbled number | none |
+| advertisement / music | ep24 00:07:00–00:07:30, 00:40:30–00:41:00 | not lecture content / not speech | scope | none |
+| repetition loops (20 windows) | ep24 00:16:00 … 01:17:00 (loop tails) | token loops | intelligibility | none needed |
+| Jordanian patent-holder dispute | ep24 01:15:30–01:16:30 | garbled, heated, names a person | intelligibility | none |
+| al-Harith ibn Kalada slip | ep24 00:22:30–00:23:00 | garbled; only "physician of the Arabs" kept | intelligibility | none |
+| repetition loops (13 windows) | ep25 00:07:30 … 01:08:30 | token loops | intelligibility | none needed |
+| an imam's misreading of a verse | ep25 00:48:30 | would require typing Qur'an text | no Qur'an text | none |
+| website name; "engineer before sharia" remark; four guest surnames | ep25 00:32:30, 00:49:00, passim | garbled / speaker unclear | intelligibility | none |
+| repetition loops (18 windows) | ep26 00:05:30 … 01:20:00 | token loops | intelligibility | none needed |
+| ads and promos | ep26 00:06:00–00:07:00, 00:32:30–00:33:00, 00:51:30–00:52:00, 01:07:00–01:07:30 | not lecture content | scope | none |
+| repetition loops (6 windows) | ep27 00:11:30, 00:17:30, 00:21:00, 00:26:30, 00:37:30, 00:40:30 | token loops | intelligibility | none needed |
+| youth-rally ad | ep27 00:06:30–00:07:00 | not lecture content | scope | none |
+| dismissed curriculum experts' names | ep27 00:32:30 | garbled names | intelligibility | none |
+| rest of ep27 | ep27 00:54:00–end | archive audio truncated | — | — |
+| repetition loops (13 windows) | ep28 00:05:00 … 01:08:30 | token loops | intelligibility | none needed |
+| Italian convert's name; al-Kashani page citation; wonders/nakedness exchange | ep28 00:21:30, 00:42:30, 00:45:00–00:45:30 | garbled | intelligibility | none |
+| repetition loops (13 windows) | ep29 00:02:00 … 01:18:30 | token loops | intelligibility | none needed |
+| occasion-of-revelation reading; "daughter" exchange | ep29 00:44:00–00:45:00, 01:11:00–01:12:30 | fragmentary / partly garbled | intelligibility | none |
+| repetition loops; cross-talk; truncated anecdote | ep30 00:07:30, 00:44:00, 00:38:00–00:39:30, 00:41:00–00:41:30, 00:50:00 | token loops / garbled | intelligibility | none needed |
+| hadith wording in the preposition argument and chain details | ep30 00:54:00, 01:03:30–01:05:00 | hadith matn never typed; only described | no hadith matn | none |
+| repetition loops (7 windows) | ep31 00:04:30, 00:10:30, 00:23:30, 00:26:00, 00:26:30, 00:38:30, 00:42:00 | token loops | intelligibility | none needed |
+| pre-oil/post-oil stereotype split; Hollywood-book years; three guest surnames | ep31 00:39:00, 00:18:30, passim | garbled / contradictory | intelligibility | none |
+| repetition loops (5 windows) | ep32 00:06:00, 00:17:30, 00:18:30, 00:31:00, 00:41:30 | token loops | intelligibility | none needed |
+| repetition loops (15 windows) | ep33 00:05:30 … 01:12:30 | token loops / non-speech | intelligibility | none needed |
+| adverts and promos | ep33 00:06:00–00:07:00, 00:30:30–00:32:00, 00:47:30–00:48:00 | not lecture content | scope | none |
+| verse wording recited by a guest | ep33 01:06:00 | Qur'an text never typed | no Qur'an text | none |
+| adverts and music | ep34 00:06:30–00:07:30, 00:29:00, 00:51:30–00:52:00 | not lecture content | scope | none |
+| repetition loops (10 windows) | ep34 00:40:00 … 01:18:00 | token loops | intelligibility | none needed |
+| Hijri year «1335» for 1965 | ep34 01:17:00 | garbled number; Gregorian kept | garbled number | none |
+| adverts, music, charity promos | ep35 00:06:00–00:06:30, 00:38:00–00:39:00, 00:58:00–00:59:30 | not lecture content | scope | none |
+| repetition loops (13 windows) | ep35 00:21:00 … 01:20:00 | token loops | intelligibility | none needed |
+| a guest's "Jewish protocols" aside | ep35 00:33:30 | polemical aside, not reproduced (his gharar argument kept) | polemical | none |
+| a student's political aside; Gaza exchange | ep35 00:41:30, 00:42:30 | garbled | intelligibility | none |
+| viewers' SMS poll results | ep20, ep26, ep27, ep33 | never read out on air | no data | — |
+| repetition loops (14 windows) | ep36 00:02:00 … 01:21:30 | token or sentence loops | intelligibility | none needed (founder rule 5) |
+| ads and promos; viewers' SMS poll results (never read on air) | ep36 00:06:00–00:07:30, 01:04:30–01:05:30; 00:03:30 et al. | not lecture content; no data | scope / no data | none |
+| hadith wording and Qur'an wording (ep36, Yusuf's and the king's visions) | ep36 00:15:30, 00:18:30, 00:33:30, 00:55:30 | hadith matn and Qur'an text never typed | no Qur'an / no hadith matn | none |
+| repetition loops (8 windows); silent break, promo, closing music | ep37 00:10:30 … 01:01:00; 00:04:30–00:05:30, 00:35:00, 01:15:30 | token loops; not lecture content | intelligibility / scope | none needed |
+| verse wording on the umma as wasat; poetry recited by the critic | ep37 00:00:00; 00:36:30–00:38:30 | Qur'an text never typed; poetry not reproduced | no Qur'an text / quote limit | none |
+| repetition loops (10 windows) | ep38 00:18:00 … 00:57:00 | token loops | intelligibility | none needed |
+| repetition loops (10 windows); garbled names; polemical sect label | ep39 00:09:30 … 01:05:00; 00:09:30, 01:08:30 | token loops; not reproduced | intelligibility / polemical | none needed |
+| repetition loops (11 windows); Qur'an wording of verses cited by guests | ep40 00:08:30 … 01:02:30; 00:10:00–00:15:30, 00:18:00, 00:25:00 | token loops; Qur'an text never typed | intelligibility / no Qur'an text | none needed |
+| Abu Ghanima's characterisations of Jews (polemical) | ep40 00:52:30, 00:54:30–00:55:00 | described and attributed, not reproduced | polemical | none |
 
 ## Batch log
 
