@@ -950,11 +950,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Retno Marsudi — 1962–Living
 - [x] Mari Elka Pangestu — 1956–Living
 - [x] Nadiem Makarim — 1984–Living
-- [ ] Achmad Zaky — 1986–Living
-- [ ] Ferry Unardi — 1988–Living
-- [ ] William Tanuwijaya — 1981–Living
-- [ ] Anthony Tan — 1982–Living
-- [ ] Tan Hooi Ling — 1983–Living
+- [x] Achmad Zaky — 1986–Living
+- [x] Ferry Unardi — 1988–Living
+- [x] William Tanuwijaya — 1981–Living
+- [x] Anthony Tan — 1982–Living
+- [x] Tan Hooi Ling — 1983–Living
 - [ ] Kevjen Yeoh (Contemporary) — 1980–Living
 - [ ] Gita Wirjawan — 1965–Living
 - [ ] Bahlil Lahadalia — 1976–Living
