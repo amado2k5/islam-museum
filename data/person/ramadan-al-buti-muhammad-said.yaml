@@ -1,24 +1,51 @@
 id: person/ramadan-al-buti-muhammad-said
 class: person
-label: { ar: "محمد سعيد رمضان البوطي", en: "Muhammad Sa'id Ramadan al-Buti" }
+label: { ar: "محمد سعيد رمضان البوطي", en: "Muhammad Sa'id Ramadan al-Buti", ur: "محمد سعید رمضان البوطی" }
 names:
-  - { kind: full, lang: ar, value: "محمد سعيد بن رمضان البوطي" }
+  - { value: "محمد سعيد رمضان البوطي", kind: full }
+  - { value: "Muhammad Sa'id Ramadan al-Buti", kind: full }
+  - { value: "Mohamed Said Ramadan Al-Bouti", kind: alternate }
+  - { value: "Ramadan al-Bouti", kind: alternate }
 gender: male
-roles: [scholar, jurist]
-traditions: [sunni]
-born: { edtf: "1894", hijri: "1311", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1976", hijri: "1396", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-summary:
-  ar: "علم من أعلام الإسلام، أصولي فقيه مصلح لغوي محقق، ولد بدمشق في أسرة عريقة."
-  en: "A prominent Muslim scholar: a legal theorist, jurist, reformer, philologist and editor, born in Damascus into an old family."
-wings: [people]
-themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
-periods: [period/contemporary-era]
+born:
+  edtf: "1929"
+  hijri: "1347"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in the village of Jilka (Jeilka) in the Botan (Cizre, Jazirat ibn Umar) district of Turkey, on the Tigris where the Syrian, Iraqi and Turkish borders meet, into a Hadhabani Kurdish family; the Arabic article pairs the birth year with 1347 AH. He was brought to Damascus at the age of four. Neither Jilka nor Cizre has a place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti]
+died:
+  edtf: "2013-03-21"
+  hijri: "1434"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Assassinated while giving a tafsir lesson at the al-Iman Mosque in the Mazraa district of Damascus, in a bomb attack that killed at least 42 people including his grandson; the Arabic article pairs the day with Thursday 9 Jumada al-awwal 1434. He was buried beside the shrine of Saladin, next to the Umayyad Mosque."
+  sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti]
+roles: [scholar, jurist, writer, teacher]
 regions: [levant-iraq]
-story_roles:
-  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-external_ids:
-  wikidata: Q402245
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 305, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص305", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+wings: [people]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti] }
+  - { type: buried_in, target: place/damascus, sources: [source/wikipedia-muhammad-said-ramadan-al-buti-ar] }
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "Two independent texts name the school for the man himself. The English article states that he 'specialized in fiqh and usul al-fiqh according to the Shafi'i school of law', and that the neo-traditionalism he led adhered to 'the four schools of thought in Sunni Islam and the orthodox Ash'arite creed'; the Arabic article states in its lead that he 'represents the conservative trend, Shafi'i in madhhab, and on the creed of Ahl al-Sunna according to the Ash'ari method'. His Ash'ari creed has no enum value of its own and is carried in this note only. Wikidata's structured Sunni and Shafi'i values corroborate but settle nothing on their own."
+    sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti]
+summary:
+  ar: "عالم سوري من أصل كردي، من أكثر المؤلفين المسلمين قراءةً في عصره. وُلد سنة 1929 في قرية جليكا قرب جزيرة بوطان ونشأ في دمشق، فتولّى عمادة كلية الشريعة بجامعة دمشق وخُطبة الجامع الأموي، وألّف أكثر من ستين كتابًا في الفقه وأصوله والسيرة والعقيدة دفاعًا عن المذهب الشافعي ومنهج الأشاعرة؛ اغتيل وهو يدرّس في جامع الإيمان بدمشق في مارس 2013."
+  en: "Syrian Sunni scholar of Kurdish origin, among the most widely read Muslim authors of his age. Born in 1929 in the village of Jilka near Cizre and raised in Damascus, he became dean of the Faculty of Sharia at Damascus University and preacher of the Umayyad Mosque, and wrote more than sixty books in fiqh, usul, sira and creed in defence of the Shafi'i school and the Ash'ari method. He was assassinated while teaching at the al-Iman Mosque in Damascus in March 2013."
+  ur: "کرد نژاد شامی سنی عالم، اپنے دور کے سب سے زیادہ پڑھے جانے والے مسلم مصنفین میں سے ایک۔ 1929 میں جزرے کے قریب گاؤں جلکا میں پیدا ہوئے اور دمشق میں پرورش پائی؛ جامعہ دمشق کی کلیۃ الشریعہ کے ڈین اور جامع اموی کے خطیب بنے، اور فقہ، اصول، سیرت اور عقیدے میں ساٹھ سے زیادہ کتابیں لکھیں جن میں شافعی مسلک اور اشعری منہج کا دفاع کیا۔ مارچ 2013 میں دمشق کی جامع الایمان میں درس دیتے ہوئے قتل کر دیے گئے۔"
+external_ids: { wikidata: "Q402245" }
+sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti]
+provenance:
+  layer: own-research
+  source: "REPLACEMENT under the founder's express build ruling of 1 November 2026 (rulings packet #3, Part 3), coordinator-authorised: the record formerly at this slug was a library-lane draft (status draft, run lib-mawsuat-a3lam) carrying a conflated life — born 1894, died 1976, described as born in Damascus, the same wrong dates repeated in its ar/en/ur prose — although its own Wikidata value Q402245 identifies the scholar born 1929 and assassinated in Damascus on 21 March 2013. The draft has been replaced wholesale at the same slug; its only cited source, source/mawsuat-a3lam-ulama-adaba, rested on that conflated life and is dropped from this record (the entity itself remains, cited by many other records), and the draft's non-schema fields (a top-level traditions list and a periods block) and its incomplete label are gone. Every claim here was re-verified from the English article 'Ramadan al-Bouti', the Arabic article and Wikidata Q402245, all read live on 1 November 2026 with revision ids fetched from the MediaWiki API in this session and the item revision re-asserted on a second live query; the QID is grounded through both articles' page properties. The pre-replacement worktree file was verified byte-identical to origin/main before replacement."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: rulings-builds-r3a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

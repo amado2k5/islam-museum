@@ -211,7 +211,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Clara Muhammad — 1899–1972
 - [x] Mahmoud Abdul-Rauf (Chris Jackson) — 1969–Living
 - [x] Shareef Abdur-Rahim — 1976–Living
-- [ ] Gilles Sissoko — 1978–Living
+- [~] Gilles Sissoko — 1978–Living — STOPPED (founder build ruling of 1 Nov 2026 attempted; identity not establishable beyond doubt — searches recorded in the progress doc, rulings-builds-r3b): the only living public bearer is a French personal chef / sports-nutrition expert with no published birth year and no Muslim attestation; the only other documented bearer (1956–2025) contradicts the row on both years and living status.
 - [x] Kareem Abdul-Jabbar — 1947–Living
 - [x] Bernard Hopkins — 1965–Living
 - [x] Mike Tyson (Malik Abdul Aziz) — 1966–Living
@@ -338,7 +338,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Eddie Mustafa Muhammad — 1952–Living
 - [x] Matthew Saad Muhammad — 1954–2014
 - [x] Mustafa Hamsho — 1953–Living
-- [ ] Suleyman Mammadov — 1992–Living
+- [~] Suleyman Mammadov — 1992–Living — STOPPED (founder build ruling of 1 Nov 2026 attempted; identity not establishable beyond doubt — searches recorded in the progress doc, rulings-builds-r3b): every bearer found was excluded (the late ITF taekwondo section founder, a chess player b. 1998, officials, juniors, a 1964 namesake); no Azerbaijani athlete born 1992 by this name surfaced.
 - [x] Rafael Aghayev — 1985–Living
 - [x] Aghasi Mammadov — 1980–Living
 - [x] Togrul Asgarov — 1992–Living
@@ -355,7 +355,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sheikh Shawki Allam — 1961–Living
 - [x] Sheikh Habib Umar bin Hafiz — 1963–Living
 - [x] Sheikh Habib Ali al-Jifri — 1971–Living
-- [ ] Shaykh Said Ramadan al-Bouti — 1929–2013
+- [x] Shaykh Said Ramadan al-Bouti — 1929–2013
 - [x] Shaykh Wahba Zuhayli — 1932–2015
 - [x] Sheikh Mustafa al-Zarqa — 1904–1999
 - [x] Sheikh Abd el-Halim Mahmud — 1910–1978
@@ -385,7 +385,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Bandar Baleela — 1975–Living
 - [x] Abdullah Awad Al-Juhany — 1976–Living
 - [x] Al-Hassan Al-Daddow — 1963–Living
-- [ ] Sheikh Omar Al-Khabsawi — 1950–Living
+- [~] Sheikh Omar Al-Khabsawi — 1950–Living — STOPPED (founder build ruling of 1 Nov 2026 attempted; identity not establishable beyond doubt — searches recorded in the progress doc, rulings-builds-r3b): Arabic searches in four spellings returned only classical al-Khabbazi material and unrelated names; Latin searches surface only other men (Omar Al-Kazabri is NOT him and was not substituted).
 - [x] Sheikh Ahmed Raissouni — 1953–Living
 - [x] Sheikh Hassan El-Kettani — 1964–Living
 - [x] Sheikh Mustafa Benhamza — 1949–Living
@@ -1603,12 +1603,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mehmed-beg Kapetanović Ljubušak (1839–1902)
 - [x] Ibrahim-beg Bašagić (1840–1902)
 - [x] Hamdija Kreševljaković (1888–1959)
-- [~] Husein Đozo (Elders) (1890–1940)
+- [x] Husein Đozo (Elders) (1890–1940)
 - [x] Šakir Sikirić (1893–1966)
 - [x] Mustafa Busuladžić (1914–1945)
 - [x] Kosta Hörmann (Muslim Associates) (1850–1910)
 - [x] Sheikh Youssef al-Nabhani (1849–1932)
-- [~] Taqi al-Din al-Nabhani (Father) (1880–1940)
+- [x] Taqi al-Din al-Nabhani (Father) (1880–1940)
 - [x] Ibrahim al-Dabbagh (1880–1946)
 - [x] Ali al-Rimawi (1860–1919)
 - [x] Yusuf al-Khalidi (1842–1906)
