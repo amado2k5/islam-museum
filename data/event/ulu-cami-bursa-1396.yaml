@@ -1,0 +1,26 @@
+id: event/ulu-cami-bursa-1396
+class: event
+kind: founding
+label: { ar: "بناء الجامع الكبير (أولو جامع) ببورصة", en: "Bursa's Grand Mosque (Ulu Cami) is built", ur: "بورصہ کی عظیم مسجد (اولو جامع) کی تعمیر" }
+summary:
+  ar: "بنى بايزيد الأول الجامع الكبير ببورصة في الأعوام 1396-1399م، وموّله بغنائم نصره في معركة نيقوبوليس في 24 سبتمبر 1396م؛ وهو أعظم الجوامع الأناضولية التي شُيّدت في القرنين اللذين سبقا فتح القسطنطينية {cite:freely-ottoman-architecture-2011 p. 42}."
+  en: "Bayezid I built Bursa's Grand Mosque (Ulu Cami) in 1396-1399 CE, financed with the spoil of his victory over the crusader army at Nicopolis on 24 September 1396; it is the grandest Anatolian mosque of the two centuries before the conquest of Constantinople {cite:freely-ottoman-architecture-2011 p. 42}."
+  ur: "بایزید اول نے 1396-1399ء میں بورصہ کی عظیم مسجد بنوائی، جس کی لاگت نیکوپولس کی فتح (24 ستمبر 1396ء) کے مالِ غنیمت سے ادا ہوئی؛ یہ فتح قسطنطنیہ سے پہلے کی دو صدیوں کی عظیم ترین اناطولیائی مسجد ہے {cite:freely-ottoman-architecture-2011 p. 42}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1396", hijri: "0798", calendar: julian, precision: year, status: tradition, derived: true, note: "1396-1399م {cite:freely-ottoman-architecture-2011 p. 42}؛ الهجري مشتق." }
+  end: { edtf: "1399", hijri: "0801", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: building/bursa-ulu-cami, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/bayazid-i-yildirim, role: "الباني", sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), printed p. 42 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-bursa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -2,7 +2,10 @@
 id: place/bursa
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Overview
-Bursa: a city in Anatolia, conquered by the Ottomans in the year 1326 CE, and it was their first great capital. This sentence needs an additional source, since the source recorded in the data is for the coordinates only. {cite:geonames-gazetteer}
+Bursa is an Anatolian city on the northern foothills of Mysian Olympus, on the site of ancient Prusa; the Ottomans took it on 2 Jumada I 726/6 April 1326 and it was their main capital until 805/1402. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397-1398}
+
+## City of silk and learning
+Pachymeres names it with Nicaea and Philadelphia among the three principal cities still in Byzantine hands when the Turkish borderers overran western Anatolia about 699/1300. Bursa long remained one of the empire's three capitals, and from about 802/1400 it was an international market and a centre of the silk trade and industry, reached by Iranian silk caravans through Tabriz, Erzurum and Tokat. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1397-1398}
