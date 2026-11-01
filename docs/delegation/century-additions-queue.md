@@ -1862,11 +1862,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Sultan Iskandar Thani — 1610–1641
 - [x] Sultan Taj al-Alam (female ruler of Aceh) — 1613–1699
 - [x] Abd al-Ra'uf al-Singkili — 1615–1693
-- [ ] Dato Ri Bandang — 1570–1640
-- [ ] Sultan Kudarat — 1581–1671
-- [ ] Subhan Quli Khan of Bukhara — 1633–1702
-- [ ] Ubaydullah Khan of Bukhara — 1675–1711 (NOT the §G Shaybanid of the same name, 1487–1539)
-- [ ] Anusha Khan of Khiva — 1630–1687
+- [x] Dato Ri Bandang — 1570–1640
+- [x] Sultan Kudarat — 1581–1671
+- [x] Subhan Quli Khan of Bukhara — 1633–1702
+- [x] Ubaydullah Khan of Bukhara — 1675–1711 (NOT the §G Shaybanid of the same name, 1487–1539)
+- [x] Anusha Khan of Khiva — 1630–1687
 - [ ] Erekle I of Kakheti (Nazar Ali Khan) — 1642–1709
 - [ ] Shah Quli Khan — 1650–1720
 
