@@ -1,0 +1,60 @@
+id: job/astronomer
+class: job
+label: { ar: "الفلكي", en: "Astronomer", ur: "ماہر فلکیات" }
+summary:
+  ar: "الفلكي هو من يرصد حركات الأجرام السماوية ويحسبها، ويضع نتائجها في جداول تُسمّى الأزياج. عُرف هذا العلم في الإسلام بعلم الفلك وعلم الهيئة، وفُرِّق بينه وبين أحكام النجوم الذي يعمل به المنجّم. وقامت مراصد في مراغة وسمرقند وإسطنبول لهذا العمل، ورعاها الحكام أحياناً، وكان منصب المنجّم باشي في الدولة العثمانية يتولى شؤون الفلك والتنجيم معاً."
+  en: "The astronomer watches the movements of the heavenly bodies, calculates them, and sets the results in tables called zijes. In Islam the science was known as ilm al-falak and ilm al-hay'a, and it was kept apart from astrology, the work of the munajjim. Observatories at Maragha, Samarkand and Istanbul were built for this work, and rulers sometimes paid for them. In the Ottoman state the office of müneccimbaşı covered both astronomy and astrology."
+  ur: "فلکیات دان وہ شخص ہے جو آسمانی اجسام کی حرکات کا مشاہدہ کرتا اور ان کا حساب لگاتا ہے، اور نتائج کو زیج کہلانے والی جدولوں میں درج کرتا ہے۔ اسلام میں اس علم کو علم الفلک اور علم الہیئت کہا گیا، اور یہ احکامِ نجوم سے الگ رہا جن پر منجم کا کام تھا۔ مراغہ، سمرقند اور استنبول کی رصدگاہیں اسی کام کے لیے بنیں، اور حکمرانوں نے ان کی سرپرستی کی۔"
+domain: sciences-numbers
+kind: scholarly
+hirfa: false
+era:
+  origins: pre-islamic
+  first_attested:
+    edtf: "0750"
+    hijri: "0132"
+    precision: year
+    status: historical
+    note: "An upper bound, not a first date. The entry says 26 of 421 Arabic poems that mention the Pleiades were composed before 132 AH (750 CE). It describes pre-Islamic star observation for weather, seasons and direction, but gives no year for its start."
+    sources: [source/tdv-ilm-i-felek]
+  status_today: transformed
+places:
+  - place: place/raqqa
+    start: { edtf: "0877" }
+    end: { edtf: "0919" }
+    note: "Al-Battani observed here between 877 and 919 CE, and corrected many of Ptolemy's numerical values from his own observations."
+    sources: [source/tdv-ilm-i-felek]
+  - place: place/baghdad
+    note: "Under the caliph al-Ma'mun, observations were made in the Shammasiyya quarter of Baghdad, and the astronomers were gathered there. The entry gives no year."
+    sources: [source/tdv-ilm-i-felek]
+  - place: place/damascus
+    note: "Under al-Ma'mun, observations were also made on the hill of Qasiyun, north of Damascus. The entry gives no year."
+    sources: [source/tdv-ilm-i-felek]
+  - place: place/maragha
+    note: "Hulagu built a new observatory at Maragha in Azerbaijan and put Nasir al-Din al-Tusi in charge of it. The entry places it within Hulagu's reign (1256–1265) and gives twelve years of observations, but does not date the building."
+    sources: [source/tdv-ilm-i-felek, source/tdv-semerkant-rasathanesi]
+  - place: place/samarqand
+    start: { edtf: "142X" }
+    note: "Ulugh Beg founded the Samarkand observatory while ruler of Transoxiana. Construction is dated by the entry to 1420–21, and completion to 1421 or 1427; the entry finds it reasonable to place completion in the first half of the 1420s."
+    sources: [source/tdv-semerkant-rasathanesi]
+  - place: place/istanbul
+    start: { edtf: "1575/1577" }
+    end: { edtf: "1580" }
+    note: "The Istanbul observatory on the Tophane slopes is dated by the Samarkand entry to 1575, and by the Takiyyüddin entry to 985 AH (1577). It was destroyed by royal decree in 987 AH (22 January 1580). The Takiyyüddin entry calls it the only observatory in Ottoman history."
+    sources: [source/tdv-takiyyuddin-er-rasid, source/tdv-semerkant-rasathanesi]
+regions: [levant-iraq, persia-central-asia, anatolia-balkans, andalus-europe]
+organization:
+  organized: mixed
+training:
+  mode: mixed
+  certification: "No licence for the astronomer is described in the entries read. Training was in madrasa lessons with named teachers: Ulugh Beg attended the lessons in the mathematical sciences given by Kadızâde-i Rûmî, and Takiyyüddin completed his studies in Istanbul with named scholars before teaching in madrasas in Cairo and Istanbul."
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-ilm-i-felek, source/tdv-astronomi, source/tdv-muneccim, source/tdv-muneccimbasi, source/tdv-rasathane, source/tdv-semerkant-rasathanesi, source/tdv-takiyyuddin-er-rasid]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi: 'İLM-i FELEK' (T. Fehd, vol. 22 pp. 126–129), 'SEMERKANT RASATHÂNESİ' (H. Umut, vol. 36 pp. 486–487), 'TAKIYYÜDDİN er-RÂSID' (H. G. Topdemir, vol. 39 pp. 454–456), and the web pages 'RASATHÂNE', 'MÜNECCİMBAŞI', 'MÜNECCİM' and 'ASTRONOMİ' (stubs and cross-references, no printed pages), all read 1 Nov 2026. Rewritten by Claude Code. The TDV search listing for HEYET was read to find its cross-references; it is not cited. Museum holders chosen from the census of roles (astronomer) and the entries above."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-astronomer"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
