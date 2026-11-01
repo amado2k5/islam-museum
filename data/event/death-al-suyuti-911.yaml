@@ -1,0 +1,27 @@
+id: event/death-al-suyuti-911
+class: event
+kind: death
+label:
+  ar: "وفاة جلال الدين السيوطي في الروضة، ٩١١هـ/١٥٠٥م"
+  en: "Death of Jalal al-Din al-Suyuti on Rawda island, 911/1505"
+  ur: "جلال الدین سیوطی کی وفات، جزیرہ روضہ، 911ھ/1505ء"
+summary:
+  ar: "توفي السيوطي في بيته بجزيرة الروضة يوم ١٩ جمادى الأولى سنة ٩١١هـ الموافق ١٨ تشرين الأول ١٥٠٥م، وقد بلغت منزلته في العلم ومهابته في الناس ذروتها حتى اشترى الناس ثيابه كأنها بقايا مقدسة، وترك ما ناف على خمسمائة مؤلف {cite:encyclopaedia-of-islam-2 vol. 9 p. 914} {cite:shadharat-dhahab p. 468-470}."
+  en: "Al-Suyuti died in his house on Rawda island on 19 Jumada I 911 (18 October 1505). His scholarly reputation and the aura of godliness around him reached their zenith: people bought his clothes as if they were relics, and he left behind more than five hundred works {cite:encyclopaedia-of-islam-2 vol. 9 p. 914} {cite:shadharat-dhahab p. 468-470}."
+  ur: "سیوطی 19 جمادی الاولی 911ھ (18 اکتوبر 1505ء) کو جزیرہ روضہ میں اپنے گھر میں وفات پا گئے۔ ان کی علمی ساکھ اور نیکی کی جلالت عروج پر پہنچ گئی: لوگ ان کے کپڑے تبرک سمجھ کر خریدتے تھے، اور وہ پانچ سو سے زائد تصانیف چھوڑ گئے {cite:encyclopaedia-of-islam-2 vol. 9 p. 914} {cite:shadharat-dhahab p. 468-470}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1505-10-18", hijri: "0911-05-19", calendar: julian, precision: day, status: historical, note: "١٩ جمادى الأولى ٩١١/١٨ تشرين الأول ١٥٠٥م؛ التاريخان مذكوران في المصدر {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-suyuti, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

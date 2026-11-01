@@ -14,14 +14,31 @@ born: { hijri: "0849", edtf: "1445~", calendar: julian, precision: year, status:
 died: { hijri: "0911", edtf: "1505~", calendar: julian, precision: year, status: historical, derived: true, note: "توفي 911هـ؛ التحويل مشتق.", sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab] }
 gender: male
 periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
 wings: [people]
 relations:
   - { type: authored, target: work/al-itqan-fi-ulum-al-quran, sources: [source/kashf-zunun-furqan] }
+  - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-al-suyuti-849, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-father-death-855, role: "اليتيم", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-suyuti-begins-study-864, role: "الطالب", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-suyuti-shaykhu-mosque-867, role: "المدرّس والمفتي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-imla-ibn-tulun-872, role: "المُملي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-shaykhuniyya-877, role: "مدرّس الحديث", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-ijtihad-claim-888, role: "صاحب الإعلان", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-baybarsiyya-891, role: "ناظر الخانقاه المعتزِل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-mujaddid-claim-898, role: "صاحب الإعلان", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-supreme-qadi-902, role: "المُعيَّن ثم المُلغى تعيينه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-suyuti-rawda-retreat-906, role: "المعتزِل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-suyuti-911, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
 external_ids:
   wikidata: Q468432
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
-status: { review: draft, completeness: 1 }
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "shadharat-dhahab; tarikh-khulafa-minhaj-1434; Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
   extraction_flow: "Apple Vision OCR -> manual extraction"
