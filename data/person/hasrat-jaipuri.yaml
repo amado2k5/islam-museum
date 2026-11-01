@@ -1,0 +1,46 @@
+id: person/hasrat-jaipuri
+class: person
+label: { ar: "حسرت جايبوري", en: "Hasrat Jaipuri", ur: "حسرت جے پوری" }
+names:
+  - { value: "اقبال حسين", kind: full }
+  - { value: "Iqbal Hussain", kind: full }
+  - { value: "Hasrat Jaipuri", kind: pen }
+gender: male
+summary:
+  ar: "شاعر هندي وكاتب أغانٍ في السينما الهندية، وُلد في جايبور سنة 1922 باسم إقبال حسين، وكتب بالهندية والأردية، ونال جائزة فيلم فير لأفضل كاتب أغانٍ مرتين (1966 و1972)، وارتبط اسمه بأفلام راج كابور وشانكار–جايكيشان."
+  en: "Indian poet and Hindi-film lyricist, born Iqbal Hussain in Jaipur in 1922. He wrote in Hindi and Urdu, won the Filmfare Award for Best Lyricist twice (1966 and 1972), and was the lyricist of the Raj Kapoor–Shankar–Jaikishan films until 1971."
+  ur: "بھارتی شاعر اور ہندی فلموں کے نغمہ نگار، جو 1922 میں جے پور میں اقبال حسین کے نام سے پیدا ہوئے۔ انھوں نے ہندی اور اردو میں لکھا، بہترین نغمہ نگار کے لیے دو بار فلم فیئر اعزاز (1966 اور 1972) حاصل کیا، اور 1971 تک راج کپور کی فلموں کے نغمہ نگار رہے۔"
+roles: [poet, writer]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1922-04-15"
+  hijri: "1340"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from English and Urdu Wikipedia and Wikidata. The Hijri year (1340) is a tabular conversion. He was born in Jaipur, but Jaipur has no place entity here, so no born_in relation is written."
+  sources: [source/wikipedia-hasrat-jaipuri-en, source/wikipedia-hasrat-jaipuri-ur, source/wikidata-hasrat-jaipuri]
+died:
+  edtf: "1999-09-17"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from English Wikipedia and Wikidata. The Hijri year (1420) is a tabular conversion. He died in Mumbai, but Mumbai has no place entity here, so no died_in relation is written."
+  sources: [source/wikipedia-hasrat-jaipuri-en, source/wikidata-hasrat-jaipuri]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Islam (Q432) generically. The English and Urdu articles document his Muslim identity — he was born Iqbal Husain, learned Urdu and Persian from his grandfather the poet Fida Husain, and is quoted speaking of himself as a Muslim boy in love with a Hindu neighbour — but no source read names a school, order or branch for him. Under the founder's ruling of 1 Nov 2026, structured data without textual backing cannot settle a school, and documented identity without a named school stays unknown, unflagged."
+    sources: [source/wikipedia-hasrat-jaipuri-en, source/wikipedia-hasrat-jaipuri-ur, source/wikidata-hasrat-jaipuri]
+external_ids: { wikidata: "Q5679443" }
+sources: [source/wikipedia-hasrat-jaipuri-en, source/wikipedia-hasrat-jaipuri-ur, source/wikidata-hasrat-jaipuri]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 Nov 2026 (rulings packet #3, Part 3): the queue row 'Hasrat Jaipuri — 1890–1940' matched nobody; the documented bearer is the film lyricist (1922–1999), built here under his documented dates. Researched from English Wikipedia (rev. 1380840824), Urdu Wikipedia (rev. 11801245) and Wikidata Q5679443 (item rev. 2563132967, re-asserted on a second live query), checked 1 Nov 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "rulings-builds-r1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
