@@ -18,3 +18,6 @@ These pages mention the birth of Isaac and the good tidings of him only in passi
 
 ## For young visitors
 Sarah was the wife of the Prophet Ibrahim. She lived with him in Palestine, and Hajar, the mother of Isma'il, had been her servant before she became Ibrahim's wife.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh says that Sara, 'the noble Syrian lady of good lineage', bore Ibrahim no child until both were old, and that after Hajar bore Isma'il, Sara then bore Ishaq, which he sees as part of God's decrees. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:03:00}

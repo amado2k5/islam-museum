@@ -76,3 +76,6 @@ translators: []
 - **academic view: not yet sourced**: لم يُنسب بعد.
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ ألا يقتنع أحد بأنه مع الحق المطلق وغيره مع الباطل المطلق، ولا يريد أن يكرر المسلمون منطق «أن تكون معي فأنت قديس، وأن تكون ضدي فأنت إبليس»، ويرى أن الناس مختلفون كألوانهم وأعراقهم وأفكارهم، وأن الثوابت كتاب الله وسنة رسوله ولها متغيرات يجتهد فيها أهل الاجتهاد، وينقل قول [[person/al-shafii|الشافعي]]: رأينا صواب يحتمل الخطأ ورأي غيرنا خطأ يحتمل الصواب. {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:06:30}

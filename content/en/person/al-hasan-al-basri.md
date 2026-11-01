@@ -51,3 +51,6 @@ He says al-Hasan lived among the Companions and the Followers and studied from t
 Sheikh Omar Abdelkafy recounts an anecdote about al-Hasan al-Basri and a governor, in which al-Hasan contrasts a petty thief with one who steals public funds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
 
 He quotes al-Hasan al-Basri's saying that the believers possess a blessing which kings would fight over with swords, and he applies it to the blessing of faith {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:09:00}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that al-Hasan al-Basri visited a man who had lost his son and found him calm and composed, and said: the wise man does at once what the ignorant does after ten days; that is, the ignorant calms down after some days, while the wise takes the matter with patience from the start (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30}
