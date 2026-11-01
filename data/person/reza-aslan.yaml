@@ -1,0 +1,36 @@
+id: person/reza-aslan
+class: person
+label: { ar: "رضا أصلان", en: "Reza Aslan", ur: "رضا اصلان" }
+names:
+  - { value: "رضا اصلان", kind: full }
+  - { value: "Reza Aslan", kind: full }
+gender: male
+summary:
+  ar: "كاتب وباحث دراسات دينية إيراني أمريكي، وُلد في طهران سنة 1972. من كتبه «لا إله إلا الله» و«زيالوت»، وهو أستاذ الكتابة الإبداعية في جامعة كاليفورنيا في ريفرسايد ومقدّم سلسلة «بليفر» على شبكة سي إن إن."
+  en: "Iranian-American writer and scholar of religion, born in Tehran in 1972. He is the author of No God but God and Zealot, a professor of creative writing at the University of California, Riverside, and the host of the CNN series Believer."
+  ur: "ایرانی نژاد امریکی مصنف اور مذہبی مطالعات کے عالم، 1972 میں تہران میں پیدا ہوئے۔ ان کی کتابوں میں «نو گاڈ بٹ گاڈ» اور «زیلٹ» شامل ہیں؛ وہ یونیورسٹی آف کیلیفورنیا، ریورسائیڈ میں تخلیقی تحریر کے پروفیسر اور سی این این کی سیریز «بلیور» کے میزبان ہیں۔"
+roles: [writer, scholar, professor]
+wings: [people, living]
+regions: [persia-central-asia, americas-oceania]
+born:
+  edtf: "1972-05-03"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date and Tehran birthplace from English Wikipedia, the Arabic Wikipedia and Wikidata, all in agreement; the Arabic article's birth category (1392 AH) agrees with the derived Hijri year. Tehran has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
+  sources: [source/wikipedia-reza-aslan-en, source/wikipedia-reza-aslan-ar, source/wikidata-reza-aslan]
+faith:
+  - value: sufi
+    basis: self-identified
+    note: "Aslan names his own tradition in his own words in two independent sources. In a 2013 WNYC interview reported by the Christian Science Monitor he said: 'I'm definitely a Muslim and Sufism is the tradition within Islam that I most closely adhere to.' In a 2019 conversation with The Iranian he answered the question of his religion: 'Muslim. The tradition in Islam I follow is Sufism.' Recorded as sufi on his self-identification. The other attestations are not the basis: he was born into a Twelver Shia family (background, which never counts) and converted to evangelical Christianity at fifteen before returning to Islam; The Guardian's 2005 description of him as 'a Shia by persuasion' is a single journalistic characterization, not his own naming of a branch; and Wikidata's structured religion values (Shia Islam; Evangelicalism) are structured data and are not used."
+    sources: [source/csmonitor-aslan-2013, source/iranian-aslan-interview-2019]
+external_ids: { wikidata: "Q2298313" }
+sources: [source/wikipedia-reza-aslan-en, source/wikipedia-reza-aslan-ar, source/wikidata-reza-aslan, source/csmonitor-aslan-2013, source/iranian-aslan-interview-2019]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382190327), Arabic Wikipedia (revision 76867055) and Wikidata Q2298313 (item revision 2529559371, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. The Christian Science Monitor report of 28 July 2013 and The Iranian's conversation of 9 April 2019 read on the same date. A Persian article also exists and was not needed. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-156a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
