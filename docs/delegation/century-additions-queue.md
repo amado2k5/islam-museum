@@ -1751,11 +1751,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 
 ## J. 1726–1825 additions (51)
 
-- [ ] Usman dan Fodio — 1754–1817
-- [ ] Muhammad Bello — 1781–1837
+- [x] Usman dan Fodio — 1754–1817
+- [x] Muhammad Bello — 1781–1837
 - [x] Nana Asma'u — 1793–1864 (built under §B)
-- [ ] Muhammad al-Kanemi — 1776–1837
-- [ ] Sulayman Bal — 1730–1775
+- [x] Muhammad al-Kanemi — 1776–1837
+- [x] Sulayman Bal — 1730–1775
 - [ ] Abdul Kader Kane — 1745–1806
 - [x] Seku Amadu (Amadu Lobbo) — 1776–1845
 - [ ] Karamokho Alfa — 1700–1751
