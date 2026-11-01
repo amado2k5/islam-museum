@@ -63,3 +63,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ نماز قائم کرنے اور ادا کرنے میں فرق کرتے ہیں: ادا کرنا یہ ہے کہ انسان ظہر اور مغرب پڑھے پھر غیبت کرے، ظلم کرے اور بات، مال اور اولاد میں امانت دار نہ ہو؛ قائم کرنا یہ ہے کہ نماز اسے بے حیائی، برائی اور سرکشی سے روکے؛ وہ استدلال کرتے ہیں کہ ابراہیم نے اپنی اولاد کو بیت اللہ کے پاس بسایا «تاکہ وہ نماز قائم کریں»۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں عمر عبد الکافی اس آدمی کی حدیث سناتے ہیں جس نے جلدی نماز پڑھی تو نبی نے فرمایا: لوٹ کر پڑھو تم نے نماز نہیں پڑھی، پھر اسے پوری نماز میں رکوع، سجدے اور قعدے میں اطمینان سکھایا، اور اس کے بغیر نماز ناقص ہے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:30} وہ ذکر کرتے ہیں کہ نماز کو وقت سے مؤخر کرنا دل بگاڑنے والی چیزوں میں سے ہے، اور مسلمان اذان کا جواب دیتا ہے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:30}

@@ -26,3 +26,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يحثّ عمر عبد الكافي على تجديد النية في كل عمل، حتى يكون إنفاق الرجل على أهله عبادة، ويذكر أن خير الدراهم ما أنفقه الرجل على أهله. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يحكي عمر عبد الكافي أن أميرًا دخل بستانًا فسقته فتاة عصير رمان من رمانة واحدة، فنوى أن يأخذ البستان من أهله، فلما طلب كأسًا أخرى عصرت رمانات كثيرة فلم تملأه، فقالت إن نية السلطان قد تغيرت، فترك فكرته فعادت البركة. ويسوقها شاهدًا على أثر النية في البركة. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:21:00}

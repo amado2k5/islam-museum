@@ -69,3 +69,6 @@ translators: []
 
 ## في خطب عبد الحميد كشك
 يجعل [[person/abdul-hamid-kishk|عبد الحميد كشك]] التواضع لعظمة الله أول [[concept/shurut-qabul-al-salah|شروط قبول الصلاة]] في الحديث القدسي الذي يشرحه، ويجعل ترك الاستطالة على الخلق شرطًا ثانيًا مستقلًّا. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep01 00:25:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:14:00} ويفسّر الاستطالة على الخلق بأذاهم، ويعدّد أذى العين والأذن واللسان والبطن واليد والرجل والقلب. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:13:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:14:00}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يصف عمر عبد الكافي تواضع النبي، فيقول إنه كان يجلس بين أصحابه فلا يُميَّز منهم، وإن رجلًا ارتعد من هيبته فطمأنه، وإنه عاش بتواضعه واحدًا بين الجميع. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:03:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:04:00} ويرى أن من رفعه الله منصبًا وجب أن يزداد قربًا من الناس وقضاءً لحوائجهم، وأن العلماء الصادقين كلما زادوا علمًا زادوا تواضعًا. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:13:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:15:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:23:00}

@@ -21,3 +21,6 @@ translators: []
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی کہتے ہیں کہ رمضان میں لوگ عبادت کی طرف آتے ہیں، یہاں تک کہ نماز نہ پڑھنے والے بھی، اور رمضان کے بندے میں، جو تیس دن عبادت کر کے چھوڑ دیتا ہے، اور رمضان کے رب کے بندے میں فرق کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:30} ایک اور درس میں وہ روزے کے سوالوں کے جواب دیتے ہیں، جن میں آنکھ کے قطرے بھی ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:30}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+عمر عبد الکافی روزے کے مہینے کو کھانے اور دعوتوں کا مہینہ بنا دینے پر تنقید کرتے ہیں، کہتے ہیں کہ معدہ اللہ سے بندوں کے ظلم کی شکایت کرتا ہے، اور روزے کی حکمتوں میں بھوکے کا حال محسوس کرنا گنواتے ہیں۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:00}

@@ -19,3 +19,6 @@ translators: []
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی دل کی موت کی علامتوں پر ابن عطاء اللہ کی حکمت کی شرح کرتے ہیں: بندہ فوت شدہ نیکیوں پر غمگین نہ ہو اور کی ہوئی لغزشوں پر نادم نہ ہو۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30} وہ مثال دیتے ہیں اس شخص کی جو مسجد میں صرف جنازے کی صورت میں اٹھا کر لایا جاتا ہے، اور اس کی جو بار بار نماز چھوڑتا ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں عمر عبد الکافی ان چیزوں کی بات کرتے ہیں جو علما نے دل کو بگاڑنے والی گنوائی ہیں، ان میں: وہ علم جس پر عمل نہ ہو، وہ عمل جس میں اخلاص اور اتباع نہ ہو، اور اللہ کی محبت اور شوق سے خالی دل، {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:30} اور کہتے ہیں کہ جو اپنے علم پر عمل نہ کرے وہ اپنے عمل میں بھٹک جاتا ہے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00}

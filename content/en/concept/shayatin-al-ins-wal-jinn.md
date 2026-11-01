@@ -21,3 +21,6 @@ Rida observes that in his time deception through ornate speech had reached a rem
 
 ## Author's note
 Rida presents both views and says the correct one is what was related from Mujahid, Qatada and al-Hasan, that there are devils among humankind, and he rejects the other view with evidence. These preferences are attributed to him.
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy says that the human devil is more dangerous than the jinn devil, since the jinn devil slinks away when God is remembered, and counts weakness of certainty and of trust in God among the obstacles on the way to God. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:02:30}

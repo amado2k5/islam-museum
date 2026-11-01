@@ -19,3 +19,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يشرح عمر عبد الكافي حكمة ابن عطاء الله في علامات موت القلب: ألا يحزن العبد على ما فاته من الطاعات ولا يندم على ما فعل من الزلات. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30} ويمثّل بمن لا يدخل المسجد إلا محمولًا يُصلّى عليه، وبمن يتكرر منه ترك الصلاة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يتحدث عمر عبد الكافي في «المنجيات» عما جمعه العلماء من مفسدات القلب، ومنها: العلم الذي لا يُعمل به، والعمل الذي لا إخلاص فيه ولا اقتداء، وقلب فارغ من محبة الله والشوق إليه، {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:30} ويقول إن من لم يعمل بما يعلم تاه فيما يعمل. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00}
