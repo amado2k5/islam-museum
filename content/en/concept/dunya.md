@@ -56,3 +56,6 @@ He says there is no good in grieving over youth that has passed, and raises a qu
 
 ## The speaker's view: wealth and zakat
 The Sheikh says that 24 percent of the world's poor live in Muslim countries because wealthy people withhold zakat (needs_source: the figure is not sourced in the recording), and that large fortunes need to be audited. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:27:00}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy cites the saying that a person should work for this world in proportion to his stay in it and for the next in proportion to his permanence there, and likens this world to a rider who shades himself under a tree and then rides on and leaves it. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:05:00}

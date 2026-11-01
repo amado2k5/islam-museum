@@ -26,6 +26,9 @@ The Sheikh recounts the story of a teacher in Basra who had five hundred student
 
 He says that rejoicing in good deeds is right, since God granted one the means to them, while one guards against pride (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:03:30}.
 
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy explains Ibn Ata Allah's maxim that a sin that leaves humility and brokenness is better than an act of obedience that leaves pride and arrogance, and says that for a servant to sleep through the night and wake remorseful is better than to stand in prayer all night and wake pleased with himself. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:04:30} He says the servant should rejoice in obedience not because it came from him but because God made him fit for it. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:05:00}
+
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh counts 'the inflated ego' among the obstacles to purification, likening such a person to one sitting in a room of mirrored walls who sees only a thousand images of himself, imagines himself more learned than Abu Hanifa and Ibn Taymiyya, and crosses his legs to criticise scholars; he holds that everyone knows something and misses many things, and that a doctor does not think himself more knowing than the plumber in his trade. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:09:00}
 

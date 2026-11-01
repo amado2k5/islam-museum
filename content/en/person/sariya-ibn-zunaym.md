@@ -16,3 +16,6 @@ One report says Sariya asked the Muslims for a casket of jewels and sent it with
 Ibn Kathir also reports that Sariya's messenger reached Medina with the news, and that when Umar was asked about his shout from the pulpit, he said he had only spoken what was placed on his tongue. {cite:al-bidaya-wal-nihaya p. 132}
 
 Ibn Kathir sets these reports side by side, saying that some strengthen others, and judges the chain of Ibn Umar to be good. {cite:al-bidaya-wal-nihaya p. 131}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that when the soul is refined by obedience and uprightness it sees what is not ordinarily seen, and counts among this Umar's call to Sariya: 'O Sariya, the mountain, the mountain!' {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:34:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:36:30}

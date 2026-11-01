@@ -42,6 +42,9 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 شیخ اپنی رائے کے طور پر کہتے ہیں کہ ظالم اپنے سوا کسی کو نہیں دیکھتا، اور اسے یہ گمان نہیں ہوتا کہ جس بچے کو وہ پناہ دے رہا ہے وہ بڑا ہو کر اس کے مقابل آئے گا؛ وہ فرعون اور بنی اسرائیل کے بچے کی مثال دیتے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}۔
 
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی مفلس والی حدیث کا مفہوم بیان کرتے ہیں: ایک آدمی قیامت کے دن نیکیاں لے کر آئے گا، جن پر اس نے ظلم کیا وہ ان میں سے لیں گے، اور جب اس کی نیکیاں ختم ہو جائیں گی تو ان کے گناہ لے کر اس پر ڈال دیے جائیں گے؛ وہ غیبت اور ایذا سے خبردار کرتے ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}
+
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ آجر کو ملازم پر ظلم، اس کی اجرت میں کمی یا طاقت سے زیادہ بوجھ ڈالنے سے خبردار کرتے ہیں، اور کہتے ہیں کہ ظلم قیامت کے دن اندھیرے ہوں گے اور مظلوم کی دعا اور اللہ کے درمیان کوئی پردہ نہیں؛ وہ پوچھتے ہیں کہ کیا اللہ اس ادارے میں برکت دے گا جس کے مالک نے کسی پر ظلم کیا اور اس نے رات کو بددعا کی؟ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:07:00} دیکھیے: [[concept/huquq-al-amil|مزدور اور آجر کا تعلق]]۔
 

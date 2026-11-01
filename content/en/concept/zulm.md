@@ -42,6 +42,9 @@ He defines injustice as exceeding what is right, and urges people to measure the
 
 He holds, as his own opinion, that the oppressor sees only himself, and does not imagine that the child he shelters will grow up to confront him; he gives the example of Pharaoh and the child of the Israelites {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.
 
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy gives the sense of the hadith of the bankrupt: a man comes on the Day of Resurrection with good deeds, and those he wronged take from them, and when his good deeds run out their sins are taken and cast upon him; he warns against backbiting and harm. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}
+
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh warns the employer against wronging an employee, shorting his pay or overloading him, saying that injustice will be darkness on the Day of Resurrection and that there is no veil between the prayer of the wronged and God; he asks whether God will bless an institution whose owner wronged a man who then prayed against him at night. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep15 00:07:00} See: [[concept/huquq-al-amil|the relation between worker and employer]].
 

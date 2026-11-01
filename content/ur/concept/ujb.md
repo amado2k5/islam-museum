@@ -26,6 +26,9 @@ translators: ["Claude Code (claude-haiku-5-5), draft translation"]
 
 وہ کہتے ہیں کہ نیکیوں پر خوش ہونا جائز ہے کیونکہ اللہ نے ان کی توفیق دی، مگر تکبر سے بچنا ضروری ہے (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:03:30}۔
 
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی ابن عطاء اللہ کی اس حکمت کی شرح کرتے ہیں کہ جو گناہ ذلت اور انکسار پیدا کرے وہ اس طاعت سے بہتر ہے جو عزت اور تکبر پیدا کرے، اور کہتے ہیں کہ بندہ رات سو کر گزارے اور صبح نادم ہو، یہ اس سے بہتر ہے کہ رات قیام میں گزارے اور صبح خود پسند ہو۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:04:30} وہ کہتے ہیں کہ بندہ طاعت پر اس لیے خوش نہ ہو کہ وہ اس سے صادر ہوئی، بلکہ اس لیے کہ اللہ نے اسے اس کا اہل بنایا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:05:00}
+
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ «انا کے پھولنے» کو تزکیہ کی رکاوٹوں میں شمار کرتے ہیں، اور ایسے شخص کو اس سے تشبیہ دیتے ہیں جو آئینوں والی دیواروں کے کمرے میں بیٹھا ہو اور اپنی ہزار تصویریں ہی دیکھے، خود کو ابو حنیفہ سے بڑا فقیہ اور ابن تیمیہ سے بڑا عالم سمجھے، اور ٹانگ پر ٹانگ رکھ کر علماء پر تنقید کرے؛ ان کے نزدیک ہر انسان کچھ جانتا ہے اور بہت کچھ نہیں جانتا، اور ڈاکٹر خود کو پلمبر سے اس کے فن میں زیادہ جاننے والا نہیں سمجھتا۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:09:00}
 

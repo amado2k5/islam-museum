@@ -142,3 +142,6 @@ He recounts that Abu Bakr vomited milk after doubting where it came from, and sa
 - **Over all his affairs and judgeship:** [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] {cite:tarikh-khalifa-umari-1985 p. 123}
 - **Treasury:** [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda ibn al-Jarrah]] (then sent him to Syria; in (( )) in the edition: restored by the editor from later authors quoting Khalifa) {cite:tarikh-khalifa-umari-1985 p. 123}
 - **Muezzin:** Sa'd al-Qaraz, mawla of Ammar ibn Yasir {cite:tarikh-khalifa-umari-1985 p. 123}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says he does not side with Abu Bakr in his equal distribution of stipends among people, and notes that no one after the Prophet is infallible and everyone's words may be taken or left. This is his view. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:50:00} He relates that Abu Bakr asked the Prophet's leave to interpret a dream, and was given it. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:25:00}

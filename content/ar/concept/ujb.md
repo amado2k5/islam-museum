@@ -26,6 +26,9 @@ translators: []
 
 ويقول الشيخ إن الفرح بالحسنات مشروع لأن الله وفّق إليها، مع التحرز من الكبر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:03:30}.
 
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي حكمة ابن عطاء الله أن معصية أورثت ذلًّا وانكسارًا خير من طاعة أورثت عزًّا واستكبارًا، ويقول إن أن يبيت العبد نائمًا ويصبح نادمًا خير له من أن يبيت قائمًا ويصبح معجبًا. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:03:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:04:30} ويقول إن العبد لا يفرح بالطاعة لأنها صدرت منه، بل لأن الله جعله أهلًا لها. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:05:00}
+
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يعدّ الشيخ «انتفاخ الأنا» من موانع التزكية، ويشبّه صاحبه بمن يجلس في غرفة جدرانها مرايا فلا يرى إلا ألف صورة لنفسه، فيظن أنه أفقه من أبي حنيفة وأعلم من ابن تيمية، ويضع قدمًا على قدم لينتقد العلماء، ويرى أن كل إنسان عرف شيئًا وغابت عنه أشياء، وأن الطبيب لا يظن نفسه أعلم من السبّاك في صنعته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:09:00}
 

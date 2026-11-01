@@ -23,3 +23,6 @@ Sha'rawi says two people may do the same deed, one rewarded because he sought Go
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 
 The Sheikh relays a saying of the scholars that one who is far from a sin but wishes for it in his heart is like one who was present at it, and that one who is present where a sin occurs but rejects it in his heart is like one who was not present {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}. He then returns to the verses of al-Nazi'at and says that the "Sabihat" ([[passage/quran-79-3|Qur'an 79:3]]) carry the souls of the believers swiftly along {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy urges renewing one's intention in every act, so that a man's spending on his family becomes worship, and recalls that the best dirham is the one a man spends on his family. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}

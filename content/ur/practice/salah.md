@@ -58,5 +58,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 وہ کہتے ہیں کہ امام ضامن ہے اور مؤذن امانت دار ہے، امام اپنے پیچھے نماز پڑھنے والوں کی نماز کی ذمہ داری اٹھاتا ہے، اور مقتدی سجدۂ سہو میں اس کی پیروی کرتا ہے چاہے خود اس سے سہو نہ ہوا ہو (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:30}۔
 
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+ایک فقہی درس میں عمر عبد الکافی نماز کے صحیح ہونے کی شرائط سمجھاتے ہیں، انہیں عمارت کھڑی کرنے کی شرائط سے تشبیہ دیتے ہیں، اور ان میں بدن، کپڑے اور جگہ کی طہارت گنواتے ہیں؛ وہ کہتے ہیں کہ معذور، جیسے سلسل البول والا، نماز پڑھے تو اس کی نماز صحیح ہے، اور شیر خوار لڑکے کا پیشاب جس نے ابھی کھانا نہ کھایا ہو پانی چھڑک کر پاک ہوتا ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:08:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:13:30}
+
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ نماز قائم کرنے اور ادا کرنے میں فرق کرتے ہیں: ادا کرنا یہ ہے کہ انسان ظہر اور مغرب پڑھے پھر غیبت کرے، ظلم کرے اور بات، مال اور اولاد میں امانت دار نہ ہو؛ قائم کرنا یہ ہے کہ نماز اسے بے حیائی، برائی اور سرکشی سے روکے؛ وہ استدلال کرتے ہیں کہ ابراہیم نے اپنی اولاد کو بیت اللہ کے پاس بسایا «تاکہ وہ نماز قائم کریں»۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}

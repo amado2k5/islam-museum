@@ -13,6 +13,9 @@ translators: []
 
 ويذكر أن يونس نُبذ بالعراء، وأن الله أنبت عليه شجرة من يقطين، وأرسله إلى مئة ألف أو يزيدون (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:32:30}. ثم يلاحظ أن بطن الحوت ثالث ثلاثة أماكن ضيقة يذكرها مع الغار والكهف، ويتساءل أين يجيء الخير بعد الضيق {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:32:30}.
 
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي قصة يونس: ركب السفينة فاقترع أهلها لما اضطربت، فوقعت القرعة عليه مرة بعد مرة، فأُلقي في البحر والتقمه الحوت، وكان الحوت يحفظه بقدر الله. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:22:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:24:30} ويذكر أنه ذهب مغاضبًا لقومه، ثم نادى في الظلمات معترفًا بظلمه لنفسه، فعرفت الملائكة صوته وقالت إنه صوت عبد معروف. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:23:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:28:00} ثم نُبذ بالعراء وأنبت الله عليه شجرة من يقطين، وهي القرع. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:24:30} ويستطرد إلى أن أنسًا أحبّ القرع لما رأى النبي يتتبعه من جوانب الصحفة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:25:00}
+
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يرى الشيخ أن يونس لما كان مخلصًا لله وأُلقي في بطن الحوت اعترف بتقصيره بالتسبيح والإقرار بالظلم، وينقل عن كتب السير أن الملائكة قالت: صوت معروف في مكان غريب، لأنه لم يذكر الله أحد في بطن حوت قبله ولا بعده، فاستجاب الله له ونجّاه، ويقول إن الله ينجي المؤمنين إذا ذلّوا له وألحّوا عليه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:09:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:10:00}
 

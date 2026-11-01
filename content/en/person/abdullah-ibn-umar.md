@@ -37,3 +37,6 @@ Abdullah ibn Umar ibn al-Khattab was a distinguished companion, scholar, and one
 
 ## For Scholars
 Abu Abd al-Rahman Abdullah ibn Umar ibn al-Khattab (c. 10 BH – 73 AH / 613–693 CE), an eminent companion, jurist, and one of the prominent narrators of Hadith. Accepting Islam in childhood and migrating with his father Umar, he witnessed the Trench, the Pledge of Ridwan, and early campaigns. Renowned in Islamic memory for his meticulous emulation of the Prophet's personal habits and devotional practices, he epitomized strict moral asceticism, steadfastly declining caliphal office and remaining neutral during civil discords while serving as a senior legal authority in Medina.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy relates that a man from Iraq asked Abdullah ibn Umar about the blood of a mosquito, and Ibn Umar marvelled that they asked about mosquito blood when they had killed the son of the Prophet's daughter. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:15:00}

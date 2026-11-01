@@ -43,6 +43,12 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 شیخ مصر میں یوسف کے عروج اور یعقوب کے ان کے آگے جھکنے کو پہلے کے خواب کی تکمیل کے طور پر بیان کرتے ہیں (سورت کا نام نہیں لیا گیا)۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
 
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی یعقوب کے اپنے دو بیٹوں کے معاملے میں صبر کی بات کرتے ہیں، قمیص لانے اور ان کے چہرے پر ڈالنے کا ذکر کرتے ہیں، اور سوال کرتے ہیں کہ یعقوب نے آزمائش کا علاج کیسے کیا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے (2)
+شیخ کہتے ہیں کہ یعقوب نے یوسف کے لیے خاص محبت اور بھائیوں کے سامنے ممتاز مقام ظاہر کیا، اور اس سے سبق نکالتے ہیں کہ والدین ایک بچے کو دوسرے پر ترجیح نہ دیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}
+
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ یعقوب اور یوسف کے قصے سے ایک تربیتی نکتہ نکالتے ہیں: جب یوسف کے بھائیوں نے یوسف اور ان کے بھائی سے باپ کی محبت دیکھی تو انہوں نے انہیں قتل کرنے کی کوشش کی اور کنویں میں ڈال دیا، یہ سمجھ کر کہ باپ کے دل سے ان کی محبت ختم ہو جائے گی، مگر محبت اور بڑھ گئی یہاں تک کہ غم سے ان کی آنکھیں سفید ہو گئیں؛ ان کے نزدیک جس باپ کے دل پر کسی ایک بچے کی محبت غالب ہو وہ اسے ظاہر نہ کرے، کیونکہ اس سے دوسروں میں حسد پیدا ہوتا ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}
 

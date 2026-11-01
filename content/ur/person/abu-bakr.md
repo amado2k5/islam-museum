@@ -143,3 +143,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **تمام امور اور قضا:** [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:tarikh-khalifa-umari-1985 p. 123}
 - **بیت المال:** [[person/abu-ubayda-ibn-al-jarrah|أبو عبيدة بن الجراح]] («ثم وجهه إلى الشام؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة») {cite:tarikh-khalifa-umari-1985 p. 123}
 - **مؤذن:** سعد القرظ مولى عمار بن ياسر {cite:tarikh-khalifa-umari-1985 p. 123}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی کہتے ہیں کہ وہ عطیات میں لوگوں کے درمیان برابری کرنے میں ابو بکر کے ساتھ نہیں، اور یاد دلاتے ہیں کہ نبی کے بعد کوئی معصوم نہیں اور ہر ایک کی بات لی بھی جا سکتی ہے اور رد بھی کی جا سکتی ہے۔ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:50:00} وہ بیان کرتے ہیں کہ ابو بکر نے ایک خواب کی تعبیر کے لیے نبی سے اجازت مانگی اور انہیں اجازت ملی۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:25:00}

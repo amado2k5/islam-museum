@@ -18,3 +18,6 @@ He says asking is lawful only for a person in extreme poverty, under a crushing 
 
 ## Complaint is made to God
 He warns against complaining to people about one's family, neighbours, the times or poverty, and says complaint is made to God. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:11:00}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Explaining Ibn Ata Allah's maxim that asking from other than God comes from distance from Him, Omar Abdelkafy relates that a group of Companions pledged to the Prophet never to ask people for anything, so that if one of them dropped his whip while riding he would dismount to pick it up rather than ask anyone to hand it to him. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:32:30} He tells of a man who fell into a well; a passing caravan thought it a well with water, and he did not call to them for help, keeping to this pledge. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:33:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:34:00} (needs_source: the narrator's name and the name of the man in the well are unclear in the recording.)

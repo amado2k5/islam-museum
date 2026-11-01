@@ -31,3 +31,6 @@ This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'a
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 The Sheikh relays from the people of knowledge that if God were to reveal Himself with His noble face to the people of the Fire they would forget the torment they are in, and if He were to veil His noble face from the people of Paradise, life there would not be pleasant for them for a moment (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:39:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that the whole of bliss lies in beholding the noble face of God and the whole of torment in being veiled from Him, and counts the sight of God's face as the highest thing God gives His servants in the next world. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:40:00} He mentions Moses asking his Lord to let him see Him, God's answer that he should look at the mountain, and explains Moses' glorification afterwards as declaring God free of every imperfection. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:30}

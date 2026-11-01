@@ -148,3 +148,6 @@ translators: []
 - **على أمره كله والقضاء:** [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:tarikh-khalifa-umari-1985 p. 123}
 - **بيت المال:** [[person/abu-ubayda-ibn-al-jarrah|أبو عبيدة بن الجراح]] (ثم وجهه إلى الشام؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة) {cite:tarikh-khalifa-umari-1985 p. 123}
 - **المؤذن:** سعد القرظ مولى عمار بن ياسر {cite:tarikh-khalifa-umari-1985 p. 123}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يقول عمر عبد الكافي إنه ليس مع أبي بكر في تسويته بين الناس في العطاء، ويذكر أنه لا معصوم بعد النبي، وأن كل أحد يؤخذ من قوله ويُردّ. وهذا رأيه. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:49:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:50:00} ويروي أن أبا بكر استأذن النبي في تأويل رؤيا فأذن له. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:25:00}

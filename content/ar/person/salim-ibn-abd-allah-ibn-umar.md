@@ -12,3 +12,6 @@ translators: []
 
 ## وفاته
 مات سنة ست ومائة وقد شاخ. {cite:tazkirat-al-huffaz j.1 p.87}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يروي عمر عبد الكافي أن هشامًا لقي سالم بن عبد الله في الكعبة فعرض عليه أن يسأله حاجته، فسأله سالم: أمن حوائج الدنيا أم من حوائج الآخرة؟ واستحيا أن يسأل غير الله في بيته. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:30}

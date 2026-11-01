@@ -21,3 +21,6 @@ translators: []
 
 ## شروطه وأركانه
 من شروط وجوبه البلوغ والقدرة على استعمال الصعيد ووجود الحدث الناقض، ومن شروط صحته الإسلام والعقل وانقطاع دم الحيض والنفاس ووجود الصعيد الطهور. وللتيمم ركنان: الضربتان، واستيعاب الوجه واليدين إلى المرفقين بالمسح؛ واختلفوا في النية هل هي ركن أم شرط. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6084} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6085}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي في درس فقهي التيمم: يضرب المتيمم بكفّيه على الصعيد الطيب ضربة واحدة فيمسح بهما وجهه وكفّيه، فيرتفع بذلك الحدث الأصغر والأكبر. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:13:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:15:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 01:16:00}

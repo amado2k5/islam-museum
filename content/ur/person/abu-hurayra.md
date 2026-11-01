@@ -40,3 +40,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 شیخ کے نزدیک (ان کی ذاتی رائے) صحابہ اقتدار کی کرسیوں پر جھگڑا نہیں کرتے تھے، اور ایسے اخلاق «لا إله إلا الله» کی برکت سے آتے ہیں؛ اس سیاق میں وہ ابوہریرہ کا ذکر کرتے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:18:30}۔
 
 وہ عمر اور ابوہریرہ کے عہدے کے بارے میں رویوں کو ایک دوسرے کے متضاد قرار دیتے ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:25:30}، اور کہتے ہیں کہ یہ اخلاق اس لیے پھلے کہ دل میں اللہ کا درخت لگایا گیا تھا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:29:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بیان کرتے ہیں کہ ابو ہریرہ کی والدہ ابھی مسلمان نہیں ہوئی تھیں، تو ابو ہریرہ روتے ہوئے نبی کے پاس دعا کی درخواست لے کر آئے؛ گھر لوٹے تو دیکھا کہ وہ غسل کر چکی ہیں، بالوں سے پانی ٹپک رہا ہے، اور اسلام لا چکی ہیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:42:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep08 00:44:00} وہ یہ بھی بیان کرتے ہیں کہ عمر نے انہیں بحرین سے بلایا اور بعد میں دوبارہ ولایت کی دعوت دی تو انہوں نے انکار کیا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:46:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:46:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:47:00}

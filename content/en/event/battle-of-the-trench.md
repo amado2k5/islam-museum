@@ -41,3 +41,6 @@ He says the Qur'an describes that battle in an extraordinary way: the believers 
 He recounts Hudhayfa ibn al-Yaman's account of a freezing night, when the Prophet asked who would go to the enemy and bring back news without starting anything. Hudhayfa rose into the dark {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:16:00}. Hudhayfa says Abu Sufyan was close to him, within a spear's thrust, and he held back because he remembered the Prophet's charge not to start anything against them {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:17:00}.
 
 The speaker's view (opinion): one man's deed is better than a thousand men's speeches, and the Battle of the Confederates is a model of the Muslims' victory through "there is no god but God" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 01:00:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Describing the trench, Omar Abdelkafy says it was about twenty kilometres long, four metres wide and six metres deep, and asks how the horsemen crossed it. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:21:00} (needs_source: the figures are stated once by the speaker and not checked against another source.)

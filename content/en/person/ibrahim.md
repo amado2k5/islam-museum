@@ -119,6 +119,9 @@ He cites Ibrahim's words to his father as a model of counsel that is respectful 
 
 He calls for gentle counsel to elders who act wrongly, and cites Ibrahim's address to his father as a model of advice without direct rebuke (the surah is not named). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:44:00}
 
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy tells how Ibrahim, raised on the catapult to be thrown into the fire lit by Nimrod and his people, was offered help by Gabriel, and answered that he had no need of him and that his Lord's knowledge of his state spared him from asking; he takes this as a witness to Ibn Ata Allah's maxim on asking. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep01 00:10:00}
+
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 At the close of 'Wa Nafsin wa ma Sawwaha' the Sheikh tells a report that when God showed Ibrahim the dominion of the heavens and the earth, he saw a man devouring orphans' property and prayed against him, and a thunderbolt struck him; then he saw another robbing a widow and prayed against him, and was told: did you create them? Leave Me with My servants; whoever of them repents, I am his beloved, and whoever does not, I am his physician. He tells it as an example of God's forbearance and mercy (needs_source: the report is not referenced in the recording). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:00}
 

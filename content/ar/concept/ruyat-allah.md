@@ -31,3 +31,6 @@ translators: []
 
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 9)
 ينقل الشيخ عن أهل العلم أن الله لو تجلى على أهل النار بوجهه الكريم لنسوا ما هم فيه من العذاب، ولو حجب وجهه الكريم عن أهل الجنة ما طابت لهم الحياة فيها لحظة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:39:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يقول عمر عبد الكافي إن النعيم كل النعيم في مشاهدة وجه الله الكريم، وإن العذاب كل العذاب في الحجاب عنه، ويعدّ النظر إلى وجه الله أعلى ما يعطيه الله عباده في الآخرة. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:31:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:40:00} ويذكر سؤال موسى ربه أن يراه، وجواب الله بأن ينظر إلى الجبل، ويشرح تسبيح موسى بعدها بأنه تنزيه لله عن كل نقص. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep05 00:39:30}

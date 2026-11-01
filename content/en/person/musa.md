@@ -120,6 +120,9 @@ He cites another saying that God's dominion endures and His treasuries are never
 
 He says that Jacob told his sons not to despair of God's mercy, then recounts that Musa was a shepherd for ten years before his mission, and names Pharaoh and Qarun among the hardest trials to bear (needs_source). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:30:00}
 
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy mentions that at his death Moses asked his Lord to bring him within a stone's throw of the Holy Land. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep07 00:55:30}
+
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh follows Musa's life as an example that the outward appearance of events differs from their inner reality: cast into the river as an infant and picked up by his enemy, then the love God cast upon him; then his fearful flight from the city after the man was killed, ten years in Madyan with the righteous man, marriage to his daughter and tending his flock, then the fire in the holy valley and God speaking to him, so that he became one of the five resolute messengers. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:06:30} See: [[concept/al-minha-fi-al-mihna|the gift within the trial]].
 

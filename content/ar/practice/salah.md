@@ -58,5 +58,8 @@ translators: []
 
 ويقول إن الإمام ضامن والمؤذن مؤتمن، وإن الإمام يتحمل مسؤولية صلاة من خلفه، ويتبعه المأموم في سجود السهو ولو لم يسهُ هو (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:25:30}.
 
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي في درس فقهي شروط صحة الصلاة، ويمثّلها بشروط إقامة البناء، ويعدّ منها طهارة البدن والثوب والمكان، ويذكر أن صاحب العذر كمن به سلس البول يصلي وصلاته صحيحة، وأن بول الغلام الرضيع الذي لم يطعم يُنضح بالماء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:05:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:06:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:08:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:12:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:13:30}
+
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يفرّق الشيخ بين إقامة الصلاة وأداء الصلاة: فأداؤها أن يصلي الإنسان الظهر والمغرب ثم يغتاب ويظلم ولا يكون أمينًا على الكلمة والمال والأولاد، وإقامتها أن تنهاه عن الفحشاء والمنكر والبغي، ويستشهد بأن إبراهيم أسكن ذريته عند البيت «ليقيموا الصلاة». {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}
