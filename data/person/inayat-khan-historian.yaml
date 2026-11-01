@@ -1,0 +1,57 @@
+id: person/inayat-khan-historian
+class: person
+
+label: { ar: "عناية خان", en: "Inayat Khan", ur: "عنایت خان" }
+
+names:
+  - { value: "Muhammad Tahir", kind: full }
+  - { value: "Inayat Khan", kind: laqab }
+  - { value: "Ashna", kind: pen }
+
+gender: male
+
+summary:
+  ar: "محمد طاهر (1628 – 1671)، المعروف بلقبه عناية خان، مؤرخ هندي في سلطنة مغول الهند، صاحب «شاهجهان نامه»، وهو تلخيص لتاريخ شاه جهان مستمد من تقليد البادشاه نامه. كان ابن الوزير ظفر خان، حاكم كابل وكشمير في عهد شاه جهان، وخدم داروغا ومسؤولًا في المكتبة السلطانية، وكان من المقربين إلى الإمبراطور، ثم اعتزل إلى كشمير حيث توفي."
+  en: "Muhammad Tahir (1628 - 1671), known by his title Inayat Khan, was an Indian historian of the Mughal Empire, author of the Shahjahannama, an abridged history of Shah Jahan drawn from the Badshahnama tradition. He was the son of Zafar Khan, Jahangir's wazir and under Shah Jahan governor of Kabul and of Kashmir; he served as a darogha and as an officer of the Imperial Library, was a close companion of the emperor, and retired to Kashmir, where he died."
+  ur: "محمد طاہر (1628ء – 1671ء)، جو اپنے خطاب عنایت خان سے معروف ہیں، مغلیہ سلطنت کے مؤرخ تھے اور «شاہ جہاں نامہ» کے مصنف، جو بادشاہ نامہ کی روایت سے ماخوذ شاہ جہاں کی مختصر تاریخ ہے۔ وہ وزیر ظفر خان کے بیٹے تھے، جو جہانگیر کے وزیر اور شاہ جہاں کے عہد میں کابل و کشمیر کے صوبیدار رہے؛ عنایت خان داروغہ اور شاہی کتب خانے کے افسر رہے، شہنشاہ کے قریبی ساتھی تھے، اور پھر کشمیر میں اقامت اختیار کی جہاں ان کا انتقال ہوا۔"
+
+roles: [historian, writer]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1628"
+  calendar: julian
+  precision: year
+  status: historical
+  note: "All three articles agree he was born in 1628, the year of Shah Jahan's accession, and that he received a mansab in 1635 in the seventh year of his life; the Urdu article pairs the birth year with 1037 AH. No Hijri year is set in the block, since a bare Gregorian year spans two Hijri years. No article text names his birthplace (Wikidata's structured statement names Agra, which is not relied on), so no born_in edge is written."
+  sources: [source/wikipedia-inayat-khan-historian-en, source/wikipedia-inayat-khan-historian-ar, source/wikipedia-inayat-khan-historian-ur, source/wikidata-inayat-khan-historian]
+
+died:
+  edtf: "1671"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The articles divide against themselves. The English and Arabic leads give 1671 while their bodies say he died in Kashmir in 1666; the Urdu lead gives 1666 while its body gives his death in Kashmir in 1081 AH / 1671. The year 1671 is built — the reading of both leads, of the Urdu body with its Hijri pairing, and of Wikidata's statement — with the 1666 reading preserved here. Kashmir has no place entity on main, so no died_in edge is written."
+  sources: [source/wikipedia-inayat-khan-historian-en, source/wikipedia-inayat-khan-historian-ar, source/wikipedia-inayat-khan-historian-ur, source/wikidata-inayat-khan-historian]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata files only generic Islam for him, and structured data never settles faith; no article text names a school or an order for Muhammad Tahir himself. He was a court historian — a mansab-holder from childhood, a darogha, an officer of the Imperial Library and the emperor's close companion — and office and companionship settle nothing. His pen name was Ashna. Recorded unknown, unflagged, under the founder rulings (generic structured Islam gives unknown)."
+    sources: [source/wikipedia-inayat-khan-historian-en, source/wikipedia-inayat-khan-historian-ar, source/wikipedia-inayat-khan-historian-ur, source/wikidata-inayat-khan-historian]
+
+external_ids: { wikidata: "Q16847057" }
+
+sources:
+  - source/wikipedia-inayat-khan-historian-en
+  - source/wikipedia-inayat-khan-historian-ar
+  - source/wikipedia-inayat-khan-historian-ur
+  - source/wikidata-inayat-khan-historian
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371712525 of 28 August 2026), Arabic Wikipedia (revision 71928272 of 3 September 2025), Urdu Wikipedia (revision 7745509 of 13 April 2025) and Wikidata Q16847057 (item revision 2494135640 of 19 May 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID. Identity care: this record is the Mughal chronicler Muhammad Tahir, titled Inayat Khan, author of the Shahjahannama — NOT Hazrat Inayat Khan (1882-1927), the Sufi teacher, whose record person/hazrat-inayat-khan (Q120411) exists on main and whose provenance already names this historian's item Q16847057 as a different man; the slug is differentiated accordingly and the disambiguation stated here. Neither is he Shaikh Inayat Allah Kamboh, the chronicler's contemporary and a different court writer. Queue correction, flagged: the queue row gives 1603-1671; the articles give his birth in 1628 (the year of Shah Jahan's accession, a mansab at seven in 1635), so 1603 is unsupported and 1628 is built."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-171m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

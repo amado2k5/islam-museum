@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question from someone lending her sister a piece of gold to sell, to be repaid with a piece of the same weight whose workmanship fee the sister bears, in which Jordan's General Iftaa Department answered that the like of the gold must be returned in weight and kind, and that requiring the workmanship fee is not allowed because it is riba. {cite:aliftaa-jo fatwa 3828}
+A question from someone lending her sister a piece of gold to sell, to be repaid with a piece of the same weight whose workmanship fee the sister bears, in which [[group/general-iftaa-department-jordan|Jordan's General Iftaa Department]] answered that the like of the gold must be returned in weight and kind, and that requiring the workmanship fee is not allowed because it is riba. {cite:aliftaa-jo fatwa 3828}
 
 ## The question
 
@@ -15,7 +15,7 @@ The questioner said her sister asked her for a loan, and she wanted to give her 
 
 ## The answer
 
-The Department answered that a gold loan is in principle repaid in gold of the same amount, weight and kind, citing the hadith requiring gold for gold weight for weight, and that an increase is riba if stipulated, but good repayment if given without stipulation. {cite:aliftaa-jo fatwa 3828} It said the lender may not require the borrower to bear the workmanship fee, because gold is one of the riba-bearing goods that must be exchanged like for like against its own kind, and what counts is equal weight of pure gold, not quality or workmanship. {cite:aliftaa-jo fatwa 3828} It cited Taqi al-Din al-Subki's completion of al-Majmu' that the sharia disregards quality, and al-Shafi'i's al-Umm that it is wrong to exchange silver with a smith for wrought silver jewellery while also paying his fee, since that is an unequal exchange. {cite:aliftaa-jo fatwa 3828} It added that returning a new piece for an old one does no harm, provided weight and kind are equal. {cite:aliftaa-jo fatwa 3828}
+The Department answered that a gold loan is in principle repaid in gold of the same amount, weight and kind, citing the hadith requiring gold for gold weight for weight, and that an increase is riba if stipulated, but good repayment if given without stipulation. {cite:aliftaa-jo fatwa 3828} It said the lender may not require the borrower to bear the workmanship fee, because gold is one of the riba-bearing goods that must be exchanged like for like against its own kind, and what counts is equal weight of pure gold, not quality or workmanship. {cite:aliftaa-jo fatwa 3828} It cited [[person/taqi-al-din-al-subki|Taqi al-Din al-Subki]]'s completion of al-Majmu' that the sharia disregards quality, and [[person/al-shafii|al-Shafi'i]]'s al-Umm that it is wrong to exchange silver with a smith for wrought silver jewellery while also paying his fee, since that is an unequal exchange. {cite:aliftaa-jo fatwa 3828} It added that returning a new piece for an old one does no harm, provided weight and kind are equal. {cite:aliftaa-jo fatwa 3828}
 
 ## About this record
 

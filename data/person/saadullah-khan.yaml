@@ -1,0 +1,57 @@
+id: person/saadullah-khan
+class: person
+
+label: { ar: "سعد الله خان", en: "Sa'adullah Khan", ur: "سعد اللہ خان" }
+
+names:
+  - { value: "Sa'adullah Khan Chinioti", kind: full }
+  - { value: "Allami Sa'adullah Khan", kind: laqab }
+  - { value: "Mulla Saadullah", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "سعد الله خان الشينيوتِي (ق. 1591 – نيسان 1656)، المعروف بلقب العلامي، عالم وموظف في سلطنة مغول الهند، والصدر الأعظم والوكيل المطلق لشاه جهان من 1645 حتى وفاته. وُلد في شينيوت لعائلة جات بنجابية من المزارعين، ودرس في لاهور وعلّم في مدرسة وزير خان، فصعد بجدارة لا بقرابة حتى بلغ أعلى منصب لغير ملكي في الإمبراطورية، وعدّه الرحالة الأوروبيون أكمل رجال دولة في آسيا."
+  en: "Sa'adullah Khan Chinioti (c. 1591 - April 1656), known by the scholarly title Allami, was a scholar and official of the Mughal Empire, grand vizier and Vakil-i-Mutlaq of Shah Jahan from 1645 until his death. Born at Chiniot into a Punjabi Jat family of cultivators, he studied at Lahore and taught at the madrasa of Wazir Khan, rising by merit rather than connection to the highest office held by a non-royal in the empire; European travellers at the court counted him the most accomplished statesman in Asia."
+  ur: "سعد اللہ خان چنیوٹی (تقریباً 1591ء – اپریل 1656ء)، جو علامی کے لقب سے معروف ہیں، مغلیہ سلطنت کے عالم اور عہدیدار تھے، اور 1645ء سے اپنی وفات تک شاہ جہاں کے وزیرِ اعظم اور وکیلِ مطلق رہے۔ وہ چنیوٹ میں ایک پنجابی جاٹ کاشتکار خاندان میں پیدا ہوئے، لاہور میں تعلیم پائی اور وزیر خان کے مدرسے میں پڑھایا، اور قرابت کے بجائے قابلیت سے ترقی کر کے سلطنت کے بلند ترین غیر شاہی عہدے تک پہنچے؛ دربار کے یورپی مسافروں نے انھیں ایشیا کا مکمل ترین مدبر شمار کیا۔"
+
+roles: [vizier, scholar]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1591"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The English article gives c. 1591 at Chiniot, in the Lahore Subah, into a Punjabi Jat family of the Thahim clan, and the Arabic article gives 1591 at Chiniot. Wikidata carries a rival structured birth statement of 1608, which is preserved here and not used. Chiniot has no place entity on main, so no born_in edge is written, and no Hijri year is set since a bare year spans two Hijri years."
+  sources: [source/wikipedia-saadullah-khan-en, source/wikipedia-saadullah-khan-ar, source/wikidata-saadullah-khan]
+
+died:
+  edtf: "1656-04"
+  calendar: julian
+  precision: month
+  status: historical
+  note: "All three articles agree he died in April 1656, still grand vizier, having held the office from 1645; the Urdu article adds that Shah Jahan mourned him publicly. The month date is built."
+  sources: [source/wikipedia-saadullah-khan-en, source/wikipedia-saadullah-khan-ar, source/wikipedia-saadullah-khan-ur, source/wikidata-saadullah-khan]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a school for Sa'adullah Khan himself. His formation is stated in full: he studied at Lahore under Shaykh Kamal al-Din, taught for a while at the madrasa of Wazir Khan at Lahore, went to Delhi as tutor to the children of Asaf Khan, and bore the scholarly title Allami. Education, teaching and a scholarly title attest learning and practice, not a school named for the man; his rise from a cultivator's family to the grand vizierate is office, which settles nothing. Wikidata carries no religion statement for him. Recorded unknown, unflagged."
+    sources: [source/wikipedia-saadullah-khan-en, source/wikipedia-saadullah-khan-ar, source/wikipedia-saadullah-khan-ur]
+
+external_ids: { wikidata: "Q108597550" }
+
+sources:
+  - source/wikipedia-saadullah-khan-en
+  - source/wikipedia-saadullah-khan-ar
+  - source/wikipedia-saadullah-khan-ur
+  - source/wikidata-saadullah-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia, article 'Sa'adullah Khan Chinioti' (revision 1376688265 of 25 September 2026 — the 'Saadullah Khan (Mughal Empire)' title resolves to it), Arabic Wikipedia (revision 72424931 of 10 November 2025), Urdu Wikipedia (revision 10255713 of 4 May 2026) and Wikidata Q108597550 (item revision 2549317885 of 25 September 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID. Identity care: this is Shah Jahan's wazir who died in April 1656; namesakes are kept out — Saadullah Khan of Rohilkhand belongs to the eighteenth century, and the English disambiguation page 'Saadullah Khan' is not used as a source for this record. Queue correction, flagged: the queue row gives his birth as 1590; the articles give c. 1591, which is built."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-171m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,27 @@
+id: event/al-maqrizi-muhtasib-801
+class: event
+kind: other
+label:
+  ar: "المقريزي يتولى حسبة القاهرة أول مرة، ٨٠١هـ"
+  en: "Al-Maqrizi's first term as muhtasib of Cairo, 801/1399"
+  ur: "مقریزی کی قاہرہ کے محتسب کے طور پر پہلی مدت، 801ھ"
+summary:
+  ar: "تولى المقريزي حسبة القاهرة أول مرة سنة ٨٠١هـ لمدة أشهر قليلة، وتكررت ولايته في ٨٠٢هـ و٨٠٧هـ؛ وقال ابن العماد «ولي حسبة القاهرة غير مرة». وكان إلى جانب ذلك كاتب توقيع ونائب حكم وواعظاً بجامع عمرو ومدرسة الحسن وإماماً وناظراً لجامع الحاكم ومدرساً للحديث بالمؤيدية {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  en: "In 801 al-Maqrizi took up the office of muhtasib (market inspector) of Cairo for the first time, a term lasting only a few months; he held it again in 802 and 807 — Ibn al-Imad sums it up as 'muhtasib of Cairo more than once'. Alongside it he wrote official tawqi' endorsements, sat as deputy judge, preached in the Mosque of Amr and the Madrasa of al-Hasan, served as imam and administrator of the al-Hakim mosque, and taught hadith at the Mu'ayyadiyya {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}."
+  ur: "801ھ میں مقریزی پہلی بار قاہرہ کے محتسب (بازار نگران) مقرر ہوئے، یہ مدت چند ماہ رہی؛ انہیں 802ھ اور 807ھ میں دوبارہ یہ عہدہ ملا — ابن العماد کے الفاظ ہیں «وہ قاہرہ کے محتسب ایک سے زیادہ بار رہے»۔ اس کے ساتھ وہ توقیع لکھنے والے، نائب قاضی، جامع عمرو اور مدرسہ الحسن کے واعظ، جامع حاکم کے امام و منتظم، اور مؤیدیہ میں مدرس حدیث بھی رہے {cite:encyclopaedia-of-islam-2 vol. 6 p. 213} {cite:shadharat-dhahab p. 254-255}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1398~", hijri: "0801", calendar: julian, precision: year, status: historical, derived: true, note: "أولى مدد ولايته حسبة القاهرة سنة ٨٠١هـ؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 6 p. 213}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-maqrizi, role: "المحتسب", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), printed pp. 213-214, art. al-Makrizi (F. Rosenthal); shadharat-dhahab juz s.a. 845 pp. 254-255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-maqrizi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
