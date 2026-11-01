@@ -860,11 +860,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mohsin Hamid — 1971–Living
 - [x] Kamila Shamsie — 1973–Living
 - [x] HM Naqvi — 1973–Living
-- [ ] Daniyal Mueenuddin — 1963–Living
-- [ ] Mohammed Hanif — 1965–Living
-- [ ] Fatima Bhutto — 1982–Living
-- [ ] Uzma Aslam Khan — 1969–Living
-- [ ] Moniza Alvi — 1954–Living
+- [x] Daniyal Mueenuddin — 1963–Living
+- [x] Mohammed Hanif — 1965–Living
+- [x] Fatima Bhutto — 1982–Living
+- [x] Uzma Aslam Khan — 1969–Living
+- [x] Moniza Alvi — 1954–Living
 - [ ] Imtiaz Dharker — 1954–Living
 - [ ] Nasser Khalili — 1945–Living
 - [ ] Baron Waheed Alli — 1964–Living
