@@ -310,3 +310,10 @@ About sixty other n–z place records with Idrisi as a source were triaged for h
 ### Leads, batch 16
 
 - **person/humayd-ibn-mayuq**: معيوف does not appear in the futuh-buldan OCR (`books/tareekh/futuh-buldan/20230703_20230703_1444`); the two اقريطش passages (pp. 223, 330) name other commanders. The existing body stands; needs another edition or source.
+| 2026-11-01 | Devin (a–m) | batch 17: mixed (rihla, raheeq, tabari, fihrist, muruj, ibn-hisham-saqqa, samhudi, rihla-ibn-jubayr, source-records) | 30 | 1 | — |
+
+### Leads, batch 17
+
+- **place/afshana**: `sources: []` — the Ibn Sina birthplace claim belongs to his autobiography (al-Juzjani / Gohlman), but no readable OCR of that source is in the harvest and no defined source is listed. Left thin until a source is attached.
+- **place/fuwwa** (enriched but flagged): the rihla-ibn-battuta-1958 OCR (Maktaba Tijariyya scan, `books/geography/rihla-ibn-battuta/20220828_20220828_1853`) does not contain فوة/فوه in the Egypt passages read; the file now says the mention is unverified on the page.
+- **place/misrata** (enriched but flagged): مصراتة is absent from the scanned 1958 rihla text; only source is wikidata; the Ibn Battuta claim is now marked as unverified.
