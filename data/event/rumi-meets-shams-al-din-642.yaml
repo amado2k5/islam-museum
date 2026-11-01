@@ -1,0 +1,26 @@
+id: event/rumi-meets-shams-al-din-642
+class: event
+kind: gathering
+label: { ar: "لقاء جلال الدين بشمس الدين التبريزي", en: "Rumi meets Shams al-Din of Tabriz", ur: "رومی کی شمس الدین تبریزی سے ملاقات" }
+summary:
+  ar: "في ٣٠ نوفمبر ٦٤٢هـ/١٢٤٤م لقي جلال الدين في طرق قونية الدراويشَ المتجول [[person/shams-tabrizi|شمس الدين التبريزي]]، فكانت اللحظة الفاصلة في حياته؛ عاش الصوفيان متلازمين أشهراً فأهمل جلال الدين أصحابه وأهله حتى أضطرّ الغِيرةُ فيهم شمساً إلى مفارقة البلدة في فبراير ٦٤٣هـ/١٢٤٦م، فردّه [[person/sultan-walad|سلطان ولد]] ابنُه الأكبر من الشام {cite:britannica-rumi}."
+  en: "On 30 November 642/1244 Jalal al-Din met the wandering dervish Shams al-Din of Tabriz in the streets of Konya — the decisive moment of his life. The two mystics lived closely together for months, until Rumi's scandalised entourage forced Shams to leave the town in February 1246; Rumi's eldest son Sultan Walad eventually brought him back from Syria {cite:britannica-rumi}."
+  ur: "30 نومبر 642ھ/1244ء کو جلال الدین کی قونیہ کی گلیوں میں آوارہ درویش شمس الدین تبریزی سے ملاقات ہوئی — ان کی زندگی کا فیصلہ کن لمحہ۔ دونوں عارف مہینوں تک ساتھ رہے، یہاں تک کہ رومی کے ناراض حاشیہ برداروں نے فروری 643ھ/1246ء میں شمس کو شہر چھوڑنے پر مجبور کر دیا؛ ان کے بڑے بیٹے سلطان ولد آخرکار شمس کو شام سے واپس لے آئے۔"
+wings: [time]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1244-11-30", hijri: "0642", calendar: julian, precision: day, status: historical, derived: true, note: "٣٠ نوفمبر ١٢٤٤م عند بريتانيكا؛ الشهر الهجري (جمادى الآخرة ٦٤٢هـ) تحويل مشتق {cite:britannica-rumi}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/jalal-al-din-rumi, role: "اللاقي بشمس الدين", sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/shams-tabrizi, role: "الدرويش الملتقى", sources: [source/britannica-rumi] }
+sources: [source/britannica-rumi]
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi', 'The influence of Shams al-Din', read through the Wayback capture of 23 October 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-rumi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
