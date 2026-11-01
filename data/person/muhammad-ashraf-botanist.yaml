@@ -1,0 +1,28 @@
+id: person/muhammad-ashraf-botanist
+class: person
+label: { ar: "محمد أشرف", en: "Muhammad Ashraf", ur: "محمد اشرف" }
+names:
+  - { value: "محمد أشرف", kind: full }
+  - { value: "Muhammad Ashraf", kind: full }
+gender: male
+summary:
+  ar: "عالم نبات باكستاني في فسيولوجيا الإجهاد النباتي، من أكثر علماء النبات استشهادًا بأعمالهم في العالم لبحوثه في تحسين تحمّل المحاصيل للملوحة والجفاف وغيرهما من الإجهادات. نال الدكتوراه من جامعة ليفربول سنة 1986، وشغل منصب نائب رئيس جامعة الزراعة في فيصل آباد ثم رئيس جامعة لاهور. من أوسمته جائزة الإنجاز مدى الحياة من هيئة التعليم العالي (2013) وهلال الامتياز (2016)."
+  en: "Pakistani botanist and plant stress physiologist, among the most-cited plant scientists in the world for his work on improving crops' tolerance of salinity, drought and other stresses. He took his PhD at the University of Liverpool in 1986, served as Vice Chancellor of the University of Agriculture, Faisalabad, and later as Rector of the University of Lahore. His honours include the Higher Education Commission's Lifetime Achievement Award (2013) and the Hilal-i-Imtiaz (2016)."
+  ur: "پاکستانی ماہرِ نباتیات اور پودوں کے تناؤ کی فعلیات کے عالم، جو نمکیات، خشک سالی اور دیگر تناؤں کے مقابل فصلوں کی برداشت بہتر بنانے کی تحقیق پر دنیا کے سب سے زیادہ حوالہ دیے جانے والے سائنس دانوں میں شامل ہیں۔ انھوں نے 1986ء میں یونیورسٹی آف لیورپول سے پی ایچ ڈی کیا، یونیورسٹی آف ایگریکلچر فیصل آباد کے وائس چانسلر رہے اور بعد میں یونیورسٹی آف لاہور کے ریکٹر بنے۔ ان کے اعزازات میں ایچ ای سی کا لائف ٹائم اچیومنٹ ایوارڈ (2013ء) اور ہلالِ امتیاز (2016ء) شامل ہیں۔"
+roles: [botanist]
+wings: [people, living]
+regions: [south-asia]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/uol-spectacle-muhammad-ashraf] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither biographical source read names a religion, school or affiliation for him; both are scientific career profiles (the Islamic World Academy of Sciences fellowship profile and his university's magazine interview). His name, nationality and the word 'Islamic' in his academy's name are not evidence about the man. The value stands unknown, unflagged, on absence."
+    sources: [source/ias-muhammad-ashraf, source/uol-spectacle-muhammad-ashraf]
+sources: [source/ias-muhammad-ashraf, source/uol-spectacle-muhammad-ashraf]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 Nov 2026 (rulings packet #3, Part 3): build Dr Muhammad Ashraf the botanist, without a verified birth year. He is pinned by his botany posts and publications — admission to the Department of Botany, University of Liverpool, in 1983 and PhD there in 1986 on the improvement of salinity tolerance in forage crops, the DSc from Liverpool, Vice Chancellor of the University of Agriculture, Faisalabad, Rector of the University of Lahore — against the other Muhammad Ashrafs: the UVAS pharmacologist (DVM, Minnesota PhD 1989), the Lahore publisher of Sunni literature (Q6932414), the University of Sargodha soil scientist (PhD 2008) and the wrestler. Researched from the Islamic World Academy of Sciences profile and The Spectacle's interview at the University of Lahore, both read in full on 1 Nov 2026. NO BORN BLOCK IS WRITTEN: no source read attests a birth year, and the gap is stated here as the ruling requires. A Wikidata item (Q112480608) carries the botanist occupation, library authority identifiers and a 1953 birth year, but nothing in its claims pins it to this man — it names no employer, education or publication — so it is not attached as an identifier and its year is not used. There is no Wikipedia article on him in any language. Existence was checked by name fragments and by QID across data/person/; the only Ashraf record is muhammad-ashraf-al-azimabadi, a different man. Faisalabad has no place entity, so his Faisalabad vice-chancellorship is carried in prose; the lived_in edge to Lahore rests on his rectorship of the University of Lahore."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "rulings-builds-r2"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

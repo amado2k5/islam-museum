@@ -684,7 +684,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Dr. Sania Nishtar — 1963–Living
 - [x] Dr. Zubaida Sirang — 1990–Living
 - [x] Dr. Abdul Samad — 1980–Living
-- [~] Dr. Muhammad Ashraf — 1953–Living
+- [x] Dr. Muhammad Ashraf — 1953–Living
 - [x] Dr. Salim Ali (Contemporary) — 1896–1987
 - [x] Dr. M. S. Swaminathan (Contemporary) — 1925–2023
 - [x] Hakim Abdul Hameed — 1908–1999
@@ -1366,7 +1366,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Abdur Rahman Chughtai (1897–1975)
 - [x] Fyzee Rahamin (1880–1964)
 - [x] Atiya Fyzee (1877–1967)
-- [ ] Zehra Faizi (1880–1940)
+- [x] Zehra Faizi (1880–1940)
 - [ ] Suhrawardy Art Guild Founders (1890–1930)
 - [x] Syed Ross Masood (1889–1937)
 - [x] Shah Jahan Begum (1838–1901)
