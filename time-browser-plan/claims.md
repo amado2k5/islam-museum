@@ -183,3 +183,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-jahiz | devin | done — 6 nodes (born Basra ~150/767 → imamate works win al-Ma'mun's praise ~200/815-6 → Ibn al-Zayyat's fall 233/847 → al-Mutawakkil audience 232-247 → hemiplegia in last years 247-255 → death Basra 255/869); 4 new events from EI2 vol. 2 (Pellat p.385) + wafayat-ayan p.404-405 + muruj-al-dhahab; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-jahiz.json
 2026-11-01 | person/al-muqaddasi | devin | claimed
 2026-11-01 | person/al-muqaddasi | devin | done — 7 nodes, journey (born Jerusalem ~335/946 → hajj 356/967, Aleppo ~354-364/965-975, hajj 367/978, Khurasan 374/984, Shiraz composition decision 375/985 → died ~380/990); all from EI2 vol. 7 p. 544; 5 new events; jobs staged, GPU busy (cursor queue)
+
+2026-11-01 | person/ibn-al-jawzi | devin | claimed
