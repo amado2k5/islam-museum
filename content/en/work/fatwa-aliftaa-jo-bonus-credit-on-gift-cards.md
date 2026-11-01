@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-A question on a gift card bought for 190 dinars and loaded with 212, in which Jordan's General Iftaa Department answered that buying it is permissible, since the extra is a gift from the seller. {cite:aliftaa-jo fatwa 3825}
+A question on a gift card bought for 190 dinars and loaded with 212, in which [[group/general-iftaa-department-jordan|Jordan's General Iftaa Department]] answered that buying it is permissible, since the extra is a gift from the seller. {cite:aliftaa-jo fatwa 3825}
 
 ## The question
 
