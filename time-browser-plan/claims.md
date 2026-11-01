@@ -202,3 +202,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/ibn-taymiyya | devin | claimed
 2026-11-01 | person/ibn-taymiyya | devin | done — 15 nodes, curated journey (born Harran 661 → death in Damascus citadel 728); 12 new events from EI2 vol. 3 pp. 983-985; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-ibn-taymiyya.json
 2026-11-01 | person/al-dhahabi | devin | claimed
+2026-11-01 | person/al-dhahabi | devin | done — 12 nodes, journey (born Damascus 3 Rabi II 673/1274 → hadith study 690 → rihla c.700 → Ghazan 699/700 reuse → Jami' session Muh 700 → Umm al-Salih ~710 → Tarikh al-Islam ~730 → blindness 743 → death 3 Dhu al-Qa'da 748/4 Feb 1348); 8 new events from EI2 vol. 2 pp. 214-216 + durar-kamina vol. 3 pp. 336-338; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-dhahabi.json (11 nodes need images)
+2026-11-01 | place/bursa | devin | claimed
