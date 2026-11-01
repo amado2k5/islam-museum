@@ -1,0 +1,73 @@
+id: person/khwaja-mir-dard
+class: person
+
+label: { ar: "خواجة مير درد", en: "Khwaja Mir Dard", ur: "خواجہ میر درد" }
+
+names:
+  - { value: "نور الناصر خواجہ میر محمدی", kind: full }
+  - { value: "Nur-un-Nasir Khwaja Mir Muhammadi", kind: full }
+  - { value: "Dard", kind: pen }
+
+gender: male
+
+summary:
+  ar: "خواجة مير درد (1720 أو 1721 – 1785)، شاعر أردي وصوفي من دلهي، وأحد أركان الشعر الكلاسيكي الأردي مع مير وسودا، يُلقَّب بإمام الشعر الصوفي الأردي. هو ابن الشاعر الفارسي محمد ناصر عندليب. كتب بالأردية والفارسية، ومن آثاره في التصوف «علم الكتاب»، وغلب على غزله الوجد والحنين، ومنه بيته المشهور في وداع الدنيا. توفي في دلهي."
+  en: "Khwaja Mir Dard (1720 or 1721 – 1785) was an Urdu poet and Sufi of Delhi, one of the pillars of classical Urdu poetry alongside Mir and Sauda, and is called the imam of Sufi poetry in Urdu. He was a son of the Persian poet Muhammad Nasir Andalib. He wrote in Urdu and Persian; his Ilm-ul-Kitab is a treatise on the Sufi path, and his ghazals are marked by longing, among them his famous couplet of farewell to the world. He died at Delhi."
+  ur: "خواجہ میر درد (1720ء یا 1721ء – 1785ء) دہلی کے اردو شاعر اور صوفی تھے، میر اور سودا کے ساتھ کلاسیکی اردو شاعری کے ستونوں میں سے ایک، اور اردو میں صوفیانہ شاعری کے امام کہلاتے ہیں۔ وہ فارسی شاعر محمد ناصر عندلیب کے فرزند تھے۔ انھوں نے اردو و فارسی میں لکھا؛ ان کی ”علم الکتاب“ تصوف کی کتاب ہے، اور ان کی غزلوں میں اشتیاق نمایاں ہے، جن میں دنیا سے رخصتی کا مشہور شعر بھی ہے۔ ان کا انتقال دہلی میں ہوا۔"
+
+roles: [poet, mystic]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1720"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article's lead and infobox and the Urdu article give 1720, at Delhi, the Urdu article citing Faiz's Treasury of Urdu Poetry and Metcalf's Islamic Revival in British India; against them Wikidata gives 1721 at year precision and the English and Arabic articles file him under 1721 births. The articles' year 1720 is built and the split recorded here. A contested bare year spanning two Hijri years, no Hijri year is recorded."
+  sources: [source/wikipedia-khwaja-mir-dard-en, source/wikipedia-khwaja-mir-dard-ur, source/wikipedia-khwaja-mir-dard-ar, source/wikidata-khwaja-mir-dard]
+
+died:
+  edtf: "1785-01-07"
+  hijri: "1199"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The Urdu article gives 7 January 1785 and Wikidata 6 January 1785, a one-day split recorded here; both place his death at Delhi, and the Arabic article's categories file his death under 1199 AH, the Hijri year the built date converts to."
+  sources: [source/wikipedia-khwaja-mir-dard-ur, source/wikipedia-khwaja-mir-dard-ar, source/wikidata-khwaja-mir-dard]
+
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-khwaja-mir-dard-en, source/wikipedia-khwaja-mir-dard-ur] }
+  - { type: died_in, target: place/delhi, sources: [source/wikidata-khwaja-mir-dard] }
+
+faith:
+  - value: sufi
+    basis: documented
+    note: >-
+      Two independent article texts present the man himself as a Sufi,
+      and his own work bears it out. The Arabic article's lead calls
+      him in text a poet, a Sufi and an Indian Muslim author, and
+      names his work on tasawwuf, Ilm al-Kitab; the Urdu article calls
+      him the imam of Sufi poetry in Urdu, and the English article
+      records the same Ilm-ul-Kitab, his treatise on the Sufi path,
+      as his notable work. No source read names a madhhab for him, and
+      none is recorded; his father's standing as a Sufi poet is family
+      background and was not counted. The English article's Sufi poets
+      category is a filing and was not counted either.
+    sources: [source/wikipedia-khwaja-mir-dard-ar, source/wikipedia-khwaja-mir-dard-ur, source/wikipedia-khwaja-mir-dard-en]
+
+external_ids: { wikidata: "Q3694580" }
+
+sources:
+  - source/wikipedia-khwaja-mir-dard-en
+  - source/wikipedia-khwaja-mir-dard-ar
+  - source/wikipedia-khwaja-mir-dard-ur
+  - source/wikidata-khwaja-mir-dard
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371956371 of 29 August 2026), Arabic Wikipedia (revision 60814175 of 29 January 2023), Urdu Wikipedia (revision 12146586 of 15 October 2026) and Wikidata Q3694580 (item revision 2554040326), all fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property (the Urdu article's agrees) and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building — no prior record and no draft stub. His father Muhammad Nasir Andalib has no museum record yet, so no child_of edge is written; the born_in and died_in edges to Delhi are written here per the lane's write-once rule."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-162j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
