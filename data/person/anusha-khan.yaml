@@ -1,0 +1,69 @@
+id: person/anusha-khan
+class: person
+
+label: { ar: "أنوشا خان", en: "Anusha Khan", ur: "انوشہ خان" }
+
+names:
+  - { value: "Muhammad Anusha Khan", kind: full }
+  - { value: "Abu al-Muzaffar", kind: kunya }
+  - { value: "Anusha Khan", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "محمد أنوشا خان (نحو 1643–1686)، خان خوارزم (خيوة) من 1663 إلى 1686، الابن الوحيد لأبي الغازي بهادر وخليفته. شارك أباه حملاته منذ صباه، ثم أغار مرارًا على خانية بخارى حتى أخذ سمرقند مؤقتًا سنة 1685، بل دخل بخارى مرة وقرأ الخطبة باسمه. بنى في خيوة مدرسة وحمّامًا وحفر قناتين كبيرتين، وراسل روسيا، ثم خلعته مؤامرة من رجال البلاط وسملت عينيه فمات بعدها."
+  en: "Muhammad Anusha Khan (c. 1643-1686) was khan of Khwarazm (Khiva) from 1663 to 1686, the only son of Abu al-Ghazi Bahadur and his successor. He campaigned at his father's side from adolescence, then raided the Bukhara Khanate repeatedly, briefly took Samarkand in 1685 and once entered Bukhara itself, where the khutba was read in his name. At Khiva he built a madrasa and a bath and dug two great canals, and corresponded with Russia, before a court conspiracy deposed and blinded him and he died."
+  ur: "محمد انوشہ خان (تقریباً 1643ء–1686ء) 1663ء سے 1686ء تک خوارزم (خیوہ) کے خان، ابو الغازی بہادر کے اکلوتے بیٹے اور جانشین تھے۔ نوجوانی سے والد کی مہمات میں شریک رہے، پھر بخارا خانیٹ پر بار بار حملے کیے، 1685ء میں سمرقند عارضی طور پر لیا اور ایک بار بخارا میں داخل ہو کر اپنے نام کا خطبہ پڑھوایا۔ خیوہ میں انھوں نے مدرسہ اور حمام بنوایا اور دو بڑی نہریں کھدوائیں، روس سے خط کتابت رکھی، پھر درباری سازش نے انھیں معزول کر کے نابینا کر دیا اور اس کے بعد ان کی وفات ہوئی۔"
+
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1643"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Only the English article gives a birth year, 1643, resting on its report that he was fourteen in his father's campaign of about 1657; the Russian article and the Wikidata item give no birth year, so 1643 is built as debated. The year 1643 spans 1052-1053 AH, so no single Hijri year is built. Queue correction: the queue's birth year 1630 is given by no text read and is not followed."
+  sources: [source/wikipedia-anusha-khan-en]
+
+died:
+  edtf: "1686"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The Russian article gives his death in 1686, noting 1687 in the Kazakhstan National Encyclopedia; the Wikidata item gives 1687, and his reign ends in 1686 in both articles after his deposition and blinding. The Russian article's 1686 is followed with the 1687 reading preserved here. The year 1686 spans 1097-1098 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-anusha-khan-en, source/wikipedia-anusha-khan-ru, source/wikidata-anusha-khan]
+
+relations:
+  - { type: child_of, target: person/abu-al-ghazi-bahadur, sources: [source/wikipedia-anusha-khan-ru, source/wikipedia-anusha-khan-en] }
+  - { type: successor_of, target: person/abu-al-ghazi-bahadur, sources: [source/wikipedia-anusha-khan-ru] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The articles describe a Khivan khan of the Shaybanid-descended
+      Arabshahid line who raided Sunni Bukhara, built a madrasa at
+      Khiva and once had the khutba read in his own name at Bukhara;
+      a khutba in a ruler's name is an act of sovereignty, and
+      dynastic context is not attestation of a school or an order
+      for the khan himself. The Wikidata item carries no religion
+      statement. Under the founder's rules his faith is recorded
+      as unknown, with the record stated.
+    sources: [source/wikipedia-anusha-khan-en, source/wikipedia-anusha-khan-ru, source/wikidata-anusha-khan]
+
+external_ids: { wikidata: "Q4067732" }
+
+sources:
+  - source/wikipedia-anusha-khan-en
+  - source/wikipedia-anusha-khan-ru
+  - source/wikidata-anusha-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Anusha Khan' (revision 1322141486 of 14 November 2025), Russian Wikipedia 'Ануша-хан' (revision 153997607 of 17 July 2026) and Wikidata Q4067732 (item revision 2554496826 of 7 October 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Russian article agreeing. Existence checked against origin/main before building, by slug variants (anusha-khan, muhammad-anusha) and by QID — no record holds this man. Queue corrections: the queue's years 1630-1687 are not followed — no text read gives 1630 for his birth (the English article's 1643 is built, debated), and his death is built as 1686 on the Russian article with its own 1687 variant and the item's 1687 preserved. The child_of and successor_of edges are written here, in the son's and successor's record, on the Russian article's statement that he was Abu al-Ghazi's son and successor and the English article's statement that he was his only son; the father's record exists on origin/main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-179m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

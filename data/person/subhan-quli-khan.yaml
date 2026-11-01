@@ -1,0 +1,69 @@
+id: person/subhan-quli-khan
+class: person
+
+label: { ar: "سبحان قلي خان", en: "Subhan Quli Khan", ur: "سبحان قلی خان" }
+
+names:
+  - { value: "Subhan Quli Khan", kind: full }
+  - { value: "Nishoni", kind: pen }
+  - { value: "Subkhankuli", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "سبحان قلي خان (1625–1702)، سادس خان بخارى من الأسرة الأشتارخانية، حكم بلخ من 1651 إلى 1680 ثم بخارى من 1681 إلى وفاته. واجه غارات خوارزم المتكررة وردّها سنة 1687، وتبادل السفارات مع أورانغزيب والسلطان العثماني أحمد الثاني، وبنى مدارس في بخارى وبلخ ومستشفى دار الشفاء في بخارى. كان طبيبًا يمارس العلاج بنفسه، فألّف بالتركية الوسطى كتاب «إحياء الطب سبحاني» ورسالة في الفلك، ونظم الشعر باسم قلمي «نيشوني»."
+  en: "Subhan Quli Khan (1625-1702) was the sixth khan of Bukhara of the Ashtarkhanid dynasty, ruling Balkh from 1651 to 1680 and then Bukhara from 1681 until his death. He faced repeated Khwarazmian raids and defeated them in 1687, exchanged embassies with Aurangzeb and the Ottoman sultan Ahmed II, and built madrasas in Bukhara and Balkh and the Dor-ush-Shifo hospital in Bukhara. Himself a practising physician, he wrote the medical work Ihya at-tibb Subhani in Central Asian Turkic and a treatise on astronomy, and composed poetry under the pen name Nishoni."
+  ur: "سبحان قلی خان (1625ء–1702ء) بخارا کے اشترخانی خاندان کے چھٹے خان تھے؛ 1651ء سے 1680ء تک بلخ اور پھر 1681ء سے وفات تک بخارا پر حکمران رہے۔ انھوں نے خوارزم کے پے در پے حملے روکے اور 1687ء میں انھیں شکست دی، اورنگزیب اور عثمانی سلطان احمد ثانی سے سفارتیں بدلیں، اور بخارا و بلخ میں مدارس اور بخارا میں دار الشفا اسپتال بنوایا۔ وہ خود علاج کرنے والے طبیب تھے؛ انھوں نے وسطی ایشیائی ترکی میں طبی کتاب «احیاء الطب سبحانی» اور فلکیات پر ایک رسالہ لکھا اور «نیشونی» تخلص سے شعر کہے۔"
+
+roles: [ruler, physician, poet]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1625"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Born at Bukhara. The English article gives 1625; the Russian article gives 1625 or 1624, and the Wikidata item carries both years, so 1625 is built as debated with the 1624 reading preserved. The year 1625 spans 1034-1035 AH, so no single Hijri year is built. Queue correction: the queue's birth year 1633 is given by no article read and is not followed."
+  sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru, source/wikidata-subhan-quli-khan]
+
+died:
+  edtf: "1702"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "Died at Bukhara and was buried near the tomb of Bahauddin Naqshband. The English article gives only the year 1702; the Russian article gives the full date 14 September 1702, so the year is built at the precision the sources jointly support, status debated, with the Russian day reading preserved here. The year 1702 spans 1113-1114 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru, source/wikidata-subhan-quli-khan]
+
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru] }
+  - { type: died_in, target: place/bukhara, sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The articles describe an Ashtarkhanid khan who built madrasas
+      and a hospital, read the khutba in his name, exchanged gifts
+      with the Ottoman sultan and was buried near the tomb of
+      Bahauddin Naqshband; burial beside a Naqshbandi shrine and
+      dynastic context are not attestation of a school or an order
+      for the khan himself. The Wikidata item carries no religion
+      statement. Under the founder's rules his faith is recorded
+      as unknown, with the record stated.
+    sources: [source/wikipedia-subhan-quli-khan-en, source/wikipedia-subhan-quli-khan-ru, source/wikidata-subhan-quli-khan]
+
+external_ids: { wikidata: "Q12831247" }
+
+sources:
+  - source/wikipedia-subhan-quli-khan-en
+  - source/wikipedia-subhan-quli-khan-ru
+  - source/wikidata-subhan-quli-khan
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Subhan Quli Khan' (revision 1283973483 of 4 April 2025), Russian Wikipedia 'Субханкули-хан' (revision 154849443 of 5 September 2026) and Wikidata Q12831247 (item revision 2544646296 of 12 September 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Russian article agreeing. Existence checked against origin/main before building, by slug variants (subhan-quli-khan, subhanquli, subkhankuli) and by QID — no record holds this man. Queue correction: the queue's birth year 1633 contradicts both articles (1625, or 1624 in the Russian) and is corrected in the born block. No child_of edge is written: his father Nadr Muhammad Khan has no record on origin/main. No successor_of edge is written here: his predecessor, his brother Abdulaziz Khan, has no record on origin/main; his own succession by his son is written in the son's record in this batch."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-179m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

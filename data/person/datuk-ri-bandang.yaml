@@ -1,0 +1,50 @@
+id: person/datuk-ri-bandang
+class: person
+
+label: { ar: "داتوق ري باندانغ", en: "Datuk Ri Bandang", ur: "داتوک ری باندانگ" }
+
+names:
+  - { value: "Abdul Makmur", kind: full }
+  - { value: "Khatib Tunggal", kind: laqab }
+  - { value: "Datuk Ri Bandang", kind: alternate }
+  - { value: "Dato Ri Bandang", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "داتوق ري باندانغ، واسمه الأصلي عبد المعمور ولقبه خطيب تونغال، عالم من كوتو تانغاه في مينانغكابو، وأحد الداتوق الثلاثة الذين نشروا الإسلام في ممالك شرق الأرخبيل الإندونيسي منذ أواخر القرن السادس عشر. كان فقيهًا، فتولّى الدعوة في غووا وتالو بجنوب سولاويسي، وأسلم على يديه ملك لوو سنة 1605 ثم ملكا غووا وتالو، ومات ودُفن في تالو قرب مكاسار."
+  en: "Datuk Ri Bandang, whose real name was Abdul Makmur and whose title was Khatib Tunggal, was a scholar from Koto Tangah in Minangkabau and one of the three datuks who spread Islam through the kingdoms of the eastern Indonesian archipelago from the end of the 16th century. The jurist of the three, he preached in Gowa and Tallo in South Sulawesi; the king of Luwu entered Islam through his mission in 1605, then the kings of Gowa and Tallo, and he died and was buried at Tallo near Makassar."
+  ur: "داتوک ری باندانگ، اصل نام عبد المعمور اور لقب خطیب تونگال، مینانگکابو کے علاقے کوتو تانگاہ کے عالم تھے اور ان تین داتوکوں میں سے ایک تھے جنہوں نے سولہویں صدی کے اواخر سے مشرقی انڈونیشیائی جزائر کی ریاستوں میں اسلام پھیلایا۔ وہ فقیہ تھے؛ جنوبی سولاویسی کی ریاستوں گووا اور تالو میں تبلیغ کی، 1605ء میں لوو کے بادشاہ نے ان کے ہاتھ پر اسلام قبول کیا، پھر گووا اور تالو کے بادشاہوں نے، اور وہ تالو میں وفات پا کر وہیں دفن ہوئے۔"
+
+roles: [scholar, jurist]
+regions: [southeast-asia]
+wings: [people]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Both articles identify the man himself as a Muslim ulama from
+      Minangkabau who spent his life preaching Islam, and the
+      Indonesian article names his specialism as fiqh, the field in
+      which he taught in Gowa and Tallo. No text read names a madhhab
+      for him personally, and the Shafi'i school of the Minangkabau
+      and Makassar worlds he worked in is regional context, not
+      attestation for the man. Under the founder's rules his faith
+      is recorded as unknown, with his attested life as a Muslim
+      scholar-preacher stated in full here.
+    sources: [source/wikipedia-datuk-ri-bandang-id, source/wikipedia-datuk-ri-bandang-ms]
+
+external_ids: { wikidata: "Q12481023" }
+
+sources:
+  - source/wikipedia-datuk-ri-bandang-id
+  - source/wikipedia-datuk-ri-bandang-ms
+  - source/wikidata-datuk-ri-bandang
+
+provenance:
+  layer: own-research
+  source: "Indonesian Wikipedia 'Datuk ri Bandang' (revision 29810542 of 17 September 2026), Malay Wikipedia 'Datuk ri Bandang' (revision 6364460 of 7 November 2024) and Wikidata Q12481023 (item revision 2295571605 of 6 January 2025, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the Indonesian article's own page property. Existence checked against origin/main before building, by slug variants (dato-ri-bandang, datuk-ri-bandang, abdul-makmur) and by QID — no record holds this man. Queue correction: the queue's years 1570-1640 are NOT attested in any text read — neither article gives a birth or death year — so no born or died block is built; his documented activity runs from the end of the 16th century to the conversions of 1605 and after. No sibling edge is written to person/datuk-ri-tiro: that slug is held by an unchecked draft stub for a different man (Datuk Ri Tiro, Q12481024), a fellow datuk whom the Indonesian article calls his saudara — a word covering brothers and brethren alike — so no literal sibling relation is attested for an edge, and the stub is not touched."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-179m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
