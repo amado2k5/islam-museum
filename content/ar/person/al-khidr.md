@@ -14,3 +14,6 @@ translators: []
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يستشهد الشيخ بقصة الخضر مع موسى: اشترط عليه ألا يسأله حتى يحدث له منه ذكرًا، فلما خرق السفينة وقتل الغلام وأقام الجدار واعترض موسى في كل مرة، قال له الخضر: هذا فراق بيني وبينك؛ ويقارن الشيخ بين ذلك وحلم الله على العبد الذي يخطئ في اليوم مئات المرات. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:00}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يذكر عمر عبد الكافي أدب الخضر في قوله عن السفينة «فأردت أن أعيبها» فنسب العيب إلى نفسه، ولم يقل إن ربه أراد ذلك، بينما نسب الخير إلى الله في أمر الغلامين. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:14:30}

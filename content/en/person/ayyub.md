@@ -20,3 +20,6 @@ As a prophet (nabi) he came after Joseph in the prophetic series, although Ibn a
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh holds that whoever is patient with his wife's bad character, God gives him the like of what He gave Ayyub for his patience, and that a wife who is patient with a miserly, irritable husband will have a palace built beside the palace of [[person/asiya|Asiya]], Pharaoh's wife, in Paradise; he holds that some people's deeds do not bring them to Paradise, so God tests them with a difficult spouse or an undutiful child and their good deeds multiply through patience (needs_source: this promise as the Sheikh states it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:00}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy mentions Job's courtesy in his complaint: he said harm had touched him and that his Lord is the most merciful of the merciful, and did not say his Lord had destroyed or humiliated him. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:16:30}

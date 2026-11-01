@@ -14,3 +14,6 @@ In North Africa the vulgar form al-Akhdar ("the green") is in common use as a pe
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh cites the story of al-Khidr with Musa: he made it a condition that Musa not ask him until he himself explained; when he holed the ship, killed the boy and rebuilt the wall, and Musa objected each time, al-Khidr said: this is the parting between me and you. The Sheikh contrasts this with God's forbearance toward a servant who errs hundreds of times a day. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:00}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy mentions al-Khidr's courtesy in saying of the boat 'I wished to damage it', ascribing the damage to himself and not saying his Lord willed it, while he ascribed the good to God in the matter of the two boys. {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep11 00:14:30}
