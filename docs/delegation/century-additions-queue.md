@@ -945,11 +945,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Prajogo Pangestu (Contemporary) — 1944–Living
 - [x] Budi Hartono (Contemporary) — 1940–Living
 - [x] Michael Hartono (Contemporary) — 1939–Living
-- [ ] Low Tuck Kwong (Contemporary) — 1948–Living
-- [ ] Sri Mulyani Indrawati — 1962–Living
-- [ ] Retno Marsudi — 1962–Living
-- [ ] Mari Elka Pangestu — 1956–Living
-- [ ] Nadiem Makarim — 1984–Living
+- [x] Low Tuck Kwong (Contemporary) — 1948–Living
+- [x] Sri Mulyani Indrawati — 1962–Living
+- [x] Retno Marsudi — 1962–Living
+- [x] Mari Elka Pangestu — 1956–Living
+- [x] Nadiem Makarim — 1984–Living
 - [ ] Achmad Zaky — 1986–Living
 - [ ] Ferry Unardi — 1988–Living
 - [ ] William Tanuwijaya — 1981–Living
