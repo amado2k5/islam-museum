@@ -405,6 +405,24 @@ About sixty other candidates were listed but not read (for example nahr-kur, naj
 The a–m <20-word book-sourced pool is now empty: every remaining candidate was either enriched above or logged here as a lead.
 n
 
+## n–z batch 14 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 14
+
+- **place/qarantiyya** (Idrisi pp. 707–710). First Kimak city on the lake of Ghaghan, the ten-stage desert road from Atraqana, the water route from Banjar, Ghaghan to its west. The earlier summary (seven days from Bakhwan) is supported by p. 708 and kept.
+- **place/qatania** (pp. 596, 597, 624). The elephant talisman, the flooding river, the Wadi Musa, the coastal distances.
+- **place/qalimriyya** (pp. 547, 552, 726). **Corrected the data summary**: the river is Mundiq on both pages, not "Bugu". The pages disagree on whether it runs west or east of the city; both are reported.
+- **place/tortosa** (pp. 538, 554, 555). Pine shipbuilding, two stages (fifty miles) from Mikhnasa, twelve miles to the mouth of the Nabr.
+- **place/shunayl** (pp. 569, 570, 572). **Corrected the record**: Shunayl is the river (the "snow river" from Jabal Shulayr), not a town; the old summary described Istija. Kind changed to river.
+- **place/nisu** (pp. 795, 893). Town on the Morava with a large bridge, forty miles from Atrubi. The name of the neighbouring city on p. 795 is garbled and is not given.
+
+### Leads, batch 14
+
+- **place/ozburk.** pp. 745–746, 872 give only distances (thirty miles from Alma/Ulm, in the region of Sawaba); no description of the town. Lead.
+- **place/naples** (label `نابل`). p. 293 and p. 302 describe a ruined fort called Nabil on the Tunisian coast (a Roman city destroyed after the conquest); p. 757 may describe another place. The record's identity is unclear and needs checking against the pages before any prose is written. Lead.
+- **place/suq-al-arbaa.** p. 398 gives about seventy words (a fine town, a famous weekly market, fruit, trade, one stage from Askar Mukram). Lead.
+- **place/qafiz.** pp. 313–315 give a station on a desert road with tribes; no description. Lead.
+
 ## n–z batch 13 (Claude Sonnet 5.5, place, Idrisi)
 
 Remaining n–z Idrisi places were ranked by the length of the OCR paragraph around each Arabic label (paragraph markers in pages.json), so batches go to the entities with the most source text first. Common-word labels (sus-khuzistan, tarabulus-sham, tarabulus-gharb, najaa, qarnayn) are skipped, because the label hits are other words or persons.

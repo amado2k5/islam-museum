@@ -1,0 +1,64 @@
+id: person/mohsin-hamid
+class: person
+
+label: { ar: "محسن حامد", en: "Mohsin Hamid", ur: "محسن حمید" }
+
+names:
+  - { value: "Mohsin Hamid", kind: full }
+
+gender: male
+
+summary:
+  ar: "محسن حامد (وُلد سنة 1971) روائي باكستاني بريطاني وُلد في لاهور. تلقى تعليمه في برينستون وكلية الحقوق في هارفارد، وعمل في الاستشارات الإدارية قبل روايته الأولى «Moth Smoke» (2000)؛ واشتهر عالميًا برواية «The Reluctant Fundamentalist» (2007)، ثم أتبعها بـ«How to Get Filthy Rich in Rising Asia» (2013) و«Exit West» (2017) و«The Last White Man» (2022). عاد إلى لاهور سنة 2009 ويقضي وقته بينها وبين نيويورك ولندن، ويحمل الجنسيتين الباكستانية والبريطانية."
+  en: "Mohsin Hamid (born 1971) is a Pakistani-British novelist born in Lahore. Educated at Princeton and Harvard Law School, he worked in management consulting before his first novel, Moth Smoke (2000); The Reluctant Fundamentalist (2007) made him internationally known, followed by How to Get Filthy Rich in Rising Asia (2013), Exit West (2017) and The Last White Man (2022). He moved back to Lahore in 2009 and divides his time between Lahore, New York and London, holding dual Pakistani and British citizenship."
+  ur: "محسن حمید (پیدائش 1971) لاہور میں پیدا ہونے والے پاکستانی برطانوی ناول نگار ہیں۔ پرنسٹن اور ہارورڈ لا اسکول سے تعلیم پائی، پہلے ناول «Moth Smoke» (2000) سے پہلے انتظامی مشاورت میں کام کیا؛ «The Reluctant Fundamentalist» (2007) نے انہیں عالمی شہرت دی، پھر «How to Get Filthy Rich in Rising Asia» (2013)، «Exit West» (2017) اور «The Last White Man» (2022) آئے۔ 2009 میں لاہور واپس آ گئے اور وقت لاہور، نیویارک اور لندن کے درمیان گزارتے ہیں؛ دوہری پاکستانی و برطانوی شہریت رکھتے ہیں۔"
+
+roles: [writer]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+
+born:
+  edtf: "1971-07-23"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Lahore on 23 July 1971; the English, Arabic and Urdu articles and Wikidata agree. The Hijri year 1391 is the tabular conversion of the built date, marked derived."
+  sources: [source/wikipedia-mohsin-hamid-en, source/wikipedia-mohsin-hamid-ar, source/wikidata-mohsin-hamid]
+
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-mohsin-hamid-en, source/wikidata-mohsin-hamid] }
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-mohsin-hamid-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      In a 2007 Religion News Service interview Hamid describes himself in
+      his own words as a secular, progressive Muslim, says that he always
+      thought of himself as a Muslim, and calls his Lahore youth fairly
+      quietly religious. That is a self-identification with Islam
+      generically — it names no school or order, and under the founder's
+      rulings of 1 November 2026 a generic attestation settles no value in
+      the faith enum; Wikidata's Islam value is structured data and settles
+      nothing either. No source read names a school or order for him, so
+      his faith is recorded as unknown, with his self-description preserved
+      here in full.
+    sources: [source/religion-news-service-mohsin-hamid, source/wikipedia-mohsin-hamid-en, source/wikidata-mohsin-hamid]
+
+external_ids: { wikidata: "Q3243146" }
+
+sources:
+  - source/wikipedia-mohsin-hamid-en
+  - source/wikipedia-mohsin-hamid-ar
+  - source/wikipedia-mohsin-hamid-ur
+  - source/wikidata-mohsin-hamid
+  - source/religion-news-service-mohsin-hamid
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mohsin Hamid' (revision 1380765311 of 17 October 2026), Arabic Wikipedia article 'محسن حامد' (revision 75425388 of 13 June 2026), Urdu Wikipedia article 'محسن حمید' (revision 12108937 of 7 October 2026) and Wikidata Q3243146 (item revision 2561074440 of 26 October 2026), all fetched live in-session via the MediaWiki API on 1 November 2026, the item revision re-asserted against a second live query and the QID grounded from the English article's own page property; the Religion News Service interview of 12 July 2007 read on its site the same day. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub. The century queue's year 1971 is confirmed by all sources."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-160a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
