@@ -845,11 +845,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hisham Matar — 1970–Living
 - [x] Ahdaf Soueif — 1950–Living
 - [x] Alaa Al Aswany — 1957–Living
-- [ ] Sonallah Ibrahim — 1937–Living
-- [ ] Bahaa Taher — 1935–2022
-- [ ] Youssef Ziedan — 1958–Living
-- [ ] Saud Alsanousi — 1981–Living
-- [ ] Jokha Alharthi — 1978–Living
+- [x] Sonallah Ibrahim — 1937–Living
+- [x] Bahaa Taher — 1935–2022
+- [x] Youssef Ziedan — 1958–Living
+- [x] Saud Alsanousi — 1981–Living
+- [x] Jokha Alharthi — 1978–Living
 - [ ] Raja Alem — 1956–Living
 - [ ] Badiah Kashgari — 1954–Living
 - [ ] Nimah Ismail Nawwab — 1960–Living
