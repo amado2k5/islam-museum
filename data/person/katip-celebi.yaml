@@ -1,0 +1,78 @@
+id: person/katip-celebi
+class: person
+
+label: { ar: "كاتب جلبي", en: "Kâtip Çelebi", ur: "کاتب چلبی" }
+
+names:
+  - { value: "Mustafa ibn Abdullah", kind: full }
+  - { value: "Kâtip Çelebi", kind: pen }
+  - { value: "Hacı Halife", kind: alternate }
+  - { value: "Hajji Khalifa", kind: latinized }
+  - { value: "Haji Kalfa", kind: latinized }
+
+gender: male
+
+summary:
+  ar: "مصطفى بن عبد الله، المعروف بكاتب جلبي وحاجي خليفة (شباط 1609 – 6 تشرين الأول 1657)، موسوعي عثماني وُلد ومات في إسطنبول. خدم في كاتبية الجيش وشارك في حملات الأناضول وبغداد وهمدان وأروان، وحجّ سنة 1633، ثم تفرّغ للعلم بعد ميراث ناله سنة 1645 وجمع أكبر مكتبة في إسطنبول في عصره. أعظم أعماله «كشف الظنون عن أسامي الكتب والفنون»، معجم ببليوغرافي يضم نحو 15000 كتاب، و«جهان نما» في الجغرافيا، أول أعمال عثمانية تستعمل الأطالس الأوروبية."
+  en: "Mustafa ibn Abdullah, known as Kâtip Çelebi and as Hajji Khalifa (February 1609 – 6 October 1657), was an Ottoman polymath born and deceased in Istanbul. He served as an army clerk on the Anatolian, Baghdad, Hamadan and Erivan campaigns, made the Hajj in 1633, and after an inheritance in 1645 devoted himself to scholarship and built the largest library in Istanbul of his day. His greatest work is the Kashf al-Zunun, a bibliographic dictionary of some 15,000 books, alongside the Cihannuma, the first Ottoman geography to use European atlases."
+  ur: "مصطفیٰ بن عبد اللہ، معروف بہ کاتب چلبی اور حاجی خلیفہ (فروری 1609ء – 6 اکتوبر 1657ء)، استنبول میں پیدا ہونے اور وہیں وفات پانے والے عثمانی موسوعہ نگار تھے۔ فوجی کاتب کی حیثیت سے اناطولیہ، بغداد، ہمدان اور ایروان کی مہمات میں شریک ہوئے، 1633ء میں حج کیا، اور 1645ء میں وراثت ملنے پر خود کو علم کے لیے وقف کر کے اپنے عہد کی استنبول کی سب سے بڑی لائبریری قائم کی۔ ان کی عظیم ترین تصنیف «کشف الظنون» ہے، تقریباً 15,000 کتابوں کی ببلیوگرافی، اور «جہان نما» جغرافیے میں پہلی عثمانی کتاب ہے جس میں یورپی اطالس استعمال ہوئے۔"
+
+roles: [scholar, historian, geographer, writer]
+regions: [anatolia-balkans]
+wings: [people]
+
+born:
+  edtf: "1609-02"
+  calendar: gregorian
+  precision: month
+  status: historical
+  hijri: "1017"
+  note: "Born at Istanbul in February 1609 — Dhu'l-Qa'da 1017 AH, as his mother's account is reported in his own autobiographical writings and repeated by the English, Arabic, Persian and Urdu articles and by the TDV encyclopaedia entry; the Hijri year is the articles' own pairing, not a conversion."
+  sources: [source/wikipedia-katip-celebi-en, source/wikipedia-katip-celebi-ar, source/wikipedia-katip-celebi-fa, source/wikipedia-katip-celebi-ur, source/dia-katip-celebi]
+
+died:
+  edtf: "1657-10-06"
+  calendar: gregorian
+  precision: day
+  status: debated
+  hijri: "1067"
+  note: "Died at Istanbul. The Turkish article and Wikidata give 6 October 1657, and the TDV encyclopaedia dates his death to 1067 AH, within which 6 October 1657 falls; the English article's infobox and the Urdu article instead give 26 September 1657, a rival reading preserved here. The Arabic article pairs his life loosely as 1017–1068 AH; no reliance is placed on that pairing for the day."
+  sources: [source/wikipedia-katip-celebi-tr, source/wikidata-katip-celebi, source/dia-katip-celebi, source/wikipedia-katip-celebi-en, source/wikipedia-katip-celebi-ur]
+
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-katip-celebi-en, source/wikipedia-katip-celebi-tr, source/wikidata-katip-celebi] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-katip-celebi-en, source/wikipedia-katip-celebi-tr, source/wikidata-katip-celebi] }
+
+faith:
+  - value: sunni-hanafi
+    basis: self-identified
+    note: >-
+      His own self-description, quoted in two independent texts:
+      the Arabic article reports that when he introduces himself
+      he says he is "Hanafi in madhhab, Ishraqi in orientation"
+      (hanafi al-madhhab, ishraqi al-mashrab), and Orhan Şaik
+      Gökyay's TDV İslâm Ansiklopedisi entry independently quotes
+      the same words from his autobiography, the Sullam al-Wusul
+      (f. 271a). Self-identification quoted in two independent
+      sources settles the value at basis self-identified under
+      the founder's rule. Wikidata's religion statement files
+      Islam generically and is not relied on.
+    sources: [source/wikipedia-katip-celebi-ar, source/dia-katip-celebi]
+
+external_ids: { wikidata: "Q390123" }
+
+sources:
+  - source/wikipedia-katip-celebi-en
+  - source/wikipedia-katip-celebi-tr
+  - source/wikipedia-katip-celebi-ar
+  - source/wikipedia-katip-celebi-fa
+  - source/wikipedia-katip-celebi-ur
+  - source/wikidata-katip-celebi
+  - source/dia-katip-celebi
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379452695 of 10 October 2026), Turkish Wikipedia (revision 38116011 of 3 October 2026), Arabic Wikipedia «حاجي خليفة» (revision 73788000 of 8 March 2026), Persian Wikipedia «کاتب چلبی» (revision 44811431 of 23 October 2026), Urdu Wikipedia «کاتب چلبی حاجی خلیفہ» (revision 9463147 of 6 March 2026), Orhan Şaik Gökyay's entry in the TDV İslâm Ansiklopedisi (online edition, read in-session 1 November 2026) and Wikidata Q390123 (item revision 2547677795 of 19 September 2026, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Turkish, Arabic, Persian and Urdu articles agreeing. Existence checked against origin/main before building — no record holds this man under katip-celebi, katib-chelebi, haji-khalifa or any name fragment. FLAG: the draft stub person/hajji-khalifa-abdallah — a different, fifteenth-century Kastamonu Sufi who died in 1489 — carries this man's QID Q390123 in its external_ids in error; the stub is not Kâtip Çelebi and is untouched here, but its QID needs correction by whoever next edits it. place/istanbul exists on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-173m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

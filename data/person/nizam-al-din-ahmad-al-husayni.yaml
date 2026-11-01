@@ -1,0 +1,74 @@
+id: person/nizam-al-din-ahmad-al-husayni
+class: person
+
+label: { ar: "نظام الدين أحمد الحسيني", en: "Nizam al-Din Ahmad al-Husayni", ur: "نظام الدین احمد حسینی" }
+
+names:
+  - { value: "Nizam al-Din Ahmad al-Husayni", kind: full }
+  - { value: "Ayn al-Mulk", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "نظام الدين أحمد الحسيني (7 تموز 1618 – أيار 1674) علويّ من أسرة سادة من أصل إيراني استقرت في الحجاز، وُلد في الطائف وتعلّم الفقه والحديث والمنطق. هاجر إلى الدكن فتزوّج ابنة السلطان عبد الله قطب شاه، وصار رئيس وزراء سلطنة قلقندة (1656–1672) ولُقّب بعين الملك، ورعى الثقافة العربية الأدبية في بلاطها. بعد وفاة قطب شاه سُجن وقُتل في أيار 1674، على الأرجح بالسم. وهو والد الأديب ابن معصوم المدني صاحب «سلافة العصر»."
+  en: "Nizam al-Din Ahmad al-Husayni (7 July 1618 – May 1674) was a sayyid of an Iranian-descended family settled in the Hejaz, born at Taif and educated in jurisprudence, hadith and logic. He migrated to the Deccan, married a daughter of Sultan Abdullah Qutb Shah, and became prime minister of the Sultanate of Golconda (1656–1672) with the title Ayn al-Mulk, patronising Arabic literary culture at its court. After Qutb Shah's death he was imprisoned and killed in May 1674, likely by poisoning. He was the father of the writer Ibn Ma'sum al-Madani, author of Sulafat al-Asr."
+  ur: "نظام الدین احمد حسینی (7 جولائی 1618ء – مئی 1674ء) حجاز میں آباد ایرانی النسل سادات خاندان کے سید تھے، طائف میں پیدا ہوئے اور فقہ، حدیث اور منطق کی تعلیم پائی۔ دکن ہجرت کر کے سلطان عبد اللہ قطب شاہ کی بیٹی سے شادی کی اور سلطنتِ قلقندہ کے وزیرِ اعظم بنے (1656ء–1672ء)، «عین الملک» کا لقب پایا اور دربار میں عربی ادبی ثقافت کی سرپرستی کی۔ قطب شاہ کی وفات کے بعد قید ہوئے اور مئی 1674ء میں قتل کر دیے گئے، غالباً زہر سے۔ وہ ادیب ابن معصوم مدنی، صاحبِ «سلافۃ العصر»، کے والد تھے۔"
+
+roles: [minister, scholar]
+regions: [arabia, south-asia]
+wings: [people]
+
+born:
+  edtf: "1618-07-07"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "1028"
+  derived: true
+  note: "Born at Taif on 7 July 1618, as both articles give it, resting on James White's 2023 study of the family; the Gregorian date falls cleanly in 1028 AH, which is built as derived. The queue row's years 1610–1675 are corrected to 1618–1674 on the articles."
+  sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar, source/wikidata-nizam-al-din-ahmad-al-husayni]
+
+died:
+  edtf: "1674-05"
+  calendar: gregorian
+  precision: month
+  status: historical
+  hijri: "1085"
+  derived: true
+  note: "Imprisoned after Abdullah Qutb Shah's death and killed in May 1674, likely by poisoning, as both articles give it on White's study; Wikidata gives the year 1674 under a year-precision statement. The month falls cleanly in 1085 AH, built as derived."
+  sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar, source/wikidata-nizam-al-din-ahmad-al-husayni]
+
+relations:
+  - { type: born_in, target: place/taif, sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar] }
+  - { type: died_in, target: place/hyderabad-deccan, sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a confession for the man himself. What
+      the articles attest is context, which the founder's rule
+      says never settles faith: descent from a sayyid family of
+      Iranian stock intermarried with Safavid royalty and
+      descended from the Shiraz scholar Sadr al-Din Dashtaki, an
+      education in jurisprudence, hadith, Arabic and logic, and
+      high office at the Twelver Qutb Shahi court of Golconda,
+      whose ruler's daughter he married. Both articles rest on a
+      single scholarly study (James White, 2023), so they are one
+      source family in any case, and neither names his school.
+      Wikidata carries no religion statement for him.
+    sources: [source/wikipedia-nizam-al-din-ahmad-al-husayni-en, source/wikipedia-nizam-al-din-ahmad-al-husayni-ar]
+
+external_ids: { wikidata: "Q130537577" }
+
+sources:
+  - source/wikipedia-nizam-al-din-ahmad-al-husayni-en
+  - source/wikipedia-nizam-al-din-ahmad-al-husayni-ar
+  - source/wikidata-nizam-al-din-ahmad-al-husayni
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1328594144 of 20 December 2025), Arabic Wikipedia (revision 71196473 of 24 June 2025 — a rendering of the English article, both resting on James White, Persian and Arabic Literary Communities in the Seventeenth Century, 2023) and Wikidata Q130537577 (item revision 2447653931 of 27 December 2025, re-asserted identical on a second live query), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic article agreeing. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID (person/nizam-al-din-ahmad-iii is the fifteenth-century Bahmani sultan, a different man). Identity grounded against the queue row 'Sayyid Nezam al-Din Ahmad — 1610–1675': this sayyid prime minister of Golconda is the one attested figure of the name in the period, and the queue's years are corrected to 1618–1674 on the articles. His son Ibn Ma'sum al-Madani has a draft-stub record on main (person/ali-ibn-ahmad-ibn-masum); the child_of edge belongs in the son's record and is not written here, per the one-write rule. place/taif and place/hyderabad-deccan exist on main."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-173m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

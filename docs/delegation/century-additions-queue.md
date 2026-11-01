@@ -1832,11 +1832,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Mirza Muhammad Tahir Nasab — 1630–1700
 - [ ] Mir Findesiri — 1563–1640
 - [ ] Qazi Sa'id Qomi — 1633–1692
-- [ ] Jamal al-Din Khwansari — 1651–1711
+- [x] Jamal al-Din Khwansari — 1651–1711
 - [ ] Mohammad-Saleh Khwansari — 1620–1688
-- [ ] Sayyid Nezam al-Din Ahmad — 1610–1675
-- [ ] Kâtip Çelebi (Hacı Halife) — 1609–1657
-- [ ] Nâbî — 1642–1712
+- [x] Sayyid Nezam al-Din Ahmad — 1610–1675
+- [x] Kâtip Çelebi (Hacı Halife) — 1609–1657
+- [x] Nâbî — 1642–1712
 - [ ] Nef'î — 1589–1635
 - [ ] Neşâtî — 1600–1674
 - [ ] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
