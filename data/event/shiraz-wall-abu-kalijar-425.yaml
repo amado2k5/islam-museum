@@ -1,0 +1,24 @@
+id: event/shiraz-wall-abu-kalijar-425
+class: event
+kind: other
+label: { ar: "بناء سور مدينة شيراز في عهد أبي كاليجار البويهي", en: "Abu Kalijar the Buyid builds the wall of Shiraz" }
+summary:
+  ar: "ذكر ابن الأثير في حوادث سنة خمس وعشرين وأربعمائة أن أبا كاليجار البويهي أعاد مَمْدان إلى أملاكه وبنى سور مدينة شيراز، فبلغ طوله اثني عشر ألف ذراع وعرضه ثمانية أذرع وله أحد عشر باباً، وفُرغ من بنائه نحو سنة أربعين وأربعمائة {cite:tarikh-islam-hasan-ibrahim p. 15}."
+  en: "Ibn al-Athir records under the events of 425 that the Buyid ruler Abu Kalijar restored Mamdhan's estates and built the wall of the city of Shiraz — twelve thousand cubits long, eight cubits wide, with eleven gates; the work was finished about 440 {cite:tarikh-islam-hasan-ibrahim p. 15}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1033~", hijri: "0425", calendar: julian, precision: year, status: tradition, derived: true, note: "ذكره ابن الأثير في حوادث سنة 425هـ وفُرغ منه نحو سنة 440هـ {cite:tarikh-islam-hasan-ibrahim p. 15}؛ التحويل مشتق.", sources: [source/tarikh-islam-hasan-ibrahim] }
+  end: { edtf: "1048~", hijri: "0440", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/tarikh-islam-hasan-ibrahim] }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: had_participant, target: person/abu-kalijar, role: "الباني", sources: [source/tarikh-islam-hasan-ibrahim] }
+map: { kind: locator, precision: approximate, center: [29.6103, 52.5311] }
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام السياسي والديني والثقافي والاجتماعي — حسن إبراهيم حسن (مسح BBib-Alex-05593) ص 15 ح 2 ناقلاً عن ابن الأثير ج9"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-shiraz-1
+sources: [source/tarikh-islam-hasan-ibrahim]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
