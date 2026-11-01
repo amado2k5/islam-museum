@@ -1,0 +1,27 @@
+id: event/death-al-safadi-764
+class: event
+kind: death
+label:
+  ar: "وفاة الصفدي بدمشق، ١٠ شوال ٧٦٤هـ"
+  en: "Al-Safadi dies at Damascus, 10 Shawwal 764/23 July 1363"
+  ur: "صفدی کی وفات دمشق میں، 10 شوال 764ھ/23 جولائی 1363ء"
+summary:
+  ar: "توفي الصفدي بدمشق في ليلة عاشر شوال سنة ٧٦٤هـ (٢٣ يوليو ١٣٦٣م) خلال أحد طواعين المدينة الدورية، وكان حينها وكيل الخزانة؛ قال الذهبي في حقه: الأديب البارع الكاتب، شارك في الفنون وتقدم في الإنشاء وجمع وصنّف، وقال ابن كثير إنه كتب ما يقارب مئتي مجلدة {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88-89}."
+  en: "Al-Safadi died at Damascus in the night of Saturday to Sunday, 10 Shawwal 764/23 July 1363, during one of the city's periodic plague outbreaks, while holding the post of wakil al-khizana; al-Dhahabi called him 'the accomplished littérateur and writer who shared in all the disciplines', and Ibn Kathir credits him with nearly two hundred volumes {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88-89}."
+  ur: "صفدی 10 شوال 764ھ/23 جولائی 1363ء کی رات (ہفتہ سے اتوار کی رات) دمشق میں وفات پا گئے — شہر کی موسمی طاعون کی لہروں کے دوران — جبکہ وہ وکیل الخزانہ کے منصب پر تھے؛ ذہبی نے انہیں 'مایہ ناز ادیب و کاتب' کہا اور ابن کثیر کے نزدیک ان کی تحریریں تقریباً دو سو مجلد ہیں {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88-89}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1363-07-23", hijri: "0764-10-10", calendar: julian, precision: day, status: historical, derived: true, note: "ليلة السبت إلى الأحد ١٠ شوال ٧٦٤هـ = ٢٣ يوليو ١٣٦٣م {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/al-safadi, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

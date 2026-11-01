@@ -1,0 +1,27 @@
+id: event/safadi-copying-ibn-nubata-718
+class: event
+kind: other
+label:
+  ar: "أقدم شهادة على نسخ الصفدي بيده، ٧١٨هـ"
+  en: "Al-Safadi's earliest attested copying, 718/1318"
+  ur: "صفدی کی نقل نویسی کی قدیم ترین شہادت، 718ھ/1318ء"
+summary:
+  ar: "يُشهد نشاط الصفدي في النسخ بخطه من سنة ٧١٨هـ في نسخة من خطب ابن نباتة؛ وقد استمر ناسخاً مجداً حتى وجدت بخطه كتبٌ كتبها بيده تقارب خمسمائة مجلدة، وما كتبه في ديوان الإنشاء ضعف ذلك {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 89}."
+  en: "Al-Safadi's copying activity is already attested in 718/1318 by a manuscript of Ibn Nubata's Khutab in his hand; he went on copying so assiduously that autograph volumes he wrote number nearly five hundred, with twice as much again in his chancery production {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 89}."
+  ur: "صفدی کی نقل نویسی کی قدیم ترین شہادت 718ھ/1318ء کی ہے — ابن نباتہ کے خطبوں کی ایک وہ نقل جو اس کے اپنے ہاتھ کی ہے؛ وہ اس قدر نقل کرتا رہا کہ اس کے دستخطی مجلدات تقریباً پانچ سو ہیں اور دیوانِ انشا کی تحریریں اس سے بھی دگنی {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 89}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1318", hijri: "0718", calendar: julian, precision: year, status: historical, derived: true, note: "نشاطه في النسخ مشهود من سنة ٧١٨هـ (نسخة خطب ابن نباتة، فهرس برنستون غاريت 1907) {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/al-safadi, role: "الناسخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-nubata-al-misri, role: "مؤلف الأصل المنسوخ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
