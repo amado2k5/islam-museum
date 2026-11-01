@@ -63,3 +63,6 @@ translators: []
 ويذكر أن النبي لم يكن له مجلس معين، وكان يجلس حيث ينتهي المجلس، وأن أعرابيا زائرا سأل جهرا أيّهم هو محمد. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:19:00}
 
 ويقول إن التواضع عمل يُمارَس لا كلام يُقال، ويذكر قولا للشافعي أنه تمنى أن يُظهر الله الحق على لسان غيره (needs_source: القول المنسوب إلى الشافعي). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:25:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يقترح الشيخ أن يضع المرء في ذهنه أن من يعاملهم ثلاثة أصناف: الأكبر منه سنًّا فيقول إنه سبقه إلى الصلاة والصيام والصدقة عشر سنين فهو خير منه، والأصغر منه فيقول إنه سبقه إلى الذنوب عشر سنين فهو خير منه، ومن هو في سنّه فيقول إنه لا يعلم ذنوبه التي سترها الله، ويرى أن من ستر الله أنه لم يجعل للذنوب رائحة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:06:30} ويرى أن المتكبر على الخلق إنسان مغرور تافه، ويستشهد بأن أهل بدر نُصروا وهم أذلة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:30}

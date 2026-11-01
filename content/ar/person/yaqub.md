@@ -43,3 +43,6 @@ translators: []
 يروي الشيخ أن يعقوب فقد يوسف سنين ثم اجتمع به، ويجعل ذلك مثالًا على حكمة الله فيما يمنع. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:00}
 
 يروي الشيخ ارتفاع يوسف في مصر وسجود يعقوب له، على أنه تحقيق رؤيا سابقة (لم تُذكر السورة). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:14:30}
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يستخلص الشيخ من قصة يعقوب ويوسف ملمحًا تربويًا: أن إخوة يوسف لما رأوا حب أبيهم ليوسف وأخيه حاولوا قتله وألقوه في الجب ظانين أنهم يقضون على حبه في قلب أبيه، فما زاده ذلك إلا حبًا حتى ابيضت عيناه من الحزن؛ ويرى أن الأب إذا غلب على قلبه حب ولد من أولاده فلا يُظهره، لأنه يثير غيرة إخوته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:07:30}

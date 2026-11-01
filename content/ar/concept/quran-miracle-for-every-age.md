@@ -15,3 +15,6 @@ translators: []
 
 ## رأي المؤلف
 هذا رأي الشعراوي وتعليله، وينسب إليه هنا. لم تُعرض بعد آراء أهل التفسير والإعجاز في هذه المسألة، وستُضاف من مصادر أخرى في دفعة لاحقة.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يضرب الشيخ مثالين على ما يسمّيه الإعجاز التاريخي: [[person/haman|هامان]] الذي يروي أن الهيروغليفية كشفت أنه كان وزيرًا للإنشاءات، ونبوءة غلبة الروم على الفرس في بضع سنين، ويروي أن [[person/abu-bakr|أبا بكر]] راهن المشركين على مئة من الإبل أن الروم ستغلب، قبل تحريم الرهان، وأن الروم انتصروا فعلًا. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:00} ويرى أن الدول الكبرى إذا هُزمت لا تنتصر إلا بعد جيل، ويستشهد بالحربين العالميتين، وأن الحضارة تطير عادة بجناحين كفارس والروم أو أمريكا والاتحاد السوفيتي إلا أيام عظمة الإسلام، وهذا رأيه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:06:30}

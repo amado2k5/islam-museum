@@ -69,3 +69,6 @@ He describes Imam al-Shafi'i as having filled the earth with knowledge, as the f
 He mentions illnesses that families conceal, and recounts the story of Imam al-Shafi'i who disclosed a defect in goods he sold, and he gives a figure for the sale price (needs_source: the figure is not clear in the transcript). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep17 00:25:30}
 
 He asks listeners to write down "the eight" that he mentions, and he praises the wisdom of al-Shafi'i's sayings (needs_source: what "the eight" are is not clear in the transcript). {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:05:30}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh relates that al-Shafi'i, past seventy, still had white, strong teeth, and when asked said they were God's trusts that he guarded in youth, so God guarded them for him in old age; the Sheikh explains that he guarded them from eating the unlawful and from attacking people's honour and slandering them (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:08:00} See: [[concept/iftira|slandering people]].

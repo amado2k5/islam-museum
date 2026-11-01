@@ -25,3 +25,6 @@ As a transmitter of poetry al-Asma'i and his generation were shaped by the trans
 
 ## Disciples and the later lexicons
 Abu Nasr Ahmad ibn Hatim al-Bahili transmitted his books to Tha'lab, and Abu 'Ubayd al-Qasim divided the books into chapters and added material on the authority of Abu Zayd and the Kufan philologists. Abu Hatim al-Sijistani recorded in his Fuhulat al-Shu'ara' his teacher's answers on which poets were to be counted as fuhul. For later lexicographers the main source of al-Asma'i's material was the Tahdhib al-lugha of al-Azhari, who names his direct and indirect sources. {cite:encyclopaedia-of-islam-2 vol. 1 p. 766}
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh relates that the Commander of the Faithful asked al-Asma'i, the master of Arabic letters from whom no rarity of the Arabs' language was hidden, for the plural of 'miswak'; not wanting to say 'masawik' lest it offend his ear, he said: the opposite of your virtues, Commander of the Faithful. He tells it as an example of [[concept/al-qawl-al-hasan|speaking well]] (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:30}

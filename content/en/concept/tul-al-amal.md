@@ -15,3 +15,6 @@ The Sheikh says that following desire turns a person from the truth, and that lo
 
 ## Speaker's view: the aim is guidance and readiness to meet God
 The Sheikh's view is that all of prayer lies in following guidance and preparing for the meeting with God. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:21:00}
+
+## From Omar Abdelkafy's series Nafahat Ramadaniyya (the faults of the tongue)
+The Sheikh holds that most people's affliction is long hope, and describes someone who, asked whether he believes he will die, agrees, but when told 'and if you die tonight?' says there is no need for such talk. He makes short hope and the remembrance of death an effective remedy for the faults of the tongue, and mentions Ibn Umar's hadith about being in the world as a stranger or a passer-by. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:02:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:03:00}

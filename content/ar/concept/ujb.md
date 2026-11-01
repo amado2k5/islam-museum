@@ -25,3 +25,6 @@ translators: []
 يروي الشيخ قصة معلم في البصرة كان يحضر درسه خمسمئة طالب، فخشي أن يدخله العجب (needs_source: تفاصيل الرواية) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:31:30}. ويرى الشيخ، وهذا رأي شخصي له، أن الطاعة قد تصير إعجابا بالعمل، وأن العمل فيه آفة، وأن رجاء العبد في عفو الله عن ذنوبه قد يغلب رجاءه في عمله {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:51:30}.
 
 ويقول الشيخ إن الفرح بالحسنات مشروع لأن الله وفّق إليها، مع التحرز من الكبر (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:03:30}.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يعدّ الشيخ «انتفاخ الأنا» من موانع التزكية، ويشبّه صاحبه بمن يجلس في غرفة جدرانها مرايا فلا يرى إلا ألف صورة لنفسه، فيظن أنه أفقه من أبي حنيفة وأعلم من ابن تيمية، ويضع قدمًا على قدم لينتقد العلماء، ويرى أن كل إنسان عرف شيئًا وغابت عنه أشياء، وأن الطبيب لا يظن نفسه أعلم من السبّاك في صنعته. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep24 00:09:00}
