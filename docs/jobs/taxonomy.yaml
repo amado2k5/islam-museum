@@ -1,0 +1,218 @@
+# Job Browser: the job taxonomy and the roles merge map (Phase 0, 1 November 2026).
+# Planning file: nothing reads it yet. Phase 1 turns it into data/job/<slug>.yaml records and a
+# scripts/report/jobs-census.ts report. Append-only once approved; a job is never deleted, it is
+# merged (its id becomes an alias of the richer job).
+#
+# Fields per job:
+#   id        job/<slug>, immutable
+#   domain    one of the domain ids below
+#   kind      office | craft | scholarly | religious | commercial | military | medical | artistic |
+#             service | administrative | modern-profession
+#   label     ar / en / ur (Arabic first; English and Urdu always)
+#   roles     the roles: strings in data/person that map to this job (the merge map; exact strings,
+#             including the drifted spellings). A role listed under exactly one job.
+#   ar_keys   Arabic stems used only for the Phase 0 lead census over summary.ar and content/ar/person
+#             (substring matches; a nisba such as الحداد is also a surname, so these are leads, not holders)
+#   broader   a wider job this one is a form of (display only)
+#   first10   the Phase 1 batch
+#   note      caveats for the writer
+domains:
+  - { id: governance-law,        label: { ar: الحكم والقضاء,         en: Governance & Law,           ur: حکومت و قانون } }
+  - { id: court-administration,  label: { ar: الديوان والإدارة,       en: Court & Administration,     ur: دربار و انتظامیہ } }
+  - { id: scholarship-teaching,  label: { ar: العلم والتعليم,         en: Scholarship & Teaching,     ur: علم و تدریس } }
+  - { id: faith-preaching,       label: { ar: الدين والدعوة,          en: Faith & Preaching,          ur: دین و تبلیغ } }
+  - { id: medicine-care,         label: { ar: الطب والرعاية,          en: Medicine & Care,            ur: طب و نگہداشت } }
+  - { id: sciences-numbers,      label: { ar: العلوم والحساب,         en: Sciences & Numbers,         ur: سائنس و حساب } }
+  - { id: arts-letters,          label: { ar: الفنون والأدب,          en: Arts & Letters,             ur: فنون و ادب } }
+  - { id: building-making,       label: { ar: البناء والصناعة,        en: Building & Making,          ur: تعمیر و دستکاری } }
+  - { id: trade-travel-sea,      label: { ar: التجارة والسفر والبحر,  en: "Trade, Travel & the Sea",  ur: تجارت، سفر اور سمندر } }
+  - { id: war-command,           label: { ar: الحرب والقيادة,         en: War & Command,              ur: جنگ و قیادت } }
+  - { id: media-performance,     label: { ar: الإعلام والأداء,        en: Media & Performance,        ur: میڈیا و فن کاری } }
+  - { id: sport,                 label: { ar: الرياضة,                en: Sport,                      ur: کھیل } }
+  - { id: patronage-public-life, label: { ar: الرعاية والحياة العامة, en: Patronage & Public Life,    ur: سرپرستی و عوامی زندگی } }
+  # proposed addition (Phase 0 decision 2): the brief's thirteen domains have no home for the farmer, the herder,
+  # the qanat-digger, the gardener, the fisherman or the pearl diver.
+  - { id: land-water,            label: { ar: الأرض والماء,           en: Land & Water,               ur: زمین و پانی }, proposed: true }
+
+# roles: strings that describe a standing, not a job. They stay as hand-maintained descriptors and are never
+# turned into occupations (Phase 0 decision 3).
+descriptors: [prophet, companion, successor, ancestor, tribal-ancestor, martyr, notable, figure, prophetic-family,
+  family-of-the-prophet, companion-family, prophet-household, royal, royal-consort, princess, prince, umayyad-prince,
+  noble, royalty, other, host, founder, reformer, rebel, convert, saint]
+
+# roles: strings too vague to map by rule. The record keeps the string until the Phase 3 prose sweep reads the
+# sources and writes the real occupation(s).
+review: [scientist, artist, scribe, military, official, craftsman, mystic, sufi, ascetic, academic, leader]
+
+jobs:
+  # ---------------------------------------------------------------- governance-law
+  - { id: job/ruler,          domain: governance-law, kind: office, label: { ar: الحاكم, en: Ruler, ur: حاکم }, roles: [ruler], ar_keys: [], note: "Umbrella for every head of a polity whose title the record does not yet give; Phase 3 refines each holder to caliph, sultan, emir, king, khan or shah" }
+  - { id: job/caliph,         domain: governance-law, kind: office, label: { ar: الخليفة, en: Caliph, ur: خلیفہ }, roles: [caliph, الخليفة العباسي], ar_keys: [], broader: job/ruler }
+  - { id: job/sultan,         domain: governance-law, kind: office, label: { ar: السلطان, en: Sultan, ur: سلطان }, roles: [sultan], ar_keys: [], broader: job/ruler }
+  - { id: job/emir,           domain: governance-law, kind: office, label: { ar: الأمير, en: Emir, ur: امیر }, roles: [emir, amir], ar_keys: [], broader: job/ruler }
+  - { id: job/king,           domain: governance-law, kind: office, label: { ar: الملك, en: King, ur: بادشاہ }, roles: [king, queen], ar_keys: [], broader: job/ruler }
+  - { id: job/khan,           domain: governance-law, kind: office, label: { ar: الخان, en: Khan, ur: خان }, roles: [khan], ar_keys: [], broader: job/ruler }
+  - { id: job/shah,           domain: governance-law, kind: office, label: { ar: الشاه, en: Shah, ur: شاہ }, roles: [], ar_keys: [الشاه], broader: job/ruler }
+  - { id: job/wali,           domain: governance-law, kind: office, label: { ar: الوالي, en: Governor (wali), ur: والی }, roles: [governor], ar_keys: [الوالي, ولاية] }
+  - { id: job/regent,         domain: governance-law, kind: office, label: { ar: الوصي على العرش, en: Regent, ur: نائب السلطنت }, roles: [regent], ar_keys: [] }
+  - { id: job/tribal-chief,   domain: governance-law, kind: office, label: { ar: سيد القبيلة, en: Tribal chief, ur: قبیلے کا سردار }, roles: [tribal-leader, tribal-chief], ar_keys: [سيد قومه, زعيم قبيلة] }
+  - { id: job/hakam,          domain: governance-law, kind: office, label: { ar: الحَكَم, en: Arbiter (hakam), ur: ثالث (حَکَم) }, roles: [sage], ar_keys: [حكماً, حَكَماً], note: "the pre-Islamic and early Islamic arbiter; the forerunner of the qadi" }
+  - { id: job/qadi,           domain: governance-law, kind: office, label: { ar: القاضي, en: Qadi (judge), ur: قاضی }, roles: [qadi, judge], ar_keys: [القاضي, قاضياً, قاضيا, قضاء], first10: true }
+  - { id: job/qadi-al-qudat,  domain: governance-law, kind: office, label: { ar: قاضي القضاة, en: Chief judge (qadi al-qudat), ur: قاضی القضاۃ }, roles: [], ar_keys: [قاضي القضاة], broader: job/qadi }
+  - { id: job/kazasker,       domain: governance-law, kind: office, label: { ar: قاضي العسكر, en: Kazasker (chief military judge), ur: قاضی عسکر }, roles: [kazasker], ar_keys: [قاضي العسكر, قاضي عسكر], broader: job/qadi }
+  - { id: job/mufti,          domain: governance-law, kind: religious, label: { ar: المفتي, en: Mufti, ur: مفتی }, roles: [mufti], ar_keys: [المفتي, مفتي, الإفتاء] }
+  - { id: job/shaykh-al-islam, domain: governance-law, kind: office, label: { ar: شيخ الإسلام, en: Shaykh al-Islam, ur: شیخ الاسلام }, roles: [shaykh-al-islam], ar_keys: [شيخ الإسلام], broader: job/mufti }
+  - { id: job/muhtasib,       domain: governance-law, kind: office, label: { ar: المحتسب, en: Muhtasib (market inspector), ur: محتسب }, roles: [], ar_keys: [المحتسب, محتسب, الحسبة] }
+  - { id: job/sahib-al-shurta, domain: governance-law, kind: office, label: { ar: صاحب الشرطة, en: Chief of police (sahib al-shurta), ur: صاحب الشرطہ }, roles: [], ar_keys: [صاحب الشرطة, الشرطة] }
+  - { id: job/faqih,          domain: governance-law, kind: scholarly, label: { ar: الفقيه, en: Jurist (faqih), ur: فقیہ }, roles: [jurist, faqih, usuli, mujtahid, marja, faraid scholar], ar_keys: [الفقيه, فقيها, فقيهاً, الفقهاء], note: "marja and mujtahid are Twelver ranks of the same craft; the entry keeps the record's own tradition label" }
+  - { id: job/notary-witness, domain: governance-law, kind: office, label: { ar: الشاهد العدل, en: Notary witness (shahid adl), ur: عادل گواہ (شاہد) }, roles: [], ar_keys: [الشهود العدول, شاهد عدل, عدول] }
+  - { id: job/lawyer,         domain: governance-law, kind: modern-profession, label: { ar: المحامي, en: Lawyer, ur: وکیل }, roles: [lawyer], ar_keys: [المحامي, محامياً] }
+  - { id: job/diplomat,       domain: governance-law, kind: office, label: { ar: السفير, en: Diplomat / envoy, ur: سفیر }, roles: [diplomat, envoy, tribal-envoy], ar_keys: [سفيراً, السفير, رسولاً إلى] }
+  - { id: job/politician,     domain: governance-law, kind: modern-profession, label: { ar: السياسي, en: Politician, ur: سیاست دان }, roles: [politician, statesman, political leader, minister], ar_keys: [السياسي, وزيراً لل, رئيس الوزراء] }
+  # ---------------------------------------------------------------- court-administration
+  - { id: job/vizier,         domain: court-administration, kind: office, label: { ar: الوزير, en: Vizier, ur: وزیر }, roles: [vizier], ar_keys: [الوزير, وزيراً, وزيرا, الوزارة], first10: true }
+  - { id: job/grand-vizier,   domain: court-administration, kind: office, label: { ar: الصدر الأعظم, en: Grand vizier, ur: صدر اعظم }, roles: [grand-vizier, grand vizier], ar_keys: [الصدر الأعظم], broader: job/vizier }
+  - { id: job/katib,          domain: court-administration, kind: office, label: { ar: الكاتب, en: Chancery secretary (katib), ur: کاتب (منشی) }, roles: [katib, secretary], ar_keys: [كاتب الإنشاء, كاتب السر, ديوان الإنشاء, كاتباً], note: "the chancery secretary; the copyist (warraq, nasikh) is job/copyist" }
+  - { id: job/hajib,          domain: court-administration, kind: office, label: { ar: الحاجب, en: Chamberlain (hajib), ur: حاجب }, roles: [], ar_keys: [الحاجب, حاجباً] }
+  - { id: job/treasurer,      domain: court-administration, kind: office, label: { ar: صاحب بيت المال, en: Treasurer, ur: خزانچی }, roles: [], ar_keys: [بيت المال, الخازن, خازناً] }
+  - { id: job/amil,           domain: court-administration, kind: office, label: { ar: العامل, en: Tax collector (amil), ur: عامل (محصل) }, roles: [], ar_keys: [عاملاً على, الخراج, جابياً] }
+  - { id: job/sahib-al-barid, domain: court-administration, kind: office, label: { ar: صاحب البريد, en: Postmaster (sahib al-barid), ur: صاحب البرید }, roles: [], ar_keys: [صاحب البريد, البريد] }
+  - { id: job/nazir-al-waqf,  domain: court-administration, kind: office, label: { ar: ناظر الوقف, en: Waqf administrator (nazir), ur: ناظر وقف }, roles: [], ar_keys: [ناظر الوقف, ناظراً, نظر الأوقاف] }
+  - { id: job/courtier,       domain: court-administration, kind: office, label: { ar: النديم, en: Courtier (nadim), ur: درباری (ندیم) }, roles: [courtier], ar_keys: [النديم, نديماً, البلاط] }
+  - { id: job/translator,     domain: court-administration, kind: scholarly, label: { ar: المترجم, en: Translator, ur: مترجم }, roles: [translator], ar_keys: [المترجم, مترجماً, ترجم عن] }
+  # ---------------------------------------------------------------- scholarship-teaching
+  - { id: job/alim,           domain: scholarship-teaching, kind: scholarly, label: { ar: العالم, en: Religious scholar (alim), ur: عالم دین }, roles: [scholar], ar_keys: [], note: "the 3,063 bare scholar strings map here as the generic entry; the Phase 3 sweep adds the specific crafts (muhaddith, faqih, mufassir) from the sources" }
+  - { id: job/muhaddith,      domain: scholarship-teaching, kind: scholarly, label: { ar: المحدّث, en: Hadith scholar (muhaddith), ur: محدث }, roles: [muhaddith, hadith-scholar, hadith scholar, transmitter, narrator], ar_keys: [المحدث, محدثاً, الحديث], first10: true }
+  - { id: job/mufassir,       domain: scholarship-teaching, kind: scholarly, label: { ar: المفسّر, en: Qur'an exegete (mufassir), ur: مفسر }, roles: [mufassir], ar_keys: [المفسر, مفسراً, التفسير] }
+  - { id: job/mutakallim,     domain: scholarship-teaching, kind: scholarly, label: { ar: المتكلّم, en: Theologian (mutakallim), ur: متکلم }, roles: [theologian, mutakallim], ar_keys: [المتكلم, علم الكلام] }
+  - { id: job/philosopher,    domain: scholarship-teaching, kind: scholarly, label: { ar: الفيلسوف, en: Philosopher, ur: فلسفی }, roles: [philosopher, theorist], ar_keys: [الفيلسوف, فيلسوفاً, الفلسفة] }
+  - { id: job/grammarian,     domain: scholarship-teaching, kind: scholarly, label: { ar: النحوي, en: Grammarian (nahwi), ur: نحوی }, roles: [grammarian, linguist, philologist], ar_keys: [النحوي, النحو, اللغوي] }
+  - { id: job/lexicographer,  domain: scholarship-teaching, kind: scholarly, label: { ar: صاحب المعجم, en: Lexicographer, ur: لغت نویس }, roles: [lexicographer], ar_keys: [المعجم, معجماً] }
+  - { id: job/historian,      domain: scholarship-teaching, kind: scholarly, label: { ar: المؤرّخ, en: Historian, ur: مؤرخ }, roles: [historian, biographer], ar_keys: [المؤرخ, مؤرخاً, التاريخ] }
+  - { id: job/nassab,         domain: scholarship-teaching, kind: scholarly, label: { ar: النسّاب, en: Genealogist (nassab), ur: نساب }, roles: [genealogist], ar_keys: [النساب, الأنساب] }
+  - { id: job/teacher,        domain: scholarship-teaching, kind: scholarly, label: { ar: المدرّس, en: Teacher (mu'allim / mudarris), ur: مدرس }, roles: [teacher, educator], ar_keys: [المدرس, مدرساً, المعلم, معلماً, درّس, التدريس], first10: true }
+  - { id: job/professor,      domain: scholarship-teaching, kind: modern-profession, label: { ar: الأستاذ الجامعي, en: University professor, ur: پروفیسر }, roles: [professor, researcher], ar_keys: [أستاذاً في جامعة, الأستاذ الجامعي, جامعة], broader: job/teacher }
+  - { id: job/librarian,      domain: scholarship-teaching, kind: office, label: { ar: خازن الكتب, en: Librarian (khazin al-kutub), ur: کتب خانے کا نگران }, roles: [], ar_keys: [خازن الكتب, خازن كتب, خزانة الكتب, دار الكتب] }
+  - { id: job/orientalist,    domain: scholarship-teaching, kind: modern-profession, label: { ar: المستشرق, en: Orientalist, ur: مستشرق }, roles: [orientalist], ar_keys: [المستشرق, مستشرقاً] }
+  - { id: job/social-scientist, domain: scholarship-teaching, kind: modern-profession, label: { ar: عالم الاجتماع, en: Social scientist, ur: ماہر عمرانیات }, roles: [sociologist, ethnographer, folklorist], ar_keys: [عالم اجتماع, الاجتماع] }
+  - { id: job/economist,      domain: scholarship-teaching, kind: modern-profession, label: { ar: الاقتصادي, en: Economist, ur: ماہر اقتصادیات }, roles: [economist], ar_keys: [الاقتصادي, اقتصادياً] }
+  # ---------------------------------------------------------------- faith-preaching
+  - { id: job/imam,           domain: faith-preaching, kind: religious, label: { ar: الإمام, en: Imam (prayer leader), ur: امام }, roles: [imam], ar_keys: [إماماً للمسجد, إمام المسجد, إمام الجامع, الإمامة], note: "the prayer leader of a mosque; the honorific 'imam' for a great scholar is not this job" }
+  - { id: job/khatib,         domain: faith-preaching, kind: religious, label: { ar: الخطيب, en: Khatib (Friday preacher), ur: خطیب }, roles: [khatib], ar_keys: [الخطيب, خطيباً, خطيب الجامع] }
+  - { id: job/muezzin,        domain: faith-preaching, kind: religious, label: { ar: المؤذّن, en: Muezzin, ur: مؤذن }, roles: [], ar_keys: [المؤذن, مؤذناً, الأذان] }
+  - { id: job/preacher,       domain: faith-preaching, kind: religious, label: { ar: الواعظ, en: Preacher (wa'iz / da'iya), ur: واعظ }, roles: [preacher, religious-leader, religious leader], ar_keys: [الواعظ, واعظاً, الوعظ, داعية] }
+  - { id: job/dai,            domain: faith-preaching, kind: religious, label: { ar: الداعي, en: Missionary (da'i), ur: داعی }, roles: [dai, Nizari da'i, missionary, agent], ar_keys: [الداعي, دعاة, مبشراً] }
+  - { id: job/qass,           domain: faith-preaching, kind: religious, label: { ar: القاصّ, en: Storyteller-preacher (qass), ur: قصہ گو واعظ (قاص) }, roles: [], ar_keys: [القاص, القصاص, قاصاً] }
+  - { id: job/qari,           domain: faith-preaching, kind: religious, label: { ar: القارئ, en: Qur'an reciter (qari / muqri), ur: قاری }, roles: [reciter, quran-reciter, qari, muqri, hafiz], ar_keys: [المقرئ, مقرئاً, القراء, القارئ, قارئاً] }
+  - { id: job/sufi-shaykh,    domain: faith-preaching, kind: religious, label: { ar: الشيخ المرشد, en: Sufi shaykh (murshid), ur: شیخ طریقت (مرشد) }, roles: [sufi master], ar_keys: [شيخ الطريقة, المرشد, مرشداً, شيخ الزاوية], note: "mystic, sufi and ascetic describe a path, not an office; they sit in review until member_of an order, a khanqah or a student chain is read" }
+  - { id: job/sadin,          domain: faith-preaching, kind: religious, label: { ar: السادن, en: Custodian of a sanctuary (sadin), ur: سادن (متولی حرم) }, roles: [], ar_keys: [السادن, سدانة, حجابة الكعبة, خادم الحرم] }
+  - { id: job/monk-priest,    domain: faith-preaching, kind: religious, label: { ar: الراهب, en: Monk / priest, ur: راہب }, roles: [monk], ar_keys: [الراهب, راهباً, القس], note: "clergy of other faiths who enter the museum's story (Bahira, Waraqa's circle, the Najran delegation)" }
+  # ---------------------------------------------------------------- medicine-care
+  - { id: job/physician,      domain: medicine-care, kind: medical, label: { ar: الطبيب, en: Physician (tabib), ur: طبیب }, roles: [physician, psychiatrist], ar_keys: [الطبيب, طبيباً, طبيبا, الطب], first10: true }
+  - { id: job/surgeon,        domain: medicine-care, kind: medical, label: { ar: الجرّاح, en: Surgeon (jarrah), ur: جراح }, roles: [], ar_keys: [الجراح, جراحاً, الجراحة], broader: job/physician }
+  - { id: job/kahhal,         domain: medicine-care, kind: medical, label: { ar: الكحّال, en: Oculist (kahhal), ur: کحال (ماہر امراض چشم) }, roles: [], ar_keys: [الكحال, كحالاً, الكحالة], broader: job/physician }
+  - { id: job/pharmacist,     domain: medicine-care, kind: medical, label: { ar: الصيدلاني, en: Pharmacist (saydalani), ur: دوا ساز }, roles: [], ar_keys: [الصيدلاني, الصيدلة, الأدوية المفردة] }
+  - { id: job/hajjam,         domain: medicine-care, kind: medical, label: { ar: الحجّام, en: Cupper (hajjam), ur: حجام }, roles: [], ar_keys: [الحجام, حجاماً, الحجامة] }
+  - { id: job/midwife,        domain: medicine-care, kind: medical, label: { ar: القابلة, en: Midwife (qabila), ur: دائی }, roles: [], ar_keys: [قابلةً, القوابل] }
+  - { id: job/wet-nurse,      domain: medicine-care, kind: service, label: { ar: الظِّئر, en: Wet-nurse, ur: دودھ پلانے والی (رضاعی ماں) }, roles: [wet-nurse], ar_keys: [أرضعت, مرضعة, ظئر] }
+  - { id: job/nurse,          domain: medicine-care, kind: modern-profession, label: { ar: الممرّض, en: Nurse, ur: نرس }, roles: [nurse], ar_keys: [الممرضة, ممرضة, التمريض] }
+  - { id: job/dentist,        domain: medicine-care, kind: modern-profession, label: { ar: طبيب الأسنان, en: Dentist, ur: دندان ساز }, roles: [dentist], ar_keys: [طبيب أسنان, الأسنان] }
+  - { id: job/baytar,         domain: medicine-care, kind: medical, label: { ar: البيطار, en: Veterinarian (baytar), ur: بیطار (جانوروں کا معالج) }, roles: [], ar_keys: [البيطار, البيطرة] }
+  # ---------------------------------------------------------------- sciences-numbers
+  - { id: job/astronomer,     domain: sciences-numbers, kind: scholarly, label: { ar: الفلكي, en: Astronomer, ur: ماہر فلکیات }, roles: [astronomer], ar_keys: [الفلكي, الفلك, علم الهيئة, الهيئة, الزيج], first10: true }
+  - { id: job/astrologer,     domain: sciences-numbers, kind: scholarly, label: { ar: المنجّم, en: Astrologer (munajjim), ur: نجومی }, roles: [], ar_keys: [المنجم, منجماً, التنجيم, أحكام النجوم], broader: job/astronomer }
+  - { id: job/muwaqqit,       domain: sciences-numbers, kind: religious, label: { ar: الموقّت, en: Mosque timekeeper (muwaqqit), ur: موقت }, roles: [], ar_keys: [الموقت, موقتاً, الميقات] }
+  - { id: job/mathematician,  domain: sciences-numbers, kind: scholarly, label: { ar: الرياضي, en: Mathematician, ur: ریاضی دان }, roles: [mathematician], ar_keys: [الرياضيات, الحساب, الجبر, الهندسة] }
+  - { id: job/engineer,       domain: sciences-numbers, kind: scholarly, label: { ar: المهندس, en: Engineer (muhandis), ur: انجینئر }, roles: [engineer, inventor], ar_keys: [المهندس, مهندساً, الحيل] }
+  - { id: job/chemist,        domain: sciences-numbers, kind: scholarly, label: { ar: الكيميائي, en: Alchemist / chemist, ur: کیمیا دان }, roles: [chemist], ar_keys: [الكيمياء, كيميائياً] }
+  - { id: job/physicist,      domain: sciences-numbers, kind: modern-profession, label: { ar: الفيزيائي, en: Physicist, ur: طبیعیات دان }, roles: [physicist, astrophysicist], ar_keys: [الفيزياء, فيزيائياً] }
+  - { id: job/life-scientist, domain: sciences-numbers, kind: modern-profession, label: { ar: عالم الأحياء, en: Life scientist, ur: ماہر حیاتیات }, roles: [biologist, immunologist, geneticist, biochemist, botanist, ornithologist, naturalist, agronomist, oceanographer], ar_keys: [الأحياء, النبات, الطيور] }
+  - { id: job/geographer,     domain: sciences-numbers, kind: scholarly, label: { ar: الجغرافي, en: Geographer, ur: جغرافیہ دان }, roles: [geographer], ar_keys: [الجغرافي, الجغرافيا, المسالك والممالك] }
+  - { id: job/cartographer,   domain: sciences-numbers, kind: craft, label: { ar: رسّام الخرائط, en: Cartographer, ur: نقشہ نگار }, roles: [cartographer], ar_keys: [الخرائط, خريطة], broader: job/geographer }
+  - { id: job/astronaut,      domain: sciences-numbers, kind: modern-profession, label: { ar: رائد الفضاء, en: Astronaut, ur: خلا باز }, roles: [astronaut], ar_keys: [رائد فضاء, الفضاء] }
+  # ---------------------------------------------------------------- arts-letters
+  - { id: job/poet,           domain: arts-letters, kind: artistic, label: { ar: الشاعر, en: Poet, ur: شاعر }, roles: [poet, poet-scholar], ar_keys: [الشاعر, شاعراً, شاعرا, ديوان] }
+  - { id: job/rawi,           domain: arts-letters, kind: artistic, label: { ar: الراوية, en: Poetry transmitter (rawi), ur: راوی (شعر) }, roles: [], ar_keys: [الراوية, راوية], broader: job/poet }
+  - { id: job/adib,           domain: arts-letters, kind: artistic, label: { ar: الأديب, en: Man of letters (adib), ur: ادیب }, roles: [adib, man of letters, literary-critic], ar_keys: [الأديب, أديباً, الأدب] }
+  - { id: job/writer,         domain: arts-letters, kind: modern-profession, label: { ar: الكاتب المؤلّف, en: Writer / author, ur: مصنف }, roles: [writer, author, novelist, playwright, dramatist], ar_keys: [الكاتب, كاتباً, مؤلف, الروائي, رواية, مسرحية] }
+  - { id: job/calligrapher,   domain: arts-letters, kind: craft, label: { ar: الخطّاط, en: Calligrapher (khattat), ur: خطاط }, roles: [calligrapher], ar_keys: [الخطاط, خطاطاً, الخط العربي, خط النسخ, خط الثلث], first10: true }
+  - { id: job/copyist,        domain: arts-letters, kind: craft, label: { ar: الورّاق, en: Copyist (warraq / nasikh), ur: کاتب (ناسخ، وراق) }, roles: [], ar_keys: [الوراق, وراقاً, الناسخ, ناسخاً, نسخ الكتب, بخطه, الوراقة, استكتب], first10: true }
+  - { id: job/illuminator,    domain: arts-letters, kind: craft, label: { ar: المذهّب, en: Illuminator (mudhahhib), ur: مذہب (تذہیب کار) }, roles: [illuminator], ar_keys: [المذهب للمخطوطات, التذهيب, مذهّب] }
+  - { id: job/musawwir,       domain: arts-letters, kind: craft, label: { ar: المصوّر, en: Painter (musawwir), ur: مصور }, roles: [painter], ar_keys: [المصور, التصوير, المنمنمات, النقاش] }
+  - { id: job/bookbinder,     domain: arts-letters, kind: craft, label: { ar: المجلّد, en: Bookbinder (mujallid), ur: جلد ساز }, roles: [], ar_keys: [التجليد, مجلداً للكتب] }
+  - { id: job/papermaker,     domain: arts-letters, kind: craft, label: { ar: الكاغدي, en: Papermaker (kaghadi), ur: کاغذ ساز }, roles: [], ar_keys: [الكاغد, صناعة الورق, الكاغدي] }
+  - { id: job/visual-artist,  domain: arts-letters, kind: modern-profession, label: { ar: الفنان التشكيلي, en: Visual artist, ur: مصور (فنکار) }, roles: [], ar_keys: [الفنان التشكيلي, فناناً تشكيلياً], note: "the 35 bare artist strings sit in review: painter of miniatures, singer and modern artist all hide behind them" }
+  - { id: job/photographer,   domain: arts-letters, kind: modern-profession, label: { ar: المصوّر الضوئي, en: Photographer, ur: فوٹوگرافر }, roles: [photographer], ar_keys: [التصوير الضوئي, مصور فوتوغرافي] }
+  # ---------------------------------------------------------------- building-making
+  - { id: job/architect,      domain: building-making, kind: craft, label: { ar: المعمار, en: Architect (mi'mar), ur: معمار }, roles: [architect], ar_keys: [المعمار, معمارياً, المهندس المعماري, العمارة], first10: true }
+  - { id: job/builder,        domain: building-making, kind: craft, label: { ar: البنّاء, en: Builder / mason (banna), ur: معمار (مستری) }, roles: [], ar_keys: [البناء, بناءً, البنائين], broader: job/architect }
+  - { id: job/carpenter,      domain: building-making, kind: craft, label: { ar: النجّار, en: Carpenter (najjar), ur: بڑھئی (نجار) }, roles: [], ar_keys: [النجار, نجاراً, النجارة] }
+  - { id: job/blacksmith,     domain: building-making, kind: craft, label: { ar: الحدّاد, en: Blacksmith (haddad), ur: لوہار (حداد) }, roles: [], ar_keys: [الحداد, حداداً, الحدادة] }
+  - { id: job/goldsmith,      domain: building-making, kind: craft, label: { ar: الصائغ, en: Goldsmith (sa'igh), ur: سنار (صائغ) }, roles: [], ar_keys: [الصائغ, صائغاً, الصاغة, الصياغة] }
+  - { id: job/coppersmith,    domain: building-making, kind: craft, label: { ar: النحّاس, en: Coppersmith / metalworker, ur: ٹھٹھیرا (نحاس) }, roles: [], ar_keys: [النحاس, نحاساً, الصفار, التكفيت] }
+  - { id: job/armourer,       domain: building-making, kind: craft, label: { ar: صانع السلاح, en: Armourer / swordsmith, ur: اسلحہ ساز }, roles: [], ar_keys: [السيوف, السياف, صانع المدافع, صانع السلاح] }
+  - { id: job/instrument-maker, domain: building-making, kind: craft, label: { ar: الأسطرلابي, en: Instrument maker (asturlabi), ur: آلہ ساز (اسطرلابی) }, roles: [], ar_keys: [الأسطرلابي, صانع الأسطرلاب, صنع الآلات] }
+  - { id: job/potter,         domain: building-making, kind: craft, label: { ar: الخزّاف, en: Potter / tilemaker, ur: کمہار (خزاف) }, roles: [], ar_keys: [الخزاف, الخزف, الفخار, القيشاني] }
+  - { id: job/glassmaker,     domain: building-making, kind: craft, label: { ar: الزجّاج, en: Glassmaker (zajjaj), ur: شیشہ ساز }, roles: [], ar_keys: [الزجاج, زجاجاً, صناعة الزجاج] }
+  - { id: job/weaver,         domain: building-making, kind: craft, label: { ar: الحائك, en: Weaver (ha'ik / nassaj), ur: جولاہا (نساج) }, roles: [], ar_keys: [الحائك, النساج, النسيج, الحياكة, السجاد] }
+  - { id: job/tailor,         domain: building-making, kind: craft, label: { ar: الخيّاط, en: Tailor (khayyat), ur: درزی (خیاط) }, roles: [], ar_keys: [الخياط, خياطاً, الخياطة] }
+  - { id: job/dyer,           domain: building-making, kind: craft, label: { ar: الصبّاغ, en: Dyer (sabbagh), ur: رنگریز }, roles: [], ar_keys: [الصباغ, الصباغة] }
+  - { id: job/tanner,         domain: building-making, kind: craft, label: { ar: الدبّاغ, en: Tanner / leatherworker, ur: چرم ساز (دباغ) }, roles: [], ar_keys: [الدباغ, الدباغة, الخراز, الجلود] }
+  - { id: job/baker,          domain: building-making, kind: craft, label: { ar: الخبّاز, en: Baker (khabbaz), ur: نان بائی }, roles: [], ar_keys: [الخباز, خبازاً, الفران] }
+  - { id: job/butcher,        domain: building-making, kind: craft, label: { ar: الجزّار, en: Butcher (jazzar / qassab), ur: قصاب }, roles: [], ar_keys: [الجزار, القصاب, اللحام] }
+  - { id: job/cook,           domain: building-making, kind: service, label: { ar: الطبّاخ, en: Cook (tabbakh), ur: باورچی }, roles: [], ar_keys: [الطباخ, طباخاً, الطباخة] }
+  # ---------------------------------------------------------------- trade-travel-sea
+  - { id: job/merchant,       domain: trade-travel-sea, kind: commercial, label: { ar: التاجر, en: Merchant (tajir), ur: تاجر }, roles: [merchant, businessman, entrepreneur], ar_keys: [التاجر, تاجراً, تاجرا, التجارة, رجل أعمال], first10: true }
+  - { id: job/attar,          domain: trade-travel-sea, kind: commercial, label: { ar: العطّار, en: Perfumer / druggist (attar), ur: عطار }, roles: [], ar_keys: [العطار, عطاراً, العطارة], broader: job/merchant }
+  - { id: job/sarraf,         domain: trade-travel-sea, kind: commercial, label: { ar: الصيرفي, en: Money-changer / banker (sarraf), ur: صراف }, roles: [banker], ar_keys: [الصيرفي, الصراف, الصرافة, الجهبذ, مصرفياً] }
+  - { id: job/dallal,         domain: trade-travel-sea, kind: commercial, label: { ar: الدلّال, en: Broker (dallal / simsar), ur: دلال }, roles: [], ar_keys: [الدلال, السمسار, دلالاً] }
+  - { id: job/slave-dealer,   domain: trade-travel-sea, kind: commercial, label: { ar: النخّاس, en: Slave dealer (nakhkhas), ur: غلاموں کا تاجر (نخاس) }, roles: [], ar_keys: [النخاس, النخاسة, تجارة الرقيق], note: "described, cited and never softened; the museum names the trade and attributes every judgement" }
+  - { id: job/caravan-leader, domain: trade-travel-sea, kind: commercial, label: { ar: قائد القافلة, en: Caravan leader, ur: قافلہ سالار }, roles: [], ar_keys: [قائد القافلة, أمير الركب, أمير الحاج, القافلة] }
+  - { id: job/guide,          domain: trade-travel-sea, kind: service, label: { ar: الدليل, en: Desert guide (dalil / khirrit), ur: رہبر (دلیل) }, roles: [guide], ar_keys: [دليلاً, الخريت, الدليل في] }
+  - { id: job/mutawwif,       domain: trade-travel-sea, kind: service, label: { ar: المطوّف, en: Pilgrim guide (mutawwif), ur: مطوف }, roles: [], ar_keys: [المطوف, مطوفاً, الطوافة] }
+  - { id: job/ship-captain,   domain: trade-travel-sea, kind: commercial, label: { ar: الربّان, en: Ship captain (rubban / nakhuda), ur: جہاز کا کپتان (ناخدا) }, roles: [navigator], ar_keys: [الربان, ربّاناً, الناخوذة, النوخذة, المعلم البحري] }
+  - { id: job/sailor,         domain: trade-travel-sea, kind: service, label: { ar: البحّار, en: Sailor (bahhar), ur: ملاح }, roles: [], ar_keys: [البحار, بحاراً, الملاح, النوتي] }
+  - { id: job/pearl-diver,    domain: trade-travel-sea, kind: craft, label: { ar: الغوّاص, en: Pearl diver (ghawwas), ur: غوطہ خور (موتی) }, roles: [], ar_keys: [الغواص, الغوص, اللؤلؤ] }
+  - { id: job/traveller,      domain: trade-travel-sea, kind: scholarly, label: { ar: الرحّالة, en: Traveller (rahhala), ur: سیاح }, roles: [traveler, traveller, explorer], ar_keys: [الرحالة, رحالة, رحلته, الرحلة] }
+  - { id: job/porter,         domain: trade-travel-sea, kind: service, label: { ar: الحمّال, en: Porter (hammal), ur: مزدور (حمال) }, roles: [], ar_keys: [الحمال, حمالاً] }
+  # ---------------------------------------------------------------- war-command
+  - { id: job/commander,      domain: war-command, kind: military, label: { ar: القائد, en: Military commander (qa'id), ur: سپہ سالار }, roles: [general, commander, military-commander, military-leader, military leader], ar_keys: [القائد, قائداً, قائد الجيش, أمير الجيش] }
+  - { id: job/soldier,        domain: war-command, kind: military, label: { ar: الجندي, en: Soldier / warrior, ur: سپاہی }, roles: [warrior], ar_keys: [الجندي, جندياً, المقاتل, فارساً] }
+  - { id: job/admiral,        domain: war-command, kind: military, label: { ar: أمير البحر, en: Admiral (amir al-bahr / kapudan), ur: امیر البحر }, roles: [admiral, naval-commander], ar_keys: [أمير البحر, القبودان, قبطان باشا, الأسطول], broader: job/commander }
+  - { id: job/corsair,        domain: war-command, kind: military, label: { ar: الغازي البحري, en: Corsair (sea ghazi), ur: بحری غازی }, roles: [corsair], ar_keys: [القرصان, القرصنة, رياس البحر] }
+  - { id: job/ghazi,          domain: war-command, kind: military, label: { ar: الغازي المرابط, en: Frontier warrior (ghazi / murabit), ur: غازی }, roles: [], ar_keys: [الغازي, المرابط, الثغور, الرباط] }
+  - { id: job/mamluk,         domain: war-command, kind: military, label: { ar: المملوك, en: Military slave (mamluk / ghulam), ur: مملوک (غلام سپاہی) }, roles: [], ar_keys: [مملوكاً, الغلمان, غلاماً تركياً] }
+  - { id: job/janissary,      domain: war-command, kind: military, label: { ar: الإنكشاري, en: Janissary (yeniçeri), ur: ینی چری }, roles: [], ar_keys: [الإنكشاري, الإنكشارية, اليكجرية] }
+  # ---------------------------------------------------------------- media-performance
+  - { id: job/musician,       domain: media-performance, kind: artistic, label: { ar: الموسيقي, en: Musician, ur: موسیقار }, roles: [musician], ar_keys: [الموسيقي, موسيقياً, العود, العازف] }
+  - { id: job/composer,       domain: media-performance, kind: artistic, label: { ar: الملحّن, en: Composer / songwriter, ur: موسیقی ساز }, roles: [composer, songwriter, lyricist], ar_keys: [الملحن, ملحناً, التلحين] }
+  - { id: job/singer,         domain: media-performance, kind: artistic, label: { ar: المغنّي, en: Singer, ur: گلوکار }, roles: [singer, rapper], ar_keys: [المغني, مغنياً, المطرب, المطربة, القيان, الغناء] }
+  - { id: job/actor,          domain: media-performance, kind: modern-profession, label: { ar: الممثّل, en: Actor, ur: اداکار }, roles: [actor, actress], ar_keys: [الممثل, ممثلاً, الممثلة, التمثيل] }
+  - { id: job/jester,         domain: media-performance, kind: artistic, label: { ar: المضحك, en: Jester / wit, ur: مسخرہ (درباری) }, roles: [jester, wit], ar_keys: [المضحك, مهرج, البهلول, ظريف] }
+  - { id: job/comedian,       domain: media-performance, kind: modern-profession, label: { ar: الكوميدي, en: Comedian, ur: مزاحیہ فنکار }, roles: [comedian], ar_keys: [الكوميدي, كوميدياً], broader: job/jester }
+  - { id: job/hakawati,       domain: media-performance, kind: artistic, label: { ar: الحكواتي, en: Storyteller (hakawati), ur: قصہ گو (حکواتی) }, roles: [], ar_keys: [الحكواتي, الحكايات الشعبية] }
+  - { id: job/film-director,  domain: media-performance, kind: modern-profession, label: { ar: المخرج, en: Film director, ur: فلم ہدایت کار }, roles: [film-director, director, filmmaker], ar_keys: [المخرج, مخرجاً, الإخراج] }
+  - { id: job/producer,       domain: media-performance, kind: modern-profession, label: { ar: المنتج, en: Producer, ur: پروڈیوسر }, roles: [producer], ar_keys: [المنتج, منتجاً] }
+  - { id: job/screenwriter,   domain: media-performance, kind: modern-profession, label: { ar: كاتب السيناريو, en: Screenwriter, ur: اسکرین رائٹر }, roles: [screenwriter], ar_keys: [السيناريو] }
+  - { id: job/journalist,     domain: media-performance, kind: modern-profession, label: { ar: الصحفي, en: Journalist / editor, ur: صحافی }, roles: [journalist, editor], ar_keys: [الصحفي, صحفياً, الصحافة, رئيس تحرير, محرراً] }
+  - { id: job/presenter,      domain: media-performance, kind: modern-profession, label: { ar: المذيع, en: Broadcaster / presenter, ur: میزبان (براڈکاسٹر) }, roles: [presenter, streamer], ar_keys: [المذيع, مذيعاً, مقدم برامج, الإذاعة] }
+  # ---------------------------------------------------------------- sport
+  - { id: job/athlete,        domain: sport, kind: modern-profession, label: { ar: الرياضي, en: Athlete, ur: کھلاڑی }, roles: [athlete, footballer, basketball player, boxer, swimmer, fencer, sprinter, long-distance runner, weightlifter, squash player, taekwondo athlete, karate athlete, mixed martial artist, racing driver, motorcycle racer, freediver, competition climber, mountaineer, sport shooter, breakdancer], ar_keys: [لاعب كرة, الرياضي, الأولمبياد] }
+  - { id: job/wrestler,       domain: sport, kind: artistic, label: { ar: المصارع, en: Wrestler (pehlivan), ur: پہلوان }, roles: [wrestler], ar_keys: [المصارع, المصارعة, بهلوان], broader: job/athlete }
+  - { id: job/archer,         domain: sport, kind: military, label: { ar: الرامي, en: Archer (rami), ur: تیر انداز }, roles: [archer], ar_keys: [الرامي, الرماية, رمي السهام, النشاب], broader: job/athlete }
+  - { id: job/horseman,       domain: sport, kind: military, label: { ar: الفارس, en: Horseman (faris / furusiyya), ur: شہسوار }, roles: [], ar_keys: [الفروسية, فارساً مشهوراً, سباق الخيل], broader: job/athlete }
+  - { id: job/coach,          domain: sport, kind: modern-profession, label: { ar: المدرّب, en: Coach, ur: کوچ }, roles: [coach, trainer], ar_keys: [المدرب, مدرباً] }
+  - { id: job/sports-administrator, domain: sport, kind: modern-profession, label: { ar: الإداري الرياضي, en: Sports administrator, ur: کھیل منتظم }, roles: [sports administrator, basketball executive], ar_keys: [الاتحاد الرياضي, اللجنة الأولمبية] }
+  # ---------------------------------------------------------------- patronage-public-life
+  - { id: job/patron,         domain: patronage-public-life, kind: office, label: { ar: الراعي, en: Patron, ur: سرپرست }, roles: [patron, scholar-patron], ar_keys: [راعياً للعلماء, رعى العلماء, الرعاية] }
+  - { id: job/waqif,          domain: patronage-public-life, kind: office, label: { ar: الواقف, en: Waqf founder (waqif), ur: واقف }, roles: [], ar_keys: [الواقف, أوقف, وقفية, أوقافاً] }
+  - { id: job/philanthropist, domain: patronage-public-life, kind: modern-profession, label: { ar: المحسن, en: Philanthropist, ur: مخیر }, roles: [philanthropist], ar_keys: [المحسن, الخيرية, فاعل خير], broader: job/patron }
+  - { id: job/activist,       domain: patronage-public-life, kind: modern-profession, label: { ar: الناشط, en: Activist, ur: سرگرم کارکن }, roles: [activist], ar_keys: [الناشط, ناشطاً, الناشطة] }
+  # ---------------------------------------------------------------- land-water (proposed domain)
+  - { id: job/farmer,         domain: land-water, kind: craft, label: { ar: الفلاح, en: Farmer (fallah), ur: کسان }, roles: [farmer], ar_keys: [الفلاح, فلاحاً, الزراعة, مزارعاً] }
+  - { id: job/herder,         domain: land-water, kind: craft, label: { ar: الراعي للماشية, en: Herder (ra'i), ur: چرواہا }, roles: [], ar_keys: [راعي غنم, رعى الغنم, الرعاة, راعياً للإبل] }
+  - { id: job/gardener,       domain: land-water, kind: craft, label: { ar: البستاني, en: Gardener (bustani), ur: مالی }, roles: [], ar_keys: [البستاني, البساتين, الحدائق] }
+  - { id: job/muqanni,        domain: land-water, kind: craft, label: { ar: المقنّي, en: Qanat digger / water master (muqanni), ur: کاریز کھودنے والا (مقنی) }, roles: [], ar_keys: [المقني, القناة, القنوات, قناطر الماء, الري] }
+  - { id: job/fisherman,      domain: land-water, kind: craft, label: { ar: الصيّاد, en: Fisherman / hunter (sayyad), ur: ماہی گیر }, roles: [], ar_keys: [الصياد, صياداً, الصيد] }
+  - { id: job/falconer,       domain: land-water, kind: craft, label: { ar: البيزار, en: Falconer (bayzar), ur: باز بان }, roles: [], ar_keys: [البيزار, البيزرة, الصقور] }
+  - { id: job/camel-driver,   domain: land-water, kind: service, label: { ar: الجمّال, en: Camel driver (jammal), ur: ساربان }, roles: [], ar_keys: [الجمال, جمالاً, الجمّال] }
