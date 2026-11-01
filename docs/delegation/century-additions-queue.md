@@ -801,11 +801,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Kenan Sofuoğlu — 1984–Living
 - [x] Toprak Razgatlıoğlu — 1996–Living
 - [x] Lando Norris (Contemporary Motorsport) — 1999–Living
-- [ ] Rio Haryanto — 1993–Living
-- [ ] Alex Yoong — 1976–Living
-- [ ] Jazeman Jaafar — 1992–Living
-- [ ] Hafizh Syahrin — 1994–Living
-- [ ] Sheikh Hasher Al Maktoum — 1985–Living
+- [x] Rio Haryanto — 1993–Living
+- [x] Alex Yoong — 1976–Living
+- [x] Jazeman Jaafar — 1992–Living
+- [x] Hafizh Syahrin — 1994–Living
+- [x] Sheikh Hasher Al Maktoum — 1985–Living
 - [ ] Khaled Al Qubaisi — 1975–Living
 - [ ] Yazeed Al-Rajhi — 1981–Living
 - [ ] Reema Juffali — 1992–Living

@@ -1,0 +1,37 @@
+id: person/alex-yoong
+class: person
+label: { ar: "أليكس يونغ", en: "Alex Yoong", ur: "ایلکس یونگ" }
+names:
+  - { value: "Alex Yoong", kind: full }
+  - { value: "Alexander Charles Yoong Loong", kind: full }
+  - { value: "أليكس يونغ", kind: full }
+gender: male
+summary:
+  ar: "سائق سباقات ومعلّق ماليزي، وُلد في كوالالمبور سنة 1976. أول ماليزي يشارك في الفورمولا 1، مع فريق ميناردي في 2001–2002، ثم فاز بثلاثة سباقات لفريق ماليزيا في سلسلة A1 غراند بري."
+  en: "Malaysian racing driver and broadcaster, born in Kuala Lumpur in 1976. The first Malaysian to race in Formula One, with Minardi in 2001–2002, he later won three races for A1 Team Malaysia in the A1 Grand Prix series."
+  ur: "ملائیشیائی ریسنگ ڈرائیور اور براڈکاسٹر، جو 1976 میں کوالالمپور میں پیدا ہوئے۔ فارمولا 1 میں ریس کرنے والے پہلے ملائیشیائی، 2001–2002 میں مینارڈی کے ساتھ؛ بعد میں انہوں نے A1 گراں پری سیریز میں ٹیم ملائیشیا کے لیے تین ریسز جیتیں۔"
+roles: [racing driver]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1976-07-20"
+  hijri: "1396"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 20 July 1976 at the Sambhi Clinic in Kuala Lumpur. No place entity for Kuala Lumpur exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1396 is the tabular conversion of 20 July 1976 and is marked derived."
+  sources: [source/wikipedia-alex-yoong-en, source/wikipedia-alex-yoong-ms, source/wikipedia-alex-yoong-ar, source/wikidata-alex-yoong]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Malay or Arabic articles names a religion for him, and Wikidata records no religion statement (no P140). His parentage — a Malaysian Chinese father and an English mother — is a matter of descent, not attestation, and is not used as evidence either way. Recorded as unknown on absence of attestation, unflagged; no affiliation is asserted."
+    sources: [source/wikipedia-alex-yoong-en, source/wikipedia-alex-yoong-ms, source/wikipedia-alex-yoong-ar, source/wikidata-alex-yoong]
+external_ids: { wikidata: "Q172006" }
+sources: [source/wikipedia-alex-yoong-en, source/wikipedia-alex-yoong-ms, source/wikipedia-alex-yoong-ar, source/wikidata-alex-yoong]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377737532), Malay Wikipedia (revision 6594409), Arabic Wikipedia (revision 75849958) and Wikidata Q172006 (item revision 2533144201, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-149a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
