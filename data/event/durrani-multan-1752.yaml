@@ -1,0 +1,23 @@
+id: event/durrani-multan-1752
+class: event
+kind: conquest
+label: { ar: "تنازل المغول لأحمد شاه الدراني عن صوبتي لهاور والملتان ١٧٥٢م", en: "The Mughals cede Lahore and Multan to Ahmad Shah Durrani, 1752" }
+summary:
+  ar: "في سنة ١٧٥٢م ألزم أحمد شاه الدراني الإمبراطور المغولي الضعيف بالتنازل له عن صوبتي لهاور والملتان، وكانت السمة الغالبة للعقود التالية حروباً مع السيخ انتهت بأخذ رانجيت سينغ المدينة سنة ١٨١٨م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "In 1752 Ahmad Shah Durrani forced the feeble Mughal emperor to cede to him the subas of Lahore and Multan; the following decades were dominated by warfare with the Sikhs that culminated in Ranjit Singh's conquest of the city in 1818 {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "1752ء میں احمد شاہ درانی نے کمزور مغل بادشاہ کو لاہور اور ملتان کی صوبے اپنے حوالے کرنے پر مجبور کیا؛ اگلی دہائیوں میں سیخوں سے جنگیں ہوئیں جن کا اختتام 1818ء میں رنجیت سنگھ کے شہر پر قبضے پر ہوا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1752", hijri: "1165", calendar: julian, precision: year, status: tradition, derived: true, note: "التنازل عن الصوبتين ١٧٥٢م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-shah-durrani, role: "الفاتح الدراني", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN, p. 603 (PDF pages) — the 1752 cession of the Lahore and Multan subas"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

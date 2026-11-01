@@ -1,0 +1,23 @@
+id: event/ghurid-multan-571
+class: event
+kind: conquest
+label: { ar: "استخلاص معز الدين الغوري الملتان من أيدي القرامطة", en: "Mu'izz al-Din wrests Multan from the Qarmatians" }
+summary:
+  ar: "في حملته الأولى إلى الهند قاد معز الدين محمد بن سام الغوري جيشه سنة ٥٧١هـ/١١٧٥م فأخرج الحكام الإسماعيليين من الملتان ووضع عليها والياً من أهل السنة وافتتح أوج {cite:encyclopaedia-of-islam-2 vol. 7 p. 461}. وتذكر المعارف في موضع آخر أنه فتح المدينة سنة ٥٧٠هـ/١١٧٤-١١٧٥م و«استخلص ملتان من أيدي الكرامطة» كما يقول الجوزجاني {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "On his first Indian expedition, in 571/1175, Mu'izz al-Din Muhammad ibn Sam of Ghur drove out the Ismaili rulers of Multan, installed an orthodox governor over the province and captured Uch {cite:encyclopaedia-of-islam-2 vol. 7 p. 461}. Elsewhere the Encyclopaedia dates the conquest 570/1174-5 and quotes Juzjani: he 'extracted Multan from the hands of the Karmatis' {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "اپنی پہلی ہندوستانی مہم میں معز الدین محمد بن سام غوری نے 571ھ/1175ء میں ملتان کے اسماعیلی حکمرانوں کو بے دخل کیا، صوبے پر ایک سنی والی مقرر کیا اور اُچ فتح کی {cite:encyclopaedia-of-islam-2 vol. 7 p. 461}۔ جایی مضامین میں یہ فتح 570ھ/1174-75ء درج ہے اور جوزجانی کے لفظوں میں اس نے «ملتان کو کرامطہ کے ہاتھ سے نکالا» {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+date:
+  start: { edtf: "1175", hijri: "0571", calendar: julian, precision: year, status: tradition, derived: true, note: "حملته الأولى إلى الهند سنة ٥٧١هـ/١١٧٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 461}؛ وتورد المعارف في موضع آخر ٥٧٠هـ/١١٧٤-١١٧٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shihab-al-din-ghuri, role: "القائد الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7: MUHAMMAD b. SAM p. 461 and MULTĀN p. 603 (PDF pages)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
