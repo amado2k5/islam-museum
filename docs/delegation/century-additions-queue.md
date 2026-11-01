@@ -855,11 +855,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nimah Ismail Nawwab — 1960–Living
 - [x] Maha Akhtar — 1966–Living
 - [x] Layla AlAmmar — 1982–Living
-- [ ] Zulifikar Ghose — 1935–2022
-- [ ] Bapsi Sidhwa (Contemporary) — 1938–Living
-- [ ] Mohsin Hamid — 1971–Living
-- [ ] Kamila Shamsie — 1973–Living
-- [ ] HM Naqvi — 1973–Living
+- [x] Zulifikar Ghose — 1935–2022
+- [x] Bapsi Sidhwa (Contemporary) — 1938–Living
+- [x] Mohsin Hamid — 1971–Living
+- [x] Kamila Shamsie — 1973–Living
+- [x] HM Naqvi — 1973–Living
 - [ ] Daniyal Mueenuddin — 1963–Living
 - [ ] Mohammed Hanif — 1965–Living
 - [ ] Fatima Bhutto — 1982–Living
