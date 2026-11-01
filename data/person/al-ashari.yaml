@@ -1,23 +1,42 @@
 id: person/al-ashari
 class: person
-label: { ar: "أبو الحسن الأشعري", en: "Abu al-Hasan al-Ash'ari" }
+label: { ar: "أبو الحسن الأشعري", en: "Abu al-Hasan al-Ash'ari", ur: "ابو الحسن اشعری" }
 names:
   - { kind: full, lang: ar, value: "أبو الحسن علي بن إسماعيل الأشعري" }
+  - { kind: full, lang: ar, value: "علي بن إسماعيل بن إسحاق بن سالم الأشعري اليماني البصري" }
+aliases: [person/al-ashari-ali-ibn-ismail]   # same man (born 260/died 324 card merged here, 2026-11-01)
 gender: male
 roles: [scholar, theologian]
 traditions: [sunni]
+born: { edtf: "0874~", hijri: "0260", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده بالبصرة سنة ستين ومائتين، وقيل سنة سبعين {cite:siyar-alam-nubala 15/85}؛ ٢٦٠هـ/٨٧٣-٨٧٤م {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}؛ التحويل مشتق.", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+died: { edtf: "0936~", hijri: "0324", calendar: julian, precision: year, status: tradition, derived: true, note: "مات ببغداد سنة أربع وعشرين وثلاثمائة {cite:siyar-alam-nubala 15/86}؛ ٣٢٤هـ/٩٣٥-٩٣٦م {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}؛ التحويل مشتق.", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "متكلم من أهل السنة، تُنسب إليه الأشعرية، صاحب «مقالات الإسلاميين» الذي عرض فيه قول أهل الحديث والسنة وقال إنه يذهب إليه، وتصفه طبعة الكتاب بأنه شيخ أهل السنة والجماعة. وعند ابن النديم باسمه أبو الحسن علي بن إسماعيل بن أبي بشر الأشعري من أهل البصرة وكان أولا معتزليا ثم تاب من القول بالعدل وخلق القرآن في المسجد الجامع ببصرة يوم الجمعة رقى كرسيا ونادى بأعلى صوته من عرفني فقد عرفني ومن لم يعرفني فأنا أعرفه نفسي أنا فلان بن فلان كنت أقول بخلق القرآن وأن الله لا يرى بالأبصار وأن أفعال الشر أنا أفعلها وأنا تائب مقلع معتقد للرد على المعتزلة فخرج بفضائحهم ومعايبهم وكان فيه دعابة ومزح كبير، وله كتاب اللمع وكتاب الموجز وكتاب إيضاح البرهان وكتاب التبيين عن أصول الدين وكتاب الشرح والتفصيل في الرد على أهل الإفك والتضليل {cite:fihrist-ibn-al-nadim p. 257}"
-  en: "A Sunni theologian to whom the Ash'ari school is attributed, author of Maqalat al-Islamiyyin in which he sets out the position of the hadith scholars and Ahl al-Sunna and says he holds it; the edition of the book calls him the shaykh of Ahl al-Sunna wa'l-Jama'a."
+  ar: "متكلم من أهل السنة، تُنسب إليه الأشعرية، صاحب «مقالات الإسلاميين» الذي عرض فيه قول أهل الحديث والسنة وقال إنه يذهب إليه، وتصفه طبعة الكتاب بأنه شيخ أهل السنة والجماعة. وُلد بالبصرة سنة ٢٦٠هـ/٨٧٣-٨٧٤م، وكان من أجود تلاميذ أبي علي الجبائي شيخ معتزلة البصرة حتى تاب من الاعتزال سنة ٣٠٠هـ وأعلن ذلك في جامع البصرة، ثم انتقل في أواخر حياته إلى بغداد ومات بها سنة ٣٢٤هـ/٩٣٥-٩٣٦م {cite:siyar-alam-nubala 15/85-86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}."
+  en: "A Sunni theologian to whom the Ash'ari school is attributed, author of Maqalat al-Islamiyyin in which he sets out the position of the hadith scholars and Ahl al-Sunna and says he holds it; the edition of the book calls him the shaykh of Ahl al-Sunna wa'l-Jama'a. Born at Basra in 260/873-4, he was among the best pupils of Abu Ali al-Jubba'i, shaykh of the Basran Mu'tazila, until he renounced Mu'tazilism in 300 and proclaimed it in the Great Mosque of Basra; he moved to Baghdad late in life and died there in 324/935-6 {cite:siyar-alam-nubala 15/85-86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}."
+  ur: "اہلِ سنت کے متکلم جن کی طرف اشعریہ منسوب ہے، «مقالات الاسلامیین» کے مصنف جس میں انہوں نے اہلِ حدیث و سنت کا قول پیش کیا اور خود کو اسی کا قائل بتایا۔ وہ 260ھ/873-874ء کو بصرہ میں پیدا ہوئے، بصری معتزلہ کے شیخ ابو علی جبّائی کے بہترین شاگردوں میں تھے یہاں تک کہ 300ھ میں اعتزال سے توبہ کر کے بصرہ کی جامع مسجد میں اس کا اعلان کیا؛ آخری عمر میں بغداد منتقل ہوئے اور 324ھ/935-936ء کو وہیں فوت ہوئے {cite:siyar-alam-nubala 15/85-86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔"
 wings: [people]
 themes: [creed]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 faith:
   - { value: sunni, basis: documented, note: "The title page of the edition calls him the shaykh of Ahl al-Sunna wa'l-Jama'a and he ends the creed report by saying he holds it.", sources: [source/maqalat-islamiyyin] }
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
 relations:
-  - { type: authored, target: work/maqalat-islamiyyin, sources: [source/maqalat-islamiyyin] }
-provenance: { layer: own-research, source: "مقالات الإسلاميين، ج1 صفحة العنوان وص 350", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: ashari-1 }
+  - { type: born_in, target: place/basra, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+  - { type: died_in, target: place/baghdad, sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/al-jubbai, role: "أخذ عنه علم الكلام بالبصرة في مدة اعتزاله", sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/maqalat-islamiyyin, sources: [source/maqalat-islamiyyin, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-luma-ashari, sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala] }
+  - { type: authored, target: work/al-ibana-ashari, sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala] }
+  - { type: influenced, target: concept/ashariyya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-al-ashari-260, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/al-ashari-studies-jubbai-basra, role: "التلميذ", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-ashari-renounces-mutazila-300, role: "المعلن التوبة", sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-ashari-composes-works-basra, role: "المصنّف", sources: [source/siyar-alam-nubala, source/fihrist-ibn-al-nadim] }
+  - { type: participated_in, target: event/al-ashari-moves-baghdad, role: "المنتقل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-ashari-324, role: "المتوفى", sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+provenance: { layer: own-research, source: "مقالات الإسلاميين، ج1 صفحة العنوان وص 350؛ سير أعلام النبلاء 15/85-86؛ EI2 vol. 1 PDF p. 743 = printed p. 694؛ الفهرست ص 648-649؛ وفيات الأعيان (ترجمة الجبائي)", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: explorer-al-ashari-1 }
 external_ids: { wikidata: "Q316349" }
-sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; from the title page and the closing statement, undated (a second source is needed), no prose" }
+sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/wafayat-ayan]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); merged duplicate card person/al-ashari-ali-ibn-ismail and wired the six-event life journey" }
