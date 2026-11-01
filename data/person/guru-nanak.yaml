@@ -1,0 +1,62 @@
+id: person/guru-nanak
+class: person
+
+label: { ar: "غورو ناناك", en: "Guru Nanak", ur: "گرو نانک" }
+
+names:
+  - { value: "Guru Nanak", kind: full }
+  - { value: "ਗੁਰੂ ਨਾਨਕ", kind: full }
+  - { value: "Baba Nanak", kind: alternate }
+  - { value: "Nanak", kind: given }
+
+gender: male
+
+summary:
+  ar: "غورو ناناك (1469–1539)، مؤسس السيخية وأول غورواتها العشرة، وُلد في تالواندي (ننكانة صاحب اليوم) بالبنجاب ومات في كرتاربور التي أسسها. علّم وحدانية الله (إيك أونكار) والمساواة بين البشر، وألّف 974 ترنيمة محفوظة في الغورو غرانث صاحب. وتفاعل طوال حياته مع عالم الإسلام من حوله: تعلّم الفارسية والعربية عند مولوي، وعمل عند دولت خان لودي، ورافقه في أسفاره الموسيقي المسلم مردانا، وتنسب إليه حكايات الجانامساكي رحلات إلى مكة وبغداد — وهي روايات تقليدية متنازع في تاريخيتها — وتضمّن كتاب السيخ المقدس أبيات الصوفي المسلم فريد الدين غنج شكر. وهو هنا سجل لمعاصر مكرَّم تفاعل مع العالم الإسلامي، لا شخصية إسلامية."
+  en: "Guru Nanak (1469–1539), founder of Sikhism and the first of its ten Gurus, born at Talwandi (present-day Nankana Sahib) in the Punjab and died at Kartarpur, the town he founded. He taught Ik Onkar, the one God, and the equality of all people, and composed 974 hymns preserved in the Guru Granth Sahib. His life ran through the Muslim world around him: he studied Persian and Arabic under a maulvi, worked for Daulat Khan Lodi, was accompanied on his journeys by the Muslim musician Mardana, and is credited by the janamsakhi tradition — as tradition, its historicity disputed — with journeys to Mecca and Baghdad; the Sikh scripture also preserves the verses of the Muslim Sufi Fariduddin Ganjshakar. He is recorded here as an honoured contemporary who interacted with the Muslim world, not as a Muslim figure."
+  ur: "گرو نانک (1469ء–1539ء)، سکھ مت کے بانی اور اس کے دس گروؤں میں سے پہلے، پنجاب کے تلوںڈی (موجودہ ننکانہ صاحب) میں پیدا ہوئے اور اپنے قائم کردہ قصبے کرتار پور میں وفات پائی۔ انھوں نے اک اونکار، یعنی ایک خدا، اور تمام انسانوں کی برابری کی تعلیم دی، اور ان کے 974 شبد گرو گرنتھ صاحب میں محفوظ ہیں۔ ان کی زندگی اپنے گرد و نواح کے مسلم عالم سے جڑی رہی: انھوں نے مولوی سے فارسی اور عربی پڑھی، دولت خان لودھی کے ہاں ملازمت کی، ان کے سفر میں مسلمان موسیقار مردانہ ان کے رفیق رہے، اور جنم ساکھی روایت — بطور روایت، جس کی تاریخیت متنازع ہے — ان کے مکہ اور بغداد کے سفر بیان کرتی ہے؛ سکھ صحیفے میں مسلم صوفی فرید الدین گنج شکر کے اشعار بھی محفوظ ہیں۔ وہ یہاں عالم اسلام سے تعامل رکھنے والے ایک معزز ہم عصر کے طور پر درج ہیں، کوئی مسلمان شخصیت نہیں۔"
+
+roles: [teacher, poet]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1469-04-15"
+  calendar: gregorian
+  precision: day
+  status: debated
+  hijri: "0873"
+  derived: true
+  note: "Born at Rai Bhoi di Talwandi, present-day Nankana Sahib in the Punjab; the place has no entity in the graph, so the birthplace is prose-only. Most janamsakhis and the Sikh records give the third day of the bright fortnight of Vaisakh, Samvat 1526, corresponding to 15 April 1469, the date the English and Urdu articles and Wikidata carry and the one internally consistent with the Sikh records' stated age at his death. A rival tradition, the Bala janamsakhi's Kattak full moon, corresponds to 20 October 1469 and is the date on which the community now celebrates the Gurpurab; Britannica prints the day with a question mark (April 15?, 1469). The Hijri year is derived from the date."
+  sources: [source/wikipedia-guru-nanak-en, source/wikipedia-guru-nanak-ur, source/britannica-guru-nanak, source/wikidata-guru-nanak]
+
+died:
+  edtf: "1539-09-22"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "0946"
+  derived: true
+  note: "Died at Kartarpur on the Ravi, the settlement he founded; the place has no entity in the graph, so the death place is prose-only. The Sikh records date the death to the tenth day of Asauj, Samvat 1596, corresponding to 22 September 1539, at the stated age of 70 years, 5 months and 7 days, which fits the April 1469 birth. Britannica notes the tradition divided between 1538 and 1539, with 1539 the more likely; Wikidata carries three death values — 22 September 1538, 7 May 1539 and 22 September 1539 — all preserved here, with 22 September 1539 the value built. The Hijri year is derived from the date."
+  sources: [source/wikipedia-guru-nanak-en, source/wikipedia-guru-nanak-ur, source/britannica-guru-nanak, source/wikidata-guru-nanak]
+
+faith:
+  - value: sikh
+    basis: documented
+    note: "Guru Nanak is the founder of Sikhism and the first of its ten Gurus, attested of the man himself by two independent sources: the English Wikipedia article, whose lead states that he 'is regarded as the founder of Sikhism and is the first of the ten Sikh gurus', and the Encyclopaedia Britannica biography, which states that he 'is revered as the founder and the first Guru of Sikhism'. Wikidata's religion value of Sikhism corroborates but is structured data and is not relied on. He is not recorded as a Muslim figure anywhere in this record: he stands in the museum as an honoured contemporary whose life and teaching interacted with the Muslim world, on the same footing as the lane's other honoured non-Muslim contemporaries."
+    sources: [source/wikipedia-guru-nanak-en, source/britannica-guru-nanak]
+
+external_ids: { wikidata: "Q83322" }
+
+sources:
+  - source/wikipedia-guru-nanak-en
+  - source/wikipedia-guru-nanak-ur
+  - source/britannica-guru-nanak
+  - source/wikidata-guru-nanak
+
+provenance:
+  layer: own-research
+  source: "The English and Urdu Wikipedia articles on Guru Nanak, the Encyclopaedia Britannica biography, and Wikidata Q83322, read in full (article texts; item claims) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. A flagged queue row, kept by the founder under the honoured-contemporary precedent: the queue itself annotates him 'founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike', and the record is built on the pattern of the lane's other honoured non-Muslim contemporaries (the modern list's Fairuz, Kepel and Gibran records) — a full account of the man and of his documented interactions with the Muslim world, with his own tradition's claims presented as his tradition's. The janamsakhi travel accounts, including Mecca and Baghdad, are handled throughout as tradition whose historicity modern scholarship disputes, following both the English article's and Britannica's own cautions; the interactions stated as documented are those anchored outside the journey legends — his maktab schooling, his service under Daulat Khan Lodi, the Muslim rababi Mardana's lifelong companionship, the verses of Fariduddin Ganjshakar preserved in the Guru Granth Sahib, the Babur Vani hymns on Babur's invasion, and the dispute of his Hindu and Muslim followers over his remains at Kartarpur, itself hagiography and labelled as such. No edges are written: neither Talwandi/Nankana Sahib nor Kartarpur has a place entity, and his parents, his wife, his sons and his successor Guru Angad have no records in the museum."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-156h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

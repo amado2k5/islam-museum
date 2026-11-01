@@ -1,0 +1,48 @@
+id: person/mahmud-shah-malacca
+class: person
+
+label: { ar: "محمود شاه سلطان ملقا", en: "Mahmud Shah of Malacca", ur: "محمود شاہ ملاکا" }
+
+names:
+  - { value: "Mahmud Shah ibni Almarhum Sultan Alauddin Riayat Shah", kind: full }
+  - { value: "محمود شاه ابن المرحوم السلطان علاء الدين رعاية شاه", kind: full }
+  - { value: "Mahmud Shah", kind: regnal }
+
+gender: male
+
+summary:
+  ar: "السلطان محمود شاه (ت. 1528)، ثامن سلاطين ملقا وآخرهم، وابن السلطان علاء الدين رعاية شاه وحفيد منصور شاه. نُصّب صغيرًا بعد موت أبيه فحكم من 1488، وكانت إدارة السلطنة بيد البنداهارا تون بيراك حتى وفاته سنة 1498. وفي عهده سقطت ملقا بيد البرتغاليين سنة 1511، ففرّ إلى بهاغ ثم اتخذ بنتن عاصمة وقاد منها اتحادًا ملايويًا مسلمًا هاجم ملقا المحتلة مرارًا بين 1515 و1519، حتى دمّر البرتغاليون بنتن سنة 1526 ففرّ إلى كمبار برياو ومات فيها سنة 1528."
+  en: "Sultan Mahmud Shah (d. 1528), eighth and last sultan of Malacca, son of Sultan Alauddin Riayat Shah and grandson of Mansur Shah. Installed as a youth on his father's death, he reigned from 1488, with the sultanate administered by the bendahara Tun Perak until the latter's death in 1498. Malacca fell to the Portuguese in 1511 in his reign; he fled to Pahang, made Bintan his capital and from there led a Malay Muslim confederacy that attacked occupied Malacca repeatedly between 1515 and 1519, until the Portuguese destroyed Bintan in 1526 and he fled to Kampar in Riau, where he died in 1528."
+  ur: "سلطان محمود شاہ (وفات 1528ء)، ملاکا کے آٹھویں اور آخری سلطان، سلطان علاء الدین رعایہ شاہ کے بیٹے اور منصور شاہ کے پوتے تھے۔ وہ اپنے والد کی وفات پر کم عمری میں تخت نشین ہوئے اور 1488ء سے حکمران رہے؛ بنداہارا تن پیراک 1498ء میں اپنی وفات تک سلطنت کا نظم و نسق چلاتے رہے۔ انہی کے عہد میں 1511ء میں ملاکا پرتگیزیوں کے ہاتھوں فتح ہوا؛ وہ پہانگ فرار ہوئے، بنتن کو اپنا دارالحکومت بنایا اور وہاں سے ایک ملائی مسلم اتحاد کی قیادت کرتے ہوئے 1515ء سے 1519ء کے درمیان مقبوضہ ملاکا پر بار بار حملے کیے، یہاں تک کہ 1526ء میں پرتگیزیوں نے بنتن تباہ کر دیا اور وہ ریاؤ کے کمبار فرار ہو گئے، جہاں 1528ء میں ان کی وفات ہوئی۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1528"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died in 1528 at Kampar in Riau, two years after the Portuguese destroyed his capital at Bintan: so the English article's narrative and Wikidata's death value. A bare year 1528 spans 934-935 AH, so no Hijri year is recorded. Kampar has no place entity in the graph, so the death place is prose-only."
+  sources: [source/wikipedia-mahmud-shah-malacca-en, source/wikidata-mahmud-shah-malacca]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a legal school or an order for Mahmud Shah. The English article's infobox carries a religion field of 'Sunni Islam', but it is an unsourced structured value, the article's prose nowhere discusses his religion, and Wikidata carries no religion value at all, so the single structured attestation settles nothing and is preserved here. His documented public life is stated in full in the prose: he ruled the Malay Muslim sultanate of Malacca and, after its fall, led the Malay Muslim confederacy based at Bintan against the Portuguese occupation."
+    sources: [source/wikipedia-mahmud-shah-malacca-en, source/wikidata-mahmud-shah-malacca]
+
+external_ids: { wikidata: "Q3244637" }
+
+sources:
+  - source/wikipedia-mahmud-shah-malacca-en
+  - source/wikidata-mahmud-shah-malacca
+
+provenance:
+  layer: own-research
+  source: "The English Wikipedia article on Mahmud Shah of Malacca and Wikidata Q3244637, read in full (article text and wikitext; item claims) at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. The founder commissioned this build in rulings packet #3 (Part 3, queue §H). Identity is pinned against the museum's other Mahmud Shahs (Bahmani, Sharqi and Tughlaq records), none of whom is this man. A commissioning expectation that he would prove a son of Mansur Shah of Malacca was not borne out: both sources make him the son of Alauddin Riayat Shah of Malacca, Mansur Shah's son, so he is Mansur's grandson, and because Alauddin Riayat Shah of Malacca has no record in the museum no child_of edge is written and the descent is prose-only; his sons Ahmad Shah, Muzaffar Shah I of Perak and Alauddin Riayat Shah II of Johor likewise have no records and are prose-only. No birth block is recorded: no source read gives a birth year (the English infobox's birth fields are blank), the queue figure of 1480 is attested nowhere, and his Wikidata item's stray 1400 is inconsistent with his installation as a youth in 1488."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-156h"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
