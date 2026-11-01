@@ -1,0 +1,36 @@
+id: person/servet-tazegul
+class: person
+label: { ar: "سيرفيت تازيغول", en: "Servet Tazegül", ur: "سروت تازے گل" }
+names:
+  - { value: "Servet Tazegül", kind: full }
+  - { value: "سيرفيت تازيغول", kind: full }
+gender: male
+summary:
+  ar: "لاعب تايكوندو تركي من أصل أذربيجاني، وُلد في نورنبرغ بألمانيا سنة 1988. بطل أولمبي في لندن 2012 في وزن 68 كغ، وصاحب برونزية بكين 2008، وبطل عالم وأوروبا."
+  en: "Turkish taekwondo practitioner of Azerbaijani origin, born in Nuremberg, Germany, in 1988. Olympic champion at London 2012 in the 68 kg class, bronze medallist at Beijing 2008, and a world and European champion."
+  ur: "ترک تائیکوانڈو کھلاڑی، آذربائیجانی نژاد، جو 1988 میں نیورمبرگ، جرمنی میں پیدا ہوئے۔ لندن 2012 کے اولمپک چیمپئن (68 کلوگرام)، بیجنگ 2008 کے کانسی تمغہ یافتہ، اور عالمی و یورپی چیمپئن۔"
+roles: [taekwondo athlete]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1988-09-26"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 26 September 1988 in Nuremberg, Germany. No place entity for Nuremberg exists, so no born_in relation is written. The Hijri year 1409 is the tabular conversion of 26 September 1988 and is marked derived."
+  sources: [source/wikipedia-servet-tazegul-en, source/wikipedia-servet-tazegul-tr, source/wikidata-servet-tazegul]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English or Turkish articles names a religion for him, and Wikidata records no religion statement. The Azerbaijani origin given by the English article is an ethnic origin, not a religious attestation. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-servet-tazegul-en, source/wikipedia-servet-tazegul-tr, source/wikidata-servet-tazegul]
+external_ids: { wikidata: "Q551641" }
+sources: [source/wikipedia-servet-tazegul-en, source/wikipedia-servet-tazegul-tr, source/wikidata-servet-tazegul]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1371529559), Turkish Wikipedia (revision 38219076) and Wikidata Q551641 (item revision 2547277679, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; no Arabic Wikipedia article on him exists (Arabic search returned no biography article); existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,37 @@
+id: person/nur-tatar
+class: person
+label: { ar: "نور تاتار", en: "Nur Tatar", ur: "نور تاتار" }
+names:
+  - { value: "Nur Tatar", kind: full }
+  - { value: "Nur Tatar Askari", kind: full }
+  - { value: "نور تاتار", kind: full }
+gender: female
+summary:
+  ar: "لاعبة تايكوندو تركية، وُلدت في وان سنة 1992. بطلة عالم وأوروبا، وصاحبة فضية وزن 67 كغ في أولمبياد لندن 2012 وذهبية ألعاب البحر الأبيض المتوسط 2013. تزوّجت سنة 2017 من لاعب التايكوندو الإيراني السابق مهران عسكري، وتُعرف أيضًا باسم نور تاتار عسكري."
+  en: "Turkish taekwondo practitioner, born in Van in 1992. A world and European champion, she won silver at 67 kg at the London 2012 Olympics and gold at the 2013 Mediterranean Games. She married the former Iranian taekwondo practitioner Mehran Askari in 2017 and is also known as Nur Tatar Askari."
+  ur: "ترک تائیکوانڈو کھلاڑی، جو 1992 میں وان میں پیدا ہوئیں۔ عالمی اور یورپی چیمپئن، لندن 2012 اولمپکس میں 67 کلوگرام کی چاندی اور 2013 بحیرہ روم کھیلوں کا طلائی تمغہ جیتا۔ 2017 میں سابق ایرانی تائیکوانڈو کھلاڑی مہران عسکری سے شادی کے بعد وہ نور تاتار عسکری کے نام سے بھی جانی جاتی ہیں۔"
+roles: [taekwondo athlete]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1992-08-16"
+  hijri: "1413"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 16 August 1992 in Van. No place entity for Van exists, so no born_in relation is written. The Hijri year 1413 is the tabular conversion of 16 August 1992 and is marked derived."
+  sources: [source/wikipedia-nur-tatar-en, source/wikipedia-nur-tatar-tr, source/wikidata-nur-tatar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English or Turkish articles names a religion for her, and Wikidata records no religion statement. The Kurdish descent given by the English article is an ethnic descent, not a religious attestation. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-nur-tatar-en, source/wikipedia-nur-tatar-tr, source/wikidata-nur-tatar]
+external_ids: { wikidata: "Q289248" }
+sources: [source/wikipedia-nur-tatar-en, source/wikipedia-nur-tatar-tr, source/wikidata-nur-tatar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1375149459), Turkish Wikipedia (revision 38295247) and Wikidata Q289248 (item revision 2548162847, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; no Arabic Wikipedia article on her exists (Arabic search returned no biography article); existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

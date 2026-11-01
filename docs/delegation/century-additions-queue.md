@@ -791,11 +791,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Taha Akgül — 1990–Living
 - [x] Rıza Kayaalp — 1989–Living
 - [x] Busenaz Sürmeneli — 1998–Living
-- [ ] Mete Gazoz — 1999–Living
-- [ ] Servet Tazegül — 1988–Living
-- [ ] Nur Tatar — 1992–Living
-- [ ] Merve Dinçel — 1999–Living
-- [ ] Yusuf Dikeç — 1973–Living
+- [x] Mete Gazoz — 1999–Living
+- [x] Servet Tazegül — 1988–Living
+- [x] Nur Tatar — 1992–Living
+- [x] Merve Dinçel — 1999–Living
+- [x] Yusuf Dikeç — 1973–Living
 - [ ] Şahika Ercümen — 1985–Living
 - [ ] Yasemin Dalkılıç — 1979–Living
 - [ ] Kenan Sofuoğlu — 1984–Living

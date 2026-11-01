@@ -1,0 +1,38 @@
+id: person/yusuf-dikec
+class: person
+label: { ar: "يوسف ديكيتش", en: "Yusuf Dikeç", ur: "یوسف دیکیچ" }
+names:
+  - { value: "Yusuf Dikeç", kind: full }
+  - { value: "يوسف ديكيتش", kind: full }
+gender: male
+summary:
+  ar: "رامٍ تركي في منافسات المسدس، وُلد في غوكسون سنة 1973. ضابط صف متقاعد في الدرك التركي وعضو نادي جاندرمة غوجو الرياضي، وبطل عالم وأوروبا مرات عدة، وصاحب فضية الفرق المختلطة في مسدس الهواء 10 أمتار في أولمبياد باريس 2024."
+  en: "Turkish pistol shooter, born in Göksun in 1973. A retired non-commissioned officer of the Turkish Gendarmerie and a member of the Jandarma Gücü sports club, he is a multiple world and European champion and a silver medallist in the 10 m air pistol mixed team event at Paris 2024."
+  ur: "ترک پسٹل شوٹر، جو 1973 میں گوکسون میں پیدا ہوئے۔ ترک جنڈرمیری کے ریٹائرڈ نان کمیشنڈ افسر اور جنڈرمہ گوچو اسپورٹس کلب کے رکن، متعدد بار عالمی اور یورپی چیمپئن، اور پیرس 2024 اولمپکس میں 10 میٹر ایئر پسٹل مکسڈ ٹیم ایونٹ میں چاندی کے تمغہ یافتہ۔"
+roles: [sport shooter]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1973-01-01"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 January 1973 in Taşoluk village, Göksun district, Kahramanmaraş Province. No place entity for Göksun exists, so no born_in relation is written. The Hijri year 1392 is the tabular conversion of 1 January 1973 and is marked derived."
+  sources: [source/wikipedia-yusuf-dikec-en, source/wikipedia-yusuf-dikec-tr, source/wikipedia-yusuf-dikec-ar, source/wikidata-yusuf-dikec]
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-yusuf-dikec-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Turkish or Arabic articles names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-yusuf-dikec-en, source/wikipedia-yusuf-dikec-tr, source/wikipedia-yusuf-dikec-ar, source/wikidata-yusuf-dikec]
+external_ids: { wikidata: "Q8061940" }
+sources: [source/wikipedia-yusuf-dikec-en, source/wikipedia-yusuf-dikec-tr, source/wikipedia-yusuf-dikec-ar, source/wikidata-yusuf-dikec]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382609109), Turkish Wikipedia (revision 38355393), Arabic Wikipedia (revision 76253431) and Wikidata Q8061940 (item revision 2532073513, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

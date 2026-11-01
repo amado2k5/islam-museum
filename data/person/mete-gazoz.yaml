@@ -1,0 +1,38 @@
+id: person/mete-gazoz
+class: person
+label: { ar: "ميتي غازوز", en: "Mete Gazoz", ur: "میتے غازوز" }
+names:
+  - { value: "Mete Gazoz", kind: full }
+  - { value: "ميتي غازوز", kind: full }
+gender: male
+summary:
+  ar: "رامٍ تركي بالقوس والسهم (القوس المنحني)، وُلد في إسطنبول سنة 1999. بطل أولمبي في طوكيو 2020، حيث منح تركيا أول ميدالية أولمبية في الرماية بالقوس، وصاحب برونزية الفرق في باريس 2024 وبطل العالم سنة 2023."
+  en: "Turkish recurve archer, born in Istanbul in 1999. Olympic champion at Tokyo 2020, where he won Turkey's first Olympic medal in archery, he also took team bronze at Paris 2024 and the world title in 2023."
+  ur: "ترک تیر انداز (ریکرو)، جو 1999 میں استنبول میں پیدا ہوئے۔ ٹوکیو 2020 کے اولمپک چیمپئن، جہاں انہوں نے ترکی کو تیر اندازی میں اس کا پہلا اولمپک تمغہ دلایا، پیرس 2024 میں ٹیم کانسی اور 2023 میں عالمی خطاب کے حامل۔"
+roles: [archer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1999-06-08"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 8 June 1999 in Istanbul. The Hijri year 1420 is the tabular conversion of 8 June 1999 and is marked derived."
+  sources: [source/wikipedia-mete-gazoz-en, source/wikipedia-mete-gazoz-tr, source/wikipedia-mete-gazoz-ar, source/wikidata-mete-gazoz]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-mete-gazoz-en, source/wikidata-mete-gazoz] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Turkish or Arabic articles names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-mete-gazoz-en, source/wikipedia-mete-gazoz-tr, source/wikipedia-mete-gazoz-ar, source/wikidata-mete-gazoz]
+external_ids: { wikidata: "Q20988356" }
+sources: [source/wikipedia-mete-gazoz-en, source/wikipedia-mete-gazoz-tr, source/wikipedia-mete-gazoz-ar, source/wikidata-mete-gazoz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1375077515), Turkish Wikipedia (revision 38078586), Arabic Wikipedia (revision 76253399) and Wikidata Q20988356 (item revision 2514570013, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-147a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
