@@ -1,0 +1,321 @@
+name: Deploy islam.museum (reusable, one environment)
+
+# The one deploy procedure, shared by the two deploy workflows: deploy.yml (production) and
+# deploy-uat.yml (UAT). Nobody starts this file directly; it has no trigger of its own.
+#
+# One build, two environments (founder, 1 November 2026). Both workflows deploy the same `dist`
+# artifact of the same build run (build.yml, "Build islam.museum", built from main) with the same
+# steps: nothing is rebuilt and no file differs between the environments. What differs is only
+# where it goes, and that comes from the GitHub Environment named by `environment`:
+#
+#   variable            production             uat
+#   R2_BUCKET           islam-museum-search    islam-museum-uat
+#   WRANGLER_ENV        (empty: top level)     uat        -> wrangler deploy --env
+#   PAGES_PROJECT       islam-museum           islam-museum-uat
+#   SITE_URL            https://islam.museum   https://uat.islam.museum
+#   SYNC_WORKER_COUNT   7                      7
+#   secret              R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY (S3 keys scoped to that bucket),
+#                       R2_SYNC_TOKEN (that environment's sync Workers' bearer token).
+#                       CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID are repository secrets
+#                       shared by both.
+#
+# The Worker names follow WRANGLER_ENV too (wrangler.production.toml `[env.uat]`):
+# islam-museum-site[-uat], islam-museum-r2-sync[-uat][-N]. The "Resolve the environment" step
+# refuses to run UAT against any production name, so a UAT deploy can never write to
+# islam-museum-search, islam-museum-site, the production sync Workers or the islam-museum Pages
+# project; production is deployed only by deploy.yml, which is the founder's alone.
+#
+# A deploy does not build: it downloads the `dist` artifact of a build run. Empty build_run_id
+# means the latest successful build of main; a run id redeploys that build (nothing is sent to
+# R2 twice: the manifest diff finds no change but the deploy stamp, api/v1/meta/deploy.json).
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: "GitHub Environment to deploy to: production or uat."
+        required: true
+        type: string
+      build_run_id:
+        description: "Build run id to deploy. Empty: the latest successful build of main."
+        required: false
+        type: string
+        default: ""
+      seed:
+        description: "First publish into an empty bucket: record what is already there instead of failing on the missing manifest (publish.mjs --seed). Harmless once a manifest exists."
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    permissions:
+      contents: read
+      deployments: write
+      # Read another run's artifact.
+      actions: read
+    outputs:
+      sha: ${{ steps.build.outputs.sha }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # Founder's rule of 22 October 2026. Starting a workflow needs write access, which
+        # only the owner has today; this step keeps the rule if collaborators are ever added.
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Resolve the environment (and refuse a non-production deploy aimed at a production name)
+        id: env
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          WRANGLER_ENV: ${{ vars.WRANGLER_ENV }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SYNC_WORKER_COUNT: ${{ vars.SYNC_WORKER_COUNT }}
+          HAS_R2_KEYS: ${{ secrets.R2_ACCESS_KEY_ID != '' && secrets.R2_SECRET_ACCESS_KEY != '' }}
+          HAS_SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          fail() { echo "::error::$1"; exit 1; }
+          for v in R2_BUCKET PAGES_PROJECT SITE_URL; do
+            [ -n "${!v}" ] || fail "Environment \"$ENVIRONMENT\" has no variable $v. Set it in Settings → Environments → $ENVIRONMENT (tools/deploy/setup-uat.sh github)."
+          done
+          [ "$HAS_R2_KEYS" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY."
+          [ "$HAS_SYNC_TOKEN" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_SYNC_TOKEN."
+          count="${SYNC_WORKER_COUNT:-7}"
+          [[ "$count" =~ ^[1-9]$ ]] || fail "SYNC_WORKER_COUNT must be 1 to 9, got \"$count\"."
+          if [ "$ENVIRONMENT" = "production" ]; then
+            [ -z "$WRANGLER_ENV" ] || fail "production deploys the top-level wrangler environment; WRANGLER_ENV must be empty, got \"$WRANGLER_ENV\"."
+            [ "$R2_BUCKET" = "islam-museum-search" ] || fail "production publishes to islam-museum-search, not \"$R2_BUCKET\"."
+          else
+            # Everything a non-production environment touches carries its own name. Never a production one.
+            [ "$WRANGLER_ENV" = "$ENVIRONMENT" ] || fail "WRANGLER_ENV must equal the environment name \"$ENVIRONMENT\", got \"$WRANGLER_ENV\" (the Workers are named after it)."
+            [ "$R2_BUCKET" != "islam-museum-search" ] || fail "a $ENVIRONMENT deploy may not publish to the production bucket."
+            [ "$PAGES_PROJECT" != "islam-museum" ] || fail "a $ENVIRONMENT deploy may not deploy to the production Pages project."
+            case "$SITE_URL" in https://islam.museum*|https://www.islam.museum*) fail "a $ENVIRONMENT deploy may not name the production site." ;; esac
+          fi
+          suffix="${WRANGLER_ENV:+-$WRANGLER_ENV}"
+          {
+            echo "bucket=$R2_BUCKET"
+            echo "wrangler_env=$WRANGLER_ENV"
+            echo "pages_project=$PAGES_PROJECT"
+            echo "site_url=${SITE_URL%/}"
+            echo "sync_count=$count"
+            echo "sync_worker_base=islam-museum-r2-sync$suffix"
+            echo "site_worker=islam-museum-site$suffix"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Environment: $ENVIRONMENT"
+            echo
+            echo "- Site: $SITE_URL (Worker \`islam-museum-site$suffix\`)"
+            echo "- R2 bucket: \`$R2_BUCKET\` via $count sync Worker(s) \`islam-museum-r2-sync$suffix\`"
+            echo "- Pages project: \`$PAGES_PROJECT\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Find the build to deploy
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          REQUESTED: ${{ inputs.build_run_id }}
+        run: |
+          set -euo pipefail
+          fields=databaseId,headSha,headBranch,conclusion,createdAt,displayTitle,url,workflowName
+          if [ -n "$REQUESTED" ]; then
+            run=$(gh run view "$REQUESTED" --json "$fields")
+          else
+            run=$(gh run list --workflow build.yml --branch main --status success --limit 1 --json "$fields" | jq '.[0] // empty')
+            test -n "$run" || { echo "::error::No successful build of main yet. Run \"Build islam.museum\" (or push to main) first."; exit 1; }
+          fi
+          id=$(jq -r .databaseId <<<"$run")
+          sha=$(jq -r .headSha <<<"$run")
+          branch=$(jq -r .headBranch <<<"$run")
+          conclusion=$(jq -r .conclusion <<<"$run")
+          created=$(jq -r .createdAt <<<"$run")
+          title=$(jq -r .displayTitle <<<"$run")
+          url=$(jq -r .url <<<"$run")
+          workflow=$(jq -r .workflowName <<<"$run")
+          [ "$workflow" = "Build islam.museum" ] || { echo "::error::Run $id is \"$workflow\", not a build run."; exit 1; }
+          # A build run is successful only when its tests, its build and the keep-newest job all passed.
+          [ "$conclusion" = "success" ] || { echo "::error::Build run $id ended with \"$conclusion\", not success: its tests or build failed, so it is not deployable."; exit 1; }
+          [ "$branch" = "main" ] || { echo "::error::Build run $id built $branch, not main."; exit 1; }
+          # The artifact must still exist (retention-days in build.yml).
+          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name == "dist" and .expired == false) | .id' | grep -q . \
+            || { echo "::error::Build run $id has no live dist artifact (expired or never uploaded). Rebuild the commit with \"Build islam.museum\"."; exit 1; }
+          {
+            echo "run_id=$id"
+            echo "sha=$sha"
+            echo "created=$created"
+            echo "title=$title"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Deploying build $id"
+            echo
+            echo "- Build run: [$id]($url), built $created"
+            echo "- Commit: \`$sha\` — $title"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Checkout the built commit (Worker code and publish scripts of the same build)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: workers/r2-sync/package-lock.json
+      - name: Download the built site
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Stamp the deploy time (the landing page's "Last updated" line reads it)
+        # The only file a deploy adds to the build; it goes to R2 with the rest of api/ below.
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          ENVIRONMENT: ${{ inputs.environment }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist/api/v1/meta
+          jq -n --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --arg sha "$SHA" --argjson run "$RUN_ID" --arg env "$ENVIRONMENT" \
+            '{deployed_at: $t, commit: $sha, build_run: $run, environment: $env}' > dist/api/v1/meta/deploy.json
+          cat dist/api/v1/meta/deploy.json
+      - name: Install R2 sync Worker dependencies
+        run: npm ci --prefix workers/r2-sync
+      - name: Deploy R2 sync Workers (this environment's bucket, N copies)
+        id: r2_worker
+        working-directory: workers/r2-sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+          BASE: ${{ steps.env.outputs.sync_worker_base }}
+          COUNT: ${{ steps.env.outputs.sync_count }}
+        run: |
+          set -euo pipefail
+          # N identical Workers on this environment's bucket. Publish spreads archives across them.
+          # Production: islam-museum-r2-sync, -2 .. -7. UAT: islam-museum-r2-sync-uat, -uat-2 .. -uat-7.
+          urls=""
+          for i in $(seq 1 "$COUNT"); do
+            name="$BASE"; [ "$i" -gt 1 ] && name="$BASE-$i"
+            npx wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV" --name "$name" | tee deploy.log
+            url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+            test -n "$url"
+            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --env="$WRANGLER_ENV" --name "$name"
+            urls="${urls:+$urls,}$url"
+          done
+          echo "urls=$urls" >> "$GITHUB_OUTPUT"
+      - name: Build assets-only folder for the site Worker (no R2-served directories)
+        run: |
+          set -euo pipefail
+          rm -rf dist-assets && cp -r dist dist-assets
+          rm -rf dist-assets/ar dist-assets/en dist-assets/ur dist-assets/api dist-assets/pagefind-ar dist-assets/pagefind-en dist-assets/pagefind-ur
+          # Founder rule (28 Oct 2026): data, content, maps, images and video are served from R2, not from static assets.
+          rm -rf dist-assets/media dist-assets/edu dist-assets/timeline-data dist-assets/gift-shop dist-assets/brand dist-assets/openapi
+          rm -f dist-assets/sitemap*.xml dist-assets/feed.xml dist-assets/llms*.txt dist-assets/search-synonyms.*.json dist-assets/favicon* dist-assets/apple-touch-icon.png
+          echo "assets: $(find dist-assets -type f | wc -l) files"
+          node workers/site/scripts/bundle-rules.mjs
+      - name: Deploy site Worker (this environment's bucket)
+        working-directory: workers/site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+        # Assets go up before the HTML that references them is published below.
+        # Production: the Worker's own domain was attached in the dashboard and is not in the
+        # config. UAT: `[env.uat]` carries the uat.islam.museum Custom Domain, created on the
+        # first deploy.
+        run: ../r2-sync/node_modules/.bin/wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV"
+      - name: Publish pagefind indexes, API and HTML pages to R2 (zip archives via R2 sync Worker)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: ${{ steps.env.outputs.bucket }}
+          SYNC_URLS: ${{ steps.r2_worker.outputs.urls }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          # HTML pages (ar/, en/, ur/) are published to R2 for the site Worker, which serves
+          # the site. Pages no longer carries them (see the strip step below).
+          PUBLISH_HTML: "1"
+          # The manifest records the commit it describes: the built one, not this run's head.
+          GITHUB_SHA: ${{ steps.build.outputs.sha }}
+          SEED: ${{ inputs.seed }}
+        run: |
+          set -euo pipefail
+          seed=""; [ "$SEED" = "true" ] && seed="--seed"
+          # shellcheck disable=SC2086
+          node workers/r2-sync/batch/publish.mjs --dist dist $seed
+      - name: Strip R2-served dirs from Pages deployment
+        # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about
+        # 112,000. The site Worker serves every page from R2 and the rest from the assets
+        # layer, so Pages keeps only what the Worker does not serve.
+        run: rm -rf dist/ar dist/en dist/ur dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api dist/media dist/edu dist/timeline-data dist/gift-shop dist/brand dist/openapi && rm -f dist/sitemap*.xml dist/feed.xml dist/llms*.txt dist/search-synonyms.*.json dist/favicon* dist/apple-touch-icon.png
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
+          # The checkout above is a detached HEAD, so name the production branch and the
+          # built commit explicitly instead of letting wrangler read them from git.
+          command: pages deploy dist --project-name=${{ steps.env.outputs.pages_project }} --branch=main --commit-hash=${{ steps.build.outputs.sha }} --commit-dirty=false
+      - name: Smoke test the deployed site (informative; a non-200 is reported, not fatal)
+        env:
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          set -u
+          echo "### Smoke test: $SITE_URL" >> "$GITHUB_STEP_SUMMARY"
+          echo >> "$GITHUB_STEP_SUMMARY"
+          bad=0
+          for p in / /ar/ /en/ /ur/ /ar/person/muhammad/ /brand/logo-mark.svg /api/v1/meta/deploy.json /robots.txt; do
+            code=$(curl -s -o /dev/null -L -w '%{http_code}' --max-time 30 "$SITE_URL$p" || echo "000")
+            echo "- \`$p\` → $code" >> "$GITHUB_STEP_SUMMARY"
+            [ "$code" = "200" ] || bad=$((bad + 1))
+          done
+          [ "$bad" -eq 0 ] || echo "::warning::$bad of the smoke-test paths did not answer 200 on $SITE_URL (a new Custom Domain's DNS and certificate can take a few minutes on the first deploy)."
+      - name: Record what was deployed
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          TITLE: ${{ steps.build.outputs.title }}
+          CREATED: ${{ steps.build.outputs.created }}
+          ENVIRONMENT: ${{ inputs.environment }}
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          {
+            echo
+            echo "Deployed build **$RUN_ID** to **$ENVIRONMENT** ($SITE_URL): commit \`$SHA\` ($TITLE), built $CREATED."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  # Production only: pings IndexNow with the URLs changed in the deployed commit
+  # (scripts/indexnow.mjs), so Bing/Yandex pick up new and updated pages without waiting for
+  # a crawl. UAT is never announced to search engines (it is noindex throughout).
+  # Set the repository variable INDEXNOW to "off" to skip it.
+  notify-indexnow:
+    if: inputs.environment == 'production' && vars.INDEXNOW != 'off'
+    runs-on: ubuntu-latest
+    needs: deploy
+    permissions:
+      contents: read
+    steps:
+      - name: Check out the deployed commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.deploy.outputs.sha }}
+          # The previous commit is the cut-off for "changed".
+          fetch-depth: 2
+      - name: Submit changed URLs to IndexNow
+        run: node scripts/indexnow.mjs

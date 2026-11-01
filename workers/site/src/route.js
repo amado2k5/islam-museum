@@ -135,6 +135,42 @@ export function redirectTo(location, status) {
 // A rule target: kept as is when it is absolute (another host), otherwise a path.
 export const redirectLocation = (to) => (/^https?:\/\//.test(to) ? to : to.startsWith("/") ? to : `/${to}`);
 
+// Environments. The build is the same everywhere (one `dist` artifact, built from main), so the
+// few absolute production hostnames inside it (the /api/* rule in site/public/_redirects points at
+// api.islam.museum) are translated at serve time by the Worker's own configuration, never by a
+// different build. HOST_REWRITES is a comma-separated list of "from=to" host pairs set in the
+// wrangler environment (`[env.uat.vars]`); production leaves it unset, so nothing is rewritten there.
+export function parseHostRewrites(text) {
+  const map = new Map();
+  for (const pair of (text ?? "").split(",")) {
+    const [from, to] = pair.split("=").map((s) => s.trim().toLowerCase());
+    if (from && to) map.set(from, to);
+  }
+  return map;
+}
+
+// Rewrites the host of an absolute Location when it is listed; paths and other hosts are unchanged.
+export function rewriteHost(location, rewrites) {
+  if (!rewrites?.size || !/^https?:\/\//.test(location)) return location;
+  let url;
+  try {
+    url = new URL(location);
+  } catch {
+    return location;
+  }
+  const to = rewrites.get(url.hostname.toLowerCase());
+  if (!to) return location;
+  url.hostname = to;
+  return url.toString();
+}
+
+// A non-production environment must never be indexed: ROBOTS="disallow" in the wrangler
+// environment makes the Worker answer /robots.txt with a blanket Disallow and add an
+// X-Robots-Tag to every response. Production leaves ROBOTS unset and serves the site's own robots.txt.
+export const ROBOTS_DISALLOW_TEXT = "User-agent: *\nDisallow: /\n";
+export const ROBOTS_NOINDEX_TAG = "noindex, nofollow";
+export const robotsDisallowed = (env) => String(env?.ROBOTS ?? "").toLowerCase() === "disallow";
+
 // A language page whose "class/slug" is a former id (an alias in data/) redirects to the
 // current id in the same language: /ar/person/old-slug/ -> /ar/person/new-slug/.
 // Returns the path-only Location, or null when the path is not an alias.

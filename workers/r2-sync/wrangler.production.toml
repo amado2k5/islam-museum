@@ -21,3 +21,18 @@ ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,api/,ar/,en/,ur/,medi
 # Also allow the bucket-root data files listed in ROOT_FILES in src/index.js (sitemaps,
 # feed, llms.txt, search synonyms, favicons), which batch/publish.mjs uploads.
 ALLOW_ROOT_FILES = "true"
+
+# ---------------------------------------------------------------------------------------------
+# UAT environment (founder, 1 November 2026): the same sync Worker on the UAT bucket only.
+# deploy-uat.yml deploys it with `wrangler deploy --env uat --name islam-museum-r2-sync-uat[-N]`
+# (seven copies, like production); the production deploy (no --env) never reads this section.
+# Bindings and vars are not inherited by a wrangler environment, so they are stated again here.
+# The UAT publish writes through these Workers and the UAT S3 keys, which are scoped to this
+# bucket: nothing here can reach islam-museum-search.
+[[env.uat.r2_buckets]]
+binding = "SYNC_BUCKET"
+bucket_name = "islam-museum-uat"
+
+[env.uat.vars]
+ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,api/,ar/,en/,ur/,media/,edu/,timeline-data/,gift-shop/,brand/,openapi/"
+ALLOW_ROOT_FILES = "true"
