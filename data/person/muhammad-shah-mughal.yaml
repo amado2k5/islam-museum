@@ -1,0 +1,73 @@
+id: person/muhammad-shah-mughal
+class: person
+
+label: { ar: "ناصر الدين محمد شاه", en: "Muhammad Shah", ur: "محمد شاہ" }
+
+names:
+  - { value: "Nasir-ud-Din Muhammad Shah", kind: regnal }
+  - { value: "Abu al-Fath Roshan Akhtar Nasir-ud-Din Muhammad Shah", kind: full }
+  - { value: "Roshan Akhtar", kind: given }
+  - { value: "Sadrang", kind: pen }
+  - { value: "Rangeela", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "ناصر الدين محمد شاه (أغسطس 1702 – 26 أبريل 1748)، المولود روشن أختر، ثالث عشر أباطرة المغول في الهند (1719–1748). نصّبه السيدان برها ثم تخلّص منهما، وشهد عهده غزو نادر شاه ونهب دلهي سنة 1739 وتسارع انحسار الإمبراطورية، وكان راعيًا كبيرًا للفنون والموسيقى والشعر، ولُقّب بـ«رنغيلا» أي الملوّن."
+  en: "Nasir-ud-Din Muhammad Shah (August 1702 – 26 April 1748), born Roshan Akhtar, was the thirteenth Mughal emperor of India (1719–1748). Raised to the throne by the Sayyid Brothers, he freed himself of them, and his reign saw Nader Shah's invasion and the sack of Delhi in 1739 and the empire's accelerating decline. He was a great patron of the arts, music and poetry, and is remembered by his sobriquet Rangeela, the Colourful."
+  ur: "نصیر الدین محمد شاہ (اگست 1702ء – 26 اپریل 1748ء)، اصل نام روشن اختر، ہندوستان کے تیرھویں مغل بادشاہ تھے (1719ء–1748ء)۔ سید برادران نے انھیں تخت پر بٹھایا پھر وہ ان سے آزاد ہوئے؛ ان کے عہد میں نادر شاہ کا حملہ اور 1739ء میں دہلی کی تباہی ہوئی اور سلطنت کا زوال تیز ہو گیا۔ وہ فنون، موسیقی اور شاعری کے بڑے سرپرست تھے اور «رنگیلا» کے لقب سے یاد کیے جاتے ہیں۔"
+
+roles: [sultan]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1702-08"
+  calendar: gregorian
+  precision: month
+  status: debated
+  note: "The Arabic and Urdu articles and one of Wikidata's two birth statements give 17 August 1702; the English article and Wikidata's other statement give 7 August 1702. The month is built and both day readings preserved. His birthplace is given in the sources' structured data as Fatehpur Sikri, which has no place entity on main, so no born_in edge is written. No Hijri year is set at month precision."
+  sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikipedia-muhammad-shah-mughal-ar, source/wikipedia-muhammad-shah-mughal-ur, source/wikidata-muhammad-shah-mughal]
+
+died:
+  edtf: "1748-04-26"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English, Arabic and Urdu articles all give 26 April 1748; he died of grief in Delhi on news of the losses at the Battle of Manupur, and his tomb stands in the Nizamuddin Dargah complex there. Wikidata also carries a rival death statement of 16 April 1747, preserved here as the minority reading."
+  sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikipedia-muhammad-shah-mughal-ar, source/wikipedia-muhammad-shah-mughal-ur, source/wikidata-muhammad-shah-mughal]
+
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikidata-muhammad-shah-mughal] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. The
+      English article records his patronage of the arts and of
+      religious institutions for education, the first translations of
+      the Quran into simple Persian and Urdu made under his reign, and
+      the reintroduction of qawwali at his court — documented patronage
+      and court practice, none of which names the emperor's own school.
+      He ruled the Sunni Hanafi establishment of the Mughal empire,
+      dynastic context that never settles faith under the founder
+      rulings. Wikidata files his religion as Islam generically, a
+      structured statement that never settles faith. His faith is
+      therefore recorded as unknown.
+    sources: [source/wikipedia-muhammad-shah-mughal-en, source/wikipedia-muhammad-shah-mughal-ur, source/wikidata-muhammad-shah-mughal]
+
+external_ids: { wikidata: "Q558714" }
+
+sources:
+  - source/wikipedia-muhammad-shah-mughal-en
+  - source/wikipedia-muhammad-shah-mughal-ar
+  - source/wikipedia-muhammad-shah-mughal-ur
+  - source/wikidata-muhammad-shah-mughal
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378386012 of 4 October 2026), Arabic Wikipedia (revision 74224004 of 10 April 2026), Urdu Wikipedia (revision 11800497 of 18 August 2026) and Wikidata Q558714 (item revision 2553969868 of 6 October 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no record holds this emperor under this or any other slug (the six other Muhammad Shah records are other men), and his father Jahan Shah (Khujista Akhtar, Q4159991) has no record on main, so no child_of edge is written; the slug follows the aurangzeb-mughal and shah-jahan-mughal convention. The sources divide on his birth day (7 against 17 August 1702) and Wikidata carries a rival death year; both rivalries are preserved in the date notes."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

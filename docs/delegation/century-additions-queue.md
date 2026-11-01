@@ -1801,7 +1801,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Qırım Giray — 1717–1769
 - [x] Sheikh Mansur (Ushurma) — 1760–1794
 - [x] Timur Shah Durrani — 1748–1793
-- [ ] Liu Zhi — 1660–1739
+- [x] Liu Zhi — 1660–1739
 
 ## K. 626–725 additions (0)
 
@@ -1813,10 +1813,10 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 
 ## M. 1626–1725 additions (57)
 
-- [ ] Emperor Muhammad Shah — 1702–1748
-- [ ] Prince Murad Baksh — 1624–1661
-- [ ] Princess Jahanara Begum — 1614–1681
-- [ ] Princess Roshanara Begum — 1617–1671
+- [x] Emperor Muhammad Shah — 1702–1748
+- [x] Prince Murad Baksh — 1624–1661
+- [x] Princess Jahanara Begum — 1614–1681
+- [x] Princess Roshanara Begum — 1617–1671
 - [ ] Princess Zeb-un-Nissa — 1638–1702
 - [ ] Nawab Shaista Khan — 1600–1694
 - [ ] Mir Jumla II — 1591–1663
