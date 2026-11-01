@@ -880,11 +880,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Samira Ahmed — 1968–Living
 - [x] Rageh Omaar — 1967–Living
 - [x] Asad Ahmad — 1969–Living
-- [ ] Adnan Nawaz — 1968–Living
-- [ ] Shazia Mirza — 1972–Living
-- [ ] Nabil Abdulrashid — 1985–Living
-- [ ] Tez Ilyas — 1983–Living
-- [ ] Guz Khan — 1986–Living
+- [x] Adnan Nawaz — 1968–Living
+- [x] Shazia Mirza — 1972–Living
+- [x] Nabil Abdulrashid — 1985–Living
+- [x] Tez Ilyas — 1983–Living
+- [x] Guz Khan — 1986–Living
 - [ ] Mo Gilligan (Contemporary) — 1988–Living
 - [ ] Sadia Azmat — 1987–Living
 - [ ] Sayeeda Warsi (Baroness Warsi) — 1971–Living
