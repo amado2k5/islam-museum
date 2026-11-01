@@ -1,0 +1,74 @@
+id: person/roshanara-begum
+class: person
+
+label: { ar: "روشن آرا بيغوم", en: "Roshanara Begum", ur: "روشن آرا بیگم" }
+
+names:
+  - { value: "Roshanara Begum", kind: full }
+  - { value: "Padshah Begum", kind: laqab }
+
+gender: female
+
+summary:
+  ar: "روشن آرا بيغوم (3 سبتمبر 1617 – 11 سبتمبر 1671) أميرة مغولية وشاعرة، ثالث بنات الإمبراطور شاه جهان والممتاز محل. أنقذت أخاها أورنكزيب بتحذيره من مؤامرة أبيها، فكافأها بعد اعتلائه العرش بلقب «بادشاه بيغوم» خلفًا لأختها جهنرا، فصارت أقوى نساء الإمبراطورية حتى سقطت من الحظوة وجُردت من سلطتها وأُمرت باعتزال صالح في قصر حديقتها خارج دلهي، حيث دُفنت في «روشن آرا باغ» الذي أنشأته."
+  en: "Roshanara Begum (3 September 1617 – 11 September 1671) was a Mughal princess and poet, the third daughter of Emperor Shah Jahan and Mumtaz Mahal. She saved her brother Aurangzeb by warning him of their father's plot against him, and on his accession he made her Padshah Begum in her sister Jahanara's place, the most powerful woman of the empire — until she fell from favour, was stripped of her powers and ordered into pious seclusion in her garden palace outside Delhi, where she is buried in the Roshanara Bagh she commissioned."
+  ur: "روشن آرا بیگم (3 ستمبر 1617ء – 11 ستمبر 1671ء) مغل شہزادی اور شاعرہ تھیں، شہنشاہ شاہ جہاں اور ممتاز محل کی تیسری صاحبزادی۔ انھوں نے اپنے بھائی اورنگزیب کو والد کی سازش سے خبردار کر کے بچایا، تو تخت نشینی پر اورنگزیب نے انھیں اپنی بہن جہاں آرا کی جگہ «پادشاہ بیگم» بنایا اور وہ سلطنت کی سب سے طاقتور خاتون بن گئیں — یہاں تک کہ وہ عنایت سے گر گئیں، ان کے اختیارات چھن گئے اور انھیں دہلی کے باہر اپنے باغیچہ محل میں عبادت و اعتکاف کی زندگی کا حکم ہوا، جہاں وہ اپنے بنوائے ہوئے روشن آرا باغ میں دفن ہیں۔"
+
+roles: [princess, poet]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1617-09-03"
+  hijri: "1026"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "The English article gives 3 September 1617 and Wikidata the same; the Urdu article gives her birth as 2 Ramadan 1026 AH in the year 1617, the same date in Hijri form, and the Hijri year is set from that pairing. Wikidata's structured data names Burhanpur as her birthplace, which has no place entity on main, so no born_in edge is written."
+  sources: [source/wikipedia-roshanara-begum-en, source/wikipedia-roshanara-begum-ur, source/wikidata-roshanara-begum]
+
+died:
+  edtf: "1671-09-11"
+  calendar: julian
+  precision: day
+  status: historical
+  note: "The English article and Wikidata give 11 September 1671; she died in Delhi in the seclusion of her garden palace and was interred in the Roshanara Bagh she had designed and commissioned."
+  sources: [source/wikipedia-roshanara-begum-en, source/wikidata-roshanara-begum]
+
+relations:
+  - { type: child_of, target: person/shah-jahan-mughal, sources: [source/wikipedia-roshanara-begum-en, source/wikipedia-roshanara-begum-ur, source/wikidata-roshanara-begum] }
+  - { type: sibling_of, target: person/murad-baksh, sources: [source/wikipedia-roshanara-begum-en] }
+  - { type: sibling_of, target: person/aurangzeb-mughal, sources: [source/wikipedia-roshanara-begum-en, source/wikipedia-roshanara-begum-ur] }
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-roshanara-begum-en, source/wikidata-roshanara-begum] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school or an order for Roshanara
+      herself. The Urdu article calls her a devout woman of sound
+      belief whose wealth went largely to the poor, the destitute and
+      the needy, and the English article records her patronage of a
+      congregational mosque and the pious seclusion of her last years
+      in her garden palace outside Delhi — documented piety and
+      practice, neither of which names her school. She lived in the
+      Sunni Hanafi establishment of the Mughal court, dynastic context
+      that never settles faith under the founder rulings. Wikidata
+      files her religion as Islam generically, a structured statement
+      that never settles faith. Her faith is therefore recorded as
+      unknown.
+    sources: [source/wikipedia-roshanara-begum-en, source/wikipedia-roshanara-begum-ur, source/wikidata-roshanara-begum]
+
+external_ids: { wikidata: "Q7368827" }
+
+sources:
+  - source/wikipedia-roshanara-begum-en
+  - source/wikipedia-roshanara-begum-ur
+  - source/wikidata-roshanara-begum
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376012813 of 21 September 2026), Urdu Wikipedia (revision 5887821 of 21 January 2024) and Wikidata Q7368827 (item revision 2526902408 of 3 August 2026), fetched live in-session on 1 November 2026; she has no Arabic Wikipedia article. The QID was grounded from the English article's own page property, the Urdu article agreeing, and the item revision re-asserted identical against a second live query. Existence checked against origin/main before building — no prior record holds Roshanara Begum; person/shah-jahan-mughal, person/aurangzeb-mughal and place/delhi exist on main. The child_of edge is written here, in the child's record; she is elder to both Murad Baksh (b. 1624) and Aurangzeb (b. 1618), so the sibling_of edges to them are written here, each pair once — her pair with Jahanara is written in Jahanara's record and is not duplicated here."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-169m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
