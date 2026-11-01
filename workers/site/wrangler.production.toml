@@ -31,3 +31,36 @@ run_worker_first = ["/ar/*", "/en/*", "/ur/*", "/media/*", "/edu/*", "/timeline-
 [[r2_buckets]]
 binding = "SITE_BUCKET"
 bucket_name = "islam-museum-search"
+
+# ---------------------------------------------------------------------------------------------
+# UAT environment (founder, 1 November 2026): the same Worker code and the same build artifact,
+# deployed as a second, independent Worker `islam-museum-site-uat` on the UAT bucket, reached at
+# https://uat.islam.museum. Deployed by deploy-uat.yml with `wrangler deploy --env uat`; the
+# production deploy (deploy.yml, no --env) never reads this section. Bindings and vars are not
+# inherited by a wrangler environment, so the bucket and the vars are stated again here; the
+# inheritable keys above (main, compatibility_date, observability, cache) apply as they are.
+# Nothing in this section names a production resource: the bucket, the Worker and the hostname
+# are all UAT's own, so a UAT deploy cannot touch islam.museum or islam-museum-search.
+[env.uat]
+# Custom Domain: wrangler creates the DNS record and the certificate for uat.islam.museum on
+# the first deploy (zone islam.museum). Production's own domain is attached in the dashboard
+# and is not described in this file.
+routes = [{ pattern = "uat.islam.museum", custom_domain = true }]
+
+[env.uat.assets]
+directory = "../../dist-assets"
+binding = "ASSETS"
+not_found_handling = "404-page"
+# Same list as production plus /robots.txt, which the Worker answers with "Disallow: /" in UAT.
+run_worker_first = ["/ar/*", "/en/*", "/ur/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/robots.txt"]
+
+[[env.uat.r2_buckets]]
+binding = "SITE_BUCKET"
+bucket_name = "islam-museum-uat"
+
+[env.uat.vars]
+# The build's /api/* rule (site/public/_redirects) points at the production API host; in UAT the
+# Worker rewrites that Location to the UAT bucket's domain (src/route.js, rewriteHost).
+HOST_REWRITES = "api.islam.museum=uat-api.islam.museum"
+# Never index UAT: /robots.txt answers "Disallow: /" and every response carries X-Robots-Tag: noindex.
+ROBOTS = "disallow"
