@@ -167,6 +167,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ steps.build.outputs.sha }}
+      - name: The built commit must know this wrangler environment
+        # The Worker code and the two wrangler configs come from the built commit (above), not
+        # from the branch this workflow runs on. A non-production environment therefore needs a
+        # build of a commit that already carries its `[env.<name>]` sections; an older build
+        # would make wrangler fall back to the top-level (production) bindings under a UAT name.
+        # Fail here, before anything is deployed, with the build that is needed instead.
+        if: steps.env.outputs.wrangler_env != ''
+        env:
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          for f in workers/site/wrangler.production.toml workers/r2-sync/wrangler.production.toml; do
+            grep -Eq "^\[(\[)?env\.$WRANGLER_ENV(\.|\]|\])" "$f" \
+              || { echo "::error::Build $RUN_ID (commit $SHA) has no [env.$WRANGLER_ENV] in $f: it predates the $WRANGLER_ENV configuration. Wait for a build of a newer commit of main, then deploy that run id."; exit 1; }
+          done
+          echo "both wrangler configs define [env.$WRANGLER_ENV]"
       - uses: actions/setup-node@v4
         with:
           node-version: 22
