@@ -49,6 +49,26 @@ translators: []
 
 شدائد [[person/yusuf|يوسف]] الثلاث: الجب والعبودية والسجن، واستطراده في [[question/what-is-ghiba|الغيبة]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:09:30}
 
+## الحلقة 11: شدائد النبي وفرجها
+
+[[event/year-of-sorrow|عام الحزن]] وموت [[person/khadija|خديجة]] و[[person/abu-talib|أبي طالب]]، و[[event/journey-to-taif|رحلة الطائف]] ودعاؤها، و[[event/conquest-of-mecca|فتح مكة]] والعفو. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
+
+## الحلقة 12: لماذا أنا؟
+
+[[concept/al-iaqa-al-sulukiyya|الإعاقة السلوكية]]، والنازلة تدبير الله و[[concept/qadar|القدر]]، والناس ضيوف الكريم، والرزق الحلال، و[[concept/hadaya-al-ummal|هدايا العمال]]. {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
+
+## الحلقة 13: مقام اليقين
+
+العظيم بخلقه، و[[person/bilal-ibn-rabah|بلال]]، وخطوات [[concept/al-yaqin|مقام اليقين]] التسع من التوبة إلى المحبة. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00}
+
+## الحلقة 14: لماذا صبر الكبار
+
+المؤمن كالذهب في النار، و«الكيسان» في الذاكرة، وأسباب [[concept/sabr|الصبر]]، وبيت الحمد لمن [[concept/al-istirja|استرجع]] على ولده. {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep14 00:06:00}
+
+## الحلقة 15: المثالية الواقعية
+
+الصحابة: [[person/abdullah-ibn-masud|ابن مسعود]] و[[person/abdullah-ibn-hudhafa-al-sahmi|عبد الله بن حذافة]] و[[person/khubayb-ibn-adi|خبيب]]، و[[concept/idkhal-al-surur|إدخال السرور]] على الناس. {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:08:30}
+
 ## موضوعات الحلقات في المتحف
 
 هذه سجلات المتحف التي كُتبت من حلقات السلسلة، مرتبة بحسب أول موضع ذُكر فيه كل موضوع. ولكل سجل نصّه المستقل وشواهده.
@@ -107,3 +127,30 @@ translators: []
 ### الحلقة 10
 - [[person/yusuf|يوسف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:01:00}
 - [[question/what-is-ghiba|ما الغيبة؟]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep10 00:06:30}
+
+### الحلقة 11
+- [[event/year-of-sorrow|عام الحزن]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:00}
+- [[person/abu-talib|أبو طالب بن عبد المطلب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}
+- [[person/khadija|خديجة بنت خويلد]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00}
+- [[event/journey-to-taif|خروج النبي إلى الطائف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00}
+- [[event/conquest-of-mecca|فتح مكة (الفتح الأعظم)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
+
+### الحلقة 12
+- [[concept/al-iaqa-al-sulukiyya|الإعاقة السلوكية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:00:30}
+- [[concept/qadar|القدر]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:03:00}
+- [[concept/al-tawazun-al-kawni|التوازن الكوني]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:03:30}
+- [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:07:00}
+- [[concept/hadaya-al-ummal|هدايا العمال]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
+
+### الحلقة 13
+- [[person/bilal-ibn-rabah|بلال بن رباح]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00}
+- [[concept/tawba|التوبة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00}
+- [[person/al-hasan-al-basri|أبو الحسن البصري]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00}
+- [[concept/zuhd|الزهد]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30}
+- [[concept/shukr|الشكر]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:30}
+
+### الحلقة 15
+- [[person/abdullah-ibn-masud|عبد الله بن مسعود]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:01:30}
+- [[person/abdullah-ibn-hudhafa-al-sahmi|عبد الله بن حذافة السهمي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:03:30}
+- [[person/khubayb-ibn-adi|خبيب بن عدي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:06:00}
+- [[concept/idkhal-al-surur|إدخال السرور على المسلمين]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep15 00:07:30}

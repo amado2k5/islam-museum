@@ -27,3 +27,6 @@ translators: []
 يذكر الشيخ أن عمر بن الخطاب، بعد عودته من الحج، تشاور مع صاحب بيت المال في تكلفة الحج. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:13:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:13:30}
 ويروي أن عمر تحقق من خبر تجارة أبي هريرة وهو والٍ، فلما ثبتت براءته طُلب منه أن يعود إلى عمله. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:17:30}
 ويرى الشيخ أن الخفة في محاسبة المسؤول من علامات الانحراف. {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:17:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ قصة ابن اللتبية الذي جاء النبي فقال: هذا لكم وهذا أُهدي إليّ، فقال النبي: هلّا جلس في بيت أبيه وأمه فينظر أيُهدى إليه أم لا، ويستنتج أن أي موظف يأخذ هدية بسبب عمله فهي رشوة، وأن الراشي والمرتشي والرائش ملعونون. {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:30}

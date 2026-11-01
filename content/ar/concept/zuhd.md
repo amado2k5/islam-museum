@@ -48,3 +48,6 @@ translators: []
 يقول الشيخ إن القلوب إذا زهدت في موائد الدنيا قعدت على موائد الآخرة {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:30}.
 
 ويقول إن الإنسان يعيش في الدنيا كأنه غريب أو راحل إلى الله، وقلبه في الآخرة {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30}.
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن الزهد فُهم خطأ بأنه الفقر، وأن الإنسان قد يملك المليارات وهو زاهد، وقد لا يملك إلا دراهم معدودة وهو متطلع إلى الدنيا، ويذكر حديث ابن آدم الذي لو كان له وادٍ من ذهب لتمنى ثانيًا. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:00}

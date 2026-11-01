@@ -31,3 +31,6 @@ See [[concept/wara|scrupulousness]].
 The Sheikh says that when hearts renounce the tables of this world, they sit at the tables of the Hereafter {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:30}.
 
 He says that a person should live in this world as a stranger or a traveller to God, with his heart in the Hereafter {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:37:30}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that renunciation has been misunderstood as poverty, while a person may own billions and be renunciant, or own only a few coins and crave the world; he mentions the hadith that if the son of Adam had a valley of gold he would wish for a second. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:00}
