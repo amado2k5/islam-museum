@@ -68,10 +68,11 @@ Every one of the 227 strings is covered: 191 map to a job, 25 are descriptors, 1
 | calligrapher | 109 | 13 | deep in the Ottoman centuries, thin before |
 | merchant | 52 | 107 | adequate; Prophetic-era Meccan merchants lead |
 | architect | 11 | 23 | **thin**: eleven holders, six of them Ottoman |
-| copyist (warraq / nasikh) | 0 | 74 | **no holder from roles**; the 74 leads (بخطه, الوراق, الناسخ) must be read and tagged before the page has a holder |
+| copyist (warraq / nasikh) | 0 | 74 | **no holder from roles**; the 74 leads (بخطه, الوراق, الناسخ) must be read and tagged before the page has a holder. **Swapped out by the founder, 1 November 2026**; it opens Phase 2's first Arts & Letters wave |
+| faqih (jurist) | 800 | 216 | **swapped in by the founder, 1 November 2026**: the deepest holder base after muhaddith, the tabaqat literature, and it carries the Twelver ranks (marja, mujtahid) under the record's own tradition label |
 | teacher (mudarris) | 332 | 638 | deep, but 215 holders have no period, so the timeline band will be sparse until Phase 3 dates them |
 
-The brief invites a swap if the census argues for one. It argues against two: copyist has no holder today and architect has eleven. The decision is the founder's (section 9, decision 2). The plan's recommendation is to **keep the ten**: both are jobs the hisba manuals, Ibn Khaldun and the manuscript catalogues describe in depth, both have leads to convert, and the browser's honesty note already says counts grow. The alternative, swapping copyist for faqih (761 holders, the tabaqat literature), is costless to adopt in Phase 1 if the founder prefers holder depth on day one.
+The brief invites a swap if the census argues for one. It argued against two: copyist had no holder and architect has eleven. **Founder's decision, 1 November 2026: faqih replaces copyist.** The Phase 1 ten are qadi, vizier, muhaddith, physician, astronomer, calligrapher, merchant, architect, faqih and teacher: 1,965 bootstrap holders and about 3,556 prose leads. Architect stays, with its 23 leads read first. Copyist is the first job of Phase 2's Arts & Letters wave.
 
 ### 2.4 What else exists for the sweep
 
@@ -183,7 +184,7 @@ Detail and the files it touches: [`site.md`](site.md). Everything static, Arabic
 | # | Phase | Scope | Size (derivation) | Gate |
 |---|---|---|---|---|
 | 0 | Plan and taxonomy | This folder | done in this PR | founder's go (section 9) |
-| 1 | The first ten, end to end | 10 job entities and articles, their sources, bootstrap and targeted holders, `/jobs/`, `/job/`, career strip, API | about 10 jobs × 3 languages × 17 sections; 1,149 bootstrap holders; about 3,400 leads to read for the ten; the site change | `submission-impacting` sign-off; validate "0 errors"; cite-check "0 fail"; build; live check after the founder deploys |
+| 1 | The first ten, end to end | 10 job entities and articles, their sources, bootstrap and targeted holders, `/jobs/`, `/job/`, career strip, API | about 10 jobs × 3 languages × 17 sections; 1,965 bootstrap holders; about 3,556 leads to read for the ten; the site change | `submission-impacting` sign-off; validate "0 errors"; cite-check "0 fail"; build; live check after the founder deploys |
 | 2 | All job entities | 174 remaining jobs in domain waves of about 10, the crafts in two waves with their guild bodies | 18 waves at the Phase 1 pace per job | validate and cite-check per wave |
 | 3 | The person sweep | `occupations:` on 10,725 persons: a mechanical bootstrap (7,555 records) in chunks, then the prose sweep in waves of 25, office jobs first | 429 batches at 25; the bootstrap is 16 chunks of about 500 files | validate, cite-check, and the agreement check per batch |
 | 4 | Things, buildings, works, groups, events | `jobs:` on attested records; kind-level links (a mosque's imam) are display-only, never written as attestation | sized by the Phase 1 pilot on the ten jobs' things | same gates |
@@ -193,8 +194,10 @@ Each phase report says what merged, what the validate and cite-check lines were,
 
 ## 9. Founder decision points
 
+**Founder's answer, 1 November 2026 (chat):** faqih replaces copyist in the first ten (decision 2). **Only that is decided.** The other ten decisions are open: the plan's recommended defaults are proposed, not adopted. Phase 1 does not start until the founder confirms them, and in particular the `submission-impacting` sign-off for the class and API change (decision 7), which no agent may assume.
+
 1. **Approve the taxonomy and domains** (blocks everything): 184 jobs, 14 domains including the proposed Land & Water and the renamed Crafts, Building & Making, the `broader` hierarchy, the descriptor list and the review list.
-2. **The first ten**: keep the brief's ten (recommended; copyist and architect start from leads), or swap copyist for faqih.
+2. **The first ten**: **decided 1 November 2026: faqih replaces copyist; copyist moves to Phase 2.**
 3. **`scholar` and `roles:`**: accept `scholar` (3,063) mapping to the generic `job/alim` with Phase 3 refinement, and accept that `roles:` survives only for descriptors, with the enum split.
 4. **The bootstrap rule**: one occupation per mapped role, the record's own sources, `status: historical`, the bootstrap note, applied by script in chunks of about 500 files per pull request rather than 25 (a mechanical normalisation re-run on fresh `main`, as the merge gate describes for generated changes).
 5. **Visibility threshold**: a job page is built when its entity is published (recommended: the encyclopaedia reading of Phase 2), or only when it also has at least one tagged holder (the brief's Part C wording).
