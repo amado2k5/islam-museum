@@ -39,26 +39,10 @@ roles: [politician]
 relations:
   - { type: spouse_of, target: person/kurmanjan-datka, sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-uz] }
 faith:
-  - value: sunni
-    basis: documented
-    note: >-
-      FLAGGED: the Sunni reading rests on the Russian article's infobox
-      alone (veroisovpovedanie: Sunni Islam), an infobox field referenced to
-      no text — the same configuration as his wife Kurmanjan Datka's record.
-      No article text names his religion: the Kyrgyz article records only
-      that he built a madrasa for children, the Uzbek article that he built
-      mosques and madrasas at Osh, which are patronage and building acts,
-      and Wikidata carries no religion (P140) value at all. One infobox
-      short of the two-source bar, the segment is unknown, with the Sunni
-      infobox reading preserved here. Settled sunni/documented by the
-      founder's ruling of 1 November 2026 (rulings packet #3, 2c, as grouped
-      in the packet: the Russian infobox's Sunni attestation settles the
-      branch).
-    sources:
-      - source/wikipedia-alymbek-datka-ru
-      - source/wikipedia-alymbek-datka-ky
-      - source/wikipedia-alymbek-datka-uz
-      - source/wikidata-alymbek-datka
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the Sunni reading rests on the Russian article's infobox alone (veroisovpovedanie: Sunni Islam), an infobox field referenced to no text — the same configuration as his wife Kurmanjan Datka's record. No article text names his religion: the Kyrgyz article records only that he built a madrasa for children, the Uzbek article that he built mosques and madrasas at Osh, which are patronage and building acts, and Wikidata carries no religion (P140) value at all. One infobox short of the two-source bar, the segment is unknown, with the Sunni infobox reading preserved here."
+    sources: [source/wikipedia-alymbek-datka-ru, source/wikipedia-alymbek-datka-ky, source/wikipedia-alymbek-datka-uz, source/wikidata-alymbek-datka]
 external_ids:
   wikidata: Q20604212
 sources:

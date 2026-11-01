@@ -35,27 +35,10 @@ died:
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-sulaiman-al-boustani-ar] }
 faith:
-  - value: christian
-    basis: documented
-    note: >-
-      FLAGGED for a founder ruling, configuration (ii); both readings
-      preserved. One personal text attestation: the English article states
-      of him personally, 'He was a Maronite Catholic.' The Arabic article's
-      text names no religion for him — he was taught Syriac and Arabic by
-      his father's uncle, Bishop Abdullah, which is family background and
-      schooling — and its categories file him under 'Lebanese Maronites', a
-      filing. Wikidata carries one structured value, Christianity. That is
-      one text attestation plus filings and one structured value, the May
-      Ziade configuration, which stands unknown under the founder's two-
-      source bar; a founder could rule that the English article's personal
-      statement, with the filing and the structured value, amounts to
-      christian/documented. Settled christian/documented by the founder's
-      ruling of 1 November 2026 (rulings packet #3, 2c: a single scholarly
-      family suffices for historical profiles).
-    sources:
-      - source/wikipedia-sulaiman-al-boustani-en
-      - source/wikipedia-sulaiman-al-boustani-ar
-      - source/wikidata-sulaiman-al-boustani
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for a founder ruling, configuration (ii); both readings preserved. One personal text attestation: the English article states of him personally, 'He was a Maronite Catholic.' The Arabic article's text names no religion for him — he was taught Syriac and Arabic by his father's uncle, Bishop Abdullah, which is family background and schooling — and its categories file him under 'Lebanese Maronites', a filing. Wikidata carries one structured value, Christianity. That is one text attestation plus filings and one structured value, the May Ziade configuration, which stands unknown under the founder's two-source bar; a founder could rule that the English article's personal statement, with the filing and the structured value, amounts to christian/documented."
+    sources: [source/wikipedia-sulaiman-al-boustani-en, source/wikipedia-sulaiman-al-boustani-ar, source/wikidata-sulaiman-al-boustani]
 external_ids: { wikidata: "Q4119737" }
 sources: [source/wikipedia-sulaiman-al-boustani-en, source/wikipedia-sulaiman-al-boustani-ar, source/wikidata-sulaiman-al-boustani]
 provenance:

@@ -29,27 +29,10 @@ died:
   note: "Died at Jeddah, Saudi Arabia, on 19 September 2019, aged 83, after nearly a decade in exile; he was buried in the al-Baqi cemetery at Medina. The Hijri year 1441 is a tabular conversion, marked derived."
   sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar, source/wikidata-zine-el-abidine-ben-ali]
 faith:
-  - value: sunni
-    basis: documented
-    note: >-
-      No text in any of the three articles names a school or affiliation for
-      the man. FLAGGED for the founder (the Erekat configuration): the only
-      attestation anywhere is Islam in general, carried by the Arabic
-      article's infobox religion field and the Wikidata religion value
-      (Q432) — one source family, and a generic value with no school reading
-      to weigh. The Urdu article's categories file him under Tunisian Sunni
-      Muslims, but a category filing never attests a school on its own, and
-      no infobox, structured value or text in any edition names one for him.
-      His years governing a Muslim-majority state, and the public piety of
-      his presidency, are office and practice, expressly not counted.
-      Settled sunni/documented by the founder's ruling of 1 November 2026
-      (rulings packet #3, 2b: branch-only attestations record the bare
-      branch value, which the enum now carries).
-    sources:
-      - source/wikipedia-zine-el-abidine-ben-ali-en
-      - source/wikipedia-zine-el-abidine-ben-ali-ar
-      - source/wikipedia-zine-el-abidine-ben-ali-ur
-      - source/wikidata-zine-el-abidine-ben-ali
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder (the Erekat configuration): the only attestation anywhere is Islam in general, carried by the Arabic article's infobox religion field and the Wikidata religion value (Q432) — one source family, and a generic value with no school reading to weigh. The Urdu article's categories file him under Tunisian Sunni Muslims, but a category filing never attests a school on its own, and no infobox, structured value or text in any edition names one for him. His years governing a Muslim-majority state, and the public piety of his presidency, are office and practice, expressly not counted."
+    sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar, source/wikipedia-zine-el-abidine-ben-ali-ur, source/wikidata-zine-el-abidine-ben-ali]
 relations:
   - { type: successor_of, target: person/habib-bourguiba, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar] }
   - { type: died_in, target: place/jeddah, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikidata-zine-el-abidine-ben-ali] }

@@ -48,19 +48,13 @@ relations:
   - { type: born_in, target: place/delhi }
 
 faith:
-  - value: sunni
-    basis: documented
-    note: >-
-      The English article's infobox gives his religion as Sunni Islam - a
-      single structured family; Wikidata gives only Islam in general (Q432),
-      and dynastic identity is not an attestation. Held unknown under the
-      two-source rule; a second independent source naming him Sunni settles
-      sunni/documented. Settled sunni/documented by the founder's ruling of
-      1 November 2026 (rulings packet #3, 2b: branch-only attestations
-      record the bare branch value, which the enum now carries).
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives his religion as Sunni Islam - a single structured family; Wikidata gives only Islam in general (Q432), and dynastic identity is not an attestation. Held unknown under the two-source rule; a second independent source naming him Sunni settles sunni/documented."
     sources:
       - source/wikipedia-islam-shah-suri-en
       - source/wikidata-islam-shah-suri
+
 external_ids: { wikidata: "Q2191504" }
 
 sources:

@@ -1,0 +1,46 @@
+id: person/rosli-dhoby
+class: person
+label: { ar: "روسلي دوبي", en: "Rosli Dhoby", ur: "روسلی ڈھوبی" }
+names:
+  - { value: "Rosli Dhoby", kind: full }
+  - { value: "Rosli Dhobi", kind: alternate }
+  - { value: "Lidros", kind: pen }
+gender: male
+summary:
+  ar: "قومي سراواكي من سيبو، وُلد سنة 1932، وكان من قادة حركة «روكون 13» المناهضة لضم سراواك إلى التاج البريطاني، واغتال حاكم سراواك الاستعماري الثاني دنكان جورج ستيوارت في ديسمبر 1949، فأُعدم شنقًا في كوتشينغ في 2 مارس 1950 وهو في السابعة عشرة."
+  en: "Sarawakian nationalist from Sibu, born in 1932. A leading member of Rukun 13, the anti-cession movement's secret organisation, he assassinated Duncan George Stewart, the second governor of colonial Sarawak, in December 1949 and was hanged at Kuching on 2 March 1950, aged seventeen."
+  ur: "سیبو سے تعلق رکھنے والے سراواکی قوم پرست، جو 1932 میں پیدا ہوئے۔ وہ برطانوی ولی عہد نوآبادی سے الحاق مخالف تحریک کی خفیہ تنظیم روکن 13 کے سرکردہ رکن تھے؛ انھوں نے دسمبر 1949 میں سراواک کے دوسرے نوآبادیاتی گورنر ڈنکن جورج سٹیورٹ کو قتل کیا اور 2 مارچ 1950 کو کوچنگ میں سترہ سال کی عمر میں پھانسی پائی۔"
+roles: [activist]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1932-03-18"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Date from English and Malay Wikipedia and Wikidata: born at Kampung Pulo, Sibu, the second child of Dhoby bin Buang, a Sibu Malay washerman, and Habibah binti Haji Lamit. The Hijri year (1350) is a tabular conversion. Sibu has no place entity here, so no born_in relation is written."
+  sources: [source/wikipedia-rosli-dhoby-en, source/wikipedia-rosli-dhoby-ms, source/wikidata-rosli-dhoby]
+died:
+  edtf: "1950-03-02"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Hanged at Kuching Central Prison on 2 March 1950, with Morshidi Sidek, Awang Ramli and Bujang Suntong, and buried within the prison grounds; in 1996 the four were reburied with state honours at the Sarawak Warriors' Mausoleum near Sibu. The Hijri year (1369) is a tabular conversion. Kuching has no place entity here, so no died_in relation is written."
+  sources: [source/wikipedia-rosli-dhoby-en, source/wikipedia-rosli-dhoby-ms, source/wikidata-rosli-dhoby]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives Islam (Q432) generically. The articles document his Muslim life in practice — he taught evening classes at the Sekolah Rakyat religious school in Sibu, and Rukun 13's oath meeting opened with a recitation of Surah Ya Sin — but no source read names a school, order or branch for him. Documented practice without a named school stays unknown, unflagged."
+    sources: [source/wikipedia-rosli-dhoby-en, source/wikipedia-rosli-dhoby-ms, source/wikidata-rosli-dhoby]
+external_ids: { wikidata: "Q7369027" }
+sources: [source/wikipedia-rosli-dhoby-en, source/wikipedia-rosli-dhoby-ms, source/wikidata-rosli-dhoby]
+provenance:
+  layer: own-research
+  source: "Founder build ruling of 1 Nov 2026 (rulings packet #3, Part 3): the queue row 'Rosli Dhobi — 1890–1930' is the Sarawak nationalist under a wrong spelling and wrong dates; he is built here as Rosli Dhoby (1932–1950) under his documented dates. Researched from English Wikipedia (rev. 1382065639), Malay Wikipedia (rev. 6872714) and Wikidata Q7369027 (item rev. 2544920108, re-asserted on a second live query), checked 1 Nov 2026."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "rulings-builds-r1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -29,28 +29,10 @@ died:
   note: "Died in a Cairo military hospital on 25 February 2020, aged 91; he was given a full-honour military funeral at the Tantawi Mosque in eastern Cairo and buried in a cemetery in Heliopolis. The Hijri year 1441 is a tabular conversion, marked derived."
   sources: [source/wikipedia-hosni-mubarak-en, source/wikidata-hosni-mubarak]
 faith:
-  - value: sunni
-    basis: documented
-    note: >-
-      No text in any of the three articles names a school or affiliation for
-      the man. FLAGGED for the founder: the Sunni reading rests on one
-      source family in three carriers — the Arabic article's infobox
-      religion field ('Muslim Sunni'), the Urdu article's infobox religion
-      field ('Ahl al-Sunnah', expressly tagged 'citation needed' since
-      February 2011), and the Wikidata item's religion value (Sunni Islam,
-      Q483654) — while the English infobox carries no religion field. Two
-      infoboxes and their structured echo are one family and never attest a
-      school on their own. His thirty years governing a Muslim-majority
-      state are office, not affiliation, and are expressly not counted. The
-      reading is preserved here for the founder's ruling. Settled
-      sunni/documented by the founder's ruling of 1 November 2026 (rulings
-      packet #3, 2b: branch-only attestations record the bare branch value,
-      which the enum now carries).
-    sources:
-      - source/wikipedia-hosni-mubarak-en
-      - source/wikipedia-hosni-mubarak-ar
-      - source/wikipedia-hosni-mubarak-ur
-      - source/wikidata-hosni-mubarak
+  - value: unknown
+    basis: unknown
+    note: "No text in any of the three articles names a school or affiliation for the man. FLAGGED for the founder: the Sunni reading rests on one source family in three carriers — the Arabic article's infobox religion field ('Muslim Sunni'), the Urdu article's infobox religion field ('Ahl al-Sunnah', expressly tagged 'citation needed' since February 2011), and the Wikidata item's religion value (Sunni Islam, Q483654) — while the English infobox carries no religion field. Two infoboxes and their structured echo are one family and never attest a school on their own. His thirty years governing a Muslim-majority state are office, not affiliation, and are expressly not counted. The reading is preserved here for the founder's ruling."
+    sources: [source/wikipedia-hosni-mubarak-en, source/wikipedia-hosni-mubarak-ar, source/wikipedia-hosni-mubarak-ur, source/wikidata-hosni-mubarak]
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-hosni-mubarak-en] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-hosni-mubarak-en] }
