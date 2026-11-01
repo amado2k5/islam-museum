@@ -1,0 +1,48 @@
+id: person/bahaa-taher
+class: person
+label: { ar: "بهاء طاهر", en: "Bahaa Taher", ur: "بہاء طاہر" }
+names:
+  - { value: "محمد بهاء الدين عبد الله طاهر", kind: full }
+  - { value: "Bahaa Taher", kind: full }
+  - { value: "Bahaa Tahir", kind: alternate }
+gender: male
+summary:
+  ar: "روائي وقاص ومترجم مصري (1935–2022)، اسمه الكامل محمد بهاء الدين عبد الله طاهر. وُلد في الجيزة وأصوله من الأقصر، وعمل مخرجًا ومذيعًا في إذاعة البرنامج الثاني قبل منعه من الكتابة سنة 1975، فغادر مصر وعمل مترجمًا لدى الأمم المتحدة في سويسرا. من رواياته «خالتي صفية والدير» و«الحب في المنفى» و«واحة الغروب» التي فازت بالجائزة العالمية للرواية العربية في دورتها الأولى سنة 2008."
+  en: "Egyptian novelist, short-story writer and translator (1935–2022), full name Muhammad Baha al-Din Abdullah Taher. Born in Giza to a family from Luxor, he worked as a radio drama director and broadcaster before being banned from writing in 1975, after which he left Egypt and worked as a United Nations translator in Switzerland. His novels include Aunt Safiyya and the Monastery, Love in Exile and Sunset Oasis, which won the inaugural International Prize for Arabic Fiction in 2008."
+  ur: "مصری ناول نگار، افسانہ نگار اور مترجم (1935–2022)، پورا نام محمد بہاء الدین عبد اللہ طاہر۔ الجیزہ میں پیدا ہوئے، خاندانی اصل الاقصر سے تھی؛ 1975 میں تحریر پر پابندی کے بعد مصر چھوڑا اور سوئٹزرلینڈ میں اقوام متحدہ کے مترجم رہے۔ ان کے ناولوں میں «خالتي صفية والدير»، «الحب في المنفى» اور «واحة الغروب» شامل ہیں، جس نے 2008 میں عربی فکشن کا پہلا عالمی انعام جیتا۔"
+roles: [writer]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1935-01-13"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata agree he was born on 13 January 1935 in Giza (Giza Governorate), to a family with roots in Luxor. The museum has no place entity for Giza, so the birthplace is carried in this note and no born_in edge is written. The Hijri year is derived from the Gregorian date."
+  sources: [source/wikipedia-bahaa-taher-en, source/wikipedia-bahaa-taher-ar, source/wikidata-bahaa-taher]
+died:
+  edtf: "2022-10-27"
+  hijri: "1444"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles agree he died on 27 October 2022, aged 87. The Arabic article says he returned to Egypt and remained there until his death; Wikidata records Cairo as the place of death. The Hijri year is derived from the Gregorian date."
+  sources: [source/wikipedia-bahaa-taher-en, source/wikipedia-bahaa-taher-ar, source/wikidata-bahaa-taher]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikidata-bahaa-taher] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Taher himself. The Arabic article records that his father was Azhari-educated and that the father's influence appears in his works; a parent's education is family background, which never counts, and the Muslim and Coptic figures of his fiction, as in Aunt Safiyya and the Monastery, are characters rather than attestation. Wikidata carries no religion statement for him. Recorded as unknown."
+    sources: [source/wikipedia-bahaa-taher-en, source/wikipedia-bahaa-taher-ar, source/wikidata-bahaa-taher]
+external_ids: { wikidata: "Q800187" }
+sources: [source/wikipedia-bahaa-taher-en, source/wikipedia-bahaa-taher-ar, source/wikidata-bahaa-taher]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1379897733), Arabic Wikipedia (revision 76013445) and Wikidata Q800187 (item revision 2558724346, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. No Urdu Wikipedia article on him exists. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-158a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
