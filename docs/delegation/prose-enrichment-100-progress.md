@@ -608,3 +608,7 @@ Batch 23's "no hit for the label" group came from my own search, which only scan
 ### Leads from the unmatched-label group, batches 24–26
 
 Worked from the cited pages and found thin or mixed: zamakhir (about 35 words, p. 127), tayma (one line, p. 352), rughusa (about 20 words, p. 769), qastalun (about 26 words, p. 621), wadi-al-falaj (about 45 words, p. 157), suqya-port (one line, p. 138), samasta (about 94 words with Egypt-wide context, p. 131), sumba and persian-gulf-nuzhat (short route notes, pp. 88, 9). Four more passages sit inside long paragraphs on other places (samna p. 30, sanitriyya pp. 117/123/124, waq-waq-islands pp. 77/91/92, qalat-al-kariyan and qalat-isfandiyadh p. 420) or carry material on peoples' customs that the entries leave out. ubda (p. 569) is left because the town before it in the route is not named in the OCR. Lead.
+
+### Also in batch 26
+
+- **place/ramij** (Idrisi pp. 61, 62). The large Zanj-archipelago island with five kinds of banana, the mountain refuge of Jabal Wayra, the Chinese trade that moved there, the smoking island nearby. Found from the cited page 62, which the earlier 150–999 search had skipped.
