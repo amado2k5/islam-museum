@@ -18,10 +18,11 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-taymiyya, role: "المسجون حتى وفاته", sources: [source/encyclopaedia-of-islam-2] }
-sources: [source/encyclopaedia-of-islam-2]
+  - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "التلميذ المسجون معه، لم يُفرَج عنه إلا بعد وفاة شيخه", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
 provenance:
   layer: own-research
-  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 985 (harvest scan)"
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 985 + art. IBN KAYYIM AL-DJAWZIYYA p. 854 (harvest scan); Ibn Hajar, al-Durar al-Kamina, Dar al-Jil 1993, j.3 p. 401 (harvest OCR)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-ibn-taymiyya-1
