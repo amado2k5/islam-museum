@@ -1,0 +1,29 @@
+id: event/ibn-hajar-rihla-799
+class: event
+kind: other
+label:
+  ar: "رحلة ابن حجر إلى الحجاز واليمن، ٧٩٩هـ/١٣٩٧م"
+  en: "Ibn Hajar's journey to the Hijaz and Yemen, 799/1397"
+  ur: "ابن حجر کا سفرِ حجاز و یمن، 799ھ/1397ء"
+summary:
+  ar: "في شوال سنة ٧٩٩هـ/يوليو ١٣٩٧م خرج ابن حجر إلى الحجاز واليمن في رحلة طلب امتدت إلى سنة ٨٠١هـ/١٣٩٨م، وجاور بمكة، ثم درس العام التالي بفلسطين والشام، وسمع بغزة وبيت المقدس ودمشق وحلب عن جماعة من المشايخ {cite:encyclopaedia-of-islam-2 vol. 3 p. 809} {cite:shadharat-dhahab p. 271}. وانتهت أسفار طلبته برجوعه من الشام سنة ٨٠٣هـ/١٤٠٠م، وإن عاد إلى الحج واليمن بعد ذلك ورافق السلطان برسباي في رحلة علمية بالشام ٨٣٦-٨٣٧هـ/١٤٣٢-١٤٣٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 809}."
+  en: "In Shawwal 799 (July 1397) Ibn Hajar left for the Hijaz and Yemen on a study journey that ran into 801/1398, residing near the Haram at Mecca; the following year he studied in Palestine and Syria, hearing shaykhs at Gaza, Jerusalem, Damascus and Aleppo {cite:encyclopaedia-of-islam-2 vol. 3 p. 809} {cite:shadharat-dhahab p. 271}. His student travels ended with his return from Syria in 803/1400, though he later went on pilgrimage again, revisited Yemen in 806/1403 and toured Syria with Sultan Barsbay's entourage in 836-7/1432-3 {cite:encyclopaedia-of-islam-2 vol. 3 p. 809}."
+  ur: "شوال 799ھ (جولائی 1397ء) میں ابن حجر علم کی خاطر حجاز اور یمن روانہ ہوئے اور یہ سفر 801ھ/1398ء تک جاری رہا؛ مکہ میں حرم کے قریب مجاور رہے اور اگلے برس فلسطین اور شام میں پڑھا اور غزہ، بیت المقدس، دمشق اور حلب میں کئی مشائخ سے سنا {cite:encyclopaedia-of-islam-2 vol. 3 p. 809} {cite:shadharat-dhahab p. 271}۔ 803ھ/1400ء میں شام سے واپسی پر ان کا طالبِ علمی سفر مکمل ہوا، اگرچہ وہ بعد میں دوبارہ حج کیا، 806ھ/1403ء میں یمن دوبارہ گئے اور 836-837ھ/1432-33ء میں سلطان برسبائی کے دستے کے ساتھ شام کا علمی دورہ کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 809}۔"
+wings: [time]
+themes: [travel, education]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1397-07~", hijri: "0799-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال ٧٩٩/يوليو ١٣٩٧م {cite:encyclopaedia-of-islam-2 vol. 3 p. 809}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1400~", hijri: "0803", calendar: julian, precision: year, status: tradition, derived: true, note: "انتهت أسفاره برجوعه من الشام ٨٠٣/١٤٠٠م {cite:encyclopaedia-of-islam-2 vol. 3 p. 809}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "الرحّالة الطالب", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), PDF p. 809; shadharat-dhahab s.a. 852, printed p. 271"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-hajar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

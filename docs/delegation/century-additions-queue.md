@@ -920,11 +920,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Firoz Merchant — 1958–Living
 - [x] B. R. Shetty (Contemporary) — 1942–Living
 - [x] Sultan Ahmed bin Sulayem — 1955–Living
-- [ ] Mohamed Alabbar — 1956–Living
-- [ ] Khaldoon Al Mubarak — 1975–Living
-- [ ] Badr Jafar — 1979–Living
-- [ ] Sheikha Hoor Al Qasimi — 1980–Living
-- [ ] Sheikha Bodour bint Sultan Al Qasimi — 1978–Living
+- [x] Mohamed Alabbar — 1956–Living
+- [x] Khaldoon Al Mubarak — 1975–Living
+- [x] Badr Jafar — 1979–Living
+- [x] Sheikha Hoor Al Qasimi — 1980–Living
+- [x] Sheikha Bodour bint Sultan Al Qasimi — 1978–Living
 - [ ] Sheikha Al Mayassa bint Hamad Al Thani — 1983–Living
 - [ ] Hassan Al Thawadi — 1978–Living
 - [ ] Saad Sherida Al-Kaabi — 1967–Living
@@ -1832,11 +1832,11 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Mirza Muhammad Tahir Nasab — 1630–1700
 - [ ] Mir Findesiri — 1563–1640
 - [ ] Qazi Sa'id Qomi — 1633–1692
-- [ ] Jamal al-Din Khwansari — 1651–1711
+- [x] Jamal al-Din Khwansari — 1651–1711
 - [ ] Mohammad-Saleh Khwansari — 1620–1688
-- [ ] Sayyid Nezam al-Din Ahmad — 1610–1675
-- [ ] Kâtip Çelebi (Hacı Halife) — 1609–1657
-- [ ] Nâbî — 1642–1712
+- [x] Sayyid Nezam al-Din Ahmad — 1610–1675
+- [x] Kâtip Çelebi (Hacı Halife) — 1609–1657
+- [x] Nâbî — 1642–1712
 - [ ] Nef'î — 1589–1635
 - [ ] Neşâtî — 1600–1674
 - [ ] Hoca İshak Efendi — 1690–1750 (CSV annotation suggests conflation with the d. 1834 namesake; resolve identity at build)
