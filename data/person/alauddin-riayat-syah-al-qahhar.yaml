@@ -1,0 +1,62 @@
+id: person/alauddin-riayat-syah-al-qahhar
+class: person
+
+label: { ar: "علاء الدين رعاية شاه القهار", en: "Alauddin Ri'ayat Syah al-Qahhar", ur: "علاء الدین رعایہ شاہ القہار" }
+
+names:
+  - { value: "Alauddin Ri'ayat Syah al-Qahhar", kind: regnal }
+  - { value: "علاء الدين رعاية شاه القهار", kind: regnal }
+  - { value: "Alauddin Riayat Syah", kind: alternate }
+  - { value: "Alauddin al-Kahar", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ثالث سلاطين آتشيه (حكم 1537/1539–1571)، الابن الثاني لمؤسسها علي مغيات شاه. انتزع العرش من أخيه صلاح الدين، ونظّم الدولة الأتشيهية، وحارب البرتغاليين وحلفاءهم من الملايويين فنهب جوهر عام 1564، وافتتح سفارة آتشيه الشهيرة إلى السلطان العثماني سليمان القانوني فوصلت مدافع ومدفعيون عثمانيون إلى آتشيه في ستينيات القرن السادس عشر."
+  en: "Third sultan of Aceh (r. 1537/1539–1571), younger son of the founder Ali Mughayat Syah. He seized the throne from his brother Salahuddin, organised the Acehnese state, campaigned against the Portuguese and their Malay allies, sacked Johor in 1564, and opened Aceh's celebrated embassy to the Ottoman sultan Suleiman the Magnificent, whose gunners and cannon reached Aceh in the 1560s."
+  ur: "آچے کے تیسرے سلطان (دورِ حکومت 1537/1539ء–1571ء)، بانی علی مغایت شاہ کے دوسرے بیٹے۔ انھوں نے تخت اپنے بھائی صلاح الدین سے چھینا، آچے ریاست کو منظم کیا، پرتگالیوں اور ان کے ملائی اتحادیوں سے جنگ کی، 1564ء میں جوہر کو لوٹا اور عثمانی سلطان سلیمان عالیشان کے دربار میں آچے کی مشہور سفارت کا آغاز کیا، جس سے 1560ء کی دہائی میں عثمانی توپچی اور توپیں آچے پہنچیں۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+died:
+  edtf: "1571-09-28"
+  hijri: "0979"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The grave inscription, as reported in the body text of the English and Indonesian articles, gives his death at Banda Aceh on 28 September 1571; the Indonesian article adds the inscription's Hijri date, 8 Jumada al-awwal 979 AH, and the tabular conversion of 28 September 1571 likewise falls in 979 AH, the year paired here. The lead paragraphs of both the English and Arabic articles say 29 September instead; the inscription-supported 28th — also the infobox and Wikidata value — is followed. He was buried in the Kandang XII cemetery at Banda Aceh; no place entity exists for it. No birth block is recorded: the English infobox leaves the birth date blank and the Indonesian article states expressly that no contemporary source gives it, so the birth year of 1500 sometimes listed for him is unsupported."
+  sources:
+    - source/wikipedia-alauddin-riayat-syah-al-qahhar-en
+    - source/wikipedia-alauddin-riayat-syah-al-qahhar-id
+    - source/wikipedia-alauddin-riayat-syah-al-qahhar-ar
+    - source/wikidata-alauddin-riayat-syah-al-qahhar
+
+relations:
+  - { type: child_of, target: person/ali-mughayat-syah, sources: [source/wikipedia-alauddin-riayat-syah-al-qahhar-en, source/wikipedia-alauddin-riayat-syah-al-qahhar-ar, source/wikidata-alauddin-riayat-syah-al-qahhar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names his school. The English and Indonesian infoboxes give his religion as Islam, and the articles document a reign framed as Muslim kingship: Mendes Pinto's account has him demand that the Batak king accept Islam before attacking in 1539, and he appealed to the Ottoman sultan for solidarity against the 'infidel Portuguese', receiving Turkish gunners by 1564 (articles). Documented rule of a Muslim state without a named school is recorded unknown under the lane rule."
+    sources:
+      - source/wikipedia-alauddin-riayat-syah-al-qahhar-en
+      - source/wikipedia-alauddin-riayat-syah-al-qahhar-id
+      - source/wikidata-alauddin-riayat-syah-al-qahhar
+
+external_ids: { wikidata: "Q4708856" }
+
+sources:
+  - source/wikipedia-alauddin-riayat-syah-al-qahhar-en
+  - source/wikipedia-alauddin-riayat-syah-al-qahhar-id
+  - source/wikipedia-alauddin-riayat-syah-al-qahhar-ar
+  - source/wikidata-alauddin-riayat-syah-al-qahhar
+
+provenance:
+  layer: own-research
+  source: "English, Indonesian and Arabic Wikipedia articles on Alauddin al-Kahar and Wikidata Q4708856, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 31 October 2026; the Wikidata revision re-asserted against a second live query, whose father value is Q868350, Ali Mughayat Syah). Identity pinned against two namesakes: Alauddin Ri'ayat Syah Sayyid al-Mukammal, the tenth sultan (r. 1589–1604, died 1605 — a separate English article), and Alauddin Riayat Syah I of Malacca; this record is the third sultan, al-Qahhar, who died in 1571."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-149b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

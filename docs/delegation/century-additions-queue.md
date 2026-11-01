@@ -801,11 +801,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Kenan Sofuoğlu — 1984–Living
 - [x] Toprak Razgatlıoğlu — 1996–Living
 - [x] Lando Norris (Contemporary Motorsport) — 1999–Living
-- [ ] Rio Haryanto — 1993–Living
-- [ ] Alex Yoong — 1976–Living
-- [ ] Jazeman Jaafar — 1992–Living
-- [ ] Hafizh Syahrin — 1994–Living
-- [ ] Sheikh Hasher Al Maktoum — 1985–Living
+- [x] Rio Haryanto — 1993–Living
+- [x] Alex Yoong — 1976–Living
+- [x] Jazeman Jaafar — 1992–Living
+- [x] Hafizh Syahrin — 1994–Living
+- [x] Sheikh Hasher Al Maktoum — 1985–Living
 - [ ] Khaled Al Qubaisi — 1975–Living
 - [ ] Yazeed Al-Rajhi — 1981–Living
 - [ ] Reema Juffali — 1992–Living
@@ -1727,11 +1727,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Askia Muhammad I (Askia the Great) — 1443–1538
 - [x] Askia Dawud — 1549–1582
 - [x] Askia Ishaq II — 1550–1595
-- [ ] Sultan Ali Mughayat Syah — 1480–1530
-- [ ] Sultan Alaudin Riayat Syah of Aceh — 1500–1571
-- [ ] Sultan Iskandar Muda — 1583–1636
-- [ ] Sultan Trenggana of Demak — 1483–1546
-- [ ] Maulana Yusuf of Banten — 1526–1570
+- [x] Sultan Ali Mughayat Syah — 1480–1530
+- [x] Sultan Alaudin Riayat Syah of Aceh — 1500–1571
+- [x] Sultan Iskandar Muda — 1583–1636
+- [x] Sultan Trenggana of Demak — 1483–1546
+- [x] Maulana Yusuf of Banten — 1526–1570
 - [ ] Panembahan Ratu — 1540–1650 (CSV lifespan suspect; verify at build)
 - [ ] Sultan Alauddin of Gowa — 1587–1639
 - [ ] Muhammad Shaybani — 1451–1510
