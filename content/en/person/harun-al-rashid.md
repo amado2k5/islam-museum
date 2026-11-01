@@ -60,3 +60,6 @@ Harun ibn Muhammad al-Mahdi al-Rashid, fifth Abbasid caliph. Al-Baladhuri record
 
 ## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
 The Sheikh relates that a righteous man came in to Harun al-Rashid as he called for a cup of water and asked him: for how much would you buy it if it were withheld while you were dying of thirst? Half my kingdom. And if it stayed in you and would not come out? The other half. Then, said the man, woe to a kingdom not worth a drink of water going in and coming out (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:07:00}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that when death came to Harun al-Rashid he said: O You whose kingdom never passes away, have mercy on one whose kingdom has passed away (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30}

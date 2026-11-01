@@ -30,3 +30,6 @@ The author notes that most of the Arabs followed Isma'il's call when he invited 
 
 ## For young visitors
 Isma'il, son of Ibrahim, grew up in Mecca and married into the tribe of Jurhum. He built the Ka'ba with his father, and many Arab tribes trace their descent to him.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that the wonder of the sacrifice story is not Ibrahim telling his son of the vision but Isma'il's reception of it: 'O my father, do as you are commanded; you will find me, God willing, among the patient', because he knew the command was from God; he quotes the sira books that he helped his father, asking to be laid on his face so that pity would not overtake him, to be bound tightly so his blood would not spatter his clothes, and that his shirt be given to his mother to console her (needs_source: from the sira books as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:08:00}

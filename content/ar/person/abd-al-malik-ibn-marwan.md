@@ -84,3 +84,6 @@ translators: []
 - **الخاتم وبيوت الأموال والخزائن:** [[person/qabisa-ibn-dhuayb|قبيصة بن ذؤيب الخزاعي]] (فمات)، ثم عمر بن الحارث {cite:tarikh-khalifa-umari-1985 p. 299}
 - **الحاجب:** أبو يوسف مولاه {cite:tarikh-khalifa-umari-1985 p. 299}
 - **الحرس:** عدي بن عياش مولى لحمير (في الحاشية: ابن أبي عياش)، ثم [[person/abu-al-zaizaa|أبو الزعيزعة]] (جمعه له مع الرسائل)، ثم الريان بن خالد بن الريان مولى بني محارب (فمات)، ثم خالد بن الريان (ابنه، حتى مات عبد الملك) {cite:tarikh-khalifa-umari-1985 p. 299}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن عبد الملك بن مروان مرّ في دمشق فسمع ضوضاء، فقيل له إن ميتًا يُغسَّل، فأراد أن يحضر غسله، ويرى الشيخ أن تغسيل الأموات وتكفينهم موعظة بليغة: يُقلَّب بين يدي المغسّل من كانت تُفتح له الأبواب والتشريفات (needs_source: الخبر كما رواه الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:05:00} ويضيف أن المولود يولد قابضًا يديه كأنه يمسك الدنيا، وأن أهل الميت يفتحون يديه، فلا بد أن يسلّم ما لديه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:06:00}
