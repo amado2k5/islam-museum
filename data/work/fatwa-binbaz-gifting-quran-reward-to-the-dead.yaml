@@ -13,6 +13,21 @@ languages: [ar]
 sources: [source/binbaz]
 relations:
   - { type: about, target: concept/sadaqa, sources: [source/binbaz] }
+issue: { ar: "هل يصل ثواب قراءة القرآن المهداة إلى الميت؟", en: "Does the reward of Qur'an recitation gifted to the dead reach them?", ur: "کیا میت کو ہدیہ کیا گیا قرآن خوانی کا ثواب اسے پہنچتا ہے؟" }
+perspectives:
+  - tradition: sunni
+    id: reaches
+    standing: main
+    stance: { ar: "الثواب يصل", en: "The reward reaches the dead", ur: "ثواب میت کو پہنچتا ہے" }
+    summary: { ar: "ذكر ابن باز أن أكثر أهل العلم يرون أن ثواب القراءة المهداة يصل إلى الميت.", en: "Ibn Baz reported that most scholars hold that the reward of recitation gifted to the dead reaches them.", ur: "ابن باز نے ذکر کیا کہ اکثر اہلِ علم کے نزدیک ہدیہ کی گئی قرأت کا ثواب میت کو پہنچتا ہے۔" }
+    sources: [source/binbaz]
+  - tradition: sunni
+    id: not-transmitted
+    standing: main
+    stance: { ar: "لم يرد فعله، والأولى تركه", en: "It is not reported, and is better left", ur: "یہ منقول نہیں، اور اسے چھوڑنا بہتر ہے" }
+    summary: { ar: "ذكر ابن باز أن آخرين قالوا إنه لم يرد فعله عن النبي ولا عن الصحابة، ورأى هو أن الأولى تركه والاكتفاء بالصدقة والدعاء.", en: "Ibn Baz reported that others say it is not reported from the Prophet or the Companions, and he himself held that it is better left in favour of charity and supplication.", ur: "ابن باز نے ذکر کیا کہ دوسروں کے نزدیک یہ نبی یا صحابہ سے منقول نہیں، اور ان کی اپنی رائے یہ تھی کہ اسے چھوڑ کر صدقہ اور دعا پر اکتفا بہتر ہے۔" }
+    holders: [person/ibn-baz-abd-al-aziz]
+    sources: [source/binbaz]
 provenance:
   layer: own-research
   source: "binbaz.org.sa fatwa 4002; read 1 Nov 2026."
