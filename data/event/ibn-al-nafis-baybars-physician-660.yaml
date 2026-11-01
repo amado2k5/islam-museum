@@ -1,0 +1,28 @@
+id: event/ibn-al-nafis-baybars-physician-660
+class: event
+kind: other
+label:
+  ar: "ابن النفيس رئيساً لأطباء مصر وطبيباً خاصاً للظاهر بيبرس، نحو ٦٥٨هـ"
+  en: "Ibn al-Nafis becomes Chief Physician of Egypt and personal physician of Baybars, c. 658/1260"
+  ur: "ابن نفیس مصر کے رئیس الاطباء اور سلطان ظاہر بیبرس کے خصوصی طبیب بنتے ہیں، تقریباً 658ھ/1260ء"
+summary:
+  ar: "انتهت إليه رياسة الطب بالديار المصرية {cite:tarikh-islam-dhahabi s.a. 687 p. 312}، وأُعطي منصب كبير أطباء مصر وصار الطبيب الخاص للسلطان الظاهر بيبرس {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ ودرّس الفقه الشافعي بالمدرسة المسرورية، وكان النحوي أبو حيان الغرناطي تلميذه في المنطق {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}، وذلك في عهد بيبرس (٦٥٨–٦٧٦هـ)؛ ويروي السويدان أنه انتقل إلى مستشفى قلاوون وصار طبيباً خاصاً للظاهر بيبرس {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:10:30}."
+  en: "Headship of medicine in Egypt came to rest with him {cite:tarikh-islam-dhahabi s.a. 687 p. 312}: he was given the post of Chief Physician of Egypt and became the personal physician of sultan Baybars {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}. He also lectured on Shafi'i law at the Masruriyya madrasa, where the grammarian Abu Hayyan al-Gharnati was his disciple in logic {cite:encyclopaedia-of-islam-2 vol. 3 p. 897} — all within Baybars's reign (658–676/1260–1277); al-Suwaydan has him move to Qalawun's hospital as Baybars's private physician {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:10:30}."
+  ur: "مصر کے دیار میں طب کی ریاست ان ہی کے پاس آ کر رکی {cite:tarikh-islam-dhahabi s.a. 687 p. 312}: انھیں رئیس الاطباء کا منصب ملا اور وہ سلطان ظاہر بیبرس کے خصوصی طبیب بنے {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}۔ انھوں نے مدرسہ مسروریہ میں شافعی فقہ پڑھایا جہاں ماہرِ نحو ابو حیان غرناطی منطق میں ان کے شاگرد تھے {cite:encyclopaedia-of-islam-2 vol. 3 p. 897} — یہ سب بیبرس کے عہد (658–676ھ/1260–1277ء) میں؛ سویدان کے مطابق وہ اسپتالِ قلاوون منتقل ہو کر بیبرس کے خاص طبیب بنے {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:10:30}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1260~", hijri: "0658~", calendar: julian, precision: year, status: tradition, derived: true, note: "طبيباً خاصاً للظاهر بيبرس ورئيساً لأطباء مصر في عهده ٦٥٨–٦٧٦هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ التاريخ تقريبي داخل العهد والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "رئيس الأطباء والطبيب الخاص", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/encyclopaedia-of-islam-2, source/assabile-tareq-al-suwaidan] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/assabile-tareq-al-suwaidan]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed p. 897; al-Dhahabi, Tarikh al-Islam s.a. 687, printed p. 312 (harvest OCR 01.-_20240823__51); Tariq al-Suwaydan, al-Mubdi'un ep. 17 (registered source)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
