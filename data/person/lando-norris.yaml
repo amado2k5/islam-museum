@@ -1,0 +1,36 @@
+id: person/lando-norris
+class: person
+label: { ar: "لاندو نوريس", en: "Lando Norris", ur: "لینڈو نورس" }
+names:
+  - { value: "Lando Norris", kind: full }
+  - { value: "لاندو نوريس", kind: full }
+gender: male
+summary:
+  ar: "سائق سباقات بريطاني، وُلد في بريستول سنة 1999. سائق ماكلارين في الفورمولا 1 منذ 2019؛ حقق فوزه الأول في جائزة ميامي الكبرى سنة 2024 وفاز ببطولة العالم للسائقين سنة 2025."
+  en: "British racing driver, born in Bristol in 1999. McLaren's Formula One driver since 2019, he took his first Grand Prix win at Miami in 2024 and won the Formula One World Drivers' Championship in 2025."
+  ur: "برطانوی ریسنگ ڈرائیور، جو 1999 میں برسٹل میں پیدا ہوئے۔ 2019 سے میک لارن کے فارمولا 1 ڈرائیور؛ انہوں نے 2024 میں میامی گراں پری میں اپنی پہلی جیت حاصل کی اور 2025 میں فارمولا 1 عالمی ڈرائیورز چیمپئن شپ جیتی۔"
+roles: [racing driver]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1999-11-13"
+  hijri: "1420"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 13 November 1999 in Bristol. No place entity for Bristol exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1420 is the tabular conversion of 13 November 1999 and is marked derived."
+  sources: [source/wikipedia-lando-norris-en, source/wikipedia-lando-norris-tr, source/wikipedia-lando-norris-ar, source/wikidata-lando-norris]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Turkish or Arabic articles names a religion for him, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no affiliation is asserted."
+    sources: [source/wikipedia-lando-norris-en, source/wikipedia-lando-norris-tr, source/wikipedia-lando-norris-ar, source/wikidata-lando-norris]
+external_ids: { wikidata: "Q22007193" }
+sources: [source/wikipedia-lando-norris-en, source/wikipedia-lando-norris-tr, source/wikipedia-lando-norris-ar, source/wikidata-lando-norris]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382934744), Turkish Wikipedia (revision 38159854), Arabic Wikipedia (revision 76584373) and Wikidata Q22007193 (item revision 2560166228, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-148a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

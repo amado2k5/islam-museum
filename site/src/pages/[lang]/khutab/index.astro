@@ -1,0 +1,47 @@
+---
+// The Khutab and Durus Explorer (docs/plan/25-khutab-durus-explorer.md): the sermons (khutab) written from the
+// Jamharat Khutab al-'Arab, and the recorded lesson series (durus), each linked to its own page and its source.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryOf, realNodes } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const K = T.khutab;
+const works = realNodes.filter((n: any) => n.class === "work");
+const sermons = works.filter((n: any) => n.data.kind === "sermon").sort((a: any, b: any) => String(a.id).localeCompare(String(b.id)));
+const series = works.filter((n: any) => n.data.kind === "lecture-series").sort((a: any, b: any) => String(a.id).localeCompare(String(b.id)));
+const count = (n: number) => K.count.replace("{n}", String(n));
+---
+<BaseLayout lang={lang} title={K.title} description={K.lede} path={`/${lang}/khutab/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <section>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.explore.label}</p>
+      <h1>{K.title}</h1>
+      <p>{K.lede}</p>
+    </section>
+
+    <section aria-labelledby="khutab-sermons">
+      <h2 id="khutab-sermons">{K.sermons} <span class="ui muted">{count(sermons.length)}</span></h2>
+      {sermons.length === 0 ? <p class="muted">{K.empty}</p> : (
+        <ul role="list">
+          {sermons.map((n: any) => (
+            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
+          ))}
+        </ul>
+      )}
+    </section>
+
+    <section aria-labelledby="khutab-series">
+      <h2 id="khutab-series">{K.series} <span class="ui muted">{count(series.length)}</span></h2>
+      {series.length === 0 ? <p class="muted">{K.empty}</p> : (
+        <ul role="list">
+          {series.map((n: any) => (
+            <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a><p class="muted">{summaryOf(n, lang)}</p></li>
+          ))}
+        </ul>
+      )}
+    </section>
+  </div>
+</BaseLayout>

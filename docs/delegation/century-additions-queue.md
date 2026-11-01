@@ -796,11 +796,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nur Tatar — 1992–Living
 - [x] Merve Dinçel — 1999–Living
 - [x] Yusuf Dikeç — 1973–Living
-- [ ] Şahika Ercümen — 1985–Living
-- [ ] Yasemin Dalkılıç — 1979–Living
-- [ ] Kenan Sofuoğlu — 1984–Living
-- [ ] Toprak Razgatlıoğlu — 1996–Living
-- [ ] Lando Norris (Contemporary Motorsport) — 1999–Living
+- [x] Şahika Ercümen — 1985–Living
+- [x] Yasemin Dalkılıç — 1979–Living
+- [x] Kenan Sofuoğlu — 1984–Living
+- [x] Toprak Razgatlıoğlu — 1996–Living
+- [x] Lando Norris (Contemporary Motorsport) — 1999–Living
 - [ ] Rio Haryanto — 1993–Living
 - [ ] Alex Yoong — 1976–Living
 - [ ] Jazeman Jaafar — 1992–Living
@@ -1722,11 +1722,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [~] Muqarrab Khan — 1570–1646 — STOPPED (wave 147 §B): those dates select Shaikh Hasan Hassu, Jahangir's surgeon (Rezavi 1992), but Q6937143 and the current EN/UR articles are the later Golconda commander (fl. 1675–1689); the surgeon has no Wikipedia article and no Wikidata item was found under any name variant — founder decision pending (build from scholarship alone, or leave stopped).
 - [x] Sultan Salima Sultan Begum — 1539–1613
 - [x] Sinan Reis — 1470–1546
-- [ ] Shah Mohammad Khodabanda — 1532–1595
-- [ ] Shah Abbas the Great (Abbas I) — 1571–1629
-- [ ] Askia Muhammad I (Askia the Great) — 1443–1538
-- [ ] Askia Dawud — 1549–1582
-- [ ] Askia Ishaq II — 1550–1595
+- [x] Shah Mohammad Khodabanda — 1532–1595
+- [x] Shah Abbas the Great (Abbas I) — 1571–1629
+- [x] Askia Muhammad I (Askia the Great) — 1443–1538
+- [x] Askia Dawud — 1549–1582
+- [x] Askia Ishaq II — 1550–1595
 - [ ] Sultan Ali Mughayat Syah — 1480–1530
 - [ ] Sultan Alaudin Riayat Syah of Aceh — 1500–1571
 - [ ] Sultan Iskandar Muda — 1583–1636
@@ -1769,7 +1769,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Sultan Mahmud Shah of Malacca — 1480–1528
 - [ ] Tun Perak — 1410–1498
 - [ ] Sonni Ali Ber — 1440–1492
-- [ ] Askia Muhammad I (Askia the Great) — 1443–1538 (also in §G — build once)
+- [x] Askia Muhammad I (Askia the Great) — 1443–1538 (also in §G — build once)
 - [ ] Guru Nanak — 1469–1539 (flagged: the list itself annotates him a contemporary interaction, founder of Sikhism — kept per the modern-list honoured-contemporary precedent; Ahmad may strike)
 - [ ] Kabir Das — 1398–1518 (flagged: syncretic mystic poet claimed by multiple traditions — kept per the same precedent; Ahmad may strike)
 

@@ -49,6 +49,9 @@ a11y:
   prefs_links: Underline all links
   prefs_note: 'Saved on this device only — nothing is sent anywhere.'
 landing:
+  fatwa_title: "Fatwas"
+  fatwa_lede: "Selections from Al-Azhar fatwas against popular innovations, from Fatawa A'immat al-Muslimin, with each ruling and its page."
+  fatwa_cta: "Read the fatwas"
   eyebrow: A digital museum · open to everyone
   title_pre: A museum for the
   title_strong: whole story
@@ -1092,6 +1095,13 @@ explore:
       title: "Timeline Explorer"
       desc: "Walk a person's, an era's or a city's story stop by stop on an interactive timeline."
       menu: "Walk a story through time"
+    khutab:
+      title: "Khutab and Durus Explorer"
+      desc: "Historical sermons from the khutab collections and recorded lesson series, each linked to its text and its source."
+    poetry:
+      title: "The Poetry Anthology"
+      desc: "The documented poems arranged under their poets, each with its occasion and context."
+      menu: "Read poetry by its poets"
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -2429,3 +2439,11 @@ world:
       u: "https://datareportal.com/"
     - l: "OIC — member states"
       u: "https://www.oic-oci.org/"
+
+khutab:
+  title: "Khutab and Durus Explorer"
+  lede: "Historical sermons from the khutab collections and recorded lesson series, each linked to its text and its source."
+  sermons: "Historical sermons"
+  series: "Recorded lesson series"
+  empty: "No entries yet."
+  count: "{n} entries"
