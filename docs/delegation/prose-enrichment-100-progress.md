@@ -474,6 +474,16 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 - **place/setif.** pp. 260 and 269 give about seventy words (a large fortress populous as a city, much water and fruit, walnuts exported, two stages from Bijaya, four from Constantine); p. 270 mixes the tribe's customs into the passage and is not used. Lead.
 - **place/orleans.** pp. 736, 743, 862 give only distances (sixty miles from Tours and from Itruwish) and a line on a settled city with markets and crafts. Lead.
 
+## n–z batch 18 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 18
+
+- **place/nawqan** (Idrisi pp. 692, 693, 694). Town of the Nishapur region, tomb of Ali ibn Musa al-Rida, the quarry and mines, its decline after the Tahirids, the stages from Nishapur.
+- **place/nantes** (pp. 855, 856, 857). First town of Britain (Brittany), at the bottom of a gulf, distances from Belfir and Shant Mijal, the sea road to Bats.
+- **place/tamdafus** (pp. 258, 259, 273). Ruined anchorage eighteen miles east of Algiers; Marsa al-Dajaj as neighbour.
+- **place/taqarart** (pp. 244, 245). **Corrected the data summary**: p. 244 says "the city of Miknasa is the one called Taqarart", so Taqarart is Meknes itself and about a quarter of a mile from Bani Ziyad, not ten miles from Meknes. `place/meknes` also exists in the graph; the two records likely name the same city, and the merge (one becomes an alias of the other) is left to the founder or a consolidation pass.
+- **place/qasr-al-qashib** (pp. 153, 154). The Marib palace, the Arim dam and its flood as al-Idrisi relates them, the stages to Zafar and Shibam.
+
 ## n–z batch 17 (Claude Sonnet 5.5, place, Idrisi)
 
 ### Enriched, batch 17
