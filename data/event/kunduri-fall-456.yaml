@@ -1,0 +1,29 @@
+id: event/kunduri-fall-456
+class: event
+kind: other
+label:
+  ar: "وفاة طغرل بك وسقوط الكندري ورفع اللعن، ٤٥٦هـ"
+  en: "Tughril Beg dies, al-Kunduri falls, and the cursing is rescinded, 456/1064"
+  ur: "طغرل بیک کی وفات، کندری کا قتل اور لعن کا خاتمہ، 456ھ/1064ء"
+summary:
+  ar: "لم يمكث طغرل بك بعد إذنه باللعن وحبس القشيري إلا زماناً يسيراً حتى توفي سنة ٤٥٥هـ، وتسلطن بعده ولده ألب أرسلان، ولم يلبث الكندري إلا يسيراً حتى قتل شرّ قتلة سنة ٤٥٦هـ؛ ثم أسفر صباح الزمان عن طلعة الوزير نظام الملك فأمر بإسقاط ذكر اللعن وتأديب من فعله {cite:tabaqat-shafiiyya-subki p. 272}؛ وقتله ألب أرسلان بمرو الروذ في آخر سنة ست وخمسين وأربعمائة {cite:shadharat-dhahab p. 309}."
+  en: "Tughril Beg survived his permission of the cursing and the imprisonment of al-Qushayri by only a short while, dying in 455/1063; his son Alp Arslan succeeded him, and al-Kunduri was killed at Marw al-Rudh at the end of 456/1064; then the age dawned with vizier Nizam al-Mulk, who ordered the mention of cursing dropped and its perpetrators disciplined {cite:tabaqat-shafiiyya-subki p. 272; cite:shadharat-dhahab p. 309}."
+  ur: "طغرل بیک نے لعن کی اجازت اور قشیری کی قید کے بعد زیادہ عرصہ نہ پایا اور 455ھ/1063ء میں فوت ہوا؛ اس کے بعد اس کا بیٹا الب ارسلان سلطان بنا اور کندری کو 456ھ/1064ء کے آخر میں مروالروذ میں قتل کیا گیا؛ پھر وزیر نظام الملک کے دور نے طلوع پایا جس نے لعن کا ذکر ختم کرنے اور فتنہ پھیلانے والوں کی تنبیہ کا حکم دیا {cite:tabaqat-shafiiyya-subki p. 272; cite:shadharat-dhahab p. 309}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1064", hijri: "0456", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل الكندري آخر سنة ٤٥٦هـ بمرو الروذ {cite:shadharat-dhahab p. 309}؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "الناجي العائد", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الوزير المقتول", sources: [source/tabaqat-shafiiyya-subki, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/alp-arslan, role: "السلطان الجديد", sources: [source/tabaqat-shafiiyya-subki, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/nizam-al-mulk, role: "الوزير آمراً بإسقاط اللعن", sources: [source/tabaqat-shafiiyya-subki] }
+sources: [source/tabaqat-shafiiyya-subki, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, printed p. 272 (harvest OCR); Ibn al-Imad, Shadharat al-Dhahab p. 309 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

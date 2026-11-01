@@ -1,26 +1,47 @@
 id: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn
 class: person
-label: { ar: "البيهقي أبو بكر أحمد بن الحسين", en: "al-Bayhaqi Abu Bakr Ahmad ibn al-Husayn" }
+label: { ar: "البيهقي", en: "al-Bayhaqi", ur: "بيهقی" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر أحمد بن الحسين بن علي بن موسى البيهقي" }
   - { kind: kunya, lang: ar, value: "أبو بكر" }
   - { kind: nisba, lang: ar, value: "البيهقي" }
   - { kind: nisba, lang: ar, value: "الخسروجردي" }
 gender: male
-roles: [scholar, jurist]
+born: { edtf: "0994~", hijri: "0384", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1066~", hijri: "0458", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
+roles: [scholar, muhaddith, jurist]
 traditions: [sunni]
-born: { edtf: "0994", hijri: "0384", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1066", hijri: "0458", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "الإمام الحافظ المحدّث الأصولي الفقيه أبو بكر أحمد بن الحسين البيهقي، من خسروجرد بخراسان، ولد سنة 384هـ (994م) وتوفي سنة 458هـ (1066م)."
-  en: "Imam, hadith memorist, legal theorist and jurist Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi of Khusrawjird in Khurasan; born 384 AH (994 CE), died 458 AH (1066 CE)."
+  ar: "الحافظ المحدث الأصولي أبو بكر أحمد بن الحسين البيهقي، من خسروجرد ببيهق؛ رحل في طلب الحديث حتى قيل إنه حدّث عن نحو مائة شيخ، وأخذ عن الحاكم النيسابوري، وشهد فتنة الكندري على الأشاعرة سنة ٤٤٥هـ فكتب رسالته المشهورة إلى عميد الملك، وهاجر مع أهل العلم إلى الحجاز، ثم عاد فتوفي بنيسابور سنة ٤٥٨هـ ودُفن بخسروجرد."
+  en: "The hadith memorist, legal theorist and jurist Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi of Khusrawjird in the Bayhaq district; he travelled widely for hadith and is credited with about a hundred shaykhs, studied under al-Hakim al-Nisaburi, witnessed the Kunduri persecution of the Ash'aris in 445/1053 and wrote his famous letter to the vizier Amid al-Mulk, joined the scholars' exodus to the Hijaz, then returned and died at Nishapur in 458/1066, buried at Khusrawjird."
+  ur: "حافظِ حدیث، اصولی اور فقیہ ابو بکر احمد بن حسین بيهقی، جو بيهق کے علاقے خسروجرد سے تھے؛ انہوں نے طلبِ حدیث میں وسیع سفر کیے اور تقریباً سو شیوخ سے روایت کی، حاکم نیشاپوری سے پڑھا، 445ھ/1053ء میں کندری کے اصحابِ اشعری پر مظالم دیکھے اور وزیر عمید الملک کے نام اپنی مشہور رسالہ لکھی، علماء کے ہجرتِ حجاز میں شریک ہوئے، پھر واپس آئے اور 458ھ/1066ء میں نیشاپور میں فوت ہوئے اور خسروجرد میں دفن کیے گئے۔"
 wings: [people]
 themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 story_roles:
-  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: born_in, target: place/bayhaq, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/al-hakim-al-nisaburi, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/sunan-al-kubra-bayhaqi, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: authored, target: work/dalail-al-nubuwwa-bayhaqi, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: authored, target: work/al-adab-bayhaqi, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: authored, target: work/al-itiqad-wal-hidaya-bayhaqi, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/bayhaqi-studies-hakim-400, role: "الطالب المحدّث", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/bayhaqi-rihla-hadith-430, role: "الرحّالة في طلب الحديث", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nishapur-ashari-fitna-445, role: "شاهد العصر والمتضرّر من الفتنة", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/bayhaqi-letter-amid-al-mulk-446, role: "كاتب الرسالة", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/ulama-hijra-nishapur-450, role: "العالم المهاجر حاجًّا", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/kunduri-fall-456, role: "الناجي العائد", sources: [source/tabaqat-shafiiyya-subki, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/bayhaqi-settles-nishapur-457, role: "المحدّث المقيم", sources: [source/encyclopaedia-of-islam-2] }
 external_ids: { wikidata: "Q293663" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 316-317, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص316", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+sources: [source/encyclopaedia-of-islam-2, source/tabaqat-shafiiyya-subki, source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 art. AL-BAYHAKI printed p. 1190 (harvest OCR); al-Subki, Tabaqat al-Shafi'iyya al-Kubra, printed pp. 269-276 (harvest OCR); Mawsu'at A'lam al-Ulama' wal-Udaba' (Alexu/Dar al-Jil 2004) j.4 p. 316; Ibn al-Imad, Shadharat al-Dhahab p. 309 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
