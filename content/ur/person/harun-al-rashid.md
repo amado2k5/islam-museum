@@ -57,3 +57,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - **حرس:** جعفر بن محمد بن الأشعث، پھر عبد الله بن مالك، پھر [[person/ali-ibn-isa-ibn-mahan|علي بن عيسى بن ماهان]]، پھر [[person/jafar-ibn-yahya-al-barmaki|جعفر بن يحيى بن خالد]] («فولى صالح بن شيخ بن عميرة»)، پھر [[person/harthama-ibn-ayan|هرثمة بن أعين]] («ولاه جعفر فأقره هارون») {cite:tarikh-khalifa-umari-1985 p. 465}
 - **حاجب:** بشير بن ميمون مولاه، پھر محمد بن خالد بن برمك، پھر [[person/fadl-ibn-al-rabi|الفضل بن الربيع]] {cite:tarikh-khalifa-umari-1985 p. 465}
 - **وزیر:** يحيى بن خالد بن برمك («وزيره وصاحب أمره كله»)، پھر [[person/jafar-ibn-yahya-al-barmaki|جعفر بن يحيى]] («ثم قتله»)، پھر [[person/fadl-ibn-al-rabi|الفضل بن الربيع]] {cite:tarikh-khalifa-umari-1985 p. 465}
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ بیان کرتے ہیں کہ ایک نیک آدمی ہارون الرشید کے پاس آئے جب انہوں نے پانی کا پیالہ منگوایا، اور پوچھا: اگر یہ روک لیا جائے اور آپ پیاس سے مر رہے ہوں تو کتنے میں خریدیں گے؟ کہا: آدھی سلطنت میں۔ اور اگر یہ اندر رک جائے اور نہ نکلے؟ کہا: باقی آدھی میں۔ تو اس نے کہا: افسوس اس سلطنت پر جو اندر جانے اور باہر نکلنے والے ایک گھونٹ پانی کے برابر نہیں (needs_source: قصہ شیخ کی روایت ہے)۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:07:00}

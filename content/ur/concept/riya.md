@@ -14,3 +14,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 ## شیخ عمر عبدالکافی کے درس سے: الدین القیم
 
 شیخ ریاء، عجب، حسد، تکبر اور کینے کو دل کی ان بیماریوں میں شمار کرتے ہیں جنہیں پاک کرنا ضروری ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 01:11:00}۔ وہ اپنی رائے کے طور پر کہتے ہیں کہ دین کی دعوت دینے والا ایمان کو واضح طور پر پہنچائے، دکھاوے کے لیے نہیں، کیونکہ وہ لوگوں کے ذہنوں اور افکار کا امین ہے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:44:30}۔
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ اہلِ علم سے نقل کرتے ہیں کہ لوگوں کے لیے عمل کرنا شرک اور لوگوں کی وجہ سے عمل چھوڑنا ریا ہے، اور مثال دیتے ہیں اس شخص کی جو گھر میں دو رکعت آدھے منٹ میں پڑھتا ہے مگر مسجد میں اطمینان اور خشوع سے رکوع کرتا ہے تاکہ لوگ دیکھیں، اور اس کی جو چاہتا ہے کہ لوگ جانیں کہ وہ رات کو قیام کرتا، فجر مسجد میں پڑھتا اور صدقہ دیتا ہے؛ وہ اس شخص کو یاد دلاتے ہیں جس نے صدقہ ایسے چھپایا کہ بائیں ہاتھ کو خبر نہ ہوئی کہ دائیں نے کیا خرچ کیا۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:04:00} دیکھیے: [[question/what-is-ikhlas|اخلاص]]۔
