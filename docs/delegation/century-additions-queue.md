@@ -895,11 +895,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sajid Javid — 1969–Living
 - [x] Rehman Chishti — 1978–Living
 - [x] Nadhim Zahawi (Contemporary) — 1967–Living
-- [ ] Zarah Sultana — 1993–Living
-- [ ] Apsana Begum — 1990–Living
-- [ ] Adnan Khan — 1978–Living
-- [ ] Mohamed Al-Fayed — 1929–2023
-- [ ] Assem Allam — 1939–2022
+- [x] Zarah Sultana — 1993–Living
+- [x] Apsana Begum — 1990–Living
+- [~] Adnan Khan — 1978–Living — STOPPED: no public figure of this name born 1978 identifiable in any reliable source (Wikipedia full-text + Wikidata entity search/SPARQL + three web searches, wave 168 §A); nothing built, nothing substituted.
+- [x] Mohamed Al-Fayed — 1929–2023
+- [x] Assem Allam — 1939–2022
 - [ ] Farhad Moshiri — 1955–Living
 - [ ] Nassef Sawiris (Contemporary Icon) — 1961–Living
 - [ ] Naguib Sawiris (Contemporary Icon) — 1954–Living
