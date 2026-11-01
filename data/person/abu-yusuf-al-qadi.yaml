@@ -6,5 +6,18 @@ summary:
   en: "Abu Yusuf — the qadi whose corpus the Fihrist enumerates {cite:fihrist-ibn-al-nadim}. Tarikh Baghdad (#7558): seventeen years at Abu Hanifa's side, then seventeen given to the world; on his deathbed 'would that I had died in my former poverty — I never knowingly dealt unjustly in the judgeship'; Umm Ja'far's gift and his gloss that the gift-sharing hadith belonged to an age of cheese and dates; died 182 {cite:tarikh-baghdad-khatib j.11 p.242-252}."
 wings: [people]
 external_ids: { wikidata: "Q220697" }
+provenance:
+  layer: own-research
+  source: "As cited in this record (Fihrist, Ibn al-Nadim; Tarikh Baghdad, al-Khatib). The provenance block was missing from the record when first merged; restored from its own sources on 1 Nov 2026 by Claude Code (claude-haiku-5-5). The occupation entry (chief judge under Harun al-Rashid) is from TDV 'KADI' (F. Atar, vol. 24 pp. 66-69)."
+  generated_by: "Devin (SWE-2 High); restored by Claude Code (claude-haiku-5-5)"
+  run: "jobs-p1-s02"
 sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/qadi
+    kind: primary
+    place: place/baghdad
+    under: person/harun-al-rashid
+    status: historical
+    note: "Chief judge (qadi al-qudat) appointed by Harun al-Rashid, who used him to help choose the judges of the cities. The DİA entry records that the chief judge's powers over appointment and dismissal later grew."
+    sources: [source/tdv-kadi-atar]
