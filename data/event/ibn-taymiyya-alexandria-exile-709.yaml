@@ -1,0 +1,29 @@
+id: event/ibn-taymiyya-alexandria-exile-709
+class: event
+kind: persecution
+label:
+  ar: "منفى ابن تيمية في برج بإسكندرية، ٧٠٩هـ/١٣٠٩م"
+  en: "Ibn Taymiyya's exile in a tower at Alexandria, 709/1309"
+  ur: "ابن تیمیہ کا اسکندریہ کے برج میں جلاوطنی، 709ھ/1309ء"
+summary:
+  ar: "لما ولي بيبرس الجاشنكير السلطنة سنة ٧٠٨هـ عادت الاضطهادات: في ليلة ٢٩-٣٠ صفر ٧٠٩هـ/٧-٨ أغسطس ١٣٠٩م حُمل ابن تيمية في حراسة مشددة إلى الإسكندرية حيث أُقيم في إقامة جبرية ببرج من قصر السلطان، يستقبل الزوار ويكتب، فلقي هناك مارّين من المغاربة وصنّف في أشهر المنفى السبعة منها «الرد على المنطقيين» ورداً طويلاً — مفقود اليوم — على «المرشدة» لابن تومرت. ولما عاد الناصر محمد بن قلاوون إلى العرش في ١ شوال ٧٠٩هـ/٤ مارس ١٣١٠م أطلقه واستقبله بالقاهرة {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}."
+  en: "When Baybars al-Jashnikir took the sultanate in 708 the persecutions resumed: on the last night of Safar 709/7-8 August 1309 Ibn Taymiyya was taken under strong guard to Alexandria and confined in a tower of the sultan's palace, allowed to receive visitors and to write. During the seven months of exile he met Maghribis passing through and composed important works, among them the Radd 'ala al-Mantiqiyyin and a long refutation (now lost) of Ibn Tumart's Murshida. When al-Nasir Muhammad ibn Qalawun regained the throne on 1 Shawwal 709/4 March 1310 he released Ibn Taymiyya and received him in audience at Cairo {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}."
+  ur: "جب بیبرس جاشنکیر 708ھ میں سلطان بنا تو اذیتیں پھر شروع ہوئیں: صفر 709ھ/7-8 اگست 1309ء کی آخری رات ابن تیمیہ کو سخت نگہبانی میں اسکندریہ پہنچایا گیا جہاں انہیں سلطان کے محل کے ایک برج میں نظربند رکھا گیا، ملاقات اور تصنیف کی اجازت کے ساتھ۔ سات ماہ کی جلاوطنی میں انہوں نے گزرنے والے مغرب کے مسافروں سے ملاقاتیں کیں اور اہم تصانیف لکھیں جن میں «الرد علی المنطقیین» اور ابن تومرت کی «المرشدہ» کا طویل رد (آج مفقود) شامل ہیں۔ جب الناصر محمد بن قلاوون 1 شوال 709ھ/4 مارچ 1310ء کو دوبارہ تخت پر آیا تو انہیں رہا کر کے قاہرہ میں ملاقات دی {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1309-08-08", hijri: "0709-02~", calendar: julian, precision: day, status: historical, derived: true, note: "نُقل إلى الإسكندرية ليلة آخر صفر ٧٠٩هـ/٧-٨ أغسطس ١٣٠٩م {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}؛ التحويل مشتق." }
+  end: { edtf: "1310-03-04", hijri: "0709-10-01", calendar: julian, precision: day, status: historical, derived: true, note: "أُطلق بعودة الناصر في ١ شوال ٧٠٩هـ/٤ مارس ١٣١٠م {cite:encyclopaedia-of-islam-2 vol. 3 p. 984}." }
+relations:
+  - { type: occurred_at, target: place/alexandria, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المنفي الكاتب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 984 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

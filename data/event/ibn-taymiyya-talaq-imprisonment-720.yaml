@@ -1,0 +1,28 @@
+id: event/ibn-taymiyya-talaq-imprisonment-720
+class: event
+kind: persecution
+label:
+  ar: "فتاوى الطلاق وسجن قلعة دمشق، ٧١٨-٧٢١هـ/١٣١٨-١٣٢١م"
+  en: "The divorce fatwas and the Damascus citadel imprisonment, 718-721/1318-1321"
+  ur: "طلاق کے فتاویٰ اور قلعہ دمشق کی قید، 718-721ھ/1318-1321ء"
+summary:
+  ar: "في ٧١٨هـ/١٣١٨م جاء مكتوب السلطان ينهى ابن تيمية عن الإفتاء في الطلاق بخلاف مذهب الحنابلة الجاري؛ كان قد أنكر وقوع الطلاق الثلاث بلفظ واحد وعدّ يمين الطلاق يميناً واحدة إن لم يُنوَ بها الطلاق. عُقد مجلسان برئاسة تنكز في ٧١٨هـ و٧١٩هـ ثم مجلس ثالث في ٢٠ رجب ٧٢٠هـ/٢٦ أغسطس ١٣٢٠م اتهمه بمخالفة نهي السلطان وحكم عليه بالسجن، فحُبس في قلعة دمشق نحو خمسة أشهر حتى أفرج عنه مكتوب الناصر في ١٠ محرم ٧٢١هـ/٩ فبراير ١٣٢١م {cite:encyclopaedia-of-islam-2 vol. 3 p. 985}."
+  en: "In 718/1318 a letter from the sultan forbade Ibn Taymiyya to issue fatwas on repudiation contrary to prevailing Hanbali doctrine: he had denied that three repudiations uttered at once took effect and counted an oath of repudiation a single oath where no repudiation was intended. Two councils presided over by Tankiz in 718 and 719 were followed by a third on 20 Rajab 720/26 August 1320, which found him in breach of the prohibition and condemned him to prison; he spent just over five months in the Damascus citadel, released on 10 Muharram 721/9 February 1321 by decree of al-Malik al-Nasir {cite:encyclopaedia-of-islam-2 vol. 3 p. 985}."
+  ur: "718ھ/1318ء میں سلطان کے فرمان نے ابن تیمیہ کو حنبلی مسلک کے خلاف طلاق کے فتاویٰ دینے سے روکا؛ انہوں نے ایک ہی لفظ میں تین طلاق کے واقع ہونے کا انکار اور طلاق کی قسم کو ایک ہی قسم شمار کیا تھا جب طلاق مراد نہ ہو۔ تنکز کی صدارت میں 718ھ اور 719ھ میں دو مجالس کے بعد تیسری مجلس 20 رجب 720ھ/26 اگست 1320ء کو انہیں حکم کی خلاف ورزی کا مرتکب پا کر قید کا حکم سنایا؛ وہ قلعہ دمشق میں پانچ ماہ سے کچھ زیادہ رہے اور 10 محرم 721ھ/9 فروری 1321ء کو الملک الناصر کے فرمان سے رہا ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 985}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1320-08-26", hijri: "0720-07-20", calendar: julian, precision: day, status: historical, derived: true, note: "المجلس الثالث والحكم بالسجن ٢٠ رجب ٧٢٠هـ/٢٦ أغسطس ١٣٢٠م {cite:encyclopaedia-of-islam-2 vol. 3 p. 985}؛ التحويل مشتق." }
+  end: { edtf: "1321-02-09", hijri: "0721-01-10", calendar: julian, precision: day, status: historical, derived: true, note: "الإفراج ١٠ محرم ٧٢١هـ/٩ فبراير ١٣٢١م {cite:encyclopaedia-of-islam-2 vol. 3 p. 985}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المفتي المسجون", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 985 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
