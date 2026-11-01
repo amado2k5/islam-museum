@@ -10,5 +10,10 @@ regions: [south-asia]
 coordinates: [30.1968, 71.4782]
 coordinate_precision: site
 external_ids: { geonames: "1169825" }
-sources: [source/fihrist-ibn-al-nadim, source/geonames-gazetteer, source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+sources: [source/fihrist-ibn-al-nadim, source/geonames-gazetteer, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; enriched by Devin (SWE-2 Medium) from EI2 vol. 7 MULTĀN" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN pp. 602-604 (PDF pages) — name (Arabic Multān for ancient Mulasthana), conquest 92-5/711-14, Ismaili emirate, Ghaznavid/Ghurid/Delhi-era rulers, Langah 1437-1526, Mughal suba, Durrani 1752, Sikh 1818, British 1848-9; monuments p. 604"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1

@@ -1,0 +1,24 @@
+id: event/mongol-raids-multan-643
+class: event
+kind: raid
+label: { ar: "الغارات المغولية على نواحي الملتان", en: "The Mongol raids on the Multan marches" }
+summary:
+  ar: "بينما نجت قلب الهند من موجة الغزو المغولي في القرن السابع الهجري (الثالث عشر الميلادي)، تكبدت أطرافها الغربية منها مراراً: هوجمت نواحي الملتان سنة ٦٤٣هـ/١٢٤٥م ثم ثانية سنة ٦٨٣هـ/١٢٨٤-١٢٨٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}. وفي سنة ٧٠٥هـ/١٣٠٥م دخل المغول تحت قيبق الهند وعبروا السند قرب الملتان، فهزمهم تغلق — غازي ملك — في مسيرة عودتهم؛ وتذكر نقشية رآها ابن بطوطة في جامع الملتان أن تغلق قاتل المغول تسعاً وعشرين مرة {cite:encyclopaedia-of-islam-2 vol. 4 p. 959-960}."
+  en: "While the Indian heartland escaped the 7th/13th-century wave of Mongol invasions, its western fringes suffered repeatedly: the Multan area was attacked in 643/1245 and again in 683/1284-5 {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}. In 705/1305 the Mongols under Kabak entered India and crossed the Indus near Multan, but Tughluq — Ghazi Malik — defeated them on their return march; an inscription Ibn Battuta saw in Multan's congregational mosque records that Tughluq fought the Mongols twenty-nine times {cite:encyclopaedia-of-islam-2 vol. 4 p. 959-960}."
+  ur: "جبکہ ہندوستان کا قلب ساتویں صدی ہجری کی مغول یلغار سے بچ نکلا، اس کے مغربی کنارے بار بار متاثر ہوئے: ملتان کا علاقہ 643ھ/1245ء اور پھر 683ھ/1284-85ء میں ہدف بنا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔ 705ھ/1305ء میں قِبَک کی قیادت میں مغول ہندوستان میں داخلے اور ملتان کے قریب دریائے سندھ عبور کیا، مگر واپسی پر تغلق — غازی ملک — نے انہیں شکست دی؛ ملتان کی جامع مسجد میں ابن بطوطہ نے ایک کتبہ دیکھا جس میں لکھا ہے کہ تغلق نے مغلوں سے انتس مرتبہ جنگ کی {cite:encyclopaedia-of-islam-2 vol. 4 p. 959-960}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+date:
+  start: { edtf: "1245", hijri: "0643", calendar: julian, precision: year, status: tradition, derived: true, note: "أول الغارات المدونة على نواحي الملتان سنة ٦٤٣هـ/١٢٤٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1305", hijri: "0705", calendar: julian, precision: year, status: tradition, derived: true, note: "غارة قيبق وعبور السند قرب الملتان سنة ٧٠٥هـ/١٣٠٥م {cite:encyclopaedia-of-islam-2 vol. 4 p. 959}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ghiyath-al-din-tughluq, role: "غازي ملك رادّ المغول", sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7 MULTĀN p. 603 (643 and 683 attacks) and vol. 4 pp. 959-960 (Kabak's 705/1305 crossing and the Multan inscription, PDF pages)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
