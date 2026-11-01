@@ -1,0 +1,67 @@
+id: person/tariq-ahmad
+class: person
+
+label: { ar: "طارق أحمد", en: "Tariq Ahmad", ur: "طارق احمد" }
+
+names:
+  - { value: "Tariq Mahmood Ahmad", kind: full }
+  - { value: "Baron Ahmad of Wimbledon", kind: alternate }
+  - { value: "طارق محمود أحمد", kind: full }
+
+gender: male
+
+summary:
+  ar: "طارق محمود أحمد، البارون أحمد أوف ويمبلدون (وُلد في 3 نيسان 1968 في لامبث بلندن)، رجل أعمال وسياسي محافظ بريطاني، ابن مهاجرين باكستانيين ناطقين بالبنجابية. عمل في المصارف والتمويل، ونال لقب لورد مدى الحياة سنة 2011، وتولى مناصب وزارية متتابعة حتى صار وزير دولة للشرق الأوسط وجنوب آسيا والأمم المتحدة (2017–2024)، وهو عضو في الجماعة الإسلامية الأحمدية."
+  en: "Tariq Mahmood Ahmad, Baron Ahmad of Wimbledon (born 3 April 1968 in Lambeth, London) is a British Conservative businessman and politician, the son of Punjabi-speaking Pakistani immigrants. He worked in banking and finance, was made a life peer in 2011, and held a succession of ministerial posts, most recently Minister of State for the Middle East, South Asia and the United Nations (2017-2024). He is a member of the Ahmadiyya Muslim Community."
+  ur: "طارق محمود احمد، بیرن احمد آف ویمبلڈن (پیدائش 3 اپریل 1968، لیمبیتھ، لندن) برطانوی کنزرویٹو کاروباری اور سیاست دان ہیں، جو پنجابی بولنے والے پاکستانی مہاجر والدین کے بیٹے ہیں۔ انہوں نے بینکاری اور مالیاتی شعبے میں کام کیا، 2011 میں تاحیات لارڈ بنے، اور پے در پے وزارتی عہدوں پر رہے، آخر میں وزیرِ مملکت برائے مشرقِ وسطیٰ، جنوبی ایشیا اور اقوامِ متحدہ (2017–2024) رہے۔ وہ احمدیہ مسلم جماعت کے رکن ہیں۔"
+
+roles: [politician, businessman]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1968-04-03"
+  hijri: "1388"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Lambeth, London on 3 April 1968; the English and Arabic articles and Wikidata agree (Wikidata also carries the date at month precision). The Hijri year 1388 is the tabular conversion of the built date, marked derived. No place entity for Lambeth or London exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-tariq-ahmad-en, source/wikipedia-tariq-ahmad-ar, source/wikidata-tariq-ahmad]
+
+relations: []
+
+faith:
+  - value: ahmadiyya
+    basis: documented
+    note: >-
+      His membership of the Ahmadiyya Muslim Community is attested
+      for the man himself in two independent texts. The English
+      Wikipedia article states in its own text that he "is a part
+      of the Ahmadiyya Muslim Community", and records that from
+      1999 to 2008 he served as vice-president of AMYA (Khuddam-ul
+      Ahmadiyya), the community's own British youth organisation,
+      cited to his own official website. The Evangelical Alliance,
+      an independent body, wrote in its own voice in July 2018 that
+      "Lord Ahmad is an Ahmadiyya Muslim", and quoted him on taking
+      up the religious-freedom envoy role - "As a man of faith, I
+      feel this very keenly." Community membership attested for the
+      man himself counts under the founder's rulings of
+      1 November 2026; his government offices were not used, and
+      his Wikidata item carries no religion statement at all.
+    sources: [source/wikipedia-tariq-ahmad-en, source/wikipedia-tariq-ahmad-ar, source/evangelical-alliance-lord-ahmad-2018, source/wikidata-tariq-ahmad]
+
+external_ids: { wikidata: "Q1237673" }
+
+sources:
+  - source/wikipedia-tariq-ahmad-en
+  - source/wikipedia-tariq-ahmad-ar
+  - source/wikidata-tariq-ahmad
+  - source/evangelical-alliance-lord-ahmad-2018
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Tariq Ahmad, Baron Ahmad of Wimbledon' (revision 1380569175 of 16 October 2026), Arabic Wikipedia article 'طارق محمود أحمد' (revision 77112398 of 30 October 2026), Wikidata Q1237673 (item revision 2562724346 of 30 October 2026) and the Evangelical Alliance statement of 5 July 2018, all fetched live in-session via the MediaWiki API or read in full on the publisher's site on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1968 is confirmed at day precision. The ahmadiyya settlement passes the brief's two-text test: the English article and the Evangelical Alliance each attest his Ahmadiyya membership for the man himself in their own text."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-166a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

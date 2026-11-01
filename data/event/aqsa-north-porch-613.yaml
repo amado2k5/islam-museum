@@ -1,0 +1,26 @@
+id: event/aqsa-north-porch-613
+class: event
+kind: other
+label:
+  ar: "ترميم الرواق الشمالي للمسجد الأقصى"
+  en: "Restoration of al-Aqsa's northern porch"
+  ur: "مسجدِ اقصیٰ کے شمالی برآمدے کی مرمت"
+summary:
+  ar: "رُمم الرواق الشمالي للمسجد الأقصى سنة 1217م، وأُعيدت الأقبية الشرقية والغربية في المسجد سنتي 1345 و1350م، فبقي بناء الأقصى في جوهره بناء فاطمياً حمل تفاصيل صليبية وأيوبية ومملوكية {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}."
+  en: "The mosque's northern porch was restored in 1217, and the eastern and western vaults were redone in 1345 and 1350 — so the Aqsa remained in essence a Fatimid building carrying Crusader, Ayyubid and Mamluk details {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}."
+  ur: "مسجد کا شمالی برآمدہ 1217ء میں مرمت ہوا اور مشرقی و مغربی محرابی حصے 1345ء اور 1350ء میں دوبارہ بنائے گئے؛ اس طرح مسجدِ اقصیٰ بنیادی طور پر فاطمی عمارت رہی جس پر صلیبی، ایوبی اور مملوکی تفصیلات جمع ہوتی گئیں {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1217", hijri: "0614~", calendar: julian, precision: year, status: tradition, derived: true, note: "رُمم الرواق الشمالي سنة 1217م؛ الأقبية 1345 و1350م {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 6, art. 'al-Masdjid al-Aksa' (O. Grabar), PDF p. 735, Apple Vision OCR (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-aqsa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -7,7 +7,9 @@ summary:
   en: "In 283 al-Tabari records, in what was reported in a letter from Tarsus, that the Saqaliba (Slavs) raided the Romans until they reached Constantinople, whose gates were shut. The Roman king then enlisted Muslims who were with him, and they drove the Saqaliba back; afterwards, fearing them, he sent the Muslims back and scattered them through the towns {cite:tabari-tarikh-abu-al-fadl j.10 p.45}."
 wings: [time]
 date:
-  start: { hijri: "0283", precision: year, status: historical, note: "ج10 ص45", sources: [source/tabari-tarikh-abu-al-fadl] }
+  start: { edtf: "0896~", hijri: "0283", calendar: julian, precision: year, status: historical, derived: true, note: "ج10 ص45؛ التحويل الميلادي مشتق", sources: [source/tabari-tarikh-abu-al-fadl] }
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 7", sources: [source/tabari-tarikh-abu-al-fadl] }
+provenance: { layer: own-research, source: "Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), j.10 p. 45", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 7", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }

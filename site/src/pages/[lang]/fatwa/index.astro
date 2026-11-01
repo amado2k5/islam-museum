@@ -1,0 +1,62 @@
+---
+// The Fatwa Explorer (docs/plan/25-fatwa-explorer.md): every `work` of kind fatwa, from the fatwa books and from the
+// fatwa websites, grouped by the source it was distilled from; each links to its own page and to the original page.
+// The museum records fatwas as history and attributes them; it never issues a ruling.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryOf, realNodes } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const F = T.fatwa;
+const byId = new Map<string, any>(realNodes.map((n: any) => [n.id, n]));
+const fatwas = realNodes.filter((n: any) => n.class === "work" && n.data.kind === "fatwa");
+const groups = new Map<string, any[]>();
+for (const n of fatwas) {
+  const sid = String((n.data.sources ?? [])[0] ?? "");
+  if (!groups.has(sid)) groups.set(sid, []);
+  groups.get(sid)!.push(n);
+}
+const sections = [...groups.entries()]
+  .map(([sid, list]) => ({ sid, src: byId.get(sid), list: list.sort((a: any, b: any) => String(a.id).localeCompare(String(b.id))) }))
+  .sort((a, b) => b.list.length - a.list.length || a.sid.localeCompare(b.sid));
+const count = (n: number) => F.count.replace("{n}", String(n));
+const slug = (sid: string) => `fatwa-${sid.replace(/[^a-z0-9]+/g, "-")}`;
+---
+<BaseLayout lang={lang} title={F.title} description={F.lede} path={`/${lang}/fatwa/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <section>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.explore.label}</p>
+      <h1>{F.title} <span class="ui muted">{count(fatwas.length)}</span></h1>
+      <p>{F.lede}</p>
+      <p class="muted">{F.note}</p>
+    </section>
+
+    {sections.length === 0 ? <p class="muted">{F.empty}</p> : (
+      <nav aria-labelledby="fatwa-by-source">
+        <h2 id="fatwa-by-source">{F.by_source}</h2>
+        <ul role="list">
+          {sections.map((s) => (
+            <li><a href={`#${slug(s.sid)}`}>{s.src ? labelOf(s.src, lang) : s.sid}</a> <span class="ui muted">{count(s.list.length)}</span></li>
+          ))}
+        </ul>
+      </nav>
+    )}
+
+    {sections.map((s) => (
+      <section aria-labelledby={slug(s.sid)}>
+        <h2 id={slug(s.sid)}>{s.src ? <a href={href(lang, s.sid)}>{labelOf(s.src, lang)}</a> : s.sid} <span class="ui muted">{count(s.list.length)}</span></h2>
+        <ul role="list">
+          {s.list.map((n: any) => (
+            <li>
+              <a href={href(lang, n.id)}>{labelOf(n, lang)}</a>
+              <p class="muted">{summaryOf(n, lang)}</p>
+              {n.data.url && <p class="ui"><a href={n.data.url} rel="noopener" hreflang={(n.data.languages ?? [])[0]}>{F.original}</a></p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

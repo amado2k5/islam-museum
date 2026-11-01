@@ -90,9 +90,10 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
               {x.key === "graph" && <div class="stars"><i style="top:30%;right:25%"></i><i style="top:55%;right:45%"></i><i style="top:25%;right:60%"></i><i style="top:65%;right:70%"></i><i style="top:40%;right:80%"></i><svg style="position:absolute;inset:0" viewBox="0 0 150 150"><path d="M112 45 L82 82 L60 37 M82 82 L45 97 M82 82 L30 60" stroke="#e8c85a" stroke-width="1" opacity=".6" fill="none"/></svg></div>}
               {x.key === "revelation" && <div class="split"><div></div><div></div></div>}
               {x.key === "khutab" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M40 118 H110 M48 100 H102 M56 82 H94 M64 64 H86" stroke="#c5a059" stroke-width="5" fill="none"/><path d="M75 22 V52" stroke="#2a7b88" stroke-width="3"/></svg>}
+              {x.key === "fatwa" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><rect x="38" y="28" width="74" height="96" rx="6" fill="none" stroke="#c5a059" stroke-width="4"/><path d="M52 52 H98 M52 70 H98 M52 88 H82" stroke="#2a7b88" stroke-width="4" fill="none"/><circle cx="104" cy="112" r="12" fill="#c5a059"/></svg>}
               {x.key === "surahmaps" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M75 12 L75 138" stroke="#c5a059" stroke-width="3" fill="none"/><circle cx="75" cy="30" r="9" fill="#c5a059"/><circle cx="75" cy="62" r="7" fill="#2a7b88"/><circle cx="75" cy="92" r="8" fill="#4d8a4f"/><circle cx="75" cy="120" r="6" fill="#c5a059"/><circle cx="100" cy="62" r="4" fill="#2a7b88"/><circle cx="50" cy="92" r="4" fill="#4d8a4f"/></svg>}
             </div>
-            <div class="body" style={`--acc:${x.key === "timeline" ? "var(--gold)" : x.key === "journeys" ? "var(--wing-living)" : x.key === "graph" ? "#8e5aa8" : x.key === "surahmaps" ? "var(--gold)" : x.key === "khutab" ? "var(--wing-ideas)" : "var(--lapis)"}`}>
+            <div class="body" style={`--acc:${x.key === "timeline" ? "var(--gold)" : x.key === "journeys" ? "var(--wing-living)" : x.key === "graph" ? "#8e5aa8" : x.key === "surahmaps" ? "var(--gold)" : x.key === "khutab" ? "var(--wing-ideas)" : x.key === "fatwa" ? "var(--wing-words)" : "var(--lapis)"}`}>
               <h3>{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon ui">{T.landing.in_progress}</span>}</h3>
               <p>{T.explore.pages[x.key].desc}</p>
               <a class="go ui" href={x.href}>{T.landing.try} <span class="flip" aria-hidden="true">→</span></a>
@@ -106,7 +107,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
   <section class="block" id="fatwa" aria-labelledby="fatwa-title" style="padding-top:1rem">
     <div class="wrap">
       <div class="sec-head"><h2 id="fatwa-title">{T.landing.fatwa_title}</h2><p class="muted">{T.landing.fatwa_lede}</p></div>
-      <a class="go ui" href={href(lang, "work/fatawa-aimmat-al-muslimin-subki")}>{T.landing.fatwa_cta} <span class="flip" aria-hidden="true">→</span></a>
+      <a class="go ui" href={`/${lang}/fatwa/`}>{T.landing.fatwa_cta} <span class="flip" aria-hidden="true">→</span></a>
     </div>
   </section>
 

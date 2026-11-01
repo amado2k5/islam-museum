@@ -12,8 +12,8 @@ names:
   - { kind: full, lang: ar, value: "أبو عثمان عمرو بن بحر بن محبوب الكناني الليثي الجاحظ" }
 roles: [writer, scholar]
 traditions: [sunni]
-born: { edtf: "0767~", hijri: "0150", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "0869", hijri: "0255", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "0767~", hijri: "0150", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba], note: "موسوعة أعلام العلماء والأدباء نحو ١٥٠هـ/٧٦٧م؛ وموسوعة الإسلام تجعل مولده بالبصرة نحو ١٦٠هـ/٧٧٦م {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}." }
+died: { edtf: "0869", hijri: "0255", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/wafayat-ayan, source/muruj-al-dhahab], note: "ابن خلكان: وفاته بالبصرة سنة ٢٥٥هـ وقد نيف على تسعين سنة {cite:wafayat-ayan p. 405}؛ والمسعودي: بالبصرة في المحرم سنة ٢٥٥هـ وقيل ٢٥٦هـ {cite:muruj-al-dhahab p. 568}." }
 themes: [literature, history-writing-and-social-thought]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
@@ -26,6 +26,12 @@ gender: male
 wings: [people]
 relations:
   - { type: authored, target: work/akhlaq-al-muluk-jahiz, sources: [source/kashf-zunun-furqan] }
+  - { type: born_in, target: place/basra, sources: [source/encyclopaedia-of-islam-2, source/wafayat-ayan] }
+  - { type: died_in, target: place/basra, sources: [source/wafayat-ayan, source/muruj-al-dhahab] }
+  - { type: participated_in, target: event/jahiz-imamate-works-200, role: "المصنف المستحسَن", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/jahiz-zayyat-fall-233, role: "الملازم لابن الزيات", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/jahiz-mutawakkil-audience, role: "المعروض مؤدباً", sources: [source/muruj-al-dhahab, source/wafayat-ayan] }
+  - { type: participated_in, target: event/jahiz-final-years-basra, role: "المصاب بالفالج", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 224–225"
@@ -33,5 +39,5 @@ provenance:
   run: lib-muruj-dhahab-batch-66
 external_ids:
   wikidata: Q293497
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba, source/juha-nawadir-kubra-djuwaydi]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba, source/juha-nawadir-kubra-djuwaydi, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

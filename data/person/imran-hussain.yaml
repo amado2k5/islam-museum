@@ -1,0 +1,58 @@
+id: person/imran-hussain
+class: person
+
+label: { ar: "عمران حسين", en: "Imran Hussain", ur: "عمران حسین" }
+
+names:
+  - { value: "Imran Hussain", kind: full }
+  - { value: "عمران حسين", kind: full }
+
+gender: male
+
+summary:
+  ar: "عمران حسين (وُلد في 7 حزيران 1978 في برادفورد، غرب يوركشاير)، سياسي ومحامٍ بريطاني من حزب العمال، عضو البرلمان عن برادفورد إيست منذ 2015. كان عضوًا في مجلس مدينة برادفورد منذ 2002 ونائبًا لقائد المجلس 2010–2015، وتولى مناصب وزارية ظلّية من 2016، فاستقال من منصبه الظلّي في تشرين الثاني 2023 احتجاجًا على رفض كير ستارمر الدعوة إلى وقف إطلاق النار في غزة، وجلس مستقلًا من تموز 2024 إلى شباط 2025 بعد تعليق سوط الحزب عنه لتصويته لإلغاء حد الطفلين للإعانات."
+  en: "Imran Hussain (born 7 June 1978 in Bradford, West Yorkshire) is a British Labour politician and barrister who has been MP for Bradford East since 2015. A Bradford city councillor from 2002 and deputy leader of the council from 2010 to 2015, he held Labour shadow posts from 2016, resigning as a shadow minister in November 2023 over Keir Starmer's refusal to call for a ceasefire in Gaza; he sat as an independent from July 2024 to February 2025 after the whip was suspended over his vote to scrap the two-child benefit cap."
+  ur: "عمران حسین (پیدائش 7 جون 1978، بریڈفورڈ، ویسٹ یارکشائر) برطانوی لیبر پارٹی کے سیاست دان اور بیرسٹر ہیں، جو 2015 سے بریڈفورڈ ایسٹ کے رکن پارلیمنٹ ہیں۔ وہ 2002 سے بریڈفورڈ سٹی کونسل کے رکن اور 2010 سے 2015 تک کونسل کے ڈپٹی لیڈر رہے، 2016 سے لیبر کے شیڈو عہدوں پر رہے، نومبر 2023 میں غزہ میں جنگ بندی کے مطالبے سے کیئر اسٹارمر کے انکار پر شیڈو وزیر کے عہدے سے مستعفی ہوئے؛ اور جولائی 2024 سے فروری 2025 تک، دو بچوں کی حد ختم کرنے کے حق میں ووٹ دینے پر پارٹی وہپ معطل ہونے کے بعد، آزاد رکن کی حیثیت سے بیٹھے۔"
+
+roles: [politician, lawyer]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1978-06-07"
+  hijri: "1398"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Bradford, West Yorkshire on 7 June 1978; the English and Arabic articles and Wikidata agree. The Hijri year 1398 is the tabular conversion of the built date, marked derived. No place entity for Bradford exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-imran-hussain-en, source/wikipedia-imran-hussain-ar, source/wikidata-imran-hussain]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read attests any religion for the man himself -
+      the English article never mentions religion at all, the
+      Arabic article confines itself to his elections and career,
+      and his Wikidata item carries no religion statement. No
+      school or order is named anywhere for him, so his faith is
+      recorded as unknown with that absence stated, under the
+      founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-imran-hussain-en, source/wikipedia-imran-hussain-ar, source/wikidata-imran-hussain]
+
+external_ids: { wikidata: "Q19958134" }
+
+sources:
+  - source/wikipedia-imran-hussain-en
+  - source/wikipedia-imran-hussain-ar
+  - source/wikidata-imran-hussain
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Imran Hussain (British politician)' (revision 1377823433 of 1 October 2026), Arabic Wikipedia article 'عمران حسين (سياسي)' (revision 75254587 of 9 June 2026) and Wikidata Q19958134 (item revision 2514937107 of 7 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1978 is confirmed at day precision. No article in any language has an Urdu counterpart linked from the item. Neither article read mentions his religion and the item carries no religion statement, so faith is unknown with the absence recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

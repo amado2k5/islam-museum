@@ -1,0 +1,78 @@
+id: person/sajid-javid
+class: person
+
+label: { ar: "ساجد جاويد", en: "Sajid Javid", ur: "ساجد جاوید" }
+
+names:
+  - { value: "Sajid Javid", kind: full }
+  - { value: "Sir Sajid Javid", kind: alternate }
+  - { value: "ساجد جاويد", kind: full }
+
+gender: male
+
+summary:
+  ar: "ساجد جاويد (وُلد في 5 كانون الأول 1969 في روتشديل، لانكشاير)، مصرفي سابق وسياسي محافظ بريطاني، ابن مهاجرين باكستانيين، كان عضو البرلمان عن برومزغروف 2010–2024. عمل مديرًا إداريًا في دويتشه بنك قبل السياسة، وتولى مناصب وزارية متتابعة — الثقافة والأعمال والمجتمعات — فصار أول مسلم يتولى إحدى المناصب العليا في الدولة وزيرًا للداخلية (2018–2019)، ثم وزيرًا للمالية (2019–2020) ووزيرًا للصحة والرعاية الاجتماعية (2021–2022)."
+  en: "Sir Sajid Javid (born 5 December 1969 in Rochdale, Lancashire) is a British former banker and Conservative politician, the son of Pakistani immigrants, who was MP for Bromsgrove from 2010 to 2024. A managing director at Deutsche Bank before politics, he held a succession of cabinet posts - Culture, Business and Communities - becoming the first Muslim to hold one of the Great Offices of State as Home Secretary (2018-2019), then Chancellor of the Exchequer (2019-2020) and Secretary of State for Health and Social Care (2021-2022)."
+  ur: "ساجد جاوید (پیدائش 5 دسمبر 1969، روچڈیل، لنکاشائر) برطانوی سابق بینکار اور کنزرویٹو سیاست دان ہیں، جو پاکستانی مہاجر والدین کے بیٹے ہیں اور 2010 سے 2024 تک برومزگرو کے رکن پارلیمنٹ رہے۔ سیاست سے پہلے وہ ڈوئچے بینک کے مینیجنگ ڈائریکٹر تھے، پھر یکے بعد دیگرے کابینہ عہدوں پر رہے — ثقافت، کاروبار اور کمیونٹیز — اور وزیرِ داخلہ (2018–2019) کی حیثیت سے ریاست کے عظیم عہدوں میں سے کوئی ایک سنبھالنے والے پہلے مسلمان بنے، پھر وزیرِ خزانہ (2019–2020) اور وزیرِ صحت و سماجی دیکھ بھال (2021–2022) رہے۔"
+
+roles: [politician, businessman]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1969-12-05"
+  hijri: "1389"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Rochdale, Lancashire on 5 December 1969; the English and Arabic articles and Wikidata agree. The Hijri year 1389 is the tabular conversion of the built date, marked derived. No place entity for Rochdale exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-sajid-javid-en, source/wikipedia-sajid-javid-ar, source/wikidata-sajid-javid]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      His own recorded words are preserved in full, and they do
+      not profess unbelief. At a church-hosted hustings on
+      22 April 2010 he said - "My own family's heritage is
+      Muslim. Myself and my four brothers were brought up to
+      believe in God, but I do not practise any religion. My wife
+      is a practising Christian and the only religion practised
+      in my house is Christianity." At the Big Iftar in the
+      House of Commons on 5 June 2018 he claimed to be "the
+      first Muslim Home Secretary to be invited", spoke of
+      "being a Muslim in Great Britain" and said "My
+      relationship with God is my business as is yours." The
+      English article sums the position up in its own text -
+      despite having an Islamic upbringing, Javid no longer
+      practises any religion, however he still describes himself
+      as being a Muslim. A man who affirms that he was brought
+      up to believe in God and publicly insists on his right to
+      call himself a Muslim does not meet the Akhundov bar -
+      unbelief in his own words - so atheist-or-sceptic is not
+      settled; no school or order is named either, and
+      Wikidata's structured religion value of Islam settles
+      nothing. His Punjabi Muslim family background was not
+      used. Recorded unknown, unflagged, on the fareed-zakaria
+      precedent, under the founder's rulings of
+      1 November 2026.
+    sources: [source/wikipedia-sajid-javid-en, source/muslimnews-javid-faith, source/wikidata-sajid-javid]
+
+external_ids: { wikidata: "Q727798" }
+
+sources:
+  - source/wikipedia-sajid-javid-en
+  - source/wikipedia-sajid-javid-ar
+  - source/wikipedia-sajid-javid-ur
+  - source/wikidata-sajid-javid
+  - source/muslimnews-javid-faith
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Sajid Javid' (revision 1372160409 of 30 August 2026), Arabic Wikipedia article 'ساجد جاويد' (revision 76975434 of 15 October 2026), Urdu Wikipedia article 'ساجد جاوید' (revision 10294813 of 6 May 2026), Wikidata Q727798 (item revision 2562815479 of 31 October 2026) and The Muslim News report 'Home Secretary Javid hits back at those questioning his faith', fetched live in-session via the MediaWiki API or read in full on the publisher's site on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. Existence checked by the coordinator against origin/main before dispatch - no prior record and no draft stub. The queue's year 1969 is confirmed at day precision. The brief's faith test was applied exactly: his own words affirm belief in God and a self-description as a Muslim alongside non-practice, so the Akhundov bar for atheist-or-sceptic is not met and faith is unknown with his words stated in full."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-167a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -3,21 +3,24 @@ class: event
 kind: siege
 label: { ar: "حصار القسطنطينية (١٣٩٤)", en: "Siege of Constantinople" }
 summary:
-  ar: "بطاقة أولية لحصار القسطنطينية من ١٣٩٤ إلى ١٤٠٢م، حصار بايزيد الأول المديد للعاصمة البيزنطية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Siege of Constantinople of 1394–1402, Bayezid I's long blockade of the Byzantine capital; its sources are not yet checked on the page."
+  ar: "فرض السلطان بايزيد الأول على الإمبراطور البيزنطي قبل معركة نيكوبوليس تعيينَ قاضٍ للمسلمين في القسطنطينية وإنشاء مسجد وتخصيص سبعمئة منزل للجالية الإسلامية والتنازل عن نصف حي غلطة الذي وُضعت فيه حامية عثمانية، وزيادة الجزية على الدولة البيزنطية {cite:dawlat-uthmaniyya-salabi p. 67}. وبعد نصره في نيكوبوليس طلب من الإمبراطور مانويل تسليم المدينة، فلما امتنع ضرب عليها حصاراً محكماً من نحو سنة 796هـ/1393م حتى أشرفت على السقوط، ثم اضطر إلى فك الحصار لمواجهة خطر تيمورلنك الذي انتهى إلى معركة أنقرة سنة 1402م {cite:dawlat-uthmaniyya-salabi p. 68, 89-90}."
+  en: "Before Nicopolis, Sultan Bayezid I imposed on the Byzantine emperor the appointment of a qadi for the Muslims of Constantinople, the building of a mosque, the allocation of seven hundred houses to the Muslim community, and the cession of half the Galata quarter, where an Ottoman garrison was stationed, together with an increased tribute {cite:dawlat-uthmaniyya-salabi p. 67}. After his victory at Nicopolis he demanded that Emperor Manuel surrender the city; on his refusal Bayezid drew a tight blockade around it from about 796/1393 until it was on the verge of falling, then had to lift the siege to face Timur's threat, which ended at the battle of Ankara in 1402 {cite:dawlat-uthmaniyya-salabi p. 68, 89-90}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1394", precision: year, status: tradition, derived: true }
   end: { edtf: "1402", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/manuel-ii-palaiologos, role: "الإمبراطور المحاصَر", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3485863
 provenance:
   layer: own-research
-  source: "Wikidata candidate; siege attested in Ottoman histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
+  source: "al-Salabi, al-Dawla al-Uthmaniyya (dawlat-uthmaniyya-salabi) pp. 67-68, 89-90, Apple Vision OCR; Wikidata candidate verified on the page by Devin (SWE-2 Medium)"
+  generated_by: "Devin (SWE-2 High); checked and enriched by Devin (SWE-2 Medium)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: event/muqaddasi-aleppo-journey
+class: event
+kind: other
+label:
+  ar: "رحلة المقدسي إلى حلب نحو ٣٥٤–٣٦٤هـ"
+  en: "al-Muqaddasi's journey to Aleppo, c. 354–364/965–975"
+  ur: "مقدسی کا سفرِ حلب، تقریباً 354–364ھ/965–975ء"
+summary:
+  ar: "يظهر من كتابه أن المقدسي رحل إلى حلب، على الأرجح بين سنتي ٣٥٤ و٣٦٤هـ/٩٦٥ و٩٧٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  en: "His own work shows al-Muqaddasi travelled to Aleppo, probably between 354 and 364 AH (965–975 CE) {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}."
+  ur: "ان کی اپنی کتاب سے معلوم ہوتا ہے کہ مقدسی حلب گئے، غالباً 354 تا 364ھ (965–975ء) کے درمیان {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0965~", hijri: "0354~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحلة إلى حلب تقع على الأرجح حوالي 354–364/965–975 {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}؛ التحويل مشتق." }
+  end: { edtf: "0975~", hijri: "0364~", calendar: julian, precision: year, status: tradition, derived: true, note: "نهاية المدة التقريبية نفسها {cite:encyclopaedia-of-islam-2 vol. 7 p. 544}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-muqaddasi, role: "الرحّالة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (Mif–Naz), printed p. 544, art. al-Muḳaddasī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muqaddasi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
