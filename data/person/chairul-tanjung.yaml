@@ -1,0 +1,48 @@
+id: person/chairul-tanjung
+class: person
+label: { ar: "خيرول تانجونغ", en: "Chairul Tanjung", ur: "خیرول تانجونگ" }
+names:
+  - { value: "Chairul Tanjung", kind: full }
+  - { value: "Chairul Tandjung", kind: alternate }
+gender: male
+summary:
+  ar: "خيرول تانجونغ (وُلد في 18 حزيران 1962 في جاكرتا) رجل أعمال إندونيسي، مؤسس ورئيس مجموعة سي تي كورب التي تضم بنك ميغا وقناتي ترانس وترانس7 التلفزيونيتين ومتاجر ترانسمارت والعقارات؛ تخرج في طب الأسنان في جامعة إندونيسيا وبدأ التجارة طالبًا، وتولى منصب وزير تنسيق الشؤون الاقتصادية سنة 2014، وعُين في مجلس مستشاري رئيس الجمهورية سنة 2026."
+  en: "Chairul Tanjung (born 18 June 1962 in Jakarta) is an Indonesian businessman, founder and chairman of CT Corp, the conglomerate spanning Bank Mega, the Trans TV and Trans7 channels, Transmart retail and property; a dentistry graduate of the University of Indonesia who began trading as a student, he served as Coordinating Minister for Economic Affairs in 2014 and was appointed to the Presidential Advisory Council in 2026."
+  ur: "خیرول تانجونگ (پیدائش 18 جون 1962، جکارتہ) انڈونیشیائی کاروباری ہیں، سی ٹی کارپ کے بانی و چیئرمین، جس میں بینک میگا، ٹرانس ٹی وی اور ٹرانس 7 چینلز، ٹرانس مارٹ خردہ فروشی اور جائیداد شامل ہیں؛ یونیورسٹی آف انڈونیشیا سے دندان سازی کے فارغ التحصیل، انھوں نے طالب علمی میں تجارت شروع کی، 2014 میں معاشی امور کے رابطہ وزیر رہے اور 2026 میں صدارتی مشاورتی کونسل کے رکن بنے۔"
+roles: [businessman]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1962-06-18"
+  hijri: "1382"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English and Indonesian articles and Wikidata agree on 18 June 1962, born at Jakarta. Indonesian profile sites widely give 16 June 1962, a reading copied from an older infobox version and one source family; it is not followed. The date falls within the Hijri year 1382, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-chairul-tanjung-en, source/wikipedia-chairul-tanjung-id, source/wikidata-chairul-tanjung]
+relations:
+  - { type: born_in, target: place/jakarta, sources: [source/wikipedia-chairul-tanjung-en, source/wikipedia-chairul-tanjung-id, source/wikidata-chairul-tanjung] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a faith for Chairul Tanjung
+      himself: the English and Indonesian articles are
+      silent on his religion and Wikidata carries no
+      religion statement. Indonesian biographical profile
+      sites list Islam for him in biodata tables, but those
+      are structured data fields copied from one another —
+      a single source family — and under the founder
+      rulings structured data and infobox religion fields
+      settle nothing; a generic Islam attestation would in
+      any case map to unknown, and no text names a school
+      or order for him. His group's sharia banking arm,
+      Bank Mega Syariah, is a business line mentioned in
+      the Indonesian article, not an attestation. The value
+      is therefore unknown.
+    sources: [source/wikipedia-chairul-tanjung-en, source/wikipedia-chairul-tanjung-id, source/wikidata-chairul-tanjung]
+external_ids: { wikidata: "Q5068119" }
+sources: [source/wikipedia-chairul-tanjung-en, source/wikipedia-chairul-tanjung-id, source/wikidata-chairul-tanjung]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Chairul Tanjung' (revision 1372645622 of 1 September 2026), the Indonesian article 'Chairul Tanjung' (revision 30073851 of 15 October 2026) and Wikidata Q5068119 (revision 2562990842 of 31 October 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him (an Egyptian-Arabic arz article does, which prior waves do not count as ar), so the Arabic and Urdu prose is the museum's rendering. Source discrepancies recorded: his birth date is given as 16 June 1962 by a family of copied Indonesian profile sites against 18 June 1962 in both articles and Wikidata, which are followed. One relation is written: born_in to place/jakarta, which exists on main. Faith - unknown: no text read names a faith for the man himself; profile-site biodata fields listing Islam are structured data from one copied family and settle nothing under the founder rulings, and no school is named for him anywhere.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-177a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

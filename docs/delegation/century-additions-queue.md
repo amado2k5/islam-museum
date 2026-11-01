@@ -940,11 +940,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Ananda Krishnan (Contemporary) — 1938–Living
 - [x] Jeffrey Cheah (Contemporary) — 1945–Living
 - [x] Mochtar Riady (Contemporary) — 1929–Living
-- [ ] Chairul Tanjung — 1962–Living
-- [ ] Eka Tjipta Widjaja (Contemporary) — 1921–2019
-- [ ] Prajogo Pangestu (Contemporary) — 1944–Living
-- [ ] Budi Hartono (Contemporary) — 1940–Living
-- [ ] Michael Hartono (Contemporary) — 1939–Living
+- [x] Chairul Tanjung — 1962–Living
+- [x] Eka Tjipta Widjaja (Contemporary) — 1921–2019
+- [x] Prajogo Pangestu (Contemporary) — 1944–Living
+- [x] Budi Hartono (Contemporary) — 1940–Living
+- [x] Michael Hartono (Contemporary) — 1939–Living
 - [ ] Low Tuck Kwong (Contemporary) — 1948–Living
 - [ ] Sri Mulyani Indrawati — 1962–Living
 - [ ] Retno Marsudi — 1962–Living
