@@ -1,0 +1,87 @@
+id: person/mir-jumla-ii
+class: person
+
+label: { ar: "مير جملة الثاني", en: "Mir Jumla II", ur: "میر جملہ دوم" }
+
+names:
+  - { value: "Mir Muhammad Sayyid Ardistani", kind: full }
+  - { value: "Muhammad Said", kind: given }
+  - { value: "Mir Jumla", kind: laqab }
+  - { value: "Muazzam Khan", kind: laqab }
+  - { value: "Khan-i-Khanan", kind: laqab }
+  - { value: "Yar-i-Wafahdar", kind: laqab }
+  - { value: "Sipahsalar", kind: laqab }
+
+gender: male
+
+summary:
+  ar: "مير جملة الثاني (1591 – 30 مارس 1663)، واسمه الأصلي مير محمد سيد الأردستاني، تاجر ألماس فارسي المولد صار وزير سلطنة غولكوندا ثم الوزير الأعظم للمغول وصوبه دار البنغال. قاد أساطيل تجارية عبر المحيط الهندي، وغزا الكرناتك لغولكوندا، ثم طارد شاه شجاع إلى دكا وحملته على آسام سنة 1662–1663 التي مات في عودته منها."
+  en: "Mir Jumla II (1591 – 30 March 1663), born Mir Muhammad Sayyid Ardistani, was a Persian-born diamond merchant who became vizier of the Golconda Sultanate, then grand vizier of the Mughal Empire and subahdar of Bengal. He commanded trading fleets across the Indian Ocean, conquered the Karnatak for Golconda, pursued Shah Shuja to Dhaka, and led the Assam campaign of 1662–1663, dying on the return march."
+  ur: "میر جملہ دوم (1591ء – 30 مارچ 1663ء)، اصل نام میر محمد سید اردستانی، فارسی نژاد ہیروں کے تاجر تھے جو سلطنتِ گولکنڈہ کے وزیر، پھر مغلیہ سلطنت کے وزیرِ اعظم اور بنگال کے صوبیدار بنے۔ انھوں نے بحرِ ہند میں تجارتی بیڑے چلائے، گولکنڈہ کے لیے کرناٹک فتح کیا، شاہ شجاع کا تعاقب ڈھاکہ تک کیا، اور 1662ء–1663ء کی آسام مہم کی قیادت کی جس کی واپسی پر ان کا انتقال ہوا۔"
+
+roles: [merchant, vizier, general, governor]
+regions: [south-asia, persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1591"
+  calendar: julian
+  precision: year
+  status: debated
+  note: "The English article, Banglapedia and Wikidata give the year 1591; the Arabic article alone adds a day, 12 February 1591, which no other text read supports, so the year alone is built. The birthplace readings divide and are both preserved: the English article and Wikidata name Isfahan, while Banglapedia and Jadunath Sarkar name Ardistan — Sarkar calls him a Sayyid of Ardistan in Persia and, in the same passage, son of an oil-merchant of Isfahan, and his nisba Ardistani follows the Ardistan reading. The born_in edge follows the English article and Wikidata reading, Isfahan, with the Ardistan reading preserved here."
+  sources: [source/wikipedia-mir-jumla-ii-en, source/wikipedia-mir-jumla-ii-ar, source/banglapedia-mir-jumla, source/wikidata-mir-jumla-ii]
+
+died:
+  edtf: "1663-03-30"
+  calendar: julian
+  precision: day
+  status: debated
+  note: "The English and Arabic articles, Banglapedia and Wikidata give 30 March 1663, on his return from the Assam campaign — Banglapedia placing his death on a boat off Khizrpur and the English article at Mankachar, which has no place entity on main, so no died_in edge is written. The Urdu article gives 10 April 1663 instead; the majority day date is built and the Urdu reading preserved."
+  sources: [source/wikipedia-mir-jumla-ii-en, source/wikipedia-mir-jumla-ii-ar, source/wikipedia-mir-jumla-ii-ur, source/banglapedia-mir-jumla, source/wikidata-mir-jumla-ii]
+
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikipedia-mir-jumla-ii-en, source/wikidata-mir-jumla-ii] }
+
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: >-
+      Two independent texts name Shia for Mir Jumla himself. Abdul
+      Karim's Banglapedia survey 'Islam, Bengal' states in prose that
+      great Mughal subahdars like Mir Jumla and Shaista Khan were
+      Shias. Jadunath Sarkar, in his History of Aurangzib (vol. 1,
+      p. 216), writes of Muhammad Said, known to history as Mir
+      Jumla, that he, like other Shiah adventurers, sought his fortune
+      at the courts of the Deccani Sultans who belonged to his sect.
+      The Twelver context is the one both texts stand in: Sarkar's
+      Shiah adventurers are Persians of Safavid Iran, whose state
+      confession was Twelver Shi'ism, seeking the Shia courts of the
+      Deccan, and the Qutb Shahi court Mir Jumla served was itself
+      Twelver. Under the founder Shia mapping — two independent texts
+      stating Shia plus Twelver context — the value is recorded as
+      shia-twelver, the mapping stated here. His Persian milieu and
+      his service of the Qutb Shahi and Mughal courts are not the
+      evidence relied on; milieu and service settle nothing, and the
+      settlement rests on the two namings alone. The English article's
+      infobox filing of Shi'a Islam, citing Jagadish Narayan Sarkar's
+      Life of Mir Jumla (2nd ed., 1979), p. 361, is an infobox and is
+      not relied on. Wikidata carries no religion statement for him.
+    sources: [source/banglapedia-islam-bengal, source/sarkar-history-of-aurangzib-vol1]
+
+external_ids: { wikidata: "Q3346563" }
+
+sources:
+  - source/wikipedia-mir-jumla-ii-en
+  - source/wikipedia-mir-jumla-ii-ar
+  - source/wikipedia-mir-jumla-ii-ur
+  - source/wikidata-mir-jumla-ii
+  - source/banglapedia-mir-jumla
+  - source/banglapedia-islam-bengal
+  - source/sarkar-history-of-aurangzib-vol1
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1382374669 of 28 October 2026), Arabic Wikipedia (revision 76893950 of 6 October 2026), Urdu Wikipedia (revision 9423096 of 22 February 2026) and Wikidata Q3346563 (item revision 2504665839 of 11 June 2026), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted identical against a second live query. Abdul Karim's Banglapedia entries 'Mir Jumla' and 'Islam, Bengal' and p. 216 of Jadunath Sarkar's History of Aurangzib, vol. 1, were read in full the same day. Existence checked against origin/main before building — no prior record holds this man, by slug, by name fragment or by QID. Identity care: 'Mir Jumla' was a title borne by more than one man — an earlier Golconda title-bearer, Mir Muhammad Amin of Shahristan, died in 1637, and Ubaidullah Shariyatullah Khan was Mir Jumla III a half-century later; this record is grounded throughout on the man the sources name Mir Muhammad Sayyid Ardistani, Muhammad Said, b. 1591, d. 30 March 1663. place/isfahan exists on main; the born_in edge follows the English article and Wikidata, with the Ardistan reading preserved in the birth note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-170m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
