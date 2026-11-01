@@ -287,6 +287,234 @@ sources:
       robots_txt: checked 25 Oct 2026; lesson pages and media host not disallowed
       youtube: not downloaded (YouTube terms)
     status: enabled
+  assabile-amr-khaled:
+    name: Assabile archive of Amr Khaled's lessons
+    url: https://www.assabile.com/amr-khaled
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-muhammad-metwally-al-shaarawy:
+    name: Assabile archive of Muhammad Metwally Al-Shaarawy's lessons
+    url: https://www.assabile.com/muhammad-metwally-al-shaarawy
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mahmoud-al-masri:
+    name: Assabile archive of Mahmoud Al-Masri's lessons
+    url: https://www.assabile.com/mahmoud-al-masri
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abla-al-kahlawi:
+    name: Assabile archive of Abla Al-Kahlawi's lessons
+    url: https://www.assabile.com/abla-al-kahlawi
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mustafa-hosny:
+    name: Assabile archive of Mustafa Hosny's lessons
+    url: https://www.assabile.com/mustafa-hosny
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-muhammad-hussein-yacoub:
+    name: Assabile archive of Muhammad Hussein Yacoub's lessons
+    url: https://www.assabile.com/muhammad-hussein-yacoub
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abu-ishaq-alheweny:
+    name: Assabile archive of Abu Ishaq Alheweny's lessons
+    url: https://www.assabile.com/abu-ishaq-alheweny
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-yusuf-al-qaradawi:
+    name: Assabile archive of Yusuf Al-Qaradawi's lessons
+    url: https://www.assabile.com/yusuf-al-qaradawi
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-zaghloul-el-naggar:
+    name: Assabile archive of Zaghloul El-Naggar's lessons
+    url: https://www.assabile.com/zaghloul-el-naggar
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-wagdy-ghoneim:
+    name: Assabile archive of Wagdy Ghoneim's lessons
+    url: https://www.assabile.com/wagdy-ghoneim
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mosaad-anwar:
+    name: Assabile archive of Mosaad Anwar's lessons
+    url: https://www.assabile.com/mosaad-anwar
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mustafa-al-adawi:
+    name: Assabile archive of Mustafa Al-Adawi's lessons
+    url: https://www.assabile.com/mustafa-al-adawi
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ragheb-el-sergani:
+    name: Assabile archive of Ragheb El-Sergani's lessons
+    url: https://www.assabile.com/ragheb-el-sergani
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abd-al-rahman-mansour:
+    name: Assabile archive of Abd Al-Rahman Mansour's lessons
+    url: https://www.assabile.com/abd-al-rahman-mansour
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ahmed-abdussalam:
+    name: Assabile archive of Ahmed Abdussalam's lessons
+    url: https://www.assabile.com/ahmed-abdussalam
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ahmad-farid:
+    name: Assabile archive of Ahmad Farid's lessons
+    url: https://www.assabile.com/ahmad-farid
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-sayed-elbshbishy:
+    name: Assabile archive of Sayed Elbshbeshy's lessons
+    url: https://www.assabile.com/sayed-elbshbishy
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abdul-hamid-kishk:
+    name: Assabile archive of Abdul Hamid Kishk's lessons
+    url: https://www.assabile.com/abdul-hamid-kishk
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ateya-muhammad-salem:
+    name: Assabile archive of Ateya Muhammad Salem's lessons
+    url: https://www.assabile.com/ateya-muhammad-salem
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
 
   # ---- khutab-durus lane (plan 25): authorized site families, founder's instruction 31 Oct 2026
