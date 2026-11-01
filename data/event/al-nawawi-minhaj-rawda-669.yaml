@@ -1,0 +1,27 @@
+id: event/al-nawawi-minhaj-rawda-669
+class: event
+kind: publication
+label:
+  ar: "النووي يفرغ من «المنهاج» و«الروضة»، ٦٦٩هـ/١٢٧٠-١٢٧١م"
+  en: "Al-Nawawi finishes the Minhaj and the Rawda, 669/1270-71"
+  ur: "نووی کی «منہاج» اور «روضہ» کی تکمیل، 669ھ/1270-71ء"
+summary:
+  ar: "فرغ النووي سنة ٦٦٩هـ/١٢٧٠-١٢٧١م من كتابيه «منهاج الطالبين» و«الروضة في مختصر شرح الوجيز» للغزالي؛ وصار المنهاج — وهو منتخب من محرر الرافعي — مع شرحيه تحفة ابن حجر ونهاية الرملي أعلى مرجع عند الشافعية منذ القرن العاشر الهجري {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}."
+  en: "In 669/1270-71 al-Nawawi completed two works: the Minhaj al-Talibin, an abridgement of al-Rafiʿi's Muharrar, and the Rawda, an abridged commentary on al-Ghazali's Wajiz. With its two great commentaries, Ibn Hajar's Tuhfa and al-Ramli's Nihaya, the Minhaj came to be regarded from the tenth Islamic century as the supreme authority of the Shafiʿi school {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}."
+  ur: "669ھ/1270-71ء میں نووی نے دو کتابیں مکمل کیں: منہاج الطالبین، جو رافعی کی محرر کا انتخاب ہے، اور روضہ، جو غزالی کی وجیز کا مختصر شرح ہے۔ منہاج اپنے دو عظیم شروح ابن حجر کی تحفہ اور رملی کی نہایہ کے ساتھ دسویں صدی ہجری سے شافعی مذہب کی اعلیٰ مرجع شمار ہوئی {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1271~", hijri: "0669", calendar: julian, precision: year, status: tradition, derived: true, note: "فرغ منهما سنة ٦٦٩هـ؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nawawi, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7, art. al-Nawawi, PDF p. 1096"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nawawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
