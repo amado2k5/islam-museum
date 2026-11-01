@@ -1,0 +1,69 @@
+id: person/trenggana
+class: person
+
+label: { ar: "ترينغغانا", en: "Trenggana", ur: "ترینگانا" }
+
+names:
+  - { value: "Trenggana", kind: full }
+  - { value: "Sultan Ahmad Abdullah Arifin", kind: regnal }
+  - { value: "Trenggono", kind: alternate }
+  - { value: "Pate Rodim", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "ثالث سلاطين دماك (حكم 1521–1546)، ابن مؤسسها رادين فاتح وأعظم حكام أول مملكة إسلامية في جاوة. توّجه سونن غونونغجاتي من الأولياء التسعة، فأمر بحملات 1527 التي انتزعت بنتن وسوندا كيلابا (أُعيدت تسميتها جاياكارتا) من مملكة سوندا وجعلت بنتن سلطنة تابعة لدماك، ثم بسط سلطان دماك شرقًا على بقايا ماجاباهيت وموانئ شرق جاوة، حتى قُتل في حملة على باناروكان عام 1546."
+  en: "Third sultan of Demak (r. 1521–1546), son of its founder Raden Patah and the greatest ruler of Java's first Islamic kingdom. Crowned by Sunan Gunungjati of the Wali Songo, he ordered the 1527 expeditions that took Banten and Sunda Kelapa (renamed Jayakarta) from the Sunda kingdom and made Banten a vassal sultanate of Demak, then carried Demak's power east over the remains of Majapahit and the ports of East Java, until he was killed campaigning at Panarukan in 1546."
+  ur: "دماک کے تیسرے سلطان (دورِ حکومت 1521ء–1546ء)، اس کے بانی رادین پاتاہ کے بیٹے اور جاوا کی پہلی اسلامی سلطنت کے عظیم ترین حکمران۔ ولی سونگو کے سونن گوننگ جاتی نے ان کی تاج پوشی کی؛ انھوں نے 1527ء کی مہمات کا حکم دیا جنھوں نے بنتن اور سونڈا کیلاپا (نیا نام جایاکارتا) مملکت سونڈا سے چھینے اور بنتن کو دماک کی باج گزار سلطنت بنایا، پھر دماک کی طاقت مشرق میں ماجاپاہت کے باقی ماندہ علاقوں اور مشرقی جاوا کی بندرگاہوں تک پھیلائی، یہاں تک کہ وہ 1546ء میں پاناروکان کی مہم میں قتل ہوئے۔"
+
+roles: [ruler]
+regions: [southeast-asia]
+wings: [people]
+
+born:
+  edtf: "1483"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The Indonesian article gives his birth at Demak in 1483; no place entity exists for Demak, so the birthplace is recorded here only. The English article gives no birth year — its '1521 births' category mistakes his accession year for a birth year — and Wikidata carries 1522, which no article supports; the Indonesian article's traditional 1483 is followed and the variants are preserved here. The year 1483 spans 887–888 AH, so no Hijri year is paired."
+  sources:
+    - source/wikipedia-trenggana-id
+    - source/wikidata-trenggana
+
+died:
+  edtf: "1546"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "Both articles agree he was killed on campaign at Panarukan in East Java in 1546, the Indonesian article dating the death to 1 May 1546; Wikidata's death year of 1548 is supported by neither article and is not followed. He was buried at Bintoro, Demak; no place entity exists for either place. The year 1546 spans 952–953 AH, so no Hijri year is paired."
+  sources:
+    - source/wikipedia-trenggana-en
+    - source/wikipedia-trenggana-id
+    - source/wikidata-trenggana
+
+relations:
+  - { type: child_of, target: person/raden-patah, sources: [source/wikipedia-trenggana-id] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A single structured attestation names his branch: the Indonesian article's infobox gives his denomination as Sunni, with the jurisprudence field left blank. No source names his school. His documented record is Muslim kingship — crowned by Sunan Gunungjati, one of the Wali Songo who spread Islam in Java, he Islamised Demak's conquests in central and east Java and planted the Banten sultanate under Hasanuddin (articles). A single structured attestation does not meet the lane's two-source bar for a school, so none is recorded; the attestation is preserved here for the founder's ruling."
+    sources:
+      - source/wikipedia-trenggana-id
+      - source/wikipedia-trenggana-en
+
+external_ids: { wikidata: "Q2167432" }
+
+sources:
+  - source/wikipedia-trenggana-en
+  - source/wikipedia-trenggana-id
+  - source/wikidata-trenggana
+
+provenance:
+  layer: own-research
+  source: "English and Indonesian Wikipedia articles on Trenggana and Wikidata Q2167432, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 31 October 2026; the Wikidata revision re-asserted against a second live query). His father Raden Patah has a record in the museum (person/raden-patah), so the child_of edge is written here; his mother, given by the Indonesian infobox as Dewi Murthasimah, a daughter of Sunan Ampel, has no record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-149b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
