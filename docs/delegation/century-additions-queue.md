@@ -1765,11 +1765,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Hyder Ali — 1721–1782
 - [x] Mir Qasim — 1730–1777
 - [x] Shah Alam II — 1728–1806
-- [ ] Emperor Ahmad Shah Bahadur — 1725–1775
-- [ ] Akbar II — 1760–1837
+- [x] Emperor Ahmad Shah Bahadur — 1725–1775
+- [x] Akbar II — 1760–1837
 - [x] Bahadur Shah Zafar — 1775–1862
-- [ ] Nawab Asaf-ud-Daula — 1748–1797
-- [ ] Nawab Shuja-ud-Daula — 1732–1775
+- [x] Nawab Asaf-ud-Daula — 1748–1797
+- [x] Nawab Shuja-ud-Daula — 1732–1775
 - [ ] Mir Nizam Ali Khan (Asaf Jah II) — 1734–1803
 - [ ] Nawab Wajid Ali Shah — 1822–1887
 - [ ] Haji Shariatullah — 1781–1840
