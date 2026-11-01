@@ -499,6 +499,21 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 - **place/trebizond.** pp. 816, 911 give route and island distances only. Lead.
 - **place/tournai.** pp. 870, 871 give a land name list and the distances to Ghent and Ibrijs; no description of the town. Lead.
 
+## n–z batch 20 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 20
+
+- **place/zarand** (Idrisi pp. 428, 439). Desert-edge town of the Zarandi linings and tanneries, the four-stage road from al-Sirjan via Bardsir and Janzarud.
+- **place/tunkat** (pp. 703, 704). Capital of Ilaq, its two walls, less than half of Binkath. The sentence that follows ("a populous city on level ground, with Badhkhakath and Sabanikat") most likely describes Isbijab, and the entry says so.
+- **place/ranj-burk** (pp. 876, 887). City of the land of Babir south of the Danube, sixty miles from Uzburk, with Babir's boundaries and chief towns.
+- **place/tawara** (pp. 244, 245). Meknes-area city with its divided river water and the two small neighbouring towns of al-Qasr and Bani Atush.
+
+### Leads, batch 20
+
+- **place/zalqan.** p. 457 gives about sixty words (a stage from Bust, walled, markets, palms and vines, mostly weavers). Lead.
+- **place/shansha.** pp. 335 and 336 give a short description (many trees and farms, sugar presses) and the canal. Lead.
+- **place/suq-ibrahim.** only an index entry and one line. Lead.
+
 ## n–z batch 19 (Claude Sonnet 5.5, place, Idrisi)
 
 ### Enriched, batch 19
