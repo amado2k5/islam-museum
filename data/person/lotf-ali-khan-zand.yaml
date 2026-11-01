@@ -1,0 +1,66 @@
+id: person/lotf-ali-khan-zand
+class: person
+
+label: { ar: "لطف علي خان زند", en: "Lotf Ali Khan Zand", ur: "لطف علی خان زند" }
+
+names:
+  - { value: "Lotf Ali Khan Zand", kind: full }
+  - { value: "لطف علي خان زند", kind: full }
+
+gender: male
+
+summary:
+  ar: "لطف علي خان زند (ق. 1769 – 1794) آخر حكام الدولة الزندية، حكم من 1789 إلى 1794. هو ابن جعفر خان؛ أخذ شيراز بعد مقتل أبيه، ثم فقدها بخيانة كلانترها حاجي إبراهيم، ودافع عن كرمان أربعة أشهر سنة 1794، فخُدع في بم وأُسر، فسُملت عيناه وقُتل في طهران بأمر غالبه آغا محمد خان القاجاري. واشتهر عند معاصريه بجماله وفروسيته ومهارته بالسيف."
+  en: "Lotf Ali Khan Zand (c. 1769 – 1794) was the last ruler of the Zand dynasty, reigning from 1789 to 1794. The son of Jafar Khan, he took Shiraz on his father's murder, lost it through the betrayal of its kalantar Haji Ibrahim, defended Kerman for four months in 1794, and was betrayed at Bam, blinded and put to death at Tehran by his conqueror Agha Mohammad Khan Qajar. Contemporaries famed his beauty, horsemanship and swordsmanship."
+  ur: "لطف علی خان زند (ق. 1769ء – 1794ء) زند خاندان کے آخری حکمران تھے، 1789ء سے 1794ء تک حکمران رہے۔ جعفر خان کے بیٹے تھے؛ والد کے قتل پر شیراز لیا، پھر وہاں کے کلانتر حاجی ابراہیم کی غداری سے شیراز ہاتھ سے گیا، 1794ء میں کرمان کا چار ماہ دفاع کیا، بم میں دھوکا کھا کر گرفتار ہوئے، آنکھیں نکلوائی گئیں اور تہران میں اپنے فاتح آغا محمد خان قاجار کے حکم سے قتل کیے گئے۔ ہم عصر لوگ ان کی خوبصورتی، گھڑ سواری اور تلوار بازی کے لیے مشہور تھے۔"
+
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1769~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article gives c. 1769, the Arabic article and Wikidata the bare year 1769. No source read names a birthplace; the English article's text is silent and Wikidata's Malayer, the Zand tribe's homeland district, is not followed. A bare 1769 spans 1182–1183 AH, so no Hijri year is recorded."
+  sources: [source/wikipedia-lotf-ali-khan-zand-en, source/wikipedia-lotf-ali-khan-zand-ar, source/wikidata-lotf-ali-khan-zand]
+
+died:
+  edtf: "1794"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article has him blinded, imprisoned and tortured at Tehran and choked to death in late 1794, and Wikidata gives the year 1794; the Arabic stub makes him killed in 1795, preserved here as a rival tradition, so the year is marked debated. A bare 1794 spans 1208–1209 AH, so no Hijri year is recorded. Tehran has no museum place record, so no died_in edge is written."
+  sources: [source/wikipedia-lotf-ali-khan-zand-en, source/wikipedia-lotf-ali-khan-zand-ar, source/wikidata-lotf-ali-khan-zand]
+
+relations:
+  - { type: child_of, target: person/jafar-khan-zand, sources: [source/wikipedia-lotf-ali-khan-zand-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a religion or a legal school for the man
+      himself, and Wikidata carries no religion value for him. He
+      ruled the Twelver Shia Persian state of the Zand dynasty,
+      struck gold coins at Kerman in his own name during the siege
+      of 1794, and his tomb lies in the Imamzadeh Zeyd shrine in
+      Tehran's old bazaar. Dynastic context and a shrine tomb name
+      no school for the man himself, so his faith is recorded as
+      unknown.
+    sources: [source/wikipedia-lotf-ali-khan-zand-en, source/wikidata-lotf-ali-khan-zand]
+
+external_ids: { wikidata: "Q15859" }
+
+sources:
+  - source/wikipedia-lotf-ali-khan-zand-en
+  - source/wikipedia-lotf-ali-khan-zand-ar
+  - source/wikidata-lotf-ali-khan-zand
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1370874033 of 23 August 2026), Arabic Wikipedia (revision 75368591 of 12 June 2026) and Wikidata Q15859 (item revision 2561766017), fetched live in-session on 1 November 2026; no Urdu article exists. The QID was grounded from the English article's own page property, the Arabic article agreeing, and the item revision re-asserted against a second live query. Existence checked by the coordinator against origin/main before building: no prior record holds him. His father exists as person/jafar-khan-zand, a Devin-era draft card (run wikidata-import-0014, Q81098) whose summary — Ja'far Khan Zand, fifth Zand khan of Persia, died 1789, contested by Agha Mohammad Khan Qajar — is the same man the English article names as his father, so the child_of edge is written here, in the child's record, pointing at the draft card as precedented in this lane; the draft card itself is untouched."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
