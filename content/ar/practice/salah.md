@@ -63,3 +63,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يفرّق الشيخ بين إقامة الصلاة وأداء الصلاة: فأداؤها أن يصلي الإنسان الظهر والمغرب ثم يغتاب ويظلم ولا يكون أمينًا على الكلمة والمال والأولاد، وإقامتها أن تنهاه عن الفحشاء والمنكر والبغي، ويستشهد بأن إبراهيم أسكن ذريته عند البيت «ليقيموا الصلاة». {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:08:30}
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يروي عمر عبد الكافي في «المنجيات» حديث الرجل الذي صلى مسرعًا، فقال له النبي: ارجع فصلّ فإنك لم تصلّ، ثم علّمه أن يطمئن راكعًا وساجدًا وجالسًا في صلاته كلها، وأن الصلاة بغير ذلك خداج. {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:30} ويذكر أن من أفسد القلب ترك الصلاة عن وقتها، وأن المسلم يجيب الأذان. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:30}

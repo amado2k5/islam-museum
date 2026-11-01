@@ -21,3 +21,6 @@ Fasting through the month of Ramadan, one of the five pillars of Islam. The Qur'
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy says that in Ramadan people turn to worship, even those who do not pray, and distinguishes the servant of Ramadan, who worships for thirty days and then stops, from the servant of the Lord of Ramadan. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:10:30} In another lesson he answers questions on fasting, among them eye drops. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:39:30}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy faults the month of fasting becoming a month of eating and banquets, saying the stomach complains to God of people's injustice to it, and counts among the wisdoms of fasting that a person comes to feel the state of the hungry. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:00}

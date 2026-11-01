@@ -26,3 +26,6 @@ The Sheikh relays a saying of the scholars that one who is far from a sin but wi
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy urges renewing one's intention in every act, so that a man's spending on his family becomes worship, and recalls that the best dirham is the one a man spends on his family. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:04:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep16 00:05:30}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy tells of a prince who entered an orchard where a girl gave him pomegranate juice from a single fruit; he resolved to take the orchard from its owners, and when he asked for another cup she squeezed many pomegranates without filling it, and said the ruler's intention must have changed; he gave up his plan and the blessing returned. He tells it to show the effect of intention on blessing. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:21:00}

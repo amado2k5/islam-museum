@@ -45,3 +45,36 @@ translators: []
 - يروي أن يوسف طلب من صاحبه في السجن أن يذكره عند الملك فلبث في السجن بضع سنين، ويرى أن الله ربّاه بالابتلاء، ويصفه بأنه أدار أزمة المجاعة كما يُدرَّس اليوم «علم إدارة الأزمات». {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:07:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:11:30}
 - يعدّد من [[concept/athar-al-maasi|ثمرات المعاصي]] خفاء الحق على العاصي وفساد قلبه، وتقارب الزمان وذهاب البركة من الوقت، والبغضاء التي توضع له في الأرض. {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:17:00}
 - يقول إن الحرام إذا دخل على الحلال بعثره. {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:20:30}
+
+## الحلقة السادسة: مفسدات القلب
+- يذكر ما جمعه العلماء مما يفسد القلب (انظر [[concept/qaswat-al-qalb-wa-amradih|قسوة القلب وأمراضه]]). {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00}
+- يتحدث عن أداء الصلاة في وقتها وعن إجابة الأذان. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:02:30}
+- يذمّ العلم الذي لا يُعمل به، والعمل الذي لا إخلاص فيه ولا اقتداء. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:09:30}
+- يصف صلاة الخاشع الذي يصلي كأنها آخر صلاة له وملك الموت وراءه. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:06:30}
+- يروي حديث البطاقة التي فيها الشهادة توزن بسجلات الذنوب. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:08:30}
+- يروي خبر [[person/abu-al-dahdah|أبي الدحداح]] الذي أقرض الله بستانه. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:11:00}
+- يقول إنه إذا أساءت إليه زوجته قال في نفسه إنه ليس مع الله على ما يرام. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:00}
+- يقول إن المرء ينظر في الدين إلى من هو أحسن منه وفي الدنيا إلى من هو أقل منه. {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:22:30}
+
+## الحلقة السابعة: السعادة والتواضع
+- يسأل: ما السعادة؟ ويجيب بأن السعيد من يسعد بدينه ويُسعد غيره. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:02:30}
+- يصف [[concept/tawadu|تواضع]] النبي، وأنه كان يجلس بين أصحابه فلا يُعرف منهم، وأنه طمأن رجلًا ارتعد من هيبته. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:03:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:04:00}
+- يتحدث عن الموت والدفن، ويشبّه الدنيا براكب استظل تحت شجرة ثم راح وتركها. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:05:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:08:00}
+- يقول إن الصدقة لا تنقص المال. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:12:30}
+- يحثّ على كتابة [[concept/al-wasiyya|الوصية]]. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:16:30}
+- يقول إن العلماء الصادقين كلما زادهم الله علمًا ومنزلة زادوا تواضعًا. {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:13:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep07 00:23:00}
+
+## الحلقة الثامنة: عقبات في الطريق
+- يقول إن [[concept/shayatin-al-ins-wal-jinn|شيطان الإنس]] أخطر من شيطان الجن. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:02:00}
+- يذكر من العقبات الزوجة التي تذيع سيئات زوجها وتصغّره أمام أولاده، والزوج الذي لا يعذر (انظر [[concept/huquq-al-zawjayn|حقوق الزوجين]]). {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:30}
+- يعيب أن يصير رمضان شهر الطعام والولائم، ويذكر من حِكَم الصوم أن يشعر الإنسان بالجائع. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:06:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:00}
+- يذكر حديث «كلكم راع» في [[concept/mas-uliyya|المسؤولية]]. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:00}
+- يقول إن الولد الذي يُطعم من الشبهة والحرام يتمرد، ويحذّر من الصاحب الذي لا ينصح والشريك الذي لا ينصف. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:15:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:18:30}
+- يذكر حديث من قُضي له بحق أخيه فإنما يُقطع له قطعة من النار. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:17:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:18:00}
+- يحكي قصة الأمير وعصير الرمان، فلما نوى الظلم قلّت البركة، ولما ترك النية عادت. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:19:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:20:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:21:00}
+
+## الحلقة التاسعة: الصبر
+- يقول إن حلاوة ثمرة [[concept/sabr|الصبر]] تهوّن مرارة الألم. {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:01:30}
+- يقول إن الصبر ذُكر في القرآن على ستة عشر نوعًا، ويعدّد منها: الأمر به، ومعية الله الخاصة للصابرين، وجزاءهم بغير حساب، والبشارة لهم، وضمان النصر، وأنهم أهل العزائم، وأن الإمامة في الدين تُنال بالصبر واليقين. {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:06:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:08:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:09:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:11:30}
+- يروي حديث الرجل الذي صلى مسرعًا فقال له النبي: ارجع فصلّ فإنك لم تصلّ، ثم علّمه الطمأنينة. {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:03:30}
+- يقسّم الصبر إلى صبر على الطاعة وصبر عن المعصية وصبر على امتحان الله، ثم إلى صبر بالله وصبر لله وصبر مع الله. {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:13:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:14:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep09 00:22:00}
