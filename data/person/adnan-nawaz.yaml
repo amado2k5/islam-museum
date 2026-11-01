@@ -1,0 +1,55 @@
+id: person/adnan-nawaz
+class: person
+
+label: { ar: "عدنان نواز", en: "Adnan Nawaz", ur: "عدنان نواز" }
+
+names:
+  - { value: "Adnan Nawaz", kind: full }
+  - { value: "عدنان نواز", kind: full }
+
+gender: male
+
+summary:
+  ar: "مذيع أخبار بريطاني وُلد في بيشاور بباكستان. بدأ عمله في بي بي سي مطلع التسعينيات، وقدّم الرياضة والأخبار على قناة بي بي سي الإخبارية وبي بي سي وورلد نيوز بين 2000 و2015، ومنها برنامج «نيوزداي»، ثم التحق بقناة تي آر تي وورلد مذيعًا سنة 2015. وهو خريج كلية لندن للاقتصاد."
+  en: "British news anchor born in Peshawar, Pakistan. He began at the BBC in the early 1990s, presented sport and news on the BBC News channel and BBC World News between 2000 and 2015, including Newsday, and joined TRT World as an anchor in 2015. He is a graduate of the London School of Economics."
+  ur: "برطانوی نیوز اینکر جو پشاور، پاکستان میں پیدا ہوئے۔ انہوں نے 1990 کی دہائی کے اوائل میں بی بی سی سے آغاز کیا، 2000 سے 2015 تک بی بی سی نیوز چینل اور بی بی سی ورلڈ نیوز پر کھیل اور خبریں پیش کیں، جن میں «نیوزڈے» بھی شامل ہے، اور 2015 میں ٹی آر ٹی ورلڈ سے بطور اینکر وابستہ ہوئے۔ وہ لندن اسکول آف اکنامکس کے فارغ التحصیل ہیں۔"
+
+roles: [journalist, presenter]
+wings: [people, living]
+regions: [south-asia, andalus-europe]
+
+born:
+  edtf: "1968"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born in Peshawar, Pakistan. The English article carries no birth date at all and files him under 'Year of birth missing (living people)'; Wikidata gives 28 November 1968, but its only reference for the statement is 'imported from English Wikipedia', and the current English article does not carry the date. The queue's year 1968 agrees with Wikidata's year, so the year is built at year precision as debated and the day and month are not adopted. No Hijri year is recorded: a bare 1968 spans 1387–1388 AH. No place entity for Peshawar exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-adnan-nawaz-en, source/wikidata-adnan-nawaz]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a religion for him. The English article is
+      silent on religion throughout, and his Wikidata item carries no
+      religion statement at all, so there is nothing to settle and
+      nothing to preserve beyond that absence. His birth in Peshawar
+      and his Pakistani origin are facts of biography, not evidence
+      of any faith, and were not used.
+    sources: [source/wikipedia-adnan-nawaz-en, source/wikidata-adnan-nawaz]
+
+external_ids: { wikidata: "Q2824677" }
+
+sources:
+  - source/wikipedia-adnan-nawaz-en
+  - source/wikidata-adnan-nawaz
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Adnan Nawaz' (revision 1357262584 of 1 June 2026) and Wikidata Q2824677 (item revision 2515796988 of 10 July 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch — no prior record and no draft stub. The queue's year 1968 is confirmed at year precision only: the English article carries no birth date, and Wikidata's full date of 28 November 1968 rests on a single 'imported from English Wikipedia' reference, so the day and month are not adopted and the block is marked debated."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,26 @@
+id: event/rumi-family-settles-konya-625
+class: event
+kind: migration
+label: { ar: "استقرار آل بهاء الدين بقونية", en: "The family is called to Konya", ur: "خاندان کی قونیہ میں آمد" }
+summary:
+  ar: "سنة ٦٢٥هـ/١٢٢٨م استُدعي بهاء الدين ولد وأهله إلى [[place/konya|قونية]] عاصمة سلاجقة الروم بعد مقام قصير بلارندة (كرمان) توفيت فيه أم جلال الدين ووُلد فيه ابنه الأول؛ فدرّس بهاء الدين في إحدى مدارسها الكثيرة {cite:britannica-rumi}."
+  en: "In 625/1228 Baha al-Din Walad and his family were called to Konya, capital of the Seljuqs of Rum, after a short stay at Laranda (Karaman) where Jalal al-Din's mother died and his first son was born. Baha al-Din taught at one of the city's many madrasas {cite:britannica-rumi}."
+  ur: "625ھ/1228ء میں بہاء الدین ولد اور ان کا خاندان سلجوقِ روم کے دارالحکومت قونیہ طلب کیا گیا، اس سے پہلے لارندہ (کرمان) میں قیام ہوا جہاں جلال الدین کی والدہ کا انتقال ہوا اور ان کا پہلا بیٹا پیدا ہوا۔ بہاء الدین شہر کے مدارس میں سے ایک میں تدریس کرنے لگے۔"
+wings: [time]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1228", hijri: "0625", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 1228م عند بريتانيكا؛ السنة الهجرية تحويل مشتق {cite:britannica-rumi}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/jalal-al-din-rumi, role: "المستقر بقونية مع أهله", sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/baha-al-din-walad, role: "المدرّس المستدعى", sources: [source/britannica-rumi] }
+sources: [source/britannica-rumi]
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi', 'Early life and travels', read through the Wayback capture of 23 October 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-rumi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

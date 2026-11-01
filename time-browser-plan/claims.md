@@ -166,3 +166,9 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | place/kabul | devin | claimed
 2026-11-01 | place/kabul | devin | done — 5 nodes; 10 Explorer images generated, 6 rejects (figures/power lines) regenerated clean
 2026-11-01 | place/shiraz | devin | claimed
+2026-11-01 | place/shiraz | devin | done — 4 nodes (Fars conquest ~23 AH, al-Layth's seizure 297, battle at Bab Shiraz 297, Abu Kalijar's wall 425-440); 8 Explorer images generated and screened
+2026-11-01 | person/jalal-al-din-rumi | devin | claimed
+2026-11-01 | person/jalal-al-din-rumi | devin | done — 7 nodes, journey; Britannica source + ledger; 14 Explorer images, 2 rejects (text on gate, figure) regenerated clean
+2026-11-01 | person/al-tabari | devin | claimed
+2026-11-01 | person/al-tabari | devin | done — 9 nodes, journey; EI2 vol. 10 (Bosworth) for dated biography + fihrist/muntazam/kamil events; GPU busy (cursor queue) so no Explorer images this pass
+2026-11-01 | person/al-mahdi | devin | claimed

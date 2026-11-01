@@ -1,0 +1,61 @@
+id: person/tez-ilyas
+class: person
+
+label: { ar: "تيز إلياس", en: "Tez Ilyas", ur: "تہذیب الیاس" }
+
+names:
+  - { value: "Tez Ilyas", kind: full }
+  - { value: "Mohammed Tehzeeb Ilyas", kind: full }
+  - { value: "محمد تہذیب الیاس", kind: full }
+
+gender: male
+
+summary:
+  ar: "كوميدي بريطاني وُلد في بلاكبيرن سنة 1983 باسم محمد تهذيب إلياس لأسرة باكستانية بنجابية. عمل موظفًا حكوميًا قبل الكوميديا، واشتهر بعرضه «محادثات تيز» وبرنامجه الساخر «عرض تيز أوكلوك» على القناة الرابعة، وبشخصية «إيت» في مسلسل «رجل مثل مبين»، وبكتابه «المذكرات السرية لمسلم بريطاني في الثالثة عشرة وثلاثة أرباع» (2021)."
+  en: "British stand-up comedian, born in Blackburn in 1983 as Mohammed Tehzeeb Ilyas to a Pakistani Punjabi family. A civil servant before comedy, he is known for his show TEZ Talks, the Channel 4 satire programme The Tez O'Clock Show, his role as Eight in Man Like Mobeen, and his book The Secret Diary of a British Muslim aged 13¾ (2021)."
+  ur: "برطانوی اسٹینڈ اپ کامیڈین، جو 1983 میں بلاکبرن میں محمد تہذیب الیاس کے نام سے ایک پاکستانی پنجابی خاندان میں پیدا ہوئے۔ کامیڈی سے پہلے سرکاری ملازم رہے؛ اپنے شو «ٹیز ٹاکس»، چینل 4 کے طنزیہ پروگرام «دی ٹیز او کلاک شو»، «مین لائک مبین» میں «ایٹ» کے کردار، اور اپنی کتاب «دی سیکرٹ ڈائری آف اے برٹش مسلم ایجڈ 13¾» (2021) کے لیے جانے جاتے ہیں۔"
+
+roles: [comedian, actor, writer]
+wings: [people, living]
+regions: [andalus-europe]
+
+born:
+  edtf: "1983-04-08"
+  hijri: "1403"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Blackburn, Lancashire, England. The English article and Wikidata agree on 8 April 1983; the article takes his registered birth name from the England & Wales Civil Registration Birth Index. The Hijri year 1403 is the tabular conversion of the built date, marked derived. No place entity for Blackburn exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-tez-ilyas-en, source/wikidata-tez-ilyas]
+
+relations: []
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English article states plainly that 'Ilyas is a Muslim',
+      and his work is built on his own British Muslim life: TEZ
+      Talks is staged as a seminar drawn from his experience of
+      Islam in Britain, and his 2021 book is The Secret Diary of a
+      British Muslim aged 13¾. That is a generic identification
+      naming no school or order, and no source read names one for
+      him. His birth to a 'Punjabi Muslim family' is family
+      background and was not used, and Wikidata's structured
+      religion value gives Islam only, which settles nothing under
+      the founder's rulings of 1 November 2026.
+    sources: [source/wikipedia-tez-ilyas-en, source/wikidata-tez-ilyas]
+
+external_ids: { wikidata: "Q23772269" }
+
+sources:
+  - source/wikipedia-tez-ilyas-en
+  - source/wikidata-tez-ilyas
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Tez Ilyas' (revision 1378557244 of 5 October 2026) and Wikidata Q23772269 (item revision 2536169323 of 25 August 2026), fetched live in-session via the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the article's own page property. Existence checked by the coordinator against origin/main before dispatch — no prior record and no draft stub. The queue's 1983 is confirmed: the article and Wikidata agree on 8 April 1983. (A manual Urdu interwiki in the English article's wikitext points to a Urdu page that does not exist; no Urdu article was used.)"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-165a"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
