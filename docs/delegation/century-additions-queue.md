@@ -935,11 +935,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Adel Al Ali — 1960–Living
 - [x] Tony Fernandes — 1964–Living
 - [x] Syed Mokhtar AlBukhary — 1951–Living
-- [ ] Vincent Tan (Contemporary) — 1952–Living
-- [ ] Robert Kuok (Contemporary) — 1923–Living
-- [ ] Ananda Krishnan (Contemporary) — 1938–Living
-- [ ] Jeffrey Cheah (Contemporary) — 1945–Living
-- [ ] Mochtar Riady (Contemporary) — 1929–Living
+- [x] Vincent Tan (Contemporary) — 1952–Living
+- [x] Robert Kuok (Contemporary) — 1923–Living
+- [x] Ananda Krishnan (Contemporary) — 1938–Living
+- [x] Jeffrey Cheah (Contemporary) — 1945–Living
+- [x] Mochtar Riady (Contemporary) — 1929–Living
 - [ ] Chairul Tanjung — 1962–Living
 - [ ] Eka Tjipta Widjaja (Contemporary) — 1921–2019
 - [ ] Prajogo Pangestu (Contemporary) — 1944–Living

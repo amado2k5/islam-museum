@@ -1,0 +1,54 @@
+id: person/ananda-krishnan
+class: person
+label: { ar: "أناندا كريشنان", en: "Ananda Krishnan", ur: "آنندا کرشنن" }
+names:
+  - { value: "Tatparanandam Ananda Krishnan", kind: full }
+  - { value: "Ananda Krishnan", kind: full }
+  - { value: "தத்பராநந்தம் ஆநந்தகிருஷ்ணன்", kind: full }
+  - { value: "A. K.", kind: alternate }
+gender: male
+summary:
+  ar: "أناندا كريشنان (1 نيسان 1938 – 28 تشرين الثاني 2024) رجل أعمال ماليزي من أبوين تاميليين، مؤسس مجموعة أوساها تيغاس؛ درس في جامعة ملبورن وكلية هارفارد للأعمال، وبدأ بمشاريع استشارية ونفطية قبل أن يبني إمبراطورية اتصالات وإعلام تضم ماكسيس وأسترو وأقمار ميسات، وكان عند وفاته ثالث أغنى ماليزي بثروة قُدرت بـ5.1 مليار دولار، وعُرف بتحفظه الشديد عن الأضواء وبعطائه التعليمي عبر مؤسسة يو كاي."
+  en: "Ananda Krishnan (1 April 1938 – 28 November 2024) was a Malaysian entrepreneur born to Tamil parents, founder of the Usaha Tegas group; educated at the University of Melbourne and Harvard Business School, he moved from consultancy and oil ventures to build a telecommunications and media empire spanning Maxis, Astro and the MEASAT satellites, was at his death Malaysia's third-richest man with an estimated US$5.1 billion, and was known for shunning publicity and for educational giving through the Yu Cai Foundation."
+  ur: "آنندا کرشنن (1 اپریل 1938 – 28 نومبر 2024) تامل والدین کے ہاں پیدا ہونے والے ملائیشیائی کاروباری تھے، اوساہا تیگاس گروپ کے بانی؛ انھوں نے یونیورسٹی آف میلبورن اور ہارورڈ بزنس اسکول سے تعلیم پائی، مشاورت و تیل کے کاروبار سے آگے بڑھ کر میکسس، ایسٹرو اور میسات سیٹلائٹس پر مشتمل ٹیلی کمیونیکیشن و میڈیا سلطنت بنائی، وفات کے وقت 5.1 ارب ڈالر کے تخمینے کے ساتھ ملائیشیا کے تیسرے امیر ترین فرد تھے، اور شہرت سے گریز اور یو کائی فاؤنڈیشن کے ذریعے تعلیمی عطیات کے لیے معروف تھے۔"
+roles: [businessman]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1938-04-01"
+  hijri: "1357"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree on 1 April 1938, born at Brickfields, Kuala Lumpur. The museum has no place entity for Kuala Lumpur, so no born_in relation is written. The date falls within the Hijri year 1357, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-ananda-krishnan-en, source/wikidata-ananda-krishnan]
+died:
+  edtf: "2024-11-28"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata agree that he died of natural causes on 28 November 2024, in the Swiss Alps, aged 86. The museum has no place entity for the death place, so no died_in relation is written. The date falls within the Hijri year 1446, which is given as the tabular conversion, marked derived."
+  sources: [source/wikipedia-ananda-krishnan-en, source/wikidata-ananda-krishnan]
+faith:
+  - value: buddhist
+    basis: documented
+    note: >-
+      Two independent texts attest the value for the man
+      himself: the English article's prose states 'Krishnan was
+      a follower of Buddhism', and the Tamil article's prose
+      states in its own wording that he was a follower of the
+      Buddhist religion — the Tamil text is not a translation of
+      the English one, carrying family detail the English
+      article lacks. Wikidata's religion statement (Buddhism)
+      is structured data and is not relied on. His only son's
+      vocation as a Theravada Buddhist monk is family
+      background and is likewise not relied on; the two article
+      texts settle the value on their own.
+    sources: [source/wikipedia-ananda-krishnan-en, source/wikipedia-ananda-krishnan-ta]
+external_ids: { wikidata: "Q485755" }
+sources: [source/wikipedia-ananda-krishnan-en, source/wikipedia-ananda-krishnan-ta, source/wikidata-ananda-krishnan]
+provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Ananda Krishnan' (revision 1381829104 of 25 October 2026), the Tamil article 'த. ஆனந்தகிருஷ்ணன்' (revision 4592484 of 6 July 2026) and Wikidata Q485755 (revision 2525011810 of 31 July 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. The Malay article was also read in-session. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him (Arabic only in its Egyptian dialect edition), so the Arabic and Urdu prose is the museum's rendering. Queue correction: the queue row and the wave brief treat him as living (b. 1938); the article records his death on 28 November 2024, so the record carries a died block and wings [people] only. No relations are written: no family member is named with a record on main, and the museum has no place entities for Kuala Lumpur or the Swiss Alps. Faith - buddhist/documented on the English and Tamil article texts; Wikidata's structured statement and his son's monkhood expressly not relied on.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-176a" }
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
