@@ -22,3 +22,6 @@ In "the account of the sum of the saying of the people of hadith and sunna" in M
 
 ## What is not covered here
 This entry presents the positions of the 'Aqida al-Tahawiyya, Ibn Qudama's Lum'at al-I'tiqad, Ibn Taymiyya's al-Wasitiyya, and what al-Ash'ari related in Maqalat al-Islamiyyin of the people of hadith and sunna and declared his own — each attributed to its book. The sayings of the Maturidis and the remaining Sunni and non-Sunni schools from their own books have not yet been added; the entry needs specialist review before promotion.
+
+## In Yusuf al-Qaradawi's lessons Ta'ammulat Qur'aniyya
+[[person/yusuf-al-qaradawi|Yusuf al-Qaradawi]], explaining the Throne Verse, rejects the pagan idea of intercession in which intercessors impose their will on God, and says it passed from pagans to some of the People of the Book. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep03 00:20:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep03 00:21:00} He notes that the Mu'tazila of old and, in our time, Dr Mustafa Mahmoud denied intercession in the hereafter as favouritism, and holds that alongside justice God has favour and mercy. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep03 00:21:30}

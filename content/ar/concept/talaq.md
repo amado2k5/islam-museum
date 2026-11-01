@@ -21,3 +21,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى عمر عبد الكافي أن كثرة الطلاق التي تخرب البيوت سببها تبخّر الصبر من الزوجين، وأن «قذائف» الطلاق وطلبه تنطلق من الألسنة متى غاب الصبر، وينصح الزوج إذا استفزّته زوجته في ساعة غضب أن يصبر ولا يطلّق، وهذا رأيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:06:00}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يقول [[person/yusuf-al-qaradawi|يوسف القرضاوي]] إن القرآن أقام الأسرة على حدود الله والمعروف، وإن الله أمر الرجال ألا يستجيبوا للعواطف بسرعة فيهدموا البيت عند أول غضب أو نفور. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:01:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:06:30} ويعلّل جعل الطلاق بيد الرجل بأن المرأة في رأيه أكثر عاطفية، وبأن الرجل يُفترض أن يكون أكثر نضجًا وتأملًا في العواقب. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:07:00} ويروي أن رجلًا طلّق امرأته لأنها قالت له إنها لا تحبه، فقال عمر إن البيوت قلّما بُنيت على الحب، وإنما يتعاشر الناس بالإسلام والإحسان. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:09:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:10:00}

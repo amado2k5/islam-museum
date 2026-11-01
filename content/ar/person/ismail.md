@@ -34,3 +34,12 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن العجيب في قصة الذبح ليس إبلاغ إبراهيم ابنه بالرؤيا بل استقبال إسماعيل للخبر بقوله «يا أبت افعل ما تؤمر ستجدني إن شاء الله من الصابرين»، لأنه علم أن الأمر من الله، وينقل عن كتب السير أنه أعان أباه فطلب أن يُلقى على وجهه لئلا تأخذه الشفقة، وأن يُشدّ وثاقه لئلا يتطاير دمه على ثيابه، وأن يُعطى قميصه لأمه لعلها تتسلى به (needs_source: من كتب السير كما يرويها الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:08:00}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يشرح [[person/yusuf-al-qaradawi|يوسف القرضاوي]] قصة الذبح في سورة الصافات، ويقول إنها لا تُذكر في سورة أخرى ([[passage/quran-37-102|الصافات 102]]). {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:01:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:02:00} ويقول إن إبراهيم كان في السادسة والثمانين، كما تقول التوراة، حين رُزق بولده الأول إسماعيل. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:16:00} ويقول إن جواب الابن لأبيه بأن يمضي لما أُمر به، دون أن يذكر نفسه، أقوى من قول موسى للخضر إنه سيجده صابرًا. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:22:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:23:00} ويستدل على أن الذبيح إسماعيل بأن الحدث في مكة حيث رمي الجمار، وبأن البشارة بإسحاق جاءت بعد قصة الذبح، ويضعّف الحديث المنسوب إلى النبي في أنه ابن الذبيحين. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:29:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:30:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:31:00}
+
+:::perspectives
+- **موقف أهل السنة (لم يُوثّق هنا بعد)**: لم يُوثّق هنا بعد قول جمهور أهل السنة في الذبيح من مصدر مستقل.
+- **رأي المتحدث (يوسف القرضاوي، رأيه)**: يرجّح أن الذبيح إسماعيل، ويقول إن نص التوراة في الأمر بذبح الابن البكر الوحيد أُقحم فيه اسم إسحاق حسدًا للعرب، وإن بعض علماء المسلمين أخذوا القول الآخر عن أهل الكتاب ككعب الأحبار. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:28:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:28:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:29:00}
+- **الآراء الأكاديمية وغيرها (لم تُوثّق بعد)**: لم تُوثّق هنا بعد.
+:::
