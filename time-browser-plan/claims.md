@@ -168,3 +168,5 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | place/shiraz | devin | claimed
 2026-11-01 | place/shiraz | devin | done — 4 nodes (Fars conquest ~23 AH, al-Layth's seizure 297, battle at Bab Shiraz 297, Abu Kalijar's wall 425-440); 8 Explorer images generated and screened
 2026-11-01 | person/jalal-al-din-rumi | devin | claimed
+2026-11-01 | person/jalal-al-din-rumi | devin | done — 7 nodes, journey; Britannica source + ledger; 14 Explorer images, 2 rejects (text on gate, figure) regenerated clean
+2026-11-01 | person/al-tabari | devin | claimed

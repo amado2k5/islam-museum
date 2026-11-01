@@ -583,6 +583,21 @@ After batches 12–23, 84 n–z places that cite Idrisi and have a short Arabic 
 
 **Under 100 words of source text (39).** About a paragraph or less in the pages, mostly distances: suraws, samandar-khazar, nawshi, qaynyu, rushiya, tarighyawqan, subara, ramij, tukra, venetian-gulf-nuzhat, tashmis, tanuma, nastasiyya, suways, shaqubiyya, qarqudhi, sabu-river, rishahr, qantarat-qurtuba, nahr-bihank, qalat-al-balut, tarjinis, orissa, nawtas, tarawiya, nadkhu, tajwa, nahr-bugu, salwni, titlus, ras-al-muhjama, pantelleria, qalamun, sibiba, nahr-shirin, silabirs, sanasa, tanisbar. Three have one quotable fact each: tashmis (a ruined walled city on the Safdad river a mile from the sea, p. 530), tukra (a large populous fort two stages from Qafiz, p. 315), and suways (the brackish spring at Qulzum, p. 348).
 
+## n–z batch 25 (Claude Sonnet 5.5, place, Idrisi; Nile, Indian Ocean and Socotra)
+
+### Enriched, batch 25
+
+- **place/nawaba** (Idrisi p. 37). Town six days from Kusha, under the king of Nubia (Kasil) whose seat is Dongola.
+- **place/najagha** (p. 43). Small farming town on the river, six days downstream of Marqata.
+- **place/wadi-al-alaqi** (p. 46). The Nubian gold-mine valley and the night-time gold gathering and washing.
+- **place/shamil** (p. 85). Island four days from Sanf, with Ashura and Malay as neighbours.
+- **place/sanf-island** (pp. 83, 84). Sanfi aloeswood, tail-less cattle, King Zunbad, three stages to Luqin.
+- **place/sandi-fulat** (pp. 89, 84). One of the gates of China; the earlier link to sanf-island is kept.
+- **place/sahab-island** (p. 90). The cloud-named island and the sea-spout, as al-Idrisi describes it without explaining it.
+- **place/socotra** (pp. 50, 51, 52). The aloe island; al-Idrisi's Alexander explanation of its Christians and the aloe preparation. The earlier paragraph from al-Hamdani (`sifat-jazirat-al-arab p. 36`) is kept in all three languages.
+
+Passages on appearance, customs and religion of the peoples named on these pages are left out; the entries keep to places, goods and distances.
+
 ## n–z batch 24 (Claude Sonnet 5.5, place, Idrisi; unmatched labels from batch 23)
 
 Batch 23's "no hit for the label" group came from my own search, which only scanned pages 150–999. The record cites pages before 150 (the Nile, Sudan and Indian Ocean sections), and a search of the cited pages finds all 39 labels. Those places are now worked from the cited page.
@@ -596,3 +611,19 @@ Batch 23's "no hit for the label" group came from my own search, which only scan
 - **place/tasawa** (p. 112). "Little Jarma" in Fazzan, wells and the anjaqa/khattara irrigation, the silver mine in Jabal Jujis.
 - **place/nughayra** (p. 105). One of the two old cities of Qamnuriyya (with Qanuri); the land of Qamnuriyya and the gold-dust road. The passage on the people's beliefs is left out.
 - **place/nabranta** (p. 111). Ruined city eight stages north of the Saghwa; the Zaghawa neighbours.
+
+## n–z batch 26 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 26
+
+- **place/uriyula** (Idrisi pp. 538, 557, 558). Orihuela on the White River, its citadel, distances to Murcia, Cartagena and Elche; the earlier link to Murcia is kept.
+- **place/qalat-ayyub** (pp. 538, 553, 554). Calatayud, its gilded pottery, distances to Daruqa and Saragossa, the sources of the Ebro.
+- **place/qamula** (p. 129). Village with notable fruit; the page does not name the preceding stop.
+
+### Leads from the unmatched-label group, batches 24–26
+
+Worked from the cited pages and found thin or mixed: zamakhir (about 35 words, p. 127), tayma (one line, p. 352), rughusa (about 20 words, p. 769), qastalun (about 26 words, p. 621), wadi-al-falaj (about 45 words, p. 157), suqya-port (one line, p. 138), samasta (about 94 words with Egypt-wide context, p. 131), sumba and persian-gulf-nuzhat (short route notes, pp. 88, 9). Four more passages sit inside long paragraphs on other places (samna p. 30, sanitriyya pp. 117/123/124, waq-waq-islands pp. 77/91/92, qalat-al-kariyan and qalat-isfandiyadh p. 420) or carry material on peoples' customs that the entries leave out. ubda (p. 569) is left because the town before it in the route is not named in the OCR. Lead.
+
+### Also in batch 26
+
+- **place/ramij** (Idrisi pp. 61, 62). The large Zanj-archipelago island with five kinds of banana, the mountain refuge of Jabal Wayra, the Chinese trade that moved there, the smoking island nearby. Found from the cited page 62, which the earlier 150–999 search had skipped.

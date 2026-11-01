@@ -1,0 +1,76 @@
+id: person/ali-bey-al-kabir
+class: person
+
+label: { ar: "علي بك الكبير", en: "Ali Bey al-Kabir", ur: "علی بیگ الکبیر" }
+
+names:
+  - { value: "Ali Bey al-Kabir", kind: full }
+  - { value: "علي بك الكبير", kind: full }
+  - { value: "Bulutkapan Ali Bey", kind: alternate }
+  - { value: "Balut Kapan", kind: laqab }
+  - { value: "Jinn Ali", kind: laqab }
+  - { value: "Daut", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "علي بك الكبير (1728 – 1773) مملوكي صار شيخ البلد في مصر العثمانية والحاكم الفعلي لها، فسكّ النقود باسمه وأوقف الخراج السنوي إلى إسطنبول وسعى عمليًا إلى الاستقلال، وضمّ الحجاز وغزا الشام بين 1770 و1771. خُطف طفلًا من أبخازيا وبيع في القاهرة فتربّى في بيت إبراهيم كتخدا واعتنق الإسلام، وانتهى حكمه بخيانة تابعه محمد بك أبو الدهب؛ جُرح في معركة الصالحية سنة 1773 ونُقل إلى القاهرة فمات فيها."
+  en: "Ali Bey al-Kabir (1728–1773) was a mamluk who became shaykh al-balad and effective ruler of Ottoman Egypt, minting coins in his own name, stopping the annual tribute to Istanbul and in 1769 practically pursuing independence, then conquering the Hejaz and invading Syria in 1770–1771. Kidnapped as a boy from Abkhazia and sold in Cairo, he was raised in Ibrahim Ketkhuda's household and converted to Islam; his rule ended through the betrayal of his own general Abu al-Dahab, and he died in Cairo of wounds taken at the battle of al-Salihiyya in 1773."
+  ur: "علی بیگ الکبیر (1728ء – 1773ء) مملوک تھے جو عثمانی مصر میں شیخ البلد اور درحقیقت حکمران بنے؛ اپنے نام کے سکے ڈھلوائے، استنبول کو سالانہ خراج روکا اور عملی طور پر خود مختاری کی راہ اپنائی، پھر حجاز فتح کیا اور 1770ء تا 1771ء شام پر چڑھائی کی۔ بچپن میں ابخازیا سے اغوا ہو کر قاہرہ میں بکے، ابراہیم کتخدا کے گھر پرورش پائی اور اسلام قبول کیا۔ ان کے خاص جرنیل ابو الدهب کی غداری پر حکومت ختم ہوئی؛ صالحیہ کی لڑائی میں زخمی ہو کر قاہرہ لائے گئے اور وہیں وفات پائی۔"
+
+roles: [ruler]
+regions: [egypt-nile]
+wings: [people]
+
+born:
+  edtf: "1728"
+  hijri: "1140"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English, Arabic and Urdu articles agree on 1728, the Arabic article pairing it with 1140 AH. He was born in the Principality of Abkhazia; the accounts of his parentage differ — Pleshcheev and Fındıklılı Efendi make him ethnically Abkhazian, the Encyclopaedia of Islam, following his contemporary biographer Lusignan, makes him supposedly the son of a Greek Orthodox priest named David, Mikaberidze makes his father a Georgian Orthodox priest, and the Arabic article also carries a version making him a Romanian Orthodox priest's son from Amasya; Wikidata's birthplaces, Samegrelo and Istanbul, reflect those rival traditions. Abkhazia has no museum place record, so no born_in edge is written."
+  sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar, source/wikidata-ali-bey-al-kabir]
+
+died:
+  edtf: "1773-05-08"
+  hijri: "1187"
+  calendar: gregorian
+  precision: day
+  status: debated
+  note: "The English article's heading and the Arabic article agree that he died on 8 May 1773, the Arabic article giving 25 Safar 1187 and recording that, wounded at the battle of al-Salihiyya on 26 April, he was carried to Cairo and died there despite Abu al-Dahab's care. Wikidata also carries 22 April 1773, preserved here so the day is marked debated, and gives Acre beside Cairo as a death place, which neither article supports and is not followed."
+  sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar, source/wikidata-ali-bey-al-kabir]
+
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar] }
+  - { type: patron_of, target: person/jazzar-pasha, sources: [source/wikipedia-jazzar-pasha-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No source read names a legal school for the man himself. He
+      was kidnapped at about thirteen from Abkhazia, where the
+      biographical tradition makes him a priest's son, sold in
+      Cairo and raised in Ibrahim Ketkhuda's mamluk household,
+      converting to Islam as mamluks did; he then ruled as a Muslim
+      strongman, led the Hajj caravan as amir al-hajj in 1753 or
+      1754 and was proclaimed in the two sanctuaries. Origin and
+      conversion are background, not the naming of a school, and
+      Wikidata gives only Islam. His faith is therefore recorded
+      as unknown.
+    sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar, source/wikidata-ali-bey-al-kabir]
+
+external_ids: { wikidata: "Q261691" }
+
+sources:
+  - source/wikipedia-ali-bey-al-kabir-en
+  - source/wikipedia-ali-bey-al-kabir-ar
+  - source/wikipedia-ali-bey-al-kabir-ur
+  - source/wikidata-ali-bey-al-kabir
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378695368 of 5 October 2026), Arabic Wikipedia (revision 76802703 of 29 September 2026), Urdu Wikipedia (revision 9642192 of 29 March 2026) and Wikidata Q261691 (item revision 2545321616), fetched live in-session on 1 November 2026; the QID was grounded from the English article's own page property, the Arabic and Urdu articles agreeing, and the item revision re-asserted against a second live query. Existence checked by slug and by name fragments across data/person/ in the worktree and against origin/main before building: ismail-bey-al-kabir and the other al-kabir namesakes are different men and no prior record holds Ali Bey under any spelling. His wife Nafisa al-Bayda has no museum record, so no spouse_of edge is written and the marriage is carried in prose only. The patron_of edge to Jazzar Pasha is written here, in the patron's record, on the English Jazzar article's statement that Ali Bey adopted al-Jazzar as his protégé and appointed him sanjak-bey of Cairo."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-164j"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
