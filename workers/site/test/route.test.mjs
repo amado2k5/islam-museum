@@ -1,7 +1,6 @@
 // Run: node --test workers/site/test/
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "../src/route.js";
 
 test("language pages map to index.html keys", () => {
@@ -87,47 +86,6 @@ test("edge cache: HTML and redirects carry an hour of cache, 404s none", async (
   assert.equal(redirectLocation("/ar/person/ikrima-ibn-abi-jahl/"), "/ar/person/ikrima-ibn-abi-jahl/");
   assert.equal(redirectLocation("ar/x/"), "/ar/x/");
   assert.equal(redirectLocation("https://api.islam.museum/api/v1/meta/index.json"), "https://api.islam.museum/api/v1/meta/index.json");
-});
-
-test("www redirects to the apex and is not cached", async () => {
-  const { apexRedirect } = await import("../src/route.js");
-  assert.deepEqual(apexRedirect("www.islam.museum", "/en/place/antioch/", "?q=1"), {
-    location: "https://islam.museum/en/place/antioch/?q=1",
-    status: 301,
-    cacheControl: "no-store",
-  });
-  assert.equal(apexRedirect("islam.museum", "/"), null);
-  assert.equal(apexRedirect("islam-museum.pages.dev", "/en/"), null);
-});
-
-test("a missing language URL names that language's not-found page", async () => {
-  const { notFoundKey } = await import("../src/route.js");
-  assert.equal(notFoundKey("/en/missing"), "en/404/index.html");
-  assert.equal(notFoundKey("/ur/place/nope/"), "ur/404/index.html");
-  assert.equal(notFoundKey("/ar/"), "ar/404/index.html");
-  assert.equal(notFoundKey("/robots.txt"), "ar/404/index.html");
-});
-
-test("embed pages may be framed; other pages keep their policy", async () => {
-  const { embedFraming } = await import("../src/route.js");
-  const csp = "default-src 'self'; frame-ancestors 'self'; img-src 'self'";
-  assert.deepEqual(embedFraming("/en/embed/fact/", csp), {
-    embed: true,
-    csp: "default-src 'self'; frame-ancestors *; img-src 'self'",
-  });
-  assert.deepEqual(embedFraming("/en/", csp), { embed: false, csp });
-});
-
-test("the published header file sends HSTS, CSP, framing and permissions", () => {
-  const text = readFileSync(new URL("../../../site/public/_headers", import.meta.url), "utf8");
-  const home = headersFor(parseHeaders(text), "/en/");
-  assert.match(home["Strict-Transport-Security"], /max-age=31536000/);
-  assert.match(home["Content-Security-Policy"], /frame-ancestors 'self'/);
-  assert.match(home["Content-Security-Policy"], /script-src 'self' 'unsafe-inline'/);
-  assert.equal(home["X-Frame-Options"], "SAMEORIGIN");
-  assert.match(home["Permissions-Policy"], /camera=\(\)/);
-  const catalog = headersFor(parseHeaders(text), "/.well-known/api-catalog");
-  assert.equal(catalog["Content-Type"], "application/linkset+json");
 });
 
 test("aliasTarget redirects a former entity id to the current one in the same language", async () => {

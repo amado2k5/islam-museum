@@ -5,8 +5,8 @@
 // The two rule files are bundled at deploy time (scripts/bundle-rules.mjs writes
 // src/rules.generated.js): static assets consume _redirects and _headers themselves
 // and do not serve them, so they cannot be fetched through env.ASSETS.
-import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget, apexRedirect, notFoundKey, embedFraming, WELL_KNOWN_TYPES } from "./route.js";
-import { redirectsText, headersText, aliasesText, apiCatalogBody, securityTxtBody } from "./rules.generated.js";
+import { resolve, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor, HTML_CACHE_CONTROL, redirectTo, redirectLocation, aliasTarget } from "./route.js";
+import { redirectsText, headersText, aliasesText } from "./rules.generated.js";
 
 const rules = {
   static: parseRedirects(redirectsText),
@@ -41,47 +41,14 @@ function withHeaders(response, blocks, pathname) {
   if (Object.keys(extra).length === 0) return response;
   const headers = new Headers(response.headers);
   for (const [name, value] of Object.entries(extra)) headers.set(name, value);
-  const frame = embedFraming(pathname, headers.get("content-security-policy"));
-  if (frame.embed) {
-    headers.delete("x-frame-options");
-    if (frame.csp) headers.set("content-security-policy", frame.csp);
-  }
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
 }
-
-const WELL_KNOWN_BODIES = {
-  "/.well-known/api-catalog": apiCatalogBody,
-  "/.well-known/security.txt": securityTxtBody,
-};
 
 export default {
   async fetch(request, env) {
     if (request.method !== "GET" && request.method !== "HEAD") return env.ASSETS.fetch(request);
     const url = new URL(request.url);
     const respond = (response) => withHeaders(response, rules.headers, url.pathname);
-
-    const www = apexRedirect(url.hostname, url.pathname, url.search);
-    if (www) {
-      // withHeaders may copy a path's Cache-Control (for example /brand/*) onto this
-      // response. Put no-store back afterwards: a cached www redirect is keyed by path
-      // alone and would be replayed on the apex.
-      const redirected = respond(new Response(null, {
-        status: www.status,
-        headers: { location: www.location, "cache-control": "no-store", "cdn-cache-control": "no-store" },
-      }));
-      const headers = new Headers(redirected.headers);
-      headers.set("cache-control", "no-store");
-      headers.set("cdn-cache-control", "no-store");
-      return new Response(null, { status: redirected.status, headers });
-    }
-
-    const knownType = WELL_KNOWN_TYPES[url.pathname];
-    if (knownType && WELL_KNOWN_BODIES[url.pathname]) {
-      return respond(new Response(request.method === "HEAD" ? null : WELL_KNOWN_BODIES[url.pathname], {
-        status: 200,
-        headers: { "content-type": knownType, "cache-control": "public, max-age=86400" },
-      }));
-    }
 
     const rule = rules.static.get(url.pathname);
     if (rule) return respond(redirectTo(redirectLocation(rule.to), rule.status));
@@ -110,14 +77,11 @@ export default {
     const object = await env.SITE_BUCKET.get(target.key);
     if (!object) {
       // Never cached: the page appears as soon as a publish writes it to R2.
-      // Prefer the language's own not-found page (published to R2 with the HTML).
-      const localized = await env.SITE_BUCKET.get(notFoundKey(url.pathname));
-      const notFound = localized ?? await env.ASSETS.fetch(new URL("/404.html", url));
-      const headers = new Headers(localized ? undefined : notFound.headers);
+      const notFound = await env.ASSETS.fetch(new URL("/404.html", url));
+      const headers = new Headers(notFound.headers);
       headers.set("content-type", "text/html; charset=utf-8");
       headers.set("cache-control", "no-store");
-      const body = localized ? localized.body : notFound.body;
-      return respond(new Response(request.method === "HEAD" ? null : body, { status: 404, headers }));
+      return respond(new Response(request.method === "HEAD" ? null : notFound.body, { status: 404, headers }));
     }
     const headers = new Headers();
     object.writeHttpMetadata(headers);

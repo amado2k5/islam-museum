@@ -116,12 +116,6 @@ html[data-contrast="high"] { --muted: var(--fg); --line: var(--fg); --edge: var(
 .a11y-row input { width: 20px; height: 20px; accent-color: var(--accent, #0a2533); flex: none; }
 .a11y-ctl { display: inline-flex; align-items: center; gap: 6px; }
 .a11y-ctl button { min-width: 34px; min-height: 34px; border: 1px solid var(--line); border-radius: 9px; background: transparent; color: var(--fg); cursor: pointer; font-size: .85rem; }
-.a11y-short { display: none; }
-@media (max-width: 480px) {
-  .a11y-prefs > summary { position: relative; }
-  .a11y-prefs > summary .a11y-full { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
-  .a11y-short { display: inline; }
-}
 .a11y-ctl output { min-width: 3.2em; text-align: center; font-size: .85rem; }
 .a11y-note { font-size: .74rem; margin: 8px 0 0; line-height: 1.5; }
 @media (forced-colors: active) { .chip, .panel, .card { border: 1px solid CanvasText; } }
