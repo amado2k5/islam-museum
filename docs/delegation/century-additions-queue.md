@@ -870,11 +870,11 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Baron Waheed Alli — 1964–Living
 - [x] Amir Jahangir — 1977–Living
 - [x] Riz Khan — 1962–Living
-- [ ] Mehdi Hasan — 1979–Living
-- [ ] Ayman Mohyeldin — 1979–Living
-- [ ] Ali Velshi — 1969–Living
-- [ ] Fareed Zakaria — 1964–Living
-- [ ] Reham Khan — 1973–Living
+- [x] Mehdi Hasan — 1979–Living
+- [x] Ayman Mohyeldin — 1979–Living
+- [x] Ali Velshi — 1969–Living
+- [x] Fareed Zakaria — 1964–Living
+- [x] Reham Khan — 1973–Living
 - [ ] Mishal Husain — 1973–Living
 - [ ] Faisal Islam — 1977–Living
 - [ ] Samira Ahmed — 1968–Living
