@@ -45,3 +45,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی یعقوب کے اپنے دو بیٹوں کے معاملے میں صبر کی بات کرتے ہیں، قمیص لانے اور ان کے چہرے پر ڈالنے کا ذکر کرتے ہیں، اور سوال کرتے ہیں کہ یعقوب نے آزمائش کا علاج کیسے کیا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے (2)
+شیخ کہتے ہیں کہ یعقوب نے یوسف کے لیے خاص محبت اور بھائیوں کے سامنے ممتاز مقام ظاہر کیا، اور اس سے سبق نکالتے ہیں کہ والدین ایک بچے کو دوسرے پر ترجیح نہ دیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}

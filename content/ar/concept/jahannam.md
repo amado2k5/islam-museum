@@ -71,3 +71,6 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: تفسير القرآن (الحلقة 7)
 
 ويقول الشيخ إن أهل النار لو وجدوا نارا من نيران الدنيا لاستراحوا فيها (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}. ويذكر أن قطرة واحدة من الغسلين لو أُهريقت في أهل الدنيا لماتوا من رائحتها (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي الحديث في أن الله لما خلق الجنة حفّها بالمكاره، ولما خلق النار حفّها بالشهوات، وأرسل جبريل إليهما. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:30}

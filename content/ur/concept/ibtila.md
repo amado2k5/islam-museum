@@ -49,3 +49,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ روزمرہ کی آزمائشیں گنواتے ہیں: نافرمان بیٹا، تلخ زبان بیوی، مشکل پڑوسی، اور ظالم افسر۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:25:30}
 وہ لوگوں کی زبانوں، ظالم مالکان، اور ان پڑوسیوں کا ذکر کرتے ہیں جو بھلائی چھپاتے اور برائی پھیلاتے ہیں۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
 ان کی رائے ہے کہ تنگ رزق آدمی کو اللہ سے دعا کرنا سکھاتا ہے، جبکہ محفوظ تنخواہ اپنے مالک کو اس کے رب سے غافل کر دیتی ہے۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی ابن عطاء اللہ کی اس حکمت کی شرح کرتے ہیں کہ آزمائش کا درد یہ جان کر ہلکا ہوتا ہے کہ آزمانے والا اللہ ہے، اور کہتے ہیں کہ سب سے سخت آزمائش انبیا کی ہوتی ہے، پھر علما کی، پھر درجہ بدرجہ؛ جب تک آزمائش دین میں نہ ہو اللہ کا شکر ادا کرے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:14:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:27:30}

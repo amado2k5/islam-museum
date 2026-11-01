@@ -15,3 +15,6 @@ The Sheikh speaks of responsibility and says it is not frowning, raising the voi
 
 ## The speaker's view: repeating proud words
 The Sheikh refers to what the Qur'an records of the claims of Iblis to superiority, of Pharaoh to the kingdom and of Qarun to wealth, and warns against echoing such words. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:22:30} He says such statements are repeated without awareness of what they mean, and recalls Qarun's claim that his wealth came from his knowledge. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:23:30}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Explaining the maxim that created things are outwardly a lure and inwardly a lesson, Omar Abdelkafy mentions those who wished for Qarun's place when he went out in his finery, and who said after the earth swallowed him that God gives provision abundantly to whom He wills. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:20:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:21:00}

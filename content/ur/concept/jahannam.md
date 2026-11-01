@@ -71,3 +71,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 ## شیخ عمر عبد الکافی کے تفسیری درس (قسط 7)
 
 شیخ کہتے ہیں کہ جہنمی اگر دنیا کی آگوں میں سے کوئی آگ پا لیں تو اس میں آرام پائیں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}۔ وہ ذکر کرتے ہیں کہ غسلین کا ایک قطرہ اگر اہلِ دنیا پر بہا دیا جائے تو وہ اس کی بو سے مر جائیں (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:45:30}۔
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی اس حدیث کا ذکر کرتے ہیں کہ اللہ نے جنت بنا کر اسے ناپسندیدہ چیزوں سے گھیر دیا اور دوزخ بنا کر اسے خواہشات سے گھیر دیا، اور جبریل کو انہیں دیکھنے بھیجا۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:32:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:33:30}

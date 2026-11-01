@@ -12,3 +12,6 @@ He was very dark-skinned, afflicted in the throat, rough in living, wore wool, a
 
 ## His death
 He died in 106 AH at an advanced age. {cite:tazkirat-al-huffaz j.1 p.87}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy relates that Hisham met Salim ibn Abdullah in the Ka'ba and offered to grant any need he asked; Salim asked whether he meant needs of this world or of the next, and was ashamed to ask anyone but God in His house. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:30}

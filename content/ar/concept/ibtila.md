@@ -49,3 +49,6 @@ translators: []
 يعدّد الشيخ ابتلاءات الحياة اليومية: الولد العاصي، والزوج الفظ اللسان، والجار الصعب، والمدير الظالم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:25:30}
 ويذكر ما يبتلي به الناس من ألسنة الآخرين، وأصحاب العمل الظالمين، وجيران يكتمون الخير وينشرون الشر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
 ويرى أن الرزق الضيق يعلّم المرء أن يدعو الله، بخلاف الراتب المضمون الذي ينسي صاحبه ربّه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يشرح عمر عبد الكافي حكمة ابن عطاء الله أن ما يخفّف ألم البلاء علم العبد بأن الله هو المبتلي، ويذكر أن أشد الناس بلاءً الأنبياء ثم العلماء ثم الأمثل فالأمثل، ويحمد الله ما دام البلاء في غير الدين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:14:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:27:30}

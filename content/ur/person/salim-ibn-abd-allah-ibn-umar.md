@@ -12,3 +12,6 @@ translators: []
 
 ## وفات
 وہ بڑی عمر میں 106 ہجری میں فوت ہوئے۔ {cite:tazkirat-al-huffaz j.1 p.87}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی بیان کرتے ہیں کہ ہشام کعبہ میں سالم بن عبد اللہ سے ملا اور پیشکش کی کہ جو حاجت ہو مانگیں؛ سالم نے پوچھا کہ دنیا کی حاجت یا آخرت کی؟ اور انہیں شرم آئی کہ اللہ کے گھر میں اس کے سوا کسی سے مانگیں۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:38:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:39:30}

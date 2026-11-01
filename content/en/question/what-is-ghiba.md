@@ -32,3 +32,6 @@ He suggests that, to repair the harm of backbiting, one should praise the person
 
 ## Umar's rules in a gathering
 The Sheikh reports that among Umar ibn al-Khattab's rules, no one should flatter him, no one should backbite in his presence, and no one with a right should be kept from reaching him. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:13:30}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy says that if wine is the mother of the great sins, backbiting is their father, because the backbiter falls through it into many sins. This is his phrase of exhortation. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep10 00:35:00}

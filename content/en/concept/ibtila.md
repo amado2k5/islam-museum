@@ -49,3 +49,6 @@ He says that the sick person is nearer to God, and cites a hadith that one shoul
 He lists the trials of everyday life: a disobedient child, a spouse with a harsh tongue, a difficult neighbour, and an oppressive boss. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:25:30}
 He mentions the trials people face from others' tongues, from unjust employers, and from neighbours who hide good and spread evil. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
 He holds that a narrowed livelihood teaches a person to call on God, unlike a secure salary, which makes its owner forget his Lord. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy explains Ibn Ata Allah's maxim that what lightens the pain of affliction is knowing that God is the one who tests, and says that the most sorely tried of people are the prophets, then the scholars, then the next best and the next; one should praise God so long as the affliction is not in one's religion. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:14:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:27:30}

@@ -45,3 +45,6 @@ He recounts Yusuf's rise in Egypt and Ya'qub bowing before him, as the fulfilmen
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy speaks of Ya'qub's patience in what befell him through his two sons, mentions the shirt being brought and cast over his face, and asks how Ya'qub dealt with the trial. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah (2)
+The Sheikh says that Ya'qub showed Yusuf a special love and a distinct standing before his brothers, and draws the lesson that fathers should not favour one child over another. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}

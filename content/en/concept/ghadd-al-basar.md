@@ -46,3 +46,6 @@ He says that the eyes should be used for what benefits, warns children against w
 - **The speaker's view (personal opinion)**: He criticises the husband who looks at other women in front of his wife, and the husband who threatens to take another wife. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:28:30} He urges men to lower their gaze, says a woman should dress modestly when she goes out, and holds that each person's gaze is a trust. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:06:00}
 - **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy suggests that a servant set himself a week in which to train himself to lower his gaze from what God has forbidden, and says that whoever grows used to lowering his gaze sees with the eye of his heart what others do not see. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:07:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:07:30}

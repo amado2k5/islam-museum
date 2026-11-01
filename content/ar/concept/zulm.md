@@ -41,3 +41,6 @@ translators: []
 ويعرّف الشيخ الظلم بأنه مجاوزة الحق، ويدعو الناس إلى أن يقيسوا أنفسهم بالكتاب والسنة، فكثير من الناس لا يعلم أنه يظلم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:48:30}. ويرى، وهذا رأي شخصي له، أن الرد على الجهل بالجهل، وعلى الظلم بالظلم، يجعلنا جاهلين وظالمين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:23:00}.
 
 ويقول الشيخ، وهو رأي شخصي له، إن الظالم لا يرى إلا نفسه، ولا يتصور أن الطفل الذي يحميه سيكبر ويقف في وجهه، ويضرب مثلا بفرعون ومولود بني إسرائيل {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
+يذكر عمر عبد الكافي معنى حديث المفلس: يأتي يوم القيامة بحسنات ثم يأخذ منها من ظلمهم، فإذا فنيت حسناته أُخذ من سيئاتهم فطُرحت عليه، ويحذّر من الغيبة والأذى. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}

@@ -41,3 +41,6 @@ The Sheikh cites a sacred saying in which God says: "O My servants, I have forbi
 He defines injustice as exceeding what is right, and urges people to measure themselves against the Qur'an and the Sunna, since many people do not know that they are wronging others {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:48:30}. He holds, as his own opinion, that answering ignorance with ignorance and injustice with injustice makes us ignorant and unjust ourselves {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:23:00}.
 
 He holds, as his own opinion, that the oppressor sees only himself, and does not imagine that the child he shelters will grow up to confront him; he gives the example of Pharaoh and the child of the Israelites {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 00:31:30}.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy gives the sense of the hadith of the bankrupt: a man comes on the Day of Resurrection with good deeds, and those he wronged take from them, and when his good deeds run out their sins are taken and cast upon him; he warns against backbiting and harm. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:28:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep12 00:29:30}

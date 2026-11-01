@@ -46,3 +46,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يتحدث عمر عبد الكافي عن صبر يعقوب على ما أصابه في ولديه، ويذكر مجيء القميص وإلقاءه على وجهه، ويسأل كيف عالج يعقوب الابتلاء. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:51:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep04 00:52:00}
+
+## من سلسلة شرح الحكم العطائية (عمر عبد الكافي) (2)
+ويقول الشيخ إن يعقوب أظهر محبة خاصة ليوسف ومكانة مميزة عند إخوته، ويستخلص من ذلك أن على الآباء ألا يفضّلوا ولدًا على ولد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:16:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:19:30}
