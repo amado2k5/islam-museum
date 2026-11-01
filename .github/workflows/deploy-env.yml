@@ -227,11 +227,13 @@ jobs:
           # Production: islam-museum-r2-sync, -2 .. -7. UAT: islam-museum-r2-sync-uat, -uat-2 .. -uat-7.
           urls=""
           for i in $(seq 1 "$COUNT"); do
+            # wrangler's --env suffixes --name for secret put, so the token goes to the Worker named
+            # by --name only (never "<name>-<env>"). The deploy above is the one that takes --env.
             name="$BASE"; [ "$i" -gt 1 ] && name="$BASE-$i"
             npx wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV" --name "$name" | tee deploy.log
             url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
             test -n "$url"
-            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --env="$WRANGLER_ENV" --name "$name"
+            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --name "$name"
             urls="${urls:+$urls,}$url"
           done
           echo "urls=$urls" >> "$GITHUB_OUTPUT"
