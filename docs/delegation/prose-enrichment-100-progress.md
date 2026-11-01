@@ -426,3 +426,17 @@ Remaining n–z Idrisi places were ranked by the length of the OCR paragraph aro
 ### Skipped, batch 13
 
 - **place/sus-khuzistan**, **tarabulus-sham**, **tarabulus-gharb**, **najaa**, **qarnayn**: common-word or non-place labels.
+
+## n–z batch 15 (Claude Sonnet 5.5, place, Idrisi)
+
+### Enriched, batch 15
+
+- **place/shaqqa** (Idrisi pp. 600, 607). Sicilian port, its district of Qal'at al-Ballut, distances to Karkant and Mazar. The two pages give nine miles (p. 600) and four Frankish miles, said to be twelve (p. 607) from the fort to the town; the body reports both.
+- **place/shatiba** (pp. 538, 556, 557). Proverbial citadel, unrivalled paper, distances to Shuqr, Denia and Valencia, Denia's shipyard.
+- **place/sardinia** (p. 584). Size, mountains, silver mines, three towns, the people, the crossings to Minorca and Corsica.
+- **place/salonik** (pp. 793, 794, 797, 800). The city on the small gulf, the road from Daras, neighbours Randhina and Akhrasubli.
+
+### Leads, batch 15
+
+- **place/setif.** pp. 260 and 269 give about seventy words (a large fortress populous as a city, much water and fruit, walnuts exported, two stages from Bijaya, four from Constantine); p. 270 mixes the tribe's customs into the passage and is not used. Lead.
+- **place/orleans.** pp. 736, 743, 862 give only distances (sixty miles from Tours and from Itruwish) and a line on a settled city with markets and crafts. Lead.
