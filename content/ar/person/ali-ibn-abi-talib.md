@@ -233,3 +233,6 @@ translators: []
 
 ## من سلسلة شرح الحكم العطائية (عمر عبد الكافي)
 يروي عمر عبد الكافي أن رجلًا من أهل الذمة خاصم عليًّا وهو أمير المؤمنين عند القاضي في سيف، فناداه القاضي بكنيته «يا أبا الحسن» فغضب علي لأن القاضي لم يسوِّ بينه وبين خصمه، ثم سأله القاضي البيّنة على أن السيف سيفه، فلما لم تكن له بيّنة مقبولة قضى للرجل. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:15:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:15:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:16:30} (الشيخ يقول «سيف»، والمشهور في الروايات أنه درع.)
+
+## من برنامج المنجيات (عمر عبد الكافي)
+يروي عمر عبد الكافي في برنامج «المنجيات» أن عليًّا قال بعد أن أقام الحد على سارق إن الله ما كان ليفضحه من أول مرة، شاهدًا على ستر الله. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:03:30}

@@ -22,3 +22,6 @@ The father of humanity and the first prophet in Islamic theology. The Qur'an chr
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
 The Sheikh says that Adam repented in Paradise and came down to earth seeking forgiveness, cleansed of his sin; he did not descend with his sin, but after God had forgiven him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}. He holds that the Paradise Adam lived in, even if it was a garden in this world on his account, is one a person will return to if he has planted good in it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:43:30}.
+
+## From Omar Abdelkafy's programme al-Munjiyat
+Omar Abdelkafy says that Adam was forbidden a single tree among very many, that the devil whispered to him and Eve that it was the tree of eternity, that they ate of it and were sent out of the Garden, and that God then turned to him and chose him. {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:06:00}

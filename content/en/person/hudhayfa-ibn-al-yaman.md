@@ -25,3 +25,6 @@ Abu Abdullah Hudhayfa ibn Hasl (al-Yaman) al-Absi, a great Companion and one of 
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy says that Hudhayfa ibn al-Yaman was the Prophet's keeper of secrets and the only Companion who knew the names of the hypocrites, and that when Umar became caliph he would watch whether Hudhayfa attended a person's funeral, and would not pray over it if he did not, and that he asked Hudhayfa whether he himself was one of them. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:01:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:02:00}
+
+## From Omar Abdelkafy's programme al-Munjiyat
+In al-Munjiyat the Sheikh says Hudhayfa held the names of seventeen hypocrites in Medina, and that after praying over Abu Bakr Umar went to Hudhayfa to ask whether he was one of them. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:10:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:11:30} (needs_source: the number seventeen is the speaker's and not checked against another source.)

@@ -162,3 +162,6 @@ He cites a hadith in which Ali and Fatima asked the Prophet for a servant, and w
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy relates that a man of the protected non-Muslims brought a case against Ali, then Commander of the Faithful, before the judge over a sword; the judge addressed Ali by his kunya, 'Abu al-Hasan', and Ali was angered that the judge had not treated him and his opponent alike; the judge then asked him for proof that the sword was his, and when he had no admissible proof ruled for the man. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:14:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:15:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:15:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep09 00:16:30} (The Sheikh says 'a sword'; the well-known reports speak of a coat of mail.)
+
+## From Omar Abdelkafy's programme al-Munjiyat
+In the programme al-Munjiyat Omar Abdelkafy relates that Ali, after applying the hadd to a thief, said God would not have exposed him the first time, as evidence of God's veiling of sins. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:03:30}

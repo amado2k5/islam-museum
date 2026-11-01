@@ -25,3 +25,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
 عمر عبد الکافی کہتے ہیں کہ حذیفہ بن الیمان نبی کے راز دار تھے اور واحد صحابی جو منافقوں کے نام جانتے تھے، اور جب عمر خلیفہ بنے تو دیکھتے کہ حذیفہ کسی کے جنازے میں شریک ہوتے ہیں یا نہیں، اگر نہ ہوتے تو عمر بھی نماز جنازہ نہ پڑھتے، اور انہوں نے حذیفہ سے پوچھا کہ کیا وہ خود ان میں سے ہیں؟ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:00:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:01:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:01:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep15 01:02:00}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں شیخ کہتے ہیں کہ حذیفہ کے پاس مدینہ کے سترہ منافقوں کے نام تھے، اور عمر نے ابو بکر کی نماز جنازہ کے بعد حذیفہ کے پاس جا کر پوچھا کہ کیا وہ ان میں سے ہیں۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:10:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:10:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:11:30} (needs_source: سترہ کا عدد شیخ کا ہے، کسی دوسرے ماخذ سے نہیں ملایا گیا۔)
