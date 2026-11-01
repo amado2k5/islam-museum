@@ -13,13 +13,23 @@ traditions: [sunni]
 summary:
   ar: "الفقيه الإمام الزاهد القدوة أبو زكريا يحيى النووي؛ جمع «الأربعين» في الأحاديث الجامعة فأخذ أحاديث مجلس «الأحاديث الكلية» لابن الصلاح الستة والعشرين وزاد عليها حتى تمت اثنين وأربعين حديثاً، فاشتهرت وكثر حفظها وعني بها الشارحون. سكن المدرسة الرواحية بدمشق وقال بقيت نحو سنتين لم أضع جنبي إلى الأرض وكان قوتي جراية المدرسة، وكان يقرأ كل يوم اثني عشر درساً، ولزم الاشتغال نحو عشرين سنة حتى فاق الأقران؛ وولي مشيخة دار الحديث الأشرفية بعد أبي شامة وكان لا يتناول من معلومها شيئاً، ولم يتزوج ولم يأكل في اليوم إلا أكلة واحدة. ومن تصانيفه «الروضة» و«المنهاج» و«المجموع» في شرح المهذب و«منهاج» شرح مسلم و«الأذكار» و«رياض الصالحين» و«الإرشاد» و«التقريب» و«التبيان» {cite:shadharat-dhahab p. 618-620}."
   en: "The jurist and ascetic Imam Abu Zakariyya Yahya al-Nawawi; compiler of the 'Arba'un', forty-two concise hadiths built on Ibn al-Salah's twenty-six, which became one of the most memorised and commented collections in Islam."
+  ur: "فقیہ، زاہد اور قدوہ امام ابو زکریا یحییٰ نووی؛ «الاربعین» کے مرتب، جو ابن الصلاح کی چھبیس جامع احادیث پر چالیس دو احادیث کا مجموعہ ہے اور اسلام کی سب سے زیادہ حفظ اور شرح کی جانے والی کتب میں شمار ہوتا ہے۔"
 wings: [people]
 themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
 regions: [levant-iraq]
 relations:
   - { type: authored, target: work/arbaun-nawawi, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: authored, target: work/sharh-sahih-muslim-al-nawawi, sources: [source/ibn-rajab-jami-ulum-hikam] }
-provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26 and editor's takhrij notes citing his Sharh Sahih Muslim", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1" }
+  - { type: participated_in, target: event/birth-al-nawawi-631, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-nawawi-damascus-649, role: "الطالب القادم", sources: [source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-nawawi-hajj-651, role: "الحاج", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-nawawi-begins-writing-655, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-nawawi-ashrafiyya-665, role: "شيخ دار الحديث", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/al-nawawi-minhaj-rawda-669, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-nawawi-tahrir-671, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-nawawi-baybars-expulsion-676, role: "المُمتنع عن التوقيع فالمنفيّ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-nawawi-676, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26 and editor's takhrij notes citing his Sharh Sahih Muslim; Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Nawawi PDF pp. 1096-1097; al-Bidaya wal-Nihaya s.a. 676 pp. 293-294; shadharat-dhahab s.a. 676 pp. 354-356", generated_by: "Devin (SWE-2 Medium); earlier layer Devin (SWE-2 High) from Apple Vision OCR", model: "SWE-2 Medium", run: "explorer-al-nawawi-1 (earlier: lib-jami-ulum-hikam-batch-1)" }
 external_ids: { wikidata: "Q293571" }
-sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

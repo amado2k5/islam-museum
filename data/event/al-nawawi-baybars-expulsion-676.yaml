@@ -1,0 +1,28 @@
+id: event/al-nawawi-baybars-expulsion-676
+class: event
+kind: expulsion
+label:
+  ar: "بيبرس ينفي النووي من دمشق إلى نوى، ٦٧٦هـ/١٢٧٧م"
+  en: "Baybars expels al-Nawawi from Damascus to Nawa, 676/1277"
+  ur: "بیبرس کا نووی کو دمشق سے نوى جلاوطن کرنا، 676ھ/1277ء"
+summary:
+  ar: "جرأت مكانة النووي عند الناس على أن خاطب السلطان الظاهر بيبرس يطلب رفع ضرائب الحرب عن أهل الشام وصون مدرّسي المدارس من نقص أرزاقهم، فلم يُجَب؛ ثم لما عرضت على الفقهاء فتوى تجيز تلك المطالب امتنع النووي وحده عن توقيعها، فأخرجه بيبرس من دمشق إلى نوى {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}."
+  en: "Al-Nawawi's standing with the people emboldened him to petition the Mamluk sultan Baybars to lift the war taxes imposed on the people of Syria and to protect the madrasa teachers from a cut in their stipends. When the petition failed and a fatwa approving the exactions was put before the jurists, al-Nawawi alone refused to sign, and Baybars expelled him from Damascus to Nawa {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}."
+  ur: "نووی کی عوام میں ساکھ نے انہیں جرأت دی کہ وہ مملوک سلطان بیبرس سے شام کے لوگوں پر عائد جنگی ٹیکس اٹھانے اور مدرسوں کے مدرسین کے وظیفے میں کمی سے بچانے کی درخواست کریں۔ درخواست ناموفق رہی، پھر جب فقہا کے سامنے ان وصولیوں کی جوازیت کا فتویٰ پیش ہوا تو نووی نے تنہا دستخط کرنے سے انکار کر دیا، جس پر بیبرس نے انہیں دمشق سے نوى نکال دیا {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1276/1277", hijri: "0676~", calendar: julian, precision: year, status: tradition, derived: true, note: "لا يؤرّخه المصدر؛ وقع في أواخر سلطنة بيبرس (ت المحرم ٦٧٦هـ) قبيل وفاة النووي في رجب من السنة نفسها؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 7 p. 1096}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nawawi, role: "المُمتنع عن التوقيع فالمنفيّ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الآمر بالإخراج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7, art. al-Nawawi, PDF p. 1096"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nawawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
