@@ -26,3 +26,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 6)
 
 شیخ خواہش کو انسان کے چار دشمنوں میں سے ایک شمار کرتے ہیں، جن میں شیطان، دنیا اور نفس بھی شامل ہیں، اور کہتے ہیں کہ یہ سب اس کے دشمن ہیں {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}۔
+
+## عمر عبد الکافی کے پروگرام «بستان الامل» سے
+شیخ یونس کی مچھلی کو ہماری خواہشات سے تشبیہ دیتے ہیں جو ہمیں جھنجھوڑتی اور گھیرتی ہیں یہاں تک کہ دین جیسی ہو گئی ہیں، ان کے نزدیک خواہش اندھا کرتی ہے اور اپنے مالک کی آنکھ کے آگے پردہ ڈال دیتی ہے کہ وہ نہ حق کو حق دیکھے نہ باطل کو باطل۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:00}

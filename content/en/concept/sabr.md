@@ -79,3 +79,6 @@ He holds that children should be taught patience through the examples of earlier
 - **The speaker's view (personal opinion)**: The Sheikh says that a wife should keep patience and smile, and that consulting her should not be a show while decisions are made alone. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:07:30} He urges spouses to ask what the Prophet would do, rather than react harshly. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:41:00}
 - **Academic or other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that one who passes a test rejoices and says how sweet is the fruit of patience, that the patient are the successful in life, that patience is half of faith, and that patience at the first shock shows a firm heart; he quotes a report that whoever is content with what was apportioned to him is the richest of people. {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:10:30}

@@ -25,3 +25,6 @@ translators: []
 
 ## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
 يرى الشيخ أن الخوف والرجاء جناحا قلب المؤمن ورأسه المحبة، فلا يطير بجناح واحد، وأن القضية توازن بين أن يغلب الرجاء على الخوف أو العكس، ولا سيما عند المكثر من الذنوب. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:09:00} انظر: [[concept/khawf|الخوف]].
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يقول الشيخ إن المؤمن لا ييأس من روح الله، ويستشهد بقول يعقوب لأبنائه أن يتحسسوا من يوسف وأخيه ولا ييأسوا من روح الله، ويرى أن اليائس من روح الله هو الكافر والخاسر والبعيد عن الله، أما المؤمن فيعلم أن الغد خير من اليوم وبعد الغد خير من الغد. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:30} انظر: [[concept/al-faraj-bad-al-shidda|الفرج بعد الشدة]].

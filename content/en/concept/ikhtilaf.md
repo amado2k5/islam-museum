@@ -76,3 +76,6 @@ The Sheikh poses the question whether conspiracy, or internal disputes among bel
 - **academic view: not yet sourced**: not yet sourced.
 - **other view: not yet sourced**: not yet sourced.
 :::
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that no one should be convinced that he holds the absolute truth and others absolute falsehood, and does not want Muslims to repeat the logic 'if you are with me you are a saint, if against me you are Iblis'; he holds that people differ like their colours, races and ideas, that the fixed points are the Book of God and the Sunna of His Messenger, which have variables where those qualified exercise ijtihad, and quotes [[person/al-shafii|al-Shafi'i]]: our opinion is right but may be wrong, and others' is wrong but may be right. {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:06:30}

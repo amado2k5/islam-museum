@@ -1,0 +1,14 @@
+---
+id: concept/al-istirja
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+The Sheikh says people are tested with fear, hunger and loss of wealth, lives and fruits, giving examples from his time: a reduced salary, being suddenly let go, a reshuffle of ministers and directors; he urges not attaching oneself to anything passing. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:03:30} He mentions the good news for the patient who, when struck by calamity, say 'to God we belong and to Him we return', explaining 'to God we belong' as the servant being counted as his Lord's, his prayer, rites, life and death being for God. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:05:30}
+
+## Calamities do not ask permission
+He says a calamity does not send a registered letter announcing that it will come next week or after the feast; it descends on hearts, and the heart connected to God knows that it is God who tested it. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:06:00} He gives the example of a three-year-old prescribed an injection, who understands only the pain and wonders at his father and mother holding his arm; it is not cruelty, but because the injection holds his cure, and God's is the highest likeness. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:07:00}
+
+## Blessings from their Lord and mercy
+He holds that in saying the istirja' the servant surrenders and makes peace with his Lord, and so is among those upon whom are blessings from their Lord and mercy; he explains God's blessing as mercy, tenderness, kindness and divine support descending as coolness and calm on the heart of the afflicted, so that people marvel at his patience. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:08:30} He mentions that the most severely tested are the prophets, then the best and the next best, and that whoever passes forty days without a test should review his accounts with God; this is his saying. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:30} See also: [[concept/sabr|patience]] and [[concept/ibtila|trial]].

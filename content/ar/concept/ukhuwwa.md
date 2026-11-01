@@ -36,3 +36,6 @@ translators: []
 ## رأيه في «أخوة الوطن»
 يتوقف عند قوله تعالى في هود وصالح وشعيب إنهم «أخو» أقوامهم، مع أن أقوامهم لم يؤمنوا بهم، ويرى أن القرآن لم يلغِ أخوة الوطن والجنسية، وينتقد التفريق في بعض البلاد بين «المواطن» وغيره، ويرى أن الأرض لله يورثها من يشاء، وهذا رأيه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:08:00}
 ويذكر من رقيّ أخوة الصحابة أن [[person/umar-ibn-al-khattab|عمر]] قال لـ[[person/muadh-ibn-jabal|معاذ بن جبل]] إنه ذكره بالليل فاستوحش لفراقه فبكى، فبكى معاذ (needs_source: القصة من رواية الشيخ). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep19 00:08:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن الأخ في الله أقوى نفعًا من الأخ من الأم والأب، لأن أخا النسب اختاره أبوان من البشر، أما الأخ في العقيدة، الإندونيسي والباكستاني والأمريكي والمغربي والإسكندنافي والجنوب أفريقي، فقد اختاره الله، وينقل قول أعرابي سُئل أيحب أخاه أم صديقه فقال: أحب أخي إذا كان صديقي. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00}

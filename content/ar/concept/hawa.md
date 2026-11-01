@@ -26,3 +26,6 @@ translators: []
 ## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد (الحلقة 6)
 
 يعدّ الشيخ الهوى واحدا من أعداء الإنسان الأربعة، ويذكر معه إبليس والدنيا والنفس، ويقول إنها كلها أعداؤه {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep06 00:16:00}.
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يشبّه الشيخ حوت يونس بأهوائنا التي تعصف بنا وتحيط بنا حتى صارت كأنها دين، ويرى أن الهوى يعمي ويضع حاجزًا أمام عين صاحبه فلا يرى الحق حقًّا ولا الباطل باطلًا. {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:00}
