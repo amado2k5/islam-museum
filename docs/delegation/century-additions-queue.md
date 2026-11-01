@@ -1747,15 +1747,15 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nev'î — 1533–1599
 - [x] Sadeqi Beg — 1533–1610
 - [x] Mir Imad Hasani — 1554–1615
-- [ ] Leo Africanus (Al-Hassan al-Wazzan) — 1494–1554
+- [x] Leo Africanus (Al-Hassan al-Wazzan) — 1494–1554
 - EXCLUDED (pending Ahmad's direction; the rows themselves identify Hindu courtiers of Akbar, cf. the Hasdai precedent): Raja Todar Mal — 1500–1589; Tansen (Ramtanu Pandey) — 1506–1589; Birbal (Mahesh Das) — 1528–1586
 
 ## H. 1426–1525 additions (20)
 
-- [ ] Kamal al-Din Behzad — 1450–1535
-- [ ] Khondamir — 1475–1535
-- [ ] Ulubatlı Hasan — 1428–1453
-- [ ] Akşemseddin — 1389–1459
+- [x] Kamal al-Din Behzad — 1450–1535
+- [x] Khondamir — 1475–1535
+- [x] Ulubatlı Hasan — 1428–1453
+- [x] Akşemseddin — 1389–1459
 - [ ] Molla Hüsrev — 1400–1480
 - [ ] Necati — 1450–1509
 - [ ] Şeyhi — 1376–1431

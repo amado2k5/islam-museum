@@ -1,0 +1,69 @@
+id: person/kamal-al-din-behzad
+class: person
+
+label: { ar: "كمال الدين بهزاد", en: "Kamāl ud-Dīn Behzād", ur: "کمال الدین بہزاد" }
+
+names:
+  - { value: "Kamāl ud-Dīn Behzād", kind: full }
+  - { value: "کمال‌الدین بهزاد", kind: full }
+  - { value: "Kamal al-din Bihzad", kind: alternate }
+  - { value: "Behzad Heravi", kind: alternate }
+  - { value: "Ostād Behzād", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "كمال الدين بهزاد الهراتي (نحو 1450 – 1535)، أشهر مصوّري المنمنمات في العالم الإسلامي، يتيم تربّى عند الخطاط والمصوّر ميرك نقاش مدير مكتبة البلاط التيموري، فصار سنة 1486 رئيس ورش هراة الملكية في عهد السلطان حسين بايقرا ورعاية علي شير نوائي. بعد سقوط التيموريين انتقل إلى تبريز فترأس مكتبة الشاه طهماسب الصفوي وورشها حتى وفاته. بلغت المنمنمة الفارسية في أسلوبه ذروة نضجها، ومن أشهر أعماله المنسوبة إليه «إغواء يوسف» في «بوستان» سعدي (1488)."
+  en: "Kamāl ud-Dīn Behzād of Herat (c. 1450 – 1535), the most famous miniature painter of the Islamic world. Orphaned young, he was raised and trained by the painter-calligrapher Mirak Naqqash, director of the Timurid royal library, and in 1486 became head of the royal ateliers of Herat under Sultan Husayn Bayqara and the patronage of Ali-Shir Nava'i. After the Timurid fall he moved to Tabriz and directed Shah Tahmasp's Safavid royal library and workshop until his death. Persian miniature painting reached its maturity in his style; his most celebrated attributed work is 'The Seduction of Yusuf' in Sa'di's Bustan of 1488."
+  ur: "کمال الدین بہزاد ہراتی (تقریباً 1450ء – 1535ء)، عالمِ اسلام کے مشہور ترین مصورِ منمنمات۔ یتیمی میں خطاط و مصور میرک نقاش، مدیرِ کتب خانۂ تیموری، کے ہاں پرورش پائی اور 1486ء میں سلطان حسین بایقرا کے عہد میں علی شیر نوائی کی سرپرستی میں ہرات کی شاہی کارگاہوں کے سربراہ بنے۔ تیموری زوال کے بعد تبریز جا کر شاہ طہماسپ صفوی کے شاہی کتب خانے اور کارگاہ کی تادمِ مرگ نگرانی کی۔ فارسی منمنمہ نگاری ان کے اسلوب میں اپنے عروج کو پہنچی؛ ان کی مشہور ترین منسوب تخلیق سعدی کے «بوستان» (1488ء) کی «اغوائے یوسف» ہے۔"
+
+roles: [painter]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1450~"
+  hijri: "0854"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "No author gives his birth date — the Encyclopaedia Iranica states plainly that it is unknown — and every figure in the sources is an estimate. The Arabic article gives about 854 AH/about 1450, and Wikidata gives 1450; the English article's infobox gives between 1455 and 1460 (its short description says about 1455/1460); the Persian article gives a range of 855-865 AH; and Michael Barry's monograph argues a life of 1465-1535. The founder's queue lists 1450, which follows the Arabic pairing, and that pairing (854 AH = 1450-51) is recorded as the Hijri year; the whole spread of estimates is preserved here."
+  sources: [source/wikipedia-kamal-al-din-behzad-ar, source/wikipedia-kamal-al-din-behzad-en, source/wikipedia-kamal-al-din-behzad-fa, source/iranica-behzad, source/wikidata-kamal-al-din-behzad]
+
+died:
+  edtf: "1535"
+  hijri: "0942"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "The year 1535 is common to the English article, the Persian article (which pairs it with 942 AH, the pairing recorded here) and Wikidata. The place is contested: the Persian article has him die in Shah Tahmasp's service and be buried at Tabriz in the Tomb of Two Kamals beside Kamal Khujandi — the account the Encyclopaedia Iranica also reports from the Safavid author Dust Muhammad — while the English article gives Herat as the place of death and the tomb beneath Koh-i Mukhtar at Herat, following Barry. Iranica prints a chronogram date of '935/1535-36', an internally inconsistent pairing (935 AH fell in 1528-29) that is not followed. Because the place of death is contested between Herat and Tabriz, no died_in or buried_in edge is written and both accounts are preserved here."
+  sources: [source/wikipedia-kamal-al-din-behzad-fa, source/wikipedia-kamal-al-din-behzad-en, source/iranica-behzad, source/wikidata-kamal-al-din-behzad]
+
+relations:
+  - { type: born_in, target: place/herat, sources: [source/wikipedia-kamal-al-din-behzad-en, source/wikipedia-kamal-al-din-behzad-fa, source/wikipedia-kamal-al-din-behzad-ar] }
+  - { type: lived_in, target: place/tabriz, sources: [source/wikipedia-kamal-al-din-behzad-en, source/iranica-behzad] }
+  - { type: student_of, target: person/mirak-naqqash, sources: [source/wikipedia-kamal-al-din-behzad-en, source/iranica-behzad] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion, a branch or a school for him: the English, Persian and Arabic articles carry no religion entry (the Persian infobox's religion field is empty), Wikidata has no religion value at all, and the Encyclopaedia Iranica is silent. His career was spent at the Timurid court of Herat and then the Safavid court of Tabriz, and his attributed paintings include Sufi subjects — the Seduction of Yusuf, dervishes dancing, a dervish portrait — but court service under two dynasties of opposed allegiance and the subjects a painter was commissioned to paint are not attestations of the man himself, and nothing is recorded."
+    sources: [source/wikipedia-kamal-al-din-behzad-en, source/wikipedia-kamal-al-din-behzad-fa, source/wikipedia-kamal-al-din-behzad-ar, source/iranica-behzad, source/wikidata-kamal-al-din-behzad]
+
+external_ids: { wikidata: "Q334875" }
+
+sources:
+  - source/wikipedia-kamal-al-din-behzad-en
+  - source/wikipedia-kamal-al-din-behzad-fa
+  - source/wikipedia-kamal-al-din-behzad-ar
+  - source/iranica-behzad
+  - source/wikidata-kamal-al-din-behzad
+
+provenance:
+  layer: own-research
+  source: "Priscilla Soucek's Encyclopaedia Iranica entry 'Behzad, Kamal-al-Din', the English, Persian and Arabic Wikipedia articles on Kamal al-Din Behzad, and Wikidata Q334875, each read in full at the revision recorded in its source file (revisions fetched live from the MediaWiki API on 1 November 2026; the Wikidata revision re-asserted against a second live query). Herat and Tabriz have place entities, so the born_in and lived_in edges are written; the student_of edge goes to Mirak Naqqash's existing record (a draft card). The death place is deliberately left edgeless because the sources contest Herat against Tabriz. Qadi Ahmad's second teacher, Pir Sayyid Ahmad al-Tabrizi in the Arabic article's account, and Behzad's painter nephews and grandnephews have no records and are prose-only."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "century-additions-153G"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
