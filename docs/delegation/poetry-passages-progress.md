@@ -61,3 +61,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 12: plain-link filters (by poet, metre, rhyme letter) in the Verses section of the poetry page, with en/ar/ur strings; no build run.
 - PR 13: metre (and rhyme where missing) set on Hassan's lam-rhymed poem (tawil) and Farwa al-Judhami's verses (kamil / tawil by line). Labid's elegies left without metre: not established with confidence from the text.
 - PR 14 (Mutanabbi, Dar Beirut 1983 scan): `mutanabbi-kafa-bika-daa` (6, p. 441), `mutanabbi-eid-biayyi-hal` (8, p. 506), `mutanabbi-kabirt-hawl-diyarihim` (11, p. 28) (25 passages, 3 new works).
+- PR 15: new source `source/sharh-muallaqat-sab-zawzani-1921` (archive.org AAlexandrina-204263, downloaded to the drive and registered in WORK-REGISTRY.md; Vision OCR on the Mac; verses read from the page image) and `work/muallaqat-imru-al-qays` (11 bayts, pp. 3-7).
