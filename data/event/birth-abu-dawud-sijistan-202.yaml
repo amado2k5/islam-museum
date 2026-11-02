@@ -1,0 +1,27 @@
+id: event/birth-abu-dawud-sijistan-202
+class: event
+kind: birth
+label:
+  ar: "مولد أبي داود السجستاني ٢٠٢هـ"
+  en: "Birth of Abu Dawud al-Sijistani, 202/817"
+  ur: "ابو داؤد سجستانی کی پیدائش، 202ھ/817ء"
+summary:
+  ar: "قال أبو عبيد الآجري: سمعت أبا داود يقول: وُلدت سنة اثنتين ومائتين {cite:tarikh-islam-dhahabi p. 358}؛ وتؤكد الموسوعة الإسلامية ميلاده سنة 202هـ/817م {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. ونسبته إلى سجستان الإقليم المتاخم لبلاد السند، لا إلى قرية من قرى البصرة كما زعم بعضهم {cite:tarikh-islam-dhahabi p. 361}."
+  en: "Abu Ubayd al-Ajurri reported him saying: I was born in the year two hundred and two {cite:tarikh-islam-dhahabi p. 358}, and the Encyclopaedia of Islam confirms the year 202/817 {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. His nisba points to the province of Sijistan bordering Sind, not to a village near Basra as some wrongly held {cite:tarikh-islam-dhahabi p. 361}."
+  ur: "ابو عبید آجری نے ان سے سنا: میں 202ھ میں پیدا ہوا {cite:tarikh-islam-dhahabi p. 358}؛ اور دائرة المعارف الإسلامية بھی 202ھ/817ء کی تصدیق کرتی ہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. ان کی نسبت صوبہ سجستان کی طرف ہے، نہ کہ بصرہ کے قریب کسی بستی کی طرف جیسا بعض نے غلطی سے کہا {cite:tarikh-islam-dhahabi p. 361}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0817~", hijri: "0202", calendar: julian, precision: year, status: tradition, derived: true, note: "قال: ولدت سنة اثنتين ومائتين {cite:tarikh-islam-dhahabi p. 358}؛ EI2: 202/817 {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/sijistan, sources: [source/tarikh-islam-dhahabi], note: "نسبته سجستان؛ والمحل مشتق من النسبة {cite:tarikh-islam-dhahabi p. 361}" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "المولود", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص357-363 (harvest OCR v20 pages 358, 361); Encyclopaedia of Islam 2nd ed. vol. 1, art. Abu Dawud al-Sidjistani, printed p. 133"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
