@@ -1,0 +1,133 @@
+---
+// The job page's own sections (docs/jobs/site.md section 2): the holders grouped by period, the craft panel (hirfa jobs
+// only), the bodies, the workplaces, the related jobs, and the "not yet covered" note. A section with no content is not
+// rendered, so an empty heading is never shown. Imported only by EntityLayout.astro, and rendered only for class job.
+import { byId, href, labelOf, realNodes } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import { formatDate, yearOf } from "../lib/dates";
+import { holdersOf, jobNodes } from "../lib/jobs";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang; notYet?: string }
+const { node: n, lang, notYet } = Astro.props;
+const T = ui(lang);
+const J = T.jobs;
+const C = T.career;
+const d = n.data;
+const loc = (v: any): string => (v && typeof v === "object" ? v[lang] ?? v.en ?? v.ar ?? "" : typeof v === "string" ? v : "");
+const nodeOf = (id: string): Node | undefined => byId.get(id);
+const dl = "display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:8px 18px;margin:0";
+
+// --- holders: one row per stint, grouped by the narrowest period that holds the stint's start year
+const periods = realNodes.filter((p) => p.class === "period" && p.span).sort((a, b) => (a.span!.latest - a.span!.earliest) - (b.span!.latest - b.span!.earliest));
+const periodOf = (y: number) => periods.find((p) => y >= p.span!.earliest && y <= p.span!.latest);
+const stints = holdersOf(n.id).flatMap((p) => {
+  const mine = (p.data.occupations ?? []).filter((o: any) => o.job === n.id);
+  return mine.map((o: any) => ({ p, o, count: mine.length, start: yearOf(o.start) }));
+});
+const ordered = [...stints].sort((a, b) => (a.start ?? Infinity) - (b.start ?? Infinity) || labelOf(a.p, lang).localeCompare(labelOf(b.p, lang)));
+const groups = new Map<string, { label: string; href?: string; rows: typeof ordered }>();
+for (const s of ordered) {
+  const per = s.start === undefined ? undefined : periodOf(s.start);
+  const key = per ? per.id : s.start === undefined ? "undated" : `year-${s.start}`;
+  const g = groups.get(key) ?? {
+    label: per ? labelOf(per, lang) : s.start === undefined ? J.holders_undated : formatDate(s.o.start, lang).text,
+    href: per ? href(lang, per.id) : undefined,
+    rows: [],
+  };
+  g.rows.push(s);
+  groups.set(key, g);
+}
+// the undated group goes last
+const groupList = [...groups.entries()].sort(([a], [b]) => (a === "undated" ? 1 : 0) - (b === "undated" ? 1 : 0)).map(([, g]) => g);
+
+// --- the craft block and the job's own ties
+const craft = d.hirfa === true ? d.craft : undefined;
+const craftBodies = ((craft?.guild?.bodies ?? []) as string[]).map(nodeOf).filter(Boolean) as Node[];
+const craftBodyIds = new Set<string>(craft?.guild?.bodies ?? []);
+const bodies = ((d.organization?.bodies ?? []) as string[]).filter((id) => !craftBodyIds.has(id)).map(nodeOf).filter(Boolean) as Node[];
+const workplaces = ((d.workplaces ?? []) as string[]).map(nodeOf).filter(Boolean) as Node[];
+const broader = d.broader ? nodeOf(d.broader) : undefined;
+const narrower = jobNodes.filter((j) => j.data.broader === n.id).sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang)));
+const successors = ((d.era?.successor_jobs ?? []) as string[]).map(nodeOf).filter(Boolean) as Node[];
+const grades = Array.isArray(craft?.grades) ? craft.grades.map((g: any) => (typeof g === "string" ? g : loc(g))).join(" · ") : "";
+const pir = craft?.pir ? nodeOf(craft.pir) : undefined;
+const practice = craft?.practice ? nodeOf(craft.practice) : undefined;
+const heritageName: string = craft?.heritage?.unesco_ich ?? "";
+const shaykh = loc(craft?.guild?.shaykh_title);
+const hasCraft = !!craft && ((craft.materials?.length ?? 0) > 0 || !!loc(craft.techniques) || craftBodies.length > 0 || !!shaykh || !!grades || !!loc(craft.initiation) || !!pir || !!loc(craft.marks) || !!heritageName || !!practice);
+---
+<section class="sec ui" aria-labelledby="job-holders">
+  <h2 id="job-holders">{J.holders_title}</h2>
+  {groupList.map((g) => (
+    <div style="margin:0 0 14px">
+      <h3 style="font-size:1rem;margin:0 0 6px">{g.href ? <a href={g.href}>{g.label}</a> : g.label}</h3>
+      <ul role="list" style="list-style:none;padding:0;margin:0">
+        {g.rows.map(({ p, o, count }) => {
+          const place = nodeOf(o.place);
+          const dates = [formatDate(o.start, lang).text, formatDate(o.end, lang).text].filter(Boolean).join(" – ");
+          return (
+            <li style="margin:0 0 8px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline">
+              <a href={href(lang, p.id)}><b>{labelOf(p, lang)}</b></a>
+              <span class="chip">{C[o.kind] ?? o.kind}</span>
+              {place && <a class={`chip${place.stub ? " stub-link" : ""}`} href={href(lang, place.id)}>{labelOf(place, lang)}</a>}
+              {dates && <span class="muted">{dates}</span>}
+              {count >= 2 && <span class="chip">{J.holders_more}</span>}
+              {o.note && <span class="muted" lang="en" style="flex-basis:100%;font-size:.9rem">{o.note}</span>}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  ))}
+  {stints.length === 0 && <p class="muted" style="margin:0">{J.holders_none}</p>}
+</section>
+
+{hasCraft && craft && (
+  <section class="sec ui" aria-labelledby="job-craft">
+    <h2 id="job-craft">{J.craft_title}</h2>
+    <dl style={dl}>
+      {(craft.materials?.length ?? 0) > 0 && <><dt class="muted" style="margin:0">{J.craft_materials}</dt><dd style="margin:0;display:flex;flex-wrap:wrap;gap:6px">{craft.materials.map((m: string) => <span class="chip">{J.materials[m] ?? m}</span>)}</dd></>}
+      {loc(craft.techniques) && <><dt class="muted" style="margin:0">{J.craft_techniques}</dt><dd style="margin:0">{loc(craft.techniques)}</dd></>}
+      {(craftBodies.length > 0 || shaykh) && <><dt class="muted" style="margin:0">{J.craft_guild}</dt><dd style="margin:0;display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline">{craftBodies.map((b) => <a class={`chip${b.stub ? " stub-link" : ""}`} href={href(lang, b.id)}>{labelOf(b, lang)}</a>)}{shaykh && <span class="muted">{shaykh}</span>}</dd></>}
+      {grades && <><dt class="muted" style="margin:0">{J.craft_grades}</dt><dd style="margin:0">{grades}</dd></>}
+      {loc(craft.initiation) && <><dt class="muted" style="margin:0">{J.craft_initiation}</dt><dd style="margin:0">{loc(craft.initiation)}</dd></>}
+      {pir && <><dt class="muted" style="margin:0">{J.craft_pir}</dt><dd style="margin:0"><a class="chip" href={href(lang, pir.id)}>{labelOf(pir, lang)}</a></dd></>}
+      {loc(craft.marks) && <><dt class="muted" style="margin:0">{J.craft_marks}</dt><dd style="margin:0">{loc(craft.marks)}</dd></>}
+      {heritageName && <><dt class="muted" style="margin:0">{J.craft_heritage}</dt><dd style="margin:0">{J.craft_unesco}: <span lang="en">{heritageName}</span></dd></>}
+      {practice && <><dt class="muted" style="margin:0">{J.craft_practice}</dt><dd style="margin:0"><a class="chip" href={href(lang, practice.id)}>{labelOf(practice, lang)}</a></dd></>}
+    </dl>
+  </section>
+)}
+
+{workplaces.length > 0 && (
+  <section class="sec ui" aria-labelledby="job-workplaces">
+    <h2 id="job-workplaces">{J.workplaces_title}</h2>
+    <p style="display:flex;flex-wrap:wrap;gap:6px 8px;margin:0">{workplaces.map((w) => <a class={`chip${w.stub ? " stub-link" : ""}`} href={href(lang, w.id)}>{labelOf(w, lang)}</a>)}</p>
+  </section>
+)}
+
+{bodies.length > 0 && (
+  <section class="sec ui" aria-labelledby="job-bodies">
+    <h2 id="job-bodies">{J.bodies_title}</h2>
+    <p style="display:flex;flex-wrap:wrap;gap:6px 8px;margin:0">{bodies.map((b) => <a class={`chip${b.stub ? " stub-link" : ""}`} href={href(lang, b.id)}>{labelOf(b, lang)}</a>)}</p>
+  </section>
+)}
+
+{(broader || narrower.length > 0 || successors.length > 0) && (
+  <section class="sec ui" aria-labelledby="job-related">
+    <h2 id="job-related">{J.related_title}</h2>
+    <dl style={dl}>
+      {broader && <><dt class="muted" style="margin:0">{J.broader_label}</dt><dd style="margin:0"><a class="chip" href={href(lang, broader.id)}>{labelOf(broader, lang)}</a></dd></>}
+      {narrower.length > 0 && <><dt class="muted" style="margin:0">{J.narrower_label}</dt><dd style="margin:0;display:flex;flex-wrap:wrap;gap:6px">{narrower.map((j) => <a class="chip" href={href(lang, j.id)}>{labelOf(j, lang)}</a>)}</dd></>}
+      {successors.length > 0 && <><dt class="muted" style="margin:0">{J.successors_label}</dt><dd style="margin:0;display:flex;flex-wrap:wrap;gap:6px">{successors.map((j) => <a class="chip" href={href(lang, j.id)}>{labelOf(j, lang)}</a>)}</dd></>}
+    </dl>
+  </section>
+)}
+
+{notYet && (
+  <section class="panel ui" aria-labelledby="job-not-yet" style="margin-top:1.5rem">
+    <h2 id="job-not-yet" style="font-size:1.05rem;margin:0 0 8px">{J.not_yet_title}</h2>
+    <div set:html={notYet} />
+  </section>
+)}
