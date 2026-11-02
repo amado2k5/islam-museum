@@ -1,0 +1,11 @@
+---
+id: work/tahdhib-al-kamal
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-3"]
+---
+
+## In «Asdaf al-Lu'lu'» by Abu Ishaq al-Heweny
+[[person/abu-ishaq-al-heweny|Abu Ishaq al-Heweny]] explains the chain of narrator dictionaries: «al-Kamal fi Asma' al-Rijal», then al-Mizzi's «Tahdhib al-Kamal», then Ibn Hajar's «Tahdhib al-Tahdhib». He says al-Mizzi lengthened the entries with reports of narrators' asceticism and trials, told through his own long chains, and left out many statements of criticism and praise, so Ibn Hajar cut the reports and kept the criticism. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:05:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:06:30} He says Mughultay added many statements to al-Mizzi and that Ibn Hajar benefited greatly from his book while avoiding its errors. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:01:00} He mentions that he turned less to «Tahdhib al-Tahdhib» after the edition of Dr Bashshar Awwad Ma'ruf, whose team placed Ibn Hajar's additions in the footnotes of al-Mizzi's text, and that he has corrections to the book in Dr Bashshar's hand, which he obtained from him on a visit. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:02:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:06:00}
+
+He says his copy of the book has "a big story": he wrote so many notes in its margins that he made a book of them alone; he indexes the notes on the first page of each volume, among them corrections and additions to al-Mizzi, especially on al-Nasa'i's narrators, and literary anecdotes. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:04:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:04:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:05:30} Beside it he keeps a note written for him by the Iraqi editor Abd al-Haqq al-Turkmani, who had worked with Dr Bashshar for two years, when he visited al-Heweny at his hotel in Germany; al-Heweny dated it Thursday 15 July 2010. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:01:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:01:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:03:30}
