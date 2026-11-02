@@ -6,11 +6,12 @@ names:
 gender: male
 roles: [muhaddith, scholar]
 traditions: [sunni]
-born: { edtf: "0824", hijri: "0209", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "0892", hijri: "0279", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "0825~", hijri: "0209", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في ذي الحجة سنة تسع ومائتين بقرية بوغ من أحواز ترمذ — أو بترمذ نفسها — {cite:mawsuat-a3lam-ulama-adaba p. 450}؛ وذُكر سنة ٢١٠هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+died: { edtf: "0892-10-07~", hijri: "0279-07-13", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الاثنين لثلاث عشرة خلت من رجب سنة تسع وسبعين ومائتين {cite:mawsuat-a3lam-ulama-adaba p. 451} = ١٣ رجب ٢٧٩هـ ≈ ٧ أكتوبر ٨٩٢م؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib] }
 summary:
   ar: "محدّث من ترمذ على نهر جيحون، صنّف «الجامع الصحيح» المعروف بسنن الترمذي."
   en: "A hadith scholar from Tirmidh on the Oxus, author of the Jami' al-Sahih, known as Sunan al-Tirmidhi."
+  ur: "دریائے جیحون کے کنارے ترمذ کے محدث، جنہوں نے «الجامع الصحیح» مرتب کی جو سننِ ترمذی کے نام سے معروف ہے {cite:mawsuat-a3lam-ulama-adaba p. 450}."
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
@@ -18,6 +19,27 @@ regions: [persia-central-asia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q293578" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib]
-status: { review: draft, completeness: 3, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 450, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص450", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+relations:
+  - { type: born_in, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba], note: "قرية بوغ من أحواز ترمذ، أو ترمذ نفسها {cite:mawsuat-a3lam-ulama-adaba p. 450}" }
+  - { type: died_in, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/al-bukhari, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/muslim-ibn-al-hajjaj, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: student_of, target: person/abu-dawud-al-sijistani, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: student_of, target: person/qutayba-ibn-said, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: authored, target: work/jami-al-tirmidhi, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-tirmidhi-bugh-209, role: "المولود", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/tirmidhi-rihla-lands-230, role: "الطالب الراحل", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/tirmidhi-qutayba-balkh-235, role: "السامع", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/tirmidhi-marw-masters-240, role: "السامع", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/tirmidhi-bukhari-praise-245, role: "المتلمذ", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/tirmidhi-settles-jami-265, role: "المصنّف", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/tirmidhi-loses-sight-275, role: "الضرير", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-tirmidhi-bugh-279, role: "المتوفَّى", sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 4, generated_by: "Devin (SWE-2 Medium)" }
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص450-452 (harvest OCR v04 pages 450-452); Encyclopaedia of Islam 2nd ed. vol. 10, art. al-Tirmidhi, printed p. 579; Taqrib al-Tahdhib scan p. 558"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1

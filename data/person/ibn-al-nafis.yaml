@@ -1,13 +1,14 @@
 id: person/ibn-al-nafis
 class: person
-label: { ar: "ابن النفيس", en: "Ibn al-Nafis" }
+label: { ar: "ابن النفيس", en: "Ibn al-Nafis", ur: "ابن نفیس" }
 names:
   - { value: "ابن النفيس العلامة علاء الدين علي بن أبي الحزم القرشي الدمشقي الشافعي", kind: full }
-born: { edtf: "1210~", hijri: "0607~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وقد قارب الثمانين {cite:shadharat-dhahab p. 703}." }
-died: { edtf: "1288-11~", hijri: "0687-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في الحادي والعشرين من ذي القعدة وقد قارب الثمانين {cite:shadharat-dhahab p. 703}." }
+born: { edtf: "1210~", hijri: "0607~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي ٦٨٧هـ وقد قارب الثمانين، وفي هامش الشذرات «وله أربع وثمانون سنة»، فيكون مولده نحو ٦٠٣–٦٠٧هـ {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312}؛ التحويل مشتق." }
+died: { edtf: "1288-12-18~", hijri: "0687-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في الحادي والعشرين من ذي القعدة سنة ٦٨٧هـ وقد قارب الثمانين، مطبوعاً في الموسوعة 18 December 1288 {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ التحويل مشتق." }
 summary:
   ar: "شيخ الطب بالديار المصرية، ومن انتهت إليه معرفة الطب، مع الذكاء المفرط والذهن الخارق والمشار إليه في الفقه والأصول والحديث والعربية والمنطق؛ ألّف في الطب كتاب «الشامل» الذي تدل فهرسته على أنه يكون ثلثمائة مجلدة بيّض منها ثمانين، وكانت تصانيفه يمليها من حفظه لا يحتاج إلى مراجعة؛ قالوا: لم يكن على وجه الأرض مثله، وقيل لا جاء بعد ابن سينا مثله وكان في العلاج أعظم منه؛ وقف أملاكه وكتبه على المارستان المنصوري ولم يخلف مثله {cite:shadharat-dhahab p. 702-703}."
   en: "Shaykh of medicine in Egypt — 'nothing like him on earth, nor since Ibn Sina, and greater than him in treatment'; al-Shamil was projected at 300 volumes of which he fair-copied eighty, all dictated from memory; endowed his estate and books to the Mansuri maristan {cite:shadharat-dhahab p. 702-703}."
+  ur: "مصر کے دیار میں شیخ الطب — «روی زمین پر ان جیسا کوئی نہ تھا، نہ ابن سینا کے بعد آیا، اور علاج میں اس سے بڑھ کر تھے»؛ الشامل تین سو جلدوں پر محیط تھا جن میں سے اسی تہذیب کیں، سب حفظے سے املا کی گئیں؛ اپنی املاک اور کتب مارستانِ منصوری پر وقف کر دیے {cite:shadharat-dhahab p. 702-703}۔"
 gender: male
 roles: [physician, scholar, jurist]
 wings: [people]
@@ -17,14 +18,26 @@ faith:
   - value: sunni-shafii
     basis: tradition
 relations:
+  - { type: born_in, target: place/damascus, sources: [source/al-aalam] }
   - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab, source/assabile-tareq-al-suwaidan] }
-sources: [source/shadharat-dhahab, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  - { type: student_of, target: person/al-dakhwar, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/sharh-tashrih-al-qanun, sources: [source/sharh-tashrih-qanun-print] }
+  - { type: authored, target: work/fadil-ibn-natiq, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-ibn-al-nafis-607, role: "المولود", sources: [source/al-aalam] }
+  - { type: participated_in, target: event/ibn-al-nafis-studies-dakhwar-628, role: "المتعلّم", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/ibn-al-nafis-cairo-633, role: "الطبيب المنتقل", sources: [source/assabile-tareq-al-suwaidan] }
+  - { type: participated_in, target: event/ibn-al-nafis-baybars-physician-660, role: "رئيس الأطباء", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-al-nafis-theologus-670, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/mansuri-maristan-683, role: "الموقِف عليه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/death-ibn-al-nafis-687, role: "المتوفى", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/al-aalam, source/assabile-tareq-al-suwaidan, source/assabile-zaghloul-el-naggar]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
-  source: "shadharat al-dhahab; assabile al-mubdioune ep17 lecture (2026-10 transcription)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-134
+  source: "shadharat al-dhahab s.a. 687 printed pp. 401-402 (harvest OCR AAlexandrina-001518); al-Dhahabi, Tarikh al-Islam s.a. 687 printed p. 312 (harvest OCR 01.-_20240823__51); EI2 vol. 3 art. Ibn al-Nafis printed pp. 897-898; al-Zirikli, al-A'lam j.5 p. 78 (harvest OCR AAlexandrina-155680); assabile al-mubdioune ep17 lecture (2026-10 transcription)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
 external_ids: { wikidata: Q319146 }
 occupations:
   - job: job/physician

@@ -1,0 +1,27 @@
+id: event/kulayni-completes-kafi-328
+class: event
+kind: other
+label:
+  ar: "الكليني يتم «الكافي» ببغداد، نحو ٣٢٨هـ/940م"
+  en: "al-Kulayni completes al-Kafi at Baghdad, about 328/940"
+  ur: "کلینی نے بغداد میں «الکافی» مکمل کی، تقریباً 328ھ/940ء"
+summary:
+  ar: "في بغداد أتم [[person/al-kulayni|الكليني]] كتابه الموسوعي [[work/al-kafi|«الكافي»]] الذي يقال إنه عمل عليه عشرين سنة؛ والكتاب وإن كان في أغلبه جامعاً لأحاديث الأئمة فقد قُصد به أن يكون دليلاً للعقيدة الإمامية المعتمدة في الكلام والفقه، فرُتب على الموضوعات {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}."
+  en: "At Baghdad al-Kulayni completed his voluminous Kitab al-Kafi, on which he is said to have worked for twenty years; though mostly a collection of traditions of the Imams, it was meant as a guide to authoritative Imami doctrine in theology and fiqh, and so is arranged by subject {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}."
+  ur: "بغداد میں کلینی نے اپنا بڑا مجموعہ [[work/al-kafi|الکافی]] مکمل کیا جس پر کہا جاتا ہے کہ وہ بیس سال کام کرتا رہا؛ اگرچہ یہ بیشتر ائمہ کی روایات کا مجموعہ ہے، مگر اس کا مقصد کلام و فقہ میں مستند امامی عقیدے کی رہنمائی تھا، اس لیے یہ موضوعات کی ترتیب پر ہے {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0939~", calendar: julian, precision: year, status: tradition, derived: true, note: "عمل عليه عشرين سنة وأتمه ببغداد؛ أُرجع الإتمام إلى أواخر حياته قبل وفاته ٣٢٨/٣٢٩ {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}؛ التقدير مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-kulayni, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5, art. al-Kulaynī, printed p. 401 (W. Madelung)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-kulayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

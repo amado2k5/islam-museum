@@ -1,0 +1,28 @@
+id: event/mizzi-imprisonment-705
+class: event
+kind: other
+label:
+  ar: "حبس المزي بسبب ابن تيمية وكتاب «خلق أفعال العباد»، سنة ٧٠٥هـ"
+  en: "Al-Mizzi is jailed over Ibn Taymiyya and the Khalq Af'al al-Ibad, 705/1305"
+  ur: "ابن تیمیہ اور کتاب «خلق افعال العباد» کے سبب مزی کی قید، 705ھ/1305ء"
+summary:
+  ar: "أُوذي المزي سنة ٧٠٥هـ بسبب ابن تيمية، لما وقعت له المناظرة مع الشافعية وبحث مع الصفي الهندي ثم ابن الزملكاني بالقصر الأبلق، شرع يقرأ كتاب «خلق أفعال العباد» للبخاري وفيه فصل في الرد على الجهمية، فتنقّصه بعضهم وقالوا نحن المقصودون بهذا، فبالغ ذلك القاضي الشافعي يومئذ فأمر بسجنه، فتوجه ابن تيمية وأخرجه من السجن، فتقصّب النائب فأُعيد ثم أُفرج عنه، وأمر النائب وهو الأفرم أن يُنادى بأن من يتكلم في العقائد يُقتل {cite:durar-kamina-jil-1993 4/458}؛ وذكر الذهبي أنه حُبس لقراءة شيء من كتاب «أفعال العباد» فصبر وكظم {cite:tarikh-islam-dhahabi p. 490-491}."
+  en: "In 705/1305 al-Mizzi was harmed on account of Ibn Taymiyya: after the latter's disputation with the Shafi'is and his sessions with al-Safi al-Hindi then Ibn al-Zamlakani at the Ablaq palace, al-Mizzi began reading al-Bukhari's Khalq Af'al al-Ibad, which contains a chapter refuting the Jahmiyya; some held themselves meant by it, and the Shafi'i qadi of the day ordered him jailed. Ibn Taymiyya went and had him released; the deputy al-Afram had him re-jailed, then freed, and ordered proclamation that whoever discusses creed is killed {cite:durar-kamina-jil-1993 4/458}; al-Dhahabi records that he was imprisoned for reading part of the Af'al al-Ibad book, and bore it patiently {cite:tarikh-islam-dhahabi p. 490-491}."
+  ur: "705ھ/1305ء میں مزی کو ابن تیمیہ کے سبب تکلیف پہنچی: ان کی شافعیوں کے ساتھ مناظرے اور صفی ہندی پھر ابن الزملکانی کے ساتھ قصرِ ابلق میں مباحث کے بعد مزی نے بخاری کی «خلق افعال العباد» پڑھنا شروع کی جس میں جہمیہ کے رد کا باب ہے؛ کچھ لوگوں نے خود کو اس کا ہدف سمجھا اور اس وقت کے شافعی قاضی نے انہیں قید کرا دیا؛ ابن تیمیہ نے جا کر انہیں چھڑوایا، پھر نائب الافرم نے دوبارہ قید کرایا اور بعد میں رہا کیا، اور منادی کرادی کہ جو عقائد پر بات کرے گا قتل کیا جائے گا {cite:durar-kamina-jil-1993 4/458}؛ ذہبی نے لکھا کہ وہ افعال العباد کی کتاب کے کچھ حصے کی قراءت پر قید ہوئے اور صبر کیا {cite:tarikh-islam-dhahabi p. 490-491}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1305~", hijri: "0705", calendar: julian, precision: year, status: tradition, derived: true, note: "«وأوذي مرة في سنة ٧٠٥ بسبب ابن تيمية» {cite:durar-kamina-jil-1993 4/458}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "المسجون", sources: [source/durar-kamina-jil-1993, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "من سعى في إخراجه", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 4/458 (harvest OCR); al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed pp. 490-491 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi, printed p. 240"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

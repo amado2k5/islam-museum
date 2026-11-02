@@ -1,0 +1,28 @@
+id: event/al-subki-ashrafiyya-740
+class: event
+kind: other
+label:
+  ar: "مشيخة دار الحديث الأشرفية والنورية بدمشق، ١٧ ربيع الأول ٧٤٠هـ"
+  en: "Shaykh of the Ashrafiyya and Nuriyya hadith schools, Damascus, 17 Rabi' I 740"
+  ur: "دار الحدیث اشرفیہ اور نوریہ دمشق کی شیخت، 17 ربیع الاول 740ھ"
+summary:
+  ar: "في يوم الأربعاء ١٧ ربيع الأول ٧٤٠هـ حضر قاضي القضاة تقي الدين السبكي بدار الحديث الأشرفية بدمشق عوضاً عن الحافظ جمال الدين المزي، وباشر أيضاً مشيخة دار الحديث النورية عوضاً عن ابنه {cite:al-bidaya-wal-nihaya s.a. 740 p. 204}."
+  en: "On Wednesday 17 Rabi' I 740 chief qadi Taqi al-Din al-Subki took up the shaykhhood of the Ashrafiyya hadith school in Damascus in succession to the hafiz Jamal al-Din al-Mizzi, and also assumed the Nuriyya hadith school in place of al-Mizzi's son {cite:al-bidaya-wal-nihaya s.a. 740 p. 204}."
+  ur: "بدھ 17 ربیع الاول 740ھ کو قاضی القضاة تقی الدین سبکی نے دمشق کی دار الحدیث اشرفیہ کی شیخت حافظ جمال الدین مزی کی جگہ سنبھالی اور دار الحدیث نوریہ کی شیخت ان کے بیٹے کی جگہ لی {cite:al-bidaya-wal-nihaya s.a. 740 p. 204}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1339-09-10~", hijri: "0740-03-17", calendar: julian, precision: day, status: historical, derived: true, note: "يوم الأربعاء ١٧ ربيع الأول ٧٤٠هـ {cite:al-bidaya-wal-nihaya s.a. 740 p. 204}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "شيخ دار الحديث", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "الشيخ السابق المتوفى", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 740, printed p. 204 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

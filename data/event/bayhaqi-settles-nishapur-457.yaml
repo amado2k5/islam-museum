@@ -1,0 +1,28 @@
+id: event/bayhaqi-settles-nishapur-457
+class: event
+kind: other
+label:
+  ar: "الإقامة الأخيرة بنيسابور وألف الكراسة، نحو ٤٥٧هـ"
+  en: "Final settlement at Nishapur and the thousand fascicules, c. 457/1065"
+  ur: "نیشاپور میں آخری سکونت اور ہزار جزء کی تصانیف، تقریباً 457ھ/1065ء"
+summary:
+  ar: "في أواخر عمره انتقل البيهقي إلى نيسابور فأقام بها محدثاً مصنفاً؛ وكان كثير التصنيف حتى قيل إن مصنفاته بلغت ألف كراسة، وأشهرها «السنن الكبرى» التي قال السبكي إنه لا يعلم مثلها ضبطاً وترتيباً وجودة، ومدح الإمام الجويني تصانيفه في نصرة مذهب الشافعي {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  en: "Toward the end of his life al-Bayhaqi moved to Nishapur and settled there as a traditionist and compiler; he was a voluminous writer — his works were said to reach a thousand fascicules — the most famous being the Sunan al-Kubra, of which al-Subki declared nothing comparable in accuracy, arrangement and quality, while Imam al-Haramayn al-Juwayni praised his writings in support of the Shafi'i school {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}."
+  ur: "عمر کے آخر میں بيهقی نیشاپور منتقل ہوئے اور وہاں محدث اور مصنف کے طور پر مقیم رہے؛ وہ کثیر التصنیف تھے — ان کی تصانیف تقریباً ایک ہزار جزء بتائی جاتی ہیں — جن میں «السنن الکبری» سب سے مشہور ہے، جس کے بارے میں سبکی نے کہا کہ ضبط، ترتیب اور جودت میں اس جیسی کوئی کتاب نہیں، اور امام الحرمین جوینی نے شافعی مذہب کی نصرت میں ان کی تصانیف کی تعریف کی {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1065~", hijri: "0457~", calendar: julian, precision: year, status: tradition, derived: true, note: "إقامته الأخيرة بنيسابور قبل وفاته سنة ٤٥٨هـ؛ التاريخ تقريبي مشتق {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "المحدّث المقيم", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المادح لتصانيفه في نصرة المذهب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 art. AL-BAYHAKI printed p. 1190 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

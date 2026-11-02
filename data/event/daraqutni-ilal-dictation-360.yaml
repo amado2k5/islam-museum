@@ -1,0 +1,29 @@
+id: event/daraqutni-ilal-dictation-360
+class: event
+kind: other
+label:
+  ar: "الدارقطني يملي العلل على البرقاني في مجالس ابن حمدان، نحو ٣٦٠هـ"
+  en: "Al-Daraqutni dictates the 'Ilal to al-Barqani at Ibn Hamdan's gatherings, about 360/971"
+  ur: "دارقطنی ابن حمدان کے مجالس میں برقانی پر علل املا کرتے ہیں، تقریباً 360ھ/971ء"
+summary:
+  ar: "كان أبو منصور إبراهيم بن الحسن بن حمدان الصيرفي واسع السماع يريد أن يصنف مسنداً معللاً، وكان الدارقطني يحضر عنده في كل أسبوع يوماً، يتعلل على الأحاديث في أصوله وينقلها أبو بكر البرقاني ويملي عليه الدارقطني علل الحديث حتى خرج من ذلك شيء كثير، وتوفي أبو منصور قبل استتمامه، فنقل البرقاني كلام الدارقطني فهو كتاب «العلل» الذي يرويه الناس عن الدارقطني {cite:muntazam-ibn-al-jawzi j.7 p.183}؛ وقال البرقاني: كان الدارقطني يملي علي العلل من حفظه، فمن أراد أن يعرف قدر ذلك فليطالع كتاب «العلل» ليعرف كيف كان الحفاظ {cite:tarikh-islam-dhahabi p.103}."
+  en: "Abu Mansur Ibrahim ibn al-Hasan ibn Hamdan al-Sayrafi, a widely-heard scholar who wished to compile a mu'allal musnad, held a weekly day on which al-Daraqutni attended him; al-Daraqutni would give the defects of the hadiths against his own notebooks while Abu Bakr al-Barqani transferred them and al-Daraqutni dictated the 'ilal to him, until a great deal had come out of it. Abu Mansur died before it was finished, so al-Barqani transmitted al-Daraqutni's words — that is the Kitab al-'Ilal which people narrate from al-Daraqutni {cite:muntazam-ibn-al-jawzi j.7 p.183}. Al-Barqani said: al-Daraqutni dictated the 'Ilal to me from memory; whoever would know what that means, let him read the Kitab al-'Ilal to learn what the huffaz were {cite:tarikh-islam-dhahabi p.103}."
+  ur: "ابو منصور ابراہیم بن حسن بن حمدان صیرفی، جو وسیع سماعت والے اور معلل مسند کی تصنیف چاہتے تھے، ہر ہفتے ایک دن رکھتے تھے جس میں دارقطنی ان کے پاس حاضر ہوتے؛ دارقطنی اپنے اصولوں کے سامنے احادیث کی علل بیان کرتے اور ابو بکر برقانی انہیں منتقل کرتے اور دارقطنی ان پر علل املا کرتے، یہاں تک کہ بہت کچھ مرتب ہوا؛ ابو منصور اس کے مکمل ہونے سے پہلے فوت ہوئے، پس برقانی نے دارقطنی کے کلام کو منتقل کیا — یہی وہ کتاب العلل ہے جو لوگ دارقطنی سے روایت کرتے ہیں {cite:muntazam-ibn-al-jawzi j.7 p.183}؛ برقانی کہتے ہیں: دارقطنی مجھ پر علل حفظ سے املا کرتے تھے؛ جو اس کا قدر جاننا چاہے وہ کتاب العلل پڑھے تاکہ جانے حفاظ کیسے تھے {cite:tarikh-islam-dhahabi p.103}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0970~", hijri: "0360~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣٦٠هـ تقديراً في كهولته؛ أخذ عنه البرقاني (ت ٤٢٥) العلل {cite:muntazam-ibn-al-jawzi j.7 p.183}؛ التحويل مشتق.", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-daraqutni, role: "الشيخ المملي", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-barqani-ahmad-ibn-muhammad, role: "الكاتب الناقل", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-mansur-ibn-hamdan, role: "صاحب المجلس", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Ibn al-Jawzi, al-Muntazam (Haydarabad 1357) j.7 s.a. 385, printed p. 183 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 385, printed p. 103 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

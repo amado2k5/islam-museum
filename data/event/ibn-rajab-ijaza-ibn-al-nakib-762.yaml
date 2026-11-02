@@ -1,0 +1,28 @@
+id: event/ibn-rajab-ijaza-ibn-al-nakib-762
+class: event
+kind: other
+label:
+  ar: "إجازة ابن النقيب لابن رجب، قبل ٧٦٤هـ"
+  en: "Ibn al-Nakib's ijaza for Ibn Rajab, before 764"
+  ur: "ابن نقیب کی طرف سے ابن رجب کو اجازت، 764ھ سے پہلے"
+summary:
+  ar: "أجاز لابن رجب المحدث شهاب الدين ابن النقيب (٦٩٤–٧٦٤هـ)، فيكون ذلك قبل وفاة شيخه سنة ٧٦٤هـ، وكان ابن رجب يومها شاباً في العشرينات من عمره {cite:encyclopaedia-of-islam-2 vol. 3 p. 933} {cite:ibn-rajab-jami-ulum-hikam p. 8}."
+  en: "The traditionist Shihab al-Din Ibn al-Nakib (694-764) gave Ibn Rajab an ijaza, which must have been before the shaykh's death in 764, when Ibn Rajab was a young man in his twenties {cite:encyclopaedia-of-islam-2 vol. 3 p. 933} {cite:ibn-rajab-jami-ulum-hikam p. 8}."
+  ur: "محدث شہاب الدین ابن نقیب (694-764ھ) نے ابن رجب کو اجازت دی، جو شیخ کی وفات 764ھ سے پہلے ہونی چاہیے، جب ابن رجب بیس برس کے نوجوان تھے {cite:encyclopaedia-of-islam-2 vol. 3 p. 933} {cite:ibn-rajab-jami-ulum-hikam p. 8}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1362~", hijri: "0762~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل وفاة ابن النقيب سنة ٧٦٤هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}؛ تاريخ تقريبي." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-rajab, role: "المجاز", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-nakib, role: "الشيخ المجيز", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/ibn-rajab-jami-ulum-hikam]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 p. 933 (Makdisi): ijazas from Shihab al-Din Ibn al-Nakib (694-764); Jami' al-Ulum wal-Hikam introduction p. 8 (فأجازه ابن النقيب وغيره)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/death-ibn-al-nafis-687
+class: event
+kind: death
+label:
+  ar: "وفاة ابن النفيس بالقاهرة ووقف أملاكه وكتبه على المارستان المنصوري، ٢١ ذو القعدة ٦٨٧هـ"
+  en: "Death of Ibn al-Nafis at Cairo and his endowment of estate and books to the Mansuri maristan, 21 Dhu al-Qa'da 687/December 1288"
+  ur: "ابن نفیس کی وفات قاہرہ میں اور املاک و کتب کا وقف برائے مارستانِ منصوری، 21 ذی قعدہ 687ھ/دسمبر 1288ء"
+summary:
+  ar: "توفي ابن النفيس بالقاهرة في الحادي والعشرين من ذي القعدة سنة سبع وثمانين وستمائة (ديسمبر 1288م) وقد قارب الثمانين — وفي هامش الشذرات «وله أربع وثمانون سنة» — ووقف داره وأملاكه وكتبه على المارستان المنصوري، ولم يُخلّف بعده مثله {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ ويروي السويدان أنه امتنع عند احتضاره عن الخمر الذي كان يوصف له دواءً قائلاً إنه لا يلقى الله وفي جوفه شيء من الخمر، وتوفي فجر الجمعة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:22:30}."
+  en: "Ibn al-Nafis died at Cairo on 21 Dhu al-Qa'da 687 (December 1288) aged about eighty — the Shadharat margin notes 'he was eighty-four' — and endowed his house, fortune and books to the Mansuri maristan; none like him came after {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}. Al-Suwaydan relates that on his deathbed he refused the wine prescribed him as medicine, saying he would not meet God with wine in his body, and died at dawn on Friday {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:22:30}."
+  ur: "ابن نفیس 21 ذی قعدہ 687ھ (دسمبر 1288ء) کو قاہرہ میں تقریباً اسی برس کی عمر میں فوت ہوئے — شذرات کے حاشیے میں «چوراسی برس» ہے — اور اپنے گھر، املاک اور کتب مارستانِ منصوری پر وقف کر دیے؛ ان کے بعد ان جیسا کوئی نہ آیا {cite:shadharat-dhahab p. 401-402} {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}۔ سویدان روایت کرتے ہیں کہ مرگ کے وقت انھوں نے بطورِ دوا دی گئی شراب سے انکار کیا کہ وہ خدا سے اس حالت میں نہیں ملیں گے، اور جمعہ کے وقتِ فجر فوت ہوئے {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:22:30}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1288-12-18~", hijri: "0687-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "٢١ ذو القعدة ٦٨٧هـ، مطبوعاً في الموسوعة 18 December 1288 {cite:encyclopaedia-of-islam-2 vol. 3 p. 897} {cite:tarikh-islam-dhahabi s.a. 687 p. 312}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "المتوفى", sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/assabile-tareq-al-suwaidan]
+provenance:
+  layer: own-research
+  source: "Ibn al-'Imad, Shadharat al-Dhahab s.a. 687, printed pp. 401-402 (harvest OCR AAlexandrina-001518); al-Dhahabi, Tarikh al-Islam s.a. 687, printed p. 312 (harvest OCR 01.-_20240823__51); Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed p. 897; Tariq al-Suwaydan, al-Mubdi'un ep. 17 (registered source)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

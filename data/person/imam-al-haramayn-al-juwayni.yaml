@@ -1,27 +1,55 @@
 id: person/imam-al-haramayn-al-juwayni
 class: person
-label: { ar: "إمام الحرمين الجويني" }
+label: { ar: "إمام الحرمين الجويني", en: "Imam al-Haramayn al-Juwayni", ur: "امام الحرمین جوینی" }
 names:
-  - { value: "أبو المعالي عبد الملك بن عبد الله الجويني", kind: full }
+  - { value: "أبو المعالي عبد الملك بن عبد الله بن يوسف بن عبد الله بن يوسف بن محمد بن حيويه الجويني", kind: full }
+  - { value: "أبو المعالي", kind: kunya }
+  - { value: "ضياء الدين", kind: laqab }
 gender: male
+born: { edtf: "1028-02-17~", hijri: "0419-01-18", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد في أول سنة تسع عشرة وأربعمائة في المحرم {cite:tarikh-islam-dhahabi p. 230}؛ السير: «في أول سنة تسع عشرة وأربعمائة» {cite:siyar-alam-nubala j.18 p. 2574}؛ EI2 يحدد 18 محرم 419/17 شباط 1028 ببشتنكان {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ وفي المنتظم والكامل وتاريخ الخميس سنة سبع عشرة؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+died: { edtf: "1085-08-20~", hijri: "0478-04-25", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الأربعاء بعد العشاء الخامس والعشرين من ربيع الآخر سنة ثمان وسبعين وأربعمائة ببشتقان {cite:tarikh-islam-dhahabi pp. 238-239}؛ 25 ربيع الثاني 478/20 آب 1085 {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
 summary:
-  ar: "شيخ الشافعية في عصره؛ لما بلغ عميد الملك الكندري وزير ألب أرسلان في تعصبه على الأشعرية أن خاطب السلطان في لعن الرافضة على منابر خراسان فأذن له فأمر بلعنهم وأضاف إليهم الأشعرية، أنف من ذلك أئمة خراسان ففارقوها وأقام الجويني بمكة أربع سنين يدرس ويفتي فلهذا قيل له إمام الحرمين، فلما جاءت الدولة النظامية أحضر من انتزح منهم وأكرمهم، وكان قد خرج إلى بغداد وصحب العميد الكندري مدة يناظر في حضرته الأكابر حتى تهذب في النظر وشاع ذكره {cite:shadharat-dhahab p. 309-310}."
-  en: "Shaykh of the Shafi'is — driven from Khurasan when the vizier al-Kunduri obtained Alp Arslan's licence to curse the Rafida and the Ash'aris from the minbars; his four years teaching at Mecca gave him the title Imam al-Haramayn, and Nizam al-Mulk's reign brought the exiles home in honour {cite:shadharat-dhahab p. 309-310}."
+  ar: "شيخ الشافعية في عصره ورئيسها بنيسابور، إمام الحرمين أبو المعالي عبد الملك الجويني؛ وُلد ببشتنكان من أعمال نيسابور سنة ٤١٩هـ وتفقه على والده أبي محمد حتى مات وله عشرون سنة فأُقعد مكانه للتدريس، وأحكم الأصول على أبي القاسم الإسفراييني الإسكاف، فلما ظهرت فتنة اللعن على المنابر سنة ٤٤٥هـ خرج إلى بغداد وصحب الوزير الكندري مدة يناظر في حضرته، ثم نُفي فجاور بمكة والمدينة أربع سنين يدرس ويفتي فقيل له إمام الحرمين، ورجع بعد الدولة النظامية فدرس بنظامية نيسابور نحو ثلاثين سنة يقعد بين يديه نحو ثلاثمائة، وتخرج به الغزالي وغيره، وتوفي ببشتقان سنة ٤٧٨هـ {cite:tarikh-islam-dhahabi pp. 229-239} {cite:encyclopaedia-of-islam-2 vol. 2 pp. 605-606}."
+  en: "The shaykh and head of the Shafi'is at Nishapur, Imam al-Haramayn Abu al-Ma'ali Abd al-Malik al-Juwayni; born at Bushtanikan outside Nishapur in 419/1028, he studied fiqh under his father Abu Muhammad and took his chair before he was twenty, mastered usul under Abu al-Qasim al-Isfara'ini al-Iskaf, was driven out in the pulpit-cursing ordeal of 445/1053 to Baghdad where he debated in the vizier al-Kunduri's presence, then was exiled and taught at Mecca and Medina for four years — whence his title — and returned under Nizam al-Mulk to teach at the Nishapur Nizamiyya for nearly thirty years before three hundred students a day, training al-Ghazali among others, and died at Bushtanqan in 478/1085 {cite:tarikh-islam-dhahabi pp. 229-239} {cite:encyclopaedia-of-islam-2 vol. 2 pp. 605-606}."
+  ur: "نیشاپور میں شوافع کے شیخ اور سردار، امام الحرمین ابو المعالی عبدالملک جوینی؛ 419ھ/1028ء میں نیشاپور کے نواحی گاؤں بشتنکان میں پیدا ہوئے، والد ابو محمد سے فقہ پڑھی اور بیس سال کی عمر سے پہلے ان کی جگہ درس دینے بیٹھ گئے، ابو القاسم اسفرائینی اسکاف سے اصول میں مہارت حاصل کی، 445ھ/1053ء کی منبروں پر لعن کی فتنہ میں بغداد نکل گئے جہاں وزیر کندری کی حضوری میں مناظرے کیے، پھر جلاوطن ہو کر مکہ اور مدینہ میں چار سال درس و افتاء کیا جہاں انھیں اپنا لقب ملا، نظام الملک کے عہد میں لوٹ کر نیشاپور کی نظامیہ میں تقریباً تیس سال روزانہ تین سو طلبہ کے سامنے درس دیا، غزالی سمیت بہت سے ائمہ ان کے تلامذہ ہوئے، اور 478ھ/1085ء میں بشتقان میں فوت ہوئے {cite:tarikh-islam-dhahabi pp. 229-239} {cite:encyclopaedia-of-islam-2 vol. 2 pp. 605-606}۔"
 roles: [scholar, jurist, theologian]
+traditions: [sunni]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia, arabia]
-provenance:
-  layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-11
+relations:
+  - { type: born_in, target: place/nishapur, note: "ببشتنكان (بشتقان) قرية من أعمال نيسابور", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: died_in, target: place/nishapur, note: "توفي ببشتقان ونُقل إلى نيسابور فدفن في داره ثم بمقبرة الحسين", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: child_of, target: person/abdallah-ibn-yusuf-al-juwayni, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/abdallah-ibn-yusuf-al-juwayni, role: "تفقه عليه حتى أتى على تسعة مصنفاته", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: student_of, target: person/abu-al-qasim-al-isfarayini-al-iskaf, role: "أحكم الأصول عليه", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: authored, target: work/nihayat-al-matlab-juwayni, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: authored, target: work/al-irshad-al-juwayni, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-burhan-fi-usul-al-fiqh, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-shamil-fi-usul-al-din, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: authored, target: work/al-waraqat-fi-usul-al-fiqh, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/mughith-al-khalq, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: authored, target: work/al-aqida-al-nizamiyya, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/birth-al-juwayni-419, role: "المولود", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/juwayni-succeeds-father-438, role: "الخليفة في كرسي التدريس", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nishapur-ashari-fitna-445, role: "الشيخ المستهدف بالنفي", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/juwayni-baghdad-kunduri-448, role: "المناظر في حضرة الوزير", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/ulama-hijra-nishapur-450, role: "الشيخ المتواري ثم المهاجر إلى الحرمين", sources: [source/tabaqat-shafiiyya-subki, source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/juwayni-mecca-mujawara-450, role: "المدرّس المفتي بالحرمين", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/nizamiyya-nishapur-founded-459, role: "المدرّس الذي أُسست له المدرسة", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/death-al-juwayni-478, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
 external_ids: { wikidata: "Q2584074" }
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/tabaqat-shafiiyya-subki, source/shadharat-dhahab, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 occupations:
   - job: job/teacher
     kind: primary
     status: historical
     note: "The entry on müderris says he taught in a madrasa inherited from his father, while taking lessons from Abu al-Qasim al-Isfara'ini in another madrasa. The entry gives no place or date for either."
     sources: [source/tdv-muderris]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 478, printed pp. 229-239 (harvest OCR); al-Dhahabi, Siyar A'lam al-Nubala (Risala) 18/2574-2576, entry 3514 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 2 art. al-Djuwayni (C. Brockelmann-L. Gardet), printed pp. 605-606; Ibn al-Imad, Shadharat al-Dhahab 3/309-310; al-Subki, Tabaqat al-Shafi'iyya al-Kubra printed pp. 269-276 (harvest OCR); Ibn Khallikan, Wafayat al-A'yan 3/168-170"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-juwayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

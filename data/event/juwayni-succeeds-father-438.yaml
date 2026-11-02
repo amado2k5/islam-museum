@@ -1,0 +1,29 @@
+id: event/juwayni-succeeds-father-438
+class: event
+kind: other
+label:
+  ar: "الجويني يُقعد مكان أبيه للتدريس قبل العشرين، ٤٣٨هـ"
+  en: "Al-Juwayni takes his father's teaching chair before twenty, 438/1047"
+  ur: "جوینی بیس سال سے پہلے والد کی جگہ درس پر بیٹھتے ہیں، 438ھ/1047ء"
+summary:
+  ar: "توفي والده الإمام أبو محمد عبد الله بن يوسف الجويني في ذي القعدة سنة ثمان وثلاثين وأربعمائة {cite:wafayat-ayan}، وقد تفقه عليه أبو المعالي حتى أتى على تسعة من مصنفاته، فأُقعد مكانه للتدريس ولم يكمل عشرين سنة، وكان يدرس ويخرج إلى مدرسة البيهقي، وأحكم الأصول على أبي القاسم الإسفراييني الإسكاف، وكان ينفق من ميراثه ومما يدخله من معلومه {cite:tarikh-islam-dhahabi pp. 230-231} {cite:siyar-alam-nubala j.18 pp. 2574-2575}؛ وعند EI2 أنه واصل تدريس أبيه قبل أن يبلغ العشرين {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}."
+  en: "His father the imam Abu Muhammad Abdallah ibn Yusuf al-Juwayni died in Dhu al-Qa'da 438/1047 {cite:wafayat-ayan}; Abu al-Ma'ali had studied fiqh under him until he mastered nine of his works, and was seated in his place to teach before completing twenty years — he taught while going out to al-Bayhaqi's madrasa, perfected the usul under Abu al-Qasim al-Isfara'ini al-Iskaf, and spent on himself from his inheritance and teaching stipend {cite:tarikh-islam-dhahabi pp. 230-231} {cite:siyar-alam-nubala j.18 pp. 2574-2575}; EI2 likewise has him continuing his father's teaching before the age of twenty {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}."
+  ur: "ان کے والد امام ابو محمد عبداللہ بن یوسف جوینی 438ھ/1047ء میں ذی القعدہ میں فوت ہوئے {cite:wafayat-ayan}؛ ابو المعالی نے ان سے اس قدر فقہ پڑھی کہ ان کی تصانیف میں سے نو مکمل کر لیں اور بیس سال پورے کیے بغیر ان کی جگہ درس پر بٹھا دیے گئے — وہ درس دیتے اور بيهقی کی مدرسے میں بھی جاتے، ابو القاسم اسفرائینی اسکاف سے اصول میں مہارت حاصل کی، اور میراث و معلوم سے خرچ کرتے رہے {cite:tarikh-islam-dhahabi pp. 230-231} {cite:siyar-alam-nubala j.18 pp. 2574-2575}؛ EI2 کے مطابق بھی انہوں نے بیس سال سے پہلے والد کی تدریس جاری رکھی {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1047~", hijri: "0438-11", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة أبيه في ذي القعدة 438هـ {cite:wafayat-ayan} وأُقعد مكانه؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "الخليفة في كرسي التدريس", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/abdallah-ibn-yusuf-al-juwayni, role: "الوالد المتوفَّى", sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/abu-al-qasim-al-isfarayini-al-iskaf, role: "أستاذ الأصول", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan 3 (father's entry); al-Dhahabi, Tarikh al-Islam s.a. 478, printed pp. 230-231 (harvest OCR); Siyar A'lam al-Nubala 18/2574-2575 (harvest OCR); EI2 vol. 2 p. 605"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-juwayni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -3,9 +3,9 @@ class: event
 kind: founding
 label: { ar: "النظامية بنيسابور", en: "The Nizamiyya of Nishapur" }
 summary:
-  ar: "أسس الوزير نظام الملك مدرسة نيسابور النظامية نحو سنة 459هـ/1067م ضمن شبكة النظاميات التي درس فيها أئمة الشافعية والحديث {cite:mawsuat-a3lam-ulama-adaba}."
-  en: "The vizier Nizam al-Mulk founded the Nishapur Nizamiyya about 459/1067 within his network of colleges where the Shafi'i and hadith imams taught {cite:mawsuat-a3lam-ulama-adaba}."
-  ur: "وزیر نظام الملک نے 459ھ/1067ء میں نیشاپور کی نظامیہ مدرسہ بنوایا جو شوافع اور محدثین کے تدریسی سلسلے کا حصہ بنا {cite:mawsuat-a3lam-ulama-adaba}."
+  ar: "أسس الوزير نظام الملك مدرسة نيسابور النظامية نحو سنة 459هـ/1067م ضمن شبكة النظاميات التي درس فيها أئمة الشافعية والحديث {cite:mawsuat-a3lam-ulama-adaba}؛ وعند دائرة المعارف الإسلامية أن نظام الملك أنشأها في هذه البلدة خصيصاً لإمام الحرمين الجويني العائد من المنفى فدرس فيها إلى آخر أيامه {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}."
+  en: "The vizier Nizam al-Mulk founded the Nishapur Nizamiyya about 459/1067 within his network of colleges where the Shafi'i and hadith imams taught {cite:mawsuat-a3lam-ulama-adaba}; the Encyclopaedia of Islam adds that he founded it in this town specially for the returned exile Imam al-Haramayn al-Juwayni, who taught there to the end of his days {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}."
+  ur: "وزیر نظام الملک نے 459ھ/1067ء میں نیشاپور کی نظامیہ مدرسہ بنوایا جو شوافع اور محدثین کے تدریسی سلسلے کا حصہ بنا {cite:mawsuat-a3lam-ulama-adaba}؛ دائرۃ المعارف اسلامیہ کے مطابق اس نے اس شہر میں یہ مدرسہ خصوصاً واپس آئے ہوئے جلاوطن امام الحرمین جوینی کے لیے بنایا جہاں وہ آخر عمر درس دیتے رہے {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}۔"
 wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
@@ -15,10 +15,12 @@ date:
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: had_participant, target: person/nizam-al-mulk, role: "المؤسس", sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المدرّس الذي أُسست له المدرسة", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research
-  source: "written for the Timeline Explorer Nishapur story from the cited source"
+  source: "written for the Timeline Explorer Nishapur story from the cited source; enriched for the al-Juwayni story from EI2 vol. 2 art. al-Djuwayni p. 605 ('Nizam al-Mulk actually founded in this town a special madrasa for him') and Tarikh al-Islam s.a. 478 p. 231"
   generated_by: "Devin (SWE-2 Medium)"
-  run: explorer-nishapur
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+  model: "SWE-2 Medium"
+  run: explorer-nishapur; explorer-al-juwayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

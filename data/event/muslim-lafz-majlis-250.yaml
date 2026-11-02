@@ -1,0 +1,28 @@
+id: event/muslim-lafz-majlis-250
+class: event
+kind: other
+label:
+  ar: "مسلم بن الحجاج يقوم من مجلس الذهلي في مسألة اللفظ، نحو ٢٥٠هـ"
+  en: "Muslim ibn al-Hajjaj walks out of al-Dhuhli's circle over the lafz question, c. 250/864"
+  ur: "مسلم بن حجاج کا مسئلۂ لفظ پر ذہلی کی مجلس سے اٹھنا، تقریباً 250ھ/864ء"
+summary:
+  ar: "وقع بين محمد بن يحيى الذهلي والبخاري ما وقع في مسألة اللفظ، فنادى الذهلي في مجلسه ومنع الناس من الأخذ عنه حتى هجر البخاري نيسابور، وكان الناس يتقاطعون عن مسلم فلم يتغيّر عن مذهبه {cite:wafayat-ayan v p. 195}؛ وحضر مسلم مجلس الذهلي فقال: من قال لفظي بالقرآن مخلوق فلا يحضر مجلسنا، فأخذ مسلم الرداء والعمامة وقام على رؤوس الناس وخرج من مجلسه، فتولدت من ذلك الوحشة بينهما {cite:tazkirat-al-huffaz j.2 p. 527-528} {cite:wafayat-ayan v p. 195}."
+  en: "When the breach over the lafz question opened between Muhammad ibn Yahya al-Dhuhli and al-Bukhari, al-Dhuhli announced it in his circle and barred people from taking from al-Bukhari until he left Nishapur; the people shunned Muslim for not changing his position {cite:wafayat-ayan v p. 195}. Muslim attended al-Dhuhli's assembly where he declared that whoever said 'my utterance of the Qur'an is created' should not attend — so Muslim took up his cloak and turban, rose over the heads of the people and left, and from that the estrangement between them grew {cite:tazkirat-al-huffaz j.2 p. 527-528} {cite:wafayat-ayan v p. 195}."
+  ur: "جب محمد بن یحییٰ ذہلی اور بخاری کے درمیان مسئلۂ لفظ پر تنازع کھلا تو ذہلی نے اپنی مجلس میں اعلان کیا اور لوگوں کو بخاری سے اخذ کرنے سے روکا یہاں تک کہ بخاری نے نیشاپور چھوڑ دیا؛ لوگ مسلم سے بھی روگردانی کرتے رہے کیونکہ وہ اپنے مسلک سے نہ بدلا {cite:wafayat-ayan v p. 195}۔ مسلم ذہلی کی مجلس میں حاضر ہوا تو اس نے کہا: جو کہے کہ میرا قرآن پڑھنا مخلوق ہے وہ ہماری مجلس میں نہ آئے — چنانچہ مسلم نے چادر اور عمامہ اٹھایا، لوگوں کے سروں کے اوپر سے اٹھا اور مجلس چھوڑ دی، اور اسی سے ان کے درمیان بے تکلفی جنم لے گئی {cite:tazkirat-al-huffaz j.2 p. 527-528} {cite:wafayat-ayan v p. 195}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0864~", hijri: "0250~", calendar: julian, precision: decade, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ وقع بين ٢٤٧هـ (دخول البخاري نيسابور وقول الذهلي فيه {cite:tabaqat-shafiiyya-subki j.2 p. 9}) وهجر البخاري نيسابور نحو ٢٥٦هـ {cite:wafayat-ayan v p. 195}؛ التحويل مشتق.", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan, source/tabaqat-shafiiyya-subki] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/wafayat-ayan, source/tazkirat-al-huffaz] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "القائم من المجلس", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
+  - { type: had_participant, target: person/muhammad-ibn-yahya-al-dhuhli, role: "صاحب المجلس", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
+sources: [source/tazkirat-al-huffaz, source/wafayat-ayan, source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "Al-Dhahabi, Tadhkirat al-Huffaz j.2 pp. 527-528 (harvest OCR); Ibn Khallikan, Wafayat al-A'yan ed. I. Abbas v p. 195; Tabaqat al-Shafi'iyya al-Kubra j.2 p. 9"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

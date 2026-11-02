@@ -1,0 +1,30 @@
+id: event/daraqutni-first-hearing-315
+class: event
+kind: other
+label:
+  ar: "الدارقطني يسمع من شيوخ بغداد الكبار، نحو ٣١٥هـ"
+  en: "Al-Daraqutni hears the last great shaykhs of Baghdad, about 315/927"
+  ur: "دارقطنی بغداد کے آخری بڑے مشائخ سے سماعت کرتے ہیں، تقریباً 315ھ/927ء"
+summary:
+  ar: "سمع الدارقطني ببغداد من أبي القاسم البغوي وابن أبي داود وابن صاعد والحسين بن المحاملي وخلق كثير، وكلهم من طبقة كبار شيوخ بغداد الذين ماتوا نحو ٣١٦–٣١٨هـ، فكان سماعه منهم قبل بلوغه العاشرة أو نحوها {cite:tarikh-islam-dhahabi p.101} {cite:muntazam-ibn-al-jawzi j.7 p.183}؛ وحُكي أنه حضر في حداثته مجلس إسماعيل الصفار وهو ينسخ جزءاً معه والصفار يملي، فقيل له: لا يصح سماعك وأنت تنسخ، فقال: فهمي للإملاء خلاف فهمك، ثم عدد ما أملى الشيخ: ثمانية عشر حديثاً بأسانيدها ومتونها على ترتيب الإملاء حتى آخرها، فتعجب الناس منه {cite:muntazam-ibn-al-jawzi j.7 pp.183-184} {cite:tarikh-islam-dhahabi pp.102-103}."
+  en: "In Baghdad al-Daraqutni heard from Abu al-Qasim al-Baghawi, Ibn Abi Dawud, Ibn Sa'id, al-Husayn ibn al-Mahamili and many others — all of the generation of Baghdad's senior shaykhs who died about 316–318, so his hearing of them came before he was ten or thereabouts {cite:tarikh-islam-dhahabi p.101} {cite:muntazam-ibn-al-jawzi j.7 p.183}. It is told that in his youth he attended Isma'il al-Saffar's circle copying a fascicule while al-Saffar dictated; told that a hearer who copies has no valid sama', he answered that his grasp differed from his challenger's, then enumerated the eighteen hadiths dictated, with their isnads and texts in order, and the people marvelled {cite:muntazam-ibn-al-jawzi j.7 pp.183-184} {cite:tarikh-islam-dhahabi pp.102-103}."
+  ur: "دارقطنی نے بغداد میں ابوالقاسم بغوی، ابن ابی داؤد، ابن صاعد، حسین بن محاملی اور بہتوں سے سنا — سب انہی بزرگ مشائخ کی نسل سے تھے جو تقریباً 316–318ھ میں فوت ہوئے، لہٰذا ان سے سماعت دس برس کی عمر کے لگ بھگ ہوئی {cite:tarikh-islam-dhahabi p.101} {cite:muntazam-ibn-al-jawzi j.7 p.183}؛ منقول ہے کہ جوانی میں وہ اسماعیل صفار کے مجلس میں جز نقل کر رہے تھے جب صفار املا کرا رہے تھے؛ کہا گیا کہ نقل کے ساتھ سماعت صحیح نہیں، تو انہوں نے جواب دیا کہ میری فہم تمہاری فہم سے مختلف ہے، پھر املا شدہ اٹھارہ حدیثیں اسانید و متون سمیت ترتیب سے گنوائیں اور لوگ حیران رہ گئے {cite:muntazam-ibn-al-jawzi j.7 pp.183-184} {cite:tarikh-islam-dhahabi pp.102-103}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0925~", hijri: "0315~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣١٥هـ: سمع البغوي (ت ٣١٧) وابن أبي داود (ت ٣١٦) وابن صاعد قبل وفاتهم {cite:tarikh-islam-dhahabi p.101}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-daraqutni, role: "الطالب الصغير", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-al-qasim-al-baghawi, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abdallah-ibn-abi-dawud, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/ismail-al-saffar, role: "الشيخ المملي", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 385, printed pp. 101-103 (harvest OCR); Ibn al-Jawzi, al-Muntazam (Haydarabad 1357) j.7, printed pp. 183-184 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

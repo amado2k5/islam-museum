@@ -1,0 +1,27 @@
+id: event/birth-taj-al-din-subki-727
+class: event
+kind: other
+label:
+  ar: "مولد تاج الدين السبكي بالقاهرة، نحو ٧٢٧هـ/١٣٢٧م"
+  en: "Birth of Taj al-Din al-Subki in Cairo, c. 727/1327"
+  ur: "تاج الدین سبکی کی پیدائش، قاہرہ، تقریباً 727ھ/1327ء"
+summary:
+  ar: "وُلد عبد الوهاب بن علي بن عبد الكافي بن علي بن تمام، تاج الدين أبو النصر السبكي الأنصاري الخزرجي الشافعي، بالقاهرة سنة ٧٢٧هـ أو ٧٢٨هـ أو ٧٢٩هـ، أي نحو ١٣٢٧–١٣٢٩م؛ وفي «المعجم الصغير» للذهبي أن مولده سنة ٧٢٨هـ {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  en: "Abd al-Wahhab ibn Ali ibn Abd al-Kafi ibn Ali ibn Tamam — Taj al-Din Abu al-Nasr al-Subki al-Ansari al-Khazraji al-Shafi'i — was born in Cairo in 727, 728 or 729 AH (c. 1327–1329 CE); al-Dhahabi's Mu'jam al-Saghir gives 728 {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}."
+  ur: "عبد الوہاب بن علی بن عبد الکافی بن علی بن تمام، تاج الدین ابو نصر سبکی انصاری خزرجی شافعی، قاہرہ میں 727، 728 یا 729ھ (تقریباً 1327–1329ء) میں پیدا ہوئے؛ ذہبی کے معجم صغیر میں 728ھ ہے {cite:durar-kamina-jil-1993 2/425} {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1327~", hijri: "0727", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة سنة ٧٢٧هـ أو ٧٢٨هـ أو ٧٢٩هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 745}؛ وقيل ٧٢٨هـ {cite:durar-kamina-jil-1993 2/425}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar al-Asqalani, al-Durar al-Kamina (Haidarabad/Jil 1993 print), vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2); Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed p. 745, art. al-Subki A no. 9 (harvest scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

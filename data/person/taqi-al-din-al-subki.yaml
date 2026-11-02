@@ -3,24 +3,45 @@ class: person
 label:
   ar: "تقي الدين السبكي"
   en: "Taqi al-Din al-Subki"
+  ur: "تقی الدین سبکی"
+names:
+  - { value: "علي بن عبد الكافي بن علي بن تمام بن يوسف الأنصاري الخزرجي السبكي الشافعي", kind: full }
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لتقي الدين السبكي، قاضي القضاة الشافعي بدمشق والمجتهد المدافع عن ابن تيمية والمتكلم؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Taqi al-Din al-Subki, the Shafi'i chief qadi of Damascus and theologian who debated Ibn Taymiyya; his entry is not yet checked on the page."
+  ar: "شيخ الإسلام تقي الدين علي بن عبد الكافي السبكي (٦٨٣–٧٥٦هـ/١٢٨٤–١٣٥٥م)، فقيه شافعي ومحدّث ومتكلم؛ سمع الحديث بمصر في شبيبته ورحل إلى دمشق وحج، ودرّس بالمنصورية وباشر مشيخة دار الحديث الظاهرية بالقاهرة، ثم ولي قضاء قضاة دمشق نحو سبع عشرة سنة وباشر مشيخة الأشرفية والنورية، حتى نزل عن القضاء لولده تاج الدين ورحل إلى مصر فتوفي بها {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745} {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}."
+  en: "Shaykh al-Islam Taqi al-Din Ali ibn Abd al-Kafi al-Subki (683–756/1284–1355), Shafi'i jurist, muhaddith and theologian; he heard hadith in Egypt in his youth, journeyed to Damascus and made the hajj, taught at the Mansuriyya and headed the Zahiriyya hadith school in Cairo, then served as chief qadi of Damascus for about seventeen years, holding the shaykhhood of the Ashrafiyya and Nuriyya, until he ceded the bench to his son Taj al-Din and died in Egypt {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745} {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}."
+  ur: "شیخ الاسلام تقی الدین علی بن عبد الکافی سبکی (683–756ھ/1284–1355ء)، شافعی فقیہ، محدث اور متکلم؛ جوانی میں مصر میں حدیث سنی، دمشق گئے اور حج کیا، قاہرہ میں منصوریہ میں تدریس اور دار الحدیث ظاہریہ کی شیخت کی، پھر تقریباً سترہ برس دمشق کے قاضی القضاة رہے اور اشرفیہ و نوریہ کی شیخت سنبھالی، یہاں تک کہ بیٹے تاج الدین کو منصب سونپ کر مصر گئے اور وہاں وفات پائی {cite:encyclopaedia-of-islam-2 vol. 9 pp. 744-745} {cite:al-bidaya-wal-nihaya s.a. 756 pp. 263-264}۔"
 wings: [people]
-regions: [levant-iraq]
+regions: [egypt-nile, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1355", precision: year, status: tradition, derived: true }
-sources: [source/siyar-alam-nubala-abyari, source/durar-kamina-jil-1993]
+born: { edtf: "1284-04-11~", hijri: "0683-02-01", calendar: julian, precision: day, status: tradition, derived: true, note: "أول صفر ٦٨٣هـ بسبك العبيد {cite:durar-kamina-jil-1993 3/63}؛ وقيل صفر ٦٨٣هـ/أبريل ١٢٨٤م {cite:encyclopaedia-of-islam-2 vol. 9 p. 744}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+died: { edtf: "1355-06-16~", hijri: "0756-06-03", calendar: julian, precision: day, status: tradition, derived: true, note: "ثالث جمادى الآخرة ٧٥٦هـ بالقاهرة ودُفن بسعيد السعداء {cite:durar-kamina-jil-1993 3/70}؛ وقيل جمادى الثانية ٧٥٦هـ/يونيو ١٣٥٥م {cite:encyclopaedia-of-islam-2 vol. 9 p. 744}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/birth-al-subki-683, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/al-subki-studies-egypt-700, role: "الطالب", sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+  - { type: participated_in, target: event/al-subki-rihla-damascus-hajj-710, role: "الرحّالة الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/al-subki-mansuriyya-723, role: "المدرّس", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-subki-zahiriyya-723, role: "شيخ دار الحديث", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-subki-qadi-damascus-739, role: "قاضي القضاة الجديد", sources: [source/al-bidaya-wal-nihaya, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/al-subki-ashrafiyya-740, role: "شيخ دار الحديث", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-subki-egypt-summons-743, role: "قاضي القضاة المطلوب", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-subki-shamiyya-745, role: "المدرّس", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-subki-ibn-qayyim-sulh-750, role: "قاضي القضاة الطرف في الخلاف", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/taj-al-din-qadi-756, role: "الوالد النازل عن المنصب", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/al-subki-leaves-damascus-756, role: "المسافر", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: participated_in, target: event/death-al-subki-756, role: "المتوفَّى", sources: [source/al-bidaya-wal-nihaya, source/durar-kamina-jil-1993] }
+sources: [source/siyar-alam-nubala-abyari, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala]
 external_ids:
   wikidata: Q12202948
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2, lib-durar-kamina-batch-1-2-2026-10-31
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9, printed pp. 744-745, art. al-Subki A no. 6; al-Bidaya wa-l-Nihaya s.a. 723, 739, 740, 743, 745, 750, 756 (harvest scans); Siyar A'lam al-Nubala p. 2986; Durar al-Kamina 3/63-70"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1, wikidata-import-wave2, lib-durar-kamina-batch-1-2-2026-10-31
 status:
   review: published
-  completeness: 1
+  completeness: 2
+  generated_by: "Devin (SWE-2 Medium)"

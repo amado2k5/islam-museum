@@ -12,11 +12,12 @@ regions: [anatolia-balkans, levant-iraq]
 date:
   start: { edtf: "1190~", hijri: "0586", calendar: julian, precision: year, status: tradition, derived: true, note: "586؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 193}." }
 relations:
+  - { type: occurred_at, target: place/konya, sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/frederick-barbarossa, role: "ملك الألمان الغارق", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 586، ص 193–194"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-04
-sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); occurred_at Konya added by Devin (SWE-2 Medium)" }

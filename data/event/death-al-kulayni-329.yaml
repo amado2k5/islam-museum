@@ -1,0 +1,29 @@
+id: event/death-al-kulayni-329
+class: event
+kind: death
+label:
+  ar: "وفاة الكليني ببغداد، شعبان ٣٢٩هـ/أيار 941م"
+  en: "Death of al-Kulayni at Baghdad, Sha'ban 329/May 941"
+  ur: "کلینی کی بغداد میں وفات، شعبان 329ھ/مئی 941ء"
+summary:
+  ar: "مات [[person/al-kulayni|الكليني]] ببغداد سنة ٣٢٨/939-940 أو ٣٢٩/940-941؛ والأرجح عند معجم الإسلام الثانية، لأن [[person/shaykh-al-tusi|الطوسي]] — وقد ذكر ٣٢٨ في فهرسته الأول — حدد في رجاله المتأخر شعبان ٣٢٩/أيار 941. وصلى على جنازته الحسني الإمامي [[person/abu-qirat-muhammad-ibn-jafar|أبو قيراط محمد بن جعفر]]، ودفن قرب باب الكوفة {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}. وعند تاريخ الإسلام في تراجم سنة ٣٢٩: «كان ببغداد وبها مات، وقبره ظاهر عليه لوح»، وروى عنه [[person/ahmad-ibn-ibrahim-al-saymari|أحمد بن إبراهيم الصيمري]] {cite:tarikh-islam-dhahabi p. 250}."
+  en: "al-Kulayni died at Baghdad in 328/939-40 or 329/940-41; the EI2 prefers the latter, since al-Tusi — having given 328 in his earlier Fihrist — specifies Sha'ban 329/May 941 in his later Rijal. The funeral prayer was led by the Imami Hasanid Abu Qirat Muhammad ibn Ja'far, and he was buried near the Bab al-Kufa {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}. Tarikh al-Islam lists him under 329: 'he was at Baghdad and died there, and his tomb is visible with a tablet over it'; Ahmad ibn Ibrahim al-Saymari transmitted from him {cite:tarikh-islam-dhahabi p. 250}."
+  ur: "کلینی بغداد میں 328/939-40 یا 329/940-41ء میں فوت ہوا؛ دائرۃ المعارفِ اسلام دوسری تاریخ کو رجحان دیتی ہے کیونکہ [[person/shaykh-al-tusi|طوسی]] نے — اپنی پہلی فہرست میں 328 دینے کے بعد — بعد کی رجال میں شعبان 329/مئی 941 مقرر کی۔ نمازِ جنازہ امامی حسنی [[person/abu-qirat-muhammad-ibn-jafar|ابو قیراط محمد بن جعفر]] نے پڑھائی اور وہ بابِ کوفہ کے قریب دفن ہوا {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}۔ تاریخِ اسلام اسے 329 کی تراجم میں لاتا ہے: «وہ بغداد میں تھا اور وہیں فوت ہوا، اور اس کا قبر ظاہر ہے جس پر لوح ہے»، اور [[person/ahmad-ibn-ibrahim-al-saymari|احمد بن ابراہیم صیمری]] اس سے روایت کرتا ہے {cite:tarikh-islam-dhahabi p. 250}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0941-05~", hijri: "0329-08~", calendar: julian, precision: month, status: debated, derived: true, note: "٣٢٨ أو ٣٢٩؛ رجّح معجم الإسلام شعبان ٣٢٩/أيار 941 لتحديد الطوسي في الرجال {cite:encyclopaedia-of-islam-2 vol. 5 p. 401}؛ وتاريخ الإسلام يدرجه في سنة ٣٢٩ {cite:tarikh-islam-dhahabi p. 250}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-kulayni, role: "المتوفى", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-qirat-muhammad-ibn-jafar, role: "الصلاة على الجنازة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-ibrahim-al-saymari, role: "الراوي عنه", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5, art. al-Kulaynī, printed p. 401 (W. Madelung); al-Dhahabi, Tarikh al-Islam, s.a. 329, printed p. 250 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-kulayni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

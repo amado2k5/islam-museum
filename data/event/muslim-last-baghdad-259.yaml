@@ -1,0 +1,27 @@
+id: event/muslim-last-baghdad-259
+class: event
+kind: other
+label:
+  ar: "آخر دخول مسلم بن الحجاج بغداد، ٢٥٩هـ"
+  en: "Muslim ibn al-Hajjaj's last entry into Baghdad, 259/873"
+  ur: "مسلم بن حجاج کی بغداد میں آخری آمد، 259ھ/873ء"
+summary:
+  ar: "دخل مسلم بن الحجاج بغداد غير مرة فروى عنه أهلها، وآخر دخوله إليها كان سنة تسع وخمسين ومائتين {cite:wafayat-ayan v p. 195}؛ وكان ممن روى عنه الترمذي وكان من الثقات {cite:wafayat-ayan v p. 195}."
+  en: "Muslim ibn al-Hajjaj entered Baghdad on several occasions and its people transmitted from him; his last entry was in 259 {cite:wafayat-ayan v p. 195}. Among those who transmitted from him was al-Tirmidhi, who counted him among the trustworthy {cite:wafayat-ayan v p. 195}."
+  ur: "مسلم بن حجاج بغداد کئی بار داخل ہوئے اور وہاں کے لوگوں نے ان سے روایت کیا؛ ان کی آخری آمد 259ھ میں ہوئی {cite:wafayat-ayan v p. 195}۔ ان سے روایت کرنے والوں میں ترمذی تھے جو انہیں ثقہ شمار کرتے تھے {cite:wafayat-ayan v p. 195}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0873", hijri: "0259", calendar: julian, precision: year, status: tradition, derived: true, note: "وآخر دخوله إليها سنة تسع وخمسين ومائتين {cite:wafayat-ayan v p. 195}؛ التحويل مشتق.", sources: [source/wafayat-ayan] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المحدّث", sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan ed. I. Abbas v p. 195, tarjama of Muslim ibn al-Hajjaj (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
