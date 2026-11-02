@@ -1,0 +1,27 @@
+id: event/raghib-circle-ibn-abbad-385
+class: event
+kind: gathering
+label:
+  ar: "الراغب الأصفهاني في فضاء مجلس الصاحب بن عباد، نحو ٣٨٥هـ"
+  en: "al-Raghib al-Isfahani in the orbit of al-Sahib Ibn Abbad's circle, about 385"
+  ur: "راغب اصفہانی، صاحب بن عباد کے مجلس کے فضا میں، تقریباً 385ھ"
+summary:
+  ar: "يُلمّع الراغب الأصفهاني في منتخباته الأدبية إلى معاصرين يمكن التعرف عليهم من أصحاب مجلس الوزير البويهي الصاحب بن عباد (ت ٣٨٥هـ/٩٩٥م)، فيظهر أنه عاش في زمن ذلك المجلس الأدبي الشهير بلا دليل على أنه فارق وطنه أصفهان {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}."
+  en: "In his literary anthologies al-Raghib al-Isfahani alludes several times to contemporaries who can be identified as members of the circle of the Buyid vizier al-Sahib Ibn Abbad (d. 385/995), showing that he flourished in the age of that famous literary salon — with no sound evidence that he ever left his native Isfahan {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}."
+  ur: "راغب اصفہانی اپنے ادبی مجموعوں میں بار بار ہمعصر افراد کا ذکر کرتے ہیں جن کی شناخت بويہی وزیر صاحب بن عباد (وفات 385ھ/995ء) کے مجلس کے اہل کے طور پر ہوتی ہے، جس سے معلوم ہوتا ہے کہ وہ اس مشہور ادبی محفل کے زمانے میں جیتے تھے — اگرچہ کوئی مستند شہادت نہیں کہ وہ اپنے وطن اصفہان سے کبھی نکلے {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0995~", hijri: "0385", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة الصاحب بن عباد سنة ٣٨٥هـ/٩٩٥م والراغب يلمّع إلى معاصرين من أصحاب مجلسه {cite:encyclopaedia-of-islam-2 vol. 8 pp. 389-390}؛ السنة الميلادية تحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-raghib-al-isfahani, role: "أديب معاصر لمجلس الصاحب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 pp. 389-390 (E. K. Rowson), art. al-Raghib al-Isfahani"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-raghib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,6 +1,7 @@
 // Constellation view, browser side (Part 3, C.5). Fetches the static two-hop neighbourhood JSON for the centre named in
 // ?from=, lays the first hop on an inner ring and the second on an outer ring, draws curved labelled edges, and re-centres on
 // click. One node per entity id, always. The neighbour list beside the chart is the keyboard and screen-reader reading.
+// The legend doubles as a type filter (?only=person,event): the chosen types stay, the rest are hidden, "Show all" clears it.
 interface GNode { id: string; c: string; l: Record<string, string>; s: Record<string, string>; hop: number }
 interface GEdge { s: string; t: string; r: string }
 interface Data { centre: string; nodes: GNode[]; edges: GEdge[] }
@@ -28,6 +29,60 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
   const cross = page.querySelector<HTMLInputElement>("[data-gx-cross]");
   cross?.addEventListener("change", () => root.classList.toggle("show-cross", cross.checked));
   card.addEventListener("keydown", (ev) => { if (ev.key === "Escape") card.hidden = true; });
+  const filters = [...page.querySelectorAll<HTMLButtonElement>("[data-filter]")];
+  const allBtn = page.querySelector<HTMLButtonElement>("[data-gx-all]");
+  const filterHint = page.querySelector<HTMLElement>("[data-gx-filter-hint]");
+  if (filterHint) filterHint.hidden = false;
+  const classKey = (c: string) => (c in COLOR ? c : "other");
+  const onlyParam = () => new Set((new URLSearchParams(location.search).get("only") ?? "").split(",").filter((c) => filters.some((b) => b.dataset.filter === c)));
+  let only = onlyParam();
+  let current: Data | null = null;
+
+  // keep only the chosen types; a second-hop entry stays only if it still hangs from a visible first-hop entry
+  function filtered(d: Data): Data {
+    if (!only.size) return d;
+    const base = new Set(d.nodes.filter((n) => n.hop === 0 || (n.hop === 1 && only.has(classKey(n.c)))).map((n) => n.id));
+    const kept = new Set(base);
+    for (const n of d.nodes) if (n.hop === 2 && only.has(classKey(n.c)) && d.edges.some((e) => (e.s === n.id && base.has(e.t)) || (e.t === n.id && base.has(e.s)))) kept.add(n.id);
+    return { centre: d.centre, nodes: d.nodes.filter((n) => kept.has(n.id)), edges: d.edges.filter((e) => kept.has(e.s) && kept.has(e.t)) };
+  }
+
+  function syncFilters(d: Data) {
+    const count = new Map<string, number>();
+    for (const n of d.nodes) if (n.hop) count.set(classKey(n.c), (count.get(classKey(n.c)) ?? 0) + 1);
+    for (const b of filters) {
+      const c = b.dataset.filter!, k = count.get(c) ?? 0;
+      b.querySelector<HTMLElement>("[data-count]")!.textContent = k ? String(k) : "";
+      b.disabled = !k && !only.has(c);
+      b.setAttribute("aria-pressed", String(only.has(c)));
+      b.closest("li")!.hidden = c === "other" && !k;
+    }
+    root.classList.toggle("is-filtered", only.size > 0);
+    page.querySelector(".gx-legend")?.classList.toggle("is-filtered", only.size > 0);
+    if (allBtn) allBtn.hidden = !only.size;
+  }
+
+  function render() {
+    if (!current) return;
+    syncFilters(current);
+    const v = filtered(current);
+    draw(v);
+    status.textContent = only.size && !v.nodes.some((n) => n.hop) ? p.t.empty : "";
+  }
+
+  function urlFor(id: string) {
+    const q = new URLSearchParams({ from: id });
+    if (only.size) q.set("only", [...only].join(","));
+    return `?${q.toString().replace(/%2F/g, "/").replace(/%2C/g, ",")}`;
+  }
+
+  function setOnly(next: Set<string>) {
+    only = next;
+    render();
+    if (current) history.replaceState({ from: current.centre }, "", urlFor(current.centre));
+  }
+  for (const b of filters) b.addEventListener("click", () => { const c = b.dataset.filter!, next = new Set(only); if (next.has(c)) next.delete(c); else next.add(c); setOnly(next); });
+  allBtn?.addEventListener("click", () => { setOnly(new Set()); filters.find((b) => !b.disabled)?.focus(); });
 
   function draw(d: Data) {
     svg.innerHTML = "";
@@ -118,11 +173,10 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
     try {
       const res = await fetch(`/api/v1/graph/${c}/${s}.json`);
       if (!res.ok) throw new Error(String(res.status));
-      const d: Data = await res.json();
-      draw(d);
-      status.textContent = "";
+      current = await res.json();
+      render();
       if (input) input.value = id;
-      if (push) history.pushState({ from: id }, "", `?from=${encodeURIComponent(id)}`);
+      if (push) history.pushState({ from: id }, "", urlFor(id));
     } catch {
       status.textContent = p.t.failed;
     }
@@ -130,7 +184,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
 
   const fromParam = () => { const q = new URLSearchParams(location.search).get("from") ?? ""; return q.includes("/") ? q : q ? `person/${q}` : root.dataset.default!; };
   form?.addEventListener("submit", (e) => { e.preventDefault(); const v = (input?.value ?? "").trim(); if (v) load(v.includes("/") ? v : `person/${v}`, true); });
-  window.addEventListener("popstate", () => load(fromParam(), false));
+  window.addEventListener("popstate", () => { only = onlyParam(); load(fromParam(), false); });
   load(fromParam(), false);
   void rtl;
 }

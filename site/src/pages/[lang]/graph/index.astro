@@ -20,7 +20,7 @@ const DEFAULT = "person/muhammad";
 const centre = byId.get(DEFAULT)!;
 const neighbours = edgesFrom(DEFAULT).filter((e) => !e.inverse && byId.get(e.to)).slice(0, 22).map((e) => ({ node: byId.get(e.to)!, type: e.type }));
 const CLASSES = ["person", "place", "event", "work", "concept", "group", "polity", "passage", "period", "journey", "building", "object", "practice", "source", "other"];
-const payload = { lang, labels, classes: Object.fromEntries(CLASSES.map((c) => [c, T.class[c] ?? G.other])), t: { centre: G.centre, open: G.open, recentre: G.recentre, close: G.close, neighbours: G.neighbours, loading: G.loading, failed: G.failed, hops: G.hops } };
+const payload = { lang, labels, classes: Object.fromEntries(CLASSES.map((c) => [c, T.class[c] ?? G.other])), t: { centre: G.centre, open: G.open, recentre: G.recentre, close: G.close, neighbours: G.neighbours, loading: G.loading, failed: G.failed, hops: G.hops, empty: G.empty } };
 ---
 <BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/graph/`}>
   <div class="wrap" style="padding-block:20px 10px" data-pagefind-ignore>
@@ -41,9 +41,11 @@ const payload = { lang, labels, classes: Object.fromEntries(CLASSES.map((c) => [
       </div>
       <aside class="gx-side ui">
         <h2 style="font-size:1rem;margin:0 0 8px">{G.legend}</h2>
-        <ul class="gx-legend" role="list">
-          {CLASSES.filter((c) => c !== "other").map((c) => <li><span class="gx-swatch" data-class={c}></span>{T.class[c] ?? c}</li>)}
+        <p class="muted" style="font-size:.8rem;margin:0 0 6px" data-gx-filter-hint hidden>{G.filter_hint}</p>
+        <ul class="gx-legend" role="list" aria-label={G.filter}>
+          {CLASSES.map((c) => <li hidden={c === "other"}><button type="button" class="gx-filter" data-filter={c} aria-pressed="false" disabled><span class="gx-swatch" data-class={c}></span><span>{T.class[c] ?? G.other}</span><span class="gx-count" data-count></span></button></li>)}
         </ul>
+        <button type="button" class="gx-mini gx-all" data-gx-all hidden>{G.all}</button>
         <h2 style="font-size:1rem;margin:14px 0 8px">{G.neighbours}</h2>
         <ol class="gx-list" data-list>
           {neighbours.map((x) => <li><a href={href(lang, x.node.id)}>{labelOf(x.node, lang)}</a> <span class="muted">— {labels[x.type] ?? x.type}</span></li>)}

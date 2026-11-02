@@ -9,6 +9,9 @@ import Pathway from "../components/Pathway.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
 import LevelSwitcher from "../components/LevelSwitcher.astro";
+import JobSections from "../components/JobSections.astro";
+import CareerStrip from "../components/CareerStrip.astro";
+import { JOB_NOT_YET } from "../lib/jobs";
 import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
@@ -93,6 +96,8 @@ const sectionHtml = sections.map((s) => {
   const renumber = renumberR(s.r);
   return { ...s, html: renumber(s.r.html), persp: s.r.perspectives.map((p) => ({ ...p, html: renumber(p.html) })) };
 });
+// a job article's "not yet covered" section is shown as a note after the job sections, not inside the prose (docs/jobs/site.md section 2)
+const jobNotYet = n.class === "job" ? sectionHtml.find((s) => JOB_NOT_YET.includes(s.heading)) : undefined;
 // each level is read on its own, so each gets its own honorific state; its citations join the page's footnote list
 const levelHtml = levelSecs.map((s) => { const r = renderProse(s.markdown, lang, newHonState()); return { id: levelOf(s.heading, proseLang!)!.id, heading: s.heading, html: renumberR(r)(r.html) }; });
 const kidsReadHref = d.education?.flagged_for_kids ? `/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/` : undefined;
@@ -214,7 +219,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         <div class="prose" lang={proseLang ?? lang} dir={(proseLang ?? lang) === "en" ? "ltr" : "rtl"} data-pagefind-ignore={untranslated || undefined}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
           <LevelSwitcher lang={lang} levels={levelHtml} kidsHref={kidsReadHref} shelfId={n.id}>
-          {sectionHtml.map((s) =>
+          {sectionHtml.filter((s) => s !== jobNotYet).map((s) =>
             s.role === "kids" || s.role === "scholars" ? (
               <details data-role={s.role} class="sec" style="margin-block:1rem">
                 <summary style="cursor:pointer;font-weight:600"><span class="ui">{s.heading}</span></summary>
@@ -229,6 +234,8 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           )}
           </LevelSwitcher>
         </div>
+
+        {n.class === "job" && <JobSections node={n} lang={lang} notYet={jobNotYet?.html} />}
 
         {perspectives.length > 0 && (
           <section data-role="main" class="sec opinions" aria-labelledby="persp">
@@ -262,6 +269,8 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           </section>
         )}
 
+        {n.class === "person" && (d.occupations?.length ?? 0) > 0 && <CareerStrip node={n} lang={lang} />}
+
         {groups.length > 0 && (
           <section data-role="main" class="sec ui" aria-labelledby="conn">
             <h2 id="conn">{T.entity.connections}</h2>
@@ -294,7 +303,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
 
         {(citeList.length > 0 || ownSources.length > 0) && (
           <section data-role="main" class="sec ui" aria-labelledby="src">
-            <h2 id="src">{T.entity.sources}</h2>
+            <h2 id="src">{n.class === "job" ? T.jobs.references_title : T.entity.sources}</h2>
             {citeList.length > 0 && (
               <ol style="padding-inline-start:1.4rem;font-size:.92rem">
                 {citeList.map((c, i) => {

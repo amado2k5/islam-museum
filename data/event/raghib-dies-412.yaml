@@ -1,0 +1,27 @@
+id: event/raghib-dies-412
+class: event
+kind: death
+label:
+  ar: "وفاة الراغب الأصفهاني، ربيع الآخر ٤١٢هـ على الأرجح"
+  en: "Death of al-Raghib al-Isfahani, most probably Rabi' II 412"
+  ur: "راغب اصفہانی کی وفات، غالباً ربیع الآخر 412ھ"
+summary:
+  ar: "رجّح بحث محمد عدنان جواهرجي «رأي في تحديد عصر الراغب الأصفهاني» في مجلة مجمع دمشق أنه توفي في ربيع الآخر سنة ٤١٢هـ، وعدّه محقق «كشف الظنون» بحثاً جيداً معتمداً {cite:kashf-zunun-furqan p. 197-198}؛ ويؤيده قول السيوطي في «بغية الوعاة» إنه مات في صدر المئة الخامسة، وهو ما أكده البحث الحديث {cite:encyclopaedia-of-islam-2 vol. 8 p. 389}. أما المتأخرون فاضطربوا فيه: جعله حاجي خليفة من أهل القرن السادس وتبعه على ذلك الزَّركلي في «الأعلام» فأرخ وفاته ١١٠٨م {cite:al-aalam 2/261-262}، وذُكر في حاشية «تاريخ حكماء الإسلام» للبيهقي أنه توفي سنة ٤٠٢هـ، ورجّح أسعد طلس سنة ٤٥٢هـ {cite:kashf-zunun-furqan p. 197-198}."
+  en: "Muhammad Adnan Jawahirji's study 'A view on dating al-Raghib al-Isfahani' in the Damascus Academy journal concluded that he died in Rabi' II 412, a study the editor of Kashf al-Zunun calls sound and dependable {cite:kashf-zunun-furqan p. 197-198}; it agrees with al-Suyuti's statement in the Bughya that he died early in the 5th/11th century, which recent scholarship has confirmed {cite:encyclopaedia-of-islam-2 vol. 8 p. 389}. The late sources waver: Hajji Khalifa placed him among the people of the sixth century, which al-Zirikli's al-A'lam followed in dating his death 1108 CE {cite:al-aalam 2/261-262}, while the margin of al-Bayhaqi's Tarikh hukama' al-Islam gives 402 and As'ad Talas argued for 452 {cite:kashf-zunun-furqan p. 197-198}."
+  ur: "محمد عدنان جواہرجی کی تحقیق «رای فی تحدید عصر الراغب الاصفہانی» (مجلہ مجمع دمشق) کے نتیجے میں ان کی وفات ربیع الآخر 412ھ ہے، اور «کشف الظنون» کے محقق نے اسے اچھا اور معتمد مطالعہ قرار دیا {cite:kashf-zunun-furqan p. 197-198}؛ اسی کی تائید سیوطی کی «بغیۃ الوعاۃ» میں مذکور رائے کرتی ہے کہ وہ پانچویں صدی کے اوائل میں فوت ہوئے، جسے جدید تحقیق نے درست ٹھہرایا {cite:encyclopaedia-of-islam-2 vol. 8 p. 389}۔ متاخر مصادر میں اختلاف ہے: حاجی خلیفہ نے انہیں چھٹی صدی کے اہل میں شمار کیا جسے زرکلی کی «الاعلام» نے وفات 1108ء لکھ کر پیروی کی {cite:al-aalam 2/261-262}، بیہقی کے «تاریخ حکماء الاسلام» کے حاشیے میں 402ھ اور اسعد طلس نے 452ھ تجویز کی {cite:kashf-zunun-furqan p. 197-198}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1021-06~", hijri: "0412-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الآخر سنة ٤١٢هـ على ترجيح جواهرجي {cite:kashf-zunun-furqan p. 197-198}؛ التحويل إلى الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-raghib-al-isfahani, role: "المتوفى", sources: [source/kashf-zunun-furqan] }
+sources: [source/kashf-zunun-furqan, source/encyclopaedia-of-islam-2, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Kashf al-Zunun (Furqan ed.), editor's footnote pp. 197-198 citing Jawahirji's study and the 402/452 variants; EI2 vol. 8 p. 389 (al-Suyuti: died early 5th/11th); al-A'lam 2/261-262 (1108 CE variant)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-raghib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
