@@ -1,28 +1,45 @@
 id: person/abu-dawud-al-sijistani
 class: person
-label: { ar: "أبو داود السجستاني", en: "Abu Dawud al-Sijistani" }
+label: { ar: "أبو داود السجستاني", en: "Abu Dawud al-Sijistani", ur: "ابو داؤد سجستانی" }
 names:
-  - { kind: full, lang: ar, value: "أبو داود سليمان بن الأشعث السجستاني" }
+  - { kind: full, lang: ar, value: "أبو داود سليمان بن الأشعث بن إسحاق بن بشير بن شداد بن عمرو بن عمران الأزدي السجستاني" }
 gender: male
-born: { edtf: "0817~", hijri: "0202", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-abi-dawud] }
-died: { edtf: "0889~", hijri: "0275", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-abi-dawud] }
-roles: [scholar]
+born: { edtf: "0817~", hijri: "0202", calendar: julian, precision: year, status: tradition, derived: true, note: "قال: ولدت سنة اثنتين ومائتين {cite:tarikh-islam-dhahabi p. 358}؛ EI2: 202/817 {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+died: { edtf: "0889-02-19~", hijri: "0275-10-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سادس عشر شوال سنة خمس وسبعين {cite:tarikh-islam-dhahabi p. 362} = شوال ٢٧٥هـ/فبراير ٨٨٩م {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+roles: [muhaddith, scholar]
 traditions: [sunni]
 summary:
-  ar: "محدث سجستان صاحب «سنن أبي داود» أحد الكتب الستة؛ رحل في طلب الحديث حتى أدرك البصرة وبغداد وخراسان والشام ومصر، واقتصر في كتابه على أحاديث الأحكام مرتبة على أبواب الفقه."
-  en: "The muhaddith of Sijistan, author of the Sunan counted among the six books; he travelled for hadith to Basra, Baghdad, Khurasan, al-Sham and Egypt, and restricted his collection to the reports bearing on rulings, arranged by legal chapter."
+  ar: "محدث سجستان صاحب «سنن أبي داود» أحد الكتب الستة؛ رحل في طلب الحديث حتى أدرك البصرة وبغداد وخراسان والشام ومصر، وانتخب من خمسمائة ألف حديث أربعة آلاف وثمانمائة حديث مرتبة على أبواب الفقه {cite:tarikh-islam-dhahabi p. 360}."
+  en: "The muhaddith of Sijistan, author of the Sunan counted among the six books; he travelled for hadith to Basra, Baghdad, Khurasan, al-Sham and Egypt, and selected four thousand eight hundred traditions out of five hundred thousand, arranged by legal chapter {cite:tarikh-islam-dhahabi p. 360}."
+  ur: "سجستان کے محدث اور «سنن ابی داؤد» کے مؤلف جو کتبِ ستہ میں شمار ہوتی ہے؛ حدیث کے طلب میں بصرہ، بغداد، خراسان، شام اور مصر کی مسافرت کی اور پانچ لاکھ حدیثوں میں سے چار ہزار آٹھ سو چن کر ابوابِ فقہ پر مرتب کیں {cite:tarikh-islam-dhahabi p. 360}۔"
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 relations:
-  - { type: authored, target: work/sunan-abi-dawud, sources: [source/sunan-abi-dawud] }
+  - { type: born_in, target: place/sijistan, sources: [source/tarikh-islam-dhahabi], note: "نسبته سجستان إقليم متاخم لبلاد السند {cite:tarikh-islam-dhahabi p. 361}" }
+  - { type: died_in, target: place/basra, sources: [source/encyclopaedia-of-islam-2], note: "استقر بالبصرة وطناً حتى وفاته {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}" }
+  - { type: student_of, target: person/ahmad-ibn-hanbal, sources: [source/tarikh-islam-dhahabi], note: "تفقه بأحمد بن حنبل ولازمه مدة وكان من نجباء أصحابه {cite:tarikh-islam-dhahabi p. 360}" }
+  - { type: student_of, target: person/qutayba-ibn-said, sources: [source/tarikh-islam-dhahabi], note: "سمع من قتيبة بخراسان {cite:tarikh-islam-dhahabi p. 359}" }
+  - { type: student_of, target: person/ishaq-ibn-rahwayh, sources: [source/tarikh-islam-dhahabi], note: "سمع من ابن راهويه بخراسان {cite:tarikh-islam-dhahabi p. 359}" }
+  - { type: student_of, target: person/al-qanabi, sources: [source/tarikh-islam-dhahabi], note: "سمع من القعنبي بمكة أيام الحج سنة عشرين {cite:tarikh-islam-dhahabi p. 358}" }
+  - { type: student_of, target: person/sulayman-ibn-harb, sources: [source/tarikh-islam-dhahabi], note: "سمع من سليمان بن حرب بمكة سنة عشرين {cite:tarikh-islam-dhahabi p. 358}" }
+  - { type: authored, target: work/sunan-abi-dawud, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/birth-abu-dawud-sijistan-202, role: "المولود", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/abu-dawud-iraq-hijaz-hearings-220, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/abu-dawud-kufa-damascus-221, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/abu-dawud-egypt-harran-rihla-230, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/abu-dawud-khurasan-hearings-235, role: "السامع", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/abu-dawud-sunan-ahmad-240, role: "المصنّف", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/abu-dawud-muwaffaq-basra-272, role: "المطلوب إليه", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-abu-dawud-basra-275, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi] }
 external_ids:
   wikidata: Q336558
-sources: [source/sunan-abi-dawud, source/encyclopaedia-of-islam-2]
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/sunan-abi-dawud]
+status: { review: published, completeness: 4, generated_by: "Devin (SWE-2 Medium)" }
 provenance:
   layer: own-research
-  source: "Sunan Abi Dawud source record (author dates 202–275 AH on the edition)"
-  generated_by: "Devin (SWE-2 High)"
-  run: hadith-section-1
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص357-363 (harvest OCR v20 pages 357-363); Encyclopaedia of Islam 2nd ed. vol. 1, art. Abu Dawud al-Sidjistani, printed p. 133"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
