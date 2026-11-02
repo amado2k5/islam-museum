@@ -265,3 +265,4 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-01 | person/al-raghib-al-isfahani | devin | claimed
 2026-11-01 | person/al-raghib-al-isfahani | devin | done — 5 nodes, journey (Ibn 'Abbad's circle ~385 → writing under al-Dabbi's vizierate 385-399 → Mufradat composed ~405 tentative → dies Rabi' II 412/1021 per Jawahirji via Kashf al-Zunun footnote; variants 402/452/1108 CE); 4 new events + person record rewritten + work/mufradat-gharib-al-quran published + 6 stubs; all dated facts from EI2 vol. 8 pp. 389-390 (Rowson) + kashf-zunun pp. 197-198 + al-aalam 2/261-262; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-al-raghib.json
 2026-11-01 | person/al-qushayri-abu-l-qasim | devin | claimed
+2026-11-01 | person/al-qushayri-abu-l-qasim | devin | done — 14 nodes, journey (9 new events + Explorer backdrops adult+kids committed); PR #3169
