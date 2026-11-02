@@ -1920,13 +1920,13 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 ## P. 5,000-list additions (8)
 
 - [ ] Mustafa Kemal Atatürk — 1881–1938 (flagged: religious identity contested — Muslim-born founder of secular Turkey; queued flagged per the founder's keep-flagged precedent, not excluded)
-- [ ] Hayat Sindi — 1967–Living
-- [ ] Sameera Moussa — 1917–1952
-- [ ] Magdi Yacoub — 1935–Living (flagged: Coptic Christian, not a Muslim — queued flagged per precedent, not excluded)
-- [ ] Nawal El Moutawakel — 1962–Living
-- [ ] Abdulrazak Gurnah — 1948–Living
-- [ ] Omar Sharif — 1932–2015 (born Michel Shalhoub; converted to Islam in 1955)
-- [ ] Mo Ibrahim — 1946–Living
+- [x] Hayat Sindi — 1967–Living
+- [x] Sameera Moussa — 1917–1952
+- [x] Magdi Yacoub — 1935–Living (flagged: Coptic Christian, not a Muslim — queued flagged per precedent, not excluded)
+- [x] Nawal El Moutawakel — 1962–Living
+- [x] Abdulrazak Gurnah — 1948–Living
+- [x] Omar Sharif — 1932–2015 (born Michel Shalhoub; converted to Islam in 1955)
+- [x] Mo Ibrahim — 1946–Living
 
 ## Q. 30,000-list additions (0)
 

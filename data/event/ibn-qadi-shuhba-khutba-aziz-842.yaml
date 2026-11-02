@@ -1,0 +1,29 @@
+id: event/ibn-qadi-shuhba-khutba-aziz-842
+class: event
+kind: other
+label:
+  ar: "ابن قاضي شهبة يدعو للعزيز يوسف على منبر الجامع الأموي، ٨٤٢هـ"
+  en: "Ibn Qadi Shuhba invokes al-Aziz Yusuf from the Umayyad Mosque minbar, 842"
+  ur: "ابن قاضی شہبہ نے جامع اموی کے منبر سے عزیز یوسف کے لیے دعا کہی، 842ھ"
+summary:
+  ar: "لما خرج الأمير إينال الحكمي نائب الشام عن الطاعة وأجهر النصيحة بدمشق وأعاد الأمان والاطمئنان والدعاء للسلطان الملك العزيز يوسف بن برسباي، دعا قاضي القضاة تقي الدين أبو بكر ابن قاضي شهبة للعزيز على منبر جامع بني أمية يوم الجمعة، بينما كانت الخطبة بقلعة دمشق للسلطان الملك الظاهر جقمق {cite:suluk-maqrizi p. 1112}. وحقد عليه الملك الظاهر جقمق خطبته تلك في واقعة الجكمي فكان من أسباب عزله فيما بعد {cite:nujum-zahira 15/523}."
+  en: "When the amir Inal al-Hakimi, governor of Damascus, broke into rebellion and openly restored the name of the deposed sultan al-Malik al-Aziz Yusuf ibn Barsbay in prayer and allegiance, the chief judge Taqi al-Din Abu Bakr Ibn Qadi Shuhba invoked al-Aziz from the minbar of the Umayyad Mosque on a Friday — while the khutba in the citadel remained for Sultan al-Zahir Jaqmaq {cite:suluk-maqrizi p. 1112}. Jaqmaq held that sermon against him after the Jakami affair, and it was a cause of his later dismissal {cite:nujum-zahira 15/523}."
+  ur: "جب امیر اینال حکمی، نائب الشام، نے بغاوت کی اور دمشق میں مخلوع سلطان ملک العزیز یوسف بن برسبای کا نام دعا و بیعت میں لوایا، تو قاضی القضاۃ تقی الدین ابو بکر ابن قاضی شہبہ نے جمعہ کے دن جامع بنی امیہ کے منبر سے عزیز کے لیے دعا کی — جب کہ قلعہ دمشق میں خطبہ سلطان ملک الظاہر جقمق کے نام تھا {cite:suluk-maqrizi p. 1112}۔ جقمق نے جکمی کے اس واقعے کی خطبہ اس پر حقد رکھی اور یہ بعد کے عزل کا سبب بنا {cite:nujum-zahira 15/523}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1439-02~", hijri: "0842-09", calendar: julian, precision: month, status: historical, derived: true, note: "ورد خبرها في رمضان ٨٤٢ أيام فتنة إينال الجكمي {cite:suluk-maqrizi p. 1112-1113}؛ التحويل مشتق.", sources: [source/suluk-maqrizi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibn-qadi-shuhba, role: "قاضي القضاة الذي دعا للعزيز على المنبر", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/al-aziz-yusuf-ibn-barsbay, role: "السلطان المعزول الذي أعيد اسمه", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/inal-al-jakami, role: "نائب الشام الخارج عن الطاعة", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/jaqmaq-al-zahiri, role: "السلطان الظاهر الذي حقد عليه", sources: [source/suluk-maqrizi, source/nujum-zahira] }
+sources: [source/suluk-maqrizi, source/nujum-zahira]
+provenance:
+  layer: own-research
+  source: "السلوك للمقريزي (ط دار الكتب 1973، ج٤ ق٣) ص 1112-1113؛ النجوم الزاهرة 15/523، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
