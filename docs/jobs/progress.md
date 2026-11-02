@@ -29,3 +29,10 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the modern fate of the office (`status_today: transformed`) rests only on the entry's account of the Ottoman period; modern courts need their own sources.
   - Next step: the bootstrap for the ten (chunks of about 500 files, with the agreement check added first), and the remaining `job/` entries of the first ten in the same way.
 
+- **1 November 2026 — Phase 1 step 3: the site, the contrast fix and the holders.** The Job Browser front-page card, the `/jobs/` index and the job page sections merged in PR #3098 (`jobs/site`). That PR's last build failed the axe audit on `/today/`, and it was merged without a green build.
+  - The audit failure came from the wings line on each hall card: `opacity: .75` put the muted text at 3.57:1 in light mode, below 4.5:1. It predates the Job Browser. PR #3157 removes the opacity (6.15:1).
+  - The holder bootstrap merged in four PRs (#3161, #3164, #3165, #3166): occupation entries on 1,813 person records, each validated (0 errors) and cite-checked (0 fail).
+  - FLAG: 12 records were left out of the bootstrap because their provenance block does not pass cite-check (source and generated_by missing). They predate the bootstrap and were not rejected on their sources: `person/abu-mahmud-khujandi`, `person/abu-sahl-al-quhi`, `person/al-as-ibn-wail`, `person/ali-ibn-al-abbas-al-majusi`, `person/ali-ibn-ridwan`, `person/dhimad-al-azdi`, `person/habash-al-hasib-al-marwazi`, `person/ibn-abi-usaibia`, `person/ibrahim-ibn-sinan`, `person/mimar-sinan`, `person/sallam-ibn-abi-al-huqayq`, `person/ubada-ibn-al-samit`. The founder decides how to repair them.
+  - FLAG: the `Build islam.museum` workflow on `main` has been failing with a "workflow file issue" since about 22:56 UTC on 1 November. It is not diagnosed; the workflow files are the founder's. No deploy should start until a build on `main` is green.
+  - FLAG: the agreement check (`roles:` against `occupations:`) is still not in the validator.
+  - Next step: the founder repairs the 12 records, the founder deploys from a green `main`, and Phase 2 begins with the first wave.
