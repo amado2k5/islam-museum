@@ -41,3 +41,9 @@ external_ids: { wikidata: "Q19899315" }
 sources: [source/wikipedia-shamsheer-vayalil-en, source/wikipedia-shamsheer-vayalil-ur, source/wikidata-shamsheer-vayalil]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1379760604 of 11 October 2026), the Urdu Wikipedia stub (revision 11817239 of 23 August 2026) and Wikidata Q19899315 (revision 2514096736 of 5 July 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree) before building - no record existed. FAMILY-TIE CORRECTION - the English article and its Forbes India citation state that Vayalil married Shabeena, the eldest daughter of M. A. Yusuff Ali (Lulu Group founder, whose record person/ma-yusuff-ali exists on main); no text read makes him Azad Moopen's son-in-law, and the wave brief's contrary premise does not survive the article. No relation edge is written - a father-in-law is not a standard relation predicate and his wife has no record - so the tie is carried in prose only. Faith - no text names a religion or school for Vayalil himself, and the AMU honour and marriage background settle nothing under the founder doctrine, so unknown. No place entity exists on main for Kozhikode or Abu Dhabi, so no birthplace is recorded.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-172a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-shamsheer-vayalil-en, source/wikipedia-shamsheer-vayalil-ur, source/wikidata-shamsheer-vayalil]
