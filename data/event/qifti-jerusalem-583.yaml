@@ -1,0 +1,28 @@
+id: event/qifti-jerusalem-583
+class: event
+kind: other
+label:
+  ar: "القفطي ينتقل إلى القدس مع أبيه، ٥٨٣هـ"
+  en: "Al-Qifti moves to Jerusalem with his father, 583/1187"
+  ur: "قفطی والد کے ہمراہ قدس منتقل ہوئے، 583ھ/1187ء"
+summary:
+  ar: "تلقى القفطي تعليمه الأول بالقاهرة ثم انتقل سنة ثلاث وثمانين وخمسمائة إلى القدس حيث عُيِّن أبوه نائباً للقاضي الفاضل، كاتب صلاح الدين الشهير ومستشاره؛ وبقي طالباً بها سنوات طويلة يجمع مادة كتبه اللاحقة {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  en: "After his early education in Cairo, al-Qifti went in 583/1187 to Jerusalem, where his father had been appointed deputy to the Qadi al-Fadil, Salah al-Din's famous chancellor and adviser; he spent many years there as a student, already gathering the material for his later works {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  ur: "قفطی نے ابتدائی تعلیم قاہرہ میں حاصل کی، پھر 583ھ/1187ء کو قدس گئے جہاں ان کے والد صلاح الدین کے نامور کاتب و مشیر قاضی فاضل کے نائب مقرر ہوئے؛ وہ وہاں برسوں طالب علم رہے اور اپنی آئندہ تصانیف کی مادہ جمع کرتے رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1187", hijri: "0583", calendar: julian, precision: year, status: tradition, derived: true, note: "583/1187 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/jerusalem, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "الطالب المنتقل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qadi-al-fadil, role: "كاتب صلاح الدين الذي ناب عنه والد القفطي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
