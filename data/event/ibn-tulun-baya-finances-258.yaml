@@ -1,0 +1,28 @@
+id: event/ibn-tulun-baya-finances-258
+class: event
+kind: declaration
+label:
+  ar: "بيعة جند ابن طولون لنفسه وولايته ماليات مصر والثغور، ٢٥٨هـ/٨٧١-٨٧٢م"
+  en: "Ibn Tulun's troops swear personal allegiance; he takes Egypt's and the Marches' finances, 258/871-872"
+  ur: "ابن طولون کے لشکر کی ذاتی بیعت اور مصر و سرحدوں کے مالیات کی ولایت، 258ھ/871-872ء"
+summary:
+  ar: "في سنة ثمان وخمسين ومائتين عقد ابن طولون مجلساً بايعت فيه قواته شخصه — الجند والشاكرية والموالي — بيعةً لنفسه {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}. وفيها خلف جعفر بن المعتمد — المفوّض إلى الله لاحقاً — يرجوخ في إقطاع مصر، وكان المتوكّل عليه الفعلي الموفق، فصار الخليفة يطلب من ابن طولون نفسه أموال مصر سراً عن أخيه، وأسند إليه الإدارة المالية لمصر وللثغور الشامية {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}."
+  en: "In 258/871 Ibn Tulun held a ceremony in which his forces — the regular army, the Shakiriyya and the mawali — swore personal allegiance to himself (al-bay'a li-nafsihi) {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}. The same year Ja'far ibn al-Mu'tamid (later al-Mufawwad ila Allah) succeeded Yarjukh as apanagist of Egypt, with al-Muwaffaq the real power; the caliph now addressed his requests for Egyptian contributions to Ibn Tulun himself, keeping the sums secret from his brother, and entrusted him with the financial administration of Egypt and the Syrian Marches {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}."
+  ur: "258ھ/871ء میں ابن طولون نے ایک تقریب منعقد کی جس میں اس کی افواج — باقاعدہ لشکر، شاکریہ اور موالی — نے اس کی ذات کے لیے بیعت کی {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}۔ اسی سال جعفر بن معتمد (بعد میں مفوّض الی اللہ) یرجوخ کا جانشین بنا اور خلیفہ نے مصر کی مداخل کے مطالبے خود ابن طولون سے کیے، رقمیں اپنے بھائی سے پوشیدہ رکھتے ہوئے، اور مصر اور شامی سرحدوں کا مالی نظم اسے سونپ دیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0871~", hijri: "0258", calendar: julian, precision: year, status: tradition, derived: true, note: "مجلس البيعة لنفسه سنة ٢٥٨هـ/٨٧١م {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}؛ وإقطاع المفوّض سنة ٢٥٨هـ/٨٧٢م {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/al-fustat, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "المُبايَع له", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mufawwad, role: "صاحب الإقطاع الجديد", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 p. 666 art. TULUNIDS (citing al-Ya'qubi ii, 624); vol. 1 p. 300 art. AHMAD B. TULUN (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

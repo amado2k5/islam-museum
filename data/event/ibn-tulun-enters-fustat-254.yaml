@@ -1,0 +1,28 @@
+id: event/ibn-tulun-enters-fustat-254
+class: event
+kind: other
+label:
+  ar: "دخول أحمد بن طولون الفسطاط نائباً عن باكبك، ٢٥٤هـ/٨٦٨م"
+  en: "Ahmad ibn Tulun enters Fustat as Bayakbak's lieutenant, 254/868"
+  ur: "احمد بن طولون کا بائکبک کے نائب کی حیثیت سے فسطاط میں داخلہ، 254ھ/868ء"
+summary:
+  ar: "في سنة أربع وخمسين ومائتين جعل المعتز مصر إقطاعاً للأمير التركي باكبك الذي كان قد تزوج أرملة طولون والد أحمد، فعيّن أحمد بن طولون نائباً عنه فدخل الفسطات في ثلاث وعشرين ليلة من رمضان سنة أربع وخمسين — الخامس عشر من أيلول سنة ٨٦٨م — فكان أول وال مسلم لمصر يضم إليها الشام لاحقاً {cite:encyclopaedia-of-islam-2 vol. 1 p. 300} {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}."
+  en: "In 254/868 the caliph al-Mu'tazz granted Egypt as an apanage to the Turkish general Bayakbak, who had married the widow of Tulun, Ahmad's father. Ahmad was appointed his stepfather's lieutenant and entered Fustat on 23 Ramadan 254/15 September 868 — the first Muslim governor of Egypt who would go on to annex Syria {cite:encyclopaedia-of-islam-2 vol. 1 p. 300} {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}."
+  ur: "254ھ/868ء میں خلیفہ معتز نے مصر ترک سردار بائکبک کو اقطاع میں دیا، جس نے احمد کے والد طولون کی بیوہ سے شادی کی تھی۔ احمد بن طولون اپنے سوتیلے والد کا نائب مقرر ہوا اور 23 رمضان 254ھ/15 ستمبر 868ء کو فسطاط میں داخل ہوا — وہ پہلا مسلم والی تھا جس نے بعد میں شام کو بھی مصر سے ملا لیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 300} {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0868-09-15~", hijri: "0254-09-23", calendar: julian, precision: day, status: tradition, derived: true, note: "دخل الفسطاط في ٢٣ رمضان ٢٥٤هـ/١٥ أيلول ٨٦٨م {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/al-fustat, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "النائب الداخل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/bayakbak, role: "صاحب الإقطاع المُنَوَّب عنه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 pp. 300-301 art. AHMAD B. TULUN (Z. Hassan); vol. 10 p. 666 art. TULUNIDS (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
