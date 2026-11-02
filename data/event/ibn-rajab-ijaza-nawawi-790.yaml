@@ -1,0 +1,28 @@
+id: event/ibn-rajab-ijaza-nawawi-790
+class: event
+kind: other
+label:
+  ar: "إجازة سعد الدين النووي لابن رجب، قبل ٨٠٥هـ"
+  en: "Sa'd al-Din al-Nawawi's ijaza for Ibn Rajab, before 805"
+  ur: "سعد الدین نووی کی طرف سے ابن رجب کو اجازت، 805ھ سے پہلے"
+summary:
+  ar: "أجاز لابن رجب المحدث الحنبلي سعد الدين النووي (٧٢٩–٨٠٥هـ)، فيكون ذلك قبل وفاته سنة ٨٠٥هـ؛ وهي من إجازاته المذكورة في ترجمته {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}."
+  en: "The Hanbali traditionist Sa'd al-Din al-Nawawi (729-805) gave Ibn Rajab an ijaza, which must have been before al-Nawawi's death in 805; it is named among Ibn Rajab's recorded ijazas {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}."
+  ur: "حنبلی محدث سعد الدین نووی (729-805ھ) نے ابن رجب کو اجازت دی، جو ان کی وفات 805ھ سے پہلے ہوئی؛ یہ ان کی محفوظ اجازتوں میں شمار ہوتی ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1390~", hijri: "0790~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل وفاة سعد الدين النووي سنة ٨٠٥هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 933}؛ تاريخ تقريبي." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-rajab, role: "المجاز", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/sad-al-din-al-nawawi, role: "الشيخ المجيز", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 p. 933 (Makdisi): ijaza from Sa'd al-Din al-Nawawi (729-805)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
