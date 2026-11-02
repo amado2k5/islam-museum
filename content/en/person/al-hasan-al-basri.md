@@ -54,3 +54,6 @@ He quotes al-Hasan al-Basri's saying that the believers possess a blessing which
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh relates that al-Hasan al-Basri visited a man who had lost his son and found him calm and composed, and said: the wise man does at once what the ignorant does after ten days; that is, the ignorant calms down after some days, while the wise takes the matter with patience from the start (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30}
+
+## In Abd al-Rahman Mansour's programme 'Ahalina'
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] quotes al-Hasan al-Basri in his programme [[work/ahaleena|'Ahalina']] as saying that shaking hands increases affection, that is, love; he mentions it in the episode on "the keys to hearts", after the report of Anas that the Prophet never withdrew his hand from someone shaking it until the other man withdrew his. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}

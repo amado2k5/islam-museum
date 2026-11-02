@@ -65,3 +65,6 @@ translators: []
 
 ## في دروس أحمد فريد «القارب»
 في [[work/the-boat-ahmad-farid|«القارب»]] يجعل [[person/ahmad-farid|أحمد فريد]] اثنتي عشرة ركعة في اليوم والليلة سوى المكتوبة أول أمثلة نوافل الصلاة، من حديث [[person/umm-habiba-bint-abi-sufyan|أم حبيبة]] في أن من صلاهن بُني له بيت في الجنة. {cite:assabile-ahmad-farid the-boat/ep10 00:01:30} {cite:assabile-ahmad-farid the-boat/ep10 00:02:00} ويضعها بعد استكمال الفرائض، في الأعمال التي يتقرب بها العبد إلى الله حتى يحبه. {cite:assabile-ahmad-farid the-boat/ep10 00:01:00}
+
+## في برنامج عبد الرحمن منصور «أهالينا»
+يوصي [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] في برنامجه [[work/ahaleena|«أهالينا»]] بأن يُدرَّج الولد في مرحلة الطفولة المتأخرة إلى النوافل بعد أن يثبت على الفرائض، ويذكر منها اثنتي عشرة ركعة مؤكدة في اليوم، ويقول إنه لا بد فيها من التدرج كما تدرّج الولد في الفرائض. {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:13:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:13:30} ويجعل من المكافأة في الطفولة المتوسطة أن يُثنى على الولد إذا أحب صلاة النوافل. {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:12:30}

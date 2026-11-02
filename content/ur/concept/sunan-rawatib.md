@@ -33,3 +33,6 @@ translators: []
 
 ## احمد فرید کے دروس «القارب» میں
 [[work/the-boat-ahmad-farid|«القارب»]] میں [[person/ahmad-farid|احمد فرید]] فرض نمازوں کے علاوہ دن رات کی بارہ رکعتوں کو نفل نماز کی پہلی مثال کے طور پر پیش کرتے ہیں، [[person/umm-habiba-bint-abi-sufyan|ام حبیبہ]] کی اس حدیث سے کہ جو انہیں پڑھے اس کے لیے جنت میں گھر بنایا جاتا ہے۔ {cite:assabile-ahmad-farid the-boat/ep10 00:01:30} {cite:assabile-ahmad-farid the-boat/ep10 00:02:00} وہ انہیں فرائض کی تکمیل کے بعد ان اعمال میں رکھتے ہیں جن سے بندہ اللہ کا قرب حاصل کرتا ہے یہاں تک کہ اللہ اس سے محبت کرنے لگے۔ {cite:assabile-ahmad-farid the-boat/ep10 00:01:00}
+
+## عبد الرحمٰن منصور کے پروگرام «اہالینا» میں
+[[person/abd-al-rahman-mansour|عبد الرحمٰن منصور]] اپنے پروگرام [[work/ahaleena|«اہالینا»]] میں مشورہ دیتے ہیں کہ آخری بچپن میں بچہ فرائض پر جم جائے تو اسے بتدریج نفل نمازوں کی طرف لایا جائے، اور ان میں روزانہ بارہ مؤکدہ رکعتوں کا ذکر کرتے ہیں، اور کہتے ہیں کہ یہ بھی فرائض کی طرح قدم بہ قدم ہو۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:13:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:13:30} درمیانی بچپن میں وہ اس بچے کی تعریف کو جو نفل نمازوں سے محبت کرے، ان انعامات میں گنتے ہیں جو والدین دے سکتے ہیں۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:12:30}
