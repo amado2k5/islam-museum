@@ -34,3 +34,9 @@ external_ids: { wikidata: "Q153284" }
 sources: [source/wikipedia-ahmed-bin-saeed-al-maktoum-en, source/wikipedia-ahmed-bin-saeed-al-maktoum-ar, source/wikidata-ahmed-bin-saeed-al-maktoum]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1380755014 of 17 October 2026), the Arabic Wikipedia article (revision 75070378 of 5 June 2026) and Wikidata Q153284 (revision 2494055052 of 18 May 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no urwiki sitelink), so no Urdu source is registered. RELATIONS - none written: his father Saeed bin Maktoum bin Hasher Al Maktoum (Q713801) has no person record on main, so no child_of edge; the sibling edge to his elder half-brother Rashid bin Saeed Al Maktoum (record exists on main) belongs under the one-write rule in the elder's record, which is outside this batch — flagged for the coordinator. His nephew Mohammed bin Rashid Al Maktoum has a record, but uncle-nephew is not written as an edge here. Faith - no attestation anywhere, so unknown on the absence pattern.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-174a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-ahmed-bin-saeed-al-maktoum-en, source/wikipedia-ahmed-bin-saeed-al-maktoum-ar, source/wikidata-ahmed-bin-saeed-al-maktoum]

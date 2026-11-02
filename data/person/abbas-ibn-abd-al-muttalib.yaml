@@ -53,3 +53,9 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch11"
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]

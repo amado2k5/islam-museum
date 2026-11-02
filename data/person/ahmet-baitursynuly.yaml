@@ -57,3 +57,9 @@ provenance:
   source: "English, Russian, Kazakh and Arabic Wikipedia articles on Ahmet Baitursynuly and Wikidata item Q1047477, each read at a recorded revision; existence checked both ways before building — name fragments (baitursyn, baytursyn) and slug variants across data/person found no person file (the fragments occur only as mentions inside person/alikhan-bukeikhanov), and Q1047477, grounded through the English article's page properties and confirmed through the Russian, Kazakh and Arabic articles', matched no existing record. An allied_with edge to person/alikhan-bukeikhanov is written here for their attested co-founding of the newspaper Qazaq in 1913 and joint Alash leadership; the pair edges involving Mirjaqip Dulatuli are written in Dulatuli's record so each pair is written once. No student_of edge to person/ybrai-altynsarin is written: the English article attests only that Altynsarin founded the Orenburg teachers' school Baitursynuly attended, not personal tuition. No born_in or died_in edge is written: no place entity exists for Aqkol or Alma-Ata. His father Baitursyn Shoshakuly has no record, so no child_of edge is written."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-102
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-baitursynuly-en, source/wikipedia-baitursynuly-ru, source/wikipedia-baitursynuly-kk, source/wikipedia-baitursynuly-ar, source/wikidata-baitursynuly]
