@@ -16,3 +16,6 @@ The editor explains the phrase "as though you see Him" as presence of mind, empt
 
 ## What is not covered here
 Ihsan is connected to Sufism and spirituality in Islamic history; those sayings will be added from their sources in a later batch, and nothing not present in the hadith is attributed to it here.
+
+## In Ahmad Farid's lessons 'The Boat'
+In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] announces three degrees of worship, islam, iman and ihsan. {cite:assabile-ahmad-farid the-boat/ep02 00:03:00} Later he recalls the hadith in which the Prophet was asked about the three and defined ihsan as worshipping God as though you see Him, for if you do not see Him He sees you; this, in his words, is the degree of piety, the highest degree. {cite:assabile-ahmad-farid the-boat/ep15 00:01:00} {cite:assabile-ahmad-farid the-boat/ep15 00:01:30} Because the people of ihsan worshipped as if beholding God, he says, their reward is the fullest share of paradise and the [[concept/ruyat-allah|vision of God]], which he takes to be the 'more' promised to those who do good, and he holds that the reports of the vision are mass-transmitted. {cite:assabile-ahmad-farid the-boat/ep15 00:01:30} {cite:assabile-ahmad-farid the-boat/ep15 00:02:00}

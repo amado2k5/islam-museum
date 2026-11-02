@@ -77,6 +77,11 @@ translators: []
 - **other view: not yet sourced**: لم يُنسب بعد.
 :::
 
+## في دروس أحمد فريد «القارب»
+يخصّص [[person/ahmad-farid|أحمد فريد]] الدروس الأربعة عشر الأولى من دروسه القصيرة [[work/the-boat-ahmad-farid|«القارب»]] للإيمان. فيصفه بأنه نعمة عظيمة امتنّ الله بها على المؤمنين، وشرط لانتفاع العبد بأعماله الصالحة: فمن برّ والديه أو تصدّق وهو فاقد للإيمان لا ينتفع بذلك يوم القيامة، ومن فقد الإيمان حبط عمله كله. {cite:assabile-ahmad-farid the-boat/ep01 00:01:30} {cite:assabile-ahmad-farid the-boat/ep01 00:03:30} {cite:assabile-ahmad-farid the-boat/ep01 00:04:00} ويدخل العبد الإسلام بالشهادتين ثم يرتفع بالعمل الصالح إلى رتبة الإيمان، ويفهم الآية التي أخبرت الأعراب أن الإيمان لم يدخل قلوبهم بعد بأنها تترك رجاء دخوله. {cite:assabile-ahmad-farid the-boat/ep02 00:02:00} {cite:assabile-ahmad-farid the-boat/ep02 00:02:30} {cite:assabile-ahmad-farid the-boat/ep02 00:03:00}
+
+وصورته المركزية شجرة المثل القرآني للكلمة الطيبة: جذورها أصول الإيمان الستة، وساقها الإخلاص والمتابعة، وفروعها الأعمال الصالحة الصاعدة إلى الله، وثمارها تينع في القلب، فلا يذوق حلاوة الإيمان إلا من أثمرت في قلبه. {cite:assabile-ahmad-farid the-boat/ep03 00:01:30} {cite:assabile-ahmad-farid the-boat/ep03 00:02:00} {cite:assabile-ahmad-farid the-boat/ep03 00:02:30} {cite:assabile-ahmad-farid the-boat/ep03 00:03:00} {cite:assabile-ahmad-farid the-boat/ep03 00:04:00} والإيمان عنده ملاذ المؤمنين أيضًا: في الخوف وفي النعمة وفي البلاء وبعد الطاعة وبعد المعصية. {cite:assabile-ahmad-farid the-boat/ep05 00:01:30} {cite:assabile-ahmad-farid the-boat/ep05 00:02:00} ومن أسباب نماء الشجرة التي يذكرها: معرفة الله، وتدبر القرآن، والنوافل، ومجالسة الصالحين، ومعرفة النبي، ومعرفة محاسن الإسلام، والعيش في أجواء الإيمان كما يزدهر شجر الصيف في الصيف ويذبل في الشتاء، والتفكر في المخلوقات. {cite:assabile-ahmad-farid the-boat/ep09 00:00:30} {cite:assabile-ahmad-farid the-boat/ep10 00:00:30} {cite:assabile-ahmad-farid the-boat/ep10 00:03:30} {cite:assabile-ahmad-farid the-boat/ep11 00:01:00} {cite:assabile-ahmad-farid the-boat/ep13 00:00:30} {cite:assabile-ahmad-farid the-boat/ep14 00:00:30} {cite:assabile-ahmad-farid the-boat/ep14 00:01:00} {cite:assabile-ahmad-farid the-boat/ep14 00:01:30}
+
 ## للبراعم
 الإيمان في الإسلام أن يصدق المؤمن بالله وبملائكته وكتبه ورسله وباليوم الآخر والقدر. سأل جبريل النبي عن الإيمان فأجابه بهذه الأركان، وهي أساس كل ما يعمله المسلم في حياته.
 
