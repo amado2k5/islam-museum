@@ -1,0 +1,42 @@
+id: person/elif-shafak
+class: person
+label: { ar: "ألف شفق", en: "Elif Shafak", ur: "ایلِف شفق" }
+names:
+  - { value: "Elif Shafak", kind: full }
+  - { value: "Elif Şafak", kind: latinized }
+  - { value: "Elif Bilgin", kind: alternate }
+gender: female
+summary:
+  ar: "ألف شفق (وُلدت في ٢٥ تشرين الأول ١٩٧١ في ستراسبورغ) روائية تركية بريطانية وعالمة سياسة، من أشهر رواياتها «قواعد العشق الأربعون» (٢٠٠٩) التي تدور حول جلال الدين الرومي وشمس التبريزي، و«لقيطة إسطنبول» و«ثلاث بنات لحواء» و«ثمة أنهار في السماء»؛ حوكمت في تركيا سنة ٢٠٠٦ بتهمة إهانة الهوية التركية وبُرّئت، وتعيش في لندن منذ ٢٠١٣، وتولت رئاسة الجمعية الملكية للأدب سنة ٢٠٢٥."
+  en: "Elif Shafak (born 25 October 1971 in Strasbourg) is a Turkish-British novelist and political scientist, best known for The Forty Rules of Love (2009), a novel of Rumi and Shams of Tabriz, and for The Bastard of Istanbul, Three Daughters of Eve and There Are Rivers in the Sky; prosecuted in Turkey in 2006 for 'insulting Turkishness' and acquitted, she has lived in London since 2013 and became president of the Royal Society of Literature in 2025."
+  ur: "ایلِف شفق (پیدائش 25 اکتوبر 1971، اسٹراسبرگ) ترک نژاد برطانوی ناول نگار و سیاسیات دان ہیں؛ ان کے معروف ناولوں میں «قواعد العشق الأربعون»، «لقیطۂ استنبول» اور «حوّا کی تین بیٹیاں» شامل ہیں؛ 2006 میں ترکی میں مقدمہ چل کر بری ہوئیں، 2013 سے لندن میں مقیم ہیں، اور 2025 میں رائل سوسائٹی آف لٹریچر کی صدر بنیں۔"
+roles: [writer, teacher]
+wings: [people, living]
+regions: [anatolia-balkans, andalus-europe]
+born:
+  edtf: "1971-10-25"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 25 October 1971 in Strasbourg, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1391 AH."
+  sources: [source/wikipedia-elif-shafak-en, source/wikipedia-elif-shafak-ar, source/wikidata-elif-shafak]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read attests a religious affiliation for Elif Shafak herself, and her Wikidata item
+      carries no religion statement. Sufism is a central theme of her fiction, above all The Forty
+      Rules of Love, but a novelist's subject matter is her material, not her attested
+      affiliation; no text read names an initiation, a practice in a living Sufi tradition, or a
+      school for Shafak herself. The value is therefore unknown.
+    sources: [source/wikipedia-elif-shafak-en, source/wikipedia-elif-shafak-ar, source/wikidata-elif-shafak]
+external_ids: { wikidata: Q270739 }
+sources: [source/wikipedia-elif-shafak-en, source/wikipedia-elif-shafak-ar, source/wikidata-elif-shafak]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Elif Shafak' revision 1382621438 of 29 October 2026; Arabic Wikipedia article 'ألف شفق' revision 74506274 of 5 May 2026; Wikidata item Q270739 revision 2557865899 of 17 October 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query, and the item carries no religion statement at all). Strasbourg has no place record on main, so no born_in edge is written. No record or draft stub for her existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 1971 birth year is correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }
