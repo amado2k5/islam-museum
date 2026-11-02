@@ -1,0 +1,29 @@
+id: event/shirazi-composes-manuals-452
+class: event
+kind: publication
+label:
+  ar: "الشيرازي يصنف اللمع والتنبيه وطبقات الفقهاء، نحو ٤٥٠-٤٥٣هـ"
+  en: "Al-Shirazi composes al-Luma', al-Tanbih and Tabaqat al-fuqaha, c. 450-453/1058-1061"
+  ur: "شیرازی کی تصانیف: اللمع، التنبیہ اور طبقات الفقہاء، تقریباً 450-453ھ/1058-1061ء"
+summary:
+  ar: "نحو سنة ٤٥٠هـ صنّف الشيرازي مختصره في أصول الفقه «اللمع في أصول الفقه»، ثم كتب بين ٤٥٢ و٤٥٣هـ متن «التنبيه في الفقه» الذي جاءت عليه أكثر من سبعين شرحاً، وفي نحو ٤٥٢هـ صنّف «طبقات الفقهاء»، من أقدم ما بقي من كتب التراجم الفقهية، يجمع فيه فقهاء المذاهب المجتهدين قبل أن تنحصر الطبقات في مذهب واحد {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  en: "About 450/1058 al-Shirazi composed his manual of usul al-fiqh, al-Luma'; between 452/1060 and 453/1061 he wrote the fiqh epitome al-Tanbih, which drew more than seventy commentaries; and about 452/1060 he composed Tabaqat al-fuqaha, one of the oldest surviving works of its genre, recording the mujtahid jurists of all schools before tabaqat literature narrowed to a single madhhab {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  ur: "تقریباً 450ھ/1058ء میں شیرازی نے اصولِ فقہ کا مختصر «اللمع» تصنیف کیا؛ 452-453ھ/1060-1061ء میں فقہ کا متن «التنبیہ» لکھا جس پر ستر سے زائد شروحات لکھی گئیں؛ اور تقریباً 452ھ/1060ء میں «طبقات الفقہاء» تصنیف کی جو اپنے نوع کی قدیم ترین باقی کتابوں میں ہے اور تمام مذاہب کے مجتہد فقہاء کو یکجا کرتی ہے {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [scripture-and-its-sciences]
+date:
+  start: { edtf: "1058~", hijri: "0450", calendar: julian, precision: year, status: tradition, derived: true, note: "اللمع نحو ٤٥٠هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}؛ التحويل مشتق." }
+  end: { edtf: "1061~", hijri: "0453", precision: year, status: tradition, derived: true, note: "التنبيه ٤٥٢-٤٥٣هـ والطبقات نحو ٤٥٢هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 art. AL-SHIRAZI printed p. 495 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-shirazi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

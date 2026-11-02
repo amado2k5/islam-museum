@@ -1,0 +1,29 @@
+id: event/al-sakhawi-sham-rihla-873
+class: event
+kind: other
+label:
+  ar: "رحلة السخاوي الحلبية الدمشقية، نحو ٨٧٣هـ"
+  en: "Al-Sakhawi's Syrian rihla: Aleppo, Damascus, Jerusalem, c. 873"
+  ur: "سخاوی کا شامی سفر: حلب، دمشق، بیت المقدس، تقریباً 873ھ"
+summary:
+  ar: "بعد رجوعه من حجته الأولى ورحلته الإسكندرية ارتحل السخاوي إلى حلب، فسمع في طريقه بسرياقوس والخانقاه وبلبيس وقطيا وغزة والمجدل والرملة وبيت المقدس والخليل ونابلس ودمشق وصالحيتها وحمص وحماة وحلب وطرابلس، فأخذ عما يقارب مائة شيخ؛ واستمد في بيت المقدس من أجزاء التقي القلقشندي، وفي حلب من حافظها أبي ذر الهلي الذي أعاره وطاف معه على الشيوخ حتى أُحضر سنن الدارقطني من دمشق فأخذه بها {cite:daw-lami-jil-1992 8/8-9}. ودخل في هذه الرحلة حلب ودمشق وبيت المقدس كما يذكر ابن العماد {cite:shadharat-dhahab p. 431}."
+  en: "After returning from his first hajj and the Alexandrian rihla, al-Sakhawi set out for Aleppo, hearing on the way at Siryagus, the Khanqah, Bilbays, Qatya, Gaza, Majdal, Ramla, Jerusalem, Hebron, Nablus, Damascus and its Salihiyya, Homs, Hama, Aleppo and Tripoli — from near a hundred teachers. In Jerusalem he drew on Taqi al-Din al-Qalqashandi's notebooks; in Aleppo its hafiz Abu Dharr al-Hili lent him books and walked him round the remaining shaykhs until the Sunan of al-Daraqutni was fetched from Damascus for him to take {cite:daw-lami-jil-1992 8/8-9}. Ibn al-Imad too records that he entered Aleppo, Damascus and Jerusalem {cite:shadharat-dhahab p. 431}."
+  ur: "پہلے حج اور سمندری رحلہ سے واپسی کے بعد سخاوی حلب روانہ ہوا اور راستے میں سریاقوس، خانقاہ، بلبیس، قطیہ، غزہ، مجدل، رملہ، بیت المقدس، خلیل، نابلس، دمشق اور اس کی صالحیہ، حمص، حمات، حلب اور طرابلس میں تقریباً سو مشائخ سے سماعت کی۔ بیت المقدس میں تقی الدین قلقشندی کے اجزاء سے استفادہ کیا اور حلب میں اس کے حافظ ابوذر ہلی نے کتابیں عطا کیں اور اسے باقی مشائخ پر لے پھرے یہاں تک کہ سنن الدارقطنی دمشق سے منگوائی گئی اور اس نے اسے وہیں اخذ کیا {cite:daw-lami-jil-1992 8/8-9}۔ ابن عماد بھی لکھتا ہے کہ وہ حلب، دمشق اور بیت المقدس داخل ہوا {cite:shadharat-dhahab p. 431}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1469~", hijri: "0873~", calendar: julian, precision: year, status: tradition, derived: true, note: "بين حجة ٨٧٠ ورحلة الإسكندرية من جهة وحجة ٨٧٥ من جهة أخرى بحسب ترتيب ترجمته لنفسه {cite:daw-lami-jil-1992 8/8-9, 14}؛ التقدير مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/daw-lami-jil-1992] }
+  - { type: occurred_at, target: place/damascus, sources: [source/daw-lami-jil-1992] }
+  - { type: occurred_at, target: place/jerusalem, sources: [source/daw-lami-jil-1992] }
+  - { type: had_participant, target: person/al-sakhawi, role: "الرحّالة طالب الحديث", sources: [source/daw-lami-jil-1992] }
+sources: [source/daw-lami-jil-1992, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "الضوء اللامع ج٨ ص ٨-٩ (archive.org Dawou_Lami part 8)؛ شذرات الذهب ج٨ ص ١٥ (الطبعة الممسوحة 431)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-sakhawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
