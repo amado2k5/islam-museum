@@ -51,3 +51,8 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 
 - `work/bujayr-ibn-bujra-verses`, `work/al-dahhak-ibn-khalifa-verses`, `work/hassan-poem-enumerating-the-maghazi`, `work/kaab-ibn-malik-hunayn`, `work/abbas-ibn-mirdas-hunayn`: no first line in the work file and the trigram search did not land on the poem; still to locate by reading the relevant narrative pages (Hunayn around printed pp. 855-870, Tabuk around 894-900).
 - Omitted lines: in Said ibn al-As's pair only the first verse was read with confidence; Abu Ji'al's lines 4-6 and Musayk's lines 1, 5-6 were skipped for legibility or uncertain sense.
+- PR 7: Al-Dahhak ibn Khalifa, Bujayr ibn Bujra, Abbas ibn Mirdas on Hunayn (p. 859), Ka'b ibn Malik on the march to Ta'if (p. 870) (23).
+  - Attribution note: the work records the openings `تقضى أمور وتأتي أمور` (Abbas) and `وقائلةٍ ألا تَبكِي أخاها` (Ka'b); the Wüstenfeld text has Abbas's Hunayn ode beginning `يا خاتم النبآء` (p. 859, Banu Sulaym's part at Hunayn) and Ka'b's Ta'if ode beginning `قضينا من تهامة` (p. 870). The passages are attached to those works on the basis of subject (Hunayn / march to Ta'if); the recorded openings were not found in this edition and may come from another recension.
+  - Abbas's second ode on p. 859 (`أما ترى يا أم فروة خيلنا`) is not attached to any work yet.
+- PR 8: Hassan's poem enumerating the Ansar's campaigns (17, pp. 929-930) and three more bayts of Hassan's lam-rhymed poem (refs 7-9) (20).
+- PR 9 (Mutanabbi, from the local Dar Beirut 1983 scan; cited by scan page, which matches the printed page): `work/mutanabbi-wa-harr-qalbah` (14 bayts, pp. 331-332) and `work/mutanabbi-ala-qadr-ahl-al-azm` (7 bayts, p. 385). New poem works with `authors: person/al-mutanabbi`.

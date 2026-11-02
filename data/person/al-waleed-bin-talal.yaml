@@ -1,0 +1,43 @@
+id: person/al-waleed-bin-talal
+class: person
+label: { ar: "الوليد بن طلال بن عبد العزيز آل سعود", en: "Al Waleed bin Talal Al Saud", ur: "الولید بن طلال بن عبد العزیز آل سعود" }
+names:
+  - { value: "Al Waleed bin Talal Al Saud", kind: full }
+  - { value: "Prince Al-Waleed bin Talal", kind: alternate }
+gender: male
+summary:
+  ar: "الأمير الوليد بن طلال بن عبد العزيز آل سعود (وُلد في ٧ آذار ١٩٥٥ في جدة) رجل أعمال ومستثمر سعودي من الأسرة المالكة، مؤسس شركة المملكة القابضة وكبير مساهميها؛ استثمر في سيتي غروب وآبل ونيوز كوربورة وسلاسل فنادق عالمية حتى لُقب بـ«وارن بافيت العربي»، واحتُجز في الريتز-كارلتون بالرياض في حملة تشرين الثاني ٢٠١٧ ثم أُطلق سراحه في كانون الثاني ٢٠١٨ بعد تسوية مالية."
+  en: "Prince Al Waleed bin Talal Al Saud (born 7 March 1955 in Jeddah) is a Saudi businessman, investor and royal, founder and controlling shareholder of Kingdom Holding Company; his stakes in Citigroup, Apple, News Corporation and global hotel chains earned him the label 'the Arabian Warren Buffett', and he was detained at the Ritz-Carlton in Riyadh in the November 2017 purge and released in January 2018 after a financial settlement."
+  ur: "شہزادہ الولید بن طلال بن عبد العزیز آل سعود (پیدائش 7 مارچ 1955، جدہ) سعودی کاروباری، سرمایہ کار اور شاہی خاندان کے فرد ہیں، کنگڈم ہولڈنگ کمپنی کے بانی و بڑے حصص دار؛ سٹی گروپ، ایپل اور نیوز کارپوریشن میں ان کی سرمایہ کاری پر انھیں «عرب وارن بفیٹ» کہا گیا، نومبر 2017 میں گرفتار ہوئے اور جنوری 2018 میں مالی تصفیے کے بعد رہا ہوئے۔"
+roles: [businessman, patron]
+wings: [people, living]
+regions: [arabia, global]
+born:
+  edtf: "1955-03-07"
+  hijri: "1374"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 March 1955 in Jeddah, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1374 AH."
+  sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar, source/wikidata-al-waleed-bin-talal]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Structured data alone touches Al Waleed's faith: his Wikidata item carries a religion
+      statement of Islam generically (Q432), which under the lane's rules records as unknown.
+      Neither article's prose names a school or order for the man himself, and his Saudi royal
+      context is dynastic and institutional, which never counts as attestation. The value is
+      therefore unknown.
+    sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar, source/wikidata-al-waleed-bin-talal]
+external_ids: { wikidata: Q293679 }
+sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar, source/wikidata-al-waleed-bin-talal]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Al Waleed bin Talal Al Saud' revision 1382760766 of 30 October 2026 (the title 'Al-Waleed bin Talal' redirects to it, and the QID was grounded from that article's own page property); Arabic Wikipedia article 'الوليد بن طلال بن عبد العزيز آل سعود' revision 77107710 of 30 October 2026; Wikidata item Q293679 revision 2561465049 of 27 October 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query). His father Prince Talal bin Abdulaziz has no person record on main, so no child_of edge is written. The born_in edge targets place/jeddah, verified present on origin/main in-session. No record or draft stub for him existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 1955 birth year is correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }
