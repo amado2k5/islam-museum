@@ -1,0 +1,28 @@
+id: event/ibn-rajab-hears-ibn-qayyim-750
+class: event
+kind: other
+label:
+  ar: "سماع ابن رجب على ابن قيم الجوزية وشيوخ دمشق، نحو ٧٥٠هـ"
+  en: "Ibn Rajab hears Ibn Qayyim al-Jawziyya and the shaykhs of Damascus, c. 750"
+  ur: "ابن رجب کی ابن قیم الجوزیہ اور دمشق کے مشائخ سے سماعت، تقریباً 750ھ"
+summary:
+  ar: "في صباه بدمشق سمع ابن رجب على كبار علماء عصره، وعدّه محقق «جامع العلوم والحكم» في أبرز شيوخه شمس الدين ابن قيم الجوزية (ت ٧٥١هـ)، فكان سماعه عليه قبل وفاته سنة ٧٥١هـ؛ ومن شيوخه الأوائل أيضاً أبو الربيع علي البغدادي الحنبلي (ت ٧٤٢هـ) ومحمد بن إبراهيم المقدسي (ت ٧٤٨هـ) {cite:ibn-rajab-jami-ulum-hikam pp. 10-11}."
+  en: "As a boy in Damascus Ibn Rajab heard the leading scholars of his time: the editor of Jami' al-Ulum wal-Hikam counts Shams al-Din Ibn Qayyim al-Jawziyya (d. 751) among his most prominent teachers, so his hearing him preceded Ibn Qayyim's death in 751. Among his early shaykhs were also Abu al-Rabi' Ali al-Baghdadi al-Hanbali (d. 742) and Muhammad ibn Ibrahim al-Maqdisi (d. 748) {cite:ibn-rajab-jami-ulum-hikam pp. 10-11}."
+  ur: "دمشق میں لڑکپن میں ابن رجب نے اپنے عصر کے بزرگ علماء سے سماعت کی: «جامع العلوم والحکم» کے محقق شمس الدین ابن قیم الجوزیہ (وفات 751ھ) کو ان کے نمایاں شیوخ میں شمار کرتے ہیں، اس لیے سماعت 751ھ سے پہلے ہوئی۔ ابتدائی شیوخ میں ابو الربیع علی بغدادی حنبلی (وفات 742ھ) اور محمد بن ابراہیم مقدسی (وفات 748ھ) بھی تھے {cite:ibn-rajab-jami-ulum-hikam pp. 10-11}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1350~", hijri: "0750~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل وفاة ابن قيم الجوزية سنة ٧٥١هـ {cite:ibn-rajab-jami-ulum-hikam p. 11}؛ تاريخ تقريبي." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: had_participant, target: person/ibn-rajab, role: "الطالب الصغير", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "الشيخ المسمَّع", sources: [source/ibn-rajab-jami-ulum-hikam] }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+provenance:
+  layer: own-research
+  source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), editor's introduction pp. 10-11 (mashyakha list)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

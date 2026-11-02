@@ -1,6 +1,6 @@
 id: person/ibn-rajab
 class: person
-label: { ar: "ابن رجب الحنبلي", en: "Ibn Rajab al-Hanbali" }
+label: { ar: "ابن رجب الحنبلي", en: "Ibn Rajab al-Hanbali", ur: "ابن رجب حنبلی" }
 names:
   - { kind: full, lang: ar, value: "عبد الرحمن بن أحمد بن عبد الرحمن بن الحسن بن محمد بن أبي البركات مسعود السلامي البغدادي ثم الدمشقي الحنبلي" }
   - { kind: kunya, lang: ar, value: "أبو الفرج" }
@@ -12,6 +12,7 @@ traditions: [sunni]
 summary:
   ar: "الإمام الحافظ زين الدين أبو الفرج عبد الرحمن بن أحمد الحنبلي، المعروف بابن رجب على لقب جده رجب بن الحسن؛ ولد ببغداد سنة 736هـ وقدم دمشق مع والده سنة 744هـ، ورحل في طلب العلم إلى مصر والحجاز والقدس، وصار من أعلام المذهب الحنبلي جامعاً بين الحديث والفقه، وتوفي بدمشق سنة 795هـ. من كتبه «جامع العلوم والحكم» شرح خمسين حديثاً."
   en: "The Hanbali hadith master and jurist Zayn al-Din Abu al-Faraj Abd al-Rahman ibn Ahmad, known as Ibn Rajab after his grandfather Rajab; born in Baghdad in 736 AH, moved to Damascus in 744, travelled for learning to Egypt, the Hijaz and Jerusalem, and died in Damascus in 795 AH. Author of 'Jami' al-Ulum wal-Hikam'."
+  ur: "حنبلی حافظ حدیث اور فقیہ زین الدین ابو الفرج عبد الرحمن بن احمد، اپنے دادا رجب کے لقب سے ابن رجب معروف؛ 736ھ میں بغداد میں پیدا ہوئے، 744ھ میں دمشق آئے، علم کی طلب میں مصر، حجاز اور بیت المقدس کے سفر کیے اور 795ھ میں دمشق میں فوت ہوئے۔ «جامع العلوم والحکم» کے مصنف۔"
 wings: [people]
 themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
 regions: [levant-iraq]
@@ -22,11 +23,23 @@ relations:
   - { type: died_in, target: place/damascus, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: lived_in, target: place/damascus, note: "قدمها مع والده سنة 744هـ (ص 8)", sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: student_of, target: person/ibn-qayyim-al-jawziyya, note: "ذكره محقق الكتاب في عداد أبرز شيوخه (ص 11)", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: child_of, target: person/ahmad-ibn-rajab, note: "والده الشيخ شهاب الدين أحمد بن رجب، رحل به إلى دمشق سنة 744هـ (ص 8)", sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: authored, target: work/jami-ulum-hikam, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: authored, target: work/dhayl-tabaqat-al-hanabila, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/lataif-al-maarif, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/fath-al-bari-ibn-rajab, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-rajab-born-736, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: participated_in, target: event/ibn-rajab-damascus-744, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: participated_in, target: event/ibn-rajab-hears-ibn-qayyim-750, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: participated_in, target: event/ibn-rajab-rihla-hijaz-755, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-rajab-ijaza-ibn-al-nakib-762, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-rajab-teaching-775, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-rajab-ijaza-nawawi-790, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/ibn-rajab-death-795, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: traveled_to, target: place/mecca, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة (ص 9)", sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: traveled_to, target: place/medina, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة (ص 9)", sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: traveled_to, target: place/jerusalem, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة (ص 9)", sources: [source/ibn-rajab-jami-ulum-hikam] }
 provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), editor's introduction pp. 7–11", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1, lib-durar-kamina-batch-1-2-2026-10-31" }
 external_ids: { wikidata: "Q529235" }
 sources: [source/ibn-rajab-jami-ulum-hikam, source/durar-kamina-jil-1993]
-status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); bio from the edition's introduction only — dated facts await a second source (needs_source born, died)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); enriched by Devin (SWE-2 Medium) with EI2 + Durar for the explorer-ibn-rajab-1 story" }

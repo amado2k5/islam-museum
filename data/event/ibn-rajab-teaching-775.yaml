@@ -1,0 +1,27 @@
+id: event/ibn-rajab-teaching-775
+class: event
+kind: other
+label:
+  ar: "تدريس ابن رجب في مدارس دمشق ومجالس وعظه، نحو ٧٧٥هـ فصاعداً"
+  en: "Ibn Rajab's teaching posts in Damascus and his preaching sessions, c. 775 onward"
+  ur: "دمشق کی مدارس میں ابن رجب کا تدرس اور وعظ کے مجالس، تقریباً 775ھ سے آگے"
+summary:
+  ar: "درّس ابن رجب بدمشق في المدرسة الحنبلية والشريفية والعمرية الشيخية وفي التربة العزية، وكان يسكن بالمدرسة السكرية بالقصاعين؛ وقال ابن العماد: كانت مجالس تذكيره للقلوب صارعة وللناس عامة مباركة نافعة، اجتمعت الفرق عليه {cite:encyclopaedia-of-islam-2 vol. 3 p. 934} {cite:ibn-rajab-jami-ulum-hikam p. 14}."
+  en: "Ibn Rajab taught in Damascus in the madrasas al-Hanbaliyya, al-Sharifiyya and al-'Umariyya al-Shaykhiyya, and in al-Turba al-'Izziyya, and he lived at al-Madrasa al-Sukkariyya at al-Qusa'in; Ibn al-Imad says his sessions of counsel broke hearts and benefited the public, and every faction gathered around him {cite:encyclopaedia-of-islam-2 vol. 3 p. 934} {cite:ibn-rajab-jami-ulum-hikam p. 14}."
+  ur: "ابن رجب نے دمشق میں حنبلیہ، شریفیہ اور عمریہ شیخیہ مدارس اور تربہ عزیہ میں تدریس کی، اور وہ قصاعین میں سکریہ مدرسہ میں مقیم تھے؛ ابن العماد کہتے ہیں کہ ان کے وعظ دلوں کو توڑ دیتے تھے اور عام لوگوں کے لیے مبارک و مفید تھے اور ہر فرقہ ان کے گرد جمع ہوتا تھا {cite:encyclopaedia-of-islam-2 vol. 3 p. 934} {cite:ibn-rajab-jami-ulum-hikam p. 14}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1375~", hijri: "0775~", calendar: julian, precision: year, status: tradition, derived: true, note: "مناصب التدريس بلا تاريخ محفوظ؛ وضعت في أواسط حياته الدمشقية؛ تاريخ تقريبي." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-rajab, role: "المدرس والواعظ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/ibn-rajab-jami-ulum-hikam]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 p. 934 (madrasas); Jami' al-Ulum wal-Hikam introduction p. 14 (Ibn al-Imad on the majalis and the Sukkariyya residence)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
