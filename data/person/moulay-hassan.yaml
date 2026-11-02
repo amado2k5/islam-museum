@@ -1,0 +1,43 @@
+id: person/moulay-hassan
+class: person
+label: { ar: "الحسن بن محمد", en: "Moulay Hassan, Crown Prince of Morocco", ur: "مولای حسن، ولی عہد مراکش" }
+names:
+  - { value: "Hassan bin Mohammed Al Alaoui", kind: full }
+  - { value: "Moulay Hassan", kind: alternate }
+  - { value: "Moulay El Hassan", kind: alternate }
+gender: male
+summary:
+  ar: "مولاي الحسن بن محمد (وُلد في ٨ أيار ٢٠٠٣ في القصر الملكي بالرباط) ولي عهد المملكة المغربية والابن الأكبر للملك محمد السادس والأميرة سلمى بناني؛ درس في المدرسة المولوية وجامعة محمد السادس متعددة التخصصات حيث نال الماجستير سنة ٢٠٢٥، ويحمل رتبة عقيد ركن في القوات المسلحة الملكية، ويمثل والده في مهام رسمية منذ سنة ٢٠١٣."
+  en: "Moulay Hassan bin Mohammed (born 8 May 2003 at the Royal Palace in Rabat) is the Crown Prince of Morocco, the elder child of King Mohammed VI and Princess Lalla Salma; educated at the Royal College and Mohammed VI Polytechnic University, where he took a master's degree in 2025, he holds the rank of Colonel-Major in the Royal Armed Forces and has represented his father at official engagements since 2013."
+  ur: "مولای حسن بن محمد (پیدائش 8 مئی 2003، شاہی محل، رباط) مراکش کے ولی عہد اور شاہ محمد ششم و شہزادی للا سلمیٰ کے بڑے بیٹے ہیں؛ انھوں نے رائل کالج اور محمد ششم پولی ٹیکنک یونیورسٹی سے تعلیم پائی، 2025 میں ماسٹرز کیا، شاہی مسلح افواج میں کرنل میجر کا عہدہ رکھتے ہیں، اور 2013 سے سرکاری تقاریب میں والد کی نمائندگی کر رہے ہیں۔"
+roles: [politician]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "2003-05-08"
+  hijri: "1424"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 8 May 2003 at the Royal Palace in Rabat, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1424 AH."
+  sources: [source/wikipedia-moulay-hassan-en, source/wikipedia-moulay-hassan-ar, source/wikidata-moulay-hassan]
+relations:
+  - { type: child_of, target: person/mohammed-vi-of-morocco, sources: [source/wikipedia-moulay-hassan-en, source/wikipedia-moulay-hassan-ar, source/wikidata-moulay-hassan] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a faith for Moulay Hassan himself beyond his position in the Moroccan
+      royal house. His dynastic context as heir of a king who bears the title Commander of the
+      Faithful is royal and institutional context, which never counts as attestation for the man
+      himself, and no text names a school or order for him. The value is therefore unknown.
+    sources: [source/wikipedia-moulay-hassan-en, source/wikipedia-moulay-hassan-ar, source/wikidata-moulay-hassan]
+external_ids: { wikidata: Q276961 }
+sources: [source/wikipedia-moulay-hassan-en, source/wikipedia-moulay-hassan-ar, source/wikidata-moulay-hassan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Moulay Hassan, Crown Prince of Morocco' revision 1381554099 of 23 October 2026; Arabic Wikipedia article 'الحسن بن محمد' revision 76469612 of 8 September 2026; Wikidata item Q276961 revision 2563754612 of 2 November 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query). The child_of edge targets person/mohammed-vi-of-morocco, verified present on origin/main in-session; his mother Princess Lalla Salma has no record on main, so no second parent edge is written. No record or draft stub for him existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 2003 birth year is correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }

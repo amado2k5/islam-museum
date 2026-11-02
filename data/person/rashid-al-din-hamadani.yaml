@@ -1,0 +1,80 @@
+id: person/rashid-al-din-hamadani
+class: person
+
+label: { ar: "رشيد الدين الهمذاني", en: "Rashid al-Din Hamadani", ur: "رشید الدین ہمدانی" }
+
+names:
+  - { value: "Rashid al-Din Fadl Allah Hamadani", kind: full }
+  - { value: "Rashid al-Din Tabib", kind: laqab }
+  - { value: "Rashid al-Din Hamadani", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "رشيد الدين فضل الله الهمذاني (1247 – 13 يوليو 1318)، وزير الإيلخانيين وطبيبهم ومؤرخهم، صاحب «جامع التواريخ» أوسع تاريخ عالمي كُتب في عصره. وُلد في همدان لأسرة يهودية فارسية واعتنق الإسلام في نحو الثلاثين من عمره، فارتقى في بلاط أباقا ثم صار الوزير الأعظم لغازان وأولجايتو، وأشرف على إصلاحات مالية وعمرانية واسعة وأسس بتبريز مجمع الربع الرشيدي العلمي. وبعد وفاة أولجايتو اتُّهم بتسميمه فأُعدم سنة 718 هـ وخلفه ابنه غياث الدين وزيرًا لفترة وجيزة."
+  en: "Rashid al-Din Fadl Allah Hamadani (1247 - 13 July 1318) was the Ilkhanid vizier, physician and historian whose Jami' al-Tawarikh ('Compendium of Chronicles') is the most comprehensive world history of its age. Born at Hamadan into a Persian Jewish family, he converted to Islam at about the age of thirty, rose at the court of Abaqa, and became grand vizier under Ghazan and Oldjaitu, directing fiscal and building reforms and founding the Rab'-i Rashidi scholarly complex at Tabriz. After Oldjaitu's death he was charged with poisoning him and executed in 718 AH; his son Ghiyath al-Din briefly held the vizierate after him."
+  ur: "رشید الدین فضل اللہ ہمدانی (1247ء – 13 جولائی 1318ء) ایل خانیوں کے وزیر، طبیب اور مؤرخ تھے، جن کی «جامع التواریخ» اپنے دور کی سب سے جامع عالمی تاریخ ہے۔ ہمدان کے ایک یہودی خاندان میں پیدا ہوئے، تیس برس کی عمر میں اسلام قبول کیا، اور غازان و اولجایتو کے وزیر اعظم بنے۔ 718ھ میں ان پر اولجایتو کو زہر دینے کا الزام لگا اور انھیں پھانسی دے دی گئی۔"
+
+roles: [vizier, historian, physician]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1247"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "All three article texts give 1247. The Arabic and Urdu articles state that he was born in Hamadan; the English article says his family was from Hamadan province. The year 1247 spans 644-645 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur, source/wikidata-rashid-al-din-hamadani]
+
+died:
+  edtf: "1318-07-13"
+  calendar: gregorian
+  precision: day
+  status: historical
+  hijri: "0718"
+  note: "The English and Urdu articles give his execution on 13 July 1318, at the age of seventy, on the charge of poisoning Oldjaitu; the Arabic article dates his killing to Jumada I 718 AH, the same month. No text read states the city of his execution with certainty, so no died_in edge is written."
+  sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur, source/wikidata-rashid-al-din-hamadani]
+
+relations:
+  - { type: born_in, target: place/hamadan, sources: [source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      His conversion is documented practice and is stated here in
+      full: all three article texts agree that he was born into a
+      Jewish family — of Hamadan, his father an apothecary-physician
+      at the Ilkhanid court — and that he embraced Islam at about
+      the age of thirty, in 1277 by the English article's dating.
+      The Arabic article's religion section preserves a minority
+      scholarly view that he was born Muslim, against the majority
+      it quotes from Ibn Kathir, al-Dhahabi and Ibn Hajar. No
+      school is settled for him. The Arabic article names the
+      Hanafi school for him in a single passage, glossing Oldjaitu's
+      change of school as a turn away from the school Rashid was
+      upon; the English article describes him as an ardent Sunni
+      Muslim, but on the strength of his Letters, whose authenticity
+      the same article reports as disputed and probably forged.
+      One text naming the school, joined to a second attestation
+      that is itself doubted, does not meet the founder's two-text
+      rule, and the doubt rule is absolute. His faith is therefore
+      recorded as unknown, with the conversion and both readings
+      stated here in full.
+    sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur]
+
+external_ids: { wikidata: "Q328782" }
+
+sources:
+  - source/wikipedia-rashid-al-din-hamadani-en
+  - source/wikipedia-rashid-al-din-hamadani-ar
+  - source/wikipedia-rashid-al-din-hamadani-ur
+  - source/wikidata-rashid-al-din-hamadani
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rashid al-Din Hamadani' (revision 1382607225 of 29 October 2026), Arabic Wikipedia 'رشيد الدين فضل الله الهمذاني' (revision 77076088 of 26 October 2026), Urdu Wikipedia 'رشید الدین فضل اللہ ہمدانی' (revision 9930084 of 18 April 2026) and Wikidata Q328782 (item revision 2562784027 of 30 October 2026, re-asserted identical on a second live query), all fetched live in-session on 2 November 2026, the QID grounded from the article's own page property. Existence checked against origin/main before building, by name fragments and by QID: no record exists for him. No child_of edge for his son Ghiyath al-Din Muhammad: the son has no record on origin/main, and the edge would in any case be written in the son's record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-181n2"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

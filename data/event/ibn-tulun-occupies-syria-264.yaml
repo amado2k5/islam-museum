@@ -1,0 +1,28 @@
+id: event/ibn-tulun-occupies-syria-264
+class: event
+kind: conquest
+label:
+  ar: "ابن طولون يضم الشام إلى مصر، ٢٦٤هـ/٨٧٨م"
+  en: "Ibn Tulun annexes Syria to Egypt, 264/878"
+  ur: "ابن طولون کا شام کو مصر سے ملانا، 264ھ/878ء"
+summary:
+  ar: "بعد انهيار حملة عزله مضى ابن طولون فاحتل الشام سنة أربع وستين ومائتين تحت غطاء الجهاد وحماية الثغور في أذنيّة الروم {cite:encyclopaedia-of-islam-2 vol. 1 p. 301}؛ فمدّ سلطانه على حمص وحماة وحلب وقنسرين وديار مضر، ونصب الأمير لؤلؤاً نائباً له عليها {cite:encyclopaedia-of-islam-2 vol. 3 p. 426}. ثم اضطر للعودة سريعاً إلى مصر إثر عصيان ابنه العباس {cite:encyclopaedia-of-islam-2 vol. 1 p. 301}."
+  en: "After the collapse of the removal expedition, Ibn Tulun occupied Syria in 264/878 under the pretext of holy war and the defence of the frontier against Byzantium {cite:encyclopaedia-of-islam-2 vol. 1 p. 301}, extending his authority over Hims, Hama, Aleppo, Kinnasrin and the Diyar Mudar and naming the amir Lu'lu' as his representative over them {cite:encyclopaedia-of-islam-2 vol. 3 p. 426}. He soon had to return to Egypt to face the revolt of his son al-'Abbas {cite:encyclopaedia-of-islam-2 vol. 1 p. 301}."
+  ur: "برطرفی کی ناکام مہم کے بعد ابن طولون نے 264ھ/878ء میں شام فتح کیا، بحیثیت جہاد اور روم کی سرحدوں کے دفاع کے {cite:encyclopaedia-of-islam-2 vol. 1 p. 301}، اور حمص، حمات، حلب، قنسرین اور دیار مضر پر اختیار قائم کیا اور امیر لؤلؤ کو وہاں اپنا نائب مقرر کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 426}۔ لیکن جلد ہی اسے اپنے بیٹے عباس کی بغاوت کے باعث مصر واپس آنا پڑا {cite:encyclopaedia-of-islam-2 vol. 1 p. 301}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "0878~", hijri: "0264", calendar: julian, precision: year, status: tradition, derived: true, note: "احتل الشام سنة ٢٦٤هـ/٨٧٨م {cite:encyclopaedia-of-islam-2 vol. 1 p. 301} {cite:encyclopaedia-of-islam-2 vol. 3 p. 426}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الفاتح المُضِمّ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/lulu-al-tuluni, role: "النائب على حمص وحلب وقنسرين وديار مضر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 p. 301 art. AHMAD B. TULUN; vol. 3 p. 426 art. HIMS (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

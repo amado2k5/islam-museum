@@ -1,0 +1,30 @@
+id: event/muwaffaq-forfeiture-269
+class: event
+kind: declaration
+label:
+  ar: "محضر دمشق بإسقاط ولاية الموفق واللعن المتبادل، ٢٦٩هـ/٨٨٢-٨٨٣م"
+  en: "The Damascus assembly drops al-Muwaffaq from the succession; mutual cursing, 269/882-883"
+  ur: "دمشق کا محضر جس میں موفق کی ولی عہدی ساقط ہوئی اور دونوں جانب لعن ہوا، 269ھ/882-883ء"
+summary:
+  ar: "بعد اعتراض ابن كنداج المعتمد، نصب الموفق إسحاق بن كنداج والياً على مصر والشام، فردّ ابن طولون بمحضر جمع فيه فقهاء مصر والشام بدمشق سنة تسع وستين وأقرّ بإسقاط الموفق من ولاية العهد، وألزم الخليفة المضطر أن يلعن ابن طولون على المنابر فلعن ابن طولون الموفق في مساجد مصر والشام؛ وامتنع القاضي بكّار بن قتيبة وفقيهان معه عن مجانبة ابن طولون {cite:encyclopaedia-of-islam-2 vol. 1 p. 301} {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}. وفي هذه السنة انشقّ اللؤلؤ عنه إلى الموفق، وفشلت حملته على مكة والمدينة {cite:encyclopaedia-of-islam-2 vol. 10 p. 666-667}."
+  en: "After Ibn Kundaj intercepted al-Mu'tamid, al-Muwaffaq appointed him governor of Egypt and Syria. Ibn Tulun answered by convening an assembly of Egyptian and Syrian jurists at Damascus in 269/882-883, which proclaimed al-Muwaffaq's forfeiture of the succession; the caliph was compelled to have Ibn Tulun cursed from the pulpits, and Ibn Tulun applied the same to al-Muwaffaq in the mosques of Egypt and Syria — while the Egyptian chief qadi Bakkar ibn Qutayba and two other jurists refused to side with Ibn Tulun {cite:encyclopaedia-of-islam-2 vol. 1 p. 301} {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}. The same year his general Lu'lu' defected to al-Muwaffaq and his campaign against Mecca and Medina failed {cite:encyclopaedia-of-islam-2 vol. 10 p. 666-667}."
+  ur: "ابن کنداج کے معتمد کو روکنے کے بعد موفق نے اسے مصر و شام کا والی مقرر کیا۔ ابن طولون نے جواباً 269ھ/882-883ء میں دمشق میں مصری و شامی فقہا کا محضر بلایا جس نے موفق کی ولی عہدی کی سقوط کا اعلان کیا؛ خلیفہ پر زور ڈالا گیا کہ منبروں سے ابن طولون پر لعن کرائے، اور ابن طولون نے مصر و شام کی مسجدوں میں وہی موفق پر کیا — حالانکہ مصری قاضی القضاة بکّار بن قتیبہ اور دو فقیہ نے ابن طولون کا ساتھ دینے سے انکار کیا {cite:encyclopaedia-of-islam-2 vol. 1 p. 301} {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}۔ اسی سال اس کا سردار لؤلؤ موفق کی طرف چلا گیا اور مکہ و مدینہ پر اس کی مہم ناکام ہوئی {cite:encyclopaedia-of-islam-2 vol. 10 p. 666-667}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "0883~", hijri: "0269", calendar: julian, precision: year, status: tradition, derived: true, note: "محضر الفقهاء بدمشق سنة ٢٦٩هـ/٨٨٢-٨٨٣م {cite:encyclopaedia-of-islam-2 vol. 10 p. 668}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "عاقد المحضر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "المُسقَط من العهد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/bakkar-ibn-qutayba, role: "القاضي الممتنع", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/lulu-al-tuluni, role: "القائد المنشقّ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 p. 301 art. AHMAD B. TULUN; vol. 10 pp. 666-668 art. TULUNIDS (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

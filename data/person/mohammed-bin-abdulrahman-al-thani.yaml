@@ -1,0 +1,48 @@
+id: person/mohammed-bin-abdulrahman-al-thani
+class: person
+label: { ar: "محمد بن عبد الرحمن آل ثاني", en: "Mohammed bin Abdulrahman Al Thani", ur: "محمد بن عبدالرحمن آل ثانی" }
+names:
+  - { value: "Mohammed bin Abdulrahman bin Jassim Al Thani", kind: full }
+  - { value: "Mohammed bin Abdulrahman Al Thani", kind: alternate }
+gender: male
+summary:
+  ar: "محمد بن عبد الرحمن بن جاسم آل ثاني (وُلد في 1 تشرين الثاني 1980 في الدوحة) دبلوماسي واقتصادي وسياسي قطري، رئيس وزراء قطر منذ آذار 2023 ووزير خارجيتها منذ 2016. من أسرة آل ثاني الحاكمة؛ ترأس صندوق قطر للتنمية (2014–2024) وجهاز قطر للاستثمار (2018–2023) وكان نائبًا لرئيس الوزراء (2017–2023)."
+  en: "Mohammed bin Abdulrahman bin Jassim Al Thani (born 1 November 1980 in Doha) is a Qatari diplomat, economist and politician who has been Prime Minister of Qatar since March 2023 and Minister of Foreign Affairs since 2016. A member of the House of Thani, he chaired the Qatar Fund for Development (2014–2024) and the Qatar Investment Authority (2018–2023) and was deputy prime minister (2017–2023)."
+  ur: "محمد بن عبدالرحمن بن جاسم آل ثانی (پیدائش 1 نومبر 1980، دوحہ) قطری سفارت کار، ماہر معیشت اور سیاست دان ہیں؛ مارچ 2023 سے قطر کے وزیر اعظم اور 2016 سے وزیر خارجہ ہیں۔ وہ آل ثانی خاندان کے رکن ہیں، قطر فنڈ فار ڈیولپمنٹ (2014–2024) اور قطر انویسٹمنٹ اتھارٹی (2018–2023) کے چیئرمین رہے۔"
+roles: [politician, diplomat]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1980-11-01"
+  hijri: "1400"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Doha on 1 November 1980 (the English, Arabic and Urdu articles and the Wikidata item agree). Doha has no place entity in the museum, so no born_in relation is written. The hijri year 1400 is a tabular derived conversion of the Gregorian date (derived: true). The queue's 1982 birth year is contradicted by every source and was not followed."
+  sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani]
+relations:
+  - { type: member_of, target: group/al-thani, sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a faith for Mohammed bin Abdulrahman Al Thani himself.
+      The English, Arabic and Urdu articles are silent on his religion, and his
+      Wikidata item carries no religion statement. His membership of the ruling
+      House of Thani and his headship of a government are dynastic and official
+      context, which never attest personal affiliation, and no text names a school
+      or order for the man himself. The value is therefore unknown.
+    sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani]
+external_ids: { wikidata: "Q23020336" }
+sources:
+  - source/wikipedia-mohammed-bin-abdulrahman-al-thani-en
+  - source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar
+  - source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur
+  - source/wikidata-mohammed-bin-abdulrahman-al-thani
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mohammed bin Abdulrahman bin Jassim Al Thani' revision 1378288922 of 3 October 2026; Arabic Wikipedia article 'محمد بن عبد الرحمن آل ثاني' revision 77042288 of 22 October 2026; Urdu Wikipedia article 'محمد بن عبدالرحمن بن جاسم الثانی' revision 6588912 of 2 February 2025; Wikidata item Q23020336 revision 2562955847 of 31 October 2026 - each fetched live in-session on 2 November 2026 via the MediaWiki API, the QID grounded in the articles' own page properties, and every revision re-asserted identical on a second query. The queue and brief give his birth year as 1982; all three articles and the Wikidata item give 1 November 1980 in Doha, and the record follows the sources. His father Abdulrahman bin Jassim Al Thani has no record on origin/main, so no child_of edge is written; the member_of edge rests on the articles' statement that he belongs to the House of Thani, whose group entity exists on main. No record or draft stub for him existed on origin/main when this record was built (checked by name fragments and by QID against origin/main on 2 November 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

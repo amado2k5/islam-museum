@@ -1,0 +1,30 @@
+id: event/bayakbak-murder-256
+class: event
+kind: death
+label:
+  ar: "قتل باكبك وإقطاع مصر ليرجوخ، ٢٥٦هـ/٨٧٠م"
+  en: "Bayakbak's murder; Egypt's apanage passes to Yarjukh, 256/870"
+  ur: "بائکبک کا قتل اور مصر کا اقطاع یرجوخ کو ملنا، 256ھ/870ء"
+summary:
+  ar: "في سنة ست وخمسين ومائتين قُتل باكبك صاحب إقطاع مصر {cite:encyclopaedia-of-islam-2 vol. 10 p. 666} — عند المسعودي وقع بيد المهتدي فضرب عنقه، وقيل قُتل في حرب جسر سامراء {cite:muruj-al-dhahab p. 559-560}. فأُعطيت مصر إقطاعاً ليرجوخ الذي زوّج إحدى بناته من ابن طولون، فأقرّ أحمد في نيابته وضمّ إليه الإسكندرية وبرقة ونواحي الثغور التي لم تكن داخلة في ولايته، بعد أربع سنين من الصراع مع ابن المدبّر صاحب الخراج انتهت بإزاحته {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}."
+  en: "In 256/870 Bayakbak, holder of Egypt's apanage, was killed {cite:encyclopaedia-of-islam-2 vol. 10 p. 666} — al-Mas'udi says he fell into al-Muhtadi's hands and was beheaded, or was killed in the battle of the Samarra bridge {cite:muruj-al-dhahab p. 559-560}. Egypt was then granted as an apanage to Yarjukh, who had married one of his daughters to Ibn Tulun; he confirmed Ahmad as vice-governor and added Alexandria, Barqa and the frontier districts, hitherto outside his government — after a four-year struggle with the intendant of finance Ibn al-Mudabbir that ended in the latter's removal {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}."
+  ur: "256ھ/870ء میں مصر کے اقطاع دار بائکبک قتل ہوا {cite:encyclopaedia-of-islam-2 vol. 10 p. 666} — مسعودی کے مطابق وہ مہتدی کے ہاتھ لگا اور سر کاٹا گیا، یا سامرا کے پل کی لڑائی میں مارا گیا {cite:muruj-al-dhahab p. 559-560}۔ پھر مصر یرجوخ کو اقطاع میں ملا، جس نے اپنی ایک بیٹی ابن طولون سے بیاہی تھی؛ اس نے احمد کو نائب بقرر رکھا اور اس کے حکومت میں اسکندریہ، برقہ اور سرحدی اضلاع بھی شامل کیں — چار برس کی جدوجہد کے بعد جس میں مالیات کے سربراہ ابن مدبّر کی برطرفی ہوئی {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "0870~", hijri: "0256", calendar: julian, precision: year, status: tradition, derived: true, note: "Bayakbak d. 256/870 {cite:encyclopaedia-of-islam-2 vol. 10 p. 666}؛ قتله المهتدي أو قُتل في حرب جسر سامراء {cite:muruj-al-dhahab p. 559-560}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/muruj-al-dhahab] }
+relations:
+  - { type: occurred_at, target: place/samarra, sources: [source/muruj-al-dhahab] }
+  - { type: had_participant, target: person/bayakbak, role: "القتيل صاحب الإقطاع", sources: [source/muruj-al-dhahab] }
+  - { type: had_participant, target: person/yarjukh-al-turki, role: "صاحب الإقطاع الجديد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "النائب المُقرّ الموسَّع", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibrahim-ibn-al-mudabbir, role: "الخصم المُزاح من الخراج", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 p. 666 art. TULUNIDS; vol. 1 p. 300 art. AHMAD B. TULUN; al-Mas'udi, Muruj al-Dhahab pp. 559-560 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

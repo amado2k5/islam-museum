@@ -1875,47 +1875,47 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Sultan Iltutmish — 1192–1236
 - [x] Ghiyas ud din Balban — 1200–1287
 - [x] Razia Sultana — 1205–1240
-- [ ] Sultan Jalal-ud-din Khalji — 1220–1296
+- [x] Sultan Jalal-ud-din Khalji — 1220–1296
 - [ ] Ghiyas al-Din Tughlaq — 1250–1325
-- [ ] Malik Kafur — 1270–1316 (CSV calls him a "Mughal" general — an anachronism; he was Alauddin Khalji's general)
-- [ ] Nizam al-Din Awliya — 1238–1325
-- [ ] Sheikh Farid al-Din Ganjshakar (Baba Farid) — 1173–1266
-- [ ] Lal Shahbaz Qalandar — 1177–1274
-- [ ] Fakhr al-Din 'Iraqi — 1213–1289
-- [ ] Amir Khusrow — 1253–1325
+- [x] Malik Kafur — 1270–1316 (CSV calls him a "Mughal" general — an anachronism; he was Alauddin Khalji's general)
+- [x] Nizam al-Din Awliya — 1238–1325
+- [x] Sheikh Farid al-Din Ganjshakar (Baba Farid) — 1173–1266
+- [x] Lal Shahbaz Qalandar — 1177–1274
+- [x] Fakhr al-Din 'Iraqi — 1213–1289
+- [x] Amir Khusrow — 1253–1325
 - [ ] Abu Yaqub Yusuf an-Nasr — 1260–1307
-- [ ] Muhammad II al-Faqih of Granada — 1235–1302
+- [x] Muhammad II al-Faqih of Granada — 1235–1302
 - [ ] Oldjaitu (Muhammad Khodabandeh) — 1280–1316
-- [ ] Rashid al-Din Hamadani — 1247–1318
-- [ ] Historian Abu al-Fida — 1273–1331
-- [ ] Qutb al-Din Shirazi — 1236–1311
+- [x] Rashid al-Din Hamadani — 1247–1318
+- [x] Historian Abu al-Fida — 1273–1331
+- [x] Qutb al-Din Shirazi — 1236–1311
 
 ## O. Last-30-years list additions (24)
 
-- [ ] Fayyadh Al-Ruwaili — Living (Saudi Chief of General Staff; birth year not public)
-- [ ] Khalid bin Ali Al-Humaidan — Living (Saudi Director of General Intelligence; birth year not public)
-- [ ] Issa Saif Al Mazrouei — Living (UAE Chief of Staff of the Armed Forces; birth year not public)
-- [ ] Sheikh Mohammed bin Abdulrahman Al Thani — 1982–Living
-- [ ] Salem Hamad Al-Nabit — Living (Qatar Chief of Staff of the Armed Forces; birth year not public)
-- [ ] Cevdet Yılmaz — 1961–Living
-- [ ] Hakan Fidan — 1968–Living
-- [ ] İbrahim Kalın — 1971–Living
-- [ ] Metin Gürak — 1960–Living
-- [ ] Asim Munir — 1968–Living
-- [ ] Asim Malik — Living (Pakistan Director-General ISI; birth year not public)
-- [ ] Abbas Kamel — 1957–Living
-- [ ] Agus Subiyanto — 1967–Living
-- [ ] Ahmad Husni — Living (Jordan Director of General Intelligence; birth year not public)
-- [ ] Crown Prince Moulay Hassan — 2003–Living
-- [ ] Abdellatif Hammouchi — Living (Morocco Director-General of National Security; birth year not public)
-- [ ] Hossein Salami — 1960–2025
-- [ ] Narges Mohammadi — 1972–Living
-- [ ] Waad Al-Kateab — 1991–Living
-- [ ] Khaled Hosseini — 1965–Living
-- [ ] Elif Shafak — 1971–Living
-- [ ] Hamdi Ulukaya — 1972–Living
-- [ ] Shahid Khan — 1950–Living
-- [ ] Prince Al-Waleed bin Talal — 1955–Living
+- [x] Fayyadh Al-Ruwaili — Living (Saudi Chief of General Staff; birth year not public)
+- [x] Khalid bin Ali Al-Humaidan — Living (Saudi Director of General Intelligence; birth year not public)
+- [x] Issa Saif Al Mazrouei — Living (UAE Chief of Staff of the Armed Forces; birth year not public)
+- [x] Sheikh Mohammed bin Abdulrahman Al Thani — 1982–Living
+- [x] Salem Hamad Al-Nabit — Living (Qatar Chief of Staff of the Armed Forces; birth year not public)
+- [x] Cevdet Yılmaz — 1961–Living
+- [x] Hakan Fidan — 1968–Living
+- [x] İbrahim Kalın — 1971–Living
+- [x] Metin Gürak — 1960–Living
+- [x] Asim Munir — 1968–Living
+- [x] Asim Malik — Living (Pakistan Director-General ISI; birth year not public)
+- [x] Abbas Kamel — 1957–Living
+- [x] Agus Subiyanto — 1967–Living
+- [x] Ahmad Husni — Living (Jordan Director of General Intelligence; birth year not public)
+- [x] Crown Prince Moulay Hassan — 2003–Living
+- [x] Abdellatif Hammouchi — Living (Morocco Director-General of National Security; birth year not public)
+- [x] Hossein Salami — 1960–2025
+- [x] Narges Mohammadi — 1972–Living
+- [x] Waad Al-Kateab — 1991–Living
+- [x] Khaled Hosseini — 1965–Living
+- [x] Elif Shafak — 1971–Living
+- [x] Hamdi Ulukaya — 1972–Living
+- [x] Shahid Khan — 1950–Living
+- [x] Prince Al-Waleed bin Talal — 1955–Living
 
 ## P. 5,000-list additions (8)
 
