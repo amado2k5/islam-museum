@@ -1,0 +1,28 @@
+id: event/birth-al-juwayni-419
+class: event
+kind: birth
+label:
+  ar: "ولادة إمام الحرمين الجويني ببشتنكان، محرم ٤١٩هـ"
+  en: "Imam al-Haramayn al-Juwayni is born at Bushtanikan, Muharram 419/1028"
+  ur: "امام الحرمین جوینی کی ولادت بشتنکان میں، محرم 419ھ/1028ء"
+summary:
+  ar: "وُلد أبو المعالي عبد الملك بن عبد الله بن يوسف الجويني في المحرم من أول سنة تسع عشرة وأربعمائة {cite:tarikh-islam-dhahabi p. 230} {cite:siyar-alam-nubala j.18 p. 2574}، وتحدد دائرة المعارف الإسلامية مولده في ١٨ محرم ٤١٩/١٧ شباط ١٠٢٨ ببشتنكان، قرية من ضواحي نيسابور، وهي ناحية جوين التي إليها نسبته {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}، وفي المنتظم والكامل وتاريخ الخميس أن مولده سنة سبع عشرة {cite:tarikh-islam-dhahabi p. 230}."
+  en: "Abu al-Ma'ali Abd al-Malik ibn Abdallah ibn Yusuf al-Juwayni was born in Muharram at the opening of 419 {cite:tarikh-islam-dhahabi p. 230} {cite:siyar-alam-nubala j.18 p. 2574}; the Encyclopaedia of Islam fixes his birth on 18 Muharram 419/17 February 1028 at Bushtanikan, a village on the outskirts of Nishapur in the district of Juwayn to which his nisba refers {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}, while the Muntazam, the Kamil and Tarikh al-Khamis give the year 417 {cite:tarikh-islam-dhahabi p. 230}."
+  ur: "ابو المعالی عبدالملک بن عبداللہ بن یوسف جوینی 419ھ کے آغاز میں محرم میں پیدا ہوئے {cite:tarikh-islam-dhahabi p. 230} {cite:siyar-alam-nubala j.18 p. 2574}؛ دائرۃ المعارف اسلامیہ کے مطابق ولادت 18 محرم 419ھ/17 فروری 1028ء کو بشتنکان میں ہوئی جو نیشاپور کے نواح میں جوین کی وہ بستی ہے جس سے ان کی نسبت ہے {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ منتظم، کامل اور تاریخ خمیس میں سن 417ھ ہے {cite:tarikh-islam-dhahabi p. 230}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1028-02-17~", hijri: "0419-01-18", calendar: julian, precision: day, status: tradition, derived: true, note: "18 محرم 419/17 شباط 1028 {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ رواية 417هـ عند غيره {cite:tarikh-islam-dhahabi p. 230}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+relations:
+  - { type: occurred_at, target: place/nishapur, note: "بشتنكان قرية من ضواحي نيسابور في ناحية جوين", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المولود", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abdallah-ibn-yusuf-al-juwayni, role: "الوالد", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 478, printed p. 230 (harvest OCR); Siyar A'lam al-Nubala (Risala) 18/2574 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 2 art. al-Djuwayni, printed p. 605"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-juwayni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
