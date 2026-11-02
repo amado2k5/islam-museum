@@ -22,6 +22,9 @@ test("non-language paths go to static assets", () => {
   assert.deepEqual(resolve("/media/time-browser/explorer/x.webp"), { type: "r2", key: "media/time-browser/explorer/x.webp" });
   assert.deepEqual(resolve("/timeline-data/en/index.json"), { type: "r2", key: "timeline-data/en/index.json" });
   assert.deepEqual(resolve("/sitemap-index.xml"), { type: "r2", key: "sitemap-index.xml" });
+  // Search indexes are served from the same site (the search page loads them from its own origin).
+  assert.deepEqual(resolve("/pagefind-en/pagefind-ui.js"), { type: "r2", key: "pagefind-en/pagefind-ui.js" });
+  assert.deepEqual(resolve("/pagefind-ur/"), { type: "r2", key: "pagefind-ur/index.html" });
   assert.deepEqual(resolve("/favicon.svg"), { type: "r2", key: "favicon.svg" });
   assert.deepEqual(resolve("/search-synonyms.ar.json"), { type: "r2", key: "search-synonyms.ar.json" });
   assert.deepEqual(resolve("/robots.txt"), { type: "assets" });
