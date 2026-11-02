@@ -18,3 +18,6 @@ In the Prophet's reported words, "Salman is one of us, the People of the House" 
 
 ## For young visitors
 Salman crossed countries and religions looking for the truth, was enslaved, freed — and then dug the ditch that saved Medina.
+
+## In Ahmad Farid's lessons 'The Boat'
+In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] sets Salman the Persian against [[person/abu-lahab|Abu Lahab]] to show that the noblest people are the most pious, not the richest or best-born. {cite:assabile-ahmad-farid the-boat/ep17 00:04:00} Abu Lahab was of pure lineage and the Prophet's uncle but was not honoured by Islam, he says, while Salman was not an Arab, let alone of Quraysh or of the Prophet's family, and yet was honoured by piety; he quotes the line of poetry that Islam raised Salman of Persia while disbelief brought down the noble Abu Lahab. {cite:assabile-ahmad-farid the-boat/ep17 00:04:00} {cite:assabile-ahmad-farid the-boat/ep17 00:04:30} Salman, he says, took pride only in his Islam. {cite:assabile-ahmad-farid the-boat/ep17 00:04:30} {cite:assabile-ahmad-farid the-boat/ep17 00:05:00}
