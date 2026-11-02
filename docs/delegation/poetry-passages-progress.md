@@ -63,3 +63,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 14 (Mutanabbi, Dar Beirut 1983 scan): `mutanabbi-kafa-bika-daa` (6, p. 441), `mutanabbi-eid-biayyi-hal` (8, p. 506), `mutanabbi-kabirt-hawl-diyarihim` (11, p. 28) (25 passages, 3 new works).
 - PR 15: new source `source/sharh-muallaqat-sab-zawzani-1921` (archive.org AAlexandrina-204263, downloaded to the drive and registered in WORK-REGISTRY.md; Vision OCR on the Mac; verses read from the page image) and `work/muallaqat-imru-al-qays` (11 bayts, pp. 3-7).
 - PR 16: fix `issued` shape in the Zawzani source.
+- PR 17 (Zawzani 1921): `muallaqat-tarafa` (15 bayts, pp. 46-75) and `muallaqat-amr-ibn-kulthum` (7 bayts, pp. 124-143), read from page images (22 passages).
