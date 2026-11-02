@@ -26,6 +26,9 @@ const R2_CONTENT_TYPES = {
   ".xml": "application/xml; charset=utf-8", ".txt": "text/plain; charset=utf-8", ".csv": "text/csv; charset=utf-8",
   ".pdf": "application/pdf", ".yaml": "text/yaml; charset=utf-8", ".yml": "text/yaml; charset=utf-8",
   ".woff2": "font/woff2", ".woff": "font/woff", ".css": "text/css; charset=utf-8",
+  // Pagefind search indexes (pagefind-ar/en/ur): scripts, and the binary index files.
+  ".js": "text/javascript; charset=utf-8", ".pf_fragment": "application/octet-stream", ".pf_index": "application/octet-stream",
+  ".pf_filter": "application/octet-stream", ".pf_meta": "application/octet-stream", ".pagefind": "application/octet-stream",
 };
 // Data files change rarely and are not HTML: a day at the edge, then refreshed in the background.
 const DATA_CACHE_CONTROL = "public, max-age=86400, stale-while-revalidate=604800";

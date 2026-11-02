@@ -60,7 +60,7 @@ content-addressed pagefind chunks and `api/v1` JSON.
 | `R2_ACCESS_KEY_ID` / `R2_SECRET_ACCESS_KEY` | repository secret, overridden in the `uat` Environment | S3 keys of the bucket the deploy publishes to: the repository pair writes `islam-museum-search`; the `uat` pair is scoped to `islam-museum-uat` only |
 | `R2_SYNC_TOKEN` | repository secret, overridden in the `uat` Environment | bearer token of that environment's sync Workers (the deploy copies it into them) |
 | `R2_BUCKET`, `WRANGLER_ENV`, `PAGES_PROJECT`, `SITE_URL`, `SYNC_WORKER_COUNT` | Environment variables (`production`, `uat`) | where a deploy goes: see `deploy-env.yml` and section 8 |
-| `PAGEFIND_BASE_URL` | repository variable | public R2 URL baked into HTML at build (`PUBLIC_PAGEFIND_BASE`) |
+| `PAGEFIND_BASE_URL` | repository variable | baked into HTML at build (`PUBLIC_PAGEFIND_BASE`). Empty: the search page loads `/pagefind-<lang>/` from the site's own Worker, which serves those folders from R2 (same origin, no CORS). Set it to a public R2 URL only to point search at another origin. |
 | `INDEXNOW` | repository variable | `off` skips the IndexNow ping (production only; UAT never pings) |
 
 No secrets ever enter the repo or the published files — `check-static.ts`
