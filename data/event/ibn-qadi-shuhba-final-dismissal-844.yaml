@@ -1,0 +1,27 @@
+id: event/ibn-qadi-shuhba-final-dismissal-844
+class: event
+kind: other
+label:
+  ar: "عزل ابن قاضي شهبة الأخير وعودة الحمصي إلى قضاء دمشق، ١٢ محرم ٨٤٤هـ"
+  en: "Ibn Qadi Shuhba's final dismissal; al-Himsi returns to the judgeship, 12 Muharram 844"
+  ur: "ابن قاضی شہبہ کا آخری عزل؛ حمصی کی قضاء دمشق پر واپسی، 12 محرم 844ھ"
+summary:
+  ar: "في يوم الاثنين ثاني عشر محرم سنة أربع وأربعين وثمانمئة خُلع على سراج الدين عمر الحمصي وأُعيد إلى قضاء القضاة بدمشق عوضاً عن ابن قاضي شهبة؛ وكان الحمصي قد قدم إلى القاهرة فعُني به بعض أهل الدولة حتى أُعيد إلى وظيفة القضاء، وسار من القاهرة إلى حل ولايته بدمشق {cite:suluk-maqrizi p. 1201-1202}. وبقي ابن قاضي شهبة بعد عزله بطالاً، فتصدى للإفتاء والتدريس سنين كثيرة وانتفع به غالب طلبة دمشق وصنف التصانيف المفيدة إلى أن مات {cite:nujum-zahira 15/523} {cite:shadharat-dhahab p. 269}."
+  en: "On Monday the twelfth of Muharram 844, Siraj al-Din Umar al-Himsi was robed and restored to the chief judgeship of Damascus in place of Ibn Qadi Shuhba; al-Himsi had come to Cairo, was taken up by men of the state, restored to the post and travelled back to Damascus {cite:suluk-maqrizi p. 1201-1202}. Ibn Qadi Shuhba remained unemployed thereafter; he devoted himself to fatwa, teaching and useful writing for many years, and most of Damascus's students profited from him until he died {cite:nujum-zahira 15/523} {cite:shadharat-dhahab p. 269}."
+  ur: "پیر، 12 محرم 844ھ کو سراج الدین عمر حمصی کو خلعت پہنائی گئی اور وہ دمشق کے قاضی القضاۃ کے منصب پر ابن قاضی شہبہ کے بدل بحال ہوا؛ حمصی قاہرہ آیا تھا، اہل دولت نے اس کی داد رسی کی اور وہ اپنے منصب پر واپس دمشق روانہ ہوا {cite:suluk-maqrizi p. 1201-1202}۔ اس کے بعد ابن قاضی شہبہ بے منصب رہا؛ وہ برسوں فتویٰ، تدریس اور تصنیف میں لگا رہا اور دمشق کے بیشتر طلبہ نے اس سے فائدہ اٹھایا، یہاں تک کہ وہ فوت ہوا {cite:nujum-zahira 15/523} {cite:shadharat-dhahab p. 269}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1440-05~", hijri: "0844-01-12", calendar: julian, precision: day, status: historical, derived: true, note: "الاثنين ثاني عشر محرم ٨٤٤ {cite:suluk-maqrizi p. 1201-1202}؛ التحويل مشتق.", sources: [source/suluk-maqrizi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibn-qadi-shuhba, role: "المعزول", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/siraj-al-din-umar-al-himsi, role: "القاضي المعاد إلى المنصب", sources: [source/suluk-maqrizi] }
+sources: [source/suluk-maqrizi, source/nujum-zahira, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "السلوك للمقريزي (ط دار الكتب 1973، ج٤ ق٣، سنة 844، محرم) ص 1201-1202؛ النجوم الزاهرة 15/523؛ شذرات الذهب ص 269، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
