@@ -1,0 +1,58 @@
+id: person/shahqoli-khan-zanganeh
+class: person
+
+label: { ar: "شاه قلي خان زنكنه", en: "Shahqoli Khan Zanganeh", ur: "شاہ قلی خان زنگنہ" }
+
+names:
+  - { value: "Shahqoli Khan Zanganeh", kind: full }
+  - { value: "Shah Quli Khan Zangana", kind: alternate }
+  - { value: "شاه‌قلی‌خان زنگنه", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شاهقلي خان زنگنه (توفي 1716)، نبيل كردي كان الصدر الأعظم للشاه الصفوي سلطان حسين من 1707 إلى وفاته. هو الابن الثالث للوزير شيخ علي خان زنگنه، بدأ واليًا على كرمانشاه في ثمانينيات القرن السابع عشر ثم صار قورجي باشي (قائد الحرس الملكي) سنة 1691 بعد إعدام سارو خان سهندلو الذي احتجّ شاهقلي على قتلِه أفرادًا من إيل زنگنه، وبلغ الصدارة العظمى سنة 1707 فخلفه عند وفاته صهرُه فتح علي خان داغستاني."
+  en: "Shahqoli Khan Zanganeh (died 1716) was a Kurdish nobleman who served as grand vizier to the Safavid shah Soltan Hoseyn from 1707 until his death. The third son of the vizier Shaykh Ali Khan Zanganeh, he began as governor of Kermanshah in the 1680s, became qurchi-bashi (head of the royal bodyguard) in 1691 after the execution of Saru Khan Sahandlu — against whose killing of Zanganeh tribesmen he had protested — and reached the grand vizierate in 1707; on his death he was succeeded by his son-in-law Fath-Ali Khan Daghestani."
+  ur: "شاہ قلی خان زنگنہ (وفات 1716ء) ایک کرد رئیس تھے جو 1707ء سے وفات تک صفوی شاہ سلطان حسین کے وزیرِ اعظم رہے۔ وزیر شیخ علی خان زنگنہ کے تیسرے بیٹے تھے؛ 1680ء کی دہائی میں کرمانشاہ کے حاکم بنے، 1691ء میں سارو خان سہندلو کی پھانسی کے بعد — جس کے ہاتھوں زنگنہ قبیلے کے افراد کے قتل پر انھوں نے احتجاج کیا تھا — قرچی باشی (شاہی محافظ دستے کے سربراہ) ہوئے، اور 1707ء میں وزارتِ عظمیٰ تک پہنچے؛ وفات پر ان کے داماد فتح علی خان داغستانی جانشین ہوئے۔"
+
+roles: [vizier]
+regions: [persia-central-asia]
+wings: [people]
+
+died:
+  edtf: "1716"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "All three articles (English, Persian, Arabic) and the Wikidata item give his death in 1716, at the end of his grand vizierate; the queue's death year 1720 is not followed. The year 1716 spans 1128-1129 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-shahqoli-khan-zanganeh-en, source/wikipedia-shahqoli-khan-zanganeh-fa, source/wikipedia-shahqoli-khan-zanganeh-ar, source/wikidata-shahqoli-khan-zanganeh]
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the man himself.
+      The English and Persian articles describe his family, the
+      Zanganeh, as a Shia Kurdish tribe — the Persian article adds
+      that the tribe played a major role in spreading Shi'ism in
+      western Iran — but a tribe's and family's confession is family
+      background, which under the founder's rules never settles the
+      man's own recorded faith, and the Wikidata item carries no
+      religion statement at all. His faith is therefore recorded as
+      unknown, with the tribal attestation stated here in full.
+    sources: [source/wikipedia-shahqoli-khan-zanganeh-en, source/wikipedia-shahqoli-khan-zanganeh-fa, source/wikidata-shahqoli-khan-zanganeh]
+
+external_ids: { wikidata: "Q20987981" }
+
+sources:
+  - source/wikipedia-shahqoli-khan-zanganeh-en
+  - source/wikipedia-shahqoli-khan-zanganeh-fa
+  - source/wikipedia-shahqoli-khan-zanganeh-ar
+  - source/wikidata-shahqoli-khan-zanganeh
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shahqoli Khan Zanganeh' (revision 1359005172 of 12 June 2026), Persian Wikipedia 'شاهقلی‌خان زنگنه' (revision 40965775 of 12 January 2025), Arabic Wikipedia 'شاه قلي خان زنكنه' (revision 75234949 of 9 June 2026) and Wikidata Q20987981 (item revision 2526972452 of 4 August 2026, re-asserted identical on a second live query), all fetched live in-session on 1 November 2026, the QID grounded from each article's own page property. Existence checked against origin/main before building, by slug variants and by QID: no record exists for him. Identity grounded against the shared name and the queue's dates: the queue's 'Shah Quli Khan' is this Safavid grand vizier, not Shah Quli Khan the 16th-century Mughal governor of Narnaul (Q58377674), whose dates exclude him. Queue corrections: the death year is 1716 in all three articles and the item, not the queue's 1720; and NO birth year is built — no article in any language read gives one (the Persian article prints a question mark for it), and the item's birth value of 1650 is recorded at century precision, so the queue's flat 1650 is unsupported as a birth year and is preserved only in this note and in the item source's reliability note. No child_of is written (his father Shaykh Ali Khan Zanganeh has no record on origin/main), and his succession by Fath-Ali Khan Daghestani belongs in the successor's record, which does not exist."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-180m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

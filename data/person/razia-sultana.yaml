@@ -1,0 +1,76 @@
+id: person/razia-sultana
+class: person
+
+label: { ar: "السلطانة رضية", en: "Razia Sultana", ur: "رضیہ سلطانہ" }
+
+names:
+  - { value: "Raziyyat-ud-Dunya wa-ud-Din", kind: full }
+  - { value: "Sultan Jalalat al-Duniya wal-Din", kind: regnal }
+  - { value: "Razia Sultan", kind: alternate }
+  - { value: "Razia Sultana", kind: alternate }
+
+gender: female
+
+summary:
+  ar: "رضية سلطانة (1205 – أكتوبر 1240)، ابنة السلطان شمس الدين إلتتمش، المرأة الوحيدة التي حكمت دهلي سلطانةً بنفسها. أثبتت كفاءتها حين نابت عن أبيها في دهلي أثناء حملته على گواليور سنة 1231 فعيّنها وليّة لعهده، لكن النبلاء نصبوا أخاها ركن الدين فيروز بعد وفاة أبيها سنة 1236؛ فأطاحت به بمساندة أهل دهلي وحكمت باسم جلالة الدنيا والدين، تضرب السكة باسمها وتصدّت لهجوم القرامطة على جامع دهلي سنة 1237. خلعها انقلاب سنة 1240، فقُتلت قرب كيثال بعد هزيمتها وهي تحاول استرداد عرشها مع زوجها ألتونيا."
+  en: "Razia Sultana (1205 - October 1240), daughter of Sultan Shams ud-Din Iltutmish, was the only woman to rule Delhi as sultan in her own right. Having proved herself governing Delhi in her father's absence on the Gwalior campaign of 1231, she was designated his heir, but on his death in 1236 the nobles installed her brother Ruknuddin Firuz; the people of Delhi helped her depose him, and she reigned as Jalalat al-Duniya wal-Din, striking coins in her own name and beating back the Qarmatian attack on Delhi's Jama Masjid in 1237. A coup deposed her in 1240, and she was killed near Kaithal after her defeat while trying to recover her throne alongside her husband Altunia."
+  ur: "رضیہ سلطانہ (1205ء – اکتوبر 1240ء)، سلطان شمس الدین التتمش کی بیٹی، دہلی پر اپنے حق سے بطور سلطان حکومت کرنے والی واحد خاتون تھیں۔ 1231ء میں والد کی گوالیار مہم کے دوران دہلی کی نائب رہ کر انھوں نے اپنی اہلیت ثابت کی تو والد نے انھیں ولی عہد نامزد کیا، لیکن 1236ء میں والد کی وفات پر امیروں نے ان کے بھائی رکن الدین فیروز کو بٹھا دیا؛ دہلی کے عوام کی مدد سے انھوں نے اسے معزول کیا اور جلالۃ الدنیا والدین کے نام سے حکومت کی، اپنے نام کا سکہ جاری کیا اور 1237ء میں دہلی کی جامع مسجد پر قرامطہ کے حملے کو پسپا کیا۔ 1240ء میں ایک سازش نے انھیں معزول کیا، اور شوہر التونیہ کے ساتھ تخت واپس لینے کی کوشش میں شکست کے بعد وہ کیتھل کے قریب ماری گئیں۔"
+
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1205"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article gives c. 1205 and the Arabic and Urdu articles give 1205; the Wikidata item also gives 1205. Kept at year precision because the English article's date is circa. The year 1205 spans 601-602 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-razia-sultana-en, source/wikipedia-razia-sultana-ar, source/wikipedia-razia-sultana-ur, source/wikidata-razia-sultana]
+
+died:
+  edtf: "1240-10"
+  calendar: gregorian
+  precision: month
+  status: debated
+  hijri: "0638"
+  note: "Killed in October 1240 after her defeat near Kaithal. The English article's lead and the Wikidata item give 15 October 1240, but the article's death narrative judges it more likely that she and Altunia were killed by their captors on 13 October 1240, the day after the defeat of 14 October; with the day itself contested inside the strongest text, the date is built at month precision with both days preserved. October 1240 falls in 638 AH, corroborated by the English article's own reign table (she died in 638 AH). The Arabic article dates her killing to 637 AH — a year earlier — and is not followed on this point, as flagged in its source record."
+  sources: [source/wikipedia-razia-sultana-en, source/wikidata-razia-sultana, source/wikipedia-razia-sultana-ar]
+
+relations:
+  - { type: child_of, target: person/iltutmish, sources: [source/wikipedia-razia-sultana-en, source/wikipedia-razia-sultana-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a school or an order for the sultana
+      herself. The English article's religious material concerns
+      others: the Qarmatians who attacked Delhi's Jama Masjid in
+      1237 are described as condemning the Hanafi and Shafi'i
+      doctrines followed in Delhi — doctrines named for the
+      city's worshippers, not for her — and the article records
+      that she was a devotee of the Sufi saint Shah Turkman
+      Bayabani, at whose hospice she is said to be buried;
+      devotion to a saint, without attested order membership or
+      completed discipleship, is practice and does not settle a
+      value. The Wikidata item's religion statement of Sunni
+      Islam is structured data, which under the founder's rules
+      settles nothing. Her faith is therefore recorded as
+      unknown, with the documented context stated here in full.
+    sources: [source/wikipedia-razia-sultana-en, source/wikidata-razia-sultana]
+
+external_ids: { wikidata: "Q465076" }
+
+sources:
+  - source/wikipedia-razia-sultana-en
+  - source/wikipedia-razia-sultana-ar
+  - source/wikipedia-razia-sultana-ur
+  - source/wikidata-razia-sultana
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Razia Sultan' (revision 1377898262 of 1 October 2026), Arabic Wikipedia 'السلطانة رضية' (revision 73315590 of 5 February 2026), Urdu Wikipedia 'رضیہ سلطانہ' (revision 11801139 of 18 August 2026) and Wikidata Q465076 (item revision 2559599733 of 21 October 2026, re-asserted identical on a second live query), all fetched live in-session on 1 November 2026, the QID grounded from each article's own page property. Existence checked against origin/main before building, by slug variants and by QID: no record exists for her. Queue check: the queue's 1205-1240 is confirmed on both years; the death date is built at month precision because the English article is internally split between 15 and 13 October 1240, as preserved in the died note, and the Arabic article's 637 AH dating is flagged in its source record. The child_of edge to person/iltutmish is written HERE, in the child's record, per the founder's one-write rule, on two article texts (English and Arabic), and person/iltutmish is built in this same wave. No successor_of is written (her predecessor Ruknuddin Firuz has no record on origin/main) and no spouse edge (Malik Altunia has no record)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-180m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
