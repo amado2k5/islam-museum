@@ -1,0 +1,28 @@
+id: event/al-hakim-talamanaki-389
+class: event
+kind: other
+label:
+  ar: "الطلمنكي يكتب علوم الحديث عن الحاكم، ٣٨٩هـ"
+  en: "Al-Talamanaki writes the sciences of hadith from al-Hakim's circle, 389/999"
+  ur: "طلمنکی نے حاکم کے حلقے سے علومِ حدیث لکھیں، 389ھ/999ء"
+summary:
+  ar: "حُدث الحاكم عنه في حياته؛ وكتب أبو عمر الطلمنكي علوم الحديث للحاكم عن شيخ له سنة تسع وثمانين وثلاثمائة بسماعه من صاحب الحاكم عنه، فوقع حديثه عالياً {cite:tarikh-islam-dhahabi p. 124}."
+  en: "Al-Hakim's hadith was already transmitted from him in his own lifetime: in 389/999 Abu Umar al-Talamanaki wrote the sciences of hadith for al-Hakim's corpus through a shaykh of his, by hearing from a companion of al-Hakim, so that the transmission reached posterity with a high isnad {cite:tarikh-islam-dhahabi p. 124}."
+  ur: "حاکم سے ان کی حیات میں ہی حدیث رویت ہونے لگی؛ 389ھ/999ء میں ابو عمر طلمنکی نے اپنے ایک شیخ کے واسطے سے حاکم کے صاحب کی سماعت سے ان کے علومِ حدیث لکھیں، جس سے ان کی روایت عالی اسناد کے ساتھ پہنچی {cite:tarikh-islam-dhahabi p. 124}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0999", hijri: "0389", calendar: julian, precision: year, status: tradition, derived: true, note: "«أبا عمر الطلمنكي كتب علوم الحديث للحاكم، عن شيخ له سنة تسع وثمانين وثلاثمائة» {cite:tarikh-islam-dhahabi p. 124}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "الشيخ المروي عنه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-umr-al-talamanaki, role: "الكاتب الناقل", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405, printed p. 124 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
