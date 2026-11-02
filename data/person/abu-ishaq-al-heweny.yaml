@@ -30,6 +30,8 @@ died:
   sources: [source/wikipedia-abu-ishaq-al-heweny-ar, source/wikipedia-abu-ishaq-al-heweny-en, source/wikidata-abu-ishaq-al-heweny]
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abu-ishaq-al-heweny-ar] }
+  - { type: student_of, target: person/muhammad-najib-al-mutii, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: student_of, target: person/al-albani-muhammad-nasir-al-din, sources: [source/assabile-abu-ishaq-alheweny] }
 faith:
   - value: unknown
     basis: unknown

@@ -1,0 +1,11 @@
+---
+id: person/ahmad-muhammad-shakir
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-3"]
+---
+
+## In «Asdaf al-Lu'lu'» by Abu Ishaq al-Heweny
+[[person/abu-ishaq-al-heweny|Abu Ishaq al-Heweny]] says that «Musnad al-Imam Ahmad» edited by Ahmad Shakir was one of two books of religious learning in his brother's library; he came upon it in 1974 without understanding its chains, later took it, and that first-edition copy is in his library. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep02 00:21:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep02 00:22:30} He relates that an old-book dealer named Kharbush sold him a copy of a book by Ahmad Shakir that turned out to bear Ahmad Shakir's dedication to [[person/abbas-mahmoud-al-aqqad|Abbas Mahmud al-Aqqad]], and he draws from it the point that a dedication may count for little in its time and much later. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:03:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:04:00}
+
+He calls Ahmad Shakir "the last of the eminent hadith scholars of Egypt", and mentions that he defended [[person/shuba-ibn-al-hajjaj|Shu'ba]] against an error in a narrator's name that scholars attributed to him, saying he thinks Shakir was not right in this. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:24:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:25:30} He praises his introduction to al-Shafi'i's [[work/al-risala-shafii|«al-Risala»]]. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep24 00:03:00} He mentions that the edition of al-Tabari's tafsir by Ahmad Shakir and his brother Mahmud was never finished, stopping, he thinks, at Surat al-Ra'd or Ibrahim, and that he thinks they fell out with Dar al-Ma'arif. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:04:00} He mentions that Dar al-Ma'arif in Egypt printed the books of Ahmad Shakir and Muhammad Fu'ad Abd al-Baqi to an excellent standard. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep12 00:27:00} He says Mahmud Muhammad Shakir "filled the world" in the Arabic sciences. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep27 00:02:00}

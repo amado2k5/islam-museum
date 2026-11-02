@@ -1,0 +1,11 @@
+---
+id: person/ibn-abi-hatim-al-razi
+lang: ur
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-3"]
+---
+
+## ابو اسحاق حوینی کے «اصداف اللؤلؤ» میں
+[[person/abu-ishaq-al-heweny|ابو اسحاق حوینی]] کہتے ہیں کہ انہوں نے زندگی میں ابن ابی حاتم کی «العلل» سو سے زیادہ بار پڑھی ہے، کہ یہ ان کے لیے ریاضی کی طرح ہے، اور ہر بار وہ اس میں کچھ نیا پاتے ہیں۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep10 00:04:30} ان کے زیادہ تر حواشی پرانی دو جلدوں والی طباعت پر ہیں، اور وہ ان مقامات کو درج کرتے ہیں جہاں بعد کے علما «العلل» سے وہ عبارتیں نقل کرتے ہیں جو مطبوعہ متن میں نہیں، جیسے ابن حجر «التلخیص الحبیر» میں اور ذہبی «المیزان» میں۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:04:00} وہ اس سے جبری طلاق کا ایک مسئلہ پڑھتے ہیں اور یہ سبق نکالتے ہیں کہ حدیث موضوع ہو سکتی ہے بغیر اس کے کہ اس کی سند میں کوئی جھوٹا ہو، اور علما موضوع اور باطل میں فرق کرتے ہیں۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:05:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:06:00}
+
+وہ «العلل» پر اپنے کام کو یوں بیان کرتے ہیں: ابن ابی حاتم اپنے والد یا ابو زرعہ، دونوں رازیوں، سے کسی حدیث کے بارے میں پوچھتے ہیں اور وہ سبب بتائے بغیر «منکر» کہہ دیتے ہیں؛ وہ ہر وہ طریق تلاش کرتے ہیں جس تک پہنچ سکیں اور اس پر نقد کرتے ہیں، پھر موافقت یا مخالفت کرتے ہیں، اور مخالفت میں طویل بحث کرتے ہیں۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:09:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:09:30} وہ کہتے ہیں کہ پوری کتاب کے لیے عمر کافی نہیں، اس لیے انہوں نے اس کے تقریباً پانچ ابواب چنے: طہارت، تفسیر، زہد، نکاح اور جنائز؛ صرف کتاب الطہارہ تین جلدوں میں آئے گی، اور انہوں نے اس پر «بذل الإحسان» سے زیادہ محنت کی۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:10:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:10:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:11:00} وہ بتاتے ہیں کہ ابن ابی حاتم کی تفسیر ڈاکٹر الترکی کی طباعت میں دس جلدوں میں ہے، اور افسوس کرتے ہیں کہ اس میں احادیث و آثار پر نمبر نہیں ڈالے گئے۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:05:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:06:00}
