@@ -3,10 +3,12 @@ class: work
 kind: book
 label: { ar: "المهذب في فقه الإمام الشافعي", en: "Al-Muhadhdhab fi Fiqh al-Imam al-Shafi'i" }
 summary:
-  ar: "بطاقة أولية لـالمهذب في فقه الإمام الشافعي؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Muhadhdhab fi Fiqh al-Imam al-Shafi'i; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "موسوعة أبي إسحاق الشيرازي الفقهية التي كتبها بين ٤٥٥ و٤٦٩هـ، وصارت مع «التنبيه» من خمسة كتب مرجعية في المذهب الشافعي وعليها جهاز شرحي واسع منه «المجموع شرح المهذب» للنووي {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  en: "Abu Ishaq al-Shirazi's great fiqh compendium, written between 455/1063 and 469/1077; with al-Tanbih it became one of the five reference works of the Shafi'i school and drew a vast critical apparatus, including al-Nawawi's al-Majmu' sharh al-Muhadhdhab {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  ur: "ابو اسحاق شیرازی کا بڑا فقہی ذخیرہ جو 455-469ھ کے درمیان لکھا گیا؛ «التنبیہ» کے ساتھ شافعی مذہب کی پانچ مرجع کتب میں شمار ہوتا ہے اور اس پر وسیع شرحی ادبیات لکھی گئیں جن میں نووی کا «المجموع شرح المھذب» بھی ہے {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}۔"
+authors: [person/abu-ishaq-al-shirazi]
+wings: [time]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids: { wikidata: "Q20389197" }
 provenance:
   layer: own-research
@@ -14,4 +16,4 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

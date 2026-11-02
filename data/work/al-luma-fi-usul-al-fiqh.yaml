@@ -3,10 +3,12 @@ class: work
 kind: book
 label: { ar: "اللمع في أصول الفقه", en: "Al-Luma' fi Usul al-Fiqh" }
 summary:
-  ar: "بطاقة أولية لـاللمع في أصول الفقه؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Luma' fi Usul al-Fiqh; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "مختصر أبي إسحاق الشيرازي في أصول الفقه، صنّفه نحو سنة ٤٥٠هـ وشرحه هو بنفسه {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  en: "Abu Ishaq al-Shirazi's manual of usul al-fiqh, composed about 450/1058, and commented upon by the author himself {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}."
+  ur: "ابو اسحاق شیرازی کا اصولِ فقہ کا مختصر جو تقریباً 450ھ میں تصنیف ہوا اور جس کی شرح مصنف نے خود کی {cite:encyclopaedia-of-islam-2 vol. 9 p. 495}۔"
+authors: [person/abu-ishaq-al-shirazi]
+wings: [time]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids: { wikidata: "Q20388992" }
 provenance:
   layer: own-research
@@ -14,4 +16,4 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
