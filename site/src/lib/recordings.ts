@@ -13,6 +13,7 @@ import recordingsQaradawi from "../data/recordings-yusuf-al-qaradawi.json";
 import recordingsShaarawy from "../data/recordings-muhammad-metwally-al-shaarawy.json";
 import recordingsKahlawi from "../data/recordings-abla-al-kahlawi.json";
 import recordingsHeweny from "../data/recordings-abu-ishaq-alheweny.json";
+import recordingsFarid from "../data/recordings-ahmad-farid.json";
 import recordingsMansour from "../data/recordings-abd-al-rahman-mansour.json";
 
 export interface RecordingRef {
@@ -35,6 +36,7 @@ const SPEAKER_BY_SOURCE: Record<string, string> = {
   "source/assabile-muhammad-metwally-al-shaarawy": "muhammad-metwally-al-shaarawy",
   "source/assabile-abla-al-kahlawi": "abla-al-kahlawi",
   "source/assabile-abu-ishaq-alheweny": "abu-ishaq-alheweny",
+  "source/assabile-ahmad-farid": "ahmad-farid",
   "source/assabile-abd-al-rahman-mansour": "abd-al-rahman-mansour",
 };
 const LOCATOR = /^([a-z0-9-]+)\/ep(\d+)(?:\s+(\d{1,2}):(\d{2}):(\d{2}))?/;
@@ -51,6 +53,7 @@ const MAP_BY_SPEAKER: Record<string, Known> = {
   "muhammad-metwally-al-shaarawy": recordingsShaarawy as Known,
   "abla-al-kahlawi": recordingsKahlawi as Known,
   "abu-ishaq-alheweny": recordingsHeweny as Known,
+  "ahmad-farid": recordingsFarid as Known,
   "abd-al-rahman-mansour": recordingsMansour as Known,
 };
 

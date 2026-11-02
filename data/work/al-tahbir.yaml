@@ -3,15 +3,17 @@ class: work
 kind: book
 label: { ar: "التحبير في المعجم الكبير", en: "al-Tahbir fi al-Mujam al-Kabir" }
 summary:
-  ar: "بطاقة أولية لـالتحبير في المعجم الكبير؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Tahbir fi al-Mujam al-Kabir; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "معجم السمعاني في تراجم علماء عصره رجالاً ونساءً، يزيد على ألف ومائتي ترجمة، لمن لقيه في طلبه بمرو ونيسابور وأصبهان وغيرها أو راسله أو أجازه؛ نسخه المستوفى في السنة التي سبقت وفاته، وفي التاريخ ثلاثمائة طاقة {cite:encyclopaedia-of-islam-2 vol. 8 p. 1025} {cite:tarikh-islam-dhahabi p. 122}."
+  en: "Al-Sam'ani's dictionary of contemporary scholars, men and women — more than 1,200 biographies of those he met on his talab at Marw, Nishapur, Isfahan and beyond, or corresponded with, or who granted him ijaza; he produced the clean copy in the year before his death; 300 folios per the Tarikh {cite:encyclopaedia-of-islam-2 vol. 8 p. 1025} {cite:tarikh-islam-dhahabi p. 122}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
 external_ids: { wikidata: "Q135263854" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
+  source: "EI2 vol. 8 art. al-Sam'ani (R. Sellheim), printed p. 1025; al-Dhahabi, Tarikh al-Islam s.a. 562, printed p. 122 (harvest OCR); Wikidata candidate confirmed on the page"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  run: explorer-al-samani-1
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
