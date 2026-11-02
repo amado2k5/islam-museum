@@ -1,0 +1,27 @@
+id: event/qifti-aleppo-598
+class: event
+kind: other
+label:
+  ar: "القفطي يفارق القدس إلى حلب، ٥٩٨هـ"
+  en: "Al-Qifti leaves Jerusalem for Aleppo, 598/1201"
+  ur: "قفطی قدس سے حلب چلے گئے، 598ھ/1201ء"
+summary:
+  ar: "اضطر القفطي — بسبب الاضطرابات التي تلت وفاة صلاح الدين — إلى الرحيل سنة ثمان وتسعين وخمسمائة إلى حلب، حيث رعاه صديق لأبيه وشجعه فعاد إلى الاشتغال بالعلم سنوات {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  en: "The disturbances that followed Salah al-Din's death forced al-Qifti to leave in 598/1201 for Aleppo, where the protection and encouragement of a friend of his father let him resume his scholarly pursuits for several years {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  ur: "صلاح الدین کی وفات کے بعد مچی گڈ مڈ نے قفطی کو 598ھ/1201ء میں حلب جانے پر مجبور کر دیا، جہاں والد کے ایک دوست کی سرپرستی اور ہمت افزائی سے وہ کئی برس علمی مشاغل میں لگے رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1201", hijri: "0598", calendar: julian, precision: year, status: tradition, derived: true, note: "598/1201 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "المهاجر إلى حلب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

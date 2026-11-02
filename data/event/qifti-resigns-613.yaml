@@ -1,0 +1,27 @@
+id: event/qifti-resigns-613
+class: event
+kind: other
+label:
+  ar: "القفطي يستقيل عند وفاة الملك الظاهر، ٦١٣هـ"
+  en: "Al-Qifti resigns on al-Malik al-Zahir's death, 613/1216"
+  ur: "قفطی نے ملک ظاہر کی وفات پر استعفیٰ دیا، 613ھ/1216ء"
+summary:
+  ar: "لما توفي الملك الظاهر غازي سنة ثلاث عشرة وستمائة استقال القفطي من ديوان المال، ثم أعاده خلف الظاهر الملك العزيز محمد إلى المنصب نفسه بعد ثلاث سنين {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  en: "When al-Malik al-Zahir Ghazi died in 613/1216 al-Qifti resigned; three years later al-Zahir's successor al-Malik al-Aziz Muhammad restored him to the same post {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  ur: "جب 613ھ/1216ء میں ملک ظاہر غازی کا انتقال ہوا تو قفطی نے استعفیٰ دے دیا؛ تین برس بعد ظاہر کے جانشیں ملک عزیز محمد نے انھیں اسی منصب پر بحال کر دیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1216", hijri: "0613", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة وفاة الملك الظاهر ٦١٣هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "المستقيل", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
