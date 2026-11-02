@@ -1,0 +1,28 @@
+id: event/baghdadi-aq-succeeds-isfarayini-418
+class: event
+kind: death
+label:
+  ar: "وفاة الأستاذ أبي إسحاق الإسفراييني وجلوس البغدادي للإملاء مكانه، ٤١٨هـ"
+  en: "Abu Ishaq al-Isfarayini dies and al-Baghdadi takes his dictation seat, 418/1027"
+  ur: "ابو اسحاق اسفرائینی کی وفات اور بغدادی کا ان کے امبانی پر بیٹھنا، 418ھ/1027ء"
+summary:
+  ar: "توفي الأستاذ أبو إسحاق الإسفراييني بنيسابور يوم عاشوراء سنة ثمان عشرة وأربعمائة، ثم نُقل إلى بلده إسفرايين فدُفن بمشهده المعروف {cite:shadharat-dhahab p. 210}؛ وجلس تلميذه عبد القاهر البغدادي بعده للإملاء مكانه في المسجد فأملى سنين، واختلف إليه الأئمة فقرءوا عليه {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tabaqat-shafiiyya-subki p. 238}."
+  en: "The master Abu Ishaq al-Isfarayini died at Nishapur on the day of Ashura in 418, then was carried to his home town Isfarayin and buried at his well-known shrine {cite:shadharat-dhahab p. 210}; his pupil Abd al-Qahir al-Baghdadi was seated in his place to dictate in the mosque and dictated for years, and the imams thronged to read under him {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tabaqat-shafiiyya-subki p. 238}."
+  ur: "استاد ابو اسحاق اسفرائینی 418ھ کو نیشاپور میں یوم عاشورا فوت ہوئے، پھر ان کے وطن اسفراین لے جا کر مشہور مشہد میں دفن کیے گئے {cite:shadharat-dhahab p. 210}؛ ان کے شاگرد عبدالقاہر بغدادی ان کے بعد مسجد میں املا کے لیے ان کی جگہ بیٹھے اور برسوں املا کراتے رہے اور ائمہ ان کے پاس پڑھنے کا جمع کردتے تھے {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tabaqat-shafiiyya-subki p. 238}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1027", hijri: "0418", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة أبي إسحاق يوم عاشوراء ٤١٨هـ بنيسابور {cite:shadharat-dhahab p. 210}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-isfarayini-abu-ishaq-ibrahim, role: "الشيخ المتوفى", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-baghdadi-abd-al-qahir-ibn-tahir, role: "الخلف في الإملاء", sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-shafiiyya-subki] }
+sources: [source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba, source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "Ibn al-Imad, Shadharat al-Dhahab s.a. 418 printed p. 210 (harvest OCR); موسوعة أعلام العلماء والأدباء ج3 ص634-635; al-Subki, Tabaqat, printed p. 238 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baghdadi-aq-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
