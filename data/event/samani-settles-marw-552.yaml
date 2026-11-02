@@ -1,0 +1,27 @@
+id: event/samani-settles-marw-552
+class: event
+kind: other
+label:
+  ar: "السمعاني يلقي عصا الترحال بمرو: التدريس بالعميدية والتصنيف، نحو ٥٥٢هـ/١١٥٧م"
+  en: "Al-Sam'ani casts down the staff of travel at Marw: teaching at the Amidiyya and composing, c. 552/1157"
+  ur: "سمعانی مرو میں سفر کا عصا رکھ دیتے ہیں: عمیدیہ میں تدریس اور تصنیف، تقریباً 552ھ/1157ء"
+summary:
+  ar: "عاد السمعاني إلى مرو فألقى بها عصا الترحال، وأقبل على التصنيف والإملاء والوعظ والتدريس، ودرّس بالمدرسة العميدية، وكان عالي الهمة في الطلب سريع الكتابة جداً مجتهداً مضبوط الأوقات، وجمع معجمه في عشر مجلدات كبار {cite:tarikh-islam-dhahabi p. 121}؛ ونُسخت نسخته الفريدة من «أدب الإملاء والاستملاء» بمرو سنة ٥٤٦هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 1025}."
+  en: "Back at Marw, al-Sam'ani cast down the staff of travel and turned to composition, dictation, preaching and teaching; he taught at the Amidiyya madrasa — high-aspiring in the quest, a very fast writer, industrious, master of his hours — and his mu'jam grew to ten large volumes {cite:tarikh-islam-dhahabi p. 121}. The unique manuscript of his Adab al-imla' wa-l-istimla' was copied at Marw in 546/1152 {cite:encyclopaedia-of-islam-2 vol. 8 p. 1025}."
+  ur: "مرو واپس آکر سمعانی نے سفر کا عصا رکھ دیا اور تصنیف، املاء، وعظ اور تدریس میں لگ گئے؛ وہ مدرسہ عمیدیہ میں پڑھاتے — طلب میں بلند ہمت، بہت تیز نویس، محنتی اور وقت کے پابند — اور ان کا معجم دس بڑی جلدوں تک پہنچا {cite:tarikh-islam-dhahabi p. 121}۔ ان کی ادب الاملاء والاستملاء کی واحد مخطوطہ مرو میں 546ھ/1152ء میں نقل ہوئی {cite:encyclopaedia-of-islam-2 vol. 8 p. 1025}۔"
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1157~", hijri: "0552~", calendar: julian, precision: year, status: tradition, derived: true, note: "ثم عاد به إلى مرو وألقى بها عصا الترحال وأقبل على التصنيف والإملاء والوعظ والتدريس {cite:tarikh-islam-dhahabi p. 121}؛ تقريبي بعد الرحلة الثالثة ٥٥٢هـ؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/merv, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-samani, role: "المدرّس المصنّف", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 562, printed p. 121 (harvest OCR); EI2 vol. 8 art. al-Sam'ani, printed p. 1025"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-samani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
