@@ -24,3 +24,14 @@ provenance:
   run: lib-subki-tabaqat-ts1
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-shafiiyya-subki]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-shafiiyya-subki]

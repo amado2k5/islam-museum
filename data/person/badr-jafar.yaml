@@ -36,3 +36,9 @@ external_ids: { wikidata: "Q4841096" }
 sources: [source/wikipedia-badr-jafar-en, source/wikipedia-badr-jafar-ar, source/wikidata-badr-jafar]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1372404229 of 31 August 2026), the Arabic Wikipedia article (revision 73354520 of 9 February 2026) and Wikidata Q4841096 (revision 2538925673 of 1 September 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed; the origin/main record al-jafari-badr is a different, historical person. No Urdu Wikipedia article exists for him (the Wikidata item carries no urwiki sitelink), so no Urdu source is registered. His full name, Badr Hamid Jafar, is taken from the Arabic article and the English article's Arabic name form. Faith - no text names a religion or school for Jafar himself and Wikidata carries no religion statement, so unknown on the absence pattern. No relations are written - his wife Razan Khalifa Al Mubarak, named in the English article, has no record on main. No place entity exists on main for Sharjah, so no birthplace is recorded.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-173a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-badr-jafar-en, source/wikipedia-badr-jafar-ar, source/wikidata-badr-jafar]

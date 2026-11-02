@@ -42,3 +42,9 @@ external_ids: { wikidata: "Q40889186" }
 sources: [source/wikipedia-firoz-merchant-en, source/wikipedia-firoz-merchant-ur, source/wikidata-firoz-merchant, source/timesofindia-firoz-merchant]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1369325747 of 14 August 2026), the Urdu Wikipedia stub (revision 11827682 of 25 August 2026), Wikidata Q40889186 (revision 2518944490 of 18 July 2026, re-asserted identical on a second live query on 1 November 2026) and the Times of India report of 24 February 2026, all retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree) before building - no record existed (person/firoz-khan-noon, a different man, is on main and was left untouched). The English article is weak, carrying undisclosed-paid-editing and notability banners; the record keeps to what the article and the Times of India report jointly support. Faith - his Ramadan-centred prisoner-release philanthropy is documented practice, stated in full in the faith note; no text names a school for Merchant himself, so unknown under the founder doctrine. No relations or birthplace are written - no relative has a record on main and no place entity exists for Mumbai or Dubai.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-172a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-firoz-merchant-en, source/wikipedia-firoz-merchant-ur, source/wikidata-firoz-merchant, source/timesofindia-firoz-merchant]
