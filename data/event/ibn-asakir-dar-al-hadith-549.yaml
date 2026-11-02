@@ -1,0 +1,28 @@
+id: event/ibn-asakir-dar-al-hadith-549
+class: event
+kind: founding
+label:
+  ar: "نور الدين يدخل دمشق ويبني أول دار حديث لابن عساكر، ٥٤٩هـ/١١٥٤م"
+  en: "Nur al-Din takes Damascus and builds the first Dar al-Hadith for Ibn 'Asakir, 549/1154"
+  ur: "نور الدین کا دمشق پر قبضہ اور ابن عساکر کے لیے پہلی دار الحدیث کی تعمیر، 549ھ/1154ء"
+summary:
+  ar: "لما دخل نور الدين دمشق سنة تسع وأربعين اتصل فوراً بابن عساكر لمكانة بني عساكر في مجتمعها ولمكانته هو حافظاً وفقيهاً، فوجد فيه حليفاً نافعاً لتنفيذ برنامجه السني في دمشق؛ وبنى له أول دار حديث تعرف أيضاً بدار السنة، وشجعه على إتمام تاريخه الكبير الذي كان قد بلغ سنة ٥٤٩هـ سبعة وخمسين مجلداً {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "When Nur al-Din occupied Damascus in 549/1154 he at once made contact with Ibn 'Asakir, given the standing of the Banu 'Asakir in the city's society and 'Ali's own prestige as hafiz and jurist; in him the sovereign found a valuable ally for his programme of Sunni restoration, built for him the first dar al-hadith — known also as the dar al-Sunna — and encouraged him to complete the great Tarikh, which by 549 already ran to fifty-seven volumes {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "جب نور الدین نے 549ھ/1154ء میں دمشق پر قبضہ کیا تو فوراً ابن عساکر سے رابطہ قائم کیا — بنو عساکر کی سماجی حیثیت اور خود ان کی حافظ و فقیہ کے مقام کی بنا پر — اور انہیں سنی احیاء کے منصوبے میں قیمتی حلیف پایا؛ ان کے لیے پہلی دار الحدیث — دار السنہ کے نام سے بھی معروف — بنوائی اور عظیم تاریخ کو مکمل کرنے کی ترغیب دی جو 549ھ تک سنتاون جلدوں تک پہنچ چکی تھی {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1154~", hijri: "0549", calendar: julian, precision: year, status: tradition, derived: true, note: "on his occupation of Damascus in 549/1154 {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "شيخ دار الحديث", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "الباني", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
