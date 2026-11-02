@@ -1,0 +1,28 @@
+id: event/al-sakhawi-imla-846
+class: event
+kind: other
+label:
+  ar: "السخاوي يلازم إملاء ابن حجر مع الجماعة من ٨٤٦هـ حتى وفاته"
+  en: "Al-Sakhawi joins Ibn Hajar's dictation circle, 846/1442 until the master's death"
+  ur: "سخاوی ابن حجر کے مجلسِ املا میں شریک، 846ھ/1442ء سے استاد کی وفات تک"
+summary:
+  ar: "دوّن السخاوي عن ابن حجر ما كتبه عنه في الإملاء مع الجماعة من سنة ست وأربعين (٨٤٦هـ) إلى أن مات شيخه، وداوم على الملازمة حتى حمل عنه عاماً جماً وكان من أكثر الآخذين عنه؛ وكان منزل أبيه مجاوراً لمنزل ابن حجر فلم يفته مما يُقرأ عليه إلا النادر {cite:daw-lami-jil-1992 8/6-7}."
+  en: "From 846/1442 al-Sakhawi wrote down what Ibn Hajar dictated 'with the company', continuing until the shaykh's death; his father's house adjoined Ibn Hajar's, so he missed almost nothing that was read to him and became one of his most assiduous transmitters {cite:daw-lami-jil-1992 8/6-7}."
+  ur: "846ھ/1442ء سے سخاوی نے ابن حجر کی املا میں «جماعت کے ساتھ» لکھنا شروع کیا اور شیخ کی وفات تک جاری رکھا؛ اس کے والد کا مکان ابن حجر کے مکان سے ملحق تھا اس لیے جو کچھ پڑھایا جاتا اس سے کم ہی محروم رہتا اور وہ استاد کے سب سے زیادہ ناقلین میں شمار ہوا {cite:daw-lami-jil-1992 8/6-7}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1442~", hijri: "0846", calendar: julian, precision: year, status: tradition, derived: true, note: "من سنة ست وأربعين ٨٤٦هـ وإلى أن مات شيخه {cite:daw-lami-jil-1992 8/6}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/daw-lami-jil-1992] }
+  - { type: had_participant, target: person/al-sakhawi, role: "المستملي الملازم", sources: [source/daw-lami-jil-1992] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "المُملي", sources: [source/daw-lami-jil-1992] }
+sources: [source/daw-lami-jil-1992]
+provenance:
+  layer: own-research
+  source: "الضوء اللامع ج٨ ص ٦-٧ (archive.org Dawou_Lami part 8)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-sakhawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

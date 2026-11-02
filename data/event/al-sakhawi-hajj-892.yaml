@@ -1,0 +1,27 @@
+id: event/al-sakhawi-hajj-892
+class: event
+kind: other
+label:
+  ar: "حجة السخاوي ٨٩٢هـ وجوار ثانٍ، ١٤٨٧م"
+  en: "Al-Sakhawi's hajj of 892 and second long sojourn, 1487"
+  ur: "سخاوی کا حج 892ھ اور دوسری طویل مجاورت، 1487ء"
+summary:
+  ar: "حج السخاوي في سنة اثنتين وتسعين (٨٩٢هـ/١٤٨٧م) ثم جاور بمكة سنة ثلاث وتسعين ثم سنة أربع وتسعين، وقد كان بينه وبين بعض أقرانه من أهل مصر ما بين الأقران — أشهرهم السيوطي — مما زاد إقباله على جوار الحرمين {cite:daw-lami-jil-1992 8/14} {cite:shadharat-dhahab p. 432} {cite:encyclopaedia-of-islam-2 vol. 8 p. 947}."
+  en: "Al-Sakhawi performed the hajj in 892/1487 and then sojourned in Mecca through 893 and 894. His standing quarrel with his Egyptian peers — most famously al-Suyuti — made the sanctuary cities all the more welcoming {cite:daw-lami-jil-1992 8/14} {cite:shadharat-dhahab p. 432} {cite:encyclopaedia-of-islam-2 vol. 8 p. 947}."
+  ur: "سخاوی نے 892ھ/1487ء میں حج کیا اور پھر 893ھ اور 894ھ میں مکہ میں مجاور رہا۔ مصر کے ہم عصروں — خاص طور پر سیوطی — سے اس کا معمولی جھگڑا حرمین کی مجاورت کو اور بھی راغب کرنے والا تھا {cite:daw-lami-jil-1992 8/14} {cite:shadharat-dhahab p. 432} {cite:encyclopaedia-of-islam-2 vol. 8 p. 947}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+date:
+  start: { edtf: "1487~", hijri: "0892", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة اثنتين وتسعين ٨٩٢هـ {cite:daw-lami-jil-1992 8/14}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/daw-lami-jil-1992] }
+  - { type: had_participant, target: person/al-sakhawi, role: "الحاج المجاور", sources: [source/daw-lami-jil-1992] }
+sources: [source/daw-lami-jil-1992, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الضوء اللامع ج٨ ص ١٤؛ شذرات الذهب ج٨ ص ١٦ (الممسوحة 432)؛ EI2 vol. 8 pp. 946-947"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-sakhawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
