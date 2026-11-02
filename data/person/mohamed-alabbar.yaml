@@ -36,3 +36,9 @@ external_ids: { wikidata: "Q4120392" }
 sources: [source/wikipedia-mohamed-alabbar-en, source/wikipedia-mohamed-alabbar-ar, source/wikidata-mohamed-alabbar]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1371254754 of 25 August 2026), the Arabic Wikipedia article (revision 72013606 of 13 September 2025) and Wikidata Q4120392 (revision 2394296750 of 19 August 2025, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no urwiki sitelink), so no Urdu source is registered and the Urdu prose is the museum's own rendering of the same facts. Faith - no text names a religion or school for Alabbar himself and Wikidata carries no religion statement, so unknown on the absence pattern. No relations are written - no relative or associate has a record on main, and the record is kept to the man himself (his son Rashid, who appears in business coverage, has no record and is not treated here). No place entity exists on main for Dubai, so no birthplace is recorded.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-173a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-mohamed-alabbar-en, source/wikipedia-mohamed-alabbar-ar, source/wikidata-mohamed-alabbar]

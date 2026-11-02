@@ -37,3 +37,9 @@ external_ids: { wikidata: "Q1659240" }
 sources: [source/wikipedia-low-tuck-kwong-en, source/wikipedia-low-tuck-kwong-id, source/wikidata-low-tuck-kwong]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Low Tuck Kwong' (revision 1378180637 of 3 October 2026), the Indonesian article 'Low Tuck Kwong' (revision 30109366 of 26 October 2026) and Wikidata Q1659240 (revision 2474553361 of 22 March 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him, so the Arabic and Urdu prose is the museum's rendering. He is living - no death is recorded in any source read, and both articles and recent 2026 press coverage present him as active. No born_in relation is written because no place record for Singapore exists on main. Faith - unknown: no text read names a faith for the man himself and Wikidata carries no religion statement.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-178a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-low-tuck-kwong-en, source/wikipedia-low-tuck-kwong-id, source/wikidata-low-tuck-kwong]

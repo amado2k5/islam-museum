@@ -25,3 +25,9 @@ relations:
 sources: [source/assabile-abu-ishaq-alheweny, source/fihrist-ibn-al-nadim]
 provenance: { layer: copyrighted-reference, source: "Assabile, madrassat-al-hayat ep01-ep12 (speaker page https://www.assabile.com/abu-ishaq-alheweny read 1 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader); Ibn al-Nadim, al-Fihrist p. 74 (as cited on person/asim-ibn-bahdala)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-heweny-1 }
 status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-heweny-1" }
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/assabile-abu-ishaq-alheweny, source/fihrist-ibn-al-nadim]

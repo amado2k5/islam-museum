@@ -46,3 +46,9 @@ external_ids: { wikidata: "Q4834167" }
 sources: [source/wikipedia-br-shetty-en, source/wikipedia-br-shetty-ar, source/wikipedia-br-shetty-ur, source/wikidata-br-shetty, source/baps-br-shetty, source/wikibio-br-shetty]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1360732023 of 23 June 2026), the Arabic Wikipedia article (revision 76411476 of 2 September 2026), the Urdu Wikipedia stub (revision 11445721 of 5 July 2026), Wikidata Q4834167 (revision 2529544936 of 10 August 2026, re-asserted identical on a second live query on 1 November 2026) and two further texts read in full in-session - the BAPS report of 11 February 2018 and the WikiBio profile; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree) before building - no record existed. Faith - hindu at basis documented on the two texts named in the faith note, which attest the value for Shetty himself; his Bunt background and Jan Sangh activism were expressly not relied on, and Wikidata carries no religion statement. The NMC collapse is presented as the articles present it. No relations are written - no relative has a record on main - and no place entity exists on main for Udupi or Kaup, so no birthplace is recorded.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-172a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-br-shetty-en, source/wikipedia-br-shetty-ar, source/wikipedia-br-shetty-ur, source/wikidata-br-shetty, source/baps-br-shetty, source/wikibio-br-shetty]

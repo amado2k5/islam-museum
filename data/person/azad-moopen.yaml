@@ -44,3 +44,9 @@ external_ids: { wikidata: "Q4832047" }
 sources: [source/wikipedia-azad-moopen-en, source/wikipedia-azad-moopen-ur, source/wikidata-azad-moopen]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1373530608 of 6 September 2026), the Urdu Wikipedia stub (revision 11387293 of 1 July 2026) and Wikidata Q4832047 (revision 2514096965 of 5 July 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree) before building - no record existed. The article's two rival 1953 birth days are both preserved, the infobox and early-life reading followed with status debated. Faith - no text names a school for Moopen himself; his documented community leadership (founding chairman of the Association of Indian Muslims in the UAE) is stated in full and settles nothing under the founder doctrine, so unknown. No relations are written - no relative has a record on main. No place entity exists on main for Kalpakanchery, Kozhikode or Dubai, so no birthplace is recorded.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-172a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-azad-moopen-en, source/wikipedia-azad-moopen-ur, source/wikidata-azad-moopen]

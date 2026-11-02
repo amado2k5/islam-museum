@@ -51,8 +51,9 @@ routes = [{ pattern = "uat.islam.museum", custom_domain = true }]
 directory = "../../dist-assets"
 binding = "ASSETS"
 not_found_handling = "404-page"
-# Same list as production plus /robots.txt, which the Worker answers with "Disallow: /" in UAT.
-run_worker_first = ["/ar/*", "/en/*", "/ur/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/robots.txt"]
+# Same list as production plus /api/* (so UAT's API redirects use uat-api, via HOST_REWRITES) and
+# /robots.txt, which the Worker answers with "Disallow: /" in UAT.
+run_worker_first = ["/ar/*", "/en/*", "/ur/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/api/*", "/robots.txt"]
 
 [[env.uat.r2_buckets]]
 binding = "SITE_BUCKET"

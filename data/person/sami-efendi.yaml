@@ -56,3 +56,8 @@ occupations:
     start: { edtf: "1878-04-18", precision: day, status: historical, sources: [source/tdv-sami-efendi] }
     note: "The DİA entry dates his appointment to the post of teacher of the various hands in the Dîvân-ı Hümâyun to 18 April 1878, and records years of writing teaching at the Topkapı palace school (Enderun) and at the Mustafa Paşa madrasa in Çarşıkapı."
     sources: [source/tdv-sami-efendi, source/tdv-hattat]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-sami-efendi-en, source/wikipedia-sami-efendi-tr, source/wikipedia-sami-efendi-ar, source/wikipedia-sami-efendi-ur, source/wikidata-sami-efendi, source/tdv-sami-efendi]

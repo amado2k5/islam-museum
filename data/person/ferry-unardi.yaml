@@ -39,3 +39,9 @@ external_ids: { wikidata: "Q25469064" }
 sources: [source/wikipedia-ferry-unardi-en, source/wikipedia-ferry-unardi-id, source/wikidata-ferry-unardi]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Ferry Unardi' (revision 1342377813 of 8 March 2026), the Indonesian article 'Ferry Unardi' (revision 29817320 of 17 September 2026) and Wikidata Q25469064 (revision 2562834148 of 31 October 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him, so the Arabic and Urdu prose is the museum's rendering. He is living - no death is recorded in any source read. The queue row's 1988 birth year is confirmed by the articles. No born_in relation is written because no place record for Padang exists on main. Faith - unknown: the articles name no faith for him and Wikidata carries no religion statement; his Chinese descent and his Catholic-school schooling in Padang are background, not attestation.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-179a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-ferry-unardi-en, source/wikipedia-ferry-unardi-id, source/wikidata-ferry-unardi]
