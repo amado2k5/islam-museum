@@ -1,0 +1,30 @@
+id: event/shirazi-studies-fars-basra-410
+class: event
+kind: other
+label:
+  ar: "دراسة الشيرازي الفقه بشيراز والبصرة، ٤١٠-٤١٥هـ"
+  en: "Al-Shirazi's legal studies at Shiraz and Basra, 410-415/1019-1024"
+  ur: "شیرازی کی شیراز اور بصرہ میں فقہی تعلیم، 410-415ھ/1019-1024ء"
+summary:
+  ar: "من سنة ٤١٠هـ إلى سنة ٤١٥هـ تابع أبو إسحاق الشيرازي — وقد بدأ الفقه بمسقط رأسه فيروزآباد — دراسته الفقهية بشيراز ثم بالبصرة على مشايخ من الشافعية خصّ كلّ واحد منهم بترجمة في كتابه «طبقات الفقهاء» {cite:encyclopaedia-of-islam-2 vol. 9 p. 494}."
+  en: "From 410/1019 to 415/1024 Abu Ishaq al-Shirazi — who had begun fiqh in his native Firuzabad — pursued his legal education at Shiraz and then at Basra under various Shafi'i masters, each of whom he later gave a biographical entry in his Tabaqat al-fuqaha {cite:encyclopaedia-of-islam-2 vol. 9 p. 494}."
+  ur: "410ھ/1019ء سے 415ھ/1024ء تک ابو اسحاق شیرازی نے — جنھوں نے اپنے آبائی شہر فیروزآباد میں فقہ کا آغاز کیا — شیراز اور پھر بصرہ میں کئی شافعی مشائخ سے فقہی تعلیم حاصل کی، جن میں سے ہر ایک کو انہوں نے بعد میں «طبقات الفقہاء» میں ترجمہ دیا {cite:encyclopaedia-of-islam-2 vol. 9 p. 494}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+themes: [scripture-and-its-sciences, cities]
+date:
+  start: { edtf: "1019~", hijri: "0410", calendar: julian, precision: year, status: tradition, derived: true, note: "من ٤١٠هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 494}؛ التحويل مشتق." }
+  end: { edtf: "1024~", hijri: "0415", precision: year, status: tradition, derived: true, note: "إلى ٤١٥هـ {cite:encyclopaedia-of-islam-2 vol. 9 p. 494}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/shiraz, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "طالب الفقه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 art. AL-SHIRAZI printed p. 494 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-shirazi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
