@@ -1,0 +1,72 @@
+id: person/nizam-al-din-awliya
+class: person
+label:
+  ar: "نظام الدين أولياء"
+  en: "Nizamuddin Awliya"
+  ur: "نظام الدین اولیاء"
+names:
+  - { kind: full, value: "Muhammad ibn Ahmad Ali al-Badaoni al-Bukhari" }
+  - { kind: given, value: "Muhammad" }
+  - { kind: laqab, value: "Nizam al-Din" }
+  - { kind: alternate, value: "Nizamuddin Auliya" }
+roles: [mystic, scholar]
+gender: male
+summary:
+  ar: "نظام الدين أولياء (1238 – 3 أبريل 1325) شيخ الطريقة الجشتية في دهلي، مريد بابا فريد الدين گنج شكر في أجودهن وخليفته، أقام خانقاهه في غياث بور بدهلي ورفض خدمة سلاطينها، وصار مركزه أبرز مراكز التصوف في الهند."
+  en: "Nizam al-Din Awliya (1238 - 3 April 1325) was the Chishti master of Delhi, a disciple of Baba Fariduddin Ganjshakar at Ajodhan and his successor; he kept his khanqah at Ghiyaspur in Delhi, refused service at the sultans' court, and his centre became the leading centre of Sufism in India."
+  ur: "نظام الدین اولیاء (1238ء – 3 اپریل 1325ء) دہلی کے سلسلہ چشتیہ کے شیخ تھے، اجودھن میں بابا فرید الدین گنج شکر کے مرید و خلیفہ، دہلی کے غیاث پور میں اپنی خانقاہ قائم کی اور سلاطین کے دربار کی خدمت سے انکار کیا۔"
+regions: [south-asia]
+wings: [people]
+born:
+  edtf: "1238"
+  precision: year
+  calendar: gregorian
+  status: debated
+  note: "The English article gives his birth in 1238 at Badayun (635 AH). The Arabic article gives 633 AH (1235-1236 CE), and the Urdu article's birth section converts his traditional Safar 636 AH birth to 1237, against its own lead's 1238. The English article's year is built and the variants preserved here; 1238 spans 635-636 AH, so no Hijri year is built."
+  sources:
+    - source/wikipedia-nizam-al-din-awliya-en
+    - source/wikipedia-nizam-al-din-awliya-ar
+    - source/wikipedia-nizam-al-din-awliya-ur
+died:
+  edtf: "1325-04-03"
+  precision: day
+  calendar: gregorian
+  status: historical
+  hijri: "0725"
+  note: "The English article gives his death on 3 April 1325 at Delhi, as 18 Rabi al-Thani 725 AH; the Arabic article likewise gives 725 AH, so the Hijri year converts cleanly and is built. The Urdu article's lead agrees on 3 April 1325, though one of its passages converts the same Hijri date to 4 March 1324; that conversion is not followed."
+  sources:
+    - source/wikipedia-nizam-al-din-awliya-en
+    - source/wikipedia-nizam-al-din-awliya-ar
+    - source/wikipedia-nizam-al-din-awliya-ur
+    - source/wikidata-nizam-al-din-awliya
+faith:
+  - value: sufi
+    basis: documented
+    note: "The English article's lead calls him a Sufi saint of the Chishti Order, names his predecessors in the Chishti chain, and states in its biography that he became a disciple of Baba Farid and was made his successor; the Arabic article's prose likewise calls him a Sufi of the Chishti order, and the Urdu article calls him a famous Sufi of the Chishti silsila who took discipleship and succession from Baba Farid. Two independent texts therefore attest the Chishti order for him himself. The Hanafi jurisprudence and Maturidi creed in the English article's infobox are infobox fields, not prose attestations, and are not followed."
+    sources:
+      - source/wikipedia-nizam-al-din-awliya-en
+      - source/wikipedia-nizam-al-din-awliya-ar
+      - source/wikipedia-nizam-al-din-awliya-ur
+relations:
+  - type: student_of
+    target: person/baba-farid
+    sources:
+      - source/wikipedia-nizam-al-din-awliya-en
+      - source/wikipedia-nizam-al-din-awliya-ur
+  - type: died_in
+    target: place/delhi
+    sources:
+      - source/wikipedia-nizam-al-din-awliya-en
+sources:
+  - source/wikipedia-nizam-al-din-awliya-en
+  - source/wikipedia-nizam-al-din-awliya-ar
+  - source/wikipedia-nizam-al-din-awliya-ur
+  - source/wikidata-nizam-al-din-awliya
+external_ids:
+  wikidata: Q2427934
+provenance:
+  layer: own-research
+  source: "Built from the English, Arabic and Urdu Wikipedia articles and the Wikidata item, all fetched live on 2 November 2026; revision IDs are recorded in the source records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-181n1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
