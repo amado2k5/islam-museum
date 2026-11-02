@@ -39,17 +39,18 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
   let current: Data | null = null;
 
   // keep only the chosen types; a second-hop entry stays only if it still hangs from a visible first-hop entry
-  function filtered(d: Data): Data {
-    if (!only.size) return d;
-    const base = new Set(d.nodes.filter((n) => n.hop === 0 || (n.hop === 1 && only.has(classKey(n.c)))).map((n) => n.id));
+  function filtered(d: Data, types = only): Data {
+    if (!types.size) return d;
+    const base = new Set(d.nodes.filter((n) => n.hop === 0 || (n.hop === 1 && types.has(classKey(n.c)))).map((n) => n.id));
     const kept = new Set(base);
-    for (const n of d.nodes) if (n.hop === 2 && only.has(classKey(n.c)) && d.edges.some((e) => (e.s === n.id && base.has(e.t)) || (e.t === n.id && base.has(e.s)))) kept.add(n.id);
+    for (const n of d.nodes) if (n.hop === 2 && types.has(classKey(n.c)) && d.edges.some((e) => (e.s === n.id && base.has(e.t)) || (e.t === n.id && base.has(e.s)))) kept.add(n.id);
     return { centre: d.centre, nodes: d.nodes.filter((n) => kept.has(n.id)), edges: d.edges.filter((e) => kept.has(e.s) && kept.has(e.t)) };
   }
 
   function syncFilters(d: Data) {
+    // count what choosing a type on its own would show, so a type seen only two hops away behind other types reads as empty
     const count = new Map<string, number>();
-    for (const n of d.nodes) if (n.hop) count.set(classKey(n.c), (count.get(classKey(n.c)) ?? 0) + 1);
+    for (const c of new Set(d.nodes.filter((n) => n.hop).map((n) => classKey(n.c)))) count.set(c, filtered(d, new Set([c])).nodes.length - 1);
     for (const b of filters) {
       const c = b.dataset.filter!, k = count.get(c) ?? 0;
       b.querySelector<HTMLElement>("[data-count]")!.textContent = k ? String(k) : "";
