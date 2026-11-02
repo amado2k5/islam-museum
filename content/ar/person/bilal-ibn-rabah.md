@@ -55,3 +55,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن العظيم عظيم بخلقه لا بكرسيه، ويضرب مثلًا بـ بلال الحبشي الذي كانت كلمات الأذان تخرج من لسانه فتهتز لها القلوب، ولم يُشر إليه بالبنان إلا لتقواه، ويكفيه شرفًا أن النبي زكّاه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:02:00}
+
+## في برنامج عبد الرحمن منصور «أهالينا»
+يذكر [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] بلالًا في برنامجه [[work/ahaleena|«أهالينا»]] وهو ينهى الآباء عن احتقار الطفل لدمامته أو لونه: فيقول إن بلالًا كان حبشيًّا وعبدًا أسود، ومع ذلك سمع النبي وقع نعليه في الجنة، ويقرن ذلك بأن أكرم الناس عند الله أتقاهم، لا أبيضهم ولا أجملهم. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:06:00}
