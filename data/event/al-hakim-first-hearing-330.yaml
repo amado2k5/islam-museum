@@ -1,0 +1,27 @@
+id: event/al-hakim-first-hearing-330
+class: event
+kind: other
+label:
+  ar: "أول سماع الحاكم النيسابوري للحديث، ٣٣٠هـ"
+  en: "Al-Hakim al-Nisaburi's first hearing of hadith, 330/941"
+  ur: "حاکم نیشاپوری کی اولین سماعِ حدیث، 330ھ/941ء"
+summary:
+  ar: "طلب الحاكم أبو عبد الله ابن البيّع العلم من الصغر باعتناء أبيه وخاله، فكان أول سماعه سنة ثلاثين وثلاثمائة وهو ابن نحو تسع سنين {cite:tarikh-islam-dhahabi pp. 122-127}."
+  en: "Al-Hakim Abu Abd Allah Ibn al-Bayyi' sought knowledge from childhood under the care of his father and maternal uncle; his first hearing of hadith came in 330/941-2, when he was about nine years old {cite:tarikh-islam-dhahabi pp. 122-127}."
+  ur: "حاکم ابو عبداللہ ابن بیّع نے بچپن سے ہی اپنے والد اور ماموں کی کفالت میں علم کی طلب شروع کی؛ ان کی اولین سماعِ حدیث 330ھ/941ء میں ہوئی جب وہ تقریباً نو برس کے تھے {cite:tarikh-islam-dhahabi pp. 122-127}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0941", hijri: "0330", calendar: julian, precision: year, status: tradition, derived: true, note: "«فأول سماعه سنة ثلاثين» {cite:tarikh-islam-dhahabi p. 122}؛ المقابل المشتق نحو ٨٤١-٨٤٢م.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "الطفل السامع", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405, printed pp. 122-127 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
