@@ -64,3 +64,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 15: new source `source/sharh-muallaqat-sab-zawzani-1921` (archive.org AAlexandrina-204263, downloaded to the drive and registered in WORK-REGISTRY.md; Vision OCR on the Mac; verses read from the page image) and `work/muallaqat-imru-al-qays` (11 bayts, pp. 3-7).
 - PR 16: fix `issued` shape in the Zawzani source.
 - PR 17 (Zawzani 1921): `muallaqat-tarafa` (15 bayts, pp. 46-75) and `muallaqat-amr-ibn-kulthum` (7 bayts, pp. 124-143), read from page images (22 passages).
+- PR 18 (Zawzani 1921): `muallaqat-antara` (14 bayts, pp. 143-161) and `muallaqat-labid` (10 bayts, pp. 95-99) (24 passages). Remaining Mu'allaqat not done: Zuhayr and al-Harith ibn Hilliza (no person entities yet; pages 76 and 163 of the Zawzani scan).
