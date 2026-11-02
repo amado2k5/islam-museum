@@ -37,3 +37,9 @@ external_ids: { wikidata: "Q7803316" }
 sources: [source/wikipedia-tim-clark-en, source/wikidata-tim-clark]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article (revision 1372276688 of 31 August 2026) and Wikidata Q7803316 (revision 2561778444 of 28 October 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him: the Arabic title a reader would expect is the article on Tim Clarke, an English footballer (Q7803320), a different man, and no Urdu article exists, so the Arabic and Urdu labels are transliterations and the Urdu prose is the museum's rendering. No relations are written: the museum has no place entity for Aruba or Dubai. Faith - no attestation anywhere, so unknown on the absence pattern.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-175a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-tim-clark-en, source/wikidata-tim-clark]

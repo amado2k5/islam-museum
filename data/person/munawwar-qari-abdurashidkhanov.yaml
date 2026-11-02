@@ -56,3 +56,9 @@ provenance:
   source: "English, Russian and Uzbek Wikipedia articles on Munawwar Qari and Wikidata item Q1952656, each read at a recorded revision; existence checked both ways before building — name fragments (munawwar, munavvar, abdurashidkhan) and slug variants across data/person found no person file, and Q1952656, grounded through the English article's page properties and confirmed through the Russian and Uzbek articles', matched no existing record. A lived_in edge to place/bukhara is written for his attested five years of study there (1885–1890). No born_in, died_in or buried_in edge is written: no place entity exists for Tashkent or Moscow; and his scientific post at the museum in Samarkand attested in the English article does not establish residence there, so no Samarkand edge is written. His father Abdurashidkhan and his brothers A'zamkhon and Muslimkhon have no records, so no family edges are written."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-102
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-munawwar-qari-en, source/wikipedia-munawwar-qari-ru, source/wikipedia-munawwar-qari-uz, source/wikidata-munawwar-qari]
