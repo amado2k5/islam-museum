@@ -42,3 +42,7 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the muhtasib has no holders yet, because the museum has no person records for the muhtasibs the entry names. The second wave adds them, with their own sources.
   - FLAG: the Shaykh al-Islam entry lists more holders than the four recorded here. Those are left for the next wave, so no entry is written from the search summary alone.
   - Next step: the rest of Governance & Law, starting with `job/mufti` and `job/kazasker`.
+- **2 November 2026 — Phase 2, Court & Administration, batch 2: `job/kazasker`.** One source entity read in full: `source/tdv-kazasker` (İpşirli, vol. 25 pp. 140–143). The article is in Arabic, English and Urdu. Five person records take a `job/kazasker` entry: Abu al-Darda and Abd al-Rahman ibn Rabia (episodic, early Islam), Candarli Kara Halil Hayreddin Pasha (primary, the first Ottoman kazasker), Sheikh Badr al-Din of Simavna and Baha al-Din ibn Shaddad (episodic).
+  - FLAG: the entry says Umar made Abd al-Rahman ibn Rabia judge of the army at Qadisiyya. His record describes him as a commander at Derbent under Uthman. Both are kept; the occupation note gives the entry's account.
+  - FLAG: the `muftu` address on the encyclopedia is a cross-reference to the fatwa and Shaykh al-Islam articles, so the mufti job is not written from it. It waits for the fatwa article.
+  - Next step: the next Court & Administration jobs, starting with `job/katib` and `job/hajib`.
