@@ -1,0 +1,28 @@
+id: event/tirmidhi-bukhari-praise-245
+class: event
+kind: other
+label:
+  ar: "شهادة البخاري للترمذي: «ما انتفعتُ بك أكثرُ مما انتفعتَ بي»، نحو ٢٤٥هـ"
+  en: "Al-Bukhari's testimony to al-Tirmidhi: 'I benefited from you more than you benefited from me', c. 245/860"
+  ur: "بخاری کی ترمذی کے حق میں گواہی: «میں تم سے زیادہ فائدہ اٹھایا»، تقریباً 245ھ/860ء"
+summary:
+  ar: "تلمذ الترمذي للبخاري فمرَّنه بين يديه وأخذ عنه أصول النقد وفقه الحديث حتى برز على الأقران، وشهد له البخاري نفسه بقوله: «ما انتفعتُ بك أكثرُ مما انتفعتَ بي»، وعُدّ خليفة البخاري في خراسان علماً وحفظاً وورعاً {cite:mawsuat-a3lam-ulama-adaba p. 451}، وهو في عداد تلاميذه {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  en: "Al-Tirmidhi apprenticed himself to al-Bukhari, who trained him and from whom he took the principles of hadith criticism and fiqh until he stood out among his peers; al-Bukhari himself testified to him, saying 'I benefited from you more than you benefited from me', and he was counted al-Bukhari's successor in Khurasan for knowledge, memory and scrupulosity {cite:mawsuat-a3lam-ulama-adaba p. 451}, numbering among his pupils {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}."
+  ur: "ترمذی بخاری کے تلمذ ہوئے جنہوں نے ان کی تربیت کی اور جن سے انہوں نے اصولِ تنقید اور فقہِ حدیث سیکھا یہاں تک کہ ہم عصروں میں ممتاز ہو گئے؛ خود بخاری نے ان کے حق میں گواہی دی: «میں تم سے زیادہ فائدہ اٹھایا»، اور وہ علم، حفظ اور ورع میں بخاری کے خراسان میں جانشین شمار ہوئے {cite:mawsuat-a3lam-ulama-adaba p. 451} اور ان کے تلامذہ میں شمار کیے گئے {cite:encyclopaedia-of-islam-2 vol. 10 p. 579}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0860~", hijri: "0245~", calendar: julian, precision: decade, status: tradition, derived: true, note: "شهادة البخاري في حياته (ت ٢٥٦هـ) أثناء رحلات الترمذي الخراسانية {cite:mawsuat-a3lam-ulama-adaba p. 450-451}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/khurasan, sources: [source/mawsuat-a3lam-ulama-adaba], note: "عُدّ خليفة البخاري في خراسان؛ اللقاء في بلاد خراسان {cite:mawsuat-a3lam-ulama-adaba p. 451}" }
+  - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "المتلمذ", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "الشيخ الشاهد", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء ج4 ص451 (harvest OCR v04 page-451; quoting al-Dhahabi, Tadhkira 2/639); Encyclopaedia of Islam 2nd ed. vol. 10, printed p. 579"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-tirmidhi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
