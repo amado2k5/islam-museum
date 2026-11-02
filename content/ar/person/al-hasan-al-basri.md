@@ -54,3 +54,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يروي الشيخ أن الحسن البصري دخل على رجل فقد ولده فوجده هادئًا رابط الجأش، فقال: يفعل العاقل ما يفعله الجاهل بعد عشرة أيام، أي إن الجاهل يصبر بعد أيام ويهدأ، والعاقل يأخذ الأمر بالصبر من أوله (needs_source: الخبر كما رواه الشيخ). {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30}
+
+## في برنامج عبد الرحمن منصور «أهالينا»
+ينقل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] في برنامجه [[work/ahaleena|«أهالينا»]] عن الحسن البصري أن المصافحة تزيد في الود، أي في المحبة، ويذكر ذلك في حلقة «مفاتيح القلوب» بعد حديث أنس في أن النبي لم يكن ينزع يده من يد من يصافحه حتى يكون الرجل هو الذي ينزعها. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}
