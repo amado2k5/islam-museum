@@ -1,0 +1,42 @@
+id: job/shaykh-al-islam
+class: job
+label: { ar: "شيخ الإسلام", en: "Shaykh al-Islam", ur: "شیخ الاسلام" }
+summary:
+  ar: "شيخ الإسلام هو عنوان أعلى عالم في التنظيم العلمي العثماني (الإلمية)، وقد ارتبط بمنصب مفتي إسطنبول. وكان للشيخ الإسلام الإفتاء في القضايا الدينية والسياسية والإدارية، وتعيين العلماء والمفتين، وحضور مجالس المشورة، وإعلان فتاوى عزل السلاطين في الأزمات. وألغي المنصب سنة 1924 مع الخلافة."
+  en: "The Shaykh al-Islam was the title of the highest scholar in the Ottoman ilmiye, the religious-scholarly hierarchy, and it became the title of the Istanbul muftiship. The office gave fatwas on religious, political and administrative questions, appointed scholars and muftis, sat in the consultative councils, and issued fatwas in crises, including fatwas on deposing sultans. It ended in 1924 with the caliphate."
+  ur: "شیخ الاسلام عثمانی علمی درجہ بندی (ilmiye) کے سب سے بڑے عالم کا لقب تھا، جو استنبول کے مفتی کے منصب سے وابستہ ہوا۔ یہ منصب دینی، سیاسی اور انتظامی سوالات پر فتوے دیتا، علماء اور مفتیوں کا تقرر کرتا، مشاورتی مجالس میں بیٹھتا، اور بحرانوں میں فتوے دیتا تھا۔ یہ منصب 1924ء میں خلافت کے خاتمے کے ساتھ ختم ہوا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: classical
+  first_attested:
+    edtf: "0950/0999"
+    precision: century
+    status: historical
+    note: "The DİA entry says the phrase became an honorific for leading scholars and Sufis in the second half of the tenth century. Its use as an office title came much later."
+    sources: [source/tdv-seyhulislam]
+  status_today: replaced
+places:
+  - place: place/bursa
+    note: "The entry takes the appointment of Molla Fenari as mufti of Bursa in 828 AH (1425) as the conventional start of the Ottoman muftiship, but says the office in the sixteenth century should not be identified with it."
+    sources: [source/tdv-seyhulislam]
+  - place: place/istanbul
+    note: "The title was used for the mufti of Istanbul, and its weight grew in the early sixteenth century. In 1826 the office was moved to the Bab-i Meshihat, the seat of the religious offices in Istanbul."
+    sources: [source/tdv-seyhulislam]
+regions: [anatolia-balkans, levant-iraq, persia-central-asia]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "The holder was chosen from the most senior ilmiye figures, often after service as kazasker of Rumelia or as a professor, and was appointed by imperial order on the grand vizier's proposal. The entry gives the chain of posts before the office, including a chief judgeship, a professorship and a muftiship."
+wings: [people]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-seyhulislam]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ŞEYHÜLİSLÂM' (M. İpşirli, vol. 39, pp. 91–96, web edition read on 2 Nov 2026). Rewritten by Claude Code. Holders recorded from the entry's own account: Ebüssuûd Efendi (about thirty years in office), Çivizâde Muhyiddin Mehmed Efendi (the first shaykh al-islam dismissed), Hocazâde Mehmed Efendi (hierarchy disputes in the seventeenth century). Molla Fenari is recorded as debated: the entry takes his muftiship as the conventional start, but chronicles did not call him shaykh al-islam."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-gl02"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
