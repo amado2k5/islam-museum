@@ -1,29 +1,52 @@
 id: person/al-daraqutni
 class: person
-label: { ar: "الدارقطني", en: "Al-Daraqutni" }
+label:
+  ar: "الدارقطني"
+  en: "Al-Daraqutni"
+  ur: "دارقطنی"
 names:
   - { value: "علي بن عمر بن أحمد بن مهدي بن مسعود بن دينار بن عبد الله أبو الحسن الدارقطني", kind: full }
   - { value: "أبو الحسن الدارقطني", kind: alternate }
 gender: male
-roles: [scholar]
+roles: [scholar, muhaddith]
+traditions: [sunni]
 summary:
   ar: "علي بن عمر أبو الحسن الدارقطني (306–385هـ)، حافظ بغداد وفريد عصره؛ انتهى إليه علم الأثر والمعرفة بأسماء الرجال وعلل الحديث وانفرد بالحفظ، وكان الحاكم يقول ما رأى الدارقطني مثل نفسه، وقد اجتمع له مع علم الحديث المعرفة بالقراءات والنحو والفقه والشعر مع الأمانة والعدالة وصحة العقيدة. وحُكي أنه حضر في حداثته مجلس إسماعيل الصفار وهو ينسخ فأُنكر عليه فأعاد من الفور أسانيد ثمانية عشر حديثاً ومتونها على ترتيب الإملاء؛ وقيل إن كتاب «العلل» الذي يُروى عنه نقله البرقاني من إملائه على أبي منصور بن حمدان الصيرفي. توفي يوم الثلاثاء سابع ذي القعدة سنة خمس وثمانين ودفن في مقبرة معروف {cite:muntazam-ibn-al-jawzi j.7 p.183-184}."
   en: "'Ali b. 'Umar Abu'l-Hasan al-Daraqutni (306–385), Baghdad's hafiz, singular of his age: the science of transmitted reports, narrators' names and the hidden defects of hadith ended with him; al-Hakim said al-Daraqutni never saw his own like. As a youth at Isma'il al-Saffar's circle he was rebuked for copying while listening — and recited back eighteen dictated hadiths, isnads and texts in order. The Kitab al-'Ilal current under his name was taken down by al-Barqani from his dictation at Abu Mansur b. Hamdan's gatherings. He died Tuesday 7 Dhu'l-Qa'da 385, buried at Maqbarat Ma'ruf {cite:muntazam-ibn-al-jawzi j.7 p.183-184}."
+  ur: "علی بن عمر ابوالحسن دارقطنی (306–385ھ)، بغداد کے حافظ اور اپنے عصر کے یکتا؛ علم آثار، اسماء رجال اور علل حدیث انھی پر ختم ہوا اور حفظ میں منفرد رہے؛ حاکم کہتے تھے دارقطنی نے اپنا مثل نہیں دیکھا۔ جوانی میں اسماعیل صفار کے مجلس میں نقل کرنے پر تنبیہ کی گئی تو انہوں نے فوراً اٹھارہ املا شدہ حدیثیں اسانید و متون سمیت ترتیب سے دہرا دیں؛ کتاب العلل جو ان سے روایت ہے برقانی نے ابو منصور بن حمدان کی مجالس میں ان کے املا سے نقل کی۔ منگل 7 ذوالقعدہ 385ھ کو فوت ہوئے اور مقبرہ معروف میں دفن ہوئے {cite:muntazam-ibn-al-jawzi j.7 p.183-184}۔"
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
-regions: [levant-iraq]
+regions: [levant-iraq, egypt-nile]
 themes: [scripture-and-its-sciences]
 born:
-  { edtf: "0918-11~", hijri: "0306-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد لخمس خلون من ذي القعدة 306؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
+  { edtf: "0918-11~", hijri: "0306-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد لخمس خلون من ذي القعدة 306، وقيل سنة خمس؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
 died:
-  { edtf: "0995-11-08~", hijri: "0385-11-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء 7 ذو القعدة 385؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
+  { edtf: "0995-11-08~", hijri: "0385-11-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء 7 ذو القعدة 385 ودفن بمقبرة معروف {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ وقيل ثامنه {cite:tarikh-islam-dhahabi p.105}؛ التحويل مشتق", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
 relations:
+  - { type: born_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: died_in, target: place/baghdad, note: "دفن بمقبرة معروف قرب معروف الكرخي", sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
+  - { type: student_of, target: person/abu-al-qasim-al-baghawi, sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/abdallah-ibn-abi-dawud, sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/ibn-mujahid, note: "أخذ عنه سماعاً في القراءات", sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/al-naqqash-al-muqri, note: "قرأ عليه", sources: [source/tarikh-islam-dhahabi] }
   - { type: teacher_of, target: person/al-barqani-ahmad-ibn-muhammad, role: "أملى عليه العلل في مجالس أبي منصور بن حمدان", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: authored, target: work/sunan-al-daraqutni, sources: [source/tarikh-islam-dhahabi, source/al-aalam] }
+  - { type: authored, target: work/kitab-al-ilal, note: "نقله البرقاني من إملائه في مجالس ابن حمدان", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/birth-daraqutni-306, role: "المولود", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/daraqutni-first-hearing-315, role: "الطالب الصغير", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/daraqutni-qiraa-320, role: "القارئ المتعلم", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/daraqutni-rihla-egypt-350, role: "الرحال المسافر", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/daraqutni-ilal-dictation-360, role: "الشيخ المملي", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/daraqutni-hakim-baghdad-367, role: "الشيخ المسؤول عن العلل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/daraqutni-muqri-al-balad-384, role: "شيخ القراء والمحدثين", sources: [source/tarikh-islam-dhahabi] }
+  - { type: participated_in, target: event/death-daraqutni-385, role: "المتوفى", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+external_ids:
+  wikidata: "Q3607438"
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/al-aalam]
 provenance:
   layer: own-research
-  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 385)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muntazam-350-474-2
-external_ids: { wikidata: "Q3607438" }
-sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 385، المطبوع ص 183-184، قراءة آبل فيجن وحصاد OCR)؛ تاريخ الإسلام للذهبي سنة 385 المطبوع ص 101-105 (حصاد OCR)؛ شذرات الذهب سنة 385 المطبوع ص 116-117 (حصاد OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

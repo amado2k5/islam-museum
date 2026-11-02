@@ -1,0 +1,29 @@
+id: event/daraqutni-qiraa-320
+class: event
+kind: other
+label:
+  ar: "الدارقطني يقرأ القراءات على ابن مجاهد والنقاش، نحو ٣٢٠هـ"
+  en: "Al-Daraqutni reads the qira'at under Ibn Mujahid and al-Naqqash, about 320/932"
+  ur: "دارقطنی ابن مجاہد اور نقاش سے قراءات پڑھتے ہیں، تقریباً 320ھ/932ء"
+summary:
+  ar: "أخذ الدارقطني عن أبي بكر بن مجاهد سماعاً، وقرأ على أبي بكر النقاش وعلي بن سعيد القزاز وأحمد بن بويان وأحمد بن محمد الديباجي، وبرع في القراءات {cite:tarikh-islam-dhahabi p.104}؛ وكان له فيها مصنف مختصر جمع الأصول في أبواب عقدها في أول الكتاب، حتى قيل إنه لم يُسبق إلى طريقته في عقد الأبواب وصار القراء بعده يسلكونها {cite:tarikh-islam-dhahabi p.102}."
+  en: "Al-Daraqutni took the recitations from Abu Bakr Ibn Mujahid by sama', and read upon Abu Bakr al-Naqqash, 'Ali ibn Sa'id al-Qazzaz, Ahmad ibn Bawiyan and Ahmad ibn Muhammad al-Dibaji, excelling in the qira'at {cite:tarikh-islam-dhahabi p.104}; he wrote on them a short treatise arranging the fundamentals in chapters at the head of the book, a method in which he was never preceded and which the readers after him adopted {cite:tarikh-islam-dhahabi p.102}."
+  ur: "دارقطنی نے ابو بکر ابن مجاہد سے قراءات کی سماعت کی اور ابو بکر نقاش، علی بن سعید قزاز، احمد بن بویان اور احمد بن محمد دیباجی پر پڑھا اور قراءات میں ماہر ہوئے {cite:tarikh-islam-dhahabi p.104}؛ اس فن میں ان کی مختصر تصنیف نے اصول کو ابتدائے کتاب میں ابواب میں جمع کیا، وہ طریقہ جس میں وہ سب سے پہلے تھے اور جسے بعد کے قراء نے اپنایا {cite:tarikh-islam-dhahabi p.102}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0930~", hijri: "0320~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣٢٠هـ؛ سماعه من ابن مجاهد قبل وفاته سنة ٣٢٤ {cite:tarikh-islam-dhahabi p.104}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-daraqutni, role: "القارئ المتعلم", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-mujahid, role: "شيخ القراء", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-naqqash-al-muqri, role: "الشيخ المقرئ", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 385, printed pp. 102, 104 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

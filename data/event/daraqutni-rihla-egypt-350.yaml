@@ -1,0 +1,30 @@
+id: event/daraqutni-rihla-egypt-350
+class: event
+kind: other
+label:
+  ar: "الدارقطني يرحل إلى الشام ومصر ويصنف «المسند» لابن حزابة، نحو ٣٥٠هـ"
+  en: "Al-Daraqutni journeys to al-Sham and Egypt and composes the Musnad for Ibn Hinzaba, about 350/961"
+  ur: "دارقطنی شام و مصر کا سفر اور ابن حزابہ کے لیے «مسند» کی تصنیف، تقریباً 350ھ/961ء"
+summary:
+  ar: "رحل الدارقطني في الكهولة إلى الشام ومصر، فسمع القاضي أبا الطاهر الذهلي وهذه الطبقة {cite:tarikh-islam-dhahabi p.101}؛ وكان الوزير جعفر بن الفرات ابن حزابة يملي الحديث بمصر، فخرج إليه الدارقطني وأقام عنده مدة وصنف له «المسند»، وحصل له من جهته مال كثير، وروى عنه في كتاب المديح أحاديث {cite:muntazam-ibn-al-jawzi j.7 p.216}."
+  en: "In middle age al-Daraqutni journeyed to al-Sham and Egypt, hearing the qadi Abu al-Tahir al-Dhuhli and that generation {cite:tarikh-islam-dhahabi p.101}. The vizier Ja'far ibn al-Furat Ibn Hinzaba was dictating hadith in Egypt; al-Daraqutni went out to him, stayed with him a while and composed for him the Musnad, gained much wealth from his side, and transmitted reports from him in Kitab al-Madih {cite:muntazam-ibn-al-jawzi j.7 p.216}."
+  ur: "دارقطنی نے متوسط عمر میں شام اور مصر کا سفر کیا اور قاضی ابو الطاہر ذہلی اور ان کے ہم عصروں سے سنا {cite:tarikh-islam-dhahabi p.101}؛ وزیر جعفر بن فرات ابن حزابہ مصر میں حدیث املا کر رہے تھے، دارقطنی ان کے پاس گئے، کچھ مدت ان کے مہمان رہے اور ان کے لیے «مسند» تصنیف کی، ان کی طرف سے وافر مال پایا اور کتاب المدیح میں ان سے احادیث روایت کیں {cite:muntazam-ibn-al-jawzi j.7 p.216}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "0960~", hijri: "0350~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣٥٠هـ؛ «رحل في الكهولة» {cite:tarikh-islam-dhahabi p.101} وإقامته عند ابن حزابة بمصر قبل وفاته ٣٩١ {cite:muntazam-ibn-al-jawzi j.7 p.216}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/misr, sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/al-sham, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-daraqutni, role: "الرحال المسافر", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/jafar-ibn-al-furat-hinzaba, role: "الوزير المضيف المملي", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-al-tahir-al-dhuhli, role: "الشيخ المسمع بالشام", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 385, printed p. 101 (harvest OCR); Ibn al-Jawzi, al-Muntazam (Haydarabad 1357) j.7 s.a. 391, printed p. 216 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

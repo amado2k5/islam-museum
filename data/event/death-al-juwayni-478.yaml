@@ -1,0 +1,27 @@
+id: event/death-al-juwayni-478
+class: event
+kind: death
+label:
+  ar: "وفاة إمام الحرمين الجويني ببشتقان، ٢٥ ربيع الآخر ٤٧٨هـ"
+  en: "Imam al-Haramayn al-Juwayni dies at Bushtanqan, 25 Rabi' II 478/1085"
+  ur: "امام الحرمین جوینی کی وفات بشتقان میں، 25 ربیع الآخر 478ھ/1085ء"
+summary:
+  ar: "غلبت عليه الحرارة فحُمل إلى بشتقان لاعتدال هوائها فازداد ضعفه، وتوفي ليلة الأربعاء بعد العشاء الخامس والعشرين من ربيع الآخر سنة ثمان وسبعين وأربعمائة — ٢٠ آب ١٠٨٥م — عن تسع وخمسين سنة، ونُقل في ليلته إلى البلد فدُفن في داره، ثم نُقل بعد سنين إلى مقبرة الحسين فدُفن إلى جانب والده، وكُسر منبره في الجامع وأُغلقت الأسواق، وكان له نحو أربعمائة تلميذ كسروا محابرهم وأقلامهم وأقاموا على ذلك حولاً {cite:tarikh-islam-dhahabi pp. 238-239} {cite:siyar-alam-nubala j.18 p. 2576} {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}."
+  en: "Overcome by fever he was carried to Bushtanqan for its mild air and grew weaker, dying on the night of Wednesday 25 Rabi' II 478 — 20 August 1085 — aged fifty-nine; he was carried that same night to Nishapur and buried in his house, then transferred years later to the Husayn cemetery beside his father, his minbar in the congregational mosque was broken and the markets closed, and his nearly four hundred pupils broke their inkwells and pens and kept the mourning for a year {cite:tarikh-islam-dhahabi pp. 238-239} {cite:siyar-alam-nubala j.18 p. 2576} {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}."
+  ur: "بخار غالب آیا تو معتدل ہوا کے لیے بشتقان لے جایا گیا جہاں کمزوری بڑھ گئی؛ بدھ کی رات عشاء کے بعد 25 ربیع الآخر 478ھ — 20 اگست 1085ء — کو ان کی وفات ہوئی، عمر 59 سال؛ اسی رات نیشاپور پہنچائے گئے اور گھر میں دفن ہوئے، کچھ برس بعد مقبرہ حسین میں والد کے پہلو میں منتقل کیے گئے؛ جامع کا ان کا منبر توڑا گیا اور بازار بند رہے؛ ان کے تقریباً چار سو تلامذہ نے اپنی دواتیں اور قلم توڑ کر ایک سال تک نوحہ کیا {cite:tarikh-islam-dhahabi pp. 238-239} {cite:siyar-alam-nubala j.18 p. 2576} {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1085-08-20~", hijri: "0478-04-25", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الأربعاء ٢٥ ربيع الآخر ٤٧٨هـ {cite:tarikh-islam-dhahabi pp. 238-239}؛ 20 آب 1085 {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, note: "توفي ببشتقان ودفن بنيسابور بداره ثم بمقبرة الحسين", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 478, printed pp. 238-239 (harvest OCR, citing al-Muntazam): 'tuwwufiya laylat al-arbi'a' ba'da al-'isha' al-khamis wa-l-'ishrin min Rabi' al-akhir'; Siyar A'lam al-Nubala 18/2576; EI2 vol. 2 p. 605"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-juwayni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
