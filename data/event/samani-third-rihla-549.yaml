@@ -1,0 +1,33 @@
+id: event/samani-third-rihla-549
+class: event
+kind: other
+label:
+  ar: "رحلة السمعاني الثالثة مع ابنه عبد الرحيم إلى ما وراء النهر، ٥٤٩-٥٥٢هـ/١١٥٤-١١٥٧م"
+  en: "Al-Sam'ani's third journey with his son 'Abd al-Rahim to Transoxiana, 549-552/1154-1157"
+  ur: "سمعانی کا تیسرا سفر بیٹے عبدالرحیم کے ساتھ ماوراء النہر، 549-552ھ/1154-1157ء"
+summary:
+  ar: "رحل السمعاني بابنه عبد الرحيم إلى نيسابور ونواحيها وهراة ونواحيها وبلخ وسمرقند وبخارى، وصنّف له معجماً، ثم عاد به إلى مرو {cite:tarikh-islam-dhahabi pp. 120-121}؛ وهي رحلته الثالثة الكبرى ٥٤٩-٥٥٢هـ/١١٥٤-١١٥٧م {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}؛ وخرّج له أبوه معجماً في ثمانية عشر جزءاً {cite:shadharat-dhahab p. 75}."
+  en: "Al-Sam'ani travelled with his son 'Abd al-Rahim to Nishapur and its region, Herat and its region, Balkh, Samarqand and Bukhara, and compiled a mu'jam for him before bringing him back to Marw {cite:tarikh-islam-dhahabi pp. 120-121}. This was his third great journey, 549-552/1154-1157 {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}; the mu'jam he drew up for the boy ran to eighteen parts {cite:shadharat-dhahab p. 75}."
+  ur: "سمعانی اپنے بیٹے عبدالرحیم کے ساتھ نیشاپور اور اس کے نواح، ہرات اور اس کے نواح، بلخ، سمرقند اور بخارا گئے اور اس کے لیے ایک معجم مرتب کیا، پھر اسے مرو واپس لائے {cite:tarikh-islam-dhahabi pp. 120-121}۔ یہ ان کا تیسرا بڑا سفر تھا، 549-552ھ/1154-1157ء {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}؛ بیٹے کے لیے مرتب کردہ معجم اٹھارہ اجزاء پر مشتمل تھا {cite:shadharat-dhahab p. 75}۔"
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1154", hijri: "0549", calendar: julian, precision: year, status: tradition, derived: true, note: "الرحلة الثالثة مع الابن ٥٤٩-٥٥٢هـ/١١٥٤-١١٥٧م {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}؛ التحويل مشتق." }
+  end: { edtf: "1157", hijri: "0552", calendar: julian, precision: year, status: tradition, derived: true, note: "ثم عاد به إلى مرو {cite:tarikh-islam-dhahabi p. 121}؛ نهاية الرحلة ٥٥٢هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 1024}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/herat, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/balkh, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/samarqand, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/bukhara, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-samani, role: "الوالد المرحّل", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-samani-abd-al-rahim, role: "الابن الطالب", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 562, printed pp. 120-121 (harvest OCR); EI2 vol. 8 art. al-Sam'ani, printed p. 1024; Shadharat al-Dhahab, printed p. 75 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-samani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
