@@ -21,3 +21,9 @@ provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kat
 external_ids: { wikidata: "Q4120436" }
 sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab, source/manhaj-tawthiq-al-sunna-azhar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); only what this book prints — dates and nisba details await a rijal source (needs_source born, died)" }
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/ibn-rajab-jami-ulum-hikam, source/shadharat-dhahab, source/manhaj-tawthiq-al-sunna-azhar]
