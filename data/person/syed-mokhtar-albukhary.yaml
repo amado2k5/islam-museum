@@ -47,3 +47,9 @@ external_ids: { wikidata: "Q7660399" }
 sources: [source/wikipedia-syed-mokhtar-albukhary-en, source/wikidata-syed-mokhtar-albukhary]
 provenance: { layer: own-research, source: "descriptive — built from the live English Wikipedia article 'Syed Mokhtar Albukhary' (revision 1368417062 of 8 August 2026; the queue's spelling 'Syed Mokhtar Al-Bukhary' is a redirect to it) and Wikidata Q7660399 (revision 2537834647 of 29 August 2026, re-asserted identical on a second live query on 1 November 2026), retrieved in-session via the MediaWiki API; the QID is grounded in the English article's own page property. Existence was checked against origin/main (git ls-tree and name/QID greps) before building - no record existed. No Arabic or Urdu Wikipedia article exists for him, so the Arabic and Urdu prose is the museum's rendering. The article's recurring misspelling 'Syed Mokthar' in its body is the article's, not followed. No relations are written: no family member is named with a record on main, and the museum has no place entity for Alor Setar. Faith - documented Islamic philanthropy stated in full in the note; no text names a school for the man himself, so unknown under ruling 4.", generated_by: "Muse (Muse Spark 1.3)", run: "modern-figures-wave-175a" }
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-syed-mokhtar-albukhary-en, source/wikidata-syed-mokhtar-albukhary]

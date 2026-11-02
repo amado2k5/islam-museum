@@ -1,0 +1,93 @@
+---
+// The Job Browser's home (docs/jobs/site.md section 1): the domains, the crafts shelf, and the A-to-Z list of every job
+// record in the language. Counts are read from the graph at build time and appear on this page only; no shared layout
+// carries a number (docs/site/README.md, site-wide numbers).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { DOMAINS, domainLabel, jobNodes, holdersOf, hasArticle, peopleWithJobs } from "../../../lib/jobs";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const J = T.jobs;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const collator = new Intl.Collator(lang, { sensitivity: "base" });
+const byLabel = (a: any, b: any) => collator.compare(label(a), label(b)) || a.id.localeCompare(b.id);
+const inDomain = (id: string) => jobNodes.filter((n) => n.data.domain === id).sort(byLabel);
+const crafts = jobNodes.filter((n) => n.data.hirfa === true).sort(byLabel);
+const craftDomains = DOMAINS.filter((d) => crafts.some((c) => c.data.domain === d.id));
+const everyJob = [...jobNodes].sort(byLabel);
+// the A-to-Z search text: every language's label, so a visitor finds a job by its name in any of them
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+const status = fmt(J.status, { jobs: num(jobNodes.length, lang), articles: num(jobNodes.filter(hasArticle).length, lang), holders: num(peopleWithJobs.length, lang) });
+const count = (n: number) => num(n, lang);
+---
+<BaseLayout lang={lang} title={J.title} description={J.lede} path={`/${lang}/jobs/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{J.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {J.title}</nav>
+    <h1>{J.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{J.lede}</p>
+    <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+
+    <section aria-labelledby="domains-title" style="margin-top:2rem">
+      <h2 id="domains-title">{J.domains_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{J.domains_note}</p>
+      <ul class="grid-cards" role="list" style="margin:1rem 0 2rem">
+        {DOMAINS.map((d) => {
+          const js = inDomain(d.id);
+          const people = new Set(js.flatMap((j) => holdersOf(j.id).map((p) => p.id))).size;
+          return (
+            <li>
+              <div class="card">
+                <h3 class="card-title">{domainLabel(d.id, lang)}</h3>
+                <p class="ui" style="margin:4px 0 8px">{J.count_jobs.replace("{n}", count(js.length))} · {J.count_holders.replace("{n}", count(people))}</p>
+                {js.length > 0 ? (
+                  <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+                    {js.map((j) => <li><a class="chip" style="background:var(--bg)" href={href(lang, j.id)}>{label(j)}</a></li>)}
+                  </ul>
+                ) : <p class="ui muted" style="margin:0">{J.no_domain_jobs}</p>}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <section aria-labelledby="crafts-title">
+      <h2 id="crafts-title">{J.crafts_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{J.crafts_note}</p>
+      {crafts.length === 0 ? <p class="panel ui">{J.crafts_empty}</p> : craftDomains.map((d) => (
+        <div style="margin:1rem 0 1.4rem">
+          <h3 style="font-size:1.05rem;margin:0 0 .5rem">{domainLabel(d.id, lang)}</h3>
+          <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+            {crafts.filter((c) => c.data.domain === d.id).map((c) => <li><a class="chip" href={href(lang, c.id)}>{label(c)}</a></li>)}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    <section aria-labelledby="az-title" style="margin-top:2rem">
+      <h2 id="az-title">{J.az_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{J.az_note}</p>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="job-filter">{J.filter_label}</label>
+        <input id="job-filter" type="search" data-job-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <ul role="list" data-job-list style="list-style:none;padding:0;margin:0">
+        {everyJob.map((j) => (
+          <li data-job-row data-search={searchText(j)} style="display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:10px 0;border-bottom:1px solid var(--line)">
+            <a href={href(lang, j.id)} style="font-weight:600">{label(j)}</a>
+            <span class="chip">{domainLabel(j.data.domain, lang)}</span>
+            <span class="ui muted">{J.count_holders.replace("{n}", count(holdersOf(j.id).length))}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="panel ui" data-job-none hidden>{J.filter_none}</p>
+      {everyJob.length === 0 && <p class="panel ui">{J.az_empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/jobs-filter.ts"></script>
+</BaseLayout>
