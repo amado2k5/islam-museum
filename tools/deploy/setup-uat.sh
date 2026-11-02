@@ -12,8 +12,9 @@
 #                                          tokens → Create: Object Read & Write, bucket
 #                                          islam-museum-uat only.
 #   tools/deploy/setup-uat.sh cloudflare   R2 bucket islam-museum-uat, its custom domain
-#                                          uat-api.islam.museum, and the Pages project
-#                                          islam-museum-uat. Needs: `npx wrangler login` done in
+#                                          uat-api.islam.museum, its CORS rule for the UAT site
+#                                          (the landing page reads deploy.json cross-origin), and the
+#                                          Pages project islam-museum-uat. Needs: `npx wrangler login` done in
 #                                          workers/r2-sync (or CLOUDFLARE_API_TOKEN exported),
 #                                          and CF_ZONE_ID (the islam.museum zone id, from the
 #                                          dashboard overview page) exported or passed as $2.
@@ -103,6 +104,13 @@ cloudflare_setup() {
     [ -n "$zone" ] || { echo "CF_ZONE_ID (the islam.museum zone id) is needed to attach $API_DOMAIN: export it or pass it as the second argument" >&2; exit 1; }
     "$WRANGLER" r2 bucket domain add "$BUCKET" --domain "$API_DOMAIN" --zone-id "$zone" --force
   fi
+  say "Cloudflare: CORS on $BUCKET for the UAT site (the landing page reads deploy.json from uat-api)"
+  cors_file="$(mktemp)"
+  cat > "$cors_file" <<'JSON'
+{"rules": [{"allowed": {"origins": ["https://uat.islam.museum"], "methods": ["GET", "HEAD"], "headers": ["*"]}, "maxAgeSeconds": 86400}]}
+JSON
+  "$WRANGLER" r2 bucket cors set "$BUCKET" --file "$cors_file" --force
+  rm -f "$cors_file"
   say "Cloudflare: Pages project $PAGES_PROJECT"
   if "$WRANGLER" pages project list 2>/dev/null | grep -q "$PAGES_PROJECT"; then
     echo "  project exists"
