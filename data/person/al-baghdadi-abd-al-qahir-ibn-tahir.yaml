@@ -1,23 +1,60 @@
 id: person/al-baghdadi-abd-al-qahir-ibn-tahir
 class: person
-label: { ar: "البغدادي أبو منصور عبد القاهر بن طاهر", en: "al-Baghdadi Abu Mansur Abd al-Qahir ibn Tahir" }
+label:
+  ar: "البغدادي أبو منصور عبد القاهر بن طاهر"
+  en: "al-Baghdadi Abu Mansur Abd al-Qahir ibn Tahir"
+  ur: "بغدادی ابو منصور عبدالقاہر بن طاہر"
 names:
-  - { kind: full, lang: ar, value: "أبو منصور عبد القاهر بن طاهر البغدادي" }
+  - { kind: full, lang: ar, value: "أبو منصور عبد القاهر بن طاهر بن محمد بن عبد الله التميمي البغدادي" }
   - { kind: kunya, lang: ar, value: "أبو منصور" }
   - { kind: nisba, lang: ar, value: "البغدادي" }
 gender: male
-roles: [scholar]
+roles: [scholar, theologian, jurist, writer]
 traditions: [sunni]
+died:
+  edtf: "1038~"
+  hijri: "0429"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مات بإسفرايين سنة تسع وعشرين وأربعمائة {cite:tarikh-islam-dhahabi pp. 265-266} {cite:tabaqat-shafiiyya-subki pp. 238-239}؛ وعند ابن النجار سنة ٤٢٧هـ وهو تصحيف عند السبكي {cite:tabaqat-shafiiyya-subki p. 239}، وعند ابن شاكر سنة ٤٢٠هـ {cite:mawsuat-a3lam-ulama-adaba p. 635}؛ التحويل مشتق."
+  sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/mawsuat-a3lam-ulama-adaba]
 summary:
-  ar: "متكلم وباحث في أصول الدين ومذاهب الفرق، من أهل بغداد، صنّف في الإيمان وأصوله، وفي نفي خلق القرآن، وفي تأويل متشابه الأخبار."
-  en: "Theologian of Baghdad who wrote on the principles of faith, on the createdness of the Qur'an and on the interpretation of ambiguous reports, and on the sects."
+  ar: "متكلم وفقيه شافعي أصولي من بغداد، استقر بنيسابور تلميذاً للأستاذ أبي إسحاق الإسفراييني ثم خلفه في الإملاء، ودرّس في سبعة عشر فناً حتى اضطرته فتنة التركمان سنة ٤٢٩هـ إلى إسفرايين فمات بها ودُفن إلى جانب شيخه؛ صاحب الفرق بين الفرق وأصول الدين والتكملة في الحساب {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tabaqat-shafiiyya-subki pp. 238-240}."
+  en: "A Shafi'i jurist and Ash'ari theologian born in Baghdad who settled in Nishapur, studied under Abu Ishaq al-Isfarayini and succeeded to his lectern, teaching in seventeen fields until the Turkmen troubles drove him to Isfarayin in 429/1038, where he died and was buried beside his teacher; author of al-Farq bayna al-Firaq, Usul al-Din and al-Takmila fi'l-Hisab {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tabaqat-shafiiyya-subki pp. 238-240}."
+  ur: "بغداد میں پیدا ہونے والے شافعی فقیہ اور اشعری متکلم، نیشاپور میں سکونت اختیار کی، ابو اسحاق اسفرائینی کے شاگرد اور ان کے درس کے جانشین، سترہ علوم پڑھاتے رہے، 429ھ میں ترکمانوں کی فتنے کی وجہ سے اسفراین چلے گئے جہاں وفات پائی اور اپنے استاد کے پہلو میں دفن ہوئے؛ الفرق بین الفرق، اصول الدین اور التکملۃ فی الحساب کے مؤلف {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tabaqat-shafiiyya-subki pp. 238-240}۔"
 wings: [people]
 themes: [creed, sects-and-schools]
 periods: [period/buyid-seljuk-fatimid-era]
-regions: [levant-iraq]
+regions: [levant-iraq, persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: died_in, target: place/isfarayin, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
+  - { type: child_of, target: person/tahir-ibn-muhammad-al-baghdadi, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: student_of, target: person/al-isfarayini-abu-ishaq-ibrahim, sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/abu-amr-ibn-nujayd, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
+  - { type: student_of, target: person/muhammad-ibn-jafar-ibn-matar, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
+  - { type: student_of, target: person/al-ismaili-abu-bakr-ahmad, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: student_of, target: person/abu-ahmad-ibn-adi-al-jurjani, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: authored, target: work/al-farq-bayna-al-firaq, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: authored, target: work/kitab-usul-al-din, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: authored, target: work/al-takmila-fi-al-hisab, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
+  - { type: authored, target: work/al-milal-wa-al-nihal-baghdadi, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/baghdadi-aq-nishapur-arrival-390, sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/baghdadi-aq-studies-isfarayini-405, sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/baghdadi-aq-succeeds-isfarayini-418, sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/baghdadi-aq-teaches-seventeen-425, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/baghdadi-aq-departs-nishapur-429, sources: [source/tabaqat-shafiiyya-subki, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: participated_in, target: event/baghdadi-aq-dies-429, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
 external_ids: { wikidata: "Q557366" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 634-635, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص634", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص634-635 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 429, printed pp. 264-266 (harvest OCR); al-Subki, Tabaqat al-Shafi'iyya al-Kubra, 4th tabaqa, printed pp. 238-240 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baghdadi-aq-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

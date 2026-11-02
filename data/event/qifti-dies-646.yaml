@@ -1,0 +1,28 @@
+id: event/qifti-dies-646
+class: event
+kind: death
+label:
+  ar: "وفاة القاضي الأكرم القفطي بحلب، رمضان ٦٤٦هـ"
+  en: "The Qadi al-Akram al-Qifti dies at Aleppo, Ramadan 646/1248"
+  ur: "قاضی اکرم قفطی کا حلب میں انتقال، رمضان 646ھ/1248ء"
+summary:
+  ar: "توفي الوزير الأكرم جمال الدين علي بن يوسف الشيباني القفطي في رمضان سنة ست وأربعين وستمائة {cite:tarikh-islam-dhahabi p. 326} {cite:shadharat-dhahab p. 236}؛ جمع من الكتب ما لم يجمعه أحد، ولم يكن له دار ولا زوجة، وأوصى بكتبه — وكانت تساوي خمسين ألف دينار — للناصر صاحب حلب {cite:tarikh-islam-dhahabi p. 325}."
+  en: "The vizier al-Qadi al-Akram Jamal al-Din Ali ibn Yusuf al-Shaybani al-Qifti died in Ramadan 646/1248-9 {cite:tarikh-islam-dhahabi p. 326} {cite:shadharat-dhahab p. 236}; he had assembled a library no one else had matched, kept neither house nor wife, and bequeathed his books — worth fifty thousand dinars — to al-Malik al-Nasir of Aleppo {cite:tarikh-islam-dhahabi p. 325}."
+  ur: "وزیر قاضی اکرم جمال الدین علی بن یوسف شیبانی قفطی رمضان 646ھ/1248ء میں حلب میں فوت ہوئے {cite:tarikh-islam-dhahabi p. 326} {cite:shadharat-dhahab p. 236}؛ انھوں نے کتب کا وہ مجموعہ جمع کیا جو کسی اور کے پاس نہیں تھا، نہ گھر تھا نہ زوجہ، اور اپنی کتب — پچاس ہزار دینار مالیت — ناصر صاحب حلب کے لیے وصیت کی {cite:tarikh-islam-dhahabi p. 325}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1248-12~", hijri: "0646-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٦٤٦هـ {cite:tarikh-islam-dhahabi p. 326} {cite:shadharat-dhahab p. 236}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-qifti, role: "المتوفى", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-nasir-yusuf, role: "صاحب حلب المُوصى له بالكتب", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 646, printed pp. 325-326 (harvest OCR); Ibn al-Imad, Shadharat al-Dhahab 5/236 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

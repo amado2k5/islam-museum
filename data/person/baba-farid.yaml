@@ -1,0 +1,60 @@
+id: person/baba-farid
+class: person
+label:
+  ar: "فريد الدين مسعود غنج شكر"
+  en: "Baba Farid"
+  ur: "بابا فرید الدین گنج شکر"
+names:
+  - { kind: full, value: "Farid al-Din Mas'ud Ganjshakar" }
+  - { kind: given, value: "Farid al-Din Mas'ud" }
+  - { kind: laqab, value: "Ganjshakar" }
+  - { kind: alternate, value: "Baba Farid" }
+roles: [mystic, poet, preacher]
+gender: male
+summary:
+  ar: "فريد الدين مسعود گنج شكر، المعروف بابا فريد (ت 1266) صوفي بنجابي وشاعر وواعظ، من مؤسسي الطريقة الجشتية ورئيسها بعد شيخه قطب الدين بختيار كاكي، استقر في أجودهن (باك بتن)، وكان نظام الدين أولياء أشهر مريديه وخليفته."
+  en: "Farid al-Din Mas'ud Ganjshakar, known as Baba Farid (died 1266), was a Punjabi Sufi mystic, poet and preacher, one of the founding fathers of the Chishti order and its head after his teacher Qutbuddin Bakhtiar Kaki; he settled at Ajodhan (Pakpattan), and Nizamuddin Auliya was his most prominent disciple and successor."
+  ur: "فرید الدین مسعود گنج شکر، معروف بابا فرید (وفات 1266ء) پنجابی صوفی، شاعر اور مبلغ تھے، سلسلہ چشتیہ کے بانیوں میں سے ایک اور اپنے شیخ قطب الدین بختیار کاکی کے بعد اس کے سربراہ؛ وہ اجودھن (پاکپتن) میں مقیم ہوئے اور نظام الدین اولیاء ان کے مشہور ترین مرید و خلیفہ تھے۔"
+regions: [south-asia]
+wings: [people]
+born:
+  edtf: "1188"
+  precision: year
+  calendar: gregorian
+  status: debated
+  note: "The English article gives his birth as circa 4 April 1188 at Kothewal near Multan, so the year is built. The readings disagree widely: the same article quotes a 2023 Springer chapter giving 1179 and notes another source claiming 1173; the Urdu article's tradition gives 1173; Wikidata gives 1175; the queue also gives 1173. No Hijri year is built: the English article pairs 1188 with 573 AH, which does not convert to it, and the Urdu article pairs 1173 with 589 AH, which converts to 1193 CE."
+  sources:
+    - source/wikipedia-baba-farid-en
+    - source/wikipedia-baba-farid-ur
+    - source/wikidata-baba-farid
+died:
+  edtf: "1266"
+  precision: year
+  calendar: gregorian
+  status: debated
+  note: "The English article gives his death as circa 7 May 1266 at Pakpattan, so the year is built. The Arabic article gives 664 AH / 1265 CE and the Urdu article 5 Muharram 664 AH, i.e. 1265, at the age of 92; Wikidata also gives 1265. Because 664 AH spans 1265-1266 CE, no single Hijri year is asserted in the block."
+  sources:
+    - source/wikipedia-baba-farid-en
+    - source/wikipedia-baba-farid-ar
+    - source/wikipedia-baba-farid-ur
+    - source/wikidata-baba-farid
+faith:
+  - value: sufi
+    basis: documented
+    note: "The English article calls him one of the founding fathers of the Chishti Sufi order, says he became head of the Chishti order, and names his teacher Qutbuddin Bakhtiar Kaki; the Arabic article describes him in prose as the third in the Chishti order. Two independent texts therefore attest the Chishti order for him himself."
+    sources:
+      - source/wikipedia-baba-farid-en
+      - source/wikipedia-baba-farid-ar
+sources:
+  - source/wikipedia-baba-farid-en
+  - source/wikipedia-baba-farid-ar
+  - source/wikipedia-baba-farid-ur
+  - source/wikidata-baba-farid
+external_ids:
+  wikidata: Q3244622
+provenance:
+  layer: own-research
+  source: "Built from the English, Arabic and Urdu Wikipedia articles and the Wikidata item, all fetched live on 2 November 2026; revision IDs are recorded in the source records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-181n1"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

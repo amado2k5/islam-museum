@@ -1,0 +1,27 @@
+id: event/baghdadi-aq-dies-429
+class: event
+kind: death
+label:
+  ar: "وفاة أبي منصور البغدادي بإسفرايين ودفنه إلى جانب شيخه، ٤٢٩هـ"
+  en: "Abu Mansur al-Baghdadi dies at Isfarayin and is buried beside his teacher, 429/1038"
+  ur: "ابو منصور بغدادی کی اسفراین میں وفات اور استاد کے پہلو میں تدفین، 429ھ/1038ء"
+summary:
+  ar: "حين حلّ أبو منصور بإسفرايين ابتهج أهلها بمقدمه ابتهاجاً لا يوصف، فلم يبق بها إلا اليسير حتى مات سنة تسع وعشرين وأربعمائة، وأجمع أهل العلم على دفنه إلى جانب الأستاذ أبي إسحاق فصار قبراهما متجاورين {cite:tabaqat-shafiiyya-subki pp. 238-239} {cite:tarikh-islam-dhahabi p. 265}؛ ووقع في تاريخ ابن النجار أنه مات سنة ٤٢٧هـ وهو تصحيف عند السبكي {cite:tabaqat-shafiiyya-subki p. 239}، ونقل ابن شاكر سنة ٤٢٠هـ {cite:mawsuat-a3lam-ulama-adaba p. 635}."
+  en: "When Abu Mansur reached Isfarayin its people rejoiced at his coming beyond description, but he stayed only a little while before dying in 429; the people of learning agreed to bury him beside the master Abu Ishaq, and their two graves stand side by side {cite:tabaqat-shafiiyya-subki pp. 238-239} {cite:tarikh-islam-dhahabi p. 265}; Ibn al-Najjar's history gives 427, which al-Subki calls a scribal error {cite:tabaqat-shafiiyya-subki p. 239}, and Ibn Shakir transmits 420 {cite:mawsuat-a3lam-ulama-adaba p. 635}."
+  ur: "جب ابو منصور اسفراین پہنچے تو اہل شہر ان کی آمد پر بے حد خوش ہوئے، مگر وہ وہیں تھوڑے دن ٹھہرے اور 429ھ میں فوت ہوئے؛ اہل علم نے انھیں استاد ابو اسحاق کے پہلو میں دفن کرنے پر اتفاق کیا اور دونوں قبریں آمنے سامنے رہیں {cite:tabaqat-shafiiyya-subki pp. 238-239} {cite:tarikh-islam-dhahabi p. 265}؛ ابن نجار کی تاریخ میں 427ھ ہے جو سبکی کے نزدیک تصحیف ہے {cite:tabaqat-shafiiyya-subki p. 239}، اور ابن شاکر سے 420ھ منقول ہے {cite:mawsuat-a3lam-ulama-adaba p. 635}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1038~", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بإسفرايين سنة ٤٢٩هـ {cite:tabaqat-shafiiyya-subki pp. 238-239} {cite:tarikh-islam-dhahabi p. 265}؛ روايتا ٤٢٧هـ و٤٢٠هـ ضعيفتان {cite:tabaqat-shafiiyya-subki p. 239} {cite:mawsuat-a3lam-ulama-adaba p. 635}؛ التحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/isfarayin, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-baghdadi-abd-al-qahir-ibn-tahir, role: "المتوفى", sources: [source/tabaqat-shafiiyya-subki] }
+sources: [source/tabaqat-shafiiyya-subki, source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat, printed pp. 238-239 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 429, printed p. 265 (harvest OCR); موسوعة أعلام العلماء والأدباء ج3 ص635 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baghdadi-aq-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
