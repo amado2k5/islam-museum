@@ -67,6 +67,27 @@ for (const list of versesOf.values()) list.sort((a, b) => refKey(String(a.data.r
 const versePoems = [...groups.flatMap((g) => g.poems), ...unattributed].filter((p) => versesOf.has(p.id));
 const verseText = (v: any) => v.data.translations?.[lang]?.text ?? v.data.translations?.en?.text ?? "";
 const metreLabel = (id: string) => METRES[id]?.[lang === "ar" ? "ar" : "en"] ?? id;
+// Plain-link filters: for each poet, metre and rhyme letter, the poems (anchors in the list below) that
+// have at least one verse with that value, with the number of such verses.
+type Hit = { poem: any; n: number };
+const tally = (keyOf: (poem: any, v: any) => string | undefined) => {
+  const m = new Map<string, Map<string, Hit>>();
+  for (const p of versePoems) for (const v of versesOf.get(p.id)!) {
+    const k = keyOf(p, v);
+    if (!k) continue;
+    const poems = m.get(k) ?? m.set(k, new Map()).get(k)!;
+    (poems.get(p.id) ?? poems.set(p.id, { poem: p, n: 0 }).get(p.id)!).n++;
+  }
+  return m;
+};
+const byPoetV = tally((p) => poetOf.get(p.id)?.id);
+const byMetreV = tally((_, v) => v.data.metre);
+const byRhymeV = tally((_, v) => v.data.rhyme);
+const filters = [
+  { id: "poet", title: P.verses_by_poet, entries: [...byPoetV.entries()].map(([k, poems]) => ({ key: k, label: labelOf(byId.get(k), lang), poems: [...poems.values()] })) },
+  { id: "metre", title: P.verses_by_metre, entries: [...byMetreV.entries()].map(([k, poems]) => ({ key: k, label: metreLabel(k), poems: [...poems.values()] })) },
+  { id: "rhyme", title: P.verses_by_rhyme, entries: [...byRhymeV.entries()].sort((a, b) => a[0].localeCompare(b[0], "ar")).map(([k, poems]) => ({ key: k, label: k, poems: [...poems.values()] })) },
+].filter((f) => f.entries.length > 0);
 ---
 <BaseLayout lang={lang} title={P.title} description={P.lede} path={`/${lang}/words/poetry/`}>
   <PageHeader
@@ -120,6 +141,21 @@ const metreLabel = (id: string) => METRES[id]?.[lang === "ar" ? "ar" : "en"] ?? 
     <div class="wrap" style="padding-block:20px" id="verses">
       <h2 style="font-size:1.5rem;margin:0 0 8px">{P.verses_title}</h2>
       <p class="ui muted" style="max-width:var(--measure);margin:0 0 12px">{fmt(P.verses_note, { n: String(verses.length), p: String(versePoems.length) })}</p>
+      {filters.map((f) => (
+        <details style="margin-bottom:10px">
+          <summary class="ui">{f.title} <span class="muted">({f.entries.length})</span></summary>
+          <ul style="list-style:none;padding:0;margin:8px 0 0;display:grid;gap:6px">
+            {f.entries.map((e) => (
+              <li>
+                <strong lang={f.id === "rhyme" ? "ar" : undefined}>{e.label}</strong>:
+                {e.poems.map((h, i) => (
+                  <span>{i > 0 ? " · " : " "}<a href={`#v-${h.poem.slug}`}>{labelOf(h.poem, lang)}</a> <span class="ui muted">({h.n})</span></span>
+                ))}
+              </li>
+            ))}
+          </ul>
+        </details>
+      ))}
       <nav aria-label={P.verses_jump} style="margin-bottom:20px">
         <ul style="display:flex;flex-wrap:wrap;gap:8px 16px;list-style:none;padding:0;margin:0">
           {versePoems.map((p) => (
