@@ -48,9 +48,10 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
   }
 
   function syncFilters(d: Data) {
-    // count what choosing a type on its own would show, so a type seen only two hops away behind other types reads as empty
+    // count the entries of a type that show once it joins the current choice: a type seen only behind other types
+    // reads as empty on its own and fills in when the type it hangs from is chosen
     const count = new Map<string, number>();
-    for (const c of new Set(d.nodes.filter((n) => n.hop).map((n) => classKey(n.c)))) count.set(c, filtered(d, new Set([c])).nodes.length - 1);
+    for (const c of new Set(d.nodes.filter((n) => n.hop).map((n) => classKey(n.c)))) count.set(c, filtered(d, new Set([...only, c])).nodes.filter((n) => n.hop && classKey(n.c) === c).length);
     for (const b of filters) {
       const c = b.dataset.filter!, k = count.get(c) ?? 0;
       b.querySelector<HTMLElement>("[data-count]")!.textContent = k ? String(k) : "";
