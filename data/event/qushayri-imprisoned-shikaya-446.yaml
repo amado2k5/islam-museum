@@ -1,0 +1,27 @@
+id: event/qushayri-imprisoned-shikaya-446
+class: event
+kind: persecution
+label:
+  ar: "سجن القشيري في فتنة ٤٤٦هـ وكتابه «شكاية أهل السنة»"
+  en: "Al-Qushayri imprisoned in the fitna of 446/1054 — he writes the 'Complaint of the people of the Sunna'"
+  ur: "446ھ/1054ء کی فتنہ میں قشیری قید ہوئے اور «شکایت اہلِ سنت» لکھی"
+summary:
+  ar: "لما انفجرت المنازعة بين الحنفية والشافعية الأشاعرة بنيسابور فتنة عنيفة سنة ٤٤٦هـ سُجن القشيري بها ثم أنقذه أنصاره بالسلاح بعد أسابيع؛ وإثر ذلك كتب رسالته المشهورة «شكاية أهل السنة بما نالهم من المحنة» يدافع فيها عن الأشعري ضد تهم خصومه، وقد حفظها السبكي في طبقاته {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}."
+  en: "When the Hanafi-Ash'ari/Shafi'i conflict at Nishapur broke into a violent fitna in 446/1054, al-Qushayri was imprisoned by his adversaries and rescued some weeks later when his partisans took up arms; in response he wrote his famous 'Complaint of the people of the Sunna over what befell them in the ordeal', defending al-Ash'ari against his opponents' slander — a text preserved by al-Subki {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}."
+  ur: "جب نیشاپور میں حنفی-اشعری/شافعی تنازع 446ھ/1054ء میں سنگین فتنہ بنا تو مخالفین نے قشیری کو قید کر دیا اور چند ہفتے بعد ان کے حامیوں نے زورِ اسلحہ سے چھڑایا؛ اس پر انھوں نے اپنی مشہور «شکایت اہلِ سنت بما نالہم من المحنہ» تحریر کی جس میں اشعری کے دفاع کو مخالفین کے الزامات کے خلاف پیش کیا — یہ متن سبکی نے محفوظ کیا {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1054", hijri: "0446", calendar: julian, precision: year, status: tradition, derived: true, note: "لما انفجرت المنازعة الحنفية الشافعية فتنة عنيفة سنة ٤٤٦هـ سُجن القشيري وأنقذه أنصاره بالقوة بعد أسابيع، فكتب «شكاية أهل السنة بما نالهم من المحنة» {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "المسجون الشاكي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.1 art. AL-KUSHAYRI printed p. 564 (harvest OCR): 'In 446/1054 the Hanafi-Shafi conflict broke out into a violent fitna, al-Kushayri was imprisoned... he wrote Shikayat ahl al-sunna'"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

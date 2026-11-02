@@ -1,0 +1,28 @@
+id: event/qushayri-daqqaq-circle-400
+class: event
+kind: other
+label:
+  ar: "القشيري يلزم مجلس أبي علي الدقاق بنيسابور، نحو ٤٠٠هـ"
+  en: "Al-Qushayri joins Abu Ali al-Daqqaq's circle at Nishapur, c. 400/1009"
+  ur: "قشیری نیشاپور میں ابو علی دقاق کے مجلس سے جُڑے، تقریباً 400ھ/1009ء"
+summary:
+  ar: "توفي أبو القشيري وهو طفل فوقع إلى أبي القاسم اليماني الأديب فقرأ عليه الأدب والعربية، وكانت له ضيعة مثقلة الخراج بناحية أستوا فدخل نيسابور ليتعلم طرفاً من الاستيفاء يصون به قريته، فاتفق حضوره مجلس أبي علي الدقاق وكان واعظ وقته، فاستحلى كلامه ونسخ ما عزم عليه: «طلب القباء فوجد العباء»، فقبله الدقاق وأشار عليه بتعلم العلم {cite:tarikh-islam-dhahabi p. 171} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}."
+  en: "Al-Qushayri's father died while he was a child, so he read letters and Arabic under Abu al-Qasim al-Yamani; he held a village near Ustuwa burdened with land-tax and came to Nishapur to learn enough revenue-work to protect it, when he chanced upon the assembly of Abu Ali al-Daqqaq, the preacher of his day — he relished his words and abandoned his plan, 'seeking the gown he found the Sufi cloak', and al-Daqqaq accepted him and pointed him to learning {cite:tarikh-islam-dhahabi p. 171} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}."
+  ur: "قشیری کے والد ان کے بچپن میں فوت ہوئے تو انھوں نے ابو القاسم یمانی اديب سے ادب اور عربی پڑھی؛ استوا کے قریب ان کا ایک دیہہ خراج سے بوجھل تھا، وہ اسے بچانے کے لیے محصولی علم سیکھنے نیشاپور آئے کہ اتفاق سے اپنے وقت کے واعظ ابو علی دقاق کا مجلس نصیب ہوا؛ ان کی بات پسند آئی اور ارادہ بدل گیا — «قباء چاہتے تھے، عباء ملا» — دقاق نے قبول کیا اور علم کی طرف اشارہ کیا {cite:tarikh-islam-dhahabi p. 171} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1009~", hijri: "0400~", calendar: julian, precision: year, status: tradition, derived: true, note: "لما دخل نيسابور شابًّا لشأن ضيعته لزم مجلس الدقاق قبل وفاته سنة ٤٠٥هـ؛ التاريخ تقريبي مشتق {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "الوافد المريد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-ali-al-daqqaq, role: "الشيخ صاحب المجلس", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 465, printed p. 171 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 5.1 art. AL-KUSHAYRI printed p. 564"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
