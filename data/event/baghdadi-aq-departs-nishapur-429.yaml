@@ -1,0 +1,28 @@
+id: event/baghdadi-aq-departs-nishapur-429
+class: event
+kind: other
+label:
+  ar: "فتنة التركمان تضطر البغدادي إلى مفارقة نيسابور نحو إسفرايين، ٤٢٩هـ"
+  en: "The Turkmen troubles drive al-Baghdadi out of Nishapur to Isfarayin, 429/1038"
+  ur: "ترکمانوں کی فتنے نے بغدادی کو نیشاپور سے اسفراین جانے پر مجبور کیا، 429ھ/1038ء"
+summary:
+  ar: "فارق أبو منصور البغدادي نيسابور بسبب فتنة وقعت بها من التركمان — وقد قيل: «ومن خراب نيسابور أن اضطر مثله إلى مفارقتها» — فخرج منها في أيام التركمانية وفتنتهم إلى إسفرايين سنة ٤٢٩هـ، وهي سنة دخول السلاجقة المدينة {cite:tabaqat-shafiiyya-subki p. 238} {cite:mawsuat-a3lam-ulama-adaba p. 635} {cite:tarikh-islam-dhahabi p. 265}."
+  en: "Abu Mansur al-Baghdadi left Nishapur because of the Turkmen disturbance that struck it — it was said that among the calamities of Nishapur was that a man like him was forced to leave — departing for Isfarayin in the days of the Turkmen ascendancy in 429/1038, the year the Seljuks entered the city {cite:tabaqat-shafiiyya-subki p. 238} {cite:mawsuat-a3lam-ulama-adaba p. 635} {cite:tarikh-islam-dhahabi p. 265}."
+  ur: "ابو منصور بغدادی نے ترکمانوں کے فتنے کی وجہ سے نیشاپور چھوڑا — کہا گیا کہ نیشاپور کی خرابیوں میں سے ایک یہ تھی کہ ان جیسے شخص کو اسے چھوڑنا پڑا — اور 429ھ میں ترکمانوں کے ایام میں اسفراین چلے گئے، یہی وہ سال ہے جب سلجوق شہر میں داخل ہوئے {cite:tabaqat-shafiiyya-subki p. 238} {cite:mawsuat-a3lam-ulama-adaba p. 635} {cite:tarikh-islam-dhahabi p. 265}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1038~", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "مفارقته نيسابور بفتنة التركمان سنة ٤٢٩هـ {cite:mawsuat-a3lam-ulama-adaba p. 635} {cite:tabaqat-shafiiyya-subki p. 238}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-shafiiyya-subki] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-baghdadi-abd-al-qahir-ibn-tahir, role: "الخارج من الفتنة", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: related_to, target: event/battle-of-nishapur-1038, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/tabaqat-shafiiyya-subki, source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat, printed p. 238 (harvest OCR); موسوعة أعلام العلماء والأدباء ج3 ص635 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 429, printed p. 265 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baghdadi-aq-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
