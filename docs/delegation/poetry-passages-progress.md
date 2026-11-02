@@ -54,3 +54,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 7: Al-Dahhak ibn Khalifa, Bujayr ibn Bujra, Abbas ibn Mirdas on Hunayn (p. 859), Ka'b ibn Malik on the march to Ta'if (p. 870) (23).
   - Attribution note: the work records the openings `تقضى أمور وتأتي أمور` (Abbas) and `وقائلةٍ ألا تَبكِي أخاها` (Ka'b); the Wüstenfeld text has Abbas's Hunayn ode beginning `يا خاتم النبآء` (p. 859, Banu Sulaym's part at Hunayn) and Ka'b's Ta'if ode beginning `قضينا من تهامة` (p. 870). The passages are attached to those works on the basis of subject (Hunayn / march to Ta'if); the recorded openings were not found in this edition and may come from another recension.
   - Abbas's second ode on p. 859 (`أما ترى يا أم فروة خيلنا`) is not attached to any work yet.
+- PR 8: Hassan's poem enumerating the Ansar's campaigns (17, pp. 929-930) and three more bayts of Hassan's lam-rhymed poem (refs 7-9) (20).
