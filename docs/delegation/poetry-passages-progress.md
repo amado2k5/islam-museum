@@ -60,3 +60,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 11 (Mutanabbi, Dar Beirut 1983 scan): five more bayts of `mutanabbi-bima-al-taallul` (p. 472) and three new poem works: `mutanabbi-la-taqnaa-bima-dun-al-nujum` (6, p. 232), `mutanabbi-li-kulli-imri-ma-taawwada` (8, p. 370), `mutanabbi-aghalib-fika-al-shawq` (4, p. 466) (22 passages).
 - PR 12: plain-link filters (by poet, metre, rhyme letter) in the Verses section of the poetry page, with en/ar/ur strings; no build run.
 - PR 13: metre (and rhyme where missing) set on Hassan's lam-rhymed poem (tawil) and Farwa al-Judhami's verses (kamil / tawil by line). Labid's elegies left without metre: not established with confidence from the text.
+- PR 14 (Mutanabbi, Dar Beirut 1983 scan): `mutanabbi-kafa-bika-daa` (6, p. 441), `mutanabbi-eid-biayyi-hal` (8, p. 506), `mutanabbi-kabirt-hawl-diyarihim` (11, p. 28) (25 passages, 3 new works).
