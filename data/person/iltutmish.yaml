@@ -1,0 +1,77 @@
+id: person/iltutmish
+class: person
+
+label: { ar: "شمس الدين إلتتمش", en: "Iltutmish", ur: "شمس الدین التتمش" }
+
+names:
+  - { value: "Shams ud-Din Iltutmish", kind: full }
+  - { value: "Iltutmish", kind: alternate }
+  - { value: "Altamash", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "شمس الدين إلتتمش (1192 – 30 أبريل 1236)، ثالث سلاطين دهلي المماليك وحاكمها الحقيقي المؤسس. تركي إلبري اشتراه قطب الدين أيبك ثم أعتقه وزوّجه ابنته، فخلع آرام شاه سنة 1211 وثبّت السلطنة من لاهور وبنغال إلى مالوا، ونال سنة 1229 تقليد الخليفة العباسي المستنصر وخلعته، فكان أول سلطان لدهلي يعترف به الخليفة. أسس مجلس الأربعين من أمراء المماليك، وسكّ التانكا الفضية، وأتم مسجد قطب في دهلي ومنارتها، وعيّن ابنته رضية وليّة لعهده قبل وفاته في دهلي سنة 1236."
+  en: "Shams ud-Din Iltutmish (1192 - 30 April 1236) was the third sultan of the Mamluk Sultanate of Delhi and its effective founder. An Ilbari Turk bought by Qutb ud-Din Aibak, freed and married to Aibak's daughter, he dethroned Aram Shah in 1211, consolidated the sultanate from Lahore and Bengal to Malwa, and in 1229 received investiture and robes of honour from the Abbasid caliph al-Mustansir — the first Delhi sultan recognised by the caliph. He founded the council of the Forty slave-officers, issued the silver tanka, completed Delhi's Qutb mosque and its minaret, and designated his daughter Razia as his heir before dying at Delhi in 1236."
+  ur: "شمس الدین التتمش (1192ء – 30 اپریل 1236ء) دہلی کی مملوک سلطنت کے تیسرے سلطان اور اس کے حقیقی بانی تھے۔ ایک ایلبری ترک تھے جنہیں قطب الدین ایبک نے خریدا، پھر آزاد کر کے اپنی بیٹی سے بیاہ دیا؛ انھوں نے 1211ء میں آرام شاہ کو معزول کیا، لاہور اور بنگال سے مالوہ تک سلطنت کو مستحکم کیا، اور 1229ء میں عباسی خلیفہ المستنصر سے خلعت و سندِ حکومت پائی — وہ پہلے سلطانِ دہلی تھے جنہیں خلیفہ نے تسلیم کیا۔ انھوں نے چہلگانی (چالیس غلام امیروں) کی مجلس بنائی، چاندی کا ٹنکا جاری کیا، دہلی کی قطب مسجد و منار مکمل کیا، اور وفات سے پہلے اپنی بیٹی رضیہ کو ولی عہد نامزد کیا؛ 1236ء میں دہلی میں وفات پائی۔"
+
+roles: [ruler]
+regions: [south-asia]
+wings: [people]
+
+born:
+  edtf: "1192"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English article and the Wikidata item give his birth in 1192; the Arabic and Urdu articles read give no birth year. The year 1192 spans 588-589 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-iltutmish-en, source/wikidata-iltutmish]
+
+died:
+  edtf: "1236-04-30"
+  calendar: gregorian
+  precision: day
+  status: debated
+  hijri: "0633"
+  note: "The English article gives 30 April 1236 in its lead and its death section, and the Arabic article on his daughter Razia independently dates his death to Wednesday 30 April 1236; the Urdu article and the Wikidata item give 28 April 1236, preserved here as the rival reading. Both days fall in Sha'ban 633 AH; the Hijri year is derived from the built date by the tabular conversion."
+  sources: [source/wikipedia-iltutmish-en, source/wikipedia-razia-sultana-ar, source/wikipedia-iltutmish-ur, source/wikidata-iltutmish]
+
+relations:
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-iltutmish-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      The English article's religious-policy section calls him a
+      devout Muslim who did not miss his daily prayers even on
+      campaign, records his reverence for named Sufi saints —
+      Qutbuddin Bakhtiar Kaki, Hamiduddin Nagauri, Jalaluddin
+      Tabrizi, Bahauddin Zakariya and Najibuddin Nakhshabi — his
+      meetings at Baghdad with the Sufi saints Shihabuddin
+      Suhrawardi and Awḥaduddin Kermani, his building of khanqahs,
+      and his reception in 1229 of investiture from the Abbasid
+      caliph al-Mustansir. All of this is documented devotional
+      practice, saintly patronage and caliphal legitimation; no
+      text read names a madhhab or an order for the sultan
+      himself, and the Wikidata item's religion statement of
+      Sunni Islam is structured data, which under the founder's
+      rules settles nothing. His faith is therefore recorded as
+      unknown, with the documented practice stated here in full.
+    sources: [source/wikipedia-iltutmish-en, source/wikidata-iltutmish]
+
+external_ids: { wikidata: "Q336312" }
+
+sources:
+  - source/wikipedia-iltutmish-en
+  - source/wikipedia-iltutmish-ar
+  - source/wikipedia-iltutmish-ur
+  - source/wikipedia-razia-sultana-ar
+  - source/wikidata-iltutmish
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Iltutmish' (revision 1375695698 of 19 September 2026), Arabic Wikipedia 'شمس الدين إلتتمش' (revision 74126323 of 1 April 2026), Urdu Wikipedia 'التتمش' (revision 11830855 of 27 August 2026) and Wikidata Q336312 (item revision 2553988736 of 6 October 2026, re-asserted identical on a second live query), all fetched live in-session on 1 November 2026, the QID grounded from each article's own page property; the Arabic article on his daughter (revision 73315590) is also registered because it independently dates his death. Existence checked against origin/main before building, by slug variants and by QID: no record exists for him. Queue check: the queue's 1192-1236 is confirmed on both years. The death day is debated as recorded in the died note; the Arabic Iltutmish article's 1229 death year is an error (it conflates his son Nasiruddin Mahmud's death that year) and is flagged in that source's reliability note, not used. No successor_of is written here (that edge belongs in a successor's record, and Aram Shah — his predecessor — and his immediate successors have no records on origin/main); his daughter Razia's child_of edge is written in her own record, built in this same wave. His death place is carried as a died_in relation to place/delhi, which exists on origin/main, not as a key inside the date block."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-180m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

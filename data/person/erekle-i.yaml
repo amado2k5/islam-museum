@@ -1,0 +1,79 @@
+id: person/erekle-i
+class: person
+
+label: { ar: "هرقل الأول ملك كاخيتي", en: "Erekle I of Kakheti", ur: "ہرکیولس اول کاکھیتی" }
+
+names:
+  - { value: "Erekle I", kind: full }
+  - { value: "Heraclius I of Kakheti", kind: alternate }
+  - { value: "Nazar Ali Khan", kind: regnal }
+  - { value: "Tsarevich Nicholas Davidovich", kind: alternate }
+  - { value: "ერეკლე I", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "إركلي الأول (1642–1709)، المعروف باسمه المسلم نظر علي خان وباسم نيكولاس دافيدوفيتش في البلاط الروسي، أمير باغراتيوني نشأ في موسكو وقبل الإسلام ثمنًا لدعم الشاه الصفوي، فحكم ملكًا على كارتلي (1688–1703) ثم على كاخيتي (1703–1709) تحت الحماية الصفوية. أمضى أربعة عشر عامًا في بلاط الشاه في إصفهان قبل تنصيبه، وخاض حربًا أهلية طويلة ضد جورج الحادي عشر المخلوع، ونظّم إدارة مدينة تبليسي ونقابات حرفييها، وتوفي في إصفهان سنة 1709 تاركًا كاخيتي لابنه داود الثاني (إمام قلي خان)."
+  en: "Erekle I (1642-1709), known by his Muslim name Nazar Ali Khan and at the Russian court as Tsarevich Nicholas Davidovich, was a Bagrationi prince raised in Moscow who accepted Islam as the price of Safavid support and reigned as king of Kartli (1688-1703) and then of Kakheti (1703-1709) under Safavid protection. He spent fourteen years at the shah's court in Isfahan before his installation, fought a long civil war against the deposed George XI, ordered Tbilisi's city administration and craft guilds, and died at Isfahan in 1709, leaving Kakheti to his son David II (Imam Quli Khan)."
+  ur: "ایرکلے اول (1642ء–1709ء)، جو اپنے مسلم نام نظر علی خان اور روسی دربار میں زارزادہ نکولس ڈیوڈووچ کے نام سے معروف تھے، ایک باگراتیونی شہزادے تھے جو ماسکو میں پروان چڑھے؛ انھوں نے صفوی حمایت کی قیمت کے طور پر اسلام قبول کیا اور صفوی سرپرستی میں کارتلی (1688ء–1703ء) پھر کاخیتی (1703ء–1709ء) کے بادشاہ رہے۔ تنصیب سے پہلے انھوں نے اصفہان میں شاہ کے دربار میں چودہ سال گزارے، معزول جارج یازدہم سے طویل خانہ جنگی لڑی، تبلیسی کی شہری انتظامیہ اور دستکار انجمنوں کو منظم کیا، اور 1709ء میں اصفہان میں وفات پائی؛ کاخیتی ان کے بیٹے ڈیوڈ ثانی (امام قلی خان) کو ملا۔"
+
+roles: [ruler]
+regions: [persia-central-asia]
+wings: [people]
+
+born:
+  edtf: "1642"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The Georgian and Arabic articles give 1642 and the Russian article gives 1637 or 1642, while the English article and the Wikidata item give 1643; the 1642 of the Georgian tradition is followed, with the other readings preserved. The year 1642 spans 1051-1052 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-erekle-i-ka, source/wikipedia-erekle-i-ar, source/wikipedia-erekle-i-ru, source/wikipedia-erekle-i-en, source/wikidata-erekle-i]
+
+died:
+  edtf: "1709"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Died at Isfahan in 1709: the Russian article places his death at Isfahan, the English article at the Persian capital to which he had been ordered, and the Georgian article in Persia soon after he handed Kakheti to his son David. The year 1709 spans 1120-1121 AH, so no single Hijri year is built."
+  sources: [source/wikipedia-erekle-i-ru, source/wikipedia-erekle-i-en, source/wikipedia-erekle-i-ka]
+
+relations:
+  - { type: died_in, target: place/isfahan, sources: [source/wikipedia-erekle-i-ru, source/wikipedia-erekle-i-en] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Raised in the Orthodox faith at the Moscow court, he was required
+      by Shah Suleiman to change his faith as the price of a crown. The
+      English article records that in 1674 he at first refused to become
+      a Muslim, citing the oath of allegiance his ancestor Alexander II
+      of Kakheti had given to Feodor I of Russia, and it dates his
+      conversion to Islam, under the name Nazar Ali Khan, to 1676. The
+      Russian article says that after hesitation he accepted Islam and
+      received the name Nazar Ali Khan before his fourteen years at
+      Isfahan, and the Georgian article likewise says that after long
+      hesitation he became a Muslim and took the name Nazar Ali Khan.
+      His conversion to Islam is therefore documented in full; but no
+      text read names a branch or a school of Islam for the king
+      himself, and the Wikidata item's religion statement is Islam in
+      generic form. Under the founder's rules — Safavid court context
+      is not attestation for the person — his faith is recorded as
+      unknown, with the conversion stated here.
+    sources: [source/wikipedia-erekle-i-en, source/wikipedia-erekle-i-ru, source/wikipedia-erekle-i-ka, source/wikidata-erekle-i]
+
+external_ids: { wikidata: "Q567868" }
+
+sources:
+  - source/wikipedia-erekle-i-en
+  - source/wikipedia-erekle-i-ru
+  - source/wikipedia-erekle-i-ka
+  - source/wikipedia-erekle-i-ar
+  - source/wikidata-erekle-i
+
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Heraclius I of Kakheti' (revision 1375678213 of 19 September 2026), Russian Wikipedia 'Ираклий I (царь Кахетии)' (revision 151968885 of 28 February 2026), Georgian Wikipedia 'ერეკლე I' (revision 4822290 of 29 June 2025), Arabic Wikipedia 'هرقل الأول' (revision 74341229 of 19 April 2026) and Wikidata Q567868 (item revision 2513784600 of 4 July 2026, re-asserted identical on a second live query), all fetched live in-session on 1 November 2026, the QID grounded from each article's own page property. Existence checked against origin/main before building, by slug variants and by QID: no record exists for this king, and the existing person/heraclius is the Byzantine emperor (Q41852), a different man. Queue check: the queue's 1642-1709 is followed on both years, the birth year on the Georgian and Arabic articles with the English article's and item's 1643 and the Russian article's 1637 preserved in the born note. His conversion is stated in full in the faith note; no branch is recorded, as no text names one for him. No child_of is written (his father Prince David has no record on origin/main) and no successor_of is written here (that edge belongs in a successor's record, and neither George XI nor his son David II has one); his death place is carried as a died_in relation to place/isfahan, which exists on origin/main, not as a key inside the date block."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-180m"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1867,14 +1867,14 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Subhan Quli Khan of Bukhara — 1633–1702
 - [x] Ubaydullah Khan of Bukhara — 1675–1711 (NOT the §G Shaybanid of the same name, 1487–1539)
 - [x] Anusha Khan of Khiva — 1630–1687
-- [ ] Erekle I of Kakheti (Nazar Ali Khan) — 1642–1709
-- [ ] Shah Quli Khan — 1650–1720
+- [x] Erekle I of Kakheti (Nazar Ali Khan) — 1642–1709
+- [x] Shah Quli Khan — 1650–1720
 
 ## N. 1226–1325 additions (19)
 
-- [ ] Sultan Iltutmish — 1192–1236
-- [ ] Ghiyas ud din Balban — 1200–1287
-- [ ] Razia Sultana — 1205–1240
+- [x] Sultan Iltutmish — 1192–1236
+- [x] Ghiyas ud din Balban — 1200–1287
+- [x] Razia Sultana — 1205–1240
 - [ ] Sultan Jalal-ud-din Khalji — 1220–1296
 - [ ] Ghiyas al-Din Tughlaq — 1250–1325
 - [ ] Malik Kafur — 1270–1316 (CSV calls him a "Mughal" general — an anachronism; he was Alauddin Khalji's general)
