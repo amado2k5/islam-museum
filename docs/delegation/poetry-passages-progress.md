@@ -56,3 +56,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
   - Abbas's second ode on p. 859 (`أما ترى يا أم فروة خيلنا`) is not attached to any work yet.
 - PR 8: Hassan's poem enumerating the Ansar's campaigns (17, pp. 929-930) and three more bayts of Hassan's lam-rhymed poem (refs 7-9) (20).
 - PR 9 (Mutanabbi, from the local Dar Beirut 1983 scan; cited by scan page, which matches the printed page): `work/mutanabbi-wa-harr-qalbah` (14 bayts, pp. 331-332) and `work/mutanabbi-ala-qadr-ahl-al-azm` (7 bayts, p. 385). New poem works with `authors: person/al-mutanabbi`.
+- PR 10: `work/mutanabbi-bima-al-taallul` (8 bayts, p. 471, Dar Beirut 1983 scan) and `work/tarjuman-al-ashwaq` (9 bayts, pp. 59, 62, 63, 86 of the local Dar al-Marefah 2005 scan, read from page renderings). `tarjuman-al-ashwaq` is therefore no longer skipped: the local edition carries Ibn Arabi's own commentary; only single bayts (under 40 words) of the modern printing are quoted.
