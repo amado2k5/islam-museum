@@ -1,0 +1,57 @@
+id: job/muhtasib
+class: job
+label: { ar: "المحتسب", en: "Muhtasib (market inspector)", ur: "محتسب" }
+summary:
+  ar: "المحتسب هو الموظف المكلَّف بالحِسبة، أي الأمر بالمعروف والنهي عن المنكر في الشأن العام: مراقبة الأسواق والموازين والمكاييل والأسعار، وصيانة النظام العام والأخلاق العامة. وهي عند الفقهاء فرض كفاية على المسلمين، وعلى المحتسب فرض عين بوصفه مكلّفاً بها. وقد عُرف المنصب في الدولة العثمانية باسم «ihtisap ağası» (آغا الاحتساب)."
+  en: "The muhtasib is the official charged with hisba: enjoining good and forbidding wrong in public life. That covers the markets, the weights and measures, prices, public order and public morals. Jurists treat hisba as a collective duty on all Muslims, and as a personal duty for the official who holds it. In the Ottoman state the office was called the ihtisap ağası (agha of the ihtisab)."
+  ur: "محتسب وہ سرکاری عہدیدار ہے جو حسبہ پر مامور ہوتا ہے، یعنی عوامی زندگی میں نیکی کا حکم دینا اور برائی سے روکنا۔ اس میں بازار، اوزان و پیمانے، قیمتیں، عوامی نظم اور اخلاق شامل ہیں۔ فقہاء حسبہ کو تمام مسلمانوں پر فرضِ کفایہ اور منصب دار پر فرضِ عین قرار دیتے ہیں۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0644"
+    precision: decade
+    status: historical
+    note: "The DİA entry says the Prophet appointed named market overseers in Mecca and Medina, and that Umar appointed overseers in Medina. The title muhtasib comes later. The first attestation is the widest range the entry supports."
+    sources: [source/tdv-hisbe]
+  status_today: replaced
+places:
+  - place: place/mecca
+    note: "The Prophet's appointed market overseer in Mecca is named in the sources as Said ibn al-As al-Umawi, according to the entry."
+    sources: [source/tdv-hisbe]
+  - place: place/medina
+    note: "Abdullah ibn Said ibn Usayha is named as an overseer of the Medina market. The entry names five early overseers in all, including Umar ibn al-Khattab and Shifa bint Abdullah."
+    sources: [source/tdv-hisbe]
+  - place: place/baghdad
+    note: "A muhtasib of Baghdad, Abu Zakariyya Yahya ibn Abdullah, is recorded in 157 AH (773–74 CE) under al-Mansur. The caliph had a Baghdad muhtasib executed for abusing the post, according to the entry."
+    sources: [source/tdv-hisbe]
+  - place: place/cairo
+    note: "Under the Fatimids a muhtasib of Cairo was appointed in 358 AH (969). The entry describes two hisba centres in Cairo and Fustat under the caliph, and a deputy for each district."
+    sources: [source/tdv-hisbe]
+  - place: place/damascus
+    note: "In the Mamluk period the Damascus muhtasib was appointed by the viceroy and could appoint deputies in the provincial towns, according to the entry."
+    sources: [source/tdv-hisbe]
+  - place: place/istanbul
+    note: "The office was in Istanbul by the time of the state's founding under the name ihtisap ağası. Galata, Üsküdar and Eyüp each had a muhtasib, according to the entry. The Istanbul ihtisap regulation of Mehmed II's reign (1451–1481) gives the wide powers of the post."
+    sources: [source/tdv-hisbe]
+  - place: place/edirne
+    note: "In Shawwal 884 (December 1479) an ihtisap ağası was appointed to Edirne by an imperial order, according to the entry."
+    sources: [source/tdv-hisbe]
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, anatolia-balkans, persia-central-asia, south-asia]
+organization:
+  organized: mixed
+training:
+  mode: mixed
+  certification: "The entry says appointments were usually made from the scholarly class, or from former madrasa graduates. Some appointments in later periods came from outside that class, and the entry records abuses by some of them. No licence or examination for the post is described for the early period."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/tdv-hisbe]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HİSBE' (C. Kallek; A. S. Bazmee Ansari; Z. Kazıcı; web edition read on 2 Nov 2026). The Ottoman section is cited by its printed pages (vol. 18, pp. 143–145). The other sections are cited by section, because the web edition does not print their pages. Rewritten by Claude Code. No holder is recorded yet: the entry names several muhtasibs, but the museum has no person records for them, and the holders are for the Phase 2 wave to add."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-gl01"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

@@ -36,3 +36,9 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the `Build islam.museum` workflow on `main` has been failing with a "workflow file issue" since about 22:56 UTC on 1 November. It is not diagnosed; the workflow files are the founder's. No deploy should start until a build on `main` is green.
   - FLAG: the agreement check (`roles:` against `occupations:`) is still not in the validator.
   - Next step: the founder repairs the 12 records, the founder deploys from a green `main`, and Phase 2 begins with the first wave.
+- **2 November 2026 — Phase 2, Governance & Law, batch 1: `job/muhtasib` and `job/shaykh-al-islam`.** Two source entities read from the TDV İslâm Ansiklopedisi: `source/tdv-hisbe` (the Kallek, Bazmee Ansari and Kazıcı entry) and `source/tdv-seyhulislam` (İpşirli, vol. 39 pp. 91–96). Each job has its article in Arabic, English and Urdu. Four person records take a `job/shaykh-al-islam` entry: Ebüssuûd Efendi, Çivizâde Muhyiddin Mehmed Efendi and Hocazâde Mehmed Efendi (historical), and Molla Fenari (debated).
+  - FLAG: the hisba article's printed pages are given only for its Ottoman section (vol. 18 pp. 143–145); the other sections are cited by section, because the web edition does not print their pages.
+  - FLAG: the subcontinent section of the hisba entry was read only as its opening line. Its claim is stated as the entry's summary, not as a full reading.
+  - FLAG: the muhtasib has no holders yet, because the museum has no person records for the muhtasibs the entry names. The second wave adds them, with their own sources.
+  - FLAG: the Shaykh al-Islam entry lists more holders than the four recorded here. Those are left for the next wave, so no entry is written from the search summary alone.
+  - Next step: the rest of Governance & Law, starting with `job/mufti` and `job/kazasker`.
