@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
+born: { edtf: "1228-07~", hijri: "0625-08", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بصحراء عيذاب في شعبان سنة 625هـ عند الذهبي {cite:dhayl-tarikh-islam-bawazir p. 24}؛ وعند ابن حجر وُلد في البحر بناحية ينبع سنة 625 {cite:durar-kamina-jil-1993 4/91}؛ التحويل مشتق.", sources: [source/dhayl-tarikh-islam-bawazir, source/durar-kamina-jil-1993] }
 died: { edtf: "1302~", hijri: "0702", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 702هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 585}." }
 relations:
   - { type: authored, target: work/al-ilmam-fi-ahadith-al-ahkam, sources: [source/kashf-zunun-furqan] }
@@ -15,7 +16,7 @@ provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 585 مدخل 1677"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-20, lib-durar-kamina-batch-3-2026-10-31
+  run: lib-kashf-batch-20, lib-durar-kamina-batch-3-2026-10-31, lib-tarikh-islam-dhahabi-batch-1-2026-11-02
 external_ids: { wikidata: "Q6535677" }
-sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993]
+sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993, source/dhayl-tarikh-islam-bawazir]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
