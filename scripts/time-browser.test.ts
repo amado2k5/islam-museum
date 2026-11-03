@@ -50,6 +50,8 @@ describe('time-browser records', () => {
       }
     })
 
+
+
     it(`${topic}: every record has sources`, () => {
       for (const r of recs) expect(r.sources.length).toBeGreaterThan(0)
     })
@@ -78,4 +80,80 @@ describe('time-browser records', () => {
       }
     })
   }
+})
+
+describe('time-browser date and period metadata', () => {
+  const period: GraphNode = {
+    id: 'period/known',
+    class: 'period',
+    slug: 'known',
+    label: { ar: 'فترة', en: 'Period' },
+    summary: { ar: '', en: '' },
+    span: { earliest: 900, latest: 910 },
+    data: { sources: ['source/period'] },
+  }
+  const shared = {
+    label: { ar: 'حدث', en: 'Event' },
+    summary: { ar: 'ملخص', en: 'Summary' },
+    data: { sources: ['source/event'], status: { review: 'published' } },
+  }
+
+  it('preserves date ordering and existing fields while exporting explicit ranges and periods', () => {
+    const records = buildRecords([
+      {
+        ...shared,
+        id: 'event/undated-derived',
+        class: 'event',
+        slug: 'undated-derived',
+        periods: [period.id],
+      },
+      {
+        ...shared,
+        id: 'event/ranged',
+        class: 'event',
+        slug: 'ranged',
+        span: { earliest: 866, latest: 868 },
+        periods: [period.id],
+        display: { start: { edtf: '0866' }, end: { edtf: '0868' } },
+      },
+      {
+        ...shared,
+        id: 'event/early',
+        class: 'event',
+        slug: 'early',
+        span: { earliest: 850, latest: 850 },
+        display: { start: { edtf: '0850' } },
+      },
+      period,
+    ], 'event')
+
+    expect(records.map((record) => record.id)).toEqual([
+      'event/early',
+      'event/ranged',
+      'event/undated-derived',
+    ])
+
+    const early = records[0]
+    expect(early.date).toBe('0850')
+    expect(early.dateRange).toEqual({ start: '0850', end: null })
+    expect(early.periods).toEqual([])
+
+    const ranged = records[1]
+    expect(ranged.date).toBe('0866')
+    expect(ranged.dateRange).toEqual({ start: '0866', end: '0868' })
+    expect(ranged.periods).toEqual([period.id])
+    expect(ranged.sources).toEqual(['source/event'])
+    expect(ranged.draft).toBe(false)
+    expect(Object.keys(ranged).sort()).toEqual([
+      'date', 'dateRange', 'derived', 'draft', 'href', 'id', 'kids', 'kind',
+      'periods', 'related', 'sources', 'summary', 'timelineKey', 'title',
+    ])
+
+    const undated = records[2]
+    expect(undated.date).toBe('')
+    expect(undated.dateRange).toEqual({ start: null, end: null })
+    expect(undated.periods).toEqual([period.id])
+    expect(undated.timelineKey).toBe(900)
+    expect(undated.derived).toBe(true)
+  })
 })
