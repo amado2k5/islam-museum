@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن عواد"
   en: "Ibn 'Awad"
-roles: [scholar]
+roles: [qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن عواد؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn 'Awad; the entry is not yet checked on the page."
+  ar: "عبد الرحمن بن عواد، قاض حجازي حنفي من أهل ينبع تعلم بالأزهر ورحل إلى جغبوب؛ توفي سنة 1293هـ (1876م)."
+  en: "Abd al-Rahman Ibn 'Awad (d. 1293/1876), Hijazi Hanafi judge of Yanbu', educated at al-Azhar and Jaghbub."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q105359627
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.320)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

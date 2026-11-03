@@ -18,4 +18,10 @@ Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Wr
 
 **Leads (false header matches, skipped — need a different source):** `al-ruqi` (record is Abd Allah b. Yazid al-Ruqi, mawla of Uthman; the al-A'lam «الرقي» entry is Ibrahim al-Ruqi the Hanbali preacher d. 1303 — different person), `dervis-ali` (record is the Ottoman calligrapher d. 1673; the al-A'lam «درويش علي» entry is Ali al-Baghdadi al-Ha'iri the adib d. 1860 — different person), `ibn-abi-al-khisal` (record is Abu al-Hasan Ali Ibn Abi al-Khisal the vizier d. 1146; the al-A'lam entry is Abd al-Malik b. Mas'ud Abi al-Khisal the Almoravid secretary d. 1144 — kinsman, different person).
 
-**Lane total: 50.**
+### Batch 3 (3 Nov 2026, 25 records, ar+en+ur) — al-A'lam links-1 cohort, continued
+
+Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Written: ibn-abi-al-isba (v4 p29), ibn-abi-asim (v1 p189), ibn-abi-jamra (v4 p89), ibn-abi-zamanayn (v6 p226), ibn-al-dallaj (v4 p177), ibn-al-fahham (v3 p315), ibn-al-ghariq (v6 p276), ibn-al-haj-al-billifiqi (v7 p38), ibn-al-husayn (v4 p21), ibn-al-lahham (v5 p6), ibn-al-mahamili (v1 p211), ibn-al-mudhhib (v2 p201), ibn-al-mutaqqina (v6 p278), ibn-al-qawba (v7 p34), ibn-al-sitt (v6 p188), ibn-al-tabari (v1 p115 — Abu Hamid al-Marwazi the chief qadi of Khurasan, not the famous al-Tabari), ibn-al-yasamin (v4 p124), ibn-al-zahir-al-irbili (v5 p322), ibn-amir-hajj (v7 p48), ibn-awad (v3 p320), ibn-bint-al-iraqi (v4 p53), ibn-bint-al-maylaq (v6 p187), ibn-dawud-al-hilli (v2 p203 — jarh attributed to al-Zirikli), ibn-futays (v3 p325), ibn-hasnun (v4 p79). Roles fixed per book (muhaddith/jurist/qadi/physician/mathematician as sourced).
+
+**Leads (false header matches, skipped):** `ibn-al-mawwaz` (record is the 9th-c Egyptian Maliki d. 882; the al-A'lam «ابن المواز» entry is a 19th-c Moroccan qadi of Marrakesh — different person), `ibn-faraj-historian` (record is a historian d. 1602; the al-A'lam entry is Isma'il b. Faraj al-Mawsili, lawyer d. 1948), `ibn-tunart` (record is Ibn Tumart the Almohad mahdi; the al-A'lam entry is Muhammad b. Ali b. Tumart, Andalusi Maliki physician d. 1001 — different person).
+
+**Lane total: 75.**
