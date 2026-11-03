@@ -68,3 +68,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 19: new source `source/sharh-diwan-hassan-barquqi-1929` (archive.org AAlexandrina-074429, on the drive, Vision OCR done for all 416 pages) and four new Hassan works with metre as stated in the edition's headings: wa-ghibna (p. 41), alam-tadhir-al-ayn (p. 137), laqad-alimat-quraysh (p. 140), wa-inna-amran-yumsi (p. 142) (9 passages). The edition headings give the metre for ~70 more poems (OCR in books/adab-zuhd/diwan-hassan-barquqi-1929); printed page = scan page + 24.
 - PR 20 (Barquqi Hassan diwan, pp. 55-57): satire verses on Madhhij (2), Safwan ibn Umayya (2), Hudhayl (3), Muzayna (3) = 10 passages, 4 new works; metre as stated in the edition.
 - PR 21 (Barquqi Hassan diwan, p. 80): Hassan's Badr poem (4 bayts; one further bayt skipped as not legible with confidence).
+- PR 22: corrected one word in the Badr poem bayt 4 (matches the scan).
