@@ -236,3 +236,6 @@ translators: []
 
 ## من برنامج المنجيات (عمر عبد الكافي)
 يروي عمر عبد الكافي في برنامج «المنجيات» أن عليًّا قال بعد أن أقام الحد على سارق إن الله ما كان ليفضحه من أول مرة، شاهدًا على ستر الله. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:03:30}
+
+## في برنامج أحمد عبد السلام «أصلّي عليه»
+ينقل [[person/ahmed-abdussalam|أحمد عبد السلام]] في الحلقة العاشرة من برنامجه [[work/ossali-alayh|«أصلّي عليه»]] عن علي، ويعرّفه بأنه ابن عم النبي وزوج ابنته، أنه سئل عن حب الصحابة للنبي فأقسم أنه كان أحب إليهم من آبائهم وأمهاتهم وأبنائهم وأموالهم ومن الماء البارد على الظمأ. {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:30} ويعود إلى قوله هذا في الحلقة الثانية عشرة بعد قصة عروة بن مسعود. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:30}

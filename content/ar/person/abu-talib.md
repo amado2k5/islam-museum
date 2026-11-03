@@ -66,3 +66,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يقول الشيخ إن أبا طالب لم يؤمن بالنبي ومات على كفره، لكنه كان سندًا له، وإن قريشًا لم تنل منه إلا بعد موته، فكان موته مع موت خديجة في عام الحزن. {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00}
+
+## في برنامج أحمد عبد السلام «أصلّي عليه»
+يذكر [[person/ahmed-abdussalam|أحمد عبد السلام]] في الحلقة الثالثة عشرة من برنامجه [[work/ossali-alayh|«أصلّي عليه»]] أن أبا طالب مات على دين الآباء والأجداد، وأن النبي حزن لا لموته بل لأنه مات على غير الإسلام، وأنه جلس عند رأسه في مرض موته يدعوه إلى كلمة التوحيد ليحاجّ له بها يوم القيامة، فقال له جلساء السوء عند رأسه إنه على ملة آبائه، فمات عليها. {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:09:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:10:00} ويجعل من ذلك تحذيرًا من رفقاء السوء، ويقول إن الهداية بيد الله. {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:10:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:10:30}

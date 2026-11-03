@@ -15,3 +15,6 @@ translators: []
 
 ## عزله عن مكة (من كتاب الصلابي)
 يذكر الكتاب أن علياً عزل أبا قتادة الأنصاري عن مكة حين ولّى قثم بن العباس عليها {cite:sallabi-ali-vol1 p. 324}. وبعض سطور الصفحة مشوشة في الصورة، فينبغي مراجعة الصورة قبل الاعتماد على اسم الوالي السابق.
+
+## في برنامج أحمد عبد السلام «أصلّي عليه»
+يروي [[person/ahmed-abdussalam|أحمد عبد السلام]] في الحلقة الثانية عشرة من برنامجه [[work/ossali-alayh|«أصلّي عليه»]] عن أبي قتادة أنهم كانوا في سفر مع النبي فانطلق الناس يبحثون عن الماء، ولزم هو النبي، فنعس النبي على راحلته فمال فدعمه حتى اعتدل، ثم مال ثانية فدعمه، ثم مال ثالثة حتى كاد يسقط فدعمه فانتبه. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:01:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:02:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:03:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:03:30} فسأله النبي من هو ومنذ متى يسير معه، فقال منذ أول الليل، فدعا له بأن يحفظه الله كما حفظ نبيه. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:03:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:04:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:04:30} ويستخلص أن من حفظ دين النبي حفظه الله. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:04:30}
