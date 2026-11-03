@@ -3,11 +3,11 @@ class: person
 label:
   ar: "علي بن زياد"
   en: "Ali ibn Ziyad"
-roles: [scholar]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن زياد، فقيه إفريقية المالكي في القرن الثامن من أئمة القيروان، توفي سنة ٧٩٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Ziyad, the eighth-century Maliki jurist of Ifriqiya among the imams of Qayrawan, d. 799; the biographical entry is not yet checked on the page."
+  ar: "علي بن زياد العبسي التونسي، فقيه مالكي أول من أدخل الموطأ إلى المغرب؛ توفي سنة 183هـ (799م)."
+  en: "Ali ibn Ziyad al-Tunisi (d. 183/799), Maliki jurist who first brought the Muwatta' to the Maghrib."
 wings: [people]
 regions: [maghreb]
 periods: [period/umayyad, period/abbasid-early]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q3483175
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0032
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.289)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

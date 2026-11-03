@@ -3,11 +3,11 @@ class: person
 label:
   ar: "الأدفوي"
   en: "al-Udfuwi"
-roles: [scholar, historian]
+roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لجعفر بن ثعلب الأدفوي، مؤرخ ولغوي وأديب مصري القرن الرابع عشر، توفي سنة ١٣٤٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ja'far ibn Tha'lab al-Udfuwi, the fourteenth-century Egyptian historian, linguist and literary scholar, d. 1347; the biographical entry is not yet checked on the page."
+  ar: "جعفر بن ثعلب الأدفوي، مؤرخ وأديب مصري من أهل أدفو، صاحب «الطالع السعيد» في تراجم رجال عصره؛ توفي سنة 748هـ (1347م)."
+  en: "Ja'far al-Udfawi (1286–1347), Egyptian historian and littérateur of Edfu, author of al-Tali' al-Sa'id."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q6718226
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0063
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.122)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

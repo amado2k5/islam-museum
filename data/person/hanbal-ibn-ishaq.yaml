@@ -3,11 +3,11 @@ class: person
 label:
   ar: "حنبل بن إسحاق"
   en: "Hanbal ibn Ishaq"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لحنبل بن إسحاق بن حنبل، محدث بغداد وابن عم الإمام أحمد في القرن التاسع، توفي سنة ٨٨٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hanbal ibn Ishaq ibn Hanbal, the ninth-century Baghdad muhaddith and cousin of Imam Ahmad, d. 886; the biographical entry is not yet checked on the page."
+  ar: "حنبل بن إسحاق الشيباني، حافظ حديث ثقة، ابن عم الإمام أحمد وتلميذه، صاحب «محنة الإمام أحمد»؛ توفي بواسط سنة 273هـ (886م)."
+  en: "Hanbal ibn Ishaq al-Shaybani (d. 273/886), trustworthy hadith memoriser, cousin and pupil of Imam Ahmad."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q55978646
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0042
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.285)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

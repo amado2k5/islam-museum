@@ -3,11 +3,11 @@ class: person
 label:
   ar: "الشيرازي"
   en: "al-Shirazi"
-roles: [scholar]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن علي الشيرازي، فقيه الشافعية وأستاذ بغداد في القرن الحادي عشر صاحب «المهذب»، توفي سنة ١٠٨٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Ali al-Shirazi, the eleventh-century Shafi'i jurisconsult and Baghdad teacher author of al-Muhadhdhab, d. 1083; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن علي الشيرازي الفيروزآبادي، أبو إسحاق، فقيه الشافعية ومفتي الأمة في عصره، درّس بالنظامية ببغداد؛ توفي سنة 476هـ (1083م)."
+  en: "Ibrahim ibn Ali al-Shirazi “Abu Ishaq” (1003–1083), Shafi'i jurist and chief of the Baghdad Nizamiyya, author of al-Muhadhdhab."
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q3603848
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0029
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.50)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
