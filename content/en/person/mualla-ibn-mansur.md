@@ -2,10 +2,7 @@
 id: person/mualla-ibn-mansur
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 22"]
 ---
-
 ## Overview
-Mu'alla ibn Mansur al-Razi, known as Abu Ya'la. He transmitted from Abu Yusuf his jurisprudence, his principles and his books. He died in Baghdad in 211 AH. {cite:fihrist-ibn-al-nadim p.287}
-
-The date is given in a single source, and needs an additional source.
+Mu'alla ibn Mansur al-Razi, Abu Ya'la; he transmitted Abu Yusuf's fiqh, his principles and his books from him, and died at Baghdad in 211 AH. {cite:fihrist-ibn-al-nadim p. 287}
