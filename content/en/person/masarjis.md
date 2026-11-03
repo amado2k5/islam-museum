@@ -2,13 +2,7 @@
 id: person/masarjis
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 18"]
 ---
-
 ## Overview
-Masarjis, a physician who translated from Syriac into Arabic, as Ibn al-Nadim relates. {cite:fihrist-ibn-al-nadim p.413}
-
-## His books
-He wrote *The Powers of Foods and Their Benefits and Harms* and *The Powers of Drugs and Their Benefits and Harms*. {cite:fihrist-ibn-al-nadim p.413}
-
-He translated from Syriac the *Kunnash* of Ahrun the priest, and added two treatises to its thirty chapters. {cite:fihrist-ibn-al-nadim p.413}
+Masarjis, a physician who translated from Syriac into Arabic; author of a book on the powers of foods with their benefits and harms and another on the powers of emetics, and translator of Ahrun the priest's Kunnash. {cite:fihrist-ibn-al-nadim p. 413}

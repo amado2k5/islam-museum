@@ -2,9 +2,7 @@
 id: person/sari-al-raffa
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 18"]
 ---
 ## Overview
-Al-Sari al-Raffa, a poet. He was a neighbour of Abu al-Hasan Ali ibn Isa al-Rummani in the Suq al-Atash. He would pass by al-Rummani sitting at the door of his house, and al-Rummani would invite him to sit and talk with him {cite:fihrist-ibn-al-nadim p.530}.
-
-Ibn al-Nadim reports that al-Sari had Shi'i leanings. When this had gone on for long enough for al-Rummani, he recited his poem on love of the Wasi {cite:fihrist-ibn-al-nadim p.530}.
+Al-Sari al-Raffa, the poet, neighbour of Abu'l-Hasan Ali ibn Isa al-Rummani at the Thirst Market, who would invite him to sit, converse and call him to Mu'tazilism — al-Sari himself inclining to Shi'ism. {cite:fihrist-ibn-al-nadim p. 530}

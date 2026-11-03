@@ -131,3 +131,9 @@ Extracted five new OpenITI texts to the harvest drive (muruj, muntazam JK001209,
 Written: abu-uthman-al-dimashqi (Euclid translator), abu-uthman-al-mazini (Basran grammarian), al-abbas-al-jawhari (observatory geometer), al-hasan-ibn-al-khasib (astrologer, al-Karmihr), ahrun-al-qass (Syriac physician-author), abu-qurra (Melkite bishop of Harran), al-burjulani (zuhd author), al-hasanabadi (singer/wit), abu-isa-al-warraq (noted with source-attributed label), al-kajji (muhaddith). cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 218.** Fihrist thin cluster continues (~60 rows vetted; ~35 remaining candidates).
+
+### Batch 18 (3 Nov 2026, 10 records, ar+en+ur) — thin-file Fihrist cluster 3
+
+Written: bar-daysan, sari-al-raffa, masarjis, yaqub-ibn-tariq, salim-abul-ala, jabala-ibn-salim, nasr-ibn-muzahim, al-majishun, muhammad-ibn-al-fudayl, ibn-al-bazyar. cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 228.** ~25 fihrist thin candidates remain (weaker summaries); next sources: muntazam, tabari-tarikh (33 cited thin rows), muruj, ansab, tabaqat.
