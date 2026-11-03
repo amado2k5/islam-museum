@@ -16,6 +16,7 @@ html:is([lang="ar"], [lang="ur"]) .edu-btn { font-family: var(--ar-body); font-s
 .edu-btn:hover { filter: brightness(1.06); text-decoration: none; }
 .edu-btn:focus-visible { outline: 3px solid var(--focus, var(--lapis)); outline-offset: 2px; }
 .edu-btn.ghost { background: transparent; color: var(--fg); }
+.edu-btn[hidden] { display: none; }
 
 .edu-hero { background: var(--hero-bg); color: #f9f8f6; border-radius: 18px; padding: 24px 28px; margin: 10px 0 22px; }
 .edu-hero h1 { color: #fff; margin: 0 0 .3rem; }
