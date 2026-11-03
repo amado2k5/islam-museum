@@ -22,7 +22,7 @@ It does not own `scripts/time-browser-media*` (Devin's image and map inventory) 
 |---|---|---|
 | TB0 | Lane doc, log path, file counts, Pages vs R2 question | in progress (docs only) |
 | TB1 | `scripts/time-browser.ts` builds records and per-topic JSON from `.cache/graph.json`; schema; tests; no UI | not started |
-| TB2 | Wire Devin's media index; build fails on a missing media id; no image creation here | not started |
+| TB2 | Wire Devin's media index; build fails on a missing media id; local Explorer image generation remains a separate predeployment pipeline | not started |
 | TB3 | Static pages, no-JS list version, Pagefind limited to time-browser records, i18n ar/en/ur, axe and lychee | not started |
 | TB4 | Vanilla TypeScript timeline, keyboard, search, JS ≤ 20 KB gzipped | not started |
 | TB5 | Entry points: landing button, "time-browse this" on entity pages, "what we offer" page | not started |
@@ -73,7 +73,7 @@ Append one line per merged PR, newest last:
 Source: the two original TimelineThis specifications, the live builds, the two demo videos, and the Muse analysis. We keep the stage (topic-first entry, a bottom strip, a central card, a sidebar of people, conflicts and culture, per-era theme). We drop the runtime generator, and we fix the UX faults found in the review.
 
 **Hard rules (unchanged, restated)**
-- No runtime AI: no model call, no AI prompt box, no "Ask AI", no AI chat in the UI, no generated images. The Time Browser only reads prepared records.
+- No runtime AI: no model call, no AI prompt box, no "Ask AI", no AI chat in the UI, and no images generated at runtime. Prepared, locally generated Explorer backdrops may be served as static assets; the Time Browser only reads prepared records.
 - Search covers prepared records only. Anything else shows "not in the Time Browser yet", and never a raw error.
 
 **Changes to the design**
