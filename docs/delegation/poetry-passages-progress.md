@@ -70,3 +70,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 21 (Barquqi Hassan diwan, p. 80): Hassan's Badr poem (4 bayts; one further bayt skipped as not legible with confidence).
 - PR 22: corrected one word in the Badr poem bayt 4 (matches the scan).
 - PR 23 (Zawzani 1921): `muallaqat-zuhayr` (11 bayts, pp. 76-81) and `muallaqat-al-harith-ibn-hilliza` (5 bayts, pp. 163-168; ref 3 omitted as incomplete on the scan), with new person records `zuhayr-ibn-abi-sulma` and `al-harith-ibn-hilliza-al-yashkuri`. All seven Mu'allaqat except Imru' al-Qays's remainder and al-A'sha's (not among the seven in this edition's order) are now covered.
+- PR 24 (Barquqi Hassan diwan, pp. 58-59, 76): two poems (7 passages): to al-Walid ibn al-Mughira (wafir) and 'harban yashibu laha al-walid' (metre not stated in the visible heading, so omitted).
