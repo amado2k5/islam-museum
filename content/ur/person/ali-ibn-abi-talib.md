@@ -166,3 +166,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام المنجیات سے
 پروگرام «المنجیات» میں عمر عبد الکافی بیان کرتے ہیں کہ علی نے ایک چور پر حد قائم کرنے کے بعد کہا کہ اللہ اسے پہلی بار رسوا نہ کرتا، اللہ کی پردہ پوشی کی دلیل کے طور پر۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:03:30}
+
+## احمد عبد السلام کے پروگرام «اُصلّی علیہ» میں
+[[person/ahmed-abdussalam|احمد عبد السلام]] اپنے پروگرام [[work/ossali-alayh|«اُصلّی علیہ»]] کی دسویں قسط میں علی سے، جن کا تعارف وہ نبی کے چچا زاد اور ان کی بیٹی کے شوہر کے طور پر کرتے ہیں، نقل کرتے ہیں کہ جب ان سے صحابہ کی نبی سے محبت کے بارے میں پوچھا گیا تو انہوں نے قسم کھا کر کہا کہ نبی انہیں اپنے باپوں، ماؤں، اولاد اور مال سے، اور پیاسے کے لیے ٹھنڈے پانی سے بھی زیادہ محبوب تھے۔ {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:30} بارہویں قسط میں عروہ بن مسعود کے قصے کے بعد وہ اس قول کی طرف لوٹتے ہیں۔ {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:30}

@@ -1,0 +1,16 @@
+---
+id: concept/al-salat-ala-al-nabi
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+الصلاة على النبي دعاء المسلم لنبيه بالصلاة والسلام والبركة، وهي موضوع برنامج [[work/ossali-alayh|«أصلّي عليه»]] لـ[[person/ahmed-abdussalam|أحمد عبد السلام]]، الذي يكثر فيه منها ويشرح معناها وفضلها. {cite:assabile-ahmed-abdussalam} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:00:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep14 00:00:30} يستشهد لها بآية الأمر بالصلاة على النبي، ويلاحظ أن الله بدأ بالصلاة عليه ثم الملائكة ثم أمر المؤمنين. {cite:assabile-ahmed-abdussalam ossali-alayh/ep03 00:06:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep03 00:06:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep07 00:00:30}
+
+## معناها عند المتحدث
+يقول إن معنى الدعاء للنبي بالصلاة أن يكثر الله الثناء عليه عند الملائكة ويكثر رحماته به، مع أن الله أثنى عليه قبل أن نصلي عليه، فنفعها عائد على المصلي، والله يكتبها له عبادة. {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:01:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:02:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:02:30} ومعنى السلام عنده أن يسلّمه الله في حياته، وقد عصمه من الناس وكفاه، وبعد موته، وأن يسلّم دينه الذي تكفل الله بحفظه. {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:03:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:05:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:06:00} ومعنى البركة أن يجعل الله أعمال الأمة كلها في ميزان حسنات النبي، لأن الدال على الخير كفاعله. {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:06:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:07:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep02 00:07:30}
+
+## حكمها وفضلها عنده
+يقول إنها واجبة، وإن من سمع اسم النبي فلم يصلّ عليه أثم، ويذكر حديثًا في خيبة من ذُكر عنده فلم يصلّ عليه. {cite:assabile-ahmed-abdussalam ossali-alayh/ep07 00:00:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep07 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep18 00:00:30} ويعدّ من فضلها أن الله يصلي على من صلى عليه مرة عشرًا، وأن الصلاة الواحدة تكتب عشر حسنات وتمحو عشر سيئات وترفع عشر درجات بحديث يرويه عن جبريل. {cite:assabile-ahmed-abdussalam ossali-alayh/ep03 00:03:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep05 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep05 00:01:30} ويقيس على ذلك أن من صلى عليه عشرًا يصلي الله عليه مئة، ومن صلى مئة يصلي الله عليه ألفًا. {cite:assabile-ahmed-abdussalam ossali-alayh/ep03 00:05:00} ويذكر حديث [[person/ubayy-ibn-kab|أبي بن كعب]] في أن من جعل دعاءه كله للنبي كُفي همه وغُفر ذنبه، وحديث أن أولى الناس بالنبي يوم القيامة أكثرهم عليه صلاة. {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:03:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:07:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:08:00} ويرى أن الإكثار منها علامة توفيق، وأنها تهدّئ المتشاجرين. {cite:assabile-ahmed-abdussalam ossali-alayh/ep03 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep03 00:05:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:01:00} ويحذّر من أن تكون حروفًا على الشفتين لا يُفهم معناها. {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:07:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep11 00:08:30}
+
+هذا شرح المتحدث كما سُجّل، منسوب إليه. (needs_source: أقوال المفسرين والفقهاء في معنى الصلاة على النبي وحكمها ومواضعها لم تُجمع بعد في هذا التشغيل.)

@@ -61,3 +61,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ کہتے ہیں کہ ابو طالب نبی پر ایمان نہیں لائے اور کفر پر فوت ہوئے، لیکن ان کا سہارا تھے، اور قریش ان کی وفات کے بعد ہی نبی کو ستا سکے، اور ان کی وفات خدیجہ کی وفات کے ساتھ عام الحزن میں ہوئی۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00}
+
+## احمد عبد السلام کے پروگرام «اُصلّی علیہ» میں
+[[person/ahmed-abdussalam|احمد عبد السلام]] اپنے پروگرام [[work/ossali-alayh|«اُصلّی علیہ»]] کی تیرہویں قسط میں کہتے ہیں کہ ابو طالب اپنے آباء و اجداد کے دین پر فوت ہوئے، کہ نبی ان کی موت پر نہیں بلکہ اس پر غمگین ہوئے کہ وہ اسلام کے بغیر فوت ہوئے، اور کہ وہ ان کے مرضِ وفات میں ان کے سرہانے بیٹھ کر انہیں توحید کا کلمہ کہنے کی دعوت دیتے رہے تاکہ قیامت کے دن اس کے ذریعے ان کی طرف سے حجت کریں، جبکہ سرہانے بیٹھے برے ساتھیوں نے کہا کہ وہ اپنے آباء کے دین پر ہیں، اور وہ اسی پر فوت ہوئے۔ {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:09:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:10:00} وہ اسے بری صحبت سے تنبیہ بناتے ہیں اور کہتے ہیں کہ ہدایت اللہ کے ہاتھ میں ہے۔ {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:10:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep13 00:10:30}
