@@ -3,11 +3,11 @@ class: person
 label:
   ar: "حاجي باشا"
   en: "Hacı Pasha"
-roles: [vizier]
+roles: [physician, theologian]
 gender: male
 summary:
-  ar: "بطاقة أولية لحاجي باشا، الطبيب العثماني والصدر الأعظم في عهد مراد الأول؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hacı Pasha, the Ottoman physician who became grand vizier under Murad I; his entry is not yet checked on the page."
+  ar: "خضر بن علي «حاجي باشا» الآيديني، طبيب متكلم حنفي صاحب «شفاء الأسقام» و«التسهيل»؛ توفي بمصر سنة 820هـ (1417م)."
+  en: "Khidr “Haji Pasha” al-Aydini (d. 820/1417), physician-theologian, author of Shifa' al-Asqam."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
@@ -17,13 +17,13 @@ external_ids:
   wikidata: Q3986664
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.306)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/vizier
     kind: primary

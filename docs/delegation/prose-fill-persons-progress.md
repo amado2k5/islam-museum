@@ -37,3 +37,11 @@ Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Wr
 **Leads (skipped — need a different source):** `najm-al-din-al-dahli` (al-A'lam «نجم الدين الدهلي» entry body empty in this Shamela edition — dates only), `umm-al-banin` (record is Fatima bint Huzam, wife of Ali; the al-A'lam «أم البنين» entry is Fatima bint Muhammad al-Fihriyya, founder of the Qarawiyyin mosque — different person).
 
 **Lane total: 125.**
+
+### Batch 6 (3 Nov 2026, 25 records, ar+en+ur) — al-A'lam links-1 cohort, tail
+
+Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Written: abu-jafar-al-khazin (v6 p98), adud-al-din-al-iji (v3 p294), al-hasan-al-muthanna (v2 p186), al-muhaqqiq-al-hilli (v2 p123), al-qasim-gannun (v5 p181), aqujili (v6 p294), fatima-bint-al-kharshub (v5 p130), haji-pasha (v2 p306), halima-bint-al-harith (v2 p270), hizir-bey (v2 p306), ibn-al-ayni (v3 p300), ibn-al-dayri (v3 p87), ibn-al-fuwati (v3 p349), ibn-al-sai (v4 p264), ibrahim-al-halabi (v1 p66), lutfi-pasha (v5 p243), mihjan-ibn-al-adra (v5 p283), mustakimzade-sulayman (v3 p127), qabus-ibn-al-mundhir (v5 p170), qalun (v5 p110), qays-ibn-zuhayr (v5 p205), rabiah-ibn-nizar (v3 p17), sharaf-al-din-al-ansari (v3 p160), uwais-al-qarni (v2 p32 — honorific in source paraphrased), warsh (v4 p205). cite-check 25/25; validate 0 errors; 311 tests pass; coverage regenerated.
+
+**Leads (skipped):** `al-mutalammis` (al-A'lam entry body empty in this Shamela edition — header and dates only), `al-mutasim` (false match: the «المعتصم» entry is Zakariya b. Ibrahim al-Mu'tasim bi'llah, the Cairo Abbasid caliph d. after 791h — not the famous al-Mu'tasim of the record). Remaining exact-match tail: `yunus-ibn-abd-al-rahman` (v8 p261 — Imami jurist d. 208h/823CE, matches record's death year in CE), `zayn-al-din-al-amidi` (v4 p257 — verified same person, the Amidi inventor of huruf tariza).
+
+**Lane total: 150.**

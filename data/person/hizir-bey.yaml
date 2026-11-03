@@ -3,11 +3,11 @@ class: person
 label:
   ar: "خضر بك"
   en: "Hızır Bey"
-roles: [qadi]
+roles: [qadi, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لخضر بك، أول قاضي لإسطنبول العثمانية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hızır Bey, the first qadi of Ottoman Istanbul; his entry is not yet checked on the page."
+  ar: "خضر بن جلال الدين «خضر بك»، أول قاضٍ لقسطنطينية بعد الفتح، شاعر بثلاث لغات صاحب «جواهر العقائد»؛ توفي سنة 863هـ (1459م)."
+  en: "Hizir Bey (1407–1459), first Ottoman qadi of Istanbul, trilingual poet, author of Jawahir al-'Aqa'id."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
@@ -18,13 +18,13 @@ external_ids:
   wikidata: Q25452040
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.306)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: primary
