@@ -165,3 +165,6 @@ Omar Abdelkafy relates that a man of the protected non-Muslims brought a case ag
 
 ## From Omar Abdelkafy's programme al-Munjiyat
 In the programme al-Munjiyat Omar Abdelkafy relates that Ali, after applying the hadd to a thief, said God would not have exposed him the first time, as evidence of God's veiling of sins. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:03:30}
+
+## In Ahmed Abdussalam's programme 'Osalli Alayh'
+In the tenth episode of his programme [[work/ossali-alayh|'Osalli Alayh']], [[person/ahmed-abdussalam|Ahmed Abdussalam]] relates from Ali, whom he introduces as the Prophet's cousin and the husband of his daughter, that when asked about the Companions' love for the Prophet he swore that the Prophet was dearer to them than their fathers, mothers, children and wealth, and than cold water to the thirsty. {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep10 00:01:30} He returns to this saying in the twelfth episode, after the story of Urwa ibn Mas'ud. {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep12 00:08:30}

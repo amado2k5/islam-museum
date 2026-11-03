@@ -25,3 +25,6 @@ translators: []
 
 ## في دروس يوسف القرضاوي «تأملات قرآنية»
 يرفض [[person/yusuf-al-qaradawi|يوسف القرضاوي]] في شرح آية الكرسي فكرة الشفاعة الوثنية التي يفرض فيها الشفعاء إرادتهم على الله، ويقول إنها انتقلت من الوثنيين إلى بعض أهل الكتاب. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep03 00:20:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep03 00:21:00} ويذكر أن المعتزلة قديمًا والدكتور مصطفى محمود في عصرنا أنكروا الشفاعة في الآخرة وعدّوها محاباة، ويرى أن لله مع العدل فضلًا ورحمة. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep03 00:21:30}
+
+## في برنامج أحمد عبد السلام «أصلّي عليه»
+يربط [[person/ahmed-abdussalam|أحمد عبد السلام]] في برنامجه [[work/ossali-alayh|«أصلّي عليه»]] الشفاعة بالصلاة على النبي، فيذكر حديث أن أولى الناس بالنبي يوم القيامة أكثرهم عليه صلاة، ويفسره بأنهم أولى بشفاعته وبحب قلبه، يوم يفر المرء من أخيه وأمه وأبيه. {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:07:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:08:00} ويروي في الحلقة الخامسة عشرة حديث الشفاعة الكبرى: يذهب الناس من نبي إلى نبي فيعتذر كل منهم، حتى يأتوا النبي فيقبلها ويسجد تحت العرش، فيُقال له ارفع رأسك وسل تُعط واشفع تُشفّع؛ ويلاحظ أنه لم يسأل لابنته ولا لعمه ولا لعمته بل لأمته. {cite:assabile-ahmed-abdussalam ossali-alayh/ep15 00:01:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep15 00:01:30}
