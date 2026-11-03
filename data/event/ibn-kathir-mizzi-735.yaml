@@ -1,0 +1,28 @@
+id: event/ibn-kathir-mizzi-735
+class: event
+kind: gathering
+label:
+  ar: "لزوم ابن كثير الحافظ المزي ومصاهرته، نحو ٧٣٥هـ"
+  en: "Ibn Kathir keeps close to the hafiz al-Mizzi and marries his daughter, about 735/1335"
+  ur: "ابن کثیر کا حافظ مزی کے ہاں تلمذ اور ان کی بیٹی سے نکاح، تقریباً 735ھ/1335ء"
+summary:
+  ar: "لازم ابن كثير شيخَه حافظَ العصر جمال الدين أبا الحجاج المزي بدمشق وقرأ عليه «تهذيب الكمال» وصاهره على ابنته {cite:durar-kamina-jil-1993 1/374}، وكان صهره على ابنته زينب {cite:tabaqat-shafiiyya-subki p. 394}، واستمرت ملازمته إلى وفاة شيخه سنة ٧٤٢هـ."
+  en: "Ibn Kathir stayed close to his shaykh, the hafiz of the age Jamal al-Din Abu l-Hajjaj al-Mizzi, at Damascus, read the Tahdhib al-Kamal to him and married his daughter {cite:durar-kamina-jil-1993 1/374} — his wife being al-Mizzi's daughter Zaynab {cite:tabaqat-shafiiyya-subki p. 394}; the companionship lasted until al-Mizzi's death in 742."
+  ur: "ابن کثیر اپنے شیخ، عصر کے حافظ جمال الدین ابوالحجاج مزی کے ہاں دمشق میں تلمذ اختیار کیا، ان پر «تہذیب الکمال» پڑھی اور ان کی بیٹی سے نکاح کیا {cite:durar-kamina-jil-1993 1/374} — ان کی بیوی مزی کی بیٹی زینب تھیں {cite:tabaqat-shafiiyya-subki p. 394}؛ یہ رفاقت 742ھ میں مزی کی وفات تک رہی۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1335~", hijri: "0735~", calendar: julian, precision: year, status: tradition, derived: true, note: "لازم المزي وقرأ عليه تهذيب الكمال وصاهره على ابنته {cite:durar-kamina-jil-1993 1/374}؛ قبل وفاة المزي سنة ٧٤٢هـ، التاريخ تقريبي؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/tabaqat-shafiiyya-subki] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-kathir, role: "التلميذ الصهر", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "الشيخ الصهر", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993, source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina 1/374, tarjama 944 (harvest OCR DurarKamina__drkamth1); al-Subki, Tabaqat al-Shafi'iyya al-kubra printed p. 394 editor's note (harvest OCR tshafiakobra)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
