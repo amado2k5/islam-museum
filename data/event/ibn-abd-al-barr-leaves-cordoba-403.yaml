@@ -1,0 +1,27 @@
+id: event/ibn-abd-al-barr-leaves-cordoba-403
+class: event
+kind: migration
+label:
+  ar: "ابن عبد البر يجلو عن قرطبة بعد دخول البرابرة، نحو ٤٠٣هـ"
+  en: "Ibn 'Abd al-Barr quits Cordoba after the Berber storming, about 403/1013"
+  ur: "ابن عبد البر بربروں کے حملے کے بعد قرطبہ چھوڑ دیتے ہیں، تقریباً 403ھ/1013ء"
+summary:
+  ar: "جلا أبو عمر ابن عبد البر عن وطنه ومنشئه قرطبة بعدما دخلها البرابرة عنوة سنة ٤٠٣هـ {cite:nafh-tib-maqqari p. 464-465}، فكان في الغرب مدة ثم تحول إلى شرق الأندلس فسكن دانية وبلنسية وشاطبة وبها توفي {cite:tarikh-islam-dhahabi p. 141}."
+  en: "Abu 'Amr Ibn 'Abd al-Barr left his birthplace Cordoba after the Berbers stormed it in 403 {cite:nafh-tib-maqqari p. 464-465}; he stayed in the west of al-Andalus for a while, then moved to its east and lived at Dania, Balansiya and Shatiba, where he died {cite:tarikh-islam-dhahabi p. 141}."
+  ur: "ابو عمر ابن عبد البر اپنے وطن اور جائے پیدائش قرطبہ سے اس وقت نکلے جب بربروں نے 403ھ میں شہر پر قبضہ کیا {cite:nafh-tib-maqqari p. 464-465}؛ وہ کچھ عرصہ مغربی اندلس میں رہے پھر مشرقی اندلس منتقل ہو کر دانیہ، بلنسیہ اور شاطبہ میں رہے اور وہیں فوت ہوئے {cite:tarikh-islam-dhahabi p. 141}۔"
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1013~", hijri: "0403", calendar: julian, precision: year, status: tradition, derived: true, note: "جلا عن قرطبة فكان في الغرب مدة ثم تحول إلى شرق الأندلس {cite:tarikh-islam-dhahabi p. 141}؛ اقترن بفتنة دخول البرابرة قرطبة سنة ٤٠٣ {cite:nafh-tib-maqqari p. 465}؛ التاريخ تقريبي؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/nafh-tib-maqqari] }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-abd-al-barr, role: "الجالي", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 463 printed p. 141 (harvest OCR vol 461-470); al-Maqqari, Nafh al-Tib pp. 464-465"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-abd-al-barr-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
