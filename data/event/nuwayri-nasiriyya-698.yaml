@@ -1,0 +1,28 @@
+id: event/nuwayri-nasiriyya-698
+class: event
+kind: other
+label:
+  ar: "النويري في ديوان الخاص وساكناً بالمدرسة الناصرية، ٦٩٨هـ/١٢٩٨م"
+  en: "Al-Nuwayri joins the diwan al-khass and resides at the Nasiriyya, 698/1298"
+  ur: "نويری دیوان خاص میں اور ناصریہ مدرسہ میں ساکن، 698ھ/1298ء"
+summary:
+  ar: "يذكر النويري لأول مرة بعد تدوينه مولده، في أحداث سنة ٦٩٨هـ/١٢٩٨م، إلحاقه بديوان الخاص بالقاهرة وإقامته بالمدرسة الناصرية التي افتتحها الملك العادل كتبغا ثم استملكها الناصر محمد بن قلاوون لدى عودته إلى الملك تلك السنة، ويطيل في وصفها ويورد نص وقفيتها، ويجهر بانتقاد القائم عليها الطواشي شجاع الدين عنبر اللالا متهماً إياه بالاختلاس ومطالباً إياه برد حقوق أهل المدرسة {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}."
+  en: "For the first time after recording his own birth, al-Nuwayri mentions — under the events of 698/1298 — his recruitment to the diwan al-khass at Cairo and his residence at the Nasiriyya madrasa, inaugurated by al-Malik al-Adil Kitbugha and acquired by al-Nasir Muhammad ibn Qalawun on his return to power that year; he describes the institution at length, reproduces the text of its waqf, and openly criticises its administrator, the tawashi Shuja' al-Din 'Anbar al-Lala, accusing him of embezzlement and demanding the staff's due pay {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}."
+  ur: "اپنی پیدائش درج کرنے کے بعد پہلی بار نويری — 698ھ/1298ء کے واقعات کے تحت — قاہرہ کے دیوان خاص میں ان کے بھرتی ہونے اور ناصریہ مدرسہ میں رہائش کا ذکر کرتے ہیں؛ یہ مدرسہ الملک العادل کتبغا نے قائم کیا اور الناصر محمد بن قلاوون نے اسی سال اقتدار پر واپسی پر حاصل کیا؛ وہ اس ادارے کی تفصیل بیان کرتے، وقف نامہ نقل کرتے اور اس کے منتظم طواشی شجاع الدین عنبر لالا پر کھلم کھلا خیانت کا الزام لگا کر عملے کی تنخواہ کا مطالبہ کرتے ہیں {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1298", hijri: "0698", calendar: julian, precision: year, status: tradition, derived: true, note: "إلحاقه بديوان الخاص وإقامته بالناصرية في أحداث ٦٩٨هـ (نهاية الأرب xxx, 386-7 عند المعجم الإسلامي) {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "الملحق بديوان الخاص", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "استملك الناصرية لدى عودته", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 157 (harvest OCR Ned-Sam)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
