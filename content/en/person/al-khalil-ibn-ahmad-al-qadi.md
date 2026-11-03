@@ -2,7 +2,7 @@
 id: person/al-khalil-ibn-ahmad-al-qadi
 lang: en
 source_lang: ar
-translators: []
+translators: ["Devin (SWE-2 Medium), batch 23"]
 ---
 ## Overview
-Al-Khalil b. Ahmad, the qadi (d. 378), shaykh of the ahl al-ra'y in his era; advanced in fiqh and preaching, he heard hadith from Muhammad b. Ishaq b. Khuzayma and his peers, and heard in Iraq al-Baghawi, Ibn Sa'id and their peers; he died in Jumada II 378. {cite:muntazam-ibn-al-jawzi j.7 p.146}
+al-Khalil ibn Ahmad the qadi, shaykh of the ra'y school in his age and foremost in fiqh and preaching; he heard hadith from Muhammad ibn Ishaq ibn Khuzayma and his peers, and in Iraq from al-Baghawi and Ibn Sa'id; he died in Jumada II, per the Muntazam. {cite:muntazam-ibn-al-jawzi v. 14 p. 329}

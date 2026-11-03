@@ -163,3 +163,9 @@ Written: khusraw-al-arzmaqan, ibn-nafis-al-dai, janji-al-jukhani, al-dabili, abu
 Leads logged (fihrist one-liner entries, no publishable biography; ~28): abdallah-ibn-abd-al-hakam, abd-al-masih-ibn-naima, abu-isa-ibn-lawi, al-haym-ibn-al-haym, al-sayrafi-al-hilali, ali-ibn-dawud, ali-ibn-ismail-al-tammar, asaf-ibn-barkhiya, babak-ibn-bahram, fastaqa, hafs-ibn-ashim, hilal-al-himsi, ibn-hamdan-al-dai, ibrahim-ibn-ishaq-al-ibadi, ishaq-ibn-al-mutadim, jabal-ibn-yazid, jamasp, maliha-al-khulani, muhammad-ibn-hajar, nasr-al-qushuri, niyulaus, salam-al-abrash, salih-al-naji, ubayd-al-kayyis, ulumbyudurus, ustath, waqid-ibn-amr, yahya-ibn-zakariya-ibn-abi-zaida.
 
 **Lane total: 268.** Fihrist thin cluster fully closed (68 written). Muntazam thin rows carry source/muntazam-ibn-al-jawzi in the queue (no yaml cite) — next batch probes them against extracted/muntazam/muntazam.txt.
+
+### Batch 23 (3 Nov 2026, 11 records, ar+en+ur) — Muntazam ibn al-Jawzi cluster opens
+
+Written (3 cited + 8 label-probed, all verified against muntazam.txt with volume/page anchors): ibn-mujahid (p.283), al-shalmaghani (p.663), abu-bakr-ibn-dawud-al-hanbali (p.449-450), jafar-ibn-harb (v11 p238), al-khalil-ibn-ahmad-al-qadi (v14 p329), qatr-al-nada (v12 p412), abu-said-al-kharraz (v12 p280), al-zawzani (v16 p58), ibrahim-ibn-muhammad-al-qatii (v13 p144), buran-bint-al-hasan-ibn-sahl (v10 p108), ubaydallah-ibn-yahya-ibn-khaqan (v11 p180). cite-check 11/11; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 279.** ~140 muntazam queue rows remain; 24 label-probe hits pending context-vetting (many resolve to annalistic/incidental mentions → leads).
