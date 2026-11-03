@@ -1,0 +1,31 @@
+id: event/ibn-al-mulaqqin-mihna-780
+class: event
+kind: persecution
+label:
+  ar: "محنة ابن الملقن في قضية بركة وبرقوق، ربيع الآخر ٧٨٠هـ"
+  en: "Ibn al-Mulaqqin's ordeal in the Baraka–Barquq affair, Rabi' II 780/1378"
+  ur: "برکہ اور برقوق کے معاملے میں ابن ملقن کی آزمائش، ربیع الآخر 780ھ/1378ء"
+summary:
+  ar: "جرت لابن الملقن محنة سنة ثمانين، وذلك أنه كان يصحب برقوق، فتكلم الناس في سيرة بدر الدين بن أبي البقاء فتحدث الأمراء بعزله وفيمن يصلح لذلك، فبلغه فقال له بعض نصحائه: إن برقوق لا يستنكر عليك ذلك ولكن توثّق من بركة، فسعى عنده وكتب له خطّه بمبلغ فقبل، فتحدث بركة مع برقوق في ولايته فأنكر وقال: هذا صاحبي ولو أراد ذلك لتحدث معي؛ فأخرج له خطّه فغضب وأرسم عليه في الإصطبل وألزمه بالمال المذكور، فسعى فيه الشيخ أكمل الدين البابرتي والشيخ سراج الدين البلقيني وغيرهما إلى أن أُطلق، ولم يدخل في النيابة بعدها {cite:durar-kamina-jil-1993 dhayl p. 123}."
+  en: "In 780 came Ibn al-Mulaqqin's ordeal. He was a companion of Barquq, and when the amirs discussed removing Badr al-Din Ibn Abi l-Baqa' from office and who might replace him, word reached Ibn al-Mulaqqin. An adviser told him: Barquq will not hold it against you, but secure Amir Baraka first. So he sought him out and wrote his own hand promising a sum, which Baraka accepted. When Baraka raised his appointment with Barquq, the latter denied it — 'he is my companion; had he wanted it he would have spoken to me' — and produced the letter. Furious, Barquq had him confined in the stable and bound for the promised sum, until Shaykh Akmal al-Din al-Babarti, Shaykh Siraj al-Din al-Bulqini and others interceded for his release. He never entered the judicial deputyship again {cite:durar-kamina-jil-1993 dhayl p. 123}."
+  ur: "780ھ میں ابن ملقن آزمائے گئے۔ وہ برقوق کے صاحبی تھے؛ جب امیروں نے بدرالدین ابن ابی البقاء کو عہدے سے ہٹانے اور متبادل پر گفتگو کی تو خبر ابن ملقن تک پہنچی۔ ایک خیرخواہ نے کہا: برقوق تمہیں برا نہیں مانے گا مگر پہلے امیر برکہ سے کام پختہ کرو۔ انہوں نے برکہ سے مل کر اپنے ہاتھ کا لکھا مبلغ کی پیشکش بھیجی جو قبول ہوئی؛ مگر جب برکہ نے برقوق سے ان کی تقرری کی بات کی تو برقوق نے انکار کیا — 'وہ میرا صاحبی ہے، چاہتا تو مجھ سے کہتا' — اور خط نکال دیا۔ برقوق غصے سے انہیں اصطبل میں نظربند کرا دیا اور مبلغ ادا کرنے پر مجبور کیا، جب تک شیخ اکمل الدین بابرتی اور شیخ سراج الدین بلقینی وغیرہ کی سفارش سے رہا ہوئے؛ اس کے بعد وہ کبھی نیابت میں داخل نہ ہوئے {cite:durar-kamina-jil-1993 dhayl p. 123}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1378-08-12", hijri: "0780-04-17", calendar: julian, precision: day, status: tradition, derived: true, note: "جرت له محنة في سنة ثمانين {cite:durar-kamina-jil-1993 dhayl p. 123}؛ ذُكرت في الإنباء في حوادث السابع عشر من ربيع الآخر سنة ٧٨٠هـ {cite:durar-kamina-jil-1993 dhayl p. 123 note 2}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-al-mulaqqin, role: "الممتحَن المحبوس", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/barquq, role: "الأمير الغاضب", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/baraka-al-jubani, role: "الأمير صاحب الخط", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/al-babarti-akmal-al-din, role: "الشافع", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/siraj-al-din-al-bulqini, role: "الشافع", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Dhayl al-Durar s.a. 804 printed p. 123, citing al-Inba' 1/266 s.a. 780 (17 Rabi' II) (harvest OCR DurarKamina__zdk)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-mulaqqin-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
