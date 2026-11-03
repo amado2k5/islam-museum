@@ -1,0 +1,45 @@
+id: person/adib-peshawari
+class: person
+label: { ar: "أديب البيشاوري", en: "Adib Peshawari", ur: "ادیب پشاوری" }
+names:
+  - { value: "Seyyed Ahmad Adib Pishavari", kind: full }
+  - { value: "Sayyed Ahmad ibn Sehab al-Din Razawi", kind: alternate }
+  - { value: "ادیب پیشاوری", kind: alternate }
+gender: male
+summary:
+  ar: "شاعر وعالم صوفي فارسي (1844–1930) وُلد في بيشاور ونشأ يتيمًا بعد مقتل أبيه في الحرب الإنجليزية الفارسية، ودرس في كابل وغزني ومشهد وسبزوار، ثم أقام في طهران. خلّف ديوانًا بنحو عشرين ألف بيت وملحمة «قيصرنامه» في مدح ألمانيا أثناء الحرب العالمية الأولى، وعُرف بنقده اللاذع للسياسة البريطانية."
+  en: "Persian Sufi scholar and poet (1844–1930), born at Peshawar and orphaned when his father was killed in the Anglo-Persian War. He studied at Kabul, Ghazni, Mashhad and Sabzevar and settled in Tehran. His divan holds some 20,000 couplets, and his Qaysarnama praised Germany in the First World War; he was known for fierce criticism of British policy."
+  ur: "فارسی صوفی عالم اور شاعر (1844ء–1930ء) جو پشاور میں پیدا ہوئے؛ ان کے والد اینگلو فارسی جنگ میں مارے گئے۔ انھوں نے کابل، غزنی، مشہد اور سبزوار میں تعلیم حاصل کی اور تہران میں سکونت اختیار کی۔ ان کے دیوان میں تقریباً بیس ہزار اشعار ہیں اور «قیصرنامہ» میں انھوں نے پہلی جنگِ عظیم میں جرمنی کی مدح کی؛ وہ برطانوی پالیسی کے سخت ناقد تھے۔"
+roles: [poet, scholar]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1844"
+  hijri: "1260"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1844 in or near Peshawar; the English article and Wikidata give the year only and record the birthplace as Peshawar or a village near it. The Persian article gives the year as 1260 AH itself, so the record's Hijri year is the article's own, not a derivation. No place entity exists for Peshawar, so no born_in edge is written."
+  sources: [source/wikipedia-adib-peshawari-en, source/wikipedia-adib-peshawari-fa, source/wikidata-adib-peshawari]
+died:
+  edtf: "1930-06-30"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Died at Tehran on 30 June 1930 and was buried at Ray; so the English article and Wikidata (day precision). The Persian article dates the death 3 Safar 1349 AH, which is 30 June 1930, so the record's Hijri year is again the article's own. No place entity exists for Tehran, so no died_in edge is written."
+  sources: [source/wikipedia-adib-peshawari-en, source/wikipedia-adib-peshawari-fa, source/wikidata-adib-peshawari]
+faith:
+  - value: sufi
+    basis: documented
+    note: "Recorded as sufi on two independent texts attesting his own adherence, not his family's. (1) The Persian article states in its lead that he 'was a follower of the Suhrawardi Sufi order' (از پیروان طریقت صوفیه سهروردیه بود). (2) The English article independently calls him 'a Sufi scholar' in its own lead. His descent from Umar Suhrawardi, which both articles also mention, is family background and is not the basis. Wikidata's structured religion statement gives Twelver Shiism; structured data never settles faith in this museum, and no fetched text attests a Shia identity for the man himself, so no Shia segment is recorded."
+    sources: [source/wikipedia-adib-peshawari-fa, source/wikipedia-adib-peshawari-en, source/wikidata-adib-peshawari]
+relations: []
+external_ids: { wikidata: "Q5959909" }
+sources: [source/wikipedia-adib-peshawari-en, source/wikipedia-adib-peshawari-fa, source/wikipedia-adib-peshawari-ar, source/wikipedia-adib-peshawari-ur, source/wikidata-adib-peshawari]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Adib Pishavari', rev. 1345976702 of 29 March 2026; Persian Wikipedia 'ادیب پیشاوری', rev. 42211069 of 11 July 2025; Arabic Wikipedia 'أحمد الأديب البيشاوري', rev. 75900701 of 15 July 2026; Urdu Wikipedia 'ادیب پشاوری', rev. 10530355 of 21 May 2026; Wikidata Q5959909 (item rev. 2544814620). All read via the MediaWiki/Wikidata APIs on 3 November 2026, every revision id re-asserted with a repeat query before any claim was drawn. The queue row names him 'Adib Peshawari'; the articles' spelling 'Pishavari' is the same man (1844–1930, Peshawar-born Persian poet), and the queue spelling is kept for the slug. No relations are written: Peshawar, Kabul, Ghazni, Mashhad, Sabzevar, Tehran and Ray have no place entities in the museum, and his teacher Molla Hadi Sabzevari has no person record."
+  generated_by: "Muse (Muse Wonder)"
+  run: century-additions-184
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

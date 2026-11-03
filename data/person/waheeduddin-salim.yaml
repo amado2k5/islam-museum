@@ -1,0 +1,43 @@
+id: person/waheeduddin-salim
+class: person
+label: { ar: "وحيد الدين سليم", en: "Waheeduddin Salim", ur: "وحید الدین سلیم" }
+names:
+  - { value: "مولوی سید وحید الدین سلیم", kind: full }
+  - { value: "Maulvi Syed Waheeduddin Salim", kind: full }
+gender: male
+summary:
+  ar: "عالم وأديب ولغوي أردي من باني بت، عمل سكرتيرًا لسر سيد أحمد خان حتى وفاة سر سيد، وحرّر صحفًا منها «الزمرد» و«مسلم غازيت»، ثم التحق بدار الترجمة في حيدر آباد فألّف كتابه المشهور «وضع اصطلاحات»، أول كتاب أردي في علم وضع المصطلحات، وعُيّن عند قيام جامعة عثمانية أول أستاذ مساعد للأردية فيها ثم أستاذًا. اختلفت المصادر في سنتي مولده ووفاته."
+  en: "Urdu scholar, writer and linguist from Panipat. He served as secretary to Sir Syed Ahmad Khan until Sir Syed's death, edited newspapers including Zamindar and the Muslim Gazette, then joined Hyderabad's Dar-ul-Tarjuma, where he wrote his best-known book Vaz-i Istalahat, the first Urdu book on terminology. When Osmania University was founded he became its first assistant professor of Urdu and later professor. The sources disagree on his birth and death years."
+  ur: "پانی پت کے اردو عالم، ادیب اور ماہر لسانیات۔ سرسید احمد خان کے سیکرٹری رہے اور ان کی وفات تک یہ رفاقت قائم رہی، «زمیندار» اور «مسلم گزٹ» سمیت کئی اخبارات کی ادارت کی، پھر حیدرآباد کے دارالترجمہ سے وابستہ ہوئے جہاں اپنی مشہور کتاب «وضع اصطلاحات» لکھی جو اصطلاح سازی پر اردو کی پہلی کتاب مانی جاتی ہے۔ جامعہ عثمانیہ قائم ہوئی تو وہ اردو کے پہلے اسسٹنٹ پروفیسر مقرر ہوئے اور بعد ازاں پروفیسر بنے۔ ان کے سنہ پیدائش و وفات میں مصادر مختلف ہیں۔"
+roles: [scholar, writer, linguist, professor, editor]
+wings: [people]
+born:
+  edtf: "1869"
+  hijri: "1286"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Panipat in 1869 per the Urdu Wikipedia article. Maulvi Abdul Haq's contemporary sketch (Chand Hum Asr) instead gives 1867; the two readings are preserved here and in the prose rather than silently resolved. No place entity for Panipat exists in data/place/, so no born_in relation is written. The Hijri year (1286) is derived by tabular conversion."
+  sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim]
+died:
+  edtf: "1928-07-29"
+  hijri: "1347"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 29 July 1928 at Malihabad, Lucknow, per Maulvi Abdul Haq's contemporary sketch. The Urdu Wikipedia article gives only the year 1927; the two readings are preserved here and in the prose. The Hijri year (1347) is derived by tabular conversion."
+  sources: [source/abdul-haq-waheeduddin-salim, source/wikipedia-waheeduddin-salim-ur]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for him. Neither text — the Urdu Wikipedia article nor Abdul Haq's sketch — makes any statement of his denomination or legal school, and he has no Wikidata item. His father Haji Fariduddin was custodian (mutawalli) of the shrine of Shah Sharafuddin Bu Ali Qalandar at Panipat; a father's shrine office is family background and milieu, not an attestation of the son's school, so nothing more can be recorded."
+    sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim]
+sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim]
+provenance:
+  layer: own-research
+  source: "Urdu Wikipedia «وحید الدین سلیم» (revision 5866911 of 19 January 2024; he has no English Wikipedia article and no Wikidata item) and Maulvi Abdul Haq's sketch of him from Chand Hum Asr, republished by Taemeer News (2021), both read on 3 November 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse"
+  run: century-additions-wave-184-b
+status: { review: published, completeness: 2, generated_by: "Muse" }

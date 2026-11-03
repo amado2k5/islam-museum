@@ -1,0 +1,45 @@
+id: person/viqar-ul-mulk
+class: person
+label: { ar: "وقار الملك", en: "Nawab Viqar-ul-Mulk", ur: "وقار الملک" }
+names:
+  - { value: "Mushtaq Hussain", kind: full }
+  - { value: "مشتاق حسين", kind: full }
+gender: male
+summary:
+  ar: "سياسي هندي مسلم، وُلد باسم مشتاق حسين في ميروت سنة 1841، وخدم دولة حيدر آباد سبعة عشر عامًا حتى صار نائبًا لرئيس وزرائها، فنال لقب نواب وقار الملك سنة 1890. كان من أشد أنصار السيد أحمد خان، وجمع 750 ألف روبية لكلية عليكرة، وصار أمينها الفخري سنة 1907. وفي دكا سنة 1906 كان من مؤسسي رابطة مسلمي عموم الهند وأمينها العام الأول ورئيس جلستها الافتتاحية."
+  en: "Indian Muslim politician, born Mushtaq Hussain at Meerut in 1841. He served the state of Hyderabad for seventeen years, rising to Deputy Prime Minister, and received the title Nawab Viqar-ul-Mulk in 1890. A leading supporter of Syed Ahmad Khan, he raised 750,000 rupees for the MAO College at Aligarh and became its honorary secretary in 1907. At Dacca in 1906 he was a founder of the All India Muslim League, its first general secretary, and president of its inaugural session."
+  ur: "ہندوستانی مسلمان سیاست دان، جو 1841 میں میرٹھ میں مشتاق حسین کے نام سے پیدا ہوئے۔ انھوں نے ریاست حیدر آباد کی سترہ سال خدمت کی اور نائب وزیر اعظم کے عہدے تک پہنچے، 1890 میں نواب وقار الملک کا خطاب ملا۔ سر سید احمد خان کے سرگرم حامی تھے، علی گڑھ کالج کے لیے ساڑھے سات لاکھ روپے جمع کیے اور 1907 میں کالج کے اعزازی سیکرٹری بنے۔ 1906 میں ڈھاکہ میں آل انڈیا مسلم لیگ کے بانیوں میں شامل تھے، اس کے پہلے جنرل سیکرٹری بنے اور افتتاحی اجلاس کی صدارت کی۔"
+roles: [politician]
+wings: [people]
+born:
+  edtf: "1841-03-24"
+  hijri: "1257"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 24 March 1841 at Meerut, per the English article ('Waqar-ul-Mulk'). No place entity for Meerut exists in data/place/, so no born_in relation is written. The Hijri year (1257) is derived by tabular conversion."
+  sources: [source/wikipedia-viqar-ul-mulk-en]
+died:
+  edtf: "1917-01-27"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 27 January 1917, per the English article. The Hijri year (1335) is derived by tabular conversion."
+  sources: [source/wikipedia-viqar-ul-mulk-en]
+relations:
+  - { type: lived_in, target: place/hyderabad-deccan, sources: [source/wikipedia-viqar-ul-mulk-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or denomination for him. His only article (English Wikipedia, under the spelling 'Waqar-ul-Mulk') makes no statement of his denomination, and he has no Wikidata item and no Arabic or Urdu article. His Aligarh Movement work and his founding role in the Muslim League are political affiliation and activity, not a school attestation, so nothing more can be recorded."
+    sources: [source/wikipedia-viqar-ul-mulk-en]
+sources: [source/wikipedia-viqar-ul-mulk-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Waqar-ul-Mulk' (revision 1374739323 of 13 September 2026; the title 'Viqar-ul-Mulk' redirects to it), read via the Wikipedia API on 3 November 2026. He has no Wikidata item (entity search returned no match) and no Arabic or Urdu article. No earlier record for him existed in data/person/ under either spelling; this is a new build, not an enrichment."
+  generated_by: "Muse"
+  run: century-additions-wave-184-b
+status: { review: published, completeness: 2, generated_by: "Muse" }
