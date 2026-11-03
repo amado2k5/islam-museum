@@ -2,11 +2,7 @@
 id: person/nasr-ibn-asim
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 20"]
 ---
-
 ## Overview
-Nasr ibn Asim al-Du'ali, also said to be al-Laythi, was one of the readers and the eloquent of his time {cite:fihrist-ibn-al-nadim p.103-104}.
-
-## Grammar
-Those who disagreed with the school of Abu al-Aswad hold that he was the one who laid down the rules of grammar. Abu Amr ibn al-Ala' and others learned from him {cite:fihrist-ibn-al-nadim p.103-104}.
+Nasr ibn Asim al-Du'ili, or, as some say, al-Laythi; according to those who dissent from the school of Abu'l-Aswad it was he who laid down grammar; he was among the Qur'an readers and eloquent men, and Abu Amr ibn al-Ala and others took from him. {cite:fihrist-ibn-al-nadim p. 75}

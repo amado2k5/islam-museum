@@ -2,7 +2,7 @@
 id: person/arius-al-rumi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 20"]
 ---
 ## Overview
-Arius ibn Istafanus ibn Batlinus al-Rumi, known as the rashid of his people. He was among the Byzantine scholars of charms. He wrote a book in which he mentions the children of Iblis and their dispersal in the lands, what each kind of them is peculiar to, and the genealogies of the jinn. {cite:fihrist-ibn-al-nadim p.431}
+Arius ibn Istafanus ibn Batlinus al-Rumi, called the sage of his people, among the Byzantine scholars of incantations; he wrote a book on the offspring of Iblis and their dispersal through the lands and the allotment of each kind within the year. {cite:fihrist-ibn-al-nadim p. 464}
