@@ -1,25 +1,63 @@
 id: person/al-nuwayri
 class: person
-label:
-  ar: "شهاب الدين النويري"
-  en: "al-Nuwayri"
-roles: [writer, scholar]
-gender: male
+label: { ar: "النويري", en: "al-Nuwayri", ur: "نويری" }
+names:
+  - { value: "شهاب الدين أحمد بن عبد الوهاب بن محمد بن عبد الدائم القرشي التيمي البكري النويري", kind: full }
 summary:
-  ar: "بطاقة أولية لشهاب الدين أحمد بن عبد الوهاب النويري، الموسوعي المصري صاحب «نهاية الأرب في فنون الأدب»، توفي سنة ١٣٣٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shihab al-Din Ahmad ibn Abd al-Wahhab al-Nuwayri, the Egyptian encyclopedist author of Nihayat al-Arab fi Funun al-Adab, d. 1333; the biographical entry is not yet checked on the page."
+  ar: "شهاب الدين أحمد بن عبد الوهاب بن محمد بن عبد الدائم القرشي التيمي البكري النويري الشافعي، كاتب الدواوين والموسوعي المصري صاحب «[[work/nihayat-al-arab-fi-funun-al-adab|نهاية الأرب في فنون الأدب]]»؛ ولد بأخميم يوم ٢١ ذي القعدة ٦٧٧هـ/٥ أبريل ١٢٧٩م — وينسبه الزركلي مولداً ومنشأً إلى قوص — فخدم في ديوان الخاص بالقاهرة وديوان الإنشاء ونظر الجيش بطرابلس ونظر الديوان بالدقهلية والمرتاحية، ثم اعتزل الإدارة نحو ٧١٦هـ فألف موسوعته في خمسة فنون وأكثرها التاريخ إلى سنة ٧٣١هـ، ونسخ من صحيح البخاري ثماني نسخ وكان يبيّض النسخة في يوم؛ توفي بالقاهرة ٢١ رمضان ٧٣٣هـ/٥ يونيو ١٣٣٣م {cite:encyclopaedia-of-islam-2 vol. 8 pp. 156-160} {cite:durar-kamina-jil-1993 1/197} {cite:al-aalam j. 1 s.v. al-Nuwayri}."
+  en: "Shihab al-Din Ahmad ibn Abd al-Wahhab ibn Muhammad ibn Abd al-Da'im al-Qurashi al-Taymi al-Bakri al-Nuwayri al-Shafi'i, Mamluk chancery official and encyclopedist, author of [[work/nihayat-al-arab-fi-funun-al-adab|Nihayat al-Arab fi Funun al-Adab]]; born at Akhmim on 21 Dhu al-Qa'da 677/5 April 1279 — al-Zirikli gives his birth and upbringing at Qus — he served in the diwan al-khass at Cairo, as sahib diwan al-insha' and nazir al-jaysh at Tripoli, and as nazir al-diwan of al-Dakhaliyya and al-Murtahiyya, then withdrew from administration about 716 to compose his encyclopaedia in five funun, mostly history to 731, copying eight Sahih al-Bukhari manuscripts and finishing a fair copy in a day; he died at Cairo on 21 Ramadan 733/5 June 1333 {cite:encyclopaedia-of-islam-2 vol. 8 pp. 156-160} {cite:durar-kamina-jil-1993 1/197} {cite:al-aalam j. 1 s.v. al-Nuwayri}."
+  ur: "شہاب الدین احمد بن عبدالوہاب بن محمد بن عبدالدائم قرشی تیمی بکری نويری شافعی، مملوک دیوانی افسر اور دائرۃ المعارف [[work/nihayat-al-arab-fi-funun-al-adab|نہایۃ الارب فی فنون الادب]] کے مصنف؛ اخمیم میں 21 ذیقعدہ 677ھ/5 اپریل 1279ء کو پیدا ہوئے — زرکلی ان کی پیدائش و پرورش قوص بتاتا ہے — قاہرہ میں دیوان خاص، طرابلس میں صاحب دیوان انشاء اور ناظر الجیش، اور دقہلیہ و مرتاحیہ میں ناظر دیوان رہے، پھر تقریباً 716ھ میں انتظامیہ سے کنارہ کش ہو کر پانچ فنوں پر مشتمل اپنے دائرۃ المعارف کی تصنیف میں لگے جس کا بیشتر حصہ 731ھ تک کی تاریخ ہے؛ صحیح بخاری کی آٹھ نسخے نقل کیں اور ایک دن میں مسودہ بیاض کرتے؛ قاہرہ میں 21 رمضان 733ھ/5 جون 1333ء کو فوت ہوئے {cite:encyclopaedia-of-islam-2 vol. 8 pp. 156-160} {cite:durar-kamina-jil-1993 1/197} {cite:al-aalam j. 1 s.v. al-Nuwayri}۔"
+gender: male
+roles: [writer, scholar, historian, calligrapher]
 wings: [people]
-regions: [egypt-nile]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
-external_ids:
-  wikidata: Q288067
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+born:
+  edtf: "1279-04-05"
+  hijri: "0677-11-21"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ولد بأخميم يوم ٢١ ذي القعدة ٦٧٧هـ/٥ أبريل ١٢٧٩م {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}؛ والزركلي يجعل مولده ومنشأه بقوص {cite:al-aalam j. 1 s.v. al-Nuwayri}؛ التحويل مشتق."
+died:
+  edtf: "1333-06-05"
+  hijri: "0733-09-21"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي بالقاهرة في ٢١ شهر رمضان سنة ٧٣٣هـ وله ست وخمسون سنة {cite:durar-kamina-jil-1993 1/197} {cite:encyclopaedia-of-islam-2 vol. 8 p. 159}؛ المقابل ٥ يونيو ١٣٣٣م؛ التحويل مشتق."
+relations:
+  - { type: born_in, target: place/akhmim, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: child_of, target: person/taj-al-din-abd-al-wahhab-al-nuwayri, sources: [source/encyclopaedia-of-islam-2], note: "أبوه تاج الدين أبو محمد عبد الوهاب (٦١٨-٦٩٩هـ) مولوداً بمصر في المدرسة المعروفة بمنازل العز، ودُفن بتربة القاضي ابن مخلوف النويري الجزولي {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}" }
+  - { type: student_of, target: person/al-dimyati, sources: [source/encyclopaedia-of-islam-2], note: "عبد المؤمن الدمياطي (ت ٧٠٥هـ) الذي يكثر النقل عن كتابه فضل الخيل {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}" }
+  - { type: student_of, target: person/ibn-daqiq-al-id, sources: [source/encyclopaedia-of-islam-2], note: "تقي الدين بن دقيق العيد (ت ٧٠٢هـ) في الحديث {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}" }
+  - { type: student_of, target: person/ibn-jama-a-badr-al-din, sources: [source/encyclopaedia-of-islam-2], note: "قاضي القضاة بدر الدين ابن جماعة (ت ٧٣٣هـ)، شيخ الخانقاه الناصرية {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}" }
+  - { type: authored, target: work/nihayat-al-arab-fi-funun-al-adab, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: participated_in, target: event/nuwayri-birth-677, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-qus-697, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-nasiriyya-698, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-damascus-701, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-shaqhab-702, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-return-703, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-karak-709, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-flogged-710, sources: [source/suluk-maqrizi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-tripoli-710, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-karasunkur-712, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-return-712, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-nihaya-714, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-bukhari-sama-715, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-copy-721, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/nuwayri-dream-729, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/nuwayri-death-733, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0015, lib-durar-kamina-batch-1-2-2026-10-31
-status:
-  review: published
-  completeness: 1
+  source: "EI2 vol. 8 art. al-Nuwayri pp. 156-160 (harvest OCR Ned-Sam); Ibn Hajar, Durar al-Kamina j.1 p. 197 (harvest DurarKamina__drkamth1); al-Maqrizi, Suluk j.2 p. 91 (harvest iB_Sl__2-1); al-Zirikli, al-A'lam j.1 s.v. (harvest AAlexandrina-159187 scan p.52)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+external_ids: { wikidata: "Q288067" }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/shadharat-dhahab]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
