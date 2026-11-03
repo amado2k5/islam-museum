@@ -1,25 +1,54 @@
 id: person/ibn-habib-al-halabi
 class: person
-label:
-  ar: "ابن حبيب الحلبي"
-  en: "Ibn Habib al-Halabi"
-roles: [scholar]
+label: { ar: "ابن حبيب الحلبي", en: "Ibn Habib al-Halabi", ur: "ابن حبیب حلبی" }
+names:
+  - { kind: full, lang: ar, value: "الحسن بن عمر بن الحسن بن حبيب، بدر الدين أبو محمد، الحلبي" }
+roles: [historian, scholar, poet]
 gender: male
+traditions: [sunni]
+born: { edtf: "1311-01", hijri: "0710-08", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بدمشق سنة ٧١٠هـ {cite:al-aalam 2/218-219} وكان مولده في شعبان {cite:durar-kamina-jil-1993 2/29}؛ شعبان ٧١٠هـ يلاقي نحو أواخر ديسمبر ١٣١٠م إلى يناير ١٣١١م؛ التحويل مشتق.", sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+died: { edtf: "1377-08", hijri: "0779-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بربيع الآخر سنة ٧٧٩هـ بحلب عن سبعين سنة {cite:durar-kamina-jil-1993 2/30} {cite:nujum-zahira 11/189} {cite:al-aalam 2/218-219}؛ التحويل الميلادي مشتق.", sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam] }
 summary:
-  ar: "بطاقة أولية لبدر الدين حسن ابن حبيب الحلبي، فقيه ومحدث وشاعر حلب القرن الرابع عشر، توفي سنة ١٣٧٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Badr al-Din Hasan Ibn Habib al-Halabi, the fourteenth-century jurist, muhaddith and poet of Aleppo, d. 1377; the biographical entry is not yet checked on the page."
+  ar: "مؤرخ شافعي وكاتب مترسل، صاحب «درة الأسلاك في دولة الأتراك». ولد بدمشق في شعبان ٧١٠هـ ونُصب أبوه محتسباً بحلب فانتقل معه ونشأ فيها ونُسب إليها؛ سمع من إبراهيم بن مسلم ومن والده عمر ومن الفخر الدين بن خطيب برين، وسمع بالحلة ومصر والإسكندرية، ورحل إلى مصر والحجاز ثم استقر بحلب. باشر نيابة القضاء ونيابة كتابة السر، وكان يوقّع عن القضاة وانقطع في آخر عمره بعزله؛ وكان إمام عصره في صناعتي الإنشاء والشروط. صنف «درة الأسلاك في دولة الأتراك» (تاريخ دولة الترك) من ٦٤٨هـ إلى نحو ٧٧٧هـ، و«تذكرة النبيه في أيام المنصور وبنيه» و«النجم الثاقب» و«نسيم الصبا» و«كشف المروط» وغيرها؛ ومن تلاميذه ابن قاضي شهبة وسبط ابن الجمعة وعلاء الدين ابن خطيب الناصرية. توفي بربيع الآخر ٧٧٩هـ/١٣٧٧م بحلب عن نحو سبعين سنة، وذيّل على تاريخه ولده طاهر بن حبيب {cite:durar-kamina-jil-1993 2/29-30} {cite:nujum-zahira 11/189-190} {cite:al-aalam 2/218-219}."
+  en: "A Shafi'i historian and chancery stylist, author of Durrat al-Aslak fi Dawlat al-Atrak. Born at Damascus in Sha'ban 710, he moved to Aleppo when his father was appointed its muhtasib, grew up there and took his nisba from it; he heard scholars at Aleppo, al-Hilla, Egypt and Alexandria, travelled to Egypt and the Hijaz, then settled at Aleppo. He served as deputy qadi and deputy secretary of the chancery, countersigned for the qadis, and in old age was dismissed; he was the master of his age in the arts of official letter-writing (insha') and notarial formulation (shurut). His works include the Durrat al-Aslak, a history of the 'Turks' (the Mamluk state) from 648 to about 777, Tadhkirat al-Nabih on al-Mansur Baybars and his sons, al-Najm al-Thaqib on the Prophet's biography, Nasim al-Saba and Kashf al-Marrut on Shafi'i fiqh; his pupils included Ibn Qadi Shuhba, Sibt Ibn al-Jum'a and 'Ala' al-Din Ibn Khatib al-Nasiriyya. He died at Aleppo in Rabi' II 779/1377 aged about seventy, and his son Tahir ibn Habib continued the history {cite:durar-kamina-jil-1993 2/29-30} {cite:nujum-zahira 11/189-190} {cite:al-aalam 2/218-219}."
+  ur: "شافعی مؤرخ اور انشاء پرداز، صاحب «درۃ الاسلاک فی دولۃ الاتراک»۔ شعبان 710ھ میں دمشق میں پیدا ہوا؛ باپ حلب کا محتسب مقرر ہوا تو ساتھ گیا، وہیں پلا بڑھا اور اسی سے نسبت پائی۔ حلب، حلہ، مصر اور اسکندریہ کے علماء سے سمعات کیے، مصر اور حجاز کا سفر کیا، پھر حلب ہی میں رہا۔ نیابۃ القضاء اور نیابۃ کتابۃ السر کے منصب سنبھالے، قضاۃ کی جانب سے توقیع کرتا تھا اور آخری عمر میں عزل ہوا؛ انشاء اور شروط کی صنعتوں میں اپنے عصر کا امام تھا۔ تصانیف میں «درۃ الاسلاک» (648ھ سے تقریباً 777ھ تک دولۃ الاتراک کی تاریخ)، «تذکرہ النبیہ فی ایام المنصور و بنیہ»، «النجم الثاقب»، «نسیم الصبا» اور «کشف المروط» شامل ہیں؛ تلامذہ میں ابن قاضی شہبہ، سبط ابن الجمعہ اور علاء الدین ابن خطیب ناصریہ ہیں۔ ربیع الآخر 779ھ/1377ء میں حلب میں وفات پائی، عمر قریباً ستر سال؛ اس کی تاریخ پر بیٹے طاہر بن حبیب نے ذیل لکھی {cite:durar-kamina-jil-1993 2/29-30} {cite:nujum-zahira 11/189-190} {cite:al-aalam 2/218-219}."
 wings: [people]
+themes: [history-writing-and-social-thought]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam] }
 external_ids:
   wikidata: Q42298972
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/al-aalam], note: "ولد في دمشق {cite:al-aalam 2/218-219}" }
+  - { type: lived_in, target: place/aleppo, sources: [source/al-aalam, source/nujum-zahira], note: "نشأ بحلب واستقر فيها {cite:al-aalam 2/218-219} {cite:nujum-zahira 11/189}" }
+  - { type: died_in, target: place/aleppo, sources: [source/nujum-zahira, source/durar-kamina-jil-1993], note: "توفي بحلب {cite:nujum-zahira 11/189}" }
+  - { type: child_of, target: person/umar-ibn-habib-muhtasib, sources: [source/al-aalam, source/nujum-zahira], note: "زين الدين عمر بن حبيب، نُصب محتسباً بحلب {cite:al-aalam 2/218-219} {cite:nujum-zahira 11/189}" }
+  - { type: authored, target: work/durrat-al-aslak, sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam] }
+  - { type: authored, target: work/tadhkirat-al-nabih, sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/nasim-al-saba, sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/al-najm-al-thaqib, sources: [source/al-aalam] }
+  - { type: authored, target: work/juhaynat-al-akhbar, sources: [source/al-aalam] }
+  - { type: authored, target: work/kashf-al-marrut, sources: [source/al-aalam] }
+  - { type: participated_in, target: event/ibn-habib-birth-710, sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-habib-tripoli-758, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-habib-tarikh-atrak-777, sources: [source/nujum-zahira, source/al-aalam] }
+  - { type: participated_in, target: event/ibn-habib-death-779, sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam] }
+sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam]
+occupations:
+  - job: job/katib
+    kind: secondary
+    status: historical
+    note: "مؤرخ وكاتب إنشاء، أحد الكتاب المترسلين {cite:al-aalam 2/218-219} {cite:nujum-zahira 11/189}"
+    sources: [source/al-aalam, source/nujum-zahira]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0050
+  source: "Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 2/29-30 tarjama al-Hasan b. Umar b. Habib (archive.org DurarKamina OCR); Ibn Taghribirdi, al-Nujum al-Zahira 11/189-190 s.a. 779 (archive.org Nojoom_Zahera OCR); al-Zirikli, al-A'lam 2/218-219 (archive.org Al_Alam_Zarkali OCR); Wikidata Q42298972"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-habib-1
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Devin (SWE-2 Medium)"
