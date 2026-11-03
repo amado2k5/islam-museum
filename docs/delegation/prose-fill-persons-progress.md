@@ -149,3 +149,9 @@ Written: al-sini, jir-ibn-ghalib, thamistiyus, yahya-ibn-sarafiyun, atarid-ibn-m
 Written: arius-al-rumi, ibn-rizam, abu-shakir-al-daysani, abu-yaqub-al-sijistani, ali-ibn-isa-al-rummani, al-hasih, sallam-al-qari, balinas, shahid-ibn-al-husayn, nasr-ibn-asim. cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 248.** Fihrist thin cluster nearing exhaustion (remaining summaries marginal → leads); next: muntazam, tabari (33), muruj (31), ansab, tabaqat.
+
+### Batch 21 (3 Nov 2026, 12 records, ar+en+ur) — thin-file Fihrist cluster 6 (final usable set)
+
+Written: qusta-ibn-luqa, mashaallah, yahya-ibn-muadh-al-razi, umar-ibn-al-farrukhan, maria-al-hakima, ibrahim-ibn-ghiyath-al-qadi, ishaq-ibn-bishr, ghulam-khalil, abu-talib-al-zayyat, salmawayh-ibn-bunan, thaun-al-falatuni, muhammad-ibn-al-saib-al-kalbi. cite-check 12/12; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 260.** Fihrist thin cluster effectively exhausted — remaining ~30 rows carry one-line entries → leads. Next: muntazam, tabari (33), muruj (31), ansab, tabaqat.
