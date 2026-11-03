@@ -6,8 +6,8 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن الغريق؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn al-Ghariq; the entry is not yet checked on the page."
+  ar: "محمد بن علي ابن الغريق العباسي، سيد بني العباس وشيخهم «راهب بني هاشم»، من ثقات المحدثين؛ توفي ببغداد سنة 465هـ (1074م)."
+  en: "Muhammad Ibn al-Ghariq al-Abbasi (980–1074), sayyid of the Abbasids called the monk of Banu Hashim, trustworthy hadith man."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q139900057
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.276)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  run: prose-fill-persons-batch3
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

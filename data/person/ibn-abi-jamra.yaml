@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن أبي جمرة"
   en: "Ibn Abi Jamra"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن أبي جمرة، محدث القرن الثالث عشر، توفي سنة ١٢٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Abi Jamra, the thirteenth-century muhaddith, d. 1296; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن سعد ابن أبي جمرة الأزدي الأندلسي، محدث مالكي صاحب «جمع النهاية» مختصر صحيح البخاري؛ توفي بمصر سنة 695هـ (1296م)."
+  en: "Abd Allah Ibn Abi Jamra (d. 695/1296), Andalusi Maliki hadith scholar, author of the Jam' al-Nihaya abridgement of Sahih al-Bukhari."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q54861826
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.89)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
