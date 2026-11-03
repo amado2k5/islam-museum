@@ -1,0 +1,27 @@
+id: event/yaqut-mujam-621
+class: event
+kind: other
+label:
+  ar: "تمام المسوَّدة الأولى لمعجم البلدان بحلب، ٢٠ صفر ٦٢١هـ/١٣ مارس ١٢٢٤م"
+  en: "The draft of the Mujam al-Buldan finished at Aleppo, 20 Safar 621/13 March 1224"
+  ur: "معجم البلدان کی مسودہ حلب میں مکمل، 20 صفر 621ھ/13 مارچ 1224ء"
+summary:
+  ar: "فرغ ياقوت من المسوَّدة الأولى لكتابه «معجم البلدان» في حلب — لا في الموصل كما يُظن غالباً — في العشرين من صفر سنة ٦٢١هـ/١٣ مارس ١٢٢٤م، وأهداه بخطه إلى خزانة القفطي {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}. وهو الكتاب الذي تجاوز حدود الجغرافيا إلى مواد أدبية وتراجم لأعلام البلدان {cite:encyclopaedia-of-islam-2 vol. 11 p. 265-266}."
+  en: "Yaqut finished the draft of his Mujam al-Buldan at Aleppo — not at Mosul, as is often thought — on 20 Safar 621/13 March 1224, and gave an autograph copy to al-Qifti's library {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}. The work ranges beyond geography into literary matter and biographies of the notables of each place {cite:encyclopaedia-of-islam-2 vol. 11 p. 265-266}."
+  ur: "یاقوت نے معجم البلدان کی مسودہ حلب میں — نہیں جیسا کہ عموماً سمجھا جاتا ہے موصل میں — 20 صفر 621ھ/13 مارچ 1224ء کو مکمل کی اور اپنی خطاطی کی نقل قفطی کے کتب خانے کو پیش کی {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}. یہ کتاب جغرافیہ سے آگے بڑھ کر ادبی مادہ اور ہر شہر کے اعلام کی تراجم بھی سمیٹتی ہے {cite:encyclopaedia-of-islam-2 vol. 11 p. 265-266}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1224-03-13", hijri: "0621-02-20", calendar: julian, precision: day, status: tradition, derived: true, note: "٢٠ صفر ٦٢١هـ بحلب {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}؛ المطابق الميلادي مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
