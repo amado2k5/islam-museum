@@ -117,3 +117,11 @@ Thin (<800B) person files phase began: 527 thin rows cite `al-aalam`; loose norm
 **Leads (thin al-A'lam):** ghannam-al-najdi (AUT header misplaced — entry beneath is al-Ghamr b. Yazid, different person), abd-al-wahhab-khallaf (index-line only, no entry in this edition), muhammad-raghib-al-tabbakh (bibliographic refs only), isa-ibn-maskin (one-line jahili genealogy), plus ~50 token-collision rows. Remaining thin rows cite ~hundreds of other sources — work continues source-grouped.
 
 **Lane total: 200.**
+
+### Batch 16 (3 Nov 2026, 8 records, ar+en+ur) — thin-file Fihrist cluster
+
+Extracted five new OpenITI texts to the harvest drive (muruj, muntazam JK001209, fihrist Shamela0007642, ansab Sham30K0002009, tabaqat-fuqaha JK007022). Thin-file analysis: 809 thin (<800B) rows; 146 have cited summaries — 195 in fihrist-ibn-al-nadim cluster (largest). Written: dubays, hubaysh-ibn-al-hasan, khalid-ibn-abi-al-hayyaj, al-qanabi, aban-al-raqqashi, abd-al-malik-ibn-hazim, abd-al-rahman-ibn-hurmuz, abu-hashisha — all from Ibn al-Nadim's Fihrist, page-cited, completeness 3. cite-check 8/8; validate 0 errors; 317 tests pass; coverage regenerated.
+
+**Leads:** none new this batch (candidates selected from summaries already source-cited; remaining fihrist rows continue next batch).
+
+**Lane total: 208.**
