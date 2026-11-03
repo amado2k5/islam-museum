@@ -109,3 +109,11 @@ Source: Ibn al-Athir, al-Kamil fi'l-Tarikh, OpenITI extraction `extracted/kamil/
 **Leads (kamil):** sulayman-shah-ii-rum (Kamil's سليمان شاه is the Great-Seljuk Sulayman Shah b. Muhammad b. Malikshah d.556h — different person), rashid-al-din-sinan, baba-ishaq, nogai-khan, azjur-al-turki, buraq-hajib, ahmad-ibn-muzahim, khalid-ibn-yazid-al-shaybani, leo-of-tripoli (no hits / generic-token collisions), abu-tahir-al-saigh (hits are the common word «الصائغ»), al-husayn-ibn-nasir-al-dawla + iftikhar-al-dawla + badr-al-mutadidi + habib-ibn-muzahir + al-sayyida-al-muizziyya + al-numan-ibn-muqrin + al-mutasim + ali-al-rida + abdallah-ibn-hamdan-al-taghlibi + ibrahim-ibn-hamdan-al-taghlibi + abdallah-ibn-ubayd-allah-al-husayni + nur-al-din-muhammad-ii-nizari + saljuq-ibn-duqaq + abdullah-ibn-amr-ibn-ghaylan + ahmad-ibn-kayghalagh + sulayman-ibn-abdallah-ibn-tahir + sharhabil-ibn-hasana + al-hasan-ibn-makhlad (scattered annalistic one-liners or token collisions, no person-specific passage). Kamil cluster effectively exhausted.
 
 **Lane total: 196.** Next: thin (<800B) person files bottom-up.
+
+### Batch 15 (3 Nov 2026, 4 records, ar+en+ur) — thin-file al-A'lam cohort
+
+Thin (<800B) person files phase began: 527 thin rows cite `al-aalam`; loose normalized probing found 62 hits, mostly token collisions (صبري، يمني، سالم). Four dedicated entries verified and written: hajjaj-ibn-artah (Kufan qadi d.145h, v.2), jafar-al-khatti (Bahrani poet d.1028h, v.2 p.129), rifaah-ibn-rafi (Companion d.41h, v.3 p.29), muafa-ibn-zakariya-al-jariri (qadi/adib of Baghdad, 303-390h). cite-check 4/4; validate 0 errors; tests pass; coverage regenerated.
+
+**Leads (thin al-A'lam):** ghannam-al-najdi (AUT header misplaced — entry beneath is al-Ghamr b. Yazid, different person), abd-al-wahhab-khallaf (index-line only, no entry in this edition), muhammad-raghib-al-tabbakh (bibliographic refs only), isa-ibn-maskin (one-line jahili genealogy), plus ~50 token-collision rows. Remaining thin rows cite ~hundreds of other sources — work continues source-grouped.
+
+**Lane total: 200.**
