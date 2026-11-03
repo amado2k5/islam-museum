@@ -2,7 +2,7 @@
 id: person/salmawayh-ibn-bunan
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 21"]
 ---
 ## Overview
-Salmawayh ibn Bunan, a physician. Ibn al-Nadim describes him as an accomplished and advanced scholar. He served al-Mu'tasim and was particularly close to him, so much so that al-Mu'tasim said at his death that he would follow him, because he had been keeping his life and managing his body {cite:fihrist-ibn-al-nadim p.412-413}.
+Salmawayh ibn Bunun, an eminent and accomplished man who served al-Mu'tasim and held his special confidence — so much so that at Salmawayh's death al-Mu'tasim said 'I shall follow him, for he held my life and governed my body'. {cite:fihrist-ibn-al-nadim p. 430}

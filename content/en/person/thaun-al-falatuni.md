@@ -2,9 +2,7 @@
 id: person/thaun-al-falatuni
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 21"]
 ---
 ## Overview
-Thaun, a partisan of Plato. He wrote a book on the stages of reading the books of Plato and the names of what he composed {cite:fihrist-ibn-al-nadim p.343}.
-
-Ibn al-Nadim took from it the order of Plato's books and the names of his sayings {cite:fihrist-ibn-al-nadim p.344}.
+Thaun, the devoted follower of Plato; he wrote a book on the order in which Plato's works should be read and the names of what he composed, and from it Ibn al-Nadim transmits the arrangement of Plato's books and the titles of his discourses. {cite:fihrist-ibn-al-nadim p. 349}

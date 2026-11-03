@@ -2,10 +2,7 @@
 id: person/qusta-ibn-luqa
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 21"]
 ---
-
 ## Overview
-Qusta ibn Luqa al-Ba'labakki, a translator. Ibn al-Nadim reports that he ought to have been preferred over Hunayn for his merit, and that he brought something from the land of the Romans, which he translated and which was translated for him {cite:fihrist-ibn-al-nadim p.340}.
-
-No other details are recorded here; an additional source is needed.
+Qusta ibn Luqa al-Ba'albakki, among the translators; Ibn al-Nadim says he ought to have been placed before Hunayn for his excellence — he brought material from Byzantine lands and translated it, and had works translated for him. {cite:fihrist-ibn-al-nadim p. 409}
