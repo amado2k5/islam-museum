@@ -45,3 +45,11 @@ Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Wr
 **Leads (skipped):** `al-mutalammis` (al-A'lam entry body empty in this Shamela edition — header and dates only), `al-mutasim` (false match: the «المعتصم» entry is Zakariya b. Ibrahim al-Mu'tasim bi'llah, the Cairo Abbasid caliph d. after 791h — not the famous al-Mu'tasim of the record). Remaining exact-match tail: `yunus-ibn-abd-al-rahman` (v8 p261 — Imami jurist d. 208h/823CE, matches record's death year in CE), `zayn-al-din-al-amidi` (v4 p257 — verified same person, the Amidi inventor of huruf tariza).
 
 **Lane total: 150.**
+
+### Batch 7 (3 Nov 2026, 8 records, ar+en+ur) — al-A'lam tail + first Shadharat cohort
+
+Sources: al-A'lam — yunus-ibn-abd-al-rahman (v8 p261), zayn-al-din-al-amidi (v4 p257), abbas-ibn-muhammad (v3 p264), abd-al-ghafur-al-kardari (v4 p32), abd-al-rahim-ibn-al-ukhuwa (v3 p343). Shadharat al-dhahab (Ibn al-'Imad, OpenITI Sham30K0012398) — ibn-al-qaisarani (v11 p732), ibn-khatib-darayya (v8 p120), najm-al-din-al-kubra (v7 p140). cite-check 8/8; validate 0 errors; tests pass; coverage regenerated. **Al-A'lam exact-match cohort exhausted; ~40 fuzzy candidates vetted and rejected as false matches** (same-name-different-person: aban-al-ahmar, abbas-al-musawi, abd-al-aziz-*, abd-al-baqi-*, abd-al-karim-*, abd-al-majid-*, abd-al-qadir-*, abd-al-rahim-anbaran, etc.).
+
+**Leads added this batch:** `abd-al-basit-al-malati` (shadharat «الملطي» is Surayja b. Muhammad al-Barudi — different person), `abdallah-ibn-muhammad-al-shinshawri` (shadharat entry is Abd Allah b. Ahmad al-Shinshawri — patronymic differs, needs another source). shadharat cohort continues (~35 candidates in /tmp/shad.txt, many hit editor's introduction or neighbouring obituaries — vet by year heading).
+
+**Lane total: 158.**
