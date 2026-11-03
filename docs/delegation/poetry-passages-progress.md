@@ -69,3 +69,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 20 (Barquqi Hassan diwan, pp. 55-57): satire verses on Madhhij (2), Safwan ibn Umayya (2), Hudhayl (3), Muzayna (3) = 10 passages, 4 new works; metre as stated in the edition.
 - PR 21 (Barquqi Hassan diwan, p. 80): Hassan's Badr poem (4 bayts; one further bayt skipped as not legible with confidence).
 - PR 22: corrected one word in the Badr poem bayt 4 (matches the scan).
+- PR 23 (Zawzani 1921): `muallaqat-zuhayr` (11 bayts, pp. 76-81) and `muallaqat-al-harith-ibn-hilliza` (5 bayts, pp. 163-168; ref 3 omitted as incomplete on the scan), with new person records `zuhayr-ibn-abi-sulma` and `al-harith-ibn-hilliza-al-yashkuri`. All seven Mu'allaqat except Imru' al-Qays's remainder and al-A'sha's (not among the seven in this edition's order) are now covered.
