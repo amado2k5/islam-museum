@@ -22,7 +22,7 @@ It does not own `scripts/time-browser-media*` (Devin's image and map inventory) 
 |---|---|---|
 | TB0 | Lane doc, log path, file counts, Pages vs R2 question | in progress (docs only) |
 | TB1 | `scripts/time-browser.ts` builds records and per-topic JSON from `.cache/graph.json`; schema; tests; no UI | not started |
-| TB2 | Wire Devin's media index; build fails on a missing media id; no image creation here | not started |
+| TB2 | Wire Devin's media index; build fails on a missing media id; local Explorer image generation remains a separate predeployment pipeline | not started |
 | TB3 | Static pages, no-JS list version, Pagefind limited to time-browser records, i18n ar/en/ur, axe and lychee | not started |
 | TB4 | Vanilla TypeScript timeline, keyboard, search, JS ≤ 20 KB gzipped | not started |
 | TB5 | Entry points: landing button, "time-browse this" on entity pages, "what we offer" page | not started |
@@ -66,13 +66,15 @@ Append one line per merged PR, newest last:
 - 2026-10-29 PR #2519 root data files (sitemaps, feed, llms, search synonyms, favicons) published to R2; this changes the Worker and workflow and needs a founder deploy.
 - 2026-10-29 PR #2520 twelve person stories, 49 subjects in all; PR #2521 (69 backdrops) and #2522 (27 backdrops) merged after the people check.
 - 2026-10-29 image queues on the founder's Mac: 113 backdrops for the 12 new stories, then 21 redo images; each batch is checked and shipped in its own PR; rules in EXPLORER-STORY-PIPELINE.md section 3a.
+- 2026-11-03 Copilot wired five sourced place stories (Tabuk, Khaybar, Badr, Harran and Rayy), reusing 40 linked graph events. Added missing source/provenance metadata to four existing place records; no event facts or relations changed. Public Explorer build and citation checks pass. Images and browser verification remain pending until the active Cursor queue finishes.
+- 2026-11-03 Copilot follow-up: completed 32 localized media records (64 adult/kids variants, 63 new files and one reused Battle of Ray adult image), screened all variants, and verified all five stories in Arabic, English and Urdu, including backdrop switching. `npm run validate`, `npm test` and `npm run build` pass; 158,072 pages checked with 0 errors and 2 unrelated warnings. PR #3301.
 
 ## Revision after the TimelineThis review (27 Oct 2026)
 
 Source: the two original TimelineThis specifications, the live builds, the two demo videos, and the Muse analysis. We keep the stage (topic-first entry, a bottom strip, a central card, a sidebar of people, conflicts and culture, per-era theme). We drop the runtime generator, and we fix the UX faults found in the review.
 
 **Hard rules (unchanged, restated)**
-- No runtime AI: no model call, no AI prompt box, no "Ask AI", no AI chat in the UI, no generated images. The Time Browser only reads prepared records.
+- No runtime AI: no model call, no AI prompt box, no "Ask AI", no AI chat in the UI, and no images generated at runtime. Prepared, locally generated Explorer backdrops may be served as static assets; the Time Browser only reads prepared records.
 - Search covers prepared records only. Anything else shows "not in the Time Browser yet", and never a raw error.
 
 **Changes to the design**
