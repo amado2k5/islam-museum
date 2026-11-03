@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ملحم الشهابي"
   en: "Mulhim al-Shihabi"
-roles: [amir]
+roles: [emir, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لملحم الشهابي، من أمراء الشهابيين في جبل لبنان القرن الثامن عشر، توفي سنة ١٧٥٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mulhim al-Shihabi, an eighteenth-century Shihabi emir of Mount Lebanon, d. 1759; the biographical entry is not yet checked on the page."
+  ar: "ملحم بن حيدر الشهابي، فاضل شاعر من أمراء الشهابيين بلبنان ومدير ناحية الشوف؛ توفي سنة 1296هـ (1879م)."
+  en: "Mulhim al-Shihabi (1820–1879), Lebanese Shihabi prince, scholar and director of the Shuf."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q50858384
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.287)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

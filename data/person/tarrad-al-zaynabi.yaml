@@ -3,11 +3,11 @@ class: person
 label:
   ar: "طراد الزينبي"
   en: "Tarrad al-Zaynabi"
-roles: [writer]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لطراد الزينبي، كاتب القرن الحادي عشر، توفي سنة ١٠٩٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Tarrad al-Zaynabi, the eleventh-century writer, d. 1098; the biographical entry is not yet checked on the page."
+  ar: "طراد الزينبي الهاشمي العباسي، نقيب النقباء ومسند العراق في عصره، ولي نقابة العباسيين بالبصرة؛ توفي سنة 491هـ (1098م)."
+  en: "Tarrad al-Zaynabi (1008–1098), chief naqib and musnid of Iraq, niqaba of the Abbasids at Basra."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q124498884
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0059
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.224)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
