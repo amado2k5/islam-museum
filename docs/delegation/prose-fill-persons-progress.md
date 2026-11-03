@@ -155,3 +155,11 @@ Written: arius-al-rumi, ibn-rizam, abu-shakir-al-daysani, abu-yaqub-al-sijistani
 Written: qusta-ibn-luqa, mashaallah, yahya-ibn-muadh-al-razi, umar-ibn-al-farrukhan, maria-al-hakima, ibrahim-ibn-ghiyath-al-qadi, ishaq-ibn-bishr, ghulam-khalil, abu-talib-al-zayyat, salmawayh-ibn-bunan, thaun-al-falatuni, muhammad-ibn-al-saib-al-kalbi. cite-check 12/12; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 260.** Fihrist thin cluster effectively exhausted — remaining ~30 rows carry one-line entries → leads. Next: muntazam, tabari (33), muruj (31), ansab, tabaqat.
+
+### Batch 22 (3 Nov 2026, 8 records, ar+en+ur) — Fihrist cluster closed
+
+Written: khusraw-al-arzmaqan, ibn-nafis-al-dai, janji-al-jukhani, al-dabili, abu-hashim-ibn-al-hanafiyya, uthman-al-tawil, mansur-al-majjab, mualla-ibn-mansur. cite-check 8/8; validate 0 errors; 317 tests; coverage regenerated.
+
+Leads logged (fihrist one-liner entries, no publishable biography; ~28): abdallah-ibn-abd-al-hakam, abd-al-masih-ibn-naima, abu-isa-ibn-lawi, al-haym-ibn-al-haym, al-sayrafi-al-hilali, ali-ibn-dawud, ali-ibn-ismail-al-tammar, asaf-ibn-barkhiya, babak-ibn-bahram, fastaqa, hafs-ibn-ashim, hilal-al-himsi, ibn-hamdan-al-dai, ibrahim-ibn-ishaq-al-ibadi, ishaq-ibn-al-mutadim, jabal-ibn-yazid, jamasp, maliha-al-khulani, muhammad-ibn-hajar, nasr-al-qushuri, niyulaus, salam-al-abrash, salih-al-naji, ubayd-al-kayyis, ulumbyudurus, ustath, waqid-ibn-amr, yahya-ibn-zakariya-ibn-abi-zaida.
+
+**Lane total: 268.** Fihrist thin cluster fully closed (68 written). Muntazam thin rows carry source/muntazam-ibn-al-jawzi in the queue (no yaml cite) — next batch probes them against extracted/muntazam/muntazam.txt.
