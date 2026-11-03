@@ -1,0 +1,44 @@
+id: person/sharif-finch
+class: person
+label:
+  ar: "شريف فينش"
+  en: "Sharif Finch"
+  ur: "شریف فنچ"
+names:
+  - { value: "Sharif Jarel Gregory Wayne Finch", kind: full }
+  - { value: "شريف فينش", kind: full }
+gender: male
+born:
+  edtf: "1995-10-01"
+  hijri: "1416"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 1 October 1995 in Queens, New York City: the English and Arabic articles and Wikidata agree on the day. Queens has no place entity, so the fact is carried here and no born_in edge is written. The Hijri year 1416 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-sharif-finch-en, source/wikipedia-sharif-finch-ar, source/wikidata-sharif-finch]
+roles: [athlete]
+regions: [americas-oceania]
+wings: [people, living]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source attests Islam for Finch, and Wikidata carries no religion value; his place in this queue appears to rest on his name alone. The one detailed faith profile — TAB Media's The Alabama Baptist, 5 September 2020 — documents Christian practice in his own words and habits: reading the Bible daily, in church all his life, attending team Bible studies, and prayer addressed to 'the Lord'; the Tennessee Titans' own site independently records his professed reliance on God and prayer without naming a faith. The Christian reading thus rests on a single journalistic family and does not meet the lane's two-source bar. Held at unknown, FLAGGED for a founder ruling: if the TAB Media profile is accepted as documentation, the settlement becomes christian/documented; nothing in any source read supports a Muslim reading."
+    sources: [source/alabama-baptist-finch-2020, source/wikidata-sharif-finch, source/wikipedia-sharif-finch-en]
+summary:
+  ar: "لاعب كرة قدم أمريكية (وُلد سنة 1995) من كوينز في نيويورك، لعب 53 مباراة مع فريق جامعة تمبل — معادلاً الرقم القياسي في تاريخ الجامعة — ووصل إلى دوري NFL وكيلاً حراً غير مختار في الدرافت مع تينيسي تايتنز سنة 2018، ثم تنقّل بين فرق عدة في الدوري ولعب في XFL وكندا."
+  en: "American football defensive lineman (born 1995) from Queens, New York City, who played a Temple-record-tying 53 games for the Owls and reached the NFL as an undrafted free agent with the Tennessee Titans in 2018, later passing through several NFL rosters, the XFL's Seattle Sea Dragons and the CFL's Calgary Stampeders."
+  ur: "امریکی فٹ بال کھلاڑی (پیدائش 1995) جن کا تعلق کوئینز، نیویارک سے ہے؛ ٹیمپل یونیورسٹی کے لیے ریکارڈ کے برابر 53 میچ کھیلے اور 2018ء میں ٹینیسی ٹائٹنز کے ساتھ غیر منتخب آزاد ایجنٹ کے طور پر NFL تک پہنچے۔"
+sources:
+  - source/wikipedia-sharif-finch-en
+  - source/wikipedia-sharif-finch-ar
+  - source/wikidata-sharif-finch
+  - source/alabama-baptist-finch-2020
+external_ids:
+  wikidata: Q56223987
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Sharif Finch, the Wikidata item Q56223987 and the TAB Media (The Alabama Baptist) faith profile of 5 September 2020, all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Temple linebacker and defensive lineman born in Queens in 1995. Existence checks by name fragments (finch) and by QID across data/person on origin/main found no prior record, and no Arabic-label collision requiring a homonyms entry. The queue's year (1995, living) is confirmed to the day. Relations written: none — Queens has no place entity. Living-person care: only well-sourced public facts are recorded; the faith entry records, and does not resolve, the gap between his queue placement and the documented reporting."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
