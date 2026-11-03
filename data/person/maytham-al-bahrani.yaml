@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ميثم البحراني"
   en: "Maytham al-Bahrani"
-roles: [scholar]
+roles: [jurist, theologian]
 gender: male
 summary:
-  ar: "بطاقة أولية لكمال الدين ميثم البحراني، عالم البحرين القرن الثالث عشر، توفي سنة ١٣٠٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Kamal al-Din Maytham al-Bahrani, the thirteenth-century theologian of Bahrain, d. 1300; the biographical entry is not yet checked on the page."
+  ar: "ميثم البحراني كمال الدين، عالم بالكلام والأدب من فقهاء الإمامية، صاحب «استقصاء النظر»؛ توفي بعد 681هـ (1282م)."
+  en: "Maytham al-Bahrani (d. after 681/1282), Imami jurist and mutakallim of Bahrayn, author of Istiqsa' al-Nazar."
 wings: [people]
 regions: [arabia]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q97258688
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.335)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

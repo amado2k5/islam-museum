@@ -24,4 +24,8 @@ Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Wr
 
 **Leads (false header matches, skipped):** `ibn-al-mawwaz` (record is the 9th-c Egyptian Maliki d. 882; the al-A'lam «ابن المواز» entry is a 19th-c Moroccan qadi of Marrakesh — different person), `ibn-faraj-historian` (record is a historian d. 1602; the al-A'lam entry is Isma'il b. Faraj al-Mawsili, lawyer d. 1948), `ibn-tunart` (record is Ibn Tumart the Almohad mahdi; the al-A'lam entry is Muhammad b. Ali b. Tumart, Andalusi Maliki physician d. 1001 — different person).
 
-**Lane total: 75.**
+### Batch 4 (3 Nov 2026, 25 records, ar+en+ur) — al-A'lam links-1 cohort, continued
+
+Source: al-Zirikli, al-A'lam, OpenITI 2025.1.9 Shamela text (vol/page cited). Written: ibn-iyas (v6 p4), ibn-jirjis (v2 p332), ibn-kannan (v6 p323), ibn-khalawayh (v2 p230), ibn-mahrayazd (v6 p276), ibn-qadi-al-jabal (v1 p111), ibn-qani-al-baghwi (v4 p119), ibn-shabib (v1 p319), ibn-tahman (v1 p44), ibn-zarqun (v6 p138), ibn-zilaq (v8 p259), ibn-zunbul (v1 p179), ibrahim-al-khawwas (v1 p28), ikrima-al-barbari (v4 p244), isa-ibn-aban (v5 p99), jafar-al-khatti (v2 p128), jahm-ibn-safwan (v2 p141 — jarh attributed to al-Dhahabi/al-Zirikli), kamal-al-din-al-ghazzi (v7 p70), madyan-al-qusuni (v7 p197), maghlatay-ibn-qalij (v7 p275), mahmud-kabadu (v7 p184), mari-al-karmi (v7 p203), maytham-al-bahrani (v7 p335), maytham-al-tammar (v7 p336), mehdi-al-khalissi (v7 p312). Roles corrected per book. No new leads this batch.
+
+**Lane total: 100.**

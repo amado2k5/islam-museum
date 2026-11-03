@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن شبيب"
   en: "Ibn Shabib"
-roles: [scholar]
+roles: [writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن شبيب؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Shabib; the entry is not yet checked on the page."
+  ar: "إسماعيل ابن شبيب العطار، أديب مصري رومي الأصل بارع في العقاقير؛ توفي بالقاهرة سنة 606هـ (1209م)."
+  en: "Isma'il Ibn Shabib al-'Attar (1156–1209), Egyptian littérateur skilled in simples, died at Cairo."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q117198155
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.319)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  run: prose-fill-persons-batch4
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
