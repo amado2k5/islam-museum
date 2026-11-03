@@ -80,3 +80,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 31 (Mufaddaliyyat 1926): Alqama ibn Abada (5, p. 187) and Salama ibn Jandal (1, p. 46) with new person records (6 passages).
 - PR 32 (Mutanabbi, Dar Beirut 1983): six odes, 25 passages: bad-rzaya-wa-ataya (4, p. 143), kull-aziz-lil-amir-dhalil (4, p. 355), arafatuka-wal-sufuf (5, p. 309), aqbal-al-yamin (4, p. 419), ma-sadakat-illa-bi-mawrud (4, p. 293), kathir-hayat-al-mar (4, p. 225).
 - PR 33: new source `source/hamasa-abu-tammam-ed-1916` (archive.org AAlexandrina-206563; OCR in progress on the drive; 792 pages) and `hamasa-al-samawal-idha-al-mar-lam-yudannis` (5 bayts, pp. 26-27).
+- PR 34 (Hamasa 1916): Qurayt ibn Unayf's opening poem (6 bayts, pp. 6-7) with new person record.
