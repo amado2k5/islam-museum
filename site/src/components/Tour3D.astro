@@ -69,7 +69,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTit
       <div id="brand">🏛️ {t.brand_name}<small id="wingLabel">{t.hall_sub}</small></div>
       <div id="topBtns">
         <button type="button" id="mapBtn" aria-haspopup="dialog" aria-controls="mapPanel">{t.map_button}</button>
-        <button type="button" id="lookBtn" aria-pressed="false">{t.look_day}</button>
+        <button type="button" id="lookBtn" aria-pressed="false" title={t.look_hint}>{t.look_day}</button>
         <button type="button" id="helpBtn" aria-haspopup="dialog" aria-controls="helpPanel">{t.help_button}</button>
         <button type="button" id="journeyBtn" aria-label={t.journey_button}>{t.journey_button}</button>
         <button type="button" id="exitBtn" aria-label={t.exit_button}>{t.exit_button}</button>
@@ -110,6 +110,7 @@ const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTit
   </div>
 
   <div id="journeyCard" role="dialog" aria-live="polite" aria-labelledby="jTitle">
+    <button type="button" id="jDismiss" class="j-dismiss" aria-label={t.jp_close} title={t.jp_close}>×</button>
     <h2 id="jTitle"></h2><div class="jsub" id="jSub"></div><div id="jLines"></div>
     <button type="button" id="jBack">{t.jc_back}</button>
   </div>
@@ -571,19 +572,39 @@ body.touch #tour3d-root #hint { bottom: 214px; }
 #tour3d-root #journeyCard {
   position: absolute; z-index: 30; top: 110px; right: 50%;
   transform: translateX(50%) translateY(-12px);
-  width: min(460px, calc(100vw - 32px));
+  width: min(460px, calc(100vw - 32px)); max-height: 52vh; overflow-y: auto;
   background: rgba(10,17,32,.92);
   border: 1.5px solid rgba(212,160,23,.6); border-radius: 16px;
   padding: 16px 20px; color: #eef2fb;
   opacity: 0; pointer-events: none; transition: opacity .4s, transform .4s;
 }
 #tour3d-root #journeyCard.show { opacity: 1; pointer-events: auto; transform: translateX(50%) translateY(0); }
-#tour3d-root #journeyCard h2 { color: #f5d67b; font-size: 1.15rem; margin: 0; }
+#tour3d-root #journeyCard h2 { color: #f5d67b; font-size: 1.15rem; margin: 0; padding-inline-end: 34px; }
 #tour3d-root #journeyCard .jsub { color: #aeb9d4; font-size: .8rem; margin-bottom: 8px; }
 #tour3d-root #journeyCard p { font-size: .92rem; line-height: 2; color: #dbe4f5; margin: 0 0 6px; }
-#tour3d-root #journeyCard button {
-  margin-top: 10px; width: 100%; background: #d4a017; color: #1a1206; border: none;
-  border-radius: 12px; padding: 10px; font-weight: 800; cursor: pointer;
+#tour3d-root #journeyCard #jBack {
+  margin-top: 10px; background: #d4a017; color: #1a1206; border: none;
+  border-radius: 12px; padding: 10px 16px; font-weight: 800; cursor: pointer;
+  display: block; margin-inline-start: auto;
+}
+#tour3d-root #journeyCard .j-dismiss {
+  position: absolute; top: 8px; inset-inline-end: 8px;
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1.5px solid #d4a017; background: rgba(10,18,34,.8); color: #f5d67b;
+  font-size: 1.1rem; font-weight: 800; cursor: pointer; line-height: 1;
+}
+#tour3d-root[data-look="day"] #journeyCard .j-dismiss { background: #fffaf0; color: #5a3d0c; border-color: #a8741a; }
+/* Small screens: the card sits at the bottom so it never covers the scene's
+   centre, and the dismiss + back controls stay in thumb reach. */
+@media (max-width: 480px) {
+  #tour3d-root #journeyCard {
+    top: auto; bottom: 150px; max-height: 40vh;
+    transform: translateX(50%) translateY(12px);
+  }
+  #tour3d-root #journeyCard.show { transform: translateX(50%) translateY(0); }
+  /* The wrapped topbar is about 100px tall; the location line sits under it. */
+  #tour3d-root #loc { top: 104px; }
+  #tour3d-root #toast { top: 140px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
