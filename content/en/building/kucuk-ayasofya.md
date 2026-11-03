@@ -6,7 +6,7 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 
 ## Overview
-The Kucuk Ayasofya Mosque was the Byzantine church of Saints Sergius and Bacchus, erected by Justinian shortly before Haghia Sophia and converted into a mosque after the Ottoman conquest; its octagon-inscribed-in-square plan was a prototype for Ottoman mosque plans {cite:freely-ottoman-architecture-2011}.
+Küçük Aya Sofya Camii was originally the Byzantine church of Saints Sergius and Bacchus, erected by Justinian shortly before he began work on Haghia Sophia; after the conquest it was converted into a mosque — an inscription records the conversion in 1503 by Hüseyin Ağa, kapıağası (chief white eunuch) under Bayezit II {cite:freely-ottoman-architecture-2011 pp.206-207}.
 
-## In the sources
-Freely sees the inscribed polygon covered by a dome — prototyped by Saints Sergius and Bacchus — as the ancestor of the Ottoman mosque plan {cite:freely-ottoman-architecture-2011}.
+## Architecture
+Freely takes the church's plan — an octagon inscribed within a square or rectangular area covered by a dome — as the prototype for a whole family of Ottoman mosque plans {cite:freely-ottoman-architecture-2011 p.22}.
