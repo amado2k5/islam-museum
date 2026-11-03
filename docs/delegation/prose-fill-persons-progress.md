@@ -93,3 +93,19 @@ Source: al-Sallabi, al-Dawla al-Uthmaniyya, OCR `books/tareekh/dawlat-uthmaniyya
 **Leads (sallabi, incidental hits only):** ahmad-mukhtar-pasha (2 passing mentions), mesih-pasha (1 line), rustam-pasha (1 line), bayezid-pasha (1 line), molla-muhyiddin (anecdote, no biography). ~318 further cluster rows have no full-label OCR hit — most are non-Ottoman figures or variant spellings; continuing vetting in next batches.
 
 **Lane total: 186.**
+
+### Batch 13 (3 Nov 2026, 2 records, ar+en+ur) — Sallabi loose-probe cohort
+
+Loose normalized probing (partial names/nisbas) over the Sallabi OCR surfaced dedicated sections for: hasan-pasha-al-jazairi (المبحث السادس p.230-231, 249 — Algiers governor, Sa'di defeat at Tlemcen 959h, arrested by Janissaries 969h, fleet commander 975h) and urban-cannon-founder (p.92,104 — the Hungarian founder of the Sultan's cannon, killed when it burst). Both published at completeness 3. cite-check 2/2; validate 0 errors; tests pass; coverage regenerated.
+
+**Leads (loose probe, hits were tables/incidental/other persons):** ahmad-ibn-bayazid (only a refugee-prince mention in the Mamluk-annexation narrative p.184), cigalazade-sinan-pasha / hafiz-ahmed-pasha / hezarpare-ahmed-pasha (tail-token counts were false positives on generic tokens), innocent-viii, alexander-vi, fatma-sultan-murad-ii (token matches, no own passage). ~300 rows still have zero normalized hits — predominantly non-Ottoman or transliteration-mismatched; the cluster is effectively exhausted for cheap wins; remaining effort shifts to kamil-ibn-al-athir then thin files.
+
+**Lane total: 188.**
+
+### Batch 14 (3 Nov 2026, 8 records, ar+en+ur) — Kamil ibn al-Athir cohort
+
+Source: Ibn al-Athir, al-Kamil fi'l-Tarikh, OpenITI extraction `extracted/kamil/kamil.txt` (annalistic; strict biographical-passage vetting — dedicated `ذكر` sections and extended person narratives only). Written: bakjur (v.7 p.371-372, Aleppo/Homs/Damascus), qutb-al-din-mawdud (v.9 p.437 + v.10 p.24-25 death notice, Mosul), al-mamun-al-bataihi (v.9 p.224-225, Fatimid vizier crucified 519h), ali-ibn-yahya-al-armani (v.5, Abbasid commander), manjutakin (v.7 p.455-456, Aleppo siege vs Basil II), ibrahim-al-imam (v.4, head of the Abbasid da'wa), damian-of-tarsus (v.5, Tarsus fleet burning 285h), abu-rawka (v.8 p.43-44, Umayyad pretender vs al-Hakim). cite-check 8/8; validate 0 errors; tests pass; coverage regenerated.
+
+**Leads (kamil):** sulayman-shah-ii-rum (Kamil's سليمان شاه is the Great-Seljuk Sulayman Shah b. Muhammad b. Malikshah d.556h — different person), rashid-al-din-sinan, baba-ishaq, nogai-khan, azjur-al-turki, buraq-hajib, ahmad-ibn-muzahim, khalid-ibn-yazid-al-shaybani, leo-of-tripoli (no hits / generic-token collisions), abu-tahir-al-saigh (hits are the common word «الصائغ»), al-husayn-ibn-nasir-al-dawla + iftikhar-al-dawla + badr-al-mutadidi + habib-ibn-muzahir + al-sayyida-al-muizziyya + al-numan-ibn-muqrin + al-mutasim + ali-al-rida + abdallah-ibn-hamdan-al-taghlibi + ibrahim-ibn-hamdan-al-taghlibi + abdallah-ibn-ubayd-allah-al-husayni + nur-al-din-muhammad-ii-nizari + saljuq-ibn-duqaq + abdullah-ibn-amr-ibn-ghaylan + ahmad-ibn-kayghalagh + sulayman-ibn-abdallah-ibn-tahir + sharhabil-ibn-hasana + al-hasan-ibn-makhlad (scattered annalistic one-liners or token collisions, no person-specific passage). Kamil cluster effectively exhausted.
+
+**Lane total: 196.** Next: thin (<800B) person files bottom-up.
