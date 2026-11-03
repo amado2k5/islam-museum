@@ -13,15 +13,15 @@ periods: [period/mongol-post-mongol]
 built: { edtf: "1452", calendar: julian, precision: year, status: tradition, derived: true, note: "بُنيت قبيل فتح القسطنطينية 857هـ/1453م؛ السنة الميلادية مشتقة {cite:dawlat-uthmaniyya-salabi p. 92}", sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: located_in, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/goodwin-ottoman-architecture-1971, source/dawlat-uthmaniyya-salabi]
+sources: [source/goodwin-ottoman-architecture-1971, source/dawlat-uthmaniyya-salabi, source/freely-ottoman-architecture-2011]
 external_ids:
   wikidata: Q90801
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 92"
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 92; prose-fill-buildings batch1: Freely 2011 read on harvest OCR, printed pp. 104-105"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   model: "SWE-2 Medium"
   run: lib-salabi-uthmani-batch-5
 status:
-  review: draft
-  completeness: 2
+  review: published
+  completeness: 3
