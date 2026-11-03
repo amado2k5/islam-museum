@@ -3,11 +3,11 @@ class: person
 label:
   ar: "الشمني"
   en: "al-Shamunni"
-roles: [scholar]
+roles: [muhaddith, grammarian]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن محمد الشمني، مهندس ومحدث القرن الخامس عشر، توفي سنة ١٤٦٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Muhammad al-Shamunni, the fifteenth-century engineer and muhaddith, d. 1467; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد الشمني، محدث ومفسر ونحوي إسكندري الأصل قسنطيني، توفي بالقاهرة سنة 872هـ (1468م)."
+  en: "Ahmad al-Shamunni (1399–1468), Alexandrian hadith scholar, mufassir and grammarian of Constantine origin."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q28713188
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0061
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.229)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

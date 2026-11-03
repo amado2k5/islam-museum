@@ -6,8 +6,8 @@ label:
 roles: [jurist, qadi, calligrapher]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسين العشاري، الفقيه والقاضي والخطاط العراقي، توفي سنة ١٧٨١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Husayn al-Ushari, the Iraqi jurist, qadi and calligrapher, d. 1781; the biographical entry is not yet checked on the page."
+  ar: "حسين بن علي العشاري، فقيه أصولي وشاعر وخطاط بغدادي لُقّب بالشافعي الصغير، درّس بالبصرة؛ توفي سنة 1195هـ (1781م)."
+  en: "Husayn al-'Ushari (1737–1781), Baghdadi usuli jurist, poet and fine copyist called the little Shafi'i."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q56762374
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0084
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.247)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary
