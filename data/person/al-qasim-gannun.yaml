@@ -3,11 +3,11 @@ class: person
 label:
   ar: "القاسم كنون"
   en: "al-Qasim Gannun"
-roles: [ruler]
+roles: [emir]
 gender: male
 summary:
-  ar: "بطاقة أولية للقاسم بن محمد كنون الإدريسي، أمير الأدارسة في المغرب الأقصى من سنة ٩٣٧م إلى ٩٤٨م الذي ثار على الفاطميين؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Qasim ibn Muhammad Gannun, the Idrisid emir in Far Morocco from 937 to 948 who rebelled against the Fatimids; the dynastic handbook entry is not yet checked on the page."
+  ar: "القاسم بن محمد «كنون»، من بقايا أمراء الأدارسة بالمغرب الأقصى، مقيم قلعة حجر النسر؛ توفي سنة 337هـ (948م)."
+  en: "Al-Qasim “Gannun” (d. 337/948), Idrisid amir of Hajar al-Nasr in Morocco."
 wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q2829268
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0022
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.181)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

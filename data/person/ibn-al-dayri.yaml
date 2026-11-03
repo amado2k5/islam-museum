@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن الديري"
   en: "Ibn al-Dayri"
-roles: [qadi, poet]
+roles: [qadi, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن الديري، فقيه وقاضٍ وشاعر مقدسي القرن الخامس عشر، توفي سنة ١٤٦٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn al-Dayri, the fifteenth-century Jerusalemite jurist, judge and poet, d. 1462; the source entry is not yet checked on the page."
+  ar: "سعد الدين «ابن الديري»، قاضي الحنفية بمصر خمساً وعشرين سنة وجد الأسرة الخالدية؛ توفي سنة 867هـ (1463م)."
+  en: "Sa'd al-Din “Ibn al-Dayri” (1367–1463), Hanafi chief qadi of Egypt, forefather of the Khalidiyya family."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q107246101
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0075
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.87)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: secondary
