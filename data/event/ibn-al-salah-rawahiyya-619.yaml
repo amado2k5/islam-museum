@@ -1,0 +1,29 @@
+id: event/ibn-al-salah-rawahiyya-619
+class: event
+kind: other
+label:
+  ar: "تخريب أسوار القدس ينقل ابن الصلاح إلى دمشق: تدريس الرواحية، نحو ٦١٩هـ"
+  en: "The demolition of Jerusalem's walls brings Ibn al-Salah to Damascus: the Rawahiyya post, c. 619"
+  ur: "قدس کی دیواروں کا مسمار ابن الصلاح کو دمشق لے آیا: رواحیہ کی تدریس، تقریباً 619ھ"
+summary:
+  ar: "فلما خرّب الملك المعظم أسوار القدس قدِم ابن الصلاح دمشق ووُلي تدريس الرواحية {cite:tarikh-islam-dhahabi p. 186}؛ وكان هدم السور في أول المحرم سنة ست عشرة فخرج الناس هاربين بعضهم إلى دمشق {cite:shadharat-dhahab p. 65-66}، واستقر ابن الصلاح فيها بقية عمره يدرّس بالرواحية ثم بالأشرفية والشامية {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "When al-Malik al-Mu'azzam had Jerusalem's walls demolished, Ibn al-Salah came to Damascus and was given the teaching post of the Rawahiyya {cite:tarikh-islam-dhahabi p. 186}. The demolition began on the first day of Muharram 616; the people fled, some to Damascus {cite:shadharat-dhahab p. 65-66}, and Ibn al-Salah settled there for the rest of his life, teaching at the Rawahiyya, then the Ashrafiyya and the Shamiyya {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "جب ملک المعظم نے قدس کی دیواریں مسمار کروائیں تو ابن الصلاح دمشق آئے اور انہیں رواحیہ کی تدریس سونپی گئی {cite:tarikh-islam-dhahabi p. 186}۔ مسماری محرم 616ھ کے پہلے دن شروع ہوئی؛ لوگ بھاگ نکلے، بعض دمشق کی طرف {cite:shadharat-dhahab p. 65-66}، اور ابن الصلاح وہیں باقی عمر رہے، رواحیہ، پھر اشرفیہ اور شامیہ میں پڑھاتے رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1222~", hijri: "0619~", calendar: julian, precision: year, status: tradition, derived: true, note: "لما خرّب المعظم أسوار القدس قدم دمشق وولي تدريس الرواحية {cite:tarikh-islam-dhahabi p. 186}؛ الهدم أول المحرم ٦١٦هـ {cite:shadharat-dhahab p. 65}؛ تقريبي نحو ٦١٩هـ؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/jerusalem, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "المدرّس المنقول", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-muazzam, role: "الآمر بتخريب أسوار القدس", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 186 (harvest OCR); Shadharat al-Dhahab s.a. 616 printed pp. 65-66 + s.a. 643 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

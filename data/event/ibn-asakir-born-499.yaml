@@ -1,0 +1,27 @@
+id: event/ibn-asakir-born-499
+class: event
+kind: birth
+label:
+  ar: "ولادة ابن عساكر بدمشق في مستهل سنة ٤٩٩هـ/١١٠٥م"
+  en: "Ibn 'Asakir is born in Damascus at the opening of 499/1105"
+  ur: "دمشق میں ابن عساکر کی پیدائش، 499ھ کے آغاز میں/1105ء"
+summary:
+  ar: "وُلد الحافظ أبو القاسم علي بن الحسن بن هبة الله الدمشقي المعروف بابن عساكر في مستهل سنة تسع وتسعين وأربعمائة {cite:tarikh-islam-dhahabi p. 71}، في دمشق في زمن الأتابك ظاهر الدين طغتكين، في بيت سني رفيع من بيوت العلم والقضاء آل عساكر الذين سادوا في دمشق نحو قرنين {cite:encyclopaedia-of-islam-2 vol. 3 p. 745}."
+  en: "The hafiz Abu al-Qasim 'Ali ibn al-Hasan ibn Hibat Allah al-Dimashqi, known as Ibn 'Asakir, was born at the opening of 499 (September-October 1105) {cite:tarikh-islam-dhahabi p. 71} at Damascus, under the atabeg Zahir al-Din Tughtakin, into the Banu 'Asakir — a great Sunni house of scholars and qadis that led the city's learned society for almost two centuries {cite:encyclopaedia-of-islam-2 vol. 3 p. 745}."
+  ur: "حافظ ابوالقاسم علی بن الحسن بن ہبۃ اللہ دمشقی، معروف بہ ابن عساکر، 499ھ کے آغاز (ستمبر–اکتوبر 1105ء) کو دمشق میں پیدا ہوئے {cite:tarikh-islam-dhahabi p. 71} — اتابک ظہیر الدین طغتکین کے زمانے میں، بنو عساکر کے سنی علمی و قضائی گھرانے میں جو تقریباً دو صدیوں تک شہر کے علمی معاشرے کی قیادت کرتا رہا {cite:encyclopaedia-of-islam-2 vol. 3 p. 745}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1105~", hijri: "0499", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في مستهل سنة تسع وتسعين وأربعمائة {cite:tarikh-islam-dhahabi p. 71}؛ opening of 499/Sept-Oct 1105 {cite:encyclopaedia-of-islam-2 vol. 3 p. 745}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed p. 71 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 745"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

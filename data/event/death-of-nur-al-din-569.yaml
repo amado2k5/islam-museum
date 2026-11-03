@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ibn-asakir, role: "الحاضر الشاهد", sources: [source/encyclopaedia-of-islam-2], note: "شهد وفاة نور الدين وحضر دخول صلاح الدين دمشق {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research
