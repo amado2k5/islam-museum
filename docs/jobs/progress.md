@@ -60,3 +60,9 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: Ali appointed a treasury official titled hazin, but the entry does not say Ali held the post himself, so no Ali occupation is written.
   - FLAG: the entry's bibliography was not read. The modern successors of the treasury in public finance are not covered.
   - Next step: the rest of Court & Administration, starting with `job/mufti` once the fatwa article is read.
+- **3 November 2026 — Governance & Law, batch 6: `job/mufti`.** One source entity read in full: `source/tdv-fetva` (Fahrettin Atar, vol. 12 pp. 486–496, Turkish; the web text was read in two passes). The record is in Arabic, English and Urdu. Fifteen person records take a `job/mufti` entry: Companions and Followers named by the entry as fatwa-givers (Ali, Umar, Abdullah ibn Masud, Abdullah ibn Umar, Abdullah ibn Abbas, Aisha, Abu Bakr, Uthman, Anas ibn Malik, Abu Hurayra, Abu al-Darda, Ubayy ibn Kab, Abu Dhar, Ibrahim al-Nakha'i), and Dursun Fakih of the Ottoman period. The Companions are episodic; Dursun Fakih is secondary.
+  - FLAG: `person/said-ibn-al-musayyab` is not updated, because his provenance block has no source and so does not pass cite-check. The gap predates this batch. The founder decides how to repair it.
+  - FLAG: the entry does not give dates for the Companions' fatwas, so their notes name the group and do not give dates.
+  - FLAG: the entry names Ibn Kemal and the Ottoman shaykh al-islam's office but does not name holders of the mufti post in the Ottoman provinces, so none is written.
+  - FLAG: the entry's bibliography was not read. The modern Diyanet position is taken from the entry's own summary.
+  - Next step: `job/sahib-al-barid` (postal and intelligence office) or `job/nazir-al-waqf`, after reading their DİA entries.
