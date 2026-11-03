@@ -1,0 +1,54 @@
+id: job/treasurer
+class: job
+label: { ar: "الخازن", en: "Treasurer (hazinedar)", ur: "خزانچی (ہزنیدار)" }
+summary:
+  ar: "الخازن هو الموظف المكلّف بحفظ المال العام أو خزانة الحاكم وصرفه وقيده. ويرجع المنصب إلى صدر الإسلام، حين كان النبي والصحابة يحفظون بيت المال ويوزعونه. وتطور في الدولة العباسية إلى خزانة خاصة للخليفة، ثم صار في الدولة المملوكية وظيفة من وظائف الأمراء العسكريين، وفي الدولة العثمانية إلى رئاسة خزانة القصر في الإنديرون."
+  en: "The treasurer was the official charged with keeping and paying out the public treasury or the ruler's private treasury, and with recording its goods. The office goes back to early Islam, when the Prophet and the Companions kept and distributed the public funds. Under the Abbasids a private treasury for the caliph was set up, and under the Mamluks the post became one of the military offices. In the Ottoman palace it became the chief treasurer of the Enderun."
+  ur: "خزانچی وہ اہلکار تھا جو سرکاری خزانے یا حاکم کے ذاتی خزانے کی حفاظت، ادائیگی اور اندراج کا ذمہ دار تھا۔ یہ منصب صدرِ اسلام سے ملتا ہے، جب نبی کریم اور صحابہ سرکاری مال محفوظ رکھتے اور تقسیم کرتے تھے۔ عباسیوں کے دور میں خلیفہ کا ذاتی خزانہ قائم ہوا، مملوکوں کے ہاں یہ فوجی عہدوں میں شامل ہو گیا، اور عثمانی دربار کے اندرونی حصے (اندرون) میں یہ خزانہ داروں کے سربراہ کا منصب بن گیا۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0637"
+    precision: decade
+    status: historical
+    note: "The entry reports that the Prophet described himself as a keeper and distributor of public funds, and that in 16 AH (637) Umar appointed treasurers among the Companions. The first named appointments are the widest range the entry supports."
+    sources: [source/tdv-hazinedar]
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "In the Prophet's time cash from the public treasury was kept in his house and crops in an upper room of the mosque, according to the entry."
+    sources: [source/tdv-hazinedar]
+  - place: place/kufa
+    note: "Abdullah ibn Masud held both the judgeship and the charge of the public treasury in Kufa under Umar, according to the entry."
+    sources: [source/tdv-hazinedar]
+  - place: place/baghdad
+    note: "Under al-Mansur (754–775) a private treasury for the caliph was set up. Under the Buyids Adud al-Dawla paid his treasurer in advance and gave him clothing, and a treasurer was appointed to the Adudi hospital."
+    sources: [source/tdv-hazinedar]
+  - place: place/damascus
+    note: "The deputy sultan of Damascus appointed four eunuch emirs to look after robes and gifts stored in the treasury, according to the entry."
+    sources: [source/tdv-hazinedar]
+  - place: place/cairo
+    note: "Under the Mamluks the treasurer was one of the military offices of the sultan's household, with a chief (amir hazindar) and three divisions: robes, jewels and alms."
+    sources: [source/tdv-hazinedar]
+  - place: place/istanbul
+    note: "In the Ottoman palace the chief treasurer (hazinedarbaşı) of the Enderun kept the inner treasury, the Bab-i Humayun and the robe stores."
+    sources: [source/tdv-hazinedar]
+regions: [arabia, levant-iraq, egypt-nile, andalus-europe, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "No licence was granted. Under the Great Seljuks the treasurer was chosen from men known for trust and piety. Under the Mamluks treasurers were taken from the sultan's own household and later from the emirs. In the Ottoman palace the chief treasurer was chosen from among the Has Odalilar."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-hazinedar]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HAZİNEDAR' (Erdoğan Merçil), vol. 17, pp. 141–143, Istanbul 1998; web edition read in full on 3 Nov 2026. Rewritten by Claude Code. Holders recorded from the entry's own account: Umar, Bilal ibn Rabah, Abu Ubayda ibn al-Jarrah and Muadh ibn Jabal were appointed treasurers, and Abdullah ibn Masud held the charge of the treasury in Kufa alongside the judgeship."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-ct03"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
