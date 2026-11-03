@@ -1,27 +1,40 @@
 id: person/ghiyath-al-din-tughluq
 class: person
-label:
-  ar: "غياث الدين تغلق"
-  en: "Ghiyath al-Din Tughluq"
+label: { ar: "غياث الدين تغلق", en: "Ghiyath al-Din Tughluq", ur: "غیاث الدین تغلق" }
 names:
-  - { kind: full, lang: ar, value: "غازي ملك غياث الدين تغلق" }
-roles: [sultan]
+  - { value: "غازي ملك", kind: full }
+  - { value: "Ghazi Malik", kind: full }
+  - { value: "غياث الدين تغلق شاه", kind: full }
 gender: male
 summary:
-  ar: "بطاقة أولية لغياث الدين تغلق، مؤسس الدولة التغلقية بسلطنة دلهي، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ghiyath al-Din Tughluq, founder of the Tughluq dynasty at Delhi, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "مؤسس الدولة التغلقية في سلطنة دلهي وأول سلاطينها (1320–1325). عُرف قبل اعتلائه العرش باسم غازي ملك، وذاع صيته في خدمة الخلجيين حاكمًا لملتان وديبالبور ومنازلًا للمغول على الحدود الشمالية الغربية، ثم أطاح بخسرو خان واعتلى عرش دلهي سنة 1320 وأسّس مدينة تغلق آباد، ومات سنة 1325 حين انهار عليه فسطاط خشبي أُعدّ لاستقباله في طريق عودته من البنغال."
+  en: "Founder of the Tughluq dynasty of the Delhi Sultanate and its first sultan (1320–1325). Known before his accession as Ghazi Malik, he rose in Khalji service as governor of Multan and Dipalpur and won renown fighting the Mongols on the north-west frontier. In 1320 he overthrew Khusrau Khan, took the throne of Delhi and founded the city of Tughluqabad. He died in 1325 when a wooden reception pavilion collapsed on him as he returned from Bengal."
+  ur: "سلطنتِ دہلی کے تغلق خاندان کے بانی اور اس کے پہلے سلطان (1320–1325)۔ تخت نشینی سے پہلے وہ غازی ملک کے نام سے مشہور تھے؛ خلجی خدمت میں ملتان اور دیپالپور کے گورنر کی حیثیت سے شہرت پائی اور شمال مغربی سرحد پر منگولوں سے لڑے۔ 1320 میں انھوں نے خسرو خان کو ہٹا کر دہلی کا تخت سنبھالا اور تغلق آباد کا شہر بسایا۔ 1325 میں بنگال سے واپسی پر استقبال کے لیے بنایا گیا لکڑی کا خیمہ گرنے سے ان کا انتقال ہوا۔"
+roles: [sultan]
 wings: [people]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/tarikh-islam-hasan-ibrahim]
-external_ids:
-  wikidata: Q1391172
+died:
+  edtf: "1325-02-01"
+  hijri: "0725"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article's lead and Wikidata give his death as 1 February 1325, when the wooden pavilion raised for his reception on the return from Bengal collapsed, killing him and his second son Mahmud Khan. The English article's body places the collapse at Kara-Manikpur; the Arabic article places it at Afghanpur and dates it to July 1325 (725 AH). Both readings are preserved. Ibn Battuta claimed the collapse was a conspiracy against him. No text read gives a birth year — Wikidata carries only c. 1250 at century precision — so no born block is written."
+  sources: [source/wikipedia-ghiyath-al-din-tughluq-en, source/wikipedia-ghiyath-al-din-tughluq-ar, source/wikidata-ghiyath-al-din-tughluq]
+relations:
+  - { type: predecessor_of, target: person/muhammad-ibn-tughluq, sources: [source/wikipedia-ghiyath-al-din-tughluq-en, source/wikipedia-ghiyath-al-din-tughluq-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a school or affiliation for the man himself. Amir Khusrau presents his campaign against Khusrau Khan as fought for 'the glory of Islam', which is a court poet's framing of a campaign, not an attestation of the man's own affiliation; Wikidata records only Islam, as structured data. Nothing further is recorded."
+    sources: [source/wikipedia-ghiyath-al-din-tughluq-en, source/wikidata-ghiyath-al-din-tughluq]
+external_ids: { wikidata: "Q1391172" }
+sources: [source/wikipedia-ghiyath-al-din-tughluq-en, source/wikipedia-ghiyath-al-din-tughluq-ar, source/wikipedia-ghiyath-al-din-tughluq-ur, source/wikidata-ghiyath-al-din-tughluq]
 provenance:
   layer: own-research
-  source: "Wikidata Q1391172 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0008
-status:
-  review: draft
-  completeness: 1
+  source: "English Wikipedia 'Ghiyath al-Din Tughluq' (revision 1377250212 of 28 September 2026), Arabic Wikipedia «غياث الدين تغلق» (revision 74251419 of 12 April 2026), Urdu Wikipedia «سلطان غیاث الدین تغلق شاہ» (revision 11801051 of 18 August 2026) and Wikidata Q1391172, all read via API on 3 November 2026 with every revision ID re-asserted by a repeat query. This record replaces, at the same slug, the Devin wikidata-import draft stub that stood here (completeness 1, no dates, no prose), under the founder's REPLACE ruling of 3 November 2026, per the Atatürk precedent."
+  generated_by: "Muse"
+  run: century-additions-wave-185-a
+status: { review: published, completeness: 3, generated_by: "Muse" }

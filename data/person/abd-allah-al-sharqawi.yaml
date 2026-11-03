@@ -1,0 +1,49 @@
+id: person/abd-allah-al-sharqawi
+class: person
+label: { ar: "عبد الله الشرقاوي", en: "Abd Allah al-Sharqawi", ur: "عبد اللہ الشرقاوی" }
+names:
+  - { value: "عبد الله بن حجازي بن إبراهيم الشرقاوي", kind: full }
+  - { value: "Abd Allah ibn Hijazi ibn Ibrahim al-Sharqawi", kind: full }
+gender: male
+summary:
+  ar: "عالم أزهري مصري (1737–1812) تولى مشيخة الأزهر سنة 1208 هـ وبقي فيها حتى وفاته، وكان شيخ علماء الشافعية ومفتيهم في عصره وشيخاً للطريقة الخلوتية. ترأس ديوان القاهرة في زمن الحملة الفرنسية، وكان أحد القادة الذين بايعوا محمد علي والياً سنة 1805."
+  en: "Egyptian Azhari scholar (1737–1812) who became Grand Imam of al-Azhar in 1208 AH and held the post until his death. He was the leading Shafi'i scholar and mufti of his era in Egypt and a shaykh of the Khalwatiyya Sufi order. He chaired Cairo's governing diwan under the French occupation and was one of the leaders who acclaimed Muhammad Ali as ruler in 1805."
+  ur: "مصری ازہری عالم (1737–1812) جو 1208ھ میں جامعہ ازہر کے شیخ بنے اور وفات تک اس منصب پر رہے۔ وہ اپنے دور میں مصر کے سب سے بڑے شافعی عالم اور مفتی تھے اور سلسلۂ خلوتیہ کے شیخ بھی تھے۔ فرانسیسی قبضے کے دوران انہوں نے قاہرہ کے دیوان کی صدارت کی اور 1805 میں محمد علی کو حکمران تسلیم کرنے والے رہنماؤں میں شامل تھے۔"
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+born:
+  edtf: "1737"
+  hijri: "1150"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Arabic article gives 1150 AH and his birth at al-Tawila village in al-Sharqiyya, near Bilbays; the English article and Wikidata Q4664541 give 1737. No place entity exists for al-Tawila, so no born_in edge is written."
+  sources: [source/wikipedia-abd-allah-al-sharqawi-ar, source/wikipedia-abd-allah-al-sharqawi-en, source/wikidata-abd-allah-al-sharqawi]
+died:
+  edtf: "1812"
+  hijri: "1227"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The Arabic article, citing al-Jabarti, dates his death in Cairo to Thursday 2 Shawwal 1227 AH and records that he was buried in the tomb he had built beside the mosque he raised on the ruined endowment land in the desert cemetery; the English article and Wikidata give 1812. Year precision is recorded; the exact Hijri day is preserved here."
+  sources: [source/wikipedia-abd-allah-al-sharqawi-ar, source/wikipedia-abd-allah-al-sharqawi-en, source/wikidata-abd-allah-al-sharqawi]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abd-allah-al-sharqawi-ar, source/wikipedia-abd-allah-al-sharqawi-en] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-abd-allah-al-sharqawi-ar] }
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "Two independent texts attest the Shafi'i school for the man himself: the Arabic Wikipedia biography states «كان الشيخ عبد الله الشرقاوي شيخ علماء الشافعية ومفتيهم في عصره» ('al-Sharqawi was the shaykh of the Shafi'i scholars and their mufti in his era'), and the alsufi.net biography states «نبغ في الفقه الشافعي» ('he excelled in Shafi'i fiqh') and lists his «حاشية على تحرير تنقيح اللباب (في الفقه الشافعي)»; the classical Hilyat al-Bashar likewise gives him the nisba «الشافعي». He was separately a shaykh of the Khalwatiyya Sufi order — the English article calls him a 'scholar of the Khalwati sufi order' and the Arabic article and alsufi.net record that he took the order from al-Hifni and then Mahmud al-Kurdi — an affiliation recorded here and in the prose, not folded into the school value."
+    sources: [source/wikipedia-abd-allah-al-sharqawi-ar, source/alsufi-abd-allah-al-sharqawi]
+external_ids: { wikidata: "Q4664541" }
+sources: [source/wikipedia-abd-allah-al-sharqawi-en, source/wikipedia-abd-allah-al-sharqawi-ar, source/wikipedia-abd-allah-al-sharqawi-ur, source/wikidata-abd-allah-al-sharqawi, source/alsufi-abd-allah-al-sharqawi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1363211435 of 8 July 2026), Arabic Wikipedia «عبد الله الشرقاوي (شيخ الأزهر)» (revision 75578576 of 18 June 2026), Urdu Wikipedia «عبد اللہ شرقاوی (شیخ الازہر)» (revision 7719472 of 12 April 2025), Wikidata Q4664541 (item revision 2509789105 of 24 June 2026) and the alsufi.net biography of al-Sharqawi, all fetched live in-session on 3 November 2026, every revision id re-asserted identical on a second live query. This record replaces the draft stub person/abd-allah-ibn-hijazi-al-sharqawi — a Wikidata-import stub of completeness 1 — under the founder's REPLACE ruling of 3 November 2026 (Atatürk precedent, PR #3280); the stub's deletion is merge work, not done here. The stub's 'faqih' role is expressed with the schema's 'jurist'. His teachers al-Hifni and Mahmud al-Kurdi and his student Muhammad al-Dawakhli have no records (the Kurdi records on main are other men), so no student_of edges are written; al-Tawila has no place entity, so no born_in edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-185-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
