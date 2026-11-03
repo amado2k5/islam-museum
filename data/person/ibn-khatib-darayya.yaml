@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن خطيب داريا"
   en: "Ibn Khatib Darayya"
-roles: [writer, scholar]
+roles: [qadi, preacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن خطيب داريا، أديب وفقيه القرن الخامس عشر، توفي سنة ١٤٠٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Khatib Darayya, the fifteenth-century literary scholar and jurist, d. 1407; the source entry is not yet checked on the page."
+  ar: "سليمان بن هلال «ابن خطيب داريا»، قاضي زاهد دمشقي تلميذ النووي والفزاري، ولي خطابة داريا وجامع التوبة؛ توفي أوائل القرن الثامن."
+  en: "Sulayman ibn Hilal “Ibn Khatib Darayya” (642–710/1242–1310), Damascene ascetic qadi, pupil of al-Nawawi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q40379014
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.8 p.120)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch7
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
