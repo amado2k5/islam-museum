@@ -3,11 +3,11 @@ class: person
 label:
   ar: "محمد بن أحمد الفاسي"
   en: "al-Fasi, Muhammad ibn Ahmad"
-roles: [scholar]
+roles: [historian, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لتقي الدين محمد بن أحمد الفاسي، محدث ومؤرخ مكة القرن الخامس عشر صاحب «العقد الثمين»، توفي سنة ١٤٢٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Taqi al-Din Muhammad ibn Ahmad al-Fasi, the fifteenth-century hadith scholar and historian of Mecca author of al-Aqd al-Thamin, d. 1429; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد الفاسي المكي، مؤرخ مكة وقاضيها المالكي، صاحب «أخبار مكة»؛ من أعيان القرن التاسع."
+  en: "Muhammad ibn Ahmad al-Fasi al-Makki (1373–1429), historian and Maliki qadi of Mecca, author of Akhbar Makka."
 wings: [people]
 regions: [arabia]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q7684920
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0036
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.9 p.288)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch8
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
