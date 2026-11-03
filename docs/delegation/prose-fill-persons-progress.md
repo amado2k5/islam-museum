@@ -143,3 +143,9 @@ Written: bar-daysan, sari-al-raffa, masarjis, yaqub-ibn-tariq, salim-abul-ala, j
 Written: al-sini, jir-ibn-ghalib, thamistiyus, yahya-ibn-sarafiyun, atarid-ibn-muhammad, jafar-al-khuldi, abu-al-husayn-al-khayyat, bashshar-ibn-burd, al-iskandar-al-afrudisi, mabad-al-juhani. cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 238.** Fihrist thin cluster winding down (~20 marginal candidates); next: muntazam, tabari (33), muruj (31), ansab, tabaqat.
+
+### Batch 20 (3 Nov 2026, 10 records, ar+en+ur) — thin-file Fihrist cluster 5
+
+Written: arius-al-rumi, ibn-rizam, abu-shakir-al-daysani, abu-yaqub-al-sijistani, ali-ibn-isa-al-rummani, al-hasih, sallam-al-qari, balinas, shahid-ibn-al-husayn, nasr-ibn-asim. cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 248.** Fihrist thin cluster nearing exhaustion (remaining summaries marginal → leads); next: muntazam, tabari (33), muruj (31), ansab, tabaqat.
