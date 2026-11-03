@@ -11,6 +11,6 @@ Ibn Khaldun relates that Abu Ya'qub Yusuf al-Marini besieged [[place/tlemcen|Tle
 Abu Ya'qub built opposite the city a fully developed town, al-Mansura. The Banu Abd al-Wad were brought to the edge of destruction, as Ibn Khaldun describes it. {cite:tarikh-ibn-khaldun-ibar p. 1938}
 
 ## The end
-The sultan [[person/abu-yaqub-yusuf-marinid|Abu Ya'qub]] died at al-Mansura in 707 AH. The house of Yaghmurasan destroyed it when his battalions withdrew. {cite:tarikh-ibn-khaldun-ibar p. 1938}
+The sultan [[person/abu-yaqub-yusuf-an-nasr|Abu Ya'qub]] died at al-Mansura in 707 AH. The house of Yaghmurasan destroyed it when his battalions withdrew. {cite:tarikh-ibn-khaldun-ibar p. 1938}
 
 The beginning and end of the siege are converted by derivation from the phrase "a hundred months" and the year of death. {cite:tarikh-ibn-khaldun-ibar p. 1938}

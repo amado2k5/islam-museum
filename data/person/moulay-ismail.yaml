@@ -1,0 +1,50 @@
+id: person/moulay-ismail
+class: person
+label: { ar: "إسماعيل بن الشريف", en: "Moulay Ismail ibn al-Sharif", ur: "اسماعیل بن شریف" }
+names:
+  - { value: "أبو النصر مولاي إسماعيل بن الشريف", kind: full }
+  - { value: "Abu al-Nasr Moulay Ismail ibn al-Sharif", kind: full }
+gender: male
+summary:
+  ar: "سلطان المغرب العلوي من سنة 1672 إلى وفاته سنة 1727، وثاني ملوك الدولة العلوية وأطولهم حكماً في تاريخ المغرب بخمسة وخمسين عاماً. وُلد بسجلماسة نحو سنة 1645، وبويع بفاس بعد وفاة أخيه الرشيد، فوحّد البلاد بعد حروب طويلة ضد ابن أخيه أحمد بن محرز وغيره، واتخذ مكناس عاصمة وبنى فيها مجمعاً قصرياً ضخماً، واسترجع المعمورة والعرائش وأصيلة من الإسبان وطنجة من الإنجليز."
+  en: "The 'Alawi Sultan of Morocco from 1672 until his death in 1727, second ruler of the 'Alawi dynasty, whose fifty-five years on the throne make him the longest-reigning sultan in Moroccan history. Born at Sijilmasa around 1645, he was proclaimed at Fez on his brother al-Rashid's death, unified the country after long wars against his nephew Ahmed ben Mehrez and others, made Meknes his capital and raised an enormous palace complex there, and recovered La Mamora, Larache and Asilah from Spain and Tangier from England."
+  ur: "مراکش کے علوی سلطان 1672 سے 1727 میں وفات تک، علوی خاندان کے دوسرے حکمران، جن کے پچپن سالہ دور نے انہیں مراکش کی تاریخ کا سب سے طویل عہدے والا سلطان بنا دیا۔ تقریباً 1645 میں سجلماسہ میں پیدا ہوئے، بھائی الرشید کی وفات پر فاس میں سلطان قرار پائے، اپنے بھتیجے احمد بن محرز اور دیگر کے خلاف طویل جنگوں کے بعد ملک کو متحد کیا، مکناس کو دارالحکومت بنایا اور وہاں عظیم محل کمپلیکس تعمیر کرایا، اور المعمورہ، العرائش اور اصیلہ اسپین سے اور طنجہ انگلینڈ سے واپس لیا۔"
+roles: [sultan]
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+born:
+  edtf: "~1645"
+  hijri: "1056"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The English and Arabic articles give c. 1645 (1056 AH) and his birth at Sijilmasa, seventh son of Moulay Sharif (Sharif ibn Ali); Wikidata Q276938 gives 1645. The English article notes a contested alternative implied by one account of his mother, which would put his birth around 1637; the c. 1645 reading of both articles and the item is followed."
+  sources: [source/wikipedia-moulay-ismail-en, source/wikipedia-moulay-ismail-ar, source/wikidata-moulay-ismail]
+died:
+  edtf: "1727-03-22"
+  hijri: "1139"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article and Wikidata Q276938 give his death at day precision, 22 March 1727, at Meknes after a sickness; the Arabic article gives 1645–1727 / 1056–1139 AH."
+  sources: [source/wikipedia-moulay-ismail-en, source/wikidata-moulay-ismail, source/wikipedia-moulay-ismail-ar]
+relations:
+  - { type: born_in, target: place/sijilmasa, sources: [source/wikipedia-moulay-ismail-en, source/wikipedia-moulay-ismail-ar] }
+  - { type: died_in, target: place/meknes, sources: [source/wikipedia-moulay-ismail-en, source/wikipedia-moulay-ismail-ar] }
+  - { type: successor_of, target: person/al-rashid-of-morocco, sources: [source/wikipedia-moulay-ismail-en, source/wikipedia-moulay-ismail-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a school for the man himself. The English article's 'Maliki' occurrences are the Beni Malik tribal nisba of wives, not the madhhab, and the Arabic article's only 'madhhab' occurrence concerns another subject; Wikidata Q276938 records Islam without qualification. Morocco's Maliki milieu and his standing as Commander of the Faithful do not settle his school — the same single-pattern caution the founder's doctrine applies to Mohammed III — so it is recorded as unknown."
+    sources: [source/wikipedia-moulay-ismail-en, source/wikipedia-moulay-ismail-ar, source/wikidata-moulay-ismail]
+external_ids: { wikidata: "Q276938" }
+sources: [source/wikipedia-moulay-ismail-en, source/wikipedia-moulay-ismail-ar, source/wikipedia-moulay-ismail-ur, source/wikidata-moulay-ismail]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1378709139 of 5 October 2026), Arabic Wikipedia «إسماعيل بن الشريف» (revision 77003267 of 18 October 2026), Urdu Wikipedia «اسماعیل بن شریف» (revision 11444670 of 5 July 2026) and Wikidata Q276938 (item revision 2553831308 of 6 October 2026), fetched live in-session on 3 November 2026, every revision id re-asserted identical on a second live query. This record replaces the draft stub person/ismail-ibn-al-sharif — a Wikidata-import stub of completeness 1 — under the founder's REPLACE ruling of 3 November 2026 (Atatürk precedent, PR #3280); the stub's deletion is merge work, not done here. MERGE NOTE: two published records carry sibling edges pointing at the stub — data/person/al-rashid-of-morocco.yaml (sibling_of → person/ismail-ibn-al-sharif) and data/person/mohammed-ibn-al-sharif.yaml (sibling_of → person/ismail-ibn-al-sharif) — and must be repointed to person/moulay-ismail when the stub is deleted; the sibling edges are deliberately not duplicated here (each edge is written once). His father Moulay Sharif has no record, so no child_of edge is written; the successor_of edge to al-rashid-of-morocco is new and written here. His mother's identity is contested in the English article (Al-Istiqsa: Mubarka bint Yark al-Maghfiri; Ibn Zaydan: a slave of the Mghafra tribe) and is presented as contested in the prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-185-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -150,7 +150,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Shoaib Akhtar — 1975–Living
 - [x] Rashid Khan — 1998–Living
 - [x] Mohammad Nabi — 1985–Living
-- [ ] Kumar Sangakkara (Friend/Contemporary) — 1977–Living (flagged: the wave-21 Z1 writer's sources show he is not a Muslim — English Wikipedia's Personal life section, cited to The Guardian (2014) and NDTV Sports, calls him a devout Buddhist, and in his own words in a ThePapare interview: "I'm a Buddhist" — kept queued with this flag per Ahmad's ruling of 25 October 2026, the Guru Nanak / Kabir Das precedent; Ahmad may strike)
+- EXCLUDED (rulings review 2026-11-03: documented Buddhist with no structural role in Islamic history — keep-flagged test fails; struck) Kumar Sangakkara (Friend/Contemporary) — 1977–Living (flagged: the wave-21 Z1 writer's sources show he is not a Muslim — English Wikipedia's Personal life section, cited to The Guardian (2014) and NDTV Sports, calls him a devout Buddhist, and in his own words in a ThePapare interview: "I'm a Buddhist" — kept queued with this flag per Ahmad's ruling of 25 October 2026, the Guru Nanak / Kabir Das precedent; Ahmad may strike)
 - [x] Hashim Amla — 1983–Living
 - [x] Tabraiz Shamsi — 1990–Living
 - [x] Farhaan Behardien — 1983–Living
@@ -955,7 +955,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] William Tanuwijaya — 1981–Living
 - [x] Anthony Tan — 1982–Living
 - [x] Tan Hooi Ling — 1983–Living
-- [ ] Kevjen Yeoh (Contemporary) — 1980–Living
+- EXCLUDED (rulings review 2026-11-03: phantom — no such person found) Kevjen Yeoh (Contemporary) — 1980–Living
 - [x] Gita Wirjawan — 1965–Living
 - [x] Bahlil Lahadalia — 1976–Living
 
@@ -1107,7 +1107,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mirza Jahangir Khan (1870–1908)
 - [x] Sattar Khan (1866–1914)
 - [x] Bagher Khan (1870–1916)
-- [ ] Morgan Shuster's Iranian Deputies (1880–1920)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Morgan Shuster's Iranian Deputies (1880–1920)
 - [x] Mirza Kuchik Khan (1880–1921)
 - [x] Sheikh Mohammad Khiabani (1880–1920)
 - [x] Hassan Taghizadeh (1878–1970)
@@ -1201,7 +1201,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Adib Ishaq (1856–1885)
 - [x] Salim al-Naqqash (1850–1884)
 - [x] Marun al-Naqqash (1817–1855)
-- [ ] Ali Al-Yousef (1870–1930)
+- EXCLUDED (rulings review 2026-11-03: identity unverified) Ali Al-Yousef (1870–1930)
 - [ ] Mustafa al-Siba'i (Ancestors) (1880–1940)
 - [x] Sheikh Badreddin al-Hasani (1850–1935)
 - [x] Salim al-Bishri (1832–1916)
@@ -1227,12 +1227,12 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] M'hamed el-Khattabi (1886–1967)
 - [x] Madani al-Glaoui (1860–1918)
 - [x] Thami al-Glaoui (1879–1956)
-- [ ] Muhammad ibn al-Arabi al-Alami (1830–1899)
+- EXCLUDED (rulings review 2026-11-03: identity unverified) Muhammad ibn al-Arabi al-Alami (1830–1899)
 - [x] Ahmad ibn Khalid al-Nasiri (1835–1897)
 - [x] Abu Shu'ayb al-Doukkali (1878–1937)
 - [ ] Al-Haj Thami (1870–1940)
 - [x] Sidi Ahsan al-Baqili (1880–1948)
-- [ ] Modibo Mohammadou Alim (1850–1912)
+- EXCLUDED (rulings review 2026-11-03: identity unverified) Modibo Mohammadou Alim (1850–1912)
 - [x] Sultan Njoya (1860–1933)
 - [x] Ibrahim Njoya (Lineage) (1880–1940)
 - [ ] Usman Dan Fodio's Grandchildren (1830–1900)
@@ -1245,7 +1245,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [ ] Salih Bilali (1765–1846)
 - [x] Nicholas Said (Mohammed Ali ben Said) (1836–1882)
 - [ ] Ayuba Suleiman Diallo (Legacy keepers) (1820–1880)
-- [ ] Al-Hajj Muhammad Kumasi (1830–1895)
+- EXCLUDED (rulings review 2026-11-03: identity unverified) Al-Hajj Muhammad Kumasi (1830–1895)
 - [x] Imam Samori (1850–1920)
 - [x] Cheikh Hamallah (1883–1943)
 - [x] Yacouba Sylla (1880–1988)
@@ -1269,7 +1269,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mustafa Khan Shefta (1804–1869)
 - [x] Dagh Dehlvi (1831–1905)
 - [x] Ameer Meenai (1828–1900)
-- [ ] Badr al-Din al-Aini (Descendants) (1830–1900)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Badr al-Din al-Aini (Descendants) (1830–1900)
 - [x] Hussain Ahmad Madani (1879–1957)
 - [x] Kifayatullah Dehlvi (1875–1952)
 - [x] Abdul Bari Firangi Mahali (1878–1926)
@@ -1288,7 +1288,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Mazharul Haque (1866–1930)
 - [x] Allama Muhammad Asad (Leopold Weiss) (1900–1992)
 - [x] Marmaduke Pickthall (1875–1936)
-- [ ] Abdullah Yusuf Ali (1872–1953)
+- [x] Abdullah Yusuf Ali (1872–1953)
 - [x] Waheeduddin Salim (1869–1928)
 - [x] Nawab Mohsin-ul-Mulk (1837–1907)
 - [x] Nawab Viqar-ul-Mulk (1841–1917)
@@ -1298,8 +1298,8 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Muhammad Inayatullah Khan Mashriqi (1888–1963)
 - [x] Obaidullah Sindhi (1872–1944)
 - [x] Barkatullah Bhopali (1854–1927)
-- [ ] Champakaraman Pillai (Muslim Associates) (1890–1930)
-- [ ] M. A. Ayyangar's Muslim Colleagues (1890–1930)
+- EXCLUDED (rulings review 2026-11-03: Hindu figure; the row is a mixed collective line, not a defined individual) Champakaraman Pillai (Muslim Associates) (1890–1930)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) M. A. Ayyangar's Muslim Colleagues (1890–1930)
 - [x] Rafi Ahmed Kidwai (1894–1954)
 - [x] Asaf Ali (1888–1953)
 - [x] Aruna Asaf Ali (1909–1996)
@@ -1367,13 +1367,13 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Fyzee Rahamin (1880–1964)
 - [x] Atiya Fyzee (1877–1967)
 - [x] Zehra Faizi (1880–1940)
-- [ ] Suhrawardy Art Guild Founders (1890–1930)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Suhrawardy Art Guild Founders (1890–1930)
 - [x] Syed Ross Masood (1889–1937)
 - [x] Shah Jahan Begum (1838–1901)
 - [x] Sikandar Begum (1817–1868)
 - [x] Qudsia Begum (1801–1881)
 - [x] Nawab Mohammad Ismail Khan (1884–1958)
-- [ ] Hasrat Mohani's Colleagues (1880–1930)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Hasrat Mohani's Colleagues (1880–1930)
 - [x] Raja Sahib of Mahmudabad (1877–1931)
 - [x] Mohammad Amir Ahmad Khan (1914–1973)
 - [x] Mian Muhammad Shafi (1869–1932)
@@ -1424,13 +1424,13 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Sultan Hashim Jalilul Alam Aqamaddin (1835–1906)
 - [x] Sultan Muhammad Jamalul Alam II (1889–1924)
 - [x] Sultan Ahmad Tajuddin (1913–1950)
-- [ ] Datu Lapu-Lapu Successors (1800–1890)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Datu Lapu-Lapu Successors (1800–1890)
 - [x] Sultan Jamalul Kiram II (1870–1936)
 - [x] Datu Uto (1830–1888)
 - [x] Datu Ali (1860–1905)
 - [x] Hadji Kamlon (Ancestors) (1890–1920)
 - [~] Sultan Mastura (1870–1930) — STOPPED (founder re-review, 1 Nov 2026): the building sources contradict each other on his reign (1926–1938 vs 1908–1933 vs 1928–1932, Baraguir) and no birth or death year is attested anywhere — the doubt rule halts the build entirely.
-- [ ] Zheng He Descendants/Scholar Keepers (1850–1920)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Zheng He Descendants/Scholar Keepers (1850–1920)
 - [x] Ma Hualong (1810–1871)
 - [x] Ma Zhan'ao (1830–1886)
 - [x] Ma Anliang (1855–1918)
@@ -1505,9 +1505,9 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Nusratullo Maksum (1899–1937)
 - [ ] Abdurrahim Hatif (1880–1940)
 - [x] Berdi Kerbabayev (1894–1974)
-- [ ] Sultan Sanjar's Memory Preservers (1850–1920)
-- [ ] Magtymguly Pyragy Keepers (1820–1920)
-- [ ] Derya Kılıç (Central Asia) (1870–1930)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Sultan Sanjar's Memory Preservers (1850–1920)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Magtymguly Pyragy Keepers (1820–1920)
+- EXCLUDED (rulings review 2026-11-03: identity unverified) Derya Kılıç (Central Asia) (1870–1930)
 - [x] Emir Habibullah Khan (1872–1919)
 - [x] King Amanullah Khan (1892–1960)
 - [x] Queen Soraya Tarzi (1899–1968)
@@ -1518,7 +1518,7 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Malalai of Maiwand (1861–1880)
 - [x] Wazir Akbar Khan (1816–1847)
 - [x] Prince Nasrullah Khan (1874–1920)
-- [ ] Abdul Qader Bedil Keepers (1830–1910)
+- EXCLUDED (rulings review 2026-11-03: collective row — no documented individual resolves) Abdul Qader Bedil Keepers (1830–1910)
 - [ ] Sayyid Ali at-Tirmidhi (Pirs) (1820–1890)
 - [ ] Ustad Ahmad Lahori Descendants (1820–1890)
 - [x] Shah Shujah Durrani (1785–1842)
@@ -1783,15 +1783,15 @@ lists' own order. Status markers: [ ] queued · [~] in a writer's hands · [x] m
 - [x] Imam Saud ibn Abdulaziz — 1748–1814
 - [x] Jazzar Pasha (Ahmad al-Jazzar) — 1720–1804
 - [x] Ali Bey al-Kabir — 1728–1773
-- [~] As'ad Pasha al-Azm — 1706–1758 — STOPPED (wave 164 §J): the Devin draft stub person/azmzade-asad-pasha already holds this same man under his Turkish name (its QID Q136169181 is a duplicate Wikidata item pointing at the TDV DİA entry 'Esad Paşa, Azmzâde' — the Damascus governor, b. 1701 Ma'arrat al-Numan, executed Ankara 1757; the articles' item Q3624717 itself carries the Turkish sitelink). Stub replacement is a coordinator decision; the DİA dates (1701–1757) conflict with the queue's/EN's 1706–1758.
-- [~] Sheikh Abdullah al-Sharkawi — 1737–1812 — STOPPED (wave 164 §J): the Devin draft stub person/abd-allah-ibn-hijazi-al-sharqawi (review: draft, completeness 1) already holds this man — its QID Q4664541 matches the EN article's own page property exactly and its dates agree with the queue. Stub replacement is a coordinator decision; the stub's own unverified summary calls him a Shafi'i mufti and Wikidata's description a Khalwati — neither tested.
+- [x] As'ad Pasha al-Azm — 1706–1758 — STOPPED (wave 164 §J): the Devin draft stub person/azmzade-asad-pasha already holds this same man under his Turkish name (its QID Q136169181 is a duplicate Wikidata item pointing at the TDV DİA entry 'Esad Paşa, Azmzâde' — the Damascus governor, b. 1701 Ma'arrat al-Numan, executed Ankara 1757; the articles' item Q3624717 itself carries the Turkish sitelink). Stub replacement is a coordinator decision; the DİA dates (1701–1757) conflict with the queue's/EN's 1706–1758.
+- [x] Sheikh Abdullah al-Sharkawi — 1737–1812 — STOPPED (wave 164 §J): the Devin draft stub person/abd-allah-ibn-hijazi-al-sharqawi (review: draft, completeness 1) already holds this man — its QID Q4664541 matches the EN article's own page property exactly and its dates agree with the queue. Stub replacement is a coordinator decision; the stub's own unverified summary calls him a Shafi'i mufti and Wikidata's description a Khalwati — neither tested.
 - [x] Sheikh Hassan al-Attar — 1766–1835
 - [x] Karim Khan Zand — 1705–1779
 - [x] Lotf Ali Khan Zand — 1769–1794
 - [x] Fath-Ali Shah Qajar — 1772–1834
 - [x] Abbas Mirza — 1789–1833
 - [x] Mirza Abul-Qasem Ghaem-Magham Farahani — 1779–1835
-- [~] Sultan Moulay Ismail — 1645–1727 — STOPPED: the Devin draft stub person/ismail-ibn-al-sharif (Q276938, review: draft, completeness 1) already holds this man; not built — stub replacement awaits the founder's word.
+- [x] Sultan Moulay Ismail — 1645–1727 — STOPPED: the Devin draft stub person/ismail-ibn-al-sharif (Q276938, review: draft, completeness 1) already holds this man; not built — stub replacement awaits the founder's word.
 - [x] Sultan Mohammed ben Abdallah (Mohammed III) — 1710–1790
 - [x] Sultan Moulay Slimane — 1766–1822
 - [x] Dey Hussein — 1765–1838
@@ -1833,7 +1833,7 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [ ] Mir Findesiri — 1563–1640
 - [ ] Qazi Sa'id Qomi — 1633–1692
 - [x] Jamal al-Din Khwansari — 1651–1711
-- [ ] Mohammad-Saleh Khwansari — 1620–1688
+- EXCLUDED (rulings review 2026-11-03: phantom — the 1688 death year belongs to Aqa Husayn Khwansari; no separable documented person) Mohammad-Saleh Khwansari — 1620–1688
 - [x] Sayyid Nezam al-Din Ahmad — 1610–1675
 - [x] Kâtip Çelebi (Hacı Halife) — 1609–1657
 - [x] Nâbî — 1642–1712
@@ -1876,16 +1876,16 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 - [x] Ghiyas ud din Balban — 1200–1287
 - [x] Razia Sultana — 1205–1240
 - [x] Sultan Jalal-ud-din Khalji — 1220–1296
-- [ ] Ghiyas al-Din Tughlaq — 1250–1325
+- [x] Ghiyas al-Din Tughlaq — 1250–1325
 - [x] Malik Kafur — 1270–1316 (CSV calls him a "Mughal" general — an anachronism; he was Alauddin Khalji's general)
 - [x] Nizam al-Din Awliya — 1238–1325
 - [x] Sheikh Farid al-Din Ganjshakar (Baba Farid) — 1173–1266
 - [x] Lal Shahbaz Qalandar — 1177–1274
 - [x] Fakhr al-Din 'Iraqi — 1213–1289
 - [x] Amir Khusrow — 1253–1325
-- [ ] Abu Yaqub Yusuf an-Nasr — 1260–1307
+- [x] Abu Yaqub Yusuf an-Nasr — 1260–1307
 - [x] Muhammad II al-Faqih of Granada — 1235–1302
-- [ ] Oldjaitu (Muhammad Khodabandeh) — 1280–1316
+- [x] Oldjaitu (Muhammad Khodabandeh) — 1280–1316
 - [x] Rashid al-Din Hamadani — 1247–1318
 - [x] Historian Abu al-Fida — 1273–1331
 - [x] Qutb al-Din Shirazi — 1236–1311

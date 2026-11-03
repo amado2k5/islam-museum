@@ -1,0 +1,54 @@
+id: person/oljaitu
+class: person
+label: { ar: "محمد أولجايتو", en: "Öljaitü", ur: "محمد خدابندہ اولجایتو" }
+names:
+  - { value: "محمد خدابنده أولجايتو", kind: full }
+  - { value: "Muhammad Khodabandeh", kind: full }
+  - { value: "خربنده", kind: full }
+  - { value: "Kharbanda", kind: full }
+  - { value: "نيقولا", kind: alternate }
+  - { value: "Nicholas (Nikolya)", kind: alternate }
+gender: male
+summary:
+  ar: "ثامن إيلخانات الدولة الإيلخانية (حكم 1304–1316)، ابن أرغون وخليفة أخيه غازان. أتمّ بناء مدينة سلطانية واتخذها عاصمة، وله قبتها الشهيرة التي ضمّت ضريحه. تنقّل في حياته بين أديان ومذاهب: عُمّد مسيحيًّا صغيرًا، ونشأ بوذيًّا، ثم اعتنق الإسلام السني مع أخيه غازان، وفي سنة 1310 اعتنق التشيع الاثني عشري بتأثير العلامة الحلي، مع رواية متأخرة عند الصفدي برجوعه إلى السنة في أواخر حياته."
+  en: "Eighth Ilkhan of the Ilkhanate (reigned 1304–1316), son of Arghun and successor of his brother Ghazan. He completed the city of Soltaniyeh and made it his capital; its great dome housed his tomb. His life crossed several faiths: baptised a Christian as a child and raised a Buddhist, he converted to Sunni Islam together with Ghazan, then in 1310 adopted Twelver Shi'a Islam under the influence of al-Hilli — while al-Safadi reports a return to Sunni Islam in his last years."
+  ur: "ایل خانی سلطنت کے آٹھویں ایل خان (دورِ حکومت 1304–1316)، ارغون کے بیٹے اور اپنے بھائی غازان کے جانشین۔ انھوں نے سلطانیہ کا شہر مکمل کر کے اسے دارالحکومت بنایا؛ اس کا مشہور گنبد ان کے مقبرے پر مشتمل ہے۔ ان کی زندگی کئی مذاہب سے گزری: بچپن میں عیسائی بپتسمہ پایا، بدھ مت کی تربیت ہوئی، پھر غازان کے ساتھ اسلام قبول کیا، اور 1310 میں علامہ حلی کے اثر سے اثنا عشری شیعہ ہوئے — جبکہ صفدی کے مطابق آخری برسوں میں وہ دوبارہ سنی اسلام کی طرف لوٹ آئے۔"
+roles: [sultan]
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+born:
+  edtf: "1280-03-24"
+  hijri: "0678"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born during his father Arghun's viceroyalty in Khorasan. The Arabic article gives 678 AH/1280 CE, the Urdu article 1280, and Wikidata 24 March 1280; the English article agrees on 24 March but gives the year as 1282. The 1280 reading, carried by three of the four, is recorded and the English article's 1282 preserved here. His birth name was Kharbanda; the Mongolian name Öljaitü means 'auspicious/blessed'."
+  sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu]
+died:
+  edtf: "1316-12-16"
+  hijri: "0716"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Soltaniyeh. The English article's lead, the Arabic article and Wikidata give 16 December 1316 (716 AH); the English article's death section says 17 December. Both readings are preserved. Rashid al-Din was later accused of poisoning him and executed. He was buried in the Dome of Soltaniyeh he had built for his tomb."
+  sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikidata-oljaitu]
+relations:
+  - { type: child_of, target: person/arghun-khan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur] }
+  - { type: sibling_of, target: person/ghazan-khan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar] }
+  - { type: successor_of, target: person/ghazan-khan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded as unknown under the founder's ruling of 3 November 2026: every phase of this man's religious life is documented, and no phase is settled as the value. The texts attest, in order: he was baptised a Christian in 1291 by his mother Uruk Khatun, a Keraite Christian, receiving the name Nicholas (Nikolya); he was raised in Buddhism, the faith of the early Ilkhans; he converted to Sunni Islam together with his brother Ghazan and took the name Muhammad; after his accession he came under the influence of the Shi'a theologians al-Hilli and Maitham al-Bahrani and in 1310 changed his school to Twelver Shi'a Islam, transferring al-Hilli's remains to a shrine at Soltaniyeh after the scholar's death; and the Mamluk historian al-Safadi reports that he became Sunni again in his last years, in Ramadan 716 AH. The Arabic article preserves the same two endings (that he remained Shia until his death, or returned to Sunni Islam under the influence of the qadi of Shiraz). Wikidata records only Islam, as structured data. With the final phase itself contested between the texts, the doubt rule governs and all phases stand in this note unsettled."
+    sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikidata-oljaitu]
+external_ids: { wikidata: "Q297065" }
+sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Öljaitü' (revision 1369785492 of 17 August 2026), Arabic Wikipedia «محمد أولجايتو» (revision 76774907 of 26 September 2026), Urdu Wikipedia «محمد خدابندہ اولجایتو» (revision 6535364 of 29 January 2025) and Wikidata Q297065, all read via API on 3 November 2026 with every revision ID re-asserted by a repeat query. This record replaces the Devin wikidata-import draft stub person/uljaitu-ilkhani (completeness 1, no dates, no prose) under the founder's REPLACE ruling of 3 November 2026, per the Atatürk precedent; the faith ruling for this record (unknown, all phases preserved) was given in the same ruling."
+  generated_by: "Muse"
+  run: century-additions-wave-185-a
+status: { review: published, completeness: 3, generated_by: "Muse" }
