@@ -1,0 +1,46 @@
+id: person/abdur-rahim
+class: person
+label: { ar: "عبد الرحيم", en: "Abdur Rahim", ur: "عبد الرحیم" }
+names:
+  - { value: "Sir Abdur Rahim", kind: full }
+  - { value: "Abdul Rahim", kind: alternate }
+gender: male
+summary:
+  ar: "قاضٍ وسياسي هندي (1867–1952) من البنغال، صار قاضيًا في محكمة مدراس العليا ثم رئيسًا لها، وألّف «مبادئ الفقه المحمدي» على المذاهب الأربعة. كان من قادة الرابطة الإسلامية ورأس جلستها في عليكرة سنة 1925، ثم رأس الجمعية التشريعية المركزية للهند من 1935 إلى 1945."
+  en: "Indian judge and politician (1867–1952) from Bengal who became a judge, and then Chief Justice, of the Madras High Court and wrote The Principles of Muhammadan Jurisprudence according to the four Sunni schools. A leading member of the All-India Muslim League, he presided over its 1925 Aligarh session and was President of the Central Legislative Assembly of India from 1935 to 1945."
+  ur: "بنگال سے تعلق رکھنے والے ہندوستانی جج اور سیاست دان (1867ء–1952ء) جو مدراس ہائی کورٹ کے جج اور پھر چیف جسٹس بنے اور انھوں نے چاروں سنی مکاتب کے مطابق «اصولِ فقہِ محمدی» لکھی۔ وہ آل انڈیا مسلم لیگ کے سرکردہ رکن تھے، 1925ء میں علی گڑھ اجلاس کی صدارت کی، اور 1935ء سے 1945ء تک ہندوستان کی مرکزی قانون ساز اسمبلی کے صدر رہے۔"
+roles: [jurist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1867-09-07"
+  hijri: "1284"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 7 September 1867 into an educated family of Bengal's Midnapore district, son of Mawlawi Abdur Rab, a zamindar; so the English article, confirmed by the Urdu article, with Wikidata giving the year 1867. The Hijri year is a conversion. No place entity exists for Midnapore, so no born_in edge is written."
+  sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim]
+died:
+  edtf: "1952-10-19"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died 19 October 1952; so the English article's lead and the Urdu article, with Wikidata giving the year 1952. IDENTITY AND DATE FLAG: the century queue row reads 'Abdur Rahim (1867–1947)'. The identity is pinned by the birth year 1867, the Bengal judicial career and the Muslim League leadership that the row's neighbours (the Imam brothers, Mazharul Haque, Dr. Khan Sahib) share; no other Abdur Rahim born in 1867 appears in the texts. The queue's death year 1947 conflicts with every text, all of which give 1952, and is recorded here as a queue error rather than followed. The Hijri year is a conversion."
+  sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched text names a school for Abdur Rahim himself. His scholarly work expounds the Hanafi, Maliki, Shafi'i and Hanbali schools alike, and teaching or writing a school's law is not adherence to it; his Muslim League leadership is political office, which never counts. Wikidata records his religion as Islam only. The value therefore stays unknown."
+    sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim]
+relations: []
+external_ids: { wikidata: "Q4666230" }
+sources: [source/wikipedia-abdur-rahim-en, source/wikipedia-abdur-rahim-ur, source/wikidata-abdur-rahim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdur Rahim (judge)', rev. 1378383079 of 4 October 2026; Urdu Wikipedia 'عبد الرحیم (جج)', rev. 9398894 of 11 February 2026; Wikidata Q4666230 (item rev. 2514122407). All read via the MediaWiki/Wikidata APIs on 3 November 2026, every revision id re-asserted with a repeat query. Identity resolution: the bare title 'Abdur Rahim' on English Wikipedia redirects to an unrelated classical figure; the judge was found by search and pinned as described in the died note. The existing person/shareef-abdur-rahim is a different man. No relations are written: Midnapore and Madras have no place entities used here, and the Muslim League has no group entity."
+  generated_by: "Muse (Muse Wonder)"
+  run: century-additions-184
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

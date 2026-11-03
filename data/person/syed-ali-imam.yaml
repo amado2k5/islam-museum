@@ -1,0 +1,46 @@
+id: person/syed-ali-imam
+class: person
+label: { ar: "سيد علي إمام", en: "Syed Ali Imam", ur: "سید علی امام" }
+names:
+  - { value: "Sir Syed Ali Imam", kind: full }
+  - { value: "Sir Saiyid Ali Imam", kind: alternate }
+gender: male
+summary:
+  ar: "محامٍ وسياسي هندي (1869–1932) من قرية قرب باتنا، الأخ الأكبر لسيد حسن إمام. درس القانون في لندن وصار العضو القانوني في حكومة الهند، ثم قاضيًا في محكمة باتنا العليا، ثم رئيس وزراء دولة حيدرآباد 1919–1922، وكان من بناة بيهار الحديثة ومثّل الهند في مؤتمر المائدة المستديرة سنة 1929."
+  en: "Indian barrister and politician (1869–1932) from a village near Patna, elder brother of Syed Hasan Imam. He studied law in London, became law member of the Government of India, then a judge of the Patna High Court and Prime Minister of Hyderabad State from 1919 to 1922; he was among the makers of modern Bihar and represented India at the 1929 Round Table Conference."
+  ur: "پٹنہ کے قریب ایک گاؤں سے تعلق رکھنے والے ہندوستانی بیرسٹر اور سیاست دان (1869ء–1932ء)، سید حسن امام کے بڑے بھائی۔ انھوں نے لندن میں قانون پڑھا، حکومتِ ہند کے قانون رکن بنے، پھر پٹنہ ہائی کورٹ کے جج اور 1919ء سے 1922ء تک ریاستِ حیدرآباد کے وزیرِ اعظم رہے؛ وہ جدید بہار کے معماروں میں سے تھے اور 1929ء کی گول میز کانفرنس میں ہندوستان کی نمائندگی کی۔"
+roles: [jurist, politician]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1869-02-11"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 11 February 1869 at Karai Parsari village near Fatuha, Bihar, son of Nawab Syed Imdad Imam; so the English article's lead and infobox, with the Urdu article giving the year 1869 and the same village (in present-day Nalanda district). The Hijri year is a conversion. No place entity exists for the village or for Patna, so no born_in edge is written."
+  sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam]
+died:
+  edtf: "1932-10-31"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Ranchi on 31 October 1932 and was buried at Kokar Chowk on the Hazaribagh road; so the English article's lead and infobox. VARIANTS: the English article's body text garbles the day as 17 October, and the Urdu article gives 27 October 1932; the record follows the lead and infobox and records both variants. The Hijri year is a conversion."
+  sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No fetched text names a school for Syed Ali Imam himself, and Wikidata carries no religion statement for him. His younger brother Hasan Imam is described in his own article as a Shia Muslim; a brother's attested faith is family background and never counts for this man, so the value stays unknown."
+    sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam]
+relations: []
+external_ids: { wikidata: "Q102226904" }
+sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Syed Ali Imam', rev. 1353034425 of 7 May 2026; Urdu Wikipedia 'سر علی امام', rev. 8728521 of 15 May 2025; Wikidata Q102226904 (item rev. 2518932927). All read via the MediaWiki/Wikidata APIs on 3 November 2026, every revision id re-asserted with a repeat query. The sibling edge to his brother is written once, in the brother's record (person/syed-hasan-imam), whose article text attests the relationship directly. No group entities exist for the Muslim League or the Hyderabad State government, and no place entities for Patna, Ranchi or Hyderabad are used here, so no further edges are written."
+  generated_by: "Muse (Muse Wonder)"
+  run: century-additions-184
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

@@ -1,0 +1,47 @@
+id: person/mohsin-ul-mulk
+class: person
+label: { ar: "محسن الملك", en: "Nawab Mohsin-ul-Mulk", ur: "محسن الملک" }
+names:
+  - { value: "Syed Mir Mehdi Ali", kind: full }
+  - { value: "سيد مير مهدي علي", kind: full }
+  - { value: "Munir Nawaz Jang", kind: alternate }
+gender: male
+summary:
+  ar: "سياسي هندي مسلم، وُلد باسم سيد مير مهدي علي في إيتاوا سنة 1837، وتصدّر امتحان الخدمة المدنية الإقليمية، ثم خدم دولة حيدر آباد فنال لقبي منير نواز جنغ (1884) ونواب محسن الملك (1887). كان أقرب رفقاء السيد أحمد خان وخلفه أمينًا عامًا لكلية عليكرة وللمؤتمر التعليمي المحمدي، ومن مؤسسي رابطة مسلمي عموم الهند سنة 1906. وُلد شيعيًا ثم قبل عقيدة أهل السنة وكتب في ذلك كتابه «آيات بينات»."
+  en: "Indian Muslim politician, born Syed Mir Mehdi Ali at Etawah in 1837. He topped the Provincial Civil Service examination, then served the state of Hyderabad, receiving the titles Munir Nawaz Jang (1884) and Nawab Mohsin-ul-Mulk (1887). He was Syed Ahmad Khan's closest associate and succeeded him as secretary of the MAO College at Aligarh and of the Muhammadan Educational Conference, and was a founder of the All India Muslim League in 1906. Born a Shia, he accepted the Sunni creed and wrote his book Ayat-i Bayanat in its defence."
+  ur: "ہندوستانی مسلمان سیاست دان، جو 1837 میں ایٹاوہ میں سید میر مہدی علی کے نام سے پیدا ہوئے۔ صوبائی سول سروس کے امتحان میں اول آئے، پھر ریاست حیدر آباد کی خدمت کی جہاں انھیں منیر نواز جنگ (1884) اور نواب محسن الملک (1887) کے خطابات ملے۔ سر سید احمد خان کے قریب ترین رفیق تھے اور ان کے بعد علی گڑھ کالج اور محمدن ایجوکیشنل کانفرنس کے سیکرٹری بنے، اور 1906 میں آل انڈیا مسلم لیگ کے بانیوں میں شامل تھے۔ شیعہ گھرانے میں پیدا ہوئے مگر بعد میں اہل سنت کی عقیدہ قبول کیا اور اس پر اپنی کتاب «آیات بیانات» لکھی۔"
+roles: [politician, writer]
+wings: [people]
+born:
+  edtf: "1837-12-09"
+  hijri: "1253"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 9 December 1837 at Etawah, North-Western Provinces; the English article and Wikidata agree, and Nadwi gives his Hijri years as 1253–1325 AH. No place entity for Etawah exists in data/place/, so no born_in relation is written."
+  sources: [source/wikipedia-mohsin-ul-mulk-en, source/wikidata-mohsin-ul-mulk, source/nadwi-mohsin-ul-mulk]
+died:
+  edtf: "1907-10-16"
+  hijri: "1325"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 16 October 1907; the English article and Wikidata agree on the date. The Hijri year (1325) is given by Nadwi."
+  sources: [source/wikipedia-mohsin-ul-mulk-en, source/wikidata-mohsin-ul-mulk]
+relations:
+  - { type: lived_in, target: place/hyderabad-deccan, sources: [source/wikipedia-mohsin-ul-mulk-en] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Two independent texts attest the affiliation for the man himself. The English Wikipedia article states that 'Mohsin-ul-Mulk converted to Sunnism despite being born a Shia and authored the book Ayat-i Bayanat in which he showed why the Sunni faith was preferable.' Independently, Maulana Abu al-Hasan Ali Nadwi's published opinion on that book and its author states that 'owing to his extensive study, sound nature and deep contemplation he accepted the creed of the Ahlus Sunnah'. No source read names a legal school (madhhab) for him, so no compound value is recorded. Wikidata gives only Islam (Q432) generically, which settles nothing. His Shia birth is recorded in the prose as his starting point, per the same texts."
+    sources: [source/wikipedia-mohsin-ul-mulk-en, source/nadwi-mohsin-ul-mulk, source/wikidata-mohsin-ul-mulk]
+external_ids: { wikidata: "Q6894479" }
+sources: [source/wikipedia-mohsin-ul-mulk-en, source/wikipedia-mohsin-ul-mulk-ar, source/wikipedia-mohsin-ul-mulk-ur, source/wikidata-mohsin-ul-mulk, source/nadwi-mohsin-ul-mulk]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mohsin-ul-Mulk' (revision 1355294790 of 21 May 2026), Arabic Wikipedia «محسن الملك» (revision 75425385 of 13 June 2026), Urdu Wikipedia «محسن الملک» (revision 11800555 of 18 August 2026), Wikidata Q6894479 (confirmed via the Wikidata API: born 9 December 1837, died 16 October 1907, religion Islam only) and Abu al-Hasan Ali Nadwi's opinion on Ayat-e Bayyinat and its author (Mahajjah extract), all read on 3 November 2026. No earlier record for him existed in data/person/ under any spelling; this is a new build, not an enrichment."
+  generated_by: "Muse"
+  run: century-additions-wave-184-b
+status: { review: published, completeness: 3, generated_by: "Muse" }
