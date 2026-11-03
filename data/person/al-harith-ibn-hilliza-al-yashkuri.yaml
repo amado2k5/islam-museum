@@ -1,0 +1,22 @@
+id: person/al-harith-ibn-hilliza-al-yashkuri
+class: person
+label:
+  ar: "الحارث بن حلزة اليشكري"
+  en: "al-Harith ibn Hilliza al-Yashkuri"
+  ur: "حارث بن حلزہ الیشکری"
+names:
+  - { kind: full, lang: ar, value: "الحارث بن حلزة اليشكري" }
+gender: male
+roles: [poet]
+summary:
+  ar: "شاعر جاهلي يشكري تنسب إليه إحدى المعلقات السبع، وفيها «آذنتنا ببينها أسماء»؛ يوردها شرح الزوزني بعد معلقة عنترة {{cite:sharh-muallaqat-sab-zawzani-1921 p.163}}."
+  en: "A pre-Islamic poet of Yashkur to whom one of the seven Mu'allaqat is ascribed, the one opening \"Asma' announced her parting to us\"; al-Zawzani's commentary gives it after the Mu'allaqa of Antara {{cite:sharh-muallaqat-sab-zawzani-1921 p.163}}."
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/sharh-muallaqat-sab-zawzani-1921] }
+sources: [source/sharh-muallaqat-sab-zawzani-1921]
+status: { review: published, completeness: 1 }
+provenance: { layer: own-research, source: "الزوزني، شرح المعلقات السبع، المكتبة التجارية الكبرى 1921، ص 163", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-muallaqat-4" }

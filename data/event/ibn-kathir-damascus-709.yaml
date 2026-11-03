@@ -1,0 +1,27 @@
+id: event/ibn-kathir-damascus-709
+class: event
+kind: migration
+label:
+  ar: "انتقال ابن كثير إلى دمشق ونشأته بها، نحو ٧٠٩هـ"
+  en: "Ibn Kathir moves to Damascus and grows up there, about 709/1309"
+  ur: "ابن کثیر کا دمشق منتقل ہونا اور وہیں پرورش، تقریباً 709ھ/1309ء"
+summary:
+  ar: "قال الزركلي: انتقل مع أبيه إلى دمشق سنة ٧٠٩هـ {cite:al-aalam 1/112}؛ وقال ابن حجر في الدرر: مات أبوه سنة ٧٠٣هـ ونشأ هو بدمشق، فسمع من ابن الشحنة وابن الزراد وإسحاق الآمدي وابن عساكر والمزي وابن الرضي وطائفة، وأجاز له من مصر الدبوسي واللواني والختني وغيرهم {cite:durar-kamina-jil-1993 1/374}."
+  en: "Al-Zirikli says he moved with his father to Damascus in 709 {cite:al-aalam 1/112}; Ibn Hajar records that his father died in 703 and that the boy grew up in Damascus, hearing from Ibn al-Shihna, Ibn al-Zarrad, Ishaq al-Amidi, Ibn 'Asakir, al-Mizzi and Ibn al-Raddi among others, with ijazas from Egyptian scholars {cite:durar-kamina-jil-1993 1/374}."
+  ur: "زرکلی کے مطابق وہ اپنے والد کے ساتھ 709ھ میں دمشق منتقل ہوئے {cite:al-aalam 1/112}؛ ابن حجر لکھتے ہیں کہ ان کے والد 703ھ میں فوت ہوئے اور وہ دمشق میں پلے، جہاں انہوں نے ابن الشحنہ، ابن زراد، اسحاق آمدی، ابن عساکر، مزی اور ابن رضی سمیت دیگر سے سماعت کی اور مصری علماء سے اجازتیں حاصل کیں {cite:durar-kamina-jil-1993 1/374}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1310~", hijri: "0709", calendar: julian, precision: year, status: tradition, derived: true, note: "انتقل مع أبيه إلى دمشق سنة ٧٠٩هـ {cite:al-aalam 1/112}؛ وفي الدرر أن أباه مات سنة ٧٠٣هـ ونشأ بدمشق {cite:durar-kamina-jil-1993 1/374}؛ التحويل مشتق.", sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-kathir, role: "المنتقل الناشئ بدمشق", sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+sources: [source/al-aalam, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam j.1 pp. 112-113 (harvest OCR AAlexandrina-159187); Ibn Hajar, al-Durar al-Kamina 1/374 (harvest OCR DurarKamina__drkamth1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
