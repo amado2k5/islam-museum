@@ -2,7 +2,7 @@
 id: person/yahya-ibn-sarafiyun
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 19"]
 ---
 ## Overview
-Yahya ibn Sarafiyun. All that he composed was in Syriac, and he was at the height of the state. His two books on medicine were translated into Arabic: the great Kunnash, in twelve treatises, and the small Kunnash, in seven treatises, according to Ibn al-Nadim {cite:fihrist-ibn-al-nadim p.412}.
+Yahya ibn Sarafiyun, in the early days of the state, all of whose compositions were in Syriac; his two medical books were translated into Arabic — the Greater Kunnash of Yuḥanna in twelve discourses and the Lesser Kunnash in seven. {cite:fihrist-ibn-al-nadim p. 413}

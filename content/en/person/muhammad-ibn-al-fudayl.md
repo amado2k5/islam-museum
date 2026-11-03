@@ -2,8 +2,7 @@
 id: person/muhammad-ibn-al-fudayl
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 18"]
 ---
-
 ## Overview
-Muhammad ibn al-Fudayl ibn Ghazwan al-Dabbi, a client of theirs, known by the kunya Abu Abd al-Rahman. He died in 175 AH. Ibn al-Nadim lists among his books: a *Sunan* arranged in the order of the books of jurisprudence, a book of exegesis, one on asceticism, one on fasting, and one on supplication. {cite:fihrist-ibn-al-nadim p.316}
+Muhammad ibn al-Fudayl ibn Ghazwan al-Dabbi, their client, Abu Abd al-Rahman; he died in 175 AH, author of Kitab al-Sunan arranged like the books of fiqh, plus books on tafsir, asceticism and fasting. {cite:fihrist-ibn-al-nadim p. 285}
