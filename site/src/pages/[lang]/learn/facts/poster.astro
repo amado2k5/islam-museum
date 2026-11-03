@@ -18,7 +18,7 @@ const v = fact ? viewFact(fact, lang) : null;
 ---
 <BaseLayout lang={lang} title={E.fc_poster_title} description={E.fc_poster_note} path={path} noindex={true}>
   <div class="wrap edu fcp" style="padding-block:10px 24px">
-    <p class="ui no-print"><a href={`/${lang}/learn/facts/`}>← {E.fc_title}</a> · <button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
+    <p class="ui no-print"><a href={`/${lang}/learn/facts/`}><span class="flip" aria-hidden="true">←</span> {E.fc_title}</a> · <button type="button" class="chip" style="border:1px solid var(--gold);cursor:pointer" onclick="window.print()">{E.tp_print}</button></p>
     {v && (
       <section class="fcp-sheet">
         <p class="fcp-tag">{E.fc_dyk}</p>

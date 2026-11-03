@@ -26,7 +26,7 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
 ---
 <BaseLayout lang={lang} title={`${c.name[lang]} — ${W.title}`} description={c.street[lang]} path={`/${lang}/world/${c.iso}/`}>
   <div class="wrap" style="padding-block:1rem 3rem">
-    <p class="ui" style="margin-top:0"><a href={`/${lang}/world/`}>← {W.c_back}</a></p>
+    <p class="ui" style="margin-top:0"><a href={`/${lang}/world/`}><span class="flip" aria-hidden="true">←</span> {W.c_back}</a></p>
     <header class="wc-hero" data-region={c.region}>
       <span class="wc-flag"><WorldFlag iso={c.iso} /></span>
       <div>
@@ -93,8 +93,8 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
     <script type="application/json" id="wc-trivia-data" set:html={JSON.stringify(c.trivia.map((t: any) => t[lang])).replace(/</g, "\u003c")} />
 
     <nav class="wc-nav ui" aria-label={W.countries_title}>
-      <a class="wc-pn" href={`/${lang}/world/${prev.iso}/`}>← {prev.name[lang]}</a>
-      <a class="wc-pn" href={`/${lang}/world/${next.iso}/`}>{next.name[lang]} →</a>
+      <a class="wc-pn" href={`/${lang}/world/${prev.iso}/`}><span class="flip" aria-hidden="true">←</span> {prev.name[lang]}</a>
+      <a class="wc-pn" href={`/${lang}/world/${next.iso}/`}>{next.name[lang]} <span class="flip" aria-hidden="true">→</span></a>
     </nav>
   </div>
 </BaseLayout>

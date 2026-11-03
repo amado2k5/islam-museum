@@ -58,7 +58,7 @@ const desc = fmt(H.kitab_lede, { n: String(hadiths.length), name: labelOf(workNo
     wing="words"
   />
   <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
-    <p class="ui" style="margin:0 0 16px"><a class="chip" href={href(lang, kitabNode.id)}>{H.kitab_page} →</a>
+    <p class="ui" style="margin:0 0 16px"><a class="chip" href={href(lang, kitabNode.id)}>{H.kitab_page} <span class="flip" aria-hidden="true">→</span></a>
       {sunnahCollection(kitabNode.data.work) && <> <a class="chip" href={sunnahCollection(kitabNode.data.work)} rel="noopener">{T.hadith.on_sunnah} ↗</a></>}
     </p>
     <ol class="hd-list">

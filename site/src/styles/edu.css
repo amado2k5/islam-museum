@@ -3,6 +3,20 @@
    kids.css (teal 2a7b88, leaf 2f6b31, lapis 1b2a4a) so a band looks the same inside and outside the kids chrome. */
 .edu { --edu-leaf: #2f6b31; --edu-teal: #2a7b88; --edu-lapis: #1b2a4a; --edu-teal-ink: #113f4e; --edu-lapis-ink: #0a2533; }
 
+/* GorillaQA #14: the practice "mark" and "try again" controls were unstyled text.
+   Real buttons, same pill language as the site's chips/buttons, keyboard-focusable. */
+.edu-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 10px 22px; border-radius: 999px;
+  border: 1.5px solid var(--gold); background: var(--gold); color: #1d3a6e;
+  font-family: var(--sans); font-size: 0.95rem; font-weight: 700;
+  text-decoration: none; cursor: pointer;
+}
+html:is([lang="ar"], [lang="ur"]) .edu-btn { font-family: var(--ar-body); font-size: 1rem; }
+.edu-btn:hover { filter: brightness(1.06); text-decoration: none; }
+.edu-btn:focus-visible { outline: 3px solid var(--focus, var(--lapis)); outline-offset: 2px; }
+.edu-btn.ghost { background: transparent; color: var(--fg); }
+
 .edu-hero { background: var(--hero-bg); color: #f9f8f6; border-radius: 18px; padding: 24px 28px; margin: 10px 0 22px; }
 .edu-hero h1 { color: #fff; margin: 0 0 .3rem; }
 .edu-hero p { margin: 0; max-width: var(--measure); color: #e8e4da; font-size: 1.1rem; }
