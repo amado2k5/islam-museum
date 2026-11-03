@@ -2,14 +2,14 @@
 // and the validator rejects them at authoring time.
 import { describe, it, expect, vi } from "vitest";
 
-vi.mock("./graph", () => ({
+vi.mock("../site/src/lib/graph", () => ({
   byId: new Map(),
   href: (lang: string, id: string) => `/${lang}/${id}/`,
   labelOf: (n: any) => n?.label?.en ?? "",
   realNodes: [],
 }));
 
-import { renderProse } from "./markdown";
+import { renderProse } from "../site/src/lib/markdown";
 
 const PAYLOAD = '<img src=x onerror="alert(document.domain)">';
 const SCRIPT_LINK = "[click](javascript:alert(document.domain))";
@@ -48,7 +48,7 @@ describe("renderProse: raw HTML and script URLs are inert", () => {
 
 describe("proseUnsafeHtml: the validator rejects the payload at authoring time", () => {
   it("flags raw HTML tags", async () => {
-    const { proseUnsafeHtml } = await import("../../../scripts/validate");
+    const { proseUnsafeHtml } = await import("./validate");
     expect(proseUnsafeHtml(`Text.\n\n${PAYLOAD}`)).toMatch(/raw HTML/);
     expect(proseUnsafeHtml(SCRIPT_LINK)).toMatch(/javascript|data|vbscript/);
     expect(proseUnsafeHtml("No markup, only a [[concept/tawhid|link]] and {cite:sahih-al-bukhari}.")).toBeNull();
