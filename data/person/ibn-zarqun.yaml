@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن زرقون"
   en: "Ibn Zarqun"
-roles: [scholar]
+roles: [jurist, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن زرقون؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Zarqun; the entry is not yet checked on the page."
+  ar: "محمد بن سعيد ابن زرقون، فقيه مالكي أندلسي ومسندها في عصره عند الذهبي، ولي قضاء شلب وسبتة؛ توفي سنة 586هـ (1190م)."
+  en: "Muhammad Ibn Zarqun al-Ansari (1108–1190), Maliki jurist, musnid of al-Andalus, qadi of Silves and Ceuta."
 wings: [people]
 regions: [maghreb]
 periods: [period/umayyad]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q6535804
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.138)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

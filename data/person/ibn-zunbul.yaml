@@ -3,11 +3,11 @@ class: person
 label:
   ar: "ابن زنبل"
   en: "Ibn Zunbul"
-roles: [writer]
+roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن زنبل، مؤلف ومنجم مصري القرن السادس عشر، توفي سنة ١٥٧٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Zunbul, the sixteenth-century Egyptian author and astrologer, d. 1572; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن علي ابن زنبل، مؤرخ ومنجم مصري «الرمال»، صاحب «فتح مصر» و«سيرة السلطان سليم»؛ توفي بعد 980هـ (1572م)."
+  en: "Ahmad Ibn Zunbul (d. after 980/1572), Egyptian historian-astrologer called al-Rammal, author of Fath Misr."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q1655912
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0060
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.179)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
