@@ -1,0 +1,28 @@
+id: event/khatib-baghdadi-birth-392
+class: event
+kind: birth
+label:
+  ar: "ولادة الخطيب البغدادي، ٣٩٢هـ"
+  en: "Al-Khatib al-Baghdadi is born, 392/1002"
+  ur: "خطیب بغدادی کی پیدائش، 392ھ/1002ء"
+summary:
+  ar: "ولد الحافظ أبو بكر أحمد بن علي بن ثابت، المعروف بالخطيب البغدادي، سنة اثنتين وتسعين وثلاثمائة؛ وكان أبوه أبو الحسن الخطيب قد قرأ على أبي حفص الكتّاني وصار خطيب قرية درزيجان، إحدى قرى العراق تحت بغداد على دجلة بالجانب الغربي {cite:tarikh-islam-dhahabi p. 86}."
+  en: "The hafiz Abu Bakr Ahmad ibn 'Ali ibn Thabit, known as al-Khatib al-Baghdadi, was born in 392. His father Abu al-Hasan al-Khatib had heard al-Kattani and served as preacher of the village of Darzijan, one of the villages of Iraq below Baghdad on the west bank of the Tigris {cite:tarikh-islam-dhahabi p. 86}."
+  ur: "حافظ ابو بکر احمد بن علی بن ثابت، معروف بہ خطیب بغدادی، 392ھ میں پیدا ہوئے۔ ان کے والد ابوالحسن خطیب نے ابو حفص کتّانی سے سماعت کی تھی اور بغداد کے قریب دریائے دجلہ کے مغربی کنارے واقع گاؤں درزیجان کے خطیب تھے {cite:tarikh-islam-dhahabi p. 86}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1002", hijri: "0392", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وتسعين وثلاثمائة {cite:tarikh-islam-dhahabi p. 86}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/darzijan, sources: [source/tarikh-islam-dhahabi], note: "صار أبوه خطيب قرية درزيجان إحدى قرى العراق {cite:tarikh-islam-dhahabi p. 86}" }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "المولود", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-al-hasan-al-khatib, role: "الوالد", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 p. 86 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
