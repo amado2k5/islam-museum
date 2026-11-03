@@ -1,0 +1,22 @@
+id: person/al-hadira
+class: person
+label:
+  ar: "الحادرة"
+  en: "al-Hadira"
+  ur: "الحادرہ"
+names:
+  - { kind: full, lang: ar, value: "الحادرة (قطبة بن أوس بن محصن بن جرول)" }
+gender: male
+roles: [poet]
+summary:
+  ar: "شاعر جاهلي لقبه الحادرة، واسمه قطبة بن أوس بن محصن بن جرول كما في طبعة المفضليات؛ له قصيدة «بكرت سمية بكرة فتمتع» في المفضليات {{cite:mufaddaliyyat-rahmaniyya-1926 p.9}}."
+  en: "A pre-Islamic poet nicknamed al-Hadira, named Qutba ibn Aws ibn Muhsin ibn Jarwal in the edition of the Mufaddaliyyat; his ode \"Sumayya set out early\" is in the Mufaddaliyyat {{cite:mufaddaliyyat-rahmaniyya-1926 p.9}}."
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mufaddaliyyat-rahmaniyya-1926] }
+sources: [source/mufaddaliyyat-rahmaniyya-1926]
+status: { review: published, completeness: 1 }
+provenance: { layer: own-research, source: "المفضليات، المطبعة الرحمانية 1926، ص 9", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-mufaddaliyyat-1" }
