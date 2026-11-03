@@ -53,3 +53,11 @@ Sources: al-A'lam — yunus-ibn-abd-al-rahman (v8 p261), zayn-al-din-al-amidi (v
 **Leads added this batch:** `abd-al-basit-al-malati` (shadharat «الملطي» is Surayja b. Muhammad al-Barudi — different person), `abdallah-ibn-muhammad-al-shinshawri` (shadharat entry is Abd Allah b. Ahmad al-Shinshawri — patronymic differs, needs another source). shadharat cohort continues (~35 candidates in /tmp/shad.txt, many hit editor's introduction or neighbouring obituaries — vet by year heading).
 
 **Lane total: 158.**
+
+### Batch 8 (3 Nov 2026, 6 records, ar+en+ur) — Shadharat al-dhahab cohort, death-year verified
+
+Source: Ibn al-'Imad, Shadharat al-dhahab, OpenITI 2025.1.9 Sham30K0012398 (vol/page cited; entries verified under their `### ||| AUT سنة` year sections). Written: abd-al-ghani-al-maqdisi (v6 p560, year 600), al-firuzabadi (v9 p185, year 817), al-fasi-muhammad-ibn-ahmad (v9 p288, year ~832), ibn-shakir-al-kutubi (v8 p345, year 764), abd-al-qadir-al-nuaymi (v10 p209, year 927), hibat-allah-ibn-al-barizi (v8 p208, year 738 — the correct Hibat Allah entry; earlier hit was his grandfather Ibrahim). cite-check 6/6; validate 0 errors; tests pass; coverage regenerated.
+
+**Leads (shadharat false matches, formally logged):** ala-al-dawla-al-simnani (entry is Abd Allah b. Muhammad Abu al-Husayn al-Simnani — different person), badr-al-din-al-karkhi (only Ma'ruf al-Karkhi found), hafiz-al-din-al-nasafi (entry is Muhammad b. Zakariya al-Nasafi), abd-al-qadir-ibn-muhammad-al-jaziri (entry is Taj al-Din Muhammad b. Ahmad al-Jaziri), sayyid-ibn-tawus (only Tuways the singer found), kamal-al-din-ibn-abi-sharif, majd-al-din-al-baghdadi, izz-al-din-ibn-jamaa, muhibb-al-din-ibn-al-najjar (hits were teachers in others' obituaries or different persons), shaykh-al-saduq, sadr-al-sharia-al-asghar, burhan-al-din-ibn-al-qayyim, al-izz-ibn-fahd, ismail-ibn-jafar, umar-al-nasafi, abu-al-muin-al-nasafi, ibn-wahban, ibn-rushayd-al-sabti, ishak-pasha, mesih-pasha (no verified obituary in this edition).
+
+**Lane total: 164.**
