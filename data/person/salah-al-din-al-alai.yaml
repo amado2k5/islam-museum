@@ -3,11 +3,11 @@ class: person
 label:
   ar: "صلاح الدين العلائي"
   en: "Salah al-Din al-Ala'i"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لصلاح الدين خليل العلائي، محدث وفقيه شافعي القرن الرابع عشر، توفي سنة ١٣٥٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Salah al-Din Khalil al-Ala'i, the fourteenth-century Shafi'i muhaddith and jurist, d. 1359; the biographical entry is not yet checked on the page."
+  ar: "خليل العلائي «صلاح الدين»، محدث دمشقي فاضل، مدرس الصلاحية بالقدس، مصنفات في الحديث والفقه؛ توفي سنة 761هـ (1359م)."
+  en: "Khalil al-'Ala'i “Salah al-Din” (1295–1359), Damascene hadith scholar, teacher at the Salahiyya in Jerusalem."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
@@ -16,10 +16,10 @@ external_ids:
   wikidata: Q12190370
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0048
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.321)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
