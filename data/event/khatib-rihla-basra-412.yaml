@@ -1,0 +1,27 @@
+id: event/khatib-rihla-basra-412
+class: event
+kind: other
+label:
+  ar: "رحلة الخطيب إلى البصرة وهو ابن عشرين، ٤١٢هـ"
+  en: "Al-Khatib journeys to Basra at twenty, 412/1021"
+  ur: "بیس برس کی عمر میں خطیب کا بصرہ کا سفر، 412ھ/1021ء"
+summary:
+  ar: "رحل الخطيب إلى البصرة وهو ابن عشرين سنة، فسمع بها أبا عمر القاسمي بن جعفر الهاشمي راوي السنن، وعلي بن القاسم الشاهد، والحسن بن علي السابوري، وجماعة {cite:tarikh-islam-dhahabi p. 87}."
+  en: "Al-Khatib travelled to Basra at twenty years old and heard there Abu 'Umar al-Qasimi ibn Ja'far al-Hashimi, the transmitter of the Sunan, 'Ali ibn al-Qasim al-Shahid, al-Hasan ibn 'Ali al-Saburi and a circle of others {cite:tarikh-islam-dhahabi p. 87}."
+  ur: "خطیب بیس برس کی عمر میں بصرہ گئے اور وہاں ابو عمر قاسمی بن جعفر ہاشمی — راوی سنن — علی بن قاسم شاھد، حسن بن علی سابوری اور دیگر مشائخ سے سماعت کی {cite:tarikh-islam-dhahabi p. 87}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1021~", hijri: "0412~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل إلى البصرة وهو ابن عشرين سنة {cite:tarikh-islam-dhahabi p. 87}؛ السنة محسوبة من مولده ٣٩٢هـ؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الراحل الطالب", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 p. 87 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

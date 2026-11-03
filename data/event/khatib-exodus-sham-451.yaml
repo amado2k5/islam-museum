@@ -1,0 +1,27 @@
+id: event/khatib-exodus-sham-451
+class: event
+kind: migration
+label:
+  ar: "خروج الخطيب من بغداد إلى الشام بعد فتنة البساسيري، ٤٥١هـ"
+  en: "Al-Khatib leaves Baghdad for al-Sham after the Basasiri fitna, 451/1059"
+  ur: "فتنہ بساسیری کے بعد خطیب کا بغداد سے شام کو رحلت، 451ھ/1059ء"
+summary:
+  ar: "خرج الخطيب من بغداد بعد فتنة البساسيري لتشوش الحال إلى الشام سنة إحدى وخمسين وأربعمائة، فأقام بها إلى صفر سنة سبع وخمسين {cite:tarikh-islam-dhahabi p. 92}؛ ويذكر ابن الجوزي أنه استتر ثم خرج من بغداد إلى الشام فدمشق وصور وطرابلس وحلب {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}."
+  en: "Al-Khatib left Baghdad for al-Sham in 451, as conditions fell into turmoil after the Basasiri fitna, and stayed in al-Sham until Safar 457 {cite:tarikh-islam-dhahabi p. 92}. Ibn al-Jawzi relates that he went into hiding, then left Baghdad for al-Sham — Damascus, Tyre, Tripoli and Aleppo {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}."
+  ur: "خطیب فتنہ بساسیری کے بعد بگاڑے ہوئے حالات میں 451ھ میں بغداد سے شام چلے گئے اور صفر 457ھ تک وہاں رہے {cite:tarikh-islam-dhahabi p. 92}؛ ابن الجوزی کے مطابق وہ پہلے چھپے، پھر بغداد سے شام — دمشق، صور، طرابلس اور حلب — روانہ ہوئے {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1059", hijri: "0451", calendar: julian, precision: year, status: tradition, derived: true, note: "خرج منها بعد فتنة البساسيري لتشوش الحال إلى الشام سنة إحدى وخمسين {cite:tarikh-islam-dhahabi p. 92}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الخارج", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 p. 92 (harvest OCR 01.-_20240823__31); al-Muntazam j.8 pp. 265-267"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
