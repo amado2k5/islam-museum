@@ -66,3 +66,13 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the entry names Ibn Kemal and the Ottoman shaykh al-islam's office but does not name holders of the mufti post in the Ottoman provinces, so none is written.
   - FLAG: the entry's bibliography was not read. The modern Diyanet position is taken from the entry's own summary.
   - Next step: `job/sahib-al-barid` (postal and intelligence office) or `job/nazir-al-waqf`, after reading their DİA entries.
+- **3 November 2026 — Governance & Law, batch 7: `job/sahib-al-barid`.** One source entity read in full: `source/tdv-berid` (İbrahim Harekât, vol. 5 pp. 498–501, Turkish). The record is in Arabic, English and Urdu. One person record takes a `job/sahib-al-barid` entry, episodic: Yahya ibn Khalid al-Barmaki, whom Harun al-Rashid assigned to restore the postal service. The entry does not give him the title, so the note says so.
+  - FLAG: the entry names Kabisa ibn Zuayb (Umayyad) and Abd al-Malik al-Zayyat (Abbasid) as the most important heads of the post. The museum has no person records for either, so neither is written, and this batch carries one holder.
+  - FLAG: Alp Arslan abolished the postal service and Nizam al-Mulk restored it, according to the entry. Neither is written as a holder, because the entry does not give either of them the post.
+  - FLAG: the entry's bibliography was not read. The modern postal service is not described in detail.
+  - Next step: `job/nazir-al-waqf`, after reading its DİA entry.
+- **3 November 2026 — Patronage & Public Life, batch 8: `job/mutawalli`.** One source entity read in full: `source/tdv-mutevelli` (Nazif Öztürk, vol. 32 pp. 217–220, Turkish). The record is in Arabic, English and Urdu. No person record takes a `job/mutawalli` entry in this batch.
+  - FLAG: the entry names no historical trustee in its text. Its only named appointment is an image caption: Dersiâm Süyûtîzâde Mustafa Efendi, trustee of the Umayyad Mosque in Damascus by a tevcihname of Mahmud II (1224 AH / 1809). He has no person record, so he is not written. The founder decides whether to create one.
+  - FLAG: the entry dates the first administrative body empowered to appoint a deputy trustee to 995 AH (1586), the Haremeyn inspectorate. The record does not date the office itself.
+  - FLAG: the entry's bibliography was not read. The modern position is taken from the entry's own summary.
+  - Next step: a Governance & Law or Court & Administration job whose DİA entry names holders.

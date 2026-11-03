@@ -83,3 +83,8 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 34 (Hamasa 1916): Qurayt ibn Unayf's opening poem (6 bayts, pp. 6-7) with new person record.
 - PR 35 (Hamasa 1916): Ta'abbata Sharran (3, p. 17), Qays ibn al-Khatim (5, p. 49), Amr ibn Ma'dikarib (2, p. 45) (10 passages, 3 works).
 - PR 36 (Hamasa 1916): Abu Kabir al-Hudhali (6, pp. 19-20; a seventh bayt skipped as unclear).
+- PR 37 (Hamasa 1916): Jafar ibn Ulba al-Harithi (4, p. 11) with new person record. A fifth bayt of the opening was not read.
+- PR 38 (Hamasa 1916): al-Ashtar al-Nakha'i (4, p. 37, attached to person/malik-al-ashtar on the footnote's identification as Malik ibn al-Harith) and 'Our cousins' ascribed to al-Shamidhar al-Harithi (5, p. 30; footnote reports disputed attribution to Suwayd ibn Sumay').
+- PR 39 (Hamasa 1916): Qatari ibn al-Fuja'a (2, p. 38), Amir ibn al-Tufayl (2, p. 39).
+- PR 40 (Barquqi Hassan diwan, read from page renderings): `hassan-diwan-ya-har-qad-awwalta` (4, p. 45), `hassan-diwan-fakhartum-bil-liwa` (4, p. 62), `hassan-diwan-sail-quraysh-wa-ahlafaha` (6, pp. 62-63), `hassan-diwan-ya-har-in-kunta-imran` (5, p. 60; first bayt skipped, one word unclear), `hassan-diwan-khabat-banu-asad` (4, p. 77) (23 passages, 5 works).
+  - Next (stopped on the founder's instruction 2 Nov 2026): `dhakarta-al-qurum-al-sid` (reply to Quraysh, p. 66, tawil, 4 bayts read) and `abligh-rabia-wa-nawfal` (pp. 72-73, kamil, rha' rhyme, 6 bayts read; bayt 7 unclear); then more Barquqi poems (scan pages 47, 83, 116+), more Hamasa and Mufaddaliyyat.

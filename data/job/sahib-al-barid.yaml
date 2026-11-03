@@ -1,0 +1,48 @@
+id: job/sahib-al-barid
+class: job
+label: { ar: "صاحب البريد", en: "Postmaster and intelligence chief (sahib al-barid)", ur: "صاحبِ بَرید (ڈاک اور خفیہ اطلاعات کا سربراہ)" }
+summary:
+  ar: "صاحب البريد هو رئيس مصلحة البريد والاستخبارات في الدولة الإسلامية، يتولى نقل أوامر الحاكم إلى الولاة وأخبارهم إليه، ويرفع إليه ما يعرفه من أحوال الرعية والعمال. وقد كان للمنصب تنظيم في الدولتين الأموية والعباسية وفي الدول التالية، ثم تغيّر مع الدولة العثمانية إلى البريد الحديث في القرن التاسع عشر."
+  en: "The sahib al-barid was the head of the state postal and intelligence service. He carried the ruler's orders to the governors and their reports back, and he brought the ruler what he learned of the people and the officials. The post had a settled organisation under the Umayyads, the Abbasids and the states that followed. The Ottomans changed it into a modern postal service in the nineteenth century."
+  ur: "صاحبِ بَرید ریاست کی سرکاری ڈاک اور خفیہ اطلاعات کی مصلحت کا سربراہ تھا۔ وہ حاکم کے احکام گورنروں تک پہنچاتا اور ان کی رپورٹیں واپس لاتا، اور رعایا اور عہدیداروں کے حالات سے حاکم کو آگاہ کرتا تھا۔ اموی، عباسی اور بعد کی ریاستوں میں اس منصب کا ایک مستقل نظام تھا، اور عثمانیوں نے انیسویں صدی میں اسے جدید ڈاک میں بدل دیا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0680"
+    precision: decade
+    status: historical
+    note: "The entry says the Prophet sent letters by special messengers, and that a systematic postal service was set up by Muawiya (661–680). The widest range the entry supports runs from the Prophet's years to his reign. The title sahib al-barid is attested under the Umayyads."
+    sources: [source/tdv-berid]
+  status_today: replaced
+places:
+  - place: place/damascus
+    note: "Muawiya was the first Umayyad caliph to set up a systematic postal service, with four million dirhams taken from the treasury for it, according to the entry."
+    sources: [source/tdv-berid]
+  - place: place/baghdad
+    note: "Under the Abbasids the postal office (Diwan al-Barid) had about 930 stations, and the office also gathered intelligence. Al-Mahdi restored the link between Baghdad and Byzantine ports, according to the entry."
+    sources: [source/tdv-berid]
+  - place: place/cairo
+    note: "Under the Mamluks Baybars revived the postal service, and the entry gives journey times of about four days from Cairo to Damascus and five to Aleppo."
+    sources: [source/tdv-berid]
+  - place: place/kufa
+    note: "Under Umar post houses were built near Kufa for officials to stay in, according to the entry."
+    sources: [source/tdv-berid]
+regions: [arabia, levant-iraq, egypt-nile, andalus-europe, persia-central-asia, anatolia-balkans, maghreb]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "No formal training is recorded. The entry says the head of the post had to know the roads, the stations and the distances, and be wholly trustworthy, so judges were sometimes given the post."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-berid]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'BERÎD' (İbrahim Harekât), vol. 5, pp. 498–501, Istanbul 1992; web edition read in full on 3 Nov 2026. Rewritten by Claude Code. Holder recorded from the entry's own account: Yahya ibn Khalid al-Barmaki, assigned by Harun al-Rashid to restore the postal service."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-gl04"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

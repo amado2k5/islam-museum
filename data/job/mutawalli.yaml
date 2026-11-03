@@ -1,0 +1,45 @@
+id: job/mutawalli
+class: job
+label: { ar: "المتولّي (ناظر الوقف)", en: "Waqf trustee (mutawalli)", ur: "متولّی (وقف کا منتظم)" }
+summary:
+  ar: "المتولّي هو من يعيّنه الواقف أو القاضي لإدارة الوقف وفق شروط الواقف والشرع والأنظمة، فيُصلح عقاره ويؤجره بأجر المثل ويدفع أجور العاملين فيه ويحفظ حساباته. وله أجر معلوم يقدّره الواقف أو القاضي، ويُعزل إن خان أو أهمل. وفي الدولة العثمانية كان القضاة يعيّنون المتولّين، ثم تولّت الدولة إدارة الأوقاف بوزارة الأوقاف ثم بالمديرية العامة للأوقاف."
+  en: "The mutawalli was appointed by the founder of a waqf, or by the judge, to run it according to the founder's conditions, the law and the regulations. He kept the buildings in repair, rented the property at its market value, paid the wages of the staff and kept the accounts. He received a fixed pay set by the founder or the judge, and was removed for embezzlement or neglect. In the Ottoman state judges appointed the trustees, and later the state ran the waqfs through a ministry of waqfs and then the General Directorate of Foundations."
+  ur: "متولّی وہ شخص تھا جسے وقف کا بانی یا قاضی وقف کے انتظام کے لیے مقرر کرتا تھا، تاکہ وہ بانی کی شرائط، شریعت اور قواعد کے مطابق کام کرے۔ وہ عمارتوں کی مرمت کرتا، جائیداد کو مارکیٹ ریٹ پر کرائے پر دیتا، عملے کی تنخواہیں دیتا اور حساب رکھتا تھا۔ اسے بانی یا قاضی کی طے کردہ مقررہ تنخواہ ملتی تھی، اور خیانت یا غفلت پر معزول کیا جاتا تھا۔ عثمانی ریاست میں قاضی متولی مقرر کرتے تھے، اور بعد میں ریاست نے اوقاف کا انتظام وزارت اور پھر جنرل ڈائریکٹوریٹ آف فاؤنڈیشنز کے ذریعے سنبھالا۔"
+domain: patronage-public-life
+kind: administrative
+hirfa: false
+era:
+  origins: classical
+  first_attested:
+    edtf: "1586"
+    precision: year
+    status: historical
+    note: "The entry does not date the office itself. It dates the first administrative body with power to appoint a trustee for an endowment to 995 AH (1586), when the Haremeyn inspectorate was set up. Earlier appointments were made by judges under the jurists' rules, which the entry describes without a date."
+    sources: [source/tdv-mutevelli]
+  status_today: transformed
+places:
+  - place: place/istanbul
+    note: "The Evkaf-i Humayun inspectorate, set up by irade in 1831, was the only body that could appoint a trustee for the endowments in Istanbul and its surroundings, according to the entry. Endowments in the provinces stayed with the sharia courts."
+    sources: [source/tdv-mutevelli]
+  - place: place/mecca
+    note: "The Haremeyn inspectorate of 995 AH (1586) was set up for the endowments of Mecca and Medina, according to the entry."
+    sources: [source/tdv-mutevelli]
+  - place: place/damascus
+    note: "The entry illustrates the appointment of a trustee for the Umayyad Mosque in Damascus with a tevcihname issued in 1224 AH (1809) under Mahmud II."
+    sources: [source/tdv-mutevelli]
+regions: [anatolia-balkans, levant-iraq, arabia]
+organization:
+  organized: mixed
+training:
+  mode: mixed
+  certification: "No licence was required. The founder's deed set the conditions, and the jurists required the trustee to be sane, adult, just and trustworthy, with the knowledge and experience to run the work. The entry says a trustee need not be a Muslim under the Hanafi view, and that sons and daughters are treated alike where qualified."
+wings: [people]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-mutevelli]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MÜTEVELLİ' (Nazif Öztürk), vol. 32, pp. 217–220, Istanbul 2006; web edition read in full on 3 Nov 2026. Rewritten by Claude Code. No holder is recorded: the entry names no historical trustee in its text, and the only named appointment (Dersiâm Süyûtîzâde Mustafa Efendi, Umayyad Mosque, 1809) is an image caption without a person record."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-ct04"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
