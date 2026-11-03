@@ -2,11 +2,7 @@
 id: person/dubays
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), prose-fill-persons batch 16"]
 ---
-
 ## خلاصہ
-دبیس، محمد بن یزید ہیں، جو کندی کے شاگرد تھے۔ {cite:fihrist-ibn-al-nadim p.506}
-
-## ابن الندیم کے نزدیک
-ابن الندیم بتاتے ہیں کہ وہ کیمیا گری (صنعت) اور ظروف سازی کے کام میں لگے رہتے تھے۔ ان کی کتابوں میں «الجامع» اور «رنگوں، روشنائی اور سیاہی کی تیاری» شامل ہیں۔ {cite:fihrist-ibn-al-nadim p.506} ان کے استاد [[person/al-kindi|کندی]] تھے۔
+دبيس (محمد بن یزید)، کندی کا شاگرد، جو صنعت اور برانیات کے کام کرتا تھا؛ اس کی تصانیف میں کتاب الجامع اور رنگ، مرکب اور سیاہی بنانے کی کتاب شامل ہیں۔ {cite:fihrist-ibn-al-nadim p. 506}

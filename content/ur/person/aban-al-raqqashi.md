@@ -2,8 +2,7 @@
 id: person/aban-al-raqqashi
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), prose-fill-persons batch 16"]
 ---
-
 ## خلاصہ
-ابان بن عبد الحمید بن لاحق بن عفیر الرقاشی، کثیر الکلام شاعر، جن کا زیادہ تر کلام مزدوج میں ہے۔ انہوں نے کتاب «کلیلہ و دمنہ» کو شعر میں منتقل کیا۔ {cite:fihrist-ibn-al-nadim}
+ابان بن عبدالحمید بن لاحق بن عفیر رقاشی، کثیر الشعر شاعر جس کی اکثر شاعری مزدوج صورت میں تھی؛ اس نے کلیلہ و دمنہ کی کتاب کو نظم میں ڈھالا۔ {cite:fihrist-ibn-al-nadim p. 423}
