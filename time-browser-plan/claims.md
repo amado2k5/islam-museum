@@ -313,3 +313,23 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-03 | place/badr | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
 2026-11-03 | place/harran | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
 2026-11-03 | place/rayy | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/misr | copilot | claimed
+2026-11-03 | place/armenia | copilot | claimed
+2026-11-03 | place/ifriqiya | copilot | claimed
+2026-11-03 | place/azerbaijan | copilot | claimed
+2026-11-03 | place/ghazna | copilot | claimed
+2026-11-03 | place/al-fustat | copilot | claimed
+2026-11-03 | place/khilat | copilot | claimed
+2026-11-03 | place/al-sham | copilot | claimed
+2026-11-03 | place/hamadan | copilot | claimed
+2026-11-03 | place/ramla | copilot | claimed
+2026-11-03 | place/dimyat | copilot | claimed
+2026-11-03 | place/khurasan | copilot | claimed
+2026-11-03 | place/wasit | copilot | claimed
+2026-11-03 | place/yemen | copilot | claimed
+2026-11-03 | place/amid | copilot | claimed
+2026-11-03 | place/balkh | copilot | claimed
+2026-11-03 | place/fars | copilot | claimed
+2026-11-03 | place/jazira | copilot | claimed
+2026-11-03 | place/khwarizm | copilot | claimed
+2026-11-03 | place/mutah | copilot | claimed
