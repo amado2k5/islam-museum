@@ -46,3 +46,7 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the entry says Umar made Abd al-Rahman ibn Rabia judge of the army at Qadisiyya. His record describes him as a commander at Derbent under Uthman. Both are kept; the occupation note gives the entry's account.
   - FLAG: the `muftu` address on the encyclopedia is a cross-reference to the fatwa and Shaykh al-Islam articles, so the mufti job is not written from it. It waits for the fatwa article.
   - Next step: the next Court & Administration jobs, starting with `job/katib` and `job/hajib`.
+- **2 November 2026 — Phase 2, Court & Administration, batch 3: `job/katib`.** Two source-entity parts read in full from the TDV İslâm Ansiklopedisi entry `KÂTİP`: `source/tdv-katip` (first part, vol. 25 pp. 49–52; Ottoman part, pp. 53–55). The article is in Arabic, English and Urdu. Three person records take a `job/katib` entry: Hudhayfa ibn al-Yaman (episodic), Abd al-Hamid ibn Yahya (episodic), and Ibn al-Abbar (episodic).
+  - FLAG: two person records named in the entry are not updated, because their provenance block does not pass cite-check (source and generated_by missing). They predate this batch: `person/zayd-ibn-thabit` and `person/nasr-ibn-asim`. The founder decides how to repair them.
+  - FLAG: the Ottoman part gives the pay in akçe, and the Abbasid part in dinars. The article keeps both as the entry gives them, and does not convert them.
+  - Next step: the rest of Court & Administration (`job/hajib`, `job/treasurer`), then the Governance & Law wave.
