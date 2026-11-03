@@ -2,10 +2,7 @@
 id: person/al-burjulani
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 17"]
 ---
 ## Overview
-Al-Burjulani, whose name is Muhammad ibn al-Husayn and whose kunya is Abu Ja'far. Ibn al-Nadim counts him among the writers of books on asceticism and piety. {cite:fihrist-ibn-al-nadim p.262}
-
-## His books
-His books, as the "Fihrist" lists them, are "al-Suhba", "al-Mutayyamin", "al-Jud wa al-Karam", "al-Himma", "al-Sabr", and "al-Ta'a". {cite:fihrist-ibn-al-nadim p.262}
+Al-Burjulani — Muhammad ibn al-Husayn, Abu Ja'far — among the authors of the books of asceticism and piety; author of al-Suhba, al-Mutayyamin, al-Jud wa'l-Karam, al-Himma, al-Sabr and al-Ta'a. {cite:fihrist-ibn-al-nadim p. 269}
