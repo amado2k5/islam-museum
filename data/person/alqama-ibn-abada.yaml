@@ -1,0 +1,22 @@
+id: person/alqama-ibn-abada
+class: person
+label:
+  ar: "علقمة بن عبدة"
+  en: "Alqama ibn Abada"
+  ur: "علقمہ بن عبدہ"
+names:
+  - { kind: full, lang: ar, value: "علقمة بن عبدة" }
+gender: male
+roles: [poet]
+summary:
+  ar: "شاعر جاهلي له قصيدة في المفضليات فيها «فإن تسألوني بالنساء فإنني بصير بأدواء النساء طبيب»؛ تقدّمها الطبعة بقولها «وقال علقمة بن عبدة» {{cite:mufaddaliyyat-rahmaniyya-1926 p.186}}."
+  en: "A pre-Islamic poet with an ode in the Mufaddaliyyat that includes \"If you ask me about women, I am a skilled physician of women's ailments\"; the edition introduces it as \"Alqama ibn Abada said\" {{cite:mufaddaliyyat-rahmaniyya-1926 p.186}}."
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mufaddaliyyat-rahmaniyya-1926] }
+sources: [source/mufaddaliyyat-rahmaniyya-1926]
+status: { review: published, completeness: 1 }
+provenance: { layer: own-research, source: "المفضليات، المطبعة الرحمانية 1926، ص 186", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-mufaddaliyyat-3" }
