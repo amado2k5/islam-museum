@@ -2,9 +2,7 @@
 id: person/al-iskandar-al-afrudisi
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 19"]
 ---
 ## Overview
-Alexander of Aphrodisias, one of the masters who commented on the books of Aristotle. Ibn al-Nadim says that he commented on the "Categories", and commented twice on the "Prior Analytics" down to its fine figures, one commentary more complete than the other, and that he commented on other works too. He says some of his books were copied by Abu Zakariya, about three hundred leaves. {cite:fihrist-ibn-al-nadim p.348}
-
-The data do not record his birth or death, which needs an additional source.
+Alexander of Aphrodisias, elder among the commentators on Aristotle's books; he commented on the Categories and on the Prior Analytics down to the figures, in two commentaries of which one is more complete, besides other works — some of his books, it is said, were translated by Abu Uthman. {cite:fihrist-ibn-al-nadim p. 414}

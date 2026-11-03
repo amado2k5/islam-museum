@@ -137,3 +137,9 @@ Written: abu-uthman-al-dimashqi (Euclid translator), abu-uthman-al-mazini (Basra
 Written: bar-daysan, sari-al-raffa, masarjis, yaqub-ibn-tariq, salim-abul-ala, jabala-ibn-salim, nasr-ibn-muzahim, al-majishun, muhammad-ibn-al-fudayl, ibn-al-bazyar. cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 228.** ~25 fihrist thin candidates remain (weaker summaries); next sources: muntazam, tabari-tarikh (33 cited thin rows), muruj, ansab, tabaqat.
+
+### Batch 19 (3 Nov 2026, 10 records, ar+en+ur) — thin-file Fihrist cluster 4
+
+Written: al-sini, jir-ibn-ghalib, thamistiyus, yahya-ibn-sarafiyun, atarid-ibn-muhammad, jafar-al-khuldi, abu-al-husayn-al-khayyat, bashshar-ibn-burd, al-iskandar-al-afrudisi, mabad-al-juhani. cite-check 10/10; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 238.** Fihrist thin cluster winding down (~20 marginal candidates); next: muntazam, tabari (33), muruj (31), ansab, tabaqat.
