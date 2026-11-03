@@ -84,3 +84,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 35 (Hamasa 1916): Ta'abbata Sharran (3, p. 17), Qays ibn al-Khatim (5, p. 49), Amr ibn Ma'dikarib (2, p. 45) (10 passages, 3 works).
 - PR 36 (Hamasa 1916): Abu Kabir al-Hudhali (6, pp. 19-20; a seventh bayt skipped as unclear).
 - PR 37 (Hamasa 1916): Jafar ibn Ulba al-Harithi (4, p. 11) with new person record. A fifth bayt of the opening was not read.
+- PR 38 (Hamasa 1916): al-Ashtar al-Nakha'i (4, p. 37, attached to person/malik-al-ashtar on the footnote's identification as Malik ibn al-Harith) and 'Our cousins' ascribed to al-Shamidhar al-Harithi (5, p. 30; footnote reports disputed attribution to Suwayd ibn Sumay').
