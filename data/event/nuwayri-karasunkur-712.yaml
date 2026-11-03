@@ -1,0 +1,29 @@
+id: event/nuwayri-karasunkur-712
+class: event
+kind: other
+label:
+  ar: "فرار كراسنكر وأقوش إلى المغول وصمود النويري، ٧١٢هـ/١٣١٢م"
+  en: "The Karasunkur-Aqqush defection to the Mongols and al-Nuwayri's stand, 712/1312"
+  ur: "کراسنکر اور آقوش کی منگولوں سے الحاق اور نويری کی مزاحمت، 712ھ/1312ء"
+summary:
+  ar: "لما شرع السلطان الناصر، وقد كُوي بتجربة الخلع مرتين، في التخلص من الأمراء الكبار المهددين لملكه، أدرك نائب حلب شمس الدين كراسنكر أن لا خلاص له إلا في الفرار فسعى لاستمالة أمراء منهم نائب طرابلس وربما لإثارة العصيان بالشام، فزعم النويري وصلات مودة بالوالي وحاول ثنيه عن اتباع كراسنكر ويروي حديثه معه والحجج التي احتج بها؛ ومع ذلك فرّ الأمير — وكان نائب دمشق جمال الدين أقوش الأفرم من السابقين على عودة الناصر — إلى المغول وحاول حمله على اللحاق به مع أمراء طرابلس، فيحدث النويري كيف أقنعهم ألا يتبعوه إلا واحداً منهم وكيف جدّد لهم البيعة للسلطان {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}."
+  en: "When al-Nasir, stung by two depositions, set about eliminating the senior amirs who could threaten his rule, the governor of Aleppo, Shams al-Din Karasunkur, saw that his only hope of survival was flight and tried to win over amirs including the na'ib of Tripoli, perhaps to provoke an insurrection in Syria. Al-Nuwayri, claiming amicable relations with the governor, sought to dissuade him from following Karasunkur — he recounts the conversation and his arguments — but the amir nevertheless fled to the Mongols together with Damascus's governor Jamal al-Din Aqqush al-Afram and tried to induce al-Nuwayri and the amirs of Tripoli to join him; al-Nuwayri relates how he persuaded all but one to stay and induced them to renew their oath of allegiance to the sultan {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}."
+  ur: "جب دو بار تخت سے ہٹے الناصر نے بڑے امراء سے چھٹکارا پانے کی ٹھانی تو حلب کے نائب شمس الدین کراسنکر کو اپنی بقا صرف فرار میں نظر آئی اور اس نے طرابلس کے نائب سمیت بعض امراء کو اپنا ساتھ دینے پر ابھارا، شاید شام میں بغاوت بھڑکانے کے لیے۔ نويری، گورنر سے دوستانہ تعلق دعوی کرتے ہوئے، اسے کراسنکر کی پیروی سے روکنے لگے — گفتگو اور دلائل خود بیان کرتے ہیں — مگر امیر دمشق کے نائب جمال الدین آقوش افرم سمیت منگولوں کو فرار ہو گیا اور نويری اور طرابلس کے امراء کو ساتھ لینا چاہا؛ نويری بتاتے ہیں کہ انہوں نے سب کو — سوائے ایک کے — روک لیا اور سلطان کی بیعت تجدید کرائی {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1312", hijri: "0712", calendar: julian, precision: year, status: tradition, derived: true, note: "انشقاق كراسنكر وأقوش سنة ٧١٢هـ والنويري بطرابلس حتى جمادى الأولى ٧١٢هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/tarabulus-sham, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "المثني للأمراء والمجدد للبيعة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shams-al-din-karasunkur, role: "الفار إلى المغول", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jamal-al-din-aqqush-al-afram, role: "الفار إلى المغول", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 158 (harvest OCR Ned-Sam)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

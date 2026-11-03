@@ -1,0 +1,28 @@
+id: event/khatib-tripoli-munazara-447
+class: event
+kind: conference
+label:
+  ar: "مناظرة الخطيب في الخطابة بطرابلس، نحو ٤٤٧هـ"
+  en: "Al-Khatib's preaching disputation at Tripoli, c. 447/1055"
+  ur: "طرابلس میں خطیب کی مناظرہ خطابت، تقریباً 447ھ/1055ء"
+summary:
+  ar: "دخل الخطيب طرابلس في طريق عودته من الحج بحدود سنة ست أو سبع وأربعمائة، وكانت له مناظرة في الخطابة مع القاضي الحسين بن بشر صاحب دار العلم بطرابلس، دوّنها الكراجكي المتوفى سنة ٤٤٩هـ في رحلته ونقلها عنه ابن أبي طيء ثم ابن حجر في لسان الميزان {cite:tarikh-islam-dhahabi p. 93}."
+  en: "Al-Khatib entered Tripoli on his way back from the hajj, about 446–447, and held a disputation in the art of preaching with the qadi al-Husayn ibn Bishr, holder of Tripoli's Dar al-'Ilm; al-Karajaki (d. 449) recorded it in his rihla, from whom Ibn Abi Tayy transmitted it, then Ibn Hajar in Lisan al-Mizan {cite:tarikh-islam-dhahabi p. 93}."
+  ur: "خطیب حج سے واپسی پر تقریباً 446–447ھ میں طرابلس آئے اور وہاں دار العلم کے صاحب قاضی حسین بن بشر سے خطابت میں مناظرہ ہوا؛ کراجکی (وفات 449ھ) نے اسے اپنی رحلہ میں قلمبند کیا، پھر ابن ابی طیع اور ابن حجر نے لسان المیزان میں نقل کیا {cite:tarikh-islam-dhahabi p. 93}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1055~", hijri: "0447~", calendar: julian, precision: year, status: tradition, derived: true, note: "دخلها أول مرة بحدود سنة ٤٤٦ أو ٤٤٧ عند عودته من الحج، والمناظرة قبل وفاة الكراجكي ٤٤٩ {cite:tarikh-islam-dhahabi p. 93}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "المتناظر", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-husayn-ibn-bishr-al-tarabulusi, role: "صاحب دار العلم المتناظر", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 p. 93 n. (harvest OCR 01.-_20240823__31), citing al-Karajaki's rihla via Lisan al-Mizan 2/275"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -50,3 +50,24 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: two person records named in the entry are not updated, because their provenance block does not pass cite-check (source and generated_by missing). They predate this batch: `person/zayd-ibn-thabit` and `person/nasr-ibn-asim`. The founder decides how to repair them.
   - FLAG: the Ottoman part gives the pay in akçe, and the Abbasid part in dinars. The article keeps both as the entry gives them, and does not convert them.
   - Next step: the rest of Court & Administration (`job/hajib`, `job/treasurer`), then the Governance & Law wave.
+- **2 November 2026 — Phase 2, Court & Administration, batch 4: `job/hajib`.** One source entity read in full: `source/tdv-hacib` (Aydın Taneri, vol. 14 pp. 508–511, Turkish). The record is in Arabic, English and Urdu. Two person records take a `job/hajib` entry, both episodic: Ibn Khaldun (served as hajib to a Merinid sultan) and al-Mansur ibn Abi Amir (had his son made hajib and took the office's powers).
+  - FLAG: the entry does not settle whether Muawiya or Abd al-Malik founded the office under the Umayyads. The first-attested range is wide (622–705 AD) and marked debated.
+  - FLAG: the entry calls Ibn Khaldun's account of the office's development theoretical rather than historical. The record does not rely on it.
+  - FLAG: the Ottoman hajib and the modern successors are not covered by the entry. The entry's bibliography was not read for this record.
+  - Next step: `job/treasurer`, then the rest of Court & Administration.
+- **3 November 2026 — Phase 2, Court & Administration, batch 5: `job/treasurer`.** One source entity read in full: `source/tdv-hazinedar` (Erdoğan Merçil, vol. 17 pp. 141–143, Turkish). The record is in Arabic, English and Urdu. Five person records take a `job/treasurer` entry, all episodic: Umar ibn al-Khattab, Bilal ibn Rabah, Abu Ubayda ibn al-Jarrah, Muadh ibn Jabal and Abdullah ibn Masud (judge and treasury officer in Kufa).
+  - FLAG: the entry gives no dates for the early treasurers' appointments, so their occupation notes say so and no date is invented.
+  - FLAG: Ali appointed a treasury official titled hazin, but the entry does not say Ali held the post himself, so no Ali occupation is written.
+  - FLAG: the entry's bibliography was not read. The modern successors of the treasury in public finance are not covered.
+  - Next step: the rest of Court & Administration, starting with `job/mufti` once the fatwa article is read.
+- **3 November 2026 — Governance & Law, batch 6: `job/mufti`.** One source entity read in full: `source/tdv-fetva` (Fahrettin Atar, vol. 12 pp. 486–496, Turkish; the web text was read in two passes). The record is in Arabic, English and Urdu. Fifteen person records take a `job/mufti` entry: Companions and Followers named by the entry as fatwa-givers (Ali, Umar, Abdullah ibn Masud, Abdullah ibn Umar, Abdullah ibn Abbas, Aisha, Abu Bakr, Uthman, Anas ibn Malik, Abu Hurayra, Abu al-Darda, Ubayy ibn Kab, Abu Dhar, Ibrahim al-Nakha'i), and Dursun Fakih of the Ottoman period. The Companions are episodic; Dursun Fakih is secondary.
+  - FLAG: `person/said-ibn-al-musayyab` is not updated, because his provenance block has no source and so does not pass cite-check. The gap predates this batch. The founder decides how to repair it.
+  - FLAG: the entry does not give dates for the Companions' fatwas, so their notes name the group and do not give dates.
+  - FLAG: the entry names Ibn Kemal and the Ottoman shaykh al-islam's office but does not name holders of the mufti post in the Ottoman provinces, so none is written.
+  - FLAG: the entry's bibliography was not read. The modern Diyanet position is taken from the entry's own summary.
+  - Next step: `job/sahib-al-barid` (postal and intelligence office) or `job/nazir-al-waqf`, after reading their DİA entries.
+- **3 November 2026 — Governance & Law, batch 7: `job/sahib-al-barid`.** One source entity read in full: `source/tdv-berid` (İbrahim Harekât, vol. 5 pp. 498–501, Turkish). The record is in Arabic, English and Urdu. One person record takes a `job/sahib-al-barid` entry, episodic: Yahya ibn Khalid al-Barmaki, whom Harun al-Rashid assigned to restore the postal service. The entry does not give him the title, so the note says so.
+  - FLAG: the entry names Kabisa ibn Zuayb (Umayyad) and Abd al-Malik al-Zayyat (Abbasid) as the most important heads of the post. The museum has no person records for either, so neither is written, and this batch carries one holder.
+  - FLAG: Alp Arslan abolished the postal service and Nizam al-Mulk restored it, according to the entry. Neither is written as a holder, because the entry does not give either of them the post.
+  - FLAG: the entry's bibliography was not read. The modern postal service is not described in detail.
+  - Next step: `job/nazir-al-waqf`, after reading its DİA entry.

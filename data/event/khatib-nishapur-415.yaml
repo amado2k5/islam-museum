@@ -1,0 +1,29 @@
+id: event/khatib-nishapur-415
+class: event
+kind: other
+label:
+  ar: "رحلة الخطيب إلى نيسابور وإصبهان وهو ابن ثلاث وعشرين، ٤١٥هـ"
+  en: "Al-Khatib journeys to Nishapur and Isfahan at twenty-three, 415/1024"
+  ur: "تئیس برس کی عمر میں خطیب کا نیشاپور اور اصفہان کا سفر، 415ھ/1024ء"
+summary:
+  ar: "رحل الخطيب إلى نيسابور وهو ابن ثلاث وعشرين سنة، ثم رحل إلى إصبهان؛ وكان قد استشار البرقاني في الرحلة إلى ابن النحاس بمصر أو إلى أصحاب الأصم بنيسابور، فقال له: إن خرجت إلى مصر تخرج إلى رجل واحد إن فاتك ضاعت رحلتك، وإن خرجت إلى نيسابور ففيها جماعة إن فاتك واحد أدركت من بقي، فخرج إلى نيسابور؛ وكتب معه البرقاني كتاباً إلى أبي نعيم يوصيه به {cite:tarikh-islam-dhahabi pp. 87-91}."
+  en: "Al-Khatib travelled to Nishapur at twenty-three and then on to Isfahan. He had consulted al-Barqani whether to journey to Ibn al-Nahhas in Egypt or to the circle of al-Asamm's companions at Nishapur; al-Barqani told him that in Egypt there was one man and the journey would be lost if he missed him, while Nishapur held many — and wrote with him a letter of recommendation to Abu Nu'aym {cite:tarikh-islam-dhahabi pp. 87-91}."
+  ur: "خطیب تئیس برس کی عمر میں نیشاپور گئے اور پھر اصفہان۔ انہوں نے برقانی سے مشورہ کیا کہ مصر میں ابن النحاس کے پاس جائیں یا نیشاپور میں اصحابِ اصم کے پاس؛ برقانی نے کہا مصر میں ایک ہی شخص ہے، نیشاپور میں جماعت ہے — اور ابو نعیم کے نام سفارشی خط بھی لکھوایا {cite:tarikh-islam-dhahabi pp. 87-91}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1024~", hijri: "0415~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل إلى نيسابور وهو ابن ثلاث وعشرين سنة ثم رحل إلى إصبهان {cite:tarikh-islam-dhahabi p. 87}؛ السنة محسوبة من مولده ٣٩٢هـ؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الراحل الطالب", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-barqani-ahmad-ibn-muhammad, role: "المستشار والموصي", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-nuaym-al-asbahani-ahmad, role: "المكتوب إليه", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 pp. 87-91 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

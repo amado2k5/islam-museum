@@ -43,7 +43,7 @@ relations:
   - { type: participated_in, target: event/conquest-of-mecca, role: called-the-first-adhan-from-the-kaaba, sources: [source/ibn-sad-tabaqat-bewley] }
 external_ids:
   wikidata: Q493136
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour, source/assabile-mosaad-anwar]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
   layer: own-research
@@ -51,3 +51,9 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch5"
+occupations:
+  - job: job/treasurer
+    kind: episodic
+    status: historical
+    note: "The entry names him among the Companions appointed treasurer (sahib bayt al-mal). The entry gives no dates for the post."
+    sources: [source/tdv-hazinedar]

@@ -1,0 +1,33 @@
+id: person/mosaad-anwar
+class: person
+label:
+  ar: "مسعد أنور"
+  en: "Mosaad Anwar"
+  ur: "مسعد انور"
+names:
+  - { value: "مسعد أنور", kind: full }
+  - { value: "Mosaad Anwar", kind: alternate }
+  - { value: "Mos'ad Anwar", kind: alternate }
+gender: male
+summary:
+  ar: "داعية إسلامي مصري يقدّم برامج دينية على القنوات الفضائية، أشهرها على قناة الرحمة، وله دروس ومحاضرات في المساجد؛ يحفظ له أرشيف أسابيل سلسلتين: «المبشرون بالجنة» في سِيَر من بُشّروا بالجنة من الصحابة والصحابيات (ثمانٍ وعشرون حلقة)، و«وصايا الرسول للنساء» (أربع عشرة حلقة، باسم «همسات» في الأرشيف)."
+  en: "Egyptian Islamic preacher who presents religious programmes on satellite channels, best known on al-Rahma channel, and gives lessons and lectures in mosques; the Assabile archive keeps two series of his: 'Those Given Glad Tidings of Paradise', on the lives of the Companions, men and women, promised Paradise (twenty-eight episodes), and 'The Prophet's Counsels to Women' (fourteen episodes, filed as 'Hamasat' in the archive)."
+  ur: "مصری اسلامی داعی جو سیٹلائٹ چینلوں پر دینی پروگرام پیش کرتے ہیں، جن میں سب سے مشہور الرحمہ چینل پر ہیں، اور مساجد میں دروس و محاضرات دیتے ہیں؛ اسابیل آرکائیو میں ان کے دو سلسلے محفوظ ہیں: «المبشرون بالجنة»، جنت کی بشارت پانے والے صحابہ و صحابیات کی سیرتوں پر (اٹھائیس اقساط)، اور «وصايا الرسول للنساء» (چودہ اقساط، آرکائیو میں «ہمسات» کے نام سے)۔"
+roles: [preacher]
+wings: [people, today]
+regions: [egypt-nile]
+periods: [period/contemporary-era]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic Wikipedia article (revision 73718077) nor Wikidata (Q56798360) names a school of law or creed for him; Wikidata has no religion statement. In his recordings he teaches from the Qur'an and the Sunna and cites the two Sahihs, al-Albani and al-Dhahabi, but a lecture counts as one source at most. Recorded as unknown under the publication-standard faith rule."
+    sources: [source/wikipedia-mosaad-anwar-ar, source/wikidata-mosaad-anwar]
+external_ids: { wikidata: "Q56798360" }
+sources: [source/wikipedia-mosaad-anwar-ar, source/wikidata-mosaad-anwar, source/assabile-mosaad-anwar]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «مسعد أنور» (revision 73718077) and Wikidata Q56798360 (revision 1392595901), both read 2 November 2026; no English article exists; the Assabile speaker page https://www.assabile.com/mosaad-anwar and the transcripts of the-ten-promised-paradise ep01-ep28 and hamasat ep01-ep14 (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: assabile-egypt-anwar-1
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-anwar-1" }

@@ -1,0 +1,27 @@
+id: event/nuwayri-qus-697
+class: event
+kind: other
+label:
+  ar: "النويري في الصعيد: أنياب الفيلة بقوص، ٦٩٧هـ/١٢٩٨م"
+  en: "Al-Nuwayri in Upper Egypt: elephant tusks at Qus, 697/1298"
+  ur: "نويری صعید میں: قوص میں ہاتھی کے دانتے، 697ھ/1298ء"
+summary:
+  ar: "تشهد أطراف كتابه أن النويري أقام قبل سنة ٦٩٨هـ بعض وقته بالصعيد وعموم مصر: ففي فصول الزراعة يتحدث عن أقاليم زارها وممارسات لاحظها ملاحظة شخصية، وفي باب الحيوان يذكر أنياب الفيلة التي رآها بقوص سنة ٦٩٧هـ/١٢٩٨م {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}."
+  en: "Details scattered through his work show that before 698/1298 al-Nuwayri spent some time in Upper Egypt and in Egypt generally: in the chapters on agriculture he speaks from personal experience of districts visited and practices observed, and in the section on animals he mentions the elephant tusks he saw at Qus in 697/1298 {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}."
+  ur: "ان کی کتاب کے بال بچے اشارے ظاہر کرتے ہیں کہ 698ھ/1298ء سے پہلے نويری نے صعید اور عموماً مصر میں کچھ وقت گزارا: فصولِ زراعت میں وہ ان علاقوں اور رسومات کی بات ذاتی مشاہدے سے کرتے ہیں، اور بابِ حیوان میں وہ ہاتھی کے دانتے یاد کرتے ہیں جو انہوں نے قوص میں 697ھ/1298ء میں دیکھے تھے {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1297", hijri: "0697", calendar: julian, precision: year, status: tradition, derived: true, note: "ذكر أنياب الفيلة التي رآها بقوص في 697/1298 {cite:encyclopaedia-of-islam-2 vol. 8 p. 156}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/qus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "المشاهد", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 156 (harvest OCR Ned-Sam)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
