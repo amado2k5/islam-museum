@@ -1,5 +1,5 @@
 // Prose renderer: marked + wiki-links [[class/slug|text]], {cite:source p.N}, :::perspectives blocks.
-import { marked } from "marked";
+import { Marked } from "marked";
 import { byId, href, labelOf, realNodes } from "./graph";
 import type { Lang } from "./i18n";
 
@@ -7,6 +7,40 @@ export interface Cite { n: number; source: string; locator?: string }
 export interface Rendered { html: string; cites: Cite[]; perspectives: { tradition: string; html: string }[] }
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const escTitle = (s: string) => esc(s).replace(/'/g, "&#39;");
+// Prose has no raw-HTML construct (scripts/validate.ts rejects it), and marked does not sanitize
+// link targets: escape every raw HTML token so it renders as text, and render the link or image
+// text only when the target uses a script scheme.
+const BAD_SCHEME = /^\s*(javascript|data|vbscript)\s*:/i;
+const cleanHref = (h: string | null): string | null => {
+  if (h == null || BAD_SCHEME.test(h)) return null;
+  try {
+    return encodeURI(h).replace(/^%([a-fA-F0-9]{2})$/, "%");
+  } catch {
+    return null;
+  }
+};
+const markedSafe = new Marked({
+  renderer: {
+    html: ({ text }) => esc(text),
+    link({ href, title, tokens }) {
+      const text = this.parser.parseInline(tokens);
+      const clean = cleanHref(href);
+      if (clean === null) return text;
+      let out = '<a href="' + clean + '"';
+      if (title) out += ` title="${escTitle(title)}"`;
+      return out + ">" + text + "</a>";
+    },
+    image({ href, title, text, tokens }) {
+      const alt = tokens ? this.parser.parseInline(tokens, this.parser.textRenderer) : text;
+      const clean = cleanHref(href);
+      if (clean === null) return esc(alt);
+      let out = `<img src="${clean}" alt="${alt}"`;
+      if (title) out += ` title="${escTitle(title)}"`;
+      return out + ">";
+    },
+  },
+});
 
 // Honorifics, one place so the policy stays uniform and reversible. The Prophet gets ﷺ after the first mention, and each
 // Companion gets the Sunni formula after the first mention, per article (see newHonState). Headings and tables are left alone.
@@ -79,7 +113,7 @@ export function honorify(html: string, lang: Lang, state: HonState = newHonState
 export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const cites: Cite[] = [];
 
-  // Applied to text nodes of already-rendered HTML (marked has escaped everything else).
+  // Applied to text nodes of already-rendered HTML (raw HTML in the source is escaped by markedSafe's renderer).
   const transform = (html: string) =>
     html.replace(/(^|>)([^<]+)(?=<|$)/g, (_m, lead: string, text: string) =>
       lead +
@@ -100,11 +134,11 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   md = md.replace(/^:::perspectives\n([\s\S]*?)\n:::\s*$/gm, (_m, body: string) => {
     for (const line of body.split("\n")) {
       const m = line.match(/^- \*\*(.+?)\*\*:\s*(.+)$/);
-      if (m) perspectives.push({ tradition: m[1], html: transform(marked.parseInline(m[2], { async: false }) as string) });
+      if (m) perspectives.push({ tradition: m[1], html: transform(markedSafe.parseInline(m[2], { async: false }) as string) });
     }
     return "";
   });
 
-  const html = honorify(transform(marked.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang, hon);
+  const html = honorify(transform(markedSafe.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang, hon);
   return { html, cites, perspectives };
 }
