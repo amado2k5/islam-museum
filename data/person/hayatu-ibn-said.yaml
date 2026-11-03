@@ -1,0 +1,44 @@
+id: person/hayatu-ibn-said
+class: person
+label: { ar: "حياة بن سعيد", en: "Hayatu ibn Sa'id", ur: "حیاتو ابن سعید" }
+names:
+  - { value: "حياة بن سعيد بن محمد بلو", kind: full }
+  - { value: "Hayatu ibn Sa'id ibn Muhammad Bello", kind: full }
+  - { value: "Hayatu Balda", kind: alternate }
+  - { value: "Shehu Hayatu ibn Sa'id", kind: alternate }
+gender: male
+summary:
+  ar: "عالم من صكتو وقائد المهدية في السودان الأوسط (نحو 1840–1898)، حفيد حفيد عثمان دان فوديو؛ بايع المهدي السوداني محمد أحمد سنة 1883 فنصّبه نائبًا له على خلافة صكتو، وأقام دولة مهدية في بلدا بأداماوا، وهزم أميرها زبير سنة 1893، ثم تحالف مع رابح الزبير فصار إمام بورنو، وقُتل سنة 1898 وهو يحاول الفرار من ديكوا."
+  en: "Sokoto scholar and the leading Mahdist leader of the Central Sudan (c. 1840–1898), great-grandson of Usman dan Fodio. In 1883 he pledged allegiance to the Sudanese Mahdi, Muhammad Ahmad, who appointed him his deputy over the Sokoto Caliphate; he built a Mahdist state at Balda in Adamawa, defeated its Lamido Zubeiru in 1893, then allied with Rabih az-Zubayr and served as Imam of Bornu, and was killed in 1898 trying to flee Dikwa."
+  ur: "سکوٹو کے عالم اور وسطی سوڈان میں مہدی تحریک کے سب سے بڑے رہنما (تقریباً 1840–1898)، جو عثمان دان فودیو کے پرپوتے تھے۔ 1883 میں انھوں نے سوڈانی مہدی محمد احمد کی بیعت کی، جنھوں نے انھیں خلافت سکوٹو پر اپنا نائب مقرر کیا؛ انھوں نے اداماوا کے بلدا میں مہدی ریاست قائم کی، 1893 میں وہاں کے امیر زبیرو کو شکست دی، پھر رابح الزبیر سے اتحاد کر کے بورنو کے امام بنے، اور 1898 میں ڈکوا سے فرار کی کوشش میں مارے گئے۔"
+roles: [scholar, general]
+wings: [people]
+periods: [period/colonial-era]
+regions: [west-africa-sahel]
+born:
+  edtf: "1840~"
+  precision: year
+  status: historical
+  derived: true
+  note: "Born around 1840 in Sokoto, likely in Kofar Rini where his father resided, per the English and French articles; the Hausa article and Wikidata Q126724980 give the plain year 1840, and the record's ~ marks the articles' 'around'. No Hijri year is recorded: about 1840 spans 1255–1257 AH. No place entity exists for Sokoto, so no born_in edge is written."
+  sources: [source/wikipedia-hayatu-ibn-said-en, source/wikipedia-hayatu-ibn-said-fr, source/wikipedia-hayatu-ibn-said-ha, source/wikidata-hayatu-ibn-said]
+died:
+  edtf: "1898"
+  precision: year
+  status: historical
+  derived: true
+  note: "Killed in January 1898 outside Dikwa, in the fight that followed his attempted flight from Rabih az-Zubayr's Bornu, attested by the English and French articles; the Hausa article and Wikidata give 1898. No Hijri year is recorded: 1898 spans 1315 and 1316 AH. No place entity exists for Dikwa, so no died_in edge is written."
+  sources: [source/wikipedia-hayatu-ibn-said-en, source/wikipedia-hayatu-ibn-said-fr, source/wikipedia-hayatu-ibn-said-ha, source/wikidata-hayatu-ibn-said]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a legal school or a Sufi order for the man himself. The full texts of the English, French and Hausa articles attest his Islamic scholarship in the Sokoto tradition and, decisively, his allegiance to the Sudanese Mahdi: in 1883 Muhammad Ahmad appointed him his deputy (amil) over the Sokoto Caliphate, he preached the Mahdi's advent from Balda, and he served as Imam of Rabih's Bornu — a Mahdist allegiance and offices, recorded here and in the prose, which are not a madhhab or tariqa and settle no enum value. Sokoto formally rejected the Mahdi's claim; Hayatu's descent from Usman dan Fodio (whose own record attests the grandfather as Maliki and Qadiri for the grandfather himself) is descent, never counted under the two-source rule. His Wikidata item carries no religion statement."
+    sources: [source/wikipedia-hayatu-ibn-said-en, source/wikipedia-hayatu-ibn-said-fr, source/wikipedia-hayatu-ibn-said-ha, source/wikidata-hayatu-ibn-said]
+external_ids: { wikidata: "Q126724980" }
+sources: [source/wikipedia-hayatu-ibn-said-en, source/wikipedia-hayatu-ibn-said-fr, source/wikipedia-hayatu-ibn-said-ha, source/wikidata-hayatu-ibn-said]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Hayatu ibn Sa'id' (revision 1359749447 of 17 June 2026), French Wikipedia 'Hayatu ibn Sa'id' (revision 235108170 of 13 April 2026), Hausa Wikipedia 'Hayatu ibn Sa'id' (revision 598332 of 15 March 2025) and Wikidata Q126724980 (item revision 2564131306 of 3 November 2026), all fetched live in-session on 3 November 2026, every revision id re-asserted identical on a second live query. Built under the founder's lineage-resolution ruling of 3 November 2026 (collective row D2, 'Usman Dan Fodio's Grandchildren', resolved into him and Abd al-Qadir dan Tafa). Existence checked in this worktree before building: no prior record held this man under any slug or QID (the hayat-* files are other people). No Urdu article about him exists, so the Urdu label and summary are the lane's own translations. His father Sa'id ibn Bello and his ally Rabih az-Zubayr have no museum records, and Sokoto, Balda and Dikwa have no place entities, so no relation edges are written; his descent (son of Sa'id, grandson of Muhammad Bello, great-grandson of Usman dan Fodio) is stated in the prose."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
