@@ -1,0 +1,39 @@
+id: person/roger-garaudy
+class: person
+label: { ar: "روجيه غارودي", en: "Roger Garaudy", ur: "روجیہ گارودی" }
+names:
+  - { value: "Roger Garaudy", kind: full }
+  - { value: "روجيه غارودي", kind: full }
+gender: male
+summary:
+  ar: "فيلسوف فرنسي، وُلد في مرسيليا سنة 1913، اعتنق البروتستانتية صبيًّا ثم انضم إلى الحزب الشيوعي الفرنسي وصار من مفكريه ونائبًا في البرلمان، ثم نقد الماركسية وفُصل من الحزب سنة 1970، ودعا إلى حوار الحضارات، وأعلن إسلامه في جنيف سنة 1982، وتوفي سنة 2012، بحسب رواية طارق السويدان."
+  en: "French philosopher, born in Marseille in 1913, who became a Protestant as a boy, then a leading thinker and parliamentarian of the French Communist Party; he broke with Marxism and was expelled from the Party in 1970, called for a dialogue of civilisations, declared his Islam in Geneva in 1982 and died in 2012, as Tareq al-Suwaidan recounts."
+  ur: "فرانسیسی فلسفی، 1913 میں مارسیلیا میں پیدا ہوئے؛ لڑکپن میں پروٹسٹنٹ ہوئے، پھر فرانسیسی کمیونسٹ پارٹی کے نمایاں مفکر اور رکنِ پارلیمان بنے؛ مارکسزم پر تنقید کی اور 1970 میں پارٹی سے نکالے گئے، تہذیبوں کے مکالمے کی دعوت دی، 1982 میں جنیوا میں اسلام قبول کیا اور 2012 میں وفات پائی، طارق السویدان کی روایت کے مطابق۔"
+roles: [philosopher, writer, politician]
+wings: [people]
+themes: [converts-and-leavers, islam-and-christianity, islam-and-secular-thought, interfaith-dialogue]
+regions: [andalus-europe, global]
+periods: [period/modern-era, period/contemporary-era]
+born:
+  edtf: "1913"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Marseille, as Tareq al-Suwaidan states (kissa-wa-fikra ep27 00:01:30)."
+  sources: [source/assabile-tareq-al-suwaidan]
+died:
+  edtf: "2012"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "South of Paris, aged about 99, as al-Suwaidan states (ep27 00:25:00-00:25:30); the year is split across two transcript windows and agrees with the stated age."
+  sources: [source/assabile-tareq-al-suwaidan]
+story_roles:
+  - { role: convert, start: { edtf: "1982" }, status: historical, note: "Declared his Islam at the Islamic Centre in Geneva, per al-Suwaidan (ep27 00:15:30).", sources: [source/assabile-tareq-al-suwaidan] }
+  - { role: philosopher, status: historical, sources: [source/assabile-tareq-al-suwaidan] }
+faith:
+  - { value: christian, basis: documented, start: { edtf: "1927" }, end: { edtf: "1982" }, note: "Became a Protestant at 14 in 1927, per al-Suwaidan (ep27 00:02:00); also a member of the French Communist Party from 1933.", sources: [source/assabile-tareq-al-suwaidan] }
+  - { value: unknown, basis: unknown, start: { edtf: "1982" }, note: "Declared his Islam in 1982 (al-Suwaidan, ep27 00:15:30); no source in hand names a school, so none is recorded.", sources: [source/assabile-tareq-al-suwaidan] }
+sources: [source/assabile-tareq-al-suwaidan]
+provenance: { layer: copyrighted-reference, source: "Assabile, kissa-wa-fikra ep27 (Tareq al-Suwaidan, 'the search for truth'); transcript pass5-qwen, Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, read through the loop-collapsing reader", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: suwaidan-kissa-wa-fikra-1 }
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5); run suwaidan-kissa-wa-fikra-1" }
