@@ -1,0 +1,47 @@
+id: person/pir-baba
+class: person
+label: { ar: "سيد علي الترمذي", en: "Pir Baba", ur: "پیر بابا" }
+names:
+  - { value: "Sayyid Ali Tirmizi", kind: full }
+  - { value: "سيد علي ترمذي", kind: full }
+  - { value: "Hazrat Syed Ali Tirmizi", kind: alternate }
+  - { value: "Pir Baba", kind: laqab }
+gender: male
+summary:
+  ar: "سيد علي الترمذي (نحو 908هـ/1502م – 991هـ/1583م)، المشهور بـ«پير بابا»، وليّ صوفي حسيني النسب جاء من آسيا الوسطى واستقر في بونير (خيبر بختونخوا في باكستان اليوم) بين البشتون اليوسفزيين، حيث نشر الإسلام وواجه حركة پير روشن (بايزيد الأنصاري) الروشنائية مع تلميذه آخوند درويزه؛ كان مريدًا وخليفة لخواجه سالار عطاء الله الجشتي الرومي، وضريحه في باچا كِلّي ببونير ما يزال مقصدًا للزائرين."
+  en: "Sayyid Ali Tirmizi (c. 908 AH/1502 CE – 991 AH/1583 CE), known as Pir Baba, was a Hussaini Sayyid Sufi who came from Central Asia and settled in Buner, in present-day Khyber Pakhtunkhwa, Pakistan, among the Yusufzai Pashtuns, where he spread Islam and, with his disciple Akhund Darweza, opposed Pir Roshan (Bayazid Ansari) and the Roshnai movement. He was a disciple and khalifa of Khwaja Salaar Ataullah Chishti Roomi; his shrine at Pacha Killay in Buner is still visited."
+  ur: "سید علی ترمذی (تقریباً 908ھ/1502ء – 991ھ/1583ء)، جو «پیر بابا» کے نام سے مشہور ہیں، حسینی سادات سے تعلق رکھنے والے صوفی بزرگ تھے جو وسطی ایشیا سے آکر بونیر (موجودہ خیبر پختونخوا، پاکستان) میں یوسف زئی پشتونوں کے درمیان آباد ہوئے، جہاں انھوں نے اسلام کی اشاعت کی اور اپنے شاگرد آخوند درویزہ کے ساتھ پیر روشن (بایزید انصاری) اور اس کی روشنائی تحریک کی مخالفت کی؛ وہ خواجہ سالار عطاء اللہ چشتی رومی کے مرید و خلیفہ تھے، اور بونیر کے پاچا کلے میں ان کا مزار آج بھی زائرین کا مرکز ہے۔"
+roles: [mystic, teacher]
+wings: [people]
+regions: [persia-central-asia, south-asia]
+born:
+  edtf: "1502~"
+  hijri: "0908"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born about 908 AH (1502 CE), a Hussaini Sayyid. The birthplace is contested between the two article texts: the English article gives Fergana (present-day Uzbekistan); the Simple English article gives Qundoos (Kunduz), Tirmiz, Khurasan. Both readings are preserved; neither Fergana nor Kunduz has a place entity, so no born_in edge is written. Devotional genealogies name his father as Sayyid Qanbar Ali Tirmizi, who is said to have come to India in Babur's army; that tradition is carried in prose, not in the date block."
+  sources: [source/wikipedia-pir-baba-en, source/wikipedia-pir-baba-simple]
+died:
+  edtf: "1583"
+  hijri: "0991"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Died in Rajab 991 AH (1583 CE) at Buner and was buried at Pacha Killay, where his shrine stands. The two article texts agree on 991 AH/1583 CE; a devotional biography page misprints the Gregorian year of 26 Rajab 991 as 1593, and a Buner district history gives 1575 — both preserved here as minority readings and not followed. Buner has no place entity, so no died_in or buried_in edge is written."
+  sources: [source/wikipedia-pir-baba-en, source/wikipedia-pir-baba-simple]
+relations: []
+faith:
+  - value: sufi
+    basis: documented
+    note: "Settled on two independent article texts attesting Sufi affiliation for the man himself. The English article calls him in its lead 'a Sufi Pir' and says he 'was a stalwart of the Chishti, Kabrawi, Sarwardi, and Qadri Sufi order[s]', a disciple of Salaar Roomi; the Simple English article, independently worded, calls him 'a Sufi Muslim saint of the Kubrawiya order' who spread Islam among the Pashtuns. The devotional tradition adds the mechanism: he was the murid and khalifa of Khwaja Salaar Ataullah Chishti Roomi of Ajmer, who directed him to Buner. The orders named across the texts differ in emphasis (Chishti first in the English article, Kubrawiya in the Simple article), so the value is the plain sufi and the orders are preserved here rather than narrowed. No text read names a legal school for him."
+    sources: [source/wikipedia-pir-baba-en, source/wikipedia-pir-baba-simple]
+sources: [source/wikipedia-pir-baba-en, source/wikipedia-pir-baba-simple]
+provenance:
+  layer: own-research
+  source: "Built in wave 186 under the founder's rulings review of 3 November 2026, which resolved the identity 'Sayyid Ali at-Tirmidhi, Pir Baba (1502–1583), Sayyid Sufi settler of Buner'; the texts confirm the identity and the Hijri dates. Read in full on 3 November 2026: the English and Simple English Wikipedia articles; the shrine tradition's own pages (pirbaba.org as cited by the English article, and the Aal-e-Qutub and Wali Allah devotional biographies) were read in search extracts for the father's name, the Ajmer discipleship and the sons, and are used in prose only, flagged as devotional tradition. Existence was checked by name fragments (pir-baba, tirmizi, tirmidhi) across data/person/ and data/source/: the existing Tirmidhi records are the hadith scholar and theologians of earlier centuries, not this man. The reading tool does not expose numeric Wikipedia revision ids, so none is recorded; the articles were fetched twice with identical text. His teacher Salaar Roomi and his disciple Akhund Darweza have no museum records, and neither Buner nor Fergana/Kunduz has a place entity, so no relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-186-writer-b
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
