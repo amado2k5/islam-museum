@@ -91,3 +91,6 @@ translators: []
 
 ### الدرس الذي يستخلصه
 يقول السويدان إن الحسين لم ينتصر في المعركة، لكن الذين قتلوه لم يستقم لهم الأمر، فسقطت الدولة الأموية بعد نحو ستين سنة، وثبت بتضحيته مبدأ أن اختيار الحاكم حق للأمة {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep19 00:13:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep19 00:14:00}. ويرى أن الأصل في ذكرى الحسين ليس البكاء بل الاقتداء {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep20 00:02:30}. ويختم السلسلة بأن من آمن بمبدأ ضحّى من أجله، ويعبّر عن حسرته الشخصية إلى اليوم على مقتله {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep23 00:22:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep23 00:22:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep23 00:23:00}.
+
+## في برنامج عبد الرحمن منصور «أهالينا»
+يذكر [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] الحسين مع أخيه الحسن في برنامجه [[work/ahaleena|«أهالينا»]]: أنهما كانا يركبان ظهر النبي وهو يصلي، وأن النبي نزل عن المنبر في خطبة الجمعة فحملهما لما تعثرا في المسجد. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:08:00} ويذكر أن النبي قبّلهما، وأنهما كانا يجلسان في مجلسه وهما صغيران، ويستدل بذلك على أن يُسمع رأي الصغير ولا يُحتقر. {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:06:00}

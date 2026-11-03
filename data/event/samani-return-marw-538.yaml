@@ -1,0 +1,28 @@
+id: event/samani-return-marw-538
+class: event
+kind: other
+label:
+  ar: "عودة السمعاني إلى مرو واستقراره وتزوّجه وولادة ابنه عبد الرحيم، ٥٣٨هـ/١١٤٣م"
+  en: "Al-Sam'ani returns to Marw, marries, and his son 'Abd al-Rahim is born, 538/1143"
+  ur: "سمعانی کی مرو واپسی، شادی اور بیٹے عبدالرحیم کی پیدائش، 538ھ/1143ء"
+summary:
+  ar: "عاد السمعاني إلى وطنه مرو سنة ثمان وثلاثين وخمسمائة، فتزوج ووُلد له أبو المظفر عبد الرحيم، فاعتنى به وأسمعه الكثير {cite:tarikh-islam-dhahabi p. 120}؛ وفي الشذرات ولادة عبد الرحيم سنة سبع وثلاثين {cite:shadharat-dhahab p. 75}."
+  en: "Al-Sam'ani returned to his home town Marw in 538 (1143), married, and his son Abu al-Muzaffar 'Abd al-Rahim was born; he devoted himself to the boy and gave him many hearings {cite:tarikh-islam-dhahabi p. 120}. The Shadharat dates 'Abd al-Rahim's birth to 537 {cite:shadharat-dhahab p. 75}."
+  ur: "سمعانی 538ھ (1143ء) میں اپنے وطن مرو واپس آئے، شادی کی اور ان کے ہاں ابوالمظفر عبدالرحیم پیدا ہوئے؛ انہوں نے بیٹے کی خاص توجہ کی اور اسے بکثرت سماعت کرائی {cite:tarikh-islam-dhahabi p. 120}۔ شذرات میں عبدالرحیم کی ولادت 537ھ درج ہے {cite:shadharat-dhahab p. 75}۔"
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1143~", hijri: "0538", calendar: julian, precision: year, status: tradition, derived: true, note: "عاد إلى وطنه سنة ثمان وثلاثين فتزوج وولد له أبو المظفر عبد الرحيم {cite:tarikh-islam-dhahabi p. 120}؛ وفي الشذرات مولد الابن سنة ٥٣٧هـ {cite:shadharat-dhahab p. 75}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/merv, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-samani, role: "العائد إلى وطنه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-samani-abd-al-rahim, role: "المولود", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 562, printed p. 120 (harvest OCR); Ibn al-'Imad, Shadharat al-Dhahab, printed p. 75 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-samani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

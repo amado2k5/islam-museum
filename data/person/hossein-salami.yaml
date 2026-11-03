@@ -1,0 +1,50 @@
+id: person/hossein-salami
+class: person
+label: { ar: "حسين سلامي", en: "Hossein Salami", ur: "حسین سلامی" }
+names:
+  - { value: "Hossein Salami", kind: full }
+gender: male
+summary:
+  ar: "حسين سلامي (١٩٦٠ – ١٣ حزيران ٢٠٢٥) لواء إيراني قاد الحرس الثوري الإسلامي من ٢٠١٩ حتى مقتله في غارة إسرائيلية في طهران عند بدء حرب الاثني عشر يومًا؛ التحق بالحرس مع اندلاع الحرب العراقية الإيرانية، وقاد قوته الجوية وبرامجه الصاروخية، وعُرف بخطبه النارية ضد الولايات المتحدة وإسرائيل والسعودية."
+  en: "Hossein Salami (1960 - 13 June 2025) was an Iranian major general who commanded the Islamic Revolutionary Guard Corps from 2019 until he was killed in an Israeli airstrike in Tehran at the start of the Twelve-Day War; he joined the IRGC at the outbreak of the Iran-Iraq War, commanded its aerospace force and missile programmes, and was known for fiery speeches against the United States, Israel and Saudi Arabia."
+  ur: "حسین سلامی (1960 – 13 جون 2025) ایرانی میجر جنرل تھے جنھوں نے 2019 سے بارہ روزہ جنگ کے آغاز میں تہران پر اسرائیلی فضائی حملے میں ہلاکت تک سپاہ پاسداران کی قیادت کی؛ وہ ایران عراق جنگ کے آغاز پر پاسداران میں شامل ہوئے، اس کی فضائی قوت اور میزائل پروگراموں کی قیادت کی، اور امریکہ، اسرائیل و سعودی عرب کے خلاف پرجوش تقریروں کے لیے معروف تھے۔"
+roles: [general]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1960-08-01"
+  hijri: "1380"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 August 1960 in Golpayegan, Isfahan province, attested by the English article's lead and by Wikidata's birth statement; the English article's body and the Arabic article give the year 1960 alone. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1380 AH."
+  sources: [source/wikipedia-hossein-salami-en, source/wikipedia-hossein-salami-ar, source/wikidata-hossein-salami]
+died:
+  edtf: "2025-06-13"
+  hijri: "1446"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Killed on 13 June 2025 in Tehran in an Israeli airstrike at the start of the Twelve-Day War, attested by the English and Arabic articles and by Wikidata's death statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1446 AH."
+  sources: [source/wikipedia-hossein-salami-en, source/wikipedia-hossein-salami-ar, source/wikidata-hossein-salami]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Structured data alone names a faith for Hossein Salami: his Wikidata item carries a religion
+      statement (Shia Islam, Q9585). Neither the English nor the Arabic article's prose names a
+      faith for the man himself. The Twelver identity of the Islamic Revolutionary Guard Corps and
+      of the Iranian state he served is institutional and office context, which settles nothing
+      for the man himself, and the two-independent-texts precondition for the Shia mapping is not
+      met by any reliable text read. The value is therefore unknown.
+    sources: [source/wikipedia-hossein-salami-en, source/wikipedia-hossein-salami-ar, source/wikidata-hossein-salami]
+external_ids: { wikidata: Q16050995 }
+sources: [source/wikipedia-hossein-salami-en, source/wikipedia-hossein-salami-ar, source/wikidata-hossein-salami]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Hossein Salami' revision 1374577822 of 12 September 2026; Arabic Wikipedia article 'حسين سلامي' revision 76346074 of 26 August 2026; Wikidata item Q16050995 revision 2549418881 of 25 September 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query). His birth is given as 1 August 1960 by the English article's lead and by Wikidata; the English body and the Arabic article give the year 1960 alone. This is the batch's one deceased subject: wings [people] only. No record or draft stub for him existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 1960-2025 dates are correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }

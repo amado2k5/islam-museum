@@ -1,0 +1,28 @@
+id: event/ibn-asakir-first-sama-505
+class: event
+kind: other
+label:
+  ar: "أول سماع ابن عساكر على يد أخيه الصائن في الجامع الأموي، نحو ٥٠٥هـ/١١١١م"
+  en: "Ibn 'Asakir's first hadith hearings under his brother al-Sa'in at the Umayyad Mosque, c. 505/1111"
+  ur: "اموی مسجد میں ابن عساکر کا بھائی صائن سے پہلا سماعتِ حدیث کا دور، تقریباً 505ھ/1111ء"
+summary:
+  ar: "سمّعه أخوه الصائن هبة الله سنة خمس وخمسمائة وبعدها من الشريف أبي القاسم النسيب وأبي القاسم قوام بن زيد وأبي الوحش سبيع بن قيراط وجماعة {cite:tarikh-islam-dhahabi p. 71}؛ فتعلم مبادئ النحو عن جده لأمه القاضي أبي الفضل يحيى بن علي الكرشي، ثم نحو سنة خمس وخمسمائة صار يحضر تدريس أخيه الأكبر بالجامع، فحفظ التلقين وبدأ الحديث بأسانيده {cite:encyclopaedia-of-islam-2 vol. 3 p. 745-746}."
+  en: "His elder brother al-Sa'in Hibat Allah had him heard the texts in 505 and after, from al-Sharif Abu al-Qasim al-Nasib, Abu al-Qasim Qawwam ibn Zayd, Abu al-Wahsh Subay' ibn Qayrat and others {cite:tarikh-islam-dhahabi p. 71}. He had first learned grammar from his maternal grandfather, the qadi Abu al-Fadl Yahya ibn 'Ali al-Kurashi; then, about 505/1111, he began attending his brother's teaching at the Great Mosque, learning to recite and starting on hadith with its isnads {cite:encyclopaedia-of-islam-2 vol. 3 p. 745-746}."
+  ur: "بڑے بھائی صائن ہبۃ اللہ نے 505ھ اور اس کے بعد انہیں شریف ابوالقاسم نسیب، ابوالقاسم قوام بن زید، ابوالوحش سبیع بن قیراط اور دیگر سے سماعت کرائی {cite:tarikh-islam-dhahabi p. 71}؛ پہلے نانا قاضی ابوالفضل یحییٰ بن علی کرشی سے نحو پڑھی، پھر تقریباً 505ھ/1111ء میں جامع مسجد میں بھائی کے دروس میں شرکت شروع کی اور اسانید کے ساتھ حدیث کا آغاز کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 745-746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1111~", hijri: "0505", calendar: julian, precision: year, status: tradition, derived: true, note: "سمّعه أخوه الصائن سنة خمس وخمسمائة {cite:tarikh-islam-dhahabi p. 71}؛ about 505/1111 {cite:encyclopaedia-of-islam-2 vol. 3 p. 745-746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "السامع الصغير", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-sain-hibat-allah-ibn-asakir, role: "الأخ المسمّع", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed p. 71 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed pp. 745-746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

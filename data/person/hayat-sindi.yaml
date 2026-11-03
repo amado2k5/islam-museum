@@ -1,0 +1,50 @@
+id: person/hayat-sindi
+class: person
+label: { ar: "حياة سندي", en: "Hayat Sindi", ur: "حیات سندی" }
+names:
+  - { value: "Hayat Sulaiman Sindi", kind: full }
+  - { value: "Hayat Sindi", kind: alternate }
+  - { value: "Hayat Al Sindi", kind: alternate }
+gender: female
+summary:
+  ar: "حياة سليمان سندي (وُلدت في 6 تشرين الثاني 1967 في مكة) عالمة تقنية حيوية سعودية، أول سعودية تحصل على الدكتوراه في التقنية الحيوية من جامعة كامبردج (2001)، ومؤسسة معهد الابتكار ومعهد الخليج ومشروع «التشخيص للجميع» للفحوص الطبية رخيصة التكلفة؛ عضوة في مجلس الشورى السعودي منذ 2013 وسفيرة اليونسكو للنوايا الحسنة للعلوم منذ 2012."
+  en: "Hayat Sulaiman Sindi (born 6 November 1967 in Mecca) is a Saudi biotechnologist, the first Saudi woman to earn a PhD in biotechnology from the University of Cambridge (2001), and founder of the Institute for Imagination and Ingenuity and of the Diagnostics for All project for low-cost medical testing; she has been a member of Saudi Arabia's Consultative Assembly since 2013 and a UNESCO Goodwill Ambassador for the sciences since 2012."
+  ur: "حیات سلیمان سندی (پیدائش 6 نومبر 1967، مکہ) سعودی بائیو ٹیکنالوجسٹ ہیں، کیمبرج یونیورسٹی سے بائیو ٹیکنالوجی میں پی ایچ ڈی کرنے والی پہلی سعودی خاتون (2001)، اور سستے طبی ٹیسٹوں کے منصوبے «تشخیص برائے سب» کی بانی؛ وہ 2013 سے سعودی مجلس شوریٰ کی رکن اور 2012 سے سائنس کے لیے یونیسکو کی خیرسگالی سفیر ہیں۔"
+roles: [scientist, politician]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1967-11-06"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 6 November 1967 in Mecca, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; November 1967 falls inside 1386 AH, a year that began in April 1967."
+  sources: [source/wikipedia-hayat-sindi-en, source/wikipedia-hayat-sindi-ar, source/wikidata-hayat-sindi]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-hayat-sindi-en, source/wikipedia-hayat-sindi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a legal school for Hayat Sindi herself. The English
+      article documents her practice: she 'wears the traditional Muslim
+      headscarf' and 'was pressured to abandon her religious and cultural
+      beliefs while at university; she persisted, holding the view that a
+      person's religion, color, or gender has no bearing on scientific
+      contributions'. Documented practice settles a school value in this lane
+      only inside an attested living tradition context, and no school, order
+      or initiation is named for her anywhere; the Arabic article is silent
+      on her faith. Her Wikidata item carries a single religion statement
+      classified as Sunni Islam, which is structured data and settles
+      nothing. The value is therefore unknown.
+    sources: [source/wikipedia-hayat-sindi-en, source/wikipedia-hayat-sindi-ar, source/wikidata-hayat-sindi]
+external_ids: { wikidata: Q5686100 }
+sources: [source/wikipedia-hayat-sindi-en, source/wikipedia-hayat-sindi-ar, source/wikipedia-hayat-sindi-ur, source/wikidata-hayat-sindi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Hayat Sindi' revision 1383413900 of 2 November 2026; Arabic Wikipedia article 'حياة سندي' revision 70044407 of 31 March 2025; Urdu Wikipedia article 'حیات سندی' revision 11178834 of 23 June 2026; Wikidata item Q5686100 revision 2549712619 of 26 September 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API and re-asserted identical on a second query). The Wikidata item is the one linked from the English article itself. The Arabic article gives her fuller name, Hayat Sulaiman Sindi. No record or draft stub of any kind for her existed on main when this record was built (checked against origin/main on 2 November 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-183p"
+status: { review: published }

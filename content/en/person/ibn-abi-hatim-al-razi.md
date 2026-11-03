@@ -1,0 +1,11 @@
+---
+id: person/ibn-abi-hatim-al-razi
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-3"]
+---
+
+## In «Asdaf al-Lu'lu'» by Abu Ishaq al-Heweny
+[[person/abu-ishaq-al-heweny|Abu Ishaq al-Heweny]] says he has read Ibn Abi Hatim's «al-Ilal» more than a hundred times in his life, that it is like mathematics to him, and that each time he finds something new. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep10 00:04:30} Most of his notes are on the old two-volume edition, and he records the places where later scholars quote «al-Ilal» for passages missing from the printed text, such as Ibn Hajar in «al-Talkhis al-Habir» and al-Dhahabi in «al-Mizan». {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:04:00} He reads from it a question on divorce under duress and draws the lesson that a hadith may be fabricated without a liar in its chain, and that scholars distinguish the fabricated from the false (batil). {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:05:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:06:00}
+
+He describes his own work on «al-Ilal»: Ibn Abi Hatim asks his father or Abu Zur'a, the two Razis, about a hadith, and they say "munkar" without giving the reason; he traces every route he can reach and criticises them, then agrees or disagrees, arguing at length when he disagrees. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:09:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:09:30} He says a lifetime would not suffice for the whole book, so he chose about five of its books: Purity, Tafsir, Renunciation, Marriage and Funerals; the Book of Purity alone will come out in three volumes, and he has put more effort into it than into «Badhl al-Ihsan». {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:10:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:10:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:11:00} He mentions that Ibn Abi Hatim's tafsir is in ten volumes in Dr al-Turki's edition, and regrets that it does not number the hadiths and reports. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:05:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:06:00}

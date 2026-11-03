@@ -1,27 +1,54 @@
 id: person/shaykh-al-tusi
 class: person
-label:
-  ar: "الشيخ الطوسي"
-  en: "al-Shaykh al-Tusi"
-roles: [scholar, writer]
+label: { ar: "الشيخ الطوسي", en: "al-Shaykh al-Tusi", ur: "شیخ طوسی" }
+names:
+  - { kind: full, lang: ar, value: "أبو جعفر محمد بن الحسن بن علي الطوسي" }
+  - { kind: kunya, lang: ar, value: "أبو جعفر" }
+  - { kind: nisba, lang: ar, value: "الطوسي" }
+  - { kind: laqab, lang: ar, value: "شيخ الطائفة" }
 gender: male
+born: { edtf: "0995-09~", hijri: "0385-09", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بطوس في رمضان ٣٨٥هـ/٩٩٥م {cite:encyclopaedia-of-islam-2 vol. 10 p. 744}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/al-aalam] }
+died: { edtf: "1067-11~", hijri: "0460-01", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بالمشهد المبارك بالنجف في المحرم سنة ٤٦٠هـ {cite:tarikh-islam-dhahabi p. 490}؛ الإنكليزية تعطي ٤٥٩ أو ٤٦٠هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 745}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+roles: [scholar, writer, theologian, jurist]
 summary:
-  ar: "بطاقة أولية لأبي جعفر محمد بن الحسن الطوسي، شيخ الطائفة، علّامة الإمامية صاحب «التهذيب» و«الاستبصار» و«الفهرست»، توفي سنة ١٠٦٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ja'far Muhammad ibn al-Hasan al-Tusi, 'Shaykh al-Ta'ifa', the Imami scholar author of al-Tahdhib, al-Istibsar and the Fihrist, d. 1067; the biographical entry is not yet checked on the page."
+  ar: "أبو جعفر محمد بن الحسن بن علي الطوسي، شيخ الطائفة وعلّامة الإمامية؛ ولد بطوس سنة ٣٨٥هـ/٩٩٥م وقدم بغداد سنة ٤٠٨هـ فلازم الشيخ المفيد ثم كان أبرز تلاميذ الشريف المرتضى وخلفه في رئاسة الشيعة سنة ٤٣٦هـ، وقرّبه الخليفة القائم فجعله على أعلى كرسي للكلام بالعاصمة، وصارت داره بالكرخ مركز الإمامية العلمي حتى أحرقت داره ومكتبته سنة ٤٤٩هـ فلجأ إلى النجف وبها توفي سنة ٤٦٠هـ ودُفن فيها؛ له «التبيان» و«التهذيب» و«الاستبصار» و«الفهرست» و«الرجال» {cite:encyclopaedia-of-islam-2 vol. 10 pp. 744-745} {cite:tarikh-islam-dhahabi p. 490-491}."
+  en: "Abu Ja'far Muhammad ibn al-Hasan ibn Ali al-Tusi, 'Shaykh al-Ta'ifa' and leading scholar of Imami Shi'ism; born at Tus in Ramadan 385/995, he moved to Baghdad in 408/1017, studied under al-Shaykh al-Mufid and then became the principal disciple of al-Sharif al-Murtada, succeeding him at the head of the capital's Shi'a in 436/1044. The caliph al-Qa'im gave him the chief chair of theology and his Karkh house was the Imami intellectual centre until it was sacked and burned in 449/1057, when he took refuge at Najaf, dying there in Muharram 460/1067; author of al-Tibyan, Tahdhib al-Ahkam, al-Istibsar, the Fihrist and the Rijal {cite:encyclopaedia-of-islam-2 vol. 10 pp. 744-745} {cite:tarikh-islam-dhahabi p. 490-491}."
+  ur: "ابو جعفر محمد بن حسن بن علی طوسی، 'شیخ الطائفہ' اور امامیہ کے ممتاز علم؛ طوس میں 385ھ/995ء میں پیدا ہوئے، 408ھ/1017ء میں بغداد آئے، شیخ مفید سے پڑھے اور پھر شریف مرتضیٰ کے مخصوص شاگرد بنے اور 436ھ/1044ء میں ان کی وفات پر دارالخلافہ کے شیعوں کے سرکردہ عالم ہوئے؛ خلیفہ قائم نے انہیں کلام کی اہم ترین کرسی دی اور ان کا کرخ کا گھر امامیہ کا علمی مرکز رہا یہاں تک کہ 449ھ/1057ء میں جلا دیا گیا، جس پر وہ نجف میں پناہ گزین ہوئے اور وہیں محرم 460ھ/1067ء میں فوت ہوئے؛ تصانیف: التبیان، تہذیب الاحکام، الاستبصار، فہرست اور رجال {cite:encyclopaedia-of-islam-2 vol. 10 pp. 744-745} {cite:tarikh-islam-dhahabi p. 490-491}۔"
 wings: [people]
-regions: [persia-central-asia, levant-iraq]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions, sects-and-schools]
 periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
 faith:
-- { value: shia-twelver, basis: tradition, note: "head of the Imami school ('shaykh al-ta'ifa') per the biographical tradition" }
-sources: [source/al-aalam]
+- { value: shia-twelver, basis: tradition, note: "head of the Imami school ('shaykh al-ta'ifa') per the biographical tradition {cite:encyclopaedia-of-islam-2 vol. 10 p. 745}" }
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: born_in, target: place/tus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: died_in, target: place/najaf, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: student_of, target: person/al-shaykh-al-mufid, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/al-sharif-al-murtada, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/al-tibyan-fi-tafsir-al-quran, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+  - { type: authored, target: work/tahdhib-al-ahkam, sources: [source/tarikh-islam-dhahabi, source/al-aalam] }
+  - { type: authored, target: work/al-istibsar, sources: [source/tarikh-islam-dhahabi] }
+  - { type: authored, target: work/rijal-al-tusi, sources: [source/tarikh-islam-dhahabi] }
+  - { type: authored, target: work/uddat-al-usul-tusi, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: authored, target: work/amali-al-tusi, sources: [source/al-aalam] }
+  - { type: participated_in, target: event/tusi-arrives-baghdad-408, role: "الطالب القادم من خراسان", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-al-mufid-413, role: "تلميذه الذي تحوّل بعده إلى الشريف المرتضى", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/tusi-succeeds-murtada-436, role: "الخليفة في رئاسة الشيعة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/sunni-adhan-restoration-448, role: "هرب ونهبت داره وأحرقت كتبه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: participated_in, target: event/tusi-refuge-najaf-449, role: "اللاجئ إلى النجف", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
+  - { type: participated_in, target: event/death-shaykh-al-tusi-460, role: "المتوفى بالمشهد", sources: [source/tarikh-islam-dhahabi] }
 external_ids:
   wikidata: Q4116347
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0015
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 art. AL-TUSI, MUHAMMAD B. AL-HASAN B. 'ALI printed pp. 744-745 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 460 printed pp. 490-491 (harvest OCR); al-Muntazam j.8 pp. 514, 521; al-Zirikli, al-A'lam; Mawsu'at al-Atabat"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-shaykh-al-tusi-1
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
+  generated_by: "Devin (SWE-2 Medium)"

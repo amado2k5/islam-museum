@@ -1892,41 +1892,41 @@ All 34 real names in the list are already in the museum; the remaining 966 rows 
 
 ## O. Last-30-years list additions (24)
 
-- [ ] Fayyadh Al-Ruwaili — Living (Saudi Chief of General Staff; birth year not public)
-- [ ] Khalid bin Ali Al-Humaidan — Living (Saudi Director of General Intelligence; birth year not public)
-- [ ] Issa Saif Al Mazrouei — Living (UAE Chief of Staff of the Armed Forces; birth year not public)
-- [ ] Sheikh Mohammed bin Abdulrahman Al Thani — 1982–Living
-- [ ] Salem Hamad Al-Nabit — Living (Qatar Chief of Staff of the Armed Forces; birth year not public)
-- [ ] Cevdet Yılmaz — 1961–Living
-- [ ] Hakan Fidan — 1968–Living
-- [ ] İbrahim Kalın — 1971–Living
-- [ ] Metin Gürak — 1960–Living
-- [ ] Asim Munir — 1968–Living
-- [ ] Asim Malik — Living (Pakistan Director-General ISI; birth year not public)
-- [ ] Abbas Kamel — 1957–Living
-- [ ] Agus Subiyanto — 1967–Living
-- [ ] Ahmad Husni — Living (Jordan Director of General Intelligence; birth year not public)
-- [ ] Crown Prince Moulay Hassan — 2003–Living
-- [ ] Abdellatif Hammouchi — Living (Morocco Director-General of National Security; birth year not public)
-- [ ] Hossein Salami — 1960–2025
-- [ ] Narges Mohammadi — 1972–Living
-- [ ] Waad Al-Kateab — 1991–Living
-- [ ] Khaled Hosseini — 1965–Living
-- [ ] Elif Shafak — 1971–Living
-- [ ] Hamdi Ulukaya — 1972–Living
-- [ ] Shahid Khan — 1950–Living
-- [ ] Prince Al-Waleed bin Talal — 1955–Living
+- [x] Fayyadh Al-Ruwaili — Living (Saudi Chief of General Staff; birth year not public)
+- [x] Khalid bin Ali Al-Humaidan — Living (Saudi Director of General Intelligence; birth year not public)
+- [x] Issa Saif Al Mazrouei — Living (UAE Chief of Staff of the Armed Forces; birth year not public)
+- [x] Sheikh Mohammed bin Abdulrahman Al Thani — 1982–Living
+- [x] Salem Hamad Al-Nabit — Living (Qatar Chief of Staff of the Armed Forces; birth year not public)
+- [x] Cevdet Yılmaz — 1961–Living
+- [x] Hakan Fidan — 1968–Living
+- [x] İbrahim Kalın — 1971–Living
+- [x] Metin Gürak — 1960–Living
+- [x] Asim Munir — 1968–Living
+- [x] Asim Malik — Living (Pakistan Director-General ISI; birth year not public)
+- [x] Abbas Kamel — 1957–Living
+- [x] Agus Subiyanto — 1967–Living
+- [x] Ahmad Husni — Living (Jordan Director of General Intelligence; birth year not public)
+- [x] Crown Prince Moulay Hassan — 2003–Living
+- [x] Abdellatif Hammouchi — Living (Morocco Director-General of National Security; birth year not public)
+- [x] Hossein Salami — 1960–2025
+- [x] Narges Mohammadi — 1972–Living
+- [x] Waad Al-Kateab — 1991–Living
+- [x] Khaled Hosseini — 1965–Living
+- [x] Elif Shafak — 1971–Living
+- [x] Hamdi Ulukaya — 1972–Living
+- [x] Shahid Khan — 1950–Living
+- [x] Prince Al-Waleed bin Talal — 1955–Living
 
 ## P. 5,000-list additions (8)
 
 - [ ] Mustafa Kemal Atatürk — 1881–1938 (flagged: religious identity contested — Muslim-born founder of secular Turkey; queued flagged per the founder's keep-flagged precedent, not excluded)
-- [ ] Hayat Sindi — 1967–Living
-- [ ] Sameera Moussa — 1917–1952
-- [ ] Magdi Yacoub — 1935–Living (flagged: Coptic Christian, not a Muslim — queued flagged per precedent, not excluded)
-- [ ] Nawal El Moutawakel — 1962–Living
-- [ ] Abdulrazak Gurnah — 1948–Living
-- [ ] Omar Sharif — 1932–2015 (born Michel Shalhoub; converted to Islam in 1955)
-- [ ] Mo Ibrahim — 1946–Living
+- [x] Hayat Sindi — 1967–Living
+- [x] Sameera Moussa — 1917–1952
+- [x] Magdi Yacoub — 1935–Living (flagged: Coptic Christian, not a Muslim — queued flagged per precedent, not excluded)
+- [x] Nawal El Moutawakel — 1962–Living
+- [x] Abdulrazak Gurnah — 1948–Living
+- [x] Omar Sharif — 1932–2015 (born Michel Shalhoub; converted to Islam in 1955)
+- [x] Mo Ibrahim — 1946–Living
 
 ## Q. 30,000-list additions (0)
 

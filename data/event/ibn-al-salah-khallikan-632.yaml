@@ -1,0 +1,28 @@
+id: event/ibn-al-salah-khallikan-632
+class: event
+kind: other
+label:
+  ar: "ابن خلكان يلازم ابن الصلاح بدمشق ويجمع فتاويه، ٦٣٢هـ/١٢٣٥م"
+  en: "Ibn Khallikan settles with Ibn al-Salah at Damascus and gathers his fatwas, 632/1235"
+  ur: "ابن خلکان دمشق میں ابن الصلاح سے ملازم ہوکر ان کی فتویٰ جمع کرتے ہیں، 632ھ/1235ء"
+summary:
+  ar: "قال ابن خلكان: كان ابن الصلاح أحد فضلاء عصره في التفسير والحديث والفقه وله مشاركة في فنون عدة، وكانت فتاويه مسددة وهو أحد أشياخي الذين انتفعت بهم؛ أقمت عنده للاشتغال ولازمته سنة اثنتين وثلاثين وقد جمعت فتاويه في مجلدة {cite:tarikh-islam-dhahabi p. 186}؛ وكان ابن خلكان بدمشق من شوال ٦٣٢هـ/يونيو–يوليو ١٢٣٥م {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "Ibn Khallikan wrote that Ibn al-Salah was one of the most eminent men of his age in tafsir, hadith and fiqh, with a share in several disciplines, that his fatwas were sound, and that he was 'one of the shaykhs from whom I benefited': he stayed with him to study in 632, and collected his fatwas in a volume {cite:tarikh-islam-dhahabi p. 186}. Ibn Khallikan was at Damascus from Shawwal 632/June–July 1235 {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "ابن خلکان نے لکھا کہ ابن الصلاح اپنے زمانے کے ممتاز ترین افراد میں سے تھے تفسیر، حدیث اور فقہ میں، اور ان کے فتویٰ سدید تھے اور وہ 'ان شیوخ میں سے ایک جن سے میں نے فائدہ اٹھایا': انہوں نے 632ھ میں ان کے ہاں ٹھہر کر پڑھا اور ان کے فتویٰ ایک مجلد میں جمع کیے {cite:tarikh-islam-dhahabi p. 186}۔ ابن خلکان شوال 632ھ/جون–جولائی 1235ء سے دمشق میں تھے {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1235-06~", hijri: "0632-10", calendar: julian, precision: month, status: tradition, derived: true, note: "أقمت عنده للاشتغال ولازمته سنة اثنتين وثلاثين {cite:tarikh-islam-dhahabi p. 186}؛ at Damascus from Shawwal 632/June–July 1235 {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-khallikan, role: "الملازم الطالب", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "الشيخ", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 186 (harvest OCR), quoting Wafayat al-A'yan 2/243-244; EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

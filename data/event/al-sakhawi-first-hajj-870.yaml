@@ -1,0 +1,28 @@
+id: event/al-sakhawi-first-hajj-870
+class: event
+kind: other
+label:
+  ar: "حجة السخاوي الأولى بحراً مع أمه وعياله، ٨٧٠هـ/١٤٦٦م"
+  en: "Al-Sakhawi's first pilgrimage by sea with his mother and family, 870/1466"
+  ur: "سخاوی کا پہلا حج دریا کے راستے والدہ اور اہل و عیال کے ساتھ، 870ھ/1466ء"
+summary:
+  ar: "لم يحج السخاوي إلا بعد وفاة شيخه ابن حجر؛ فسافر لدمياط ثم توجه في البحر للحج وصحب والدته معه، فلقي بالطور والينبوع وجدة شيوخاً أخذ عنهم، ووصل مكة أوائل شعبان فأقام بها إلى أن حج سنة سبعين (٨٧٠هـ) هو وعياله وأكبر إخوته ووالداه، وقرأ بالمسجد الحرام وداخل الكعبة والحجر وعلى غار ثور وجبل حراء وبمنى ومسجد الخيف على أبي الفتح المراغي والتقي بن فهد وأبي السعادات بن ظهيرة وغيرهم فوق ثلاثين شيخاً، وقرأ في رجوعه بالمدينة تجاه الحجرة النبوية على البدر بن فرحون {cite:daw-lami-jil-1992 8/7-8, 14}. وهي أول حجاته كما في المعجم {cite:encyclopaedia-of-islam-2 vol. 8 p. 947}."
+  en: "Al-Sakhawi made no pilgrimage until after Ibn Hajar's death: he sailed via Damietta with his mother, hearing scholars at al-Tur, Yanbu' and Jeddah, reached Mecca in early Sha'ban and stayed to perform the hajj of 870 (July-August 1466) with his parents, wife and eldest brothers. He read inside the Ka'ba, at the Hijr, on the caves of Thawr and Hira', at Mina and Masjid al-Khayf, before Abu al-Fath al-Maraghi, Taqi al-Din ibn Fahd, Abu al-Sa'adat ibn Zahira and over thirty other masters; on the return he read facing the Prophetic Chamber in Medina before al-Badr ibn Farhun {cite:daw-lami-jil-1992 8/7-8, 14}. It was his first pilgrimage {cite:encyclopaedia-of-islam-2 vol. 8 p. 947}."
+  ur: "سخاوی نے ابن حجر کی وفات سے پہلے حج نہیں کیا: وہ والدہ کے ساتھ دمیاط سے دریا کے راستے گیا، طور، ینبع اور جدہ میں علما سے ملا، شعبان کے آغاز میں مکہ پہنچا اور وہیں رہ کر 870ھ (جولائی-اگست 1466ء) کا حج اپنے والدین، اہلیہ اور بڑے بھائیوں کے ساتھ کیا۔ اس نے کعبہ کے اندر، حجر اسماعیل، غارِ ثور اور غارِ حرا پر، منیٰ اور مسجد خیف میں ابوالفتح مراغی، تقی الدین ابن فہد، ابوالسعادات ابن ظہیرہ اور تیس سے زائد دیگر مشائخ پر کتابیں پڑھیں؛ واپسی پر مدینہ میں حجرہ نبوی کے سامنے بدر بن فرہون پر پڑھا {cite:daw-lami-jil-1992 8/7-8, 14}۔ یہ اس کا پہلا حج تھا {cite:encyclopaedia-of-islam-2 vol. 8 p. 947}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+date:
+  start: { edtf: "1466-03~", hijri: "0870-08", calendar: julian, precision: month, status: tradition, derived: true, note: "وصل مكة أوائل شعبان ٨٧٠هـ وحج مع أهله {cite:daw-lami-jil-1992 8/7, 14}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/daw-lami-jil-1992] }
+  - { type: occurred_at, target: place/medina, sources: [source/daw-lami-jil-1992] }
+  - { type: had_participant, target: person/al-sakhawi, role: "الحاج الرحّالة", sources: [source/daw-lami-jil-1992] }
+sources: [source/daw-lami-jil-1992, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "الضوء اللامع ج٨ ص ٧-٨، ١٤ (archive.org Dawou_Lami part 8)؛ EI2 vol. 8 p. 947 art. al-Sakhawi (C. F. Petry)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-sakhawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

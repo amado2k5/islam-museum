@@ -20,3 +20,6 @@ translators: []
 
 ## كتبه
 ينسب إليه حاجي خليفة [[work/al-ihkam-fi-usul-al-ahkam|الإحكام في أصول الأحكام]]. {cite:kashf-zunun-furqan}
+
+## في «أصداف اللؤلؤ» لأبي إسحاق الحويني
+يقول [[person/abu-ishaq-al-heweny|أبو إسحاق الحويني]] إن بداياته في الفقه كانت مع «المحلى» لابن حزم، وإنه ينصح الطلبة دائمًا ألا يبدؤوا بابن حزم لشدة عبارته. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:25:30} ويقول إن ابن حزم قادر على أن يقنعك بأن جدار الطوب الأحمر ذهب، وإنه نشر مذهبه في مواجهة مالكية الأندلس، ولعله أخذ حدّته من خصومه وإن كان حادًّا بطبعه. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:26:00} ويصف كتابه «الإحكام في أصول الأحكام» بأنه أكثر من رائع، إلا في باب القياس الذي يخالفه فيه. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:01:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep26 00:06:30} ويذكر أنه قرأ في «المحلى» مع بحوث الألباني أن الصلاة المتروكة عمدًا لا تُقضى، وأن ابن حزم يقسم العبادات بحسب توقيتها، فحمل ذلك إلى درس شيخه [[person/muhammad-najib-al-mutii|المطيعي]]. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:15:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep08 00:16:30}

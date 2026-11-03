@@ -1,0 +1,45 @@
+id: person/shahid-khan
+class: person
+label: { ar: "شاهد خان", en: "Shahid Khan", ur: "شاہد خان" }
+names:
+  - { value: "Shahid Rafiq Khan", kind: full }
+  - { value: "Shad Khan", kind: alternate }
+gender: male
+summary:
+  ar: "شاهد رفيق خان (وُلد في ١٨ تموز ١٩٥٠ في لاهور) رجل أعمال باكستاني أمريكي يملك شركة فليكس-إن-غيت لقطع السيارات ونادي جاكسونفيل جاغوارز في دوري كرة القدم الأمريكية ونادي فولهام الإنجليزي؛ انتقل إلى الولايات المتحدة سنة ١٩٦٧ طالبًا للهندسة في جامعة إلينوي، واشترى فليكس-إن-غيت سنة ١٩٨٠ وبنى منها واحدة من أكبر شركات قطع السيارات الخاصة، وأصبح سنة ٢٠١٢ أول مالك لفريق في الدوري الأمريكي من أقلية عرقية."
+  en: "Shahid Rafiq Khan (born 18 July 1950 in Lahore) is a Pakistani-American businessman who owns the Flex-N-Gate auto-parts company, the Jacksonville Jaguars of the NFL and Fulham F.C.; he moved to the United States in 1967 to study engineering at the University of Illinois, bought Flex-N-Gate in 1980 and built it into one of the largest private auto-parts suppliers, and in 2012 became the first ethnic-minority owner of an NFL team."
+  ur: "شاہد رفیق خان (پیدائش 18 جولائی 1950، لاہور) پاکستانی نژاد امریکی کاروباری ہیں، فلیکس-این-گیٹ، جیکسن وِل جیگوارز اور فلہم فٹبال کلب کے مالک؛ وہ 1967 میں انجینئرنگ پڑھنے امریکہ گئے، 1980 میں فلیکس-این-گیٹ خرید کر اسے آٹو پارٹس کی بڑی نجی کمپنی بنایا، اور 2012 میں این ایف ایل ٹیم کے پہلے نسلی اقلیتی مالک بنے۔"
+roles: [businessman]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+born:
+  edtf: "1950-07-18"
+  hijri: "1369"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 18 July 1950 in Lahore, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1369 AH."
+  sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar, source/wikidata-shahid-khan]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Khan has described himself as a Muslim in his own words in more than one text: asked his
+      religion by the Jaguars' own site in 2011 he answered 'it's Muslim', and in his June 2020
+      ESPN essay he wrote of 'being a Muslim-American' made him a target of prejudice; the English
+      article describes him as a non-observant (in an earlier reading, cultural) Muslim, born into
+      a Punjabi Muslim family. That self-description names no school or order for the man himself,
+      so no school value can be recorded. The value is therefore unknown, with his statements
+      preserved here in full.
+    sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar, source/wikidata-shahid-khan]
+external_ids: { wikidata: Q2276408 }
+sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar, source/wikidata-shahid-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Shahid Rafiq Khan' revision 1379973283 of 13 October 2026; Arabic Wikipedia article 'شاهد خان' revision 75234986 of 9 June 2026; Wikidata item Q2276408 revision 2538474183 of 31 August 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query, and the item carries a religion statement of Islam generically (Q432), which under the lane's rules records as unknown). His Muslim self-description was verified in-session in the jaguars.com interview and his 2020 ESPN essay; it names no school, so the value stays unknown under the brief's instruction for this subject. The born_in edge targets place/lahore, verified present on origin/main in-session. No record or draft stub for him existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 1950 birth year is correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }

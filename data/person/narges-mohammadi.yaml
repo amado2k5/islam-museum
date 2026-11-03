@@ -1,0 +1,44 @@
+id: person/narges-mohammadi
+class: person
+label: { ar: "نرجس محمدي", en: "Narges Mohammadi", ur: "نرگس محمدی" }
+names:
+  - { value: "Narges Mohammadi", kind: full }
+gender: female
+summary:
+  ar: "نرجس محمدي (وُلدت في ٢١ نيسان ١٩٧٢ في زنجان) ناشطة حقوقية إيرانية وحائزة جائزة نوبل للسلام سنة ٢٠٢٣ «لكفاحها ضد اضطهاد النساء في إيران»؛ درست الفيزياء التطبيقية، وعملت في الصحافة وفي مركز المدافعين عن حقوق الإنسان مع شيرين عبادي، واعتُقلت مرارًا وحُكم عليها بعقوبات طويلة، وقادت من السجن حملة ضد الحبس الانفرادي الذي سمته «التعذيب الأبيض»."
+  en: "Narges Mohammadi (born 21 April 1972 in Zanjan) is an Iranian human-rights activist awarded the 2023 Nobel Peace Prize 'for her fight against the oppression of women in Iran'; trained in applied physics, she worked in journalism and at Shirin Ebadi's Defenders of Human Rights Center, has been arrested repeatedly and sentenced to long prison terms, and campaigns against the solitary confinement she named 'white torture'."
+  ur: "نرگس محمدی (پیدائش 21 اپریل 1972، زنجان) ایرانی انسانی حقوق کارکن اور 2023 کے نوبل امن انعام کی یافتہ ہیں؛ انھوں نے اطلاقی طبیعیات پڑھی، صحافت اور شیرین عبادی کے انسانی حقوق مرکز میں کام کیا، باربار گرفتار ہو کر طویل سزائیں پائیں، اور قید تنہائی کے خلاف مہم چلائی جسے انھوں نے «سفید تشدد» کہا۔"
+roles: [activist, writer]
+wings: [people, living]
+regions: [persia-central-asia]
+born:
+  edtf: "1972-04-21"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 21 April 1972 in Zanjan, attested by the English and Arabic articles and by Wikidata's birth statement, all three in agreement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1392 AH."
+  sources: [source/wikipedia-narges-mohammadi-en, source/wikipedia-narges-mohammadi-ar, source/wikidata-narges-mohammadi]
+relations:
+  - { type: born_in, target: place/zanjan, sources: [source/wikipedia-narges-mohammadi-en, source/wikipedia-narges-mohammadi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Mohammadi's own religious positions have shifted across her life and are contested, and no
+      value is settled. As a student she co-founded a group that explored neo-Shariatism while
+      advocating a secular democracy; her mature activism opposes the mandatory hijab and the
+      theocratic order, and advocacy profiles frame that activism in religious and in secular
+      terms in turn. None of this names a school or affiliation for the woman herself in two
+      independent texts, and under the absolute doubt rule the readings are preserved here and the
+      value is unknown.
+    sources: [source/wikipedia-narges-mohammadi-en, source/wikipedia-narges-mohammadi-ar, source/wikidata-narges-mohammadi]
+external_ids: { wikidata: Q4967771 }
+sources: [source/wikipedia-narges-mohammadi-en, source/wikipedia-narges-mohammadi-ar, source/wikidata-narges-mohammadi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Narges Mohammadi' revision 1383194706 of 1 November 2026; Arabic Wikipedia article 'نرجس محمدي' revision 70111279 of 3 April 2025; Wikidata item Q4967771 revision 2563050854 of 31 October 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query). All three sources agree on her birth on 21 April 1972 in Zanjan. The born_in edge targets place/zanjan, verified present on origin/main in-session. No record or draft stub for her existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 1972 birth year is correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }

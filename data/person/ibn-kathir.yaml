@@ -3,32 +3,56 @@ class: person
 label:
   ar: "ابن كثير"
   en: "Ibn Kathir"
+  ur: "ابن کثیر"
 names:
-  - { kind: full, lang: ar, value: "إسماعيل بن عمر بن كثير الدمشقي" }
+  - { kind: full, lang: ar, value: "إسماعيل بن عمر بن كثير بن ضوء القرشي البصروي ثم الدمشقي" }
 roles: [scholar, mufassir, historian, muhaddith]
 gender: male
 traditions: [sunni-shafii]
 summary:
-  ar: "بطاقة أولية لابن كثير الدمشقي، المفسر والمؤرخ صاحب التفسير والبداية والنهاية، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في وفيات الأعيان وشذرات الذهب على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ibn Kathir al-Dimashqi, the exegete and historian of the Tafsir and al-Bidaya wa'l-Nihaya, named from an open reference description (Wikidata); his entries in Wafayat al-A'yan and Shadharat al-Dhahab are not yet checked on the page, so no dates are given."
+  ar: "عماد الدين أبو الفداء إسماعيل بن عمر بن كثير بن ضوء القرشي البصروي ثم الدمشقي، الإمام المفسر المحدث الواعظ الفقيه صاحب «البداية والنهاية»؛ ولد سنة سبعمائة أو بعدها بيسير في قرية من أعمال بصرى الشام، ونشأ بدمشق ولازم المزي وصاهره على ابنته زينب، وأخذ عن ابن تيمية فامتلأ بحبه وامتُحن بسببه، وجمع التفسير والتاريخ و«طبقات الشافعية» وشرع في شرح البخاري، وتوفي يوم الخميس سادس عشر شعبان سنة ٧٧٤هـ بدمشق عن أربع وسبعين سنة {cite:durar-kamina-jil-1993 1/374} {cite:suluk-maqrizi j.3 q.1 p. 208} {cite:al-aalam 1/112-113}."
+  en: "'Imad al-Din Abu l-Fida' Isma'il ibn 'Umar ibn Kathir ibn Daw' al-Qurashi al-Busrawi then al-Dimashqi, the imam, mufassir, muhaddith, preacher and jurist of al-Bidaya wa'l-Nihaya; born in 700 or shortly after in a village of the Busra al-Sham district, raised at Damascus, he kept close to al-Mizzi and married his daughter Zaynab, took from Ibn Taymiyya and was tried on his account, compiled the Tafsir, the history and the Tabaqat al-Shafi'iyya and began a Sharh al-Bukhari; he died on Thursday 16 Sha'ban 774 at Damascus, aged seventy-four {cite:durar-kamina-jil-1993 1/374} {cite:suluk-maqrizi j.3 q.1 p. 208} {cite:al-aalam 1/112-113}."
+  ur: "عماد الدین ابوالفدا اسماعیل بن عمر بن کثیر بن ضوء قرشی بصروی و بعد میں دمشقی — امام، مفسر، محدث، واعظ اور فقیہ، «البدایہ والنہایہ» کے مصنف؛ سنہ 700 یا اس کے کچھ بعد بصریٰ الشام کے ضلع کے ایک گاؤں میں پیدا ہوئے، دمشق میں پلے، مزی کے ہاں تلمذ اختیار کیا اور ان کی بیٹی زینب سے نکاح کیا، ابن تیمیہ سے علم لیا اور ان کی وجہ سے آزمائش اٹھائی، تفسیر، تاریخ اور «طبقات الشافعیہ» مرتب کیں اور شرح بخاری کا آغاز کیا؛ جمعرات 16 شعبان 774ھ کو دمشق میں چوہتر برس کی عمر میں فوت ہوئے {cite:durar-kamina-jil-1993 1/374} {cite:suluk-maqrizi j.3 q.1 p. 208} {cite:al-aalam 1/112-113}۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/wafayat-ayan, source/shadharat-dhahab, source/durar-kamina-jil-1993]
+born: { edtf: "1302~", hijri: "0701", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة سبعمائة أو بعدها بيسير {cite:durar-kamina-jil-1993 1/374}؛ ٧٠١هـ {cite:durar-kamina-jil-1993 dhayl p. 99}؛ ١٣٠٢م {cite:al-aalam 1/112}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+died: { edtf: "1373-02", hijri: "0774-08", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم الخميس سادس عشر شعبان ٧٧٤هـ بدمشق عن أربع وسبعين سنة {cite:suluk-maqrizi j.3 q.1 p. 208}؛ شعبان ٧٧٤هـ {cite:durar-kamina-jil-1993 1/374}؛ التحويل مشتق.", sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+relations:
+  - { type: born_in, target: place/busra, sources: [source/al-aalam], note: "قرية من أعمال بصرى الشام {cite:al-aalam 1/112}" }
+  - { type: died_in, target: place/damascus, sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+  - { type: child_of, target: person/umar-ibn-kathir-al-khatib, sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+  - { type: student_of, target: person/jamal-al-din-al-mizzi, sources: [source/durar-kamina-jil-1993], note: "لازمه وقرأ عليه تهذيب الكمال وصاهره على ابنته {cite:durar-kamina-jil-1993 1/374}" }
+  - { type: student_of, target: person/ibn-taymiyya, sources: [source/durar-kamina-jil-1993], note: "أخذ عنه فامتلأ بحبه وامتحن بسببه {cite:durar-kamina-jil-1993 1/374}" }
+  - { type: authored, target: work/al-bidaya-wal-nihaya, sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: authored, target: work/tafsir-ibn-kathir, sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: authored, target: work/tabaqat-al-shafiiyya-ibn-kathir, sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: authored, target: work/al-baith-al-hathith, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/jami-al-masanid-ibn-kathir, sources: [source/al-aalam] }
+  - { type: participated_in, target: event/ibn-kathir-birth-701, sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: participated_in, target: event/ibn-kathir-damascus-709, sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-kathir-ibn-taymiyya-727, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-kathir-mizzi-735, sources: [source/durar-kamina-jil-1993, source/tabaqat-shafiiyya-subki] }
+  - { type: participated_in, target: event/ibn-kathir-bidaya-738, sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/death-al-mizzi-742, sources: [source/durar-kamina-jil-1993], role: "صهره وراوي خبر وفاته" }
+  - { type: participated_in, target: event/ibn-kathir-blind-772, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-kathir-death-774, sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/tabaqat-shafiiyya-subki, source/wafayat-ayan, source/shadharat-dhahab]
 external_ids:
   wikidata: Q369690
 provenance:
   layer: own-research
-  source: "Wikidata Q369690 (religion claim Islam); book sources: Ibn Khallikan, Wafayat al-A'yan and Ibn al-Imad, Shadharat al-Dhahab — entries not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0005, lib-durar-kamina-batch-1-2-2026-10-31
+  source: "Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 1/374 tarjama 944 + Dhayl p. 99 (harvest OCR); al-Maqrizi, al-Suluk j.3 q.1 s.a. 774, printed p. 208 (harvest OCR); al-Zirikli, al-A'lam j.1 pp. 112-113 (harvest OCR); al-Subki, Tabaqat p. 394 note (harvest OCR); Wikidata Q369690 (religion claim Islam)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-0005, lib-durar-kamina-batch-1-2-2026-10-31, explorer-ibn-kathir-1
 status:
   review: published
-  completeness: 1
+  completeness: 3
+  generated_by: "Devin (SWE-2 Medium)"
 occupations:
   - job: job/muhaddith
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/wafayat-ayan, source/shadharat-dhahab, source/durar-kamina-jil-1993]
+    note: "محدث فقيه مفسر مؤرخ {cite:durar-kamina-jil-1993 1/374}"
+    sources: [source/durar-kamina-jil-1993, source/suluk-maqrizi]

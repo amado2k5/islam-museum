@@ -1,0 +1,42 @@
+id: person/mo-ibrahim
+class: person
+label: { ar: "محمد إبراهيم", en: "Mo Ibrahim", ur: "مو ابراہیم" }
+names:
+  - { value: "Mohammed Fathi Ahmed Ibrahim", kind: full }
+  - { value: "Mo Ibrahim", kind: alternate }
+gender: male
+summary:
+  ar: "السير محمد فتحي أحمد إبراهيم «مو إبراهيم» (وُلد في 3 أيار 1946 في السودان) مهندس ورجل أعمال سوداني بريطاني؛ أسس شركة الاتصالات سيلتل التي غطت 14 بلدًا أفريقيًا قبل بيعها سنة 2005 بمبلغ 3.4 مليار دولار، ثم أسس مؤسسة مو إبراهيم ومؤشرها لحكم أفريقيا وجائزتها للقيادة الأفريقية، ونال وسام القديس ميخائيل والقديس جاورجيوس بدرجة قائد فارس سنة 2023."
+  en: "Sir Mohammed Fathi Ahmed Ibrahim, 'Mo Ibrahim' (born 3 May 1946 in Sudan), is a Sudanese-British engineer and businessman; he founded the Celtel telecommunications company, which served 14 African countries before its sale in 2005 for $3.4 billion, then founded the Mo Ibrahim Foundation, its Index of African Governance and its Prize for Achievement in African Leadership, and was appointed KCMG in 2023."
+  ur: "سر محمد فتحی احمد ابراہیم «مو ابراہیم» (پیدائش 3 مئی 1946، سوڈان) سوڈانی نژاد برطانوی انجینئر و کاروباری شخصیت ہیں؛ انھوں نے ٹیلی کام کمپنی سیلٹل قائم کی جو 2005 میں 3.4 ارب ڈالر میں فروخت ہونے سے قبل 14 افریقی ملکوں میں خدمات دے رہی تھی، پھر مو ابراہیم فاؤنڈیشن، اس کا افریقی حکمرانی اشاریہ اور افریقی قیادت کا انعام قائم کیا، اور 2023 میں کے سی ایم جی بنائے گئے۔"
+roles: [businessman, engineer]
+wings: [people, living]
+regions: [egypt-nile, africa, andalus-europe]
+born:
+  edtf: "1946-05-03"
+  hijri: "1365"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 3 May 1946, attested identically by the English and Arabic articles and by Wikidata; the Arabic article places his birth at Old Halfa (Wadi Halfa) in northern Sudan, and he was raised in Alexandria. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; May 1946 falls inside 1365 AH."
+  sources: [source/wikipedia-mo-ibrahim-en, source/wikipedia-mo-ibrahim-ar, source/wikidata-mo-ibrahim]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a faith for Mo Ibrahim himself. The English and
+      Arabic articles alike say nothing about his religion anywhere in their
+      text. His Wikidata item carries a single religion statement classified
+      generically as Islam, with no supporting text and no school; a lone
+      generic structured statement settles nothing under this lane's
+      doctrine, and no school text exists. The value is therefore unknown.
+    sources: [source/wikipedia-mo-ibrahim-en, source/wikipedia-mo-ibrahim-ar, source/wikidata-mo-ibrahim]
+external_ids: { wikidata: Q1374752 }
+sources: [source/wikipedia-mo-ibrahim-en, source/wikipedia-mo-ibrahim-ar, source/wikipedia-mo-ibrahim-ur, source/wikidata-mo-ibrahim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Mo Ibrahim' revision 1376180787 of 22 September 2026; Arabic Wikipedia article 'محمد إبراهيم (مهندس)' revision 75426286 of 13 June 2026; Urdu Wikipedia article 'مو ابراہیم' revision 11611379 of 18 July 2026; Wikidata item Q1374752 revision 2543647798 of 11 September 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API and re-asserted identical on a second query). The Wikidata item is the one linked from the English article itself. No born_in edge is written: Old Halfa/Wadi Halfa has no place record on main. No record or draft stub of any kind for him existed on main when this record was built (checked against origin/main on 2 November 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-183p"
+status: { review: published }

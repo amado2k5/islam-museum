@@ -1,0 +1,50 @@
+id: person/magdi-yacoub
+class: person
+label: { ar: "مجدي يعقوب", en: "Magdi Yacoub", ur: "مجدی یعقوب" }
+names:
+  - { value: "Magdi Habib Yacoub", kind: full }
+  - { value: "Magdi Yacoub", kind: alternate }
+gender: male
+summary:
+  ar: "السير مجدي حبيب يعقوب (وُلد في 16 تشرين الثاني 1935 في بلبيس بمصر) جرّاح قلب مصري بريطاني وأستاذ جراحة القلب والصدر في إمبريال كوليدج لندن؛ أسس برنامج زراعة القلب في مستشفى هيرفيلد سنة 1980 وأجرى أول عملية زراعة قلب ورئة مجتمعة في بريطانيا سنة 1983، وأسس مؤسسة «سلسلة الأمل» الخيرية ومركز أسوان للقلب، ونال لقب فارس سنة 1992 ووسام الاستحقاق سنة 2014."
+  en: "Sir Magdi Habib Yacoub (born 16 November 1935 in Bilbeis, Egypt) is an Egyptian-British heart surgeon and professor of cardiothoracic surgery at Imperial College London; he established the heart transplantation programme at Harefield Hospital in 1980 and performed the UK's first combined heart and lung transplant in 1983, founded the Chain of Hope charity and the Aswan Heart Centre, and was knighted in 1992 and appointed to the Order of Merit in 2014."
+  ur: "سر مجدی حبیب یعقوب (پیدائش 16 نومبر 1935، بلبیس، مصر) مصری نژاد برطانوی ماہر جراحت قلب اور امپیریل کالج لندن میں کارڈیو تھوراسک سرجری کے پروفیسر ہیں؛ انھوں نے 1980 میں ہیئرفیلڈ اسپتال میں دل کی پیوندکاری کا پروگرام قائم کیا اور 1983 میں برطانیہ کی پہلی مشترکہ دل و پھیپھڑے کی پیوندکاری کی، «چین آف ہوپ» فلاحی ادارہ اور اسوان ہارٹ سینٹر قائم کیے، 1992 میں نائٹ کا خطاب اور 2014 میں آرڈر آف میرٹ پایا۔"
+roles: [physician]
+wings: [people, living]
+regions: [egypt-nile, andalus-europe]
+born:
+  edtf: "1935-11-16"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 16 November 1935 in Bilbeis, Sharqia, attested identically by the English and Arabic articles and by Wikidata. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; November 1935 falls inside 1354 AH."
+  sources: [source/wikipedia-magdi-yacoub-en, source/wikipedia-magdi-yacoub-ar, source/wikidata-magdi-yacoub]
+relations:
+  - { type: born_in, target: place/bilbays, sources: [source/wikipedia-magdi-yacoub-en, source/wikipedia-magdi-yacoub-ar] }
+faith:
+  - value: christian
+    basis: documented
+    note: >-
+      Two independent texts name Magdi Yacoub himself a Coptic Christian,
+      which is what this lane's two-text rule requires. The English article's
+      first sentence calls him 'a Coptic Egyptian-British retired professor
+      of cardiothoracic surgery' in its own voice, and the peer-reviewed
+      biographical article by Peter A. Alivizatos in Baylor University
+      Medical Center Proceedings (2019) states of the man himself that he is
+      'an Egyptian and a Christian Copt'. Supporting but not counted alone:
+      the English article's early-life section records his birth to a Coptic
+      Christian family (family background), and the Arabic article records
+      that he married on 21 December 1968 in a small church at the University
+      of Chicago (his own practice). His Wikidata item's Christianity
+      statement is structured data and is not one of the two texts.
+    sources: [source/wikipedia-magdi-yacoub-en, source/alivizatos-yacoub-biography-2019, source/wikipedia-magdi-yacoub-ar, source/wikidata-magdi-yacoub]
+external_ids: { wikidata: Q2919015 }
+sources: [source/wikipedia-magdi-yacoub-en, source/wikipedia-magdi-yacoub-ar, source/wikidata-magdi-yacoub, source/alivizatos-yacoub-biography-2019]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Magdi Yacoub' revision 1382884124 of 30 October 2026; Arabic Wikipedia article 'مجدي يعقوب' revision 76966074 of 13 October 2026; Wikidata item Q2919015 revision 2553144177 of 4 October 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API and re-asserted identical on a second query); and Peter A. Alivizatos, 'Sir Magdi H. Yacoub, the Leonardo da Vinci of cardiac surgery', Baylor University Medical Center Proceedings 32(1) (2019), pp. 146-151, read in full at PMC6442908 on 2 November 2026. The Wikidata item is the one linked from the English article itself. No Urdu article about him exists, so no Urdu source is registered; the Urdu label and summary in this record are the lane's own translations. His 1993 bypass operation on Omar Sharif is stated in the prose only, as the schema has no edge type for it. No record or draft stub of any kind for him existed on main when this record was built (checked against origin/main on 2 November 2026); the near slug yacoub-artin on main is a different person."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-183p"
+status: { review: published }

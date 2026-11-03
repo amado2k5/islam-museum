@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الفاتح", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/izz-al-din-masud, role: "قائد المواصلة المهزومين عند قرون حماة", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-asakir, role: "الحاضر الشاهد", sources: [source/encyclopaedia-of-islam-2], note: "شهد وفاة نور الدين وحضر دخول صلاح الدين دمشق {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}" }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
