@@ -61,3 +61,11 @@ Source: Ibn al-'Imad, Shadharat al-dhahab, OpenITI 2025.1.9 Sham30K0012398 (vol/
 **Leads (shadharat false matches, formally logged):** ala-al-dawla-al-simnani (entry is Abd Allah b. Muhammad Abu al-Husayn al-Simnani — different person), badr-al-din-al-karkhi (only Ma'ruf al-Karkhi found), hafiz-al-din-al-nasafi (entry is Muhammad b. Zakariya al-Nasafi), abd-al-qadir-ibn-muhammad-al-jaziri (entry is Taj al-Din Muhammad b. Ahmad al-Jaziri), sayyid-ibn-tawus (only Tuways the singer found), kamal-al-din-ibn-abi-sharif, majd-al-din-al-baghdadi, izz-al-din-ibn-jamaa, muhibb-al-din-ibn-al-najjar (hits were teachers in others' obituaries or different persons), shaykh-al-saduq, sadr-al-sharia-al-asghar, burhan-al-din-ibn-al-qayyim, al-izz-ibn-fahd, ismail-ibn-jafar, umar-al-nasafi, abu-al-muin-al-nasafi, ibn-wahban, ibn-rushayd-al-sabti, ishak-pasha, mesih-pasha (no verified obituary in this edition).
 
 **Lane total: 164.**
+
+### Batch 9 (3 Nov 2026, 5 records, ar+en+ur) — Wafayat al-a'yan cohort
+
+Source: Ibn Khallikan, Wafayat al-a'yan, OpenITI 2025.1.9 Shamela0001000 (vol/page cited; entries verified under `### $BIO_MAN$` headers). Written: abu-al-jawaiz-al-wasiti (v2 p110), ali-al-rida (v3 p268), ibn-kharruf-al-adib (v3 p334), al-farbari (v4 p289), al-arghiyani (v2 p455 — Abu al-Fath Sahl al-Arghiyani, matches record). cite-check 5/5; validate 0 errors; tests pass; coverage regenerated.
+
+**Leads (wafayat, no verified own-biography in this edition):** abd-al-ghaffar-shair-dawlat-al-hakim, abu-al-saj, abu-hansh-al-lai, al-ashiri-al-sinhaji, al-fayd-ibn-abi-salih, muawiya-al-ashari-abu-ubaydallah, qadi-abd-al-jabbar (no $BIO_MAN$ header in this edition), udhra-bint-shahanshah (only her father Shahanshah b. Ayyub's bio, she is not named in it). dawlat-uthmaniyya-salabi cluster: the Sallabi text at books/tareekh/dawlat-uthmaniyya-salabi is scanned PDFs only — needs OCR before the 256-row cluster can be worked.
+
+**Lane total: 169.**
