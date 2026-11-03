@@ -69,3 +69,11 @@ Source: Ibn Khallikan, Wafayat al-a'yan, OpenITI 2025.1.9 Shamela0001000 (vol/pa
 **Leads (wafayat, no verified own-biography in this edition):** abd-al-ghaffar-shair-dawlat-al-hakim, abu-al-saj, abu-hansh-al-lai, al-ashiri-al-sinhaji, al-fayd-ibn-abi-salih, muawiya-al-ashari-abu-ubaydallah, qadi-abd-al-jabbar (no $BIO_MAN$ header in this edition), udhra-bint-shahanshah (only her father Shahanshah b. Ayyub's bio, she is not named in it). dawlat-uthmaniyya-salabi cluster: the Sallabi text at books/tareekh/dawlat-uthmaniyya-salabi is scanned PDFs only — needs OCR before the 256-row cluster can be worked.
 
 **Lane total: 169.**
+
+### Batch 10 (3 Nov 2026, 1 record, ar+en+ur) — Tarikh al-Islam (Hasan Ibrahim Hasan) cohort started
+
+Source: Hasan Ibrahim Hasan, Tarikh al-Islam, OCR text of the Alexandria Bibliotheca scan (vol/page cited). Written: ibn-tumart (v.4 p.124-125 — Almohad mahdi; the earlier al-A'lam lead is now resolved by this source). cite-check 1/1; validate 0 errors; tests pass; coverage regenerated.
+
+Queue note: tarikh-islam-hasan-ibrahim cluster is a narrative history — first probe found most ruler rows have only scattered mentions; strict biographical-passage vetting continues. dawlat-uthmaniyya-salabi OCR confirmed usable but narrative likewise. kamil-ibn-al-athir text extracted at extracted/kamil/kamil.txt.
+
+**Lane total: 170.**
