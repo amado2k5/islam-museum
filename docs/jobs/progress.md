@@ -66,3 +66,8 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the entry names Ibn Kemal and the Ottoman shaykh al-islam's office but does not name holders of the mufti post in the Ottoman provinces, so none is written.
   - FLAG: the entry's bibliography was not read. The modern Diyanet position is taken from the entry's own summary.
   - Next step: `job/sahib-al-barid` (postal and intelligence office) or `job/nazir-al-waqf`, after reading their DİA entries.
+- **3 November 2026 — Governance & Law, batch 7: `job/sahib-al-barid`.** One source entity read in full: `source/tdv-berid` (İbrahim Harekât, vol. 5 pp. 498–501, Turkish). The record is in Arabic, English and Urdu. One person record takes a `job/sahib-al-barid` entry, episodic: Yahya ibn Khalid al-Barmaki, whom Harun al-Rashid assigned to restore the postal service. The entry does not give him the title, so the note says so.
+  - FLAG: the entry names Kabisa ibn Zuayb (Umayyad) and Abd al-Malik al-Zayyat (Abbasid) as the most important heads of the post. The museum has no person records for either, so neither is written, and this batch carries one holder.
+  - FLAG: Alp Arslan abolished the postal service and Nizam al-Mulk restored it, according to the entry. Neither is written as a holder, because the entry does not give either of them the post.
+  - FLAG: the entry's bibliography was not read. The modern postal service is not described in detail.
+  - Next step: `job/nazir-al-waqf`, after reading its DİA entry.
