@@ -1,0 +1,28 @@
+---
+id: work/fatwa-dar-alifta-tailors-liability-for-damaged-cloth
+lang: en
+source_lang: ar
+translators: []
+---
+
+## Summary
+
+A question about a tailor who miscut a valuable piece of cloth and spoiled it, in which [[group/dar-al-ifta-al-misriyya|Dar al-Ifta al-Misriyya]] answered that what is spoiled in a tailor's hands while cutting and measuring is his liability in sharia, because he is a common hireling, and that compensation is in principle with a like, or, if that cannot be had, with the value on the day of the damage. {cite:dar-alifta fatwa 8993}
+
+## The question
+
+The questioner said that a man who works as a tailor was given a valuable piece of cloth by a customer to cut into a garment of agreed specifications; when cutting he made an error in the pattern measurements, and the cloth was spoiled and no longer fit for the garment wanted. He asked whether the tailor must replace the cloth as compensation to its owner. {cite:dar-alifta fatwa 8993}
+
+## The answer
+
+Dar al-Ifta began by explaining that the rules of financial dealings were laid down to secure people's benefits within a framework of justice, quoting [[person/ala-al-din-al-kasani|al-Kasani]] in [[work/badai-al-sanai|Bada'i' al-Sana'i']] (4/174) that God instituted contracts for the needs of His servants; among these contracts is hire, and there is no disagreement among the jurists that a person may hire another for a known task, as [[person/ibn-qudama-al-maqdisi|Ibn Qudama]] says in [[work/al-mughni|al-Mughni]] (5/341). {cite:dar-alifta fatwa 8993} It then distinguished the private hireling, who works for a single employer for a known period during which that employer alone has the benefit of his work, from the common hireling, who works for the public and whom no single employer may prevent from working for others, such as the dyer, the fuller and the tailor, citing [[person/ala-al-din-al-samarqandi|al-Samarqandi]] in Tuhfat al-Fuqaha (2/352) and article 422 of the Ottoman Majalla, which counts the tailor, the porter, the broker, the watchmaker and the goldsmith among common hirelings. {cite:dar-alifta fatwa 8993}
+
+Dar al-Ifta ruled that the majority of jurists among the Hanafis, Malikis, Shafi'is and Hanbalis hold the common hireling liable for what is spoiled by the work of his hands, because this serves the interests of craftsmen and owners of goods alike, whereas leaving him unliable would open the way to the loss of people's property: not everyone can sew his own garment, and if craftsmen's claims of accidental loss were accepted they would rush to make them and owners would suffer, so people would stop having clothes made despite needing to and the craftsmen's livelihoods would suffer; holding them liable therefore serves both sides. {cite:dar-alifta fatwa 8993} It cited the report that [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] used to hold fullers and goldsmiths liable, saying that nothing else would set people right, recorded by Abd al-Razzaq and [[person/ibn-abi-shayba|Ibn Abi Shayba]], and quoted al-Sughdi in al-Nutaf (2/561) that what perishes through the work of a common hireling's hand is his liability by agreement; [[person/ibn-shas-al-judhami|Ibn Shas]] in Aqd al-Jawahir al-Thamina (3/936) that a hireling's possession of goods handed to him to work on is a possession of liability; [[person/qadi-abd-al-wahhab-al-maliki|Qadi Abd al-Wahhab]] in al-Ishraf (2/665) justifying the liability of craftsmen by the interest of both sides; [[person/al-khatib-al-shirbini|al-Khatib al-Shirbini]] in [[work/mughni-al-muhtaj|Mughni al-Muhtaj]] (3/477) that the common hireling is one who undertakes a task as a personal obligation, as fullers and tailors do; and [[person/al-buhuti-mansur-ibn-yunus|al-Buhuti]] in Sharh Muntaha al-Iradat (2/271) that the common hireling is liable for what is spoiled by his act, such as a fuller tearing a garment or a tailor erring in cutting. {cite:dar-alifta fatwa 8993}
+
+Dar al-Ifta then explained how compensation is made: the rule is replacement in kind, the tailor bringing cloth like the one he ruined in material, brand, type and colour if a like exists in the market; if there is none, or he cannot obtain it, he compensates with its value, since fungibles are compensated with their like and non-fungibles with their value, and one moves to value only when a like cannot be had, as al-Izz ibn Abd al-Salam says in [[work/qawaid-al-ahkam|Qawa'id al-Ahkam]] (2/196); and when value is used it is the value on the day of the damage, as [[person/ibn-nujaym|Ibn Nujaym]] says in al-Ashbah wa-l-Naza'ir (p. 314) that what is destroyed without usurpation is valued on the day of destruction without disagreement, and [[person/ibn-hajar-al-haytami|Ibn Hajar al-Haytami]] in [[work/tuhfat-al-muhtaj|Tuhfat al-Muhtaj]] (6/180) that the common hireling is liable for the value on the day of the damage. {cite:dar-alifta fatwa 8993}
+
+Dar al-Ifta concluded that the cloth spoiled in the tailor's hands while cutting and measuring, and its resulting unfitness for the garment, is his liability in sharia; compensation is in principle in kind, with cloth of the same specifications as the one he ruined, and if he cannot obtain a like, then with its value on the day of the damage. {cite:dar-alifta fatwa 8993}
+
+## About this record
+
+Dar al-Ifta al-Misriyya published this fatwa on dar-alifta.org as no. 8993, dated 17 June 2026, in the category of compensations, among the fatwas of the Grand Mufti [[person/nazir-ayyad|Nazir Muhammad Ayyad]]. {cite:dar-alifta fatwa 8993} The museum records this text as a historical document attributed to the body or scholar that issued it; it issues no ruling of its own.
