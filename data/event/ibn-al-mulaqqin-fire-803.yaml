@@ -1,0 +1,28 @@
+id: event/ibn-al-mulaqqin-fire-803
+class: event
+kind: other
+label:
+  ar: "احتراق مكتبة ابن الملقن وكتبه، نحو ٨٠٣هـ"
+  en: "The fire that consumed Ibn al-Mulaqqin's library, about 803/1400"
+  ur: "ابن ملقن کی کتب خانے میں آگ، تقریباً 803ھ/1400ء"
+summary:
+  ar: "بلغت مصنفات ابن الملقن نحو ثلاثمائة مصنف، وكان جماعةً للكتب جداً، ثم احترق غالبها قبل موته بيسير: منها شرحه للبخاري في عشرين مجلداً وشروح الزوائد على مسلم وأبي داود والترمذي والنسائي وابن ماجه التي لم توجد بعده، وراح منها من الكتب النفيسة الموقوفة وغير الموقوفة شيء كثير جداً، فقال فيه ابن حجر مخاطباً بعد احتراق كتبه: «لا يزعجنّك يا سراج الدين إن غنت لعبت بكتبك السنن النيران، لله قد قربتها فتقبّلتها والنار مسرعةً إلى القربان» {cite:durar-kamina-jil-1993 dhayl p. 122} {cite:shadharat-dhahab 7/44-45}."
+  en: "Ibn al-Mulaqqin's works approached three hundred titles, and he was a great collector of books; then, shortly before his death, most of them burned — among them his Sharh of al-Bukhari in twenty volumes and his Sharhs of the zawa'id of Muslim, Abu Dawud, al-Tirmidhi, al-Nasa'i and Ibn Majah, which were never found after him, along with a very great number of endowed and private precious volumes. Ibn Hajar addressed him after the burning in verse: 'Be not grieved, Siraj al-Din, that the tongues of fire have played with your books — you offered them to God, who accepted them, and fire is quick to an offering' {cite:durar-kamina-jil-1993 dhayl p. 122} {cite:shadharat-dhahab 7/44-45}."
+  ur: "ابن ملقن کی تصانیف تقریباً تین سو تھیں اور وہ کتابوں کے بہت بڑے جمع کرنے والے تھے؛ پھر وفات سے کچھ پہلے ان میں سے اکثر جل گئیں — ان میں بیس جلدوں پر مشتمل شرح بخاری اور مسلم، ابوداؤد، ترمذی، نسائی اور ابن ماجہ کے زوائد پر شروح شامل تھیں جو ان کے بعد نہ مل سکیں، نیز وقف اور غیروقف نفیس کتابوں کی بڑی تعداد۔ آگ کے بعد ابن حجر نے انہیں مخاطب ہو کر کہا: 'سراج الدین، رنج نہ کر کہ آگ کی لپٹوں نے تمہاری کتابوں سے کھیل کھیلا — تم نے انہیں خدا کے لیے قربان کیا، قبول ہوا، اور آگ قربانی کی طرف تیز ہوتی ہے' {cite:durar-kamina-jil-1993 dhayl p. 122} {cite:shadharat-dhahab 7/44-45}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1400~", hijri: "0803~", calendar: julian, precision: year, status: tradition, derived: true, note: "احترقت كتبه قبل موته بقليل {cite:durar-kamina-jil-1993 dhayl p. 122}؛ التاريخ تقريبي؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-al-mulaqqin, role: "صاحب المكتبة المحروقة", sources: [source/durar-kamina-jil-1993, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "الشاهد المعزِّي بالشعر", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Dhayl al-Durar s.a. 804 printed p. 122 (harvest OCR DurarKamina__zdk); Shadharat al-Dhahab s.a. 804 printed vol. 7 pp. 44-45 (harvest OCR AAlexandrina-223853)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-mulaqqin-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

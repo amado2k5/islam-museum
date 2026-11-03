@@ -3,23 +3,53 @@ class: person
 label:
   ar: "ابن الملقن"
   en: "Ibn al-Mulaqqin"
-roles: [scholar]
+  ur: "ابن ملقن"
+names:
+  - { kind: full, lang: ar, value: "عمر بن علي بن أحمد بن محمد بن عبد الله الأنصاري الأندلسي ثم القاهري الشافعي، سراج الدين أبو حفص، المعروف بابن الملقن" }
+roles: [scholar, jurist]
 gender: male
+traditions: [sunni-shafii]
 summary:
-  ar: "بطاقة أولية لسراج الدين عمر بن علي ابن الملقن الأنصاري، محدث وفقيه مصر الشافعي في القرن الرابع عشر، توفي سنة ١٤٠١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Siraj al-Din Umar ibn Ali Ibn al-Mulaqqin al-Ansari, the fourteenth-century Shafi'i hadith scholar and jurist of Egypt, d. 1401; the biographical entry is not yet checked on the page."
+  ar: "سراج الدين أبو حفص عمر بن علي بن أحمد الأنصاري الأندلسي ثم القاهري الشافعي، المعروف بابن الملقن، حافظ مصر ومحدثها وفقيهها الشافعي في القرن الثامن الهجري؛ ولد بالقاهرة يوم السبت رابع عشر ربيع الأول سنة ٧٢٣هـ، وتوفي أبوه وله سنة فرباه زوج أمه الملقن معلِّم القرآن بالجامع الطولوني فعُرف به، وتخرج بالرحبي ومغلطاي ورحل إلى دمشق سنة ٧٧٧هـ فأفتى ودرّس وكتب له تاج الدين السبكي تقريظاً على شرح المنهاج، وامتحن سنة ٧٨٠هـ في قصة برقوق والأمير بركة فلم يدخل في النيابة بعدها، وصنّف نحو ثلاثمائة مصنف احترق أكثرها قبل موته بيسير، وتوفي في سادس شهر ربيع الأول سنة ٨٠٤هـ ودفن بحوش الصوفية خارج باب النصر {cite:shadharat-dhahab 7/44-45} {cite:durar-kamina-jil-1993 dhayl pp. 121-123}."
+  en: "Siraj al-Din Abu Hafs 'Umar ibn 'Ali ibn Ahmad al-Ansari, Andalusi by origin then Cairene, known as Ibn al-Mulaqqin — Egypt's hafiz, muhaddith and Shafi'i jurist of the eighth Hijri century; born at Cairo on Saturday 14 Rabi' I 723, orphaned at one year and raised by his mother's husband al-Mulaqqin, the Qur'an teacher of the Tulunid mosque, from whom he took his name; he trained under al-Rahbi and Mughaltay, travelled to Damascus in 777 and gave fatwas and lessons, earning a written commendation from Taj al-Din al-Subki on his Sharh al-Minhaj; tried in 780 in the Barquq–Baraka affair, he never entered the judiciary again; he wrote near three hundred works, most of them burnt shortly before his death, and died on 6 Rabi' I 804, buried beside his father in the hawsh of the Sufis outside Bab al-Nasr {cite:shadharat-dhahab 7/44-45} {cite:durar-kamina-jil-1993 dhayl pp. 121-123}."
+  ur: "سراج الدین ابوحفص عمر بن علی بن احمد انصاری اندلسی، بعد میں قاہری شافعی — معروف بہ ابن ملقن — آٹھویں صدی ہجری کے مصر کے حافظ، محدث اور شافعی فقیہ؛ ہفتہ 14 ربیع الاول 723ھ کو قاہرہ میں پیدا ہوئے، ایک سال کی عمر میں یتیم ہوئے اور اپنی والدہ کے شوہر ملقن — جامع طولون کے معلم قرآن — کے گھر پلے جن کے نام سے مشہور ہوئے؛ رحبی اور مغلطائے سے تربیت پائی، 777ھ میں دمشق کا سفر کیا اور فتویٰ اور تدریس دی، تاج الدین سبکی نے ان کے شرح المنهاج پر تحریری تقریظ لکھی؛ 780ھ میں برقوق اور امیر برکہ کے معاملے میں آزمائے گئے اور پھر کبھی نیابت میں نہ داخل ہوئے؛ تقریباً تین سو تصانیف لکھیں جن میں سے اکثر وفات سے کچھ پہلے جل گئیں؛ 6 ربیع الاول 804ھ کو فوت ہوئے اور باب النصر کے باہر حوش صوفیہ میں اپنے والد کے پہلو میں دفن ہوئے {cite:shadharat-dhahab 7/44-45} {cite:durar-kamina-jil-1993 dhayl pp. 121-123}۔"
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
-sources: [source/shadharat-dhahab]
+born: { edtf: "1323-03", hijri: "0723-03", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم السبت رابع عشر ربيع الأول سنة ثلاث وعشرين وسبعمائة بالقاهرة {cite:shadharat-dhahab 7/44}؛ مولده سنة ثلاث وعشرين {cite:durar-kamina-jil-1993 dhayl p. 123}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+died: { edtf: "1401-10-13", hijri: "0804-03-06", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في سادس شهر ربيع الأول بالقاهرة سنة ٨٠٤هـ ودفن على والده بحوش الصوفية خارج باب النصر {cite:shadharat-dhahab 7/45}؛ مات في شهر ربيع الأول وعاش إحدى وثمانين سنة {cite:durar-kamina-jil-1993 dhayl p. 123}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/shadharat-dhahab], note: "فولد له بها سراج الدين هذا {cite:shadharat-dhahab 7/44}" }
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab], note: "مات بالقاهرة ودفن بحوش الصوفية خارج باب النصر {cite:shadharat-dhahab 7/45}" }
+  - { type: child_of, target: person/nur-al-din-ali-ibn-al-mulaqqin, sources: [source/shadharat-dhahab], note: "رحل أبوه نور الدين من الأندلس إلى بلاد الترك وأقرأ أهلها القرآن فحصل له مال ثم قدم به إلى القاهرة {cite:shadharat-dhahab 7/44}" }
+  - { type: student_of, target: person/isa-al-maghribi-al-mulaqqin, sources: [source/shadharat-dhahab], note: "رباه زوج أمه الملقن مقرئ الجامع الطولوني وقرأه القرآن ثم العمدة {cite:shadharat-dhahab 7/44}" }
+  - { type: student_of, target: person/ibn-sayyid-al-nas, sources: [source/durar-kamina-jil-1993, source/shadharat-dhahab], note: "سمع من أبي الفتح بن سيد الناس {cite:durar-kamina-jil-1993 dhayl p. 121}؛ أقرأه المنهاج وأسمعه على الحافظين ابن سيد الناس وقطب الدين الحلبي {cite:shadharat-dhahab 7/44}" }
+  - { type: student_of, target: person/zayn-al-din-al-rahbi, sources: [source/durar-kamina-jil-1993], note: "تخرج في الحديث بزين الدين الرحبي وعلاء الدين مغلطاي {cite:durar-kamina-jil-1993 dhayl p. 122}" }
+  - { type: student_of, target: person/mughaltay-ala-al-din, sources: [source/durar-kamina-jil-1993], note: "تخرج بزين الدين الرحبي ومغلطاي وكتب عنهما الكثير {cite:durar-kamina-jil-1993 dhayl p. 122}" }
+  - { type: authored, target: work/tawdih-ibn-al-mulaqqin, sources: [source/durar-kamina-jil-1993], note: "شرح البخاري في عشرين مجلداً {cite:durar-kamina-jil-1993 dhayl p. 122}" }
+  - { type: authored, target: work/al-ilam-umdat-al-ahkam, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/ghayat-al-sul, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/tabaqat-al-awliya-ibn-al-mulaqqin, sources: [source/durar-kamina-jil-1993] }
+  - { type: authored, target: work/al-badr-al-munir, sources: [source/durar-kamina-jil-1993], note: "خرج أحاديث الرافعي في سبع مجلدات واختصره في مجلد {cite:durar-kamina-jil-1993 dhayl p. 122}" }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-birth-723, sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-orphan-724, sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-tulun-733, sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-talab-747, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-damascus-777, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-mihna-780, sources: [source/durar-kamina-jil-1993] }
+  - { type: participated_in, target: event/barquq-accession-784, sources: [source/durar-kamina-jil-1993], role: "من أصحاب برقوق", note: "كان يصحب برقوق {cite:durar-kamina-jil-1993 dhayl p. 123}" }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-fire-803, sources: [source/durar-kamina-jil-1993, source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ibn-al-mulaqqin-death-804, sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
 external_ids:
   wikidata: Q6534585
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0033
+  source: "Ibn al-Imad, Shadharat al-Dhahab s.a. 804, printed vol. 7 pp. 44-45 (harvest OCR AAlexandrina-223853), quoting al-Manhal; Dhayl al-Durar al-Kamina s.a. 804 printed pp. 121-123, tarjama 161, quoting al-Inba' 5/41 and Ibn Qadi Shuhba 226b (harvest OCR DurarKamina__zdk); Wikidata Q6534585"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-0033, explorer-ibn-al-mulaqqin-1
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Devin (SWE-2 Medium)"

@@ -1,0 +1,29 @@
+id: event/ibn-al-mulaqqin-tulun-733
+class: event
+kind: gathering
+label:
+  ar: "قراءة ابن الملقن القرآن والعمدة وسماعه بمصر، نحو ٧٣٣هـ"
+  en: "Qur'an, the 'Umda and first hearings at Cairo, about 733/1333"
+  ur: "قرآن، عمدہ اور قاہرہ میں ابتدائی سماعت، تقریباً 733ھ/1333ء"
+summary:
+  ar: "قرأه زوجُ أمه الملقن القرآنَ ثم العمدة، وأراد أن يشغله على مذهب الإمام مالك فقال له بعض أولاد ابن جماعة: أقرئه المنهاج؛ فأقرأه وأسمعه على الحافظين ابن سيد الناس وقطب الدين الحلبي، وأجاز له الحافظ المزي وغيره من دمشق ومصر وحلب {cite:shadharat-dhahab 7/44}. وسمع من أبي الفتح بن سيد الناس — توفي سنة ٧٣٤هـ — وأحمد بن علي المشتولي وأبي نعيم بن الإسعردي {cite:durar-kamina-jil-1993 dhayl p. 121}."
+  en: "His stepfather al-Mulaqqin taught him the Qur'an then the 'Umda, and meant to school him on Imam Malik's madhhab until one of Ibn Jama'a's sons said: teach him the Minhaj. He did, and had him hear the two hafizes Ibn Sayyid al-Nas and Qutb al-Din al-Halabi, while the hafiz al-Mizzi and others of Damascus, Egypt and Aleppo gave him ijazas {cite:shadharat-dhahab 7/44}. Among those he heard was Abu l-Fath Ibn Sayyid al-Nas, who died in 734 {cite:durar-kamina-jil-1993 dhayl p. 121}."
+  ur: "سوتیلے باپ ملقن نے انہیں قرآن پھر عمدہ پڑھایا اور امام مالک کے مذہب پر مشق کرانا چاہی، مگر ابن جماعہ کے ایک فرزند نے کہا: منہاج پڑھاؤ؛ پس انہی نے منہاج پڑھائی اور حافظین ابن سید الناس اور قطب الدین حلبی سے سماعت کرائی، اور حافظ مزی سمیت دمشق، مصر اور حلب کے علماء نے اجازتیں دیں {cite:shadharat-dhahab 7/44}۔ ان کے سماعت کرنے والوں میں ابوالفتح ابن سید الناس بھی تھے جو 734ھ میں فوت ہوئے {cite:durar-kamina-jil-1993 dhayl p. 121}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1333~", hijri: "0733~", calendar: julian, precision: year, status: tradition, derived: true, note: "سمع من ابن سيد الناس المتوفى سنة ٧٣٤هـ {cite:durar-kamina-jil-1993 dhayl p. 121}؛ التاريخ تقريبي؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-al-mulaqqin, role: "التلميذ", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/isa-al-maghribi-al-mulaqqin, role: "المقرئ المربِّي", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-sayyid-al-nas, role: "الشيخ المسمِّع", sources: [source/durar-kamina-jil-1993] }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Shadharat al-Dhahab s.a. 804, printed vol. 7 p. 44 (harvest OCR AAlexandrina-223853); Dhayl al-Durar s.a. 804 p. 121 (harvest OCR DurarKamina__zdk)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-mulaqqin-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
