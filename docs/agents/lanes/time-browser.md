@@ -66,6 +66,7 @@ Append one line per merged PR, newest last:
 - 2026-10-29 PR #2519 root data files (sitemaps, feed, llms, search synonyms, favicons) published to R2; this changes the Worker and workflow and needs a founder deploy.
 - 2026-10-29 PR #2520 twelve person stories, 49 subjects in all; PR #2521 (69 backdrops) and #2522 (27 backdrops) merged after the people check.
 - 2026-10-29 image queues on the founder's Mac: 113 backdrops for the 12 new stories, then 21 redo images; each batch is checked and shipped in its own PR; rules in EXPLORER-STORY-PIPELINE.md section 3a.
+- 2026-11-03 Copilot wired five sourced place stories (Tabuk, Khaybar, Badr, Harran and Rayy), reusing 40 linked graph events. Added missing source/provenance metadata to four existing place records; no event facts or relations changed. Public Explorer build and citation checks pass. Images and browser verification remain pending until the active Cursor queue finishes.
 
 ## Revision after the TimelineThis review (27 Oct 2026)
 

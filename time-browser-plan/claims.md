@@ -303,3 +303,8 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-03 | person/ibn-habib-al-halabi | devin | claimed
 2026-11-03 | person/ibn-habib-al-halabi | devin | done — 6 nodes, journey (4 new events + person rewrite); PR #3283
 2026-11-03 | person/ibn-habib-al-halabi | devin | done — 6 nodes, journey (born Damascus Sha'ban 710/early 1311, father appointed muhtasib of Aleppo → Tripoli hearing tour 758 → Tarikh Dawlat al-Atrak completed to 777, son Tahir's dhayl → dies Aleppo Rabi' II 779/1377); 4 new events + work/durrat-al-aslak + 8 stubs; person record rewritten (month-precision born/died, ar/en/ur labels+summary, born_in damascus/died_in+lived_in aleppo, child_of father stub, 6 authored, 4 participated_in, published); all dated facts from Durar al-Kamina (Dar al-Jil) 2/29-30 + Nujum al-Zahira 11/189-190 + al-A'lam 2/218-219 — archive.org djvu OCR used because the harvest SD card (~/islam-museum-harvest → /Volumes/exmicroSD) is not mounted; GPU busy (cursor queue) so no Explorer images — jobs staged at .cache/time-browser/jobs-ibn-habib.json (6 nodes need images)
+2026-11-03 | place/tabuk | copilot | claimed
+2026-11-03 | place/khaybar | copilot | claimed
+2026-11-03 | place/badr | copilot | claimed
+2026-11-03 | place/harran | copilot | claimed
+2026-11-03 | place/rayy | copilot | claimed
