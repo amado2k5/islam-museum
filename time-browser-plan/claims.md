@@ -308,3 +308,8 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-03 | place/badr | copilot | claimed
 2026-11-03 | place/harran | copilot | claimed
 2026-11-03 | place/rayy | copilot | claimed
+2026-11-03 | place/tabuk | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/khaybar | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/badr | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/harran | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
+2026-11-03 | place/rayy | copilot | done — sourced story and screened adult/kids backdrops; Arabic, English and Urdu pages and backdrop switching verified
