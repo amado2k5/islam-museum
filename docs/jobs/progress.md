@@ -55,3 +55,8 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the entry calls Ibn Khaldun's account of the office's development theoretical rather than historical. The record does not rely on it.
   - FLAG: the Ottoman hajib and the modern successors are not covered by the entry. The entry's bibliography was not read for this record.
   - Next step: `job/treasurer`, then the rest of Court & Administration.
+- **3 November 2026 — Phase 2, Court & Administration, batch 5: `job/treasurer`.** One source entity read in full: `source/tdv-hazinedar` (Erdoğan Merçil, vol. 17 pp. 141–143, Turkish). The record is in Arabic, English and Urdu. Five person records take a `job/treasurer` entry, all episodic: Umar ibn al-Khattab, Bilal ibn Rabah, Abu Ubayda ibn al-Jarrah, Muadh ibn Jabal and Abdullah ibn Masud (judge and treasury officer in Kufa).
+  - FLAG: the entry gives no dates for the early treasurers' appointments, so their occupation notes say so and no date is invented.
+  - FLAG: Ali appointed a treasury official titled hazin, but the entry does not say Ali held the post himself, so no Ali occupation is written.
+  - FLAG: the entry's bibliography was not read. The modern successors of the treasury in public finance are not covered.
+  - Next step: the rest of Court & Administration, starting with `job/mufti` once the fatwa article is read.
