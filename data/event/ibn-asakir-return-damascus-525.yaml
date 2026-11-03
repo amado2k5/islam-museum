@@ -1,0 +1,27 @@
+id: event/ibn-asakir-return-damascus-525
+class: event
+kind: other
+label:
+  ar: "عودة ابن عساكر إلى دمشق سنة مقتل تاج الملك بوري، ٥٢٥هـ/١١٣١م"
+  en: "Ibn 'Asakir returns to Damascus in the year of Taj al-Mulk Buri's assassination, 525/1131"
+  ur: "تاج الملک بوری کے قتل کے سال ابن عساکر کی دمشق واپسی، 525ھ/1131ء"
+summary:
+  ar: "زار ابن عساكر نواحي الموصل ثم عاد إلى دمشق سنة خمس وعشرين وخمسمائة، وهي سنة اغتيال تاج الملك بوري {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ ويظهر أنه تزوج في أواخر هذه المدة، إذ وُلد ابنه القاسم سنة سبع وعشرين {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "Ibn 'Asakir visited the Mosul region and returned to Damascus in 525, the year Taj al-Mulk Buri was assassinated {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}. He seems to have married toward the end of this period, for his son al-Qasim was born in 527/1133 {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "ابن عساکر نے موصل کے نواح کا دورہ کیا اور 525ھ میں دمشق لوٹ آئے — یہی وہ سال ہے جب تاج الملک بوری قتل ہوا {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ ظاہر ہے اسی زمانے کے آخر میں شادی کی، کیونکہ بیٹا قاسم 527ھ/1133ء میں پیدا ہوا {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1131", hijri: "0525", calendar: julian, precision: year, status: tradition, derived: true, note: "returned to Damascus in 525, the year of the assassination of Buri {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "العائد من الرحلة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

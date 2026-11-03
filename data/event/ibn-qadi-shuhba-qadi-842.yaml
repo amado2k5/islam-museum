@@ -1,0 +1,28 @@
+id: event/ibn-qadi-shuhba-qadi-842
+class: event
+kind: other
+label:
+  ar: "تولية ابن قاضي شهبة قضاء القضاة بدمشق، جمادى الأولى ٨٤٢هـ"
+  en: "Ibn Qadi Shuhba appointed chief judge of Damascus, Jumada I 842"
+  ur: "ابن قاضی شہبہ کی دمشق کے قاضی القضاۃ کے منصب پر تعیناتی، جمادی الاولٰی 842ھ"
+summary:
+  ar: "في جمادى الأولى سنة اثنتين وأربعين وثمانمئة رُسم باستقرار تقي الدين أبي بكر ابن قاضي شهبة في قضاء القضاة بدمشق وجُهّز له التشريف والتوقيع؛ وكان التوقيع قد توجه أولاً إلى البرهان إبراهيم بن الباعوني عوضاً عن المقر الكمالي محمد بن البارزي كاتب السر، فامتنع من القبول، وأتاه الأمير إينال الحكمي نائب الشام إلى بيته يسأله القبول فأبى وصمم على الامتناع، فبعث النائب بذلك فرُسم لابن قاضي شهبة بالقضاء {cite:suluk-maqrizi p. 1100-1101}."
+  en: "In Jumada I of 842 the investiture went out to Taqi al-Din Abu Bakr Ibn Qadi Shuhba as chief judge (qadi al-qudat) of Damascus, and the robe of honour and the rescript were prepared for him. The rescript had first gone to al-Burhan Ibrahim ibn al-Ba'uni to replace al-Maqarr al-Kamali Muhammad ibn al-Barizi, the chancery secretary; he refused to accept, and the governor Inal al-Hakimi went to his house to press him, but he persisted in his refusal, so the decree was written for Ibn Qadi Shuhba {cite:suluk-maqrizi p. 1100-1101}."
+  ur: "جمادی الاولٰی 842ھ میں تقی الدین ابو بکر ابن قاضی شہبہ کو دمشق کا قاضی القضاۃ مقرر کرنے کا فرمان نکلا اور خلعت اور توقیع اس کے لیے تیار کیے گئے۔ پہلے یہ توقیع برہان الدین ابراہیم بن الباعونی کو دیا گیا تھا تاکہ مقر کمالی محمد بن البارزی، کاتب السر، کا بدل بنے، مگر انہوں نے قبول سے انکار کر دیا؛ امیر اینال حکمی، نائب الشام، ان کے گھر گیا مگر وہ انکار پر قائم رہے، اس پر ابن قاضی شہبہ کے نام قضاء کا فرمان لکھا گیا {cite:suluk-maqrizi p. 1100-1101}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1438-10~", hijri: "0842-05", calendar: julian, precision: month, status: historical, derived: true, note: "جمادى الأولى ٨٤٢ {cite:suluk-maqrizi p. 1100-1101}؛ التحويل مشتق.", sources: [source/suluk-maqrizi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibn-qadi-shuhba, role: "قاضي القضاة المستقر", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibrahim-ibn-al-bauni, role: "الذي امتنع عن القبول قبله", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/inal-al-jakami, role: "نائب الشام الذي سأل الباعوني", sources: [source/suluk-maqrizi] }
+sources: [source/suluk-maqrizi]
+provenance:
+  layer: own-research
+  source: "السلوك للمقريزي (ط دار الكتب 1973، ج٤ ق٣، سنة 842) ص 1100-1101، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

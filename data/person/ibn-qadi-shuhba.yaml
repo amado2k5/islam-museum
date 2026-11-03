@@ -1,20 +1,32 @@
 id: person/ibn-qadi-shuhba
 class: person
-label: { ar: "ابن قاضي شهبة" }
+label:
+  ar: "القاضي تقي الدين ابن قاضي شهبة"
+  en: "Qadi Taqi al-Din Ibn Qadi Shuhba"
+  ur: "قاضی تقی الدین ابن قاضی شہبہ"
 summary:
-  ar: "القاضي تقي الدين أبو بكر بن أحمد المعروف بابن قاضي شهبة الدمشقي المتوفى سنة ٨٥١هـ؛ صاحب الإعلام بتاريخ أهل الإسلام {cite:kashf-zunun-furqan p. 479}."
-  en: "Qadi Taqi al-Din Abu Bakr ibn Ahmad, known as Ibn Qadi Shuhba al-Dimashqi, d. AH 851 — author of al-I'lam bi-Tarikh Ahl al-Islam {cite:kashf-zunun-furqan p. 479}."
+  ar: "القاضي تقي الدين أبو بكر ابن قاضي شهبة الأسدي الدمشقي الشافعي (ت ٨٥١هـ): فقيه الشام في عصره ومؤرخها وعالمها، ولي قضاء القضاة بدمشق وخطابة الجامع الأموي ومفتيها، وانتهت إليه الرئاسة في فقه مذهبه وفروعه؛ اشتهر بابن قاضي شهبة لأن أبا جده أقام قاضياً بشهبة من قرى حوران أربعين سنة؛ صاحب «طبقات الشافعية» و«الإعلام بتاريخ أهل الإسلام» {cite:al-aalam p. 163} {cite:nujum-zahira 15/523} {cite:shadharat-dhahab p. 269}."
+  en: "Qadi Taqi al-Din Abu Bakr Ibn Qadi Shuhba al-Asadi al-Dimashqi al-Shafi'i (d. 851/1448): the jurist, historian and scholar of Damascus in his day, who held the chief judgeship of Damascus with the preachership of the Umayyad Mosque and its muftiship, and to whom the leadership of the Shafi'i school passed; he is called Ibn Qadi Shuhba because his great-grandfather was qadi of Shahba in Hawran for forty years; author of Tabaqat al-Shafi'iyya and al-I'lam bi-Tarikh Ahl al-Islam {cite:al-aalam p. 163} {cite:nujum-zahira 15/523} {cite:shadharat-dhahab p. 269}."
+  ur: "قاضی تقی الدین ابو بکر ابن قاضی شہبہ اسدی دمشقی شافعی (وفات 851ھ/1448ء): اپنے عصر کے شام کے فقیہ، مؤرخ اور عالم؛ دمشق کے قاضی القضاۃ، جامع اموی کے خطیب اور مفتی رہے اور شافعی فقہ کی ریاست انہی پر منتج ہوئی؛ 'ابن قاضی شہبہ' اس لیے کہہلائے کہ ان کے پردادا حوران کی بستی شہبہ میں چالیس برس قاضی رہے؛ 'طبقات الشافعیہ' اور 'الاعلام بتاریخ اہل الاسلام' کے مصنف {cite:al-aalam p. 163} {cite:nujum-zahira 15/523} {cite:shadharat-dhahab p. 269}۔"
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
-died: { edtf: "1448-01-16~", hijri: "0851-11-11", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بدمشق فجأة يوم الخميس حادي عشر ذي القعدة 851 {cite:shadharat-dhahab p. 269}؛ سنة 851هـ {cite:kashf-zunun-furqan p. 479}", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan] }
+died: { edtf: "1448-01-16~", hijri: "0851-11-11", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بدمشق فجأة يوم الخميس حادي عشر ذي القعدة 851 {cite:shadharat-dhahab p. 269}؛ في ذي القعدة بدمشق فجأة بطالاً {cite:nujum-zahira 15/523}؛ سنة 851هـ {cite:kashf-zunun-furqan p. 479}", sources: [source/shadharat-dhahab, source/nujum-zahira, source/kashf-zunun-furqan] }
 relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab, source/nujum-zahira] }
   - { type: authored, target: work/al-ilam-tarikh-ahl-al-islam, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/tabaqat-al-shafiiyya-ibn-qadi-shuhba, sources: [source/shadharat-dhahab, source/al-aalam] }
+  - { type: participated_in, target: event/ibn-qadi-shuhba-qadi-842, sources: [source/suluk-maqrizi] }
+  - { type: participated_in, target: event/ibn-qadi-shuhba-khutba-aziz-842, sources: [source/suluk-maqrizi, source/nujum-zahira] }
+  - { type: participated_in, target: event/ibn-qadi-shuhba-dismissed-842, sources: [source/suluk-maqrizi] }
+  - { type: participated_in, target: event/ibn-qadi-shuhba-reinstated-843, sources: [source/suluk-maqrizi] }
+  - { type: participated_in, target: event/ibn-qadi-shuhba-khitaba-lost-843, sources: [source/suluk-maqrizi] }
+  - { type: participated_in, target: event/ibn-qadi-shuhba-final-dismissal-844, sources: [source/suluk-maqrizi] }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 479 مدخل 1344"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-3
-sources: [source/kashf-zunun-furqan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "النجوم الزاهرة 15/523؛ شذرات الذهب ص 269 (سنة 851)؛ السلوك للمقريزي ج٤ ق٣ ص 1100-1202؛ الأعلام للزركلي ص 163؛ كشف الظنون (ط الفرقان) ج١ ص 479 مدخل 1344 — قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab, source/nujum-zahira, source/suluk-maqrizi, source/al-aalam]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

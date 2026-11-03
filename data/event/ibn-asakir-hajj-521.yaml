@@ -1,0 +1,29 @@
+id: event/ibn-asakir-hajj-521
+class: event
+kind: pilgrimage
+label:
+  ar: "حج ابن عساكر وسماعه بمكة والكوفة في طريق العودة، ٥٢١هـ/١١٢٧م"
+  en: "Ibn 'Asakir's hajj and hearings at Mecca and Kufa on the way back, 521/1127"
+  ur: "ابن عساکر کا حج اور مکہ و کوفہ میں سماعت، واپسی کے سفر میں، 521ھ/1127ء"
+summary:
+  ar: "حج ابن عساكر في سنة إحدى وعشرين، فسمع بمكة من عبد الله بن محمد بن الغزال المصري صاحب كريمة المروزية، وسمع بالكوفة من عمر بن إبراهيم العلوي {cite:tarikh-islam-dhahabi p. 71}؛ وأمضى زمناً بمكة والمدينة ونزل الكوفة في رجوعه إلى بغداد {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "In 521 Ibn 'Asakir made the pilgrimage; at Mecca he heard 'Abdallah ibn Muhammad ibn al-Ghazzal al-Misri, pupil of Karima al-Marwaziyya, and at Kufa he heard 'Umar ibn Ibrahim al-'Alawi {cite:tarikh-islam-dhahabi p. 71}; he passed some time at Mecca and Medina and stopped at Kufa on his way back to Baghdad {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "521ھ میں ابن عساکر نے حج کیا؛ مکہ میں عبداللہ بن محمد بن الغزال مصری — شاگردِ کریمہ مروزیہ — سے اور کوفہ میں عمر بن ابراہیم علوی سے سماعت کی {cite:tarikh-islam-dhahabi p. 71}؛ بغداد واپسی پر مکہ و مدینہ میں کچھ وقت گزارا اور راستے میں کوفہ ٹھہرا {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "1127", hijri: "0521", calendar: julian, precision: year, status: tradition, derived: true, note: "حج في سنة إحدى وعشرين {cite:tarikh-islam-dhahabi p. 71}؛ In 521 'Ali made the pilgrimage {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/medina, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/kufa, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "الحاج الطالب", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed p. 71 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

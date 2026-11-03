@@ -1,0 +1,53 @@
+id: person/sameera-moussa
+class: person
+label: { ar: "سميرة موسى", en: "Sameera Moussa", ur: "سمیرہ موسیٰ" }
+names:
+  - { value: "Samira Musa Ali", kind: full }
+  - { value: "Sameera Moussa", kind: alternate }
+gender: female
+summary:
+  ar: "سميرة موسى (3 آذار 1917 – آب 1952) فيزيائية مصرية، أول عالمة ذرة مصرية وأول معيدة في كلية العلوم بجامعة فؤاد الأول (جامعة القاهرة)؛ أجرت بحوثًا رائدة في الإشعاع المؤيِّن وتطبيقاته الطبية، ونظمت مؤتمر «الذرة من أجل السلام»، وقُتلت في حادث سيارة في الولايات المتحدة سنة 1952 وسط مزاعم اغتيال لم تثبت."
+  en: "Sameera Moussa (3 March 1917 – August 1952) was an Egyptian physicist, Egypt's first woman nuclear physicist and the first woman to work at Cairo University; she pioneered research into ionising radiation and its medical uses, organised the Atomic Energy for Peace conference, and was killed in a car crash in the United States in 1952 amid unproven assassination claims."
+  ur: "سمیرہ موسیٰ (3 مارچ 1917 – اگست 1952) مصری طبیعیات دان تھیں، مصر کی پہلی خاتون جوہری طبیعیات دان اور قاہرہ یونیورسٹی میں کام کرنے والی پہلی خاتون؛ انھوں نے آئیونائزنگ شعاعوں اور اس کے طبی استعمالات پر ابتدائی تحقیق کی، «ایٹم برائے امن» کانفرنس منعقد کی، اور 1952 میں امریکہ میں کار حادثے میں جاں بحق ہوئیں جس پر قتل کے غیر ثابت شدہ دعوے بھی سامنے آئے۔"
+roles: [scientist]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1917-03-03"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 3 March 1917 at Sanbo El-Kobra, Zefta district, Gharbia, attested identically by the English and Arabic articles and by Wikidata. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; March 1917 falls inside 1335 AH."
+  sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikidata-sameera-moussa]
+died:
+  edtf: "1952-08-15"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Killed in a car crash near Sheridan, Wyoming, on a visit to the United States. The day is debated: the detailed narratives of both the English and the Arabic articles date the crash to 15 August 1952, which is the value built here, while the Arabic article's lead and Wikidata give 5 August 1952. Claims that the Mossad assassinated her (in the English article citing Al Bayan; the Arabic article has a theories section) are preserved as claims, not fact. The hijri year is a tabular derived conversion; August 1952 falls inside 1371 AH."
+  sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikidata-sameera-moussa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      No text read names a faith or a legal school for Sameera Moussa
+      herself. The Arabic article records that she memorised parts of the
+      Qur'an as a schoolchild, and the English article says she was inspired
+      by earlier Muslim scientists such as Ibn al-Haytham and al-Khwarizmi.
+      The first is upbringing and the second is her field's subject matter;
+      neither is a school attestation for the woman herself, and her
+      Wikidata item carries no religion statement at all. The value is
+      therefore unknown.
+    sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikidata-sameera-moussa]
+external_ids: { wikidata: Q4116311 }
+sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikipedia-sameera-moussa-ur, source/wikidata-sameera-moussa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Sameera Moussa' revision 1383261442 of 1 November 2026; Arabic Wikipedia article 'سميرة موسى' revision 76918674 of 7 October 2026; Urdu Wikipedia article 'سمیرہ موسیٰ' revision 6834816 of 3 March 2025; Wikidata item Q4116311 revision 2540810863 of 6 September 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API and re-asserted identical on a second query). The Wikidata item is the one linked from the English article itself. No born_in or died_in edge is written: neither Sanbo El-Kobra/Zefta nor Wyoming has a place record on main. The near slug salama-moussa on main is a different person (the writer Salama Musa). No record or draft stub of any kind for her existed on main when this record was built (checked against origin/main on 2 November 2026)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-183p"
+status: { review: published }

@@ -1,0 +1,28 @@
+id: event/al-sakhawi-hajj-875
+class: event
+kind: other
+label:
+  ar: "حجة السخاوي ٨٧٥هـ وجوار مكة سنتين، ١٤٧١م"
+  en: "Al-Sakhawi's hajj of 875 and two-year sojourn in the holy cities, 1471"
+  ur: "سخاوی کا حج 875ھ اور حرمین میں دو سالہ مجاورت، 1471ء"
+summary:
+  ar: "حج السخاوي في سنة خمس وثمانين (٨٧٥هـ/١٤٧١م) ثم جاور بمكة سنة ست وثمانين وتم سنة سبع وثمانين، وأقام منها ثلاثة أشهر بالمدينة النبوية، قبل أن يعود إلى القاهرة {cite:daw-lami-jil-1992 8/14}."
+  en: "Al-Sakhawi performed the hajj in 875/1471, then sojourned in Mecca through 876 and into 877, of which he spent three months in Medina, before returning to Cairo {cite:daw-lami-jil-1992 8/14}."
+  ur: "سخاوی نے 875ھ/1471ء میں حج کیا، پھر 876ھ اور 877ھ میں مکہ میں مجاور رہا جس میں سے تین ماہ مدینہ میں گزارے، اور پھر قاہرہ واپس آیا {cite:daw-lami-jil-1992 8/14}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+date:
+  start: { edtf: "1471~", hijri: "0875", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة خمس وثمانين ٨٧٥هـ {cite:daw-lami-jil-1992 8/14}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/daw-lami-jil-1992] }
+  - { type: occurred_at, target: place/medina, sources: [source/daw-lami-jil-1992] }
+  - { type: had_participant, target: person/al-sakhawi, role: "الحاج المجاور", sources: [source/daw-lami-jil-1992] }
+sources: [source/daw-lami-jil-1992]
+provenance:
+  layer: own-research
+  source: "الضوء اللامع ج٨ ص ١٤ (archive.org Dawou_Lami part 8)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-sakhawi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

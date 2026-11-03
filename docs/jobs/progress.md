@@ -46,3 +46,12 @@ Plan home: [`README.md`](README.md). One dated entry per merged batch. Flags are
   - FLAG: the entry says Umar made Abd al-Rahman ibn Rabia judge of the army at Qadisiyya. His record describes him as a commander at Derbent under Uthman. Both are kept; the occupation note gives the entry's account.
   - FLAG: the `muftu` address on the encyclopedia is a cross-reference to the fatwa and Shaykh al-Islam articles, so the mufti job is not written from it. It waits for the fatwa article.
   - Next step: the next Court & Administration jobs, starting with `job/katib` and `job/hajib`.
+- **2 November 2026 — Phase 2, Court & Administration, batch 3: `job/katib`.** Two source-entity parts read in full from the TDV İslâm Ansiklopedisi entry `KÂTİP`: `source/tdv-katip` (first part, vol. 25 pp. 49–52; Ottoman part, pp. 53–55). The article is in Arabic, English and Urdu. Three person records take a `job/katib` entry: Hudhayfa ibn al-Yaman (episodic), Abd al-Hamid ibn Yahya (episodic), and Ibn al-Abbar (episodic).
+  - FLAG: two person records named in the entry are not updated, because their provenance block does not pass cite-check (source and generated_by missing). They predate this batch: `person/zayd-ibn-thabit` and `person/nasr-ibn-asim`. The founder decides how to repair them.
+  - FLAG: the Ottoman part gives the pay in akçe, and the Abbasid part in dinars. The article keeps both as the entry gives them, and does not convert them.
+  - Next step: the rest of Court & Administration (`job/hajib`, `job/treasurer`), then the Governance & Law wave.
+- **2 November 2026 — Phase 2, Court & Administration, batch 4: `job/hajib`.** One source entity read in full: `source/tdv-hacib` (Aydın Taneri, vol. 14 pp. 508–511, Turkish). The record is in Arabic, English and Urdu. Two person records take a `job/hajib` entry, both episodic: Ibn Khaldun (served as hajib to a Merinid sultan) and al-Mansur ibn Abi Amir (had his son made hajib and took the office's powers).
+  - FLAG: the entry does not settle whether Muawiya or Abd al-Malik founded the office under the Umayyads. The first-attested range is wide (622–705 AD) and marked debated.
+  - FLAG: the entry calls Ibn Khaldun's account of the office's development theoretical rather than historical. The record does not rely on it.
+  - FLAG: the Ottoman hajib and the modern successors are not covered by the entry. The entry's bibliography was not read for this record.
+  - Next step: `job/treasurer`, then the rest of Court & Administration.

@@ -54,3 +54,6 @@ Bilal ibn Rabah was an Abyssinian-born slave in Mecca (c. 580 CE) and among the 
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh holds that a great man is great by his character, not his seat of office, giving the example of Bilal the Abyssinian, from whose tongue the words of the call to prayer came so that hearts trembled, who was pointed out only for his piety, and for whom it is honour enough that the Prophet commended him. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:02:00}
+
+## In Abd al-Rahman Mansour's programme 'Ahalina'
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] mentions Bilal in his programme [[work/ahaleena|'Ahalina']] while forbidding fathers to despise a child for his looks or colour: Bilal, he says, was an Abyssinian and a black slave, and yet the Prophet heard the sound of his sandals in Paradise; he joins this to the teaching that the noblest of people before God are the most God-fearing, not the fairest or the most handsome. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:06:00}

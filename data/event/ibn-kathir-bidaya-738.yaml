@@ -1,0 +1,27 @@
+id: event/ibn-kathir-bidaya-738
+class: event
+kind: publication
+label:
+  ar: "تأليف ابن كثير «البداية والنهاية» وتصانيفه، نحو ٧٣٨هـ"
+  en: "Ibn Kathir's compilations: al-Bidaya wa'l-Nihaya and his other works, about 738/1338"
+  ur: "ابن کثیر کی تصانیف: «البدایہ والنہایہ» اور دیگر کتب، تقریباً 738ھ/1338ء"
+summary:
+  ar: "اشتغل ابن كثير بالحديث مطالعةً في متونه ورجاله، فجمع التفسير، وشرع في كتاب كبير في الأحكام لم يكمله، وجمع التاريخ الذي هو «البداية والنهاية» على نسق الكامل لابن الأثير — انتهى فيه إلى حوادث سنة ٧٣٨هـ — وعمل «طبقات الشافعية»، وخرّج أحاديث أدلة التنبيه وأحاديث مختصر ابن الحاجب، وشرع في شرح البخاري، واختصر كتاب ابن الصلاح وله فيه فوائد؛ ومن كتبه «جامع المسانيد» في ثمانية مجلدات و«الاجتهاد في طلب الجهاد» و«التكميل في معرفة الثقات والضعفاء والمجاهيل» في خمس مجلدات، وسارت تصانيفه في البلاد في حياته وانتفع بها الناس بعد وفاته {cite:durar-kamina-jil-1993 1/374} {cite:al-aalam 1/112-113}."
+  en: "Ibn Kathir gave himself to hadith, reading its texts and men: he compiled the Tafsir, began a large book of ahkam left unfinished, compiled the history al-Bidaya wa'l-Nihaya on the model of Ibn al-Athir's al-Kamil — closing it with the events of 738 — wrote the Tabaqat al-Shafi'iyya, critiqued the hadiths of Adillat al-Tanbih and of Ibn al-Hajib's Mukhtasar, began a commentary on al-Bukhari, and abridged Ibn al-Salah's 'ulum al-hadith with additions of his own; among his books are the Jami' al-Masanid in eight volumes, al-Ijtihad fi talab al-jihad and al-Takmil on rijal in five volumes; his works travelled the lands in his lifetime {cite:durar-kamina-jil-1993 1/374} {cite:al-aalam 1/112-113}."
+  ur: "ابن کثیر نے حدیث کے متون اور رجال کا مطالعہ کیا: تفسیر مرتب کی، احکام کی بڑی کتاب شروع کی جو ادھوری رہی، ابن اثیر کے الکامل کے نقش پر تاریخ «البدایہ والنہایہ» جمع کی — جسے انہوں نے 738ھ کے واقعات پر ختم کیا — «طبقات الشافعیہ» لکھی، ادلہ التنبیہ اور مختصر ابن حاجب کی احادیث کی تخریج کی، شرح بخاری کا آغاز کیا اور ابن الصلاح کی کتاب کا اختصار کیا جس میں ان کے فوائد بھی ہیں؛ ان کی کتابوں میں آٹھ جلدوں کا «جامع المسانید»، «الاجتہاد فی طلب الجہاد» اور پانچ جلدوں کی «التکمیل» ہیں؛ ان کی تصانیف ان کی زندگی میں ہی پھیل گئیں {cite:durar-kamina-jil-1993 1/374} {cite:al-aalam 1/112-113}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1338~", hijri: "0738~", calendar: julian, precision: year, status: tradition, derived: true, note: "انتهى في البداية والنهاية إلى حوادث سنة ٧٣٨هـ {cite:al-aalam 1/112}؛ جمع التفسير والتاريخ وطبقات الشافعية وشرع في شرح البخاري {cite:durar-kamina-jil-1993 1/374}؛ التحويل مشتق.", sources: [source/al-aalam, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-kathir, role: "المؤلف", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+sources: [source/durar-kamina-jil-1993, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina 1/374, tarjama 944 (harvest OCR DurarKamina__drkamth1); al-Zirikli, al-A'lam j.1 pp. 112-113 (harvest OCR AAlexandrina-159187)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

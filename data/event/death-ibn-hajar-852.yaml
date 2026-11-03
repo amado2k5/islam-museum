@@ -17,7 +17,8 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "المتوفَّى", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
-sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+  - { type: had_participant, target: person/al-sakhawi, role: "التلميذ الملازم الذي لم يحج ولم يرتحل إلا بعد وفاته", sources: [source/daw-lami-jil-1992] }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2, source/daw-lami-jil-1992]
 provenance:
   layer: own-research
   source: "shadharat-dhahab s.a. 852, printed pp. 270-274; Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), PDF p. 810"

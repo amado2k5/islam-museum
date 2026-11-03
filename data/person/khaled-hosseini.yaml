@@ -1,0 +1,45 @@
+id: person/khaled-hosseini
+class: person
+label: { ar: "خالد حسيني", en: "Khaled Hosseini", ur: "خالد حسینی" }
+names:
+  - { value: "Khaled Hosseini", kind: full }
+  - { value: "Khalid Husseini", kind: alternate }
+gender: male
+summary:
+  ar: "خالد حسيني (وُلد في ٤ آذار ١٩٦٥ في كابل) روائي أفغاني أمريكي وطبيب سابق، مؤلف «عدّاء الطائرة الورقية» (٢٠٠٣) و«ألف شمس مشرقة» (٢٠٠٧) و«وردّدت الجبال الصدى» (٢٠١٣)؛ لجأت أسرته إلى الولايات المتحدة سنة ١٩٨٠، ومارس الطب في كاليفورنيا عقدًا قبل أن يتفرغ للكتابة، وهو مبعوث حسن نوايا للمفوضية السامية لشؤون اللاجئين وصاحب مؤسسة لدعم اللاجئين الأفغان."
+  en: "Khaled Hosseini (born 4 March 1965 in Kabul) is an Afghan-American novelist and former physician, author of The Kite Runner (2003), A Thousand Splendid Suns (2007) and And the Mountains Echoed (2013); his family took asylum in the United States in 1980, he practised medicine in California for a decade before writing full-time, and he is a UNHCR goodwill envoy and founder of a foundation supporting Afghan refugees."
+  ur: "خالد حسینی (پیدائش 4 مارچ 1965، کابل) افغان نژاد امریکی ناول نگار و سابق طبیب ہیں، «دی کائٹ رنر» (2003)، «اے تھاؤزنڈ سپلینڈڈ سنز» (2007) اور «اینڈ دی ماؤنٹینز ایکوڈ» (2013) کے مصنف؛ ان کا خاندان 1980 میں امریکہ میں پناہ گزین ہوا، وہ دس برس طب سے وابستہ رہے، اور وہ یو این ایچ سی آر کے خیرسگالی سفیر ہیں۔"
+roles: [writer, physician]
+wings: [people, living]
+regions: [persia-central-asia, americas-oceania]
+born:
+  edtf: "1965-03-04"
+  hijri: "1384"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 4 March 1965 in Kabul, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1384 AH."
+  sources: [source/wikipedia-khaled-hosseini-en, source/wikipedia-khaled-hosseini-ar, source/wikidata-khaled-hosseini]
+relations:
+  - { type: born_in, target: place/kabul, sources: [source/wikipedia-khaled-hosseini-en, source/wikipedia-khaled-hosseini-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Hosseini has described himself, in his own words in more than one text, as a secular Muslim:
+      in a Beliefnet interview he said 'I consider myself a secular Muslim' and came 'from a
+      fairly liberal and secular background', and his 2008 Washington Post op-ed begins 'As a
+      secular Muslim, I too was offended'. That self-description names no school or order, his
+      parents' practice is family background, and nothing in his own words states unbelief, so no
+      school value and no atheist-or-sceptic value can be recorded. The value is therefore
+      unknown, with his self-description preserved here in full.
+    sources: [source/wikipedia-khaled-hosseini-en, source/wikipedia-khaled-hosseini-ar, source/wikidata-khaled-hosseini]
+external_ids: { wikidata: Q193116 }
+sources: [source/wikipedia-khaled-hosseini-en, source/wikipedia-khaled-hosseini-ar, source/wikidata-khaled-hosseini]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Khaled Hosseini' revision 1381398996 of 22 October 2026; Arabic Wikipedia article 'خالد حسيني' revision 76778047 of 26 September 2026; Wikidata item Q193116 revision 2562539541 of 30 October 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API; the Wikidata revision re-asserted identical on a second query, and the item carries a religion statement of Islam generically (Q432), which under the lane's rules records as unknown). His self-description as a secular Muslim was verified in-session in the Beliefnet interview and in his 2008 Washington Post op-ed, both in his own words; it names no school, so the value stays unknown under the brief's instruction for this subject. The born_in edge targets place/kabul, verified present on origin/main in-session. No record or draft stub for him existed on main (checked against origin/main on 2 November 2026 by slug, name fragments and QID). The queue's 1965 birth year is correct."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "modern-figures-wave-182o2"
+status: { review: published }
