@@ -1,0 +1,24 @@
+---
+id: work/fatwa-islamweb-celebrating-a-wedding-with-the-daff-without-extravagance
+lang: en
+source_lang: ar
+translators: []
+---
+
+## Summary
+
+A question from a fiancé about an unmixed wedding with the daff and songs at which the women guests might commit violations, in which the fatwa centre of [[group/islamweb|IslamWeb]] answered that there is no blame in celebrating and beating the daff to announce the marriage, that the sin of any violations falls on those who commit them if he does not approve and forbids them, and that affectation and extravagance should be avoided. {cite:islamweb fatwa 539261}
+
+## The question
+
+The questioner said his fiancée wants a lawful wedding in a hall, that in their community women's weddings are known for not observing modest dress even when guests are reminded, that the wedding would not be mixed, that even where dress is observed such gatherings are full of backbiting and gossip, and that his fiancée argues that showing joy is recommended. {cite:islamweb fatwa 539261} He asked who bears the sin of violations if they hold a wedding without musical instruments, using the daff and songs, and remind the guests to cover themselves and avoid backbiting; he added that he fears misusing the provision God has given him, since such celebrations cost money, and bearing sins besides. {cite:islamweb fatwa 539261}
+
+## The answer
+
+The centre prayed for blessing on the questioner's marriage, praised God that his fiancée wants a lawful wedding, unmixed and without instruments, and said there is no blame in holding the celebration in the hall and no harm in some entertainment and beating the daff, citing the hadith of [[person/abdullah-ibn-al-zubayr|Abdullah ibn al-Zubayr]] in Ahmad, 'announce this marriage'; the hadith that what separates the lawful from the unlawful is the daff and the voice at a wedding, recorded by Ahmad, al-Tirmidhi, al-Nasa'i and Ibn Majah and graded good by al-Albani and al-Arna'ut; the report in al-Nasa'i from Qaraza ibn Ka'b and Abu Mas'ud al-Ansari that they were permitted entertainment at weddings; and the hadith of [[person/aisha|Aisha]] in [[work/sahih-al-bukhari|Sahih al-Bukhari]] that when she escorted a bride to a man of the Ansar the Prophet asked her whether they had no entertainment with them, since the Ansar love entertainment. {cite:islamweb fatwa 539261} It quoted Ibn Qudama, author of [[work/al-sharh-al-kabir-ala-al-muqni|al-Sharh al-Kabir]], reporting [[person/ahmad-ibn-hanbal|Ahmad]] that it is recommended to make a marriage public and beat the daff for it so that it becomes known, and that there is no harm in verse at a wedding, like the Prophet's words to the Ansar, 'we have come to you, we have come to you, so greet us and we greet you'. {cite:islamweb fatwa 539261}
+
+As for those who backbite or commit violations, the centre said nothing falls on the questioner if he does not approve and has warned them and forbidden the wrongs, quoting [[person/ibn-taymiyya|Ibn Taymiyya]] that one who hears unbelief, lying, backbiting or singing unintentionally while passing by does not sin by the agreement of the Muslims, whereas one who sits and listens without objecting in heart, tongue or hand does sin by their agreement, on the strength of [[passage/quran-6-68|al-An'am 68–69]] and [[passage/quran-4-140|al-Nisa 140]], which place the listener who sits without objecting on the footing of the doer; hence it is said that the listener is the backbiter's partner, and in the tradition, whoever witnesses a sin and hates it is as one absent from it, and whoever is absent but approves is as one who witnessed it; so if he is present out of need he objects in his heart, by the hadith that whoever sees a wrong should change it with his hand, failing that with his tongue, failing that with his heart. {cite:islamweb fatwa 539261} The centre advised avoiding affectation, extravagance and excess, citing [[passage/quran-17-26|al-Isra 26–27]] on squandering, [[passage/quran-6-141|al-An'am 141]] on extravagance and [[passage/quran-38-86|Sad 86]], together with al-Bukhari's report from [[person/umar-ibn-al-khattab|Umar]], 'we were forbidden affectation', and the report of al-Tabarani, al-Hakim and al-Bayhaqi from [[person/salman-al-farisi|Salman]] that the Prophet forbade them to go to excessive trouble for a guest; it said the questioner should set about holding his wedding while reducing the costs that might burden him with debt in future, and that keeping away from affectation and excess will not amount to misusing the provision God has given him. {cite:islamweb fatwa 539261}
+
+## About this record
+
+The fatwa centre of IslamWeb published this fatwa on islamweb.net as no. 539261, dated 16 Jumada al-Ula 1448, 27 October 2026. {cite:islamweb fatwa 539261} The museum records this text as a historical document attributed to the body or scholar that issued it; it issues no ruling of its own.
