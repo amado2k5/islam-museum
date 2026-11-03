@@ -83,3 +83,4 @@ Every other `kind: poem` work in `data/work/` not listed above (Ka'b ibn Malik, 
 - PR 34 (Hamasa 1916): Qurayt ibn Unayf's opening poem (6 bayts, pp. 6-7) with new person record.
 - PR 35 (Hamasa 1916): Ta'abbata Sharran (3, p. 17), Qays ibn al-Khatim (5, p. 49), Amr ibn Ma'dikarib (2, p. 45) (10 passages, 3 works).
 - PR 36 (Hamasa 1916): Abu Kabir al-Hudhali (6, pp. 19-20; a seventh bayt skipped as unclear).
+- PR 37 (Hamasa 1916): Jafar ibn Ulba al-Harithi (4, p. 11) with new person record. A fifth bayt of the opening was not read.
