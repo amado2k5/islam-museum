@@ -1,0 +1,37 @@
+id: work/maalim-al-sunan
+class: work
+kind: book
+label: { ar: "معالم السنن", en: "Ma'alim al-Sunan", ur: "معالم السنن" }
+summary:
+  ar: "شرح أبي سليمان حمد بن محمد الخطابي البستي (319–388هـ) على سنن أبي داود: يفسر غريب ألفاظ الأحاديث، ويستخرج منها الفقه والأدب، ويحكي مذاهب الصحابة والفقهاء في المسائل، ويجمع بين الأخبار المختلفة ويرجّح، ويسند أحياناً أحاديث من غير طريق أبي داود؛ وهو مطبوع في حواشي طبعة دار ابن حزم للسنن (1997) معلّماً بكلمة «خطابي» {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 21}."
+  en: "The commentary of Abu Sulayman Hamd ibn Muhammad al-Khattabi of Bust (319–388 AH) on the Sunan of Abu Dawud: it explains rare words in the reports, draws law and manners from them, relates the views of the Companions and jurists, reconciles conflicting reports and weighs between them, and at times gives reports with its author's own chains outside Abu Dawud's; it is printed in the footnotes of the Dar Ibn Hazm edition of the Sunan (1997), marked 'Khattabi' {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 21}."
+  ur: "ابو سلیمان حمد بن محمد خطابی بستی (319–388ھ) کی سنن ابی داؤد پر شرح: یہ احادیث کے غریب الفاظ کی تشریح کرتی، ان سے فقہ اور آداب نکالتی، صحابہ اور فقہا کے مذاہب بیان کرتی، مختلف روایات میں تطبیق اور ترجیح دیتی، اور کبھی ابو داؤد کے طریق کے علاوہ اپنی سندوں سے روایات لاتی ہے؛ یہ سنن کے دار ابن حزم ایڈیشن (1997) کے حاشیے میں «خطابی» کے نشان کے ساتھ چھپی ہے {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 21}۔"
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+authors: [person/abu-sulayman-al-khattabi]
+language: language/arabic
+structure: "يسير على كتب سنن أبي داود وأبوابها، ولا ينقل متونها كلها، بل يقف عند ألفاظ وأحاديث بعينها؛ وفي طبعة دار ابن حزم وُزّعت كلماته على حواشي الأحاديث التي يشرحها (ج1: كتاب الطهارة ص 17–193، كتاب الصلاة ص 197–493)."
+editions: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, worship-and-the-pillars]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: commentary_on, target: work/sunan-abi-dawud, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: made_in, target: place/bust, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], note: "مؤلفه من بست ومات بها؛ موضع التأليف لم يُذكر صراحة" }
+  - { type: mentions, target: concept/qullatayn, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: place/bir-budaa, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: concept/istihada, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: person/ibn-al-arabi-ahmad, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: person/al-shafii, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: person/ahmad-ibn-hanbal, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: person/abu-hanifa, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+provenance:
+  layer: own-research
+  source: "Sunan Abi Dawud with Ma'alim al-Sunan, Dar Ibn Hazm 1997 vol. 1: pp. 1, 8, 13–14, 17–21, 34, 43–47, 82–85, 95–97, 137, 197–198, 428, 437–438 (printed = PDF pages)"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K)" }

@@ -16,11 +16,12 @@ relations:
 - type: based_on
   target: passage/quran-108-2
   sources: [source/tanzil-quran]
-sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3, source/majmu-irshad-v8]
 provenance:
   layer: own-research
   source: Fiqh of the four madhhabs; Qur'an refs via Tanzil
   generated_by: Devin (SWE-2 High), practices lane
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: madhhab section from majmu-irshad-v8 PDF pp. 358-359"
 status:
   review: draft
   completeness: 3

@@ -1,0 +1,31 @@
+id: work/al-kifaya-fi-ilm-al-riwaya
+class: work
+kind: book
+label: { ar: "الكفاية في علم الرواية", en: "al-Kifaya fi Ilm al-Riwaya" }
+summary:
+  ar: "كتاب الخطيب البغدادي (ت 463هـ) في قوانين الرواية وأصول علم الحديث: حجية السنة وخبر الواحد، وشروط من تُقبل روايته، وعدالة الصحابة وتعريف الصحابي، والجرح والتعديل وأحكامهما، والرواية عن أهل البدع، والتشدد في أحاديث الأحكام والتساهل في الفضائل، وترك من اختلط، وأخذ الأجرة على التحديث، وسماع الصغير، وطرق التحمل كالعرض والمناولة والإجازة والمكاتبة، وألفاظ الأداء. يذكر في مقدمته أنه ألفه رداً على من يجمع الحديث دون نظر في حال الراوي والمروي، وعلى من طعن في الحديث وأهله، ونقل محققو طبعة حيدر آباد عن ابن حجر أن الخطيب عمل في قوانين الرواية كتاباً سماه الكفاية، وعن ابن نقطة أن المحدثين بعده عيال على كتبه."
+  en: "Al-Khatib al-Baghdadi's (d. 463 AH) book on the rules of transmission and the principles of hadith science: the authority of the Sunna and of single-source reports, the conditions for accepting a transmitter, the probity of the Companions and the definition of a Companion, criticism and vindication and their rulings, narration from innovators, strictness in legal hadith and leniency in reports on virtues, abandoning transmitters who became confused, payment for teaching hadith, hearing in childhood, and the modes of receiving and relaying hadith. In his preface he says he wrote it against those who collect hadith without examining transmitter and report, and against those who attack hadith and its people; the Hyderabad editors quote Ibn Hajar that al-Khatib wrote on the rules of transmission a book he named al-Kifaya, and Ibn Nuqta that the traditionists after him all depend on his books."
+genre: [hadith]
+disciplines: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/kifaya-khatib-hyderabad-1357] }
+authors: [person/al-khatib-al-baghdadi-ahmad]
+language: language/arabic
+structure: "مقدمة المؤلف (ص 2–7) ← أبواب حجية السنة وخبر الواحد (ص 8–31) ← شروط الراوي وعدالة الصحابة (ص 32–66) ← السماع والعدالة والجرح وأحكامهما (ص 66–120) ← الرواية عن أهل البدع والضعفاء والمختلطين والآخذين للأجرة وأهل المجون (ص 120–158) ← طرق التحمل وألفاظ الأداء والرواية بالمعنى (حتى ص 437) ← باب الترجيح بين الأخبار (ص 437) ← خاتمة النسخة وخاتمة الطبع (ص 439–441) — بحسب فهرس طبعة حيدر آباد ص 442–451"
+editions: [source/kifaya-khatib-hyderabad-1357]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: concept/adalat-al-sahaba, sources: [source/kifaya-khatib-hyderabad-1357] }
+  - { type: mentions, target: concept/jarh-wa-tadil, sources: [source/kifaya-khatib-hyderabad-1357] }
+  - { type: mentions, target: concept/khabar-al-ahad, sources: [source/kifaya-khatib-hyderabad-1357] }
+sources: [source/kifaya-khatib-hyderabad-1357]
+provenance:
+  layer: own-research
+  source: "kifaya-khatib-hyderabad-1357 pp. 2–7, 46–50, 120–126, 133–135, 153–157, 440–456"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: kifaya-khatib-hyderabad-1357 pp. 1–7, 46–50, 120–126, 133–135, 153–157, 440–456"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

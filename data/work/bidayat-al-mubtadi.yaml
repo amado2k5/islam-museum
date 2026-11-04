@@ -1,0 +1,24 @@
+id: work/bidayat-al-mubtadi
+class: work
+kind: book
+label:
+  ar: "بداية المبتدي"
+  en: "Bidayat al-Mubtadi"
+  ur: "بدایۃ المبتدی"
+summary:
+  ar: "متن في الفقه الحنفي ألّفه المرغيناني أولاً، جمع فيه بين مختصر القدوري والجامع الصغير لمحمد بن الحسن، ولم يتجاوزهما إلا فيما دعت الضرورة إليه لكثرة وقوعه، ورتّبه على ترتيب الجامع الصغير؛ ثم شرحه في كفاية المنتهي ثم في الهداية. {cite:hidaya-bakdash-v1 p.7} {cite:hidaya-bakdash-v1 p.50} {cite:hidaya-bakdash-v1 p.51}"
+  en: "A Hanafi base text that al-Marghinani wrote first, combining al-Quduri's Mukhtasar with Muhammad ibn al-Hasan's al-Jami' al-Saghir, going beyond them only where frequent cases required, and following the order of al-Jami' al-Saghir; he then commented on it in Kifayat al-Muntahi and in al-Hidaya."
+  ur: "مرغینانی کا پہلا لکھا ہوا حنفی متن، جس میں انہوں نے مختصر القدوری اور محمد بن الحسن کی الجامع الصغیر کو جمع کیا، اور ان سے صرف وہاں آگے بڑھے جہاں کثرتِ وقوع کی وجہ سے ضرورت تھی، اور اسے الجامع الصغیر کی ترتیب پر رکھا؛ پھر اس کی شرح کفایۃ المنتہی اور پھر الہدایہ میں کی۔"
+genre: [fiqh]
+language: language/arabic
+authors: [person/burhan-al-din-al-marghinani]
+wings: [ideas, words]
+themes: [law-and-courts, development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: relies_on, target: work/mukhtasar-al-quduri, sources: [source/hidaya-bakdash-v1] }
+  - { type: relies_on, target: work/al-jami-al-saghir-fi-al-fiqh, sources: [source/hidaya-bakdash-v1] }
+sources: [source/hidaya-bakdash-v1]
+provenance: { layer: own-research, source: "hidaya-bakdash-v1 pp. 6-7, 24, 50-52 (editor's study)", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }

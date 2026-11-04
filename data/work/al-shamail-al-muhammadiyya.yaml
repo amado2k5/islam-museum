@@ -1,0 +1,23 @@
+id: work/al-shamail-al-muhammadiyya
+class: work
+kind: book
+label: { ar: "الشمائل المحمدية", en: "al-Shama'il al-Muhammadiyya", ur: "الشمائل المحمدیہ" }
+summary:
+  ar: "كتاب أبي عيسى محمد بن عيسى الترمذي (ت 279هـ) في صفات النبي الخَلقية والخُلقية وأحواله اليومية، وهو أول مصنف مفرد في الشمائل؛ يضم ما ينوف على أربعمائة حديث مسند في ستة وخمسين باباً تبدأ بخَلق النبي وخاتم النبوة وتنتهي بوفاته وميراثه ورؤيته في المنام، وكثرت عليه الشروح حتى جمع محققه عبده كوشك اثنين وسبعين شرحاً."
+  en: "Abu Isa Muhammad ibn Isa al-Tirmidhi's (d. 279 AH) book on the Prophet's physical appearance, character and daily life, the first work devoted solely to the shama'il. It contains over four hundred hadiths with chains in fifty-six chapters, from the Prophet's physical form and the seal of prophethood to his death, his estate and seeing him in dreams; so many commentaries were written on it that its editor Abduh Kushak listed seventy-two."
+genre: [hadith, sira]
+made: { by_muslims: true, basis: documented, sources: [source/shamail-kushak-2012] }
+authors: [person/al-tirmidhi-muhammad-ibn-isa]
+language: language/arabic
+structure: "56 باباً (طبعة عوامة): 1 خَلق رسول الله (ص15)، 2 خاتم النبوة (ص80)، 3 شعره (ص105)، 4 ترجله، 5 شيبه، 6 خضابه (ص134)، ثم الكحل واللباس والعيش والخف والنعل والخاتم والسيف والدرع والمغفر والعمامة والإزار (إلى الباب 18، ص232)، ثم المشية والتقنع والجلسة والتكأة والاتكاء (19–23)، ثم الأكل والخبز والإدام والوضوء والقدح والفاكهة والشراب والشرب (24–32)، ثم التعطر والكلام والضحك والمزاح والشعر (33–38)، ثم النوم والعبادة وصلاة الضحى والتطوع والصوم والقراءة والبكاء والفراش (39–46)، ثم التواضع والخُلق والحياء والحجامة والأسماء والعيش والسن (47–53)، ثم الوفاة (ص646) والميراث (ص671) والرؤيا في المنام (ص680)."
+editions: [source/shamail-kushak-2012, source/shamail-bajuri-awwama-2001]
+commentaries: [work/jam-wasail-shamail, work/ashraf-al-wasail-ila-fahm-al-shamail, work/al-mawahib-al-laduniyya-ala-al-shamail]
+wings: [words, people]
+themes: [prophets, ethics-and-character]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: about, target: person/muhammad, sources: [source/shamail-kushak-2012] }
+provenance: { layer: own-research, source: "source/shamail-kushak-2012 pp. 2, 6–12, 25; source/shamail-bajuri-awwama-2001 pp. 5, 15, 80, 105, 134, 232, 646, 671, 680, 697–700", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/shamail-kushak-2012, source/shamail-bajuri-awwama-2001]
+status: { review: published, completeness: 3 }

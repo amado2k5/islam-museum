@@ -1,17 +1,27 @@
 id: work/al-ubudiyya
 class: work
-kind: book
-label: { ar: "العبودية", en: "Al-'Ubudiyya" }
+kind: treatise
+genre: [creed, spirituality]
+label: { ar: "العبودية", en: "al-'Ubudiyya", ur: "العبودیہ" }
 summary:
-  ar: "بطاقة أولية لـالعبودية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-'Ubudiyya; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "جواب لابن تيمية (ت 728هـ) عن سؤال في آية البقرة 21 التي تأمر الناس بعبادة ربهم: ما العبادة وفروعها، وهل الدين كله داخل فيها، وما حقيقة العبودية، وهل هي أعلى المقامات؛ يحدّ فيه العبادة بأنها اسم جامع لكل ما يحبه الله ويرضاه، ويفرق بين العبودية الكونية العامة والعبودية الدينية الخاصة، ويرد على من زعم أن الخروج عن العبودية أكمل. وهو في المجلد العاشر من مجموع الفتاوى من ص 149."
+  en: "Ibn Taymiyya's (d. 728 AH) answer to a question on al-Baqara 21, which commands people to worship their Lord: what worship and its branches are, whether the whole religion falls within it, what servanthood truly is and whether it is the highest station. He defines worship as a name gathering all that God loves and is pleased with, distinguishes the general cosmic servanthood from the particular religious one, and rejects the claim that leaving servanthood behind is more perfect. It is in volume 10 of Majmu' al-Fatawa from p. 149."
+wings: [ideas, words]
+themes: [creed, spirituality-and-sufism, worship-and-the-pillars]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/majmu-fatawa-qasim-v10] }
+authors: [person/ibn-taymiyya]
+language: language/arabic
+structure: "The question (p. 149); the definition of worship and its scope (pp. 149–150); worship as the aim of creation and the call of every messenger (pp. 150–151); what belongs to God alone and what to God and His Messenger (p. 154); the two senses of 'servant': the cosmic and the religious (pp. 154–155); the perfection of the creature lies in realising servanthood (p. 176); people's differing degrees in worship, faith and love, and servitude to wealth (pp. 180–198); freedom and servitude of the heart (p. 186); intimate friendship (khulla) and love as the realisation of servanthood (pp. 206–212); the three kinds of annihilation (fana') (pp. 218–225)."
+relations:
+  - { type: part_of, target: work/majmu-al-fatawa, sources: [source/majmu-fatawa-qasim-v10] }
 external_ids: { wikidata: "Q42342979" }
+sources: [source/majmu-fatawa-qasim-v10]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "مجموع الفتاوى، طبعة مجمع الملك فهد ج10 ص 149–157، 176، 180، 186، 218–223، والفهرس ص 772–773"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }

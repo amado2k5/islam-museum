@@ -4,14 +4,12 @@ kind: mosque
 label:
   ar: "جامع الناصر محمد بالقلعة"
   en: "al-Nasir Muhammad Mosque, Cairo Citadel"
-summary:
-  ar: "بطاقة أولية لجامع السلطان الناصر محمد بن قلاوون بقلعة القاهرة، الجامع المملوكي السلطاني الذي أُقيم سنة ١٣٣٥م وأُعيد مراراً؛ من معالم القاهرة المملوكية ولم تُراجع الصفحة بعد."
-  en: "Draft card for the mosque of Sultan al-Nasir Muhammad ibn Qalawun in the Cairo Citadel, the royal Mamluk mosque founded in 1335 and rebuilt thereafter; a landmark of Mamluk Cairo per the cited encyclopedia, the page not yet checked."
+summary: { ar: "جامع السلطان الناصر محمد بقلعة القاهرة (بدأه سنة 1318م وأعاد بناءه 1335م)، الجامع الملكي في القلعة حتى العصر العثماني، بمئذنتين عليهما قيشاني على الطراز التبريزي {cite:yeomans-islamic-cairo-2006 p.140} {cite:yeomans-islamic-cairo-2006 p.141} {cite:yeomans-islamic-cairo-2006 p.142}.", en: "Sultan al-Nasir Muhammad's mosque in the Cairo Citadel (begun 1318, rebuilt 1335), the royal mosque of the Citadel until Ottoman times, with two Tabriz-style faience-clad minarets {cite:yeomans-islamic-cairo-2006 p.140} {cite:yeomans-islamic-cairo-2006 p.141} {cite:yeomans-islamic-cairo-2006 p.142}." }
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [architecture]
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q1707580
 provenance:
@@ -20,6 +18,11 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0017
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 140-143"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1318/1335", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 141: begun 1318, rebuilt 1335 with higher walls." }
+patron: person/al-nasir-muhammad-ibn-qalawun
+location: place/cairo
+status_now: standing

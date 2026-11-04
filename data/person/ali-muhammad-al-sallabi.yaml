@@ -4,7 +4,8 @@ label: { ar: "علي محمد الصلابي", en: "Ali Muhammad al-Sallabi" }
 names:
   - { kind: full, lang: ar, value: "علي محمد الصلابي" }
 gender: male
-roles: [scholar]
+roles: [scholar, historian]
+born: { edtf: "1963", hijri: "1383", calendar: gregorian, precision: year, status: historical, note: "ولد في مدينة بنغازي بليبيا عام 1383هـ/1963م {cite:sallabi-ali-tawzi-2004 p.8}", sources: [source/sallabi-ali-tawzi-2004] }
 summary:
   ar: "الدكتور علي محمد الصلابي، كاتب معاصر في السيرة النبوية والتاريخ الإسلامي، مؤلف «السيرة النبوية: عرض وقائع وتحليل أحداث» الذي وقّع مقدمته في 18 رجب 1421هـ/16 أكتوبر 2000م، وكتب في الخلفاء والدولة الأموية والدولة العثمانية؛ يصف في مقدمته سنوات بحثه بأنها أنسته غربته وهجرته."
   en: "Dr Ali Muhammad al-Sallabi, a contemporary writer on the Prophet's biography and Islamic history, author of al-Sira al-Nabawiyya: Ard Waqa'i' wa-Tahlil Ahdath, whose preface he signed on 18 Rajab 1421 / 16 October 2000, and of books on the caliphs, the Umayyad state and the Ottoman state; in that preface he says his years of research made him forget his exile and emigration."
@@ -13,11 +14,15 @@ periods: [period/contemporary-era]
 regions: [arab-world]
 relations:
   - { type: authored, target: work/al-sira-al-nabawiyya-sallabi, sources: [source/sira-nabawiyya-sallabi] }
+  - { type: authored, target: work/al-inshirah-sirat-abi-bakr-sallabi, sources: [source/sallabi-abu-bakr-tawzi-2003] }
+  - { type: authored, target: work/fasl-al-khitab-sirat-umar-sallabi, sources: [source/sallabi-umar-tawzi-2002] }
+  - { type: authored, target: work/taysir-al-karim-al-mannan-sirat-uthman-sallabi, sources: [source/sallabi-uthman-tawzi-2003] }
+  - { type: authored, target: work/asma-al-matalib-sirat-ali-sallabi, sources: [source/sallabi-ali-tawzi-2004] }
 provenance:
   layer: own-research
-  source: "السيرة النبوية للصلابي، دار المعرفة ط7 2008، صفحة العنوان والمقدمة ص5–12؛ وسجلات مصادره الأخرى في المتحف"
+  source: "السيرة النبوية للصلابي، دار المعرفة ط7 2008، صفحة العنوان والمقدمة ص5–12؛ وسجلات مصادره الأخرى في المتحف؛ ترجمة المؤلف في أسمى المطالب (2004) ص8؛ أجزاء سلسلة الخلفاء الراشدين"
   generated_by: "Claude Code (OCR-harvest worker E)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/sira-nabawiyya-sallabi, source/salabi-umayyad-state-2020, source/dawlat-uthmaniyya-salabi]
-status: { review: published, completeness: 2 }
+sources: [source/sira-nabawiyya-sallabi, source/salabi-umayyad-state-2020, source/dawlat-uthmaniyya-salabi, source/sallabi-ali-tawzi-2004, source/sallabi-abu-bakr-tawzi-2003, source/sallabi-umar-tawzi-2002, source/sallabi-uthman-tawzi-2003]
+status: { review: published, completeness: 3 }

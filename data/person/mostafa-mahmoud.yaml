@@ -1,0 +1,38 @@
+id: person/mostafa-mahmoud
+class: person
+label: { ar: "مصطفى محمود", en: "Mostafa Mahmoud", ur: "مصطفیٰ محمود" }
+names:
+  - { value: "مصطفى محمود", kind: full, lang: ar }
+  - { value: "الدكتور مصطفى محمود", kind: alternate, lang: ar }
+gender: male
+roles: [writer, physician]
+summary:
+  ar: "طبيب وكاتب مصري، تخرج في كلية الطب بالقصر العيني في ديسمبر 1953 وتخصص في أمراض الصدر، وبدأ نشر القصص القصيرة في مجلة الرسالة سنة 1947؛ كتب في القصة والرواية والمسرح والفكر، وروى في «رحلتي من الشك إلى الإيمان» انتقاله من الشك والنظرة المادية ووحدة الوجود إلى الإيمان {cite:mm-allah-wal-insan-1957 p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 14}."
+  en: "Egyptian physician and writer who graduated from the Qasr al-Aini Faculty of Medicine in December 1953, specialising in chest diseases, and began publishing short stories in al-Risala in 1947; he wrote stories, novels, plays and essays of ideas, and in Rihlati min al-Shakk ila al-Iman narrated his passage from doubt, materialism and pantheism to faith {cite:mm-allah-wal-insan-1957 p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 14}."
+  ur: "مصری طبیب اور ادیب، جنہوں نے دسمبر 1953 میں قصر العینی کی کلیۂ طب سے فراغت پائی اور سینے کے امراض میں تخصص کیا، اور 1947 میں رسالہ میں افسانے شائع کرنا شروع کیے؛ انہوں نے افسانہ، ناول، ڈرامہ اور فکری مضامین لکھے، اور «رحلتی من الشک الی الایمان» میں شک، مادیت اور وحدت الوجود سے ایمان تک اپنا سفر بیان کیا {cite:mm-allah-wal-insan-1957 p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 14}۔"
+wings: [people, today]
+themes: [islam-and-secular-thought, scientific-miracles-claims, literature, evolution]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+sensitivity: contested
+story_roles:
+  - { role: apologist, status: historical, note: "يدافع عن الإيمان في حوار مع ملحد ويعرض قراءة علمية للقرآن (حوار مع صديقي الملحد؛ القرآن محاولة لفهم عصري)", sources: [source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986, source/mm-quran-muhawala-digital] }
+  - { role: physician, status: historical, note: "تخرج في كلية الطب بالقصر العيني 1953 وتخصص في الصدر", sources: [source/mm-allah-wal-insan-1957] }
+relations:
+  - { type: authored, target: work/allah-wal-insan, sources: [source/mm-allah-wal-insan-1957] }
+  - { type: authored, target: work/rihlati-min-al-shakk-ila-al-iman, sources: [source/mm-rihla-min-al-shakk-maarif] }
+  - { type: authored, target: work/hiwar-ma-sadiqi-al-mulhid, sources: [source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986] }
+  - { type: authored, target: work/al-quran-muhawala-li-fahm-asri, sources: [source/mm-quran-muhawala-digital] }
+  - { type: authored, target: work/lughz-al-mawt, sources: [source/mm-lughz-al-mawt-awda-1972] }
+  - { type: authored, target: work/muhammad-muhawala-li-fahm-al-sira, sources: [source/mm-muhammad-maarif-ed5] }
+  - { type: authored, target: work/raaytu-allah, sources: [source/mm-raaytu-allah-maarif-1976] }
+  - { type: authored, target: work/al-ruh-wal-jasad, sources: [source/mm-ruh-wal-jasad-maarif-ed7] }
+  - { type: lived_in, target: place/misr, sources: [source/mm-allah-wal-insan-1957] }
+provenance:
+  layer: own-research
+  source: "الله والإنسان (1957) ص 5؛ رحلتي من الشك إلى الإيمان ص 5-14، 80-82، 91؛ القرآن محاولة لفهم عصري ص 4؛ حوار مع صديقي الملحد ص 9، 124-129؛ لغز الموت ص 6؛ محمد محاولة لفهم السيرة ص 3، 98"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/mm-allah-wal-insan-1957, source/mm-rihla-min-al-shakk-maarif, source/mm-quran-muhawala-digital, source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986, source/mm-lughz-al-mawt-awda-1972, source/mm-muhammad-maarif-ed5, source/mm-raaytu-allah-maarif-1976, source/mm-ruh-wal-jasad-maarif-ed7]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

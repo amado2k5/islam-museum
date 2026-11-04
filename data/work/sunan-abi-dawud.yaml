@@ -1,21 +1,36 @@
 id: work/sunan-abi-dawud
 class: work
 kind: book
-label: { ar: "سنن أبي داود", en: "Sunan Abi Dawud" }
+label: { ar: "سنن أبي داود", en: "Sunan Abi Dawud", ur: "سنن ابی داؤد" }
 summary:
-  ar: "سنن أبي داود سليمان بن الأشعث السجستاني (202–275هـ): من الكتب الستة، رتبه مصنفه على أبواب الفقه مقتصراً على أحاديث الأحكام، وقدم في رسالته إلى أهل مكة بيان منهجه فيما أخرجه وما تركه."
-  en: "The Sunan of Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (202–275 AH): one of the six books, arranged by legal chapter and restricted to reports bearing on rulings; his letter to the people of Mecca, prefixed to the work, explains what he included and omitted."
+  ar: "سنن أبي داود سليمان بن الأشعث السجستاني (202–275هـ): من الكتب الستة، رتبه مصنفه على أبواب الفقه مقتصراً على أحاديث الأحكام؛ يقول إنه انتخبه من خمسمائة ألف حديث كتبها فجمع فيه أربعة آلاف وثمانمائة حديث «الصحيح وما يشبهه وما يقاربه»، ويعدّ معدّا طبعة دار ابن حزم كتبه خمسة وثلاثين كتاباً وأحاديثه 5274 حديثاً، وعليه شرح الخطابي «معالم السنن» {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 8} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10} {cite:sunan-abi-dawud}."
+  en: "The Sunan of Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (202–275 AH): one of the six books, arranged by legal chapter and restricted to reports bearing on rulings; he says he selected it from five hundred thousand reports he had written down, gathering 4,800 of them, 'the sound, what resembles it and what comes near it'; the editors of the Dar Ibn Hazm edition count 35 books and 5,274 reports, and al-Khattabi's Ma'alim al-Sunan is its commentary {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 8} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10} {cite:sunan-abi-dawud}."
+  ur: "ابو داؤد سلیمان بن اشعث سجستانی (202–275ھ) کی سنن: کتبِ ستہ میں سے، جسے مصنف نے فقہی ابواب پر مرتب کیا اور احکام کی احادیث تک محدود رکھا؛ وہ کہتے ہیں کہ انہوں نے پانچ لاکھ لکھی ہوئی حدیثوں میں سے اسے چنا اور اس میں چار ہزار آٹھ سو حدیثیں جمع کیں، «صحیح، اس کے مشابہ اور اس کے قریب»؛ دار ابن حزم کے ایڈیشن کے مرتبین اس کی کتابیں پینتیس اور احادیث 5274 شمار کرتے ہیں، اور خطابی کی «معالم السنن» اس کی شرح ہے {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 8} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 10} {cite:sunan-abi-dawud}۔"
 genre: [hadith]
-made: { by_muslims: true, basis: documented, sources: [source/sunan-abi-dawud] }
+made: { by_muslims: true, basis: documented, sources: [source/sunan-abi-dawud, source/sunan-abi-dawud-ibn-hazm-1997-v1] }
 authors: [person/abu-dawud-al-sijistani]
 language: language/arabic
-wings: []
-themes: [scripture-and-its-sciences]
-regions: [arabia]
+structure: "كتب على أبواب الفقه، أولها كتاب الطهارة (143 باباً، الأحاديث 1–390؛ ط. دار ابن حزم ج1 ص 15–193) ثم كتاب الصلاة (367 باباً و1165 حديثاً على ما في صفحة عنوانه؛ ج1 ص 195 وما بعدها)، وفيه أبواب المواقيت والمساجد والأذان والجماعة والإمامة وصفة الصلاة والسهو وتفريع أبواب الجمعة والعيدين والاستسقاء والكسوف (ج1 ص 197–493)؛ وعدد الكتب 35 والأحاديث 5274 في عدّ محمد محيي الدين عبد الحميد (ج1 ص 8)، و43 كتاباً في ترقيم موقع سنة.كوم."
+editions: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/sunan-abi-dawud-ibn-hazm-1997-v2, source/sunan-abi-dawud-ibn-hazm-1997-v3, source/sunan-abi-dawud-ibn-hazm-1997-v4, source/sunan-abi-dawud-ibn-hazm-1997-v5, source/sunan-abi-dawud]
+commentaries: [work/maalim-al-sunan]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, worship-and-the-pillars]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, persia-central-asia]
 relations:
-  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sunan-abi-dawud] }
-provenance: { layer: own-research, source: "Sunan Abi Dawud source record (Kanpur/Deoband edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sunan-abi-dawud, source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: place/bir-budaa, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], note: "قاس أبو داود عرض البئر بردائه، ج1 ص 46" }
+  - { type: mentions, target: person/fatima-bint-abi-hubaysh, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: person/busra-bint-safwan, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: concept/qullatayn, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: mentions, target: concept/istihada, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+provenance:
+  layer: own-research
+  source: "Sunan Abi Dawud, Dar Ibn Hazm 1997 vol. 5 pp. 5–87 (Kitab al-Sunna) and vol. 1: pp. 1–14 (title, prefaces, notices), 15, 17, 43–46, 85–86, 140, 195, 493–508 (printed = PDF pages); earlier record from the Kanpur/Deoband source record and sunnah.com"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 external_ids:
   wikidata: Q947278
-sources: [source/sunan-abi-dawud, source/sunnah-com]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }
+sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/sunan-abi-dawud-ibn-hazm-1997-v5, source/sunan-abi-dawud, source/sunnah-com]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); enriched from the Dar Ibn Hazm 1997 edition, vol. 1; first card by Devin (SWE-2 High)" }
