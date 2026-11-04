@@ -2,7 +2,8 @@
 id: building/bimaristan-al-sayyida
 lang: en
 source_lang: ar
-translators: [ai]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
+
 ## Overview
-On the first of Muharram 306 the physician Sinan b. Thabit opened the Bimaristan al-Sayyida, which she had established in Suq Yahya on the Tigris; he took his seat in it and organized the physicians, and its monthly upkeep was six hundred dinars {cite:muntazam-ibn-al-jawzi p. 436}.
+The Bimaristan of the Sayyida stood at the market of Yahya on the Tigris in Baghdad; the caliph al-Muqtadir founded it for his mother the Sayyida, and the physician Sinan ibn Thabit opened it on the first day of Muharram AH 306, took his seat in it and organised its physicians, at a cost of six hundred dinars a month {cite:muntazam-ibn-al-jawzi v13 p177}.

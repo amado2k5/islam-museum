@@ -10,9 +10,13 @@ relations:
   - { type: child_of, target: person/yasar-mawla-qays, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-28
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
 external_ids: { wikidata: "Q334847" }
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+

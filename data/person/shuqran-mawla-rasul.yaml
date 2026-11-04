@@ -10,8 +10,12 @@ relations:
   - { type: participated_in, target: event/burial-of-the-prophet, role: "من غسل النبي وصب الماء ونزل القبر ودفن القطيفة", sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 582"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-30
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
 sources: [source/muruj-al-dhahab, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+

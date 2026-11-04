@@ -9,8 +9,12 @@ wings: [people]
 external_ids: { wikidata: "Q16199373" }
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي ج2 ص 609–610"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-109
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
 sources: [source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
+
