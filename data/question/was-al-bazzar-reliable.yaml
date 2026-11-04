@@ -1,0 +1,43 @@
+id: question/was-al-bazzar-reliable
+class: question
+label: { ar: "هل كان البزار ثقة؟", en: "Was al-Bazzar reliable?", ur: "کیا بزار ثقہ تھے؟" }
+summary:
+  ar: "اختلفت أقوال نقاد الحديث في الحافظ أبي بكر البزار (ت 292هـ): وثّقه وأثنى على حفظه الخطيب البغدادي وأبو الشيخ والسمعاني وغيرهم، ونقل الدارقطني أنه يخطئ في الإسناد والمتن لأنه حدّث بالمسند بمصر من حفظه، وأن النسائي جرحه، وقال الدارقطني في موضع آخر: ثقة يخطئ كثيراً ويتكل على حفظه. {cite:musnad-bazzar-anas-thesis-1413 p.28} {cite:musnad-bazzar-anas-thesis-1413 p.29} {cite:musnad-bazzar-anas-thesis-1413 p.30}"
+  en: "Hadith critics differed over al-Hafiz Abu Bakr al-Bazzar (d. 292 AH): al-Khatib al-Baghdadi, Abu al-Shaykh, al-Sam'ani and others called him trustworthy and praised his memory, while al-Daraqutni reported that he erred in chains and texts because he related the Musnad in Egypt from memory, and that al-Nasa'i criticised him; elsewhere al-Daraqutni called him trustworthy but often mistaken, relying on his memory."
+  ur: "حافظ ابو بکر بزار (م 292ھ) کے بارے میں ناقدینِ حدیث کے اقوال مختلف ہیں: خطیب بغدادی، ابو الشیخ، سمعانی وغیرہ نے انہیں ثقہ کہا اور ان کے حافظے کی تعریف کی، جبکہ دارقطنی نے نقل کیا کہ وہ سند اور متن میں غلطی کرتے تھے کیونکہ انہوں نے مصر میں مسند حافظے سے بیان کی، اور نسائی نے ان پر جرح کی؛ دارقطنی نے ایک اور جگہ کہا: ثقہ، بہت غلطی کرتے، اپنے حافظے پر بھروسا کرتے۔"
+question: { ar: "كيف حكم نقاد الحديث على البزار؟", en: "How did hadith critics judge al-Bazzar?" }
+issue: { ar: "هل يُقبل حديث البزار مطلقاً، أم يُتوقف فيما أخطأ فيه حين حدّث بمسنده من حفظه بمصر؟" }
+short_answer:
+  ar: "الأكثرون على توثيقه والثناء على حفظه، ونُقل عن النسائي جرحه، وفسّره أبو أحمد الحاكم والدارقطني بالخطأ في الإسناد والمتن بسبب التحديث من الحفظ؛ وترى دراسة معاصرة أن ذلك لا يغضّ من قيمته."
+  en: "Most called him trustworthy and praised his memory; criticism is reported from al-Nasa'i, explained by Abu Ahmad al-Hakim and al-Daraqutni as errors in chains and texts from relating by memory; a modern study holds that this does not lessen his worth."
+perspectives:
+  - tradition: sunni
+    id: tawthiq
+    standing: main
+    stance: { ar: "ثقة حافظ" }
+    summary: { ar: "قال ابن أبي خيثمة إنه ركن من أركان الإسلام يُشبّه بابن حنبل في زهده وورعه، وقال يعقوب بن المبارك: ما رأيت أنبل من البزار ولا أحفظ، وقال أبو الشيخ: كان أحد حفاظ الدنيا رأساً، وقال الخطيب البغدادي والسمعاني: كان ثقة حافظاً صنف المسند وتكلم على الأحاديث وبين عللها، ووصفه ابن القطان الفاسي بأنه أحفظ الناس للحديث، والذهبي بالحافظ العلامة." }
+    holders: [person/abu-al-shaykh-al-isfahani, person/al-khatib-al-baghdadi-ahmad, person/al-dhahabi]
+    evidence: [{ ref: source/musnad-bazzar-anas-thesis-1413, note: { ar: "المبحث الخامس من ترجمته، PDF ص 28" } }]
+    sources: [source/musnad-bazzar-anas-thesis-1413]
+  - tradition: sunni
+    id: jarh-khata
+    standing: main
+    stance: { ar: "يخطئ في الإسناد والمتن" }
+    summary: { ar: "نقل الدارقطني أنه يخطئ في الإسناد والمتن، حدّث بالمسند بمصر حفظاً، ينظر في كتب الناس ويحدّث من حفظه ولم تكن معه كتب، فأخطأ في أحاديث كثيرة، وأن أبا عبد الرحمن النسائي جرحه؛ وقال أبو أحمد الحاكم: يخطئ في الإسناد والمتن؛ وقال الدارقطني في موضع آخر: ثقة يخطئ كثيراً ويتكل على حفظه." }
+    holders: [person/al-nasai, person/al-daraqutni]
+    evidence: [{ ref: source/musnad-bazzar-anas-thesis-1413, note: { ar: "بنقل الدراسة، PDF ص 29–30" } }]
+    sources: [source/musnad-bazzar-anas-thesis-1413]
+  - tradition: academic
+    id: modern-study
+    standing: secondary
+    stance: { ar: "الجرح مجمل وسببه التحديث من الحفظ، ولا يغضّ من قيمته" }
+    summary: { ar: "ترى دراسة جامعية معاصرة أن مصدر الجرح هو النسائي، وهو من المتشددين في النقد، وقد كان معه بمصر حين حدّث البزار من حفظه، وأنه لم يوجد في كتب النسائي تفصيل لهذا الجرح، وأن أبا أحمد الحاكم والدارقطني فسّراه بالخطأ في الإسناد والمتن، وأن ابن حجر في «اللسان» أشار إلى أخطاء نسبها إلى غيره؛ وتقارن ذلك بتخطئة أبي داود الطيالسي في أحاديث، وترى أن الموثّقين أكثر عدداً." }
+    evidence: [{ ref: source/musnad-bazzar-anas-thesis-1413, note: { ar: "PDF ص 29–30" } }]
+    sources: [source/musnad-bazzar-anas-thesis-1413]
+related: [person/al-bazzar-abu-bakr-ahmad-ibn-amr, work/musnad-al-bazzar]
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+sensitivity: contested
+sources: [source/musnad-bazzar-anas-thesis-1413]
+provenance: { layer: own-research, source: "musnad-bazzar-anas-thesis-1413 PDF pp. 28-30", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }

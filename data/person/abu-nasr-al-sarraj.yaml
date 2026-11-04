@@ -1,0 +1,31 @@
+id: person/abu-nasr-al-sarraj
+class: person
+label: { ar: "أبو نصر السراج الطوسي", en: "Abu Nasr al-Sarraj al-Tusi", ur: "ابو نصر سراج طوسی" }
+names:
+  - { kind: full, lang: ar, value: "أبو نصر عبد الله بن علي بن محمد بن يحيى السراج الطوسي الصوفي" }
+summary:
+  ar: "أبو نصر عبد الله بن علي بن محمد بن يحيى السراج الطوسي الصوفي، صاحب «كتاب اللمع في التصوف»، من طوس؛ سمع جعفراً الخلدي وأبا بكر محمد بن داود الدقي وأحمد بن محمد السائح، ووصفه السلمي فيما ينقله الذهبي بأنه كان «لسان القوم مع الاستظهار بعلم الشريعة»، وتوفي في رجب سنة 378هـ {cite:luma-sarraj-nicholson-1914 p. 489} {cite:luma-sarraj-nicholson-1914 p. 490}."
+  en: "Abu Nasr 'Abd Allah ibn 'Ali ibn Muhammad ibn Yahya al-Sarraj al-Tusi, the Sufi, author of Kitab al-Luma' fi al-Tasawwuf, from Tus; he heard Ja'far al-Khuldi, Abu Bakr Muhammad ibn Dawud al-Duqqi and Ahmad ibn Muhammad al-Sa'ih, and al-Sulami, as al-Dhahabi quotes him, called him 'the tongue of the Sufis, with mastery of the knowledge of the law'; he died in Rajab 378 AH {cite:luma-sarraj-nicholson-1914 p. 489} {cite:luma-sarraj-nicholson-1914 p. 490}."
+  ur: "ابو نصر عبد اللہ بن علی بن محمد بن یحییٰ سراج طوسی صوفی، «کتاب اللمع فی التصوف» کے مصنف، طوس کے رہنے والے؛ انہوں نے جعفر خلدی، ابو بکر محمد بن داود دقی اور احمد بن محمد سائح سے سماع کیا، اور ذہبی کی نقل کے مطابق سلمی نے انہیں «شریعت کے علم پر عبور کے ساتھ صوفیہ کی زبان» کہا؛ رجب 378ھ میں وفات پائی {cite:luma-sarraj-nicholson-1914 p. 489} {cite:luma-sarraj-nicholson-1914 p. 490}۔"
+roles: [scholar, writer]
+traditions: [sunni, sufi]
+gender: male
+died: { edtf: "0988", hijri: "0378-07", calendar: julian, precision: year, derived: true, status: tradition, sources: [source/luma-sarraj-nicholson-1914], note: "Rajab 378 AH; Nicholson gives October-November 988 (derived conversion) {cite:luma-sarraj-nicholson-1914 p. 490}." }
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/luma-sarraj-nicholson-1914] }
+relations:
+  - { type: student_of, target: person/jafar-al-khuldi, sources: [source/luma-sarraj-nicholson-1914] }
+  - { type: lived_in, target: place/tus, sources: [source/luma-sarraj-nicholson-1914] }
+  - { type: debated_with, target: person/ibn-salim-al-basri, sources: [source/luma-sarraj-jadir-dar-al-fath] }
+provenance:
+  layer: own-research
+  source: "Nicholson's introduction to his 1914 edition of al-Luma', pp. 488-491 (with al-Dhahabi's Ta'rikh al-Islam notice transcribed there); al-Jadir's edition pp. 1, 3, 525-526"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/luma-sarraj-nicholson-1914, source/luma-sarraj-jadir-dar-al-fath]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

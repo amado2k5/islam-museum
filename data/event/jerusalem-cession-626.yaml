@@ -12,7 +12,8 @@ date: { start: { edtf: "1229~", hijri: "0626", calendar: julian, precision: year
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-45
-sources: [source/shadharat-dhahab, source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-shadharat-batch-45; ocr-harvest-2026-11-04"
+sources: [source/shadharat-dhahab, source/kamil-ibn-al-athir, source/mirat-al-zaman-risala-2013-v22]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High)" }

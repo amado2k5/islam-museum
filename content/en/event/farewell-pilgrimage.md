@@ -40,6 +40,10 @@ The Prophet made the pilgrimage with thousands of Muslims, and taught them how t
 - On the question of the name: "Pilgrimage of Farewell" and "Pilgrimage of Proclamation" are both names that appear in the same printed edition (p. 253).
 - The report of the complaint of Ali's army (p. 250) is two accounts from Ibn Ishaq, and should be read together with what is in the page on Ghadir Khumm.
 
+## Jabir's hadith describing it, as Mir'at al-Mafatih explains it
+
+[[work/mirat-al-mafatih|Mir'at al-Mafatih]] opens its chapter on the Farewell Pilgrimage with the long hadith of [[person/jabir-ibn-abdullah|Jabir ibn Abd Allah]]; its author al-Mubarakfuri calls it the greatest and most comprehensive hadith on the subject, and quotes al-Nawawi that Jabir gave the best account of the pilgrimage among the Companions, since he described it from the Prophet's departure from Medina to its end, and that it is found only in Muslim, not in al-Bukhari, Abu Dawud relating it as Muslim does. {cite:mirat-al-mafatih-v9-jabir p.1} He quotes Qadi Iyad that Abu Bakr ibn al-Mundhir wrote a large treatise on it, drawing from it more than a hundred and fifty points of law; al-Dhahabi that Jabir has a small manual of the pilgrimage transmitted by Muslim; and Ibn Kathir that it is by itself a complete manual of the rites. {cite:mirat-al-mafatih-v9-jabir p.1} {cite:mirat-al-mafatih-v9-jabir p.2} He quotes al-Albani that scholars agree the Prophet performed no pilgrimage after the Hijra other than this one, in the year 10, and that the likeliest view of when pilgrimage became obligatory is the year 9 or 10, as Ibn al-Qayyim argues in Zad al-Ma'ad, so that the Prophet hastened to it without delay. {cite:mirat-al-mafatih-v9-jabir p.2} Among details from other transmissions he notes that they set out with five days of Dhu al-Qa'da remaining, and that [[person/asma-bint-umays|Asma' bint Umays]] gave birth to Muhammad ibn Abi Bakr at Dhu al-Hulayfa. {cite:mirat-al-mafatih-v9-jabir p.3}
+
 ## For Sprouts
 The Prophet made his only Hajj, and he gave the Farewell Sermon at Arafat, full of great advice about brotherhood and justice.
 

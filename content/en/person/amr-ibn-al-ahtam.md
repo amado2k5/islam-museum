@@ -12,3 +12,11 @@ Ibn Ishaq names him among the notables of the delegation, and Ibn Hisham traces 
 
 ## In the caliphate of Umar
 Al-Baladhuri relates that he went to Umar ibn al-Khattab from Rishahr with the good news of a conquest. {cite:futuh-buldan-maarif-1407 p.408}
+
+## In al-Hakim's Mustadrak
+[[person/al-hakim-al-nisaburi|Al-Hakim]] quotes Abu 'Ubayda for his lineage, 'Amr ibn al-Ahtam ibn Sumayy ibn Sinan ibn Khalid ibn Minqar, adding that al-Ahtam's name was Sinan and that he was called al-Ahtam ("broken-toothed") because his front teeth were knocked out on the Day of al-Kulab. Al-Dhahabi describes him in the *Talkhis* as "noble and eloquent; he came in the delegation of Banu Tamim". {cite:mustadrak-ilmiyya-ata-v3 p. 710}
+
+## "Some eloquence is enchantment"
+Al-Hakim relates from Ibn 'Abbas that [[person/qays-ibn-asim|Qays ibn 'Asim]], [[person/al-zibriqan-ibn-badr|al-Zibriqan ibn Badr]] and 'Amr ibn al-Ahtam sat with the Prophet. Al-Zibriqan boasted that he was the lord of Tamim, obeyed among them, and called 'Amr as witness; 'Amr praised him as forceful in argument, protective of his side and obeyed in his assembly. Al-Zibriqan said that 'Amr knew more good of him than that and only envy held him back, whereupon 'Amr described him in the worst terms he knew. 'Amr then told the Prophet that he had spoken the truth both times: pleased, he said the best he knew; angered, the worst he could find. The Prophet said: "Some eloquence is enchantment." {cite:mustadrak-ilmiyya-ata-v3 p. 710}
+
+Al-Hakim gives the story by another route through Abu Bakra in similar terms, ending: "Some eloquence is enchantment, and some poetry is wisdom." Al-Dhahabi left both versions out of the *Talkhis*. {cite:mustadrak-ilmiyya-ata-v3 p. 710-711}

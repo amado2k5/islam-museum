@@ -1,0 +1,56 @@
+id: person/abu-ishaq-al-sabii
+class: person
+label:
+  ar: "أبو إسحاق السبيعي"
+  en: "Abu Ishaq al-Sabi'i"
+names:
+  - { kind: full, lang: ar, value: "عمرو بن عبد الله، أبو إسحاق السبيعي الهمداني الكوفي" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+roles: [scholar]
+gender: male
+summary:
+  ar: "عمرو بن عبد الله، أبو إسحاق السبيعي، من أئمة التابعين بالكوفة وأثباتهم كما يقول الذهبي في «ميزان الاعتدال»: ولد في أيام عثمان، ورأى علياً وأسامة بن زيد، وقال أبو حاتم: ثقة يشبه الزهري في الكثرة. وهو من المعدودين فيمن تغيّر من الثقات: قيل اختلط، وأنكر الذهبي ذلك وقال: شاخ ونسي ولم يختلط، ويقال إن سماع ابن عيينة منه كان بعد تغيّره. وروى له الشيخان من طريق أصحابه القدماء {cite:mizan-itidal-bijawi-v3 p. 270}{cite:tadrib-rawi-awwama-v5 p. 556-560}."
+  en: "Amr ibn Abd Allah, Abu Ishaq al-Sabi'i, one of the leading and most reliable Successors of Kufa, as al-Dhahabi puts it in Mizan al-I'tidal: born in the days of Uthman, he saw Ali and Usama ibn Zayd, and Abu Hatim called him trustworthy, like al-Zuhri in the abundance of his narration. He is counted among the trustworthy men whose memory changed: some said he became confused (ikhtalata), which al-Dhahabi denied, saying he grew old and forgetful but was not confused; Ibn Uyayna's hearing from him is said to date from after the change. Al-Bukhari and Muslim narrate from him through his earlier students."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: related_to, target: concept/ikhtilat-al-ruwat, sources: [source/tadrib-rawi-awwama-v5] }
+perspectives:
+  - tradition: sunni
+    id: sunni-shakha
+    standing: main
+    stance: { ar: "ثقة ثبت، شاخ ونسي ولم يختلط", en: "Trustworthy and firm; aged and forgot, but was not confused" }
+    summary:
+      ar: "الذهبي: من أئمة التابعين بالكوفة وأثباتهم، إلا أنه شاخ ونسي ولم يختلط، وسمع منه ابن عيينة وقد تغير قليلاً؛ وأبو حاتم: ثقة يشبه الزهري في الكثرة."
+      en: "Al-Dhahabi: among the leading and firmest Successors of Kufa, except that he aged and forgot without becoming confused; Ibn Uyayna heard from him when he had changed a little. Abu Hatim: trustworthy, like al-Zuhri in abundance."
+    holders: [person/al-dhahabi, person/abu-hatim-muhammad-al-razi]
+    sources: [source/mizan-itidal-bijawi-v3, source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-ikhtalata
+    standing: secondary
+    stance: { ar: "اختلط بأخرة", en: "He became confused late in life" }
+    summary:
+      ar: "عدّه ابن الصلاح والنووي فيمن خلط من الثقات، وقال الخليلي إن سماع ابن عيينة منه بعد اختلاطه، ولذلك لم يخرج له الشيخان من روايته عنه، ونقل الفسوي عن بعض أهل العلم أنه كان قد اختلط وإنما تركوه مع ابن عيينة لاختلاطه."
+      en: "Ibn al-Salah and al-Nawawi list him among the trustworthy who became confused; al-Khalili said Ibn Uyayna heard from him after the confusion, which is why al-Bukhari and Muslim did not include that route; al-Fasawi reported some scholars saying he had become confused and that this is why they left him to Ibn Uyayna alone."
+    holders: [person/ibn-al-salah, person/al-nawawi]
+    sources: [source/tadrib-rawi-awwama-v5, source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-mughira
+    standing: secondary
+    stance: { ar: "أفسد حديث أهل الكوفة", en: "He spoiled the hadith of Kufa" }
+    summary:
+      ar: "روى جرير عن مغيرة: ما أفسد حديث أهل الكوفة غير أبي إسحاق والأعمش."
+      en: "Jarir reported Mughira saying: nothing spoiled the hadith of the people of Kufa but Abu Ishaq and al-A'mash."
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
+sources: [source/mizan-itidal-bijawi-v3, source/tadrib-rawi-awwama-v5]
+provenance:
+  layer: own-research
+  source: "ميزان الاعتدال، تحقيق البجاوي، القسم الثالث، ص 270 (الترجمة 6393)؛ تدريب الراوي، تحقيق عوامة، ج5، النوع الثاني والستون، ص 556–560"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

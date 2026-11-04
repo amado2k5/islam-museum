@@ -35,13 +35,14 @@ perspectives:
     sources: [source/mizan-itidal-bijawi-v3]
 sensitivity: contested
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on al-Umari's assessment in al-Sira al-Nabawiyya al-Sahiha, source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 41-42,56-57"
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن؛ ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 468–475"
   generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker F)"
   model: "SWE-2 Medium; claude-opus-5-5"
   run: prose-fill-persons-batch30, ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q334847" }
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/mizan-itidal-bijawi-v3]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/mizan-itidal-bijawi-v3, source/sahih-sira-umari-ulum-hikam-1994]
 status:
   review: published
   completeness: 3
