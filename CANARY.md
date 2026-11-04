@@ -16,6 +16,9 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 96).
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 95).
+- **Harvest drive: missing books acquired**: 22 books the library plans named but the drive lacked (among them Sunan Abi Dawud with al-Khattabi's Ma'alim, Hilyat al-Awliya', al-Muhalla, al-Khallal's al-Sunna, Ibn Khuzayma's Kitab al-Tawhid, al-Ash'ari's al-Ibana, Nuzhat al-Nazar, Irshad al-Fuhul, Ibn Nubata's sermons, Ibn Uthaymin's sermons, al-Jahiz's al-Hayawan, Uyun al-Akhbar, Ibn Hawqal and Ibn Hayyan) were downloaded from open archive.org items with checksums, OCR'd on the founder's Mac and queued for harvest; six new titles are added to the library canon (`books.yaml`).
 - **Harvest drive OCR complete**: the last four library scans without text (the 1916–1929 Cairo printings of the Hamasa of Abu Tammam, the Mufaddaliyyat, al-Zawzani's commentary on the Mu'allaqat and al-Barquqi's commentary on the diwan of Hassan ibn Thabit) were read with Apple Vision, so every one of the 1,401 library PDFs now has page text for mining; the OCR status record and the harvest ledger are updated, and a new `lib-ocr-harvest` lane is registered for the 198 OCR'd books that no record cited yet.
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 94).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 93).
@@ -77,6 +80,7 @@ open a new block on top with the new version and today's date.
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
 
 ### Added
+- **Next forty Explorer stories shipped**: #3416 merges the forty person journeys after integrated validation, citation checks and all 318 tests pass; sixteen screened backdrops are already merged in #3414. Completion claims and lane records now name the actual merges. No production or UAT deployment was run.
 - **Next forty Explorer journeys verified**: 270 chronological stops across existing cited events, with 120 Arabic/English/Urdu routes checked in the production build and browser. Sixteen new screened backdrops, merged separately in #3414, remove this batch's legacy illustration fallbacks; existing event-language gaps and reserved owner follow-ups remain explicit.
 - **Next Timeline Explorer batch, final twenty person stories**: complete the forty-subject definitions and translated subject metadata. Owner-blocked Hamza and Usama proposals are deferred without changing their records or shared images; Abu Sa'id al-Khudri supplies the final slot.
 - **Next Timeline Explorer batch, first twenty person stories**: prepare cited chronological journeys with Arabic, English and Urdu subject metadata, reusing existing events rather than inventing dates or links. The preceding forty-story batch is merged in #3400; the new batch retains explicit source-data and image-owner follow-ups.
