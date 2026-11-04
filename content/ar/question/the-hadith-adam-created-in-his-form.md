@@ -7,7 +7,7 @@ status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "Kitab al-Tawhid, ed. al-Shahwan 1988, text pp. 83–90; study p. 69" }
 ---
 ## الحديث
-في الحديث النهي عن ضرب الوجه وعن قول «قبّح الله وجهك ووجه من أشبه وجهك»، معلّلاً بأن الله خلق آدم على صورته؛ ومن ألفاظه التي يرويها [[person/ibn-khuzayma-muhammad|ابن خزيمة]]: «إذا قاتل أحدكم فليجتنب الوجه، فإن الله خلق آدم على صورته». {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 83-84} ويروي من حديث ابن عمر لفظاً يسميه «أغمض»: «لا تقبّحوا الوجه، فإن ابن آدم خُلق على صورة الرحمن»، ومن طريق الثوري مرسلاً عن عطاء. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 85-86} والسؤال: إلى من يعود الضمير؟
+في الحديث النهي عن ضرب الوجه وعن قول «قبّح الله وجهك ووجه من أشبه وجهك»، معلّلاً بأن الله خلق آدم على صورته؛ ومن ألفاظه التي يرويها [[person/ibn-khuzayma|ابن خزيمة]]: «إذا قاتل أحدكم فليجتنب الوجه، فإن الله خلق آدم على صورته». {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 83-84} ويروي من حديث ابن عمر لفظاً يسميه «أغمض»: «لا تقبّحوا الوجه، فإن ابن آدم خُلق على صورة الرحمن»، ومن طريق الثوري مرسلاً عن عطاء. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 85-86} والسؤال: إلى من يعود الضمير؟
 
 ## الأقوال
 :::perspectives

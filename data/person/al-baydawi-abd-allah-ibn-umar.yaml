@@ -1,8 +1,9 @@
 id: person/al-baydawi-abd-allah-ibn-umar
 class: person
-label: { ar: "البيضاوي عبد الله بن عمر", en: "Al-Baydawi, Abd Allah ibn Umar" }
+label: { ar: "البيضاوي عبد الله بن عمر", en: "Al-Baydawi, Abd Allah ibn Umar", ur: "بیضاوی عبد اللہ بن عمر" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن عمر بن محمد بن علي أبو الخير البيضاوي" }
+  - { kind: full, lang: ar, value: "القاضي ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي" }
 gender: male
 roles: [scholar, jurist]
 traditions: [sunni]
@@ -20,7 +21,7 @@ story_roles:
 relations:
   - { type: authored, target: work/anwar-al-tanzil, sources: [source/kashf-zunun-furqan] }
 external_ids: { wikidata: "Q287573" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1]
 status:
   review: published
   completeness: 3
@@ -30,6 +31,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/anwar-al-tanzil-halabi-1330-v4 PDF p. 1 (name, nisba, the title page's death year 791); source/anwar-al-tanzil-fleischer-v1 PDF pp. 5–6" }
 occupations:
   - job: job/faqih
     kind: secondary

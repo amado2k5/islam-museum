@@ -1,0 +1,27 @@
+id: work/gardens-of-paradise
+class: work
+kind: other
+label: { ar: "جنان الفردوس: تاريخ البساتين الإسلامية الكبرى وتصميمها", en: "Gardens of Paradise: The History and Design of the Great Islamic Gardens", ur: "فردوس کے باغ: عظیم اسلامی باغوں کی تاریخ اور ڈیزائن" }
+summary:
+  ar: "كتاب لجون بروكس (لندن، 1987) يتتبع البستان الإسلامي من أصوله وفكرته إلى الأندلس وفارس والهند المغولية وشمال أفريقيا ومصر والعثمانيين، ويختم بالماء والنبات وبمستقبل البستان الإسلامي {cite:brookes-gardens-of-paradise-1987 contents}."
+  en: "A book by John Brookes (London, 1987) following the Islamic garden from its idea and origins through al-Andalus, Persia, Mughal India, North Africa, Egypt and the Ottomans, closing with water, plants and the garden's future {cite:brookes-gardens-of-paradise-1987 contents}."
+wings: [objects, ideas]
+themes: [architecture, water-and-animals, agriculture-and-botany]
+regions: [global]
+periods: [period/gunpowder-empires]
+languages: [en]
+composed: { edtf: "1987", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987] }
+relations:
+  - { type: mentions, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: mentions, target: concept/chadar, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: mentions, target: building/shalimar-bagh-srinagar, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: mentions, target: building/taj-mahal, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: mentions, target: building/humayun-tomb, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 1-2, 116-161"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

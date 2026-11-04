@@ -7,7 +7,7 @@ status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "Kitab al-Tawhid, ed. al-Shahwan 1988, text pp. 83–90; study p. 69" }
 ---
 ## The report
-The report forbids striking the face and saying "God make ugly your face and the face of whoever resembles you", giving as the reason that God created Adam in his form; one wording [[person/ibn-khuzayma-muhammad|Ibn Khuzayma]] narrates is: "When one of you fights, let him avoid the face, for God created Adam in his form." {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 83-84} He also narrates from Ibn 'Umar a wording he calls "more obscure": "Do not make the face ugly, for the son of Adam was created in the form of the All-Merciful", and al-Thawri's version of it, broken at 'Ata'. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 85-86} The question is: to whom does the pronoun refer?
+The report forbids striking the face and saying "God make ugly your face and the face of whoever resembles you", giving as the reason that God created Adam in his form; one wording [[person/ibn-khuzayma|Ibn Khuzayma]] narrates is: "When one of you fights, let him avoid the face, for God created Adam in his form." {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 83-84} He also narrates from Ibn 'Umar a wording he calls "more obscure": "Do not make the face ugly, for the son of Adam was created in the form of the All-Merciful", and al-Thawri's version of it, broken at 'Ata'. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988 p. 85-86} The question is: to whom does the pronoun refer?
 
 ## The views
 :::perspectives

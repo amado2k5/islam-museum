@@ -26,3 +26,12 @@ One of those notes objects to the tawassul in al-Nabhani's closing prayer, a dis
 :::
 
 See also: [[concept/tawassul|tawassul]].
+
+## The introduction of six points
+In the Dar al-Kutub al-'Arabiyya al-Kubra printing (Mustafa al-Babi al-Halabi and brothers), al-Nabhani's preface is followed by "an introduction containing six important points". {cite:fath-kabir-halabi-v1 p. 1} {cite:fath-kabir-halabi-v1 p. 4}
+- First: al-Suyuti's method, from the preface of [[work/jam-al-jawami-suyuti|Jam' al-Jawami']], of signalling soundness and weakness by the source cited, and al-Nabhani's view that most hadiths of the two books are sound or good. {cite:fath-kabir-halabi-v1 p. 4-5}
+- Second: a list of the books al-Suyuti read for Jam' al-Jawami', which al-Nabhani saw on the back of a copy. {cite:fath-kabir-halabi-v1 p. 5-6}
+- Third: that al-Suyuti gathered a hundred thousand hadiths in al-Jami' al-Kabir and did not complete it. {cite:fath-kabir-halabi-v1 p. 6}
+- Fourth: the counts — about ten thousand in the original by his own count, and 4,440 in the *Ziyada* by a companion's count, 14,450 in all. {cite:fath-kabir-halabi-v1 p. 6}
+- Fifth: a life of al-Suyuti from al-Sha'rani and Najm al-Din al-Ghazzi: born 849, died 911, he said of himself that he knew two hundred thousand hadiths by heart, and his works exceeded five hundred; al-Nabhani also relates reports of al-Suyuti's dreams, of his seeing the Prophet while awake, and of wonders, which he takes as proof of his sainthood — matters on which views differ. {cite:fath-kabir-halabi-v1 p. 6-8}
+- Sixth: his chains: he attended Shaykh Mustafa al-Ishraqi's lessons on al-Jami' al-Saghir at al-Azhar in 1287 AH, and transmits al-Suyuti's books by licence through several routes, the highest through Ibrahim al-Saqqa. {cite:fath-kabir-halabi-v1 p. 8-9}

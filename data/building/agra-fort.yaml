@@ -1,0 +1,24 @@
+id: building/agra-fort
+class: building
+kind: fort
+label: { ar: "القلعة الحمراء في آكره", en: "Agra Fort (Red Fort of Agra)", ur: "آگرہ کا لال قلعہ" }
+summary:
+  ar: "قلعة آكره التي بنى أكبر سورها من الحجر الأحمر بارتفاع عشرين متراً على هيئة قوس يواجه نهر جمنا، واستبدل شاه جهان بقصور أكبر فيها قصوراً من الرخام الأبيض، وفيها حديقة أنگوري باغ {cite:brookes-gardens-of-paradise-1987 p.133} {cite:brookes-gardens-of-paradise-1987 p.154}."
+  en: "The fort of Agra, whose bow-shaped red sandstone wall twenty metres high facing the Yamuna was built by Akbar, and whose palaces Shah Jahan replaced with white marble pavilions round the Anguri Bagh {cite:brookes-gardens-of-paradise-1987 p.133} {cite:brookes-gardens-of-paradise-1987 p.154}."
+wings: [objects, place]
+themes: [architecture, politics-governance-and-authority]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+patron: person/jalal-al-din-akbar
+location: place/agra
+materials: [stone, marble]
+relations:
+  - { type: located_in, target: place/agra, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 133, 154-159"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

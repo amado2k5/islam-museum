@@ -1,0 +1,69 @@
+id: question/can-prophets-commit-minor-sins
+class: question
+label:
+  ar: "هل تجوز الصغائر على الأنبياء؟"
+  en: "Can prophets commit minor sins?"
+  ur: "کیا انبیا سے صغیرہ گناہ ہو سکتے ہیں؟"
+summary:
+  ar: "مسألة عصمة الأنبياء من صغائر الذنوب كما يعرضها القاضي عياض في «الشفا»: يحكي إجماع المسلمين على عصمتهم من الكبائر والفواحش وكتمان الرسالة، ثم ثلاثة أقوال في الصغائر: الجواز عند جماعة من السلف وغيرهم منهم الطبري، والوقف عند طائفة، والعصمة منها عند طائفة من المحققين، وهو القول الذي ينصره عياض."
+  en: "The question of whether prophets are protected from minor sins, as Qadi Iyad sets it out in al-Shifa: he reports the Muslims' consensus that they are protected from grave sins, indecencies and concealing the message, then three views on minor sins — that they are possible (a group of the early generations and others, including al-Tabari), suspension of judgement, and protection from them (a group of verifying scholars), the last being the view Iyad argues for."
+question:
+  ar: "هل يجوز أن يقع من الأنبياء صغائر الذنوب، بعد إجماع المسلمين على عصمتهم من الكبائر؟"
+  en: "May prophets commit minor sins, given the Muslims' consensus that they are protected from grave ones?"
+issue:
+  ar: "حدود عصمة الأنبياء: هل تشمل الصغائر أم تقتصر على الكبائر وما يخل بالتبليغ؟"
+  en: "The scope of the prophets' protection from error: does it include minor sins or only grave sins and what would compromise the conveying of the message?"
+short_answer:
+  ar: "يحكي عياض الإجماع على عصمة الأنبياء من الفواحش والكبائر ومن كتمان الرسالة والتقصير في التبليغ، وعلى عصمتهم من تكرار الصغائر ومن صغيرة تُسقط المروءة؛ ويحكي في غير ذلك من الصغائر ثلاثة أقوال: الجواز، والوقف، والعصمة؛ ويختار العصمة ويرد على أدلة المجوّزين."
+  en: "Iyad reports consensus that prophets are protected from indecencies and grave sins, from concealing the message or falling short in conveying it, and from repeated minor sins or any minor sin that destroys dignity; on other minor sins he reports three views — possible, suspended judgement, and protected — and chooses protection, answering the arguments of those who allow them."
+perspectives:
+  - tradition: sunni
+    id: sunni-protected-from-minor-sins
+    standing: main
+    stance:
+      ar: "معصومون من الصغائر كعصمتهم من الكبائر"
+      en: "Protected from minor sins as from grave ones"
+    summary:
+      ar: "قول طائفة من المحققين من الفقهاء والمتكلمين، واحتجوا باختلاف الناس في تعيين الصغائر، وبقول ابن عباس وغيره إن كل ما عُصي الله به فهو كبير، وبوجوب الاقتداء بأفعال الأنبياء، إذ لو جازت عليهم الصغائر لم يمكن الاقتداء بهم؛ وهو اختيار القاضي عياض، وقد عقد فصلاً للرد على المجوزين وتأوّل ظواهر الآيات والأحاديث التي احتجوا بها."
+      en: "The view of a group of verifying jurists and theologians, who argue from people's disagreement over which sins are minor, from the saying of Ibn Abbas and others that whatever God is disobeyed by is grave, and from the duty to follow the prophets' actions — if minor sins were possible for them, they could not be followed. It is Qadi Iyad's choice; he devotes a section to answering those who allow minor sins and interpreting the verses and hadiths they cite."
+    holders: [person/al-qadi-iyyad]
+    evidence:
+      - { ref: work/al-shifa-bi-tarif-huquq-al-mustafa, note: { ar: "القسم الثالث، فصل الأعمال بالجوارح وفصل الرد على من أجاز عليهم الصغائر، ص527–540 (PDF)" } }
+    sources: [source/al-shifa-ilmiyya-shumunni]
+  - tradition: sunni
+    id: sunni-minor-sins-possible
+    standing: main
+    stance:
+      ar: "تجوز عليهم الصغائر"
+      en: "Minor sins are possible for them"
+    summary:
+      ar: "يحكي عياض أن جماعة من السلف وغيرهم جوّزوا الصغائر على الأنبياء، وأنه مذهب أبي جعفر الطبري وغيره من الفقهاء والمحدثين والمتكلمين، واحتجوا بظواهر من القرآن والحديث كآيات مغفرة الذنب واستغفار الأنبياء وذكرهم ذنوبهم في حديث الشفاعة."
+      en: "Iyad reports that a group of the early generations and others held minor sins possible for prophets, and that this is the view of Abu Ja'far al-Tabari and other jurists, hadith scholars and theologians, who argued from the apparent sense of Qur'anic verses and hadiths — verses on forgiveness of sin, the prophets' seeking forgiveness, and their mention of their sins in the hadith of intercession."
+    holders: [person/al-tabari]
+    evidence:
+      - { ref: work/al-shifa-bi-tarif-huquq-al-mustafa, note: { ar: "ص527، 538–540 (PDF)" } }
+    sources: [source/al-shifa-ilmiyya-shumunni]
+  - tradition: sunni
+    id: sunni-suspend-judgement
+    standing: secondary
+    stance:
+      ar: "التوقف"
+      en: "Suspension of judgement"
+    summary:
+      ar: "يذكر عياض أن طائفة ذهبت إلى الوقف، وقالوا إن العقل لا يحيل وقوع الصغائر منهم ولم يأت في الشرع قاطع بأحد الوجهين."
+      en: "Iyad mentions a group who suspended judgement, saying that reason does not rule out minor sins from prophets and that revelation brings no decisive proof either way."
+    evidence:
+      - { ref: work/al-shifa-bi-tarif-huquq-al-mustafa, note: { ar: "ص527 (PDF)" } }
+    sources: [source/al-shifa-ilmiyya-shumunni]
+related: [work/al-shifa-bi-tarif-huquq-al-mustafa, concept/ismah, person/al-qadi-iyyad]
+wings: [ideas]
+themes: [creed, prophets]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "source/al-shifa-ilmiyya-shumunni PDF pp. 527–540"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/al-shifa-ilmiyya-shumunni]
+status: { review: published, completeness: 2 }
