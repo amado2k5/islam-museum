@@ -711,3 +711,9 @@ Promoted: abd-al-aziz-al-daraki, abu-abd-allah-al-hannat-al-shirazi, abu-al-hasa
 Promoted: abd-al-ghafir-al-farisi, abu-al-ala-ibn-zuhr, abu-khazim-ibn-abi-yala, al-ghazzi-ibrahim, al-ilyusi, al-shantarini, asad-al-mayhani, ayn-al-qudat-al-hamadhani, hammad-al-dabbas, hasan-ibn-al-hafiz, ibn-al-faus, ibn-al-hajj-al-tujibi, ibn-al-zaghuni, ibn-al-zaqqaq, shams-al-muluk-ismail-ibn-buri, sultan-mahmud-ibn-muhammad, tughtigin-atabeg, zafir-al-haddad.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1938.** sweep continues through remaining trilingual drafts.
+
+### Batch 106 (4 Nov 2026, 18 records) — lib-shadharat-batch-120 draft promotions (sweep worker)
+
+Promoted: abd-al-ghani-ibn-nuqa, abd-al-mughith-al-harbi, abd-al-wahhab-al-shirazi, abu-al-fath-ibn-al-taawidhi, abu-al-suud-al-harimi, abu-madyan, abu-talib-al-karkhi-muallim, asad-ibn-al-matran, hayat-ibn-qays, ibn-al-mani, ibn-auf-al-zuhri, ismat-al-din-khatun, izz-al-din-abd-al-hadi, jakir-al-zahid, nasir-al-din-muhammad-ibn-shirkuh, nasr-ibn-mansur-muqri, qizil-arslan, wajih-al-din-qazwini.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1956.** sweep continues through remaining trilingual drafts.
