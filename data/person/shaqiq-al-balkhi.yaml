@@ -11,8 +11,11 @@ periods: [period/abbasid-early]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-9
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch93
 external_ids: { wikidata: "Q3481470" }
 sources: [source/wafayat-ayan, source/assabile-omar-abdelkafy]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3

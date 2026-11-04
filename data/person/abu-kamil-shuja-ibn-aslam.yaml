@@ -3,17 +3,33 @@ class: person
 label:
   en: Abu Kamil Shuja ibn Aslam
   ar: أبو كامل شجاع بن أسلم
+names:
+  - { kind: full, lang: ar, value: "أبو كامل شجاع بن أسلم" }
+gender: male
 roles:
 - mathematician
 summary:
-  en: Egyptian mathematician, one of the early algebraists after al-Khwarizmi.
-  ar: عالم رياضيات مصري، من أوائل من كتبوا في الجبر بعد الخوارزمي.
+  ar: "عالم رياضيات من القرن العاشر الميلادي، يذكره محققا طبعة القاهرة لكتاب الجبر للخوارزمي بين أول من اعترفوا للخوارزمي صراحة بأنه مرجعهم، وينقلان عن ابن خلدون أنه جاء في الجبر بعد الخوارزمي {cite:khwarizmi-jabr-cairo-1939 p.24} {cite:khwarizmi-jabr-cairo-1939 p.25}."
+  en: "A tenth-century mathematician whom the Cairo editors of al-Khwarizmi's algebra name among those who openly acknowledged al-Khwarizmi as their authority, and who according to Ibn Khaldun came after al-Khwarizmi in algebra."
+floruit: { edtf: "0925~", calendar: julian, precision: year, status: tradition, note: "«حوالي سنة 925 ميلادية» عند محققي طبعة القاهرة لكتاب الجبر (ص 24 من المسح)" }
 wings: [people]
+themes: [mathematics]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+relations:
+  - { type: influenced_by, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }
 external_ids:
   wikidata: Q335103
 sources:
 - source/sezgin-gas-v-mathematik
+- source/khwarizmi-jabr-cairo-1939
+provenance:
+  layer: own-research
+  source: "source/khwarizmi-jabr-cairo-1939 scan pp. 17, 24-25"
+  generated_by: "Claude Code (OCR-harvest worker J); first record Claude Haiku 5.5 (Wikidata insertion, slice S9)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
-  generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
+  review: published
+  completeness: 2
+  generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9); prose by Claude Code (OCR-harvest worker J)

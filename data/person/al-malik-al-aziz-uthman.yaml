@@ -1,9 +1,10 @@
 id: person/al-malik-al-aziz-uthman
 class: person
-label: { ar: "الملك العزيز عماد الدين عثمان بن صلاح الدين", en: "al-Malik al-Aziz Imad al-Din Uthman ibn Salah al-Din" }
+label: { ar: "الملك العزيز عماد الدين عثمان بن صلاح الدين", en: "al-Malik al-Aziz Imad al-Din Uthman ibn Salah al-Din" , ur: "الملک العزیز عماد الدین عثمان"}
 summary:
   ar: "ابن صلاح الدين، استقرت له مصر لما مات أبوه سنة تسع وثمانين وخمس مئة {cite:tarikh-khulafa-minhaj-1434 p. 693}، ومات سنة خمس وتسعين فأقيم ابنه المنصور فوثب عمه الملك العادل سيف الدين أبو بكر بن أيوب وتملكها {cite:tarikh-khulafa-minhaj-1434 p. 694}."
   en: "Salah al-Din's son; Egypt settled for him on his father's death in 589 {cite:tarikh-khulafa-minhaj-1434 p. 693}."
+  ur: "صلاح الدین کے بیٹے؛ ان کے والد کی 589ھ میں وفات کے بعد مصر کا اقتدار ان کے پاس رہا۔ {cite:khitat-maqrizi-1998}"
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
@@ -14,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: claude-haiku-5-5
   run: lib-tarikh-khulafa-batch-43, showcase-prose-phase2-egypt-batch7
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
 sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; his residence in Cairo and the zakat inquiry are read from al-Maqrizi's Khitat (local scan, pp. 352, 1001); the Suyuti account keeps its citation" }

@@ -9,7 +9,7 @@ education:
     ur: "بلال بن رباح مکہ میں حبشی غلام پیدا ہوئے اور اولین مسلمانوں میں سے تھے؛ ابوبکر نے انہیں آزاد کیا اور روایت انہیں اسلام کا پہلا مؤذن کہتی ہے۔"
     sources: [source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq]
 class: person
-label: { en: "Bilal ibn Rabah", ar: "بلال بن رباح" }
+label: { en: "Bilal ibn Rabah", ar: "بلال بن رباح" , ur: "بلال بن رباح"}
 names:
   - { kind: laqab, lang: ar-Latn, value: "Bilal al-Habashi (Bilal the Abyssinian)" }
 gender: male
@@ -20,6 +20,7 @@ traditions: [sunni]
 summary:
   en: "An Abyssinian-born slave in Mecca, among the earliest converts; freed by Abu Bakr and remembered as the first muezzin of Islam — the voice that called the community to prayer."
   ar: "عبد حبشي المولد في مكة، من السابقين إلى الإسلام؛ أعتقه أبو بكر، ويذكره التراث أول مؤذن في الإسلام — الصوت الذي نادى الجماعة إلى الصلاة. وعند المسعودي عدّه قوم ثاني من أسلم بعد أبي بكر الصديق في أحد أقوال أول من أسلم {cite:muruj-al-dhahab p. 575}. وفي الصحيح قال له النبي «يا بلال حدثني بأرجى عمل عملته في الإسلام فإني سمعت دف نعليك بين يدي في الجنة» فقال ما عملت عملاً أرجى عندي أني ما تطهرت طهوراً في ساعة ليل أو نهار إلا صليت بذلك الطهور ما كُتب لي أن أصلي {cite:sahih-al-bukhari 1149}، وللحديث رواية في مسلم بلفظ «خشف نعليك بين يدي في الجنة» {cite:sahih-muslim 2458}."
+  ur: "مکہ میں غلامی کی حالت سے اسلام قبول کرنے والے ابتدائی مسلمانوں میں سے؛ ابو بکر نے انہیں آزاد کیا اور وہ اسلام کے پہلے مؤذن کے طور پر معروف ہوئے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [slavery-and-freedom, race-colour-ethnicity, worship-and-the-pillars]
 periods: [period/prophetic-era, period/rashidun]
@@ -51,6 +52,7 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch5"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
 occupations:
   - job: job/treasurer
     kind: episodic

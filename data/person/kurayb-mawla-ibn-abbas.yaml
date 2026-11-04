@@ -1,0 +1,26 @@
+id: person/kurayb-mawla-ibn-abbas
+class: person
+label: { ar: "كريب مولى ابن عباس", en: "Kurayb, client of Ibn 'Abbas", ur: "کریب مولیٰ ابن عباس" }
+names:
+  - { kind: full, lang: ar, value: "كريب بن أبي مسلم مولى عبد الله بن عباس" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "كريب بن أبي مسلم، مولى عبد الله بن عباس، تابعي مدني سمع أسامة بن زيد وابن عباس، وروى عنه بنو عقبة الثلاثة وبكير بن الأشج، ووصفه ابن عبد البر بأنه ثقة حجة؛ ونقل عن موسى بن عقبة أنه مات بالمدينة سنة ثمان وتسعين في آخر خلافة سليمان بن عبد الملك {cite:tamhid-furqan-2017-v1 p. 260}."
+  en: "Kurayb b. Abi Muslim, client of 'Abd Allah b. 'Abbas, a Medinan Successor who heard Usama b. Zayd and Ibn 'Abbas; the three sons of 'Uqba and Bukayr b. al-Ashajj transmitted from him, and Ibn 'Abd al-Barr calls him trustworthy and an authority; he reports from Musa b. 'Uqba that Kurayb died in Medina in 98 AH, at the end of the caliphate of Sulayman b. 'Abd al-Malik {cite:tamhid-furqan-2017-v1 p. 260}."
+  ur: "کریب بن ابی مسلم، عبد اللہ بن عباس کے مولیٰ، مدنی تابعی جنہوں نے اسامہ بن زید اور ابن عباس سے سنا؛ ان سے عقبہ کے تینوں بیٹوں اور بکیر بن اشج نے روایت کی، اور ابن عبد البر انہیں ثقہ اور حجت کہتے ہیں؛ وہ موسیٰ بن عقبہ سے نقل کرتے ہیں کہ کریب 98ھ میں، سلیمان بن عبد الملک کی خلافت کے آخر میں، مدینہ میں فوت ہوئے {cite:tamhid-furqan-2017-v1 p. 260}۔"
+died: { hijri: "0098", edtf: "0716~", calendar: julian, precision: year, status: tradition, derived: true, note: "«مات كريب بالمدينة سنة ثمان وتسعين في آخر خلافة سليمان بن عبد الملك» — الواقدي عن ابن أبي الزناد عن موسى بن عقبة، كما في التمهيد ط. الفرقان ج1 ص 260؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences, slavery-and-freedom]
+periods: [period/umayyad]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: died_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/abdullah-ibn-abbas, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/usama-ibn-zayd, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/musa-ibn-uqba, sources: [source/tamhid-furqan-2017-v1] }
+provenance: { layer: own-research, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1 p. 260 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/tamhid-furqan-2017-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

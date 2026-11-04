@@ -3,24 +3,35 @@ class: person
 label:
   ar: "العلامة الحلي"
   en: "al-Allama al-Hilli"
-roles: [scholar, writer]
+  ur: "علامہ حلی"
+names:
+  - { kind: full, lang: ar, value: "جمال الدين الحسن بن يوسف بن المطهر الحلي" }
+  - { kind: alternate, lang: ar, value: "ابن المطهر" }
+roles: [scholar, writer, theologian, jurist]
 gender: male
+traditions: [shia-twelver]
+faith:
+  - { value: shia-twelver, basis: documented, note: "His Minhaj al-Karama sets out the Imami doctrine of the Twelve Imams and invites rulers to it, as quoted by Ibn Taymiyya.", sources: [source/minhaj-sunna-shamela] }
 summary:
-  ar: "بطاقة أولية لجمال الدين ابن المطهر الحلي، فقيه إمامي ومتكلم القرن الثالث عشر صاحب «خلاصة الأقوال» و«تذكرة الفقهاء»، توفي سنة ١٣٢٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jamal al-Din Ibn al-Mutahhar al-Hilli, the thirteenth-century Imami jurist-theologian author of Khulasat al-Aqwal and Tadhkirat al-Fuqaha, d. 1325; the biographical entry is not yet checked on the page."
+  ar: "جمال الدين ابن المطهر الحلي، فقيه ومتكلم إمامي، صاحب «منهاج الكرامة في معرفة الإمامة» الذي صنفه للملك أولجايتو خدابنده، وعليه رد ابن تيمية في «منهاج السنة النبوية» واصفاً إياه بأنه من شيوخ الإمامية في عصره؛ ويذكر له أيضاً «خلاصة الأقوال» و«تذكرة الفقهاء»."
+  en: "Jamal al-Din Ibn al-Mutahhar al-Hilli, Imami jurist and theologian, author of Minhaj al-Karama fi Ma'rifat al-Imama, which he wrote for the king Öljeitü Khudabanda and which Ibn Taymiyya answered in Minhaj al-Sunna al-Nabawiyya, calling him one of the Imami shaykhs of his own time; also credited with Khulasat al-Aqwal and Tadhkirat al-Fuqaha."
 wings: [people]
 regions: [levant-iraq, persia-central-asia]
-periods: [period/crusades-ayyubid-mamluk]
-themes: [sects-and-schools]
-sources: [source/al-aalam]
+periods: [period/mongol-post-mongol]
+themes: [sects-and-schools, creed]
+relations:
+  - { type: authored, target: work/minhaj-al-karamah, sources: [source/minhaj-sunna-shamela] }
+sensitivity: contested
+sources: [source/minhaj-sunna-shamela, source/al-aalam]
 external_ids:
   wikidata: Q290506
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0020
+  source: "منهاج السنة، نسخة الشاملة ص 17، 19، 51، 61–62، 90–93 (للتعريف بكتابه وموقف ابن تيمية منه)؛ بطاقة أولية سابقة من ويكي بيانات مع إحالة إلى الأعلام لم تُقرأ على الصفحة"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
+  generated_by: "Claude Code (OCR-harvest worker C); earlier card by Devin (SWE-2 High), wikidata-import-0020"

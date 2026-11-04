@@ -1,7 +1,7 @@
 id: person/abdullah-ibn-ubayy
 class: person
 aliases: [person/abd-allah-ibn-ubayy]   # same person; merged from the Raheeq lane's spelling so existing references resolve
-label: { en: "Abdullah ibn Ubayy", ar: "عبد الله بن أبي بن سلول" }
+label: { en: "Abdullah ibn Ubayy", ar: "عبد الله بن أبي بن سلول" , ur: "عبد اللہ بن ابی"}
 names:
   - { kind: full, lang: ar, value: "عبد الله بن أبي بن سلول الخزرجي" }
 gender: male
@@ -12,6 +12,7 @@ traditions: []
 summary:
   en: "The chief of Khazraj who had been preparing to be crowned king of Medina when the Hijra ended his ambition — remembered in the Sunni sources as the leader of the 'hypocrites' who opposed the Prophet from inside the city."
   ar: "سيد الخزرج الذي كانت يثرب تهيئ لتتويجه ملكًا حين قطعت الهجرة طموحه — يذكره التراث السني زعيمًا للمنافقين الذين عارضوا النبي من داخل المدينة. وعند ابن حزم والسمهودي هو من بني الحبلى من الخزرج، وكان له أطم «مزاحم» بين ظهراني بيوت بني الحبلى — قرب دار بني ساعدة — وما وقع في حديث الخلع عند ابن حجر من كونه من بني مغالة من النجار فوهم فيما يرى السمهودي {cite:samhudi-wafa-al-wafa p. 212-213}. وفي الصحيح أن النبي أتى قبره بعدما أدخل حفرته فأمر به فأخرج فوضعه على ركبتيه ونفث عليه من ريقه وألبسه قميصه {cite:sahih-al-bukhari 1350}."
+  ur: "خزرج کے سردار، جن کی مدینہ میں بادشاہت کی تیاری ہجرت کے بعد ختم ہوئی؛ سنی ماخذ انہیں شہر کے اندر نبی کی مخالفت کرنے والے منافقین کے قائد کے طور پر یاد کرتے ہیں۔ {cite:ibn-ishaq-guillaume}"
 wings: [people]
 themes: [factions-splits-schisms, desertions-defections-withdrawals]
 periods: [period/prophetic-era]
@@ -43,7 +44,7 @@ perspectives:
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
 sensitivity: contested
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
-provenance: { layer: copyrighted-reference, source: "Assabile, Aadau Al Islam ep01 and ep03 (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); the record had no provenance block before this addition", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-pilot-qwen-1 }
+provenance: { layer: copyrighted-reference, source: "Assabile, Aadau Al Islam ep01 and ep03 (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); the record had no provenance block before this addition", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-pilot-qwen-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
 
 education:
   levels: [sprouts, explorers, scholars]
