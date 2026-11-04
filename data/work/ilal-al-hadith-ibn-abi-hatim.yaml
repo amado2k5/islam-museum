@@ -1,0 +1,31 @@
+id: work/ilal-al-hadith-ibn-abi-hatim
+class: work
+kind: book
+label: { ar: "علل الحديث لابن أبي حاتم", en: "Ilal al-Hadith of Ibn Abi Hatim" }
+summary:
+  ar: "كتاب عبد الرحمن بن أبي حاتم الرازي (ت 327هـ) في علل الحديث، جمع فيه أسئلته لأبيه أبي حاتم ولأبي زرعة الرازي عن أحاديث وقع فيها خطأ أو اختلاف في الإسناد أو المتن وأجوبتهما، مرتبة على أبواب الفقه ثم التفسير والزهد والإيمان والأدب والفضائل وغيرها. قال ناشره محب الدين الخطيب إنه فحص فيه علل نحو ثلاثة آلاف حديث، وتتجاوز مسائله المرقمة في الطبعة السلفية 2800 مسألة."
+  en: "Abd al-Rahman ibn Abi Hatim al-Razi's (d. 327 AH) book on the hidden defects of hadith, collecting his questions to his father Abu Hatim and to Abu Zur'a al-Razi about hadith with an error or a disagreement in chain or text, and their answers, arranged by the chapters of law and then Qur'an commentary, renunciation, faith, manners, virtues and more. Its publisher Muhibb al-Din al-Khatib says it examines the defects of about three thousand hadith; the Salafiyya printing numbers more than 2,800 questions."
+genre: [hadith]
+disciplines: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+authors: [person/ibn-abi-hatim-al-razi]
+language: language/arabic
+structure: "أقوال في فضل معرفة العلل (الجزء الأول، ص 13 من المسح) ← «بيان علل أخبار رويت في الطهارة» ثم الصلاة والزكاة والصوم والمناسك (الجزء الأول) ← الأطعمة والأشربة والأضاحي والصيد والفرائض والقرآن وتفسيره والزهد والإيمان وثواب الأعمال والدعاء والأدب والطب والفضائل ودلائل النبوة والخراج (الجزء الثاني)؛ كل مسألة مرقمة تبدأ غالباً بـ«سألت أبي» أو «سألت أبا زرعة»"
+editions: [source/ilal-ibn-abi-hatim-salafiyya-v1, source/ilal-ibn-abi-hatim-salafiyya-v2]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: mentions, target: person/abu-hatim-muhammad-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+  - { type: mentions, target: person/abu-zura-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+  - { type: mentions, target: concept/jarh-wa-tadil, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+sources: [source/ilal-ibn-abi-hatim-salafiyya-v1, source/ilal-ibn-abi-hatim-salafiyya-v2]
+provenance:
+  layer: own-research
+  source: "ilal-ibn-abi-hatim-salafiyya-v1 PDF pp. 4, 6–11, 13–14; ilal-ibn-abi-hatim-salafiyya-v2 PDF pp. 2, 4, 440"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: ilal-ibn-abi-hatim-salafiyya-v1 PDF pp. 4, 6, 13–14; v2 PDF pp. 2, 4, 440"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
