@@ -1,25 +1,42 @@
 id: person/abd-allah-ibn-zayd-al-ansari
 class: person
-label:
-  ar: "عبد الله بن زيد الأنصاري"
-  en: "Abd Allah ibn Zayd al-Ansari"
+label: { ar: "عبد الله بن زيد الأنصاري", en: "Abd Allah ibn Zayd al-Ansari", ur: "عبد اللہ بن زید انصاری" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن زيد بن عبد ربه بن زيد الأنصاري الخزرجي الحارثي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
 roles: [companion]
 gender: male
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لعبد الله بن زيد بن عبد ربه الأنصاري، صاحب رؤيا الأذان، توفي سنة ٦٤٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Zayd ibn Abd Rabbih al-Ansari, the Companion of the adhan dream, d. 644; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن زيد بن عبد ربه الأنصاري الخزرجي، من بني الحارث بن الخزرج، أبو محمد، صاحب رؤيا الأذان؛ شهد العقبة وبدراً وسائر المشاهد، ورأى الأذان في النوم سنة إحدى بعد بناء المسجد فأمر النبي بلالاً أن يؤذن به، وحمل راية بني الحارث بن الخزرج يوم الفتح، وتوفي بالمدينة سنة 32هـ ابن أربع وستين وصلى عليه عثمان {cite:istiab-alam-2002 p. 404-405}."
+  en: "'Abd Allah ibn Zayd ibn 'Abd Rabbih al-Ansari al-Khazraji, of Banu al-Harith ibn al-Khazraj, Abu Muhammad, the Companion of the dream of the call to prayer; he was at al-'Aqaba, Badr and all the campaigns, saw the adhan in his sleep in year 1 after the mosque was built, whereupon the Prophet had Bilal call it, carried the banner of Banu al-Harith ibn al-Khazraj at the conquest of Mecca, and died in Medina in 32 AH aged sixty-four, 'Uthman leading his funeral prayer {cite:istiab-alam-2002 p. 404-405}."
+  ur: "عبد اللہ بن زید بن عبد ربہ انصاری خزرجی، بنو الحارث بن الخزرج سے، ابو محمد، خواب میں اذان دیکھنے والے صحابی؛ عقبہ، بدر اور تمام غزوات میں شریک رہے، مسجد کی تعمیر کے بعد سن 1ھ میں خواب میں اذان دیکھی تو نبی نے بلال کو اس کے مطابق اذان دینے کا حکم دیا، فتح مکہ کے دن بنو الحارث بن الخزرج کا جھنڈا اٹھایا، اور 32ھ میں مدینہ میں چونسٹھ برس کی عمر میں فوت ہوئے اور عثمان نے نمازِ جنازہ پڑھائی {cite:istiab-alam-2002 p. 404-405}۔"
+died: { edtf: "0652/0653", hijri: "0032", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بالمدينة سنة اثنتين وثلاثين وهو ابن أربع وستين، وصلى عليه عثمان {cite:istiab-alam-2002 p. 405}؛ المقابل الميلادي مشتق.", sources: [source/istiab-alam-2002] }
 wings: [people]
+themes: [worship-and-the-pillars]
 regions: [arabia]
-periods: [period/prophetic-era]
-sources: [source/al-aalam]
+periods: [period/prophetic-era, period/rashidun]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 1379 ص 404-405", sources: [source/istiab-alam-2002] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/banu-al-harith-al-khazraj, sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/second-pledge-of-aqaba, note: "شهد العقبة {cite:istiab-alam-2002 p. 404}", sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "كانت معه راية بني الحارث بن الخزرج {cite:istiab-alam-2002 p. 404}", sources: [source/istiab-alam-2002] }
+  - { type: related_to, target: practice/adhan, note: "أُري الأذان في النوم فأمر النبي بلالاً أن يؤذن به {cite:istiab-alam-2002 p. 404}", sources: [source/istiab-alam-2002] }
+  - { type: died_in, target: place/medina, sources: [source/istiab-alam-2002] }
 external_ids:
   wikidata: Q19800747
+sources: [source/istiab-alam-2002, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0037
+  source: "al-Isti'ab (Dar al-A'lam 2002) pp. 404-405, entry 1379 with the editor's note; earlier Devin Wikidata card"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin draft card (run wikidata-import-0037)"

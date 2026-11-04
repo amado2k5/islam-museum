@@ -1,26 +1,38 @@
 id: person/abu-juhayfa-al-suwai
 class: person
+aliases: [person/abu-juhayfa]   # the stub id used by the shama'il entries now resolves here
 label:
  ar: "أبو جحيفة السوائي"
  en: "Abu Juhayfa al-Suwa'i"
  ur: "ابو جحیفہ السوائی"
+names:
+  - { kind: full, lang: ar, value: "وهب بن عبد الله السوائي" }
+  - { kind: laqab, lang: ar, value: "وهب الخير" }
 roles: [companion]
 gender: male
+traditions: [sunni]
 summary:
- ar: "وهب بن عبد الله بن مسلم بن جنادة، أبو جحيفة السوائي، ويقال له وهب الخير، من صغار أصحاب النبي، روى عنه وعن البراء بن عازب وعلي بن أبي طالب، وروى عنه إسماعيل بن أبي خالد والحكم بن عتيبة والشعبي وغيرهم. ولي بيت المال والشرطة لعلي. ذكر الواقدي أنه توفي في ولاية بشر بن مروان، وأنه آخر من مات بالكوفة من الصحابة {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13746-13747}. وتاريخ وفاته في الكتاب (؟-64 ه)."
- en: "Wahb ibn Abd Allah ibn Muslim ibn Janada, Abu Juhayfa al-Suwa'i, called Wahb al-Khayr, one of the younger companions of the Prophet. He narrated from the Prophet, al-Bara ibn Azib and Ali ibn Abi Talib, and Isma'il ibn Abi Khalid, al-Hakam ibn Utayba and al-Sha'bi narrated from him. He held the treasury and the police for Ali. According to al-Waqidi he died in the governorship of Bishr ibn Marwan and was the last companion to die in Kufa {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13746-13747}. The book gives his death as 64 AH, with the year marked as uncertain."
- ur: "وہب بن عبد اللہ بن مسلم بن جنادہ، ابو جحیفہ سوائی، جنہیں وہب الخیر بھی کہا جاتا تھا، نبی کے کم عمر صحابہ میں سے تھے۔ انہوں نے نبی، براء بن عازب اور علی بن ابی طالب سے روایت کی، اور ان سے اسماعیل بن ابی خالد، حکم بن عتیبہ اور شعبی نے روایت کی۔ وہ علی کے زمانے میں بیت المال اور پولیس کے ذمہ دار رہے۔ واقدی کے مطابق وہ بشر بن مروان کی ولایت میں فوت ہوئے اور کوفہ میں آخری صحابی تھے جو فوت ہوئے {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13746-13747}۔ کتاب ان کی وفات 64 ہجری بتاتی ہے۔"
+ ar: "أبو جحيفة وهب بن عبد الله السوائي، ويقال وهب بن وهب، ويقال له وهب الخير، من بني حرثان بن سواءة بن عامر بن صعصعة؛ من صغار الصحابة، توفي النبي وهو لم يبلغ الحلم وقد سمع منه، نزل الكوفة وابتنى بها داراً، وجعله علي على بيت المال بالكوفة وشهد معه مشاهده كلها {cite:istiab-alam-2002 p. 788}؛ مات في ولاية بشر بن مروان كما قال خليفة {cite:mustadrak-ilmiyya-ata-v3 p. 716}."
+ en: "Abu Juhayfa Wahb ibn 'Abd Allah al-Suwa'i (or Wahb ibn Wahb), called Wahb al-Khayr, of Hurthan ibn Suwa'a ibn 'Amir ibn Sa'sa'a; one of the younger Companions, he had not reached puberty when the Prophet died but had heard from him; he settled in Kufa and built a house there, and 'Ali put him over the treasury at Kufa and he was with 'Ali in all his battles {cite:istiab-alam-2002 p. 788}; he died while Bishr ibn Marwan was governor, as Khalifa says {cite:mustadrak-ilmiyya-ata-v3 p. 716}."
+ ur: "ابو جحیفہ وہب بن عبد اللہ سوائی (یا وہب بن وہب)، جنہیں وہب الخیر کہا جاتا تھا، حرثان بن سواءہ بن عامر بن صعصعہ کی اولاد سے؛ کم عمر صحابہ میں سے، نبی کی وفات کے وقت بالغ نہیں ہوئے تھے مگر ان سے سنا تھا؛ کوفہ میں آ کر گھر بنایا، اور علی نے انہیں کوفہ کے بیت المال پر مقرر کیا اور وہ علی کے ساتھ ان کی تمام جنگوں میں رہے {cite:istiab-alam-2002 p. 788}؛ خلیفہ کے مطابق وہ بشر بن مروان کی ولایت میں فوت ہوئے {cite:mustadrak-ilmiyya-ata-v3 p. 716}۔"
 wings: [people]
-regions: [levant-iraq]
-periods: [period/prophetic-era]
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+regions: [arabia, levant-iraq]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 2869 ص 788؛ المستدرك ح 6588-6589", sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: lived_in, target: place/kufa, note: "نزل الكوفة وابتنى بها داراً {cite:istiab-alam-2002 p. 788}", sources: [source/istiab-alam-2002] }
+  - { type: allied_with, target: person/ali-ibn-abi-talib, note: "جعله على بيت المال بالكوفة وشهد معه مشاهده كلها {cite:istiab-alam-2002 p. 788}", sources: [source/istiab-alam-2002] }
+sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3, source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
- layer: own-research
- source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 13746-13747 من المسح"
- generated_by: "Claude Haiku 5.5"
- model: claude-haiku-5-5
- run: mawsua-w08-67
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 788, entry 2869; al-Mustadrak (ed. 'Ata) vol. 3 p. 716, h. 6588-6589; earlier Haiku record from the Kuwaiti Mawsu'a fiqhiyya appendix pp. 13746-13747"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
- review: draft
- completeness: 1
- generated_by: "Claude Haiku 5.5; appendix biography from the Mawsu'a fiqhiyya (Noor copy), scan pages 13746-13747; dates as printed"
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Haiku record (run mawsua-w08-67)"

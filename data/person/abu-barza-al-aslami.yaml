@@ -1,14 +1,35 @@
 id: person/abu-barza-al-aslami
 class: person
-label: { ar: "أبو برزة الأسلمي", en: "Abu Barza al-Aslami" }
+label: { ar: "أبو برزة الأسلمي", en: "Abu Barza al-Aslami", ur: "ابو برزہ اسلمی" }
+names:
+  - { kind: full, lang: ar, value: "نضلة بن عبيد بن الحارث الأسلمي" }
+  - { kind: kunya, lang: ar, value: "أبو برزة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
 summary:
-  ar: "أبو برزة نضلة بن عبيد الله الأسلمي؛ كان على ميمنة ابن عامر يوم فتح أصطخر."
-  en: "Abu Barza Nadla ibn Ubaydallah al-Aslami; he held Ibn Amir's right wing at Istakhr's fall."
-periods: [period/rashidun]
+  ar: "أبو برزة الأسلمي، غلبت عليه كنيته، والصحيح في اسمه نضلة بن عبيد كما قال أحمد ويحيى بن معين؛ أسلم قديماً وشهد فتح مكة، وروي عنه أنه قتل ابن خطل وهو متعلق بأستار الكعبة، ثم تحول إلى البصرة، ثم غزا خراسان، واختُلف في وفاته بخراسان أو بالبصرة في أواخر خلافة معاوية أو أيام يزيد أو سنة 64هـ {cite:istiab-alam-2002 p. 719, 783}؛ وكان على ميمنة ابن عامر يوم فتح إصطخر {cite:futuh-buldan-maarif-1407}."
+  en: "Abu Barza al-Aslami, known by his kunya; his name is most soundly Nadla ibn 'Ubayd, as Ahmad and Yahya ibn Ma'in said; he accepted Islam early and was present at the conquest of Mecca, where he is reported to have killed Ibn Khatal as he clung to the curtains of the Ka'ba; he moved to Basra and campaigned in Khurasan, and the reports differ on whether he died in Khurasan or Basra, late in Mu'awiya's caliphate, under Yazid, or in 64 AH {cite:istiab-alam-2002 p. 719, 783}; he commanded Ibn 'Amir's right wing at the conquest of Istakhr {cite:futuh-buldan-maarif-1407}."
+  ur: "ابو برزہ اسلمی، جن کی کنیت نام پر غالب آ گئی؛ ان کا صحیح نام نضلہ بن عبید ہے جیسا کہ احمد اور یحییٰ بن معین نے کہا؛ انہوں نے ابتدا میں اسلام قبول کیا اور فتح مکہ میں شریک ہوئے، جہاں ان سے مروی ہے کہ انہوں نے ابن خطل کو کعبہ کے پردوں سے چمٹے ہوئے قتل کیا؛ پھر بصرہ منتقل ہوئے اور خراسان میں جہاد کیا، اور ان کی وفات میں اختلاف ہے کہ خراسان میں یا بصرہ میں، معاویہ کی خلافت کے آخر میں، یزید کے زمانے میں یا 64ھ میں {cite:istiab-alam-2002 p. 719, 783}؛ فتحِ اصطخر کے دن وہ ابن عامر کے میمنہ پر تھے {cite:futuh-buldan-maarif-1407}۔"
 wings: [people]
-sources: [source/futuh-buldan-maarif-1407, source/bakr-umayyad-state-1134715]
-status: { review: draft, completeness: 1 }
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia, levant-iraq, persia-central-asia]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 2580 ص 719 وترجمة 2853 ص 783", sources: [source/istiab-alam-2002] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/conquest-of-mecca, sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/basra, sources: [source/istiab-alam-2002] }
+  - { type: traveled_to, target: place/khurasan, sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/merv, note: "أتى خراسان فنزل مرو {cite:istiab-alam-2002 p. 783}", sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/conquest-of-istakhr, note: "كان على ميمنة ابن عامر", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 719 entry 2580 and p. 783 entry 2853 (with p. 782 on Abu Bakra's funeral); earlier Devin card from Futuh al-Buldan"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002, source/futuh-buldan-maarif-1407, source/bakr-umayyad-state-1134715]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin card" }

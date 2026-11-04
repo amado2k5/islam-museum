@@ -1,17 +1,26 @@
 id: work/al-istiab
 class: work
 kind: book
-label: { ar: "الاستيعاب في معرفة الأصحاب", en: "al-Istiab fi Ma'rifat al-Ashab" }
+label: { ar: "الاستيعاب في معرفة الأصحاب", en: "al-Istiab fi Ma'rifat al-Ashab", ur: "الاستیعاب فی معرفۃ الاصحاب" }
+authors: [person/ibn-abd-al-barr]
+genre: [biography]
 summary:
-  ar: "كتاب ابن عبد البر القرطبي في أسماء الصحابة؛ أحد الكتب الأربعة المصنفة في معرفة الصحابة التي استقصاها ابن الأثير في أُسد الغابة وجعل له علامة (ب)، وله حواش استفاد منها صاحب التجريد {cite:kashf-zunun-furqan p. 398}."
-  en: "Ibn Abd al-Barr's Companion biographies — one of the four books Ibn al-Athir exhausted in Usd al-Ghaba under the siglum (ب); its marginal additions fed the Tajrid {cite:kashf-zunun-furqan p. 398}."
-wings: []
+  ar: "كتاب أبي عمر يوسف بن عبد البر النمري القرطبي (368-463هـ) في تراجم الصحابة، رتبه على حروف المعجم في الأسماء ثم الكنى ثم النساء، في نحو 3590 ترجمة في طبعة دار الأعلام؛ قدّم له بأن عدالة الصحابة جميعاً ثابتة بثناء الله ورسوله {cite:istiab-alam-2002 p. 15}؛ وهو أحد الكتب الأربعة التي استقصاها ابن الأثير في أسد الغابة وجعل له علامة (ب) {cite:kashf-zunun-furqan p. 398}."
+  en: "The dictionary of Companions of Abu 'Umar Yusuf ibn 'Abd al-Barr al-Namari of Cordoba (368-463 AH), arranged alphabetically by name, then by kunya, then the women, in some 3,590 entries in the Dar al-A'lam edition; he opens it by stating that the probity of all the Companions is established by the praise of God and His Messenger {cite:istiab-alam-2002 p. 15}; it is one of the four books Ibn al-Athir exhausted in Usd al-Ghaba under the siglum (ب) {cite:kashf-zunun-furqan p. 398}."
+  ur: "ابو عمر یوسف بن عبد البر نمری قرطبی (368-463ھ) کی صحابہ کے تراجم پر کتاب، جو ناموں میں حروفِ تہجی پر، پھر کنیتوں، پھر خواتین پر مرتب ہے، دار الاعلام کی طبع میں تقریباً 3590 تراجم؛ مقدمے میں وہ کہتے ہیں کہ تمام صحابہ کی عدالت اللہ اور اس کے رسول کی تعریف سے ثابت ہے {cite:istiab-alam-2002 p. 15}؛ یہ ان چار کتابوں میں سے ہے جنہیں ابن الاثیر نے اسد الغابہ میں سمویا اور اس کے لیے علامت (ب) رکھی {cite:kashf-zunun-furqan p. 398}۔"
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/istiab-alam-2002] }
+relations:
+  - { type: related_to, target: concept/adalat-al-sahaba, note: "يقرر في مقدمته ثبوت عدالة جميع الصحابة {cite:istiab-alam-2002 p. 15}", sources: [source/istiab-alam-2002] }
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 398 مدخل 859"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-1
-sources: [source/kashf-zunun-furqan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Dar al-A'lam 2002 ed. Murshid, author's preface pp. 15-17 and entries; al-Turki 2019 vol. 1 title pages; Kashf al-Zunun (Furqan) vol. 1 p. 398 (earlier Devin record)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002, source/istiab-turki-2019-v1, source/isti-ab-ibn-abd-al-barr, source/kashf-zunun-furqan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin record (run lib-kashf-batch-1)" }

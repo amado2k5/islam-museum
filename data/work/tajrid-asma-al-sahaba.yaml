@@ -1,0 +1,31 @@
+id: work/tajrid-asma-al-sahaba
+class: work
+kind: book
+label: { ar: "تجريد أسماء الصحابة", en: "Tajrid Asma' al-Sahaba", ur: "تجرید اسماء الصحابہ" }
+authors: [person/al-dhahabi]
+genre: [biography]
+summary:
+  ar: "كتاب الحافظ شمس الدين الذهبي (ت 748هـ) جرّد فيه أسماء الصحابة من «أسد الغابة» لابن الأثير، الجامع للكتب الأربعة لابن منده وأبي نعيم وأبي موسى المديني وابن عبد البر، وزاد عليه من تاريخ من نزل حمص وتاريخ دمشق ومسند أحمد ومسند بقي بن مخلد وطبقات ابن سعد وشعراء ابن سيد الناس، ووضع له رموزاً للتابعي والغلط ولرواة الكتب الستة؛ وقدّر أن المذكورين فيه نحو ثمانية آلاف نفس {cite:tajrid-darbirr-v1 p. 64-67}."
+  en: "The work in which the hadith master Shams al-Din al-Dhahabi (d. 748 AH) extracted the names of the Companions from Ibn al-Athir's Usd al-Ghaba, which had combined the four books of Ibn Manda, Abu Nu'aym, Abu Musa al-Madini and Ibn 'Abd al-Barr, adding names from the history of those who settled in Hims, the History of Damascus, the Musnads of Ahmad and of Baqi ibn Makhlad, Ibn Sa'd's Tabaqat and Ibn Sayyid al-Nas's list of poets, with sigla marking Successors, errors and narrators of the six books; he estimated the persons listed at some eight thousand {cite:tajrid-darbirr-v1 p. 64-67}."
+  ur: "حافظ شمس الدین ذہبی (وفات 748ھ) کی کتاب جس میں انہوں نے ابن الاثیر کی «اسد الغابہ» سے، جو ابن مندہ، ابو نعیم، ابو موسیٰ مدینی اور ابن عبد البر کی چار کتابوں کی جامع ہے، صحابہ کے نام الگ کیے، اور حمص میں اترنے والوں کی تاریخ، تاریخِ دمشق، مسند احمد، مسند بقی بن مخلد، طبقات ابن سعد اور ابن سید الناس کے شعرا سے اضافہ کیا، تابعی، غلطی اور کتبِ ستہ کے راویوں کے لیے رموز رکھے؛ اور اندازہ لگایا کہ اس میں مذکور افراد تقریباً آٹھ ہزار ہیں {cite:tajrid-darbirr-v1 p. 64-67}۔"
+made: { by_muslims: true, basis: documented, sources: [source/tajrid-darbirr-v1] }
+language: language/arabic
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+relations:
+  - { type: relies_on, target: work/usd-al-ghaba, note: "جرّد أسماءه وزاد عليه {cite:tajrid-darbirr-v1 p. 64}", sources: [source/tajrid-darbirr-v1] }
+  - { type: relies_on, target: work/al-istiab, sources: [source/tajrid-darbirr-v1] }
+  - { type: relies_on, target: work/marifat-al-sahaba-ibn-manda, sources: [source/tajrid-darbirr-v1] }
+  - { type: relies_on, target: work/marifat-al-sahaba-abi-nuaym, sources: [source/tajrid-darbirr-v1] }
+  - { type: relies_on, target: work/tarikh-dimashq, sources: [source/tajrid-darbirr-v1] }
+  - { type: relies_on, target: work/al-tabaqat-al-kubra-ibn-sad, sources: [source/tajrid-darbirr-v1] }
+provenance:
+  layer: own-research
+  source: "Dar al-Birr ed. vol. 1, editor's introduction printed pp. 7-9, 15, 29, 37-38 and al-Dhahabi's preface printed pp. 64-68; Hyderabad 1315 vol. 1 title page; Dar al-Ma'rifa reprint vol. 1 pp. 2-3 and last page"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/tajrid-darbirr-v1, source/tajrid-asma-sahaba-dhahabi, source/tajrid-marifa-reprint-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

@@ -1,0 +1,35 @@
+id: person/qatada-ibn-al-numan
+class: person
+label: { ar: "قتادة بن النعمان الظفري", en: "Qatada ibn al-Nu'man al-Zafari", ur: "قتادہ بن النعمان ظفری" }
+names:
+  - { kind: full, lang: ar, value: "قتادة بن النعمان بن زيد بن عامر بن سواد بن كعب الظفري الأنصاري" }
+  - { kind: kunya, lang: ar, value: "أبو عمرو" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "قتادة بن النعمان الظفري الأنصاري، من بني ظفر من الأوس، أخو أبي سعيد الخدري لأمه، عقبي بدري شهد المشاهد كلها، وأصيبت عينه فسالت حدقته فردّها النبي فكانت أحسن عينيه، والأصح عند ابن عبد البر أن ذلك يوم أحد؛ حمل راية بني ظفر يوم الفتح، وتوفي سنة 23هـ أو 24 ابن خمس وستين وصلى عليه عمر {cite:istiab-alam-2002 p. 616-617} {cite:rawd-unuf-wakil-v6 p. 32-34}."
+  en: "Qatada ibn al-Nu'man al-Zafari al-Ansari, of Banu Zafar of the Aws, half-brother through their mother of Abu Sa'id al-Khudri; he was at al-'Aqaba, Badr and all the campaigns; his eye was struck and its eyeball fell out, and the Prophet put it back, after which it was his better eye — Ibn 'Abd al-Barr holds this happened at Uhud; he carried the banner of Banu Zafar at the conquest of Mecca and died in 23 or 24 AH aged sixty-five, 'Umar leading his funeral prayer {cite:istiab-alam-2002 p. 616-617} {cite:rawd-unuf-wakil-v6 p. 32-34}."
+  ur: "قتادہ بن النعمان ظفری انصاری، اوس کے بنو ظفر سے، ابو سعید خدری کے ماں جائے بھائی؛ عقبہ، بدر اور تمام غزوات میں شریک رہے؛ ان کی آنکھ زخمی ہو کر ڈھیلا نکل آیا تو نبی نے اسے واپس رکھ دیا اور وہ ان کی بہتر آنکھ بن گئی — ابن عبد البر کے نزدیک یہ احد کا واقعہ ہے؛ فتح مکہ میں بنو ظفر کا جھنڈا اٹھایا، اور 23 یا 24ھ میں پینسٹھ برس کی عمر میں فوت ہوئے اور عمر نے نمازِ جنازہ پڑھائی {cite:istiab-alam-2002 p. 616-617} {cite:rawd-unuf-wakil-v6 p. 32-34}۔"
+died: { edtf: "0643/0645", hijri: "0023", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ثلاث وعشرين (والهجري هنا للقول الأول) وقيل أربع وعشرين وهو ابن خمس وستين، وصلى عليه عمر ونزل في قبره أبو سعيد الخدري {cite:istiab-alam-2002 p. 616}؛ المقابل الميلادي مشتق.", sources: [source/istiab-alam-2002] }
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era, period/rashidun]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 3134 ص 616؛ الروض الأنف ج6 ص 32-34", sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/banu-zafar-al-aws, sources: [source/istiab-alam-2002] }
+  - { type: sibling_of, target: person/abu-said-al-khudri, note: "أخوه لأمه {cite:istiab-alam-2002 p. 616} {cite:rawd-unuf-wakil-v6 p. 32}", sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "أصيبت عينه فيها في الأصح {cite:istiab-alam-2002 p. 616}", sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "كانت معه راية بني ظفر {cite:istiab-alam-2002 p. 616}", sources: [source/istiab-alam-2002] }
+provenance:
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) pp. 616-617, entry 3134; al-Rawd al-Unuf ed. al-Wakil vol. 6 printed pp. 32-34"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

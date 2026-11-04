@@ -1,53 +1,42 @@
 id: person/buraydah-ibn-al-husayb
 class: person
-label:
-  ar: بريدة بن الحصيب
-  en: Buraydah ibn al-Husayb
+aliases: [person/burayda-ibn-al-husayb]   # merged 4 Nov 2026: the Futuh al-Buldan card for the same Companion; duplicate file removed, the id still resolves
+label: { ar: "بريدة بن الحصيب", en: "Buraydah ibn al-Husayb", ur: "بریدہ بن الحصیب" }
 names:
-- kind: full
-  lang: ar
-  value: بريدة بن الحصيب بن عبد الله بن الحارث بن الأعرج بن سعد بن رزاح بن عدي بن سهم بن مازن بن الحارث بن سلامان بن أفصى الأسلمي
+  - { kind: full, lang: ar, value: "بريدة بن الحصيب بن عبد الله بن الحارث بن الأعرج بن سعد بن رزاح بن عدي بن سهم بن مازن بن الحارث بن سلامان بن أسلم بن أفصى الأسلمي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
 gender: male
-roles:
-- companion
-traditions:
-- sunni
+roles: [companion]
+traditions: [sunni]
 summary:
-  ar: صحابي من أسلم؛ قال ابن السكن إنه أسلم حين مرّ به النبي مهاجراً بالغميم وأقام في موضعه حتى مضت بدر وأحد، وغزا مع النبي ست عشرة غزوة، ونزل البصرة ثم غزا خراسان وسكن مرو ومات سنة 63هـ.
-  en: A Companion of Aslam; Ibn al-Sakan says he embraced Islam when the Prophet passed him on the Hijra at al-Ghamim and stayed in his place until Badr and Uhud had passed; he took part in sixteen campaigns with the Prophet, settled in Basra,
-    campaigned in Khurasan and lived in Merv, dying in 63 AH.
+  ar: "بريدة بن الحصيب الأسلمي، أبو عبد الله في المشهور؛ أسلم حين مرّ به النبي مهاجراً بالغميم ومعه نحو ثمانين بيتاً، ثم قدم بعد أحد فشهد معه مشاهده وبايع تحت الشجرة، وسكن المدينة ثم البصرة، ثم غزا خراسان ومات بمرو في إمرة يزيد بن معاوية {cite:istiab-alam-2002 p. 94}، وأرّخ ابن سعد وفاته سنة 63هـ {cite:ibn-hajar-isaba p. 141}."
+  en: "Buraydah ibn al-Husayb al-Aslami, best known as Abu 'Abd Allah; he accepted Islam when the Prophet passed him at al-Ghamim on the Hijra, with some eighty households, then came after Uhud and took part in his campaigns and the pledge under the tree; he lived in Medina, then Basra, then campaigned in Khurasan and died at Merv under Yazid ibn Mu'awiya {cite:istiab-alam-2002 p. 94}; Ibn Sa'd dates his death to 63 AH {cite:ibn-hajar-isaba p. 141}."
+  ur: "بریدہ بن الحصیب اسلمی، مشہور کنیت ابو عبد اللہ؛ جب نبی ہجرت کرتے ہوئے غمیم سے گزرے تو انہوں نے تقریباً اسی گھرانوں کے ساتھ اسلام قبول کیا، پھر احد کے بعد آئے اور غزوات اور درخت کے نیچے بیعت میں شریک ہوئے؛ مدینہ پھر بصرہ میں رہے، پھر خراسان میں جہاد کیا اور یزید بن معاویہ کی امارت میں مرو میں فوت ہوئے {cite:istiab-alam-2002 p. 94}؛ ابن سعد نے ان کی وفات 63ھ بتائی {cite:ibn-hajar-isaba p. 141}۔"
+died: { edtf: "0682/0683", hijri: "0063", calendar: julian, precision: year, status: tradition, derived: true, note: "ابن سعد: مات سنة 63هـ {cite:ibn-hajar-isaba p. 141}؛ ابن عبد البر: مات بمرو في إمرة يزيد بن معاوية {cite:istiab-alam-2002 p. 94}؛ المقابل الميلادي مشتق.", sources: [source/ibn-hajar-isaba, source/istiab-alam-2002] }
 wings: [people]
-themes:
-- converts-and-leavers
-periods:
-- period/prophetic-era
-- period/rashidun
-regions:
-- arabia
+themes: [converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia, levant-iraq, persia-central-asia]
 story_roles:
-- role: companion
-  status: tradition
-  note: مذكور في الإصابة ترجمة رقم 660 (ص 141).
-  sources:
-  - source/ibn-hajar-isaba
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 219 ص 94؛ الإصابة ترجمة 660 ص 141", sources: [source/istiab-alam-2002, source/ibn-hajar-isaba] }
 faith:
-- value: sunni
-  basis: tradition
-  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 relations:
-- type: lived_in
-  target: place/basra
-  sources:
-  - source/ibn-hajar-isaba
+  - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
+  - { type: participated_in, target: event/bayat-al-ridwan, sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/medina, sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/basra, sources: [source/ibn-hajar-isaba, source/istiab-alam-2002] }
+  - { type: traveled_to, target: place/khurasan, note: "خرج إليها غازياً {cite:istiab-alam-2002 p. 94}", sources: [source/istiab-alam-2002] }
+  - { type: died_in, target: place/merv, note: "مات بمرو وقبره بالجصين فيما رواه البخاري عن ابنه عبد الله {cite:istiab-alam-2002 p. 94}", sources: [source/istiab-alam-2002] }
 provenance:
   layer: own-research
-  source: الإصابة في تمييز الصحابة، ترجمة 660، ص 141
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch127
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 94, entry 219; al-Isaba entry 660 p. 141 (earlier record); Futuh al-Buldan (merged card)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q4119824" }
-sources:
-- source/ibn-hajar-isaba
+sources: [source/istiab-alam-2002, source/ibn-hajar-isaba, source/futuh-buldan-maarif-1407]
 status:
   review: published
   completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); merged and rewritten from an al-Isaba record (isaba-batch-4) and a Futuh al-Buldan card"

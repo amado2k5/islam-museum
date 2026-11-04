@@ -1,0 +1,31 @@
+id: person/maiz-ibn-malik-al-aslami
+class: person
+label: { ar: "ماعز بن مالك الأسلمي", en: "Ma'iz ibn Malik al-Aslami", ur: "ماعز بن مالک اسلمی" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "ماعز بن مالك الأسلمي، معدود في المدنيين، كتب له النبي كتاباً بإسلام قومه، وهو الذي اعترف على نفسه بالزنى تائباً منيباً وكان محصناً فرُجم، وروى عنه ابنه عبد الله بن ماعز حديثاً واحداً {cite:istiab-alam-2002 p. 686}."
+  en: "Ma'iz ibn Malik al-Aslami, counted among the Medinans; the Prophet wrote him a document confirming his people's Islam; he is the one who confessed to adultery, repentant and turning back to God, and, being married, was stoned; his son 'Abd Allah ibn Ma'iz narrated a single hadith from him {cite:istiab-alam-2002 p. 686}."
+  ur: "ماعز بن مالک اسلمی، اہلِ مدینہ میں شمار؛ نبی نے ان کے لیے ان کی قوم کے اسلام کی تحریر لکھی؛ یہ وہی ہیں جنہوں نے توبہ اور رجوع کرتے ہوئے اپنے بارے میں زنا کا اعتراف کیا، اور شادی شدہ ہونے کی وجہ سے رجم کیے گئے؛ ان کے بیٹے عبد اللہ بن ماعز نے ان سے ایک حدیث روایت کی {cite:istiab-alam-2002 p. 686}۔"
+wings: [people]
+themes: [ethics-and-character]
+regions: [arabia]
+periods: [period/prophetic-era]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 2407 ص 686", sources: [source/istiab-alam-2002] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/medina, sources: [source/istiab-alam-2002] }
+  - { type: related_to, target: concept/al-rajm, note: "اعترف على نفسه بالزنى تائباً وكان محصناً فرجم {cite:istiab-alam-2002 p. 686}", sources: [source/istiab-alam-2002] }
+provenance:
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 686, entry 2407 with the editor's note"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002]
+sensitivity: contested
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
