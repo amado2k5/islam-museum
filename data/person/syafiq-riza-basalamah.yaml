@@ -1,0 +1,35 @@
+id: person/syafiq-riza-basalamah
+class: person
+label: { ar: "شفيق رضا باسلمة", en: "Syafiq Riza Basalamah", ur: "شفیق رضا باسلامہ" }
+names:
+  - { value: "شفيق رضا بن حسن بن عبد القادر بن سليم بن زيد باسلمة", kind: full }
+  - { value: "Syafiq Riza bin Hasan bin Abdul Qadir bin Salim bin Zaid Basalamah", kind: full }
+gender: male
+summary:
+  ar: "داعية ومحاضر وكاتب إندونيسي، وُلد في جمبر سنة 1977، تخرج في الجامعة الإسلامية بالمدينة المنورة بامتياز في مراحله الثلاث، ويدرّس في جمبر ويذيع محاضراته عبر قنوات رودجا ويوتيوب إلى جمهور واسع."
+  en: "Indonesian preacher, lecturer and author, born in Jember in 1977. He graduated from the Islamic University of Madinah with honours at all three degree levels, teaches in Jember, and his lectures are broadcast on Rodja channels and YouTube to a wide audience."
+  ur: "انڈونیشیائی مبلغ، مدرس اور مصنف، جو 1977 میں جمبر میں پیدا ہوئے۔ انہوں نے مدینہ منورہ کی اسلامی یونیورسٹی سے تینوں درجات میں امتیاز کے ساتھ تعلیم مکمل کی، جمبر میں تدریس کرتے ہیں، اور ان کے خطبات روجا چینلز اور یوٹیوب پر وسیع سامعین تک پہنچتے ہیں۔"
+roles: [preacher, scholar, writer]
+wings: [people, living]
+born:
+  edtf: "1977-12-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date and place (Jember, East Java) from the English and Indonesian Wikipedia articles, which agree. No place record for Jember exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English and Indonesian articles' texts both call him a Salafi scholar and preacher. Salafi is a movement label, not a school value in the faith enum, and no text read names a madhhab for the man himself. Not recorded as sunni until two independent texts name a school."
+    sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id]
+sources: [source/wikipedia-syafiq-riza-basalamah-en, source/wikipedia-syafiq-riza-basalamah-id]
+provenance:
+  layer: own-research
+  source: "English and Indonesian Wikipedia 'Syafiq Riza Basalamah' (copies read on 30 August 2026), checked 4 November 2026. He is a different person from Khalid Basalamah, who is recorded separately in this wave; some low-quality web biographies merge the two men (one quotes site even gives him Khalid's birth date and birthplace), so only the two encyclopedia articles were used for his facts. Platform reach (about 1.63 million YouTube subscribers, SpeakRJ, 9 October 2026) is recorded in the prose as a dated platform figure."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }
