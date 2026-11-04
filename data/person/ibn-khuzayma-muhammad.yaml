@@ -3,9 +3,11 @@ class: person
 label: { ar: "ابن خزيمة محمد بن إسحاق", en: "Ibn Khuzayma, Muhammad ibn Ishaq" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر محمد بن إسحاق بن خزيمة بن المغيرة السلمي" }
+  - { kind: full, lang: ar, value: "محمد بن إسحاق بن خزيمة بن المغيرة بن صالح بن بكر السلمي النيسابوري" }
+  - { kind: laqab, lang: ar, value: "إمام الأئمة" }
 gender: male
 roles: [muhaddith, jurist]
-traditions: [sunni]
+traditions: [sunni, sunni-shafii]
 born: { edtf: "0838", hijri: "0223", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "0924", hijri: "0311", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
@@ -17,16 +19,36 @@ periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "ولد في صفر 223هـ بنيسابور ونشأ بها، الدراسة ص 25" }
+  - { type: student_of, target: person/ishaq-ibn-rahwayh, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "سمع منه في صغره ولم يحدث عنه، الدراسة ص 25" }
+  - { type: student_of, target: person/muhammad-ibn-yahya-al-dhuhli, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/mahmud-ibn-ghaylan, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/yunus-ibn-abd-al-ala, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/al-baghawi-ahmad-ibn-mani, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/al-muzani, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "تفقه عليه، الدراسة ص 41" }
+  - { type: student_of, target: person/al-rabi-ibn-sulayman-al-muradi, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "تفقه عليه، الدراسة ص 33، 41" }
+  - { type: student_of, target: person/al-bukhari, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "سمع منه، الدراسة ص 32" }
+  - { type: student_of, target: person/muslim-ibn-al-hajjaj, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "سمع منه، الدراسة ص 32" }
+  - { type: traveled_to, target: place/marw, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "خرج إلى مرو يريد قتيبة فنُعي إليهم سنة 240هـ، الدراسة ص 31" }
+  - { type: traveled_to, target: place/rayy, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/baghdad, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/al-sham, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/basra, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/kufa, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/jazira, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/misr, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/wasit, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981, source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study]
 status:
   review: published
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص258"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch59
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص258؛ ثم دراسة الشهوان لكتاب التوحيد (دار الرشد 1988) ص 25–41، 53، 68"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker K)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch59; ocr-harvest-2026-11-04"
 occupations:
   - job: job/muhaddith
     kind: secondary
