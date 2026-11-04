@@ -34,7 +34,7 @@ halls:
           ur: "ذوالقعدہ 6ھ میں نبی تقریباً چودہ سو ساتھیوں کے ساتھ عمرے کو نکلے؛ قریش نے روکا تو مذاکرات دس سالہ صلح پر ختم ہوئے۔"
       - id: mecca
         record: event/conquest-of-mecca
-        sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]
+        sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
         label: { ar: "فتح مكة", en: "The Conquest of Mecca", ur: "فتح مکہ" }
         desc:
           ar: "في رمضان سنة 8هـ، بعد نقض صلح الحديبية، دخل النبي مكة في عشرة آلاف خافضًا رأسه تواضعًا."
@@ -58,7 +58,7 @@ halls:
           ur: "بلاذری کے مطابق خلیفہ منصور نے 145ھ میں مدینۃ السلام بغداد کی تعمیر شروع کی۔"
       - id: constantinople
         record: event/conquest-constantinople-857
-        sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi, source/stoddard-arslan-hadir-1923, source/assabile-tareq-al-suwaidan]
+        sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi, source/stoddard-arslan-hadir-1923, source/assabile-tareq-al-suwaidan, source/silsila-sahiha-maarif-v1]
         label: { ar: "فتح القسطنطينية", en: "The conquest of Constantinople", ur: "فتح قسطنطنیہ" }
         desc:
           ar: "فتحها السلطان محمد الفاتح سنة 857هـ (1453م) بعد حصار دام خمسين يومًا، وقد نُقلت سفنه برًّا إلى القرن الذهبي."
@@ -140,7 +140,7 @@ halls:
           ur: "ہمہ جہت عالم (تقریباً 980–1037ء) جن کی القانون فی الطب اور الشفاء نے صدیوں تک عالم اسلام اور یورپ میں طب و فلسفہ کو متاثر کیا۔"
       - id: khwarizmi
         record: person/al-khwarizmi
-        sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi]
+        sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831]
         label: { ar: "الخوارزمي", en: "al-Khwarizmi", ur: "خوارزمی" }
         desc:
           ar: "محمد بن موسى الخوارزمي، عدّه المسعودي فيمن عُني بعلوم الهيئة بعد ظهور الإسلام."
@@ -198,7 +198,7 @@ halls:
           ur: "وہ پانچ اعمال جن پر اسلام کی بنیاد ہے: شہادتین، نماز، زکوٰۃ، حج اور رمضان کے روزے۔"
       - id: iman
         record: concept/iman
-        sources: [source/sahih-al-bukhari-bugha, source/sahih-ibn-khuzayma, source/tanzil-quran, source/aqida-tahawiyya, source/lumat-al-itiqad, source/aqida-wasitiyya, source/maqalat-islamiyyin, source/sharh-tahawiyya-ibn-abi-al-izz, source/ibn-rajab-jami-ulum-hikam, source/assabile-omar-abdelkafy, source/assabile-ahmad-farid]
+        sources: [source/ibana-kubra-muti-iman, source/sahih-al-bukhari-bugha, source/sahih-ibn-khuzayma, source/tanzil-quran, source/aqida-tahawiyya, source/lumat-al-itiqad, source/aqida-wasitiyya, source/maqalat-islamiyyin, source/sharh-tahawiyya-ibn-abi-al-izz, source/ibn-rajab-jami-ulum-hikam, source/assabile-omar-abdelkafy, source/assabile-ahmad-farid]
         label: { ar: "الإيمان", en: "Iman (faith)", ur: "ایمان" }
         desc:
           ar: "الإيمان بالله وملائكته وكتابه ولقائه ورسله والبعث، كما في حديث جبريل."
@@ -248,7 +248,7 @@ halls:
           ur: "ابن سینا کی طبی دائرۃ المعارف، پانچ کتابوں میں، جس کا آغاز طب کے عمومی اصولوں اور مفرد ادویہ سے ہوتا ہے۔"
       - id: jabr
         record: work/al-jabr-wal-muqabala
-        sources: [source/khwarizmi-jabr-cairo-1939]
+        sources: [source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831]
         label: { ar: "كتاب الجبر والمقابلة", en: "The Algebra of al-Khwarizmi", ur: "کتاب الجبر والمقابلہ" }
         desc:
           ar: "رسالة الخوارزمي في الجبر والمقابلة، قدّمها محررو طبعة القاهرة سنة 1939 على سائر ما اختاروا نشره من كتب العلوم."
@@ -264,7 +264,7 @@ halls:
           ur: "تمدن کی فطرت، عصبیت، سلطنتوں، صنعتوں اور علوم پر ابن خلدون کا مقدمہ۔"
       - id: ihya
         record: work/ihya-ulum-al-din
-        sources: [source/kashf-zunun-furqan]
+        sources: [source/kashf-zunun-furqan, source/ihya-shamela-dar-al-marifa, source/ihya-dar-al-marifa-1982-v3, source/ihya-kitab-al-shab-pts13-16, source/ihya-tabana-v4]
         label: { ar: "إحياء علوم الدين", en: "Ihya' 'Ulum al-Din", ur: "احیاء علوم الدین" }
         desc:
           ar: "كتاب الغزالي في أربعة أرباع وأربعين كتابًا: العبادات والعادات والمهلكات والمنجيات."

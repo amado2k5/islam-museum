@@ -1,0 +1,23 @@
+id: work/al-tibb-al-nabawi-ibn-al-sunni
+class: work
+kind: book
+label: { ar: "الطب النبوي لابن السني", en: "Ibn al-Sunni's al-Tibb al-nabawi", ur: "ابن السنی کی الطب النبوی" }
+summary:
+  ar: "كتاب لابن السني (ت 364هـ) في الطب النبوي، من أقدم ما كتب في هذا الفن، نقل عنه السيوطي في الهيئة السنية {cite:heinen-islamic-cosmology p. 45}."
+  en: "A book on Prophetic Medicine by Ibn al-Sunni (d. 364 AH), among the earliest of its genre, quoted by al-Suyuti in al-Hay'a al-saniyya {cite:heinen-islamic-cosmology p. 45}."
+  ur: "ابن السنی (م 364ھ) کی طبِ نبوی پر کتاب، اس فن کی قدیم ترین کتابوں میں؛ سیوطی نے الہیئۃ السنیہ میں اس سے نقل کیا {cite:heinen-islamic-cosmology p. 45}."
+wings: [ideas, words]
+themes: [cosmology-and-creation, scripture-and-its-sciences]
+authors: [person/ibn-al-sunni]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/heinen-islamic-cosmology] }
+relations:
+  - { type: influenced, target: work/al-haya-al-saniyya-suyuti, sources: [source/heinen-islamic-cosmology] }
+sources: [source/heinen-islamic-cosmology]
+provenance:
+  layer: own-research
+  source: "source/heinen-islamic-cosmology scan pp. 45, 47"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
