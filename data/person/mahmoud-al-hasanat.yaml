@@ -1,0 +1,38 @@
+id: person/mahmoud-al-hasanat
+class: person
+label: { ar: "محمود الحسنات", en: "Mahmoud al-Hasanat", ur: "محمود الحسنات" }
+names:
+  - { value: "Mahmoud Salman Jibril al-Hasanat", kind: full }
+  - { value: "محمود سلمان جبريل الحسنات", kind: full }
+gender: male
+summary:
+  ar: "خطيب وداعية وكاتب فلسطيني وُلد في قطاع غزة سنة 1989، عُرف بخطبه الحماسية القصيرة المنتشرة على يوتيوب — وفي مقدمتها «ويمكرون ويمكر الله» — ونال سنة 2018 جائزة «خطيب الفقراء»، وألّف كتابي «تغاريد» و«جواز سفر»، ويقيم في تركيا بعد سنوات دراسة في السودان تخللها اعتقال قصير سنة 2020."
+  en: "Palestinian preacher, orator and writer born in the Gaza Strip in 1989. He is known for short, impassioned sermons that circulate on YouTube — most famously 'Wa-yamkurun wa-yamkur Allah' — won the 'Orator of the Poor' award in 2018, and has written the books Tagharid and Jawaz Safar. He lives in Turkey after years of study in Sudan that included a brief detention in 2020."
+  ur: "فلسطینی خطیب، داعی و مصنف، جو 1989ء میں غزہ کی پٹی میں پیدا ہوئے۔ یوٹیوب پر پھیلنے والے پرجوش مختصر خطبوں سے شہرت پائی، 2018ء میں «خطیب الفقراء» ایوارڈ ملا، «تغارید» اور «جواز سفر» نامی کتب لکھیں، اور سوڈان میں تعلیم و مختصر حراست کے بعد اب ترکی میں مقیم ہیں۔"
+roles: [preacher, khatib, writer]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1989-09-03"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 3 September 1989: the Arabic article's lead and infobox agree on the date, and the Hijri year 1410 is a tabular conversion of it, marked derived. The article disagrees with itself on the place: its lead says Jabalia refugee camp, its infobox says Nuseirat refugee camp — both in the Gaza Strip; both readings are preserved. The museum's place record place/gaza is the city of Gaza, which is neither camp, so no born_in edge is written."
+  sources: [source/wikipedia-mahmoud-al-hasanat-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text consulted names a school for him. The Arabic article's infobox — structured data, which never settles faith — gives his affiliation as Ahl al-Sunnah wa'l-Jama'ah, a branch label rather than a madhhab. His master's degree in comparative fiqh and his years of study in Sudan are formation and topics, which never count. The value stays unknown."
+    sources: [source/wikipedia-mahmoud-al-hasanat-ar]
+sources: [source/wikipedia-mahmoud-al-hasanat-ar]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article on Mahmoud al-Hasanat, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: YouTube over five million subscribers, matching the article's own figure). The harvest records a Wikidata item for him, but wikidata.org returns HTTP 403 to this session's fetcher, so the QID could not be verified in session and no external identifier is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-189"
+status:
+  review: published
+  completeness: 3

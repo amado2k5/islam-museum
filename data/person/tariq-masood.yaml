@@ -1,0 +1,39 @@
+id: person/tariq-masood
+class: person
+label: { ar: "طارق مسعود", en: "Mufti Tariq Masood", ur: "طارق مسعود" }
+names:
+  - { value: "Tariq Masood", kind: full }
+  - { value: "طارق مسعود", kind: full }
+gender: male
+summary:
+  ar: "داعية ومفتٍ باكستاني وُلد في سرغودها بالبنجاب سنة 1975، درس المنهج النظامي (درس نظامي) في جامعة الرشيد بكراجي وتخصص في الفقه، ويُدرّس فيها وفي دار إفتائها، وهو إمام مسجد الفلاحية بكراجي، واشتهر بخطبه الأردية المنشورة على يوتيوب ووسائل التواصل بأسلوب مباشر يتناول الأسرة والزواج وقضايا المجتمع."
+  en: "Pakistani preacher and mufti born in Sargodha, Punjab, in 1975. He completed the Dars-i Nizami curriculum at Jamia Tur Rasheed in Karachi, specialised in fiqh, lectures there and in its Darul Ifta, and serves as imam of Masjid al-Falahia in Karachi. He is known for Urdu sermons distributed on YouTube and social media, in a direct style addressing family, marriage and social questions."
+  ur: "پاکستانی مبلغ و مفتی، جو 1975ء میں پنجاب کے سرگودھا میں پیدا ہوئے۔ کراچی کی جامعۃ الرشید میں درسِ نظامی مکمل کیا، فقہ میں مہارت حاصل کی، وہیں اور اس کے دار الافتا میں تدریس کرتے ہیں اور کراچی کی مسجد الفلاحیہ کے امام ہیں۔ خاندان، شادی اور سماجی مسائل پر براہِ راست انداز میں اردو خطبات سے شہرت پائی۔"
+roles: [preacher, scholar, mufti, writer]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1975"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Sargodha, Punjab, in 1975: the English article gives the year only, so no Hijri year is derived — a bare year legitimately spans two. No place record for Sargodha exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-tariq-masood-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text consulted names a school for him. The English article's lead calls him a Sunni Deobandi scholar, and the De Gruyter 2023 chapter it cites counts him among the more impactful Deobandi preachers — real attestations of a movement, used for the membership edge below, but a movement name is not a school attestation: Deobandi has no value in the faith vocabulary, and no prose anywhere in the article names his madhhab. Attestation that names only branch and movement settles nothing. The value stays unknown, the Deobandi identification preserved here and in the edge."
+    sources: [source/wikipedia-tariq-masood-en]
+relations:
+  - { type: member_of, target: group/deobandiyya, note: "Described as a Deobandi preacher in running text (the English article's lead, and a 2023 De Gruyter chapter on Pakistani media preachers it cites): the identification is recorded as the edge and in the faith note, not converted into a faith value; the edge follows the shape used in the museum's record of Ashraf Ali Thanwi. No student_of edge: the article says he completed the Dars-i Nizami at Jamia Tur Rasheed in Karachi but names no teacher.", sources: [source/wikipedia-tariq-masood-en] }
+sources: [source/wikipedia-tariq-masood-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article on Tariq Masood, read in full on 4 November 2026 (modern-figures harvest, 2026-11-04: YouTube 'Mufti Tariq Masood Official' with 4.97 million subscribers per vidIQ, read 3 November 2026). The harvest records a Wikidata item for him, but wikidata.org returns HTTP 403 to this session's fetcher, so the QID could not be verified in session and no external identifier is recorded."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-189"
+status:
+  review: published
+  completeness: 3
