@@ -307,3 +307,9 @@ layth-ibn-abi-sulaym	REJECT: ar: thin (141ch)
 Promoted: jamil-ibn-abdallah-al-udhri, mansur-al-namri, sallam-al-khasir, yasir-rakhila, kathir-azza, thumama-ibn-ashras, hisham-ibn-al-kalbi, ibn-abi-nuaym, zayd-ibn-musa-al-kazim, ibn-aisha-al-abbasi, muhammad-ibn-hazim-al-bahili, yazid-ibn-harun-al-wasiti, yusuf-ibn-ibrahim-al-katib, mutarrif-ibn-al-mughira, muhammad-ibn-al-qasim-al-alawi, jafar-ibn-dinar-al-khayyat, theophilos, ibrahim-ibn-al-mudabbir, muhammad-ibn-abi-al-azhar, hunayn-ibn-ishaq, muhammad-ibn-al-fadl-al-jarjarai, muhammad-ibn-humayd-al-tusi, shuja-umm-al-mutawakkil, ishaq-ibn-rahwayh, uthman-ibn-abi-shayba.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 726.** ~35 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
+
+### Batch 45 (4 Nov 2026, 25 records) — muruj draft promotions 16 (sweep worker)
+
+Promoted: said-ibn-humayd, yahya-ibn-umar-al-talibi, urwa-ibn-hizam, shahak-al-khadim, yahya-ibn-harthama, isa-ibn-al-shaykh-al-shaybani, ismail-ibn-qabiha, muhammad-ibn-yusuf-al-alawi, ibn-diraj-al-tufayli, saad-al-aasir, yunus-ibn-abd-al-ala, ubaydallah-ibn-khurdadhbih, ismail-ibn-hammad-al-qadi, muhammad-ibn-ahmad-ibn-isa, umm-al-sharif, ishaq-ibn-ayyub-al-anbari, harun-ibn-khumarawayh, rafi-ibn-harthama, ibn-abi-l-dunya, muhammad-ibn-abi-l-saj, nasr-ibn-ahmad, wasif-al-khadim, ibn-abdus-al-jahshiyari, muhammad-ibn-ali-al-abdi, kushajim.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 751.** ~10 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
