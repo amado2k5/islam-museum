@@ -1,0 +1,25 @@
+id: building/madrasa-of-sultan-al-ghuri
+class: building
+kind: madrasa
+label: { ar: "مدرسة السلطان الغوري وجامعه", en: "Madrasa and Mosque of Sultan al-Ghuri, Cairo", ur: "سلطان الغوری کا مدرسہ اور مسجد، قاہرہ" }
+summary:
+  ar: "مدرسة وجامع السلطان قانصوه الغوري (1503-1505م) في الغورية بشارع المعز، تقابل خانقاهه وقبته، بمئذنة مربعة المقطع تتوجها خمس قمم بصلية، ثانية مآذن القاهرة ارتفاعاً {cite:yeomans-islamic-cairo-2006 p.229} {cite:yeomans-islamic-cairo-2006 p.230}."
+  en: "Sultan Qansuh al-Ghuri's madrasa and mosque (1503-1505) in the Ghuriyya on al-Mu'izz street, facing his khanqah and mausoleum, with a square-sectioned minaret crowned by five bulbous finials, the second tallest in Cairo {cite:yeomans-islamic-cairo-2006 p.229} {cite:yeomans-islamic-cairo-2006 p.230}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1503/1505", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 229: madrasa and khanqah (1503/4); map p. 227: madrasa 1504-5." }
+patron: person/qansuh-al-ghawri
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 227-230"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

@@ -1,17 +1,27 @@
 id: work/nur-al-yaqin
 class: work
 kind: book
-label: { ar: "نور اليقين في سيرة سيد المرسلين", en: "Nur al-Yaqin fi Sirat Sayyid al-Mursalin" }
+label: { ar: "نور اليقين في سيرة سيد المرسلين", en: "Nur al-Yaqin fi Sirat Sayyid al-Mursalin", ur: "نور الیقین فی سیرۃ سید المرسلین" }
 summary:
-  ar: "بطاقة أولية لـنور اليقين في سيرة سيد المرسلين؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Nur al-Yaqin fi Sirat Sayyid al-Mursalin; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "سيرة نبوية مختصرة للشيخ محمد الخضري، كتبها بالمنصورة استجابة لرغبة القاضي محمود بك سالم في «سيرة خالية من الحشو والتعقيد تنتفع بها عامة المسلمين»، واعتمد فيها القرآن وصحيحي البخاري ومسلم مستعيناً بالشفا والسيرة الحلبية والمواهب اللدنية والإحياء، ورتب الوقائع بعد الهجرة على السنين، وختمها بالشمائل والمعجزات."
+  en: "A concise biography of the Prophet by Shaykh Muhammad al-Khudari, written in al-Mansura at the wish of the judge Mahmud Bek Salim for 'a sira free of padding and complication from which ordinary Muslims can benefit'. It relies on the Qur'an and the Sahihs of al-Bukhari and Muslim, with help from al-Shifa, al-Sira al-Halabiyya, al-Mawahib al-Laduniyya and the Ihya', arranges events after the Hijra year by year, and ends with the Prophet's qualities and miracles."
+genre: [sira]
+made: { by_muslims: true, basis: documented, sources: [source/nur-al-yaqin-tijariyya-1926] }
+authors: [person/muhammad-al-khudari]
+language: language/arabic
+structure: "مقدمة المؤلف (ص3–4)؛ النسب الشريف والمولد والنشأة؛ ثم الوقائع إلى الهجرة؛ ثم السنون بعد الهجرة سنة سنة إلى السنة الحادية عشرة وفيها مرض النبي وصلاة أبي بكر بالناس ووفاة النبي؛ ثم الشمائل ثم المعجزات؛ ثم الفهرس (طبعة 1926)."
+editions: [source/nur-al-yaqin-tijariyya-1926]
+wings: [words, time]
+themes: [prophets]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+relations:
+  - { type: about, target: person/muhammad, sources: [source/nur-al-yaqin-tijariyya-1926] }
+  - { type: relies_on, target: work/kitab-al-shifa, sources: [source/nur-al-yaqin-tijariyya-1926] }
+  - { type: relies_on, target: work/insan-al-uyun, role: "السيرة الحلبية", sources: [source/nur-al-yaqin-tijariyya-1926] }
+  - { type: relies_on, target: work/mawahib-al-laduniyya, sources: [source/nur-al-yaqin-tijariyya-1926] }
+  - { type: relies_on, target: work/ihya-ulum-al-din, sources: [source/nur-al-yaqin-tijariyya-1926] }
 external_ids: { wikidata: "Q124378055" }
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+provenance: { layer: own-research, source: "source/nur-al-yaqin-tijariyya-1926 pp. 1, 3–6, contents at the end; draft card from a Wikidata import (Devin, wikidata-import-wave2) rewritten by Claude Code (OCR-harvest worker E)", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/nur-al-yaqin-tijariyya-1926, source/al-aalam]
+status: { review: published, completeness: 3 }

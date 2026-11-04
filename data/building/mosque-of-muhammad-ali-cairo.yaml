@@ -1,0 +1,25 @@
+id: building/mosque-of-muhammad-ali-cairo
+class: building
+kind: mosque
+label: { ar: "جامع محمد علي بقلعة القاهرة", en: "Mosque of Muhammad Ali, Cairo Citadel", ur: "جامع محمد علی، قلعۂ قاہرہ" }
+summary:
+  ar: "جامع محمد علي باشا في القلعة (1830-1848م)، المعروف بجامع المرمر، على مثال الجامع الجديد بإسطنبول بزخرفة باروكية أوروبية، ويحكم عليه يومانز حكماً قاسياً {cite:yeomans-islamic-cairo-2006 p.238} {cite:yeomans-islamic-cairo-2006 p.239}."
+  en: "Muhammad Ali Pasha's mosque on the Citadel (1830-1848), the 'Alabaster Mosque', modelled on Istanbul's Yeni Cami with European baroque decoration, on which Yeomans passes a harsh judgement {cite:yeomans-islamic-cairo-2006 p.238} {cite:yeomans-islamic-cairo-2006 p.239}."
+wings: [objects, place]
+themes: [architecture, mosques]
+regions: [egypt-nile]
+periods: [period/modern-era]
+built: { edtf: "1830/1848", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 238: Muhammad Ali's mosque (1830-48); clock-tower 1845." }
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 237-239"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
+patron: person/muhammad-ali-pasha

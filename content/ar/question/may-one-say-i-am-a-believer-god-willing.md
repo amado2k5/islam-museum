@@ -3,7 +3,7 @@ id: question/may-one-say-i-am-a-believer-god-willing
 lang: ar
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/ibana-kubra-muti-iman pp. 136–139, 862–864" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/ibana-kubra-muti-iman pp. 136–139, 862–864; source/majmu-fatawa-wafa-v7 scan pp. 269–281" }
 ---
 ## موجز
 «الاستثناء في الإيمان» أن يقول المسلم عن نفسه: أنا مؤمن إن شاء الله. عقد له [[person/ibn-batta-al-ukbari-ubayd-allah|ابن بطة العكبري]] باباً في «[[work/ibana-al-kubra-ibn-batta|الإبانة الكبرى]]»، ويذكر محقق الكتاب أن للعلماء فيه ثلاثة أقوال. {cite:ibana-kubra-muti-iman p. 862}
@@ -14,6 +14,11 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-
 ## شرح المحقق
 يشرح المحقق في دراسته معاني الاستثناء عند من قال به: رد الأمر إلى مشيئة الله، وترك القطع بما لا يعلمه المرء من مستقبل عمله وقبوله، ورجاء الثبات، وترك تزكية النفس. ويرى أن ترك الاستثناء عند هؤلاء مرتبط بقول [[group/murjia|المرجئة]] الذين يخرجون العمل من الإيمان. {cite:ibana-kubra-muti-iman p. 137} {cite:ibana-kubra-muti-iman p. 138} وينقل عن ابن تيمية أن سلف أصحاب الحديث، كابن مسعود وابن عيينة وأحمد بن حنبل، كانوا يستثنون في الإيمان، وأن ذلك متواتر عنهم، وأنهم استثنوا لأن الإيمان يتضمن فعل الواجبات فلا يشهدون لأنفسهم به. {cite:ibana-kubra-muti-iman p. 139}
 
+## ابن تيمية في كتاب الإيمان
+يعرض [[person/ibn-taymiyya|ابن تيمية]] في [[work/kitab-al-iman-ibn-taymiyya|كتاب الإيمان]] الأقوال الثلاثة: من يوجب الاستثناء، ومن يحرمه، ومن يجيز الأمرين باعتبارين، ويرى الأخير أصحها. {cite:majmu-fatawa-wafa-v7 p. 269} وينسب التحريم إلى [[group/murjia|المرجئة]] و[[group/jahmiyya|الجهمية]] الذين يجعلون الإيمان شيئاً واحداً يعلمه الإنسان من نفسه كما يعلم أنه قرأ الفاتحة، فيرون المستثني شاكاً ويسمون أهل الاستثناء «الشكاكة». {cite:majmu-fatawa-wafa-v7 p. 269} {cite:majmu-fatawa-wafa-v7 p. 270} ويذكر للموجبين مأخذين: الأول أن الإيمان ما يوافي به العبد ربه عند الموت، وهو عنده مأخذ كثير من المتأخرين من الكلابية لم يقل به أحد من السلف، وقد طرده بعضهم حتى استثنوا في كل شيء؛ {cite:majmu-fatawa-wafa-v7 p. 270} {cite:majmu-fatawa-wafa-v7 p. 271} {cite:majmu-fatawa-wafa-v7 p. 273} والثاني أن الإيمان المطلق يتضمن فعل المأمورات كلها وترك المحرمات كلها، فمن شهد به لنفسه فقد زكاها وشهد لها بما لا يعلم، وهذا عنده مأخذ عامة السلف الذين كانوا يستثنون. {cite:majmu-fatawa-wafa-v7 p. 279}
+
+وينقل عن الخلال روايات عن [[person/ahmad-ibn-hanbal|أحمد]] أنه كان يكره سؤال الرجل غيره «أمؤمن أنت؟» ويعده بدعة أحدثها المرجئة ليحتجوا بها، وأنه يقول «نحن المسلمون»، ولا ينكر ترك الاستثناء على من لم يقصد قصد المرجئة؛ وعن [[person/sufyan-ibn-uyayna|سفيان بن عيينة]] أنه كان لا يجيب السائل ويقول: سؤالك إياي بدعة، ولا أشك في إيماني. ويخلص إلى أن أحمد وغيره من السلف كانوا يجزمون بما في القلب من الإيمان، ويجعلون الاستثناء عائداً إلى الإيمان المطلق المتضمن فعل المأمور. {cite:majmu-fatawa-wafa-v7 p. 281}
+
 :::perspectives
 **أهل السنة (حنبلي): ابن بطة في الإبانة.** يستثني المؤمن إشفاقاً وتركاً لتزكية النفس، لا شكاً في إيمانه. {cite:ibana-kubra-muti-iman p. 864}
 
@@ -22,6 +27,10 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-
 **قول المنع، كما يحكيه المحقق.** منعه قوم لأنه يقتضي الشك في الإيمان؛ ولا يسميهم المحقق في هذا الموضع. {cite:ibana-kubra-muti-iman p. 862}
 
 **قول الإيجاب، كما يحكيه المحقق.** أوجبه قوم وعدّوا من لم يستثن مبتدعاً. {cite:ibana-kubra-muti-iman p. 862}
+
+**أهل السنة (حنبلي): ابن تيمية في كتاب الإيمان.** يجوز الاستثناء وتركه باعتبارين: لا يُشك فيما في القلب من الإيمان، والاستثناء عائد إلى الإيمان المطلق المتضمن أداء الواجبات كلها؛ وتعليله بالموافاة مأخذ الكلابية لا السلف. {cite:majmu-fatawa-wafa-v7 p. 269} {cite:majmu-fatawa-wafa-v7 p. 279} {cite:majmu-fatawa-wafa-v7 p. 281}
+
+**المرجئة والجهمية، كما ينقلهم ابن تيمية.** يحرم الاستثناء لأن الإيمان تصديق يعلمه المرء من نفسه، فالمستثني شاك. {cite:majmu-fatawa-wafa-v7 p. 269} {cite:majmu-fatawa-wafa-v7 p. 270}
 :::
 
 ## ما لم يُذكر هنا

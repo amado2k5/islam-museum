@@ -21,3 +21,6 @@ Read: Mu'ti study pp. 1–4, 21–60, 136–139; text pp. 760–761, 862–864.
 
 ## Next
 Kitab al-Iman chapters on abandoning prayer (pp. 669ff.), signs of hypocrisy, increase/decrease (p. 831); the Hamdan edition for the Qadar chapters (pp. 860–872 there).
+
+## Second run (4 Nov 2026)
+- Duplicate resolved: `person/ibn-battah-al-ukbari` (Wikidata draft Q5984193, no prose, no inbound links) is now an `aliases` entry of `person/ibn-batta-al-ukbari-ubayd-allah`, which also takes its Wikidata id; the duplicate's data file deleted.

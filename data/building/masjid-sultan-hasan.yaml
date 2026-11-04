@@ -23,13 +23,17 @@ external_ids:
 sources:
 - source/khitat-maqrizi-1998
 - source/wikidata
+- source/yeomans-islamic-cairo-2006
 provenance:
   layer: own-research
   source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan p. 2111"
   generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
   model: claude-haiku-5-5
   run: showcase-prose-phase2-egypt-batch4
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 154-163"]
 status:
   review: published
   completeness: 3
   generated_by: "Claude Haiku 5.5; the start of the works (757 AH) and their scale are read from al-Maqrizi's Khitat (local scan, p. 2111). The earlier 1363 date came from Wikidata and is not confirmed locally; built now records the start of the works (1356 CE), and the completion date needs a source before it is restored"
+status_now: standing
+dimensions: "Qibla iwan 21 x 27 m, 26 m high; portal 37 m; main minaret 84 m; mausoleum 21 x 30 m (Yeomans pp. 157-161)"

@@ -11,11 +11,14 @@ died: { hijri: "0922-07-15", edtf: "1516-08-24~", calendar: julian, precision: d
 relations:
   - { type: ruler_of, target: place/cairo, note: "سلطان مصر والشام" }
   - { type: participated_in, target: event/ghuri-accession-906, role: "السلطان الجديد", sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi] }
+  - { type: built, target: building/madrasa-of-sultan-al-ghuri, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: built, target: building/wakala-of-al-ghuri, sources: [source/yeomans-islamic-cairo-2006] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد ص 518-531"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-73
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 229-232"]
 external_ids: { wikidata: "Q286337" }
-sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi]
+sources: [source/shadharat-dhahab, source/dawlat-uthmaniyya-salabi, source/yeomans-islamic-cairo-2006]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
