@@ -1,0 +1,28 @@
+id: work/al-sihah-jawhari
+class: work
+kind: book
+label: { ar: "الصحاح تاج اللغة وصحاح العربية", en: "al-Sihah (Taj al-Lugha wa-Sihah al-Arabiyya) of al-Jawhari", ur: "الصحاح تاج اللغۃ وصحاح العربیۃ (جوہری)" }
+summary:
+  ar: "معجم لغوي عربي لإسماعيل بن حماد الجوهري (ت نحو 393 أو 398هـ)، ألّفه بنيسابور لأبي منصور البيشكي، ورتّب مواده على أبواب بحسب الحرف الأخير من الأصل وفصول بحسب الحرف الأول، والتزم فيه ما صحّ عنده؛ وصار رأس «مدرسة القافية» التي سار عليها لسان العرب والقاموس المحيط وتاج العروس."
+  en: "An Arabic dictionary by Isma'il ibn Hammad al-Jawhari (d. c. 393 or 398 AH), compiled at Nishapur for Abu Mansur al-Bayshaki, which arranges its roots in chapters by their last radical and sections by their first, and admits only what its author held sound; it heads the 'rhyme school' of lexicography followed by Lisan al-Arab, al-Qamus al-Muhit and Taj al-Arus."
+  ur: "اسماعیل بن حماد جوہری (م تقریباً 393 یا 398ھ) کی عربی لغت، جو انہوں نے نیشاپور میں ابو منصور البیشکی کے لیے تالیف کی؛ اس کے مادے آخری حرف کے لحاظ سے ابواب اور پہلے حرف کے لحاظ سے فصول میں ہیں، اور اس میں صرف وہی لیا گیا جو مصنف کے نزدیک صحیح تھا؛ یہ «مدرسۂ قافیہ» کی سربراہ ہے جس پر لسان العرب، القاموس المحیط اور تاج العروس چلے۔"
+genre: [lexicon]
+authors: [person/al-jawhari-abu-nasr-ismail-ibn-hammad]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/sihah-attar-1979-scan-b] }
+relations:
+  - { type: influenced, target: work/lisan-al-arab, sources: [source/sihah-attar-1979-v1] }
+  - { type: influenced, target: work/al-qamus-al-muhit, sources: [source/sihah-attar-1979-v1] }
+  - { type: about, target: question/did-al-jawhari-originate-the-method-of-al-sihah, sources: [source/sihah-attar-1979-v1] }
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sources: [source/sihah-attar-1979-v1, source/sihah-attar-1979-scan-b, source/sihah-tamir-dar-al-hadith-2009]
+provenance:
+  layer: own-research
+  source: "source/sihah-attar-1979-v1 PDF pp. 1–2, 5–7, 9–13, 17–36; source/sihah-attar-1979-scan-b PDF pp. 5–8, 19–24; source/sihah-tamir-dar-al-hadith-2009 PDF pp. 1–4"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

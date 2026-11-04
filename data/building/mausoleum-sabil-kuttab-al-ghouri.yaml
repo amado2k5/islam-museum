@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q126914593
 provenance:
@@ -19,6 +19,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: wikidata-import-wave2
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 228-229"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1503/1505", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 229: madrasa and khanqah (1503/4); map p. 227: khanqah and mausoleum 1503-5." }
+patron: person/qansuh-al-ghawri
+status_now: standing

@@ -1,0 +1,29 @@
+id: person/mehmed-sureyya
+class: person
+label: { ar: "محمد ثريا بك", en: "Mehmed Süreyya Bey" }
+names:
+  - { kind: full, lang: tr, value: "Mehmed Süreyya Bey" }
+  - { kind: full, lang: ar, value: "محمد ثريا بك بن محمد حسني بك" }
+gender: male
+roles: [historian, writer]
+summary:
+  ar: "محمد ثريا بك (1845–1909م)، مؤرخ وموظف عثماني، صاحب «سجل عثماني» أوسع معجم لتراجم العثمانيين. وُلد بإسطنبول، وأبوه محمد حسني بك من موظفي الدولة، ودرس في رشدية دار المعارف وأخذ العربية والفارسية والفرنسية دروساً خاصة، وبدأ عمله في غرفة الترجمة بالباب العالي سنة 1279هـ، ثم صار عضواً في مجلس المعارف الكبير سنة 1304هـ، وتوفي في 12 يناير 1909م ودُفن في مقبرة قره جه أحمد {cite:sicill-i-osmani vol. 1 PDF p. 5-6}."
+  en: "Mehmed Süreyya Bey (1845–1909), Ottoman historian and official, author of the Sicill-i Osmani, the largest dictionary of Ottoman biography. Born in Istanbul to Mehmed Hüsnü Bey, a state official, he studied at the Darülmaarif rüşdiye school and took private lessons in Arabic, Persian and French, began service in the translation office of the Sublime Porte in 1279 AH, became a member of the Grand Council of Education in 1304 AH, and died on 12 January 1909, being buried in the Karacaahmet cemetery."
+born: { edtf: "1845", hijri: "1261~", calendar: gregorian, precision: year, status: historical, derived: true, note: "أكبايار: وُلد بإسطنبول سنة 1845 {cite:sicill-i-osmani vol. 1 PDF p. 5}؛ السنة الهجرية مشتقة تقريباً.", sources: [source/sicill-i-osmani] }
+died: { edtf: "1909-01-12", hijri: "1326-12-19", calendar: gregorian, precision: day, status: historical, derived: true, note: "أكبايار: توفي في 30 كانون الأول 1324 (رومي) = 12 يناير 1909 {cite:sicill-i-osmani vol. 1 PDF p. 6}؛ التاريخ الهجري مشتق.", sources: [source/sicill-i-osmani] }
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/modern-era]
+themes: [history-writing-and-social-thought]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/sicill-i-osmani] }
+  - { type: authored, target: work/sicill-i-osmani, sources: [source/sicill-i-osmani] }
+sources: [source/sicill-i-osmani]
+provenance:
+  layer: own-research
+  source: "sicill-i-osmani vol. 1 PDF pp. 5–9 (Nuri Akbayar's introduction)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: sicill-i-osmani vol. 1 PDF pp. 5–9"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

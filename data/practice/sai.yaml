@@ -22,11 +22,12 @@ relations:
 - type: based_on
   target: passage/quran-2-158
   sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3]
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/majmu-irshad-v8]
 provenance:
   layer: own-research
   source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
   generated_by: Devin (SWE-2 High), practices lane
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: madhhab section from majmu-irshad-v8 PDF pp. 108-109"
 status:
   review: draft
   completeness: 3

@@ -3,10 +3,10 @@ class: work
 kind: book
 label: { ar: "عمدة الأحكام", en: "Umdat al-Ahkam" }
 summary:
-  ar: "بطاقة أولية لعمدة الأحكام لعبد الغني المقدسي، جمعه أحاديث الأحكام؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Abd al-Ghani al-Maqdisi's Umdat al-ahkam, his collection of legal hadiths; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب عبد الغني المقدسي (ت 600هـ) «العمدة في الأحكام»، جمع فيه أحاديث الأحكام مما اتفق عليه البخاري ومسلم، في جزأين، وعدّه ابن رجب من تصانيفه التي بلا إسناد."
+  en: "Abd al-Ghani al-Maqdisi's (d. 600 AH) al-Umda fi al-Ahkam, a collection of legal hadith on which al-Bukhari and Muslim agree, in two parts; Ibn Rajab lists it among his works compiled without chains of transmission."
+wings: [words]
+sources: [source/al-aalam, source/dhayl-tabaqat-hanabila-faqi-v2]
 external_ids: { wikidata: "Q12228342" }
 provenance:
   layer: own-research
@@ -14,4 +14,5 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  harvest_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: summary checked on the page, dhayl-tabaqat-hanabila-faqi-v2 p. 19"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

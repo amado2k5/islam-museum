@@ -18,3 +18,9 @@
 - Checked against page images: p. 205 (Umar ibn Yazid al-Asadi, colic anecdote, confirmed) and p. 207 (the guest-satirist described as Haydar al-Araqt, confirmed).
 - New entry: person/umar-ibn-yazid-al-asadi (Arabic and English summaries).
 - Urdu added for the two new entries (label and summary). Still open: the rest of pp. 207-208 (the Haytham ibn Adi and Abu al-Aswad anecdotes on p. 207 are visible but not yet written up).
+
+## Worker G (ocr-harvest-2026-11-04): BULAC lithograph `bulac-mustatraf`
+- Item BULAC_RES_MON_8_62 (698 pages, md5 f1d43eb7): Cairo lithograph; OCR lines are character-reversed and were read by reversing them (noisy). Source: source/mustatraf-bulac-lithograph.
+- Pages read: 7-14 (chapter list, title page, author's preface), 200 and 400 (samples), 698 (colophon; year probably 1275 AH, units word damaged — needs_source).
+- Created work/al-mustatraf (ar/en/ur): preface, 84-chapter plan grouped by subject, the lithograph. No work record existed before.
+- Not done: chapter content from this copy (OCR too noisy for names without image checks). Next: re-OCR with correct RTL order, then mine chapters 34 (misers) and 75 (joking) against the earlier vol. 1 work.

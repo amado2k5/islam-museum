@@ -1,0 +1,25 @@
+id: building/sabil-kuttab-of-qaytbay-cairo
+class: building
+kind: other
+label: { ar: "سبيل وكتّاب قايتباي بشارع الصليبة", en: "Sabil-kuttab of Qaytbay, Saliba Street, Cairo", ur: "قایتبای کا سبیل کتاب، شارع صلیبہ، قاہرہ" }
+summary:
+  ar: "أول سبيل وكتّاب قائم بذاته في القاهرة، بناه السلطان قايتباي سنة 1479م في شارع الصليبة بين جامع ابن طولون والقلعة، بواجهات أبلقاء مطعّمة بالرخام والخزف {cite:yeomans-islamic-cairo-2006 p.224}."
+  en: "Cairo's first free-standing sabil-kuttab, built by Sultan Qaytbay in 1479 on Saliba street between the Mosque of Ibn Tulun and the Citadel, its façades of ablaq masonry inlaid with marble and ceramic {cite:yeomans-islamic-cairo-2006 p.224}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1479", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 224: built in 1479." }
+patron: person/qaytbay
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 224-225"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
