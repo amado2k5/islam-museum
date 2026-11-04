@@ -22,3 +22,9 @@ Doubt: the Ilmiyya volume's printing year is not legible; not recorded.
 
 ## Next
 Batch 2+: Companions in Kitab Ma'rifat al-Sahaba (Ilmiyya vol. 3 pp. 64-745) that the museum lacks or has thin — e.g. Sawad ibn Qarib (p. 704), Zayd ibn Sa'na (p. 700), Nubaysha al-Khayr (p. 524), Sa'd al-Qaraz (p. 703), Khuraym ibn Fatik (p. 720), Qubath ibn Ashyam (p. 724), Abu Kabsha (p. 265), Salman ibn 'Amir al-Dabbi (p. 706), 'Amr ibn 'Abasa (p. 714), Tha'laba ibn 'Anama (p. 256), Rukana (p. 511), Kharash ibn al-Simma (p. 482), Abu Marthad al-Ghanawi (p. 243), Hujr ibn 'Adi (p. 531), Ja'da ibn Hubayra (p. 210), al-Aswad ibn Sari' (p. 712), Khafaf ibn Ima' (p. 684), Abu Mahdhura (p. 588).
+
+## Batch 2 (Companions, Ilmiyya vol. 3 pp. 700-725)
+Read pp. 700-716, 720-721, 724-725. Hadith numbers are this edition's (e.g. 6547); the "3/605"-type markers in the text are the Hyderabad vol./page.
+- NEW (ar/en/ur): zayd-ibn-sana (pp. 700-701, with al-Dhahabi's rejection), safina-mawla-al-nabi (701-702), sad-al-qaraz (703-704), sawad-ibn-qarib (704-706; chain broken per al-Dhahabi), salman-ibn-amir-al-dabbi (706), amr-ibn-abasa (714-715), khuraym-ibn-fatik (720-721; jinn report "not sound" per al-Dhahabi), qubath-ibn-ashyam (724-725), sasaa-ibn-muawiya (711).
+- ENRICHED: al-aswad-ibn-sari (712), jariya-ibn-qudama (713), sasaa-ibn-najiya (707-708; 360 girls vs ~100 in al-Baladhuri noted), qays-ibn-asim (708-709, his will), amr-ibn-al-ahtam (710-711, "some eloquence is enchantment").
+- Poetry in the reports is described, not reproduced.

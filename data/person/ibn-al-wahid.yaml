@@ -1,0 +1,27 @@
+id: person/ibn-al-wahid
+class: person
+label: { ar: "ابن الوحيد (شرف الدين محمد بن شريف)", en: "Ibn al-Wahid (Sharaf al-Din Muhammad ibn Sharif)", ur: "ابن الوحید (شرف الدین محمد بن شریف)" }
+summary:
+  ar: "خطاط شامي من تلاميذ ياقوت في بغداد، انتقل إلى القاهرة فخدم بيبرس الجاشنكير وكتب له مصحفًا بالذهب في سبعة أجزاء (704–705هـ)، وتوفي سنة 1311م عن إحدى وستين سنة {cite:blair-islamic-calligraphy-2006 p. 386}."
+  en: "Syrian-born calligrapher, pupil of Yaqut at Baghdad, who moved to Cairo, served Baybars al-Jashankir and penned for him a seven-part Qur'an in gold (704–5/1304–6); he died in 1311 aged 61 {cite:blair-islamic-calligraphy-2006 p. 386}."
+  ur: "شام میں پیدا ہونے والے خطاط، بغداد میں یاقوت کے شاگرد، جو قاہرہ منتقل ہوئے، بیبرس الجاشنکیر کی خدمت کی اور ان کے لیے سونے سے سات جلدوں کا مصحف لکھا (704–705ھ/1304–6ء)؛ 1311ء میں اکسٹھ برس کی عمر میں وفات پائی {cite:blair-islamic-calligraphy-2006 p. 386}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [levant-iraq, egypt-nile]
+gender: male
+roles: [calligrapher, poet]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1311", calendar: julian, precision: year, status: historical, note: "Died in 1311 aged 61 {cite:blair-islamic-calligraphy-2006 p. 386}." }
+relations:
+  - { type: student_of, target: person/yaqut-al-mustasimi, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: patronized_by, target: person/baybars-al-jashankir, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: lived_in, target: place/cairo, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: made, target: object/baybars-al-jashankir-quran, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/blair-islamic-calligraphy-2006]
+provenance:
+  layer: own-research
+  source: "source/blair-islamic-calligraphy-2006 scan pp. 385, 386, 388, 389"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

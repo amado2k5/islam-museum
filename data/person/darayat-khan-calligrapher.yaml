@@ -1,0 +1,25 @@
+id: person/darayat-khan-calligrapher
+class: person
+label: { ar: "درايت خان (عبد الله)", en: "Darayat Khan (Abdallah), calligrapher", ur: "درایت خان (عبد اللہ)" }
+summary:
+  ar: "خطاط مغولي، ابن كفايت خان، تعلم الشكسته من أبيه ثم ابتكر طريقة خاصة سميت «درايت خاني»، واتفق أهل الفن على أنه فاق أباه {cite:salim-tarikh-khatt-o-khattatin-2001 p. 153}."
+  en: "Mughal calligrapher, son of Kifayat Khan, who learned shikasta from his father and then devised a manner of his own called 'Darayat Khani'; masters of the art agree that he surpassed his father {cite:salim-tarikh-khatt-o-khattatin-2001 p. 153}."
+  ur: "مغل خطاط، کفایت خان کے بیٹے، جنہوں نے شکستہ اپنے والد سے سیکھا اور پھر ایک خاص طرز ایجاد کی جسے «درایت خانی» کہتے ہیں؛ اساتذۂ فن متفق ہیں کہ وہ اپنے والد سے بڑھ گئے {cite:salim-tarikh-khatt-o-khattatin-2001 p. 153}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [calligrapher]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: child_of, target: person/kifayat-khan-calligrapher, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: student_of, target: person/kifayat-khan-calligrapher, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: exemplifies, target: concept/shikasta-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+sources: [source/salim-tarikh-khatt-o-khattatin-2001]
+provenance:
+  layer: own-research
+  source: "source/salim-tarikh-khatt-o-khattatin-2001 scan pp. 153"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

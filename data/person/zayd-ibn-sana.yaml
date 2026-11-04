@@ -1,0 +1,26 @@
+id: person/zayd-ibn-sana
+class: person
+label: { ar: "زيد بن سعنة", en: "Zayd ibn Sa'na", ur: "زید بن سعنہ" }
+names:
+  - { kind: full, lang: ar, value: "زيد بن سعنة الحبر" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "زيد بن سعنة، من أحبار يهود المدينة، يروي الحاكم بإسناده عن عبد الله بن سلام قصة إسلامه: اختبر حلم النبي بأن طالبه بدين قبل أجله بغلظة، فأمر النبي عمر أن يقضيه ويزيده، فأسلم وتصدق بشطر ماله؛ وفي الرواية أنه شهد مشاهد كثيرة وتوفي في غزوة تبوك. صححه الحاكم، وأنكره الذهبي {cite:mustadrak-ilmiyya-ata-v3 p. 700-701}."
+  en: "Zayd ibn Sa'na, one of the Jewish rabbis of Medina. Al-Hakim gives, through 'Abd Allah ibn Salam, the story of his conversion: he tested the Prophet's forbearance by roughly demanding a debt before it was due; the Prophet told 'Umar to repay him and add more, and Zayd accepted Islam and gave half his wealth in charity. The report says he took part in many campaigns and died on the Tabuk expedition. Al-Hakim declared it sound; al-Dhahabi rejected it {cite:mustadrak-ilmiyya-ata-v3 p. 700-701}."
+  ur: "زید بن سعنہ، مدینہ کے یہودی احبار میں سے۔ حاکم عبد اللہ بن سلام کے واسطے سے ان کے اسلام کا قصہ روایت کرتے ہیں: انہوں نے نبی کے حلم کو آزمانے کے لیے مدت سے پہلے سختی سے قرض کا مطالبہ کیا؛ نبی نے عمر کو حکم دیا کہ قرض ادا کریں اور زیادہ دیں، تو زید نے اسلام قبول کیا اور آدھا مال صدقہ کیا۔ روایت کے مطابق وہ کئی غزوات میں شریک ہوئے اور غزوہ تبوک میں وفات پائی۔ حاکم نے اسے صحیح کہا اور ذہبی نے اس کا انکار کیا {cite:mustadrak-ilmiyya-ata-v3 p. 700-701}۔"
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "في رواية المستدرك أنه توفي في غزوة تبوك مقبلاً غير مدبر، وأنكر الذهبي هذه اللفظة لأنه لم يكن في تبوك قتال {cite:mustadrak-ilmiyya-ata-v3 p. 700-701}؛ السنة مشتقة من تاريخ الغزوة.", sources: [source/mustadrak-ilmiyya-ata-v3] }
+relations:
+  - { type: participated_in, target: event/expedition-to-tabuk, note: "توفي فيها بحسب رواية المستدرك {cite:mustadrak-ilmiyya-ata-v3 p. 701}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+provenance:
+  layer: own-research
+  source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 700-701, hadith 6547 with al-Dhahabi's note"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
