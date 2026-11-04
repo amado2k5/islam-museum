@@ -205,3 +205,9 @@ Written: abd-al-wahid-ibn-al-muwaffaq, ismail-ibn-bulbul, al-dawlabi, ibn-aaisha
 Written: abdullah-ibn-hanzala, ghazala-al-kharijiyya, said-ibn-salih-al-hajib, muhammad-ibn-ali-al-jawad, abu-al-azhar-al-muhallabi, al-dayzan-ibn-muawiya, al-kumayt-ibn-zayd, al-ahmar-al-nahwi, atika-bint-yazid, jamil-ibn-kab-al-thalabi, yamut-ibn-al-muzarri, al-shari-abu-al-amud, bint-al-numan-ibn-bashir, al-shaybaniyya-bint-hani, umayr-ibn-dabi. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
 
 **Lane total: 338.** ~220 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.
+
+### Batch 29 (3 Nov 2026, 15 records, ar+en+ur) — Muruj cluster 3
+
+Written: kurush-al-malik, muhammad-ibn-abd-allah-ibn-tahir, amr-ibn-amir-muzayqiya, tawba-ibn-al-humayyir, sharraa-ibn-zayd, barukh-ibn-nariya, salih-ibn-muhammad-al-hariri, majnun-bani-amir, jamil-ibn-suhayb, muhriz-al-mudliji, musqala-ibn-utban, ad-ibn-aws, al-umani, ali-ibn-al-junayd-al-iskafi, khindif-bint-hilwan. cite-check 15/15; validate 0 errors; 317 tests; coverage regenerated.
+
+**Lane total: 353.** ~200 muruj cited thin rows remain; then tabari ~22, ansab 17, tabaqat 18.
