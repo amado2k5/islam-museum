@@ -3,7 +3,7 @@ id: question/did-the-prophet-indicate-abu-bakr-as-successor
 lang: ur
 source_lang: ar
 translators: ["Claude Code (OCR-harvest worker C), claude-opus-5-5, translation"]
-provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/minhaj-sunna-salim-v8 pp. 575–578; source/minhaj-sunna-shamela pp. 62, 92, 2376, 2529–2538" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/minhaj-sunna-salim-v8 pp. 575–578; source/minhaj-sunna-shamela pp. 62, 92, 2376, 2529–2538; source/sunna-ibn-abi-asim-albani-1400 pp. 545–550" }
 ---
 ## خلاصہ
 [[person/al-allama-al-hilli|ابن المطہر حلی]] اور [[person/ibn-taymiyya|ابن تیمیہ]] کے درمیان [[person/abu-bakr|ابو بکر]] کی خلافت پر اختلاف ہے۔ حلی ابو بکر، عمر اور عثمان کی خلافت کے ابطال میں ایک فصل باندھتے ہیں، جبکہ ابن تیمیہ کی رائے ہے کہ نبی نے امت کی رہنمائی ابو بکر کی خلافت کی طرف کی اور اس کی نشان دہی کی۔ {cite:minhaj-sunna-shamela p. 62} {cite:minhaj-sunna-salim-v8 p. 575}
@@ -18,8 +18,13 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-
 
 وہ نبی کے ابو بکر کو نماز میں آگے کرنے سے بھی استدلال کرتے ہیں۔ ایک واقعہ آپ کی صحت کے زمانے کا ہے: آپ قبا میں بنو عمرو بن عوف کے پاس صلح کرانے گئے، ابو بکر نے لوگوں کو عصر کی نماز پڑھائی، اور جب آپ آئے تو انہیں اپنی جگہ ٹھہرنے کا اشارہ کیا، مگر ابو بکر ادب سے پیچھے ہٹ گئے۔ دوسرا واقعہ آخری بیماری کا ہے، جب آپ نے فرمایا: ابو بکر سے کہو کہ لوگوں کو نماز پڑھائیں۔ {cite:minhaj-sunna-salim-v8 p. 576} {cite:minhaj-sunna-salim-v8 p. 578} {cite:minhaj-sunna-shamela p. 2530} وہ اس کا موازنہ اس واقعے سے کرتے ہیں جب غزوۂ تبوک میں نبی کے آنے میں دیر ہوئی تو صحابہ نے فجر کی نماز کے لیے [[person/abd-al-rahman-ibn-awf|عبد الرحمن بن عوف]] کو آگے کیا۔ {cite:minhaj-sunna-salim-v8 p. 578} دیکھیے [[event/abu-bakr-leads-the-prayers|ابو بکر کا نماز پڑھانا]]۔
 
+## ابن ابی عاصم کی کتاب السنہ کی روایات
+ابن ابی عاصم کی [[work/kitab-al-sunna-ibn-abi-asim|کتاب السنہ]] میں ایک باب «ابو بکر کی خلافت اور اس پر دلالت کرنے والی باتیں» ہے، اور ساتھ البانی کی اسانید پر حکم۔ {cite:sunna-ibn-abi-asim-albani-1400 p. 546} باب انس کی ایک روایت سے شروع ہوتا ہے کہ نبی نے انہیں حکم دیا کہ ابو بکر کو جنت اور اپنے بعد خلافت کی بشارت دیں؛ البانی اسے موضوع قرار دیتے ہیں، جس کی آفت راوی السفر بن عبد الرحمن ہے جسے ائمۂ جرح نے کذاب کہا۔ {cite:sunna-ibn-abi-asim-albani-1400 p. 546} باب کی جن روایات کی سند البانی قبول کرتے ہیں ان میں جبیر بن مطعم کی حدیث ہے کہ نبی نے ایک عورت سے فرمایا: «اگر مجھے نہ پاؤ تو ابو بکر کے پاس آنا» (اسناد حسن صحیح)؛ {cite:sunna-ibn-abi-asim-albani-1400 p. 547} اور عائشہ کی حدیث کہ نبی نے اپنی بیماری میں فرمایا: «کیا میں ابنِ ابی قحافہ اور ان کے بیٹے کو نہ بلا لوں تاکہ اس معاملے میں کوئی طمع نہ کرے؟» (صحیح)۔ {cite:sunna-ibn-abi-asim-albani-1400 p. 549} {cite:sunna-ibn-abi-asim-albani-1400 p. 550} باب سے ذرا پہلے حذیفہ کی حدیث ہے: «میرے بعد ان دونوں کی پیروی کرنا»، اور ابو بکر و عمر کی طرف اشارہ کیا؛ البانی اسے شواہد کے ساتھ صحیح کہتے ہیں۔ {cite:sunna-ibn-abi-asim-albani-1400 p. 545}
+
 :::perspectives
 **اہل السنۃ (حنبلی): ابن تیمیہ، منہاج السنہ میں۔** نبی نے کسی تحریری عہد کے بغیر، روایات کے ذریعے اور نماز میں آگے کر کے، ابو بکر کی خلافت کی طرف رہنمائی اور نشان دہی کی، اور امت نے انہیں اس لیے چنا کہ وہ انہیں سب سے زیادہ حق دار جانتی تھی۔ {cite:minhaj-sunna-salim-v8 p. 575}
+
+**اہل السنہ (محدثین): ابن ابی عاصم، البانی کی تخریج کے ساتھ۔** ابو بکر کی خلافت کے باب میں اس پر دلالت کرنے والی روایات ہیں، جن میں «اگر مجھے نہ پاؤ تو ابو بکر کے پاس آنا» اور «کیا میں ابنِ ابی قحافہ اور ان کے بیٹے کو نہ بلا لوں» شامل ہیں؛ البانی خلافت کی بشارت والی روایت کو موضوع قرار دیتے ہیں۔ {cite:sunna-ibn-abi-asim-albani-1400 p. 546} {cite:sunna-ibn-abi-asim-albani-1400 p. 547} {cite:sunna-ibn-abi-asim-albani-1400 p. 549}
 
 **امامیہ: ابن المطہر حلی، جیسا کہ ابن تیمیہ نے نقل کیا۔** نص علی کے لیے تھی۔ ابو بکر، عمر اور عثمان کی خلافت باطل تھی، اور علی سے پہلے والے امام نہیں تھے۔ {cite:minhaj-sunna-shamela p. 62} {cite:minhaj-sunna-shamela p. 2376}
 :::

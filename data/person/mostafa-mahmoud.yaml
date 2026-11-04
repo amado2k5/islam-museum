@@ -27,6 +27,11 @@ relations:
   - { type: authored, target: work/muhammad-muhawala-li-fahm-al-sira, sources: [source/mm-muhammad-maarif-ed5] }
   - { type: authored, target: work/raaytu-allah, sources: [source/mm-raaytu-allah-maarif-1976] }
   - { type: authored, target: work/al-ruh-wal-jasad, sources: [source/mm-ruh-wal-jasad-maarif-ed7] }
+  - { type: authored, target: work/lughz-al-hayat, sources: [source/mm-lughz-al-hayat-awda-1986] }
+  - { type: authored, target: work/al-quran-kain-hayy, sources: [source/mm-quran-kain-hayy-maarif-1993] }
+  - { type: authored, target: work/al-islam-fi-khandaq, sources: [source/mm-islam-fi-khandaq-akhbar-1994] }
+  - { type: authored, target: work/al-insan-wal-zill, sources: [source/mm-insan-wal-zill-maarif-ed2] }
+  - { type: authored, target: work/anashid-al-ithm-wal-baraa, sources: [source/mm-anashid-al-ithm-maarif-ed2] }
   - { type: lived_in, target: place/misr, sources: [source/mm-allah-wal-insan-1957] }
 provenance:
   layer: own-research
@@ -34,5 +39,5 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/mm-allah-wal-insan-1957, source/mm-rihla-min-al-shakk-maarif, source/mm-quran-muhawala-digital, source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986, source/mm-lughz-al-mawt-awda-1972, source/mm-muhammad-maarif-ed5, source/mm-raaytu-allah-maarif-1976, source/mm-ruh-wal-jasad-maarif-ed7]
+sources: [source/mm-allah-wal-insan-1957, source/mm-rihla-min-al-shakk-maarif, source/mm-quran-muhawala-digital, source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986, source/mm-lughz-al-mawt-awda-1972, source/mm-muhammad-maarif-ed5, source/mm-raaytu-allah-maarif-1976, source/mm-ruh-wal-jasad-maarif-ed7, source/mm-lughz-al-hayat-awda-1986, source/mm-quran-kain-hayy-maarif-1993, source/mm-islam-fi-khandaq-akhbar-1994, source/mm-insan-wal-zill-maarif-ed2, source/mm-anashid-al-ithm-maarif-ed2]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

@@ -1,0 +1,22 @@
+id: work/muzil-al-khafa-an-alfaz-al-shifa
+class: work
+kind: book
+label: { ar: "مزيل الخفاء عن ألفاظ الشفاء", en: "Muzil al-Khafa' an Alfaz al-Shifa'", ur: "مزیل الخفاء عن الفاظ الشفاء" }
+summary:
+  ar: "حاشية لطيفة لأحمد بن محمد الشمني (ت 872هـ) على «الشفا» للقاضي عياض، يضبط فيها ألفاظه ويفسر غريبه ويحل مشكله، لخّصها من شرح البرهان الحلبي وزاد عليها، وفرغ منها في العشر الأخير من ذي القعدة سنة 847هـ؛ وتُطبع في ذيل صفحات الشفا."
+  en: "A short gloss by Ahmad ibn Muhammad al-Shumunni (d. 872 AH) on Qadi Iyad's al-Shifa, fixing the reading of its words, explaining rare terms and resolving difficulties; abridged from Burhan al-Halabi's commentary with additions and finished in the last ten days of Dhu al-Qa'da 847 AH. It is printed at the foot of the pages of al-Shifa."
+language: language/arabic
+authors: [person/al-shamunni]
+genre: [commentary]
+made: { by_muslims: true, basis: documented, sources: [source/al-shifa-ilmiyya-shumunni] }
+composed: { edtf: "1444", hijri: "0847-11", calendar: julian, precision: year, status: historical, derived: true, note: "«تم... في العشر الأخير من ذي القعدة سنة سبع وأربعين وثمانمائة»؛ التحويل مشتق {cite:al-shifa-ilmiyya-shumunni p.696}", sources: [source/al-shifa-ilmiyya-shumunni] }
+editions: [source/al-shifa-ilmiyya-shumunni]
+wings: [words]
+themes: [prophets]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+relations:
+  - { type: commentary_on, target: work/al-shifa-bi-tarif-huquq-al-mustafa, sources: [source/al-shifa-ilmiyya-shumunni] }
+provenance: { layer: own-research, source: "source/al-shifa-ilmiyya-shumunni pp. 2, 6, 8, 10, 269, 690, 695–696", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/al-shifa-ilmiyya-shumunni]
+status: { review: published, completeness: 3 }
