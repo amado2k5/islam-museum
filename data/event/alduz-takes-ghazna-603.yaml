@@ -15,9 +15,12 @@ relations:
   - { type: occurred_at, target: place/ghazna, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/taj-al-din-yildiz, role: "المالك", sources: [source/kamil-ibn-al-athir] }
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-kamil-v12-batch05
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch4
 sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+status:
+  review: published
+  completeness: 3
