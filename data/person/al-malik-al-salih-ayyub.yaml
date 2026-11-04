@@ -6,12 +6,13 @@ education:
     ur: "ملک صالح ایوب، مصر کا ایوبی سلطان، نے 639ھ میں دو قصروں کے درمیان مدرسہ اور جزیرہ روضہ کا قلعہ بنایا؛ نصف شعبان کی رات فوت ہوا۔"
     sources: [source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim]
 class: person
-label: { ar: "الملك الصالح نجم الدين أيوب بن الكامل", en: "al-Malik al-Salih Najm al-Din Ayyub ibn al-Kamil" }
+label: { ar: "الملك الصالح نجم الدين أيوب بن الكامل", en: "al-Malik al-Salih Najm al-Din Ayyub ibn al-Kamil" , ur: "ملک صالح نجم الدین ایوب"}
 born: { edtf: "1206", hijri: "0603", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة ثلاث وستمائة بالقاهرة {cite:shadharat-dhahab p. 246}." }
 died: { edtf: "1249-11", hijri: "0647-08-15", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة نصف شعبان سنة سبع وأربعين وكتم موته أياماً حتى قدم ولده توران شاه {cite:tarikh-khulafa-minhaj-1434 p. 705,709}. والمقريزي يذكر أنه مات يوم الأحد رابع عشر شعبان {cite:khitat-maqrizi-1998 p.1912}.", sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab] }
 summary:
   ar: "سلطان أيوبي بمصر، تملكها بعد أخيه العادل قلامة لما خلع، وبنى المدرسة التي بين القصرين والقلعة التي بالروضة سنة تسع وثلاثين ثم أخرب غلمانه القلعة سنة إحدى وخمسين، ومات ليلة نصف شعبان سنة سبع وأربعين والفرنج أخذوا دمياط فأخفت جاريته شجر الدر موته {cite:tarikh-khulafa-minhaj-1434 p. 705,709}. وكان على المنصورة لما ملك الفرنج دمياط سنة سبع وأربعين فغضب على أهلها لتركهم إياها حتى شنق ستين نفساً من أعيانهم ومات ليلة نصف شعبان وكتم موته أياماً حتى قدم ولده الملك المعظم توران شاه، وكان مولده سنة ثلاث وست مئة بالقاهرة وسلطنه أبوه على آمد وحران وسنجار وحصن كيفا وكان وافر الحرمة عظيم الهيبة طاهر الذيل خليقاً للملك ظاهر الجبروت {cite:shadharat-dhahab p. 246}."
   en: "Ayyubid sultan of Egypt, builder of the madrasa between the palaces and the Rawda citadel; he died mid-Sha'ban 647 as the Franks took Damietta, Shajar al-Durr hiding his death {cite:tarikh-khulafa-minhaj-1434 p. 705,709}."
+  ur: "مصر کے ایوبی سلطان، جنہوں نے مدرسہ اور روضہ کا قلعہ تعمیر کیا؛ دمیاط پر فرنگیوں کے قبضے کے زمانے میں وفات پائی اور شجر الدر نے ان کی وفات پوشیدہ رکھی۔ {cite:khitat-maqrizi-1998}"
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
@@ -21,6 +22,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: claude-haiku-5-5
   run: lib-tarikh-khulafa-batch-45, showcase-prose-phase2-egypt-batch6
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
 relations:
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "المعتقل بالكرك ثم المتملك لمصر", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/al-malik-al-kamil, sources: [source/shadharat-dhahab] }

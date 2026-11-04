@@ -1,9 +1,10 @@
 id: person/al-nasir-yusuf
 class: person
-label: { ar: "الناصر صاحب دمشق", en: "al-Nasir, lord of Damascus" }
+label: { ar: "الناصر صاحب دمشق", en: "al-Nasir, lord of Damascus" , ur: "ناصر یوسف صاحب دمشق"}
 summary:
   ar: "صاحب دمشق، أرسل إليه هولاكو بعد أخذ بغداد ثلاثة كتب مهددة فيها أجب ملك البسيطة ولا تقولن قلاعي المانعات ورجالي المقاتلات ونحن إليكم صائرون ولكم الهرب وعلينا الطلب {cite:tarikh-khulafa-minhaj-1434 p. 718-719}."
   en: "Damascus's lord, to whom Hulagu sent the three dread letters after Baghdad's fall {cite:tarikh-khulafa-minhaj-1434 p. 718-719}. Salah al-Din Yusuf b. al-Aziz Muhammad b. al-Zahir Ghazi b. Salah al-Din — born 627, raised to Aleppo's throne at seven (634) while Shams al-Din Lu'lu' and his grandmother Safiyya bint al-Adil governed; he took Damascus without battle in 648 and held it ten years. When Aleppo fell he fled toward Gaza, was taken under aman into Hulagu's service for months, then killed with his brother al-Zahir Ghazi before the khan — his obituary falling under year 660 {cite:shadharat-dhahab p. 298-299, 307-308}."
+  ur: "ایوبی حکمران، جنہوں نے پہلے حلب اور پھر دمشق پر حکومت کی؛ بغداد کی تباہی کے بعد ہلاکو کے خطوط موصول ہوئے اور بعد میں مغلوں کے ہاتھوں قتل ہوئے۔ {cite:shadharat-dhahab}"
 born: { edtf: "1230", hijri: "0627", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وعشرين وستمائة {cite:shadharat-dhahab p. 307}." }
 died: { edtf: "1261~", hijri: "0659~", calendar: julian, precision: year, status: debated, derived: true, note: "قتل مع أخيه الملك الظاهر غازي بين يدي هلاكو بعد أخذه بالأمان؛ ترجمته في أموات سنة ستين وستمائة {cite:shadharat-dhahab p. 298-299, 306-307}." }
 gender: male
@@ -14,6 +15,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-46
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  model: "unknown"
 relations:
   - { type: ruler_of, target: place/aleppo, sources: [source/shadharat-dhahab] }
   - { type: ruler_of, target: place/damascus, sources: [source/shadharat-dhahab] }

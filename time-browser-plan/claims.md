@@ -548,3 +548,24 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-04 | person/al-tai-billah | copilot | claimed
 2026-11-04 | person/asma-bint-umays | copilot | claimed
 2026-11-04 | person/charles-v | copilot | claimed
+
+2026-11-04 | person/hafsa | copilot | claimed
+2026-11-04 | person/ikrima-ibn-abi-jahl | copilot | claimed
+2026-11-04 | person/mahmud-ghaznawi | copilot | claimed
+2026-11-04 | person/musa-ibn-bugha | copilot | claimed
+2026-11-04 | person/negus-of-aksum | copilot | claimed
+2026-11-04 | person/saad-ibn-abi-waqqas | copilot | claimed
+2026-11-04 | person/said-ibn-al-as | copilot | claimed
+2026-11-04 | person/suhayl-ibn-amr | copilot | claimed
+2026-11-04 | person/mustafa-kemal-ataturk | copilot | claimed
+2026-11-04 | person/zayd-ibn-thabit | copilot | claimed
+2026-11-04 | person/abd-al-rahman-iii-al-nasir | copilot | claimed
+2026-11-04 | person/abu-hurayra | copilot | claimed
+2026-11-04 | person/abu-lahab | copilot | claimed
+2026-11-04 | person/al-malik-al-nasir-salah-al-din-dawud | copilot | claimed
+2026-11-04 | person/al-malik-al-salih-ayyub | copilot | claimed
+2026-11-04 | person/al-malik-al-salih-ismail | copilot | claimed
+2026-11-04 | person/al-miqdad-ibn-amr | copilot | claimed
+2026-11-04 | person/al-muqtadi-billah | copilot | claimed
+2026-11-04 | person/al-mustansir-hafsi | copilot | claimed
+2026-11-04 | person/al-nasir-yusuf | copilot | claimed
