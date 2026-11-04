@@ -379,3 +379,12 @@ Promoted: al-thamanini-abu-al-qasim-umar-ibn-thabit, al-thaqafi-al-jayyani-muham
 Promoted: burtuqiz-yusuf-ibn-muhammad, dawud-al-antaki, erzurumi-ibrahim-haqqi, faraj-ibn-qasim-ibn-lubb, hafs-abu-umar-ibn-sulayman, hamdan-khoja, hammad-ibn-zayd, hibat-allah-ibn-al-akfani, hululu-al-qarawi, husayn-ibn-abd-al-rahman-al-ahdal, husayn-ibn-abd-allah-basalama, husayn-ibn-abi-al-abbas-al-ajdabi, husayn-ibn-siddiq-al-ahdal, ibn-abi-al-ahwas-al-husayn, ibn-abi-al-isba-zaki-al-din, ibn-abi-bakkar-al-zubayr-abu-ubayd-allah, ibn-abi-muqbil-tamim, ibn-abi-usama-al-harith, ibn-abi-usaybia-ahmad, ibn-adham-ibrahim, ibn-ajrum-muhammad, ibn-akhi-rabi-al-sabbagh-abd-allah-al-kalabi, ibn-al-abbar-muhammad, ibn-al-abrash-khalaf, ibn-al-ahmar-ismail-ibn-yusuf.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1010.** mawsuat-a3lam ~163 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 57 (4 Nov 2026, 24 records) — mawsuat-a3lam draft promotions 11 (sweep worker)
+
+Promoted: ibn-al-ajdabi-ibrahim, ibn-al-akhram-muhammad-ibn-yaqub, ibn-al-amshati-mahmud-ibn-ahmad, ibn-al-arabi-ahmad, ibn-al-arabi-muhammad, ibn-al-athir-al-jazri, ibn-al-athir-imad-al-din, ibn-al-athir-izz-al-din, ibn-al-athir-najm-al-din, ibn-al-baddhukh-umar, ibn-al-baghil-abu-jafar-ahmad-ibn-qasim, ibn-al-banna-al-marrakushi, ibn-al-barraj-abd-al-aziz, ibn-al-bitar-abu-muhammad-abd-allah-ibn-ahmad, ibn-al-bitr-abu-al-khattab-nasr-ibn-ahmad, ibn-al-hashsha-abu-jafar-ahmad-ibn-muhammad, ibn-al-himsi-ahmad-ibn-muhammad, ibn-al-jabbab-abu-amr-ahmad-ibn-khalid, ibn-al-jazari-muhammad-ibn-ibrahim, ibn-al-jazzar-ahmad, ibn-al-ju-an-abu-al-baqa-muhammad-ibn-yahya, ibn-al-khalkhali-shams-al-din-muhammad-ibn-muzaffar, ibn-al-khashshab-abd-allah, ibn-al-khurasani-abu-al-izz-muhammad-ibn-muhammad.cite-check 24/24; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+ibn-al-athir-diya-al-din	REJECT: en: boilerplate /not yet checked/i
+
+**Lane total: 1034.** mawsuat-a3lam ~138 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
