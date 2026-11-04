@@ -16,6 +16,23 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 120).
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 119).
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 118).
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 117).
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 116).
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 115).
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 114).
+- **Fixed: two harvest records with repeated keys**: the records of al-Qastallani and Queen Arwa al-Sulayhi each carried a key twice after a merge (a second provenance run and a second periods line), which the build's YAML parser rejects; the repeats are removed.
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 113).
+- **Library harvest from the OCR'd books** (batch 8): 82 records written or enriched with full Arabic, English and Urdu prose from 14 books on the harvest drive (adwa-bayan, ajaib-athar-jabarti, dhayl-tabaqat-hanabila, istidhkar, kitab-sunnah-abdullah-ahmad, kitab-tawhid-ibn-khuzayma, mustadrak-hakim, newcomb-tiles, sahabiyyat-mawsua, siyar-nisa, subh-asha, tafsir-tabari…); new records: 24 source, 12 person, 8 work, 6 question, 4 concept, 3 building, 1 event, 1 group, 1 place; 48 existing records enriched. Every fact cites the book's edition and page.
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 112).
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 111).
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 110).
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 109).
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 108).
+- **Library harvest from the OCR'd books** (batch 7): 155 records written or enriched with full Arabic, English and Urdu prose from 19 books on the harvest drive (1978-pdf3176, brookes-gardens, deccani-paintings-1983, futuh-sham, irshad-fuhul, kitab-sunnah-ibn-abi-asim, kitab-sunnah-khallal, mostafa-mahmoud, nihayat-al-arab, nukhbat-fikar, rezavi, sawaiq-mursala…); new records: 37 source, 28 person, 27 work, 19 concept, 11 building, 9 question, 4 object, 3 event, 2 place, 2 practice, 1 group; 53 existing records enriched. Every fact cites the book's edition and page.
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 107).
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 106).
 - **Library harvest from the OCR'd books** (batch 6): 83 records written or enriched with full Arabic, English and Urdu prose from 8 books on the harvest drive (1165pdf2229, asma-ul-husna-ibn-qayyim-jala, burhan-zarkashi, daraa-taarud, how-to-read-islamic-calligraphy-by-maryam-d-ekhtiar, mostafa-mahmoud, sunan-abi-dawud, tafsir-baghawi); new records: 21 source, 20 concept, 15 work, 10 question, 7 person, 5 building, 3 object, 1 practice; 23 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 105).

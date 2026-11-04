@@ -1,0 +1,30 @@
+id: person/muhammad-al-amin-al-shinqiti-al-jakani
+class: person
+label: { ar: "محمد الأمين بن محمد المختار الجكني الشنقيطي", en: "Muhammad al-Amin ibn Muhammad al-Mukhtar al-Jakani al-Shinqiti", ur: "محمد الامین بن محمد المختار الجکنی الشنقیطی" }
+names:
+  - { kind: full, lang: ar, value: "محمد الأمين بن محمد المختار بن عبد القادر بن محمد بن أحمد نوح الجكني الشنقيطي ثم المدني" }
+gender: male
+roles: [mufassir, scholar, teacher, judge]
+traditions: [sunni]
+summary:
+  ar: "مفسر وأصولي موريتاني (1325–1393هـ) من قبيلة الجكنيين، صاحب «أضواء البيان». ولد عند ماء «تنبه» من أعمال كيفا، ونشأ يتيمًا في بيت أخواله، وحفظ القرآن في العاشرة، ودرس الفقه المالكي والعربية والأصول، وتولى في بلاده التدريس والفتيا والقضاء؛ ثم خرج حاجًّا سنة 1367هـ واستقر بالمدينة، ودرّس التفسير في المسجد النبوي، ثم في معاهد الرياض وكلياتها، ثم في الجامعة الإسلامية بالمدينة منذ 1381هـ. توفي بمكة ضحى الخميس 17 ذي الحجة 1393هـ، ودفن بالمعلاة."
+  en: "Mauritanian exegete and legal theorist (1325–1393 AH) of the Jakani tribe, author of Adwa' al-Bayan. Born at the water called Tanba in the district of Kiffa, he grew up an orphan in his maternal uncles' household, memorised the Qur'an at ten, studied Maliki law, Arabic and legal theory, and taught, gave fatwas and judged at home; he left for the hajj in 1367 AH and settled in Medina, teaching tafsir in the Prophet's Mosque, then in the institutes and colleges of Riyadh, then at the Islamic University of Medina from 1381 AH. He died in Mecca on the morning of Thursday 17 Dhu al-Hijja 1393 AH and was buried at al-Ma'la."
+  ur: "موریتانیہ کے مفسر اور اصولی (1325–1393ھ)، قبیلۂ جکنیین سے، «اضواء البیان» کے مصنف۔ کیفا کے علاقے میں «تنبہ» نامی چشمے پر پیدا ہوئے، یتیمی میں اپنے ماموؤں کے گھر پلے، دس برس کی عمر میں قرآن حفظ کیا، مالکی فقہ، عربی اور اصول پڑھے، اور اپنے وطن میں تدریس، افتا اور قضا انجام دی؛ 1367ھ میں حج کو نکلے اور مدینہ میں بس گئے، مسجدِ نبوی میں تفسیر پڑھائی، پھر ریاض کے معاہد و کلیات میں، پھر 1381ھ سے مدینہ کی جامعہ اسلامیہ میں۔ جمعرات 17 ذی الحجہ 1393ھ کی چاشت کو مکہ میں وفات پائی اور معلاۃ میں دفن ہوئے۔"
+born: { hijri: "1325", edtf: "1907/1908", calendar: gregorian, precision: year, status: historical, derived: true, note: "«وُلد الشيخ سنة 1325 عند ماء يسمى تنبه من أعمال كيفا من موريتانيا» {cite:athar-shinqiti-adwa-ataat-2019-v1 p.19}؛ ويقول المشرف «المولود سنة 1325 على الأرجح» {cite:athar-shinqiti-adwa-ataat-2019-v1 p.7}؛ التحويل مشتق.", sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+died: { hijri: "1393-12-17", edtf: "1974-01", calendar: gregorian, precision: month, status: historical, derived: true, note: "توفي ضحى يوم الخميس السابع عشر من ذي الحجة 1393هـ في منزله بمكة، وصلى عليه عبد العزيز بن باز، ودفن بالمعلاة {cite:athar-shinqiti-adwa-ataat-2019-v1 p.39}؛ التحويل الجدولي يقع في يناير 1974 والدقة شهرية لأن الجدول لا يطابق يوم الخميس.", sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+  - { type: lived_in, target: place/medina, sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+  - { type: authored, target: work/adwa-al-bayan, sources: [source/athar-shinqiti-adwa-ataat-2019-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/contemporary-era]
+regions: [maghreb, arabia]
+sources: [source/athar-shinqiti-adwa-ataat-2019-v1]
+provenance:
+  layer: own-research
+  source: "source/athar-shinqiti-adwa-ataat-2019-v1 PDF pp. 7, 12, 19–39"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

@@ -1,27 +1,37 @@
 id: person/ibn-miskawayh
 class: person
 label:
-  ar: "ابن مسكويه"
-  en: "Ibn Miskawayh"
+  ar: "مسكويه"
+  en: "Miskawayh"
+  ur: "مسکویہ"
 names:
-  - { kind: full, lang: ar, value: "أحمد بن محمد بن يعقوب مسكويه الرازي" }
+  - { kind: full, lang: ar, value: "أبو علي أحمد بن محمد بن يعقوب مسكويه الرازي" }
+  - { kind: alternate, lang: ar, value: "ابن مسكويه" }
 roles: [philosopher, historian, writer]
 gender: male
+born: { hijri: "0320", edtf: "0932", calendar: julian, precision: year, status: debated, derived: true, note: "يرجّح المحقق أبو القاسم إمامي سنة 320هـ «على الأقوى»، وقدّره مرجليوث مؤقتاً بسنة 330هـ «أو أسبق بقليل»، وعزت بسنة 325هـ، وبدوي بسنة 320هـ (تجارب الأمم 1/11).", sources: [source/tajarib-al-umam-surush-v1] }
+died: { hijri: "0421-02-09", edtf: "1030-02-16", calendar: julian, precision: day, status: historical, derived: true, note: "التاسع من صفر سنة 421هـ على ما ذكره ياقوت نقلاً عن يحيى بن منده (تجارب الأمم 1/11)؛ التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v1] }
 summary:
-  ar: "بطاقة أولية لابن مسكويه الرازي، الفيلسوف المؤرخ صاحب تجارب الأمم وتهذيب الأخلاق، ورد في وصف مرجعي مفتوح (ويكي البيانات). لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Ibn Miskawayh al-Razi, the philosopher-historian of Tajarib al-Umam and Tahdhib al-Akhlaq, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
-wings: [people]
+  ar: "أبو علي أحمد بن محمد مسكويه الرازي، فيلسوف الأخلاق والمؤرخ صاحب «تجارب الأمم» و«تهذيب الأخلاق»، عاش من نحو سنة 320هـ إلى التاسع من صفر سنة 421هـ، ونادم الوزير المهلبي، وكان خازن كتب ابن العميد سبع سنين وخازناً لعضد الدولة، ولُقّب بالخازن والنديم والمعلم الثالث {cite:tajarib-al-umam-surush-v1 p.11} {cite:tajarib-al-umam-surush-v1 p.12} {cite:tajarib-al-umam-surush-v1 p.19} {cite:tajarib-al-umam-surush-v1 p.32}. ويرجّح محقق تجارب الأمم أن «مسكويه» لقبه هو لا لقب أبيه {cite:tajarib-al-umam-surush-v1 p.15}."
+  en: "Abu Ali Ahmad ibn Muhammad Miskawayh al-Razi, moral philosopher and historian, author of Tajarib al-umam and Tahdhib al-akhlaq; he lived from about 320 AH to 9 Safar 421 AH, was boon companion of the vizier al-Muhallabi, librarian to Ibn al-Amid for seven years and to Adud al-Dawla, and was called al-Khazin (the librarian), al-Nadim (the companion) and 'the Third Teacher'. The editor of Tajarib al-umam argues that 'Miskawayh' was his own byname, not his father's."
+wings: [people, ideas]
+themes: [history-writing-and-social-thought, philosophy-and-logic, ethics-and-character, libraries-paper-and-the-book]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+relations:
+  - { type: authored, target: work/tajarib-al-umam, sources: [source/tajarib-al-umam-surush-v1] }
+  - { type: related_to, target: person/al-muhallabi-al-wazir, sources: [source/tajarib-al-umam-surush-v1] }
+  - { type: participated_in, target: event/khurasani-ghazis-at-rayy-355, sources: [source/tajarib-al-umam-surush-v6] }
+sources: [source/al-aalam, source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6]
 external_ids:
   wikidata: Q481384
 provenance:
   layer: own-research
-  source: "Wikidata Q481384 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0007
+  source: "Wikidata Q481384; source/tajarib-al-umam-surush-v1 pp. 7, 11-12, 15, 19-20, 32, 34; source/tajarib-al-umam-surush-v6 pp. 262-264, 315"
+  generated_by: "Devin (SWE-2 High); rewritten by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "wikidata-import-0007; ocr-harvest-2026-11-04"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)"

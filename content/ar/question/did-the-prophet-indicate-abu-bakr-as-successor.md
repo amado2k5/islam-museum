@@ -3,7 +3,7 @@ id: question/did-the-prophet-indicate-abu-bakr-as-successor
 lang: ar
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/minhaj-sunna-salim-v8 pp. 575–578; source/minhaj-sunna-shamela pp. 62, 92, 2376, 2529–2538" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/minhaj-sunna-salim-v8 pp. 575–578; source/minhaj-sunna-shamela pp. 62, 92, 2376, 2529–2538; source/sunna-ibn-abi-asim-albani-1400 pp. 545–550" }
 ---
 ## موجز
 يتنازع [[person/al-allama-al-hilli|ابن المطهر الحلي]] و[[person/ibn-taymiyya|ابن تيمية]] في خلافة [[person/abu-bakr|أبي بكر]]: فالحلي يعقد فصلاً في إبطال خلافة أبي بكر وعمر وعثمان، وابن تيمية يرى أن النبي أرشد الأمة إلى خلافة أبي بكر ودلها عليها. {cite:minhaj-sunna-shamela p. 62} {cite:minhaj-sunna-salim-v8 p. 575}
@@ -18,8 +18,13 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-
 
 ويستدل بتقديم النبي لأبي بكر في الصلاة: في صحته، حين ذهب إلى بني عمرو بن عوف بقباء ليصلح بينهم فصلى أبو بكر بالناس العصر، فلما جاء النبي أشار إليه أن يثبت فتأخر أبو بكر أدباً؛ وفي مرضه الأخير حين قال: مروا أبا بكر فليصل بالناس. {cite:minhaj-sunna-salim-v8 p. 576} {cite:minhaj-sunna-salim-v8 p. 578} {cite:minhaj-sunna-shamela p. 2530} ويقارن ذلك بتقديم الصحابة [[person/abd-al-rahman-ibn-awf|عبد الرحمن بن عوف]] لصلاة الفجر في غزوة تبوك لما أبطأ النبي. {cite:minhaj-sunna-salim-v8 p. 578} وانظر [[event/abu-bakr-leads-the-prayers|صلاة أبي بكر بالناس]].
 
+## ما يرويه ابن أبي عاصم في كتاب السنة
+في [[work/kitab-al-sunna-ibn-abi-asim|كتاب السنة]] لابن أبي عاصم باب «في خلافة أبي بكر وما دل عليها»، ومعه تخريج الألباني لأسانيده. {cite:sunna-ibn-abi-asim-albani-1400 p. 546} يفتتح الباب بحديث عن أنس فيه أن النبي أمره أن يبشر أبا بكر بالجنة وبالخلافة من بعده، ويحكم عليه الألباني بأنه موضوع، آفته راويه السفر بن عبد الرحمن الذي كذّبه أئمة الجرح. {cite:sunna-ibn-abi-asim-albani-1400 p. 546} ومن أحاديث الباب التي يصحح الألباني أسانيدها: حديث جبير بن مطعم في المرأة التي قال لها النبي: إن لم تجديني فأتي أبا بكر (إسناده حسن صحيح)؛ {cite:sunna-ibn-abi-asim-albani-1400 p. 547} وحديث عائشة أن النبي قال في مرضه: ألا أرسل إلى ابن أبي قحافة وابنه فلا يطمع في هذا الأمر طامع (حديث صحيح). {cite:sunna-ibn-abi-asim-albani-1400 p. 549} {cite:sunna-ibn-abi-asim-albani-1400 p. 550} وقبل الباب حديث حذيفة: «اقتدوا باللذين من بعدي»، وأشار إلى أبي بكر وعمر، وصححه الألباني بشواهده. {cite:sunna-ibn-abi-asim-albani-1400 p. 545}
+
 :::perspectives
 **أهل السنة (حنبلي): ابن تيمية في منهاج السنة.** أرشد النبي إلى خلافة أبي بكر ودل عليها بالأحاديث وبتقديمه في الصلاة، دون عهد مكتوب، واختارته الأمة لعلمها بأنه الأحق. {cite:minhaj-sunna-salim-v8 p. 575}
+
+**أهل السنة (أهل الحديث): ابن أبي عاصم، مع تخريج الألباني.** في باب خلافة أبي بكر أحاديث تدل عليها، منها «إن لم تجديني فأتي أبا بكر» و«ألا أرسل إلى ابن أبي قحافة وابنه»، ويحكم الألباني على حديث بشارته بالخلافة بالوضع. {cite:sunna-ibn-abi-asim-albani-1400 p. 546} {cite:sunna-ibn-abi-asim-albani-1400 p. 547} {cite:sunna-ibn-abi-asim-albani-1400 p. 549}
 
 **الإمامية: ابن المطهر الحلي، كما ينقله ابن تيمية.** النص كان لعلي، وخلافة أبي بكر وعمر وعثمان باطلة، ومن تقدم علياً لم يكن إماماً. {cite:minhaj-sunna-shamela p. 62} {cite:minhaj-sunna-shamela p. 2376}
 :::

@@ -5,13 +5,13 @@ label:
   ar: "الجامع الكبير بتلمسان"
   en: "Great Mosque of Tlemcen"
 summary:
-  ar: "بطاقة أولية للجامع الكبير بتلمسان، الجامع المرابطي الذي بناه يوسف بن تاشفين سنة ١٠٨٢م وأضافت إليه الأجيال اللاحقة القبة والمنارة؛ من روائع العمارة المغربية ولم تُراجع الصفحة بعد."
-  en: "Draft card for the Great Mosque of Tlemcen, the Almoravid mosque founded by Yusuf ibn Tashfin in 1082 and enriched by later dynasties; a masterwork of Maghrebi architecture per the cited encyclopedia, the page not yet checked."
+  ar: "جامع تلمسان الكبير، يؤرخه نيوكومب بسنة 1136م، مئذنته الآجرية بارتفاع 112 قدماً مكسوة بفسيفساء الخزف، وفي صحنه فوّارة من المرمر الجزائري {cite:newcomb-decorative-tiles-north-africa-1929 p.27} {cite:newcomb-decorative-tiles-north-africa-1929 p.28}."
+  en: "The Great Mosque of Tlemcen, dated by Newcomb to 1136, whose 112-foot brick minaret is cased in faience mosaic and whose court holds an Algerian onyx fountain {cite:newcomb-decorative-tiles-north-africa-1929 p.27} {cite:newcomb-decorative-tiles-north-africa-1929 p.28}."
 wings: [objects]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [architecture]
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/newcomb-decorative-tiles-north-africa-1929]
 external_ids:
   wikidata: Q2989371
 provenance:
@@ -20,6 +20,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0019
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Newcomb 1929, first prose"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/tlemcen

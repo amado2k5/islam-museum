@@ -1,17 +1,35 @@
 id: work/kitab-al-sunnah-khallal
 class: work
 kind: book
-label: { ar: "كتاب السنة (الخلال)", en: "Kitab al-Sunnah (al-Khallal)" }
+label: { ar: "كتاب السنة (الخلال)", en: "Kitab al-Sunna (al-Khallal)", ur: "کتاب السنہ (خلال)" }
 summary:
-  ar: "بطاقة أولية لـكتاب السنة (الخلال)؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Kitab al-Sunnah (al-Khallal); its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q120447493" }
+  ar: "كتاب أبي بكر الخلال (234–311هـ) في أبواب الاعتقاد، جمع فيه بالأسانيد أقوال الإمام أحمد بن حنبل وآثار السلف في السمع والطاعة والخوارج، وفضائل النبي والمقام المحمود، والصحابة والخلافة والتفضيل، والقدر، والإيمان والرد على المرجئة، والقرآن والرد على الجهمية؛ وكان في ثلاثة مجلدات وصل منها المجلد الأول في نسخة وحيدة بالمتحف البريطاني، ووصفه ابن تيمية بأنه أجمع كتاب تُذكر فيه أقوال أحمد في أصول الدين {cite:kitab-al-sunna-khallal-al-hamdan-2018 p. 3-5} {cite:kitab-al-sunna-khallal-al-hamdan-2018 p. 14}."
+  en: "Abu Bakr al-Khallal's (234–311 AH) book on matters of creed, gathering with chains the sayings of Ahmad ibn Hanbal and the early authorities on obedience to rulers and the Kharijites, the Prophet's merits and the Praiseworthy Station, the Companions, the caliphate and precedence, predestination, faith and the refutation of the Murji'a, and the Qur'an and the refutation of the Jahmiyya; it ran to three volumes, of which the first survives in a single British Museum manuscript, and Ibn Taymiyya called it the fullest book recording Ahmad's views on the foundations of religion {cite:kitab-al-sunna-khallal-al-hamdan-2018 p. 3-5} {cite:kitab-al-sunna-khallal-al-hamdan-2018 p. 14}."
+  ur: "ابو بکر خلال (234–311ھ) کی عقیدے کے ابواب پر کتاب، جس میں انہوں نے سندوں کے ساتھ امام احمد بن حنبل اور سلف کے اقوال جمع کیے: حکمرانوں کی اطاعت اور خوارج، نبی کے فضائل اور مقامِ محمود، صحابہ، خلافت اور تفضیل، تقدیر، ایمان اور مرجئہ کا رد، اور قرآن اور جہمیہ کا رد؛ یہ تین جلدوں میں تھی جن میں سے پہلی جلد برٹش میوزیم کے ایک ہی نسخے میں باقی ہے، اور ابن تیمیہ نے اسے اصولِ دین میں احمد کے اقوال کی سب سے جامع کتاب کہا {cite:kitab-al-sunna-khallal-al-hamdan-2018 p. 3-5} {cite:kitab-al-sunna-khallal-al-hamdan-2018 p. 14}۔"
+genre: [creed]
+made: { by_muslims: true, basis: documented, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+authors: [person/abu-bakr-al-khallal]
+language: language/arabic
+structure: "المجلد الأول الموجود في سبعة أجزاء (فُقد الثاني والثالث): أبواب السمع والطاعة والفتن والخوارج واللصوص؛ فضائل النبي وما أنكرته الجهمية من المقام المحمود؛ الصحابة والخلافة والتفضيل؛ القدر والرد على القدرية؛ الإيمان والرد على المرجئة (وفيه كتاب أحمد في الإيمان)؛ ثم أبواب في القرآن والرد على الجهمية واللفظية والواقفة (المقدمة، ص 5 من المسح). والمفقود في الغالب أبواب الرد على الجهمية والصفات والقبر والجنة والنار، جمع المحقق ما نُقل منها في ذيل (ص 948 وما بعدها)."
+editions: [source/kitab-al-sunna-khallal-al-hamdan-2018]
+wings: [words, ideas]
+themes: [creed, sects-and-schools]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/ahmad-ibn-hanbal, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+  - { type: mentions, target: person/abu-bakr-al-marrudhi, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+  - { type: mentions, target: person/mujahid-ibn-jabr, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+  - { type: mentions, target: group/jahmiyya, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+  - { type: mentions, target: group/murjia, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+  - { type: mentions, target: group/khawarij, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018] }
+  - { type: mentions, target: place/tarsus, sources: [source/kitab-al-sunna-khallal-al-hamdan-2018], note: "قرأه الخلال بطرسوس سنين، ص 171 من المسح" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Kitab al-Sunna, ed. Al Hamdan 2018: PDF pp. 3–23, 145–147, 160, 171, 188–189, 948–949"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q120447493" }
+sources: [source/kitab-al-sunna-khallal-al-hamdan-2018, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 High)" }

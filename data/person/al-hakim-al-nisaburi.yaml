@@ -47,13 +47,14 @@ relations:
   - { type: participated_in, target: event/daraqutni-hakim-baghdad-367, sources: [source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/al-hakim-talamanaki-389, sources: [source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/bayhaqi-studies-hakim-400, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: debated_with, target: person/al-daraqutni, note: "قال الخليل بن عبد الله: ناظر الدارقطني فرضيه {cite:mustadrak-haramayn-1997-v1 p. 6}", sources: [source/mustadrak-haramayn-1997-v1] }
   - { type: participated_in, target: event/al-hakim-death-405, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
 external_ids: { wikidata: "Q1093121" }
-sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/mustadrak-haramayn-1997-v1]
 provenance:
   layer: own-research
   source: "al-Dhahabi, Tarikh al-Islam s.a. 405 printed pp. 122-131 (harvest OCR); Wafayat al-A'yan j.4 (djvu OCR, lib-wafayat-batch-21); EI2 vol. 3 art. AL-HAKIM AL-NAYSABURI pp. 90-91 (harvest OCR)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-al-hakim-1
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from al-Mustadrak (Dar al-Haramayn 1997) vol. 1 pp. 6-9, 39" }

@@ -6,12 +6,19 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن أبي حاتم الرازي، حافظ القرن العاشر صاحب «الجرح والتعديل» وتفسيره الكبير وابن أبي حاتم المحدث، توفي سنة ٩٣٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Abi Hatim al-Razi, the tenth-century hadith master author of al-Jarh wa-l-Ta'dil and a major tafsir, d. 938; the biographical entry is not yet checked on the page."
+  ar: "أبو محمد عبد الرحمن بن أبي حاتم محمد بن إدريس الحنظلي الرازي (240–327هـ)، حافظ الري وابن حافظها؛ رحل به أبوه صغيراً سنة 255 ثم رحل بنفسه إلى الشام ومصر وأصبهان، وأخذ عن أبيه وأبي زرعة، وصنف «الجرح والتعديل» و«علل الحديث» والتفسير المسند و«الرد على الجهمية»؛ توفي في المحرم سنة 327هـ."
+  en: "Abu Muhammad Abd al-Rahman ibn Abi Hatim Muhammad ibn Idris al-Hanzali al-Razi (240–327 AH), the hafiz of Rayy and son of its hafiz; his father took him travelling as a boy in 255, and he later travelled himself to Syria, Egypt and Isfahan; he learned from his father and Abu Zur'a and wrote al-Jarh wa-l-Ta'dil, Ilal al-Hadith, a Qur'an commentary of transmitted reports and al-Radd ala al-Jahmiyya; he died in Muharram 327 AH (938 CE)."
+born: { edtf: "0854/0855", hijri: "0240", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 240 {cite:ilal-ibn-abi-hatim-salafiyya-v1 PDF p. 7}؛ التحويل مشتق", sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+died: { edtf: "0938-10/0938-11", hijri: "0327-01", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في المحرم سنة 327 كما في ترجمة الناشر (ص 7 و10 من المسح، والرقم في ص 10 مقروء في التعرف الضوئي 337 وهو خطأ قراءة، والصواب 327 كما في عنوان الترجمة ومقدمة الناشر ص 6)؛ التحويل مشتق", sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+relations:
+  - { type: child_of, target: person/abu-hatim-muhammad-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+  - { type: student_of, target: person/abu-hatim-muhammad-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+  - { type: student_of, target: person/abu-zura-al-razi, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
+  - { type: authored, target: work/ilal-al-hadith-ibn-abi-hatim, sources: [source/ilal-ibn-abi-hatim-salafiyya-v1] }
 wings: [people]
 regions: [persia-central-asia]
-periods: [period/abbasid-early]
-sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny]
+periods: [period/abbasid-early, period/abbasid-fragmentation]
+sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny, source/ilal-ibn-abi-hatim-salafiyya-v1]
 external_ids:
   wikidata: Q6532800
 provenance:
@@ -20,6 +27,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0024
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: ilal-ibn-abi-hatim-salafiyya-v1 PDF pp. 6–10"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3

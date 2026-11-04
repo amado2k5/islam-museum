@@ -1,12 +1,14 @@
 id: person/al-qastallani-ahmad
 class: person
-label: { ar: "القسطلاني المصري", en: "al-Qastallani al-Misri" }
+aliases: [person/al-qastalani]
+label: { ar: "أبو العباس أحمد بن علي القسطلاني", en: "Abu al-Abbas Ahmad ibn Ali al-Qastallani" }
 names:
   - { value: "أبو العباس أحمد بن علي القسطلاني ثم المصري المالكي", kind: full }
+  - { value: "القسطلاني المصري", kind: alternate }
 died: { edtf: "1239", hijri: "0636-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمكة المشرفة في جمادى الآخرة سنة ست وثلاثين وستمائة وقبره يزار بالشعب الأيسر {cite:shadharat-dhahab p. 187}.", sources: [source/shadharat-dhahab] }
 summary:
-  ar: "الفقيه المالكي الزاهد القدوة، تلميذ الشيخ أبي عبد الله القرشي؛ سمع من عبد الله بن بري ودرّس بمصر وأفتى ثم جاور بمكة مدة وتزوج بعد موت شيخه زوجته الصالحة الجليلة أم ولده قطب الدين؛ حكى أن أهل المدينة أجدبوا فاستسقى أهل المدينة يومهم فلم يُسقوا ثم عمل طعاماً للضعفاء واستسقى مع المجاورين فسُقوا؛ وله مؤلف جمع فيه كلام شيخه القرشي وكراماته {cite:shadharat-dhahab p. 187}."
-  en: "The Maliki ascetic of Mecca (d. Jumada II 636) — the mujawir whose rain prayer with the weak was answered when the Medinans' own day was not; compiled his shaykh al-Qurashi's sayings and karamat; grave visited in the Shi'b al-Aysar {cite:shadharat-dhahab p. 187}."
+  ar: "أبو العباس أحمد بن علي القسطلاني، الفقيه المالكي الزاهد القدوة، تلميذ الشيخ أبي عبد الله القرشي؛ سمع من عبد الله بن بري ودرّس بمصر وأفتى ثم جاور بمكة مدة وتزوج بعد موت شيخه زوجته الصالحة الجليلة أم ولده قطب الدين؛ حكى أن أهل المدينة أجدبوا فاستسقى أهل المدينة يومهم فلم يُسقوا ثم عمل طعاماً للضعفاء واستسقى مع المجاورين فسُقوا؛ وله مؤلف جمع فيه كلام شيخه القرشي وكراماته {cite:shadharat-dhahab p. 187}، وهو الجزء الكبير الذي وقف عليه ابن خلكان ونقل منه {cite:wafayat-ayan}."
+  en: "The Maliki ascetic of Mecca (d. Jumada II 636) — the mujawir whose rain prayer with the weak was answered when the Medinans' own day was not; compiled his shaykh al-Qurashi's sayings and karamat; grave visited in the Shi'b al-Aysar {cite:shadharat-dhahab p. 187}; Ibn Khallikan read and quoted that large volume {cite:wafayat-ayan}."
 gender: male
 roles: [scholar]
 wings: [people]
@@ -18,13 +20,14 @@ faith:
 relations:
   - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/mecca, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); merge of two Devin records"
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنة 636)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch85
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 636) ص187؛ وفيات الأعيان لابن خلكان ج1 (ترجمة القسطلاني) — merged from person/al-qastalani (run lib-wafayat-batch-18)"
+  generated_by: "Claude Code (OCR-harvest worker A); merge of Devin records (runs prose-fill-persons-batch85, lib-wafayat-batch-18)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
