@@ -52,3 +52,6 @@ He reports that the hafiz Ahmad ibn Ali al-Sulaymani spoke harshly of him, sayin
 - **Sunni: al-Dhahabi**: trustworthy and truthful, one of the great imams of Islam, with a slight Shi'ism that does no harm; the charge of forgery is a stone thrown on suspicion. {cite:mizan-itidal-bijawi-v3 p. 499}
 - **Sunni: Ahmad ibn Ali al-Sulaymani as reported by al-Dhahabi**: he forged reports for the Rafida — possibly meaning Ibn Rustam, not the exegete. {cite:mizan-itidal-bijawi-v3 p. 499}
 :::
+
+## As a scholar of language and the readings
+Ahmad Khalid Babakr sets out in his thesis to present al-Tabari "as a scholar of language, grammar and the readings, besides being an exegete, a hadith scholar and a historian", and concludes that his [[work/jami-al-bayan|Jami' al-Bayan]] holds many sciences and that in grammar he was independent between the Basrans and the Kufans, relying most on al-Farra'. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.8} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1443} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1444}
