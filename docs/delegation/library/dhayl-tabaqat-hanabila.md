@@ -33,3 +33,12 @@ Enriched
 
 ## Remaining
 - Later entries of part 2 (al-Diya' al-Maqdisi, Ibn Qudama, the Banu Qudama) are good next targets.
+
+## Second pass (worker F, run 2, ocr-harvest-2026-11-04)
+Batch A (printed = PDF; pp. 5, 52–62, 93, 124, 133–148, 236–240):
+- New: `place/jammail` (trio; the Maqdisi birthplace, the 551 AH emigration and the naming of al-Salihiyya), `person/ahmad-ibn-muhammad-ibn-qudama` (data record: khatib of Jamma'il, 491–558).
+- Enriched with full Dhayl sections (trios rewritten/extended):
+  - `person/abu-umar-al-maqdisi` (entry 229, pp. 52–61): birth, emigration, learning, copying, worship, intercession, campaigning with Saladin, creed verses, reported karamat (attributed), death 18 Rabi' I 607 and funeral. Earlier summary typed a Qur'an verse as his last words; replaced by a `passage/quran-2-132` link. Death EDTF corrected from 1210-10 to 1210-09-09 (tabular, derived). Published.
+  - `person/ibn-qudama-al-maqdisi` (entry 272, pp. 133–147): Baghdad journey (561), study with Abd al-Qadir and Ibn al-Manni, works by field, creed method, praise (Sibt, Ibn al-Najjar, Ibn al-Hajib, Abu Shama, Ibn Taymiyya, Ibn al-Salah, al-Yunini), selected fatwas, reported karamat with the corrector's footnote, death Eid al-Fitr 620, children. Dates now confirmed by a second source; published. Edges: born_in Jamma'il, child_of, student_of Abd al-Qadir / Ibn al-Manni / Abu Umar, authored al-Kafi, al-Muqni', Rawdat al-Nazir.
+  - `person/diya-al-din-al-maqdisi` (entry 345, pp. 236–240): birth month debated (his hand: 5 Jumada II; Ibn al-Najjar: Jumada I 569), travels, praise, the school at the Muzaffari mosque, full works list, students, death Monday 18 Jumada II 643.
+- Not yet done: al-Imad Ibrahim ibn Abd al-Wahid (entry 255, pp. 93–106; existing `person/al-shaykh-al-imad` from Shadharat), Abd al-Rahman ibn Abi Umar and the later Maqdisis (entries 338–345, 383, 406, …). No record exists for al-Diya's al-Ahadith al-Mukhtara (no stub added; the prose names it unlinked).

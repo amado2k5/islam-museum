@@ -3,11 +3,11 @@ class: person
 label: { ar: "ضياء الدين المقدسي الحافظ", en: "Diya al-Din al-Maqdisi" }
 names:
   - { value: "ضياء الدين أبو عبد الله محمد بن عبد الواحد بن عبد الرحمن المقدسي الحنبلي الحافظ", kind: full }
-born: { edtf: "1174", hijri: "0569-06-05~", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد في خامس جمادى الآخرة سنة تسع وستين وخمسمائة {cite:shadharat-dhahab p. 231}." }
-died: { edtf: "1245", hijri: "0643", calendar: julian, precision: year, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة ثلاث وأربعين وستمائة {cite:shadharat-dhahab p. 231-233}." }
+born: { edtf: "1174-01-11", hijri: "0569-06-05", calendar: julian, precision: day, status: debated, derived: true, note: "ولد في خامس جمادى الآخرة سنة تسع وستين وخمسمائة {cite:shadharat-dhahab p. 231}، كذا وُجد بخطه؛ وقال ابن النجار: سألته عن مولده فقال في جمادى الأولى من السنة {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 236}. التحويل مشتق بالحساب الجدولي.", sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2] }
+died: { edtf: "1245-11-10", hijri: "0643-06-18", calendar: julian, precision: day, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة ثلاث وأربعين وستمائة {cite:shadharat-dhahab p. 231-233}؛ وعند ابن رجب: توفي يوم الاثنين ثامن عشر جمادى الآخرة سنة ثلاث وأربعين وستمائة بسفح قاسيون ودفن به {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 240}. التحويل مشتق بالحساب الجدولي.", sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2] }
 summary:
-  ar: "الإمام العالم الحافظ الحجة محدث الشام شيخ السنة؛ قال ابن رجب يقال إنه كتب عن أزيد من خمسمائة شيخ، وقال ابن النجار كتبت عنه ببغداد ونيسابور ودمشق وهو حافظ؛ وكان المرجوع إليه في الجرح والتعديل؛ صنف وصحح وليّن وجرّح وعدّل؛ ومن مصنفاته الأحاديث المختارة خرّجها من مسموعاته كتب منها تسعين جزءاً {cite:shadharat-dhahab p. 231-233}."
-  en: "Muhaddith al-Sham, shaykh al-sunna (b. 569, d. 643) — Ibn Rajab: he wrote from more than five hundred shaykhs; the authority on jarh wa-ta'dil of his age; author of al-Ahadith al-Mukhtara, ninety booklets selected from his own audition records {cite:shadharat-dhahab p. 231-233}."
+  ar: "ضياء الدين أبو عبد الله محمد بن عبد الواحد بن أحمد بن عبد الرحمن السعدي المقدسي الصالحي (569–643هـ)، الحافظ الكبير محدث عصره. سمع بدمشق ومصر وبغداد وأصبهان وهمذان ونيسابور وهراة ومرو، وكتب الكثير، وبنى بسفح قاسيون مدرسة للمحدثين والغرباء ووقف عليها كتبه. يصفه ابن رجب ناقلاً عن ابن النجار وعمر بن الحاجب والمزي والذهبي بالحفظ والإتقان والورع، ويسرد تصانيفه ومنها «الأحاديث المختارة» و«فضائل الأعمال» و«فضائل الشام» وسير أكابر المقادسة {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 236-240}. الإمام العالم الحافظ الحجة محدث الشام شيخ السنة؛ قال ابن رجب يقال إنه كتب عن أزيد من خمسمائة شيخ، وقال ابن النجار كتبت عنه ببغداد ونيسابور ودمشق وهو حافظ؛ وكان المرجوع إليه في الجرح والتعديل؛ صنف وصحح وليّن وجرّح وعدّل؛ ومن مصنفاته الأحاديث المختارة خرّجها من مسموعاته كتب منها تسعين جزءاً {cite:shadharat-dhahab p. 231-233}."
+  en: "Diya' al-Din Abu Abd Allah Muhammad ibn Abd al-Wahid ibn Ahmad ibn Abd al-Rahman al-Sa'di al-Maqdisi al-Salihi (569–643 AH), the great hafiz and leading hadith scholar of his age. He heard hadith in Damascus, Egypt, Baghdad, Isfahan, Hamadan, Nishapur, Herat and Marw, copied a great deal, and built a school for hadith scholars and visiting strangers on the slope of Qasyun, endowing it with his books. Ibn Rajab, quoting Ibn al-Najjar, Umar ibn al-Hajib, al-Mizzi and al-Dhahabi, praises his memory, precision and scrupulousness and lists his works, among them al-Ahadith al-Mukhtara, Fada'il al-A'mal, Fada'il al-Sham and lives of the great Maqdisis. Muhaddith al-Sham, shaykh al-sunna — Ibn Rajab: he wrote from more than five hundred shaykhs; the authority on jarh wa-ta'dil of his age; author of al-Ahadith al-Mukhtara, ninety booklets selected from his own audition records {cite:shadharat-dhahab p. 231-233}."
 gender: male
 roles: [scholar, muhaddith]
 wings: [people]
@@ -18,10 +18,20 @@ faith:
     basis: tradition
 relations:
   - { type: born_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/al-salihiyya, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/ibn-al-jawzi, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/abd-al-ghani-al-maqdisi, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/abu-umar-al-maqdisi, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: traveled_to, target: place/isfahan, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: traveled_to, target: place/baghdad, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: traveled_to, target: place/nishapur, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: traveled_to, target: place/herat, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: traveled_to, target: place/marw, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
 external_ids:
   wikidata: Q5285014
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
 status:
   review: published
   completeness: 3
@@ -30,7 +40,8 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
-  run: prose-fill-persons-batch70
+  run: prose-fill-persons-batch70, ocr-harvest-2026-11-04
+  dhayl_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: dhayl-tabaqat-hanabila-faqi-v2 pp. 236–240 (entry 345)"
 occupations:
   - job: job/muhaddith
     kind: secondary
