@@ -12,10 +12,13 @@ periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (عارضة داخل ترجمة الملك الكامل)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
-  generated_by: "Devin (SWE-2 High) from djvu OCR text"
-  run: lib-wafayat-batch-13
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch122
 relations:
   - { type: child_of, target: person/al-malik-al-kamil, sources: [source/kamil-ibn-al-athir] }
   - { type: participated_in, target: event/yemeni-sack-mecca-620, role: "صاحب العسكر الناهب", sources: [source/kamil-ibn-al-athir] }
 sources: [source/wafayat-ayan, source/kamil-ibn-al-athir, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
