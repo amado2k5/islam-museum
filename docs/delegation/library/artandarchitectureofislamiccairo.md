@@ -49,3 +49,12 @@ Created: building/funerary-complex-of-sultan-inal, place/eastern-cemetery-cairo,
 First prose for: building/complex-sultan-barquq, building/farag-ibn-barquq-complex, building/emir-qurqumas-complex, building/khanqah-mausoleum-of-sultan-barsbay (Eastern Cemetery), building/al-ashraf-barsbay-complex (assigned to the al-Mu'izz street madrasa, 1425, with a note in the prose).
 Enriched: building/al-muayyad-mosque-cairo, person/barquq, person/faraj-ibn-barquq, person/al-muayyad-shaykh, person/barsbay, concept/waqf.
 Leads: tomb of Ganibak al-Ashrafi (1432), Bashtak palace (1334-9), mosque of Aslam al-Silahdar (1344-5) only treated inside other records.
+
+## Batch 7: chapter 7 part 2 and postscript (pp. 218-239)
+Created: building/sabil-kuttab-of-qaytbay-cairo, building/madrasa-of-sultan-al-ghuri, building/wakala-of-al-ghuri, building/mosque-of-muhammad-ali-cairo (Yeomans's harsh verdict and the quoted views of Flaubert, Nightingale and Curzon kept attributed).
+First prose for: building/qaytbay-complex-cairo, building/amir-qijmas-al-ishaqi-mosque, building/mausoleum-sabil-kuttab-al-ghouri, building/amir-khayrbak-complex (Yeomans's word "treachery" for Khayrbak's defection attributed to him).
+Enriched: person/qaytbay, person/qansuh-al-ghawri, person/tuman-bay-ii, work/art-and-architecture-of-islamic-cairo (section on the later chapters).
+Doubts: Qijmas mosque 1478-9 (text) vs 1480-1 (map); Khayrbak mosque 1520-1 (text) vs 1502 (map); both kept with notes.
+
+## Status of the book
+Architecture chapters 1, 2, 4, 5, 7 and the postscript read in full and harvested (about 110 records). Not yet harvested: chapters 3 and 6 (decorative arts: ceramics, glass, woodwork, metalwork, textiles, manuscripts, pp. 70-99, 164-197) and the introduction (pp. 4-13). Leads: Qaytbay's Ashrafiyya madrasa and sabil in Jerusalem, Qanibay al-Rammah (1503), Mahmud Pasha mosque (1567), Ganibak al-Ashrafi tomb.
