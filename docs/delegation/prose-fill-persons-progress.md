@@ -684,3 +684,12 @@ Promoted: abd-al-aziz-ibn-al-majishun, abu-al-makaram-al-misri, abu-rafaa-umara-
 Promoted: abdallah-al-irmawi, al-hajari-isa, al-muhsin-ibn-salah-al-din, al-qatii-al-azji, al-qurtubi-muhammad-ibn-umar, al-zahir-dawud-ibn-yusuf, fakhr-al-din-al-irbili, ghanim-ibn-asakir, ibn-al-farid, ibn-al-jinbali, ibn-al-latti, ibn-dihya, ishaq-al-ilthi, mankubars-al-falaqi, muhyi-al-din-ibn-fadlan, nasr-ibn-abd-al-razzaq, sawab-al-adili, umar-al-suhrawardi, yusuf-ibn-haydara.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1865.** sweep continues through remaining trilingual drafts.
+
+### Batch 102 (4 Nov 2026, 18 records) — lib-shadharat-batch-115 draft promotions (sweep worker)
+
+Promoted: abdallah-ibn-hamuwayh, abu-ali-al-tusi, abu-bakr-al-dinawari, abu-bakr-ibn-abd-al-baqi, abu-yaqub-al-hamadhani, al-anmati-abd-al-wahhab, al-badi-al-asturlabi, al-sukraji, ali-ibn-muslim-al-sulami, ali-ibn-tirad-al-zaynabi, ibn-al-razzaz-said, ismail-al-taymi, kukhan-qara-khitai, muhammad-ibn-buri, razin-ibn-muawiya, umm-al-baha-fatima, umm-al-khayr-fatima, zahir-al-shahhami.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+mahmud-ibn-buri	REJECT: ar: thin (147ch)
+
+**Lane total: 1883.** sweep continues through remaining trilingual drafts.

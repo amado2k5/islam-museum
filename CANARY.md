@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 102).
 - **Library harvest from the OCR'd books** (batch 4): 79 records written or enriched with full Arabic, English and Urdu prose from 13 books on the harvest drive (artandarchitectureofislamiccairo, badai-sanai, bga-vol03, evliya-celebi-hammer-1834, hidaya-marghinani, kifaya-khatib, madarij-salikin, sharh-nawawi-muslim, subul-salam, tafsir-qurtubi, tafsir-saadi, zuhd-ahmad…); new records: 18 source, 12 concept, 12 person, 11 work, 3 question, 2 building, 1 practice; 38 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 101).
 - **Fixed: dates and tour stops after the library harvest**: five records from the OCR'd-book harvest (the mosques of al-Hakim and Ibn Tulun, the Rawda Nilometer, al-Qata'i, Muhammad ibn Yusuf al-Warraq) wrote three-digit years that are not valid EDTF and broke the build; they are now four-digit years. Six 3D-tour stops (the conquests of Mecca and Constantinople, al-Khwarizmi, iman, al-Jabr, the Ihya') now list the same sources as their records, which gained sources in the harvest, so the tour test passes again.
