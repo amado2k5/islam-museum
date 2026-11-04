@@ -55,7 +55,20 @@ perspectives:
     evidence:
       - { ref: work/al-shifa-bi-tarif-huquq-al-mustafa, note: { ar: "ص527 (PDF)" } }
     sources: [source/al-shifa-ilmiyya-shumunni]
-related: [work/al-shifa-bi-tarif-huquq-al-mustafa, concept/ismah, person/al-qadi-iyyad]
+  - tradition: sunni
+    id: razi-no-sin-during-prophethood
+    standing: secondary
+    stance:
+      ar: "لا يصدر عنهم ذنب حال النبوة البتة، لا كبيرة ولا صغيرة"
+      en: "No sin at all comes from them during prophethood, neither grave nor minor"
+      ur: "نبوت کے دوران ان سے کوئی گناہ، نہ کبیرہ نہ صغیرہ، سرزد نہیں ہوتا"
+    summary:
+      ar: "يختار فخر الدين الرازي في «مفاتيح الغيب» أنه لم يصدر عن الأنبياء ذنب حال النبوة البتة، لا الكبيرة ولا الصغيرة، ويقرر أن الذنب قبل النبوة جائز عند أكثر أصحابه؛ ويستدل بستة عشر وجهًا، منها أنهم لو أذنبوا لكانوا أقل درجة من عصاة الأمة، ولما قُبلت شهادتهم، ولوجب الاقتداء بهم في المعصية؛ ويحمل ما احتج به المخالف من القرآن على ترك الأولى. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}"
+      en: "Fakhr al-Din al-Razi in Mafatih al-Ghayb chooses that no sin at all came from the prophets during prophethood, neither grave nor minor, and states that sin before prophethood is possible according to most of his school; he argues from sixteen points, among them that if they sinned they would rank below the sinners of the community, their testimony would not be accepted, and following them would require following them in sin; he reads the Qur'anic passages his opponents cite as leaving what was better. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}"
+      ur: "فخر الدین رازی «مفاتیح الغیب» میں یہ اختیار کرتے ہیں کہ نبوت کے دوران انبیاء سے کوئی گناہ، نہ کبیرہ نہ صغیرہ، سرزد نہیں ہوا، اور کہتے ہیں کہ ان کے اکثر اصحاب کے نزدیک نبوت سے پہلے گناہ ممکن ہے؛ وہ سولہ وجوہ سے استدلال کرتے ہیں، جن میں یہ کہ اگر وہ گناہ کرتے تو امت کے گنہگاروں سے کم درجہ ہوتے، ان کی گواہی قبول نہ ہوتی، اور ان کی اقتدا گناہ میں بھی لازم آتی؛ اور مخالفین کی پیش کردہ قرآنی آیات کو ترکِ اولیٰ پر محمول کرتے ہیں۔ {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}"
+    holders: [person/fakhr-al-din-al-razi]
+    sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3]
+related: [work/tafsir-al-kabir-razi, work/al-shifa-bi-tarif-huquq-al-mustafa, concept/ismah, person/al-qadi-iyyad]
 wings: [ideas]
 themes: [creed, prophets]
 sensitivity: contested
@@ -65,5 +78,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker E)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/al-shifa-ilmiyya-shumunni]
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 7–11 (al-Razi on al-Baqara 36)" }
+sources: [source/al-shifa-ilmiyya-shumunni, source/mafatih-al-ghayb-dar-al-fikr-1401-j3]
 status: { review: published, completeness: 2 }

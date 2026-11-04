@@ -13,3 +13,9 @@ Pages read: PDF 1–31 (title, family note, prefaces of Ibn Aqil and al-Uthaymin
 
 ## Next
 The "usul wa-kulliyyat" of tafsir that al-Sa'di appended to vol. 5 (if present in this edition) → a concept record; sura-level material.
+
+## Batch 2 (second pass, OCR-harvest worker B)
+Pages read: PDF 938–945 (colophon: completed at the beginning of Rabi' I 1344 AH; appendix "Usul wa-kulliyyat min usul al-tafsir"). In this part of the book the printed page equals the PDF page.
+- Created: `concept/qawaid-al-tafsir` (al-Sa'di's rules on wording and generalities of meaning, ar/en/ur).
+- Enriched: `work/taysir-al-karim-al-rahman` (section on its close and the appendix; `about` edge).
+- Not used: the second appendix (verses where the two manuscripts differ).

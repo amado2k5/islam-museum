@@ -11,6 +11,8 @@ genre: [tafsir]
 composed: { edtf: "1134-01", hijri: "0528-04-02", calendar: julian, precision: month, status: historical, derived: true, note: "«ضحوة الاثنين الثاني من ربيع الآخر في عام ثمان وعشرين وخمسمائة» at Mecca (author's colophon as quoted by the editor, PDF p. 12); Gregorian month derived.", sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
 relations:
   - { type: about, target: question/how-did-sunni-scholars-read-al-kashshaf, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+  - { type: about, target: question/does-lan-tarani-deny-that-god-can-be-seen, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+  - { type: about, target: question/who-seals-the-hearts-in-al-baqara-7, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
 wings: [words, ideas]
 themes: [scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -22,5 +24,6 @@ provenance:
   run: lib-shadharat-batch-12
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/kashshaf-dar-al-marifa-shiha-2009 PDF pp. 11–17 (composition, purpose, value, Mu'tazili content, glosses)" }
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/kashshaf-dar-al-marifa-shiha-2009 PDF pp. 41–43, 384–385" }
 sources: [source/shadharat-dhahab, source/kashshaf-dar-al-marifa-shiha-2009]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker B)" }

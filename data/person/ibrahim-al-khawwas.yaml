@@ -12,15 +12,15 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "0904", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/risala-qushayriyya-minhaj-2017]
 external_ids:
   wikidata: Q5955876
 provenance:
   layer: own-research
-  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.28)"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch4
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.28); al-Risala al-Qushayriyya (Dar al-Minhaj 2017) p. 183"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
   review: published
   completeness: 3
