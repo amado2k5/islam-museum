@@ -18,10 +18,13 @@ died: { edtf: "1572-01-14~", hijri: "0979-09-07", calendar: julian, precision: d
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 979، عن الكواكب)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-148
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch79
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary
