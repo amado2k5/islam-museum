@@ -1,0 +1,23 @@
+id: person/ali-muhammad-al-sallabi
+class: person
+label: { ar: "علي محمد الصلابي", en: "Ali Muhammad al-Sallabi" }
+names:
+  - { kind: full, lang: ar, value: "علي محمد الصلابي" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "الدكتور علي محمد الصلابي، كاتب معاصر في السيرة النبوية والتاريخ الإسلامي، مؤلف «السيرة النبوية: عرض وقائع وتحليل أحداث» الذي وقّع مقدمته في 18 رجب 1421هـ/16 أكتوبر 2000م، وكتب في الخلفاء والدولة الأموية والدولة العثمانية؛ يصف في مقدمته سنوات بحثه بأنها أنسته غربته وهجرته."
+  en: "Dr Ali Muhammad al-Sallabi, a contemporary writer on the Prophet's biography and Islamic history, author of al-Sira al-Nabawiyya: Ard Waqa'i' wa-Tahlil Ahdath, whose preface he signed on 18 Rajab 1421 / 16 October 2000, and of books on the caliphs, the Umayyad state and the Ottoman state; in that preface he says his years of research made him forget his exile and emigration."
+wings: [people]
+periods: [period/contemporary-era]
+regions: [arab-world]
+relations:
+  - { type: authored, target: work/al-sira-al-nabawiyya-sallabi, sources: [source/sira-nabawiyya-sallabi] }
+provenance:
+  layer: own-research
+  source: "السيرة النبوية للصلابي، دار المعرفة ط7 2008، صفحة العنوان والمقدمة ص5–12؛ وسجلات مصادره الأخرى في المتحف"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sira-nabawiyya-sallabi, source/salabi-umayyad-state-2020, source/dawlat-uthmaniyya-salabi]
+status: { review: published, completeness: 2 }

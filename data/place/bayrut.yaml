@@ -8,6 +8,11 @@ summary:
 coordinates: [33.8938, 35.5018]
 wings: [place]
 regions: [levant-iraq]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 371 (scan page)", generated_by: "Claude (Haiku 5.5)" }
-sources: [source/nuzhat-al-mushtaq-2002]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+sources: [source/nuzhat-al-mushtaq-2002, source/mujam-al-buldan-yaqut]
+status: { review: published, completeness: 2, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+provenance:
+  layer: own-research
+  source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 371 (scan page); source/mujam-al-buldan-yaqut vols 1-2 scan pp. 732-733"
+  generated_by: "Claude (Haiku 5.5); enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "ocr-harvest-2026-11-04"

@@ -1,0 +1,29 @@
+id: work/tarif-al-ahya-bi-fadail-al-ihya
+class: work
+kind: treatise
+label: { ar: "تعريف الأحياء بفضائل الإحياء", en: "Ta'rif al-Ahya' bi-Fada'il al-Ihya'", ur: "تعریف الاحیاء بفضائل الاحیاء" }
+summary:
+  ar: "رسالة لعبد القادر بن شيخ بن عبد الله العيدروس باعلوي في فضائل إحياء علوم الدين، رتّبها على مقدمة في عنوان الكتاب، ومقصد في فضائله وثناء الأكابر عليه والجواب عما طُعن به فيه، وخاتمة في ترجمة الغزالي وسبب رجوعه إلى طريقة الصوفية؛ تُطبع ملحقةً بالإحياء {cite:ihya-dar-al-marifa-1982-v3 p. 5} {cite:ihya-kitab-al-shab-pts13-16 p. 776}."
+  en: "A treatise by Abd al-Qadir ibn Shaykh ibn Abd Allah al-Aydarus Ba Alawi on the merits of the Ihya', arranged as an introduction on the book's title, a main part on its merits, the praise of great scholars and answers to objections, and a conclusion on al-Ghazali's life and his turn to the Sufi way; it is printed as an appendix to the Ihya' {cite:ihya-dar-al-marifa-1982-v3 p. 5} {cite:ihya-kitab-al-shab-pts13-16 p. 776}."
+  ur: "عبد القادر بن شیخ بن عبد اللہ عیدروس باعلوی کا احیاء علوم الدین کی فضیلت پر رسالہ، جو کتاب کے عنوان پر مقدمے، اس کی فضیلتوں، اکابر کی تعریف اور اعتراضات کے جواب پر مقصد، اور غزالی کی سوانح اور صوفی طریقے کی طرف ان کے رجوع پر خاتمے میں مرتب ہے؛ یہ احیاء کے ساتھ ملحق چھپتا ہے {cite:ihya-dar-al-marifa-1982-v3 p. 5} {cite:ihya-kitab-al-shab-pts13-16 p. 776}۔"
+language: language/arabic
+authors: [person/abd-al-qadir-ibn-shaykh-aydarus]
+genre: [spirituality]
+wings: [words]
+themes: [spirituality-and-sufism, libraries-paper-and-the-book]
+periods: [period/gunpowder-empires]
+regions: [arabia, south-asia]
+relations:
+  - { type: about, target: work/ihya-ulum-al-din, sources: [source/ihya-kitab-al-shab-pts13-16] }
+  - { type: mentions, target: person/al-ghazali-abu-hamid, sources: [source/ihya-kitab-al-shab-pts13-16] }
+  - { type: mentions, target: person/ali-ibn-hirzihim, sources: [source/ihya-kitab-al-shab-pts13-16] }
+  - { type: mentions, target: event/burning-of-ghazali-books-maghrib, sources: [source/ihya-kitab-al-shab-pts13-16] }
+  - { type: relies_on, target: work/al-mughni-an-haml-al-asfar, sources: [source/ihya-kitab-al-shab-pts13-16] }
+provenance:
+  layer: own-research
+  source: "تعريف الأحياء في ط. كتاب الشعب للإحياء ج16، ص 776-790؛ غلاف ط. دار المعرفة 1982 ج3 ص 5"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/ihya-kitab-al-shab-pts13-16, source/ihya-dar-al-marifa-1982-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

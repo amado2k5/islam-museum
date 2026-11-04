@@ -1,0 +1,21 @@
+id: source/radd-al-muhtar-scan-v3
+class: source
+kind: primary
+type: book
+label:
+  ar: "ابن عابدين، رد المحتار على الدر المختار، الجزء الثالث (نسخة مصورة)"
+  en: "Ibn Abidin, Radd al-Muhtar ala al-Durr al-Mukhtar, vol. 3 (scan)"
+  ur: "ابن عابدین، رد المحتار علی الدر المختار، جلد سوم (اسکین)"
+summary:
+  ar: "الجزء الثالث من حاشية ابن عابدين على الدر المختار، في طبعة حجرية قديمة بمتن الدر المختار في الهامش، من مسح مكتبة الإسكندرية على الأرشيف (المعرّف AAlexandrina-050183، 723 صفحة). يبدأ بكتاب العتق وينتهي بكتاب الوقف، وفيه الأيمان والحدود والسرقة والسير والجزية والمرتد والبغاة واللقيط واللقطة والمفقود والشركة."
+  en: "Volume 3 of Ibn Abidin's gloss on al-Durr al-Mukhtar, an old print with the text of al-Durr al-Mukhtar in the margin, from the Bibliotheca Alexandrina scan on archive.org (item AAlexandrina-050183, 723 pages). It runs from the Book of Manumission to the Book of Waqf, with oaths, hadd penalties, theft, siyar, jizya, the apostate, rebels, foundlings, lost property, the missing person and partnership."
+title: "رد المحتار على الدر المختار، الجزء الثالث"
+author:
+  - { family: "ابن عابدين", given: "محمد أمين بن عمر" }
+  - { family: "Ibn Abidin", given: "Muhammad Amin ibn Umar" }
+language: ar
+reliability_note: "Imprint not read: the last page of the scan (PDF p. 723) is too damaged in the OCR to give the press or the year, so the edition is not stated; the layout (gloss in the body, al-Durr al-Mukhtar in the margin, index of matalib at the front, PDF pp. 3-19) matches the Bulaq print of vol. 4 (source/radd-al-muhtar-bulaq-v4) but this is not verified. Citations give PDF page numbers of the scan (markers in the OCR file). Printed page = PDF page minus 19 (checked: the Book of Manumission opens on PDF p. 21 = printed 2; PDF p. 400 carries printed 381). The OCR is noisy, with many misread letters; names and numbers used by the museum were read in context and doubtful readings are flagged in the entities."
+open_access: false
+sources: [source/radd-al-muhtar-scan-v3]
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker D); title page PDF p. 20, index PDF pp. 3-19, body read in part" }
+provenance: { layer: pd, source: "archive.org item AAlexandrina-050183 (Bibliotheca Alexandrina), OCR text in the harvest workspace, books/fiqh/radd-muhtar/AAlexandrina-050183", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
