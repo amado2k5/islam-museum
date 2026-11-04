@@ -292,3 +292,12 @@ zura-ibn-sharik-al-tamimi	REJECT: ar: thin (142ch)
 Promoted: yazid-ibn-asim-al-muharibi, rabi-ibn-khalid, ubayd-ibn-abi-al-mukhariq, ubaydallah-ibn-abdallah-ibn-utba, umm-al-banin-bint-abd-al-aziz, muhammad-ibn-shihab-al-zuhri, mutarrif-ibn-abdallah, salim-al-suddi, hisham-ibn-al-hakam, ibn-qays-al-ruqayyat, jafar-ibn-al-mubashshir, mabad-al-mughanni, salama-al-qass, jabir-ibn-zayd, sulayman-ibn-yasar, wahb-ibn-munabbih, yahya-ibn-watthab, yazid-ibn-al-asamm, ibn-muhriz, ibn-surayj, salm-ibn-ahwaz, tuways, sulayman-ibn-hisham, uqba-ibn-salim, ibrahim-ibn-muhammad-al-imam.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 677.** ~85 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
+
+### Batch 43 (4 Nov 2026, 24 records) — muruj draft promotions 14 (sweep worker)
+
+Promoted: nafi-ibn-abd-al-malik, rayta-bint-ubaydallah, sabiq-al-khwarizmi, ibrahim-ibn-makhrama-al-kindi, umm-salama-bint-yaqub, ibrahim-ibn-al-abbas-al-suli, yazid-al-raqqashi, salim-ibn-qutayba, yaqtin-ibn-musa, idris-ibn-abdallah, isa-ibn-zayd, muzna, shabba-ibn-aqqal, utba-jariyat-al-khayzuran, zaynab-bint-sulayman, isa-ibn-dab, marwan-ibn-abi-hafsa, shuba-ibn-al-hajjaj, zufar-ibn-al-hudhayl, ibn-yamin-al-basri, muhammad-ibn-al-hasan-al-shaybani, muhammad-ibn-jafar-al-alawi, musa-ibn-abdallah-al-zaydi, ishaq-al-mawsili.cite-check 24/24; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+layth-ibn-abi-sulaym	REJECT: ar: thin (141ch)
+
+**Lane total: 701.** ~60 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
