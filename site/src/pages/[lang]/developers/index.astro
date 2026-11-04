@@ -1,0 +1,318 @@
+---
+// Developers: the museum's open data and API — endpoints, schema, worked examples with real
+// responses, sample code, and starter prompts for AI coding agents. Prose from i18n;
+// code, URLs and JSON are language-neutral literals, shown LTR on every edition.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const D = T.developers;
+const API = "https://api.islam.museum/api/v1";
+
+const endpoints: { url: string; desc: string }[] = [
+  { url: `${API}/meta/index.json`, desc: D.ep1 },
+  { url: `${API}/meta/coverage.json`, desc: D.ep2 },
+  { url: `${API}/{class}/index.json`, desc: D.ep3 },
+  { url: `${API}/{class}/{slug}.json`, desc: D.ep4 },
+  { url: `${API}/graph/nodes.ndjson`, desc: D.ep5 },
+  { url: `${API}/graph/edges.ndjson`, desc: D.ep6 },
+  { url: `https://islam.museum/{lang}/embed/fact/ · /{lang}/embed/trail-of-the-week/`, desc: D.ep7 },
+  { url: "https://doi.org/10.5281/zenodo.23692511", desc: D.ep8 },
+];
+
+const nodeFields: { f: string; t: string; m: string }[] = [
+  { f: "id", t: "string", m: D.f_id },
+  { f: "class", t: "string", m: D.f_class },
+  { f: "label", t: "{ ar, en, ur }", m: D.f_label },
+  { f: "summary", t: "{ ar, en, ur }", m: D.f_summary },
+  { f: "wings", t: "string[]", m: D.f_wings },
+  { f: "regions", t: "string[]", m: D.f_regions },
+  { f: "status", t: "string", m: D.f_status },
+  { f: "wikidata", t: "string (QID)", m: D.f_wikidata },
+  { f: "born · died · date", t: "EDTF string", m: D.f_dates },
+];
+const edgeFields: { f: string; t: string; m: string }[] = [
+  { f: "from", t: "string (id)", m: D.e_from },
+  { f: "to", t: "string (id)", m: D.e_to },
+  { f: "type", t: "string", m: D.e_type },
+  { f: "inverse", t: "boolean", m: D.e_inverse },
+  { f: "sources", t: "string[] (ids)", m: D.e_sources },
+];
+
+const ex1 = `GET ${API}/meta/coverage.json
+
+{
+  "entities": 47718,
+  "stubs": 1852,
+  "byClass": { "person": 10884, "passage": 10079, "source": 7599,
+               "building": 5664, "event": 4960, … }
+}`;
+const ex2 = `GET ${API}/person/ibn-khaldun.json
+
+{
+  "id": "person/ibn-khaldun",
+  "class": "person",
+  "slug": "ibn-khaldun",
+  "label":   { "ar": "ابن خلدون", "en": "Ibn Khaldun" },
+  "summary": { "ar": "عبد الرحمن بن محمد بن خلدون الحضرمي، مؤلف المقدمة…", … },
+  "data":        { … the full structured record … },
+  "connections": [ … ],
+  "license":     { … }
+}`;
+const ex3 = `// one line of graph/nodes.ndjson — a record (a node)
+{"id":"building/99-domes-mosque","class":"building",
+ "label":{"ar":"مسجد القباب التسع والتسعون","en":"99 Domes Mosque, Makassar"},
+ "summary":{"ar":"…","en":"…"},"wings":["objects"],
+ "regions":["southeast-asia"],"wikidata":"Q116827711","status":"draft"}
+
+// two lines of graph/edges.ndjson — connections (edges), each with its sources
+{"from":"person/muhammad-ali-jauhar","to":"person/abadi-bano-begum",
+ "type":"child_of","inverse":false,
+ "sources":["source/wikipedia-abadi-bano-begum-en","source/wikipedia-abadi-bano-begum-ur"]}
+{"from":"person/a-k-fazlul-huq","to":"place/dhaka","type":"died_in","inverse":false,
+ "sources":["source/wikipedia-a-k-fazlul-huq-en","source/wikipedia-a-k-fazlul-huq-ar",
+            "source/wikidata-a-k-fazlul-huq"]}`;
+const ex4 = `Muhammad Ali Jauhar
+child_of -> Abadi Bano Begum | sources: 2`;
+
+const codeJs = `// Fetch one full record — no key needed, CORS is open.
+const res = await fetch("${API}/person/ibn-khaldun.json");
+const rec = await res.json();
+
+console.log(rec.id);          // "person/ibn-khaldun"
+console.log(rec.label.en);    // "Ibn Khaldun"
+console.log(rec.label.ar);    // "ابن خلدون"
+console.log(rec.summary.en);  // short sourced biography (also .ar / .ur)`;
+const codePy = `import json, urllib.request
+
+BASE = "${API}"
+
+def lines(url):
+    with urllib.request.urlopen(url) as r:
+        for raw in r:
+            if raw.strip():
+                yield json.loads(raw)
+
+# 49,570 records and 38,862 sourced connections
+nodes = {n["id"]: n for n in lines(f"{BASE}/graph/nodes.ndjson")}
+edges = list(lines(f"{BASE}/graph/edges.ndjson"))
+
+person = "person/muhammad-ali-jauhar"
+print(nodes[person]["label"]["en"])          # Muhammad Ali Jauhar
+for e in edges:
+    if e["from"] == person:                  # everything he connects to
+        other = nodes.get(e["to"], {})
+        name = other.get("label", {}).get("en", e["to"])
+        print(e["type"], "->", name, "| sources:", len(e["sources"]))`;
+const codeEmbed = `<!-- "Fact" card, Arabic (use /en/ or /ur/ for the other editions) -->
+<iframe src="https://islam.museum/ar/embed/fact/"
+        width="360" height="220" style="border:0" loading="lazy"
+        title="islam.museum — fact"></iframe>
+
+<!-- "Trail of the week" — a guided path through connected records -->
+<iframe src="https://islam.museum/ar/embed/trail-of-the-week/"
+        width="360" height="480" style="border:0" loading="lazy"
+        title="islam.museum — trail of the week"></iframe>`;
+const codeCurl = `# The two graph files are the complete museum data (CC0 — keep them, reuse them):
+curl -O ${API}/graph/nodes.ndjson
+curl -O ${API}/graph/edges.ndjson
+
+# Or fetch the archived preservation copy by its DOI:
+open "https://doi.org/10.5281/zenodo.23692511"`;
+
+const prompt1 = `Prompt 1 — Add museum widgets to our library portal
+
+You are helping a public library add islam.museum content to its website.
+The museum offers two embeddable widgets, no API key needed:
+  https://islam.museum/ar/embed/fact/              (a daily fact card)
+  https://islam.museum/ar/embed/trail-of-the-week/ (a guided trail)
+Task: create a self-contained HTML page section that embeds both widgets
+in iframes (Arabic by default, with a small ar/en/ur switcher that swaps
+the iframe language), keeps our existing layout intact on phone, tablet
+and desktop, adds no cookies or tracking, and shows a plain link to
+https://islam.museum if an iframe fails to load. Data licence: CC0.`;
+const prompt2 = `Prompt 2 — Build catalogue entries from the open data
+
+You are a library systems developer. islam.museum publishes every record
+as JSON, no key needed: ${API}/{class}/{slug}.json for one
+record, ${API}/{class}/index.json for a whole class (22 classes).
+Task: write a script that downloads the person index and produces a CSV
+for our catalogue with one row per published person: id, label (ar, en,
+ur), one-line summary (en), canonical page URL
+https://islam.museum/en/person/{slug}/, and the Wikidata QID where the
+record has one. Skip records whose status is not "published". Data is
+CC0 1.0; add the credit line "Data: islam.museum (CC0)" to the output.`;
+const prompt3 = `Prompt 3 — Answer questions from the graph, with sources
+
+You are a data analyst. Download the museum's graph (CC0, no key):
+  ${API}/graph/nodes.ndjson  (one record per line)
+  ${API}/graph/edges.ndjson  (one connection per line; each lists sources)
+Task: load both files and answer, as a sourced table: which people are
+connected to person/ibn-khaldun, by what type of connection, and which
+sources support each connection? Then generalise your code so a librarian
+can ask the same question for any record id. Never state a connection the
+edges file does not contain; report the source ids with every row.`;
+const prompt4 = `Prompt 4 — A local mirror with search, for our reading rooms
+
+You are a web developer. islam.museum's full dataset is CC0 and published
+as two NDJSON files (nodes and edges) at ${API}/graph/.
+Task: build a small static website we can host ourselves that loads a
+local copy of nodes.ndjson and offers fast search and filters by class,
+region and century, in Arabic and English. Every result links back to the
+record's canonical page on islam.museum. The site must work offline once
+the data file is downloaded, use no tracking, and credit
+"Data: islam.museum (CC0)" in the footer.`;
+---
+<BaseLayout lang={lang} title={D.title} description={D.lede} path={`/${lang}/developers/`}>
+  <PageHeader title={D.title} lede={D.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: D.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <p>{D.intro_1}</p>
+      <p>{D.intro_2}</p>
+      <p class="ui muted">{D.live_stats}</p>
+
+      <section aria-labelledby="unique-h" class="p-sec">
+        <h2 id="unique-h">{D.unique_title}</h2>
+        <p>{D.unique_intro}</p>
+        <h3>{D.u1_title}</h3>
+        <p>{D.u1_body}</p>
+        <h3>{D.u2_title}</h3>
+        <p>{D.u2_body}</p>
+        <h3>{D.u3_title}</h3>
+        <p>{D.u3_body}</p>
+        <h3>{D.u4_title}</h3>
+        <p>{D.u4_body}</p>
+        <h3>{D.u5_title}</h3>
+        <p>{D.u5_body}</p>
+        <h3>{D.u6_title}</h3>
+        <p>{D.u6_body}</p>
+        <p>{D.unique_closing}</p>
+      </section>
+
+      <section aria-labelledby="quickstart-h" class="p-sec">
+        <h2 id="quickstart-h">{D.quickstart_title}</h2>
+        <p>{D.quickstart_intro}</p>
+        <h3>{D.level1_title}</h3>
+        <p>{D.level1_body}</p>
+        <h3>{D.level2_title}</h3>
+        <p>{D.level2_body}</p>
+        <h3>{D.level3_title}</h3>
+        <p>{D.level3_body}</p>
+      </section>
+
+      <section aria-labelledby="endpoints-h" class="p-sec">
+        <h2 id="endpoints-h">{D.endpoints_title}</h2>
+        <p>{D.endpoints_intro}</p>
+        <div class="dev-scroll">
+          <table class="dev-table">
+            <thead><tr><th>{D.col_endpoint}</th><th>{D.col_returns}</th></tr></thead>
+            <tbody>
+              {endpoints.map((e) => (
+                <tr><td dir="ltr" class="dev-url">{e.url}</td><td>{e.desc}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section aria-labelledby="examples-h" class="p-sec">
+        <h2 id="examples-h">{D.examples_title}</h2>
+        <p>{D.examples_intro}</p>
+        <h3>{D.ex1_title}</h3>
+        <pre class="dev-pre"><code>{ex1}</code></pre>
+        <h3>{D.ex2_title}</h3>
+        <pre class="dev-pre"><code>{ex2}</code></pre>
+        <h3>{D.ex3_title}</h3>
+        <pre class="dev-pre"><code>{ex3}</code></pre>
+        <h3>{D.ex4_title}</h3>
+        <pre class="dev-pre"><code>{ex4}</code></pre>
+        <p class="ui muted">{D.ex_note}</p>
+      </section>
+
+      <section aria-labelledby="schema-h" class="p-sec">
+        <h2 id="schema-h">{D.schema_title}</h2>
+        <p>{D.schema_intro}</p>
+        <h3>{D.schema_node_title}</h3>
+        <div class="dev-scroll">
+          <table class="dev-table">
+            <thead><tr><th>{D.col_field}</th><th>{D.col_type}</th><th>{D.col_meaning}</th></tr></thead>
+            <tbody>
+              {nodeFields.map((r) => (
+                <tr><td dir="ltr" class="dev-url">{r.f}</td><td dir="ltr">{r.t}</td><td>{r.m}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <h3>{D.schema_edge_title}</h3>
+        <div class="dev-scroll">
+          <table class="dev-table">
+            <thead><tr><th>{D.col_field}</th><th>{D.col_type}</th><th>{D.col_meaning}</th></tr></thead>
+            <tbody>
+              {edgeFields.map((r) => (
+                <tr><td dir="ltr" class="dev-url">{r.f}</td><td dir="ltr">{r.t}</td><td>{r.m}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <h3>{D.schema_record_title}</h3>
+        <p>{D.schema_record_body}</p>
+        <p>{D.schema_types_body}</p>
+      </section>
+
+      <section aria-labelledby="code-h" class="p-sec">
+        <h2 id="code-h">{D.code_title}</h2>
+        <p>{D.code_intro}</p>
+        <h3>JavaScript</h3>
+        <pre class="dev-pre"><code>{codeJs}</code></pre>
+        <h3>Python</h3>
+        <pre class="dev-pre"><code>{codePy}</code></pre>
+        <h3>HTML — embeds</h3>
+        <pre class="dev-pre"><code>{codeEmbed}</code></pre>
+        <h3>Shell — the whole dataset</h3>
+        <pre class="dev-pre"><code>{codeCurl}</code></pre>
+      </section>
+
+      <section aria-labelledby="agents-h" class="p-sec">
+        <h2 id="agents-h">{D.agents_title}</h2>
+        <p>{D.agents_intro}</p>
+        <pre class="dev-pre"><code>{prompt1}</code></pre>
+        <pre class="dev-pre"><code>{prompt2}</code></pre>
+        <pre class="dev-pre"><code>{prompt3}</code></pre>
+        <pre class="dev-pre"><code>{prompt4}</code></pre>
+      </section>
+
+      <section aria-labelledby="roadmap-h" class="p-sec">
+        <h2 id="roadmap-h">{D.roadmap_title}</h2>
+        <p>{D.roadmap_1}</p>
+        <p>{D.roadmap_2}</p>
+        <p>{D.roadmap_3}</p>
+      </section>
+
+      <section aria-labelledby="honesty-h" class="p-sec">
+        <h2 id="honesty-h">{D.honesty_title}</h2>
+        <p>{D.honesty_body}</p>
+      </section>
+
+      <section aria-labelledby="licence-h" class="p-sec">
+        <h2 id="licence-h">{D.licence_title}</h2>
+        <p>{D.licence_body}</p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .p-sec { margin-block: 2rem 0; }
+  .p-sec h2 { margin-top: 0; }
+  .dev-scroll { overflow-x: auto; margin-block: 1rem; }
+  .dev-table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+  .dev-table th, .dev-table td { border: 1px solid var(--edge); padding: 8px 10px; text-align: start; vertical-align: top; }
+  .dev-table th { background: var(--panel); }
+  .dev-url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; word-break: break-all; }
+  .dev-pre { background: var(--panel); border: 1px solid var(--edge); border-radius: 10px; padding: 14px 16px; overflow-x: auto; font-size: 0.85rem; line-height: 1.55; direction: ltr; text-align: left; margin-block: 1rem; }
+  .dev-pre code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre; }
+</style>
