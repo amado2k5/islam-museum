@@ -1,0 +1,25 @@
+id: work/decorative-tiles-of-north-africa
+class: work
+kind: other
+label: { ar: "البلاطات الزخرفية في شمال أفريقيا", en: "The Decorative Tiles of North Africa", ur: "شمالی افریقہ کی آرائشی ٹائلیں" }
+summary:
+  ar: "كراسة لركسفورد نيوكومب (1929) عن عمارة المغرب الكبير وبلاطاته الخزفية، من مآذن القيروان وتلمسان إلى الزليج في فاس ومكناس {cite:newcomb-decorative-tiles-north-africa-1929 p.16} {cite:newcomb-decorative-tiles-north-africa-1929 p.21}."
+  en: "A 1929 monograph by Rexford Newcomb on Maghrebi architecture and its ceramic tiles, from the minarets of Kairouan and Tlemcen to the zellij of Fez and Meknes {cite:newcomb-decorative-tiles-north-africa-1929 p.16} {cite:newcomb-decorative-tiles-north-africa-1929 p.21}."
+wings: [objects, ideas]
+themes: [architecture, mosques]
+regions: [maghreb]
+languages: [en]
+composed: { edtf: "1929", calendar: gregorian, precision: year, status: historical, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+relations:
+  - { type: mentions, target: concept/zellij, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+  - { type: mentions, target: building/jami-qayrawan, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+  - { type: mentions, target: building/great-mosque-tlemcen, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+  - { type: mentions, target: building/mausoleum-of-moulay-ismail, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+sources: [source/newcomb-decorative-tiles-north-africa-1929]
+provenance:
+  layer: own-research
+  source: "Newcomb 1929, printed pp. 9-30"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

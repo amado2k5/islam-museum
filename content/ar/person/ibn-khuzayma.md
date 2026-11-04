@@ -3,6 +3,7 @@ id: person/ibn-khuzayma
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study pp. 25–41, 48 (section added; earlier text by its original authors)" }
 ---
 ## موجز
 أبو بكر محمد بن إسحاق بن خزيمة بن المغيرة السلمي النيسابوري، يصفه المصدر بإمام الأئمة ومحدّث نيسابور، وهو صاحب «الصحيح» المعروف بصحيح ابن خزيمة. وُلد سنة 223هـ (838م) وتوفي سنة 311هـ (924م). {cite:mawsuat-a3lam-ulama-adaba}
@@ -19,3 +20,35 @@ translators: []
 
 ## ملاحظة على السجل
 دُمج في هذا السجل سجلٌّ مكرر كان بمعرّف `person/ibn-khuzayma-muhammad`، وبقي ذلك المعرّف اسماً مستعاراً يحيل إلى هنا.
+
+## النسب
+وتسوق ترجمته في دراسة الشهوان نسبه تاماً: محمد بن إسحاق بن خزيمة بن المغيرة بن صالح بن بكر السلمي النيسابوري، الحافظ الحجة الفقيه الشافعي، صاحب التصانيف. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 25}
+
+## المولد والنشأة
+وُلد في صفر سنة 223هـ بنيسابور ونشأ بها، وطلب الحديث صغيراً، فسمع [[person/ishaq-ibn-rahwayh|إسحاق بن راهويه]] ومحمد بن حميد الرازي، ولم يحدّث عنهما لأنه سمع منهما قبل أن يفهم ويتبصّر. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 25} ولما أراد الرحلة إلى [[person/qutayba-ibn-said|قتيبة بن سعيد]] اشترط عليه أبوه أن يحفظ القرآن أولاً ويصلي بالختمة، فلما فعل أذن له، فخرج إلى [[place/marw|مرو]]، فنُعي إليهم قتيبة (ت 240هـ). {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 31} ثم رحل إلى [[place/rayy|الري]] و[[place/baghdad|بغداد]] و[[place/al-sham|الشام]] و[[place/basra|البصرة]] و[[place/kufa|الكوفة]] و[[place/jazira|الجزيرة]] و[[place/misr|مصر]] و[[place/wasit|واسط]]. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 31}
+
+## شيوخه وتلاميذه
+- من أشهر شيوخه: [[person/muhammad-ibn-yahya-al-dhuhli|محمد بن يحيى الذهلي]]، ومحمد بن بشار (بندار)، وأبو موسى محمد بن المثنى، و[[person/mahmud-ibn-ghaylan|محمود بن غيلان]]، وعلي بن حجر، ونصر بن علي الجهضمي، و[[person/yunus-ibn-abd-al-ala|يونس بن عبد الأعلى]]، و[[person/al-baghawi-ahmad-ibn-mani|أحمد بن منيع]]؛ وسمع من [[person/al-bukhari|البخاري]] و[[person/muslim-ibn-al-hajjaj|مسلم]]، ويزيد شيوخه في كتاب التوحيد وحده على 135 شيخاً. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 32}
+- وتفقه على [[person/al-muzani|المزني]] و[[person/al-rabi-ibn-sulayman-al-muradi|الربيع بن سليمان المرادي]] صاحبي الشافعي، فصار فقيهاً مجتهداً يُرجع إليه في الفتوى ببلده، وإن غلب عليه الإسناد. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 41}
+- روى عنه من شيوخه البخاري ومسلم خارج الصحيح، ومحمد بن عبد الله بن الحكم، ومن غيرهم أبو علي النيسابوري ويحيى بن محمد بن صاعد وأبو حامد بن بالويه وأبو بكر بن مهران المقرئ؛ وآخر من روى عنه بنيسابور حفيده أبو طاهر محمد بن الفضل، ومن طريقه وصل [[work/tawhid-ibn-khuzayma|كتاب التوحيد]]. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 32}
+- ومن أصحابه الذين يذكرهم الحاكم أبو علي الثقفي وأبو بكر بن إسحاق الصبغي، خليفته في الفتوى. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 34-35}
+
+## صفاته كما ترويها ترجمته
+- ينقل عنه أنه كان إذا أراد أن يصنّف شيئاً دخل في الصلاة مستخيراً حتى يقع له فيها، ثم يبتدئ التصنيف؛ وأنه سئل من أين أوتي العلم فذكر حديث ماء زمزم وأنه سأل الله حين شربه علماً نافعاً. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 25-26}
+- وتصف الترجمة زهده: لم يكن له أكثر من قميصين، يلبس أحدهما والآخر عند الخياط، فإذا نزع الذي يلبسه وهبه. وقال حفيده إنه كان لا يدّخر شيئاً وينفق على أهل العلم، ولا يعرف صنجة الوزن. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 26}
+- ويذكر الحاكم أنه عمل دعوة عظيمة جمع فيها الفقراء والأغنياء، ونقل إليها ما في البلد من الطعام، وكانت في جمادى الأولى سنة 309هـ. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 26}
+- وروى أبو بكر بن بالويه عنه أنه كان عند الأمير إسماعيل بن أحمد فحدّث الأمير عن أبيه بحديث وهم في إسناده، فردّه عليه؛ فقال له أبو ذر القاضي إنهم عرفوا ذلك الخطأ منذ عشرين سنة فلم يقدر أحد على ردّه، فقال إنه لا يحل له أن يسمع حديثاً للنبي فيه خطأ ولا يردّه. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 27}
+
+## مكانته
+- سئل [[person/ibn-abi-hatim-al-razi|ابن أبي حاتم]] عنه فقال: «هو يُسأل عنّا ولا نُسأل عنه، هو إمام يُقتدى به». وقال الربيع بن سليمان، وهو من شيوخه: «استفدنا منه أكثر مما استفاد منّا». {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 33}
+- وقال [[person/al-daraqutni|الدارقطني]]: «كان ابن خزيمة إماماً ثبتاً معدوم النظير». وقال [[person/ibn-hibban|ابن حبان]] إنه ما رأى على وجه الأرض من يحسن صناعة السنن ويحفظ ألفاظها الصحاح وزياداتها حتى كأن السنن كلها بين عينيه إلا ابن خزيمة. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 33-34}
+- وقال [[person/ibn-surayj|ابن سريج]] إنه كان يستخرج النكت من حديث رسول الله بالمنقاش. وحكى عنه أبو إسحاق الشيرازي قوله: «ما قلّدت أحداً منذ بلغت ست عشرة سنة». {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 34}
+
+## مؤلفاته
+يقول الحاكم إن مصنفاته تزيد على مائة وأربعين كتاباً سوى المسائل، والمسائل المصنفة أكثر من مائة جزء، وإن له «فقه حديث بريرة» في ثلاثة أجزاء. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 35} ويقول المحقق إن أكثرها فُقد، ولم يبق منها إلا [[work/tawhid-ibn-khuzayma|كتاب التوحيد]]، ونحو ربع [[work/sahih-ibn-khuzayma|صحيحه]]، وكتاب «شأن الدعاء وتفسير الأدعية المأثورة» في المكتبة الظاهرية بدمشق. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 35} ومن إحالاته في كتبه يُعرف «معاني القرآن» و«المسند في الفقه» الذي يسميه أحياناً «الكتاب الكبير»، و«كتاب القدر». {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 36} {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 48}
+
+## عقيدته وما قيل فيها
+ينقل المحقق عنه قوله إن القرآن كلام الله ووحيه وتنزيله غير مخلوق، وقوله: «ليس لأحد مع رسول الله قول إذا صحّ الخبر»، ويرى أن اعتقاده في الأسماء والصفات اعتقاد أهل السنة من السلف. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 39} وقد انتقد كتابه في التوحيد من الأشاعرة [[person/fakhr-al-din-al-razi|فخر الدين الرازي]]، ومن المعاصرين [[person/muhammad-zahid-al-kawthari|محمد زاهد الكوثري]]، كما يذكر المحقق ويرد عليهما؛ وتفصيل ذلك في صفحة [[work/tawhid-ibn-khuzayma|الكتاب]]. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 39-41}
+
+## وفاته
+توفي ليلة السبت الثاني من ذي القعدة سنة 311هـ، وعمره تسع وثمانون سنة. وله في «تاريخ نيسابور» للحاكم ترجمة طويلة في بضع وعشرين ورقة، فيها وصيته وقصيدتان رُثي بهما. {cite:kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study p. 27}
