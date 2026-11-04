@@ -13,11 +13,12 @@ regions: [arabia]
 relations:
   - { type: related_to, target: concept/hujjiyyat-al-sunna, sources: [source/makanat-al-sunna-azhar] }
   - { type: related_to, target: concept/al-sunna-al-nabawiyya, sources: [source/makanat-al-sunna-azhar] }
-sources: [source/makanat-al-sunna-azhar, source/tamhid-furqan-2017-v1]
+sources: [source/makanat-al-sunna-azhar, source/tamhid-furqan-2017-v1, source/kitab-al-umm-wafa-v8]
 provenance:
   layer: own-research
   source: "مكانة السنة في بيان الأحكام الإسلامية لعلي الخفيف، ص ٤١–٤٢ و٨٤–٨٥؛ صياغة المتحف"
   generated_by: "Claude Code"
   model: claude-haiku-5-5
   run: azhar-makanat-al-sunna-2026-10-22
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-umm-wafa-v8 pp. 513-514"
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }

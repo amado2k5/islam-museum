@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/khitat-maqrizi-1998]
+sources: [source/khitat-maqrizi-1998, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q7404512
 provenance:
@@ -19,7 +19,11 @@ provenance:
   generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
   model: claude-haiku-5-5
   run: wikidata-import-audit, showcase-prose-phase2-egypt-batch9
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 116-118"]
 status:
   review: published
   completeness: 3
   generated_by: "Claude Haiku 5.5; the two Salihiyya madrasas, their position beside the dome of al-Salih, and the four teaching posts are read from al-Maqrizi's Khitat (local scan, pp. 1061, 1062, 1912). The 1243 date of the Wikidata candidate is not confirmed locally and is not used in the prose"
+built: { edtf: "1242", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 116: the Salihiya, 1242; mausoleum added by Shajar al-Durr 1249 (p. 118)." }
+patron: person/al-malik-al-salih-ayyub
+status_now: ruined

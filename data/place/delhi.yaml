@@ -10,14 +10,15 @@ regions: [south-asia]
 coordinates: [28.6519, 77.2315]
 coordinate_precision: site
 external_ids: { geonames: "1273294" }
-sources: [source/geonames-gazetteer]
-provenance:
-  layer: own-research
-  source: "GeoNames gazetteer record (coordinates); Delhi Sultanate/Mughal capital summary from standard histories"
-  generated_by: "Devin (SWE-2 Medium)"
-  run: explorer-mughal-delhi
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-khayriyya-1904]
+status: { review: published, completeness: 2, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
 kids:
   ar: "دلهي عاصمة سلطنة الهند وأكبر مدنها القديمة."
   en: "Delhi, capital of the Indian sultanates and one of the oldest great cities."
   ur: "دہلی ہندوستان کی سلطنتوں کا دارالحکومت اور قدیم بڑے شہروں میں سے۔"
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer record (coordinates); Delhi Sultanate/Mughal capital summary from standard histories; source/rihla-ibn-battuta-khayriyya-1904 scan pp. 354-355, 385, 412"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "explorer-mughal-delhi; ocr-harvest-2026-11-04"

@@ -1,0 +1,26 @@
+id: person/fatima-bint-muhammad-ibn-al-munkadir
+class: person
+label: { ar: "فاطمة بنت محمد بن المنكدر", en: "Fatima bint Muhammad ibn al-Munkadir" }
+names:
+  - { kind: full, lang: ar, value: "فاطمة بنت محمد بن المنكدر" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل المدينة، ابنة التابعي محمد بن المنكدر، يذكرها ابن الجوزي في «صفة الصفوة» بين عابدات المدينة المعروفات؛ كانت تصوم النهار، وإذا جنها الليل نادت بصوت حزين تسأل الله أن يعتقها من النار، وذكرها البيهقي في «شعب الإيمان» كما يشير المحقق."
+  en: "A devout woman of Medina, daughter of the Successor Muhammad ibn al-Munkadir, whom Ibn al-Jawzi lists among the known devout women of Medina in Sifat al-Safwa; she fasted by day, and when night fell she called out in a mournful voice asking God to free her from the Fire; al-Bayhaqi mentions her in Shu'ab al-Iman, as the editor notes."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: child_of, target: person/muhammad-ibn-al-munkadir, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.370-371"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
