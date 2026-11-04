@@ -26,3 +26,12 @@ Stub: person/safwan-ibn-assal.
 
 ## Next
 - Camel meat question (pp. 96–97), Friday hour (pp. 443–445), adhan/iqama, imama chapters; vols 2–5 when OCR arrives.
+
+## Batch 2 — vols 2–5 sources and vol. 5 Kitab al-Sunna
+Items now present: `-02` (599 pp., md5 4f27bf65eb4c…), `-03` (551 pp., 890d388ba839…), `-04` (480 pp., 466139ebd547…), `-05` (449 pp., 1e4691a30ca7…), all distinct volumes of the same Dar Ibn Hazm 1997 set; printed page = PDF page.
+Sources created: `source/sunan-abi-dawud-ibn-hazm-1997-v2` … `-v5`; added to `work/sunan-abi-dawud` editions.
+Vol. 5 read: Kitab al-Sunna pp. 5–8, 39–45, 61–68, 72–83 (Kitab al-Adab from p. 87).
+Created: question/does-faith-increase-and-decrease; question/are-islam-and-iman-the-same; question/is-the-grave-sinner-still-a-believer; concept/adhab-al-qabr; concept/al-hawd-al-nabawi (the Prophet's Basin — distinct from the fiqh record concept/hawd-basin-water, which is about water tanks).
+Enriched (section appended in ar/en/ur, source added; earlier text untouched): group/khawarij, group/jahmiyya, concept/al-iftiraq-al-ummah; work/sunan-abi-dawud (Kitab al-Sunna section).
+Notes: the Jahmiyya and Khawarij sections give these groups in their opponents' words and say so; al-Khattabi's tafwid/tanzih reading of the attribute reports is attributed to him, with the annotator's pointers to Ibn al-Qayyim and al-Kawthari (not yet read). The name of Jahm's killer OCRs as «سلمة بن أحوز»; linked to person/salm-ibn-ahwaz and flagged.
+Not done: concept/abandoning-prayer-takfir could take al-Khattabi's school survey (vol. 5 pp. 40–41) but lacks en/ur prose, so it was left for a full rewrite. Vol. 5 chapters on qadar (pp. 45–61), tafdil/khulafa (pp. 20–36), ru'ya, Qur'an and shafa'a remain; vols 2–4 not yet mined.
