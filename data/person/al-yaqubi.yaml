@@ -1,42 +1,76 @@
 id: person/al-yaqubi
 class: person
-label:
-  ar: اليعقوبي
-  en: al-Ya'qubi
-  ur: الیعقوبی
+
+label: { ar: "اليعقوبي", en: "Al-Ya'qubi", ur: "یعقوبی" }
+
 names:
-- kind: full
-  lang: ar
-  value: أحمد بن أبي يعقوب بن جعفر بن وهب بن واضح الكاتب العباسي
-- kind: nisba
-  lang: ar
-  value: اليعقوبي
-roles:
-- historian
+  - { value: "أبو العباس أحمد بن أبي يعقوب بن جعفر بن وهب بن واضح اليعقوبي", kind: full }
+  - { value: "Abu l-Abbas Ahmad ibn Abi Ya'qub ibn Ja'far ibn Wahb ibn Wadih al-Ya'qubi", kind: full }
+  - { value: "أحمد بن إسحاق بن جعفر بن وهب بن واضح اليعقوبي", kind: full }
+  - { value: "أبو العباس", kind: kunya }
+  - { value: "Abu l-Abbas", kind: kunya }
+  - { value: "Ibn Wadih", kind: alternate }
+  - { value: "ابن واضح", kind: alternate }
+
 gender: male
-wings:
-- people
-periods:
-- period/abbasid-early
+
 summary:
-  ar: أحمد بن أبي يعقوب بن جعفر بن وهب بن واضح الكاتب العباسي، المعروف باليعقوبي، كما يسمّيه عنوان كتابه، صاحب التاريخ المعروف باسمه، الذي ينتهي الموجود منه بحوادث سنة 258هـ. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. scan 3} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 625}
-  en: Ahmad ibn Abi Ya'qub ibn Ja'far ibn Wahb ibn Wadih al-Katib al-Abbasi, known as al-Ya'qubi, as the title of his book names him; author of the history known by his name, whose surviving text ends with the events of 258 AH. {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. scan 3} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 625}
-  ur: احمد بن ابی یعقوب بن جعفر بن وہب بن واضح الکاتب العباسی، جو الیعقوبی کے نام سے معروف ہیں، جیسا کہ ان کی کتاب کا عنوان انہیں پکارتا ہے؛ اپنے نام سے معروف تاریخ کے مصنف، جس کا موجود متن 258ھ کے واقعات پر ختم ہوتا ہے۔ {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. scan 3} {cite:tarikh-yaqubi-houtsma-1883 vol. 2 p. 625}
+  ar: "أبو العباس أحمد بن أبي يعقوب اليعقوبي (ت. بعد 908 بقليل)، المعروف بابن واضح، مؤرخ وجغرافي من العصر العباسي: كاتب بغدادي المولد خدم في أرمينية وعند الطاهريين بخراسان ثم عند الطولونيين بمصر، وألّف «تاريخ اليعقوبي» — تاريخًا عامًّا حتى سنة 873 — و«كتاب البلدان» (891) وهو من أقدم كتب الجغرافيا العربية الباقية. سنة مولده غير مدونة، ويقدّرها المؤرخون المحدثون بين 844 و854، وما يزال مذهبه موضع جدل علمي."
+  en: "Abu l-Abbas Ahmad ibn Abi Ya'qub al-Ya'qubi (died shortly after 908), known as Ibn Wadih, was an Abbasid historian and geographer: a Baghdad-born chancery secretary who served in Armenia, under the Tahirids in Khurasan and under the Tulunids in Egypt, and wrote the Ta'rikh — a universal history down to 873 — and the Kitab al-Buldan (891), among the earliest surviving works of Arabic geography. His birth year is unrecorded; modern historians estimate 844-854. Whether he was a Shi'i, and of what kind, remains a live scholarly debate."
+  ur: "ابو العباس احمد بن ابی یعقوب الیعقوبی (وفات 908ء کے کچھ بعد)، جو ابن واضح کے نام سے مشهور ہیں، عباسی دور کے مورخ و جغرافیہ دان تھے: بغداد میں پیدا ہونے والے اس منشی نے آرمینیا، خراسان میں طاہریوں اور مصر میں طولونیوں کی خدمت کی، اور «تاریخ یعقوبی» — 873ء تک کی عالمی تاریخ — اور «کتاب البلدان» (891ء) لکھی جو عربی جغرافیے کی قدیم ترین باقی ماندہ کتابوں میں سے ہے۔ ان کی پیدائش کا سال درج نہیں؛ جدید مورخین اس کا تخمینہ 844–854ء لگاتے ہیں، اور ان کا مذہبی رجحان آج بھی علمی بحث کا موضوع ہے۔"
+
+roles: [historian, geographer]
+regions: [levant-iraq, egypt-nile]
+wings: [people]
+
+died:
+  edtf: "0908~"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: false
+  note: "The traditional death date, 284 AH (897 CE) in Egypt, comes from Yaqut citing the lost work of the Egyptian historian Abu Umar al-Kindi, and the Arabic and Urdu articles still carry it (the Arabic article adds a variant report of 298 AH, and Wikidata gives 905). Sean Anthony's biographical sketch in the Brill edition of his works (2018) shows that the 284 date is an erroneous conflation with a contemporary Egyptian hadith scholar, Abu Ja'far Ahmad ibn Ishaq ibn Wadih al-Assal, who died in Safar 284 AH: al-Ya'qubi's own verses on the fall of the Tulunids in 292 AH (905 CE) and on the death of the caliph al-Muktafi in 295 AH (908 CE) prove he outlived both, and he is believed to have died in Egypt shortly after 908. The year is therefore recorded as an approximation under debate, and no Hijri year is recorded: the traditional pairing of 284 AH belongs to the conflated date, and a death shortly after 295 AH fixes no single Hijri year."
+  sources: [source/wikipedia-al-yaqubi-en, source/wikipedia-al-yaqubi-ar, source/wikipedia-al-yaqubi-ur, source/wikidata-al-yaqubi]
+
 relations:
-- type: authored
-  target: work/tarikh-al-yaqubi
-  sources:
-  - source/tarikh-yaqubi-houtsma-1883
-sources: &id001
-- source/tarikh-yaqubi-houtsma-1883
+  - { type: born_in, target: place/baghdad, sources: [source/wikipedia-al-yaqubi-en, source/wikipedia-al-yaqubi-ar] }
+
+faith:
+  - value: unknown
+    basis: unknown
+    note: >-
+      Al-Ya'qubi's sectarian identity is one of the genuinely open questions of Abbasid
+      historiography, and no settlement is recorded. The Shi'i reading: de Goeje (1876)
+      called him a 'full-blooded Shi'ite' and Houtsma (1883) agreed; Millward and Marquet
+      in the 1970s found his outlook broadly pro-Shi'ite though not insular, drawing on
+      diverse non-sectarian sources; Sean Anthony (2016) concluded that his narrative of
+      the early caliphate expresses a distinctively rejectionist (Rafidi) Shi'ite stance;
+      recent Arabic scholarship (al-Ghannay, 2025) characterises him as fundamentally
+      Imami; and the Arabic biographical tradition claims him for Shi'ism in Muhsin
+      al-Amin's A'yan al-Shia and Aqa Buzurg al-Tihrani's al-Dhari'a. The specific-branch
+      hypothesis: Houtsma, Brockelmann and Marquet proposed that he belonged to the
+      Waqifa, who held the imamate to have ended with the seventh imam, Musa al-Kazim —
+      a hypothesis incompatible with the Imami reading. The dissent: Elton Daniel (2004)
+      argued that the textual signs of Shi'i bias are scribal artefacts of Safavid-era
+      manuscripts and that his reverence for the Ahl al-Bayt reflects the Hashimi loyalty
+      of an Abbasid client family; the Arabic article likewise records scholars who
+      affirm he was a Sunni. The branch-specific attestations thus conflict (Waqifa
+      against Imami), the general Shi'i attestation is itself disputed, and under the
+      museum's rules a general attestation of 'Shi'a' settles nothing in any case.
+      Wikidata's religion value is Islam in general — structured data only.
+    sources: [source/wikipedia-al-yaqubi-en, source/wikipedia-al-yaqubi-ar, source/wikidata-al-yaqubi]
+
+external_ids: { wikidata: "Q293689" }
+
+sources:
+  - source/wikipedia-al-yaqubi-en
+  - source/wikipedia-al-yaqubi-ar
+  - source/wikipedia-al-yaqubi-ur
+  - source/wikidata-al-yaqubi
+
 provenance:
   layer: own-research
-  source: Tarikh al-Ya'qubi (Houtsma ed.), vol. 2 title page (scan p. 3) and colophon (p. 625)
-  generated_by: Claude Opus 5.5
-  model: claude-opus-5-5
-  run: lib-tarikh-yaqubi-batch-1-2026-10-31
-  sources: *id001
-status:
-  review: published
-  completeness: 2
-  generated_by: Claude Opus 5.5 from Apple Vision OCR of Tarikh al-Yaqubi (Houtsma ed., Leiden 1883), read on the page
+  source: "The English, Arabic and Urdu Wikipedia articles on al-Ya'qubi and Wikidata Q293689, all read in full at the revisions recorded in their source files, fetched live from the MediaWiki API on 1 November 2026, the Wikidata revision re-asserted against a second live query and the QID grounded from the English article's own page property. The founder commissioned this build in the century queue's section I (826-925 additions), where the row gives his years as 812-897. Two queue points are corrected on the evidence: the birth year 812 is attested in no source read — no source records a birth year at all, and the modern scholarly estimate the English article reports is 230-240 AH (844-854 CE) — so no birth block is recorded and the estimate is carried in the summary and prose; and the death year 897, though still the lead date of the English article and the date of the Arabic and Urdu articles, is shown in the English article's own Death section, after Anthony's Brill biographical sketch (2018), to be a conflation with Ahmad ibn Ishaq al-Assal, so the death is built as shortly after 908, under debate. His name is likewise given in two traditions: the Brill sketch and the English and Urdu articles read Ahmad ibn Abi Ya'qub ibn Ja'far ibn Wahb ibn Wadih, while the Arabic biographical tradition (the Arabic article; al-Zirikli's al-A'lam) reads Ahmad ibn Ishaq; both forms stand in the names. He died in Egypt, but the museum has no place entity for Egypt, so the death place is prose-only; his Baghdad birth is written as an edge on the biographical tradition the English article reports (Zaman's Encyclopaedia of Islam entry) and the Arabic article states outright."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave-157i"
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
