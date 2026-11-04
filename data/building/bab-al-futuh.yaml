@@ -1,0 +1,25 @@
+id: building/bab-al-futuh
+class: building
+kind: other
+label: { ar: "باب الفتوح", en: "Bab al-Futuh, Cairo", ur: "باب الفتوح، قاہرہ" }
+summary:
+  ar: "باب القاهرة الفاطمية الشمالي الآخر، بناه بدر الجمالي في تجديد الأسوار (1087-1092م) ببرجين نصف دائريين بارزين، ويؤلف مع باب النصر وجامع الحاكم مجموعة عسكرية فريدة {cite:yeomans-islamic-cairo-2006 p.46} {cite:yeomans-islamic-cairo-2006 p.49}."
+  en: "The other northern gate of Fatimid Cairo, built by Badr al-Jamali in the rebuilding of the walls (1087-1092) with two bulging semicircular towers, forming with Bab al-Nasr and the Mosque of al-Hakim a unique military ensemble {cite:yeomans-islamic-cairo-2006 p.46} {cite:yeomans-islamic-cairo-2006 p.49}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+built: { edtf: "1087/1092", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 46: part of Badr al-Jamali's rebuilding of the walls, 1087-1092." }
+patron: person/badr-al-jamali
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 46-49"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
