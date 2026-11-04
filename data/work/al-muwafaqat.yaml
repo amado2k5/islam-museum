@@ -1,0 +1,30 @@
+id: work/al-muwafaqat
+class: work
+kind: book
+label: { ar: "الموافقات في أصول الشريعة", en: "al-Muwafaqat fi Usul al-Shari'a", ur: "الموافقات فی اصول الشریعہ" }
+summary:
+  ar: "كتاب في أصول الشريعة لأبي إسحاق الشاطبي الغرناطي المالكي (ت 790هـ)، جعله مؤلفه خمسة أقسام: المقدمات العلمية، والأحكام، والمقاصد الشرعية، والأدلة الشرعية، والاجتهاد والتقليد؛ وسماه أولاً «عنوان التعريف بأسرار التكليف» ثم «الموافقات» لرؤيا رآها بعض شيوخه. وأشهر ما فيه كتاب المقاصد الذي يقرر أن التكاليف ترجع إلى حفظ مقاصد ضرورية وحاجية وتحسينية، وأن الضروريات خمس: حفظ الدين والنفس والنسل والمال والعقل، معتمداً على الاستقراء {cite:muwafaqat-mashhur-ibn-affan-v1 p. 9} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 10} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 11} {cite:muwafaqat-draz-ilmiyya p. 221} {cite:muwafaqat-draz-ilmiyya p. 222}."
+  en: "A work on the principles of the Shari'a by Abu Ishaq al-Shatibi of Granada, a Maliki (d. 790 AH), which its author divided into five parts: preliminary premises, rulings, the objectives of the law, the legal proofs, and independent reasoning and imitation. He first named it 'Unwan al-Ta'rif bi-Asrar al-Taklif, then al-Muwafaqat because of a dream one of his teachers saw. Its best-known part is the book of objectives, which holds that the obligations of the law serve to preserve necessary, needed and refining purposes, the necessities being five - religion, life, progeny, property and intellect - established by induction."
+  ur: "ابو اسحاق شاطبی غرناطی مالکی (م 790ھ) کی اصولِ شریعت پر کتاب، جسے مصنف نے پانچ اقسام میں تقسیم کیا: علمی مقدمات، احکام، مقاصدِ شرعیہ، ادلۂ شرعیہ، اور اجتہاد و تقلید۔ انہوں نے پہلے اس کا نام «عنوان التعریف باسرار التکلیف» رکھا، پھر اپنے ایک شیخ کے خواب کی بنا پر «الموافقات»۔ اس کا سب سے مشہور حصہ کتاب المقاصد ہے، جو بیان کرتا ہے کہ شرعی تکالیف ضروری، حاجی اور تحسینی مقاصد کی حفاظت کی طرف لوٹتی ہیں، اور ضروریات پانچ ہیں: دین، جان، نسل، مال اور عقل کی حفاظت — استقرا کی بنیاد پر۔"
+genre: [usul-al-fiqh]
+language: language/arabic
+authors: [person/abu-ishaq-al-shatibi]
+structure: "Author's preface (Ibn Affan ed. pp. 3-12). Part 1: thirteen muqaddimat on the nature of usul knowledge (Draz ed. p. 18). Part 2: Kitab al-Ahkam - the rulings of obligation and of declaration, with long treatment of the permitted, cause, condition, strictness and dispensation (p. 63). Part 3: Kitab al-Maqasid - the Lawgiver's purposes (in laying down the law, in making it understood, in imposing obligations, in bringing the subject under it) and the purposes of the subject (p. 219). Part 4: Kitab al-Adilla - the Book and the sunna, their general and particular features (p. 469). Part 5: Kitab al-Ijtihad - independent reasoning, imitation, conflict and preference, question and answer (p. 774)."
+wings: [ideas, words]
+themes: [development-of-law-theology-institutions, law-and-courts]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: about, target: concept/maqasid-al-shariah, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: rules_on, target: concept/al-daruriyyat-al-khams, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: mentions, target: person/fakhr-al-din-al-razi, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim, sources: [source/muwafaqat-mashhur-ibn-affan-v1] }
+  - { type: mentions, target: person/abu-hanifa, sources: [source/muwafaqat-mashhur-ibn-affan-v1] }
+sources: [source/muwafaqat-draz-ilmiyya, source/muwafaqat-mashhur-ibn-affan-v1]
+provenance:
+  layer: own-research
+  source: "muwafaqat-draz-ilmiyya pp. 1-10, 18, 63, 219-223, 469, 774; muwafaqat-mashhur-ibn-affan-v1 pp. 1, 3-12"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L)" }

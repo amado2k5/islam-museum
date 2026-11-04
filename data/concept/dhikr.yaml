@@ -16,14 +16,16 @@ regions:
 - global
 provenance:
   layer: own-research
-  source: "جامع العلوم والحكم، الحديث الخمسون ص 927 (ط دار ابن كثير 1429هـ/2008م)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-jami-ulum-hikam-batch-18
+  source: "جامع العلوم والحكم، الحديث الخمسون ص 927 (ط دار ابن كثير 1429هـ/2008م); Miftah al-Falah (Matba'at al-Sa'ada 1332 AH) pp. 5-6, 19, 43"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 sources:
 - source/ibn-rajab-jami-ulum-hikam
 - source/assabile-omar-abdelkafy
+- source/miftah-al-falah-saada-1332
 status:
-  review: draft
+  review: published
   completeness: 1
   generated_by: "Devin (SWE-2 High); the comprehensive-gate framing, Mu'adh's parallel and Ibn Rajab's idama/frequency emphasis verified against OCR of printed p. 927"
 
