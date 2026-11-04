@@ -22,6 +22,9 @@ open a new block on top with the new version and today's date.
 - **A standing rule for every agent** (in the repo's `AGENTS.md`): anyone who changes anything in this repository records the change here in the same commit, then commits, opens a pull request and merges it — finished work is never left sitting locally.
 - **Forty more Timeline Explorer stories**: follow twenty places and twenty people through 303 dated, cited stops drawn from existing museum records. Every new subject has Arabic, English and Urdu titles and summaries; individual event text retains the documented Arabic fallback where a translation is missing.
 
+### Fixed
+- **Five Explorer fallback scenes**: ten new adult/kids landscape backdrops prevent five legacy record illustrations with figures from being selected at those stops. Every new image was inspected at full size; the legacy files and other owners' Explorer assets were left unchanged.
+
 ### Data
 - **Clearer subject metadata**: Urdu labels and summaries added to forty existing records, with recorded localization provenance. Missing provenance restored on seven places and one migration event without changing existing event dates or relationships.
 - **Honest Explorer image status**: the forty-story batch remains unpublished pending replacement of five shared backdrops that contain figures. The owner request identifies each file and affected story; a prompt or an earlier screening claim is not treated as proof that an image is safe.
