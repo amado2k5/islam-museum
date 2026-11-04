@@ -1,0 +1,26 @@
+id: work/ikhtilaf-al-iraqiyyin
+class: work
+kind: book
+label:
+  ar: "كتاب اختلاف العراقيين"
+  en: "Kitab Ikhtilaf al-Iraqiyyin (The Disagreement of the Iraqis)"
+  ur: "کتاب اختلاف العراقیین"
+summary:
+  ar: "كتاب من كتب الأم للشافعي، عنوانه في أوله: «هذا كتاب ما اختلف فيه أبو حنيفة وابن أبي ليلى عن أبي يوسف». يسوق المسألة بقولي الفقيهين الكوفيين وما أخذ به أبو يوسف، ثم يعقّب الشافعي برأيه وحجته، في أبواب المعاملات والعبادات والجنايات والأحوال الشخصية. {cite:kitab-al-umm-wafa-v8 p.217}"
+  en: "A book of al-Shafi'i's al-Umm whose opening line reads: 'This is the book of what Abu Hanifa and Ibn Abi Layla disagreed on, from Abu Yusuf.' It gives each question with the views of the two Kufan jurists and which one Abu Yusuf adopted, and then al-Shafi'i comments with his own view and argument, across transactions, worship, offences and family law."
+  ur: "امام شافعی کی الام کی ایک کتاب، جس کے آغاز میں لکھا ہے: «یہ ان مسائل کی کتاب ہے جن میں ابو حنیفہ اور ابن ابی لیلیٰ نے اختلاف کیا، ابو یوسف سے»۔ اس میں ہر مسئلہ دونوں کوفی فقہاء کے اقوال اور ابو یوسف کے اختیار کردہ قول کے ساتھ آتا ہے، پھر امام شافعی اپنی رائے اور دلیل بیان کرتے ہیں؛ ابواب معاملات، عبادات، جنایات اور عائلی احکام پر ہیں۔"
+genre: [fiqh, ikhtilaf]
+language: language/arabic
+authors: [person/al-shafii]
+wings: [ideas, words]
+themes: [law-and-courts, development-of-law-theology-institutions]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: work/kitab-al-umm, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: about, target: person/abu-hanifa, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: about, target: person/muhammad-ibn-abd-al-rahman-ibn-abi-layla, sources: [source/kitab-al-umm-wafa-v8] }
+  - { type: mentions, target: person/abu-yusuf-al-qadi, sources: [source/kitab-al-umm-wafa-v8] }
+sources: [source/kitab-al-umm-wafa-v8]
+provenance: { layer: own-research, source: "kitab-al-umm-wafa-v8 pp. 217-390", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }
