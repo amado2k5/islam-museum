@@ -13,8 +13,15 @@ summary:
   en: "Qadi Abu Ubayd ibn Harawayh, who died in 319 {cite:tabaqat-fuqaha-abbas-1981 p. 58}, a member of a tabaqa most of whom were companions of Abu al-Abbas ibn Surayj {cite:tabaqat-fuqaha-abbas-1981 p. 58}."
 wings: [people]
 sources: [source/tabaqat-fuqaha-abbas-1981]
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary

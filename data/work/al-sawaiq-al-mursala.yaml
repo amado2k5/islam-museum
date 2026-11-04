@@ -1,17 +1,28 @@
 id: work/al-sawaiq-al-mursala
 class: work
 kind: book
-label: { ar: "الصواعق المرسلة", en: "al-Sawa'iq al-Mursala" }
+genre: [creed, polemic, kalam]
+label: { ar: "الصواعق المرسلة على الجهمية والمعطلة", en: "al-Sawa'iq al-Mursala 'ala al-Jahmiyya wa'l-Mu'attila", ur: "الصواعق المرسلہ علی الجہمیہ والمعطلہ" }
 summary:
-  ar: "بطاقة أولية للصواعق المرسلة لابن قيم الجوزية، في الرد على المعتزلة والجهمية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Sawa'iq al-Mursala, Ibn Qayyim al-Jawziyya's refutation; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب لابن قيم الجوزية (ت 751هـ) في نقد التأويل الكلامي لنصوص الصفات، في أربعة وعشرين فصلاً آخرها في «الطواغيت الأربع»: أن نصوص الوحي أدلة لفظية لا تفيد اليقين، وأن آيات الصفات مجاز، وأن أخبار الآحاد لا تفيد العلم، وأن العقل يقدَّم على النقل عند التعارض؛ والموجود منه ينتهي في الرد على الطاغوت الثاني، والباقي معروف من «مختصر الصواعق» لابن الموصلي."
+  en: "A book by Ibn Qayyim al-Jawziyya (d. 751 AH) criticising the theologians' figurative interpretation (ta'wil) of the texts on God's attributes, in twenty-four chapters, the last on the 'four idols': that revealed texts are verbal proofs giving no certainty, that the verses on the attributes are figurative, that solitary reports give no knowledge, and that reason takes precedence over revelation when they conflict. The extant text breaks off in the answer to the second of these; the rest is known from Ibn al-Mawsili's abridgement."
+wings: [ideas, words]
+themes: [creed, polemic-and-apologetic, sects-and-schools, philosophy-and-logic]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/sawaiq-mursala-ataat-v1] }
+authors: [person/ibn-qayyim-al-jawziyya]
+language: language/arabic
+structure: "Preface ending with a question taken from Ibn Taymiyya; twenty-four chapters: (1) the meaning of ta'wil in language and usage; (2) sound and false ta'wil, with ten kinds of the false; (3) ta'wil as a report of the speaker's meaning; (4) ta'wil of reports and of commands; (5) the ta'wil of distortion and of explanation; … (19) causes that make false ta'wil acceptable; (20) that the people of ta'wil cannot establish a scriptural proof against any falsehood; (21) four causes of ta'wil; (22) praiseworthy and blameworthy disagreement; (23) the causes of disagreement among the imams; (24) the four 'idols' – answered in the extant part as two: revealed texts give no certainty (73 aspects) and reason over revelation (242 numbered aspects, 234 extant). The editors' outline: ataat-v1 PDF pp. 17–30."
+relations:
+  - { type: relies_on, target: work/dar-taarud-al-aql-wal-naql, sources: [source/sawaiq-mursala-ataat-v1] }
+editions: [source/sawaiq-mursala-ataat-v1, source/sawaiq-mursala-ataat-text]
 external_ids: { wikidata: "Q12189511" }
+sources: [source/sawaiq-mursala-ataat-v1, source/sawaiq-mursala-ataat-text]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "الصواعق المرسلة، ط. دار عطاءات العلم: المجلد الأول ص 1–3، 7–8، 17–19، 26–30، 54–58؛ النص ص 3–5، 343–345"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }

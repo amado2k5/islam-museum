@@ -18,6 +18,14 @@ perspectives:
     holders: [person/ibn-taymiyya]
     evidence: [{ ref: source/minhaj-sunna-salim-v8, note: { ar: "منهاج السنة، تحقيق رشاد سالم ج8 ص 575–578" } }, { ref: source/minhaj-sunna-shamela, note: { ar: "أحاديث الصلاة في مرض النبي، نسخة الشاملة ص 2529–2538" } }]
     sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
+  - tradition: sunni
+    id: ibn-abi-asim-sunna
+    standing: main
+    stance: { ar: "روى ابن أبي عاصم في باب خلافة أبي بكر أحاديث تدل عليها، صحح الألباني بعضها وحكم على بعضها بالوضع", en: "Ibn Abi Asim gathered reports pointing to Abu Bakr's caliphate; al-Albani accepts some and judges others fabricated", ur: "ابن ابی عاصم نے ابو بکر کی خلافت کے باب میں اس پر دلالت کرنے والی روایات جمع کیں؛ البانی بعض کو صحیح اور بعض کو موضوع کہتے ہیں" }
+    summary: { ar: "منها حديث «إن لم تجديني فأتي أبا بكر» وحديث «ألا أرسل إلى ابن أبي قحافة وابنه» بأسانيد يصححها الألباني، وحديث بشارة أبي بكر بالخلافة الذي يحكم عليه بالوضع.", en: "Among them 'If you do not find me, go to Abu Bakr' and 'Shall I not send for the son of Abu Quhafa and his son', with chains al-Albani accepts, and the report of Abu Bakr being told the good news of the caliphate, which he judges fabricated.", ur: "ان میں «اگر مجھے نہ پاؤ تو ابو بکر کے پاس آنا» اور «کیا میں ابنِ ابی قحافہ اور ان کے بیٹے کو نہ بلا لوں» ہیں، جن کی اسانید البانی صحیح کہتے ہیں، اور ابو بکر کو خلافت کی بشارت والی روایت جسے وہ موضوع کہتے ہیں۔" }
+    holders: [person/ibn-abi-asim, person/al-albani-muhammad-nasir-al-din]
+    evidence: [{ ref: source/sunna-ibn-abi-asim-albani-1400, note: { ar: "كتاب السنة، ط. المكتب الإسلامي، ص 545–550", en: "Kitab al-Sunna, al-Maktab al-Islami, pp. 545–550" } }]
+    sources: [source/sunna-ibn-abi-asim-albani-1400]
   - tradition: shia-twelver
     id: hilli-minhaj-karama
     standing: secondary
@@ -26,10 +34,10 @@ perspectives:
     holders: [person/al-allama-al-hilli]
     evidence: [{ ref: source/minhaj-sunna-shamela, note: { ar: "نسخة الشاملة ص 62، 92، 2376" } }]
     sources: [source/minhaj-sunna-shamela]
-related: [person/abu-bakr, event/abu-bakr-leads-the-prayers, event/saqifa, question/who-led-muslims-after-prophet, work/minhaj-al-sunnah]
+related: [person/abu-bakr, event/abu-bakr-leads-the-prayers, event/saqifa, question/who-led-muslims-after-prophet, work/minhaj-al-sunnah, work/kitab-al-sunna-ibn-abi-asim]
 wings: [ideas, people]
 themes: [politics-governance-and-authority, sects-and-schools]
 sensitivity: contested
-sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
-provenance: { layer: own-research, source: "منهاج السنة، تحقيق رشاد سالم ج8 ص 575–578؛ نسخة الشاملة ص 62، 92، 2376، 2529–2538", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela, source/sunna-ibn-abi-asim-albani-1400]
+provenance: { layer: own-research, source: "منهاج السنة، تحقيق رشاد سالم ج8 ص 575–578؛ نسخة الشاملة ص 62، 92، 2376، 2529–2538؛ كتاب السنة لابن أبي عاصم ط. المكتب الإسلامي ص 545–550", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

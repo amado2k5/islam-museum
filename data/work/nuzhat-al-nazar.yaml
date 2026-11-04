@@ -1,17 +1,43 @@
 id: work/nuzhat-al-nazar
 class: work
 kind: book
-label: { ar: "نزهة النظر في توضيح نخبة الفكر", en: "Nuzhat al-Nazar" }
+label: { ar: "نزهة النظر في توضيح نخبة الفكر", en: "Nuzhat al-Nazar fi Tawdih Nukhbat al-Fikar", ur: "نزہۃ النظر فی توضیح نخبۃ الفکر" }
 summary:
-  ar: "بطاقة أولية لـنزهة النظر في توضيح نخبة الفكر؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Nuzhat al-Nazar; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q20424605" }
+  ar: "شرح ابن حجر العسقلاني (773–852هـ) على متنه «نخبة الفكر في مصطلح أهل الأثر»، كتبه بطلب من سأله المتن ثم الشرح، وفرغ منه في مستهل ذي الحجة سنة 818هـ، وأورده «على صورة البسط» فدمج المتن في الشرح؛ ويقوم على تقسيم الخبر بحسب عدد طرقه ثم بحسب القبول والرد بطريقة «السبر والتقسيم»، واستقرت بعده تعريفات اختارها فيه كالشاذ والمنكر والصحيح والحسن لذاتهما ولغيرهما {cite:nuzhat-al-nazar-itr-bushra-2011 p. 18-21} {cite:nuzhat-al-nazar-itr-bushra-2011 p. 36}."
+  en: "Ibn Hajar al-'Asqalani's (773–852 AH) commentary on his own Nukhbat al-Fikar fi Mustalah Ahl al-Athar, written at the request of the person who had asked for the base text and then for a commentary, completed at the start of Dhu al-Hijja 818 AH and set out 'in expanded form', the base text merged into the commentary; it divides reports first by the number of their chains and then by acceptance and rejection, in the manner of 'probing and division', and definitions it chose — the shadhdh and the munkar, the sahih and hasan 'in itself' and 'through another' — became standard after it {cite:nuzhat-al-nazar-itr-bushra-2011 p. 18-21} {cite:nuzhat-al-nazar-itr-bushra-2011 p. 36}."
+  ur: "ابن حجر عسقلانی (773–852ھ) کی اپنے متن «نخبۃ الفکر فی مصطلح اہل الاثر» پر شرح، جو انہوں نے اسی شخص کی درخواست پر لکھی جس نے متن اور پھر شرح مانگی تھی، ذوالحجہ 818ھ کے آغاز میں مکمل کی اور «بسط کی صورت» میں پیش کی، یعنی متن کو شرح میں ضم کر دیا؛ یہ خبر کو پہلے اس کے طرق کی تعداد اور پھر قبول و رد کے اعتبار سے «سبر و تقسیم» کے طریقے پر تقسیم کرتی ہے، اور اس میں اختیار کی گئی تعریفیں — شاذ و منکر، اور صحیح و حسن لذاتہ و لغیرہ — بعد میں مستقر ہو گئیں {cite:nuzhat-al-nazar-itr-bushra-2011 p. 18-21} {cite:nuzhat-al-nazar-itr-bushra-2011 p. 36}۔"
+genre: [hadith]
+disciplines: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+authors: [person/ibn-hajar-al-asqalani]
+language: language/arabic
+composed: { hijri: "0818-12", edtf: "1416-02~", calendar: julian, precision: month, status: tradition, derived: true, note: "«وفرغ منه في مستهل ذي الحجة سنة ثماني عشرة وثمان مائة» — من حاشية نسخة نقلها المحقق، ص 18؛ التحويل مشتق.", sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+structure: "مقدمة في التصنيف في علوم الحديث وسبب تأليف المتن والشرح (ص 33–36)، ثم الخبر بحسب طرقه: المتواتر والمشهور والعزيز والغريب (ص 36–52)، ثم المقبول: الصحيح لذاته ومراتبه، والحسن لذاته، والصحيح والحسن لغيرهما، وزيادة الثقة، والمحفوظ والشاذ، والمعروف والمنكر، والمتابع والشاهد والاعتبار، والمحكم ومختلف الحديث (ص 52–72)، ثم المردود بالسقط والطعن، ثم أنواع تتعلق بالإسناد والرواة (إلى نحو ص 130)، بحسب طبعة البشرى."
+editions: [source/nuzhat-al-nazar-itr-bushra-2011]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+  - { type: commentary_on, target: work/nukhbat-al-fikr, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: made_in, target: place/cairo, sources: [source/nuzhat-al-nazar-itr-bushra-2011], note: "المؤلف ولد بالقاهرة وعاش بها؛ موضع التأليف لم يُصرّح به" }
+  - { type: mentions, target: work/muqaddimat-ibn-al-salah, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: work/al-kifaya-fi-ilm-al-riwaya, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: work/sahih-al-bukhari, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: work/sahih-muslim, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: work/jami-al-tirmidhi, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: person/ibn-al-salah, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: person/al-ramahurmuzi, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: person/al-khatib-al-baghdadi-ahmad, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: concept/al-hadith-al-mutawatir, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: concept/al-hadith-al-sahih, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: mentions, target: concept/al-hadith-al-hasan, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Nuzhat al-Nazar, ed. 'Itr, al-Bushra 2011: editor's introduction pp. 5–26, text pp. 33–72 (printed pages)"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q20424605" }
+sources: [source/nuzhat-al-nazar-itr-bushra-2011, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 High)" }
