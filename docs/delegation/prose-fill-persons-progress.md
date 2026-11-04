@@ -840,3 +840,9 @@ Promoted: abd-al-rahman-ibn-mahdi, abd-allah-ibn-al-mubarak, abu-awn-abd-allah-i
 Promoted: abd-allah-ibn-malik-al-jaysh-ani, abu-al-zinad, al-aswad-ibn-yazid-al-nakhai, al-harith-al-awar, alqama-ibn-qays-al-nakhai, amr-ibn-al-harith, bukayr-ibn-abd-allah-ibn-al-ashajj, marthad-ibn-abd-allah-al-yazani, muhammad-al-baqir, muhammad-ibn-al-walid-al-zubaydi, said-ibn-abd-al-aziz-al-tanukhi, ubayda-ibn-amr-al-salmani, yahya-ibn-said-al-ansari, yahya-ibn-yahya-al-ghassani.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2264.** sweep continues through remaining trilingual drafts.
+
+### Batch 127 (4 Nov 2026, 14 records) — isaba-batch-4 draft promotions (sweep worker)
+
+Promoted: abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, adi-ibn-hatim, al-bara-ibn-malik, arwa-bint-abd-al-muttalib, buraydah-ibn-al-husayb, dimam-ibn-thalaba, kab-ibn-zuhayr, rayhana-bint-zayd, thumama-ibn-uthal, umm-atiyya, umm-ruman, usama-ibn-zayd, uthman-ibn-talha, zaynab-bint-khuzayma.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2278.** sweep continues through remaining trilingual drafts.
