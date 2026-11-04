@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Third forty Explorer stories verified**: the five place and thirty-five person stories merged in #3452 now have completed claim records. All 120 Arabic, English and Urdu routes, 185 chronological stops and 85 existing screened image variants pass production-output checks; optional colour backgrounds and existing event-language fallbacks remain explicit.
 - **Events**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 1).
 - **Persons**: 13 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 130).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 129).
