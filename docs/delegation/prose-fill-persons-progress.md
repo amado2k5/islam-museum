@@ -265,3 +265,9 @@ Promoted: barkhya-ibn-akhbya, batis-al-batriq, bint-samra-ibn-jundub, bishr-al-h
 Promoted: wasil-ibn-ata, ibn-durayd, ibrahim-al-fazari-al-munajjim, nawbakht-al-munajjim, porphyry-furfuris, rudhmir-malik-al-jalaliqa, umayya-ibn-ishaq-al-umawi, urumazd-bishop-of-jarbida, rabah-ibn-ajla, sadif-bint-humas, satih-al-kahin, shiqq-al-kahin, tarifa-al-kahina, kalamn-king-of-madyan, yathrib-ibn-qatiya, hatim-al-tai, mirdas-ibn-abi-amir-al-sulami, harith-ibn-sinbat, ibn-ayshun-al-harrani, malik-ibn-uqbun, thabit-ibn-qurra, zardusht, khalid-ibn-jafar-al-kilabi, malik-ibn-fahm, mariya-dhat-al-qirtayn. cite-check 25/25; validate 0 errors; 318 tests; graph+coverage regen.
 
 **Lane total: 578.** ~185 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts (mawsuat-a3lam 413, shadharat runs, wikidata-import-wave2 44, mawsua runs, uncited ~750).
+
+### Batch 39 (4 Nov 2026, 25 records) — Muruj draft-status promotions 10 (sweep worker)
+
+Promoted: nizar-ibn-maadd, qubadh-malik-al-tawaif, quss-ibn-saida, riab-al-shanni, jayrun-ibn-sad, udhayna-ibn-al-sumayda, yarub-ibn-qahtan, kayumarth-ibn-umaym, rabah-ibn-murra, umaym-ibn-lawdh, wabar-ibn-umaym, shuayb, ubayd-ibn-ayyub-al-anbari, zawbaa-al-kahina, khalid-ibn-safwan, luqman-al-akbar, imran-ibn-amir-al-kahin, ibn-qutayba, khalid-ibn-sinan-al-absi, jam-malik-fars, umayya-ibn-abi-al-salt, yastasif, kaykhusraw, siyawush-ibn-kaykaus, humay-bint-bahman. cite-check 25/25; validate 0 errors; 318 tests; graph+coverage regen.
+
+**Lane total: 603.** ~160 lib-muruj draft promotions remain; then ~4,650 further trilingual drafts.
