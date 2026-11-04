@@ -16,6 +16,10 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 112).
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 111).
+- **Persons**: 16 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 110).
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 109).
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 108).
 - **Library harvest from the OCR'd books** (batch 7): 155 records written or enriched with full Arabic, English and Urdu prose from 19 books on the harvest drive (1978-pdf3176, brookes-gardens, deccani-paintings-1983, futuh-sham, irshad-fuhul, kitab-sunnah-ibn-abi-asim, kitab-sunnah-khallal, mostafa-mahmoud, nihayat-al-arab, nukhbat-fikar, rezavi, sawaiq-mursala…); new records: 37 source, 28 person, 27 work, 19 concept, 11 building, 9 question, 4 object, 3 event, 2 place, 2 practice, 1 group; 53 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 107).
