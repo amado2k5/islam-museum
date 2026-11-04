@@ -1,0 +1,52 @@
+id: work/al-targhib-wa-al-tarhib-mundhiri
+class: work
+kind: book
+label: { ar: "الترغيب والترهيب من الحديث الشريف", en: "al-Targhib wa-l-Tarhib min al-Hadith al-Sharif (al-Mundhiri)", ur: "الترغیب والترہیب من الحدیث الشریف" }
+summary:
+  ar: "كتاب زكي الدين عبد العظيم المنذري (ت 656هـ) في أحاديث الترغيب والترهيب، أملاه بعد «مختصر أبي داود» و«الخلافيات» بسؤال بعض طلبته، مجرداً من الأسانيد، مقتصراً على ما ورد صريحاً في الترغيب والترهيب، يعزو كل حديث إلى مخرّجيه من الأصول السبعة والموطأ ومسند أحمد والمعاجم والمسانيد وصحيحي ابن خزيمة وابن حبان والمستدرك وغيرها، ويشير إلى درجته، ويصدّر ما صح أو حسن أو قارب بلفظ «عن» وما اشتد ضعفه بلفظ «روي»، ويختمه بباب في الرواة المختلف فيهم على حروف المعجم {cite:targhib-tarhib-qayyima j.1 p. 2-8} {cite:targhib-tarhib-qayyima j.4 p. 280}."
+  en: "Zaki al-Din 'Abd al-'Azim al-Mundhiri's (d. 656 AH) collection of hadiths of encouragement and warning, dictated after his Mukhtasar of Abu Dawud and al-Khilafiyyat at a student's request, without chains and limited to reports that explicitly encourage or warn; he cites each hadith to its compilers — the seven core books, the Muwatta', Ahmad's Musnad, the Mu'jams and Musnads, the Sahihs of Ibn Khuzayma and Ibn Hibban, the Mustadrak and others — indicates its grade, opens sound, good or near-good reports with 'from' ('an) and seriously weak ones with 'it is related' (ruwiya), and closes with a chapter on disputed narrators in alphabetical order {cite:targhib-tarhib-qayyima j.1 p. 2-8} {cite:targhib-tarhib-qayyima j.4 p. 280}."
+  ur: "زکی الدین عبد العظیم منذری (وفات 656ھ) کا ترغیب و ترہیب کی احادیث کا مجموعہ، جو انہوں نے «مختصر ابی داود» اور «الخلافیات» کے بعد ایک طالب علم کی درخواست پر املا کرایا، اسانید کے بغیر، صرف ان روایات تک محدود جو صراحتاً ترغیب یا ترہیب میں ہیں؛ وہ ہر حدیث کو اس کے مخرّجین — اصولِ سبعہ، موطأ، مسند احمد، معاجم و مسانید، صحیح ابن خزیمہ و ابن حبان، مستدرک وغیرہ — کی طرف منسوب کرتے ہیں، اس کا درجہ بتاتے ہیں، صحیح، حسن یا قریب کو «عن» سے اور شدید ضعیف کو «روی» سے شروع کرتے ہیں، اور آخر میں مختلف فیہ راویوں پر حروفِ تہجی کی ترتیب سے ایک باب رکھتے ہیں {cite:targhib-tarhib-qayyima j.1 p. 2-8} {cite:targhib-tarhib-qayyima j.4 p. 280}۔"
+language: language/arabic
+authors: [person/abd-al-azim-al-mundhiri]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/targhib-tarhib-qayyima] }
+structure: "مقدمة المؤلف في منهجه، ثم فهرس الكتب والأبواب، ثم الكتب: العلم، الطهارة، الصلاة، النوافل، ... إلى صفة الجنة والنار؛ كل باب معنون بـ«الترغيب في» أو «الترهيب من»؛ وفي آخره باب الرواة المختلف فيهم مرتباً على حروف المعجم."
+editions: [source/targhib-tarhib-qayyima]
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+sensitivity: contested
+relations:
+  - { type: relies_on, target: work/al-targhib-wa-al-tarhib-asbahani, note: "استوعب ما فيه مما ليس في الكتب المذكورة", sources: [source/targhib-tarhib-qayyima] }
+  - { type: relies_on, target: work/sahih-al-bukhari, sources: [source/targhib-tarhib-qayyima] }
+  - { type: relies_on, target: work/sahih-muslim, sources: [source/targhib-tarhib-qayyima] }
+  - { type: relies_on, target: work/sunan-abi-dawud, sources: [source/targhib-tarhib-qayyima] }
+  - { type: relies_on, target: work/jami-al-tirmidhi, sources: [source/targhib-tarhib-qayyima] }
+  - { type: relies_on, target: work/sahih-ibn-hibban, sources: [source/targhib-tarhib-qayyima] }
+  - { type: relies_on, target: work/al-mustadrak-ala-al-sahihayn, sources: [source/targhib-tarhib-qayyima] }
+perspectives:
+  - tradition: sunni
+    id: mundhiri
+    stance: { ar: "يُذكر الحديث مع بيان حاله", en: "Hadiths are cited with their grade stated", ur: "حدیث کو اس کے درجے کے بیان کے ساتھ ذکر کیا جائے" }
+    summary:
+      ar: "المنذري: من تقدم من العلماء تساهلوا في أنواع من الترغيب والترهيب حتى ذكر كثير منهم الموضوع ولم يبينوا حاله؛ فهو يشير إلى درجة كل حديث، ويميّز شديد الضعف بلفظ «روي»، ويُعرض عما تحقق وضعه."
+      en: "Al-Mundhiri: earlier scholars were lenient in kinds of encouragement and warning, many even citing fabricated reports without saying so; he therefore states each hadith's grade, marks the seriously weak with 'it is related', and leaves out what is shown to be fabricated."
+      ur: "منذری: پہلے علماء نے ترغیب و ترہیب کی بعض اقسام میں تساہل کیا یہاں تک کہ بہت سوں نے موضوع روایت ذکر کی اور اس کا حال نہ بتایا؛ اس لیے وہ ہر حدیث کا درجہ بتاتے ہیں، شدید ضعیف کو «روی» سے ممتاز کرتے ہیں، اور ثابت شدہ موضوع کو چھوڑ دیتے ہیں۔"
+    sources: [source/targhib-tarhib-qayyima]
+  - tradition: sunni
+    id: annotator
+    stance: { ar: "لا يُحتج بالضعيف مطلقاً", en: "Weak hadith is not used as proof at all", ur: "ضعیف حدیث سے مطلقاً احتجاج نہیں" }
+    summary:
+      ar: "معلّق طبعة المكتبة القيمة: ذهب بعض العلماء إلى جواز الأخذ بالضعيف في فضائل الأعمال، ولا يؤخذ ذلك على إطلاقه، فما ضعفه من جهة صدق الراوي أو عدالته لا يؤخذ به، وما ضعفه لسوء حفظه أمره مقارب؛ ثم يقول إنه يميل إلى عدم الاحتجاج بالضعيف مطلقاً لا في الأحكام ولا في الفضائل."
+      en: "The annotator of the al-Maktaba al-Qayyima edition: some scholars allowed acting on weak hadith in the merits of deeds, but not without qualification — a report weak because of its narrator's honesty or integrity is not used, one weak through poor memory is closer; he then says he inclines not to use weak hadith as proof at all, in rulings or in merits."
+      ur: "المکتبۃ القیمہ کے ایڈیشن کے حاشیہ نگار: بعض علماء نے فضائلِ اعمال میں ضعیف پر عمل جائز رکھا، مگر یہ مطلق نہیں — جو راوی کی صداقت یا عدالت کی وجہ سے ضعیف ہو اس پر عمل نہیں، اور جو حافظے کی کمزوری سے ہو اس کا معاملہ قریب ہے؛ پھر کہتے ہیں کہ ان کا میلان یہ ہے کہ ضعیف سے نہ احکام میں احتجاج ہو نہ فضائل میں۔"
+    sources: [source/targhib-tarhib-qayyima]
+provenance:
+  layer: own-research
+  source: "al-Targhib wa-l-Tarhib, al-Maktaba al-Qayyima ed.: vol. 1 pp. 1–9 (printed), vol. 4 table"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/targhib-tarhib-qayyima]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

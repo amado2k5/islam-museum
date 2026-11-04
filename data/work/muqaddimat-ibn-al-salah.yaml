@@ -1,17 +1,33 @@
 id: work/muqaddimat-ibn-al-salah
 class: work
 kind: book
-label: { ar: "مقدمة ابن الصلاح", en: "Muqaddimat Ibn al-Salah" }
+label: { ar: "مقدمة ابن الصلاح (معرفة أنواع علم الحديث)", en: "Muqaddimat Ibn al-Salah (Ma'rifat Anwa' Ilm al-Hadith)" }
 summary:
-  ar: "بطاقة أولية لمقدمة ابن الصلاح في علوم الحديث، الأصل الذي درس عليه المحدثون أصول المصطلح؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn al-Salah's Muqaddima in the sciences of hadith, the founding textbook of hadith terminology; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب ابن الصلاح (ت 643هـ) في علوم الحديث، سماه في خطبته «معرفة أنواع علم الحديث» واشتهر بعلوم الحديث وبالمقدمة. قسّمه إلى خمسة وستين نوعاً، أولها معرفة الصحيح وآخرها معرفة أوطان الرواة وبلدانهم، وقال إن الأنواع قابلة للتنويع إلى ما لا يحصى. وفيه تعريفه المشهور للحديث الصحيح، ورأيه في تعذر التصحيح المستقل في عصره، وفي إفادة ما اتفق عليه الشيخان القطع."
+  en: "Ibn al-Salah's (d. 643 AH) book on the hadith sciences, which he names in his preface Ma'rifat Anwa' Ilm al-Hadith and which became known as Ulum al-Hadith or the Muqaddima. He divides it into sixty-five types, the first the knowledge of the sound (sahih) hadith and the last the homelands and towns of transmitters, adding that the types could be multiplied without limit. It contains his well-known definition of the sahih hadith, his view that independent authentication had become impracticable in his age, and his view that what the two Shaykhs agree on yields certainty."
+genre: [hadith]
+disciplines: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/muqaddima-ibn-salah-itr] }
+authors: [person/ibn-al-salah]
+language: language/arabic
+structure: "خطبة فيها اسم الكتاب وفهرسة أنواعه (ص 5–8) ← خمسة وستون نوعاً: الصحيح (ص 11) والحسن (ص 29) والضعيف (ص 41) ... كيفية السماع والتحمل وأنواع الإجازة (النوع 24، ص 128) ... كتابة الحديث (النوع 25، ص 181) ... معرفة الصحابة (النوع 39، ص 291) ... الموالي (النوع 64) وأوطان الرواة (النوع 65، ص 404)، وفي آخره أحاديث يرويها المؤلف بأسانيده منبهاً على بلدان رواتها"
+editions: [source/muqaddima-ibn-salah-itr]
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: concept/mustalah-al-hadith, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: mentions, target: concept/adalat-al-sahaba, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: mentions, target: work/sahih-al-bukhari, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: mentions, target: work/sahih-muslim, sources: [source/muqaddima-ibn-salah-itr] }
+sources: [source/muqaddima-ibn-salah-itr, source/al-aalam]
 external_ids: { wikidata: "Q6058980" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in hadith-method histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "muqaddima-ibn-salah-itr pp. 3, 5–8, 11–17, 27–30, 41, 128, 181, 291–294, 404–407; earlier draft card from a Wikidata candidate (Devin, wikidata-import-wave2)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: muqaddima-ibn-salah-itr pp. 3, 5–8, 11–12, 16–17, 27–30, 293–294, 405–407"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

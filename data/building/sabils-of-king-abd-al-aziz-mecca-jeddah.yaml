@@ -1,0 +1,26 @@
+id: building/sabils-of-king-abd-al-aziz-mecca-jeddah
+class: building
+kind: other
+label: { ar: "أسبلة الملك عبد العزيز على طريق مكة وجدة", en: "Sabils of King Abd al-Aziz on the Mecca-Jeddah road", ur: "مکہ جدہ راستے پر شاہ عبدالعزیز کی سبیلیں" }
+summary:
+  ar: "ثلاثة أسبلة على طريق مكة وجدة (بئر أم القرون وحداء وبئر المقتلة) عليها نقوش إنشاء مؤرخة 1361هـ/1942م، بسيطة التكوين على هيئة حوض مستطيل مقبو، باقية إلى اليوم {cite:haddad-asbila-makka-madina-2004 p.37} {cite:haddad-asbila-makka-madina-2004 p.47}."
+  en: "Three sabils on the Mecca-Jeddah road (Bi'r Umm al-Qurun, Hadda and Bi'r al-Maqtala) with foundation inscriptions dated 1361 AH / 1942, simple vaulted rectangular troughs, still standing {cite:haddad-asbila-makka-madina-2004 p.37} {cite:haddad-asbila-makka-madina-2004 p.47}."
+wings: [objects, place]
+themes: [architecture, sacred-space-and-pilgrimage, waqf, water-and-animals]
+regions: [arabia]
+periods: [period/modern-era]
+built: { edtf: "1942", hijri: "1361", calendar: gregorian, precision: year, status: historical, derived: true, sources: [source/haddad-asbila-makka-madina-2004], note: "al-Haddad p. 47: foundation inscriptions dated 1361 AH / 1942." }
+patron: person/ibn-saud
+location: place/mecca
+status_now: standing
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/haddad-asbila-makka-madina-2004] }
+  - { type: exemplifies, target: concept/sabil, sources: [source/haddad-asbila-makka-madina-2004] }
+sources: [source/haddad-asbila-makka-madina-2004]
+provenance:
+  layer: own-research
+  source: "al-Haddad 2004, printed pp. 37, 47, 52"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/mm-allah-wal-insan-1957 pp. 5-9; source/mm-rihla-min-al-shakk-maarif pp. 5-14, 80-82, 90-91; source/mm-quran-muhawala-digital pp. 1-4; source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986 pp. 9, 124-129, 161-162"
+  source: "source/mm-muhammad-maarif-ed5 pp. 3, 98; source/mm-lughz-al-mawt-awda-1972 p. 6; source/mm-allah-wal-insan-1957 pp. 5-9; source/mm-rihla-min-al-shakk-maarif pp. 5-14, 80-82, 90-91; source/mm-quran-muhawala-digital pp. 1-4; source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986 pp. 9, 124-129, 161-162"
 ---
 ## موجز
 مصطفى محمود طبيب وكاتب مصري، تقول صفحة التعريف به في أول طبعة لكتابه [[work/allah-wal-insan|«الله والإنسان»]] (1957) إنه تخرج في كلية الطب بالقصر العيني في ديسمبر 1953 وتخصص في الصدر، وبدأ يكتب القصص القصيرة سنة 1947 في مجلة الرسالة الأسبوعية، ثم عمل في «آخر ساعة» و«أخبار اليوم» و«التحرير» و«روز اليوسف». {cite:mm-allah-wal-insan-1957 p. 5} وهو صاحب [[work/rihlati-min-al-shakk-ila-al-iman|«رحلتي من الشك إلى الإيمان»]] الذي يروي فيه انتقاله من الشك إلى الإيمان. {cite:mm-rihla-min-al-shakk-maarif p. 5} {cite:mm-rihla-min-al-shakk-maarif p. 14}
@@ -19,6 +19,8 @@ provenance:
 
 ## الصحافة والأدب
 يذكر التعريف أنه أخرج كتابه الأول «أكل عيش» في سلسلة «الكتاب الذهبي» وفيه أقاصيص وصور شعبية، وأنه «ناقش مشكلة الأديان في روز اليوسف مناقشة حرة» كان لها أثر بين القراء. {cite:mm-allah-wal-insan-1957 p. 5} وفي آخر «رحلتي من الشك إلى الإيمان» قائمة بستة وعشرين كتاباً له بين مجموعات قصص وروايات ومسرحيات ودراسات ومقالات، منها «الله والإنسان» و«لغز الموت» و«لغز الحياة» و«اينشتين والنسبية» و«العنكبوت» و«الخروج من التابوت»، ومسرحية «الشيطان يسكن في بيتنا» التي كتبت في أبريل 1973، و«المدينة» في رحلاته إلى أوروبا بين 1956 و1968. {cite:mm-rihla-min-al-shakk-maarif p. 91}
+
+وتذكر قائمة كتبه في آخر الطبعة الخامسة من «محمد: محاولة لفهم السيرة النبوية» أربعة وخمسين عنواناً، وأن روايته «رجل تحت الصفر» نالت جائزة الدولة لعام 1970، وأن أعماله الكاملة صدرت في بيروت عام 1972 {cite:mm-muhammad-maarif-ed5 p. 98}. ومن كتبه التأملية [[work/lughz-al-mawt|لغز الموت]] (دار العودة، 1972) {cite:mm-lughz-al-mawt-awda-1972 p. 6}، ومن كتبه في السيرة [[work/muhammad-muhawala-li-fahm-al-sira|محمد: محاولة لفهم السيرة النبوية]] {cite:mm-muhammad-maarif-ed5 p. 3}.
 
 ## الرحلة من الشك إلى الإيمان (روايته هو)
 يقول إن الأمر احتاج إلى «ثلاثين سنة من الغرق في الكتب» وآلاف الليالي من الخلوة والتأمل. {cite:mm-rihla-min-al-shakk-maarif p. 6} ويصف مراحل: أولاها تصوّر الله «طاقة باطنة في الكون» بنظرة مادية، ثم وقوعه في «وحدة الوجود الهندية» وفلسفة سبينوزا وفكرة برجسون، وممارسته اليوجا وتأثره بفكرة التناسخ التي ظهرت في روايتيه «العنكبوت» و«الخروج من التابوت». {cite:mm-rihla-min-al-shakk-maarif p. 9} {cite:mm-rihla-min-al-shakk-maarif p. 10} {cite:mm-rihla-min-al-shakk-maarif p. 11} ثم يقول إن العلم نفسه، بما كشف من وحدة الخامة والقوانين في الكائنات، دلّه على خالق واحد متعالٍ، وإنه «قدّم لي الفكرة الإسلامية الكاملة عن الله». {cite:mm-rihla-min-al-shakk-maarif p. 12} {cite:mm-rihla-min-al-shakk-maarif p. 13} {cite:mm-rihla-min-al-shakk-maarif p. 14}
