@@ -1,0 +1,25 @@
+id: person/arghun-al-kamili
+class: person
+label: { ar: "أرغون بن عبد الله الكاملي", en: "Arghun ibn Abdallah al-Kamili", ur: "ارغون بن عبد اللہ کاملی" }
+summary:
+  ar: "خطاط من أتباع ياقوت المستعصمي الثلاثة الكبار في العراق، نشط في النصف الأول من القرن الرابع عشر واشتهر بمصاحفه بقلم الريحان {cite:blair-islamic-calligraphy-2006 p. 333}."
+  en: "Calligrapher, one of the three main followers of Yaqut al-Musta'simi in Iraq, active in the first half of the fourteenth century and best known for Qur'an manuscripts in rayhan script {cite:blair-islamic-calligraphy-2006 p. 333}."
+  ur: "خطاط، عراق میں یاقوت المستعصمی کے تین بڑے پیروؤں میں سے ایک، چودھویں صدی کے نصف اول میں سرگرم اور ریحان قلم میں اپنے مصاحف کے لیے مشہور {cite:blair-islamic-calligraphy-2006 p. 333}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [levant-iraq]
+gender: male
+roles: [calligrapher]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: student_of, target: person/yaqut-al-mustasimi, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: lived_in, target: place/baghdad, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: exemplifies, target: concept/rayhan-script, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/salim-tarikh-khatt-o-khattatin-2001, source/blair-islamic-calligraphy-2006]
+provenance:
+  layer: own-research
+  source: "source/salim-tarikh-khatt-o-khattatin-2001 scan pp. 123"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

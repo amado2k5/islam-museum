@@ -3,6 +3,7 @@ id: concept/istiwa-ala-al-arsh
 lang: ur
 source_lang: ar
 translators: ["Claude (Haiku 5.5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "al-ibana-ashari-dar-ibn-zaydun pp. 33–34 (section added; earlier text by its original authors)" }
 ---
 ## خلاصہ
 شعراوی اللہ کی طرف منسوب استواء کو انسانی معنی میں لینے سے خبردار کرتے ہیں، کیونکہ اللہ کی صفات مخلوق کی صفات جیسی نہیں۔ جیسے اللہ کا علم، قدرت اور حیات انسان کے علم، قدرت اور حیات سے نہیں ناپے جاتے، ویسے ہی استواء بھی انسانی بیٹھنے سے نہیں ناپا جاتا {cite:tafsir-sharawi-khawatir-scan p.233}۔
@@ -24,3 +25,6 @@ translators: ["Claude (Haiku 5.5), draft translation"]
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
+
+## اشعری کی «الابانہ» میں
+[[person/al-ashari|ابو الحسن اشعری]] [[work/al-ibana-ashari|«الابانہ»]] میں «عرش پر استوا کا باب» باندھتے ہیں: کہتے ہیں کہ اللہ اپنے عرش پر مستوی ہے جیسا کہ اس نے فرمایا، اور پاکیزہ کلمات کے اس کی طرف چڑھنے، رفع اور عروج کی آیات سے، فرعون کی اس خواہش سے کہ وہ موسیٰ کے معبود کو جھانک کر دیکھے، اور اس سے کہ مسلمان دعا میں آسمان کی طرف ہاتھ اٹھاتے ہیں، استدلال کرتے ہیں۔ {cite:al-ibana-ashari-dar-ibn-zaydun p. 33-34} وہ استوا کی تفسیر غلبے اور قہر سے کرنے کا — جسے معتزلہ، جہمیہ اور حروریہ کی طرف منسوب کرتے ہیں — یہ جواب دیتے ہیں کہ اللہ تمام چیزوں پر غالب ہے، تو اگر استوا غلبہ ہوتا تو اس میں عرش کی کوئی خصوصیت نہ ہوتی۔ {cite:al-ibana-ashari-dar-ibn-zaydun p. 34}

@@ -16,6 +16,8 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Library harvest from the OCR'd books** (batch 9): 162 records written or enriched with full Arabic, English and Urdu prose from 23 books on the harvest drive (al-ibana-ashari, asbab-nuzul-wahidi, bidayat-mujtahid, hayawan-jahiz, hisba-ibn-taymiyya, india-art-and-culture-1300-1900, kitab-tawhid, luma-sarraj, minhaj-sunna, mirat-mafatih, mirat-zaman, muallam-tabarani…); new records: 39 person, 37 source, 20 concept, 16 question, 16 work, 10 object, 2 event, 1 group; 61 existing records enriched. Every fact cites the book's edition and page.
+- **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 120).
 - **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 119).
 - **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 118).
 - **Persons**: 15 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 117).

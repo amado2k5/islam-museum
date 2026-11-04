@@ -19,3 +19,11 @@ Ibn Ishaq names him, in [[event/delegation-of-banu-tamim|the delegation of Banu 
 
 ## On the captives of Banu al-Anbar
 Ibn Ishaq names him among the eight men of the Tamim delegation who spoke to the Prophet about the captives of [[group/banu-al-anbar|Banu al-Anbar]] after the expedition of Uyayna ibn Hisn. See [[event/sariyya-of-uyayna-to-banu-tamim|the expedition]] {cite:ibn-hisham-saqqa 4/270}.
+
+## In al-Hakim's Mustadrak
+[[person/al-hakim-al-nisaburi|Al-Hakim]] quotes Abu 'Ubayda for his lineage, Qays ibn 'Asim ibn Sinan ibn Khalid ibn Minqar ibn 'Ubayd ibn Muqa'is ibn 'Amr ibn Ka'b ibn Sa'd ibn Zayd Manat ibn Tamim, and reports that when he came to the Prophet in a delegation the Prophet said: "This is the lord of the people of the tents." {cite:mustadrak-ilmiyya-ata-v3 p. 708}
+
+Through al-Hasan, Qays relates that he asked the Prophet what wealth carries no liability for him, given his many guests and dependants. The Prophet said: "The best wealth is forty camels, the most is sixty, and woe to the owners of hundreds, except one who gives from them in ease and in hardship, lends their backs and feeds the needy who ask and those who do not." Qays described how he dealt with his camels, and the Prophet told him: "Of your wealth, yours is what you ate and used up, wore and wore out, or gave and sent on its way; the rest belongs to your heirs." Al-Dhahabi left it out of the *Talkhis*. {cite:mustadrak-ilmiyya-ata-v3 p. 709}
+
+## His last counsel
+'Abd al-Malik ibn Abi Suwayya al-Minqari relates that he was present when Qays, dying, counselled his thirty-two sons: to make the eldest their chief; not to hold a lamentation over him, since he had heard the Prophet forbid wailing; to look after their wealth; and to bury him where no one of Bakr ibn Wa'il could find him, because of the feuds between them before Islam. He then called for his quiver and told his eldest son, 'Ali, to break one arrow, which he did, then to break the arrows bundled together, which he could not, and said: "So you are when united, and so when divided", and recited verses on it. Al-Dhahabi passes over it without comment. {cite:mustadrak-ilmiyya-ata-v3 p. 708-709} In al-Hasan's version he told them as he died: "Beware of begging, for it is the last resort of a man's earning." {cite:mustadrak-ilmiyya-ata-v3 p. 709}

@@ -17,17 +17,19 @@ faith:
     basis: tradition
 relations:
   - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: born_in, target: place/amasya, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: student_of, target: person/safi-al-din-al-urmawi, sources: [source/blair-islamic-calligraphy-2006] }
 external_ids: { wikidata: "Q2915617" }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/blair-islamic-calligraphy-2006]
 status:
   review: published
   completeness: 3
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch88
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker I)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: prose-fill-persons-batch88; ocr-harvest-2026-11-04
 occupations:
   - job: job/calligrapher
     kind: secondary
