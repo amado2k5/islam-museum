@@ -44,6 +44,9 @@ This section should be read as a presentation of differing positions reported in
 ## Writings
 Tantawi's works include Al-Tafsir al-Wasit li-l-Quran al-Karim, a seven-thousand-page commentary completed over more than ten years; his doctoral thesis on the children of Israel in the Quran and the Sunna; and Mu'amalat al-Bunuk wa-Ahkamuha al-Shar'iyya ("Banking Transactions and their Sharia Rulings", Dar Nahdat Misr, 1998). {cite:wikipedia-muhammad-sayyid-tantawi-en}
 
+## al-Tafsir al-Wasit as its prefaces describe it
+Tantawi wrote his commentary [[work/al-tafsir-al-wasit|al-Tafsir al-Wasit lil-Qur'an al-Karim]] sura by sura and dated many of its prefaces and closing notes, which show where he worked: the preface to al-Tawba is dated 19 Shawwal 1395 AH (24 October 1975), and the commentary on Hud was finished in [[place/medina|Medina]] on the morning of 5 Jumada II 1401 AH (9 April 1981). {cite:tafsir-tantawi-wasit p.2496} {cite:tafsir-tantawi-wasit p.3061} He completed the whole book in Nasr City, Cairo, on 26 Rabi' I 1407 AH (28 November 1986), saying that the writing had taken about fifteen years. {cite:tafsir-tantawi-wasit p.6903} It was printed in fifteen volumes by Dar al-Ma'arif while he was Grand Mufti of Egypt, revised by Dr Abd al-Rahman al-Adawi. {cite:tafsir-tantawi-wasit p.1} {cite:tafsir-tantawi-wasit p.2} In his introduction he describes his method: an explanation of the words first, then any acceptable occasion of revelation, then the overall meaning, avoiding lengthy grammatical analysis and giving only the preferred opinion. {cite:tafsir-tantawi-wasit p.9} {cite:tafsir-tantawi-wasit p.10}
+
 ## Personal life
 The two articles give no extensive family detail about Tantawi beyond what he himself stated in the context of his fatwas, and the museum does not publish family detail beyond what understanding his work requires. {cite:wikipedia-muhammad-sayyid-tantawi-en}
 
