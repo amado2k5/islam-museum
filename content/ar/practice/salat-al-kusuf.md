@@ -21,3 +21,7 @@ translators: []
 
 ## في سلسلة «الحضارة النبوية» لزغلول النجار
 يروي [[person/zaghloul-el-naggar|زغلول النجار]] في [[work/el-hadara-el-nabaouia|الحضارة النبوية]] أن الشمس كسفت يوم مات إبراهيم ابن النبي فقال الناس كسفت لموته، فصلى النبي بهم ركعتين طويلتين ثم أخبرهم أن الشمس والقمر آيتان لا تنكسفان لموت أحد ولا لحياته، وأمرهم عندها بالذكر والتكبير والصلاة والصدقة. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep11 00:01:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep11 00:02:00} ويقول إن من السنة أن ينادي المنادي بالصلاة جامعة، وإن النبي أطال فيها وأكثر من الدعاء. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep11 00:09:30} ويرى أن الحديث نقض خرافات زمانه التي كانت تربط الظواهر الكونية بموت العظماء، وأن الكسوف والخسوف يحدثان اضطرابات في الظروف الطبيعية فكان الذكر والصدقة لدفع ما قد يصاحبهما، وهو تعليل منه. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep11 00:02:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep11 00:06:00} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep11 00:08:00}
+
+## في كتاب الأم
+
+يذكر [[person/al-shafii|الشافعي]] في «[[work/ikhtilaf-malik-wal-shafii|كتاب اختلاف مالك والشافعي]]» أنه روى عن مالك عن زيد بن أسلم عن عطاء بن يسار عن ابن عباس، وعن مالك عن يحيى بن سعيد عن عمرة عن عائشة، أن الشمس خسفت فصلى النبي ركعتين، في كل ركعة ركوعان، ويقول: أخذنا نحن وأنتم به، يعني هو وأصحاب مالك، وخالفنا غيركم من الناس، ويجعله مثالاً لحديث أخذ به مالك وليس عن أبي بكر وعمر وعثمان وعلي ما يوافقه. {cite:kitab-al-umm-wafa-v8 p.514}

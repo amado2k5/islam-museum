@@ -1,0 +1,25 @@
+id: person/suwayya-al-yamaniyya
+class: person
+label: { ar: "سوية اليمنية", en: "Suwayya of Yemen" }
+names:
+  - { kind: full, lang: ar, value: "سوية اليمنية" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل اليمن يذكرها ابن الجوزي في «صفة الصفوة» برواية أبي هشام القرشي العامري: نزلت في بعض رباعهم بمكة، وكان يُسمع لها بالليل نحيب، فبعث جاريته فسمعتها تناجي ربها معترفة بنعمه وبتقصيرها، ثم صرخت وسقطت، ووجدوها ميتة في الصباح."
+  en: "A devout woman of Yemen whom Ibn al-Jawzi includes in Sifat al-Safwa on the report of Abu Hisham, a Qurashi of Banu Amir: she lodged in one of their houses, sobbing was heard from her at night, his maid listened and heard her confessing God's favours and her own failings, then she cried out and fell, and in the morning they found her dead."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/yemen, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.415"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
