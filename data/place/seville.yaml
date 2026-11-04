@@ -1,10 +1,11 @@
 id: place/seville
 class: place
 kind: city
-label: { en: "Seville", ar: "إشبيلية" }
+label: { en: "Seville", ar: "إشبيلية" , ur: "اشبیلیہ"}
 summary:
   en: "Spanish city known in Arabic as Ishbiliya, a major city of al-Andalus and a capital under the Almohads."
   ar: "مدينة إسبانية تُعرف بالعربية بإشبيلية، من كبرى مدن الأندلس وعاصمة في عهد الموحدين."
+  ur: "اسپین کا شہر جو عربی میں اشبیلیہ کہلاتا ہے۔ {cite:geonames-gazetteer}"
 wings: [place]
 regions: [andalus-europe]
 coordinates: [37.3828, -5.9732]
@@ -12,3 +13,11 @@ coordinate_precision: site
 external_ids: { geonames: "2510911", pleiades: "256210" }
 sources: [source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+
+provenance:
+  layer: own-research
+  model: unknown
+  run: explorer-40-subjects-2026-11-04
+  source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."
+  generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works; Copilot SDK in VS Code (metadata completion)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}

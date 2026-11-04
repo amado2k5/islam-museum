@@ -1,10 +1,11 @@
 id: place/al-yamama
 class: place
 kind: region
-label: { ar: "اليمامة", en: "al-Yamama" }
+label: { ar: "اليمامة", en: "al-Yamama" , ur: "یمامہ"}
 summary:
   ar: "إقليم في وسط الجزيرة العربية؛ قُتل فيه أبو قيس بن الحارث السهمي يوم اليمامة في خلافة أبي بكر، ويرد فيه هوذة بن علي الحنفي في سياق رسل النبي بحسب ابن إسحاق."
   en: A region in central Arabia; Abu Qays ibn al-Harith al-Sahmi was killed there on the day of al-Yamama in Abu Bakr's caliphate, and Hawdha ibn Ali al-Hanafi appears there in the context of the Prophet's envoys, according to Ibn Ishaq.
+  ur: "جزیرہ عرب کے وسط کا علاقہ؛ ابن اسحاق کے بیان میں یہاں کے ہوذہ بن علی کا ذکر نبی کے سفیروں کے ضمن میں آتا ہے، اور ابو قیس بن حارث کی وفات جنگ یمامہ میں بیان ہوئی ہے۔ {cite:ibn-hisham-saqqa}"
 wings: [place]
 regions: [arabia]
 coordinates: [24.1483, 47.305]
@@ -13,3 +14,11 @@ coordinate_note: "ويكي بيانات Q2551267 (اليمامة، إقليم ت
 external_ids: { wikidata: "Q2551267" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 p. 8, 9; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }
+
+provenance:
+  layer: own-research
+  model: unknown
+  run: explorer-40-subjects-2026-11-04
+  source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."
+  generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 p. 8, 9; coordinates added by Claude Code (subagent), claude-sonnet-5-5; Copilot SDK in VS Code (metadata completion)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}

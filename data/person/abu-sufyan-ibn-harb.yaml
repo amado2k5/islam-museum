@@ -9,7 +9,7 @@ education:
     ur: "ابو سفیان بن حرب، مکہ کا سردار برسوں کھلی جنگ کے عرصے میں — احد اور خندق کا قائد — فتح کے دن مسلمان ہوا، مسلمان ہی فوت ہوا اور پہلے اموی خلیفہ کا باپ بنا۔"
     sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
-label: { en: "Abu Sufyan ibn Harb", ar: "أبو سفيان بن حرب" }
+label: { en: "Abu Sufyan ibn Harb", ar: "أبو سفيان بن حرب" , ur: "ابو سفیان بن حرب"}
 aliases: [person/abu-sufyan]
 names:
   - { kind: full, lang: ar, value: "صخر بن حرب بن أمية الأموي" }
@@ -21,6 +21,7 @@ traditions: []
 summary:
   en: "Leader of Mecca through the years of open war against the Muslims — commander at Uhud and the Trench — who submitted at the conquest of Mecca and ended his life a Muslim; father of the first Umayyad caliph."
   ar: "زعيم مكة في سنين الحرب المعلنة ضد المسلمين — قائد بأحد والخندق — الذي دخل في الإسلام يوم الفتح ومات مسلمًا؛ والد أول خلفاء بني أمية."
+  ur: "مسلمانوں کے خلاف جنگوں کے زمانے میں مکہ کے قائد، جنہوں نے احد اور خندق میں قیادت کی؛ فتح مکہ کے وقت مسلمان ہوئے۔ {cite:ibn-hisham-saqqa} پہلے اموی خلیفہ کے والد تھے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [battles, peace-making-and-coexistence, trade-and-finance]
 periods: [period/prophetic-era]
@@ -72,6 +73,7 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch12"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 occupations:
   - job: job/merchant
     kind: secondary

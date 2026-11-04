@@ -354,3 +354,46 @@ Append-only. One line per change: `date | subject id | agent | claimed / done / 
 2026-11-03 | place/jazira | copilot | done — 5 eligible dated, cited event nodes; reused existing records
 2026-11-03 | place/khwarizm | copilot | done — 5 eligible dated, cited event nodes; completed missing place provenance
 2026-11-03 | place/mutah | copilot | done — 5 eligible dated, cited event nodes; completed missing place provenance
+
+2026-11-04 | place/al-jirana | copilot | claimed
+2026-11-04 | place/nablus | copilot | claimed
+2026-11-04 | place/seville | copilot | claimed
+2026-11-04 | place/taif | copilot | claimed
+2026-11-04 | place/tus | copilot | claimed
+2026-11-04 | place/akka | copilot | claimed
+2026-11-04 | place/aksum | copilot | claimed
+2026-11-04 | place/al-ahwaz | copilot | claimed
+2026-11-04 | place/al-hira | copilot | claimed
+2026-11-04 | place/al-karak | copilot | claimed
+2026-11-04 | place/al-karkh | copilot | claimed
+2026-11-04 | place/al-yamama | copilot | claimed
+2026-11-04 | place/antakiya | copilot | claimed
+2026-11-04 | place/bardhaa | copilot | claimed
+2026-11-04 | place/barqa | copilot | claimed
+2026-11-04 | place/dumat-al-jandal | copilot | claimed
+2026-11-04 | place/samarra | copilot | claimed
+2026-11-04 | place/tiflis | copilot | claimed
+2026-11-04 | place/tirmidh | copilot | claimed
+2026-11-04 | place/valencia | copilot | claimed
+2026-11-04 | person/al-qadir-billah | copilot | claimed
+2026-11-04 | person/habib-ibn-maslama | copilot | claimed
+2026-11-04 | person/abbas-ibn-abd-al-muttalib | copilot | claimed
+2026-11-04 | person/al-malik-al-adil-ayyub | copilot | claimed
+2026-11-04 | person/al-qaim-billah | copilot | claimed
+2026-11-04 | person/abu-ahmad-al-muwaffaq | copilot | claimed
+2026-11-04 | person/abu-sufyan-ibn-harb | copilot | claimed
+2026-11-04 | person/al-malik-al-ashraf | copilot | claimed
+2026-11-04 | person/al-nasir-billah | copilot | claimed
+2026-11-04 | person/zayd-ibn-haritha | copilot | claimed
+2026-11-04 | person/aisha | copilot | claimed
+2026-11-04 | person/kaab-ibn-malik | copilot | claimed
+2026-11-04 | person/zubayr-ibn-al-awwam | copilot | claimed
+2026-11-04 | person/abdullah-ibn-masud | copilot | claimed
+2026-11-04 | person/abu-musa-al-ashari | copilot | claimed
+2026-11-04 | person/al-malik-al-afdal-ali | copilot | claimed
+2026-11-04 | person/al-nasir-muhammad-ibn-qalawun | copilot | claimed
+2026-11-04 | person/fatima | copilot | claimed
+2026-11-04 | person/shihab-al-din-ghuri | copilot | claimed
+2026-11-04 | person/abdullah-ibn-abbas | copilot | claimed
+
+2026-11-04 Copilot checkpoint: all forty new subjects are implemented (303 stops) and pass local automated validation, citation checks, tests, full build and 120 production-route browser checks. Claims remain open because five existing other-owner Explorer images fail the people check; see owner issue [#3350](https://github.com/amado2k5/islam-museum/issues/3350) and the exact paths in `DESIGN.md`. No batch push or merge is claimed.

@@ -1,10 +1,11 @@
 id: place/samarra
 class: place
 kind: city
-label: { en: "Samarra", ar: "سامراء" }
+label: { en: "Samarra", ar: "سامراء" , ur: "سامرا"}
 summary:
   en: "City on the Tigris founded in 836 CE as the Abbasid capital, with the Great Mosque and its spiral minaret."
   ar: "مدينة على نهر دجلة أُسست سنة 836م عاصمةً للعباسيين، وفيها الجامع الكبير ومئذنته الملوية."
+  ur: "دریائے دجلہ کے کنارے شہر، جو 836ء میں عباسی دارالحکومت بنا؛ اس کی جامع مسجد اور ملویہ مینار مشہور ہیں۔ {cite:geonames-gazetteer} {cite:farghani-elements-astronomy}"
 wings: [place]
 regions: [levant-iraq]
 coordinates: [34.1959, 43.8857]
@@ -16,3 +17,6 @@ status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coor
 provenance:
   model: "claude-haiku-5-5"
   run: "farghani-389-577"
+  source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."
+  generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works; Copilot SDK in VS Code (metadata completion)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}

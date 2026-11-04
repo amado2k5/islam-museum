@@ -6,7 +6,7 @@ education:
     ur: "ابن مسعود، مکہ کے ایک چرواہے اور اولین مسلمانوں میں سے، روایت میں پہلے شخص ہیں جنھوں نے مکہ میں بلند آواز سے قرآن پڑھا — اور کوفہ میں وہ پہلی نسل کے استاد بنے۔"
     sources: [source/tabaqat-ibn-sad, source/sahih-al-bukhari]
 class: person
-label: { en: "Abdullah ibn Mas'ud", ar: "عبد الله بن مسعود" }
+label: { en: "Abdullah ibn Mas'ud", ar: "عبد الله بن مسعود" , ur: "عبد اللہ بن مسعود"}
 names:
   - { kind: full, lang: ar, value: "عبد الله بن مسعود بن غافل الهذلي" }
 gender: male
@@ -17,6 +17,7 @@ traditions: [sunni]
 summary:
   en: "A shepherd of Mecca among the first converts, remembered as the first man to recite the Qur'an aloud there; in Kufa he became a founding teacher of its school of learning."
   ar: "راعٍ مكي من أول المسلمين، يذكره التراث أول من جهر بقراءة القرآن في مكة؛ وفي الكوفة صار أستاذ جيلها الأول في العلم. وشهد انشقاق القمر بمنى وهو مع النبي يروي «فقال اشهدوا وذهبت فرقة نحو الجبل» وقال مرة انشق بمكة {cite:sahih-al-bukhari 3869}."
+  ur: "مکہ میں چرواہے اور ابتدائی مسلمانوں میں سے؛ وہاں علانیہ قرآن پڑھنے والے اولین شخص کے طور پر یاد کیے جاتے ہیں۔ {cite:ibn-ishaq-guillaume} کوفہ کے علمی حلقے کی تشکیل میں ان کی تدریس اہم تھی۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [scripture-and-its-sciences, the-poor-and-the-worker]
 periods: [period/prophetic-era, period/rashidun]
@@ -46,6 +47,7 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch11"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 occupations:
   - job: job/treasurer
     kind: episodic

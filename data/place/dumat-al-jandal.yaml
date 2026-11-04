@@ -1,10 +1,11 @@
 id: place/dumat-al-jandal
 class: place
 kind: town
-label: { ar: "دُومة الجندل", en: "Dumat al-Jandal" }
+label: { ar: "دُومة الجندل", en: "Dumat al-Jandal" , ur: "دومۃ الجندل"}
 summary:
   ar: "بلد كان عليه أكيدر بن عبد الملك الكندي النصراني بحسب ابن إسحاق؛ بعث إليه النبي خالد بن الوليد من تبوك."
   en: A town ruled by Ukaydir ibn Abd al-Malik al-Kindi the Christian, according to Ibn Ishaq; the Prophet sent Khalid ibn al-Walid to him from Tabuk.
+  ur: "ابن اسحاق کے مطابق اکیدر بن عبد الملک کندی کے زیر حکومت شہر؛ نبی نے تبوک سے خالد بن ولید کو اس کی طرف بھیجا۔ {cite:ibn-hisham-saqqa}"
 wings: [place]
 regions: [arabia]
 coordinates: [29.8114, 39.8683]
@@ -13,3 +14,11 @@ coordinate_note: "ويكي بيانات Q2719371 (دومة الجندل، واح
 external_ids: { wikidata: "Q2719371" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169-170; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }
+
+provenance:
+  layer: own-research
+  model: unknown
+  run: explorer-40-subjects-2026-11-04
+  source: "Existing museum record and its listed sources; source/provenance metadata restored for the 40-subject Explorer batch. No new dates, coordinates or relations."
+  generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169-170; coordinates added by Claude Code (subagent), claude-sonnet-5-5; Copilot SDK in VS Code (metadata completion)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}

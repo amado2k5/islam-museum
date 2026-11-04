@@ -1,10 +1,11 @@
 id: place/al-karak
 class: place
 kind: city
-label: { ar: "الكرك", en: "al-Karak" }
+label: { ar: "الكرك", en: "al-Karak" , ur: "کرک"}
 summary:
   ar: "مدينة وحصن شهير جنوب البلقاء، كانت قاعدة ملوك من بيت أيوب ثم ملاذاً لأمراء المماليك؛ أُخذت سنة خمس وثمانين من الملك المسعود خضر بن بيبرس، ونُفي إليها الملك الناصر محمد بن قلاوون ثم أُحضر منها إلى السلطنة سنة ثمان وتسعين {cite:shadharat-dhahab p. 661, 769}."
   en: "A city and famous fortress south of al-Balqa', seat of kings of the Ayyubid house and then a refuge for Mamluk amirs. It was taken in 685 from al-Malik al-Mas'ud Khidr ibn Baybars, and al-Malik al-Nasir Muhammad ibn Qalawun was exiled there, then brought back from it to the sultanate in 698 {cite:shadharat-dhahab p. 661, 769}."
+  ur: "بلقاء کے جنوب میں شہر اور قلعہ؛ ایوبی حکمرانوں کا مرکز رہا اور بعد میں مملوک امرا کی پناہ گاہ بنا۔ الناصر محمد بن قلاوون کو یہاں جلاوطن کیا گیا، پھر 698ھ میں سلطنت کے لیے واپس بلایا گیا۔ {cite:shadharat-dhahab p. 661,769}"
 wings: [place]
 regions: [levant-iraq]
 coordinates: [31.1800, 35.7000]
@@ -13,5 +14,6 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج7، سنتا 685 و698)، قراءة آبل فيجن؛ الإحداثيات تقريبية"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-135
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
