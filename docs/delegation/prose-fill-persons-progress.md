@@ -424,3 +424,9 @@ Promoted: radwan-al-junawi, razaq-allah-ibn-abd-al-wahhab, ruhi-al-khalidi, ruzb
 Promoted: ubayd-allah-ibn-jibril, umar-ibn-al-ash-ath-al-taymi, umar-ibn-al-muzaffar-al-ashraf, umar-khayyam, uthman-ibn-said-al-anmati, uthman-ibn-sanad-al-basri, yahya-al-khayyat-al-falaki-abu-ali-yahya-ibn-ghalib, yahya-haqqi, yazid-ibn-al-qaqa, yazid-ibn-rabi-a-ibn-mufarrigh, yusuf-al-asir, zaki-al-arsuzi, ziyad-ibn-khalfun.cite-check 13/13; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1172.** mawsuat-a3lam ~-12 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 64 (4 Nov 2026, 25 records) — wikidata-import-wave2 draft promotions 1 (sweep worker)
+
+Promoted: abd-allah-ibn-dinar, ahmad-muhammad-shakir, ali-ibn-harb, ali-ibn-mabad-ibn-shaddad, awn-ibn-abd-allah-ibn-utba, bakr-ibn-abd-allah-al-muzani, fatima-bint-abbas-al-baghdadiyya, hafs-ibn-ghiyath, hajjaj-ibn-muhammad, hamad-al-ansari, hammad-ibn-usama, hisham-ibn-yusuf-al-sanani, ibn-ulayyah, ibrahim-ibn-issa-al-muradi, ibrahim-ibn-sad-al-zuhri, ibrahim-ibn-uyayna, imran-ibn-talha, ishaq-ibn-al-furat, ishaq-ibn-ibrahim-ibn-hani, ismail-ibn-ubayd-allah, israil-ibn-yunus, mansur-ibn-zadhan, muawiya-ibn-salih, muhammad-al-bahi, muhammad-ibn-mahran.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1197.** then mawsua, shadharat, hisham and ~4,200 further trilingual drafts.
