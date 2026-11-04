@@ -3,6 +3,7 @@ id: person/zayd-al-khayl
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/suwar-min-hayat-al-sahaba-nafais-1992 pp.124–131 (section added; earlier text by Devin / Claude Fable 5.1)" }
 ---
 
 ## موجز
@@ -16,3 +17,10 @@ translators: []
 
 ## في سيرة ابن هشام
 قدم في [[event/delegation-of-tayy|وفد طيء]] وهو سيدهم، فعرض النبي عليهم الإسلام فأسلموا وحسن إسلامهم. {cite:ibn-hisham-saqqa 4/224} وروى ابن إسحاق عمن لا يتهم من رجال طيء قول النبي فيه، ثم سمّاه زيد الخير وقطع له [[place/fayd|فيداً]] وأرضين معها وكتب له بذلك. {cite:ibn-hisham-saqqa 4/224} فلما خرج راجعاً قال النبي: إن ينجُ زيد من حمّى المدينة، وسمّاها باسم لم يثبته الراوي، فلما انتهى إلى ماء بنجد يقال له [[place/farda|فردة]] أصابته الحمى فمات، وقال حين أحس بالموت بيتين يذكر فيهما ارتحال قومه وتركه في بيت بفردة. {cite:ibn-hisham-saqqa 4/224} ولما مات عمدت امرأته إلى الكتب التي قطع له النبي فحرّقتها بالنار. {cite:ibn-hisham-saqqa 4/224}
+
+## في «صور من حياة الصحابة» لعبد الرحمن رأفت الباشا
+يرسم [[person/abd-al-rahman-rafat-al-basha|الباشا]] في [[work/suwar-min-hayat-al-sahaba|صور من حياة الصحابة]] لزيد صورتين: صورة الجاهلية من كتب الأدب، وصورة الإسلام من كتب السير. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.124} ففي الأولى يروي عن الشيباني عن شيخ من بني عامر خبر رجل أجدب قومه فخرج يطلب مالاً لعياله، فبات خلف شيخ فانٍ في خباء وشرب لبنه، ثم ساق إبل فارس عظيم الجسم، فلحقه الفارس ورمى بسهامه العقد الثلاث في زمام الفحل، فلما عرف الرجل أنه زيد الخيل وأن الشيخ أبوه مهلهل استسلم، فأكرمه زيد ولم يعطه الإبل لأنها لأخت له، ثم أغار على بني نمير فأعطاه نحو مائة ناقة وبعث معه من يحميه إلى الحيرة. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.124} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.125} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.126} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.127} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.128}
+وفي الثانية يذكر أنه قدم في وفد كبير من طيء فيهم زر بن سدوس ومالك بن جبير وعامر بن جوين، فوافوا النبي يخطب؛ فأما زر فحسده وقال إنه يرى رجلاً سيملك رقاب العرب، ومضى إلى الشام فتنصّر، وأما زيد فشهد الشهادتين، فقال له النبي: بل أنت زيد الخير. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.128} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.129} ويروي أن النبي قال له: إن فيك لخصلتين يحبهما الله ورسوله: الأناة والحلم، وأن زيداً سأله ثلاثمائة فارس يغير بهم على الروم، وأنه أصابته حمى المدينة في رجوعه فقال لمن معه: جنّبوني بلاد قيس، فإنه لا يقاتل مسلماً حتى يلقى الله، ومات في طريقه إلى نجد. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.130} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.131}
+
+## في درس الشيخ عمر عبد الكافي
+يروي الشيخ عمر عبد الكافي في الحلقة التاسعة من [[work/tafsir-al-quran-al-qareem|تفسير القرآن الكريم]] أن زيد الخير قال للنبي حين سأله عما يشعر به إنه يحب الخير وأهل الخير، وإذا فاته الخير حنّ إليه (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30} ويرى الشيخ في ذلك علامة على أن الله يريد بالعبد خيراً في الآخرة (رأيه). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:00}
