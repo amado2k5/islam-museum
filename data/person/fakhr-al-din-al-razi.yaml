@@ -1,6 +1,12 @@
 id: person/fakhr-al-din-al-razi
 class: person
-label: { ar: "فخر الدين الرازي" }
+label: { ar: "فخر الدين الرازي", en: "Fakhr al-Din al-Razi", ur: "فخر الدین رازی" }
+names:
+  - { kind: full, lang: ar, value: "محمد الرازي فخر الدين ابن العلامة ضياء الدين عمر المشتهر بخطيب الري" }
+born: { hijri: "0544", edtf: "1149/1150", calendar: julian, precision: year, status: historical, derived: true, note: "544هـ على غلاف طبعة دار الفكر وصفحة عنوان طبعة دار الحديث لتفسيره {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.1} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.1}؛ التحويل مشتق.", sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3, source/mafatih-al-ghayb-dar-al-hadith-2012-v15] }
+died: { hijri: "0604", edtf: "1207/1208", calendar: julian, precision: year, status: historical, derived: true, note: "604هـ على غلاف طبعة دار الفكر وصفحة عنوان طبعة دار الحديث {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.1} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.1}؛ التحويل مشتق.", sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3, source/mafatih-al-ghayb-dar-al-hadith-2012-v15] }
+relations:
+  - { type: authored, target: work/tafsir-al-kabir-razi, sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3] }
 summary:
   ar: "فخر الدين الرازي الإمام المشهور في الكلام والتفسير؛ لما قتل شهاب الدين الغوري سنة اثنتين وستمائة جاء بعض المفسدين من أهل غزنة إلى مماليكه يقولون إن فخر الدين الرازي قتل مولاكم لأنه هو أوصل من قتله ووضع من خوارزم شاه، فثاروا به ليقتلوه فهرب وقصد مؤيد الملك الوزير فسيره سراً إلى مأمنه {cite:kamil-ibn-al-athir p. 304}."
 gender: male
@@ -13,6 +19,8 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 304"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-05
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF p. 1 and source/mafatih-al-ghayb-dar-al-hadith-2012-v15 PDF p. 1 (full name, dates 544–604); source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 2–5 (method)" }
 external_ids: { wikidata: "Q333703" }
-sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/kamil-ibn-al-athir, source/mafatih-al-ghayb-dar-al-fikr-1401-j3, source/mafatih-al-ghayb-dar-al-hadith-2012-v15]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

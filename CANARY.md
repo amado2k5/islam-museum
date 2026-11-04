@@ -16,6 +16,9 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Provenance merge repair**: combine al-Qastallani's two recorded run identifiers into one valid YAML field, preserving both the OCR-harvest and biography-publication attribution after their upstream merge.
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 108).
+- **Library harvest from the OCR'd books** (batch 7): 155 records written or enriched with full Arabic, English and Urdu prose from 19 books on the harvest drive (1978-pdf3176, brookes-gardens, deccani-paintings-1983, futuh-sham, irshad-fuhul, kitab-sunnah-ibn-abi-asim, kitab-sunnah-khallal, mostafa-mahmoud, nihayat-al-arab, nukhbat-fikar, rezavi, sawaiq-mursala…); new records: 37 source, 28 person, 27 work, 19 concept, 11 building, 9 question, 4 object, 3 event, 2 place, 2 practice, 1 group; 53 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 107).
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 106).
 - **Library harvest from the OCR'd books** (batch 6): 83 records written or enriched with full Arabic, English and Urdu prose from 8 books on the harvest drive (1165pdf2229, asma-ul-husna-ibn-qayyim-jala, burhan-zarkashi, daraa-taarud, how-to-read-islamic-calligraphy-by-maryam-d-ekhtiar, mostafa-mahmoud, sunan-abi-dawud, tafsir-baghawi); new records: 21 source, 20 concept, 15 work, 10 question, 7 person, 5 building, 3 object, 1 practice; 23 existing records enriched. Every fact cites the book's edition and page.
