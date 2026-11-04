@@ -436,3 +436,9 @@ Promoted: abd-allah-ibn-dinar, ahmad-muhammad-shakir, ali-ibn-harb, ali-ibn-maba
 Promoted: muslim-ibn-ibrahim, muslim-ibn-khalid-al-zanji, mutamir-ibn-sulayman, qays-ibn-abi-hazim, qutayba-ibn-said, said-ibn-iyas-al-jariri, shuayb-ibn-harb, simak-ibn-harb, sulayman-ibn-al-mughira, surayj-ibn-yunus, ummat-al-wahid, yaeish-bin-sadaqa-al-furati, yahya-al-qattan, yahya-ibn-abi-kathir, yahya-ibn-ayyub-al-maqabiri, yahya-ibn-yusuf-al-zami, yaqub-ibn-ahmad-ibn-al-sabuni, yusuf-ibn-adi, zurara-ibn-awfa.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1216.** wikidata-wave2 done; then mawsua, shadharat, hisham and ~4,150 further trilingual drafts.
+
+### Batch 66 (4 Nov 2026, 25 records) — mawsua-w01-batch-85 draft promotions (sweep worker)
+
+Promoted: abbas-ibn-muhammad-ibn-musa-al-khallal, abd-allah-ibn-muhammad-al-tadili, abu-al-fath-al-naysaburi, ahmad-al-bashbishi, ahmad-ibn-abd-al-rahim-ibn-al-iraqi, ahmad-ibn-hazim-abu-al-qasim-al-balkhi, ahmad-ibn-said-ibn-al-hindi, ahmad-ibn-salman-al-najjad, al-itqani, ali-ibn-muhammad-hamid-al-din-al-darir, ali-ibn-musa-ibn-yazdad, hajjaj-ibn-amr-al-ansari, harb-ibn-ismail-al-kirmani, hushaym-ibn-bashir, ibrahim-ibn-hasan-al-tunisi, ismail-ibn-abd-al-rahman-al-suddi, ismail-ibn-muhammad-al-ajluni, jalal-al-din-al-karlani, khalid-ibn-madan, luqman-ibn-amir-al-wasabi, muhammad-ali-al-tahanawi, muhammad-ibn-ahmad-ulaysh, muhammad-radi-al-din-al-sarakhsi, muqatil-ibn-hayyan, mustafa-al-ruhaybani.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1241.** sweep continues through remaining trilingual drafts.
