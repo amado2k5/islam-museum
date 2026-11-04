@@ -58,6 +58,7 @@ open a new block on top with the new version and today's date.
 - **Forty more Timeline Explorer stories**: follow twenty places and twenty people through 303 dated, cited stops drawn from existing museum records. Every new subject has Arabic, English and Urdu titles and summaries; individual event text retains the documented Arabic fallback where a translation is missing.
 
 ### Fixed
+- **Shared Explorer image correction authorized**: five previously blocked backdrops now have screened, people-free replacements following explicit founder approval. The image batch ships separately from the forty new stories; historical dates, facts, relationships and UI code are unchanged.
 - **Five Explorer fallback scenes**: ten new adult/kids landscape backdrops prevent five legacy record illustrations with figures from being selected at those stops. Every new image was inspected at full size; the legacy files and other owners' Explorer assets were left unchanged.
 
 ### Tests
