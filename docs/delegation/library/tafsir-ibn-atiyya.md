@@ -16,3 +16,8 @@ Pages read: PDF 1–24 (Majd Makki's introduction pp. 2–10, epigraphs p. 12, I
 
 ## Next
 Ibn Atiyya's chapter on the seven ahruf (pp. 21–24) for `concept/al-ahruf-al-sabaa`; his chapters on the collection of the Qur'an and on foreign words (pp. 26–32).
+
+## Second pass (OCR-harvest worker B)
+Pages read (Dar Ibn Hazm, PDF): 21–24 (chapter on the seven ahruf — used in `concept/al-ahruf-al-sabaa`, committed with the Tabari batch), 25–27 (chapter on the collection, vowelling, dotting, division and marking of the Qur'an).
+- Created: `question/who-first-pointed-the-mushaf` (three Sunni accounts: Abd al-Malik and al-Hajjaj; Abu al-Aswad al-Du'ali at Ziyad's order; Nasr ibn Asim), with sections on the two collections and the marking of tens.
+- "Abu al-Faraj" on p. 27 is not identified on the page and is not linked.
