@@ -6,6 +6,12 @@ label:
   ur: "ابن عبد البر"
 names:
   - { value: "أبو عمر يوسف بن عبد الله بن محمد بن عبد البر النمري القرطبي", kind: full }
+  - { value: "يوسف بن عبد الله بن محمد بن عبد البر بن عاصم النمري", kind: nasab, lang: ar }
+  - { value: "أبو عمر", kind: kunya, lang: ar }
+  - { value: "النمري القرطبي", kind: nisba, lang: ar }
+traditions: [sunni-maliki]
+faith:
+  - { value: sunni-maliki, basis: documented, note: "مالكي مع ميل إلى فقه الشافعي في مسائل، وكان أولاً أثرياً ظاهري الهوى فيما قيل (الذهبي كما ينقله محقق التمهيد ط. الفرقان ج1 ص 16، 18)." }
 gender: male
 born: { edtf: "0978-11-29", hijri: "0368-04-25", calendar: julian, precision: day, status: tradition, derived: true, note: "ولدت يوم الجمعة والإمام يخطب لخمس بقين من ربيع الآخر سنة ثمان وستين وثلاثمائة، اليوم التاسع والعشرون من نونبر {cite:tarikh-islam-dhahabi p. 137}؛ التحويل مشتق؛ رواية الجذوة والبغية رجب ٣٦٢." }
 died: { edtf: "1071~", hijri: "0463-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في سلخ ربيع الآخر سنة ثلاث وستين وأربعمائة وله خمس وتسعون سنة وخمسة أيام {cite:shadharat-dhahab p. 322}؛ بشاطبة ليلة الجمعة آخر يوم من ربيع الآخر ودفن بعد العصر {cite:wafayat-ayan p. 71}." }
@@ -13,7 +19,7 @@ summary:
   ar: "إمام عصره في الحديث والأثر وما يتعلق بهما، قرطبي؛ روى عن خلف بن القاسم الحافظ وعبد الوارث بن سفيان وأبي الوليد الباجي وأبي الوليد ابن الفرضي، قال القاضي ابن سكرة سمعت الباجي يقول لم يكن بالأندلس مثل أبي عمر ابن عبد البر في الحديث وقال الباجي أيضاً أبو عمر أحفظ أهل المغرب، وألف في الموطأ كتباً مفيدة منها التمهيد مرتباً على أسماء شيوخ مالك في سبعين جزءاً قال ابن حزم لا أعلم في الكلام على فقه الحديث مثله {cite:wafayat-ayan p. 66-67}."
   en: "Abu 'Amr Ibn 'Abd al-Barr of Cordoba, imam of his age in hadith and athar — al-Baji said there was none like him in al-Andalus, 'the most memorising of the Maghreb's people'; his Tamhid on the Muwatta' in seventy parts drew Ibn Hazm's verdict that nothing on fiqh al-hadith equals it {cite:wafayat-ayan p. 66-67}."
   ur: "ابو عمر ابن عبد البر قرطبی، اپنے زمانے کے امام حدیث و اثر — باجی کے مطابق اندلس میں ان جیسا کوئی نہ تھا اور وہ «مغرب کے سب سے بڑے حافظ» تھے؛ ان کی موطا پر ستر حصوں کی «تمہید» ایسی تھی کہ ابن حزم کے نزدیک فقہ الحدیث پر اس کی برابر کوئی کتاب نہیں {cite:wafayat-ayan p. 66-67}."
-roles: [scholar]
+roles: [scholar, muhaddith, jurist]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
@@ -26,6 +32,10 @@ relations:
   - { type: child_of, target: person/abd-allah-ibn-muhammad-ibn-abd-al-barr, sources: [source/wafayat-ayan] }
   - { type: student_of, target: person/abu-al-walid-ibn-al-faradi, sources: [source/tarikh-islam-dhahabi] }
   - { type: student_of, target: person/abu-umar-al-talamanki, sources: [source/tarikh-islam-dhahabi] }
+  - { type: student_of, target: person/khalaf-ibn-qasim-ibn-al-dabbagh, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/abd-al-warith-ibn-sufyan, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/said-ibn-nasr-ibn-abi-al-fath, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: student_of, target: person/abu-dharr-al-harawi, sources: [source/tamhid-furqan-2017-v1] }
   - { type: authored, target: work/al-istiab, sources: [source/kashf-zunun-furqan, source/tarikh-islam-dhahabi] }
   - { type: authored, target: work/al-tamhid-ibn-abd-al-barr, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
   - { type: authored, target: work/al-istidkar, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
@@ -46,5 +56,5 @@ provenance:
   model: "SWE-2 Medium"
   run: explorer-ibn-abd-al-barr-1
 external_ids: { wikidata: "Q732363" }
-sources: [source/wafayat-ayan, source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan, source/nafh-tib-maqqari]
-status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+sources: [source/tamhid-furqan-2017-v1, source/wafayat-ayan, source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan, source/nafh-tib-maqqari]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker A) from the 2017 al-Furqan Tamhid vol. 1 pp. 10–18, run ocr-harvest-2026-11-04" }

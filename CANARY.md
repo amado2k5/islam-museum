@@ -17,6 +17,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 97).
+- **Library harvest from the OCR'd books** (batch 1): 72 records written or enriched with full Arabic, English and Urdu prose from 6 books on the harvest drive (artandarchitectureofislamiccairo, fadail-sahaba-ahmad, khwarizmi-algebra, minhaj-sunna, nallino-al-battini-opus-astronomicium-pars-1-3-1899, tamhid-ibn-abd-al-barr); new records: 16 person, 10 source, 9 work, 6 concept, 6 question, 1 building, 1 place; 34 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 96).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 95).
 - **Harvest drive: missing books acquired**: 22 books the library plans named but the drive lacked (among them Sunan Abi Dawud with al-Khattabi's Ma'alim, Hilyat al-Awliya', al-Muhalla, al-Khallal's al-Sunna, Ibn Khuzayma's Kitab al-Tawhid, al-Ash'ari's al-Ibana, Nuzhat al-Nazar, Irshad al-Fuhul, Ibn Nubata's sermons, Ibn Uthaymin's sermons, al-Jahiz's al-Hayawan, Uyun al-Akhbar, Ibn Hawqal and Ibn Hayyan) were downloaded from open archive.org items with checksums, OCR'd on the founder's Mac and queued for harvest; six new titles are added to the library canon (`books.yaml`).
