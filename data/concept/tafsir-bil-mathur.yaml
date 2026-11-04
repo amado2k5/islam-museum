@@ -1,0 +1,45 @@
+id: concept/tafsir-bil-mathur
+class: concept
+kind: term
+label:
+  ar: "التفسير بالمأثور"
+  en: "Tafsir by transmitted report (bi'l-ma'thur)"
+  ur: "تفسیر بالماثور"
+summary:
+  ar: "تفسير القرآن بما نُقل: بالقرآن نفسه، ثم بالسنة، ثم بأقوال الصحابة، ثم بأقوال التابعين. ينقل محمد سيد طنطاوي في مقدمة «التفسير الوسيط» عن ابن كثير أن هذا الترتيب هو «أصح الطرق» في التفسير، ويجعله أصلًا لمنهجه."
+  en: "Interpreting the Qur'an through what has been transmitted: by the Qur'an itself, then by the Sunna, then by the sayings of the Companions, then by those of the Successors. In the introduction to al-Tafsir al-Wasit, Muhammad Sayyid Tantawi quotes Ibn Kathir that this order is 'the soundest way' of interpretation and makes it a basis of his own method."
+  ur: "قرآن کی تفسیر منقول ذرائع سے: خود قرآن سے، پھر سنت سے، پھر صحابہ کے اقوال سے، پھر تابعین کے اقوال سے۔ محمد سید طنطاوی «التفسیر الوسیط» کے مقدمے میں ابن کثیر سے نقل کرتے ہیں کہ یہی ترتیب تفسیر کا «سب سے درست طریقہ» ہے، اور اسے اپنے منہج کی بنیاد بناتے ہیں۔"
+wings: [ideas, words]
+themes: [scripture-and-its-sciences]
+regions: [global]
+issue:
+  ar: "ما أصح طرق تفسير القرآن، وبأي ترتيب يُرجع إلى مصادره؟"
+  en: "What is the soundest way to interpret the Qur'an, and in what order are its sources consulted?"
+  ur: "قرآن کی تفسیر کا سب سے درست طریقہ کیا ہے، اور اس کے مآخذ کی طرف کس ترتیب سے رجوع کیا جائے؟"
+perspectives:
+  - tradition: sunni
+    id: ibn-kathir-four-steps
+    standing: main
+    stance:
+      ar: "القرآن بالقرآن، ثم السنة، ثم أقوال الصحابة، ثم أقوال التابعين"
+      en: "The Qur'an by the Qur'an, then the Sunna, then the Companions, then the Successors"
+      ur: "قرآن بالقرآن، پھر سنت، پھر صحابہ، پھر تابعین"
+    summary:
+      ar: "ينقل طنطاوي عن ابن كثير أن ما أُجمل في موضع من القرآن بُسط في موضع آخر، فإن لم يوجد فالسنة شارحة له، ثم أقوال الصحابة لما شاهدوه من القرائن والأحوال، ثم أقوال كثير من التابعين كمجاهد وسعيد بن جبير وعكرمة وعطاء والحسن البصري {cite:tafsir-tantawi-wasit p.8} {cite:tafsir-tantawi-wasit p.9}."
+      en: "Tantawi quotes Ibn Kathir: what is brief in one place of the Qur'an is expanded in another; failing that, the Sunna explains it; then the sayings of the Companions, for the circumstances they witnessed; then those of many Successors such as Mujahid, Sa'id ibn Jubayr, Ikrima, Ata' and al-Hasan al-Basri {cite:tafsir-tantawi-wasit p.8} {cite:tafsir-tantawi-wasit p.9}."
+      ur: "طنطاوی ابن کثیر سے نقل کرتے ہیں کہ قرآن میں ایک جگہ جو اجمال ہے وہ دوسری جگہ تفصیل سے آیا ہے؛ نہ ملے تو سنت اس کی شارح ہے؛ پھر صحابہ کے اقوال، ان قرائن و احوال کی بنا پر جو انہوں نے دیکھے؛ پھر مجاہد، سعید بن جبیر، عکرمہ، عطاء اور حسن بصری جیسے بہت سے تابعین کے اقوال {cite:tafsir-tantawi-wasit p.8} {cite:tafsir-tantawi-wasit p.9}۔"
+    holders: [person/ibn-kathir, person/muhammad-sayyid-tantawi]
+    evidence:
+      - ref: source/tafsir-tantawi-wasit
+        note: { en: "PDF pp. 8–9, quoting Tafsir Ibn Kathir vol. 1 p. 4 ff. (summarised by Tantawi)" }
+    sources: [source/tafsir-tantawi-wasit]
+relations:
+  - { type: part_of, target: concept/tafsir, sources: [source/tafsir-tantawi-wasit] }
+sources: [source/tafsir-tantawi-wasit]
+provenance:
+  layer: own-research
+  source: "source/tafsir-tantawi-wasit, PDF pp. 8–10 (author's introduction, quoting Ibn Kathir)"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

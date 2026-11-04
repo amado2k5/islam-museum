@@ -3,24 +3,55 @@ class: person
 label:
   ar: "ابن حبان البستي"
   en: "Ibn Hibban al-Busti"
-roles: [scholar]
+names:
+  - { kind: full, lang: ar, value: "محمد بن حبان، أبو حاتم البستي الحافظ" }
+  - { kind: kunya, lang: ar, value: "أبو حاتم" }
+roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن حبان البستي، الحافظ صاحب «صحيح ابن حبان» و«الثقات» و«المجروحين»، توفي سنة ٩٦٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Hibban al-Busti, the hadith master author of Sahih Ibn Hibban, al-Thiqat and al-Majruhin, d. 965; the biographical entry is not yet checked on the page."
+  ar: "أبو حاتم محمد بن حبان البستي الحافظ (ت 354هـ)، صاحب «الأنواع» ومؤلف كتابي الجرح والتعديل. يصفه الذهبي في «ميزان الاعتدال» بأنه من أئمة زمانه، طلب العلم على رأس الثلاثمائة، وكتب بالشام والحجاز ومصر والعراق والجزيرة وخراسان، وولي قضاء سمرقند، وكان عارفاً بالطب والنجوم والكلام والفقه رأساً في معرفة الحديث؛ ويذكر ما أُخذ عليه من إنكار الحد وقوله «النبوة العلم والعمل»، وما ترتب على ذلك من إخراجه من سجستان {cite:mizan-itidal-bijawi-v3 p. 506-508}."
+  en: "Abu Hatim Muhammad ibn Hibban al-Busti, the hadith master (d. 354 AH), author of al-Anwa' and of the two books on criticism and vindication. Al-Dhahabi's Mizan al-I'tidal calls him one of the imams of his time, who sought knowledge at the turn of the year 300, wrote in Syria, the Hijaz, Egypt, Iraq, the Jazira and Khurasan, served as judge of Samarqand, and knew medicine, astronomy, theology and law, being foremost in knowledge of hadith; it records what was held against him — his denial of the 'limit' and his saying 'prophethood is knowledge and action' — and his expulsion from Sijistan."
+died: { hijri: "0354", edtf: "0965", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: مات سنة أربع وخمسين وثلثمائة {cite:mizan-itidal-bijawi-v3 p. 508}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [scripture-and-its-sciences]
-sources: [source/wafayat-ayan]
+relations:
+  - { type: lived_in, target: place/bust, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: lived_in, target: place/nishapur, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: lived_in, target: place/samarqand, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: traveled_to, target: place/bukhara, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/al-nasai, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-dhahabi
+    standing: main
+    stance: { ar: "إمام في الحديث له أوهام، وقوله في النبوة يُحمل على محمل سائغ", en: "An imam of hadith with errors; his saying on prophethood can bear an acceptable reading" }
+    summary:
+      ar: "يرى الذهبي أنه من أئمة زمانه، ويوافق ابن الصلاح في أنه غلط الغلط الفاحش في تصرفه، ويرى أن السكوت عن إثبات الحد ونفيه أولى، وأن قوله «النبوة العلم والعمل» سائغ إن أراد أن عماد النبوة العلم والعمل، وزندقة وفلسفة إن أراد الحصر."
+      en: "Al-Dhahabi holds him an imam of his time, agrees with Ibn al-Salah that he erred grossly in his handling, holds that silence on affirming or denying the 'limit' is better, and that 'prophethood is knowledge and action' is acceptable if meant as its pillars, but heresy and philosophy if meant exclusively."
+    holders: [person/al-dhahabi, person/ibn-al-salah]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-yahya-ibn-ammar
+    standing: secondary
+    stance: { ar: "عالم كثير العلم قليل الدين، أُخرج من سجستان", en: "Learned but of little religion; expelled from Sijistan" }
+    summary:
+      ar: "نقل أبو إسماعيل الأنصاري عن يحيى بن عمار أنه رآه، وأن له علماً كثيراً ولم يكن له كبير دين، وأنهم أخرجوه من سجستان لإنكاره الحد لله؛ ونقل عن غيره أنهم أنكروا قوله «النبوة العلم والعمل» وحكموا عليه بالزندقة وهجروه."
+      en: "Abu Isma'il al-Ansari reported Yahya ibn Ammar saying he saw him, that he had much learning but little religion, and that they expelled him from Sijistan for denying the 'limit' of God; others reported that his saying 'prophethood is knowledge and action' was condemned as heresy and he was shunned."
+    holders: [person/al-ansari-al-harawi-abd-allah]
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
+sources: [source/wafayat-ayan, source/mizan-itidal-bijawi-v3]
 external_ids:
   wikidata: Q4794354
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn Khallikan, Wafayat al-A'yan — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0014
+  source: "Wikidata Q4794354; ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 506–508 (الترجمة 7346)"
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: wikidata-import-0014, ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker F)"

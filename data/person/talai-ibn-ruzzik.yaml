@@ -14,5 +14,8 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني (ترجمة طلائع بن رزيك)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-16
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 66-69"]
+sources: [source/wafayat-ayan, source/yeomans-islamic-cairo-2006]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: built, target: building/mosque-of-al-salih-talai, sources: [source/yeomans-islamic-cairo-2006] }

@@ -8,10 +8,11 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-29
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348; source/mujam-al-buldan-yaqut vols 1-2 scan pp. 803-804"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "lib-futuh-buldan-batch-29; ocr-harvest-2026-11-04"

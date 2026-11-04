@@ -3,6 +3,11 @@ id: person/al-tabari
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance:
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
 ---
 ## خلاصہ
 ابو جعفر محمد بن جریر الطبری الآملی، ان کی ولادت آمل میں سنہ 224ھ میں ہوئی اور بغداد میں سنہ 310ھ میں وفات پائی۔ ابن الندیم انھیں قرآن، نحو، شعر، لغت اور فقہ کے کئی فنون کا ماہر شمار کرتے ہیں۔ {cite:fihrist-ibn-al-nadim p.326-327}
@@ -37,3 +42,13 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وقت کی تنظیم میں سے: ظہر سے پہلے قیلولہ، پھر عصر تک تصانیف، مسجد میں مغرب تک قرآن کی تدریس، عشاء تک فقہ کی مدارسہ، پھر تنہائی میں تصنیف جہاں کوئی داخل نہ ہوتا — اور ہر رات قرآن کا ایک حصہ جو کبھی چوتھائی تک پہنچتا {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:19:00}۔
 مخالفین کے ساتھ ان کے اخلاق میں سے: جب داؤد ظاہری کے ایک شاگرد نے انہیں تکلیف دی تو انہوں نے سو ورق کا جواب لکھا، پھر داؤد کی وفات کی خبر پر کتاب پھاڑ دی؛ اور اس کے برعکس انہوں نے محمد بن داؤد کی اس کے گھر والوں کے سامنے تعریف کی حالانکہ اس نے ان کے خلاف کتاب لکھی تھی — اس سے نقمت مودت میں بدل گئی {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:22:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:22:30}۔
 اور وہ اختتام کرتے ہیں: ان میں تخلیق کی مساوات تقریباً مکمل تھی — صلاحیت، دیکھ بھال، سفر، شاگرد، لینا اور دینا، اور توازن — ان چند نایاب لوگوں میں سے جن میں یہ سب جمع ہوا {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:11:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:12:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:23:00}۔
+
+## ذہبی کی میزان الاعتدال میں
+[[person/al-dhahabi|ذہبی]] [[work/mizan-al-itidal|میزان الاعتدال]] میں محمد بن جریر بن یزید طبری کا ترجمہ لکھتے ہیں، انہیں جلیل القدر امام اور مفسر، شاندار تصانیف کا مالک کہتے ہیں، اور بتاتے ہیں کہ وہ سنہ 310 میں فوت ہوئے۔ {cite:mizan-itidal-bijawi-v3 p. 498} وہ فیصلہ دیتے ہیں کہ وہ ثقہ اور سچے ہیں، ان میں ہلکا سا تشیع اور اہلِ بیت سے ایسی محبت ہے جو نقصان دہ نہیں۔ {cite:mizan-itidal-bijawi-v3 p. 499}
+
+وہ نقل کرتے ہیں کہ حافظ احمد بن علی سلیمانی نے ان کے بارے میں سخت بات کہی کہ وہ روافض کے لیے روایتیں گھڑتے تھے۔ {cite:mizan-itidal-bijawi-v3 p. 499} ذہبی اسے «جھوٹے گمان پر سنگ باری» کہہ کر رد کرتے ہیں: ابن جریر اسلام کے بڑے معتمد ائمہ میں سے ہیں؛ ذہبی ان کی غلطی سے معصومیت کا دعویٰ نہیں کرتے، مگر باطل اور خواہش کی بنا پر انہیں ایذا دینا جائز نہیں۔ {cite:mizan-itidal-bijawi-v3 p. 499} وہ ایک عمومی قاعدہ بیان کرتے ہیں: علما کی ایک دوسرے کے بارے میں باتوں میں ٹھہر کر غور کرنا چاہیے، خاص طور پر کسی بڑے امام کے بارے میں۔ {cite:mizan-itidal-bijawi-v3 p. 499} پھر ایک نسخے کے اضافے میں احتمال ظاہر کرتے ہیں کہ شاید سلیمانی کی مراد ان کے ہم نام [[person/muhammad-ibn-jarir-ibn-rustam|محمد بن جریر بن رستم]] تھے، جن کا ذکر ذہبی فوراً بعد رافضی کے طور پر کرتے ہیں۔ {cite:mizan-itidal-bijawi-v3 p. 499}
+
+:::perspectives
+- **Sunni (اہلِ سنت): ذہبی**: ثقہ اور سچے، اسلام کے بڑے ائمہ میں سے، ہلکا سا تشیع جو نقصان دہ نہیں؛ وضع کا الزام گمان پر سنگ باری ہے۔ {cite:mizan-itidal-bijawi-v3 p. 499}
+- **Sunni (اہلِ سنت): احمد بن علی سلیمانی، ذہبی کی نقل کے مطابق**: روافض کے لیے روایتیں گھڑتے تھے — ممکن ہے مراد ابن رستم ہوں نہ کہ مفسر۔ {cite:mizan-itidal-bijawi-v3 p. 499}
+:::

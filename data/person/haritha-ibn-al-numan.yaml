@@ -1,0 +1,37 @@
+id: person/haritha-ibn-al-numan
+class: person
+label: { ar: "حارثة بن النعمان", en: "Haritha ibn al-Nu'man" }
+names:
+  - { kind: full, lang: ar, value: "حارثة بن النعمان بن نفيع بن زيد بن عبيد بن ثعلبة بن غنم بن مالك بن النجار الأنصاري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "حارثة بن النعمان الأنصاري النجاري، صحابي شهد بدراً وأحداً والخندق والمشاهد كلها وثبت يوم حنين، وكان يتحول للنبي عن منازله كلما احتاج منزلاً حتى قال النبي إنه استحيا منه؛ روى أحمد بن حنبل في «فضائل الصحابة» بإسناد صحيح حديث عائشة أن النبي سمع قراءته في الجنة في منامه وقال «كذلك البر» وكان أبر الناس بأمه، وحديثه أنه سلّم على النبي وعنده جبريل فرد عليه جبريل السلام؛ وتوفي في خلافة معاوية سنة 51هـ."
+  en: "Haritha ibn al-Nu'man al-Ansari of Banu al-Najjar, a Companion who fought at Badr, Uhud, the Trench and every campaign and stood firm at Hunayn. He kept moving out of his houses for the Prophet whenever he needed one, until the Prophet said he felt shy before him. In Fada'il al-Sahaba Ahmad ibn Hanbal narrates with sound chains Aisha's report that the Prophet heard him reciting in Paradise in a dream and said 'such is dutifulness' — he was the most dutiful of people to his mother — and Haritha's own report that he greeted the Prophet while Gabriel sat with him and Gabriel returned his greeting. He died in Mu'awiya's caliphate in 51 AH."
+wings: [people]
+themes: [family-marriage-kinship, ethics-and-character]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+died:
+  { edtf: "0671~", hijri: "0051", calendar: julian, precision: year, status: tradition, derived: true, note: "«وبقي حارثة حتى توفي في خلافة معاوية سنة إحدى وخمسين» في حاشية المحقق عن ابن سعد والاستيعاب وأسد الغابة والإصابة؛ التحويل مشتق {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1042}", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+story_roles:
+  - { role: companion, status: tradition, note: "بدري؛ ترجمته في حاشية فضائل الصحابة ص1041–1042", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+relations:
+  - { type: member_of, target: group/ansar, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: member_of, target: group/banu-al-najjar, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: participated_in, target: event/battle-of-uhud, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: participated_in, target: event/battle-of-the-trench, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: "ثبت مع النبي", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: lived_in, target: place/medina, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+provenance:
+  layer: own-research
+  source: "فضائل الصحابة لأحمد بن حنبل، تحقيق وصي الله عباس (ط2 1420هـ) ص1041–1043، الروايتان 1507–1508 وحاشية الترجمة"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 3 }
