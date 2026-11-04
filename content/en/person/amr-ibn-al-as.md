@@ -3,6 +3,7 @@ id: person/amr-ibn-al-as
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1152–1155", note: "section added to earlier prose" }
 ---
 
 ## Brief
@@ -15,6 +16,9 @@ The Prophet made use of his shrewdness and sent him to Oman. Under Umar he led i
 
 ## Legacy
 Egypt became Islamic through his hand, and it stayed so. Politically he is the tradition's emblem of the brilliant pragmatist: the man who always landed on the winning side, including, last of all, the caliphate.
+
+## In Ahmad ibn Hanbal's Fada'il al-Sahaba
+In his chapter in [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]]'s book: the hadith of Uqba ibn Amir, "People embraced Islam, but Amr ibn al-As believed" (no. 1744, graded sound by the editor [[person/wasi-allah-abbas|Wasi Allah Abbas]]), and Amr's own report that the Prophet summoned him and said, "I want to send you on an expedition; God will keep you safe and give you spoils", to which he replied that he had not embraced Islam for wealth but for jihad and to be with him, and the Prophet said, "How good is good wealth for a good man" (1745, sound). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1154} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155} It also has Talha's report that he heard the Prophet say, "Amr ibn al-As is among the righteous of Quraysh" (1742, weak for a break), and "What a fine household: Abd Allah, Abu Abd Allah and Umm Abd Allah", through routes the editor grades weak for breaks or *irsal* (1743, 1746, 1747). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1152} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1153} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1154} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1155}
 
 ## For young visitors
 Amr was the cleverest of those sent to argue with the Muslims. Then he joined them, conquered Egypt, and remained its governor for the rest of his life.

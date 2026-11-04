@@ -1,0 +1,28 @@
+id: person/abu-ishaq-al-shatibi
+class: person
+label: { ar: "أبو إسحاق الشاطبي", en: "Abu Ishaq al-Shatibi", ur: "ابو اسحاق شاطبی" }
+names:
+  - { value: "إبراهيم بن موسى بن محمد اللخمي الغرناطي الشاطبي", kind: full }
+summary:
+  ar: "أبو إسحاق إبراهيم بن موسى بن محمد اللخمي الغرناطي، الشهير بالشاطبي (ت 790هـ)، أصولي حافظ من أهل غرناطة ومن أئمة المالكية، صاحب «الموافقات في أصول الشريعة» و«الاعتصام» و«المقاصد الشافية في شرح خلاصة الكافية» و«الإفادات والإنشادات» {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 4}."
+  en: "Abu Ishaq Ibrahim ibn Musa ibn Muhammad al-Lakhmi of Granada, known as al-Shatibi (d. 790 AH), a legal theorist and hadith memoriser of Granada and one of the Maliki imams, author of al-Muwafaqat fi Usul al-Shari'a, al-I'tisam, al-Maqasid al-Shafiya (a commentary on Ibn Malik's Alfiyya) and al-Ifadat wa-l-Inshadat."
+  ur: "ابو اسحاق ابراہیم بن موسیٰ بن محمد لخمی غرناطی، المعروف بہ شاطبی (م 790ھ)، غرناطہ کے اصولی اور حافظ، مالکیہ کے ائمہ میں سے، «الموافقات فی اصول الشریعہ»، «الاعتصام»، «المقاصد الشافیہ» (ابن مالک کی الفیہ کی شرح) اور «الافادات والانشادات» کے مصنف۔"
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+died: { edtf: "1388", hijri: "0790", calendar: julian, precision: year, status: tradition, note: "المتوفى سنة 790هـ (الموافقات ط. دراز ص1)؛ ويقابلها الناشر بسنة 1388م نقلاً عن الأعلام (ص4)", sources: [source/muwafaqat-draz-ilmiyya] }
+relations:
+  - { type: lived_in, target: place/granada, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: member_of, target: group/maliki-madhhab, sources: [source/muwafaqat-draz-ilmiyya] }
+  - { type: authored, target: work/al-muwafaqat, sources: [source/muwafaqat-draz-ilmiyya, source/muwafaqat-mashhur-ibn-affan-v1] }
+  - { type: authored, target: work/al-itisam-al-shatibi, sources: [source/muwafaqat-draz-ilmiyya] }
+sources: [source/muwafaqat-draz-ilmiyya, source/muwafaqat-mashhur-ibn-affan-v1]
+provenance:
+  layer: own-research
+  source: "muwafaqat-draz-ilmiyya pp. 1, 3-10; muwafaqat-mashhur-ibn-affan-v1 pp. 1, 9-12"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker L)" }

@@ -3,6 +3,7 @@ id: person/aisha
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1097–1100", note: "section added to earlier prose" }
 ---
 
 ## Summary
@@ -17,6 +18,9 @@ The Prophet died when she was about eighteen. She lived in Medina for nearly fiv
 
 ## Legacy
 Her voice runs through Sunni fiqh, creed and tafsir. Whenever the community asked what the Prophet had said or done, Aisha's answer carried a particular weight.
+
+## In Ahmad ibn Hanbal's Fada'il al-Sahaba
+[[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] devotes a chapter to A'isha's merits, including her report that the Prophet told her, "This is Gabriel greeting you with peace", and she replied, "And upon him be peace, God's mercy and blessings — you see what we do not see" (1627, sound according to the editor [[person/wasi-allah-abbas|Wasi Allah Abbas]]), and the hadith "A'isha's excellence over other women is like that of *tharid* over other food" (1628, sound). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1098} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1099} It has Ammar's words to a man who disparaged A'isha in Ali's presence — that she was the Messenger of God's beloved and his wife in Paradise, while Ali stayed silent (1625, 1631; the editor discusses Abu Ishaq al-Sabi'i's late confusion and notes that her being his wife in Paradise is narrated by al-Bukhari from Ammar). {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1097} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1100} It reports that al-Zuhri, at the court of al-Walid when the caliph nearly spoke against A'isha, told him of Abu Muslim al-Khawlani's words to the Syrians: that they and their mother were like two eyes in a head that pain their owner, who can only treat them with what is good for them — and al-Walid fell silent. {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1099} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1100} In his note the editor calls her the most learned in law of the Muslim women, to whom the Companion jurists referred difficult questions, and gives her death as 57 AH, or 58. {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1097}
 
 ## For young visitors
 Aisha had one of the strongest memories of her generation. People came from far away to ask her what the Prophet had said and done, and her answers are among the things the tradition was written down from.

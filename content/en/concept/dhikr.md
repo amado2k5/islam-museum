@@ -3,6 +3,13 @@ id: concept/dhikr
 lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/miftah-al-falah-saada-1332 pp. 5-6, 19, 43"
 ---
 ## Overview
 Ibn Rajab discusses *dhikr* (remembrance of God) in the fiftieth hadith, which closes his additions to the Forty, as the comprehensive principle to hold on to when the laws have multiplied. {cite:ibn-rajab-jami-ulum-hikam p.927}
@@ -34,6 +41,9 @@ The hadith continues: God declares that He has forgiven the people of the gather
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 10)
 
 The Sheikh prays that God gather those present in the shade of His throne on the day when there is no shade but His {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}. He then says that a day will come for the people of paradise on which each will ask his brothers when God forgave them, and he reports from scholars that this question has an answer (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:00:30}.
+
+## In the Miftah al-Falah attributed to Ibn 'Ata' Allah
+[[work/miftah-al-falah|Miftah al-Falah wa-Misbah al-Arwah]], attributed to [[person/ibn-ata-allah-al-iskandari|Ibn 'Ata' Allah al-Iskandari]], defines dhikr as freeing oneself from heedlessness and forgetting through the constant presence of the heart with God, and divides it into dhikr of the tongue, the heart and the limbs, bound and unrestricted. {cite:miftah-al-falah-saada-1332 p. 5} It quotes al-Ghazali that its reality is the One remembered taking possession of the heart, the dhikr of the tongue being a husk through which the kernel is sought. {cite:miftah-al-falah-saada-1332 p. 6} It sets rules for before, during and after dhikr, among them repentance, lawful food, purifying the intention so it is "lawful, not habitual" and sitting facing the qibla, and includes Sufi rules the author lays down, such as the disciple drawing on his shaykh's spiritual resolve. {cite:miftah-al-falah-saada-1332 p. 19} On whether dhikr or recitation is better, it quotes al-Ghazali that reciting the Qur'an is better for everyone except the traveller on the path in the states of his beginning and some states of his end. {cite:miftah-al-falah-saada-1332 p. 43}
 
 ## For Sprouts
 Dhikr (remembrance) for Ibn Rajab is the all-gathering gate to hold to when the laws grew many: 'let your tongue stay moist with the remembrance of God'.

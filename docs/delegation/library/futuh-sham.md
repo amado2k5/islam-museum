@@ -25,3 +25,7 @@ Secondary source for the attribution debate: source/dehghani-farsani-futuh-al-sh
 
 ## Next
 Vol. 1 Ajnadayn, Damascus, Homs, Yarmuk, Aleppo and Azaz sections; vol. 2 Egypt (pp. 32-88) and Jazira/Armenia (pp. 88-169) conquest narratives could enrich thin place records (Azaz, Mardin, Ra's al-Ayn, Mayyafariqin) — each to be labelled as Futuh al-Sham's telling.
+
+## Second pass (same run)
+- Read vol. 1 pp. 237-238, 245, 264-265, 267-268 (Aleppo and Azaz).
+- New: person/yuqanna-of-aleppo (ar/en/ur). Roles fix on person/khawla-bint-al-azwar (removed non-enum role).

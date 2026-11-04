@@ -3,7 +3,7 @@ id: work/al-mustasfa
 lang: en
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker D); Pole 2 section added by Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; translated from the Arabic page; mustasfa-tijariyya-1356-v1 PDF pp. 5, 136, 141, 143-144" }
 ---
 ## Summary
 
@@ -32,3 +32,6 @@ The editor notes that al-Mustasfa was first printed in 1324 AH in two volumes at
 ## Not covered here
 
 Volume 2 (the sources, including the discussion of istislah) and volume 4 were not read in this batch, and the date of composition is not given.
+
+## Pole 2: the supposed sources (addition)
+In Pole 2 al-Ghazali sets out four bases that are thought to be proofs but are not, which he calls "the supposed sources": [[concept/shar-man-qablana|the law of earlier prophets]], the Companion's opinion, istihsan and istislah. {cite:mustasfa-tijariyya-1356-v1 p.136} On the Companion's opinion he reports al-Shafi'i's old view of following the Companions and finds weak the view that a Companion's opinion is a proof when it spread without contradiction, since silence is not speech. {cite:mustasfa-tijariyya-1356-v1 p.141} On istihsan he rejects its interpretations one by one, accepting that what al-Karkhi and some Hanafis described - departing from a question's analogues because of a specific proof - is not objectionable, the objection being only to the name. {cite:mustasfa-tijariyya-1356-v1 p.143} On istislah he divides interests into confirmed, cancelled and unattested, and defines interest as preserving the law's purpose in protecting religion, life, intellect, progeny and property; see [[concept/al-maslaha-al-mursala|Unattested interest]]. {cite:mustasfa-tijariyya-1356-v1 p.143} {cite:mustasfa-tijariyya-1356-v1 p.144} In the Cairo Tijariyya printing (first printing 1356/1937) this falls in vol. 1. {cite:mustasfa-tijariyya-1356-v1 p.5}

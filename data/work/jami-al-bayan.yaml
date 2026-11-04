@@ -3,17 +3,46 @@ class: work
 kind: book
 label: { ar: "جامع البيان عن تأويل آي القرآن", en: "Jami' al-Bayan (Tafsir al-Tabari)", ur: "جامع البیان عن تاویل آی القرآن (تفسیرِ طبری)" }
 summary:
-  ar: "بطاقة أولية لجامع البيان عن تأويل آي القرآن، تفسير الطبري الجامع لأقوال السلف وأمهات التفاسير؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Jami' al-Bayan 'an Ta'wil Ay al-Qur'an, al-Tabari's tafsir collecting the early authorities' readings, mother of the commentaries; its sources are not yet checked on the page."
-wings: []
+  ar: "تفسير أبي جعفر محمد بن جرير الطبري (224–310هـ) للقرآن آية آية بالروايات المسندة عن الصحابة والتابعين، مع مباحث اللغة والنحو والفقه والقراءات؛ أخذ فيه من تفاسير مجاهد والضحاك وعطية العوفي وعطاء وقتادة والربيع بن أنس وغيرهم بأسانيد ثابتة، ومن كتب الفراء والأخفش وابن قتيبة، ووقف عند اختلاف القراء في 854 موضعًا، ونقل عنه القرطبي وابن كثير والشوكاني ومكي وابن زنجلة والنحاس."
+  en: "The Qur'an commentary of Abu Ja'far Muhammad ibn Jarir al-Tabari (224–310 AH), verse by verse, built on reports with chains from the Companions and Successors, with discussions of language, grammar, law and the readings; it draws on the commentaries of Mujahid, al-Dahhak, Atiyya al-Awfi, Ata, Qatada, al-Rabi' ibn Anas and others through fixed chains, and on the books of al-Farra, al-Akhfash and Ibn Qutayba; it stops at the readers' disagreements in 854 places, and al-Qurtubi, Ibn Kathir, al-Shawkani, Makki, Ibn Zanjala and al-Nahhas quote it."
+  ur: "ابو جعفر محمد بن جریر طبری (224–310ھ) کی قرآن کی آیت بہ آیت تفسیر، صحابہ و تابعین سے سند کے ساتھ مروی روایات پر قائم، لغت، نحو، فقہ اور قراءات کی بحثوں کے ساتھ؛ اس میں مجاہد، ضحاک، عطیہ عوفی، عطاء، قتادہ، ربیع بن انس وغیرہ کی تفسیروں سے متعین سندوں کے ذریعے، اور فراء، اخفش اور ابن قتیبہ کی کتابوں سے لیا گیا ہے؛ یہ 854 مقامات پر قراء کے اختلاف پر رکتی ہے، اور قرطبی، ابن کثیر، شوکانی، مکی، ابن زنجلہ اور نحاس اس سے نقل کرتے ہیں۔"
+genre: [tafsir]
+authors: [person/al-tabari]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+structure: "An introduction (on the language in which the Qur'an was revealed, the seven ahruf, the names of the Qur'an and the merit of tafsir), then the commentary verse by verse from al-Fatiha to al-Nas; for each passage the variant interpretations with their chains, the readings and their grounds in language and grammar, and al-Tabari's own preference."
+relations:
+  - { type: about, target: concept/tafsir-bil-mathur, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: about, target: concept/qiraat, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: about, target: concept/al-ahruf-al-sabaa, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: about, target: question/did-al-tabari-reject-established-readings, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/mujahid-ibn-jabr, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/al-dahhak-ibn-muzahim, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/atiyya-al-awfi, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/ata-ibn-abi-rabah, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/qatada-ibn-diama, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/al-rabi-ibn-anas, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/al-farra, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: mentions, target: person/al-akhfash-al-awsat-said, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: relies_on, target: work/tafsir-gharib-al-quran, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: influenced, target: work/al-jami-li-ahkam-al-quran, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: influenced, target: work/tafsir-ibn-kathir, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: influenced, target: work/fath-al-qadir, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: influenced, target: work/al-ibana-maani-al-qiraat, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
 sources: [source/al-aalam, source/tarikh-islam-hasan-ibrahim, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
 external_ids: { wikidata: "Q4164550" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; tafsir attested in scholarly histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 7–8, 36, 46–57, 76–79, 87, 1364–1365, 1381–1382, 1443–1445; source/tarikh-islam-hasan-ibrahim pp. 351–352. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
   enriched_by:
-    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 7–8, 1443–1445 (readings, language and grammar)" }
-status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 7–8, 1443–1445 (first pass: readings, language and grammar)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
