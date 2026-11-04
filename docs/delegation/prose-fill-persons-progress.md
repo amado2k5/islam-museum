@@ -512,3 +512,9 @@ Promoted: abd-al-halim-al-manzilawi, abd-al-haqq-al-sunbati, abd-allah-al-majdhu
 Promoted: abd-al-munim-ibn-muflih, abd-al-wahhab-ibn-dawud-yemen, abu-ali-husayn-nammusi, abu-sad-ibn-barakat-makki, al-ilahi-simawi, al-mutawakkil-uthman-maghrib, al-saadi-shihab-hanbali, al-sayyid-ahmad-shirazi, al-ubshithi-sulayman, badr-al-din-al-saadi, hajji-khalifa-abdallah, ibn-abi-al-wafa, ibn-al-hayyim-qaim, ibn-al-shihna-shams, ibn-qadi-nablus-kamal, ibn-ruslan-bulqini, ibn-wafa-mustafa, ibn-zuhayra-burhan, ibn-zurayq-nasir, khawaja-zada, molla-sinan-al-din-yusuf, shaykh-midin-ashmuni, yaqub-beg-aq-qoyunlu.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1371.** sweep continues through remaining trilingual drafts.
+
+### Batch 75 (4 Nov 2026, 23 records) — ibn-hisham-batch-6d draft promotions (sweep worker)
+
+Promoted: abdullah-ibn-al-mughaffal-al-muzani, abu-khaythama, abu-layla-abd-al-rahman-ibn-kab, abu-ruhm-al-ghifari, al-dahhak-ibn-khalifa, al-jadd-ibn-qays, amr-ibn-humam-ibn-al-jamuh, bujayr-ibn-bujra, dhu-al-bijadayn, harami-ibn-abdullah, hassan-brother-of-ukaydir, irbad-ibn-sariya-al-fazari, mukhashin-ibn-humayyir, salim-ibn-umayr, siba-ibn-urfuta, suwaylim-al-yahudi, ukaydir-ibn-abd-al-malik, ulba-ibn-zayd, umara-ibn-hazm, wadia-ibn-thabit, yamin-ibn-umayr-al-nadri, yuhanna-ibn-rubah, zayd-ibn-al-lusayt.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1394.** sweep continues through remaining trilingual drafts.
