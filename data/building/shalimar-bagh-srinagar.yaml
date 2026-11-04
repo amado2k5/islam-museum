@@ -1,0 +1,25 @@
+id: building/shalimar-bagh-srinagar
+class: building
+kind: garden
+label: { ar: "شاليمار باغ (سرينغار)", en: "Shalimar Bagh, Srinagar", ur: "شالامار باغ (سری نگر)" }
+summary:
+  ar: "بستان مغولي مدرّج على بحيرة دال في كشمير، أنشأه جهانگير مع ابنه شاه جهان سنة 1619م، تتدرج فيه المباني والمياه من قاعة العامة إلى جناح الحريم {cite:brookes-gardens-of-paradise-1987 p.141} {cite:brookes-gardens-of-paradise-1987 p.143}."
+  en: "A terraced Mughal garden on Lake Dal in Kashmir, made by Jahangir with his son Shah Jahan in 1619, its buildings and water rising from the public audience hall to the zenana pavilion {cite:brookes-gardens-of-paradise-1987 p.141} {cite:brookes-gardens-of-paradise-1987 p.143}."
+wings: [objects, place]
+themes: [architecture, water-and-animals]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1619", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes, plan caption: built in 1619" }
+patron: person/jahangir-mughal
+location: place/srinagar
+relations:
+  - { type: located_in, target: place/srinagar, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 141-143"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

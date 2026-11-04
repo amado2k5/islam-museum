@@ -2,25 +2,35 @@ id: person/hassan-al-jabarti
 class: person
 label:
   ar: "حسن الجبرتي"
-  en: "Hassan al-Jabarti"
+  en: "Hasan al-Jabarti"
+  ur: "حسن الجبرتی"
+names:
+  - { kind: full, lang: ar, value: "حسن بن إبراهيم بن حسن بن علي بن محمد بن عبد الرحمن الزيلعي الجبرتي العقيلي الحنفي" }
+  - { kind: kunya, lang: ar, value: "أبو التداني" }
+  - { kind: laqab, lang: ar, value: "بدر الدين" }
 roles: [scholar]
 gender: male
-themes: [mathematics, astronomy-and-timekeeping]
+born: { edtf: "1698/1699", hijri: "1110", calendar: gregorian, precision: year, status: historical, note: "«ولدته في سنة عشر ومائة وألف» (عجائب الآثار 1، مسح ص503).", sources: [source/ajaib-al-athar-moreh-2013-v1] }
+died: { edtf: "1774-04-13", hijri: "1188-02-01", calendar: gregorian, precision: day, status: historical, note: "«توفي يوم الثلاثاء قبل الزوال غرة شهر صفر من السنة» 1188هـ، والتاريخ الميلادي (13 نيسان 1774) من المحقق، وله سبع وسبعون سنة (عجائب الآثار 1، مسح ص524).", sources: [source/ajaib-al-athar-moreh-2013-v1] }
+themes: [mathematics, astronomy-and-timekeeping, engineering-and-technology, law-and-courts]
 summary:
-  ar: "بطاقة أولية لحسن بن إبراهيم الجبرتي، رياضي ومتكلم ووالد المؤرخ عبد الرحمن في القرن الثامن عشر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hassan ibn Ibrahim al-Jabarti, the eighteenth-century mathematician, theologian and father of the historian Abd al-Rahman; the biographical entry is not yet checked on the page."
-wings: [people]
+  ar: "حسن بن إبراهيم الجبرتي الزيلعي العقيلي الحنفي (1110–1188هـ)، فقيه حنفي ورياضي وفلكي مصري، والد المؤرخ عبد الرحمن الجبرتي، ترجمه ابنه في «عجائب الآثار» ترجمة طويلة: اشتغل بالرياضيات من سنة 1144هـ، وأخذ الهيئة والهندسة عن حسام الدين الهندي، ورسم المزاول ونصبها في الأزهر وغيره، وحضر إليه طلاب من الإفرنج سنة 1159هـ فقرؤوا عليه الهندسة، وانتهت إليه الفتوى عند القضاة، وتوفي غرة صفر 1188هـ {cite:ajaib-al-athar-moreh-2013-v1 p.502} {cite:ajaib-al-athar-moreh-2013-v1 p.510} {cite:ajaib-al-athar-moreh-2013-v1 p.515} {cite:ajaib-al-athar-moreh-2013-v1 p.516} {cite:ajaib-al-athar-moreh-2013-v1 p.524}."
+  en: "Hasan ibn Ibrahim al-Jabarti al-Zayla'i al-Aqili al-Hanafi (1110-1188 AH), Egyptian Hanafi jurist, mathematician and astronomer, father of the historian Abd al-Rahman al-Jabarti, who gives him a long biography in Aja'ib al-athar: he took up mathematics from 1144 AH, learned astronomy and geometry from Husam al-Din al-Hindi, drew and set up sundials at al-Azhar and elsewhere, taught geometry to European students who came to him in 1159 AH, was the jurist whose fatwas the judges trusted, and died on 1 Safar 1188 AH."
+wings: [people, ideas]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+relations:
+  - { type: buried_in, target: place/cairo, sources: [source/ajaib-al-athar-moreh-2013-v1] }
+sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1]
 external_ids:
   wikidata: Q5679896
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0046
+  source: "Wikidata candidate; source/ajaib-al-athar-moreh-2013-v1 scan pp. 502-524 (al-Jabarti's obituary of his father, year 1188)"
+  generated_by: "Devin (SWE-2 High); rewritten by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "wikidata-import-0046; ocr-harvest-2026-11-04"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)"

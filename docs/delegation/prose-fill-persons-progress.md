@@ -717,3 +717,45 @@ Promoted: abd-al-ghafir-al-farisi, abu-al-ala-ibn-zuhr, abu-khazim-ibn-abi-yala,
 Promoted: abd-al-ghani-ibn-nuqa, abd-al-mughith-al-harbi, abd-al-wahhab-al-shirazi, abu-al-fath-ibn-al-taawidhi, abu-al-suud-al-harimi, abu-madyan, abu-talib-al-karkhi-muallim, asad-ibn-al-matran, hayat-ibn-qays, ibn-al-mani, ibn-auf-al-zuhri, ismat-al-din-khatun, izz-al-din-abd-al-hadi, jakir-al-zahid, nasir-al-din-muhammad-ibn-shirkuh, nasr-ibn-mansur-muqri, qizil-arslan, wajih-al-din-qazwini.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1956.** sweep continues through remaining trilingual drafts.
+
+### Batch 107 (4 Nov 2026, 18 records) — lib-tabaqat-fuqaha-batch-6 draft promotions (sweep worker)
+
+Promoted: abd-al-hamid-kabd, abd-al-malik-ibn-adi-al-istarabadhi, abu-al-abbas-ibn-al-qass-al-tabari, abu-al-tayyib-ibn-salama, abu-ali-ibn-khayran, abu-bakr-ibn-al-mundhir-al-nisaburi, abu-bakr-muhammad-ibn-abd-allah-al-sayrafi, abu-hafs-ibn-al-wakil, abu-jafar-al-tirmidhi-muhammad-ibn-ahmad, abu-ubayd-ibn-harawayh, ahmad-ibn-umar-ibn-surayj, ahmad-ibn-yahya-al-mutakallim, al-zubayr-ibn-ahmad-al-basri, harith-al-naqqal, husayn-al-qallas, mansur-ibn-ismail-al-tamimi, muhammad-ibn-nasr-al-marwazi, zakariya-ibn-yahya-al-sajji.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1974.** sweep continues through remaining trilingual drafts.
+
+### Batch 108 (4 Nov 2026, 18 records) — lib-shadharat-batch-131 draft promotions (sweep worker)
+
+Promoted: abu-al-rabi-al-asqalani, al-kamal-al-darir, al-muin-al-qurashi, al-mursi-lawraqi, al-nujib-al-asqalani, al-rasani, al-sinaki, al-zayn-al-hafizi, badr-al-din-al-sinjari, bulos-al-habis, ibn-al-raffa, ibn-al-ustadh-aleppo, ibn-masdi, ibn-shuayb-al-siqilli, ibrahim-khatib-al-jabal, ismail-al-kurani, izz-al-din-al-maqdisi, nasir-al-din-al-qaymuri.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1992.** sweep continues through remaining trilingual drafts.
+
+### Batch 109 (4 Nov 2026, 18 records) — lib-shadharat-batch-132 draft promotions (sweep worker)
+
+Promoted: abu-dabbous, al-kamal-al-mahalli, al-kamal-salar-al-irbili, al-malik-al-amjad-hasan, al-qaysi-al-dimashqi, diya-al-din-al-muradi, ibn-al-barizi, ibn-hammawayh, ibn-nima, ibn-qurqul, jamal-al-din-ibn-yaghmur, majd-al-din-ibn-daqiq, muayyad-ibn-al-qalansi, muin-al-din-ibn-bundar, najib-al-din-abd-al-latif, najm-al-din-al-rabai, sayf-al-din-aqtay-mustaarib, shihab-al-din-ibn-taymiyya.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2010.** sweep continues through remaining trilingual drafts.
+
+### Batch 110 (4 Nov 2026, 16 records) — ibn-hisham-batch-5c-ii draft promotions (sweep worker)
+
+Promoted: aban-ibn-said-ibn-al-as, abu-al-rum-ibn-umayr, al-aswad-ibn-nawfal, ama-bint-khalid, amina-bint-khalf, amr-ibn-jahm, amr-ibn-umayya, baraka-bint-yasar, fatima-bint-safwan, habiba-bint-ubaydullah, jahm-ibn-qays, khuzayma-ibn-jahm, qays-ibn-abdullah-asadi, said-ibn-al-as-abu-uhayha, said-ibn-khalid, ubaydullah-ibn-jahsh.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2026.** sweep continues through remaining trilingual drafts.
+
+### Batch 111 (4 Nov 2026, 16 records) — isaba-batch-3 draft promotions (sweep worker)
+
+Promoted: abbad-ibn-bishr, abu-dujana, al-bara-ibn-azib, al-rubayyi-bint-muawwidh, al-shifa-bint-abdullah, anas-ibn-malik, asma-bint-yazid, fadala-ibn-ubayd, juwayriya-bint-al-harith, maymuna-bint-al-harith, rafi-ibn-khadij, shaddad-ibn-aws, umm-sulaym, umm-waraqa, zayd-ibn-al-khattab, zaynab-bint-jahsh.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2042.** sweep continues through remaining trilingual drafts.
+
+### Batch 112 (4 Nov 2026, 16 records) — lib-salabi-uthmani-batch-6 draft promotions (sweep worker)
+
+Promoted: abd-al-aziz-uthmani, abd-al-hamid-ii-uthmani, abd-al-majid-i-uthmani, alexander-vi, george-amiroutzes, innocent-viii, ivan-iii-moscow, jem-sultan, kemal-reis, koca-davud-pasha, mahmud-ii-uthmani, molla-muhyiddin, murad-v-uthmani, rum-mehmed-pasha, selim-iii-uthmani, stephen-iii-moldavia.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2058.** sweep continues through remaining trilingual drafts.
+
+### Batch 113 (4 Nov 2026, 16 records) — ibn-hisham-batch-13 draft promotions (sweep worker)
+
+Promoted: abu-zayd-ibn-amr-al-dubaybi, al-harith-ibn-malik-ibn-al-barsa, al-hunayd-ibn-us, al-numan-ibn-abi-jial, al-yasir-ibn-rizam, awf-ibn-malik-al-ashjai, ghalib-ibn-abdullah-al-laythi, hassan-ibn-milla, jundab-ibn-makith, khalid-ibn-sufyan-al-hudhali, masada-ibn-hakama, mirdas-ibn-nahik, qays-ibn-al-musakhkhar, salma-bint-attab, umm-qirfa, unayf-ibn-milla.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2074.** sweep continues through remaining trilingual drafts.

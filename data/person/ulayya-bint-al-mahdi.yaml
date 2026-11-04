@@ -1,0 +1,22 @@
+id: person/ulayya-bint-al-mahdi
+class: person
+label: { ar: "علية بنت المهدي", en: "Ulayya bint al-Mahdi", ur: "علیہ بنت المہدی" }
+gender: female
+roles: [poet, musician]
+summary:
+  ar: "علية بنت المهدي العباسية (160–210هـ)، أخت هارون الرشيد، شاعرة مجيدة تصوغ الألحان، وصفها الحصري بأنها تعدل كثيراً من أفاضل الرجال في العقل وحسن المقال؛ ويروي إبراهيم بن إسماعيل الكاتب أنها كانت لا تغني إلا في أيام عذرها عن الصلاة، ولها ديوان شعر، وصلى عليها المأمون."
+  en: "Ulayya bint al-Mahdi (160–210 AH), Abbasid princess and sister of Harun al-Rashid, a fine poet who set her verses to music; al-Husri said she equalled many distinguished men in intelligence and speech, and Ibrahim ibn Isma'il the secretary reports that she sang only when excused from prayer. She left a diwan, and al-Ma'mun led her funeral prayer."
+wings: [people, words]
+themes: [women, music, literature]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+born: { edtf: "0776~", hijri: "0160", calendar: julian, precision: year, status: tradition, derived: true, note: "ولدت سنة 160هـ؛ التحويل مشتق {cite:alam-al-nisa-kahhala-risala-1984-v3 p.338}", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+died: { edtf: "0825~", hijri: "0210", calendar: julian, precision: year, status: tradition, derived: true, note: "توفيت سنة 210هـ وصلى عليها المأمون؛ التحويل مشتق {cite:alam-al-nisa-kahhala-risala-1984-v3 p.345}", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+relations:
+  - { type: child_of, target: person/al-mahdi, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: sibling_of, target: person/harun-al-rashid, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: sibling_of, target: person/ibrahim-ibn-al-mahdi, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: lived_in, target: place/baghdad, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+provenance: { layer: own-research, source: "source/alam-al-nisa-kahhala-risala-1984-v3 PDF pp. 338–346", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+status: { review: published, completeness: 3 }

@@ -1,0 +1,24 @@
+id: person/kabsha-bint-rafi
+class: person
+label: { ar: "كبشة بنت رافع (أم سعد بن معاذ)", en: "Kabsha bint Rafi' (Umm Sa'd ibn Mu'adh)", ur: "کبشہ بنت رافع (ام سعد بن معاذ)" }
+names:
+  - { kind: kunya, lang: ar, value: "أم سعد" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "كبشة بنت رافع الأنصارية، أم سعد بن معاذ وعمرو بن معاذ، من بني عبد الأشهل؛ يذكر غضنفر أنها أول الأنصاريات مبايعةً للنبي حين قدم المدينة، وأنها سقت الجرحى وشهدت أحداً واستُشهد ابنها عمرو فيها، وكانت في حصن بني حارثة يوم الخندق، وبكت سعداً لما مات فعزّاها النبي."
+  en: "Kabsha bint Rafi' al-Ansariyya of Banu Abd al-Ashhal, mother of Sa'd ibn Mu'adh and Amr ibn Mu'adh. Ghadanfar says she was the first Ansari woman to pledge allegiance to the Prophet when he reached Medina, carried water to the wounded, was present at Uhud where her son Amr was killed, stayed in the fort of Banu Haritha during the Trench, and wept for Sa'd at his death, when the Prophet consoled her."
+wings: [people]
+themes: [women]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/great-women-of-islam-ghadanfar-darussalam] }
+relations:
+  - { type: member_of, target: group/banu-abd-al-ashhal, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
+  - { type: participated_in, target: event/battle-of-uhud, role: "سقي الجرحى", sources: [source/great-women-of-islam-ghadanfar-darussalam] }
+  - { type: lived_in, target: place/medina, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
+provenance: { layer: own-research, source: "source/great-women-of-islam-ghadanfar-darussalam PDF pp. 240–245", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/great-women-of-islam-ghadanfar-darussalam]
+status: { review: published, completeness: 3 }
