@@ -753,3 +753,9 @@ Promoted: abbad-ibn-bishr, abu-dujana, al-bara-ibn-azib, al-rubayyi-bint-muawwid
 Promoted: abd-al-aziz-uthmani, abd-al-hamid-ii-uthmani, abd-al-majid-i-uthmani, alexander-vi, george-amiroutzes, innocent-viii, ivan-iii-moscow, jem-sultan, kemal-reis, koca-davud-pasha, mahmud-ii-uthmani, molla-muhyiddin, murad-v-uthmani, rum-mehmed-pasha, selim-iii-uthmani, stephen-iii-moldavia.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2058.** sweep continues through remaining trilingual drafts.
+
+### Batch 113 (4 Nov 2026, 16 records) — ibn-hisham-batch-13 draft promotions (sweep worker)
+
+Promoted: abu-zayd-ibn-amr-al-dubaybi, al-harith-ibn-malik-ibn-al-barsa, al-hunayd-ibn-us, al-numan-ibn-abi-jial, al-yasir-ibn-rizam, awf-ibn-malik-al-ashjai, ghalib-ibn-abdullah-al-laythi, hassan-ibn-milla, jundab-ibn-makith, khalid-ibn-sufyan-al-hudhali, masada-ibn-hakama, mirdas-ibn-nahik, qays-ibn-al-musakhkhar, salma-bint-attab, umm-qirfa, unayf-ibn-milla.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2074.** sweep continues through remaining trilingual drafts.
