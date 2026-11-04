@@ -822,3 +822,9 @@ al-muwaffaq-ibn-ahmad-al-makki	REJECT: ar: thin (134ch)
 Promoted: abbad-ibn-hunayf, abu-habiba-ibn-al-azar, asim-ibn-adi, bahzaj, bijad-ibn-uthman, jariya-ibn-amir, khidham-ibn-khalid, malik-ibn-al-dukhshum, man-ibn-adi, muattib-ibn-qushayr, mujammi-ibn-jariya, nabtal-ibn-al-harith, thalaba-ibn-hatib, zayd-ibn-jariya.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2222.** sweep continues through remaining trilingual drafts.
+
+### Batch 124 (4 Nov 2026, 14 records) — mawsua-w09-80 draft promotions (sweep worker)
+
+Promoted: abd-al-khaliq-al-siyuri, abd-al-rahman-ibn-razin-al-hanbali, abd-al-rahman-ibn-ubaydan, al-husayn-ibn-al-fadl-al-bajali, ali-ibn-umar-ibn-abdus, ali-ibn-yahya-al-jaziri, hilal-al-ray, husayn-ibn-ali-al-tabari-sahib-al-uda, jalal-al-din-al-bulqini, khalaf-ibn-sulayman-ibn-fathun, mahmud-al-daqqauqi, muhammad-ibn-khalaf-ibn-al-murabit, umar-al-rajraji, yazid-ibn-ibrahim-al-tamimi.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2236.** sweep continues through remaining trilingual drafts.
