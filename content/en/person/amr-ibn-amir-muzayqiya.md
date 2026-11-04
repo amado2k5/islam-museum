@@ -2,9 +2,7 @@
 id: person/amr-ibn-amir-muzayqiya
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ["Devin (SWE-2 Medium), batch 29"]
 ---
 ## Overview
-Amr ibn Amir ibn Ma' al-Sama, known as Muzayqiya, to whom leadership passed among the sons of Qahtan when God sent the flood of al-Arim and they scattered through the lands. {cite:muruj-al-dhahab p.425-426}
-
-It is said that when he left Ma'rib he stopped at the water of Ghassan until death overtook him. Al-Mas'udi makes his life eight hundred years: four hundred as a commoner and four hundred as a king. {cite:muruj-al-dhahab p.489}
+Amr ibn Amir ibn Ma' al-Sama', Muzayqiya', to whom the headship of the sons of Qahtan fell when God sent the flood of the dam and they scattered through the lands; it is said that when he left Ma'rib he stayed upon Ghassan's water until death overtook him at the age of eight hundred years.
