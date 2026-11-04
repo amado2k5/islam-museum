@@ -1,6 +1,6 @@
 id: person/musab-ibn-umayr
 class: person
-label: { en: "Mus'ab ibn Umayr", ar: "مصعب بن عمير" }
+label: { en: "Mus'ab ibn Umayr", ar: "مصعب بن عمير" , ur: "مصعب بن عمیر"}
 names:
   - { kind: full, lang: ar, value: "مصعب بن عمير بن هاشم العبدري" }
 gender: male
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "A refined young Qurayshi of wealth who embraced Islam early and was sent to Medina before the Hijra as the community's first emissary and teacher; killed bearing the standard at Uhud."
   ar: "شاب قرشي مرفه أسلم مبكرًا فبعثه النبي إلى المدينة قبل الهجرة أول داعية ومعلم؛ قُتل حاملًا الراية يوم أُحد. وفي وفاء الوفا: أُرسل مع أصحاب العقبة الأولى ليفقههم في الدين ويقرئهم القرآن فسُمي «المقرئ» وهو أول من سمي به، ونزل على أسعد بن زرارة في بني غنم بن مالك بن النجار، فلما اشتدت بنو النجار على أسعد انتقل إلى سعد بن معاذ فلم يزل يدعو حتى أسلم في كل دار من دور الأنصار ناس {cite:samhudi-wafa-al-wafa p. 236-238}. ويعدّه البخاري في باب من قتل من المسلمين يوم أحد فيمنهم حمزة واليمان وأنس بن النضر {cite:sahih-al-bukhari 4078}."
+  ur: "قریش کے خوش حال نوجوان، جنہوں نے ابتدائی دور میں اسلام قبول کیا؛ ہجرت سے پہلے مدینہ میں معلم اور نمائندے کے طور پر بھیجے گئے اور احد میں پرچم اٹھائے ہوئے مارے گئے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [dawa-and-christian-mission, battles, converts-and-leavers]
 periods: [period/prophetic-era]
@@ -34,7 +35,7 @@ relations:
   - { type: participated_in, target: event/battle-of-uhud, role: standard-bearer, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
 external_ids: { wikidata: "Q1110691" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/assabile-abla-al-kahlawi]
-provenance: { layer: own-research, source: "Ibn Sa'd (Bewley), Ibn Ishaq (Guillaume), al-Samhudi's Wafa' al-wafa and Sahih al-Bukhari (earlier record by Devin, 11 Oct 2026); section on Abla al-Kahlawi's fi-hub-al-mustapha (Assabile transcripts pass5-qwen) added in run assabile-egypt-kahlawi-1", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-kahlawi-1 }
+provenance: { layer: own-research, source: "Ibn Sa'd (Bewley), Ibn Ishaq (Guillaume), al-Samhudi's Wafa' al-wafa and Sahih al-Bukhari (earlier record by Devin, 11 Oct 2026); section on Abla al-Kahlawi's fi-hub-al-mustapha (Assabile transcripts pass5-qwen) added in run assabile-egypt-kahlawi-1", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-kahlawi-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }
 
 education:

@@ -6,12 +6,13 @@ education:
     ur: "ملک کامل کو اس کے باپ عادل نے مصر میں مقرر کیا؛ جب 616ھ میں افرنج نے دمیاط لیا تو اس نے دو شاخوں کی تقسیم کے مقام پر شہر بسایا اور انہیں نکالنے تک ثابت قدم رہا۔"
     sources: [source/tarikh-khulafa-minhaj-1434, source/encyclopaedia-of-islam-2]
 class: person
-label: { ar: "الملك الكامل محمد بن العادل بن أيوب", en: "al-Malik al-Kamil Muhammad ibn al-Adil ibn Ayyub" }
+label: { ar: "الملك الكامل محمد بن العادل بن أيوب", en: "al-Malik al-Kamil Muhammad ibn al-Adil ibn Ayyub" , ur: "الملک الکامل محمد بن العادل"}
 born: { edtf: "1180~", hijri: "0576", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ست وسبعين وخمسمائة {cite:shadharat-dhahab p. 172}." }
 died: { edtf: "1238-03-06~", hijri: "0635-07-22", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الأربعاء بعد العصر ودفن بقلعة دمشق يوم الخميس الثاني والعشرين من رجب سنة خمس وثلاثين وستمائة وأخفوا موته إلى يوم الجمعة فقام الداعي على العريش وترحم عليه ودعا لولده العادل صاحب مصر — شهادة ابن خلكان وكان حاضراً {cite:shadharat-dhahab p. 173}.", sources: [source/shadharat-dhahab] }
 summary:
   ar: "سلطان أيوبي، أقامه أبوه الملك العادل بمصر بعد ما تملكها لما مات الملك العزيز سنة خمس وتسعين وضعف عن مقاومة الفرنج لما أخذوا دمياط سنة ست عشرة وست مئة فابتنى مدينة عند مفرق البحرين وسماها المنصورة ونزلها بجيشه {cite:tarikh-khulafa-minhaj-1434 p. 694,696}؛ وتملك المصرية عشرين سنة تحت جناح والده وعشرين بعده، وملك دمشق قبل موته بشهرين بعد أن حصرها وأخذها من ابن أخيه الصالح إسماعيل، وملك حران وآمد وديار الجزيرة؛ قال ابن خلكان كان سلطاناً عظيم القدر محباً للعلماء يبيت عنده كل ليلة جمعة جماعة من الفضلاء وهو معهم كواحد منهم، وخطب له بمكة «صاحب مكة وعبيدها واليمن وزييدها ومصر وصعيدها والشام وصناديدها والجزيرة ووليدها سلطان القبلتين ورب العلامتين خادم الحرمين الشريفين»؛ وبنى بالقاهرة دار حديث ورتب لها وقفاً وبنى على قبر الإمام الشافعي قبة عظيمة؛ توفي بدمشق في رجب سنة خمس وثلاثين {cite:shadharat-dhahab p. 172-173}."
   en: "Ayyubid sultan, set over Egypt by his father al-Adil in 595; when the Franks took Damietta in 616 he founded al-Mansura at the seas' fork and camped there {cite:tarikh-khulafa-minhaj-1434 p. 694,696}."
+  ur: "ایوبی سلطان، جنہیں ان کے والد العادل نے 595ھ میں مصر پر مقرر کیا؛ فرنگیوں کے دمیاط لینے کے بعد انہوں نے منصورہ قائم کیا۔ {cite:khitat-maqrizi-1998}"
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
@@ -21,6 +22,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: claude-haiku-5-5
   run: lib-tarikh-khulafa-batch-44, showcase-prose-phase2-egypt-batch6
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
 external_ids: { wikidata: "Q293464" }
 sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; his succession at Damietta and the Chain Tower bridge are read from al-Maqrizi's Khitat (local scan, pp. 643, 644); the Suyuti account of al-Mansura keeps its citation" }

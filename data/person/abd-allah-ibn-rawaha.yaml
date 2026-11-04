@@ -1,6 +1,6 @@
 id: person/abd-allah-ibn-rawaha
 class: person
-label: { ar: "عبد الله بن رواحة", en: "Abd Allah ibn Rawaha" }
+label: { ar: "عبد الله بن رواحة", en: "Abd Allah ibn Rawaha" , ur: "عبد اللہ بن رواحہ"}
 aliases: [person/abdullah-ibn-rawaha]
 names:
   - { kind: full, lang: ar, value: "عبد الله بن رواحة بن ثعلبة بن امرئ القيس الخزرجي الأنصاري" }
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي من الأنصار، شاعر الجهاد في الإسلام المبكر، عُيِّن ثالث قادة جيش مؤتة. حين قُتل صاحباه زيد وجعفر تردد لحظة ثم أقدم قاتلًا حتى استُشهد. أبلغ النبي بشهادته غيبًا ورأى في رؤياه سريره مائلًا قليلًا عن سريري رفيقيه بسبب تردده ثم مضيه."
   en: "Companion from the Ansar and poet of early Islam; appointed third commander of the Mu'tah expedition. After both of his comrades Zayd and Ja'far were killed he hesitated briefly then charged and was martyred. The Prophet announced his death while still in Medina, reporting in a vision that his throne was slightly tilted beside his companions' because of his hesitation before pressing on."
+  ur: "انصاری صحابی اور شاعر؛ مؤتہ کے لشکر کے تیسرے کمان دار مقرر ہوئے اور زید اور جعفر کے بعد اسی معرکے میں مارے گئے۔ {cite:ibn-hisham-saqqa}"
 wings: [people]
 themes: [battles, literature]
 periods: [period/prophetic-era]
@@ -36,3 +37,14 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: Existing museum record, its defined source list and original status attribution; record-level provenance restored only. No source pages newly examined and no dates or relations changed.
+  generated_by: kiro; mined from Ibn Hisham juz' 4 pp. 15-22; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-next-40-subjects-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-next-40-subjects-2026-11-04
+    source: Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research.

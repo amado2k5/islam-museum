@@ -1,6 +1,6 @@
 id: person/talha-ibn-ubaydullah
 class: person
-label: { en: "Talha ibn Ubaydullah", ar: "طلحة بن عبيد الله" }
+label: { en: "Talha ibn Ubaydullah", ar: "طلحة بن عبيد الله" , ur: "طلحہ بن عبید اللہ"}
 names:
   - { kind: full, lang: ar, value: "طلحة بن عبيد الله بن عثمان التيمي القرشي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "One of the first band of eight; he accepted Islam at Abu Bakr's invitation during the secret call in Mecca."
   ar: "أحد الثمانية الرعيل الأول؛ أسلم بدعوة أبي بكر الصديق في سنوات الدعوة السرية بمكة. وأمه الصعبة كانت تحت أبي سفيان صخر بن حرب على ما ذكر الزبير بن بكار في أنساب قريش، ورماه مروان بن الحكم في أكحله فقتله في قنطرة قرة ووقف عليه علي وقال والله لقد كنت كارهاً لهذا، وقتل وهو ابن أربع وستين سنة وقبره ومسجده بالبصرة مشهور {cite:muruj-al-dhahab p. 658-659}"
+  ur: "ابتدائی آٹھ مسلمانوں میں شمار کیے جاتے ہیں؛ مکہ میں خفیہ دعوت کے دوران ابو بکر کی دعوت پر اسلام قبول کیا۔ {cite:sallabi-ali-vol2}"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -27,3 +28,14 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b5", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: Existing museum record, its defined source list and original status attribution; record-level provenance restored only. No source pages newly examined and no dates or relations changed.
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 75-76; Copilot SDK in VS Code (metadata completion)
+  model: unknown
+  run: explorer-next-40-subjects-2026-11-04
+  localization:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-next-40-subjects-2026-11-04
+    source: Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research.
