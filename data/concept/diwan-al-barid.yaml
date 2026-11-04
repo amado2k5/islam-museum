@@ -1,17 +1,28 @@
 id: concept/diwan-al-barid
 class: concept
 kind: political
-label: { ar: "ديوان البريد", en: "Diwan al-Barid (the postal diwan)" }
+label: { ar: "ديوان البريد", en: "Diwan al-Barid (the postal diwan)", ur: "دیوان البرید (ڈاک کا دیوان)" }
 summary:
-  ar: "ديوان البريد عند قدامة بن جعفر في كتاب الخراج وصنعة الكتابة: ديوان يُفرد به، تصرف إليه الكتب المنفذة من جميع النواحي ويُنفذ كل شيء إلى الموضع المرسوم به، ويتولى عرض كتب أصحاب البريد والأخبار في جميع النواحي على الخليفة أو عمل جوامع لها، وإليه النظر في أمر الغروانقيين والموقتين والمؤثبين في السكك وتنجيز أرزاقهم وتقليد أصحاب الخرائط في سائر الأمصار، والذي يحتاج إليه في صاحب هذا الديوان أن يكون ثقة {cite:masalik-mamalik-ibn-khurdadhbih p. 192}."
-  en: "The postal diwan as Abu al-Faraj Qudama ibn Ja'far prescribes it in Kitab al-Kharaj wa-Sina'at al-Kitaba: a diwan unto itself receiving dispatches from every province and forwarding each to its destination, presenting the barid masters' reports from all regions to the caliph or composing their digests, overseeing the station-masters, timekeepers and clerks of the relay routes, disbursing their rations and commissioning the keepers of itineraries in every misr — its chief required to be a man of trust {cite:masalik-mamalik-ibn-khurdadhbih p. 192}."
-wings: [ideas]
-periods: [period/abbasid-fragmentation]
-regions: [levant-iraq]
+  ar: "ديوان البريد عند قدامة بن جعفر في كتاب الخراج وصنعة الكتابة: ديوان يُفرد به، تصرف إليه الكتب المنفذة من جميع النواحي ويُنفذ كل شيء إلى الموضع المرسوم به، ويتولى عرض كتب أصحاب البريد والأخبار في جميع النواحي على الخليفة أو عمل جوامع لها، وإليه النظر في أمر الغروانقيين والموقتين والمؤثبين في السكك وتنجيز أرزاقهم وتقليد أصحاب الخرائط في سائر الأمصار، والذي يحتاج إليه في صاحب هذا الديوان أن يكون ثقة {cite:masalik-mamalik-ibn-khurdadhbih p. 192}. ويؤرخ القلقشندي في صبح الأعشى للبريد من الأكاسرة والقياصرة إلى معاوية وعبد الملك والعباسيين، ثم قطع بني بويه له، وإعادة الظاهر بيبرس إياه بين مصر والشام، وبطلانه بعد فتنة تيمور سنة 804هـ، ويصف ألواحه الفضية المنقوشة التي يحملها البريدي في عنقه، ومراكزه من قلعة الجبل إلى قوص والإسكندرية ودمياط وغزة ودمشق وحلب {cite:subh-al-asha-cairo-v14 p. 366-373}."
+  en: "The postal diwan as Abu al-Faraj Qudama ibn Ja'far prescribes it in Kitab al-Kharaj wa-Sina'at al-Kitaba: a diwan unto itself receiving dispatches from every province and forwarding each to its destination, presenting the barid masters' reports from all regions to the caliph or composing their digests, overseeing the station-masters, timekeepers and clerks of the relay routes, disbursing their rations and commissioning the keepers of itineraries in every misr — its chief required to be a man of trust {cite:masalik-mamalik-ibn-khurdadhbih p. 192}. Al-Qalqashandi's Subh al-a'sha traces the barid from the Persian and Roman emperors through Mu'awiya, Abd al-Malik and the Abbasids, its suspension by the Buyids, its revival by al-Zahir Baybars between Egypt and Syria and its collapse after Timur's invasion in 804 AH, and describes the engraved silver plaques couriers wore and the relay stations from the Cairo Citadel to Qus, Alexandria, Damietta, Gaza, Damascus and Aleppo {cite:subh-al-asha-cairo-v14 p. 366-373}."
+wings: [ideas, time, place]
+themes: [politics-governance-and-authority, travel, engineering-and-technology]
+periods: [period/abbasid-fragmentation, period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+relations:
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: person/abd-al-malik-ibn-marwan, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: person/yahya-ibn-khalid-al-barmaki, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: person/baybars, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: person/timur-lang, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: building/citadel-of-cairo, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: concept/pigeon-post, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: related_to, target: concept/insha, sources: [source/subh-al-asha-cairo-v14] }
 provenance:
   layer: own-research
-  source: "قدامة بن جعفر، كتاب الخراج وصنعة الكتابة — الباب الحادي عشر (BGA 6، دي غويه) ص 192"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-geo-bga6-1
-sources: [source/masalik-mamalik-ibn-khurdadhbih]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "قدامة بن جعفر، كتاب الخراج وصنعة الكتابة (BGA 6) ص192؛ source/subh-al-asha-cairo-v14 scan pp. 366-388"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-geo-bga6-1; ocr-harvest-2026-11-04"
+sources: [source/masalik-mamalik-ibn-khurdadhbih, source/subh-al-asha-cairo-v14]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }
