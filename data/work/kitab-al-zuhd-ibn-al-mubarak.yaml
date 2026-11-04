@@ -1,17 +1,31 @@
 id: work/kitab-al-zuhd-ibn-al-mubarak
 class: work
 kind: book
-label: { ar: "كتاب الزهد والرقائق", en: "Kitab al-Zuhd wa-l-Raqa'iq" }
+label: { ar: "كتاب الزهد والرقائق", en: "Kitab al-Zuhd wa-l-Raqa'iq", ur: "کتاب الزہد والرقائق" }
 summary:
-  ar: "بطاقة أولية لكتاب الزهد والرقائق لعبد الله بن المبارك، أقدم كتب الزهد المسندة؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn al-Mubarak's Kitab al-Zuhd wa-l-raqa'iq, the earliest extant hadith work on asceticism; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب عبد الله بن المبارك (ت 181هـ) في الزهد والرقائق، يقول فؤاد سزكين إنه أقدم كتاب في الزهد وصل إلينا؛ مرتب على أبواب أولها «باب التحضيض على طاعة الله»، وله روايتان: رواية الحسين بن الحسن المروزي بطريق يحيى بن صاعد، ورواية نعيم بن حماد {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 46} {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 47} {cite:zuhd-ibn-mubarak-azami-scan p. 1}."
+  en: "Abd Allah ibn al-Mubarak's (d. 181 AH) book on renunciation and heart-softening reports, which Fuat Sezgin calls the oldest extant book on zuhd; it is arranged in chapters beginning with 'Urging obedience to God' and survives in two recensions, that of al-Husayn ibn al-Hasan al-Marwazi through Yahya ibn Sa'id and that of Nu'aym ibn Hammad {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 46} {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 47} {cite:zuhd-ibn-mubarak-azami-scan p. 1}."
+  ur: "عبد اللہ بن المبارک (م 181ھ) کی زہد و رقائق پر کتاب، جسے فؤاد سزگین ہم تک پہنچنے والی زہد کی سب سے قدیم کتاب کہتے ہیں؛ یہ ابواب پر مرتب ہے جن میں پہلا «اللہ کی اطاعت پر ابھارنے کا باب» ہے، اور اس کی دو روایتیں ہیں: یحییٰ بن صاعد کے طریق سے حسین بن حسن مروزی کی، اور نعیم بن حماد کی {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 46} {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 47} {cite:zuhd-ibn-mubarak-azami-scan p. 1}۔"
+language: language/arabic
+authors: [person/abd-allah-ibn-al-mubarak]
+genre: [hadith, spirituality]
+wings: [words, ideas]
+themes: [spirituality-and-sufism, scripture-and-its-sciences, ethics-and-character]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+relations:
+  - { type: mentions, target: person/uwais-al-qarni, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+  - { type: mentions, target: person/amir-ibn-abd-al-qays-al-anbari, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+  - { type: mentions, target: person/sila-ibn-ashyam, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+  - { type: mentions, target: person/abu-rayhana-shimun, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+  - { type: mentions, target: person/al-rabi-ibn-khuthaym, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+  - { type: mentions, target: concept/zuhd, sources: [source/zuhd-ibn-mubarak-azami-scan] }
 external_ids: { wikidata: "Q19443083" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Wikidata candidate (Devin, wikidata-import-wave2); enriched from the A'zami scan pp. 1-307, Ahmad Farid's edition vol. 1 pp. 20-101, Adil Murshid's edition vol. 2 pp. 1-3 and the digital file p. 1"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/al-aalam, source/zuhd-ibn-mubarak-azami-scan, source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-murshid-2022-v2, source/zuhd-ibn-mubarak-shamela]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G), run ocr-harvest-2026-11-04" }
