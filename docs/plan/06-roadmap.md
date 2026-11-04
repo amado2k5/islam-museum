@@ -1,5 +1,25 @@
 # 06 · Roadmap and seed content
 
+## What comes next (living — updated 2026-11-03)
+
+The phases below are the founding plan, kept for the record. The museum's maintained
+"what comes next" is the changelog's coming-next section (`/{lang}/changelog/`, rendered
+from `CANARY.md`); this list mirrors it so the plan docs answer the same question:
+
+- **Occupations woven into the graph.** The `job` taxonomy (19 crafts and professions)
+  is served as records; people still carry occupations inside their own records. Derive
+  `person → job` edges so crafts become walkable connections ("every calligrapher of the
+  ninth century").
+- **Query by Wikidata ID.** A published QID index over the 16,232 records that carry a
+  Wikidata identifier, with a lookup address per QID (the Phase 5 reconciliation line).
+- **Formal API documentation and library exports.** An OpenAPI document for the v1 API,
+  and OAI-PMH / MARC / Dublin Core exports for library harvesters.
+- **The unharvested corpora.** The DİA encyclopaedia as a programme, Nadwi's dictionary
+  of the women hadith scholars, the rijal (narrator) graph, and the regional sweeps
+  (Southeast Asia, Africa, China, the Americas) — see the coverage-expansion programme.
+- **New language editions.** Indonesian, Turkish and French, after the Arabic/English/Urdu
+  three (Phase 4).
+
 Strategy: **build the spine first, then grow the body.** The spine is a small, deeply connected core (the Prophet's life, the first century, the major polities, ~150 people, ~60 places) in two languages, with every hall working on it. Breadth comes after the mechanics are proven, by import, by community and by AI-assisted drafting with human review.
 
 ## Phase 0 · Foundation (weeks 1–2)
