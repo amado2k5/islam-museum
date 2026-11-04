@@ -741,3 +741,9 @@ Promoted: abu-dabbous, al-kamal-al-mahalli, al-kamal-salar-al-irbili, al-malik-a
 Promoted: aban-ibn-said-ibn-al-as, abu-al-rum-ibn-umayr, al-aswad-ibn-nawfal, ama-bint-khalid, amina-bint-khalf, amr-ibn-jahm, amr-ibn-umayya, baraka-bint-yasar, fatima-bint-safwan, habiba-bint-ubaydullah, jahm-ibn-qays, khuzayma-ibn-jahm, qays-ibn-abdullah-asadi, said-ibn-al-as-abu-uhayha, said-ibn-khalid, ubaydullah-ibn-jahsh.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2026.** sweep continues through remaining trilingual drafts.
+
+### Batch 111 (4 Nov 2026, 16 records) — isaba-batch-3 draft promotions (sweep worker)
+
+Promoted: abbad-ibn-bishr, abu-dujana, al-bara-ibn-azib, al-rubayyi-bint-muawwidh, al-shifa-bint-abdullah, anas-ibn-malik, asma-bint-yazid, fadala-ibn-ubayd, juwayriya-bint-al-harith, maymuna-bint-al-harith, rafi-ibn-khadij, shaddad-ibn-aws, umm-sulaym, umm-waraqa, zayd-ibn-al-khattab, zaynab-bint-jahsh.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2042.** sweep continues through remaining trilingual drafts.
