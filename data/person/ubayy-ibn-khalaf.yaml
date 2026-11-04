@@ -1,0 +1,25 @@
+id: person/ubayy-ibn-khalaf
+class: person
+label: { ar: "أبي بن خلف الجمحي", en: "Ubayy ibn Khalaf al-Jumahi", ur: "ابی بن خلف جمحی" }
+gender: male
+roles: [military]
+summary:
+  ar: "أبي بن خلف، من قريش، كان يلقى النبي بمكة فيتوعده بأنه يعلف فرساً له ليقتله عليه، فيجيبه النبي: بل أنا أقتلك إن شاء الله؛ ولما أُسند النبي في الشعب يوم أحد أدركه أبي يطلبه، فتناول النبي الحربة من الحارث بن الصمة فطعنه في عنقه خدشاً يسيراً، فرجع إلى قريش يقول: قتلني محمد، ومات بسرف وهم قافلون إلى مكة، كما يروي ابن إسحاق {cite:rawd-unuf-wakil-v6 p. 7}."
+  en: "Ubayy ibn Khalaf of Quraysh used to meet the Prophet in Mecca and threaten him, saying he was feeding a horse to kill him on it, to which the Prophet replied, 'Rather I will kill you, God willing'; when the Prophet had been brought up into the glen at Uhud, Ubayy caught up with him seeking him, and the Prophet took the spear from al-Harith ibn al-Simma and struck him in the neck with a slight wound; he went back to Quraysh saying 'Muhammad has killed me' and died at Sarif as they were returning to Mecca, as Ibn Ishaq relates {cite:rawd-unuf-wakil-v6 p. 7}."
+  ur: "ابی بن خلف، قریش سے، مکہ میں نبی سے ملتا تو دھمکی دیتا کہ وہ ایک گھوڑا پال رہا ہے جس پر سوار ہو کر آپ کو قتل کرے گا، اور نبی جواب دیتے: «بلکہ میں تمہیں قتل کروں گا ان شاء اللہ»؛ احد کے دن جب نبی کو گھاٹی میں پہنچا دیا گیا تو ابی آپ کی تلاش میں آ پہنچا، اور نبی نے حارث بن الصمہ سے نیزہ لے کر اس کی گردن میں ہلکا زخم لگایا؛ وہ قریش کے پاس لوٹ کر کہتا رہا: «محمد نے مجھے قتل کر دیا»، اور مکہ واپسی پر سرف میں مر گیا، جیسا کہ ابن اسحاق روایت کرتے ہیں {cite:rawd-unuf-wakil-v6 p. 7}۔"
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بسرف وهم قافلون من أحد إلى مكة {cite:rawd-unuf-wakil-v6 p. 7}؛ السنة مشتقة من تاريخ الغزوة.", sources: [source/rawd-unuf-wakil-v6] }
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+story_roles:
+  - { role: opponent, status: tradition, start: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/rawd-unuf-wakil-v6] }, note: "قاتل المسلمين يوم أحد وطلب النبي في الشعب {cite:rawd-unuf-wakil-v6 p. 7}", sources: [source/rawd-unuf-wakil-v6] }
+relations:
+  - { type: participated_in, target: event/battle-of-uhud, role: "في جيش قريش", sources: [source/rawd-unuf-wakil-v6] }
+provenance:
+  layer: own-research
+  source: "al-Rawd al-Unuf ed. al-Wakil vol. 6 printed pp. 7-8 (Ibn Ishaq via Ibn Hisham, with Hassan's verses) and 32 (al-Suhayli)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/rawd-unuf-wakil-v6]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

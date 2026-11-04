@@ -1,21 +1,27 @@
 id: work/al-rawd-al-unuf
 class: work
 kind: book
-label: { ar: "الروض الأنف في شرح السيرة النبوية", en: "al-Rawd al-Unuf fi Sharh al-Sira al-Nabawiyya" }
+label: { ar: "الروض الأنف في شرح السيرة النبوية", en: "al-Rawd al-Unuf fi Sharh al-Sira al-Nabawiyya", ur: "الروض الانف فی شرح السیرۃ النبویہ" }
 summary:
-  ar: "شرح السهيلي على سيرة ابن هشام ومن تصانيفه الإعلام بما أبهم القرآن من الأسماء والأعلام ونتائج النظر {cite:shadharat-dhahab p. 751}."
-  en: "Al-Suhayli's celebrated commentary on Ibn Hisham's Sira {cite:shadharat-dhahab p. 751}."
+  ar: "شرح أبي القاسم السهيلي (ت 581هـ) على سيرة ابن هشام، يتلو كل قسم من السيرة بفصول في غريب ألفاظه ونحوه وأنسابه وأشعاره، ويزيد عليه أخباراً من غير رواية ابن إسحاق، كخبر وقف أموال مخيريق، وردّ عين قتادة بن النعمان {cite:rawd-unuf-wakil-v6 p. 32-37, 47}؛ ومن تصانيف مؤلفه أيضاً «التعريف والإعلام بما أبهم في القرآن من الأسماء والأعلام» و«نتائج النظر» {cite:shadharat-dhahab p. 751}."
+  en: "Abu al-Qasim al-Suhayli's (d. 581 AH) commentary on Ibn Hisham's Sira: each section of the Sira is followed by notes on its rare words, grammar, genealogies and poetry, with reports beyond Ibn Ishaq's transmission, such as the endowment of Mukhayriq's estates and the restoring of Qatada ibn al-Nu'man's eye {cite:rawd-unuf-wakil-v6 p. 32-37, 47}; its author also wrote works on the unnamed persons of the Qur'an and on grammar {cite:shadharat-dhahab p. 751}."
+  ur: "ابو القاسم سہیلی (وفات 581ھ) کی سیرت ابن ہشام کی شرح: سیرت کے ہر حصے کے بعد اس کے نادر الفاظ، نحو، انساب اور اشعار پر فصلیں، اور ابن اسحاق کی روایت سے باہر کی اخبار، جیسے مخیریق کے باغوں کا وقف اور قتادہ بن النعمان کی آنکھ کا لوٹایا جانا {cite:rawd-unuf-wakil-v6 p. 32-37, 47}؛ مصنف کی دوسری تصانیف میں قرآن کے مبہم ناموں اور نحو پر کتابیں ہیں {cite:shadharat-dhahab p. 751}۔"
 language: language/arabic
 authors: [person/al-suhayli]
 genre: [sira]
-wings: []
+wings: [words, people]
+themes: [prophets]
+made: { by_muslims: true, basis: documented, sources: [source/rawd-unuf-wakil-v6] }
+relations:
+  - { type: commentary_on, target: work/sira-ibn-ishaq-ibn-hisham, sources: [source/rawd-unuf-wakil-v6] }
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-30
+  source: "al-Rawd al-Unuf ed. al-Wakil vol. 6 printed pp. 5-47 and index; Shadharat al-Dhahab (earlier Devin record)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q12187913" }
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/rawd-unuf-wakil-v6, source/al-rawd-al-unf, source/shadharat-dhahab]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); rewritten from a Devin record (run lib-shadharat-batch-30)" }
