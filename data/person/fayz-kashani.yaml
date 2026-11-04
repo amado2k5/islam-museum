@@ -3,23 +3,49 @@ class: person
 label:
   ar: "الفيض الكاشاني"
   en: "Fayz Kashani"
-roles: [scholar, poet]
+names:
+  - { value: "محسن محمد بن مرتضى بن محمود الكاشاني", kind: full }
+  - { value: "Muhsin Muhammad ibn Murtada ibn Mahmud al-Kashani", kind: full }
+roles: [scholar, philosopher, theologian, jurist, mystic, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد مرتضى الفيض الكاشاني، فيلسوف ومحدث إصفهان الصفوية في القرن السابع عشر صاحب «الوافي»، توفي سنة ١٦٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Murtada al-Fayz al-Kashani, the seventeenth-century Safavid philosopher and hadith scholar of Isfahan author of al-Wafi, d. 1680; the biographical entry is not yet checked on the page."
+  ar: "محسن الفيض الكاشاني (محمد بن مرتضى بن محمود، ١٥٩٨–١٦٨٠م)، فقيه ومحدّث وفيلسوف ومتصوّف شيعي إمامي أخباري من كاشان، أخذ عن الشيخ البهائي والمير داماد وملا صدرا الذي تلمذ عليه ثماني سنين وتزوّج ابنته، وصاحب «الوافي» في الحديث و«تفسير الصافي» و«المحجة البيضاء»."
+  en: "Muhsin Fayz Kashani (Muhammad b. Murtada b. Mahmud, 1598–1680) was an Akhbari Twelver Shi'i jurist, traditionist, philosopher and mystic of Kashan who studied under Shaykh Baha'i, Mir Damad and Mulla Sadra — his teacher for eight years, whose daughter he married — and wrote al-Wafi on hadith, Tafsir al-Safi and al-Mahajja al-bayza."
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "Attested for the man himself by two independent prose texts: the English article's lead calls him an 'Iranian Akhbari Twelver Shi'i Muslim, mystic, poet, philosopher, and muhaddith', and the Arabic article's lead calls him a jurist, traditionist, exegete, theologian and philosopher who was 'Shi'i Imami'; companion Encyclopaedia Iranica articles place him among the leading moderate Akhbaris within Imamite Shi'ism. His Akhbari orientation — reliance on the Imams' reports over ijma — is part of the attestation and is stated in the prose. The texts' own Twelver and Imami wording is followed."
+    sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani]
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+born:
+  edtf: "1598-09-15"
+  hijri: "1007"
+  precision: day
+  sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar]
+  note: "Born at Kashan on 14 Safar 1007 / 15 September 1598, as the Arabic article's text gives it and the English article's Gregorian date confirms. The Arabic article's infobox gives 24 Safar 1007 and names Qom as the birthplace against its own text; the infobox readings are not followed. No place record for Kashan exists on main, so no born_in edge is written."
+died:
+  edtf: "1680-05-22"
+  hijri: "1091"
+  precision: day
+  sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar]
+  note: "Died at Kashan on 22 Rabi' II 1091 / 22 May 1680 and was buried there in the cemetery he had himself bought and endowed (Arabic article). No place record for Kashan exists on main, so no died_in or buried_in edge is written."
+relations:
+  - {type: student_of, target: person/mulla-sadra, sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani]}
+  - {type: student_of, target: person/mir-damad, sources: [source/wikipedia-fayz-kashani-en]}
+  - {type: student_of, target: person/baha-al-din-al-amili, sources: [source/wikipedia-fayz-kashani-en]}
+  - {type: lived_in, target: place/isfahan, sources: [source/wikipedia-fayz-kashani-en]}
+  - {type: lived_in, target: place/qumm, sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar]}
+sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam]
 external_ids:
   wikidata: Q97259499
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0028
+  source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q97259499, carried from the stub (the item page returns HTTP 403 to this session's fetcher and the identifier could not be re-verified; no facts were taken from it). All statements were checked against the registered sources read in session: the English and Arabic Wikipedia articles in full, and the Encyclopaedia Iranica article's bibliography with its companion articles. Al-A'lam is retained as an unread pointer from the stub. The stub named him 'Muhammad Murtada', conflating him with his father Shah Murtada; his name is Muhammad b. Murtada, known as Muhsin, laqab Fayz. The Arabic article names Qadi Sa'id al-Qummi among his students, confirming the student_of edge that record already carries to this one."
+  generated_by: "Muse (Muse Spark 1.3)"
+  model: "Muse Spark 1.3"
+  run: "wave-188"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
