@@ -28,3 +28,15 @@ The Encyclopaedia of Islam (2nd ed.), article 'AKIKA (signed Th. W. Juynboll and
 Some older scholars, among them Dawud al-Zahiri, held the 'akika to be a duty; Abu Hanifa held it optional. The shorn hair is also called sakika, and the law recommends giving alms in silver or gold equal in weight to the hair. {cite:encyclopaedia-of-islam-2 vol. 1 p. 359}
 
 The 'akika derives from old Arabian heathenism. The Prophet is reported to have said: "When someone wishes to offer a sacrifice for his new-born child, he may do so." In pre-Islamic times the child's head was wetted with the blood of the animal, and some traditions say that Muhammad allowed the Muslims to do the same; the jurists hold this not to be desirable, although it is still done, for example in Palestine. Doughty observed that the 'akika is among the most frequent sacrifices in the Arabian desert, and that there it is performed only at the birth of a boy, never at that of a girl. Similar customs are recorded in Indonesia. {cite:encyclopaedia-of-islam-2 vol. 1 p. 359}
+
+## The status of the aqiqa in al-Nawawi's al-Majmu'
+
+[[person/al-nawawi|Al-Nawawi]] sets out in [[work/al-majmu-sharh-al-muhadhdhab|al-Majmu']] the scholars' views on the birth sacrifice:
+
+:::perspectives
+- **Sunni, Shafi'i and the majority: recommended**: so held Malik, Abu Thawr and most scholars, and it is the sound, well-known view of Ahmad's school; he reports from Ibn al-Mundhir that among those who practised it were Ibn Umar, Ibn Abbas, Fatima the daughter of the Messenger of God, A'isha, Burayda al-Aslami, al-Qasim ibn Muhammad, Urwa, Ata', al-Zuhri, Malik, al-Shafi'i, Ahmad and Ishaq, and that the practice spread through most Muslim lands. {cite:majmu-irshad-v8 p.434}
+- **Sunni: those who held it obligatory**: Burayda ibn al-Husayb, al-Hasan al-Basri, Abu al-Zinad, Dawud al-Zahiri, and a report from Ahmad. {cite:majmu-irshad-v8 p.434}
+- **Sunni, Hanafi: Abu Hanifa as al-Nawawi reports him**: neither obligatory nor sunna, and al-Nawawi reports him as calling it an innovation. Al-Nawawi quotes al-Shafi'i: two men went to excess about the aqiqa, one who said it is obligatory and one who said it is an innovation. {cite:majmu-irshad-v8 p.434} The Hanafi view is not given here from Hanafi books (needs_source).
+:::
+
+On its amount: for the Shafi'is and the majority, two sheep for a boy and one for a girl; Ibn Umar sacrificed one sheep for each, as Malik held; al-Hasan and Qatada held there is no aqiqa for a girl. {cite:majmu-irshad-v8 p.435} They recommend not breaking its bones and disapprove of smearing the newborn's head with its blood, against al-Hasan and Qatada. {cite:majmu-irshad-v8 p.435}

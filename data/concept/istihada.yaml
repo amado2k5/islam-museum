@@ -1,0 +1,35 @@
+id: concept/istihada
+class: concept
+kind: legal
+label: { ar: "الاستحاضة", en: "Istihada (non-menstrual bleeding)", ur: "استحاضہ" }
+term: { ar: "استحاضة؛ والمرأة مستحاضة", en: "istihada; the woman is mustahada" }
+summary:
+  ar: "الاستحاضة استمرار الدم بالمرأة في غير أوان الحيض، ووصفه الحديث بأنه «عِرق وليس بالحيضة»؛ عقد له أبو داود أبواباً كثيرة في كتاب الطهارة، ويقسّم الخطابي المستحاضات بحسب أحاديثها: معتادة لها أيام معلومة ترجع إليها (حديث أم سلمة)، ومميزة تعرف إقبال الحيضة وإدبارها بلون الدم (حديث فاطمة بنت أبي حبيش)، ومبتدأة لا عادة لها ولا تمييز تُرد إلى غالب عادة النساء ستة أيام أو سبعة (حديث حمنة بنت جحش)، ومتحيّرة نسيت أيامها تغتسل لكل صلاة {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 136-149}."
+  en: "Istihada is continued bleeding outside the time of menstruation, which the reports describe as 'a vein, not menstruation'; Abu Dawud devotes many chapters of the Book of Purification to it, and al-Khattabi sorts the cases by their reports: the woman with a known habit, who returns to her days (Umm Salama's report); the woman who can tell the onset and end of menstruation by the blood (Fatima bint Abi Hubaysh's report); the beginner with neither habit nor distinction, referred to the usual habit of women, six or seven days (Hamna bint Jahsh's report); and the woman who has forgotten her days, who bathes for every prayer {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 136-149}."
+  ur: "استحاضہ حیض کے وقت کے علاوہ عورت کو مسلسل خون آنا ہے، جسے حدیث میں «رگ ہے، حیض نہیں» کہا گیا؛ ابو داؤد نے کتاب الطہارۃ میں اس کے بہت سے ابواب باندھے، اور خطابی مستحاضہ عورتوں کی ان کی احادیث کے مطابق تقسیم کرتے ہیں: عادت والی جس کے دن معلوم ہوں اور وہ ان کی طرف رجوع کرے (ام سلمہ کی حدیث)؛ تمیز والی جو خون کے رنگ سے حیض کا آنا اور جانا پہچانے (فاطمہ بنت ابی حبیش کی حدیث)؛ مبتدئہ جس کی نہ عادت ہو نہ تمیز، اسے عورتوں کی غالب عادت چھ یا سات دن کی طرف لوٹایا جائے (حمنہ بنت جحش کی حدیث)؛ اور متحیرہ جو اپنے دن بھول گئی ہو، وہ ہر نماز کے لیے غسل کرے {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 136-149}۔"
+definitions:
+  - { tradition: sunni-shafii, text: { ar: "قال الخطابي في قوله «إنما ذلك عرق وليست بالحيضة»: يريد أن ذلك علة حدثت بها من تصدع العروق فاتصل الدم، وليس بدم الحيض الذي يقذفه الرحم لميقات معلوم." }, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+perspectives:
+  - tradition: sunni-shafii
+    id: khattabi-four-cases
+    standing: main
+    stance: { ar: "التمييز مقدّم على العادة، فإن عُدم فالعادة، فإن عُدما فغالب عادة النساء", en: "Distinction by the blood comes before habit; failing it, habit; failing both, the usual habit of women" }
+    summary: { ar: "يقول الخطابي إن الدم إذا تميّز كان الحكم له وإن كانت لها أيام معلومة، لأن اعتبار الشيء بذاته أولى من اعتباره بغيره، فإذا عدمت التمييز فالاعتبار للأيام على معنى حديث أم سلمة؛ والمبتدأة تُرد إلى العرف الظاهر من أحوال النساء، ستاً أو سبعاً بحسب مثيلاتها في سنها وإقليمها. ويذكر أن بعض العلماء ترك حديث حمنة لأن راويه ابن عقيل ليس بذاك، وقال إن المبتدأة تأخذ باليقين فلا تترك الصلاة إلا أقل مدة الحيض يوماً وليلة، وإلى هذا مال الشافعي في أحد قوليه.", en: "Al-Khattabi says that when the blood can be distinguished the ruling follows it even if the woman has known days, since judging a thing by itself is better than by something outside it; failing distinction, her days decide, as in Umm Salama's report; the beginner is referred to the evident custom of women, six or seven days according to women of her age and region. He notes that some scholars set aside Hamna's report because its narrator Ibn 'Aqil is weak, and held that the beginner keeps to certainty, leaving prayer only for the minimum of menstruation, a day and a night — a view towards which al-Shafi'i inclined in one of his two opinions." }
+    holders: [person/abu-sulayman-al-khattabi, person/al-shafii]
+    sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+  - tradition: sunni
+    id: days-of-aqra
+    standing: main
+    stance: { ar: "المستحاضة تدع الصلاة أيام أقرائها", en: "The woman with istihada leaves prayer during the days of her periods" }
+    summary: { ar: "يذكر أبو داود أن هذا قول الحسن وسعيد بن المسيب وعطاء ومكحول وإبراهيم وسالم والقاسم، ويرويه عن علي وابن عباس وعائشة من طرق؛ ويروي عن مكحول أن النساء لا تخفى عليهن الحيضة، وعن ابن سيرين: النساء أعلم بذلك.", en: "Abu Dawud gives this as the view of al-Hasan, Sa'id ibn al-Musayyib, 'Ata', Makhul, Ibrahim, Salim and al-Qasim, and relates it through several chains from 'Ali, Ibn 'Abbas and 'A'isha; he quotes Makhul that menstruation is not hidden from women, and Ibn Sirin: women know that best." }
+    holders: [person/makhul-al-dimashqi]
+    sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+wings: [ideas, living]
+themes: [worship-and-the-pillars, women, health-body-death]
+periods: [period/prophetic-era]
+regions: [global]
+relations:
+  - { type: part_of, target: concept/tahara, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+provenance: { layer: own-research, source: "Sunan Abi Dawud with Ma'alim al-Sunan, Dar Ibn Hazm 1997 vol. 1 pp. 136–149 (chapters 108–112, reports 274–294)", generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K)" }

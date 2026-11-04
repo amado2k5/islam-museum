@@ -1,6 +1,7 @@
 id: concept/ahl-al-dhimma
 class: concept
 kind: legal
+sensitivity: contested
 label: { ar: "أهل الذمة", en: "Ahl al-Dhimma (the protected non-Muslim subjects of an Islamic state, their covenant, rights, duties and limits)" }
 summary:
   ar: "الذمة في اللغة الأمان والعهد، والذمي المعاهد، وهو في الاصطلاح من أقر في دار الإسلام على كفره بعهد من الإمام يؤمنه على نفسه وماله نظير التزامه الجزية ونفوذ أحكام الإسلام. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3616}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3617} وتحصل الذمة لأهل الكتاب ومن في حكمهم بالعقد أو القرائن أو التبعية أو الغلبة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3617}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3618}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3621}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3622}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3623} وقد اتفق الفقهاء على جواز عقد الذمة لأهل الكتاب والمجوس، واختلفوا فيما عداهم، فأجازه الحنفية والمالكية لجميع الكفار إلا عبدة الأوثان عند الحنفية، ومنعه الشافعية والحنابلة في المشهور. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3618}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3619} ويكون العقد مؤبدا، ويلتزم الذمي أحكام الإسلام في المعاملات، ويشترط في الرجل قبول الجزية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3619} والأصل أن لأهل الذمة ما لنا وعليهم ما علينا، لكنها غير مطبقة على إطلاقها. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3623}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3624} ولهم حماية الدولة والإقامة الآمنة، ويمنعون من الإقامة الدائمة في مكة والمدينة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3624} ولهم اختيار العمل والمعاملات المالية مع استثناءات، كبيع الخمر والخنزير، واستئجار المسلم للخدمة الشخصية، وشهادتهم على المسلمين. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3627}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3628}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3629} وعليهم الجزية والخراج والعشور، ويمنعون من إظهار شعائر تخالف الإسلام في الأمصار، ويكون عليهم التمييز في الزي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3630}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3631} وتنتقض ذمتهم باللحوق بدار الحرب والامتناع عن الجزية عند الجمهور، وبأسباب أخرى عند بعض المذاهب. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3634}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3635}"
@@ -15,5 +16,6 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: "claude-haiku-5-5"
   run: "mawsua-w02-9"
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/assabile-ragheb-el-sergani]
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-kharaj-salafiyya-1392 PDF pp. 135-140"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/assabile-ragheb-el-sergani, source/kitab-al-kharaj-salafiyya-1392]
 status: { review: draft, completeness: 1 }

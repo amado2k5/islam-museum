@@ -1,0 +1,35 @@
+id: work/sahih-al-jami-al-saghir
+class: work
+kind: book
+label:
+  ar: "صحيح الجامع الصغير وزيادته (الفتح الكبير)"
+  en: "Sahih al-Jami' al-Saghir wa-Ziyadatuh (al-Fath al-Kabir)"
+  ur: "صحیح الجامع الصغیر وزیادتہ (الفتح الکبیر)"
+summary:
+  ar: "القسم الأول من تحقيق محمد ناصر الدين الألباني لكتاب «الفتح الكبير» الذي جمع فيه النبهاني «الجامع الصغير» للسيوطي وذيله «الزيادة»: يضم ما يراه الألباني ثابتاً محتجاً به من الصحيح والحسن، مرتباً على حروف المعجم، تحت كل حديث مرتبته ومصدر تحقيقه من كتبه؛ وقسيمه «ضعيف الجامع الصغير وزيادته»؛ بلغت أحاديثه في الطبعة الثالثة 8231 حديثاً منها 3273 من الزيادة {cite:sahih-jami-saghir-maktab-islami-1988 p. 10} {cite:sahih-jami-saghir-maktab-islami-1988 p. 18} {cite:sahih-jami-saghir-maktab-islami-1988 p. 32}."
+  en: "The first part of Muhammad Nasir al-Din al-Albani's grading of al-Fath al-Kabir — al-Nabhani's merger of al-Suyuti's al-Jami' al-Saghir with its supplement al-Ziyada: it holds what al-Albani judges established and usable as proof (sound and good), in alphabetical order, each hadith followed by his grade and the book of his where he examined it; its companion is Da'if al-Jami' al-Saghir wa-Ziyadatuh; in the third edition it counts 8,231 hadiths, 3,273 of them from the Ziyada {cite:sahih-jami-saghir-maktab-islami-1988 p. 10} {cite:sahih-jami-saghir-maktab-islami-1988 p. 18} {cite:sahih-jami-saghir-maktab-islami-1988 p. 32}."
+  ur: "محمد ناصر الدین البانی کی «الفتح الکبیر» کی تحقیق کا پہلا حصہ — نبہانی کا وہ مجموعہ جس میں سیوطی کی «الجامع الصغیر» اور اس کا ذیل «الزیادہ» ملائے گئے: اس میں وہ احادیث ہیں جنہیں البانی ثابت اور قابلِ حجت (صحیح و حسن) سمجھتے ہیں، حروفِ تہجی کی ترتیب پر، ہر حدیث کے نیچے ان کا حکم اور ان کی اس کتاب کا حوالہ جہاں انہوں نے اس کی تحقیق کی؛ اس کا ساتھی «ضعیف الجامع الصغیر وزیادتہ» ہے؛ تیسرے ایڈیشن میں اس کی احادیث 8231 ہیں، جن میں 3273 زیادہ سے ہیں {cite:sahih-jami-saghir-maktab-islami-1988 p. 10} {cite:sahih-jami-saghir-maktab-islami-1988 p. 18} {cite:sahih-jami-saghir-maktab-islami-1988 p. 32}۔"
+language: language/arabic
+authors: [person/al-albani-muhammad-nasir-al-din]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sahih-jami-saghir-maktab-islami-1988] }
+structure: "مقدمة الناشر زهير الشاويش، ثم مقدمة الألباني، ثم مقدمة النبهاني للفتح الكبير بتعليقات الألباني، ثم الأحاديث مرقمة على حروف المعجم برقمين: عام، وداخلي لأحاديث الزيادة؛ وأُلحق به فهرس على الأبواب الفقهية ومعجم لغريب الألفاظ."
+editions: [source/sahih-jami-saghir-maktab-islami-1988]
+wings: [words, today]
+themes: [scripture-and-its-sciences]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+sensitivity: contested
+relations:
+  - { type: relies_on, target: work/al-fath-al-kabir, sources: [source/sahih-jami-saghir-maktab-islami-1988] }
+  - { type: critic_of, target: work/al-jami-al-saghir-suyuti, note: "يرى الألباني أن رموز السيوطي في الصحة والحسن والضعف لا يوثق بها", sources: [source/sahih-jami-saghir-maktab-islami-1988] }
+  - { type: relies_on, target: work/fayd-al-qadir, note: "ينقل نقد المناوي لرموز الجامع", sources: [source/sahih-jami-saghir-maktab-islami-1988] }
+  - { type: relies_on, target: work/silsilat-al-ahadith-al-sahiha, sources: [source/sahih-jami-saghir-maktab-islami-1988] }
+provenance:
+  layer: own-research
+  source: "Sahih al-Jami al-Saghir wa-Ziyadatuh, al-Maktab al-Islami 3rd ed. 1408/1988, prefaces pp. 5–33"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sahih-jami-saghir-maktab-islami-1988]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

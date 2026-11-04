@@ -3,23 +3,45 @@ class: person
 label:
   ar: "أبو سليمان الخطابي"
   en: "Abu Sulayman al-Khattabi"
-roles: [scholar]
+  ur: "ابو سلیمان خطابی"
+names:
+  - { kind: full, lang: ar, value: "حمد بن محمد بن إبراهيم بن الخطاب البستي، أبو سليمان الخطابي" }
+  - { kind: kunya, lang: ar, value: "أبو سليمان" }
+  - { kind: nisba, lang: ar, value: "الخطابي البستي" }
+roles: [muhaddith, faqih, scholar]
+traditions: [sunni]
 gender: male
+born: { hijri: "0319-07", edtf: "0931-07~", calendar: julian, precision: month, status: tradition, derived: true, note: "«ولد في رجب سنة 319هـ في بلدة بست» — ترجمة الخطابي في ط. دار ابن حزم ج1 ص 14؛ التحويل مشتق.", sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+died: { hijri: "0388", edtf: "0998~", calendar: julian, precision: year, status: tradition, derived: true, note: "«وتوفي فيها سنة 388هـ» أي في بست — ج1 ص 14؛ والصفحة الأولى تكتب «388–319هـ»؛ التحويل مشتق.", sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
 summary:
-  ar: "بطاقة أولية لحمد بن محمد أبي سليمان الخطابي البستي، محدث وشراح القرن العاشر صاحب «معالم السنن»، توفي سنة ٩٩٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hamd ibn Muhammad Abu Sulayman al-Khattabi al-Busti, the tenth-century hadith scholar author of Ma'alim al-Sunan, d. 998; the biographical entry is not yet checked on the page."
+  ar: "حمد بن محمد بن إبراهيم بن الخطاب البستي، أبو سليمان الخطابي (319–388هـ)، من ولد زيد بن الخطاب، محدث فقيه أديب لغوي شاعر من بست في بلاد كابل؛ أخذ اللغة والأدب عن أبي عمر الزاهد وإسماعيل الصفار وأبي جعفر الرزاز، والفقه عن القفال الشاشي، وروى عنه الحاكم النيسابوري، وصنّف «معالم السنن» على سنن أبي داود و«أعلام السنن» على البخاري و«غريب الحديث» وغيرها {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13-14}."
+  en: "Hamd ibn Muhammad ibn Ibrahim ibn al-Khattab of Bust, Abu Sulayman al-Khattabi (319–388 AH), a descendant of Zayd ibn al-Khattab, was a hadith scholar, jurist, man of letters, philologist and poet from Bust in the land of Kabul; he learned language and letters from Abu 'Umar al-Zahid, Isma'il al-Saffar and Abu Ja'far al-Razzaz and law from al-Qaffal al-Shashi, al-Hakim al-Nisaburi transmitted from him, and he wrote Ma'alim al-Sunan on Abu Dawud's Sunan, A'lam al-Sunan on al-Bukhari, Gharib al-Hadith and other works {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13-14}."
+  ur: "حمد بن محمد بن ابراہیم بن الخطاب بستی، ابو سلیمان خطابی (319–388ھ)، زید بن الخطاب کی اولاد سے، کابل کے علاقے بست کے محدث، فقیہ، ادیب، لغوی اور شاعر؛ انہوں نے لغت و ادب ابو عمر الزاہد، اسماعیل الصفار اور ابو جعفر الرزاز سے اور فقہ قفال شاشی سے حاصل کی، حاکم نیشاپوری نے ان سے روایت کی، اور انہوں نے سنن ابی داؤد پر «معالم السنن»، بخاری پر «اعلام السنن»، «غریب الحدیث» وغیرہ تصنیف کیں {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13-14}۔"
 wings: [people]
+themes: [scripture-and-its-sciences]
 regions: [persia-central-asia]
-periods: [period/abbasid-early]
-sources: [source/al-aalam]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: born_in, target: place/bust, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: died_in, target: place/bust, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: authored, target: work/maalim-al-sunan, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: student_of, target: person/ghulam-thalab, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], note: "أخذ اللغة والأدب عن أبي عمر الزاهد، ج1 ص 13" }
+  - { type: student_of, target: person/al-qaffal-al-shashi, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], note: "أخذ الفقه عن القفال الشاشي، ج1 ص 13" }
+  - { type: student_of, target: person/ibn-al-arabi-ahmad, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], note: "سمع منه كتاب السنن لأبي داود، ج1 ص 10؛ ويروي عنه في المعالم، ج1 ص 84" }
+  - { type: traveled_to, target: place/iraq, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], note: "قول السمعاني: وصل إلى العراق والحجاز وجال في خراسان وخرج إلى ما وراء النهر، ج1 ص 13" }
+  - { type: traveled_to, target: place/hijaz, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: traveled_to, target: place/khurasan, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+  - { type: traveled_to, target: place/transoxiana, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
+sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/al-aalam]
 external_ids:
   wikidata: Q12178032
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0037
+  source: "Notice of al-Khattabi in Sunan Abi Dawud, Dar Ibn Hazm 1997 vol. 1 pp. 13–14, with pp. 1, 10, 84 (printed = PDF pages); first card from Wikidata and al-Zirikli's al-A'lam (not read on the page)"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 High), wikidata-import-0037"
