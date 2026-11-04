@@ -1,0 +1,23 @@
+id: person/manohar-painter
+class: person
+label: { ar: "منوهر (مصور مغولي)", en: "Manohar (Mughal painter)", ur: "منوہر (مغل مصور)" }
+summary:
+  ar: "مصور مغولي (ولد أواخر ستينيات القرن السادس عشر) ابن بساون، امتد عمله من أوائل ثمانينيات القرن السادس عشر إلى عشرينيات السابع عشر، وتخصص في جلال البلاط المغولي وأبهته {cite:beach-grand-mogul-1978 p. 130}."
+  en: "Mughal painter (born in the late 1560s), son of Basawan, active from the early 1580s to the 1620s, whose main interest was the majesty and decorum of the imperial court {cite:beach-grand-mogul-1978 p. 130}."
+  ur: "مغل مصور (پیدائش 1560ء کی دہائی کا آخر)، بساون کے بیٹے، جو 1580ء کی دہائی کے آغاز سے 1620ء کی دہائی تک فعال رہے اور جن کی بنیادی دلچسپی شاہی دربار کی شان و آداب تھی {cite:beach-grand-mogul-1978 p. 130}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [artist]
+relations:
+  - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }
+  - { type: patronized_by, target: person/jalal-al-din-akbar, sources: [source/beach-grand-mogul-1978] }
+sources: [source/beach-grand-mogul-1978]
+provenance:
+  layer: own-research
+  source: "source/beach-grand-mogul-1978 scan pp. 22, 130, 131, 132, 137"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -1,0 +1,22 @@
+id: person/ustad-mansur
+class: person
+label: { ar: "الأستاذ منصور نادر العصر", en: "Ustad Mansur, Nadir al-Asr", ur: "استاد منصور نادر العصر" }
+summary:
+  ar: "مصور مغولي متخصص في التاريخ الطبيعي، لقبه جهانگير «نادر العصر» وذكره في مذكراته أكثر من أي مصور آخر، ورسم بأمره الطيور والحيوانات وأكثر من مائة زهرة من كشمير {cite:beach-grand-mogul-1978 p. 24} {cite:beach-grand-mogul-1978 p. 137}."
+  en: "Mughal painter of natural history whom Jahangir titled Nadir al-Asr (\"wonder of the time\") and mentions more often than any other painter, commissioning him to record birds, animals and over a hundred Kashmir flowers {cite:beach-grand-mogul-1978 p. 24} {cite:beach-grand-mogul-1978 p. 137}."
+  ur: "فطری تاریخ کے مغل مصور جنہیں جہانگیر نے «نادر العصر» کا لقب دیا اور اپنی یادداشتوں میں کسی بھی مصور سے زیادہ ذکر کیا؛ ان کے حکم سے پرندے، جانور اور کشمیر کے سو سے زیادہ پھول بنائے {cite:beach-grand-mogul-1978 p. 24} {cite:beach-grand-mogul-1978 p. 137}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [south-asia]
+gender: male
+roles: [artist]
+relations:
+  - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }
+sources: [source/beach-grand-mogul-1978]
+provenance:
+  layer: own-research
+  source: "source/beach-grand-mogul-1978 scan pp. 24, 137, 138"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

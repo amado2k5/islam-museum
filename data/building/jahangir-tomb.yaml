@@ -5,12 +5,12 @@ label:
   ar: "مقبرة جهانكير"
   en: "Tomb of Jahangir"
 summary:
-  ar: "بطاقة أولية لمقبرة جهانكير بشهداره قرب لاهور، ضريح السلطان المغولي جهانكير؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Tomb of Jahangir at Shahdara near Lahore, the mausoleum of the Mughal emperor Jahangir; its sources are not yet checked on the page."
+  ar: "ضريح الإمبراطور جهانگير في بستان دلكشا الذي أنشأته نورجهان في شاهدره قرب لاهور، من تصميم زوجه {cite:brookes-gardens-of-paradise-1987 p.138}."
+  en: "The tomb of the emperor Jahangir in the Dilkusha garden laid out by Nur Jahan at Shahdara near Lahore, built to his wife's design {cite:brookes-gardens-of-paradise-1987 p.138}."
 wings: [objects]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/brookes-gardens-of-paradise-1987, source/rezavi-iranian-influence-indian-architecture-2002]
 external_ids:
   wikidata: Q1678536
 provenance:
@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Brookes 1987, first prose"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/lahore

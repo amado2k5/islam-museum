@@ -1,0 +1,18 @@
+id: object/windsor-padshahnama
+class: object
+kind: manuscript
+label: { ar: "مخطوطة پادشاهنامه في وندسور", en: "The Windsor Padshah-nama", ur: "ونڈسر کا پادشاہنامہ" }
+summary:
+  ar: "النسخة الإمبراطورية المصورة من «پادشاهنامه» عبد الحميد اللاهوري، في المكتبة الملكية بقلعة وندسور، تم نسخها في آخر عهد شاه جهان (1657–1658م)، وبعض صورها أقدم من نسخ النص، ومنها صور لپياگ وبالچند {cite:beach-grand-mogul-1978 p. 76}."
+  en: "The imperial illustrated copy of Abd al-Hamid Lahori's Padshah-nama in the Royal Library, Windsor Castle, written out at the end of Shah Jahan's reign (1657–58), some of its paintings older than the text, among them pages by Payag and Balchand {cite:beach-grand-mogul-1978 p. 76}."
+  ur: "عبد الحمید لاہوری کے پادشاہنامہ کا شاہی مصور نسخہ، ونڈسر کیسل کی شاہی لائبریری میں، جس کی کتابت شاہ جہان کے دور کے آخر (1657–58ء) میں مکمل ہوئی؛ اس کی بعض تصاویر متن سے پرانی ہیں، جن میں پیاگ اور بال چند کی تصاویر ہیں {cite:beach-grand-mogul-1978 p. 76}۔"
+wings: [objects, words]
+themes: [arts-of-the-book]
+regions: [south-asia]
+made: { edtf: "1628/1658", calendar: gregorian, precision: year, status: historical, note: "نسخ النص تم 1657–1658م، وبعض الصور مؤرخة 1628 و1635 و1639م {cite:beach-grand-mogul-1978 p. 76}." }
+holding_institution: "Royal Library, Windsor Castle"
+relations:
+  - { type: commissioned_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }
+  - { type: exemplifies, target: concept/mughal-painting, sources: [source/beach-grand-mogul-1978] }
+sources: [source/beach-grand-mogul-1978]
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker I), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/beach-grand-mogul-1978 scan pp. 16, 76, 94, 99, 151" }

@@ -5,12 +5,12 @@ label:
   ar: "ضريح همايون (دلهي)"
   en: "Humayun's Tomb"
 summary:
-  ar: "بطاقة أولية لضريح همايون بدلهي، ضريح الإمبراطور المغولي الثاني الذي بُني سنة ١٥٧٠م تقريباً وهو نموذج مبكر للعمارة الضريحية المغولية التي بلغت ذروتها في تاج محل؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Humayun's Tomb in Delhi, the 1570 mausoleum of the second Mughal emperor and the great early model of Mughal tomb architecture that culminated in the Taj Mahal; its sources are not yet checked on the page."
+  ar: "ضريح الإمبراطور المغولي همايون في دلهي، صممه ميرزا غياث على المخطط التساعي التيموري وسط جهاربغ، ويعدّه رضوي مع تاج محل أشهر مباني هذا المخطط {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}."
+  en: "The mausoleum of the Mughal emperor Humayun at Delhi, designed by Mirza Ghiyas on the Timurid nine-part plan in a chaharbagh; Rezavi ranks it with the Taj Mahal as the best-known building on that plan {cite:rezavi-iranian-influence-indian-architecture-2002 p.138}."
 wings: [objects]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/rezavi-iranian-influence-indian-architecture-2002, source/brookes-gardens-of-paradise-1987]
 external_ids:
   wikidata: Q189648
 provenance:
@@ -19,6 +19,10 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Rezavi 2002 pp.129-139, first prose", "worker H ocr-harvest-2026-11-04: Brookes 1987 pp.130-154 section"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/delhi
+built: { edtf: "1560~/1573", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes pp. 131-132: begun around 1560, completed 1573; p. 154 gives 1564" }
+patron: person/hamida-banu-begum

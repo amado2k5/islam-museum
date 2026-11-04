@@ -1,0 +1,38 @@
+id: event/conquest-of-al-bahnasa
+class: event
+kind: conquest
+label: { ar: "فتح البهنسا (في رواية فتوح الشام)", en: "The conquest of al-Bahnasa (as told in Futuh al-Sham)", ur: "البہنسا کی فتح (فتوح الشام کی روایت میں)" }
+summary:
+  ar: "خبر طويل يختم به «فتوح الشام» المنسوب إلى الواقدي: بعد فتح مصر وأسفلها يكتب عمر إلى عمرو بن العاص ألّا يقربوا الصعيد حتى يفتحوا أهناس والبهنسا، ويُؤمَّر خالد بن الوليد على عشرة آلاف فارس، فيحاصرون البطريق البطليوس صاحب البهنسا، ثم يدخلونها ليلاً بسُلّم تسلقه أربعون رجلاً ففتحوا الباب؛ ويؤرخ الكتاب اجتماع الأمراء بمصر لذلك بيوم الأربعاء عاشر ربيع الأول سنة 21هـ، وقيل 22هـ {cite:futuh-al-sham-ilmiyya-1997-v2 p.206} {cite:futuh-al-sham-ilmiyya-1997-v2 p.207} {cite:futuh-al-sham-ilmiyya-1997-v2 p.283}. ويجعل في جبانتها خمسة آلاف من الصحابة {cite:futuh-al-sham-ilmiyya-1997-v2 p.290}."
+  en: "A long account that closes the Futuh al-Sham ascribed to al-Waqidi: after the conquest of Egypt and the Delta, Umar writes to Amr ibn al-As not to approach Upper Egypt until Ahnas and al-Bahnasa are taken; Khalid ibn al-Walid is given command of ten thousand horsemen; they besiege the patrician al-Batlius, lord of al-Bahnasa, and enter by night when forty men climb a ladder and open the gate. The book dates the gathering of the commanders at Misr for the campaign to Wednesday 10 Rabi' I 21 AH, 'and it is said 22', and places five thousand Companions in its cemetery."
+wings: [time, place]
+themes: [conquest-and-its-debates, battles, sacred-space-and-pilgrimage]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0642-02~", hijri: "0021-03-10", calendar: julian, precision: day, status: tradition, derived: true, note: "«نهار الأربعاء عاشر شهر ربيع الأول سنة إحدى وعشرين من الهجرة النبوية، وقيل اثنتين وعشرين» لاجتماع الأمراء بمصر، وتكامل الجيوش «في ربيع الآخر من السنة المذكورة» (فتوح الشام 2/207–208)؛ التحويل الميلادي مشتق (16 فبراير 642م لسنة 21، أو 6 فبراير 643م لسنة 22).", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+relations:
+  - { type: occurred_at, target: place/al-bahnasa, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: part_of, target: period/rashidun }
+sides:
+  - label: { ar: "جيش المسلمين بقيادة خالد بن الوليد", en: "The Muslim army under Khalid ibn al-Walid" }
+    commanders: [person/khalid-ibn-al-walid]
+    strength:
+      value: 10000
+      status: tradition
+      note: "انتدب عمرو عشرة آلاف فارس من ستة عشر ألفاً (فتوح الشام 2/208)"
+      sources: [source/futuh-al-sham-ilmiyya-1997-v2]
+  - label: { ar: "جيش البطليوس صاحب البهنسا", en: "The army of al-Batlius, lord of al-Bahnasa" }
+    strength:
+      value: 50000
+      status: tradition
+      note: "خرج البطليوس في نحو خمسين ألف فارس (2/213)، وأخبر الجواسيس خالداً بنحو مائتي ألف فارس وخمسين ألف راجل من النوبة والبربر والبجاوة (2/214)"
+      sources: [source/futuh-al-sham-ilmiyya-1997-v2]
+sources: [source/futuh-al-sham-ilmiyya-1997-v2, source/dehghani-farsani-futuh-al-sham-thesis]
+provenance:
+  layer: own-research
+  source: "source/futuh-al-sham-ilmiyya-1997-v2 pp. 198-208, 213-214, 258-261, 266, 268, 283, 288-292"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

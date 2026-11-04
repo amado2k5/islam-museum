@@ -1,0 +1,25 @@
+id: building/ram-bagh-agra
+class: building
+kind: garden
+label: { ar: "رام باغ (آرام باغ) في آكره", en: "Ram Bagh (Aram Bagh), Agra", ur: "رام باغ (آرام باغ)، آگرہ" }
+summary:
+  ar: "بستان بابر على الضفة اليسرى لنهر جمنا في آكره، يُرجَّح أنه أقدم بستان مغولي باقٍ بصورة يمكن تمييزها، جدّدته نورجهان فسُمّي باغ نور‌افشان {cite:brookes-gardens-of-paradise-1987 p.128} {cite:rezavi-iranian-influence-indian-architecture-2002 p.130}."
+  en: "Babur's garden on the left bank of the Yamuna at Agra, probably the earliest Mughal garden to survive in recognisable form, later renovated by Nur Jahan and renamed Bagh-i Nur Afshan {cite:brookes-gardens-of-paradise-1987 p.128} {cite:rezavi-iranian-influence-indian-architecture-2002 p.130}."
+wings: [objects, place]
+themes: [architecture, water-and-animals]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1526", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes, photo caption: built in 1526" }
+patron: person/babur-mughal
+location: place/agra
+relations:
+  - { type: located_in, target: place/agra, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987, source/rezavi-iranian-influence-indian-architecture-2002]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 128-130"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

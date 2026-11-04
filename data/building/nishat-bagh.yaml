@@ -1,0 +1,25 @@
+id: building/nishat-bagh
+class: building
+kind: garden
+label: { ar: "نشاط باغ (سرينغار)", en: "Nishat Bagh, Srinagar", ur: "نشاط باغ (سری نگر)" }
+summary:
+  ar: "أكبر بساتين بحيرة دال في كشمير وأشدها انحداراً، يُنسب إلى آصف خان أخي نورجهان نحو 1625م، وكان في الأصل اثنتي عشرة مصطبة {cite:brookes-gardens-of-paradise-1987 p.143} {cite:brookes-gardens-of-paradise-1987 p.145}."
+  en: "The largest and steepest of the Lake Dal gardens in Kashmir, attributed to Asaf Khan, Nur Jahan's brother, c. 1625, originally laid out in twelve terraces {cite:brookes-gardens-of-paradise-1987 p.143} {cite:brookes-gardens-of-paradise-1987 p.145}."
+wings: [objects, place]
+themes: [architecture, water-and-animals]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1625~", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes, caption: 'supposedly built' by Jahangir's brother-in-law in 1625" }
+patron: person/asaf-khan-iv
+location: place/srinagar
+relations:
+  - { type: located_in, target: place/srinagar, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 139, 143-146"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

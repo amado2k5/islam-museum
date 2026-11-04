@@ -3,15 +3,25 @@ class: person
 label:
   ar: "الشمني"
   en: "al-Shamunni"
+  ur: "الشُمُنّی"
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن محمد بن حسن بن علي بن يحيى بن محمد، تقي الدين الشمني السكندري القاهري الحنفي" }
 roles: [muhaddith, grammarian]
 gender: male
 summary:
   ar: "أحمد بن محمد الشمني، محدث ومفسر ونحوي إسكندري الأصل قسنطيني، توفي بالقاهرة سنة 872هـ (1468م)."
   en: "Ahmad al-Shamunni (1399–1468), Alexandrian hadith scholar, mufassir and grammarian of Constantine origin."
 wings: [people]
+traditions: [sunni]
+born: { edtf: "1399", hijri: "0801-09", calendar: julian, precision: year, status: tradition, derived: true, note: "في العشر الأخير من رمضان سنة 801هـ بالإسكندرية؛ التحويل مشتق {cite:al-shifa-ilmiyya-shumunni p.6}", sources: [source/al-shifa-ilmiyya-shumunni] }
+died: { edtf: "1468", hijri: "0872-12-17", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة الأحد سابع عشر ذي الحجة سنة 872هـ بمنزله في تربة قانباي الجركسي بالقاهرة ودفن بها؛ التحويل مشتق {cite:al-shifa-ilmiyya-shumunni p.7}", sources: [source/al-shifa-ilmiyya-shumunni] }
+relations:
+  - { type: authored, target: work/muzil-al-khafa-an-alfaz-al-shifa, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: born_in, target: place/alexandria, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: died_in, target: place/cairo, sources: [source/al-shifa-ilmiyya-shumunni] }
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/al-shifa-ilmiyya-shumunni]
 external_ids:
   wikidata: Q28713188
 provenance:
@@ -20,6 +30,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch2
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: biography from al-Badr al-Tali' as printed in source/al-shifa-ilmiyya-shumunni pp. 6–7 and colophon p. 696; prose trio rewritten"
 status:
   review: published
   completeness: 3
