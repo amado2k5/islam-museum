@@ -1,18 +1,23 @@
 id: concept/tawil-quran
 class: concept
 kind: term
-label: { ar: "التأويل في القرآن", en: "Ta'wil in the Qur'an" }
+label: { ar: "التأويل في القرآن", en: "Ta'wil in the Qur'an", ur: "قرآن میں تاویل" }
 summary:
-  ar: "معنى كلمة «التأويل» في القرآن. يرى محمد رشيد رضا، في مقدمة تفسيره، أن الكلمة اشتهرت بمعنى التفسير، لكنها جاءت في القرآن بمعنى العاقبة وما يؤول إليه الأمر، ويستشهد بموضع في سورة الأعراف {cite:tafsir-manar-v01 p.24}. ويوجب على من يريد الفهم الصحيح أن يفرّق بين ما تعارف عليه أهل الملة بعد القرون الأولى وما كان مستعملاً في عصر النزول، وأن يجمع ما تكرر من اللفظ في القرآن."
-  en: "What the word ta'wil means in the Qur'an. Rashid Rida says in his introduction that the word became common for tafsir, but in the Qur'an it means outcome, what a matter comes to, and he cites a verse of al-A'raf for this sense. He holds that the reader must separate the senses of later terms from the sense the word had at the time of revelation, and gather its uses across the Qur'an."
-wings: [ideas]
-themes: []
-periods: [period/prophetic-era]
-sources: [source/tafsir-manar-v01]
+  ar: "معنى كلمة «التأويل» في القرآن وفي اصطلاح العلماء. يرى محمد رشيد رضا أنها جاءت في القرآن بمعنى العاقبة وما يؤول إليه الأمر، ويميز ابن قيم الجوزية في الصواعق المرسلة ثلاثة معانٍ: حقيقة المعنى التي يؤول إليها الكلام في الخارج، وهو معناها في القرآن والسنة؛ والتفسير والبيان، وهو اصطلاح المفسرين والسلف؛ وصرف اللفظ عن ظاهره إلى مجازه، وهو اصطلاح المتكلمين والمتأخرين، ثم يقسم التأويل إلى صحيح وباطل."
+  en: "What the word ta'wil means in the Qur'an and in scholarly usage. Rashid Rida holds that in the Qur'an it means outcome, what a matter comes to. In al-Sawa'iq al-Mursala Ibn Qayyim al-Jawziyya distinguishes three senses: the reality to which speech refers in the world, its sense in the Qur'an and Sunna; explanation and exposition, the usage of the exegetes and early scholars; and diverting a word from its apparent meaning to a figurative one, the usage of the theologians and later scholars. He then divides ta'wil into sound and false."
+  ur: "قرآن اور علما کی اصطلاح میں لفظ «تاویل» کا معنی۔ محمد رشید رضا کے نزدیک قرآن میں اس کا معنی انجام اور وہ ہے جس کی طرف معاملہ لوٹتا ہے۔ الصواعق المرسلہ میں ابن قیم الجوزیہ تین معانی میں فرق کرتے ہیں: وہ حقیقت جس کی طرف کلام خارج میں لوٹتا ہے، جو قرآن و سنت میں اس کا معنی ہے؛ تفسیر اور بیان، جو مفسرین اور سلف کی اصطلاح ہے؛ اور لفظ کو اس کے ظاہر سے مجاز کی طرف پھیرنا، جو متکلمین اور متاخرین کی اصطلاح ہے۔ پھر وہ تاویل کو صحیح اور باطل میں تقسیم کرتے ہیں۔"
+wings: [ideas, words]
+themes: [scripture-and-its-sciences, sects-and-schools]
+periods: [period/prophetic-era, period/crusades-ayyubid-mamluk]
+relations:
+  - { type: related_to, target: concept/tafsir, sources: [source/sawaiq-mursala-ataat-text] }
+  - { type: related_to, target: group/jahmiyya, sources: [source/sawaiq-mursala-ataat-text] }
+  - { type: related_to, target: group/mutazila, sources: [source/sawaiq-mursala-ataat-text] }
+sources: [source/tafsir-manar-v01, source/sawaiq-mursala-ataat-text]
 provenance:
   layer: own-research
-  source: "تفسير المنار، المجلد الأول، ص 23-24 (نسخة OCR محلية)"
-  generated_by: "Claude Haiku 5.5"
-  model: claude-haiku-5-5
-  run: "lib-exp-modern-muslim-writers manar-1-6 batch 1"
-status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's introduction only; the lexical articles of the classical dictionaries are still to be checked" }
+  source: "تفسير المنار، المجلد الأول، ص 23-24؛ الصواعق المرسلة، دار عطاءات العلم، نص الكتاب ص 23–37"
+  generated_by: "Claude Haiku 5.5 (first draft); enriched by Claude Code (OCR-harvest worker C) from al-Sawa'iq al-Mursala pp. 23–37"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; enriched by Claude Code (OCR-harvest worker C)" }

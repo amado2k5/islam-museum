@@ -1,0 +1,20 @@
+id: person/umm-hayyan-al-sulamiyya
+class: person
+label: { ar: "أم حيان السلمية", en: "Umm Hayyan al-Sulamiyya", ur: "ام حیان السلمیہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة؛ يروي ابن الجوزي في «صفة الصفوة» قول أبي خلدة إنه لم ير رجلاً ولا امرأة أقوى ولا أصبر على طول القيام منها، وأنها كانت تختم القرآن كل يوم وليلة ولا تتكلم إلا بعد العصر."
+  en: "A devout woman of Basra; Ibn al-Jawzi's Sifat al-Safwa quotes Abu Khalda that he never saw man or woman stronger or more patient in long standing prayer, and says she read the Qur'an every day and night and spoke only after the afternoon prayer."
+  ur: "بصرہ کی ایک عابدہ؛ ابن الجوزی کی «صفۃ الصفوہ» ابو خلدہ کا قول نقل کرتی ہے کہ انہوں نے طویل قیام میں ان سے زیادہ قوی اور صابر کوئی مرد یا عورت نہیں دیکھی، اور یہ کہ وہ ہر دن رات قرآن پڑھتیں اور عصر کے بعد ہی بات کرتیں۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.714", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

@@ -3,6 +3,7 @@ id: person/salama-ibn-al-akwa
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 553–557", note: "section added to earlier prose" }
 ---
 ابو مسلم سلمہ بن عمرو بن الاکوع اسلمی ایک جلیل القدر صحابی تھے، جو غیر معمولی بہادری اور تیز رفتاری کے لیے مشہور تھے، یہاں تک کہا گیا کہ وہ پیدل دوڑ میں گھوڑوں سے آگے نکل جاتے تھے۔ {cite:mubarakpuri-raheeq}
 
@@ -12,3 +13,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## غزوہ بنی فزارہ میں
 ابن اسحاق بیان کرتے ہیں کہ سلمہ بن عمرو بن الاکوع نے [[event/raid-of-zayd-on-banu-fazara-and-umm-qirfa|زید بن حارثہ کے بنو فزارہ کے غزوے]] میں ام قرفہ کی بیٹی کو پکڑ لیا، تو نبی نے ان سے وہ لڑکی مانگی اور انہوں نے وہ حزن بن ابی وہب کو دے دی۔ {cite:ibn-hisham-saqqa 4/266}
+
+## خالد محمد خالد کی «رجال حول الرسول» میں
+[[person/khalid-muhammad-khalid|خالد محمد خالد]] [[work/rijal-hawl-al-rasul|رجال حول الرسول]] میں ان کے باب کا عنوان «پیادوں کا ہیرو» رکھتے ہیں اور آغاز ان کے بیٹے ایاس کے قول سے کرتے ہیں: «میرے والد نے کبھی جھوٹ نہیں بولا»۔ وہ انہیں عرب کے نامور تیر اندازوں میں، بہادری اور سخاوت میں ممتاز، اور [[event/bayat-al-ridwan|بیعتِ رضوان]] والوں میں بتاتے ہیں، جنہوں نے درخت کے نیچے موت پر بیعت کی اور نبی کے بلانے پر دوبارہ بیعت کی۔ {cite:rijal-hawl-al-rasul-muqattam-1994 p.553} {cite:rijal-hawl-al-rasul-muqattam-1994 p.554} وہ ان کا قول نقل کرتے ہیں: «میں نے رسول اللہ کے ساتھ سات غزوات اور زید بن حارثہ کے ساتھ نو مہمات کیں»۔ {cite:rijal-hawl-al-rasul-muqattam-1994 p.555}
+مصنف پیدل لڑنے کے ان کے طریقے — حملہ ہو تو پیچھے ہٹنا اور دشمن پلٹے یا رکے تو حملہ کرنا — کو بعض گوریلا جنگوں سے تشبیہ دیتے ہیں؛ اسی سے انہوں نے [[event/expedition-of-dhu-qarad|غزوۂ ذی قرد]] میں [[person/uyayna-ibn-hisn|عیینہ بن حصن]] کی قیادت میں حملہ آور دستے کا اکیلے پیچھا کیا یہاں تک کہ نبی آ پہنچے، اور اس دن فرمایا: «ہمارے پیادوں میں سب سے بہتر سلمہ بن الاکوع ہیں»۔ {cite:rijal-hawl-al-rasul-muqattam-1994 p.555} وہ خیبر کے دن اپنے بھائی عامر بن الاکوع پر ان کے غم کا ذکر کرتے ہیں جن کی اپنی تلوار پلٹ کر لگی اور بعض نے کہا کہ وہ شہادت سے محروم رہے، تو نبی نے سلمہ کو بتایا کہ عامر کے لیے دوہرا اجر ہے۔ {cite:rijal-hawl-al-rasul-muqattam-1994 p.555} {cite:rijal-hawl-al-rasul-muqattam-1994 p.556} جو بھی اللہ کے واسطے سے مانگتا اسے دیتے اور کہتے: «جو اللہ کے واسطے پر نہ دے وہ کس پر دے گا؟» عثمان کی شہادت کے بعد کسی مسلمان سے لڑنے کے بجائے [[place/al-rabadha|ربذہ]] چلے گئے، وہیں رہے یہاں تک کہ 74ھ میں مدینہ آئے اور تیسرے دن وہیں فوت ہو گئے۔ {cite:rijal-hawl-al-rasul-muqattam-1994 p.556} {cite:rijal-hawl-al-rasul-muqattam-1994 p.557}

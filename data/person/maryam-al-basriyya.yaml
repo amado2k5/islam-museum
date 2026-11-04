@@ -1,0 +1,20 @@
+id: person/maryam-al-basriyya
+class: person
+label: { ar: "مريم البصرية", en: "Maryam al-Basriyya", ur: "مریم البصریہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة كانت تخدم رابعة العدوية؛ يذكر ابن الجوزي في «صفة الصفوة» أنها كانت إذا سمعت الكلام في المحبة طاشت، وأنها ماتت في مجلس مذكّر تكلم فيها."
+  en: "A devout woman of Basra who served Rabi'a al-Adawiyya; Ibn al-Jawzi's Sifat al-Safwa says she was overwhelmed whenever she heard talk of the love of God, and died in the gathering of a preacher who spoke on it."
+  ur: "بصرہ کی ایک عابدہ جو رابعہ العدویہ کی خدمت کرتی تھیں؛ ابن الجوزی کی «صفۃ الصفوہ» کہتی ہے کہ محبتِ الٰہی کی بات سن کر وہ بے خود ہو جاتیں، اور ایک واعظ کی مجلس میں اسی موضوع پر گفتگو کے دوران وفات پا گئیں۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.710", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

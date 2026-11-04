@@ -1,0 +1,31 @@
+id: person/subaya-bint-al-harith-al-aslamiyya
+class: person
+aliases: [person/subayah-al-aslamiyya]   # the Muwatta stub id now resolves here
+label: { ar: "سبيعة بنت الحارث الأسلمية", en: "Subay'a bint al-Harith al-Aslamiyya", ur: "سبیعہ بنت الحارث اسلمیہ" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "سبيعة بنت الحارث الأسلمية، زوجة سعد بن خولة الذي توفي عنها بمكة، فوضعت بعد وفاته بليال، فقال لها أبو السنابل بن بعكك إن أجلها أربعة أشهر وعشر، فأتت النبي فقال: «قد حللتِ فانكحي من شئت»؛ روى حديثها فقهاء المدينة والكوفة من التابعين، وروى عنها ابن عمر حديث الموت بالمدينة {cite:istiab-alam-2002 p. 912-913}."
+  en: "Subay'a bint al-Harith al-Aslamiyya, wife of Sa'd ibn Khawla, who died at Mecca; she gave birth a few nights after his death, and when Abu al-Sanabil ibn Ba'kak told her that her waiting period was four months and ten days, she went to the Prophet, who said, 'You are free; marry whom you wish'; the jurists of Medina and Kufa among the Successors transmitted her hadith, and Ibn 'Umar narrated from her the hadith on dying in Medina {cite:istiab-alam-2002 p. 912-913}."
+  ur: "سبیعہ بنت الحارث اسلمیہ، سعد بن خولہ کی بیوی جو مکہ میں فوت ہوئے؛ ان کی وفات کے چند راتوں بعد ان کے ہاں ولادت ہوئی، اور جب ابو السنابل بن بعکک نے کہا کہ ان کی عدت چار مہینے دس دن ہے تو وہ نبی کے پاس گئیں، جنہوں نے فرمایا: «تم حلال ہو گئیں، جس سے چاہو نکاح کر لو»؛ مدینہ اور کوفہ کے فقہائے تابعین نے ان کی حدیث روایت کی، اور ابن عمر نے ان سے مدینہ میں موت کی حدیث روایت کی {cite:istiab-alam-2002 p. 912-913}۔"
+wings: [people]
+themes: [women, family-marriage-kinship]
+regions: [arabia]
+periods: [period/prophetic-era]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 3348 ص 912-913", sources: [source/istiab-alam-2002] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: spouse_of, target: person/sad-ibn-khawla, sources: [source/istiab-alam-2002] }
+  - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
+  - { type: related_to, target: concept/iddah, note: "عدة الحامل المتوفى عنها زوجها تنقضي بوضع الحمل في حديثها {cite:istiab-alam-2002 p. 912}", sources: [source/istiab-alam-2002] }
+provenance:
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) pp. 912-913, entry 3348 with the editor's notes"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

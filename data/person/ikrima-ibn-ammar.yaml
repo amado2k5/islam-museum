@@ -1,0 +1,56 @@
+id: person/ikrima-ibn-ammar
+class: person
+label:
+  ar: "عكرمة بن عمار"
+  en: "Ikrima ibn Ammar"
+  ur: "عکرمہ بن عمار"
+names:
+  - { kind: full, lang: ar, value: "عكرمة بن عمار، أبو عمار العجلي اليمامي" }
+  - { kind: kunya, lang: ar, value: "أبو عمار" }
+roles: [scholar]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "عكرمة بن عمار، أبو عمار العجلي اليمامي، محدّث روى عن الهرماس بن زياد الصحابي وعن طاوس وسالم وعطاء ويحيى بن أبي كثير، وعنه يحيى القطان وابن مهدي وأبو الوليد. أخرج له مسلم وأهل السنن. وثّقه ابن معين وعلي بن المديني، وقال أبو حاتم: صدوق ربما يهم، وضعّف القطان وأحمد والبخاري حديثه عن يحيى بن أبي كثير خاصة. ويُذكر أنه كان مستجاب الدعوة، شديداً على القائلين بالقدر {cite:mizan-itidal-bijawi-v3 p. 90-93}."
+  en: "Ikrima ibn Ammar, Abu Ammar al-Ijli of al-Yamama, a hadith transmitter who narrated from the Companion al-Hirmas ibn Ziyad and from Tawus, Salim, Ata and Yahya ibn Abi Kathir; Yahya al-Qattan, Ibn Mahdi and Abu al-Walid narrated from him. Muslim and the Sunan authors included him. Ibn Ma'in and Ali ibn al-Madini judged him trustworthy, Abu Hatim called him truthful but sometimes mistaken, and al-Qattan, Ahmad and al-Bukhari weakened his reports from Yahya ibn Abi Kathir in particular. He is said to have had his prayers answered and to have been fierce against those who held the Qadari doctrine {cite:mizan-itidal-bijawi-v3 p. 90-93}."
+  ur: "عکرمہ بن عمار، ابو عمار عجلی یمامی، محدث جنہوں نے صحابی ہرماس بن زیاد اور طاؤس، سالم، عطا اور یحییٰ بن ابی کثیر سے روایت کی؛ ان سے یحییٰ قطان، ابن مہدی اور ابو الولید نے روایت کی۔ مسلم اور اصحابِ سنن نے ان کی روایت لی۔ ابن معین اور علی بن المدینی نے انہیں ثقہ کہا، ابو حاتم نے صدوق، کبھی وہم کرنے والا، اور قطان، احمد اور بخاری نے خاص طور پر یحییٰ بن ابی کثیر سے ان کی روایات کو ضعیف قرار دیا۔ کہا جاتا ہے کہ وہ مستجاب الدعوات تھے اور قدریہ پر سخت تھے {cite:mizan-itidal-bijawi-v3 p. 90-93}۔"
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+periods: [period/umayyad, period/abbasid-early]
+relations:
+  - { type: student_of, target: person/tawus-ibn-kaysan, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/ata-ibn-abi-rabah, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/yahya-ibn-abi-kathir, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: lived_in, target: place/al-yamama, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: traveled_to, target: place/basra, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: opposed, target: group/qadariyya, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-thiqa
+    standing: main
+    stance: { ar: "ثقة ثبت", en: "Trustworthy and firm" }
+    summary:
+      ar: "يعقوب بن شيبة عن جماعة سمعوا ابن معين: ثقة ثبت؛ وابن معين عند أبي حاتم: كان أمّياً حافظاً؛ وعلي بن المديني: كان عند أصحابنا ثقة ثبتاً؛ والحاكم: أكثر مسلم الاستشهاد به."
+      en: "Ya'qub ibn Shayba, from several who heard Ibn Ma'in: trustworthy and firm; Ibn Ma'in via Abu Hatim: he was unlettered but had a sound memory; Ali ibn al-Madini: among our colleagues he was trustworthy and firm; al-Hakim: Muslim cited him often as corroboration."
+    holders: [person/yahya-ibn-main, person/ali-ibn-al-madini, person/al-hakim-al-nisaburi]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-weak-from-yahya
+    standing: secondary
+    stance: { ar: "صدوق يهم، ضعيف عن يحيى بن أبي كثير", en: "Truthful but errs; weak from Yahya ibn Abi Kathir" }
+    summary:
+      ar: "أبو حاتم: صدوق ربما يهم؛ يحيى القطان: أحاديثه عن يحيى بن أبي كثير ضعيفة؛ أحمد: ضعيف الحديث، وحديثه عن إياس بن سلمة صالح، وأحاديثه عن يحيى ضعاف ليست بصحاح؛ البخاري: لم يكن له كتاب فاضطرب حديثه عن يحيى."
+      en: "Abu Hatim: truthful, sometimes mistaken; Yahya al-Qattan: his hadiths from Yahya ibn Abi Kathir are weak; Ahmad: weak in hadith, though his hadith from Iyas ibn Salama is sound, and those from Yahya are weak, not sound; al-Bukhari: he had no written book, so his hadith from Yahya is confused."
+    holders: [person/abu-hatim-muhammad-al-razi, person/yahya-ibn-said-al-qattan, person/ahmad-ibn-hanbal, person/al-bukhari]
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
+sources: [source/mizan-itidal-bijawi-v3]
+provenance:
+  layer: own-research
+  source: "ميزان الاعتدال للذهبي (البجاوي) ج3 الترجمة 5713، ص 90–93"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

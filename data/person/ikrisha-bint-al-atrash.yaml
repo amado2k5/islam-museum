@@ -1,0 +1,19 @@
+id: person/ikrisha-bint-al-atrash
+class: person
+label: { ar: "عكرشة بنت الأطرش", en: "Ikrisha bint al-Atrash", ur: "عکرشہ بنت الاطرش" }
+gender: female
+roles: [poet]
+summary:
+  ar: "خطيبة من ربات الفصاحة وقوة الحجة، وقفت يوم صفين بين الصفين متقلدة السيف تخطب في جيش علي، ثم دخلت على معاوية تطالب برد صدقات قومها إليهم، فأمر لها برد صدقتها؛ يروي خبرها كحالة عن بلاغات النساء وغيره."
+  en: "An orator of eloquence and forceful argument who stood between the lines at Siffin with a sword slung on her, addressing Ali's army; later she went to Mu'awiya to demand that her people's alms be returned to them, and he ordered her alms restored. Kahhala tells her story from Balaghat al-Nisa' and other works."
+  ur: "فصاحت اور مضبوط دلیل والی ایک خطیبہ جو صفین میں تلوار حمائل کیے صفوں کے بیچ کھڑی ہو کر علی کے لشکر سے خطاب کرتی رہیں؛ بعد میں معاویہ کے پاس اپنی قوم کی زکوٰۃ انہی میں لوٹانے کا مطالبہ لے کر گئیں، اور انہوں نے ان کی زکوٰۃ واپس کرنے کا حکم دیا۔ کحالہ بلاغات النساء وغیرہ سے نقل کرتے ہیں۔"
+wings: [people]
+themes: [women, literature, civil-wars-and-revolts]
+periods: [period/rashidun, period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "وفدت عليه", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: participated_in, target: event/battle-of-siffin, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج3 p.329–330", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+status: { review: published, completeness: 3 }

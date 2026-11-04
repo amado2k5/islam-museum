@@ -1,0 +1,20 @@
+id: person/shawana
+class: person
+label: { ar: "شعوانة", en: "Sha'wana", ur: "شعوانہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة واعظة من الأبلة قرب البصرة، يصفها ابن الجوزي في «صفة الصفوة» بكثرة البكاء ومجالس الوعظ التي كان يشهدها الزهاد؛ زارها الفضيل بن عياض، ووصفت نفسها بأنها أمة سوداء، وحجت مع زوجها."
+  en: "A devout woman preacher of al-Ubulla near Basra, described by Ibn al-Jawzi in Sifat al-Safwa for her weeping and for the gatherings of admonition that ascetics attended; al-Fudayl ibn Iyad visited her, she called herself 'a black slave-woman', and she made the pilgrimage with her husband."
+  ur: "بصرہ کے قریب ابلہ کی ایک عابدہ واعظہ؛ ابن الجوزی «صفۃ الصفوہ» میں ان کے گریہ اور ان وعظ کی مجالس کا ذکر کرتے ہیں جن میں زاہد شریک ہوتے؛ فضیل بن عیاض ان سے ملنے آئے، وہ خود کو «ایک سیاہ فام کنیز» کہتیں، اور اپنے شوہر کے ساتھ حج کیا۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/al-ubulla, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.722–724", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

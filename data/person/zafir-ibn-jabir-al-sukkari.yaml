@@ -1,0 +1,39 @@
+id: person/zafir-ibn-jabir-al-sukkari
+class: person
+label:
+  ar: ظافر بن جابر السكري
+  en: Zafir ibn Jabir al-Sukkari
+  ur: ظافر بن جابر سکری
+names:
+- value: أبو حكيم ظافر بن جابر بن منصور السكري
+  kind: full
+gender: male
+summary:
+  ar: أبو حكيم ظافر بن جابر بن منصور السكري، طبيب من أهل الموصل انتقل إلى حلب فأقام بها إلى آخر عمره، له رسالة في أن الحيوان يموت مع أن الغذاء يخلف عوض ما يتحلل منه، بحسب الزركلي نقلاً عن طبقات الأطباء {cite:alam-zirikli-1927-v2 p. 53} {cite:alam-zirikli-1927-v2 p. 54}.
+  en: Abu Hakim Zafir ibn Jabir ibn Mansur al-Sukkari, a physician of Mosul who moved to Aleppo and stayed there for the rest of his life; he wrote an epistle on why animals die although food replaces what dissolves from them, according to al-Zirikli citing Tabaqat al-Atibba'.
+  ur: ابو حکیم ظافر بن جابر بن منصور سکری، موصل کے ایک طبیب جو حلب منتقل ہو کر آخر عمر تک وہیں رہے؛ انہوں نے اس پر رسالہ لکھا کہ جاندار کیوں مرتا ہے حالانکہ غذا اس کے تحلیل ہونے والے حصے کا بدل فراہم کرتی ہے، زرکلی کے مطابق جو طبقات الاطبا سے نقل کرتے ہیں۔
+roles:
+- physician
+wings:
+- people
+regions:
+- levant-iraq
+relations:
+- type: born_in
+  target: place/mosul
+  sources: &id001
+  - source/alam-zirikli-1927-v2
+- type: lived_in
+  target: place/aleppo
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: alam-zirikli-1927-v2 PDF pp. 53-54
+  generated_by: Claude Code (OCR-harvest worker L)
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Code (OCR-harvest worker L)

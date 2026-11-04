@@ -1,0 +1,32 @@
+id: person/hamza-ibn-amr-al-aslami
+class: person
+label: { ar: "حمزة بن عمرو الأسلمي", en: "Hamza ibn 'Amr al-Aslami", ur: "حمزہ بن عمرو اسلمی" }
+names:
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: kunya, lang: ar, value: "أبو صالح" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "حمزة بن عمرو الأسلمي، من ولد أسلم بن أفصى، يكنى أبا صالح وقيل أبا محمد، معدود في أهل الحجاز، روى عنه أهل المدينة، وكان يسرد الصوم؛ مات سنة 61هـ ابن إحدى وسبعين سنة، وقيل ابن ثمانين {cite:istiab-alam-2002 p. 137}، وبالكنية أبي محمد والوفاة سنة 61 عن إحدى وسبعين يروي الحاكم عن سفيان بن حمزة الأسلمي {cite:mustadrak-ilmiyya-ata-v3 p. 596}."
+  en: "Hamza ibn 'Amr al-Aslami, a descendant of Aslam ibn Afsa, known as Abu Salih or Abu Muhammad, counted among the people of the Hijaz; the people of Medina narrated from him and he used to fast continuously; he died in 61 AH aged seventy-one, or eighty {cite:istiab-alam-2002 p. 137}; al-Hakim reports through Sufyan ibn Hamza al-Aslami the kunya Abu Muhammad and death in 61 at seventy-one {cite:mustadrak-ilmiyya-ata-v3 p. 596}."
+  ur: "حمزہ بن عمرو اسلمی، اسلم بن افصیٰ کی اولاد سے، کنیت ابو صالح یا ابو محمد، اہلِ حجاز میں شمار؛ اہلِ مدینہ نے ان سے روایت کی اور وہ مسلسل روزے رکھتے تھے؛ 61ھ میں اکہتر یا اسی برس کی عمر میں فوت ہوئے {cite:istiab-alam-2002 p. 137}؛ حاکم سفیان بن حمزہ اسلمی کے واسطے سے کنیت ابو محمد اور 61ھ میں اکہتر برس کی عمر میں وفات روایت کرتے ہیں {cite:mustadrak-ilmiyya-ata-v3 p. 596}۔"
+died: { edtf: "0680/0681", hijri: "0061", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة إحدى وستين وهو ابن إحدى وسبعين، ويقال ابن ثمانين {cite:istiab-alam-2002 p. 137} {cite:mustadrak-ilmiyya-ata-v3 p. 596}؛ المقابل الميلادي مشتق.", sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3] }
+wings: [people]
+periods: [period/prophetic-era, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 388 ص 137؛ المستدرك ح 6208-6209", sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
+  - { type: lived_in, target: place/medina, note: "يعد في أهل الحجاز وروى عنه أهل المدينة {cite:istiab-alam-2002 p. 137}", sources: [source/istiab-alam-2002] }
+provenance:
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 137, entry 388; al-Mustadrak (ed. 'Ata) vol. 3 p. 596, h. 6208-6209 with al-Dhahabi's Talkhis"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

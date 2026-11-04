@@ -1,0 +1,20 @@
+id: person/umm-al-khayr-bint-al-huraysh
+class: person
+label: { ar: "أم الخير بنت الحريش البارقية", en: "Umm al-Khayr bint al-Huraysh al-Bariqiyya", ur: "ام الخیر بنت الحریش البارقیہ" }
+gender: female
+roles: [poet]
+summary:
+  ar: "خطيبة من بارق بالكوفة، ناصرت علي بن أبي طالب يوم صفين بخطبة حماسية، ثم أوفدها معاوية إليه فسألها عن كلامها يومئذ وعن عثمان وطلحة والزبير؛ يروي خبرها كحالة في «أعلام النساء» عن بلاغات النساء وغيره."
+  en: "An orator of Bariq at Kufa who supported Ali ibn Abi Talib at Siffin with a rousing speech; Mu'awiya later summoned her and asked her about that speech and about Uthman, Talha and al-Zubayr. Kahhala's A'lam al-Nisa' tells her story from Balaghat al-Nisa' and other works."
+  ur: "کوفہ میں بارق کی ایک خطیبہ جنہوں نے صفین میں ایک ولولہ انگیز خطبے سے علی بن ابی طالب کی حمایت کی؛ بعد میں معاویہ نے انہیں بلوا کر اس خطبے اور عثمان، طلحہ و زبیر کے بارے میں سوال کیے۔ کحالہ کی «اعلام النساء» بلاغات النساء وغیرہ سے ان کا واقعہ نقل کرتی ہے۔"
+wings: [people]
+themes: [women, literature, civil-wars-and-revolts]
+periods: [period/rashidun, period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "وفدت عليه", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: participated_in, target: event/battle-of-siffin, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج1 p.393–396", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: published, completeness: 3 }

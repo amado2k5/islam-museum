@@ -1,0 +1,18 @@
+id: person/al-khirniq-bint-haffan
+class: person
+label: { ar: "الخرنق بنت هفان", en: "al-Khirniq bint Haffan", ur: "الخرنق بنت ہفان" }
+gender: female
+roles: [poet]
+summary:
+  ar: "شاعرة جاهلية من بني قيس بن ثعلبة، أخت طرفة بن العبد لأمه، أكثر شعرها في رثاء أخيها طرفة وزوجها عمرو بن مرثد وابنها علقمة الذين قتلوا يوم قلاب؛ يترجم لها كحالة في «أعلام النساء»."
+  en: "A pre-Islamic poet of Qays ibn Tha'laba, maternal half-sister of Tarafa ibn al-Abd, whose verse is mostly elegy for Tarafa and for her husband Amr ibn Marthad and son Alqama, killed on the Day of Qulab; Kahhala includes her in A'lam al-Nisa'."
+  ur: "قیس بن ثعلبہ کی ایک جاہلی شاعرہ، طرفہ بن العبد کی ماں جائی بہن، جن کے زیادہ تر اشعار طرفہ اور اپنے شوہر عمرو بن مرثد اور بیٹے علقمہ کے مرثیے ہیں جو یومِ قلاب میں مارے گئے؛ کحالہ «اعلام النساء» میں ان کا ترجمہ دیتے ہیں۔"
+wings: [people]
+themes: [women, literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: sibling_of, target: person/tarafa-ibn-al-abd, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج1 p.352–354", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: published, completeness: 3 }

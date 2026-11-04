@@ -1,32 +1,43 @@
 id: person/ibn-al-arabi-ahmad
 class: person
-label: { ar: "ابن الأعرابي أحمد بن محمد", en: "Ibn al-A'rabi, Ahmad ibn Muhammad" }
+label: { ar: "ابن الأعرابي أحمد بن محمد", en: "Ibn al-A'rabi, Ahmad ibn Muhammad", ur: "ابن الاعرابی احمد بن محمد" }
 names:
-  - { kind: full, lang: ar, value: "أحمد بن محمد بن زياد بن بشر بن درهم أبو سعيد الأعرابي" }
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن زياد بن بشر بن درهم، أبو سعيد بن الأعرابي العنزي البصري، نزيل مكة" }
+  - { kind: kunya, lang: ar, value: "أبو سعيد" }
 gender: male
 roles: [muhaddith, historian, mystic]
 traditions: [sunni]
-born: { edtf: "0861", hijri: "0246", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "0952", hijri: "0340", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "0860/0861", hijri: "0246", calendar: julian, precision: year, status: tradition, derived: true, note: "الموسوعة: 246 {cite:mawsuat-a3lam-ulama-adaba p.153}؛ وينقل محقق تاريخ دمشق عن سير أعلام النبلاء: ولد سنة نيّف وأربعين ومائتين {cite:tarikh-dimashq-amrawi-v5 p. 356-357}.", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-dimashq-amrawi-v5] }
+died: { edtf: "0951/0953", hijri: "0340", calendar: julian, precision: year, status: debated, derived: true, note: "السلمي: سنة 341 أو 340؛ القشيري: 341 بمكة؛ إسحاق بن إبراهيم الهروي: 340 {cite:tarikh-dimashq-amrawi-v5 p. 355-357}؛ وينقل المحقق عن السير: مات بمكة في ذي القعدة سنة 340 وله أربع وتسعون سنة وأشهر {cite:tarikh-dimashq-amrawi-v5 p. 357}؛ والموسوعة: 340 {cite:mawsuat-a3lam-ulama-adaba p.153}. المدى المشتق يغطي 340–341.", sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba] }
 summary:
-  ar: "إمام محدّث حافظ ومؤرخ وزاهد وصوفي من أهل البصرة، من العلماء بالحديث والطبقات."
-  en: "A hadith scholar, memorizer, historian and ascetic Sufi from Basra, learned in hadith and biographical classes."
+  ar: "أبو سعيد أحمد بن محمد بن زياد بن الأعرابي، بصري الأصل نزل مكة وكان شيخ الحرم في وقته، صحب الجنيد وعمرو بن عثمان المكي والنوري، وسمع بدمشق والرملة ومصر وبغداد، وروى عنه ابن خفيف وابن المقرئ وابن منده. وثّقه السلمي والخليلي، وصنّف للصوفية كتباً، ومال إلى مذهب أصحاب الحديث والظاهر. توفي بمكة سنة 340 أو 341هـ {cite:tarikh-dimashq-amrawi-v5 p. 353-357} {cite:mawsuat-a3lam-ulama-adaba p.153}."
+  en: "Abu Sa'id Ahmad ibn Muhammad ibn Ziyad ibn al-A'rabi, of Basran origin, settled in Mecca and was the shaykh of the Sanctuary in his day; he kept company with al-Junayd, Amr ibn Uthman al-Makki and al-Nuri, heard hadith in Damascus, Ramla, Egypt and Baghdad, and Ibn Khafif, Ibn al-Muqri' and Ibn Manda narrated from him. Al-Sulami and al-Khalili called him trustworthy; he wrote books for the Sufis and inclined to the school of the hadith scholars and the Zahiris. He died in Mecca in 340 or 341 AH {cite:tarikh-dimashq-amrawi-v5 p. 353-357} {cite:mawsuat-a3lam-ulama-adaba p.153}."
+  ur: "ابو سعید احمد بن محمد بن زیاد بن الاعرابی، اصلاً بصری، مکہ میں آباد ہوئے اور اپنے زمانے میں حرم کے شیخ تھے؛ جنید، عمرو بن عثمان مکی اور نوری کی صحبت پائی، دمشق، رملہ، مصر اور بغداد میں حدیث سنی، اور ان سے ابن خفیف، ابن المقرئ اور ابن مندہ نے روایت کی۔ سلمی اور خلیلی نے انہیں ثقہ کہا؛ انہوں نے صوفیہ کے لیے کتابیں لکھیں اور اصحابِ حدیث و ظاہر کے مذہب کی طرف مائل تھے۔ مکہ میں 340 یا 341ھ میں فوت ہوئے {cite:tarikh-dimashq-amrawi-v5 p. 353-357} {cite:mawsuat-a3lam-ulama-adaba p.153}۔"
 wings: [people]
 themes: [scripture-and-its-sciences, spirituality-and-sufism]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: student_of, target: person/al-junayd-ibn-muhammad, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: student_of, target: person/amr-ibn-uthman-al-makki, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: student_of, target: person/abu-al-husayn-al-nuri, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: student_of, target: person/al-hasan-ibn-muhammad-al-zafarani, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: lived_in, target: place/basra, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: lived_in, target: place/mecca, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: died_in, target: place/mecca, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: traveled_to, target: place/damascus, sources: [source/tarikh-dimashq-amrawi-v5] }
+sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص153"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch57
+  source: "تاريخ مدينة دمشق لابن عساكر، تحقيق العمروي، المجلد الخامس، الترجمة 144، ص 353–357؛ وموسوعة أعلام العلماء والأدباء ج2 ص153 (من سجل Devin السابق)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 occupations:
   - job: job/muhaddith
     kind: secondary

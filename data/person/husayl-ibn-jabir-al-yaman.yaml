@@ -1,0 +1,32 @@
+id: person/husayl-ibn-jabir-al-yaman
+class: person
+label: { ar: "حسيل بن جابر اليمان", en: "Husayl ibn Jabir al-Yaman", ur: "حسیل بن جابر الیمان" }
+names:
+  - { kind: full, lang: ar, value: "حسيل بن جابر العبسي القطعي" }
+  - { kind: laqab, lang: ar, value: "اليمان" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "حسيل (ويقال حِسْل) بن جابر العبسي، المعروف باليمان، والد حذيفة بن اليمان، حليف بني عبد الأشهل؛ شهد أحداً مع ابنيه حذيفة وصفوان، فقتله المسلمون في المعركة خطأً يظنونه من المشركين وحذيفة يصيح: أبي أبي، فتصدّق حذيفة بديته على المسلمين {cite:istiab-alam-2002 p. 178} {cite:rawd-unuf-wakil-v6 p. 10-11}."
+  en: "Husayl (or Hisl) ibn Jabir al-'Absi, known as al-Yaman, father of Hudhayfa ibn al-Yaman and an ally of Banu 'Abd al-Ashhal; he fought at Uhud with his sons Hudhayfa and Safwan, and was killed there in error by Muslims who took him for one of the enemy while Hudhayfa cried 'My father, my father!'; Hudhayfa gave the blood-money as alms to the Muslims {cite:istiab-alam-2002 p. 178} {cite:rawd-unuf-wakil-v6 p. 10-11}."
+  ur: "حسیل (یا حِسل) بن جابر عبسی، جو الیمان کے نام سے معروف ہیں، حذیفہ بن الیمان کے والد اور بنو عبد الاشہل کے حلیف؛ وہ اپنے بیٹوں حذیفہ اور صفوان کے ساتھ احد میں شریک ہوئے، اور وہاں مسلمانوں نے انہیں دشمن سمجھ کر غلطی سے قتل کر دیا جبکہ حذیفہ پکار رہے تھے: «میرے والد، میرے والد!»؛ حذیفہ نے دیت مسلمانوں پر صدقہ کر دی {cite:istiab-alam-2002 p. 178} {cite:rawd-unuf-wakil-v6 p. 10-11}۔"
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل يوم أحد {cite:istiab-alam-2002 p. 178}؛ السنة مشتقة من تاريخ الغزوة.", sources: [source/istiab-alam-2002] }
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 564 ص 178؛ السيرة والروض ج6 ص 10-11، 34", sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: participated_in, target: event/battle-of-uhud, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
+  - { type: allied_with, target: group/banu-abd-al-ashhal, note: "حالفهم بالمدينة {cite:istiab-alam-2002 p. 178}", sources: [source/istiab-alam-2002] }
+provenance:
+  layer: own-research
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 178, entry 564; al-Rawd al-Unuf ed. al-Wakil vol. 6 printed pp. 10-11 (Ibn Ishaq's text) and 34 (al-Suhayli)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

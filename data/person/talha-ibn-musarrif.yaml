@@ -1,0 +1,38 @@
+id: person/talha-ibn-musarrif
+class: person
+label:
+  ar: طلحة بن مصرف اليامي
+  en: Talha ibn Musarrif al-Yami
+  ur: طلحہ بن مصرف یامی
+names:
+- value: طلحة بن مصرف بن عمرو الهمداني اليامي الكوفي
+  kind: full
+gender: male
+summary:
+  ar: طلحة بن مصرف بن عمرو الهمداني اليامي الكوفي، أقرأ أهل الكوفة في عصره، كان يسمى «سيد القراء»، وهو من رجال الحديث الثقات، بحسب الزركلي {cite:alam-zirikli-1927-v2 p. 51}.
+  en: Talha ibn Musarrif ibn Amr al-Hamdani al-Yami of Kufa, the best reciter of Kufa in his day, called "the master of the reciters", and one of the trustworthy transmitters of hadith, according to al-Zirikli.
+  ur: طلحہ بن مصرف بن عمرو ہمدانی یامی کوفی، اپنے زمانے میں اہلِ کوفہ کے سب سے بڑے قاری، جنہیں «سید القراء» کہا جاتا، اور حدیث کے ثقہ راویوں میں سے، زرکلی کے مطابق۔
+roles:
+- scholar
+wings:
+- people
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+relations:
+- type: lived_in
+  target: place/kufa
+  sources: &id001
+  - source/alam-zirikli-1927-v2
+sources: *id001
+provenance:
+  layer: own-research
+  source: alam-zirikli-1927-v2 PDF p. 51
+  generated_by: Claude Code (OCR-harvest worker L)
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Code (OCR-harvest worker L)

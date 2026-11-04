@@ -1,0 +1,25 @@
+id: person/quzman
+class: person
+label: { ar: "قزمان حليف بني ظفر", en: "Quzman, ally of Banu Zafar", ur: "قزمان، بنو ظفر کے حلیف" }
+gender: male
+roles: [military]
+summary:
+  ar: "قزمان، رجل غريب حليف لبني ظفر لا يُدرى ممن هو، كان النبي يقول إذا ذُكر له: إنه لمن أهل النار؛ فقاتل يوم أحد قتالاً شديداً وقتل وحده ثمانية أو سبعة من المشركين، ثم لما اشتدت جراحته قتل نفسه بسهم من كنانته، بعد أن قال إنه إنما قاتل عن أحساب قومه، كما يروي ابن إسحاق عن عاصم بن عمر بن قتادة {cite:rawd-unuf-wakil-v6 p. 12}."
+  en: "Quzman, a stranger of unknown origin allied to Banu Zafar, of whom the Prophet would say, when he was mentioned, 'He is one of the people of the Fire'; at Uhud he fought fiercely and killed eight or seven of the enemy single-handed, then, when his wounds grew severe, killed himself with an arrow from his quiver, having said that he fought only for the honour of his people — as Ibn Ishaq relates from 'Asim ibn 'Umar ibn Qatada {cite:rawd-unuf-wakil-v6 p. 12}."
+  ur: "قزمان، ایک اجنبی جس کی اصل معلوم نہ تھی اور جو بنو ظفر کا حلیف تھا؛ جب اس کا ذکر ہوتا تو نبی فرماتے: «وہ اہلِ نار میں سے ہے»؛ احد کے دن اس نے سخت لڑائی کی اور اکیلے آٹھ یا سات مشرکوں کو قتل کیا، پھر جب زخم شدید ہوئے تو اپنے ترکش کے ایک تیر سے خود کو مار ڈالا، اس سے پہلے یہ کہہ کر کہ وہ صرف اپنی قوم کی عزت کے لیے لڑا — جیسا کہ ابن اسحاق عاصم بن عمر بن قتادہ سے روایت کرتے ہیں {cite:rawd-unuf-wakil-v6 p. 12}۔"
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "مات يوم أحد {cite:rawd-unuf-wakil-v6 p. 12}؛ السنة مشتقة من تاريخ الغزوة.", sources: [source/rawd-unuf-wakil-v6] }
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+relations:
+  - { type: participated_in, target: event/battle-of-uhud, role: "في صف المسلمين", sources: [source/rawd-unuf-wakil-v6] }
+  - { type: allied_with, target: group/banu-zafar-al-aws, sources: [source/rawd-unuf-wakil-v6] }
+provenance:
+  layer: own-research
+  source: "al-Rawd al-Unuf ed. al-Wakil vol. 6 printed pp. 12 (Ibn Ishaq via Ibn Hisham) and 36 (al-Suhayli)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/rawd-unuf-wakil-v6]
+sensitivity: contested
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

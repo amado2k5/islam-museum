@@ -1,0 +1,24 @@
+id: person/taqiyya-bint-ghayth-al-armanaziyya
+class: person
+label: { ar: "تقية بنت غيث الأرمنازية الصورية", en: "Taqiyya bint Ghayth al-Armanaziyya", ur: "تقیہ بنت غیث الارمنازیہ" }
+gender: female
+roles: [poet, scholar]
+summary:
+  ar: "شاعرة ومحدثة من صور (505–579هـ)، صحبت الحافظ أبا طاهر السلفي بالإسكندرية فأثنى عليها، ولها ديوان صغير؛ يروي ابن خلكان عن المنذري خبر قصيدتيها في الملك المظفر تقي الدين عمر، كما ينقله كحالة في «أعلام النساء»."
+  en: "A poet and hadith transmitter from Tyre (505–579 AH) who kept company with the hafiz Abu Tahir al-Silafi at Alexandria, who praised her; she left a small diwan. Ibn Khallikan, from al-Mundhiri, tells of her two poems for al-Malik al-Muzaffar Taqi al-Din Umar, as Kahhala relates in A'lam al-Nisa'."
+  ur: "صور کی ایک شاعرہ اور محدثہ (505–579ھ) جنہوں نے اسکندریہ میں حافظ ابو طاہر السلفی کی صحبت پائی اور انہوں نے ان کی تعریف کی؛ ان کا ایک چھوٹا دیوان تھا۔ ابن خلکان، منذری سے، الملک المظفر تقی الدین عمر کے لیے ان کے دو قصیدوں کا واقعہ بیان کرتے ہیں، جیسا کہ کحالہ «اعلام النساء» میں نقل کرتے ہیں۔"
+born: { edtf: "1111", hijri: "0505", calendar: julian, precision: year, status: tradition, derived: true, note: "ولدت في صفر سنة 505هـ، وقيل في المحرم {cite:alam-al-nisa-kahhala-risala-1984-v1 p.178}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+died: { edtf: "1184", hijri: "0579", calendar: julian, precision: year, status: tradition, derived: true, note: "توفيت بالإسكندرية في أوائل شوال سنة 579هـ {cite:alam-al-nisa-kahhala-risala-1984-v1 p.179}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+wings: [people]
+themes: [women, literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - { value: sunni, basis: tradition, note: "تذكرها كتب التراجم التي ينقل عنها كحالة بين المحدثات؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+relations:
+  - { type: born_in, target: place/sur-lubnan, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: died_in, target: place/alexandria, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: student_of, target: person/al-silafi, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج1 p.178–179", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: published, completeness: 3 }

@@ -1,0 +1,27 @@
+id: work/al-minah-al-qudsiyya
+class: work
+kind: book
+label: { ar: "المنح القدسية على الحكم العطائية", en: "Al-Minah al-Qudsiyya 'ala al-Hikam al-'Ata'iyya", ur: "المنح القدسیہ علی الحکم العطائیہ" }
+summary:
+  ar: "شرح عبد الله بن حجازي الشرقاوي الخلوتي (ت 1227هـ) على حكم ابن عطاء الله، يصفه في أوله بأنه «تقييدات لطيفة» على الحكم التي يغلب عليها خطاب المريدين، وأتمه يوم السبت 13 شوال 1204هـ؛ ويقول هيكل إنه يكاد يكون تلخيصاً لشرح ابن عباد الرندي {cite:minah-qudsiyya-sharqawi-ilmiyya p. 2} {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}."
+  en: "The commentary of 'Abd Allah ibn Hijazi al-Sharqawi al-Khalwati (d. 1227 AH) on the Hikam of Ibn 'Ata' Allah, which he calls at its start 'subtle annotations' on maxims mostly addressed to disciples, completed on Saturday 13 Shawwal 1204 AH; Haykal says it is almost a summary of Ibn 'Abbad al-Rundi's commentary {cite:minah-qudsiyya-sharqawi-ilmiyya p. 2} {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}."
+  ur: "عبد اللہ بن حجازی شرقاوی خلوتی (م 1227ھ) کی ابن عطاء اللہ کے حکم پر شرح، جسے وہ آغاز میں ان حکم پر «لطیف تقییدات» کہتے ہیں جن میں زیادہ تر مریدوں سے خطاب ہے، اور جو ہفتہ 13 شوال 1204ھ کو مکمل ہوئی؛ ہیکل کہتے ہیں کہ یہ تقریباً ابن عباد رندی کی شرح کا خلاصہ ہے {cite:minah-qudsiyya-sharqawi-ilmiyya p. 2} {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}۔"
+language: language/arabic
+authors: [person/abd-allah-al-sharqawi]
+genre: [tasawwuf, sharh]
+wings: [words, ideas]
+themes: [spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+composed: { edtf: "1790", hijri: "1204-10-13", calendar: gregorian, precision: year, status: tradition, derived: true, sources: [source/minah-qudsiyya-sharqawi-ilmiyya], note: "completed Saturday 13 Shawwal 1204 AH {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176}; Gregorian year derived." }
+relations:
+  - { type: commentary_on, target: work/hikam-al-ataiyya, sources: [source/minah-qudsiyya-sharqawi-ilmiyya] }
+  - { type: relies_on, target: work/ghayth-al-mawahib-al-aliyya, sources: [source/hikam-ibn-abbad-haykal-ahram-1988] }
+provenance:
+  layer: own-research
+  source: "المنح القدسية، ط. دار الكتب العلمية، ص 1-2 و176؛ وهيكل، الحكم العطائية بشرح ابن عباد (1988) ص 36"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/minah-qudsiyya-sharqawi-ilmiyya, source/hikam-ibn-abbad-haykal-ahram-1988]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

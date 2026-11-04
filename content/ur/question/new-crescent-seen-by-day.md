@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 326-327; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 326-327; translated from the Arabic page", enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: Zahiri perspective and section from muhalla-dar-ibn-hazm-2016-v6 PDF pp. 294-295" }
 ---
 ## موجز
 «[[work/bidayat-al-mujtahid|بدایۃ المجتہد]]» کی کتاب الصیام میں [[person/ibn-rushd|ابن رشد]] ہلال دیکھنے کے وقت کے اعتبار میں فقہا کا اختلاف بیان کرتے ہیں: سب کا اتفاق ہے کہ اگر شام کو دیکھا جائے تو مہینہ اگلے دن سے ہے، اور اختلاف اس میں ہے کہ دن کے کسی اور وقت پہلی بار دیکھا جائے۔ {cite:bidaya-bakri-bayt-al-afkar p. 326}
@@ -22,6 +22,12 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## قریبی مسئلہ: جب ہلال بادل میں چھپ جائے
 اس سے پہلے ابن رشد بیان کرتے ہیں کہ جمہور نے حدیث «اگر بادل ہو تو اس کا اندازہ کرو» کو ابن عباس کی مفسر حدیث کی بنا پر تیس دن پورے کرنے پر محمول کیا؛ کہ بعض سلف کے نزدیک چاند اور سورج کی رفتار کے حساب کی طرف رجوع کیا جائے، اور یہ [[person/mutarrif-ibn-al-shikhkhir|مطرف بن الشخیر]] کا مذہب ہے؛ کہ [[person/ahmad-ibn-umar-ibn-surayj|ابن سریج]] نے شافعی سے نقل کیا کہ جس کا طریقہ ستاروں اور منازلِ قمر سے استدلال ہو اور اسے معلوم ہو کہ بادل کے باوجود ہلال قابلِ رؤیت ہے تو وہ روزہ رکھ سکتا ہے اور کافی ہے؛ اور [[person/abdullah-ibn-umar|ابن عمر]] یومِ شک کا روزہ رکھتے تھے۔ {cite:bidaya-bakri-bayt-al-afkar p. 326} ابن رشد کے نزدیک یہاں جمہور کا مذہب «واضح» ہے، کیونکہ مجمل کو مفسر پر محمول کیا جاتا ہے۔ {cite:bidaya-bakri-bayt-al-afkar p. 326}
+
+## «المحلی» میں ابن حزم ظاہری کی رائے
+
+[[work/al-muhalla-ibn-hazm|المحلی]] کی کتاب الصیام میں [[person/ibn-hazm|ابن حزم]] کہتے ہیں کہ چاند زوال سے پہلے دیکھا جائے تو گزشتہ رات کا ہے، چنانچہ رمضان کا آغاز ہو تو لوگ اسی وقت سے باقی دن روزہ رکھیں اور آخر ہو تو افطار کر لیں، اور زوال کے بعد دیکھا جائے تو آنے والی رات کا ہے۔ {cite:muhalla-dar-ibn-hazm-2016-v6 p.294} ان کی دلیل نبی کا قول «اسے دیکھ کر روزہ رکھو اور اسے دیکھ کر افطار کرو» ہے: زوال کے بعد کی رؤیت یقینی اجماع سے اس کے ظاہر سے خارج ہے، اس لیے روزہ اگلے دن ہی سے واجب ہوتا ہے، اور زوال سے پہلے کی رؤیت اختلاف کی وجہ سے حدیث کے الفاظ کے تحت باقی رہتی ہے، تو نص کی طرف رجوع واجب ہے؛ وہ مزید کہتے ہیں کہ زوال سے پہلے چاند دیکھنے والا اسے اس حال میں دیکھتا ہے کہ سورج اس کے اور چاند کے درمیان ہوتا ہے، اور یہ اسی وقت ممکن ہے جب وہ گزشتہ شام نکل کر سورج سے کافی دور ہو چکا ہو۔ {cite:muhalla-dar-ibn-hazm-2016-v6 p.294}
+
+وہ [[person/ibrahim-al-nakhai|ابراہیم نخعی]] سے روایت کرتے ہیں کہ [[person/umar-ibn-al-khattab|عمر بن الخطاب]] نے لوگوں کو لکھا: اگر تم اسے زوال سے پہلے دیکھو تو افطار کر لو اور زوال کے بعد دیکھو تو افطار نہ کرو، اور [[person/sufyan-al-thawri|سفیان ثوری]] اسی کے قائل تھے؛ [[person/ali-ibn-abi-talib|علی]] سے بھی اسی طرح، اس توجیہ کے ساتھ کہ سورج اس سے ہٹ جاتا ہے؛ اور ربیع سے کہ انہوں نے بلنجر میں [[person/salman-ibn-rabi-a|سلمان بن ربیعہ باہلی]] کے ساتھ چاشت کے وقت چاند دیکھا تو سلمان نے لوگوں کو افطار کا حکم دیا۔ {cite:muhalla-dar-ibn-hazm-2016-v6 p.294} {cite:muhalla-dar-ibn-hazm-2016-v6 p.295} وہ بتاتے ہیں کہ [[person/abd-al-malik-ibn-habib|عبد الملک بن حبیب اندلسی]] اور [[person/muhammad-ibn-dawud-al-zahiri|ابو بکر بن داؤد]] اسی کے قائل ہیں، اور اس اعتراض کا کہ عمر سے اس کے خلاف بھی مروی ہے، یہ جواب دیتے ہیں کہ جب تنازع ثابت ہو تو قرآن و سنت کی طرف رجوع واجب ہے۔ {cite:muhalla-dar-ibn-hazm-2016-v6 p.295}
 
 ## جو یہاں ذکر نہیں ہوا
 جدید فلکیات اور رؤیت کا معاصر فلکی حساب یہاں نہیں دیا گیا؛ صفحہ صرف ابن رشد کے بیان تک محدود ہے۔

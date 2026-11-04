@@ -1,0 +1,20 @@
+id: person/miskina-al-tufawiyya
+class: person
+label: { ar: "مسكينة الطفاوية", en: "Miskina al-Tufawiyya", ur: "مسکینہ الطفاویہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة كانت تواظب على حلق الذكر وتنحدر إلى الأبلة لمجلس عيسى بن زاذان؛ يروي ابن الجوزي في «صفة الصفوة» رؤيا عمار الراهب لها بعد موتها."
+  en: "A devout woman of Basra who kept to circles of remembrance and travelled down to al-Ubulla for the gathering of Isa ibn Zadhan; Ibn al-Jawzi's Sifat al-Safwa records Ammar al-Rahib's dream of her after her death."
+  ur: "بصرہ کی ایک عابدہ جو ذکر کے حلقوں میں باقاعدگی سے جاتیں اور عیسیٰ بن زاذان کی مجلس کے لیے ابلہ جاتیں؛ ابن الجوزی کی «صفۃ الصفوہ» میں ان کی وفات کے بعد عمار راہب کا خواب مذکور ہے۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.716", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
