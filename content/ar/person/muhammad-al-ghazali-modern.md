@@ -3,6 +3,7 @@ id: person/muhammad-al-ghazali-modern
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "khutab-al-ghazali-dar-al-itisam-vol1 pp. 11–15, 24 (section added; earlier text by its original authors)" }
 ---
 ## موجز
 الشيخ محمد الغزالي كاتب إسلامي معاصر، ألّف كتاب «الإسلام والمناهج الاشتراكية». يذكر تقديم الطبعة أنه كتبه سنة 1947 تكملة لكتابه السابق «الإسلام والأوضاع الاقتصادية». {cite:islam-wal-manahij-nahdat-misr-2005 p.2} {cite:islam-wal-manahij-nahdat-misr-2005 p.5}
@@ -29,3 +30,6 @@ translators: []
 ويقول إن السارق فتح المحفظة فوجد فيها بطاقة الهوية، فرماها (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:38:00}.
 
 ويقول إن عشرة جنيهات كانت مطوية في جيب سري لم يجدها السارق، فرمى المحفظة في عجلة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:38:30}.
+
+## بقلمه، في مقدمة «خطب الشيخ محمد الغزالي»
+في فصل كتبه عن نفسه في المجلد الأول من [[work/khutab-muhammad-al-ghazali|«خطب الشيخ محمد الغزالي في شؤون الدين والحياة»]] يقول إنه وُلد سنة 1336هـ/1917م. نشأ أكبر إخوة سبعة لأب تاجر حفّظه القرآن، وانتقل به من قرية «نكلا العنب» بالبحيرة إلى الإسكندرية ليلتحق بالأزهر وهو ابن عشر سنين. {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 13} وتخرّج في الأزهر سنة 1360هـ/1941م، ومنذ ذلك الحين يعمل في الدعوة والتدريس. ويصف «مدرسته الخاصة» بالإفادة من جميع الاتجاهات الفكرية والمذاهب الفقهية ومن العلوم الإنسانية الحديثة مع فقه الكتاب والسنة. {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 15} وكان يخطب الجمعة في جامع عمرو بن العاص بالقاهرة، وجُمعت خطبه من الأشرطة المسجلة. {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 11-12} {cite:khutab-al-ghazali-dar-al-itisam-vol1 p. 24}

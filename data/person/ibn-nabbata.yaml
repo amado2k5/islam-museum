@@ -1,17 +1,29 @@
 id: person/ibn-nabbata
 class: person
-label: { ar: "عبد الرحيم بن نباتة خطيب الخطباء", en: "Ibn Nabbata al-Fariqi" }
-died: { edtf: "0984~", hijri: "0374", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة أربع وسبعين وثلاثمائة وقيل عمره دون الأربعين {cite:shadharat-dhahab p. 83-84}." }
+label: { ar: "عبد الرحيم بن نباتة خطيب الخطباء", en: "Ibn Nubata al-Fariqi, 'preacher of preachers'", ur: "ابن نباتہ فارقی، خطیب الخطباء" }
+names:
+  - { kind: full, lang: ar, value: "أبو يحيى عبد الرحيم بن محمد بن إسماعيل بن نباتة الفارقي الحذاقي" }
+  - { kind: laqab, lang: ar, value: "خطيب الخطباء" }
+born: { edtf: "0946~", hijri: "0335", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 335هـ عند ابن الأزرق الفارقي في تاريخه، كما ينقل شارح الديوان (ص 15 من المسح)؛ المقابل الميلادي محسوب", sources: [source/diwan-khutab-ibn-nubata-beirut-1319] }
+died: { edtf: "0984~", hijri: "0374", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة أربع وسبعين وثلاثمائة وقيل عمره دون الأربعين {cite:shadharat-dhahab p. 83-84}. وعند ابن الأزرق: توفي سنة 374هـ بميافارقين ودفن بها، ص 15 من مسح الديوان.", sources: [source/shadharat-dhahab, source/diwan-khutab-ibn-nubata-beirut-1319] }
 summary:
   ar: "أبو يحيى بن نباتة خطيب الخطباء عبد الرحيم بن محمد بن إسماعيل بن نباتة الفارقي اللخمي العسقلاني المولد المصري الدار؛ ولي خطابة حلب لسيف الدولة وفي خطبه دلالة على قوة علمه وسعته وقوة قريحته، وأجمعوا أنه ما عمل مثل خطبه قط، وهو الذي حثّ سيف الدولة بخطبه في الجهاد على التوسع فيه، وسمع على المتنبي بعض ديوانه؛ ومولده وموته ميا فارقين {cite:shadharat-dhahab p. 83-84}."
   en: "Abu Yahya Ibn Nabbata al-Fariqi (d. 374, before forty) — 'preacher of preachers', Sayf al-Dawla's khatib at Aleppo whose sermons on jihad were said to be unmatched; he heard part of al-Mutanabbi's diwan {cite:shadharat-dhahab p. 83-84}."
 gender: male
 wings: [people]
-periods: [period/abbasid-early]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+  - { type: born_in, target: place/mayyafariqin, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mayyafariqin, sources: [source/shadharat-dhahab, source/diwan-khutab-ibn-nubata-beirut-1319] }
+  - { type: traveled_to, target: place/aleppo, sources: [source/diwan-khutab-ibn-nubata-beirut-1319], note: "كان خطيب حلب في خدمة سيف الدولة" }
+  - { type: related_to, target: person/sayf-al-dawla, sources: [source/diwan-khutab-ibn-nubata-beirut-1319] }
+  - { type: related_to, target: person/al-mutanabbi, sources: [source/diwan-khutab-ibn-nubata-beirut-1319], note: "اجتمع به في خدمة سيف الدولة وقيل سمع عليه بعض ديوانه" }
+  - { type: authored, target: work/diwan-khutab-ibn-nubata, sources: [source/diwan-khutab-ibn-nubata-beirut-1319] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-88
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: "lib-shadharat-batch-88; ocr-harvest-2026-11-04 (enrichment from the 1319 AH Diwan, Claude Code OCR-harvest worker K, claude-opus-5-5)"
+sources: [source/shadharat-dhahab, source/diwan-khutab-ibn-nubata-beirut-1319]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker K)" }
