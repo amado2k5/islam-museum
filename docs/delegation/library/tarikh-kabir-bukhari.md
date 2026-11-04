@@ -15,3 +15,7 @@
 
 ## Next
 Entries of the Hyderabad parts for transmitters the museum lacks; al-Bukhari's own critical terms as a concept page.
+
+## Second pass (worker F, run 3)
+- Item AAlexandrina-149193 = Hyderabad ed. vol. 3 part 1 (عبد الله → عبيد بن علي), 1st ed. 1377/1958, Da'irat al-Ma'arif al-Uthmaniyya, new series 1/13, from the unique Ahmed III MS 2969. New `source/tarikh-kabir-hyderabad-3-1`. **Printed = PDF − 11** (checked PDF 69/100/300).
+- Entry 133 (pp. 58–59): new `person/abu-muslim-al-khawlani` (trio), combined with Ahmad's al-Zuhd (source/zuhd-ahmad-dkim-1983, PDF pp. 471–474), Ibn al-Salah (Itr) pp. 303–304 and Tadrib vol. 5 p. 253 (mukhadram).
