@@ -506,3 +506,9 @@ Promoted: abdullah-ibn-muflih, abu-faris-hafsi, ahmad-al-asyuti, ahmad-ibn-shah-
 Promoted: abd-al-halim-al-manzilawi, abd-al-haqq-al-sunbati, abd-allah-al-majdhub-egypt, abu-al-nur-al-tunisi, ahmad-al-hisami, ahmad-al-manufi, ahmad-pasha-ibn-khidr-beg, burhan-al-hasib, ibn-al-kiyal, ibn-kamal-pasha, ibrahim-al-ajami-tabrizi, ibrahim-al-biqai-sufi, ibrahim-al-majdhub-abu-lahaf, ibrahim-ibn-abi-al-wafa, idris-ibn-husam-al-din, janbardi-al-ghazali, karim-al-jabari, muhyi-ibn-fanari, muzaffar-shah-gujarat, shihab-ibn-ulayf, taqi-al-din-al-balatinsi, taqi-ibn-qadi-ajlun, zayn-al-din-al-dashtuti.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1348.** sweep continues through remaining trilingual drafts.
+
+### Batch 74 (4 Nov 2026, 23 records) — lib-shadharat-batch-142 draft promotions (sweep worker)
+
+Promoted: abd-al-munim-ibn-muflih, abd-al-wahhab-ibn-dawud-yemen, abu-ali-husayn-nammusi, abu-sad-ibn-barakat-makki, al-ilahi-simawi, al-mutawakkil-uthman-maghrib, al-saadi-shihab-hanbali, al-sayyid-ahmad-shirazi, al-ubshithi-sulayman, badr-al-din-al-saadi, hajji-khalifa-abdallah, ibn-abi-al-wafa, ibn-al-hayyim-qaim, ibn-al-shihna-shams, ibn-qadi-nablus-kamal, ibn-ruslan-bulqini, ibn-wafa-mustafa, ibn-zuhayra-burhan, ibn-zurayq-nasir, khawaja-zada, molla-sinan-al-din-yusuf, shaykh-midin-ashmuni, yaqub-beg-aq-qoyunlu.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1371.** sweep continues through remaining trilingual drafts.
