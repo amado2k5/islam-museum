@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 5-6, 221-223; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 5-6, 221-223; mustasfa-tijariyya-1356-v1 PDF p. 144; translated from the Arabic page" }
 ---
 ## Summary
 For [[person/abu-ishaq-al-shatibi|al-Shatibi]], in the book of objectives of [[work/al-muwafaqat|al-Muwafaqat]], the necessities are the first of the three tiers of the [[concept/maqasid-al-shariah|objectives of the law]]: necessary, needed and refining. {cite:muwafaqat-draz-ilmiyya p. 221} They are what is indispensable for the welfare of religion and the world: if they are lost, worldly affairs run not straight but into corruption, turmoil and loss of life, and in the hereafter salvation and bliss are lost. {cite:muwafaqat-draz-ilmiyya p. 221} They are five in all - the preservation of religion, life, progeny, property and intellect - and al-Shatibi adds: "they said they are observed in every religion". {cite:muwafaqat-draz-ilmiyya p. 222}
@@ -23,3 +23,6 @@ In his notes Abd Allah Draz remarks that al-Shatibi widens the preservation of r
 
 ## Not covered here
 The remaining questions of the first kind in the book of objectives (the conditions for regarding complements, and the precedence of the necessary) and the history of this division before al-Shatibi are not given here.
+
+## In al-Ghazali, before al-Shatibi
+In [[work/al-mustasfa|al-Mustasfa]], [[person/al-ghazali-abu-hamid|al-Ghazali]] counts the law's purpose for creation as five - preserving their religion, life, intellect, progeny and property - and places their preservation at the level of necessities, illustrating with the execution of the misleading unbeliever and the punishment of the innovator who calls to his innovation for religion, retaliation for life, the penalty for drinking for the intellect, the penalty for zina for progeny and lineage, and deterring usurpers and thieves for property; he holds that no religion could fail to forbid destroying these five. {cite:mustasfa-tijariyya-1356-v1 p.144} See: [[concept/al-maslaha-al-mursala|Unattested interest]].

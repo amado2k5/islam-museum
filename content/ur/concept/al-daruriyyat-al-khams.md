@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 5-6, 221-223; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 5-6, 221-223; mustasfa-tijariyya-1356-v1 PDF p. 144; translated from the Arabic page" }
 ---
 ## موجز
 [[person/abu-ishaq-al-shatibi|شاطبی]] کے نزدیک، «[[work/al-muwafaqat|الموافقات]]» کی کتاب المقاصد میں، ضروریات [[concept/maqasid-al-shariah|مقاصدِ شریعت]] کے تین مراتب میں پہلا مرتبہ ہیں: ضروری، حاجی اور تحسینی۔ {cite:muwafaqat-draz-ilmiyya p. 221} ان کا مطلب یہ ہے کہ دین و دنیا کی مصلحتوں کے قیام کے لیے یہ ناگزیر ہیں: اگر یہ نہ رہیں تو دنیا کی مصلحتیں درستی کے بجائے فساد، افراتفری اور جان کے ضیاع کی طرف جائیں، اور آخرت میں نجات اور نعمت فوت ہو۔ {cite:muwafaqat-draz-ilmiyya p. 221} یہ کل پانچ ہیں: دین، جان، نسل، مال اور عقل کی حفاظت، اور شاطبی کہتے ہیں: «کہا گیا ہے کہ یہ ہر ملت میں ملحوظ ہیں»۔ {cite:muwafaqat-draz-ilmiyya p. 222}
@@ -23,3 +23,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## جو یہاں ذکر نہیں ہوا
 کتاب المقاصد کی پہلی نوع کے باقی مسائل (مکملات کے اعتبار کی شرط اور ضروری کی تقدیم) اور شاطبی سے پہلے اس تقسیم کی تاریخ یہاں نہیں دی گئی۔
+
+## شاطبی سے پہلے غزالی کے ہاں
+«[[work/al-mustasfa|المستصفیٰ]]» میں [[person/al-ghazali-abu-hamid|غزالی]] مخلوق سے شریعت کا مقصود پانچ شمار کرتے ہیں — ان کے دین، جان، عقل، نسل اور مال کی حفاظت — اور ان کی حفاظت کو ضروریات کے مرتبے میں رکھتے ہیں؛ مثالیں: دین کے لیے گمراہ کرنے والے کافر کا قتل اور اپنی بدعت کی دعوت دینے والے مبتدع کی سزا، جان کے لیے قصاص، عقل کے لیے حدِ شرب، نسل و نسب کے لیے حدِ زنا، اور مال کے لیے غاصبوں اور چوروں کی سزا؛ اور ان کے نزدیک ناممکن ہے کہ کوئی ملت ان پانچ کو فوت کرنے کو حرام نہ کرے۔ {cite:mustasfa-tijariyya-1356-v1 p.144} دیکھیے: [[concept/al-maslaha-al-mursala|مصلحتِ مرسلہ]]۔

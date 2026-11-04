@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 5-6, 221-223" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 5-6, 221-223; mustasfa-tijariyya-1356-v1 PDF p. 144" }
 ---
 ## موجز
 الضروريات عند [[person/abu-ishaq-al-shatibi|الشاطبي]] في كتاب المقاصد من «[[work/al-muwafaqat|الموافقات]]» أولى مراتب [[concept/maqasid-al-shariah|مقاصد الشريعة]] الثلاث: الضرورية، والحاجية، والتحسينية. {cite:muwafaqat-draz-ilmiyya p. 221} ومعناها أنها لا بد منها في قيام مصالح الدين والدنيا، بحيث إذا فُقدت لم تجر مصالح الدنيا على استقامة بل على فساد وتهارج وفوت حياة، وفي الآخرة فوت النجاة والنعيم. {cite:muwafaqat-draz-ilmiyya p. 221} ومجموعها خمسة: حفظ الدين، والنفس، والنسل، والمال، والعقل، ويقول الشاطبي: «قالوا: إنها مراعاة في كل ملة». {cite:muwafaqat-draz-ilmiyya p. 222}
@@ -23,3 +23,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## ما لم يُذكر هنا
 لم تُذكر هنا بقية مسائل النوع الأول من كتاب المقاصد (اعتبار المكمّلات وشرطها، وتقديم الضروري على غيره)، ولا تاريخ هذا التقسيم عند من سبق الشاطبي.
+
+## عند الغزالي قبل الشاطبي
+يعدّ [[person/al-ghazali-abu-hamid|الغزالي]] في «[[work/al-mustasfa|المستصفى]]» مقصود الشرع من الخلق خمسة: أن يحفظ عليهم دينهم ونفسهم وعقلهم ونسلهم ومالهم، ويجعل حفظها في رتبة الضرورات، ويمثّل لها بقتل الكافر المضل وعقوبة المبتدع الداعي إلى بدعته لحفظ الدين، والقصاص لحفظ النفوس، وحد الشرب لحفظ العقول، وحد الزنا لحفظ النسل والأنساب، وزجر الغصاب والسراق لحفظ الأموال؛ ويرى أن تحريم تفويت هذه الأصول الخمسة يستحيل ألا تشتمل عليه ملة من الملل. {cite:mustasfa-tijariyya-1356-v1 p.144} وانظر: [[concept/al-maslaha-al-mursala|المصلحة المرسلة]].
