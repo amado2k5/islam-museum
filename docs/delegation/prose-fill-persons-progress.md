@@ -834,3 +834,9 @@ Promoted: abd-al-khaliq-al-siyuri, abd-al-rahman-ibn-razin-al-hanbali, abd-al-ra
 Promoted: abd-al-rahman-ibn-mahdi, abd-allah-ibn-al-mubarak, abu-awn-abd-allah-ibn-awn, al-hasan-ibn-muhammad-al-zafarani, ashath-ibn-abd-al-malik-al-humrani, harmala-ibn-yahya, hisham-al-dastuwai, humayd-al-tawil, ismail-ibn-muslim-al-makki, muhammad-ibn-abd-allah-ibn-abd-al-hakam, musa-ibn-abi-al-jarud, ubayd-allah-ibn-al-hasan-al-sanbari, uthman-ibn-sulayman-al-bati, yunus-ibn-ubayd.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2250.** sweep continues through remaining trilingual drafts.
+
+### Batch 126 (4 Nov 2026, 14 records) — lib-tabaqat-fuqaha-batch-3 draft promotions (sweep worker)
+
+Promoted: abd-allah-ibn-malik-al-jaysh-ani, abu-al-zinad, al-aswad-ibn-yazid-al-nakhai, al-harith-al-awar, alqama-ibn-qays-al-nakhai, amr-ibn-al-harith, bukayr-ibn-abd-allah-ibn-al-ashajj, marthad-ibn-abd-allah-al-yazani, muhammad-al-baqir, muhammad-ibn-al-walid-al-zubaydi, said-ibn-abd-al-aziz-al-tanukhi, ubayda-ibn-amr-al-salmani, yahya-ibn-said-al-ansari, yahya-ibn-yahya-al-ghassani.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2264.** sweep continues through remaining trilingual drafts.
