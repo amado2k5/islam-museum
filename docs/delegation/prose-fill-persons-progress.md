@@ -177,3 +177,11 @@ Written (label-probed, verified in muntazam.txt): ibrahim-ibn-khalid-al-shafii (
 Leads (isnad-only or ambiguous hits, not person obits): al-sulami, al-sirafi, al-hasan-ibn-abi-al-rabi, hatim-ibn-al-layth, ibn-al-bawwab (identity ambiguous vs traditionist of same name). ~120 muntazam queue rows unprobed or zero-hit remain.
 
 **Lane total: 289.**
+
+### Batch 25 (3 Nov 2026, 7 records, ar+en+ur) — Muntazam cluster 3 (Buyid/narrative set)
+
+Written: muhammad-ibn-zayd-al-alawi (v12 p239; provenance block fixed), baha-al-dawla (v15 p22), abu-al-futuh-al-alawi (v14 p355), fatik-ibn-abi-al-jahl (al-Mutanabbi's named killer, v14 p165), musharrif-al-dawla (v15 p173), muayyid-al-mulk-ibn-nizam (v16 p156), badr-ibn-hasanwayh (v14 p373). cite-check 7/7; validate 0 errors; 317 tests; coverage regenerated.
+
+Leads (+4): ibn-al-sabbagh-faqih (incidental, present at a funeral prayer), ali-ibn-muhammad-ibn-abi-al-shawarib (appointment line only), abun-ibn-makhlad-al-nasrani (incidental rebuilding note), ibn-al-muallim (vague fear reference). Remaining ~110 muntazam rows: zero-hit or no substantive passage → leads when swept.
+
+**Lane total: 296.**
