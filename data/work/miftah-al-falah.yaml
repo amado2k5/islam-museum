@@ -1,17 +1,28 @@
 id: work/miftah-al-falah
 class: work
 kind: book
-label: { ar: "مفتاح الفلاح ومصباح الأرواح", en: "Miftah al-Falah wa Misbah al-Arwah" }
+label: { ar: "مفتاح الفلاح ومصباح الأرواح", en: "Miftah al-Falah wa-Misbah al-Arwah", ur: "مفتاح الفلاح و مصباح الارواح" }
 summary:
-  ar: "بطاقة أولية لـمفتاح الفلاح ومصباح الأرواح؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Miftah al-Falah wa Misbah al-Arwah; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب في الذكر منسوب في طبعته الأولى إلى تاج الدين ابن عطاء الله السكندري، يقول مؤلفه إنه لم ير من صنف في الذكر كتاباً كاملاً كافياً، فرتبه على قسمين: الأول في ماهية الذكر وفضله وآدابه وفوائده والتوحيد والمعرفة وما ينبغي لأهل الطريق، والثاني في شرح الأذكار وأولها كلمة لا إله إلا الله، ثم الرقى وأذكار الصباح والمساء والسفر وعيادة المريض {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53}."
+  en: "A book on remembrance of God (dhikr), attributed in its first printing to Taj al-Din Ibn 'Ata' Allah al-Iskandari; its author says he had seen no complete and sufficient book on dhikr, and arranged it in two parts: the first on what dhikr is, its merit, rules of conduct and benefits, unification, gnosis and the duties of the people of the path; the second explaining the formulas of remembrance, first of them 'there is no god but God', followed by healing invocations and the remembrances of morning and evening, travel and visiting the sick {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53}."
+  ur: "ذکر پر ایک کتاب جو اپنے پہلے ایڈیشن میں تاج الدین ابن عطاء اللہ سکندری سے منسوب ہے؛ مصنف کہتے ہیں کہ انہوں نے ذکر پر کوئی مکمل اور کافی کتاب نہ دیکھی، اس لیے اسے دو حصوں میں مرتب کیا: پہلا ذکر کی حقیقت، فضیلت، آداب، فوائد، توحید، معرفت اور اہلِ طریق کے فرائض پر؛ دوسرا اذکار کی شرح پر، جن میں پہلا «لا الٰہ الا اللہ» ہے، پھر رقیے اور صبح و شام، سفر اور عیادت کے اذکار {cite:miftah-al-falah-saada-1332 p. 3} {cite:miftah-al-falah-saada-1332 p. 4} {cite:miftah-al-falah-saada-1332 p. 53}۔"
+language: language/arabic
+authors: [person/ibn-ata-allah-al-iskandari]
+genre: [tasawwuf]
+wings: [words, ideas]
+themes: [spirituality-and-sufism, worship-and-the-pillars]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+  - { type: mentions, target: concept/dhikr, sources: [source/miftah-al-falah-saada-1332] }
+  - { type: mentions, target: person/al-ghazali-abu-hamid, sources: [source/miftah-al-falah-saada-1332] }
+  - { type: mentions, target: person/abu-al-hasan-al-shadhili, sources: [source/miftah-al-falah-saada-1332] }
 external_ids: { wikidata: "Q12244454" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "Wikidata candidate (Devin, wikidata-import-wave2); rewritten from the first printing (Matba'at al-Sa'ada, 1332 AH), PDF pp. 1-95"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/al-aalam, source/miftah-al-falah-saada-1332]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)" }

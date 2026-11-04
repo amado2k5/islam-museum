@@ -12,3 +12,6 @@ The two Sufyans, Muslim b. Khalid, Ibn Uluyya, Hajjaj b. Muhammad, Abu Asim, Ruh
 
 ## His death
 Al-Waqidi says Ibn Jurayj died at the opening of Dhu al-Hijja, 150 AH. {cite:tazkirat-al-huffaz j.1 p.165}
+
+## His commentary in al-Tabari's Jami' al-Bayan
+In [[work/jami-al-bayan|Jami' al-Bayan]] the commentary of [[person/ata-ibn-abi-rabah|Ata ibn Abi Rabah]] reaches [[person/al-tabari|al-Tabari]] by way of Ibn Jurayj (d. 150 AH): al-Qasim ibn al-Hasan al-Hamadani, from al-Hasan ibn Dawud al-Massisi (so in the thesis), from Hajjaj ibn Muhammad al-Massisi, from Ibn Jurayj. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}

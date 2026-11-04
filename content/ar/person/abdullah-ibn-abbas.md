@@ -49,3 +49,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 
 ## في برنامج عبد الرحمن منصور «أهالينا»
 ينقل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] في برنامجه [[work/ahaleena|«أهالينا»]] عن ابن عباس أنه كان يحب أن يتزين لزوجته كما تتزين له، ويجعل ذلك أصلًا لعناية الزوج بزينته ونظافته. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:03:30} ويذكر خبرًا يرويه [[person/mujahid-ibn-jabr|مجاهد]]: أن ابن عباس رأى رجلًا فتكلم عما في قلب الرجل له، فلما سئل كيف علم، قال إنه هو يحبه، وذكر أن الأرواح جنود مجندة. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:12:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:13:00}
+
+## أثره في جامع البيان للطبري
+من أكثر أسانيد تفسير ابن عباس ورودًا في [[work/jami-al-bayan|جامع البيان]] إسناد [[person/atiyya-al-awfi|عطية العوفي]] وذريته: محمد بن سعد، عن أبيه، عن عمه، عن الحسين بن الحسن، عن أبيه، عن جده عطية، عن ابن عباس؛ وقد نقل منه [[person/al-tabari|الطبري]] في نحو 1560 موضعًا بحسب فؤاد سزكين كما ينقل أحمد خالد بابكر. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48}

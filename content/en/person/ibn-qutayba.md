@@ -18,3 +18,6 @@ Ibn al-Jawzi relates from Ibn al-Munadi and others that he gave a loud cry, then
 Al-Mas'udi accuses him of taking from the book of Abu Hanifa al-Dinawari on the science of the heavens, copying it into his own books and claiming it as his own, and says that he did this in many of Abu Hanifa's books. This is al-Mas'udi's judgement alone. {cite:muruj-al-dhahab p.519}
 
 He is credited with [[work/adab-al-katib|Adab al-Katib]]. 
+
+## His place in al-Tabari's Jami' al-Bayan
+Ahmad Khalid Babakr says [[person/al-tabari|al-Tabari]] drew on Ibn Qutayba's [[work/tafsir-gharib-al-quran|Tafsir Gharib al-Qur'an]], and cites its editor al-Sayyid Ahmad Saqr that al-Tabari profited from it greatly, in places copying its words literally without clear acknowledgement, as he did with al-Farra and Abu Ubayda, and that a careful reader senses Ibn Qutayba's spirit where al-Tabari reworded him. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.51} The thesis suggests in al-Tabari's defence that he was Ibn Qutayba's contemporary and that both drew on similar sources. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.52}

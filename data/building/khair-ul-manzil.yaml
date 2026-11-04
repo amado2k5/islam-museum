@@ -1,24 +1,28 @@
 id: building/khair-ul-manzil
 class: building
 kind: mosque
-label:
-  ar: "خير المنازل"
-  en: "Khair-ul-Manzil, Delhi"
+label: { ar: "مسجد خير المنازل في دلهي", en: "Khair-ul-Manzil, Delhi", ur: "خیر المنازل، دہلی" }
 summary:
-  ar: "بطاقة أولية لخير المنازل بدلهي، مسجد ومدرسة ماهام أنكا من سنة ١٥٦١م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Khair-ul-Manzil of Delhi, Maham Anga's mosque-madrasa of 1561; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد ومدرسة قبالة البوابة الغربية للقلعة القديمة بدلهي، بنتها ماهم أنگه مرضعة أكبر سنة 969هـ/1561–1562 بإشراف شهاب الدين أحمد خان، واسمها «خير المنازل» تاريخ بنائها بحساب الجمّل {cite:nath-history-of-mughal-architecture-1-1982 p. 237} {cite:nath-history-of-mughal-architecture-1-1982 p. 238}."
+  en: "A mosque and madrasa opposite the western gate of the Purana Qila, Delhi, built by Akbar's wet-nurse Maham Anaga in AH 969/1561-62 under the superintendence of Shihab al-Din Ahmad Khan; its name 'Khair al-Manazil' is the chronogram of its foundation {cite:nath-history-of-mughal-architecture-1-1982 p. 237} {cite:nath-history-of-mughal-architecture-1-1982 p. 238}."
+  ur: "پرانے قلعے دہلی کے مغربی دروازے کے سامنے مسجد و مدرسہ جو اکبر کی دایہ ماہم انگہ نے 969ھ/1561–62ء میں شہاب الدین احمد خان کی نگرانی میں بنوایا؛ نام «خیر المنازل» اس کا مادۂ تاریخ ہے {cite:nath-history-of-mughal-architecture-1-1982 p. 238}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1561/1562", hijri: "0969", calendar: gregorian, precision: year, status: historical, note: "Dated by the Persian inscription over the central mihrab and its chronogram {cite:nath-history-of-mughal-architecture-1-1982 p. 238}." }
+location: place/delhi
+materials: [stone, ceramic]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/nath-history-of-mughal-architecture-1-1982]
 external_ids:
   wikidata: Q22680377
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Nath 1982, printed pp. 140, 237-238; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Nath 1982 pp. 140, 237-238, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
