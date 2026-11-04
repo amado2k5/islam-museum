@@ -1,0 +1,27 @@
+id: person/ibn-sayyid-al-nas
+class: person
+label: { ar: "ابن سيد الناس اليعمري", en: "Ibn Sayyid al-Nas al-Ya'muri", ur: "ابن سید الناس یعمری" }
+names:
+  - { kind: full, lang: ar, value: "فتح الدين أبو الفتح محمد بن محمد بن محمد بن أحمد بن عبد الله بن محمد بن يحيى بن سيد الناس اليعمري الأندلسي المصري" }
+  - { kind: laqab, lang: ar, value: "فتح الدين" }
+gender: male
+roles: [scholar, historian, poet]
+born: { edtf: "1263~", hijri: "0661", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة في ذي القعدة، وقيل في ذي الحجة، سنة 661هـ، وقيل سنة 671هـ {cite:uyun-al-athar-sharqawi-1993 p.4}؛ التحويل مشتق.", sources: [source/uyun-al-athar-sharqawi-1993] }
+died: { edtf: "1334-04~", hijri: "0734-08-11", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي فجأة يوم السبت 11 شعبان 734هـ ودفن بالقرافة {cite:uyun-al-athar-sharqawi-1993 p.6}؛ التحويل مشتق.", sources: [source/uyun-al-athar-sharqawi-1993] }
+summary:
+  ar: "حافظ محدث شافعي وأديب شاعر من أهل القاهرة (661 أو 671–734هـ)، من بيت أندلسي، تخرج على ابن دقيق العيد، ودرّس الحديث بالمدرسة الظاهرية وخطب بجامع الخندق، وصنّف «عيون الأثر في فنون المغازي والشمائل والسير» وشرحاً لم يتمه على جامع الترمذي هو «النفح الشذي»."
+  en: "A Shafi'i hadith master, man of letters and poet of Cairo (661 or 671–734 AH) from a family of Andalusian origin; trained by Ibn Daqiq al-Id, he taught hadith at the Zahiriyya madrasa and preached at the Khandaq mosque, and wrote Uyun al-Athar on the Prophet's campaigns, character and life and an unfinished commentary on al-Tirmidhi's Jami', al-Nafh al-Shadhi."
+wings: [people]
+themes: [prophets, history-writing-and-social-thought]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+faith:
+  - { value: sunni-shafii, basis: documented, note: "تفقه على مذهب الشافعي {cite:uyun-al-athar-sharqawi-1993 p.4}", sources: [source/uyun-al-athar-sharqawi-1993] }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/uyun-al-athar-sharqawi-1993] }
+  - { type: buried_in, target: place/al-qarafa, sources: [source/uyun-al-athar-sharqawi-1993] }
+  - { type: student_of, target: person/ibn-daqiq-al-id, sources: [source/uyun-al-athar-sharqawi-1993] }
+  - { type: authored, target: work/uyun-al-athar, sources: [source/uyun-al-athar-khatrawi-v1] }
+provenance: { layer: own-research, source: "source/uyun-al-athar-sharqawi-1993 pp. 4–7; source/uyun-al-athar-khatrawi-v1 pp. 7–12", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/uyun-al-athar-sharqawi-1993, source/uyun-al-athar-khatrawi-v1]
+status: { review: published, completeness: 3 }
