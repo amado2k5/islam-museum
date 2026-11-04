@@ -18,7 +18,10 @@ died: { edtf: "1546~", hijri: "0953", calendar: julian, precision: year, status:
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 953)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-146
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch81
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3

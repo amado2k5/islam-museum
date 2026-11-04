@@ -551,3 +551,21 @@ Promoted: abd-al-qadir-ibn-shaykh-aydarus, abu-bakr-ibn-salim-baalwi, abu-numayy
 Promoted: al-bisati, al-faryani, al-kazaruni, al-mutadid-dawud-abbasid, al-qayati, al-sanbati, al-zahir-yahya-rasulid, ibn-al-adami, ibn-al-faris, ibn-al-furat, ibn-al-majdi, ibn-al-munaqib, ibn-ayyash, ibn-bisal, ibn-kamil-al-mansuri, ibn-nasir-al-din, ibn-nasr-allah-hanbali, ibn-ruslan, nur-al-din-muhammad-ibn-jaqmaq, qadi-al-aqalim, shah-rukh, siraj-al-din-makki-haramayn.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1505.** sweep continues through remaining trilingual drafts.
+
+### Batch 81 (4 Nov 2026, 22 records) — lib-shadharat-batch-146 draft promotions (sweep worker)
+
+Promoted: al-bukhari-makki-ahmad, al-dalji-uthmani, al-hariri-misri, al-qujawi, al-safawi-sayyid, al-tanbadhawi-bakri, al-tayyib-al-makhrama, ali-al-dhuwayb, badi-ibn-al-diya, burhan-ibn-al-mabit, ibn-tulun-shams-al-din, isa-pasha-damascus, maghwash-al-tunisi, muhammad-bik-qadi, qara-ughli, qutb-ibn-sultan, sad-ibn-al-dayl, sadi-chalabi, shahin-al-jarkasi, shams-al-din-al-shami, shihab-al-sunbati, wajih-al-din-al-shaybani.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1527.** sweep continues through remaining trilingual drafts.
+
+### Batch 82 (4 Nov 2026, 21 records) — lib-wafayat-batch-5 draft promotions (sweep worker)
+
+Promoted: abd-al-azim-al-mundhiri, abu-al-salt-al-andalusi, ahmad-ibn-harun-al-rashid, al-fariqi, al-manazi, al-shibli, al-sukkari, al-urjani, asbagh-ibn-al-faraj, barkiyaruq, dalaj-ibn-ahmad, ibn-al-khayyat, ibn-faris, ibn-rashiq-al-qayrawani, ibn-tabataba, ibn-waki-al-tinnisi, ibrahim-ibn-hilal-al-sabi, iyas-ibn-muawiya, jafar-ibn-fallah, nasir-al-din-jafar-ibn-yaqub, yaqub-ibn-dawud-tahman.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1548.** sweep continues through remaining trilingual drafts.
+
+### Batch 83 (4 Nov 2026, 21 records) — lib-shadharat-batch-124 draft promotions (sweep worker)
+
+Promoted: abd-al-latif-al-baghdadi, abd-al-wahid-ii-almohad, abu-musa-al-maqdisi, al-awhi, al-dakhwar, al-hasan-al-alawi-al-murtada, al-iylani-muzaffar, al-malik-al-aziz-banias, al-malik-al-masud-amid, al-muafa-ibn-al-haddus, al-qadisi-al-darir, al-rafi-i, al-sakkaki, al-shams-al-bukhari-maqdisi, al-tanukhi-ibrahim, ali-ibn-al-jawzi, ibn-baqi-al-zahiri, ibn-muti-al-zawawi, ibn-salam-muhammad, ibn-shayth-al-qurashi, idris-ibn-yaqub-almohad.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1569.** sweep continues through remaining trilingual drafts.
