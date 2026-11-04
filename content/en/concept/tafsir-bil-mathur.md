@@ -24,3 +24,6 @@ Tantawi makes this order a basis of his commentary: he supports the overall mean
 - **Sunni: Ibn Kathir, as quoted by Tantawi**: the soundest way is the Qur'an by the Qur'an, then the Sunna, then the sayings of the Companions, then those of the Successors {cite:tafsir-tantawi-wasit p.9}.
 - **Not yet given here**: other views on how far the sayings of the Successors bind, and academic studies of the history of this method, have not yet been added; later books of the Qur'anic sciences will supply them.
 :::
+
+## In the introduction to al-Tafsir al-Muyassar
+The introduction to [[work/al-tafsir-al-muyassar|al-Tafsir al-Muyassar]] counts among the chief works of transmitted exegesis al-Tabari's [[work/jami-al-bayan|Jami' al-Bayan]], quoting Ibn Taymiyya that it is among the most eminent commentaries; al-Baghawi's [[work/maalim-al-tanzil|Ma'alim al-Tanzil]], because he sought soundness in most of the views and reports he gave; and Ibn Kathir's commentary. {cite:tafsir-muyassar-king-fahd-1430 p.8} One of its own rules is "putting sound transmitted exegesis before anything else". {cite:tafsir-muyassar-king-fahd-1430 p.10}

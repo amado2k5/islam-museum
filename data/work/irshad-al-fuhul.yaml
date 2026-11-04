@@ -1,17 +1,31 @@
 id: work/irshad-al-fuhul
 class: work
 kind: book
-label: { ar: "إرشاد الفحول إلى تحقيق الحق من علم الأصول", en: "Irshad al-Fuhul" }
+label:
+  ar: "إرشاد الفحول إلى تحقيق الحق من علم الأصول"
+  en: "Irshad al-Fuhul ila Tahqiq al-Haqq min Ilm al-Usul"
+  ur: "ارشاد الفحول الی تحقیق الحق من علم الاصول"
 summary:
-  ar: "بطاقة أولية لـإرشاد الفحول إلى تحقيق الحق من علم الأصول؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Irshad al-Fuhul; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب في أصول الفقه لمحمد بن علي الشوكاني، فرغ منه يوم الأربعاء 4 محرم 1231هـ، رتّبه على مقدمة وسبعة مقاصد (الكتاب، والسنة، والإجماع، والأوامر والنواهي والعموم والخصوص وما يتصل بها، والقياس والاستدلال، والاجتهاد والتقليد، والتعادل والترجيح) وخاتمة؛ يحكي فيه أقوال الأصوليين ثم يرجّح ما يراه الحق بالدليل، وينكر فيه التقليد ويرى أن الاجتهاد ميسر للمتأخرين. {cite:irshad-al-fuhul-dar-al-fikr p.5} {cite:irshad-al-fuhul-dar-al-fikr p.289} {cite:irshad-al-fuhul-dar-al-fikr p.291}"
+  en: "A work on the principles of jurisprudence (usul al-fiqh) by Muhammad ibn Ali al-Shawkani, finished on Wednesday 4 Muharram 1231 AH (December 1815), arranged in an introduction, seven aims (the Book, the Sunna, consensus, commands, prohibitions, the general and the particular and related topics, analogy and inference, independent reasoning and imitation, and the weighing of conflicting proofs) and a conclusion; it reports the positions of the usul scholars and then argues for what the author holds to be right on the evidence, rejecting imitation (taqlid) and holding that independent reasoning is easier for later scholars."
+  ur: "محمد بن علی شوکانی کی اصولِ فقہ پر کتاب، جو انہوں نے بدھ 4 محرم 1231ھ (دسمبر 1815ء) کو مکمل کی؛ ایک مقدمہ، سات مقاصد (کتاب، سنت، اجماع، اوامر و نواہی اور عموم و خصوص وغیرہ، قیاس و استدلال، اجتہاد و تقلید، تعادل و ترجیح) اور ایک خاتمے پر مرتب؛ اس میں وہ اصولیوں کے اقوال نقل کر کے دلیل کی بنیاد پر اپنی ترجیح بیان کرتے ہیں، تقلید کا انکار کرتے ہیں اور کہتے ہیں کہ متأخرین کے لیے اجتہاد آسان ہو گیا ہے۔"
+genre: [usul-al-fiqh]
+language: language/arabic
+authors: [person/al-shawkani]
+composed: { edtf: "1815-12", hijri: "1231-01-04", calendar: gregorian, precision: month, status: historical, derived: true, note: "«وكان الفراغ منه يوم الأربعاء الرابع من شهر محرم سنة 1231» (colophon, Dar al-Fikr ed., PDF p. 289). Gregorian date derived by tabular conversion (≈ Wednesday 6 December 1815).", sources: [source/irshad-al-fuhul-dar-al-fikr] }
+wings: [ideas, words]
+themes: [development-of-law-theology-institutions, renewal-and-reform]
+periods: [period/modern-era]
+regions: [arabia]
+relations:
+  - { type: about, target: concept/ijtihad, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: about, target: concept/taqlid, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: about, target: concept/qiyas, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: about, target: concept/ijma, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: about, target: concept/tarjih-usul, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: about, target: question/can-an-age-be-without-a-mujtahid, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+  - { type: about, target: question/is-the-default-ruling-of-things-permissibility, sources: [source/irshad-al-fuhul-dar-al-fikr] }
+sources: [source/irshad-al-fuhul-dar-al-fikr, source/al-aalam]
 external_ids: { wikidata: "Q6833126" }
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance: { layer: own-research, source: "irshad-al-fuhul-dar-al-fikr PDF pp. 1-5, 200-206, 251-256, 267-271, 284-289, 291-294; earlier card: Wikidata candidate (Devin, wikidata-import-wave2)", generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }

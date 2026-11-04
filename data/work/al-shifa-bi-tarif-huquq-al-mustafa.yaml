@@ -1,20 +1,28 @@
 id: work/al-shifa-bi-tarif-huquq-al-mustafa
 class: work
 kind: book
-label: { ar: "الشفا بتعريف حقوق المصطفى", en: "al-Shifa bi-Ta'rif Huquq al-Mustafa" }
+label: { ar: "الشفا بتعريف حقوق المصطفى", en: "al-Shifa bi-Ta'rif Huquq al-Mustafa", ur: "الشفا بتعریف حقوق المصطفیٰ" }
 summary:
-  ar: "كتاب القاضي عياض في حقوق النبي وشمائله الذي قال ابن العماد لم يسبق إلى مثله {cite:shadharat-dhahab p. 619}."
-  en: "Qadi 'Iyad's book on the Prophet's due and his noble traits — 'none was composed like it before', says Ibn al-'Imad {cite:shadharat-dhahab p. 619}."
+  ar: "كتاب القاضي عياض بن موسى اليحصبي السبتي (ت 544هـ) في قدر النبي وحقوقه على أمته، رتّبه في أربعة أقسام: تعظيم الله لقدره قولاً وفعلاً وفيه شمائله ومعجزاته، ثم ما يجب على الأنام من الإيمان به وطاعته واتباعه ومحبته وتوقيره والصلاة عليه وزيارة قبره، ثم ما يستحيل في حقه وما يجوز عليه من الأعراض البشرية وهو عنده «سرّ الكتاب»، ثم أحكام من تنقّصه أو سبّه؛ قال ابن العماد إنه لم يُسبق إلى مثله."
+  en: "Qadi Iyad ibn Musa al-Yahsubi of Ceuta's (d. 544 AH) book on the Prophet's standing and his rights over his community, arranged in four parts: God's honouring of him in word and deed (with his qualities and miracles); what people owe him — faith, obedience, following, love, reverence, invoking blessings on him and visiting his grave; what is impossible for him and which human states may befall him, which the author calls 'the heart of the book'; and the legal rulings on one who disparages or reviles him. Ibn al-Imad says nothing like it had been written before."
 language: language/arabic
 authors: [person/al-qadi-iyyad]
-genre: [sira]
-wings: []
+genre: [sira, shamail]
+made: { by_muslims: true, basis: documented, sources: [source/al-shifa-ilmiyya-shumunni] }
+structure: "مقدمة المؤلف (ص8–17 من طبعة دار الكتب العلمية، ترقيم PDF)؛ القسم الأول في تعظيم الله لقدره (ص18–381): الباب الأول ثناء الله عليه (عشرة فصول)، الثاني تكميل محاسنه خَلقاً وخُلقاً (سبعة وعشرون فصلاً)، الثالث ما ورد في عظيم قدره عند ربه (اثنا عشر فصلاً)، الرابع المعجزات (ومنه إعجاز القرآن ص265)؛ القسم الثاني ما يجب على الأنام من حقوقه (ص385–477): الإيمان والطاعة والاتباع، المحبة، التعظيم، الصلاة عليه وزيارة قبره؛ القسم الثالث ما يستحيل في حقه وما يجوز (ص478–593): العصمة، ثم أحواله الدنيوية؛ القسم الرابع أحكام من تنقصه أو سبه (ص594–697) في ثلاثة أبواب، آخرها في ساب الله والأنبياء والملائكة والآل والصحب."
+editions: [source/al-shifa-ilmiyya-shumunni, source/al-shifa-al-qadi-iyad]
+wings: [words, ideas]
+themes: [prophets, creed]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
-provenance:
-  layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-22
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: about, target: person/muhammad, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: mentions, target: concept/ijaz-al-quran, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: mentions, target: concept/mujiza, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: mentions, target: concept/mahabbat-al-nabi, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: mentions, target: concept/al-salat-ala-al-nabi, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: mentions, target: concept/sabb-al-sahaba, sources: [source/al-shifa-ilmiyya-shumunni] }
+  - { type: about, target: question/can-prophets-commit-minor-sins, sources: [source/al-shifa-ilmiyya-shumunni] }
+provenance: { layer: own-research, source: "source/al-shifa-ilmiyya-shumunni PDF pp. 3–17, 18, 253, 265–287, 380, 382–385, 478, 526–540, 594, 690–701; earlier one-line card from Shadharat al-Dhahab (Devin, lib-shadharat-batch-22) rewritten by Claude Code (OCR-harvest worker E)", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/al-shifa-ilmiyya-shumunni, source/shadharat-dhahab, source/al-shifa-al-qadi-iyad]
+status: { review: published, completeness: 3 }

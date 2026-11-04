@@ -1,0 +1,25 @@
+id: building/bagh-i-vafa-kabul
+class: building
+kind: garden
+label: { ar: "باغ وفا (كابل)", en: "Bagh-i Vafa, Kabul", ur: "باغِ وفا (کابل)" }
+summary:
+  ar: "بستان رباعي أنشأه بابر في كابل سنة 1504م ووصفه في مذكراته، على ربوة تواجه الجنوب فيها البرتقال والأترج والرمان وحوض عشرة في عشرة {cite:brookes-gardens-of-paradise-1987 p.125} {cite:brookes-gardens-of-paradise-1987 p.127}."
+  en: "A four-part garden laid out by Babur at Kabul in 1504 and described in his memoirs, on rising ground facing south, with oranges, citrons, pomegranates and a ten-by-ten tank {cite:brookes-gardens-of-paradise-1987 p.125} {cite:brookes-gardens-of-paradise-1987 p.127}."
+wings: [objects, place]
+themes: [architecture, water-and-animals]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1504", calendar: gregorian, precision: year, status: historical, sources: [source/brookes-gardens-of-paradise-1987], note: "Brookes, miniature caption: Babur supervising the layout of the Bagh-i Vafa in 1504" }
+patron: person/babur-mughal
+location: place/kabul
+relations:
+  - { type: located_in, target: place/kabul, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 125-127"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
