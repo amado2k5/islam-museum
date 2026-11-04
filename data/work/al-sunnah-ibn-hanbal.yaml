@@ -1,17 +1,26 @@
 id: work/al-sunnah-ibn-hanbal
 class: work
 kind: book
-label: { ar: "السنة (عبد الله بن أحمد بن حنبل)", en: "Al-Sunnah (Ibn Hanbal)" }
+genre: [creed, hadith]
+label: { ar: "السنة (عبد الله بن أحمد بن حنبل)", en: "Kitab al-Sunna (Abd Allah ibn Ahmad ibn Hanbal)", ur: "کتاب السنہ (عبد اللہ بن احمد بن حنبل)" }
 summary:
-  ar: "بطاقة أولية لـالسنة (عبد الله بن أحمد بن حنبل)؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Sunnah (Ibn Hanbal); its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب في الاعتقاد بالإسناد لأبي عبد الرحمن عبد الله ابن الإمام أحمد بن حنبل (213–290هـ)، ويسمى أيضاً «الرد على الجهمية»؛ يجمع أقوال أبيه وغيره من أئمة الحديث وآثار الصحابة والتابعين في القرآن والجهمية واللفظية والواقفة، والإيمان والرد على المرجئة، والقدر، والصفات، والخلافة والتفضيل، وعذاب القبر، والخوارج، وفيه باب في أبي حنيفة حذفته بعض نسخه."
+  en: "A book of creed with chains of transmission by Abu Abd al-Rahman Abd Allah, son of Imam Ahmad ibn Hanbal (213–290 AH), also called al-Radd 'ala al-Jahmiyya. It gathers the sayings of his father and other hadith imams and reports from the Companions and Followers on the Qur'an and the Jahmiyya, the Lafziyya and the Waqifa, faith and the answer to the Murji'a, destiny, the attributes, the caliphate and the ranking of the Companions, the punishment of the grave and the Kharijites, and includes a chapter on Abu Hanifa that some copies omit."
+wings: [ideas, words]
+themes: [creed, sects-and-schools, scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/sunna-abdullah-ahmad-hamdan-1441] }
+authors: [person/abdullah-ibn-ahmad-ibn-hanbal]
+language: language/arabic
+structure: "Sections as headed in the edition (PDF pages): what the scholars said about the Jahmiyya, declaring them unbelievers and praying behind them (from p. 25); the scholars on the Qur'an (pp. ~59–90); those who say 'my utterance of the Qur'an is created' (pp. 92–95); what he memorised about Jahm and Bishr al-Marisi (pp. 98–99); Ahmad's view of the Waqifa (pp. 117–118); what he memorised from his father and other shaykhs about Abu Hanifa (from p. 120); the attributes and the vision of God; faith and the answer to the Murji'a (from p. 303); what the scholars said about Amr ibn Ubayd and destiny (from p. 453); the imams, the caliphate and the ranking among them (from p. 637); the punishment and trial of the grave (from p. 665); the Kharijites; indexes (to p. 813)."
+editions: [source/sunna-abdullah-ahmad-hamdan-1441]
 external_ids: { wikidata: "Q120444747" }
+sources: [source/sunna-abdullah-ahmad-hamdan-1441]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "كتاب السنة لعبد الله بن أحمد، تحقيق آل حمدان، ط4 1441هـ، ص 1–19، 25، 92–95، 98، 117–122، 303، 453، 637، 665، 806 من ملف المسح"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }

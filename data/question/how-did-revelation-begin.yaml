@@ -31,5 +31,7 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-7a"
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/zad-al-masir-maktab-islami-v1 PDF p. 5 (Ibn al-Jawzi on the first revealed)" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-masir-maktab-islami-v1]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 65–70" }

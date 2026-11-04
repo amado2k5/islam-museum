@@ -7,12 +7,13 @@ summary:
 gender: female
 wings: [people]
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on her entry in Kahhala's A'lam al-Nisa' from source/alam-al-nisa-kahhala-risala-1984-v3 PDF pp. 220-223"
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch28
-sources: [source/muruj-al-dhahab]
+sources: [source/muruj-al-dhahab, source/alam-al-nisa-kahhala-risala-1984-v3]
 status:
   review: published
   completeness: 3
