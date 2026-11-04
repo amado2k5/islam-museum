@@ -1,0 +1,30 @@
+id: work/subh-al-asha
+class: work
+kind: book
+label: { ar: "صبح الأعشى في كتابة الإنشا", en: "Subh al-A'sha fi Kitabat al-Insha", ur: "صبح الاعشیٰ فی کتابۃ الانشا" }
+summary:
+  ar: "موسوعة أبي العباس أحمد القلقشندي في صناعة كتابة الإنشاء بديوان السلطنة المملوكية، رتّبها على مقدمة وعشر مقالات وخاتمة، وجعلها شرحاً موسّعاً لمقامة أنشأها نحو سنة 791هـ حين استقر في كتابة الإنشاء، مستوعباً ما في «التعريف» لابن فضل الله العمري و«تثقيف التعريف» لابن ناظر الجيش {cite:subh-al-asha-cairo-v1 p.7} {cite:subh-al-asha-cairo-v1 p.8} {cite:subh-al-asha-cairo-v1 p.10}؛ ويُختم بأبواب في البريد والحمام الرسائلي ونقل الثلج والمناور {cite:subh-al-asha-cairo-v14 p.412}."
+  en: "Abu al-Abbas Ahmad al-Qalqashandi's encyclopedia of the chancery secretary's craft in the Mamluk sultanate, arranged in an introduction, ten maqalas and a conclusion, written as an expanded commentary on a maqama he composed around 791 AH on joining the chancery, taking in all of Ibn Fadl Allah al-Umari's al-Ta'rif and Ibn Nazir al-Jaysh's Tathqif al-Ta'rif; it ends with chapters on the barid, the pigeon post, the carriage of ice and the beacons."
+authors: [person/al-qalqashandi]
+language: language/arabic
+genre: [adab, history, geography]
+wings: [words, ideas, place]
+themes: [arts-of-the-book, politics-governance-and-authority, geography-and-cartography, diplomacy-and-envoys]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+structure: "Muqaddima in five babs (merit of writing; meaning of kitaba and insha, preference of prose; qualities and manners of secretaries; the chancery and its officials; its rules); maqala 1: what the secretary needs (sciences, scripts, materials); 2: routes and realms (al-masalik wa-l-mamalik); 3: names, kunyas, titles and the forms of documents; 4: correspondence; 5: appointments (wilayat); 6: religious charges, remissions, grants, tarkhanas, change of fiscal year, memoranda; 7: iqta' grants; 8: oaths; 9: peace treaties and their annulment; 10: other kinds of writing outside the diwans; khatima: barid stations, pigeon-post routes and towers, ice convoys from Syria, beacons and crop-burnings (vol. 14 pp. 389-401). Plan in vol. 1 pp. 10-30."
+editions:
+  - "Cairo, Dar al-Kutub al-Misriyya / al-Matba'a al-Amiriyya, 14 vols, 1340/1922 (vol. 1) to 1938 (vol. 14) (source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14)"
+relations:
+  - { type: relies_on, target: work/al-tarif-bil-mustalah-al-sharif, sources: [source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14] }
+  - { type: about, target: concept/pigeon-post, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: about, target: concept/mamluk-beacons, sources: [source/subh-al-asha-cairo-v14] }
+  - { type: about, target: concept/diwan-al-barid, sources: [source/subh-al-asha-cairo-v14] }
+sources: [source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14]
+provenance:
+  layer: own-research
+  source: "source/subh-al-asha-cairo-v1 pp. 1-30; source/subh-al-asha-cairo-v14 pp. 388-401, 411-412"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

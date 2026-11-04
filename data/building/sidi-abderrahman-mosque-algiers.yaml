@@ -5,12 +5,12 @@ label:
   ar: "مسجد سيدي عبد الرحمن الثعالبي"
   en: "Sidi Abderrahman Mosque, Algiers"
 summary:
-  ar: "بطاقة أولية لـSidi Abderrahman Mosque, Algiers، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Sidi Abderrahman Mosque, Algiers, the historic monument; its sources are not yet checked on the page."
+  ar: "جامع في مدينة الجزائر يذكره نيوكومب بتاريخ 1108هـ/1697م، ويكثر في زخرفته وفي مقبرته المجاورة استعمال البلاط الخزفي {cite:newcomb-decorative-tiles-north-africa-1929 p.27}."
+  en: "A mosque in Algiers given by Newcomb as of 1108/1697, which makes large use of ceramic tiles in its decoration and in its adjoining cemetery {cite:newcomb-decorative-tiles-north-africa-1929 p.27}."
 wings: [objects]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/newcomb-decorative-tiles-north-africa-1929]
 external_ids:
   wikidata: Q36698405
 provenance:
@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["worker H ocr-harvest-2026-11-04: Newcomb 1929, first prose"]
 status:
-  review: draft
+  review: published
   completeness: 1
+location: place/algiers

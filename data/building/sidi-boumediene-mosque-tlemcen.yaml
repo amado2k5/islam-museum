@@ -1,0 +1,24 @@
+id: building/sidi-boumediene-mosque-tlemcen
+class: building
+kind: mosque
+label: { ar: "جامع سيدي أبي مدين (العباد، تلمسان)", en: "Mosque of Sidi Bou Medine, Tlemcen", ur: "مسجد سیدی ابو مدین (تلمسان)" }
+summary:
+  ar: "جامع على نحو ميل جنوب شرقي تلمسان، يؤرخه نيوكومب بسنة 1337م، مدخله الرئيس مكسو بفسيفساء الخزف وأبوابه من خشب الأرز المغشّى بالبرونز المطروق {cite:newcomb-decorative-tiles-north-africa-1929 p.28}."
+  en: "A mosque about a mile south-east of Tlemcen, dated by Newcomb to 1337, its main portal faced with faience mosaic and its cedar doors sheathed in repoussé bronze {cite:newcomb-decorative-tiles-north-africa-1929 p.28}."
+wings: [objects, place]
+themes: [architecture, mosques, spirituality-and-sufism]
+regions: [maghreb]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1337", calendar: gregorian, precision: year, status: historical, sources: [source/newcomb-decorative-tiles-north-africa-1929], note: "Newcomb p. 28: founded in 1337 by 'Ali V of Tlemcen, known in history as the black sultan'; his identification of the founder is recorded as given and not linked" }
+location: place/tlemcen
+relations:
+  - { type: located_in, target: place/tlemcen, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+  - { type: exemplifies, target: concept/zellij, sources: [source/newcomb-decorative-tiles-north-africa-1929] }
+sources: [source/newcomb-decorative-tiles-north-africa-1929]
+provenance:
+  layer: own-research
+  source: "Newcomb 1929, printed pp. 28"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

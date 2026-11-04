@@ -27,3 +27,6 @@
 
 ## Next
 Other long entries of part 3: عثمان بن أبي شيبة (35–), عطاء الخراساني (73–), ابن أبي ليلى (613), قيس بن الربيع (393), علي بن زيد بن جدعان (127), محمد بن عجلان (644), عكرمة بن عمار (90), عين القضاة (not found in part 3's OCR under that heading).
+
+## Second pass (worker F, run 2)
+- **Fixed** the flagged edge: `person/ibn-ishaq` now has `child_of person/ishaq-ibn-yasar` (new data record), and `person/ishaq-ibn-yasar` has `child_of person/yasar-mawla-qays`; prose trio and summary of Ibn Ishaq now call Yasar his grandfather (Mizan printed p. 468 nasab + Futuh al-Buldan p. 345).

@@ -6,10 +6,10 @@ translators: ["Claude Code (OCR-harvest worker G), translation from the Arabic"]
 status:
   review: published
 provenance:
-  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G); Ibn Taymiyya's assessment added by Claude Code (OCR-harvest worker C)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/kashf-zunun-furqan p.221-223; source/ihya-shamela-dar-al-marifa pp.2-19, 4131, 6250 and the book openings cited; source/ihya-kitab-al-shab-pts13-16 pp.5, 712-790; source/ihya-dar-al-marifa-1982-v3 p.5; source/ihya-tabana-v4 pp.1, 536"
+  source: "source/kashf-zunun-furqan p.221-223; source/ihya-shamela-dar-al-marifa pp.2-19, 4131, 6250 and the book openings cited; source/ihya-kitab-al-shab-pts13-16 pp.5, 712-790; source/ihya-dar-al-marifa-1982-v3 p.5; source/ihya-tabana-v4 pp.1, 536; source/majmu-fatawa-qasim-v10 pp. 551–552"
 ---
 ## خلاصہ
 «احیاء علوم الدین» [[person/al-ghazali-abu-hamid|ابو حامد غزالی]] کی تصنیف ہے جو چالیس کتابوں پر مشتمل ہے اور چار ارباع میں تقسیم ہے: ربعِ عبادات، ربعِ عادات، ربعِ مہلکات اور ربعِ منجیات۔ {cite:kashf-zunun-furqan p. 221-223} {cite:ihya-shamela-dar-al-marifa p. 9} غزالی اپنے خطبے میں کہتے ہیں کہ انہوں نے یہ کتاب «دین کے علوم کو زندہ کرنے» کے لیے لکھی، جب دیکھا کہ آخرت کے راستے کا علم لوگوں میں بھلا دیا گیا ہے، اور انہوں نے کتاب کو «علمِ معاملہ» تک محدود رکھا، «علمِ مکاشفہ» کو اس میں نہیں لائے۔ {cite:ihya-shamela-dar-al-marifa p. 9} {cite:ihya-shamela-dar-al-marifa p. 16}
@@ -53,9 +53,12 @@ provenance:
 
 [[person/abd-al-qadir-ibn-shaykh-aydarus|عبد القادر بن شیخ عیدروس]] نے اپنے رسالے [[work/tarif-al-ahya-bi-fadail-al-ihya|«تعریف الاحیاء بفضائل الاحیاء»]] میں تعریف کرنے والوں کے اقوال جمع کیے: [[person/abd-al-ghafir-al-farisi|عبد الغافر فارسی]] سے کہ یہ غزالی کی ان تصانیف میں سے ہے جن کی نظیر پہلے نہ تھی، نووی سے: «احیاء قریب تھا کہ قرآن ہو جائے»، اور ابو محمد کازرونی سے کہ اگر سارے علوم مٹا دیے جائیں تو احیاء سے نکالے جا سکتے ہیں۔ {cite:ihya-kitab-al-shab-pts13-16 p. 782} انہوں نے [[person/abdullah-al-yafii|یافعی]] سے مغربی فقیہ [[person/ali-ibn-hirzihim|ابو الحسن علی بن حرزہم]] کا قصہ روایت کیا جس نے احیاء کے نسخے جلانے کا ارادہ کیا اور پھر ایک خواب کے بعد اپنے انکار سے رجوع کیا۔ {cite:ihya-kitab-al-shab-pts13-16 p. 779} {cite:ihya-kitab-al-shab-pts13-16 p. 780} اور نقل کیا کہ سلطان [[person/ali-ibn-yusuf-al-murabiti|علی بن یوسف]] نے غزالی کی کتابیں مغرب پہنچنے پر جلانے کا حکم دیا، جس کا الگ مدخل [[event/burning-of-ghazali-books-maghrib|مغرب میں غزالی کی کتابوں کا جلایا جانا]] ہے۔ {cite:ihya-kitab-al-shab-pts13-16 p. 788}
 
+[[person/ibn-taymiyya|ابن تیمیہ]] [[work/majmu-al-fatawa|مجموع الفتاویٰ]] کی دسویں جلد کے ایک جواب میں احیاء کا جائزہ یوں لیتے ہیں کہ دل کے اعمال، جیسے صبر، شکر، محبت اور توکل، کے بیان میں یہ [[work/qut-al-qulub|قوت القلوب]] کی پیروی کرتی ہے، اور ابو طالب مکی حدیث و آثار کو زیادہ جانتے تھے اور ان کا کلام زیادہ درست اور بدعت سے دور ہے؛ اور «مہلکات» جیسے تکبر، عجب، ریا اور حسد پر اس کا اکثر کلام حارث محاسبی کی «الرعایہ» سے منقول ہے۔ {cite:majmu-fatawa-qasim-v10 p. 551} وہ احیاء میں بہت فوائد پاتے ہیں، مگر اس میں توحید، نبوت اور معاد کے بارے میں فلاسفہ کا قابلِ مذمت مواد، ضعیف بلکہ موضوع احادیث، اور صوفیہ کی بعض غلطیاں بھی، اور ان ائمہ کا قول نقل کرتے ہیں جنہوں نے اس پر اعتراض کیا کہ غزالی کو «الشفاء» نے بیمار کر دیا، یعنی ابن سینا کی الشفاء؛ پھر کہتے ہیں کہ اس میں مستقیم مشائخ کا جو کلام دل کے اعمال میں کتاب و سنت کے موافق ہے وہ رد کیے جانے والے سے زیادہ ہے، «اسی لیے اس کے بارے میں لوگوں کا اجتہاد مختلف ہوا اور انہوں نے نزاع کیا»۔ {cite:majmu-fatawa-qasim-v10 p. 551} {cite:majmu-fatawa-qasim-v10 p. 552}
+
 :::perspectives
 - **اہلِ سنت: شافعیہ اور صوفیہ میں سے تعریف کرنے والے، جیسا کہ عیدروس اور حاجی خلیفہ نقل کرتے ہیں۔** وہ کتاب کو شریعت اور طریقت کا جامع سمجھتے ہیں؛ ان میں نووی، کازرونی اور عبد الغافر فارسی شامل ہیں۔ عیدروس ضعیف احادیث کے اعتراض کا جواب یہ دیتے ہیں کہ حافظ عراقی نے واضح کیا کہ ان میں سے اکثر موضوع نہیں، اور فضائل و رقائق میں ضعیف پر عمل کیا جاتا ہے۔ {cite:ihya-kitab-al-shab-pts13-16 p. 782} {cite:ihya-kitab-al-shab-pts13-16 p. 787} {cite:ihya-kitab-al-shab-pts13-16 p. 788}
 - **اہلِ سنت: فقہا اور محدثین میں سے ناقدین، جیسا کہ حاجی خلیفہ نقل کرتے ہیں۔** بعض مغربی فقہا نے کتاب کے پہلی بار آنے پر انکار کیا، ابن الجوزی نے اس کی غلطیاں جمع کیں، اور ان کے نواسے سے منقول ہے کہ انہوں نے صوفی مذاہب پر بنیاد اور غیر صحیح احادیث پر اعتراض کیا۔ {cite:kashf-zunun-furqan p. 221-223}
+- **اہل السنہ (حنبلی): مجموع الفتاویٰ میں ابن تیمیہ۔** اس میں بہت فوائد ہیں، اور مستقیم مشائخ کا درست مواد رد کیے جانے والے سے زیادہ ہے، مگر اس میں فلسفیانہ مواد، ضعیف و موضوع احادیث اور صوفی غلطیاں ہیں؛ دل کے اعمال میں قوت القلوب اس سے زیادہ درست ہے۔ {cite:majmu-fatawa-qasim-v10 p. 551} {cite:majmu-fatawa-qasim-v10 p. 552}
 - **علمی (اکیڈمک) رائے:** میوزیم میں ابھی کسی متعین ماخذ سے درج نہیں۔
 :::
 

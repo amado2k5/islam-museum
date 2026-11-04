@@ -12,9 +12,10 @@ relations:
   - { type: sibling_of, target: person/al-hakim-bi-amr-allah, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/hakim-disappearance-411, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on her entry in Kahhala's A'lam al-Nisa' from source/alam-al-nisa-kahhala-risala-1984-v2 PDF pp. 170-174"
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة ٤١١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-batch23
-sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/muntazam-ibn-al-jawzi, source/alam-al-nisa-kahhala-risala-1984-v2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
