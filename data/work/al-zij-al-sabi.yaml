@@ -1,23 +1,44 @@
 id: work/al-zij-al-sabi
 class: work
 kind: book
-label: { ar: "الزيج الصابي", en: "al-Zij al-Sabi (The Sabian Zij)" }
+label: { ar: "الزيج الصابي", en: "al-Zij al-Sabi (The Sabian Zij)", ur: "الزیج الصابی" }
 summary:
-  ar: "زيج في حساب النجوم وفلك البروج ومواضع الكواكب، ألّفه [[person/al-battani|محمد بن جابر البتاني]]. يبدأ بتقويم دائرة الفلك وحساب أوتار القسي، ثم يتناول ميل فلك البروج، ومطالع البروج في البلدان، ومعرفة عروض البلدان بالرصد، والظل والارتفاع، وخط نصف النهار، وأبعاد الكواكب {cite:zij-sabi-nallino-byblion p.5} {cite:zij-sabi-nallino-byblion p.6} {cite:zij-sabi-nallino-byblion p.7}."
-  en: "An astronomical handbook by al-Battani on computing star positions and the zodiac. It opens with the reckoning of the sphere and of chords, then treats the obliquity of the ecliptic, the risings of the zodiac in each city, latitude found by observation, shadows and altitudes, the meridian, and the distances of the stars and planets {cite:zij-sabi-nallino-byblion p.5} {cite:zij-sabi-nallino-byblion p.6} {cite:zij-sabi-nallino-byblion p.7}."
-wings: [ideas]
-themes: [astronomy-and-timekeeping]
+  ar: "زيج [[person/al-battani|محمد بن جابر البتاني]] (ت 317هـ)، في سبعة وخمسين بابًا مع جداول، ضمّنه أرصاده للشمس والقمر في الرقة وأنطاكية وتصحيحه لحركاتهما وحركات الكواكب الخمسة كما في المجسطي؛ يسميه القدماء «زيج البتاني» وسماه المتأخرون «الزيج الصابي»، ونقل إلى اللاتينية والقشتالية في القرنين السادس والسابع الهجريين {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum p. 41} {cite:zij-sabi-nallino-byblion p.5}."
+  en: "The Zij of [[person/al-battani|al-Battani]] (d. 317 AH), in fifty-seven chapters with tables, holding his observations of the Sun and Moon at al-Raqqa and Antioch and his correction of their motions and those of the five planets as given in the Almagest; early authors call it 'Zij al-Battani', later bibliographers 'the Sabian Zij'; it was translated into Latin and Castilian in the twelfth and thirteenth centuries {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum p. 41}."
+  ur: "[[person/al-battani|البتانی]] (م 317ھ) کی زیج، ستاون ابواب اور جدولوں پر مشتمل، جس میں رقہ اور انطاکیہ میں سورج اور چاند کے ارصاد اور المجسطی میں دی گئی ان کی اور پانچ سیاروں کی حرکات کی تصحیح ہے؛ متقدمین اسے «زیج البتانی» اور متاخرین «الزیج الصابی» کہتے ہیں؛ بارہویں اور تیرہویں صدی عیسوی میں لاطینی اور قشتالی میں ترجمہ ہوئی {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum p. 41}."
+wings: [ideas, words]
+themes: [astronomy-and-timekeeping, mathematics, translation-and-transmission]
 periods: [period/abbasid-early]
+regions: [levant-iraq]
 authors: [person/al-battani]
 language: language/arabic
-made: { by_muslims: true, basis: documented, sources: [source/zij-sabi-nallino-byblion] }
+genre: [zij]
+made: { by_muslims: true, basis: documented, sources: [source/nallino-albatenii-opus-astronomicum] }
+composed:
+  edtf: "0900"
+  hijri: "0288"
+  calendar: julian
+  precision: year
+  status: historical
+  derived: true
+  note: "يرى نالينو أن النسخة الأولى صدرت قبل سنة 288هـ (ابتداؤها 25 ديسمبر 900م) لأن ثابت بن قرة المتوفى في فبراير 901م ذكر بابها الثاني والخمسين، وأن نسخة الإسكوريال وترجمة أفلاطون التيفولي هي النسخة الثانية لأنها تذكر أرصاد أنطاكية في يناير وأغسطس 901م {cite:nallino-albatenii-opus-astronomicum p. 41}."
 disciplines: [concept/astronomy]
-editions: ["Arabic text edited with notes by Carlo Nallino, reproduced in the Byblion (Jbeil, Lebanon) printing of 2005 (title page, scan p.2 and p.3). The copy states it follows a manuscript held at the El Escorial library. Original Nallino edition details not verified."]
-sources: [source/zij-sabi-nallino-byblion]
+editions:
+  - "Arabic text from the Escorial manuscript, edited by C. A. Nallino as Part III of Al-Battani sive Albatenii Opus astronomicum (Milan: Hoepli, 1899; scan p. 870), with Latin version of the chapters (Part I, printed Rome 1902/1903) and of the tables (Part II, 1907; scan p. 420)."
+  - "Latin translation of Plato of Tivoli, printed at Nuremberg in 1537 with Alfraganus' Rudimenta and Regiomontanus' additions (scan p. 59)."
+  - "Reprint of Nallino's Arabic text by Dar wa-Maktabat Byblion, Jbeil, 2005 (source/zij-sabi-nallino-byblion, scan pp. 2–4)."
+  - "Manuscript: El Escorial, Real Biblioteca, Arabic MS 908 (formerly 903): 245 folios, 26.5 × 19 cm, 19 lines a page, thick cotton paper, Maghribi script, chapter titles in red; no title or colophon; ff. 244v–245 in another hand contain hadith; Nallino dates the hand to the end of the eleventh or start of the twelfth century CE (scan p. 70)."
+relations:
+  - { type: relies_on, target: work/al-majisti, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: translated_as, target: work/de-motu-stellarum-plato-tiburtinus, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: has_commentary, target: work/jala-al-adhhan-fi-zij-al-battani, sources: [source/nallino-albatenii-opus-astronomicum] }
+  - { type: exemplifies, target: concept/zij, sources: [source/nallino-albatenii-opus-astronomicum] }
+sources: [source/nallino-albatenii-opus-astronomicum, source/zij-sabi-nallino-byblion]
 provenance:
   layer: own-research
-  source: "al-Zij al-Sabi, Arabic text (Byblion, 2005; edited by Carlo Nallino), scan pages 1 to 7"
-  generated_by: "Claude Haiku 5.5 (library-expansion)"
-  model: claude-haiku-5-5
-  run: lib-exp-medicine-science-manazir-maalim-zij-batch-1
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); OCR of a local digital copy" }
+  source: "source/nallino-albatenii-opus-astronomicum Latin preface scan pp. 17–71; source/zij-sabi-nallino-byblion scan pp. 1–7"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  note: "Enriched from the record of Claude Haiku 5.5 (library-expansion), lib-exp-medicine-science-manazir-maalim-zij-batch-1."
+status: { review: published, completeness: 3 }
