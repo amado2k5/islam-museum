@@ -41,3 +41,8 @@ mm-shaytan-yahkum, mm-quran-kaen-hay (0379Pdf and alfirdwsiy2018 items byte-iden
 
 - mm-islam-fi-khandaq (item book146, Kitab al-Yawm / Dar Akhbar al-Yawm, deposit 1994/2155): source/mm-islam-fi-khandaq-akhbar-1994; work/al-islam-fi-khandaq with ar/en/ur prose; his hudud view and his eschatological reading of al-Tawba 33 and al-Isra' 7 placed in perspectives with the other views marked not yet documented. Lead: his attribution of a hudud-suspension view to al-Izz ibn Abd al-Salam is unchecked (no museum record for al-Izz yet).
 - mm-insan-wal-zill (item AAlexandrina-110516, 2nd ed. Dar al-Ma'arif, undated): source/mm-insan-wal-zill-maarif-ed2; work/al-insan-wal-zill (play) with ar/en/ur prose.
+- mm-anashid-alithm (item 20211031_20211031_1321, 2nd ed. Dar al-Ma'arif, deposit 1984/3115): source/mm-anashid-al-ithm-maarif-ed2; work/anashid-al-ithm-wal-baraa with ar/en/ur prose.
+
+## Status after batch 5
+
+All 15 queued mm-* books were opened. Done: allah-wal-insan, rihla, hiwar, quran-muhawala, lughz-almawt, muhammad-sira, ra-ayt-allah, ruh-wal-jasad, lughz-alhayat, quran-kaen-hay, islam-fi-khandaq, insan-wal-zill, anashid-alithm (13). Excluded for now: shaytan-yahkum, israil-alnaziyya (reason above).
