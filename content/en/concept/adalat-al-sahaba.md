@@ -47,3 +47,18 @@ Companionship, he says, is known in four ways:
 - by a man's own statement once his uprightness is established.
 
 He then says the Companions as a whole share one distinction: no one's uprightness among them is questioned. They are declared upright without qualification by the texts of the Book and the Sunna and by the consensus of those whose view counts in consensus. {cite:muqaddima-ibn-salah-itr p. 294}
+
+## In al-Suyuti's Tadrib al-Rawi
+In al-Taqrib, al-Nawawi states that the Companions are all upright, both those who were caught up in the civil strife and the others, by the consensus of those whose view counts. {cite:tadrib-rawi-awwama-v5 p. 171}
+
+Al-Suyuti, commenting, quotes the Imam al-Haramayn on why their uprightness is not examined: they are the carriers of the Sharia. Were their transmission held in doubt, the Sharia would be confined to the Prophet's own time and would not have flowed on through the ages. {cite:tadrib-rawi-awwama-v5 p. 185} {cite:tadrib-rawi-awwama-v5 p. 186}
+
+He then reports dissenting views. He calls them all incorrect, thinking well of the Companions and taking each of them to have exercised a reasoned judgement for which he is rewarded:
+
+:::perspectives
+- **Sunni: the majority, as al-Nawawi and al-Suyuti state it**: the Companions are all upright, those caught up in the strife and the others alike. The general rule is what the majority stated, and it is the one that counts. {cite:tadrib-rawi-awwama-v5 p. 171} {cite:tadrib-rawi-awwama-v5 p. 187}
+- **Sunni: al-Mazari, as al-Suyuti quotes him**: by "the Companions are upright" we do not mean everyone who saw the Prophet one day or visited him briefly, but those who stayed with him, honoured him and supported him. Al-Ala'i answered that this is an odd view which would exclude many well-known Companions, such as Wa'il ibn Hujr, Malik ibn al-Huwayrith and Uthman ibn Abi al-As. {cite:tadrib-rawi-awwama-v5 p. 186} {cite:tadrib-rawi-awwama-v5 p. 187}
+- **Other views reported by al-Suyuti, including the Mu'tazili view**: some said their uprightness must always be examined; some said only after the civil strife began. The Mu'tazila said they are upright except those who fought Ali. Others said they are upright when a Companion's report is supported by others, or upright except both the one who fought and the one fought against. {cite:tadrib-rawi-awwama-v5 p. 186}
+:::
+
+The editor, Muhammad Awwama, comments that al-Suyuti's verdict "incorrect" is too mild. Al-Zarkashi and others, after reporting these views, said: all of them are false; the first view is the sound one, held by most scholars of the early and later generations. He also quotes al-Abyari: their uprightness does not mean they were protected from sin; it means their reports are accepted without inquiry into the grounds of their uprightness. {cite:tadrib-rawi-awwama-v5 p. 172} {cite:tadrib-rawi-awwama-v5 p. 186}

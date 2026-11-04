@@ -1,0 +1,77 @@
+id: question/awwal-man-aslama
+class: question
+label:
+  ar: "من أول من أسلم؟"
+  en: "Who was the first to accept Islam?"
+summary:
+  ar: "مسألة اختلف فيها أهل الحديث والسير: من أول الناس إسلاماً بعد بعثة النبي؟ جمع السيوطي في «تدريب الراوي» أقوال من قال أبو بكر، ومن قال علي، ومن قال زيد بن حارثة، ومن قال خديجة، وأقوالاً أخرى، ثم نقل الجمع الذي اختاره ابن الصلاح والنووي: من الرجال الأحرار أبو بكر، ومن الصبيان علي، ومن النساء خديجة، ومن الموالي زيد، ومن العبيد بلال {cite:tadrib-rawi-awwama-v5 p. 211-222}."
+  en: "A question on which hadith and sira scholars differ: who was the first person to accept Islam after the Prophet's call? In Tadrib al-Rawi al-Suyuti gathers those who said Abu Bakr, those who said Ali, those who said Zayd ibn Haritha, those who said Khadija, and other views, then reports the reconciliation chosen by Ibn al-Salah and al-Nawawi: of free men Abu Bakr, of boys Ali, of women Khadija, of freedmen Zayd, of slaves Bilal."
+wings: [people, time]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+question:
+  ar: "أيّ الصحابة سبق إلى الإسلام أولاً؟"
+  en: "Which of the Companions was first to embrace Islam?"
+issue:
+  ar: "اختلاف الروايات في أول من أسلم، ووجه الجمع بينها."
+  en: "The differing reports on who first accepted Islam, and how they are reconciled."
+short_answer:
+  ar: "قيل أبو بكر، وقيل علي، وقيل زيد بن حارثة، وقيل خديجة وهو الصواب عند جماعة من المحققين كما قال النووي؛ والأورع عند ابن الصلاح والنووي أن يقال: من الرجال الأحرار أبو بكر، ومن الصبيان علي، ومن النساء خديجة، ومن الموالي زيد، ومن العبيد بلال، ويحكى هذا الجمع عن أبي حنيفة."
+  en: "Some said Abu Bakr, some Ali, some Zayd ibn Haritha, and some Khadija, which al-Nawawi called correct according to a group of verifiers; the most scrupulous course, for Ibn al-Salah and al-Nawawi, is to say: of free men Abu Bakr, of boys Ali, of women Khadija, of freedmen Zayd, of slaves Bilal, a reconciliation also reported from Abu Hanifa."
+perspectives:
+  - tradition: sunni
+    id: sunni-abu-bakr
+    standing: main
+    stance: { ar: "أبو بكر", en: "Abu Bakr" }
+    summary:
+      ar: "قاله ابن عباس وحسان والشعبي والنخعي في آخرين، واستُدل له بحديث عمرو بن عبسة في مسلم: معه يومئذ أبو بكر وبلال، وبأبيات حسان «وأول الناس منهم صدّق الرسلا»؛ ويذكر المحقق عوامة أنه نُسب إلى الجمهور بل ادُّعي عليه الإجماع."
+      en: "Held by Ibn Abbas, Hassan, al-Sha'bi and al-Nakha'i among others, supported by the hadith of Amr ibn Abasa in Muslim that with the Prophet that day were Abu Bakr and Bilal, and by Hassan's verses calling Abu Bakr the first of men to believe the Messenger; the editor Awwama notes it has been ascribed to the majority and even claimed as consensus."
+    holders: [person/abu-bakr]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-ali
+    standing: main
+    stance: { ar: "علي بن أبي طالب", en: "Ali ibn Abi Talib" }
+    summary:
+      ar: "رواه الطبراني بسند صحيح عن ابن عباس، ورُوي عن زيد بن أرقم والمقداد وأبي أيوب وأنس وجابر وأبي سعيد وغيرهم، وادعى الحاكم إجماع أهل التواريخ عليه ونوزع في ذلك."
+      en: "Reported by al-Tabarani with a sound chain from Ibn Abbas, and from Zayd ibn Arqam, al-Miqdad, Abu Ayyub, Anas, Jabir, Abu Sa'id and others; al-Hakim claimed the historians agreed on it, and this was disputed."
+    holders: [person/ali-ibn-abi-talib]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-khadija
+    standing: main
+    stance: { ar: "خديجة", en: "Khadija" }
+    summary:
+      ar: "قال النووي زيادة على ابن الصلاح: وهو الصواب عند جماعة من المحققين، وروي عن ابن عباس والزهري، وهو قول قتادة وابن إسحاق، وادعى الثعلبي فيه الإجماع وأن الخلاف فيمن بعدها؛ وقال ابن عبد البر: اتفقوا على أن خديجة أول من آمن ثم علي، وأن أبا بكر أول من أظهر إسلامه."
+      en: "Al-Nawawi, adding to Ibn al-Salah, called it correct according to a group of verifiers; it is reported from Ibn Abbas and al-Zuhri and is the view of Qatada and Ibn Ishaq; al-Tha'labi claimed consensus on it, the dispute being over who came after her; Ibn Abd al-Barr said they agreed that Khadija was first to believe, then Ali, and that Abu Bakr was the first to make his Islam public."
+    holders: [person/khadija, person/al-nawawi, person/ibn-ishaq, person/ibn-abd-al-barr, person/abu-ishaq-al-thalabi]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-zayd-and-others
+    standing: secondary
+    stance: { ar: "زيد بن حارثة وأقوال أخرى", en: "Zayd ibn Haritha and other views" }
+    summary:
+      ar: "قال الزهري: زيد بن حارثة؛ وذكر عمر بن شبة أن خالد بن سعيد بن العاص أسلم قبل علي، وحكى المسعودي قولين بخباب بن الأرت وبلال؛ وقال العراقي: ينبغي أن يقال إن أول من آمن من الرجال ورقة بن نوفل، لحديث بدء الوحي."
+      en: "Al-Zuhri said Zayd ibn Haritha; Umar ibn Shabba said Khalid ibn Sa'id ibn al-As accepted Islam before Ali; al-Mas'udi reported views naming Khabbab ibn al-Aratt and Bilal; al-Iraqi said one should say the first man to believe was Waraqa ibn Nawfal, on the strength of the hadith of the beginning of revelation."
+    holders: [person/zayd-ibn-haritha, person/muhammad-ibn-shihab-al-zuhri, person/al-iraqi-zayn-al-din]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-jam
+    standing: main
+    stance: { ar: "الجمع بحسب الفئات", en: "Reconciliation by category" }
+    summary:
+      ar: "قال ابن الصلاح وتبعه النووي: الأورع أن يقال: من الرجال الأحرار أبو بكر، ومن الصبيان علي، ومن النساء خديجة، ومن الموالي زيد، ومن العبيد بلال؛ قال البرماوي: ويحكى هذا الجمع عن أبي حنيفة، وأخرجه عنه الحاكم كما يقول السيوطي."
+      en: "Ibn al-Salah, followed by al-Nawawi: the most scrupulous course is to say, of free men Abu Bakr, of boys Ali, of women Khadija, of freedmen Zayd, of slaves Bilal; al-Birmawi said this reconciliation is reported from Abu Hanifa, and al-Suyuti adds that al-Hakim transmitted it from him."
+    holders: [person/ibn-al-salah, person/al-nawawi, person/abu-hanifa]
+    sources: [source/tadrib-rawi-awwama-v5]
+related: [work/tadrib-al-rawi, person/abu-bakr, person/ali-ibn-abi-talib, person/khadija, person/zayd-ibn-haritha, person/bilal-ibn-rabah, event/islam-of-ali]
+sensitivity: contested
+sources: [source/tadrib-rawi-awwama-v5]
+provenance:
+  layer: own-research
+  source: "tadrib-rawi-awwama-v5 pp. 211–222"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tadrib-rawi-awwama-v5 pp. 211–223"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
