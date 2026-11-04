@@ -500,3 +500,9 @@ zubayd-al-yami	REJECT: ur: thin (125ch)
 Promoted: abdullah-ibn-muflih, abu-faris-hafsi, ahmad-al-asyuti, ahmad-ibn-shah-rukh, al-amir-husayn-hafsi, al-barinbari, al-barmawi-shams, al-kughiri, al-mustain-billah-abbasid, al-nuwayri-al-khidr, burhan-al-din-al-hilli, fatima-bint-khalil, husayn-jalayir, ibn-hijja-al-hamawi, ibrahim-ibn-shah-rukh, ishaq-ibn-dawud-habashi, majd-al-din-al-barmawi, muhammad-ibn-sad-al-din-habashi, muhammad-tatar, muhyi-al-din-ibn-al-ghazali, nimat-allah-al-jarihi, qara-yaqub-al-nukdi, sibt-ibn-al-shahid, taqi-al-din-al-fasi.cite-check 24/24; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1325.** sweep continues through remaining trilingual drafts.
+
+### Batch 73 (4 Nov 2026, 23 records) — lib-shadharat-batch-145 draft promotions (sweep worker)
+
+Promoted: abd-al-halim-al-manzilawi, abd-al-haqq-al-sunbati, abd-allah-al-majdhub-egypt, abu-al-nur-al-tunisi, ahmad-al-hisami, ahmad-al-manufi, ahmad-pasha-ibn-khidr-beg, burhan-al-hasib, ibn-al-kiyal, ibn-kamal-pasha, ibrahim-al-ajami-tabrizi, ibrahim-al-biqai-sufi, ibrahim-al-majdhub-abu-lahaf, ibrahim-ibn-abi-al-wafa, idris-ibn-husam-al-din, janbardi-al-ghazali, karim-al-jabari, muhyi-ibn-fanari, muzaffar-shah-gujarat, shihab-ibn-ulayf, taqi-al-din-al-balatinsi, taqi-ibn-qadi-ajlun, zayn-al-din-al-dashtuti.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1348.** sweep continues through remaining trilingual drafts.
