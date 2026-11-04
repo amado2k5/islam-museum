@@ -19,7 +19,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-born: { edtf: "1002", hijri: "0392", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وتسعين وثلاثمائة {cite:tarikh-islam-dhahabi p. 86}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba] }
+born: { edtf: "1002", hijri: "0392", calendar: julian, precision: year, status: debated, derived: true, note: "ولد سنة اثنتين وتسعين وثلاثمائة {cite:tarikh-islam-dhahabi p. 86}؛ وفي ترجمة محققي طبعة حيدر آباد للكفاية: لست بقين من جمادى الآخرة سنة 392 عند ابن السبكي وابن خلكان، وسنة 391 بخط ابن خيرون في المنتظم وعند النووي {cite:kifaya-khatib-hyderabad-1357 p. 452}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba, source/kifaya-khatib-hyderabad-1357] }
 died: { edtf: "1071-09-05", hijri: "0463-12-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي رابع ساعة من يوم الاثنين سابع ذي الحجة سنة ثلاث وستين وأربعمائة ودفن بباب حرب إلى جنب بشر الحافي {cite:tarikh-islam-dhahabi p. 107}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
 relations:
   - { type: born_in, target: place/darzijan, sources: [source/tarikh-islam-dhahabi], note: "أبوه خطيب قرية درزيجان إحدى قرى العراق تحت بغداد على دجلة بالجانب الغربي {cite:tarikh-islam-dhahabi p. 86}" }
@@ -44,13 +44,14 @@ relations:
   - { type: participated_in, target: event/khatib-return-baghdad-462, sources: [source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/khatib-death-463, sources: [source/tarikh-islam-dhahabi] }
 external_ids: { wikidata: "Q557961" }
-sources: [source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/muntazam-ibn-al-jawzi]
+sources: [source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/muntazam-ibn-al-jawzi, source/kifaya-khatib-hyderabad-1357]
 provenance:
   layer: own-research
   source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 pp. 86-108 (harvest OCR 01.-_20240823__31); al-Muntazam j.8 pp. 265-267; Mawsuat A'lam vol 3 p. 618"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: lib-mawsuat-a3lam, explorer-al-khatib-1
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: kifaya-khatib-hyderabad-1357 pp. 452–456"
 occupations:
   - job: job/muhaddith
     kind: secondary

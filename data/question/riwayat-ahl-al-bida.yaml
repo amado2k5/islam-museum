@@ -44,12 +44,25 @@ perspectives:
     evidence:
       - { ref: source/mizan-itidal-azimabadi-v1, note: { ar: "ترجمة أبان بن تغلب، الطبعة الحجرية، ص 7–8 من المسح.", en: "Entry on Aban ibn Taghlib, lithograph, PDF pp. 7–8." } }
     sources: [source/mizan-itidal-azimabadi-v1]
-related: [work/mizan-al-itidal, concept/jarh-wa-tadil, concept/bida, person/ibn-ishaq, person/ikrima-mawla-ibn-abbas]
+  - tradition: sunni
+    id: sunni-khatib-four-views
+    standing: main
+    stance:
+      ar: "أربعة أقوال يحكيها الخطيب، ويعتمد هو قبول من لا يستحل الكذب"
+      en: "Four positions reported by al-Khatib, who himself relies on accepting those who do not hold lying lawful"
+    summary:
+      ar: "في «الكفاية»: منعت طائفة السماع من أهل البدع كالقدرية والخوارج والرافضة، منهم مالك؛ وقبلت طائفة أخبار من لا يُعرف منهم استحلال الكذب، منهم الشافعي الذي قبل شهادة أهل الأهواء إلا الخطابية من الرافضة، وحُكي مثله عن ابن أبي ليلى والثوري وأبي يوسف؛ وقبل كثير من العلماء أخبار غير الدعاة دون الدعاة، منهم أحمد بن حنبل؛ وقبلت جماعة من أهل النقل والمتكلمين أخبارهم كلها. ويعتمد الخطيب القبول بما اشتهر من قبول الصحابة أخبار الخوارج وشهاداتهم، واستمرار عمل التابعين ومن بعدهم، واحتجاجهم بعمران بن حطان وعكرمة وقتادة وعبد الرزاق وغيرهم، فصار ذلك كالإجماع."
+      en: "In al-Kifaya: one group refused to hear from innovators such as the Qadariyya, Kharijites and Rafida, among them Malik; another accepted the reports of those not known to consider lying lawful, among them al-Shafi'i, who accepted the testimony of the people of caprice except the Khattabiyya of the Rafida, as was also reported of Ibn Abi Layla, al-Thawri and Abu Yusuf; many scholars accepted non-propagandists but not propagandists, among them Ahmad ibn Hanbal; and some transmitters and theologians accepted all their reports. Al-Khatib relies on acceptance, citing the Companions' well-known acceptance of the Kharijites' reports and testimony, the continued practice of the Successors and later scholars, and their reliance on Imran ibn Hittan, Ikrima, Qatada, Abd al-Razzaq and others, which made it akin to consensus."
+    holders: [person/al-khatib-al-baghdadi-ahmad, person/malik-ibn-anas, person/al-shafii, person/ahmad-ibn-hanbal]
+    evidence:
+      - { ref: source/kifaya-khatib-hyderabad-1357, note: { ar: "باب ما جاء في الأخذ عن أهل البدع، ص 120–126.", en: "Chapter on taking from innovators, pp. 120–126." } }
+    sources: [source/kifaya-khatib-hyderabad-1357]
+related: [work/mizan-al-itidal, work/al-kifaya-fi-ilm-al-riwaya, concept/jarh-wa-tadil, concept/bida, person/ibn-ishaq, person/ikrima-mawla-ibn-abbas]
 sensitivity: contested
-sources: [source/mizan-itidal-azimabadi-v1, source/mizan-itidal-bijawi-v3]
+sources: [source/mizan-itidal-azimabadi-v1, source/mizan-itidal-bijawi-v3, source/kifaya-khatib-hyderabad-1357]
 provenance:
   layer: own-research
-  source: "mizan-itidal-azimabadi-v1 PDF pp. 6–8; mizan-itidal-bijawi-v3 printed pp. 3, 93–96, 469–472"
+  source: "mizan-itidal-azimabadi-v1 PDF pp. 6–8; mizan-itidal-bijawi-v3 printed pp. 3, 93–96, 469–472; kifaya-khatib-hyderabad-1357 pp. 120–126"
   generated_by: "Claude Code (OCR-harvest worker F)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04

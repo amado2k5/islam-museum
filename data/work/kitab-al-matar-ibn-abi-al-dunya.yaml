@@ -1,0 +1,23 @@
+id: work/kitab-al-matar-ibn-abi-al-dunya
+class: work
+kind: book
+label: { ar: "كتاب المطر والرعد والبرق والريح لابن أبي الدنيا", en: "Ibn Abi al-Dunya's Kitab al-Matar wa-l-ra'd wa-l-barq wa-l-rih", ur: "ابن ابی الدنیا کی کتاب المطر والرعد والبرق والریح" }
+summary:
+  ar: "كتاب لابن أبي الدنيا (208–281هـ) في المطر والرعد والبرق والريح، جمع فيه ما ورد في ذلك من الآثار، ونقل عنه السيوطي في أبواب الظواهر الجوية {cite:heinen-islamic-cosmology p. 62} {cite:heinen-islamic-cosmology p. 63}."
+  en: "A book by Ibn Abi al-Dunya (208–281 AH) on rain, thunder, lightning and wind, gathering the relevant reports; al-Suyuti quoted it in his meteorological chapters {cite:heinen-islamic-cosmology p. 62} {cite:heinen-islamic-cosmology p. 63}."
+  ur: "ابن ابی الدنیا (208–281ھ) کی کتاب بارش، رعد، برق اور ہوا کے بارے میں آثار پر؛ سیوطی نے موسمی مظاہر کے ابواب میں اس سے نقل کیا {cite:heinen-islamic-cosmology p. 62}."
+wings: [ideas, words]
+themes: [cosmology-and-creation, scripture-and-its-sciences]
+authors: [person/ibn-abi-l-dunya]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/heinen-islamic-cosmology] }
+relations:
+  - { type: influenced, target: work/al-haya-al-saniyya-suyuti, sources: [source/heinen-islamic-cosmology] }
+sources: [source/heinen-islamic-cosmology]
+provenance:
+  layer: own-research
+  source: "source/heinen-islamic-cosmology scan pp. 62–63"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

@@ -12,3 +12,6 @@ Al-Maqrizi says that the Hall of the Lote Tree and the Hall of the Tents became 
 
 ## Its mihrab
 Al-Maqrizi says that, after the Fatimid state ended, the site of one of the gates of the Fatimid palace became the mihrab of the madrasa of al-Zahir Rukn al-Din Baybars {cite:khitat-maqrizi-1998 p.1194}.
+
+## In Yeomans
+Of [[person/baybars|Baybars]]'s madrasa (1262) beside al-Salih's mausoleum on al-Mu'izz street only part of a room in the south-west corner survives; it was a large cruciform madrasa for the Shafi'is and Hanafis. {cite:yeomans-islamic-cairo-2006 p.129} Over its window lintels are tight hexagonal patterns recalling the best Ayyubid woodwork and, between these and the lance-point ornament above, two confronted lions, the heraldic beasts of Baybars also seen round the base of the Burg al-Siba (Lions' Tower) on the Citadel. {cite:yeomans-islamic-cairo-2006 p.129}

@@ -1,0 +1,23 @@
+id: person/joseph-von-hammer-purgstall
+class: person
+label: { ar: "يوزف فون هامر", en: "Joseph von Hammer(-Purgstall)" }
+names:
+  - { kind: full, lang: en, value: "the Ritter Joseph von Hammer" }
+gender: male
+roles: [scholar, writer]
+summary:
+  ar: "الفارس (Ritter) يوزف فون هامر، عضو الجمعية الآسيوية الملكية، مستشرق ترجم إلى الإنجليزية واختصر رحلات أوليا جلبي، ونشرها صندوق الترجمة الشرقية بلندن في مجلدين (1834 و1850)، وكتب لها ترجمة للمؤلف {cite:evliya-narrative-hammer-v1 p.5} {cite:evliya-narrative-hammer-v1 p.7}."
+  en: "The Ritter Joseph von Hammer, F.M.R.A.S., an orientalist who abridged and translated Evliya Çelebi's travels into English, published by the Oriental Translation Fund in London in two volumes (1834 and 1850), with a biographical sketch of the author."
+wings: [people]
+themes: [translation-and-transmission]
+regions: [andalus-europe]
+relations:
+  - { type: wrote_about, target: person/evliya-celebi, sources: [source/evliya-narrative-hammer-v1] }
+sources: [source/evliya-narrative-hammer-v1, source/evliya-narrative-hammer-v2]
+provenance:
+  layer: own-research
+  source: "source/evliya-narrative-hammer-v1 scan pp. 5, 7, 9-20; source/evliya-narrative-hammer-v2 scan p. 5"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

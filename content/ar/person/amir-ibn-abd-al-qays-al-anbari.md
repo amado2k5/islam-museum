@@ -3,6 +3,11 @@ id: person/amir-ibn-abd-al-qays-al-anbari
 lang: ar
 source_lang: en
 translators: []
+provenance:
+  generated_by: "earlier authors (see git history); section on Ibn al-Mubarak's Kitab al-Zuhd added by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/zuhd-ibn-mubarak-azami-scan pp. 293-307"
 ---
 ## حساب موسوعة الإسلام
 عامر بن عبد القيس العنبري زاهد بصري (تَبيلي)، لفت نمط حياته انتباه حمران بن أبان، وكيل عثمان، فوشى به إلى الخليفة. فاستُجوب ونُفي إلى دمشق، حيث توفي غالبًا في خلافة معاوية، والأحداث بين 29 و35هـ/650–656م. {cite:encyclopaedia-of-islam-2 vol. 1 p. 463}
@@ -12,3 +17,10 @@ translators: []
 
 ## عند الأجيال اللاحقة
 يُذكر بوصفه بليغًا حُفظت أقواله، كما يعدّه التصوف من كبار الزهاد، وينسب إليه أقوالًا كثيرة. {cite:encyclopaedia-of-islam-2 vol. 1 p. 464}
+
+## في كتاب الزهد لابن المبارك
+يجمع [[person/abd-allah-ibn-al-mubarak|ابن المبارك]] في [[work/kitab-al-zuhd-ibn-al-mubarak|كتاب الزهد]] باباً في ذكر عامر بن عبد قيس و[[person/sila-ibn-ashyam|صلة بن أشيم]]. {cite:zuhd-ibn-mubarak-azami-scan p. 294} ومما يرويه عن الحسن أن عامراً قال لقوم ذكروا الدنيا إنهم يهتمّون، وإنه لئن استطاع ليجعلن الهموم همّاً واحداً، فيقول الحسن إنه فعل ذلك حتى لحق بالله. {cite:zuhd-ibn-mubarak-azami-scan p. 294} ويروي عن قتادة أنه تخلف عن أصحابه في أجمة فيها أسد فقال: «إني لأستحي من ربي أن أخشى شيئاً دونه»، وأنه سأل ربه أن يهوّن عليه الطهور في الشتاء، وأن ينزع شهوة النساء من قلبه، وأن يمنع قلبه من الشيطان في الصلاة. {cite:zuhd-ibn-mubarak-azami-scan p. 294} {cite:zuhd-ibn-mubarak-azami-scan p. 295} ويروي عن ابن أخيه أنه كان يأخذ عطاءه فيعطي منه كل مسكين يلقاه، فإذا دخل بيته وعدّوه وجدوه كما أُعطيه. {cite:zuhd-ibn-mubarak-azami-scan p. 295}
+
+ويروي عن معقل بن يسار أنه رأى عامر بن عبد الله العنبري يمنع ظلم رجل من أهل الذمة ويقول: «لا تُظلم ذمة الله اليوم وأنا شاهد»، وأنه سأله عما يقوله الناس من أنه لا يأكل اللحم ولا السمن ولا يتزوج، فأجاب عن كل واحدة. {cite:zuhd-ibn-mubarak-azami-scan p. 298} {cite:zuhd-ibn-mubarak-azami-scan p. 299}
+
+ويروي عن بلال بن سعد أن عامراً وُشي به إلى زياد، أو إلى ابن عامر في رواية، بأنه ترك النساء ويسكت إذا قيل له إن إبراهيم ليس خيراً منه، فكتب فيه إلى [[person/uthman-ibn-affan|عثمان]] فأمر بنفيه إلى الشام على قتب؛ فأجاب عامر بأن سكوته كان تعجباً، وأنه ترك النساء خشية أن تتشعب الدنيا قلبه. {cite:zuhd-ibn-mubarak-azami-scan p. 299} وأنزله [[person/muawiya-ibn-abi-sufyan|معاوية]] معه في الخضراء، فكان يصلي من السحر إلى العتمة ولا يقبل طعامه، ورد ما أمر له به عثمان من الرقيق والظهر، وكان في الغزو يشترط على رفقته أن يكون خادمهم ومؤذنهم وأن ينفق عليهم. {cite:zuhd-ibn-mubarak-azami-scan p. 299} {cite:zuhd-ibn-mubarak-azami-scan p. 300}

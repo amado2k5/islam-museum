@@ -1,17 +1,27 @@
 id: work/sharh-usul-itiqad-lalakai
 class: work
 kind: book
-label: { ar: "شرح أصول اعتقاد أهل السنة والجماعة", en: "Sharh Usul I'tiqad Ahl al-Sunna" }
+genre: [creed, hadith]
+label: { ar: "شرح أصول اعتقاد أهل السنة والجماعة", en: "Sharh Usul I'tiqad Ahl al-Sunna", ur: "شرح اصول اعتقاد اہل السنۃ والجماعۃ" }
 summary:
-  ar: "بطاقة أولية لـشرح أصول اعتقاد أهل السنة والجماعة؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Sharh Usul I'tiqad Ahl al-Sunna; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب مسند في عقيدة أهل الحديث لأبي القاسم اللالكائي الشافعي (ت 418هـ)، حدّث به ببغداد في ربيع الأول سنة 416هـ: يرتب مسائل الاعتقاد أبواباً («سياق ما روي في...»)، ويبين في كل مسألة متى حدث الخلاف فيها ومن أحدثه، ثم يستدل بالقرآن والحديث وأقوال الصحابة والتابعين بالأسانيد، ويختم بكرامات الأولياء."
+  en: "A narrated book on the creed of the hadith scholars by the Shafi'i Abu al-Qasim al-Lalaka'i (d. 418 AH), which he dictated in Baghdad in Rabi' I 416 AH: it arranges the questions of creed in chapters ('the account of what is narrated on...'), states for each when the dispute arose and who started it, then argues from the Qur'an, hadith and the sayings of Companions and Successors with chains, and ends with the miracles of the saints."
+wings: [ideas, words]
+themes: [creed, sects-and-schools]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/sharh-usul-itiqad-basira] }
+authors: [person/al-lalakai]
+language: language/arabic
+composed: { hijri: "0416-03", edtf: "1025-05", calendar: julian, precision: month, status: tradition, derived: true, note: "The chain at the head of the book says al-Lalaka'i transmitted it in Rabi' I 416 AH (PDF p. 31); this is the date of dictation, not necessarily of composition. Gregorian month derived.", sources: [source/sharh-usul-itiqad-basira] }
+structure: "The author's introduction (method and purpose); the names of those regarded as imams of the Sunna; urging adherence to the Book and the Sunna; God's names and attributes; the Qur'an as God's uncreated speech (with the list of some 550 who said so); the vision of God; predestination; prophethood and the Prophet's miracles; faith; what follows death (the grave, the resurrection, the signs of the Hour); obedience to rulers; the order of the caliphs and the virtues of the Companions; the miracles of the saints."
+editions: [source/sharh-usul-itiqad-basira]
+sources: [source/sharh-usul-itiqad-basira]
 external_ids: { wikidata: "Q54887825" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "شرح أصول اعتقاد أهل السنة، دار البصيرة، ص 1–46، 256–257، 1600–1626"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }

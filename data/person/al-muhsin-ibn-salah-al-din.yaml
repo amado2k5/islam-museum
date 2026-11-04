@@ -15,9 +15,12 @@ relations:
   - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-125
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch101

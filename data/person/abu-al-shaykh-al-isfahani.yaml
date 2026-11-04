@@ -1,0 +1,27 @@
+id: person/abu-al-shaykh-al-isfahani
+class: person
+label: { ar: "أبو الشيخ الأصبهاني", en: "Abu al-Shaykh al-Isfahani", ur: "ابو الشیخ اصبہانی" }
+names:
+  - { kind: full, value: "أبو محمد عبد الله بن محمد بن جعفر بن حيان الأنصاري الأصبهاني" }
+  - { kind: laqab, value: "أبو الشيخ" }
+summary:
+  ar: "أبو محمد عبد الله بن محمد بن جعفر بن حيان الأنصاري الأصبهاني المعروف بأبي الشيخ (274–369هـ)، محدث ومفسر مشهور بالثقة، صاحب كتاب العظمة الذي صار المصدر الرئيس لهيئة السيوطي {cite:heinen-islamic-cosmology p. 48}."
+  en: "Abu Muhammad Abd Allah ibn Muhammad ibn Ja'far ibn Hayyan al-Ansari al-Isfahani, known as Abu al-Shaykh (274–369 AH), a hadith scholar and exegete reputed reliable, author of Kitab al-Azama, the chief source of al-Suyuti's cosmography {cite:heinen-islamic-cosmology p. 48}."
+  ur: "ابو محمد عبد اللہ بن محمد بن جعفر بن حیان انصاری اصبہانی، المعروف ابو الشیخ (274–369ھ)، ثقہ محدث و مفسر، کتاب العظمہ کے مصنف جو سیوطی کی ہیئت کا بنیادی ماخذ بنی {cite:heinen-islamic-cosmology p. 48}."
+gender: male
+roles: [scholar, writer]
+born: { edtf: "0887", hijri: "0274", calendar: julian, precision: year, status: tradition, derived: true }
+died: { edtf: "0979", hijri: "0369", calendar: julian, precision: year, status: tradition, derived: true }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [persia-central-asia]
+relations:
+  - { type: authored, target: work/kitab-al-azama-abu-al-shaykh, sources: [source/heinen-islamic-cosmology] }
+sources: [source/heinen-islamic-cosmology]
+provenance:
+  layer: own-research
+  source: "source/heinen-islamic-cosmology scan p. 48"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

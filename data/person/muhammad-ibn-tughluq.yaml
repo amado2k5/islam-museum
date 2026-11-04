@@ -9,18 +9,20 @@ summary:
   ar: "بطاقة أولية لمحمد بن تغلق، سلطان دلهي الثامن عشر وثاني سلاطين التغلقيين، عُرف بمشاريعه العجيبة كنقل العاصمة إلى ديوكير وإصدار نقد النحاس؛ توفي سنة ١٣٥١م ولم تُراجع ترجمته على الصفحة بعد."
   en: "Draft card for Muhammad ibn Tughluq, the eighteenth sultan of Delhi and second of the Tughluq house, famed for his capricious projects like moving the capital to Daulatabad and the copper currency; he died in 1351 and his entry is not yet checked on the page."
 wings: [people]
+sensitivity: contested
+themes: [politics-governance-and-authority]
 regions: [south-asia]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1351", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sources: [source/tarikh-ibn-khaldun-ibar, source/rihla-ibn-battuta-khayriyya-1904]
 external_ids:
   wikidata: Q381830
+status:
+  review: published
+  completeness: 2
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "Wikidata candidate; entry not yet read on the page in a book source; source/rihla-ibn-battuta-khayriyya-1904 scan pp. 354-355, 378, 385, 412"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: "wikidata-import-wave2; ocr-harvest-2026-11-04"
