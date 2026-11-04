@@ -759,3 +759,9 @@ Promoted: abd-al-aziz-uthmani, abd-al-hamid-ii-uthmani, abd-al-majid-i-uthmani, 
 Promoted: abu-zayd-ibn-amr-al-dubaybi, al-harith-ibn-malik-ibn-al-barsa, al-hunayd-ibn-us, al-numan-ibn-abi-jial, al-yasir-ibn-rizam, awf-ibn-malik-al-ashjai, ghalib-ibn-abdullah-al-laythi, hassan-ibn-milla, jundab-ibn-makith, khalid-ibn-sufyan-al-hudhali, masada-ibn-hakama, mirdas-ibn-nahik, qays-ibn-al-musakhkhar, salma-bint-attab, umm-qirfa, unayf-ibn-milla.cite-check 16/16; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2074.** sweep continues through remaining trilingual drafts.
+
+### Batch 114 (4 Nov 2026, 15 records) — lib-muntazam-350-474-2 draft promotions (sweep worker)
+
+Promoted: abbad-al-taliqani, abu-al-saib-utba-hamadhani, al-hasan-al-zaydi-naqib, al-husayn-al-jall, al-husayn-al-tabari-faqih, al-qatiqi, hassan-ibn-mufarrij, ibn-al-tabari-al-marwazi, ibn-burayya, ibn-shahin-umar, ibn-thabit-al-muqri, ismail-al-khatbi, said-al-jannabi, tamam-ibn-muhammad-al-abbasi, ubayd-allah-ibn-maruf.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2089.** sweep continues through remaining trilingual drafts.
