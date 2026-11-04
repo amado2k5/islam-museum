@@ -35,7 +35,7 @@ perspectives:
       ar: "يقول طنطاوي إنه الراجح عند المحققين، وينقل عن القرطبي ترجيحه بأن الصلاة فُرضت بمكة ولم يُحفظ في الإسلام صلاة بغير الفاتحة {cite:tafsir-tantawi-wasit p.11} {cite:tafsir-tantawi-wasit p.12}. ويذكر الشوكاني من أدلته رواية الواحدي والثعلبي عن علي أنها نزلت بمكة، وحديث عمرو بن شرحبيل في أوائل الوحي، ورواية ابن الأنباري عن عبادة {cite:fath-al-qadir-dar-al-marifa p.12}."
       en: "Tantawi calls it the preferred view of careful scholars and quotes al-Qurtubi's argument that prayer was prescribed in Mecca and no prayer without al-Fatiha is known in Islam {cite:tafsir-tantawi-wasit p.11} {cite:tafsir-tantawi-wasit p.12}. Al-Shawkani lists among its proofs the report of al-Wahidi and al-Tha'labi from Ali that it came down in Mecca, the report of Amr ibn Shurahbil about the first revelations, and Ibn al-Anbari's report from Ubada {cite:fath-al-qadir-dar-al-marifa p.12}."
       ur: "طنطاوی اسے محققین کا راجح قول کہتے ہیں اور قرطبی کی یہ دلیل نقل کرتے ہیں کہ نماز مکہ میں فرض ہوئی اور اسلام میں فاتحہ کے بغیر کوئی نماز محفوظ نہیں {cite:tafsir-tantawi-wasit p.11} {cite:tafsir-tantawi-wasit p.12}۔ شوکانی اس کے دلائل میں واحدی اور ثعلبی کی علی سے روایت کہ یہ مکہ میں نازل ہوئی، ابتدائی وحی کے بارے میں عمرو بن شرحبیل کی روایت، اور عبادہ سے ابن الانباری کی روایت ذکر کرتے ہیں {cite:fath-al-qadir-dar-al-marifa p.12}۔"
-    holders: [person/al-qurtubi, person/muhammad-sayyid-tantawi]
+    holders: [person/al-qurtubi, person/muhammad-sayyid-tantawi, person/al-baghawi-al-husayn-ibn-muhammad]
     sources: [source/tafsir-tantawi-wasit, source/fath-al-qadir-dar-al-marifa]
   - tradition: sunni
     id: medinan-mujahid
@@ -58,11 +58,13 @@ perspectives:
     sources: [source/tafsir-tantawi-wasit, source/fath-al-qadir-dar-al-marifa]
 relations:
   - { type: mentions, target: concept/makki-wa-madani, sources: [source/fath-al-qadir-dar-al-marifa] }
-sources: [source/tafsir-tantawi-wasit, source/fath-al-qadir-dar-al-marifa]
+sources: [source/tafsir-tantawi-wasit, source/fath-al-qadir-dar-al-marifa, source/tahdhib-tafsir-baghawi-tayba-2009]
 provenance:
   layer: own-research
   source: "source/tafsir-tantawi-wasit PDF pp. 11–12; source/fath-al-qadir-dar-al-marifa PDF p. 12"
   generated_by: "Claude Code (OCR-harvest worker B)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/tahdhib-tafsir-baghawi-tayba-2009 PDF p. 7 (al-Baghawi: Meccan per most; Mujahid Medinan; revealed twice) — same worker, later book" }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

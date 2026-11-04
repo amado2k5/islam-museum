@@ -1,0 +1,28 @@
+id: work/al-asbila-bi-makka-wa-al-madina
+class: work
+kind: book
+label: { ar: "الأسبلة في العمارة الإسلامية بمكة المكرمة والمدينة المنورة", en: "The Sabils in the Islamic Architecture of Mecca and Medina" }
+summary:
+  ar: "دراسة تاريخية آثارية لمحمد حمزة إسماعيل الحداد (القاهرة، 2004) عن أسبلة الماء في مكة والمدينة وطرق الحج، في فصلين: تاريخي يتتبع السقايات والأسبلة عصراً عصراً، وآثاري يدرس طرزها {cite:haddad-asbila-makka-madina-2004 p.5} {cite:haddad-asbila-makka-madina-2004 p.6}."
+  en: "A historical and archaeological study by Muhammad Hamza Isma'il al-Haddad (Cairo, 2004) of the water sabils of Mecca, Medina and the pilgrim roads, in two chapters: a history of the siqayas and sabils period by period, and an archaeological study of their types {cite:haddad-asbila-makka-madina-2004 p.5} {cite:haddad-asbila-makka-madina-2004 p.6}."
+wings: [objects, place]
+themes: [architecture, sacred-space-and-pilgrimage, waqf, water-and-animals]
+regions: [arabia]
+languages: [ar]
+authors: [person/muhammad-hamza-ismail-al-haddad]
+composed: { edtf: "2004", calendar: gregorian, precision: year, status: historical, sources: [source/haddad-asbila-makka-madina-2004] }
+structure: "Introduction (pp. 7-10); ch. 1, historical study (pp. 13-34): Mecca from the Abbasid to the Saudi period, Medina from the Mamluk to Muhammad Ali's time; ch. 2, archaeological study (pp. 37-47): Abbasid (Siqayat al-Abbas), Mamluk (al-Mu'ayyad's sabil at the Haram, Qaytbay's sabil at Masjid al-Khayf), Ottoman and King Abd al-Aziz sabils; conclusion (pp. 49-52); notes (p. 53); figures and plates; sources (p. 69). Printed pages."
+relations:
+  - { type: mentions, target: concept/sabil, sources: [source/haddad-asbila-makka-madina-2004] }
+  - { type: mentions, target: building/siqayat-al-abbas, sources: [source/haddad-asbila-makka-madina-2004] }
+  - { type: mentions, target: building/sabil-of-al-muayyad-shaykh-mecca, sources: [source/haddad-asbila-makka-madina-2004] }
+  - { type: mentions, target: building/sabil-of-qaytbay-mina, sources: [source/haddad-asbila-makka-madina-2004] }
+  - { type: mentions, target: place/bir-ruma, sources: [source/haddad-asbila-makka-madina-2004] }
+sources: [source/haddad-asbila-makka-madina-2004]
+provenance:
+  layer: own-research
+  source: "al-Haddad 2004, PDF pp. 1-54 (title, contents, introduction, chapters 1-2, conclusion)"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
