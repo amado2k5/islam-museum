@@ -28,3 +28,10 @@ Part 3 (French occupation: entry of the French into Cairo 1213, the Cairo revolt
 ## Second pass (same run)
 - Vol. 3 (pdfarabic_106__3, 476 pp., md5 35e1a270f0a0..., text = scan - 32) -> source/ajaib-al-athar-moreh-v3; read scan pp. 58-62.
 - New: event/first-cairo-revolt-1213 (Sunday 11 Jumada I 1213 / 21 Oct 1798 per the editor's brackets, to Tuesday 23 Oct), ar/en/ur.
+
+## Third pass (worker J, run 3)
+- Vol. 3 read (scan pages): 9 (contents), 33-41 (opening of 1213: English warning, French landing at Alexandria, Bonaparte's proclamation, Shubrakhit skirmish, Imbaba and the flight from Cairo), 169-172 and 188-193 (killing of Kléber 21 Muharram 1215, the French trial papers, funeral, executions at Tell al-Aqarib, Menou, closing of al-Azhar).
+- Rewritten from draft cards: event/capture-of-alexandria-1798, event/battle-of-the-pyramids-1213 (both with sides, day dates from the editor's brackets).
+- New: work/bonaparte-proclamation-1213 (dated 13 Messidor VI = end of Muharram 1213; Jabarti's critique exists only in Mudda/Mazhar per the editor), event/assassination-of-kleber-1215 (execution date debated: 28 Prairial VIII per the verdict vs the funeral morning, Tue. 25 Muharram [18 June], per al-Jabarti), person/sulayman-al-halabi (perspectives: 'reckless vagrant' in Aja'ib vs 'the martyr Sulayman' in Mazhar, both from the editor's apparatus).
+- Stubs: person/napoleon-bonaparte, person/muhammad-kurayyim (obituary at vol. 3 line ~4023, not yet read), person/murad-bey, person/ibrahim-bey, person/jean-baptiste-kleber, person/jacques-abdallah-menou.
+- Next: Muhammad Kurayyim's obituary (1213 deaths), Heliopolis and the second Cairo revolt (Shawwal 1214, scan ~p. 130-160), Murad Bey's death (1216), French evacuation 1216, Muhammad Ali's investiture 1220 (vol. 3 end).
