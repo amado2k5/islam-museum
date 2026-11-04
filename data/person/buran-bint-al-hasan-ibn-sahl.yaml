@@ -10,11 +10,12 @@ periods: [period/abbasid-early]
 relations:
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on her entry in Kahhala's A'lam al-Nisa' from source/alam-al-nisa-kahhala-risala-1984-v1 PDF pp. 163"
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 486–490"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-23
-sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434]
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434, source/alam-al-nisa-kahhala-risala-1984-v1]
 status:
   review: published
   completeness: 3

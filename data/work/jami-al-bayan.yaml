@@ -1,12 +1,12 @@
 id: work/jami-al-bayan
 class: work
 kind: book
-label: { ar: "جامع البيان عن تأويل آي القرآن", en: "Jami' al-Bayan (Tafsir al-Tabari)" }
+label: { ar: "جامع البيان عن تأويل آي القرآن", en: "Jami' al-Bayan (Tafsir al-Tabari)", ur: "جامع البیان عن تاویل آی القرآن (تفسیرِ طبری)" }
 summary:
   ar: "بطاقة أولية لجامع البيان عن تأويل آي القرآن، تفسير الطبري الجامع لأقوال السلف وأمهات التفاسير؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Jami' al-Bayan 'an Ta'wil Ay al-Qur'an, al-Tabari's tafsir collecting the early authorities' readings, mother of the commentaries; its sources are not yet checked on the page."
 wings: []
-sources: [source/al-aalam, source/tarikh-islam-hasan-ibrahim]
+sources: [source/al-aalam, source/tarikh-islam-hasan-ibrahim, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
 external_ids: { wikidata: "Q4164550" }
 provenance:
   layer: own-research
@@ -14,4 +14,6 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 7–8, 1443–1445 (readings, language and grammar)" }
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
