@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/khitat-maqrizi-1998]
+sources: [source/khitat-maqrizi-1998, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q2279688
 provenance:
@@ -19,6 +19,7 @@ provenance:
   generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
   model: claude-haiku-5-5
   run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch16
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 66-67"]
 status:
   review: published
   completeness: 3

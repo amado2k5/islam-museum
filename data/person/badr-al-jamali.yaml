@@ -13,5 +13,10 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني (عارضة 50 داخل ترجمة الأفضل شاهنشاه)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-19
-sources: [source/wafayat-ayan, source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 46-49"]
+sources: [source/wafayat-ayan, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: built, target: building/bab-al-nasr, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: built, target: building/bab-al-futuh, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: built, target: building/bab-zuwayla, sources: [source/yeomans-islamic-cairo-2006] }

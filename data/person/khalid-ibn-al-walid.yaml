@@ -61,7 +61,7 @@ perspectives:
 sensitivity: contested
 external_ids:
   wikidata: Q26918
-sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy]
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999]
 education:
   did_you_know:
     ar: "قاد خالد بن الوليد خيل قريش في أحد ضد المسلمين، ثم أسلم فقاد جيوشهم في مؤتة وحروب الردة واليرموك."
@@ -71,8 +71,9 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
-status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
+status: { review: published, completeness: 3, generated_by: "Devin; 2026-10-11" }
 provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
   layer: own-research
   source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
   generated_by: Devin

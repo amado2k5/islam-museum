@@ -18,5 +18,6 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w07-batch7
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/encyclopaedia-of-islam-2]
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from radd-al-muhtar-bulaq-v4 PDF p. 21"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/encyclopaedia-of-islam-2, source/radd-al-muhtar-bulaq-v4]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; headword عُرْف complete on scan pp.11560-11567 (definition, verbal and practical custom, divisions, kinds for consideration, conditions). The customary-rules sub-entry continues to the cross-referenced usul appendix, which is not mined here. Next headword عَرَفات is a place, skipped. Footnote citations omitted" }

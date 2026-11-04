@@ -1,17 +1,39 @@
 id: work/al-tafsir-al-wasit
 class: work
 kind: book
-label: { ar: "التفسير الوسيط للقرآن الكريم", en: "al-Tafsir al-Wasit lil-Quran al-Karim" }
+label:
+  ar: "التفسير الوسيط للقرآن الكريم"
+  en: "al-Tafsir al-Wasit lil-Qur'an al-Karim (Tantawi)"
+  ur: "التفسیر الوسیط للقرآن الکریم (طنطاوی)"
 summary:
-  ar: "بطاقة أولية لـالتفسير الوسيط للقرآن الكريم؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for al-Tafsir al-Wasit lil-Quran al-Karim; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير كامل للقرآن في خمسة عشر مجلدًا كتبه محمد سيد طنطاوي في نحو خمسة عشر عامًا وفرغ منه بالقاهرة في 26 ربيع الأول 1407هـ (28 نوفمبر 1986م)؛ وصفه صاحبه بأنه تفسير «وسيط» علمي محرَّر من الأقوال الضعيفة، يبدأ بشرح الألفاظ ثم سبب النزول المقبول ثم المعنى الإجمالي، ويقدّم لكل سورة بتمهيد عن عدد آياتها ومكان نزولها وأسمائها ومقاصدها."
+  en: "A complete commentary on the Qur'an in fifteen volumes, written by Muhammad Sayyid Tantawi over some fifteen years and finished in Cairo on 26 Rabi' I 1407 AH (28 November 1986). Its author called it a 'middle-sized' scholarly commentary, purged of weak opinions, that explains the words, then gives any accepted occasion of revelation, then the overall meaning, and opens each sura with an introduction on its verse count, place of revelation, names and aims."
+  ur: "قرآن کی مکمل تفسیر، پندرہ جلدوں میں، جو محمد سید طنطاوی نے تقریباً پندرہ برس میں لکھی اور 26 ربیع الاول 1407ھ (28 نومبر 1986ء) کو قاہرہ میں مکمل کی۔ مصنف نے اسے «وسیط» (درمیانے حجم کی) علمی تفسیر کہا جو کمزور اقوال سے پاک ہو؛ اس میں پہلے الفاظ کی شرح، پھر مقبول سببِ نزول، پھر اجمالی معنی آتا ہے، اور ہر سورت سے پہلے اس کی آیات کی تعداد، مقامِ نزول، ناموں اور مقاصد پر تمہید ہے۔"
+genre: [tafsir]
+authors: [person/muhammad-sayyid-tantawi]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/tafsir-tantawi-wasit] }
+composed: { edtf: "1986-11-28", hijri: "1407-03-26", calendar: gregorian, precision: day, status: historical, note: "Completion date as printed by the author: «صباح الجمعة 26 من ربيع الأول سنة 1407هـ، 28 من نوفمبر 1986م»، القاهرة – مدينة نصر (PDF p. 6903). He says the writing took about fifteen years; the earliest dated preface is that of al-Tawba, 19 Shawwal 1395 / 24 October 1975 (PDF p. 2496).", sources: [source/tafsir-tantawi-wasit] }
+structure: "15 مجلدًا: (1) الفاتحة والبقرة؛ (2) آل عمران؛ (3) النساء؛ (4) المائدة؛ (5) الأنعام والأعراف؛ (6) الأنفال والتوبة؛ (7) من يونس إلى إبراهيم؛ (8) الحجر والنحل والإسراء والكهف؛ (9) مريم وطه والأنبياء والحج؛ (10) المؤمنون والنور والفرقان والشعراء والنمل والقصص؛ (11) من العنكبوت إلى فاطر؛ (12) يس والصافات وص والزمر وغافر وفصلت؛ (13) من الشورى إلى ق؛ (14) من الذاريات إلى التحريم؛ (15) جزءا تبارك وعم."
+relations:
+  - { type: relies_on, target: work/tafsir-ibn-kathir, sources: [source/tafsir-tantawi-wasit] }
+  - { type: relies_on, target: work/tafsir-al-manar, sources: [source/tafsir-tantawi-wasit] }
+  - { type: relies_on, target: work/tafsir-al-kabir-razi, sources: [source/tafsir-tantawi-wasit] }
+  - { type: relies_on, target: work/al-kashshaf, sources: [source/tafsir-tantawi-wasit] }
+  - { type: about, target: concept/tafsir, sources: [source/tafsir-tantawi-wasit] }
+  - { type: about, target: concept/tafsir-bil-mathur, sources: [source/tafsir-tantawi-wasit] }
+  - { type: about, target: concept/add-al-ay, sources: [source/tafsir-tantawi-wasit] }
+  - { type: about, target: question/why-no-basmala-in-surat-al-tawba, sources: [source/tafsir-tantawi-wasit] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
 external_ids: { wikidata: "Q120484118" }
+sources: [source/tafsir-tantawi-wasit, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "source/tafsir-tantawi-wasit, PDF pp. 1–10 (title page, author's introduction and method), 27–30, 680–681, 2322–2336, 2496–2503, 2770, 3061, 4392–4393, 5763–5764, 6353, 6903–6906. Earlier card: Wikidata import (Devin, wikidata-import-wave2); the Wikidata id Q120484118 was carried over and was not re-checked in this run (another work, by an Azhar committee, bears a similar title)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
