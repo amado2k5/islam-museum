@@ -1,0 +1,31 @@
+id: work/al-mustasfa
+class: work
+kind: book
+label:
+  ar: "المستصفى من علم الأصول"
+  en: "al-Mustasfa min Ilm al-Usul"
+  ur: "المستصفیٰ من علم الاصول"
+summary:
+  ar: "كتاب في أصول الفقه لأبي حامد محمد بن محمد الغزالي (450-505هـ)، ألّفه بعد عودته إلى التدريس استجابة لطلب طائفة من محصّلي الفقه، وجعله وسطاً بين كتابيه «تهذيب الأصول» و«المنخول»، جامعاً بين الترتيب والتحقيق. بناه على مقدمة منطقية في الحد والبرهان وأربعة أقطاب: الأحكام (الثمرة)، والأدلة (المثمر: الكتاب والسنة والإجماع)، وطرق الاستثمار (وجوه الدلالة الأربعة)، والمستثمر (المجتهد ومقابله المقلد). {cite:mustasfa-hafiz-v1 p.71} {cite:mustasfa-hafiz-v1 p.72} {cite:mustasfa-hafiz-v1 p.73} {cite:mustasfa-hafiz-v1 p.100} {cite:mustasfa-hafiz-v1 p.101}"
+  en: "A work of legal theory by Abu Hamid Muhammad ibn Muhammad al-Ghazali (450-505 AH), written after he returned to teaching at the request of a group of students of law, and meant to sit between his Tahdhib al-Usul and al-Mankhul, joining systematic order with careful inquiry. It is built on a logical introduction on definition and demonstration and four 'poles': rulings (the fruit), the sources (what bears fruit: the Book, the sunna and consensus), the ways of deriving (the four modes of indication), and the one who derives (the mujtahid, opposite whom stands the follower)."
+  ur: "ابو حامد محمد بن محمد غزالی (450-505ھ) کی اصولِ فقہ کی کتاب، جو انہوں نے تدریس کی طرف لوٹنے کے بعد فقہ کے طلبہ کی ایک جماعت کی فرمائش پر لکھی، اور اسے اپنی کتابوں «تہذیب الاصول» اور «المنخول» کے درمیان رکھا، ترتیب اور تحقیق کو جمع کرتے ہوئے۔ یہ حد اور برہان پر ایک منطقی مقدمے اور چار «اقطاب» پر مبنی ہے: احکام (ثمرہ)، ادلہ (مثمر: کتاب، سنت اور اجماع)، طرقِ استثمار (دلالت کے چار طریقے)، اور مستثمر (مجتہد، اور اس کے مقابل مقلد)۔"
+genre: [usul-al-fiqh]
+language: language/arabic
+authors: [person/al-ghazali-abu-hamid]
+structure: "Introduction (muqaddima) on logic: definition (hadd) and demonstration (burhan); Pole 1 al-ahkam (rulings); Pole 2 al-adilla (Book, sunna, consensus, with the 'supposed' sources); Pole 3 turuq al-istithmar (modes of indication: wording, implication, necessity, rationale/qiyas); Pole 4 al-mustathmir (the mujtahid and taqlid). Hafiz edition: vol. 1 introduction and rulings; vol. 3 Pole 3."
+wings: [ideas, words]
+themes: [development-of-law-theology-institutions, law-and-courts]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: rules_on, target: concept/iqtida-al-nahy-al-fasad, sources: [source/mustasfa-hafiz-v3] }
+  - { type: mentions, target: work/al-mankhul, sources: [source/mustasfa-hafiz-v1] }
+  - { type: mentions, target: person/al-baqillani, sources: [source/mustasfa-hafiz-v1] }
+sources: [source/mustasfa-hafiz-v1, source/mustasfa-hafiz-v3]
+provenance:
+  layer: own-research
+  source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202"
+  generated_by: "Claude Code (OCR-harvest worker D)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D)" }

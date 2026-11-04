@@ -1,0 +1,30 @@
+---
+id: work/kitab-al-kharaj-abu-yusuf
+lang: ar
+source_lang: ar
+translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "kitab-al-kharaj-salafiyya-1392 PDF pp. 1-7, 27-30, 135-141, section heads" }
+---
+## موجز
+
+«كتاب الخراج» للقاضي [[person/abu-yusuf-al-qadi|أبي يوسف يعقوب بن إبراهيم]] (113-182هـ)، صاحب الإمام [[person/abu-hanifa|أبي حنيفة]]، كتبه لأمير المؤمنين [[person/harun-al-rashid|هارون الرشيد]] الذي اقترح عليه إنشاءه. {cite:kitab-al-kharaj-salafiyya-1392 p.1}
+
+## سبب تأليفه
+
+يبدأ الكتاب: «هذا ما كتب به أبو يوسف إلى أمير المؤمنين هارون الرشيد»، ويذكر أن الخليفة سأله أن يضع له كتاباً جامعاً يعمل به في جباية الخراج والعشور والصدقات والجوالي وغير ذلك مما يجب عليه النظر فيه، وأنه أراد بذلك رفع الظلم عن رعيته والصلاح لأمرهم، فشرح له ما سأل وفسّره. {cite:kitab-al-kharaj-salafiyya-1392 p.5} ويشرح الناشر في الحاشية أن «الجوالي» جمع جالية، وأصلها الجماعة التي تفارق وطنها، ثم أُطلقت على الجزية. {cite:kitab-al-kharaj-salafiyya-1392 p.5}
+
+## موعظة الخليفة
+
+يقدّم أبو يوسف الكتاب بموعظة طويلة للخليفة: أن الله قلّده أمر هذه الأمة، وأن البنيان إذا أُسّس على غير التقوى هُدم، وأن الرعاة يؤدّون إلى ربهم ما يؤدّي إليهم رعيتهم، فلا يؤخّر عمل اليوم إلى غد، ويجعل الناس في أمر الله سواء القريب والبعيد، ويختار أمر الآخرة إذا تعارض مع أمر الدنيا، ويحذر الأمر بالهوى والأخذ بالغضب. {cite:kitab-al-kharaj-salafiyya-1392 p.5} {cite:kitab-al-kharaj-salafiyya-1392 p.6}
+
+## موضوعاته
+
+تدل عناوين الفصول على موضوعاته: [[concept/fay|الفيء]] و[[concept/kharaj|الخراج]]، وأرض الشام والجزيرة، والقطائع، وموات الأرض في الصلح والعنوة، والعسل والجوز واللوز، والصدقات، وبيع السمك في الآجام، وإجارة الأرض البيضاء وذات النخل، والجزائر في دجلة والفرات، والقنى والآبار والأنهار والشرب، والكلأ والمروج، و[[concept/jizya|الجزية]] ومن تجب عليه، والرفق ب[[concept/ahl-al-dhimma|أهل الذمة]]، ولباسهم وزيّهم، والمجوس وعبدة الأوثان وأهل الردة، والعشور، والكنائس والبيع والصلبان، والحكم في المرتد، وقتال أهل الشرك وأهل البغي وكيف يُدعون. {cite:kitab-al-kharaj-salafiyya-1392 p.27} {cite:kitab-al-kharaj-salafiyya-1392 p.44} {cite:kitab-al-kharaj-salafiyya-1392 p.64} {cite:kitab-al-kharaj-salafiyya-1392 p.71} {cite:kitab-al-kharaj-salafiyya-1392 p.84} {cite:kitab-al-kharaj-salafiyya-1392 p.103} {cite:kitab-al-kharaj-salafiyya-1392 p.135} {cite:kitab-al-kharaj-salafiyya-1392 p.137} {cite:kitab-al-kharaj-salafiyya-1392 p.139} {cite:kitab-al-kharaj-salafiyya-1392 p.141} {cite:kitab-al-kharaj-salafiyya-1392 p.144} {cite:kitab-al-kharaj-salafiyya-1392 p.150} {cite:kitab-al-kharaj-salafiyya-1392 p.196} {cite:kitab-al-kharaj-salafiyya-1392 p.209}
+
+## طريقته
+
+يقول أبو يوسف رأيه مخاطباً الخليفة «يا أمير المؤمنين»، ثم يسند ما يستدل به بقوله «حدثني» إلى شيوخه عن الصحابة والتابعين، كما في روايته عن غير واحد من علماء المدينة خبر مشاورة [[person/umar-ibn-al-khattab|عمر بن الخطاب]] في قسمة أرض العراق والشام. {cite:kitab-al-kharaj-salafiyya-1392 p.27} {cite:kitab-al-kharaj-salafiyya-1392 p.28} ويقرر في أول فصل الفيء أن الفيء عنده هو خراج الأرض. {cite:kitab-al-kharaj-salafiyya-1392 p.27}
+
+## الطبعة في المتحف
+
+الطبعة الرابعة من المطبعة السلفية بالقاهرة، 1392هـ، معتمدة على نسخة مخطوطة في الخزانة التيمورية مع معارضتها بطبعة بولاق سنة 1302هـ. {cite:kitab-al-kharaj-salafiyya-1392 p.1} {cite:kitab-al-kharaj-salafiyya-1392 p.4}

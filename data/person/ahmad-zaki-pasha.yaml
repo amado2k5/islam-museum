@@ -1,0 +1,23 @@
+id: person/ahmad-zaki-pasha
+class: person
+label: { ar: "أحمد زكي باشا", en: "Ahmad Zaki Pasha" }
+names:
+  - { kind: full, lang: ar, value: "أحمد زكي باشا" }
+gender: male
+roles: [scholar, writer]
+summary:
+  ar: "ناشر الجزء الأول من «مسالك الأبصار» لابن فضل الله العمري بالقاهرة سنة 1924م ضمن مشروعه «إحياء الآداب العربية»، ويذكر في مقدمته أنه بحث عن الكتاب في مكتبات أوروبا والقسطنطينية ربع قرن، وأنه عثر على الجزء الأول في سراي طوب قبو {cite:umari-masalik-1924 p.3} {cite:umari-masalik-1924 p.9}."
+  en: "Editor of the first volume of Ibn Fadl Allah al-Umari's Masalik al-absar, Cairo 1924, in his project 'Ihya' al-adab al-arabiyya', who says in his introduction that he searched the libraries of Europe and Constantinople for the book for a quarter of a century and found the first volume in the Topkapi palace."
+wings: [people, today]
+themes: [libraries-paper-and-the-book]
+regions: [egypt-nile]
+relations:
+  - { type: wrote_about, target: work/masalik-al-absar, sources: [source/umari-masalik-1924] }
+sources: [source/umari-masalik-1924]
+provenance:
+  layer: own-research
+  source: "source/umari-masalik-1924 scan pp. 3, 9-10"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

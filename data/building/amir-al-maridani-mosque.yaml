@@ -4,14 +4,12 @@ kind: mosque
 label:
   ar: "مسجد الأمير طنبغا المارداني"
   en: "Amir al-Maridani Mosque"
-summary:
-  ar: "بطاقة أولية لمسجد الأمير طنبغا المارداني بالقاهرة الذي بُني سنة ١٣٤٠م؛ من مساجد القاهرة المملوكية ولم تُراجع الصفحة بعد."
-  en: "Draft card for the Amir al-Maridani Mosque in Cairo, built in 1340; one of Cairo's Mamluk mosques per the cited encyclopedia, the page not yet checked."
+summary: { ar: "جامع الأمير ألطنبغا المارداني (1339-1340م) بين القلعة وباب زويلة، جامع ذو أروقة بحجاب مشربية في بيت الصلاة، ومئذنته أول مئذنة بجوسق مثمن وقمة بصلية صارت سمة المآذن المملوكية اللاحقة {cite:yeomans-islamic-cairo-2006 p.151} {cite:yeomans-islamic-cairo-2006 p.152}.", en: "The mosque of the amir al-Maridani (1339-1340) between the Citadel and Bab Zuwayla, a hypostyle mosque with a mashrabiyya screen before its prayer hall, whose minaret, with an octagonal pavilion and bulbous finial, set the pattern for later Mamluk minarets {cite:yeomans-islamic-cairo-2006 p.151} {cite:yeomans-islamic-cairo-2006 p.152}." }
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [architecture]
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q441410
 provenance:
@@ -20,6 +18,9 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0030
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 151-152"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1339/1340", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 151: mosque of al-Maridani (1340); map p. 151 gives 1339-40." }
+status_now: standing

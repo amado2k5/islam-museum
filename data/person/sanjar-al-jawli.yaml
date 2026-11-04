@@ -5,13 +5,11 @@ label:
   en: "Sanjar al-Jawli"
 roles: [ruler]
 gender: male
-summary:
-  ar: "بطاقة أولية لسنجر الجولي، أمير مملوكي غزة في القرن الرابع عشر، توفي سنة ١٣٤٥م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sanjar al-Jawli, the fourteenth-century Mamluk emir of Gaza, d. 1345; the source entry is not yet checked on the page."
+summary: { ar: "أمير مملوكي، صديق الأمير سلار، ولي غزة ثم حماة، وبنى خانقاه ومدرسة قرب جامع ابن طولون (1303-1304م) فيها قبره وقبر سلار؛ ومات سنة 1344م عند يومانز (والبطاقة الأولى من ويكي بيانات تجعلها 1345م) {cite:yeomans-islamic-cairo-2006 p.145}.", en: "Mamluk amir, friend of the amir Salar, governor of Gaza and later Hama, who built the khanqah-madrasa near the Mosque of Ibn Tulun (1303-1304) holding his and Salar's tombs; died 1344 according to Yeomans (the earlier Wikidata card gives 1345) {cite:yeomans-islamic-cairo-2006 p.145}." }
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q7418403
 provenance:
@@ -20,6 +18,9 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0043
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 p. 145"]
 status:
-  review: draft
+  review: published
   completeness: 1
+relations:
+  - { type: built, target: building/tomb-of-salar-and-sangar, sources: [source/yeomans-islamic-cairo-2006] }

@@ -10,7 +10,7 @@ summary:
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q16835182
 provenance:
@@ -19,6 +19,10 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 210-217"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1506/1507", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 217: complex of Amir Qurqumas (1506-7)." }
+status_now: standing
+location: place/eastern-cemetery-cairo
