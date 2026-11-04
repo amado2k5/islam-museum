@@ -1,0 +1,24 @@
+---
+id: concept/chaharbagh
+lang: ur
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker H), translation"]
+status:
+  review: published
+provenance:
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/rezavi-iranian-influence-indian-architecture-2002, pp. 129-131"
+---
+## تعریف
+چہار باغ (فارسی میں «چار باغ») ایسا باغ ہے جو پانی کی متقاطع نہروں اور روشوں سے چار حصوں میں بٹا ہو اور جس کے گرد دیواریں اور دروازے ہوں۔ [[person/syed-ali-nadeem-rezavi|سید علی ندیم رضوی]] اسے ان اہم ترین چیزوں میں شمار کرتے ہیں جو مغلوں نے ایرانی تیموری روایت سے لیں۔ {cite:rezavi-iranian-influence-indian-architecture-2002 p.129}
+
+## ہندوستان میں آمد
+بابر نے 1526ء کے بعد چہار باغ ہندوستان میں متعارف کرایا۔ اس کے جن باغوں کی نشاندہی ہوئی ہے ان میں باغِ فتح، دھولپور کا باغِ نیلوفر، آج کا رام باغ (آرام باغ یا باغِ گل افشاں، جسے بعد میں نورجہاں نے مرمت کرا کے باغِ نور افشاں نام دیا) اور باغِ ہشت بہشت شامل ہیں؛ آخری دونوں [[place/agra|آگرہ]] میں جمنا کے بائیں کنارے پر ہیں۔ {cite:rezavi-iranian-influence-indian-architecture-2002 p.129} {cite:rezavi-iranian-influence-indian-architecture-2002 p.130}
+
+## مقبروں کا ماحول
+چہار باغ مغل مقبروں کا معیاری ماحول بن گیا، جس کے مرکز میں ایک بڑا چبوترا ہوتا: دہلی میں [[building/humayun-tomb|ہمایوں کا مقبرہ]]، سکندرہ میں اکبر اور مریم کے مقبرے، آگرہ میں اعتماد الدولہ کا مقبرہ اور شاہدرہ لاہور میں جہانگیر کا مقبرہ۔ تاج محل میں توجہ مرکز سے ہٹ کر کنارے یعنی دریا کے رخ پر آ گئی جہاں مقبرہ بنایا گیا۔ {cite:rezavi-iranian-influence-indian-architecture-2002 p.129}
+
+## شہروں کا نمونہ
+رضوی کی رائے میں چہار باغ نہ صرف مغل شہری منظر کا جزو بنا بلکہ اس نے خود مغل شہروں کی منصوبہ بندی کو بھی متاثر کیا، اور فتح پور سیکری اور شاہجہان آباد کی ترتیب میں اس کی مرکز گریز تناظر کو اپنایا گیا۔ {cite:rezavi-iranian-influence-indian-architecture-2002 p.130} {cite:rezavi-iranian-influence-indian-architecture-2002 p.131}
