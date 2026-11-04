@@ -1,0 +1,29 @@
+id: work/madarik-al-tanzil
+class: work
+kind: book
+label: { ar: "مدارك التنزيل وحقائق التأويل (تفسير النسفي)", en: "Madarik al-Tanzil wa-Haqa'iq al-Ta'wil (Tafsir al-Nasafi)", ur: "مدارک التنزیل وحقائق التاویل (تفسیر نسفی)" }
+authors: [person/hafiz-al-din-al-nasafi]
+genre: [tafsir]
+summary:
+  ar: "تفسير أبي البركات حافظ الدين عبد الله بن أحمد النسفي (ت 710هـ)، قال في مقدمته إنه سُئل كتاباً وسطاً في التأويلات جامعاً لوجوه الإعراب والقراءات، متضمناً لدقائق البديع والإشارات، حالياً بأقاويل أهل السنة والجماعة، خالياً عن أباطيل أهل البدع، ليس بالطويل الممل ولا بالقصير المخل، فأتمّه في مدة يسيرة {cite:tafsir-nasafi-shaar-ed p. 3}؛ ويعدّه محققاه اختصاراً للكشاف وأنوار التنزيل ترك ما في الكشاف من الاعتزال، وجرى على الحنفية في الأحكام والماتريدية في العقائد {cite:tafsir-nasafi-tahqiq-2018-v1 p. 5-6, 13-16}."
+  en: "The Qur'an commentary of Abu al-Barakat Hafiz al-Din 'Abd Allah ibn Ahmad al-Nasafi (d. 710 AH); in his preface he says he was asked for a middle-sized book of interpretation combining the grammatical analyses and the readings, containing the subtleties of rhetoric and allusion, adorned with the views of Ahl al-Sunna wa-al-Jama'a and free of the falsehoods of innovators, neither tediously long nor deficiently short, and that he finished it in a short time {cite:tafsir-nasafi-shaar-ed p. 3}; its editors describe it as an abridgement of al-Kashshaf and Anwar al-Tanzil that drops al-Kashshaf's Mu'tazili views and follows the Hanafis in law and the Maturidis in creed {cite:tafsir-nasafi-tahqiq-2018-v1 p. 5-6, 13-16}."
+  ur: "ابو البرکات حافظ الدین عبد اللہ بن احمد نسفی (وفات 710ھ) کی تفسیر؛ مقدمے میں وہ کہتے ہیں کہ ان سے تاویلات میں ایک درمیانی کتاب کی فرمائش کی گئی جو اعراب اور قراءات کے وجوہ کی جامع، بدیع اور اشارات کی باریکیوں پر مشتمل، اہل السنۃ والجماعۃ کے اقوال سے آراستہ اور اہلِ بدعت کی باطل باتوں سے خالی ہو، نہ اکتا دینے والی لمبی نہ مخل حد تک مختصر، اور انہوں نے اسے تھوڑی مدت میں مکمل کیا {cite:tafsir-nasafi-shaar-ed p. 3}؛ اس کے محققین اسے کشاف اور انوار التنزیل کا اختصار بتاتے ہیں جس میں کشاف کے اعتزالی خیالات چھوڑ دیے گئے، اور احکام میں حنفیہ اور عقائد میں ماتریدیہ کی پیروی کی گئی {cite:tafsir-nasafi-tahqiq-2018-v1 p. 5-6, 13-16}۔"
+made: { by_muslims: true, basis: documented, sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
+language: language/arabic
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+relations:
+  - { type: relies_on, target: work/al-kashshaf, note: "إمامه في تفسيره الكشاف، كما يقول المحقق {cite:tafsir-nasafi-tahqiq-2018-v1 p. 16}", sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
+  - { type: relies_on, target: work/anwar-al-tanzil, sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
+  - { type: relies_on, target: work/tabsirat-al-adilla, sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
+  - { type: critic_of, target: person/al-zamakhshari, note: "يرد على المعتزلة ومنهم الزمخشري نفسه، كما يقول المراجع {cite:tafsir-nasafi-tahqiq-2018-v1 p. 6}", sources: [source/tafsir-nasafi-tahqiq-2018-v1] }
+provenance:
+  layer: own-research
+  source: "Dar Tahqiq al-Kitab 2018 vol. 1, introductions pp. 5-17 and manuscript description p. 19; al-Sha'ar ed. pp. 1-6 (unsigned introduction and the author's preface)"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/tafsir-nasafi-tahqiq-2018-v1, source/tafsir-nasafi-shaar-ed, source/madarik-al-tanzil]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
