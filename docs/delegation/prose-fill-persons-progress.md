@@ -460,3 +460,9 @@ Promoted: abd-al-barr-ibn-al-shihna, ahmad-ibn-al-askari-hanbali, amir-ibn-muham
 Promoted: shihab-turki-tarabulsi, taqi-ibn-zurayq.cite-check 2/2; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1272.** sweep continues through remaining trilingual drafts.
+
+### Batch 70 (4 Nov 2026, 25 records) — lib-shadharat-batch-127 draft promotions (sweep worker)
+
+Promoted: abu-ali-al-shalubin, al-harimi-abu-mansur, al-jawad-yunus, al-khunaji, al-kurdari, al-malik-al-mansur-ibn-shirkuh, al-malik-al-mughith-umar, al-malik-al-muzaffar-ghazi, al-mutadid-almohad, al-rafii-jili, al-sakhawi-alam, al-sarifini, ali-al-qifti, diya-al-din-al-maqdisi, ibn-abi-al-dam, ibn-al-battar, ibn-al-dabbagh, ibn-al-najjar, ibn-rawaha-izz, ismail-ibn-sawdakin, karima-bint-al-haqbaq, muin-al-din-ibn-juwayni, sayf-al-din-ibn-qudama, sultan-al-balabakki, taj-al-din-ibn-hamuwayh.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1297.** sweep continues through remaining trilingual drafts.
