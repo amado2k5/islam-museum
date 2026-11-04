@@ -36,3 +36,8 @@ mm-shaytan-yahkum, mm-quran-kaen-hay (0379Pdf and alfirdwsiy2018 items byte-iden
 
 - mm-lughz-alhayat (item AAlexandrina-103443, Dar al-Awda, rights 1986): source/mm-lughz-al-hayat-awda-1986; work/lughz-al-hayat with ar/en/ur prose; his Darwin critique added to question/is-human-evolution-compatible-with-islam (his perspective item). Printed = PDF − 2.
 - mm-quran-kaen-hay (item 0379Pdf = alfirdwsiy2018 by md5; Dar al-Ma'arif, deposit 1993/3199): source/mm-quran-kain-hayy-maarif-1993; work/al-quran-kain-hayy with ar/en/ur prose. The chapter "إسرائيل تحرف الأناجيل" is described as the author's unverified claim. Lead: identify the Bible editions he compares.
+
+## Batch 5 (worker G, 2026-11-04)
+
+- mm-islam-fi-khandaq (item book146, Kitab al-Yawm / Dar Akhbar al-Yawm, deposit 1994/2155): source/mm-islam-fi-khandaq-akhbar-1994; work/al-islam-fi-khandaq with ar/en/ur prose; his hudud view and his eschatological reading of al-Tawba 33 and al-Isra' 7 placed in perspectives with the other views marked not yet documented. Lead: his attribution of a hudud-suspension view to al-Izz ibn Abd al-Salam is unchecked (no museum record for al-Izz yet).
+- mm-insan-wal-zill (item AAlexandrina-110516, 2nd ed. Dar al-Ma'arif, undated): source/mm-insan-wal-zill-maarif-ed2; work/al-insan-wal-zill (play) with ar/en/ur prose.
