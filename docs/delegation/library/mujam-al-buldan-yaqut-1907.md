@@ -26,3 +26,7 @@ Doubts/notes: Balkh's founder name read "Uhrasf" (Luhrasp meant), flagged in pro
 ## Next step
 
 Further entries in alif/ba/ta with thin museum records (e.g. Istakhr p. ~278, Arbil p. 176, al-Anbar, Baalbek, Bust, Bilbays, Tabuk p. 769, Tihama p. 840); the big entries Basra p. 596, Baghdad p. 634, Antakiya p. 357, Isfahan p. 273, Badr p. 492 for existing rich records.
+
+## Extra pass (worker J, 4 Nov 2026)
+
+- Enriched place/irbil (scan pp. 176-177: name, citadel, Kokburi's lower town, inhabitants, water, al-Mustawfi), person/muzaffar-al-din-kokburi (p. 177: Yaqut's attributed judgement on his character), place/bilbays (p. 666: vocalization, distance from Fustat, Abs ibn Baghid, conquest 18 or 19 AH). Irbil coordinates and the al-Mutanabbi verses were not reproduced.

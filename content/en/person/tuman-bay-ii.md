@@ -14,3 +14,5 @@ The date of his execution in the data is 923 AH, and the Common Era conversion i
 
 ## In al-Salabi
 Al-Salabi records that Selim sent him from Syria demanding obedience to the Ottoman state; the Mamluks mocked then killed his envoy, and Selim resolved on war {cite:dawlat-uthmaniyya-salabi p. 187}. To the defeated Tuman Bay Selim said: «I only came upon you with the ulema's fatwa — I was bound for jihad against the Rafida and the fujjar until your amir al-Ghawri marched into my inherited kingdom, so once assured I left the Rafida and marched on him» {cite:dawlat-uthmaniyya-salabi p. 186-187}.
+## In Yeomans
+After al-Ghuri's death at Marj Dabiq his viceroy Tuman Bay was proclaimed sultan in Cairo but could not stop the Ottomans; the Mamluks were defeated at Raydaniyya near Cairo in 1517, Selim offered him the viceroyalty if he recognised Selim as sultan of Egypt, he refused, Selim entered Cairo, and Tuman Bay was hanged at [[building/bab-zuwayla|Bab Zuwayla]]. {cite:yeomans-islamic-cairo-2006 p.232} He was buried in [[building/mausoleum-sabil-kuttab-al-ghouri|al-Ghuri's mausoleum]]. {cite:yeomans-islamic-cairo-2006 p.229}

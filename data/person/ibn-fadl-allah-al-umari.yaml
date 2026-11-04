@@ -28,12 +28,13 @@ relations:
   - { type: participated_in, target: event/umari-retirement-works-743, role: "المصنف المعتزل", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/umari-jerusalem-plague-748, role: "المسافر بأهله", sources: [source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/death-ibn-fadl-allah-umari-749, role: "المتوفى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
-provenance:
-  layer: own-research
-  source: "مسالك الأبصار (ط 1924) مقدمة المؤلف ص 14"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-geo-umari-1, lib-durar-kamina-batch-1-2-2026-10-31
 external_ids:
   wikidata: Q2658869
 sources: [source/umari-masalik-1924, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) مقدمة المؤلف ص 14; source/umari-masalik-1924 scan pp. 44-46, 137-139"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "lib-geo-umari-1, lib-durar-kamina-batch-1-2-2026-10-31; ocr-harvest-2026-11-04"
