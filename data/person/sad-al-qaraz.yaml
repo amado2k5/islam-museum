@@ -1,0 +1,26 @@
+id: person/sad-al-qaraz
+class: person
+label: { ar: "سعد القرظ المؤذن", en: "Sa'd al-Qaraz, the mu'adhdhin", ur: "سعد القرظ مؤذن" }
+names:
+  - { kind: laqab, lang: ar, value: "سعد القرظ" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "سعد القرظ، مؤذن رسول الله؛ يروي عنه حفيده عبد الرحمن بن عمار أوصاف أذان بلال وإقامته وصلاة العيدين في عهد النبي، ويروي الزهري أنه كان مؤذناً لأهل قباء فنقله عمر بن الخطاب مؤذناً لمسجد النبي {cite:mustadrak-ilmiyya-ata-v3 p. 703-704}."
+  en: "Sa'd al-Qaraz, the Prophet's mu'adhdhin. His grandson 'Abd al-Rahman ibn 'Ammar transmits from him descriptions of Bilal's call to prayer and iqama and of the two festival prayers in the Prophet's time; al-Zuhri reports that he was the mu'adhdhin of Quba until 'Umar ibn al-Khattab moved him to be mu'adhdhin of the Prophet's Mosque {cite:mustadrak-ilmiyya-ata-v3 p. 703-704}."
+  ur: "سعد القرظ، رسول اللہ کے مؤذن؛ ان کے پوتے عبد الرحمن بن عمار ان سے بلال کی اذان و اقامت اور عہدِ نبوی میں عیدین کی نماز کی تفصیلات روایت کرتے ہیں، اور زہری کے مطابق وہ اہلِ قبا کے مؤذن تھے یہاں تک کہ عمر بن خطاب نے انہیں مسجدِ نبوی کا مؤذن بنا دیا {cite:mustadrak-ilmiyya-ata-v3 p. 703-704}۔"
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/quba, note: "كان مؤذناً لأهل قباء {cite:mustadrak-ilmiyya-ata-v3 p. 704}", sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: lived_in, target: place/medina, sources: [source/mustadrak-ilmiyya-ata-v3] }
+provenance:
+  layer: own-research
+  source: "al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 703-704, hadiths 6554-6555 with al-Dhahabi's notes"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

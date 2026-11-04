@@ -1,17 +1,40 @@
 id: work/kitab-al-tawhid-ibn-abd-al-wahhab
 class: work
 kind: book
-label: { ar: "كتاب التوحيد", en: "Kitab al-Tawhid (Muhammad ibn Abd al-Wahhab)" }
+label: { ar: "كتاب التوحيد الذي هو حق الله على العبيد", en: "Kitab al-Tawhid (Muhammad ibn 'Abd al-Wahhab)", ur: "کتاب التوحید (محمد بن عبد الوہاب)" }
 summary:
-  ar: "بطاقة أولية لـكتاب التوحيد؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Kitab al-Tawhid (Muhammad ibn Abd al-Wahhab); its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q135475764" }
+  ar: "كتاب محمد بن عبد الوهاب (1115–1206هـ) في توحيد العبادة وما ينافيه، في ستة وستين باباً، يسوق في كل باب آيات وأحاديث وآثاراً بلا أسانيد، ثم يستخرج منها «مسائل» مرقمة: من فضل التوحيد وتفسير «لا إله إلا الله»، إلى التمائم والرقى والتبرك بالأشجار والأحجار والذبح والنذر والاستغاثة بغير الله، والشفاعة، والغلو في الصالحين وقبورهم، والسحر والكهانة والتطير والتنجيم، والرياء، والألفاظ، والقدر، والتصوير، والحلف، وختمه بباب عظمة الله {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 7-9} {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 153-157}."
+  en: "Muhammad ibn 'Abd al-Wahhab's (1115–1206 AH) book on the oneness of worship and what contradicts it, in sixty-six chapters; each brings verses, reports and sayings of the early generations without chains and then draws numbered 'points' (masa'il) from them. It runs from the merit of tawhid and the meaning of 'there is no god but God' through amulets and incantations, seeking blessing from trees and stones, sacrifice, vows and calling for help on other than God, intercession, excess regarding the righteous and their graves, sorcery, soothsaying, omens and astrology, ostentation, forms of speech, decree, image-making and oaths, and closes with a chapter on God's majesty {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 7-9} {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 153-157}."
+  ur: "محمد بن عبد الوہاب (1115–1206ھ) کی کتاب جو توحیدِ عبادت اور اس کے منافی امور پر چھیاسٹھ ابواب میں ہے؛ ہر باب میں آیات، احادیث اور آثار بغیر سند کے لائے جاتے ہیں اور پھر ان سے نمبر وار «مسائل» نکالے جاتے ہیں۔ یہ فضیلتِ توحید اور «لا الہ الا اللہ» کی تفسیر سے شروع ہو کر تعویذ و دم، درختوں اور پتھروں سے تبرک، ذبح، نذر اور غیر اللہ سے استغاثہ، شفاعت، صالحین اور ان کی قبروں میں غلو، جادو، کہانت، بدشگونی اور نجوم، ریا، الفاظ، تقدیر، تصویر اور قسم تک جاتی ہے، اور اللہ کی عظمت کے باب پر ختم ہوتی ہے {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 7-9} {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 153-157}۔"
+genre: [creed]
+made: { by_muslims: true, basis: documented, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+authors: [person/muhammad-ibn-abd-al-wahhab]
+language: language/arabic
+structure: "66 باباً بلا مقدمة إلا البسملة والحمدلة (ص 7)؛ يبدأ بـ«كتاب التوحيد» وآيات الذاريات 56 والنحل 36 والإسراء 23–24 والنساء 36 والأنعام 151–153 وحديث معاذ (ص 7–9)، وكل باب يُختم بـ«فيه مسائل» مرقمة. وفهرس الأبواب في نشرة جامعة الإمام ص 153–157 (الصفحات المطبوعة)."
+editions: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university]
+wings: [words, ideas]
+themes: [creed]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+sensitivity: contested
+relations:
+  - { type: mentions, target: concept/tawhid, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+  - { type: mentions, target: concept/shirk, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+  - { type: mentions, target: concept/taghut, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university], note: "المسألة السابعة والثامنة من الباب الأول، ص 9" }
+  - { type: mentions, target: concept/tawidh-amulets-and-incantations, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university], note: "البابان 6 و7، ص 27–31" }
+  - { type: mentions, target: concept/tabarruk, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university], note: "الباب 8، ص 32–34" }
+  - { type: mentions, target: concept/shafaa, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university], note: "الباب 16، ص 51–53" }
+  - { type: mentions, target: concept/kahana, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+  - { type: mentions, target: concept/tatayyur-omens, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+  - { type: mentions, target: concept/riya, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+  - { type: mentions, target: concept/tasweer-images-and-picturing, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university] }
+  - { type: mentions, target: person/ibn-taymiyya, sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university], note: "ينقل في باب الشفاعة كلام «أبي العباس» ابن تيمية، ص 51–52" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "Kitab al-Tawhid, Imam Muhammad ibn Saud Islamic University edition: title page, printed pp. 5–9, 27–35, 51–54, 150–151, 153–157 (PDF pp. 1–11, 29–37, 53–56, 152–159)"
+  generated_by: "Claude Code (OCR-harvest worker K)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q135475764" }
+sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university, source/al-aalam]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K); first card by Devin (SWE-2 Medium)" }

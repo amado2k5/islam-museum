@@ -28,5 +28,5 @@ relations:
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-213; al-Raheeq al-Makhtum p. 425", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 425; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/mustadrak-ilmiyya-ata-v3]
+status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 425; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213; enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 708-709" }

@@ -3,6 +3,7 @@ id: concept/tawidh-amulets-and-incantations
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "kitab-al-tawhid-ibn-abd-al-wahhab-imam-university pp. 27–31 (section added; earlier text by its original authors)" }
 ---
 
 ## الموجز
@@ -11,3 +12,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 ينكر الشيخ ما رآه في بعض القرى والبوادي والمدن العربية من كفٍّ مطبوعة على الأبواب لطرد العين، وحدوة فرس معلّقة، وسلسلة فيها معوّذات علّقتها أم على ابنها الذي لا يصلي، وسوار في يد شاب يسميه «حظاظة» ويرى فيه تشبهًا بزينة النساء، ويرى أن هذه عادات لا علاقة لها بدين الله، وهذا رأيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:09:00} ويعدّ معها عادات أخرى بلا أصل في رأيه: رفع السجادة بعد الصلاة لأن الملائكة تحملها، والمضمضة بعد الشاي أو القهوة قبل الصلاة، وينبّه المدخنين ألا يدخلوا المسجد ورائحة السجائر في أفواههم لأن الملائكة تتأذى مما يتأذى منه بنو آدم. {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:10:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:10:30}
+
+## في «كتاب التوحيد» لمحمد بن عبد الوهاب
+يعقد [[person/muhammad-ibn-abd-al-wahhab|محمد بن عبد الوهاب]] في [[work/kitab-al-tawhid-ibn-abd-al-wahhab|كتاب التوحيد]] باباً في لبس الحلقة والخيط ونحوهما لرفع البلاء أو دفعه، يروي فيه حديث عمران بن حصين في الحلقة من الصُّفر، وحديث عقبة بن عامر «من تعلق تميمة فلا أتم الله له»، ويعدّ ذلك في مسائله من الشرك الأصغر. {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 27-28} ثم باباً في الرقى والتمائم يروي فيه حديث ابن مسعود «إن الرقى والتمائم والتولة شرك»، ويفسّر التمائم بأنها شيء يُعلّق على الأولاد من العين، والتولة بأنها شيء يزعمون أنه يحبّب المرأة إلى زوجها. {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 29-30} ويذكر أن الرقى التي خلت من الشرك رخّص فيها النبي من العين والحمة، وأن التميمة إذا كانت من القرآن فقد رخّص فيها بعض السلف ولم يرخّص فيها بعضهم، منهم ابن مسعود، وينقل عن إبراهيم النخعي: «كانوا يكرهون التمائم كلها، من القرآن وغير القرآن»، ويقول إن مراده أصحاب ابن مسعود. {cite:kitab-al-tawhid-ibn-abd-al-wahhab-imam-university p. 29-31}
