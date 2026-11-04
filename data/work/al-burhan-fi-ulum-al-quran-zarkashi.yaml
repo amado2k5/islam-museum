@@ -1,17 +1,32 @@
 id: work/al-burhan-fi-ulum-al-quran-zarkashi
 class: work
 kind: book
-label: { ar: "البرهان في علوم القرآن", en: "Al-Burhan fi Ulum al-Qur'an (al-Zarkashi)" }
+label: { ar: "البرهان في علوم القرآن", en: "Al-Burhan fi Ulum al-Qur'an (al-Zarkashi)", ur: "البرہان فی علوم القرآن (زرکشی)" }
 summary:
-  ar: "بطاقة أولية للبرهان في علوم القرآن لبدر الدين الزركشي، جامع علوم التنزيل ومصدر السيوطي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Badr al-Din al-Zarkashi's al-Burhan fi ulum al-Qur'an, the foundational encyclopedia of Qur'anic sciences; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب بدر الدين الزركشي (745–794هـ) في علوم القرآن، في سبعة وأربعين نوعًا من سبب النزول إلى معرفة الأدوات؛ قصد به أن يسد ما فات المتقدمين من وضع كتاب جامع لأنواع علوم القرآن كما وُضع ذلك في علوم الحديث، ليكون مفتاحًا للمفسر. وقف عليه السيوطي فبنى عليه «الإتقان»."
+  en: "Badr al-Din al-Zarkashi's (745–794 AH) book on the Qur'anic sciences, in forty-seven types from the occasions of revelation to the particles; he meant it to fill what earlier scholars had missed — a book gathering the types of Qur'anic sciences, as had been done for hadith — as a key for the exegete. Al-Suyuti came upon it and built his al-Itqan on it."
+  ur: "بدر الدین زرکشی (745–794ھ) کی علومِ قرآن پر کتاب، سینتالیس انواع میں، سببِ نزول سے حروف و ادوات کی معرفت تک؛ اس کا مقصد وہ کمی پوری کرنا تھا جو متقدمین سے رہ گئی تھی — علومِ قرآن کی انواع پر جامع کتاب، جیسی علومِ حدیث پر لکھی گئی — تاکہ یہ مفسر کے لیے کلید ہو۔ سیوطی کو یہ ملی تو انہوں نے «الاتقان» کی بنیاد اس پر رکھی۔"
+genre: [ulum-al-quran]
+authors: [person/badr-al-din-al-zarkashi]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/burhan-dar-al-hadith-2006] }
+structure: "47 types (anwa'), listed in the author's preface: 1 occasions of revelation … 9 Meccan and Medinan … 13 collection … 23 grounds of the readings … 34 abrogation … 37 ambiguous verses on the attributes … 38 inimitability … 47 particles."
+relations:
+  - { type: about, target: concept/ulum-al-quran, sources: [source/burhan-dar-al-hadith-2006] }
+  - { type: about, target: question/is-al-itqan-an-abridgement-of-al-burhan, sources: [source/burhan-dar-al-hadith-2006, source/thaqafat-al-mufassir-zarkashi-alexandria] }
+  - { type: influenced, target: work/al-itqan-fi-ulum-al-quran, sources: [source/thaqafat-al-mufassir-zarkashi-alexandria] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
 external_ids: { wikidata: "Q22689165" }
+sources: [source/al-aalam, source/burhan-dar-al-hadith-2006, source/thaqafat-al-mufassir-zarkashi-alexandria]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/burhan-dar-al-hadith-2006 PDF pp. 5–7, 9–10, 15–21; source/thaqafat-al-mufassir-zarkashi-alexandria PDF pp. 3, 142–145. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

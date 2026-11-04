@@ -26,3 +26,6 @@ Tantawi reports a third view, that it came down once in Mecca when prayer was pr
 - **Sunni: a view given by Tantawi and al-Shawkani**: revealed twice, reconciling the reports {cite:tafsir-tantawi-wasit p.11} {cite:fath-al-qadir-dar-al-marifa p.12}.
 - **Not yet given here**: these two sources give no verdict on the chains of these reports, and academic studies of the order of revelation have not yet been added.
 :::
+
+## In al-Baghawi
+At the start of his commentary on al-Fatiha, [[person/al-baghawi-al-husayn-ibn-muhammad|al-Baghawi]] says it is Meccan according to most, that Mujahid said Medinan, and that it is said to have come down twice, once in Mecca and once in Medina; he explains its name "the Seven Oft-Repeated" by its being seven verses by the scholars' agreement and repeated in prayer. {cite:tahdhib-tafsir-baghawi-tayba-2009 p.7}

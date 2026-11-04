@@ -1,0 +1,27 @@
+id: work/al-binaya-sharh-al-hidaya
+class: work
+kind: book
+label: { ar: "البناية في شرح الهداية", en: "al-Binaya fi Sharh al-Hidaya", ur: "البنایہ فی شرح الہدایہ" }
+summary:
+  ar: "شرح بدر الدين العيني على «الهداية» للمرغيناني في عشر مجلدات، يتوسع فيه جداً في تخريج أحاديث الأحكام وبيان مذاهب علماء الأمصار، كما تصفه الترجمة المطبوعة مع عمدة القاري {cite:umdat-qari-ilmiyya-2001-v1 p. 17}."
+  en: "Badr al-Din al-'Ayni's commentary on al-Marghinani's al-Hidaya in ten volumes, very full in documenting the hadiths of rulings and setting out the schools of the scholars of the great cities, as the biography printed with 'Umdat al-Qari describes it {cite:umdat-qari-ilmiyya-2001-v1 p. 17}."
+  ur: "بدر الدین عینی کی مرغینانی کی «الہدایہ» پر دس جلدوں میں شرح، جس میں احکام کی احادیث کی تخریج اور شہروں کے علماء کے مذاہب کا بہت تفصیلی بیان ہے، جیسا کہ عمدۃ القاری کے ساتھ چھپا ترجمہ اسے بیان کرتا ہے {cite:umdat-qari-ilmiyya-2001-v1 p. 17}۔"
+language: language/arabic
+authors: [person/badr-al-din-al-ayni]
+genre: [fiqh]
+made: { by_muslims: true, basis: documented, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+wings: [words]
+themes: [law-and-courts]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+  - { type: commentary_on, target: work/al-hidayah-marghinani, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: mentions, target: person/al-daraqutni, note: "قال فيه في مبحث القراءة إنه مستحق للتضعيف", sources: [source/sunan-daraqutni-ibn-hazm-2011] }
+provenance:
+  layer: own-research
+  source: "'Umdat al-Qari, Dar al-Kutub al-'Ilmiyya 2001, vol. 1 p. 17"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/umdat-qari-ilmiyya-2001-v1, source/sunan-daraqutni-ibn-hazm-2011]
+status: { review: published, completeness: 1, generated_by: "Claude Code (OCR-harvest worker A)" }
