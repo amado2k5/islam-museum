@@ -846,3 +846,9 @@ Promoted: abd-allah-ibn-malik-al-jaysh-ani, abu-al-zinad, al-aswad-ibn-yazid-al-
 Promoted: abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, adi-ibn-hatim, al-bara-ibn-malik, arwa-bint-abd-al-muttalib, buraydah-ibn-al-husayb, dimam-ibn-thalaba, kab-ibn-zuhayr, rayhana-bint-zayd, thumama-ibn-uthal, umm-atiyya, umm-ruman, usama-ibn-zayd, uthman-ibn-talha, zaynab-bint-khuzayma.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2278.** sweep continues through remaining trilingual drafts.
+
+### Batch 128 (4 Nov 2026, 14 records) — lib-shadharat-batch-116 draft promotions (sweep worker)
+
+Promoted: abu-al-husayn-al-maqdisi-zahid, abu-sad-al-naysaburi, al-balansi-abu-al-hasan, al-batruji-abu-jafar, al-jawzaqani-husayn, al-karukhi, al-kashmihani, al-mubarak-ibn-kamil, al-nayhi-imad-al-din, burhan-al-din-al-balkhi, ibn-al-qaysarani-muhammad, ibn-al-sallar, ibn-munir-al-tarabulsi, sibt-al-khiyat.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2292.** sweep continues through remaining trilingual drafts.
