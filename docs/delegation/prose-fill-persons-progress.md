@@ -430,3 +430,9 @@ Promoted: ubayd-allah-ibn-jibril, umar-ibn-al-ash-ath-al-taymi, umar-ibn-al-muza
 Promoted: abd-allah-ibn-dinar, ahmad-muhammad-shakir, ali-ibn-harb, ali-ibn-mabad-ibn-shaddad, awn-ibn-abd-allah-ibn-utba, bakr-ibn-abd-allah-al-muzani, fatima-bint-abbas-al-baghdadiyya, hafs-ibn-ghiyath, hajjaj-ibn-muhammad, hamad-al-ansari, hammad-ibn-usama, hisham-ibn-yusuf-al-sanani, ibn-ulayyah, ibrahim-ibn-issa-al-muradi, ibrahim-ibn-sad-al-zuhri, ibrahim-ibn-uyayna, imran-ibn-talha, ishaq-ibn-al-furat, ishaq-ibn-ibrahim-ibn-hani, ismail-ibn-ubayd-allah, israil-ibn-yunus, mansur-ibn-zadhan, muawiya-ibn-salih, muhammad-al-bahi, muhammad-ibn-mahran.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1197.** then mawsua, shadharat, hisham and ~4,200 further trilingual drafts.
+
+### Batch 65 (4 Nov 2026, 19 records) — wikidata-import-wave2 draft promotions 2 (final) (sweep worker)
+
+Promoted: muslim-ibn-ibrahim, muslim-ibn-khalid-al-zanji, mutamir-ibn-sulayman, qays-ibn-abi-hazim, qutayba-ibn-said, said-ibn-iyas-al-jariri, shuayb-ibn-harb, simak-ibn-harb, sulayman-ibn-al-mughira, surayj-ibn-yunus, ummat-al-wahid, yaeish-bin-sadaqa-al-furati, yahya-al-qattan, yahya-ibn-abi-kathir, yahya-ibn-ayyub-al-maqabiri, yahya-ibn-yusuf-al-zami, yaqub-ibn-ahmad-ibn-al-sabuni, yusuf-ibn-adi, zurara-ibn-awfa.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1216.** wikidata-wave2 done; then mawsua, shadharat, hisham and ~4,150 further trilingual drafts.
