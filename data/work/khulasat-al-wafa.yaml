@@ -1,0 +1,24 @@
+id: work/khulasat-al-wafa
+class: work
+kind: book
+label: { ar: "خلاصة الوفا بأخبار دار المصطفى", en: "Khulasat al-Wafa bi-Akhbar Dar al-Mustafa (al-Samhudi)" }
+summary:
+  ar: "الكتاب المختصر من كتب السمهودي الثلاثة في تاريخ المدينة، في نحو نصف «وفاء الوفا» مع جمع مقاصده، ويذكر المحقق أنه طُبع مراراً قبل طبعته {cite:samhudi-wafa-al-wafa p.7}."
+  en: "The shortest of al-Samhudi's three books on the history of Medina, about half the length of Wafa' al-Wafa' while gathering its aims; its editor says it had been printed several times before."
+language: language/arabic
+authors: [person/al-samhudi]
+genre: [history]
+wings: [place]
+themes: [cities, sacred-space-and-pilgrimage]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+relations:
+  - { type: about, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "source/samhudi-wafa-al-wafa scan pp. 6-7, 9, 152"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }
