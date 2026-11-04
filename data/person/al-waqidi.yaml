@@ -10,16 +10,44 @@ label: { ar: "الواقدي", en: "al-Waqidi" }
 summary:
   ar: "محمد بن عمرو بن واقد مولى بني هاشم صاحب السير والمغازي، ضعف في الحديث، مات سنة تسع ومائتين وهو ابن سبع وسبعون سنة؛ ومن خبره أنه كتب إلى صديقه الهاشمي في ضيقة فبعث إليه بألف درهم فصرفها إلى صديقه الثاني الشاكي وتواسياها ثلاثة حتى نمي الخبر إلى المأمون فأجازهم بسبعة آلاف دينار {cite:muruj-al-dhahab p. 426-427}. وذكره ابن خلدون مع المسعودي في فحول المؤرخين الذين استوعبوا أخبار الأيام وجمعوها وسطروها في صفحات الدفاتر وإن كان في كتبهما من الأوهام {cite:muqaddima-ibn-khaldun p. 15}، وعند العلماء كما قرأ ابن النديم أنه بالحجاز والسيرة وقد اشترك هو وأبو مخنف والمدائني في فتوح الشام {cite:fihrist-ibn-al-nadim p. 293}"
   en: "The maghazi author — weakened in hadith, dead in 209 aged seventy-seven; his tale of the thousand-dirham bag shared by three friends moved al-Ma'mun to a seven-thousand-dinar grant {cite:muruj-al-dhahab p. 426-427}."
+names:
+  - { kind: full, lang: ar, value: "محمد بن عمر بن واقد الأسلمي مولاهم، الواقدي المدني القاضي" }
 gender: male
+roles: [historian, qadi, scholar]
+born: { hijri: "0130", edtf: "0747", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: وُلد الواقدي سنة ثلاثين ومائة {cite:mizan-itidal-bijawi-v3 p. 664}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+died: { hijri: "0207-12", edtf: "0823", calendar: julian, precision: month, status: debated, derived: true, note: "الذهبي: مات وهو على القضاء سنة سبع ومائتين في ذي الحجة {cite:mizan-itidal-bijawi-v3 p. 666}؛ المسعودي: سنة تسع ومائتين ابن سبع وسبعين سنة {cite:muruj-al-dhahab p. 426-427}. التحويل مشتق (ذو الحجة 207 يقع في أواخر سنة 822 وأوائل 823م).", sources: [source/mizan-itidal-bijawi-v3, source/muruj-al-dhahab] }
 wings: [people]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/malik-ibn-anas, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-jarh
+    standing: main
+    stance: { ar: "متروك أو واضع، واستقر الإجماع على وهنه", en: "Abandoned or a forger; consensus settled on his weakness" }
+    summary:
+      ar: "أحمد: كذاب يقلب الأحاديث؛ ابن معين: ليس بثقة، ولا يُكتب حديثه؛ البخاري وأبو حاتم: متروك؛ أبو حاتم والنسائي وابن راهويه: يضع الحديث؛ ابن المديني: يضع الحديث؛ الدارقطني: فيه ضعف؛ ابن عدي: أحاديثه غير محفوظة والبلاء منه؛ والذهبي: استقر الإجماع على وهنه."
+      en: "Ahmad: a liar who turns hadiths around; Ibn Ma'in: not trustworthy, his hadith is not written; al-Bukhari and Abu Hatim: abandoned; Abu Hatim, al-Nasa'i and Ibn Rahawayh: he forges hadith; Ibn al-Madini: he forges hadith; al-Daraqutni: there is weakness in him; Ibn Adi: his hadiths are not preserved and the fault is his; al-Dhahabi: consensus settled on his weakness."
+    holders: [person/ahmad-ibn-hanbal, person/yahya-ibn-main, person/al-bukhari, person/ali-ibn-al-madini, person/al-dhahabi]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-tawthiq
+    standing: secondary
+    stance: { ar: "ثقة مأمون وإمام في الأخبار", en: "Trustworthy and reliable, an authority in historical reports" }
+    summary:
+      ar: "مصعب الزبيري: ثقة مأمون، وما رأينا مثله قط؛ يزيد بن هارون وأبو عبيد: ثقة؛ إبراهيم الحربي: أمين الناس على الإسلام؛ الدراوردي: أمير المؤمنين في الحديث؛ محمد بن سلام الجمحي: عالم دهره؛ والذهبي يصدّق قول مجاهد بن موسى في حفظه: كان إلى حفظه المنتهى في الأخبار والسير والمغازي."
+      en: "Mus'ab al-Zubayri: trustworthy and reliable, we never saw his like; Yazid ibn Harun and Abu Ubayd: trustworthy; Ibrahim al-Harbi: the most trustworthy of men over Islam's history; al-Darawardi: commander of the faithful in hadith; Muhammad ibn Sallam al-Jumahi: the scholar of his age; al-Dhahabi affirms Mujahid ibn Musa on his memory: his memory was the utmost in reports, biography and campaigns."
+    holders: [person/yazid-ibn-harun, person/ibrahim-al-harbi, person/abd-al-aziz-al-darawardi, person/abu-ubayd-al-qasim-ibn-sallam]
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
 provenance:
   layer: own-research
-  source: "المسعودي، مروج الذهب وأهل المعاجن"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: prose-fill-persons-batch35
+  source: "المسعودي، مروج الذهب وأهل المعاجن؛ ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 662–666"
+  generated_by: "Devin (SWE-2 Medium); Claude Code (OCR-harvest worker F)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: prose-fill-persons-batch35, ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q285255" }
-sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/fihrist-ibn-al-nadim]
+sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3]
 status:
   review: published
   completeness: 3
