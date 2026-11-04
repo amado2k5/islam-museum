@@ -16,6 +16,8 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 98).
+- **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 97).
 - **Library harvest from the OCR'd books** (batch 1): 72 records written or enriched with full Arabic, English and Urdu prose from 6 books on the harvest drive (artandarchitectureofislamiccairo, fadail-sahaba-ahmad, khwarizmi-algebra, minhaj-sunna, nallino-al-battini-opus-astronomicium-pars-1-3-1899, tamhid-ibn-abd-al-barr); new records: 16 person, 10 source, 9 work, 6 concept, 6 question, 1 building, 1 place; 34 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 96).
 - **Persons**: 20 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 95).
