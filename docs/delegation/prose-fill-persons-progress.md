@@ -563,3 +563,18 @@ Promoted: al-bukhari-makki-ahmad, al-dalji-uthmani, al-hariri-misri, al-qujawi, 
 Promoted: abd-al-azim-al-mundhiri, abu-al-salt-al-andalusi, ahmad-ibn-harun-al-rashid, al-fariqi, al-manazi, al-shibli, al-sukkari, al-urjani, asbagh-ibn-al-faraj, barkiyaruq, dalaj-ibn-ahmad, ibn-al-khayyat, ibn-faris, ibn-rashiq-al-qayrawani, ibn-tabataba, ibn-waki-al-tinnisi, ibrahim-ibn-hilal-al-sabi, iyas-ibn-muawiya, jafar-ibn-fallah, nasir-al-din-jafar-ibn-yaqub, yaqub-ibn-dawud-tahman.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1548.** sweep continues through remaining trilingual drafts.
+
+### Batch 83 (4 Nov 2026, 21 records) — lib-shadharat-batch-124 draft promotions (sweep worker)
+
+Promoted: abd-al-latif-al-baghdadi, abd-al-wahid-ii-almohad, abu-musa-al-maqdisi, al-awhi, al-dakhwar, al-hasan-al-alawi-al-murtada, al-iylani-muzaffar, al-malik-al-aziz-banias, al-malik-al-masud-amid, al-muafa-ibn-al-haddus, al-qadisi-al-darir, al-rafi-i, al-sakkaki, al-shams-al-bukhari-maqdisi, al-tanukhi-ibrahim, ali-ibn-al-jawzi, ibn-baqi-al-zahiri, ibn-muti-al-zawawi, ibn-salam-muhammad, ibn-shayth-al-qurashi, idris-ibn-yaqub-almohad.cite-check 21/21; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1569.** sweep continues through remaining trilingual drafts.
+
+### Batch 84 (4 Nov 2026, 20 records) — mawsua-w01-appendix draft promotions (sweep worker)
+
+Promoted: abd-al-rahman-al-shirtini, ahmad-al-maghribi-al-rashidi, ahmad-al-sawi, ahmad-al-tahtawi-hanafi, al-shurunbulali, al-walid-ibn-abi-bakr-al-maliki, ali-al-adawi-al-saidi, ibn-abidin, ibn-al-gharas, ibn-al-turkumani, muhammad-al-hajwi-al-tha-alibi, muhammad-al-hattab, muhammad-al-ruhuni, muhibb-allah-ibn-abd-al-shakur, mulla-miskin, nasir-al-din-al-laqani, nuh-ibn-abi-maryam-abu-ismat, salih-ibn-salim-al-khawlani, shams-al-din-al-laqani, sulayman-al-bujayrami.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+abu-nasr-al-balkhi	REJECT: ar: thin (141ch); ur: thin (129ch)
+
+**Lane total: 1589.** sweep continues through remaining trilingual drafts.
