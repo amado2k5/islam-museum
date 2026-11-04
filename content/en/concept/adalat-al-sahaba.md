@@ -30,3 +30,20 @@ Al-Khatib follows with a chapter on what it means to call someone a Companion an
 - **Sunni: al-Khatib al-Baghdadi, and Abu Zur'a al-Razi**: all the Companions are of probity by the vindication of God and His Messenger and are not enquired about; what happened among them is understood as interpretation and independent judgement. {cite:kifaya-khatib-hyderabad-1357 p. 46} {cite:kifaya-khatib-hyderabad-1357 p. 49}
 - **Other view, as al-Khatib reports it from a group he calls people of innovation**: of probity until the wars, after which those who took part must be examined. Not yet set out here from their own sources; the academic view is also still to be added. {cite:kifaya-khatib-hyderabad-1357 p. 49}
 :::
+
+## In Ibn al-Salah
+In the thirty-ninth type, Ibn al-Salah states that the hadith scholars' known practice counts every Muslim who saw the Prophet as a Companion, citing al-Bukhari's words in his Sahih. {cite:muqaddima-ibn-salah-itr p. 293}
+
+He reports two stricter definitions:
+- from Abu al-Muzaffar al-Sam'ani, that the legal theorists require long companionship;
+- from Sa'id ibn al-Musayyab, that he counted as a Companion only one who stayed with the Prophet a year or two and went on one or two campaigns with him.
+
+Ibn al-Salah remarks that the second wording is too narrow: it would exclude Jarir ibn Abd Allah al-Bajali and others whose companionship no one disputes. {cite:muqaddima-ibn-salah-itr p. 293} {cite:muqaddima-ibn-salah-itr p. 294}
+
+Companionship, he says, is known in four ways:
+- by mass transmission;
+- by wide report;
+- by the word of a Companion;
+- by a man's own statement once his uprightness is established.
+
+He then says the Companions as a whole share one distinction: no one's uprightness among them is questioned. They are declared upright without qualification by the texts of the Book and the Sunna and by the consensus of those whose view counts in consensus. {cite:muqaddima-ibn-salah-itr p. 294}
