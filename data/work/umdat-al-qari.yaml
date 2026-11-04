@@ -1,0 +1,55 @@
+id: work/umdat-al-qari
+class: work
+kind: book
+label: { ar: "عمدة القاري شرح صحيح البخاري", en: "'Umdat al-Qari Sharh Sahih al-Bukhari", ur: "عمدۃ القاری شرح صحیح البخاری" }
+summary:
+  ar: "شرح بدر الدين العيني (ت 855هـ) على صحيح البخاري، سماه «عمدة القاري في شرح البخاري»، وذكر أنه ندب إليه في الدولة المؤيدية بعد أن شرح معاني الآثار وبدأ شرح سنن أبي داود؛ ابتدأه سنة 821هـ وأتمه سنة 847هـ، كما تذكر الترجمة المطبوعة مع الكتاب، في إحدى وعشرين مجلدة على تجزئة المؤلف، يتم فيه سياق الحديث، ويعين مواضع تخريجه، ويتكلم في الرجال واللغة والإعراب والمعاني والبيان واستنباط الأحكام ومذاهب الفقهاء، تحت عناوين خاصة {cite:umdat-qari-ilmiyya-2001-v1 p. 15-16} {cite:umdat-qari-ilmiyya-2001-v1 p. 20-22}."
+  en: "Badr al-Din al-'Ayni's (d. 855 AH) commentary on Sahih al-Bukhari, which he titled 'Umdat al-Qari fi Sharh al-Bukhari; he says he was moved to write it under the Mu'ayyadi state, after commenting on Ma'ani al-Athar and beginning a commentary on Abu Dawud's Sunan; according to the biography printed with it he began it in 821 and completed it in 847 AH, in twenty-one volumes by the author's division, completing the wording of hadiths al-Bukhari abridged, locating their other occurrences, and treating narrators, language, grammar, rhetoric, the derivation of rulings and the jurists' schools, under separate headings {cite:umdat-qari-ilmiyya-2001-v1 p. 15-16} {cite:umdat-qari-ilmiyya-2001-v1 p. 20-22}."
+  ur: "بدر الدین عینی (وفات 855ھ) کی صحیح بخاری کی شرح، جس کا نام انہوں نے «عمدۃ القاری فی شرح البخاری» رکھا؛ وہ کہتے ہیں کہ مؤیدی دور میں انہیں اس کی تحریک ہوئی، جب وہ معانی الآثار کی شرح لکھ چکے اور سنن ابی داود کی شرح شروع کر چکے تھے؛ کتاب کے ساتھ چھپے ترجمے کے مطابق انہوں نے اسے 821ھ میں شروع کیا اور 847ھ میں مکمل کیا، مصنف کی تقسیم پر اکیس جلدوں میں؛ اس میں وہ بخاری کی مختصر کردہ حدیث کا پورا متن لاتے ہیں، اس کے دوسرے مقامات بتاتے ہیں، اور رجال، لغت، اعراب، معانی و بیان، استنباطِ احکام اور فقہاء کے مذاہب پر الگ عنوانات کے تحت کلام کرتے ہیں {cite:umdat-qari-ilmiyya-2001-v1 p. 15-16} {cite:umdat-qari-ilmiyya-2001-v1 p. 20-22}۔"
+language: language/arabic
+authors: [person/badr-al-din-al-ayni]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+composed: { edtf: "1443~", hijri: "0847", calendar: julian, precision: year, status: tradition, derived: true, note: "إتمامه؛ ابتدأه سنة 821 وأتمه سنة 847 بعد فراغ ابن حجر من شرحه بخمس سنوات، كما في الترجمة المطبوعة مع الكتاب؛ التحويل مشتق", sources: [source/umdat-qari-ilmiyya-2001-v1] }
+editions: [source/umdat-qari-ilmiyya-2001-v1]
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+sensitivity: contested
+relations:
+  - { type: commentary_on, target: work/sahih-al-bukhari, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: critic_of, target: work/fath-al-bari, note: "كان يطلع على شرح ابن حجر جزءاً فجزءاً بواسطة البرهان بن خضر وينتقده، كما تذكر الترجمة المطبوعة", sources: [source/umdat-qari-ilmiyya-2001-v1] }
+perspectives:
+  - tradition: sunni
+    id: biography-pro-ayni
+    stance: { ar: "للعيني الحظ الأوفر في وفاء دين شرح البخاري", en: "Al-'Ayni has the larger share in discharging the debt of commenting on al-Bukhari", ur: "شرحِ بخاری کا قرض ادا کرنے میں عینی کا حصہ بڑا ہے" }
+    summary:
+      ar: "الترجمة المطبوعة مع الطبعة: شرح العيني أوسع الشروح نقلاً وتحقيقاً، قليل الإحالة بخلاف ابن حجر، والظاهر عند من أنصف أن للعيني الحظ الأوفر في وفاء الدين الذي ذكره ابن خلدون عن مشايخه."
+      en: "The biography printed with the edition: al-'Ayni's commentary is the widest in quotation and verification, and seldom refers the reader elsewhere, unlike Ibn Hajar's; to the fair-minded, it says, al-'Ayni has the larger share in discharging the debt that Ibn Khaldun reported from his teachers."
+      ur: "ایڈیشن کے ساتھ چھپا ترجمہ: عینی کی شرح نقل و تحقیق میں سب سے وسیع ہے اور ابن حجر کے برخلاف کم حوالے دیتی ہے؛ اس کے بقول منصف کے نزدیک ابن خلدون کے مشایخ والے قرض کی ادائیگی میں عینی کا حصہ بڑا ہے۔"
+    sources: [source/umdat-qari-ilmiyya-2001-v1]
+  - tradition: sunni
+    id: sakhawi
+    stance: { ar: "القائم بذلك ابن حجر", en: "Ibn Hajar is the one who discharged it", ur: "یہ قرض ابن حجر نے ادا کیا" }
+    summary:
+      ar: "السخاوي، كما تنقل الترجمة: يميل إلى أن القائم بوفاء دين شرح البخاري هو شيخه ابن حجر."
+      en: "Al-Sakhawi, as the biography reports: inclines to the view that his teacher Ibn Hajar is the one who discharged the debt of commenting on al-Bukhari."
+      ur: "سخاوی، جیسا کہ ترجمہ نقل کرتا ہے: ان کا میلان یہ ہے کہ شرحِ بخاری کا قرض ان کے استاد ابن حجر نے ادا کیا۔"
+    sources: [source/umdat-qari-ilmiyya-2001-v1]
+  - tradition: sunni
+    id: kashf-al-zunun
+    stance: { ar: "وفّى الشرحان الدين على حد سواء", en: "Both commentaries discharged it equally", ur: "دونوں شروح نے برابر ادا کیا" }
+    summary:
+      ar: "صاحب كشف الظنون، كما تنقل الترجمة: حكم للشرحين بوفاء الدين على حد سواء."
+      en: "The author of Kashf al-Zunun, as the biography reports: judged that the two commentaries discharged the debt equally."
+      ur: "کشف الظنون کے مصنف، جیسا کہ ترجمہ نقل کرتا ہے: دونوں شروح کے حق میں برابر فیصلہ دیا۔"
+    sources: [source/umdat-qari-ilmiyya-2001-v1]
+provenance:
+  layer: own-research
+  source: "'Umdat al-Qari, Dar al-Kutub al-'Ilmiyya 2001, vol. 1 pp. 15–23"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/umdat-qari-ilmiyya-2001-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
