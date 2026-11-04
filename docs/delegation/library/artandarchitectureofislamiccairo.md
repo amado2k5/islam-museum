@@ -36,3 +36,10 @@ Created: building/citadel-of-cairo, building/bir-yusuf-cairo, building/mausoleum
 Enriched (ar+en+ur sections): building/mausoleum-of-imam-al-shafii, building/al-madrasa-al-salihiyya-cairo, building/shajarat-al-durr-tomb, person/salah-al-din-yusuf-ibn-ayyub, person/al-malik-al-kamil, person/al-malik-al-salih-ayyub, person/shajar-al-durr, concept/madrasa.
 Fix: source/yeomans-islamic-cairo-2006 now cites itself (validator rule for own-research sources).
 Doubts: Bir Yusuf and the Abbasid mausoleum dated with `status: debated` (Yeomans gives attribution/date as probable only). Rawda citadel's present state not given by the book, so no `status_now`.
+
+## Batches 4-5: chapter 5, Bahri Mamluk architecture (pp. 124-163, read in full)
+Created: building/mosque-of-al-zahir-baybars, building/madrasa-of-al-nasir-muhammad (possible overlap with building/al-madrasa-al-nasiriyya-cairo, Wikidata Q25463062, not verifiable here; left untouched), concept/khanqah.
+First prose for existing empty records: building/al-nasir-muhammad-mosque, building/ablaq-palace-cairo, building/tomb-of-salar-and-sangar, person/sanjar-al-jawli, building/amir-al-maridani-mosque, building/aqsunqur-mosque-cairo.
+Enriched: building/madrasa-of-al-zahir-baibars, person/baybars, building/qalawun-complex, person/qalawun, person/al-nasir-muhammad-ibn-qalawun, building/khanqah-of-baybars-al-gashankir, person/baybars-al-jashankir, building/masjid-sultan-hasan, person/ibn-khaldun (tour/halls.yaml stop sources updated to match).
+Doubts: Sanjar al-Jawli died 1344 per Yeomans vs 1345 on the earlier Wikidata card (noted in summary). Ablaq Palace: text says remains destroyed, Citadel map still marks "remains", so no status_now.
+Leads: mausolea of Sarghitmish, al-Sultaniyya and Yunus al-Dawadar (p. 162) and the madrasas of Shaykhu and al-Yusufi (p. 163) are only named.
