@@ -3,7 +3,7 @@ id: work/al-mustasfa
 lang: en
 source_lang: ar
 translators: []
-provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker D); Pole 2 section added by Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "mustasfa-hafiz-v1 PDF pp. 1-7, 53-57, 63, 71-79, 97-101; mustasfa-hafiz-v3 pp. 2, 199-202; translated from the Arabic page; mustasfa-tijariyya-1356-v1 PDF pp. 5, 136, 141, 143-144" }
 ---
 ## Summary
 
