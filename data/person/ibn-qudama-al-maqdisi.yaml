@@ -15,8 +15,8 @@ roles:
 traditions:
 - sunni
 summary:
-  ar: فقيه حنبلي من بيت المقدس، لقبه موفق الدين، صاحب «لمعة الاعتقاد» في عقيدة أهل السنة على مذهب السلف.
-  en: A Hanbali jurist of the Maqdisi family, titled Muwaffaq al-Din, author of Lum'at al-I'tiqad on the creed of Ahl al-Sunna on the way of the early generations.
+  ar: "موفق الدين أبو محمد عبد الله بن أحمد بن محمد بن قدامة المقدسي ثم الدمشقي الصالحي (541–620هـ)، شيخ الحنابلة في زمانه وصاحب «المغني» و«الكافي» و«المقنع» و«العمدة» و«روضة الناظر» و«لمعة الاعتقاد». ولد بجمّاعيل من أرض نابلس، وقدم دمشق مع أهله وله عشر سنين، ورحل إلى بغداد سنة 561هـ مع ابن خالته الحافظ عبد الغني فقرأ على الشيخ عبد القادر الجيلاني مدة يسيرة ثم لازم أبا الفتح ابن المنّي. ينقل ابن رجب في ترجمته ثناء ابن النجار وأبي شامة وعمر بن الحاجب وابن الصلاح والعز بن عبد السلام وابن تيمية عليه، ويصف طريقته في أصول الدين على طريقة أئمة الحديث في إمرار الصفات من غير تأويل ولا تكييف. توفي يوم عيد الفطر سنة 620هـ بمنزله بدمشق ودفن بسفح قاسيون {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 133-142}."
+  en: "Muwaffaq al-Din Abu Muhammad Abd Allah ibn Ahmad ibn Muhammad ibn Qudama al-Maqdisi, later of Damascus and al-Salihiyya (541–620 AH), the leading Hanbali of his time and author of al-Mughni, al-Kafi, al-Muqni', al-Umda, Rawdat al-Nazir and Lum'at al-I'tiqad. Born at Jamma'il in the land of Nablus, he came to Damascus with his family aged ten and travelled to Baghdad in 561 AH with his cousin the hafiz Abd al-Ghani, studying briefly with Shaykh Abd al-Qadir al-Jilani and then closely with Abu al-Fath Ibn al-Manni. Ibn Rajab's entry gathers the praise of Ibn al-Najjar, Abu Shama, Umar ibn al-Hajib, Ibn al-Salah, al-Izz ibn Abd al-Salam and Ibn Taymiyya, and describes his creed as following the hadith imams in passing over the divine attributes as they came, without figurative interpretation or asking how. He died on the day of Eid al-Fitr 620 AH at his home in Damascus and was buried on the slope of Qasyun."
 wings: [people]
 themes:
 - creed
@@ -27,7 +27,7 @@ regions:
 faith:
 - value: sunni-hanbali
   basis: documented
-  note: Named a Hanbali in the edition's title page and presents the creed as that of the early generations.
+  note: "Named a Hanbali in the edition's title page and presents the creed as that of the early generations."
   sources:
   - source/lumat-al-itiqad
 relations:
@@ -43,9 +43,49 @@ relations:
   target: work/al-mughni
   sources:
   - source/lumat-al-itiqad-ibn-uraiyir-2022
+- type: born_in
+  target: place/jammail
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: child_of
+  target: person/ahmad-ibn-muhammad-ibn-qudama
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: student_of
+  target: person/abd-al-qadir-al-jilani
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: student_of
+  target: person/ibn-al-mani
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: student_of
+  target: person/abu-umar-al-maqdisi
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: lived_in
+  target: place/al-salihiyya
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: traveled_to
+  target: place/baghdad
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: authored
+  target: work/al-kafi-ibn-qudama
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: authored
+  target: work/al-muqni-ibn-qudama
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
+- type: authored
+  target: work/rawdat-al-nazir
+  sources:
+  - source/dhayl-tabaqat-hanabila-faqi-v2
 - type: related_to
   target: person/ibn-taymiyya
-  note: ابن تيمية أثنى على الموفق في قوله إنه لم يدخل الشام بعد الأوزاعي أفقه منه، كما نقله محقق اللمعة
+  note: "ابن تيمية أثنى على الموفق في قوله إنه لم يدخل الشام بعد الأوزاعي أفقه منه، كما نقله محقق اللمعة"
   sources:
   - source/lumat-al-itiqad-ibn-uraiyir-2022
 provenance:
@@ -53,15 +93,17 @@ provenance:
   source: لمعة الاعتقاد، طبعة المكتب الإسلامي، صفحة العنوان
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
-  run: lumat-1
+  run: lumat-1, ocr-harvest-2026-11-04
+  dhayl_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: dhayl-tabaqat-hanabila-faqi-v2 pp. 133–148 (entry 272)"
 external_ids: { wikidata: "Q785506" }
 sources:
 - source/lumat-al-itiqad
 - source/lumat-al-itiqad-ibn-uraiyir-2022
+- source/dhayl-tabaqat-hanabila-faqi-v2
 status:
-  review: draft
-  completeness: 2
-  generated_by: 'Claude Sonnet 5.5 (initial); Claude Haiku 5.5 batch 1: dates added from the 2022 edition''s introduction, need a second source'
+  review: published
+  completeness: 3
+  generated_by: 'Claude Sonnet 5.5 (initial); Claude Haiku 5.5 batch 1; Claude Code (OCR-harvest worker F): Dhayl section, dates confirmed by a second source'
 born:
   hijri: '0541'
   edtf: 1146~
@@ -69,20 +111,22 @@ born:
   precision: year
   status: tradition
   derived: true
-  note: وُلد بجمّاعيل سنة 541هـ، بحسب مقدمة محقق لمعة الاعتقاد (ط2، 1443هـ)؛ التحويل الميلادي مشتق.
+  note: "وُلد بجمّاعيل سنة 541هـ، بحسب مقدمة محقق لمعة الاعتقاد (ط2، 1443هـ)؛ وعند ابن رجب في شعبان من السنة {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 133}؛ التحويل الميلادي مشتق."
   sources:
   - source/lumat-al-itiqad-ibn-uraiyir-2022
+  - source/dhayl-tabaqat-hanabila-faqi-v2
 died:
-  hijri: '0620'
-  edtf: 1223~
+  hijri: '0620-10-01'
+  edtf: "1223-10-28"
   calendar: julian
-  precision: year
+  precision: day
   status: tradition
   derived: true
-  note: توفي بدمشق سنة 620هـ، بحسب مقدمة محقق لمعة الاعتقاد (ط2، 1443هـ)؛ التحويل الميلادي مشتق. وذُكر أنه توفي يوم السبت يوم عيد الفطر، ودُفن بسفح قاسيون (ط2، ص40). وتذكر الشذرات أنه توفي في يوم عيد الفطر سنة عشرين وستمائة {cite:shadharat-dhahab p. 88-92}.
+  note: "توفي بدمشق سنة 620هـ، بحسب مقدمة محقق لمعة الاعتقاد (ط2، 1443هـ)؛ التحويل الميلادي مشتق. وذُكر أنه توفي يوم السبت يوم عيد الفطر، ودُفن بسفح قاسيون (ط2، ص40). وتذكر الشذرات أنه توفي في يوم عيد الفطر سنة عشرين وستمائة {cite:shadharat-dhahab p. 88-92}. وعند ابن رجب: توفي يوم السبت يوم عيد الفطر سنة عشرين وستمائة بمنزله بدمشق، وصُلّي عليه من الغد وحمل إلى سفح قاسيون فدفن به {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 142}؛ وأول شوال 620هـ يوافق نحو 28 أكتوبر 1223م بالحساب الجدولي (مشتق)."
   sources:
   - source/lumat-al-itiqad-ibn-uraiyir-2022
   - source/shadharat-dhahab
+  - source/dhayl-tabaqat-hanabila-faqi-v2
 
 education:
   levels: [sprouts, explorers, scholars]

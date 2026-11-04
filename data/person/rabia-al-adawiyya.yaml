@@ -1,0 +1,24 @@
+id: person/rabia-al-adawiyya
+class: person
+label: { ar: "رابعة العدوية", en: "Rabi'a al-Adawiyya", ur: "رابعہ عدویہ" }
+names:
+  - { kind: full, lang: ar, value: "رابعة بنت إسماعيل العدوية" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "رابعة بنت إسماعيل العدوية، صوفية كبيرة وعابدة شهيرة من أهل البصرة، استفتاها كبار المتصوفة في دقائق التصوف وكان سفيان الثوري يسميها «المؤدبة»، ويرى مصطفى عبد الرازق أنها السابقة إلى وضع قواعد الحب والحزن في التصوف الإسلامي؛ يذكر كحالة أنها توفيت سنة 135هـ ودفنت ببيت المقدس، وفي «النجوم الزاهرة» سنة 180هـ، وفي رواية 185هـ."
+  en: "Rabi'a bint Isma'il al-Adawiyya, a great Sufi and famous devout woman of the Basran school, consulted by leading Sufis of her time on fine points of the path; Sufyan al-Thawri called her 'the teacher of manners', and Mustafa Abd al-Raziq held her the first to lay down the themes of love and sorrow in Islamic Sufism. Kahhala gives her death as 135 AH with burial in Jerusalem; al-Nujum al-Zahira gives 180 AH, and another report 185 AH."
+wings: [people, ideas]
+themes: [women, spirituality-and-sufism]
+traditions: [sunni]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+died: { edtf: "0752~", hijri: "0135", calendar: julian, precision: year, status: debated, derived: true, note: "135هـ عند كحالة ودفنت ببيت المقدس، وفي حاشيته عن النجوم الزاهرة 180هـ، وفي رواية 185هـ؛ التحويل مشتق {cite:alam-al-nisa-kahhala-risala-1984-v1 p.436}", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+faith:
+  - { value: sunni, basis: tradition, note: "زاهدة من أهل البصرة في القرن الثاني؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: buried_in, target: place/jerusalem, role: "بحسب كحالة", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+provenance: { layer: own-research, source: "source/alam-al-nisa-kahhala-risala-1984-v1 PDF pp. 434–436", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: published, completeness: 3 }

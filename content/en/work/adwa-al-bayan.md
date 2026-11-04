@@ -1,0 +1,18 @@
+---
+id: work/adwa-al-bayan
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker B), claude-opus-5-5"]
+---
+## Summary
+Adwa' al-Bayan fi Idah al-Qur'an bi'l-Qur'an ("Lights of Clarity in Explaining the Qur'an by the Qur'an") is the commentary of [[person/muhammad-al-amin-al-shinqiti-al-jakani|Muhammad al-Amin ibn Muhammad al-Mukhtar al-Jakani al-Shinqiti]] (1325–1393 AH); his biographer calls it the largest and greatest of his books and says he reached Surat al-Mujadila in it. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.1} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.35}
+
+## Its method, from its title and its author's biography
+The title states the core of its method: explaining the Qur'an by the Qur'an. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.1} The biographer says the shaykh constantly set out the creed of Ahl al-Sunna wa'l-Jama'a in every area of belief, above all the divine names and attributes, in his lessons and his books, "especially Adwa' al-Bayan". {cite:athar-shinqiti-adwa-ataat-2019-v1 p.24} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.25} He says that settling in Medina and teaching in the Prophet's Mosque, where he met representatives of the four schools who asked for evidence, widened his knowledge of the schools after a training at home focused on Malik's, and that this shows clearly in the legal questions of Adwa' al-Bayan. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.27} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.28} He notes that in Adwa' al-Bayan the shaykh retracted positions he had taken in his commentary on Maraqi al-Su'ud. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.38} One example of such a change is the question of fighting in the sacred months; see [[question/is-the-prohibition-of-fighting-in-the-sacred-months-abrogated|Has the prohibition of fighting in the sacred months been abrogated?]]. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.38}
+
+## Its completion
+Al-Shinqiti did not finish the book; his student [[person/atiyya-salim|Atiyya Salim]] completed it in volumes 8 and 9 of the printing, and the series of the shaykh's works left this completion out because it is not his. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.12} Part 9, the second part of the completion, begins with Surat al-Naba'; the cover of its second edition (1400 AH) says it was printed at the expense of Muhammad ibn Awad bin Ladin as an endowment for students. {cite:tatimmat-adwa-al-bayan-1400-j9 p.1} {cite:tatimmat-adwa-al-bayan-1400-j9 p.2} {cite:tatimmat-adwa-al-bayan-1400-j9 p.3} At the end of the printed Adwa' al-Bayan is a short treatise by the shaykh on abrogation, explaining the ten verses of poetry in which al-Suyuti, in [[work/al-itqan-fi-ulum-al-quran|al-Itqan]], lists the abrogated verses. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.35}
+
+## Editions
+- The old printing made in the shaykh's lifetime, known as the Madani printing. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.14}
+- The 'Athar al-Shaykh Muhammad al-Amin al-Shinqiti' series of the Islamic Fiqh Academy in Jeddah, supervised by Bakr ibn Abd Allah Abu Zayd: seven volumes for Adwa' out of nineteen for the whole series, collated with the Madani printing, whose page numbers are given in the margins, with its many misprints corrected, especially in the verse quotations, using the corrections Abd al-Rahman al-Sudays had noted in his copy. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.7} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.14} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.15} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.17} The shaykh did not sell his books; Bakr Abu Zayd reports him saying: "I do not trade in explaining the Book of God." {cite:athar-shinqiti-adwa-ataat-2019-v1 p.31} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.32}

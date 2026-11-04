@@ -21,3 +21,10 @@ Read: pp. 1–14 (title, imprint, general introduction, division of the edition)
 
 ## Next
 The commentary on al-Fatiha and the first stations (awakening, repentance) in part 1 (pp. 15ff.).
+
+## Second run (4 Nov 2026), batch 6
+Read: Sumayi q1 PDF pp. 125–129 (the editor's study quoting Ibn al-Qayyim on the order of the stations).
+- New: `concept/al-maqamat-wal-ahwal` (stations and states; Ibn al-Qayyim's view of their order, with Ibn Taymiyya's 'works of the heart').
+
+## Next
+The stations proper begin in later quarters (not in this item); the `madsal` item (640 pp., another edition, wakefulness at p. 137, repentance at p. 453) and `20260717_20260717_0543` are not yet identified as editions.
