@@ -1,0 +1,22 @@
+---
+id: concept/islamic-glass-weights
+lang: ur
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker I), claude-opus-5-5"]
+status:
+  review: published
+provenance:
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/schibille-islamic-glass-2022 scan pp. 23, 57, 69–70, 233"
+  translator_of: content/ar/concept/islamic-glass-weights.md
+---
+## خلاصہ
+شیشے کے باٹ اور مہریں اسلامی مصر میں بنے مہر شدہ شیشے کے ٹکڑے ہیں؛ ان کا بڑا فائدہ یہ ہے کہ ان کی تاریخ اتنی درستی سے متعین ہو سکتی ہے جس کے قریب شیشے کی کوئی اور چیز نہیں پہنچتی، اس لیے نادین شیبل انہیں مصری [[practice/islamic-glassmaking|شیشہ سازی]] کا زمانی اور ترکیبی معیار بناتی ہیں، اگرچہ مانتی ہیں کہ یہ پوری صنعت کی کہاں تک نمائندگی کرتے ہیں یہ زیرِ بحث ہے۔ {cite:schibille-islamic-glass-2022 p. 23}
+
+## انقطاع اور واپسی
+«مصر 2» [[concept/natron-glass|نیٹرون]] ترکیب کا آخری باٹ [[person/ahmad-ibn-tulun|احمد بن طولون]] کی ولایت کے پہلے سال (868ء) کا ہے، جس کے بعد تقریباً سو سال کا وقفہ ہے جس سے شاید ہی کوئی مصری باٹ یا مہر معلوم ہو۔ {cite:schibille-islamic-glass-2022 p. 57} 969ء میں فسطاط کی فاطمی فتح کے بعد باٹ لوٹے، اس وقت سوڈا سے بھرپور [[concept/plant-ash-glass|راکھ والے شیشے]] سے۔ {cite:schibille-islamic-glass-2022 p. 57} دسویں صدی کے آخر میں فاطمی باٹ صور کی قسم کے راکھ والے شیشے سے بنے، یعنی اب شیشے کی تجارت شام سے مصر کی طرف تھی۔ {cite:schibille-islamic-glass-2022 p. 233}
+
+## غیر شفاف باٹ
+شیبل نے بارہویں صدی کے دوسرے ربع سے تیرہویں صدی کے پہلے ربع تک کے 33 مکمل غیر شفاف باٹوں کا تجزیہ کیا اور پایا کہ ان کی سفید اور نیلگوں سبز کدورت قلعی آکسائیڈ سے ہے، اور اس گروہ کو یشمی سبز سیلادون سے مشابہت کی بنا پر «سیلادون» کہا۔ {cite:schibille-islamic-glass-2022 p. 69} ان میں 33٪ تک سیسہ آکسائیڈ اور 27٪ تک قلعی آکسائیڈ ہے، اور ان کے خیال میں سیسہ اور قلعی تشکیل کے مرحلے میں پہلے سے بنے شیشے میں ساتھ ملائے گئے۔ {cite:schibille-islamic-glass-2022 p. 69} {cite:schibille-islamic-glass-2022 p. 70} بعض رنگین فاطمی باٹوں پر زرد اور سبز دھبے ہیں جو «انیما» نامی سیسہ و قلعی کے شیشی رنگ سے مشابہ ہیں۔ {cite:schibille-islamic-glass-2022 p. 69}

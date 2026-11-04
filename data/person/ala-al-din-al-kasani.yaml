@@ -2,25 +2,39 @@ id: person/ala-al-din-al-kasani
 class: person
 label:
   ar: "علاء الدين الكاساني"
-  en: "Ala al-Din al-Kasani"
-roles: [scholar]
+  en: "Ala' al-Din al-Kasani"
+  ur: "علاء الدین کاسانی"
+names:
+  - { kind: full, lang: ar, value: "علاء الدين أبو بكر بن مسعود بن أحمد الكاساني الحنفي" }
+  - { kind: laqab, lang: ar, value: "ملك العلماء" }
+  - { kind: nisba, lang: ar, value: "الكاساني" }
+roles: [jurist, scholar, writer]
 gender: male
+traditions: [sunni]
+died: { hijri: "0587-07-10", edtf: "1191", calendar: julian, precision: day, status: tradition, derived: true, note: "Ibn al-Adim, from Khalifa ibn Sulayman: he died on Sunday 10 Rajab 587 AH after the noon prayer, as quoted in the editors' introduction (badai-sanai-ilmiyya-v1 p. 76). Gregorian year derived.", sources: [source/badai-sanai-ilmiyya-v1] }
 summary:
-  ar: "بطاقة أولية لعلاء الدين الكاساني، فقيه الحنفية صاحب بدائع الصنائع في القرن الثاني عشر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ala al-Din al-Kasani, the twelfth-century Hanafi jurist of the Bada'i al-Sana'i; his entry is not yet checked on the page."
+  ar: "علاء الدين أبو بكر بن مسعود بن أحمد الكاساني، الملقّب «ملك العلماء»، فقيه حنفي نسبته إلى كاسان وراء الشاش، تفقّه على علاء الدين السمرقندي وصنّف «بدائع الصنائع» وزوّجه شيخه ابنته الفقيهة فاطمة، ثم جاء رسولاً من ملك الروم إلى نور الدين محمود بحلب، فولّاه التدريس بالمدرسة الحلاوية، وبها أقام حتى مات سنة 587هـ ودفن عند زوجته بظاهر حلب. {cite:badai-sanai-ilmiyya-v1 p.74} {cite:badai-sanai-ilmiyya-v1 p.75} {cite:badai-sanai-ilmiyya-v1 p.76}"
+  en: "Ala' al-Din Abu Bakr ibn Mas'ud ibn Ahmad al-Kasani, called 'King of the Scholars', a Hanafi jurist from Kasan beyond al-Shash, studied with Ala' al-Din al-Samarqandi, wrote Bada'i' al-Sana'i' and married his teacher's learned daughter Fatima; he later came as an envoy of the ruler of Rum to Nur al-Din Mahmud at Aleppo, who appointed him to teach at the Halawiyya madrasa, where he stayed until his death in 587 AH; he was buried beside his wife outside Aleppo."
+  ur: "علاء الدین ابو بکر بن مسعود بن احمد کاسانی، جن کا لقب «ملک العلماء» تھا، شاش کے پار کاسان کے حنفی فقیہ؛ انہوں نے علاء الدین سمرقندی سے فقہ پڑھی، «بدائع الصنائع» لکھی اور ان کے استاد نے اپنی فقیہ بیٹی فاطمہ سے ان کی شادی کی؛ پھر وہ روم کے بادشاہ کے سفیر بن کر حلب میں نور الدین محمود کے پاس آئے، جنہوں نے انہیں مدرسہ حلاویہ میں تدریس پر مقرر کیا، جہاں وہ 587ھ میں وفات تک رہے، اور حلب کے باہر اپنی بیوی کے پاس دفن ہوئے۔"
 wings: [people]
-regions: [persia-central-asia]
+themes: [law-and-courts, development-of-law-theology-institutions]
+regions: [persia-central-asia, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1191", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+relations:
+  - { type: born_in, target: place/kasan, role: "nisba to Kasan beyond al-Shash (editors' note p. 74); birthplace not stated", sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: student_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: spouse_of, target: person/fatima-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: lived_in, target: place/aleppo, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: died_in, target: place/aleppo, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: authored, target: work/badai-al-sanai, sources: [source/badai-sanai-ilmiyya-v1] }
+  - { type: member_of, target: group/hanafi-madhhab, sources: [source/badai-sanai-ilmiyya-v1] }
+sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam]
 external_ids:
   wikidata: Q12227537
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  source: "badai-sanai-ilmiyya-v1 pp. 74-77, 88"
+  generated_by: "Claude Code (OCR-harvest worker D)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker D); earlier draft card by Devin (SWE-2 High), Wikidata import" }
