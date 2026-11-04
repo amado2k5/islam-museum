@@ -16,6 +16,15 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 22 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 79).
+- **Persons**: 22 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 78).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 77).
+- **Persons**: 22 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 76).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 75).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 74).
+- **Persons**: 23 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 73).
+- **Persons**: 24 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 72).
+- **Persons**: 4 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 71).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 70).
 - **Persons**: 2 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 69).
 - **Persons**: 25 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 68).
@@ -52,6 +61,7 @@ open a new block on top with the new version and today's date.
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
 
 ### Added
+- **Timeline Explorer verification**: the forty new stories pass the full local build and all 120 language-route browser checks; the authorized image correction is merged separately in #3398, resolving the earlier publication blocker. Existing event-language fallbacks and map-selector follow-ups are documented rather than claimed fixed.
 - **Safer Timeline Explorer scenery**: ten new adult/kids backdrops override five legacy illustrated scenes, and five shared backdrops with figures are replaced by empty landscapes after explicit founder approval. All fifteen images were visually screened at full size; historical facts and site code are unchanged.
 - **Developers page** (`/{lang}/developers/`, Arabic, English, Urdu): the museum's open data and API documented for libraries and builders — endpoints, the node/edge/record schema, worked examples with real responses, sample code, starter prompts for AI coding agents, and an honest list of what is not here yet.
 - **Network page** (`/{lang}/network/`): the scholars, institutions and communities in conversation with the museum.
