@@ -4,13 +4,11 @@ kind: madrasa
 label:
   ar: "مجموعة السلطان الظاهر برقوق"
   en: "Mosque-Madrasa of Sultan Barquq"
-summary:
-  ar: "بطاقة أولية لمجموعة السلطان الظاهر برقوق بالقاهرة، المدرسة والخانقاه والقبة المملوكية في شارع المعز من سنة ١٣٨٦م؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for the complex of Sultan Barquq on Cairo's Mu'izz Street, the Mamluk madrasa-khanqah-tomb of 1386; its sources are not yet checked on the page."
+summary: { ar: "خانقاه ومدرسة السلطان الظاهر برقوق (1384-1386م) في شارع المعز بجوار مدرسة الناصر محمد، تجمع تدريس المذاهب الأربعة والخانقاه، بصحن متناظر وأربعة إيوانات وقبة للأسرة {cite:yeomans-islamic-cairo-2006 p.200}.", en: "Sultan al-Zahir Barquq's khanqah-madrasa (1384-1386) on al-Mu'izz street next to al-Nasir Muhammad's madrasa, combining teaching of the four schools with a khanqah, with a symmetrical four-iwan court and a family mausoleum {cite:yeomans-islamic-cairo-2006 p.200}." }
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q12241714
 provenance:
@@ -19,6 +17,10 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 200-202"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1384/1386", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 200: khanqah-madrasa (1384-6)." }
+patron: person/barquq
+status_now: standing

@@ -43,3 +43,9 @@ First prose for existing empty records: building/al-nasir-muhammad-mosque, build
 Enriched: building/madrasa-of-al-zahir-baibars, person/baybars, building/qalawun-complex, person/qalawun, person/al-nasir-muhammad-ibn-qalawun, building/khanqah-of-baybars-al-gashankir, person/baybars-al-jashankir, building/masjid-sultan-hasan, person/ibn-khaldun (tour/halls.yaml stop sources updated to match).
 Doubts: Sanjar al-Jawli died 1344 per Yeomans vs 1345 on the earlier Wikidata card (noted in summary). Ablaq Palace: text says remains destroyed, Citadel map still marks "remains", so no status_now.
 Leads: mausolea of Sarghitmish, al-Sultaniyya and Yunus al-Dawadar (p. 162) and the madrasas of Shaykhu and al-Yusufi (p. 163) are only named.
+
+## Batch 6: chapter 7 part 1, Burji Mamluks (pp. 198-217)
+Created: building/funerary-complex-of-sultan-inal, place/eastern-cemetery-cairo, concept/sabil-kuttab, concept/qaa.
+First prose for: building/complex-sultan-barquq, building/farag-ibn-barquq-complex, building/emir-qurqumas-complex, building/khanqah-mausoleum-of-sultan-barsbay (Eastern Cemetery), building/al-ashraf-barsbay-complex (assigned to the al-Mu'izz street madrasa, 1425, with a note in the prose).
+Enriched: building/al-muayyad-mosque-cairo, person/barquq, person/faraj-ibn-barquq, person/al-muayyad-shaykh, person/barsbay, concept/waqf.
+Leads: tomb of Ganibak al-Ashrafi (1432), Bashtak palace (1334-9), mosque of Aslam al-Silahdar (1344-5) only treated inside other records.
