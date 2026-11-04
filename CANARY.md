@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 39).
 - **People**: 25 more biographies with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep).
 
 ### Added
