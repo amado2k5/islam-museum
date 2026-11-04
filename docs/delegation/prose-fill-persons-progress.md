@@ -241,3 +241,9 @@ Promoted: abu-asim-al-nabil, abu-awn-abd-al-malik, abu-bakr-ibn-al-harith-ibn-hi
 Promoted: afridun, ahmad-ibn-al-tayyib, ahmad-ibn-al-tayyib-al-sarakhsi, ahmad-ibn-tahir-al-shair, aitakh-al-turki, al-aawar-ibn-qutba, al-abbas-ibn-al-mamun, al-ablaq-al-azdi, al-afa-al-jurhumi, al-ahlaj-al-dahri, al-ahwas, al-dahhak-dhu-al-afwah, al-fadl-ibn-dukayn, al-fudayl-ibn-iyad, al-ghadban-ibn-al-qabathari, al-gharid, al-hajjaj-ibn-uzayya-al-ansari, al-harith-ibn-abi-shumr, al-hasan-al-askari, al-haytham-ibn-adi, al-husayn-ibn-al-qasim, al-husayn-ibn-hamdan, al-husayn-ibn-numayr, al-jaysh-ibn-khumarawayh, al-khwarizmi. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated.
 
 **Lane total: 478.** ~285 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.
+
+### Batch 35 (3 Nov 2026, 25 records) — Muruj draft-status promotions 6
+
+Promoted: al-kindi, al-masudi, al-mawardi-al-laib, al-mubarrad, al-mughira-ibn-nawfal, al-nadira-bint-al-dayzan, al-nazzam, al-numan-ibn-jabala-al-tanukhi, al-qaqa-ibn-amr, al-qasim-ibn-ubaydallah, al-rabi-ibn-sulayman-al-muadhdhin, al-razi-abu-bakr, al-samawal-ibn-adiya, al-sayyid-al-himyari, al-sharqi-ibn-al-qutami, al-tahir-ibn-yahya-al-alawi, al-walid-ibn-muawiya-ibn-abd-al-malik, al-waqidi, al-yaman-ibn-ribab, al-zabba-bint-amr, al-zajjaji, ali-ibn-abdallah-ibn-al-abbas, ali-ibn-abi-talib-al-ama, ali-ibn-haytham-al-mutakallim, ali-ibn-isa-al-asturlabi. cite-check 25/25; validate 0 errors; tests pass; coverage regenerated. (al-masudi run tag was lib-muruj-dhahab-setup — regex widened.)
+
+**Lane total: 503.** ~260 lib-muruj draft promotions remain; then tabari ~9, ansab 17, tabaqat 18, uncited ~511.

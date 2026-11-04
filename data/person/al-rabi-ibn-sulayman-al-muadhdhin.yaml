@@ -8,12 +8,15 @@ gender: male
 wings: [people]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 417"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-86
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
 died: { hijri: "0270", edtf: "0884~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بمصر سنة سبعين ومائتين (PDF ص52).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: student_of, target: person/al-shafii, role: "يروي كتبه، وقال الشافعي: الربيع راويتي (PDF ص52)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q12187688" }
 sources: [source/wafayat-ayan, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status:
+  review: published
+  completeness: 3
