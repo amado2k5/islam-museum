@@ -6,10 +6,10 @@ translators: []
 status:
   review: published
 provenance:
-  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G); Ibn Taymiyya's assessment added by Claude Code (OCR-harvest worker C)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/kashf-zunun-furqan p.221-223; source/ihya-shamela-dar-al-marifa pp.2-19, 4131, 6250 and the book openings cited; source/ihya-kitab-al-shab-pts13-16 pp.5, 712-790; source/ihya-dar-al-marifa-1982-v3 p.5; source/ihya-tabana-v4 pp.1, 536"
+  source: "source/kashf-zunun-furqan p.221-223; source/ihya-shamela-dar-al-marifa pp.2-19, 4131, 6250 and the book openings cited; source/ihya-kitab-al-shab-pts13-16 pp.5, 712-790; source/ihya-dar-al-marifa-1982-v3 p.5; source/ihya-tabana-v4 pp.1, 536; source/majmu-fatawa-qasim-v10 pp. 551–552"
 ---
 ## موجز
 «إحياء علوم الدين» كتاب [[person/al-ghazali-abu-hamid|أبي حامد الغزالي]] في أربعين كتاباً موزعة على أربعة أرباع: ربع العبادات، وربع العادات، وربع المهلكات، وربع المنجيات. {cite:kashf-zunun-furqan p. 221-223} {cite:ihya-shamela-dar-al-marifa p. 9} ويقول الغزالي في خطبته إنه كتبه «إحياءً لعلوم الدين» بعد أن رأى علم طريق الآخرة قد صار عند الناس منسياً، وإنه قصر الكتاب على «علم المعاملة» دون «علم المكاشفة». {cite:ihya-shamela-dar-al-marifa p. 9} {cite:ihya-shamela-dar-al-marifa p. 16}
@@ -53,9 +53,12 @@ provenance:
 
 وجمع [[person/abd-al-qadir-ibn-shaykh-aydarus|عبد القادر بن شيخ العيدروس]] أقوال المادحين في رسالته [[work/tarif-al-ahya-bi-fadail-al-ihya|«تعريف الأحياء بفضائل الإحياء»]]: فنقل عن [[person/abd-al-ghafir-al-farisi|عبد الغافر الفارسي]] أنه من تصانيف الغزالي التي لم يُسبق إليها، وعن النووي: «كاد الإحياء أن يكون قرآناً»، وعن أبي محمد الكازروني أنه لو مُحيت العلوم كلها لاستُخرجت من الإحياء. {cite:ihya-kitab-al-shab-pts13-16 p. 782} وروى عن [[person/abdullah-al-yafii|اليافعي]] قصة الفقيه المغربي [[person/ali-ibn-hirzihim|أبي الحسن علي بن حرزهم]] الذي همّ بإحراق نسخ الإحياء ثم رجع عن إنكاره بعد رؤيا. {cite:ihya-kitab-al-shab-pts13-16 p. 779} {cite:ihya-kitab-al-shab-pts13-16 p. 780} ونقل أن السلطان [[person/ali-ibn-yusuf-al-murabiti|علي بن يوسف]] أمر بإحراق كتب الغزالي حين وصلت إلى المغرب، في خبر مدخله [[event/burning-of-ghazali-books-maghrib|إحراق كتب الغزالي في المغرب]]. {cite:ihya-kitab-al-shab-pts13-16 p. 788}
 
+ويقوّم [[person/ibn-taymiyya|ابن تيمية]] في جواب له في المجلد العاشر من [[work/majmu-al-fatawa|مجموع الفتاوى]] الإحياء بقوله إنه تبع لـ[[work/qut-al-qulub|قوت القلوب]] فيما يذكره من أعمال القلوب كالصبر والشكر والحب والتوكل، وإن أبا طالب المكي أعلم بالحديث والأثر وكلامه أسد وأبعد عن البدعة؛ وإن كلامه في «المهلكات» كالكبر والعجب والرياء والحسد غالبه منقول من «الرعاية» للحارث المحاسبي. {cite:majmu-fatawa-qasim-v10 p. 551} ويرى أن في الإحياء فوائد كثيرة، لكن فيه مواد يذمها من كلام الفلاسفة في التوحيد والنبوة والمعاد، وأحاديث ضعيفة بل موضوعة، وأشياء من أغاليط الصوفية، وينقل عن أئمة أنكروا ذلك قولهم إن الغزالي «أمرضه الشفاء» يعني شفاء ابن سينا؛ ثم يقول إن ما فيه من كلام المشايخ المستقيمين في أعمال القلوب الموافق للكتاب والسنة أكثر مما يُرد منه، «فلهذا اختلف فيه اجتهاد الناس وتنازعوا فيه». {cite:majmu-fatawa-qasim-v10 p. 551} {cite:majmu-fatawa-qasim-v10 p. 552}
+
 :::perspectives
 - **أهل السنة: المادحون من الشافعية والصوفية كما ينقلهم العيدروس وحاجي خليفة.** يرون الكتاب جامعاً للشريعة والطريقة، ومنهم النووي والكازروني وعبد الغافر الفارسي، ويجيب العيدروس عن الأحاديث الضعيفة فيه بأن الحافظ العراقي بيّن أن أكثرها ليس موضوعاً، وأن الضعيف يُعمل به في الفضائل والرقائق. {cite:ihya-kitab-al-shab-pts13-16 p. 782} {cite:ihya-kitab-al-shab-pts13-16 p. 787} {cite:ihya-kitab-al-shab-pts13-16 p. 788}
 - **أهل السنة: الناقدون من الفقهاء والمحدثين كما ينقلهم حاجي خليفة.** أنكر بعض فقهاء المغرب الكتاب أول وصوله، وجمع ابن الجوزي أغلاطه، ونُقل عن سبطه أنه أخذ على الكتاب بناءه على مذاهب الصوفية وما فيه من أحاديث لم تصح. {cite:kashf-zunun-furqan p. 221-223}
+- **أهل السنة (حنبلي): ابن تيمية في مجموع الفتاوى.** فيه فوائد كثيرة، وما فيه من كلام المشايخ المستقيمين الموافق للكتاب والسنة أكثر مما يُرد، لكن فيه مواد فلسفية وأحاديث ضعيفة وموضوعة وأغاليط صوفية؛ وقوت القلوب أسد منه في أعمال القلوب. {cite:majmu-fatawa-qasim-v10 p. 551} {cite:majmu-fatawa-qasim-v10 p. 552}
 - **الرأي الأكاديمي:** لم يُوثّق بعد بمصدر معرّف في المتحف.
 :::
 
