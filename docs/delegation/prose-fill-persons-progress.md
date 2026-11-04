@@ -852,3 +852,9 @@ Promoted: abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, adi-ibn-hatim, al-bara-ibn
 Promoted: abu-al-husayn-al-maqdisi-zahid, abu-sad-al-naysaburi, al-balansi-abu-al-hasan, al-batruji-abu-jafar, al-jawzaqani-husayn, al-karukhi, al-kashmihani, al-mubarak-ibn-kamil, al-nayhi-imad-al-din, burhan-al-din-al-balkhi, ibn-al-qaysarani-muhammad, ibn-al-sallar, ibn-munir-al-tarabulsi, sibt-al-khiyat.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2292.** sweep continues through remaining trilingual drafts.
+
+### Batch 129 (4 Nov 2026, 14 records) — isaba-batch-5 draft promotions (sweep worker)
+
+Promoted: al-khansa-bint-khidham, asma-bint-marthad, busra-bint-safwan, layla-bint-al-khatim, umm-al-ala-al-ansariyya, umm-al-fadl-lubaba, umm-kulthum-bint-ali, umm-mubashshir, umm-qays-bint-mihsan, umm-sad-bint-sad-ibn-al-rabi, umm-sharik, umm-sunbula, umm-ziyad-al-ashjaiyya, umm-zufar.cite-check 14/14; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2306.** sweep continues through remaining trilingual drafts.
