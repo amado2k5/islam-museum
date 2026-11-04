@@ -19,10 +19,12 @@ Editor's introduction pp. 5–47 (definition and 'adala pp. 11–19; books on th
 ## Done
 - (4 Nov 2026) Batch 1 — the book's apparatus and the ranking question (13 entities): new `source/fadail-sahaba-ahmad-wasi-allah-1999`; `work/fadail-al-sahaba-ahmad` rewritten (was a 1-line Wikidata card) with full ar/en/ur prose; new persons `ibn-al-allaf-abu-tahir`, `abu-ishaq-al-barmaki`, `wasi-allah-abbas`; `abdullah-ibn-ahmad-ibn-hanbal` and `abu-al-husayn-al-tayuri` rewritten from one-line cards with new prose trios; enriched `ahmad-ibn-hanbal` (born/died with day, nasab, travels, mihna, works; stray citation removed from label.ar), `al-qatiqi`, `ibn-nasir-al-sulami`, `ibn-al-mudhhib`, `concept/companionship-suhba` (definitions of al-Bukhari, Ahmad, al-Baqillani, Ibn Hazm, al-Iraqi, al-Sam'ani, Ibn al-Musayyab, al-Waqidi; 'adala); new `question/who-is-best-after-the-prophet` (two Sunni perspectives from the book with the editor's isnad grades; academic/Shi'i views flagged as not yet added). Pages read: 1–55, 55–117 (main text), 366–376, 1250–1261, 1381–1383.
 
+- (4 Nov 2026) Batch 2 — Companion chapters (9 entities): new `person/haritha-ibn-al-numan` (full ar/en/ur; Badri, gave up his houses for the Prophet, nos. 1507–1508 sahih, d. 51 AH, pp. 1041–1043); a "In Ahmad's Fada'il al-Sahaba" section (with the editor's grades) added to `sad-ibn-muadh` (1029–1032), `suhayb-ibn-sinan` (1043–1044), `khalid-ibn-al-walid` (65–66, 1024–1028), `usama-ibn-zayd` (1052–1055), `abdullah-ibn-masud` (1056–1060), `ammar-ibn-yasir` (1083–1085), `jarir-ibn-abd-allah-al-bajali` (1127–1129), `abdullah-ibn-umar` (104–108, 1130–1132).
+
 ## Flags
 - The editor's introduction (pp. 8, 19) contains polemical statements about the Rafida and Mu'tazila; recorded only as his attributed opinion (`person/wasi-allah-abbas`, `sensitivity: contested`), not reproduced.
 - Question card is `sensitivity: contested`; Tier-A note: only Sunni perspectives are sourced so far.
 - p. 41: Ibn al-Salah's charge against al-Qati'i and al-Dhahabi's reply recorded as attributed views.
 
 ## Next
-Companion chapters (pp. 547–1256): add this book as a source with a "In Ahmad's Fada'il al-Sahaba" section to the existing Companion records (Uthman, Ali, the Ten, Fatima, al-Hasan/al-Husayn, Khalid, Sa'd ibn Mu'adh, Haritha ibn al-Nu'man, Suhayb, Usama, Ibn Mas'ud, Ibn Abbas, Ammar, Aisha, Ja'far, Jarir, Ibn Umar, Amr ibn al-As, Mu'awiya, al-Abbas).
+Remaining Companion chapters: add this book as a source with a "In Ahmad's Fada'il al-Sahaba" section to the existing Companion records (Uthman, Ali, the Ten, Fatima, al-Hasan/al-Husayn, Ibn Abbas, Aisha, Ja'far, Amr ibn al-As, Mu'awiya, al-Abbas).
