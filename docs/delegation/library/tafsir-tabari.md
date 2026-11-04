@@ -20,3 +20,8 @@ Pages read in the thesis (PDF): 26–36 (journeys, teachers, students, works), 4
 - Created: `question/did-al-tabari-reject-established-readings` (al-Tabari, Ibn al-Jazari, Babakr); persons `atiyya-al-awfi`, `al-abbas-ibn-al-walid-al-bayruti` (not the Umayyad commander `al-abbas-ibn-al-walid`), `ahmad-ibn-yusuf-al-taghlibi`.
 - Enriched: `concept/al-ahruf-al-sabaa` (published; al-Tabari's view, the kinds of views, the thesis's preference, and Ibn Atiyya's chapter from `source/muharrar-wajiz-dar-ibn-hazm` PDF pp. 21–24), `concept/qiraat`, `person/al-tabari` (teachers and students; 10 `student_of` edges), `person/ibn-mujahid` and `person/ahmad-ibn-kamil` (`student_of` al-Tabari), `person/yunus-ibn-abd-al-ala`; the source record's notes.
 - Doubts kept out: the thesis's footnote on Muqatil mixes Muqatil ibn Sulayman with Muqatil ibn Hayyan (not linked); "al-Hasan ibn Dawud al-Massisi" kept as the thesis has it; Abu Ubayd's death "214" in a footnote (OCR) not used.
+
+### Batch 2b
+- Enriched with a section on their place in Jami' al-Bayan (chains, counts, footnote biographies; PDF pp. 47–52, 90): `person/mujahid-ibn-jabr`, `al-dahhak-ibn-muzahim`, `ata-ibn-abi-rabah`, `ibn-jurayj`, `qatada-ibn-diama`, `hushaym-ibn-bashir`, `yazid-ibn-harun-al-wasiti`, `al-farra`, `al-akhfash-al-awsat-said`, `ibn-qutayba`, `al-kisai`, `abdullah-ibn-abbas`; `person/al-rabi-ibn-anas` turned from a draft card into a published record (death 139, two `student_of` edges, ar/en/ur prose).
+- Conflicts noted, not resolved: al-Dahhak's death 105 (thesis) vs 102 (Ibn Qutayba); Qatada's death "110" in an OCR'd footnote vs 117/118 (Tadhkira) — not used.
+- Not done: al-Suddi (the thesis's chapter on sources does not name him); Muqatil (footnote conflation).

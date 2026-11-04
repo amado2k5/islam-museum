@@ -4,10 +4,10 @@ lang: en
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 provenance:
-  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F); sections on teachers, students and the readings added by Claude Code (OCR-harvest worker B)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
+  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section; qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 8, 26–36, 1443–1445 for worker B's sections"
 ---
 ## Overview
 Abu Ja'far Muhammad ibn Jarir al-Tabari al-Amuli, born in Amul in 224 AH and died in Baghdad in 310 AH. Ibn al-Nadim counts him among those skilled in the sciences of the Qur'an, grammar, poetry, language and jurisprudence. {cite:fihrist-ibn-al-nadim p.326-327}

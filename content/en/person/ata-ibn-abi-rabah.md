@@ -15,3 +15,6 @@ The book relates that he went in to Abd al-Malik ibn Marwan in his pilgrimage se
 
 ## Notes
 - The report is taken by the book from "Siyar A'lam al-Nubala'", whose original was not consulted; it needs an additional source.
+
+## His commentary in al-Tabari's Jami' al-Bayan
+The thesis counts the commentary of Abu Muhammad Ata ibn Abi Rabah among [[person/al-tabari|al-Tabari]]'s sources, and its footnote, from Tadhkirat al-Huffaz, says he was born in Yemen in 27 AH, met a number of Companions, transmitted from Ibn Abbas, Ibn Umar and Abu Hurayra, and that al-Zuhri transmitted from him. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} Al-Tabari used his commentary in a number of places through al-Qasim ibn al-Hasan al-Hamadani (d. 272), from al-Hasan ibn Dawud al-Massisi (d. 226; so in the thesis), from Hajjaj ibn Muhammad al-Massisi (d. 206), from [[person/ibn-jurayj|Ibn Jurayj]] (d. 150). {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}

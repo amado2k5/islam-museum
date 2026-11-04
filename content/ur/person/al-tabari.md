@@ -4,10 +4,10 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 provenance:
-  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F); sections on teachers, students and the readings added by Claude Code (OCR-harvest worker B)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
+  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section; qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 8, 26–36, 1443–1445 for worker B's sections"
 ---
 ## خلاصہ
 ابو جعفر محمد بن جریر الطبری الآملی، ان کی ولادت آمل میں سنہ 224ھ میں ہوئی اور بغداد میں سنہ 310ھ میں وفات پائی۔ ابن الندیم انھیں قرآن، نحو، شعر، لغت اور فقہ کے کئی فنون کا ماہر شمار کرتے ہیں۔ {cite:fihrist-ibn-al-nadim p.326-327}

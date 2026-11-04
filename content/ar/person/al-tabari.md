@@ -4,10 +4,10 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F); sections on teachers, students and the readings added by Claude Code (OCR-harvest worker B)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
+  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section; qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 8, 26–36, 1443–1445 for worker B's sections"
 ---
 ## موجز
 أبو جعفر محمد بن جرير الطبري الآملي، ولد في آمل سنة 224هـ وتوفي ببغداد سنة 310هـ. عدّه ابن النديم متفنناً في علوم القرآن والنحو والشعر واللغة والفقه {cite:fihrist-ibn-al-nadim p.326-327}.

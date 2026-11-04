@@ -14,6 +14,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 47" }
 external_ids: { wikidata: "Q712890" }
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/salabi-umayyad-state-2020]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/salabi-umayyad-state-2020, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
