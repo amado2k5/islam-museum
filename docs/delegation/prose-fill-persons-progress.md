@@ -783,3 +783,9 @@ Promoted: abd-al-wahhab-ibn-abd-al-qadir, abu-ali-al-farimi, abu-ali-al-hijri, a
 Promoted: abdullah-ibn-al-muttalib-ibn-azhar, abdullah-ibn-sufyan-makhzumi, aisha-bint-al-harith-ibn-khalid, al-harith-ibn-khalid, al-muttalib-ibn-azhar, amer-ibn-al-waqqas, amr-ibn-uthman-taymi, fatima-bint-al-harith-ibn-khalid, hisham-ibn-abi-hudhayfa, muhammad-ibn-abi-hudhayfa, musa-ibn-al-harith-ibn-khalid, ramla-bint-abi-awf, rayta-bint-al-harith, zaynab-bint-abi-salama, zaynab-bint-al-harith-ibn-khalid.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2134.** sweep continues through remaining trilingual drafts.
+
+### Batch 118 (4 Nov 2026, 15 records) — lib-wafayat-batch-15 draft promotions (sweep worker)
+
+Promoted: abu-al-fadl-sad-ibn-sharif, abu-ali-ibn-al-ikhwa, abu-rafi-al-fadl-ibn-hazm, al-bazzi, al-husayn-ibn-said-al-hamdani, al-malik-al-mansur-nasir-al-din-muhammad, al-malik-al-nasir-salah-al-din-dawud, al-salah-ibn-uthman, al-zaki-ibn-rawaha, asad-ibn-al-furat, batikin-al-armani, muhammad-ibn-abd-al-rahman-ibn-abi-bakr, qunbul, saad-al-dawla-sharif, sitt-al-sham.cite-check 15/15; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 2149.** sweep continues through remaining trilingual drafts.
