@@ -11,12 +11,13 @@ summary:
 wings: [ideas]
 themes: [scripture-and-its-sciences]
 external_ids: { wikidata: "Q1817983" }
-sources: [source/itqan-suyuti, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+sources: [source/itqan-suyuti, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/taysir-pretzl-istanbul-1930, source/nashr-dahman-damascus-1345-v1]
 provenance:
   layer: own-research
   source: "wikidata-import deferred Q1817983; Itqan qira'at type verified in OCR"
   generated_by: "Devin (SWE-2 Medium)"
   run: wd-deferred-7
+  nashr_section: "Claude Code (OCR-harvest worker L), claude-opus-5-5, run ocr-harvest-2026-11-04: nashr-dahman-damascus-1345-v1 PDF pp. 19-20; taysir-pretzl-istanbul-1930 PDF p. 10"
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 88–93, 1364, 1381–1382" }
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,22 +1,35 @@
 id: event/rus-sack-of-bardaa-332
 class: event
 kind: massacre
-label: { ar: "ملك الروس مدينة بردعة", en: "The Rus seize the city of Barda'a" }
+label: { ar: "ملك الروس مدينة بردعة", en: "The Rus seize the city of Barda'a", ur: "روس کا شہر بردعہ پر قبضہ" }
 summary:
   ar: "في سنة 332هـ خرجت طائفة من الروس في البحر فركبوا نهر الكر إلى بردعة فانهزم نائب المرزبان في جمع من الديلم والمطوعة يربو على خمسة آلاف ودخلوا البلد ونادوا بالأمان وأحسنوا السيرة وكانوا ينهون العامة عن الرعب بهم، ثم لما طال عليهم الأمر نادى مناديهم بخروج أهل البلد في ثلاثة أيام فبقي أكثرهم فوضعوا فيهم السلاح وقتلوا خلقاً كثيراً وأسروا بعد القتل بضعة عشر ألف نفس وجمعوا من بقي بالجامع وقالوا اشتروا أنفسكم فسعى لهم إنسان نصراني فقرروا عن كل رجل عشرين درهماً فلما لم يحصل لهم شيء قتلوهم عن آخرهم وغنموا الأموال واستعبدوا السبي واختاروا من النساء من استحسنوهن، وأكثروا من أكل الفواكه فأصابهم الوباء وكثرت الأمراض والموت فيهم فأعمل المرزبان الحيلة فكمن لهم كميناً وتطارد لهم حتى جازوه فقتل منهم قتلاً كثيراً منهم أميرهم وحاصر الباقين في حصن شهرستان {cite:kamil-ibn-al-athir p. 308-310}."
   en: "In 332 a Rus fleet came up the Kur river to Barda'a, routed the garrison, proclaimed security, then trapped the townsmen who stayed past the three-day deadline — some fifteen thousand captives, the survivors penned in the mosque and slaughtered when a twenty-dirham ransom failed. Fruit-gluttony brought them plague, and Marzuban's ambush destroyed their prince and penned the rest in the citadel {cite:kamil-ibn-al-athir p. 308-310}."
-wings: [time]
-periods: [period/abbasid-early]
+wings: [time, place, people]
+themes: [wars-and-campaigns, battles, non-muslim-minorities-under-muslim-rule]
+sensitivity: violence
+periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+sides:
+  - label: { ar: "الروس", en: "The Rus", ur: "روس" }
+    participants: [group/al-rus]
+    note: "قدموا في البحر ثم في نهر الكُرّ، ومات أميرهم في الكمين {cite:tajarib-al-umam-surush-v6 p. 94} {cite:tajarib-al-umam-surush-v6 p. 98}"
+  - label: { ar: "المرزبان بن محمد صاحب أذربيجان والديلم والمطوعة", en: "al-Marzuban ibn Muhammad of Azerbaijan, with Daylamites and volunteers", ur: "آذربائیجان کا مرزبان بن محمد، دیلم اور رضاکار" }
+    participants: [polity/musafirid-dynasty]
+    commanders: [person/marzuban-ibn-muhammad]
+    strength: { value: 30000, sources: [source/tajarib-al-umam-surush-v6], status: historical, note: "«فسار فى ثلاثين ألف رجل» بعد سقوط بردعة؛ وكان مع خليفته الأول ثلاثمائة من الديلم ونحوهم من الصعاليك والأكراد ونحو خمسة آلاف من المطوعة (تجارب الأمم 6/94، 97)" }
 date:
-  start: { edtf: "0943~", hijri: "0332", calendar: julian, precision: year, status: tradition, derived: true, note: "332؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 308}." }
+  start: { edtf: "0943/0944", hijri: "0332", calendar: julian, precision: year, status: historical, derived: true, note: "«وفى هذه السنة خرج عسكر الأمة المعروفة بالروس إلى أذربيجان» في حوادث سنة 332هـ عند مسكويه (تجارب الأمم 6/93-94)، وكذلك عند ابن الأثير (الكامل ص308)؛ وانتهى أمرهم بعد أن بلغ المرزبانَ خبرُ موت توزون (المحرم 334) فيما يرويه مسكويه (6/98). التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v6, source/kamil-ibn-al-athir] }
 relations:
   - { type: occurred_at, target: place/bardhaa, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/marzuban-ibn-muhammad, role: "أمير أذربيجان", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/marzuban-ibn-muhammad, role: "أمير أذربيجان", sources: [source/kamil-ibn-al-athir, source/tajarib-al-umam-surush-v6] }
+  - { type: had_participant, target: group/al-rus, role: "المغيرون", sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: had_participant, target: person/al-husayn-ibn-said-al-hamdani, role: "الداخل إلى أذربيجان في أثناء الحصار", sources: [source/tajarib-al-umam-surush-v6] }
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kamil-batch-12
-sources: [source/kamil-ibn-al-athir]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن) ص308-310؛ source/tajarib-al-umam-surush-v6 scan pp. 93-100"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-kamil-batch-12; ocr-harvest-2026-11-04"
+sources: [source/kamil-ibn-al-athir, source/tajarib-al-umam-surush-v6]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

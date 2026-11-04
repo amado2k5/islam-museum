@@ -14,6 +14,7 @@ structure: "Each verse is treated in numbered 'questions' (al-mas'ala al-ula, al
 relations:
   - { type: about, target: concept/tafsir, sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3] }
   - { type: about, target: question/where-was-the-garden-of-adam, sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3] }
+  - { type: about, target: question/can-prophets-commit-minor-sins, sources: [source/mafatih-al-ghayb-dar-al-fikr-1401-j3] }
 wings: [words, ideas]
 themes: [scripture-and-its-sciences]
 periods: [period/crusades-ayyubid-mamluk]
@@ -28,4 +29,5 @@ provenance:
   run: ocr-harvest-2026-11-04
   enriched_by:
     - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/mafatih-al-ghayb-dar-al-fikr-1401-j3 PDF pp. 5–11 (the masa'il on al-Baqara 35–36; the protection of prophets)" }
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

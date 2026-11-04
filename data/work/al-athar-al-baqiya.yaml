@@ -1,20 +1,28 @@
 id: work/al-athar-al-baqiya
 class: work
 kind: book
-label: { ar: "الآثار الباقية عن القرون الخالية", en: "al-Athar al-Baqiya 'an al-Qurun al-Khaliya" }
+label: { ar: "الآثار الباقية عن القرون الخالية", en: "al-Athar al-Baqiya 'an al-Qurun al-Khaliya", ur: "الآثار الباقیہ عن القرون الخالیہ" }
 summary:
-  ar: "كتاب أبي ريحان محمد بن أحمد البيروني الخوارزمي في النجوم والتاريخ، ألفه لشمس المعالي قابوس وبين فيه التواريخ التي تستعملها الأمم والاختلاف في الأصول التي هي مباديها، وهو كتاب مفيد {cite:kashf-zunun-furqan p. 179}."
-  en: "Abu Rayhan al-Biruni's surviving traces of the past centuries — composed for Shams al-Ma'ali Qabus, laying out the calendars the nations use and the disagreement in the principles on which they rest {cite:kashf-zunun-furqan p. 179}."
+  ar: "كتاب أبي ريحان محمد بن أحمد البيروني الخوارزمي في التواريخ والتقاويم والأعياد، ألّفه لشمس المعالي قابوس جواباً عن سؤال أحد الأدباء عن التواريخ التي تستعملها الأمم واختلافها في مبادئها وشهورها وسنيها وأعيادها؛ يبدأ بحقيقة اليوم والشهر والسنة، ثم التواريخ واستخراج بعضها من بعض والأدوار، ثم أعياد الفرس والسغد وأهل خوارزم والروم واليهود والنصارى الملكانية والنسطورية والمجوس والصابئين، ثم ما كانت العرب تستعمله في الجاهلية وما يستعمله أهل الإسلام، ومنازل القمر {cite:athar-baqiya-thaqafa-2008 p. 4} {cite:athar-baqiya-thaqafa-2008 p. 6} {cite:athar-baqiya-thaqafa-2008 p. 401} {cite:athar-baqiya-thaqafa-2008 p. 407} {cite:kashf-zunun-furqan p. 179}."
+  en: "Abu Rayhan Muhammad ibn Ahmad al-Biruni's work on eras, calendars and festivals, written for Shams al-Ma'ali Qabus in answer to a man of letters who asked about the eras the nations use and how they differ in their starting points, months, years and feasts; it opens with the nature of the day, month and year, then the eras, converting one into another and the cycles, then the festivals of the Persians, the Sogdians, the people of Khwarazm, the Byzantines, the Jews, the Melkite and Nestorian Christians, the Magians and the Sabians, then what the Arabs used before Islam and what the people of Islam use, and the lunar mansions."
+  ur: "ابو ریحان محمد بن احمد بیرونی خوارزمی کی تواریخ، تقاویم اور تہواروں پر کتاب، جو انہوں نے شمس المعالی قابوس کے لیے ایک ادیب کے اس سوال کے جواب میں لکھی کہ قومیں کون سی تواریخ استعمال کرتی ہیں اور ان کے مبادی، مہینوں، برسوں اور عیدوں میں کیا اختلاف ہے؛ یہ دن، مہینے اور سال کی حقیقت سے شروع ہوتی ہے، پھر تواریخ، ان کا ایک دوسرے سے استخراج اور ادوار، پھر فارس، سغد، خوارزم، روم، یہود، ملکانی و نسطوری نصاریٰ، مجوس اور صابئہ کے تہوار، پھر جاہلیت میں عربوں کا طریقہ اور اہلِ اسلام کا طریقہ، اور منازلِ قمر۔"
 language: language/arabic
 authors: [person/al-biruni-muhammad-ibn-ahmad]
 genre: [chronology]
-wings: []
+structure: "Thaqafa edition: dedication to Shams al-Ma'ali (p. 3); occasion (p. 4); the day and night (p. 6); months and years (p. 11); eras and the nations' disagreement on them (p. 16), with Dhu al-Qarnayn (p. 43); the months used in the old eras (p. 50); converting eras (p. 86); cycles and year-births (p. 171); the eras of false prophets (p. 243); feasts in the months of the Persians (p. 256), Sogdians (p. 280), Khwarazmians (p. 283, 290), Byzantines (p. 292), Jews (p. 336), Melkite Christians (p. 352), Christian fasts (p. 374), Nestorians (p. 381), ancient Magians and Sabians (p. 392); the pre-Islamic Arabs (p. 401); the people of Islam (p. 407); the lunar mansions (p. 416)."
+wings: [ideas, time]
+themes: [astronomy-and-timekeeping, history-writing-and-social-thought]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+relations:
+  - { type: mentions, target: concept/nasi, sources: [source/athar-baqiya-thaqafa-2008] }
+  - { type: mentions, target: concept/hijri-calendar, sources: [source/athar-baqiya-thaqafa-2008] }
+  - { type: mentions, target: concept/manazil-al-qamar, sources: [source/athar-baqiya-thaqafa-2008] }
 provenance:
   layer: own-research
-  source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-zunun-batch-7
-sources: [source/kashf-zunun-furqan]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "athar-baqiya-thaqafa-2008 pp. 2-6, 13-14, 75, 401-402, 407 and the chapter headings; earlier entry from Kashf al-Zunun (Devin, lib-kashf-zunun-batch-7)"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/athar-baqiya-thaqafa-2008, source/kashf-zunun-furqan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L); earlier entry by Devin (SWE-2 High)" }

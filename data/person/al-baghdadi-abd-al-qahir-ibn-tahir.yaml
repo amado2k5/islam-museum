@@ -50,11 +50,12 @@ relations:
   - { type: participated_in, target: event/baghdadi-aq-departs-nishapur-429, sources: [source/tabaqat-shafiiyya-subki, source/mawsuat-a3lam-ulama-adaba] }
   - { type: participated_in, target: event/baghdadi-aq-dies-429, sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
 external_ids: { wikidata: "Q557366" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina]
 provenance:
   layer: own-research
   source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص634-635 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 429, printed pp. 264-266 (harvest OCR); al-Subki, Tabaqat al-Shafi'iyya al-Kubra, 4th tabaqa, printed pp. 238-240 (harvest OCR)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-al-baghdadi-aq-1
+  farq_section: "Claude Code (OCR-harvest worker L), claude-opus-5-5, run ocr-harvest-2026-11-04: farq-bayn-al-firaq-khisht-ibn-sina pp. 7-8"
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

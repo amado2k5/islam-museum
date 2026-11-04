@@ -11,3 +11,8 @@
 ## Notes
 - Ibn al-Jawzi's birth-year variants (508/510/514) are given in prose; the person's date record (another agent's) was not changed.
 - A question card on Ibn al-Jawzi's leaning to ta'wil was not made: the pages read give only Ibn Rajab's voice.
+
+## Second pass (OCR-harvest worker B)
+Pages read (Dar al-Kitab al-Arabi 2001, vol. 1, PDF): 24–26 (the opening letters: six views on the separated letters and five on Alif Lam Mim, with the editor's note from Ibn Kathir).
+- Created: `question/what-do-the-opening-letters-of-the-suras-mean` (six Sunni perspectives as Ibn al-Jawzi lists them, with al-Baghawi and al-Zarkashi where they agree).
+- Poetry lines cited for the "shorthand" view are not reproduced; Abu Bakr al-Siddiq is named but not linked.
