@@ -388,3 +388,9 @@ Leads (rejected):
 ibn-al-athir-diya-al-din	REJECT: en: boilerplate /not yet checked/i
 
 **Lane total: 1034.** mawsuat-a3lam ~138 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 58 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 12 (sweep worker)
+
+Promoted: ibn-al-tayn-abd-al-wahid, ibn-arqam-muhammad-ibn-abd-allah, ibn-atham-al-kufi-ahmad-ibn-muhammad, ibn-aybak-al-dawadari, ibn-babshadh-tahir, ibn-bakr-muhammad-ibn-yahya, ibn-balban-ala-al-din-ali, ibn-baqi-yahya, ibn-bariq-abu-hafs, ibn-barrajan-abd-al-salam, ibn-barri-abd-allah-ibn-abi-al-wahsh, ibn-barri-ali-ibn-muhammad, ibn-bashkuwal-khalaf, ibn-batta-al-ukbari-ubayd-allah, ibn-baz-abd-al-aziz, ibn-bukayr-abu-abd-allah-al-husayn-ibn-ahmad, ibn-fahd-jar-allah-muhibb-al-din-muhammad, ibn-hamadush-abd-al-razzaq, ibn-hamdun-muhammad, ibn-hayy-al-tujibi-al-hasan-ibn-muhammad, ibn-hayyan-abu-marwan, ibn-hudhayl-yahya, ibn-iyas-muhammad-ibn-ahmad, ibn-iyaz-jamal-al-din, ibn-jabir-al-andalusi-muhammad.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1059.** mawsuat-a3lam ~113 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
