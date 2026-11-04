@@ -1,0 +1,25 @@
+id: work/al-tajrid-al-sarih
+class: work
+kind: book
+label: { ar: "التجريد الصريح لأحاديث الجامع الصحيح", en: "al-Tajrid al-Sarih li-Ahadith al-Jami' al-Sahih", ur: "التجرید الصریح لاحادیث الجامع الصحیح" }
+summary:
+  ar: "كتاب شهاب الدين أبي العباس أحمد الشرجي الزبيدي في أحاديث «الجامع الصحيح» للبخاري، وهو الذي شرحه صديق حسن القنوجي في «عون الباري لحل أدلة البخاري» {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  en: "Shihab al-Din Abu al-'Abbas Ahmad al-Sharji al-Zabidi's book on the hadiths of al-Bukhari's al-Jami' al-Sahih, the text on which Siddiq Hasan al-Qannawji wrote 'Awn al-Bari li-Hall Adillat al-Bukhari {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  ur: "شہاب الدین ابو العباس احمد شرجی زبیدی کی بخاری کی «الجامع الصحیح» کی احادیث پر کتاب، جس کی شرح صدیق حسن قنوجی نے «عون الباری لحل ادلۃ البخاری» میں کی {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}۔"
+language: language/arabic
+authors: [person/ahmad-al-sharji-al-zabidi]
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/nayl-awtar-awn-bari-hamish] }
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: relies_on, target: work/sahih-al-bukhari, sources: [source/nayl-awtar-awn-bari-hamish] }
+provenance:
+  layer: own-research
+  source: "Nayl al-Awtar, old printing with 'Awn al-Bari in the margin: vol. 5 PDF p. 2"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/nayl-awtar-awn-bari-hamish]
+status: { review: published, completeness: 1, generated_by: "Claude Code (OCR-harvest worker A)" }
