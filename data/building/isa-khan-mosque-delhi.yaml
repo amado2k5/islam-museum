@@ -1,0 +1,26 @@
+id: building/isa-khan-mosque-delhi
+class: building
+kind: mosque
+label: { ar: "مسجد عيسى خان نيازي في دلهي", en: "Mosque of Isa Khan Niyazi, Delhi", ur: "عیسیٰ خان نیازی کی مسجد، دہلی" }
+summary:
+  ar: "مسجد ذات ثلاثة عقود في الجانب الغربي من الساحة المثمنة لضريح عيسى خان نيازي قرب نظام الدين بدلهي، بنيت مع الضريح سنة 954هـ/1547–1548، يعدها ناث أول مثال ناجح لهذا الطراز {cite:nath-history-of-mughal-architecture-1-1982 p. 235} {cite:nath-history-of-mughal-architecture-1-1982 p. 236}."
+  en: "A three-arched mosque on the west side of the octagonal enclosure of Isa Khan Niyazi's tomb near Nizamuddin, Delhi, built with the tomb in AH 954/1547-48, which Nath calls the first successful example of the type {cite:nath-history-of-mughal-architecture-1-1982 p. 235} {cite:nath-history-of-mughal-architecture-1-1982 p. 236}."
+  ur: "دہلی میں نظام الدین کے قریب عیسیٰ خان نیازی کے مقبرے کے ہشت پہلو احاطے کے مغربی جانب سہ محرابی مسجد، جو 954ھ/1547–48ء میں مقبرے کے ساتھ بنی؛ ناتھ اسے اس قسم کی پہلی کامیاب مثال کہتے ہیں {cite:nath-history-of-mughal-architecture-1-1982 p. 235}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1547/1548", hijri: "0954", calendar: gregorian, precision: year, status: historical, note: "The tomb's mihrab inscription dates it 954; the mosque seems contemporary {cite:nath-history-of-mughal-architecture-1-1982 p. 235}." }
+location: place/delhi
+materials: [stone, ceramic]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+  - { type: related_to, target: building/tomb-of-isa-khan-delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+sources: [source/nath-history-of-mughal-architecture-1-1982]
+provenance:
+  layer: own-research
+  source: "Nath 1982, printed pp. 235-237"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

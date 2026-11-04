@@ -3,6 +3,7 @@ id: person/abbas-ibn-abd-al-muttalib
 lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1159–1162", note: "section added to earlier prose" }
 ---
 
 ## تعارف
@@ -45,3 +46,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
 شیخ بیان کرتے ہیں کہ عباس سے پوچھا گیا: آپ بڑے ہیں یا رسول اللہ؟ وہ عمر میں بڑے تھے، مگر خود کو آگے نہیں کرنا چاہتے تھے، تو کہا: وہ مجھ سے بڑے ہیں اور میں ان سے پہلے پیدا ہوا۔ وہ اسے [[concept/al-qawl-al-hasan|اچھی بات]] کی مثال کے طور پر بیان کرتے ہیں۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:05:00}
+
+## احمد بن حنبل کی «فضائل الصحابہ» میں
+[[person/ahmad-ibn-hanbal|احمد بن حنبل]] کے باب «رسول اللہ کے چچا ابو الفضل عباس بن عبد المطلب کے فضائل» میں: عمر سے نبی کا قول «کیا تمہیں معلوم نہیں کہ آدمی کا چچا اس کے باپ کی مانند ہوتا ہے؟» — یعنی عباس (روایت 1751، محقق [[person/wasi-allah-abbas|وصی اللہ عباس]] کے نزدیک انقطاع کی وجہ سے ضعیف) — اور عباس سے آپ کا قول «یہاں آؤ، تم میرے باپ کی مانند ہو» (1752، ارسال کی وجہ سے ضعیف)۔ {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1159} اس میں سعید بن المسیب کی روایت ہے کہ عمر نے مسجد کی توسیع چاہی جہاں عباس کا گھر تھا؛ عباس نے دینے سے انکار کیا، دونوں نے ابی بن کعب کو حکم بنایا، انہوں نے عباس کے خلاف فیصلہ دیا، تو عباس نے کہا: «یہ مسلمانوں پر صدقہ ہے» (1753، صحیح)۔ {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1160} اور ابو جعفر سے روایت کہ نبی کو عباس کا حسن پسند آیا، پوچھا گیا آدمی میں حسن کیا ہے تو فرمایا «زبان» (1755، معضل ہونے کی وجہ سے ضعیف)، اور ابو الضحیٰ سے ان لوگوں کے بارے میں آپ کا قول جن کے چہروں پر کینہ تھا: «وہ بھلائی نہیں پائیں گے جب تک تم سے اللہ کے لیے اور میری قرابت کی وجہ سے محبت نہ کریں» (1756، ارسال کی وجہ سے ضعیف)۔ {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1161} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.1162}
+

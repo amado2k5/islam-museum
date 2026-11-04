@@ -1,24 +1,29 @@
 id: building/qila-i-kuhna-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد قلعة كهنه"
-  en: "Qila-i-Kuhna Mosque, Delhi"
+label: { ar: "مسجد قلعة كهنه", en: "Qila-i-Kuhna Mosque, Delhi", ur: "قلعۂ کہنہ مسجد، دہلی" }
 summary:
-  ar: "بطاقة أولية لمسجد قلعة كهنه في بورانا قلعة بدلهي، جامع شير شاه من سنة ١٥٤١م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Qila-i-Kuhna Mosque of Delhi's Purana Qila, Sher Shah's mosque of 1541; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "مسجد ذو خمسة عقود في القلعة القديمة بدلهي، ينسب عادة إلى شير شاه، ويرى ناث أن همايون بدأه مع دين پناه سنة 1533 وأنه أُتم في أوائل عهد أكبر؛ تميزه التطعيمات الملونة بالرخام والحجر الأحمر والنقوش القرآنية الكثيرة {cite:nath-history-of-mughal-architecture-1-1982 p. 160} {cite:nath-history-of-mughal-architecture-1-1982 p. 169} {cite:nath-history-of-mughal-architecture-1-1982 p. 171}."
+  en: "A five-arched mosque in the Purana Qila, Delhi, usually ascribed to Sher Shah; Nath argues that Humayun began it with Din-panah in 1533 and that it was finished early in Akbar's reign; it is marked by coloured inlay of marble and red stone and abundant Qur'anic inscriptions {cite:nath-history-of-mughal-architecture-1-1982 p. 160} {cite:nath-history-of-mughal-architecture-1-1982 p. 169} {cite:nath-history-of-mughal-architecture-1-1982 p. 171}."
+  ur: "پرانے قلعے دہلی میں پانچ محرابوں کی مسجد، عموماً شیر شاہ سے منسوب؛ ناتھ کے نزدیک ہمایوں نے 1533ء میں دین پناہ کے ساتھ اسے شروع کیا اور یہ اکبر کے ابتدائی عہد میں مکمل ہوئی؛ رنگین پچی کاری اور کثیر قرآنی کتبے اس کی پہچان ہیں {cite:nath-history-of-mughal-architecture-1-1982 p. 169} {cite:nath-history-of-mughal-architecture-1-1982 p. 171}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1533/1565", calendar: gregorian, precision: year, status: debated, note: "Usually dated to Sher Shah (1541); Nath dates it c. 1533-40 and 1555-65, begun by Humayun and finished early in Akbar's reign {cite:nath-history-of-mughal-architecture-1-1982 p. 161} {cite:nath-history-of-mughal-architecture-1-1982 p. 171}." }
+location: place/delhi
+materials: [stone, marble]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+  - { type: related_to, target: building/purana-qila-delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/nath-history-of-mughal-architecture-1-1982]
 external_ids:
   wikidata: Q19895556
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Nath 1982, printed pp. 160-171; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Nath 1982 pp. 160-171, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
