@@ -26,3 +26,7 @@ Read: vol. 10 pp. 1–8, 18–19, 40–43, 149–157, 176, 180, 186, 218–223, 
 
 ## Next
 Vol. 10: *Amrad al-Qulub* (pp. 91–149, envy pp. 111–125), the prophets' protection from sin (pp. 292–316), the names of the ascetics and the term "Sufi" (pp. 366–370), innovated retreats (pp. 393–406), the commentary on *Futuh al-Ghayb* (pp. 455–551), *al-Wasiyya al-Sughra* (pp. 654–666), *al-sabr al-jamil* (pp. 666–678), the assessment of the *Ihya'* and *Qut al-Qulub* (pp. 551–552, read; not yet written up). Vol. 8: the three kinds of Qadariyya, human capacity, the wisdom of God's acts.
+
+## Batch 2 (4 Nov 2026)
+- From vol. 10 pp. 551–552 (read in batch 1): enriched `work/ihya-ulum-al-din` (Ibn Taymiyya's assessment: a paragraph and a perspective in ar/en/ur; source and tour stop sources updated) and rewrote the draft `work/qut-al-qulub` card (completeness 2, from Ibn Taymiyya's assessment only).
+- `concept/al-maqamat-wal-ahwal` also cites vol. 10 pp. 5–6, 18.

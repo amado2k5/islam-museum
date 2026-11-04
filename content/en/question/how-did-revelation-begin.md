@@ -16,3 +16,6 @@ The month of the mission is given as Rabi al-Awwal, Ramadan or Rajab. Its day in
 
 ## Notes for researchers
 - The answer is taken from the presentation in Al-Raheeq al-Makhtum and its hadith sources. Academic readings of the beginning of revelation are not presented here.
+
+## In Ibn al-Jawzi's Zad al-Masir
+[[person/ibn-al-jawzi|Ibn al-Jawzi]] says the transmitted view is that the first revealed was the opening of Surat al-Alaq, as Urwa relates from [[person/aisha|A'isha]], held also by Qatada and Abu Salih; that it is reported from [[person/jabir-ibn-abdullah|Jabir ibn Abd Allah]] that it was the opening of al-Muddaththir; and he holds that when the opening of al-Alaq came down the Prophet went home and wrapped himself, and then the opening of al-Muddaththir came down, citing Jabir's hadith in the two Sahihs on the pause in revelation; it is also reported from [[person/al-hasan-al-basri|al-Hasan]] and [[person/ikrima-mawla-ibn-abbas|Ikrima]] that the first revealed was the basmala. See [[passage/quran-96-1|al-Alaq 1]] and [[passage/quran-74-1|al-Muddaththir 1]]. {cite:zad-al-masir-maktab-islami-v1 p.5}

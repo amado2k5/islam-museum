@@ -4,13 +4,14 @@ aliases: [person/ibn-khuzayma-muhammad]
 label: { ar: "محمد بن إسحاق بن خزيمة النيسابوري", en: "Ibn Khuzayma, Muhammad ibn Ishaq" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر محمد بن إسحاق بن خزيمة بن المغيرة السلمي النيسابوري" }
+  - { kind: full, lang: ar, value: "محمد بن إسحاق بن خزيمة بن المغيرة بن صالح بن بكر السلمي النيسابوري" }
   - { kind: laqab, lang: ar, value: "إمام الأئمة" }
 summary:
   ar: "إمام الأئمة أبو بكر محمد بن إسحاق بن خزيمة السلمي، محدّث نيسابور وصاحب «الصحيح» المعروف بصحيح ابن خزيمة، وُلد سنة 223هـ وتوفي سنة 311هـ {cite:mawsuat-a3lam-ulama-adaba}. يروي ابن الأثير أنه أنكر على من ترك الكتابة عن الطبري، وقال بعد مطالعة تفسيره: ما أعلم على أديم الأرض أعلم من أبي جعفر {cite:kamil-ibn-al-athir p. 100}. ويحكي ابن الجوزي خبر رحلته إلى مصر مع ثلاثة من أقرانه لسماع كتب الشافعي من الربيع بن سليمان، وما أصابهم من الجوع حتى وصلتهم صلة أحمد بن طولون {cite:muntazam-ibn-al-jawzi p. 172}."
   en: "Abu Bakr Muhammad ibn Ishaq ibn Khuzayma al-Sulami, called 'imam of the imams', the hadith master of Nishapur and compiler of the Sahih known by his name, born 223 AH and died 311 AH {cite:mawsuat-a3lam-ulama-adaba}. Ibn al-Athir reports his defence of al-Tabari against Hanbali pressure {cite:kamil-ibn-al-athir p. 100}; Ibn al-Jawzi tells of his hungry stay in Egypt hearing al-Shafi'i's books from al-Rabi' ibn Sulayman, ended by a gift from Ahmad ibn Tulun {cite:muntazam-ibn-al-jawzi p. 172}."
 gender: male
 roles: [muhaddith, jurist]
-traditions: [sunni]
+traditions: [sunni, sunni-shafii]
 born: { edtf: "0838", hijri: "0223", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "0924", hijri: "0311", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 wings: [people]
@@ -30,6 +31,26 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "ولد في صفر 223هـ بنيسابور ونشأ بها، الدراسة ص 25" }
+  - { type: student_of, target: person/ishaq-ibn-rahwayh, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "سمع منه في صغره ولم يحدث عنه، الدراسة ص 25" }
+  - { type: student_of, target: person/muhammad-ibn-yahya-al-dhuhli, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/mahmud-ibn-ghaylan, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/yunus-ibn-abd-al-ala, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/al-baghawi-ahmad-ibn-mani, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 32" }
+  - { type: student_of, target: person/al-muzani, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "تفقه عليه، الدراسة ص 41" }
+  - { type: student_of, target: person/al-rabi-ibn-sulayman-al-muradi, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "تفقه عليه، الدراسة ص 33، 41" }
+  - { type: student_of, target: person/al-bukhari, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "سمع منه، الدراسة ص 32" }
+  - { type: student_of, target: person/muslim-ibn-al-hajjaj, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "سمع منه، الدراسة ص 32" }
+  - { type: traveled_to, target: place/marw, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "خرج إلى مرو يريد قتيبة فنُعي إليهم سنة 240هـ، الدراسة ص 31" }
+  - { type: traveled_to, target: place/rayy, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/baghdad, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/al-sham, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/basra, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/kufa, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/jazira, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/misr, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
+  - { type: traveled_to, target: place/wasit, sources: [source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study], note: "الدراسة ص 31" }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ) ص100؛ المنتظم لابن الجوزي ص172؛ موسوعة أعلام العلماء والأدباء ج8 ص258 (merged from person/ibn-khuzayma-muhammad, run prose-fill-persons-batch59)"
@@ -37,5 +58,5 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 external_ids: { wikidata: "Q3814358" }
-sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi, source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
-status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); merge of two Devin records" }
+sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi, source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981, source/kitab-al-tawhid-ibn-khuzayma-shahwan-1988-study]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A); merge of two Devin records; enriched by Claude Code (OCR-harvest worker K) from al-Shahwan's study, run ocr-harvest-2026-11-04" }
