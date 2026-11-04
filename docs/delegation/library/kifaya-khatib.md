@@ -22,4 +22,4 @@
 Chapters on sama' al-saghir (pp. 54–66), ijaza/munawala/mukataba, riwaya bi-l-ma'na, al-jarh before ta'dil (pp. 105–110), al-majhul (pp. 88–).
 
 ## Second pass (worker F, run 2)
-- Cited in the Muqaddima concept batch: pp. 355–356 (tadlis: Shu'ba, Hammad ibn Zayd, Ibn al-Mubarak), pp. 384–387 (mursal: positions, al-Qattan's ranking of mursal reports, al-Khatib's choice), p. 404 (Ibn al-Musayyab's mursal), p. 411 (al-Khatib: connection by a trustworthy narrator prevails). Itr's page references to al-Kifaya match this Hyderabad edition's pagination (checked at pp. 384, 411, 424).
+- Cited in the Muqaddima concept batch: pp. 355–356 (tadlis: Shu'ba, Hammad ibn Zayd, Ibn al-Mubarak), pp. 384–387 (mursal: positions, al-Qattan's ranking of mursal reports, al-Khatib's choice), p. 404 (Ibn al-Musayyab's mursal), p. 411 (al-Khatib: connection by a trustworthy narrator prevails). Itr's page references to al-Kifaya match this Hyderabad edition's pagination (checked at pp. 384 and 411).
