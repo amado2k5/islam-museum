@@ -52,6 +52,7 @@ open a new block on top with the new version and today's date.
 - **25 new contemporary biographies**: preachers, teachers and Qur'an reciters followed by millions — from Pakistan, Indonesia, Bangladesh, Turkey, Egypt and France — each with full Arabic, English and Urdu pages and sources.
 
 ### Added
+- **Safer Timeline Explorer scenery**: ten new adult/kids backdrops override five legacy illustrated scenes, and five shared backdrops with figures are replaced by empty landscapes after explicit founder approval. All fifteen images were visually screened at full size; historical facts and site code are unchanged.
 - **Developers page** (`/{lang}/developers/`, Arabic, English, Urdu): the museum's open data and API documented for libraries and builders — endpoints, the node/edge/record schema, worked examples with real responses, sample code, starter prompts for AI coding agents, and an honest list of what is not here yet.
 - **Network page** (`/{lang}/network/`): the scholars, institutions and communities in conversation with the museum.
 - **Canary release notes**: this file, the changelog page that renders it, and the site version now shown in the footer of every page — so any reader can watch the museum change and know exactly which version they are looking at.
