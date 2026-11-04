@@ -1741,7 +1741,7 @@ developers:
   roadmap_2: 'Beyond that, the museum''s own gap map names the corpora not yet harvested: the Turkish DİA encyclopaedia (~16,800 articles, so far used only for single records), Nadwi''s 57-volume dictionary of women hadith scholars (~9,000–10,000 teachers, almost none yet in the museum), the great narrator dictionaries behind the hadith transmitter graph, the Encyclopaedia of Islam backlog, a census of manuscripts and the libraries that hold them, and regional sweeps across Southeast Asia, Africa, China and the Americas that have barely begun. Three named dictionaries alone hold roughly 36,000 more entries than the museum has records today.'
   roadmap_3: 'So take the data — that is what it is for. But build against the living source where you can: it corrects errors as scholars report them, adds thousands of records a month, and keeps one canonical address for everything. The copy is a snapshot; the museum is the garden.'
   honesty_title: 'What is not here yet'
-  honesty_body: 'Stated plainly, so your planning rests on fact: there is no OpenAPI/Swagger document, no SPARQL endpoint, and no OAI-PMH or MARC export yet. The JSON shapes above are stable and versioned (v1 in every address), and the meta index announces the version and licences. Formal API documentation and library-standard exports are on the roadmap.'
+  honesty_body: 'Stated plainly, so your planning rests on fact: there is no OpenAPI/Swagger document, no SPARQL endpoint, and no OAI-PMH or MARC export yet. The jobs taxonomy is served as records but is not yet woven into the graph as edges, and records carry Wikidata IDs without a lookup by QID yet. The JSON shapes above are stable and versioned (v1 in every address), and the meta index announces the version and licences. Formal API documentation and library-standard exports are on the roadmap.'
   licence_title: 'Licence, citation and contact'
   licence_body: 'Data: CC0 1.0 — no permission needed; a credit line such as “Data: islam.museum (CC0)” is appreciated. Articles: CC BY-SA 4.0 — reuse with credit. Code: MIT. For citation, the dataset''s DOI is 10.5281/zenodo.23692511. The museum is a personal, non-commercial initiative, offered free to libraries, schools and readers everywhere; questions, corrections and collaboration: discover@islam.museum.'
   unique_title: 'What makes this different'
@@ -1759,6 +1759,19 @@ developers:
   u6_title: 'Open at every layer — and reproducible'
   u6_body: 'Data CC0, prose CC BY-SA, code MIT: no key, no tracking, no server answering each visitor — the site is static files, and the complete dataset is two downloads. Any institution can mirror the entire museum, verify it independently, and rebuild on it. Nothing is held back to make you depend on this website.'
   unique_closing: 'Others are larger in one dimension: a bigger encyclopaedia, a deeper single text corpus, a wider graph with no prose and no curation. What does not exist elsewhere, to our knowledge, is the combination — a sourced, Arabic-first, openly licensed graph of the whole Islamic past, published as a museum that anyone can read, query, embed and take.'
+  jobs_title: 'One class worth naming: job'
+  jobs_body: 'The job class is the museum''s taxonomy of crafts and professions — 19 records today, each carrying its domain, its kind, whether it was a guild craft (hirfa), its era and first attestation with sources, its places, its organisation and its training. Fetch the whole taxonomy at /api/v1/job/index.json, or one craft at /api/v1/job/{slug}.json. Occupations are not yet woven into the graph as edges — people carry them inside their own records — so that weaving is on the roadmap, and the changelog will record it when it lands.'
+changelog:
+  title: 'Changelog'
+  lede: 'Every change to the museum, recorded as it lands — what was added, changed, fixed or removed, and the version you are looking at.'
+  intro: 'This page renders CANARY.md, the release-notes file kept in the museum''s public repository. Every change lands with its entry in the same commit, grouped by kind; a rollback is recorded, never erased. The entries are kept in English as the engineering record.'
+  current_label: 'Current version'
+  coming_title: 'What comes next'
+  coming_1: 'Occupations woven into the graph: the jobs taxonomy is served as records today; next it becomes connections, so a person links to their craft and a question like “every calligrapher of the ninth century” can be walked across the graph.'
+  coming_2: 'Query by Wikidata ID: a published index mapping all 16,232 Wikidata identifiers in the data to their records, with a lookup address for each QID.'
+  coming_3: 'Formal API documentation (OpenAPI) and library-standard exports: OAI-PMH, MARC and a Dublin Core mapping.'
+  coming_4: 'The unharvested corpora — the DİA encyclopaedia, the women hadith scholars of Nadwi''s 57-volume dictionary, the narrator (rijal) graph — and new language editions: Indonesian, Turkish and French.'
+  history_line: 'The complete history, commit by commit, lives in the public repository (github.com/amado2k5/islam-museum); this page is its reader''s digest.'
 support:
   title: Support the museum
   lede: This museum is free and open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster.
