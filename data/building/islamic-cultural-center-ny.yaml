@@ -1,24 +1,24 @@
 id: building/islamic-cultural-center-ny
 class: building
 kind: mosque
-label:
-  ar: "المركز الثقافي الإسلامي (نيويورك)"
-  en: "Islamic Cultural Center of New York"
+label: { ar: "المركز الثقافي الإسلامي في نيويورك", en: "Islamic Cultural Center of New York", ur: "اسلامک کلچرل سینٹر، نیویارک" }
 summary:
-  ar: "بطاقة أولية للمركز الثقافي الإسلامي بنيويورك، جامع شارع ٩٦ المشهور من سنة ١٩٩١م؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Islamic Cultural Center of New York, the East 96th Street mosque opened in 1991; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "جامع مانهاتن عند تقاطع الجادة الثالثة والشارع السادس والتسعين، صممه مكتب سكيدمور وأوينگز وميريل وأُتم سنة 1991 بعد نقاش طويل بين لجنة من وجهاء المسلمين ولجنة من المعماريين حول صورة المسجد {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 4-5} {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 22-23}."
+  en: "The Manhattan mosque at Third Avenue and 96th Street, designed by Skidmore, Owings & Merrill and completed in 1991 after a long debate between a committee of prominent Muslims and one of architects over what the mosque should look like {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 4-5} {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 22-23}."
+  ur: "مین ہیٹن میں تھرڈ ایونیو اور چھیانوے ویں سڑک پر مسجد، جسے اسکڈمور، اوونگز اینڈ میرل نے ڈیزائن کیا اور جو مسلمان معززین اور معماروں کی دو کمیٹیوں کی طویل بحث کے بعد 1991ء میں مکمل ہوئی {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 4-5} {cite:khalidi-donnellon-mosques-usa-canada-catalogue pp. 22-23}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [americas-oceania]
 periods: [period/contemporary-era]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1991", calendar: gregorian, precision: year, status: historical, note: "Completion year", sources: [source/khalidi-donnellon-mosques-usa-canada-catalogue] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/khalidi-donnellon-mosques-usa-canada-catalogue]
 external_ids:
   wikidata: Q1674095
 provenance:
   layer: own-research
-  source: "Wikidata candidate; mosque attested in American registers — entry not yet checked on the page"
+  source: "U.S. Embassy Germany catalogue, printed pp. 5, 7, 22; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Mosques in the USA and Canada catalogue pp. 5, 7, 22, summary, date and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

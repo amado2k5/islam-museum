@@ -1,24 +1,25 @@
 id: building/malkocs-bej-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد مالكوتش بك"
-  en: "Malkocs Bej Mosque, Siklós"
+label: { ar: "جامع ملقوچ بك في قلعة شيكلوش", en: "Malkoç Bey Mosque, Siklós", ur: "ملقوچ بے مسجد، شیکلوش" }
 summary:
-  ar: "بطاقة أولية لـMalkocs Bej Mosque, Siklós، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Malkocs Bej Mosque, Siklós, the historic monument; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "الجامع الوحيد الباقي في قلعة شيكلوش، بناه في أوائل القرن السادس عشر ملقوچ بك أخو قره علي بك من أسر الأقنجية، استعمل مسكناً في القرن التاسع عشر، ورُمم سنة 1993 فنال جائزة أوروبا نوسترا، وهو اليوم متحف {cite:yilmaz-ottoman-architecture-hungary-2024 p. 185}."
+  en: "The only surviving mosque of Siklós castle, built in the early sixteenth century by Malkoç Bey, brother of the raider-family commander Kara Ali Bey; a dwelling in the nineteenth century, restored in 1993 with a Europa Nostra award, now a museum {cite:yilmaz-ottoman-architecture-hungary-2024 p. 185}."
+  ur: "شیکلوش قلعے کی واحد باقی مسجد، سولھویں صدی کے اوائل میں اقنجی خاندان کے قرہ علی بے کے بھائی ملقوچ بے کی بنوائی؛ انیسویں صدی میں مکان، 1993ء میں مرمت پر یوروپا نوسترا انعام، اب عجائب گھر {cite:yilmaz-ottoman-architecture-hungary-2024 p. 185}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/tarikh-islam-hasan-ibrahim]
+built: { edtf: "1501/1550", calendar: gregorian, precision: decade, status: debated, note: "Early sixteenth century per the author" }
+materials: [stone]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yilmaz-ottoman-architecture-hungary-2024]
 external_ids:
   wikidata: Q684468
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Yilmaz 2024, pp. 184-185; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Yilmaz 2024 pp. 184-185, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

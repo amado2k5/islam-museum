@@ -1,24 +1,27 @@
 id: building/kalan-masjid-delhi
 class: building
 kind: mosque
-label:
-  ar: "المسجد الكبير (دلهي القديمة)"
-  en: "Kalan Masjid, Old Delhi"
+label: { ar: "المسجد الكبير (كلان مسجد) عند بوابة تركمان، دلهي", en: "Kalan Masjid, Turkman Gate, Delhi", ur: "کلاں مسجد، ترکمان دروازہ، دہلی" }
 summary:
-  ar: "بطاقة أولية للمسجد الكبير في دلهي القديمة، الجامع التغلقي الأثري؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Kalan (Great) Masjid of Old Delhi, the Tughluq-era mosque; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "جامع من طابقين على قاعدة عالية قرب بوابة تركمان في دلهي القديمة، بناه الوزير خان جهان جونان شاه وأتمه في 10 جمادى الآخرة 789هـ/1387 بحسب نقش بوابته الشرقية {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 80} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 82}."
+  en: "A congregational mosque raised on a high basement storey near Turkman Gate in Old Delhi, built by the vizier Khan-i Jahan Junan Shah and finished on 10 Jumada II 789/1387 according to the inscription on its east gate {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 80} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 82}."
+  ur: "پرانی دہلی میں ترکمان دروازے کے قریب اونچی تہ خانہ دار کرسی پر جامع مسجد، جو مشرقی دروازے کے کتبے کے مطابق وزیر خانِ جہاں جونان شاہ نے بنوائی اور 10 جمادی الآخر 789ھ/1387ء کو مکمل ہوئی {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 80} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 82}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1387-06-28", hijri: "0789-06-10", calendar: julian, precision: day, status: historical, note: "10 Jumada II 789 from the east-gate inscription; the author gives 28 June 1387", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+materials: [stone]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
 external_ids:
   wikidata: Q123367092
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Seema Khan 2011, printed pp. 57-58, 80-84; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Seema Khan 2011 pp. 57-58, 80-84, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
