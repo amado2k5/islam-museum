@@ -28,3 +28,6 @@ Read: Shamela pp. 1–27 (title, table of contents, preface), 47–68 (later Ima
 
 ## Next
 The long digression on the eternity of the world (Shamela pp. 105–275: Ibn Sina, Abu al-Barakat Ibn Malka, Democritus, Abu Bakr al-Razi, the atom), chapter 2 on Ali's virtues (pp. 345ff.), chapter 4 on the Twelve (pp. 2367ff.), and the persons the preface names (Ibn Saba as reported, the Sabaiyya, al-Nawbakhti's Firaq al-Shi'a as cited by the editor).
+
+## Second run (4 Nov 2026)
+- Duplicate resolved: `person/khudabanda` (draft, al-Suyuti p. 735) merged into `person/oljaitu` as an alias; its one cited sentence carried into the oljaitu prose (ar/en/ur) with source `tarikh-khulafa-minhaj-1434`; the duplicate's data and prose files deleted.

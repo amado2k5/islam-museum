@@ -1,17 +1,32 @@
 id: work/tafsir-al-jalalayn
 class: work
 kind: book
-label: { ar: "تفسير الجلالين", en: "Tafsir al-Jalalayn" }
+label: { ar: "تفسير الجلالين", en: "Tafsir al-Jalalayn", ur: "تفسیر الجلالین" }
 summary:
-  ar: "بطاقة أولية لتفسير الجلالين، التفسير السني المختصر الذي بدأه جلال الدين المحلي وأتمه جلال الدين السيوطي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Tafsir al-Jalalayn, the concise Sunni commentary begun by Jalal al-Din al-Mahalli and completed by al-Suyuti; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير موجز للقرآن كله اشترك فيه جلالان: جلال الدين المحلي (ت 864هـ) فسّر من الكهف إلى الناس ثم الفاتحة، ومات قبل أن يتمه؛ فأكمله جلال الدين السيوطي من أول البقرة إلى آخر الإسراء على نمطه، بين مستهل رمضان وعاشر شوال سنة 870هـ. يقوم على ذكر ما يُفهم به كلام الله، والاعتماد على أرجح الأقوال، وإعراب ما يحتاج إليه، والتنبيه على القراءات المشهورة، بعبارة وجيزة."
+  en: "A concise commentary on the whole Qur'an by two men called Jalal al-Din: al-Mahalli (d. 864 AH) explained al-Kahf to al-Nas and then al-Fatiha and died before finishing; al-Suyuti completed it in his manner, from the start of al-Baqara to the end of al-Isra', between 1 Ramadan and 10 Shawwal 870 AH. It gives what is needed to understand the text, relies on the most preponderant opinion, parses only where needed and notes the well-known readings, in brief wording."
+  ur: "پورے قرآن کی ایک مختصر تفسیر جس میں دو جلال الدین شریک ہیں: جلال الدین محلی (م 864ھ) نے سورۂ کہف سے سورۂ ناس تک اور پھر سورۂ فاتحہ کی تفسیر کی اور اسے مکمل کرنے سے پہلے وفات پا گئے؛ جلال الدین سیوطی نے ان کے طرز پر سورۂ بقرہ کے آغاز سے سورۂ اسرا کے آخر تک اسے یکم رمضان سے دس شوال 870ھ کے درمیان مکمل کیا۔ اس میں کلامِ الٰہی کے فہم کے لیے ضروری بات، راجح ترین قول پر اعتماد، ضرورت کی حد تک اعراب اور مشہور قراءتوں پر تنبیہ، مختصر عبارت میں ہے۔"
+genre: [tafsir]
+authors: [person/jalal-al-din-al-mahalli, person/al-suyuti]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/tafsir-jalalayn-tamir-maktabat-al-iman, source/tafsir-jalalayn-lithograph-1278] }
+structure: "Two parts in one sequence: al-Suyuti's completion (al-Baqara to al-Isra') and al-Mahalli's original part (al-Kahf to al-Nas, then al-Fatiha). Printings either follow the Mushaf order or, as in the 1278 AH lithograph, put al-Fatiha at the end with al-Mahalli's part."
+composed: { hijri: "0870-10-10", edtf: "1466-05-26", calendar: julian, precision: day, status: historical, derived: true, note: "Date of completion of al-Suyuti's part. Al-Suyuti's completion: begun Wednesday 1 Ramadan 870, finished Sunday 10 Shawwal 870, fair copy finished Wednesday 6 Safar 871 (lithograph PDF p. 370). Al-Mahalli's part was written before his death in 864 (Tamir edition PDF pp. 3–4); its date is not given in the pages read. Gregorian dates by tabular conversion.", sources: [source/tafsir-jalalayn-lithograph-1278, source/tafsir-jalalayn-tamir-maktabat-al-iman] }
+relations:
+  - { type: about, target: concept/tafsir, sources: [source/tafsir-jalalayn-tamir-maktabat-al-iman] }
+  - { type: about, target: question/how-does-tafsir-al-jalalayn-treat-the-divine-attributes, sources: [source/tafsir-jalalayn-tamir-maktabat-al-iman, source/tafsir-jalalayn-dar-al-marifa-uthmani] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
 external_ids: { wikidata: "Q430163" }
+sources: [source/al-aalam, source/tafsir-jalalayn-tamir-maktabat-al-iman, source/tafsir-jalalayn-lithograph-1278, source/tafsir-jalalayn-dar-al-marifa-uthmani]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; tafsir attested in scholarly histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/tafsir-jalalayn-tamir-maktabat-al-iman PDF pp. 3–6; source/tafsir-jalalayn-lithograph-1278 PDF pp. 4, 369–370, 790; source/tafsir-jalalayn-dar-al-marifa-uthmani PDF pp. 1–2, 23–24, 286, 400, 700. Earlier card: Wikidata candidate (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  enriched_by:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: wikidata-import-wave2, source: "Wikidata candidate (original card)" }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

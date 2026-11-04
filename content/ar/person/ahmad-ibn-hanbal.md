@@ -3,6 +3,11 @@ id: person/ahmad-ibn-hanbal
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "tarikh-dimashq-amrawi-v5 pp. 252–335 (entry 136, read in part)"
 ---
 
 ## موجز
@@ -45,3 +50,16 @@ translators: []
 
 ### تعريفه للصحابي
 ينقل المحقق عن أحمد، وقد ذُكر عنده أهل بدر، قوله إن أفضل الناس بعدهم أصحاب رسول الله، كل من صحبه سنة أو شهراً أو يوماً أو ساعة أو رآه فهو من أصحابه، له من الصحبة على قدر ما صحبه {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.11}. انظر [[concept/companionship-suhba|الصحبة]].
+
+## في تاريخ دمشق لابن عساكر
+يفرد ابن عساكر في [[work/tarikh-dimashq|تاريخ مدينة دمشق]] لأحمد بن حنبل ترجمة طويلة هي أطول تراجم الجزء الخامس، تبدأ بنسبه وتمتد إلى أخبار وفاته وما رُئي له من منامات. {cite:tarikh-dimashq-amrawi-v5 p. 252} {cite:tarikh-dimashq-amrawi-v5 p. 335} ويصفه بأنه «أحد الأعلام من أئمة الإسلام»، أصله من [[place/marw|مرو]] ومولده ببغداد ومنشؤه بها. {cite:tarikh-dimashq-amrawi-v5 p. 252} ونقل عن البخاري، عن بعض أصحابه، أن أحمد قال: حُملت من مرو وأمي بي حامل. {cite:tarikh-dimashq-amrawi-v5 p. 314} وفي رواية أنه ولد سنة أربع وستين ومائة. {cite:tarikh-dimashq-amrawi-v5 p. 326}
+
+**نسبه والخلاف فيه.** يسوق ابن عساكر نسبه إلى شيبان وبكر بن وائل، وينقل عن عباس الدوري وأبي بكر بن أبي داود أنه من بني ذهل بن شيبان، ثم عن الخطيب أن هذا غلط، وأنه من بني شيبان بن ذهل بن ثعلبة، وذهل بن ثعلبة عم ذهل بن شيبان، فينبغي أن يقال «الذهلي» على الإطلاق. {cite:tarikh-dimashq-amrawi-v5 p. 254} {cite:tarikh-dimashq-amrawi-v5 p. 255}
+
+**سبب دخوله في التاريخ.** يذكر ابن عساكر أنه سمع من أهل دمشق كالوليد بن مسلم وأبي مسهر، وأنه خرج إلى الشام قاصداً محمد بن يوسف الفريابي في [[place/qaysariyya|قيسارية]]، فبلغته وفاته في الطريق فعدل إلى [[place/homs|حمص]] فسمع بها أبا اليمان الحكم بن نافع وغيره، واجتاز بدمشق أو بأعمالها. {cite:tarikh-dimashq-amrawi-v5 p. 252} {cite:tarikh-dimashq-amrawi-v5 p. 253} ويعدّد من شيوخه [[person/sufyan-ibn-uyayna|ابن عيينة]] وهشيماً و[[person/ibn-ulayyah|ابن علية]] و[[person/yahya-ibn-said-al-qattan|يحيى القطان]] و[[person/abd-al-rahman-ibn-mahdi|ابن مهدي]] ووكيعاً وعبد الرزاق، ومن الرواة عنه ابناه عبد الله و[[person/salih-ibn-ahmad-ibn-hanbal|صالح]] وابن عمه [[person/hanbal-ibn-ishaq|حنبل بن إسحاق]] و[[person/al-bukhari|البخاري]] و[[person/muslim-ibn-al-hajjaj|مسلم]] و[[person/abu-dawud-al-sijistani|أبو داود]] و[[person/ibrahim-al-harbi|إبراهيم الحربي]] وأبو زرعة وأبو حاتم وبقي بن مخلد. {cite:tarikh-dimashq-amrawi-v5 p. 253}
+
+**الثناء عليه.** نقل عن الفتح بن شخرف أن الحارث المحاسبي قال: أحمد بن حنبل نزل به ما لم ينزل بسفيان الثوري والأوزاعي. {cite:tarikh-dimashq-amrawi-v5 p. 310} وروى عن إسحاق بن راهويه أن [[person/abd-allah-ibn-tahir|عبد الله بن طاهر]] قال: أحب يحيى بن يحيى وأحمد بن حنبل وإن كانا لا يقربان السلطان، ليس لخلاف منهما ولكن لجورهم، وأنه أخذ كتاب أحمد إلى إسحاق فوضعه تحت مصلاه. {cite:tarikh-dimashq-amrawi-v5 p. 310} {cite:tarikh-dimashq-amrawi-v5 p. 311} وروى عن [[person/ali-ibn-al-madini|علي بن المديني]] أنه قبّل كتاب أحمد لما ورد عليه وهو مختفٍ أيام المحنة، وقال إن أحمد في زمانه أفضل من سعيد بن جبير في زمانه، لأن سعيداً كان له نظراء. {cite:tarikh-dimashq-amrawi-v5 p. 314} {cite:tarikh-dimashq-amrawi-v5 p. 315}
+
+**المحنة.** يروي ابن عساكر بأسانيد عن الربيع بن سليمان أن [[person/al-shafii|الشافعي]] كتب من مصر إلى أحمد يذكر أنه رأى النبي في المنام يأمره أن يبلغ أحمد السلام وأنه سيُمتحن ويُدعى إلى خلق القرآن فلا يجيبهم، فبكى أحمد وخلع للربيع قميصه الذي يلي جلده. {cite:tarikh-dimashq-amrawi-v5 p. 311} {cite:tarikh-dimashq-amrawi-v5 p. 312} وروى عن أبي جعفر الأنصاري أنه عبر الفرات إلى أحمد وهو يُحمل إلى المأمون، فقال له: أنت رأس والناس يقتدون بك، فإن أجبت أجاب خلق كثير، فبكى أحمد وجعل يقول: ما شاء الله. {cite:tarikh-dimashq-amrawi-v5 p. 312} وروى عن أبي ذر، وهو ممن ضرب أحمد بين يدي [[person/al-mutasim|المعتصم]]، أنهم كانوا مائة وخمسين جلاداً يتعاقبون على ضربه. {cite:tarikh-dimashq-amrawi-v5 p. 313} وروى أن والي بغداد [[person/ishaq-ibn-ibrahim-ibn-musab|إسحاق بن إبراهيم]] جمع له المخالفين يناظرونه في حديث وآية، ثم طرح القيد عنه وخلّى سبيله. {cite:tarikh-dimashq-amrawi-v5 p. 313} {cite:tarikh-dimashq-amrawi-v5 p. 314} ونقل عن أبي الوليد الطيالسي قوله: لو كان الذي نزل بأحمد في بني إسرائيل لكان أحدوثة. {cite:tarikh-dimashq-amrawi-v5 p. 314} وفي رواية أنه ضُرب بالسياط في العشر الأواخر من رمضان سنة عشرين ومائتين. {cite:tarikh-dimashq-amrawi-v5 p. 326} وتفصيل المحنة العام في [[event/mihna-of-the-quran|المحنة بالقرآن]].
+
+**وفاته.** توفي ببغداد يوم الجمعة سنة 241، واختلفت الروايات في شهره بين ربيع الأول وربيع الآخر، وصلى عليه محمد بن عبد الله بن طاهر، وتُروى في عدد من حضر جنازته أعداد كبيرة متفاوتة. {cite:tarikh-dimashq-amrawi-v5 p. 327} {cite:tarikh-dimashq-amrawi-v5 p. 328} {cite:tarikh-dimashq-amrawi-v5 p. 331} وتفصيل ذلك في [[event/death-of-ahmad-ibn-hanbal|وفاة أحمد بن حنبل وجنازته]].
