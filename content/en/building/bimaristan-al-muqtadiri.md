@@ -2,7 +2,8 @@
 id: building/bimaristan-al-muqtadiri
 lang: en
 source_lang: ar
-translators: [ai]
+translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
+
 ## Overview
-On Sinan b. Thabit's advice al-Muqtadir bi'llah founded a bimaristan at Bab al-Sham, put Sinan in charge of it and named it al-Muqtadiri — its upkeep two hundred dinars a month — in 306 {cite:muntazam-ibn-al-jawzi p. 436}.
+The Muqtadiri Bimaristan stood at Bab al-Sham in Baghdad; the physician Sinan ibn Thabit advised al-Muqtadir to found it, so he established it in AH 306, entrusted it to Sinan and named it al-Muqtadiri, at a cost of two hundred dinars a month {cite:muntazam-ibn-al-jawzi v13 p178}.
