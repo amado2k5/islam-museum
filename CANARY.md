@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 105).
 - **Library harvest from the OCR'd books** (batch 5): 176 records written or enriched with full Arabic, English and Urdu prose from 26 books on the harvest drive (artandarchitectureofislamiccairo, bga-vol06-ibn-khurdadhbih, bulac-mustatraf, khulafa-rashidun-salabi, kitab-kharaj, majmu-fatawa, majmu-nawawi, masalik-al-absar-umari, mostafa-mahmoud, muhammad-haykal, mujam-al-buldan-yaqut-1907, mujam-ma-istaajam-bakri-1876…); new records: 42 source, 35 work, 17 person, 12 concept, 10 question, 8 practice, 5 building, 3 object, 2 event, 2 place; 90 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 18 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 104).
 - **Persons**: 19 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 103).

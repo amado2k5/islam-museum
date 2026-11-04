@@ -705,3 +705,9 @@ Promoted: abu-ali-lahiq-al-artahi, abu-bakr-ibn-qawam, al-bakharzi-said, al-kami
 Promoted: abd-al-aziz-al-daraki, abu-abd-allah-al-hannat-al-shirazi, abu-al-hasan-ibn-al-marzuban, abu-al-hasan-ibn-khayran-al-baghdadi, abu-al-husayn-ibn-al-qattan, abu-ali-al-tabari-al-hasan-ibn-al-qasim, abu-ali-al-zajjaji-al-tabari, abu-ali-ibn-abi-hurayra, abu-bakr-al-khaffaf, abu-bakr-al-naysaburi-ibn-ziyad, abu-bakr-al-sibi, abu-hamid-al-marwarudhi, abu-ishaq-ibrahim-al-marwazi, abu-sahl-al-suluki, abu-zayd-al-marwazi, al-masarjisi-abu-al-hasan, al-qaffal-al-shashi, ibn-al-haddad-al-misri.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1920.** sweep continues through remaining trilingual drafts.
+
+### Batch 105 (4 Nov 2026, 18 records) — lib-shadharat-batch-114 draft promotions (sweep worker)
+
+Promoted: abd-al-ghafir-al-farisi, abu-al-ala-ibn-zuhr, abu-khazim-ibn-abi-yala, al-ghazzi-ibrahim, al-ilyusi, al-shantarini, asad-al-mayhani, ayn-al-qudat-al-hamadhani, hammad-al-dabbas, hasan-ibn-al-hafiz, ibn-al-faus, ibn-al-hajj-al-tujibi, ibn-al-zaghuni, ibn-al-zaqqaq, shams-al-muluk-ismail-ibn-buri, sultan-mahmud-ibn-muhammad, tughtigin-atabeg, zafir-al-haddad.cite-check 18/18; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1938.** sweep continues through remaining trilingual drafts.
