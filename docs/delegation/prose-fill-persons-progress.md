@@ -672,3 +672,9 @@ Promoted: abagha-khan, al-fariqani-aqsunqur, al-kawashi, al-malik-al-mansur-ii-h
 Promoted: abd-al-ala-al-sadafi, abd-al-wahid-al-makhlu-almohad, abdallah-ibn-ghaniya, al-adil-abdallah-almohad, al-dulai-al-dimashqi, al-kurani-al-harawi, al-malik-al-mushammar, al-muhtadid-yahya-almohad, al-mustansir-yusuf-almohad, al-najirmi, al-qaid-fadl-ibn-salih, al-rammadi-yusuf-ibn-harun, al-said-ali-almohad, al-tusi-khatib-al-mawsili, ibn-al-shirzaji, ibn-wahra-al-hamadhani, najm-al-din-ibn-al-habbaz, radi-al-din-al-irbili, tughril-atabeg-of-aleppo.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1827.** sweep continues through remaining trilingual drafts.
+
+### Batch 100 (4 Nov 2026, 19 records) — lib-wafayat-batch-14 draft promotions (sweep worker)
+
+Promoted: abd-al-aziz-ibn-al-majishun, abu-al-makaram-al-misri, abu-rafaa-umara-ibn-wathima, al-hasan-ibn-ali-al-zayri, al-layth-ibn-ali-al-saffar, al-qahl-ibn-iyash, ali-ibn-yahya-al-zayri, awhad-al-zaman, constance-of-sicily, frederick-ii, ghalib-ibn-sasaa, hisham-ibn-muawiya-al-darir, ibn-al-tilmidh, nusayb-al-shair, suhaym-ibn-wathil, tahir-ibn-muhammad-al-saffar, william-i-sicily, yahya-ibn-tamim, zaim-al-din-yahya-ibn-abdallah.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1846.** sweep continues through remaining trilingual drafts.
