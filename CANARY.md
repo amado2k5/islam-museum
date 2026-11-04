@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.1.0 — 2026-11-03
 
 ### Data
+- **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 124).
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 123).
 - **Library harvest from the OCR'd books** (batch 11): 55 records written or enriched with full Arabic, English and Urdu prose from 9 books on the harvest drive (burhan-juwayni, fajr-islam, futuh-sham, hilyat-awliya, miftah-falah-ibn-ataillah, muqaddima-ibn-salah, mustasfa-ghazali, muwafaqat, nisa-sahabiyat-tabaqat); new records: 12 building, 10 source, 7 concept, 5 work, 3 person, 2 question, 1 event; 28 existing records enriched. Every fact cites the book's edition and page.
 - **Persons**: 14 more records with full Arabic, English and Urdu prose moved from draft to published (prose-fill sweep, batch 122).
