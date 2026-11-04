@@ -394,3 +394,9 @@ ibn-al-athir-diya-al-din	REJECT: en: boilerplate /not yet checked/i
 Promoted: ibn-al-tayn-abd-al-wahid, ibn-arqam-muhammad-ibn-abd-allah, ibn-atham-al-kufi-ahmad-ibn-muhammad, ibn-aybak-al-dawadari, ibn-babshadh-tahir, ibn-bakr-muhammad-ibn-yahya, ibn-balban-ala-al-din-ali, ibn-baqi-yahya, ibn-bariq-abu-hafs, ibn-barrajan-abd-al-salam, ibn-barri-abd-allah-ibn-abi-al-wahsh, ibn-barri-ali-ibn-muhammad, ibn-bashkuwal-khalaf, ibn-batta-al-ukbari-ubayd-allah, ibn-baz-abd-al-aziz, ibn-bukayr-abu-abd-allah-al-husayn-ibn-ahmad, ibn-fahd-jar-allah-muhibb-al-din-muhammad, ibn-hamadush-abd-al-razzaq, ibn-hamdun-muhammad, ibn-hayy-al-tujibi-al-hasan-ibn-muhammad, ibn-hayyan-abu-marwan, ibn-hudhayl-yahya, ibn-iyas-muhammad-ibn-ahmad, ibn-iyaz-jamal-al-din, ibn-jabir-al-andalusi-muhammad.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1059.** mawsuat-a3lam ~113 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
+
+### Batch 59 (4 Nov 2026, 25 records) — mawsuat-a3lam draft promotions 13 (sweep worker)
+
+Promoted: ibn-janah-abd-al-aziz-al-janabadhi, ibn-khafaja-ibrahim, ibn-khalil-al-dimashqi-abu-al-hajjaj-yusuf, ibn-khaqan-al-qaysi-al-fath, ibn-khayr-al-ishbili, ibn-khumayr-ali-ibn-ahmad, ibn-khumays-husayn-ibn-nasr, ibn-khurradadhbih-ubayd-allah, ibn-khuzayma-muhammad, ibn-muadh-al-jayyani, ibn-ruzgan-muhammad, ibn-sahl-abu-asbagh-isa, ibrahim-al-ghafiqi, ibrahim-ibn-ali-al-ahdab, ibrahim-ibn-muhammad-al-batalyusi-al-alam, ibrahim-ibn-yahya-al-ansari-al-mursi, ibrahim-ismail-al-abyari, irbili-ahmad-ibn-musa, irbili-muhammad-ibn-ali, isa-ibn-abd-al-aziz-al-jaziri, iskandar-al-barudi, jad-al-haqq-ali-jad-al-haqq, jait-muhammad-al-aziz-ibn-yusuf, jamal-hamdan, jami-abd-al-rahman.cite-check 25/25; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1084.** mawsuat-a3lam ~88 remain; then wikidata-wave2, mawsua, shadharat and ~4,200 further trilingual drafts.
