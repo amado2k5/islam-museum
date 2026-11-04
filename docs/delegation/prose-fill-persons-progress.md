@@ -518,3 +518,12 @@ Promoted: abd-al-munim-ibn-muflih, abd-al-wahhab-ibn-dawud-yemen, abu-ali-husayn
 Promoted: abdullah-ibn-al-mughaffal-al-muzani, abu-khaythama, abu-layla-abd-al-rahman-ibn-kab, abu-ruhm-al-ghifari, al-dahhak-ibn-khalifa, al-jadd-ibn-qays, amr-ibn-humam-ibn-al-jamuh, bujayr-ibn-bujra, dhu-al-bijadayn, harami-ibn-abdullah, hassan-brother-of-ukaydir, irbad-ibn-sariya-al-fazari, mukhashin-ibn-humayyir, salim-ibn-umayr, siba-ibn-urfuta, suwaylim-al-yahudi, ukaydir-ibn-abd-al-malik, ulba-ibn-zayd, umara-ibn-hazm, wadia-ibn-thabit, yamin-ibn-umayr-al-nadri, yuhanna-ibn-rubah, zayd-ibn-al-lusayt.cite-check 23/23; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1394.** sweep continues through remaining trilingual drafts.
+
+### Batch 76 (4 Nov 2026, 22 records) — lib-shadharat-batch-128 draft promotions (sweep worker)
+
+Promoted: abu-al-ghayth-ibn-jamil, abu-ali-ibn-duwayra, al-hafiziyya-arghwan, al-kamal-ishaq, al-khasruwshahi, al-sadid-ibn-makki, al-sibt-al-tarabulsi, ali-al-fahhad, amin-al-dawla-al-samiri, fakhr-al-din-ibn-al-shaykh, fakhr-al-qudah-ibn-al-khabbab, faris-al-din-aqtay, ibn-al-jamizi, ibn-al-khayr-al-azji, ibn-al-zamlakani-kamal-al-din, ibn-qatral, jamal-al-din-ibn-matruh, kamal-al-din-ibn-talha, khwaharzada-al-kurdari, majd-al-din-ibn-taymiyya, muhammad-ibn-al-yunini, sad-al-din-ibn-hamuwayh.cite-check 22/22; validate 0 errors; tests pass; graph+coverage regen.
+
+Leads (rejected):
+ajiba-bint-al-baqdari	REJECT: ar: thin (140ch)
+
+**Lane total: 1416.** sweep continues through remaining trilingual drafts.
