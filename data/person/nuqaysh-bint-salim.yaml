@@ -1,0 +1,25 @@
+id: person/nuqaysh-bint-salim
+class: person
+label: { ar: "نقيش بنت سالم", en: "Nuqaysh bint Salim" }
+names:
+  - { kind: full, lang: ar, value: "نقيش بنت سالم" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من مكة يذكرها ابن الجوزي في «صفة الصفوة» بين عابدات مكة، ويروي من طريق أبي المورّق أدعيتها في مكة وفي الموقف بعرفة، ومنها أنها أقسمت ألا تنعم بضحك حتى تعلم أين قرارها، وأنها لما انصرف الناس وضعت خدها وقالت إنها لم تُشعر قلبها اليأس من ربها؛ ويذكر المحقق أن كحالة نقلها في «أعلام النساء» عن صفة الصفوة."
+  en: "A devout woman of Mecca whom Ibn al-Jawzi lists among its devout women in Sifat al-Safwa; through Abu al-Muwarriq he reports her prayers in Mecca and at the standing at Arafa — among them her oath that she would not enjoy laughter until she knew her final abode, and that when the people departed she laid her cheek down and said she had not let despair of her Lord touch her heart; the editor notes that Kahhala took her from this book into A'lam al-Nisa'."
+wings: [people]
+themes: [women, spirituality-and-sufism]
+regions: [arabia]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance:
+  layer: own-research
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.402"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

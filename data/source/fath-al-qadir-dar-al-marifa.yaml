@@ -19,6 +19,7 @@ ISBN: "9953-420-75-0"
 language: ar
 reliability_note: "Harvest item 20241226_20241226_1104 of tafsir/tafsir-shawkani (1,673 PDF pages, text layer). Cited pages are PDF pages of this item; the printed page is PDF + 1 (PDF p. 12 carries printed 13, PDF p. 1672 printed 1673). Items 20200114_20200114_1500 and elshandawily14838 are byte-identical to each other (md5 e8a7862512c5…) and are another scan of the same edition with an extra title leaf and the index (1,704 pages; their PDF page = this item's PDF page + 1); they were used only to confirm. PDF pp. 7 and 9 of this item are blank in the text layer. The ISBN is printed 9953-420-75-0 on the copyright page; the back-cover barcode of the other scan reads 9963-…, an OCR or print variant."
 open_access: true
+sources: [source/fath-al-qadir-dar-al-marifa]
 provenance:
   layer: own-research
   source: "Title and copyright pages (PDF pp. 1–2), biography (pp. 4–8), chain of transmission and author's preface (pp. 10–12), end note (p. 1672)"
@@ -26,4 +27,3 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker B)" }
-sources: [source/fath-al-qadir-dar-al-marifa]

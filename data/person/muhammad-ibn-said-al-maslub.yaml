@@ -1,0 +1,48 @@
+id: person/muhammad-ibn-said-al-maslub
+class: person
+label: { ar: "محمد بن سعيد المصلوب", en: "Muhammad ibn Sa'id al-Maslub" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن سعيد بن حسان بن قيس الأسدي الشامي الدمشقي، المصلوب" }
+  - { kind: laqab, lang: ar, value: "المصلوب" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "محمد بن سعيد المصلوب، شامي من أهل دمشق من أصحاب مكحول، روى عن الزهري وعبادة بن نسي. يصفه الذهبي في «ميزان الاعتدال» بأنه هالك اتُّهم بالزندقة فصُلب، ونقل عن عبد الله بن أحمد عن أبيه أن أبا جعفر المنصور صلبه على الزندقة، وعن أبي زرعة الدمشقي أنه كان يقول: لا بأس إذا كان كلاماً حسناً أن تضع له إسناداً. وعدّه النسائي في الكذابين المعروفين بوضع الحديث، وغيّر الرواة اسمه على وجوه كثيرة ستراً له، حتى قال ابن سوادة إنهم قلبوا اسمه على مائة اسم وزيادة {cite:mizan-itidal-bijawi-v3 p. 561-563}."
+  en: "Muhammad ibn Sa'id al-Maslub ('the crucified'), a Syrian of Damascus and companion of Makhul, who narrated from al-Zuhri and Ubada ibn Nusayy. Al-Dhahabi's Mizan al-I'tidal calls him ruined, accused of heresy and crucified; it reports through Abd Allah ibn Ahmad that Abu Ja'far al-Mansur crucified him for zandaqa, and through Abu Zur'a al-Dimashqi that he used to say there was no harm in making up a chain for a fine saying. Al-Nasa'i counted him among the liars known for forging hadith, and transmitters disguised his name in many ways, so that Ibn Sawada said they turned it into more than a hundred names."
+wings: [people]
+themes: [scripture-and-its-sciences, dissent-heresy-freethought]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/makhul-al-dimashqi, sources: [source/mizan-itidal-bijawi-v3] }
+  - { type: student_of, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-kadhdhab
+    standing: main
+    stance: { ar: "كذاب يضع الحديث، صُلب على الزندقة", en: "A liar who forged hadith, crucified for heresy" }
+    summary:
+      ar: "الثوري وأحمد: كذاب، وأحمد: كان يضع الحديث عمداً؛ النسائي: غير ثقة ولا مأمون، ومن الكذابين المعروفين بالوضع؛ أبو أحمد الحاكم: كان يضع الحديث؛ الدارقطني: متروك؛ وأحمد: صلبه أبو جعفر على الزندقة."
+      en: "Al-Thawri and Ahmad: a liar, and Ahmad: he forged hadith deliberately; al-Nasa'i: neither trustworthy nor reliable, one of the known forgers; Abu Ahmad al-Hakim: he forged hadith; al-Daraqutni: abandoned; Ahmad: Abu Ja'far crucified him for heresy."
+    holders: [person/sufyan-al-thawri, person/ahmad-ibn-hanbal, person/al-nasai, person/al-daraqutni]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-ibn-main
+    standing: secondary
+    stance: { ar: "منكر الحديث، ولم يُصلب في الزندقة", en: "Denounced in hadith, but not crucified for heresy" }
+    summary:
+      ar: "رواية عباس عن يحيى بن معين: منكر الحديث، وليس كما قالوا صُلب في الزندقة."
+      en: "Abbas's report from Yahya ibn Ma'in: denounced in hadith, and it is not as they say that he was crucified for heresy."
+    holders: [person/yahya-ibn-main]
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
+sources: [source/mizan-itidal-bijawi-v3]
+provenance:
+  layer: own-research
+  source: "ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 561–563 (الترجمة 7592)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 561–563 (entry 7592)"
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

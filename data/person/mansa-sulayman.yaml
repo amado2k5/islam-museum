@@ -27,13 +27,14 @@ regions:
 - west-africa-sahel
 sources:
 - source/tarikh-ibn-khaldun-ibar
+- source/rihla-ibn-battuta-khayriyya-1904
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — باب ملوك السودان، ص1656 (المجلد السادس، طبعة هيليوبوليس)
-  generated_by: Devin (SWE-2 High) from Apple Vision OCR
-  model: swe-2-high
-  run: lib-ibar-maghreb-1
-status:
-  review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
+  source: "ابن خلدون، العبر — باب ملوك السودان، ص1656 (المجلد السادس، طبعة هيليوبوليس); source/rihla-ibn-battuta-khayriyya-1904 scan pp. 551, 557"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: "swe-2-high; claude-opus-5-5"
+  run: "lib-ibar-maghreb-1; ocr-harvest-2026-11-04"

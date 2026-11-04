@@ -21,10 +21,13 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: claude-haiku-5-5
   run: lib-tarikh-khulafa-batch-45, showcase-prose-phase2-egypt-batch6
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 116-120"]
 relations:
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "المعتقل بالكرك ثم المتملك لمصر", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/al-malik-al-kamil, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/franks-damietta-647, role: "السلطان المريض بالمنصورة", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/battle-mansura-647, role: "المتوفى وقد كُتم موته", sources: [source/shadharat-dhahab] }
-sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
+  - { type: built, target: building/rawda-citadel, sources: [source/yeomans-islamic-cairo-2006] }
+  - { type: built, target: building/al-madrasa-al-salihiyya-cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the al-Salihiyya, the Rawda citadel, the madrasas and the death at Mansura are read from al-Maqrizi's Khitat (local scan, pp. 558, 1912); the Suyuti and Shadharat accounts keep their citations. Khitat gives Sunday 14 Sha'ban; the date field keeps the Suyuti reading (mid-Sha'ban) until the day is converted" }

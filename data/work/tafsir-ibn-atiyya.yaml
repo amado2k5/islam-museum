@@ -1,17 +1,36 @@
 id: work/tafsir-ibn-atiyya
 class: work
 kind: book
-label: { ar: "المحرر الوجيز", en: "Tafsir Ibn Atiyya" }
+label:
+  ar: "المحرر الوجيز في تفسير الكتاب العزيز"
+  en: "al-Muharrar al-Wajiz fi Tafsir al-Kitab al-'Aziz (Tafsir Ibn Atiyya)"
+  ur: "المحرر الوجیز فی تفسیر الکتاب العزیز (تفسیر ابن عطیہ)"
 summary:
-  ar: "بطاقة أولية للمحرر الوجيز في تفسير الكتاب العزيز لابن عطية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn Atiyya's al-Muharrar al-Wajiz tafsir; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "تفسير القاضي أبي محمد عبد الحق بن عطية الأندلسي (ت 541هـ)، قصد فيه أن يكون «جامعًا وجيزًا محررًا»: يتتبع ألفاظ الآية ويورد القراءات مستعملها وشاذها وأقوال العلماء منسوبة إليهم، ويقلل من القصص الإسرائيلية؛ وقدّم له بأبواب في علوم القرآن، وأثّر في القرطبي وابن جزي وأبي حيان والثعالبي."
+  en: "The commentary of the judge Abu Muhammad Abd al-Haqq ibn Atiyya of al-Andalus (d. 541 AH), intended to be 'comprehensive, concise and precise': it follows the words of each verse, gives all the readings, accepted and irregular, and the scholars' views attributed to them, and keeps Israelite tales to a minimum. It opens with chapters on the Qur'anic sciences and shaped al-Qurtubi, Ibn Juzayy, Abu Hayyan and al-Tha'alibi."
+  ur: "قاضی ابو محمد عبد الحق بن عطیہ اندلسی (م 541ھ) کی تفسیر، جسے انہوں نے «جامع، مختصر اور محرر» بنانا چاہا: یہ آیت کے الفاظ کا تتبع کرتی، تمام قراءات — رائج اور شاذ — اور علما کے اقوال ان کی نسبت کے ساتھ لاتی، اور اسرائیلی قصے کم سے کم رکھتی ہے۔ اس کے شروع میں علومِ قرآن پر ابواب ہیں، اور اس نے قرطبی، ابن جزی، ابو حیان اور ثعالبی کو متاثر کیا۔"
+genre: [tafsir]
+authors: [person/ibn-atiyah-al-andalusi]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+structure: "مقدمة المؤلف وأبوابها: فضل القرآن؛ فضل تفسيره والكلام على لغته وإعرابه؛ ما قيل في الكلام في تفسير القرآن والجرأة عليه ومراتب المفسرين؛ معنى حديث الأحرف السبعة؛ جمع القرآن وشكله ونقطه وتحزيبه وتعشيره؛ الألفاظ التي لها تعلق بلغات العجم؛ إعجاز القرآن؛ ألفاظ يقتضي الإيجاز استعمالها؛ تفسير أسماء القرآن والسورة والآية؛ ثم تفسير السور على ترتيب المصحف."
+relations:
+  - { type: relies_on, target: work/jami-al-bayan, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: influenced, target: work/al-jawahir-al-hisan, note: "al-Tha'alibi abridged it in al-Jawahir al-Hisan", sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: influenced, target: work/tafsir-ibn-juzayy, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: about, target: concept/al-ahruf-al-sabaa, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: about, target: concept/tafsir-bil-raay, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+  - { type: about, target: question/was-ibn-atiyyas-tafsir-mutazili, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
 external_ids: { wikidata: "Q12192462" }
+sources: [source/muharrar-wajiz-dar-ibn-hazm, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/muharrar-wajiz-dar-ibn-hazm PDF pp. 1–24 (Majd Makki's introduction and Ibn Atiyya's preface and introductory chapters). Earlier card: Wikidata import (Devin, wikidata-import-wave2)."
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
