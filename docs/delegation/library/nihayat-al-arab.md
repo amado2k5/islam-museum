@@ -17,3 +17,10 @@
 ## Batch 5 (humour chapter, scan pp. 6-7)
 - New entries: person/suwaybit-ibn-saad (Badri Companion, p. 6, image-checked) and person/abdullah-ibn-abi-atiq (p. 7, image-checked; the anecdote's ending on p. 8 is not yet read).
 - Not written: Nu'aymān (identity not settled, so no entry yet). Makhrama ibn Nawfal already has an entry and needs the Nihayat source added.
+
+## Worker G (OCR-harvest, 2026-11-04): three DLI volumes
+- in.ernet.dli.2015.322697 = vol. 1, Dar al-Kutub 1342/1923 → source/nihayat-al-arab-dar-al-kutub-v1-1923 (plan of the first art, PDF pp. 9-10).
+- in.ernet.dli.2015.322767 = vol. 6, Turathuna series (Ministry of Culture), undated → source/nihayat-al-arab-nuwayri-vol6-turathuna; printed = PDF − 7. Section on the vizierate (quoting al-Mawardi's "Qawanin al-wizara", PDF pp. 100-136) added to concept/wizara-fiqh in ar/en/ur.
+- in.ernet.dli.2015.488677 = vol. 14, Dar al-Kutub 1362/1943, first ed. → source/nihayat-al-arab-dar-al-kutub-v14-1943; printed = PDF − 16. Contents only so far (prophets after Moses to Jesus; kings of China, Turks, Khazars).
+- work/nihayat-al-arab-fi-funun-al-adab: new section "Three volumes in the harvest" in ar/en/ur; three sources added.
+- Leads: whether al-Mawardi's "Qawanin al-wizara" is the same book as work/adab-al-wazir (not verified); vol. 14 prophet narratives (Ilyas, al-Yasa', Talut, Dawud, Sulayman) for the prophet records; vol. 6 chapters on judgeship and army command.
