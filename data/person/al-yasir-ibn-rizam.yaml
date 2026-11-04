@@ -19,6 +19,13 @@ story_roles:
 relations:
   - { type: member_of, target: group/jews-of-khaybar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 266-267", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 266-267"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 266-267" }
+status:
+  review: published
+  completeness: 3

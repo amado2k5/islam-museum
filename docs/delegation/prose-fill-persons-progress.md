@@ -864,3 +864,9 @@ Promoted: al-khansa-bint-khidham, asma-bint-marthad, busra-bint-safwan, layla-bi
 Promoted: abd-al-rahman-al-kawakibi, ahmad-faris-al-shidyaq, al-shawkani, butrus-al-bustani, jamal-al-din-al-afghani, jamal-al-din-al-qasimi, mahmud-sami-al-barudi, muhammad-al-mahdi-al-sanusi, muhammad-ali-pasha, muhammad-ibn-ali-al-sanusi, nasib-arslan, rifaa-al-tahtawi, tahir-al-jazairi.cite-check 13/13; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 2319.** sweep continues through remaining trilingual drafts.
+
+### Batch 38 (4 Nov 2026, 16 records) — ibn-hisham-saqqa draft promotions
+
+Session wind-down commit: 16 pre-existing draft yamls sourced to Ibn Hisham al-Saqqa (sira-ibn-hisham saqqa 1936, juz' 4 pp. 261-263) promoted to published/completeness 3 with standard provenance blocks: abu-zayd-ibn-amr-al-dubaybi, al-harith-ibn-malik-ibn-al-barsa, al-hunayd-ibn-us, al-numan-ibn-abi-jial, al-yasir-ibn-rizam, awf-ibn-malik-al-ashjai, ghalib-ibn-abdullah-al-laythi, hassan-ibn-milla, jundab-ibn-makith, khalid-ibn-sufyan-al-hudhali, masada-ibn-hakama, mirdas-ibn-nahik, qays-ibn-al-musakhkhar, salma-bint-attab, umm-qirfa, unayf-ibn-milla. cite-check 16/16; validate 0 errors; coverage regenerated.
+
+**Lane total: 569.** Remaining queue position unchanged: ~210 lib-muruj-dhahab draft promotions pending, then tabari/ansab/tabaqat thin rows, ~511 uncited thin rows, missing-prose persons.
