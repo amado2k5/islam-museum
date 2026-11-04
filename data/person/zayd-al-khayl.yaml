@@ -1,6 +1,7 @@
 id: person/zayd-al-khayl
 class: person
-label: { en: "Zayd al-Khayl", ar: "زيد الخيل" }
+aliases: [person/zayd-al-khayr]   # merged 4 Nov 2026 (Abdelkafy lesson card); duplicate file removed, the id still resolves
+label: { en: "Zayd al-Khayl", ar: "زيد الخيل", ur: "زید الخیل" }
 names:
   - { kind: full, lang: ar, value: "زيد الخيل الطائي، سيد طيء" }
   - { kind: laqab, lang: ar, value: "زيد الخير" }
@@ -10,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "Chief of Tayy' whose delegation came to Medina in the Year of Delegations; the Prophet renamed him Zayd al-Khayr ('the good') and said no Arab praised to him had ever fallen short of the praise except this man."
   ar: "سيد طيء الذي قدم في وفد قومه على النبي في عام الوفود فأسلم وحسن إسلامه؛ سمّاه النبي زيد الخير وقال: ما ذُكر لي رجل من العرب بفضل ثم جاءني إلا رأيته دون ما يُقال فيه إلا زيد الخيل."
+  ur: "قبیلہ طیء کے سردار جو عام الوفود میں اپنی قوم کے وفد کے ساتھ مدینہ آئے؛ نبی نے ان کا نام زید الخیر رکھا اور فرمایا کہ عربوں میں جس کسی کی تعریف ان کے سامنے کی گئی وہ ملاقات پر تعریف سے کم نکلا سوائے اس شخص کے۔"
 died: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بالحمى بماء فردة بنجد في رجوعه من المدينة (ابن هشام ص224)؛ السنة سنة الوفود.", sources: [source/ibn-hisham-saqqa] }
 wings: [people]
 themes: [converts-and-leavers]
@@ -26,6 +28,6 @@ relations:
   - { type: participated_in, target: event/delegation-of-tayy, role: "سيد الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/farda, sources: [source/ibn-hisham-saqqa] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 224; al-Raheeq al-Makhtum p. 453", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 p. 224" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 224; al-Raheeq al-Makhtum p. 453; Suwar min Hayat al-Sahaba (Nafa'is 1992) pp. 124–131", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, note: "first by Devin, extended by Claude Fable 5.1 (ibn-hisham-batch-9a); al-Basha section and merge of person/zayd-al-khayr (Claude Sonnet subagent, omar-tafsir-bundle-7) by worker E" }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa, source/suwar-min-hayat-al-sahaba-nafais-1992, source/assabile-omar-abdelkafy]
+status: { review: published, completeness: 3 }

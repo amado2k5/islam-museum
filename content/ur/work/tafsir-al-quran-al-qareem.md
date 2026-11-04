@@ -149,7 +149,7 @@ translators: []
 - [[person/abu-hazim-al-araj|أبو حازم الأعرج]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:16:00}
 - [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:18:30}
 - [[concept/husn-al-khatima|حسنِ خاتمہ]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:22:00}
-- [[person/zayd-al-khayr|زید الخیر]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30}
+- [[person/zayd-al-khayl|زید الخیر]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30}
 - [[concept/niyya|النية في الأعمال]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:30}
 - [[person/muhammad|محمد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:31:00}
 - [[person/abu-dharr-al-ghifari|أبو ذر الغفاري]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:30}

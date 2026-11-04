@@ -1,0 +1,19 @@
+id: person/jalila-bint-murra
+class: person
+label: { ar: "جليلة بنت مرة الشيبانية", en: "Jalila bint Murra al-Shaybaniyya", ur: "جلیلہ بنت مرہ الشیبانیہ" }
+gender: female
+roles: [poet]
+summary:
+  ar: "شاعرة جاهلية من شيبان، زوجة كليب بن ربيعة وأخت جساس بن مرة الذي قتله فأشعل حرب البسوس؛ يروي كحالة في «أعلام النساء» إخراجها من مأتم زوجها، وجوابها لأبيها، ومرثيتها التي جمعت فيها فقد الزوج وجناية الأخ."
+  en: "A pre-Islamic poet of Shayban, wife of Kulayb ibn Rabi'a and sister of Jassas ibn Murra, whose killing of Kulayb set off the War of al-Basus; Kahhala's A'lam al-Nisa' tells how she was sent out of her husband's mourning, her answer to her father, and the elegy in which she joined the loss of a husband to a brother's crime."
+  ur: "شیبان کی ایک جاہلی شاعرہ، کلیب بن ربیعہ کی بیوی اور جساس بن مرہ کی بہن جس نے کلیب کو قتل کر کے جنگِ بسوس بھڑکائی؛ کحالہ کی «اعلام النساء» شوہر کے ماتم سے ان کے نکالے جانے، باپ کو ان کے جواب، اور اس مرثیے کا ذکر کرتی ہے جس میں شوہر کی موت اور بھائی کے جرم دونوں کا غم ہے۔"
+wings: [people]
+themes: [women, literature, family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: spouse_of, target: person/kulayb-ibn-rabia, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: participated_in, target: event/harb-al-basus, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج1 p.205–207", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: published, completeness: 3 }

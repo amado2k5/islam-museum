@@ -1,0 +1,23 @@
+id: person/arib-al-mamuniyya
+class: person
+label: { ar: "عريب المأمونية", en: "Arib al-Ma'muniyya", ur: "عریب المامونیہ" }
+gender: female
+roles: [musician, poet]
+summary:
+  ar: "مغنية وشاعرة وكاتبة من أشهر قيان العصر العباسي (181–277هـ بحسب كحالة)، نشأت بالبصرة وصارت إلى الأمين ثم اشتراها المأمون ثم المعتصم فأعتقها؛ نُسب إليها ألف صوت، وكانت بينها وبين شارية منافسة قسمت أهل الظرف إلى عريبية وشروية."
+  en: "A singer, poet and letter-writer, one of the most celebrated singing women of the Abbasid age (181–277 AH according to Kahhala); raised at Basra, she passed to al-Amin, was bought by al-Ma'mun and then by al-Mu'tasim, who freed her. A thousand songs were credited to her, and her rivalry with Shariya split the connoisseurs into 'Aribis' and 'Sharawis'."
+  ur: "عباسی دور کی مشہور ترین مغنیات میں سے ایک گلوکارہ، شاعرہ اور انشا پرداز (کحالہ کے مطابق 181–277ھ)؛ بصرہ میں پلیں، امین کے پاس گئیں، پھر مامون اور پھر معتصم نے خریدا جنہوں نے آزاد کیا۔ ان سے ایک ہزار دھنیں منسوب تھیں، اور شاریہ سے ان کی رقابت نے اہلِ ذوق کو «عریبی» اور «شروی» گروہوں میں بانٹ دیا۔"
+born: { edtf: "0797/0798", hijri: "0181", calendar: julian, precision: year, status: tradition, derived: true, note: "ولدت سنة 181هـ {cite:alam-al-nisa-kahhala-risala-1984-v3 p.265}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+died: { edtf: "0890/0891", hijri: "0277", calendar: julian, precision: year, status: debated, derived: true, note: "سنة 277هـ عند ابن الأثير وابن عساكر، ويذكر كحالة أن عيون التواريخ يخالف {cite:alam-al-nisa-kahhala-risala-1984-v3 p.272}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+wings: [people]
+themes: [women, literature, slavery-and-freedom]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: related_to, target: person/abd-allah-al-mamun, role: "اشتراها", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: related_to, target: person/al-mutasim, role: "اشتراها وأعتقها", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+  - { type: related_to, target: person/ibrahim-ibn-al-mudabbir, role: "مراسلة ومودة", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج3 p.265–272", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+status: { review: published, completeness: 3 }

@@ -1,15 +1,24 @@
 id: person/muadha-al-adawiyya
 class: person
-label: { ar: "معاذة العدوية", en: "Mu'adha al-Adawiyya" }
+label: { ar: "معاذة بنت عبد الله العدوية", en: "Mu'adha bint Abd Allah al-Adawiyya", ur: "معاذہ بنت عبد اللہ العدویہ" }
+gender: female
+roles: [mystic]
 summary:
-  ar: "معاذة العدوية عابدة من نساء البصرة؛ كان زوجها صلة بن أشيم أبو الصهباء العدوي فاستشهد مع يزيد بن زياد بجنزة في وقعة كابل."
-  en: "Mu'adha al-Adawiyya, the Basran ascetic; her husband Sila ibn Ashyam Abu al-Sahba' al-Adawi fell with Yazid ibn Ziyad at Junza in the Kabul battle."
-periods: [period/umayyad]
+  ar: "معاذة بنت عبد الله العدوية، أم الصهباء، عابدة تابعية من البصرة، زوجة صلة بن أشيم؛ أدركت عائشة وروت عنها، وروى عنها الحسن البصري وأبو قلابة ويزيد الرشك، ويروي ابن الجوزي في «صفة الصفوة» شدة اجتهادها وصبرها يوم قُتل زوجها وابنها."
+  en: "Mu'adha bint Abd Allah al-Adawiyya, Umm al-Sahba', a Successor and ascetic of Basra and wife of Sila ibn Ashyam; she met Aisha and transmitted from her, and al-Hasan al-Basri, Abu Qilaba and Yazid al-Rishk transmitted from her. Ibn al-Jawzi's Sifat al-Safwa records her night vigils and her composure when her husband and son were killed."
+  ur: "معاذہ بنت عبد اللہ العدویہ، ام الصہباء، بصرہ کی ایک تابعی عابدہ اور صلہ بن اشیم کی اہلیہ؛ انہوں نے عائشہ کو پایا اور ان سے روایت کی، اور ان سے حسن بصری، ابو قلابہ اور یزید الرشک نے روایت کی۔ ابن الجوزی کی «صفۃ الصفوہ» ان کی شب بیداری اور شوہر و بیٹے کی شہادت پر ان کے صبر کا ذکر کرتی ہے۔"
+died: { edtf: "0702", hijri: "0083", calendar: julian, precision: year, status: tradition, derived: true, note: "يحيل محقق صفة الصفوة في ترجمتها إلى المنتظم لابن الجوزي تحت سنة 83هـ {cite:sifat-al-safwa-tartusi-2012 p.704}.", sources: [source/sifat-al-safwa-tartusi-2012] }
 wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: spouse_of, target: person/sila-ibn-ashyam, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: student_of, target: person/aisha, sources: [source/sifat-al-safwa-tartusi-2012] }
 external_ids: { wikidata: "Q20423607" }
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
-provenance:
-  layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.704–706؛ فتوح البلدان (مؤسسة المعارف 1407)", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012, source/futuh-buldan-maarif-1407]
+status: { review: published, completeness: 3 }

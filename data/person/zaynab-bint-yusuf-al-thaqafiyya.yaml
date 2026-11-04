@@ -1,0 +1,19 @@
+id: person/zaynab-bint-yusuf-al-thaqafiyya
+class: person
+label: { ar: "زينب بنت يوسف بن الحكم الثقفية", en: "Zaynab bint Yusuf ibn al-Hakam al-Thaqafiyya", ur: "زینب بنت یوسف بن الحکم الثقفیہ" }
+gender: female
+roles: []
+summary:
+  ar: "أخت الحجاج بن يوسف، من ربات العقل والحزم، طلقها المغيرة بن شعبة فردت عليه، وتغزّل بها الشاعر محمد بن عبد الله النميري في قصيدة بلغت عبد الملك والحجاج؛ يروي خبرها كحالة في «أعلام النساء»."
+  en: "Sister of al-Hajjaj ibn Yusuf, a woman of intelligence and resolve; divorced by al-Mughira ibn Shu'ba, she answered him sharply, and the poet Muhammad ibn Abd Allah al-Numayri composed a love poem about her that reached Abd al-Malik and al-Hajjaj. Kahhala tells her story in A'lam al-Nisa'."
+  ur: "حجاج بن یوسف کی بہن، عقل اور عزم والی خاتون؛ مغیرہ بن شعبہ نے طلاق دی تو انہوں نے انہیں کرارا جواب دیا، اور شاعر محمد بن عبد اللہ النمیری نے ان پر غزل کہی جو عبد الملک اور حجاج تک پہنچی۔ کحالہ «اعلام النساء» میں ان کا واقعہ نقل کرتے ہیں۔"
+wings: [people]
+themes: [women, literature, family-marriage-kinship]
+periods: [period/umayyad]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: sibling_of, target: person/al-hajjaj-ibn-yusuf, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+  - { type: spouse_of, target: person/al-mughira-ibn-shuba, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
+provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج2 p.128–130", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v2]
+status: { review: published, completeness: 3 }

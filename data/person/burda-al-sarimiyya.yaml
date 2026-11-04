@@ -1,0 +1,20 @@
+id: person/burda-al-sarimiyya
+class: person
+label: { ar: "بردة الصريمية", en: "Burda al-Sarimiyya", ur: "بردہ الصریمیہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة من الصدر الأول بكت حتى فسد بصرها؛ يروي ابن الجوزي في «صفة الصفوة» جوابها للحسن البصري حين ذكّرها بحق بصرها، وثناء سفيان بن عيينة عليها."
+  en: "An early devout woman of Basra who wept until her sight failed; Ibn al-Jawzi's Sifat al-Safwa records her answer to al-Hasan al-Basri when he reminded her of her eyes' right over her, and Sufyan's praise of her."
+  ur: "بصرہ کی ابتدائی دور کی ایک عابدہ جو اتنا روئیں کہ بینائی جاتی رہی؛ ابن الجوزی کی «صفۃ الصفوہ» میں حسن بصری کو ان کا جواب اور سفیان کی ان کی تعریف مذکور ہے۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.712–713", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

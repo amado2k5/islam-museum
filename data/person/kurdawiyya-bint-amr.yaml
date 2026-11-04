@@ -1,0 +1,21 @@
+id: person/kurdawiyya-bint-amr
+class: person
+label: { ar: "كردوية بنت عمرو البصرية", en: "Kurdawiyya bint Amr al-Basriyya", ur: "کردویہ بنت عمرو البصریہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة كانت تخدم شعوانة؛ يروي ابن الجوزي في «صفة الصفوة» ما قالت إنها نالته من بركة خدمتها: ما أحبت الدنيا منذ خدمتها، ولا اهتمت لرزقها، ولا استصغرت أحداً من المسلمين."
+  en: "A devout woman of Basra who served Sha'wana; Ibn al-Jawzi's Sifat al-Safwa records what she said she gained from that service: she had not loved the world since, nor worried over her provision, nor looked down on any Muslim."
+  ur: "بصرہ کی ایک عابدہ جو شعوانہ کی خدمت کرتی تھیں؛ ابن الجوزی کی «صفۃ الصفوہ» ان کا یہ قول نقل کرتی ہے کہ اس خدمت کی برکت سے انہوں نے پھر کبھی دنیا سے محبت نہ کی، نہ رزق کی فکر کی، نہ کسی مسلمان کو حقیر جانا۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: related_to, target: person/shawana, role: "خادمتها", sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.716", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }
