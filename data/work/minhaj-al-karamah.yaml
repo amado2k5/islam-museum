@@ -1,17 +1,26 @@
 id: work/minhaj-al-karamah
 class: work
-kind: book
-label: { ar: "منهاج الكرامة في إثبات الإمامة", en: "Minhaj al-Karamah" }
+kind: treatise
+genre: [creed, imamate]
+label: { ar: "منهاج الكرامة في معرفة الإمامة", en: "Minhaj al-Karamah fi Ma'rifat al-Imamah", ur: "منہاج الکرامۃ فی معرفۃ الامامۃ" }
 summary:
-  ar: "بطاقة أولية لـمنهاج الكرامة في إثبات الإمامة؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Minhaj al-Karamah; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "رسالة في الإمامة على مذهب الإمامية الاثني عشرية لابن المطهر الحلي، صنفها للملك الإيلخاني أولجايتو خدابنده، في مقدمة وستة فصول: المذاهب في الإمامة، ووجوب اتباع مذهب الإمامية، وأدلة إمامة علي، وإمامة الاثني عشر، وإبطال خلافة من تقدم علياً، والرد على حجج إمامة أبي بكر؛ وصلت إلى المتحف من خلال نقول ابن تيمية في رده «منهاج السنة النبوية»."
+  en: "A treatise on the imamate according to the Twelver Imami school by Ibn al-Mutahhar al-Hilli, composed for the Ilkhan Öljeitü Khudabanda, in an introduction and six chapters: the positions on the imamate, why the Imami school must be followed, the proofs of Ali's imamate, the imamate of the Twelve, the invalidity of the caliphates before Ali, and a reply to the arguments for Abu Bakr; known in the museum so far through the passages Ibn Taymiyya quotes in his reply, Minhaj al-Sunna al-Nabawiyya."
+wings: [ideas, words]
+themes: [creed, sects-and-schools, politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, persia-central-asia]
+made: { by_muslims: true, basis: documented, sources: [source/minhaj-sunna-shamela] }
+authors: [person/al-allama-al-hilli]
+language: language/arabic
+structure: "Introduction (the imamate as the most important matter of religion), then chapters on: (1) the Imami and Sunni positions; (2) why the Imami school must be followed; (3) the proofs of Ali's imamate in four methods (rational, Qur'an, Sunna, his states); (4) the Twelve; (5) that those before Ali were not imams; (6) the arguments for Abu Bakr's imamate — as reported and quoted in Minhaj al-Sunna."
+sensitivity: contested
 external_ids: { wikidata: "Q18345151" }
+sources: [source/minhaj-sunna-shamela, source/minhaj-sunna-salim-v4]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "منهاج السنة، نسخة الشاملة ص 14، 17–19، 51، 61–62، 90–93، 2367؛ تحقيق رشاد سالم ج4 ص 8 (نقول ابن تيمية من منهاج الكرامة)"
+  generated_by: "Claude Code (OCR-harvest worker C)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C); earlier Wikidata card by Devin (SWE-2 High), wikidata-import-wave2" }
