@@ -4,13 +4,11 @@ kind: tomb
 label:
   ar: "مشهد رقية بنت علي (القاهرة)"
   en: "Mausoleum of Sayyida Ruqayya, Cairo"
-summary:
-  ar: "بطاقة أولية لمشهد السيدة رقية بالقاهرة، الضريح الفاطمي الطراز على اسم رقية بنت علي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Sayyida Ruqayya mashhad of Cairo, the Fatimid-style shrine named for Ruqayya bint Ali; its sources are not yet checked on the page."
+summary: { ar: "مشهد فاطمي للسيدة رقية بنت علي بالقاهرة (1133-1153م)، ثلاث بلاطات تعلو وسطها قبة مضلعة، وفيه ثلاثة محاريب جصية أعظمها تحفة في فن الجص {cite:yeomans-islamic-cairo-2006 p.65}.", en: "Fatimid mashhad of Sayyida Ruqayya bint Ali in Cairo (1133-1153): three bays under a central ribbed dome, with three stucco mihrabs, the principal one a masterpiece of stucco design {cite:yeomans-islamic-cairo-2006 p.65}." }
 wings: [objects]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yeomans-islamic-cairo-2006]
 external_ids:
   wikidata: Q12243219
 provenance:
@@ -19,6 +17,9 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 63-65"]
 status:
-  review: draft
+  review: published
   completeness: 1
+built: { edtf: "1133/1153", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 65: mashhad (1133-53); p. 63 gives 1133." }
+status_now: standing

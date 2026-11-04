@@ -654,3 +654,15 @@ Promoted: abu-al-husayn-al-basri, abu-musa-al-madini, abu-talib-al-makki, al-far
 Promoted: abu-al-khayr-al-alai, abu-tahir-al-khujandi, ahmad-ibn-aqbaras, al-harfush, al-malik-al-mansur-hajji, ali-ibn-aybak-dimashqi, badr-al-din-al-kalastani, burhan-al-din-al-abnasi, ibn-abd-al-haqq-al-hanbali, ibn-khatib-sarmin, ibrahim-al-dajwi, ibrahim-al-sarayi, ibrahim-ibn-muflih, majd-al-din-al-kinani, sad-al-din-malik-al-habasha, shihab-al-din-al-abbadi, shihab-al-din-al-milkawi, siraj-al-din-al-fayyumi, sitt-al-qudat, umar-al-fayyumi.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
 
 **Lane total: 1769.** sweep continues through remaining trilingual drafts.
+
+### Batch 97 (4 Nov 2026, 20 records) — lib-shadharat-batch-134 draft promotions (sweep worker)
+
+Promoted: afif-al-din-al-tilimsani, al-busiri, al-fakhr-al-balabakki, al-fakhr-ibn-al-bukhari, al-faruthi, al-malik-al-adil-salamish, arghun-khan, burhan-al-din-al-sinjari, ibn-al-salus, ibn-bulayman, muhibb-al-din-al-tabari, najm-al-din-ibn-shabib, qutb-al-din-al-qastallani, sadr-al-din-al-hamuwi, shams-al-din-al-asfahani, sharaf-ibn-nima-khatib, taj-al-din-al-firkah, taqi-al-din-ibn-al-wasiti, taqi-al-din-shabib, zaynab-bint-makki.cite-check 20/20; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1789.** sweep continues through remaining trilingual drafts.
+
+### Batch 98 (4 Nov 2026, 19 records) — lib-shadharat-batch-133 draft promotions (sweep worker)
+
+Promoted: abagha-khan, al-fariqani-aqsunqur, al-kawashi, al-malik-al-mansur-ii-hama, al-malik-al-said-baraka, al-sharishi, ata-malik-al-juwayni, baha-al-din-ibn-hanna, ibn-al-munayyir, ibn-bint-al-aazz, isa-ibn-muhanna, ismail-al-hadrami, izz-al-din-ibn-al-saigh, katila-al-harbi, najib-ibn-al-awd, shams-al-din-ibn-abi-umar, sunqur-al-ashqar, taqi-al-din-ibn-razin, tekuder-ahmad.cite-check 19/19; validate 0 errors; tests pass; graph+coverage regen.
+
+**Lane total: 1808.** sweep continues through remaining trilingual drafts.

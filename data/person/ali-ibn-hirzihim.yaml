@@ -1,0 +1,30 @@
+id: person/ali-ibn-hirzihim
+class: person
+label: { ar: "أبو الحسن علي بن حرزهم", en: "Abu al-Hasan Ali ibn Hirzihim", ur: "ابو الحسن علی بن حرزہم" }
+names:
+  - { value: "أبو الحسن علي بن حرزهم", kind: full, lang: ar }
+  - { value: "ابن حرزهم", kind: alternate, lang: ar }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+summary:
+  ar: "فقيه مغربي مشهور يصفه العيدروس، نقلاً عن اليافعي، بأنه كان مطاعاً مسموع الكلمة، بالغ في الإنكار على إحياء علوم الدين وهمّ بإحراق نسخه في الجامع يوم الجمعة، ثم رجع عن إنكاره بعد رؤيا رآها، ولازم مطالعة الإحياء حتى صار من أكابر المشايخ؛ ويُروى عن أبي الحسن الشاذلي أنه مات وأثر السياط على ظهره {cite:ihya-kitab-al-shab-pts13-16 p. 779} {cite:ihya-kitab-al-shab-pts13-16 p. 780}."
+  en: "A celebrated Maghribi jurist who, according to al-Aydarus quoting al-Yafi'i, was obeyed and listened to, denounced the Ihya' vehemently and meant to burn its copies in the congregational mosque on a Friday, then gave up his objection after a dream and devoted himself to reading the Ihya' until he became one of the great masters; Abu al-Hasan al-Shadhili is reported to have said he died with the marks of the lashes still on his back {cite:ihya-kitab-al-shab-pts13-16 p. 779} {cite:ihya-kitab-al-shab-pts13-16 p. 780}."
+  ur: "مغرب کے ایک مشہور فقیہ، جن کے بارے میں عیدروس، یافعی سے نقل کرتے ہوئے، بتاتے ہیں کہ ان کی بات مانی اور سنی جاتی تھی، انہوں نے احیاء علوم الدین کا سخت انکار کیا اور جمعہ کے دن جامع مسجد میں اس کے نسخے جلانے کا ارادہ کیا، پھر ایک خواب کے بعد اپنے انکار سے رجوع کیا اور احیاء کے مطالعے میں لگ گئے یہاں تک کہ بڑے مشائخ میں سے ہو گئے؛ ابو الحسن شاذلی سے منقول ہے کہ ان کی وفات ہوئی تو کوڑوں کے نشان ان کی پیٹھ پر تھے {cite:ihya-kitab-al-shab-pts13-16 p. 779} {cite:ihya-kitab-al-shab-pts13-16 p. 780}۔"
+wings: [people]
+themes: [spirituality-and-sufism, libraries-paper-and-the-book]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+story_roles:
+  - { role: critic, status: tradition, note: "أنكر إحياء علوم الدين ثم رجع عن إنكاره بحسب رواية اليافعي التي ينقلها العيدروس (ص 779-780)", sources: [source/ihya-kitab-al-shab-pts13-16] }
+  - { role: jurist, status: tradition, note: "يصفه المصدر بالفقيه المشهور المغربي", sources: [source/ihya-kitab-al-shab-pts13-16] }
+relations:
+  - { type: critic_of, target: work/ihya-ulum-al-din, sources: [source/ihya-kitab-al-shab-pts13-16] }
+provenance:
+  layer: own-research
+  source: "تعريف الأحياء بفضائل الإحياء للعيدروس، في ط. كتاب الشعب للإحياء ص 779-780"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/ihya-kitab-al-shab-pts13-16]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

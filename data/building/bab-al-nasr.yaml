@@ -1,0 +1,25 @@
+id: building/bab-al-nasr
+class: building
+kind: other
+label: { ar: "باب النصر", en: "Bab al-Nasr, Cairo", ur: "باب النصر، قاہرہ" }
+summary:
+  ar: "باب القاهرة الفاطمية الشمالي، بُني في تجديد بدر الجمالي لأسوارها بالحجر بين 1087 و1092م، ببرجين مستطيلين وكتابة كوفية للشهادة على الطريقة الشيعية {cite:yeomans-islamic-cairo-2006 p.46} {cite:yeomans-islamic-cairo-2006 p.47}."
+  en: "Northern gate of Fatimid Cairo, built in Badr al-Jamali's stone rebuilding of the walls in 1087-1092, with two rectangular towers and a Kufic inscription of the Shi'i profession of faith {cite:yeomans-islamic-cairo-2006 p.46} {cite:yeomans-islamic-cairo-2006 p.47}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+built: { edtf: "1087/1092", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 46: walls rebuilt in brick and stone 1087-1092 under Badr al-Jamali; the three gates built, per al-Maqrizi, by three Armenians from Edessa." }
+patron: person/badr-al-jamali
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 46-49"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

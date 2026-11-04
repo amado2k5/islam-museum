@@ -3,6 +3,11 @@ id: person/al-tabari
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "earlier lanes (see data record); section from Mizan al-I'tidal added by Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "mizan-itidal-bijawi-v3 / mizan-itidal-azimabadi-v1/v2 for the Mizan section"
 ---
 ## موجز
 أبو جعفر محمد بن جرير الطبري الآملي، ولد في آمل سنة 224هـ وتوفي ببغداد سنة 310هـ. عدّه ابن النديم متفنناً في علوم القرآن والنحو والشعر واللغة والفقه {cite:fihrist-ibn-al-nadim p.326-327}.
@@ -37,3 +42,13 @@ translators: []
 وتنظيمه للوقت: قيلولة قبل الظهر ثم تأليف إلى العصر، وتدريس القرآن في المسجد إلى المغرب، ومدارسة الفقه إلى العشاء، ثم انزواء للتأليف لا يدخل عليه أحد، مع ورد ليلي من القرآن بلغ أحياناً ربعه في ليلة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:19:00}.
 ومن خلقه مع الخصوم: لما آذاه تلميذ داود الظاهري صنّف رداً في مئة ورقة، فلما بلغه موت داود مزّق الكتاب؛ وفي المقابل أثنى على محمد بن داود أمام أهله رغم كتابه عليه — فتحوّلت النقمة إلى مودة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:22:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:22:30}.
 ويختتم: اكتملت فيه معادلة الإبداع كلها تقريباً — موهبة ورعاية ورحلة وتلاميذ ومرحلتا أخذ وعطاء وتوازن — فكان من النادرين الذين اجتمعت فيهم المعادلة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:11:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:12:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep14 00:23:00}.
+
+## في ميزان الاعتدال للذهبي
+يترجم [[person/al-dhahabi|الذهبي]] في [[work/mizan-al-itidal|ميزان الاعتدال]] لمحمد بن جرير بن يزيد الطبري، ويصفه بالإمام الجليل المفسر، صاحب التصانيف الباهرة، ويذكر أنه مات سنة عشر وثلاثمائة. {cite:mizan-itidal-bijawi-v3 p. 498} ويحكم بأنه ثقة صادق، فيه تشيع يسير وموالاة لا تضر. {cite:mizan-itidal-bijawi-v3 p. 499}
+
+وينقل أن الحافظ أحمد بن علي السليماني أقذع فيه فقال: كان يضع للروافض. {cite:mizan-itidal-bijawi-v3 p. 499} ويرد الذهبي ذلك بأنه «رجم بالظن الكاذب»، وأن ابن جرير من كبار أئمة الإسلام المعتمدين، وأنه لا يدّعي عصمته من الخطأ، لكن لا يحل أن يؤذى بالباطل والهوى. {cite:mizan-itidal-bijawi-v3 p. 499} ويقرر قاعدة عامة: كلام العلماء بعضهم في بعض ينبغي أن يُتأنى فيه، ولا سيما في مثل إمام كبير. {cite:mizan-itidal-bijawi-v3 p. 499} ثم يقترح، في زيادة من إحدى النسخ، أن السليماني لعله أراد سميّه [[person/muhammad-ibn-jarir-ibn-rustam|محمد بن جرير بن رستم]]، الذي يذكره الذهبي بعده مباشرة ويصفه بالرفض. {cite:mizan-itidal-bijawi-v3 p. 499}
+
+:::perspectives
+- **أهل السنة: الذهبي**: ثقة صادق من كبار أئمة الإسلام، فيه تشيع يسير لا يضر، واتهامه بالوضع رجم بالظن. {cite:mizan-itidal-bijawi-v3 p. 499}
+- **أهل السنة: أحمد بن علي السليماني كما ينقله الذهبي**: كان يضع للروافض، وقد يكون أراد ابن رستم لا المفسر. {cite:mizan-itidal-bijawi-v3 p. 499}
+:::

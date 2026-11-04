@@ -6,10 +6,35 @@ summary:
   en: "Ibn 'Abbas's mawla and his sparring partner on the bound son — dead in 105, the same day as Kathir 'Azza {cite:muruj-al-dhahab p. 376-377}."
 gender: male
 wings: [people]
+died: { hijri: "0105", edtf: "0723", calendar: julian, precision: year, status: debated, derived: true, note: "المسعودي: سنة خمس ومائة {cite:muruj-al-dhahab p. 376-377}؛ الذهبي: قال جماعة سنة خمس ومائة، وقال الهيثم وغيره سنة ست، وقال جماعة سنة سبع ومائة {cite:mizan-itidal-bijawi-v3 p. 96}. التحويل مشتق.", sources: [source/muruj-al-dhahab, source/mizan-itidal-bijawi-v3] }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-abbas, sources: [source/mizan-itidal-bijawi-v3] }
+perspectives:
+  - tradition: sunni
+    id: sunni-praise
+    standing: main
+    stance: { ar: "بحر من العلم وأعلم الناس بالتفسير", en: "A sea of learning, the most knowledgeable in Qur'anic exegesis" }
+    summary:
+      ar: "جابر بن زيد: البحر وأعلم الناس؛ سعيد بن جبير: هو أعلم مني؛ الشعبي: ما بقي أحد أعلم بكتاب الله منه؛ قتادة: أعلم الناس بالتفسير؛ أيوب: لم أكن أتهمه؛ وقد اعتمده البخاري."
+      en: "Jabir ibn Zayd: the sea, the most learned of men; Sa'id ibn Jubayr: more learned than I; al-Sha'bi: no one left knows God's Book better; Qatada: the most knowledgeable in exegesis; Ayyub: I did not suspect him; al-Bukhari relied on him."
+    holders: [person/jabir-ibn-zayd, person/said-ibn-jubayr, person/amir-al-shabi, person/qatada-ibn-diama, person/ayyub-al-sakhtiyani, person/al-bukhari]
+    sources: [source/mizan-itidal-bijawi-v3]
+  - tradition: sunni
+    id: sunni-jarh
+    standing: secondary
+    stance: { ar: "اتُّهم بالكذب على ابن عباس وبرأي الخوارج", en: "Accused of lying about Ibn Abbas and of the Kharijite view" }
+    summary:
+      ar: "يحيى بن سعيد الأنصاري وابن سيرين: كذاب؛ مالك كره ذكره ولم ير الرواية عنه إلا في حديث أو حديثين؛ مسلم تجنبه إلا مقروناً؛ ابن المديني ومصعب الزبيري وأحمد وعطاء: كان يرى رأي الخوارج أو الإباضية أو الصفرية؛ والذهبي: تُكلم فيه لرأيه لا لحفظه."
+      en: "Yahya ibn Sa'id al-Ansari and Ibn Sirin: a liar; Malik disliked mentioning him and narrated from him only in one or two hadiths; Muslim avoided him except paired with others; Ibn al-Madini, Mus'ab al-Zubayri, Ahmad and Ata': he held the view of the Kharijites, the Ibadiyya or the Sufriyya; al-Dhahabi: he was criticised for his opinion, not his memory."
+    holders: [person/muhammad-ibn-sirin, person/malik-ibn-anas, person/muslim-ibn-al-hajjaj, person/ali-ibn-al-madini, person/ahmad-ibn-hanbal, person/al-dhahabi]
+    sources: [source/mizan-itidal-bijawi-v3]
+sensitivity: contested
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 376–377"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-82
-sources: [source/muruj-al-dhahab, source/taqrib-al-tahdhib]
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Claude Code (OCR-harvest worker F) for the Mizan section"
+  model: "claude-opus-5-5 (Mizan section)"
+  run: lib-muruj-dhahab-batch-82, ocr-harvest-2026-11-04
+  mizan_source: "ميزان الاعتدال، تحقيق البجاوي، القسم الثالث، ص 93–97 (الترجمة 5716)"
+sources: [source/muruj-al-dhahab, source/taqrib-al-tahdhib, source/mizan-itidal-bijawi-v3]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
