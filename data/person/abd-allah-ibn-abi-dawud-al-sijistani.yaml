@@ -1,30 +1,68 @@
 id: person/abd-allah-ibn-abi-dawud-al-sijistani
 class: person
+aliases: [person/abu-bakr-ibn-abi-dawud]   # merged 4 Nov 2026 (worker F): same man, Abu Bakr Abd Allah ibn Sulayman ibn al-Ash'ath; duplicate file removed, the id still resolves
 label:
   ar: "عبد الله بن أبي داود السجستاني"
   en: "Ibn Abi Dawud al-Sijistani"
+  ur: "عبد اللہ بن ابی داود سجستانی"
+names:
+  - { kind: full, lang: ar, value: "أبو بكر عبد الله بن سليمان بن الأشعث السجستاني" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: laqab, lang: ar, value: "ابن أبي داود" }
 roles: [muhaddith]
 gender: male
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لعبد الله بن أبي داود السجستاني، المحدث وصاحب كتاب المصاحف؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Abi Dawud al-Sijistani, the hadith scholar and author of Kitab al-Masahif; his entry is not yet checked on the page."
+  ar: "أبو بكر عبد الله بن سليمان بن الأشعث السجستاني، ابن صاحب السنن، يصفه الذهبي في «ميزان الاعتدال» بالحافظ الثقة صاحب التصانيف، ومن كبار الحفاظ وأئمة الأعلام. ذكر الذهبي ما قيل فيه — كلمة أبيه فيه وتكذيب إبراهيم الأصبهاني، وتوثيق الدارقطني مع كثرة خطئه في الكلام على الحديث، وقبول أهل الحديث له عند ابن عدي — وما جرى بينه وبين ابن صاعد وابن جرير، وأورده دفاعاً عنه. له «المصاحف» و«التفسير» وكتب أخرى عند ابن النديم، وتوفي سنة 316هـ {cite:mizan-itidal-azimabadi-v2 p. 42-43} {cite:fihrist-ibn-al-nadim p. 324-325}."
+  en: "Abu Bakr Abd Allah ibn Sulayman ibn al-Ash'ath al-Sijistani, son of the author of the Sunan, whom al-Dhahabi's Mizan al-I'tidal calls the trustworthy hafiz and author of works, one of the great hafizes and leading figures. Al-Dhahabi lists what was said against him — his father's word about him and Ibrahim al-Isbahani's charge of lying, al-Daraqutni's 'trustworthy, but often in error when speaking on hadith', Ibn Adi's 'accepted by the hadith scholars' — and his quarrels with Ibn Sa'id and Ibn Jarir, and includes him in order to defend him. Ibn al-Nadim lists his Kitab al-Masahif, a Tafsir and other books; he died in 316 AH {cite:mizan-itidal-azimabadi-v2 p. 42-43} {cite:fihrist-ibn-al-nadim p. 324-325}."
+  ur: "ابو بکر عبد اللہ بن سلیمان بن الاشعث سجستانی، صاحبِ سنن کے بیٹے، جنہیں ذہبی «میزان الاعتدال» میں ثقہ حافظ اور صاحبِ تصانیف، بڑے حفاظ اور ائمۂ اعلام میں سے کہتے ہیں۔ ذہبی ان کے بارے میں کہی گئی باتیں — ان کے والد کا قول اور ابراہیم اصبہانی کی تکذیب، دارقطنی کا ‘ثقہ مگر حدیث پر کلام میں کثیر الخطا’، ابن عدی کا ‘اہلِ حدیث کے ہاں مقبول’ — اور ابن صاعد اور ابن جریر سے ان کے جھگڑے ذکر کرتے ہیں، اور ان کا دفاع کرتے ہیں۔ ابن الندیم ان کی کتاب المصاحف، ایک تفسیر اور دیگر کتب گنواتے ہیں؛ وفات 316ھ {cite:mizan-itidal-azimabadi-v2 p. 42-43} {cite:fihrist-ibn-al-nadim p. 324-325}۔"
 wings: [people]
+themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
-periods: [period/abbasid-early]
-born: { edtf: "0840", precision: year, status: tradition, derived: true }
-died: { edtf: "0928", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+periods: [period/abbasid-fragmentation]
+born: { hijri: "0230", edtf: "0844/0845", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: ولد سنة ثلاثين ومائتين {cite:mizan-itidal-azimabadi-v2 p. 43}؛ التحويل مشتق.", sources: [source/mizan-itidal-azimabadi-v2] }
+died: { hijri: "0316", edtf: "0928/0929", calendar: julian, precision: year, status: tradition, derived: true, note: "ابن النديم: توفي سنة ست عشرة وثلاثمائة {cite:fihrist-ibn-al-nadim p. 324-325}؛ التحويل مشتق.", sources: [source/fihrist-ibn-al-nadim] }
+relations:
+  - { type: child_of, target: person/abu-dawud-al-sijistani, sources: [source/mizan-itidal-azimabadi-v2] }
+  - { type: student_of, target: person/abu-dawud-al-sijistani, sources: [source/mizan-itidal-azimabadi-v2] }
+  - { type: lived_in, target: place/baghdad, sources: [source/mizan-itidal-azimabadi-v2] }
+  - { type: traveled_to, target: place/sijistan, sources: [source/mizan-itidal-azimabadi-v2] }
+  - { type: traveled_to, target: place/isfahan, sources: [source/mizan-itidal-azimabadi-v2] }
+  - { type: debated_with, target: person/yahya-ibn-muhammad-ibn-saaid, sources: [source/mizan-itidal-azimabadi-v2, source/tarikh-khulafa-minhaj-1434] }
+  - { type: opposed, target: person/al-tabari, sources: [source/mizan-itidal-azimabadi-v2] }
+perspectives:
+  - tradition: sunni
+    id: sunni-thiqa-hafiz
+    standing: main
+    stance: { ar: "حافظ ثقة من كبار الحفاظ", en: "A trustworthy hafiz, one of the great hafizes" }
+    summary:
+      ar: "الذهبي: الحافظ الثقة صاحب التصانيف، ومن كبار الحفاظ وأئمة الأعلام، وقول أبي هاشم الخلال (عند الخطيب): كان أبو بكر أحفظ من أبيه؛ والدارقطني: ثقة إلا أنه كثير الخطأ في الكلام على الحديث؛ وابن عدي: معروف بالطلب، وعامة ما كتب مع أبيه، وهو مقبول عند أصحاب الحديث."
+      en: "Al-Dhahabi: the trustworthy hafiz, author of works, one of the great hafizes and leading figures; Abu Hashim al-Khallal (via al-Khatib): Abu Bakr had a better memory than his father; al-Daraqutni: trustworthy, but often in error when speaking on hadith; Ibn Adi: known for his pursuit of learning, most of what he wrote he wrote with his father, and he is accepted by the hadith scholars."
+    holders: [person/al-dhahabi, person/al-daraqutni]
+    sources: [source/mizan-itidal-azimabadi-v2]
+  - tradition: sunni
+    id: sunni-jarh
+    standing: secondary
+    stance: { ar: "كلام أبيه فيه ومن تبعه", en: "His father's word and those who followed it" }
+    summary:
+      ar: "روى ابن عدي بإسناده عن أبي داود: ابني عبد الله كذاب، وقال ابن صاعد: كفانا ما قال أبوه فيه؛ ونقل عن إبراهيم الأصبهاني تكذيبه. ويروي ابن عدي أنه نُسب في أول أمره إلى شيء من النصب، فنفاه ابن الفرات من بغداد، ثم ردّه علي بن عيسى فحدّث وأظهر فضائل علي؛ ويقول الذهبي إنه كان قوي النفس، وكان بينه وبين ابن صاعد وابن جرير ما كان."
+      en: "Ibn Adi relates with his chain that Abu Dawud said: my son Abd Allah is a liar, and Ibn Sa'id said: what his father said of him suffices us; he also quotes Ibrahim al-Isbahani calling him a liar. Ibn Adi relates that early on he was linked to some hostility to Ali (nasb), so Ibn al-Furat banished him from Baghdad, then Ali ibn Isa brought him back and he narrated and made known the merits of Ali; al-Dhahabi says he was strong-willed, and that there was enmity between him and Ibn Sa'id and Ibn Jarir."
+    holders: [person/abu-dawud-al-sijistani, person/yahya-ibn-muhammad-ibn-saaid]
+    sources: [source/mizan-itidal-azimabadi-v2]
+sensitivity: contested
 external_ids:
   wikidata: Q12177882
+sources: [source/mizan-itidal-azimabadi-v2, source/fihrist-ibn-al-nadim, source/tarikh-khulafa-minhaj-1434, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "ميزان الاعتدال للذهبي، الطبعة الحجرية (العظيم آبادي)، الجزء الثاني، ص 42–43 (PDF)؛ الفهرست لابن النديم ص 324–325؛ تاريخ الخلفاء للسيوطي (ط المنهاج) ص 595؛ مع سجلَّي Devin المدمجين (person/abd-allah-ibn-abi-dawud-al-sijistani و person/abu-bakr-ibn-abi-dawud)"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker F)"
 occupations:
   - job: job/muhaddith
     kind: primary

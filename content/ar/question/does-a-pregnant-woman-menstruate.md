@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 71-72" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 71-72", enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: Zahiri perspective and section from muhalla-dar-ibn-hazm-2016-v3 PDF p. 234" }
 ---
 ## موجز
 يعقد [[person/ibn-rushd|ابن رشد]] في كتاب الغسل من «[[work/bidayat-al-mujtahid|بداية المجتهد]]» مسألة الدم الذي تراه الحامل، ويقول إن الفقهاء اختلفوا فيها «قديماً وحديثاً»: هل هو [[concept/hayd-menstruation|حيض]] أم استحاضة؟ {cite:bidaya-bakri-bayt-al-afkar p. 71}
@@ -20,6 +20,10 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## سبب الخلاف واستعانة ابن رشد بالطب
 يرد ابن رشد الخلاف إلى عسر الوقوف على ذلك بالتجربة واختلاط الأمرين: فالدم الذي تراه الحامل يكون مرة دم حيض إذا كانت قوة المرأة وافرة والجنين صغيراً، وبذلك أمكن أن يكون حمل على حمل على ما حكاه بقراط وجالينوس وسائر الأطباء؛ ويكون مرة دم علة ومرض لضعف الجنين ومرضه التابع لضعفها ومرضها، وهو في الأكثر دم علة. {cite:bidaya-bakri-bayt-al-afkar p. 71} {cite:bidaya-bakri-bayt-al-afkar p. 72} ويعدّ محقق طبعة بيت الأفكار هذا الموضع من أمثلة استعانة ابن رشد بالطب في الفقه. {cite:bidaya-bakri-bayt-al-afkar p. 15}
+
+## رأي ابن حزم الظاهري في «المحلى»
+
+في كتاب الحيض والاستحاضة من [[work/al-muhalla-ibn-hazm|المحلى]] يقرر [[person/ibn-hazm|ابن حزم]] أن كل دم تراه الحامل ما لم تضع آخر ولد في بطنها فليس حيضاً ولا نفاساً ولا يمنع من شيء، ويحيل في برهان أنه ليس حيضاً إلى ما قدّمه في كتاب الطهارة، ويقول إنه ليس نفاساً لأنها لم تضع حملها بعد، وإنه لا إجماع على أنه حيض أو نفاس. {cite:muhalla-dar-ibn-hazm-2016-v3 p.234} ويبني على ذلك أن الصلاة والصوم وإباحة الجماع، وقد صح وجوبها أو إباحتها، لا تسقط عنها إلا بنص ثابت. {cite:muhalla-dar-ibn-hazm-2016-v3 p.234} ويذكر المحققون في الحاشية أن هذا قول أبي حنيفة وأصحابه وأحمد وإسحاق بن راهويه وقول الشافعي في القديم، وأن مالكاً فرّق بين الدم في أول الحمل وآخره، وأن قول الشافعي في الجديد، وهو المعتمد في مذهبه، أنه حيض. {cite:muhalla-dar-ibn-hazm-2016-v3 p.234}
 
 ## ما لم يُذكر هنا
 لم تُذكر هنا أدلة كل مذهب من كتبه، ولا الرأي الطبي الحديث؛ فالصفحة مقصورة على ما يحكيه ابن رشد.

@@ -1,0 +1,20 @@
+id: person/mutia-al-abida
+class: person
+label: { ar: "مطيعة العابدة", en: "Muti'a al-Abida", ur: "مطیعہ العابدہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة أقامت في الجبّان أربعاً وخمسين سنة؛ يروي ابن الجوزي في «صفة الصفوة» أنها بكت أربعين عاماً وقالت: لا أزال أبكي حتى أعلم على أي الحالين أنا عند الله."
+  en: "A devout woman of Basra who lived fifty-four years among the tombs of the city's cemetery; Ibn al-Jawzi's Sifat al-Safwa says she wept for forty years and said, 'I shall not stop weeping until I know which of the two states I am in before God.'"
+  ur: "بصرہ کی ایک عابدہ جو چوّن سال قبرستان (جبّان) میں رہیں؛ ابن الجوزی کی «صفۃ الصفوہ» کہتی ہے کہ وہ چالیس سال روئیں اور کہا: «میں روتی رہوں گی یہاں تک کہ جان لوں کہ اللہ کے ہاں دونوں حالتوں میں سے کس پر ہوں»۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.715", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

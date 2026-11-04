@@ -1,0 +1,21 @@
+id: person/abda-sister-of-abu-sulayman-al-darani
+class: person
+label: { ar: "عبدة أخت أبي سليمان الداراني", en: "Abda, sister of Abu Sulayman al-Darani", ur: "عبدہ، ابو سلیمان دارانی کی بہن" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من أهل الشام، أخت الزاهد أبي سليمان الداراني؛ يروي ابن الجوزي في «صفة الصفوة» عن أخيها قولها: الفقراء كلهم أموات إلا من أحياه الله بعز القناعة والرضا بفقره، ويذكر عن السلمي أنها وأختها آمنة كانتا من العقل والدين بمحل عظيم."
+  en: "A devout woman of Syria, sister of the ascetic Abu Sulayman al-Darani; Ibn al-Jawzi's Sifat al-Safwa quotes her through her brother — 'The poor are all dead, except those God brings to life with the dignity of contentment' — and cites al-Sulami that she and her sister Amina stood high in intelligence and religion."
+  ur: "شام کی ایک عابدہ، زاہد ابو سلیمان دارانی کی بہن؛ ابن الجوزی کی «صفۃ الصفوہ» ان کے بھائی کے واسطے سے ان کا قول نقل کرتی ہے — «فقیر سب مردہ ہیں سوائے اس کے جسے اللہ قناعت کی عزت اور فقر پر رضا سے زندہ کرے» — اور سلمی سے کہ وہ اور ان کی بہن آمنہ عقل و دین میں بلند مرتبہ تھیں۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: sibling_of, target: person/abu-sulayman-al-darani, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.858", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

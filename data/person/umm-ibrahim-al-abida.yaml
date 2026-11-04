@@ -1,0 +1,20 @@
+id: person/umm-ibrahim-al-abida
+class: person
+label: { ar: "أم إبراهيم العابدة", en: "Umm Ibrahim al-Abida", ur: "ام ابراہیم العابدہ" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "عابدة من البصرة؛ يروي ابن الجوزي في «صفة الصفوة» قولها حين كُسرت رجلها: لولا مصائب الدنيا وردنا الآخرة مفاليس، وخبرها عند الجمار في الحج."
+  en: "A devout woman of Basra; Ibn al-Jawzi's Sifat al-Safwa records her saying when her leg was broken — 'Were it not for the afflictions of this world we would arrive in the next bankrupt' — and an episode at the Jamarat during the Hajj."
+  ur: "بصرہ کی ایک عابدہ؛ ابن الجوزی کی «صفۃ الصفوہ» ان کی ٹانگ ٹوٹنے پر ان کا قول — «اگر دنیا کی مصیبتیں نہ ہوتیں تو ہم آخرت میں مفلس پہنچتے» — اور حج میں جمرات کے پاس ان کا واقعہ نقل کرتی ہے۔"
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/umayyad]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.714", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

@@ -1,24 +1,28 @@
 id: building/begumpur-mosque
 class: building
 kind: mosque
-label:
-  ar: "مسجد بيغمفور"
-  en: "Begumpur Mosque"
+label: { ar: "مسجد بيگم پور، دلهي", en: "Begumpur Mosque, Delhi", ur: "بیگم پور مسجد، دہلی" }
 summary:
-  ar: "بطاقة أولية لـBegumpur Mosque، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Begumpur Mosque, the historic monument; its sources are not yet checked on the page."
-wings: [objects]
+  ar: "جامع كبير من طابق واحد على قاعدة عالية في قرية بيگم پور جنوب دلهي، بلا نقش، ينسب إلى عهد فيروز شاه تغلق أو إلى محمد بن تغلق، ويعده ر. ناث أول مسجد هندي ذي إيوان كامل {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 85} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 88} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 89}."
+  en: "A large single-storey congregational mosque on a high plinth in Begumpur village in south Delhi, without an inscription, attributed to Firuz Shah Tughluq's reign or to Muhammad ibn Tughluq, and held by R. Nath to be the first Indian mosque with a fully formed iwan {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 85} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 88} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 89}."
+  ur: "جنوبی دہلی کے گاؤں بیگم پور میں اونچی کرسی پر ایک منزلہ بڑی جامع مسجد، بغیر کتبے کے، جو فیروز شاہ تغلق کے عہد یا محمد بن تغلق سے منسوب ہے، اور آر۔ ناتھ اسے پہلی ہندوستانی مسجد مانتے ہیں جس میں مکمل ایوان ہے {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 85} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 88} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 89}۔"
+wings: [objects, place]
+themes: [architecture]
 regions: [south-asia]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/tarikh-islam-hasan-ibrahim]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1370/1387", calendar: julian, precision: year, status: debated, note: "Debated: no inscription; dated to 1370 or 1387 in Firuz Shah's reign, while Agha Mehdi Hasan ascribes it to Muhammad ibn Tughluq's Jahanpanah, as compiled by Seema Khan", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+materials: [stone]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+  - { type: related_to, target: building/kalu-sarai-mosque-delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
 external_ids:
   wikidata: Q126453974
 provenance:
   layer: own-research
-  source: "Wikidata candidate; monument attested in heritage registers — entry not yet checked on the page"
+  source: "Seema Khan 2011, printed pp. 85-90; first created as a Wikidata candidate card"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+  extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Seema Khan 2011 pp. 85-90, summary, dates and first prose"]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

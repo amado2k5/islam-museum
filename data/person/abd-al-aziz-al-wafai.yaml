@@ -1,0 +1,26 @@
+id: person/abd-al-aziz-al-wafai
+class: person
+label: { ar: "عز الدين عبد العزيز بن محمد الوفائي", en: "Izz al-Din Abd al-Aziz ibn Muhammad al-Wafa'i", ur: "عز الدین عبد العزیز بن محمد الوفائی" }
+summary:
+  ar: "فلكي مصري (811–879هـ)، ميقاتي بالجامع المؤيدي بالقاهرة، مخترع آلة «دائرة المعدل»، له أكثر من عشرين رسالة {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 24}."
+  en: "Egyptian astronomer (811–879 AH), timekeeper at the Mu'ayyadi Mosque in Cairo, inventor of the instrument called da'irat al-mu'addil, with more than twenty treatises {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 24}."
+  ur: "مصری ماہرِ فلکیات (811–879ھ)، قاہرہ کی جامع مؤیدی کے میقاتی، «دائرۃ المعدل» نامی آلے کے موجد، بیس سے زیادہ رسائل کے مصنف {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 24}۔"
+wings: [people]
+themes: [astronomy-and-timekeeping]
+regions: [egypt-nile]
+gender: male
+roles: [scholar]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1408", hijri: "0811", calendar: julian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+died: { edtf: "1474", hijri: "0879", calendar: julian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+relations:
+  - { type: authored, target: work/risala-fi-dairat-al-muaddil, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+  - { type: lived_in, target: place/cairo, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
+provenance:
+  layer: own-research
+  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 24"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

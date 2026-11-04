@@ -3,6 +3,7 @@ id: person/imran-ibn-husayn
 lang: ar
 source_lang: ar
 translators: []
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 549–552", note: "section added to earlier prose" }
 ---
 ## موجز
 عمران بن حصين بن عبيد بن خلف، أبو نجيد الخزاعي، صاحب رسول الله؛ إسلامه وقت إسلام أبي هريرة، وكان ممن بعث به عمر بن الخطاب إلى أهل البصرة ليفقههم، وولى قضاء البصرة. {cite:tazkirat-al-huffaz j.1 p.32}
@@ -12,3 +13,7 @@ translators: []
 
 ## وفاته
 مات سنة اثنتين وخمسين. {cite:tazkirat-al-huffaz j.1 p.32}
+
+## في «رجال حول الرسول» لخالد محمد خالد
+يعنون [[person/khalid-muhammad-khalid|خالد محمد خالد]] فصله عنه في [[work/rijal-hawl-al-rasul|رجال حول الرسول]] بـ«شبيه الملائكة»، ويذكر أنه أقبل على النبي مبايعاً عام خيبر، وأنه آلى على نفسه منذ وضع يمينه في يمين النبي ألا يستعملها إلا في عمل طيب كريم، وأنه كان مع ذلك يبكي ويقول: يا ليتني كنت رماداً تذروه الرياح. {cite:rijal-hawl-al-rasul-muqattam-1994 p.549} {cite:rijal-hawl-al-rasul-muqattam-1994 p.550} ويربط المؤلف سيرته بحديث «ساعة وساعة» الذي قال فيه النبي لأصحابه إنهم لو داموا على حالهم عنده لصافحتهم الملائكة. {cite:rijal-hawl-al-rasul-muqattam-1994 p.550} {cite:rijal-hawl-al-rasul-muqattam-1994 p.551}
+ويذكر أن عمر بن الخطاب أرسله إلى [[place/basra|البصرة]] ليفقّه أهلها، وأن [[person/al-hasan-al-basri|الحسن البصري]] و[[person/muhammad-ibn-sirin|ابن سيرين]] قالا: ما قدم البصرة من أصحاب رسول الله أحد يفضل عمران بن حصين. {cite:rijal-hawl-al-rasul-muqattam-1994 p.551} ولما وقع النزاع بين فريق علي وفريق معاوية دعا الناس إلى الكف عن القتال، وكان يقول إن رعي أعنز في رأس جبل حتى يدركه الموت أحب إليه من أن يرمي في أحد الفريقين بسهم، أخطأ أم أصاب، ويوصي: الزم مسجدك، فإن دُخل عليك فالزم بيتك. {cite:rijal-hawl-al-rasul-muqattam-1994 p.551} {cite:rijal-hawl-al-rasul-muqattam-1994 p.552} ويذكر أنه أصابه مرض موجع ثلاثين عاماً فما ضجر منه، وكان يقول: إن أحب الأشياء إلى نفسي أحبها إلى الله، وأوصى أهله: إذا رجعتم من دفني فانحروا وأطعموا. {cite:rijal-hawl-al-rasul-muqattam-1994 p.552}

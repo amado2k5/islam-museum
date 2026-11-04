@@ -1,0 +1,41 @@
+id: person/talha-ibn-tahir
+class: person
+label:
+  ar: طلحة بن طاهر الخزاعي
+  en: Talha ibn Tahir al-Khuza'i
+  ur: طلحہ بن طاہر خزاعی
+names:
+- value: طلحة بن طاهر بن الحسين الخزاعي
+  kind: full
+gender: male
+summary:
+  ar: طلحة بن طاهر بن الحسين الخزاعي، أمير خراسان وابن أميرها، ولاه المأمون العباسي عليها بعد وفاة أبيه طاهر سنة 207هـ فاستمر فيها إلى أن توفي، وكان جواداً عاقلاً، بحسب الزركلي {cite:alam-zirikli-1927-v2 p. 50}.
+  en: 'Talha ibn Tahir ibn al-Husayn al-Khuza''i, emir of Khurasan and son of its emir: the Abbasid caliph al-Ma''mun appointed him after his father Tahir died in 207 AH, and he held it until his death; generous and sensible, according to al-Zirikli.'
+  ur: 'طلحہ بن طاہر بن الحسین خزاعی، خراسان کے امیر اور اس کے امیر کے بیٹے: عباسی خلیفہ مامون نے انہیں ان کے والد طاہر کی 207ھ میں وفات کے بعد مقرر کیا، اور وہ وفات تک اس پر رہے؛ زرکلی کے مطابق سخی اور عقل مند تھے۔'
+roles:
+- emir
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- persia-central-asia
+relations:
+- type: child_of
+  target: person/tahir-ibn-al-husayn
+  sources: &id001
+  - source/alam-zirikli-1927-v2
+- type: ruler_of
+  target: place/khurasan
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: alam-zirikli-1927-v2 PDF p. 50
+  generated_by: Claude Code (OCR-harvest worker L)
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Code (OCR-harvest worker L)

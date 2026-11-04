@@ -8,7 +8,7 @@ translators: []
 يذكر البلاذري أن زياد بن أبي سفيان ولّى [[person/al-rabi-ibn-ziyad-al-harithi|الربيع بن زياد الحارثي]] خراسان سنة 51هـ، وحوّل معه من أهل المصرين نحو خمسين ألفاً بعيالاتهم. وأسكنهم دون النهر. {cite:futuh-buldan-maarif-1407}
 
 ## المنقولون
-كان فيهم [[person/burayda-ibn-al-husayb|بريدة بن الحصيب الأسلمي]] وقد توفي بمرو في أيام يزيد بن معاوية. وكان فيهم أيضاً [[person/abu-barza-al-aslami|أبو برزة الأسلمي]] ومات بمرو. {cite:futuh-buldan-maarif-1407}
+كان فيهم [[person/buraydah-ibn-al-husayb|بريدة بن الحصيب الأسلمي]] وقد توفي بمرو في أيام يزيد بن معاوية. وكان فيهم أيضاً [[person/abu-barza-al-aslami|أبو برزة الأسلمي]] ومات بمرو. {cite:futuh-buldan-maarif-1407}
 
 يقول المصدر إن الربيع أول من أمر الجند بالتناهد. {cite:futuh-buldan-maarif-1407}
 

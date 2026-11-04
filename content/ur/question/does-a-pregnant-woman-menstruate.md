@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Opus 5.5 (claude-opus-5-5)"]
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 71-72; translated from the Arabic page" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 71-72; translated from the Arabic page", enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: Zahiri perspective and section from muhalla-dar-ibn-hazm-2016-v3 PDF p. 234" }
 ---
 ## موجز
 «[[work/bidayat-al-mujtahid|بدایۃ المجتہد]]» کی کتاب الغسل میں [[person/ibn-rushd|ابن رشد]] حاملہ کو نظر آنے والے خون کا مسئلہ لاتے ہیں اور کہتے ہیں کہ فقہا «پہلے بھی اور بعد میں بھی» اس میں مختلف رہے کہ یہ [[concept/hayd-menstruation|حیض]] ہے یا استحاضہ۔ {cite:bidaya-bakri-bayt-al-afkar p. 71}
@@ -20,6 +20,10 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## سببِ اختلاف اور ابن رشد کا طب سے استفادہ
 ابن رشد اختلاف کو اس طرف لوٹاتے ہیں کہ تجربے سے اس کی تعیین مشکل ہے اور دونوں صورتیں خلط ہو جاتی ہیں: حاملہ کا خون کبھی حیض کا ہوتا ہے جب اس کی قوت وافر اور جنین چھوٹا ہو — اور اسی سے حمل پر حمل ممکن ہوتا ہے، جیسا کہ بقراط، جالینوس اور دوسرے اطبا نے بیان کیا — اور کبھی جنین کی کمزوری اور بیماری کا خون جو ماں کی کمزوری اور بیماری کے تابع ہو، اور زیادہ تر یہی ہوتا ہے۔ {cite:bidaya-bakri-bayt-al-afkar p. 71} {cite:bidaya-bakri-bayt-al-afkar p. 72} بیت الافکار ایڈیشن کے محقق اس مقام کو ابن رشد کے فقہ میں طب سے استفادے کی مثال بتاتے ہیں۔ {cite:bidaya-bakri-bayt-al-afkar p. 15}
+
+## «المحلی» میں ابن حزم ظاہری کی رائے
+
+[[work/al-muhalla-ibn-hazm|المحلی]] کی کتاب الحیض والاستحاضہ میں [[person/ibn-hazm|ابن حزم]] طے کرتے ہیں کہ حاملہ اپنے پیٹ کا آخری بچہ جننے سے پہلے جو خون بھی دیکھے وہ نہ حیض ہے نہ نفاس، اور کسی چیز سے نہیں روکتا؛ اس کے حیض نہ ہونے کی دلیل کے لیے وہ کتاب الطہارۃ کا حوالہ دیتے ہیں، اور کہتے ہیں کہ یہ نفاس اس لیے نہیں کہ اس نے ابھی حمل نہیں جنا، اور اس کے حیض یا نفاس ہونے پر اجماع نہیں۔ {cite:muhalla-dar-ibn-hazm-2016-v3 p.234} اس سے وہ نتیجہ نکالتے ہیں کہ نماز، روزہ اور جماع کی اباحت، جن کا وجوب یا اباحت ثابت ہے، کسی ثابت نص کے بغیر اس سے ساقط نہیں ہوتے۔ {cite:muhalla-dar-ibn-hazm-2016-v3 p.234} محققین حاشیے میں لکھتے ہیں کہ یہی ابو حنیفہ اور ان کے اصحاب، احمد اور اسحاق بن راہویہ کا قول اور شافعی کا قدیم قول ہے؛ مالک نے حمل کے شروع اور آخر کے خون میں فرق کیا؛ اور شافعی کا جدید قول، جو ان کے مذہب میں معتمد ہے، یہ ہے کہ یہ حیض ہے۔ {cite:muhalla-dar-ibn-hazm-2016-v3 p.234}
 
 ## جو یہاں ذکر نہیں ہوا
 ہر مذہب کے دلائل اس کی کتب سے اور جدید طبی رائے یہاں نہیں دی گئی؛ صفحہ صرف ابن رشد کے بیان تک محدود ہے۔

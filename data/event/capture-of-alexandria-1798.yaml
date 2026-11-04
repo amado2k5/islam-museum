@@ -1,23 +1,33 @@
 id: event/capture-of-alexandria-1798
 class: event
-kind: battle
-label: { ar: "أخذ الإسكندرية (١٧٩٨)", en: "Capture of Alexandria" }
+kind: conquest
+label: { ar: "دخول الفرنسيس الإسكندرية (محرم 1213هـ / تموز 1798م)", en: "The French take Alexandria (Muharram 1213 / July 1798)", ur: "فرانسیسیوں کا اسکندریہ پر قبضہ (محرم 1213ھ / جولائی 1798ء)" }
 summary:
-  ar: "بطاقة أولية لأخذ الإسكندرية سنة ١٧٩٨م، إنزال نابليون في حملة مصر؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the 1798 capture of Alexandria, Napoleon's landing in the Egyptian campaign; its sources are not yet checked on the page."
-wings: [time]
+  ar: "نزول الفرنسيس على ثغر الإسكندرية في أول الحملة الفرنسية على مصر، كما يرويه الجبرتي: جاءت مراكب الإنكليز قبلهم بعشرة أيام تحذّر أهل الثغر فردّهم السيد محمد كريّم، ثم وردت عمارة الفرنسيس يوم الاثنين ثامن عشر المحرم سنة 1213هـ فنزلوا ليلاً بجهة العجمي، وأصبحوا حول البلد «كالجراد المنتشر»، فانهزم كاشف البحيرة والعربان وقاتل أهل الثغر من البيوت حتى طلبوا الأمان، فرفع الفرنسيس أعلامهم وألزموا الأعيان بجمع السلاح ووضع «الجوكار» ذي الألوان الثلاثة على صدورهم {cite:ajaib-al-athar-moreh-v3 p. 33-34}."
+  en: "The French landing at Alexandria at the start of the French campaign in Egypt, as al-Jabarti tells it: an English squadron came ten days earlier to warn the port and was rebuffed by al-Sayyid Muhammad Kurayyim; the French fleet arrived on Monday 18 Muharram 1213, landed by night near al-Ajami and by morning surrounded the town 'like swarming locusts'. The governor of al-Buhayra and the Bedouin fled, the townsmen fought from their houses until they asked for safe-conduct, and the French raised their flags and made the notables collect weapons and wear the three-coloured cockade {cite:ajaib-al-athar-moreh-v3 p. 33-34}."
+wings: [time, place]
+themes: [colonial-wars-and-resistance, cities, seafaring-and-ports]
 periods: [period/colonial-era]
 regions: [egypt-nile]
+sides:
+  - label: { ar: "الفرنسيس (عمارة بونابرت)", en: "The French (Bonaparte's fleet)", ur: "فرانسیسی (بوناپارٹ کا بیڑا)" }
+    commanders: [person/napoleon-bonaparte]
+  - label: { ar: "أهل ثغر الإسكندرية وكاشف البحيرة والعربان", en: "The people of Alexandria, the governor of al-Buhayra and the Bedouin", ur: "اسکندریہ کے باشندے، بحیرہ کا کاشف اور عرب قبائل" }
+    participants: [group/arabs]
+    commanders: [person/muhammad-kurayyim]
 date:
-  start: { edtf: "1798", precision: year, status: tradition, derived: true }
-  end: { edtf: "1798", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+  start: { edtf: "1798-07-02", hijri: "1213-01-18", calendar: gregorian, precision: day, status: historical, note: "«في يوم الاثنين ثامن عشره [٢ تموز، ١٧٩٨] وردت مراكب وعمارات للفرنسيس» ثم نزلوا ليلاً وأصبحوا حول البلد (عجائب الآثار 3، مسح ص33-34)؛ التاريخ الميلادي بين قوسين للمحقق.", sources: [source/ajaib-al-athar-moreh-v3] }
+relations:
+  - { type: occurred_at, target: place/alexandria, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/muhammad-kurayyim, role: "رئيس الثغر", sources: [source/ajaib-al-athar-moreh-v3] }
+sources: [source/ajaib-al-athar-moreh-v3]
 external_ids:
   wikidata: Q3403790
 provenance:
   layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/ajaib-al-athar-moreh-v3 scan pp. 33-35"
+  generated_by: "Claude Code (OCR-harvest worker J); earlier card by Devin (SWE-2 High)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

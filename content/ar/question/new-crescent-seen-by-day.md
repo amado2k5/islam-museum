@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 status:
   review: published
-provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 326-327" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "bidaya-bakri-bayt-al-afkar pp. 326-327", enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: Zahiri perspective and section from muhalla-dar-ibn-hazm-2016-v6 PDF pp. 294-295" }
 ---
 ## موجز
 يذكر [[person/ibn-rushd|ابن رشد]] في كتاب الصيام من «[[work/bidayat-al-mujtahid|بداية المجتهد]]» اختلاف الفقهاء في اعتبار وقت رؤية الهلال: فقد اتفقوا على أنه إذا رُئي من العشي فالشهر من اليوم الثاني، واختلفوا إذا رُئي أول ما رُئي في سائر أوقات النهار. {cite:bidaya-bakri-bayt-al-afkar p. 326}
@@ -22,6 +22,12 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## مسألة مجاورة: إذا غُمّ الهلال
 قبل ذلك يحكي ابن رشد أن الجمهور فسروا قوله «فإن غُمّ عليكم فاقدروا له» بإكمال العدة ثلاثين لحديث ابن عباس المفسِّر، وأن من السلف من رأى الرجوع إلى الحساب بمسير القمر والشمس، وهو مذهب [[person/mutarrif-ibn-al-shikhkhir|مطرف بن الشخير]]، وحكى [[person/ahmad-ibn-umar-ibn-surayj|ابن سريج]] عن الشافعي أن من كان مذهبه الاستدلال بالنجوم ومنازل القمر ثم تبين له أن الهلال مرئي وقد غم فله أن يعقد الصوم ويجزيه؛ وذهب [[person/abdullah-ibn-umar|ابن عمر]] إلى صيام يوم الشك. {cite:bidaya-bakri-bayt-al-afkar p. 326} ويرى ابن رشد أن مذهب الجمهور في هذا «لائح» لأن المجمل يُحمل على المفسر. {cite:bidaya-bakri-bayt-al-afkar p. 326}
+
+## رأي ابن حزم الظاهري في «المحلى»
+
+في كتاب الصيام من [[work/al-muhalla-ibn-hazm|المحلى]] يقول [[person/ibn-hazm|ابن حزم]] إن الهلال إذا رئي قبل الزوال فهو من البارحة، فيصوم الناس من حينئذ باقي يومهم إن كان أول رمضان، ويفطرون إن كان آخره، وإن رئي بعد الزوال فهو لليلة المقبلة. {cite:muhalla-dar-ibn-hazm-2016-v6 p.294} وبرهانه عنده قول النبي «صوموا لرؤيته وأفطروا لرؤيته»: خرج من ظاهره ما رئي بعد الزوال بالإجماع المتيقن فلم يجب الصوم إلا من الغد، وبقي ما رئي قبل الزوال على لفظ الحديث لوقوع الخلاف فيه، فوجب الرجوع إلى النص؛ ويضيف أن الناظر إذا رأى الهلال قبل الزوال فإنما يراه والشمس بينه وبينه، ولا يمكن ذلك إلا وقد أهل من البارحة وبعد عنها بعداً كثيراً. {cite:muhalla-dar-ibn-hazm-2016-v6 p.294}
+
+ويروي عن [[person/ibrahim-al-nakhai|إبراهيم النخعي]] أن [[person/umar-ibn-al-khattab|عمر بن الخطاب]] كتب إلى الناس: إذا رأيتموه قبل زوال الشمس فأفطروا، وإذا رأيتموه بعد زوالها فلا تفطروا، وأن [[person/sufyan-al-thawri|سفيان الثوري]] قال به؛ وعن [[person/ali-ibn-abi-talib|علي]] نحوه معللاً بأن الشمس تزيغ عنه؛ وعن الربيع أنه رأى الهلال ضحى مع [[person/salman-ibn-rabi-a|سلمان بن ربيعة الباهلي]] ببلنجر فأمر سلمان الناس فأفطروا. {cite:muhalla-dar-ibn-hazm-2016-v6 p.294} {cite:muhalla-dar-ibn-hazm-2016-v6 p.295} ويذكر أن به يقول [[person/abd-al-malik-ibn-habib|عبد الملك بن حبيب الأندلسي]] و[[person/muhammad-ibn-dawud-al-zahiri|أبو بكر بن داود]]، ويجيب عمن احتج بأنه روي عن عمر خلاف هذا بأن التنازع إذا صح وجب الرد إلى القرآن والسنة. {cite:muhalla-dar-ibn-hazm-2016-v6 p.295}
 
 ## ما لم يُذكر هنا
 لم تُذكر هنا آراء الفلك الحديث ولا الحساب الفلكي المعاصر في الرؤية؛ فالصفحة مقصورة على ما يحكيه ابن رشد.

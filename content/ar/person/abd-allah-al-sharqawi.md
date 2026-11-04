@@ -3,6 +3,13 @@ id: person/abd-allah-al-sharqawi
 lang: ar
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/minah-qudsiyya-sharqawi-ilmiyya pp. 2, 176; source/hikam-ibn-abbad-haykal-ahram-1988 p. 36"
 ---
 ## موجز
 عبد الله الشرقاوي (1150–1227 هـ / 1737–1812 م)، واسمه الكامل عبد الله بن حجازي بن إبراهيم الشرقاوي، عالم أزهري مصري تولى مشيخة الأزهر سنة 1208 هـ بعد وفاة الشيخ أحمد العروسي وبقي فيها حتى وفاته. كان شيخ علماء الشافعية ومفتيهم في عصره، وشيخاً للطريقة الخلوتية، فجمع بين الفقه والتصوف والزعامة الشعبية في مرحلة مضطربة من تاريخ مصر. {cite:wikipedia-abd-allah-al-sharqawi-ar} {cite:wikipedia-abd-allah-al-sharqawi-en}
@@ -21,3 +28,6 @@ translators: []
 
 ## وفاته وآثاره
 توفي بالقاهرة يوم الخميس 2 شوال 1227 هـ (1812 م) كما ينقل الجبرتي، ودُفن في القبر الذي بناه لنفسه بجوار المسجد الذي أقامه على أرض الوقف الخربة في قرافة الصحراء. ومن آثاره «التحفة البهية في طبقات الشافعية» و«حاشية على شرح التحرير» في الفقه الشافعي، وحاشيته على تحرير تنقيح اللباب التي يذكرها مترجموه ضمن مصنفاته الفقهية. وتفقه عليه تلاميذ منهم محمد الدواخلي، الذي أخذ عنه فقه مذهبه. {cite:wikipedia-abd-allah-al-sharqawi-ar} {cite:alsufi-abd-allah-al-sharqawi}
+
+## شرحه على الحكم العطائية
+للشرقاوي شرح على [[work/hikam-al-ataiyya|الحكم العطائية]] سماه [[work/al-minah-al-qudsiyya|المنح القدسية]]، يسمي نفسه في أوله «عبد الله بن حجازي الخلوتي المشهور بالشرقاوي»، ويذكر في آخره أنه أتمه يوم السبت 13 شوال 1204هـ. {cite:minah-qudsiyya-sharqawi-ilmiyya p. 2} {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176} ويقول محمد عبد المقصود هيكل إنه يكاد يكون تلخيصاً لشرح ابن عباد الرندي. {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}

@@ -3,27 +3,36 @@ class: person
 label:
   ar: "حفصة بنت سيرين"
   en: "Hafsa bint Sirin"
-roles: [muhaddith]
-gender: male
+  ur: "حفصہ بنت سیرین"
+roles: [scholar, mystic]
+gender: female
 summary:
-  ar: "بطاقة أولية لحفصة بنت سيرين، التابعية البصرية المحدثة أخت محمد بن سيرين؛ لم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Hafsa bint Sirin, the Basran successor and hadith transmitter, sister of Muhammad ibn Sirin; her entry is not yet checked on the page."
+  ar: "حفصة بنت سيرين، أم الهذيل، تابعية عابدة من البصرة وأخت محمد بن سيرين؛ يذكر ابن الجوزي في «صفة الصفوة» أنها قرأت القرآن وهي ابنة اثنتي عشرة سنة وماتت ابنة تسعين، ومكثت في مصلاها ثلاثين سنة، وكان أخوها يحيل إليها في وجوه القراءة."
+  en: "Hafsa bint Sirin, Umm al-Hudhayl, a Successor and ascetic of Basra and sister of Muhammad ibn Sirin; Ibn al-Jawzi's Sifat al-Safwa says she had read the Qur'an by twelve and died at ninety, kept to her prayer room for thirty years, and that her brother sent questions on Qur'anic readings to her."
+  ur: "حفصہ بنت سیرین، ام الہذیل، بصرہ کی ایک تابعی عابدہ اور محمد بن سیرین کی بہن؛ ابن الجوزی کی «صفۃ الصفوہ» کے مطابق انہوں نے بارہ سال کی عمر میں قرآن پڑھ لیا اور نوے سال کی عمر میں وفات پائی، تیس سال اپنی جائے نماز میں رہیں، اور ان کے بھائی قراءت کے مسائل ان کے پاس بھیجتے تھے۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+themes: [women, spirituality-and-sufism]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: sibling_of, target: person/muhammad-ibn-sirin, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: lived_in, target: place/basra, sources: [source/sifat-al-safwa-tartusi-2012] }
 died: { edtf: "0719~", precision: decade, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/sifat-al-safwa-tartusi-2012]
 external_ids:
   wikidata: Q12208416
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.706–707"
+  generated_by: "Claude Code (OCR-harvest worker E)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  note: "card first created by Devin (SWE-2 High), wikidata-import-wave2; gender corrected and prose written by worker E"
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

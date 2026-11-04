@@ -1,0 +1,24 @@
+id: person/abu-ali-al-hasan-al-marrakushi
+class: person
+label: { ar: "أبو علي الحسن بن عمر المراكشي", en: "Abu Ali al-Hasan ibn Umar al-Marrakushi", ur: "ابو علی الحسن بن عمر المراکشی" }
+summary:
+  ar: "فلكي ورياضي وجغرافي مغربي من القرن السابع الهجري، صاحب «جامع المبادئ والغايات»، اشتهر بعمل المزاول الشمسية {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}."
+  en: "Moroccan astronomer, mathematician and geographer of the seventh century AH, author of Jami' al-mabadi' wal-ghayat, known for sundial construction {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}."
+  ur: "ساتویں صدی ہجری کے مغربی ماہرِ فلکیات، ریاضی دان اور جغرافیہ دان، «جامع المبادی والغایات» کے مصنف، دھوپ گھڑیوں کی تیاری کے لیے مشہور {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}۔"
+wings: [people]
+themes: [astronomy-and-timekeeping]
+regions: [maghreb]
+gender: male
+roles: [scholar]
+periods: [period/crusades-ayyubid-mamluk]
+floruit: { edtf: "1261", hijri: "0660", calendar: julian, precision: year, status: tradition, note: "Date printed with his name in the Azhar catalogue {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+relations:
+  - { type: authored, target: work/jami-al-mabadi-wal-ghayat, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
+provenance:
+  layer: own-research
+  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 16"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

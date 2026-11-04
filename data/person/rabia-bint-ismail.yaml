@@ -1,0 +1,22 @@
+id: person/rabia-bint-ismail
+class: person
+label: { ar: "رابعة بنت إسماعيل", en: "Rabi'a bint Isma'il", ur: "رابعہ بنت اسماعیل" }
+gender: female
+roles: [mystic]
+summary:
+  ar: "رابعة بنت إسماعيل عابدة من أهل الشام، زوجة أحمد بن أبي الحواري؛ يميزها ابن الجوزي في «صفة الصفوة» من رابعة العدوية البصرية، ويروي عن زوجها أحوالها في الحب والأنس والخوف."
+  en: "Rabi'a bint Isma'il, a devout woman of Syria and wife of Ahmad ibn Abi al-Hawari; Ibn al-Jawzi in Sifat al-Safwa distinguishes her from the Basran Rabi'a al-Adawiyya and relates from her husband her states of love, intimacy and fear."
+  ur: "رابعہ بنت اسماعیل، شام کی ایک عابدہ اور احمد بن ابی الحواری کی اہلیہ؛ ابن الجوزی «صفۃ الصفوہ» میں انہیں بصرہ کی رابعہ العدویہ سے الگ کرتے ہیں اور ان کے شوہر سے ان کی محبت، انس اور خوف کی کیفیات نقل کرتے ہیں۔"
+died: { edtf: "0843/0844", hijri: "0229", calendar: julian, precision: year, status: tradition, derived: true, note: "يحيل محقق صفة الصفوة في ترجمتها إلى المنتظم لابن الجوزي تحت سنة 229هـ {cite:sifat-al-safwa-tartusi-2012 p.858}.", sources: [source/sifat-al-safwa-tartusi-2012] }
+wings: [people]
+themes: [women, spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/sifat-al-safwa-tartusi-2012] }
+  - { type: spouse_of, target: person/ahmad-ibn-abi-al-hawari, sources: [source/sifat-al-safwa-tartusi-2012] }
+provenance: { layer: own-research, source: "صفة الصفوة لابن الجوزي، تحقيق خالد طرطوسي (دار الكتاب العربي 2012) p.858–860", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sifat-al-safwa-tartusi-2012]
+status: { review: published, completeness: 3 }

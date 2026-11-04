@@ -1,0 +1,36 @@
+id: event/assassination-of-kleber-1215
+class: event
+kind: other
+label: { ar: "قتل كليبر صاري عسكر الفرنسيس ومحاكمة سليمان الحلبي (محرم 1215هـ / حزيران 1800م)", en: "The killing of General Kléber and the trial of Sulayman al-Halabi (Muharram 1215 / June 1800)", ur: "فرانسیسی سپہ سالار کلیبر کا قتل اور سلیمان حلبی پر مقدمہ (محرم 1215ھ / جون 1800ء)" }
+summary:
+  ar: "في يوم السبت الحادي والعشرين من المحرم سنة 1215هـ طعن سليمان الحلبي، وهو شاب من أهل حلب كان يأوي إلى الجامع الأزهر، كليبرَ صاري عسكر الفرنساوية بخنجر في بستان داره بالأزبكية فقتله، وجرح المهندس الذي معه؛ فعقد الفرنسيس محكمة حكمت بحرق يده اليمنى وتخزيقه، وبقطع رؤوس ثلاثة من قرّاء الأزهر الغزّيين أخبرهم بعزمه، وأطلقت مصطفى أفندي البرصلي، ونُفّذ ذلك عند تل العقارب يوم جنازة كليبر، وقد نقل الجبرتي أوراق المحاكمة بلفظها {cite:ajaib-al-athar-moreh-v3 p. 169-172} {cite:ajaib-al-athar-moreh-v3 p. 188-191}."
+  en: "On Saturday 21 Muharram 1215 AH Sulayman al-Halabi, a young man from Aleppo who lodged at al-Azhar, stabbed General Kléber, commander of the French, in the garden of his house at al-Azbakiyya, killing him and wounding the engineer with him. The French convened a court that sentenced him to have his right hand burned and to be impaled, and three Gazan Qur'an reciters of al-Azhar whom he had told of his plan to be beheaded, while Mustafa Efendi al-Bursali was acquitted; the sentences were carried out at Tell al-Aqarib on the day of Kléber's funeral. Al-Jabarti copied the trial papers word for word {cite:ajaib-al-athar-moreh-v3 p. 169-172} {cite:ajaib-al-athar-moreh-v3 p. 188-191}."
+wings: [time, people]
+themes: [colonial-wars-and-resistance, law-and-courts, crime-and-punishment]
+sensitivity: violence
+periods: [period/colonial-era]
+regions: [egypt-nile]
+sides:
+  - label: { ar: "سليمان الحلبي ومن أخبرهم بعزمه", en: "Sulayman al-Halabi and those he told of his plan", ur: "سلیمان حلبی اور وہ جنہیں اس نے اپنے ارادے سے آگاہ کیا" }
+    commanders: [person/sulayman-al-halabi]
+  - label: { ar: "الفرنساوية بمصر", en: "The French in Egypt", ur: "مصر میں فرانسیسی" }
+    commanders: [person/jean-baptiste-kleber, person/jacques-abdallah-menou]
+date:
+  start: { edtf: "1800-06-14", hijri: "1215-01-21", calendar: gregorian, precision: day, status: historical, note: "«وفى حادى عشرينه [١٤ حزيران، ١٨٠٠]... وفى ذلك اليوم اعنى يوم السبت وقعت نادره غريبه» (عجائب الآثار 3، مسح ص169)، ويوافقه «الخامس وعشرين من شهر برريال من السنة الثامنة» في أوراق المحاكمة (مسح ص171)؛ التاريخ الميلادي بين قوسين للمحقق.", sources: [source/ajaib-al-athar-moreh-v3] }
+  end: { edtf: "1800-06-17/1800-06-18", hijri: "1215-01-25", calendar: gregorian, precision: day, status: debated, note: "تنفيذ الحكم «في ثمانية وعشرين من شهر برريال... قبل نصف النهار بساعة» في أوراق المحاكمة (مسح ص188)، وعند الجبرتي يوم الجنازة صبيحة «ليلة الثلاث خامس عشرين المحرم [١٨ حزيران، ١٨٠٠]» (مسح ص191). 28 برريال من السنة الثامنة يوافق 17 حزيران 1800 بحساب التقويم الجمهوري، وهو تحويل مشتق.", sources: [source/ajaib-al-athar-moreh-v3] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/sulayman-al-halabi, role: "القاتل", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/jean-baptiste-kleber, role: "المقتول", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/jacques-abdallah-menou, role: "خليفته الآمر بالمحكمة", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: had_participant, target: person/abd-allah-al-sharqawi, role: "المكلّف بإحضار المتهمين من الأزهر", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: related_to, target: building/al-azhar, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
+sources: [source/ajaib-al-athar-moreh-v3]
+provenance:
+  layer: own-research
+  source: "source/ajaib-al-athar-moreh-v3 scan pp. 169-172, 188-192"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

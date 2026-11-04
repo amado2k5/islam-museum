@@ -3,6 +3,13 @@ id: person/abd-allah-al-sharqawi
 lang: ur
 source_lang: ar
 translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/minah-qudsiyya-sharqawi-ilmiyya pp. 2, 176; source/hikam-ibn-abbad-haykal-ahram-1988 p. 36"
 ---
 ## تعارف
 عبد اللہ الشرقاوی (1737–1812)، پورا نام عبد اللہ بن حجازی بن ابراہیم الشرقاوی، مصری عالم تھے جو 1208ھ میں شیخ احمد العروسی کی وفات کے بعد جامعہ ازہر کے شیخ بنے اور وفات تک اس منصب پر رہے۔ وہ اپنے دور میں مصر کے سب سے بڑے شافعی عالم اور مفتی تھے اور سلسلۂ خلوتیہ کے شیخ بھی تھے، یوں فقہ، تصوف اور عوامی قیادت ان کی شخصیت میں جمع تھیں۔ {cite:wikipedia-abd-allah-al-sharqawi-ar} {cite:wikipedia-abd-allah-al-sharqawi-en}
@@ -21,3 +28,6 @@ translators: []
 
 ## وفات اور تصانیف
 الجبرتی کے بیان کے مطابق ان کا انتقال قاہرہ میں جمعرات 2 شوال 1227ھ (1812) کو ہوا، اور انہیں اسی مقبرے میں دفن کیا گیا جو انہوں نے صحرائی قبرستان میں خستہ حال وقف زمین پر اپنے بنوائے ہوئے مسجد کے پہلو میں اپنے لیے تعمیر کرایا تھا۔ ان کی تصانیف میں «التحفۃ البہیۃ فی طبقات الشافعیۃ» اور فقہ شافعی میں «شرح التحریر» پر حاشیہ شامل ہیں، اور «تحریر تنقیح اللباب» پر ان کا حاشیہ بھی ان کے سوانح نگار ان کی فقہی تصانیف میں گنتے ہیں۔ ان کے شاگردوں میں محمد الدواخلی تھے، جنہوں نے انہی سے ان کے مذہب کی فقہ حاصل کی۔ {cite:wikipedia-abd-allah-al-sharqawi-ar} {cite:alsufi-abd-allah-al-sharqawi}
+
+## الحکم العطائیہ پر ان کی شرح
+شرقاوی نے [[work/hikam-al-ataiyya|الحکم العطائیہ]] پر [[work/al-minah-al-qudsiyya|المنح القدسیہ]] کے نام سے شرح لکھی، جس کے آغاز میں اپنا نام «عبد اللہ بن حجازی خلوتی المشہور بالشرقاوی» لکھتے ہیں اور آخر میں بتاتے ہیں کہ انہوں نے اسے ہفتہ 13 شوال 1204ھ کو مکمل کیا۔ {cite:minah-qudsiyya-sharqawi-ilmiyya p. 2} {cite:minah-qudsiyya-sharqawi-ilmiyya p. 176} محمد عبد المقصود ہیکل کہتے ہیں کہ یہ تقریباً ابن عباد رندی کی شرح کا خلاصہ ہے۔ {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}

@@ -1,22 +1,26 @@
 id: event/jerusalem-walls-demolished-616
 class: event
 kind: other
-label: { ar: "هدم سور بيت المقدس سنة 616", en: "Demolition of the walls of Jerusalem, 616" }
+label: { ar: "هدم سور بيت المقدس سنة 616", en: "Demolition of the walls of Jerusalem, 616", ur: "616ھ میں بیت المقدس کی فصیل کا انہدام" }
 summary:
   ar: "في أول سنة ست عشرة وستمائة خرَّب الملك المعظم سور بيت المقدس خوفاً وعجزاً من الفرنج أن تملكه، فشرعوا في هدم السور في أول يوم من المحرم وضج الناس وخرج النساء المخدرات والبنات والشيوخ والعجائز والشباب إلى الصخرة والأقصى فقطعوا شعورهم وخرجوا هاربين وتركوا أموالهم، وما شكوا أن الفرنج يصبحوهم فهرب بعضهم إلى مصر وبعضهم إلى الكرك وبعضهم إلى دمشق ومات خلق من الجوع والعطش ونهبت الأموال التي كانت لهم بالقدس وأبيع القنطار الزيت بعشرة دراهم، وذم الناس الملك المعظم {cite:shadharat-dhahab p. 65-66}."
   en: "At the start of 616 al-Malik al-Mu'azzam had the walls of Jerusalem destroyed, out of fear and helplessness lest the Franks take it. Work on the wall began on the first day of Muharram. The people cried out; secluded women, girls, old men and women, and young men went out to the Sakhra and al-Aqsa, cut their hair, and fled, leaving their property behind, sure that the Franks would reach them by morning. Some fled to Egypt, some to al-Karak, some to Damascus; multitudes died of hunger and thirst; the wealth they had in Jerusalem was plundered; and a qintar of oil was sold for ten dirhams. The people blamed al-Malik al-Mu'azzam {cite:shadharat-dhahab p. 65-66}."
-wings: [time]
+wings: [time, place]
+themes: [crusades, cities, sacred-space-and-pilgrimage]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
-  start: { edtf: "1219-03~", hijri: "0616-01", calendar: julian, precision: month, status: tradition, derived: true, note: "أول يوم من المحرم 616هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 65}." }
+  start: { edtf: "1219-03-18", hijri: "0616-01-01", calendar: julian, precision: day, status: historical, derived: true, note: "«فشرعوا في السُّور أَوَّل يوم من المحرَّم» سنة 616هـ عند سبط ابن الجوزي (مرآة الزمان 22/236)، وكذلك في شذرات الذهب ص65؛ التحويل الميلادي مشتق تقريبي.", sources: [source/mirat-al-zaman-risala-2013-v22, source/shadharat-dhahab] }
 relations:
   - { type: occurred_at, target: place/jerusalem, sources: [source/shadharat-dhahab] }
-  - { type: had_participant, target: person/al-malik-al-muazzam, role: "الآمر بالهدم", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-muazzam, role: "الآمر بالهدم", sources: [source/shadharat-dhahab, source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/al-malik-al-aziz-banias, role: "المقيم بالقدس", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/mirat-al-zaman-risala-2013-v22] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-123
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "شذرات الذهب لابن العماد ج5 ص65-66؛ source/mirat-al-zaman-risala-2013-v22 scan pp. 236-237"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: "lib-shadharat-batch-123; ocr-harvest-2026-11-04"
+sources: [source/shadharat-dhahab, source/mirat-al-zaman-risala-2013-v22]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

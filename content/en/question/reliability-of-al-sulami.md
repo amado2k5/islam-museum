@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/tabaqat-sufiyya-sulami-khanji-1986 pp. 44-47"
+  source: "source/tabaqat-sufiyya-sulami-khanji-1986 pp. 44-47; source/talbis-iblis-muniriyya-1928 p. 168"
 ---
 ## Summary
 The question of [[person/al-sulami|Abu 'Abd al-Rahman al-Sulami]]'s standing in hadith, as the editor of [[work/tabaqat-al-sufiyya-sulami|Tabaqat al-Sufiyya]], Nur al-Din Shurayba, gathers the views in his introduction. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 44} All the views are those of Sunni scholars; the museum presents them without choosing between them.
@@ -25,3 +25,6 @@ The editor quotes [[person/al-dhahabi|al-Dhahabi]] that al-Sulami put questions 
 
 ## The editor's arguments
 The editor takes up al-Qattan's three charges: al-Asamm died in Nishapur in 346 AH when al-Sulami was twenty-one, and al-Sulami had begun writing from al-Sibghi in 333 AH at the age of eight, so how could he have heard little from al-Asamm? Why would he wait for Ibn al-Bayyi''s death in 405 AH to narrate, and why did no contemporary but al-Qattan accuse him? He concludes it was "a matter of envy". {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 45} The charge of fabricating for the Sufis, and some contemporary researchers' suggestion that he may have put Sufi sayings into the masters' mouths, he calls exaggerated: his books, he says, contain sound, fair, weak and fabricated hadith, like those of others who wrote on hadith without devoting themselves to it. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 46} He then quotes Abu Nu'aym's praise of him as one fully devoted to grounding and refining the Sufi way as the early generations had set it out, and al-Hakim's words: "If Abu 'Abd al-Rahman is not one of the substitutes (abdal), God has no saint on earth." {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 46} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 47}
+
+## The report in Talbis Iblis
+[[person/ibn-al-jawzi|Ibn al-Jawzi]] quotes al-Qattan's same words in [[work/talbis-iblis|Talbis Iblis]] with his chain through Abu Mansur al-Qazzaz from al-Khatib, in the course of his critique of al-Sulami's [[work/haqaiq-al-tafsir|Haqa'iq al-Tafsir]], in which, he says, al-Sulami interpreted the Qur'an by what occurred to the Sufis without grounding it in any principle of learning; Ibn al-Jawzi does not quote there the reply of al-Khatib that the editor of the Tabaqat reports. {cite:talbis-iblis-muniriyya-1928 p. 168} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 45}

@@ -1,0 +1,26 @@
+id: person/shams-al-din-al-mizzi-al-miqati
+class: person
+label: { ar: "شمس الدين محمد بن أحمد المزي الميقاتي", en: "Shams al-Din Muhammad ibn Ahmad al-Mizzi, timekeeper", ur: "شمس الدین محمد بن احمد المزی المیقاتی" }
+summary:
+  ar: "فلكي دمشقي (690–750هـ)، ميقاتي بالجامع الأموي، اشتهر بصنع غرائب الأسطرلابات حتى بيع أسطرلابه بعشرة دنانير، وتوجد مزولة بتوقيعه في المتحف البريطاني {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 21}."
+  en: "Damascene astronomer (690–750 AH), timekeeper at the Umayyad Mosque, famed for unusual astrolabes, one of which sold for ten dinars; a sundial signed by him is in the British Museum {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 21}."
+  ur: "دمشقی ماہرِ فلکیات (690–750ھ)، جامع اموی کے میقاتی، عجیب و غریب اسطرلاب بنانے میں مشہور، یہاں تک کہ ان کا اسطرلاب دس دینار میں بکتا؛ ان کے دستخط والی ایک دھوپ گھڑی برٹش میوزیم میں ہے {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 21}۔"
+wings: [people]
+themes: [astronomy-and-timekeeping]
+regions: [levant-iraq]
+gender: male
+roles: [scholar]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1291", hijri: "0690", calendar: julian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+died: { edtf: "1349", hijri: "0750", calendar: julian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+relations:
+  - { type: authored, target: work/risalat-al-mizzi-fi-al-asturlab, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+  - { type: lived_in, target: place/damascus, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
+provenance:
+  layer: own-research
+  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 20"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

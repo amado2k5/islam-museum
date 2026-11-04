@@ -48,3 +48,12 @@ Read: Shamela pp. 1936–1945 (al-Hilli's first Qur'anic proof, the verse of wil
 
 ## Next
 The hadith of the rank of Aaron (~2119), Fadak as gift (1148–1160), Khalid and Malik ibn Nuwayra (1323), the eternity-of-the-world digression (105–275).
+
+## Fourth run (4 Nov 2026), batch 2 — worker C
+Read (Shamela PDF = footer page): 1147–1152 (the inheritance verse and the Prophet's exclusion; the fay' and khums – already the matter of `question/do-prophets-leave-an-inheritance`, not rewritten), 1321–1326 (Khalid, the Banu Jadhima, al-Yamama), 1667–1672 (not punishing Khalid for Malik ibn Nuwayra), 2119–2129 (the hadith of the rank of Aaron and al-Hilli's fourth proof).
+- New questions (Ibn Taymiyya first; al-Hilli only as quoted, labelled and marked as needing his own text; `sensitivity: contested`): `question/does-the-hadith-of-the-rank-of-aaron-designate-ali`, `question/should-khalid-have-been-punished-for-killing-malik-ibn-nuwayra` (the editor's footnote quoting Ibn Kathir's two accounts of the killing labelled as the editor's).
+- Fix: `question/does-the-ghadir-hadith-designate-ali-as-imam` had a typed Qur'an fragment in its Arabic summary; replaced by the verse reference (al-Ma'ida 67).
+- Flags: Ibn Taymiyya's harsh wording about his opponents (pp. 1323, 2127–2128) recorded as his.
+
+## Next
+Fadak as a gift (the "nihla" claim, from p. 1160 on), Umar and the "pen and paper" episode, the Nawasib and the Zaydiyya in Ibn Taymiyya's classification (p. 2127), the eternity-of-the-world digression (105–275).

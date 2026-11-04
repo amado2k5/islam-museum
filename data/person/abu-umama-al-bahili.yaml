@@ -1,25 +1,38 @@
 id: person/abu-umama-al-bahili
 class: person
-label:
-  ar: "أبو أمامة الباهلي"
-  en: "Abu Umama al-Bahili"
-roles: [scholar]
+aliases: [person/abu-umama-al-sudayy]   # merged 4 Nov 2026: the Futuh al-Buldan record for the same Companion (al-Araba); duplicate file removed, the id still resolves
+label: { ar: "أبو أمامة الباهلي", en: "Abu Umama al-Bahili", ur: "ابو امامہ باہلی" }
+names:
+  - { kind: full, lang: ar, value: "صدي بن عجلان بن وهب الباهلي" }
+  - { kind: kunya, lang: ar, value: "أبو أمامة" }
 gender: male
+roles: [companion, commander]
+traditions: [sunni]
 summary:
-  ar: "بطاقة أولية لصُدَي بن عجلان أبي أمامة الباهلي، صحابي الشام ومحدثها في القرن السابع، توفي نحو سنة ٧٠٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sudayy ibn Ajlan Abu Umama al-Bahili, the companion and hadith transmitter of Syria in the seventh century, d. about 705; the biographical entry is not yet checked on the page."
+  ar: "صُديّ بن عجلان بن وهب، أبو أمامة الباهلي، غلبت عليه كنيته ولم يُختلف في اسمه؛ من المكثرين في الرواية وأكثر حديثه عند الشاميين، سكن مصر ثم حمص ومات بها سنة 81هـ ابن إحدى وتسعين، وقيل سنة 86، وهو عند ابن عيينة آخر من بقي بالشام من الصحابة {cite:istiab-alam-2002 p. 348, 772}؛ وكان من أمراء السرايا في فتوح الشام، وجهه يزيد بن أبي سفيان إلى العربة فهزم الروم {cite:futuh-buldan-maarif-1407 p.151-152}."
+  en: "Sudayy ibn 'Ajlan ibn Wahb, Abu Umama al-Bahili, known by his kunya, with no disagreement on his name; a prolific narrator whose hadith is mostly with the Syrians, he lived in Egypt, then Hims, and died there in 81 AH aged ninety-one, or in 86; for Ibn 'Uyayna he was the last Companion left in Syria {cite:istiab-alam-2002 p. 348, 772}; he led raiding parties in the conquest of Syria, and Yazid ibn Abi Sufyan sent him to al-'Araba, where he routed the Byzantines {cite:futuh-buldan-maarif-1407 p.151-152}."
+  ur: "صُدی بن عجلان بن وہب، ابو امامہ باہلی، جن کی کنیت غالب آ گئی اور ان کے نام میں کوئی اختلاف نہیں؛ کثیر الروایہ صحابی جن کی اکثر حدیث اہلِ شام کے پاس ہے؛ وہ مصر پھر حمص میں رہے اور وہیں 81ھ میں اکانوے برس کی عمر میں، یا 86ھ میں فوت ہوئے؛ ابن عیینہ کے نزدیک وہ شام میں باقی رہنے والے آخری صحابی تھے {cite:istiab-alam-2002 p. 348, 772}؛ فتوحِ شام میں سرایا کے امیر رہے، اور یزید بن ابی سفیان نے انہیں عربہ بھیجا جہاں انہوں نے رومیوں کو شکست دی {cite:futuh-buldan-maarif-1407 p.151-152}۔"
+died: { edtf: "0700/0701", hijri: "0081", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 81هـ وهو ابن 91 سنة، ويقال سنة 86 {cite:istiab-alam-2002 p. 348, 772}؛ المقابل الميلادي مشتق.", sources: [source/istiab-alam-2002] }
 wings: [people]
-regions: [levant-iraq]
-periods: [period/umayyad]
-sources: [source/al-aalam]
+regions: [arabia, levant-iraq, egypt-nile]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+story_roles:
+  - { role: companion, status: tradition, note: "الاستيعاب ترجمة 1227 ص 348 وترجمة 2811 ص 772", sources: [source/istiab-alam-2002] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: lived_in, target: place/homs, note: "سكن حمص ومات بها {cite:istiab-alam-2002 p. 348, 772}", sources: [source/istiab-alam-2002] }
+  - { type: died_in, target: place/homs, sources: [source/istiab-alam-2002] }
 external_ids:
   wikidata: Q4670407
+sources: [source/istiab-alam-2002, source/futuh-buldan-maarif-1407, source/al-aalam]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0026
+  source: "al-Isti'ab (Dar al-A'lam 2002) p. 348 entry 1227 and p. 772 entry 2811; Futuh al-Buldan (Ma'arif 1407) pp. 151-152 (merged record abu-umama-al-sudayy); Devin Wikidata card"
+  generated_by: "Claude Code (OCR-harvest worker A)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (OCR-harvest worker A); merged from a Devin Wikidata card and a Devin Futuh al-Buldan record (lib-futuh-buldan-batch-8)"

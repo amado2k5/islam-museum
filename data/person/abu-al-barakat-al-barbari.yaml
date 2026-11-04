@@ -1,0 +1,24 @@
+id: person/abu-al-barakat-al-barbari
+class: person
+label: { ar: "أبو البركات البربري", en: "Abu al-Barakat al-Barbari", ur: "ابو البرکات البربری" }
+names:
+  - { value: "أبو البركات البربري المغربي", kind: full }
+gender: male
+summary:
+  ar: "رجل مغربي حافظ للقرآن يروي ابن بطوطة عن أهل جزائر ذيبة المهل أن ملكهم شنورازة وأهل الجزائر أسلموا على يده وتمذهبوا بمذهب مالك، وأنه قرأ ذلك منقوشا على مقصورة جامعها {cite:rihla-ibn-battuta-ihya-al-ulum-1987 p. 590}."
+  en: "A Maghribi who knew the Qur'an by heart, at whose hands, Ibn Battuta reports from the people of the Maldives, their king Shanuraza and the islanders became Muslim and adopted the school of Malik; Ibn Battuta says he read this carved on the maqsura of their mosque {cite:rihla-ibn-battuta-ihya-al-ulum-1987 p. 590}."
+  ur: "ایک مغربی حافظِ قرآن، جس کے بارے میں ابن بطوطہ مالدیپ کے لوگوں سے نقل کرتا ہے کہ ان کا بادشاہ شنورازہ اور اہلِ جزائر اس کے ہاتھ پر مسلمان ہوئے اور مالکی مذہب اختیار کیا؛ ابن بطوطہ کہتا ہے کہ اس نے یہ بات ان کی جامع مسجد کے مقصورے پر کندہ پڑھی {cite:rihla-ibn-battuta-ihya-al-ulum-1987 p. 590}۔"
+roles: [preacher]
+wings: [people, place]
+themes: [converts-and-leavers, sects-and-schools]
+regions: [maghreb, south-asia]
+relations:
+  - { type: traveled_to, target: place/maldives, sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987] }
+sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987]
+provenance:
+  layer: own-research
+  source: "rihla ed. al-Uryan, Beirut 1987, pp. 589-590"
+  generated_by: "Claude Code (OCR-harvest worker L)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker L)" }

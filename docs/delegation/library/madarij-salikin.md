@@ -37,3 +37,12 @@ The stations proper begin in later quarters (not in this item); the `madsal` ite
 
 ## Next
 In the same volume: stations not yet in the graph — reflection, firar (fleeing, PDF ~387), i'tisam (~379), ikhbat (~437), ri'aya (~483), thiqa (~549); existing thin station cards (tafwid, taslim) could take Ibn al-Qayyim's definitions.
+
+## Fourth run (4 Nov 2026), batch 1 — worker C
+Read (`madsal` = `source/madarij-salikin-mukhtar-v1`, PDF pages): 378–395 (holding fast, fleeing, training), 395–409 (hearing: kinds of the heard, the permitters' arguments, the reply and the three rules), 415–425 (sorrow, the opening of fear), 436–440 (ikhbat), 482–488 (ri'aya, the opening of muraqaba).
+- New concepts (ar/en/ur): `concept/itisam`, `concept/firar`, `concept/riyada`, `concept/huzn`, `concept/ikhbat`, `concept/riaya`.
+- New question: `question/is-sufi-sama-of-singing-lawful` (Ibn al-Qayyim first; the permitters' arguments only as he reports them, unnamed, labelled `sufi`, marked as needing the holders' own sources; `sensitivity: contested`).
+- Flags: this edition reproduces earlier footnotes signed «الفقي» (and one quoting Rashid Rida); those judgements (e.g. linking Sufis to Christian monasticism, p. 483; the "unity of being" note, p. 394) are labelled as the annotator's. Ibn al-Qayyim's judgements on "heretics among the Sufis" (p. 389) and on singing are recorded as his. Qur'an verses linked as passages only, never typed.
+
+## Next
+Al-Harawi's degrees of hearing (PDF 412–414) for the sama' card; in the same volume: ishfaq (~425), khushu' (~430, `concept/khushu-fiqh` is a fiqh card), tabattul (456), raghba (478), ta'zim hurumat Allah, tahdhib/tasfiya; thin cards tafwid could take Ibn al-Qayyim's definitions.
